@@ -932,6 +932,32 @@
     el.querySelectorAll(".tc-time").forEach((b) => (b.onclick = () => seek(cues[+b.dataset.i].t)));
   }
 
+  // All subtitled videos on one page, by level; "#videos.<id>" plays one.
+  const allVideos = () => Promise.all(["lessons/videos.json", "lessons/videos-c1.json"].map((f) => getJSON(f).then((d) => d.videos || []).catch(() => []))).then((a) => a.flat());
+  async function renderVideos(id) {
+    hideLookup();
+    const vids = await allVideos(), lessonTitle = (lid) => course.units.flatMap((u) => u.lessons).find((l) => l.id === lid && l.file);
+    const v = id && vids.find((x) => x.id === id);
+    if (v) {
+      document.title = `${v.title} · Videos`;
+      lookCtx = { ...(v.gloss || {}) };
+      const rel = (v.lessons || []).map(lessonTitle).filter(Boolean);
+      view.innerHTML = `<p class="crumbs"><a href="#videos">← All videos</a></p><section class="block">${videoHTML(v)}</section>
+        ${rel.length ? `<section class="block"><h3>Lessons with this video</h3><ul class="vid-rel">${rel.map((l) => `<li><a href="#${l.id}"><span lang="el">${esc(l.el)}</span> · ${esc(l.title)}</a></li>`).join("")}</ul></section>` : ""}`;
+      wrapGreek(view);
+      wireVideo(view.querySelector(".video"), v);
+      return window.scrollTo(0, 0);
+    }
+    document.title = "Videos · Ελληνικά";
+    const levels = [...new Set(vids.map((x) => x.level || "Other"))];
+    view.innerHTML = `<p class="crumbs"><a href="#">← Back to the course</a></p>
+      <section class="intro"><h1>Videos</h1><p class="sub">${vids.length} videos with synced Greek subtitles. Tap any word in the subtitles to look it up.</p></section>
+      ${levels.map((lv) => `<section class="block"><h2>${esc(lv)}</h2><ul class="lessons">${vids.filter((x) => (x.level || "Other") === lv).map((x) => `
+        <li><a class="lesson-row" href="#videos.${esc(x.id)}"><span class="lr-num">▶</span>
+          <span class="lr-main"><span class="lr-title" lang="el">${esc(x.title)}</span><span class="lr-en">${esc(x.title_en || x.credit || "")}${x.cues?.length ? ` · ${mmss((x.end || x.cues[x.cues.length - 1].d || 0) - (x.start || 0))}` : ""}</span></span></a></li>`).join("")}</ul></section>`).join("")}`;
+    window.scrollTo(0, 0);
+  }
+
   /* ---------- views ---------- */
   let course = null;
   const view = $("#view");
@@ -989,7 +1015,7 @@
       <section class="intro hero"${photos.length ? ` style="background-image:url('img/${esc(photos[new Date().getDate() % photos.length].file)}')"` : ""}>
         <div class="hero-in"><span class="hero-el" lang="el">Ελληνικά</span><h1>${esc(course.title)}</h1>
         <div class="meander" aria-hidden="true"></div>
-        <div class="hero-stats"><span><b>${vocabCounts().known}</b> words known</span><span><b>${done}</b>/${all.length} lessons</span><a class="btn small" href="#daily-words">Word recall</a><a class="btn small" href="#library">Resources</a></div></div>
+        <div class="hero-stats"><span><b>${vocabCounts().known}</b> words known</span><span><b>${done}</b>/${all.length} lessons</span><a class="btn small" href="#daily-words">Word recall</a><a class="btn small" href="#videos">Videos</a><a class="btn small" href="#library">Resources</a></div></div>
       </section>
       ${tracker()}
       <div class="unit-tabs" role="tablist" aria-label="Units">${course.units.map((u, i) => `<button data-i="${i}">${esc(u.label.replace(" · ", " "))}</button>`).join("")}</div>
@@ -1012,7 +1038,7 @@
         </section>`).join("")}</div>
         ${pagerNav()}
       </div>
-      <p class="src"><a href="#library">Resources</a> · <a href="#credits">Credits</a></p>`;
+      <p class="src"><a href="#videos">Videos</a> · <a href="#library">Resources</a> · <a href="#credits">Credits</a></p>`;
     // Open on the unit holding the first lesson not yet mastered.
     const firstOpen = course.units.findIndex((u) => u.lessons.some((l) => l.file && !(progress[l.id]?.best >= 0.85)));
     const tabs = [...view.querySelectorAll(".unit-tabs button")];
@@ -1260,6 +1286,7 @@
     const h = location.hash.replace(/^#/, "");
     if (!h) return renderHome();
     if (h === "credits") return renderCredits();
+    if (h === "videos" || h.startsWith("videos.")) return renderVideos(h.split(".")[1]);
     const [id, tab] = h.split(".");
     const addon = (window.EllinikaAddons || {})[id];
     if (addon) { hideLookup(); return addon(tab); }
