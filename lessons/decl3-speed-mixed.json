@@ -1,0 +1,1383 @@
+{
+ "el": "Κλίση με ταχύτητα: μικτή εξάσκηση",
+ "title": "Declension at speed: rewrites, full noun phrases, error-spotting, news reading",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Speed comes from deciding once",
+   "text": "This lesson is a drill session: no new grammar, just the forms of the last three lessons at speed. Automaticity comes from a fixed order of decisions, made **once per phrase**, not word by word.\n\n**1. Gender and class from the dictionary form.** η μέθοδος → feminine, άνθρωπος-endings. το έθνος → neuter -ος, plural -η. η απόφαση → -ση, plural -εις. ο διεθνής → -ής, one form for m/f.\n\n**2. Case and number from the slot.** Subject or after είναι → nominative. Object or after σε, για, με, από, υπό, παρά, όσον αφορά → accusative. After λόγω, εν όψει, κατά τη διάρκεια, ενώπιον, στο πλαίσιο, or as 'of' → genitive.\n\n**3. Run the phrase left to right**: article, adjective, noun, with one ending set. **των** → every word in the genitive plural: **των διεθνών οργανισμών, των επειγουσών αποφάσεων, των συνεχών προβλημάτων**.\n\n**4. In a chain, change only the head.** λόγω **της αύξησης** των τιμών της ενέργειας.\n\n**5. Stress check before you speak.** Genitive plural: -ση → **-σεων**, neuter -ος → **-ών**, -μα → **-μάτων**, -ον → **-όντων**, -ουσα → **-ουσών**. Everything else keeps the stress of the nominative unless it is a learned -ος (μεθόδου) or a long -ση plural (αποφάσεις).\n\nFor **error-spotting**, run the same checklist backwards: does the article match the ending? Does the ending match the class? Is the stress where the class puts it?"
+  },
+  {
+   "type": "table",
+   "title": "Five phrases through all six cells",
+   "head": [
+    "",
+    "ο διεθνής οργανισμός",
+    "η ακριβής μέθοδος",
+    "η επείγουσα απόφαση",
+    "το συνεχές πρόβλημα",
+    "το κυβερνών κόμμα"
+   ],
+   "rows": [
+    [
+     "nom. sg.",
+     "ο διεθνής οργανισμός",
+     "η ακριβής μέθοδος",
+     "η επείγουσα απόφαση",
+     "το συνεχές πρόβλημα",
+     "το κυβερνών κόμμα"
+    ],
+    [
+     "acc. sg.",
+     "τον διεθνή οργανισμό",
+     "την ακριβή μέθοδο",
+     "την επείγουσα απόφαση",
+     "το συνεχές πρόβλημα",
+     "το κυβερνών κόμμα"
+    ],
+    [
+     "gen. sg.",
+     "του **διεθνούς** οργανισμού",
+     "της **ακριβούς μεθόδου**",
+     "της επείγουσας απόφασης",
+     "του **συνεχούς προβλήματος**",
+     "του **κυβερνώντος κόμματος**"
+    ],
+    [
+     "nom. pl.",
+     "οι **διεθνείς** οργανισμοί",
+     "οι **ακριβείς** μέθοδοι",
+     "οι επείγουσες **αποφάσεις**",
+     "τα **συνεχή** προβλήματα",
+     "τα **κυβερνώντα** κόμματα"
+    ],
+    [
+     "acc. pl.",
+     "τους διεθνείς οργανισμούς",
+     "τις ακριβείς **μεθόδους**",
+     "τις επείγουσες αποφάσεις",
+     "τα συνεχή προβλήματα",
+     "τα κυβερνώντα κόμματα"
+    ],
+    [
+     "gen. pl.",
+     "των διεθνών οργανισμών",
+     "των ακριβών **μεθόδων**",
+     "των **επειγουσών αποφάσεων**",
+     "των συνεχών **προβλημάτων**",
+     "των **κυβερνώντων κομμάτων**"
+    ]
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Γρήγορα, χωρίς πολλή σκέψη",
+   "setting": "Eleni, a Greek tutor, gives Devon a timed declension drill at the end of an online lesson. Informal εσύ.",
+   "lines": [
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Έτοιμος; Θα σου λέω μια φράση κι εσύ θα μου τη δίνεις σε άλλη πτώση. Γρήγορα, χωρίς πολλή σκέψη.",
+     "en": "Ready? I'll give you a phrase and you give it back to me in another case. Fast, without too much thinking."
+    },
+    {
+     "who": "Ντέβον",
+     "voice": "m",
+     "el": "Έτοιμος. Αλλά όχι πολύ γρήγορα στην αρχή, σε παρακαλώ.",
+     "en": "Ready. But not too fast at the start, please."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Πρώτη: η ακριβής μέθοδος. Στη γενική.",
+     "en": "First one: the exact method. In the genitive."
+    },
+    {
+     "who": "Ντέβον",
+     "voice": "m",
+     "el": "Της ακριβής... όχι, συγγνώμη. Της ακριβούς μεθόδου.",
+     "en": "Of the exact... no, sorry. Of the exact method."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Μπράβο, το διόρθωσες μόνος σου. Τώρα στον πληθυντικό, ονομαστική.",
+     "en": "Well done, you corrected it yourself. Now in the plural, nominative."
+    },
+    {
+     "who": "Ντέβον",
+     "voice": "m",
+     "el": "Οι ακριβείς μέθοδοι. Το άρθρο είναι θηλυκό, αλλά η κατάληξη είναι σαν του αρσενικού.",
+     "en": "The exact methods. The article is feminine, but the ending is like a masculine one."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Ακριβώς. Επόμενη: το συνεχές πρόβλημα. Γενική πληθυντικού.",
+     "en": "Exactly. Next: the constant problem. Genitive plural."
+    },
+    {
+     "who": "Ντέβον",
+     "voice": "m",
+     "el": "Των συνεχών προβλημάτων. Αυτό ήταν εύκολο.",
+     "en": "Of the constant problems. That was easy."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Για να δούμε. Η επείγουσα ανάγκη, γενική πληθυντικού.",
+     "en": "Let's see. The urgent need, genitive plural."
+    },
+    {
+     "who": "Ντέβον",
+     "voice": "m",
+     "el": "Των επειγόντων... όχι, των επειγουσών αναγκών. Στο θηλυκό ο τόνος πάει στη λήγουσα.",
+     "en": "Of the urgent... no, of the urgent needs. In the feminine the stress goes on the last syllable."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Τέλεια. Τώρα βρες το λάθος: λόγω της αύξηση των τιμών, ψωνίζουμε λιγότερο.",
+     "en": "Perfect. Now find the mistake: because of the rise in prices, we shop less."
+    },
+    {
+     "who": "Ντέβον",
+     "voice": "m",
+     "el": "Λόγω της αύξησης. Μετά το λόγω θέλει γενική, και το άρθρο το δείχνει ήδη.",
+     "en": "Because of the rise. After λόγω you need the genitive, and the article already shows it."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Σωστά. Και μία ακόμα: ο πρόεδρος του συλλόγου των κατοίκων. Βάλ' το μετά το με.",
+     "en": "Right. And one more: the chair of the residents' association. Put it after με."
+    },
+    {
+     "who": "Ντέβον",
+     "voice": "m",
+     "el": "Με τον πρόεδρο του συλλόγου των κατοίκων. Αλλάζει μόνο η αρχή της φράσης.",
+     "en": "With the chair of the residents' association. Only the start of the phrase changes."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Αυτό είναι το μυστικό των μεγάλων φράσεων. Τελευταία: κύριε υπουργέ, στη γενική.",
+     "en": "That's the secret of long phrases. Last one: 'Minister', in the genitive."
+    },
+    {
+     "who": "Ντέβον",
+     "voice": "m",
+     "el": "Του κυρίου υπουργού. Πέντε στα πέντε;",
+     "en": "Of the minister. Five out of five?"
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Τέσσερα και μισό, λόγω της πρώτης. Αλλά πολύ καλύτερα από την προηγούμενη φορά!",
+     "en": "Four and a half, because of the first one. But much better than last time!"
+    },
+    {
+     "who": "Ντέβον",
+     "voice": "m",
+     "el": "Θα το δεχτώ. Την επόμενη φορά θα είναι πέντε στα πέντε.",
+     "en": "I'll take it. Next time it'll be five out of five."
+    }
+   ],
+   "gloss": {
+    "Ελένη": "Ελένη — Eleni (woman's name)",
+    "Ντέβον": "Ντέβον — Devon (name)",
+    "πτώση": "πτώση — case (grammar); fall",
+    "ακριβής": "ακριβής — exact",
+    "ακριβούς": "ακριβής — exact (gen.)",
+    "ακριβείς": "ακριβής — exact (pl.)",
+    "μεθόδου": "μέθοδος — method (fem., gen.)",
+    "μέθοδοι": "μέθοδος — method (pl.)",
+    "μέθοδος": "μέθοδος — method (fem.)",
+    "διόρθωσες": "διορθώνω — to correct",
+    "ονομαστική": "ονομαστική — nominative",
+    "κατάληξη": "κατάληξη — ending",
+    "αρσενικού": "αρσενικό — masculine (gender)",
+    "θηλυκό": "θηλυκό — feminine (gender)",
+    "συνεχές": "συνεχής — constant, continuous (neuter)",
+    "συνεχών": "συνεχής — constant (gen. pl.)",
+    "γενική": "γενική — genitive",
+    "πληθυντικού": "πληθυντικός — plural (gen.)",
+    "πληθυντικό": "πληθυντικός — plural",
+    "επείγουσα": "επείγων — urgent (fem.)",
+    "επειγόντων": "επείγων — urgent (masc./neut. gen. pl.)",
+    "επειγουσών": "επείγων — urgent (fem. gen. pl.)",
+    "λήγουσα": "λήγουσα — last syllable",
+    "τόνος": "τόνος — stress, accent",
+    "αύξηση": "αύξηση — rise, increase",
+    "αύξησης": "αύξηση — rise (gen.)",
+    "λόγω": "λόγω — because of (+ gen.)",
+    "συλλόγου": "σύλλογος — association (gen.)",
+    "κατοίκων": "κάτοικος — resident (gen. pl.)",
+    "Βάλ'": "βάζω — to put (imperative βάλε)",
+    "υπουργέ": "υπουργός — minister (vocative)",
+    "κυρίου": "κύριος — Mr, sir (gen.)",
+    "υπουργού": "υπουργός — minister (gen.)",
+    "δεχτώ": "δέχομαι — to accept",
+    "μυστικό": "μυστικό — secret",
+    "παραλήγουσα": "παραλήγουσα — second-to-last syllable",
+    "προπαραλήγουσα": "προπαραλήγουσα — third-to-last syllable"
+   },
+   "questions": [
+    {
+     "prompt": "Ποιο λάθος έκανε ο Ντέβον στην αρχή;",
+     "answer": "Είπε «της ακριβής» αντί για «της ακριβούς»",
+     "options": [
+      "Είπε «της ακριβής» αντί για «της ακριβούς»",
+      "Είπε «ο μέθοδος» αντί για «η μέθοδος»",
+      "Είπε «του υπουργέ» αντί για «του υπουργού»"
+     ]
+    },
+    {
+     "prompt": "Πού πηγαίνει ο τόνος στη γενική πληθυντικού του θηλυκού «επείγουσα»;",
+     "answer": "Στη λήγουσα",
+     "options": [
+      "Στη λήγουσα",
+      "Στην παραλήγουσα",
+      "Στην προπαραλήγουσα"
+     ]
+    },
+    {
+     "prompt": "Τι αλλάζει όταν μια μεγάλη φράση μπαίνει μετά το «με»;",
+     "answer": "Μόνο η αρχή της φράσης",
+     "options": [
+      "Μόνο η αρχή της φράσης",
+      "Όλες οι λέξεις της φράσης",
+      "Μόνο το τέλος της φράσης"
+     ]
+    },
+    {
+     "prompt": "Τι βαθμό πήρε ο Ντέβον;",
+     "answer": "Τέσσερα και μισό",
+     "options": [
+      "Τέσσερα και μισό",
+      "Πέντε στα πέντε",
+      "Τρία"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "People phrases, vocative included",
+   "head": [
+    "",
+    "ο κύριος υπουργός",
+    "η κυρία υπουργός",
+    "ο αγαπητός συνάδελφος",
+    "η αγαπητή συνάδελφος"
+   ],
+   "rows": [
+    [
+     "nom. sg.",
+     "ο κύριος υπουργός",
+     "η κυρία υπουργός",
+     "ο αγαπητός συνάδελφος",
+     "η αγαπητή συνάδελφος"
+    ],
+    [
+     "acc. sg.",
+     "τον κύριο υπουργό",
+     "την κυρία υπουργό",
+     "τον αγαπητό συνάδελφο",
+     "την αγαπητή συνάδελφο"
+    ],
+    [
+     "gen. sg.",
+     "του **κυρίου** υπουργού",
+     "της κυρίας **υπουργού**",
+     "του αγαπητού **συναδέλφου**",
+     "της αγαπητής **συναδέλφου**"
+    ],
+    [
+     "voc. sg.",
+     "**κύριε υπουργέ**",
+     "**κυρία υπουργέ**",
+     "**αγαπητέ συνάδελφε**",
+     "**αγαπητή συνάδελφε**"
+    ],
+    [
+     "nom. pl.",
+     "οι κύριοι υπουργοί",
+     "—",
+     "οι αγαπητοί συνάδελφοι",
+     "οι αγαπητές συνάδελφοι"
+    ],
+    [
+     "gen. pl.",
+     "των **κυρίων** υπουργών",
+     "—",
+     "των αγαπητών **συναδέλφων**",
+     "των αγαπητών συναδέλφων"
+    ],
+    [
+     "voc. pl.",
+     "κύριοι υπουργοί",
+     "—",
+     "αγαπητοί συνάδελφοι",
+     "αγαπητές συνάδελφοι"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Error-spotting checklist",
+   "head": [
+    "Wrong",
+    "Right",
+    "Check that catches it"
+   ],
+   "rows": [
+    [
+     "*της συνεχής βροχής*",
+     "της **συνεχούς** βροχής",
+     "-ής genitive is -ούς"
+    ],
+    [
+     "*ο μέθοδος αυτός*",
+     "**η μέθοδος αυτή**",
+     "learned -ος can be feminine"
+    ],
+    [
+     "*του περιβάλλον*",
+     "του **περιβάλλοντος**",
+     "hidden stem -οντ-"
+    ],
+    [
+     "*στο τέλος του έτου*",
+     "στο τέλος του **έτους**",
+     "neuter -ος genitive is -ους"
+    ],
+    [
+     "*τα ακριβές στοιχεία*",
+     "τα **ακριβή** στοιχεία",
+     "neuter plural of -ής is -ή"
+    ],
+    [
+     "*των θέματων*",
+     "των **θεμάτων**",
+     "-μα genitive plural is -μάτων"
+    ],
+    [
+     "*οι αποφάσης*",
+     "οι **αποφάσεις**",
+     "-ση plural is -εις"
+    ],
+    [
+     "*πολύ δουλειά*",
+     "**πολλή** δουλειά",
+     "feminine of πολύς is πολλή"
+    ],
+    [
+     "*λόγω το ότι*",
+     "λόγω **του** ότι",
+     "the clause article takes the case"
+    ],
+    [
+     "*υπό της αιγίδας*",
+     "υπό **την αιγίδα**",
+     "υπό + accusative"
+    ],
+    [
+     "*όσον αφορά του κόστους*",
+     "όσον αφορά **το κόστος**",
+     "όσον αφορά + accusative"
+    ],
+    [
+     "*ο πιο καλύτερος*",
+     "**ο καλύτερος**",
+     "no double comparison"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Rewrites: same sentence, new slot",
+   "items": [
+    {
+     "el": "Η απόφαση της κυβέρνησης ήταν σαφής. → Οι αποφάσεις της κυβέρνησης ήταν σαφείς.",
+     "en": "The government's decision was clear. → The government's decisions were clear."
+    },
+    {
+     "el": "Το κράτος πληρώνει το κόστος. → Τα κράτη πληρώνουν το κόστος.",
+     "en": "The state pays the cost. → The states pay the cost."
+    },
+    {
+     "el": "Η είσοδος του κτηρίου είναι κλειστή. → Οι είσοδοι του κτηρίου είναι κλειστές.",
+     "en": "The building's entrance is closed. → The building's entrances are closed."
+    },
+    {
+     "el": "Ο διεθνής οργανισμός ζήτησε στοιχεία. → Τα στοιχεία του διεθνούς οργανισμού…",
+     "en": "The international organisation asked for data. → The international organisation's data…"
+    },
+    {
+     "el": "Η αύξηση των τιμών συνεχίζεται. → Λόγω της αύξησης των τιμών…",
+     "en": "The price rise continues. → Because of the price rise…"
+    },
+    {
+     "el": "Η συνεδρίαση της επιτροπής κράτησε ώρες. → Κατά τη διάρκεια της συνεδρίασης της επιτροπής…",
+     "en": "The committee meeting lasted hours. → During the committee meeting…"
+    },
+    {
+     "el": "Το ενδιαφέρον θέμα συζητήθηκε. → Η συζήτηση του ενδιαφέροντος θέματος…",
+     "en": "The interesting topic was discussed. → The discussion of the interesting topic…"
+    },
+    {
+     "el": "Ο καλύτερος υποψήφιος πήρε τη θέση. → Η επιλογή του καλύτερου υποψηφίου…",
+     "en": "The best candidate got the job. → The choice of the best candidate…"
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Find and fix",
+   "items": [
+    {
+     "el": "✗ Λόγω της συνεχής βροχής… → ✓ Λόγω της συνεχούς βροχής…",
+     "en": "Because of the continuous rain…"
+    },
+    {
+     "el": "✗ Η ταινία ήταν πολύ ενδιαφερόμενη. → ✓ Η ταινία ήταν πολύ ενδιαφέρουσα.",
+     "en": "The film was very interesting."
+    },
+    {
+     "el": "✗ Η προστασία του περιβάλλον… → ✓ Η προστασία του περιβάλλοντος…",
+     "en": "Protecting the environment…"
+    },
+    {
+     "el": "✗ Οι διεθνής οργανισμοί… → ✓ Οι διεθνείς οργανισμοί…",
+     "en": "The international organisations…"
+    },
+    {
+     "el": "✗ Η κεντρική είσοδο είναι κλειστή. → ✓ Η κεντρική είσοδος είναι κλειστή.",
+     "en": "The main entrance is closed."
+    },
+    {
+     "el": "✗ Τα δικαιώματα των εργαζόμενους… → ✓ Τα δικαιώματα των εργαζομένων…",
+     "en": "The employees' rights…"
+    },
+    {
+     "el": "✗ Κατά τη διάρκεια τη συνεδρίαση… → ✓ Κατά τη διάρκεια της συνεδρίασης…",
+     "en": "During the session…"
+    },
+    {
+     "el": "✗ Η ένταση του φωτού… → ✓ Η ένταση του φωτός…",
+     "en": "The intensity of the light…"
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes under time pressure.** (1) Stopping halfway through a phrase: *των διεθνών οργανισμοί* → **των διεθνών οργανισμών**: one ending set for the whole phrase. (2) Matching the adjective's ending to the noun's look instead of its gender: *η κύριος είσοδος* → **η κύρια είσοδος**. (3) Letting a long chain drift: *λόγω της αύξησης τις τιμές* → **των τιμών**. (4) Applying -ών to everything in the genitive plural: *των μεθοδών, των αποφασεών* → **των μεθόδων, των αποφάσεων**. (5) Forgetting the feminine of -ων: *των επειγόντων αποφάσεων* → **των επειγουσών αποφάσεων**. (6) Vocative of -ος titles: *κύριος υπουργός!* → **κύριε υπουργέ!**, also for a woman: **κυρία υπουργέ**. (7) Over-correcting into learned forms: in everyday speech **της απόφασης**, not *της αποφάσεως*."
+  },
+  {
+   "type": "culture",
+   "title": "Η γλώσσα των τίτλων",
+   "text": "Greek headlines love the noun. Instead of a verb they stack a nominative head and a chain of genitives and prepositions: **Σε ισχύ η αύξηση των συντάξεων** 'Pension rise takes effect', **Ανησυχία για τη μείωση των αφίξεων** 'Concern over the fall in arrivals', **Στα ύψη οι τιμές των ενοικίων** 'Rents sky-high'. The verb is often simply left out, and the subject comes last. Reading the morning **πρωτοσέλιδα** 'front pages' is good declension training: every headline makes you find the head, decide its case and read the genitive tail as a single unit."
+  },
+  {
+   "type": "reading",
+   "title": "Ρεκόρ αφίξεων, αλλά και προβλήματα",
+   "text": "Νέο ρεκόρ αφίξεων κατέγραψε φέτος το νησί, σύμφωνα με τα στοιχεία της τοπικής ένωσης ξενοδόχων. Η αύξηση του αριθμού των επισκεπτών κατά τη διάρκεια των καλοκαιρινών μηνών ξεπέρασε το δεκαπέντε τοις εκατό σε σχέση με πέρσι. Τα έσοδα των επιχειρήσεων του κλάδου αυξήθηκαν επίσης, κυρίως λόγω της αύξησης των τιμών των δωματίων.\n\nΗ εικόνα όμως δεν είναι μόνο θετική. Ο πρόεδρος του συλλόγου των κατοίκων της παλιάς πόλης μιλά για την άλλη όψη του νομίσματος. Η έλλειψη νερού, η κυκλοφοριακή συμφόρηση στους δρόμους του κέντρου και η αύξηση των ενοικίων είναι, όπως λέει, τα μεγαλύτερα προβλήματα της καθημερινής ζωής των μόνιμων κατοίκων. «Οι νέοι γιατροί του κέντρου υγείας και οι δάσκαλοι των σχολείων μας δεν βρίσκουν σπίτι, γιατί οι ιδιοκτήτες προτιμούν τη βραχυχρόνια μίσθωση», εξηγεί.\n\nΗ απόφαση του δημοτικού συμβουλίου για τη δημιουργία νέου χώρου στάθμευσης στην είσοδο της πόλης θεωρείται ένα πρώτο βήμα. Οι εργασίες, που θα γίνουν στο πλαίσιο του προγράμματος ανάπτυξης της Περιφέρειας, θα ξεκινήσουν μετά το τέλος της τουριστικής περιόδου. Σύμφωνα με τον αντιδήμαρχο τεχνικών υπηρεσιών, το κόστος του έργου υπολογίζεται σε δύο εκατομμύρια ευρώ και η διάρκεια των εργασιών δεν θα ξεπεράσει τους οκτώ μήνες. Παράλληλα, ο δήμος ζήτησε από το αρμόδιο υπουργείο την έγκριση της χρηματοδότησης για την επέκταση της μονάδας αφαλάτωσης.\n\nΟι εκπρόσωποι των ξενοδόχων, από την πλευρά τους, ζητούν μεγαλύτερες επενδύσεις στις υποδομές του νησιού και στενότερη συνεργασία μεταξύ των τοπικών φορέων. «Η ανάπτυξη του τουρισμού δεν πρέπει να γίνεται σε βάρος της ποιότητας ζωής των κατοίκων», τονίζει η αντιπρόεδρος της ένωσης. «Χωρίς ικανοποιημένους κατοίκους, δεν θα έχουμε για πολύ ικανοποιημένους επισκέπτες.»",
+   "en": "The island recorded new record arrivals this year, according to figures from the local hoteliers' association. The rise in the number of visitors during the summer months exceeded fifteen per cent compared with last year. The revenue of businesses in the sector also rose, mainly because of higher room prices.\n\nBut the picture is not only positive. The chair of the old town residents' association speaks of the other side of the coin. The water shortage, the traffic congestion in the streets of the centre and the rise in rents are, as he says, the biggest problems in the daily life of permanent residents. 'The young doctors at the health centre and the teachers at our schools can't find a home, because owners prefer short-term letting,' he explains.\n\nThe town council's decision to create a new car park at the entrance to the town is seen as a first step. The works, to be carried out under the Region's development programme, will start after the end of the tourist season. According to the deputy mayor for technical services, the cost of the project is estimated at two million euros and the works will not last more than eight months. At the same time, the municipality has asked the competent ministry to approve funding for the expansion of the desalination plant.\n\nThe hoteliers' representatives, for their part, call for greater investment in the island's infrastructure and closer cooperation between local bodies. 'The development of tourism must not come at the expense of residents' quality of life,' stresses the association's vice-president. 'Without satisfied residents, we won't have satisfied visitors for long.'",
+   "gloss": {
+    "αφίξεων": "άφιξη — arrival (gen. pl.)",
+    "κατέγραψε": "καταγράφω — to record",
+    "ένωσης": "ένωση — association, union (gen.)",
+    "ξενοδόχων": "ξενοδόχος — hotelier (gen. pl.)",
+    "επισκεπτών": "επισκέπτης — visitor (gen. pl.)",
+    "ξεπέρασε": "ξεπερνώ — to exceed",
+    "έσοδα": "έσοδα — revenue, income",
+    "κλάδου": "κλάδος — sector (gen.)",
+    "δωματίων": "δωμάτιο — room (gen. pl.)",
+    "όψη": "όψη — side; η άλλη όψη του νομίσματος 'the other side of the coin'",
+    "νομίσματος": "νόμισμα — coin, currency (gen.)",
+    "έλλειψη": "έλλειψη — lack, shortage",
+    "κυκλοφοριακή": "κυκλοφοριακός — traffic (adj.)",
+    "συμφόρηση": "συμφόρηση — congestion",
+    "ενοικίων": "ενοίκιο — rent (gen. pl.)",
+    "μόνιμων": "μόνιμος — permanent (gen. pl.)",
+    "υγείας": "κέντρο υγείας — health centre (υγεία, gen.)",
+    "ιδιοκτήτες": "ιδιοκτήτης — owner",
+    "βραχυχρόνια": "βραχυχρόνιος — short-term",
+    "μίσθωση": "μίσθωση — letting, lease",
+    "στάθμευσης": "στάθμευση — parking (gen.); χώρος στάθμευσης 'car park'",
+    "θεωρείται": "θεωρούμαι — to be considered",
+    "πλαίσιο": "στο πλαίσιο — within the framework of (+ gen.)",
+    "Περιφέρειας": "Περιφέρεια — the Region (administrative)",
+    "περιόδου": "περίοδος — season, period (fem., gen.)",
+    "αρμόδιο": "αρμόδιος — competent, responsible",
+    "έγκριση": "έγκριση — approval",
+    "χρηματοδότησης": "χρηματοδότηση — funding (gen.)",
+    "επέκταση": "επέκταση — expansion",
+    "μονάδας": "μονάδα — unit, plant (gen.)",
+    "αφαλάτωσης": "αφαλάτωση — desalination (gen.)",
+    "εκπρόσωποι": "εκπρόσωπος — representative",
+    "επενδύσεις": "επένδυση — investment (pl.)",
+    "υποδομές": "υποδομή — infrastructure",
+    "στενότερη": "στενότερος — closer (comparative of στενός)",
+    "φορέων": "φορέας — body, organisation (gen. pl.)",
+    "τονίζει": "τονίζω — to stress",
+    "αντιπρόεδρος": "αντιπρόεδρος — vice-president",
+    "ικανοποιημένους": "ικανοποιημένος — satisfied (acc. pl.)",
+    "βάρος": "σε βάρος — at the expense of (+ gen.)",
+    "αντιδήμαρχο": "αντιδήμαρχος — deputy mayor (acc.)",
+    "υπηρεσιών": "υπηρεσία — service, department (gen. pl.)",
+    "υπολογίζεται": "υπολογίζομαι — to be estimated",
+    "Χαμηλότερα": "χαμηλότερος — lower (neut. pl.)",
+    "κτηρίου": "κτήριο — building (gen.)",
+    "ενικού": "ενικός — singular (gen.)",
+    "ασφαλέστερη": "ασφαλέστερος — safer"
+   },
+   "questions": [
+    {
+     "prompt": "Γιατί αυξήθηκαν κυρίως τα έσοδα των επιχειρήσεων;",
+     "answer": "Λόγω της αύξησης των τιμών των δωματίων",
+     "options": [
+      "Λόγω της αύξησης των τιμών των δωματίων",
+      "Λόγω του νέου χώρου στάθμευσης",
+      "Λόγω της έλλειψης νερού"
+     ]
+    },
+    {
+     "prompt": "Ποιο πρόβλημα έχουν οι νέοι γιατροί και οι δάσκαλοι;",
+     "answer": "Δεν βρίσκουν σπίτι",
+     "options": [
+      "Δεν βρίσκουν σπίτι",
+      "Δεν βρίσκουν δουλειά",
+      "Δεν έχουν αυτοκίνητο"
+     ]
+    },
+    {
+     "prompt": "Πότε θα ξεκινήσουν οι εργασίες για τον χώρο στάθμευσης;",
+     "answer": "Μετά το τέλος της τουριστικής περιόδου",
+     "options": [
+      "Μετά το τέλος της τουριστικής περιόδου",
+      "Κατά τη διάρκεια του καλοκαιριού",
+      "Αμέσως μετά την απόφαση"
+     ]
+    },
+    {
+     "prompt": "Τι ζητούν οι εκπρόσωποι των ξενοδόχων;",
+     "answer": "Μεγαλύτερες επενδύσεις στις υποδομές",
+     "options": [
+      "Μεγαλύτερες επενδύσεις στις υποδομές",
+      "Χαμηλότερα ενοίκια",
+      "Λιγότερους επισκέπτες"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Γενική ενικού: η ακριβής μέθοδος",
+     "answer": "της ακριβούς μεθόδου",
+     "accept": [
+      "της ακριβούς μεθόδου"
+     ],
+     "why": "-ής → -ούς, feminine -ος → -ου with the stress shift."
+    },
+    {
+     "prompt": "Πληθυντικός: το συνεχές πρόβλημα",
+     "answer": "τα συνεχή προβλήματα",
+     "accept": [
+      "τα συνεχή προβλήματα"
+     ],
+     "why": "Neuter plural: -ή and -ματα."
+    },
+    {
+     "prompt": "Γενική πληθυντικού: η επείγουσα ανάγκη",
+     "answer": "των επειγουσών αναγκών",
+     "accept": [
+      "των επειγουσών αναγκών"
+     ],
+     "why": "Feminine -ουσα → -ουσών; ανάγκη → αναγκών."
+    },
+    {
+     "prompt": "Αιτιατική πληθυντικού: ο διεθνής οργανισμός",
+     "answer": "τους διεθνείς οργανισμούς",
+     "accept": [
+      "τους διεθνείς οργανισμούς"
+     ],
+     "why": "-ής plural -είς for masculine and feminine."
+    },
+    {
+     "prompt": "Γενική ενικού: το σημαντικό γεγονός",
+     "answer": "του σημαντικού γεγονότος",
+     "accept": [
+      "του σημαντικού γεγονότος"
+     ],
+     "why": "γεγονός → γεγονότος."
+    },
+    {
+     "prompt": "Ονομαστική πληθυντικού: η κύρια είσοδος",
+     "answer": "οι κύριες είσοδοι",
+     "accept": [
+      "οι κύριες είσοδοι"
+     ],
+     "why": "Feminine adjective, άνθρωπος-type noun."
+    },
+    {
+     "prompt": "Γενική πληθυντικού: το μικρό έθνος",
+     "answer": "των μικρών εθνών",
+     "accept": [
+      "των μικρών εθνών"
+     ],
+     "why": "Neuter -ος → -ών."
+    },
+    {
+     "prompt": "Γενική ενικού: η νέα κυβέρνηση",
+     "answer": "της νέας κυβέρνησης",
+     "accept": [
+      "της νέας κυβέρνησης"
+     ],
+     "why": "-ση genitive singular keeps the stress."
+    },
+    {
+     "prompt": "Γενική ενικού: το φυσικό περιβάλλον",
+     "answer": "του φυσικού περιβάλλοντος",
+     "accept": [
+      "του φυσικού περιβάλλοντος"
+     ],
+     "why": "-ον → -οντος."
+    },
+    {
+     "prompt": "Ονομαστική πληθυντικού: ο ενδιαφερόμενος πολίτης",
+     "answer": "οι ενδιαφερόμενοι πολίτες",
+     "accept": [
+      "οι ενδιαφερόμενοι πολίτες"
+     ],
+     "why": "-όμενος declines like καλός."
+    },
+    {
+     "prompt": "Γενική ενικού: η πλήρης απασχόληση",
+     "answer": "της πλήρους απασχόλησης",
+     "accept": [
+      "της πλήρους απασχόλησης"
+     ],
+     "why": "πλήρης → πλήρους."
+    },
+    {
+     "prompt": "Γενική πληθυντικού: η βαθιά αλλαγή",
+     "answer": "των βαθιών αλλαγών",
+     "accept": [
+      "των βαθιών αλλαγών"
+     ],
+     "why": "βαθύς → βαθιών; αλλαγή → αλλαγών."
+    },
+    {
+     "prompt": "Γενική ενικού: ο μεγαλύτερος κίνδυνος",
+     "answer": "του μεγαλύτερου κινδύνου",
+     "accept": [
+      "του μεγαλύτερου κινδύνου"
+     ],
+     "why": "Comparative keeps its stress; κίνδυνος → κινδύνου."
+    },
+    {
+     "prompt": "Ονομαστική πληθυντικού: το ασφαλές μέρος",
+     "answer": "τα ασφαλή μέρη",
+     "accept": [
+      "τα ασφαλή μέρη"
+     ],
+     "why": "-ής neuter plural -ή; μέρος → μέρη."
+    },
+    {
+     "prompt": "Γενική πληθυντικού: το ασφαλές μέρος",
+     "answer": "των ασφαλών μερών",
+     "accept": [
+      "των ασφαλών μερών"
+     ],
+     "why": "Both on -ών."
+    },
+    {
+     "prompt": "Γενική ενικού: το κυβερνών κόμμα",
+     "answer": "του κυβερνώντος κόμματος",
+     "accept": [
+      "του κυβερνώντος κόμματος"
+     ],
+     "why": "κυβερνών → κυβερνώντος; κόμμα → κόμματος."
+    },
+    {
+     "prompt": "Ονομαστική πληθυντικού: η σαφής απάντηση",
+     "answer": "οι σαφείς απαντήσεις",
+     "accept": [
+      "οι σαφείς απαντήσεις"
+     ],
+     "why": "σαφής → σαφείς; απάντηση → απαντήσεις."
+    },
+    {
+     "prompt": "Γενική πληθυντικού: η διεθνής σχέση",
+     "answer": "των διεθνών σχέσεων",
+     "accept": [
+      "των διεθνών σχέσεων"
+     ],
+     "why": "διεθνής → διεθνών; σχέση → σχέσεων."
+    },
+    {
+     "prompt": "Αιτιατική πληθυντικού: η νέα μέθοδος",
+     "answer": "τις νέες μεθόδους",
+     "accept": [
+      "τις νέες μεθόδους"
+     ],
+     "why": "Feminine -ος accusative plural: -ους."
+    },
+    {
+     "prompt": "Γενική ενικού: το ενδιαφέρον θέμα",
+     "answer": "του ενδιαφέροντος θέματος",
+     "accept": [
+      "του ενδιαφέροντος θέματος"
+     ],
+     "why": "Two hidden stems: -οντος and -ματος."
+    },
+    {
+     "prompt": "Γενική πληθυντικού: η ανώτατη αρχή",
+     "answer": "των ανώτατων αρχών",
+     "accept": [
+      "των ανώτατων αρχών"
+     ],
+     "why": "ανώτατος keeps its stress; αρχή → αρχών."
+    },
+    {
+     "prompt": "Γενική ενικού: ο συνήθης ύποπτος",
+     "answer": "του συνήθους υπόπτου",
+     "accept": [
+      "του συνήθους υπόπτου",
+      "του συνήθους ύποπτου"
+     ],
+     "why": "συνήθης → συνήθους; ύποπτος → υπόπτου (learned shift)."
+    }
+   ],
+   "n": 16
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Πληθυντικός: Η απόφαση της κυβέρνησης ήταν σαφής. → Οι ___ της κυβέρνησης ήταν σαφείς.",
+     "answer": "αποφάσεις",
+     "accept": [
+      "αποφάσεις"
+     ],
+     "why": "-ση plural: αποφάσεις."
+    },
+    {
+     "prompt": "Πληθυντικός: Το κράτος πληρώνει. → Τα ___ πληρώνουν.",
+     "answer": "κράτη",
+     "accept": [
+      "κράτη"
+     ],
+     "why": "Neuter -ος plural -η."
+    },
+    {
+     "prompt": "Πληθυντικός: Η είσοδος είναι κλειστή. → Οι είσοδοι είναι ___",
+     "answer": "κλειστές",
+     "accept": [
+      "κλειστές"
+     ],
+     "why": "είσοδος is feminine, so the adjective is feminine plural."
+    },
+    {
+     "prompt": "Λόγω ___ (η αύξηση των τιμών του ρεύματος)",
+     "answer": "της αύξησης των τιμών του ρεύματος",
+     "accept": [
+      "της αύξησης των τιμών του ρεύματος"
+     ],
+     "why": "Only the head changes after λόγω."
+    },
+    {
+     "prompt": "Μίλησα με ___ (ο διευθυντής του τμήματος)",
+     "answer": "τον διευθυντή του τμήματος",
+     "accept": [
+      "τον διευθυντή του τμήματος"
+     ],
+     "why": "με + accusative on the head."
+    },
+    {
+     "prompt": "Κατά τη διάρκεια ___ (η επίσκεψη του υπουργού)",
+     "answer": "της επίσκεψης του υπουργού",
+     "accept": [
+      "της επίσκεψης του υπουργού"
+     ],
+     "why": "διάρκεια + genitive."
+    },
+    {
+     "prompt": "Ο πρόεδρος ___ (το νέο κόμμα)",
+     "answer": "του νέου κόμματος",
+     "accept": [
+      "του νέου κόμματος"
+     ],
+     "why": "Possessive genitive."
+    },
+    {
+     "prompt": "Τα μέλη ___ (η διεθνής επιτροπή)",
+     "answer": "της διεθνούς επιτροπής",
+     "accept": [
+      "της διεθνούς επιτροπής"
+     ],
+     "why": "διεθνής → διεθνούς."
+    }
+   ],
+   "n": 6
+  },
+  {
+   "gen": "decline",
+   "ids": [
+    "f-η-εις",
+    "f-ος",
+    "n-ος-3syl",
+    "n-μα",
+    "m-έας"
+   ],
+   "cells": [
+    "sg.gen",
+    "pl.nom",
+    "pl.acc",
+    "pl.gen"
+   ],
+   "n": 8
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "ο κύριος υπουργός → vocative",
+     "answer": "κύριε υπουργέ",
+     "accept": [
+      "κύριε υπουργέ"
+     ],
+     "why": "Masculine -ος vocative -ε for both words."
+    },
+    {
+     "prompt": "η κυρία υπουργός → vocative",
+     "answer": "κυρία υπουργέ",
+     "accept": [
+      "κυρία υπουργέ"
+     ],
+     "why": "The title stays masculine in form: κυρία υπουργέ."
+    },
+    {
+     "prompt": "η κυρία υπουργός → genitive",
+     "answer": "της κυρίας υπουργού",
+     "accept": [
+      "της κυρίας υπουργού"
+     ],
+     "why": "της κυρίας υπουργού."
+    },
+    {
+     "prompt": "ο κύριος υπουργός → genitive",
+     "answer": "του κυρίου υπουργού",
+     "accept": [
+      "του κυρίου υπουργού"
+     ],
+     "why": "κύριος → κυρίου (stress shift)."
+    },
+    {
+     "prompt": "οι κύριοι υπουργοί → genitive",
+     "answer": "των κυρίων υπουργών",
+     "accept": [
+      "των κυρίων υπουργών"
+     ],
+     "why": "κυρίων, υπουργών."
+    },
+    {
+     "prompt": "η αγαπητή συνάδελφος → genitive",
+     "answer": "της αγαπητής συναδέλφου",
+     "accept": [
+      "της αγαπητής συναδέλφου"
+     ],
+     "why": "συνάδελφος is common gender; feminine article and adjective."
+    },
+    {
+     "prompt": "ο αγαπητός συνάδελφος → vocative",
+     "answer": "αγαπητέ συνάδελφε",
+     "accept": [
+      "αγαπητέ συνάδελφε"
+     ],
+     "why": "Vocative -ε on both."
+    },
+    {
+     "prompt": "η αγαπητή συνάδελφος → vocative",
+     "answer": "αγαπητή συνάδελφε",
+     "accept": [
+      "αγαπητή συνάδελφε"
+     ],
+     "why": "Feminine adjective, noun vocative -ε."
+    },
+    {
+     "prompt": "οι αξιότιμοι βουλευτές → vocative",
+     "answer": "αξιότιμοι βουλευτές",
+     "accept": [
+      "αξιότιμοι βουλευτές"
+     ],
+     "why": "Plural vocative = nominative."
+    },
+    {
+     "prompt": "ο κύριος πρόεδρος → vocative",
+     "answer": "κύριε πρόεδρε",
+     "accept": [
+      "κύριε πρόεδρε"
+     ],
+     "why": "πρόεδρος → πρόεδρε."
+    }
+   ],
+   "n": 6
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Find and fix: «Λόγω της συνεχής βροχής…»",
+     "answer": "συνεχούς",
+     "accept": [
+      "συνεχούς",
+      "της συνεχούς"
+     ],
+     "why": "-ής genitive -ούς."
+    },
+    {
+     "prompt": "Find and fix: «Ο μέθοδος αυτός δεν λειτουργεί.» (type the first three words)",
+     "answer": "Η μέθοδος αυτή",
+     "accept": [
+      "Η μέθοδος αυτή",
+      "αυτή η μέθοδος"
+     ],
+     "why": "μέθοδος is feminine."
+    },
+    {
+     "prompt": "Find and fix: «Η προστασία του περιβάλλον…»",
+     "answer": "περιβάλλοντος",
+     "accept": [
+      "περιβάλλοντος",
+      "του περιβάλλοντος"
+     ],
+     "why": "-ον → -οντος."
+    },
+    {
+     "prompt": "Find and fix: «Στο τέλος του έτου…»",
+     "answer": "έτους",
+     "accept": [
+      "έτους",
+      "του έτους"
+     ],
+     "why": "Neuter -ος genitive -ους."
+    },
+    {
+     "prompt": "Find and fix: «Έχουμε πολύ δουλειά σήμερα.»",
+     "answer": "πολλή",
+     "accept": [
+      "πολλή",
+      "πολλή δουλειά"
+     ],
+     "why": "Feminine noun → πολλή."
+    },
+    {
+     "prompt": "Find and fix: «Η ταινία ήταν πολύ ενδιαφερόμενη.»",
+     "answer": "ενδιαφέρουσα",
+     "accept": [
+      "ενδιαφέρουσα"
+     ],
+     "why": "'Interesting' = ενδιαφέρων, -ουσα."
+    },
+    {
+     "prompt": "Find and fix: «Οι αποφάσης του υπουργείου…»",
+     "answer": "αποφάσεις",
+     "accept": [
+      "αποφάσεις",
+      "οι αποφάσεις"
+     ],
+     "why": "-ση plural -εις."
+    },
+    {
+     "prompt": "Find and fix: «Τα ακριβές στοιχεία…»",
+     "answer": "ακριβή",
+     "accept": [
+      "ακριβή",
+      "τα ακριβή"
+     ],
+     "why": "Neuter plural -ή."
+    },
+    {
+     "prompt": "Find and fix: «Κατά τη διάρκεια τη συνεδρίαση…» (type the last two words)",
+     "answer": "της συνεδρίασης",
+     "accept": [
+      "της συνεδρίασης"
+     ],
+     "why": "διάρκεια + genitive."
+    },
+    {
+     "prompt": "Find and fix: «Όσον αφορά του κόστους…» (type the last two words)",
+     "answer": "το κόστος",
+     "accept": [
+      "το κόστος",
+      "στο κόστος"
+     ],
+     "why": "όσον αφορά + accusative."
+    },
+    {
+     "prompt": "Find and fix: «Η ανάλυση των θέματων…»",
+     "answer": "θεμάτων",
+     "accept": [
+      "θεμάτων",
+      "των θεμάτων"
+     ],
+     "why": "-μα gen. pl. -μάτων."
+    },
+    {
+     "prompt": "Find and fix: «Η κεντρική είσοδο είναι κλειστή.»",
+     "answer": "είσοδος",
+     "accept": [
+      "είσοδος",
+      "η κεντρική είσοδος"
+     ],
+     "why": "Nominative -ος."
+    },
+    {
+     "prompt": "Find and fix: «Ο πιο καλύτερος φίλος μου…» (type the first two words)",
+     "answer": "Ο καλύτερος",
+     "accept": [
+      "Ο καλύτερος",
+      "ο πιο καλός"
+     ],
+     "why": "No double comparison."
+    },
+    {
+     "prompt": "Find and fix: «Τα δικαιώματα των εργαζόμενους…»",
+     "answer": "εργαζομένων",
+     "accept": [
+      "εργαζομένων",
+      "εργαζόμενων",
+      "των εργαζομένων",
+      "των εργαζόμενων"
+     ],
+     "why": "Genitive plural: εργαζομένων or εργαζόμενων."
+    },
+    {
+     "prompt": "Find and fix: «Η ένταση του φωτού…»",
+     "answer": "φωτός",
+     "accept": [
+      "φωτός",
+      "του φωτός"
+     ],
+     "why": "φως → φωτός."
+    },
+    {
+     "prompt": "Find and fix: «Λόγω το ότι έβρεχε…» (type the first three words)",
+     "answer": "Λόγω του ότι",
+     "accept": [
+      "Λόγω του ότι"
+     ],
+     "why": "λόγω + genitive article."
+    },
+    {
+     "prompt": "Find and fix: «Υπό της αιγίδας του δήμου…» (type the first three words)",
+     "answer": "Υπό την αιγίδα",
+     "accept": [
+      "Υπό την αιγίδα"
+     ],
+     "why": "υπό + accusative."
+    },
+    {
+     "prompt": "Find and fix: «Οι διεθνής οργανισμοί…»",
+     "answer": "διεθνείς",
+     "accept": [
+      "διεθνείς",
+      "οι διεθνείς"
+     ],
+     "why": "Plural -είς."
+    },
+    {
+     "prompt": "Find and fix: «Το επείγων θέμα της ημέρας…»",
+     "answer": "επείγον",
+     "accept": [
+      "επείγον",
+      "το επείγον"
+     ],
+     "why": "Neuter of επείγων: επείγον."
+    },
+    {
+     "prompt": "Find and fix: «Των επειγόντων αποφάσεων…»",
+     "answer": "επειγουσών",
+     "accept": [
+      "επειγουσών",
+      "των επειγουσών"
+     ],
+     "why": "Feminine gen. pl. -ουσών."
+    }
+   ],
+   "n": 14
+  },
+  {
+   "gen": "decline",
+   "ids": [
+    "n-ος-2syl",
+    "n-ον"
+   ],
+   "cells": [
+    "sg.gen"
+   ],
+   "n": 4
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "of the exact method",
+     "answer": "της ακριβούς μεθόδου",
+     "accept": [
+      "της ακριβούς μεθόδου"
+     ],
+     "why": "Feminine -ής genitive -ούς; μέθοδος → μεθόδου."
+    },
+    {
+     "prompt": "the international organisations (subject)",
+     "answer": "οι διεθνείς οργανισμοί",
+     "accept": [
+      "οι διεθνείς οργανισμοί"
+     ],
+     "why": "Nominative plural."
+    },
+    {
+     "prompt": "of the urgent cases",
+     "answer": "των επειγουσών περιπτώσεων",
+     "accept": [
+      "των επειγουσών περιπτώσεων"
+     ],
+     "why": "περίπτωση is feminine: επειγουσών περιπτώσεων."
+    },
+    {
+     "prompt": "the safest solution (object)",
+     "answer": "την ασφαλέστερη λύση",
+     "accept": [
+      "την ασφαλέστερη λύση",
+      "την πιο ασφαλή λύση"
+     ],
+     "why": "Article + comparative = superlative."
+    },
+    {
+     "prompt": "of the interested parties",
+     "answer": "των ενδιαφερομένων",
+     "accept": [
+      "των ενδιαφερομένων",
+      "των ενδιαφερόμενων"
+     ],
+     "why": "Genitive plural of ενδιαφερόμενος."
+    },
+    {
+     "prompt": "of the deep changes",
+     "answer": "των βαθιών αλλαγών",
+     "accept": [
+      "των βαθιών αλλαγών"
+     ],
+     "why": "βαθιών, αλλαγών."
+    },
+    {
+     "prompt": "of a new government",
+     "answer": "μιας νέας κυβέρνησης",
+     "accept": [
+      "μιας νέας κυβέρνησης"
+     ],
+     "why": "Indefinite genitive μιας."
+    },
+    {
+     "prompt": "the minimum wage (object)",
+     "answer": "τον κατώτατο μισθό",
+     "accept": [
+      "τον κατώτατο μισθό"
+     ],
+     "why": "κατώτατος μισθός."
+    },
+    {
+     "prompt": "during the meeting (formal session)",
+     "answer": "κατά τη διάρκεια της συνεδρίασης",
+     "accept": [
+      "κατά τη διάρκεια της συνεδρίασης",
+      "κατά την διάρκεια της συνεδρίασης",
+      "στη διάρκεια της συνεδρίασης"
+     ],
+     "why": "διάρκεια + genitive."
+    },
+    {
+     "prompt": "for the protection of the natural environment",
+     "answer": "για την προστασία του φυσικού περιβάλλοντος",
+     "accept": [
+      "για την προστασία του φυσικού περιβάλλοντος"
+     ],
+     "why": "για + acc., then genitive."
+    }
+   ],
+   "n": 8
+  },
+  {
+   "gen": "adj-agree",
+   "ids": [
+    "ακριβής",
+    "συνήθης",
+    "επείγων",
+    "βαρύς",
+    "πολύς",
+    "τέλειος"
+   ],
+   "exclude": [
+    "κλινήρης",
+    "τριμερής",
+    "ωοειδής",
+    "πρωτοετής",
+    "τριετής",
+    "σπουδάζων",
+    "ιδιάζων",
+    "μέλλων",
+    "δασύς",
+    "κρύος"
+   ],
+   "n": 8
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Λόγω της συνεχούς βροχής, ο αγώνας αναβλήθηκε.",
+     "options": [
+      "Λόγω της συνεχούς βροχής, ο αγώνας αναβλήθηκε.",
+      "Λόγω της συνεχής βροχής, ο αγώνας αναβλήθηκε.",
+      "Λόγω τη συνεχή βροχή, ο αγώνας αναβλήθηκε."
+     ],
+     "why": "λόγω + genitive; -ής → -ούς."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Οι υπουργοί των κρατών-μελών συναντήθηκαν.",
+     "options": [
+      "Οι υπουργοί των κρατών-μελών συναντήθηκαν.",
+      "Οι υπουργοί των κράτων-μελών συναντήθηκαν.",
+      "Οι υπουργοί των κρατούς-μελών συναντήθηκαν."
+     ],
+     "why": "Neuter -ος genitive plural on -ών."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Η κύρια είσοδος του κτηρίου είναι κλειστή.",
+     "options": [
+      "Η κύρια είσοδος του κτηρίου είναι κλειστή.",
+      "Ο κύριος είσοδος του κτηρίου είναι κλειστός.",
+      "Η κύρια είσοδο του κτηρίου είναι κλειστή."
+     ],
+     "why": "είσοδος is feminine; nominative -ος."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Τα συμφέροντα των αγροτών προστατεύονται.",
+     "options": [
+      "Τα συμφέροντα των αγροτών προστατεύονται.",
+      "Τα συμφέρον των αγροτών προστατεύονται.",
+      "Τα συμφερόντα των αγροτών προστατεύονται."
+     ],
+     "why": "-ον plural -οντα, stress unchanged."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Η αντιμετώπιση των επειγουσών περιπτώσεων είναι δύσκολη.",
+     "options": [
+      "Η αντιμετώπιση των επειγουσών περιπτώσεων είναι δύσκολη.",
+      "Η αντιμετώπιση των επειγόντων περιπτώσεων είναι δύσκολη.",
+      "Η αντιμετώπιση των επείγουσων περιπτώσεων είναι δύσκολη."
+     ],
+     "why": "Feminine -ουσα: gen. pl. -ουσών."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Η έκθεση γίνεται υπό την αιγίδα του δήμου.",
+     "options": [
+      "Η έκθεση γίνεται υπό την αιγίδα του δήμου.",
+      "Η έκθεση γίνεται υπό της αιγίδας του δήμου.",
+      "Η έκθεση γίνεται υπό την αιγίδα τον δήμο."
+     ],
+     "why": "υπό + acc.; αιγίδα + gen."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Δεν έχουμε πολλή ώρα.",
+     "options": [
+      "Δεν έχουμε πολλή ώρα.",
+      "Δεν έχουμε πολύ ώρα.",
+      "Δεν έχουμε πολλά ώρα."
+     ],
+     "why": "Feminine → πολλή."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Οι τιμές των προϊόντων αυξήθηκαν.",
+     "options": [
+      "Οι τιμές των προϊόντων αυξήθηκαν.",
+      "Οι τιμές των προϊόνων αυξήθηκαν.",
+      "Οι τιμές των προϊόντος αυξήθηκαν."
+     ],
+     "why": "προϊόν → προϊόντων."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Η σημασία του γεγονότος φάνηκε αργότερα.",
+     "options": [
+      "Η σημασία του γεγονότος φάνηκε αργότερα.",
+      "Η σημασία του γεγονού φάνηκε αργότερα.",
+      "Η σημασία του γεγονός φάνηκε αργότερα."
+     ],
+     "why": "γεγονός → γεγονότος."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Ζητήθηκε η γνώμη των κατοίκων της περιοχής.",
+     "options": [
+      "Ζητήθηκε η γνώμη των κατοίκων της περιοχής.",
+      "Ζητήθηκε η γνώμη των κάτοικων της περιοχής.",
+      "Ζητήθηκε η γνώμη τους κατοίκους της περιοχής."
+     ],
+     "why": "κάτοικος → κατοίκων (learned shift)."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Κύριε υπουργέ, έχετε τον λόγο.",
+     "options": [
+      "Κύριε υπουργέ, έχετε τον λόγο.",
+      "Κύριος υπουργός, έχετε τον λόγο.",
+      "Κύριε υπουργό, έχετε τον λόγο."
+     ],
+     "why": "Vocative -ε on both words."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "answer": "Τα μέλη της επιτροπής συμφώνησαν.",
+     "options": [
+      "Τα μέλη της επιτροπής συμφώνησαν.",
+      "Οι μέλοι της επιτροπής συμφώνησαν.",
+      "Τα μέλους της επιτροπής συμφώνησαν."
+     ],
+     "why": "μέλος → τα μέλη."
+    }
+   ],
+   "n": 10
+  }
+ ],
+ "vocab": [
+  "ανάπτυξη",
+  "μείωση",
+  "επένδυση",
+  "προϋπολογισμός",
+  "ζήτημα",
+  "επιτροπή",
+  "ευθύνη",
+  "ανεργία",
+  "συμμετοχή",
+  "διαδικασία",
+  "έγκριση",
+  "εφημερίδα"
+ ]
+}
