@@ -986,7 +986,7 @@
       <section class="intro hero"${photos.length ? ` style="background-image:url('img/${esc(photos[new Date().getDate() % photos.length].file)}')"` : ""}>
         <div class="hero-in"><span class="hero-el" lang="el">Ελληνικά</span><h1>${esc(course.title)}</h1>
         <div class="meander" aria-hidden="true"></div>
-        <div class="hero-stats"><span><b>${vocabCounts().known}</b> words known</span><span><b>${done}</b>/${all.length} lessons</span><a class="btn small" href="#daily-words">Word recall</a><a class="btn small" href="#library">Advanced level</a></div></div>
+        <div class="hero-stats"><span><b>${vocabCounts().known}</b> words known</span><span><b>${done}</b>/${all.length} lessons</span><a class="btn small" href="#daily-words">Word recall</a><a class="btn small" href="#library">Resources</a></div></div>
       </section>
       ${tracker()}
       <div class="unit-tabs" role="tablist" aria-label="Units">${course.units.map((u, i) => `<button data-i="${i}">${esc(u.label.replace(" · ", " "))}</button>`).join("")}</div>
@@ -1009,7 +1009,7 @@
         </section>`).join("")}</div>
         ${pagerNav()}
       </div>
-      <p class="src"><a href="#library">Advanced level</a> · <a href="#credits">Credits</a></p>`;
+      <p class="src"><a href="#library">Resources</a> · <a href="#credits">Credits</a></p>`;
     // Open on the unit holding the first lesson not yet mastered.
     const firstOpen = course.units.findIndex((u) => u.lessons.some((l) => l.file && !(progress[l.id]?.best >= 0.85)));
     const tabs = [...view.querySelectorAll(".unit-tabs button")];

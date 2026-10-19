@@ -166,7 +166,7 @@
     const E = A(), t = TABS.find(([k]) => k === tab) || TABS[0];
     document.title = `${t[1]} · Grammar tables`;
     E.$("#bar-meta").textContent = "Grammar tables";
-    E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Grammar tables</h2>
+    E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Grammar tables</h2>
       <nav class="unit-tabs ref-tabs" aria-label="Tables">${TABS.map(([k, l]) => `<a href="#ref.${k}"${k === t[0] ? ' aria-current="true"' : ""}>${l}</a>`).join("")}</nav>
       <div id="ref-body" class="ref-body"><p class="loading">Φόρτωση…</p></div>`;
     const body = E.$("#ref-body");
@@ -230,7 +230,7 @@
       const done = (E.progress.library || {});
       if (!id) {
         document.title = heading + " · Ελληνικά";
-        E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>${E.esc(heading)}</h2>
+        E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>${E.esc(heading)}</h2>
           ${LEVELS.filter((lv) => idx.items.some((x) => x.level === lv)).map((lv) => `<h3 class="ref-group">${lv}</h3><ul class="lessons">${idx.items.filter((x) => x.level === lv).map((x) => `
             <li><a class="lesson-row" href="#${shelf}.${E.esc(x.id)}"><span class="lr-num">${idx.items.indexOf(x) + 1}</span>
             <span class="lr-main"><span class="lr-title" lang="el">${E.esc(x.el)}</span><span class="lr-en">${E.esc(x.title)}</span></span>
@@ -465,7 +465,7 @@
     if (!sh) {
       document.title = "Exercise sheets · Ελληνικά";
       const done = E.progress.library || {};
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Exercise sheets</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Exercise sheets</h2>
         <ul class="lessons">${SHEETS.map((x, i) => `<li><a class="lesson-row" href="#sheets.${x.id}"><span class="lr-num">${i + 1}</span>
           <span class="lr-main"><span class="lr-title" lang="el">${x.el}</span><span class="lr-en">${x.title}</span></span>
           ${done["sheets/" + x.id] != null ? `<span class="chip done">${Math.round(done["sheets/" + x.id] * 100)}%</span>` : ""}</a></li>`).join("")}</ul>`;
@@ -535,7 +535,7 @@
     if (!it) {
       document.title = "Paradigm drill · Ελληνικά";
       const groups = [...new Set(items.map((x) => x.group))];
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Paradigm drill</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Paradigm drill</h2>
         <p><button class="btn small" id="dr-rand">Random table</button></p>
         ${groups.map((g) => `<h3 class="ref-group">${E.esc(g)}</h3><div class="drill-chips">${items.filter((x) => x.group === g).map((x) => `<a class="drill-chip${done["drill/" + x.id] >= 0.9 ? " done" : ""}" href="#drill.${E.esc(x.id)}"><span lang="el">${E.esc(x.word)}</span>${x.group === "Verbs" ? ` <small>${E.esc(x.gloss.split(" · ")[0])}</small>` : ""}</a>`).join("")}</div>`).join("")}`;
       E.$("#dr-rand").onclick = () => { location.hash = "drill." + items[Math.floor(Math.random() * items.length)].id; };
@@ -596,7 +596,7 @@
     if (!t) {
       document.title = "Exam practice · Ελληνικά";
       const kind = (t) => (/-use-/.test(t.id) ? "Χρήση γλώσσας" : "Κατανόηση γραπτού λόγου");
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Exam practice</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Exam practice</h2>
         <p class="sub">B2 tasks first (the official sample and practice sets in the same format), then the Γ1 sample papers one step above. Timed and marked.</p>
         ${SERIES.map(([k, l], si) => { const inS = (id, k0) => id.startsWith(/\d$/.test(k0) ? k0 + "-" : k0), ts = tasks.filter((x) => inS(x.id, k) && !SERIES.slice(0, si).some(([k0]) => inS(x.id, k0))); return ts.length ? `<h3 class="ref-group">${l}</h3><ul class="lessons">${ts.map((x) => `<li><a class="lesson-row" href="#exam.${x.id}"><span class="lr-num">${tasks.indexOf(x) + 1}</span>
           <span class="lr-main"><span class="lr-title" lang="el">${E.esc(x.title || x.id)}</span><span class="lr-en">${kind(x)} · ${E.esc(x.task_type.split(" (")[0].split(" — ")[0])}</span></span>
@@ -662,7 +662,7 @@
       document.title = "Phrasebook · Ελληνικά";
       const s0 = st(), now = Date.now(), all = data.groups.flatMap((g) => g.items);
       const due = all.filter((x) => s0[x.el] && s0[x.el].due <= now).length, learnt = all.filter((x) => s0[x.el]?.ivl >= 21).length;
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Conversation phrasebook</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Conversation phrasebook</h2>
         <div class="sheet-bar"><a class="btn small" href="#phrases.practice">Practise (${due} due)</a><span class="sub">${learnt} of ${all.length} phrases solid</span></div>
         ${data.groups.map((g) => `<section class="card ref-card"><div class="ref-title"><span lang="el">${E.esc(g.el)}</span> <span class="ex-en">${E.esc(g.en)}</span></div>
           <ul class="ex-list phr">${g.items.map((x) => `<li><span class="ex-el" lang="el">${E.esc(x.el)}${REG[x.reg] ? ` <span class="lk-pos">${REG[x.reg]}</span>` : ""}</span><span class="ex-en">${E.esc(x.en)}</span>${x.ex ? `<span class="phr-ex" lang="el">${E.esc(x.ex)}</span>` : ""}</li>`).join("")}</ul>
@@ -727,7 +727,7 @@
           <span class="shelf-en">${E.esc(t.level)}${t.official ? " · official sample" : ""} · ${sub}</span>${done ? `<span class="chip done">done</span>` : d ? `<span class="chip">${wcount(d)} words drafted</span>` : ""}</a>`;
       };
       const lv = (lev) => data.writing.filter((t) => t.level === lev);
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Writing and speaking workshop</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Writing and speaking workshop</h2>
         <h3>Writing · B2</h3><div class="shelves">${lv("B2").map((t) => card(t, "w")).join("")}</div>
         ${lv("Γ1").length ? `<h3>Writing · C1 (Γ1) stretch tasks</h3><div class="shelves">${lv("Γ1").map((t) => card(t, "w")).join("")}</div>` : ""}
         <h3>Speaking · B2</h3>${[1, 2, 3].map((n) => { const its = data.speaking.filter((t) => t.part === n); return its.length ? `<h4>Part ${n}${n === 1 ? ": about you" : n === 2 ? ": discussion questions" : ": role-card debate"}</h4><div class="shelves">${its.map((t) => card(t, "s")).join("")}</div>` : ""; }).join("")}`;
@@ -856,7 +856,7 @@
     window.speechSynthesis?.cancel();
     if (!it) {
       document.title = "Listening · Ελληνικά";
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Listening practice</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Listening practice</h2>
         <p class="sub">B2-style recordings read by your device's Greek voice. Listen first, answer, then read the transcript or try the dictation.</p>
         <ul class="lessons">${data.items.map((x, i) => `<li><a class="lesson-row" href="#listening.${encodeURIComponent(x.id)}"><span class="lr-num">${i + 1}</span>
           <span class="lr-main"><span class="lr-title" lang="el">${E.esc(x.title)}</span><span class="lr-en">${TYPE[x.type] || x.type} · ${E.esc(x.title_en || "")}</span></span>
@@ -945,7 +945,7 @@
     if (!D) {
       document.title = "Expressions · Ελληνικά";
       const counts = await Promise.all(DECKS.map(async ([id]) => { const xs = await E.resolve(`c1/phrases/${id}.json`).catch(() => []); return { n: xs.length, due: xs.filter((x) => st[id + "/" + x.el]?.due <= now).length, solid: xs.filter((x) => st[id + "/" + x.el]?.ivl >= 21).length }; }));
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Expression trainer</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Expression trainer</h2>
         <p class="sub">The words that make B2 and C1 writing sound native: connectors, collocations, idioms and learned phrases, each with an example. Practise them English → Greek on a spaced schedule.</p>
         <ul class="lessons">${DECKS.map(([id, el, en], i) => `<li><a class="lesson-row" href="#expr.${id}"><span class="lr-num">${i + 1}</span><span class="lr-main"><span class="lr-title" lang="el">${el}</span><span class="lr-en">${en} · ${counts[i].n} items · ${counts[i].solid} solid${counts[i].due ? ` · ${counts[i].due} due` : ""}</span></span></a></li>`).join("")}</ul>`;
       return window.scrollTo(0, 0);
@@ -994,7 +994,7 @@
     const E = A();
     document.title = "Backup · Ελληνικά"; E.$("#bar-meta").textContent = "Backup";
     const p = E.progress, words = Object.keys(p.vocab || {}).length, lessons = Object.keys(p).filter((k) => p[k]?.best != null).length;
-    E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Backup</h2>
+    E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Backup</h2>
       <section class="card"><p>${lessons} lessons and ${words} words in recall are saved in this browser.</p>
       <div class="actions"><button class="btn" id="bk-save">Save backup file</button><label class="btn ghost">Restore from file<input type="file" id="bk-load" accept="application/json,.json" hidden></label></div>
       <p class="sub" id="bk-msg"></p></section>`;
@@ -1036,7 +1036,7 @@
     const [set] = decodeURIComponent(arg || "").split("~");
     const sets = MOCK_SETS.filter(([k]) => tasks.some((t) => t.id.startsWith(k + "-")));
     if (!sets.find(([k]) => k === set)) {
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Mock exam</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Mock exam</h2>
         <p class="sub">A full B2 paper: reading, use of language, two listening items and one writing task, against the clock. Work through the parts in order; each opens in its own page and your scores are collected here.</p>
         <ul class="lessons">${sets.map(([k, l], i) => { const h = mk[k]?.history || [], best = h.length ? Math.max(...h.map((x) => x.total)) : null;
           return `<li><a class="lesson-row" href="#mock.${k}"><span class="lr-num">${i + 1}</span><span class="lr-main"><span class="lr-title">${l}</span><span class="lr-en">${mk[k]?.start && !mk[k].done ? "in progress" : h.length ? `${h.length} attempt${h.length > 1 ? "s" : ""}` : "not tried"}</span></span>${best != null ? `<span class="chip done">${Math.round(best * 100)}%</span>` : ""}</a></li>`; }).join("")}</ul>`;
@@ -1111,7 +1111,7 @@
     const id = arg ? decodeURIComponent(arg) : "", meta = idx.items.find((x) => x.id === id);
     if (!meta) {
       document.title = "Rebuild the argument · Ελληνικά";
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Rebuild the argument</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Rebuild the argument</h2>
         <p class="sub">The paragraphs of an opinion article are shuffled. Tap them in the order the writer used, guided by the connectors and the logic of thesis, counter-argument and conclusion. Then read the article with its structure shown.</p>
         <ul class="lessons">${idx.items.map((x, i) => `<li><a class="lesson-row" href="#argue.${E.esc(x.id)}"><span class="lr-num">${i + 1}</span><span class="lr-main"><span class="lr-title" lang="el">${E.esc(x.el)}</span><span class="lr-en">${E.esc(x.level)} · ${E.esc(x.title)}</span></span>${p.library["argue/" + x.id] != null ? `<span class="chip done">${Math.round(p.library["argue/" + x.id] * 100)}%</span>` : ""}</a></li>`).join("")}</ul>`;
       return window.scrollTo(0, 0);
@@ -1160,7 +1160,7 @@
     if (!t) {
       document.title = "Register converter · Ελληνικά";
       const row = (x) => { const sc = p.library["register/" + x.id]; return `<li><a class="lesson-row" href="#register.${E.esc(x.id)}"><span class="lr-num">${E.esc(x.level)}</span><span class="lr-main"><span class="lr-title">${E.esc(x.situation)}</span><span class="lr-en">${reg(x.from)[1]} → ${reg(x.from === "informal" ? "formal" : "informal")[1]}</span></span>${sc != null ? `<span class="chip ${sc ? "done" : ""}">${sc ? "✓" : "again"}</span>` : drafts["register/" + x.id] ? `<span class="chip">draft</span>` : ""}</a></li>`; };
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Register converter</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Register converter</h2>
         <p class="sub">The B2 writing paper marks register: a note to a friend and a letter to the municipality say the same thing differently. Rewrite each message in the other register, then compare with the model and the list of changes.</p>
         <h3>Make it formal</h3><ul class="lessons">${data.items.filter((x) => x.from === "informal").map(row).join("")}</ul>
         <h3>Make it informal</h3><ul class="lessons">${data.items.filter((x) => x.from !== "informal").map(row).join("")}</ul>`;
@@ -1228,7 +1228,7 @@
     const total = plan.reduce((a, x) => a + x.min, 0);
     const draw = () => {
       const n = plan.filter((x) => lib.today.done.includes(x.href)).length;
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Today's session</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Today's session</h2>
         <p class="sub">About ${total} minutes covering every part of the B2 exam. The plan stays the same all day and moves on to new material tomorrow. ${n} of ${plan.length} done.</p>
         <ul class="lessons td-plan">${plan.map((x, i) => { const d = lib.today.done.includes(x.href); return `<li class="${d ? "td-done" : ""}"><a class="lesson-row" href="${x.href}" data-i="${i}"><span class="lr-num">${x.min}′</span><span class="lr-main"><span class="lr-en">${E.esc(x.skill)}</span><span class="lr-title" lang="el">${E.esc(x.el)}</span><span class="lr-en">${E.esc(x.en)}</span></span>${x.key && lib[x.key] != null ? `<span class="chip done">${typeof lib[x.key] === "number" ? Math.round(lib[x.key] * 100) + "%" : "done"}</span>` : ""}</a><label class="td-tick"><input type="checkbox" data-h="${E.esc(x.href)}"${d ? " checked" : ""}> done</label></li>`; }).join("")}</ul>`;
       E.view.querySelectorAll(".td-tick input").forEach((c) => (c.onchange = () => { const h = c.dataset.h, L = lib.today.done; if (c.checked) { if (!L.includes(h)) L.push(h); } else L.splice(L.indexOf(h), 1); E.saveProgress(); draw(); }));
@@ -1253,7 +1253,7 @@
     const untried = rows.filter((r) => !r.n && r.l !== "C1 tasks").map((r) => r.l);
     const HOME = { Reading: "#exam", "Language use": "#exam", Listening: "#listening", "Grammar sheets": "#sheets", "Paradigm drill": "#drill", "Reading for meaning": "#opinion" };
     const bar = (r) => `<li class="fc-row"><span class="fc-l">${r.l}</span><span class="fc-bar"><span style="width:${Math.round((r.avg || 0) * 100)}%" class="${r.avg == null ? "" : r.avg < 0.6 ? "bad" : "ok"}"></span></span><span class="fc-n">${r.avg == null ? "not tried" : Math.round(r.avg * 100) + "% · " + r.n}</span></li>`;
-    E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Where to focus</h2>
+    E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Where to focus</h2>
       <p class="sub">Averages of your saved scores in each skill. The exam needs 60% in every paper, so anything red is where practice pays most.</p>
       <ul class="fc-list">${rows.map(bar).join("")}</ul>
       <p class="sub">Expressions: ${ex.length} practised, ${solid} solid (21+ days).</p>
@@ -1266,7 +1266,7 @@
     const E = A(), p = E.progress; p.library = p.library || {}; const list = (p.library.mistakes = p.library.mistakes || []);
     document.title = "Mistakes · Ελληνικά"; E.$("#bar-meta").textContent = "Mistakes";
     if (arg !== "review") {
-      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Mistakes notebook</h2>
+      E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Mistakes notebook</h2>
         <p class="sub">Every wrong answer from sheets, drills, exams, listening and phrase practice lands here. Review them until they're right; a right answer clears the entry.</p>
         ${list.length ? `<div class="sheet-bar"><a class="btn small" href="#mistakes.review">Review ${Math.min(list.length, 20)}</a><button class="btn small ghost" id="mk-clear">Clear all</button><span class="sub">${list.length} open</span></div>
         <ul class="sr-list">${list.slice(0, 200).map((m) => `<li><a href="${m.h || "#mistakes"}"><span class="chip">${E.esc(m.k)}</span> <span lang="el">${E.esc(m.p)}</span>${m.n > 1 ? ` <span class="sub">×${m.n}</span>` : ""}</a>
@@ -1334,7 +1334,7 @@
   routes.search = async (arg) => {
     const E = A(), q = decodeURIComponent(arg || "").trim();
     document.title = "Search · Ελληνικά"; E.$("#bar-meta").textContent = "Search";
-    E.view.innerHTML = `<p class="crumbs"><a href="#library">← Advanced level</a></p><h2>Search</h2>
+    E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Search</h2>
       <form class="answer-row" id="sr-form"><input id="sr-q" lang="el" placeholder="e.g. aorist, γενική, ο οποίος, rent" value="${E.esc(q)}" autocomplete="off"><button class="btn">Search</button></form>
       <div id="sr-out">${q ? `<p class="loading">Searching…</p>` : `<p class="sub">Searches every lesson, story, news text, classic, workshop task, listening script and the phrasebook, in Greek or English, ignoring accents.</p>`}</div>`;
     E.$("#sr-form").onsubmit = (e) => { e.preventDefault(); const v = E.$("#sr-q").value.trim(); if (v) location.hash = "search." + encodeURIComponent(v); };
@@ -1356,11 +1356,11 @@
   /* ---------- library hub ---------- */
   routes.library = async () => {
     const E = A();
-    document.title = "Advanced level · Ελληνικά";
-    E.$("#bar-meta").textContent = "Advanced level";
+    document.title = "Resources · Ελληνικά";
+    E.$("#bar-meta").textContent = "Resources";
     let idx = { shelves: [] };
     try { idx = await E.getJSON("library/index.json"); } catch (e) { /* no manifest yet */ }
-    E.view.innerHTML = `<p class="crumbs"><a href="#">← Course</a></p><h2>Advanced level</h2>
+    E.view.innerHTML = `<p class="crumbs"><a href="#">← Course</a></p><h2>Resources</h2>
       <form class="answer-row" id="lib-search"><input id="lib-q" lang="el" placeholder="Search lessons and readings" autocomplete="off"><button class="btn">Search</button></form>
       <div class="shelves">${idx.shelves.map((s) => s.ready
         ? `<a class="card shelf" href="#${E.esc(s.route)}"><span class="shelf-el" lang="el">${E.esc(s.el)}</span><span class="shelf-en">${E.esc(s.title)}</span></a>`
