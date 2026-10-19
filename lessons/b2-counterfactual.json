@@ -182,7 +182,7 @@
      ]
     },
     {
-     "prompt": "«Αν ___ ότι είσαι στη Σίφνο, θα είχα περάσει.» Το «ξέρω» δεν έχει υπερσυντέλικο, άρα:",
+     "prompt": "«Αν ___ ότι είσαι στη Σίφνο, θα είχα περάσει.» Το «ξέρω» δεν έχει αόριστο και ο υπερσυντέλικος σπάνια χρησιμοποιείται, άρα:",
      "answer": "ήξερα",
      "options": [
       "ήξερα",
@@ -225,7 +225,7 @@
   },
   {
    "type": "callout",
-   "text": "**Greek never uses the simple past here.** *Αν είχα χρόνο* (imperfect), not *αν είχα* = 'had' as a one-off past. The conditional is θα + imperfect, which is the same form as 'used to' in the future-in-the-past: *θα ερχόμουν, θα έκανες, θα μπορούσαμε*.\n\nPoliteness uses the same form: *Θα ήθελα έναν καφέ*, *Θα μπορούσατε να μου πείτε…;*\n\nWishes: **μακάρι να** + imperfect for now, + pluperfect for the past: *Μακάρι να ήξερα!* 'If only I knew!', *Μακάρι να είχα έρθει!* 'If only I had come!'"
+   "text": "**Unreal conditions are built on the imperfect and the pluperfect, not the simple past.** The past-tense form signals unreality, not past time: *Αν είχα χρόνο* 'if I had time (now)'. An aorist in the if-clause makes an ordinary open condition about the past instead: *Αν ήρθε χθες, θα τον είδες* 'if he came yesterday, you'll have seen him'. For unreal past time Greek uses the pluperfect (*αν είχα έρθει*), and speech often uses the imperfect there too (*αν ερχόσουν χθες…*). The conditional is θα + imperfect, which is the same form as 'used to' in the future-in-the-past: *θα ερχόμουν, θα έκανες, θα μπορούσαμε*.\n\nPoliteness uses the same form: *Θα ήθελα έναν καφέ*, *Θα μπορούσατε να μου πείτε…;*\n\nWishes: **μακάρι να** + imperfect for now, + pluperfect for the past: *Μακάρι να ήξερα!* 'If only I knew!', *Μακάρι να είχα έρθει!* 'If only I had come!'"
   },
   {
    "type": "culture",
@@ -551,7 +551,7 @@
       "εάν ξέραμε",
       "αν το ξέραμε"
      ],
-     "why": "ξέρω has no aorist and so no pluperfect: the imperfect αν ξέραμε covers both 'if we knew' and 'if we had known'."
+     "why": "ξέρω has no aorist, so its pluperfect (είχαμε ξέρει) is rare and normally avoided: the imperfect αν ξέραμε covers both 'if we knew' and 'if we had known'."
     },
     {
      "prompt": "Αν ___ (εσύ, έρχομαι) χθες, θα τον είχες γνωρίσει.",
@@ -710,7 +710,7 @@
       "Αν ήξερα πως είσαι στη Σίφνο",
       "Αν ήξερα πως ήσουν στη Σίφνο"
      ],
-     "why": "ξέρω has no pluperfect, so the imperfect ήξερα covers past unreal conditions too."
+     "why": "ξέρω has no aorist and its pluperfect είχα ξέρει is rarely used, so the imperfect ήξερα normally covers past unreal conditions too."
     },
     {
      "prompt": "Dialogue (Nikos): *If only you'd called me!*",
