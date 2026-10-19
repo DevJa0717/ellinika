@@ -175,7 +175,7 @@
   const artFit = (a, word) => { const vs = variants(a); if (vs.length < 2) return vs[0]; const keep = /^([αεηιουωάέήίόύώκπτξψ]|γκ|μπ|ντ|τσ|τζ)/.test(word); return vs.find((v) => v.endsWith("ν") === keep) || vs[0]; };
   const simpleWord = (w) => typeof w === "string" && /^[α-ωάέήίόύώϊϋΐΰς]+$/.test(w);
 
-  if (typeof window !== "undefined") window.__ellinika = { derive, syllables, stressFromEnd };
+  if (typeof window !== "undefined") window.__ellinika = { derive, syllables, stressFromEnd, grade, accepted };
 
   /* ---------- exercise generators ---------- */
   // Each returns an array of items: {kind, prompt, big?, options?, answer, accept?, why?}
