@@ -8,6 +8,11 @@
   // Sticky tabs and toolbars sit just under the header, whose height varies with the safe area and wrapping.
   const bar = document.querySelector(".bar");
   if (bar && window.ResizeObserver) new ResizeObserver(() => document.documentElement.style.setProperty("--bar-h", bar.offsetHeight + "px")).observe(bar);
+  // Reduce motion (home footer toggle, or the system setting): no smooth scrolling, transitions or heavy blur and shadows.
+  const CALM_KEY = "ellinika.calm";
+  const calm = () => localStorage.getItem(CALM_KEY) === "1" || !!window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+  const smooth = () => (calm() ? "auto" : "smooth");
+  document.documentElement.classList.toggle("calm", calm());
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const pick = (a) => a[Math.floor(Math.random() * a.length)];
@@ -770,12 +775,12 @@
     };
     const go = (i, instant) => {
       i = Math.max(0, Math.min(pages.length - 1, i));
-      track.scrollTo({ left: pages[i].offsetLeft - track.offsetLeft, behavior: instant ? "auto" : "smooth" });
+      track.scrollTo({ left: pages[i].offsetLeft - track.offsetLeft, behavior: instant ? "auto" : smooth() });
       set(i);
       const top = wrap.getBoundingClientRect().top;
       // Bring the page's top edge back into view below the sticky header (and lesson tabs, when there are any).
       const head = bar.offsetHeight + (wrap.closest("#pane") ? $(".tabs")?.offsetHeight || 0 : 0) + 8;
-      if (!instant && top < head) window.scrollBy({ top: top - head, behavior: "smooth" });
+      if (!instant && top < head) window.scrollBy({ top: top - head, behavior: smooth() });
     };
     let t;
     track.addEventListener("scroll", () => { clearTimeout(t); t = setTimeout(() => set(Math.round(track.scrollLeft / track.clientWidth)), 60); });
@@ -959,27 +964,42 @@
     </div>`;
   }
   /* Dialogues read aloud by the device's Greek voice, one line at a time: play all, pause, replay a line, slower, English. */
+  // The device's Greek voices, remembered once known so later dialogues and dictations start speaking at once.
+  // A device found to have none is asked only once per visit, so practice does not wait on it every time.
+  let voiceList = null, voicesAsked = false;
+  const readVoices = () => { const v = (window.speechSynthesis?.getVoices() || []).filter((x) => /^el(-|_|$)/i.test(x.lang)); if (v.length) voiceList = v; return v; };
+  window.speechSynthesis?.addEventListener?.("voiceschanged", readVoices);
+  readVoices();
   const greekVoices = () => new Promise((res) => {
     const ss = window.speechSynthesis; if (!ss) return res([]);
-    const pick = () => ss.getVoices().filter((v) => /^el(-|_|$)/i.test(v.lang));
-    if (pick().length) return res(pick());
-    let done = false; const fin = () => { if (!done) { done = true; res(pick()); } };
+    if (voiceList || readVoices().length || voicesAsked) return res(voiceList || []);
+    let done = false; const fin = () => { if (!done) { done = true; voicesAsked = true; res(readVoices()); } };
     ss.addEventListener?.("voiceschanged", fin, { once: true }); setTimeout(fin, 1500);
   });
   let dlActive = null; // the dialogue currently speaking, so starting another one stops it
   window.addEventListener("hashchange", () => { window.speechSynthesis?.cancel(); dlActive?.stop(); });
-  async function wireDialogue(el) {
-    const ss = window.speechSynthesis, voices = await greekVoices();
+  function wireDialogue(el) {
+    const ss = window.speechSynthesis;
     const lines = [...el.querySelectorAll(".dl-line")], play = el.querySelector(".dl-play"), note = el.querySelector(".dl-note");
-    if (!voices.length) { el.querySelectorAll(".dl-say").forEach((b) => (b.hidden = true)); play.hidden = true; el.querySelector(".dl-rate").hidden = true; note.textContent = "This device has no Greek voice, so the dialogue can't be read aloud here."; note.hidden = false; }
-    const fem = voices.find((v) => /melina|female|γυν/i.test(v.name)) || voices[0], mal = voices.find((v) => v !== fem) || voices[0];
+    // Buttons work straight away; the voices are filled in as soon as the device lists them (until then the default Greek voice speaks).
+    let fem, mal;
+    const useVoices = (voices) => {
+      if (!voices.length) { el.querySelectorAll(".dl-say").forEach((b) => (b.hidden = true)); play.hidden = true; el.querySelector(".dl-rate").hidden = true; note.textContent = "This device has no Greek voice, so the dialogue can't be read aloud here."; note.hidden = false; }
+      fem = voices.find((v) => /melina|female|γυν/i.test(v.name)) || voices[0]; mal = voices.find((v) => v !== fem) || voices[0];
+    };
+    if (voiceList) useVoices(voiceList); else greekVoices().then(useVoices);
     let rate = 0.95, at = -1, run = 0, shadow = false, role = null; // role: the speaker the learner plays (their lines are hidden and left silent)
     const whos = [...new Set(lines.map((l) => l.querySelector(".dl-who").textContent))];
     const gap = (l) => new Promise((r) => setTimeout(r, 1200 + 75 * l.querySelector(".dl-el").textContent.length / rate));
-    const mark = (i) => lines.forEach((l, j) => l.classList.toggle("on", j === i));
+    const mark = (i) => {
+      lines.forEach((l, j) => l.classList.toggle("on", j === i));
+      // Keep the line being read on screen as the dialogue moves down the page.
+      const r = lines[i]?.getBoundingClientRect();
+      if (r && (r.bottom > window.innerHeight - 16 || r.top < bar.offsetHeight + 8)) lines[i].scrollIntoView({ block: "center", behavior: smooth() });
+    };
     const say = (i) => new Promise((res) => {
       const l = lines[i], u = new SpeechSynthesisUtterance(l.querySelector(".dl-el").textContent);
-      u.lang = "el-GR"; u.voice = l.dataset.v === "m" ? mal : fem; u.rate = rate;
+      u.lang = "el-GR"; if (fem) u.voice = l.dataset.v === "m" ? mal : fem; u.rate = rate;
       u.pitch = mal === fem ? (l.dataset.v === "m" ? 0.75 : 1.15) : 1;
       u.onend = u.onerror = () => res(); mark(i); ss.speak(u);
     });
@@ -1044,7 +1064,7 @@
   // All subtitled videos on one page, by level; "#videos.<id>" plays one.
   const allVideos = () => Promise.all(["lessons/videos.json", "lessons/videos-c1.json"].map((f) => getJSON(f).then((d) => d.videos || []).catch(() => []))).then((a) => a.flat());
   async function renderVideos(id) {
-    hideLookup();
+    hideLookup(); warmLookup();
     const vids = await allVideos(), lessonTitle = (lid) => course.units.flatMap((u) => u.lessons).find((l) => l.id === lid && l.file);
     const v = id && vids.find((x) => x.id === id);
     if (v) {
@@ -1147,7 +1167,12 @@
         </section>`).join("")}</div>
         ${pagerNav()}
       </div>
-      <p class="src"><a href="#videos">Videos</a> · <a href="#library">Resources</a> · <a href="#credits">Credits</a></p>`;
+      <p class="src"><a href="#videos">Videos</a> · <a href="#library">Resources</a> · <a href="#credits">Credits</a> · <button class="linkish" id="calm-tg" aria-pressed="${calm()}">Reduce motion: ${calm() ? "on" : "off"}</button></p>`;
+    $("#calm-tg").onclick = (e) => {
+      try { localStorage.setItem(CALM_KEY, calm() ? "0" : "1"); } catch (err) { /* storage unavailable */ }
+      document.documentElement.classList.toggle("calm", calm());
+      e.target.setAttribute("aria-pressed", calm()); e.target.textContent = `Reduce motion: ${calm() ? "on" : "off"}`;
+    };
     // Open on the unit holding the first lesson not yet mastered.
     const firstOpen = course.units.findIndex((u) => u.lessons.some((l) => l.file && !(progress[l.id]?.best >= 0.85)));
     const tabs = [...view.querySelectorAll(".unit-tabs button")];
@@ -1161,7 +1186,8 @@
     pg.go(Math.max(0, firstOpen), true);
     window.scrollTo(0, 0);
     // While the map is on screen: fetch the video list every lesson checks, and a lesson's file as soon as a finger lands on it.
-    (window.requestIdleCallback || ((f) => setTimeout(f, 1500)))(() => allVideos(), { timeout: 4000 });
+    // The word-lookup worker too: almost every page reached from here has tappable Greek.
+    (window.requestIdleCallback || ((f) => setTimeout(f, 1500)))(() => { allVideos(); warmLookup(); }, { timeout: 4000 });
     $("#units").addEventListener("pointerdown", (e) => { const id = e.target.closest(".lesson-row")?.getAttribute("href")?.slice(1); const m = id && course.units.flatMap((u) => u.lessons).find((l) => l.id === id && l.file); if (m) { getJSON(`lessons/${m.file}`).catch(() => {}); warmLookup(); } }, { passive: true });
   }
 
@@ -1297,7 +1323,7 @@
           ov.remove(); fb.querySelector(".feedback").className = "feedback right";
         };
         const nb = $("#next"); nb.focus({ preventScroll: true }); nb.onclick = () => { state.i++; next(); };
-        acts.scrollIntoView({ block: "nearest", behavior: "smooth" }); // feedback and the Next button, without a manual scroll
+        acts.scrollIntoView({ block: "nearest", behavior: smooth() }); // feedback and the Next button, without a manual scroll
       };
 
       if (item.options) {
