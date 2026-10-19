@@ -127,7 +127,7 @@
 .pf-dot { width: 26px; height: 26px; border-radius: 50%; display: inline-grid; place-items: center; font: 600 0.85rem/1 var(--f-ui); color: #0a2747; flex: none; }
 .pf-dot.big { width: 44px; height: 44px; font-size: 1.2rem; }
 .pf-chip-name { max-width: 9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-@media (max-width: 420px) { .pf-chip-name { display: none; } .pf-chip { padding-right: 3px; } }
+@media (max-width: 480px) { .pf-chip-name { display: none; } .pf-chip { padding-right: 3px; } }
 .bar:has(.pf-chip) { align-items: center; }
 .bar:has(.pf-chip) .bar-meta { order: 2; }
 .bar:has(.pf-chip) .pf-chip { order: 3; margin-left: 0; }

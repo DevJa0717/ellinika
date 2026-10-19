@@ -29,11 +29,12 @@ a { color: var(--link); }
 button, input { font: inherit; color: inherit; }
 :focus-visible { outline: 2px solid var(--terra); outline-offset: 2px; }
 
-.bar { position: sticky; top: 0; z-index: 5; display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+.bar { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; justify-content: space-between; gap: 12px;
   padding-top: calc(env(safe-area-inset-top, 0px) + 10px); padding-bottom: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   background: var(--paper); border-bottom: 1px solid var(--line); }
 .brand { font: 400 1.5rem/1 var(--f-display); color: var(--aegean); text-decoration: none; }
-.bar-meta { font: 500 0.8rem/1.2 var(--f-ui); color: var(--muted); letter-spacing: 0.02em; }
+.bar-meta { font: 500 0.8rem/1.2 var(--f-ui); color: var(--muted); letter-spacing: 0.02em; flex: 1 1 auto; min-width: 0; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brand { flex: 0 0 auto; }
 .wrap { max-width: 44rem; margin: 0 auto; padding-block: 20px 120px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 .loading { font-family: var(--f-ui); color: var(--muted); }
 
@@ -133,6 +134,7 @@ td .ipa, .ipa { font-family: var(--f-ui); color: var(--muted); font-size: 0.88em
 .keypad { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--card); border-top: 1px solid var(--line);
   padding-top: 6px; padding-bottom: max(6px, env(safe-area-inset-bottom, 0px)); padding-left: max(6px, env(safe-area-inset-left, 0px)); padding-right: max(6px, env(safe-area-inset-right, 0px));
   display: grid; gap: 4px; }
+.keypad[hidden] { display: none; }
 .keypad .krow { display: flex; gap: 4px; justify-content: center; }
 .keypad button { flex: 1 1 0; max-width: 2.7rem; min-width: 0; padding: 10px 0; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); font: 400 1.1rem/1 var(--f-body); cursor: pointer; }
 .keypad button.wide { max-width: 5rem; flex-grow: 2; font: 600 0.8rem/1 var(--f-ui); }
@@ -162,16 +164,21 @@ td .ipa, .ipa { font-family: var(--f-ui); color: var(--muted); font-size: 0.88em
 /* Pages out of view skip layout and paint until swiped to (the course map holds 30+ unit pages). */
 .pager > .page { content-visibility: auto; contain-intrinsic-size: auto 100% auto 520px; }
 .learn .page { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 16px; }
-.pager-nav { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; }
-.dots { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; flex: 1; }
-.dots button { width: 8px; height: 8px; padding: 0; border-radius: 50%; border: 0; background: var(--line); cursor: pointer; }
-.dots button[aria-current="true"] { background: var(--terra); width: 20px; border-radius: 4px; }
-.pager-nav .btn { min-width: 5.5rem; }
+.pager.dragging { scroll-snap-type: none; scroll-behavior: auto; }
+/* Back · slider · Next on one line; sticks to the bottom of the screen while its pages are in view. */
+.pager-nav { position: sticky; bottom: 0; z-index: 3; display: flex; align-items: center; gap: 10px; margin-top: 12px; padding: 10px 0 max(10px, env(safe-area-inset-bottom, 0px)); background: var(--paper); border-top: 1px solid var(--line); }
+.pager-nav .btn { flex: 0 0 auto; min-width: 4.8rem; height: 2.4rem; display: inline-flex; align-items: center; justify-content: center; }
 .pager-nav .btn:disabled { opacity: 0.3; cursor: default; }
+.slider { position: relative; flex: 1; min-width: 0; height: 2.4rem; cursor: pointer; touch-action: none; -webkit-user-select: none; user-select: none; }
+.slider::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 4px; margin-top: -2px; border-radius: 2px; background: var(--line); }
+.slider-thumb { position: absolute; left: 0; top: 50%; height: 10px; margin-top: -5px; min-width: 18px; border-radius: 5px; background: var(--terra); box-shadow: 0 0 0 4px rgba(242, 193, 78, 0.18); will-change: transform; transition: height .15s, margin-top .15s; }
+.slider.dragging .slider-thumb, .slider:active .slider-thumb { height: 16px; margin-top: -8px; border-radius: 8px; }
+.slider:focus-visible { outline-offset: 4px; border-radius: 6px; }
+.pager-nav .page-count { flex: 0 0 auto; min-width: 2.6rem; text-align: center; }
 .page-count { font: 500 0.8rem/1 var(--f-ui); color: var(--muted); font-variant-numeric: tabular-nums; }
-.unit-tabs { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; margin-bottom: 12px; }
+.unit-tabs { display: flex; align-items: center; gap: 6px; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; padding-bottom: 4px; margin-bottom: 12px; }
 .unit-tabs::-webkit-scrollbar { display: none; }
-.unit-tabs button { flex: 0 0 auto; border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 999px; padding: 7px 12px; font: 600 0.75rem/1 var(--f-ui); cursor: pointer; white-space: nowrap; }
+.unit-tabs button { flex: 0 0 auto; height: 2.1rem; display: inline-flex; align-items: center; border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 999px; padding: 7px 12px; font: 600 0.75rem/1 var(--f-ui); cursor: pointer; white-space: nowrap; }
 .unit-tabs button[aria-current="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 
 /* Photos */

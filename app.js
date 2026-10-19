@@ -761,32 +761,70 @@
   const srcNote = () => ""; // source citations are kept in the lesson JSON (cite) but not shown
 
   /* ---------- horizontal pages ---------- */
-  const pagerNav = () => `<div class="pager-nav"><button class="btn ghost small" data-dir="-1" aria-label="Previous page">‹ Back</button><div class="dots"></div><button class="btn ghost small" data-dir="1" aria-label="Next page">Next ›</button></div>`;
+  const pagerNav = () => `<div class="pager-nav"><button class="btn ghost small" data-dir="-1" aria-label="Previous page">‹ Back</button><div class="slider" role="slider" tabindex="0" aria-label="Pages"><div class="slider-thumb"></div></div><span class="page-count" aria-hidden="true"></span><button class="btn ghost small" data-dir="1" aria-label="Next page">Next ›</button></div>`;
+  // A swipeable row of pages with Back / Next and a slider: the thumb follows the swipe, and dragging it scrolls the pages continuously, settling on the nearest page on release.
   function pager(wrap, onChange) {
     const track = wrap.querySelector(".pager"), pages = [...track.children];
-    const dots = wrap.querySelector(".dots"), prev = wrap.querySelector('[data-dir="-1"]'), next = wrap.querySelector('[data-dir="1"]');
-    dots.innerHTML = pages.map((_, i) => `<button aria-label="Page ${i + 1}"></button>`).join("");
-    let cur = -1;
+    const slider = wrap.querySelector(".slider"), thumb = slider.firstElementChild, count = wrap.querySelector(".page-count");
+    const prev = wrap.querySelector('[data-dir="-1"]'), next = wrap.querySelector('[data-dir="1"]');
+    const n = pages.length;
+    slider.setAttribute("aria-valuemin", 1); slider.setAttribute("aria-valuemax", n);
+    thumb.style.width = `${Math.max(100 / n, 12)}%`;
+    const step = () => (n > 1 ? pages[1].offsetLeft - pages[0].offsetLeft : 1) || 1;
+    const maxLeft = () => (n - 1) * step();
+    let cur = -1, dragging = false;
     const set = (i) => {
       if (i === cur) return; cur = i;
-      [...dots.children].forEach((d, k) => d.setAttribute("aria-current", k === i));
-      prev.disabled = i === 0; next.disabled = i === pages.length - 1;
-      onChange && onChange(i);
+      slider.setAttribute("aria-valuenow", i + 1); count.textContent = `${i + 1}/${n}`;
+      prev.disabled = i === 0; next.disabled = i === n - 1;
+      onChange && onChange(i, dragging);
     };
+    // Thumb position as a fraction 0..1 of the way through the pages.
+    const place = (f) => { thumb.style.transform = `translateX(${Math.max(0, Math.min(1, f)) * (slider.clientWidth - thumb.offsetWidth)}px)`; };
     const go = (i, instant) => {
-      i = Math.max(0, Math.min(pages.length - 1, i));
+      i = Math.max(0, Math.min(n - 1, i));
       track.scrollTo({ left: pages[i].offsetLeft - track.offsetLeft, behavior: instant ? "auto" : smooth() });
       set(i);
+      if (instant) place(n > 1 ? i / (n - 1) : 0);
       const top = wrap.getBoundingClientRect().top;
       // Bring the page's top edge back into view below the sticky header (and lesson tabs, when there are any).
       const head = bar.offsetHeight + (wrap.closest("#pane") ? $(".tabs")?.offsetHeight || 0 : 0) + 8;
       if (!instant && top < head) window.scrollBy({ top: top - head, behavior: smooth() });
     };
-    let t;
-    track.addEventListener("scroll", () => { clearTimeout(t); t = setTimeout(() => set(Math.round(track.scrollLeft / track.clientWidth)), 60); });
+    let t, raf;
+    track.addEventListener("scroll", () => {
+      if (!raf) raf = requestAnimationFrame(() => { raf = 0; place(track.scrollLeft / (maxLeft() || 1)); });
+      if (dragging) return;
+      clearTimeout(t); t = setTimeout(() => set(Math.round(track.scrollLeft / step())), 60);
+    }, { passive: true });
+    // Dragging the slider (or tapping anywhere on it) moves the pages with the finger, with no snapping until release.
+    let f = 0;
+    const at = (e) => {
+      const r = slider.getBoundingClientRect(), w = thumb.offsetWidth;
+      f = Math.max(0, Math.min(1, (e.clientX - r.left - w / 2) / ((r.width - w) || 1)));
+      track.scrollLeft = f * maxLeft();
+      place(f); set(Math.round(f * (n - 1)));
+    };
+    slider.addEventListener("pointerdown", (e) => {
+      if (n < 2) return;
+      dragging = true; slider.classList.add("dragging"); track.classList.add("dragging");
+      try { slider.setPointerCapture(e.pointerId); } catch (err) { /* pointer already gone */ }
+      at(e); e.preventDefault();
+    });
+    slider.addEventListener("pointermove", (e) => { if (dragging) at(e); });
+    const end = () => {
+      if (!dragging) return;
+      dragging = false; slider.classList.remove("dragging"); track.classList.remove("dragging");
+      const i = Math.round(f * (n - 1)); cur = -1; go(i);
+    };
+    slider.addEventListener("pointerup", end); slider.addEventListener("pointercancel", end); slider.addEventListener("lostpointercapture", end);
+    slider.addEventListener("keydown", (e) => {
+      const d = { ArrowLeft: -1, ArrowDown: -1, ArrowRight: 1, ArrowUp: 1 }[e.key];
+      if (d) { e.preventDefault(); go(cur + d); } else if (e.key === "Home") { e.preventDefault(); go(0); } else if (e.key === "End") { e.preventDefault(); go(n - 1); }
+    });
+    if (window.ResizeObserver) new ResizeObserver(() => place(track.scrollLeft / (maxLeft() || 1))).observe(slider);
     prev.onclick = () => go(cur - 1); next.onclick = () => go(cur + 1);
-    [...dots.children].forEach((d, k) => (d.onclick = () => go(k)));
-    set(0);
+    set(0); place(0);
     return { go };
   }
 
@@ -1178,9 +1216,9 @@
     const tabs = [...view.querySelectorAll(".unit-tabs button")];
     // Keep the current unit's tab in view by scrolling the strip itself (scrollIntoView could also move the page).
     const strip = $(".unit-tabs", view);
-    const pg = pager($("#units"), (i) => tabs.forEach((t, k) => {
+    const pg = pager($("#units"), (i, dragging) => tabs.forEach((t, k) => {
       t.setAttribute("aria-current", k === i);
-      if (k === i) { const l = t.offsetLeft - strip.offsetLeft; if (l < strip.scrollLeft || l + t.offsetWidth > strip.scrollLeft + strip.clientWidth) strip.scrollLeft = l - 12; }
+      if (k === i) strip.scrollTo({ left: t.offsetLeft - strip.offsetLeft - (strip.clientWidth - t.offsetWidth) / 2, behavior: dragging ? "auto" : smooth() });
     }));
     tabs.forEach((t, k) => (t.onclick = () => pg.go(k)));
     pg.go(Math.max(0, firstOpen), true);
