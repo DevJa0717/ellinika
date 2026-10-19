@@ -1,0 +1,299 @@
+{
+ "el": "Το γένος και το άρθρο",
+ "title": "Gender and the article",
+ "section": "A1 · Holton §3.3-3.6",
+ "goal": "Predict a noun's gender from its ending and pick ο, η or το.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Every Greek noun is masculine, feminine or neuter, and the article in front of it tells you which. Always learn a noun with its article: not *σπίτι* but **το σπίτι**. The good news is that the ending of the nominative singular usually gives the gender away."
+  },
+  {
+   "type": "table",
+   "title": "Endings that signal gender",
+   "head": [
+    "Gender",
+    "Article",
+    "Typical endings",
+    "Examples"
+   ],
+   "rows": [
+    [
+     "masculine",
+     "ο",
+     "-ος, -ας, -ης, -ές",
+     "ο δρόμος, ο πατέρας, ο μαθητής, ο καφές"
+    ],
+    [
+     "feminine",
+     "η",
+     "-α, -η",
+     "η ώρα, η πόλη, η ζωή"
+    ],
+    [
+     "neuter",
+     "το",
+     "-ο, -ι, -μα",
+     "το νερό, το σπίτι, το πρόβλημα"
+    ]
+   ]
+  },
+  {
+   "type": "rules",
+   "title": "Gender rules",
+   "src": "grammar/nouns-full.json#gender.rules",
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Holton §3.3"
+  },
+  {
+   "type": "callout",
+   "text": "Watch the traps. Some -ος nouns are feminine (η οδός 'street', η μέθοδος 'method'), and words for young people are neuter: **το παιδί** 'child', **το κορίτσι** 'girl', **το αγόρι** 'boy'."
+  },
+  {
+   "type": "culture",
+   "title": "Diminutives turn everything neuter",
+   "text": "Greeks use the diminutive **-άκι** constantly, for warmth rather than size, and it is always neuter: **το καφεδάκι** 'a nice little coffee', **το σπιτάκι** 'little house', **ένα νεράκι** 'a drop of water' at the kafeneio. First names do it too: Μαρία becomes **το Μαράκι**, Γιώργος **το Γιωργάκι** (or masculine **ο Γιωργάκης**). Professions often have one form for both sexes, and the article does the work: **ο γιατρός** for a man, **η γιατρός** for a woman, likewise **ο/η δικηγόρος** 'lawyer'."
+  },
+  {
+   "type": "vocab",
+   "title": "Common nouns with their articles",
+   "words": [
+    "άνθρωπος",
+    "γυναίκα",
+    "άντρας",
+    "παιδί",
+    "σπίτι",
+    "δουλειά",
+    "μέρα",
+    "χρόνος",
+    "ώρα",
+    "θέμα",
+    "πρόβλημα",
+    "χώρα",
+    "πόλη",
+    "δρόμος",
+    "νερό",
+    "φαγητό",
+    "καφές",
+    "ζωή",
+    "φίλος",
+    "οικογένεια",
+    "μητέρα",
+    "πατέρας"
+   ],
+   "article": true
+  }
+ ],
+ "practice": [
+  {
+   "gen": "article-gender",
+   "n": 15
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "___ μέθοδος",
+     "answer": "η",
+     "options": [
+      "ο",
+      "η",
+      "το"
+     ],
+     "why": "A small group of -ος nouns, many of them learned (μέθοδος, οδός, είσοδος), are feminine."
+    },
+    {
+     "prompt": "___ κορίτσι",
+     "answer": "το",
+     "options": [
+      "ο",
+      "η",
+      "το"
+     ],
+     "why": "Words for young people (παιδί, κορίτσι, αγόρι) are neuter whatever the sex."
+    },
+    {
+     "prompt": "___ γιατρός (Dr Eleni Pappa)",
+     "answer": "η",
+     "options": [
+      "ο",
+      "η",
+      "το"
+     ],
+     "why": "Common-gender nouns keep one form; the article shows the person's sex."
+    },
+    {
+     "prompt": "___ σπιτάκι",
+     "answer": "το",
+     "options": [
+      "ο",
+      "η",
+      "το"
+     ],
+     "why": "Diminutives in -άκι are always neuter."
+    },
+    {
+     "prompt": "___ καφές",
+     "answer": "ο",
+     "options": [
+      "ο",
+      "η",
+      "το"
+     ],
+     "why": "Nouns in stressed -ές are masculine."
+    },
+    {
+     "prompt": "___ οδός",
+     "answer": "η",
+     "options": [
+      "ο",
+      "η",
+      "το"
+     ],
+     "why": "οδός 'street' is a feminine -ος noun, as in street signs: Οδός Ερμού."
+    },
+    {
+     "prompt": "___ αγόρι",
+     "answer": "το",
+     "options": [
+      "ο",
+      "η",
+      "το"
+     ],
+     "why": "αγόρι 'boy' is neuter like other -ι nouns."
+    },
+    {
+     "prompt": "___ πρόβλημα",
+     "answer": "το",
+     "options": [
+      "ο",
+      "η",
+      "το"
+     ],
+     "why": "Every noun in -μα is neuter."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 10,
+   "items": [
+    {
+     "prompt": "Say in Greek, with the article: *the girl*",
+     "answer": "το κορίτσι",
+     "accept": [
+      "το κορίτσι"
+     ],
+     "why": "Neuter -ι noun: το."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the boy*",
+     "answer": "το αγόρι",
+     "accept": [
+      "το αγόρι"
+     ],
+     "why": "Neuter despite meaning a male."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the street* (οδός)",
+     "answer": "η οδός",
+     "accept": [
+      "η οδός"
+     ],
+     "why": "Feminine -ος noun."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the coffee*",
+     "answer": "ο καφές",
+     "accept": [
+      "ο καφές"
+     ],
+     "why": "Masculine -ές noun."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the problem*",
+     "answer": "το πρόβλημα",
+     "accept": [
+      "το πρόβλημα"
+     ],
+     "why": "-μα nouns are neuter."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the city*",
+     "answer": "η πόλη",
+     "accept": [
+      "η πόλη"
+     ],
+     "why": "Feminine -η noun."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the water*",
+     "answer": "το νερό",
+     "accept": [
+      "το νερό"
+     ],
+     "why": "Neuter -ο noun."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the father*",
+     "answer": "ο πατέρας",
+     "accept": [
+      "ο πατέρας"
+     ],
+     "why": "Masculine -ας noun."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the (woman) doctor*",
+     "answer": "η γιατρός",
+     "accept": [
+      "η γιατρός"
+     ],
+     "why": "Common-gender noun: feminine article, masculine-looking ending."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the little house* (diminutive of σπίτι)",
+     "answer": "το σπιτάκι",
+     "accept": [
+      "το σπιτάκι"
+     ],
+     "why": "-άκι diminutives are neuter."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the day*",
+     "answer": "η μέρα",
+     "accept": [
+      "η μέρα",
+      "η ημέρα"
+     ],
+     "why": "Feminine -α noun; ημέρα is the fuller, more formal form."
+    },
+    {
+     "prompt": "Say in Greek, with the article: *the method*",
+     "answer": "η μέθοδος",
+     "accept": [
+      "η μέθοδος"
+     ],
+     "why": "Feminine -ος noun."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "γυναίκα",
+  "άντρας",
+  "παιδί",
+  "κορίτσι",
+  "αγόρι",
+  "σπίτι",
+  "πόλη",
+  "χώρα",
+  "πρόβλημα",
+  "νερό",
+  "καφές",
+  "γιατρός"
+ ]
+}

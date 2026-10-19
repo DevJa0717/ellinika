@@ -1,0 +1,44 @@
+{
+ "items": [
+  {
+   "id": "c1-lessons",
+   "title": "C1 lessons (app/lessons/c1-*.json, 47 files)",
+   "author": "Claude (lesson thread)",
+   "url": "",
+   "license": "Project-internal content",
+   "retrieved": "2026-10-18",
+   "file": "/mnt/project-files/app/lessons/c1-*.json",
+   "notes": "Primary source for candidate lemmas and for seen_in. Words that also appear in the lexicon misses pipeline were left to the lexicon."
+  },
+  {
+   "id": "c1-videos",
+   "title": "C1 video cues (data/c1/videos/videos-c1.json)",
+   "author": "See data/c1/videos/sources.json (TEDx speakers; TED/Amara volunteer subtitles)",
+   "url": "",
+   "license": "Inherited per item: TED CC BY-NC-ND 4.0; cues used only to pick lemmas and compute seen_in. No cue text copied into entries.",
+   "retrieved": "2026-10-18",
+   "file": "/mnt/project-files/data/c1/videos/videos-c1.json",
+   "notes": "Second-priority source."
+  },
+  {
+   "id": "c1-texts",
+   "title": "C1 reading texts (data/c1/texts/*.json)",
+   "author": "See data/c1/texts/sources.json (Wikipedia contributors, press excerpts)",
+   "url": "",
+   "license": "Inherited per item (CC BY-SA 4.0 Wikipedia; copyrighted press excerpts for personal study). No text copied into entries.",
+   "retrieved": "2026-10-18",
+   "file": "/mnt/project-files/data/c1/texts/",
+   "notes": "Third-priority source."
+  },
+  {
+   "id": "claude",
+   "title": "Own knowledge of Modern Greek",
+   "author": "Claude",
+   "url": "",
+   "license": "Entries written by Claude",
+   "retrieved": "2026-10-18",
+   "file": "c1-words.json",
+   "notes": "All glosses, examples, forms and most non-corpus lemmas. No web content was fetched for this list."
+  }
+ ]
+}

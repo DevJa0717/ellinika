@@ -1,0 +1,634 @@
+{
+ "el": "Ανώμαλα παθητικά",
+ "title": "Tricky passive forms across all tenses",
+ "section": "B2 · Holton §6.14-6.15, §6.25",
+ "goal": "Produce the passive of the high-frequency irregular verbs in every tense, including the passive perfect.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "The whole passive hangs on two stems. The **imperfective** stem gives χάνομαι, χανόμουν(α), θα χάνομαι. The **perfective** stem (χαθ-) gives everything else: χάθηκα, θα χαθώ, να χαθείς, χάσου/χαθείτε, **έχω χαθεί**, **είχα χαθεί**, and usually the participle **χαμένος**.\n\nSo once you know the passive past, the rest is mechanical: drop -ηκα (and any augment) and add the stressed ending: ειδώθηκα → **ιδωθώ**, δόθηκα → **δοθώ**, βρέθηκα → **βρεθώ**. The passive perfect uses the same stem + **-εί**: έχει ειπωθεί, έχουν σταλθεί, είχε βρεθεί."
+  },
+  {
+   "type": "table",
+   "title": "One verb, every passive form",
+   "head": [
+    "Form",
+    "χάνομαι 'get lost'"
+   ],
+   "bigFirst": false,
+   "rows": [
+    [
+     "present",
+     "χάνομαι"
+    ],
+    [
+     "imperfect",
+     "χανόμουν(α)"
+    ],
+    [
+     "simple past",
+     "χάθηκα"
+    ],
+    [
+     "dependent",
+     "(να / θα) χαθώ"
+    ],
+    [
+     "imperfective future",
+     "θα χάνομαι"
+    ],
+    [
+     "perfect",
+     "έχω χαθεί"
+    ],
+    [
+     "pluperfect",
+     "είχα χαθεί"
+    ],
+    [
+     "imperative",
+     "χάσου, χαθείτε"
+    ],
+    [
+     "participle",
+     "χαμένος, -η, -ο"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "High-frequency irregular passives",
+   "head": [
+    "Active",
+    "Passive past",
+    "Dependent",
+    "Perfect (3sg)"
+   ],
+   "rows": [
+    [
+     "βλέπω",
+     "ειδώθηκα",
+     "ιδωθώ",
+     "έχει ειδωθεί"
+    ],
+    [
+     "λέω",
+     "ειπώθηκα (λέχθηκα)",
+     "ειπωθώ",
+     "έχει ειπωθεί / λεχθεί"
+    ],
+    [
+     "βρίσκω",
+     "βρέθηκα",
+     "βρεθώ",
+     "έχει βρεθεί"
+    ],
+    [
+     "δίνω",
+     "δόθηκα",
+     "δοθώ",
+     "έχει δοθεί"
+    ],
+    [
+     "παίρνω",
+     "πάρθηκα",
+     "παρθώ",
+     "έχει παρθεί"
+    ],
+    [
+     "στέλνω",
+     "στάλθηκα",
+     "σταλθώ",
+     "έχει σταλθεί"
+    ],
+    [
+     "βάζω",
+     "βάλθηκα",
+     "βαλθώ",
+     "έχει βαλθεί"
+    ],
+    [
+     "κόβω",
+     "κόπηκα",
+     "κοπώ",
+     "έχει κοπεί"
+    ],
+    [
+     "καίω",
+     "κάηκα",
+     "καώ",
+     "έχει καεί"
+    ],
+    [
+     "τρώω",
+     "φαγώθηκα",
+     "φαγωθώ",
+     "έχει φαγωθεί"
+    ],
+    [
+     "πίνω",
+     "πιώθηκα",
+     "πιωθώ",
+     "έχει πιωθεί"
+    ],
+    [
+     "αφήνω",
+     "αφέθηκα",
+     "αφεθώ",
+     "έχει αφεθεί"
+    ],
+    [
+     "στρέφω",
+     "στράφηκα",
+     "στραφώ",
+     "έχει στραφεί"
+    ],
+    [
+     "εκλέγω",
+     "εκλέχτηκα",
+     "εκλεγώ",
+     "έχει εκλεγεί"
+    ],
+    [
+     "θέτω",
+     "τέθηκα",
+     "τεθώ",
+     "έχει τεθεί"
+    ],
+    [
+     "προτείνω",
+     "προτάθηκα",
+     "προταθώ",
+     "έχει προταθεί"
+    ],
+    [
+     "διαθέτω",
+     "διατέθηκα",
+     "διατεθώ",
+     "έχει διατεθεί"
+    ],
+    [
+     "πλένω",
+     "πλύθηκα",
+     "πλυθώ",
+     "έχει πλυθεί"
+    ]
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Register.** λέχθηκα, εκλέχτηκα, τέθηκα, διατέθηκα, προτάθηκα are the forms of news and official texts: *Το θέμα τέθηκε στη συνεδρίαση* 'The issue was raised at the meeting'; *Προτάθηκε νέος νόμος* 'A new law was proposed'. These are exactly what the B2 reading paper uses."
+  },
+  {
+   "type": "culture",
+   "title": "Police-report Greek",
+   "text": "Greek crime and accident news is built on the passive, often in its learned form. Police press releases, and the news sites that copy them, open with **Συνελήφθη** 'was arrested' (συλλαμβάνομαι) or **Εντοπίστηκε** 'was located', followed by an age compound: **ένας 35χρονος** 'a 35-year-old'. Wildfire reports say **κάηκαν 500 στρέμματα** '500 stremmata burned' (a **στρέμμα** is 1,000 m²), and politics brings **τέθηκε σε ψηφοφορία** 'was put to the vote'. In conversation the same arrest sounds different: **τον έπιασαν** 'they caught him'. Reading Greek news means switching between both registers."
+  },
+  {
+   "type": "text",
+   "title": "Learned pasts in -ην",
+   "text": "A handful of passives keep an ancient past in **-ην**, used in formal Greek, mostly in the 3rd person: **κατέστη** 'became, was rendered' (καθίσταμαι), **εξεπλάγη** 'was surprised' (εκπλήσσομαι), **συνέβη** 'it happened' (συμβαίνει). *Κατέστη σαφές ότι…* 'It became clear that…'; *Τι συνέβη;* 'What happened?'"
+  },
+  {
+   "type": "reading",
+   "title": "Τι ειπώθηκε στο δημοτικό συμβούλιο",
+   "text": "Σε έκτακτη συνεδρίαση του δημοτικού συμβουλίου της Σάμου, χθες το βράδυ, τέθηκε επιτέλους το θέμα της μεγάλης φωτιάς του Αυγούστου. Όπως είναι γνωστό, κάηκαν τότε πάνω από τρεις χιλιάδες στρέμματα δάσους και ελαιώνων, ενώ δύο σπίτια καταστράφηκαν εντελώς.\n\nΟ δήμαρχος, που εκλέχτηκε πριν από δύο χρόνια, παραδέχτηκε ότι έχουν ειπωθεί πολλά τους τελευταίους μήνες, αλλά, όπως είπε, «η αλήθεια δεν έχει ειπωθεί ακόμα». Σύμφωνα με τα στοιχεία που δόθηκαν στη δημοσιότητα, η φωτιά ξεκίνησε από ξερά κλαδιά που είχαν κοπεί και είχαν αφεθεί δίπλα σε καλώδια ρεύματος. Τα καλώδια δεν είχαν ελεγχθεί εδώ και χρόνια. Ο δήμαρχος υποστήριξε ότι ο δήμος είχε στείλει δύο επιστολές στην εταιρεία ρεύματος, οι οποίες όμως «χάθηκαν κάπου στα γραφεία» και δεν απαντήθηκαν ποτέ.\n\nΟι κάτοικοι που βρέθηκαν στην αίθουσα ζήτησαν να δοθούν οι αποζημιώσεις χωρίς άλλη καθυστέρηση. Ο δήμαρχος απάντησε ότι τα πρώτα χρήματα έχουν ήδη σταλθεί στις οικογένειες που έχασαν τα σπίτια τους και ότι τα υπόλοιπα θα δοθούν μέσα στον Νοέμβριο. Μια νεαρή μητέρα είπε ότι η οικογένειά της έχει αφεθεί μόνη της και ότι στο χωριό της δεν έχει δοθεί ακόμα ούτε ένα ευρώ. «Τα έχουμε ξανακούσει αυτά», φώναξε μια ηλικιωμένη κυρία, και η φράση της χειροκροτήθηκε.\n\nΠροτάθηκαν επίσης δύο μέτρα για το μέλλον: να φυτευτούν δέκα χιλιάδες δέντρα μέχρι την άνοιξη και να προσληφθούν δέκα εποχικοί πυροσβέστες. Και οι δύο προτάσεις ψηφίστηκαν σχεδόν ομόφωνα και θα σταλθούν στο υπουργείο την επόμενη εβδομάδα. Στο τέλος της συνεδρίασης, πάντως, κατέστη σαφές ότι, αν δεν βρεθούν χρήματα από την Αθήνα, πολλά από όσα ειπώθηκαν θα μείνουν στα χαρτιά.",
+   "en": "At an emergency meeting of the Samos municipal council last night, the issue of the big August fire was finally raised. As is well known, more than three thousand stremmata of forest and olive groves burned at the time, while two houses were completely destroyed.\n\nThe mayor, who was elected two years ago, admitted that a lot has been said in recent months, but, as he put it, \"the truth has not been told yet\". According to the data that were made public, the fire started from dry branches that had been cut and left next to power cables. The cables had not been inspected for years. The mayor claimed that the municipality had sent two letters to the electricity company, which, however, \"got lost somewhere in the offices\" and were never answered.\n\nThe residents who were in the hall demanded that the compensation be paid without further delay. The mayor replied that the first money has already been sent to the families who lost their homes and that the rest will be paid within November. A young mother said that her family has been left on its own and that not a single euro has been paid in her village yet. \"We've heard all this before,\" shouted an elderly lady, and her remark was applauded.\n\nTwo measures for the future were also proposed: that ten thousand trees be planted by spring and that ten seasonal firefighters be hired. Both proposals were passed almost unanimously and will be sent to the ministry next week. By the end of the meeting, however, it had become clear that if money is not found from Athens, much of what was said will stay on paper.",
+   "gloss": {
+    "συνεδρίαση": "συνεδρίαση — meeting, session (of a council)",
+    "συνεδρίασης": "συνεδρίαση — meeting, session (gen.)",
+    "Σάμου": "Σάμος — Samos (island in the eastern Aegean), gen.",
+    "τρεις": "τρεις — three (masc./fem.)",
+    "στρέμματα": "στρέμμα — stremma, 1,000 m² (Greek land measure)",
+    "ελαιώνων": "ελαιώνας — olive grove (gen. pl.)",
+    "ελαιώνα": "ελαιώνας — olive grove (acc.)",
+    "καταστράφηκαν": "καταστρέφομαι — were destroyed (passive past of καταστρέφω)",
+    "εκλέχτηκε": "εκλέγομαι — was elected (passive past of εκλέγω)",
+    "δημοσιότητα": "δημοσιότητα — publicity; δόθηκαν στη δημοσιότητα 'were made public'",
+    "κλαδιά": "κλαδί — branch (pl.)",
+    "ελεγχθεί": "ελέγχομαι — (had) been checked, inspected (passive perfect stem of ελέγχω)",
+    "επιστολές": "επιστολή — letter (formal), pl.",
+    "οποίες": "οποίος — which (οι οποίες: fem. pl. relative)",
+    "απαντήθηκαν": "απαντιέμαι — were answered (passive past of απαντώ)",
+    "αποζημιώσεις": "αποζημίωση — compensation (pl.)",
+    "καθυστέρηση": "καθυστέρηση — delay",
+    "ξανακούσει": "ξανακούω — heard again (έχουμε ξανακούσει 'we have heard before')",
+    "ηλικιωμένη": "ηλικιωμένος — elderly (fem.)",
+    "φράση": "φράση — phrase, remark",
+    "χειροκροτήθηκε": "χειροκροτούμαι — was applauded (passive past of χειροκροτώ)",
+    "φυτευτούν": "φυτεύομαι — be planted (να φυτευτούν, passive dependent of φυτεύω)",
+    "προσληφθούν": "προσλαμβάνομαι — be hired (να προσληφθούν, passive dependent of προσλαμβάνω)",
+    "εποχικοί": "εποχικός — seasonal",
+    "πυροσβέστες": "πυροσβέστης — firefighter (pl.)",
+    "ψηφίστηκαν": "ψηφίζομαι — were voted through, passed (passive past of ψηφίζω)",
+    "ομόφωνα": "ομόφωνα — unanimously",
+    "υπουργείο": "υπουργείο — ministry",
+    "κατέστη": "καθίσταμαι — became, was rendered (learned past; κατέστη σαφές 'it became clear')",
+    "παραιτηθεί": "παραιτούμαι — resign (θα παραιτηθεί 'will resign')",
+    "νέα": "νέος — new (fem.)"
+   },
+   "questions": [
+    {
+     "prompt": "Πότε έγινε η μεγάλη φωτιά;",
+     "answer": "Τον Αύγουστο",
+     "options": [
+      "Τον Αύγουστο",
+      "Τον Νοέμβριο",
+      "Την άνοιξη"
+     ]
+    },
+    {
+     "prompt": "Από πού ξεκίνησε η φωτιά, σύμφωνα με τα στοιχεία;",
+     "answer": "Από ξερά κλαδιά δίπλα σε καλώδια",
+     "options": [
+      "Από ξερά κλαδιά δίπλα σε καλώδια",
+      "Από ένα σπίτι στο χωριό",
+      "Από έναν ελαιώνα",
+      "Από ένα αυτοκίνητο"
+     ]
+    },
+    {
+     "prompt": "Τι έχει γίνει ήδη με τις αποζημιώσεις;",
+     "answer": "Τα πρώτα χρήματα έχουν σταλθεί",
+     "options": [
+      "Τα πρώτα χρήματα έχουν σταλθεί",
+      "Όλα τα χρήματα έχουν δοθεί",
+      "Δεν έχει δοθεί τίποτα"
+     ]
+    },
+    {
+     "prompt": "Τι θα γίνει, αν δεν βρεθούν χρήματα από την Αθήνα;",
+     "answer": "Πολλά θα μείνουν στα χαρτιά",
+     "options": [
+      "Πολλά θα μείνουν στα χαρτιά",
+      "Ο δήμαρχος θα παραιτηθεί",
+      "Θα γίνει νέα συνεδρίαση"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "irregular-part",
+   "field": "passive_simple_past",
+   "n": 8,
+   "only": [
+    "πίνω",
+    "αφήνω",
+    "φορώ",
+    "εισάγω",
+    "πλένω",
+    "θέτω",
+    "αυξάνω/-αίνω",
+    "λέ(γ)ω",
+    "περνώ",
+    "σώζω",
+    "δίνω",
+    "εκλέγω",
+    "παίρνω",
+    "τρώω",
+    "βάζω",
+    "προτείνω",
+    "φέρνω",
+    "καλώ",
+    "βγάζω",
+    "διαθέτω",
+    "αναβάλλω",
+    "βλέπω",
+    "στέλνω",
+    "ξεχνώ",
+    "βρίσκω",
+    "παρέχω",
+    "κόβω",
+    "καίω",
+    "στρέφω",
+    "κλέβω",
+    "προβλέπω",
+    "παραδίδω/παραδίνω",
+    "υποβάλλω",
+    "προσκαλώ",
+    "αναγνωρίζω"
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "**βλέπω**, passive dependent: να ___ (εγώ)",
+     "answer": "ιδωθώ",
+     "accept": [
+      "ιδωθώ",
+      "ειδωθώ"
+     ],
+     "why": "ειδώθηκα → the dependent drops the augment: ιδωθώ."
+    },
+    {
+     "prompt": "**δίνω**, passive dependent: θα ___ (αυτό)",
+     "answer": "δοθεί",
+     "why": "δόθηκα → θα δοθεί."
+    },
+    {
+     "prompt": "**βρίσκω**, passive dependent: θα ___ (εμείς)",
+     "answer": "βρεθούμε",
+     "why": "βρέθηκα → θα βρεθούμε 'we'll meet / find ourselves'."
+    },
+    {
+     "prompt": "**στέλνω**, passive perfect: Τα γράμματα έχουν ___.",
+     "answer": "σταλθεί",
+     "why": "στάλθηκα → έχουν σταλθεί."
+    },
+    {
+     "prompt": "**λέω**, passive perfect: Έχουν ___ πολλά.",
+     "answer": "ειπωθεί",
+     "accept": [
+      "ειπωθεί",
+      "λεχθεί"
+     ],
+     "why": "ειπώθηκα → έχουν ειπωθεί (formal: λεχθεί)."
+    },
+    {
+     "prompt": "**τρώω**, passive perfect: Το φαγητό έχει ___.",
+     "answer": "φαγωθεί",
+     "why": "φαγώθηκα → έχει φαγωθεί."
+    },
+    {
+     "prompt": "**καίω**, passive past: Το δάσος ___ (αυτό).",
+     "answer": "κάηκε",
+     "why": "κάηκα → κάηκε."
+    },
+    {
+     "prompt": "**κόβω**, passive past: ___ με το μαχαίρι (εγώ).",
+     "answer": "κόπηκα",
+     "why": "κόβω → κόπηκα 'I cut myself'."
+    },
+    {
+     "prompt": "**παίρνω**, passive pluperfect: Η απόφαση είχε ήδη ___.",
+     "answer": "παρθεί",
+     "why": "πάρθηκα → είχε παρθεί."
+    },
+    {
+     "prompt": "**θέτω**, passive past: Το θέμα ___ στη συνεδρίαση (αυτό).",
+     "answer": "τέθηκε",
+     "why": "θέτω → τέθηκε (formal)."
+    },
+    {
+     "prompt": "**προτείνω**, passive past: ___ νέος νόμος (αυτός).",
+     "answer": "προτάθηκε",
+     "why": "προτείνω → προτάθηκε."
+    },
+    {
+     "prompt": "**εκλέγω**, passive past: ___ δήμαρχος πέρσι (αυτός).",
+     "answer": "εκλέχτηκε",
+     "accept": [
+      "εκλέχτηκε",
+      "εκλέχθηκε"
+     ],
+     "why": "εκλέγω → εκλέχτηκε (formal εκλέχθηκε)."
+    },
+    {
+     "prompt": "**αφήνω**, passive dependent: να ___ ελεύθερος (αυτός)",
+     "answer": "αφεθεί",
+     "why": "αφέθηκα → να αφεθεί."
+    },
+    {
+     "prompt": "**χάνομαι**, imperative: Χάσου! (plural)",
+     "answer": "χαθείτε",
+     "why": "Passive perfective imperative: -σου, -θείτε."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Κατέστη σαφές ότι η συμφωνία δεν θα υπογραφόταν.",
+     "answer": "It became clear",
+     "options": [
+      "It became clear",
+      "It was established",
+      "He stood up"
+     ],
+     "why": "κατέστη, learned past of καθίσταμαι 'be rendered'."
+    },
+    {
+     "prompt": "Τι ___ χθες στη σύσκεψη;",
+     "answer": "συνέβη",
+     "options": [
+      "συνέβη",
+      "συμβαίνει",
+      "συνέβηκε"
+     ],
+     "why": "συνέβη: learned past of συμβαίνει."
+    },
+    {
+     "prompt": "Ο υπουργός ___ από τις δηλώσεις του πρωθυπουργού.",
+     "answer": "εξεπλάγη",
+     "options": [
+      "εξεπλάγη",
+      "εκπλήχτηκε",
+      "εκπλάγηκε"
+     ],
+     "why": "εκπλήσσομαι → εξεπλάγη (formal)."
+    }
+   ]
+  },
+  {
+   "gen": "passive-aorist",
+   "common": true,
+   "n": 3
+  },
+  {
+   "gen": "review",
+   "tag": "verb",
+   "n": 3
+  },
+  {
+   "gen": "type",
+   "n": 6,
+   "items": [
+    {
+     "prompt": "Say in Greek: *The wallet was found.* (βρίσκω)",
+     "answer": "Το πορτοφόλι βρέθηκε",
+     "accept": [
+      "Το πορτοφόλι βρέθηκε",
+      "Βρέθηκε το πορτοφόλι"
+     ],
+     "why": "βρίσκω has the irregular passive past βρέθηκα, 3sg βρέθηκε."
+    },
+    {
+     "prompt": "Say in Greek: *The decision has been taken.* (παίρνω)",
+     "answer": "Η απόφαση έχει παρθεί",
+     "accept": [
+      "Η απόφαση έχει παρθεί",
+      "Έχει παρθεί η απόφαση",
+      "Η απόφαση έχει ληφθεί",
+      "Έχει ληφθεί η απόφαση"
+     ],
+     "why": "Passive perfect = έχει + perfective stem in -εί: πάρθηκα → έχει παρθεί (formal: έχει ληφθεί, from λαμβάνω)."
+    },
+    {
+     "prompt": "Τα αποτελέσματα θα ___ αύριο. (δίνω, passive)",
+     "answer": "δοθούν",
+     "accept": [
+      "δοθούν"
+     ],
+     "why": "θα + perfective passive dependent: δόθηκα → δοθώ, 3pl δοθούν."
+    },
+    {
+     "prompt": "Say in Greek: *Nothing has been said yet.* (λέω)",
+     "answer": "Δεν έχει ειπωθεί τίποτα ακόμα",
+     "accept": [
+      "Δεν έχει ειπωθεί τίποτα ακόμα",
+      "Δεν έχει ειπωθεί ακόμα τίποτα",
+      "Τίποτα δεν έχει ειπωθεί ακόμα",
+      "Ακόμα δεν έχει ειπωθεί τίποτα",
+      "Δεν έχει ειπωθεί τίποτα ακόμη",
+      "Δεν έχει ειπωθεί ακόμη τίποτα",
+      "Τίποτα δεν έχει ειπωθεί ακόμη",
+      "Ακόμη δεν έχει ειπωθεί τίποτα"
+     ],
+     "why": "ειπώθηκα → έχει ειπωθεί; τίποτα needs δεν with the verb."
+    },
+    {
+     "prompt": "Όλο το φαγητό ___ σε δέκα λεπτά. (τρώω, passive past)",
+     "answer": "φαγώθηκε",
+     "accept": [
+      "φαγώθηκε"
+     ],
+     "why": "τρώω builds its passive on the aorist stem φαγ-: φαγώθηκα, 3sg φαγώθηκε."
+    },
+    {
+     "prompt": "Θα σας ___ ένα email με τις λεπτομέρειες. (στέλνω, passive dependent, 3sg)",
+     "answer": "σταλεί",
+     "accept": [
+      "σταλεί",
+      "σταλθεί"
+     ],
+     "why": "στάλθηκα → θα σταλθεί; the shorter θα σταλεί is just as common."
+    },
+    {
+     "prompt": "Μην ανησυχείς, θα ___ λύση. (βρίσκω, passive)",
+     "answer": "βρεθεί",
+     "accept": [
+      "βρεθεί"
+     ],
+     "why": "A single future event: θα + perfective dependent βρεθεί."
+    },
+    {
+     "prompt": "Τα πιάτα ___ ήδη. (πλένω, passive perfect, 3pl)",
+     "answer": "έχουν πλυθεί",
+     "accept": [
+      "έχουν πλυθεί"
+     ],
+     "why": "πλένω → πλύθηκα (stem vowel changes to -υ-) → έχουν πλυθεί."
+    },
+    {
+     "prompt": "Το ψωμί ___ σε φέτες. (κόβω, passive past, 3sg)",
+     "answer": "κόπηκε",
+     "accept": [
+      "κόπηκε"
+     ],
+     "why": "κόβω → κόπηκα: the passive stem ends in -π-, not -φτ-."
+    },
+    {
+     "prompt": "Οι μαθητές ___ ελεύθεροι να διαλέξουν. (αφήνω, passive past, 3pl)",
+     "answer": "αφέθηκαν",
+     "accept": [
+      "αφέθηκαν"
+     ],
+     "why": "αφήνω has the learned passive stem αφεθ-: αφέθηκα, αφέθηκαν."
+    },
+    {
+     "prompt": "Μετά από εκείνο το βράδυ δεν ___ ποτέ ξανά. (βλέπω, passive past, αυτός)",
+     "answer": "ειδώθηκε",
+     "accept": [
+      "ειδώθηκε"
+     ],
+     "why": "βλέπω → ειδώθηκα 'was seen', with the augment ει- kept in the past."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "n": 4,
+   "items": [
+    {
+     "prompt": "Τα στοιχεία ___ στη δημοσιότητα χθες.",
+     "answer": "δόθηκαν",
+     "options": [
+      "δόθηκαν",
+      "έχουν δοθεί",
+      "δίνονταν"
+     ],
+     "why": "A definite past time (χθες) takes the simple past; the perfect does not combine with χθες."
+    },
+    {
+     "prompt": "Τα χρήματα ___ ήδη· ελέγξτε τον λογαριασμό σας.",
+     "answer": "έχουν σταλθεί",
+     "options": [
+      "έχουν σταλθεί",
+      "στέλνονταν",
+      "θα σταλθούν"
+     ],
+     "why": "ήδη + a result that matters now → passive perfect έχουν σταλθεί."
+    },
+    {
+     "prompt": "Πρέπει να ___ αμέσως μέτρα.",
+     "answer": "παρθούν",
+     "options": [
+      "παρθούν",
+      "παίρνονται",
+      "παρθεί"
+     ],
+     "why": "One-off action after να → perfective dependent; plural subject μέτρα → 3pl παρθούν."
+    },
+    {
+     "prompt": "Κάθε καλοκαίρι ___ χιλιάδες στρέμματα δάσους.",
+     "answer": "καίγονται",
+     "options": [
+      "καίγονται",
+      "κάηκαν",
+      "θα καούν"
+     ],
+     "why": "Repeated every summer → imperfective present passive καίγονται."
+    },
+    {
+     "prompt": "Αν ___ το κινητό σου, πάρε με από άλλο τηλέφωνο.",
+     "answer": "χαθεί",
+     "options": [
+      "χαθεί",
+      "χάνεται",
+      "χάθηκε"
+     ],
+     "why": "αν about a single future event takes the perfective dependent: αν χαθεί."
+    },
+    {
+     "prompt": "Το βιβλίο ___ σε δέκα γλώσσες μέχρι σήμερα.",
+     "answer": "έχει μεταφραστεί",
+     "options": [
+      "έχει μεταφραστεί",
+      "μεταφράστηκε",
+      "μεταφράζεται"
+     ],
+     "why": "μέχρι σήμερα 'up to now' asks for the perfect: έχει μεταφραστεί."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "χάνω",
+  "βρίσκω",
+  "δίνω",
+  "στέλνω",
+  "παίρνω",
+  "κόβω",
+  "αφήνω",
+  "προτείνω",
+  "φωτιά",
+  "δήμαρχος",
+  "δάσος",
+  "πρόταση"
+ ]
+}

@@ -1,0 +1,2060 @@
+{
+ "items": [
+  {
+   "id": "l4-vm-ydravlikos",
+   "title": "Μήνυμα από τον υδραυλικό",
+   "title_en": "A message from the plumber",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα φωνητικό μήνυμα που άφησε ένας υδραυλικός σε μια πελάτισσά του.",
+   "script": [
+    {
+     "speaker": "Κύριος Μανώλης",
+     "voice": "m",
+     "el": "Καλημέρα σας, κυρία Σοφία, ο Μανώλης είμαι, ο υδραυλικός. Σας παίρνω για το ραντεβού μας της Πέμπτης, για τον θερμοσίφωνα.",
+     "en": "Good morning, Mrs Sofia, it's Manolis, the plumber. I'm calling about our Thursday appointment, for the water heater."
+    },
+    {
+     "speaker": "Κύριος Μανώλης",
+     "voice": "m",
+     "el": "Λοιπόν, δυστυχώς έχω ένα πρόβλημα. Μου προέκυψε μια επείγουσα δουλειά σε μια πολυκατοικία στο Παγκράτι, όπου έσπασε ένας σωλήνας και πλημμύρισε το υπόγειο.",
+     "en": "So, unfortunately I have a problem. An urgent job has come up at a block of flats in Pangrati, where a pipe burst and the basement flooded."
+    },
+    {
+     "speaker": "Κύριος Μανώλης",
+     "voice": "m",
+     "el": "Οπότε την Πέμπτη το πρωί δεν θα μπορέσω να έρθω, και ειλικρινά λυπάμαι, γιατί ξέρω ότι είχατε πάρει άδεια από τη δουλειά σας γι' αυτό.",
+     "en": "So on Thursday morning I won't be able to come, and I'm truly sorry, because I know you had taken time off work for it."
+    },
+    {
+     "speaker": "Κύριος Μανώλης",
+     "voice": "m",
+     "el": "Σας προτείνω δύο λύσεις. Η πρώτη είναι να έρθω την Παρασκευή, αλλά μετά τις έξι το απόγευμα.",
+     "en": "I can offer you two options. The first is for me to come on Friday, but after six in the evening."
+    },
+    {
+     "speaker": "Κύριος Μανώλης",
+     "voice": "m",
+     "el": "Η δεύτερη είναι το Σάββατο το πρωί, γύρω στις εννιά. Το Σάββατο κανονικά δεν δουλεύω, αλλά για σας θα κάνω μια εξαίρεση, αφού εγώ σας χάλασα το πρόγραμμα.",
+     "en": "The second is Saturday morning, around nine. I don't normally work on Saturdays, but I'll make an exception for you, since I'm the one who messed up your schedule."
+    },
+    {
+     "speaker": "Κύριος Μανώλης",
+     "voice": "m",
+     "el": "Και μην ανησυχείτε, δεν θα σας χρεώσω τίποτα παραπάνω για το Σάββατο. Η τιμή μένει αυτή που συμφωνήσαμε.",
+     "en": "And don't worry, I won't charge you anything extra for Saturday. The price stays as we agreed."
+    },
+    {
+     "speaker": "Κύριος Μανώλης",
+     "voice": "m",
+     "el": "Α, και κάτι ακόμα. Ο καινούργιος θερμοσίφωνας έχει ήδη φτάσει στην αποθήκη μου, οπότε δεν θα χρειαστεί να περιμένουμε τον προμηθευτή.",
+     "en": "Oh, and one more thing. The new water heater has already arrived at my storeroom, so we won't need to wait for the supplier."
+    },
+    {
+     "speaker": "Κύριος Μανώλης",
+     "voice": "m",
+     "el": "Μέχρι τότε, όπως σας είπα και την άλλη φορά, καλύτερα να κρατάτε τον διακόπτη κλειστό, για να μη στάζει η βρύση από κάτω.",
+     "en": "Until then, as I told you last time, it's best to keep the valve closed, so the tap underneath doesn't drip."
+    },
+    {
+     "speaker": "Κύριος Μανώλης",
+     "voice": "m",
+     "el": "Αν σας είναι πιο εύκολο, στείλτε μου ένα μήνυμα με την ώρα που σας βολεύει, γιατί όλη μέρα θα είμαι μέσα στα νερά και δεν θα μπορώ να σηκώνω το τηλέφωνο.",
+     "en": "If it's easier for you, send me a message with the time that suits you, because I'll be up to my knees in water all day and won't be able to pick up the phone."
+    },
+    {
+     "speaker": "Κύριος Μανώλης",
+     "voice": "m",
+     "el": "Και πάλι συγγνώμη για την αναστάτωση. Τα λέμε σύντομα. Γεια σας.",
+     "en": "Sorry again for the disruption. Speak soon. Goodbye."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν μπορεί να έρθει ο υδραυλικός την Πέμπτη;",
+     "options": [
+      "Δεν έχει φτάσει ακόμα ο θερμοσίφωνας",
+      "Πρέπει να αντιμετωπίσει μια ζημιά σε άλλο κτίριο",
+      "Η κυρία Σοφία δεν θα είναι στο σπίτι",
+      "Δεν δουλεύει τις Πέμπτες"
+     ],
+     "answer": "Πρέπει να αντιμετωπίσει μια ζημιά σε άλλο κτίριο",
+     "why": "Μου προέκυψε μια επείγουσα δουλειά σε μια πολυκατοικία στο Παγκράτι, όπου έσπασε ένας σωλήνας"
+    },
+    {
+     "q": "Τι ισχύει για την επίσκεψη του Σαββάτου;",
+     "options": [
+      "Θα κοστίσει λίγο παραπάνω",
+      "Θα γίνει μετά τις έξι το απόγευμα",
+      "Η τιμή θα είναι η ίδια με τη συμφωνημένη",
+      "Θα έρθει μαζί με τον προμηθευτή"
+     ],
+     "answer": "Η τιμή θα είναι η ίδια με τη συμφωνημένη",
+     "why": "δεν θα σας χρεώσω τίποτα παραπάνω για το Σάββατο. Η τιμή μένει αυτή που συμφωνήσαμε"
+    },
+    {
+     "q": "Τι συμπεραίνουμε για την κυρία Σοφία;",
+     "options": [
+      "Είχε κανονίσει να λείπει από τη δουλειά της την Πέμπτη",
+      "Δουλεύει κάθε Σάββατο πρωί",
+      "Έχει ήδη αγοράσει μόνη της θερμοσίφωνα",
+      "Μένει σε μια πολυκατοικία στο Παγκράτι"
+     ],
+     "answer": "Είχε κανονίσει να λείπει από τη δουλειά της την Πέμπτη",
+     "why": "ξέρω ότι είχατε πάρει άδεια από τη δουλειά σας γι' αυτό"
+    },
+    {
+     "q": "Γιατί ζητάει ο υδραυλικός να του στείλει μήνυμα;",
+     "options": [
+      "Γιατί το τηλέφωνό του είναι χαλασμένο",
+      "Γιατί θέλει γραπτή επιβεβαίωση της τιμής",
+      "Γιατί δεν θα μπορεί να απαντάει στις κλήσεις",
+      "Γιατί δεν έχει αποφασίσει ακόμα τη μέρα"
+     ],
+     "answer": "Γιατί δεν θα μπορεί να απαντάει στις κλήσεις",
+     "why": "όλη μέρα θα είμαι μέσα στα νερά και δεν θα μπορώ να σηκώνω το τηλέφωνο"
+    },
+    {
+     "q": "Πώς ακούγεται ο κύριος Μανώλης στο μήνυμα;",
+     "options": [
+      "Εκνευρισμένος με την πελάτισσα",
+      "Απολογητικός και πρόθυμος να διευκολύνει",
+      "Αδιάφορος για την αλλαγή του ραντεβού",
+      "Αγχωμένος για τα χρήματα"
+     ],
+     "answer": "Απολογητικός και πρόθυμος να διευκολύνει",
+     "why": "ειλικρινά λυπάμαι ... για σας θα κάνω μια εξαίρεση, αφού εγώ σας χάλασα το πρόγραμμα"
+    }
+   ],
+   "gloss": {
+    "Κύριος Μανώλης": "ο κύριος Μανώλης — Mr Manolis (the plumber)",
+    "Σοφία": "η Σοφία — Sofia (the customer)",
+    "υδραυλικός": "ο υδραυλικός — plumber",
+    "θερμοσίφωνα": "ο θερμοσίφωνας — water heater (acc. sg.)",
+    "προέκυψε": "προκύπτω — to come up, arise (aorist)",
+    "επείγουσα": "επείγων, -ουσα, -ον — urgent (f)",
+    "πολυκατοικία": "η πολυκατοικία — block of flats",
+    "Παγκράτι": "το Παγκράτι — Pangrati (Athens neighbourhood)",
+    "σωλήνας": "ο σωλήνας — pipe",
+    "πλημμύρισε": "πλημμυρίζω — to flood (aorist)",
+    "υπόγειο": "το υπόγειο — basement",
+    "είχατε πάρει άδεια": "παίρνω άδεια — to take time off (pluperfect)",
+    "εξαίρεση": "η εξαίρεση — exception",
+    "χάλασα το πρόγραμμα": "χαλάω το πρόγραμμα — to mess up someone's plans (aorist)",
+    "χρεώσω": "χρεώνω — to charge (aorist subjunctive)",
+    "συμφωνήσαμε": "συμφωνώ — to agree (aorist)",
+    "αποθήκη": "η αποθήκη — storeroom, warehouse",
+    "προμηθευτή": "ο προμηθευτής — supplier (acc. sg.)",
+    "διακόπτη": "ο διακόπτης — valve, switch (acc. sg.)",
+    "στάζει": "στάζω — to drip",
+    "βρύση": "η βρύση — tap",
+    "βολεύει": "βολεύω — to suit, be convenient",
+    "μέσα στα νερά": "μέσα στα νερά — literally 'in the water': working in a flooded place",
+    "σηκώνω το τηλέφωνο": "σηκώνω το τηλέφωνο — to answer the phone",
+    "αναστάτωση": "η αναστάτωση — disruption, upheaval",
+    "Απολογητικός": "απολογητικός — apologetic"
+   },
+   "vocab": [
+    "υδραυλικός",
+    "θερμοσίφωνας",
+    "προκύπτω",
+    "επείγων",
+    "σωλήνας",
+    "πλημμυρίζω",
+    "εξαίρεση",
+    "χρεώνω",
+    "προμηθευτής",
+    "στάζω",
+    "βολεύω",
+    "αναστάτωση"
+   ]
+  },
+  {
+   "id": "l4-vm-rena-allagi",
+   "title": "Αλλαγή σχεδίων για το Σάββατο",
+   "title_en": "A change of plans for Saturday",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα φωνητικό μήνυμα που άφησε η Ρένα στη φίλη της τη Μυρτώ.",
+   "script": [
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Μυρτώ μου, γεια! Η Ρένα είμαι. Πού χάθηκες; Σε πήρα δύο φορές, αλλά μάλλον είσαι ακόμα στο γραφείο.",
+     "en": "Myrto dear, hi! It's Rena. Where have you got to? I called you twice, but you're probably still at the office."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Άκου, λοιπόν, έχουμε μια μικρή αλλαγή για το Σάββατο. Τελικά δεν θα πάμε για μπάνιο στη Βάρκιζα.",
+     "en": "So listen, there's a small change for Saturday. In the end we're not going swimming at Varkiza."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Ο καιρός λέει ότι θα φυσάει πολύ, επτά μποφόρ, και ο Άρης δεν θέλει με τίποτα να οδηγήσει μέχρι εκεί για να καθόμαστε κάτω από μια ομπρέλα που πετάει.",
+     "en": "The forecast says it'll be very windy, force seven, and Aris absolutely refuses to drive all the way there for us to sit under a flying umbrella."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Οπότε σκεφτήκαμε κάτι άλλο: να ανέβουμε στην Πάρνηθα, να κάνουμε μια μικρή πεζοπορία το πρωί και μετά να φάμε σε ένα ταβερνάκι που ξέρει ο Άρης στους πρόποδες του βουνού.",
+     "en": "So we thought of something else: to go up Parnitha, do a short hike in the morning and then eat at a little taverna Aris knows at the foot of the mountain."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Η διαδρομή δεν είναι δύσκολη, δηλαδή δύο ώρες περίπου με χαλαρό ρυθμό, οπότε μην αγχωθείς, ξέρω ότι δεν σου αρέσουν οι ανηφόρες.",
+     "en": "The route isn't hard, I mean about two hours at a relaxed pace, so don't stress, I know you don't like uphill climbs."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Το μόνο που θέλει είναι να φέρεις κανονικά παπούτσια, όχι σαγιονάρες, και μια ζακέτα, γιατί εκεί πάνω κάνει ψύχρα ακόμα και τώρα.",
+     "en": "All it takes is for you to bring proper shoes, not flip-flops, and a cardigan, because it's chilly up there even now."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Επίσης, αλλάζει και η ώρα. Αντί για τις δέκα, θα περάσουμε να σε πάρουμε στις οχτώ, για να βρούμε θέση στο πάρκινγκ, γιατί το Σάββατο γεμίζει.",
+     "en": "Also, the time changes. Instead of ten, we'll come and pick you up at eight, so we can find a space in the car park, because it fills up on Saturdays."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Ξέρω, ξέρω, είναι νωρίς για Σάββατο, αλλά θα σε κεράσω εγώ καφέ στον δρόμο, το υπόσχομαι.",
+     "en": "I know, I know, it's early for a Saturday, but I'll buy you a coffee on the way, I promise."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Α, και η Δέσποινα τελικά δεν έρχεται, γιατί έχει το παιδί με πυρετό, οπότε θα είμαστε μόνο οι τρεις μας.",
+     "en": "Oh, and Despina isn't coming after all, because her child has a temperature, so it'll be just the three of us."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Πες μου μέχρι αύριο το βράδυ αν σου κάνει, γιατί πρέπει να κλείσουμε τραπέζι στην ταβέρνα. Φιλάκια, τα λέμε!",
+     "en": "Let me know by tomorrow evening if that works for you, because we need to book a table at the taverna. Kisses, talk soon!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί άλλαξαν τα σχέδια για το Σάββατο;",
+     "options": [
+      "Επειδή θα βρέχει όλη μέρα",
+      "Επειδή θα έχει πολύ δυνατό αέρα",
+      "Επειδή η Δέσποινα είναι άρρωστη",
+      "Επειδή το αυτοκίνητο του Άρη χάλασε"
+     ],
+     "answer": "Επειδή θα έχει πολύ δυνατό αέρα",
+     "why": "Ο καιρός λέει ότι θα φυσάει πολύ, επτά μποφόρ"
+    },
+    {
+     "q": "Τι πρέπει να πάρει μαζί της η Μυρτώ;",
+     "options": [
+      "Μαγιό και πετσέτα",
+      "Σαγιονάρες και ομπρέλα",
+      "Κατάλληλα παπούτσια και κάτι ζεστό",
+      "Φαγητό για το βουνό"
+     ],
+     "answer": "Κατάλληλα παπούτσια και κάτι ζεστό",
+     "why": "να φέρεις κανονικά παπούτσια, όχι σαγιονάρες, και μια ζακέτα"
+    },
+    {
+     "q": "Γιατί θα ξεκινήσουν νωρίτερα;",
+     "options": [
+      "Για να μη ζεσταθούν στην ανηφόρα",
+      "Για να προλάβουν θέση στάθμευσης",
+      "Για να φτάσουν στην ταβέρνα για πρωινό",
+      "Γιατί ο Άρης δουλεύει το απόγευμα"
+     ],
+     "answer": "Για να προλάβουν θέση στάθμευσης",
+     "why": "θα περάσουμε να σε πάρουμε στις οχτώ, για να βρούμε θέση στο πάρκινγκ"
+    },
+    {
+     "q": "Τι συμπεραίνουμε για τη Μυρτώ;",
+     "options": [
+      "Έχει άρρωστο παιδί",
+      "Θα οδηγήσει η ίδια μέχρι την Πάρνηθα",
+      "Δεν τη συναρπάζουν οι ανηφόρες",
+      "Έχει ήδη κλείσει τραπέζι"
+     ],
+     "answer": "Δεν τη συναρπάζουν οι ανηφόρες",
+     "why": "μην αγχωθείς, ξέρω ότι δεν σου αρέσουν οι ανηφόρες"
+    },
+    {
+     "q": "Γιατί θέλει η Ρένα απάντηση μέχρι αύριο το βράδυ;",
+     "options": [
+      "Για να κάνουν κράτηση στην ταβέρνα",
+      "Για να ενημερώσει τη Δέσποινα",
+      "Για να αγοράσει εισιτήρια",
+      "Για να αλλάξει το ραντεβού με τον Άρη"
+     ],
+     "answer": "Για να κάνουν κράτηση στην ταβέρνα",
+     "why": "πρέπει να κλείσουμε τραπέζι στην ταβέρνα"
+    }
+   ],
+   "gloss": {
+    "Ρένα": "η Ρένα — Rena (the caller)",
+    "Μυρτώ": "η Μυρτώ — Myrto (Rena's friend)",
+    "Άρης": "ο Άρης — Aris (a friend)",
+    "Δέσποινα": "η Δέσποινα — Despina (a friend)",
+    "Πού χάθηκες": "πού χάθηκες; — where have you been? (lit. where did you get lost?)",
+    "Βάρκιζα": "η Βάρκιζα — Varkiza (beach south of Athens)",
+    "φυσάει": "φυσάει — it is windy (φυσάω — to blow)",
+    "μποφόρ": "το μποφόρ — Beaufort (wind force unit)",
+    "με τίποτα": "με τίποτα — not at all, no way",
+    "Πάρνηθα": "η Πάρνηθα — Parnitha (mountain north of Athens)",
+    "πεζοπορία": "η πεζοπορία — hike, hiking",
+    "ταβερνάκι": "το ταβερνάκι — little taverna",
+    "πρόποδες": "οι πρόποδες — foot of a mountain",
+    "χαλαρό ρυθμό": "χαλαρός ρυθμός — relaxed pace (acc.)",
+    "αγχωθείς": "αγχώνομαι — to get stressed (aorist subjunctive)",
+    "ανηφόρες": "η ανηφόρα — uphill climb, slope (pl.)",
+    "σαγιονάρες": "η σαγιονάρα — flip-flop (pl.)",
+    "ζακέτα": "η ζακέτα — cardigan, light jacket",
+    "ψύχρα": "η ψύχρα — chill; κάνει ψύχρα = it's chilly",
+    "πάρκινγκ": "το πάρκινγκ — car park",
+    "κεράσω": "κερνάω — to treat someone, buy someone something (aorist subjunctive)",
+    "υπόσχομαι": "υπόσχομαι — to promise",
+    "πυρετό": "ο πυρετός — fever, temperature (acc.)",
+    "σου κάνει": "μου κάνει — it suits me, it works for me",
+    "κλείσουμε τραπέζι": "κλείνω τραπέζι — to book a table (aorist subjunctive)",
+    "Φιλάκια": "φιλάκια — kisses (informal sign-off)",
+    "στάθμευσης": "στάθμευση — parking (genitive)",
+    "συναρπάζουν": "συναρπάζω — to fascinate"
+   },
+   "vocab": [
+    "φυσάω",
+    "πεζοπορία",
+    "πρόποδες",
+    "ρυθμός",
+    "αγχώνομαι",
+    "ανηφόρα",
+    "ψύχρα",
+    "κερνάω",
+    "υπόσχομαι",
+    "πυρετός",
+    "κλείνω τραπέζι"
+   ]
+  },
+  {
+   "id": "l4-dia-trapeza-karta",
+   "title": "Η κάρτα που χάθηκε στο ΑΤΜ",
+   "title_en": "The card swallowed by the ATM",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συζήτηση ανάμεσα σε έναν πελάτη και μια υπάλληλο σε ένα κατάστημα τράπεζας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλημέρα σας. Πώς μπορώ να σας εξυπηρετήσω;",
+     "en": "Good morning. How can I help you?"
+    },
+    {
+     "speaker": "Αντρέας",
+     "voice": "m",
+     "el": "Καλημέρα. Λοιπόν, ε, μου συνέβη κάτι χθες το βράδυ. Πήγα να βγάλω λεφτά από το ΑΤΜ εδώ έξω, και το μηχάνημα μου κράτησε την κάρτα.",
+     "en": "Good morning. Well, er, something happened to me last night. I went to take money out of the ATM just outside here, and the machine kept my card."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Α, κατάλαβα. Μήπως βάλατε λάθος τον κωδικό τρεις φορές;",
+     "en": "Ah, I see. Did you perhaps enter the wrong PIN three times?"
+    },
+    {
+     "speaker": "Αντρέας",
+     "voice": "m",
+     "el": "Όχι, όχι, μία φορά τον έβαλα, και σωστά. Απλώς βγήκε ένα μήνυμα ότι η συναλλαγή δεν μπορεί να ολοκληρωθεί, και η κάρτα δεν βγήκε ποτέ.",
+     "en": "No, no, I entered it once, and correctly. A message just came up saying the transaction could not be completed, and the card never came out."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Συμβαίνει καμιά φορά, όταν υπάρχει βλάβη στο σύστημα. Μπορώ να δω την ταυτότητά σας, παρακαλώ;",
+     "en": "It happens sometimes, when there's a fault in the system. May I see your ID card, please?"
+    },
+    {
+     "speaker": "Αντρέας",
+     "voice": "m",
+     "el": "Βεβαίως, ορίστε. Δηλαδή, μπορώ να την πάρω πίσω σήμερα;",
+     "en": "Of course, here you are. So, can I get it back today?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Δυστυχώς όχι. Για λόγους ασφαλείας, οι κάρτες που μένουν στο μηχάνημα καταστρέφονται. Θα σας εκδώσουμε καινούργια, χωρίς χρέωση φυσικά, αφού το πρόβλημα ήταν δικό μας.",
+     "en": "Unfortunately not. For security reasons, cards left in the machine are destroyed. We'll issue you a new one, free of charge of course, since the problem was ours."
+    },
+    {
+     "speaker": "Αντρέας",
+     "voice": "m",
+     "el": "Και πόσο θα κάνει να έρθει; Γιατί, βασικά, την Παρασκευή φεύγω ταξίδι για δουλειά στο Μιλάνο.",
+     "en": "And how long will it take to arrive? Because, basically, on Friday I'm leaving on a business trip to Milan."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Κανονικά χρειάζονται πέντε με επτά εργάσιμες. Μπορώ όμως να τη ζητήσω επείγουσα, και να την παραλάβετε από εδώ, από το κατάστημα, την Πέμπτη το μεσημέρι.",
+     "en": "Normally it takes five to seven working days. But I can request it as urgent, and you can collect it from here, from the branch, on Thursday at midday."
+    },
+    {
+     "speaker": "Αντρέας",
+     "voice": "m",
+     "el": "Α, τέλεια, αυτό με σώζει. Και μέχρι τότε; Δεν έχω σχεδόν καθόλου μετρητά.",
+     "en": "Oh, great, that saves me. And until then? I have almost no cash."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Μπορείτε να κάνετε ανάληψη εδώ στο ταμείο, με την ταυτότητα. Και αν έχετε την εφαρμογή στο κινητό, μπορείτε να βγάλετε λεφτά από τα ΑΤΜ μας και χωρίς κάρτα, με έναν κωδικό που θα σας στείλουμε.",
+     "en": "You can make a withdrawal here at the counter, with your ID. And if you have the app on your phone, you can take money out of our ATMs even without a card, with a code we'll send you."
+    },
+    {
+     "speaker": "Αντρέας",
+     "voice": "m",
+     "el": "Σοβαρά; Δεν το ήξερα αυτό. Ε, πρώτα ας πάρω κάτι από το ταμείο, για σιγουριά. Διακόσια ευρώ, ας πούμε.",
+     "en": "Really? I didn't know that. Well, first let me take something from the counter, to be safe. Two hundred euros, let's say."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Εντάξει. Συμπληρώστε μου μόνο αυτό το έντυπο για την καινούργια κάρτα και υπογράψτε εδώ κάτω.",
+     "en": "All right. Just fill in this form for the new card for me and sign down here."
+    },
+    {
+     "speaker": "Αντρέας",
+     "voice": "m",
+     "el": "Έγινε. Σας ευχαριστώ πολύ, ήσασταν πολύ εξυπηρετική.",
+     "en": "Done. Thank you very much, you've been very helpful."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έπαθε ο Αντρέας χθες το βράδυ;",
+     "options": [
+      "Έχασε το πορτοφόλι του",
+      "Το ΑΤΜ δεν του επέστρεψε την κάρτα",
+      "Ξέχασε τον κωδικό της κάρτας του",
+      "Του χρέωσαν λάθος ποσό"
+     ],
+     "answer": "Το ΑΤΜ δεν του επέστρεψε την κάρτα",
+     "why": "το μηχάνημα μου κράτησε την κάρτα"
+    },
+    {
+     "q": "Γιατί η νέα κάρτα δεν θα κοστίσει τίποτα;",
+     "options": [
+      "Επειδή ο Αντρέας είναι παλιός πελάτης",
+      "Επειδή η κάρτα του έληγε σύντομα",
+      "Επειδή το λάθος ήταν της τράπεζας",
+      "Επειδή θα την παραλάβει ο ίδιος από το κατάστημα"
+     ],
+     "answer": "Επειδή το λάθος ήταν της τράπεζας",
+     "why": "χωρίς χρέωση φυσικά, αφού το πρόβλημα ήταν δικό μας"
+    },
+    {
+     "q": "Γιατί βιάζεται ο Αντρέας να πάρει την καινούργια κάρτα;",
+     "options": [
+      "Γιατί φεύγει για επαγγελματικό ταξίδι",
+      "Γιατί πρέπει να πληρώσει ενοίκιο",
+      "Γιατί δεν έχει την εφαρμογή στο κινητό",
+      "Γιατί μετακομίζει στο Μιλάνο"
+     ],
+     "answer": "Γιατί φεύγει για επαγγελματικό ταξίδι",
+     "why": "την Παρασκευή φεύγω ταξίδι για δουλειά στο Μιλάνο"
+    },
+    {
+     "q": "Πότε θα έχει την καινούργια κάρτα;",
+     "options": [
+      "Σε πέντε με επτά εργάσιμες",
+      "Την Παρασκευή το πρωί",
+      "Σήμερα το απόγευμα",
+      "Την Πέμπτη το μεσημέρι"
+     ],
+     "answer": "Την Πέμπτη το μεσημέρι",
+     "why": "να την παραλάβετε από εδώ, από το κατάστημα, την Πέμπτη το μεσημέρι"
+    },
+    {
+     "q": "Πώς αποφασίζει να βρει μετρητά ο Αντρέας;",
+     "options": [
+      "Με κωδικό από την εφαρμογή στο ΑΤΜ",
+      "Με ανάληψη από το ταμείο της τράπεζας",
+      "Θα δανειστεί από έναν φίλο",
+      "Θα πληρώνει μόνο με το κινητό"
+     ],
+     "answer": "Με ανάληψη από το ταμείο της τράπεζας",
+     "why": "πρώτα ας πάρω κάτι από το ταμείο, για σιγουριά"
+    }
+   ],
+   "gloss": {
+    "Υπάλληλος": "ο/η υπάλληλος — clerk, employee",
+    "Αντρέας": "ο Αντρέας — Andreas (the customer)",
+    "εξυπηρετήσω": "εξυπηρετώ — to serve, help (aorist subjunctive)",
+    "ΑΤΜ": "το ΑΤΜ — cash machine, ATM",
+    "μηχάνημα": "το μηχάνημα — machine",
+    "κωδικό": "ο κωδικός — code, PIN (acc.)",
+    "συναλλαγή": "η συναλλαγή — transaction",
+    "ολοκληρωθεί": "ολοκληρώνομαι — to be completed (aorist subjunctive)",
+    "βλάβη": "η βλάβη — fault, breakdown",
+    "ταυτότητά": "η ταυτότητα — ID card (extra accent before σας)",
+    "λόγους ασφαλείας": "για λόγους ασφαλείας — for security reasons",
+    "καταστρέφονται": "καταστρέφομαι — to be destroyed",
+    "εκδώσουμε": "εκδίδω — to issue (aorist subjunctive)",
+    "χρέωση": "η χρέωση — charge, fee",
+    "Μιλάνο": "το Μιλάνο — Milan",
+    "εργάσιμες": "εργάσιμη (μέρα) — working day (pl.)",
+    "επείγουσα": "επείγων, -ουσα, -ον — urgent (f)",
+    "παραλάβετε": "παραλαμβάνω — to collect, receive (aorist subjunctive)",
+    "κατάστημα": "το κατάστημα — branch, shop",
+    "με σώζει": "με σώζει — it saves me, it gets me out of trouble",
+    "μετρητά": "τα μετρητά — cash",
+    "ανάληψη": "η ανάληψη — withdrawal",
+    "ταμείο": "το ταμείο — cashier's counter, till",
+    "εφαρμογή": "η εφαρμογή — app",
+    "για σιγουριά": "για σιγουριά — to be on the safe side",
+    "έντυπο": "το έντυπο — form",
+    "υπογράψτε": "υπογράφω — to sign (imperative)",
+    "εξυπηρετική": "εξυπηρετικός — helpful (f)"
+   },
+   "vocab": [
+    "εξυπηρετώ",
+    "συναλλαγή",
+    "βλάβη",
+    "εκδίδω",
+    "χρέωση",
+    "εργάσιμος",
+    "παραλαμβάνω",
+    "μετρητά",
+    "ανάληψη",
+    "ταμείο",
+    "έντυπο",
+    "υπογράφω"
+   ]
+  },
+  {
+   "id": "l4-dia-ergo-fournoi",
+   "title": "Ένα νέο έργο στο γραφείο",
+   "title_en": "Planning a new project at work",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε δύο συναδέλφους σε μια εταιρεία λογισμικού να συζητούν ένα καινούργιο έργο.",
+   "script": [
+    {
+     "speaker": "Ελένη",
+     "voice": "f",
+     "el": "Λοιπόν, Στέλιο, έχεις πέντε λεπτά; Θέλω να κλείσουμε το πλάνο για το έργο με τους φούρνους, γιατί την Τρίτη έχουμε συνάντηση με τον πελάτη.",
+     "en": "So, Stelios, have you got five minutes? I want us to finalise the plan for the bakery project, because on Tuesday we have a meeting with the client."
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Ναι, ναι, κάθισε. Ε, για να θυμηθώ: θέλουν μια εφαρμογή για παραγγελίες, σωστά; Να παραγγέλνεις το ψωμί σου από το βράδυ και να το παίρνεις το πρωί.",
+     "en": "Yes, yes, sit down. Er, let me remember: they want an ordering app, right? You order your bread the night before and pick it up in the morning."
+    },
+    {
+     "speaker": "Ελένη",
+     "voice": "f",
+     "el": "Ακριβώς. Και η προθεσμία είναι τέλη Νοεμβρίου, που, ειλικρινά, μου φαίνεται λίγο σφιχτή.",
+     "en": "Exactly. And the deadline is the end of November, which, honestly, seems a bit tight to me."
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Σφιχτή; Είναι σχεδόν αδύνατη, αν θέλουν όλα όσα έγραψαν στο email: κάρτα πόντων, ειδοποιήσεις, πληρωμή μέσα από την εφαρμογή…",
+     "en": "Tight? It's almost impossible, if they want everything they wrote in the email. Loyalty card, notifications, payment through the app…"
+    },
+    {
+     "speaker": "Ελένη",
+     "voice": "f",
+     "el": "Γι' αυτό σκέφτηκα να τους προτείνουμε να το χωρίσουμε σε δύο φάσεις. Στην πρώτη, μόνο οι παραγγελίες και η πληρωμή. Οι πόντοι και τα υπόλοιπα, μετά τις γιορτές.",
+     "en": "That's why I thought we'd suggest splitting it into two phases. In the first, just ordering and payment. The points and the rest, after the holidays."
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Μου αρέσει. Βασικά, έτσι θα δούμε και πώς τη χρησιμοποιούν οι πελάτες, πριν ξοδέψουμε χρόνο σε πράγματα που ίσως δεν χρειάζονται.",
+     "en": "I like it. Basically, that way we'll also see how customers use it, before we spend time on things that may not be needed."
+    },
+    {
+     "speaker": "Ελένη",
+     "voice": "f",
+     "el": "Ωραία. Τότε, ποιος κάνει τι; Εγώ μπορώ να αναλάβω την παρουσίαση για την Τρίτη και την επικοινωνία με τον πελάτη.",
+     "en": "Good. So, who does what? I can take on the presentation for Tuesday and the communication with the client."
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Κι εγώ θα μιλήσω με τον Πέτρο και την ομάδα των προγραμματιστών, να μου πουν ένα ρεαλιστικό χρονοδιάγραμμα. Δεν θέλω να υποσχεθούμε κάτι και μετά να τρέχουμε.",
+     "en": "And I'll talk to Petros and the developer team, so they can give me a realistic timeline. I don't want us to promise something and then be running around."
+    },
+    {
+     "speaker": "Ελένη",
+     "voice": "f",
+     "el": "Σωστό. Μόνο, ε, ο Πέτρος δεν είναι σε άδεια αυτή την εβδομάδα;",
+     "en": "Right. Only, er, isn't Petros on leave this week?"
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Ως την Τετάρτη. Θα του στείλω μήνυμα από τώρα, να το έχει υπόψη του. Κι αν δεν προλάβει, θα μιλήσω με τη Χαρά, που ξέρει το σύστημα πληρωμών καλύτερα από όλους.",
+     "en": "Until Wednesday. I'll send him a message right now, so he has it in mind. And if he doesn't make it in time, I'll talk to Chara, who knows the payment system better than anyone."
+    },
+    {
+     "speaker": "Ελένη",
+     "voice": "f",
+     "el": "Τέλεια. Α, και κάτι ακόμα: το κόστος. Αν χωρίσουμε το έργο, ο προϋπολογισμός πρέπει να ξαναγίνει.",
+     "en": "Perfect. Oh, and one more thing: the cost. If we split the project, the budget has to be redone."
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Ναι, αλλά αυτό δεν είναι απαραίτητα κακό. Θα πληρώσουν λιγότερα τώρα, και αυτό μπορεί να τους πείσει πιο εύκολα.",
+     "en": "Yes, but that's not necessarily bad. They'll pay less now, and that might convince them more easily."
+    },
+    {
+     "speaker": "Ελένη",
+     "voice": "f",
+     "el": "Δηλαδή, από ένα πρόβλημα βγάζουμε επιχείρημα. Μου αρέσει! Ας ξαναβρεθούμε την Παρασκευή να δούμε πού είμαστε.",
+     "en": "So we turn a problem into an argument. I like it! Let's meet again on Friday to see where we are."
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Συμφωνώ. Παρασκευή στις δέκα, και φέρνω εγώ τους καφέδες.",
+     "en": "Agreed. Friday at ten, and I'll bring the coffees."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θέλει ο πελάτης;",
+     "options": [
+      "Μια ιστοσελίδα για τη διαφήμιση των φούρνων",
+      "Μια εφαρμογή για παραγγελίες ψωμιού",
+      "Ένα σύστημα για τους υπαλλήλους των φούρνων",
+      "Μια κάρτα πόντων χωρίς εφαρμογή"
+     ],
+     "answer": "Μια εφαρμογή για παραγγελίες ψωμιού",
+     "why": "θέλουν μια εφαρμογή για παραγγελίες, σωστά; Να παραγγέλνεις το ψωμί σου από το βράδυ"
+    },
+    {
+     "q": "Πώς βλέπει ο Στέλιος την προθεσμία;",
+     "options": [
+      "Τη θεωρεί λογική",
+      "Τη θεωρεί σχεδόν ανέφικτη",
+      "Πιστεύει ότι θα τελειώσουν νωρίτερα",
+      "Δεν έχει διαβάσει ακόμα το email"
+     ],
+     "answer": "Τη θεωρεί σχεδόν ανέφικτη",
+     "why": "Σφιχτή; Είναι σχεδόν αδύνατη, αν θέλουν όλα όσα έγραψαν στο email"
+    },
+    {
+     "q": "Τι προτείνει η Ελένη;",
+     "options": [
+      "Να ζητήσουν περισσότερα χρήματα",
+      "Να αρνηθούν το έργο",
+      "Να γίνει το έργο σε δύο στάδια",
+      "Να προσλάβουν νέους προγραμματιστές"
+     ],
+     "answer": "Να γίνει το έργο σε δύο στάδια",
+     "why": "σκέφτηκα να τους προτείνουμε να το χωρίσουμε σε δύο φάσεις"
+    },
+    {
+     "q": "Πότε θα χρειαστεί ο Στέλιος τη βοήθεια της Χαράς;",
+     "options": [
+      "Αν ο Πέτρος δεν προλάβει λόγω της άδειάς του",
+      "Αν ο πελάτης ζητήσει κάρτα πόντων",
+      "Αν η Ελένη δεν μπορεί να κάνει την παρουσίαση",
+      "Αν αλλάξει η μέρα της συνάντησης"
+     ],
+     "answer": "Αν ο Πέτρος δεν προλάβει λόγω της άδειάς του",
+     "why": "Κι αν δεν προλάβει, θα μιλήσω με τη Χαρά"
+    },
+    {
+     "q": "Πώς βλέπει ο Στέλιος την αλλαγή του προϋπολογισμού;",
+     "options": [
+      "Ως μεγάλο κίνδυνο για την εταιρεία",
+      "Ως λόγο να καθυστερήσει το έργο",
+      "Ως κάτι που μπορεί να πείσει τον πελάτη",
+      "Ως δουλειά που πρέπει να κάνει η Χαρά"
+     ],
+     "answer": "Ως κάτι που μπορεί να πείσει τον πελάτη",
+     "why": "Θα πληρώσουν λιγότερα τώρα, και αυτό μπορεί να τους πείσει πιο εύκολα"
+    }
+   ],
+   "gloss": {
+    "Ελένη": "η Ελένη — Eleni (a colleague)",
+    "Στέλιος": "ο Στέλιος — Stelios (a colleague)",
+    "Στέλιο": "Στέλιο — Stelios (vocative)",
+    "Πέτρο": "ο Πέτρος — Petros (acc.)",
+    "Πέτρος": "ο Πέτρος — Petros (a developer)",
+    "Χαρά": "η Χαρά — Chara (a colleague)",
+    "πλάνο": "το πλάνο — plan",
+    "έργο": "το έργο — project",
+    "φούρνους": "ο φούρνος — bakery; oven (acc. pl.)",
+    "πελάτη": "ο πελάτης — client, customer (acc.)",
+    "παραγγελίες": "η παραγγελία — order (pl.)",
+    "προθεσμία": "η προθεσμία — deadline",
+    "σφιχτή": "σφιχτός — tight (f)",
+    "κάρτα πόντων": "η κάρτα πόντων — loyalty card",
+    "ειδοποιήσεις": "η ειδοποίηση — notification (pl.)",
+    "φάσεις": "η φάση — phase, stage (pl.)",
+    "γιορτές": "οι γιορτές — the (Christmas) holidays",
+    "αναλάβω": "αναλαμβάνω — to take on (aorist subjunctive)",
+    "προγραμματιστών": "ο προγραμματιστής — software developer (gen. pl.)",
+    "χρονοδιάγραμμα": "το χρονοδιάγραμμα — timeline, schedule",
+    "να τρέχουμε": "τρέχω — to run; (fig.) to rush around to catch up",
+    "σε άδεια": "σε άδεια — on leave",
+    "υπόψη": "έχω κάτι υπόψη μου — to bear something in mind",
+    "προλάβει": "προλαβαίνω — to make it in time (aorist subjunctive)",
+    "προϋπολογισμός": "ο προϋπολογισμός — budget",
+    "πείσει": "πείθω — to convince (aorist subjunctive)",
+    "επιχείρημα": "το επιχείρημα — argument (reason)",
+    "ξαναβρεθούμε": "ξαναβρίσκομαι — to meet again (aorist subjunctive)",
+    "ανέφικτη": "ανέφικτος — unfeasible, impossible",
+    "προγραμματιστές": "προγραμματιστής — programmer (plural)"
+   },
+   "vocab": [
+    "έργο",
+    "προθεσμία",
+    "σφιχτός",
+    "ειδοποίηση",
+    "φάση",
+    "αναλαμβάνω",
+    "χρονοδιάγραμμα",
+    "άδεια",
+    "προλαβαίνω",
+    "προϋπολογισμός",
+    "πείθω",
+    "επιχείρημα"
+   ]
+  },
+  {
+   "id": "l4-dia-anakainisi",
+   "title": "Η ανακαίνιση του πέμπτου ορόφου",
+   "title_en": "The fifth-floor renovation",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε δύο γείτονες σε μια πολυκατοικία να συζητούν για την ανακαίνιση ενός διαμερίσματος.",
+   "script": [
+    {
+     "speaker": "Κυρία Βούλα",
+     "voice": "f",
+     "el": "Καλημέρα, κύριε Θοδωρή. Μια στιγμή, αν έχετε, θα ήθελα να σας πω κάτι για τις εργασίες.",
+     "en": "Good morning, Mr Thodoris. If you have a moment, I'd like to tell you something about the works."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Καλημέρα, κυρία Βούλα. Ναι, βεβαίως. Μήπως σας ενοχλεί ο θόρυβος; Γιατί οι μάστορες μου είπαν ότι τελειώνουν με τα σπασίματα αυτή την εβδομάδα.",
+     "en": "Good morning, Mrs Voula. Yes, of course. Is the noise bothering you, perhaps? Because the workmen told me they're finishing the demolition this week."
+    },
+    {
+     "speaker": "Κυρία Βούλα",
+     "voice": "f",
+     "el": "Όχι, τον θόρυβο, ε, τον αντέχω, δεν είναι αυτό. Είναι ότι το ασανσέρ έχει γεμίσει σκόνη και τσιμέντα, και χθες κόλλησε δύο φορές. Εγώ, με τα ψώνια και με το γόνατό μου, δεν μπορώ να ανεβαίνω πέντε ορόφους.",
+     "en": "No, the noise, er, I can put up with, it's not that. It's that the lift is full of dust and cement, and yesterday it got stuck twice. With my shopping and my knee, I can't climb five floors."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Έχετε δίκιο, και λυπάμαι πολύ. Τους είχα πει να κατεβάζουν τα μπάζα μόνο από τις σκάλες, αλλά φαίνεται ότι δεν με άκουσαν. Θα το ξαναπώ, και πιο αυστηρά αυτή τη φορά.",
+     "en": "You're right, and I'm very sorry. I had told them to carry the rubble down only by the stairs, but it seems they didn't listen. I'll tell them again, and more strictly this time."
+    },
+    {
+     "speaker": "Κυρία Βούλα",
+     "voice": "f",
+     "el": "Σας ευχαριστώ. Και κάτι ακόμα, αν και δεν θέλω να γίνομαι ενοχλητική. Ο κάδος με τα μπάζα είναι στη θέση του κυρίου Γιάννη εδώ και δέκα μέρες, και ο άνθρωπος παρκάρει δύο τετράγωνα πιο κάτω.",
+     "en": "Thank you. And one more thing, although I don't want to be a nuisance. The skip with the rubble has been in Mr Giannis's parking space for ten days, and the poor man parks two blocks further down."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Ναι, το ξέρω, το συζήτησα μαζί του. Βασικά, ο δήμος δεν μας έδωσε άδεια να τον βάλουμε στον δρόμο, οπότε δεν είχα άλλη επιλογή. Του πρότεινα να του πληρώνω ένα πάρκινγκ εδώ κοντά, μέχρι να φύγει ο κάδος.",
+     "en": "Yes, I know, I discussed it with him. Basically, the council didn't give us a permit to put it in the street, so I had no other choice. I offered to pay for a car park nearby for him until the skip goes."
+    },
+    {
+     "speaker": "Κυρία Βούλα",
+     "voice": "f",
+     "el": "Α, δεν το ήξερα αυτό. Τότε εντάξει, εκεί είστε εντάξει. Αλλά υπάρχει και το θέμα με το μπαλκόνι.",
+     "en": "Oh, I didn't know that. Then fine, you're in the clear there. But there's also the matter of the balcony."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Το μπαλκόνι; Τι ακριβώς;",
+     "en": "The balcony? What exactly?"
+    },
+    {
+     "speaker": "Κυρία Βούλα",
+     "voice": "f",
+     "el": "Άκουσα ότι θα το κλείσετε με τζάμια και αλουμίνια. Κύριε Θοδωρή, εγώ μένω από κάτω, και αν το κλείσετε, δεν θα βλέπω σχεδόν καθόλου ήλιο στην κουζίνα μου. Και, με συγχωρείτε, αλλά νομίζω ότι χρειάζεται και έγκριση από τη γενική συνέλευση.",
+     "en": "I heard you're going to enclose it with glass and aluminium. Mr Thodoris, I live below, and if you enclose it, I'll hardly see any sun in my kitchen. And, excuse me, but I think it also needs approval from the residents' general meeting."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Κοιτάξτε, το σκεφτόμουν, αλλά δεν το έχω αποφασίσει. Και φυσικά δεν θα έκανα τίποτα χωρίς να το φέρω στη συνέλευση. Δεν θέλω να χαλάσουμε τις σχέσεις μας για ένα μπαλκόνι.",
+     "en": "Look, I was thinking about it, but I haven't decided. And of course I wouldn't do anything without bringing it to the meeting. I don't want us to fall out over a balcony."
+    },
+    {
+     "speaker": "Κυρία Βούλα",
+     "voice": "f",
+     "el": "Το εκτιμώ αυτό. Δηλαδή, μη με παρεξηγείτε, χαίρομαι που το διαμέρισμα ανακαινίζεται, ήταν ερείπιο τόσα χρόνια.",
+     "en": "I appreciate that. I mean, don't get me wrong, I'm glad the flat is being renovated, it was a ruin for so many years."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Καθόλου δεν σας παρεξηγώ. Κάνουμε το εξής: την επόμενη εβδομάδα θα πληρώσω εγώ ένα συνεργείο να καθαρίσει τη σκάλα και το ασανσέρ, και για το μπαλκόνι θα τα πούμε όλοι μαζί στη συνέλευση.",
+     "en": "I don't take it badly at all. Here's what we'll do: next week I'll pay a cleaning crew to clean the stairs and the lift, and as for the balcony, we'll talk it over all together at the meeting."
+    },
+    {
+     "speaker": "Κυρία Βούλα",
+     "voice": "f",
+     "el": "Σύμφωνοι. Και όταν τελειώσετε, να έρθετε για έναν καφέ, να μου δείξετε φωτογραφίες.",
+     "en": "Agreed. And when you've finished, come over for a coffee and show me photos."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο είναι το πρώτο πρόβλημα που αναφέρει η κυρία Βούλα;",
+     "options": [
+      "Ο θόρυβος από τα σπασίματα",
+      "Η κατάσταση του ασανσέρ",
+      "Η σκόνη στο μπαλκόνι της",
+      "Οι μάστορες που έρχονται πολύ νωρίς"
+     ],
+     "answer": "Η κατάσταση του ασανσέρ",
+     "why": "το ασανσέρ έχει γεμίσει σκόνη και τσιμέντα, και χθες κόλλησε δύο φορές"
+    },
+    {
+     "q": "Γιατί ο κάδος βρίσκεται στη θέση του κυρίου Γιάννη;",
+     "options": [
+      "Γιατί ο κύριος Γιάννης το πρότεινε",
+      "Γιατί ήταν η πιο φθηνή λύση",
+      "Γιατί ο δήμος δεν επέτρεψε να μπει στον δρόμο",
+      "Γιατί οι μάστορες δεν ρώτησαν κανέναν"
+     ],
+     "answer": "Γιατί ο δήμος δεν επέτρεψε να μπει στον δρόμο",
+     "why": "ο δήμος δεν μας έδωσε άδεια να τον βάλουμε στον δρόμο, οπότε δεν είχα άλλη επιλογή"
+    },
+    {
+     "q": "Γιατί ανησυχεί η κυρία Βούλα για το μπαλκόνι;",
+     "options": [
+      "Θα χάσει το φως του ήλιου στην κουζίνα της",
+      "Θα αυξηθούν τα κοινόχρηστα",
+      "Θα γίνει περισσότερος θόρυβος",
+      "Θα χαλάσει η όψη της πολυκατοικίας"
+     ],
+     "answer": "Θα χάσει το φως του ήλιου στην κουζίνα της",
+     "why": "αν το κλείσετε, δεν θα βλέπω σχεδόν καθόλου ήλιο στην κουζίνα μου"
+    },
+    {
+     "q": "Πώς αντιδρά ο Θοδωρής στα παράπονα;",
+     "options": [
+      "Αμυντικά και με εκνευρισμό",
+      "Ευγενικά και με διάθεση συμβιβασμού",
+      "Αδιάφορα, γιατί έχει άδεια",
+      "Ειρωνικά, γιατί τα θεωρεί υπερβολικά"
+     ],
+     "answer": "Ευγενικά και με διάθεση συμβιβασμού",
+     "why": "Δεν θέλω να χαλάσουμε τις σχέσεις μας για ένα μπαλκόνι"
+    },
+    {
+     "q": "Τι θα κάνει ο Θοδωρής την επόμενη εβδομάδα;",
+     "options": [
+      "Θα κλείσει το μπαλκόνι",
+      "Θα μετακινήσει τον κάδο στον δρόμο",
+      "Θα πληρώσει τον καθαρισμό των κοινόχρηστων χώρων",
+      "Θα καλέσει γενική συνέλευση"
+     ],
+     "answer": "Θα πληρώσει τον καθαρισμό των κοινόχρηστων χώρων",
+     "why": "την επόμενη εβδομάδα θα πληρώσω εγώ ένα συνεργείο να καθαρίσει τη σκάλα και το ασανσέρ"
+    }
+   ],
+   "gloss": {
+    "Κυρία Βούλα": "η κυρία Βούλα — Mrs Voula (the downstairs neighbour)",
+    "Θοδωρής": "ο Θοδωρής — Thodoris (the flat owner)",
+    "Θοδωρή": "Θοδωρή — Thodoris (vocative)",
+    "Γιάννη": "ο Γιάννης — Giannis (a neighbour, gen.)",
+    "εργασίες": "οι εργασίες — (building) works",
+    "μάστορες": "ο μάστορας — workman, builder (pl.)",
+    "σπασίματα": "το σπάσιμο — breaking, demolition work (pl.)",
+    "αντέχω": "αντέχω — to bear, put up with",
+    "ασανσέρ": "το ασανσέρ — lift",
+    "σκόνη": "η σκόνη — dust",
+    "κόλλησε": "κολλάω — to get stuck (aorist)",
+    "γόνατό": "το γόνατο — knee (extra accent before μου)",
+    "μπάζα": "τα μπάζα — rubble, building debris",
+    "αυστηρά": "αυστηρά — strictly",
+    "ενοχλητική": "ενοχλητικός — annoying, a nuisance (f)",
+    "κάδος": "ο κάδος — skip, bin",
+    "τετράγωνα": "το τετράγωνο — (city) block (pl.)",
+    "δήμος": "ο δήμος — municipality, council",
+    "άδεια": "η άδεια — permit; leave",
+    "τζάμια": "το τζάμι — pane of glass (pl.)",
+    "αλουμίνια": "τα αλουμίνια — aluminium frames",
+    "έγκριση": "η έγκριση — approval",
+    "γενική συνέλευση": "η γενική συνέλευση — general meeting (of residents)",
+    "χαλάσουμε τις σχέσεις μας": "χαλάω τις σχέσεις μου — to fall out (aorist subjunctive)",
+    "εκτιμώ": "εκτιμώ — to appreciate",
+    "παρεξηγείτε": "παρεξηγώ — to misunderstand, take offence; μη με παρεξηγείτε = don't get me wrong",
+    "ανακαινίζεται": "ανακαινίζομαι — to be renovated",
+    "ερείπιο": "το ερείπιο — ruin",
+    "συνεργείο": "το συνεργείο — crew, team of workers; garage",
+    "Σύμφωνοι": "σύμφωνοι — agreed"
+   },
+   "vocab": [
+    "εργασίες",
+    "μάστορας",
+    "αντέχω",
+    "σκόνη",
+    "κολλάω",
+    "μπάζα",
+    "κάδος",
+    "δήμος",
+    "έγκριση",
+    "συνέλευση",
+    "εκτιμώ",
+    "παρεξηγώ"
+   ]
+  },
+  {
+   "id": "l4-int-othones",
+   "title": "Παιδιά και οθόνες",
+   "title_en": "Children and screens",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με έναν ψυχολόγο για τον χρόνο που περνούν τα παιδιά μπροστά στις οθόνες.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Καλησπέρα σας. Σύμφωνα με πρόσφατη έρευνα, ένας έφηβος στην Ελλάδα περνάει κατά μέσο όρο πάνω από πέντε ώρες τη μέρα μπροστά σε μια οθόνη. Μαζί μας ο ψυχολόγος Κωνσταντίνος Ρήγας. Καλησπέρα.",
+     "en": "Good evening. According to recent research, a teenager in Greece spends on average more than five hours a day in front of a screen. With us is psychologist Konstantinos Rigas. Good evening."
+    },
+    {
+     "speaker": "Κωνσταντίνος Ρήγας",
+     "voice": "m",
+     "el": "Καλησπέρα σας, και ευχαριστώ για την πρόσκληση.",
+     "en": "Good evening, and thank you for the invitation."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κύριε Ρήγα, πρέπει να ανησυχούμε; Πολλοί γονείς λένε ότι τα παιδιά τους είναι εθισμένα στο κινητό.",
+     "en": "Mr Rigas, should we be worried? Many parents say their children are addicted to their phones."
+    },
+    {
+     "speaker": "Κωνσταντίνος Ρήγας",
+     "voice": "m",
+     "el": "Θα ήθελα να είμαι προσεκτικός με τη λέξη εθισμός. Ο εθισμός είναι κάτι πολύ συγκεκριμένο. Αυτό που βλέπουμε στα περισσότερα παιδιά είναι μια κακή συνήθεια, όχι μια ασθένεια. Και, για να είμαστε δίκαιοι, το ίδιο ισχύει και για πολλούς ενήλικες.",
+     "en": "I'd like to be careful with the word addiction. Addiction is something very specific. What we see in most children is a bad habit, not an illness. And, to be fair, the same is true of many adults."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Δηλαδή ο χρόνος δεν μετράει;",
+     "en": "So time doesn't matter?"
+    },
+    {
+     "speaker": "Κωνσταντίνος Ρήγας",
+     "voice": "m",
+     "el": "Μετράει, αλλά δεν είναι το μόνο κριτήριο. Μας ενδιαφέρει κυρίως τι κάνει το παιδί στην οθόνη και τι δεν κάνει εξαιτίας της. Μια ώρα βιντεοκλήση με τη γιαγιά δεν είναι το ίδιο με μια ώρα ατελείωτο σκρολάρισμα. Το πρόβλημα αρχίζει όταν η οθόνη παίρνει τη θέση του ύπνου, της κίνησης ή της παρέας.",
+     "en": "It matters, but it's not the only criterion. We're mainly interested in what the child does on the screen and what they don't do because of it. An hour's video call with grandma is not the same as an hour of endless scrolling. The problem starts when the screen takes the place of sleep, exercise or friends."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ο ύπνος φαίνεται να είναι το πιο ευαίσθητο σημείο.",
+     "en": "Sleep seems to be the most sensitive point."
+    },
+    {
+     "speaker": "Κωνσταντίνος Ρήγας",
+     "voice": "m",
+     "el": "Ακριβώς. Τα παιδιά που έχουν το κινητό στο κρεβάτι κοιμούνται, κατά μέσο όρο, σχεδόν μία ώρα λιγότερο. Γι' αυτό η πρώτη μου συμβουλή είναι απλή: τα κινητά φορτίζουν το βράδυ στο σαλόνι, όχι στο υπνοδωμάτιο. Όλων, και των γονιών.",
+     "en": "Exactly. Children who have their phone in bed sleep, on average, almost an hour less. That's why my first piece of advice is simple: phones charge in the living room at night, not in the bedroom. Everyone's, the parents' too."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και τι γίνεται με τις απαγορεύσεις; Πολλοί γονείς απλώς παίρνουν το κινητό.",
+     "en": "And what about bans? Many parents simply take the phone away."
+    },
+    {
+     "speaker": "Κωνσταντίνος Ρήγας",
+     "voice": "m",
+     "el": "Η απαγόρευση λειτουργεί για λίγο, αλλά συνήθως φέρνει καβγάδες και κρυφή χρήση. Είναι προτιμότερο να συζητήσουμε με το παιδί και να βάλουμε μαζί κανόνες. Ένας έφηβος σέβεται πολύ περισσότερο έναν κανόνα που βοήθησε ο ίδιος να φτιαχτεί.",
+     "en": "A ban works for a while, but it usually brings rows and secret use. It's better to talk with the child and set rules together. A teenager respects a rule they helped make far more."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τελευταία ερώτηση: ποιο είναι το μεγαλύτερο λάθος που κάνουμε ως γονείς;",
+     "en": "Last question: what's the biggest mistake we make as parents?"
+    },
+    {
+     "speaker": "Κωνσταντίνος Ρήγας",
+     "voice": "m",
+     "el": "Να ζητάμε από τα παιδιά κάτι που δεν κάνουμε εμείς. Αν τρώμε με το κινητό δίπλα στο πιάτο, δεν μπορούμε να περιμένουμε από τον δεκαπεντάχρονο να το αφήσει. Τα παιδιά δεν ακούνε τι λέμε, βλέπουν τι κάνουμε.",
+     "en": "Asking children for something we don't do ourselves. If we eat with the phone next to our plate, we can't expect the fifteen-year-old to put it down. Children don't listen to what we say, they watch what we do."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κύριε Ρήγα, σας ευχαριστούμε πολύ.",
+     "en": "Mr Rigas, thank you very much."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πιστεύει ο κύριος Ρήγας για τη λέξη «εθισμός»;",
+     "options": [
+      "Ότι περιγράφει σωστά τα περισσότερα παιδιά",
+      "Ότι χρησιμοποιείται πολύ εύκολα",
+      "Ότι αφορά μόνο τους ενήλικες",
+      "Ότι οι γονείς δεν την καταλαβαίνουν"
+     ],
+     "answer": "Ότι χρησιμοποιείται πολύ εύκολα",
+     "why": "Θα ήθελα να είμαι προσεκτικός με τη λέξη εθισμός ... μια κακή συνήθεια, όχι μια ασθένεια"
+    },
+    {
+     "q": "Ποιο είναι, κατά τον ψυχολόγο, το πιο σημαντικό ερώτημα;",
+     "options": [
+      "Πόσες ώρες ακριβώς περνάει το παιδί στην οθόνη",
+      "Ποια συσκευή χρησιμοποιεί το παιδί",
+      "Τι αντικαθιστά η οθόνη στη ζωή του παιδιού",
+      "Σε ποια ηλικία πήρε το πρώτο του κινητό"
+     ],
+     "answer": "Τι αντικαθιστά η οθόνη στη ζωή του παιδιού",
+     "why": "Το πρόβλημα αρχίζει όταν η οθόνη παίρνει τη θέση του ύπνου, της κίνησης ή της παρέας"
+    },
+    {
+     "q": "Ποια είναι η πρώτη του συμβουλή;",
+     "options": [
+      "Να φορτίζουν όλα τα κινητά έξω από τα υπνοδωμάτια",
+      "Να μην έχουν κινητό τα παιδιά κάτω των δεκαπέντε",
+      "Να κοιμούνται τα παιδιά μία ώρα νωρίτερα",
+      "Να κλείνουν οι γονείς το ίντερνετ το βράδυ"
+     ],
+     "answer": "Να φορτίζουν όλα τα κινητά έξω από τα υπνοδωμάτια",
+     "why": "τα κινητά φορτίζουν το βράδυ στο σαλόνι, όχι στο υπνοδωμάτιο. Όλων, και των γονιών"
+    },
+    {
+     "q": "Τι λέει για τις απαγορεύσεις;",
+     "options": [
+      "Είναι η πιο αποτελεσματική λύση",
+      "Συχνά οδηγούν σε συγκρούσεις και κρυφή χρήση",
+      "Πρέπει να τις αποφασίζουν μόνο οι γονείς",
+      "Λειτουργούν καλύτερα στους εφήβους"
+     ],
+     "answer": "Συχνά οδηγούν σε συγκρούσεις και κρυφή χρήση",
+     "why": "Η απαγόρευση λειτουργεί για λίγο, αλλά συνήθως φέρνει καβγάδες και κρυφή χρήση"
+    },
+    {
+     "q": "Ποιο είναι το μεγαλύτερο λάθος των γονιών, κατά τον ψυχολόγο;",
+     "options": [
+      "Δεν μιλάνε αρκετά με τα παιδιά τους",
+      "Αγοράζουν κινητό πολύ νωρίς",
+      "Δεν δίνουν οι ίδιοι το καλό παράδειγμα",
+      "Τιμωρούν τα παιδιά πολύ αυστηρά"
+     ],
+     "answer": "Δεν δίνουν οι ίδιοι το καλό παράδειγμα",
+     "why": "Να ζητάμε από τα παιδιά κάτι που δεν κάνουμε εμείς"
+    }
+   ],
+   "gloss": {
+    "Δημοσιογράφος": "ο/η δημοσιογράφος — journalist",
+    "Κωνσταντίνος Ρήγας": "ο Κωνσταντίνος Ρήγας — Konstantinos Rigas (the psychologist)",
+    "Ρήγα": "Ρήγα — Rigas (vocative)",
+    "Ελλάδα": "η Ελλάδα — Greece",
+    "έρευνα": "η έρευνα — research, survey",
+    "έφηβος": "ο έφηβος — teenager",
+    "κατά μέσο όρο": "κατά μέσο όρο — on average",
+    "οθόνη": "η οθόνη — screen",
+    "ψυχολόγος": "ο/η ψυχολόγος — psychologist",
+    "εθισμένα": "εθισμένος — addicted (n. pl.)",
+    "εθισμός": "ο εθισμός — addiction",
+    "συνήθεια": "η συνήθεια — habit",
+    "ασθένεια": "η ασθένεια — illness, disease",
+    "ενήλικες": "ο ενήλικας — adult (pl.)",
+    "κριτήριο": "το κριτήριο — criterion",
+    "εξαιτίας": "εξαιτίας + gen. — because of",
+    "βιντεοκλήση": "η βιντεοκλήση — video call",
+    "ατελείωτο": "ατελείωτος — endless",
+    "σκρολάρισμα": "το σκρολάρισμα — scrolling",
+    "ευαίσθητο": "ευαίσθητος — sensitive",
+    "φορτίζουν": "φορτίζω — to charge (a battery)",
+    "υπνοδωμάτιο": "το υπνοδωμάτιο — bedroom",
+    "απαγορεύσεις": "η απαγόρευση — ban, prohibition (pl.)",
+    "καβγάδες": "ο καβγάς — row, quarrel (pl.)",
+    "κρυφή χρήση": "κρυφή χρήση — secret use",
+    "προτιμότερο": "προτιμότερος — preferable",
+    "σέβεται": "σέβομαι — to respect",
+    "δεκαπεντάχρονο": "ο δεκαπεντάχρονος — fifteen-year-old (acc.)"
+   },
+   "vocab": [
+    "έρευνα",
+    "έφηβος",
+    "εθισμός",
+    "συνήθεια",
+    "ασθένεια",
+    "κριτήριο",
+    "εξαιτίας",
+    "ατελείωτος",
+    "φορτίζω",
+    "απαγόρευση",
+    "καβγάς",
+    "σέβομαι"
+   ]
+  },
+  {
+   "id": "l4-int-kritiki-kouzina",
+   "title": "Τα μυστικά της κρητικής κουζίνας",
+   "title_en": "The secrets of Cretan cooking",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με έναν σεφ από την Κρήτη για την κουζίνα του νησιού του.",
+   "script": [
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Καλησπέρα. Η κρητική κουζίνα θεωρείται εδώ και δεκαετίες από τις πιο υγιεινές στον κόσμο. Μαζί μας ο σεφ Λευτέρης Δασκαλάκης, που έχει ένα μικρό εστιατόριο στα Χανιά. Καλησπέρα σας.",
+     "en": "Good evening. Cretan cuisine has been considered one of the healthiest in the world for decades. With us is chef Lefteris Daskalakis, who has a small restaurant in Chania. Good evening."
+    },
+    {
+     "speaker": "Λευτέρης Δασκαλάκης",
+     "voice": "m",
+     "el": "Καλησπέρα, χαρά μου.",
+     "en": "Good evening, my pleasure."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Τι είναι αυτό που κάνει την κρητική κουζίνα τόσο ξεχωριστή;",
+     "en": "What is it that makes Cretan cuisine so special?"
+    },
+    {
+     "speaker": "Λευτέρης Δασκαλάκης",
+     "voice": "m",
+     "el": "Βασικά, η απλότητα. Η γιαγιά μου έλεγε ότι το καλό φαγητό θέλει τρία πράγματα: καλό λάδι, φρέσκα υλικά και υπομονή. Δεν κρύβουμε τη γεύση πίσω από σάλτσες. Μια ντομάτα το καλοκαίρι, λίγο αλάτι, λίγη ρίγανη, και είσαι στον παράδεισο.",
+     "en": "Basically, simplicity. My grandmother used to say good food needs three things: good oil, fresh ingredients and patience. We don't hide the flavour behind sauces. A tomato in summer, a little salt, a little oregano, and you're in paradise."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Και τα χόρτα; Λένε ότι οι Κρητικοί τρώνε δεκάδες είδη.",
+     "en": "And wild greens? They say Cretans eat dozens of kinds."
+    },
+    {
+     "speaker": "Λευτέρης Δασκαλάκης",
+     "voice": "m",
+     "el": "Ε, ναι, πάνω από εκατό, αν μετρήσεις όλα όσα μαζεύονται στα βουνά. Σταμναγκάθι, βρούβες, ασκολίμπροι… Παλιά ήταν φαγητό της φτώχειας. Σήμερα τα πουλάνε ακριβά στις λαϊκές της Αθήνας!",
+     "en": "Well, yes, over a hundred, if you count everything that's gathered in the mountains. Stamnagathi, mustard greens, golden thistle… In the old days it was the food of poverty. Today they sell them at high prices in the street markets of Athens!"
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Πείτε μας ένα πιάτο που κάθε επισκέπτης πρέπει να δοκιμάσει.",
+     "en": "Tell us a dish every visitor should try."
+    },
+    {
+     "speaker": "Λευτέρης Δασκαλάκης",
+     "voice": "m",
+     "el": "Τον ντάκο τον ξέρουν όλοι. Εγώ θα έλεγα το γαμοπίλαφο, το ρύζι που μαγειρεύεται σε ζωμό από κόκορα ή αρνί, όπως στους γάμους. Και στο τέλος, λίγη στάκα, μια κρέμα από το βούτυρο του γάλακτος. Δεν είναι ελαφρύ, το ομολογώ, αλλά είναι γιορτή.",
+     "en": "Everyone knows dakos. I'd say gamopilafo, rice cooked in rooster or lamb broth, as at weddings. And to finish, a little staka, a cream made from the butterfat of milk. It isn't light, I admit, but it's a celebration."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Δηλαδή, η κρητική διατροφή δεν είναι μόνο λαχανικά και λάδι;",
+     "en": "So the Cretan diet isn't only vegetables and oil?"
+    },
+    {
+     "speaker": "Λευτέρης Δασκαλάκης",
+     "voice": "m",
+     "el": "Όχι, και εδώ υπάρχει μια παρεξήγηση. Οι παλιοί Κρητικοί έτρωγαν κρέας σπάνια, στις γιορτές. Το υπόλοιπο διάστημα έτρωγαν όσπρια, χόρτα, ψωμί από κριθάρι. Και δούλευαν σκληρά στα χωράφια. Αυτό ήταν το μυστικό, όχι μόνο το λάδι.",
+     "en": "No, and there's a misunderstanding here. Cretans of the past ate meat rarely, at festivals. The rest of the time they ate pulses, greens, barley bread. And they worked hard in the fields. That was the secret, not just the oil."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Και σήμερα; Τρώνε οι νέοι Κρητικοί όπως οι παππούδες τους;",
+     "en": "And today? Do young Cretans eat like their grandparents?"
+    },
+    {
+     "speaker": "Λευτέρης Δασκαλάκης",
+     "voice": "m",
+     "el": "Δυστυχώς, όχι πάντα. Βλέπω πολλά παιδιά να προτιμούν το σουβλάκι και τα αναψυκτικά. Γι' αυτό κάνουμε μαθήματα μαγειρικής στα σχολεία της περιοχής. Όταν ένα παιδί μαζέψει μόνο του χόρτα και τα μαγειρέψει, τα τρώει με άλλη όρεξη.",
+     "en": "Unfortunately, not always. I see many kids preferring souvlaki and fizzy drinks. That's why we run cooking lessons in the schools of the area. When a child gathers greens themselves and cooks them, they eat them with quite a different appetite."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Κύριε Δασκαλάκη, σας ευχαριστούμε πολύ. Καλή όρεξη σε όλους!",
+     "en": "Mr Daskalakis, thank you very much. Enjoy your meal, everyone!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι κάνει, κατά τον σεφ, την κρητική κουζίνα ξεχωριστή;",
+     "options": [
+      "Οι πολλές και πλούσιες σάλτσες",
+      "Η απλότητα και τα καλά υλικά",
+      "Τα ξένα μπαχαρικά",
+      "Οι μεγάλες ποσότητες κρέατος"
+     ],
+     "answer": "Η απλότητα και τα καλά υλικά",
+     "why": "Βασικά, η απλότητα ... καλό λάδι, φρέσκα υλικά και υπομονή"
+    },
+    {
+     "q": "Τι έχει αλλάξει με τα χόρτα;",
+     "options": [
+      "Δεν φυτρώνουν πια στα βουνά",
+      "Από φτωχικό φαγητό έγιναν ακριβό προϊόν",
+      "Τα τρώνε μόνο στις γιορτές",
+      "Οι νέοι δεν ξέρουν πια τα ονόματά τους"
+     ],
+     "answer": "Από φτωχικό φαγητό έγιναν ακριβό προϊόν",
+     "why": "Παλιά ήταν φαγητό της φτώχειας. Σήμερα τα πουλάνε ακριβά στις λαϊκές της Αθήνας"
+    },
+    {
+     "q": "Ποιο πιάτο προτείνει ο σεφ στους επισκέπτες;",
+     "options": [
+      "Τον ντάκο",
+      "Το σουβλάκι",
+      "Το γαμοπίλαφο",
+      "Τα χόρτα με όσπρια"
+     ],
+     "answer": "Το γαμοπίλαφο",
+     "why": "Εγώ θα έλεγα το γαμοπίλαφο"
+    },
+    {
+     "q": "Ποια παρεξήγηση θέλει να διορθώσει;",
+     "options": [
+      "Ότι η κρητική κουζίνα είναι βαριά",
+      "Ότι το λάδι είναι το μόνο μυστικό της κρητικής διατροφής",
+      "Ότι οι Κρητικοί δεν έτρωγαν ποτέ κρέας",
+      "Ότι τα χόρτα είναι ακριβά"
+     ],
+     "answer": "Ότι το λάδι είναι το μόνο μυστικό της κρητικής διατροφής",
+     "why": "Και δούλευαν σκληρά στα χωράφια. Αυτό ήταν το μυστικό, όχι μόνο το λάδι"
+    },
+    {
+     "q": "Γιατί κάνουν μαθήματα μαγειρικής στα σχολεία;",
+     "options": [
+      "Επειδή πολλά παιδιά προτιμούν πρόχειρο φαγητό",
+      "Για να βρουν νέους μάγειρες για το εστιατόριο",
+      "Επειδή το ζήτησε το υπουργείο",
+      "Για να μάθουν τα παιδιά ξένες κουζίνες"
+     ],
+     "answer": "Επειδή πολλά παιδιά προτιμούν πρόχειρο φαγητό",
+     "why": "Βλέπω πολλά παιδιά να προτιμούν το σουβλάκι και τα αναψυκτικά. Γι' αυτό κάνουμε μαθήματα μαγειρικής"
+    }
+   ],
+   "gloss": {
+    "Παρουσιάστρια": "η παρουσιάστρια — presenter (f)",
+    "Λευτέρης Δασκαλάκης": "ο Λευτέρης Δασκαλάκης — Lefteris Daskalakis (the chef)",
+    "Δασκαλάκη": "Δασκαλάκη — Daskalakis (vocative)",
+    "Χανιά": "τα Χανιά — Chania (city in Crete)",
+    "Αθήνας": "η Αθήνα — Athens (gen.)",
+    "κρητική": "κρητικός — Cretan (f)",
+    "Κρητικοί": "ο Κρητικός — Cretan (person, pl.)",
+    "υγιεινές": "υγιεινός — healthy (f pl.)",
+    "ξεχωριστή": "ξεχωριστός — special, distinctive (f)",
+    "απλότητα": "η απλότητα — simplicity",
+    "υλικά": "το υλικό — ingredient (pl.)",
+    "υπομονή": "η υπομονή — patience",
+    "ρίγανη": "η ρίγανη — oregano",
+    "χόρτα": "τα χόρτα — wild greens",
+    "Σταμναγκάθι": "το σταμναγκάθι — spiny chicory (Cretan wild green)",
+    "βρούβες": "οι βρούβες — wild mustard greens",
+    "ασκολίμπροι": "οι ασκολίμπροι — golden thistle (Cretan wild green)",
+    "φτώχειας": "η φτώχεια — poverty (gen.)",
+    "λαϊκές": "η λαϊκή (αγορά) — weekly street market (pl.)",
+    "ντάκο": "ο ντάκος — dakos, barley rusk with tomato and cheese (acc.)",
+    "γαμοπίλαφο": "το γαμοπίλαφο — wedding pilaf (rice in meat broth)",
+    "ζωμό": "ο ζωμός — broth, stock (acc.)",
+    "κόκορα": "ο κόκορας — rooster (acc.)",
+    "στάκα": "η στάκα — staka, cream made from milk butterfat",
+    "ομολογώ": "ομολογώ — to admit",
+    "διατροφή": "η διατροφή — diet, nutrition",
+    "παρεξήγηση": "η παρεξήγηση — misunderstanding",
+    "όσπρια": "τα όσπρια — pulses, legumes",
+    "κριθάρι": "το κριθάρι — barley",
+    "χωράφια": "το χωράφι — field (pl.)",
+    "αναψυκτικά": "το αναψυκτικό — soft drink (pl.)",
+    "όρεξη": "η όρεξη — appetite",
+    "πρόχειρο": "πρόχειρος — rough, makeshift; (το πρόχειρο) draft",
+    "Δασκαλάκης": "Δασκαλάκης — a surname"
+   },
+   "vocab": [
+    "υγιεινός",
+    "ξεχωριστός",
+    "απλότητα",
+    "υλικό",
+    "υπομονή",
+    "χόρτα",
+    "λαϊκή",
+    "ζωμός",
+    "ομολογώ",
+    "διατροφή",
+    "παρεξήγηση",
+    "όσπρια"
+   ]
+  },
+  {
+   "id": "l4-int-athina-kafsonas",
+   "title": "Η Αθήνα μπροστά στους καύσωνες",
+   "title_en": "Athens and its heatwaves",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με μια πολεοδόμο για το πώς μπορεί η Αθήνα να αντιμετωπίσει τη ζέστη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Καλημέρα. Η Αθήνα είναι πλέον μία από τις πιο ζεστές πρωτεύουσες της Ευρώπης. Συζητάμε για το τι μπορεί να γίνει με την πολεοδόμο Δήμητρα Αλεξίου. Καλημέρα σας.",
+     "en": "Good morning. Athens is now one of the hottest capitals in Europe. We're discussing what can be done with urban planner Dimitra Alexiou. Good morning."
+    },
+    {
+     "speaker": "Δήμητρα Αλεξίου",
+     "voice": "f",
+     "el": "Καλημέρα. Χαίρομαι που το συζητάμε τώρα, τον Οκτώβριο, και όχι μέσα στον καύσωνα, όταν όλοι ψάχνουν απλώς ένα κλιματιστικό.",
+     "en": "Good morning. I'm glad we're discussing it now, in October, and not in the middle of a heatwave, when everyone is simply looking for an air conditioner."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Γιατί υποφέρει τόσο η Αθήνα; Δεν είναι η μόνη πόλη με ζεστό κλίμα.",
+     "en": "Why does Athens suffer so much? It's not the only city with a hot climate."
+    },
+    {
+     "speaker": "Δήμητρα Αλεξίου",
+     "voice": "f",
+     "el": "Όχι, αλλά έχει μερικά ιδιαίτερα χαρακτηριστικά. Είναι μια λεκάνη, περιτριγυρισμένη από βουνά, οπότε ο αέρας δεν κυκλοφορεί εύκολα. Και τις δεκαετίες του εξήντα και του εβδομήντα χτίστηκε πολύ γρήγορα, με πολυκατοικίες κολλημένες η μία στην άλλη και πολύ λίγο πράσινο.",
+     "en": "No, but it has some particular features. It's a basin, surrounded by mountains, so the air doesn't circulate easily. And in the sixties and seventies it was built very quickly, with apartment blocks stuck to one another and very little greenery."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ακούμε συχνά για τα ποτάμια της πόλης. Τι σχέση έχουν με τη ζέστη;",
+     "en": "We often hear about the city's rivers. What do they have to do with the heat?"
+    },
+    {
+     "speaker": "Δήμητρα Αλεξίου",
+     "voice": "f",
+     "el": "Μεγάλη. Ο Ιλισός και ο Κηφισός, αλλά και δεκάδες μικρότερα ρέματα, σκεπάστηκαν με τσιμέντο και έγιναν δρόμοι. Χάσαμε έτσι φυσικούς διαδρόμους δροσιάς. Δεν λέω ότι μπορούμε να τα ανοίξουμε όλα, αλλά σε κάποια σημεία είναι απολύτως εφικτό.",
+     "en": "A lot. The Ilisos and the Kifisos, and dozens of smaller streams too, were covered with concrete and became roads. That way we lost natural corridors of coolness. I'm not saying we can open them all up, but in some places it's entirely feasible."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και το νερό; Με τόση λειψυδρία, δεν είναι πολυτέλεια να ποτίζουμε πάρκα;",
+     "en": "And water? With such a water shortage, isn't watering parks a luxury?"
+    },
+    {
+     "speaker": "Δήμητρα Αλεξίου",
+     "voice": "f",
+     "el": "Εδώ υπάρχει μια πολύ ενδιαφέρουσα λύση. Το Αδριάνειο Υδραγωγείο, που χτίστηκε πριν από σχεδόν δύο χιλιάδες χρόνια, μεταφέρει ακόμα νερό κάτω από την πόλη. Αυτό το νερό, που δεν είναι πόσιμο, μπορεί να ποτίζει πάρκα και δέντρα χωρίς να επιβαρύνει το δίκτυο.",
+     "en": "There's a very interesting solution here. Hadrian's Aqueduct, built almost two thousand years ago, still carries water beneath the city. This water, which isn't drinkable, can water parks and trees without burdening the network."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Εντυπωσιακό. Και ποιοι κινδυνεύουν περισσότερο από τον καύσωνα;",
+     "en": "Impressive. And who is most at risk from a heatwave?"
+    },
+    {
+     "speaker": "Δήμητρα Αλεξίου",
+     "voice": "f",
+     "el": "Οι ηλικιωμένοι που μένουν μόνοι τους, ειδικά σε τελευταίους ορόφους χωρίς κλιματισμό. Το πιο επικίνδυνο δεν είναι οι σαράντα βαθμοί το μεσημέρι, αλλά οι νύχτες που η θερμοκρασία δεν πέφτει κάτω από τους τριάντα. Ο οργανισμός δεν προλαβαίνει να ξεκουραστεί.",
+     "en": "Elderly people who live alone, especially on top floors without air conditioning. The most dangerous thing isn't forty degrees at midday, but nights when the temperature doesn't drop below thirty. The body doesn't get a chance to recover."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι μπορεί να κάνει ο δήμος γι' αυτούς άμεσα;",
+     "en": "What can the municipality do for them right away?"
+    },
+    {
+     "speaker": "Δήμητρα Αλεξίου",
+     "voice": "f",
+     "el": "Να έχει έναν χάρτη με το πού μένουν αυτοί οι άνθρωποι και να τους τηλεφωνεί κάθε μέρα όσο κρατάει ο καύσωνας. Ακούγεται απλό, αλλά σώζει ζωές. Τα μεγάλα έργα θέλουν χρόνια, ένα τηλεφώνημα θέλει δύο λεπτά.",
+     "en": "Keep a map of where these people live and phone them every day while the heatwave lasts. It sounds simple, but it saves lives. Big projects take years; a phone call takes two minutes."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Κυρία Αλεξίου, σας ευχαριστούμε πολύ.",
+     "en": "Ms Alexiou, thank you very much."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί χαίρεται η κυρία Αλεξίου που η συζήτηση γίνεται τον Οκτώβριο;",
+     "options": [
+      "Γιατί τον Οκτώβριο δεν κάνει πια ζέστη στην Αθήνα",
+      "Γιατί εκτός καύσωνα μπορεί να γίνει πιο ψύχραιμη συζήτηση για λύσεις",
+      "Γιατί τότε ξεκινούν τα έργα του δήμου",
+      "Γιατί το καλοκαίρι ήταν διακοπές"
+     ],
+     "answer": "Γιατί εκτός καύσωνα μπορεί να γίνει πιο ψύχραιμη συζήτηση για λύσεις",
+     "why": "όχι μέσα στον καύσωνα, όταν όλοι ψάχνουν απλώς ένα κλιματιστικό"
+    },
+    {
+     "q": "Ποια χαρακτηριστικά της Αθήνας αναφέρει ως αιτίες του προβλήματος;",
+     "options": [
+      "Τη γεωγραφία της και τον τρόπο που χτίστηκε",
+      "Το μέγεθος του πληθυσμού και τα αυτοκίνητα",
+      "Την έλλειψη θάλασσας και τον τουρισμό",
+      "Τα παλιά κτίρια και τις στενές πλατείες"
+     ],
+     "answer": "Τη γεωγραφία της και τον τρόπο που χτίστηκε",
+     "why": "Είναι μια λεκάνη, περιτριγυρισμένη από βουνά ... χτίστηκε πολύ γρήγορα, με πολυκατοικίες κολλημένες"
+    },
+    {
+     "q": "Τι μπορεί να προσφέρει το Αδριάνειο Υδραγωγείο;",
+     "options": [
+      "Πόσιμο νερό για τα σπίτια",
+      "Νερό για το πότισμα του πρασίνου",
+      "Ένα νέο τουριστικό αξιοθέατο",
+      "Δροσιά στους σταθμούς του μετρό"
+     ],
+     "answer": "Νερό για το πότισμα του πρασίνου",
+     "why": "μπορεί να ποτίζει πάρκα και δέντρα χωρίς να επιβαρύνει το δίκτυο"
+    },
+    {
+     "q": "Τι θεωρεί πιο επικίνδυνο για τους ηλικιωμένους;",
+     "options": [
+      "Τις ζεστές νύχτες που δεν δροσίζουν",
+      "Τη ζέστη του μεσημεριού",
+      "Τα χαλασμένα κλιματιστικά",
+      "Τις μετακινήσεις στην πόλη"
+     ],
+     "answer": "Τις ζεστές νύχτες που δεν δροσίζουν",
+     "why": "οι νύχτες που η θερμοκρασία δεν πέφτει κάτω από τους τριάντα"
+    },
+    {
+     "q": "Γιατί προτείνει τα καθημερινά τηλεφωνήματα;",
+     "options": [
+      "Γιατί είναι το πιο φθηνό μεγάλο έργο",
+      "Γιατί οι ηλικιωμένοι ζητούν συντροφιά",
+      "Γιατί είναι ένα απλό μέτρο που εφαρμόζεται αμέσως",
+      "Γιατί δεν υπάρχουν άλλες λύσεις"
+     ],
+     "answer": "Γιατί είναι ένα απλό μέτρο που εφαρμόζεται αμέσως",
+     "why": "Τα μεγάλα έργα θέλουν χρόνια, ένα τηλεφώνημα θέλει δύο λεπτά"
+    }
+   ],
+   "gloss": {
+    "Δημοσιογράφος": "ο/η δημοσιογράφος — journalist",
+    "Δήμητρα Αλεξίου": "η Δήμητρα Αλεξίου — Dimitra Alexiou (the urban planner)",
+    "Αλεξίου": "Αλεξίου — Alexiou (surname, as in 'κυρία Αλεξίου')",
+    "Αθήνα": "η Αθήνα — Athens",
+    "Ευρώπης": "η Ευρώπη — Europe (gen.)",
+    "πρωτεύουσες": "η πρωτεύουσα — capital city (pl.)",
+    "πολεοδόμο": "ο/η πολεοδόμος — urban planner (acc.)",
+    "καύσωνα": "ο καύσωνας — heatwave (acc.)",
+    "κλιματιστικό": "το κλιματιστικό — air conditioner",
+    "υποφέρει": "υποφέρω — to suffer",
+    "χαρακτηριστικά": "το χαρακτηριστικό — feature, characteristic (pl.)",
+    "λεκάνη": "η λεκάνη — basin",
+    "περιτριγυρισμένη": "περιτριγυρισμένος — surrounded (f)",
+    "κυκλοφορεί": "κυκλοφορώ — to circulate",
+    "πράσινο": "το πράσινο — greenery, green space",
+    "Ιλισός": "ο Ιλισός — the Ilisos (river of Athens)",
+    "Κηφισός": "ο Κηφισός — the Kifisos (river of Athens)",
+    "ρέματα": "το ρέμα — stream (pl.)",
+    "σκεπάστηκαν": "σκεπάζομαι — to be covered (aorist)",
+    "διαδρόμους": "ο διάδρομος — corridor (acc. pl.)",
+    "δροσιάς": "η δροσιά — coolness (gen.)",
+    "εφικτό": "εφικτός — feasible",
+    "λειψυδρία": "η λειψυδρία — water shortage",
+    "πολυτέλεια": "η πολυτέλεια — luxury",
+    "ποτίζουμε": "ποτίζω — to water (plants)",
+    "Αδριάνειο Υδραγωγείο": "το Αδριάνειο Υδραγωγείο — Hadrian's Aqueduct",
+    "πόσιμο": "πόσιμος — drinkable",
+    "επιβαρύνει": "επιβαρύνω — to burden, put strain on",
+    "δίκτυο": "το δίκτυο — network",
+    "ηλικιωμένοι": "ο ηλικιωμένος — elderly person (pl.)",
+    "οργανισμός": "ο οργανισμός — the body, organism",
+    "τηλεφώνημα": "το τηλεφώνημα — phone call",
+    "γεωγραφία": "γεωγραφία — geography",
+    "Αδριάνειο": "Αδριάνειο Υδραγωγείο — Hadrian's Aqueduct",
+    "Υδραγωγείο": "υδραγωγείο — aqueduct",
+    "πότισμα": "πότισμα — watering",
+    "Δροσιά": "δροσιά — coolness, freshness",
+    "δροσίζουν": "δροσίζω — to cool, refresh",
+    "μικρότερα": "μικρότερος — smaller"
+   },
+   "vocab": [
+    "καύσωνας",
+    "υποφέρω",
+    "λεκάνη",
+    "κυκλοφορώ",
+    "ρέμα",
+    "δροσιά",
+    "εφικτός",
+    "λειψυδρία",
+    "πολυτέλεια",
+    "ποτίζω",
+    "πόσιμος",
+    "επιβαρύνω"
+   ]
+  },
+  {
+   "id": "l4-mon-oropedio",
+   "title": "Το οροπέδιο του μέσου επιπέδου",
+   "title_en": "The intermediate plateau",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από ένα ποντκάστ για όσους μαθαίνουν ξένες γλώσσες.",
+   "script": [
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Καλώς ήρθατε στον «Γλωσσοδέτη», το ποντκάστ για όσους μαθαίνουν γλώσσες και δεν το βάζουν κάτω. Εγώ είμαι ο Φίλιππος.",
+     "en": "Welcome to 'Tongue-Twister', the podcast for people who learn languages and don't give up. I'm Filippos."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Σήμερα θέλω να μιλήσουμε για κάτι που μου γράφετε συνέχεια στα μηνύματά σας: το περίφημο οροπέδιο του μέσου επιπέδου.",
+     "en": "Today I want to talk about something you keep writing to me about in your messages: the famous intermediate plateau."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Ξέρετε τι εννοώ. Στην αρχή μαθαίνεις γρήγορα, κάθε εβδομάδα καταλαβαίνεις περισσότερα, και νιώθεις υπέροχα. Και μετά, κάπου στο Β1, όλα σταματάνε. Διαβάζεις, ακούς, αλλά νιώθεις ότι δεν προχωράς.",
+     "en": "You know what I mean. At the start you learn fast, every week you understand more, and you feel wonderful. And then, somewhere around B1, everything stops. You read, you listen, but you feel you're not getting anywhere."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Λοιπόν, πρώτα απ' όλα, να σας πω ότι αυτό είναι φυσιολογικό. Στην αρχή μαθαίνεις τις λέξεις που ακούς παντού. Μετά, οι καινούργιες λέξεις εμφανίζονται πιο σπάνια, οπότε χρειάζεσαι πολύ περισσότερο υλικό για να τις συναντήσεις.",
+     "en": "Well, first of all, let me tell you this is normal. At the start you learn the words you hear everywhere. After that, new words appear more rarely, so you need much more material to come across them."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Τι έκανα εγώ, όταν κόλλησα με τα γερμανικά; Βασικά, σταμάτησα να χρησιμοποιώ βιβλία για ξένους. Άρχισα να βλέπω πράγματα που με ενδιέφεραν ήδη στη ζωή μου, αλλά στα γερμανικά.",
+     "en": "What did I do when I got stuck with German? Basically, I stopped using books for foreigners. I started watching things that already interested me in my life, but in German."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Εμένα μου αρέσει η μαγειρική, οπότε έβλεπα Γερμανούς σεφ στο ίντερνετ. Στην αρχή δεν καταλάβαινα τα μισά, αλλά ήξερα τι έκαναν, γιατί έβλεπα τα χέρια τους. Και έτσι έμαθα δεκάδες λέξεις χωρίς λεξικό.",
+     "en": "I love cooking, so I watched German chefs online. At first I didn't understand half of it, but I knew what they were doing, because I could see their hands. And that's how I learned dozens of words without a dictionary."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Το δεύτερο που με βοήθησε ήταν να γράφω. Κάθε βράδυ έγραφα πέντε προτάσεις για τη μέρα μου, τίποτα σπουδαίο. Μετά, μια φίλη από το Βερολίνο μού διόρθωνε τα λάθη, κι εγώ τη βοηθούσα με τα ελληνικά της.",
+     "en": "The second thing that helped me was writing. Every evening I wrote five sentences about my day, nothing special. Then a friend from Berlin corrected my mistakes, and I helped her with her Greek."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Και το τρίτο, ίσως το πιο σημαντικό: άλλαξα τον στόχο μου. Δεν προσπαθούσα πια να καταλαβαίνω τα πάντα. Ήθελα απλώς να καταλαβαίνω λίγο περισσότερο από τον προηγούμενο μήνα.",
+     "en": "And the third, perhaps the most important: I changed my goal. I no longer tried to understand everything. I just wanted to understand a little more than the previous month."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Γιατί, δηλαδή, το οροπέδιο είναι συχνά μια ψευδαίσθηση. Προχωράς, αλλά πιο αργά, και δεν το βλέπεις. Ένας τρόπος να το δεις είναι να ηχογραφείς τον εαυτό σου κάθε τρεις μήνες και να ακούς τις παλιές ηχογραφήσεις.",
+     "en": "Because, you see, the plateau is often an illusion. You are progressing, but more slowly, and you don't notice. One way to see it is to record yourself every three months and listen to the old recordings."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Σας το εγγυώμαι: όταν άκουσα τον εαυτό μου μετά από έναν χρόνο, δεν πίστευα πόση διαφορά είχε γίνει.",
+     "en": "I guarantee it: when I listened to myself after a year, I couldn't believe how much difference there was."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Αυτά για σήμερα. Γράψτε μου πώς ξεπεράσατε εσείς το δικό σας οροπέδιο, και θα διαβάσω τα καλύτερα μηνύματα την επόμενη φορά. Γεια σας!",
+     "en": "That's it for today. Write and tell me how you got past your own plateau, and I'll read out the best messages next time. Bye!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο είναι το κύριο θέμα του επεισοδίου;",
+     "options": [
+      "Πώς να μάθει κανείς γερμανικά γρήγορα",
+      "Γιατί οι μαθητές νιώθουν ότι κολλάνε στο μέσο επίπεδο και τι να κάνουν",
+      "Ποια βιβλία είναι τα καλύτερα για ξένους",
+      "Πώς να βρει κανείς συνομιλητή στο Βερολίνο"
+     ],
+     "answer": "Γιατί οι μαθητές νιώθουν ότι κολλάνε στο μέσο επίπεδο και τι να κάνουν",
+     "why": "το περίφημο οροπέδιο του μέσου επιπέδου"
+    },
+    {
+     "q": "Γιατί, κατά τον Φίλιππο, η πρόοδος φαίνεται να σταματά;",
+     "options": [
+      "Γιατί οι ενήλικες ξεχνούν εύκολα",
+      "Γιατί οι καινούργιες λέξεις συναντιούνται πιο σπάνια",
+      "Γιατί τα βιβλία για ξένους είναι κακά",
+      "Γιατί η γραμματική του Β1 είναι πολύ δύσκολη"
+     ],
+     "answer": "Γιατί οι καινούργιες λέξεις συναντιούνται πιο σπάνια",
+     "why": "οι καινούργιες λέξεις εμφανίζονται πιο σπάνια, οπότε χρειάζεσαι πολύ περισσότερο υλικό"
+    },
+    {
+     "q": "Πώς τον βοήθησαν τα βίντεο μαγειρικής;",
+     "options": [
+      "Καταλάβαινε το νόημα από τις κινήσεις των σεφ",
+      "Είχαν υπότιτλους στα ελληνικά",
+      "Τα έβλεπε μαζί με τη φίλη του",
+      "Του έμαθαν κυρίως γραμματική"
+     ],
+     "answer": "Καταλάβαινε το νόημα από τις κινήσεις των σεφ",
+     "why": "ήξερα τι έκαναν, γιατί έβλεπα τα χέρια τους"
+    },
+    {
+     "q": "Πώς λειτουργούσε η συνεργασία με τη φίλη από το Βερολίνο;",
+     "options": [
+      "Εκείνη του έκανε ιδιαίτερα μαθήματα",
+      "Έγραφαν μαζί ένα ημερολόγιο",
+      "Αντάλλασσαν βοήθεια ο ένας στη γλώσσα του άλλου",
+      "Μιλούσαν μόνο στο τηλέφωνο"
+     ],
+     "answer": "Αντάλλασσαν βοήθεια ο ένας στη γλώσσα του άλλου",
+     "why": "μια φίλη από το Βερολίνο μού διόρθωνε τα λάθη, κι εγώ τη βοηθούσα με τα ελληνικά της"
+    },
+    {
+     "q": "Γιατί προτείνει να ηχογραφούμε τον εαυτό μας;",
+     "options": [
+      "Για να διορθώνουμε την προφορά μας κάθε μέρα",
+      "Για να στέλνουμε τις ηχογραφήσεις στο ποντκάστ",
+      "Για να διαπιστώνουμε την πρόοδο που δεν φαίνεται",
+      "Για να εξασκούμαστε στο να μιλάμε γρήγορα"
+     ],
+     "answer": "Για να διαπιστώνουμε την πρόοδο που δεν φαίνεται",
+     "why": "Προχωράς, αλλά πιο αργά, και δεν το βλέπεις. Ένας τρόπος να το δεις είναι να ηχογραφείς τον εαυτό σου"
+    }
+   ],
+   "gloss": {
+    "Φίλιππος": "ο Φίλιππος — Filippos (the podcast host)",
+    "Γλωσσοδέτη": "ο γλωσσοδέτης — tongue-twister (here: name of the podcast, acc.)",
+    "ποντκάστ": "το ποντκάστ — podcast",
+    "δεν το βάζουν κάτω": "δεν το βάζω κάτω — not to give up",
+    "περίφημο": "περίφημος — famous, notorious",
+    "οροπέδιο": "το οροπέδιο — plateau",
+    "μέσου επιπέδου": "μέσο επίπεδο — intermediate level (gen.)",
+    "προχωράς": "προχωράω — to make progress, move forward",
+    "φυσιολογικό": "φυσιολογικός — normal",
+    "εμφανίζονται": "εμφανίζομαι — to appear",
+    "συναντήσεις": "συναντώ — to come across, meet (aorist subjunctive)",
+    "κόλλησα": "κολλάω — to get stuck (aorist)",
+    "γερμανικά": "τα γερμανικά — German (language)",
+    "μαγειρική": "η μαγειρική — cooking",
+    "λεξικό": "το λεξικό — dictionary",
+    "σπουδαίο": "σπουδαίος — important, great; τίποτα σπουδαίο = nothing special",
+    "Βερολίνο": "το Βερολίνο — Berlin",
+    "διόρθωνε": "διορθώνω — to correct (imperfect)",
+    "στόχο": "ο στόχος — goal, aim (acc.)",
+    "ψευδαίσθηση": "η ψευδαίσθηση — illusion",
+    "ηχογραφείς": "ηχογραφώ — to record (audio)",
+    "ηχογραφήσεις": "η ηχογράφηση — recording (pl.)",
+    "εγγυώμαι": "εγγυώμαι — to guarantee",
+    "ξεπεράσατε": "ξεπερνάω — to get over, overcome (aorist)",
+    "Φίλιππο": "Φίλιππος — Philip (accusative)",
+    "Αντάλλασσαν": "ανταλλάσσω — to exchange (imperfect, 3rd plural)",
+    "ηχογραφούμε": "ηχογραφώ — to record"
+   },
+   "vocab": [
+    "οροπέδιο",
+    "επίπεδο",
+    "προχωράω",
+    "φυσιολογικός",
+    "εμφανίζομαι",
+    "κολλάω",
+    "διορθώνω",
+    "στόχος",
+    "ψευδαίσθηση",
+    "ηχογραφώ",
+    "εγγυώμαι",
+    "ξεπερνάω"
+   ]
+  },
+  {
+   "id": "l4-mon-giagia-kypseli",
+   "title": "Η Αθήνα της γιαγιάς",
+   "title_en": "Grandma's Athens",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ηλικιωμένη γυναίκα να διηγείται στον εγγονό της πώς ήταν η ζωή στην Αθήνα τη δεκαετία του εξήντα.",
+   "script": [
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Εγγονάκι μου, με ρωτάς πώς ήταν η Αθήνα όταν ήρθα; Ε, κάθισε, γιατί είναι μεγάλη ιστορία.",
+     "en": "My little grandson, you're asking me what Athens was like when I came? Well, sit down, because it's a long story."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Ήρθα από ένα χωριό της Αρκαδίας το εξήντα δύο, δεκαεννιά χρονών κοπέλα, με μια βαλίτσα και μια διεύθυνση γραμμένη σε ένα χαρτάκι. Ήταν της θείας μου, στην Κυψέλη.",
+     "en": "I came from a village in Arcadia in sixty-two, a girl of nineteen, with a suitcase and an address written on a scrap of paper. It was my aunt's, in Kypseli."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Την πρώτη μέρα, θυμάμαι, φοβόμουν να περάσω τον δρόμο. Στο χωριό είχαμε ένα αυτοκίνητο, του γιατρού. Εδώ περνούσαν λεωφορεία, τρόλεϊ, ταξί, και όλοι κόρναραν.",
+     "en": "On the first day, I remember, I was afraid to cross the road. In the village we had one car, the doctor's. Here buses, trolleybuses and taxis went by, and everyone was honking."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Η θεία μου έμενε σε ένα διώροφο σπίτι με αυλή. Είχε μια μεγάλη κληματαριά και γλάστρες παντού, βασιλικούς, γαρίφαλα. Τα καλοκαίρια βγάζαμε τις καρέκλες στο πεζοδρόμιο και τα λέγαμε με τις γειτόνισσες ως τα μεσάνυχτα.",
+     "en": "My aunt lived in a two-storey house with a courtyard. It had a big vine arbour and flowerpots everywhere, basil, carnations. In summer we'd take the chairs out onto the pavement and chat with the neighbours till midnight."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Ψυγείο ηλεκτρικό δεν είχαμε στην αρχή. Ερχόταν ο παγοπώλης με το καρότσι του και αγοράζαμε ένα κομμάτι πάγο για το ξύλινο ψυγείο. Το ηλεκτρικό το πήραμε με δόσεις, το εξήντα πέντε, και καμαρώναμε σαν να ήταν αυτοκίνητο.",
+     "en": "At first we didn't have an electric fridge. The iceman would come with his cart and we'd buy a block of ice for the wooden icebox. We got the electric one in instalments, in sixty-five, and we were as proud as if it were a car."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Δούλευα σε ένα ραφείο στην Πατησίων, από το πρωί ως το βράδυ, έξι μέρες τη βδομάδα. Τα λεφτά ήταν λίγα, αλλά για μένα ήταν η πρώτη φορά που είχα δικά μου χρήματα.",
+     "en": "I worked at a tailor's on Patision Street, from morning to night, six days a week. The money was little, but for me it was the first time I had money of my own."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Την Κυριακή πηγαίναμε με τις φίλες μου στο θερινό σινεμά. Ελληνικές ταινίες, με τη Βουγιουκλάκη, και κλαίγαμε και γελούσαμε όλοι μαζί. Το εισιτήριο ήταν μερικές δραχμές, και μας έφτανε και για ένα πασατέμπο.",
+     "en": "On Sundays I'd go with my friends to the open-air cinema. Greek films, with Vougiouklaki, and we'd all cry and laugh together. The ticket was a few drachmas, and there was enough left for some pumpkin seeds."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Εκεί, σε εκείνο το σινεμά, γνώρισα και τον παππού σου. Καθόταν πίσω μου και μου πετούσε φλούδες από πασατέμπο στα μαλλιά. Θύμωσα πολύ! Και σε έναν χρόνο παντρευτήκαμε.",
+     "en": "There, at that cinema, I met your grandfather too. He sat behind me and threw pumpkin-seed shells into my hair. I was so angry! And within a year we were married."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Τηλεόραση είδα για πρώτη φορά στο τέλος της δεκαετίας, στο σπίτι μιας γειτόνισσας. Μαζευόταν όλη η γειτονιά εκεί, σαν να ήταν θέατρο.",
+     "en": "I saw television for the first time at the end of the decade, at a neighbour's house. The whole neighbourhood would gather there, as if it were a theatre."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Μετά άρχισαν να γκρεμίζουν τα σπίτια με τις αυλές και να χτίζουν πολυκατοικίες. Το σπίτι της θείας μου έγινε κι αυτό πολυκατοικία, έξι ορόφων, με αντιπαροχή.",
+     "en": "Then they started knocking down the houses with courtyards and building apartment blocks. My aunt's house became a block too, six storeys, through a land-for-flats deal."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Δεν λέω, οι πολυκατοικίες είχαν ζεστό νερό και καλοριφέρ, και ζήσαμε καλύτερα. Αλλά χάσαμε κάτι. Τις αυλές, τις καρέκλες στο πεζοδρόμιο, τους γείτονες που ήξερες με το όνομά τους.",
+     "en": "I won't deny it, the blocks had hot water and central heating, and we lived better. But we lost something. The courtyards, the chairs on the pavement, the neighbours you knew by name."
+    },
+    {
+     "speaker": "Γιαγιά Κατίνα",
+     "voice": "f",
+     "el": "Γι' αυτό, παιδί μου, όταν περνάς από την Κυψέλη, κοίτα ψηλά. Κάπου εκεί, ανάμεσα στα μπαλκόνια, ήταν η κληματαριά της θείας μου.",
+     "en": "So, my child, when you walk through Kypseli, look up. Somewhere there, among the balconies, was my aunt's vine arbour."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ήρθε η γιαγιά στην Αθήνα;",
+     "options": [
+      "Με την οικογένειά της, παιδί ακόμα",
+      "Μόνη της, στα δεκαεννιά της, για να μείνει με τη θεία της",
+      "Παντρεμένη, μαζί με τον παππού",
+      "Για σπουδές στο πανεπιστήμιο"
+     ],
+     "answer": "Μόνη της, στα δεκαεννιά της, για να μείνει με τη θεία της",
+     "why": "δεκαεννιά χρονών κοπέλα, με μια βαλίτσα και μια διεύθυνση ... Ήταν της θείας μου"
+    },
+    {
+     "q": "Τι την τρόμαξε την πρώτη μέρα;",
+     "options": [
+      "Η πολλή κίνηση στους δρόμους",
+      "Οι ψηλές πολυκατοικίες",
+      "Ο θόρυβος από το σινεμά",
+      "Οι άγνωστοι γείτονες"
+     ],
+     "answer": "Η πολλή κίνηση στους δρόμους",
+     "why": "φοβόμουν να περάσω τον δρόμο ... περνούσαν λεωφορεία, τρόλεϊ, ταξί, και όλοι κόρναραν"
+    },
+    {
+     "q": "Πώς ένιωθε για τη δουλειά της στο ραφείο;",
+     "options": [
+      "Τη μισούσε, γιατί ήταν κουραστική",
+      "Ήταν ικανοποιημένη, γιατί κέρδιζε δικά της χρήματα",
+      "Ήθελε να γυρίσει στο χωριό",
+      "Την άφησε όταν παντρεύτηκε"
+     ],
+     "answer": "Ήταν ικανοποιημένη, γιατί κέρδιζε δικά της χρήματα",
+     "why": "Τα λεφτά ήταν λίγα, αλλά για μένα ήταν η πρώτη φορά που είχα δικά μου χρήματα"
+    },
+    {
+     "q": "Πώς γνώρισε τον παππού;",
+     "options": [
+      "Δούλευαν μαζί στο ραφείο",
+      "Ήταν γείτονας της θείας της",
+      "Την πείραζε στον θερινό κινηματογράφο",
+      "Τον γνώρισε στο σπίτι με την τηλεόραση"
+     ],
+     "answer": "Την πείραζε στον θερινό κινηματογράφο",
+     "why": "Καθόταν πίσω μου και μου πετούσε φλούδες από πασατέμπο στα μαλλιά"
+    },
+    {
+     "q": "Ποια είναι η στάση της απέναντι στις πολυκατοικίες;",
+     "options": [
+      "Τις θεωρεί καθαρά καταστροφή",
+      "Αναγνωρίζει τα πλεονεκτήματά τους, αλλά νοσταλγεί την παλιά γειτονιά",
+      "Τις προτιμά χωρίς καμία επιφύλαξη",
+      "Δεν την ενδιαφέρει το θέμα"
+     ],
+     "answer": "Αναγνωρίζει τα πλεονεκτήματά τους, αλλά νοσταλγεί την παλιά γειτονιά",
+     "why": "οι πολυκατοικίες είχαν ζεστό νερό και καλοριφέρ, και ζήσαμε καλύτερα. Αλλά χάσαμε κάτι"
+    }
+   ],
+   "gloss": {
+    "Γιαγιά Κατίνα": "η γιαγιά Κατίνα — Grandma Katina (the speaker)",
+    "Εγγονάκι": "το εγγονάκι — little grandchild (diminutive of εγγόνι)",
+    "Αθήνα": "η Αθήνα — Athens",
+    "Αρκαδίας": "η Αρκαδία — Arcadia (region in the Peloponnese, gen.)",
+    "Κυψέλη": "η Κυψέλη — Kypseli (Athens neighbourhood)",
+    "Πατησίων": "η (οδός) Πατησίων — Patision Street (Athens)",
+    "Βουγιουκλάκη": "η Αλίκη Βουγιουκλάκη — Aliki Vougiouklaki (famous 1960s film star)",
+    "βαλίτσα": "η βαλίτσα — suitcase",
+    "χαρτάκι": "το χαρτάκι — scrap of paper (diminutive)",
+    "τρόλεϊ": "το τρόλεϊ — trolleybus",
+    "κόρναραν": "κορνάρω — to honk, sound the horn (imperfect)",
+    "διώροφο": "διώροφος — two-storey",
+    "αυλή": "η αυλή — courtyard, yard",
+    "κληματαριά": "η κληματαριά — vine arbour, pergola with vines",
+    "γλάστρες": "η γλάστρα — flowerpot (pl.)",
+    "γαρίφαλα": "το γαρίφαλο — carnation (pl.)",
+    "πεζοδρόμιο": "το πεζοδρόμιο — pavement",
+    "γειτόνισσες": "η γειτόνισσα — (female) neighbour (pl.)",
+    "παγοπώλης": "ο παγοπώλης — iceman, ice seller",
+    "με δόσεις": "με δόσεις — in instalments",
+    "καμαρώναμε": "καμαρώνω — to be proud, show off (imperfect)",
+    "ραφείο": "το ραφείο — tailor's shop, dressmaker's",
+    "θερινό σινεμά": "το θερινό σινεμά — open-air summer cinema",
+    "δραχμές": "η δραχμή — drachma (former Greek currency, pl.)",
+    "πασατέμπο": "το πασατέμπο — roasted pumpkin seeds",
+    "φλούδες": "η φλούδα — peel, shell (pl.)",
+    "γκρεμίζουν": "γκρεμίζω — to demolish, knock down",
+    "αντιπαροχή": "η αντιπαροχή — deal where an owner gives land to a builder in exchange for flats",
+    "καλοριφέρ": "το καλοριφέρ — radiator, central heating",
+    "δεκαεννιά": "δεκαεννιά — nineteen",
+    "νοσταλγεί": "νοσταλγώ — to miss, be nostalgic for",
+    "Κατίνα": "Κατίνα — a woman's name (short for Αικατερίνη)"
+   },
+   "vocab": [
+    "εγγόνι",
+    "αυλή",
+    "κληματαριά",
+    "γλάστρα",
+    "πεζοδρόμιο",
+    "δόση",
+    "καμαρώνω",
+    "ραφείο",
+    "γκρεμίζω",
+    "αντιπαροχή",
+    "καλοριφέρ"
+   ]
+  },
+  {
+   "id": "l4-rep-grammi4",
+   "title": "Νέα βήματα για τη γραμμή 4",
+   "title_en": "New steps for Metro Line 4",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από ραδιοφωνικό δελτίο ειδήσεων για τη νέα γραμμή του μετρό της Αθήνας.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Και πάμε στα νέα της πόλης. Σημαντικό βήμα για τη γραμμή 4 του μετρό, καθώς ο μηχανικός τυφλοπόντικας ολοκλήρωσε χθες ένα ακόμα τμήμα της σήραγγας, κάτω από το Γαλάτσι. Περισσότερα από τον συνάδελφο Μιχάλη Κωστόπουλο.",
+     "en": "And now to city news. An important step for Metro Line 4, as the tunnel boring machine yesterday completed another section of the tunnel, under Galatsi. More from our colleague Michalis Kostopoulos."
+    },
+    {
+     "speaker": "Μιχάλης Κωστόπουλος",
+     "voice": "m",
+     "el": "Καλησπέρα. Βρίσκομαι στο εργοτάξιο του Άλσους Βεΐκου, εκεί όπου θα βρίσκεται η αφετηρία της νέας γραμμής. Η γραμμή 4 θα συνδέσει τις βόρειες συνοικίες με το κέντρο και θα καταλήγει στο Γουδί.",
+     "en": "Good evening. I'm at the Alsos Veikou building site, where the starting point of the new line will be. Line 4 will connect the northern districts with the centre and will end at Goudi."
+    },
+    {
+     "speaker": "Μιχάλης Κωστόπουλος",
+     "voice": "m",
+     "el": "Σύμφωνα με την εταιρεία που κατασκευάζει το έργο, το πρώτο τμήμα θα έχει δεκαπέντε σταθμούς, ανάμεσά τους τα Εξάρχεια, το Κολωνάκι και ο Ευαγγελισμός, όπου οι επιβάτες θα μπορούν να αλλάζουν γραμμή.",
+     "en": "According to the company building the project, the first section will have fifteen stations, among them Exarcheia, Kolonaki and Evangelismos, where passengers will be able to change lines."
+    },
+    {
+     "speaker": "Μιχάλης Κωστόπουλος",
+     "voice": "m",
+     "el": "Όταν λειτουργήσει, η διαδρομή από το Άλσος Βεΐκου μέχρι το κέντρο θα διαρκεί περίπου δεκαπέντε λεπτά, ενώ σήμερα, με το λεωφορείο και την κίνηση, χρειάζεται συχνά πάνω από μισή ώρα.",
+     "en": "Once it's running, the journey from Alsos Veikou to the centre will take about fifteen minutes, whereas today, by bus and in traffic, it often takes over half an hour."
+    },
+    {
+     "speaker": "Μιχάλης Κωστόπουλος",
+     "voice": "m",
+     "el": "Η εταιρεία υπολογίζει ότι η γραμμή θα εξυπηρετεί περίπου τριακόσιες χιλιάδες επιβάτες την ημέρα και ότι θα βγάλει από τους δρόμους δεκάδες χιλιάδες αυτοκίνητα.",
+     "en": "The company estimates that the line will serve around three hundred thousand passengers a day and that it will take tens of thousands of cars off the roads."
+    },
+    {
+     "speaker": "Μιχάλης Κωστόπουλος",
+     "voice": "m",
+     "el": "Δεν είναι όμως όλοι ενθουσιασμένοι. Οι κάτοικοι γύρω από τα εργοτάξια παραπονιούνται για τον θόρυβο, τη σκόνη και τις κλειστές λωρίδες κυκλοφορίας. Μιλήσαμε με μια κάτοικο της περιοχής.",
+     "en": "But not everyone is enthusiastic. Residents around the building sites complain about the noise, the dust and the closed traffic lanes. We spoke to a local resident."
+    },
+    {
+     "speaker": "Κάτοικος",
+     "voice": "f",
+     "el": "Κοιτάξτε, το μετρό το θέλουμε όλοι, δεν το συζητάω. Αλλά εδώ και τρία χρόνια ζούμε μέσα σε ένα εργοτάξιο. Τα μαγαζιά της γειτονιάς έχουν χάσει πελάτες, και κανείς δεν μας λέει πότε θα τελειώσει.",
+     "en": "Look, we all want the metro, no question. But for three years now we've been living in a building site. The neighbourhood shops have lost customers, and nobody tells us when it will end."
+    },
+    {
+     "speaker": "Μιχάλης Κωστόπουλος",
+     "voice": "m",
+     "el": "Η εταιρεία, από την πλευρά της, υπόσχεται ότι οι εργασίες στους δρόμους θα περιοριστούν σημαντικά από την άνοιξη, όταν θα ξεκινήσουν οι εσωτερικές εργασίες στους σταθμούς.",
+     "en": "The company, for its part, promises that the roadworks will be reduced significantly from the spring, when interior work on the stations begins."
+    },
+    {
+     "speaker": "Μιχάλης Κωστόπουλος",
+     "voice": "m",
+     "el": "Παράλληλα, ανακοινώθηκε ότι από τη Δευτέρα θα κλείσει για τρεις εβδομάδες ένα τμήμα της οδού Βεΐκου, και οι οδηγοί καλούνται να χρησιμοποιούν εναλλακτικές διαδρομές. Τα λεωφορεία θα κάνουν παράκαμψη από τους παράλληλους δρόμους.",
+     "en": "At the same time, it was announced that from Monday a section of Veikou Street will close for three weeks, and drivers are asked to use alternative routes. Buses will make a detour via the parallel streets."
+    },
+    {
+     "speaker": "Μιχάλης Κωστόπουλος",
+     "voice": "m",
+     "el": "Όσο για το πότε θα μπούμε στους συρμούς, ο επίσημος στόχος παραμένει το τέλος της δεκαετίας, αν και, όπως παραδέχονται και οι ίδιοι οι μηχανικοί, σε τέτοια έργα οι καθυστερήσεις δεν είναι σπάνιες. Από το Γαλάτσι, Μιχάλης Κωστόπουλος.",
+     "en": "As for when we'll board the trains, the official target remains the end of the decade, although, as the engineers themselves admit, delays are not rare in projects like this. From Galatsi, Michalis Kostopoulos."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ευχαριστούμε, Μιχάλη. Και συνεχίζουμε με τον καιρό.",
+     "en": "Thank you, Michalis. And we continue with the weather."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο γεγονός αναφέρει το δελτίο στην αρχή;",
+     "options": [
+      "Τα εγκαίνια ενός νέου σταθμού",
+      "Την ολοκλήρωση ενός ακόμα κομματιού της σήραγγας",
+      "Την αλλαγή της διαδρομής της γραμμής",
+      "Μια διαμαρτυρία κατοίκων στο Γαλάτσι"
+     ],
+     "answer": "Την ολοκλήρωση ενός ακόμα κομματιού της σήραγγας",
+     "why": "ο μηχανικός τυφλοπόντικας ολοκλήρωσε χθες ένα ακόμα τμήμα της σήραγγας"
+    },
+    {
+     "q": "Πόσο θα διαρκεί η διαδρομή από το Άλσος Βεΐκου στο κέντρο με το μετρό;",
+     "options": [
+      "Περίπου δεκαπέντε λεπτά",
+      "Πάνω από μισή ώρα",
+      "Περίπου είκοσι πέντε λεπτά",
+      "Λιγότερο από δέκα λεπτά"
+     ],
+     "answer": "Περίπου δεκαπέντε λεπτά",
+     "why": "η διαδρομή από το Άλσος Βεΐκου μέχρι το κέντρο θα διαρκεί περίπου δεκαπέντε λεπτά"
+    },
+    {
+     "q": "Ποια είναι η στάση της κατοίκου που μίλησε στο ρεπορτάζ;",
+     "options": [
+      "Είναι αντίθετη στην κατασκευή του μετρό",
+      "Υποστηρίζει το έργο αλλά έχει κουραστεί από τις συνέπειές του",
+      "Είναι ενθουσιασμένη και δεν έχει παράπονα",
+      "Ενδιαφέρεται μόνο για το μαγαζί της"
+     ],
+     "answer": "Υποστηρίζει το έργο αλλά έχει κουραστεί από τις συνέπειές του",
+     "why": "το μετρό το θέλουμε όλοι, δεν το συζητάω. Αλλά εδώ και τρία χρόνια ζούμε μέσα σε ένα εργοτάξιο"
+    },
+    {
+     "q": "Τι αλλάζει από τη Δευτέρα;",
+     "options": [
+      "Τα λεωφορεία σταματούν να κυκλοφορούν",
+      "Ξεκινούν οι εργασίες μέσα στους σταθμούς",
+      "Κλείνει προσωρινά ένα κομμάτι της οδού Βεΐκου",
+      "Ανοίγει ο σταθμός στον Ευαγγελισμό"
+     ],
+     "answer": "Κλείνει προσωρινά ένα κομμάτι της οδού Βεΐκου",
+     "why": "από τη Δευτέρα θα κλείσει για τρεις εβδομάδες ένα τμήμα της οδού Βεΐκου"
+    },
+    {
+     "q": "Τι υπονοεί ο ρεπόρτερ για την ημερομηνία λειτουργίας;",
+     "options": [
+      "Ότι η γραμμή θα ανοίξει την άνοιξη",
+      "Ότι η εταιρεία έχει ήδη ανακοινώσει καθυστέρηση",
+      "Ότι ίσως ξεπεραστεί ο επίσημος στόχος",
+      "Ότι κανείς δεν ξέρει πού θα καταλήγει η γραμμή"
+     ],
+     "answer": "Ότι ίσως ξεπεραστεί ο επίσημος στόχος",
+     "why": "όπως παραδέχονται και οι ίδιοι οι μηχανικοί, σε τέτοια έργα οι καθυστερήσεις δεν είναι σπάνιες"
+    }
+   ],
+   "gloss": {
+    "Εκφωνήτρια": "η εκφωνήτρια — newsreader, announcer (f)",
+    "Μιχάλης Κωστόπουλος": "ο Μιχάλης Κωστόπουλος — Michalis Kostopoulos (the reporter)",
+    "Μιχάλη": "Μιχάλη — Michalis (vocative/acc.)",
+    "Κάτοικος": "ο/η κάτοικος — resident",
+    "μετρό": "το μετρό — metro, underground",
+    "μηχανικός τυφλοπόντικας": "ο μηχανικός τυφλοπόντικας — tunnel boring machine (lit. mechanical mole)",
+    "τμήμα": "το τμήμα — section, part",
+    "σήραγγας": "η σήραγγα — tunnel (gen.)",
+    "Γαλάτσι": "το Γαλάτσι — Galatsi (Athens suburb)",
+    "εργοτάξιο": "το εργοτάξιο — building site, works site",
+    "Άλσους Βεΐκου": "το Άλσος Βεΐκου — Alsos Veikou (park in Galatsi, gen.)",
+    "Βεΐκου": "Βεΐκου — Veikou (street/park name)",
+    "αφετηρία": "η αφετηρία — starting point, terminus",
+    "συνοικίες": "η συνοικία — district, neighbourhood (pl.)",
+    "καταλήγει": "καταλήγω — to end up, terminate",
+    "Γουδί": "το Γουδί — Goudi (Athens district)",
+    "Εξάρχεια": "τα Εξάρχεια — Exarcheia (Athens district)",
+    "Κολωνάκι": "το Κολωνάκι — Kolonaki (Athens district)",
+    "Ευαγγελισμός": "ο Ευαγγελισμός — Evangelismos (hospital and metro station)",
+    "επιβάτες": "ο επιβάτης — passenger (pl.)",
+    "υπολογίζει": "υπολογίζω — to estimate, calculate",
+    "ενθουσιασμένοι": "ενθουσιασμένος — enthusiastic, thrilled (pl.)",
+    "παραπονιούνται": "παραπονιέμαι — to complain",
+    "λωρίδες κυκλοφορίας": "η λωρίδα κυκλοφορίας — traffic lane (pl.)",
+    "δεν το συζητάω": "δεν το συζητάω — no question about it",
+    "περιοριστούν": "περιορίζομαι — to be reduced, limited (aorist subjunctive)",
+    "καλούνται": "καλούμαι — to be asked, called upon",
+    "εναλλακτικές διαδρομές": "εναλλακτική διαδρομή — alternative route (pl.)",
+    "παράκαμψη": "η παράκαμψη — detour",
+    "συρμούς": "ο συρμός — train (of a metro, acc. pl.)",
+    "παραδέχονται": "παραδέχομαι — to admit",
+    "καθυστερήσεις": "η καθυστέρηση — delay (pl.)",
+    "ολοκλήρωση": "ολοκλήρωση — completion",
+    "Ευαγγελισμό": "Ευαγγελισμός — Evangelismos (hospital and metro station in Athens; accusative)",
+    "τυφλοπόντικας": "τυφλοπόντικας — mole; here: tunnel boring machine",
+    "Κωστόπουλο": "Κωστόπουλος — a surname (accusative)",
+    "Κωστόπουλος": "Κωστόπουλος — a surname",
+    "εργοτάξια": "εργοτάξιο — construction site (plural)",
+    "παράλληλους": "παράλληλος — parallel (accusative plural)"
+   },
+   "vocab": [
+    "σήραγγα",
+    "τμήμα",
+    "εργοτάξιο",
+    "αφετηρία",
+    "συνοικία",
+    "καταλήγω",
+    "υπολογίζω",
+    "παραπονιέμαι",
+    "λωρίδα",
+    "παράκαμψη",
+    "συρμός",
+    "καθυστέρηση"
+   ]
+  }
+ ]
+}

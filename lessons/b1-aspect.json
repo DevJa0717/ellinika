@@ -1,0 +1,478 @@
+{
+ "el": "Ποιόν ενεργείας",
+ "title": "Aspect: imperfective and perfective",
+ "section": "B1 · Holton §6.4-6.5, §6.17",
+ "goal": "Choose between the imperfective and perfective stems in the past, the future and after να.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "The real core of the Greek verb is **aspect**, not tense. Almost every verb has two stems: an **imperfective** stem (γράφ-) for actions seen as ongoing or repeated, and a **perfective** stem (γράψ-) for actions seen as a single, completed whole. Tense only distinguishes past and non-past.\n\nCrossing the two gives four simple forms. The perfective non-past (γράψω) never stands alone: it needs θα, να, ας, or a conjunction like αν, όταν, πριν. This is why there is no 'present' perfective."
+  },
+  {
+   "type": "table",
+   "title": "Aspect × tense (δένω 'tie')",
+   "head": [
+    "",
+    "imperfective",
+    "perfective",
+    "perfect"
+   ],
+   "rows": [
+    [
+     "non-past",
+     "δένω *I tie, am tying*",
+     "(να) δέσω *dependent*",
+     "έχω δέσει *I have tied*"
+    ],
+    [
+     "past",
+     "έδενα *I was tying, used to tie*",
+     "έδεσα *I tied*",
+     "είχα δέσει *I had tied*"
+    ]
+   ],
+   "cite": "Holton §6.5"
+  },
+  {
+   "type": "rules",
+   "src": "grammar/verbs-holton.json#sections[section=6.4].rule",
+   "cite": "Holton §6.4"
+  },
+  {
+   "type": "examples",
+   "title": "Imperfect: habit or background",
+   "src": "grammar/verbs-holton.json#sections[section=6.5.2].examples",
+   "cite": "Holton §6.5.2"
+  },
+  {
+   "type": "examples",
+   "title": "Simple past: one completed event",
+   "src": "grammar/verbs-holton.json#sections[section=6.5.3].examples",
+   "cite": "Holton §6.5.3"
+  },
+  {
+   "type": "examples",
+   "title": "Two futures",
+   "src": "grammar/verbs-holton.json#sections[section=6.5.7].examples",
+   "cite": "Holton §6.5.7, §6.17. θα + present stem = repeated or ongoing; θα + perfective stem = a single event."
+  },
+  {
+   "type": "examples",
+   "title": "The dependent after να, αν, όταν, πριν",
+   "src": "grammar/verbs-holton.json#sections[section=6.5.4].examples",
+   "cite": "Holton §6.5.4"
+  },
+  {
+   "type": "culture",
+   "title": "Once upon a time: aspect in storytelling",
+   "text": "Greek fairy tales open with **Μια φορά κι έναν καιρό** 'once upon a time' and then set the scene in the imperfect: **ήταν** 'there was', **ζούσε** 'lived'. The moment something happens, the narrator switches to perfective: **μια μέρα βγήκε**, **είδε**, **του είπε**. The stock ending, **Κι έζησαν αυτοί καλά κι εμείς καλύτερα** 'and they lived well, and we even better', closes the whole life as one completed fact with a perfective. Grandparents' memories work the same way: **τότε πηγαίναμε με τα πόδια** 'back then we used to walk' is habit, while **τότε γνώρισα τη γιαγιά σου** 'that's when I met your grandmother' is a single event."
+  },
+  {
+   "type": "callout",
+   "text": "**A test you can apply.** Ask: is the action a whole, done once (perfective), or is it a process, a habit, or the background to something else (imperfective)? Signal words help. Κάθε μέρα, συνήθως, πάντα, ενώ point to imperfective; χθες, ξαφνικά, μια φορά, τελικά usually go with perfective."
+  },
+  {
+   "type": "reading",
+   "title": "Τα καλοκαίρια στο χωριό",
+   "text": "Όταν ήμουν παιδί, περνούσα κάθε καλοκαίρι στο χωριό της γιαγιάς μου, στη Νάξο. Ξυπνούσα νωρίς, έτρωγα ψωμί με μέλι και έτρεχα στη θάλασσα με τα ξαδέρφια μου. Τα απογεύματα η γιαγιά μάς έλεγε ιστορίες, ενώ ο παππούς διάβαζε την εφημερίδα στην αυλή. Το βράδυ τρώγαμε όλοι μαζί κάτω από την κληματαριά και οι μεγάλοι συζητούσαν μέχρι αργά.\n\nΈνα καλοκαίρι όμως ήταν διαφορετικό. Ένα βράδυ του Αυγούστου, ενώ παίζαμε χαρτιά, έσβησαν ξαφνικά τα φώτα. Ο παππούς άναψε ένα κερί και βγήκαμε όλοι έξω. Ο ουρανός ήταν γεμάτος αστέρια. Τότε η γιαγιά μάς έδειξε τον Γαλαξία και μας είπε ότι εκείνες τις νύχτες πέφτουν αστέρια. Καθίσαμε στα σκαλιά και περιμέναμε. Μετά από λίγο είδαμε το πρώτο. Φωνάξαμε όλοι μαζί και κάναμε μια ευχή. Εκείνη τη νύχτα κοιμηθήκαμε έξω, στα σκαλιά.\n\nΣήμερα ζω στην Αθήνα και δουλεύω σε ένα γραφείο. Δεν πηγαίνω πια κάθε καλοκαίρι στο χωριό, αλλά φέτος αποφάσισα να πάω τον Αύγουστο με την κόρη μου. Θέλω να της δείξω τα σκαλιά της γιαγιάς και να δούμε μαζί τα αστέρια. Θα της λέω ιστορίες κάθε βράδυ, όπως έκανε η γιαγιά μου.",
+   "en": "When I was a child, I spent every summer in my grandmother's village on Naxos. I used to wake up early, eat bread with honey and run to the sea with my cousins. In the afternoons Grandma would tell us stories, while Grandpa read the newspaper in the yard. In the evening we all ate together under the vine arbour and the grown-ups talked until late.\n\nOne summer, though, was different. One August evening, while we were playing cards, the lights suddenly went out. Grandpa lit a candle and we all went outside. The sky was full of stars. Then Grandma showed us the Milky Way and told us that on those nights stars fall. We sat on the steps and waited. After a little while we saw the first one. We all shouted together and made a wish. That night we slept outside, on the steps.\n\nToday I live in Athens and work in an office. I no longer go to the village every summer, but this year I decided to go in August with my daughter. I want to show her Grandma's steps and to watch the stars together. I'll tell her stories every evening, the way my grandmother did.",
+   "gloss": {
+    "Νάξο": "Νάξος — Naxos (Cycladic island)",
+    "έτρωγα": "τρώω — I used to eat (imperfect)",
+    "έλεγε": "λέω — used to tell (imperfect)",
+    "τρώγαμε": "τρώω — we used to eat (imperfect)",
+    "κληματαριά": "κληματαριά — vine arbour, pergola",
+    "φώτα": "φως — lights (pl. of φως)",
+    "αφηγητής": "αφηγητής — narrator",
+    "ξαδέρφια": "ξάδερφος — cousins (ξαδέρφια: mixed or general plural)",
+    "Γαλαξία": "Γαλαξίας — the Milky Way",
+    "σκαλιά": "σκαλί — steps (pl.)",
+    "κερί": "κερί — candle",
+    "άναψε": "ανάβω — lit (past)",
+    "έσβησαν": "σβήνω — went out (lights), past"
+   },
+   "questions": [
+    {
+     "prompt": "Τι έκανε ο αφηγητής κάθε πρωί στο χωριό;",
+     "answer": "Έτρεχε στη θάλασσα",
+     "options": [
+      "Έτρεχε στη θάλασσα",
+      "Διάβαζε την εφημερίδα",
+      "Έπαιζε χαρτιά"
+     ]
+    },
+    {
+     "prompt": "Τι συνέβη ένα βράδυ του Αυγούστου;",
+     "answer": "Έσβησαν τα φώτα",
+     "options": [
+      "Έσβησαν τα φώτα",
+      "Έφυγε ο παππούς",
+      "Έβρεξε πολύ"
+     ]
+    },
+    {
+     "prompt": "Πού ζει σήμερα ο αφηγητής;",
+     "answer": "Στην Αθήνα",
+     "options": [
+      "Στην Αθήνα",
+      "Στη Νάξο",
+      "Στη Θεσσαλονίκη"
+     ]
+    },
+    {
+     "prompt": "Τι αποφάσισε να κάνει φέτος;",
+     "answer": "Να πάει στο χωριό με την κόρη του",
+     "options": [
+      "Να πάει στο χωριό με την κόρη του",
+      "Να μείνει στην Αθήνα τον Αύγουστο",
+      "Να αγοράσει σπίτι στη Νάξο"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "mc",
+   "n": 12,
+   "items": [
+    {
+     "prompt": "Όταν ήμουν παιδί, ___ κάθε καλοκαίρι στο χωριό.",
+     "answer": "πηγαίναμε",
+     "options": [
+      "πηγαίναμε",
+      "πήγαμε"
+     ],
+     "why": "Every summer is a habit in the past: imperfect."
+    },
+    {
+     "prompt": "Χθες ___ τον Γιάννη στην αγορά.",
+     "answer": "είδα",
+     "options": [
+      "είδα",
+      "έβλεπα"
+     ],
+     "why": "One completed event yesterday: simple past."
+    },
+    {
+     "prompt": "___ τηλεόραση όταν χτύπησε το τηλέφωνο.",
+     "answer": "Έβλεπα",
+     "options": [
+      "Έβλεπα",
+      "Είδα"
+     ],
+     "why": "An ongoing background action interrupted by an event: imperfect."
+    },
+    {
+     "prompt": "Θέλω να ___ ένα γράμμα στη μητέρα μου.",
+     "answer": "γράψω",
+     "options": [
+      "γράψω",
+      "γράφω"
+     ],
+     "why": "One letter, seen as a whole, after να: perfective."
+    },
+    {
+     "prompt": "Πρέπει να ___ κάθε μέρα για να μάθεις ελληνικά.",
+     "answer": "διαβάζεις",
+     "options": [
+      "διαβάζεις",
+      "διαβάσεις"
+     ],
+     "why": "κάθε μέρα marks a habit, so the imperfective stays even after να."
+    },
+    {
+     "prompt": "Αύριο θα σου ___ στις οχτώ.",
+     "answer": "τηλεφωνήσω",
+     "options": [
+      "τηλεφωνήσω",
+      "τηλεφωνώ"
+     ],
+     "why": "A single call at a set time: perfective future."
+    },
+    {
+     "prompt": "Από τον Σεπτέμβριο θα ___ κάθε πρωί.",
+     "answer": "κολυμπάω",
+     "options": [
+      "κολυμπάω",
+      "κολυμπήσω"
+     ],
+     "why": "Every morning from September: a habit, so imperfective future."
+    },
+    {
+     "prompt": "Πριν ___, κλείσε το παράθυρο.",
+     "answer": "φύγεις",
+     "options": [
+      "φύγεις",
+      "φεύγεις"
+     ],
+     "why": "πριν always takes the dependent (perfective non-past)."
+    },
+    {
+     "prompt": "Ο Νίκος ___ το βιβλίο σε δύο μέρες.",
+     "answer": "διάβασε",
+     "options": [
+      "διάβασε",
+      "διάβαζε"
+     ],
+     "why": "Finished in two days: a bounded, completed action."
+    },
+    {
+     "prompt": "Ενώ ___, άκουγα μουσική.",
+     "answer": "μαγείρευα",
+     "options": [
+      "μαγείρευα",
+      "μαγείρεψα"
+     ],
+     "why": "ενώ 'while' presents two actions in progress at the same time: imperfect."
+    },
+    {
+     "prompt": "Αν ___ νωρίς, θα πάμε σινεμά.",
+     "answer": "τελειώσω",
+     "options": [
+      "τελειώσω",
+      "τελειώνω"
+     ],
+     "why": "A single future event in an αν-clause: dependent. (αν + present would mean a general habit.)"
+    },
+    {
+     "prompt": "Ξαφνικά ___ τα φώτα.",
+     "answer": "έσβησαν",
+     "options": [
+      "έσβησαν",
+      "έσβηναν"
+     ],
+     "why": "ξαφνικά 'suddenly' marks a single event."
+    },
+    {
+     "prompt": "Τον παλιό καιρό οι άνθρωποι ___ περισσότερο.",
+     "answer": "περπατούσαν",
+     "options": [
+      "περπατούσαν",
+      "περπάτησαν"
+     ],
+     "why": "A general state of affairs in the past: imperfect."
+    },
+    {
+     "prompt": "Τελικά ___ αυτοκίνητο;",
+     "answer": "αγόρασες",
+     "options": [
+      "αγόρασες",
+      "αγόραζες"
+     ],
+     "why": "τελικά 'in the end' asks about one completed result (Holton's own example)."
+    },
+    {
+     "prompt": "Μην ___ τόσο γρήγορα!",
+     "answer": "τρέχεις",
+     "options": [
+      "τρέχεις",
+      "τρέξεις"
+     ],
+     "why": "Telling someone to stop doing what they are doing right now: imperfective. Μην τρέξεις would warn against starting to run."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Χθες ___ (γράφω, εγώ) δύο email στον διευθυντή.",
+     "answer": "έγραψα",
+     "accept": [
+      "έγραψα"
+     ],
+     "why": "Yesterday + a counted result (two emails): one completed event, simple past."
+    },
+    {
+     "prompt": "Παλιά, κάθε Κυριακή ___ (πηγαίνω, εμείς) στη γιαγιά.",
+     "answer": "πηγαίναμε",
+     "accept": [
+      "πηγαίναμε"
+     ],
+     "why": "παλιά + κάθε Κυριακή describe a past habit: imperfect."
+    },
+    {
+     "prompt": "Ενώ ___ (οδηγώ, εγώ), χτύπησε το κινητό.",
+     "answer": "οδηγούσα",
+     "accept": [
+      "οδηγούσα"
+     ],
+     "why": "ενώ sets an action in progress as background to an event: imperfect."
+    },
+    {
+     "prompt": "Θα σου ___ (στέλνω) το αρχείο απόψε.",
+     "answer": "στείλω",
+     "accept": [
+      "στείλω"
+     ],
+     "why": "One sending at a set time: θα + perfective stem."
+    },
+    {
+     "prompt": "Από τώρα και στο εξής θα σου ___ (γράφω) κάθε εβδομάδα.",
+     "answer": "γράφω",
+     "accept": [
+      "γράφω"
+     ],
+     "why": "A future habit (κάθε εβδομάδα): θα + imperfective stem."
+    },
+    {
+     "prompt": "Η Μαρία ___ (κοιμάμαι) όταν γύρισα σπίτι.",
+     "answer": "κοιμόταν",
+     "accept": [
+      "κοιμόταν",
+      "κοιμότανε"
+     ],
+     "why": "A state in progress at the moment of another past event: imperfect."
+    },
+    {
+     "prompt": "Μόλις ___ (τελειώνω, εσύ), έλα να φάμε.",
+     "answer": "τελειώσεις",
+     "accept": [
+      "τελειώσεις"
+     ],
+     "why": "μόλις with future reference takes the dependent (perfective non-past)."
+    },
+    {
+     "prompt": "Ξαφνικά ___ (ανοίγω) η πόρτα.",
+     "answer": "άνοιξε",
+     "accept": [
+      "άνοιξε"
+     ],
+     "why": "ξαφνικά marks a single, sudden event: simple past."
+    },
+    {
+     "prompt": "Πέρσι ___ (βλέπω, εγώ) την ταινία τρεις φορές.",
+     "answer": "είδα",
+     "accept": [
+      "είδα"
+     ],
+     "why": "A counted number of times (τρεις φορές) is a bounded whole: simple past, even though it happened more than once."
+    },
+    {
+     "prompt": "Τότε ___ (μένω, εμείς) στη Θεσσαλονίκη.",
+     "answer": "μέναμε",
+     "accept": [
+      "μέναμε"
+     ],
+     "why": "A past state with no boundary stated: imperfect."
+    },
+    {
+     "prompt": "Say in Greek: *I used to smoke, but I stopped.*",
+     "answer": "Κάπνιζα, αλλά σταμάτησα.",
+     "accept": [
+      "Κάπνιζα, αλλά σταμάτησα",
+      "Κάπνιζα αλλά σταμάτησα",
+      "Κάπνιζα, αλλά το έκοψα",
+      "Κάπνιζα αλλά το έκοψα",
+      "Κάπνιζα, όμως σταμάτησα",
+      "Κάπνιζα όμως σταμάτησα"
+     ],
+     "why": "The old habit is imperfect (κάπνιζα); the one-off change is perfective (σταμάτησα)."
+    },
+    {
+     "prompt": "Say in Greek: *I'll call you tomorrow.*",
+     "answer": "Θα σε πάρω τηλέφωνο αύριο.",
+     "accept": [
+      "Θα σε πάρω τηλέφωνο αύριο",
+      "Αύριο θα σε πάρω τηλέφωνο",
+      "Θα σου τηλεφωνήσω αύριο",
+      "Αύριο θα σου τηλεφωνήσω"
+     ],
+     "why": "One call: θα + perfective (πάρω, τηλεφωνήσω)."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Ο Πέτρος ___ τρία χρόνια στο Λονδίνο και μετά γύρισε.",
+     "answer": "έζησε",
+     "options": [
+      "έζησε",
+      "ζούσε"
+     ],
+     "why": "A period with clear limits, seen from outside as a whole, takes the perfective even when it lasted years."
+    },
+    {
+     "prompt": "Κάθε φορά που τον ___, μου έλεγε το ίδιο αστείο.",
+     "answer": "έβλεπα",
+     "options": [
+      "έβλεπα",
+      "είδα"
+     ],
+     "why": "κάθε φορά που signals repetition: imperfect in both clauses."
+    },
+    {
+     "prompt": "Θα ___ το σπίτι το Σάββατο.",
+     "answer": "καθαρίσω",
+     "options": [
+      "καθαρίσω",
+      "καθαρίζω"
+     ],
+     "why": "One job to finish on Saturday: perfective. θα καθαρίζω would mean 'I'll be cleaning' or 'I'll clean regularly'."
+    },
+    {
+     "prompt": "Δεν μπορώ να ___ τόσο πολύ κάθε βράδυ.",
+     "answer": "δουλεύω",
+     "options": [
+      "δουλεύω",
+      "δουλέψω"
+     ],
+     "why": "κάθε βράδυ makes it a habit, so the imperfective stays after να."
+    },
+    {
+     "prompt": "Τελικά ___ το διαμέρισμα στο Παγκράτι.",
+     "answer": "νοικιάσαμε",
+     "options": [
+      "νοικιάσαμε",
+      "νοικιάζαμε"
+     ],
+     "why": "τελικά 'in the end' points to a single outcome: simple past."
+    },
+    {
+     "prompt": "Ο σκύλος του γείτονα ___ όλο το βράδυ και δεν μας άφηνε να κοιμηθούμε.",
+     "answer": "γάβγιζε",
+     "options": [
+      "γάβγιζε",
+      "γάβγισε"
+     ],
+     "why": "An ongoing, repeated noise running parallel with another imperfect (άφηνε): imperfect."
+    },
+    {
+     "prompt": "Μόλις ___ το μήνυμα, σου απάντησα.",
+     "answer": "διάβασα",
+     "options": [
+      "διάβασα",
+      "διάβαζα"
+     ],
+     "why": "μόλις 'as soon as' links two completed events: simple past."
+    },
+    {
+     "prompt": "Πού ___ όταν σε συνάντησα στον δρόμο;",
+     "answer": "πήγαινες",
+     "options": [
+      "πήγαινες",
+      "πήγες"
+     ],
+     "why": "You were on your way when we met: an action in progress, imperfect."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "καλοκαίρι",
+  "χωριό",
+  "θάλασσα",
+  "ιστορία",
+  "ξυπνώ",
+  "τρέχω",
+  "ουρανός",
+  "αστέρι",
+  "αποφασίζω",
+  "περιμένω",
+  "ξαφνικά",
+  "συνήθως"
+ ]
+}

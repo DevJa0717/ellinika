@@ -1,0 +1,1037 @@
+{
+ "source": "Holton, Mackridge & Philippaki-Warburton, Greek: An Essential Grammar, 2nd ed. (Routledge, 2016), upload 7635aa83 (PDF pp. 47-50 = §3.1-3.2). Copyrighted, no open license stated: rules are restated in our own words, examples limited to single words and short phrases. Continued from upload 86b689c6 (PDF pp. 56-60 = §3.48-3.51 start). Continued in upload 418329ba (PDF pp. 1-21 = rest of §3.51 to §3.57). Examples restated/shortened; rules in own words.",
+ "variety": "Standard Modern Greek",
+ "constituents": {
+  "rule": "A noun phrase is a noun alone or with modifiers; all declinable words in it agree with the noun in gender, number and case. It may also be headed by an adjective or pronoun, or be a clause introduced by neuter το.",
+  "patterns": [
+   {
+    "pattern": "def. art + noun",
+    "el": "ο Γιάννης",
+    "en": "John"
+   },
+   {
+    "pattern": "indef. art + adj + noun",
+    "el": "ένα άσπρο σπίτι",
+    "en": "a white house"
+   },
+   {
+    "pattern": "numeral + adj + noun",
+    "el": "δύο άσπρα σπίτια",
+    "en": "two white houses"
+   },
+   {
+    "pattern": "demonstrative + def. art + noun",
+    "el": "αυτό το σπίτι",
+    "en": "this house"
+   },
+   {
+    "pattern": "quantifier + demonstrative + def. art + adj + noun",
+    "el": "όλα αυτά τα άσπρα σπίτια",
+    "en": "all these white houses"
+   },
+   {
+    "pattern": "interrogative + adj + noun",
+    "el": "ποιο άσπρο σπίτι;",
+    "en": "which white house?"
+   },
+   {
+    "pattern": "def. art + noun + possessive",
+    "el": "το σπίτι μου",
+    "en": "my house"
+   },
+   {
+    "pattern": "indef. art + adj (noun understood)",
+    "el": "ένας νέος",
+    "en": "a young man"
+   },
+   {
+    "pattern": "strong pronoun",
+    "el": "εγώ",
+    "en": "I"
+   },
+   {
+    "pattern": "το + clause",
+    "el": "το ότι έχασαν τις εκλογές",
+    "en": "the fact that they lost the elections"
+   },
+   {
+    "pattern": "noun + genitive NP",
+    "el": "το σπίτι του Γιάννη",
+    "en": "John's house"
+   },
+   {
+    "pattern": "noun + prepositional phrase",
+    "el": "το σπίτι στη γωνία",
+    "en": "the corner house"
+   },
+   {
+    "pattern": "noun + relative clause",
+    "el": "το σπίτι που αγόρασα",
+    "en": "the house I bought"
+   }
+  ]
+ },
+ "functions": [
+  {
+   "function": "subject",
+   "case": "nom",
+   "el": "Ο Στέφανος θα έρθει αύριο.",
+   "en": "Stephen will come tomorrow."
+  },
+  {
+   "function": "direct object",
+   "case": "acc",
+   "el": "Θα του δώσουμε τα ρούχα του.",
+   "en": "We'll give him his clothes."
+  },
+  {
+   "function": "indirect object",
+   "case": "gen",
+   "el": "Θα του δώσουμε του Στέφανου τα ρούχα του.",
+   "en": "We'll give Stephen his clothes.",
+   "note": "More often expressed with σε + acc: Θα δώσουμε στον Στέφανο τα ρούχα του."
+  },
+  {
+   "function": "subject predicate",
+   "case": "nom",
+   "el": "Ο Γιάννης είναι δάσκαλος.",
+   "en": "John is a teacher."
+  },
+  {
+   "function": "object predicate",
+   "case": "acc",
+   "el": "Τον διόρισαν δάσκαλο.",
+   "en": "They appointed him teacher."
+  },
+  {
+   "function": "object of preposition",
+   "case": "acc",
+   "el": "Ήρθε από τη Θεσσαλονίκη.",
+   "en": "She came from Thessaloniki."
+  },
+  {
+   "function": "address",
+   "case": "voc",
+   "el": "Στέφανε!",
+   "en": "Stephen!"
+  },
+  {
+   "function": "adverbial of time/place",
+   "case": "acc",
+   "el": "τον Ιούνιο",
+   "en": "in June"
+  },
+  {
+   "function": "possessor",
+   "case": "gen",
+   "el": "το σπίτι του Γιάννη",
+   "en": "John's house"
+  },
+  {
+   "function": "content/measure (same case as head, unlike English 'of')",
+   "case": "same as head",
+   "el": "ένα κιλό πατάτες; τρία μπουκάλια κρασί",
+   "en": "a kilo of potatoes; three bottles of wine"
+  }
+ ],
+ "predicate_rule": "A predicate takes the case of the word it describes: nominative for the subject, accusative for the object.",
+ "stopped_at": "Complete through §3.57 (end of Ch. 3). Next: Ch. 4 pronouns (see pronouns-holton.json).",
+ "agreement": {
+  "section": "3.48",
+  "rule": "Every declinable modifier (article, determiner, adjective, numeral, quantifier) agrees with its noun in gender, number and case.",
+  "examples": [
+   {
+    "el": "Ο άλλος μικρός δρόμος είναι πιο δύσκολος.",
+    "en": "The other little road is more difficult."
+   },
+   {
+    "el": "στη μέση της άλλης μικρής πλατείας",
+    "en": "in the middle of the other little square"
+   }
+  ],
+  "multiple_nouns": [
+   {
+    "rule": "One modifier for several human nouns: masculine plural if any is masculine.",
+    "el": "Αγαπητοί μου Γιάννη και Μαρία",
+    "en": "My dear John and Mary"
+   },
+   {
+    "rule": "Non-human nouns: modifier usually agrees with the nearest noun.",
+    "el": "ελληνική μουσική και τραγούδια",
+    "en": "Greek music and songs"
+   },
+   {
+    "rule": "Several modifiers may share one singular noun that stands for several entities.",
+    "el": "ο Έλληνας και ο Τούρκος αντιπρόσωπος",
+    "en": "the Greek and Turkish representatives"
+   }
+  ]
+ },
+ "case_uses": {
+  "note": "Only masculine -ος nouns show four distinct forms (singular).",
+  "nominative": {
+   "section": "3.50",
+   "uses": [
+    {
+     "use": "subject (agent, state, change, passive subject)",
+     "el": "Η Μαρία έφυγε. / Φυλακίστηκε ο κλέφτης.",
+     "en": "Mary left. / The thief was imprisoned."
+    },
+    {
+     "use": "subject predicate",
+     "el": "Η Μαρία είναι γιατρός.",
+     "en": "Mary is a doctor."
+    },
+    {
+     "use": "fixed expressions",
+     "el": "στις τέσσερις η ώρα",
+     "en": "at four o'clock"
+    }
+   ]
+  },
+  "accusative": {
+   "section": "3.51",
+   "uses": [
+    {
+     "use": "direct object",
+     "el": "Η Μαρία έκλεισε την πόρτα.",
+     "en": "Mary shut the door."
+    },
+    {
+     "use": "object predicate",
+     "el": "Τον θεωρώ φίλο μου.",
+     "en": "I consider him a friend of mine."
+    },
+    {
+     "use": "object of most prepositions",
+     "el": "Ο Γιάννης ήρθε από την Αθήνα.",
+     "en": "John came from Athens."
+    },
+    {
+     "use": "duration",
+     "el": "Δούλεψα όλη μέρα.",
+     "en": "I worked all day."
+    },
+    {
+     "use": "distance in space or time",
+     "el": "Έτρεξα τρία χιλιόμετρα. / Κράτησε ένα χρόνο.",
+     "en": "I ran three kilometres. / It lasted a year."
+    },
+    {
+     "use": "point in time",
+     "examples": [
+      "τη νύχτα (during the night)",
+      "την Κυριακή το απόγευμα (on Sunday afternoon)",
+      "την άλλη μέρα (the next day)",
+      "τον Αύγουστο (in August)",
+      "την πρώτη Φεβρουαρίου (on 1 February)",
+      "την άνοιξη (in spring)",
+      "το Πάσχα (at Easter)",
+      "το 2004 (in 2004)"
+     ]
+    },
+    {
+     "use": "frequency / number of times",
+     "el": "τρεις φορές",
+     "en": "three times"
+    },
+    {
+     "use": "rate (time or weight)",
+     "examples": [
+      {
+       "el": "τρεις φορές την ώρα",
+       "en": "three times an hour"
+      },
+      {
+       "el": "χίλια δολάρια τον τόνο",
+       "en": "a thousand dollars a tonne"
+      }
+     ]
+    },
+    {
+     "use": "dimensions",
+     "examples": [
+      {
+       "el": "ένα ξύλο δέκα πόντους μακρύ",
+       "en": "a stick ten centimetres long"
+      },
+      {
+       "el": "ένα ξύλο δέκα πόντους μήκος",
+       "en": "a stick ten centimetres in length"
+      }
+     ],
+     "note": "two alternative ways of saying the same thing"
+    },
+    {
+     "use": "degree of separation (space or time)",
+     "examples": [
+      {
+       "el": "Μένω δυο δρόμους παρακάτω.",
+       "en": "I live two streets further down."
+      },
+      {
+       "el": "Η αδελφή μου είναι ένα χρόνο μεγαλύτερη/πιο μεγάλη από μένα.",
+       "en": "My sister is one year older than me."
+      }
+     ]
+    },
+    {
+     "use": "goal or aim",
+     "el": "Πήγα περίπατο.",
+     "en": "I went for a walk."
+    },
+    {
+     "use": "exclamations (addressed person or not)",
+     "el": "την καημένη!",
+     "en": "poor thing! (fem. sg.)"
+    },
+    {
+     "use": "location at / motion to (colloquial; place name without article)",
+     "examples": [
+      {
+       "el": "Θα είμαι [στην] Κόρινθο.",
+       "en": "I'll be in Corinth. (cf. nom. η Κόρινθος)"
+      },
+      {
+       "el": "Πας [στους] Αμπελοκήπους;",
+       "en": "Are you going to Ambelokipi? (cf. nom. οι Αμπελόκηποι)"
+      }
+     ],
+     "note": "the word in square brackets is inserted in less colloquial usage"
+    }
+   ],
+   "source_sections": "3.51"
+  },
+  "genitive": {
+   "section": "3.52",
+   "title": "The use of the genitive",
+   "rule": "A genitive noun phrase either is governed by a verb (most commonly as indirect object) or depends on a noun, where it is roughly the equivalent of English 's or 'of'.",
+   "governed_by_verb": {
+    "section": "3.52.1",
+    "rule": "With a verb, a genitive weak pronoun (rarely a full noun phrase) is normally the indirect object. A noun-phrase indirect object is more usually expressed with σε + accusative (§8.2).",
+    "uses": [
+     {
+      "use": "person to whom something is given or said",
+      "examples": [
+       {
+        "el": "Μου χάρισε ένα κολιέ.",
+        "en": "(S)he gave me a necklace."
+       },
+       {
+        "el": "Της είπα τα νέα.",
+        "en": "I told her the news."
+       },
+       {
+        "el": "Είπα της Μαρίας τα νέα.",
+        "en": "I told Mary the news."
+       }
+      ]
+     },
+     {
+      "use": "person for whom the action is done",
+      "el": "Σου έχω φράουλες σήμερα.",
+      "en": "I've got strawberries for you today."
+     },
+     {
+      "use": "person from whom something is removed",
+      "el": "Του πήραν τα παπούτσια.",
+      "en": "They took the shoes from him / They took his shoes."
+     },
+     {
+      "use": "person affected by the action (possessor-like)",
+      "examples": [
+       {
+        "el": "Του έπεσε το μαντήλι.",
+        "en": "He dropped his handkerchief (lit. to/from him fell the handkerchief)."
+       },
+       {
+        "el": "Μου έσπασε ένα δόντι.",
+        "en": "One of my teeth has broken (δόντι = subject) OR (S)he/it broke one of my teeth (δόντι = direct object)."
+       }
+      ]
+     },
+     {
+      "use": "object of certain verbs with no direct object (αρέσω, πάω, φαίνομαι)",
+      "examples": [
+       {
+        "el": "Δεν μου αρέσει αυτό το κρασί.",
+        "en": "I don't like this wine."
+       },
+       {
+        "el": "Σου πάει αυτό το φόρεμα.",
+        "en": "This dress suits you."
+       },
+       {
+        "el": "Εύκολο μου φαίνεται.",
+        "en": "It looks easy to me."
+       }
+      ]
+     }
+    ]
+   },
+   "depending_on_noun": {
+    "section": "3.52.2",
+    "possessive": {
+     "rule": "A genitive noun phrase or weak pronoun marks the possessor of the noun it depends on. For the article in this construction see §3.54.",
+     "examples": [
+      {
+       "el": "το σπίτι του Κώστα",
+       "en": "Kostas's house"
+      },
+      {
+       "el": "το σπίτι του",
+       "en": "his house"
+      },
+      {
+       "el": "τα κλαδιά των δέντρων",
+       "en": "the branches of the trees"
+      },
+      {
+       "el": "τα κλαδιά τους",
+       "en": "their branches"
+      }
+     ]
+    },
+    "subjective_objective": {
+     "rule": "With abstract nouns the genitive may show a looser relation. Subjective genitive: the genitive is the doer of the action in the noun; objective genitive: the genitive is what the action affects.",
+     "examples": [
+      {
+       "el": "η δημιουργία του Παύλου",
+       "en": "Paul's creation (subjective)"
+      },
+      {
+       "el": "η δημιουργία της κατάστασης αυτής",
+       "en": "the creation of this situation (objective)"
+      }
+     ]
+    },
+    "other_uses": [
+     {
+      "use": "place",
+      "el": "η Μάχη του Μαραθώνα",
+      "en": "the Battle of Marathon"
+     },
+     {
+      "use": "time",
+      "el": "οι Έλληνες του εικοστού πρώτου αιώνα",
+      "en": "the Greeks of the twenty-first century"
+     },
+     {
+      "use": "cause",
+      "el": "η πίκρα του χωρισμού",
+      "en": "the sorrow of parting"
+     },
+     {
+      "use": "purpose",
+      "el": "ένα ποτήρι της μπίρας",
+      "en": "a beer glass"
+     },
+     {
+      "use": "specification",
+      "el": "ένας καθηγητής φιλολογίας",
+      "en": "a literature teacher"
+     },
+     {
+      "use": "street name",
+      "el": "οδός Κοραή",
+      "en": "Korais Street"
+     },
+     {
+      "use": "quality",
+      "examples": [
+       {
+        "el": "σοκολάτα πολυτελείας",
+        "en": "luxury chocolate"
+       },
+       {
+        "el": "άνθρωποι τέτοιου είδους",
+        "en": "people of such a kind"
+       }
+      ]
+     },
+     {
+      "use": "measurement",
+      "el": "ένα παιδί τεσσάρων χρονών",
+      "en": "a four-year-old child"
+     },
+     {
+      "use": "content",
+      "examples": [
+       {
+        "el": "μια σειρά πέντε διαλέξεων",
+        "en": "a series of five lectures"
+       },
+       {
+        "el": "στιγμές ευτυχίας",
+        "en": "moments of happiness"
+       }
+      ]
+     }
+    ]
+   },
+   "depending_on_numeral_adjective_pronoun": {
+    "section": "3.52.3",
+    "rule": "A weak pronoun in the genitive can follow a numeral, certain adjectives or pronouns to narrow the scope ('of us/you/them'). If the dependent item is a full noun phrase rather than a weak pronoun, it takes από + accusative instead (§8.2). The intensive μόνος 'alone' + genitive weak pronoun means 'by oneself' (μόνη μου, §4.9).",
+    "examples": [
+     {
+      "el": "οι τρεις σας",
+      "en": "the three of you"
+     },
+     {
+      "el": "κανένας τους",
+      "en": "none/any of them"
+     },
+     {
+      "el": "ο καθένας μας",
+      "en": "each of us"
+     },
+     {
+      "el": "όλοι μας",
+      "en": "all of us"
+     }
+    ]
+   },
+   "other_uses": {
+    "section": "3.52.4",
+    "rules": [
+     "A genitive weak pronoun may follow a comparative or relative superlative (μεγαλύτερός μου 'older than me'), but μεγαλύτερος από μένα is more usual (§10.22).",
+     "A genitive weak pronoun may depend on exclamatory words in greetings, wishes and other exclamations, showing who the wish is for (§12.3).",
+     "Some colloquial fixed expressions with a genitive noun phrase work as adverbs or adjectives.",
+     "Certain formal prepositions govern the genitive (§8.2).",
+     "A genitive may depend on an omitted noun ('John's [house]')."
+    ],
+    "examples": [
+     {
+      "el": "Καλημέρα σας!",
+      "en": "Good day to you (pl.)!"
+     },
+     {
+      "el": "Μπράβο της!",
+      "en": "Good for her!"
+     },
+     {
+      "el": "Περαστικά του!",
+      "en": "I hope he gets well soon!"
+     },
+     {
+      "el": "Γεια σου / Γεια σας!",
+      "en": "Hello/Goodbye! (sg./pl.)"
+     },
+     {
+      "el": "Δεν βρήκα φόρεμα της προκοπής.",
+      "en": "I didn't find a dress that was any good."
+     },
+     {
+      "el": "Έγινε της κακομοίρας / της τρελής.",
+      "en": "There was a terrible commotion."
+     },
+     {
+      "el": "Η κοντή φούστα είναι της μόδας.",
+      "en": "Short skirts are in fashion."
+     },
+     {
+      "el": "Πήγα στου Γιάννη.",
+      "en": "I went to John's [house]."
+     },
+     {
+      "el": "Αυτό το σπίτι μοιάζει με του Γιάννη.",
+      "en": "This house is like John's [house]."
+     }
+    ]
+   }
+  },
+  "vocative": {
+   "section": "3.53",
+   "title": "The use of the vocative",
+   "rule": "The vocative marks the person or thing being addressed. In familiar speech it may be preceded by μωρέ, ρε or βρε (uninflected; §12.1).",
+   "examples": [
+    {
+     "el": "Έλα, Στέφανε!",
+     "en": "Come on, Stephen!"
+    },
+    {
+     "el": "Δολοφόνε!",
+     "en": "Murderer!"
+    }
+   ]
+  }
+ },
+ "definite_article_use": {
+  "section": "3.54",
+  "title": "The use of the definite article",
+  "rule": "The definite article marks a specific item, much as in English (ο σκύλος 'the dog' vs ένας σκύλος 'a dog'). Forms: §3.6. Greek also uses it in these further cases:",
+  "extra_uses": [
+   {
+    "use": "proper names of specific persons and places (not in the vocative: Μαρία! Κύριε Παπαδόπουλε!)",
+    "examples": [
+     {
+      "el": "η Μαρία",
+      "en": "Mary"
+     },
+     {
+      "el": "ο κύριος Παπαδόπουλος",
+      "en": "Mr Papadopoulos"
+     },
+     {
+      "el": "η Θεσσαλονίκη",
+      "en": "Thessaloniki"
+     }
+    ]
+   },
+   {
+    "use": "noun + possessive: with the article = 'my' etc.; without it = 'of mine'",
+    "examples": [
+     {
+      "el": "ο φίλος μου",
+      "en": "my friend"
+     },
+     {
+      "el": "ένας φίλος μου",
+      "en": "a friend of mine"
+     },
+     {
+      "el": "κάτι φίλοι μου",
+      "en": "some friends of mine"
+     }
+    ]
+   },
+   {
+    "use": "noun with a demonstrative",
+    "el": "αυτό το σπίτι",
+    "en": "this house"
+   },
+   {
+    "use": "with the quantifiers όλος 'all' and ολόκληρος 'whole' (the latter may drop the article)",
+    "examples": [
+     {
+      "el": "όλος ο κόσμος",
+      "en": "everyone"
+     },
+     {
+      "el": "ολόκληρο το χωριό",
+      "en": "the whole village"
+     },
+     {
+      "el": "ολόκληρα χρόνια",
+      "en": "(for) years on end"
+     }
+    ]
+   },
+   {
+    "use": "abstract nouns seen as a definite entity",
+    "el": "Ο φόβος είναι ένστικτο.",
+    "en": "Fear is an instinct."
+   },
+   {
+    "use": "nouns denoting substances",
+    "el": "Ο γρανίτης είναι πολύ σκληρός.",
+    "en": "Granite is very hard."
+   },
+   {
+    "use": "plural nouns and adjectives denoting whole classes; also nouns like ποδόσφαιρο where English has no article",
+    "examples": [
+     {
+      "el": "Οι άντρες αγαπάνε το ποδόσφαιρο.",
+      "en": "Men love football."
+     },
+     {
+      "el": "Αγαπάω τα πουλιά.",
+      "en": "I love birds."
+     },
+     {
+      "el": "Οι νέοι ακούνε συνέχεια μουσική.",
+      "en": "Young people listen to music all the time."
+     }
+    ]
+   },
+   {
+    "use": "days, months, years, seasons, festivals: naming the item (nominative) or, in the accusative, the occasion",
+    "examples": [
+     {
+      "el": "Προτιμώ το Σάββατο.",
+      "en": "I prefer Saturday (cf. ένα Σάββατο 'one Saturday')."
+     },
+     {
+      "el": "Το Σάββατο θα πάμε εκδρομή.",
+      "en": "On Saturday we'll go for an outing."
+     },
+     {
+      "el": "Δεν μου αρέσει ο Φεβρουάριος.",
+      "en": "I don't like February."
+     },
+     {
+      "el": "Τον Φεβρουάριο βρέχει πολύ.",
+      "en": "It rains a lot in February."
+     },
+     {
+      "el": "Το 2001 δεν ήταν καλή χρονιά.",
+      "en": "2001 wasn't a good year."
+     },
+     {
+      "el": "Το 2001 πήγαμε στην Αγγλία.",
+      "en": "We went to England in 2001."
+     },
+     {
+      "el": "Ο περασμένος χειμώνας ήταν πολύ βαρύς.",
+      "en": "Last winter was very harsh."
+     },
+     {
+      "el": "Τον χειμώνα κάνουμε σκι.",
+      "en": "In winter we go skiing."
+     },
+     {
+      "el": "Αγαπώ το ελληνικό Πάσχα.",
+      "en": "I love Greek Easter."
+     },
+     {
+      "el": "Το Πάσχα πήγαμε στην Κρήτη.",
+      "en": "We went to Crete at Easter."
+     }
+    ]
+   },
+   {
+    "use": "dates and times of day",
+    "el": "στις τέσσερις",
+    "en": "on the fourth [of the month]; at four (o'clock)"
+   },
+   {
+    "use": "rates (accusative)",
+    "examples": [
+     {
+      "el": "ενάμισι εκατομμύριο τον μήνα",
+      "en": "one and a half million a month"
+     },
+     {
+      "el": "εκατό χιλιόμετρα την ώρα",
+      "en": "a hundred kilometres an hour"
+     }
+    ]
+   },
+   {
+    "use": "neuter article turns any word or phrase into a noun phrase or noun clause: another part of speech, a word being talked about, or a complement clause (esp. before the main clause)",
+    "examples": [
+     {
+      "el": "Αυτός ποτέ δεν σκέφτεται το αύριο.",
+      "en": "He never thinks about tomorrow (αύριο is normally an adverb)."
+     },
+     {
+      "el": "Πώς γράφεται το «υγεία»;",
+      "en": "How is 'υγεία' spelt?"
+     },
+     {
+      "el": "Το ότι δεν γύρισε ακόμα είναι κακό σημάδι.",
+      "en": "That (s)he hasn't come back yet is a bad sign."
+     },
+     {
+      "el": "Το να λες τέτοια πράγματα είναι δύσκολο.",
+      "en": "To say such things is difficult."
+     }
+    ]
+   },
+   {
+    "use": "article normally repeated before each noun in a coordinated sequence when the first has one",
+    "el": "τα αγόρια και τα κορίτσια",
+    "en": "the boys and girls"
+   }
+  ]
+ },
+ "indefinite_article_use": {
+  "section": "3.55",
+  "title": "The use of the indefinite article",
+  "rule": "ένας, μια, ένα basically means 'one' and can also act as a pronoun like κάποιος 'someone'. It does not always match English 'a/an'. Forms: §3.7.",
+  "examples": [
+   {
+    "el": "Ήρθε ένας και σε ζητούσε.",
+    "en": "Someone came asking for you."
+   },
+   {
+    "el": "Τον δάγκωσε ένας σκύλος.",
+    "en": "A dog bit him."
+   },
+   {
+    "el": "Είδα μια φίλη σου.",
+    "en": "I saw a (female) friend of yours."
+   }
+  ]
+ },
+ "absence_of_article": {
+  "section": "3.56",
+  "title": "Absence of article",
+  "rule": "Greek often has no article where English uses 'a', 'any' or 'some'.",
+  "cases": [
+   {
+    "use": "predicate after είμαι / γίνομαι",
+    "examples": [
+     {
+      "el": "Είναι φιλόλογος.",
+      "en": "(S)he's a literature teacher."
+     },
+     {
+      "el": "Έγινε φιλόλογος.",
+      "en": "(S)he became a literature teacher."
+     }
+    ]
+   },
+   {
+    "use": "after σαν 'like'",
+    "el": "Έτρεμε σαν πουλί.",
+    "en": "(S)he was trembling like a bird."
+   },
+   {
+    "use": "object of a verb when definiteness is not stressed (fixed expressions; questions, negatives, conditionals)",
+    "examples": [
+     {
+      "el": "Φοράει σακάκι.",
+      "en": "(S)he's wearing a jacket."
+     },
+     {
+      "el": "Επιτέλους βρήκα ρολόι.",
+      "en": "At last I've found a watch."
+     },
+     {
+      "el": "Κάνω τηλεφώνημα.",
+      "en": "I'm making a phone call."
+     },
+     {
+      "el": "Έχεις κινητό;",
+      "en": "Have you got a mobile?"
+     },
+     {
+      "el": "Δεν έχω κινητό.",
+      "en": "I haven't got a mobile."
+     },
+     {
+      "el": "Αν είχα κινητό θα τον έπαιρνα.",
+      "en": "If I had a mobile I would call him."
+     },
+     {
+      "el": "Έχεις αδέλφια;",
+      "en": "Have you any brothers and sisters?"
+     },
+     {
+      "el": "Δεν έχω αδέλφια.",
+      "en": "I don't have any brothers and sisters."
+     }
+    ]
+   },
+   {
+    "use": "indefinite subject, esp. in questions, negatives, conditionals",
+    "examples": [
+     {
+      "el": "Υπάρχει γυναίκα που να μην το ξέρει;",
+      "en": "Is there a woman who doesn't know it?"
+     },
+     {
+      "el": "Δεν υπάρχει γυναίκα που να μην το ξέρει.",
+      "en": "There isn't a woman who doesn't know it."
+     },
+     {
+      "el": "Αν με ρωτούσε γυναίκα, θα την έστελνα στη συνάδελφό μου.",
+      "en": "If a woman asked me, I would send her to my (female) colleague."
+     }
+    ]
+   },
+   {
+    "use": "unspecified amount or number ('some')",
+    "examples": [
+     {
+      "el": "Θέλω κρασί.",
+      "en": "I want some wine."
+     },
+     {
+      "el": "Χύθηκε κρασί στο τραπεζομάντιλο.",
+      "en": "Some wine has spilled on the tablecloth."
+     },
+     {
+      "el": "Αγόρασα παπούτσια.",
+      "en": "I bought some shoes."
+     }
+    ]
+   }
+  ]
+ },
+ "adjective_use": {
+  "section": "3.57",
+  "title": "The use of adjectives",
+  "rule": "Adjectives inflect for gender, number and case (forms §3.32-3.47) and modify nouns attributively or predicatively; they agree with the noun in gender, number and case.",
+  "attributive": {
+   "rule": "Normally directly before the noun. After the noun it is emphatic, and if the noun has the definite article the article is repeated before the adjective.",
+   "examples": [
+    {
+     "el": "ένας μαύρος σκύλος",
+     "en": "a black dog"
+    },
+    {
+     "el": "μια μαύρη γάτα",
+     "en": "a black cat"
+    },
+    {
+     "el": "ένας σκύλος μαύρος",
+     "en": "a black dog (as opposed to another colour)"
+    },
+    {
+     "el": "η γάτα η μαύρη",
+     "en": "the black cat (as opposed to cats of another colour)"
+    }
+   ]
+  },
+  "predicative": {
+   "rule": "The adjective refers to the subject or direct object without being in the same phrase and agrees with it. It may refer to a pronoun or an unmentioned item.",
+   "examples": [
+    {
+     "el": "Ο σκύλος είναι μαύρος.",
+     "en": "The dog is black."
+    },
+    {
+     "el": "Αυτή η γάτα είναι μαύρη.",
+     "en": "This cat is black."
+    },
+    {
+     "el": "Ο Γιάννης παντρεύτηκε μικρός.",
+     "en": "John married young."
+    },
+    {
+     "el": "Το άσπρο κρασί πίνεται παγωμένο.",
+     "en": "White wine is drunk chilled."
+    },
+    {
+     "el": "Έβαψα τον τοίχο άσπρο.",
+     "en": "I painted the wall white."
+    },
+    {
+     "el": "Τον έβαψα άσπρο.",
+     "en": "I painted him/it white."
+    },
+    {
+     "el": "Είναι έξυπνη.",
+     "en": "She/it's clever."
+    }
+   ]
+  },
+  "participles": "The passive perfect participle behaves like an adjective, attributively (μια παγωμένη μπίρα 'a chilled beer') and predicatively (§6.16).",
+  "nationality": {
+   "rule": "For nationality Greek uses a noun where English uses an adjective; adjectives are used for non-human things.",
+   "examples": [
+    {
+     "el": "ο Άγγλος πρωθυπουργός / η Αγγλίδα πρωθυπουργός",
+     "en": "the British prime minister"
+    },
+    {
+     "el": "Είμαι Άγγλος. / Είμαι Αγγλίδα.",
+     "en": "I'm British."
+    },
+    {
+     "el": "ο αγγλικός λαός",
+     "en": "the English people"
+    },
+    {
+     "el": "η αγγλική κουζίνα",
+     "en": "English cooking"
+    },
+    {
+     "el": "το αγγλικό χιούμορ",
+     "en": "English humour"
+    }
+   ]
+  },
+  "adjective_as_noun": {
+   "rule": "Adjectives can be used as nouns, also in the singular. Many specific items omit the noun (in brackets).",
+   "examples": [
+    {
+     "el": "ο νέος",
+     "en": "the young man"
+    },
+    {
+     "el": "το δημοτικό [σχολείο]",
+     "en": "primary school"
+    },
+    {
+     "el": "η δημοτική [γλώσσα]",
+     "en": "the demotic language"
+    },
+    {
+     "el": "η ελληνική [γλώσσα]",
+     "en": "Greek (the language)"
+    },
+    {
+     "el": "η Φιλοσοφική [Σχολή]",
+     "en": "the Arts Faculty"
+    },
+    {
+     "el": "ο τελικός [αγώνας]",
+     "en": "the final"
+    },
+    {
+     "el": "το τετραγωνικό [μέτρο]",
+     "en": "square metre"
+    },
+    {
+     "el": "το κυπριακό [ζήτημα]",
+     "en": "the Cyprus question"
+    },
+    {
+     "el": "ο εμφύλιος [πόλεμος]",
+     "en": "the civil war"
+    },
+    {
+     "el": "η λαϊκή [αγορά OR γλώσσα]",
+     "en": "street market OR slang"
+    },
+    {
+     "el": "η πρώτη [παράσταση OR ταχύτητα]",
+     "en": "first performance OR first gear"
+    }
+   ]
+  },
+  "modification": {
+   "adverbs": [
+    {
+     "el": "πολύ καλός",
+     "en": "very good"
+    },
+    {
+     "el": "πιο καλός",
+     "en": "better"
+    },
+    {
+     "el": "λίγο καλύτερος",
+     "en": "a bit better"
+    },
+    {
+     "el": "καθαρά οικονομικός",
+     "en": "purely economic"
+    }
+   ],
+   "genitive_weak_pronoun": {
+    "rule": "Shows possession; γνωστός 'known' regularly takes one for the person it is known to.",
+    "examples": [
+     {
+      "el": "το παλιό μας σπίτι",
+      "en": "our old house (= previous house; cf. το παλιό σπίτι μας 'our house which is old')"
+     },
+     {
+      "el": "μια γνωστή μου καθηγήτρια",
+      "en": "a (female) professor who is an acquaintance of mine"
+     }
+    ]
+   },
+   "complements": {
+    "rule": "Complements may be prepositional phrases or clauses with να or ότι.",
+    "examples": [
+     {
+      "el": "Είναι δυνατή στα μαθηματικά.",
+      "en": "She's good at maths."
+     },
+     {
+      "el": "Είναι ικανός να κάνει αυτή τη δουλειά;",
+      "en": "Is he capable of doing this job?"
+     },
+     {
+      "el": "Δεν είναι σίγουρο ότι θα έρθουν.",
+      "en": "It's not certain (that) they'll come."
+     }
+    ]
+   }
+  }
+ }
+}

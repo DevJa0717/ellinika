@@ -1,0 +1,927 @@
+{
+ "el": "Μετακινήσεις: δρόμοι, εισιτήρια, ώρες",
+ "title": "Getting around: directions, transport, times",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "The grammar of finding your way",
+   "text": "**1. σε + article = 'to' and 'at'.** Greek does not separate motion from location: **Πάω στο** Σύνταγμα 'I'm going to Syntagma', **Είμαι στο** Σύνταγμα 'I'm at Syntagma'. σε fuses with the accusative article: **στον** Πειραιά (ο), **στη(ν)** Θεσσαλονίκη (η), **στο** λιμάνι (το), **στους / στις / στα**. Destinations on tickets often drop the article: **ένα εισιτήριο για Πάτρα**.\n\n**2. Place words + σε / από, always accusative.** **δίπλα στο** φαρμακείο, **κοντά στον** σταθμό, **απέναντι από την** εκκλησία, **μπροστά από / στο** μουσείο, **πίσω από το** ξενοδοχείο, **μέχρι το** φανάρι, **μετά το** περίπτερο. Only 'at the end / beginning **of**' needs a genitive: στο τέλος **του δρόμου**. Transport is **με + article**: με το λεωφορείο, με το μετρό, **με τα πόδια** 'on foot'.\n\n**3. Directions come in three moods.** Polite imperative: **Στρίψτε** δεξιά, **κατεβείτε** στην τρίτη στάση. Future with θα, very common and softer: **Θα πάτε** ευθεία και **θα στρίψετε** αριστερά. Or simple present: **Πάτε** ευθεία, **στρίβετε** στο φανάρι. Prohibitions: **μην** + subjunctive: **Μην κατεβείτε** εδώ.\n\n**4. Times are feminine.** ώρα is understood, so **στη μία**, **στις τρεις**, **στις τέσσερις**, but **στις δύο, πέντε, έξι**... Then **και τέταρτο**, **και μισή** (or **-μισι**: στις εφτάμισι), **παρά τέταρτο**, **και είκοσι**, **παρά δέκα**. Duration: **Πόση ώρα κάνει;** – **Κάνει μιάμιση ώρα.** 'In ten minutes' = **σε δέκα λεπτά**; 'every' = **κάθε**."
+  },
+  {
+   "type": "table",
+   "title": "Where things are (all accusative)",
+   "head": [
+    "English",
+    "Greek",
+    "Example"
+   ],
+   "rows": [
+    [
+     "next to",
+     "**δίπλα σε**",
+     "δίπλα **στο** φαρμακείο"
+    ],
+    [
+     "near",
+     "**κοντά σε**",
+     "κοντά **στον** σταθμό"
+    ],
+    [
+     "opposite",
+     "**απέναντι από** (also απέναντι σε)",
+     "απέναντι **από την** εκκλησία"
+    ],
+    [
+     "in front of",
+     "**μπροστά από / σε**",
+     "μπροστά **από το** μουσείο"
+    ],
+    [
+     "behind",
+     "**πίσω από**",
+     "πίσω **από το** ξενοδοχείο"
+    ],
+    [
+     "as far as, up to",
+     "**μέχρι** (also **ως**)",
+     "μέχρι **το** φανάρι · ως **τη** γωνία"
+    ],
+    [
+     "after, past",
+     "**μετά**",
+     "μετά **το** περίπτερο"
+    ],
+    [
+     "between",
+     "**ανάμεσα σε … και σε**",
+     "ανάμεσα **στην** τράπεζα και **στον** φούρνο"
+    ],
+    [
+     "at the corner",
+     "**στη γωνία**",
+     "στη γωνία Ερμού και Αιόλου"
+    ],
+    [
+     "at the end of",
+     "**στο τέλος** + genitive",
+     "στο τέλος **του δρόμου**"
+    ],
+    [
+     "by bus / metro / on foot",
+     "**με** + article",
+     "με **το** λεωφορείο · με **τα** πόδια"
+    ],
+    [
+     "via, through",
+     "**από**",
+     "Περάστε **από την** πλατεία."
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Imperatives you hear in directions",
+   "head": [
+    "Verb",
+    "εσύ",
+    "εσείς (polite)",
+    "Don't… (polite)"
+   ],
+   "rows": [
+    [
+     "πηγαίνω / πάω 'go'",
+     "πήγαινε",
+     "πηγαίνετε · πάτε",
+     "μην πάτε"
+    ],
+    [
+     "στρίβω 'turn'",
+     "στρίψε",
+     "στρίψτε",
+     "μη στρίψετε"
+    ],
+    [
+     "συνεχίζω 'carry on'",
+     "συνέχισε",
+     "συνεχίστε",
+     "μη συνεχίσετε"
+    ],
+    [
+     "περνάω 'cross, pass'",
+     "πέρασε",
+     "περάστε",
+     "μην περάσετε"
+    ],
+    [
+     "παίρνω 'take'",
+     "πάρε",
+     "πάρτε",
+     "μην πάρετε"
+    ],
+    [
+     "κατεβαίνω 'get off, go down'",
+     "κατέβα",
+     "κατεβείτε",
+     "μην κατεβείτε"
+    ],
+    [
+     "ανεβαίνω 'get on, go up'",
+     "ανέβα",
+     "ανεβείτε",
+     "μην ανεβείτε"
+    ],
+    [
+     "βγαίνω 'go out, exit'",
+     "βγες",
+     "βγείτε",
+     "μη βγείτε"
+    ],
+    [
+     "αλλάζω 'change'",
+     "άλλαξε",
+     "αλλάξτε",
+     "μην αλλάξετε"
+    ],
+    [
+     "σταματάω 'stop'",
+     "σταμάτα · σταμάτησε",
+     "σταματήστε",
+     "μη σταματήσετε"
+    ],
+    [
+     "ρωτάω 'ask'",
+     "ρώτα · ρώτησε",
+     "ρωτήστε",
+     "μη ρωτήσετε"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Clock times and durations",
+   "head": [
+    "Time",
+    "Greek",
+    "Note"
+   ],
+   "rows": [
+    [
+     "1:00",
+     "**στη μία**",
+     "feminine: μία (ώρα)"
+    ],
+    [
+     "3:00 · 4:00",
+     "**στις τρεις** · **στις τέσσερις**",
+     "never *τρία, τέσσερα* for times"
+    ],
+    [
+     "4:15",
+     "στις τέσσερις **και τέταρτο**",
+     ""
+    ],
+    [
+     "7:30",
+     "στις **εφτάμισι** · στις εφτά **και μισή**",
+     "μισή agrees with ώρα"
+    ],
+    [
+     "8:45",
+     "στις εννιά **παρά τέταρτο**",
+     "παρά = 'to'"
+    ],
+    [
+     "9:20 · 10:50",
+     "στις εννιά **και είκοσι** · στις έντεκα **παρά δέκα**",
+     ""
+    ],
+    [
+     "21:40 (timetable)",
+     "στις **είκοσι μία και σαράντα**",
+     "stations and ports use the 24-hour clock"
+    ],
+    [
+     "in ten minutes",
+     "**σε** δέκα λεπτά",
+     "σε + time = 'in'"
+    ],
+    [
+     "every twenty minutes",
+     "**κάθε** είκοσι λεπτά",
+     ""
+    ],
+    [
+     "It takes an hour and a half.",
+     "**Κάνει** μιάμιση ώρα.",
+     "Πόση ώρα κάνει; asks 'how long?'"
+    ],
+    [
+     "How far is it?",
+     "**Πόσο απέχει;** – Απέχει δύο χιλιόμετρα.",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Street, station, port, taxi",
+   "head": [
+    "What you say",
+    "What you hear",
+    "Meaning"
+   ],
+   "rows": [
+    [
+     "Συγγνώμη, **πώς πάω στο** Μοναστηράκι;",
+     "Είναι **δύο βήματα** από εδώ.",
+     "Excuse me, how do I get to Monastiraki? · It's a stone's throw (lit. two steps) from here."
+    ],
+    [
+     "**Είναι μακριά;** Μπορώ να πάω **με τα πόδια**;",
+     "Είναι λίγο μακριά, **πάρτε καλύτερα** ταξί.",
+     "Is it far? Can I walk? · It's a bit far, better take a taxi."
+    ],
+    [
+     "**Ποιο λεωφορείο πάει** στο αεροδρόμιο;",
+     "**Θα αλλάξετε** στο Σύνταγμα.",
+     "Which bus goes to the airport? · You'll change at Syntagma."
+    ],
+    [
+     "**Θα μου πείτε πού να κατέβω;**",
+     "**Επικυρώστε** το εισιτήριο.",
+     "Will you tell me where to get off? · Validate your ticket."
+    ],
+    [
+     "**Ένα εισιτήριο για** Νάξο, παρακαλώ.",
+     "**Απλό ή μετ' επιστροφής;**",
+     "A ticket to Naxos, please. · Single or return?"
+    ],
+    [
+     "**Τι ώρα φεύγει** το πλοίο;",
+     "Το πλοίο έχει **καθυστέρηση** μίας ώρας.",
+     "What time does the boat leave? · The boat is an hour late."
+    ],
+    [
+     "",
+     "**Λόγω απαγορευτικού** το δρομολόγιο **ακυρώνεται**.",
+     "Because of the sailing ban the crossing is cancelled."
+    ],
+    [
+     "**Στο αεροδρόμιο**, παρακαλώ.",
+     "**Πού πάμε;**",
+     "To the airport, please. · Where to? (taxi driver)"
+    ],
+    [
+     "**Σταματήστε εδώ**, παρακαλώ.",
+     "**Από πού θέλετε να πάμε;**",
+     "Stop here, please. · Which way do you want to go?"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 1 · Asking the way",
+   "items": [
+    {
+     "el": "Τουρίστρια: Συγγνώμη, πώς μπορώ να πάω στο Μουσείο της Ακρόπολης;",
+     "en": "Tourist: Excuse me, how can I get to the Acropolis Museum?"
+    },
+    {
+     "el": "Κύριος: Με τα πόδια είναι δέκα λεπτά. Θα πάτε ευθεία μέχρι το φανάρι.",
+     "en": "Man: On foot it's ten minutes. You go straight on as far as the traffic light."
+    },
+    {
+     "el": "Τουρίστρια: Μέχρι το φανάρι...",
+     "en": "Tourist: As far as the traffic light..."
+    },
+    {
+     "el": "Κύριος: Εκεί θα στρίψετε δεξιά και θα συνεχίσετε μέχρι την πλατεία.",
+     "en": "Man: There you turn right and carry on as far as the square."
+    },
+    {
+     "el": "Τουρίστρια: Και μετά;",
+     "en": "Tourist: And then?"
+    },
+    {
+     "el": "Κύριος: Περάστε την πλατεία. Το μουσείο είναι απέναντι από τη στάση του μετρό.",
+     "en": "Man: Cross the square. The museum is opposite the metro station."
+    },
+    {
+     "el": "Τουρίστρια: Ευχαριστώ πολύ!",
+     "en": "Tourist: Thank you very much!"
+    },
+    {
+     "el": "Κύριος: Τίποτα. Καλή βόλτα!",
+     "en": "Man: Not at all. Enjoy your walk!"
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 2 · Bus and metro",
+   "items": [
+    {
+     "el": "Μαρκ: Καλημέρα. Ποιο λεωφορείο πάει στον Πειραιά;",
+     "en": "Mark: Good morning. Which bus goes to Piraeus?"
+    },
+    {
+     "el": "Υπάλληλος: Καλύτερα πάρτε το μετρό, την πράσινη γραμμή. Είναι πιο γρήγορο.",
+     "en": "Clerk: Better take the metro, the green line. It's quicker."
+    },
+    {
+     "el": "Μαρκ: Πόση ώρα κάνει;",
+     "en": "Mark: How long does it take?"
+    },
+    {
+     "el": "Υπάλληλος: Περίπου είκοσι πέντε λεπτά από το Μοναστηράκι.",
+     "en": "Clerk: About twenty-five minutes from Monastiraki."
+    },
+    {
+     "el": "Μαρκ: Και κάθε πότε περνάει;",
+     "en": "Mark: And how often does it come?"
+    },
+    {
+     "el": "Υπάλληλος: Κάθε πέντε με δέκα λεπτά. Μην ξεχάσετε να επικυρώσετε το εισιτήριο.",
+     "en": "Clerk: Every five to ten minutes. Don't forget to validate your ticket."
+    },
+    {
+     "el": "Μαρκ: Και στο λιμάνι πού να κατέβω;",
+     "en": "Mark: And at the port, where should I get off?"
+    },
+    {
+     "el": "Υπάλληλος: Στην τελευταία στάση, στον Πειραιά. Θα βγείτε ακριβώς απέναντι από το λιμάνι.",
+     "en": "Clerk: At the last stop, Piraeus. You'll come out right opposite the port."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 3 · Ferry ticket and taxi",
+   "items": [
+    {
+     "el": "Μαρκ: Ένα εισιτήριο για Νάξο για αύριο, παρακαλώ.",
+     "en": "Mark: A ticket to Naxos for tomorrow, please."
+    },
+    {
+     "el": "Πράκτορας: Απλό ή μετ' επιστροφής;",
+     "en": "Agent: Single or return?"
+    },
+    {
+     "el": "Μαρκ: Απλό. Τι ώρα φεύγει το πρώτο πλοίο;",
+     "en": "Mark: Single. What time does the first boat leave?"
+    },
+    {
+     "el": "Πράκτορας: Στις εφτάμισι από την πύλη Ε7. Φτάνει στη μία παρά τέταρτο.",
+     "en": "Agent: At half past seven from gate E7. It arrives at a quarter to one."
+    },
+    {
+     "el": "Μαρκ: Κατάστρωμα, παρακαλώ. Πόσο κάνει;",
+     "en": "Mark: Deck class, please. How much is it?"
+    },
+    {
+     "el": "Πράκτορας: Σαράντα δύο ευρώ. Να είστε στο λιμάνι μισή ώρα νωρίτερα.",
+     "en": "Agent: Forty-two euros. Be at the port half an hour early."
+    },
+    {
+     "el": "Οδηγός ταξί: Πού πάμε;",
+     "en": "Taxi driver: Where to?"
+    },
+    {
+     "el": "Μαρκ: Στο λιμάνι, στην πύλη Ε7. Πόσο θα κοστίσει περίπου;",
+     "en": "Mark: To the port, gate E7. Roughly how much will it cost?"
+    },
+    {
+     "el": "Οδηγός ταξί: Με την κίνηση, γύρω στα είκοσι ευρώ.",
+     "en": "Taxi driver: With the traffic, around twenty euros."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes.** *στο Πειραιά* → **στον Πειραιά** (ο Πειραιάς is masculine). *δίπλα το φαρμακείο* → **δίπλα στο** φαρμακείο; *απέναντι το* → **απέναντι από το**. *στις μία* → **στη μία**; *στις τρία* → **στις τρεις**. To a stranger, *Κατέβα!* is too familiar: **Κατεβείτε**. *με πόδια* → **με τα πόδια**. Don't confuse **Τι ώρα;** 'what time?', **Πόση ώρα;** 'how long?' and **Πόσο κάνει;** 'how much?'. In **Θα μου πείτε πού να κατέβω;** the να-clause is a real question: 'where should I get off?'."
+  },
+  {
+   "type": "culture",
+   "title": "Ferries, the μελτέμι and the απαγορευτικό",
+   "text": "In July and August the dry north wind of the Aegean, the **μελτέμι**, can blow for days. When the wind gets too strong (Greeks measure it in **μποφόρ**, Beaufort), the coast guard issues an **απαγορευτικό (απόπλου)**, a ban on sailing, and ferries stay in port: you will hear **«Λόγω απαγορευτικού το δρομολόγιο ακυρώνεται»**. Islanders plan around it and check the forecast before every trip. In Piraeus, ferries leave from numbered **πύλες** (gates E1 to E12), so the gate on your ticket matters as much as the time. The cheapest ticket is **κατάστρωμα**, 'deck class'."
+  },
+  {
+   "type": "reading",
+   "title": "Πρώτη μέρα στην Αθήνα",
+   "text": "Η Σάρα φτάνει στο αεροδρόμιο της Αθήνας στις έντεκα και μισή το πρωί. Το ξενοδοχείο της είναι στο Μοναστηράκι. Παίρνει το μετρό, γιατί το ταξί είναι ακριβό.\n\nΣτο εκδοτήριο ρωτάει: «Ένα εισιτήριο για Μοναστηράκι, παρακαλώ. Πρέπει να αλλάξω γραμμή;» Η υπάλληλος τής εξηγεί: «Όχι, η μπλε γραμμή πάει κατευθείαν. Θα κατεβείτε στη στάση μετά το Σύνταγμα. Το επόμενο τρένο φεύγει σε δέκα λεπτά.»\n\nΤο ταξίδι κάνει περίπου σαράντα λεπτά. Η Σάρα κοιτάζει από το παράθυρο και μετράει τις στάσεις. Στο Μοναστηράκι η Σάρα βγαίνει στην πλατεία, αλλά δεν βρίσκει τον δρόμο. Ρωτάει έναν κύριο δίπλα σε ένα περίπτερο.\n\n«Η οδός Αιόλου; Είναι δύο βήματα από εδώ», λέει ο κύριος. «Πηγαίνετε ευθεία μέχρι το φανάρι, στρίψτε αριστερά και συνεχίστε μέχρι την εκκλησία. Το ξενοδοχείο είναι απέναντι από την εκκλησία, δίπλα σε έναν φούρνο. Μην περάσετε τον δρόμο πριν από το φανάρι, έχει πολλή κίνηση.»\n\nΗ Σάρα τον ευχαριστεί. Σε πέντε λεπτά είναι στο ξενοδοχείο, κουρασμένη αλλά χαρούμενη.",
+   "en": "Sarah arrives at Athens airport at half past eleven in the morning. Her hotel is in Monastiraki. She takes the metro, because a taxi is expensive.\n\nAt the ticket office she asks: 'A ticket to Monastiraki, please. Do I have to change lines?' The clerk explains: 'No, the blue line goes direct. You get off at the stop after Syntagma. The next train leaves in ten minutes.'\n\nThe journey takes about forty minutes. Sarah looks out of the window and counts the stops. At Monastiraki Sarah comes out into the square, but she can't find the way. She asks a man next to a kiosk.\n\n'Aiolou Street? It's a stone's throw from here,' the man says. 'Go straight on as far as the traffic light, turn left and carry on as far as the church. The hotel is opposite the church, next to a bakery. Don't cross the road before the traffic light, there's a lot of traffic.'\n\nSarah thanks him. Five minutes later she is at the hotel, tired but happy.",
+   "gloss": {
+    "Σάρα": "Σάρα — Sarah (woman's name)",
+    "Μοναστηράκι": "Μοναστηράκι — Monastiraki (square and metro station in Athens)",
+    "εκδοτήριο": "εκδοτήριο — ticket office",
+    "κατευθείαν": "κατευθείαν — directly, straight",
+    "Σύνταγμα": "Σύνταγμα — Syntagma (Constitution Square, Athens)",
+    "περίπτερο": "περίπτερο — kiosk",
+    "Αιόλου": "Αίολος — Aeolus; οδός Αιόλου = Aiolou Street (genitive)",
+    "βήματα": "βήμα — step; δύο βήματα = very close",
+    "φούρνο": "φούρνος — bakery; oven",
+    "Μην": "μην — don't (with the subjunctive)",
+    "περάσετε": "περνάω — to cross, to pass (perfective, 2pl)",
+    "στρίψτε": "στρίβω — to turn (imperative, 2pl)",
+    "συνεχίστε": "συνεχίζω — to continue (imperative, 2pl)",
+    "κατεβείτε": "κατεβαίνω — to get off, go down (perfective, 2pl)"
+   },
+   "questions": [
+    {
+     "prompt": "Γιατί η Σάρα δεν παίρνει ταξί;",
+     "answer": "Γιατί είναι ακριβό",
+     "options": [
+      "Γιατί είναι ακριβό",
+      "Γιατί δεν υπάρχουν ταξί",
+      "Γιατί είναι αργό"
+     ]
+    },
+    {
+     "prompt": "Πρέπει να αλλάξει γραμμή;",
+     "answer": "Όχι, η γραμμή πάει κατευθείαν",
+     "options": [
+      "Όχι, η γραμμή πάει κατευθείαν",
+      "Ναι, στο Σύνταγμα",
+      "Ναι, στο Μοναστηράκι"
+     ]
+    },
+    {
+     "prompt": "Πού είναι το ξενοδοχείο;",
+     "answer": "Απέναντι από την εκκλησία",
+     "options": [
+      "Απέναντι από την εκκλησία",
+      "Δίπλα στο περίπτερο",
+      "Στη γωνία με το φανάρι"
+     ]
+    },
+    {
+     "prompt": "Τι δεν πρέπει να κάνει η Σάρα;",
+     "answer": "Να περάσει τον δρόμο πριν από το φανάρι",
+     "options": [
+      "Να περάσει τον δρόμο πριν από το φανάρι",
+      "Να στρίψει αριστερά",
+      "Να πάει με τα πόδια"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Ask: *Excuse me, how do I get to Syntagma?*",
+     "answer": "Συγγνώμη, πώς πάω στο Σύνταγμα;",
+     "accept": [
+      "Συγγνώμη, πώς πάω στο Σύνταγμα;",
+      "Συγγνώμη, πώς μπορώ να πάω στο Σύνταγμα;",
+      "Συγγνώμη, πώς πηγαίνω στο Σύνταγμα;",
+      "Πώς πάω στο Σύνταγμα;",
+      "Πώς μπορώ να πάω στο Σύνταγμα;",
+      "Πώς πηγαίνω στο Σύνταγμα;"
+     ],
+     "why": "σε + article for destinations: στο Σύνταγμα."
+    },
+    {
+     "prompt": "Ask: *Is it far?*",
+     "answer": "Είναι μακριά;",
+     "accept": [
+      "Είναι μακριά;"
+     ],
+     "why": "μακριά = far; κοντά = near."
+    },
+    {
+     "prompt": "Ask: *Can I walk there?*",
+     "answer": "Μπορώ να πάω με τα πόδια;",
+     "accept": [
+      "Μπορώ να πάω με τα πόδια;"
+     ],
+     "why": "'On foot' = με τα πόδια, with the article."
+    },
+    {
+     "prompt": "Polite: *Go straight on.*",
+     "answer": "Πηγαίνετε ευθεία.",
+     "accept": [
+      "Πηγαίνετε ευθεία.",
+      "Πηγαίνετε ίσια.",
+      "Πάτε ευθεία.",
+      "Πάτε ίσια.",
+      "Προχωρήστε ευθεία.",
+      "Προχωρήστε ίσια.",
+      "Συνεχίστε ευθεία.",
+      "Συνεχίστε ίσια."
+     ],
+     "why": "πηγαίνετε (or colloquial πάτε) + ευθεία / ίσια."
+    },
+    {
+     "prompt": "Polite: *Turn right at the traffic light.*",
+     "answer": "Στρίψτε δεξιά στο φανάρι.",
+     "accept": [
+      "Στρίψτε δεξιά στο φανάρι.",
+      "Στο φανάρι στρίψτε δεξιά."
+     ],
+     "why": "Perfective imperative στρίψτε (aorist έστριψα)."
+    },
+    {
+     "prompt": "To a friend: *Turn left after the kiosk.*",
+     "answer": "Στρίψε αριστερά μετά το περίπτερο.",
+     "accept": [
+      "Στρίψε αριστερά μετά το περίπτερο.",
+      "Μετά το περίπτερο στρίψε αριστερά."
+     ],
+     "why": "εσύ imperative στρίψε; μετά + accusative."
+    },
+    {
+     "prompt": "Polite: *Cross the road.*",
+     "answer": "Περάστε τον δρόμο.",
+     "accept": [
+      "Περάστε τον δρόμο.",
+      "Περάστε το δρόμο."
+     ],
+     "why": "περνάω → perfective imperative περάστε; ο δρόμος → τον δρόμο."
+    },
+    {
+     "prompt": "Polite: *Get off at the third stop.*",
+     "answer": "Κατεβείτε στην τρίτη στάση.",
+     "accept": [
+      "Κατεβείτε στην τρίτη στάση.",
+      "Στην τρίτη στάση κατεβείτε."
+     ],
+     "why": "κατεβαίνω → κατεβείτε; η στάση → στην τρίτη στάση."
+    },
+    {
+     "prompt": "To a friend: *Get off here!*",
+     "answer": "Κατέβα εδώ!",
+     "accept": [
+      "Κατέβα εδώ!"
+     ],
+     "why": "εσύ imperative of κατεβαίνω: κατέβα."
+    },
+    {
+     "prompt": "Polite: *Don't get off here.*",
+     "answer": "Μην κατεβείτε εδώ.",
+     "accept": [
+      "Μην κατεβείτε εδώ."
+     ],
+     "why": "μην + perfective subjunctive for a single prohibition."
+    },
+    {
+     "prompt": "Polite: *Take the metro.*",
+     "answer": "Πάρτε το μετρό.",
+     "accept": [
+      "Πάρτε το μετρό."
+     ],
+     "why": "παίρνω → πάρτε."
+    },
+    {
+     "prompt": "Polite: *Change at Syntagma.*",
+     "answer": "Αλλάξτε στο Σύνταγμα.",
+     "accept": [
+      "Αλλάξτε στο Σύνταγμα.",
+      "Αλλάξτε γραμμή στο Σύνταγμα."
+     ],
+     "why": "αλλάζω → αλλάξτε."
+    },
+    {
+     "prompt": "Give directions with θα (polite): *You'll go straight on and turn left.*",
+     "answer": "Θα πάτε ευθεία και θα στρίψετε αριστερά.",
+     "accept": [
+      "Θα πάτε ευθεία και θα στρίψετε αριστερά.",
+      "Θα πάτε ίσια και θα στρίψετε αριστερά."
+     ],
+     "why": "θα + perfective is a soft way to give directions."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "___ μία",
+     "answer": "στη",
+     "options": [
+      "στη",
+      "στις",
+      "στο"
+     ],
+     "why": "μία (ώρα) is feminine singular: στη μία."
+    },
+    {
+     "prompt": "Ο σταθμός είναι κοντά ___ λιμάνι.",
+     "answer": "στο",
+     "options": [
+      "στο",
+      "το",
+      "από το"
+     ],
+     "why": "κοντά σε + accusative: στο."
+    },
+    {
+     "prompt": "You want the departure time:",
+     "answer": "Τι ώρα φεύγει;",
+     "options": [
+      "Τι ώρα φεύγει;",
+      "Πόση ώρα κάνει;",
+      "Πόσο κάνει;"
+     ],
+     "why": "Τι ώρα = what time; Πόση ώρα = how long; Πόσο = how much."
+    },
+    {
+     "prompt": "«Πόσο κάνει το εισιτήριο;» asks about…",
+     "answer": "the price",
+     "options": [
+      "the price",
+      "the journey time",
+      "the departure"
+     ],
+     "why": "Πόσο κάνει; = how much is it?"
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say: *next to the pharmacy*",
+     "answer": "δίπλα στο φαρμακείο",
+     "accept": [
+      "δίπλα στο φαρμακείο"
+     ],
+     "why": "δίπλα σε + accusative: στο."
+    },
+    {
+     "prompt": "Say: *opposite the church*",
+     "answer": "απέναντι από την εκκλησία",
+     "accept": [
+      "απέναντι από την εκκλησία",
+      "απέναντι στην εκκλησία"
+     ],
+     "why": "απέναντι από (or σε) + accusative."
+    },
+    {
+     "prompt": "Say: *in front of the museum*",
+     "answer": "μπροστά από το μουσείο",
+     "accept": [
+      "μπροστά από το μουσείο",
+      "μπροστά στο μουσείο"
+     ],
+     "why": "μπροστά από or μπροστά σε, + accusative."
+    },
+    {
+     "prompt": "Say: *behind the hotel*",
+     "answer": "πίσω από το ξενοδοχείο",
+     "accept": [
+      "πίσω από το ξενοδοχείο"
+     ],
+     "why": "πίσω από + accusative."
+    },
+    {
+     "prompt": "Say: *near the station* (ο σταθμός)",
+     "answer": "κοντά στον σταθμό",
+     "accept": [
+      "κοντά στον σταθμό",
+      "κοντά στο σταθμό"
+     ],
+     "why": "σε + masculine article: στον."
+    },
+    {
+     "prompt": "Say: *as far as the traffic light*",
+     "answer": "μέχρι το φανάρι",
+     "accept": [
+      "μέχρι το φανάρι",
+      "ως το φανάρι",
+      "έως το φανάρι"
+     ],
+     "why": "μέχρι takes a bare accusative (no σε)."
+    },
+    {
+     "prompt": "Say: *at the end of the street*",
+     "answer": "στο τέλος του δρόμου",
+     "accept": [
+      "στο τέλος του δρόμου"
+     ],
+     "why": "'of' here is a genitive: του δρόμου."
+    },
+    {
+     "prompt": "Say: *by bus*",
+     "answer": "με το λεωφορείο",
+     "accept": [
+      "με το λεωφορείο"
+     ],
+     "why": "με + article for transport."
+    },
+    {
+     "prompt": "Say: *We're going to Piraeus.*",
+     "answer": "Πάμε στον Πειραιά.",
+     "accept": [
+      "Πάμε στον Πειραιά.",
+      "Πηγαίνουμε στον Πειραιά."
+     ],
+     "why": "ο Πειραιάς is masculine: στον Πειραιά."
+    },
+    {
+     "prompt": "Say: *A ticket to Naxos, please.*",
+     "answer": "Ένα εισιτήριο για Νάξο, παρακαλώ.",
+     "accept": [
+      "Ένα εισιτήριο για Νάξο, παρακαλώ.",
+      "Ένα εισιτήριο για τη Νάξο, παρακαλώ.",
+      "Ένα εισιτήριο για τη Νάξο.",
+      "Ένα εισιτήριο για Νάξο."
+     ],
+     "why": "για + destination, usually without an article on tickets."
+    },
+    {
+     "prompt": "Say: *A return ticket, please.*",
+     "answer": "Ένα εισιτήριο μετ' επιστροφής, παρακαλώ.",
+     "accept": [
+      "Ένα εισιτήριο μετ' επιστροφής, παρακαλώ.",
+      "Ένα εισιτήριο μετ' επιστροφής.",
+      "εισιτήριο μετ' επιστροφής, παρακαλώ.",
+      "εισιτήριο μετ' επιστροφής.",
+      "Ένα μετ' επιστροφής, παρακαλώ.",
+      "Ένα μετ' επιστροφής.",
+      "μετ' επιστροφής, παρακαλώ.",
+      "μετ' επιστροφής."
+     ],
+     "why": "μετ' επιστροφής = return; απλό = single."
+    },
+    {
+     "prompt": "Ask: *What time does the boat leave?*",
+     "answer": "Τι ώρα φεύγει το πλοίο;",
+     "accept": [
+      "Τι ώρα φεύγει το πλοίο;"
+     ],
+     "why": "Τι ώρα = at what time."
+    },
+    {
+     "prompt": "Ask: *How long does it take?*",
+     "answer": "Πόση ώρα κάνει;",
+     "accept": [
+      "Πόση ώρα κάνει;",
+      "Πόση ώρα κάνει το ταξίδι;",
+      "Πόση ώρα κάνει η διαδρομή;",
+      "Σε πόση ώρα φτάνει;"
+     ],
+     "why": "Πόση ώρα = how long; κάνει = it takes."
+    },
+    {
+     "prompt": "Say: *at one o'clock*",
+     "answer": "στη μία",
+     "accept": [
+      "στη μία",
+      "στη μια"
+     ],
+     "why": "Times are feminine (ώρα): μία, and a single article στη."
+    },
+    {
+     "prompt": "Say: *at a quarter to nine*",
+     "answer": "στις εννιά παρά τέταρτο",
+     "accept": [
+      "στις εννιά παρά τέταρτο",
+      "στις εννέα παρά τέταρτο"
+     ],
+     "why": "παρά = 'to'."
+    },
+    {
+     "prompt": "Say: *at half past seven*",
+     "answer": "στις εφτάμισι",
+     "accept": [
+      "στις εφτάμισι",
+      "στις επτάμισι",
+      "στις εφτά και μισή",
+      "στις επτά και μισή"
+     ],
+     "why": "-μισι, or και μισή (agreeing with ώρα)."
+    },
+    {
+     "prompt": "Say: *at four fifteen*",
+     "answer": "στις τέσσερις και τέταρτο",
+     "accept": [
+      "στις τέσσερις και τέταρτο"
+     ],
+     "why": "Feminine τέσσερις for times."
+    },
+    {
+     "prompt": "Say: *in ten minutes*",
+     "answer": "σε δέκα λεπτά",
+     "accept": [
+      "σε δέκα λεπτά"
+     ],
+     "why": "σε + period = 'in' (after that time)."
+    },
+    {
+     "prompt": "Say: *every twenty minutes*",
+     "answer": "κάθε είκοσι λεπτά",
+     "accept": [
+      "κάθε είκοσι λεπτά"
+     ],
+     "why": "κάθε never changes."
+    },
+    {
+     "prompt": "In a taxi: *To the airport, please.*",
+     "answer": "Στο αεροδρόμιο, παρακαλώ.",
+     "accept": [
+      "Στο αεροδρόμιο, παρακαλώ."
+     ],
+     "why": "Just σε + destination."
+    },
+    {
+     "prompt": "In a taxi (polite): *Stop here, please.*",
+     "answer": "Σταματήστε εδώ, παρακαλώ.",
+     "accept": [
+      "Σταματήστε εδώ, παρακαλώ.",
+      "Σταματήστε εδώ."
+     ],
+     "why": "σταματάω → σταματήστε."
+    },
+    {
+     "prompt": "On the bus: *Will you tell me where to get off?*",
+     "answer": "Θα μου πείτε πού να κατέβω;",
+     "accept": [
+      "Θα μου πείτε πού να κατέβω;",
+      "Μου λέτε πού να κατέβω;",
+      "Μπορείτε να μου πείτε πού να κατέβω;"
+     ],
+     "why": "Indirect question with να: πού να κατέβω 'where I should get off'."
+    },
+    {
+     "prompt": "Ask: *Which bus goes to the airport?*",
+     "answer": "Ποιο λεωφορείο πάει στο αεροδρόμιο;",
+     "accept": [
+      "Ποιο λεωφορείο πάει στο αεροδρόμιο;"
+     ],
+     "why": "ποιο agrees with neuter λεωφορείο."
+    },
+    {
+     "prompt": "Say: *I'm lost.*",
+     "answer": "Χάθηκα.",
+     "accept": [
+      "Χάθηκα.",
+      "Έχω χαθεί."
+     ],
+     "why": "Greek uses the simple past of χάνομαι for 'I'm lost'."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "To an older stranger on the bus: 'Get off at the next stop.'",
+     "answer": "Κατεβείτε στην επόμενη στάση.",
+     "options": [
+      "Κατεβείτε στην επόμενη στάση.",
+      "Κατέβα στην επόμενη στάση.",
+      "Κατεβαίνεις στην επόμενη στάση."
+     ],
+     "why": "Strangers get the polite plural imperative."
+    },
+    {
+     "prompt": "«Λόγω απαγορευτικού το δρομολόγιο ακυρώνεται.»",
+     "answer": "The crossing is cancelled because of a sailing ban.",
+     "options": [
+      "The crossing is cancelled because of a sailing ban.",
+      "The ship is full.",
+      "Your ticket is not valid on this route."
+     ],
+     "why": "απαγορευτικό (απόπλου) = sailing ban in strong wind."
+    },
+    {
+     "prompt": "«Επικυρώστε το εισιτήριο.»",
+     "answer": "Validate the ticket.",
+     "options": [
+      "Validate the ticket.",
+      "Buy a ticket.",
+      "Show your ticket."
+     ],
+     "why": "επικυρώνω = validate (in the machine)."
+    },
+    {
+     "prompt": "Πάμε ___ Θεσσαλονίκη.",
+     "answer": "στη",
+     "options": [
+      "στη",
+      "στο",
+      "στον"
+     ],
+     "why": "η Θεσσαλονίκη is feminine: στη(ν)."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "λεωφορείο",
+  "εισιτήριο",
+  "στάση",
+  "σταθμός",
+  "λιμάνι",
+  "γωνία",
+  "φανάρι",
+  "απέναντι",
+  "στρίβω",
+  "κατεβαίνω",
+  "δρομολόγιο",
+  "καθυστέρηση"
+ ]
+}

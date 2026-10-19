@@ -1,0 +1,3566 @@
+{
+ "source": "Holton, Mackridge & Philippaki-Warburton, Greek: An Essential Grammar, 2nd ed. (Routledge, 2016), upload cf552d33; rendered PDF pages 1-51 of this extract = end of section 6.1 (p.1), sections 6.2-6.25 (pp.1-50); p.51 is the start of Ch.7 (adverbs) and is not covered. Copyrighted, no open license: rules restated in our own words; examples shortened; paradigms and word lists reproduced as facts.",
+ "variety": "Standard Modern Greek",
+ "terminology": {
+  "conjugation_1": "1st conjugation: stress on the stem in 1sg active present (γράφω, χάνω)",
+  "conjugation_2": "2nd conjugation: stress on the final vowel in 1sg active present (αγαπώ, θεωρώ); type A = αγαπώ pattern, type B = θεωρώ pattern (the traditional A / B grouping used in other files)",
+  "tense_names_used": {
+   "present": "imperfective non-past",
+   "imperfect": "imperfective past",
+   "simple_past": "perfective past (aorist)",
+   "dependent": "perfective non-past (subjunctive/future stem, never alone)",
+   "perfect": "έχω + non-finite (=3sg dependent)",
+   "pluperfect": "είχα + non-finite",
+   "non_finite_form": "3sg dependent form used after έχω"
+  },
+  "notation": "A slash separates alternative forms; parenthesised letters are optional/less formal; † = no passive perfective forms."
+ },
+ "sections": [
+  {
+   "section": "6.2",
+   "title": "Preliminary notes on the verb system",
+   "pdf_pages": "1-2",
+   "rule": [
+    "A verb = stem + inflectional ending. The stem may be simple (γραφ- 'write') or derived (γιατρ-ευ- 'cure'); it carries the lexical meaning.",
+    "Endings express: person (1st, 2nd, 3rd), number (sg., pl.), tense (past, non-past), voice (active, passive), aspect (perfective, imperfective), mood (imperative, non-imperative).",
+    "The particles να, ας, θα precede the verb and mark further mood divisions (indicative/subjunctive) and the future/non-future opposition.",
+    "Only invariant non-finite forms: (a) the gerund in -οντας/-ώντας; (b) the non-finite form after auxiliary έχω used to form perfect tenses."
+   ],
+   "examples": [
+    {
+     "el": "γραφ- (simple stem), γιατρ-ευ- (derived stem)",
+     "en": "write; cure"
+    },
+    {
+     "el": "παίζοντας και γελώντας",
+     "en": "playing and laughing (gerund)"
+    },
+    {
+     "el": "έχω μετανιώσει",
+     "en": "I have changed my mind"
+    }
+   ]
+  },
+  {
+   "section": "6.3",
+   "title": "Person and number",
+   "pdf_pages": "2-3",
+   "rule": [
+    "Finite verbs agree with the subject in person and number. Impersonal verbs: see 6.6 and 10.25.",
+    "The 2nd person plural may refer to one person as a plural of politeness (see 12.1).",
+    "Because endings show person/number, the subject pronoun is normally omitted; it is used only for emphasis/contrast.",
+    "2nd sg. and 3rd pl. can be used with general indefinite reference ('one', 'you', 'they')."
+   ],
+   "examples": [
+    {
+     "el": "Εγώ θα πληρώσω τον λογαριασμό.",
+     "en": "I will pay the bill."
+    },
+    {
+     "el": "Εσείς να του μιλήσετε.",
+     "en": "You should speak to him."
+    },
+    {
+     "el": "Ελπίζω να σε βλέπουμε συχνά.",
+     "en": "I hope that we'll see you often."
+    },
+    {
+     "el": "Ξέρεις πότε θα φτάσει;",
+     "en": "Do you know when (s)he'll arrive?"
+    },
+    {
+     "el": "Εμείς πάντως δεν ξέρουμε τίποτα.",
+     "en": "We, however, know nothing."
+    },
+    {
+     "el": "Εσύ πρέπει να του μιλήσεις.",
+     "en": "You should speak to him."
+    },
+    {
+     "el": "Αυτός είναι το πρόβλημα.",
+     "en": "He's the problem."
+    },
+    {
+     "el": "Εδώ φωνάζεις και κανείς δεν σε ακούει.",
+     "en": "Here you shout and nobody can hear you."
+    },
+    {
+     "el": "Πού τρώνε φτηνά εδώ;",
+     "en": "Where can one eat cheaply here?"
+    }
+   ]
+  },
+  {
+   "section": "6.4",
+   "title": "Tense, aspect, voice and mood",
+   "pdf_pages": "3-5",
+   "rule": [
+    "Tense: Greek verb forms distinguish only past vs non-past. Future = particle θα + verb form; perfect and pluperfect = auxiliary έχω + non-finite form.",
+    "Aspect: imperfective (habitual or in progress), perfective (action seen as a single completed whole), perfect (past event whose completion is relevant at another point in time). Tense x aspect combinations give the 'tenses' (see 6.5).",
+    "Voice: active (subject initiates action) vs passive (subject undergoes it; active object -> passive subject; active subject -> από-phrase agent). Not all verbs have both voices; form and meaning do not always match: active-form verbs not denoting action (πεινώ 'I am hungry'); passive-form verbs denoting action with an object (περιποιούμαι [κάποιον] 'I look after [someone]').",
+    "Mood: the forms distinguish only imperative vs non-imperative. Non-imperative = indicative (no να/ας; negative δεν) or subjunctive (same verb form as indicative, with να or ας; negative μην). Subjunctive expresses wishing, hoping, expecting, planning etc."
+   ],
+   "examples": [
+    {
+     "el": "Η Ελένη ενοχλεί πολύ τον Μάρκο.",
+     "en": "Helen annoys Mark very much."
+    },
+    {
+     "el": "Ο Μάρκος ενοχλείται πολύ από την Ελένη.",
+     "en": "Mark is very much annoyed by Helen."
+    },
+    {
+     "el": "ενοχλώ / ενοχλούμαι",
+     "en": "I annoy / I am annoyed"
+    },
+    {
+     "el": "Γράψε το γράμμα!",
+     "en": "Write the letter! (imperative)"
+    },
+    {
+     "el": "Η Ειρήνη αγόρασε καινούριο αυτοκίνητο.",
+     "en": "Irene bought a new car. (indicative)"
+    },
+    {
+     "el": "Η Μαίρη δεν κατάλαβε καλά.",
+     "en": "Mary didn't understand properly."
+    },
+    {
+     "el": "Να καλέσουμε και τον Γιάννη;",
+     "en": "Should we invite John too? (subjunctive)"
+    },
+    {
+     "el": "Όχι, να μην τον καλέσουμε.",
+     "en": "No, let's not invite him."
+    },
+    {
+     "el": "Ας φύγει.",
+     "en": "Let him/her/it go."
+    }
+   ]
+  },
+  {
+   "section": "6.5",
+   "title": "The use of the tenses and other verb forms (overview table)",
+   "pdf_pages": "5-6",
+   "rule": [
+    "Imperfective/perfective x past/non-past give four simple forms; perfect aspect x past/non-past gives the two perfect tenses. θα can combine with any form for future tenses and conditionals."
+   ],
+   "tense_aspect_table": {
+    "non_past": {
+     "imperfective": {
+      "name": "present",
+      "example": "δένω",
+      "gloss": "I tie, I am tying"
+     },
+     "perfective": {
+      "name": "dependent",
+      "example": "δέσω",
+      "gloss": "(no English equivalent)"
+     },
+     "perfect": {
+      "name": "perfect",
+      "example": "έχω δέσει",
+      "gloss": "I have tied"
+     }
+    },
+    "past": {
+     "imperfective": {
+      "name": "imperfect",
+      "example": "έδενα",
+      "gloss": "I was tying, I used to tie"
+     },
+     "perfective": {
+      "name": "simple past",
+      "example": "έδεσα",
+      "gloss": "I tied"
+     },
+     "perfect": {
+      "name": "pluperfect",
+      "example": "είχα δέσει",
+      "gloss": "I had tied"
+     }
+    }
+   }
+  },
+  {
+   "section": "6.5.1",
+   "title": "Present (imperfective non-past)",
+   "pdf_pages": "6-7",
+   "rule": "Expresses a single event in progress or a habitually repeated one. Also: vivid 'historic present' narrating the past; live sports commentary; future events conveyed with immediacy; situation begun in the past and continuing now (English perfect).",
+   "examples": [
+    {
+     "el": "Η Κατερίνα ποτίζει τα τριαντάφυλλα κάθε πρωί.",
+     "en": "Katerina waters the roses every morning."
+    },
+    {
+     "el": "Αυτή τη στιγμή είναι στον κήπο και ποτίζει τα τριαντάφυλλα.",
+     "en": "Right now she's in the garden and is watering the roses."
+    },
+    {
+     "el": "Κοιμάται τώρα γιατί δουλεύει τη νύχτα.",
+     "en": "(S)he's asleep now because (s)he works nights."
+    },
+    {
+     "el": "Μην του μιλάς γιατί δουλεύει.",
+     "en": "Don't speak to him because he's working."
+    },
+    {
+     "el": "Χθες πρωί πρωί χτυπάει η πόρτα, ανοίγω και βλέπω τη Μαρία έξαλλη.",
+     "en": "First thing yesterday morning there's a knock at the door, I open [it] and see Mary furious."
+    },
+    {
+     "el": "Ο Μπέκαμ τρέχει, βρίσκει την μπάλα, σουτάρει και βάζει γκολ.",
+     "en": "Beckham runs, gets the ball, shoots and scores."
+    },
+    {
+     "el": "Μη στενοχωριέσαι, του το δίνω εγώ αύριο.",
+     "en": "Don't worry, I'll give it to him tomorrow."
+    },
+    {
+     "el": "Παίρνω αυτό το φάρμακο από το 1999.",
+     "en": "I've been taking this medicine since 1999."
+    }
+   ]
+  },
+  {
+   "section": "6.5.2",
+   "title": "Imperfect (imperfective past)",
+   "pdf_pages": "7",
+   "rule": "Presents a past action as habitual or continuous.",
+   "examples": [
+    {
+     "el": "Πέρυσι έτρεχα κάθε πρωί για μισή ώρα και ένιωθα πολύ καλά.",
+     "en": "Last year I ran for half an hour each morning and I felt very well."
+    },
+    {
+     "el": "Έτρεχε προς την παραλία όταν τον είδα.",
+     "en": "He was running towards the shore when I saw him."
+    }
+   ]
+  },
+  {
+   "section": "6.5.3",
+   "title": "Simple past (perfective past)",
+   "pdf_pages": "8",
+   "rule": "Presents an action as completed at some point in the past.",
+   "examples": [
+    {
+     "el": "Διάβασα το άρθρο σου χθες και εντυπωσιάστηκα.",
+     "en": "I read your article yesterday and I was impressed."
+    },
+    {
+     "el": "Ο Γιάννης κουράστηκε να επιμένει.",
+     "en": "John got tired of insisting."
+    },
+    {
+     "el": "Αγόρασες τελικά αυτοκίνητο;",
+     "en": "Did you buy a car in the end?"
+    }
+   ]
+  },
+  {
+   "section": "6.5.4",
+   "title": "Dependent (perfective non-past)",
+   "pdf_pages": "8",
+   "rule": "Cannot stand alone. Used with θα (perfective future), with να/ας (perfective subjunctive), after conjunctions such as αν and όταν, and obligatorily after πριν.",
+   "examples": [
+    {
+     "el": "Ο Γιάννης θα μας τηλεφωνήσει στις οχτώ.",
+     "en": "John will phone us at eight o'clock."
+    },
+    {
+     "el": "Θέλει να του τηλεφωνήσεις στις οχτώ.",
+     "en": "He wants you to phone him at eight o'clock."
+    },
+    {
+     "el": "αν φύγεις; όταν φύγεις; πριν φύγεις",
+     "en": "if you leave; when you leave; before you leave"
+    }
+   ]
+  },
+  {
+   "section": "6.5.5",
+   "title": "Perfect",
+   "pdf_pages": "8-9",
+   "rule": "Formed from present of έχω + non-finite verb form (perfective stem + -ει): έχω γράψει. Used when a completed past action has present relevance; often interchangeable with the simple past.",
+   "examples": [
+    {
+     "el": "Έχω πιει/ήπια τρεις καφέδες από το πρωί.",
+     "en": "I've drunk three coffees since the morning."
+    },
+    {
+     "el": "Έχω βαρεθεί/βαρέθηκα να περιμένω.",
+     "en": "I've got tired of waiting."
+    }
+   ]
+  },
+  {
+   "section": "6.5.6",
+   "title": "Pluperfect",
+   "pdf_pages": "9",
+   "rule": "Past of έχω + non-finite form (είχα γράψει). Past action completed with consequences relevant to another past situation.",
+   "examples": [
+    {
+     "el": "Τον είχαμε ήδη συναντήσει τον Γιώργο όταν σε είδαμε.",
+     "en": "We'd already met George when we saw you."
+    },
+    {
+     "el": "Στις εννιά το πρωί είχανε κιόλας αναχωρήσει.",
+     "en": "At nine o'clock in the morning they had already left."
+    }
+   ]
+  },
+  {
+   "section": "6.5.7",
+   "title": "Future",
+   "pdf_pages": "9-10",
+   "rule": "θα + present = imperfective future (habitual/continuous: θα δένω); θα + dependent = perfective future (completed: θα δέσω).",
+   "examples": [
+    {
+     "el": "Κάθε Τετάρτη θα τρώμε στου Μήτσου την ταβέρνα.",
+     "en": "Every Wednesday we'll eat at Mitsos's taverna."
+    },
+    {
+     "el": "Όταν φτάσεις θα δουλεύει.",
+     "en": "When you get there (s)he'll be working."
+    },
+    {
+     "el": "Θα συναντήσω τη Μαίρη αύριο το απόγευμα.",
+     "en": "I'll meet Mary tomorrow afternoon."
+    }
+   ]
+  },
+  {
+   "section": "6.5.8",
+   "title": "Conditional",
+   "pdf_pages": "10",
+   "rule": "θα + imperfect. Expresses suppositions or counterfactual conditions (see 10.13).",
+   "examples": [
+    {
+     "el": "Αν είχα αυτοκίνητο, θα πήγαινα να τον δω.",
+     "en": "If I had a car I would go and see him."
+    },
+    {
+     "el": "Αν ήξερα ότι ήσουν εδώ θα σε καλούσα.",
+     "en": "Had I known you were here I would have invited you."
+    }
+   ]
+  },
+  {
+   "section": "6.5.9",
+   "title": "Future perfect",
+   "pdf_pages": "10-11",
+   "rule": "θα + perfect (θα έχει τελειώσει): action that will have been completed by a future point and be relevant then.",
+   "examples": [
+    {
+     "el": "Μέχρι το καλοκαίρι θα έχει τελειώσει το βιβλίο που γράφει.",
+     "en": "By the summer (s)he'll have finished the book (s)he's writing."
+    },
+    {
+     "el": "Ελπίζω ότι θα έχει βρει το ποσό που χρειάζεται.",
+     "en": "I hope (s)he'll have found the amount (s)he needs."
+    }
+   ]
+  },
+  {
+   "section": "6.5.10",
+   "title": "Perfect conditional",
+   "pdf_pages": "11",
+   "rule": "θα + pluperfect. Describes something that could have happened but did not; main clause of counterfactual conditions (see 10.13).",
+   "examples": [
+    {
+     "el": "Αν τον είχες γνωρίσει θα τον είχες συμπαθήσει κι εσύ.",
+     "en": "If you had met him you too would have liked him."
+    },
+    {
+     "el": "Αν είχανε λεφτά θα τον είχανε στείλει στην Αγγλία.",
+     "en": "If they had money they would have sent him to England."
+    }
+   ]
+  },
+  {
+   "section": "6.5.11",
+   "title": "The gerund",
+   "pdf_pages": "11-12",
+   "rule": "Uninflected adverbial verb form; subject normally the same as the clause's subject (occasionally different). Expresses manner, simultaneity and occasionally cause.",
+   "examples": [
+    {
+     "el": "Ο αδελφός της Ρίτας ήρθε τρέχοντας να της πει τα νέα.",
+     "en": "Rita's brother came running to tell her the news."
+    },
+    {
+     "el": "Μπαίνοντας τους άκουσα να μιλούν ψιθυριστά.",
+     "en": "As I came in I heard them whispering."
+    },
+    {
+     "el": "Αναγνωρίζοντας την αξία του θα του δώσουν προαγωγή.",
+     "en": "Because they recognize his importance they will give him a promotion."
+    },
+    {
+     "el": "Φεύγοντας ο Γιώργος, η Ελένη άρχισε να κλαίει.",
+     "en": "As George left, Helen started to cry."
+    }
+   ]
+  },
+  {
+   "section": "6.6",
+   "title": "Defective, impersonal and deponent verbs",
+   "pdf_pages": "12-13",
+   "rule": [
+    "Defective verbs lack the perfective aspect and exist only in the imperfective.",
+    "Impersonal verbs have only 3rd person singular forms; the two commonest are πρέπει 'it is necessary (that)' and πρόκειται 'be about to'. Both are normally followed by να + present or dependent.",
+    "Deponent verbs have only passive forms but active meaning.",
+    "Semi-deponent verbs have passive forms in the present and imperfect but active forms in other tenses (see irregular verbs 6.25)."
+   ],
+   "defective_verbs": [
+    "ανήκω 'I belong'",
+    "γειτονεύω 'I am in the neighbourhood (of)'",
+    "είμαι 'I am'",
+    "ευθύνομαι 'I am responsible'",
+    "έχω 'I have'",
+    "μάχομαι 'I fight'",
+    "ξέρω 'I know'",
+    "οφείλω 'I owe, am obliged'",
+    "περιμένω 'I wait (for)'",
+    "τρέμω 'I tremble'",
+    "χρωστώ 'I owe'"
+   ],
+   "impersonal_verbs": [
+    "πρέπει 'it is necessary (that)'",
+    "πρόκειται 'be about to'"
+   ],
+   "deponent_verbs": [
+    "αισθάνομαι 'I feel'",
+    "αρνούμαι 'I refuse'",
+    "δέχομαι 'I receive, accept'",
+    "εργάζομαι 'I work'",
+    "μιμούμαι 'I imitate'",
+    "ντρέπομαι 'I am ashamed'",
+    "φαίνομαι 'I appear, seem'",
+    "φοβάμαι 'I fear'"
+   ],
+   "semi_deponent_verbs": [
+    "γίνομαι 'I become, happen'",
+    "έρχομαι 'I come'",
+    "κάθομαι 'I sit'"
+   ],
+   "examples": [
+    {
+     "el": "Πρέπει να γυρίσεις μέχρι το μεσημέρι.",
+     "en": "You must return by midday."
+    },
+    {
+     "el": "Έπρεπε να δουλεύω κάθε μέρα.",
+     "en": "I had to work every day."
+    },
+    {
+     "el": "Δεν πρόκειται να φύγουμε σήμερα.",
+     "en": "We're not going to leave today."
+    }
+   ]
+  },
+  {
+   "section": "6.7",
+   "title": "The verb 'to be'",
+   "pdf_pages": "13-14",
+   "rule": [
+    "είμαι is irregular: its endings follow no other verb's pattern. Only present and past (imperfect) exist.",
+    "Forms of the imperfect with an added final vowel (ήμουνα, ήσουνα, ήταν(ε)) are less formal alternatives; slash-separated alternatives are largely a matter of choice. Note initial vowel spelling: present εί-, imperfect ή-."
+   ],
+   "paradigm": {
+    "present": {
+     "1sg": "είμαι",
+     "2sg": "είσαι",
+     "3sg": "είναι",
+     "1pl": "είμαστε",
+     "2pl": "είστε/είσαστε",
+     "3pl": "είναι"
+    },
+    "imperfect": {
+     "1sg": "ήμουν(α)",
+     "2sg": "ήσουν(α)",
+     "3sg": "ήταν(ε)",
+     "1pl": "ήμαστε/ήμασταν",
+     "2pl": "ήσαστε/ήσασταν",
+     "3pl": "ήταν(ε)"
+    },
+    "glosses": {
+     "present": "I am, you are, (s)he/it is, we are, you are, they are",
+     "imperfect": "I was, you were, (s)he/it was, we were, you were, they were"
+    }
+   }
+  },
+  {
+   "section": "6.8",
+   "title": "First-conjugation verbs",
+   "pdf_pages": "14-19",
+   "rule": [
+    "Greek verbs fall into two conjugations by the stress of the 1st sg. active present: (1) stress on the last syllable of the stem (γράφω, διαβάζω; the majority); (2) stress on the final vowel (αγαπώ, τηλεφωνώ).",
+    "Model: χάνω 'I lose'. Present stress stays on the same syllable except in passive 1pl and the alternative passive 2pl, where it moves forward one syllable. Active 3pl in -ε is frequent in speech.",
+    "Imperfect active: one-syllable consonant-initial stems take a syllabic augment ε- (sg. and 3pl.), which carries the stress (έχανα); the augment-less 3pl in -ε is colloquial; stems of more than one syllable take no augment (διάβαζα). Passive imperfect: stress moves forward one syllable except in 3pl -ονταν; alternative sg. with -α/-ε and 3pl -όντουσαν/-όντανε are colloquial.",
+    "Simple past is built on the perfective stem (see 6.14); active takes the imperfect endings (with augment as in the imperfect). Passive simple past: passive perfective stem + -ηκ- + past endings (χάθ-ηκ-α), stress on the 3rd syllable from the end; 3pl -αν less formal.",
+    "Dependent: same stems as the simple past; active endings = those of the active present, with stress on the last syllable of the stem; passive endings same except 2pl -είτε, but stress falls on the ending, not the stem. 3pl -ε alternative is less formal.",
+    "Imperfective imperative: only 2sg/2pl; -ε and -ετε on the imperfective stem; plural = active present 2pl; in words of 3+ syllables the sg. stress retracts to the 3rd syllable from the end (διάβαζε). No passive imperfective imperative.",
+    "Perfective imperative: perfective stem; sg. active -ε, passive -ου; stress on 3rd syllable from end in verbs of more than two syllables (ετοίμασε 'prepare (something)!' vs ετοιμάσου 'get yourself ready!'). Plural active -τε after λ, ρ, σ, ξ, ψ; otherwise -ετε (πλύνετε); colloquial κάντε. Passive plural = dependent 2pl. Active sg. imperatives with stem in λ, ρ, σ, ξ, ψ often drop the final vowel before a weak pronoun or definite-article object (γράψ' το, φέρ' τα βιβλία). Some perfective imperatives are irregular (6.25).",
+    "Gerund: imperfective stem + -οντας; active in meaning."
+   ],
+   "model_verb": "χάνω",
+   "paradigm": {
+    "gloss": "I lose",
+    "present": {
+     "active": {
+      "1sg": "χάνω",
+      "2sg": "χάνεις",
+      "3sg": "χάνει",
+      "1pl": "χάνουμε",
+      "2pl": "χάνετε",
+      "3pl": "χάνουν(ε)"
+     },
+     "passive": {
+      "1sg": "χάνομαι",
+      "2sg": "χάνεσαι",
+      "3sg": "χάνεται",
+      "1pl": "χανόμαστε",
+      "2pl": "χάνεστε/χανόσαστε",
+      "3pl": "χάνονται"
+     },
+     "passive_gloss": "I get lost, lose myself"
+    },
+    "imperfect": {
+     "active": {
+      "1sg": "έχανα",
+      "2sg": "έχανες",
+      "3sg": "έχανε",
+      "1pl": "χάναμε",
+      "2pl": "χάνατε",
+      "3pl": "έχαναν/χάνανε"
+     },
+     "passive": {
+      "1sg": "χανόμουν(α)",
+      "2sg": "χανόσουν(α)",
+      "3sg": "χανόταν(ε)",
+      "1pl": "χανόμασταν",
+      "2pl": "χανόσασταν",
+      "3pl": "χάνονταν/χανόντουσαν/χανόντανε"
+     }
+    },
+    "simple_past": {
+     "active": {
+      "1sg": "έχασα",
+      "2sg": "έχασες",
+      "3sg": "έχασε",
+      "1pl": "χάσαμε",
+      "2pl": "χάσατε",
+      "3pl": "έχασαν/χάσανε"
+     },
+     "passive": {
+      "1sg": "χάθηκα",
+      "2sg": "χάθηκες",
+      "3sg": "χάθηκε",
+      "1pl": "χαθήκαμε",
+      "2pl": "χαθήκατε",
+      "3pl": "χάθηκαν/χαθήκανε"
+     }
+    },
+    "dependent": {
+     "active": {
+      "1sg": "χάσω",
+      "2sg": "χάσεις",
+      "3sg": "χάσει",
+      "1pl": "χάσουμε",
+      "2pl": "χάσετε",
+      "3pl": "χάσουν(ε)"
+     },
+     "passive": {
+      "1sg": "χαθώ",
+      "2sg": "χαθείς",
+      "3sg": "χαθεί",
+      "1pl": "χαθούμε",
+      "2pl": "χαθείτε",
+      "3pl": "χαθούν(ε)"
+     }
+    },
+    "imperfective_imperative": {
+     "active": {
+      "sg": "χάνε",
+      "pl": "χάνετε"
+     },
+     "passive": null
+    },
+    "perfective_imperative": {
+     "active": {
+      "sg": "χάσε",
+      "pl": "χάστε"
+     },
+     "passive": {
+      "sg": "χάσου",
+      "pl": "χαθείτε"
+     }
+    },
+    "gerund": "χάνοντας",
+    "stems": {
+     "imperfective": "χαν-",
+     "perfective_active": "χασ-",
+     "perfective_passive": "χαθ-"
+    }
+   },
+   "examples": [
+    {
+     "el": "διάβαζα",
+     "en": "I was reading (no augment: stem of more than one syllable)"
+    },
+    {
+     "el": "γράψ' το",
+     "en": "write it!"
+    },
+    {
+     "el": "φέρ' τα βιβλία",
+     "en": "bring the books!"
+    }
+   ]
+  },
+  {
+   "section": "6.9",
+   "title": "Second-conjugation verbs (type A)",
+   "pdf_pages": "19-23",
+   "rule": [
+    "Second-conjugation verbs split into type A (vowel α predominates in the active present endings) and type B (6.10).",
+    "Model: αγαπώ 'I love'. Stress always falls on the endings. Passive present has a non-syllabic -ι- between stem αγαπα- and the endings. Alternatives -άω, -άει, -άμε, -άνε and passive 2pl -όσαστε are less formal; some formal-register verbs (e.g. δρω 'I act') lack them.",
+    "Active imperfect: stem + extra syllable -ούσ- (always stressed) + past endings; type B verbs form it identically. Alternative imperfect in -αγ- (central/southern Greece, informal): αγάπαγα... stress on 3rd syllable from the end. Passive imperfect resembles first-conjugation passive imperfect but with non-syllabic -ι- before the ending.",
+    "Perfective stems normally add -ησ- (active) and -ηθ- (passive) (exceptions: 6.15). Simple past: active past endings added directly to the active perfective stem; passive adds -ηκ-; stress on the 3rd syllable from the end throughout. Exceptionally, δρω has the augmented simple past έδρασα and σπάω (alternative to σπάζω 'I break') has έσπασα; otherwise no augment.",
+    "Dependent: perfective stem; endings and stress position as in the first conjugation.",
+    "Imperfective imperative: active only; sg. -α, pl. -άτε, both stressed on the penultimate syllable. Perfective imperative formed as in the first conjugation. Gerund: -ώντας, stressed on the penultimate syllable."
+   ],
+   "verbs_type_A": [
+    "αγαπώ 'I love'",
+    "απαντώ 'I answer'",
+    "βαστώ 'I bear'",
+    "βουτώ 'I dive'",
+    "γελώ 'I laugh'",
+    "γεννώ 'I give birth to, bear'",
+    "γλεντώ 'I celebrate'",
+    "διψώ 'I am thirsty'",
+    "κολλώ 'I stick'",
+    "κρατώ 'I hold'",
+    "κρεμώ 'I hang'",
+    "κυβερνώ 'I govern'",
+    "μετρώ 'I count'",
+    "μιλώ 'I speak'",
+    "νικώ 'I conquer'",
+    "ξενυχτώ 'I stay up at night'",
+    "ξεχνώ 'I forget'",
+    "ξυπνώ 'I (a)wake'",
+    "πατώ 'I step, tread'",
+    "πεινώ 'I am hungry'",
+    "περνώ 'I pass'",
+    "περπατώ 'I walk'",
+    "πετώ 'I fly, throw'",
+    "πηδώ 'I jump'",
+    "πουλώ 'I sell'",
+    "προτιμώ 'I prefer'",
+    "ρωτώ 'I ask'",
+    "σταματώ 'I stop'",
+    "τραβώ 'I pull'",
+    "φυσώ 'I blow'",
+    "χαιρετώ 'I greet'",
+    "χαλώ 'I break, spoil'",
+    "χτυπώ 'I hit'"
+   ],
+   "model_verb": "αγαπώ",
+   "paradigm": {
+    "gloss": "I love",
+    "present": {
+     "active": {
+      "1sg": "αγαπώ/αγαπάω",
+      "2sg": "αγαπάς",
+      "3sg": "αγαπάει/αγαπά",
+      "1pl": "αγαπάμε/αγαπούμε",
+      "2pl": "αγαπάτε",
+      "3pl": "αγαπούν(ε)/αγαπάνε"
+     },
+     "passive": {
+      "1sg": "αγαπιέμαι",
+      "2sg": "αγαπιέσαι",
+      "3sg": "αγαπιέται",
+      "1pl": "αγαπιόμαστε",
+      "2pl": "αγαπιέστε/αγαπιόσαστε",
+      "3pl": "αγαπιούνται"
+     },
+     "passive_gloss": "I am loved"
+    },
+    "imperfect": {
+     "active": {
+      "1sg": "αγαπούσα",
+      "2sg": "αγαπούσες",
+      "3sg": "αγαπούσε",
+      "1pl": "αγαπούσαμε",
+      "2pl": "αγαπούσατε",
+      "3pl": "αγαπούσαν(ε)"
+     },
+     "passive": {
+      "1sg": "αγαπιόμουν(α)",
+      "2sg": "αγαπιόσουν(α)",
+      "3sg": "αγαπιόταν(ε)",
+      "1pl": "αγαπιόμασταν",
+      "2pl": "αγαπιόσασταν",
+      "3pl": "αγαπιόνταν(ε)/αγαπιόντουσαν/αγαπιούνταν(ε)"
+     },
+     "active_alternative_in_αγ": {
+      "1sg": "αγάπαγα",
+      "2sg": "αγάπαγες",
+      "3sg": "αγάπαγε",
+      "1pl": "αγαπάγαμε",
+      "2pl": "αγαπάγατε",
+      "3pl": "αγάπαγαν/αγαπάγανε"
+     }
+    },
+    "simple_past": {
+     "active": {
+      "1sg": "αγάπησα",
+      "2sg": "αγάπησες",
+      "3sg": "αγάπησε",
+      "1pl": "αγαπήσαμε",
+      "2pl": "αγαπήσατε",
+      "3pl": "αγάπησαν/αγαπήσανε"
+     },
+     "passive": {
+      "1sg": "αγαπήθηκα",
+      "2sg": "αγαπήθηκες",
+      "3sg": "αγαπήθηκε",
+      "1pl": "αγαπηθήκαμε",
+      "2pl": "αγαπηθήκατε",
+      "3pl": "αγαπήθηκαν/αγαπηθήκανε"
+     }
+    },
+    "dependent": {
+     "active": {
+      "1sg": "αγαπήσω",
+      "2sg": "αγαπήσεις",
+      "3sg": "αγαπήσει",
+      "1pl": "αγαπήσουμε",
+      "2pl": "αγαπήσετε",
+      "3pl": "αγαπήσουν(ε)"
+     },
+     "passive": {
+      "1sg": "αγαπηθώ",
+      "2sg": "αγαπηθείς",
+      "3sg": "αγαπηθεί",
+      "1pl": "αγαπηθούμε",
+      "2pl": "αγαπηθείτε",
+      "3pl": "αγαπηθούν(ε)"
+     }
+    },
+    "imperfective_imperative": {
+     "active": {
+      "sg": "αγάπα",
+      "pl": "αγαπάτε"
+     },
+     "passive": null
+    },
+    "perfective_imperative": {
+     "active": {
+      "sg": "αγάπησε",
+      "pl": "αγαπήστε"
+     },
+     "passive": {
+      "sg": "αγαπήσου",
+      "pl": "αγαπηθείτε"
+     }
+    },
+    "gerund": "αγαπώντας"
+   }
+  },
+  {
+   "section": "6.10",
+   "title": "Second-conjugation verbs (type B)",
+   "pdf_pages": "24-26",
+   "rule": [
+    "Type B differs from type A in the active present endings (apart from 1sg), which have the vowels ει or ου; also in the passive present and imperfect and in the imperfective imperative.",
+    "Passive present: first vowel of the ending is ου in 1sg and 1pl/3pl, ει in the other persons; that vowel carries the stress.",
+    "Active imperfect formed as for type A (-ούσ-), but type B has no alternative -αγ- imperfect. Bracketed passive imperfect 1st/2nd forms are not normally used for θεωρώ, but several other verbs (including deponents, e.g. στερώ 'I deprive', ασχολούμαι 'I am occupied', μιμούμαι 'I imitate', προσποιούμαι 'I pretend') have them; these may have the extra vowel -α in 1sg/2sg like first-conjugation verbs.",
+    "Simple past/dependent stems normally -ησ-/-ηθ- (exceptions 6.15); endings as type A. No augment, except ζω 'I live': simple past έζησα (stressed augment in sg. and 3pl.: έζησαν, also ζήσανε).",
+    "Imperfective imperative: no singular; plural = 2pl present (θεωρείτε). Perfective imperative and gerund as type A."
+   ],
+   "verbs_type_B": [
+    "αποτελώ 'I constitute'",
+    "ζω 'I live'",
+    "μπορώ 'I can, am able'",
+    "παρακαλώ 'I request, beg'",
+    "προσπαθώ 'I try'",
+    "συγχωρώ 'I forgive'"
+   ],
+   "verbs_either_A_or_B": [
+    "ακολουθώ 'I follow'",
+    "κυκλοφορώ 'I circulate, go round'",
+    "λιποθυμώ 'I faint'",
+    "προχωρώ 'I proceed, go forward'",
+    "συζητώ 'I discuss'",
+    "συμπαθώ 'I am fond of, forgive'",
+    "τηλεφωνώ 'I telephone'",
+    "φιλώ 'I kiss'",
+    "χωρώ 'I fit in, have room for'"
+   ],
+   "verbs_either_note": "Such verbs tend to take type B endings in more formal contexts.",
+   "model_verb": "θεωρώ",
+   "paradigm": {
+    "gloss": "I consider, regard",
+    "present": {
+     "active": {
+      "1sg": "θεωρώ",
+      "2sg": "θεωρείς",
+      "3sg": "θεωρεί",
+      "1pl": "θεωρούμε",
+      "2pl": "θεωρείτε",
+      "3pl": "θεωρούν(ε)"
+     },
+     "passive": {
+      "1sg": "θεωρούμαι",
+      "2sg": "θεωρείσαι",
+      "3sg": "θεωρείται",
+      "1pl": "θεωρούμαστε",
+      "2pl": "θεωρείστε",
+      "3pl": "θεωρούνται"
+     },
+     "passive_gloss": "I am considered"
+    },
+    "imperfect": {
+     "active": {
+      "1sg": "θεωρούσα",
+      "2sg": "θεωρούσες",
+      "3sg": "θεωρούσε",
+      "1pl": "θεωρούσαμε",
+      "2pl": "θεωρούσατε",
+      "3pl": "θεωρούσαν(ε)"
+     },
+     "passive": {
+      "1sg": "(θεωρούμουν)",
+      "2sg": "(θεωρούσουν)",
+      "3sg": "θεωρούνταν(ε)",
+      "1pl": "(θεωρούμασταν)",
+      "2pl": "(θεωρούσασταν)",
+      "3pl": "θεωρούνταν(ε)"
+     },
+     "note": "bracketed forms not normally used for θεωρώ"
+    },
+    "simple_past": {
+     "active": {
+      "1sg": "θεώρησα",
+      "2sg": "θεώρησες",
+      "3sg": "θεώρησε",
+      "1pl": "θεωρήσαμε",
+      "2pl": "θεωρήσατε",
+      "3pl": "θεώρησαν/θεωρήσανε"
+     },
+     "passive": {
+      "1sg": "θεωρήθηκα",
+      "2sg": "θεωρήθηκες",
+      "3sg": "θεωρήθηκε",
+      "1pl": "θεωρηθήκαμε",
+      "2pl": "θεωρηθήκατε",
+      "3pl": "θεωρήθηκαν/θεωρηθήκανε"
+     }
+    },
+    "dependent": {
+     "active": {
+      "1sg": "θεωρήσω",
+      "2sg": "θεωρήσεις",
+      "3sg": "θεωρήσει",
+      "1pl": "θεωρήσουμε",
+      "2pl": "θεωρήσετε",
+      "3pl": "θεωρήσουν(ε)"
+     },
+     "passive": {
+      "1sg": "θεωρηθώ",
+      "2sg": "θεωρηθείς",
+      "3sg": "θεωρηθεί",
+      "1pl": "θεωρηθούμε",
+      "2pl": "θεωρηθείτε",
+      "3pl": "θεωρηθούν(ε)"
+     }
+    },
+    "imperfective_imperative": {
+     "active": {
+      "sg": null,
+      "pl": "θεωρείτε"
+     },
+     "passive": null
+    },
+    "perfective_imperative": {
+     "active": {
+      "sg": "θεώρησε",
+      "pl": "θεωρήστε"
+     },
+     "passive": {
+      "sg": "θεωρήσου",
+      "pl": "θεωρηθείτε"
+     }
+    },
+    "gerund": "θεωρώντας"
+   },
+   "other_paradigm_ζω_simple_past": "έζησα (sg., 3pl. έζησαν; also ζήσανε)"
+  },
+  {
+   "section": "6.11",
+   "title": "Second-conjugation verbs with passive only",
+   "pdf_pages": "26-27",
+   "rule": [
+    "Four deponent verbs resemble second-conjugation verbs (stress on the endings in the imperfective tenses) but have no active forms: θυμάμαι 'I remember', κοιμάμαι 'I sleep, go to sleep', λυπάμαι 'I regret, I am sorry', φοβάμαι 'I fear, am afraid (of)'.",
+    "Alternative 1sg (κοιμάμαι/κοιμούμαι) and 2pl (κοιμάστε/κοιμόσαστε) present forms are both widely used. Imperfect endings = first-conjugation passive imperfect, except 3pl has only end-stressed forms.",
+    "Simple past and dependent are formed exactly like the passive forms of second-conjugation verbs; perfective imperative likewise (passive). No imperfective imperative or gerund."
+   ],
+   "verbs": [
+    "θυμάμαι 'I remember'",
+    "κοιμάμαι 'I sleep, go to sleep'",
+    "λυπάμαι 'I regret, I am sorry'",
+    "φοβάμαι 'I fear, am afraid (of)'"
+   ],
+   "model_verb": "κοιμάμαι",
+   "paradigm": {
+    "gloss": "I sleep",
+    "present": {
+     "1sg": "κοιμάμαι/κοιμούμαι",
+     "2sg": "κοιμάσαι",
+     "3sg": "κοιμάται",
+     "1pl": "κοιμόμαστε",
+     "2pl": "κοιμάστε/κοιμόσαστε",
+     "3pl": "κοιμούνται"
+    },
+    "imperfect": {
+     "1sg": "κοιμόμουν(α)",
+     "2sg": "κοιμόσουν(α)",
+     "3sg": "κοιμόταν(ε)",
+     "1pl": "κοιμόμασταν",
+     "2pl": "κοιμόσασταν",
+     "3pl": "κοιμόνταν(ε)/κοιμόντουσαν"
+    },
+    "simple_past": {
+     "1sg": "κοιμήθηκα",
+     "note": "etc.; formed like passive simple past of 2nd-conj. verbs (gloss: I slept, fell asleep)"
+    },
+    "dependent": {
+     "1sg": "κοιμηθώ",
+     "note": "etc."
+    },
+    "perfective_imperative": {
+     "sg": "κοιμήσου",
+     "pl": "κοιμηθείτε"
+    }
+   }
+  },
+  {
+   "section": "6.12",
+   "title": "Verbs with contracted active present forms",
+   "pdf_pages": "28-29",
+   "rule": [
+    "Some verbs with a vowel-final stem have 'contracted' active present forms: endings -ω, -ς, -ει, -με, -τε, -νε (2sg and all plural endings have no vowel).",
+    "Main verbs: ακούω 'I hear', καίω 'I burn', κλαίω 'I weep', λέω 'I say', πάω 'I go', τρώω 'I eat', φταίω 'I am to blame'.",
+    "Model λέω: the active imperfect adds -γ- to the stem before the normal endings; consonant-initial stems take the stressed syllabic augment ε- in the singular and first 3pl form. The imperfective imperative and gerund also have -γ-."
+   ],
+   "model_verb": "λέω",
+   "paradigm": {
+    "gloss": "I say, tell",
+    "present": {
+     "1sg": "λέω",
+     "2sg": "λες",
+     "3sg": "λέει",
+     "1pl": "λέμε",
+     "2pl": "λέτε",
+     "3pl": "λένε"
+    },
+    "imperfect": {
+     "1sg": "έλεγα",
+     "2sg": "έλεγες",
+     "3sg": "έλεγε",
+     "1pl": "λέγαμε",
+     "2pl": "λέγατε",
+     "3pl": "έλεγαν/λέγανε"
+    },
+    "imperfective_imperative_active": {
+     "sg": "λέγε",
+     "pl": "λέγετε"
+    },
+    "gerund": "λέγοντας"
+   },
+   "verb_notes": {
+    "λέω": "Passive present and imperfect from stem λεγ-: λέγομαι, λεγόμουν(α). Simple past and dependent are irregular: είπα, πω (see 6.13, 6.25).",
+    "ακούω": "Active imperfect άκουγα; passive present ακούγομαι, imperfect ακουγόμουν(α). Imperfective imperative sg. άκου, pl. ακούτε. Simple past άκουσα, dependent ακούσω.",
+    "καίω": "Active imperfect έκαιγα; passive present καίγομαι, imperfect καιγόμουν(α). Imperfective imperative not normally used. Simple past έκαψα, dependent κάψω.",
+    "κλαίω": "Active imperfect έκλαιγα. Simple past έκλαψα, dependent κλάψω. The passive (present κλαίγομαι) means 'I complain'.",
+    "πάω": "Functions both as an alternative present to πηγαίνω and as the dependent of the same verb. The other imperfective forms (including the gerund) are based on the stem πηγαιν-. Simple past πήγα. No passive forms.",
+    "τρώω": "Active imperfect έτρωγα; passive present τρώγομαι, imperfect τρωγόμουν(α). Imperfective imperative sg. τρώγε, pl. τρώτε. Simple past έφαγα, dependent φάω, conjugated like the present of λέω.",
+    "φταίω": "Active imperfect έφταιγα. Simple past έφταιξα, dependent φταίξω. No imperative and no passive forms."
+   }
+  },
+  {
+   "section": "6.13",
+   "title": "Verbs with irregular form of active dependent",
+   "pdf_pages": "29-30",
+   "rule": [
+    "The active dependents of regular verbs are stressed on the last syllable of the stem (χάσω, χάσεις). A few common verbs have an irregular one-syllable 1sg dependent (e.g. βρω from βρίσκω), stressed on the endings, which are the same as the passive dependent endings of regular verbs (χαθώ, χαθείς) and the active present of type-B second-conjugation verbs.",
+    "Singular forms and 3pl βρουν are monosyllables so are written without accent.",
+    "The table gives these verbs with their (also irregular) active simple past. Other irregular forms, e.g. perfective imperative, are in the table in 6.25.",
+    "έρχομαι has two dependents: έρθω (regular, as in 6.8) and the form 'ρθώ, used after να/θα, which loses its initial vowel and is stressed on the endings: (να/θα) 'ρθώ, 'ρθείς, etc."
+   ],
+   "paradigm_dependent_βρίσκω": {
+    "1sg": "βρω",
+    "2sg": "βρεις",
+    "3sg": "βρει",
+    "1pl": "βρούμε",
+    "2pl": "βρείτε",
+    "3pl": "βρουν/βρούνε"
+   },
+   "verb_table": [
+    {
+     "present": "βγαίνω",
+     "gloss": "I go out",
+     "simple_past": "βγήκα",
+     "dependent": "βγω"
+    },
+    {
+     "present": "βλέπω",
+     "gloss": "I see",
+     "simple_past": "είδα",
+     "dependent": "δω"
+    },
+    {
+     "present": "βρίσκω",
+     "gloss": "I find",
+     "simple_past": "βρήκα",
+     "dependent": "βρω"
+    },
+    {
+     "present": "λέω",
+     "gloss": "I say",
+     "simple_past": "είπα",
+     "dependent": "πω"
+    },
+    {
+     "present": "μπαίνω",
+     "gloss": "I go in",
+     "simple_past": "μπήκα",
+     "dependent": "μπω"
+    },
+    {
+     "present": "πίνω",
+     "gloss": "I drink",
+     "simple_past": "ήπια",
+     "dependent": "πιω"
+    }
+   ],
+   "erxomai_dependent": {
+    "regular": "έρθω",
+    "contracted_after_να_θα": "'ρθώ, 'ρθείς (να/θα 'ρθώ)"
+   }
+  },
+  {
+   "section": "6.16",
+   "title": "The passive perfect participle",
+   "pdf_pages": "36-38",
+   "rule": [
+    "All passive perfect participles end in -μένος and inflect fully for number, gender and case like the adjectives in 3.33 (-μένος, -μένη, -μένο). They derive from verbs that can take a direct object; intransitive verbs normally have none (exceptions below).",
+    "The base is the passive perfective stem; some participles have a consonant before -μένος, others do not."
+   ],
+   "formation_patterns": [
+    {
+     "pattern": "-στ-/-σθ-/-νθ- -> -σμένος",
+     "examples": [
+      "αναγκασμένος 'compelled'",
+      "εμπνευσμένος 'inspired'",
+      "καλεσμένος 'invited'",
+      "κουρασμένος 'tired'",
+      "μολυσμένος 'polluted'",
+      "ξεπερασμένος 'superseded'",
+      "ξεχασμένος 'forgotten'",
+      "ορισμένος 'fixed, certain (unspecified)'",
+      "σβησμένος 'extinguished'",
+      "σερβιρισμένος 'served'",
+      "χαλασμένος 'spoilt, broken'"
+     ]
+    },
+    {
+     "pattern": "-θ- (after a vowel, λ or ρ) -> -μένος",
+     "examples": [
+      "αγαπημένος 'loved'",
+      "αυξημένος 'increased'",
+      "γεννημένος 'born'",
+      "δεμένος 'tied'",
+      "κολλημένος 'stuck'",
+      "ντυμένος 'dressed'",
+      "ολοκληρωμένος 'completed'",
+      "παρμένος 'taken'",
+      "πικραμένος 'embittered'",
+      "σταλμένος 'sent'",
+      "στενοχωρημένος 'upset'",
+      "χαμένος 'lost'",
+      "ψημένος 'roasted'"
+     ]
+    },
+    {
+     "pattern": "-φτ-/-φθ- -> -μμένος",
+     "examples": [
+      "αναμμένος 'lit'",
+      "γραμμένος 'written'",
+      "εγκαταλειμμένος 'abandoned'",
+      "θαμμένος 'buried'"
+     ]
+    },
+    {
+     "pattern": "-χτ-/-χθ- -> -γμένος",
+     "examples": [
+      "αναπτυγμένος 'developed'",
+      "ανοιγμένος 'opened'",
+      "εκλεγμένος 'elected'",
+      "προσεγμένος 'cared for'",
+      "στηριγμένος 'supported'",
+      "τραβηγμένος 'pulled'"
+     ],
+     "note": "in some verbs the -γ- is omitted, e.g. πετα(γ)μένος 'thrown'"
+    }
+   ],
+   "notes": [
+    "Verbs in -εύω have a participle in either -ευμένος or -εμένος; the first is for verbs used in more formal contexts, the second is informal: απογοητευμένος 'disappointed', γενικευμένος 'generalized', δεσμευμένος 'tied down, obligated', μπερδεμένος 'confused', παντρεμένος 'married'.",
+    "Verbs in -αίνω are irregular in forming this participle (if they have one): αποτυχημένος 'failed, unsuccessful' (αποτυχαίνω), ζεσταμένος 'warmed' (ζεσταίνω), μαθημένος 'learnt' (μαθαίνω), πεθαμένος 'dead' (πεθαίνω), υφασμένος 'woven' (υφαίνω), χορτασμένος 'satiated, full up' (χορταίνω). Use a dictionary for others.",
+    "Some verbs with no finite passive forms do have this participle: ακουμπισμένος 'leaning' (ακουμπώ), αρρωστημένος 'ill' (αρρωσταίνω), διψασμένος 'thirsty' (διψώ), δυστυχισμένος 'unhappy' (δυστυχώ), ευτυχισμένος 'happy' (ευτυχώ), θυμωμένος 'angry' (θυμώνω), λιποθυμισμένος 'fainted, unconscious' (λιποθυμώ), πεινασμένος 'hungry' (πεινώ), ταξιδεμένος 'much-travelled' (ταξιδεύω), χορτασμένος 'satiated, full up'. Also κλαμμένος 'in tears' (κλαίω).",
+    "Some learned-origin participles take an extra prefixed syllable (reduplication; see also 6.23): αποδεδειγμένος 'proven' (αποδεικνύω), διατεθειμένος 'disposed' (διαθέτω), δεδομένος 'given' (δίνω), εκτεταμένος 'extended' (εκτείνω), πεπεισμένος 'persuaded, convinced' (πείθω), συνδεδεμένος 'connected' (συνδέω), υπογεγραμμένος 'undersigned' (υπογράφω), τετελεσμένος 'accomplished' (τελώ).",
+    "For irregular participles see the table in 6.25."
+   ],
+   "subsections": [
+    {
+     "section": "6.16.1",
+     "title": "Use of the passive perfect participle",
+     "rule": [
+      "Functions as an adjective, agreeing in gender, number and case with its noun; can be modified by adverbs and take prepositional-phrase complements."
+     ],
+     "examples": [
+      {
+       "el": "χαμένα λόγια",
+       "en": "wasted (lit. 'lost') words"
+      },
+      {
+       "el": "Ύστερα από αυτά που έγιναν, η Αλίκη ήταν εντελώς απογοητευμένη.",
+       "en": "After what happened, Alice was completely disillusioned."
+      },
+      {
+       "el": "Το συνέδριο ήταν πολύ καλά οργανωμένο.",
+       "en": "The conference was very well organized."
+      },
+      {
+       "el": "Λυναμωμένοι από τις εμπειρίες τους, συνέχισαν τον αγώνα.",
+       "en": "Strengthened by their experiences, they continued the struggle."
+      },
+      {
+       "el": "Βρήκαμε τον Κώστα ήδη ντυμένο για τον γάμο.",
+       "en": "We found Kostas already dressed for the wedding."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "section": "6.17",
+   "title": "The perfective and imperfective futures",
+   "pdf_pages": "38",
+   "rule": [
+    "Perfective future = θα + dependent form (action to be completed at a future point). Weak pronouns go immediately before the verb. Verbs lacking perfective forms have no perfective future (see 6.6).",
+    "Imperfective future = θα + present form (habitual or continuous future event)."
+   ],
+   "examples": [
+    {
+     "el": "θα γράψω",
+     "en": "I shall write, I'm going to write"
+    },
+    {
+     "el": "θα βγούμε",
+     "en": "we'll go out"
+    },
+    {
+     "el": "θα μιλήσουν",
+     "en": "they will speak, they're going to speak"
+    },
+    {
+     "el": "θα σηκωθεί",
+     "en": "(s)he/it will get up"
+    },
+    {
+     "el": "θα τρελαθούμε",
+     "en": "we shall go mad"
+    },
+    {
+     "el": "θα μου το δώσεις",
+     "en": "you will give me it"
+    },
+    {
+     "el": "θα είμαστε",
+     "en": "we shall be"
+    },
+    {
+     "el": "θα θυμάμαι",
+     "en": "I'll remember"
+    },
+    {
+     "el": "θα αλληλογραφούμε",
+     "en": "we shall correspond [by letter]"
+    }
+   ]
+  },
+  {
+   "section": "6.18",
+   "title": "The perfect tenses and the auxiliary verb έχω",
+   "pdf_pages": "38-39",
+   "rule": [
+    "The three perfect tenses (perfect, pluperfect, future perfect) use έχω 'I have'. Present of έχω has first-conjugation endings; the past has εί- as the first syllable with the usual active imperfect endings.",
+    "Perfect = present of έχω + non-finite form. The non-finite form is identical to the 3sg dependent and exists in active and passive: active has the stress on the penultimate syllable (χάσει), passive on the final syllable (χαθεί). So active perfect έχω χάσει 'I have lost', passive έχω χαθεί 'I have been lost (or lost myself)'. The verbs of 6.13 with irregular dependents have a one-syllable non-finite form (έχω βρει, έχουμε δει).",
+    "Second-conjugation verbs form the non-finite like first-conjugation ones (έχω αγαπήσει, έχω αγαπηθεί). Deponent verbs have only the passive form of the perfect, with active meaning. Weak pronouns go before the appropriate form of έχω but after the negative particle.",
+    "Pluperfect = past of έχω + non-finite (είχα χάσει, είχα χαθεί). Future perfect = θα + perfect (θα έχω φτάσει); weak pronouns immediately before the relevant part of έχω.",
+    "The perfect tenses exist only for verbs that have corresponding perfective forms. Use: see 6.5."
+   ],
+   "paradigm_έχω": {
+    "present": {
+     "1sg": "έχω",
+     "2sg": "έχεις",
+     "3sg": "έχει",
+     "1pl": "έχουμε",
+     "2pl": "έχετε",
+     "3pl": "έχουν(ε)"
+    },
+    "past": {
+     "1sg": "είχα",
+     "2sg": "είχες",
+     "3sg": "είχε",
+     "1pl": "είχαμε",
+     "2pl": "είχατε",
+     "3pl": "είχαν(ε)"
+    },
+    "gloss": "I have / I had"
+   },
+   "non_finite_forms": {
+    "χάνω": {
+     "active": "χάσει",
+     "passive": "χαθεί"
+    },
+    "βρίσκω": {
+     "active": "βρει"
+    },
+    "αγαπώ": {
+     "active": "αγαπήσει",
+     "passive": "αγαπηθεί"
+    }
+   },
+   "examples": [
+    {
+     "el": "έχω χάσει",
+     "en": "I have lost"
+    },
+    {
+     "el": "έχεις χάσει",
+     "en": "you have lost"
+    },
+    {
+     "el": "έχω χαθεί",
+     "en": "I have been lost / I have lost myself"
+    },
+    {
+     "el": "έχω βρει",
+     "en": "I have found"
+    },
+    {
+     "el": "έχουμε δει",
+     "en": "we have seen"
+    },
+    {
+     "el": "έχω αγαπήσει",
+     "en": "I have loved"
+    },
+    {
+     "el": "έχω αγαπηθεί",
+     "en": "I have been loved"
+    },
+    {
+     "el": "έχω εργαστεί",
+     "en": "I have worked"
+    },
+    {
+     "el": "έχω κοιμηθεί",
+     "en": "I have slept"
+    },
+    {
+     "el": "έχω σκεφτεί",
+     "en": "I have thought"
+    },
+    {
+     "el": "δεν μας έχει μιλήσει",
+     "en": "(s)he hasn't spoken to us"
+    },
+    {
+     "el": "είχα χάσει",
+     "en": "I had lost"
+    },
+    {
+     "el": "είχα χαθεί",
+     "en": "I had got lost"
+    },
+    {
+     "el": "θα έχω φτάσει",
+     "en": "I shall have arrived"
+    },
+    {
+     "el": "θα έχω σηκωθεί",
+     "en": "I shall have got up"
+    },
+    {
+     "el": "θα σου το έχουν στείλει",
+     "en": "they will have sent you it"
+    }
+   ]
+  },
+  {
+   "section": "6.19",
+   "title": "The conditional and perfect conditional",
+   "pdf_pages": "40",
+   "rule": [
+    "Conditional = θα + imperfect. Weak pronouns go between θα and the verb.",
+    "Perfect conditional = θα + pluperfect.",
+    "Uses: see 10.13; uses of θα are summarized in 9.3.1."
+   ],
+   "examples": [
+    {
+     "el": "θα ήμουν(α)",
+     "en": "I would be"
+    },
+    {
+     "el": "θα έχανα",
+     "en": "I would lose"
+    },
+    {
+     "el": "θα γινόμουν(α)",
+     "en": "I would become"
+    },
+    {
+     "el": "θα φοβόμουν(α)",
+     "en": "I would be afraid [of]"
+    },
+    {
+     "el": "θα σας το έδινα",
+     "en": "I would give you it"
+    },
+    {
+     "el": "θα είχα έρθει",
+     "en": "I would have come"
+    },
+    {
+     "el": "θα είχα χαθεί",
+     "en": "I would have got lost"
+    },
+    {
+     "el": "θα είχα κοιμηθεί",
+     "en": "I would have fallen asleep"
+    }
+   ]
+  },
+  {
+   "section": "6.20",
+   "title": "The subjunctive forms",
+   "pdf_pages": "40",
+   "rule": [
+    "Greek has no separate subjunctive forms. A subjunctive is marked by the particles να or ας before the verb and the negative μην (instead of δεν). Any tense may be used. See 6.4, 9.3, 10.3, 10.4."
+   ]
+  },
+  {
+   "section": "6.21",
+   "title": "Syllabic augment",
+   "pdf_pages": "40-41",
+   "rule": [
+    "The syllabic augment is the vowel ε- prefixed to the stem in a past tense (έγραψα). It is required when the verb has a one-syllable stem beginning with a consonant and a one-syllable ending. Since past-tense stress normally falls on the 3rd syllable from the end, the augment carries the stress; when the ending has more than one syllable, no augment is needed.",
+    "Augment is obligatory only in the active imperfect and simple past of first-conjugation verbs, and only in the 1st, 2nd, 3rd singular and the 3rd plural when its ending is -αν. For χάνω see 6.8; for the few second-conjugation verbs with augment in the simple past see 6.9 and 6.10.",
+    "Some irregular verbs with a one-syllable perfective stem lack the augment in the simple past: βγήκα (βγαίνω), βρήκα (βρίσκω), μπήκα (μπαίνω), πήγα (πηγαίνω) and πήρα (παίρνω). Their imperfects (except πηγαίνω) do have the augment in the singular and 3pl: έβγαινε '(s)he/it was going out', έπαιρναν 'they used to take'."
+   ],
+   "examples": [
+    {
+     "el": "έγραψα",
+     "en": "I wrote"
+    },
+    {
+     "el": "έχανα / διάβαζα",
+     "en": "I was losing / I was reading (no augment)"
+    }
+   ]
+  },
+  {
+   "section": "6.22",
+   "title": "Vocalic augment",
+   "pdf_pages": "41",
+   "rule": [
+    "Vocalic augment applies to some verbs beginning with a vowel: initial ε-, α- or αι- change to η-, normally only when that syllable is stressed. Two common words may have it: ελπίζω 'I hope' (sometimes imperfect ήλπιζα, simple past ήλπισα instead of έλπιζα, έλπισα) and ελέγχω 'I control' (ήλεγχα, ήλεγξα).",
+    "Three very common verbs have augment η- in some past forms though they do not begin with a vowel: θέλω 'I want' (imperfect ήθελα; no ή- in the forms with a two-syllable ending: θέλαμε); ξέρω 'I know' (imperfect ήξερα; ξέραμε); πίνω 'I drink' (simple past ήπια, with ή- in all persons; imperfect έπινα)."
+   ],
+   "examples": [
+    {
+     "el": "ήθελα / θέλαμε",
+     "en": "I wanted / we wanted"
+    },
+    {
+     "el": "ήξερα / ξέραμε",
+     "en": "I knew / we knew"
+    },
+    {
+     "el": "ήπια / έπινα",
+     "en": "I drank / I was drinking"
+    }
+   ]
+  },
+  {
+   "section": "6.23",
+   "title": "Internal augment",
+   "pdf_pages": "41-42",
+   "rule": [
+    "Verbs with a prepositional prefix put the augment (if any) between the prefix and the stem. Prefixes (from Ancient Greek prepositions): αμφι-, ανα-, αντι-, απο-, δια-, εισ-, εκ- (εξ- before a vowel), εν- (εμ- before a labial, εγ- before a velar), επι-, κατα-, μετα-, παρα-, περι-, προ-, προσ-, συν- (συμ- before a labial, συγ- before a velar, συλ- before λ), υπερ-, υπο-.",
+    "Prepositions ending in a vowel drop the vowel before the augment, except περι- and προ-. E.g. υποβάλλω 'I submit': simple past υπ-έ-βαλα; εκλέγω 'I elect': εξ-έ-λεξα. If the augment would be unstressed it is normally omitted, so 1pl υποβάλαμε, εκλέξαμε.",
+    "Verbs with two prefixes: augment between the second prefix and the stem (συμπεριλαμβάνω 'I include': συμπεριέλαβα 'I included').",
+    "Internal vocalic augment (change to η-) occurs in prefixed verbs whose simple verb begins with a vowel: υπάρχω 'I exist': υπήρχα, υπήρξα; απήργησα (from απεργώ 'I go on strike'); παρήγγειλα as an alternative to παράγγειλα (παραγγέλλω 'I order').",
+    "In some prefixed verbs internal augment is never used: προτείνω 'I suggest': simple past πρότεινα.",
+    "Further examples in the irregular verbs table: αναβάλλω, ανακλώ, αναμιγνύω, ανατέλλω, αποδεικνύω, απονέμω, αποσπώ, αποτυχαίνω, διαθέτω, διακόπτω, εκπλήσσω, συμπίπτω."
+   ],
+   "examples": [
+    {
+     "el": "υποβάλλω → υπέβαλα",
+     "en": "I submit → I submitted"
+    },
+    {
+     "el": "εκλέγω → εξέλεξα",
+     "en": "I elect → I elected"
+    },
+    {
+     "el": "συμπεριλαμβάνω → συμπεριέλαβα",
+     "en": "I include → I included"
+    },
+    {
+     "el": "υπάρχω → υπήρχα, υπήρξα",
+     "en": "I exist → imperfect, simple past"
+    },
+    {
+     "el": "προτείνω → πρότεινα",
+     "en": "I suggest → I suggested"
+    }
+   ]
+  },
+  {
+   "section": "6.24",
+   "title": "Definition of an irregular verb",
+   "pdf_pages": "42",
+   "rule": [
+    "Sections 6.14 and 6.15 give the basic patterns for forming perfective stems (used for active/passive simple past, dependent, perfective imperative, passive perfect participle and non-finite perfect forms). Verbs not conforming to these patterns are regarded as irregular.",
+    "The table in 6.25 gives the most common irregular verbs, including second-conjugation verbs whose perfective stem does not use -ησ-/-ηθ-, and verbs with irregular passive perfect participles."
+   ]
+  },
+  {
+   "section": "6.25 (introduction)",
+   "title": "Table of irregular verbs: how to read it",
+   "pdf_pages": "42-43",
+   "rule": [
+    "Column 1: active present (or passive present for deponents); second-conjugation verbs are marked A or B (see 6.9, 6.10); impersonal verbs are given in the 3sg. Prefixed verbs: only the most common examples are given (e.g. παραγγέλλω 'I order'); other compounds of the same verb with a different prefix (e.g. αναγγέλλω 'I announce', απαγγέλλω 'I recite') are not listed unless they differ significantly.",
+    "Column 2: normally just one basic meaning; consult a dictionary for the full range.",
+    "Column 3: 1sg active simple past; for verbs without a simple past, the imperfect if irregular. For deponents the (passive-form) simple past. Irregular dependent or perfective imperative forms are also given here (dep. / imp.). Where the simple past has an augment (6.21-6.23), remove it to form the dependent.",
+    "Column 4: 1sg passive simple past; passive dependent is given if not predictable from the simple past.",
+    "Column 5: passive perfect participle. A dash means no form exists.",
+    "Alternatives are separated by /; a whole word in brackets is rarely used."
+   ]
+  }
+ ],
+ "perfective_stems": {
+  "section": "6.14-6.15",
+  "pdf_pages": "30-36",
+  "rule": [
+   "Perfective stems (active and passive) underlie the simple past, dependent, perfective imperative, passive perfect participle and non-finite forms. Their shape depends on the ending of the imperfective stem; the lists below show the most common patterns (the authors' Comprehensive Grammar has more)."
+  ],
+  "first_conjugation_6.14": [
+   {
+    "subsection": "6.14.1",
+    "imperfective_stem_ending": "a vowel",
+    "groups": [
+     {
+      "group": "a",
+      "active_perfective": "-σ-",
+      "passive_perfective": "-στ- (or, more formally, -σθ-)",
+      "model": "ακούω 'I hear': άκουσα, ακούστηκα",
+      "examples": [
+       "αποκλείω 'I exclude'",
+       "ελκύω 'I pull'"
+      ],
+      "deponent_examples": [
+       "συγκρούομαι 'I collide'"
+      ]
+     },
+     {
+      "group": "b",
+      "active_perfective": "-σ-",
+      "passive_perfective": "-θ-",
+      "model": "ιδρύω 'I establish': ίδρυσα, ιδρύθηκα",
+      "examples": [
+       "αναλύω 'I analyse'",
+       "απολύω 'I dismiss'",
+       "†δύω 'I go down, set [of the sun]'",
+       "επενδύω 'I invest'",
+       "†ισχύω 'I am valid'",
+       "συνδέω 'I connect'"
+      ]
+     },
+     {
+      "group": "c",
+      "active_perfective": "-ευσ-",
+      "passive_perfective": "-ευστ-",
+      "model": "εμπνέω 'I inspire': ενέπνευσα, εμπνεύστηκα",
+      "examples": [
+       "†καταρρέω 'I collapse' (simple past κατέρρευσα)",
+       "†πλέω 'I float, sail'",
+       "†πνέω 'I breathe'"
+      ],
+      "note": "stem in -ε-; for the internal augment of the active simple past see 6.23"
+     }
+    ]
+   },
+   {
+    "subsection": "6.14.2",
+    "imperfective_stem_ending": "a labial consonant or cluster containing a labial",
+    "groups": [
+     {
+      "group": "d",
+      "active_perfective": "-ψ-",
+      "passive_perfective": "-φτ- (or, more formally, -φθ-)",
+      "model": "γράφω 'I write': έγραψα, γράφτηκα",
+      "examples": [
+       "αλείφω 'I smear'",
+       "ανάβω 'I light'",
+       "αποκαλύπτω 'I discover'",
+       "απορρίπτω 'I reject'",
+       "†αστράφτω 'I flash'",
+       "βάφω 'I dye'",
+       "βλάπτω (or βλάφτω) 'I harm'",
+       "γλείφω 'I lick'",
+       "εγκαταλείπω 'I abandon'",
+       "θάβω 'I bury'",
+       "κλέβω 'I steal' (see also table of irregular verbs)",
+       "κρύβω 'I hide'",
+       "†λάμπω 'I shine'",
+       "†λείπω 'I am missing'",
+       "παραλείπω 'I omit'",
+       "προβλέπω 'I foresee'",
+       "ράβω 'I sew'",
+       "σκάβω 'I dig'",
+       "†σκοντάφτω 'I stumble'",
+       "†σκύβω 'I stoop'",
+       "στρίβω 'I twist, turn'",
+       "τρίβω 'I rub'",
+       "υπογράφω 'I sign'"
+      ],
+      "deponent_examples": [
+       "επισκέπτομαι 'I visit'",
+       "σκέφτομαι (or σκέπτομαι) 'I think'"
+      ],
+      "note": "imperfective stem in -β-, -π-, -πτ-, -φ- or -φτ-"
+     },
+     {
+      "group": "e",
+      "active_perfective": "-αψ-/-εψ-",
+      "passive_perfective": "-αυτ-/-ευτ-",
+      "model": "γιατρεύω 'I cure': γιάτρεψα, γιατρεύτηκα",
+      "examples": [
+       "αγριεύω 'I make angry, become angry'",
+       "ανακατεύω 'I mix, stir'",
+       "†βασιλεύω 'I set [of the sun]'",
+       "βολεύω 'I arrange, fix'",
+       "†γυρεύω 'I ask for, seek'",
+       "δουλεύω 'I work'",
+       "δυσκολεύω 'I make difficult'",
+       "†ζηλεύω 'I envy'",
+       "ζωηρεύω 'I enliven'",
+       "καβαλικεύω 'I ride'",
+       "†καλυτερεύω 'I improve'",
+       "†κινδυνεύω 'I am in danger' (also, more formally, -ευσ-)",
+       "†κοντεύω 'I draw near'",
+       "μαγειρεύω 'I cook'",
+       "μαζεύω 'I gather'",
+       "μπερδεύω 'I confuse'",
+       "ξοδεύω 'I spend'",
+       "παντρεύω 'I marry'",
+       "παύω 'I cease'",
+       "πιστεύω 'I believe'",
+       "†ταξιδεύω 'I travel'",
+       "φυτεύω 'I plant'",
+       "χορεύω 'I dance'"
+      ],
+      "deponent_examples": [
+       "ονειρεύομαι 'I dream'"
+      ],
+      "note": "imperfective stem in -αυ- or -ευ-"
+     },
+     {
+      "group": "f",
+      "active_perfective": "-αυσ-/-ευσ-",
+      "passive_perfective": "-αυτ-/-ευτ- (or, more formally, -αυθ-/-ευθ-)",
+      "model": "δεσμεύω 'I bind, tie down': δέσμευσα, δεσμεύτηκα",
+      "examples": [
+       "αντιπροσωπεύω 'I represent'",
+       "απαγορεύω 'I forbid'",
+       "απογοητεύω 'I disappoint'",
+       "απομνημονεύω 'I memorize'",
+       "γενικεύω 'I generalize'",
+       "διακινδυνεύω 'I risk'",
+       "εκπαιδεύω 'I instruct'",
+       "ερμηνεύω 'I interpret'",
+       "θεραπεύω 'I treat, cure'",
+       "†μεταναστεύω 'I migrate'",
+       "μνημονεύω 'I mention'",
+       "προμηθεύω 'I supply'",
+       "προστατεύω 'I protect'",
+       "†σκοπεύω 'I aim'",
+       "υπαγορεύω 'I dictate'"
+      ],
+      "deponent_examples": [
+       "αστειεύομαι 'I joke'",
+       "εκμεταλλεύομαι 'I exploit'",
+       "ερωτεύομαι 'I fall in love (with)'",
+       "υποπτεύομαι 'I suspect'"
+      ],
+      "note": "some verbs with imperfective stem in -αυ- or -ευ-"
+     }
+    ]
+   },
+   {
+    "subsection": "6.14.3",
+    "imperfective_stem_ending": "a velar consonant or cluster containing a velar",
+    "groups": [
+     {
+      "group": "g",
+      "active_perfective": "-ξ-",
+      "passive_perfective": "-χτ- (or, more formally, -χθ-)",
+      "model": "ρίχνω 'I throw': έριξα, ρίχτηκα",
+      "examples": [
+       "ανοίγω 'I open'",
+       "†αντέχω 'I endure'",
+       "δείχνω 'I show'",
+       "διαλέγω 'I choose'",
+       "διδάσκω 'I teach'",
+       "διώχνω 'I chase off, throw out' (active simple past έδιωξα)",
+       "ελέγχω 'I control, check'",
+       "†λήγω 'I expire'",
+       "μπλέκω 'I entangle'",
+       "πλέκω 'I weave'",
+       "προσέχω 'I pay attention (to), take care'",
+       "σπρώχνω 'I push'",
+       "σφίγγω 'I squeeze'",
+       "†τρέχω 'I run'",
+       "τυλίγω 'I wind, wrap'",
+       "φτιάχνω 'I make, fix' (active simple past έφτιαξα)",
+       "ψάχνω 'I search (for)'"
+      ],
+      "deponent_examples": [
+       "δέχομαι 'I receive'",
+       "πετάγομαι 'I jump up'"
+      ],
+      "note": "imperfective stem in -γ-, -γγ-, -γχ-, -κ-, -σκ-, -χ- or -χν-"
+     }
+    ]
+   },
+   {
+    "subsection": "6.14.4",
+    "imperfective_stem_ending": "a dental consonant",
+    "groups": [
+     {
+      "group": "h",
+      "active_perfective": "-σ-",
+      "passive_perfective": "-στ-",
+      "model": "πείθω 'I persuade': έπεισα, πείστηκα",
+      "examples": [
+       "διαψεύδω 'I contradict'",
+       "†νιώθω 'I feel' (active simple past ένιωσα)",
+       "πλάθω 'I shape, mould'",
+       "†σπεύδω 'I hasten'"
+      ],
+      "note": "imperfective stem in -δ- or -θ-"
+     }
+    ]
+   },
+   {
+    "subsection": "6.14.5",
+    "imperfective_stem_ending": "-σσ- or -ττ-",
+    "groups": [
+     {
+      "group": "j",
+      "active_perfective": "-ξ-",
+      "passive_perfective": "-χτ- (or, more formally, -χθ-)",
+      "model": "κηρύσσω 'I proclaim': κήρυξα, κηρύχτηκα",
+      "examples": [
+       "αναπτύσσω 'I develop'",
+       "ανταλλάσσω 'I exchange'",
+       "επιφυλάσσω 'I keep in reserve'",
+       "†πλήττω 'I get bored'",
+       "συντάσσω 'I draw up, compile'"
+      ],
+      "deponent_examples": [
+       "εξελίσσομαι 'I develop'",
+       "υπαινίσσομαι 'I hint at'"
+      ]
+     }
+    ]
+   },
+   {
+    "subsection": "6.14.6",
+    "imperfective_stem_ending": "-ζ-",
+    "groups": [
+     {
+      "group": "k",
+      "active_perfective": "-σ-",
+      "passive_perfective": "-στ- (or, more formally, -σθ-)",
+      "model": "εξετάζω 'I examine': εξέτασα, εξετάστηκα",
+      "examples": [
+       "†αδειάζω 'I empty' (active simple past άδειασα)",
+       "αναγκάζω 'I compel'",
+       "γνωρίζω 'I know, get to know'",
+       "δανείζω 'I lend'",
+       "διαβάζω 'I read'",
+       "ζαλίζω 'I make dizzy'",
+       "κουράζω 'I tire'"
+      ],
+      "deponent_examples": [
+       "αγωνίζομαι 'I struggle'",
+       "εργάζομαι 'I work'",
+       "φαντάζομαι 'I imagine'",
+       "χρειάζομαι 'I need'"
+      ],
+      "note": "the great majority of verbs in -άζω or -ίζω form their perfective stems this way; common exceptions in (l)"
+     },
+     {
+      "group": "l",
+      "active_perfective": "-ξ-",
+      "passive_perfective": "-χτ- (or, more formally, -χθ-)",
+      "model": "πειράζω 'I annoy': πείραξα, πειράχτηκα",
+      "examples": [
+       "αγγίζω 'I touch'",
+       "αλλάζω 'I change'",
+       "†βουλιάζω 'I sink' (active simple past βούλιαξα)",
+       "κοιτάζω 'I look at'",
+       "κράζω 'I call'",
+       "†νυστάζω 'I am sleepy'",
+       "παίζω 'I play'",
+       "στηρίζω 'I support'",
+       "σφάζω 'I slaughter'",
+       "τινάζω 'I shake'",
+       "†τρίζω 'I creak'",
+       "†τρομάζω 'I scare, take fright'",
+       "†φωνάζω 'I call, shout'"
+      ]
+     }
+    ]
+   },
+   {
+    "subsection": "6.14.7",
+    "imperfective_stem_ending": "-ν- (after a vowel)",
+    "groups": [
+     {
+      "group": "m",
+      "active_perfective": "-σ-",
+      "passive_perfective": "-θ-",
+      "model": "δένω 'I tie': έδεσα, δέθηκα",
+      "examples": [
+       "απλώνω 'I spread'",
+       "γδύνω 'I undress'",
+       "λύνω 'I undo'",
+       "ντύνω 'I dress'",
+       "σηκώνω 'I lift'",
+       "χάνω 'I lose'",
+       "χύνω 'I pour'",
+       "ψήνω 'I roast'",
+       "and all verbs ending in -ώνω, except ζώνω"
+      ]
+     },
+     {
+      "group": "n",
+      "active_perfective": "-σ-",
+      "passive_perfective": "-στ-",
+      "model": "κλείνω 'I close': έκλεισα, κλείστηκα",
+      "examples": [
+       "ζώνω 'I encircle'",
+       "ξύνω 'I scratch'",
+       "πιάνω 'I catch' (active simple past έπιασα)",
+       "σβήνω 'I extinguish'",
+       "†φτάνω 'I arrive'",
+       "†φτύνω 'I spit'"
+      ]
+     },
+     {
+      "group": "o",
+      "active_perfective": "-ν-",
+      "passive_perfective": "-θ-",
+      "model": "κρίνω 'I judge': έκρινα, κρίθηκα",
+      "examples": [
+       "διακρίνω 'I distinguish'",
+       "†κλίνω 'I incline'"
+      ],
+      "deponent_examples": [
+       "ανταποκρίνομαι 'I correspond'"
+      ]
+     },
+     {
+      "group": "p",
+      "active_perfective": "-ν-",
+      "passive_perfective": "-νθ-",
+      "model": "μολύνω 'I pollute': μόλυνα, μολύνθηκα",
+      "examples": [
+       "απευθύνω 'I address'",
+       "αποθαρρύνω 'I discourage'",
+       "απομακρύνω 'I remove'",
+       "διευθύνω 'I manage'",
+       "ενθαρρύνω 'I encourage'",
+       "μεγεθύνω 'I enlarge, magnify'",
+       "οξύνω 'I sharpen, aggravate'"
+      ],
+      "deponent_examples": [
+       "αισθάνομαι 'I feel'",
+       "αμύνομαι 'I defend myself'"
+      ]
+     }
+    ],
+    "verbs_in_-αίνω_six_types": [
+     {
+      "group": "q",
+      "active_perfective": "-αν-",
+      "passive_perfective": "-ανθ-",
+      "model": "θερμαίνω 'I warm': θέρμανα, θερμάνθηκα",
+      "examples": [
+       "†ανασαίνω 'I breathe'",
+       "απολυμαίνω 'I disinfect'",
+       "επισημαίνω 'I point out'",
+       "ευφραίνω 'I gladden'",
+       "†πεθαίνω 'I die'",
+       "†συμπεραίνω 'I conclude'",
+       "υγραίνω 'I moisten'",
+       "υφαίνω 'I weave'"
+      ],
+      "deponent_examples": [
+       "κυμαίνομαι 'I fluctuate'"
+      ]
+     },
+     {
+      "group": "r",
+      "active_perfective": "-αν-",
+      "passive_perfective": "-αθ-",
+      "model": "τρελαίνω 'I madden': τρέλανα, τρελάθηκα",
+      "examples": [
+       "βουβαίνω 'I strike dumb'",
+       "γλυκαίνω 'I sweeten'",
+       "ζεσταίνω 'I warm'",
+       "κουφαίνω 'I deafen'",
+       "μαραίνω 'I wither'",
+       "ξεραίνω 'I dry'",
+       "πικραίνω 'I make bitter'"
+      ],
+      "deponent_examples": [
+       "σιχαίνομαι 'I detest'"
+      ]
+     },
+     {
+      "group": "s",
+      "active_perfective": "-υν-",
+      "passive_perfective": "(no passive perfective forms)",
+      "model": "†βαραίνω 'I weigh down (on)': βάρυνα",
+      "examples": [
+       "†ακριβαίνω 'I raise the price of, become dearer'",
+       "†ασχημαίνω 'I make ugly, become ugly'",
+       "†βαθαίνω 'I deepen'",
+       "†ελαφραίνω 'I lighten'",
+       "†κονταίνω 'I shorten'",
+       "†μακραίνω 'I lengthen'",
+       "†παχαίνω 'I fatten, become fat'",
+       "†πληθαίνω 'I increase'",
+       "†σκληραίνω 'I harden'",
+       "†φτωχαίνω 'I make poor, become poor'",
+       "†χοντραίνω 'I get fat'"
+      ]
+     },
+     {
+      "group": "t",
+      "active_perfective": "(drops the syllable -αιν-)",
+      "passive_perfective": "(normally no passive perfective forms)",
+      "model": "†παθαίνω 'I suffer': έπαθα",
+      "examples": [
+       "†αποτυχαίνω 'I fail' (simple past απέτυχα)",
+       "†καταλαβαίνω 'I understand'",
+       "†λαχαίνω 'I come across, happen'",
+       "μαθαίνω 'I learn' (see table of irregular verbs)",
+       "†πετυχαίνω 'I succeed'",
+       "†πηγαίνω 'I go' (see table of irregular verbs)",
+       "†προλαβαίνω 'I have time to do, catch'",
+       "†τυχαίνω 'I chance'"
+      ]
+     },
+     {
+      "group": "u",
+      "active_perfective": "-ασ-",
+      "passive_perfective": "(no passive perfective forms)",
+      "model": "†χορταίνω 'I satisfy, become satisfied': χόρτασα",
+      "examples": [
+       "†προφταίνω 'I do something in time'",
+       "†σωπαίνω 'I fall silent'"
+      ]
+     },
+     {
+      "group": "v",
+      "active_perfective": "-ησ-",
+      "passive_perfective": "-ηθ-",
+      "model": "αυξαίνω 'I increase': αύξησα, αυξήθηκα",
+      "examples": [
+       "†αμαρταίνω (or αμαρτάνω) 'I sin'",
+       "ανασταίνω 'I resurrect'",
+       "†αρρωσταίνω 'I fall ill'",
+       "†βλασταίνω (or βλαστάνω) 'I sprout'"
+      ]
+     }
+    ]
+   },
+   {
+    "subsection": "6.14.8",
+    "imperfective_stem_ending": "-αρ- or -ιρ-",
+    "groups": [
+     {
+      "group": "w",
+      "active_perfective": "-αρισ-/-ιρισ- or -αρ-/-ιρ- (see note)",
+      "passive_perfective": "-αριστ-/-ιριστ-",
+      "model": "σοκάρω 'I shock': σόκαρα or σοκάρισα, σοκαρίστηκα",
+      "examples": [
+       "γαρνίρω 'I garnish'",
+       "λουστράρω 'I shine'",
+       "†μπαρκάρω 'I embark'",
+       "μπλοκάρω 'I block'",
+       "πακετάρω 'I pack up'",
+       "†παρκάρω 'I park'",
+       "†πασάρω 'I pass (on)'",
+       "†ποζάρω 'I pose'",
+       "προβάρω 'I try on, try out'",
+       "σερβίρω 'I serve'",
+       "τρακάρω 'I crash'",
+       "τσεκάρω 'I check, tick'",
+       "†φλερτάρω 'I flirt'",
+       "†φρενάρω 'I brake'"
+      ],
+      "note": "The active perfective forms with the extra syllable -ισ- are only found for the singular and 3pl of the simple past, not in the dependent."
+     }
+    ],
+    "worked_example_παρκάρω": {
+     "simple_past_active": {
+      "1sg": "παρκάρισα/πάρκαρα",
+      "2sg": "παρκάρισες/πάρκαρες",
+      "3sg": "παρκάρισε/πάρκαρε",
+      "1pl": "παρκάραμε",
+      "2pl": "παρκάρατε",
+      "3pl": "παρκάρισαν/πάρκαραν/παρκάρανε"
+     },
+     "dependent": "παρκάρω etc."
+    }
+   },
+   {
+    "important_note": "The lists include only the more common verbs; further examples are in the authors' Comprehensive Grammar (2nd edn, pp. 171-85). Consult a good dictionary for others. Dagger (†) marks verbs with no passive perfective forms."
+   }
+  ],
+  "second_conjugation_exceptions_6.15": [
+   {
+    "section": "6.15 (introduction)",
+    "rule": "Most second-conjugation verbs (types A and B) form their perfective stems by adding -ησ- (active) and -ηθ- (passive) to the imperfective stem (e.g. γεννώ: γέννησα, γεννήθηκα). Exceptions are listed below, with the conjugation type (A/B) shown for each verb; † = no passive perfective forms."
+   },
+   {
+    "group": "a",
+    "active_perfective": "-ασ-",
+    "passive_perfective": "-αστ-",
+    "model": "κρεμώ (A) 'I hang': κρέμασα, κρεμάστηκα",
+    "examples": [
+     "(αντ)ανακλώ (A) 'I reflect'",
+     "αποσπώ (A) 'I detach, send on secondment'",
+     "γελώ (A) 'I laugh, deceive'",
+     "†διψώ (A) 'I am thirsty'",
+     "†δρω (A) 'I act' (active simple past έδρασα)",
+     "ξεγελώ (A) 'I fool'",
+     "†ξεσπώ (A) 'I break out'",
+     "†πεινώ (A) 'I am hungry'",
+     "†σπάω (A) 'I break' (active simple past έσπασα)",
+     "†σχολώ (A) 'I finish work'",
+     "χαλώ (A) 'I spoil'",
+     "†χαμογελώ (A) 'I smile'"
+    ],
+    "deponent_examples": [
+     "καταριέμαι (A) 'I curse'"
+    ]
+   },
+   {
+    "group": "b",
+    "active_perfective": "-εσ-",
+    "passive_perfective": "-εστ-",
+    "model": "αποτελώ (B) 'I constitute': αποτέλεσα, αποτελέστηκα",
+    "examples": [
+     "αρκώ (B) 'I suffice, limit'",
+     "†διαρκώ (B) 'I last'",
+     "†διατελώ (B) 'I remain, am'",
+     "καλώ (B) 'I call'",
+     "†καρτερώ (A/B) 'I wait'",
+     "†μπορώ (B) 'I can'",
+     "συντελώ (B) 'I contribute'",
+     "χωρώ (A/B) 'I contain, fit (into)'"
+    ]
+   },
+   {
+    "group": "c",
+    "active_perfective": "-εσ-",
+    "passive_perfective": "-εθ-",
+    "model": "επαινώ (B) 'I praise': επαίνεσα, επαινέθηκα",
+    "examples": [
+     "αφαιρώ (B) 'I remove'",
+     "†βαρώ (A) 'I beat, sound'",
+     "διαιρώ (B) 'I divide'",
+     "εξαιρώ (B) 'I except'",
+     "καταφρονώ (B) 'I despise'",
+     "†πονώ (A/B) 'I pain, hurt'",
+     "στενοχωρώ (A/B) 'I distress' (also -ησ-, -ηθ-)",
+     "φορώ (A) 'I put on, wear'"
+    ],
+    "deponent_examples": [
+     "βαριέμαι (A) 'I am bored, fed up'",
+     "παραπονιέμαι (A) 'I complain'"
+    ]
+   },
+   {
+    "group": "d",
+    "active_perfective": "-αξ-",
+    "passive_perfective": "-αχτ-",
+    "model": "πετώ (A) 'I throw, fly': πέταξα, πετάχτηκα",
+    "examples": [
+     "βαστώ (A) 'I bear'",
+     "κοιτώ (A) 'I look at' (alternative to κοιτάζω)"
+    ]
+   },
+   {
+    "group": "e",
+    "active_perfective": "-ηξ-",
+    "passive_perfective": "-ηχτ-",
+    "model": "τραβώ (A) 'I pull': τράβηξα, τραβήχτηκα",
+    "examples": [
+     "†βογκώ (A) 'I groan'",
+     "βουτώ (A) 'I dive'",
+     "†βροντώ (A) 'I thunder' (active perfective also -ησ-)",
+     "ζουλώ (A) 'I squeeze'",
+     "πηδώ (A) 'I jump' (active perfective also -ησ-)",
+     "ρουφώ (A) 'I suck'",
+     "σκουντώ (A) 'I prod'",
+     "†φυσώ (A) 'I blow'",
+     "†χυμώ (A) 'I rush'"
+    ]
+   },
+   {
+    "group": "f",
+    "active_perfective": "-ασ-",
+    "passive_perfective": "-αστ-",
+    "model": "ξεχνώ (A) 'I forget': ξέχασα, ξεχάστηκα",
+    "examples": [
+     "†γερνώ (A) 'I grow old'",
+     "κερνώ (A) 'I treat [e.g. to a drink]'",
+     "ξεπερνώ (A) 'I exceed'",
+     "†ξερνώ (A) 'I vomit'",
+     "περνώ (A) 'I pass'"
+    ],
+    "note": "verbs whose imperfective stem ends in a consonant + -ν-"
+   }
+  ]
+ },
+ "irregular_verbs_6.25": {
+  "section": "6.25",
+  "pdf_pages": "43-50",
+  "rule": [
+   "Table of the most common irregular verbs. 'dependent' / 'perfective_imperative' / 'imperfect' appear only when irregular. Null = no such form exists. Parentheses mark rarely used forms."
+  ],
+  "columns": [
+   "present",
+   "conjugation_type (2nd-conj. only)",
+   "meaning",
+   "active_simple_past",
+   "dependent",
+   "perfective_imperative",
+   "imperfect",
+   "passive_simple_past",
+   "passive_dependent",
+   "passive_perfect_participle",
+   "pdf_page"
+  ],
+  "verbs": [
+   {
+    "present": "ακουμπώ",
+    "conjugation_type": "A",
+    "meaning": "lean",
+    "active_simple_past": "ακούμπησα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "ακουμπισμένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "αναβάλλω",
+    "meaning": "postpone",
+    "active_simple_past": "ανέβαλα",
+    "passive_simple_past": "αναβλήθηκα",
+    "passive_perfect_participle": "αναβλημένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "ανακλώ",
+    "conjugation_type": "A",
+    "meaning": "reflect",
+    "active_simple_past": "ανέκλασα",
+    "passive_simple_past": "ανακλάστηκα",
+    "passive_perfect_participle": "ανακλασμένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "αναμιγνύω",
+    "meaning": "mix",
+    "active_simple_past": "ανέμιξα",
+    "passive_simple_past": "αναμίχθηκα",
+    "passive_perfect_participle": "ανα(με)μιγμένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "ανασταίνω",
+    "meaning": "resurrect",
+    "active_simple_past": "ανάστησα",
+    "passive_simple_past": "αναστήθηκα",
+    "passive_perfect_participle": "αναστημένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "ανατέλλω",
+    "meaning": "rise",
+    "active_simple_past": "ανάτειλα/ανέτειλα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 43
+   },
+   {
+    "present": "ανεβαίνω",
+    "meaning": "go up",
+    "active_simple_past": "ανέβηκα",
+    "dependent": "ανέβω/ανεβώ",
+    "perfective_imperative": "ανέβα, ανεβείτε",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "ανεβασμένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "ανέχομαι",
+    "meaning": "tolerate",
+    "active_simple_past": "ανέχτηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 43
+   },
+   {
+    "present": "αντέχω",
+    "meaning": "endure",
+    "active_simple_past": "άντεξα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 43
+   },
+   {
+    "present": "απαλλάσσω",
+    "meaning": "exempt",
+    "active_simple_past": "απάλλαξα",
+    "passive_simple_past": "απαλλάχτηκα",
+    "passive_dependent": "απαλλαγώ",
+    "passive_perfect_participle": "απαλλαγμένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "απέχω",
+    "meaning": "am far from",
+    "active_simple_past": null,
+    "imperfect": "απείχα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 43
+   },
+   {
+    "present": "αποδεικνύω",
+    "meaning": "prove",
+    "active_simple_past": "απέδειξα",
+    "passive_simple_past": "αποδείχθηκα",
+    "passive_perfect_participle": "απο(δε)δειγμένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "απολαμβάνω",
+    "meaning": "enjoy",
+    "active_simple_past": "απήλαυσα",
+    "dependent": "απολαύσω",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 43
+   },
+   {
+    "present": "απονέμω",
+    "meaning": "award",
+    "active_simple_past": "απένειμα",
+    "passive_simple_past": "απονεμήθηκα",
+    "passive_perfect_participle": "απονεμημένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "αποσπώ",
+    "conjugation_type": "A",
+    "meaning": "detach",
+    "active_simple_past": "απέσπασα",
+    "passive_simple_past": "αποσπάστηκα",
+    "passive_perfect_participle": "αποσπασμένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "αποτελώ",
+    "conjugation_type": "B",
+    "meaning": "constitute",
+    "active_simple_past": "αποτέλεσα",
+    "passive_simple_past": "αποτελέστηκα",
+    "passive_perfect_participle": "αποτελεσμένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "αποτυχαίνω",
+    "meaning": "fail",
+    "active_simple_past": "απέτυχα",
+    "dependent": "αποτύχω",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "αποτυχημένος",
+    "pdf_page": 43
+   },
+   {
+    "present": "αρέσω",
+    "meaning": "please",
+    "active_simple_past": "άρεσα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 44
+   },
+   {
+    "present": "αρκώ",
+    "conjugation_type": "B",
+    "meaning": "suffice",
+    "active_simple_past": "άρκεσα/ήρκεσα",
+    "passive_simple_past": "αρκέστηκα",
+    "passive_perfect_participle": null,
+    "pdf_page": 44
+   },
+   {
+    "present": "αυξάνω/-αίνω",
+    "meaning": "increase",
+    "active_simple_past": "αύξησα",
+    "passive_simple_past": "αυξήθηκα",
+    "passive_perfect_participle": "αυξημένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "αφαιρώ",
+    "conjugation_type": "B",
+    "meaning": "remove",
+    "active_simple_past": "αφαίρεσα",
+    "passive_simple_past": "αφαιρέθηκα",
+    "passive_perfect_participle": "αφηρημένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "αφήνω",
+    "meaning": "leave",
+    "active_simple_past": "άφησα",
+    "perfective_imperative": "άφησε/άσε, αφήστε/άστε",
+    "passive_simple_past": "αφέθηκα",
+    "passive_perfect_participle": "αφημένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "βάζω",
+    "meaning": "put",
+    "active_simple_past": "έβαλα",
+    "passive_simple_past": "βάλθηκα",
+    "passive_perfect_participle": "βαλμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "βαριέμαι",
+    "meaning": "am bored",
+    "active_simple_past": "βαρέθηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 44
+   },
+   {
+    "present": "βαρώ",
+    "conjugation_type": "A",
+    "meaning": "strike",
+    "active_simple_past": "βάρεσα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 44
+   },
+   {
+    "present": "βαστώ",
+    "conjugation_type": "A",
+    "meaning": "bear",
+    "active_simple_past": "βάσταξα/βάστηξα",
+    "passive_simple_past": "βαστάχτηκα/βαστήχτηκα",
+    "passive_perfect_participle": "βαστα(γ)μένος/βαστη(γ)μένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "βγάζω",
+    "meaning": "take out",
+    "active_simple_past": "έβγαλα",
+    "passive_simple_past": "βγάλθηκα",
+    "passive_perfect_participle": "βγαλμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "βγαίνω",
+    "meaning": "go out",
+    "active_simple_past": "βγήκα",
+    "perfective_imperative": "βγες/έβγα, βγείτε",
+    "dependent": "βγω",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "βγαλμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "βλέπω",
+    "meaning": "see",
+    "active_simple_past": "είδα",
+    "perfective_imperative": "δες, δέστε/δείτε",
+    "dependent": "δω",
+    "passive_simple_past": "ειδώθηκα",
+    "passive_dependent": "ιδωθώ",
+    "passive_perfect_participle": "ιδωμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "βογκώ",
+    "conjugation_type": "A",
+    "meaning": "groan",
+    "active_simple_past": "βόγκηξα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 44
+   },
+   {
+    "present": "βόσκω",
+    "meaning": "graze",
+    "active_simple_past": "βόσκησα",
+    "passive_simple_past": "(βοσκήθηκα)",
+    "passive_perfect_participle": "βοσκημένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "βουτώ",
+    "conjugation_type": "A",
+    "meaning": "dive",
+    "active_simple_past": "βούτηξα",
+    "passive_simple_past": "βουτήχτηκα",
+    "passive_perfect_participle": "βουτηγμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "βρέχω",
+    "meaning": "wet",
+    "active_simple_past": "έβρεξα",
+    "passive_simple_past": "βράχηκα",
+    "passive_perfect_participle": "βρε(γ)μένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "βρίσκω",
+    "meaning": "find",
+    "active_simple_past": "βρήκα",
+    "perfective_imperative": "βρες, βρείτε",
+    "dependent": "βρω",
+    "passive_simple_past": "βρέθηκα",
+    "passive_perfect_participle": null,
+    "pdf_page": 44
+   },
+   {
+    "present": "βροντώ",
+    "conjugation_type": "A",
+    "meaning": "thunder",
+    "active_simple_past": "βρόντηξα/βρόντησα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 44
+   },
+   {
+    "present": "βυζαίνω",
+    "meaning": "suckle",
+    "active_simple_past": "βύζαξα",
+    "passive_simple_past": "βυζάχτηκα",
+    "passive_perfect_participle": "βυζαγμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "γδέρνω",
+    "meaning": "skin",
+    "active_simple_past": "έγδαρα",
+    "passive_simple_past": "γδάρθηκα",
+    "passive_perfect_participle": "γδαρμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "γελώ",
+    "conjugation_type": "A",
+    "meaning": "laugh",
+    "active_simple_past": "γέλασα",
+    "passive_simple_past": "γελάστηκα",
+    "passive_perfect_participle": "γελασμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "γέρνω",
+    "meaning": "lean",
+    "active_simple_past": "έγειρα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "γερμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "γερνώ",
+    "conjugation_type": "A",
+    "meaning": "grow old",
+    "active_simple_past": "γέρασα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "γερασμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "γίνομαι",
+    "meaning": "become",
+    "active_simple_past": "έγινα",
+    "dependent": "γίνω",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "γινωμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "δέομαι",
+    "meaning": "pray",
+    "active_simple_past": "δεήθηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 44
+   },
+   {
+    "present": "δέρνω",
+    "meaning": "beat",
+    "active_simple_past": "έδειρα",
+    "passive_simple_past": "δάρθηκα",
+    "passive_perfect_participle": "δαρμένος",
+    "pdf_page": 44
+   },
+   {
+    "present": "διαβαίνω",
+    "meaning": "pass (by)",
+    "active_simple_past": "διάβηκα",
+    "dependent": "διαβώ",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 45
+   },
+   {
+    "present": "διαθέτω",
+    "meaning": "dispose",
+    "active_simple_past": "διέθεσα",
+    "passive_simple_past": "διατέθηκα",
+    "passive_perfect_participle": "διατεθειμένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "διακόπτω",
+    "meaning": "interrupt",
+    "active_simple_past": "διέκοψα",
+    "passive_simple_past": "διακόπηκα",
+    "passive_perfect_participle": "διακεκομμένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "διαμαρτύρομαι",
+    "meaning": "protest",
+    "active_simple_past": "διαμαρτυρήθηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 45
+   },
+   {
+    "present": "δίνω",
+    "meaning": "give",
+    "active_simple_past": "έδωσα",
+    "passive_simple_past": "δόθηκα",
+    "passive_perfect_participle": "δοσμένος/δεδομένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "διψώ",
+    "conjugation_type": "A",
+    "meaning": "am thirsty",
+    "active_simple_past": "δίψασα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "διψασμένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "δρω",
+    "conjugation_type": "A",
+    "meaning": "act",
+    "active_simple_past": "έδρασα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 45
+   },
+   {
+    "present": "εγείρω",
+    "meaning": "erect",
+    "active_simple_past": "ήγειρα",
+    "passive_simple_past": "εγέρθηκα",
+    "passive_perfect_participle": "εγερμένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "εισάγω",
+    "meaning": "import",
+    "active_simple_past": "εισήγαγα",
+    "dependent": "εισαγάγω",
+    "passive_simple_past": "εισάχθηκα",
+    "passive_perfect_participle": "εισηγμένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "εκλέγω",
+    "meaning": "elect",
+    "active_simple_past": "εξέλεξα",
+    "dependent": "εκλέξω",
+    "passive_simple_past": "εκλέχτηκα",
+    "passive_dependent": "εκλεγώ",
+    "passive_perfect_participle": "εκλεγμένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "εκπλήσσω",
+    "meaning": "surprise",
+    "active_simple_past": "εξέπληξα",
+    "dependent": "εκπλήξω",
+    "passive_simple_past": "εξεπλάγην",
+    "passive_dependent": "εκπλαγώ",
+    "passive_perfect_participle": null,
+    "pdf_page": 45
+   },
+   {
+    "present": "εκρήγνυμαι",
+    "meaning": "explode",
+    "active_simple_past": "εξερράγην",
+    "dependent": "εκραγώ",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 45
+   },
+   {
+    "present": "εκτείνω",
+    "meaning": "extend",
+    "active_simple_past": "εξέτεινα",
+    "dependent": "εκτείνω",
+    "passive_simple_past": "εκτάθηκα",
+    "passive_perfect_participle": "εκτεταμένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "επαινώ",
+    "conjugation_type": "B",
+    "meaning": "praise",
+    "active_simple_past": "επαίνεσα",
+    "passive_simple_past": "επαινέθηκα",
+    "passive_perfect_participle": "(ε)παινεμένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "επεμβαίνω",
+    "meaning": "intervene",
+    "active_simple_past": "επενέβηκα/επενέβην",
+    "dependent": "επέμβω",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 45
+   },
+   {
+    "present": "εξάγω",
+    "meaning": "export",
+    "active_simple_past": "εξήγαγα",
+    "dependent": "εξαγάγω",
+    "passive_simple_past": "εξάχθηκα",
+    "passive_perfect_participle": "εξηγμένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "εξαιρώ",
+    "conjugation_type": "B",
+    "meaning": "except",
+    "active_simple_past": "εξαίρεσα/εξήρεσα",
+    "dependent": "εξαιρέσω",
+    "passive_simple_past": "εξαιρέθηκα",
+    "passive_perfect_participle": "εξηρημένος",
+    "pdf_page": 45
+   },
+   {
+    "present": "έρχομαι",
+    "meaning": "come",
+    "active_simple_past": "ήρθα/ήλθα",
+    "dependent": "έρθω/έλθω",
+    "perfective_imperative": "έλα, ελάτε",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 45
+   },
+   {
+    "present": "εύχομαι",
+    "meaning": "wish",
+    "active_simple_past": "ευχήθηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 45
+   },
+   {
+    "present": "εφευρίσκω",
+    "meaning": "invent",
+    "active_simple_past": "εφηύρα/εφεύρα",
+    "dependent": "εφεύρω",
+    "passive_simple_past": "εφευρέθηκα",
+    "passive_perfect_participle": null,
+    "pdf_page": 45
+   },
+   {
+    "present": "έχω",
+    "meaning": "have",
+    "active_simple_past": null,
+    "imperfect": "είχα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 46
+   },
+   {
+    "present": "ζουλώ",
+    "conjugation_type": "A",
+    "meaning": "squeeze",
+    "active_simple_past": "ζούληξα",
+    "passive_simple_past": "ζουλήχτηκα",
+    "passive_perfect_participle": "ζουληγμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "ζω",
+    "conjugation_type": "B",
+    "meaning": "live",
+    "active_simple_past": "έζησα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 46
+   },
+   {
+    "present": "θαρρώ",
+    "conjugation_type": "B",
+    "meaning": "believe",
+    "active_simple_past": "θάρρεψα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 46
+   },
+   {
+    "present": "θέλω",
+    "meaning": "want",
+    "active_simple_past": "θέλησα",
+    "imperfect": "ήθελα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "ηθελημένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "θέτω",
+    "meaning": "place",
+    "active_simple_past": "έθεσα",
+    "passive_simple_past": "τέθηκα",
+    "passive_perfect_participle": null,
+    "pdf_page": 46
+   },
+   {
+    "present": "θίγω",
+    "meaning": "touch",
+    "active_simple_past": "έθιξα",
+    "passive_simple_past": "θίχτηκα/εθίγην",
+    "passive_perfect_participle": "θιγμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "θρέφω (cf. τρέφω)",
+    "meaning": "nourish",
+    "active_simple_past": "έθρεψα",
+    "passive_simple_past": "θρέφτηκα",
+    "passive_perfect_participle": "θρεμμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "καθιστώ (pass. καθίσταμαι)",
+    "conjugation_type": "A",
+    "meaning": "render",
+    "active_simple_past": "κατέστησα",
+    "passive_simple_past": "κατέστην",
+    "passive_dependent": "καταστώ",
+    "passive_perfect_participle": "κατεστημένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "κάθομαι",
+    "meaning": "sit",
+    "active_simple_past": "κάθισα/έκατσα",
+    "perfective_imperative": "κάθισε/κάτσε, καθίστε",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "καθισμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "καίω",
+    "meaning": "burn",
+    "active_simple_past": "έκαψα",
+    "passive_simple_past": "κάηκα",
+    "passive_perfect_participle": "καμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "καλώ",
+    "conjugation_type": "B",
+    "meaning": "call",
+    "active_simple_past": "κάλεσα",
+    "passive_simple_past": "καλέστηκα",
+    "passive_perfect_participle": "καλεσμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "κάνω",
+    "meaning": "make",
+    "active_simple_past": "έκανα/έκαμα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "καμωμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "καρτερώ",
+    "conjugation_type": "A/B",
+    "meaning": "wait patiently",
+    "active_simple_past": "καρτέρεσα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 46
+   },
+   {
+    "present": "καταπίνω",
+    "meaning": "swallow",
+    "active_simple_past": "κατάπια",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 46
+   },
+   {
+    "present": "καταριέμαι",
+    "conjugation_type": "A",
+    "meaning": "curse",
+    "active_simple_past": "καταράστηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "καταραμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "καταφρονώ",
+    "conjugation_type": "B",
+    "meaning": "scorn",
+    "active_simple_past": "καταφρόνεσα",
+    "passive_simple_past": "καταφρονέθηκα",
+    "passive_perfect_participle": "καταφρονεμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "κατεβαίνω",
+    "meaning": "go down",
+    "active_simple_past": "κατέβηκα",
+    "dependent": "κατέβω/κατεβώ",
+    "perfective_imperative": "κατέβα, κατεβείτε",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "κατεβασμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "κερδίζω",
+    "meaning": "earn",
+    "active_simple_past": "κέρδισα",
+    "passive_simple_past": "κερδήθηκα",
+    "passive_perfect_participle": "κερδισμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "κερνώ",
+    "conjugation_type": "A",
+    "meaning": "treat",
+    "active_simple_past": "κέρασα",
+    "passive_simple_past": "κεράστηκα",
+    "passive_perfect_participle": "κερασμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "κλαίω",
+    "meaning": "weep",
+    "active_simple_past": "έκλαψα",
+    "passive_simple_past": "κλαύτηκα",
+    "passive_perfect_participle": "κλαμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "κλέβω",
+    "meaning": "steal",
+    "active_simple_past": "έκλεψα",
+    "passive_simple_past": "κλάπηκα (steal)/κλέφτηκα (elope)",
+    "passive_perfect_participle": "κλεμμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "κόβω",
+    "meaning": "cut",
+    "active_simple_past": "έκοψα",
+    "passive_simple_past": "κόπηκα",
+    "passive_perfect_participle": "κομμένος",
+    "pdf_page": 46
+   },
+   {
+    "present": "κοιτάζω/κοιτώ",
+    "conjugation_type": "A",
+    "meaning": "look",
+    "active_simple_past": "κοίταξα",
+    "passive_simple_past": "κοιτάχτηκα",
+    "passive_perfect_participle": "κοιταγμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "κρεμώ (pass. κρέμομαι)",
+    "conjugation_type": "A",
+    "meaning": "hang",
+    "active_simple_past": "κρέμασα",
+    "passive_simple_past": "κρεμάστηκα",
+    "passive_perfect_participle": "κρεμασμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "κυλώ",
+    "conjugation_type": "A",
+    "meaning": "roll",
+    "active_simple_past": "κύλησα",
+    "passive_simple_past": "κυλίστηκα",
+    "passive_perfect_participle": "κυλισμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "λαμβάνω/λαβαίνω",
+    "meaning": "receive",
+    "active_simple_past": "έλαβα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 47
+   },
+   {
+    "present": "λέ(γ)ω",
+    "meaning": "say",
+    "active_simple_past": "είπα",
+    "perfective_imperative": "πες, πέστε/πείτε",
+    "dependent": "πω",
+    "passive_simple_past": "λέχθηκα/ειπώθηκα",
+    "passive_perfect_participle": "ειπωμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "μαθαίνω",
+    "meaning": "learn",
+    "active_simple_past": "έμαθα",
+    "passive_simple_past": "μαθεύτηκα",
+    "passive_perfect_participle": "μαθημένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "μεθώ",
+    "conjugation_type": "A",
+    "meaning": "get drunk",
+    "active_simple_past": "μέθυσα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "μεθυσμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "μένω",
+    "meaning": "stay",
+    "active_simple_past": "έμεινα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 47
+   },
+   {
+    "present": "μπαίνω",
+    "meaning": "enter",
+    "active_simple_past": "μπήκα",
+    "perfective_imperative": "μπες/έμπα, μπείτε",
+    "dependent": "μπω",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "μπασμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "μπορώ",
+    "conjugation_type": "B",
+    "meaning": "am able",
+    "active_simple_past": "μπόρεσα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 47
+   },
+   {
+    "present": "ντρέπομαι",
+    "meaning": "am ashamed",
+    "active_simple_past": "ντράπηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 47
+   },
+   {
+    "present": "ξερνώ",
+    "conjugation_type": "A",
+    "meaning": "vomit",
+    "active_simple_past": "ξέρασα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "ξερασμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "ξέρω",
+    "meaning": "know",
+    "active_simple_past": null,
+    "imperfect": "ήξερα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 47
+   },
+   {
+    "present": "ξεχνώ",
+    "conjugation_type": "A",
+    "meaning": "forget",
+    "active_simple_past": "ξέχασα",
+    "passive_simple_past": "ξεχάστηκα",
+    "passive_perfect_participle": "ξεχασμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "παθαίνω",
+    "meaning": "suffer",
+    "active_simple_past": "έπαθα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "παθημένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "παίρνω",
+    "meaning": "take",
+    "active_simple_past": "πήρα",
+    "perfective_imperative": "πάρε, πάρτε",
+    "dependent": "πάρω",
+    "passive_simple_past": "πάρθηκα",
+    "passive_perfect_participle": "παρμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "παραγγέλλω",
+    "meaning": "order",
+    "active_simple_past": "παράγγειλα/παρήγγειλα",
+    "passive_simple_past": "παραγγέλθηκα",
+    "passive_perfect_participle": "παραγγελμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "παραδίδω/παραδίνω",
+    "meaning": "deliver",
+    "active_simple_past": "παρέδωσα",
+    "passive_simple_past": "παραδόθηκα",
+    "passive_perfect_participle": "παρα(δε)δομένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "παραπονιέμαι",
+    "conjugation_type": "A",
+    "meaning": "complain",
+    "active_simple_past": "παραπονέθηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "παραπονεμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "παρέχω",
+    "meaning": "provide",
+    "active_simple_past": null,
+    "dependent": "παράσχω",
+    "imperfect": "παρείχα",
+    "passive_simple_past": "παρασχέθηκα",
+    "passive_perfect_participle": null,
+    "pdf_page": 47
+   },
+   {
+    "present": "πάσχω",
+    "meaning": "suffer",
+    "active_simple_past": "έπαθα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 47
+   },
+   {
+    "present": "πεινώ",
+    "conjugation_type": "A",
+    "meaning": "am hungry",
+    "active_simple_past": "πείνασα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "πεινασμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "περνώ",
+    "conjugation_type": "A",
+    "meaning": "pass",
+    "active_simple_past": "πέρασα",
+    "passive_simple_past": "περάστηκα",
+    "passive_perfect_participle": "περασμένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "πετυχαίνω",
+    "meaning": "succeed",
+    "active_simple_past": "πέτυχα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "πετυχημένος",
+    "pdf_page": 47
+   },
+   {
+    "present": "πετώ",
+    "conjugation_type": "A",
+    "meaning": "throw",
+    "active_simple_past": "πέταξα",
+    "passive_simple_past": "πετάχτηκα",
+    "passive_perfect_participle": "πετα(γ)μένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "πέφτω",
+    "meaning": "fall",
+    "active_simple_past": "έπεσα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "πεσμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "πηγαίνω/πάω",
+    "meaning": "go",
+    "active_simple_past": "πήγα",
+    "perfective_imperative": "πήγαινε, πηγαίνετε",
+    "dependent": "πάω",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 48
+   },
+   {
+    "present": "πηδώ",
+    "conjugation_type": "A",
+    "meaning": "jump",
+    "active_simple_past": "πήδηξα/πήδησα",
+    "passive_simple_past": "πηδήχτηκα",
+    "passive_perfect_participle": "πηδηγμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "πίνω",
+    "meaning": "drink",
+    "active_simple_past": "ήπια",
+    "perfective_imperative": "πιες, πιέστε/πιείτε",
+    "dependent": "πιω",
+    "passive_simple_past": "πιώθηκα",
+    "passive_perfect_participle": "πιωμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "πλάττω/πλάσσω",
+    "meaning": "mould",
+    "active_simple_past": "έπλασα",
+    "passive_simple_past": "πλάστηκα",
+    "passive_perfect_participle": "πλασμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "πλένω",
+    "meaning": "wash",
+    "active_simple_past": "έπλυνα",
+    "passive_simple_past": "πλύθηκα",
+    "passive_perfect_participle": "πλυμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "πλήττω",
+    "meaning": "am bored",
+    "active_simple_past": "έπληξα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 48
+   },
+   {
+    "present": "πνίγω",
+    "meaning": "strangle, drown",
+    "active_simple_past": "έπνιξα",
+    "passive_simple_past": "πνίγηκα",
+    "passive_perfect_participle": "πνιγμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "πονώ",
+    "conjugation_type": "A",
+    "meaning": "hurt",
+    "active_simple_past": "πόνεσα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "πονεμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "πρήζω",
+    "meaning": "swell",
+    "active_simple_past": "έπρηξα",
+    "passive_simple_past": "πρήστηκα",
+    "passive_perfect_participle": "πρησμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "προβαίνω",
+    "meaning": "appear",
+    "active_simple_past": "πρόβαλα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 48
+   },
+   {
+    "present": "προβάλλω",
+    "meaning": "project",
+    "active_simple_past": "προέβαλα",
+    "passive_simple_past": "προβλήθηκα",
+    "passive_perfect_participle": "προ(βε)βλημένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "προβλέπω",
+    "meaning": "foresee",
+    "active_simple_past": "πρόβλεψα/προέβλεψα",
+    "passive_simple_past": "προβλέφθηκα",
+    "passive_perfect_participle": null,
+    "pdf_page": 48
+   },
+   {
+    "present": "προσκαλώ",
+    "meaning": "invite",
+    "active_simple_past": "προσκάλεσα",
+    "passive_simple_past": "προσκλήθηκα",
+    "passive_perfect_participle": "προσκεκλημένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "προτείνω",
+    "meaning": "suggest",
+    "active_simple_past": "πρότεινα",
+    "passive_simple_past": "προτάθηκα",
+    "passive_perfect_participle": null,
+    "pdf_page": 48
+   },
+   {
+    "present": "ρουφώ",
+    "conjugation_type": "A",
+    "meaning": "suck",
+    "active_simple_past": "ρούφηξα",
+    "passive_simple_past": "ρουφήχτηκα",
+    "passive_perfect_participle": "ρουφηγμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "σέβομαι",
+    "meaning": "respect",
+    "active_simple_past": "σεβάστηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 48
+   },
+   {
+    "present": "σέρνω",
+    "meaning": "drag",
+    "active_simple_past": "έσυρα",
+    "passive_simple_past": "σύρθηκα",
+    "passive_perfect_participle": "συρμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "σκουντώ",
+    "conjugation_type": "A",
+    "meaning": "prod",
+    "active_simple_past": "σκούντηξα/σκούντησα",
+    "passive_simple_past": "σκουντήχτηκα",
+    "passive_perfect_participle": "σκουντηγμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "σπάζω/σπάω",
+    "conjugation_type": "A",
+    "meaning": "break",
+    "active_simple_past": "έσπασα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "σπασμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "σπέρνω",
+    "meaning": "sow",
+    "active_simple_past": "έσπειρα",
+    "passive_simple_past": "σπάρθηκα",
+    "passive_perfect_participle": "σπαρμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "στέκομαι/στέκω",
+    "meaning": "stand",
+    "active_simple_past": "στάθηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 48
+   },
+   {
+    "present": "στέλνω",
+    "meaning": "send",
+    "active_simple_past": "έστειλα",
+    "passive_simple_past": "στάλθηκα",
+    "passive_perfect_participle": "σταλμένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "στενοχωρώ",
+    "conjugation_type": "A/B",
+    "meaning": "distress",
+    "active_simple_past": "στενοχώρεσα/στενοχώρησα",
+    "passive_simple_past": "στενοχωρέθηκα/στενοχωρήθηκα",
+    "passive_perfect_participle": "στενοχωρημένος",
+    "pdf_page": 48
+   },
+   {
+    "present": "στρέφω",
+    "meaning": "turn",
+    "active_simple_past": "έστρεψα",
+    "passive_simple_past": "στράφηκα",
+    "passive_perfect_participle": "στραμμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "συγχαίρω",
+    "meaning": "congratulate",
+    "active_simple_past": "συγχάρηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "συμβαίνει",
+    "meaning": "happens",
+    "active_simple_past": "συνέβη",
+    "dependent": "συμβεί",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "συμμετέχω",
+    "meaning": "participate",
+    "active_simple_past": null,
+    "dependent": "συμμετάσχω",
+    "imperfect": "συμμετείχα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "συμπίπτω",
+    "meaning": "coincide",
+    "active_simple_past": "συνέπεσα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "σφάλλω",
+    "meaning": "am mistaken",
+    "active_simple_past": "έσφαλα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "εσφαλμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "σχολώ",
+    "conjugation_type": "A",
+    "meaning": "stop work",
+    "active_simple_past": "σχόλασα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "σχολασμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "σώζω",
+    "meaning": "save",
+    "active_simple_past": "έσωσα",
+    "passive_simple_past": "σώθηκα",
+    "passive_perfect_participle": "σωσμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "σωπαίνω",
+    "meaning": "am silent",
+    "active_simple_past": "σώπασα",
+    "perfective_imperative": "σώπα/σώπασε, σωπάτε/σωπάστε",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "τελώ",
+    "conjugation_type": "B",
+    "meaning": "perform",
+    "active_simple_past": "τέλεσα",
+    "passive_simple_past": "τελέστηκα",
+    "passive_perfect_participle": "(τε)τελεσμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "τραβώ",
+    "conjugation_type": "A",
+    "meaning": "pull",
+    "active_simple_past": "τράβηξα",
+    "passive_simple_past": "τραβήχτηκα",
+    "passive_perfect_participle": "τραβηγμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "τρέπω",
+    "meaning": "turn",
+    "active_simple_past": "έτρεψα",
+    "passive_simple_past": "τράπηκα",
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "τρέφω",
+    "meaning": "nourish",
+    "active_simple_past": "έθρεψα",
+    "passive_simple_past": "τράφηκα",
+    "passive_perfect_participle": "θρεμμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "τρώω",
+    "meaning": "eat",
+    "active_simple_past": "έφαγα",
+    "perfective_imperative": "φά(γ)ε, φάτε",
+    "dependent": "φάω",
+    "passive_simple_past": "φαγώθηκα",
+    "passive_perfect_participle": "φαγωμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "υπάρχω",
+    "meaning": "exist",
+    "active_simple_past": "υπήρξα",
+    "dependent": "υπάρξω",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "υπόσχομαι",
+    "meaning": "promise",
+    "active_simple_past": "υποσχέθηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "(υποσχεμένος)",
+    "pdf_page": 49
+   },
+   {
+    "present": "υφίσταμαι",
+    "meaning": "exist, undergo",
+    "active_simple_past": "υπέστην",
+    "dependent": "υποστώ",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "φαίνομαι",
+    "meaning": "appear",
+    "active_simple_past": "φάνηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "φέρνω",
+    "meaning": "bring",
+    "active_simple_past": "έφερα",
+    "passive_simple_past": "φέρθηκα",
+    "passive_perfect_participle": "φερμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "φεύγω",
+    "meaning": "leave",
+    "active_simple_past": "έφυγα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "φθείρω",
+    "meaning": "corrupt",
+    "active_simple_past": "έφθειρα",
+    "passive_simple_past": "φθάρ(θ)ηκα",
+    "passive_perfect_participle": "φθαρμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "φορώ",
+    "conjugation_type": "A/B",
+    "meaning": "wear",
+    "active_simple_past": "φόρεσα",
+    "passive_simple_past": "φορέθηκα",
+    "passive_perfect_participle": "φορεμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "φταίω",
+    "meaning": "am to blame",
+    "active_simple_past": "έφταιξα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 49
+   },
+   {
+    "present": "φυλά(γ)ω",
+    "meaning": "guard",
+    "active_simple_past": "φύλαξα",
+    "passive_simple_past": "φυλάχτηκα",
+    "passive_perfect_participle": "φυλαγμένος",
+    "pdf_page": 49
+   },
+   {
+    "present": "φυσώ",
+    "conjugation_type": "A",
+    "meaning": "blow",
+    "active_simple_past": "φύσηξα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 50
+   },
+   {
+    "present": "χαίρομαι/χαίρω",
+    "meaning": "am glad",
+    "active_simple_past": "χάρηκα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 50
+   },
+   {
+    "present": "χαλώ",
+    "conjugation_type": "A",
+    "meaning": "spoil",
+    "active_simple_past": "χάλασα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "χαλασμένος",
+    "pdf_page": 50
+   },
+   {
+    "present": "χορταίνω",
+    "meaning": "am satiated",
+    "active_simple_past": "χόρτασα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": "χορτασμένος",
+    "pdf_page": 50
+   },
+   {
+    "present": "χυμώ",
+    "conjugation_type": "A",
+    "meaning": "swoop",
+    "active_simple_past": "χύμηξα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 50
+   },
+   {
+    "present": "χωρώ",
+    "conjugation_type": "A/B",
+    "meaning": "fit in",
+    "active_simple_past": "χώρεσα",
+    "passive_simple_past": null,
+    "passive_perfect_participle": null,
+    "pdf_page": 50
+   },
+   {
+    "present": "ψάλλω/ψέλνω",
+    "meaning": "chant",
+    "active_simple_past": "έψαλα",
+    "passive_simple_past": "ψάλθηκα",
+    "passive_perfect_participle": "ψαλμένος",
+    "pdf_page": 50
+   }
+  ],
+  "learned_simple_past_forms_in_-ην": {
+   "note": "A few simple pasts in -ην (active or passive) come from the learned language and are used mainly in formal contexts. 1st and 2nd person plural are not normally used. Compare συνέβη 'it happened' (simple past of συμβαίνει).",
+   "example_κατέστην_'I was rendered, made'": {
+    "1sg": "κατέστην",
+    "2sg": "κατέστης",
+    "3sg": "κατέστη",
+    "1pl": null,
+    "2pl": null,
+    "3pl": "κατέστησαν"
+   }
+  }
+ },
+ "verb_phrase_predicates": {
+  "section": "6.1 (end)",
+  "pdf_pages": "1",
+  "rule": [
+   "A verb of the 'be/become' type takes a subject predicate (adjective phrase or noun phrase) that agrees with the subject.",
+   "Some transitive verbs take, besides the direct object, an object predicate (adjective or noun phrase). It agrees with the object in case (accusative) and, if adjectival, in number and gender."
+  ],
+  "examples": [
+   {
+    "el": "Η αδελφή του είναι/έγινε πολύ νευρική.",
+    "en": "His sister is/has become very neurotic."
+   },
+   {
+    "el": "Ο Νίκος είναι/έγινε η σωτηρία της.",
+    "en": "Nick is/has become her salvation."
+   },
+   {
+    "el": "Θεωρούν τη Βάσω πολύ έξυπνη.",
+    "en": "They consider Vasso very intelligent."
+   },
+   {
+    "el": "Διόρισαν τη Βάσω Υπουργό Παιδείας.",
+    "en": "They appointed Vasso Minister of Education."
+   }
+  ]
+ }
+}

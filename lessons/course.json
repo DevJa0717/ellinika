@@ -1,0 +1,1478 @@
+{
+ "title": "Modern Greek, from A1 to C1",
+ "intro": "A course for a serious learner, from the alphabet to B2. Each lesson has a **Learn** page with the rules, tables and examples from the grammar, and a **Practice** set that drills the forms until you can produce them. Missed items come back at the end of a set. C1 follows later.",
+ "units": [
+  {
+   "label": "Daily",
+   "title": "Every day",
+   "daily": true,
+   "note": "Ten minutes a day keeps declension automatic. Missed forms come back on a spaced schedule.",
+   "lessons": [
+    {
+     "id": "daily-words",
+     "el": "Λέξεις της ημέρας",
+     "title": "Word recall",
+     "file": "gym-words.json"
+    },
+    {
+     "id": "gym-declension",
+     "el": "Γυμναστήριο κλίσης",
+     "title": "Declension gym",
+     "file": "gym-declension.json"
+    }
+   ]
+  },
+  {
+   "label": "A1 · Unit 1",
+   "title": "Script and sound",
+   "lessons": [
+    {
+     "id": "a1-alphabet",
+     "el": "Το αλφάβητο",
+     "title": "The alphabet",
+     "file": "a1-alphabet.json"
+    },
+    {
+     "id": "a1-digraphs",
+     "el": "Δίψηφα και φωνήεντα",
+     "title": "Vowels and letter pairs",
+     "file": "a1-digraphs.json"
+    },
+    {
+     "id": "a1-stress",
+     "el": "Ο τόνος",
+     "title": "Stress and the accent mark",
+     "file": "a1-stress.json"
+    }
+   ]
+  },
+  {
+   "label": "A1 · Unit 2",
+   "title": "Nouns and the article",
+   "lessons": [
+    {
+     "id": "a1-gender",
+     "el": "Το γένος και το άρθρο",
+     "title": "Gender and the article",
+     "file": "a1-gender.json"
+    },
+    {
+     "id": "a1-cases",
+     "el": "Οι πτώσεις",
+     "title": "The four cases",
+     "file": "a1-cases.json"
+    },
+    {
+     "id": "a1-masc-os",
+     "el": "Αρσενικά σε -ος",
+     "title": "Masculine nouns in -ος",
+     "file": "a1-masc-os.json"
+    },
+    {
+     "id": "a1-fem-neut",
+     "el": "Θηλυκά και ουδέτερα",
+     "title": "Feminines in -α/-η, neuters in -ο/-ι/-μα",
+     "holton": "3.13-3.27",
+     "file": "a1-fem-neut.json"
+    }
+   ]
+  },
+  {
+   "label": "A1 · Unit 3",
+   "title": "First verbs",
+   "lessons": [
+    {
+     "id": "a1-eimai",
+     "el": "Είμαι",
+     "title": "To be, and the personal pronouns",
+     "file": "a1-eimai.json"
+    },
+    {
+     "id": "a1-present-1",
+     "el": "Ενεστώτας: πρώτη συζυγία",
+     "title": "Present tense, first conjugation",
+     "file": "a1-present-1.json"
+    },
+    {
+     "id": "a1-present-2",
+     "el": "Ενεστώτας: δεύτερη συζυγία",
+     "title": "Present tense, verbs in -ώ (αγαπώ, θεωρώ)",
+     "holton": "6.9-6.10",
+     "file": "a1-present-2.json"
+    },
+    {
+     "id": "a1-negation-questions",
+     "el": "Άρνηση και ερωτήσεις",
+     "title": "δεν, questions and question words",
+     "holton": "10.5-10.7",
+     "file": "a1-negation-questions.json"
+    }
+   ]
+  },
+  {
+   "label": "A1 · First situations",
+   "title": "Everyday Greek from day one",
+   "lessons": [
+    {
+     "id": "sit-a1-meeting",
+     "el": "Γνωριμίες: όνομα, καταγωγή, γλώσσες, δουλειά",
+     "title": "Meeting people: names, origins, languages, jobs",
+     "file": "sit-a1-meeting.json",
+     "reading": true
+    },
+    {
+     "id": "sit-a1-numbers-time",
+     "el": "Αριθμοί, ώρα, μέρες, ημερομηνίες",
+     "title": "Numbers, time, days and dates",
+     "file": "sit-a1-numbers-time.json",
+     "reading": true
+    },
+    {
+     "id": "sit-a1-cafe",
+     "el": "Στο καφέ: παραγγελία και λογαριασμός",
+     "title": "At the café: ordering and paying",
+     "file": "sit-a1-cafe.json",
+     "reading": true
+    },
+    {
+     "id": "sit-a1-family",
+     "el": "Η οικογένεια: συγγενείς, κτητικά, περιγραφή",
+     "title": "Family: relatives, 'my/your', describing people",
+     "file": "sit-a1-family.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "A2 · Unit 4",
+   "title": "Describing and referring",
+   "lessons": [
+    {
+     "id": "a2-adjectives",
+     "el": "Επίθετα και συμφωνία",
+     "title": "Adjectives and agreement",
+     "holton": "3.30-3.48",
+     "file": "a2-adjectives.json",
+     "reading": true
+    },
+    {
+     "id": "a2-weak-pronouns",
+     "el": "Αδύνατες αντωνυμίες",
+     "title": "Weak object pronouns and their position",
+     "holton": "4.1-4.2",
+     "file": "a2-weak-pronouns.json",
+     "reading": true
+    },
+    {
+     "id": "a2-possessives",
+     "el": "Κτητικά",
+     "title": "Possessives μου, σου, του and δικός μου",
+     "holton": "4.4",
+     "file": "a2-possessives.json",
+     "reading": true
+    },
+    {
+     "id": "a2-genitive",
+     "el": "Η γενική",
+     "title": "The genitive: possession and indirect object",
+     "holton": "3.52",
+     "file": "a2-genitive.json",
+     "reading": true
+    },
+    {
+     "id": "a2-numerals",
+     "el": "Αριθμητικά",
+     "title": "Numbers, time and dates",
+     "holton": "5",
+     "file": "a2-numerals.json",
+     "reading": true
+    },
+    {
+     "id": "a2-prepositions",
+     "el": "Προθέσεις",
+     "title": "σε, από, με, για and the accusative",
+     "holton": "8.1-8.2",
+     "file": "a2-prepositions.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "A2 · Unit 5",
+   "title": "Past and future",
+   "lessons": [
+    {
+     "id": "a2-aorist",
+     "el": "Αόριστος",
+     "title": "The simple past and the augment",
+     "holton": "6.8, 6.14, 6.21",
+     "file": "a2-aorist.json",
+     "reading": true
+    },
+    {
+     "id": "a2-imperfect",
+     "el": "Παρατατικός",
+     "title": "The imperfect",
+     "holton": "6.5.2, 6.8-6.10",
+     "file": "a2-imperfect.json",
+     "reading": true
+    },
+    {
+     "id": "a2-future",
+     "el": "Μέλλοντας",
+     "title": "θα: the two futures",
+     "holton": "6.17",
+     "file": "a2-future.json",
+     "reading": true
+    },
+    {
+     "id": "a2-na",
+     "el": "Το να και η υποτακτική",
+     "title": "να + verb: wanting, being able, having to",
+     "holton": "6.20, 9.3.2",
+     "file": "a2-na.json",
+     "reading": true
+    },
+    {
+     "id": "a2-imperative",
+     "el": "Προστακτική",
+     "title": "Commands and prohibitions",
+     "holton": "6.8, 10.4",
+     "file": "a2-imperative.json",
+     "reading": true
+    },
+    {
+     "id": "a2-irregular",
+     "el": "Ανώμαλα ρήματα",
+     "title": "The everyday irregular verbs",
+     "holton": "6.25",
+     "file": "a2-irregular.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "A2 · Everyday situations",
+   "title": "Real life in Greek",
+   "lessons": [
+    {
+     "id": "sit-shopping",
+     "el": "Ψώνια: λαϊκή, σούπερ μάρκετ, ρούχα",
+     "title": "Shopping: market, supermarket, clothes",
+     "file": "sit-shopping.json",
+     "reading": true
+    },
+    {
+     "id": "sit-eating-out",
+     "el": "Έξω για φαγητό: ταβέρνα και καφετέρια",
+     "title": "Eating out: taverna, café, the bill",
+     "file": "sit-eating-out.json",
+     "reading": true
+    },
+    {
+     "id": "sit-getting-around",
+     "el": "Μετακινήσεις: δρόμοι, εισιτήρια, ώρες",
+     "title": "Getting around: directions, transport, times",
+     "file": "sit-getting-around.json",
+     "reading": true
+    },
+    {
+     "id": "sit-health",
+     "el": "Υγεία: φαρμακείο και γιατρός",
+     "title": "Health: pharmacy, doctor, symptoms",
+     "file": "sit-health.json",
+     "reading": true
+    },
+    {
+     "id": "sit-home-services",
+     "el": "Σπίτι και υπηρεσίες: ενοίκιο, βλάβες, ΚΕΠ, τηλέφωνο",
+     "title": "Home and services: renting, repairs, offices, phone calls",
+     "file": "sit-home-services.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "A2 · Declension workshop",
+   "title": "Nouns in depth",
+   "lessons": [
+    {
+     "id": "decl-masculine",
+     "el": "Τα αρσενικά ουσιαστικά",
+     "title": "Masculine nouns in full",
+     "file": "decl-masculine.json",
+     "reading": true
+    },
+    {
+     "id": "decl-feminine",
+     "el": "Τα θηλυκά ουσιαστικά",
+     "title": "Feminine nouns in full",
+     "file": "decl-feminine.json",
+     "reading": true
+    },
+    {
+     "id": "decl-neuter",
+     "el": "Τα ουδέτερα ουσιαστικά",
+     "title": "Neuter nouns in full",
+     "file": "decl-neuter.json",
+     "reading": true
+    },
+    {
+     "id": "decl-stress",
+     "el": "Ο τονισμός στην κλίση",
+     "title": "Stress movement in declension",
+     "file": "decl-stress.json",
+     "reading": true
+    },
+    {
+     "id": "decl-adjectives-2",
+     "el": "Επίθετα ΙΙ: όλοι οι άλλοι τύποι",
+     "title": "Adjectives II: every pattern beyond -ος, -η, -ο",
+     "file": "decl-adjectives-2.json",
+     "reading": true
+    },
+    {
+     "id": "decl-pronouns",
+     "el": "Κλίση αντωνυμιών και προσδιοριστών",
+     "title": "Declining pronouns and determiners",
+     "file": "decl-pronouns.json",
+     "reading": true
+    },
+    {
+     "id": "decl-noun-phrase",
+     "el": "Η ονοματική φράση σε κάθε πτώση",
+     "title": "The whole noun phrase in every case",
+     "file": "decl-noun-phrase.json",
+     "reading": true
+    },
+    {
+     "id": "decl-vocative",
+     "el": "Η κλητική: πώς απευθυνόμαστε",
+     "title": "The vocative: addressing people",
+     "file": "decl-vocative.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B1 · Unit 6",
+   "title": "The verb system in depth",
+   "note": "From here the course follows the B2 exam syllabus. Lessons marked for the exam feed the B2 rows of the tracker.",
+   "lessons": [
+    {
+     "id": "b1-aspect",
+     "el": "Ποιόν ενεργείας",
+     "title": "Aspect: imperfective and perfective",
+     "holton": "6.4-6.5, 6.17",
+     "b2": "grammar",
+     "file": "b1-aspect.json",
+     "reading": true
+    },
+    {
+     "id": "b1-subjunctive",
+     "el": "Υποτακτική: διαρκής και στιγμιαία",
+     "title": "Continuous vs simple subjunctive: duration and timeframe",
+     "holton": "6.20, 9.3.2",
+     "b2": "grammar",
+     "file": "b1-subjunctive.json",
+     "reading": true
+    },
+    {
+     "id": "b1-imperative",
+     "el": "Προστακτική και κλιτικά",
+     "title": "Continuous and simple imperatives, irregular ones, πες μου, δώσ' το μου",
+     "holton": "6.8, 6.25, 4.1",
+     "b2": "grammar",
+     "file": "b1-imperative.json",
+     "reading": true
+    },
+    {
+     "id": "b1-passive-present",
+     "el": "Παθητική φωνή: ενεστώτας",
+     "title": "Passive verbs in the present and imperfect",
+     "holton": "6.8-6.11",
+     "b2": "grammar",
+     "file": "b1-passive-present.json",
+     "reading": true
+    },
+    {
+     "id": "b1-passive-past",
+     "el": "Παθητικός αόριστος",
+     "title": "Passive simple past, dependent and future",
+     "holton": "6.8, 6.14-6.15",
+     "b2": "grammar",
+     "file": "b1-passive-past.json",
+     "reading": true
+    },
+    {
+     "id": "b1-perfect",
+     "el": "Παρακείμενος και υπερσυντέλικος",
+     "title": "Perfect tenses with έχω, active and passive",
+     "holton": "6.18",
+     "b2": "grammar",
+     "file": "b1-perfect.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B1 · Verb workshop",
+   "title": "The verb system in depth",
+   "lessons": [
+    {
+     "id": "verbs-aorist-stems",
+     "el": "Το συνοπτικό θέμα",
+     "title": "Forming the perfective stem",
+     "file": "verbs-aorist-stems.json",
+     "reading": true
+    },
+    {
+     "id": "verbs-aorist-irregular",
+     "el": "Ανώμαλοι αόριστοι",
+     "title": "Irregular perfectives: the strong verbs",
+     "file": "verbs-aorist-irregular.json",
+     "reading": true
+    },
+    {
+     "id": "verbs-aspect-future-subj",
+     "el": "Ποιόν ενεργείας μετά από θα, να, ας",
+     "title": "Aspect after θα, να, ας and conjunctions",
+     "file": "verbs-aspect-future-subj.json",
+     "reading": true
+    },
+    {
+     "id": "verbs-aspect-imperative",
+     "el": "Προστακτική: διαρκής και στιγμιαία",
+     "title": "Imperative aspect: γράφε or γράψε?",
+     "file": "verbs-aspect-imperative.json",
+     "reading": true
+    },
+    {
+     "id": "verbs-passive-stems",
+     "el": "Παθητικά θέματα αορίστου",
+     "title": "Passive perfective stems by class",
+     "file": "verbs-passive-stems.json",
+     "reading": true
+    },
+    {
+     "id": "verbs-passive-continuous",
+     "el": "Παθητική φωνή: ενεστώτας και παρατατικός",
+     "title": "Passive and middle imperfective in full",
+     "file": "verbs-passive-continuous.json",
+     "reading": true
+    },
+    {
+     "id": "verbs-clitics",
+     "el": "Αδύνατες αντωνυμίες σε βάθος",
+     "title": "Weak object pronouns: position, order, doubling",
+     "file": "verbs-clitics.json",
+     "reading": true
+    },
+    {
+     "id": "verbs-na-clauses",
+     "el": "Προτάσεις με να",
+     "title": "να-clauses in depth",
+     "file": "verbs-na-clauses.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B1 · Unit 7",
+   "title": "Building sentences",
+   "lessons": [
+    {
+     "id": "b1-relatives",
+     "el": "Αναφορικές προτάσεις",
+     "title": "Relative clauses with που and ο οποίος",
+     "holton": "10.9",
+     "b2": "syntax",
+     "file": "b1-relatives.json",
+     "reading": true
+    },
+    {
+     "id": "b1-complement",
+     "el": "Ότι, πως, να, που",
+     "title": "Complement clauses",
+     "holton": "10.12",
+     "b2": "syntax",
+     "file": "b1-complement.json",
+     "reading": true
+    },
+    {
+     "id": "b1-temporal",
+     "el": "Χρονικές προτάσεις",
+     "title": "όταν, πριν, μόλις, ενώ",
+     "holton": "10.15",
+     "b2": "syntax",
+     "file": "b1-temporal.json",
+     "reading": true
+    },
+    {
+     "id": "b1-causal",
+     "el": "Αιτιολογικές προτάσεις",
+     "title": "Cause: επειδή, γιατί, δεδομένου ότι, μια και",
+     "holton": "10.19",
+     "b2": "syntax",
+     "file": "b1-causal.json",
+     "reading": true
+    },
+    {
+     "id": "b1-conditionals",
+     "el": "Υποθετικοί λόγοι",
+     "title": "Factual conditionals with αν",
+     "holton": "10.13.1",
+     "b2": "syntax",
+     "file": "b1-conditionals.json",
+     "reading": true
+    },
+    {
+     "id": "b1-comparison",
+     "el": "Σύγκριση",
+     "title": "Comparatives and superlatives",
+     "holton": "3.43-3.47, 10.22",
+     "b2": null,
+     "file": "b1-comparison.json",
+     "reading": true
+    },
+    {
+     "id": "b1-politeness",
+     "el": "Ευγένεια",
+     "title": "Polite address, requests and greetings",
+     "holton": "12.1-12.3",
+     "b2": null,
+     "file": "b1-politeness.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B1 · Sentence workshop",
+   "title": "Complex sentences in depth",
+   "lessons": [
+    {
+     "id": "clauses-relative",
+     "el": "Αναφορικές σε βάθος: που, ο οποίος, όποιος",
+     "title": "Relative clauses in depth: every case, whose, free relatives",
+     "file": "clauses-relative.json",
+     "reading": true
+    },
+    {
+     "id": "clauses-conditional",
+     "el": "Υποθετικοί λόγοι σε βάθος",
+     "title": "Conditionals in depth: every tense, unless, provided, in case, mixed",
+     "file": "clauses-conditional.json",
+     "reading": true
+    },
+    {
+     "id": "clauses-time-cause",
+     "el": "Χρόνος και αιτία σε βάθος",
+     "title": "Time and cause clauses in depth: aspect choice and double meanings",
+     "file": "clauses-time-cause.json",
+     "reading": true
+    },
+    {
+     "id": "clauses-reported",
+     "el": "Πλάγιος λόγος σε βάθος",
+     "title": "Reported speech in depth: statements, questions, commands, shifts",
+     "file": "clauses-reported.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B1 · Vocabulary themes",
+   "title": "Everyday vocabulary in depth",
+   "lessons": [
+    {
+     "id": "vt-food",
+     "el": "Φαγητό και μαγειρική",
+     "title": "B1 vocabulary: food, cooking and taste",
+     "file": "vt-food.json",
+     "reading": true
+    },
+    {
+     "id": "vt-home",
+     "el": "Το σπίτι: χώροι, έπιπλα, δουλειές",
+     "title": "B1 vocabulary: the home, furniture, chores and DIY",
+     "file": "vt-home.json",
+     "reading": true
+    },
+    {
+     "id": "vt-body",
+     "el": "Σώμα, εμφάνιση, χαρακτήρας, συναισθήματα",
+     "title": "B1 vocabulary: body, appearance, character and feelings",
+     "file": "vt-body.json",
+     "reading": true
+    },
+    {
+     "id": "vt-nature",
+     "el": "Καιρός, τοπίο, ζώα και φυτά",
+     "title": "B1 vocabulary: weather, landscape, animals, plants and the sea",
+     "file": "vt-nature.json",
+     "reading": true
+    },
+    {
+     "id": "vt-people",
+     "el": "Σχέσεις, κοινωνική ζωή, γιορτές",
+     "title": "B1 vocabulary: relationships, social life, celebrations and small talk",
+     "file": "vt-people.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B2 · Unit 8",
+   "title": "The full passive system",
+   "lessons": [
+    {
+     "id": "b2-passive-irregular",
+     "el": "Ανώμαλα παθητικά",
+     "title": "Tricky passive forms across all tenses",
+     "holton": "6.15, 6.25",
+     "b2": "grammar",
+     "file": "b2-passive-irregular.json",
+     "reading": true
+    },
+    {
+     "id": "b2-deponents",
+     "el": "Αποθετικά",
+     "title": "Deponents: αισθάνομαι, εργάζομαι, έρχομαι, κάθομαι",
+     "holton": "6.6, 6.11",
+     "b2": "grammar",
+     "file": "b2-deponents.json",
+     "reading": true
+    },
+    {
+     "id": "b2-participles",
+     "el": "Μετοχές σε -μένος",
+     "title": "Passive perfect participles -μένος, -μένη, -μένο, and the gerund",
+     "holton": "6.16, 6.5.11",
+     "b2": "grammar",
+     "file": "b2-participles.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B2 · Unit 9",
+   "title": "Formal declensions",
+   "lessons": [
+    {
+     "id": "b2-nouns-formal",
+     "el": "Λόγια ουσιαστικά",
+     "title": "κυβέρνηση/κυβέρνησης/κυβερνήσεις, -ος feminines, -ον neuters",
+     "holton": "3.17, 3.21, 3.29",
+     "b2": "grammar",
+     "file": "b2-nouns-formal.json",
+     "reading": true
+    },
+    {
+     "id": "b2-adjectives-formal",
+     "el": "Επίθετα σε -ύς και -ής",
+     "title": "βαθύς, οξύς, δριμύς; ακριβής, συνήθης",
+     "holton": "3.38-3.41",
+     "b2": "grammar",
+     "file": "b2-adjectives-formal.json",
+     "reading": true
+    },
+    {
+     "id": "b2-learned",
+     "el": "Λόγια στοιχεία",
+     "title": "-ως adverbs, learned pasts in -ην, set phrases with the genitive",
+     "holton": "7.4, 6.25, 8.3",
+     "b2": "grammar",
+     "file": "b2-learned.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B2 · Unit 10",
+   "title": "Words from roots",
+   "lessons": [
+    {
+     "id": "b2-suffixes",
+     "el": "Παραγωγή",
+     "title": "Suffixes: nouns, adjectives and verbs from one root",
+     "holton": "11.1",
+     "b2": "grammar",
+     "file": "b2-suffixes.json",
+     "reading": true
+    },
+    {
+     "id": "b2-prefixes",
+     "el": "Προθήματα και σύνθετα",
+     "title": "Prefixes and compounds: γράφω → συγγραφέας, εγγραφή, διαγραφή, υπογραφή",
+     "holton": "11.2-11.3",
+     "b2": "grammar",
+     "file": "b2-prefixes.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B2 · Word-building workshop",
+   "title": "Building words from roots",
+   "lessons": [
+    {
+     "id": "words-nouns",
+     "el": "Εργαστήριο λέξεων I: ουσιαστικά",
+     "title": "Word-building I: abstract nouns, people and diminutives, with their declension",
+     "file": "words-nouns.json",
+     "reading": true
+    },
+    {
+     "id": "words-adjectives",
+     "el": "Εργαστήριο λέξεων II: επίθετα",
+     "title": "Word-building II: adjectives from nouns and verbs, negatives, participles",
+     "file": "words-adjectives.json",
+     "reading": true
+    },
+    {
+     "id": "words-verbs",
+     "el": "Εργαστήριο λέξεων III: ρήματα",
+     "title": "Word-building III: verbs from nouns and adjectives, prefixes and the augment",
+     "file": "words-verbs.json",
+     "reading": true
+    },
+    {
+     "id": "words-families",
+     "el": "Εργαστήριο λέξεων IV: οικογένειες λέξεων",
+     "title": "Word-building IV: word families and exam-style gap texts",
+     "file": "words-families.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B2 · Unit 11",
+   "title": "Complex sentences",
+   "lessons": [
+    {
+     "id": "b2-concession",
+     "el": "Παραχωρητικές προτάσεις",
+     "title": "Concession: παρόλο που, αν και, παρ' όλα αυτά",
+     "holton": "10.14",
+     "b2": "syntax",
+     "file": "b2-concession.json",
+     "reading": true
+    },
+    {
+     "id": "b2-result-purpose",
+     "el": "Αποτέλεσμα και σκοπός",
+     "title": "Result and purpose: ώστε να, με αποτέλεσμα να, για να",
+     "holton": "10.17-10.18",
+     "b2": "syntax",
+     "file": "b2-result-purpose.json",
+     "reading": true
+    },
+    {
+     "id": "b2-counterfactual",
+     "el": "Υποθέσεις του μη πραγματικού",
+     "title": "Unreal conditions: αν είχα χρόνο, θα ερχόμουν",
+     "holton": "10.13.2, 6.19",
+     "b2": "syntax",
+     "file": "b2-counterfactual.json",
+     "reading": true
+    },
+    {
+     "id": "b2-indirect",
+     "el": "Πλάγιος λόγος",
+     "title": "Reported statements, questions and commands",
+     "holton": "10.10-10.11",
+     "b2": "syntax",
+     "file": "b2-indirect.json",
+     "reading": true
+    },
+    {
+     "id": "b2-word-order",
+     "el": "Σειρά των λέξεων",
+     "title": "Word order, topic and focus",
+     "holton": "10.20",
+     "b2": "syntax",
+     "file": "b2-word-order.json",
+     "reading": true
+    },
+    {
+     "id": "b2-discourse",
+     "el": "Οργάνωση κειμένου",
+     "title": "Argument structure: αρχικά, εκ πρώτης όψεως, εντούτοις, εν κατακλείδι",
+     "holton": "9.1-9.2",
+     "b2": "syntax",
+     "file": "b2-discourse.json",
+     "reading": true
+    },
+    {
+     "id": "b2-particles",
+     "el": "Μόρια",
+     "title": "Particles: μη, για, να (deictic), ας",
+     "holton": "9.3",
+     "b2": null,
+     "file": "b2-particles.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B2 · Themes",
+   "title": "Exam topics",
+   "lessons": [
+    {
+     "id": "theme-work",
+     "el": "Εργασία και απασχόληση",
+     "title": "Theme: work and employment",
+     "file": "theme-work.json",
+     "reading": true
+    },
+    {
+     "id": "theme-society",
+     "el": "Κοινωνία και κοινωνικά προβλήματα",
+     "title": "Theme: society and social issues",
+     "file": "theme-society.json",
+     "reading": true
+    },
+    {
+     "id": "theme-environment",
+     "el": "Περιβάλλον και κλιματική κρίση",
+     "title": "Theme: the environment and the climate crisis",
+     "file": "theme-environment.json",
+     "reading": true
+    },
+    {
+     "id": "theme-technology",
+     "el": "Τεχνολογία και ψηφιακή ζωή",
+     "title": "Theme: technology and digital life",
+     "file": "theme-technology.json",
+     "reading": true
+    },
+    {
+     "id": "theme-health",
+     "el": "Υγεία και τρόπος ζωής",
+     "title": "Theme: health and lifestyle",
+     "file": "theme-health.json",
+     "reading": true
+    },
+    {
+     "id": "theme-education",
+     "el": "Εκπαίδευση και σπουδές",
+     "title": "Theme: education and studies",
+     "file": "theme-education.json",
+     "reading": true
+    },
+    {
+     "id": "theme-culture",
+     "el": "Πολιτισμός, μέσα ενημέρωσης και ελεύθερος χρόνος",
+     "title": "Theme: culture, media and leisure",
+     "file": "theme-culture.json",
+     "reading": true
+    },
+    {
+     "id": "theme-travel",
+     "el": "Ταξίδια, τουρισμός και μεταφορές",
+     "title": "Theme: travel, tourism and transport",
+     "file": "theme-travel.json",
+     "reading": true
+    },
+    {
+     "id": "theme-family",
+     "el": "Οικογένεια, σχέσεις και γενιές",
+     "title": "Theme: family, relationships and generations",
+     "file": "theme-family.json",
+     "reading": true
+    },
+    {
+     "id": "theme-economy",
+     "el": "Οικονομία, κόστος ζωής και κατανάλωση",
+     "title": "Theme: economy, cost of living and consumption",
+     "file": "theme-economy.json",
+     "reading": true
+    },
+    {
+     "id": "theme-city",
+     "el": "Κατοικία, πόλη και ύπαιθρος",
+     "title": "Theme: housing, city and countryside",
+     "file": "theme-city.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B2 · Exam skills",
+   "title": "Writing and speaking for the exam",
+   "lessons": [
+    {
+     "id": "exam-writing-informal",
+     "el": "Φιλική επιστολή και μήνυμα",
+     "title": "Exam writing 1: informal letters, e-mails and messages",
+     "file": "exam-writing-informal.json",
+     "reading": true
+    },
+    {
+     "id": "exam-writing-formal",
+     "el": "Επίσημη επιστολή",
+     "title": "Exam writing 2: formal letters, complaints, applications, letters to the editor",
+     "file": "exam-writing-formal.json",
+     "reading": true
+    },
+    {
+     "id": "exam-writing-essay",
+     "el": "Κείμενο γνώμης και επιχειρηματολογία",
+     "title": "Exam writing 3: opinion and argument texts",
+     "file": "exam-writing-essay.json",
+     "reading": true
+    },
+    {
+     "id": "exam-speaking",
+     "el": "Προφορική εξέταση",
+     "title": "Exam speaking: introductions, pictures, opinions and role-plays",
+     "file": "exam-speaking.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "B2 · Listening",
+   "title": "Real Greek speech, A2 to B2",
+   "lessons": [
+    {
+     "id": "listen-a2",
+     "el": "Ακούω: η Ελλάδα μου",
+     "title": "Listening A2: two young Greeks talk about Greece",
+     "file": "listen-a2.json",
+     "reading": true
+    },
+    {
+     "id": "listen-b1",
+     "el": "Ακούω: δήλωση και οδηγίες",
+     "title": "Listening B1: a public statement and a how-to video",
+     "file": "listen-b1.json",
+     "reading": true
+    },
+    {
+     "id": "listen-b2-public",
+     "el": "Ακούω: ο δημόσιος λόγος",
+     "title": "Listening B2: political statements",
+     "file": "listen-b2-public.json",
+     "reading": true
+    },
+    {
+     "id": "listen-b2-history",
+     "el": "Ακούω: ιστορία στο Πολεμικό Μουσείο",
+     "title": "Listening B2: history at the War Museum",
+     "file": "listen-b2-history.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "C1 · Unit 12",
+   "title": "Learned morphology",
+   "lessons": [
+    {
+     "id": "c1-internal-augment",
+     "el": "Εσωτερική αύξηση",
+     "title": "Internal augment: υπέβαλε, εξέλεξε, συνέβη",
+     "file": "c1-internal-augment.json",
+     "holton": "6.23",
+     "reading": true
+    },
+    {
+     "id": "c1-active-participles",
+     "el": "Ενεργητικές μετοχές σε -ων",
+     "title": "Active participles: ο ενδιαφέρων, η ισχύουσα, το περιβάλλον",
+     "file": "c1-active-participles.json",
+     "reading": true
+    },
+    {
+     "id": "c1-present-participles",
+     "el": "Μετοχές σε -όμενος, -ούμενος",
+     "title": "Present passive participles: οι εργαζόμενοι, το ζητούμενο",
+     "file": "c1-present-participles.json",
+     "reading": true
+    },
+    {
+     "id": "c1-learned-nouns",
+     "el": "Λόγια κλίση",
+     "title": "Learned declension: του γεγονότος, του φωτός, οι συγγραφείς, μείζων",
+     "file": "c1-learned-nouns.json",
+     "reading": true
+    },
+    {
+     "id": "c1-learned-verbs",
+     "el": "Λόγια ρήματα",
+     "title": "Learned verbs: τίθεται, κατέστη, υπέστη, πρόκειται, εναπόκειται",
+     "file": "c1-learned-verbs.json",
+     "reading": true
+    },
+    {
+     "id": "c1-learned-phrases",
+     "el": "Λόγιες προθέσεις και δοτική",
+     "title": "Learned prepositions and frozen datives: εν τω μεταξύ, εκ των υστέρων, άνευ όρων",
+     "file": "c1-learned-phrases.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "C1 · Unit 13",
+   "title": "Argument and register",
+   "lessons": [
+    {
+     "id": "c1-nominal-style",
+     "el": "Ονοματοποίηση",
+     "title": "Nominal style: from «επειδή αυξήθηκαν οι τιμές» to «η αύξηση των τιμών»",
+     "file": "c1-nominal-style.json",
+     "reading": true
+    },
+    {
+     "id": "c1-register",
+     "el": "Αλλαγή ύφους",
+     "title": "Register shifting: φτιάχνω → συντάσσω, βγάζω → εκδίδω, είναι → αποτελεί",
+     "file": "c1-register.json",
+     "reading": true
+    },
+    {
+     "id": "c1-connectors",
+     "el": "Συνδετικά του επιχειρήματος",
+     "title": "Connectors for argument: αφενός… αφετέρου, μεν… δε, ως εκ τούτου, άλλωστε",
+     "file": "c1-connectors.json",
+     "reading": true
+    },
+    {
+     "id": "c1-collocations",
+     "el": "Λόγιες συνάψεις",
+     "title": "Formal collocations: λαμβάνω μέτρα, ασκώ κριτική, καταβάλλω προσπάθεια",
+     "file": "c1-collocations.json",
+     "reading": true
+    },
+    {
+     "id": "c1-hedging",
+     "el": "Βεβαιότητα, πιθανότητα, απόσταση",
+     "title": "Hedging and stance: ενδέχεται, δεν αποκλείεται, φέρεται να, θα έλεγα",
+     "file": "c1-hedging.json",
+     "reading": true
+    },
+    {
+     "id": "c1-emphasis",
+     "el": "Έμφαση και ελεύθερες αναφορικές",
+     "title": "Emphasis: όποιος κι αν, όσο κι αν, αυτό που, ούτε καν, ίσα ίσα",
+     "file": "c1-emphasis.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "C1 · Unit 14",
+   "title": "Idiom and the living tradition",
+   "lessons": [
+    {
+     "id": "c1-idioms-1",
+     "el": "Ιδιωματισμοί (1)",
+     "title": "Idioms 1: κάνω τα στραβά μάτια, τα έκανε θάλασσα, την πάτησα",
+     "file": "c1-idioms-1.json",
+     "reading": true
+    },
+    {
+     "id": "c1-idioms-2",
+     "el": "Ιδιωματισμοί (2)",
+     "title": "Idioms 2: δεν μου καίγεται καρφί, τα φέρνω βόλτα, κάθε εμπόδιο για καλό",
+     "file": "c1-idioms-2.json",
+     "reading": true
+    },
+    {
+     "id": "c1-ancient-sayings",
+     "el": "Αρχαίες φράσεις στη νέα ελληνική",
+     "title": "Ancient sayings in modern use: μηδέν άγαν, ουδέν κακόν αμιγές καλού",
+     "file": "c1-ancient-sayings.json",
+     "reading": true
+    },
+    {
+     "id": "c1-language-question",
+     "el": "Το γλωσσικό ζήτημα",
+     "title": "The language question: katharevousa, demotic and the end of diglossia",
+     "file": "c1-language-question.json",
+     "reading": true
+    },
+    {
+     "id": "c1-read-register-speeches",
+     "el": "Λόγοι για την ελευθερία: τρία ύφη",
+     "title": "Register and rhetoric: Kolokotronis, Papandreou, Velouchiotis",
+     "file": "c1-read-register-speeches.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "C1 · Unit 15",
+   "title": "Reading at C1",
+   "lessons": [
+    {
+     "id": "c1-read-philosophy",
+     "el": "Ανάγνωση: φιλοσοφία και ιδέες",
+     "title": "Reading: philosophy — Socrates, the Stoics, the Enlightenment",
+     "file": "c1-read-philosophy.json",
+     "reading": true
+    },
+    {
+     "id": "c1-read-history",
+     "el": "Ανάγνωση: ιστορία που ακόμα συζητιέται",
+     "title": "Reading: history — 1821, 1922, the Metapolitefsi",
+     "file": "c1-read-history.json",
+     "reading": true
+    },
+    {
+     "id": "c1-read-society",
+     "el": "Ανάγνωση: κρίση, φόβος και κοινωνία",
+     "title": "Reading: society — the debt crisis and two opinion pieces",
+     "file": "c1-read-society.json",
+     "reading": true
+    },
+    {
+     "id": "c1-read-science-tech",
+     "el": "Ανάγνωση: επιστήμη και τεχνολογία",
+     "title": "Reading: science and tech — climate, evolution, AI",
+     "file": "c1-read-science-tech.json",
+     "reading": true
+    },
+    {
+     "id": "c1-read-law",
+     "el": "Η γλώσσα του νόμου: Σύνταγμα και Χάρτης Δικαιωμάτων",
+     "title": "Legal Greek: the Constitution and the EU Charter",
+     "file": "c1-read-law.json",
+     "reading": true
+    },
+    {
+     "id": "c1-read-press",
+     "el": "Η φωνή του αρθρογράφου: δοκιμιακός και δημοσιογραφικός λόγος",
+     "title": "Opinion pieces: how Greek columnists argue",
+     "file": "c1-read-press.json",
+     "reading": true
+    },
+    {
+     "id": "c1-read-cavafy",
+     "el": "Καβάφης: πέντε ποιήματα",
+     "title": "Reading Cavafy: Ithaca, the Barbarians, the City, Thermopylae, Antony",
+     "file": "c1-read-cavafy.json",
+     "reading": true
+    },
+    {
+     "id": "c1-read-prose",
+     "el": "Παπαδιαμάντης και Βιζυηνός",
+     "title": "Reading 19th-century prose: Papadiamantis and Vizyinos",
+     "file": "c1-read-prose.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "C1 · Unit 16",
+   "title": "Γ1 exam practice",
+   "lessons": [
+    {
+     "id": "c1-exam-reading",
+     "el": "Εξάσκηση Γ1: κατανόηση γραπτού λόγου",
+     "title": "C1 exam practice: reading",
+     "file": "c1-exam-reading.json",
+     "reading": true
+    },
+    {
+     "id": "c1-exam-language",
+     "el": "Εξάσκηση Γ1: χρήση της γλώσσας",
+     "title": "C1 exam practice: use of language, writing and speaking",
+     "file": "c1-exam-language.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "C1 · Unit 17",
+   "title": "Phrase bank",
+   "lessons": [
+    {
+     "id": "c1-bank-idioms-1",
+     "el": "Ιδιωματισμοί (1)",
+     "title": "Idiom bank 1: τα βγάζω πέρα, δεν το βάζω κάτω, τα χάνω",
+     "file": "c1-bank-idioms-1.json"
+    },
+    {
+     "id": "c1-bank-idioms-2",
+     "el": "Ιδιωματισμοί (2)",
+     "title": "Idiom bank 2: βάζω τις φωνές, βάζω μέσο, έχω μέσον",
+     "file": "c1-bank-idioms-2.json"
+    },
+    {
+     "id": "c1-bank-idioms-3",
+     "el": "Ιδιωματισμοί (3)",
+     "title": "Idiom bank 3: παίζω με τη φωτιά, παίζω διπλό ταμπλό, παίζω κρυφτό",
+     "file": "c1-bank-idioms-3.json"
+    },
+    {
+     "id": "c1-bank-idioms-4",
+     "el": "Ιδιωματισμοί (4)",
+     "title": "Idiom bank 4: μου πέφτει λίγο, μου πέφτει βαρύ, μου την έσπασε",
+     "file": "c1-bank-idioms-4.json"
+    },
+    {
+     "id": "c1-bank-idioms-5",
+     "el": "Ιδιωματισμοί (5)",
+     "title": "Idiom bank 5: μεταξύ σφύρας και άκμονος, ανάμεσα σε δύο πυρά, στο μάτι του κυκλώνα",
+     "file": "c1-bank-idioms-5.json"
+    },
+    {
+     "id": "c1-bank-idioms-6",
+     "el": "Ιδιωματισμοί (6)",
+     "title": "Idiom bank 6: γίνομαι έξαλλος, γίνομαι Τούρκος, γίνομαι μπαλάκι",
+     "file": "c1-bank-idioms-6.json"
+    },
+    {
+     "id": "c1-bank-idioms-7",
+     "el": "Ιδιωματισμοί (7)",
+     "title": "Idiom bank 7: όνειρα θερινής νυκτός, φρούδες ελπίδες, τετελεσμένο γεγονός",
+     "file": "c1-bank-idioms-7.json"
+    },
+    {
+     "id": "c1-bank-idioms-8",
+     "el": "Ιδιωματισμοί (8)",
+     "title": "Idiom bank 8: η καλή μέρα από το πρωί φαίνεται, τα σιγανά ποτάμια να φοβάσαι, όποιος βιάζεται σκοντάφτει",
+     "file": "c1-bank-idioms-8.json"
+    },
+    {
+     "id": "c1-bank-collocations-1",
+     "el": "Συνάψεις (1)",
+     "title": "Collocation bank 1: διαδραματίζω ρόλο, αποτελεί απειλή, αποτελεί προτεραιότητα",
+     "file": "c1-bank-collocations-1.json"
+    },
+    {
+     "id": "c1-bank-collocations-2",
+     "el": "Συνάψεις (2)",
+     "title": "Collocation bank 2: λαμβάνω διαστάσεις, παίρνω διαστάσεις, λαμβάνω γνώση",
+     "file": "c1-bank-collocations-2.json"
+    },
+    {
+     "id": "c1-bank-collocations-3",
+     "el": "Συνάψεις (3)",
+     "title": "Collocation bank 3: ραγδαίες εξελίξεις, ραγδαία αύξηση, δραστική μείωση",
+     "file": "c1-bank-collocations-3.json"
+    },
+    {
+     "id": "c1-bank-collocations-4",
+     "el": "Συνάψεις (4)",
+     "title": "Collocation bank 4: παρατείνω την προθεσμία, ικανοποιώ αιτήματα, προβάλλω αιτήματα",
+     "file": "c1-bank-collocations-4.json"
+    },
+    {
+     "id": "c1-bank-collocations-5",
+     "el": "Συνάψεις (5)",
+     "title": "Collocation bank 5: σφοδρή σύγκρουση, εύλογο ερώτημα, εύλογος χρόνος",
+     "file": "c1-bank-collocations-5.json"
+    },
+    {
+     "id": "c1-bank-collocations-6",
+     "el": "Συνάψεις (6)",
+     "title": "Collocation bank 6: νομικό κενό, δημόσιος διάλογος, ευαισθητοποιώ την κοινή γνώμη",
+     "file": "c1-bank-collocations-6.json"
+    },
+    {
+     "id": "c1-bank-learned-phrases-1",
+     "el": "Λόγιες φράσεις (1)",
+     "title": "Learned-phrase bank 1: εν ευθέτω χρόνω, εν περιλήψει, εν πρώτοις",
+     "file": "c1-bank-learned-phrases-1.json"
+    },
+    {
+     "id": "c1-bank-learned-phrases-2",
+     "el": "Λόγιες φράσεις (2)",
+     "title": "Learned-phrase bank 2: εκ βάθρων, εκ γενετής, εκ του μηδενός",
+     "file": "c1-bank-learned-phrases-2.json"
+    },
+    {
+     "id": "c1-bank-learned-phrases-3",
+     "el": "Λόγιες φράσεις (3)",
+     "title": "Learned-phrase bank 3: εις ώτα μη ακουόντων, εις επήκοον, διά πυρός και σιδήρου",
+     "file": "c1-bank-learned-phrases-3.json"
+    },
+    {
+     "id": "c1-bank-learned-phrases-4",
+     "el": "Λόγιες φράσεις (4)",
+     "title": "Learned-phrase bank 4: μάχαιραν έδωκας, μάχαιραν θα λάβεις, κεραυνός εν αιθρία, ταύρος εν υαλοπωλείω",
+     "file": "c1-bank-learned-phrases-4.json"
+    },
+    {
+     "id": "c1-bank-connectors-1",
+     "el": "Συνδετικά (1)",
+     "title": "Connector bank 1: επιπλέον, επιπροσθέτως, εξάλλου",
+     "file": "c1-bank-connectors-1.json"
+    },
+    {
+     "id": "c1-bank-connectors-2",
+     "el": "Συνδετικά (2)",
+     "title": "Connector bank 2: προφανώς, μάλιστα, πράγματι",
+     "file": "c1-bank-connectors-2.json"
+    }
+   ]
+  },
+  {
+   "label": "Colloquial · Unit 1",
+   "title": "How Greeks really talk",
+   "colloquial": true,
+   "lessons": [
+    {
+     "id": "slang-discourse",
+     "el": "Ρε, μωρέ, άντε: τα μόρια του προφορικού λόγου",
+     "title": "Particles, interjections and fillers of spoken Greek",
+     "file": "slang-discourse.json",
+     "reading": true
+    },
+    {
+     "id": "slang-everyday",
+     "el": "Φράγκα, φάση, πλάκα: η καθημερινή αργκό",
+     "title": "Everyday colloquial vocabulary",
+     "file": "slang-everyday.json",
+     "reading": true
+    },
+    {
+     "id": "slang-idioms",
+     "el": "Τα έκανα θάλασσα",
+     "title": "Everyday idioms and set phrases",
+     "file": "slang-idioms.json",
+     "reading": true
+    },
+    {
+     "id": "slang-morphology",
+     "el": "Φτιάχνοντας αργκό",
+     "title": "How Greek builds slang: suffixes, prefixes, loans, elision",
+     "file": "slang-morphology.json",
+     "reading": true
+    },
+    {
+     "id": "slang-youth",
+     "el": "Αργκό των νέων και του ίντερνετ",
+     "title": "Youth and internet slang, texting and Greeklish",
+     "file": "slang-youth.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "Colloquial · Unit 2",
+   "title": "Swearing, insults and nights out",
+   "colloquial": true,
+   "lessons": [
+    {
+     "id": "slang-swearing",
+     "el": "Βρισιές: το σύστημα",
+     "title": "Swearing: the whole system",
+     "file": "slang-swearing.json",
+     "reading": true
+    },
+    {
+     "id": "slang-insults",
+     "el": "Βρίζοντας χωρίς βρισιές",
+     "title": "Insults, put-downs and curses",
+     "file": "slang-insults.json",
+     "reading": true
+    },
+    {
+     "id": "slang-nightlife",
+     "el": "Έξοδος, έρωτας και ξενύχτι",
+     "title": "Slang: nightlife, drinking, romance, sex and drugs",
+     "file": "slang-nightlife.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "Colloquial · Unit 3",
+   "title": "Regional Greek",
+   "colloquial": true,
+   "lessons": [
+    {
+     "id": "slang-athens-thessaloniki",
+     "el": "Αθήνα και Θεσσαλονίκη",
+     "title": "Athens and Thessaloniki: North vs South",
+     "file": "slang-athens-thessaloniki.json",
+     "reading": true
+    },
+    {
+     "id": "slang-crete",
+     "el": "Κρητικά",
+     "title": "Cretan Greek: the dialect today",
+     "file": "slang-crete.json",
+     "reading": true
+    },
+    {
+     "id": "slang-cyprus",
+     "el": "Κυπριακά",
+     "title": "Cypriot Greek: the dialect and its slang",
+     "file": "slang-cyprus.json",
+     "reading": true
+    },
+    {
+     "id": "slang-regions",
+     "el": "Η Ελλάδα των διαλέκτων",
+     "title": "Greece of the dialects: regional speech and old Athenian slang",
+     "file": "slang-regions.json",
+     "reading": true
+    }
+   ]
+  },
+  {
+   "label": "Colloquial · Unit 4",
+   "title": "Putting it together",
+   "colloquial": true,
+   "lessons": [
+    {
+     "id": "slang-dialogues",
+     "el": "Σκηνές από την καθημερινότητα",
+     "title": "Everyday scenes: colloquial Greek in context and register switching",
+     "file": "slang-dialogues.json",
+     "reading": true
+    }
+   ]
+  }
+ ],
+ "b2_syllabus": {
+  "areas": {
+   "grammar": "Grammar for the B2 exam",
+   "syntax": "Syntax and text structure"
+  },
+  "themes": [
+   {
+    "id": "work",
+    "el": "Εργασία",
+    "title": "The world of work"
+   },
+   {
+    "id": "society",
+    "el": "Κοινωνία",
+    "title": "Social issues and current events"
+   },
+   {
+    "id": "environment",
+    "el": "Περιβάλλον",
+    "title": "Environment and sustainability"
+   },
+   {
+    "id": "technology",
+    "el": "Τεχνολογία",
+    "title": "Technology and digital culture"
+   },
+   {
+    "id": "health",
+    "el": "Υγεία",
+    "title": "Health and well-being"
+   },
+   {
+    "id": "education",
+    "el": "Εκπαίδευση",
+    "title": "Education and youth"
+   },
+   {
+    "id": "culture",
+    "el": "Πολιτισμός",
+    "title": "Culture, media and leisure"
+   }
+  ],
+  "themes_note": "Themed word sets (the B2 1,000-word expansion) plug in here; each theme counts as mastered once its word set is reviewed."
+ }
+}

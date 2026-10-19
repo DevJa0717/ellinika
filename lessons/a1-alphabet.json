@@ -1,0 +1,257 @@
+{
+ "el": "Το αλφάβητο",
+ "title": "The alphabet",
+ "section": "A1 · Holton §1.1",
+ "goal": "Recognise all 24 letters, name them, and know the sound each one stands for.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Greek has **24 letters**: 7 vowel letters (α ε η ι ο υ ω) and 17 consonant letters. Modern pronunciation is far from the 'Erasmian' Greek taught in classics departments: β is [v], δ is [ð] as in *this*, η and υ are both [i], and ω is just [o].\n\nSpelling is fully predictable for reading. Once you know the letters and the letter pairs of the next lesson, you can read any word aloud correctly, even one you have never seen. Writing is harder, because one sound often has several spellings."
+  },
+  {
+   "type": "alphabet"
+  },
+  {
+   "type": "callout",
+   "text": "**σ and ς** are the same letter: ς is used only at the end of a word (σεισμός). **γ** has two values: a voiced [ɣ] before a, o, u and consonants (γάλα), and [j] as in *yes* before e and i sounds (γεια, γιος)."
+  },
+  {
+   "type": "rules",
+   "title": "Consonant pronunciation",
+   "src": "grammar/alphabet-phonology.json#consonants.rules",
+   "cite": "Holton §1.3"
+  },
+  {
+   "type": "culture",
+   "title": "Greeklish and letters as numbers",
+   "text": "Greeks often type their language in Latin letters, **Greeklish** (*γκρίκλις*), a habit from early phones and the internet: *kalimera* for **καλημέρα** 'good morning'. Spellings follow either sound (θ → *th*) or shape (θ → *8*, ξ → *3*, ω → *w*). Letters also work as ordinal numbers with a mark after them: **α΄, β΄, γ΄** label chapters, lists and school years, so a pupil in sixth grade is in **Στ΄ Δημοτικού**, where στ΄ stands in for the old letter stigma (ϛ) once used for 6. On a Greek keyboard the question mark **;** sits on the Q key."
+  },
+  {
+   "type": "examples",
+   "title": "The five vowel sounds",
+   "src": "grammar/alphabet-phonology.json#vowels.examples",
+   "cite": "Holton §1.2"
+  }
+ ],
+ "practice": [
+  {
+   "gen": "letter-sound",
+   "n": 8
+  },
+  {
+   "gen": "letter-name",
+   "n": 6
+  },
+  {
+   "gen": "name-letter",
+   "n": 6
+  },
+  {
+   "gen": "mc",
+   "n": 7,
+   "items": [
+    {
+     "prompt": "Read aloud: **ψωμί** 'bread'",
+     "answer": "[psomí]",
+     "options": [
+      "[psomí]",
+      "[pomí]",
+      "[ʃomí]"
+     ],
+     "why": "ψ is always the cluster [ps], even at the start of a word."
+    },
+    {
+     "prompt": "Read aloud: **ξέρω** 'I know'",
+     "answer": "[kséro]",
+     "options": [
+      "[kséro]",
+      "[xéro]",
+      "[zéro]"
+     ],
+     "why": "ξ is the cluster [ks]; Greek has no [z] value for it."
+    },
+    {
+     "prompt": "Read aloud: **χέρι** 'hand'",
+     "answer": "[xéri]",
+     "options": [
+      "[xéri]",
+      "[kéri]",
+      "[tʃéri]"
+     ],
+     "why": "χ is [x] as in Scottish *loch* (softened to [ç] before e and i sounds), never [k] or [tʃ]."
+    },
+    {
+     "prompt": "Read aloud: **δέκα** 'ten'",
+     "answer": "[ðéka]",
+     "options": [
+      "[ðéka]",
+      "[déka]",
+      "[θéka]"
+     ],
+     "why": "δ is the voiced [ð] of *this*; the sound [d] is spelled ντ."
+    },
+    {
+     "prompt": "Read aloud: **θέμα** 'topic'",
+     "answer": "[θéma]",
+     "options": [
+      "[θéma]",
+      "[ðéma]",
+      "[téma]"
+     ],
+     "why": "θ is the voiceless [θ] of *thin*; δ is its voiced partner."
+    },
+    {
+     "prompt": "Read aloud: **βήμα** 'step'",
+     "answer": "[víma]",
+     "options": [
+      "[víma]",
+      "[béma]",
+      "[bíma]"
+     ],
+     "why": "β is [v] and η is [i]; [b] is spelled μπ."
+    },
+    {
+     "prompt": "Read aloud: **ζωή** 'life'",
+     "answer": "[zoí]",
+     "options": [
+      "[zoí]",
+      "[dzoí]",
+      "[zoé]"
+     ],
+     "why": "ζ is a plain [z], ω is [o] and η is [i]."
+    },
+    {
+     "prompt": "Read aloud: **γέρος** 'old man'",
+     "answer": "[jéros]",
+     "options": [
+      "[jéros]",
+      "[ɣéros]",
+      "[ɡéros]"
+     ],
+     "why": "Before an e or i sound γ is [j] as in *yes*; before a, o, u it is [ɣ]."
+    },
+    {
+     "prompt": "Read aloud: **ύπνος** 'sleep'",
+     "answer": "[ípnos]",
+     "options": [
+      "[ípnos]",
+      "[úpnos]",
+      "[hípnos]"
+     ],
+     "why": "υ is [i]; modern Greek has no [h], so the English *hypno-* sound is gone."
+    },
+    {
+     "prompt": "Which letter is the sound [n]?",
+     "answer": "ν",
+     "options": [
+      "ν",
+      "υ",
+      "η",
+      "π"
+     ],
+     "why": "ν (νι) looks like a Latin v but is [n]; υ and η are vowels, both [i]."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "Write in Greek letters, with the accent: [ðéka] 'ten'",
+     "answer": "δέκα",
+     "accept": [
+      "δέκα"
+     ],
+     "why": "[ð] = δ, [k] = κ; the accent goes on the stressed vowel ε."
+    },
+    {
+     "prompt": "Write in Greek letters, with the accent: [ɣála] 'milk'",
+     "answer": "γάλα",
+     "accept": [
+      "γάλα"
+     ],
+     "why": "[ɣ] before a is γ; stress on the first α."
+    },
+    {
+     "prompt": "Write in Greek letters, with the accent: [méra] 'day'",
+     "answer": "μέρα",
+     "accept": [
+      "μέρα"
+     ],
+     "why": "Every sound here has only one spelling: μ-έ-ρ-α."
+    },
+    {
+     "prompt": "Write in Greek letters, with the accent: [θéma] 'topic'",
+     "answer": "θέμα",
+     "accept": [
+      "θέμα"
+     ],
+     "why": "[θ] = θ (voiceless *th*)."
+    },
+    {
+     "prompt": "Write in Greek letters, with the accent: [ksénos] 'foreign' (ending -ος)",
+     "answer": "ξένος",
+     "accept": [
+      "ξένος"
+     ],
+     "why": "[ks] is one letter, ξ; the masculine ending is -ος with final ς."
+    },
+    {
+     "prompt": "Write in Greek letters, with the accent: [psáxno] 'I search' (verb, ends in -ω)",
+     "answer": "ψάχνω",
+     "accept": [
+      "ψάχνω"
+     ],
+     "why": "[ps] = ψ, [x] = χ; first-person verbs end in -ω."
+    },
+    {
+     "prompt": "Write in Greek letters, with the accent: [ɣráfo] 'I write' (verb, ends in -ω)",
+     "answer": "γράφω",
+     "accept": [
+      "γράφω"
+     ],
+     "why": "[f] = φ; verbs in the dictionary form end in -ω."
+    },
+    {
+     "prompt": "Write in Greek letters, with the accent: [kafés] 'coffee'",
+     "answer": "καφές",
+     "accept": [
+      "καφές"
+     ],
+     "why": "Final [s] is written ς; the stress is on the last syllable, so the accent goes on έ."
+    },
+    {
+     "prompt": "Write in Greek letters, with the accent: [ðrómos] 'road' (ending -ος)",
+     "answer": "δρόμος",
+     "accept": [
+      "δρόμος"
+     ],
+     "why": "[ð] = δ; the o-sound of the stem here is ο, as is the ending -ος."
+    },
+    {
+     "prompt": "Write in Greek letters, with the accent: [xártis] 'map' (ending -ης)",
+     "answer": "χάρτης",
+     "accept": [
+      "χάρτης"
+     ],
+     "why": "[x] = χ; masculine -ης is one of the six ways to write [is]."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "γράμμα",
+  "λέξη",
+  "γλώσσα",
+  "όνομα",
+  "νερό",
+  "ψωμί",
+  "γάλα",
+  "θάλασσα",
+  "ξέρω",
+  "γράφω",
+  "διαβάζω",
+  "δρόμος"
+ ]
+}

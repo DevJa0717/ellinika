@@ -1,0 +1,775 @@
+{
+ "source": "Holton, Mackridge & Philippaki-Warburton, Greek: An Essential Grammar, 2nd ed. (Routledge, 2016), uploads afb4adc8 (PDF pp. 56-60) and a92060f7 (PDF pp. 1, 12-14). Appendix 1 = pronoun/determiner/adverb correspondence table; Appendix 2 = abbreviations; further-reading list. Copyrighted, no open license: word lists and bibliographic titles only; no running text reproduced.",
+ "variety": "Standard Modern Greek",
+ "related_files": [
+  "pronouns.json",
+  "glossary.json"
+ ],
+ "correspondence_table": {
+  "section": "Appendix 1",
+  "title": "Correspondence table of pronouns, determiners and adverbs",
+  "pdf_pages": "afb4adc8 p.57",
+  "columns": [
+   "pron_masc_fem_neut",
+   "pron_neuter",
+   "place",
+   "time",
+   "manner",
+   "quantity"
+  ],
+  "column_notes": {
+   "pron_masc_fem_neut": "Pronouns and determiners, masculine/feminine/neuter",
+   "pron_neuter": "Pronouns and determiners, neuter only (when used as pronouns)",
+   "place": "Adverbs of place",
+   "time": "Adverbs of time",
+   "manner": "Adverbs of manner",
+   "quantity": "Adverbs of quantity"
+  },
+  "rows": [
+   {
+    "category": "Indefinite (specific)",
+    "pron_masc_fem_neut": {
+     "el": "κάποιος",
+     "en": "some(one)"
+    },
+    "pron_neuter": {
+     "el": "κάτι",
+     "en": "something"
+    },
+    "place": {
+     "el": "κάπου",
+     "en": "somewhere"
+    },
+    "time": {
+     "el": "κάποτε",
+     "en": "once, at some time"
+    },
+    "manner": {
+     "el": "κάπως",
+     "en": "in some way, somehow"
+    },
+    "quantity": {
+     "el": "κάπως",
+     "en": "somewhat"
+    }
+   },
+   {
+    "category": "Indefinite (non-specific)",
+    "pron_masc_fem_neut": {
+     "el": "κανένας",
+     "en": "any/no(one)"
+    },
+    "pron_neuter": {
+     "el": "τίποτα",
+     "en": "any/no(thing)"
+    },
+    "place": {
+     "el": "πουθενά",
+     "en": "anywhere, nowhere"
+    },
+    "time": {
+     "el": "ποτέ",
+     "en": "(n)ever"
+    },
+    "manner": {
+     "el": "καθόλου",
+     "en": "(not) at all"
+    },
+    "quantity": {
+     "el": "καθόλου",
+     "en": "(not) at all"
+    }
+   },
+   {
+    "category": "Interrogative",
+    "note": "also reason: γιατί 'why'",
+    "pron_masc_fem_neut": [
+     {
+      "el": "ποιος",
+      "en": "who, which"
+     },
+     {
+      "el": "πόσος",
+      "en": "how much/many"
+     }
+    ],
+    "pron_neuter": [
+     {
+      "el": "τι",
+      "en": "what"
+     },
+     {
+      "el": "πόσο",
+      "en": "how much"
+     }
+    ],
+    "place": {
+     "el": "πού",
+     "en": "where"
+    },
+    "time": {
+     "el": "πότε",
+     "en": "when"
+    },
+    "manner": {
+     "el": "πώς",
+     "en": "how"
+    },
+    "quantity": {
+     "el": "πόσο",
+     "en": "how much"
+    }
+   },
+   {
+    "category": "Demonstrative",
+    "pron_masc_fem_neut": [
+     {
+      "el": "αυτός",
+      "en": "this"
+     },
+     {
+      "el": "εκείνος",
+      "en": "that"
+     }
+    ],
+    "pron_neuter": [
+     {
+      "el": "αυτό",
+      "en": "this"
+     },
+     {
+      "el": "εκείνο",
+      "en": "that"
+     }
+    ],
+    "place": [
+     {
+      "el": "εδώ",
+      "en": "here"
+     },
+     {
+      "el": "εκεί",
+      "en": "there"
+     }
+    ],
+    "time": [
+     {
+      "el": "τώρα",
+      "en": "now"
+     },
+     {
+      "el": "τότε",
+      "en": "then"
+     }
+    ],
+    "manner": {
+     "el": "έτσι",
+     "en": "in this/that way"
+    }
+   },
+   {
+    "category": "Quantitative demonstrative",
+    "pron_masc_fem_neut": {
+     "el": "τόσος",
+     "en": "so much/many"
+    },
+    "pron_neuter": {
+     "el": "τόσο",
+     "en": "so much"
+    },
+    "quantity": {
+     "el": "τόσο",
+     "en": "so much"
+    }
+   },
+   {
+    "category": "Qualitative demonstrative",
+    "pron_masc_fem_neut": {
+     "el": "τέτοιος",
+     "en": "such, this/that kind of"
+    },
+    "manner": {
+     "el": "έτσι",
+     "en": "in such a way"
+    }
+   },
+   {
+    "category": "Relative",
+    "pron_masc_fem_neut": {
+     "el": "που, ο οποίος",
+     "en": "who, which"
+    },
+    "place": {
+     "el": "όπου",
+     "en": "where"
+    },
+    "time": {
+     "el": "όταν",
+     "en": "when"
+    },
+    "manner": {
+     "el": "όπως, καθώς",
+     "en": "as"
+    }
+   },
+   {
+    "category": "Correlative",
+    "pron_masc_fem_neut": [
+     {
+      "el": "όποιος, οποιοσδήποτε",
+      "en": "whoever"
+     },
+     {
+      "el": "όσος, οσοσδήποτε",
+      "en": "as much/many as"
+     }
+    ],
+    "pron_neuter": {
+     "el": "ό,τι, οτιδήποτε",
+     "en": "whatever"
+    },
+    "place": {
+     "el": "όπου, οπουδήποτε",
+     "en": "wherever"
+    },
+    "time": [
+     {
+      "el": "όποτε, οποτεδήποτε",
+      "en": "whenever"
+     },
+     {
+      "el": "οπότε",
+      "en": "at which point"
+     }
+    ],
+    "manner": {
+     "el": "όπως, οπωσδήποτε",
+     "en": "however, whichever way"
+    },
+    "quantity": {
+     "el": "όσο, οσοδήποτε",
+     "en": "as much as, however much"
+    }
+   },
+   {
+    "category": "Universal",
+    "pron_masc_fem_neut": {
+     "el": "καθένας",
+     "en": "each one"
+    },
+    "pron_neuter": {
+     "el": "καθετί",
+     "en": "each thing"
+    },
+    "place": {
+     "el": "παντού",
+     "en": "everywhere"
+    },
+    "time": {
+     "el": "πάντα",
+     "en": "always"
+    },
+    "manner": {
+     "el": "πάντως",
+     "en": "in any case"
+    }
+   },
+   {
+    "category": "Distributive",
+    "pron_masc_fem_neut": {
+     "el": "κάθε",
+     "en": "each, every"
+    }
+   },
+   {
+    "category": "Contrastive",
+    "pron_masc_fem_neut": {
+     "el": "άλλος",
+     "en": "other, (someone) else"
+    },
+    "pron_neuter": {
+     "el": "άλλο",
+     "en": "other, (something) else"
+    },
+    "place": {
+     "el": "αλλού",
+     "en": "elsewhere"
+    },
+    "time": {
+     "el": "άλλοτε",
+     "en": "at another time"
+    },
+    "manner": {
+     "el": "αλλιώς",
+     "en": "otherwise, another way"
+    },
+    "quantity": {
+     "el": "άλλο",
+     "en": "more, further"
+    }
+   }
+  ],
+  "scan_note": "Table printed at low resolution; forms checked against known paradigms."
+ },
+ "abbreviations": {
+  "section": "Appendix 2",
+  "title": "Some abbreviations in common use",
+  "pdf_pages": "afb4adc8 pp.58-60; a92060f7 p.1",
+  "rule": "These are abbreviations common in Greece and Cyprus. Institution abbreviations take the gender of the chief noun of the full name (η Δ.Ε.Η., ο Ο.Τ.Ε., το Κ.Τ.Ε.Λ.). Where an abbreviation is commonly pronounced as a word, the pronunciation is shown in square brackets. Full stops in all-capital abbreviations are often omitted.",
+  "items": [
+   {
+    "abbr": "Α",
+    "expansion": "ανατολικός",
+    "en": "east(ern)"
+   },
+   {
+    "abbr": "αγ.",
+    "expansion": "άγιος/αγία",
+    "en": "saint"
+   },
+   {
+    "abbr": "Α.Ε.",
+    "expansion": "ανώνυμος εταιρεία",
+    "en": "limited company"
+   },
+   {
+    "abbr": "Α.Ε.Κ.",
+    "expansion": "Αθλητική Ένωση Κωνσταντινουπόλεως",
+    "en": "an Athens football team",
+    "pronounced": "[áek]"
+   },
+   {
+    "abbr": "αι.",
+    "expansion": "αιώνας",
+    "en": "century"
+   },
+   {
+    "abbr": "Α.Κ.Ε.Λ.",
+    "expansion": "Ανορθωτικό Κόμμα Εργαζόμενου Λαού",
+    "en": "a Cypriot political party",
+    "pronounced": "[ak'él]"
+   },
+   {
+    "abbr": "αρ.",
+    "expansion": "αριθμός",
+    "en": "number"
+   },
+   {
+    "abbr": "Αφοί",
+    "expansion": "Αδελφοί",
+    "en": "Brothers, Bros"
+   },
+   {
+    "abbr": "Β",
+    "expansion": "βόρειος",
+    "en": "north(ern)"
+   },
+   {
+    "abbr": "ΒΑ",
+    "expansion": "βορειοανατολικός",
+    "en": "north-east"
+   },
+   {
+    "abbr": "ΒΔ",
+    "expansion": "βορειοδυτικός",
+    "en": "north-west"
+   },
+   {
+    "abbr": "Γ.Γ.",
+    "expansion": "γενικός γραμματέας",
+    "en": "general secretary"
+   },
+   {
+    "abbr": "Γ.Ε.Σ.",
+    "expansion": "Γενικό Επιτελείο Στρατού",
+    "en": "General Staff of the Greek Army",
+    "pronounced": "[jes]"
+   },
+   {
+    "abbr": "γρ.",
+    "expansion": "γραμμάριο",
+    "en": "gram(s)"
+   },
+   {
+    "abbr": "Γ.Σ.Ε.Ε.",
+    "expansion": "Γενική Συνομοσπονδία Εργατών Ελλάδας",
+    "en": "General Trade Unions Federation of Greece",
+    "pronounced": "[jeseé]"
+   },
+   {
+    "abbr": "Δ",
+    "expansion": "δυτικός",
+    "en": "west(ern)"
+   },
+   {
+    "abbr": "Δ.Ε.Η.",
+    "expansion": "Δημόσια Επιχείρηση Ηλεκτρισμού",
+    "en": "Greek electricity authority",
+    "pronounced": "[deí]"
+   },
+   {
+    "abbr": "δηλ.",
+    "expansion": "δηλαδή",
+    "en": "that is, i.e."
+   },
+   {
+    "abbr": "δις",
+    "expansion": "δισεκατομμύριο",
+    "en": "billion",
+    "pronounced": "[dis]"
+   },
+   {
+    "abbr": "Δ.Σ.",
+    "expansion": "διπλωματικό σώμα",
+    "en": "diplomatic corps"
+   },
+   {
+    "abbr": "Ε.Ε.",
+    "expansion": "Ευρωπαϊκή Ένωση",
+    "en": "European Union"
+   },
+   {
+    "abbr": "Ε.Ε.Σ.",
+    "expansion": "Ελληνικός Ερυθρός Σταυρός",
+    "en": "Greek Red Cross"
+   },
+   {
+    "abbr": "εκ.",
+    "expansion": "εκατομμύριο / εκατοστό",
+    "en": "million, or centimetre(s)"
+   },
+   {
+    "abbr": "Ε.Κ.Α.Β.",
+    "expansion": "Εθνικό Κέντρο Άμεσης Βοήθειας",
+    "en": "National First-Aid Centre",
+    "pronounced": "[ekáv]"
+   },
+   {
+    "abbr": "ΕΛ.ΑΣ.",
+    "expansion": "Ελληνική Αστυνομία",
+    "en": "Greek Police",
+    "pronounced": "[elás]"
+   },
+   {
+    "abbr": "ΕΛ.ΤΑ.",
+    "expansion": "Ελληνικά Ταχυδρομεία",
+    "en": "Greek Postal Service",
+    "pronounced": "[eltá]"
+   },
+   {
+    "abbr": "Ε.Μ.Υ.",
+    "expansion": "Ελληνική Μετεωρολογική Υπηρεσία",
+    "en": "Greek Meteorological Service",
+    "pronounced": "[émi]"
+   },
+   {
+    "abbr": "Ε.Ο.Τ.",
+    "expansion": "Ελληνικός Οργανισμός Τουρισμού",
+    "en": "Greek Tourism Organization",
+    "pronounced": "[eót]"
+   },
+   {
+    "abbr": "Ε.Ρ.Τ.",
+    "expansion": "Ελληνική Ραδιοφωνία Τηλεόραση",
+    "en": "Greek state broadcasting service",
+    "pronounced": "[ert]"
+   },
+   {
+    "abbr": "Ε.Σ.Υ.",
+    "expansion": "Εθνικό Σύστημα Υγείας",
+    "en": "National Health Service",
+    "pronounced": "[esí]"
+   },
+   {
+    "abbr": "Ε.ΥΔ.Α.Π.",
+    "expansion": "Εταιρεία Ύδρευσης και Αποχέτευσης Πρωτευούσης",
+    "en": "Athens Water Supply and Sewerage Company",
+    "pronounced": "[ejδáp]"
+   },
+   {
+    "abbr": "Η/Υ",
+    "expansion": "ηλεκτρονικός υπολογιστής",
+    "en": "computer"
+   },
+   {
+    "abbr": "Η.Π.Α.",
+    "expansion": "Ηνωμένες Πολιτείες της Αμερικής",
+    "en": "United States of America"
+   },
+   {
+    "abbr": "Ι.Κ.Α.",
+    "expansion": "Ίδρυμα Κοινωνικών Ασφαλίσεων",
+    "en": "Greek state social security organization",
+    "pronounced": "[ika]"
+   },
+   {
+    "abbr": "κ.",
+    "expansion": "κύριος/κυρία",
+    "en": "Mr/Mrs"
+   },
+   {
+    "abbr": "κ.ά.",
+    "expansion": "και άλλα",
+    "en": "and other people/things, et al."
+   },
+   {
+    "abbr": "κεφ.",
+    "expansion": "κεφάλαιο",
+    "en": "chapter"
+   },
+   {
+    "abbr": "Κ.Κ.Ε.",
+    "expansion": "Κομμουνιστικό Κόμμα Ελλάδας",
+    "en": "Greek Communist Party",
+    "pronounced": "[kukué] (sometimes)"
+   },
+   {
+    "abbr": "κλπ.",
+    "expansion": "και λοιπά",
+    "en": "etc."
+   },
+   {
+    "abbr": "Κ.Τ.Ε.Λ.",
+    "expansion": "Κοινό Ταμείο Εισπράξεων Λεωφορείων",
+    "en": "Greek national bus service",
+    "pronounced": "[ktel]"
+   },
+   {
+    "abbr": "κ.τ.λ.",
+    "expansion": "και τα λοιπά",
+    "en": "etc."
+   },
+   {
+    "abbr": "λ.χ.",
+    "expansion": "λόγου χάριν",
+    "en": "for instance, e.g."
+   },
+   {
+    "abbr": "μ.",
+    "expansion": "μέτρο/μέτρα",
+    "en": "metre(s)"
+   },
+   {
+    "abbr": "μ.μ.",
+    "expansion": "μετά το μεσημέρι",
+    "en": "p.m."
+   },
+   {
+    "abbr": "Μ.Μ.Ε.",
+    "expansion": "μέσα μαζικής ενημέρωσης",
+    "en": "mass media"
+   },
+   {
+    "abbr": "μ.Χ.",
+    "expansion": "μετά Χριστόν",
+    "en": "a.d."
+   },
+   {
+    "abbr": "Ν",
+    "expansion": "νότιος",
+    "en": "south(ern)"
+   },
+   {
+    "abbr": "ΝΑ",
+    "expansion": "νοτιοανατολικός",
+    "en": "south-eastern"
+   },
+   {
+    "abbr": "ΝΔ",
+    "expansion": "νοτιοδυτικός",
+    "en": "south-western"
+   },
+   {
+    "abbr": "Ν.Δ.",
+    "expansion": "Νέα Δημοκρατία",
+    "en": "New Democracy, a Greek political party"
+   },
+   {
+    "abbr": "Ο.Α.",
+    "expansion": "Ολυμπιακή Αεροπορία",
+    "en": "Olympic Airlines"
+   },
+   {
+    "abbr": "Ο.Η.Ε.",
+    "expansion": "Οργανισμός Ηνωμένων Εθνών",
+    "en": "United Nations Organization",
+    "pronounced": "[oié]"
+   },
+   {
+    "abbr": "Ο.Τ.Ε.",
+    "expansion": "Οργανισμός Τηλεπικοινωνιών Ελλάδας",
+    "en": "Greek Telecommunications Organization",
+    "pronounced": "[oté]"
+   },
+   {
+    "abbr": "Π.Α.Ο.",
+    "expansion": "Παναθηναϊκός Αθλητικός Όμιλος",
+    "en": "an Athens football team"
+   },
+   {
+    "abbr": "Π.Α.Ο.Κ.",
+    "expansion": "Πανθεσσαλονίκιος Αθλητικός Όμιλος Κωνσταντινουπολιτών",
+    "en": "a Thessaloniki football team",
+    "pronounced": "[páok]"
+   },
+   {
+    "abbr": "ΠΑ.ΣΟ.Κ.",
+    "expansion": "Πανελλήνιο Σοσιαλιστικό Κίνημα",
+    "en": "Panhellenic Socialist Movement, a Greek political party",
+    "pronounced": "[pasók]"
+   },
+   {
+    "abbr": "πβ.",
+    "expansion": "παράβαλε",
+    "en": "compare, cf."
+   },
+   {
+    "abbr": "π.μ.",
+    "expansion": "πριν από το μεσημέρι",
+    "en": "a.m."
+   },
+   {
+    "abbr": "ΠΡΟΠΟ",
+    "expansion": "Προγνωστικά Ποδοσφαίρου",
+    "en": "Greek football pools",
+    "pronounced": "[propó]"
+   },
+   {
+    "abbr": "π.Χ.",
+    "expansion": "προ Χριστού",
+    "en": "B.C."
+   },
+   {
+    "abbr": "π.χ.",
+    "expansion": "παραδείγματος χάριν",
+    "en": "for example, e.g.",
+    "pronounced": "[pix'í]"
+   },
+   {
+    "abbr": "Ρ.Ι.Κ.",
+    "expansion": "Ραδιοφωνικό Ίδρυμα Κύπρου",
+    "en": "Cyprus Broadcasting Corporation",
+    "pronounced": "[rik]"
+   },
+   {
+    "abbr": "σ./σελ.",
+    "expansion": "σελίδα",
+    "en": "page, p."
+   },
+   {
+    "abbr": "ΣΥΡΙΖΑ",
+    "expansion": "Συνασπισμός Ριζοσπαστικής Αριστεράς",
+    "en": "Coalition of the Radical Left, a Greek political party",
+    "pronounced": "[síriza]"
+   },
+   {
+    "abbr": "τ.μ.",
+    "expansion": "τετραγωνικό μέτρο",
+    "en": "square metre(s)"
+   },
+   {
+    "abbr": "Υ.Γ.",
+    "expansion": "υστερόγραφο",
+    "en": "postscript, P.S."
+   },
+   {
+    "abbr": "Φ.Π.Α.",
+    "expansion": "Φόρος Προστιθέμενης Αξίας",
+    "en": "Value Added Tax, V.A.T.",
+    "pronounced": "[fipiá]"
+   },
+   {
+    "abbr": "χλμ.",
+    "expansion": "χιλιόμετρο",
+    "en": "kilometre(s)"
+   },
+   {
+    "abbr": "χφ.",
+    "expansion": "χειρόγραφο",
+    "en": "manuscript, ms"
+   }
+  ]
+ },
+ "further_reading": {
+  "title": "Some recommended books for further study",
+  "pdf_pages": "a92060f7 pp.12-14",
+  "items": [
+   {
+    "type": "coursebook",
+    "ref": "Τα νέα ελληνικά για ξένους (Aristotle University of Thessaloniki / Triantafyllidis Foundation, 4th ed., 2005); workbook available"
+   },
+   {
+    "type": "coursebook",
+    "ref": "Arvanitakis & Arvanitaki, Επικοινωνήστε ελληνικά (Deltos, 2002); three volumes with CDs and workbooks"
+   },
+   {
+    "type": "coursebook",
+    "ref": "Babiniotis and others, Ελληνική γλώσσα: Εγχειρίδιο διδασκαλίας της ελληνικής ως δεύτερης (ξένης) γλώσσας (Lambraki Foundation, 2011)"
+   },
+   {
+    "type": "coursebook",
+    "ref": "Bien and others, Greek Today: A Course in the Modern Language and Culture (Dartmouth, 2004)"
+   },
+   {
+    "type": "coursebook",
+    "ref": "Catsimali and others, Ελληνικά με την παρέα μου (Rethymno, 1999-2004); 2 vols, available online"
+   },
+   {
+    "type": "coursebook",
+    "ref": "Dimitra & Papacheimona, Ελληνικά τώρα 1+1 and 2+2 (Nostos, Athens)"
+   },
+   {
+    "type": "coursebook",
+    "ref": "Hardy, Greek Language and People (BBC Active, 2006)"
+   },
+   {
+    "type": "coursebook",
+    "ref": "Vogiatzidou, Learning Modern Greek as a Foreign/Second Language: A Communicative Approach (Thessaloniki, 2002)"
+   },
+   {
+    "type": "coursebook",
+    "ref": "Watts, Colloquial Greek: a Complete Language Course (Routledge, 2nd ed., 2004)"
+   },
+   {
+    "type": "grammar",
+    "ref": "Holton, Mackridge & Philippaki-Warburton (rev. Spyropoulos), Greek: A Comprehensive Grammar (Routledge, 2nd ed., 2012)"
+   },
+   {
+    "type": "grammar",
+    "ref": "Klairis & Babiniotis, Γραμματική της Νέας Ελληνικής: Δομολειτουργική - επικοινωνιακή (Ellinika Grammata, 2005); abridged Συνοπτική γραμματική της Νέας Ελληνικής (2007)"
+   },
+   {
+    "type": "grammar",
+    "ref": "Mackridge, The Modern Greek Language: A Descriptive Analysis of Standard Modern Greek (Oxford University Press, 1987)"
+   },
+   {
+    "type": "dictionary",
+    "ref": "Pring, The Pocket Oxford Greek Dictionary (OUP, rev. ed. 2000)"
+   },
+   {
+    "type": "dictionary",
+    "ref": "Stavropoulos, Oxford Greek-English Learner's Dictionary (OUP, 2008)"
+   },
+   {
+    "type": "dictionary",
+    "ref": "Stavropoulos, Oxford English-Greek Learner's Dictionary (OUP, 3rd ed. 2007)"
+   },
+   {
+    "type": "dictionary",
+    "ref": "Babiniotis, Λεξικό της Νέας Ελληνικής γλώσσας (Kentro Lexikologias, 2nd ed. 2002)"
+   },
+   {
+    "type": "dictionary",
+    "ref": "Kriaras, Νέο ελληνικό λεξικό της σύγχρονης δημοτικής γλώσσας, γραπτής και προφορικής (Ekdotiki Athinon, 1995)"
+   },
+   {
+    "type": "dictionary",
+    "ref": "Λεξικό της κοινής νεοελληνικής (Aristotle University of Thessaloniki, 1998)"
+   },
+   {
+    "type": "dictionary",
+    "ref": "Χρηστικό λεξικό της νεοελληνικής γλώσσας (Academy of Athens, 2014)"
+   }
+  ]
+ }
+}

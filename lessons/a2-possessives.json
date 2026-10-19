@@ -1,0 +1,430 @@
+{
+ "el": "Κτητικά",
+ "title": "Possessives μου, σου, του and δικός μου",
+ "section": "A2 · Holton §4.4",
+ "goal": "Express possession with the weak genitive and with emphatic δικός.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Everyday possession is the weak genitive pronoun after the noun, with the article in front: **ο φίλος μου**, **η μητέρα της**, **τα παιδιά τους**. For emphasis or contrast, and for 'mine, yours' standing alone, use **δικός μου**, which agrees with the thing possessed like an adjective: **το δικό μου σπίτι**, **Αυτό είναι δικό μου**, **ένας δικός μου φίλος** 'a friend of mine'."
+  },
+  {
+   "type": "table",
+   "title": "Weak possessives",
+   "head": [
+    "",
+    "sg.",
+    "pl."
+   ],
+   "rows": [
+    [
+     "1",
+     "μου",
+     "μας"
+    ],
+    [
+     "2",
+     "σου",
+     "σας"
+    ],
+    [
+     "3",
+     "του / της / του",
+     "τους"
+    ]
+   ],
+   "cite": "Holton §4.1, §4.4"
+  },
+  {
+   "type": "rules",
+   "src": "grammar/pronouns-holton.json#possessives.rule",
+   "cite": "Holton §4.4"
+  },
+  {
+   "type": "examples",
+   "src": "grammar/pronouns-holton.json#possessives.examples",
+   "cite": "Holton §4.4"
+  },
+  {
+   "type": "culture",
+   "title": "Οι δικοί μου: family and koumbaroi",
+   "text": "**Οι δικοί μου**, literally 'my own', is the everyday way to say 'my family, my folks': **Πάω στους δικούς μου για το Πάσχα**. A spouse is normally **ο άντρας μου** 'my husband' and **η γυναίκα μου** 'my wife', literally 'my man, my woman'. The circle widens through ritual kinship: the **κουμπάρος / κουμπάρα** is the wedding sponsor, who often goes on to baptise the couple's first child and so becomes its **νονός / νονά** 'godfather / godmother'. These ties are taken seriously, and at Easter it is traditionally the godparent who gives a child its decorated candle, the **λαμπάδα**."
+  },
+  {
+   "type": "callout",
+   "text": "**Stress clash.** A noun stressed on the third syllable from the end gains a second accent before a possessive: ο δάσκαλός μου, το τηλέφωνό σου. This is the enclisis rule from the stress lesson."
+  },
+  {
+   "type": "reading",
+   "title": "Πάσχα με τους δικούς μου",
+   "text": "Κάθε Πάσχα πηγαίνω στο χωριό της μητέρας μου, κοντά στα Τρίκαλα. Εκεί μένουν ακόμα η γιαγιά μου και ο θείος μου με τη γυναίκα του και τα παιδιά τους.\n\nΦέτος ήρθε μαζί μου και ο φίλος μου ο Μάρκος από την Ιταλία. Ήταν το πρώτο του Πάσχα στην Ελλάδα. Η γιαγιά μου τον αγκάλιασε σαν δικό της εγγονό και του έδωσε το καλύτερο δωμάτιο του σπιτιού της.\n\nΤο Μεγάλο Σάββατο πήγαμε όλοι μαζί στην εκκλησία με τις λαμπάδες μας. Η λαμπάδα του Μάρκου ήταν απλή· τη δική μου τη στόλισε η μικρή μου ξαδέρφη.\n\nΤην Κυριακή ο θείος μου έψησε το αρνί στην αυλή. Ο Μάρκος ρώτησε: «Είναι δικό σας αυτό το χωράφι;» «Όχι», είπε ο θείος μου, «είναι του γείτονά μας. Οι ελιές όμως εκεί πέρα είναι δικές μας!»",
+   "en": "Every Easter I go to my mother's village, near Trikala. My grandmother still lives there, and my uncle with his wife and their children.\n\nThis year my friend Marco from Italy came with me. It was his first Easter in Greece. My grandmother hugged him like her own grandson and gave him the best room in her house.\n\nOn Holy Saturday we all went to church together with our candles. Marco's candle was plain; mine had been decorated by my little cousin.\n\nOn Sunday my uncle roasted the lamb in the yard. Marco asked: 'Is this field yours?' 'No,' said my uncle, 'it's our neighbour's. But the olive trees over there are ours!'",
+   "gloss": {
+    "Τρίκαλα": "Τρίκαλα — Trikala (town in Thessaly)",
+    "Ιταλία": "Ιταλία — Italy",
+    "Μάρκος": "Μάρκος — Marco / Markos (man's name)",
+    "Μάρκου": "Μάρκος — Marco (man's name), genitive",
+    "Μάρκο": "Μάρκος — Marco (man's name), accusative",
+    "λαμπάδα": "λαμπάδα — tall Easter candle",
+    "λαμπάδες": "λαμπάδα — tall Easter candle (plural)",
+    "στόλισε": "στολίζω — to decorate (simple past, 3sg)",
+    "έψησε": "ψήνω — to roast, grill (simple past, 3sg)",
+    "αγκάλιασε": "αγκαλιάζω — to hug (simple past, 3sg)",
+    "Μεγάλο": "μεγάλος — big; Μεγάλο Σάββατο = Holy Saturday (the day before Easter)",
+    "ξαδέρφη": "ξαδέρφη — (female) cousin",
+    "χωράφι": "χωράφι — field",
+    "ελιές": "ελιά — olive tree, olive (plural)",
+    "αρνί": "αρνί — lamb"
+   },
+   "questions": [
+    {
+     "prompt": "Πού είναι το χωριό;",
+     "answer": "Κοντά στα Τρίκαλα",
+     "options": [
+      "Κοντά στα Τρίκαλα",
+      "Στην Ιταλία",
+      "Κοντά στην Αθήνα"
+     ]
+    },
+    {
+     "prompt": "Ποιος είναι ο Μάρκος;",
+     "answer": "Ένας φίλος από την Ιταλία",
+     "options": [
+      "Ένας φίλος από την Ιταλία",
+      "Ο θείος της οικογένειας",
+      "Ο γείτονας της γιαγιάς"
+     ]
+    },
+    {
+     "prompt": "Τι έδωσε η γιαγιά στον Μάρκο;",
+     "answer": "Το καλύτερο δωμάτιο",
+     "options": [
+      "Το καλύτερο δωμάτιο",
+      "Μια λαμπάδα",
+      "Ένα αρνί"
+     ]
+    },
+    {
+     "prompt": "Σε ποιον ανήκει το χωράφι;",
+     "answer": "Στον γείτονα",
+     "options": [
+      "Στον γείτονα",
+      "Στον θείο",
+      "Στη γιαγιά"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "mc",
+   "n": 10,
+   "items": [
+    {
+     "prompt": "my teacher",
+     "answer": "ο δάσκαλός μου",
+     "options": [
+      "ο δάσκαλός μου",
+      "ο δάσκαλος μου",
+      "ο μου δάσκαλος"
+     ],
+     "why": "Second accent before the enclitic."
+    },
+    {
+     "prompt": "her children",
+     "answer": "τα παιδιά της",
+     "options": [
+      "τα παιδιά της",
+      "τα παιδιά του",
+      "τα της παιδιά"
+     ]
+    },
+    {
+     "prompt": "Is this yours (sg.)? (το βιβλίο)",
+     "answer": "Είναι δικό σου;",
+     "options": [
+      "Είναι δικό σου;",
+      "Είναι σου;",
+      "Είναι δικός σου;"
+     ],
+     "why": "δικός agrees with βιβλίο: neuter."
+    },
+    {
+     "prompt": "a friend of mine (f.)",
+     "answer": "μια δική μου φίλη",
+     "options": [
+      "μια δική μου φίλη",
+      "μια φίλη μου δική",
+      "η δική μου φίλη"
+     ],
+     "why": "Indefinite: no article before δικός."
+    },
+    {
+     "prompt": "their house (not ours)",
+     "answer": "το δικό τους σπίτι",
+     "options": [
+      "το δικό τους σπίτι",
+      "το σπίτι δικό τους",
+      "το δικός τους σπίτι"
+     ]
+    },
+    {
+     "prompt": "our new car",
+     "answer": "το καινούριο μας αυτοκίνητο",
+     "options": [
+      "το καινούριο μας αυτοκίνητο",
+      "το μας καινούριο αυτοκίνητο",
+      "μας το καινούριο αυτοκίνητο"
+     ]
+    },
+    {
+     "prompt": "your (pl./polite) phone",
+     "answer": "το τηλέφωνό σας",
+     "options": [
+      "το τηλέφωνό σας",
+      "το τηλέφωνο σας",
+      "το σας τηλέφωνο"
+     ]
+    },
+    {
+     "prompt": "his own room",
+     "answer": "το δικό του δωμάτιο",
+     "options": [
+      "το δικό του δωμάτιο",
+      "το δωμάτιό του δικό",
+      "το δικός του δωμάτιο"
+     ]
+    },
+    {
+     "prompt": "Whose is it? It's mine. (η τσάντα)",
+     "answer": "Είναι δική μου.",
+     "options": [
+      "Είναι δική μου.",
+      "Είναι μου.",
+      "Είναι δικό μου."
+     ]
+    },
+    {
+     "prompt": "with all my strength",
+     "answer": "με όλη μου τη δύναμη",
+     "options": [
+      "με όλη μου τη δύναμη",
+      "με όλη τη μου δύναμη",
+      "με μου όλη δύναμη"
+     ],
+     "why": "The possessive can follow όλος (Holton §4.1)."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say in Greek: *my brother's car*",
+     "answer": "το αυτοκίνητο του αδερφού μου",
+     "accept": [
+      "το αυτοκίνητο του αδερφού μου",
+      "το αυτοκίνητο του αδελφού μου"
+     ],
+     "why": "Possessor in the genitive after the noun (του αδερφού), with μου closing the possessor phrase."
+    },
+    {
+     "prompt": "Say in Greek: *our grandmother's house*",
+     "answer": "το σπίτι της γιαγιάς μας",
+     "accept": [
+      "το σπίτι της γιαγιάς μας"
+     ],
+     "why": "Feminine genitive της γιαγιάς, then the weak possessive μας."
+    },
+    {
+     "prompt": "Say in Greek: *with my friends (m.)*",
+     "answer": "με τους φίλους μου",
+     "accept": [
+      "με τους φίλους μου"
+     ],
+     "why": "με + accusative plural; the possessive μου never changes for case."
+    },
+    {
+     "prompt": "Say in Greek: *in your (sg.) room*",
+     "answer": "στο δωμάτιό σου",
+     "accept": [
+      "στο δωμάτιό σου"
+     ],
+     "why": "σε + το = στο; δωμάτιο is stressed on the third syllable from the end, so it gains a second accent before σου."
+    },
+    {
+     "prompt": "Say in Greek: *of my old car* (gen.)",
+     "answer": "του παλιού μου αυτοκινήτου",
+     "accept": [
+      "του παλιού μου αυτοκινήτου",
+      "του παλιού αυτοκινήτου μου"
+     ],
+     "why": "Genitive -ού / -ου on adjective and noun; μου may follow the adjective or the noun."
+    },
+    {
+     "prompt": "Say in Greek: *Is it yours (pl.)?* (η τσάντα)",
+     "answer": "Είναι δική σας;",
+     "accept": [
+      "Είναι δική σας",
+      "Δική σας είναι"
+     ],
+     "why": "Standing alone, possession needs δικός, agreeing with τσάντα: δική."
+    },
+    {
+     "prompt": "Say in Greek: *They're ours.* (τα κλειδιά)",
+     "answer": "Είναι δικά μας.",
+     "accept": [
+      "Είναι δικά μας",
+      "Αυτά είναι δικά μας",
+      "Δικά μας είναι"
+     ],
+     "why": "δικός agrees with the thing owned: neuter plural δικά."
+    },
+    {
+     "prompt": "Ξέρω ___ (*my own friends*, m.).",
+     "answer": "τους δικούς μου φίλους",
+     "accept": [
+      "τους δικούς μου φίλους"
+     ],
+     "why": "Emphatic δικός declines like an adjective: accusative plural δικούς."
+    },
+    {
+     "prompt": "Say in Greek: *her children's school*",
+     "answer": "το σχολείο των παιδιών της",
+     "accept": [
+      "το σχολείο των παιδιών της"
+     ],
+     "why": "Genitive plural των παιδιών (stress on the ending), then της."
+    },
+    {
+     "prompt": "Say in Greek: *our neighbour (m.)* (nom.)",
+     "answer": "ο γείτονάς μας",
+     "accept": [
+      "ο γείτονάς μας"
+     ],
+     "why": "γείτονας is stressed on the third syllable from the end, so it takes a second accent before μας."
+    },
+    {
+     "prompt": "Say in Greek: *my folks / my family* (colloquial, with δικός)",
+     "answer": "οι δικοί μου",
+     "accept": [
+      "οι δικοί μου"
+     ],
+     "why": "Masculine plural δικοί, used as a noun, means 'my people, my family'."
+    },
+    {
+     "prompt": "Say in Greek: *to my mother* (with σε)",
+     "answer": "στη μητέρα μου",
+     "accept": [
+      "στη μητέρα μου",
+      "στην μητέρα μου",
+      "στη μαμά μου",
+      "στην μαμά μου"
+     ],
+     "why": "σε + τη(ν) = στη(ν); the possessive stays μου."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Τα παιχνίδια ___ (*of my little sister*)",
+     "answer": "της μικρής μου αδερφής",
+     "options": [
+      "της μικρής μου αδερφής",
+      "της μικρή μου αδερφή",
+      "η μικρή μου αδερφή"
+     ],
+     "why": "The possessor is genitive: -ς on article, adjective and noun."
+    },
+    {
+     "prompt": "Μένω με ___ (*my parents*)",
+     "answer": "τους γονείς μου",
+     "options": [
+      "τους γονείς μου",
+      "οι γονείς μου",
+      "των γονιών μου"
+     ],
+     "why": "με takes the accusative: τους γονείς."
+    },
+    {
+     "prompt": "*the name of your (pl.) street*",
+     "answer": "το όνομα του δρόμου σας",
+     "options": [
+      "το όνομα του δρόμου σας",
+      "το όνομα του δρόμος σας",
+      "το όνομά σας του δρόμου"
+     ],
+     "why": "Possessor phrase in the genitive (του δρόμου), with σας after it."
+    },
+    {
+     "prompt": "Ποιανού είναι αυτά τα παπούτσια; — Είναι ___ (*mine*).",
+     "answer": "δικά μου",
+     "options": [
+      "δικά μου",
+      "δικοί μου",
+      "δικό μου",
+      "μου"
+     ],
+     "why": "παπούτσια is neuter plural, so δικά; a bare μου cannot stand alone."
+    },
+    {
+     "prompt": "*my mother's mother*",
+     "answer": "η μητέρα της μητέρας μου",
+     "options": [
+      "η μητέρα της μητέρας μου",
+      "η μητέρα η μητέρα μου",
+      "η μητέρα μου της μητέρας"
+     ],
+     "why": "The second noun is the possessor, so genitive: της μητέρας μου."
+    },
+    {
+     "prompt": "Αγαπούν ___ (*their own children*).",
+     "answer": "τα δικά τους παιδιά",
+     "options": [
+      "τα δικά τους παιδιά",
+      "τα παιδιά δικά τους",
+      "τους δικούς τους παιδιά"
+     ],
+     "why": "Article + δικός + weak pronoun + noun; δικός agrees with παιδιά (neuter plural)."
+    },
+    {
+     "prompt": "*on our balcony*",
+     "answer": "στο μπαλκόνι μας",
+     "options": [
+      "στο μπαλκόνι μας",
+      "στον μπαλκόνι μας",
+      "στο μας μπαλκόνι"
+     ],
+     "why": "μπαλκόνι is neuter: στο; μας follows the noun."
+    },
+    {
+     "prompt": "*a cousin of hers (f.)*",
+     "answer": "μια δική της ξαδέρφη",
+     "options": [
+      "μια δική της ξαδέρφη",
+      "μια ξαδέρφη δική της",
+      "η δική της ξαδέρφη"
+     ],
+     "why": "'A ... of hers' = indefinite article + δικός + weak pronoun + noun."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "οικογένεια",
+  "γιαγιά",
+  "θείος",
+  "μητέρα",
+  "γυναίκα",
+  "φίλος",
+  "γείτονας",
+  "χωριό",
+  "εκκλησία",
+  "αυλή",
+  "δικός",
+  "δωμάτιο"
+ ]
+}

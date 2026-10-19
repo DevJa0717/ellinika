@@ -1,0 +1,263 @@
+{
+ "el": "Αρσενικά σε -ος",
+ "title": "Masculine nouns in -ος",
+ "section": "A1 · Holton §3.11",
+ "goal": "Decline -ος nouns in all four cases, including the stress shift of άνθρωπος.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Masculine nouns in -ος are the only nouns that show **four different forms** in the singular, so they are the best place to see the case system at work. Most keep the stress on the same syllable throughout (ο δρόμος, ο οδηγός). Nouns stressed on the third syllable from the end, like άνθρωπος, move the stress one syllable right whenever the ending is long: ανθρώπου, ανθρώπους, ανθρώπων."
+  },
+  {
+   "type": "noun-paradigm",
+   "src": [
+    "grammar/nouns-full.json#paradigms[id=m-ος-fixed]",
+    "grammar/nouns-full.json#paradigms[id=m-ος-antepenult-a]"
+   ],
+   "cite": "Holton §3.11"
+  },
+  {
+   "type": "rules",
+   "title": "How masculine nouns work",
+   "src": "grammar/nouns-full.json#declension_rules",
+   "pick": [
+    0,
+    4
+   ],
+   "cite": "Holton §3.8"
+  },
+  {
+   "type": "callout",
+   "text": "**Vocative.** -ος nouns take -ε when you address someone: Κύριε! Φίλε μου! Γιάννη is the vocative of Γιάννης. Many two-syllable first names keep -ο instead (Πέτρο!)."
+  },
+  {
+   "type": "culture",
+   "title": "Name days and the vocative",
+   "text": "Many Greeks celebrate their **γιορτή** 'name day', the feast of the saint they are named after, at least as much as their birthday. On 23 April (Saint George) every Γιώργος gets calls and visits, on 6 December every Νίκος, on 26 October every Δημήτρης. The greeting is **Χρόνια πολλά!** 'many years', and you say it in the vocative: **Χρόνια πολλά, Γιώργο!** Longer names in -ος take -ε:**κύριε Παπαδόπουλε**. **Φίλε** 'mate' is a common way to address a man, often with **ρε**: **Έλα, ρε φίλε!**"
+  },
+  {
+   "type": "vocab",
+   "title": "Nouns that decline like δρόμος and οδηγός",
+   "match": "(ος|ός)$",
+   "pos": "noun",
+   "gender": "m",
+   "limit": 24,
+   "article": true
+  }
+ ],
+ "practice": [
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/nouns-full.json#paradigms[id=m-ος-fixed]",
+   "lemma": "ο οδηγός",
+   "prompt": "Decline **οδηγός** 'driver'.",
+   "given": 1
+  },
+  {
+   "gen": "paradigm-cell",
+   "src": "grammar/nouns-full.json#paradigms[id=m-ος-antepenult-a]",
+   "lemma": "άνθρωπος",
+   "n": 4
+  },
+  {
+   "gen": "decline-like",
+   "src": "grammar/nouns-full.json#paradigms[id=m-ος-fixed]",
+   "n": 8
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Το όνομα του ___ (ο άνθρωπος)",
+     "answer": "ανθρώπου",
+     "options": [
+      "ανθρώπου",
+      "άνθρωπου",
+      "ανθρώπος"
+     ],
+     "why": "The long genitive ending -ου moves the stress of άνθρωπος one syllable right."
+    },
+    {
+     "prompt": "Βλέπω ___ (οι άνθρωποι)",
+     "answer": "τους ανθρώπους",
+     "options": [
+      "τους ανθρώπους",
+      "τους άνθρωπους",
+      "οι άνθρωποι"
+     ],
+     "why": "Accusative plural -ους is long, so the stress shifts: ανθρώπους."
+    },
+    {
+     "prompt": "Τι κάνεις, ___; (φίλος μου)",
+     "answer": "φίλε μου",
+     "options": [
+      "φίλε μου",
+      "φίλος μου",
+      "φίλο μου"
+     ],
+     "why": "Addressing someone: vocative -ε."
+    },
+    {
+     "prompt": "Περιμένω ___ (ο οδηγός)",
+     "answer": "τον οδηγό",
+     "options": [
+      "τον οδηγό",
+      "ο οδηγός",
+      "του οδηγού"
+     ],
+     "why": "Object of περιμένω: accusative, -ος → -ο."
+    },
+    {
+     "prompt": "Η γνώμη ___ είναι σημαντική. (οι γιατροί)",
+     "answer": "των γιατρών",
+     "options": [
+      "των γιατρών",
+      "τους γιατρούς",
+      "των γιατρόν"
+     ],
+     "why": "Genitive plural -ών; final-stressed nouns keep the stress on the ending."
+    },
+    {
+     "prompt": "Accusative plural of **δάσκαλος**",
+     "answer": "δασκάλους",
+     "options": [
+      "δασκάλους",
+      "δάσκαλους",
+      "δασκαλούς"
+     ],
+     "why": "Third-to-last stress moves to the second-to-last before the long ending -ους."
+    },
+    {
+     "prompt": "Καλημέρα, κύριε ___! (Παπαδόπουλος)",
+     "answer": "Παπαδόπουλε",
+     "options": [
+      "Παπαδόπουλε",
+      "Παπαδόπουλο",
+      "Παπαδόπουλος"
+     ],
+     "why": "Surnames and longer names in -ος take the vocative in -ε."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 10,
+   "items": [
+    {
+     "prompt": "Say in Greek: *the driver's car*",
+     "answer": "το αυτοκίνητο του οδηγού",
+     "accept": [
+      "το αυτοκίνητο του οδηγού",
+      "του οδηγού το αυτοκίνητο"
+     ],
+     "why": "Genitive singular -ου: του οδηγού."
+    },
+    {
+     "prompt": "Βλέπω ___ κάθε μήνα. (ο γιατρός)",
+     "answer": "τον γιατρό",
+     "accept": [
+      "τον γιατρό",
+      "το γιατρό"
+     ],
+     "why": "Object: accusative τον γιατρό."
+    },
+    {
+     "prompt": "Οι φωνές ___ (οι άνθρωποι)",
+     "answer": "των ανθρώπων",
+     "accept": [
+      "των ανθρώπων"
+     ],
+     "why": "Genitive plural -ων with the stress moved right: ανθρώπων."
+    },
+    {
+     "prompt": "Μιλάω με ___ μου. (οι φίλοι)",
+     "answer": "τους φίλους",
+     "accept": [
+      "τους φίλους"
+     ],
+     "why": "After με the accusative: τους φίλους."
+    },
+    {
+     "prompt": "Say in Greek: *the good friend* (subject)",
+     "answer": "ο καλός φίλος",
+     "accept": [
+      "ο καλός φίλος"
+     ],
+     "why": "Adjectives in -ος decline like these nouns: ο καλός φίλος."
+    },
+    {
+     "prompt": "Ξέρω ___ (ο καλός γιατρός)",
+     "answer": "τον καλό γιατρό",
+     "accept": [
+      "τον καλό γιατρό",
+      "το καλό γιατρό"
+     ],
+     "why": "Article, adjective and noun all go into the accusative: τον καλό γιατρό."
+    },
+    {
+     "prompt": "Τα παιδιά ___ μου (ο μεγάλος αδερφός)",
+     "answer": "του μεγάλου αδερφού",
+     "accept": [
+      "του μεγάλου αδερφού"
+     ],
+     "why": "Genitive throughout the phrase: του μεγάλου αδερφού."
+    },
+    {
+     "prompt": "Address him: Καλημέρα, ___! (κύριος Παπαδόπουλος)",
+     "answer": "κύριε Παπαδόπουλε",
+     "accept": [
+      "κύριε Παπαδόπουλε"
+     ],
+     "why": "Both title and surname take the vocative -ε."
+    },
+    {
+     "prompt": "Αγαπώ ___ της Αθήνας. (οι δρόμοι)",
+     "answer": "τους δρόμους",
+     "accept": [
+      "τους δρόμους"
+     ],
+     "why": "Object, accusative plural -ους."
+    },
+    {
+     "prompt": "Η δουλειά ___ (οι γιατροί)",
+     "answer": "των γιατρών",
+     "accept": [
+      "των γιατρών"
+     ],
+     "why": "Genitive plural: των γιατρών."
+    },
+    {
+     "prompt": "Γεια σου, ___! (Νίκος)",
+     "answer": "Νίκο",
+     "accept": [
+      "Νίκο"
+     ],
+     "why": "Two-syllable first names usually take -ο in the vocative."
+    },
+    {
+     "prompt": "Say in Greek: *the teachers' books* (ο δάσκαλος, pl.)",
+     "answer": "τα βιβλία των δασκάλων",
+     "accept": [
+      "τα βιβλία των δασκάλων",
+      "των δασκάλων τα βιβλία"
+     ],
+     "why": "Genitive plural δασκάλων, stress shifted to the second-to-last syllable."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "δρόμος",
+  "άνθρωπος",
+  "οδηγός",
+  "φίλος",
+  "γιατρός",
+  "δάσκαλος",
+  "αδερφός",
+  "κόσμος",
+  "ουρανός",
+  "ήλιος",
+  "χρόνος",
+  "κύριος"
+ ]
+}

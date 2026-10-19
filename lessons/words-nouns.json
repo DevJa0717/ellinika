@@ -1,0 +1,858 @@
+{
+ "el": "Εργαστήριο λέξεων I: ουσιαστικά",
+ "title": "Word-building I: abstract nouns, people and diminutives, with their declension",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Two decisions for every gap",
+   "text": "In a word-formation task you see a gap and a word in brackets: *Η ___ (άνεργος) των νέων αυξάνεται.* Two decisions follow, and both are scored. First, **which suffix**: it fixes the meaning and, just as important, the gender and the declension class. Second, **which form**: the gap still needs the right case and number, here the nominative **ανεργία**, but *της ___* would need **ανεργίας**.\n\nThat is why this lesson pairs every suffix with its paradigm. Once you know that -ση nouns go like κυβέρνηση, -μα like αποτέλεσμα and -της like εργάτης, the second decision is automatic. The traps are almost all about **stress in the genitive plural**: των αποφάσ**ε**ων, των ζητημ**ά**των, των ποιοτ**ή**των, των εκδοτ**ώ**ν.\n\nThe Suffixes lesson gave you the basic map. Here we go further: the difference between the *process* noun and the *result* noun from the same verb, the three spellings -ία, -εία and -εια, the person nouns with their feminines and plurals, and the diminutives that silently change gender."
+  },
+  {
+   "type": "table",
+   "title": "Action and result nouns from verbs",
+   "head": [
+    "Suffix",
+    "Gender and model",
+    "gen. sg. · nom. pl. · gen. pl.",
+    "From the verb"
+   ],
+   "rows": [
+    [
+     "**-ση / -ξη / -ψη**",
+     "fem., like κυβέρνηση",
+     "της εξήγησης · οι εξηγήσεις · των εξηγήσ**ε**ων",
+     "εξηγώ → **εξήγηση** *explanation*, εκτιμώ → **εκτίμηση** *esteem, estimate*, διακρίνω → **διάκριση** *distinction, discrimination*, εντάσσω → **ένταξη** *integration, inclusion*, συντάσσω → **σύνταξη** *drafting; syntax; pension*, προσλαμβάνω → **πρόσληψη** *hiring*"
+    ],
+    [
+     "**-μα**",
+     "neut., like αποτέλεσμα",
+     "του ζητήματος · τα ζητήματα · των ζητημ**ά**των",
+     "ζητώ → **ζήτημα** *issue*, ερωτώ → **ερώτημα** *question, query*, αιτούμαι → **αίτημα** *demand*, κινώ → **κίνημα** *movement*, επιτυγχάνω → **επίτευγμα** *achievement*"
+    ],
+    [
+     "**-μός** (-ισμός, -ασμός, -γμός)",
+     "masc., like οδηγός: stress always on the ending",
+     "του ορισμού · οι ορισμοί · των ορισμών",
+     "ορίζω → **ορισμός** *definition*, χωρίζω → **χωρισμός** *separation*, καθαρίζω → **καθαρισμός** *cleaning*, ενθουσιάζομαι → **ενθουσιασμός** *enthusiasm*, διαγωνίζομαι → **διαγωνισμός** *contest*, διώκω → **διωγμός** *persecution*"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "One verb, two nouns: the process (-ση) and the thing (-μα)",
+   "head": [
+    "Verb",
+    "-ση: the activity",
+    "-μα: the product, the item"
+   ],
+   "rows": [
+    [
+     "κινώ",
+     "**κίνηση** *motion, traffic*",
+     "**κίνημα** *a (political, artistic) movement*"
+    ],
+    [
+     "ζητώ",
+     "**ζήτηση** *demand (economics)*",
+     "**ζήτημα** *an issue, a matter*"
+    ],
+    [
+     "αιτούμαι",
+     "**αίτηση** *application (form)*",
+     "**αίτημα** *a demand (of a group)*"
+    ],
+    [
+     "ερωτώ / ρωτώ",
+     "**ερώτηση** *question (asked in a test, an interview)*",
+     "**ερώτημα** *a question to be resolved*"
+    ],
+    [
+     "σημειώνω",
+     "**σημείωση** *note, annotation; footnote*",
+     "**σημείωμα** *a note left for someone*"
+    ],
+    [
+     "θέτω",
+     "**θέση** *position, seat, job*",
+     "**θέμα** *topic, subject*"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Process or product?",
+   "items": [
+    {
+     "el": "Η ζήτηση για ενοικιαζόμενα δωμάτια ξεπέρασε την προσφορά.",
+     "en": "Demand for rooms to let exceeded supply."
+    },
+    {
+     "el": "Το ζήτημα της στέγασης θα συζητηθεί στη Βουλή.",
+     "en": "The housing issue will be discussed in Parliament."
+    },
+    {
+     "el": "Οι εργαζόμενοι επανέλαβαν το αίτημά τους για αυξήσεις.",
+     "en": "The workers repeated their demand for pay rises."
+    },
+    {
+     "el": "Η αίτηση υποβάλλεται ηλεκτρονικά μέχρι τις τριάντα του μήνα.",
+     "en": "The application is submitted online by the thirtieth of the month."
+    },
+    {
+     "el": "Το φεμινιστικό κίνημα άλλαξε το οικογενειακό δίκαιο τη δεκαετία του '80.",
+     "en": "The feminist movement changed family law in the 1980s."
+    },
+    {
+     "el": "Υπάρχει πολλή κίνηση στην εθνική οδό λόγω του τριημέρου.",
+     "en": "There's a lot of traffic on the motorway because of the long weekend."
+    },
+    {
+     "el": "Η ένταξη της Ελλάδας στην ΕΟΚ έγινε το 1981.",
+     "en": "Greece joined the EEC in 1981 (lit. Greece's inclusion in the EEC)."
+    },
+    {
+     "el": "Η εταιρεία ανακοίνωσε την πρόσληψη πενήντα μηχανικών.",
+     "en": "The company announced the hiring of fifty engineers."
+    },
+    {
+     "el": "Ο ορισμός της φτώχειας δεν είναι ίδιος σε όλες τις χώρες.",
+     "en": "The definition of poverty is not the same in all countries."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Qualities: -ία, -εία, -εια, -ότητα, -οσύνη",
+   "head": [
+    "Suffix",
+    "Usually from",
+    "gen. sg. · gen. pl.",
+    "Examples"
+   ],
+   "rows": [
+    [
+     "**-ία** (stressed)",
+     "adjectives in -ος, compounds",
+     "της ελευθερίας · των ελευθεριών",
+     "ελεύθερος → **ελευθερία**, ανεξάρτητος → **ανεξαρτησία**, άνεργος → **ανεργία**, ανήσυχος → **ανησυχία** *worry*, αδιάφορος → **αδιαφορία**"
+    ],
+    [
+     "**-εία** (stressed, with ει)",
+     "verbs in -εύω",
+     "της θεραπείας · των θεραπειών",
+     "θεραπεύω → **θεραπεία**, λατρεύω → **λατρεία** *worship, adoration*, μαγεύω → **μαγεία** *magic*, κολακεύω → **κολακεία** *flattery*, πορεύομαι → **πορεία** *course; march*"
+    ],
+    [
+     "**-εια** (unstressed)",
+     "adjectives in -ής",
+     "της ασφάλειας · των ασφαλειών",
+     "ασφαλής → **ασφάλεια**, ακριβής → **ακρίβεια**, συνεπής → **συνέπεια** *consistency; consequence*, ειλικρινής → **ειλικρίνεια**, συνήθης → **συνήθεια** *habit*. But υγιής → **υγεία**."
+    ],
+    [
+     "**-ότητα / -ύτητα**",
+     "adjectives in -ος / -ύς",
+     "της ποιότητας · των ποιοτ**ή**των",
+     "ποιος → **ποιότητα**, πόσος → **ποσότητα**, όμοιος → **ομοιότητα**, σοβαρός → **σοβαρότητα**, ίδιος → **ιδιότητα** *property, capacity*, βαρύς → **βαρύτητα** *gravity*"
+    ],
+    [
+     "**-οσύνη**",
+     "adjectives of character",
+     "της εμπιστοσύνης · (no plural)",
+     "έμπιστος → **εμπιστοσύνη** *trust*, σώφρων → **σωφροσύνη** *prudence*, μετριόφρων → **μετριοφροσύνη** *modesty*"
+    ]
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Spelling the -ία family.** Stressed **-εία** comes from an -εύω verb (θεραπεύω → θεραπ**εί**α). Unstressed **-εια** comes from an -ής adjective, and the stress goes back to the third syllable from the end (ακριβής → ακρ**ί**βεια, ειλικρινής → ειλικρ**ί**νεια). Most other abstract nouns take **-ία** (ελευθερ**ί**α, ανεργ**ί**α), though a few everyday words in unstressed -εια (αλήθεια, βοήθεια, ενέργεια, φτώχεια) simply have to be learned. All three decline like θάλασσα, with the genitive plural on the last syllable: των θεραπ**ει**ών, των ασφαλ**ει**ών, των ελευθερ**ι**ών.\n\n**-ότητα is different**: its genitive plural moves only one syllable, to -οτ**ή**των: των δυνατοτήτων, των ποιοτήτων, των ταυτοτήτων."
+  },
+  {
+   "type": "table",
+   "title": "People who do things",
+   "head": [
+    "Masculine",
+    "Feminine",
+    "nom. pl. · gen. pl.",
+    "From"
+   ],
+   "rows": [
+    [
+     "ο **εκδότης** *publisher*",
+     "η **εκδότρια**",
+     "οι εκδότες · των εκδοτ**ώ**ν",
+     "εκδίδω *publish*"
+    ],
+    [
+     "ο **επενδυτής** *investor*",
+     "η **επενδύτρια**",
+     "οι επενδυτές · των επενδυτών",
+     "επενδύω *invest*"
+    ],
+    [
+     "ο **ομιλητής** *speaker*",
+     "η **ομιλήτρια**",
+     "οι ομιλητές · των ομιλητών",
+     "ομιλώ *speak (formal)*"
+    ],
+    [
+     "ο **ακροατής** *listener*",
+     "η **ακροάτρια**",
+     "οι ακροατές · των ακροατών",
+     "ακροώμαι *listen (formal)*"
+    ],
+    [
+     "ο **ανταγωνιστής** *competitor*",
+     "η **ανταγωνίστρια**",
+     "οι ανταγωνιστές · των ανταγωνιστών",
+     "ανταγωνίζομαι *compete*"
+    ],
+    [
+     "ο **παραλήπτης** *recipient*",
+     "η **παραλήπτρια**",
+     "οι παραλήπτες · των παραληπτών",
+     "παραλαμβάνω *receive*"
+    ],
+    [
+     "ο/η **αποστολέας** *sender*",
+     "(common gender)",
+     "οι αποστολ**εί**ς · των αποστολ**έ**ων",
+     "αποστέλλω *send (formal)*"
+    ],
+    [
+     "ο/η **διερμηνέας** *interpreter*",
+     "(common gender)",
+     "οι διερμηνείς · των διερμηνέων",
+     "διερμηνεύω *interpret*"
+    ],
+    [
+     "ο **εξαγωγέας** *exporter*",
+     "—",
+     "οι εξαγωγείς · των εξαγωγέων",
+     "εξάγω *export*"
+    ],
+    [
+     "ο **κιθαρίστας** *guitarist*",
+     "η **κιθαρίστρια**",
+     "οι κιθαρίστες · των κιθαριστών",
+     "κιθάρα (like τουρίστας)"
+    ]
+   ]
+  },
+  {
+   "type": "rules",
+   "title": "Rules for person nouns",
+   "items": [
+    "**-της / -τής**: the stress of the nominative must be learned (εκδ**ό**της but επενδυτ**ή**ς), but every one of them has the genitive plural in **-τών**: των εκδοτών, των επιβατών, των εργατών.",
+    "The feminine **-τρια** keeps the stress on the syllable before it: εκδ**ό**τρια, επενδ**ύ**τρια, ομιλ**ή**τρια. It declines like θάλασσα: της εκδότριας, των εκδοτριών.",
+    "**-έας** nouns are formal and mostly common gender (ο/η συγγραφέας, ο/η διερμηνέας). Plural **-είς**, genitive plural **-έων**: οι αποστολείς, των αποστολέων.",
+    "**-ιστής** pairs with an -ισμός and names a follower or an agent: ανταγωνισμός → ανταγωνιστής, ακτιβισμός → ακτιβιστής. **-ίστας** (declined like τουρίστας) names a player or a performer: κιθαρίστας, πιανίστας, μπασίστας (not every one: ο ποδοσφαιριστής).",
+    "Agent nouns that name firms and institutions are masculine: ο εξαγωγέας, ο φορέας *body, agency*, ο πάροχος *provider*."
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Diminutives and augmentatives change the gender",
+   "head": [
+    "Base",
+    "Derived",
+    "Gender and declension"
+   ],
+   "rows": [
+    [
+     "η πόρτα, ο δρόμος, το λάθος",
+     "το **πορτάκι**, το **δρομάκι**, το **λαθάκι**",
+     "**-άκι is always neuter**, whatever the base: τα δρομάκια, (gen. rarely used)"
+    ],
+    [
+     "ο λύκος, ο αετός, ο Έλληνας",
+     "το **λυκόπουλο** *wolf cub*, το **αετόπουλο** *eaglet*, το **Ελληνόπουλο** *Greek child*",
+     "**-όπουλο**: the young of an animal or a child of a group; neuter like θέατρο"
+    ],
+    [
+     "το μέρος, το αστέρι",
+     "το **μερίδιο** *share*, ο **αστερίσκος** *asterisk*",
+     "learned **-ίδιο**, **-ίσκος**: no longer 'small', now words in their own right (μερίδιο αγοράς *market share*)"
+    ],
+    [
+     "η φωνή, το σπίτι, το κεφάλι",
+     "η **φωνάρα** *a big voice*, η **σπιταρόνα** *a huge house*, η **κεφάλα** *a big head*",
+     "augmentatives **-άρα, -αρόνα, -α** are feminine, whatever the base"
+    ],
+    [
+     "ο άντρας",
+     "ο **αντράκλας** *a hulk of a man*",
+     "masculine augmentative -άκλας, like τουρίστας"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Derived nouns in every case",
+   "items": [
+    {
+     "el": "Η εμπιστοσύνη των πολιτών στους θεσμούς μειώνεται.",
+     "en": "Citizens' trust in the institutions is falling."
+    },
+    {
+     "el": "Το βιβλίο κυκλοφορεί από έναν μικρό εκδότη της Θεσσαλονίκης.",
+     "en": "The book is published by a small Thessaloniki publisher."
+    },
+    {
+     "el": "Η εκδήλωση έγινε με τη συμμετοχή τριών ομιλητριών.",
+     "en": "The event took place with three (female) speakers."
+    },
+    {
+     "el": "Οι εξαγωγείς λαδιού ανησυχούν για τους νέους δασμούς.",
+     "en": "Olive-oil exporters are worried about the new tariffs."
+    },
+    {
+     "el": "Το μερίδιο της εταιρείας στην αγορά έφτασε το δεκαπέντε τοις εκατό.",
+     "en": "The company's market share reached fifteen per cent."
+    },
+    {
+     "el": "Ο διάλογος για τα ζητήματα της παιδείας συνεχίζεται.",
+     "en": "The dialogue on education issues continues."
+    },
+    {
+     "el": "Δεν είδα μεγάλη διαφορά στην ποιότητα των δύο προϊόντων.",
+     "en": "I didn't see a big difference in the quality of the two products."
+    },
+    {
+     "el": "Θα σε περιμένω στο δρομάκι πίσω από την εκκλησία.",
+     "en": "I'll wait for you in the little street behind the church."
+    },
+    {
+     "el": "Ο αποστολέας και ο παραλήπτης πρέπει να υπογράψουν το έντυπο.",
+     "en": "Both the sender and the recipient must sign the form."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes.**\n\n1. *των αποφάσων*, *των προβλήματων*, *των ποιοτητών*: wrong stress. Say **των αποφάσεων, των προβλημάτων, των ποιοτήτων**.\n\n2. *ο κίνηση* or *η ζήτημα*: the suffix tells you the gender: derived nouns in -ση are always feminine, in -μα always neuter, in -μός always masculine.\n\n3. *ακριβεία*, *θεραπεια*: -εια (unstressed) from -ής adjectives, -εία (stressed) from -εύω verbs.\n\n4. *η πορτάκι*: a diminutive in -άκι is neuter, so **το πορτάκι, τα πορτάκια**.\n\n5. *η εκδότης*: -της nouns need a feminine in -τρια (**η εκδότρια**); only -έας nouns are common gender (**η συγγραφέας**)."
+  },
+  {
+   "type": "culture",
+   "title": "Why so many Greek neuters end in -ι",
+   "text": "Many of the most basic Modern Greek nouns are old diminutives that lost their 'small' meaning. **το παιδί** 'child' comes from Ancient παιδίον, 'little child'. **το μάτι** 'eye' comes from ὀμμάτιον, 'little eye'. **το αφτί** 'ear' comes from ὠτίον, **το ψάρι** 'fish' from ὀψάριον, 'a little relish', and **το σπίτι** 'house' from ὁσπίτιον, borrowed from Latin *hospitium*. The neuter -ίον ending lost its last syllable and became -ι. This is why neuters in -ι are such a large class, and why Greeks needed new diminutives like **-άκι** to say 'small' again: **το ματάκι**, **το σπιτάκι**."
+  },
+  {
+   "type": "reading",
+   "title": "Τι φοβούνται και τι ελπίζουν οι νέοι",
+   "text": "Μια πρόσφατη έρευνα ενός πανεπιστημιακού ινστιτούτου εξέτασε τις απόψεις χιλίων νέων από δεκαοχτώ έως είκοσι εννέα ετών. Η έρευνα πραγματοποιήθηκε με ερωτηματολόγια και συνεντεύξεις σε όλη τη χώρα. Τα αποτελέσματα δεν προκαλούν έκπληξη, αλλά δίνουν αφορμή για σκέψη. Η ανεργία παραμένει η μεγαλύτερη ανησυχία τους: σχεδόν οι μισοί δηλώνουν ότι φοβούνται πως δεν θα βρουν δουλειά ανάλογη με τις σπουδές τους. Ακολουθούν το κόστος της στέγασης και η ανασφάλεια στην εργασία.\n\nΙδιαίτερο ενδιαφέρον έχει το ζήτημα της εμπιστοσύνης. Μόνο ένας στους πέντε εμπιστεύεται τα κόμματα, ενώ η δικαιοσύνη και τα μέσα ενημέρωσης συγκεντρώνουν επίσης χαμηλά ποσοστά. Αντίθετα, οι επιστήμονες και οι εθελοντικές οργανώσεις απολαμβάνουν μεγάλη εκτίμηση. «Οι νέοι δεν απορρίπτουν τη συμμετοχή», εξηγεί η επικεφαλής της ερευνητικής ομάδας. «Απορρίπτουν τους θεσμούς που δεν δείχνουν συνέπεια ανάμεσα στα λόγια και στις πράξεις.»\n\nΗ έρευνα δείχνει επίσης μια ενδιαφέρουσα αλλαγή στις αξίες. Για τους περισσότερους, η ασφάλεια μιας μόνιμης θέσης δεν είναι πια το μοναδικό κριτήριο. Η ελευθερία, η ποιότητα της ζωής και η ισότητα ανάμεσα στα φύλα μετρούν εξίσου. Η ικανοποίηση από τη δουλειά, λένε, είναι το ίδιο σημαντική με την αμοιβή. Πολλοί λένε ότι θα δέχονταν χαμηλότερο μισθό για μια δουλειά με νόημα. Παράλληλα, η φροντίδα για το περιβάλλον έχει γίνει σχεδόν κίνημα: τρεις στους δέκα συμμετέχουν σε δράσεις καθαρισμού ακτών ή σε ομάδες ανακύκλωσης.\n\nΟι ερευνητές καταλήγουν σε ένα σαφές συμπέρασμα: η απογοήτευση δεν σημαίνει αδιαφορία. Η νέα γενιά έχει υψηλές απαιτήσεις, αλλά και μεγάλη διάθεση για προσφορά. Το ερώτημα είναι αν η πολιτεία θα βρει τρόπους να αξιοποιήσει αυτή τη δύναμη πριν από τη μετανάστευση των πιο ικανών στο εξωτερικό. Όπως σημειώνει η επικεφαλής, η ανεξαρτησία των νέων ξεκινά από μια αξιοπρεπή θέση εργασίας.",
+   "en": "A recent survey by a university institute examined the views of a thousand young people aged eighteen to twenty-nine. The survey was carried out with questionnaires and interviews across the country. The results are not surprising, but they give food for thought. Unemployment remains their biggest worry: almost half say they are afraid they will not find work that matches their studies. Next come the cost of housing and insecurity at work.\n\nThe question of trust is of particular interest. Only one in five trusts the political parties, while the justice system and the media also score low. By contrast, scientists and volunteer organisations enjoy high esteem. \"Young people do not reject participation,\" explains the head of the research team. \"They reject institutions that show no consistency between words and deeds.\"\n\nThe survey also shows an interesting shift in values. For most, the security of a permanent post is no longer the only criterion. Freedom, quality of life and equality between the sexes count just as much. Satisfaction with the job, they say, matters as much as pay. Many say they would accept a lower salary for a job with meaning. At the same time, care for the environment has almost become a movement: three in ten take part in beach clean-ups or recycling groups.\n\nThe researchers reach a clear conclusion: disappointment does not mean indifference. The new generation has high demands, but also a great willingness to give. The question is whether the state will find ways to make use of this energy before the most able emigrate abroad. As the head of the team notes, young people's independence starts with a decent job.",
+   "gloss": {
+    "πανεπιστημιακού": "πανεπιστημιακός — university (adj.; ← πανεπιστήμιο)",
+    "ινστιτούτου": "ινστιτούτο — institute (gen.)",
+    "ερωτηματολόγια": "ερωτηματολόγιο — questionnaire (pl.; ← ερώτημα)",
+    "συνεντεύξεις": "συνέντευξη — interview (pl.; -ξη noun)",
+    "ανεργία": "ανεργία — unemployment (← άνεργος)",
+    "ανησυχία": "ανησυχία — worry (← ανήσυχος)",
+    "στέγασης": "στέγαση — housing (gen.; ← στεγάζω)",
+    "ανασφάλεια": "ανασφάλεια — insecurity (← ανασφαλής, -εια)",
+    "εμπιστοσύνης": "εμπιστοσύνη — trust (gen.; ← έμπιστος)",
+    "δικαιοσύνη": "δικαιοσύνη — justice, the judiciary (← δίκαιος)",
+    "ενημέρωσης": "ενημέρωση — information; μέσα ενημέρωσης = the media",
+    "εθελοντικές": "εθελοντικός — voluntary, volunteer (← εθελοντής)",
+    "οργανώσεις": "οργάνωση — organisation (pl.)",
+    "εκτίμηση": "εκτίμηση — esteem (← εκτιμώ)",
+    "επικεφαλής": "επικεφαλής — head, leader (indeclinable)",
+    "ερευνητικής": "ερευνητικός — research (adj.; ← έρευνα)",
+    "συνέπεια": "συνέπεια — consistency (← συνεπής, -εια)",
+    "ικανοποίηση": "ικανοποίηση — satisfaction (← ικανοποιώ)",
+    "αμοιβή": "αμοιβή — pay, remuneration",
+    "ισότητα": "ισότητα — equality (← ίσος, -ότητα)",
+    "καθαρισμού": "καθαρισμός — cleaning (gen.; ← καθαρίζω)",
+    "ανακύκλωσης": "ανακύκλωση — recycling (gen.)",
+    "απογοήτευση": "απογοήτευση — disappointment (← απογοητεύω)",
+    "αδιαφορία": "αδιαφορία — indifference (← αδιάφορος)",
+    "απαιτήσεις": "απαίτηση — demand, expectation (pl.)",
+    "προσφορά": "προσφορά — offering, contribution",
+    "ερώτημα": "ερώτημα — question, issue (-μα noun)",
+    "πολιτεία": "πολιτεία — the state",
+    "μετανάστευση": "μετανάστευση — emigration (← μεταναστεύω)",
+    "ανεξαρτησία": "ανεξαρτησία — independence (← ανεξάρτητος)",
+    "αξιοπρεπή": "αξιοπρεπής — decent, dignified (acc.)",
+    "κίνημα": "κίνημα — movement (← κινώ, -μα)",
+    "ποιότητα": "ποιότητα — quality (← ποιος)",
+    "ελευθερία": "ελευθερία — freedom (← ελεύθερος)",
+    "συμπέρασμα": "συμπέρασμα — conclusion (-μα noun)",
+    "πραγματοποιήθηκε": "πραγματοποιούμαι — be carried out (aorist)",
+    "ετών": "έτος — year (gen. pl.; ηλικίας ... ετών = aged ...)",
+    "ζήτημα": "ζήτημα — issue (← ζητώ, -μα)"
+   },
+   "questions": [
+    {
+     "prompt": "Ποια είναι η μεγαλύτερη ανησυχία των νέων;",
+     "answer": "Η ανεργία",
+     "options": [
+      "Η ανεργία",
+      "Η μετανάστευση",
+      "Το περιβάλλον"
+     ]
+    },
+    {
+     "prompt": "Ποιους εκτιμούν περισσότερο οι νέοι;",
+     "answer": "Τους επιστήμονες και τις εθελοντικές οργανώσεις",
+     "options": [
+      "Τους επιστήμονες και τις εθελοντικές οργανώσεις",
+      "Τα κόμματα",
+      "Τα μέσα ενημέρωσης"
+     ]
+    },
+    {
+     "prompt": "Τι λένε πολλοί για τον μισθό;",
+     "answer": "Θα δέχονταν χαμηλότερο μισθό για μια δουλειά με νόημα",
+     "options": [
+      "Θα δέχονταν χαμηλότερο μισθό για μια δουλειά με νόημα",
+      "Ο μισθός είναι το μοναδικό κριτήριο",
+      "Θέλουν μόνιμη θέση με κάθε κόστος"
+     ]
+    },
+    {
+     "prompt": "Σε ποιο συμπέρασμα καταλήγουν οι ερευνητές;",
+     "answer": "Η απογοήτευση δεν σημαίνει αδιαφορία",
+     "options": [
+      "Η απογοήτευση δεν σημαίνει αδιαφορία",
+      "Οι νέοι δεν ενδιαφέρονται για τα κοινά",
+      "Οι νέοι δεν θέλουν να φύγουν στο εξωτερικό"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Form a noun from **εξηγώ** (explanation)",
+     "answer": "εξήγηση",
+     "accept": [
+      "εξήγηση"
+     ],
+     "why": "Verb in -ώ with aorist εξήγησα → -ση: εξήγηση, like κυβέρνηση."
+    },
+    {
+     "prompt": "Form a noun from **εκτιμώ** (esteem, estimate)",
+     "answer": "εκτίμηση",
+     "accept": [
+      "εκτίμηση"
+     ],
+     "why": "εκτίμησα → -ση, stress on the third syllable from the end: εκτίμηση."
+    },
+    {
+     "prompt": "Form a noun from **διακρίνω** (distinction)",
+     "answer": "διάκριση",
+     "accept": [
+      "διάκριση"
+     ],
+     "why": "διέκρινα / διακρίθηκα → -ση, stress pulled back: διάκριση."
+    },
+    {
+     "prompt": "Form a noun from **εντάσσω** (integration)",
+     "answer": "ένταξη",
+     "accept": [
+      "ένταξη"
+     ],
+     "why": "ξ-stem verb (εντάχθηκα) → -ξη: ένταξη."
+    },
+    {
+     "prompt": "Form a noun from **ορίζω** (definition)",
+     "answer": "ορισμός",
+     "accept": [
+      "ορισμός"
+     ],
+     "why": "-ίζω verbs give masculine -ισμός, always stressed on the ending."
+    },
+    {
+     "prompt": "Form a noun from **ενθουσιάζομαι** (enthusiasm)",
+     "answer": "ενθουσιασμός",
+     "accept": [
+      "ενθουσιασμός"
+     ],
+     "why": "-άζω/-άζομαι verbs give -ασμός."
+    },
+    {
+     "prompt": "Form the result noun in -μα from **επιτυγχάνω** (achievement)",
+     "answer": "επίτευγμα",
+     "accept": [
+      "επίτευγμα"
+     ],
+     "why": "The -μα noun of επιτυγχάνω is built on the old stem επιτευγ-: το επίτευγμα, των επιτευγμάτων."
+    },
+    {
+     "prompt": "Form a noun from **λατρεύω** (worship, adoration)",
+     "answer": "λατρεία",
+     "accept": [
+      "λατρεία"
+     ],
+     "why": "-εύω verbs give stressed -εία with ει: λατρεία."
+    },
+    {
+     "prompt": "Form a noun from **συνεπής** (consistency)",
+     "answer": "συνέπεια",
+     "accept": [
+      "συνέπεια"
+     ],
+     "why": "-ής adjectives give unstressed -εια, stress on the third syllable from the end."
+    },
+    {
+     "prompt": "Form a noun from **ακριβής** (precision)",
+     "answer": "ακρίβεια",
+     "accept": [
+      "ακρίβεια"
+     ],
+     "why": "ακριβής → ακρίβεια (unstressed -εια)."
+    },
+    {
+     "prompt": "Form a noun from **ανεξάρτητος** (independence)",
+     "answer": "ανεξαρτησία",
+     "accept": [
+      "ανεξαρτησία"
+     ],
+     "why": "Adjectives in -τος often give -σία: ανεξάρτητος → ανεξαρτησία."
+    },
+    {
+     "prompt": "Form a noun from **σοβαρός** (seriousness)",
+     "answer": "σοβαρότητα",
+     "accept": [
+      "σοβαρότητα"
+     ],
+     "why": "Quality noun in -ότητα: σοβαρότητα, gen. pl. σοβαροτήτων."
+    },
+    {
+     "prompt": "Form a noun from **ίδιος** (property, capacity)",
+     "answer": "ιδιότητα",
+     "accept": [
+      "ιδιότητα"
+     ],
+     "why": "ίδιος → ιδιότητα: *με την ιδιότητα του προέδρου* 'in his capacity as president'."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Person who **εκδίδει** books (publisher)",
+     "answer": "εκδότης",
+     "accept": [
+      "εκδότης"
+     ],
+     "why": "εκδίδω (aorist εξέδωσα) → εκδότης, stressed on the penult like εργάτης."
+    },
+    {
+     "prompt": "Feminine of **εκδότης**",
+     "answer": "εκδότρια",
+     "accept": [
+      "εκδότρια"
+     ],
+     "why": "-της → -τρια, stress on the syllable before: εκδότρια."
+    },
+    {
+     "prompt": "Feminine of **επενδυτής**",
+     "answer": "επενδύτρια",
+     "accept": [
+      "επενδύτρια"
+     ],
+     "why": "-τής → -τρια: the stress moves to the syllable before -τρια."
+    },
+    {
+     "prompt": "Person who **ανταγωνίζεται** (competitor)",
+     "answer": "ανταγωνιστής",
+     "accept": [
+      "ανταγωνιστής"
+     ],
+     "why": "-ίζομαι → -ιστής: ανταγωνιστής, pl. ανταγωνιστές."
+    },
+    {
+     "prompt": "Person who **παραλαμβάνει** a parcel (recipient)",
+     "answer": "παραλήπτης",
+     "accept": [
+      "παραλήπτης"
+     ],
+     "why": "παραλαμβάνω has the stem -ληπ- (as in σύλληψη): παραλήπτης."
+    },
+    {
+     "prompt": "Person who **αποστέλλει** a letter (sender)",
+     "answer": "αποστολέας",
+     "accept": [
+      "αποστολέας"
+     ],
+     "why": "From αποστολή: αποστολέας, a formal -έας noun."
+    },
+    {
+     "prompt": "Plural of **ο αποστολέας**",
+     "answer": "οι αποστολείς",
+     "accept": [
+      "οι αποστολείς",
+      "αποστολείς"
+     ],
+     "why": "-έας nouns have the plural -είς."
+    },
+    {
+     "prompt": "Genitive plural of **ο εκδότης**",
+     "answer": "των εκδοτών",
+     "accept": [
+      "των εκδοτών",
+      "εκδοτών"
+     ],
+     "why": "Every -της noun has the genitive plural in -τών, stressed on the last syllable."
+    },
+    {
+     "prompt": "Diminutive in -άκι of **ο δρόμος**, with article",
+     "answer": "το δρομάκι",
+     "accept": [
+      "το δρομάκι",
+      "δρομάκι"
+     ],
+     "why": "-άκι diminutives are neuter, whatever the gender of the base."
+    },
+    {
+     "prompt": "Diminutive in -άκι of **η πόρτα**, with article",
+     "answer": "το πορτάκι",
+     "accept": [
+      "το πορτάκι",
+      "πορτάκι"
+     ],
+     "why": "η πόρτα → το πορτάκι: the diminutive in -άκι is neuter."
+    },
+    {
+     "prompt": "The young of **ο λύκος** (wolf cub), with article",
+     "answer": "το λυκόπουλο",
+     "accept": [
+      "το λυκόπουλο",
+      "λυκόπουλο"
+     ],
+     "why": "-όπουλο names the young of an animal: neuter, like θέατρο."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Η κυβέρνηση παρουσίασε μέτρα για τη μείωση της ___ των νέων. (άνεργος)",
+     "answer": "ανεργίας",
+     "accept": [
+      "ανεργίας"
+     ],
+     "why": "άνεργος → ανεργία; after *της* you need the genitive: ανεργίας."
+    },
+    {
+     "prompt": "Δεν βλέπω μεγάλες ___ ανάμεσα στα δύο προγράμματα. (όμοιος)",
+     "answer": "ομοιότητες",
+     "accept": [
+      "ομοιότητες"
+     ],
+     "why": "όμοιος → ομοιότητα; plural object: ομοιότητες."
+    },
+    {
+     "prompt": "Ο αριθμός των ___ μειώθηκε φέτος. (επενδύω → person)",
+     "answer": "επενδυτών",
+     "accept": [
+      "επενδυτών"
+     ],
+     "why": "επενδυτής, genitive plural in -τών."
+    },
+    {
+     "prompt": "Πρέπει να βρούμε λύση σε πολλά ___ . (ζητώ → result noun, pl.)",
+     "answer": "ζητήματα",
+     "accept": [
+      "ζητήματα"
+     ],
+     "why": "The thing, not the process: ζήτημα, plural ζητήματα."
+    },
+    {
+     "prompt": "Η ___ για ακίνητα στα νησιά έχει εκτοξευτεί. (ζητώ → process noun)",
+     "answer": "ζήτηση",
+     "accept": [
+      "ζήτηση"
+     ],
+     "why": "Economic 'demand' is the process noun ζήτηση."
+    },
+    {
+     "prompt": "Οι εργαζόμενοι κατέθεσαν τα ___ τους στη διοίκηση. (αιτούμαι → -μα, pl.)",
+     "answer": "αιτήματα",
+     "accept": [
+      "αιτήματα"
+     ],
+     "why": "αίτημα 'demand', neuter plural αιτήματα."
+    },
+    {
+     "prompt": "Οι ___ του συνεδρίου ήρθαν από δώδεκα χώρες. (ομιλώ → person, pl.)",
+     "answer": "ομιλητές",
+     "accept": [
+      "ομιλητές"
+     ],
+     "why": "ομιλητής, nominative plural ομιλητές."
+    },
+    {
+     "prompt": "Η εταιρεία ανακοίνωσε την ___ πενήντα νέων υπαλλήλων. (προσλαμβάνω)",
+     "answer": "πρόσληψη",
+     "accept": [
+      "πρόσληψη"
+     ],
+     "why": "-λαμβάνω verbs give -ληψη nouns: πρόσληψη, like σύλληψη."
+    },
+    {
+     "prompt": "Χωρίς ___ στους θεσμούς, η δημοκρατία αδυνατίζει. (έμπιστος)",
+     "answer": "εμπιστοσύνη",
+     "accept": [
+      "εμπιστοσύνη"
+     ],
+     "why": "έμπιστος → εμπιστοσύνη, a feminine -οσύνη noun."
+    },
+    {
+     "prompt": "Τα αποτελέσματα των ___ ανακοινώνονται τον Ιούλιο. (διαγωνίζομαι, pl.)",
+     "answer": "διαγωνισμών",
+     "accept": [
+      "διαγωνισμών"
+     ],
+     "why": "διαγωνισμός, genitive plural διαγωνισμών (stress stays on the ending)."
+    },
+    {
+     "prompt": "Οι τιμές των ___ αυτοκινήτου αυξήθηκαν. (ασφαλής, pl.)",
+     "answer": "ασφαλειών",
+     "accept": [
+      "ασφαλειών"
+     ],
+     "why": "ασφαλής → ασφάλεια 'insurance'; gen. pl. on the last syllable: ασφαλειών."
+    },
+    {
+     "prompt": "Η λύση των ___ θα πάρει χρόνο. (πρόβλημα, gen. pl.)",
+     "answer": "προβλημάτων",
+     "accept": [
+      "προβλημάτων"
+     ],
+     "why": "-μα nouns: genitive plural -μάτων, stress on the penult."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Το οικολογικό ___ μεγάλωσε τη δεκαετία του '80.",
+     "answer": "κίνημα",
+     "options": [
+      "κίνημα",
+      "κίνηση",
+      "κινητό"
+     ],
+     "why": "A political or social 'movement' is the result noun κίνημα."
+    },
+    {
+     "prompt": "Υπάρχει πολλή ___ στον δρόμο σήμερα.",
+     "answer": "κίνηση",
+     "options": [
+      "κίνηση",
+      "κίνημα",
+      "κινητό"
+     ],
+     "why": "Traffic, motion: the process noun κίνηση."
+    },
+    {
+     "prompt": "Συμπλήρωσα ___ για άδεια διαμονής.",
+     "answer": "αίτηση",
+     "options": [
+      "αίτηση",
+      "αίτημα",
+      "αιτία"
+     ],
+     "why": "A form you fill in is an αίτηση; an αίτημα is a demand, not a form."
+    },
+    {
+     "prompt": "Which spelling is right? (from ειλικρινής)",
+     "answer": "ειλικρίνεια",
+     "options": [
+      "ειλικρίνεια",
+      "ειλικρινεία",
+      "ειλικρινία"
+     ],
+     "why": "-ής adjectives give unstressed -εια."
+    },
+    {
+     "prompt": "Which spelling is right? (from θεραπεύω)",
+     "answer": "θεραπεία",
+     "options": [
+      "θεραπεία",
+      "θεραπία",
+      "θεράπεια"
+     ],
+     "why": "-εύω verbs give stressed -εία."
+    },
+    {
+     "prompt": "Which spelling is right? (from ανήσυχος)",
+     "answer": "ανησυχία",
+     "options": [
+      "ανησυχία",
+      "ανησυχεία",
+      "ανησύχεια"
+     ],
+     "why": "An -ος adjective gives plain -ία."
+    },
+    {
+     "prompt": "Ο ___ έπαιξε ένα υπέροχο σόλο.",
+     "answer": "κιθαρίστας",
+     "options": [
+      "κιθαρίστας",
+      "κιθαρίστρια",
+      "κιθαρέας"
+     ],
+     "why": "Performers on an instrument take -ίστας (like τουρίστας); κιθαρίστρια is feminine and cannot follow ο."
+    },
+    {
+     "prompt": "Genitive plural of **η ταυτότητα**",
+     "answer": "των ταυτοτήτων",
+     "options": [
+      "των ταυτοτήτων",
+      "των ταυτότητων",
+      "των ταυτοτητών"
+     ],
+     "why": "-ότητα nouns move the stress one syllable: -οτήτων."
+    },
+    {
+     "prompt": "Genitive plural of **το ζήτημα**",
+     "answer": "των ζητημάτων",
+     "options": [
+      "των ζητημάτων",
+      "των ζητήματων",
+      "των ζητηματών"
+     ],
+     "why": "-μα nouns: -μάτων, stressed on the penult."
+    }
+   ]
+  },
+  {
+   "gen": "decline",
+   "ids": [
+    "f-η-εις",
+    "n-μα",
+    "m-ης",
+    "m-έας"
+   ],
+   "cells": [
+    "sg.gen",
+    "pl.nom",
+    "pl.gen"
+   ],
+   "n": 4
+  }
+ ],
+ "vocab": [
+  "ανεργία",
+  "εμπιστοσύνη",
+  "ζήτημα",
+  "ζήτηση",
+  "ποιότητα",
+  "συνέπεια",
+  "ανησυχία",
+  "εκτίμηση",
+  "επενδυτής",
+  "ομιλητής",
+  "κίνημα",
+  "αίτημα"
+ ]
+}

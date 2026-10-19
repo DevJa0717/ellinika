@@ -1,0 +1,346 @@
+{
+ "el": "Ενεστώτας: πρώτη συζυγία",
+ "title": "Present tense, first conjugation",
+ "section": "A1 · Holton §6.2-6.3, §6.8",
+ "goal": "Conjugate any regular verb like γράφω in the present.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Greek verbs fall into two conjugations, told apart by where the stress falls in the dictionary form (1st person singular). In the **first conjugation** the stress is on the stem: γράφω, διαβάζω, δουλεύω. This is the majority of verbs. In the second it is on the ending: αγαπώ, μπορώ (a later lesson).\n\nTo conjugate, take off the -ω and add the endings. The stress stays on the same syllable throughout."
+  },
+  {
+   "type": "verb-paradigm",
+   "title": "Model: χάνω 'I lose'",
+   "columns": [
+    {
+     "label": "present active",
+     "src": "grammar/verbs-holton.json#sections[section=6.8].paradigm.present.active"
+    }
+   ],
+   "cite": "Holton §6.8"
+  },
+  {
+   "type": "table",
+   "title": "The endings",
+   "head": [
+    "Person",
+    "Ending",
+    "γράφω 'write'",
+    "διαβάζω 'read'"
+   ],
+   "rows": [
+    [
+     "εγώ",
+     "-ω",
+     "γράφω",
+     "διαβάζω"
+    ],
+    [
+     "εσύ",
+     "-εις",
+     "γράφεις",
+     "διαβάζεις"
+    ],
+    [
+     "αυτός / αυτή",
+     "-ει",
+     "γράφει",
+     "διαβάζει"
+    ],
+    [
+     "εμείς",
+     "-ουμε",
+     "γράφουμε",
+     "διαβάζουμε"
+    ],
+    [
+     "εσείς",
+     "-ετε",
+     "γράφετε",
+     "διαβάζετε"
+    ],
+    [
+     "αυτοί / αυτές",
+     "-ουν(ε)",
+     "γράφουν(ε)",
+     "διαβάζουν(ε)"
+    ]
+   ]
+  },
+  {
+   "type": "rules",
+   "title": "What the present tense covers",
+   "items": [
+    "A single action in progress: Τώρα **γράφω** ένα γράμμα 'I am writing a letter now'.",
+    "A habit: Κάθε πρωί **πίνω** καφέ 'Every morning I drink coffee'.",
+    "Something begun in the past that is still going on, where English uses the perfect: **Μένω** εδώ δύο χρόνια 'I have lived here for two years'.",
+    "Negate with **δεν** before the verb: Δεν ξέρω 'I don't know'."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "From the grammar",
+   "src": "grammar/verbs-holton.json#sections[section=6.5.1].examples",
+   "limit": 4,
+   "cite": "Holton §6.5.1"
+  },
+  {
+   "type": "culture",
+   "title": "Ordering coffee in the present",
+   "text": "In a café the waiter asks **Τι θα πάρετε;** or **Τι πίνετε;**, and many Greeks simply answer in the present: **Παίρνω έναν ελληνικό** 'I'll have a Greek coffee'. A Greek coffee is ordered by sugar, decided when it is brewed: **σκέτο** 'no sugar', **μέτριο** 'medium', **γλυκό** 'sweet'. In summer the default is iced: **φραπέ** or **φρέντο εσπρέσο**, again with a sugar level. The present also covers ongoing time, so a regular might say **Έρχομαι εδώ είκοσι χρόνια** 'I've been coming here for twenty years'."
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs to practise with",
+   "words": [
+    "έχω",
+    "κάνω",
+    "ξέρω",
+    "θέλω",
+    "δίνω",
+    "παίρνω",
+    "μένω",
+    "φεύγω",
+    "διαβάζω",
+    "γράφω",
+    "δουλεύω",
+    "πιστεύω",
+    "αγοράζω",
+    "ανοίγω",
+    "κλείνω",
+    "βρίσκω",
+    "φέρνω",
+    "στέλνω",
+    "αρχίζω",
+    "μαθαίνω",
+    "περιμένω",
+    "πληρώνω",
+    "τρέχω",
+    "παίζω"
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/verbs-holton.json#sections[section=6.8].paradigm.present.active",
+   "lemma": "χάνω",
+   "prompt": "Conjugate **χάνω** in the present.",
+   "given": 1
+  },
+  {
+   "gen": "conjugate-present",
+   "n": 12
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Κάθε πρωί ___ στις επτά. (I leave)",
+     "answer": "φεύγω",
+     "options": [
+      "φεύγω",
+      "φεύγει",
+      "φεύγεις"
+     ],
+     "why": "1st person singular: -ω."
+    },
+    {
+     "prompt": "Εσύ ___ ελληνικά καλά; (γράφω)",
+     "answer": "γράφεις",
+     "options": [
+      "γράφεις",
+      "γράφει",
+      "γράφετε"
+     ],
+     "why": "2nd person singular: -εις."
+    },
+    {
+     "prompt": "*I've been waiting here for an hour.*",
+     "answer": "Περιμένω εδώ και μία ώρα.",
+     "options": [
+      "Περιμένω εδώ και μία ώρα.",
+      "Περίμενα εδώ και μία ώρα.",
+      "Έχω περιμένει εδώ και μία ώρα."
+     ],
+     "why": "A situation that started in the past and is still going on takes the present with (εδώ και)."
+    },
+    {
+     "prompt": "Αυτοί ___ πολύ. (διαβάζω)",
+     "answer": "διαβάζουν",
+     "options": [
+      "διαβάζουν",
+      "διαβάζουμε",
+      "διαβάζει"
+     ],
+     "why": "3rd person plural: -ουν(ε)."
+    },
+    {
+     "prompt": "Εμείς δεν ___ τίποτα. (ξέρω)",
+     "answer": "ξέρουμε",
+     "options": [
+      "ξέρουμε",
+      "ξέρετε",
+      "ξέρουν"
+     ],
+     "why": "1st person plural: -ουμε."
+    },
+    {
+     "prompt": "Τι ___ εσείς; (θέλω)",
+     "answer": "θέλετε",
+     "options": [
+      "θέλετε",
+      "θέλεις",
+      "θέλουμε"
+     ],
+     "why": "2nd person plural (or polite): -ετε."
+    },
+    {
+     "prompt": "Εμείς ___ πολύ. (δουλεύω)",
+     "answer": "δουλεύουμε",
+     "options": [
+      "δουλεύουμε",
+      "δουλευούμε",
+      "δούλευουμε"
+     ],
+     "why": "In the first conjugation the stress stays on the stem syllable throughout."
+    },
+    {
+     "prompt": "Ο Νίκος ___ τον λογαριασμό. (πληρώνω)",
+     "answer": "πληρώνει",
+     "options": [
+      "πληρώνει",
+      "πληρώνεις",
+      "πληρώνω"
+     ],
+     "why": "3rd person singular: -ει."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Τώρα ___ ένα γράμμα. (γράφω, εγώ)",
+     "answer": "γράφω",
+     "accept": [
+      "γράφω"
+     ],
+     "why": "1st singular is the dictionary form."
+    },
+    {
+     "prompt": "Κάθε πρωί ___ καφέ. (πίνω, εμείς)",
+     "answer": "πίνουμε",
+     "accept": [
+      "πίνουμε"
+     ],
+     "why": "1st plural: -ουμε."
+    },
+    {
+     "prompt": "Πού ___; (μένω, εσύ)",
+     "answer": "μένεις",
+     "accept": [
+      "μένεις"
+     ],
+     "why": "2nd singular: -εις."
+    },
+    {
+     "prompt": "Τα παιδιά ___ στο πάρκο. (παίζω)",
+     "answer": "παίζουν",
+     "accept": [
+      "παίζουν",
+      "παίζουνε"
+     ],
+     "why": "3rd plural: -ουν(ε)."
+    },
+    {
+     "prompt": "Η Ελένη ___ σε τράπεζα. (δουλεύω)",
+     "answer": "δουλεύει",
+     "accept": [
+      "δουλεύει"
+     ],
+     "why": "3rd singular: -ει."
+    },
+    {
+     "prompt": "Εσείς τι ___; (διαβάζω)",
+     "answer": "διαβάζετε",
+     "accept": [
+      "διαβάζετε"
+     ],
+     "why": "2nd plural: -ετε."
+    },
+    {
+     "prompt": "Say in Greek: *I have lived here for two years.*",
+     "answer": "Μένω εδώ δύο χρόνια",
+     "accept": [
+      "Μένω εδώ δύο χρόνια",
+      "Μένω εδώ δυο χρόνια",
+      "Μένω εδώ εδώ και δύο χρόνια",
+      "Μένω εδώ εδώ και δυο χρόνια",
+      "Μένω δύο χρόνια εδώ",
+      "Μένω δυο χρόνια εδώ"
+     ],
+     "why": "Still living here, so Greek uses the present, not a perfect."
+    },
+    {
+     "prompt": "Say in Greek: *We are waiting for the bus.*",
+     "answer": "Περιμένουμε το λεωφορείο",
+     "accept": [
+      "Περιμένουμε το λεωφορείο",
+      "Εμείς περιμένουμε το λεωφορείο"
+     ],
+     "why": "περιμένω takes a direct object: no preposition for 'for'."
+    },
+    {
+     "prompt": "Πότε ___ το τρένο; (φεύγω)",
+     "answer": "φεύγει",
+     "accept": [
+      "φεύγει"
+     ],
+     "why": "3rd singular: -ει."
+    },
+    {
+     "prompt": "Say in Greek: *Who is paying?*",
+     "answer": "Ποιος πληρώνει",
+     "accept": [
+      "Ποιος πληρώνει"
+     ],
+     "why": "One present form covers 'pays' and 'is paying'."
+    },
+    {
+     "prompt": "Οι φίλοι μου ___ πολλά βιβλία. (αγοράζω)",
+     "answer": "αγοράζουν",
+     "accept": [
+      "αγοράζουν",
+      "αγοράζουνε"
+     ],
+     "why": "3rd plural: -ουν(ε)."
+    },
+    {
+     "prompt": "Say in Greek: *I don't know.*",
+     "answer": "Δεν ξέρω",
+     "accept": [
+      "Δεν ξέρω",
+      "Εγώ δεν ξέρω",
+      "Δε ξέρω"
+     ],
+     "why": "δεν goes directly before the verb."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "γράφω",
+  "διαβάζω",
+  "δουλεύω",
+  "μένω",
+  "πίνω",
+  "παίρνω",
+  "θέλω",
+  "ξέρω",
+  "πληρώνω",
+  "περιμένω",
+  "φεύγω",
+  "καφές"
+ ]
+}

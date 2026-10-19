@@ -1,0 +1,208 @@
+{
+ "source": "Holton, Mackridge & Philippaki-Warburton, Greek: An Essential Grammar, 2nd ed. (Routledge, 2016), upload 418329ba, PDF pp. 55-60 = Ch. 6, §6.1.1-6.1.2 (start only). Copyrighted, no open license: rules restated in own words; examples shortened; paradigms and word lists are linguistic facts.",
+ "variety": "Standard Modern Greek",
+ "constituents": {
+  "section": "6.1.1",
+  "title": "Constituents of the verb phrase",
+  "rule": "A verb phrase is a verb alone or a verb with other elements: objects, subject and object predicates, adverbials, and also preverbal particles (mood, tense, negation) and weak object pronouns. Verbs are intransitive when they take no object and transitive when they take one or more. The direct object is directly affected by the action and usually accusative; the indirect object is expressed by a prepositional phrase or the genitive. The same verb may be transitive or intransitive, with or without a meaning change.",
+  "examples": [
+   {
+    "el": "Ο Νίκος έφυγε.",
+    "en": "Nick left. (verb alone)"
+   },
+   {
+    "el": "Ο Νίκος έφερε τον Γιάννη.",
+    "en": "Nick brought John. (direct object)"
+   },
+   {
+    "el": "Ο Νίκος έδωσε το βιβλίο στον Γιάννη.",
+    "en": "Nick gave the book to John. (σε-phrase indirect object)"
+   },
+   {
+    "el": "Ο Νίκος έδωσε της Μαρίας ένα ωραίο δαχτυλίδι.",
+    "en": "Nick gave Mary a beautiful ring. (genitive indirect object)"
+   },
+   {
+    "el": "Ο Νίκος θα μιλήσει στον Γιάννη.",
+    "en": "Nick will speak to John."
+   },
+   {
+    "el": "Ο Νίκος έγινε υπουργός.",
+    "en": "Nick became a minister. (subject predicate)"
+   },
+   {
+    "el": "Ο Νίκος έφυγε χθες.",
+    "en": "Nick left yesterday. (adverbial)"
+   },
+   {
+    "el": "Ο Νίκος έβαλε το βιβλίο στην τσάντα του.",
+    "en": "Nick put the book in his bag."
+   },
+   {
+    "el": "Ο Νίκος θα φύγει χωρίς τη Μαρία.",
+    "en": "Nick will leave without Mary."
+   },
+   {
+    "el": "Ο Νίκος δεν θα σου δώσει τα λεφτά.",
+    "en": "Nick won't give you the money. (negation, tense particle, weak pronoun)"
+   },
+   {
+    "el": "Ο Νίκος μου είπε ότι δεν θα φύγει αύριο.",
+    "en": "Nick told me that he won't leave tomorrow."
+   }
+  ],
+  "transitive_intransitive": [
+   {
+    "el": "Ο Γιάννης διαβάζει την εφημερίδα.",
+    "en": "John is reading the newspaper."
+   },
+   {
+    "el": "Ο Γιάννης διαβάζει πολύ.",
+    "en": "John reads a lot."
+   },
+   {
+    "el": "Η Ελένη γελάει συνέχεια.",
+    "en": "Helen is always laughing."
+   },
+   {
+    "el": "Η Ελένη γέλασε τον Νίκο.",
+    "en": "Helen fooled Nick."
+   }
+  ]
+ },
+ "objects_and_predicates": {
+  "section": "6.1.2",
+  "title": "Objects and predicates",
+  "direct_object": {
+   "rule": "A direct object is a full noun phrase (typically accusative), a strong accusative pronoun, a weak accusative pronoun, or a combination of the last two (clitic doubling). The weak pronoun stands right before the verb unless the verb is a gerund or imperative.",
+   "examples": [
+    {
+     "el": "Ο Βασίλης κάλεσε την Άννα.",
+     "en": "Basil invited Anna."
+    },
+    {
+     "el": "Ο Βασίλης κάλεσε εμένα.",
+     "en": "Basil invited me."
+    },
+    {
+     "el": "Ο Βασίλης με κάλεσε.",
+     "en": "Basil invited me."
+    },
+    {
+     "el": "Ο Βασίλης την κάλεσε την Άννα.",
+     "en": "Basil did invite Anna."
+    }
+   ]
+  },
+  "two_objects": {
+   "rule": "A verb may take a direct and an indirect object. The genitive indirect object may be a noun phrase, a weak pronoun, or both. Both objects may be doubled with weak pronouns or fully replaced by them. Full noun phrases can come in either order (direct before indirect is less usual than the reverse); with weak pronouns the genitive indirect must precede the accusative direct, and only certain person combinations occur.",
+   "examples": [
+    {
+     "el": "Η Λένα χάρισε ένα ρολόι του Βασίλη.",
+     "en": "Lena gave Basil a watch."
+    },
+    {
+     "el": "Η Λένα του χάρισε ένα ρολόι.",
+     "en": "Lena gave him a watch."
+    },
+    {
+     "el": "Η Λένα του χάρισε του Βασίλη ένα ωραίο ρολόι.",
+     "en": "Lena gave Basil a beautiful watch."
+    },
+    {
+     "el": "Η Λένα του το χάρισε του Βασίλη το ρολόι.",
+     "en": "Lena gave Basil the watch."
+    },
+    {
+     "el": "Η Λένα του το χάρισε.",
+     "en": "Lena gave it to him."
+    }
+   ],
+   "clitic_combinations": {
+    "rule": "Any member of column A (genitive) may be followed by any member of column B (accusative); the sequence is A + B.",
+    "A": [
+     "μου",
+     "σου",
+     "του",
+     "της",
+     "μας",
+     "σας",
+     "τους"
+    ],
+    "B": [
+     "τον",
+     "την",
+     "το",
+     "τους",
+     "τις",
+     "τα"
+    ]
+   }
+  }
+ },
+ "double_accusative": {
+  "rule": "A few verbs, such as διδάσκω 'I teach' and κερνώ 'I treat to', take two accusative objects. The indirect object is most usually a σε-phrase. A few verbs allow either a σε-phrase or a genitive.",
+  "examples": [
+   {
+    "el": "Κέρασε τον Γιάννη ένα παγωτό.",
+    "en": "Treat John to an ice-cream."
+   },
+   {
+    "el": "Ο Μιχάλης έστειλε μήνυμα στη Χρυσούλα.",
+    "en": "Michael sent a message to Chrysoula."
+   },
+   {
+    "el": "Η Αγγέλα θα μιλήσει στον Γιάννη.",
+    "en": "Angela will speak to John."
+   },
+   {
+    "el": "Η Αγγέλα θα (του) μιλήσει του Γιάννη.",
+    "en": "Angela will speak to John."
+   }
+  ]
+ },
+ "ethic_dative_genitive": {
+  "rule": "A genitive weak pronoun that is not an indirect object may accompany a transitive or intransitive verb to express the psychological involvement of the referent in the action's effect.",
+  "examples": [
+   {
+    "el": "Του χαλάσανε τα σχέδια.",
+    "en": "They spoiled his plans."
+   },
+   {
+    "el": "Θα μου σιδερώσεις το πουκάμισο;",
+    "en": "Will you iron my shirt for me?"
+   },
+   {
+    "el": "Μη μου στενοχωρηθείς.",
+    "en": "Please don't get upset."
+   }
+  ]
+ },
+ "adverbials": {
+  "rule": "A verb phrase may contain adverbials of place, time, manner, cause, purpose etc., as prepositional phrases, adverbial phrases or adverbial clauses.",
+  "examples": [
+   {
+    "el": "Συναντήθηκαν στην Αθήνα.",
+    "en": "They met in Athens. (place)"
+   },
+   {
+    "el": "Ήρθε πολύ αργά.",
+    "en": "(S)he came very late. (time)"
+   },
+   {
+    "el": "Του μίλησε πολύ άσκημα.",
+    "en": "(S)he spoke to him very rudely. (manner)"
+   },
+   {
+    "el": "Το έκανε από πείσμα.",
+    "en": "(S)he did it out of stubbornness. (cause)"
+   },
+   {
+    "el": "Διαβάζει πολύ για να πάρει καλό βαθμό.",
+    "en": "(S)he's studying a lot in order to get good marks. (purpose)"
+   }
+  ]
+ },
+ "linking_verbs_intro": "Linking (copular) verbs take a nominative subject predicate: an adjectival predicate agrees with the subject in case, number and gender; a noun-phrase predicate agrees in case only. (Examples 29-30 begin on the next page, beyond this extract.)",
+ "stopped_at": "Ends at PDF p. 60, mid §6.1.2, just before the examples of subject predicates (ex. 29-30). Continue from there in the next upload."
+}

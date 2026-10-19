@@ -1,0 +1,325 @@
+{
+ "source": "Poulopoulou, Modern Greek: Grammar Notes for Absolute Beginners (A1-A2), ΣΕΑΒ/Kallipos 2015, CC BY-NC-SA 3.0 GR (upload 8e8e722c), Chapter 6 (book pp. 82-91; 6.6 possessives not in the uploaded pages)",
+ "variety": "Standard Modern Greek",
+ "cases_covered": [
+  "nom",
+  "acc"
+ ],
+ "note": "Complements declensions.json personal_pronouns by adding strong vs weak accusative usage and the other pronoun classes.",
+ "personal": {
+  "1": {
+   "sg": {
+    "nom": "εγώ",
+    "acc_weak": "με",
+    "acc_strong": "εμένα"
+   },
+   "pl": {
+    "nom": "εμείς",
+    "acc_weak": "μας",
+    "acc_strong": "εμάς"
+   }
+  },
+  "2": {
+   "sg": {
+    "nom": "εσύ",
+    "acc_weak": "σε",
+    "acc_strong": "εσένα"
+   },
+   "pl": {
+    "nom": "εσείς",
+    "acc_weak": "σας",
+    "acc_strong": "εσάς"
+   }
+  },
+  "3": {
+   "sg": {
+    "nom": "αυτός / αυτή / αυτό",
+    "acc_weak": "τον / την / το",
+    "acc_strong": "αυτόν / αυτήν / αυτό"
+   },
+   "pl": {
+    "nom": "αυτοί / αυτές / αυτά",
+    "acc_weak": "τους / τις / τα",
+    "acc_strong": "αυτούς / αυτές / αυτά"
+   }
+  },
+  "rules": [
+   {
+    "rule": "Weak form is the object, placed right before the verb, after δεν.",
+    "el": "Σε αγαπάω πολύ. / Δεν σε θέλω.",
+    "en": "I love you very much. / I don't want you."
+   },
+   {
+    "rule": "Strong form after a preposition; initial ε- often drops after a stressed vowel.",
+    "el": "Αυτό το δώρο είναι για (ε)σένα. / από σένα",
+    "en": "This present is for you."
+   },
+   {
+    "rule": "Weak 3rd-person accusatives equal the definite article accusative and replace only definite nouns.",
+    "el": "Θέλεις τον καφέ σου; Ναι, τον θέλω. / Θέλεις καφέ; Ναι, θέλω.",
+    "en": "Do you want your coffee? Yes, I want it. / Do you want coffee? Yes."
+   },
+   {
+    "rule": "Subject pronouns are optional."
+   }
+  ],
+  "with_αρέσει": {
+   "forms": {
+    "1sg": "μου",
+    "2sg": "σου",
+    "3sg": "του / της / του",
+    "1pl": "μας",
+    "2pl": "σας",
+    "3pl": "τους"
+   },
+   "rule": "The liked thing is the nominative subject with the definite article; the verb agrees with it.",
+   "examples": [
+    {
+     "el": "Μου αρέσει ο καφές.",
+     "en": "I like coffee."
+    },
+    {
+     "el": "Μου αρέσουν οι μπανάνες.",
+     "en": "I like bananas."
+    },
+    {
+     "el": "Της αρέσει ο καφές.",
+     "en": "She likes coffee."
+    }
+   ]
+  }
+ },
+ "demonstrative": {
+  "αυτός": {
+   "meaning": "this (near)",
+   "forms": {
+    "m": {
+     "sg": {
+      "nom": "αυτός",
+      "acc": "αυτόν"
+     },
+     "pl": {
+      "nom": "αυτοί",
+      "acc": "αυτούς"
+     }
+    },
+    "f": {
+     "sg": {
+      "nom": "αυτή",
+      "acc": "αυτή(ν)"
+     },
+     "pl": {
+      "nom": "αυτές",
+      "acc": "αυτές"
+     }
+    },
+    "n": {
+     "sg": {
+      "nom": "αυτό",
+      "acc": "αυτό"
+     },
+     "pl": {
+      "nom": "αυτά",
+      "acc": "αυτά"
+     }
+    }
+   }
+  },
+  "εκείνος": {
+   "meaning": "that (far)",
+   "forms": {
+    "m": {
+     "sg": {
+      "nom": "εκείνος",
+      "acc": "εκείνο"
+     },
+     "pl": {
+      "nom": "εκείνοι",
+      "acc": "εκείνους"
+     }
+    },
+    "f": {
+     "sg": {
+      "nom": "εκείνη",
+      "acc": "εκείνη"
+     },
+     "pl": {
+      "nom": "εκείνες",
+      "acc": "εκείνες"
+     }
+    },
+    "n": {
+     "sg": {
+      "nom": "εκείνο",
+      "acc": "εκείνο"
+     },
+     "pl": {
+      "nom": "εκείνα",
+      "acc": "εκείνα"
+     }
+    }
+   }
+  },
+  "rule": "Used alone like 3rd-person pronouns, or before a noun with an obligatory definite article.",
+  "examples": [
+   {
+    "el": "Αυτός θέλει παγωτό, εκείνος θέλει μπίρα.",
+    "en": "This one wants ice cream, that one wants beer."
+   },
+   {
+    "el": "Θέλω αυτόν τον αναπτήρα.",
+    "en": "I want this lighter."
+   }
+  ]
+ },
+ "interrogative": {
+  "ποιος": {
+   "meaning": "who; which (before a noun)",
+   "forms": {
+    "m": {
+     "sg": {
+      "nom": "ποιος",
+      "acc": "ποιον"
+     },
+     "pl": {
+      "nom": "ποιοι",
+      "acc": "ποιους"
+     }
+    },
+    "f": {
+     "sg": {
+      "nom": "ποια",
+      "acc": "ποια"
+     },
+     "pl": {
+      "nom": "ποιες",
+      "acc": "ποιες"
+     }
+    },
+    "n": {
+     "sg": {
+      "nom": "ποιο",
+      "acc": "ποιο"
+     },
+     "pl": {
+      "nom": "ποια",
+      "acc": "ποια"
+     }
+    }
+   },
+   "note": "One syllable, so no accent mark. Masculine is the default (Ποιος είναι;)."
+  },
+  "τι": {
+   "meaning": "what; what sort of (before a noun)",
+   "invariable": true
+  },
+  "πόσος": {
+   "meaning": "how much (sg), how many (pl)",
+   "declines_like": "ακριβός",
+   "examples": [
+    {
+     "el": "Πόση ζάχαρη θέλεις;",
+     "en": "How much sugar do you want?"
+    },
+    {
+     "el": "Πόσες μπανάνες θέλεις;",
+     "en": "How many bananas do you want?"
+    }
+   ]
+  },
+  "rule": "A preposition comes before the question word: Για ποιον είναι το δώρο;",
+  "question_words": {
+   "ποιος": "who",
+   "τι": "what",
+   "πότε": "when",
+   "κάθε πότε": "how often",
+   "πού": "where",
+   "πώς": "how",
+   "πόσο": "how much",
+   "γιατί": "why"
+  }
+ },
+ "indefinite": {
+  "rule": "κάποιος/κάτι in affirmative sentences; κανένας/τίποτα in questions and negatives. Greek has no 'no one': use δεν + κανένας. Elliptical Τίποτα still means 'anything'.",
+  "forms": {
+   "κάποιος": "like ποιος (κάποιον)",
+   "κάτι": "invariable",
+   "κανένας": "καν- + indefinite article (κανέναν, καμία/καμιά, κανένα); no plural",
+   "τίποτα": "invariable"
+  },
+  "pairs": [
+   {
+    "affirmative": "κάποιος",
+    "en": "someone",
+    "non_affirmative": "κανένας",
+    "en_na": "anyone"
+   },
+   {
+    "affirmative": "κάτι",
+    "en": "something",
+    "non_affirmative": "τίποτα",
+    "en_na": "anything"
+   },
+   {
+    "affirmative": "κάπου",
+    "en": "somewhere",
+    "non_affirmative": "πουθενά",
+    "en_na": "anywhere"
+   },
+   {
+    "affirmative": "κάποτε",
+    "en": "some time",
+    "non_affirmative": "ποτέ",
+    "en_na": "ever"
+   },
+   {
+    "affirmative": "κάπως",
+    "en": "somehow",
+    "non_affirmative": null,
+    "en_na": null
+   },
+   {
+    "affirmative": null,
+    "en": null,
+    "non_affirmative": "καθόλου",
+    "en_na": "any (quantity), at all"
+   }
+  ],
+  "examples": [
+   {
+    "el": "Βλέπω κάποιον / κάτι.",
+    "en": "I see someone / something."
+   },
+   {
+    "el": "Βλέπεις κανέναν / τίποτα;",
+    "en": "Do you see anyone / anything?"
+   },
+   {
+    "el": "Δεν βλέπω κανέναν / τίποτα.",
+    "en": "I don't see anyone / anything."
+   }
+  ]
+ },
+ "relative": {
+  "που": {
+   "meaning": "who, that, which, where",
+   "invariable": true,
+   "obligatory": true,
+   "note": "Unaccented; interrogative πού is accented. όπου can replace που meaning 'where'.",
+   "examples": [
+    {
+     "el": "Να ο χάρτης που θέλω.",
+     "en": "Here is the map I want."
+    },
+    {
+     "el": "Θέλω τον χάρτη που είναι στο τραπέζι.",
+     "en": "I want the map which is on the table."
+    },
+    {
+     "el": "Να το σπίτι που / όπου μένω.",
+     "en": "Here is the house where I live."
+    }
+   ]
+  }
+ }
+}

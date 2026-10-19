@@ -1,0 +1,265 @@
+{
+ "el": "Αόριστος",
+ "title": "The simple past and the augment",
+ "section": "A2 · Holton §6.8, §6.14, §6.21",
+ "goal": "Form the simple past of regular and common irregular verbs in every person.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "The simple past (αόριστος) is built on the **perfective stem**, the same stem as the future θα γράψω. Most regular verbs form it by adding a sigma sound to the present stem, which then fuses with the stem consonant: γράφ-ω → έ-γραψ-α, τρέχ-ω → έ-τρεξ-α, αγοράζ-ω → αγόρασ-α, αγαπ-ώ → αγάπη-σ-α.\n\nTwo rules govern the shape of every form. **Stress falls on the third syllable from the end.** If the form is too short to have a third syllable, the **augment έ-** is added to carry it: έγραψα, but γράψαμε (no augment needed)."
+  },
+  {
+   "type": "rules",
+   "title": "From present to past",
+   "src": "grammar/verbs-past-future.json#aorist.regular_formation",
+   "cite": "Poulopoulou ch. 8; Holton §6.14"
+  },
+  {
+   "type": "verb-paradigm",
+   "title": "χάνω: simple past",
+   "columns": [
+    {
+     "label": "active",
+     "src": "grammar/verbs-holton.json#sections[section=6.8].paradigm.simple_past.active"
+    }
+   ],
+   "cite": "Holton §6.8"
+  },
+  {
+   "type": "text",
+   "title": "Fixed-stress irregulars",
+   "text": "A small group of very common verbs keep their stress on the same syllable and never take the augment in the plural: **πήρα, πήραμε** (παίρνω), **βρήκα, βρήκαμε** (βρίσκω), **είδα, είδαμε** (βλέπω), **είπα, είπαμε** (λέω), **ήρθα, ήρθαμε** (έρχομαι), **ήπια, ήπιαμε** (πίνω), **μπήκα, βγήκα, πήγα**. Learn these as pairs with their present."
+  },
+  {
+   "type": "culture",
+   "title": "Καλώς ήρθες, καλώς σε βρήκα",
+   "text": "Some of the most frequent aorists live inside fixed formulas. A host greets you with **Καλώς ήρθες** (plural or polite **Καλώς ήρθατε**) 'welcome', literally 'well you came', and the guest answers **Καλώς σε βρήκα** 'well I found you'. Back from a trip you will be asked **Πώς πέρασες;** 'How was it?', and an older relative may greet you with **Έφαγες;** 'Have you eaten?'. Where English uses the present perfect ('have you eaten?', 'I've arrived'), spoken Greek normally uses the simple past: **Έφτασα!** 'I'm here!', **Τελείωσα** 'I've finished'."
+  },
+  {
+   "type": "callout",
+   "text": "**Two-step check for any past form.** Count syllables and put the stress on the third from the end. If there are only two syllables, add έ- in front. The augment then disappears again in the long forms: έφυγα, φύγαμε."
+  },
+  {
+   "type": "reading",
+   "title": "Ένα κακό πρωινό",
+   "text": "Χθες ξύπνησα αργά, γιατί το ξυπνητήρι δεν χτύπησε. Σηκώθηκα γρήγορα, έπλυνα το πρόσωπό μου και ντύθηκα σε πέντε λεπτά. Δεν ήπια καφέ και δεν έφαγα τίποτα.\n\nΈτρεξα στη στάση, αλλά το λεωφορείο έφυγε μπροστά στα μάτια μου. Περίμενα είκοσι λεπτά το επόμενο. Έφτασα στο γραφείο στις δέκα· η συνάντηση ξεκίνησε στις εννιά χωρίς εμένα.\n\nΟ διευθυντής με κοίταξε, αλλά δεν είπε τίποτα. Κάθισα στη θέση μου και άνοιξα την τσάντα μου. Τότε κατάλαβα το χειρότερο: ξέχασα το λάπτοπ στο σπίτι!\n\nΤο μεσημέρι πήγα στο σπίτι με ταξί, πήρα το λάπτοπ και γύρισα στο γραφείο. Δούλεψα μέχρι τις έξι χωρίς διάλειμμα και δεν απάντησα σε κανένα τηλέφωνο.\n\nΤο βράδυ γύρισα σπίτι πολύ κουρασμένος. Μαγείρεψα μακαρόνια, είδα μια ταινία και κοιμήθηκα στις δέκα. Πριν κλείσω τα μάτια, έβαλα δύο ξυπνητήρια για σήμερα.",
+   "en": "Yesterday I woke up late, because the alarm didn't go off. I got up quickly, washed my face and got dressed in five minutes. I didn't drink coffee and I didn't eat anything.\n\nI ran to the bus stop, but the bus left before my eyes. I waited twenty minutes for the next one. I got to the office at ten; the meeting had started at nine without me.\n\nThe manager looked at me but said nothing. I sat down at my desk and opened my bag. Then I realised the worst: I'd left my laptop at home!\n\nAt midday I went home by taxi, picked up the laptop and went back to the office. I worked until six without a break and didn't answer a single phone call.\n\nIn the evening I went home very tired. I cooked pasta, watched a film and fell asleep at ten. Before I closed my eyes, I set two alarms for today.",
+   "gloss": {
+    "ξυπνητήρι": "ξυπνητήρι — alarm clock",
+    "ξυπνητήρια": "ξυπνητήρι — alarm clock (plural)",
+    "ντύθηκα": "ντύνομαι — to get dressed (simple past, 1sg)",
+    "Σηκώθηκα": "σηκώνομαι — to get up (simple past, 1sg)",
+    "κοιμήθηκα": "κοιμάμαι — to sleep; here: I fell asleep (simple past)",
+    "κανένα": "κανένας — no, not any (κανένα τηλέφωνο 'no phone call')",
+    "ταβέρνα": "ταβέρνα — taverna, traditional restaurant",
+    "χτύπησε": "χτυπώ — to hit; of an alarm or phone: to ring, go off",
+    "διευθυντής": "διευθυντής — manager, director",
+    "διάλειμμα": "διάλειμμα — break",
+    "λάπτοπ": "λάπτοπ — laptop (indeclinable)",
+    "μακαρόνια": "μακαρόνια — pasta, spaghetti",
+    "κλείσω": "κλείνω — to close (perfective, 1sg: πριν κλείσω 'before I close')"
+   },
+   "questions": [
+    {
+     "prompt": "Γιατί ξύπνησε αργά;",
+     "answer": "Γιατί δεν χτύπησε το ξυπνητήρι",
+     "options": [
+      "Γιατί δεν χτύπησε το ξυπνητήρι",
+      "Γιατί κοιμήθηκε πολύ αργά",
+      "Γιατί ήταν Σάββατο"
+     ]
+    },
+    {
+     "prompt": "Πόση ώρα περίμενε στη στάση;",
+     "answer": "Είκοσι λεπτά",
+     "options": [
+      "Είκοσι λεπτά",
+      "Πέντε λεπτά",
+      "Μία ώρα"
+     ]
+    },
+    {
+     "prompt": "Τι ξέχασε στο σπίτι;",
+     "answer": "Το λάπτοπ",
+     "options": [
+      "Το λάπτοπ",
+      "Την τσάντα",
+      "Τα κλειδιά"
+     ]
+    },
+    {
+     "prompt": "Τι έκανε το βράδυ;",
+     "answer": "Μαγείρεψε και είδε μια ταινία",
+     "options": [
+      "Μαγείρεψε και είδε μια ταινία",
+      "Πήγε σε μια συνάντηση",
+      "Έφαγε σε μια ταβέρνα"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "principal-parts",
+   "part": "aorist",
+   "n": 10
+  },
+  {
+   "gen": "aorist-person",
+   "n": 10
+  },
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/verbs-holton.json#sections[section=6.8].paradigm.simple_past.active",
+   "lemma": "έχασα",
+   "prompt": "Write out the simple past of **χάνω**.",
+   "given": 1
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Χθες ___ ένα γράμμα. (γράφω, εγώ)",
+     "answer": "έγραψα",
+     "accept": [
+      "έγραψα"
+     ],
+     "why": "φ + σ = ψ; two syllables, so the augment έ- carries the stress."
+    },
+    {
+     "prompt": "Πέρσι ___ στην Κρήτη. (δουλεύω, εμείς)",
+     "answer": "δουλέψαμε",
+     "accept": [
+      "δουλέψαμε"
+     ],
+     "why": "-εύω → -εψ-; stress on the third syllable from the end, no augment needed."
+    },
+    {
+     "prompt": "Πότε ___ από τη δουλειά; (φεύγω, εσύ)",
+     "answer": "έφυγες",
+     "accept": [
+      "έφυγες"
+     ],
+     "why": "φεύγω has the past stem φυγ-; the short form needs the augment: έφυγες."
+    },
+    {
+     "prompt": "Τα παιδιά ___ όλο το φαγητό. (τρώω)",
+     "answer": "έφαγαν",
+     "accept": [
+      "έφαγαν",
+      "φάγανε"
+     ],
+     "why": "τρώω → έφαγα; 3rd plural έφαγαν (colloquially φάγανε)."
+    },
+    {
+     "prompt": "Το πρωί ___ το λεωφορείο. (χάνω, εγώ)",
+     "answer": "έχασα",
+     "accept": [
+      "έχασα"
+     ],
+     "why": "χάνω → perfective stem χασ-, augmented in the short form: έχασα."
+    },
+    {
+     "prompt": "Πού ___ το Σαββατοκύριακο; (πηγαίνω, εσείς)",
+     "answer": "πήγατε",
+     "accept": [
+      "πήγατε"
+     ],
+     "why": "πηγαίνω / πάω → πήγα, with fixed stress: πήγατε."
+    },
+    {
+     "prompt": "Η Μαρία ___ ένα καινούριο φόρεμα. (αγοράζω)",
+     "answer": "αγόρασε",
+     "accept": [
+      "αγόρασε"
+     ],
+     "why": "-άζω → -ασ-; αγόρασε already has three syllables, so no augment."
+    },
+    {
+     "prompt": "___ πολύ στο πάρτι; (χορεύω, εσείς)",
+     "answer": "Χορέψατε",
+     "accept": [
+      "Χορέψατε"
+     ],
+     "why": "-εύω → -εψ-: χορέψατε, stress on the third syllable from the end."
+    },
+    {
+     "prompt": "Ποιος ___ την πόρτα; (ανοίγω)",
+     "answer": "άνοιξε",
+     "accept": [
+      "άνοιξε"
+     ],
+     "why": "γ + σ = ξ: ανοίγω → άνοιξα, άνοιξε."
+    },
+    {
+     "prompt": "Χθες βράδυ ___ τον Νίκο στον δρόμο. (βλέπω, εμείς)",
+     "answer": "είδαμε",
+     "accept": [
+      "είδαμε"
+     ],
+     "why": "βλέπω has the irregular past είδα, with fixed stress: είδαμε."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Simple past, εμείς + **διαβάζω**",
+     "answer": "διαβάσαμε",
+     "options": [
+      "διαβάσαμε",
+      "διάβασαμε",
+      "εδιαβάσαμε"
+     ],
+     "why": "Stress on the third syllable from the end; long enough, so no augment."
+    },
+    {
+     "prompt": "Simple past, εσείς + **φεύγω**",
+     "answer": "φύγατε",
+     "options": [
+      "φύγατε",
+      "έφυγατε",
+      "φεύγατε"
+     ],
+     "why": "The augment disappears in long forms; φεύγατε is the imperfect."
+    },
+    {
+     "prompt": "Simple past, αυτοί + **λέω**",
+     "answer": "είπαν",
+     "options": [
+      "είπαν",
+      "έλεγαν",
+      "έπαν"
+     ],
+     "why": "λέω → είπα (fixed stress); έλεγαν is the imperfect."
+    },
+    {
+     "prompt": "Simple past, εγώ + **μένω**",
+     "answer": "έμεινα",
+     "options": [
+      "έμεινα",
+      "έμενα",
+      "έμεισα"
+     ],
+     "why": "μένω has the past stem μειν- (έμεινα); έμενα is the imperfect."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "ξυπνώ",
+  "τρέχω",
+  "φεύγω",
+  "περιμένω",
+  "φτάνω",
+  "ξεχνώ",
+  "μαγειρεύω",
+  "λεωφορείο",
+  "στάση",
+  "γραφείο",
+  "συνάντηση",
+  "κουρασμένος"
+ ]
+}

@@ -1,0 +1,1446 @@
+{
+ "el": "Το συνοπτικό θέμα",
+ "title": "Forming the perfective stem",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "One stem, four forms",
+   "text": "Every Greek verb has two stems, and the perfective one is what you build almost everything else on: the **simple past** (έ-γραψ-α), the **dependent** after θα, να, ας, αν, όταν, πριν (γράψ-ω), the **perfective imperative** (γράψ-ε) and the **non-finite form** of the perfect (έχω γράψ-ει). Learn the stem once and you have four forms.\n\nFor regular verbs the perfective stem is the present stem **+ σ**, and the σ fuses with the consonant before it. Labials (π, β, φ, πτ, φτ) and the υ of -αύω/-εύω give **ψ**. Velars (κ, γ, χ, χν, σκ, γχ) and -σσ-/-ττ- give **ξ**. Dentals (δ, θ) and ν after a vowel disappear into plain **σ**. Second-conjugation verbs (-άω/-ώ) usually add **-ησ-**.\n\nTwo classes cannot be predicted from the sound alone and have to be learned verb by verb: **-ζω** (mostly -σα, but a solid group in -ξα) and the second-conjugation exceptions in **-ασα, -εσα, -αξα, -ηξα**."
+  },
+  {
+   "type": "table",
+   "title": "What the σ does to the stem",
+   "head": [
+    "Stem ends in",
+    "+ σ gives",
+    "Present → simple past → θα"
+   ],
+   "rows": [
+    [
+     "π, β, φ, πτ, φτ",
+     "**ψ**",
+     "γράφω → έγραψα → θα γράψω"
+    ],
+    [
+     "-αυ- / -ευ-",
+     "**-αψ- / -εψ-**",
+     "δουλεύω → δούλεψα → θα δουλέψω"
+    ],
+    [
+     "κ, γ, χ, χν, σκ, γχ",
+     "**ξ**",
+     "ανοίγω → άνοιξα → θα ανοίξω"
+    ],
+    [
+     "-σσ- / -ττ-",
+     "**ξ**",
+     "αναπτύσσω → ανέπτυξα → θα αναπτύξω"
+    ],
+    [
+     "δ, θ",
+     "**σ**",
+     "πείθω → έπεισα → θα πείσω"
+    ],
+    [
+     "-ζ-",
+     "**σ** (most) or **ξ**",
+     "αγοράζω → αγόρασα; παίζω → έπαιξα"
+    ],
+    [
+     "vowel + ν",
+     "**σ**",
+     "πληρώνω → πλήρωσα → θα πληρώσω"
+    ],
+    [
+     "vowel",
+     "**σ**",
+     "ακούω → άκουσα → θα ακούσω"
+    ],
+    [
+     "-άω / -ώ (2nd conj.)",
+     "**-ησ-** (most)",
+     "μιλάω → μίλησα → θα μιλήσω"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Labials and -εύω → -ψ-",
+   "head": [
+    "Present",
+    "Simple past",
+    "θα / να"
+   ],
+   "rows": [
+    [
+     "γράφω *write*",
+     "έγραψα",
+     "γράψω"
+    ],
+    [
+     "κόβω *cut*",
+     "έκοψα",
+     "κόψω"
+    ],
+    [
+     "κρύβω *hide*",
+     "έκρυψα",
+     "κρύψω"
+    ],
+    [
+     "ανάβω *light, switch on*",
+     "άναψα",
+     "ανάψω"
+    ],
+    [
+     "κλέβω *steal*",
+     "έκλεψα",
+     "κλέψω"
+    ],
+    [
+     "λείπω *be missing*",
+     "έλειψα",
+     "λείψω"
+    ],
+    [
+     "στρίβω *turn*",
+     "έστριψα",
+     "στρίψω"
+    ],
+    [
+     "σκύβω *bend down*",
+     "έσκυψα",
+     "σκύψω"
+    ],
+    [
+     "καλύπτω *cover*",
+     "κάλυψα",
+     "καλύψω"
+    ],
+    [
+     "ανακαλύπτω *discover*",
+     "ανακάλυψα",
+     "ανακαλύψω"
+    ],
+    [
+     "υπογράφω *sign*",
+     "υπέγραψα / υπόγραψα",
+     "υπογράψω"
+    ],
+    [
+     "δουλεύω *work*",
+     "δούλεψα",
+     "δουλέψω"
+    ],
+    [
+     "μαζεύω *gather*",
+     "μάζεψα",
+     "μαζέψω"
+    ],
+    [
+     "ξοδεύω *spend*",
+     "ξόδεψα",
+     "ξοδέψω"
+    ],
+    [
+     "πιστεύω *believe*",
+     "πίστεψα",
+     "πιστέψω"
+    ],
+    [
+     "ταξιδεύω *travel*",
+     "ταξίδεψα",
+     "ταξιδέψω"
+    ],
+    [
+     "μαγειρεύω *cook*",
+     "μαγείρεψα",
+     "μαγειρέψω"
+    ],
+    [
+     "χορεύω *dance*",
+     "χόρεψα",
+     "χορέψω"
+    ],
+    [
+     "παντρεύω *marry off*",
+     "πάντρεψα",
+     "παντρέψω"
+    ],
+    [
+     "*learned -εύω keep -ευσ-:*",
+     "",
+     ""
+    ],
+    [
+     "απαγορεύω *forbid*",
+     "απαγόρευσα",
+     "απαγορεύσω"
+    ],
+    [
+     "προστατεύω *protect*",
+     "προστάτευσα",
+     "προστατεύσω"
+    ],
+    [
+     "εκπαιδεύω *train*",
+     "εκπαίδευσα",
+     "εκπαιδεύσω"
+    ],
+    [
+     "ερμηνεύω *interpret*",
+     "ερμήνευσα",
+     "ερμηνεύσω"
+    ],
+    [
+     "θεραπεύω *cure*",
+     "θεράπευσα",
+     "θεραπεύσω"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Velars, -χνω, -σκω, -σσω → -ξ-",
+   "head": [
+    "Present",
+    "Simple past",
+    "θα / να"
+   ],
+   "rows": [
+    [
+     "ανοίγω *open*",
+     "άνοιξα",
+     "ανοίξω"
+    ],
+    [
+     "τρέχω *run*",
+     "έτρεξα",
+     "τρέξω"
+    ],
+    [
+     "δείχνω *show*",
+     "έδειξα",
+     "δείξω"
+    ],
+    [
+     "ψάχνω *look for*",
+     "έψαξα",
+     "ψάξω"
+    ],
+    [
+     "ρίχνω *throw*",
+     "έριξα",
+     "ρίξω"
+    ],
+    [
+     "φτιάχνω *make, fix*",
+     "έφτιαξα",
+     "φτιάξω"
+    ],
+    [
+     "σπρώχνω *push*",
+     "έσπρωξα",
+     "σπρώξω"
+    ],
+    [
+     "διώχνω *chase away*",
+     "έδιωξα",
+     "διώξω"
+    ],
+    [
+     "προσέχω *pay attention*",
+     "πρόσεξα",
+     "προσέξω"
+    ],
+    [
+     "διαλέγω *choose*",
+     "διάλεξα",
+     "διαλέξω"
+    ],
+    [
+     "τυλίγω *wrap*",
+     "τύλιξα",
+     "τυλίξω"
+    ],
+    [
+     "αντέχω *endure*",
+     "άντεξα",
+     "αντέξω"
+    ],
+    [
+     "διδάσκω *teach*",
+     "δίδαξα",
+     "διδάξω"
+    ],
+    [
+     "ελέγχω *check*",
+     "έλεγξα",
+     "ελέγξω"
+    ],
+    [
+     "αναπτύσσω *develop*",
+     "ανέπτυξα",
+     "αναπτύξω"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "-ζω → -σα: the majority",
+   "head": [
+    "Present",
+    "Simple past",
+    "θα / να"
+   ],
+   "rows": [
+    [
+     "αγοράζω *buy*",
+     "αγόρασα",
+     "αγοράσω"
+    ],
+    [
+     "διαβάζω *read*",
+     "διάβασα",
+     "διαβάσω"
+    ],
+    [
+     "ετοιμάζω *prepare*",
+     "ετοίμασα",
+     "ετοιμάσω"
+    ],
+    [
+     "δοκιμάζω *try, taste*",
+     "δοκίμασα",
+     "δοκιμάσω"
+    ],
+    [
+     "εξετάζω *examine*",
+     "εξέτασα",
+     "εξετάσω"
+    ],
+    [
+     "κουράζω *tire*",
+     "κούρασα",
+     "κουράσω"
+    ],
+    [
+     "πλησιάζω *approach*",
+     "πλησίασα",
+     "πλησιάσω"
+    ],
+    [
+     "αρχίζω *begin*",
+     "άρχισα",
+     "αρχίσω"
+    ],
+    [
+     "γυρίζω *return, turn*",
+     "γύρισα",
+     "γυρίσω"
+    ],
+    [
+     "χτίζω *build*",
+     "έχτισα",
+     "χτίσω"
+    ],
+    [
+     "καθαρίζω *clean*",
+     "καθάρισα",
+     "καθαρίσω"
+    ],
+    [
+     "αποφασίζω *decide*",
+     "αποφάσισα",
+     "αποφασίσω"
+    ],
+    [
+     "γνωρίζω *get to know*",
+     "γνώρισα",
+     "γνωρίσω"
+    ],
+    [
+     "ψωνίζω *shop*",
+     "ψώνισα",
+     "ψωνίσω"
+    ],
+    [
+     "ελπίζω *hope*",
+     "έλπισα",
+     "ελπίσω"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "-ζω → -ξα: learn these",
+   "head": [
+    "Present",
+    "Simple past",
+    "θα / να"
+   ],
+   "rows": [
+    [
+     "παίζω *play*",
+     "έπαιξα",
+     "παίξω"
+    ],
+    [
+     "αλλάζω *change*",
+     "άλλαξα",
+     "αλλάξω"
+    ],
+    [
+     "κοιτάζω *look at*",
+     "κοίταξα",
+     "κοιτάξω"
+    ],
+    [
+     "φωνάζω *shout, call*",
+     "φώναξα",
+     "φωνάξω"
+    ],
+    [
+     "πειράζω *tease, bother*",
+     "πείραξα",
+     "πειράξω"
+    ],
+    [
+     "τρομάζω *frighten, get scared*",
+     "τρόμαξα",
+     "τρομάξω"
+    ],
+    [
+     "νυστάζω *be sleepy*",
+     "νύσταξα",
+     "νυστάξω"
+    ],
+    [
+     "σφάζω *slaughter*",
+     "έσφαξα",
+     "σφάξω"
+    ],
+    [
+     "στάζω *drip*",
+     "έσταξα",
+     "στάξω"
+    ],
+    [
+     "αγγίζω *touch*",
+     "άγγιξα",
+     "αγγίξω"
+    ],
+    [
+     "στηρίζω *support*",
+     "στήριξα",
+     "στηρίξω"
+    ],
+    [
+     "βουλιάζω *sink*",
+     "βούλιαξα",
+     "βουλιάξω"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "-νω: σ, or no σ at all",
+   "head": [
+    "Present",
+    "Simple past",
+    "θα / να"
+   ],
+   "rows": [
+    [
+     "δένω *tie*",
+     "έδεσα",
+     "δέσω"
+    ],
+    [
+     "λύνω *untie, solve*",
+     "έλυσα",
+     "λύσω"
+    ],
+    [
+     "ντύνω *dress*",
+     "έντυσα",
+     "ντύσω"
+    ],
+    [
+     "χάνω *lose*",
+     "έχασα",
+     "χάσω"
+    ],
+    [
+     "ψήνω *roast, grill*",
+     "έψησα",
+     "ψήσω"
+    ],
+    [
+     "κλείνω *close*",
+     "έκλεισα",
+     "κλείσω"
+    ],
+    [
+     "σβήνω *switch off, erase*",
+     "έσβησα",
+     "σβήσω"
+    ],
+    [
+     "φτάνω *arrive*",
+     "έφτασα",
+     "φτάσω"
+    ],
+    [
+     "πιάνω *catch*",
+     "έπιασα",
+     "πιάσω"
+    ],
+    [
+     "αφήνω *leave, let*",
+     "άφησα",
+     "αφήσω"
+    ],
+    [
+     "*all -ώνω verbs:*",
+     "",
+     ""
+    ],
+    [
+     "πληρώνω *pay*",
+     "πλήρωσα",
+     "πληρώσω"
+    ],
+    [
+     "τελειώνω *finish*",
+     "τελείωσα / τέλειωσα",
+     "τελειώσω"
+    ],
+    [
+     "σηκώνω *lift*",
+     "σήκωσα",
+     "σηκώσω"
+    ],
+    [
+     "μεγαλώνω *grow up*",
+     "μεγάλωσα",
+     "μεγαλώσω"
+    ],
+    [
+     "απλώνω *spread, hang out*",
+     "άπλωσα",
+     "απλώσω"
+    ],
+    [
+     "ενημερώνω *inform*",
+     "ενημέρωσα",
+     "ενημερώσω"
+    ],
+    [
+     "*-ν- kept, no σ:*",
+     "",
+     ""
+    ],
+    [
+     "κρίνω *judge*",
+     "έκρινα",
+     "κρίνω"
+    ],
+    [
+     "μολύνω *pollute, infect*",
+     "μόλυνα",
+     "μολύνω"
+    ],
+    [
+     "ενθαρρύνω *encourage*",
+     "ενθάρρυνα",
+     "ενθαρρύνω"
+    ],
+    [
+     "απομακρύνω *remove*",
+     "απομάκρυνα",
+     "απομακρύνω"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Vowel and dental stems",
+   "head": [
+    "Present",
+    "Simple past",
+    "θα / να"
+   ],
+   "rows": [
+    [
+     "ακούω *hear*",
+     "άκουσα",
+     "ακούσω"
+    ],
+    [
+     "πείθω *persuade*",
+     "έπεισα",
+     "πείσω"
+    ],
+    [
+     "νιώθω *feel*",
+     "ένιωσα",
+     "νιώσω"
+    ],
+    [
+     "επενδύω *invest*",
+     "επένδυσα",
+     "επενδύσω"
+    ],
+    [
+     "ιδρύω *found*",
+     "ίδρυσα",
+     "ιδρύσω"
+    ],
+    [
+     "συνδέω *connect*",
+     "σύνδεσα / συνέδεσα",
+     "συνδέσω"
+    ],
+    [
+     "καίω *burn*",
+     "έκαψα",
+     "κάψω"
+    ],
+    [
+     "κλαίω *cry*",
+     "έκλαψα",
+     "κλάψω"
+    ],
+    [
+     "φταίω *be to blame*",
+     "έφταιξα",
+     "φταίξω"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Second conjugation: -ησα and its exceptions",
+   "head": [
+    "Pattern",
+    "Present → simple past → θα"
+   ],
+   "rows": [
+    [
+     "**-ησ-** (default)",
+     "μιλάω → μίλησα → μιλήσω; ρωτάω → ρώτησα; απαντάω → απάντησα; ζητάω → ζήτησα; βοηθάω → βοήθησα; σταματάω → σταμάτησα; ξυπνάω → ξύπνησα; κρατάω → κράτησα; τηλεφωνώ → τηλεφώνησα; οδηγώ → οδήγησα; προσπαθώ → προσπάθησα; συζητώ → συζήτησα; θεωρώ → θεώρησα; χρησιμοποιώ → χρησιμοποίησα"
+    ],
+    [
+     "**-ασ-**",
+     "γελάω → γέλασα → γελάσω; χαμογελάω → χαμογέλασα; ξεχνάω → ξέχασα; περνάω → πέρασα; ξεπερνάω → ξεπέρασα; κερνάω → κέρασα; πεινάω → πείνασα; διψάω → δίψασα; χαλάω → χάλασα; σπάω → έσπασα; κρεμάω → κρέμασα"
+    ],
+    [
+     "**-εσ-**",
+     "μπορώ → μπόρεσα → μπορέσω; καλώ → κάλεσα; φοράω → φόρεσα; πονάω → πόνεσα; αφαιρώ → αφαίρεσα; αρκώ → άρκεσα; αποτελώ → αποτέλεσα; επαινώ → επαίνεσα; διαρκώ → διάρκεσα"
+    ],
+    [
+     "**-αξ-**",
+     "πετάω → πέταξα → πετάξω; κοιτάω → κοίταξα; βαστάω → βάσταξα"
+    ],
+    [
+     "**-ηξ-**",
+     "τραβάω → τράβηξα → τραβήξω; βουτάω → βούτηξα; πηδάω → πήδηξα; ρουφάω → ρούφηξα; φυσάω → φύσηξα"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Stress and augment",
+   "text": "**Simple past**: the stress falls on the third syllable from the end. If the stem plus ending has only two syllables, an augment **έ-** is added to carry it: γράφ- → **έγραψα**, but **γράψαμε**, **γράψατε**. Verbs starting with a vowel never take it (**άνοιξα, ανοίξαμε**). Longer stems never need it (**δούλεψα, δουλέψαμε; αγόρασα, αγοράσαμε**). The 3rd plural has two forms: **έγραψαν** or **γράψανε**.\n\n**Dependent**: the stress sits on the last syllable of the stem, all through the paradigm: **θα αγοράσω, αγοράσεις, αγοράσουμε**; **να τηλεφωνήσω, τηλεφωνήσουμε**. So the past moves the stress back (**αγόρασα**), and the dependent brings it forward again (**αγοράσω**).\n\n**Compounds** with a learned prefix may take the augment inside the word, between prefix and stem: **υπογράφω → υπέγραψα**, **αναπτύσσω → ανέπτυξα**, **συνδέω → συνέδεσα**. Everyday speech often stresses the prefix instead (**υπόγραψα, σύνδεσα**). The dependent never has an augment: **θα υπογράψω**."
+  },
+  {
+   "type": "table",
+   "title": "One stem through all persons",
+   "head": [
+    "",
+    "γράφω",
+    "αγοράζω",
+    "τηλεφωνώ"
+   ],
+   "rows": [
+    [
+     "past εγώ",
+     "έγραψα",
+     "αγόρασα",
+     "τηλεφώνησα"
+    ],
+    [
+     "past εσύ",
+     "έγραψες",
+     "αγόρασες",
+     "τηλεφώνησες"
+    ],
+    [
+     "past αυτός",
+     "έγραψε",
+     "αγόρασε",
+     "τηλεφώνησε"
+    ],
+    [
+     "past εμείς",
+     "**γράψαμε**",
+     "**αγοράσαμε**",
+     "**τηλεφωνήσαμε**"
+    ],
+    [
+     "past εσείς",
+     "**γράψατε**",
+     "**αγοράσατε**",
+     "**τηλεφωνήσατε**"
+    ],
+    [
+     "past αυτοί",
+     "έγραψαν / γράψανε",
+     "αγόρασαν / αγοράσανε",
+     "τηλεφώνησαν / τηλεφωνήσανε"
+    ],
+    [
+     "θα εγώ",
+     "γράψω",
+     "αγοράσω",
+     "τηλεφωνήσω"
+    ],
+    [
+     "θα εσύ",
+     "γράψεις",
+     "αγοράσεις",
+     "τηλεφωνήσεις"
+    ],
+    [
+     "θα αυτός",
+     "γράψει",
+     "αγοράσει",
+     "τηλεφωνήσει"
+    ],
+    [
+     "θα εμείς",
+     "γράψουμε",
+     "αγοράσουμε",
+     "τηλεφωνήσουμε"
+    ],
+    [
+     "θα εσείς",
+     "γράψετε",
+     "αγοράσετε",
+     "τηλεφωνήσετε"
+    ],
+    [
+     "θα αυτοί",
+     "γράψουν(ε)",
+     "αγοράσουν(ε)",
+     "τηλεφωνήσουν(ε)"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "No stem change: one form, two aspects",
+   "head": [
+    "Present",
+    "Simple past",
+    "θα / να",
+    "Note"
+   ],
+   "rows": [
+    [
+     "κάνω *do, make*",
+     "έκανα",
+     "κάνω",
+     "θα κάνω = 'I'll do' and 'I'll be doing'"
+    ],
+    [
+     "περιμένω *wait*",
+     "περίμενα",
+     "περιμένω",
+     "past looks like the imperfect"
+    ],
+    [
+     "κρίνω *judge*",
+     "έκρινα",
+     "κρίνω",
+     "-ν- stems in -ίνω, -ύνω"
+    ],
+    [
+     "παρκάρω *park*",
+     "πάρκαρα / παρκάρισα",
+     "παρκάρω",
+     "all loan verbs in -άρω"
+    ],
+    [
+     "έχω *have*",
+     "είχα",
+     "έχω",
+     "no perfective: είχα is the imperfect"
+    ],
+    [
+     "ξέρω *know*",
+     "ήξερα",
+     "ξέρω",
+     "no perfective"
+    ],
+    [
+     "είμαι *be*",
+     "ήμουν(α)",
+     "είμαι",
+     "no perfective"
+    ],
+    [
+     "πάω *go*",
+     "πήγα",
+     "πάω",
+     "πάω is both present and dependent"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "One stem, four forms",
+   "items": [
+    {
+     "el": "Χθες έγραψα τρεις σελίδες της εργασίας.",
+     "en": "Yesterday I wrote three pages of the essay."
+    },
+    {
+     "el": "Αύριο θα γράψω το συμπέρασμα.",
+     "en": "Tomorrow I'll write the conclusion."
+    },
+    {
+     "el": "Πρέπει να γράψω και την εισαγωγή πριν από την Παρασκευή.",
+     "en": "I also have to write the introduction before Friday."
+    },
+    {
+     "el": "Γράψε μου ένα μήνυμα όταν φτάσεις.",
+     "en": "Send me a message when you arrive."
+    },
+    {
+     "el": "Έχω ήδη γράψει τη βιβλιογραφία.",
+     "en": "I've already written the bibliography."
+    },
+    {
+     "el": "Τηλεφώνησα στον γιατρό, αλλά θα του ξανατηλεφωνήσω το απόγευμα.",
+     "en": "I called the doctor, but I'll call him again in the afternoon."
+    },
+    {
+     "el": "Αν δεν τηλεφωνήσεις εσύ, θα τηλεφωνήσω εγώ.",
+     "en": "If you don't call, I will."
+    },
+    {
+     "el": "Διάβασες το άρθρο που σου έστειλα; Ας το διαβάσουμε μαζί.",
+     "en": "Did you read the article I sent you? Let's read it together."
+    },
+    {
+     "el": "Δουλέψαμε ως αργά, αλλά αύριο δεν θα δουλέψουμε καθόλου.",
+     "en": "We worked until late, but tomorrow we won't work at all."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "-σα or -ξα in context",
+   "items": [
+    {
+     "el": "Ο Γιάννης αγόρασε καινούργιο κινητό, αλλά δεν άλλαξε αριθμό.",
+     "en": "Yannis bought a new mobile, but he didn't change his number."
+    },
+    {
+     "el": "Τα παιδιά έπαιξαν μπάλα και μετά διάβασαν για το διαγώνισμα.",
+     "en": "The children played football and then studied for the test."
+    },
+    {
+     "el": "Η μητέρα μου ετοίμασε το τραπέζι και φώναξε όλους να φάνε.",
+     "en": "My mother laid the table and called everyone to eat."
+    },
+    {
+     "el": "Κοίταξα από το παράθυρο και τρόμαξα: είχε πέσει πολύ χιόνι.",
+     "en": "I looked out of the window and got a fright: a lot of snow had fallen."
+    },
+    {
+     "el": "Κανείς δεν με στήριξε όταν αποφάσισα να φύγω.",
+     "en": "Nobody supported me when I decided to leave."
+    },
+    {
+     "el": "Δοκίμασα τη σάλτσα και πρόσθεσα λίγο αλάτι.",
+     "en": "I tasted the sauce and added a little salt."
+    },
+    {
+     "el": "Ποιος άγγιξε τα χαρτιά μου;",
+     "en": "Who touched my papers?"
+    },
+    {
+     "el": "Το βράδυ νύσταξα νωρίς και ξάπλωσα στις δέκα.",
+     "en": "In the evening I got sleepy early and lay down at ten."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Second conjugation in context",
+   "items": [
+    {
+     "el": "Μίλησα με τη διευθύντρια και της ζήτησα μια μέρα άδεια.",
+     "en": "I spoke with the director and asked her for a day off."
+    },
+    {
+     "el": "Γελάσαμε τόσο πολύ που ξεχάσαμε την ώρα.",
+     "en": "We laughed so much that we forgot the time."
+    },
+    {
+     "el": "Δεν μπόρεσα να έρθω, γιατί πόνεσε το δόντι μου.",
+     "en": "I couldn't come because my tooth started hurting."
+    },
+    {
+     "el": "Τι φόρεσες τελικά στον γάμο;",
+     "en": "What did you wear to the wedding in the end?"
+    },
+    {
+     "el": "Μας κάλεσαν για φαγητό την Κυριακή.",
+     "en": "They invited us for a meal on Sunday."
+    },
+    {
+     "el": "Πέρασα από το φαρμακείο και μετά κέρασα τη Μαρία έναν καφέ.",
+     "en": "I stopped by the pharmacy and then treated Maria to a coffee."
+    },
+    {
+     "el": "Ο σκύλος πήδηξε τον φράχτη και τράβηξε την μπλούζα μου.",
+     "en": "The dog jumped the fence and pulled at my top."
+    },
+    {
+     "el": "Ο υπολογιστής χάλασε την πιο κρίσιμη στιγμή.",
+     "en": "The computer broke down at the most critical moment."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "When the stem does not change, context decides",
+   "items": [
+    {
+     "el": "Τι θα κάνεις αύριο το απόγευμα;",
+     "en": "What will you do (are you doing) tomorrow afternoon?"
+    },
+    {
+     "el": "Θα κάνω γυμναστική κάθε πρωί από Δευτέρα.",
+     "en": "I'll do exercise every morning from Monday."
+    },
+    {
+     "el": "Θα περιμένω στη στάση μέχρι να έρθεις.",
+     "en": "I'll wait at the stop until you come."
+    },
+    {
+     "el": "Τον περίμενα μισή ώρα και μετά έφυγα.",
+     "en": "I waited for him for half an hour and then left."
+    },
+    {
+     "el": "Θα έχουμε χρόνο να τα πούμε το βράδυ.",
+     "en": "We'll have time to talk in the evening."
+    },
+    {
+     "el": "Θα ξέρω περισσότερα μετά τη συνάντηση.",
+     "en": "I'll know more after the meeting."
+    },
+    {
+     "el": "Παρκάρισα ακριβώς μπροστά στην πόρτα.",
+     "en": "I parked right in front of the door."
+    },
+    {
+     "el": "Θα το κρίνετε εσείς.",
+     "en": "You will be the judge of that."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes.** *έπαισα → **έπαιξα**; *αγόραξα → **αγόρασα**; *άλλασα → **άλλαξα**; *φόρησα → **φόρεσα**; *ξέχνησα → **ξέχασα**; *πλήρωξα → **πλήρωσα**; *δούλευσα → **δούλεψα** (only learned verbs keep -ευσ-: απαγόρευσα).\n\n**Stress.** *εγράψαμε → **γράψαμε** (no augment when the stress has a syllable to sit on); *θα αγόρασω → **θα αγοράσω** (the dependent never takes the past stress); *θα διάβασω → **θα διαβάσω**.\n\n**Wrong stem in the future.** *θα αγοράζω for a single purchase means 'I'll be buying / I'll buy regularly'. One act needs the σ-stem: **θα αγοράσω**."
+  },
+  {
+   "type": "culture",
+   "title": "Παρκάρω, τσεκάρω, σερβίρω",
+   "text": "Greek has borrowed dozens of verbs from Italian and French through the suffix **-άρω** (from Italian -are): **παρκάρω** 'park', **τρακάρω** 'crash', **σερβίρω** 'serve', **τσεκάρω** 'check', **φλερτάρω** 'flirt', **σοκάρω** 'shock'. They ignore the stem rules of this lesson. The dependent is the same as the present (**θα παρκάρω**), and the simple past has two shapes: the short **πάρκαρα** and the very common longer **παρκάρισα**. The extra -ισ- appears only in the singular and 3rd plural, so 'we parked' is always **παρκάραμε**. Purists dislike **σερβίρισα** and **τσεκάρισα**, but you will hear them everywhere."
+  },
+  {
+   "type": "reading",
+   "title": "Η μετακόμιση",
+   "text": "Το περασμένο Σάββατο μετακόμισα. Ξύπνησα στις έξι, ετοίμασα έναν καφέ και μάζεψα τα τελευταία πράγματα από την κουζίνα. Τα πιάτα τα τύλιξα σε εφημερίδες, τα βιβλία τα έκλεισα σε κούτες και πάνω σε κάθε κούτα έγραψα με μαρκαδόρο τι περιέχει.\n\nΣτις εννιά έφτασε το φορτηγό. Οι δύο μεταφορείς σήκωσαν τον καναπέ σαν να ήταν πούπουλο, ενώ εγώ κουβάλησα μόνο μια λάμπα και κουράστηκα. Στη σκάλα ο ένας σκόνταψε, αλλά ευτυχώς δεν έσπασε τίποτα. Μόνο ένα ποτήρι ράγισε.\n\nΣτο καινούργιο σπίτι άνοιξα όλα τα παράθυρα, καθάρισα το πάτωμα και άπλωσα τα χαλιά. Το απόγευμα ψάξαμε μία ώρα το κουτί με τα εργαλεία· τελικά το βρήκαμε στο μπαλκόνι! Πλήρωσα τους μεταφορείς και τους κέρασα από μια μπίρα.\n\nΓύρω στις πέντε χτύπησε το κουδούνι η καινούργια γειτόνισσα. Μου σύστησε τον εαυτό της, μου έφερε ένα κομμάτι πορτοκαλόπιτα και μου εξήγησε πού πετάμε τα σκουπίδια. Τη ρώτησα για τον φούρνο της γειτονιάς και μου τον έδειξε από το μπαλκόνι.\n\nΔεν έχω τελειώσει ακόμα. Αύριο θα κρεμάσω τις κουρτίνες, θα αγοράσω λάμπες και θα αλλάξω την κλειδαριά. Την Κυριακή θα μαγειρέψω για πρώτη φορά στη νέα κουζίνα και θα καλέσω τους φίλους μου να γιορτάσουμε. Θέλω να τους δείξω πόσο φως έχει το σαλόνι και, βέβαια, να τους ζητήσω να με βοηθήσουν με τα ράφια!",
+   "en": "Last Saturday I moved house. I woke up at six, made a coffee and gathered the last things from the kitchen. I wrapped the plates in newspaper, packed the books into boxes and on each box I wrote with a marker what it contains.\n\nAt nine the lorry arrived. The two removal men lifted the sofa as if it were a feather, while I carried just one lamp and got tired. On the stairs one of them tripped, but luckily nothing broke. Only a glass cracked.\n\nIn the new house I opened all the windows, cleaned the floor and spread out the rugs. In the afternoon we looked for the toolbox for an hour; in the end we found it on the balcony! I paid the removal men and bought them a beer each.\n\nAround five the new neighbour rang the bell. She introduced herself, brought me a piece of orange pie and explained where we throw out the rubbish. I asked her about the neighbourhood bakery and she showed it to me from the balcony.\n\nI haven't finished yet. Tomorrow I'll hang the curtains, buy lamps and change the lock. On Sunday I'll cook in the new kitchen for the first time and invite my friends to celebrate. I want to show them how much light the living room gets and, of course, ask them to help me with the shelves!",
+   "gloss": {
+    "μετακόμισα": "μετακομίζω — move house (simple past)",
+    "τύλιξα": "τυλίγω — wrap (simple past)",
+    "κούτες": "κούτα — cardboard box",
+    "κούτα": "κούτα — cardboard box",
+    "μαρκαδόρο": "μαρκαδόρος — marker pen",
+    "περιέχει": "περιέχω — contain",
+    "φορτηγό": "φορτηγό — lorry, truck",
+    "μεταφορείς": "μεταφορέας — removal man",
+    "μεταφορέα": "μεταφορέας — removal man",
+    "πούπουλο": "πούπουλο — feather",
+    "κουβάλησα": "κουβαλάω — carry (simple past)",
+    "κουράστηκα": "κουράζομαι — get tired (simple past)",
+    "σκόνταψε": "σκοντάφτω — trip, stumble (simple past)",
+    "ράγισε": "ραγίζω — crack (simple past)",
+    "άπλωσα": "απλώνω — spread out (simple past)",
+    "χαλιά": "χαλί — rug",
+    "εργαλεία": "εργαλείο — tool",
+    "κέρασα": "κερνάω — treat someone (simple past)",
+    "κρεμάσω": "κρεμάω — hang (dependent)",
+    "κουρτίνες": "κουρτίνα — curtain",
+    "κλειδαριά": "κλειδαριά — lock",
+    "μαγειρέψω": "μαγειρεύω — cook (dependent)",
+    "γιορτάσουμε": "γιορτάζω — celebrate (dependent)",
+    "ράφια": "ράφι — shelf",
+    "καινούργιο": "καινούργιος — new",
+    "καινούργια": "καινούργιος — new",
+    "γειτόνισσα": "γειτόνισσα — (female) neighbour",
+    "κουδούνι": "κουδούνι — doorbell",
+    "σύστησε": "συστήνω — introduce (simple past)",
+    "πορτοκαλόπιτα": "πορτοκαλόπιτα — orange cake made with filo",
+    "εξήγησε": "εξηγώ — explain (simple past)",
+    "σκουπίδια": "σκουπίδια — rubbish"
+   },
+   "questions": [
+    {
+     "prompt": "Τι έγραψε πάνω σε κάθε κούτα;",
+     "answer": "Τι περιέχει.",
+     "options": [
+      "Τι περιέχει.",
+      "Τη νέα διεύθυνση.",
+      "Το όνομα του μεταφορέα."
+     ]
+    },
+    {
+     "prompt": "Τι χάλασε στη σκάλα;",
+     "answer": "Ράγισε ένα ποτήρι.",
+     "options": [
+      "Έσπασε ο καναπές.",
+      "Ράγισε ένα ποτήρι.",
+      "Χάθηκε μια λάμπα."
+     ]
+    },
+    {
+     "prompt": "Πού βρήκαν το κουτί με τα εργαλεία;",
+     "answer": "Στο μπαλκόνι.",
+     "options": [
+      "Στο μπαλκόνι.",
+      "Στην κουζίνα.",
+      "Στο φορτηγό."
+     ]
+    },
+    {
+     "prompt": "Τι έφερε η γειτόνισσα;",
+     "answer": "Ένα κομμάτι πορτοκαλόπιτα.",
+     "options": [
+      "Ένα κομμάτι πορτοκαλόπιτα.",
+      "Μια μπίρα.",
+      "Ένα κουτί με εργαλεία."
+     ]
+    },
+    {
+     "prompt": "Τι θα κάνει την Κυριακή;",
+     "answer": "Θα μαγειρέψει και θα καλέσει φίλους.",
+     "options": [
+      "Θα μαγειρέψει και θα καλέσει φίλους.",
+      "Θα αλλάξει την κλειδαριά.",
+      "Θα κρεμάσει τις κουρτίνες."
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Χθες ___ τα κλειδιά κάτω από το χαλί. (κρύβω, εγώ)",
+     "answer": "έκρυψα",
+     "accept": [
+      "έκρυψα"
+     ],
+     "why": "-β- + σ → ψ; κρυψ-α has two syllables, so the augment έ- carries the stress."
+    },
+    {
+     "prompt": "Αύριο θα τα ___ κάπου αλλού. (κρύβω, εγώ)",
+     "answer": "κρύψω",
+     "accept": [
+      "κρύψω"
+     ],
+     "why": "Same perfective stem κρυψ-, present endings, stress on the last syllable of the stem."
+    },
+    {
+     "prompt": "Πέρσι ___ πολλά λεφτά σε ταξίδια. (ξοδεύω, εμείς)",
+     "answer": "ξοδέψαμε",
+     "accept": [
+      "ξοδέψαμε"
+     ],
+     "why": "-εύω → -εψ-; in the 1st plural the stress moves to the third syllable from the end."
+    },
+    {
+     "prompt": "Φέτος πρέπει να ___ λιγότερα. (ξοδεύω, εμείς)",
+     "answer": "ξοδέψουμε",
+     "accept": [
+      "ξοδέψουμε"
+     ],
+     "why": "να + perfective stem ξοδεψ- + -ουμε."
+    },
+    {
+     "prompt": "Ποιος ___ το παράθυρο; Κάνει κρύο! (ανοίγω)",
+     "answer": "άνοιξε",
+     "accept": [
+      "άνοιξε"
+     ],
+     "why": "-γ- + σ → ξ; vowel-initial verbs never take the augment."
+    },
+    {
+     "prompt": "Τα παιδιά ___ μια ώρα και μετά κοιμήθηκαν. (παίζω)",
+     "answer": "έπαιξαν",
+     "accept": [
+      "έπαιξαν",
+      "παίξανε"
+     ],
+     "why": "παίζω is one of the -ζω verbs with -ξ-: έπαιξα."
+    },
+    {
+     "prompt": "Η πόλη ___ πολύ τα τελευταία χρόνια. (αλλάζω)",
+     "answer": "άλλαξε",
+     "accept": [
+      "άλλαξε"
+     ],
+     "why": "αλλάζω takes -ξ-: άλλαξα."
+    },
+    {
+     "prompt": "Του χρόνου θα ___ σπίτι. (αλλάζω, εμείς)",
+     "answer": "αλλάξουμε",
+     "accept": [
+      "αλλάξουμε"
+     ],
+     "why": "Perfective stem αλλαξ- + -ουμε."
+    },
+    {
+     "prompt": "Χθες ___ ένα ωραίο παλτό. (αγοράζω, εγώ)",
+     "answer": "αγόρασα",
+     "accept": [
+      "αγόρασα"
+     ],
+     "why": "Most -άζω verbs take -σ-; the past puts the stress on the third syllable from the end."
+    },
+    {
+     "prompt": "Τι θα ___ στη μητέρα σου για τη γιορτή της; (αγοράζω, εσύ)",
+     "answer": "αγοράσεις",
+     "accept": [
+      "αγοράσεις"
+     ],
+     "why": "Dependent: stress back on the last syllable of the stem, αγοράσ-."
+    },
+    {
+     "prompt": "Ποιος με ___; Άκουσα το όνομά μου. (φωνάζω)",
+     "answer": "φώναξε",
+     "accept": [
+      "φώναξε"
+     ],
+     "why": "φωνάζω belongs to the -ξ- group."
+    },
+    {
+     "prompt": "Ο σκύλος με ___ στο σκοτάδι. (τρομάζω)",
+     "answer": "τρόμαξε",
+     "accept": [
+      "τρόμαξε"
+     ],
+     "why": "τρομάζω → τρόμαξα, -ξ- group."
+    },
+    {
+     "prompt": "Τελικά ___ να μείνω στην Αθήνα. (αποφασίζω, εγώ)",
+     "answer": "αποφάσισα",
+     "accept": [
+      "αποφάσισα"
+     ],
+     "why": "-ίζω verbs almost always take -σ-."
+    },
+    {
+     "prompt": "Ο παππούς μου ___ αυτό το σπίτι μόνος του. (χτίζω)",
+     "answer": "έχτισε",
+     "accept": [
+      "έχτισε"
+     ],
+     "why": "-ίζω → -ισ-; χτισ-ε needs the augment."
+    },
+    {
+     "prompt": "Πότε θα ___ το διαμέρισμα; (καθαρίζω, εσείς)",
+     "answer": "καθαρίσετε",
+     "accept": [
+      "καθαρίσετε"
+     ],
+     "why": "Perfective stem καθαρισ- + -ετε."
+    },
+    {
+     "prompt": "Χθες ___ τον λογαριασμό του ρεύματος. (πληρώνω, εγώ)",
+     "answer": "πλήρωσα",
+     "accept": [
+      "πλήρωσα"
+     ],
+     "why": "All -ώνω verbs: ν drops, σ is added."
+    },
+    {
+     "prompt": "Πότε θα ___ τη δουλειά; (τελειώνω, εσύ)",
+     "answer": "τελειώσεις",
+     "accept": [
+      "τελειώσεις"
+     ],
+     "why": "τελειώνω → τελειωσ-; dependent stressed on -ώ-."
+    },
+    {
+     "prompt": "Ποιος ___ το φως; (σβήνω)",
+     "answer": "έσβησε",
+     "accept": [
+      "έσβησε"
+     ],
+     "why": "vowel + ν → σ: έσβησα."
+    },
+    {
+     "prompt": "Το τρένο ___ με μισή ώρα καθυστέρηση. (φτάνω)",
+     "answer": "έφτασε",
+     "accept": [
+      "έφτασε"
+     ],
+     "why": "φτάνω → έφτασα."
+    },
+    {
+     "prompt": "Δεν θα σε ___ να φύγεις έτσι. (αφήνω, εγώ)",
+     "answer": "αφήσω",
+     "accept": [
+      "αφήσω"
+     ],
+     "why": "αφήνω → αφησ-, dependent αφήσω."
+    },
+    {
+     "prompt": "Μας ___ καφέ ο Γιώργος. (κερνάω)",
+     "answer": "κέρασε",
+     "accept": [
+      "κέρασε"
+     ],
+     "why": "κερνάω is a -ασ- exception: κέρασα."
+    },
+    {
+     "prompt": "___ το όνομά του! Πώς τον λένε; (ξεχνάω, εγώ)",
+     "answer": "Ξέχασα",
+     "accept": [
+      "Ξέχασα"
+     ],
+     "why": "ξεχνάω drops the ν and takes -ασ-: ξέχασα."
+    },
+    {
+     "prompt": "Ο υπολογιστής ___ πάλι. (χαλάω)",
+     "answer": "χάλασε",
+     "accept": [
+      "χάλασε"
+     ],
+     "why": "χαλάω → χάλασα, -ασ- group."
+    },
+    {
+     "prompt": "Δεν ___ να έρθω χθες. (μπορώ, εγώ)",
+     "answer": "μπόρεσα",
+     "accept": [
+      "μπόρεσα"
+     ],
+     "why": "μπορώ is a -εσ- exception: μπόρεσα."
+    },
+    {
+     "prompt": "Τι θα ___ απόψε στη γιορτή; (φοράω, εσύ)",
+     "answer": "φορέσεις",
+     "accept": [
+      "φορέσεις"
+     ],
+     "why": "φοράω → φορεσ- (-εσ- group): θα φορέσεις."
+    },
+    {
+     "prompt": "Μας ___ στον γάμο τους. (καλώ, αυτοί)",
+     "answer": "κάλεσαν",
+     "accept": [
+      "κάλεσαν",
+      "καλέσανε"
+     ],
+     "why": "καλώ → κάλεσα, -εσ- group."
+    },
+    {
+     "prompt": "Ποιος σου ___ ; (τηλεφωνώ)",
+     "answer": "τηλεφώνησε",
+     "accept": [
+      "τηλεφώνησε"
+     ],
+     "why": "Default second conjugation: -ησ-."
+    },
+    {
+     "prompt": "Θα σου ___ αύριο το πρωί. (απαντάω, εγώ)",
+     "answer": "απαντήσω",
+     "accept": [
+      "απαντήσω"
+     ],
+     "why": "απαντάω → απαντησ-; dependent stressed on -ή-."
+    },
+    {
+     "prompt": "___ την πόρτα, αλλά δεν άνοιξε. (τραβάω, εγώ)",
+     "answer": "Τράβηξα",
+     "accept": [
+      "Τράβηξα"
+     ],
+     "why": "τραβάω is an -ηξ- verb: τράβηξα."
+    },
+    {
+     "prompt": "Γιατί ___ το ψωμί; Ήταν φρέσκο! (πετάω, εσύ)",
+     "answer": "πέταξες",
+     "accept": [
+      "πέταξες"
+     ],
+     "why": "πετάω → πέταξα, -αξ- group."
+    },
+    {
+     "prompt": "Ποιος σας ___ ελληνικά; (διδάσκω)",
+     "answer": "δίδαξε",
+     "accept": [
+      "δίδαξε"
+     ],
+     "why": "-σκ- + σ → ξ: δίδαξα."
+    },
+    {
+     "prompt": "Χθες ___ τρεις ώρες στη στάση. (περιμένω, εγώ)",
+     "answer": "περίμενα",
+     "accept": [
+      "περίμενα"
+     ],
+     "why": "περιμένω has no separate perfective stem; the past is περίμενα."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Χθες ___ τάβλι με τον παππού.",
+     "answer": "έπαιξα",
+     "options": [
+      "έπαιξα",
+      "έπαισα",
+      "έπαιζσα"
+     ],
+     "why": "παίζω is in the -ξ- group of -ζω verbs."
+    },
+    {
+     "prompt": "Πού ___ αυτά τα παπούτσια;",
+     "answer": "αγόρασες",
+     "options": [
+      "αγόρασες",
+      "αγόραξες",
+      "αγοράσες"
+     ],
+     "why": "αγοράζω takes -σ-, with the past stress on the third syllable from the end."
+    },
+    {
+     "prompt": "Τι ___ στη συνέντευξη;",
+     "answer": "φόρεσες",
+     "options": [
+      "φόρεσες",
+      "φόρησες",
+      "φόραξες"
+     ],
+     "why": "φοράω is a -εσ- exception."
+    },
+    {
+     "prompt": "Τον ___ πριν από πέντε χρόνια.",
+     "answer": "γνώρισα",
+     "options": [
+      "γνώρισα",
+      "γνώριξα",
+      "γνωρίσα"
+     ],
+     "why": "-ίζω → -ισ-, stress on the third syllable from the end."
+    },
+    {
+     "prompt": "Οι φίλοι μου με ___ σε όλη τη δύσκολη περίοδο.",
+     "answer": "στήριξαν",
+     "options": [
+      "στήριξαν",
+      "στήρισαν",
+      "στηρίσαν"
+     ],
+     "why": "στηρίζω is one of the few -ίζω verbs with -ξ-."
+    },
+    {
+     "prompt": "Το υπουργείο ___ τη χρήση του νερού για πισίνες.",
+     "answer": "απαγόρευσε",
+     "options": [
+      "απαγόρευσε",
+      "απαγόρεψε",
+      "απαγόρησε"
+     ],
+     "why": "Learned -εύω verbs keep -ευσ-."
+    },
+    {
+     "prompt": "Τελικά πού ___ ; (δουλεύω, εσείς)",
+     "answer": "δουλέψατε",
+     "options": [
+      "δουλέψατε",
+      "δούλεψατε",
+      "εδουλέψατε"
+     ],
+     "why": "1st/2nd plural: stress on the third syllable from the end, and no augment."
+    },
+    {
+     "prompt": "Αύριο θα ___ το άρθρο.",
+     "answer": "διαβάσω",
+     "options": [
+      "διαβάσω",
+      "διάβασω",
+      "διαβάζσω"
+     ],
+     "why": "The dependent is stressed on the last syllable of the stem."
+    },
+    {
+     "prompt": "Γελάσαμε τόσο που ___ τα προβλήματά μας.",
+     "answer": "ξεχάσαμε",
+     "options": [
+      "ξεχάσαμε",
+      "ξεχνήσαμε",
+      "ξέχασαμε"
+     ],
+     "why": "ξεχνάω → ξεχασ-; 1pl stressed on the third syllable from the end."
+    },
+    {
+     "prompt": "Το παιδί ___ πάνω στο κρεβάτι.",
+     "answer": "πήδηξε",
+     "options": [
+      "πήδηξε",
+      "πήδασε",
+      "πήδεσε"
+     ],
+     "why": "πηδάω takes -ηξ- (πήδησε also exists)."
+    }
+   ]
+  },
+  {
+   "gen": "aorist-person",
+   "n": 4
+  },
+  {
+   "gen": "future-person",
+   "n": 4
+  }
+ ],
+ "vocab": [
+  "μαζεύω",
+  "ξοδεύω",
+  "κρύβω",
+  "ψάχνω",
+  "τρομάζω",
+  "πειράζω",
+  "σηκώνω",
+  "ετοιμάζω",
+  "κερνάω",
+  "χαλάω",
+  "μεγαλώνω",
+  "πλησιάζω"
+ ]
+}

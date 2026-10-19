@@ -1,0 +1,816 @@
+{
+ "el": "Ο τονισμός στην κλίση",
+ "title": "Stress movement in declension",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Three forces that move the stress",
+   "text": "Most declension errors made by advanced learners are not wrong endings but **wrong stress**: *του άνθρωπου, *των ελπιδών, *των ομορφών γυναικών. The stress moves for three reasons, and you can learn to predict each of them.\n\n**1. The three-syllable window.** Greek stress can never fall further back than the third syllable from the end. When an ending adds a syllable to a word stressed on the third-to-last, the stress must move right: **ό**νομα → ο**νό**ματα, **φού**ρναρης → φουρ**νά**ρηδες, **μά**θημα → μα**θή**ματος.\n\n**2. The learned 'long' endings -ου, -ων, -ους.** In nouns of learned origin stressed on the third-to-last, these endings pull the stress to the second-to-last syllable: **άν**θρωπος → αν**θρώ**που, αν**θρώ**πους, αν**θρώ**πων; **θέ**ατρο → θε**ά**τρου; **έ**δαφος → ε**δά**φους. Popular words and compounds resist: του κα**λό**γερου, του **σύν**νεφου.\n\n**3. The genitive plural -ών.** Large classes put the genitive-plural stress on the ending itself: all parisyllabic masculines in -ης (μαθητών, εργατών), most feminines in -α and -η (θαλασσών, τεχνών), neuter -ος (λαθών), and a short list of -ας nouns (αντρών, μηνών).\n\nAdjectives, by contrast, are conservative: **they keep the stress where the masculine nominative has it**, whatever the ending."
+  },
+  {
+   "type": "table",
+   "title": "Stress movement, class by class",
+   "head": [
+    "Class",
+    "Example",
+    "What moves",
+    "Result"
+   ],
+   "rows": [
+    [
+     "-ος / -ο, stress on the last two syllables",
+     "ουρανός, δρόμος, βιβλίο",
+     "nothing",
+     "ουρανού, δρόμων, βιβλίων"
+    ],
+    [
+     "-ος / -ο, third-to-last, learned",
+     "άνθρωπος, μέθοδος, θέατρο",
+     "gen. sg., acc. pl. (m/f), gen. pl. → second-to-last",
+     "ανθρώπου, μεθόδους, θεάτρων"
+    ],
+    [
+     "-ος / -ο, third-to-last, popular",
+     "καλόγερος, σύννεφο, Στέφανος",
+     "nothing",
+     "καλόγερου, σύννεφων, Στέφανου"
+    ],
+    [
+     "-ας, second-to-last",
+     "πατέρας, αγώνας",
+     "nothing",
+     "πατέρων, αγώνων"
+    ],
+    [
+     "-ας, third-to-last",
+     "γείτονας, Έλληνας",
+     "gen. pl. → second-to-last",
+     "γειτόνων, Ελλήνων"
+    ],
+    [
+     "-ίας, -ίστας, άντρας, μήνας",
+     "ταμίας, τουρίστας",
+     "gen. pl. → ending",
+     "ταμιών, τουριστών, αντρών"
+    ],
+    [
+     "-ης (parisyllabic)",
+     "μαθητής, εργάτης",
+     "gen. pl. → ending",
+     "μαθητών, εργατών"
+    ],
+    [
+     "imparisyllabic -δες",
+     "παπάς, μανάβης, φούρναρης",
+     "plural: vowel before -δες stressed",
+     "παπάδες, μανάβηδες, φουρνάρηδες"
+    ],
+    [
+     "-άδα, -ίδα, -όνα, μητέρα",
+     "ελπίδα, εικόνα",
+     "nothing",
+     "ελπίδων, εικόνων"
+    ],
+    [
+     "-ότητα, -ύτητα",
+     "ταυτότητα",
+     "gen. pl. → second-to-last",
+     "ταυτοτήτων"
+    ],
+    [
+     "other -α",
+     "θάλασσα, ώρα, ιδέα",
+     "gen. pl. → ending",
+     "θαλασσών, ωρών, ιδεών"
+    ],
+    [
+     "-η / -ες",
+     "τέχνη, αρχή",
+     "gen. pl. → ending",
+     "τεχνών, αρχών"
+    ],
+    [
+     "-η / -εις, 3+ syllables",
+     "κυβέρνηση, απόφαση",
+     "whole plural (and formal gen. sg.) one syllable right",
+     "κυβερνήσεις, αποφάσεων"
+    ],
+    [
+     "-ι (neuter)",
+     "σπίτι, κορίτσι",
+     "both genitives → ending",
+     "σπιτιού, κοριτσιών"
+    ],
+    [
+     "-μα",
+     "όνομα, σώμα",
+     "window: one right; gen. pl. on -μά-",
+     "ονόματος, σωμάτων"
+    ],
+    [
+     "neuter -ος",
+     "λάθος, έδαφος",
+     "gen. pl. → ending; 3 syllables: gen. sg. and pl. → second-to-last",
+     "λαθών, εδάφους, εδάφη"
+    ],
+    [
+     "-ον (neuter)",
+     "ενδιαφέρον, καθήκον",
+     "gen. pl. → second-to-last",
+     "ενδιαφερόντων, καθηκόντων"
+    ]
+   ]
+  },
+  {
+   "type": "rules",
+   "title": "A decision procedure for any noun",
+   "items": [
+    "**Step 1. Class.** Read gender and class from the article and the ending of the nominative singular.",
+    "**Step 2. Locate the stress** in the nominative singular: last, second-to-last or third-to-last syllable.",
+    "**Step 3. On the last syllable?** It stays on the ending in every form: ουρανού, καρδιών, παιδιού, οδών. Imparisyllabics just add -δες after the stressed vowel (παπάδες, καφέδες), and consonant stems keep the stress on the same syllable (γεγονός → γεγονότος).",
+    "**Step 4. Genitive plural check.** Masculine -ης (parisyllabic), -ίας, -ίστας, άντρας, μήνας; feminine -α (except -άδα, -ίδα, -όνα, μητέρα, -ότητα) and -η/-ες; neuter -ος → the genitive plural is **-ών**.",
+    "**Step 5. Third-to-last and an ending in -ου, -ων, -ους?** If the noun is learned or abstract (άνθρωπος, πόλεμος, κίνδυνος, θέατρο, μέθοδος, έδαφος) → move to the second-to-last. If it is a popular word, compound or first name (καλόγερος, σύννεφο, Θόδωρος) → leave it.",
+    "**Step 6. Does the ending add a syllable?** (-ματος, -ματα, -ηδες, -ίματος.) Move right as far as needed to stay inside the last three syllables: ονόματα, φουρνάρηδες, πλυσίματος.",
+    "**Step 7. Neuter -ι or -ί?** Both genitives are stressed on the ending: σπιτιού, σπιτιών.",
+    "**Step 8. Is it an adjective?** Then nothing moves (του άγριου, των όμορφων), unless it is a learned adjective in -ής/-ές or a participle in -ων (ακριβούς, επειγόντων)."
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Adjectives never move (almost)",
+   "text": "Adjectives in **-ος, -η/-α, -ο** keep the stress on the same syllable in all forms: ο **ό**μορφος, του **ό**μορφου, των **ό**μορφων; ο **ά**γριος, της **ά**γριας, των **ά**γριων; ο **έ**ξυπνος, τους **έ**ξυπνους. Above all, the **feminine genitive plural of an adjective is never stressed on -ών** unless the adjective is already stressed on the end: των **όμορφων** γυναικών, των **ωραίων** ημερών, των **κίτρινων** σελίδων, but των **καλών** ιδεών, των **σοβαρών** αποφάσεων. Put an adjective and a noun side by side and they often behave differently: των **ωραίων** θαλασ**σών**, των **άγριων** αν**θρώ**πων.\n\nThe exceptions are learned: adjectives in **-ής, -ές** (ο ακριβής, του ακριβούς; neuter το σύνηθες against ο συνήθης), participles in **-ων** (ο επείγων, των επειγόντων), and a few frozen phrases from church and formal language, where older shifted forms survive: **του Αγίου Νικολάου, του Αγίου Όρους**, formal των πλουσίων χωρών beside everyday των πλούσιων χωρών. When you build a phrase yourself, keep adjective stress fixed."
+  },
+  {
+   "type": "table",
+   "title": "Noun or adjective? Minimal pairs",
+   "head": [
+    "Word",
+    "Kind",
+    "gen. sg.",
+    "gen. pl."
+   ],
+   "rows": [
+    [
+     "ο κάτοικος",
+     "noun (learned)",
+     "**κατοίκου**",
+     "**κατοίκων**"
+    ],
+    [
+     "ο όμορφος",
+     "adjective",
+     "όμορφου",
+     "όμορφων"
+    ],
+    [
+     "ο άνθρωπος",
+     "noun (learned)",
+     "**ανθρώπου**",
+     "**ανθρώπων**"
+    ],
+    [
+     "ο άγριος",
+     "adjective",
+     "άγριου",
+     "άγριων"
+    ],
+    [
+     "η θάλασσα",
+     "noun",
+     "θάλασσας",
+     "**θαλασσών**"
+    ],
+    [
+     "η όμορφη",
+     "adjective (fem.)",
+     "όμορφης",
+     "όμορφων"
+    ],
+    [
+     "η ώρα",
+     "noun",
+     "ώρας",
+     "**ωρών**"
+    ],
+    [
+     "η ωραία",
+     "adjective (fem.)",
+     "ωραίας",
+     "ωραίων"
+    ],
+    [
+     "η πόλη",
+     "noun",
+     "πόλης",
+     "πόλεων"
+    ],
+    [
+     "η καλή",
+     "adjective (fem.), final stress",
+     "καλής",
+     "καλών"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Stress contrasts in one sentence",
+   "items": [
+    {
+     "el": "Ο αριθμός των κατοίκων μειώνεται κάθε χρόνο.",
+     "en": "The number of residents falls every year."
+    },
+    {
+     "el": "Η ομορφιά των ελληνικών θαλασσών είναι γνωστή σε όλο τον κόσμο.",
+     "en": "The beauty of the Greek seas is known all over the world."
+    },
+    {
+     "el": "Τα σπίτια των πλούσιων οικογενειών βρίσκονταν στα βόρεια προάστια.",
+     "en": "The houses of the wealthy families were in the northern suburbs."
+    },
+    {
+     "el": "Η επιτροπή συζήτησε τις αποφάσεις των τελευταίων κυβερνήσεων.",
+     "en": "The committee discussed the decisions of the last few governments."
+    },
+    {
+     "el": "Ο δάσκαλος διόρθωσε τα λάθη των μαθητών στα γραπτά των εξετάσεων.",
+     "en": "The teacher corrected the pupils' mistakes in the exam papers."
+    },
+    {
+     "el": "Το εκκλησάκι του Αγίου Νικολάου είναι στην άκρη του λιμανιού.",
+     "en": "The little church of St Nicholas is at the edge of the harbour."
+    },
+    {
+     "el": "Τα όνειρα των νέων ανθρώπων δεν μοιάζουν με τα όνειρα των μεγαλύτερων.",
+     "en": "The dreams of young people are not like the dreams of older ones."
+    },
+    {
+     "el": "Η φωνή των άγριων πουλιών ακουγόταν από το δάσος.",
+     "en": "The call of the wild birds could be heard from the forest."
+    },
+    {
+     "el": "Οι τιμές των εισιτηρίων του θεάτρου ανέβηκαν.",
+     "en": "The theatre ticket prices went up."
+    },
+    {
+     "el": "Τα ονόματα των ηρώων γράφτηκαν στο μνημείο της πλατείας.",
+     "en": "The names of the heroes were written on the monument in the square."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Popular and learned side by side",
+   "items": [
+    {
+     "el": "Η γιορτή του Στέφανου είναι στις 27 Δεκεμβρίου.",
+     "en": "Stefanos's name day is on 27 December. (popular name: fixed stress)"
+    },
+    {
+     "el": "Το κελί του καλόγερου ήταν μικρό και κρύο.",
+     "en": "The monk's cell was small and cold. (fixed)"
+    },
+    {
+     "el": "Το σχήμα του σύννεφου άλλαζε κάθε λεπτό.",
+     "en": "The shape of the cloud changed every minute. (fixed)"
+    },
+    {
+     "el": "Τα αίτια του πολέμου συζητιούνται ακόμα.",
+     "en": "The causes of the war are still debated. (learned: πολέμου)"
+    },
+    {
+     "el": "Η σκηνή του θεάτρου φωτίστηκε ξαφνικά.",
+     "en": "The theatre stage suddenly lit up. (learned: θεάτρου)"
+    },
+    {
+     "el": "Η έκταση του εδάφους είναι μεγάλη.",
+     "en": "The area of the land is large. (learned: εδάφους)"
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**The eight stress errors to stop making.**\n\n1. *του άνθρωπου → **ανθρώπου** (and θορύβου, κινδύνου, πολέμου).\n\n2. *των ελπιδών, *των εβδομαδών → **ελπίδων, εβδομάδων**.\n\n3. *των θάλασσων, *των γυναίκων → **θαλασσών, γυναικών**.\n\n4. *των ταυτότητων → **ταυτοτήτων**.\n\n5. *των πατερών → **πατέρων**, but *των εργάτων → **εργατών**.\n\n6. *οι κυβέρνησεις → **κυβερνήσεις**; *των πολεών → **των πόλεων**.\n\n7. *του όνοματος, *των μάθηματων, *του σπίτιου → **ονόματος, μαθημάτων, σπιτιού**.\n\n8. *των ομορφών γυναικών, *του αγρίου ζώου → **των όμορφων γυναικών, του άγριου ζώου**."
+  },
+  {
+   "type": "culture",
+   "title": "Why ανθρώπου? An ancient rule, still at work",
+   "text": "The stress shifts you are learning are fossils of Ancient Greek. There the accent could fall no further back than the third syllable from the end, and could not fall there at all if the last vowel was long. The endings **-ου, -ων, -ους** had long vowels, so **ἄνθρωπος** became **ἀνθρώπου**. Modern Greek no longer has long vowels, but learned words kept the old forms, while everyday words regularised (του καλόγερου). The breathings and the three accent marks were abolished in **1982**, when the **μονοτονικό** system with a single **τόνος** became official."
+  },
+  {
+   "type": "reading",
+   "title": "Τα νησιά τον χειμώνα",
+   "text": "Τον Αύγουστο τα νησιά του Αιγαίου είναι γεμάτα. Στα λιμάνια περιμένουν χιλιάδες επισκέπτες, οι ταβέρνες σερβίρουν μέχρι τις δύο τα ξημερώματα και οι τιμές των δωματίων φτάνουν στα ύψη. Τον Ιανουάριο όμως η εικόνα αλλάζει εντελώς.\n\nΣε ένα μικρό νησί των Κυκλάδων ο αριθμός των κατοίκων πέφτει από τρεις χιλιάδες σε τριακόσιους. Μένουν οι ψαράδες, οι δάσκαλοι του σχολείου, η γιατρός του κέντρου υγείας και λίγες οικογένειες. Τα περισσότερα μαγαζιά της παραλίας κλείνουν, και τα φώτα των ξενοδοχείων σβήνουν μέχρι την άνοιξη.\n\nΓια τους ανθρώπους που μένουν, ο χειμώνας έχει τους δικούς του κινδύνους. Όταν φυσάει δυνατός βοριάς, τα πλοία δεν φεύγουν από τον Πειραιά και το νησί μένει χωρίς εφημερίδες, φάρμακα και φρέσκα προϊόντα για μέρες. Οι ηλικιωμένοι ανησυχούν για την υγεία τους, οι γονείς για το σχολείο των παιδιών.\n\nΠαρ’ όλα αυτά, πολλοί λένε ότι προτιμούν τους μήνες του χειμώνα. Οι γείτονες βρίσκουν χρόνο για κουβέντα, οι παππούδες λένε ιστορίες του παρελθόντος στο καφενείο και τα παιδιά παίζουν ελεύθερα στους άδειους δρόμους. «Το καλοκαίρι το νησί ανήκει στους ξένους», λέει μια γυναίκα του χωριού. «Τον χειμώνα ανήκει σε μας.»\n\nΤα τελευταία χρόνια ο δήμος προσπαθεί να κρατήσει τους νέους με προγράμματα για τις μικρές επιχειρήσεις και καλύτερες συνδέσεις με την ηπειρωτική χώρα.",
+   "en": "In August the Aegean islands are full. Thousands of visitors wait in the harbours, the tavernas serve until two in the morning and room prices go sky-high. In January, though, the picture changes completely.\n\nOn a small island in the Cyclades the number of residents falls from three thousand to three hundred. The fishermen stay, the schoolteachers, the (woman) doctor at the health centre and a few families. Most of the shops on the beach close, and the hotel lights go out until spring.\n\nFor the people who stay, winter has its own dangers. When a strong north wind blows, the boats do not leave Piraeus and the island is left without newspapers, medicines and fresh produce for days. The elderly worry about their health, parents about their children's school.\n\nEven so, many say they prefer the winter months. Neighbours find time to chat, grandfathers tell stories of the past at the café and the children play freely in the empty streets. 'In summer the island belongs to the outsiders,' says a woman from the village. 'In winter it belongs to us.'\n\nIn recent years the municipality has been trying to keep young people there with programmes for small businesses and better connections with the mainland.",
+   "gloss": {
+    "Αιγαίου": "Αιγαίο — the Aegean (Sea) (gen.)",
+    "ταβέρνες": "ταβέρνα — tavern (pl.)",
+    "ξημερώματα": "ξημερώματα — the small hours, dawn",
+    "τρεις": "τρεις — three",
+    "Τρεις": "τρεις — three",
+    "τριακόσιους": "τριακόσιοι — three hundred",
+    "τριακόσιοι": "τριακόσιοι — three hundred",
+    "περισσότερα": "περισσότερος — more, most",
+    "περισσότεροι": "περισσότερος — more, most",
+    "φώτα": "φως — light (pl. φώτα)",
+    "βοριάς": "βοριάς — north wind",
+    "γονείς": "γονέας — parent (pl. γονείς)",
+    "Παρ’": "παρ’ όλα αυτά — even so, nevertheless",
+    "καφενείο": "καφενείο — traditional café",
+    "ηπειρωτική": "ηπειρωτικός — mainland (adj.); ηπειρωτική χώρα 'the mainland'",
+    "Κανένας": "κανένας — nobody, none",
+    "Κυκλάδων": "Κυκλάδες — the Cyclades (gen.)",
+    "ψαράδες": "ψαράς — fisherman (pl. ψαράδες)",
+    "φυσάει": "φυσάω — (of wind) to blow",
+    "Πειραιά": "Πειραιάς — Piraeus (acc.)",
+    "άλλον": "άλλος — other; ο ένας τον άλλον 'each other'"
+   },
+   "questions": [
+    {
+     "prompt": "Πόσοι κάτοικοι μένουν στο νησί τον χειμώνα;",
+     "answer": "Περίπου τριακόσιοι",
+     "options": [
+      "Περίπου τριακόσιοι",
+      "Τρεις χιλιάδες",
+      "Κανένας"
+     ]
+    },
+    {
+     "prompt": "Τι συμβαίνει όταν φυσάει δυνατός βοριάς;",
+     "answer": "Τα πλοία δεν φεύγουν από τον Πειραιά",
+     "options": [
+      "Τα πλοία δεν φεύγουν από τον Πειραιά",
+      "Κλείνει το κέντρο υγείας",
+      "Έρχονται περισσότεροι επισκέπτες"
+     ]
+    },
+    {
+     "prompt": "Γιατί πολλοί προτιμούν τον χειμώνα;",
+     "answer": "Γιατί οι άνθρωποι έχουν χρόνο ο ένας για τον άλλον",
+     "options": [
+      "Γιατί οι άνθρωποι έχουν χρόνο ο ένας για τον άλλον",
+      "Γιατί οι τιμές των δωματίων είναι χαμηλές",
+      "Γιατί ο καιρός είναι πάντα καλός"
+     ]
+    },
+    {
+     "prompt": "Τι προσπαθεί να κάνει ο δήμος;",
+     "answer": "Να κρατήσει τους νέους στο νησί",
+     "options": [
+      "Να κρατήσει τους νέους στο νησί",
+      "Να χτίσει νέα ξενοδοχεία",
+      "Να φέρει τουρίστες τον χειμώνα"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "n": 28,
+   "items": [
+    {
+     "prompt": "Ο ήχος του ___ (ο θόρυβος)",
+     "answer": "θορύβου",
+     "accept": [
+      "θορύβου"
+     ],
+     "why": "Learned proparoxytone: -ου pulls the stress to the second-to-last."
+    },
+    {
+     "prompt": "Ο αριθμός των ___ (ο κάτοικος)",
+     "answer": "κατοίκων",
+     "accept": [
+      "κατοίκων"
+     ],
+     "why": "κάτοικος → κατοίκων."
+    },
+    {
+     "prompt": "Η μέρα του ___ (ο Στέφανος)",
+     "answer": "Στέφανου",
+     "accept": [
+      "Στέφανου"
+     ],
+     "why": "Popular first names keep a fixed stress."
+    },
+    {
+     "prompt": "Το καταστατικό του ___ (ο σύλλογος)",
+     "answer": "συλλόγου",
+     "accept": [
+      "συλλόγου"
+     ],
+     "why": "σύλλογος → συλλόγου."
+    },
+    {
+     "prompt": "Τα φώτα των ___ (ο διάδρομος)",
+     "answer": "διαδρόμων",
+     "accept": [
+      "διαδρόμων"
+     ],
+     "why": "διάδρομος → διαδρόμων."
+    },
+    {
+     "prompt": "Στις αρχές του ___ (ο Ιανουάριος)",
+     "answer": "Ιανουαρίου",
+     "accept": [
+      "Ιανουαρίου"
+     ],
+     "why": "Months follow άνθρωπος: Ιανουαρίου."
+    },
+    {
+     "prompt": "Η μάχη των ___ (ο αιώνας)",
+     "answer": "αιώνων",
+     "accept": [
+      "αιώνων"
+     ],
+     "why": "Penult-stressed -ας: no movement."
+    },
+    {
+     "prompt": "Η ιστορία των ___ (ο Έλληνας)",
+     "answer": "Ελλήνων",
+     "accept": [
+      "Ελλήνων"
+     ],
+     "why": "Antepenult -ας: gen. pl. on the second-to-last."
+    },
+    {
+     "prompt": "Η έκθεση των ___ (ο πίνακας)",
+     "answer": "πινάκων",
+     "accept": [
+      "πινάκων"
+     ],
+     "why": "πίνακας → πινάκων."
+    },
+    {
+     "prompt": "Τα ονόματα των ___ (ο ήρωας)",
+     "answer": "ηρώων",
+     "accept": [
+      "ηρώων"
+     ],
+     "why": "ήρωας → ηρώων."
+    },
+    {
+     "prompt": "Η ποίηση των ___ (ο ποιητής)",
+     "answer": "ποιητών",
+     "accept": [
+      "ποιητών"
+     ],
+     "why": "-ης: gen. pl. always -ών."
+    },
+    {
+     "prompt": "Η ασφάλεια των ___ (ο επιβάτης)",
+     "answer": "επιβατών",
+     "accept": [
+      "επιβατών"
+     ],
+     "why": "επιβάτης → επιβατών."
+    },
+    {
+     "prompt": "Οι ___ της γειτονιάς (ο φούρναρης)",
+     "answer": "φουρνάρηδες",
+     "accept": [
+      "φουρνάρηδες"
+     ],
+     "why": "The added syllable forces the stress right: φουρνάρηδες."
+    },
+    {
+     "prompt": "Η ενημέρωση των ___ (ο ταμίας)",
+     "answer": "ταμιών",
+     "accept": [
+      "ταμιών"
+     ],
+     "why": "-ίας → -ιών."
+    },
+    {
+     "prompt": "Τα κανάλια των ___ (η ταινία)",
+     "answer": "ταινιών",
+     "accept": [
+      "ταινιών"
+     ],
+     "why": "Ordinary -α: gen. pl. -ών."
+    },
+    {
+     "prompt": "Οι προπονητές των ___ (η ομάδα)",
+     "answer": "ομάδων",
+     "accept": [
+      "ομάδων"
+     ],
+     "why": "-άδα: no movement."
+    },
+    {
+     "prompt": "Η αξιοποίηση των ___ (η δυνατότητα)",
+     "answer": "δυνατοτήτων",
+     "accept": [
+      "δυνατοτήτων"
+     ],
+     "why": "-ότητα → -οτήτων."
+    },
+    {
+     "prompt": "Η ανάλυση των ___ (η κατάσταση)",
+     "answer": "καταστάσεων",
+     "accept": [
+      "καταστάσεων"
+     ],
+     "why": "-ση, 3+ syllables: the plural moves right, gen. pl. -εων."
+    },
+    {
+     "prompt": "Δύσκολες ___ (η κατάσταση, pl.)",
+     "answer": "καταστάσεις",
+     "accept": [
+      "καταστάσεις"
+     ],
+     "why": "κατάσταση → καταστάσεις."
+    },
+    {
+     "prompt": "Η κατασκευή των ___ (η γέφυρα)",
+     "answer": "γεφυρών",
+     "accept": [
+      "γεφυρών"
+     ],
+     "why": "Ordinary -α: γεφυρών."
+    },
+    {
+     "prompt": "Η συλλογή των ___ (η εικόνα)",
+     "answer": "εικόνων",
+     "accept": [
+      "εικόνων"
+     ],
+     "why": "-όνα: no movement."
+    },
+    {
+     "prompt": "Το μέλι των ___ (η μέλισσα)",
+     "answer": "μελισσών",
+     "accept": [
+      "μελισσών"
+     ],
+     "why": "-ισσα nouns: gen. pl. -ών."
+    },
+    {
+     "prompt": "Ο έλεγχος των ___ (η τράπεζα)",
+     "answer": "τραπεζών",
+     "accept": [
+      "τραπεζών"
+     ],
+     "why": "τράπεζα → τραπεζών."
+    },
+    {
+     "prompt": "Οι φύλακες των ___ (η είσοδος)",
+     "answer": "εισόδων",
+     "accept": [
+      "εισόδων"
+     ],
+     "why": "Feminine -ος shifts like άνθρωπος."
+    },
+    {
+     "prompt": "Το χαμόγελο του ___ (το πρόσωπο)",
+     "answer": "προσώπου",
+     "accept": [
+      "προσώπου"
+     ],
+     "why": "Learned proparoxytone -ο: προσώπου."
+    },
+    {
+     "prompt": "Το άρωμα του ___ (το τριαντάφυλλο)",
+     "answer": "τριαντάφυλλου",
+     "accept": [
+      "τριαντάφυλλου"
+     ],
+     "why": "Popular compound: fixed stress."
+    },
+    {
+     "prompt": "Η λίστα των ___ (το όνομα)",
+     "answer": "ονομάτων",
+     "accept": [
+      "ονομάτων"
+     ],
+     "why": "-μα: gen. pl. -μάτων."
+    },
+    {
+     "prompt": "Τα σεντόνια του ___ (το κρεβάτι)",
+     "answer": "κρεβατιού",
+     "accept": [
+      "κρεβατιού"
+     ],
+     "why": "-ι nouns: genitive on the ending."
+    },
+    {
+     "prompt": "Ο Οργανισμός Ηνωμένων ___ (το έθνος)",
+     "answer": "Εθνών",
+     "accept": [
+      "Εθνών"
+     ],
+     "why": "Neuter -ος: gen. pl. -ών."
+    },
+    {
+     "prompt": "Το χρώμα του ___ (το πέλαγος)",
+     "answer": "πελάγους",
+     "accept": [
+      "πελάγους"
+     ],
+     "why": "Three-syllable neuter -ος: πελάγους."
+    },
+    {
+     "prompt": "Η κίνηση των ___ (το αυτοκίνητο)",
+     "answer": "αυτοκινήτων",
+     "accept": [
+      "αυτοκινήτων"
+     ],
+     "why": "αυτοκίνητο → αυτοκινήτων."
+    },
+    {
+     "prompt": "Η προστασία των ___ ζώων (άγριος)",
+     "answer": "άγριων",
+     "accept": [
+      "άγριων"
+     ],
+     "why": "Adjectives keep the stress fixed: άγριων."
+    },
+    {
+     "prompt": "Ο κόσμος της ___ φύσης (άγριος)",
+     "answer": "άγριας",
+     "accept": [
+      "άγριας"
+     ],
+     "why": "Adjective: no stress movement."
+    },
+    {
+     "prompt": "Οι αναμνήσεις των ___ ημερών (ωραίος)",
+     "answer": "ωραίων",
+     "accept": [
+      "ωραίων"
+     ],
+     "why": "Adjective fem. gen. pl. keeps the stress: ωραίων."
+    },
+    {
+     "prompt": "Η λύση των ___ προβλημάτων (σοβαρός)",
+     "answer": "σοβαρών",
+     "accept": [
+      "σοβαρών"
+     ],
+     "why": "Final-stressed adjectives stay on the ending."
+    },
+    {
+     "prompt": "Οι φωτογραφίες των ___ γυναικών (όμορφος)",
+     "answer": "όμορφων",
+     "accept": [
+      "όμορφων"
+     ],
+     "why": "Adjectives never take -ών unless already final-stressed."
+    },
+    {
+     "prompt": "Η γνώμη των ___ μαθητών (έξυπνος)",
+     "answer": "έξυπνων",
+     "accept": [
+      "έξυπνων"
+     ],
+     "why": "Adjective: έξυπνων, never *εξύπνων."
+    },
+    {
+     "prompt": "Τα φύλλα των ___ βιβλίων (κίτρινος)",
+     "answer": "κίτρινων",
+     "accept": [
+      "κίτρινων"
+     ],
+     "why": "Adjective: κίτρινων."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "Η ζωή ___ αλλάζει γρήγορα.",
+     "answer": "των ανθρώπων",
+     "options": [
+      "των ανθρώπων",
+      "των άνθρωπων",
+      "των ανθρωπών"
+     ],
+     "why": "Learned proparoxytone: ανθρώπων."
+    },
+    {
+     "prompt": "Η φωνή ___ γυναικών",
+     "answer": "των όμορφων",
+     "options": [
+      "των όμορφων",
+      "των ομορφών",
+      "των ομόρφων"
+     ],
+     "why": "Adjectives keep their stress."
+    },
+    {
+     "prompt": "Ποια μορφή είναι λάθος;",
+     "answer": "των ελπιδών",
+     "options": [
+      "των ελπιδών",
+      "των ωρών",
+      "των εβδομάδων"
+     ],
+     "why": "-ίδα nouns keep the stress: ελπίδων."
+    },
+    {
+     "prompt": "Ποιο ουσιαστικό ΔΕΝ βάζει τον τόνο στο -ών στη γενική πληθυντικού;",
+     "answer": "ο πατέρας",
+     "options": [
+      "ο πατέρας",
+      "ο μαθητής",
+      "η ώρα"
+     ],
+     "why": "Penult-stressed -ας keeps it: πατέρων."
+    },
+    {
+     "prompt": "Το ύφος του ___",
+     "answer": "κειμένου",
+     "options": [
+      "κειμένου",
+      "κείμενου",
+      "κειμενού"
+     ],
+     "why": "κείμενο is learned: κειμένου."
+    },
+    {
+     "prompt": "Ο αριθμός των ___",
+     "answer": "σελίδων",
+     "options": [
+      "σελίδων",
+      "σελιδών",
+      "σέλιδων"
+     ],
+     "why": "-ίδα: no movement."
+    },
+    {
+     "prompt": "Η αμοιβή των ___",
+     "answer": "ταμιών",
+     "options": [
+      "ταμιών",
+      "ταμίων",
+      "τάμιων"
+     ],
+     "why": "-ίας → -ιών."
+    },
+    {
+     "prompt": "Η εκκλησία ___",
+     "answer": "του Αγίου Νικολάου",
+     "options": [
+      "του Αγίου Νικολάου",
+      "του Άγιου Νικόλαου",
+      "του Αγίου Νικόλαου"
+     ],
+     "why": "Frozen church phrase with learned shifts in both words."
+    },
+    {
+     "prompt": "Η σύγκριση των ___",
+     "answer": "απόψεων",
+     "options": [
+      "απόψεων",
+      "αποψών",
+      "άποψεων"
+     ],
+     "why": "-ψη/-εις family: απόψεις, απόψεων."
+    },
+    {
+     "prompt": "Όλα τα ___ λύθηκαν.",
+     "answer": "προβλήματα",
+     "options": [
+      "προβλήματα",
+      "πρόβληματα",
+      "προβλημάτα"
+     ],
+     "why": "The window forces the stress right: προβλήματα."
+    }
+   ]
+  },
+  {
+   "gen": "decline",
+   "cells": [
+    "sg.gen",
+    "pl.gen"
+   ],
+   "n": 10
+  },
+  {
+   "gen": "adj-agree",
+   "ids": [
+    "ψηλός",
+    "τέλειος"
+   ],
+   "n": 6
+  }
+ ],
+ "vocab": [
+  "κάτοικος",
+  "υπάλληλος",
+  "άποψη",
+  "σημαία",
+  "οικογένεια",
+  "πρόοδος",
+  "πίνακας",
+  "κανόνας",
+  "μέλος",
+  "τέλος",
+  "ήρωας",
+  "άγριος"
+ ]
+}

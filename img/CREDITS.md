@@ -1,0 +1,21 @@
+# Photo credits
+
+All photos are from Wikimedia Commons, center-cropped to 16:9 and resized to 1200 px wide for mobile. Adapted CC BY-SA photos remain under the same license.
+
+| File | Subject | Author | License | Source |
+|---|---|---|---|---|
+| acropolis.jpg | Η Ακρόπολη, Αθήνα | A.Savin | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [File:Attica 06-13 Athens 50 View from Philopappos - Acropolis Hill.jpg](https://commons.wikimedia.org/wiki/File:Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg) |
+| oia.jpg | Οία, Σαντορίνη | Giles Laurent | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [File:1000 Three domes of Oia in Santorini Photo by Giles Laurent.jpg](https://commons.wikimedia.org/wiki/File:1000_Three_domes_of_Oia_in_Santorini_Photo_by_Giles_Laurent.jpg) |
+| delphi.jpg | Η Θόλος, Δελφοί | Bernard Gagnon | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [File:Tholos of Delphi 03.jpg](https://commons.wikimedia.org/wiki/File:Tholos_of_Delphi_03.jpg) |
+| plaka.jpg | Πλάκα, Αθήνα | C messier | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [File:Πλάκα 6166.jpg](https://commons.wikimedia.org/wiki/File:%CE%A0%CE%BB%CE%AC%CE%BA%CE%B1_6166.jpg) |
+| meteora.jpg | Μονή Βαρλαάμ, Μετέωρα | Berthold Werner | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [File:Moni Varlaam BW 2017-10-07 09-09-52.jpg](https://commons.wikimedia.org/wiki/File:Moni_Varlaam_BW_2017-10-07_09-09-52.jpg) |
+| thessaloniki.jpg | Ο Λευκός Πύργος, Θεσσαλονίκη | Berthold Werner | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [File:Tessaloniki BW 2017-10-05 18-22-47.jpg](https://commons.wikimedia.org/wiki/File:Tessaloniki_BW_2017-10-05_18-22-47.jpg) |
+| chania.jpg | Το ενετικό λιμάνι, Χανιά | Ввласенко | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [File:Harbor, Venetian shipyards and Lighthouse in Chania. Crete, Greece.jpg](https://commons.wikimedia.org/wiki/File:Harbor,_Venetian_shipyards_and_Lighthouse_in_Chania._Crete,_Greece.jpg) |
+| navagio.jpg | Ναυάγιο, Ζάκυνθος | kallerna | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [File:Navagio beach Zakynthos 3.jpg](https://commons.wikimedia.org/wiki/File:Navagio_beach_Zakynthos_3.jpg) |
+| mykonos.jpg | Οι ανεμόμυλοι, Μύκονος | Bernard Gagnon | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [File:Windmills in Mykonos 02.jpg](https://commons.wikimedia.org/wiki/File:Windmills_in_Mykonos_02.jpg) |
+| corfu.jpg | Το Παλαιό Φρούριο, Κέρκυρα | Martin Falbisoner | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [File:The Old Fortress and the Old Town of Corfu - September 2017.jpg](https://commons.wikimedia.org/wiki/File:The_Old_Fortress_and_the_Old_Town_of_Corfu_-_September_2017.jpg) |
+| zagori.jpg | Γεφύρι των Κήπων, Ζαγόρι | Erik1980 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [File:Zagori - Kipi bridge.JPG](https://commons.wikimedia.org/wiki/File:Zagori_-_Kipi_bridge.JPG) |
+| lindos.jpg | Ακρόπολη της Λίνδου, Ρόδος | Manfred Werner (Tsui) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [File:Lindos Acropolis Ακρόπολη της Λίνδου Rhodes Ρόδος 2019-11-24 24.jpg](https://commons.wikimedia.org/wiki/File:Lindos_Acropolis_%CE%91%CE%BA%CF%81%CF%8C%CF%80%CE%BF%CE%BB%CE%B7_%CF%84%CE%B7%CF%82_%CE%9B%CE%AF%CE%BD%CE%B4%CE%BF%CF%85_Rhodes_%CE%A1%CF%8C%CE%B4%CE%BF%CF%82_2019-11-24_24.jpg) |
+| hydra.jpg | Το λιμάνι της Ύδρας | Matti Blume (MB-one) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [File:Hydra Harbour 2013.JPG](https://commons.wikimedia.org/wiki/File:Hydra_Harbour_2013.JPG) |
+| rhodes.jpg | Το λιμάνι της Ρόδου | Jebulon | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [File:Trou hole walls muraille Rhodes Port Harbour.jpg](https://commons.wikimedia.org/wiki/File:Trou_hole_walls_muraille_Rhodes_Port_Harbour.jpg) |
+| karystos.jpg | Μπούρτζι, Κάρυστος | Jebulon | [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) | [File:Bourtzi castle harbour Karystos Euboea Greece.jpg](https://commons.wikimedia.org/wiki/File:Bourtzi_castle_harbour_Karystos_Euboea_Greece.jpg) |

@@ -1,0 +1,466 @@
+{
+ "el": "Αδύνατες αντωνυμίες",
+ "title": "Weak object pronouns and their position",
+ "section": "A2 · Holton §4.1",
+ "goal": "Use με, σε, τον, του, μου… in the right case and the right place.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Everyday Greek replaces objects with short unstressed pronouns that cling to the verb. The **accusative** set is the direct object (Τον ξέρω 'I know him'); the **genitive** set is the indirect object (Του μιλάω 'I talk to him') and also the possessive after a noun (ο φίλος του). Getting the case right is half the work; position is the other half."
+  },
+  {
+   "type": "table",
+   "title": "Weak pronouns",
+   "head": [
+    "",
+    "acc. (direct)",
+    "gen. (indirect / possessive)"
+   ],
+   "rows": [
+    [
+     "1sg",
+     "με",
+     "μου"
+    ],
+    [
+     "2sg",
+     "σε",
+     "σου"
+    ],
+    [
+     "3sg m / f / n",
+     "τον / τη(ν) / το",
+     "του / της / του"
+    ],
+    [
+     "1pl",
+     "μας",
+     "μας"
+    ],
+    [
+     "2pl",
+     "σας",
+     "σας"
+    ],
+    [
+     "3pl m / f / n",
+     "τους / τις / τα",
+     "τους"
+    ]
+   ],
+   "cite": "Holton §4.1"
+  },
+  {
+   "type": "rules",
+   "title": "Position",
+   "src": "grammar/pronouns-holton.json#weak_personal.position.rules",
+   "pick": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "cite": "Holton §4.1"
+  },
+  {
+   "type": "examples",
+   "src": "grammar/pronouns-holton.json#weak_personal.position.examples",
+   "limit": 8,
+   "cite": "Holton §4.1"
+  },
+  {
+   "type": "culture",
+   "title": "Phone calls: σε παίρνω, σου τηλεφωνώ",
+   "text": "Greek has two everyday ways to say 'call someone', and they take different cases. **Τηλεφωνώ** takes the genitive: **Σου τηλεφώνησα** 'I called you'. The more colloquial **παίρνω τηλέφωνο** takes the accusative: **Σε πήρα τηλέφωνο**, or just **Θα σε πάρω** 'I'll call you'. People answer with **Ναι;**, **Παρακαλώ** or **Λέγετε**, and friends often with **Έλα**. A deliberate **αναπάντητη** 'missed call' is a free signal: **Κάνε μου μια αναπάντητη όταν φτάσεις** 'Give me a missed call when you get there'. The call ends with **Τα λέμε!** 'Talk soon!'"
+  },
+  {
+   "type": "callout",
+   "text": "**Verbs that take the genitive where English has a direct object:** τηλεφωνώ (Του τηλεφώνησα 'I phoned him'), αρέσει (Μου αρέσει 'I like it', literally 'it pleases to me'), λείπει (Μου λείπεις 'I miss you'). Learn these as chunks."
+  },
+  {
+   "type": "reading",
+   "title": "Το δώρο της Κατερίνας",
+   "text": "— Νίκο, ξέρεις ότι η Κατερίνα έχει γενέθλια το Σάββατο;\n\n— Ναι, μου το είπε ο Γιώργος χθες. Της πήρες δώρο;\n\n— Όχι ακόμα. Σκέφτηκα ένα βιβλίο, αλλά δεν ξέρω αν της αρέσει το διάβασμα.\n\n— Της αρέσει πολύ! Την είδα στο μετρό με ένα βιβλίο στο χέρι την περασμένη εβδομάδα.\n\n— Ωραία. Ποιο βιβλίο όμως; Εσύ την ξέρεις καλύτερα.\n\n— Μου είπε κάποτε ότι θέλει να διαβάσει Καζαντζάκη. Πάρε της τον «Ζορμπά». Θα τον λατρέψει.\n\n— Καλή ιδέα! Θα τον αγοράσω αύριο. Μπορείς να τον τυλίξεις εσύ; Εγώ δεν ξέρω να τυλίγω δώρα.\n\n— Εντάξει, φέρ' τον μου την Παρασκευή. Και μην της πεις τίποτα, θέλουμε να είναι έκπληξη!\n\n— Δεν θα της πω λέξη. Αλλά ο Γιώργος; Αυτός τα λέει όλα!\n\n— Θα του τηλεφωνήσω απόψε και θα του το εξηγήσω.",
+   "en": "— Nikos, do you know it's Katerina's birthday on Saturday?\n\n— Yes, Giorgos told me yesterday. Have you got her a present?\n\n— Not yet. I thought of a book, but I don't know if she likes reading.\n\n— She loves it! I saw her on the metro with a book in her hand last week.\n\n— Great. But which book? You know her better.\n\n— She once told me she wants to read Kazantzakis. Get her 'Zorba'. She'll adore it.\n\n— Good idea! I'll buy it tomorrow. Can you wrap it? I don't know how to wrap presents.\n\n— Fine, bring it to me on Friday. And don't tell her anything, we want it to be a surprise!\n\n— I won't say a word to her. But what about Giorgos? He tells everyone everything!\n\n— I'll phone him tonight and explain it to him.",
+   "gloss": {
+    "Κατερίνα": "Κατερίνα — Katerina (woman's name)",
+    "Γιώργος": "Γιώργος — Giorgos (man's name)",
+    "Γιώργο": "Γιώργος — Giorgos (man's name), accusative",
+    "Νίκο": "Νίκος — Nikos (man's name), vocative/accusative",
+    "Νίκος": "Νίκος — Nikos (man's name)",
+    "Καζαντζάκη": "Καζαντζάκης — Nikos Kazantzakis, Cretan novelist (accusative/genitive)",
+    "Ζορμπά": "Ζορμπάς — 'Zorba the Greek', Kazantzakis's novel (accusative)",
+    "τυλίξεις": "τυλίγω — to wrap (perfective, 2sg: να τον τυλίξεις 'that you wrap it')",
+    "τυλίγω": "τυλίγω — to wrap",
+    "τυλίξει": "τυλίγω — to wrap (perfective, 3sg)",
+    "φέρ": "φέρνω — bring (imperative φέρε, shortened before a pronoun: φέρ' τον μου 'bring it to me')",
+    "λατρέψει": "λατρεύω — to adore (perfective, 3sg: θα τον λατρέψει 'she'll love it')",
+    "Σκέφτηκα": "σκέφτομαι — to think (simple past: I thought of)",
+    "διάβασμα": "διάβασμα — reading (the activity)"
+   },
+   "questions": [
+    {
+     "prompt": "Πότε έχει γενέθλια η Κατερίνα;",
+     "answer": "Το Σάββατο",
+     "options": [
+      "Το Σάββατο",
+      "Την Παρασκευή",
+      "Αύριο"
+     ]
+    },
+    {
+     "prompt": "Ποιος θα τυλίξει το δώρο;",
+     "answer": "Ο Νίκος",
+     "options": [
+      "Ο Νίκος",
+      "Ο Γιώργος",
+      "Η Κατερίνα"
+     ]
+    },
+    {
+     "prompt": "Τι δώρο θα της πάρουν;",
+     "answer": "Ένα βιβλίο του Καζαντζάκη",
+     "options": [
+      "Ένα βιβλίο του Καζαντζάκη",
+      "Ένα εισιτήριο για το μετρό",
+      "Ένα βιβλίο για δώρα"
+     ]
+    },
+    {
+     "prompt": "Γιατί θα τηλεφωνήσει ο Νίκος στον Γιώργο;",
+     "answer": "Για να μην πει τίποτα στην Κατερίνα",
+     "options": [
+      "Για να μην πει τίποτα στην Κατερίνα",
+      "Για να αγοράσει το βιβλίο",
+      "Για να τον καλέσει στο πάρτι"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "mc",
+   "n": 14,
+   "items": [
+    {
+     "prompt": "I see her: ___ βλέπω.",
+     "answer": "Τη",
+     "options": [
+      "Τη",
+      "Της",
+      "Την την"
+     ],
+     "why": "Direct object, feminine: τη(ν)."
+    },
+    {
+     "prompt": "I phoned him: ___ τηλεφώνησα.",
+     "answer": "Του",
+     "options": [
+      "Του",
+      "Τον",
+      "Τους"
+     ],
+     "why": "τηλεφωνώ takes the genitive."
+    },
+    {
+     "prompt": "I like the music: ___ αρέσει η μουσική.",
+     "answer": "Μου",
+     "options": [
+      "Μου",
+      "Με",
+      "Εγώ"
+     ],
+     "why": "αρέσει: the person who likes is genitive."
+    },
+    {
+     "prompt": "I miss you (sg.): ___ λείπεις.",
+     "answer": "Μου",
+     "options": [
+      "Μου",
+      "Σου",
+      "Με"
+     ],
+     "why": "Literally 'you are missing to me'."
+    },
+    {
+     "prompt": "Give it to me!",
+     "answer": "Δώσ' το μου!",
+     "options": [
+      "Δώσ' το μου!",
+      "Μου το δώσε!",
+      "Το μου δώσε!"
+     ],
+     "why": "With an imperative the pronouns follow the verb."
+    },
+    {
+     "prompt": "I told you (it).",
+     "answer": "Σου το είπα.",
+     "options": [
+      "Σου το είπα.",
+      "Το σου είπα.",
+      "Είπα σου το."
+     ],
+     "why": "Before the verb, genitive first, then accusative."
+    },
+    {
+     "prompt": "Don't show them (n.) to me!",
+     "answer": "Μη μου τα δείξεις!",
+     "options": [
+      "Μη μου τα δείξεις!",
+      "Μη δείξεις μου τα!",
+      "Μη τα μου δείξεις!"
+     ],
+     "why": "With μη(ν) + subjunctive the pronouns stay before the verb."
+    },
+    {
+     "prompt": "I won't see them (m.).",
+     "answer": "Δεν θα τους δω.",
+     "options": [
+      "Δεν θα τους δω.",
+      "Δεν τους θα δω.",
+      "Θα δεν τους δω."
+     ],
+     "why": "Nothing between pronoun and verb, and δεν θα comes first."
+    },
+    {
+     "prompt": "their house",
+     "answer": "το σπίτι τους",
+     "options": [
+      "το σπίτι τους",
+      "το τους σπίτι",
+      "τους σπίτι"
+     ],
+     "why": "The possessive follows the noun."
+    },
+    {
+     "prompt": "our new house",
+     "answer": "το καινούριο μας σπίτι",
+     "options": [
+      "το καινούριο μας σπίτι",
+      "το μας καινούριο σπίτι",
+      "μας το καινούριο σπίτι"
+     ],
+     "why": "It may follow an adjective: Holton §4.1."
+    },
+    {
+     "prompt": "Look at me!",
+     "answer": "Κοίταξέ με!",
+     "options": [
+      "Κοίταξέ με!",
+      "Με κοίταξε!",
+      "Κοίταξε μου!"
+     ],
+     "why": "Imperative + pronoun, and a second accent appears on the verb."
+    },
+    {
+     "prompt": "Do you know them (f.)? Yes, I know them.",
+     "answer": "Ναι, τις ξέρω.",
+     "options": [
+      "Ναι, τις ξέρω.",
+      "Ναι, τες ξέρω.",
+      "Ναι, ξέρω τις."
+     ],
+     "why": "Before the verb only τις is possible."
+    },
+    {
+     "prompt": "I'm writing to my mother: ___ γράφω της μητέρας μου.",
+     "answer": "Της",
+     "options": [
+      "Της",
+      "Την",
+      "Τη"
+     ],
+     "why": "Indirect object doubled by a genitive pronoun; in speech σε + acc. is more common (Γράφω στη μητέρα μου)."
+    },
+    {
+     "prompt": "She is older than him.",
+     "answer": "Είναι μεγαλύτερή του.",
+     "options": [
+      "Είναι μεγαλύτερή του.",
+      "Είναι μεγαλύτερη τον.",
+      "Του είναι μεγαλύτερη."
+     ],
+     "why": "After a comparative the genitive pronoun gives the second term."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Replace the object with a pronoun: Βλέπω **τη Μαρία**.",
+     "answer": "Τη βλέπω.",
+     "accept": [
+      "Τη βλέπω",
+      "Την βλέπω"
+     ],
+     "why": "A direct object becomes accusative τη(ν) and goes before the verb."
+    },
+    {
+     "prompt": "Replace with a pronoun: Μιλάω **στον Πέτρο**.",
+     "answer": "Του μιλάω.",
+     "accept": [
+      "Του μιλάω",
+      "Του μιλώ"
+     ],
+     "why": "σε + noun (indirect object) becomes the genitive pronoun του."
+    },
+    {
+     "prompt": "Replace both objects: Δίνω **το κλειδί** **στη μητέρα μου**.",
+     "answer": "Της το δίνω.",
+     "accept": [
+      "Της το δίνω"
+     ],
+     "why": "Two pronouns before the verb: genitive (της) first, then accusative (το)."
+    },
+    {
+     "prompt": "Replace both objects: Θα στείλω **τα γράμματα** **στους φίλους μου**.",
+     "answer": "Θα τους τα στείλω.",
+     "accept": [
+      "Θα τους τα στείλω"
+     ],
+     "why": "θα + genitive + accusative + verb: nothing else may come between θα and the verb."
+    },
+    {
+     "prompt": "Say in Greek: *Call me!* (sg., παίρνω τηλέφωνο)",
+     "answer": "Πάρε με τηλέφωνο!",
+     "accept": [
+      "Πάρε με τηλέφωνο",
+      "Πάρε με"
+     ],
+     "why": "After an imperative the pronoun follows; παίρνω τηλέφωνο takes the accusative (με)."
+    },
+    {
+     "prompt": "Say in Greek: *I phoned her.* (τηλεφωνώ)",
+     "answer": "Της τηλεφώνησα.",
+     "accept": [
+      "Της τηλεφώνησα"
+     ],
+     "why": "τηλεφωνώ takes the genitive: της, not τη."
+    },
+    {
+     "prompt": "Say in Greek: *Do you like it?* (sg., αρέσει)",
+     "answer": "Σου αρέσει;",
+     "accept": [
+      "Σου αρέσει"
+     ],
+     "why": "The person who likes is genitive (σου); the thing liked is the subject."
+    },
+    {
+     "prompt": "Say in Greek: *We miss them (m.).*",
+     "answer": "Μας λείπουν.",
+     "accept": [
+      "Μας λείπουν"
+     ],
+     "why": "With λείπω the people missed are the subject (λείπουν) and the person missing them is genitive (μας)."
+    },
+    {
+     "prompt": "Say in Greek: *Don't wait for me!* (sg.)",
+     "answer": "Μη με περιμένεις!",
+     "accept": [
+      "Μη με περιμένεις",
+      "Μην με περιμένεις"
+     ],
+     "why": "With μη(ν) the pronoun stays before the verb; περιμένω takes a direct object (με)."
+    },
+    {
+     "prompt": "Say in Greek: *Tell it to them!* (sg., λέω)",
+     "answer": "Πες τους το!",
+     "accept": [
+      "Πες τους το",
+      "Πες το τους"
+     ],
+     "why": "After the imperative both pronouns follow the verb: genitive τους + accusative το (or το τους)."
+    },
+    {
+     "prompt": "Χθες ___ είδα στον δρόμο. (*you*, sg.)",
+     "answer": "σε",
+     "accept": [
+      "σε"
+     ],
+     "why": "Direct object of βλέπω: 2sg accusative σε."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "___ βοήθησα με τα μαθήματα. (*him*)",
+     "answer": "Τον",
+     "options": [
+      "Τον",
+      "Του",
+      "Το"
+     ],
+     "why": "βοηθώ takes a direct object, so accusative τον (English 'help' has no 'to' either)."
+    },
+    {
+     "prompt": "___ ρώτησα τι ώρα είναι. (*her*)",
+     "answer": "Τη",
+     "options": [
+      "Τη",
+      "Της",
+      "Την της"
+     ],
+     "why": "In standard Greek ρωτάω takes the person in the accusative: Τη ρώτησα."
+    },
+    {
+     "prompt": "*I'll give it to you.*",
+     "answer": "Θα σου το δώσω.",
+     "options": [
+      "Θα σου το δώσω.",
+      "Θα το σου δώσω.",
+      "Σου θα το δώσω."
+     ],
+     "why": "θα, then genitive, then accusative, then the verb."
+    },
+    {
+     "prompt": "*Wait for me!*",
+     "answer": "Περίμενέ με!",
+     "options": [
+      "Περίμενέ με!",
+      "Με περίμενε!",
+      "Περίμενε μου!"
+     ],
+     "why": "The pronoun follows the imperative; a second accent appears when the stress is on the third syllable from the end."
+    },
+    {
+     "prompt": "___ αρέσουν τα ταξίδια. (*them*, f.)",
+     "answer": "Τους",
+     "options": [
+      "Τους",
+      "Τις",
+      "Τα"
+     ],
+     "why": "The 3rd plural genitive is τους for all genders; τις and τα are accusative."
+    },
+    {
+     "prompt": "Ποιος σου το είπε; — ___ είπε η Μαρία.",
+     "answer": "Μου το",
+     "options": [
+      "Μου το",
+      "Με το",
+      "Το μου"
+     ],
+     "why": "Indirect object genitive μου first, then direct object το."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "δώρο",
+  "γενέθλια",
+  "βιβλίο",
+  "τηλεφωνώ",
+  "αρέσω",
+  "λείπω",
+  "δίνω",
+  "λέω",
+  "ξέρω",
+  "ιδέα",
+  "έκπληξη",
+  "περιμένω"
+ ]
+}

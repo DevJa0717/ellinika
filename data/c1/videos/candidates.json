@@ -1,0 +1,70 @@
+{
+ "candidates": [
+  {
+   "id": "c1-cretan-dialect",
+   "url": "https://www.youtube.com/watch?v=aQ6m4fGTkoo",
+   "title": "Μία ξεχωριστή διάλεκτος, τα κρητικά! | Georgios Limantzakis | TEDxChania",
+   "why": "Language/dialectology topic, but the Amara Greek transcript (233 lines) has no timings, so cues cannot be placed."
+  },
+  {
+   "id": "c1-alexiadou",
+   "url": "https://www.youtube.com/watch?v=GZiDhKPaeCc",
+   "title": "Greek language in motion | Artemis Alexiadou | TEDxAthens",
+   "why": "Ideal linguistics topic, but not on Amara; YouTube caption tracks could not be read from this environment (YouTube bot-check on watch pages), so no timed Greek cues."
+  },
+  {
+   "id": "c1-mpampiniotis-action24",
+   "url": "https://www.youtube.com/watch?v=67CnsjjVUz0",
+   "title": "Γιώργος Μπαμπινιώτης: Γιατί τα ελληνικά είναι η γλώσσα που μας ενώνει | ACTION 24",
+   "why": "Linguist interview, 16 min; YouTube captions not reachable from here (bot-check). Retry with yt-dlp from a normal connection."
+  },
+  {
+   "id": "c1-ert-istorikoi-peripatoi-katochi",
+   "url": "https://www.youtube.com/watch?v=2QwJ8HXsJOU",
+   "title": "Ιστορικοί Περίπατοι | «Η εμπειρία της Κατοχής και της Αντίστασης στην Αθήνα» | ΕΡΤ",
+   "why": "ERT history documentary (60 min; pick a 5-10 min excerpt). Captions not reachable from here; ERT uploads often carry Greek auto-captions."
+  },
+  {
+   "id": "c1-ert-fasma-gambler",
+   "url": "https://www.youtube.com/watch?v=qd1PoRNpR4g",
+   "title": "Η πλάνη του τζογαδόρου | Φάσμα | ΕΡΤ",
+   "why": "ERT science programme on the gambler's fallacy; captions not reachable from here."
+  },
+  {
+   "id": "c1-ahrweiler",
+   "url": "https://www.youtube.com/watch?v=dyi5MAVBYuQ",
+   "title": "Το παρελθόν έχει μέλλον; | Helene Glykatzi-Ahrweiler | TEDxUniversityofCrete",
+   "why": "Byzantinist on history; not found on Amara and YouTube captions unreachable here."
+  },
+  {
+   "id": "c1-kalyvas",
+   "url": "https://www.youtube.com/watch?v=HMRlmg0oOdE",
+   "title": "Αποτυχίες | Stathis Kalyvas | TEDxPatras",
+   "why": "Political scientist; not found on Amara and YouTube captions unreachable here."
+  },
+  {
+   "id": "c1-vlavianos-poetry",
+   "url": "https://www.youtube.com/watch?v=RSWSo1zTM8o",
+   "title": "Does poetry need defending? | Haris Vlavianos | TEDxPatras",
+   "why": "Poet on poetry (in Greek); not found on Amara and YouTube captions unreachable here."
+  },
+  {
+   "id": "c1-mitsotakis-2020-address",
+   "url": "https://commons.wikimedia.org/wiki/File:Μήνυμα_του_Πρωθυπουργού_Κυριάκου_Μητσοτάκη_προς_τους_πολίτες_22_Μαρτίου_2020.webm",
+   "title": "Μήνυμα του Πρωθυπουργού Κυριάκου Μητσοτάκη προς τους πολίτες, 22 Μαρτίου 2020",
+   "why": "7:16 formal political address (COVID lockdown) with timed Greek subtitles on Wikimedia Commons (TimedText). Not built: political speech rather than intellectual talk, Commons file is webm (would need kind \"mp4\" with a webm URL or a transcode), and the Commons API was rate-limiting so licence/derivative URLs were not confirmed."
+  },
+  {
+   "id": "c1-anti-bullying-conference-2016",
+   "url": "https://commons.wikimedia.org/wiki/File:International_Conference_\"Anti-Bullying_Practices_2016\"_20-09-16_(WCSAG).ogv",
+   "title": "«Λημματογράφηση κατά του εκφοβισμού στη Βικιπαίδεια», Διεθνές Συνέδριο Anti-Bullying Practices 2016",
+   "why": "9.5 min Greek conference talk with timed Greek subtitles on Commons (ogv). Not built for the same Commons/format reasons; lower production quality."
+  },
+  {
+   "id": "more-greek-tedx",
+   "url": "https://amara.org/api/videos/?team=ted-videos&primary_audio_language_code=el",
+   "title": "About 270 more Greek-audio TEDx talks with human Greek subtitles",
+   "why": "See amara-greek-tedx-index.json in this folder: each one can be built the same way (fetch el subtitles JSON, merge into sentences, pick an excerpt, translate)."
+  }
+ ]
+}

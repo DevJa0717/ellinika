@@ -1,0 +1,266 @@
+{
+ "source": "Poulopoulou, Modern Greek: Grammar Notes for Absolute Beginners (A1-A2), ΣΕΑΒ/Kallipos 2015, CC BY-NC-SA 3.0 GR (upload 8e8e722c), Chapter 5 (book pp. 66-81)",
+ "variety": "Standard Modern Greek",
+ "cases_covered": [
+  "nom",
+  "acc"
+ ],
+ "note": "The book teaches genitive separately (Chapter 10, not in the uploaded pages), so only nominative and accusative appear here.",
+ "agreement_rule": "Articles, numerals, quantifiers, adjectives and pronouns agree with the head noun in gender, number and case, not in ending shape (ακριβός χάρτης, ακριβός αναπτήρας).",
+ "word_order": "article > demonstrative/numeral/quantifier > adjective(s) > noun; the adjective sits closest to the noun. Demonstratives need the definite article: αυτόν τον ακριβό χάρτη.",
+ "indefinite_article": {
+  "forms": {
+   "m": {
+    "sg": {
+     "nom": "ένας",
+     "acc": "έναν"
+    },
+    "pl": {
+     "nom": null,
+     "acc": null
+    }
+   },
+   "f": {
+    "sg": {
+     "nom": "μία / μια",
+     "acc": "μία / μια"
+    },
+    "pl": {
+     "nom": null,
+     "acc": null
+    }
+   },
+   "n": {
+    "sg": {
+     "nom": "ένα",
+     "acc": "ένα"
+    },
+    "pl": {
+     "nom": null,
+     "acc": null
+    }
+   }
+  },
+  "note": "Same as the numeral 'one'. No plural; κάποιος fills that role."
+ },
+ "article_use": [
+  {
+   "article": "definite",
+   "reference": "generic",
+   "meaning": "all",
+   "el": "Οι γάτες μισούν το νερό.",
+   "en": "Cats hate water."
+  },
+  {
+   "article": "definite",
+   "reference": "specific",
+   "meaning": "this",
+   "el": "Ο σκύλος γαβγίζει στην πόρτα.",
+   "en": "The dog is barking at the door."
+  },
+  {
+   "article": "indefinite",
+   "reference": "generic",
+   "meaning": "any",
+   "el": "Ένα παιδί πρέπει να ακούει τους γονείς του.",
+   "en": "A child should listen to its parents."
+  },
+  {
+   "article": "indefinite",
+   "reference": "specific",
+   "meaning": "some",
+   "el": "Ένας σκύλος γαβγίζει στην πόρτα.",
+   "en": "A dog is barking at the door."
+  }
+ ],
+ "article_rules": [
+  {
+   "rule": "Definite article is obligatory in generic statements, with proper nouns, and with demonstratives and possessives.",
+   "el": "Μου αρέσει ο καφές. / ο Πέτρος / Αυτό το βιβλίο είναι ακριβό.",
+   "en": "I like coffee. / Peter / This book is expensive."
+  },
+  {
+   "rule": "No article in habitual 'type' expressions and in predicates of είμαι.",
+   "el": "Πίνω καφέ το πρωί. / Ο Πέτρος είναι γιατρός.",
+   "en": "I have coffee in the morning. / Peter is a doctor."
+  }
+ ],
+ "numerals": {
+  "note": "Decimal, larger units first (εκατόν εβδομήντα δύο = 172). Only 1, 3 and 4 inflect; all others are invariable (δύο χάρτες / καρέκλες / βιβλία).",
+  "one": "see indefinite_article",
+  "three": {
+   "m": "τρεις",
+   "f": "τρεις",
+   "n": "τρία",
+   "note": "plural only; nom = acc"
+  },
+  "four": {
+   "m": "τέσσερις",
+   "f": "τέσσερις",
+   "n": "τέσσερα",
+   "note": "plural only; nom = acc"
+  }
+ },
+ "telling_time": {
+  "question": "Τι ώρα είναι;",
+  "rules": "Hours then minutes; και = past, παρά = to; τέταρτο = quarter, μισή = half. Hours are feminine (η ώρα), so μία, τρεις, τέσσερις.",
+  "examples": {
+   "05:00": "Είναι πέντε (η ώρα).",
+   "05:10": "Πέντε και δέκα.",
+   "05:15": "Πέντε και τέταρτο.",
+   "05:30": "Πέντε και μισή.",
+   "05:45": "Έξι παρά τέταρτο.",
+   "13:05": "Μία και πέντε.",
+   "16:20": "Τέσσερις και είκοσι.",
+   "17:00": "Πέντε το απόγευμα."
+  },
+  "source_errata": "Book gives 16.20 as 'Τέσσερις και δέκα'; corrected here to 'Τέσσερις και είκοσι'."
+ },
+ "quantifiers": {
+  "λίγος": {
+   "meaning": "(a) few, (a) little",
+   "declines_like": "ακριβός"
+  },
+  "πολύς": {
+   "meaning": "much, many, a lot of",
+   "irregular": true,
+   "forms": {
+    "m": {
+     "sg": {
+      "nom": "πολύς",
+      "acc": "πολύ"
+     },
+     "pl": {
+      "nom": "πολλοί",
+      "acc": "πολλούς"
+     }
+    },
+    "f": {
+     "sg": {
+      "nom": "πολλή",
+      "acc": "πολλή"
+     },
+     "pl": {
+      "nom": "πολλές",
+      "acc": "πολλές"
+     }
+    },
+    "n": {
+     "sg": {
+      "nom": "πολύ",
+      "acc": "πολύ"
+     },
+     "pl": {
+      "nom": "πολλά",
+      "acc": "πολλά"
+     }
+    }
+   },
+   "adverb": "πολύ = very / a lot; πάρα πολύ = very much"
+  }
+ },
+ "adjective_paradigms": [
+  {
+   "id": "adj-ος-η-ο",
+   "model": "ακριβός",
+   "gloss": "expensive",
+   "rule": "stem ends in a consonant → feminine -η",
+   "forms": {
+    "m": {
+     "sg": {
+      "nom": "ακριβός",
+      "acc": "ακριβό"
+     },
+     "pl": {
+      "nom": "ακριβοί",
+      "acc": "ακριβούς"
+     }
+    },
+    "f": {
+     "sg": {
+      "nom": "ακριβή",
+      "acc": "ακριβή"
+     },
+     "pl": {
+      "nom": "ακριβές",
+      "acc": "ακριβές"
+     }
+    },
+    "n": {
+     "sg": {
+      "nom": "ακριβό",
+      "acc": "ακριβό"
+     },
+     "pl": {
+      "nom": "ακριβά",
+      "acc": "ακριβά"
+     }
+    }
+   }
+  },
+  {
+   "id": "adj-ος-α-ο",
+   "model": "νέος",
+   "gloss": "young, new",
+   "rule": "stem ends in a vowel → feminine -α",
+   "forms": {
+    "m": {
+     "sg": {
+      "nom": "νέος",
+      "acc": "νέο"
+     },
+     "pl": {
+      "nom": "νέοι",
+      "acc": "νέους"
+     }
+    },
+    "f": {
+     "sg": {
+      "nom": "νέα",
+      "acc": "νέα"
+     },
+     "pl": {
+      "nom": "νέες",
+      "acc": "νέες"
+     }
+    },
+    "n": {
+     "sg": {
+      "nom": "νέο",
+      "acc": "νέο"
+     },
+     "pl": {
+      "nom": "νέα",
+      "acc": "νέα"
+     }
+    }
+   }
+  }
+ ],
+ "adjective_notes": [
+  "Adjectives decline like nouns: masculine like δρόμος (-ος), feminine like ζώνη/ώρα, neuter like βιβλίο.",
+  "Dictionary form is masculine nominative singular.",
+  "Several adjectives: opinion before descriptive (ένα ωραίο ζεστό τσάι, ένα καινούριο γαλλικό εστιατόριο).",
+  "Ellipsis: drop the noun and keep article + adjective (Προτιμώ το μαύρο)."
+ ],
+ "comparison": [
+  {
+   "type": "comparative",
+   "pattern": "πιο + adjective + από + acc",
+   "el": "Ο Πέτρος είναι πιο ψηλός από τον Κώστα.",
+   "en": "Peter is taller than Kostas."
+  },
+  {
+   "type": "superlative",
+   "pattern": "article + πιο + adjective (+ από όλους)",
+   "el": "Ο Πέτρος είναι ο πιο ψηλός (από όλους).",
+   "en": "Peter is the tallest (of all)."
+  },
+  {
+   "type": "equality",
+   "pattern": "το ίδιο + adjective + με + acc",
+   "el": "Ο Πέτρος είναι το ίδιο ψηλός με τον Κώστα.",
+   "en": "Peter is as tall as Kostas."
+  }
+ ]
+}

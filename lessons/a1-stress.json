@@ -1,0 +1,299 @@
+{
+ "el": "Ο τόνος",
+ "title": "Stress and the accent mark",
+ "section": "A1 · Holton §1.7, §2.2",
+ "goal": "Find the stressed syllable, and know where the accent is written and where it is not.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Stress is part of the word in Greek: it can change meaning (πότε 'when?' vs ποτέ 'never'), and it moves in some forms of nouns and verbs. Every word of two or more syllables carries a written accent (τόνος) on its stressed vowel, so you never have to guess. Learn every word **with its accent**: in this course an unaccented answer is marked 'almost'."
+  },
+  {
+   "type": "rules",
+   "title": "Where stress can fall",
+   "src": "grammar/alphabet-phonology.json#stress.rules",
+   "cite": "Holton §1.7"
+  },
+  {
+   "type": "rules",
+   "title": "Writing the accent",
+   "src": "grammar/alphabet-phonology.json#orthography.accent.rules",
+   "cite": "Holton §2.2 (monotonic system)"
+  },
+  {
+   "type": "culture",
+   "title": "One accent since 1982",
+   "text": "Until 1982 Greek was written in the **πολυτονικό** 'polytonic' system, with three accents and two breathing marks inherited from antiquity. The reform introduced the **μονοτονικό**: one accent mark, which simply shows the stress. The Church and some publishers still print polytonic. Stress is the commonest giveaway of a foreign speaker, especially in place names: **Αθήνα** (-θή-), **Θεσσαλονίκη** (-νί-), **Ηράκλειο** (-ρά-), **Χανιά** (-ιά). Some pairs differ only in stress: **Αθήνα** 'Athens' and **Αθηνά** 'the goddess Athena', **γέρος** 'old man' and **γερός** 'sturdy'."
+  },
+  {
+   "type": "examples",
+   "title": "Double accents (enclisis)",
+   "src": "grammar/alphabet-phonology.json#stress.enclisis.examples",
+   "cite": "When a weak pronoun follows a word stressed on the third syllable from the end, a second accent is added."
+  }
+ ],
+ "practice": [
+  {
+   "gen": "stress-syllable",
+   "n": 8
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Which of these words is written with an accent?",
+     "answer": "σπίτι",
+     "options": [
+      "σπίτι",
+      "και",
+      "θα",
+      "να"
+     ],
+     "why": "One-syllable words take no accent; σπίτι has two syllables."
+    },
+    {
+     "prompt": "Which spelling is correct?",
+     "answer": "τοίχος",
+     "options": [
+      "τοίχος",
+      "τόιχος",
+      "τοιχός"
+     ],
+     "why": "In a vowel pair like οι the accent goes on the second letter."
+    },
+    {
+     "prompt": "Which one means 'or'?",
+     "answer": "ή",
+     "options": [
+      "ή",
+      "η"
+     ],
+     "why": "ή 'or' keeps its accent to tell it apart from the article η."
+    },
+    {
+     "prompt": "Which is the question word 'where?'",
+     "answer": "πού",
+     "options": [
+      "πού",
+      "που"
+     ],
+     "why": "Question words πού, πώς are accented; που 'that, who' and πως 'that' are not."
+    },
+    {
+     "prompt": "How is a capitalised word like 'Όμηρος' accented?",
+     "answer": "Accent before the capital: Όμηρος",
+     "options": [
+      "Accent before the capital: Όμηρος",
+      "No accent on capitals",
+      "Accent on the next vowel: Ομήρος"
+     ],
+     "why": "An initial capital takes the accent before (above-left of) the letter. Words in all capitals take none: ΟΜΗΡΟΣ."
+    },
+    {
+     "prompt": "Πότε and ποτέ differ only in stress. Which means 'never'?",
+     "answer": "ποτέ",
+     "options": [
+      "ποτέ",
+      "πότε"
+     ],
+     "why": "πότε = when?, ποτέ = never (or ever, in questions)."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "Which word is stressed on the last syllable?",
+     "answer": "καφές",
+     "options": [
+      "καφές",
+      "σπίτι",
+      "θάλασσα",
+      "μέρα"
+     ],
+     "why": "καφές carries its accent on the final vowel; the others stress the first or second-to-last syllable."
+    },
+    {
+     "prompt": "Genitive singular of **άνθρωπος**: του ___",
+     "answer": "ανθρώπου",
+     "options": [
+      "ανθρώπου",
+      "άνθρωπου",
+      "ανθρωπού"
+     ],
+     "why": "Stress can sit no further back than the third-to-last syllable; with a long ending -ου it moves one step right."
+    },
+    {
+     "prompt": "**το όνομα** + **μου** 'my name'",
+     "answer": "το όνομά μου",
+     "options": [
+      "το όνομά μου",
+      "το όνομα μου",
+      "το ονόμα μου"
+     ],
+     "why": "A word stressed on the third-to-last syllable takes a second accent on its last syllable before a weak pronoun."
+    },
+    {
+     "prompt": "**ο γιατρός** + **σου** 'your doctor'",
+     "answer": "ο γιατρός σου",
+     "options": [
+      "ο γιατρός σου",
+      "ο γιατρός σού",
+      "ο γιάτρος σου"
+     ],
+     "why": "No second accent: γιατρός is stressed on its last syllable, so the pronoun just leans on it."
+    },
+    {
+     "prompt": "Which spelling is correct for 'children'?",
+     "answer": "παιδιά",
+     "options": [
+      "παιδιά",
+      "παίδια",
+      "παιδία"
+     ],
+     "why": "The ι of -ιά is a glide, not a syllable, so the accent falls on α."
+    },
+    {
+     "prompt": "Which spelling gives three syllables, [ka-í-ki] 'caique'?",
+     "answer": "καΐκι",
+     "options": [
+      "καΐκι",
+      "καίκι",
+      "κάικι"
+     ],
+     "why": "ΐ (diaeresis plus accent) shows that α and ι are separate vowels; καί- would read [ke]."
+    },
+    {
+     "prompt": "**ΑΘΗΝΑ** on a road sign means the city. In lowercase it is:",
+     "answer": "Αθήνα",
+     "options": [
+      "Αθήνα",
+      "Αθηνά",
+      "Άθηνα"
+     ],
+     "why": "All-capital words drop the accent, but the stress stays: Αθήνα. Αθηνά is the goddess."
+    },
+    {
+     "prompt": "'He is strong' is:",
+     "answer": "Είναι γερός.",
+     "options": [
+      "Είναι γερός.",
+      "Είναι γέρος."
+     ],
+     "why": "γερός 'sturdy' is stressed on the end; γέρος means 'old man'."
+    },
+    {
+     "prompt": "Ξέρω ___ θα έρθει. 'I know that he will come.'",
+     "answer": "πως",
+     "options": [
+      "πως",
+      "πώς"
+     ],
+     "why": "The conjunction πως 'that' has no accent; πώς is the question word 'how?'."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Write in lowercase with the accent: **ΚΑΦΕΣ** 'coffee' (stress on the last syllable)",
+     "answer": "καφές",
+     "accept": [
+      "καφές"
+     ],
+     "why": "Multi-syllable words always carry a written accent on the stressed vowel."
+    },
+    {
+     "prompt": "Write in lowercase with the accent: **ΘΑΛΑΣΣΑ** 'sea' (stress on the first syllable)",
+     "answer": "θάλασσα",
+     "accept": [
+      "θάλασσα"
+     ],
+     "why": "Third-to-last syllable: θά-λασ-σα."
+    },
+    {
+     "prompt": "Write in lowercase with the accent: **ΠΑΙΔΙ** 'child' (stress on the last syllable)",
+     "answer": "παιδί",
+     "accept": [
+      "παιδί"
+     ],
+     "why": "The accent goes on the stressed vowel ι, not on the digraph αι."
+    },
+    {
+     "prompt": "Write in lowercase with the accent: **ΑΥΡΙΟ** 'tomorrow' (stress on the first syllable)",
+     "answer": "αύριο",
+     "accept": [
+      "αύριο"
+     ],
+     "why": "In αυ, ευ, ου the accent is written on the second letter."
+    },
+    {
+     "prompt": "Write in lowercase with the accent: **ΟΙΚΟΓΕΝΕΙΑ** 'family' (stress on -γε-)",
+     "answer": "οικογένεια",
+     "accept": [
+      "οικογένεια"
+     ],
+     "why": "The final -ια is one syllable [ja], so -γέ- is the third-to-last."
+    },
+    {
+     "prompt": "Write in lowercase with the accent: **ΠΟΤΕ** 'never'",
+     "answer": "ποτέ",
+     "accept": [
+      "ποτέ"
+     ],
+     "why": "ποτέ 'never' is stressed on the end; πότε 'when?' on the start."
+    },
+    {
+     "prompt": "Write in lowercase with the accent: **ΠΟΥ** 'where?'",
+     "answer": "πού",
+     "accept": [
+      "πού"
+     ],
+     "why": "Monosyllables take no accent, except to tell words apart: question πού vs relative που."
+    },
+    {
+     "prompt": "Add **μου**: το τηλέφωνο 'my phone'",
+     "answer": "το τηλέφωνό μου",
+     "accept": [
+      "το τηλέφωνό μου",
+      "τηλέφωνό μου"
+     ],
+     "why": "τηλέφωνο is stressed on the third-to-last syllable, so it gains a second accent before μου."
+    },
+    {
+     "prompt": "Genitive plural of **άνθρωπος**: των ___",
+     "answer": "ανθρώπων",
+     "accept": [
+      "ανθρώπων"
+     ],
+     "why": "The long ending -ων pulls the stress to the second-to-last syllable."
+    },
+    {
+     "prompt": "Write in lowercase with the accent: **ΕΥΡΩ** 'euro' (stress on the last syllable)",
+     "answer": "ευρώ",
+     "accept": [
+      "ευρώ"
+     ],
+     "why": "Final stressed ω takes the accent: ευρώ."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "ποτέ",
+  "πότε",
+  "πού",
+  "πώς",
+  "σπίτι",
+  "άνθρωπος",
+  "όνομα",
+  "τηλέφωνο",
+  "πόλη",
+  "λέξη",
+  "γέρος",
+  "καφές"
+ ]
+}

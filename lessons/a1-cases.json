@@ -1,0 +1,320 @@
+{
+ "el": "Οι πτώσεις",
+ "title": "The four cases",
+ "section": "A1 · Holton §3.5, §3.49-3.52",
+ "goal": "Know what each case does and decline the definite article.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Greek nouns, adjectives, articles and pronouns change their endings for **case**, which shows the job a word does in the sentence. There are four: nominative, accusative, genitive and vocative. Because the article changes with case, it is often the clearest signal: **ο** φίλος (subject), **τον** φίλο (object), **του** φίλου (of the friend)."
+  },
+  {
+   "type": "examples",
+   "title": "What each case does",
+   "src": "grammar/noun-phrase.json#functions",
+   "cite": "Holton §3.2"
+  },
+  {
+   "type": "article",
+   "title": "The definite article",
+   "cite": "Holton §3.4. The vocative has no article."
+  },
+  {
+   "type": "text",
+   "text": "Notice how few distinct forms there are: **του** is masculine and neuter genitive singular, **των** is every genitive plural, and **τα** covers neuter nominative and accusative plural. Feminine accusative **τη(ν)** keeps its ν before a vowel and before κ, π, τ, γκ, μπ, ντ, ξ, ψ: την άνοιξη, την πόρτα, but τη Δευτέρα."
+  },
+  {
+   "type": "culture",
+   "title": "Street names in the genitive",
+   "text": "Greek addresses are a daily genitive drill. A street is usually 'the street **of** someone': **οδός Ερμού** 'Hermes Street' (literally 'street of Hermes'), **Πλατεία Συντάγματος** 'Syntagma (Constitution) Square', **Λεωφόρος Βασιλίσσης Σοφίας** 'Queen Sophia Avenue'. In speech the word οδός drops out but its feminine article stays, so people say **Μένω στην Ερμού** or **στην Πατησίων**. On envelopes and maps you will also see the abbreviations **Λεωφ.** for λεωφόρος 'avenue' and **Πλ.** for πλατεία 'square'."
+  },
+  {
+   "type": "table",
+   "title": "σε + article",
+   "head": [
+    "σε + article",
+    "Contracted"
+   ],
+   "rows": [
+    [
+     "σε + τον",
+     "στον"
+    ],
+    [
+     "σε + τη(ν)",
+     "στη(ν)"
+    ],
+    [
+     "σε + το",
+     "στο"
+    ],
+    [
+     "σε + τους",
+     "στους"
+    ],
+    [
+     "σε + τις",
+     "στις"
+    ],
+    [
+     "σε + τα",
+     "στα"
+    ]
+   ],
+   "cite": "Holton §3.4. σε 'to, in, at' always fuses with a following definite article."
+  }
+ ],
+ "practice": [
+  {
+   "gen": "case-function",
+   "n": 5
+  },
+  {
+   "gen": "article-form",
+   "n": 10
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Πάω ___ σπίτι. (σε + το)",
+     "answer": "στο",
+     "options": [
+      "στο",
+      "στον",
+      "στη",
+      "στα"
+     ]
+    },
+    {
+     "prompt": "Μένω ___ Αθήνα. (σε + τη)",
+     "answer": "στην",
+     "options": [
+      "στην",
+      "στον",
+      "στο",
+      "στις"
+     ],
+     "why": "Before a vowel the ν stays: στην Αθήνα."
+    },
+    {
+     "prompt": "Δίνω το βιβλίο ___ φίλους μου. (σε + τους)",
+     "answer": "στους",
+     "options": [
+      "στους",
+      "στις",
+      "στα",
+      "στον"
+     ]
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "n": 6,
+   "items": [
+    {
+     "prompt": "___ φίλος μου μένει στην Πάτρα.",
+     "answer": "Ο",
+     "options": [
+      "Ο",
+      "Τον",
+      "Του"
+     ],
+     "why": "The subject of the verb is in the nominative."
+    },
+    {
+     "prompt": "Περιμένω ___ φίλο μου.",
+     "answer": "τον",
+     "options": [
+      "τον",
+      "ο",
+      "του"
+     ],
+     "why": "The direct object is in the accusative."
+    },
+    {
+     "prompt": "Το σπίτι ___ Γιάννη είναι μεγάλο.",
+     "answer": "του",
+     "options": [
+      "του",
+      "τον",
+      "ο"
+     ],
+     "why": "Possession ('of') is the genitive."
+    },
+    {
+     "prompt": "___ καθηγήτρια μάς δίνει δουλειά.",
+     "answer": "Η",
+     "options": [
+      "Η",
+      "Την",
+      "Της"
+     ],
+     "why": "Feminine subject: nominative η."
+    },
+    {
+     "prompt": "Οι γονείς ___ Μαρίας είναι εδώ.",
+     "answer": "της",
+     "options": [
+      "της",
+      "την",
+      "η"
+     ],
+     "why": "Feminine genitive singular: της."
+    },
+    {
+     "prompt": "Τα παιχνίδια ___ παιδιών",
+     "answer": "των",
+     "options": [
+      "των",
+      "τα",
+      "τους"
+     ],
+     "why": "Every genitive plural, in all genders, is των."
+    },
+    {
+     "prompt": "Βλέπω ___ φίλες μου.",
+     "answer": "τις",
+     "options": [
+      "τις",
+      "τους",
+      "οι"
+     ],
+     "why": "Feminine accusative plural is τις; τους is masculine."
+    },
+    {
+     "prompt": "**Γιάννη**, έλα εδώ! Which case is Γιάννη?",
+     "answer": "vocative",
+     "options": [
+      "vocative",
+      "accusative",
+      "genitive"
+     ],
+     "why": "Addressing someone directly is the vocative, used without an article."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 10,
+   "items": [
+    {
+     "prompt": "Say in Greek: *the friend's house*",
+     "answer": "το σπίτι του φίλου",
+     "accept": [
+      "το σπίτι του φίλου",
+      "του φίλου το σπίτι"
+     ],
+     "why": "The owner goes after the noun in the genitive: του φίλου."
+    },
+    {
+     "prompt": "Πάω ___ σχολείο. (σε + the)",
+     "answer": "στο",
+     "accept": [
+      "στο"
+     ],
+     "why": "σε fuses with το: στο."
+    },
+    {
+     "prompt": "Ξέρεις ___ γυναίκα του; (the)",
+     "answer": "τη",
+     "accept": [
+      "τη",
+      "την"
+     ],
+     "why": "Feminine accusative τη(ν); before γ the ν is normally dropped."
+    },
+    {
+     "prompt": "Τηλεφωνώ ___ μητέρα μου. (σε + the)",
+     "answer": "στη",
+     "accept": [
+      "στη",
+      "στην"
+     ],
+     "why": "σε + τη(ν) = στη(ν); before μ the ν is normally dropped."
+    },
+    {
+     "prompt": "Τα βιβλία ___ παιδιών. (of the)",
+     "answer": "των",
+     "accept": [
+      "των"
+     ],
+     "why": "Genitive plural article: των."
+    },
+    {
+     "prompt": "Δίνω το κλειδί ___ Ελένη. (σε + the)",
+     "answer": "στην",
+     "accept": [
+      "στην"
+     ],
+     "why": "Before a vowel the ν must stay: στην Ελένη."
+    },
+    {
+     "prompt": "Say in Greek: *in the cities* (η πόλη, pl. οι πόλεις)",
+     "answer": "στις πόλεις",
+     "accept": [
+      "στις πόλεις"
+     ],
+     "why": "σε + τις = στις; feminine accusative plural."
+    },
+    {
+     "prompt": "Say in Greek: *the mother's car*",
+     "answer": "το αυτοκίνητο της μητέρας",
+     "accept": [
+      "το αυτοκίνητο της μητέρας",
+      "της μητέρας το αυτοκίνητο"
+     ],
+     "why": "Feminine genitive: της μητέρας."
+    },
+    {
+     "prompt": "Βλέπω ___ φίλους μου. (the)",
+     "answer": "τους",
+     "accept": [
+      "τους"
+     ],
+     "why": "Masculine accusative plural: τους."
+    },
+    {
+     "prompt": "Κλείνω ___ πόρτα. (the)",
+     "answer": "την",
+     "accept": [
+      "την"
+     ],
+     "why": "Before π the ν stays: την πόρτα."
+    },
+    {
+     "prompt": "Say in Greek: *the children's teacher* (m.)",
+     "answer": "ο δάσκαλος των παιδιών",
+     "accept": [
+      "ο δάσκαλος των παιδιών",
+      "των παιδιών ο δάσκαλος"
+     ],
+     "why": "The possessor is genitive plural: των παιδιών."
+    },
+    {
+     "prompt": "Μένω ___ Θεσσαλονίκη. (σε + the)",
+     "answer": "στη",
+     "accept": [
+      "στη",
+      "στην"
+     ],
+     "why": "Before θ the ν is normally dropped: στη Θεσσαλονίκη."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "φίλος",
+  "σπίτι",
+  "βιβλίο",
+  "δρόμος",
+  "πόλη",
+  "οδός",
+  "σχολείο",
+  "μητέρα",
+  "δίνω",
+  "μένω",
+  "πάω"
+ ]
+}

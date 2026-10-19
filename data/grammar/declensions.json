@@ -1,0 +1,318 @@
+{
+ "source": "Modern Greek Declension Chart (upload c9d9bc6f), checked by hand",
+ "variety": "Standard Modern Greek",
+ "cases": [
+  "nom",
+  "gen",
+  "acc",
+  "voc"
+ ],
+ "notes": [
+  "The source says Modern Greek has 3 cases; it has 4 (nominative, genitive, accusative, vocative). Vocative is often identical to nominative or accusative.",
+  "Neuter nouns: nominative, accusative and vocative are always identical."
+ ],
+ "definite_article": {
+  "sg": {
+   "m": {
+    "nom": "ο",
+    "gen": "του",
+    "acc": "τον"
+   },
+   "f": {
+    "nom": "η",
+    "gen": "της",
+    "acc": "την"
+   },
+   "n": {
+    "nom": "το",
+    "gen": "του",
+    "acc": "το"
+   }
+  },
+  "pl": {
+   "m": {
+    "nom": "οι",
+    "gen": "των",
+    "acc": "τους"
+   },
+   "f": {
+    "nom": "οι",
+    "gen": "των",
+    "acc": "τις"
+   },
+   "n": {
+    "nom": "τα",
+    "gen": "των",
+    "acc": "τα"
+   }
+  }
+ },
+ "noun_paradigms": [
+  {
+   "id": "m--ος",
+   "gender": "m",
+   "ending_type": "-ος",
+   "model": "φίλος",
+   "declension": 2,
+   "sg": {
+    "nom": "φίλος",
+    "gen": "φίλου",
+    "acc": "φίλο",
+    "voc": "φίλε"
+   },
+   "pl": {
+    "nom": "φίλοι",
+    "gen": "φίλων",
+    "acc": "φίλους",
+    "voc": "φίλοι"
+   }
+  },
+  {
+   "id": "m--ας",
+   "gender": "m",
+   "ending_type": "-ας",
+   "model": "άντρας",
+   "declension": 1,
+   "sg": {
+    "nom": "άντρας",
+    "gen": "άντρα",
+    "acc": "άντρα",
+    "voc": "άντρα"
+   },
+   "pl": {
+    "nom": "άντρες",
+    "gen": "αντρών",
+    "acc": "άντρες",
+    "voc": "άντρες"
+   }
+  },
+  {
+   "id": "m--ης",
+   "gender": "m",
+   "ending_type": "-ης",
+   "model": "μαθητής",
+   "declension": 1,
+   "sg": {
+    "nom": "μαθητής",
+    "gen": "μαθητή",
+    "acc": "μαθητή",
+    "voc": "μαθητή"
+   },
+   "pl": {
+    "nom": "μαθητές",
+    "gen": "μαθητών",
+    "acc": "μαθητές",
+    "voc": "μαθητές"
+   }
+  },
+  {
+   "id": "f--α",
+   "gender": "f",
+   "ending_type": "-α",
+   "model": "γυναίκα",
+   "declension": 1,
+   "sg": {
+    "nom": "γυναίκα",
+    "gen": "γυναίκας",
+    "acc": "γυναίκα",
+    "voc": "γυναίκα"
+   },
+   "pl": {
+    "nom": "γυναίκες",
+    "gen": "γυναικών",
+    "acc": "γυναίκες",
+    "voc": "γυναίκες"
+   }
+  },
+  {
+   "id": "f--α (2)",
+   "gender": "f",
+   "ending_type": "-α (2)",
+   "model": "νύχτα",
+   "declension": 1,
+   "sg": {
+    "nom": "νύχτα",
+    "gen": "νύχτας",
+    "acc": "νύχτα",
+    "voc": "νύχτα"
+   },
+   "pl": {
+    "nom": "νύχτες",
+    "gen": "νυχτών",
+    "acc": "νύχτες",
+    "voc": "νύχτες"
+   }
+  },
+  {
+   "id": "f--ος",
+   "gender": "f",
+   "ending_type": "-ος",
+   "model": "οδός",
+   "declension": 2,
+   "sg": {
+    "nom": "οδός",
+    "gen": "οδού",
+    "acc": "οδό",
+    "voc": "οδέ"
+   },
+   "pl": {
+    "nom": "οδοί",
+    "gen": "οδών",
+    "acc": "οδούς",
+    "voc": "οδοί"
+   }
+  },
+  {
+   "id": "n--ο",
+   "gender": "n",
+   "ending_type": "-ο",
+   "model": "βιβλίο",
+   "declension": 2,
+   "sg": {
+    "nom": "βιβλίο",
+    "gen": "βιβλίου",
+    "acc": "βιβλίο",
+    "voc": "βιβλίο"
+   },
+   "pl": {
+    "nom": "βιβλία",
+    "gen": "βιβλίων",
+    "acc": "βιβλία",
+    "voc": "βιβλία"
+   }
+  },
+  {
+   "id": "n--ι",
+   "gender": "n",
+   "ending_type": "-ι",
+   "model": "παιδί",
+   "declension": 3,
+   "sg": {
+    "nom": "παιδί",
+    "gen": "παιδιού",
+    "acc": "παιδί",
+    "voc": "παιδί"
+   },
+   "pl": {
+    "nom": "παιδιά",
+    "gen": "παιδιών",
+    "acc": "παιδιά",
+    "voc": "παιδιά"
+   }
+  },
+  {
+   "id": "n--μα",
+   "gender": "n",
+   "ending_type": "-μα",
+   "model": "όνομα",
+   "declension": 3,
+   "sg": {
+    "nom": "όνομα",
+    "gen": "ονόματος",
+    "acc": "όνομα",
+    "voc": "όνομα"
+   },
+   "pl": {
+    "nom": "ονόματα",
+    "gen": "ονομάτων",
+    "acc": "ονόματα",
+    "voc": "ονόματα"
+   }
+  }
+ ],
+ "paradigm_notes": {
+  "f--α (2)": "The source lists νύχτα as a separate \"-η type\" column, but νύχτα ends in -α; the -η type (e.g. η αδελφή) is missing from the chart and should be added."
+ },
+ "personal_pronouns": {
+  "columns": [
+   "nom",
+   "gen_strong",
+   "gen_weak",
+   "acc_strong",
+   "acc_weak"
+  ],
+  "rows": [
+   {
+    "person": "1sg",
+    "nom": "εγώ",
+    "gen_strong": "εμένα / εμού",
+    "gen_weak": "μου",
+    "acc_strong": "εμένα",
+    "acc_weak": "με"
+   },
+   {
+    "person": "2sg",
+    "nom": "εσύ",
+    "gen_strong": "εσένα / εσού",
+    "gen_weak": "σου",
+    "acc_strong": "εσένα",
+    "acc_weak": "σε"
+   },
+   {
+    "person": "3sg.m",
+    "nom": "αυτός",
+    "gen_strong": "αυτού",
+    "gen_weak": "του",
+    "acc_strong": "αυτόν",
+    "acc_weak": "τον"
+   },
+   {
+    "person": "3sg.f",
+    "nom": "αυτή",
+    "gen_strong": "αυτής",
+    "gen_weak": "της",
+    "acc_strong": "αυτήν",
+    "acc_weak": "την"
+   },
+   {
+    "person": "3sg.n",
+    "nom": "αυτό",
+    "gen_strong": "αυτού",
+    "gen_weak": "του",
+    "acc_strong": "αυτό",
+    "acc_weak": "το"
+   },
+   {
+    "person": "1pl",
+    "nom": "εμείς",
+    "gen_strong": "εμάς / ημών",
+    "gen_weak": "μας",
+    "acc_strong": "εμάς",
+    "acc_weak": "μας"
+   },
+   {
+    "person": "2pl",
+    "nom": "εσείς",
+    "gen_strong": "εσάς / υμών",
+    "gen_weak": "σας",
+    "acc_strong": "εσάς",
+    "acc_weak": "σας"
+   },
+   {
+    "person": "3pl.m",
+    "nom": "αυτοί",
+    "gen_strong": "αυτών",
+    "gen_weak": "τους",
+    "acc_strong": "αυτούς",
+    "acc_weak": "τους"
+   },
+   {
+    "person": "3pl.f",
+    "nom": "αυτές",
+    "gen_strong": "αυτών",
+    "gen_weak": "τους",
+    "acc_strong": "αυτές",
+    "acc_weak": "τις"
+   },
+   {
+    "person": "3pl.n",
+    "nom": "αυτά",
+    "gen_strong": "αυτών",
+    "gen_weak": "τους",
+    "acc_strong": "αυτά",
+    "acc_weak": "τα"
+   }
+  ],
+  "note": "Weak (clitic) forms attach to the verb and are unstressed; strong forms are for emphasis or after prepositions. εμού/εσού/ημών/υμών are learned (katharevousa) forms."
+ }
+}

@@ -1,0 +1,270 @@
+{
+ "el": "Θηλυκά και ουδέτερα",
+ "title": "Feminines in -α/-η, neuters in -ο/-ι/-μα",
+ "section": "A1 · Holton §3.13-3.27",
+ "goal": "Decline the eight noun classes that cover most feminine and neuter nouns.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Feminines and neuters are simpler than masculines in one way: **nominative = accusative** in each number. Feminines change only in the genitive singular (add -ς) and the plural. Neuters are identical in nominative, accusative and vocative.\n\nWhat you do have to track is **stress in the genitive plural**. Every genitive plural ends in -ων, and for many classes that ending pulls the stress onto itself: θάλασσα → θαλασσών, τέχνη → τεχνών. Others keep it: ελπίδα → ελπίδων. The table shows which is which."
+  },
+  {
+   "type": "noun-paradigm",
+   "title": "Feminines in -α",
+   "src": [
+    "grammar/nouns-full.json#paradigms[id=f-α-a]",
+    "grammar/nouns-full.json#paradigms[id=f-α-b]"
+   ],
+   "cases": [
+    "nom",
+    "acc",
+    "gen"
+   ],
+   "cite": "Holton §3.13-3.14"
+  },
+  {
+   "type": "noun-paradigm",
+   "title": "Feminines in -η",
+   "src": [
+    "grammar/nouns-full.json#paradigms[id=f-η-ες]",
+    "grammar/nouns-full.json#paradigms[id=f-η-εις]"
+   ],
+   "cases": [
+    "nom",
+    "acc",
+    "gen"
+   ],
+   "cite": "Holton §3.15, §3.17. The -η/-εις type (πόλη, απόφαση, κυβέρνηση) is the learned ancient third declension; its genitive singular -ης is the everyday form, -εως is formal."
+  },
+  {
+   "type": "noun-paradigm",
+   "title": "Neuters in -ο and -ι",
+   "src": [
+    "grammar/nouns-full.json#paradigms[id=n-ο-a]",
+    "grammar/nouns-full.json#paradigms[id=n-ί]",
+    "grammar/nouns-full.json#paradigms[id=n-ι]"
+   ],
+   "cases": [
+    "nom",
+    "gen"
+   ],
+   "cite": "Holton §3.22-3.24. -ι neuters add an unstressed ι-glide in gen. sg. and the plural, and that ι is not a syllable: παιδιά [peðʝá]."
+  },
+  {
+   "type": "noun-paradigm",
+   "title": "Neuters in -μα",
+   "src": [
+    "grammar/nouns-full.json#paradigms[id=n-μα]"
+   ],
+   "cases": [
+    "nom",
+    "gen"
+   ],
+   "cite": "Holton §3.26. The stem grows by -ατ- outside the nom./acc. sg., and the stress moves right with it."
+  },
+  {
+   "type": "culture",
+   "title": "Wishes by the calendar",
+   "text": "Greek greetings run on the calendar, and they practise every gender. On Mondays people wish each other **Καλή εβδομάδα** 'good week' (feminine), on the first of the month **Καλό μήνα** (masculine), on Fridays **Καλό Σαββατοκύριακο** 'good weekend' (neuter). The big holidays are neuter, several of them plural: **τα Χριστούγεννα** 'Christmas', **τα Θεοφάνεια** 'Epiphany', **το Πάσχα** 'Easter', which never changes form. So you wish **Καλά Χριστούγεννα** with a plural adjective but **Καλό Πάσχα** with a singular one."
+  },
+  {
+   "type": "callout",
+   "text": "**Rule of thumb for the genitive plural.** Almost all feminines in -α and -η move the stress to the ending: ώρα → ωρών, χώρα → χωρών, θάλασσα → θαλασσών, τέχνη → τεχνών. The main exceptions keep it in place: nouns in -ίδα and -άδα (ελπίδα → ελπίδων, εβδομάδα → εβδομάδων) and some learned or foreign words. Neuters in -ο stressed on the third-to-last move it one syllable right (θέατρο → θεάτρων), as do all -μα neuters (αποτελεσμάτων). Drill it rather than memorise lists."
+  }
+ ],
+ "practice": [
+  {
+   "gen": "decline",
+   "ids": [
+    "f-α-a",
+    "f-α-b",
+    "f-η-ες",
+    "f-η-εις",
+    "n-ο-a",
+    "n-ί",
+    "n-ι",
+    "n-μα"
+   ],
+   "n": 16
+  },
+  {
+   "gen": "article-gender",
+   "n": 6
+  },
+  {
+   "gen": "mc",
+   "n": 6,
+   "items": [
+    {
+     "prompt": "Genitive plural of **θάλασσα**",
+     "answer": "θαλασσών",
+     "options": [
+      "θαλασσών",
+      "θαλάσσων",
+      "θάλασσων"
+     ],
+     "why": "θάλασσα is stressed on the third-to-last syllable, so -ων pulls the stress onto itself."
+    },
+    {
+     "prompt": "Genitive plural of **ελπίδα**",
+     "answer": "ελπίδων",
+     "options": [
+      "ελπίδων",
+      "ελπιδών"
+     ],
+     "why": "Feminines in -ίδα keep the stress: ελπίδων."
+    },
+    {
+     "prompt": "Η ιστορία της ___ (η πόλη), everyday Greek",
+     "answer": "πόλης",
+     "options": [
+      "πόλης",
+      "πόλεως",
+      "πόλεις"
+     ],
+     "why": "The everyday genitive of -η/-εις nouns is -ης; -εως is formal; πόλεις is the plural."
+    },
+    {
+     "prompt": "Πολλά ___ (το πρόβλημα, pl.)",
+     "answer": "προβλήματα",
+     "options": [
+      "προβλήματα",
+      "πρόβληματα",
+      "προβλήμα"
+     ],
+     "why": "-μα neuters add -ατ- and move the stress right: προβλήματα."
+    },
+    {
+     "prompt": "Η πόρτα ___ (το σπίτι)",
+     "answer": "του σπιτιού",
+     "options": [
+      "του σπιτιού",
+      "του σπίτι",
+      "της σπιτιού"
+     ],
+     "why": "Neuter genitive is του; -ι neuters add -ιού."
+    },
+    {
+     "prompt": "Genitive plural of **θέατρο**",
+     "answer": "θεάτρων",
+     "options": [
+      "θεάτρων",
+      "θέατρων",
+      "θεατρών"
+     ],
+     "why": "Neuters in -ο with third-to-last stress shift it one syllable right before -ων."
+    },
+    {
+     "prompt": "Ο ήχος ___ (τα κύματα)",
+     "answer": "των κυμάτων",
+     "options": [
+      "των κυμάτων",
+      "των κύματων",
+      "των κυματών"
+     ],
+     "why": "All -μα neuters: genitive plural -μάτων."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "Say in Greek: *the colour of the sea*",
+     "answer": "το χρώμα της θάλασσας",
+     "accept": [
+      "το χρώμα της θάλασσας"
+     ],
+     "why": "Feminine genitive singular adds -ς: της θάλασσας."
+    },
+    {
+     "prompt": "Οι τιμές ___ (τα εισιτήρια)",
+     "answer": "των εισιτηρίων",
+     "accept": [
+      "των εισιτηρίων"
+     ],
+     "why": "Neuter -ο, third-to-last stress: the stress moves right in the genitive plural."
+    },
+    {
+     "prompt": "Η αρχή ___ (το μάθημα)",
+     "answer": "του μαθήματος",
+     "accept": [
+      "του μαθήματος"
+     ],
+     "why": "-μα neuters: genitive singular -ματος, stress moved right."
+    },
+    {
+     "prompt": "Say in Greek: *the decisions of the government*",
+     "answer": "οι αποφάσεις της κυβέρνησης",
+     "accept": [
+      "οι αποφάσεις της κυβέρνησης"
+     ],
+     "why": "Plural οι αποφάσεις; genitive singular της κυβέρνησης (everyday -ης)."
+    },
+    {
+     "prompt": "Τα παιχνίδια ___ (τα παιδιά)",
+     "answer": "των παιδιών",
+     "accept": [
+      "των παιδιών"
+     ],
+     "why": "Neuters in stressed -ί: genitive plural -ιών."
+    },
+    {
+     "prompt": "Η ιστορία ___ (οι πόλεις)",
+     "answer": "των πόλεων",
+     "accept": [
+      "των πόλεων"
+     ],
+     "why": "-η/-εις nouns have the genitive plural -εων, with the stress staying put: πόλεων."
+    },
+    {
+     "prompt": "Η λύση ___ (τα προβλήματα)",
+     "answer": "των προβλημάτων",
+     "accept": [
+      "των προβλημάτων"
+     ],
+     "why": "-μα neuters: -μάτων."
+    },
+    {
+     "prompt": "Το τέλος ___ (η εβδομάδα)",
+     "answer": "της εβδομάδας",
+     "accept": [
+      "της εβδομάδας"
+     ],
+     "why": "Feminine -α: genitive singular -ας."
+    },
+    {
+     "prompt": "Η αξία ___ (οι τέχνες)",
+     "answer": "των τεχνών",
+     "accept": [
+      "των τεχνών"
+     ],
+     "why": "-η/-ες feminines move the stress to -ών."
+    },
+    {
+     "prompt": "Τα φώτα ___ (το θέατρο)",
+     "answer": "του θεάτρου",
+     "accept": [
+      "του θεάτρου"
+     ],
+     "why": "The long ending -ου moves the stress: θεάτρου."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "θάλασσα",
+  "ελπίδα",
+  "τέχνη",
+  "πόλη",
+  "απόφαση",
+  "κυβέρνηση",
+  "εβδομάδα",
+  "θέατρο",
+  "παιδί",
+  "πρόβλημα",
+  "μάθημα",
+  "χρώμα"
+ ]
+}

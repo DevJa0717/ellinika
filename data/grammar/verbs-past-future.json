@@ -1,0 +1,762 @@
+{
+ "source": "Poulopoulou, Modern Greek: Grammar Notes for Absolute Beginners (A1-A2), ΣΕΑΒ/Kallipos 2015, CC BY-NC-SA 3.0 GR (upload Greek Grammar84.pdf, book pp. 92-176): Appendix (pp. 162-167), Chapter 8 (aorist, pp. 113-124), Chapter 9 (future, pp. 125-129)",
+ "variety": "Standard Modern Greek",
+ "note": "future_1sg is the perfective form used after θα (simple future) and να (the book's 'infinitive'); prepend θα/να. Parentheses mark possible but less common forms. past_group is the book's Chapter 8 classification where it lists the verb; null means not classified there (B1/B2 verbs: predictable -σ- but unpredictable vowel, learn as irregular).",
+ "aorist": {
+  "endings": {
+   "1sg": "-α",
+   "2sg": "-ες",
+   "3sg": "-ε",
+   "1pl": "-αμε",
+   "2pl": "-ατε",
+   "3pl": "-αν(ε)"
+  },
+  "model": {
+   "lemma": "πάω",
+   "forms": {
+    "1sg": "πήγα",
+    "2sg": "πήγες",
+    "3sg": "πήγε",
+    "1pl": "πήγαμε",
+    "2pl": "πήγατε",
+    "3pl": "πήγαν(ε)"
+   }
+  },
+  "stress_rule": "Antepenultimate (3rd from last) syllable, except irregular group 1 (fixed stress, e.g. πήρα, πήραμε). A short stem adds a stressed augment έ- (ή- for θέλω, ξέρω) only when needed to carry it: έφαγα but φάγαμε; κατάλαβα, καταλάβαμε.",
+  "regular_formation": "Present stem + [s]: -β/-φ/-π/-ευ → -ψ- (γράφω → έγραψα, δουλεύω → δούλεψα); -γ/-χ/-χν → -ξ- (τρέχω → έτρεξα, φτιάχνω → έφτιαξα, ανοίγω → άνοιξα); -ν(ω) after vowel → -σ- (τελειώνω → τελείωσα). Stem -ζ- gives -σ- or -ξ- unpredictably (αλλάζω → άλλαξα, αγοράζω → αγόρασα).",
+  "είμαι": {
+   "1sg": "ήμουν(α)",
+   "2sg": "ήσουν(α)",
+   "3sg": "ήταν(ε)",
+   "1pl": "ήμασταν / ήμαστε",
+   "2pl": "ήσασταν / ήσαστε",
+   "3pl": "ήταν(ε)"
+  },
+  "passive_note": "Most passive verbs take a different past model (B1-B2 level); γίνομαι, έρχομαι, κάθομαι behave like active verbs."
+ },
+ "future": {
+  "formation": "θα + perfective stem + present-type endings. The form follows whichever present model it looks like: most go like A1, a few like A2 or B2; none like B1.",
+  "models": {
+   "A1": {
+    "1sg": "θα γράψω",
+    "2sg": "θα γράψεις",
+    "3sg": "θα γράψει",
+    "1pl": "θα γράψουμε",
+    "2pl": "θα γράψετε",
+    "3pl": "θα γράψουν(ε)"
+   },
+   "A2": {
+    "1sg": "θα φάω",
+    "2sg": "θα φας",
+    "3sg": "θα φάει",
+    "1pl": "θα φάμε",
+    "2pl": "θα φάτε",
+    "3pl": "θα φάνε"
+   },
+   "B2": {
+    "1sg": "θα πω",
+    "2sg": "θα πεις",
+    "3sg": "θα πει",
+    "1pl": "θα πούμε",
+    "2pl": "θα πείτε",
+    "3pl": "θα πουν(ε)"
+   }
+  },
+  "aorist_link": "Strip θα, stress and ending from the future to get the perfective stem; add aorist endings with the 3-syllable stress rule (θα δουλέψω → δουλεψ- → δούλεψα)."
+ },
+ "principal_parts": [
+  {
+   "present": "αγαπάω/-ώ",
+   "gloss": "to love",
+   "aorist_1sg": "αγάπησα",
+   "future_1sg": "αγαπήσω",
+   "past_group": null
+  },
+  {
+   "present": "αγοράζω",
+   "gloss": "to buy",
+   "aorist_1sg": "αγόρασα",
+   "future_1sg": "αγοράσω",
+   "past_group": null
+  },
+  {
+   "present": "ακούω",
+   "gloss": "to hear, to listen",
+   "aorist_1sg": "άκουσα",
+   "future_1sg": "ακούσω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "αλλάζω",
+   "gloss": "to change",
+   "aorist_1sg": "άλλαξα",
+   "future_1sg": "αλλάξω",
+   "past_group": null
+  },
+  {
+   "present": "ανεβαίνω",
+   "gloss": "to go up",
+   "aorist_1sg": "ανέβηκα",
+   "future_1sg": "ανέβω / ανεβώ",
+   "past_group": null
+  },
+  {
+   "present": "ανοίγω",
+   "gloss": "to open",
+   "aorist_1sg": "άνοιξα",
+   "future_1sg": "ανοίξω",
+   "past_group": "regular"
+  },
+  {
+   "present": "απαντάω/-ώ",
+   "gloss": "to answer, to reply",
+   "aorist_1sg": "απάντησα",
+   "future_1sg": "απαντήσω",
+   "past_group": null
+  },
+  {
+   "present": "αρέσει",
+   "gloss": "to like (3sg)",
+   "aorist_1sg": "άρεσε",
+   "future_1sg": "αρέσει (θα only)",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "αρχίζω",
+   "gloss": "to begin, to start",
+   "aorist_1sg": "άρχισα",
+   "future_1sg": "αρχίσω",
+   "past_group": null
+  },
+  {
+   "present": "αφήνω",
+   "gloss": "to leave, to let",
+   "aorist_1sg": "άφησα",
+   "future_1sg": "αφήσω",
+   "past_group": null
+  },
+  {
+   "present": "βάζω",
+   "gloss": "to put",
+   "aorist_1sg": "έβαλα",
+   "future_1sg": "βάλω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "βγάζω",
+   "gloss": "to take out, to remove",
+   "aorist_1sg": "έβγαλα",
+   "future_1sg": "βγάλω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "βγαίνω",
+   "gloss": "to go out",
+   "aorist_1sg": "βγήκα",
+   "future_1sg": "βγω",
+   "past_group": "irregular_1"
+  },
+  {
+   "present": "βλέπω",
+   "gloss": "to see, to watch",
+   "aorist_1sg": "είδα",
+   "future_1sg": "δω",
+   "past_group": "irregular_1"
+  },
+  {
+   "present": "βρέχει",
+   "gloss": "it rains",
+   "aorist_1sg": "έβρεξε",
+   "future_1sg": "βρέξει",
+   "past_group": null
+  },
+  {
+   "present": "βρίσκω",
+   "gloss": "to find",
+   "aorist_1sg": "βρήκα",
+   "future_1sg": "βρω",
+   "past_group": "irregular_1"
+  },
+  {
+   "present": "γελάω/-ώ",
+   "gloss": "to laugh",
+   "aorist_1sg": "γέλασα",
+   "future_1sg": "γελάσω",
+   "past_group": null
+  },
+  {
+   "present": "γίνομαι",
+   "gloss": "to become",
+   "aorist_1sg": "έγινα",
+   "future_1sg": "γίνω",
+   "past_group": null
+  },
+  {
+   "present": "γράφω",
+   "gloss": "to write",
+   "aorist_1sg": "έγραψα",
+   "future_1sg": "γράψω",
+   "past_group": "regular"
+  },
+  {
+   "present": "γυρίζω",
+   "gloss": "to turn, to return",
+   "aorist_1sg": "γύρισα",
+   "future_1sg": "γυρίσω",
+   "past_group": "regular"
+  },
+  {
+   "present": "διαβάζω",
+   "gloss": "to read, to study",
+   "aorist_1sg": "διάβασα",
+   "future_1sg": "διαβάσω",
+   "past_group": null
+  },
+  {
+   "present": "δίνω",
+   "gloss": "to give",
+   "aorist_1sg": "έδωσα",
+   "future_1sg": "δώσω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "διψάω/-ώ",
+   "gloss": "to be thirsty",
+   "aorist_1sg": "δίψασα",
+   "future_1sg": "διψάσω",
+   "past_group": null
+  },
+  {
+   "present": "δουλεύω",
+   "gloss": "to work",
+   "aorist_1sg": "δούλεψα",
+   "future_1sg": "δουλέψω",
+   "past_group": "regular"
+  },
+  {
+   "present": "είμαι",
+   "gloss": "to be",
+   "aorist_1sg": "ήμουν(α)",
+   "future_1sg": "είμαι",
+   "past_group": null
+  },
+  {
+   "present": "έρχομαι",
+   "gloss": "to come",
+   "aorist_1sg": "ήρθα",
+   "future_1sg": "έρθω",
+   "past_group": "irregular_1"
+  },
+  {
+   "present": "έχω",
+   "gloss": "to have",
+   "aorist_1sg": "είχα",
+   "future_1sg": "έχω",
+   "past_group": "irregular_1"
+  },
+  {
+   "present": "ζεσταίνομαι",
+   "gloss": "to be hot",
+   "aorist_1sg": "ζεστάθηκα",
+   "future_1sg": "ζεσταθώ",
+   "past_group": null
+  },
+  {
+   "present": "ζητάω/-ώ",
+   "gloss": "to ask for (request)",
+   "aorist_1sg": "ζήτησα",
+   "future_1sg": "ζητήσω",
+   "past_group": null
+  },
+  {
+   "present": "ζω",
+   "gloss": "to live, to be alive",
+   "aorist_1sg": "έζησα",
+   "future_1sg": "ζήσω",
+   "past_group": null
+  },
+  {
+   "present": "θέλω",
+   "gloss": "to want",
+   "aorist_1sg": "ήθελα (θέλησα)",
+   "future_1sg": "θέλω (θελήσω)",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "θυμάμαι",
+   "gloss": "to remember",
+   "aorist_1sg": "θυμήθηκα",
+   "future_1sg": "θυμηθώ",
+   "past_group": null
+  },
+  {
+   "present": "κάθομαι",
+   "gloss": "to sit",
+   "aorist_1sg": "κάθισα",
+   "future_1sg": "καθίσω",
+   "past_group": null
+  },
+  {
+   "present": "καίω",
+   "gloss": "to burn",
+   "aorist_1sg": "έκαψα",
+   "future_1sg": "κάψω",
+   "past_group": null
+  },
+  {
+   "present": "κάνω",
+   "gloss": "to do",
+   "aorist_1sg": "έκανα",
+   "future_1sg": "κάνω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "καταλαβαίνω",
+   "gloss": "to understand, to realize",
+   "aorist_1sg": "κατάλαβα",
+   "future_1sg": "καταλάβω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "κατεβαίνω",
+   "gloss": "to go down",
+   "aorist_1sg": "κατέβηκα",
+   "future_1sg": "κατέβω / κατεβώ",
+   "past_group": null
+  },
+  {
+   "present": "κλαίω",
+   "gloss": "to cry",
+   "aorist_1sg": "έκλαψα",
+   "future_1sg": "κλάψω",
+   "past_group": null
+  },
+  {
+   "present": "κλείνω",
+   "gloss": "to close",
+   "aorist_1sg": "έκλεισα",
+   "future_1sg": "κλείσω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "κόβω",
+   "gloss": "to cut, to slice",
+   "aorist_1sg": "έκοψα",
+   "future_1sg": "κόψω",
+   "past_group": "regular"
+  },
+  {
+   "present": "κοιμάμαι",
+   "gloss": "to sleep",
+   "aorist_1sg": "κοιμήθηκα",
+   "future_1sg": "κοιμηθώ",
+   "past_group": null
+  },
+  {
+   "present": "κοιτάζω",
+   "gloss": "to look, to stare",
+   "aorist_1sg": "κοίταξα",
+   "future_1sg": "κοιτάξω",
+   "past_group": null
+  },
+  {
+   "present": "κρατάω/-ώ",
+   "gloss": "to hold, to last",
+   "aorist_1sg": "κράτησα",
+   "future_1sg": "κρατήσω",
+   "past_group": null
+  },
+  {
+   "present": "κρύβω",
+   "gloss": "to hide",
+   "aorist_1sg": "έκρυψα",
+   "future_1sg": "κρύψω",
+   "past_group": "regular"
+  },
+  {
+   "present": "κρυώνω",
+   "gloss": "to be cold",
+   "aorist_1sg": "κρύωσα",
+   "future_1sg": "κρυώσω",
+   "past_group": null
+  },
+  {
+   "present": "λέω",
+   "gloss": "to say, to tell",
+   "aorist_1sg": "είπα",
+   "future_1sg": "πω",
+   "past_group": "irregular_1"
+  },
+  {
+   "present": "λυπάμαι",
+   "gloss": "to feel sorry, to be sorry",
+   "aorist_1sg": "λυπήθηκα",
+   "future_1sg": "λυπηθώ",
+   "past_group": null
+  },
+  {
+   "present": "μαγειρεύω",
+   "gloss": "to cook",
+   "aorist_1sg": "μαγείρεψα",
+   "future_1sg": "μαγειρέψω",
+   "past_group": null
+  },
+  {
+   "present": "μαθαίνω",
+   "gloss": "to learn",
+   "aorist_1sg": "έμαθα",
+   "future_1sg": "μάθω",
+   "past_group": null
+  },
+  {
+   "present": "μένω",
+   "gloss": "to live, to stay",
+   "aorist_1sg": "έμεινα",
+   "future_1sg": "μείνω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "μετράω/-ώ",
+   "gloss": "to count, to measure",
+   "aorist_1sg": "μέτρησα",
+   "future_1sg": "μετρήσω",
+   "past_group": null
+  },
+  {
+   "present": "μιλάω/-ώ",
+   "gloss": "to speak, to talk",
+   "aorist_1sg": "μίλησα",
+   "future_1sg": "μιλήσω",
+   "past_group": null
+  },
+  {
+   "present": "μπαίνω",
+   "gloss": "to enter, to go in",
+   "aorist_1sg": "μπήκα",
+   "future_1sg": "μπω",
+   "past_group": "irregular_1"
+  },
+  {
+   "present": "μπορεί",
+   "gloss": "may, might (impersonal)",
+   "aorist_1sg": null,
+   "future_1sg": null,
+   "past_group": null
+  },
+  {
+   "present": "μπορώ",
+   "gloss": "can",
+   "aorist_1sg": "μπόρεσα",
+   "future_1sg": "μπορέσω",
+   "past_group": null
+  },
+  {
+   "present": "νομίζω",
+   "gloss": "to think, to believe",
+   "aorist_1sg": "νόμισα",
+   "future_1sg": "νομίσω",
+   "past_group": null
+  },
+  {
+   "present": "νυστάζω",
+   "gloss": "to be sleepy",
+   "aorist_1sg": "νύσταξα",
+   "future_1sg": "νυστάξω",
+   "past_group": null
+  },
+  {
+   "present": "ξέρω",
+   "gloss": "to know",
+   "aorist_1sg": "ήξερα",
+   "future_1sg": "ξέρω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "ξυπνάω/-ώ",
+   "gloss": "to wake up",
+   "aorist_1sg": "ξύπνησα",
+   "future_1sg": "ξυπνήσω",
+   "past_group": null
+  },
+  {
+   "present": "οδηγώ",
+   "gloss": "to drive",
+   "aorist_1sg": "οδήγησα",
+   "future_1sg": "οδηγήσω",
+   "past_group": null
+  },
+  {
+   "present": "παίζω",
+   "gloss": "to play",
+   "aorist_1sg": "έπαιξα",
+   "future_1sg": "παίξω",
+   "past_group": null
+  },
+  {
+   "present": "παίρνω",
+   "gloss": "to take, to get",
+   "aorist_1sg": "πήρα",
+   "future_1sg": "πάρω",
+   "past_group": "irregular_1"
+  },
+  {
+   "present": "πάω / πηγαίνω",
+   "gloss": "to go",
+   "aorist_1sg": "πήγα",
+   "future_1sg": "πάω",
+   "past_group": "irregular_1"
+  },
+  {
+   "present": "πεινάω/-ώ",
+   "gloss": "to be hungry",
+   "aorist_1sg": "πείνασα",
+   "future_1sg": "πεινάσω",
+   "past_group": null
+  },
+  {
+   "present": "περιμένω",
+   "gloss": "to wait",
+   "aorist_1sg": "περίμενα",
+   "future_1sg": "περιμένω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "περνάω/-ώ",
+   "gloss": "to pass, to cross",
+   "aorist_1sg": "πέρασα",
+   "future_1sg": "περάσω",
+   "past_group": null
+  },
+  {
+   "present": "περπατάω/-ώ",
+   "gloss": "to walk",
+   "aorist_1sg": "περπάτησα",
+   "future_1sg": "περπατήσω",
+   "past_group": null
+  },
+  {
+   "present": "πέφτω",
+   "gloss": "to fall",
+   "aorist_1sg": "έπεσα",
+   "future_1sg": "πέσω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "πίνω",
+   "gloss": "to drink",
+   "aorist_1sg": "ήπια",
+   "future_1sg": "πιω",
+   "past_group": "irregular_1"
+  },
+  {
+   "present": "πλένω",
+   "gloss": "to wash",
+   "aorist_1sg": "έπλυνα",
+   "future_1sg": "πλύνω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "πρέπει",
+   "gloss": "must, have to (impersonal)",
+   "aorist_1sg": "έπρεπε",
+   "future_1sg": "πρέπει (θα only)",
+   "past_group": null
+  },
+  {
+   "present": "προσπαθώ",
+   "gloss": "to try",
+   "aorist_1sg": "προσπάθησα",
+   "future_1sg": "προσπαθήσω",
+   "past_group": null
+  },
+  {
+   "present": "προτιμάω/-ώ",
+   "gloss": "to prefer",
+   "aorist_1sg": "προτίμησα",
+   "future_1sg": "προτιμήσω",
+   "past_group": null
+  },
+  {
+   "present": "ρίχνω",
+   "gloss": "to throw",
+   "aorist_1sg": "έριξα",
+   "future_1sg": "ρίξω",
+   "past_group": "regular"
+  },
+  {
+   "present": "ρωτάω/-ώ",
+   "gloss": "to ask (a question)",
+   "aorist_1sg": "ρώτησα",
+   "future_1sg": "ρωτήσω",
+   "past_group": null
+  },
+  {
+   "present": "σημαίνει",
+   "gloss": "to mean (3sg)",
+   "aorist_1sg": "σήμαινε",
+   "future_1sg": "(σημάνει, θα only)",
+   "past_group": null
+  },
+  {
+   "present": "σκέφτομαι",
+   "gloss": "to think",
+   "aorist_1sg": "σκέφτηκα",
+   "future_1sg": "σκεφτώ",
+   "past_group": null
+  },
+  {
+   "present": "σπουδάζω",
+   "gloss": "to study (be a student)",
+   "aorist_1sg": "σπούδασα",
+   "future_1sg": "σπουδάσω",
+   "past_group": null
+  },
+  {
+   "present": "σπρώχνω",
+   "gloss": "to push",
+   "aorist_1sg": "έσπρωξα",
+   "future_1sg": "σπρώξω",
+   "past_group": "regular"
+  },
+  {
+   "present": "σταματάω/-ώ",
+   "gloss": "to stop",
+   "aorist_1sg": "σταμάτησα",
+   "future_1sg": "σταματήσω",
+   "past_group": null
+  },
+  {
+   "present": "στέλνω",
+   "gloss": "to send",
+   "aorist_1sg": "έστειλα",
+   "future_1sg": "στείλω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "τελειώνω",
+   "gloss": "to end, to finish",
+   "aorist_1sg": "τελείωσα / τέλειωσα",
+   "future_1sg": "τελειώσω",
+   "past_group": "regular"
+  },
+  {
+   "present": "τηλεφωνώ",
+   "gloss": "to call",
+   "aorist_1sg": "τηλεφώνησα",
+   "future_1sg": "τηλεφωνήσω",
+   "past_group": null
+  },
+  {
+   "present": "τρέχω",
+   "gloss": "to run",
+   "aorist_1sg": "έτρεξα",
+   "future_1sg": "τρέξω",
+   "past_group": "regular"
+  },
+  {
+   "present": "τρώω",
+   "gloss": "to eat",
+   "aorist_1sg": "έφαγα",
+   "future_1sg": "φάω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "υπάρχει",
+   "gloss": "there is (3sg)",
+   "aorist_1sg": "υπήρχε (υπήρξε)",
+   "future_1sg": "υπάρχει (υπάρξει)",
+   "past_group": null
+  },
+  {
+   "present": "φέρνω",
+   "gloss": "to bring, to fetch",
+   "aorist_1sg": "έφερα",
+   "future_1sg": "φέρω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "φεύγω",
+   "gloss": "to leave",
+   "aorist_1sg": "έφυγα",
+   "future_1sg": "φύγω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "φοβάμαι",
+   "gloss": "to be afraid, to fear",
+   "aorist_1sg": "φοβήθηκα",
+   "future_1sg": "φοβηθώ",
+   "past_group": null
+  },
+  {
+   "present": "φοράω/-ώ",
+   "gloss": "to wear",
+   "aorist_1sg": "φόρεσα",
+   "future_1sg": "φορέσω",
+   "past_group": null
+  },
+  {
+   "present": "φταίω",
+   "gloss": "to be to blame",
+   "aorist_1sg": "έφταιξα",
+   "future_1sg": "φταίξω",
+   "past_group": null
+  },
+  {
+   "present": "φτάνω",
+   "gloss": "to arrive",
+   "aorist_1sg": "έφτασα",
+   "future_1sg": "φτάσω",
+   "past_group": "irregular_2"
+  },
+  {
+   "present": "φτιάχνω",
+   "gloss": "to make, to fix",
+   "aorist_1sg": "έφτιαξα",
+   "future_1sg": "φτιάξω",
+   "past_group": "regular"
+  },
+  {
+   "present": "χάνω",
+   "gloss": "to lose, to miss",
+   "aorist_1sg": "έχασα",
+   "future_1sg": "χάσω",
+   "past_group": null
+  },
+  {
+   "present": "χορεύω",
+   "gloss": "to dance",
+   "aorist_1sg": "χόρεψα",
+   "future_1sg": "χορέψω",
+   "past_group": "regular"
+  },
+  {
+   "present": "χρειάζομαι",
+   "gloss": "to need",
+   "aorist_1sg": "χρειάστηκα",
+   "future_1sg": "χρειαστώ",
+   "past_group": null
+  },
+  {
+   "present": "χρησιμοποιώ",
+   "gloss": "to use",
+   "aorist_1sg": "χρησιμοποίησα",
+   "future_1sg": "χρησιμοποιήσω",
+   "past_group": null
+  },
+  {
+   "present": "ψάχνω",
+   "gloss": "to look for, to search",
+   "aorist_1sg": "έψαξα",
+   "future_1sg": "ψάξω",
+   "past_group": null
+  },
+  {
+   "present": "ψωνίζω",
+   "gloss": "to shop",
+   "aorist_1sg": "ψώνισα",
+   "future_1sg": "ψωνίσω",
+   "past_group": null
+  }
+ ]
+}

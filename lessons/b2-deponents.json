@@ -1,0 +1,583 @@
+{
+ "el": "Αποθετικά",
+ "title": "Deponents: αισθάνομαι, εργάζομαι, έρχομαι, κάθομαι",
+ "section": "B2 · Holton §6.6, §6.11",
+ "goal": "Use the everyday deponents in every tense, including the -άμαι group and the semi-deponents.",
+ "blocks": [
+  {
+   "type": "rules",
+   "src": "grammar/verbs-holton.json#sections[section=6.6].rule",
+   "cite": "Holton §6.6"
+  },
+  {
+   "type": "table",
+   "title": "Deponents you need at B2",
+   "head": [
+    "Present",
+    "Simple past",
+    "Dependent",
+    "Imperative"
+   ],
+   "rows": [
+    [
+     "αισθάνομαι 'feel'",
+     "αισθάνθηκα",
+     "αισθανθώ",
+     "—"
+    ],
+    [
+     "εργάζομαι 'work'",
+     "εργάστηκα",
+     "εργαστώ",
+     "—"
+    ],
+    [
+     "δέχομαι 'accept'",
+     "δέχτηκα",
+     "δεχτώ",
+     "δέξου, δεχτείτε"
+    ],
+    [
+     "ντρέπομαι 'be ashamed'",
+     "ντράπηκα",
+     "ντραπώ",
+     "ντράψου"
+    ],
+    [
+     "φαίνομαι 'seem'",
+     "φάνηκα",
+     "φανώ",
+     "φανείτε"
+    ],
+    [
+     "σκέφτομαι 'think'",
+     "σκέφτηκα",
+     "σκεφτώ",
+     "σκέψου, σκεφτείτε"
+    ],
+    [
+     "υπόσχομαι 'promise'",
+     "υποσχέθηκα",
+     "υποσχεθώ",
+     "υποσχέσου"
+    ],
+    [
+     "αρνούμαι 'refuse'",
+     "αρνήθηκα",
+     "αρνηθώ",
+     "—"
+    ],
+    [
+     "θυμάμαι 'remember'",
+     "θυμήθηκα",
+     "θυμηθώ",
+     "θυμήσου, θυμηθείτε"
+    ],
+    [
+     "κοιμάμαι 'sleep'",
+     "κοιμήθηκα",
+     "κοιμηθώ",
+     "κοιμήσου, κοιμηθείτε"
+    ],
+    [
+     "λυπάμαι 'be sorry'",
+     "λυπήθηκα",
+     "λυπηθώ",
+     "λυπήσου"
+    ],
+    [
+     "φοβάμαι 'fear'",
+     "φοβήθηκα",
+     "φοβηθώ",
+     "μη φοβάσαι"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Semi-deponents",
+   "text": "**έρχομαι**, **κάθομαι** and **γίνομαι** are passive only in the present and imperfect (ερχόμουν, καθόμουν, γινόταν). Everywhere else they switch to active endings: **ήρθα / θα έρθω / έλα, ελάτε**; **κάθισα (έκατσα) / θα καθίσω (κάτσω) / κάθισε (κάτσε), καθίστε**; **έγινα / θα γίνω / γίνε**. The perfect follows: έχω έρθει, έχω καθίσει, έχει γίνει."
+  },
+  {
+   "type": "verb-paradigm",
+   "columns": [
+    {
+     "label": "present",
+     "src": "grammar/verbs-holton.json#sections[section=6.11].paradigm.present"
+    },
+    {
+     "label": "imperfect",
+     "src": "grammar/verbs-holton.json#sections[section=6.11].paradigm.imperfect"
+    }
+   ],
+   "cite": "Holton §6.11"
+  },
+  {
+   "type": "rules",
+   "src": "grammar/verbs-holton.json#sections[section=6.11].rule",
+   "pick": [
+    1,
+    2
+   ],
+   "cite": "Holton §6.11"
+  },
+  {
+   "type": "callout",
+   "text": "**αρνούμαι** type (also μιμούμαι, εξαρτώμαι 'depend', θεωρούμαι 'be considered'): αρνούμαι, αρνείσαι, αρνείται, αρνούμαστε, αρνείστε, αρνούνται. This is the formal 2nd-conjugation passive, common in written Greek: *Εξαρτάται από σένα* 'It depends on you'; *Θεωρείται ο καλύτερος* 'He is considered the best'."
+  },
+  {
+   "type": "culture",
+   "title": "Έλα, κάτσε, φαίνεται",
+   "text": "The semi-deponent imperatives are among the most frequent words in spoken Greek, and they are mostly not literal. **Έλα** 'come' is how you answer the phone to someone you know, and it also means 'come on!' or 'really?'. **Κάτσε** 'sit' (from κάθομαι) usually means 'hang on': **Κάτσε να σου πω** 'wait, let me tell you'. **Φαίνεται** on its own answers 'apparently, so it seems'. With strangers, on the phone or at a counter, people say **Παρακαλώ** or **Ναι;** instead, and a waiter or doctor will use the polite plurals **ελάτε** and **καθίστε**."
+  },
+  {
+   "type": "examples",
+   "src": "grammar/verbs-holton.json#sections[section=6.6].examples",
+   "cite": "Holton §6.6"
+  },
+  {
+   "type": "reading",
+   "title": "Γράμμα από τη Θεσσαλονίκη",
+   "text": "Αγαπητή Ελένη,\n\nσυγγνώμη που άργησα τόσο να σου γράψω. Από τότε που ήρθα στη Θεσσαλονίκη, εργάζομαι σε μια εταιρεία λογισμικού και τις πρώτες εβδομάδες δεν καθόμουν ούτε λεπτό. Ειλικρινά, στην αρχή αισθανόμουν λίγο χαμένη: δεν ήξερα κανέναν και φοβόμουν ότι δεν θα τα καταφέρω.\n\nΘυμάσαι που μου έλεγες ότι οι Θεσσαλονικείς είναι πιο χαλαροί από τους Αθηναίους; Τελικά είχες δίκιο. Οι συνάδελφοί μου κάθονται για καφέ στην παραλία κάθε απόγευμα και δεν βιάζονται ποτέ. Την πρώτη φορά που με κάλεσαν, ντράπηκα λίγο και αρνήθηκα, γιατί σκέφτηκα ότι έπρεπε να μείνω στο γραφείο. Τη δεύτερη φορά δέχτηκα, και από τότε κάθομαι μαζί τους σχεδόν κάθε μέρα.\n\nΗ δουλειά μού αρέσει πολύ. Ο προϊστάμενός μου είναι απαιτητικός, αλλά δεν θυμώνει ποτέ, και όταν κάνω κάποιο λάθος, δεν ντρέπομαι πια να το πω. Χθες μάλιστα μου είπε ότι θεωρούμαι από τα πιο γρήγορα μέλη της ομάδας! Βέβαια, ακόμα κουράζομαι εύκολα, και κάποια βράδια αισθάνομαι ότι σκέφτομαι μόνο κώδικα.\n\nΤο διαμέρισμά μου είναι μικρό, αλλά από το μπαλκόνι φαίνεται η θάλασσα. Το μόνο πρόβλημα είναι ο θόρυβος: τα Σαββατοκύριακα δεν κοιμάμαι πριν από τις δύο, γιατί από κάτω έχει ένα μπαράκι. Όλα εξαρτώνται από τη συνήθεια, λένε. Θα δούμε.\n\nΜου λείπεις πολύ. Σου υπόσχομαι ότι θα έρθω στην Αθήνα τα Χριστούγεννα, αλλά καλύτερα να έρθεις εσύ πρώτη. Έλα τον Οκτώβριο, για τα Δημήτρια! Θα σε πάω στην Άνω Πόλη και θα καθίσουμε σε ένα ταβερνάκι που θεωρείται το καλύτερο της πόλης. Σκέψου το και απάντησέ μου σύντομα.\n\nΦιλιά,\nΜαρίνα",
+   "en": "Dear Eleni,\n\nsorry it took me so long to write to you. Since I came to Thessaloniki, I've been working at a software company, and for the first few weeks I didn't sit down for a minute. Honestly, at first I felt a bit lost: I didn't know anyone and I was afraid I wouldn't manage.\n\nRemember how you used to tell me that people from Thessaloniki are more laid-back than Athenians? You were right after all. My colleagues sit down for coffee on the seafront every afternoon and they are never in a hurry. The first time they invited me, I was a bit shy and said no, because I thought I ought to stay at the office. The second time I accepted, and since then I sit with them almost every day.\n\nI really like the job. My boss is demanding, but he never gets angry, and when I make a mistake I'm no longer ashamed to say so. Yesterday he even told me that I'm considered one of the fastest members of the team! Of course, I still get tired easily, and some evenings I feel that I think only in code.\n\nMy flat is small, but you can see the sea from the balcony. The only problem is the noise: at weekends I don't get to sleep before two, because there's a little bar downstairs. It's all a matter of getting used to it, they say. We'll see.\n\nI miss you a lot. I promise I'll come to Athens at Christmas, but it would be better if you came first. Come in October, for the Dimitria festival! I'll take you to the Upper Town and we'll sit in a little taverna that is considered the best in the city. Think about it and answer me soon.\n\nLove,\nMarina",
+   "gloss": {
+    "Ελένη": "Ελένη — Eleni (woman's name)",
+    "Μαρίνα": "Μαρίνα — Marina (woman's name)",
+    "λογισμικού": "λογισμικό — software (gen.)",
+    "κανέναν": "κανένας — nobody, anyone (acc.)",
+    "έλεγες": "λέω — you used to say (imperfect)",
+    "Θεσσαλονικείς": "Θεσσαλονικεύς — people of Thessaloniki (formal pl.; everyday Θεσσαλονικιοί)",
+    "χαλαροί": "χαλαρός — relaxed, laid-back (pl.)",
+    "Αθηναίους": "Αθηναίος — Athenian (acc. pl.)",
+    "βιάζονται": "βιάζομαι — be in a hurry (deponent)",
+    "προϊστάμενός": "προϊστάμενος — boss, supervisor (extra accent before μου)",
+    "απαιτητικός": "απαιτητικός — demanding",
+    "θυμώνει": "θυμώνω — get angry",
+    "θεωρούμαι": "θεωρούμαι — I am considered (αρνούμαι type)",
+    "θεωρείται": "θεωρούμαι — is considered (3sg)",
+    "κουράζομαι": "κουράζομαι — I get tired",
+    "κάποια": "κάποιος — some (κάποια βράδια 'some evenings')",
+    "μπαράκι": "μπαράκι — little bar (diminutive of μπαρ)",
+    "εξαρτώνται": "εξαρτώμαι — depend (3pl); όλα εξαρτώνται από 'it all depends on'",
+    "Δημήτρια": "Δημήτρια — the Dimitria, Thessaloniki's autumn cultural festival",
+    "Άνω": "άνω — upper; Άνω Πόλη 'Upper Town' (old quarter of Thessaloniki)",
+    "ταβερνάκι": "ταβερνάκι — little taverna (diminutive)",
+    "ταβέρνα": "ταβέρνα — taverna",
+    "Σκέψου": "σκέφτομαι — think (imperative σκέψου 'think about it')",
+    "πρόσκληση": "πρόσκληση — invitation"
+   },
+   "questions": [
+    {
+     "prompt": "Πού εργάζεται η Μαρίνα;",
+     "answer": "Σε μια εταιρεία λογισμικού",
+     "options": [
+      "Σε μια εταιρεία λογισμικού",
+      "Σε ένα μπαράκι",
+      "Σε μια ταβέρνα στην Άνω Πόλη"
+     ]
+    },
+    {
+     "prompt": "Γιατί αρνήθηκε την πρώτη πρόσκληση;",
+     "answer": "Σκέφτηκε ότι έπρεπε να μείνει στο γραφείο",
+     "options": [
+      "Σκέφτηκε ότι έπρεπε να μείνει στο γραφείο",
+      "Δεν της αρέσει ο καφές",
+      "Φοβόταν τους συναδέλφους της"
+     ]
+    },
+    {
+     "prompt": "Ποιο είναι το πρόβλημα του διαμερίσματος;",
+     "answer": "Ο θόρυβος τα Σαββατοκύριακα",
+     "options": [
+      "Ο θόρυβος τα Σαββατοκύριακα",
+      "Δεν φαίνεται η θάλασσα",
+      "Είναι πολύ ακριβό"
+     ]
+    },
+    {
+     "prompt": "Τι προτείνει η Μαρίνα στην Ελένη;",
+     "answer": "Να έρθει στη Θεσσαλονίκη τον Οκτώβριο",
+     "options": [
+      "Να έρθει στη Θεσσαλονίκη τον Οκτώβριο",
+      "Να βρεθούν στην Αθήνα τα Χριστούγεννα",
+      "Να μετακομίσει στη Θεσσαλονίκη"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/verbs-holton.json#sections[section=6.11].paradigm.present",
+   "lemma": "κοιμάμαι",
+   "prompt": "Write out the present of **κοιμάμαι**.",
+   "given": 1
+  },
+  {
+   "gen": "type",
+   "n": 12,
+   "items": [
+    {
+     "prompt": "**αισθάνομαι**, simple past: ___ άσχημα χθες (εγώ).",
+     "answer": "αισθάνθηκα",
+     "why": "αισθάνομαι → αισθάνθηκα."
+    },
+    {
+     "prompt": "**εργάζομαι**, simple past: ___ δέκα χρόνια εκεί (εκείνη).",
+     "answer": "εργάστηκε",
+     "why": "εργάζομαι → εργάστηκα, εργάστηκε."
+    },
+    {
+     "prompt": "**δέχομαι**, dependent: Δεν θα το ___ ποτέ (εγώ).",
+     "answer": "δεχτώ",
+     "why": "δέχτηκα → θα δεχτώ."
+    },
+    {
+     "prompt": "**θυμάμαι**, simple past: Δεν ___ το όνομά του (εγώ).",
+     "answer": "θυμήθηκα",
+     "why": "-άμαι verbs: θυμήθηκα, like a 2nd-conjugation passive."
+    },
+    {
+     "prompt": "**κοιμάμαι**, imperfect: Τι ώρα ___ (εσύ);",
+     "answer": "κοιμόσουν",
+     "accept": [
+      "κοιμόσουν",
+      "κοιμόσουνα"
+     ],
+     "why": "Imperfect κοιμόμουν, κοιμόσουν(α)…"
+    },
+    {
+     "prompt": "**φοβάμαι**, present: Τα παιδιά ___ το σκοτάδι.",
+     "answer": "φοβούνται",
+     "why": "φοβάμαι, φοβάσαι, φοβάται, φοβόμαστε, φοβάστε, φοβούνται."
+    },
+    {
+     "prompt": "**λυπάμαι**, present: ___ πολύ (εμείς).",
+     "answer": "λυπόμαστε",
+     "why": "1pl -όμαστε."
+    },
+    {
+     "prompt": "**θυμάμαι**, imperative: ___ να πάρεις κλειδιά! (εσύ)",
+     "answer": "θυμήσου",
+     "why": "Perfective imperative -ήσου."
+    },
+    {
+     "prompt": "**έρχομαι**, imperative plural: ___ μέσα!",
+     "answer": "ελάτε",
+     "why": "Semi-deponent: έλα, ελάτε."
+    },
+    {
+     "prompt": "**κάθομαι**, imperative plural: ___, παρακαλώ.",
+     "answer": "καθίστε",
+     "why": "κάθισε (κάτσε), καθίστε."
+    },
+    {
+     "prompt": "**κάθομαι**, simple past: ___ δίπλα του (εγώ).",
+     "answer": "κάθισα",
+     "accept": [
+      "κάθισα",
+      "έκατσα"
+     ],
+     "why": "Active past: κάθισα (έκατσα)."
+    },
+    {
+     "prompt": "**έρχομαι**, perfect: Έχουν ___ όλοι;",
+     "answer": "έρθει",
+     "accept": [
+      "έρθει",
+      "έλθει"
+     ],
+     "why": "Active non-finite: έχω έρθει."
+    },
+    {
+     "prompt": "**γίνομαι**, perfect: Τι έχει ___;",
+     "answer": "γίνει",
+     "why": "έγινα → έχει γίνει."
+    },
+    {
+     "prompt": "**αρνούμαι**, present: ___ να απαντήσει (αυτός).",
+     "answer": "αρνείται",
+     "why": "αρνούμαι, αρνείσαι, αρνείται."
+    },
+    {
+     "prompt": "**εξαρτώμαι**, present: ___ από τον καιρό (αυτό).",
+     "answer": "εξαρτάται",
+     "why": "Fixed form: εξαρτάται 'it depends'."
+    },
+    {
+     "prompt": "**θεωρούμαι**, present: ___ από τους καλύτερους (αυτοί).",
+     "answer": "θεωρούνται",
+     "why": "θεωρούμαι, θεωρείσαι, θεωρείται… θεωρούνται."
+    },
+    {
+     "prompt": "**ντρέπομαι**, simple past: ___ πολύ (εγώ).",
+     "answer": "ντράπηκα",
+     "why": "ντρέπομαι → ντράπηκα."
+    },
+    {
+     "prompt": "**υπόσχομαι**, simple past: Μου ___ ότι θα έρθει (αυτή).",
+     "answer": "υποσχέθηκε",
+     "why": "υπόσχομαι → υποσχέθηκα."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Μου ___ ότι είσαι κουρασμένος.",
+     "answer": "φαίνεται",
+     "options": [
+      "φαίνεται",
+      "φαίνει",
+      "φαίνομαι"
+     ],
+     "why": "Impersonal φαίνεται 'it seems'."
+    },
+    {
+     "prompt": "Κάθε μέρα ___ στο ίδιο καφενείο. (habit, past)",
+     "answer": "καθόταν",
+     "options": [
+      "καθόταν",
+      "κάθισε",
+      "κάθεται"
+     ],
+     "why": "Repeated past: imperfect, which is still passive in form."
+    },
+    {
+     "prompt": "Δεν ___ να ξανάρθεις. (πρόκειται)",
+     "answer": "πρόκειται",
+     "options": [
+      "πρόκειται",
+      "προκείται",
+      "πρόκεισαι"
+     ],
+     "why": "Impersonal: always 3sg πρόκειται."
+    }
+   ]
+  },
+  {
+   "gen": "review",
+   "tag": "verb",
+   "n": 3
+  },
+  {
+   "gen": "type",
+   "n": 10,
+   "items": [
+    {
+     "prompt": "Όταν ήμουν παιδί, ___ το σκοτάδι. (φοβάμαι, imperfect, εγώ)",
+     "answer": "φοβόμουν",
+     "accept": [
+      "φοβόμουν",
+      "φοβόμουνα"
+     ],
+     "why": "-άμαι verbs form the imperfect in -όμουν(α): φοβόμουν, like κοιμόμουν."
+    },
+    {
+     "prompt": "Πού ___ τώρα; (εργάζομαι, εσύ)",
+     "answer": "εργάζεσαι",
+     "accept": [
+      "εργάζεσαι"
+     ],
+     "why": "Present deponent endings: -ομαι, -εσαι, -εται: εργάζεσαι."
+    },
+    {
+     "prompt": "Τι ώρα ___ συνήθως; (κοιμάμαι, εσείς)",
+     "answer": "κοιμάστε",
+     "accept": [
+      "κοιμάστε"
+     ],
+     "why": "κοιμάμαι present: κοιμάμαι, κοιμάσαι, κοιμάται, κοιμόμαστε, κοιμάστε, κοιμούνται."
+    },
+    {
+     "prompt": "Δεν ___ τι έγινε εκείνο το βράδυ. (θυμάμαι, εμείς, present)",
+     "answer": "θυμόμαστε",
+     "accept": [
+      "θυμόμαστε"
+     ],
+     "why": "-άμαι 1pl: θυμόμαστε (stress on -ό-)."
+    },
+    {
+     "prompt": "Έλα, ___ λίγο να τα πούμε! (κάθομαι, imperative εσύ)",
+     "answer": "κάτσε",
+     "accept": [
+      "κάτσε",
+      "κάθισε"
+     ],
+     "why": "κάθομαι has active perfective forms: κάτσε (everyday) or κάθισε."
+    },
+    {
+     "prompt": "___ αύριο στις οκτώ; (έρχομαι, εσύ, future, one occasion)",
+     "answer": "Θα έρθεις",
+     "accept": [
+      "Θα έρθεις",
+      "θα ρθεις"
+     ],
+     "why": "Semi-deponent: the perfective future is active, θα έρθω, θα έρθεις."
+    },
+    {
+     "prompt": "Οι υπουργοί ___ να απαντήσουν. (αρνούμαι, simple past)",
+     "answer": "αρνήθηκαν",
+     "accept": [
+      "αρνήθηκαν"
+     ],
+     "why": "αρνούμαι → αρνήθηκα, 3pl αρνήθηκαν."
+    },
+    {
+     "prompt": "Εκείνη την εποχή ___ σε μια τράπεζα. (εργάζομαι, εμείς, imperfect)",
+     "answer": "εργαζόμασταν",
+     "accept": [
+      "εργαζόμασταν"
+     ],
+     "why": "Deponent imperfect 1pl: -όμασταν, stressed on -ό-."
+    },
+    {
+     "prompt": "Μη ___! Όλα θα πάνε καλά. (φοβάμαι, εσύ)",
+     "answer": "φοβάσαι",
+     "accept": [
+      "φοβάσαι"
+     ],
+     "why": "Deponents form the negative imperative with μη + present: μη φοβάσαι."
+    },
+    {
+     "prompt": "Say in Greek: *I feel better.*",
+     "answer": "Αισθάνομαι καλύτερα",
+     "accept": [
+      "Αισθάνομαι καλύτερα",
+      "Νιώθω καλύτερα"
+     ],
+     "why": "αισθάνομαι is always passive in form; everyday synonym νιώθω."
+    },
+    {
+     "prompt": "Say in Greek: *Think about it!* (σκέφτομαι, εσύ)",
+     "answer": "Σκέψου το",
+     "accept": [
+      "Σκέψου το",
+      "Σκέψου το!"
+     ],
+     "why": "Deponent imperative singular in -σου: σκέψου; the weak pronoun follows."
+    },
+    {
+     "prompt": "Πότε ___ στην Ελλάδα; (έρχομαι, εσύ, simple past)",
+     "answer": "ήρθες",
+     "accept": [
+      "ήρθες",
+      "ήρθατε"
+     ],
+     "why": "Semi-deponent past is active: ήρθα, ήρθες."
+    },
+    {
+     "prompt": "Χθες ___ στο σπίτι όλο το απόγευμα. (κάθομαι, εμείς, simple past)",
+     "answer": "καθίσαμε",
+     "accept": [
+      "καθίσαμε",
+      "κάτσαμε"
+     ],
+     "why": "κάθομαι past is active: κάθισα (καθίσαμε) or colloquial έκατσα (κάτσαμε)."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "n": 6,
+   "items": [
+    {
+     "prompt": "Χθες το βράδυ ___ στις δώδεκα.",
+     "answer": "κοιμήθηκα",
+     "options": [
+      "κοιμήθηκα",
+      "κοιμόμουν",
+      "κοιμάμαι"
+     ],
+     "why": "One completed event at a stated time → simple past κοιμήθηκα."
+    },
+    {
+     "prompt": "Όταν ήμουν φοιτητής, ___ πάντα αργά.",
+     "answer": "κοιμόμουν",
+     "options": [
+      "κοιμόμουν",
+      "κοιμήθηκα",
+      "θα κοιμηθώ"
+     ],
+     "why": "A past habit (πάντα) → imperfect κοιμόμουν."
+    },
+    {
+     "prompt": "Πρέπει να το ___ καλά πριν απαντήσεις.",
+     "answer": "σκεφτείς",
+     "options": [
+      "σκεφτείς",
+      "σκέφτεσαι",
+      "σκέφτηκες"
+     ],
+     "why": "After να, a single act → perfective dependent σκεφτείς."
+    },
+    {
+     "prompt": "___ από τη Θεσσαλονίκη χθες.",
+     "answer": "Ήρθε",
+     "options": [
+      "Ήρθε",
+      "Ερχόταν",
+      "Έρχεται"
+     ],
+     "why": "χθες + completed arrival → active simple past ήρθε."
+    },
+    {
+     "prompt": "Πώς ___ σήμερα;",
+     "answer": "αισθάνεσαι",
+     "options": [
+      "αισθάνεσαι",
+      "αισθάνθηκες",
+      "αισθανθείς"
+     ],
+     "why": "A state right now → present αισθάνεσαι."
+    },
+    {
+     "prompt": "Τελικά ___ την πρότασή τους.",
+     "answer": "δέχτηκα",
+     "options": [
+      "δέχτηκα",
+      "δεχόμουν",
+      "δεχτώ"
+     ],
+     "why": "τελικά marks a single, completed decision → simple past δέχτηκα."
+    },
+    {
+     "prompt": "___ να σας πω ότι η θέση έχει καλυφθεί.",
+     "answer": "Λυπάμαι",
+     "options": [
+      "Λυπάμαι",
+      "Λυπήθηκα",
+      "Λυπηθώ"
+     ],
+     "why": "The polite formula for bad news is present: Λυπάμαι (που / να)…"
+    },
+    {
+     "prompt": "Ξέρεις πότε ___ ο Νίκος;",
+     "answer": "θα έρθει",
+     "options": [
+      "θα έρθει",
+      "θα έρχεται",
+      "έρθει"
+     ],
+     "why": "One future arrival → perfective future θα έρθει; θα έρχεται means repeatedly or in progress."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "αισθάνομαι",
+  "εργάζομαι",
+  "έρχομαι",
+  "κάθομαι",
+  "θυμάμαι",
+  "κοιμάμαι",
+  "φοβάμαι",
+  "σκέφτομαι",
+  "δέχομαι",
+  "υπόσχομαι",
+  "συνάδελφος",
+  "θόρυβος"
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "source": "Modern Greek Verbs Complete Reference (upload 858e7b3d), sections 1 to 3 only; sections 4 onward (subjunctive, imperative, passive, irregulars, particles) not yet extracted",
+ "note": "Source PDF uses the micro sign µ in place of Greek μ; forms here are normalized to μ.",
+ "stems": {
+  "principle": "Imperfective stem: present, imperfect, imperfective future and subjunctive. Perfective stem: aorist, perfective future and subjunctive. Perfect tenses use έχω + invariable form (γράψει).",
+  "perfective_formation": [
+   {
+    "type": "σ-suffix",
+    "imperfective": "γράφ-",
+    "perfective": "γράψ-",
+    "example": "γράφω → έγραψα"
+   },
+   {
+    "type": "ξ-suffix (κ/γ/χ + σ)",
+    "imperfective": "ανοίγ-",
+    "perfective": "ανοίξ-",
+    "example": "ανοίγω → άνοιξα"
+   },
+   {
+    "type": "ψ-suffix (π/β/φ + σ)",
+    "imperfective": "κόβ-",
+    "perfective": "κόψ-",
+    "example": "κόβω → έκοψα"
+   },
+   {
+    "type": "stem vowel alternation",
+    "imperfective": "πιν-",
+    "perfective": "πι-",
+    "example": "πίνω → ήπια"
+   },
+   {
+    "type": "suppletive",
+    "imperfective": "λέ(γ)-",
+    "perfective": "πε-",
+    "example": "λέω → είπα"
+   },
+   {
+    "type": "-ησ- (class B)",
+    "imperfective": "αγαπ-",
+    "perfective": "αγαπήσ-",
+    "example": "αγαπώ → αγάπησα"
+   }
+  ]
+ },
+ "tense_aspect_matrix": {
+  "model": "γράφω",
+  "present": {
+   "imperfective": "γράφω"
+  },
+  "past": {
+   "imperfective": "έγραφα",
+   "perfective": "έγραψα",
+   "perfect": "έχω γράψει"
+  },
+  "past_perfect": {
+   "perfect": "είχα γράψει"
+  },
+  "future": {
+   "imperfective": "θα γράφω",
+   "perfective": "θα γράψω",
+   "perfect": "θα έχω γράψει"
+  }
+ },
+ "endings": {
+  "A_present": {
+   "1sg": "-ω",
+   "2sg": "-εις",
+   "3sg": "-ει",
+   "1pl": "-ουμε",
+   "2pl": "-ετε",
+   "3pl": "-ουν(ε)"
+  },
+  "A_past": {
+   "1sg": "-α",
+   "2sg": "-ες",
+   "3sg": "-ε(ν)",
+   "1pl": "-αμε",
+   "2pl": "-ατε",
+   "3pl": "-αν(ε)"
+  },
+  "past_note": "Imperfect and aorist share endings; they differ by stem and by the augment (stress moves back, or ε- is prefixed when the form would otherwise have fewer than three syllables)."
+ },
+ "present_paradigms": [
+  {
+   "lemma": "γράφω",
+   "gloss": "to write",
+   "class": "A",
+   "forms": {
+    "1sg": "γράφω",
+    "2sg": "γράφεις",
+    "3sg": "γράφει",
+    "1pl": "γράφουμε",
+    "2pl": "γράφετε",
+    "3pl": "γράφουν(ε)"
+   }
+  },
+  {
+   "lemma": "αγαπώ",
+   "gloss": "to love",
+   "class": "B1",
+   "forms": {
+    "1sg": "αγαπώ / αγαπάω",
+    "2sg": "αγαπάς",
+    "3sg": "αγαπά / αγαπάει",
+    "1pl": "αγαπάμε / αγαπούμε",
+    "2pl": "αγαπάτε",
+    "3pl": "αγαπούν(ε) / αγαπάνε"
+   }
+  },
+  {
+   "lemma": "μπορώ",
+   "gloss": "to be able",
+   "class": "B2",
+   "forms": {
+    "1sg": "μπορώ",
+    "2sg": "μπορείς",
+    "3sg": "μπορεί",
+    "1pl": "μπορούμε",
+    "2pl": "μπορείτε",
+    "3pl": "μπορούν(ε)"
+   }
+  }
+ ],
+ "aspect_examples": [
+  {
+   "context": "past narration",
+   "imperfective": [
+    "Διάβαζε όλη μέρα.",
+    "He was reading all day."
+   ],
+   "perfective": [
+    "Διάβασε το βιβλίο.",
+    "He read the book (finished it)."
+   ]
+  },
+  {
+   "context": "habit vs event",
+   "imperfective": [
+    "Έπινε καφέ κάθε πρωί.",
+    "He used to drink coffee every morning."
+   ],
+   "perfective": [
+    "Ήπιε έναν καφέ.",
+    "He drank a coffee (one time)."
+   ]
+  },
+  {
+   "context": "future",
+   "imperfective": [
+    "Θα γράφω όταν έρθεις.",
+    "I'll be writing when you arrive."
+   ],
+   "perfective": [
+    "Θα γράψω μέχρι τις 5.",
+    "I'll write it by 5."
+   ]
+  },
+  {
+   "context": "command",
+   "imperfective": [
+    "Γράφε κάθε μέρα!",
+    "Keep writing every day!"
+   ],
+   "perfective": [
+    "Γράψε αυτή την πρόταση!",
+    "Write this sentence (once, now)!"
+   ]
+  }
+ ]
+}

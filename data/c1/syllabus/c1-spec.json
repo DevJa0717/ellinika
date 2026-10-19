@@ -1,0 +1,938 @@
+{
+ "level": "Γ1 / C1 Modern Greek",
+ "retrieved": "2026-10-18",
+ "sources_note": "Exam structure: CGL 'Δομή εξεταστικών δοκιμασιών Γ1' (spec-docs/g1.pdf) + Οδηγός εξετάσεων 2022; can_do: CGL Γ1 level page (node/102), CGL self-assessment grid (can_do_0.pdf), CEFR 2001 (English, Greek translations by compiler); grammar_inventory: compiled by the compiler from Greek grammar knowledge, anchored with evidence from the official sample papers (the CGL does not publish a Γ1 grammar list beyond the idiom list on the level page).",
+ "exam": {
+  "name_el": "Πιστοποίηση Επάρκειας της Ελληνομάθειας — Επίπεδο Γ1 («Πολύ καλή γνώση»)",
+  "name_en": "Certificate of Attainment in Modern Greek — Level C1 (Γ1, 'very good knowledge'; formerly level Δ until 2010)",
+  "awarding_body": "Κέντρο Ελληνικής Γλώσσας (ΚΕΓ / Centre for the Greek Language), Υπουργείο Παιδείας",
+  "cefr_level": "C1 — Effective Operational Proficiency ('ικανός χρήστης')",
+  "old_level_name": "Δ (renamed Γ1 by Π.Δ. 60/30-6-2010)",
+  "recommended_study_hours": "more than 400-520 teaching hours (Οδηγός εξετάσεων 2022; indicative only)",
+  "total_written_time": "3 h 45 min (reading 55' + use of language 30' + listening 40' + writing 100'); speaking 20' per pair, separate session",
+  "pass_rule": "Must pass ALL five skills, scoring at least 60% in each (i.e. ≥12/20 per paper). Failing one skill = failing the exam. Each paper = 20% of the total.",
+  "papers": [
+   {
+    "skill_el": "Κατανόηση γραπτού λόγου",
+    "skill_en": "Reading comprehension",
+    "points": 20,
+    "duration_min": 55,
+    "total_text_words": 1600,
+    "tasks": [
+     {
+      "n": 1,
+      "type": "Gap-fill a text with phrases: 10 answers + 1 example, 5 distractors (0.5 point each = 5 points)",
+      "text": "authentic, low formality: informative, folklore, descriptive etc. (~400 words)"
+     },
+     {
+      "n": 2,
+      "type": "Match titles to paragraphs: 5 answers + 1 example, 3 distractor titles (5 points)",
+      "text": "authentic, leaning informal: literary, theatrical, narrative (myth, tale/story), descriptive (~500 words)"
+     },
+     {
+      "n": 3,
+      "type": "Multiple choice, 4 options: 5 answers + 1 example (5 points)",
+      "text": "formal register: essay extract without special terminology, descriptive (~700 words)"
+     },
+     {
+      "n": 4,
+      "type": "Open gap-fill in a summary of text 3 (~200 words): 5 answers + 1 example (5 points)",
+      "text": "summary of previous text"
+     }
+    ],
+    "note": "In the 2022 candidate guide's sample, the title-matching task appears as Ερώτημα 3 — task order may vary."
+   },
+   {
+    "skill_el": "Χρήση γλώσσας",
+    "skill_en": "Use of language (grammar/lexis in context)",
+    "points": 20,
+    "duration_min": 30,
+    "total_text_words": "800-950",
+    "tasks": [
+     {
+      "n": 1,
+      "type": "Find the extra / wrong / missing word (connectors, subjects etc.): 5 + 1 example (5 points)",
+      "text": "friendly, narrative in the past (~200 words); in the samples: error-spotting line by line"
+     },
+     {
+      "n": 2,
+      "type": "Gap-fill with phrases: 5 + 1 example, 5 distractors (5 points)",
+      "text": "low formality, descriptive (~250 words)"
+     },
+     {
+      "n": 3,
+      "type": "Word formation: fill gaps with derivatives and/or compounds of given stems: 5 + 1 example (5 points)",
+      "text": "formal: historical extract (neutral content), informative (encyclopaedia entries, news reports, biographies) (~250 words)"
+     },
+     {
+      "n": 4,
+      "type": "Synonyms/definitions: find the text word matching a given synonym or definition: 5 + 1 example (5 points)",
+      "text": "friendly, descriptive, extract from a literary/theatrical/film work (~250 words)"
+     }
+    ]
+   },
+   {
+    "skill_el": "Κατανόηση προφορικού λόγου",
+    "skill_en": "Listening comprehension",
+    "points": 20,
+    "duration_min": 40,
+    "total_text_words": 1600,
+    "medium": "CD, each recording heard twice",
+    "tasks": [
+     {
+      "n": 1,
+      "type": "Note-taking: 10 notes (up to 8 words; samples say 2-6 words) + 1 example (10 points)",
+      "text": "monologue: formal informative, account of events, literary extract, part of a lecture on a social or other topic (700-800 words)"
+     },
+     {
+      "n": 2,
+      "type": "Comparison: complete a table (who said what): 10 answers + 1 example, 6 distractors (10 points)",
+      "text": "conversation (leaning informal) among 3-4 people on everyday, social, scientific topics (800-900 words)"
+     }
+    ]
+   },
+   {
+    "skill_el": "Παραγωγή γραπτού λόγου",
+    "skill_en": "Writing",
+    "points": 20,
+    "duration_min": 100,
+    "total_words": 600,
+    "tasks": [
+     {
+      "n": "Α",
+      "type": "Friendly/semi-formal letter or e-mail to a friend, relative, less well-known person, newspaper or forum — giving advice, information, argumentation (250-300 words, 10 points)"
+     },
+     {
+      "n": "Β",
+      "type": "Formal text: giving personal or other information, requesting a justified permission, expressing justified complaints, newspaper article with argumentation, report, speech (300 words, 10 points)"
+     }
+    ],
+    "rules": "Never sign with your real name; use lowercase letters (not capitals) in written answers."
+   },
+   {
+    "skill_el": "Παραγωγή προφορικού λόγου",
+    "skill_en": "Speaking",
+    "points": 20,
+    "duration_min": "20 per pair",
+    "examiners": 2,
+    "candidates_per_session": 2,
+    "tasks": [
+     {
+      "n": "Α",
+      "type": "Warm-up: simple personal questions (name, residence, work, why learning Greek, etc.)"
+     },
+     {
+      "n": "Β",
+      "type": "Monologue: developing views on a question set by the examiner (more demanding than lower levels); photo description (1 minute to look) with follow-up opinion questions"
+     },
+     {
+      "n": "Γ",
+      "type": "Sustained discussion between the two candidates with strong argumentation, from A/B role cards with opposing positions; ~2 minutes to read the topic, no other preparation time"
+     }
+    ],
+    "note": "Oral exams are recorded and sent to the ΚΕΓ."
+   }
+  ],
+  "marking": {
+   "objective_papers": "Reading, Use of language, Listening: 1 point per item (0.5 for reading task 1 gaps); answer keys in the sample papers (ΛΥΣΕΙΣ). Open answers accept listed variants (e.g. 'μειώνει/περιορίζει').",
+   "writing_holistic_scale_g1": [
+    {
+     "band": "1-4",
+     "summary": "Content unrelated; ignorance of genre/register differences; no logical organisation; basic vocabulary only; syntax impedes meaning; serious inflection, spelling, accent and punctuation problems."
+    },
+    {
+     "band": "5-8",
+     "summary": "Related to topic but no argument development; no organised axis; fails the required genre; flat style; inadequate vocabulary; many serious morphological errors for the level."
+    },
+    {
+     "band": "9-12",
+     "summary": "Limited development leaving key aspects uncovered; awareness of audience but disappointing result; elementary cohesion; poor, repetitive vocabulary; simple syntax relatively correct but errors in complex structures; inconsistent morphology."
+    },
+    {
+     "band": "13-16",
+     "summary": "Some aspects underdeveloped, but persuasion strategies and satisfactory organisation achieve communication; appropriate register in many places; good lexical control incl. fine nuances, but some problems with connotative/idiomatic/rarer words; complex syntax with some errors; adequate morphology; few minor spelling/accent errors."
+    },
+    {
+     "band": "17-20",
+     "summary": "Arguments and evidence fully developed; appropriate register plus personal style; strong cohesion and structure; punctuation enhances the text; rich vocabulary, no repetition; variety of syntax and complex morphology without errors; flawless spelling and accentuation."
+    }
+   ],
+   "writing_criteria_dimensions": [
+    "content/task fulfilment",
+    "genre and register (ύφος)",
+    "organisation, cohesion, coherence",
+    "vocabulary range and precision (incl. idiomatic, specialised)",
+    "syntax (complex structures)",
+    "morphology",
+    "spelling, accentuation, punctuation"
+   ],
+   "speaking": "Two examiners assess each pair; no detailed public Γ1 oral rubric found on the site (criteria page lists writing only)."
+  },
+  "sample_paper_files": "see sample-papers/ (two official Γ1 sample series + B2 for comparison)"
+ },
+ "can_do": [
+  {
+   "skill": "global",
+   "source": "CGL Γ1 level page",
+   "el": "Ο υποψήφιος αυτού του επιπέδου χαρακτηρίζεται ως ικανός χρήστης· έχει πρόσβαση σε ένα ευρύ γλωσσικό φάσμα, που του επιτρέπει να επικοινωνεί άνετα και αυθόρμητα· γενικά τον χαρακτηρίζει ευχέρεια στη χρήση συνεχούς λόγου.",
+   "en": "A proficient ('effective operational') user with access to a broad range of language, communicating comfortably and spontaneously; fluent in extended discourse."
+  },
+  {
+   "skill": "global",
+   "source": "CGL Γ1 level page",
+   "el": "Καταλαβαίνει ευρύ φάσμα κειμένων προφορικού ή γραπτού λόγου, τα οποία είναι μακροσκελή και απαιτητικά, και αναγνωρίζει έμμεσες πληροφορίες που περιέχονται σ' αυτά.",
+   "en": "Understands a wide range of long, demanding spoken and written texts and recognises implicit information in them."
+  },
+  {
+   "skill": "global",
+   "source": "CGL Γ1 level page",
+   "el": "Συνοψίζει πληροφορίες από διάφορες προφορικές ή γραπτές πηγές, ανασυγκροτεί και παρουσιάζει με συνοχή επιχειρήματα και αναφορές.",
+   "en": "Summarises information from various spoken/written sources, reconstructing arguments and accounts in a coherent presentation."
+  },
+  {
+   "skill": "global",
+   "source": "CGL Γ1 level page",
+   "el": "Εκφράζεται αυθόρμητα, χωρίς να χρειάζεται χρόνο για αναζήτηση των σωστών εκφράσεων και με τον βαθμό τυπικότητας ή εγκαρδιότητας που είναι κατάλληλος για την κάθε περίσταση.",
+   "en": "Expresses him/herself spontaneously without searching for expressions, with the degree of formality or warmth appropriate to the situation."
+  },
+  {
+   "skill": "global",
+   "source": "CGL Γ1 level page",
+   "el": "Χρησιμοποιεί τη γλώσσα ευέλικτα και αποτελεσματικά για κοινωνικούς, ακαδημαϊκούς και επαγγελματικούς σκοπούς· εκφράζεται πάνω σε σύνθετα θέματα με σαφήνεια, δομή, λεπτομέρεια, χρησιμοποιώντας με αυτοπεποίθηση συνδετικούς και συνεκτικούς γλωσσικούς μηχανισμούς.",
+   "en": "Uses language flexibly and effectively for social, academic and professional purposes; speaks/writes on complex subjects clearly, in a structured and detailed way, confidently using connectors and cohesive devices."
+  },
+  {
+   "skill": "situations",
+   "source": "CGL Γ1 level page",
+   "el": "Χειρίζεται καταστάσεις επικοινωνίας όταν παρουσιάζουν ένα πρόβλημα ή παίρνουν μια αναπάντεχη τροπή, και ανταποκρίνεται σε απρόβλεπτες καταστάσεις χωρίς προηγούμενη εξοικείωση.",
+   "en": "Handles communicative situations even when a problem arises or they take an unexpected turn; copes with unfamiliar, unforeseen situations."
+  },
+  {
+   "skill": "situations",
+   "source": "CGL Γ1 level page",
+   "el": "Ως οικοδεσπότης ή προσκεκλημένος ανταλλάσσει φιλοφρονήσεις, δέχεται ή προσφέρει δώρα και συζητά προσωπικά ή κοινωνικά θέματα: συνθήκες διαβίωσης, απασχόληση, πολιτική επικαιρότητα, οικονομία, πολιτιστικά δρώμενα.",
+   "en": "As host or guest, exchanges compliments, gives/receives gifts and discusses personal or social topics: living conditions, employment, current politics, economy, cultural events."
+  },
+  {
+   "skill": "listening",
+   "source": "CGL self-assessment grid (can_do_0.pdf)",
+   "el": "Μπορώ να κατανοώ προφορικό λόγο, ακόμα και σε γρήγορο ρυθμό.",
+   "en": "I can understand speech even at a fast pace."
+  },
+  {
+   "skill": "listening",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να αντλώ έμμεσες πληροφορίες από συζήτηση πάνω σε άγνωστα θέματα με πολλούς ομιλητές.",
+   "en": "I can extract implicit information from a multi-speaker discussion on unfamiliar topics."
+  },
+  {
+   "skill": "listening",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να παρακολουθώ διαλέξεις και να αναγνωρίζω τη δομή μιας ομιλίας (βασικές ιδέες, επιχειρηματολογία, υπόθεση, παραδείγματα, γενίκευση, συμπεράσματα).",
+   "en": "I can follow lectures and recognise the structure of a talk (main ideas, argument, hypothesis, examples, generalisation, conclusions)."
+  },
+  {
+   "skill": "listening",
+   "source": "CGL self-assessment grid / level page",
+   "el": "Μπορώ να καταλαβαίνω τις προθέσεις του συνομιλητή μου και να αναγνωρίζω αστεϊσμούς, προειδοποιήσεις, συστάσεις, απειλές, ευφημισμούς και ειρωνεία.",
+   "en": "I can grasp my interlocutor's intentions and recognise jokes, warnings, recommendations, threats, euphemism and irony."
+  },
+  {
+   "skill": "listening",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να αντιλαμβάνομαι τη μεταφορική χρήση της γλώσσας μαζί με παραγλωσσικά στοιχεία (γκριμάτσες, χειρονομίες).",
+   "en": "I can perceive figurative language together with paralinguistic cues (facial expressions, gestures)."
+  },
+  {
+   "skill": "listening",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να παρακολουθώ μια θεατρική παράσταση ή μια ελληνική κινηματογραφική ταινία.",
+   "en": "I can follow a play or a Greek film."
+  },
+  {
+   "skill": "reading",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να κατανοώ εξειδικευμένα άρθρα και επιστημονικά κείμενα με εκτενείς τεχνικές οδηγίες.",
+   "en": "I can understand specialised articles and scientific texts with extensive technical instructions."
+  },
+  {
+   "skill": "reading",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να κατανοώ σύγχρονα λογοτεχνικά κείμενα, αναγνωρίζοντας υφολογικές διακρίσεις.",
+   "en": "I can understand contemporary literary texts, recognising stylistic distinctions."
+  },
+  {
+   "skill": "reading",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να κατανοώ αναφορές σχετικά με σύγχρονα προβλήματα και τα «κρυμμένα» νοήματα των κειμένων.",
+   "en": "I can understand reports on contemporary problems and the 'hidden' meanings of texts."
+  },
+  {
+   "skill": "reading",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να διακρίνω τις κύριες ιδέες και να ξεχωρίζω πληροφορίες από τις λιγότερο σημαντικές.",
+   "en": "I can identify main ideas and separate them from less important information."
+  },
+  {
+   "skill": "reading",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να χρησιμοποιώ τα συμφραζόμενα για να κατανοήσω τις άγνωστες λέξεις και να χρησιμοποιώ με ευχέρεια λεξικά, γραμματικές, εγκυκλοπαίδειες.",
+   "en": "I can use context to infer unknown words and use dictionaries, grammars and encyclopaedias fluently."
+  },
+  {
+   "skill": "reading",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να παρακολουθώ τους ελληνικούς υπότιτλους σε ξένες ταινίες.",
+   "en": "I can follow Greek subtitles in foreign films."
+  },
+  {
+   "skill": "writing",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να γράφω κείμενα με σαφή και οργανωμένη δομή.",
+   "en": "I can write texts with a clear, organised structure."
+  },
+  {
+   "skill": "writing",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να παράγω σύνθετο γραπτό λόγο περιγραφικό και αφηγηματικό (π.χ. άρθρα, αναφορές, περιλήψεις, επιστολές, κριτικές έργων).",
+   "en": "I can produce complex descriptive and narrative writing (articles, reports, summaries, letters, reviews)."
+  },
+  {
+   "skill": "writing",
+   "source": "CGL self-assessment grid / writing criteria",
+   "el": "Μπορώ να χρησιμοποιώ το κατάλληλο ύφος και μια ποικιλία γλωσσικών δομών, ιδιωματικών εκφράσεων και ειδικού λεξιλογίου με σκοπό την ακριβή απόδοση των εννοιών και των σημασιολογικών αποχρώσεων.",
+   "en": "I can use the appropriate register and a variety of structures, idioms and specialised vocabulary to render meanings and nuances precisely."
+  },
+  {
+   "skill": "writing",
+   "source": "CGL Γ1 level page",
+   "el": "Γράφει προτάσεις με πειστικά επιχειρήματα (σε άρθρο ή σε επιστολή προς τον εκδότη εφημερίδας), ορισμούς, περιλήψεις ή κριτικές έργων.",
+   "en": "Writes persuasive proposals (article, letter to the editor), definitions, summaries or reviews of works."
+  },
+  {
+   "skill": "speaking",
+   "source": "CGL self-assessment grid",
+   "el": "Όταν συζητώ, μπορώ να αναπτύσσω επιχειρήματα με κατάλληλο ύφος και να χρησιμοποιώ σχήματα λόγου.",
+   "en": "In discussion I can develop arguments in an appropriate register and use figures of speech."
+  },
+  {
+   "skill": "speaking",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να διευκρινίζω, να εξηγώ κάποιο σημείο του λόγου μου.",
+   "en": "I can clarify and explain a point I have made."
+  },
+  {
+   "skill": "speaking",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να χρησιμοποιώ τύπους εγκαρδιότητας ή τυπικότητας.",
+   "en": "I can use forms of warmth/familiarity or formality appropriately."
+  },
+  {
+   "skill": "speaking",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να εκφράζω μεγάλη ποικιλία συναισθημάτων και να ανταλλάσσω πληροφορίες με ακρίβεια.",
+   "en": "I can express a wide range of emotions and exchange information precisely."
+  },
+  {
+   "skill": "speaking",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να πάρω μέρος σε όλα τα είδη συζητήσεων και να κατανοώ ιδιωματικές εκφράσεις.",
+   "en": "I can take part in all kinds of discussions and understand idiomatic expressions."
+  },
+  {
+   "skill": "speaking",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να σχολιάσω ένα θέμα, να περιγράφω γεγονότα, προσωπικές εμπειρίες, προϊόντα, να διηγούμαι, να δίνω ορισμούς και περιλήψεις.",
+   "en": "I can comment on a topic; describe events, experiences, products; narrate; give definitions and summaries."
+  },
+  {
+   "skill": "speaking",
+   "source": "CGL self-assessment grid",
+   "el": "Μπορώ να διατυπώνω υποθέσεις και συμπεράσματα, σχέδια και αποφάσεις.",
+   "en": "I can formulate hypotheses and conclusions, plans and decisions."
+  },
+  {
+   "skill": "speaking",
+   "source": "CGL Γ1 level page",
+   "el": "Χρησιμοποιεί γλωσσικούς μηχανισμούς για να διευκρινίσει ή να τονίσει κάτι συγκεκριμένο (διαφωνώ τελείως, είμαι απόλυτα βέβαιος κτλ.) και να διατυπώνει υποθέσεις κάθε είδους.",
+   "en": "Uses devices to clarify or emphasise (I completely disagree, I'm absolutely sure...) and formulates hypotheses of every kind."
+  },
+  {
+   "skill": "speaking",
+   "source": "CGL Γ1 level page",
+   "el": "Κατά τη διάρκεια του λόγου του χρησιμοποιεί διάφορα σχήματα λόγου, κάνει αστεϊσμούς, δίνει εξηγήσεις και διευκρινίσεις.",
+   "en": "While speaking, uses figures of speech, makes jokes, gives explanations and clarifications."
+  },
+  {
+   "skill": "phonetics",
+   "source": "CGL Γ1 level page",
+   "el": "Πλησιάζει την προφορά των φυσικών ομιλητών, προσέχοντας αφομοιώσεις και αποβολές στα όρια λέξεων (π.χ. μπ/ντ/γκ με ή χωρίς προερρινοποίηση: μπαίνω, έμπορος vs μπαμπάς· αφομοίωση -σ- σε [z] πριν από ηχηρό σύμφωνο: τις μέρες [tizmeres]).",
+   "en": "Approaches native pronunciation: assimilation/elision at word boundaries, variable prenasalisation of μπ/ντ/γκ, voicing of σ before voiced consonants."
+  },
+  {
+   "skill": "sociocultural",
+   "source": "CGL Γ1 level page",
+   "el": "Είναι ενήμερος για τις κοινωνιοπολιτισμικές διαφορές (ώρες γευμάτων, διακοπές, ώρες εργασίας, τυπικότητα/οικειότητα, κύριες πολιτικές ομάδες, παράδοση, εθνική ταυτότητα, θρησκεία), το βιοτικό επίπεδο, το κόστος ζωής, τις διαφορές αστικών και αγροτικών περιοχών.",
+   "en": "Aware of sociocultural differences (meal times, holidays, working hours, formality, main political groups, tradition, national identity, religion), living standards, cost of living, urban/rural differences."
+  },
+  {
+   "skill": "global",
+   "source": "CEFR 2001 global scale (Framework_EN.pdf)",
+   "en": "Can understand a wide range of demanding, longer texts, and recognise implicit meaning. Can express him/herself fluently and spontaneously without much obvious searching for expressions. Can use language flexibly and effectively for social, academic and professional purposes. Can produce clear, well-structured, detailed text on complex subjects, showing controlled use of organisational patterns, connectors and cohesive devices.",
+   "el": "Κατανοεί ευρύ φάσμα απαιτητικών, μακροσκελών κειμένων και αναγνωρίζει υπόρρητα νοήματα. Εκφράζεται με ευχέρεια και αυθορμητισμό χωρίς εμφανή αναζήτηση εκφράσεων. Χρησιμοποιεί τη γλώσσα ευέλικτα και αποτελεσματικά για κοινωνικούς, ακαδημαϊκούς και επαγγελματικούς σκοπούς. Παράγει σαφή, καλά δομημένα, λεπτομερή κείμενα για σύνθετα θέματα, με ελεγχόμενη χρήση οργανωτικών σχημάτων, συνδέσμων και μηχανισμών συνοχής.",
+   "el_note": "translation by compiler"
+  },
+  {
+   "skill": "speaking",
+   "source": "CEFR 2001 (sustained monologue: describing experience)",
+   "en": "Can give elaborate descriptions and narratives, integrating sub-themes, developing particular points and rounding off with an appropriate conclusion.",
+   "el": "Δίνει περίτεχνες περιγραφές και αφηγήσεις, ενσωματώνοντας επιμέρους θέματα, αναπτύσσοντας συγκεκριμένα σημεία και καταλήγοντας σε κατάλληλο συμπέρασμα.",
+   "el_note": "translation by compiler"
+  },
+  {
+   "skill": "speaking",
+   "source": "CEFR 2001 (formal discussion)",
+   "en": "Can argue a formal position convincingly, responding to questions and comments and answering complex lines of counter argument fluently, spontaneously and appropriately.",
+   "el": "Υποστηρίζει πειστικά μια επίσημη θέση, απαντώντας σε ερωτήσεις και σχόλια και αντικρούοντας σύνθετα αντεπιχειρήματα με ευχέρεια, αυθορμητισμό και καταλληλότητα.",
+   "el_note": "translation by compiler"
+  },
+  {
+   "skill": "listening",
+   "source": "CEFR 2001 (overall listening)",
+   "en": "Can recognise a wide range of idiomatic expressions and colloquialisms, appreciating register shifts. Can follow extended speech even when it is not clearly structured and when relationships are only implied and not signalled explicitly.",
+   "el": "Αναγνωρίζει ευρύ φάσμα ιδιωματικών και καθομιλουμένων εκφράσεων, αντιλαμβανόμενος τις αλλαγές ύφους. Παρακολουθεί εκτενή λόγο ακόμη κι όταν δεν είναι σαφώς δομημένος και οι σχέσεις μόνο υπονοούνται.",
+   "el_note": "translation by compiler"
+  },
+  {
+   "skill": "listening",
+   "source": "CEFR 2001 (audio/media)",
+   "en": "Can follow films employing a considerable degree of slang and idiomatic usage.",
+   "el": "Παρακολουθεί ταινίες με σημαντικό βαθμό αργκό και ιδιωματικής χρήσης.",
+   "el_note": "translation by compiler"
+  },
+  {
+   "skill": "reading",
+   "source": "CEFR 2001 (reading for information and argument)",
+   "en": "Can understand in detail a wide range of lengthy, complex texts likely to be encountered in social, professional or academic life, identifying finer points of detail including attitudes and implied as well as stated opinions.",
+   "el": "Κατανοεί λεπτομερώς ευρύ φάσμα εκτενών, σύνθετων κειμένων της κοινωνικής, επαγγελματικής ή ακαδημαϊκής ζωής, εντοπίζοντας λεπτές λεπτομέρειες, στάσεις και υπονοούμενες ή ρητές απόψεις.",
+   "el_note": "translation by compiler"
+  },
+  {
+   "skill": "strategies",
+   "source": "CEFR 2001 (identifying cues and inferring)",
+   "en": "Is skilled at using contextual, grammatical and lexical cues to infer attitude, mood and intentions and anticipate what will come next.",
+   "el": "Αξιοποιεί επιδέξια συμφραστικές, γραμματικές και λεξιλογικές ενδείξεις για να συμπεράνει στάση, διάθεση και προθέσεις και να προβλέψει τη συνέχεια.",
+   "el_note": "translation by compiler"
+  },
+  {
+   "skill": "accuracy",
+   "source": "CEFR 2001 (grammatical accuracy) — quoted from standard CEFR scale",
+   "en": "Consistently maintains a high degree of grammatical accuracy; errors are rare and difficult to spot.",
+   "el": "Διατηρεί σταθερά υψηλό βαθμό γραμματικής ορθότητας· τα λάθη είναι σπάνια και δύσκολα εντοπίζονται.",
+   "el_note": "translation by compiler"
+  },
+  {
+   "skill": "vocabulary",
+   "source": "CEFR 2001 (vocabulary range) — standard CEFR scale",
+   "en": "Has a good command of a broad lexical repertoire allowing gaps to be readily overcome with circumlocutions; little obvious searching for expressions or avoidance strategies. Good command of idiomatic expressions and colloquialisms.",
+   "el": "Κατέχει καλά ένα ευρύ λεξιλογικό ρεπερτόριο που του επιτρέπει να καλύπτει τα κενά με περιφράσεις· ελάχιστη εμφανής αναζήτηση εκφράσεων. Καλή γνώση ιδιωματικών εκφράσεων και στοιχείων της καθομιλουμένης.",
+   "el_note": "translation by compiler"
+  }
+ ],
+ "grammar_inventory": [
+  {
+   "topic": "Learned prepositional phrases (κατά/μετά/παρά/αντί/προς/ως + learned case) as fixed idioms",
+   "examples": [
+    "κατά τύχη",
+    "κατά βάθος",
+    "κατά γράμμα",
+    "τα υπέρ και τα κατά",
+    "καταρχήν",
+    "μετά τιμής",
+    "μετά χαράς",
+    "μετά βίας",
+    "αντ’ αυτού",
+    "άλλ’ αντ’ άλλων",
+    "παρά τρίχα",
+    "παρά τη θέλησή του",
+    "παρ’ όλ’ αυτά",
+    "προς τιμήν",
+    "προς Θεού",
+    "ως προς αυτό",
+    "από δήμαρχος κλητήρας"
+   ],
+   "notes": "Explicitly listed on the CGL Γ1 level page (Λεξιλόγιο). Learn as chunks; note elision (αντ’, παρ’) and the dative-derived or genitive learned government (μετά + gen., προς + acc./gen.).",
+   "evidence_in_sample_papers": "c1-s1-use-2 'ως προς την έκτασή της'"
+  },
+  {
+   "topic": "Other katharevousa survivals in everyday educated prose",
+   "examples": [
+    "εν τέλει",
+    "εν μέρει",
+    "εν τω μεταξύ",
+    "εν ολίγοις",
+    "εν πάση περιπτώσει",
+    "εκ των υστέρων",
+    "εκ παραδρομής",
+    "επί τη ευκαιρία",
+    "επί δεκαετίες",
+    "ως εκ τούτου",
+    "δια βίου μάθηση",
+    "πόσο μάλλον",
+    "ουδέποτε",
+    "ήδη",
+    "εφόσον",
+    "άνευ όρων",
+    "υπό κανονικές συνθήκες",
+    "υπό την αιγίδα"
+   ],
+   "notes": "Fossilised learned phrases with archaic case forms (dative remnants: εν τω μεταξύ, επί τη ευκαιρία). Appear in sample texts (εν τέλει, πόσο μάλλον, ουδέποτε, ως εκ τούτου, εκ παραδρομής, επί δεκαετίες, υπό κανονικές συνθήκες).",
+   "evidence_in_sample_papers": "c1-guide2022-reading-3; c1-s1-use-2; c1-s2-reading-3"
+  },
+  {
+   "topic": "Active participles in -ων/-ουσα/-ον (-ών/-ούσα/-ούν), declinable, adjectival use",
+   "examples": [
+    "ο ενδιαφερόμενος vs ο ενδιαφέρων (ενδιαφέρουσα, ενδιαφέρον)",
+    "τα ισχύοντα μέτρα",
+    "το παρόν έγγραφο",
+    "οι συμμετέχοντες στο συνέδριο",
+    "οι επιζώντες",
+    "ο υπεύθυνος του τρέχοντος έτους",
+    "κατά την προηγούμενη και την τρέχουσα περίοδο",
+    "οι ενδιαφερόμενοι / οι ενδιαφέροντες",
+    "το μέλλον (originally participle of μέλλω)",
+    "οι ενοικιαστές και οι ιδιοκτήτες των ακινήτων που ανήκουν…"
+   ],
+   "notes": "B2 learners know the indeclinable gerund in -οντας/-ώντας; Γ1 expects recognition and use of the learned declined active participle (mostly as adjective/noun): ισχύων-ισχύουσα-ισχύον, ενδιαφέρων, συμμετέχων, τρέχων, παρών-παρούσα-παρόν, απών, επιζών. Gen. pl. -όντων/-ούντων (των συμμετεχόντων, των επιζώντων).",
+   "evidence_in_sample_papers": "«απών» in c1-s2-use-4 ('Ο πατέρας παρουσιάζεται… απών'); ερωτηθέντων in c1-s1-reading-2"
+  },
+  {
+   "topic": "Learned passive aorist participles in -είς/-είσα/-έν and related forms",
+   "examples": [
+    "οι ερωτηθέντες / των ερωτηθέντων",
+    "ο αποβιώσας (formal/legal)",
+    "τα προαναφερθέντα",
+    "οι εκλεγέντες βουλευτές",
+    "τα ληφθέντα μέτρα",
+    "οι συλληφθέντες",
+    "ο διατελέσας πρόεδρος"
+   ],
+   "notes": "Formal, journalistic and administrative register. Mostly recognition at Γ1; production of a few frequent ones (οι ερωτηθέντες, τα προαναφερθέντα).",
+   "evidence_in_sample_papers": "c1-s1-reading-2 '66% των ερωτηθέντων'"
+  },
+  {
+   "topic": "Passive perfect participles in -μένος with learned reduplication/augment, and -τός/-τέος adjectives",
+   "examples": [
+    "εμπνευσμένες συνθέσεις",
+    "διασκευασμένο κείμενο",
+    "εκτεθειμένα πετρώματα",
+    "συγκεκριμένος, πεπειραμένος, πεπεισμένος",
+    "ειλημμένη απόφαση",
+    "τετελεσμένο γεγονός",
+    "κατεστημένο",
+    "αναμενόμενο",
+    "εξαρτημένος",
+    "ορατός, αμφισβητήσιμος, αμφιλεγόμενος"
+   ],
+   "notes": "Learned reduplication (πε-πεισμένος, τε-τελεσμένος, ει-λημμένος) and -όμενος/-ούμενος participles (αμφιλεγόμενος, αναμενόμενος, λεγόμενος).",
+   "evidence_in_sample_papers": "c1-s2-use-3 answer εμπνευσμένες; c1-s2-use-2 εκτεθειμένα; c1-s1-reading-1 αμφισβητήσιμες, αμφιλεγόμενο"
+  },
+  {
+   "topic": "Internal (syllabic/temporal) augment in learned compound verbs",
+   "examples": [
+    "συμβάλλω → συνέβαλα / συνέβαλε",
+    "υποβάλλω → υπέβαλα",
+    "παρέχω → παρείχα",
+    "διαθέτω → διέθετα (διέθεταν)",
+    "περιβάλλω → περιέβαλλε",
+    "εκλέγω → εξέλεξα, εξελέγη",
+    "εισάγω → εισήγαγα",
+    "εξάγω → εξήγαγα (inf. εξαγάγει)",
+    "υπάρχω → υπήρξα",
+    "διενεργώ → διενήργησα",
+    "αποβαίνω → απέβη",
+    "καταλήγω → κατέληξα",
+    "υπερβαίνω → υπερέβη"
+   ],
+   "notes": "Γ1 texts use the augmented forms; learners must also know learned subjunctive/aorist stems (να εξαγάγουν, να συμβάλει, να ληφθεί). Colloquial variants (συμβάλλανε, εισάγαμε) are informal.",
+   "evidence_in_sample_papers": "c1-s1-reading-2 διενήργησαν; c1-s2-use-1 διέθεταν; c1-s2-use-2 περιέβαλλε, distractor μπορούσαν να εξαγάγουν vs answer μπορούν να εξαχθούν"
+  },
+  {
+   "topic": "Learned passive aorist stems and 3rd-person learned forms (-θη, -η)",
+   "examples": [
+    "ελήφθη απόφαση / να ληφθεί",
+    "εξελέγη πρόεδρος",
+    "διεξήχθη έρευνα / να διεξαχθεί",
+    "συνελήφθη",
+    "εξήχθη το συμπέρασμα / να εξαχθούν",
+    "προσλήφθηκε vs προσελήφθη",
+    "απεβίωσε",
+    "κατέστη σαφές",
+    "εγένετο (fossil: ως εγένετο)"
+   ],
+   "notes": "Contrast colloquial vs learned: πάρθηκε απόφαση ↔ ελήφθη απόφαση. Γ1 register control requires knowing which belongs to which style.",
+   "evidence_in_sample_papers": "c1-s2-speaking 'αυτή η απόφαση έπρεπε να ληφθεί'; c1-s2-use-2 'μπορούν να εξαχθούν'"
+  },
+  {
+   "topic": "Learned (3rd-declension) nouns and adjectives with irregular inflection",
+   "examples": [
+    "η διάθεση, της διαθέσεως (learned gen.) / της διάθεσης",
+    "η τάξη → γυναίκες τέτοιας κοινωνικής τάξεως",
+    "το μέλος — των μελών",
+    "το φως — του φωτός",
+    "ο συγγραφέας, ο γραμματέας",
+    "το ήπαρ, το ύδωρ (recognition)",
+    "ο/η ασθενής — των ασθενών",
+    "ασφαλής, ασφαλές, ασφαλούς (adj. in -ής/-ές)",
+    "ευκρινής, συνεχής, διεθνής, ακριβής — ακριβέστερος",
+    "ο συγγενής — οι συγγενείς",
+    "πολύς, πολλή, πολύ; ευρύς, ευρεία, ευρύ; ημίσεια"
+   ],
+   "notes": "Adjectives in -ής/-ές and -ύς/-εία/-ύ are a classic Γ1 error target (agreement of neuter -ές).",
+   "evidence_in_sample_papers": "c1-s2-use-1 error 'πιο ασφαλής' for ταξίδι (→ ασφαλές); c1-s2-reading-2 'κοινωνικής τάξεως' (learned genitive, ironic register)"
+  },
+  {
+   "topic": "Learned genitive in -εως and word-formation from learned roots",
+   "examples": [
+    "της λέξεως, της πόλεως, της τάξεως",
+    "κατά την διάρκεια της συνεδριάσεως",
+    "μέσω θαλάσσης",
+    "δια θαλάσσης",
+    "εν όψει των εκλογών"
+   ],
+   "notes": "Mostly recognition and fixed expressions; overuse sounds pompous — part of register control.",
+   "evidence_in_sample_papers": "c1-s2-use-1 'μέσω θαλάσσης'"
+  },
+  {
+   "topic": "Word formation: derivation and compounding from Ancient/learned stems (Use of language task 3)",
+   "examples": [
+    "τύχη → ευτυχία",
+    "ασφυξία → ασφυκτικός",
+    "τρέπω → ανατρέπω (να ανατρέψει)",
+    "έτος → ετήσιος",
+    "λαμβάνω → απολαμβάνω",
+    "ταμείο → αποταμιεύω",
+    "σχεδιάζω → σχεδιασμός",
+    "προσαρμόζω → προσαρμογή",
+    "θρέφω → θρεπτικός",
+    "έμπνευση → εμπνευσμένος",
+    "χρήση → χρησιμοποιούμαι (να χρησιμοποιηθούν)",
+    "επενδύω → επένδυση"
+   ],
+   "notes": "Requires knowledge of prefix families (ανα-, απο-, δια-, εκ-/εξ-, επι-, κατα-, παρα-, περι-, προ-, συν-/συμ-, υπο-, υπερ-) and suffixes (-ση/-σμός/-μα/-τής/-τικός/-ιμος/-ώδης/-ικός), plus stem alternation (τρέπ-/τροπ-, λαμβ-/ληπ-/ληψ-, βάλλ-/βολ-/βλη-).",
+   "evidence_in_sample_papers": "c1-s1-use-3 and c1-s2-use-3 answer keys"
+  },
+  {
+   "topic": "Learned stem families with vowel/consonant alternation",
+   "examples": [
+    "λαμβάνω — λήψη — λήπτης — αντίληψη — συμμετοχή vs συμμετέχω",
+    "βάλλω — βολή — βλήμα — υποβολή — συμβολή",
+    "τρέπω — τροπή — ανατροπή — αποτροπή",
+    "στέλλω — αποστολή — επιστολή — στάλθηκε/εστάλη",
+    "φέρω — φορά — αναφορά — διαφορά — φόρος — επιφέρω",
+    "πράττω — πράξη — πρακτικός — πραγματικότητα",
+    "κρίνω — κρίση — κριτήριο — κριτική — διάκριση"
+   ],
+   "notes": "Underpins task 3 (word formation) and task 4 (synonyms/definitions) and reading speed in formal texts.",
+   "evidence_in_sample_papers": "c1-s1-reading-3 'επιφέρει'; c1-s2-use-4 'χαρακτηρίζεται', 'ένταξη'"
+  },
+  {
+   "topic": "Nominal style (ονοματοποίηση) in formal writing",
+   "examples": [
+    "Αποφασίστηκε η κατάργηση της δωρεάν εισόδου (vs αποφάσισαν να καταργήσουν…)",
+    "η αλόγιστη χρήση των αντιβιοτικών",
+    "η εξοικονόμηση ενέργειας",
+    "η ενασχόληση του παιδιού με τον υπολογιστή",
+    "η τήρηση της σιωπής",
+    "η απόκτηση εμπειριών",
+    "η υποβάθμιση του φυσικού περιβάλλοντος"
+   ],
+   "notes": "Formal/journalistic Greek packs verbs into nouns with genitive chains; essential for writing part Β (report, article, speech) and for summaries (reading task 4).",
+   "evidence_in_sample_papers": "Abundant in c1-s1-reading-3, c1-s2-reading-3, c1-s1-use-4"
+  },
+  {
+   "topic": "Impersonal and passive constructions for hedging and objectivity",
+   "examples": [
+    "Έχει υπολογιστεί ότι…",
+    "Εκτιμάται ότι…",
+    "Θεωρείται ότι…",
+    "Υπολογίζεται ότι η Γη άρχισε…",
+    "Επισημαίνεται εμφατικά ότι…",
+    "Λέγεται/Φημολογείται ότι…",
+    "Είναι γεγονός ότι…",
+    "Δεν αποκλείεται να…",
+    "Ενδέχεται να…",
+    "Φαίνεται πως…"
+   ],
+   "notes": "Impersonal 3rd-person passives (εκτιμάται, θεωρείται, επισημαίνεται) are typical of Γ1 reading texts and expected in formal writing.",
+   "evidence_in_sample_papers": "c1-s2-use-2 answer 'εκτιμάται ότι έλαβε'; c1-s1-reading-2 'επισημαίνεται εμφατικά'"
+  },
+  {
+   "topic": "Complex connectors and discourse markers (cohesion)",
+   "examples": [
+    "ωστόσο, εντούτοις, παρ’ όλα αυτά, πάντως",
+    "απεναντίας, αντιθέτως, αντίθετα",
+    "επομένως, συνεπώς, κατά συνέπεια, ως εκ τούτου, άρα",
+    "με συνέπεια/με αποτέλεσμα να…",
+    "καθώς, εφόσον, δεδομένου ότι, λόγω του ότι, εξαιτίας",
+    "όχι μόνο… αλλά και…",
+    "τόσο… όσο και…",
+    "είτε… είτε…, ούτε… ούτε…",
+    "όσο κι αν + υποτακτική/οριστική",
+    "μολονότι, παρόλο που, αν και, έστω κι αν",
+    "προκειμένου να, ώστε να, έτσι ώστε",
+    "ειδικότερα, συγκεκριμένα, ιδίως, κατά κύριο λόγο",
+    "εξάλλου, άλλωστε, επιπλέον, επιπροσθέτως",
+    "εν κατακλείδι, συνοψίζοντας, τελικά, εν τέλει"
+   ],
+   "notes": "Use-of-language task 1 explicitly targets connectors; reading task 1 tests phrase-level syntax around connectors.",
+   "evidence_in_sample_papers": "c1-s1-reading-1 'Όσο αυστηρά κι αν', 'αλλά και για να μπορεί', 'Όχι μόνο ο φορέας'; c1-s2-reading-3 'με συνέπεια να'"
+  },
+  {
+   "topic": "Concessive and conditional clauses, incl. counterfactuals",
+   "examples": [
+    "Όσο ευσυνείδητα κι αν προσπαθούσαν εκείνα, δύσκολα θα μπορούσαν οι μεγάλοι να μάθουν…",
+    "Αν κατορθώναμε να διαγράψουμε τον κόσμο της τέχνης, η φύση θα εξακολουθούσε να είναι η ίδια.",
+    "Αν γινόσασταν πρωθυπουργός, ποια προβλήματα θα σας απασχολούσαν;",
+    "Αν το ήξερα, θα είχα έρθει νωρίτερα.",
+    "Ακόμα κι αν βρέξει, θα βγούμε.",
+    "Αρκεί να εξασφαλίζεται το απαιτούμενο φως.",
+    "Εφόσον το επιθυμείτε…",
+    "Σε περίπτωση που…"
+   ],
+   "notes": "Imperfect/pluperfect conditional (θα + imperfect / θα είχα + participle) and concessive όσο κι αν are core Γ1 structures; the speaking paper Part 2 asks hypothetical questions.",
+   "evidence_in_sample_papers": "c1-s1-reading-1, c1-s1-use-2, c1-s1-speaking part 2, c1-s2-use-3 'αρκεί να'"
+  },
+  {
+   "topic": "Relative clauses with ο οποίος / όπου / όσος / ό,τι and pronoun agreement",
+   "examples": [
+    "οι νόμοι, μέσω των οποίων μας καλούν να νιώσουμε…",
+    "μια ευχαρίστηση την οποία συνηθίζουμε να ονομάζουμε…",
+    "όσοι συμμετείχαν",
+    "ό,τι μου περισσεύει",
+    "οπουδήποτε, οποιοσδήποτε, όποιος vs ποιος"
+   ],
+   "notes": "Learned relative ο οποίος after prepositions is preferred in formal style; confusion of interrogative ποιος and relative όποιος is a tested error.",
+   "evidence_in_sample_papers": "c1-s1-use-1 error 'Όποιος θα τολμούσε…;' (→ Ποιος)"
+  },
+  {
+   "topic": "Aspect and tense choice in narrative (imperfect vs aorist, habitual past)",
+   "examples": [
+    "Στην αρχαία Ελλάδα οι άνθρωποι ταξίδευαν συχνά (not *ταξίδεψαν)",
+    "Επισκέπτονταν μεγάλα ιερά (not *Επισκέφτηκαν)",
+    "Κάθε Τετάρτη μαζεύονταν οι συγγένισσες",
+    "Όταν περνούσε…, τον πείραζε συνέχεια"
+   ],
+   "notes": "Habitual/iterative past requires imperfect; perfective aspect in subjunctive after να (να απολαύσουν not *να απόλαυσαν).",
+   "evidence_in_sample_papers": "c1-s2-use-1 errors ταξίδεψαν, Επισκέφτηκαν, απόλαυσαν"
+  },
+  {
+   "topic": "Passive voice: mediopassive infinitive/subjunctive and agentive/reflexive nuance",
+   "examples": [
+    "θα μπορούσε να γενικευτεί (not *να γενικεύσει)",
+    "μπορούν να χρησιμοποιηθούν",
+    "να φυτευτούν δώματα",
+    "μπορεί να βοηθηθούν οι ανύπαντρες μητέρες",
+    "υφίσταται, ανταποκρίνεται, διαπραγματεύεται (deponents)",
+    "μου φάνηκε, σας φανεί χρήσιμη"
+   ],
+   "notes": "Voice errors (active for passive) are a tested target; learned deponents (υφίσταμαι, αποφαίνομαι, επιζητώ vs επιζητούμαι) appear in formal texts.",
+   "evidence_in_sample_papers": "c1-s1-use-1 example error γενικεύσει; c1-s2-use-3 answer χρησιμοποιηθούν; c1-s1-use-1 'όπως πράγματι αυτός υφίσταται'"
+  },
+  {
+   "topic": "Agreement: subject–verb number, adjective–noun gender, quantifiers",
+   "examples": [
+    "που μπορεί να προκαλέσει η ομορφιά (not *μπορούν)",
+    "περισσότερες από μια εξοχικές κατοικίες (not *περισσότερη)",
+    "ορισμένοι, οπωσδήποτε λίγοι σε αριθμό (not *λίγους)",
+    "δρόμους διαφυγής (genitive complement, not *διαφυγή)"
+   ],
+   "notes": "All five error-spotting items in the samples are agreement/case/voice/aspect errors — learners must self-edit.",
+   "evidence_in_sample_papers": "c1-s1-use-1, c1-s2-use-1"
+  },
+  {
+   "topic": "Adverb vs adjective, and learned adverbs in -ως",
+   "examples": [
+    "βέβαια (adv.) vs βέβαιος (adj.) — 'Το ερώτημα, βέβαια, είναι…'",
+    "ευθέως, πρωτίστως, εμφατικά, επαρκώς, αποκλειστικά",
+    "απλώς / απλά, ακριβώς, προφανώς, ενδεχομένως, πιθανώς, οπωσδήποτε, ουσιαστικά",
+    "ευτυχώς, δυστυχώς, συνεπώς, επομένως"
+   ],
+   "notes": "Learned -ως adverbs are typical of formal discourse; βέβαιος/βέβαια confusion is a tested error.",
+   "evidence_in_sample_papers": "c1-s1-use-1 error βέβαιος; 'διατυπώνονται ευθέως', 'πρωτίστως'"
+  },
+  {
+   "topic": "Clitic doubling, topicalisation and emphatic word order",
+   "examples": [
+    "Τα σημεία που τον δυσκολεύουν τα έχει αφήσει κενά.",
+    "Την αρχή μπορούμε να την κάνουμε εμείς οι ίδιοι.",
+    "Του καπετάν Μαθιού τις φανταστικές ιστορίες τις ρουφούσε όλο το Αϊντίνι.",
+    "Τον ελεύθερο χρόνο της τον αφιερώνει…"
+   ],
+   "notes": "Fronted object + resumptive clitic is very frequent in natural Greek and in the sample texts; important for spontaneous, idiomatic speech.",
+   "evidence_in_sample_papers": "c1-s1-reading-1 instructions; c1-s2-reading-3; c1-s2-reading-2; c1-s1-use-3"
+  },
+  {
+   "topic": "Particle-based nuance: μεν… δε, δε (topic shift), λοιπόν, βέβαια, άλλωστε, πάντως, μάλιστα",
+   "examples": [
+    "Ως ενήλικοι έχουμε μεν μεγαλύτερη δυνατότητα…, αλλά…",
+    "Η δε μητέρα συνήθως περιγράφεται ως αγχώδης",
+    "Οι πλουσιότεροι μάλιστα από αυτούς…",
+    "Άλλωστε, το σύστημα ποτίσματος είναι έτσι σχεδιασμένο…"
+   ],
+   "notes": "μεν… δε (learned contrastive pair) and postpositive δε mark formal register.",
+   "evidence_in_sample_papers": "c1-s1-reading-1 'έχουμε μεν'; c1-s2-use-4 'Η δε μητέρα'; c1-s2-use-1 'μάλιστα'"
+  },
+  {
+   "topic": "Gerund (μετοχή σε -οντας/-ώντας) for manner, cause, condition, time",
+   "examples": [
+    "επαναφέροντας απλά στη μνήμη του",
+    "Κοιτώντας, όμως, λίγο καλύτερα το θέμα, εύκολα συνειδητοποιούμε…",
+    "αλλάζοντας τις καθημερινές μας συνήθειες",
+    "αλλά μαθαίνοντάς μας να…",
+    "σεβόμενοι το όριο ταχύτητας (passive participle as gerund)"
+   ],
+   "notes": "Already B2, but Γ1 uses it densely in formal prose and with clitics (μαθαίνοντάς μας).",
+   "evidence_in_sample_papers": "c1-s1-use-2 answer 'αλλά μαθαίνοντάς μας'; c1-s2-reading-3 dense list of gerunds"
+  },
+  {
+   "topic": "Subjunctive in complement/purpose clauses and with modal/impersonal verbs",
+   "examples": [
+    "χρειάζεται να…, αρκεί να…, απαιτείται να…, επιβάλλεται να…",
+    "προκειμένου να αντιμετωπίσουν",
+    "είναι πιθανό/ενδεχόμενο να…",
+    "δεν μπορεί παρά να κινήσει το ενδιαφέρον σας",
+    "θα ήταν καλό οι γονείς να ενημερώνονται"
+   ],
+   "notes": "Includes the idiomatic 'δεν μπορεί παρά να…' ('cannot but…') and ellipsis structures.",
+   "evidence_in_sample_papers": "c1-s2-use-3; c1-s1-reading-3"
+  },
+  {
+   "topic": "Idioms, collocations and metaphor (ιδιωτισμοί)",
+   "examples": [
+    "έρχονται σε δεύτερη μοίρα",
+    "λυγίζει κάτω από το βάρος",
+    "με το ένα πόδι εδώ και τ’ άλλο εκεί",
+    "έκλεινε το μάτι",
+    "να ετοιμάσεις/μαζέψεις δηλητήρια",
+    "ρουφούσε τις ιστορίες",
+    "αφήνουν άφωνους",
+    "φέρνουν στο φως",
+    "παίζει σημαντικό ρόλο",
+    "άξιζε τον κόπο",
+    "επιβάρυναν την τσέπη της",
+    "υποθηκεύουμε το μέλλον",
+    "το σημείο δεν είναι χωρίς επιστροφή",
+    "από δήμαρχος κλητήρας",
+    "παρά τρίχα"
+   ],
+   "notes": "CGL Γ1: candidate must be familiar with idiomatic expressions and colloquialisms; writing marked for idiomatic/connotative vocabulary (bands 13-20).",
+   "evidence_in_sample_papers": "Across c1-s1-reading-3, c1-s2-reading-2, c1-s2-reading-3, c1-s1-reading-1"
+  },
+  {
+   "topic": "Register shifting: colloquial vs learned doublets",
+   "examples": [
+    "πάρθηκε απόφαση ↔ ελήφθη απόφαση",
+    "βγάζουμε ↔ εξάγουμε",
+    "κόβω ↔ περιορίζω/μειώνω",
+    "τώρα ↔ πλέον",
+    "λεφτά ↔ χρήματα",
+    "δουλειά ↔ εργασία/απασχόληση",
+    "Αγαπητέ μου Γιώργο ↔ Κυρίες και κύριοι, αγαπητοί συνάδελφοι / Αξιότιμε κύριε",
+    "ευχαριστώ πολύ ↔ σας ευχαριστώ θερμά / εκφράζω τις ευχαριστίες μου",
+    "Με εκτίμηση / Μετά τιμής (closings)"
+   ],
+   "notes": "Writing tasks always pair an informal (Α) with a formal (Β) text; register appropriacy is an explicit marking criterion.",
+   "evidence_in_sample_papers": "writing-speaking-prompts.json: c1-s1-writing-A/B, c1-s2-writing-A/B"
+  },
+  {
+   "topic": "Comparative/superlative of learned adjectives and absolute superlative",
+   "examples": [
+    "ακριβέστερος, σαφέστερος, ευρύτερος, ταχύτερος, εντυπωσιακότερα",
+    "ο εγκυρότερος, τα αρχαιότερα, ο πλουσιότερος",
+    "άκρως βίαια, άριστος, ελάχιστος, μέγιστος, ελάχιστα",
+    "πληρέστερες λεπτομέρειες"
+   ],
+   "notes": "Synthetic comparatives in -τερος/-έστερος dominate formal texts.",
+   "evidence_in_sample_papers": "c1-guide2022-reading-3 'εντυπωσιακότερα', 'πληρέστερες'; c1-s2-use-2 'άκρως βίαια', 'αρχαιότερα'"
+  },
+  {
+   "topic": "Learned verb classes and contracted forms (-ώ/-άω, -ούμαι, -άται)",
+   "examples": [
+    "συναντώ/συναντά, θεωρούμαι/θεωρείται, εξαρτάται, εγγυάται, διαπραγματεύεται",
+    "συζητείται (vs συζητιέται)",
+    "απασχολεί / απασχολούσαν",
+    "αφορά, ενδιαφέρει, οφείλεται, αποτελείται"
+   ],
+   "notes": "Learned mediopassive forms -είται/-άται are standard in formal Greek.",
+   "evidence_in_sample_papers": "c1-s1-reading-3 'συζητείται'"
+  },
+  {
+   "topic": "Punctuation, accentuation and orthography at C1 standard",
+   "examples": [
+    "ό,τι vs ότι",
+    "όταν/ότι/ό,τι; πού/που; πώς/πως",
+    "accentuation on enclitics: το σπίτι μου vs το σπίτι μού είπε…; η γνώμη τους vs τους είπα",
+    "διαλυτικά: προϊόν, ρολόι",
+    "Greek question mark ; and ano teleia ·"
+   ],
+   "notes": "Writing criteria explicitly mark spelling, accentuation and punctuation; band 17-20 requires 'άψογος τονισμός'.",
+   "evidence_in_sample_papers": "spec-docs/kritiria_..._g1.txt"
+  }
+ ],
+ "text_types": [
+  "authentic magazine/newspaper articles (vita.gr, tovima.gr, Καθημερινή) — informative, low formality",
+  "opinion/essay extracts (δοκίμιο) without special terminology",
+  "popular-science news (geology/astronomy, psychology)",
+  "advisory leaflets and lists of tips (e.g. energy-saving leaflet)",
+  "institutional/EU publications (Βιβλίο των Νέων της Ευρώπης)",
+  "literary prose extracts (Διδώ Σωτηρίου, «Οι νεκροί περιμένουν») and theatre/film extracts",
+  "historical/encyclopaedic texts and biographies (word-formation task)",
+  "summaries (περίληψη) of a longer text",
+  "radio programme / event announcements (listening task 1)",
+  "multi-speaker discussions/TV debates and lectures (listening)",
+  "WRITING: personal letter or e-mail to a friend (advice, opinion, information)",
+  "WRITING: letter to a newspaper / forum post with argumentation",
+  "WRITING: formal letter of request or complaint (αιτιολογημένη άδεια, παράπονα)",
+  "WRITING: newspaper article with argumentation",
+  "WRITING: official report/evaluation (αναφορά, αξιολόγηση)",
+  "WRITING: speech for a conference (ομιλία)",
+  "SPEAKING: monologue opinion answers, photo description, two-person argued discussion/role play"
+ ],
+ "themes": [
+  "family and relationships (secrets in the family, divorce and children, marriage decline, role of the family, single mothers)",
+  "happiness, money and consumption (experiences vs objects, frugality, economic crisis, sustainable consumption)",
+  "environment and energy (energy saving, sustainable consumption, pesticides, climate change, vertical gardens, recycling)",
+  "technology and media (video games and addiction, internet overuse, press freedom, news presentation, mobile phones and health)",
+  "education and youth (dropping out of university, school phobia, young people's reading, education minister question)",
+  "health and lifestyle (diet and exercise, antibiotics, smoking bans, alcohol and minors, nightlife)",
+  "art and culture (art and nature/aesthetics, folk tradition and dance, museums and free entry, archaeology and cultural heritage, concerts)",
+  "society and politics (election abstention, prime-minister question, urban life and emotions, traffic, low birth rate, local vs foreign products)",
+  "work and professional life (conference organisation/evaluation, volunteering, humanitarian missions, unemployment)",
+  "history (holidays in the ancient world, Asia Minor society in literature)",
+  "science (origin of gold/meteorites, animal experiments, psychology research)",
+  "travel and leisure (choosing holiday destinations, sightseeing vs guided tours)"
+ ],
+ "functions": [
+  "arguing for a position and rebutting counter-arguments (επιχειρηματολογώ, αντικρούω: «Το επιχείρημά σου δεν ευσταθεί», «Αντιθέτως…»)",
+  "persuading and convincing (πείθω: «Πρέπει να λάβεις υπόψη ότι…»)",
+  "expressing and justifying opinions (Δικαιολογήστε την απάντησή σας: «Κατά τη γνώμη μου…, διότι…»)",
+  "agreeing/disagreeing with degrees of emphasis («Διαφωνώ τελείως», «Συμφωνώ εν μέρει», «Είμαι απόλυτα βέβαιος»)",
+  "hedging and expressing probability («Ενδέχεται να…», «Δεν αποκλείεται…», «Φαίνεται πως…», «κατά πάσα πιθανότητα»)",
+  "hypothesising, incl. counterfactuals («Αν ήμουν υπουργός παιδείας, θα…», «Αν δεν υπήρχε η τέχνη…»)",
+  "evaluating and assessing (αξιολόγηση συνεδρίου: strengths, weaknesses, proposals for improvement)",
+  "summarising (περίληψη) and paraphrasing/reformulating («Με άλλα λόγια…», «Συνοψίζοντας…»)",
+  "advising and recommending («Θα σου πρότεινα να…», «Καλό θα ήταν να…»)",
+  "complaining formally and requesting with justification («Θα ήθελα να εκφράσω τη δυσαρέσκειά μου…», «Παρακαλώ να μου επιτραπεί…»)",
+  "comparing and contrasting views of several speakers (listening task 2)",
+  "defining concepts (δίνω ορισμούς) and explaining/clarifying («Εννοώ ότι…», «Για να γίνω πιο σαφής…»)",
+  "describing and narrating in detail (events, experiences, photos) with sub-themes and conclusion",
+  "expressing a wide range of emotions, intentions, plans, decisions, obligations, warnings, promises, dreams",
+  "managing interaction: turn-taking, interrupting politely, asking for explanation, conceding («Έχεις δίκιο σε αυτό, ωστόσο…»)",
+  "using humour, irony and figures of speech appropriately",
+  "shifting register: warmth/familiarity vs formality (friend letter vs speech to colleagues)",
+  "inferring implicit meaning, attitude and intention (reading/listening)",
+  "taking notes from spoken input (listening task 1)",
+  "self-editing: detecting wrong/extra/missing words (use-of-language task 1)"
+ ]
+}

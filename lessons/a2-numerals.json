@@ -1,0 +1,402 @@
+{
+ "el": "Αριθμητικά",
+ "title": "Numbers, time and dates",
+ "section": "A2 · Holton §5",
+ "goal": "Say any number up to 9,999, with agreement, and tell the time and date.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Greek numbers are regular once you know which ones **decline**: 1, 3 and 4 (alone or at the end of a number: είκοσι τρεις), the hundreds from 200 (διακόσιοι, -ες, -α) and χίλιοι. Everything else is invariable. When you count, or the noun is neuter, use the neuter: ένα, τρία, τέσσερα, διακόσια."
+  },
+  {
+   "type": "table",
+   "title": "The declining numbers",
+   "head": [
+    "",
+    "m",
+    "f",
+    "n"
+   ],
+   "rows": [
+    [
+     "1",
+     "ένας",
+     "μία / μια",
+     "ένα"
+    ],
+    [
+     "3",
+     "τρεις",
+     "τρεις",
+     "τρία"
+    ],
+    [
+     "4",
+     "τέσσερις",
+     "τέσσερις",
+     "τέσσερα"
+    ],
+    [
+     "200",
+     "διακόσιοι",
+     "διακόσιες",
+     "διακόσια"
+    ],
+    [
+     "1000",
+     "χίλιοι",
+     "χίλιες",
+     "χίλια"
+    ]
+   ],
+   "cite": "Holton §5.2. 2,000+ uses the feminine noun χιλιάδες: δύο χιλιάδες, τρεις χιλιάδες."
+  },
+  {
+   "type": "rules",
+   "title": "How numbers are built",
+   "src": "grammar/numerals.json#cardinal_ordinal_table.notes",
+   "pick": [
+    1,
+    2
+   ],
+   "cite": "Holton §5.1"
+  },
+  {
+   "type": "examples",
+   "title": "Time",
+   "src": "grammar/numerals.json#expressions.time_of_day.examples",
+   "cite": "Holton §5.5. στη μία, στις δύο / τρεις / τέσσερις: the hour is feminine because of ώρα."
+  },
+  {
+   "type": "culture",
+   "title": "Dates that name things",
+   "text": "Greeks name their national days, and the streets that honour them, by the date. **Η 25η Μαρτίου** marks the start of the War of Independence in 1821 (and the Annunciation); **η 28η Οκτωβρίου**, known as **το Όχι** 'the No', recalls Greece's rejection of the Italian ultimatum in 1940. Both are celebrated with school and military parades. Written **25η**, the date is an ordinal and is read formally as **εικοστή πέμπτη Μαρτίου**, but in speech most people say **η είκοσι πέντε Μαρτίου**. Athens' Patission Street is officially **οδός 28ης Οκτωβρίου**, with the ordinal and the month both in the genitive."
+  },
+  {
+   "type": "examples",
+   "title": "Dates",
+   "src": "grammar/numerals.json#expressions.dates.examples",
+   "cite": "Holton §5.5. The 1st uses the ordinal (την πρώτη); other days use the cardinal with στις; the month is genitive."
+  },
+  {
+   "type": "reading",
+   "title": "Στη λαϊκή αγορά",
+   "text": "Κάθε Σάββατο στις οχτώ το πρωί η κυρία Ρένα πηγαίνει στη λαϊκή της γειτονιάς της. Η λαϊκή κλείνει στις δύο το μεσημέρι, αλλά τα καλύτερα φρούτα φεύγουν πριν από τις δέκα. Σήμερα έχει μαζί της είκοσι πέντε ευρώ.\n\n— Καλημέρα! Πόσο κάνουν οι ντομάτες;\n\n— Ένα ευρώ και πενήντα το κιλό, κυρία μου. Πάρτε τρία κιλά με τέσσερα ευρώ!\n\n— Εντάξει, βάλτε μου τρία. Και τα πορτοκάλια;\n\n— Ογδόντα λεπτά το κιλό. Είναι από την Άρτα, γλυκά σαν μέλι.\n\n— Θέλω πέντε κιλά, για χυμό.\n\nΗ κυρία Ρένα πληρώνει οχτώ ευρώ για όλα. Μετά αγοράζει δύο μεγάλα ψάρια με έντεκα ευρώ και δώδεκα αυγά με τρία ευρώ και είκοσι λεπτά.\n\nΣτις δέκα παρά τέταρτο γυρίζει στο σπίτι. Ανοίγει το πορτοφόλι της: έχει ακόμα δύο ευρώ και ογδόντα λεπτά. «Ο καφές στο καφενείο κάνει δυόμισι ευρώ», σκέφτεται. «Τέλεια!»",
+   "en": "Every Saturday at eight in the morning Mrs Rena goes to the street market in her neighbourhood. The market closes at two in the afternoon, but the best fruit is gone before ten. Today she has twenty-five euros with her.\n\n— Good morning! How much are the tomatoes?\n\n— One euro fifty a kilo, madam. Take three kilos for four euros!\n\n— All right, give me three. And the oranges?\n\n— Eighty cents a kilo. They're from Arta, sweet as honey.\n\n— I want five kilos, for juice.\n\nMrs Rena pays eight euros for everything. Then she buys two big fish for eleven euros and twelve eggs for three euros twenty.\n\nAt a quarter to ten she goes back home. She opens her purse: she still has two euros eighty. 'Coffee at the kafeneio is two and a half euros,' she thinks. 'Perfect!'",
+   "gloss": {
+    "οχτώ": "οχτώ — eight (also οκτώ)",
+    "Οχτώ": "οχτώ — eight (also οκτώ)",
+    "Ρένα": "Ρένα — Rena (woman's name)",
+    "λαϊκή": "λαϊκή (αγορά) — weekly street market for fruit, vegetables and fish",
+    "ντομάτες": "ντομάτα — tomato (plural)",
+    "πενήντα": "πενήντα — fifty",
+    "πορτοκάλια": "πορτοκάλι — orange (plural)",
+    "Ογδόντα": "ογδόντα — eighty",
+    "ογδόντα": "ογδόντα — eighty",
+    "Άρτα": "Άρτα — Arta (town in Epirus, known for oranges)",
+    "έντεκα": "έντεκα — eleven",
+    "Έντεκα": "έντεκα — eleven",
+    "δώδεκα": "δώδεκα — twelve",
+    "καφενείο": "καφενείο — traditional coffee house",
+    "δυόμισι": "δυόμισι — two and a half",
+    "Δεκαπέντε": "δεκαπέντε — fifteen",
+    "κάνουν": "κάνω — to do; here: to cost (Πόσο κάνουν; 'How much are they?')",
+    "κάνει": "κάνω — to do; here: to cost",
+    "μέλι": "μέλι — honey",
+    "χυμό": "χυμός — juice",
+    "βάλτε": "βάζω — to put (imperative pl.: βάλτε μου 'give me, put in for me')"
+   },
+   "questions": [
+    {
+     "prompt": "Πόσα χρήματα έχει μαζί της η κυρία Ρένα όταν πηγαίνει στη λαϊκή;",
+     "answer": "Είκοσι πέντε ευρώ",
+     "options": [
+      "Είκοσι πέντε ευρώ",
+      "Δεκαπέντε ευρώ",
+      "Οχτώ ευρώ"
+     ]
+    },
+    {
+     "prompt": "Πόσα κιλά πορτοκάλια αγοράζει;",
+     "answer": "Πέντε",
+     "options": [
+      "Πέντε",
+      "Τρία",
+      "Δύο"
+     ]
+    },
+    {
+     "prompt": "Πόσο κάνουν τα αυγά;",
+     "answer": "Τρία ευρώ και είκοσι λεπτά",
+     "options": [
+      "Τρία ευρώ και είκοσι λεπτά",
+      "Έντεκα ευρώ",
+      "Δύο ευρώ και ογδόντα λεπτά"
+     ]
+    },
+    {
+     "prompt": "Τι ώρα γυρίζει στο σπίτι;",
+     "answer": "Στις δέκα παρά τέταρτο",
+     "options": [
+      "Στις δέκα παρά τέταρτο",
+      "Στις οχτώ",
+      "Στις δέκα και τέταρτο"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "number-words",
+   "n": 8,
+   "max": [
+    100,
+    1000,
+    10000
+   ]
+  },
+  {
+   "gen": "number-words",
+   "n": 6,
+   "genders": [
+    "f",
+    "m"
+   ],
+   "max": [
+    100,
+    1000
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "at three o'clock",
+     "answer": "στις τρεις",
+     "options": [
+      "στις τρεις",
+      "στις τρία",
+      "στα τρία",
+      "στους τρεις"
+     ],
+     "why": "ώρα is feminine: στις τρεις."
+    },
+    {
+     "prompt": "at one o'clock",
+     "answer": "στη μία",
+     "options": [
+      "στη μία",
+      "στις μία",
+      "στο ένα",
+      "στη ένα"
+     ]
+    },
+    {
+     "prompt": "on the 1st of May",
+     "answer": "την πρώτη Μαΐου",
+     "options": [
+      "την πρώτη Μαΐου",
+      "στις μία Μαΐου",
+      "την ένα Μάιο"
+     ],
+     "why": "The 1st uses the ordinal in the accusative; the month is genitive."
+    },
+    {
+     "prompt": "on the 25th of March",
+     "answer": "στις είκοσι πέντε Μαρτίου",
+     "options": [
+      "στις είκοσι πέντε Μαρτίου",
+      "την είκοσι πέμπτη Μαρτίου",
+      "στα είκοσι πέντε Μάρτιο"
+     ]
+    },
+    {
+     "prompt": "half past four",
+     "answer": "τέσσερις και μισή",
+     "options": [
+      "τέσσερις και μισή",
+      "τέσσερα και μισό",
+      "μισή τέσσερις"
+     ],
+     "why": "Feminine (ώρα): τέσσερις και μισή, or τεσσερισήμισι."
+    },
+    {
+     "prompt": "a quarter to nine",
+     "answer": "εννιά παρά τέταρτο",
+     "options": [
+      "εννιά παρά τέταρτο",
+      "εννιά και τέταρτο",
+      "οχτώ παρά τέταρτο"
+     ],
+     "why": "παρά = to, και = past."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say in Greek: *three women*",
+     "answer": "τρεις γυναίκες",
+     "accept": [
+      "τρεις γυναίκες"
+     ],
+     "why": "3 has one form for masculine and feminine: τρεις; neuter τρία."
+    },
+    {
+     "prompt": "Say in Greek: *four children*",
+     "answer": "τέσσερα παιδιά",
+     "accept": [
+      "τέσσερα παιδιά"
+     ],
+     "why": "παιδί is neuter, so the neuter τέσσερα."
+    },
+    {
+     "prompt": "Say in Greek: *123 euros* (in words)",
+     "answer": "εκατόν είκοσι τρία ευρώ",
+     "accept": [
+      "εκατόν είκοσι τρία ευρώ",
+      "εκατό είκοσι τρία ευρώ"
+     ],
+     "why": "εκατό becomes εκατόν before another number; ευρώ is neuter, so τρία."
+    },
+    {
+     "prompt": "Say in Greek: *three hundred people* (οι άνθρωποι)",
+     "answer": "τριακόσιοι άνθρωποι",
+     "accept": [
+      "τριακόσιοι άνθρωποι"
+     ],
+     "why": "Hundreds from 200 decline like adjectives: masculine nominative τριακόσιοι."
+    },
+    {
+     "prompt": "Say in Greek: *two thousand years*",
+     "answer": "δύο χιλιάδες χρόνια",
+     "accept": [
+      "δύο χιλιάδες χρόνια",
+      "δυο χιλιάδες χρόνια"
+     ],
+     "why": "From 2,000 up, thousands are the feminine noun χιλιάδες, whatever the gender of the counted noun."
+    },
+    {
+     "prompt": "Say in Greek: *at seven o'clock*",
+     "answer": "στις εφτά",
+     "accept": [
+      "στις εφτά",
+      "στις επτά"
+     ],
+     "why": "The hour is feminine (ώρα understood): στις + number."
+    },
+    {
+     "prompt": "Say in Greek: *at a quarter past one*",
+     "answer": "στη μία και τέταρτο",
+     "accept": [
+      "στη μία και τέταρτο",
+      "στην μία και τέταρτο",
+      "στη μια και τέταρτο"
+     ],
+     "why": "One o'clock is singular feminine: στη μία; και τέταρτο = quarter past."
+    },
+    {
+     "prompt": "Say in Greek: *I'm thirty-four years old.*",
+     "answer": "Είμαι τριάντα τεσσάρων χρονών.",
+     "accept": [
+      "Είμαι τριάντα τεσσάρων χρονών",
+      "Είμαι τριάντα τεσσάρων ετών",
+      "Είμαι τριάντα τέσσερα χρονών",
+      "Είμαι τριάντα τέσσερα"
+     ],
+     "why": "χρονών is genitive plural, so a declining final number goes into the genitive too: τεσσάρων (colloquially also τέσσερα)."
+    },
+    {
+     "prompt": "Say in Greek: *on the 28th of October*",
+     "answer": "στις είκοσι οχτώ Οκτωβρίου",
+     "accept": [
+      "στις είκοσι οχτώ Οκτωβρίου",
+      "στις είκοσι οκτώ Οκτωβρίου",
+      "στις 28 Οκτωβρίου",
+      "την εικοστή όγδοη Οκτωβρίου"
+     ],
+     "why": "Day as a cardinal after στις, month in the genitive (formally the ordinal εικοστή όγδοη)."
+    },
+    {
+     "prompt": "Say in Greek: *the third floor* (nom.)",
+     "answer": "ο τρίτος όροφος",
+     "accept": [
+      "ο τρίτος όροφος"
+     ],
+     "why": "Ordinals are ordinary -ος adjectives that agree with the noun."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Η παράσταση αρχίζει ___ (at 9:30).",
+     "answer": "στις εννιάμισι",
+     "options": [
+      "στις εννιάμισι",
+      "στα εννιάμισι",
+      "στους εννιάμισι"
+     ],
+     "why": "Clock time is feminine (ώρα): στις; 'and a half' fuses into -μισι."
+    },
+    {
+     "prompt": "Έχω ___ αδερφές.",
+     "answer": "τρεις",
+     "options": [
+      "τρεις",
+      "τρία",
+      "τρις"
+     ],
+     "why": "αδερφή is feminine: τρεις (τρις means 'thrice' in learned Greek)."
+    },
+    {
+     "prompt": "Το ταξίδι κράτησε ___ ώρες.",
+     "answer": "τέσσερις",
+     "options": [
+      "τέσσερις",
+      "τέσσερα",
+      "τέσσερες"
+     ],
+     "why": "ώρα is feminine: τέσσερις (τέσσερες is a colloquial spelling to avoid in writing)."
+    },
+    {
+     "prompt": "Το βιβλίο έχει ___ σελίδες. (200)",
+     "answer": "διακόσιες",
+     "options": [
+      "διακόσιες",
+      "διακόσια",
+      "διακόσιοι"
+     ],
+     "why": "σελίδα is feminine, and the hundreds agree: διακόσιες."
+    },
+    {
+     "prompt": "Γεννήθηκα το ___ (1990).",
+     "answer": "χίλια εννιακόσια ενενήντα",
+     "options": [
+      "χίλια εννιακόσια ενενήντα",
+      "χίλιοι εννιακόσιοι ενενήντα",
+      "δύο χιλιάδες ενενήντα"
+     ],
+     "why": "Years are read as neuter numbers (το έτος understood)."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "ευρώ",
+  "κιλό",
+  "λεπτό",
+  "ώρα",
+  "τιμή",
+  "πληρώνω",
+  "κοστίζω",
+  "αγοράζω",
+  "ψάρι",
+  "αυγό",
+  "πορτοφόλι",
+  "ντομάτα"
+ ]
+}

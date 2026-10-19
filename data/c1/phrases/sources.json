@@ -1,0 +1,94 @@
+{
+ "items": [
+  {
+   "id": "wikt-cat-ekfraseis",
+   "title": "Κατηγορία:Εκφράσεις (νέα ελληνικά)",
+   "author": "Βικιλεξικό contributors",
+   "url": "https://el.wiktionary.org/wiki/Κατηγορία:Εκφράσεις_(νέα_ελληνικά)",
+   "license": "CC BY-SA 4.0",
+   "retrieved": "2026-10-18",
+   "file": "idioms.json; learned-phrases.json",
+   "notes": "Full title list (1,595 pages) scraped from category HTML pages (API was rate-limited, HTTP 429). Used to verify that phrases have entries and to link source_url."
+  },
+  {
+   "id": "wikt-cat-idiomatismoi",
+   "title": "Κατηγορία:Ιδιωματισμοί (νέα ελληνικά)",
+   "author": "Βικιλεξικό contributors",
+   "url": "https://el.wiktionary.org/wiki/Κατηγορία:Ιδιωματισμοί_(νέα_ελληνικά)",
+   "license": "CC BY-SA 4.0",
+   "retrieved": "2026-10-18",
+   "file": "idioms.json",
+   "notes": "115 pages, mostly nautical dialect terms; little used."
+  },
+  {
+   "id": "wikt-cat-katharevousa",
+   "title": "Κατηγορία:Εκφράσεις (καθαρεύουσα)",
+   "author": "Βικιλεξικό contributors",
+   "url": "https://el.wiktionary.org/wiki/Κατηγορία:Εκφράσεις_(καθαρεύουσα)",
+   "license": "CC BY-SA 4.0",
+   "retrieved": "2026-10-18",
+   "file": "learned-phrases.json",
+   "notes": "29 polytonic katharevousa entries; their monotonic modern forms used."
+  },
+  {
+   "id": "wikt-cat-epirrimatikes",
+   "title": "Κατηγορία:Επιρρηματικές εκφράσεις (νέα ελληνικά)",
+   "author": "Βικιλεξικό contributors",
+   "url": "https://el.wiktionary.org/wiki/Κατηγορία:Επιρρηματικές_εκφράσεις_(νέα_ελληνικά)",
+   "license": "CC BY-SA 4.0",
+   "retrieved": "2026-10-18",
+   "file": "learned-phrases.json; connectors.json",
+   "notes": "47 pages."
+  },
+  {
+   "id": "wikt-cat-polylektikoi",
+   "title": "Κατηγορία:Πολυλεκτικοί όροι (νέα ελληνικά)",
+   "author": "Βικιλεξικό contributors",
+   "url": "https://el.wiktionary.org/wiki/Κατηγορία:Πολυλεκτικοί_όροι_(νέα_ελληνικά)",
+   "license": "CC BY-SA 4.0",
+   "retrieved": "2026-10-18",
+   "file": "all",
+   "notes": "2,466 multiword terms; used for entry matching."
+  },
+  {
+   "id": "wikt-cat-paroimies",
+   "title": "Κατηγορία:Παροιμίες (νέα ελληνικά)",
+   "author": "Βικιλεξικό contributors",
+   "url": "https://el.wiktionary.org/wiki/Κατηγορία:Παροιμίες_(νέα_ελληνικά)",
+   "license": "CC BY-SA 4.0",
+   "retrieved": "2026-10-18",
+   "file": "idioms.json",
+   "notes": "78 proverbs; used for matching."
+  },
+  {
+   "id": "wikt-entries",
+   "title": "Βικιλεξικό entry pages (individual phrases)",
+   "author": "Βικιλεξικό contributors",
+   "url": "https://el.wiktionary.org/",
+   "license": "CC BY-SA 4.0",
+   "retrieved": "2026-10-18",
+   "file": "all",
+   "notes": "Item source_url points to an existing el.wiktionary entry when one exists (exact match against scraped titles, or HEAD check returning 200). Counts by file: {'idioms.json': {'wiktionary': 166, 'triantafyllidis': 240}, 'learned-phrases.json': {'triantafyllidis': 88, 'wiktionary': 247}, 'collocations.json': {'triantafyllidis': 357, 'wiktionary': 2}, 'connectors.json': {'triantafyllidis': 154, 'wiktionary': 21}}."
+  },
+  {
+   "id": "triantafyllidis",
+   "title": "Λεξικό της κοινής νεοελληνικής (Ίδρυμα Μανόλη Τριανταφυλλίδη), via Πύλη για την ελληνική γλώσσα",
+   "author": "Ινστιτούτο Νεοελληνικών Σπουδών / Κέντρο Ελληνικής Γλώσσας",
+   "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/",
+   "license": "© ΚΕΓ / ΙΝΣ – all rights reserved; only linked and consulted, no text copied",
+   "retrieved": "2026-10-18",
+   "file": "all",
+   "notes": "Where no Wiktionary entry exists, source_url is a lemma-search URL for the phrase's key word (dictionary lists phrases under ΦΡ in the head-word entry). Spot-checked: χυλόπιτα, σφοντύλι, μαντάρα, τάπητας (λόγ.; θέτω επί τάπητος), ευήκοος (λόγια έκφραση) – all consistent with our entries."
+  },
+  {
+   "id": "curation",
+   "title": "Curated meanings, registers, examples and translations",
+   "author": "Claude (AI), for personal study",
+   "url": "",
+   "license": "Original work, free for personal use",
+   "retrieved": "2026-10-18",
+   "file": "all",
+   "notes": "All examples (example_el/example_en), English glosses, register labels, colloquial equivalents and grammar notes were written for this dataset; no example sentences were copied from sources."
+  }
+ ]
+}

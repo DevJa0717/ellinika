@@ -1,0 +1,332 @@
+{
+ "el": "Παθητική φωνή: ενεστώτας",
+ "title": "Passive and middle verbs in the present and imperfect",
+ "section": "B1 · Holton §6.4, §6.8-6.11",
+ "goal": "Conjugate -ομαι, -ιέμαι, -ούμαι and -άμαι verbs in the present and imperfect.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "The Greek 'passive' is really a mediopassive: the same forms express the passive (Το σπίτι **χτίζεται** 'is being built'), the reflexive (**Ντύνομαι** 'I get dressed'), the reciprocal (**Βλεπόμαστε** 'we see each other') and plenty of verbs with plain active meaning (**έρχομαι**, **σκέφτομαι**, **εργάζομαι**). Learn the forms once and they serve all four.\n\nFour types, by the active verb they belong to: χάνομαι (from χάνω), αγαπιέμαι (from αγαπώ), θεωρούμαι (from θεωρώ), and the four deponents in -άμαι (κοιμάμαι, θυμάμαι, φοβάμαι, λυπάμαι)."
+  },
+  {
+   "type": "verb-paradigm",
+   "columns": [
+    {
+     "label": "χάνομαι",
+     "src": "grammar/verbs-holton.json#sections[section=6.8].paradigm.present.passive"
+    },
+    {
+     "label": "αγαπιέμαι",
+     "src": "grammar/verbs-holton.json#sections[section=6.9].paradigm.present.passive"
+    },
+    {
+     "label": "θεωρούμαι",
+     "src": "grammar/verbs-holton.json#sections[section=6.10].paradigm.present.passive"
+    }
+   ],
+   "cite": "Holton §6.8-6.10"
+  },
+  {
+   "type": "verb-paradigm",
+   "title": "Imperfect",
+   "columns": [
+    {
+     "label": "χανόμουν",
+     "src": "grammar/verbs-holton.json#sections[section=6.8].paradigm.imperfect.passive"
+    }
+   ],
+   "cite": "Holton §6.8. Stress moves forward one syllable except in 3pl -ονταν."
+  },
+  {
+   "type": "culture",
+   "title": "ΕΝΟΙΚΙΑΖΕΤΑΙ: signs on the balcony",
+   "text": "Walk down any Greek street and you will see boards tied to balcony railings: **ΕΝΟΙΚΙΑΖΕΤΑΙ** 'for rent' and **ΠΩΛΕΙΤΑΙ** 'for sale', literally 'is being rented' and 'is being sold'. They are third-person passives, in the learned forms (**ενοικιάζεται** rather than everyday **νοικιάζεται**, **πωλείται** from the formal verb **πωλώ**, conjugated like θεωρούμαι). On the islands the plural **Ενοικιάζονται δωμάτια** 'rooms to let' hangs outside family guesthouses. Public notices use the same pattern: **Απαγορεύεται το κάπνισμα** 'smoking is prohibited', **Δεν επιτρέπεται η είσοδος** 'no entry'."
+  },
+  {
+   "type": "rules",
+   "src": "grammar/verbs-holton.json#sections[section=6.11].rule",
+   "cite": "Holton §6.11"
+  },
+  {
+   "type": "reading",
+   "title": "Η λαϊκή της Πέμπτης",
+   "text": "Κάθε Πέμπτη ο δρόμος μας κλείνει για τα αυτοκίνητα και γεμίζει πάγκους. Η λαϊκή αγορά της γειτονιάς μας θεωρείται από τις καλύτερες της Αθήνας. Από τις έξι το πρωί οι πάγκοι στήνονται και τα φρούτα τοποθετούνται σε μεγάλα καφάσια. Οι πωλητές φωνάζουν τις τιμές τους και ακούγονται μέχρι το μπαλκόνι μου.\n\nΕδώ πουλιούνται κυρίως ελληνικά προϊόντα: ντομάτες από την Κρήτη, πορτοκάλια από την Αργολίδα, μέλι από τη Θάσο. Στην άκρη της αγοράς βρίσκονται τα ψάρια, που έρχονται κάθε πρωί από τον Πειραιά και ζυγίζονται μπροστά στον πελάτη. Οι πελάτες δεν βιάζονται. Συζητούν με τους πωλητές, δοκιμάζουν ένα σταφύλι και παραπονιούνται για τις τιμές.\n\nΌταν ήμουν μικρή, η λαϊκή μού φαινόταν τεράστια. Κρατιόμουν από το χέρι της μητέρας μου για να μη χαθώ στον κόσμο. Οι παλιοί πωλητές με ήξεραν και μου έδιναν πάντα ένα μήλο. Η μητέρα μου λεγόταν Ευτυχία, αλλά όλοι τη φώναζαν «κυρία Τυχούλα».\n\nΣήμερα πολλοί νέοι ψωνίζουν από το σούπερ μάρκετ, γιατί δουλεύουν ως αργά. Η λαϊκή όμως δεν εγκαταλείπεται. Το μεσημέρι, όταν οι πάγκοι μαζεύονται, οι τιμές πέφτουν και οι πιο έξυπνοι πελάτες βρίσκουν τις καλύτερες προσφορές.",
+   "en": "Every Thursday our street closes to cars and fills with stalls. Our neighbourhood street market is considered one of the best in Athens. From six in the morning the stalls are set up and the fruit is arranged in big crates. The sellers shout their prices and can be heard all the way up to my balcony.\n\nMostly Greek products are sold here: tomatoes from Crete, oranges from the Argolid, honey from Thasos. At the end of the market is the fish, which comes in every morning from Piraeus and is weighed in front of the customer. The customers are in no hurry. They chat with the sellers, try a grape and complain about the prices.\n\nWhen I was little, the market seemed enormous to me. I held on to my mother's hand so as not to get lost in the crowd. The old sellers knew me and always gave me an apple. My mother was called Eftychia, but everyone called her 'Mrs Tychoula'.\n\nToday many young people shop at the supermarket, because they work until late. But the market is not being abandoned. At midday, when the stalls are being packed up, the prices drop and the smartest customers find the best deals.",
+   "gloss": {
+    "λαϊκή": "λαϊκή (αγορά) — street market (weekly open-air produce market)",
+    "θεωρείται": "θεωρούμαι — is considered",
+    "Αθήνας": "Αθήνα — Athens (gen.)",
+    "καφάσια": "καφάσι — crates",
+    "ντομάτες": "ντομάτα — tomatoes",
+    "πορτοκάλια": "πορτοκάλι — oranges",
+    "Αργολίδα": "Αργολίδα — the Argolid (region in the Peloponnese)",
+    "Θάσο": "Θάσος — Thasos (island in the northern Aegean)",
+    "Πειραιά": "Πειραιάς — Piraeus (port of Athens), acc.",
+    "ζυγίζονται": "ζυγίζομαι — are weighed",
+    "σταφύλι": "σταφύλι — grape(s), a bunch of grapes",
+    "παραπονιούνται": "παραπονιέμαι — they complain",
+    "χαθώ": "χάνομαι — get lost (dependent, να μη χαθώ)",
+    "ήξεραν": "ξέρω — knew (past)",
+    "Τυχούλα": "Τυχούλα — Tychoula (pet name for Ευτυχία)",
+    "Ευτυχία": "Ευτυχία — Eftychia (woman's name)",
+    "ψωνίζουν": "ψωνίζω — they shop",
+    "μάρκετ": "σούπερ μάρκετ — supermarket",
+    "σούπερ": "σούπερ μάρκετ — supermarket",
+    "αφηγήτρια": "αφηγήτρια — narrator (female)",
+    "καινούργια": "καινούργιος — new (neut. pl.)",
+    "στήνονται": "στήνομαι — are set up",
+    "τοποθετούνται": "τοποθετούμαι — are placed, arranged",
+    "πάγκους": "πάγκος — stalls (acc. pl.)",
+    "πάγκοι": "πάγκος — stalls",
+    "Κρατιόμουν": "κρατιέμαι — I held on (imperfect)",
+    "εγκαταλείπεται": "εγκαταλείπομαι — is abandoned",
+    "μαζεύονται": "μαζεύομαι — are packed up, gathered",
+    "προσφορές": "προσφορά — deals, offers",
+    "πωλητές": "πωλητής — sellers"
+   },
+   "questions": [
+    {
+     "prompt": "Πότε γίνεται η λαϊκή αγορά;",
+     "answer": "Κάθε Πέμπτη",
+     "options": [
+      "Κάθε Πέμπτη",
+      "Κάθε Σάββατο",
+      "Κάθε μέρα"
+     ]
+    },
+    {
+     "prompt": "Από πού είναι το μέλι;",
+     "answer": "Από τη Θάσο",
+     "options": [
+      "Από τη Θάσο",
+      "Από την Κρήτη",
+      "Από την Αργολίδα"
+     ]
+    },
+    {
+     "prompt": "Τι έδιναν οι πωλητές στην αφηγήτρια όταν ήταν παιδί;",
+     "answer": "Ένα μήλο",
+     "options": [
+      "Ένα μήλο",
+      "Ένα πορτοκάλι",
+      "Ένα σταφύλι"
+     ]
+    },
+    {
+     "prompt": "Γιατί αξίζει να πας στη λαϊκή το μεσημέρι;",
+     "answer": "Γιατί πέφτουν οι τιμές",
+     "options": [
+      "Γιατί πέφτουν οι τιμές",
+      "Γιατί έχει λιγότερο κόσμο",
+      "Γιατί έρχονται καινούργια προϊόντα"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/verbs-holton.json#sections[section=6.8].paradigm.present.passive",
+   "lemma": "χάνομαι",
+   "prompt": "Conjugate **χάνομαι** in the present.",
+   "given": 1
+  },
+  {
+   "gen": "passive-present",
+   "n": 12
+  },
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/verbs-holton.json#sections[section=6.8].paradigm.imperfect.passive",
+   "lemma": "χανόμουν",
+   "prompt": "Conjugate **χάνομαι** in the imperfect.",
+   "given": 1
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Πώς ___ (λέγομαι) η αδερφή σου;",
+     "answer": "λέγεται",
+     "accept": [
+      "λέγεται"
+     ],
+     "why": "3rd singular present of a -ομαι verb: -εται."
+    },
+    {
+     "prompt": "Εμείς ___ (βλέπομαι) κάθε Σάββατο.",
+     "answer": "βλεπόμαστε",
+     "accept": [
+      "βλεπόμαστε"
+     ],
+     "why": "Reciprocal 'we see each other': 1pl -όμαστε, stress moves to the -ό-."
+    },
+    {
+     "prompt": "Εσύ δεν ___ (φοβάμαι) τα σκυλιά;",
+     "answer": "φοβάσαι",
+     "accept": [
+      "φοβάσαι"
+     ],
+     "why": "-άμαι verbs: φοβάμαι, φοβάσαι, φοβάται..."
+    },
+    {
+     "prompt": "Τα βιβλία αυτά ___ (διαβάζομαι) πολύ από τους νέους.",
+     "answer": "διαβάζονται",
+     "accept": [
+      "διαβάζονται"
+     ],
+     "why": "True passive with a plural subject: 3pl -ονται."
+    },
+    {
+     "prompt": "Παλιά εμείς ___ (κοιμάμαι) νωρίς.",
+     "answer": "κοιμόμασταν",
+     "accept": [
+      "κοιμόμασταν",
+      "κοιμούμασταν"
+     ],
+     "why": "Imperfect of -άμαι verbs is built like -όμουν: κοιμόμουν, κοιμόσουν, κοιμόταν, κοιμόμασταν."
+    },
+    {
+     "prompt": "Αυτός ο ηθοποιός ___ (θεωρούμαι) ο καλύτερος της γενιάς του.",
+     "answer": "θεωρείται",
+     "accept": [
+      "θεωρείται"
+     ],
+     "why": "-ούμαι verbs: θεωρούμαι, θεωρείσαι, θεωρείται."
+    },
+    {
+     "prompt": "Πέρσι ___ (εργάζομαι, εγώ) σε μια τράπεζα.",
+     "answer": "εργαζόμουν",
+     "accept": [
+      "εργαζόμουν",
+      "εργαζόμουνα"
+     ],
+     "why": "Imperfect 1sg -όμουν, stress one syllable further forward than the present."
+    },
+    {
+     "prompt": "Τα παιδιά ___ (ντύνομαι) μόνα τους.",
+     "answer": "ντύνονται",
+     "accept": [
+      "ντύνονται"
+     ],
+     "why": "Reflexive 'get dressed': 3pl -ονται."
+    },
+    {
+     "prompt": "Γιατί ___ (παραπονιέμαι, εσύ) συνέχεια;",
+     "answer": "παραπονιέσαι",
+     "accept": [
+      "παραπονιέσαι"
+     ],
+     "why": "-ιέμαι verbs: παραπονιέμαι, παραπονιέσαι, παραπονιέται."
+    },
+    {
+     "prompt": "Τότε ___ (σκέφτομαι, εγώ) να αλλάξω δουλειά.",
+     "answer": "σκεφτόμουν",
+     "accept": [
+      "σκεφτόμουν",
+      "σκεφτόμουνα"
+     ],
+     "why": "Ongoing thinking in the past: imperfect σκεφτόμουν."
+    },
+    {
+     "prompt": "Say in Greek: *The house is being painted.*",
+     "answer": "Το σπίτι βάφεται.",
+     "accept": [
+      "Το σπίτι βάφεται",
+      "Βάφεται το σπίτι"
+     ],
+     "why": "Present passive of βάφω, 3sg -εται."
+    },
+    {
+     "prompt": "Χθες όλη μέρα ___ (αισθάνομαι, εγώ) κουρασμένη.",
+     "answer": "αισθανόμουν",
+     "accept": [
+      "αισθανόμουν",
+      "αισθανόμουνα"
+     ],
+     "why": "A state lasting all day in the past: imperfect."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Το κτίριο ___ από έναν διάσημο αρχιτέκτονα.",
+     "answer": "χτίζεται",
+     "options": [
+      "χτίζεται",
+      "χτίζει",
+      "χτίζονται"
+     ],
+     "why": "Singular subject undergoing the action: passive 3sg -εται."
+    },
+    {
+     "prompt": "Ο Γιάννης και η Άννα ___ από το σχολείο.",
+     "answer": "γνωρίζονται",
+     "options": [
+      "γνωρίζονται",
+      "γνωρίζουν",
+      "γνωρίζεται"
+     ],
+     "why": "Reciprocal meaning ('know each other') uses the passive form; plural subject, -ονται."
+    },
+    {
+     "prompt": "Εσείς πού ___;",
+     "answer": "εργάζεστε",
+     "options": [
+      "εργάζεστε",
+      "εργάζεσαι",
+      "εργαζόσαστε"
+     ],
+     "why": "2pl present: -εστε (εργαζόσαστε is the imperfect)."
+    },
+    {
+     "prompt": "Όταν ήμουν παιδί, ___ το σκοτάδι.",
+     "answer": "φοβόμουν",
+     "options": [
+      "φοβόμουν",
+      "φοβάμαι",
+      "φοβόταν"
+     ],
+     "why": "A past state of a child: imperfect, 1sg -όμουν."
+    },
+    {
+     "prompt": "Τα φρούτα ___ στη λαϊκή.",
+     "answer": "πουλιούνται",
+     "options": [
+      "πουλιούνται",
+      "πουλιέται",
+      "πουλάνε"
+     ],
+     "why": "Plural subject being sold: -ιούνται (from πουλάω, type αγαπιέμαι)."
+    },
+    {
+     "prompt": "Αυτή η λέξη δεν ___ πια.",
+     "answer": "χρησιμοποιείται",
+     "options": [
+      "χρησιμοποιείται",
+      "χρησιμοποιεί",
+      "χρησιμοποιούνται"
+     ],
+     "why": "-ούμαι type, 3sg -είται, singular subject."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "αγορά",
+  "τιμή",
+  "φρούτο",
+  "μέλι",
+  "γειτονιά",
+  "πελάτης",
+  "θεωρώ",
+  "φαίνομαι",
+  "βιάζομαι",
+  "πουλώ",
+  "κρατάω",
+  "χάνω"
+ ]
+}

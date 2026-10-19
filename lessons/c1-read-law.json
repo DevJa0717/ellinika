@@ -1,0 +1,734 @@
+{
+ "el": "Η γλώσσα του νόμου: Σύνταγμα και Χάρτης Δικαιωμάτων",
+ "title": "Legal Greek: the Constitution and the EU Charter",
+ "section": "C1 · reading",
+ "goal": "Read constitutional and EU legal texts accurately and turn their formulas (απαγορεύεται, εφόσον, κατοχυρώνεται, νοείται) into plain Greek.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Legal Greek is the purest survival of learned style in everyday life: every contract, tenancy agreement, GDPR notice and court ruling you meet in Greece is written in it. The texts below are the **opening articles of the Greek Constitution** (1975, last revised 2019), **Article 24** on the environment, and excerpts from the **EU Charter of Fundamental Rights** in its official Greek version.\n\nWhat to watch for: (1) the **impersonal passive** that turns every rule into a fact (*απαγορεύεται, προστατεύονται, ασκούνται, νοείται*); (2) **condition and exception formulas** (*εφόσον, παρά μόνο όταν, εκτός αν, με την επιφύλαξη*); (3) **learned forms** that ordinary Greek has replaced (*συλλεγέντα, νομίμως, αδιακρίτως, του συνέρχεσθαι*); (4) the bare noun *Νόμος ορίζει* 'a law provides' with no article, which is pure legal idiom. Read each article as a rule: who, what, under which condition, with which exception.\n\n*Πηγή: Σύνταγμα της Ελλάδας, άρθρα 1–5Α και 24 (ΦΕΚ Α΄ 211/24.12.2019, via el.wikisource.org; official text, not subject to copyright). Χάρτης των Θεμελιωδών Δικαιωμάτων της ΕΕ, ΕΕ C 202 της 7.6.2016 (EUR-Lex; reuse authorised with acknowledgement of source).*"
+  },
+  {
+   "type": "table",
+   "title": "Legal-register formulas and what they mean in plain Greek",
+   "head": [
+    "Formula",
+    "English",
+    "Plain Greek"
+   ],
+   "rows": [
+    [
+     "**η διάταξη (του άρθρου 4)**",
+     "the provision (of Article 4)",
+     "ο κανόνας του άρθρου"
+    ],
+    [
+     "**ορίζει / όπως (ο) νόμος ορίζει**",
+     "provides, lays down / as the law provides",
+     "λέει / όπως λέει ο νόμος"
+    ],
+    [
+     "**Νόμος ορίζει τα σχετικά με…**",
+     "matters concerning … are regulated by law",
+     "ένας νόμος θα ρυθμίσει τις λεπτομέρειες"
+    ],
+    [
+     "**απαγορεύεται + noun / να**",
+     "is prohibited",
+     "δεν επιτρέπεται"
+    ],
+    [
+     "**επιτρέπεται να / είναι δυνατόν να**",
+     "is permitted / may",
+     "μπορεί να"
+    ],
+    [
+     "**προστατεύεται / είναι σεβαστό**",
+     "is protected / shall be respected",
+     "το κράτος το φυλάει, δεν το πειράζει"
+    ],
+    [
+     "**εγγυάται**",
+     "guarantees",
+     "εξασφαλίζει"
+    ],
+    [
+     "**κατοχυρώνεται**",
+     "is enshrined, secured (in law)",
+     "το λέει ρητά ο νόμος και το εξασφαλίζει"
+    ],
+    [
+     "**οφείλει να / έχει υποχρέωση να**",
+     "is obliged to, shall",
+     "πρέπει να"
+    ],
+    [
+     "**δικαιούται να / έχει δικαίωμα να**",
+     "is entitled to",
+     "μπορεί να απαιτήσει να"
+    ],
+    [
+     "**αποτελεί / συνιστά**",
+     "constitutes",
+     "είναι"
+    ],
+    [
+     "**νοείται (ως)**",
+     "is understood as, means",
+     "εννοούμε"
+    ],
+    [
+     "**εφόσον**",
+     "provided that, insofar as",
+     "αν, με την προϋπόθεση ότι"
+    ],
+    [
+     "**παρά μόνο όταν / εκτός αν**",
+     "except when / unless",
+     "μόνο όταν"
+    ],
+    [
+     "**με την επιφύλαξη + gen.**",
+     "without prejudice to, subject to",
+     "χωρίς να θίγεται…"
+    ],
+    [
+     "**υπάγεται σε / υπόκειται σε**",
+     "falls under / is subject to",
+     "ανήκει σε / ελέγχεται από"
+    ],
+    [
+     "**δεν αντίκειται σε**",
+     "is not contrary to",
+     "δεν έρχεται σε αντίθεση με"
+    ],
+    [
+     "**κανείς δεν μπορεί να + passive**",
+     "no one may be …",
+     "απαγορεύεται να …κανείς"
+    ],
+    [
+     "**ιδίως / ειδικότερα**",
+     "in particular / more specifically",
+     "κυρίως / πιο συγκεκριμένα"
+    ],
+    [
+     "**κατά συνέπεια / προς τον σκοπό αυτόν**",
+     "consequently / to this end",
+     "άρα / γι' αυτό"
+    ]
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**The legal passive is not optional.** Where English says *'X shall be protected'*, Greek law says **προστατεύεται** (present passive = permanent rule). *Κανένας δεν καταδιώκεται ούτε συλλαμβάνεται* literally 'No one is prosecuted or arrested' means 'No one **may** be'. The present tense *is* the obligation.\n\n**Νόμος ορίζει** without an article = 'a (future, specific) law shall provide'; **ο νόμος ορίζει** = 'the law (in general) provides'. Copy this in formal writing: *όπως ορίζει ο νόμος* is safe anywhere."
+  },
+  {
+   "type": "reading",
+   "title": "Σύνταγμα, άρθρα 1, 2 και 4",
+   "text": "**Άρθρο 1**\n\n1. Το πολίτευμα της Ελλάδας είναι Προεδρευόμενη Κοινοβουλευτική Δημοκρατία.\n\n2. Θεμέλιο του πολιτεύματος είναι η λαϊκή κυριαρχία.\n\n3. Όλες οι εξουσίες πηγάζουν από το Λαό, υπάρχουν υπέρ αυτού και του Έθνους και ασκούνται όπως ορίζει το Σύνταγμα.\n\n**Άρθρο 2**\n\n1. Ο σεβασμός και η προστασία της αξίας του ανθρώπου αποτελούν την πρωταρχική υποχρέωση της Πολιτείας.\n\n2. Η Ελλάδα, ακολουθώντας τους γενικά αναγνωρισμένους κανόνες του διεθνούς δικαίου, επιδιώκει την εμπέδωση της ειρήνης, της δικαιοσύνης, καθώς και την ανάπτυξη των φιλικών σχέσεων μεταξύ των λαών και των κρατών.\n\n[…]\n\n**Άρθρο 4**\n\n1. Οι Έλληνες είναι ίσοι ενώπιον του νόμου.\n\n2. Οι Έλληνες και οι Ελληνίδες έχουν ίσα δικαιώματα και υποχρεώσεις.\n\n3. Έλληνες πολίτες είναι όσοι έχουν τα προσόντα που ορίζει ο νόμος. Επιτρέπεται να αφαιρεθεί η ελληνική ιθαγένεια μόνο σε περίπτωση που κάποιος απέκτησε εκούσια άλλη ιθαγένεια ή που ανέλαβε σε ξένη χώρα υπηρεσία αντίθετη προς τα εθνικά συμφέροντα, με τις προϋποθέσεις και τη διαδικασία που προβλέπει ειδικότερα ο νόμος.\n\n4. Μόνο Έλληνες πολίτες είναι δεκτοί σε όλες τις δημόσιες λειτουργίες, εκτός από τις εξαιρέσεις που εισάγονται με ειδικούς νόμους.\n\n5. Οι Έλληνες πολίτες συνεισφέρουν χωρίς διακρίσεις στα δημόσια βάρη, ανάλογα με τις δυνάμεις τους.\n\n6. Κάθε Έλληνας που μπορεί να φέρει όπλα είναι υποχρεωμένος να συντελεί στην άμυνα της Πατρίδας, σύμφωνα με τους ορισμούς των νόμων.\n\n7. Τίτλοι ευγένειας ή διάκρισης ούτε απονέμονται ούτε αναγνωρίζονται σε Έλληνες πολίτες.",
+   "en": "**Article 1**\n\n1. The form of government of Greece is that of a Parliamentary Republic headed by a President.\n\n2. Popular sovereignty is the foundation of the form of government.\n\n3. All powers derive from the People, exist for the People and the Nation, and are exercised as the Constitution prescribes.\n\n**Article 2**\n\n1. Respect for and protection of the value of the human being constitute the primary obligation of the State.\n\n2. Greece, adhering to the generally recognised rules of international law, pursues the consolidation of peace and justice, as well as the development of friendly relations between peoples and states.\n\n[…]\n\n**Article 4**\n\n1. Greeks are equal before the law.\n\n2. Greek men and Greek women have equal rights and obligations.\n\n3. Greek citizens are those who possess the qualifications laid down by law. Greek citizenship may be withdrawn only where a person has voluntarily acquired another citizenship or has taken up, in a foreign country, service contrary to the national interest, under the conditions and procedure more specifically provided by law.\n\n4. Only Greek citizens are eligible for all public offices, save the exceptions introduced by special laws.\n\n5. Greek citizens contribute without distinction to public charges, in proportion to their means.\n\n6. Every Greek capable of bearing arms is obliged to contribute to the defence of the Fatherland, as laid down by law.\n\n7. Titles of nobility or distinction are neither conferred upon nor recognised for Greek citizens.",
+   "gloss": {
+    "πολίτευμα": "form of government, polity",
+    "Προεδρευόμενη": "presided over (by a President)",
+    "κυριαρχία": "sovereignty",
+    "πηγάζουν": "spring from, derive from",
+    "ασκούνται": "are exercised",
+    "πρωταρχική": "primary, paramount",
+    "Πολιτείας": "of the State",
+    "εμπέδωση": "consolidation",
+    "ενώπιον": "before (formal)",
+    "ιθαγένεια": "citizenship",
+    "εκούσια": "voluntarily",
+    "προϋποθέσεις": "conditions, prerequisites",
+    "δεκτοί": "admissible, eligible",
+    "συνεισφέρουν": "contribute",
+    "βάρη": "burdens; public charges (taxes)",
+    "συντελεί": "contributes (to)",
+    "απονέμονται": "are conferred, awarded"
+   },
+   "questions": [
+    {
+     "prompt": "Σύμφωνα με το Άρθρο 1, από πού προέρχεται κάθε εξουσία;",
+     "answer": "Από τον Λαό· ασκείται όπως ορίζει το Σύνταγμα.",
+     "options": [
+      "Από τον Λαό· ασκείται όπως ορίζει το Σύνταγμα.",
+      "Από τον Πρόεδρο, που προεδρεύει του πολιτεύματος.",
+      "Από το Σύνταγμα, που την εκχωρεί στο Έθνος.",
+      "Από τη Βουλή, που είναι το θεμέλιο του πολιτεύματος."
+     ],
+     "why": "§3: «Όλες οι εξουσίες πηγάζουν από το Λαό». The Constitution only fixes how they are exercised; the foundation (§2) is λαϊκή κυριαρχία."
+    },
+    {
+     "prompt": "Σε ποια περίπτωση επιτρέπεται να αφαιρεθεί η ελληνική ιθαγένεια;",
+     "answer": "Αν κάποιος απέκτησε εκούσια άλλη ιθαγένεια.",
+     "options": [
+      "Αν κάποιος απέκτησε εκούσια άλλη ιθαγένεια.",
+      "Αν κάποιος αρνηθεί να υπηρετήσει στις ένοπλες δυνάμεις.",
+      "Αν κάποιος δεν συνεισφέρει στα δημόσια βάρη.",
+      "Αν κάποιος δεχτεί τίτλο ευγένειας από ξένη χώρα."
+     ],
+     "why": "Art. 4§3 allows it **only** (μόνο) for voluntary acquisition of another citizenship or service abroad against national interests."
+    },
+    {
+     "prompt": "Τι σημαίνει ότι οι πολίτες συνεισφέρουν στα δημόσια βάρη «ανάλογα με τις δυνάμεις τους»;",
+     "answer": "Ότι η φορολογική τους επιβάρυνση εξαρτάται από την οικονομική τους δυνατότητα.",
+     "options": [
+      "Ότι η φορολογική τους επιβάρυνση εξαρτάται από την οικονομική τους δυνατότητα.",
+      "Ότι υπηρετούν στον στρατό ανάλογα με τη σωματική τους δύναμη.",
+      "Ότι όλοι πληρώνουν ακριβώς το ίδιο ποσό.",
+      "Ότι αναλαμβάνουν δημόσιες θέσεις ανάλογα με τα προσόντα τους."
+     ],
+     "why": "δημόσια βάρη = public charges, i.e. taxation; δυνάμεις here = financial means. Military service is §6."
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "title": "Σύνταγμα, άρθρα 5 και 5Α: ελευθερία και πληροφόρηση",
+   "text": "**Άρθρο 5**\n\n1. Καθένας έχει δικαίωμα να αναπτύσσει ελεύθερα την προσωπικότητά του και να συμμετέχει στην κοινωνική, οικονομική και πολιτική ζωή της Χώρας, εφόσον δεν προσβάλλει τα δικαιώματα των άλλων και δεν παραβιάζει το Σύνταγμα ή τα χρηστά ήθη.\n\n2. Όλοι όσοι βρίσκονται στην Ελληνική Επικράτεια απολαμβάνουν την απόλυτη προστασία της ζωής, της τιμής και της ελευθερίας τους, χωρίς διάκριση εθνικότητας, φυλής, γλώσσας και θρησκευτικών ή πολιτικών πεποιθήσεων. Εξαιρέσεις επιτρέπονται στις περιπτώσεις που προβλέπει το διεθνές δίκαιο. Απαγορεύεται η έκδοση αλλοδαπού που διώκεται για τη δράση του υπέρ της ελευθερίας.\n\n3. Η προσωπική ελευθερία είναι απαραβίαστη. Κανένας δεν καταδιώκεται ούτε συλλαμβάνεται ούτε φυλακίζεται ούτε με οποιονδήποτε άλλο τρόπο περιορίζεται, παρά μόνο όταν και όπως ορίζει ο νόμος.\n\n4. Απαγορεύονται ατομικά διοικητικά μέτρα που περιορίζουν σε οποιονδήποτε Έλληνα την ελεύθερη κίνηση ή εγκατάσταση στη Χώρα, καθώς και την ελεύθερη έξοδο και είσοδο σ’ αυτήν. Τέτοιου περιεχομένου περιοριστικά μέτρα είναι δυνατόν να επιβληθούν μόνο ως παρεπόμενη ποινή με απόφαση ποινικού δικαστηρίου, σε εξαιρετικές περιπτώσεις ανάγκης και μόνο για την πρόληψη αξιόποινων πράξεων, όπως νόμος ορίζει.\n\n5. Καθένας έχει δικαίωμα στην προστασία της υγείας και της γενετικής του ταυτότητας. Νόμος ορίζει τα σχετικά με την προστασία κάθε προσώπου έναντι των βιοϊατρικών παρεμβάσεων.\n\n[…]\n\n**Άρθρο 5Α**\n\n1. Καθένας έχει δικαίωμα στην πληροφόρηση, όπως νόμος ορίζει. Περιορισμοί στο δικαίωμα αυτό είναι δυνατόν να επιβληθούν με νόμο μόνο εφόσον είναι απολύτως αναγκαίοι και δικαιολογούνται για λόγους εθνικής ασφάλειας, καταπολέμησης του εγκλήματος ή προστασίας δικαιωμάτων και συμφερόντων τρίτων.",
+   "en": "**Article 5**\n\n1. All persons have the right to develop their personality freely and to participate in the social, economic and political life of the country, insofar as they do not infringe the rights of others or violate the Constitution or public morals.\n\n2. All persons within Greek territory enjoy full protection of their life, honour and liberty, irrespective of nationality, race, language and religious or political beliefs. Exceptions are permitted in the cases provided for by international law. The extradition of aliens prosecuted for their action in favour of freedom is prohibited.\n\n3. Personal liberty is inviolable. No one may be prosecuted, arrested, imprisoned or restricted in any other way, except when and as the law provides.\n\n4. Individual administrative measures restricting the free movement or settlement of any Greek within the country, or his free exit from and entry into it, are prohibited. Restrictive measures of this kind may be imposed only as an ancillary penalty by decision of a criminal court, in exceptional cases of necessity and only for the prevention of criminal acts, as the law provides.\n\n5. All persons have the right to the protection of their health and of their genetic identity. Matters concerning the protection of every person against biomedical interventions are regulated by law.\n\n[…]\n\n**Article 5A**\n\n1. All persons have the right to information, as the law provides. Restrictions on this right may be imposed by law only insofar as they are absolutely necessary and justified on grounds of national security, combating crime or protecting the rights and interests of third parties.",
+   "gloss": {
+    "προσβάλλει": "infringes",
+    "παραβιάζει": "violates",
+    "χρηστά": "upright (χρηστά ήθη = public morals)",
+    "Επικράτεια": "territory (of a state)",
+    "πεποιθήσεων": "convictions, beliefs",
+    "έκδοση": "extradition (here)",
+    "αλλοδαπού": "of a foreign national",
+    "διώκεται": "is prosecuted, persecuted",
+    "απαραβίαστη": "inviolable",
+    "συλλαμβάνεται": "is arrested",
+    "εγκατάσταση": "settling, residence",
+    "παρεπόμενη": "ancillary, accessory",
+    "αξιόποινων": "punishable, criminal",
+    "πρόληψη": "prevention",
+    "έναντι": "against, vis-à-vis",
+    "βιοϊατρικών": "biomedical",
+    "επιβληθούν": "be imposed",
+    "καταπολέμησης": "combating"
+   },
+   "questions": [
+    {
+     "prompt": "Πού σταματά, κατά το Άρθρο 5§1, το δικαίωμα ελεύθερης ανάπτυξης της προσωπικότητας;",
+     "answer": "Εκεί όπου προσβάλλονται τα δικαιώματα των άλλων, το Σύνταγμα ή τα χρηστά ήθη.",
+     "options": [
+      "Εκεί όπου προσβάλλονται τα δικαιώματα των άλλων, το Σύνταγμα ή τα χρηστά ήθη.",
+      "Εκεί όπου έρχεται σε αντίθεση με την επικρατούσα θρησκεία.",
+      "Εκεί όπου δεν υπάρχει άδεια ποινικού δικαστηρίου.",
+      "Εκεί όπου αφορά πρόσωπα που δεν είναι Έλληνες πολίτες."
+     ],
+     "why": "εφόσον δεν προσβάλλει τα δικαιώματα των άλλων και δεν παραβιάζει το Σύνταγμα ή τα χρηστά ήθη. And it applies to «Καθένας», not just citizens."
+    },
+    {
+     "prompt": "Ποιος μπορεί να περιορίσει την ελεύθερη έξοδο ενός Έλληνα από τη χώρα (§4);",
+     "answer": "Μόνο ποινικό δικαστήριο, ως παρεπόμενη ποινή, σε εξαιρετικές περιπτώσεις.",
+     "options": [
+      "Μόνο ποινικό δικαστήριο, ως παρεπόμενη ποινή, σε εξαιρετικές περιπτώσεις.",
+      "Οποιαδήποτε διοικητική αρχή με ατομικό μέτρο.",
+      "Η κυβέρνηση, για λόγους δημόσιου συμφέροντος.",
+      "Κανείς, σε καμία απολύτως περίπτωση."
+     ],
+     "why": "Individual administrative measures are prohibited (Απαγορεύονται ατομικά διοικητικά μέτρα); only a criminal court may impose them as παρεπόμενη ποινή."
+    },
+    {
+     "prompt": "Υπό ποιους όρους επιτρέπεται να περιοριστεί το δικαίωμα στην πληροφόρηση (Άρθρο 5Α);",
+     "answer": "Με νόμο, μόνο αν οι περιορισμοί είναι απολύτως αναγκαίοι και δικαιολογούνται από συγκεκριμένους λόγους.",
+     "options": [
+      "Με νόμο, μόνο αν οι περιορισμοί είναι απολύτως αναγκαίοι και δικαιολογούνται από συγκεκριμένους λόγους.",
+      "Με υπουργική απόφαση, όποτε η κυβέρνηση το κρίνει σκόπιμο.",
+      "Δεν επιτρέπεται κανένας απολύτως περιορισμός.",
+      "Μόνο όταν το ζητήσουν τρίτα πρόσωπα."
+     ],
+     "why": "«είναι δυνατόν να επιβληθούν με νόμο μόνο εφόσον είναι απολύτως αναγκαίοι και δικαιολογούνται για λόγους εθνικής ασφάλειας, …»."
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "title": "Σύνταγμα, άρθρο 24: περιβάλλον και χωροταξία",
+   "text": "**Άρθρο 24**\n\n1. Η προστασία του φυσικού και πολιτιστικού περιβάλλοντος αποτελεί υποχρέωση του Κράτους και δικαίωμα του καθενός. Για τη διαφύλαξή του το Κράτος έχει υποχρέωση να παίρνει ιδιαίτερα προληπτικά ή κατασταλτικά μέτρα στο πλαίσιο της αρχής της αειφορίας. Νόμος ορίζει τα σχετικά με την προστασία των δασών και των δασικών εκτάσεων. Η σύνταξη δασολογίου συνιστά υποχρέωση του Κράτους. Απαγορεύεται η μεταβολή του προορισμού των δασών και των δασικών εκτάσεων, εκτός αν προέχει για την Εθνική Οικονομία η αγροτική εκμετάλλευση ή άλλη τους χρήση, που την επιβάλλει το δημόσιο συμφέρον.\n\n2. Η χωροταξική αναδιάρθρωση της Χώρας, η διαμόρφωση, η ανάπτυξη, η πολεοδόμηση και η επέκταση των πόλεων και των οικιστικών γενικά περιοχών υπάγεται στη ρυθμιστική αρμοδιότητα και τον έλεγχο του Κράτους, με σκοπό να εξυπηρετείται η λειτουργικότητα και η ανάπτυξη των οικισμών και να εξασφαλίζονται οι καλύτεροι δυνατοί όροι διαβίωσης.\n\nΟι σχετικές τεχνικές επιλογές και σταθμίσεις γίνονται κατά τους κανόνες της επιστήμης. Η σύνταξη εθνικού κτηματολογίου συνιστά υποχρέωση του Κράτους.\n\n[…]\n\n6. Τα μνημεία, οι παραδοσιακές περιοχές και τα παραδοσιακά στοιχεία προστατεύονται από το Κράτος. Νόμος θα ορίσει τα αναγκαία για την πραγματοποίηση της προστασίας αυτής περιοριστικά μέτρα της ιδιοκτησίας, καθώς και τον τρόπο και το είδος της αποζημίωσης των ιδιοκτητών.\n\nΕρμηνευτική δήλωση: Ως δάσος ή δασικό οικοσύστημα νοείται το οργανικό σύνολο άγριων φυτών με ξυλώδη κορμό πάνω στην αναγκαία επιφάνεια του εδάφους, τα οποία, μαζί με την εκεί συνυπάρχουσα χλωρίδα και πανίδα, αποτελούν μέσω της αμοιβαίας αλληλεξάρτησης και αλληλοεπίδρασής τους, ιδιαίτερη βιοκοινότητα (δασοβιοκοινότητα) και ιδιαίτερο φυσικό περιβάλλον (δασογενές). Δασική έκταση υπάρχει όταν στο παραπάνω σύνολο η άγρια ξυλώδης βλάστηση, υψηλή ή θαμνώδης, είναι αραιά.",
+   "en": "**Article 24**\n\n1. The protection of the natural and cultural environment constitutes an obligation of the State and a right of every person. To safeguard it, the State is obliged to take special preventive or repressive measures within the framework of the principle of sustainability. Matters concerning the protection of forests and forest areas are regulated by law. The compilation of a forest register constitutes an obligation of the State. Changing the designated use of forests and forest areas is prohibited, unless agricultural exploitation or some other use imposed by the public interest takes precedence for the national economy.\n\n2. The spatial restructuring of the country, and the shaping, development, urban planning and expansion of towns and of residential areas in general, fall under the regulatory competence and control of the State, with the aim of serving the functionality and development of settlements and securing the best possible living conditions.\n\nThe relevant technical choices and assessments are made according to the rules of science. The compilation of a national land register constitutes an obligation of the State.\n\n[…]\n\n6. Monuments, traditional areas and traditional elements are protected by the State. A law will specify the restrictive measures on property necessary for implementing this protection, as well as the manner and type of compensation for the owners.\n\nInterpretative declaration: A forest or forest ecosystem is understood to mean the organic whole of wild plants with woody trunks on the necessary surface of ground, which, together with the flora and fauna coexisting there, constitute, through their mutual interdependence and interaction, a particular biotic community (forest biocommunity) and a particular natural environment (forest-born). A forest area exists where, in the above whole, the wild woody vegetation, tall or shrubby, is sparse.",
+   "gloss": {
+    "προληπτικά": "preventive",
+    "κατασταλτικά": "repressive, suppressive",
+    "αειφορίας": "of sustainability",
+    "δασολογίου": "forest register",
+    "συνιστά": "constitutes",
+    "μεταβολή": "change, alteration",
+    "προορισμού": "designated use, purpose",
+    "προέχει": "takes precedence",
+    "εκμετάλλευση": "exploitation, use (of land)",
+    "χωροταξική": "spatial-planning (adj.)",
+    "αναδιάρθρωση": "restructuring",
+    "πολεοδόμηση": "urban planning",
+    "υπάγεται": "falls under",
+    "σταθμίσεις": "weighings, assessments",
+    "κτηματολογίου": "land register, cadastre",
+    "νοείται": "is understood (as)",
+    "ξυλώδη": "woody",
+    "θαμνώδης": "shrubby",
+    "αραιά": "sparse"
+   },
+   "questions": [
+    {
+     "prompt": "Πότε επιτρέπεται να αλλάξει ο προορισμός ενός δάσους;",
+     "answer": "Όταν προέχει για την εθνική οικονομία αγροτική ή άλλη χρήση που επιβάλλει το δημόσιο συμφέρον.",
+     "options": [
+      "Όταν προέχει για την εθνική οικονομία αγροτική ή άλλη χρήση που επιβάλλει το δημόσιο συμφέρον.",
+      "Όταν ο ιδιοκτήτης το ζητήσει και αποζημιωθεί.",
+      "Όταν η περιοχή χαρακτηριστεί οικιστική.",
+      "Ποτέ· η απαγόρευση δεν έχει εξαιρέσεις."
+     ],
+     "why": "«Απαγορεύεται … εκτός αν προέχει για την Εθνική Οικονομία η αγροτική εκμετάλλευση ή άλλη τους χρήση, που την επιβάλλει το δημόσιο συμφέρον»."
+    },
+    {
+     "prompt": "Κατά την ερμηνευτική δήλωση, σε τι διαφέρει η «δασική έκταση» από το «δάσος»;",
+     "answer": "Στη δασική έκταση η άγρια ξυλώδης βλάστηση είναι αραιή.",
+     "options": [
+      "Στη δασική έκταση η άγρια ξυλώδης βλάστηση είναι αραιή.",
+      "Η δασική έκταση δεν έχει καθόλου χλωρίδα και πανίδα.",
+      "Το δάσος ανήκει στο Κράτος, ενώ η δασική έκταση σε ιδιώτες.",
+      "Η δασική έκταση έχει μόνο θάμνους και καθόλου ψηλά δέντρα."
+     ],
+     "why": "Last sentence: same whole, but the vegetation, «υψηλή ή θαμνώδης», is αραιά. So tall trees are possible too."
+    },
+    {
+     "prompt": "Τι προβλέπει η §6 για τους ιδιοκτήτες σε παραδοσιακές περιοχές;",
+     "answer": "Νόμος θα ορίσει περιορισμούς στην ιδιοκτησία τους και τον τρόπο αποζημίωσής τους.",
+     "options": [
+      "Νόμος θα ορίσει περιορισμούς στην ιδιοκτησία τους και τον τρόπο αποζημίωσής τους.",
+      "Η ιδιοκτησία τους απαλλοτριώνεται χωρίς αποζημίωση.",
+      "Αναλαμβάνουν οι ίδιοι την προστασία των μνημείων με δικά τους έξοδα.",
+      "Είναι ελεύθεροι να χτίσουν, εφόσον σέβονται τα μνημεία."
+     ],
+     "why": "«Νόμος θα ορίσει τα αναγκαία … περιοριστικά μέτρα της ιδιοκτησίας, καθώς και τον τρόπο και το είδος της αποζημίωσης των ιδιοκτητών»."
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "title": "Χάρτης Θεμελιωδών Δικαιωμάτων: προοίμιο και αξιοπρέπεια",
+   "text": "**ΠΡΟΟΙΜΙΟ**\n\nΟι λαοί της Ευρώπης, εγκαθιδρύοντας μεταξύ τους μία διαρκώς στενότερη ένωση, αποφάσισαν να μοιραστούν ένα ειρηνικό μέλλον θεμελιωμένο σε κοινές αξίες.\n\nΗ Ένωση, έχοντας επίγνωση της πνευματικής και ηθικής κληρονομιάς της, εδράζεται στις αδιαίρετες και οικουμενικές αξίες της αξιοπρέπειας του ανθρώπου, της ελευθερίας, της ισότητας και της αλληλεγγύης·ερείδεται στις αρχές της δημοκρατίας και του κράτους δικαίου. Η Ένωση τοποθετεί τον άνθρωπο στην καρδιά της δράσης της, καθιερώνοντας την ιθαγένεια της Ένωσης και δημιουργώντας ένα χώρο ελευθερίας, ασφάλειας και δικαιοσύνης.\n\nΗ Ένωση συμβάλλει στη διαφύλαξη και την ανάπτυξη αυτών των κοινών αξιών, σεβόμενη την πολυμορφία των πολιτισμών και των παραδόσεων των λαών της Ευρώπης καθώς και την εθνική ταυτότητα των κρατών μελών της και την οργάνωση της δημόσιας εξουσίας τους σε εθνικό, περιφερειακό και τοπικό επίπεδο. Επιδιώκει να προαγάγει ισόρροπη και αειφόρο ανάπτυξη και εγγυάται την ελεύθερη κυκλοφορία των προσώπων, των εμπορευμάτων, των υπηρεσιών και των κεφαλαίων καθώς και την ελευθερία εγκατάστασης.\n\n[…]\n\n**Άρθρο 1 — Ανθρώπινη αξιοπρέπεια**\n\nΗ ανθρώπινη αξιοπρέπεια είναι απαραβίαστη. Πρέπει να είναι σεβαστή και να προστατεύεται.\n\n**Άρθρο 3 — Δικαίωμα στην ακεραιότητα του προσώπου**\n\n1. Κάθε πρόσωπο έχει δικαίωμα στη σωματική και διανοητική του ακεραιότητα.\n\n2. Στο πεδίο της ιατρικής και της βιολογίας, πρέπει να τηρούνται ιδίως τα εξής:\n\nα) η ελεύθερη και εν επιγνώσει συναίνεση του ενδιαφερομένου, σύμφωνα με τις λεπτομερέστερες διατάξεις που ορίζονται από το νόμο,\n\nβ) η απαγόρευση των ευγονικών πρακτικών, ιδίως όσων αποσκοπούν στην επιλογή των προσώπων,\n\nγ) η απαγόρευση της μετατροπής του ανθρωπίνου σώματος και αυτών των ιδίων των μερών του σε πηγή κέρδους,\n\nδ) η απαγόρευση της αναπαραγωγικής κλωνοποίησης των ανθρωπίνων όντων.",
+   "en": "**PREAMBLE**\n\nThe peoples of Europe, in creating an ever closer union among them, have resolved to share a peaceful future based on common values.\n\nConscious of its spiritual and moral heritage, the Union is founded on the indivisible, universal values of human dignity, freedom, equality and solidarity; it rests on the principles of democracy and the rule of law. It places the individual at the heart of its activities, by establishing the citizenship of the Union and by creating an area of freedom, security and justice.\n\nThe Union contributes to the preservation and development of these common values while respecting the diversity of the cultures and traditions of the peoples of Europe, as well as the national identities of the Member States and the organisation of their public authorities at national, regional and local level. It seeks to promote balanced and sustainable development and guarantees the free movement of persons, goods, services and capital, and the freedom of establishment.\n\n[…]\n\n**Article 1 — Human dignity**\n\nHuman dignity is inviolable. It must be respected and protected.\n\n**Article 3 — Right to the integrity of the person**\n\n1. Everyone has the right to his or her physical and mental integrity.\n\n2. In the fields of medicine and biology, the following must be respected in particular:\n\n(a) the free and informed consent of the person concerned, in accordance with the more detailed provisions laid down by law;\n\n(b) the prohibition of eugenic practices, in particular those aiming at the selection of persons;\n\n(c) the prohibition on turning the human body and its parts as such into a source of financial gain;\n\n(d) the prohibition of the reproductive cloning of human beings.",
+   "gloss": {
+    "εγκαθιδρύοντας": "establishing, setting up",
+    "επίγνωση": "awareness, consciousness",
+    "εδράζεται": "is founded (on)",
+    "ερείδεται": "rests (on) (very formal)",
+    "αλληλεγγύης": "of solidarity",
+    "καθιερώνοντας": "instituting, establishing",
+    "σεβόμενη": "respecting (fem. participle)",
+    "πολυμορφία": "diversity",
+    "προαγάγει": "promote (learned subj. of προάγω)",
+    "αειφόρο": "sustainable",
+    "εγγυάται": "guarantees",
+    "ακεραιότητα": "integrity",
+    "συναίνεση": "consent",
+    "ευγονικών": "eugenic",
+    "αποσκοπούν": "aim (at)",
+    "κλωνοποίησης": "cloning",
+    "απαραβίαστη": "inviolable"
+   },
+   "questions": [
+    {
+     "prompt": "Σε ποιες αξίες «εδράζεται» η Ένωση, σύμφωνα με το προοίμιο;",
+     "answer": "Αξιοπρέπεια, ελευθερία, ισότητα, αλληλεγγύη.",
+     "options": [
+      "Αξιοπρέπεια, ελευθερία, ισότητα, αλληλεγγύη.",
+      "Δημοκρατία, κράτος δικαίου, ασφάλεια, δικαιοσύνη.",
+      "Ειρήνη, πρόοδος, ανάπτυξη, ελεύθερη κυκλοφορία.",
+      "Εθνική ταυτότητα, παράδοση, πολιτισμός, γλώσσα."
+     ],
+     "why": "εδράζεται στις … αξίες της αξιοπρέπειας, της ελευθερίας, της ισότητας και της αλληλεγγύης. Democracy and the rule of law are **αρχές** on which it ερείδεται; freedom, security, justice describe the χώρος it creates."
+    },
+    {
+     "prompt": "Τι απαγορεύει ρητά το Άρθρο 3;",
+     "answer": "Τη μετατροπή του ανθρώπινου σώματος ή των μερών του σε πηγή κέρδους.",
+     "options": [
+      "Τη μετατροπή του ανθρώπινου σώματος ή των μερών του σε πηγή κέρδους.",
+      "Κάθε μορφή κλωνοποίησης, ακόμη και για θεραπευτικούς σκοπούς.",
+      "Κάθε ιατρική πράξη χωρίς άδεια δικαστηρίου.",
+      "Τη δωρεά οργάνων μεταξύ ζώντων."
+     ],
+     "why": "Point γ. Only **reproductive** cloning (αναπαραγωγική κλωνοποίηση) is banned; consent, not a court, is the condition for treatment."
+    },
+    {
+     "prompt": "Τι είναι η «ελεύθερη και εν επιγνώσει συναίνεση»;",
+     "answer": "Συγκατάθεση που δίνεται ελεύθερα και με πλήρη γνώση του τι συνεπάγεται.",
+     "options": [
+      "Συγκατάθεση που δίνεται ελεύθερα και με πλήρη γνώση του τι συνεπάγεται.",
+      "Συγκατάθεση που δίνουν οι συγγενείς για λογαριασμό του ασθενούς.",
+      "Σιωπηρή αποδοχή, όταν ο ασθενής δεν αντιδρά.",
+      "Συναίνεση που υπογράφεται ενώπιον δικαστή."
+     ],
+     "why": "εν επιγνώσει (learned dative) = knowingly, with awareness: English 'informed consent'."
+    }
+   ]
+  },
+  {
+   "type": "reading",
+   "title": "Χάρτης Θεμελιωδών Δικαιωμάτων: ιδιωτικότητα, έκφραση, ισότητα",
+   "text": "**Άρθρο 7 — Σεβασμός της ιδιωτικής και οικογενειακής ζωής**\n\nΚάθε πρόσωπο έχει δικαίωμα στο σεβασμό της ιδιωτικής και οικογενειακής ζωής του, της κατοικίας του και των επικοινωνιών του.\n\n**Άρθρο 8 — Προστασία των δεδομένων προσωπικού χαρακτήρα**\n\n1. Κάθε πρόσωπο έχει δικαίωμα στην προστασία των δεδομένων προσωπικού χαρακτήρα που το αφορούν.\n\n2. Η επεξεργασία αυτών των δεδομένων πρέπει να γίνεται νομίμως, για καθορισμένους σκοπούς και με βάση τη συγκατάθεση του ενδιαφερομένου ή για άλλους θεμιτούς λόγους που προβλέπονται από το νόμο. Κάθε πρόσωπο δικαιούται να έχει πρόσβαση στα συλλεγέντα δεδομένα που το αφορούν και να επιτυγχάνει τη διόρθωσή τους.\n\n3. Ο σεβασμός των κανόνων αυτών υπόκειται στον έλεγχο ανεξάρτητης αρχής.\n\n**Άρθρο 11 — Ελευθερία έκφρασης και πληροφόρησης**\n\n1. Κάθε πρόσωπο έχει δικαίωμα στην ελευθερία έκφρασης. Το δικαίωμα αυτό περιλαμβάνει την ελευθερία γνώμης και την ελευθερία λήψης ή μετάδοσης πληροφοριών ή ιδεών, χωρίς την ανάμειξη δημοσίων αρχών και αδιακρίτως συνόρων.\n\n2. Η ελευθερία των μέσων μαζικής ενημέρωσης και η πολυφωνία τους είναι σεβαστές.\n\n**Άρθρο 21 — Απαγόρευση διακρίσεων**\n\n1. Απαγορεύεται κάθε διάκριση ιδίως λόγω φύλου, φυλής, χρώματος, εθνοτικής καταγωγής ή κοινωνικής προέλευσης, γενετικών χαρακτηριστικών, γλώσσας, θρησκείας ή πεποιθήσεων, πολιτικών φρονημάτων ή κάθε άλλης γνώμης, ιδιότητας μέλους εθνικής μειονότητας, περιουσίας, γέννησης, αναπηρίας, ηλικίας ή γενετήσιου προσανατολισμού.\n\n**Άρθρο 23 — Ισότητα γυναικών και ανδρών**\n\nΗ ισότητα γυναικών και ανδρών πρέπει να εξασφαλίζεται σε όλους τους τομείς, μεταξύ άλλων στην απασχόληση, την εργασία και τις αποδοχές.\n\nΗ αρχή της ισότητας δεν αποκλείει τη διατήρηση ή τη θέσπιση μέτρων που προβλέπουν ειδικά πλεονεκτήματα υπέρ του υποεκπροσωπούμενου φύλου.",
+   "en": "**Article 7 — Respect for private and family life**\n\nEveryone has the right to respect for his or her private and family life, home and communications.\n\n**Article 8 — Protection of personal data**\n\n1. Everyone has the right to the protection of personal data concerning him or her.\n\n2. Such data must be processed lawfully, for specified purposes and on the basis of the consent of the person concerned or some other legitimate basis laid down by law. Everyone has the right of access to data which has been collected concerning him or her, and the right to have it rectified.\n\n3. Compliance with these rules shall be subject to control by an independent authority.\n\n**Article 11 — Freedom of expression and information**\n\n1. Everyone has the right to freedom of expression. This right includes freedom to hold opinions and to receive and impart information and ideas without interference by public authority and regardless of frontiers.\n\n2. The freedom and pluralism of the media shall be respected.\n\n**Article 21 — Non-discrimination**\n\n1. Any discrimination based in particular on sex, race, colour, ethnic or social origin, genetic features, language, religion or belief, political or any other opinion, membership of a national minority, property, birth, disability, age or sexual orientation shall be prohibited.\n\n**Article 23 — Equality between women and men**\n\nEquality between women and men must be ensured in all areas, including employment, work and pay.\n\nThe principle of equality shall not prevent the maintenance or adoption of measures providing for specific advantages in favour of the under-represented sex.",
+   "gloss": {
+    "κατοικίας": "home, dwelling",
+    "νομίμως": "lawfully (learned adverb)",
+    "συγκατάθεση": "consent",
+    "θεμιτούς": "legitimate",
+    "δικαιούται": "is entitled",
+    "συλλεγέντα": "collected (learned aorist participle)",
+    "υπόκειται": "is subject (to)",
+    "μετάδοσης": "imparting, transmission",
+    "ανάμειξη": "interference",
+    "αδιακρίτως": "regardless of",
+    "πολυφωνία": "pluralism",
+    "φρονημάτων": "opinions, convictions",
+    "μειονότητας": "minority",
+    "γενετήσιου": "sexual (γενετήσιος προσανατολισμός)",
+    "αποδοχές": "pay, remuneration",
+    "θέσπιση": "enactment, adoption",
+    "υποεκπροσωπούμενου": "under-represented"
+   },
+   "questions": [
+    {
+     "prompt": "Ποιο δικαίωμα δίνει το Άρθρο 8 σε κάθε πρόσωπο για τα δεδομένα που το αφορούν;",
+     "answer": "Να έχει πρόσβαση σε αυτά και να πετυχαίνει τη διόρθωσή τους.",
+     "options": [
+      "Να έχει πρόσβαση σε αυτά και να πετυχαίνει τη διόρθωσή τους.",
+      "Να απαγορεύει κάθε επεξεργασία τους, χωρίς καμία εξαίρεση.",
+      "Να ορίζει το ίδιο την ανεξάρτητη αρχή που τα ελέγχει.",
+      "Να τα πουλά σε τρίτους με δική του συγκατάθεση."
+     ],
+     "why": "«δικαιούται να έχει πρόσβαση στα συλλεγέντα δεδομένα … και να επιτυγχάνει τη διόρθωσή τους». Processing is allowed on consent **or** another legitimate ground."
+    },
+    {
+     "prompt": "Τι σημαίνει «αδιακρίτως συνόρων» στο Άρθρο 11;",
+     "answer": "Ανεξάρτητα από σύνορα.",
+     "options": [
+      "Ανεξάρτητα από σύνορα.",
+      "Μόνο εντός των συνόρων της Ένωσης.",
+      "Με διακριτικότητα απέναντι σε άλλα κράτη.",
+      "Μετά από άδεια των συνοριακών αρχών."
+     ],
+     "why": "αδιακρίτως + gen. = 'without distinction of', i.e. regardless of. Cf. *αδιακρίτως φύλου* 'regardless of sex'."
+    },
+    {
+     "prompt": "Είναι συμβατά με την αρχή της ισότητας μέτρα που ευνοούν το υποεκπροσωπούμενο φύλο;",
+     "answer": "Ναι· η αρχή της ισότητας δεν τα αποκλείει.",
+     "options": [
+      "Ναι· η αρχή της ισότητας δεν τα αποκλείει.",
+      "Όχι· κάθε ειδικό πλεονέκτημα είναι διάκριση λόγω φύλου.",
+      "Μόνο στην απασχόληση, όχι στις αποδοχές.",
+      "Μόνο αν υπήρχαν ήδη πριν από τον Χάρτη."
+     ],
+     "why": "Art. 23, second paragraph: «δεν αποκλείει τη διατήρηση ή τη θέσπιση μέτρων…»: both keeping old and adopting new ones."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Learned forms in these texts → everyday Greek",
+   "head": [
+    "In the text",
+    "Everyday equivalent",
+    "Note"
+   ],
+   "rows": [
+    [
+     "**συλλεγέντα** (δεδομένα)",
+     "που έχουν συλλεχθεί",
+     "learned aorist passive participle (-είς, -είσα, -έν)"
+    ],
+    [
+     "**νομίμως, ειρηνικώς**",
+     "νόμιμα, ειρηνικά",
+     "-ως adverbs survive in law and the press"
+    ],
+    [
+     "**αδιακρίτως + gen.**",
+     "ανεξάρτητα από",
+     "also *αδιακρίτως* alone 'indiscriminately'"
+    ],
+    [
+     "**εν επιγνώσει**",
+     "γνωρίζοντας, συνειδητά",
+     "fossilised dative after εν"
+    ],
+    [
+     "**του συνέρχεσθαι / του συνεταιρίζεσθαι**",
+     "του να συγκεντρώνεται / να ενώνεται σε σωματεία",
+     "articular infinitive: only in fixed names of rights"
+    ],
+    [
+     "**λαμβανομένων υπόψη**",
+     "αφού ληφθούν υπόψη",
+     "genitive absolute"
+    ],
+    [
+     "**τηρουμένων των εγγυήσεων**",
+     "με την προϋπόθεση ότι τηρούνται οι εγγυήσεις",
+     "genitive absolute (Art. 5Α§2)"
+    ],
+    [
+     "**κατωτέρω / ανωτέρω**",
+     "παρακάτω / παραπάνω",
+     ""
+    ],
+    [
+     "**ανθρωπίνων όντων**",
+     "ανθρώπινων όντων",
+     "older accent stays on the penult in the genitive plural"
+    ],
+    [
+     "**των τέκνων**",
+     "των παιδιών",
+     "τέκνα survives in law and church Greek"
+    ],
+    [
+     "**εντός / εκτός + gen.**",
+     "μέσα σε / έξω από",
+     "εντός του πεδίου εφαρμογής 'within the scope'"
+    ]
+   ]
+  },
+  {
+   "type": "culture",
+   "title": "Το Σύνταγμα στη δημόσια ζωή",
+   "text": "The current Constitution was voted in **1975**, a year after the fall of the junta, and revised in 1986, 2001, 2008 and 2019; it is never 'replaced', only *αναθεωρείται* by a two-stage parliamentary procedure (Art. 110). Several articles are household names. **Άρθρο 3** (Orthodoxy as *επικρατούσα θρησκεία*) resurfaces in every debate on church–state separation. **Άρθρο 16** (higher education provided *αποκλειστικά* by the state) fuelled decades of fights over private universities. **Άρθρο 24** is invoked after every summer of wildfires: the never-finished *δασικοί χάρτες* and *κτηματολόγιο* and the illegal buildings (*αυθαίρετα*) that follow fires are a national saga. Finally, the last article, **120§4**: *«Η τήρηση του Συντάγματος επαφίεται στον πατριωτισμό των Ελλήνων»* 'observance of the Constitution is entrusted to the patriotism of the Greeks', a line printed on protest banners since the 1960s. Quoting it in conversation marks you as someone who knows the country."
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say in Greek: **form of government, polity**",
+     "answer": "πολίτευμα",
+     "accept": [
+      "πολίτευμα",
+      "το πολίτευμα"
+     ]
+    },
+    {
+     "prompt": "Say in Greek: **popular sovereignty**",
+     "answer": "λαϊκή κυριαρχία",
+     "accept": [
+      "λαϊκή κυριαρχία",
+      "η λαϊκή κυριαρχία"
+     ]
+    },
+    {
+     "prompt": "Say in Greek (formal): **before the law**",
+     "answer": "ενώπιον του νόμου",
+     "accept": [
+      "ενώπιον του νόμου"
+     ]
+    },
+    {
+     "prompt": "Say in Greek: **citizenship**",
+     "answer": "ιθαγένεια",
+     "accept": [
+      "ιθαγένεια",
+      "η ιθαγένεια",
+      "υπηκοότητα"
+     ],
+     "why": "ιθαγένεια is the legal term; υπηκοότητα is common in speech."
+    },
+    {
+     "prompt": "Say in Greek: **inviolable** (fem., as in 'personal liberty is inviolable')",
+     "answer": "απαραβίαστη",
+     "accept": [
+      "απαραβίαστη"
+     ]
+    },
+    {
+     "prompt": "Say in Greek: **is prohibited**",
+     "answer": "απαγορεύεται",
+     "accept": [
+      "απαγορεύεται"
+     ]
+    },
+    {
+     "prompt": "Say in Greek: **as the law provides**",
+     "answer": "όπως ορίζει ο νόμος",
+     "accept": [
+      "όπως ορίζει ο νόμος",
+      "όπως νόμος ορίζει",
+      "όπως ο νόμος ορίζει"
+     ]
+    },
+    {
+     "prompt": "Say in Greek (legal): **provided that, insofar as**",
+     "answer": "εφόσον",
+     "accept": [
+      "εφόσον"
+     ]
+    },
+    {
+     "prompt": "Say in Greek: **sustainability** (the constitutional term)",
+     "answer": "αειφορία",
+     "accept": [
+      "αειφορία",
+      "η αειφορία",
+      "βιωσιμότητα"
+     ]
+    },
+    {
+     "prompt": "Say in Greek: **land register, cadastre**",
+     "answer": "κτηματολόγιο",
+     "accept": [
+      "κτηματολόγιο",
+      "το κτηματολόγιο"
+     ]
+    },
+    {
+     "prompt": "Say in Greek: **consent**",
+     "answer": "συναίνεση",
+     "accept": [
+      "συναίνεση",
+      "συγκατάθεση",
+      "η συναίνεση",
+      "η συγκατάθεση"
+     ]
+    },
+    {
+     "prompt": "Say in Greek: **is subject to** (3sg)",
+     "answer": "υπόκειται σε",
+     "accept": [
+      "υπόκειται σε",
+      "υπόκειται"
+     ]
+    },
+    {
+     "prompt": "Say in Greek: **guarantees** (3sg)",
+     "answer": "εγγυάται",
+     "accept": [
+      "εγγυάται"
+     ]
+    },
+    {
+     "prompt": "Say in Greek: **is enshrined** (in the Constitution)",
+     "answer": "κατοχυρώνεται",
+     "accept": [
+      "κατοχυρώνεται"
+     ]
+    },
+    {
+     "prompt": "Say in Greek (legal): **without prejudice to**",
+     "answer": "με την επιφύλαξη",
+     "accept": [
+      "με την επιφύλαξη",
+      "με την επιφύλαξη του",
+      "με την επιφύλαξη της",
+      "με την επιφύλαξη των"
+     ]
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Η διάταξη αυτή δεν ___ στο Σύνταγμα. (is not contrary to)",
+     "answer": "αντίκειται",
+     "options": [
+      "αντίκειται",
+      "υπόκειται",
+      "επίκειται",
+      "πρόκειται"
+     ],
+     "why": "αντίκειται σε 'is contrary to'; υπόκειται σε 'is subject to'; επίκειται 'is imminent'."
+    },
+    {
+     "prompt": "Κάθε πρόσωπο ___ να έχει πρόσβαση στα δεδομένα του. (is entitled)",
+     "answer": "δικαιούται",
+     "options": [
+      "δικαιούται",
+      "δικαιολογείται",
+      "δικάζεται",
+      "οφείλεται"
+     ],
+     "why": "δικαιούμαι να 'be entitled to'; δικαιολογείται 'is justified'."
+    },
+    {
+     "prompt": "Η ελευθερία του Τύπου ___ στο Σύνταγμα. (is enshrined)",
+     "answer": "κατοχυρώνεται",
+     "options": [
+      "κατοχυρώνεται",
+      "καταργείται",
+      "κατατίθεται",
+      "καταλογίζεται"
+     ],
+     "why": "κατοχυρώνω 'secure, enshrine'; καταργείται 'is abolished'; κατατίθεται 'is submitted'."
+    },
+    {
+     "prompt": "Το Κράτος ___ να προστατεύει το περιβάλλον. (is obliged)",
+     "answer": "οφείλει",
+     "options": [
+      "οφείλει",
+      "ωφελεί",
+      "οφείλεται",
+      "δικαιούται"
+     ],
+     "why": "οφείλω να 'be obliged to'; ωφελεί 'benefits'; οφείλεται σε 'is due to'."
+    },
+    {
+     "prompt": "Ως «ανήλικος» ___ όποιος δεν έχει συμπληρώσει το 18ο έτος. (is understood)",
+     "answer": "νοείται",
+     "options": [
+      "νοείται",
+      "νοιάζεται",
+      "εννοεί",
+      "νιώθει"
+     ],
+     "why": "νοείται ως 'is defined as': the standard definition formula in Greek law."
+    },
+    {
+     "prompt": "«…εφόσον δεν προσβάλλει τα δικαιώματα των άλλων» σημαίνει:",
+     "answer": "με την προϋπόθεση ότι δεν θίγει τα δικαιώματα των άλλων",
+     "options": [
+      "με την προϋπόθεση ότι δεν θίγει τα δικαιώματα των άλλων",
+      "αφού δεν έχει θίξει ποτέ τα δικαιώματα των άλλων",
+      "επειδή δεν θίγει τα δικαιώματα των άλλων",
+      "παρόλο που θίγει τα δικαιώματα των άλλων"
+     ],
+     "why": "In law εφόσον is conditional ('provided that'); in speech it can also be causal ('since')."
+    },
+    {
+     "prompt": "«Περιορισμοί είναι δυνατόν να επιβληθούν με νόμο» σημαίνει:",
+     "answer": "Ένας νόμος μπορεί να επιβάλει περιορισμούς.",
+     "options": [
+      "Ένας νόμος μπορεί να επιβάλει περιορισμούς.",
+      "Ένας νόμος πρέπει να επιβάλει περιορισμούς.",
+      "Ένας νόμος έχει ήδη επιβάλει περιορισμούς.",
+      "Κανένας νόμος δεν επιτρέπεται να επιβάλει περιορισμούς."
+     ],
+     "why": "είναι δυνατόν να = μπορεί να: permission, not obligation."
+    },
+    {
+     "prompt": "Η Ένωση ___ την ελεύθερη κυκλοφορία των προσώπων. (guarantees)",
+     "answer": "εγγυάται",
+     "options": [
+      "εγγυάται",
+      "εγκρίνει",
+      "εγκαθιδρύει",
+      "εγκαταλείπει"
+     ],
+     "why": "εγγυώμαι, εγγυάσαι, εγγυάται: deponent in -άμαι."
+    },
+    {
+     "prompt": "«τα συλλεγέντα δεδομένα» σημαίνει:",
+     "answer": "τα δεδομένα που έχουν συλλεχθεί",
+     "options": [
+      "τα δεδομένα που έχουν συλλεχθεί",
+      "τα δεδομένα που θα συλλεχθούν",
+      "τα δεδομένα που συλλέγονται αυτή τη στιγμή",
+      "τα δεδομένα που δεν επιτρέπεται να συλλεχθούν"
+     ],
+     "why": "συλλεγείς, -είσα, -έν: aorist passive participle = completed action."
+    }
+   ]
+  }
+ ]
+}

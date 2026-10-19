@@ -1,0 +1,894 @@
+{
+ "el": "Η οικογένεια: συγγενείς, κτητικά, περιγραφή",
+ "title": "Family: relatives, 'my/your', describing people",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Family talk in four rules",
+   "text": "**1. Every relative has a gender and a plural to learn.** Most are regular (ο αδερφός → οι **αδερφοί**, η αδερφή → οι **αδερφές**), but the commonest are not: ο γιος → οι **γιοι**, ο παππούς → οι **παππούδες**, η γιαγιά → οι **γιαγιάδες**, ο μπαμπάς → οι **μπαμπάδες**. Mixed groups are neuter or masculine plural: **τα αδέρφια** 'brothers and sisters', **τα παιδιά**, **οι γονείς** 'parents'.\n\n**2. 'My' comes after the noun, and the article stays.** **ο** πατέρας **μου**, **η** μητέρα **σου**, **τα** παιδιά **μας**. The forms are the weak genitive pronouns: **μου, σου, του** (his), **της** (her), **μας, σας, τους**. If the noun is stressed three syllables from the end, it gets a second accent: ο **ξάδερφός** μου, το **όνομά** σου, η **οικογένειά** μας.\n\n**3. Describing: είναι + adjective that agrees.** The adjective takes the gender and number of the person: ο αδερφός μου είναι **ψηλός**, η αδερφή μου είναι **ψηλή**, τα παιδιά είναι **ψηλά**, οι γονείς μου είναι **ψηλοί**. After a vowel the feminine is usually -α: **ωραία**, **νέα**, **αστεία**. For hair and eyes use **έχει**: Έχει **μαύρα μαλλιά** και **πράσινα μάτια** (neuter plural).\n\n**4. Έχω + accusative; age in the genitive.** **Έχω έναν αδερφό και δύο αδερφές.** · **Έχεις αδέρφια;** · Δεν έχω αδέρφια, είμαι **μοναχοπαίδι**. Age: Ο γιος μου είναι **τριών χρονών**, η κόρη μου **ενός**, ο παππούς μου **ογδόντα τεσσάρων**."
+  },
+  {
+   "type": "table",
+   "title": "The family with article and plural",
+   "head": [
+    "Masculine",
+    "Plural",
+    "Feminine",
+    "Plural"
+   ],
+   "rows": [
+    [
+     "ο **πατέρας**",
+     "οι πατέρες",
+     "η **μητέρα**",
+     "οι μητέρες"
+    ],
+    [
+     "ο **μπαμπάς**",
+     "οι **μπαμπάδες**",
+     "η **μαμά**",
+     "οι **μαμάδες**"
+    ],
+    [
+     "ο **γιος**",
+     "οι **γιοι**",
+     "η **κόρη**",
+     "οι κόρες"
+    ],
+    [
+     "ο **αδερφός**",
+     "οι αδερφοί",
+     "η **αδερφή**",
+     "οι αδερφές"
+    ],
+    [
+     "ο **παππούς**",
+     "οι **παππούδες**",
+     "η **γιαγιά**",
+     "οι **γιαγιάδες**"
+    ],
+    [
+     "ο **θείος**",
+     "οι θείοι",
+     "η **θεία**",
+     "οι θείες"
+    ],
+    [
+     "ο **ξάδερφος**",
+     "οι ξάδερφοι",
+     "η **ξαδέρφη**",
+     "οι ξαδέρφες"
+    ],
+    [
+     "ο **εγγονός**",
+     "οι εγγονοί",
+     "η **εγγονή**",
+     "οι εγγονές"
+    ],
+    [
+     "ο **ανιψιός**",
+     "οι ανιψιοί",
+     "η **ανιψιά**",
+     "οι ανιψιές"
+    ],
+    [
+     "ο **άντρας** (husband)",
+     "οι άντρες",
+     "η **γυναίκα** (wife)",
+     "οι γυναίκες"
+    ],
+    [
+     "ο **πεθερός**",
+     "οι πεθεροί",
+     "η **πεθερά**",
+     "οι πεθερές"
+    ],
+    [
+     "Groups:",
+     "οι **γονείς** · οι **συγγενείς**",
+     "τα **αδέρφια** · τα **ξαδέρφια**",
+     "τα **παιδιά** · τα **εγγόνια**"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "My, your, his, her…",
+   "head": [
+    "",
+    "Weak pronoun",
+    "Example",
+    "Meaning"
+   ],
+   "rows": [
+    [
+     "my",
+     "**μου**",
+     "ο πατέρας **μου**",
+     "my father"
+    ],
+    [
+     "your (sg.)",
+     "**σου**",
+     "η μητέρα **σου**",
+     "your mother"
+    ],
+    [
+     "his · its",
+     "**του**",
+     "ο γιος **του**",
+     "his son"
+    ],
+    [
+     "her",
+     "**της**",
+     "η κόρη **της**",
+     "her daughter"
+    ],
+    [
+     "our",
+     "**μας**",
+     "τα παιδιά **μας**",
+     "our children"
+    ],
+    [
+     "your (pl./polite)",
+     "**σας**",
+     "οι γονείς **σας**",
+     "your parents"
+    ],
+    [
+     "their",
+     "**τους**",
+     "ο παππούς **τους**",
+     "their grandfather"
+    ],
+    [
+     "extra accent",
+     "",
+     "ο **ξάδερφός** μου · το **όνομά** της · η **οικογένειά** μου",
+     "noun stressed on the third syllable from the end"
+    ],
+    [
+     "with an adjective",
+     "",
+     "ο **μεγάλος μου αδερφός** · η **μικρή μου αδερφή**",
+     "my older brother · my younger sister"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Describing people: the adjective agrees",
+   "head": [
+    "",
+    "Masculine",
+    "Feminine",
+    "Neuter"
+   ],
+   "rows": [
+    [
+     "singular",
+     "ο αδερφός μου είναι **ψηλός**",
+     "η αδερφή μου είναι **ψηλή**",
+     "το μωρό είναι **μικρό**"
+    ],
+    [
+     "plural",
+     "οι θείοι μου είναι **ψηλοί**",
+     "οι θείες μου είναι **ψηλές**",
+     "τα παιδιά είναι **μικρά**"
+    ],
+    [
+     "-α after a vowel",
+     "ο θείος είναι **ωραίος**",
+     "η θεία είναι **ωραία**",
+     "το παιδί είναι **ωραίο**"
+    ],
+    [
+     "mixed group",
+     "οι γονείς μου είναι **ψηλοί**",
+     "",
+     "τα αδέρφια μου είναι **ψηλά**"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Words for people",
+   "head": [
+    "Adjective (m · f · n)",
+    "Meaning",
+    "Adjective (m · f · n)",
+    "Meaning"
+   ],
+   "rows": [
+    [
+     "ψηλός · ψηλή · ψηλό",
+     "tall",
+     "κοντός · κοντή · κοντό",
+     "short"
+    ],
+    [
+     "αδύνατος · αδύνατη · αδύνατο",
+     "thin",
+     "γεροδεμένος · -η · -ο",
+     "well-built"
+    ],
+    [
+     "νέος · νέα · νέο",
+     "young",
+     "ηλικιωμένος · -η · -ο",
+     "elderly"
+    ],
+    [
+     "ξανθός · ξανθιά · ξανθό",
+     "blond",
+     "μελαχρινός · μελαχρινή · μελαχρινό",
+     "dark-haired"
+    ],
+    [
+     "όμορφος · όμορφη · όμορφο",
+     "beautiful",
+     "ωραίος · ωραία · ωραίο",
+     "good-looking, nice"
+    ],
+    [
+     "έξυπνος · έξυπνη · έξυπνο",
+     "clever",
+     "αστείος · αστεία · αστείο",
+     "funny"
+    ],
+    [
+     "ήσυχος · ήσυχη · ήσυχο",
+     "quiet, calm",
+     "ζωηρός · ζωηρή · ζωηρό",
+     "lively"
+    ],
+    [
+     "παντρεμένος · -η · -ο",
+     "married",
+     "χωρισμένος · -η · -ο",
+     "divorced, separated"
+    ],
+    [
+     "Έχει **μαύρα / καστανά / ξανθά** μαλλιά.",
+     "black / brown / blond hair",
+     "Έχει **γαλάζια / πράσινα / καστανά** μάτια.",
+     "blue / green / brown eyes"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 1 · Photos on the phone (εσύ)",
+   "items": [
+    {
+     "el": "Νίκος: Ποιοι είναι αυτοί στη φωτογραφία;",
+     "en": "Nikos: Who are these people in the photo?"
+    },
+    {
+     "el": "Ντέβον: Η οικογένειά μου. Αυτοί είναι οι γονείς μου, στο Μάντσεστερ.",
+     "en": "Devon: My family. These are my parents, in Manchester."
+    },
+    {
+     "el": "Νίκος: Η μητέρα σου είναι πολύ νέα! Πόσων χρονών είναι;",
+     "en": "Nikos: Your mother is very young! How old is she?"
+    },
+    {
+     "el": "Ντέβον: Εξήντα ενός. Ο πατέρας μου είναι εξήντα τεσσάρων.",
+     "en": "Devon: Sixty-one. My father is sixty-four."
+    },
+    {
+     "el": "Νίκος: Κι αυτή η ξανθιά κοπέλα;",
+     "en": "Nikos: And this blonde girl?"
+    },
+    {
+     "el": "Ντέβον: Η μικρή μου αδερφή, η Έμμα. Είναι γιατρός και μένει στο Λονδίνο.",
+     "en": "Devon: My younger sister, Emma. She's a doctor and lives in London."
+    },
+    {
+     "el": "Νίκος: Είναι παντρεμένη;",
+     "en": "Nikos: Is she married?"
+    },
+    {
+     "el": "Ντέβον: Ναι, ο άντρας της είναι Ιρλανδός. Έχουν δύο παιδιά, ένα αγόρι και ένα κορίτσι.",
+     "en": "Devon: Yes, her husband is Irish. They have two children, a boy and a girl."
+    },
+    {
+     "el": "Νίκος: Άρα είσαι θείος! Πόσων χρονών είναι οι ανιψιοί σου;",
+     "en": "Nikos: So you're an uncle! How old are your niece and nephew?"
+    },
+    {
+     "el": "Ντέβον: Ο ανιψιός μου είναι έξι και η ανιψιά μου τριών χρονών.",
+     "en": "Devon: My nephew is six and my niece is three."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 2 · The neighbour asks (εσείς)",
+   "items": [
+    {
+     "el": "Κυρία Ελένη: Έχετε αδέρφια, κύριε Ντέβον;",
+     "en": "Mrs Eleni: Do you have brothers and sisters, Mr Devon?"
+    },
+    {
+     "el": "Ντέβον: Έχω μια αδερφή. Εσείς έχετε παιδιά;",
+     "en": "Devon: I have a sister. Do you have children?"
+    },
+    {
+     "el": "Κυρία Ελένη: Έχω δύο γιους και μια κόρη. Ο μεγάλος μου γιος μένει στη Γερμανία.",
+     "en": "Mrs Eleni: I have two sons and a daughter. My eldest son lives in Germany."
+    },
+    {
+     "el": "Ντέβον: Και εγγόνια;",
+     "en": "Devon: And grandchildren?"
+    },
+    {
+     "el": "Κυρία Ελένη: Πέντε! Τρία αγόρια και δύο κορίτσια. Η μικρή μου εγγονή είναι μόνο ενός έτους.",
+     "en": "Mrs Eleni: Five! Three boys and two girls. My youngest granddaughter is only one."
+    },
+    {
+     "el": "Ντέβον: Μπράβο! Μεγάλη οικογένεια.",
+     "en": "Devon: Wow! A big family."
+    },
+    {
+     "el": "Κυρία Ελένη: Ναι, και την Κυριακή τρώμε όλοι μαζί στο σπίτι μου.",
+     "en": "Mrs Eleni: Yes, and on Sundays we all eat together at my place."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Describing people",
+   "items": [
+    {
+     "el": "Ο αδερφός μου είναι ψηλός και αδύνατος. Έχει καστανά μαλλιά.",
+     "en": "My brother is tall and thin. He has brown hair."
+    },
+    {
+     "el": "Η γιαγιά μου είναι κοντή, αλλά πολύ ζωηρή.",
+     "en": "My grandmother is short but very lively."
+    },
+    {
+     "el": "Οι ξαδέρφες μου είναι ξανθές και έχουν γαλάζια μάτια.",
+     "en": "My (female) cousins are blonde and have blue eyes."
+    },
+    {
+     "el": "Οι γονείς της είναι συνταξιούχοι και μένουν σε ένα νησί.",
+     "en": "Her parents are retired and live on an island."
+    },
+    {
+     "el": "Ο θείος του είναι πολύ αστείος.",
+     "en": "His uncle is very funny."
+    },
+    {
+     "el": "Τα παιδιά τους είναι ήσυχα και έξυπνα.",
+     "en": "Their children are quiet and clever."
+    },
+    {
+     "el": "Ο ξάδερφός μου είναι χωρισμένος και έχει μια κόρη.",
+     "en": "My cousin is divorced and has a daughter."
+    },
+    {
+     "el": "Πώς είναι η καινούργια σου φίλη; — Ωραία και πολύ έξυπνη.",
+     "en": "What's your new girlfriend like? — Pretty and very clever."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes.** *ο μου πατέρας* / *μου πατέρας* → **ο πατέρας μου** (pronoun after the noun, article kept). *Πατέρας μου είναι γιατρός* → **Ο πατέρας μου**. *ο ξάδερφος μου* → **ο ξάδερφός μου** (extra accent). *Η αδερφή μου είναι ψηλός* → **ψηλή**; for a mixed group the masculine: *οι γονείς μου είναι ψηλές* → **ψηλοί**. *Έχω ένας αδερφός* / *δύο αδερφοί* → **έναν αδερφό**, **δύο αδερφούς** (έχω takes the accusative). *οι γιοί* → **οι γιοι** (one syllable, no accent). *Η κόρη μου είναι τρία χρονών* → **τριών χρονών**. *του* means 'his', *της* 'her': the pronoun follows the owner, not the thing owned: **η μητέρα του** = his mother."
+  },
+  {
+   "type": "culture",
+   "title": "Names come from the grandparents",
+   "text": "Greek families traditionally name the first son after the father's father and the first daughter after the father's mother; the next children get the maternal grandparents' names. So cousins often share a name: three **Γιώργοι** at one table is normal, told apart by nicknames (**Γιωργάκης**, **Γιώργος ο μεγάλος**). Because most names are saints' names, people celebrate their **γιορτή** (name day) as much as their birthday: on 23 April (moved to Easter Monday when it falls before Easter) every Γιώργος and Γεωργία receives calls and visitors with **«Χρόνια πολλά!»**. The **νονός** and **νονά** (godparents) are part of the family too."
+  },
+  {
+   "type": "reading",
+   "title": "Η οικογένεια της Μαρίας",
+   "text": "Με λένε Μαρία και είμαι τριάντα δύο χρονών. Μένω στην Πάτρα με τον άντρα μου, τον Κώστα, και την κόρη μας, την Ελένη. Η Ελένη είναι τεσσάρων χρονών και είναι πολύ ζωηρή!\n\nΟι γονείς μου μένουν σε ένα χωριό κοντά στην πόλη. Ο πατέρας μου είναι ψηλός και ήσυχος. Η μητέρα μου είναι κοντή και πολύ αστεία. Έχω έναν αδερφό, τον Γιάννη. Είναι ο μεγάλος μου αδερφός, μηχανικός, και μένει στην Αθήνα με τη γυναίκα του και τους δύο γιους τους.\n\nΚάθε Κυριακή τρώμε όλοι μαζί στο σπίτι της γιαγιάς μου. Είναι ογδόντα ενός χρονών, αλλά μαγειρεύει για δεκαπέντε!",
+   "en": "My name is Maria and I'm thirty-two. I live in Patras with my husband, Kostas, and our daughter, Eleni. Eleni is four and very lively!\n\nMy parents live in a village near the city. My father is tall and quiet. My mother is short and very funny. I have a brother, Giannis. He is my older brother, an engineer, and he lives in Athens with his wife and their two sons.\n\nEvery Sunday we all eat together at my grandmother's house. She is eighty-one, but she cooks for fifteen!",
+   "gloss": {
+    "Μαρίας": "Μαρία — Maria (genitive)",
+    "Μαρία": "Μαρία — Maria (name)",
+    "Πάτρα": "Πάτρα — Patras (city)",
+    "Κώστα": "Κώστας — Kostas (accusative)",
+    "Ελένη": "Ελένη — Eleni (name)",
+    "τεσσάρων": "τέσσερις — four (genitive)",
+    "χρονών": "χρόνος — year (gen. pl.); Χ χρονών = X years old",
+    "ζωηρή": "ζωηρός — lively",
+    "χωριό": "χωριό — village",
+    "ήσυχος": "ήσυχος — quiet, calm",
+    "κοντή": "κοντός — short",
+    "αστεία": "αστείος — funny",
+    "Γιάννη": "Γιάννης — Giannis (accusative)",
+    "μηχανικός": "μηχανικός — engineer",
+    "Αθήνα": "Αθήνα — Athens",
+    "γιους": "γιος — son (acc. pl.)",
+    "τρώμε": "τρώω — to eat",
+    "γιαγιάς": "γιαγιά — grandmother (genitive)",
+    "ογδόντα": "ογδόντα — eighty",
+    "ενός": "ένας — one (genitive)",
+    "μαγειρεύει": "μαγειρεύω — to cook",
+    "δεκαπέντε": "δεκαπέντε — fifteen",
+    "μοναχοπαίδι": "μοναχοπαίδι — only child",
+    "γεροδεμένος": "γεροδεμένος — well-built, sturdy",
+    "μελαχρινός": "μελαχρινός — dark-haired",
+    "μελαχρινή": "μελαχρινός — dark-haired",
+    "μελαχρινό": "μελαχρινός — dark-haired",
+    "γαλάζια": "γαλάζιος — light blue",
+    "Μάντσεστερ": "Μάντσεστερ — Manchester",
+    "Ιρλανδός": "Ιρλανδός — Irishman",
+    "Γιώργοι": "Γιώργος — George (pl.)",
+    "ξάδελφός": "ξάδελφος — cousin (= ξάδερφος)"
+   },
+   "questions": [
+    {
+     "prompt": "Πόσων χρονών είναι η κόρη της Μαρίας;",
+     "answer": "Τεσσάρων χρονών",
+     "options": [
+      "Τεσσάρων χρονών",
+      "Τριάντα δύο χρονών",
+      "Ενός έτους"
+     ]
+    },
+    {
+     "prompt": "Πώς είναι η μητέρα της Μαρίας;",
+     "answer": "Κοντή και αστεία",
+     "options": [
+      "Κοντή και αστεία",
+      "Ψηλή και ήσυχη",
+      "Ζωηρή και ξανθή"
+     ]
+    },
+    {
+     "prompt": "Πού μένει ο Γιάννης;",
+     "answer": "Στην Αθήνα",
+     "options": [
+      "Στην Αθήνα",
+      "Στην Πάτρα",
+      "Σε ένα χωριό"
+     ]
+    },
+    {
+     "prompt": "Πόσα παιδιά έχει ο Γιάννης;",
+     "answer": "Δύο γιους",
+     "options": [
+      "Δύο γιους",
+      "Μια κόρη",
+      "Κανένα"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say: *my father*",
+     "answer": "ο πατέρας μου",
+     "accept": [
+      "ο πατέρας μου"
+     ],
+     "why": "The weak pronoun follows the noun; the article stays."
+    },
+    {
+     "prompt": "Say: *your mother* (friend)",
+     "answer": "η μητέρα σου",
+     "accept": [
+      "η μητέρα σου",
+      "η μαμά σου"
+     ],
+     "why": "σου = your (εσύ)."
+    },
+    {
+     "prompt": "Say: *his son*",
+     "answer": "ο γιος του",
+     "accept": [
+      "ο γιος του"
+     ],
+     "why": "του = his."
+    },
+    {
+     "prompt": "Say: *her daughter*",
+     "answer": "η κόρη της",
+     "accept": [
+      "η κόρη της"
+     ],
+     "why": "της = her."
+    },
+    {
+     "prompt": "Say: *our children*",
+     "answer": "τα παιδιά μας",
+     "accept": [
+      "τα παιδιά μας"
+     ],
+     "why": "μας = our."
+    },
+    {
+     "prompt": "Say: *your parents* (polite)",
+     "answer": "οι γονείς σας",
+     "accept": [
+      "οι γονείς σας"
+     ],
+     "why": "σας = your (εσείς)."
+    },
+    {
+     "prompt": "Say: *their grandmother*",
+     "answer": "η γιαγιά τους",
+     "accept": [
+      "η γιαγιά τους"
+     ],
+     "why": "τους = their."
+    },
+    {
+     "prompt": "Say: *my cousin* (male) — watch the accent",
+     "answer": "ο ξάδερφός μου",
+     "accept": [
+      "ο ξάδερφός μου",
+      "ο ξάδελφός μου"
+     ],
+     "why": "ξάδερφος is stressed on the third syllable from the end, so it takes a second accent."
+    },
+    {
+     "prompt": "Say: *my family*",
+     "answer": "η οικογένειά μου",
+     "accept": [
+      "η οικογένειά μου"
+     ],
+     "why": "Extra accent: οικογένειά μου."
+    },
+    {
+     "prompt": "Say: *my older brother*",
+     "answer": "ο μεγάλος μου αδερφός",
+     "accept": [
+      "ο μεγάλος μου αδερφός",
+      "ο μεγάλος αδερφός μου",
+      "ο μεγάλος μου αδελφός",
+      "ο μεγάλος αδελφός μου"
+     ],
+     "why": "With an adjective the pronoun can follow it: ο μεγάλος μου αδερφός."
+    },
+    {
+     "prompt": "Say: *my younger sister*",
+     "answer": "η μικρή μου αδερφή",
+     "accept": [
+      "η μικρή μου αδερφή",
+      "η μικρή αδερφή μου",
+      "η μικρή μου αδελφή",
+      "η μικρή αδελφή μου"
+     ],
+     "why": "μικρή agrees with αδερφή."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Η μητέρα ___ είναι Ελληνίδα. (his mother)",
+     "answer": "του",
+     "options": [
+      "του",
+      "της",
+      "τους"
+     ],
+     "why": "The pronoun follows the owner: his = του."
+    },
+    {
+     "prompt": "Ο πατέρας ___ είναι γιατρός. (her father)",
+     "answer": "της",
+     "options": [
+      "της",
+      "του",
+      "σου"
+     ],
+     "why": "her = της, whatever the gender of the noun."
+    },
+    {
+     "prompt": "Οι ξαδέρφες μου είναι ___",
+     "answer": "ξανθές",
+     "options": [
+      "ξανθές",
+      "ξανθοί",
+      "ξανθά"
+     ],
+     "why": "Feminine plural: ξανθές."
+    },
+    {
+     "prompt": "Τα αδέρφια μου είναι ___",
+     "answer": "ψηλά",
+     "options": [
+      "ψηλά",
+      "ψηλοί",
+      "ψηλές"
+     ],
+     "why": "αδέρφια is neuter plural: ψηλά."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Plural: *ο γιος*",
+     "answer": "οι γιοι",
+     "accept": [
+      "οι γιοι"
+     ],
+     "why": "Irregular: οι γιοι (no accent on the one-syllable form)."
+    },
+    {
+     "prompt": "Plural: *ο παππούς*",
+     "answer": "οι παππούδες",
+     "accept": [
+      "οι παππούδες"
+     ],
+     "why": "Stressed -ούς nouns add -δες."
+    },
+    {
+     "prompt": "Plural: *η γιαγιά*",
+     "answer": "οι γιαγιάδες",
+     "accept": [
+      "οι γιαγιάδες"
+     ],
+     "why": "Stressed -ά nouns add -δες."
+    },
+    {
+     "prompt": "Plural: *ο μπαμπάς*",
+     "answer": "οι μπαμπάδες",
+     "accept": [
+      "οι μπαμπάδες"
+     ],
+     "why": "Stressed -άς nouns add -δες."
+    },
+    {
+     "prompt": "Plural: *η κόρη*",
+     "answer": "οι κόρες",
+     "accept": [
+      "οι κόρες"
+     ],
+     "why": "Feminine -η → -ες."
+    },
+    {
+     "prompt": "Plural: *ο αδερφός*",
+     "answer": "οι αδερφοί",
+     "accept": [
+      "οι αδερφοί",
+      "οι αδελφοί"
+     ],
+     "why": "Masculine -ός → -οί."
+    },
+    {
+     "prompt": "Plural: *η θεία*",
+     "answer": "οι θείες",
+     "accept": [
+      "οι θείες"
+     ],
+     "why": "Feminine -α → -ες."
+    },
+    {
+     "prompt": "Ask a friend: *Do you have brothers and sisters?*",
+     "answer": "Έχεις αδέρφια;",
+     "accept": [
+      "Έχεις αδέρφια;",
+      "Έχεις αδέλφια;"
+     ],
+     "why": "τα αδέρφια = siblings (neuter plural)."
+    },
+    {
+     "prompt": "Say: *I have a brother and a sister.*",
+     "answer": "Έχω έναν αδερφό και μια αδερφή.",
+     "accept": [
+      "Έχω έναν αδερφό και μια αδερφή.",
+      "Έχω έναν αδερφό και μια αδερφή",
+      "Έχω έναν αδερφό και μία αδερφή",
+      "Έχω έναν αδελφό και μια αδελφή.",
+      "Έχω έναν αδελφό και μία αδελφή."
+     ],
+     "why": "έχω + accusative: έναν αδερφό."
+    },
+    {
+     "prompt": "Say: *I have two brothers.*",
+     "answer": "Έχω δύο αδερφούς.",
+     "accept": [
+      "Έχω δύο αδερφούς.",
+      "Έχω δύο αδερφούς",
+      "Έχω δύο αδελφούς",
+      "Έχω δυο αδερφούς",
+      "Έχω δυο αδελφούς"
+     ],
+     "why": "Accusative plural of αδερφός: αδερφούς."
+    },
+    {
+     "prompt": "Say: *We have three children.*",
+     "answer": "Έχουμε τρία παιδιά.",
+     "accept": [
+      "Έχουμε τρία παιδιά."
+     ],
+     "why": "παιδιά is neuter: τρία."
+    },
+    {
+     "prompt": "Say: *I'm an only child.*",
+     "answer": "Είμαι μοναχοπαίδι.",
+     "accept": [
+      "Είμαι μοναχοπαίδι.",
+      "Δεν έχω αδέρφια, είμαι μοναχοπαίδι."
+     ],
+     "why": "μοναχοπαίδι (neuter) = only child; no article."
+    }
+   ]
+  },
+  {
+   "gen": "adj-agree",
+   "ids": [
+    "ψηλός",
+    "τέλειος"
+   ],
+   "n": 4
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Έχω ___ γιο.",
+     "answer": "έναν",
+     "options": [
+      "έναν",
+      "ένας",
+      "μια"
+     ],
+     "why": "έχω takes the accusative: έναν γιο."
+    },
+    {
+     "prompt": "Ο ___ μου μένει στην Κρήτη.",
+     "answer": "ξάδερφός",
+     "options": [
+      "ξάδερφός",
+      "ξάδερφος",
+      "ξαδέρφος"
+     ],
+     "why": "Third-syllable stress + μου: second accent on the last syllable."
+    },
+    {
+     "prompt": "Η γιαγιά μου είναι ογδόντα ___ χρονών.",
+     "answer": "τριών",
+     "options": [
+      "τριών",
+      "τρία",
+      "τρεις"
+     ],
+     "why": "Age is genitive: τριών."
+    },
+    {
+     "prompt": "Πώς είναι η κόρη σας; — Πολύ ___",
+     "answer": "ωραία",
+     "options": [
+      "ωραία",
+      "ωραίη",
+      "ωραίος"
+     ],
+     "why": "After a vowel the feminine ending is -α: ωραία."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say: *My sister is tall.*",
+     "answer": "Η αδερφή μου είναι ψηλή.",
+     "accept": [
+      "Η αδερφή μου είναι ψηλή.",
+      "Η αδελφή μου είναι ψηλή."
+     ],
+     "why": "The adjective agrees with the feminine αδερφή."
+    },
+    {
+     "prompt": "Say: *My brother is short.*",
+     "answer": "Ο αδερφός μου είναι κοντός.",
+     "accept": [
+      "Ο αδερφός μου είναι κοντός.",
+      "Ο αδελφός μου είναι κοντός."
+     ],
+     "why": "Masculine: κοντός."
+    },
+    {
+     "prompt": "Say: *My parents are young.*",
+     "answer": "Οι γονείς μου είναι νέοι.",
+     "accept": [
+      "Οι γονείς μου είναι νέοι."
+     ],
+     "why": "Mixed group: masculine plural νέοι."
+    },
+    {
+     "prompt": "Say: *The children are very lively.*",
+     "answer": "Τα παιδιά είναι πολύ ζωηρά.",
+     "accept": [
+      "Τα παιδιά είναι πολύ ζωηρά."
+     ],
+     "why": "Neuter plural: ζωηρά."
+    },
+    {
+     "prompt": "Say: *His aunt is very funny.*",
+     "answer": "Η θεία του είναι πολύ αστεία.",
+     "accept": [
+      "Η θεία του είναι πολύ αστεία."
+     ],
+     "why": "αστείος → feminine αστεία (-α after a vowel)."
+    },
+    {
+     "prompt": "Say: *Her grandfather is eighty.*",
+     "answer": "Ο παππούς της είναι ογδόντα.",
+     "accept": [
+      "Ο παππούς της είναι ογδόντα.",
+      "Ο παππούς της είναι ογδόντα χρονών."
+     ],
+     "why": "της = her; χρονών is optional."
+    },
+    {
+     "prompt": "Say: *My daughter is three.* (with χρονών)",
+     "answer": "Η κόρη μου είναι τριών χρονών.",
+     "accept": [
+      "Η κόρη μου είναι τριών χρονών.",
+      "Η κόρη μου είναι τριών."
+     ],
+     "why": "Age is genitive: τριών."
+    },
+    {
+     "prompt": "Say: *She has black hair and green eyes.*",
+     "answer": "Έχει μαύρα μαλλιά και πράσινα μάτια.",
+     "accept": [
+      "Έχει μαύρα μαλλιά και πράσινα μάτια."
+     ],
+     "why": "μαλλιά and μάτια are neuter plural: μαύρα, πράσινα."
+    },
+    {
+     "prompt": "Ask politely: *Are you married?* (to a woman)",
+     "answer": "Είστε παντρεμένη;",
+     "accept": [
+      "Είστε παντρεμένη;"
+     ],
+     "why": "εσείς + the adjective in the person's own gender."
+    },
+    {
+     "prompt": "Ask a friend: *What's your brother like?*",
+     "answer": "Πώς είναι ο αδερφός σου;",
+     "accept": [
+      "Πώς είναι ο αδερφός σου;",
+      "Πώς είναι ο αδελφός σου;"
+     ],
+     "why": "πώς είναι = what is … like."
+    },
+    {
+     "prompt": "Ask a friend: *Who is this?* (pointing at a man in a photo)",
+     "answer": "Ποιος είναι αυτός;",
+     "accept": [
+      "Ποιος είναι αυτός;",
+      "Ποιος είναι αυτός εδώ;"
+     ],
+     "why": "ποιος (m) agrees with the person."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "οικογένεια",
+  "μητέρα",
+  "πατέρας",
+  "αδερφός",
+  "αδερφή",
+  "γιος",
+  "κόρη",
+  "παππούς",
+  "γιαγιά",
+  "θείος",
+  "ξάδερφος",
+  "παντρεμένος"
+ ]
+}

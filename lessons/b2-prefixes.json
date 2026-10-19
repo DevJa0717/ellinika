@@ -1,0 +1,828 @@
+{
+ "el": "Προθήματα και σύνθετα",
+ "title": "Prefixes and compounds: γράφω → συγγραφέας, εγγραφή, διαγραφή, υπογραφή",
+ "section": "B2 · Holton §11.2-11.3",
+ "goal": "Read and build verb families from one root with prepositional prefixes, and decode compounds.",
+ "blocks": [
+  {
+   "type": "rules",
+   "src": "grammar/word-formation.json#sections[section=11.2].rule",
+   "cite": "Holton §11.2"
+  },
+  {
+   "type": "table",
+   "title": "One root, many words: γράφω",
+   "head": [
+    "Verb",
+    "Noun",
+    "Meaning"
+   ],
+   "rows": [
+    [
+     "γράφω",
+     "γραφή, γραφείο, γραφέας",
+     "writing; office/desk; clerk"
+    ],
+    [
+     "συγγράφω",
+     "συγγραφή, **συγγραφέας**",
+     "write (a book); authorship; author"
+    ],
+    [
+     "εγγράφομαι",
+     "**εγγραφή**",
+     "enrol, register; registration"
+    ],
+    [
+     "διαγράφω",
+     "**διαγραφή**",
+     "delete, expel; deletion"
+    ],
+    [
+     "υπογράφω",
+     "**υπογραφή**",
+     "sign; signature"
+    ],
+    [
+     "περιγράφω",
+     "περιγραφή",
+     "describe; description"
+    ],
+    [
+     "καταγράφω",
+     "καταγραφή",
+     "record, list; recording"
+    ],
+    [
+     "αντιγράφω",
+     "αντιγραφή, αντίγραφο",
+     "copy; copying, a copy"
+    ],
+    [
+     "μεταγράφω",
+     "μεταγραφή",
+     "transcribe; transfer (sport)"
+    ],
+    [
+     "προγραμματίζω",
+     "πρόγραμμα",
+     "plan; programme (προ- + γράμμα)"
+    ]
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Sound changes at the join.** συν- becomes συγ- before γ κ χ ξ (συγγραφέας, σύγκριση), συμ- before π β φ ψ μ (συμβουλή, σύμφωνα), συλ- before λ (συλλογή), συ- before σ + consonant (σύστημα). εν- changes the same way (εγγραφή, εμπειρία, ελλιπής). εκ- becomes εξ- before a vowel (εξαρτώμαι), and prefixes ending in a vowel drop it before a vowel: απ-αντώ, δι-αιρώ, κατ-έχω, μετ-άγω, παρ-έχω, υπ-άρχω."
+  },
+  {
+   "type": "table",
+   "title": "Two more families",
+   "head": [
+    "Root",
+    "Verbs",
+    "Nouns"
+   ],
+   "rows": [
+    [
+     "-βάλλω 'throw, put'",
+     "υποβάλλω (submit), προβάλλω (project), αναβάλλω (postpone), συμβάλλω (contribute), επιβάλλω (impose)",
+     "υποβολή, προβολή, αναβολή, συμβολή, επιβολή"
+    ],
+    [
+     "-θέτω 'place'",
+     "υποθέτω (suppose), προσθέτω (add), συνθέτω (compose), διαθέτω (have available), αναθέτω (assign)",
+     "υπόθεση, πρόσθεση, σύνθεση, διάθεση, ανάθεση"
+    ],
+    [
+     "-λαμβάνω 'take'",
+     "αναλαμβάνω (undertake), παραλαμβάνω (receive), συλλαμβάνω (arrest, conceive), περιλαμβάνω (include)",
+     "ανάληψη, παραλαβή, σύλληψη, περίληψη (summary)"
+    ],
+    [
+     "-δίδω 'give'",
+     "αποδίδω, διαδίδω, εκδίδω, μεταδίδω, παραδίδω, προδίδω",
+     "απόδοση, διάδοση, έκδοση, μετάδοση, παράδοση, προδοσία"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "The main prefixes",
+   "head": [
+    "Prefix",
+    "Meaning",
+    "Examples"
+   ],
+   "rows": [
+    [
+     "ανα- / επανα-",
+     "re-",
+     "αναπαλαίωση *restoration (lit. making old again)*, επανεκλέγω *I re-elect*"
+    ],
+    [
+     "αντι-",
+     "in place of, vice-, against, anti-",
+     "αντιπρόεδρος *vice-president*, αντικομμουνιστικός *anticommunist (adj.)*"
+    ],
+    [
+     "απο-",
+     "de-, dis-",
+     "αποσύνθεση *decomposition*, απολυμαντικό *disinfectant*"
+    ],
+    [
+     "δια-",
+     "inter-",
+     "διαδίκτυο *internet*, διακρατικός *interstate*, διασύνδεση *interconnection*"
+    ],
+    [
+     "εκ- / εξ- (before a vowel)",
+     "process of change",
+     "εκσυγχρονισμός *modernization*, εξουδετερώνω *I neutralize*"
+    ],
+    [
+     "κατα-",
+     "very much",
+     "κάτασπρος *very white*, καταβρέχω *I soak, drench*"
+    ],
+    [
+     "μετα-",
+     "after, post-",
+     "μεταμοντερνισμός *postmodernism*, μεταπολεμικός *post-war*"
+    ],
+    [
+     "προ-",
+     "before, pre-",
+     "προκριματικός *preliminary (round)*, προπολεμικός *pre-war*"
+    ],
+    [
+     "συν-",
+     "joint, co-",
+     "συμμαθητής *fellow pupil*, συνυπάρχω *I co-exist*"
+    ],
+    [
+     "υπερ-",
+     "over, trans-, super-",
+     "υπερατλαντικός *transatlantic*, υπερπαραγωγή *overproduction*, υπερφυσικός *supernatural*"
+    ],
+    [
+     "υπο-",
+     "under, sub-",
+     "υποδιευθυντής *undermanager*, υποσύνολο *sub-total*"
+    ],
+    [
+     "μεγαλο-",
+     "big",
+     "μεγαλοεπιχειρηματίας *big businessman*"
+    ],
+    [
+     "μικρο-",
+     "small",
+     "μικροπράγματα *little things, trifles*"
+    ],
+    [
+     "νεο-",
+     "new, neo-",
+     "νεοφασισμός *neo-Fascism*, νεόπλουτος *newly rich*"
+    ],
+    [
+     "ξανα-",
+     "again, re- (on verbs); also 'on a previous occasion'",
+     "ξαναρχίζω *I begin again*, ξαναδιαβάζω *I reread*, το έχω ξαναδεί *I've seen it before*"
+    ],
+    [
+     "ξε-",
+     "on verbs, gives the opposite meaning (cf. English un-)",
+     "ξεμπαρκάρω *I disembark*, ξεδιψώ *I quench my thirst*, ξεντύνω *I undress*"
+    ],
+    [
+     "πολυ-",
+     "much, multi-",
+     "πολυπολιτισμικός *multicultural*, πολυεκατομμυριούχος *multimillionaire*"
+    ]
+   ],
+   "cite": "Holton §11.2"
+  },
+  {
+   "type": "table",
+   "title": "Negative α- / αν-",
+   "head": [
+    "Positive",
+    "Negative"
+   ],
+   "rows": [
+    [
+     "γνωστός *(well-)known*",
+     "**άγνωστος** *unknown*"
+    ],
+    [
+     "όμοιος *similar*",
+     "**ανόμοιος** *dissimilar*"
+    ],
+    [
+     "πιθανός *probable*",
+     "**απίθανος** *improbable*"
+    ],
+    [
+     "σχετικός *related*",
+     "**άσχετος** *unrelated, irrelevant*"
+    ],
+    [
+     "τίμιος *honourable*",
+     "**άτιμος** *dishonourable*"
+    ],
+    [
+     "φυσικός *natural*",
+     "**αφύσικος** *unnatural*"
+    ],
+    [
+     "χρήσιμος *useful*",
+     "**άχρηστος** *useless*"
+    ]
+   ],
+   "cite": "Holton §11.2"
+  },
+  {
+   "type": "rules",
+   "src": "grammar/word-formation.json#sections[section=11.3].rule",
+   "cite": "Holton §11.3"
+  },
+  {
+   "type": "culture",
+   "title": "Signatures, copies and the ΚΕΠ",
+   "text": "Greek bureaucracy is a world of prefixed nouns. For most paperwork you go to a **ΚΕΠ** (Κέντρο Εξυπηρέτησης Πολιτών 'citizens' service centre') or to **gov.gr**. Classic requests are a **θεώρηση του γνησίου της υπογραφής** 'certification that a signature is genuine', an **επικυρωμένο αντίγραφο** 'certified copy' and the ubiquitous **υπεύθυνη δήλωση** 'solemn declaration', which can now be issued online with a digital signature. Applications are **υποβάλλονται** 'submitted', deadlines are **προθεσμίες**, and one missing paper can mean an **αναβολή** 'postponement'. Foreign residents usually start with an **ΑΦΜ** (tax number) from the tax office, the **ΔΟΥ**."
+  },
+  {
+   "type": "table",
+   "title": "Compounds",
+   "head": [
+    "Type",
+    "Examples"
+   ],
+   "rows": [
+    [
+     "two nouns (both meanings)",
+     "αντρόγυνο (άντρας + γυναίκα) *married couple*, γυναικόπαιδα (γυναίκες + παιδιά) *women and children*, μαχαιροπίρουνο (μαχαίρι + πιρούνι) *knife and fork*, ονοματεπώνυμο (όνομα + επώνυμο) *name and surname*, Σαββατοκύριακο (Σάββατο + Κυριακή) *weekend*"
+    ],
+    [
+     "two adjectives",
+     "ασπρόμαυρος (άσπρος + μαύρος) *black and white*, μακρόστενος (μακρύς + στενός) *long and narrow (oblong)*"
+    ],
+    [
+     "two verbs",
+     "αναβοσβήνω (ανάβω + σβήνω) *I flash on and off*, ανεβοκατεβαίνω (ανεβαίνω + κατεβαίνω) *I go up and down*, ανοιγοκλείνω (ανοίγω + κλείνω) *I open and close*, πηγαινοέρχομαι (πηγαίνω + έρχομαι) *I come and go*"
+    ],
+    [
+     "noun + verb",
+     "βιβλιοδεσία *book-binding*, μυθιστοριογράφος *novelist*, νομοθετώ *I legislate*, σταυροκοπιέμαι *I cross myself*, φυλλομετρώ *I leaf through, browse*, χρονοτριβώ *I waste time*"
+    ],
+    [
+     "noun + noun",
+     "ανεμόμυλος *windmill*, ηλιοβασίλεμα *sunset*, κλειδαρότρυπα *keyhole*, ροδόνερο *rosewater*, τερματοφύλακας *goalkeeper*, τυρόπιτα *cheese pie*, χαρτοπαίκτης *card-player*"
+    ],
+    [
+     "adjective + noun",
+     "αγριογούρουνο *wild boar*, κοκκινομάλλης *redhaired*, στενόμυαλος *narrow-minded*, ψηλομύτης *snobbish (lit. high-nosed)*"
+    ],
+    [
+     "adjective/adverb + verb",
+     "γελοιογραφία *cartoon*, κοντοστέκομαι *I stop short*, ξεροβήχω *I clear my throat*"
+    ],
+    [
+     "adjective/adverb + passive perfect participle",
+     "μαυροντυμένος *dressed in black*, φρεσκοβαμμένος *freshly painted*, χοντροκομμένος *roughly cut*"
+    ]
+   ],
+   "cite": "Holton §11.3"
+  },
+  {
+   "type": "reading",
+   "title": "Νέα από το βιβλιοπωλείο μας",
+   "text": "Αγαπητοί φίλοι,\n\nμε λύπη σας ενημερώνουμε ότι η παρουσίαση του νέου μυθιστορήματος της Ελένης Παπαδάκη, που είχε προγραμματιστεί για την Παρασκευή, αναβάλλεται για το επόμενο Σαββατοκύριακο. Η αναβολή οφείλεται σε λόγους υγείας. Η συγγραφέας μάς διαβεβαίωσε πάντως ότι είναι ήδη καλύτερα.\n\nΣτο βιβλίο της, η Παπαδάκη περιγράφει τη ζωή τριών γυναικών στην Αθήνα της μεταπολεμικής περιόδου. Η περιγραφή της εποχής είναι τόσο ζωντανή, που νιώθεις ότι η συγγραφέας αντιγράφει από ένα παλιό ημερολόγιο. Κι όμως, όπως λέει η ίδια, όλα είναι φανταστικά: «Δεν κατέγραψα αληθινές ιστορίες. Υπέθεσα πώς θα μπορούσαν να είναι.» Το μυθιστόρημα έχει ήδη μεταφραστεί στα αγγλικά και στα γαλλικά, ενώ η προηγούμενη συλλογή διηγημάτων της είχε περιληφθεί στη μικρή λίστα για ένα σημαντικό βραβείο.\n\nΜετά την παρουσίαση, η συγγραφέας θα υπογράφει αντίτυπα. Όσοι θέλουν υπογραφή και αφιέρωση μπορούν να παραλάβουν το βιβλίο τους από το ταμείο με έκπτωση δέκα τοις εκατό. Η εγγραφή στη λίστα των καλεσμένων είναι απαραίτητη, γιατί οι θέσεις είναι περιορισμένες: η αίθουσά μας διαθέτει μόνο πενήντα καθίσματα. Όσοι έχουν ήδη εγγραφεί και δεν μπορούν να έρθουν, ας μας ενημερώσουν, ώστε να δοθεί η θέση τους σε κάποιον άλλον.\n\nΥπενθυμίζουμε επίσης ότι η λέσχη ανάγνωσης συνεχίζεται κανονικά κάθε δεύτερη Τρίτη. Όποιος θέλει να συμμετέχει μπορεί να υποβάλει αίτηση μέσω της ιστοσελίδας μας. Αν δεν θέλετε πια να λαμβάνετε το ενημερωτικό μας δελτίο, πατήστε «Διαγραφή» στο τέλος αυτού του μηνύματος. Ελπίζουμε, βέβαια, ότι αυτό είναι απίθανο!\n\nΜε εκτίμηση,\nη ομάδα του βιβλιοπωλείου «Σελίδες»",
+   "en": "Dear friends,\n\nwe regret to inform you that the presentation of Eleni Papadaki's new novel, which had been scheduled for Friday, is postponed until next weekend. The postponement is due to health reasons. The author has assured us, though, that she is already better.\n\nIn her book, Papadaki describes the lives of three women in Athens in the post-war period. The description of the era is so vivid that you feel the author is copying from an old diary. And yet, as she says herself, it is all fiction: \"I didn't record true stories. I imagined how they could have been.\" The novel has already been translated into English and French, and her previous short-story collection was shortlisted for a major prize.\n\nAfter the presentation, the author will be signing copies. Those who want a signature and a dedication can collect their book from the till with a ten per cent discount. Registering on the guest list is necessary, because places are limited: our hall has only fifty seats. If you have already registered and cannot come, please let us know so that your place can be given to someone else.\n\nWe also remind you that the reading club continues as normal every other Tuesday. Anyone who wants to take part can apply through our website. If you no longer wish to receive our newsletter, click \"Unsubscribe\" at the end of this message. We hope, of course, that this is unlikely!\n\nKind regards,\nthe team at the \"Selides\" bookshop",
+   "gloss": {
+    "μυθιστορήματος": "μυθιστόρημα — novel (gen.)",
+    "Ελένης": "Ελένη — Eleni (woman's name), gen.",
+    "Παπαδάκη": "Παπαδάκη — Papadaki (surname, fem.)",
+    "προγραμματιστεί": "προγραμματίζομαι — be scheduled (είχε προγραμματιστεί 'had been scheduled')",
+    "αναβολή": "αναβολή — postponement (← αναβάλλω)",
+    "οφείλεται": "οφείλομαι — be due to (σε)",
+    "διαβεβαίωσε": "διαβεβαιώνω — assured",
+    "περιγράφει": "περιγράφω — describe",
+    "μεταπολεμικής": "μεταπολεμικός — post-war (fem. gen.)",
+    "μεταπολεμική": "μεταπολεμικός — post-war (fem.)",
+    "περιγραφή": "περιγραφή — description",
+    "αντιγράφει": "αντιγράφω — copy",
+    "ημερολόγιο": "ημερολόγιο — diary; calendar",
+    "φανταστικά": "φανταστικός — imaginary, fictional (neut. pl.)",
+    "κατέγραψα": "καταγράφω — record, write down (past)",
+    "υπέθεσα": "υποθέτω — suppose, imagine (past)",
+    "μυθιστόρημα": "μυθιστόρημα — novel",
+    "μεταφραστεί": "μεταφράζομαι — be translated (έχει μεταφραστεί)",
+    "συλλογή": "συλλογή — collection (συν- → συλ- before λ)",
+    "διηγημάτων": "διήγημα — short story (gen. pl.)",
+    "περιληφθεί": "περιλαμβάνομαι — be included (είχε περιληφθεί; here: was shortlisted)",
+    "βραβείο": "βραβείο — prize, award",
+    "αντίτυπα": "αντίτυπο — copy (of a book), pl.",
+    "αφιέρωση": "αφιέρωση — dedication",
+    "παραλάβουν": "παραλαμβάνω — collect, receive (να παραλάβουν)",
+    "ταμείο": "ταμείο — till, cash desk",
+    "τοις": "τοις εκατό — per cent",
+    "εγγραφή": "εγγραφή — registration, sign-up",
+    "καλεσμένων": "καλεσμένος — guest (gen. pl.)",
+    "περιορισμένες": "περιορισμένος — limited (fem. pl.)",
+    "διαθέτει": "διαθέτω — have available",
+    "πενήντα": "πενήντα — fifty",
+    "καθίσματα": "κάθισμα — seat (pl.)",
+    "εγγραφεί": "εγγράφομαι — register, sign up (έχουν εγγραφεί)",
+    "Υπενθυμίζουμε": "υπενθυμίζω — remind",
+    "λέσχη": "λέσχη — club",
+    "ανάγνωσης": "ανάγνωση — reading (gen.); λέσχη ανάγνωσης 'reading club'",
+    "συμμετέχει": "συμμετέχω — take part",
+    "υποβάλει": "υποβάλλω — submit (να υποβάλει)",
+    "λαμβάνετε": "λαμβάνω — receive (formal)",
+    "ενημερωτικό": "ενημερωτικός — informative; ενημερωτικό δελτίο 'newsletter'",
+    "δελτίο": "δελτίο — bulletin; ενημερωτικό δελτίο 'newsletter'",
+    "πατήστε": "πατάω — press, click (imperative)",
+    "Πατάτε": "πατάω — you press, click",
+    "Διαγραφή": "διαγραφή — deletion; here 'Unsubscribe'",
+    "απίθανο": "απίθανος — unlikely",
+    "εκτίμηση": "εκτίμηση — esteem; με εκτίμηση 'kind regards'",
+    "βιβλιοπωλείου": "βιβλιοπωλείο — bookshop (gen.)",
+    "βιβλιοπωλείο": "βιβλιοπωλείο — bookshop",
+    "τυπωθεί": "τυπώνομαι — be printed (έχει τυπωθεί)"
+   },
+   "questions": [
+    {
+     "prompt": "Γιατί αναβάλλεται η παρουσίαση;",
+     "answer": "Για λόγους υγείας",
+     "options": [
+      "Για λόγους υγείας",
+      "Επειδή η αίθουσα είναι μικρή",
+      "Επειδή το βιβλίο δεν έχει τυπωθεί"
+     ]
+    },
+    {
+     "prompt": "Τι περιγράφει το βιβλίο;",
+     "answer": "Τη ζωή τριών γυναικών στη μεταπολεμική Αθήνα",
+     "options": [
+      "Τη ζωή τριών γυναικών στη μεταπολεμική Αθήνα",
+      "Ένα αληθινό ημερολόγιο",
+      "Την ιστορία ενός βιβλιοπωλείου"
+     ]
+    },
+    {
+     "prompt": "Γιατί είναι απαραίτητη η εγγραφή;",
+     "answer": "Γιατί οι θέσεις είναι περιορισμένες",
+     "options": [
+      "Γιατί οι θέσεις είναι περιορισμένες",
+      "Για να πάρετε έκπτωση",
+      "Για να μπείτε στη λέσχη ανάγνωσης"
+     ]
+    },
+    {
+     "prompt": "Τι κάνετε, αν δεν θέλετε άλλα μηνύματα;",
+     "answer": "Πατάτε «Διαγραφή»",
+     "options": [
+      "Πατάτε «Διαγραφή»",
+      "Υποβάλλετε αίτηση",
+      "Τηλεφωνείτε στο βιβλιοπωλείο"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "Noun from **υπογράφω** (signature)",
+     "answer": "υπογραφή",
+     "why": "υπο- + γραφή."
+    },
+    {
+     "prompt": "Noun from **εγγράφομαι** (registration)",
+     "answer": "εγγραφή",
+     "why": "εν- → εγ- before γ."
+    },
+    {
+     "prompt": "Noun from **διαγράφω** (deletion)",
+     "answer": "διαγραφή",
+     "why": "δια- + γραφή."
+    },
+    {
+     "prompt": "Person who **συγγράφει** (author)",
+     "answer": "συγγραφέας",
+     "why": "συν- → συγ- + γραφ- + -έας."
+    },
+    {
+     "prompt": "Noun from **περιγράφω** (description)",
+     "answer": "περιγραφή",
+     "why": "περι- + γραφή."
+    },
+    {
+     "prompt": "Noun from **αναβάλλω** (postponement)",
+     "answer": "αναβολή",
+     "why": "-βάλλω → -βολή."
+    },
+    {
+     "prompt": "Noun from **συμβάλλω** (contribution)",
+     "answer": "συμβολή",
+     "why": "-βάλλω → -βολή."
+    },
+    {
+     "prompt": "Noun from **επιβάλλω** (imposition)",
+     "answer": "επιβολή",
+     "why": "-βάλλω → -βολή."
+    },
+    {
+     "prompt": "Noun from **υποβάλλω** (submission)",
+     "answer": "υποβολή",
+     "why": "-βάλλω → -βολή."
+    },
+    {
+     "prompt": "Noun from **υποθέτω** (hypothesis, case)",
+     "answer": "υπόθεση",
+     "why": "-θέτω → -θεση."
+    },
+    {
+     "prompt": "Noun from **διαθέτω** (disposition, mood)",
+     "answer": "διάθεση",
+     "why": "-θέτω → -θεση."
+    },
+    {
+     "prompt": "Noun from **συνθέτω** (composition)",
+     "answer": "σύνθεση",
+     "why": "-θέτω → -θεση."
+    },
+    {
+     "prompt": "Noun from **περιλαμβάνω** (summary)",
+     "answer": "περίληψη",
+     "why": "-λαμβάνω → -ληψη."
+    },
+    {
+     "prompt": "Noun from **συλλαμβάνω** (arrest)",
+     "answer": "σύλληψη",
+     "why": "-λαμβάνω → -ληψη."
+    },
+    {
+     "prompt": "Noun from **παραλαμβάνω** (receipt, collection)",
+     "answer": "παραλαβή",
+     "why": "-λαμβάνω → -λαβή."
+    },
+    {
+     "prompt": "Noun from **εκδίδω** (edition, issue)",
+     "answer": "έκδοση",
+     "why": "-δίδω → -δοση."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 5,
+   "items": [
+    {
+     "prompt": "Opposite of **γνωστός**",
+     "answer": "άγνωστος",
+     "why": "α- and the stress moves back."
+    },
+    {
+     "prompt": "Opposite of **πιθανός**",
+     "answer": "απίθανος",
+     "why": "α- + stress on the antepenult."
+    },
+    {
+     "prompt": "Opposite of **χρήσιμος**",
+     "answer": "άχρηστος",
+     "why": "Irregular negative: άχρηστος."
+    },
+    {
+     "prompt": "Opposite of **όμοιος**",
+     "answer": "ανόμοιος",
+     "why": "αν- before a vowel."
+    },
+    {
+     "prompt": "Opposite of **σχετικός**",
+     "answer": "άσχετος",
+     "why": "άσχετος 'irrelevant'."
+    },
+    {
+     "prompt": "Opposite of **ικανός**",
+     "answer": "ανίκανος",
+     "why": "αν- before a vowel."
+    },
+    {
+     "prompt": "Opposite of **δυνατός** (impossible)",
+     "answer": "αδύνατος",
+     "why": "α- + stress back; also 'thin'."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 4,
+   "items": [
+    {
+     "prompt": "**Σάββατο + Κυριακή** (weekend)",
+     "answer": "Σαββατοκύριακο",
+     "why": "Two nouns joined with -ο-."
+    },
+    {
+     "prompt": "**άσπρος + μαύρος** (black and white)",
+     "answer": "ασπρόμαυρος",
+     "why": "Two adjectives joined with -ο-."
+    },
+    {
+     "prompt": "**ανοίγω + κλείνω** (open and close repeatedly)",
+     "answer": "ανοιγοκλείνω",
+     "why": "Two verbs."
+    },
+    {
+     "prompt": "**ήλιος + βασίλεμα** (sunset)",
+     "answer": "ηλιοβασίλεμα",
+     "why": "noun + noun."
+    },
+    {
+     "prompt": "**τυρί + πίτα** (cheese pie)",
+     "answer": "τυρόπιτα",
+     "why": "noun + noun, stress moves."
+    },
+    {
+     "prompt": "**μαχαίρι + πιρούνι** (cutlery)",
+     "answer": "μαχαιροπίρουνο",
+     "why": "Two nouns, neuter."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "αντιπρόεδρος",
+     "answer": "vice-president",
+     "options": [
+      "vice-president",
+      "opponent of the president",
+      "former president"
+     ],
+     "why": "αντι- 'in place of, vice-'."
+    },
+    {
+     "prompt": "μεταπολεμικός",
+     "answer": "post-war",
+     "options": [
+      "post-war",
+      "pre-war",
+      "anti-war"
+     ],
+     "why": "μετα- 'after'."
+    },
+    {
+     "prompt": "υπερπαραγωγή",
+     "answer": "overproduction",
+     "options": [
+      "overproduction",
+      "underproduction",
+      "coproduction"
+     ],
+     "why": "υπερ- 'over'."
+    },
+    {
+     "prompt": "ξεντύνω",
+     "answer": "I undress",
+     "options": [
+      "I undress",
+      "I dress again",
+      "I overdress"
+     ],
+     "why": "ξε- reverses the verb."
+    },
+    {
+     "prompt": "Η συνάντηση ___ για την επόμενη εβδομάδα.",
+     "answer": "αναβλήθηκε",
+     "options": [
+      "αναβλήθηκε",
+      "υποβλήθηκε",
+      "επιβλήθηκε"
+     ],
+     "why": "αναβάλλω 'postpone' → αναβλήθηκε."
+    },
+    {
+     "prompt": "Η τιμή ___ τον ΦΠΑ.",
+     "answer": "περιλαμβάνει",
+     "options": [
+      "περιλαμβάνει",
+      "αναλαμβάνει",
+      "συλλαμβάνει"
+     ],
+     "why": "περιλαμβάνω 'include'."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 7,
+   "items": [
+    {
+     "prompt": "Η αίτηση πρέπει να ___ μέχρι την Παρασκευή. (υποβάλλω, passive dependent)",
+     "answer": "υποβληθεί",
+     "accept": [
+      "υποβληθεί"
+     ],
+     "why": "υποβάλλω → υποβλήθηκα → να υποβληθεί."
+    },
+    {
+     "prompt": "Say in Greek: *a copy of the contract* (το συμβόλαιο)",
+     "answer": "ένα αντίγραφο του συμβολαίου",
+     "accept": [
+      "ένα αντίγραφο του συμβολαίου",
+      "αντίγραφο του συμβολαίου"
+     ],
+     "why": "αντι- + γράφω → αντίγραφο; genitive του συμβολαίου."
+    },
+    {
+     "prompt": "Say in Greek: *the author's signature*",
+     "answer": "η υπογραφή του συγγραφέα",
+     "accept": [
+      "η υπογραφή του συγγραφέα",
+      "την υπογραφή του συγγραφέα"
+     ],
+     "why": "υπογραφή + genitive του συγγραφέα."
+    },
+    {
+     "prompt": "Μπορείτε να μου ___ τον δρόμο; (περιγράφω, dependent, εσείς)",
+     "answer": "περιγράψετε",
+     "accept": [
+      "περιγράψετε"
+     ],
+     "why": "περιγράφω → perfective περιγράψ-: να περιγράψετε."
+    },
+    {
+     "prompt": "___ στο πανεπιστήμιο πέρσι. (εγγράφομαι, simple past, εγώ)",
+     "answer": "Εγγράφηκα",
+     "accept": [
+      "Εγγράφηκα",
+      "Γράφτηκα"
+     ],
+     "why": "εγγράφομαι → εγγράφηκα (everyday γράφτηκα)."
+    },
+    {
+     "prompt": "Ποιος θα ___ την ευθύνη; (αναλαμβάνω, dependent)",
+     "answer": "αναλάβει",
+     "accept": [
+      "αναλάβει"
+     ],
+     "why": "αναλαμβάνω has the perfective stem αναλάβ-: θα αναλάβει."
+    },
+    {
+     "prompt": "Opposite of **τυχερός**",
+     "answer": "άτυχος",
+     "accept": [
+      "άτυχος"
+     ],
+     "why": "α- + stress moved back: άτυχος."
+    },
+    {
+     "prompt": "Opposite of **ορατός** (visible)",
+     "answer": "αόρατος",
+     "accept": [
+      "αόρατος"
+     ],
+     "why": "Before most vowels the negative is αν- (ανασφαλής), but a few words keep plain α-: αόρατος 'invisible'."
+    },
+    {
+     "prompt": "Opposite of **ασφαλής**",
+     "answer": "ανασφαλής",
+     "accept": [
+      "ανασφαλής"
+     ],
+     "why": "αν- before a vowel: ανασφαλής 'insecure, unsafe'."
+    },
+    {
+     "prompt": "Compound: **πηγαίνω + έρχομαι** (come and go)",
+     "answer": "πηγαινοέρχομαι",
+     "accept": [
+      "πηγαινοέρχομαι"
+     ],
+     "why": "Two verbs joined with -ο-; the second keeps its deponent ending."
+    },
+    {
+     "prompt": "Compound: **κλειδί + τρύπα** (keyhole)",
+     "answer": "κλειδαρότρυπα",
+     "accept": [
+      "κλειδαρότρυπα"
+     ],
+     "why": "Noun + noun with the linking -ο-: κλειδαρότρυπα."
+    },
+    {
+     "prompt": "Say in Greek: *the deadline for submission* (η προθεσμία)",
+     "answer": "η προθεσμία υποβολής",
+     "accept": [
+      "η προθεσμία υποβολής",
+      "η προθεσμία της υποβολής"
+     ],
+     "why": "υποβάλλω → υποβολή, in the genitive."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "n": 5,
+   "items": [
+    {
+     "prompt": "Ο αστυνομικός ___ τον κλέφτη.",
+     "answer": "συνέλαβε",
+     "options": [
+      "συνέλαβε",
+      "παρέλαβε",
+      "ανέλαβε"
+     ],
+     "why": "συλλαμβάνω 'arrest' (συν- + λαμβάνω)."
+    },
+    {
+     "prompt": "Πότε θα ___ το δέμα;",
+     "answer": "παραλάβω",
+     "options": [
+      "παραλάβω",
+      "συλλάβω",
+      "αναλάβω"
+     ],
+     "why": "παραλαμβάνω 'receive, collect'."
+    },
+    {
+     "prompt": "Ο νέος διευθυντής ___ καθήκοντα τη Δευτέρα.",
+     "answer": "αναλαμβάνει",
+     "options": [
+      "αναλαμβάνει",
+      "παραλαμβάνει",
+      "περιλαμβάνει"
+     ],
+     "why": "αναλαμβάνω 'take on, undertake'."
+    },
+    {
+     "prompt": "Το ξενοδοχείο ___ πισίνα και γυμναστήριο.",
+     "answer": "διαθέτει",
+     "options": [
+      "διαθέτει",
+      "υποθέτει",
+      "προσθέτει"
+     ],
+     "why": "διαθέτω 'have available'."
+    },
+    {
+     "prompt": "___ ότι θα αργήσει, γιατί έχει κίνηση.",
+     "answer": "Υποθέτω",
+     "options": [
+      "Υποθέτω",
+      "Διαθέτω",
+      "Συνθέτω"
+     ],
+     "why": "υποθέτω 'suppose'."
+    },
+    {
+     "prompt": "Μην ξεχάσεις να ___ ζάχαρη στον καφέ.",
+     "answer": "προσθέσεις",
+     "options": [
+      "προσθέσεις",
+      "υποθέσεις",
+      "διαθέσεις"
+     ],
+     "why": "προσθέτω 'add' (προσ- 'towards')."
+    },
+    {
+     "prompt": "Η εφημερίδα ___ κάθε Κυριακή.",
+     "answer": "εκδίδεται",
+     "options": [
+      "εκδίδεται",
+      "παραδίδεται",
+      "προδίδεται"
+     ],
+     "why": "εκδίδω 'publish' (εκ- 'out')."
+    },
+    {
+     "prompt": "Ο Μίκης Θεοδωράκης ___ εκατοντάδες τραγούδια.",
+     "answer": "συνέθεσε",
+     "options": [
+      "συνέθεσε",
+      "υπέθεσε",
+      "διέθεσε"
+     ],
+     "why": "συνθέτω 'compose' (συν- 'together' + θέτω 'place')."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "υπογραφή",
+  "υπογράφω",
+  "συγγραφέας",
+  "αναβάλλω",
+  "υποθέτω",
+  "παραλαμβάνω",
+  "απίθανος",
+  "άγνωστος",
+  "αίτηση",
+  "παρουσίαση"
+ ]
+}

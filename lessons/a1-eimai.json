@@ -1,0 +1,354 @@
+{
+ "el": "Είμαι",
+ "title": "To be, and the personal pronouns",
+ "section": "A1 · Holton §6.7, §4.2",
+ "goal": "Conjugate είμαι in the present and past, and use the subject pronouns.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "**είμαι** 'I am' is the one verb whose endings follow no pattern, so learn it as a block. It has only two tenses: present and past. Greek normally drops the subject pronoun because the verb ending already shows the person: **Είμαι κουρασμένος** 'I am tired'. Use εγώ, εσύ and the others only for emphasis or contrast: **Εγώ** είμαι εδώ, **εσύ** πού είσαι;"
+  },
+  {
+   "type": "verb-paradigm",
+   "columns": [
+    {
+     "label": "present",
+     "src": "grammar/verbs-holton.json#sections[section=6.7].paradigm.present"
+    },
+    {
+     "label": "past",
+     "src": "grammar/verbs-holton.json#sections[section=6.7].paradigm.imperfect"
+    }
+   ],
+   "cite": "Holton §6.7. Forms in brackets are optional; slashes show equal alternatives."
+  },
+  {
+   "type": "rules",
+   "src": "grammar/verbs-holton.json#sections[section=6.7].rule",
+   "cite": "Holton §6.7"
+  },
+  {
+   "type": "callout",
+   "text": "**εσείς** is also the polite 'you' for one person: Πώς είστε; 'How are you?' to a stranger, Τι κάνεις; to a friend. The predicate stays in the nominative: Ο Γιάννης είναι **δάσκαλος**."
+  },
+  {
+   "type": "culture",
+   "title": "Από πού είσαι;",
+   "text": "**Από πού είσαι;** 'Where are you from?' comes early in any Greek conversation, and the answer is often not where you live. Many Athenians are 'from' a family village or island: **Είμαι από την Κρήτη** for someone born in Athens to Cretan parents. Regional identity matters, and people say so with είμαι plus a demonym: **Είμαι Κρητικός**, **Είμαστε Μανιάτες**. At Easter and around 15 August (**Δεκαπενταύγουστος**) cities empty as people go **στο χωριό** 'to the village'."
+  },
+  {
+   "type": "examples",
+   "title": "In use",
+   "items": [
+    {
+     "el": "Είμαι από την Αγγλία.",
+     "en": "I am from England."
+    },
+    {
+     "el": "Πού είσαι;",
+     "en": "Where are you?"
+    },
+    {
+     "el": "Είμαστε φίλοι.",
+     "en": "We are friends."
+    },
+    {
+     "el": "Χθες ήμουν άρρωστος.",
+     "en": "Yesterday I was ill."
+    },
+    {
+     "el": "Πού ήσασταν;",
+     "en": "Where were you (pl./polite)?"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/verbs-holton.json#sections[section=6.7].paradigm.present",
+   "lemma": "είμαι",
+   "prompt": "Conjugate **είμαι** in the present.",
+   "given": 1
+  },
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/verbs-holton.json#sections[section=6.7].paradigm.imperfect",
+   "lemma": "ήμουν",
+   "prompt": "Conjugate **είμαι** in the past.",
+   "given": 1
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Εμείς ___ φοιτητές.",
+     "answer": "είμαστε",
+     "options": [
+      "είμαστε",
+      "είναι",
+      "είστε",
+      "είμαι"
+     ]
+    },
+    {
+     "prompt": "Η Μαρία ___ γιατρός.",
+     "answer": "είναι",
+     "options": [
+      "είναι",
+      "είσαι",
+      "είμαι",
+      "είμαστε"
+     ]
+    },
+    {
+     "prompt": "Πού ___ χθες, Νίκο;",
+     "answer": "ήσουν",
+     "options": [
+      "ήσουν",
+      "ήμουν",
+      "ήταν",
+      "είσαι"
+     ],
+     "why": "χθες 'yesterday' needs the past; Νίκο is one person you know, so εσύ."
+    },
+    {
+     "prompt": "Κυρία Παππά, πώς ___;",
+     "answer": "είστε",
+     "options": [
+      "είστε",
+      "είσαι",
+      "είναι",
+      "είμαστε"
+     ],
+     "why": "Polite plural for a person you address formally."
+    },
+    {
+     "prompt": "Τα παιδιά ___ στο σχολείο.",
+     "answer": "είναι",
+     "options": [
+      "είναι",
+      "είμαστε",
+      "είστε",
+      "ήμουν"
+     ],
+     "why": "3rd singular and plural are the same: είναι."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "___ είμαι εδώ, εσύ πού είσαι; (emphasis)",
+     "answer": "Εγώ",
+     "options": [
+      "Εγώ",
+      "Εμένα",
+      "Μου"
+     ],
+     "why": "An emphatic subject pronoun is nominative: εγώ."
+    },
+    {
+     "prompt": "Ο Γιάννης είναι ___.",
+     "answer": "δάσκαλος",
+     "options": [
+      "δάσκαλος",
+      "δάσκαλο",
+      "δασκάλου"
+     ],
+     "why": "After είμαι the predicate stays in the nominative."
+    },
+    {
+     "prompt": "Χθες ___ άρρωστοι. (εμείς)",
+     "answer": "ήμασταν",
+     "options": [
+      "ήμασταν",
+      "είμαστε",
+      "ήταν"
+     ],
+     "why": "χθες needs the past; 1st person plural ήμασταν/ήμαστε."
+    },
+    {
+     "prompt": "Τα παιδιά ___ στο πάρκο χθες.",
+     "answer": "ήταν",
+     "options": [
+      "ήταν",
+      "είναι",
+      "ήσασταν"
+     ],
+     "why": "3rd person past, singular and plural alike: ήταν."
+    },
+    {
+     "prompt": "To your boss: ___ κουρασμένος, κύριε Νικολάου;",
+     "answer": "Είστε",
+     "options": [
+      "Είστε",
+      "Είσαι",
+      "Είναι"
+     ],
+     "why": "Polite address to one person uses the plural είστε."
+    },
+    {
+     "prompt": "Αυτή ___ η αδερφή μου.",
+     "answer": "είναι",
+     "options": [
+      "είναι",
+      "είμαι",
+      "είσαι"
+     ],
+     "why": "3rd person singular: είναι."
+    },
+    {
+     "prompt": "Η Μαρία είναι ___.",
+     "answer": "κουρασμένη",
+     "options": [
+      "κουρασμένη",
+      "κουρασμένος",
+      "κουρασμένο"
+     ],
+     "why": "A predicate adjective agrees with the subject in gender: feminine -η."
+    },
+    {
+     "prompt": "Είμαστε ___. (ο φίλος, pl.)",
+     "answer": "φίλοι",
+     "options": [
+      "φίλοι",
+      "φίλους",
+      "φίλων"
+     ],
+     "why": "Predicate nominative plural: φίλοι."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say in Greek: *We are tired.* (men or mixed)",
+     "answer": "Είμαστε κουρασμένοι",
+     "accept": [
+      "Είμαστε κουρασμένοι",
+      "Εμείς είμαστε κουρασμένοι"
+     ],
+     "why": "είμαστε + masculine plural adjective (mixed groups take the masculine)."
+    },
+    {
+     "prompt": "Say in Greek to a friend: *Where were you yesterday?*",
+     "answer": "Πού ήσουν χθες",
+     "accept": [
+      "Πού ήσουν χθες",
+      "Πού ήσουνα χθες",
+      "Χθες πού ήσουν",
+      "Χθες πού ήσουνα"
+     ],
+     "why": "2nd singular past: ήσουν(α)."
+    },
+    {
+     "prompt": "Say in Greek: *I am from Greece.*",
+     "answer": "Είμαι από την Ελλάδα",
+     "accept": [
+      "Είμαι από την Ελλάδα",
+      "Εγώ είμαι από την Ελλάδα"
+     ],
+     "why": "από takes the accusative, with the article before country names."
+    },
+    {
+     "prompt": "Η Άννα και ο Πέτρος ___ φίλοι. (present)",
+     "answer": "είναι",
+     "accept": [
+      "είναι"
+     ],
+     "why": "3rd person plural present: είναι, the same as the singular."
+    },
+    {
+     "prompt": "Χθες ___ στο σπίτι όλη μέρα. (εγώ, past)",
+     "answer": "ήμουν",
+     "accept": [
+      "ήμουν",
+      "ήμουνα"
+     ],
+     "why": "1st singular past: ήμουν(α)."
+    },
+    {
+     "prompt": "Πού ___ χθες το βράδυ, παιδιά; (past)",
+     "answer": "ήσασταν",
+     "accept": [
+      "ήσασταν",
+      "ήσαστε"
+     ],
+     "why": "2nd plural past: ήσασταν/ήσαστε."
+    },
+    {
+     "prompt": "Say politely to a man you don't know: *Are you Greek?*",
+     "answer": "Είστε Έλληνας",
+     "accept": [
+      "Είστε Έλληνας",
+      "Εσείς είστε Έλληνας"
+     ],
+     "why": "Polite είστε, with a singular predicate because it is one person."
+    },
+    {
+     "prompt": "Ο Νίκος ___ γιατρός. (past)",
+     "answer": "ήταν",
+     "accept": [
+      "ήταν",
+      "ήτανε"
+     ],
+     "why": "3rd singular past: ήταν(ε)."
+    },
+    {
+     "prompt": "Say in Greek: *She is a teacher.* (primary school)",
+     "answer": "Είναι δασκάλα",
+     "accept": [
+      "Είναι δασκάλα",
+      "Αυτή είναι δασκάλα"
+     ],
+     "why": "Pronoun dropped; feminine noun δασκάλα in the nominative."
+    },
+    {
+     "prompt": "Say in Greek (a man speaking): *I am not ill.*",
+     "answer": "Δεν είμαι άρρωστος",
+     "accept": [
+      "Δεν είμαι άρρωστος",
+      "Εγώ δεν είμαι άρρωστος"
+     ],
+     "why": "δεν before the verb; predicate adjective in the nominative."
+    },
+    {
+     "prompt": "Say in Greek to a friend: *Are you here?*",
+     "answer": "Είσαι εδώ",
+     "accept": [
+      "Είσαι εδώ",
+      "Εσύ είσαι εδώ",
+      "Εδώ είσαι"
+     ],
+     "why": "2nd singular είσαι; a question needs only intonation and ;."
+    },
+    {
+     "prompt": "Say in Greek: *We were students.* (mixed group, ο φοιτητής)",
+     "answer": "Ήμασταν φοιτητές",
+     "accept": [
+      "Ήμασταν φοιτητές",
+      "Ήμαστε φοιτητές",
+      "Εμείς ήμασταν φοιτητές",
+      "Εμείς ήμαστε φοιτητές"
+     ],
+     "why": "1st plural past ήμασταν/ήμαστε; plural of φοιτητής is φοιτητές."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "φίλος",
+  "γιατρός",
+  "δάσκαλος",
+  "άρρωστος",
+  "κουρασμένος",
+  "χωριό",
+  "σπίτι",
+  "εδώ",
+  "σήμερα",
+  "χθες"
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "source": "Poulopoulou, Modern Greek: Grammar Notes for Absolute Beginners (A1-A2), ΣΕΑΒ/Kallipos 2015, CC BY-NC-SA 3.0 GR (upload 8e8e722c), Chapter 4 (book pp. 51-62)",
+ "variety": "Standard Modern Greek",
+ "note": "Present tense only. Complements verbs.json: the book splits group A into A1/A2 and adds two 'passive' (mediopassive) groups and είμαι. Alternatives are separated by ' / '; (ε) marks an optional final syllable.",
+ "classification_steps": [
+  "Take the 1st person singular (dictionary form).",
+  "Ending -ω/-άω: 'active'. Ending -μαι: 'passive'.",
+  "Active, stem stressed (unstressed ending): group A. Stem ends in a consonant: A1; in a vowel: A2.",
+  "Active, ending stressed: group B. Ending contains -ά-: B1; otherwise B2.",
+  "Passive with -o- in the ending (-ομαι): passive group 1. With -ά- (-άμαι): passive group 2.",
+  "Note: υ in -ευω is [v], a consonant, so δουλεύω is A1. Stress decides τελειώνω (A1) vs τηλεφωνώ (B2)."
+ ],
+ "groups": [
+  {
+   "id": "A1",
+   "voice": "active",
+   "model": "κάνω",
+   "gloss": "to do",
+   "rule": "unstressed ending; stem ends in a consonant; by far the largest group",
+   "forms": {
+    "1sg": "κάνω",
+    "2sg": "κάνεις",
+    "3sg": "κάνει",
+    "1pl": "κάνουμε",
+    "2pl": "κάνετε",
+    "3pl": "κάνουν(ε)"
+   },
+   "endings": {
+    "1sg": "-ω",
+    "2sg": "-εις",
+    "3sg": "-ει",
+    "1pl": "-ουμε",
+    "2pl": "-ετε",
+    "3pl": "-ουν(ε)"
+   },
+   "basic_verbs": {
+    "αγοράζω": "to buy",
+    "αλλάζω": "to change",
+    "ανοίγω": "to open",
+    "αρέσει": "to like (3sg)",
+    "αρχίζω": "to start",
+    "αφήνω": "to leave, to let",
+    "βγαίνω": "to go out",
+    "βλέπω": "to see, to watch",
+    "βρίσκω": "to find",
+    "γράφω": "to write",
+    "γυρίζω": "to turn, to return",
+    "διαβάζω": "to read, to study",
+    "δίνω": "to give",
+    "δουλεύω": "to work",
+    "έχω": "to have",
+    "θέλω": "to want",
+    "κάνω": "to do",
+    "κλείνω": "to close",
+    "κοιτάζω": "to look, to stare",
+    "μαγειρεύω": "to cook",
+    "μαθαίνω": "to learn",
+    "μένω": "to live, to stay",
+    "μπαίνω": "to enter, to go in",
+    "νομίζω": "to think",
+    "ξέρω": "to know",
+    "παίρνω": "to take, to get",
+    "πίνω": "to drink",
+    "πρέπει": "must, have to (impersonal, 3sg)",
+    "στέλνω": "to send",
+    "τελειώνω": "to end, to finish",
+    "υπάρχει": "there is (3sg)",
+    "φέρνω": "to bring, to fetch",
+    "φεύγω": "to leave",
+    "φτάνω": "to arrive",
+    "φτιάχνω": "to make, to fix",
+    "χάνω": "to lose, to miss",
+    "χορεύω": "to dance",
+    "ψάχνω": "to look for",
+    "ψωνίζω": "to shop",
+    "παίζω": "to play",
+    "τρέχω": "to run"
+   }
+  },
+  {
+   "id": "A2",
+   "voice": "active",
+   "model": "τρώω",
+   "gloss": "to eat",
+   "rule": "unstressed ending; stem ends in a vowel; few verbs but all basic; no contracted forms, irregular in past/future",
+   "forms": {
+    "1sg": "τρώω",
+    "2sg": "τρως",
+    "3sg": "τρώει",
+    "1pl": "τρώμε",
+    "2pl": "τρώτε",
+    "3pl": "τρώνε"
+   },
+   "endings": {
+    "1sg": "-ω",
+    "2sg": "-ς",
+    "3sg": "-ει",
+    "1pl": "-με",
+    "2pl": "-τε",
+    "3pl": "-νε"
+   },
+   "basic_verbs": {
+    "ακούω": "to hear, to listen",
+    "καίω": "to burn",
+    "κλαίω": "to cry",
+    "λέω": "to say, to tell",
+    "πάω": "to go (alt. πηγαίνω, group A1)",
+    "τρώω": "to eat",
+    "φταίω": "to be to blame"
+   }
+  },
+  {
+   "id": "B1",
+   "voice": "active",
+   "model": "μιλάω/-ώ",
+   "gloss": "to speak, to talk",
+   "rule": "stressed ending containing -ά-; long forms (μιλάω) colloquial, short forms (μιλώ) slightly formal; beginners should prefer long forms",
+   "forms": {
+    "1sg": "μιλάω / μιλώ",
+    "2sg": "μιλάς",
+    "3sg": "μιλάει / μιλά",
+    "1pl": "μιλάμε / μιλούμε",
+    "2pl": "μιλάτε",
+    "3pl": "μιλάνε / μιλούν"
+   },
+   "endings": {
+    "1sg": "-άω / -ώ",
+    "2sg": "-άς",
+    "3sg": "-άει / -ά",
+    "1pl": "-άμε / -ούμε",
+    "2pl": "-άτε",
+    "3pl": "-άνε / -ούν"
+   },
+   "basic_verbs": {
+    "αγαπάω": "to love",
+    "απαντάω": "to answer",
+    "γελάω": "to laugh",
+    "διψάω": "to be thirsty",
+    "ζητάω": "to ask for (request)",
+    "κρατάω": "to hold, to last",
+    "μετράω": "to count, to measure",
+    "μιλάω": "to speak",
+    "ξυπνάω": "to wake up",
+    "πεινάω": "to be hungry",
+    "περνάω": "to pass, to cross",
+    "περπατάω": "to walk",
+    "προτιμάω": "to prefer",
+    "ρωτάω": "to ask (question)",
+    "σταματάω": "to stop",
+    "φοράω": "to wear"
+   }
+  },
+  {
+   "id": "B2",
+   "voice": "active",
+   "model": "μπορώ",
+   "gloss": "can, to be able",
+   "rule": "stressed ending without -ά-",
+   "forms": {
+    "1sg": "μπορώ",
+    "2sg": "μπορείς",
+    "3sg": "μπορεί",
+    "1pl": "μπορούμε",
+    "2pl": "μπορείτε",
+    "3pl": "μπορούν(ε)"
+   },
+   "endings": {
+    "1sg": "-ώ",
+    "2sg": "-είς",
+    "3sg": "-εί",
+    "1pl": "-ούμε",
+    "2pl": "-είτε",
+    "3pl": "-ούν(ε)"
+   },
+   "basic_verbs": {
+    "ζω": "to live, to be alive",
+    "μπορώ": "can",
+    "οδηγώ": "to drive",
+    "προσπαθώ": "to try",
+    "τηλεφωνώ": "to call",
+    "χρησιμοποιώ": "to use"
+   }
+  },
+  {
+   "id": "P1",
+   "voice": "passive",
+   "model": "έρχομαι",
+   "gloss": "to come",
+   "rule": "ending -ομαι (contains -ο-); a very large group, often reflexive counterparts of A1 verbs (πλένω → πλένομαι)",
+   "forms": {
+    "1sg": "έρχομαι",
+    "2sg": "έρχεσαι",
+    "3sg": "έρχεται",
+    "1pl": "ερχόμαστε",
+    "2pl": "ερχόσαστε / έρχεστε",
+    "3pl": "έρχονται"
+   },
+   "endings": {
+    "1sg": "-ομαι",
+    "2sg": "-εσαι",
+    "3sg": "-εται",
+    "1pl": "-όμαστε",
+    "2pl": "-όσαστε / -εστε",
+    "3pl": "-ονται"
+   },
+   "basic_verbs": {
+    "γίνομαι": "to become",
+    "έρχομαι": "to come",
+    "κάθομαι": "to sit",
+    "πλένομαι": "to wash oneself",
+    "σκέφτομαι": "to think"
+   }
+  },
+  {
+   "id": "P2",
+   "voice": "passive",
+   "model": "θυμάμαι",
+   "gloss": "to remember",
+   "rule": "ending -άμαι (contains -ά-); closed group of four verbs at A1-A2",
+   "forms": {
+    "1sg": "θυμάμαι",
+    "2sg": "θυμάσαι",
+    "3sg": "θυμάται",
+    "1pl": "θυμόμαστε",
+    "2pl": "θυμόσαστε / θυμάστε",
+    "3pl": "θυμούνται"
+   },
+   "endings": {
+    "1sg": "-άμαι",
+    "2sg": "-άσαι",
+    "3sg": "-άται",
+    "1pl": "-όμαστε",
+    "2pl": "-όσαστε / -άστε",
+    "3pl": "-ούνται"
+   },
+   "basic_verbs": {
+    "θυμάμαι": "to remember",
+    "κοιμάμαι": "to sleep",
+    "λυπάμαι": "to be sorry",
+    "φοβάμαι": "to be afraid"
+   }
+  },
+  {
+   "id": "irregular",
+   "voice": "passive",
+   "model": "είμαι",
+   "gloss": "to be",
+   "rule": "irregular; memorize",
+   "forms": {
+    "1sg": "είμαι",
+    "2sg": "είσαι",
+    "3sg": "είναι",
+    "1pl": "είμαστε",
+    "2pl": "είσαστε / είστε",
+    "3pl": "είναι"
+   }
+  }
+ ],
+ "use_of_present": [
+  {
+   "use": "action at the moment of speaking",
+   "el": "Φεύγω τώρα.",
+   "en": "I am leaving now."
+  },
+  {
+   "use": "routine or repeated action",
+   "el": "Ο Πέτρος πάντα ξυπνάει στις οχτώ το πρωί.",
+   "en": "Peter always wakes up at eight a.m."
+  },
+  {
+   "use": "scheduled event",
+   "el": "Το τρένο φεύγει στις οχτώ.",
+   "en": "The train leaves at eight o'clock."
+  }
+ ]
+}

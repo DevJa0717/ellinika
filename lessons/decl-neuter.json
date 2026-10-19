@@ -1,0 +1,868 @@
+{
+ "el": "Τα ουδέτερα ουσιαστικά",
+ "title": "Neuter nouns in full",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "The neuter system in one page",
+   "text": "Neuters have one rule that never fails: **nominative, accusative and vocative are always the same form**, in the singular and in the plural. So every neuter noun has only four distinct forms: the basic singular, the genitive singular, the basic plural and the genitive plural (το βιβλίο, του βιβλίου, τα βιβλία, των βιβλίων). The article does most of the case-marking: **το / του / τα / των**.\n\nThe classes split into two big groups. The **vowel classes** (-ο, -ι, -ί) form the genitive in **-ου** and the plural in **-α**: το νερό → του νερού → τα νερά. The **consonant-stem classes** hide part of their stem in the nominative: το μάθημα is really μαθηματ-, το κρέας is κρεατ-, το φως is φωτ-, το ενδιαφέρον is ενδιαφεροντ-. They take the genitive in **-ος**, the plural in **-α**, and the genitive plural in **-ων** on that full stem: του μαθήματος, τα μαθήματα, των μαθημάτων. The neuter **-ος** nouns (το λάθος) are a class of their own, with genitive **-ους** and plural **-η**.\n\nThe genitive plural always ends in **-ων**, and in several classes it pulls the stress towards the end."
+  },
+  {
+   "type": "table",
+   "title": "The vowel classes: -ο, -ι, -ί",
+   "head": [
+    "",
+    "nom. = acc. = voc. sg.",
+    "gen. sg.",
+    "nom. = acc. = voc. pl.",
+    "gen. pl."
+   ],
+   "rows": [
+    [
+     "**-ο** stress on the end or second-to-last",
+     "νερό, βιβλίο",
+     "νερού, βιβλίου",
+     "νερά, βιβλία",
+     "νερών, βιβλίων"
+    ],
+    [
+     "**-ο** learned, third-to-last",
+     "θέατρο, πρόσωπο",
+     "**θεάτρου, προσώπου**",
+     "θέατρα, πρόσωπα",
+     "**θεάτρων, προσώπων**"
+    ],
+    [
+     "**-ο** popular, fixed stress",
+     "σύννεφο, τριαντάφυλλο",
+     "σύννεφου, τριαντάφυλλου",
+     "σύννεφα, τριαντάφυλλα",
+     "σύννεφων, τριαντάφυλλων"
+    ],
+    [
+     "**-ι** (unstressed)",
+     "σπίτι, τραπέζι",
+     "**σπιτιού, τραπεζιού**",
+     "σπίτια, τραπέζια",
+     "**σπιτιών, τραπεζιών**"
+    ],
+    [
+     "**-ί** (stressed)",
+     "παιδί, κλειδί",
+     "παιδιού, κλειδιού",
+     "παιδιά, κλειδιά",
+     "παιδιών, κλειδιών"
+    ],
+    [
+     "**-ι** after a vowel: γ inserted",
+     "τσάι, ρολόι",
+     "τσαγιού, ρολογιού",
+     "τσάγια, ρολόγια",
+     "τσαγιών, ρολογιών"
+    ],
+    [
+     "**-υ**",
+     "βράδυ",
+     "βραδιού",
+     "βράδια",
+     "βραδιών"
+    ]
+   ]
+  },
+  {
+   "type": "rules",
+   "title": "How the vowel classes behave",
+   "items": [
+    "**-ο nouns** follow the masculine -ος rules: no movement if the stress is on the last two syllables (του βουνού, του δέντρου); the learned proparoxytones move it to the second-to-last in the genitives (θέατρο → θεάτρου, θεάτρων; αυτοκίνητο → αυτοκινήτου; τηλέφωνο → τηλεφώνου; πανεπιστήμιο → πανεπιστημίου; κείμενο → κειμένου).",
+    "**Fixed-stress -ο nouns** are mostly everyday and compound words: το σύννεφο, το κόκαλο, το λάχανο, το χαμόγελο, το τριαντάφυλλο, and all in -άδικο, -άρικο, -όπουλο (του αρχοντόπουλου). Some go either way: του ποδήλατου / του ποδηλάτου, του γόνατου / του γονάτου.",
+    "**-ι nouns:** in the endings the ι becomes a glide (σπι-τιού, two syllables), so the stress must jump onto the ending in both genitives: σπίτι → σπιτιού, σπιτιών; κορίτσι → κοριτσιού; χέρι → χεριού. The nominative plural σπίτια keeps the stem stress.",
+    "**Diminutives in -άκι and -ούλι** have no genitive at all: say «το χρώμα του μικρού σπιτιού», not *του σπιτακιού.",
+    "**το πρωί** borrows its genitive from πρωινό: του πρωινού, τα πρωινά. **το δάκρυ** has the plural τα δάκρυα, των δακρύων.",
+    "**Indeclinable loans in -ι** never change: το ταξί, του ταξί, τα ταξί; το πάρτι, τα πάρτι."
+   ]
+  },
+  {
+   "type": "table",
+   "title": "The consonant-stem classes and neuter -ος",
+   "head": [
+    "",
+    "nom. = acc. = voc. sg.",
+    "gen. sg.",
+    "nom. = acc. = voc. pl.",
+    "gen. pl."
+   ],
+   "rows": [
+    [
+     "**-μα**",
+     "μάθημα, όνομα, σώμα",
+     "**μαθήματος, ονόματος, σώματος**",
+     "**μαθήματα, ονόματα, σώματα**",
+     "**μαθημάτων, ονομάτων, σωμάτων**"
+    ],
+    [
+     "**-ιμο** (verbal nouns)",
+     "γράψιμο, πλύσιμο",
+     "**γραψίματος, πλυσίματος**",
+     "**γραψίματα, πλυσίματα**",
+     "**γραψιμάτων, πλυσιμάτων**"
+    ],
+    [
+     "**-ος**, two syllables",
+     "λάθος, μέρος, κράτος",
+     "λάθους, μέρους, κράτους",
+     "λάθη, μέρη, κράτη",
+     "**λαθών, μερών, κρατών**"
+    ],
+    [
+     "**-ος**, three syllables",
+     "έδαφος, μέγεθος",
+     "**εδάφους, μεγέθους**",
+     "**εδάφη, μεγέθη**",
+     "**εδαφών, μεγεθών**"
+    ],
+    [
+     "**-ας**",
+     "κρέας, τέρας",
+     "κρέατος, τέρατος",
+     "κρέατα, τέρατα",
+     "**κρεάτων, τεράτων**"
+    ],
+    [
+     "**-ως / -ός**",
+     "φως, γεγονός",
+     "φωτός, γεγονότος",
+     "φώτα, γεγονότα",
+     "φώτων, γεγονότων"
+    ],
+    [
+     "**-ον**",
+     "ενδιαφέρον, προϊόν",
+     "ενδιαφέροντος, προϊόντος",
+     "ενδιαφέροντα, προϊόντα",
+     "**ενδιαφερόντων**, προϊόντων"
+    ],
+    [
+     "**-εν, -αν**",
+     "φωνήεν, σύμπαν",
+     "φωνήεντος, σύμπαντος",
+     "φωνήεντα, —",
+     "**φωνηέντων**, —"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "title": "How the consonant-stem classes work",
+   "text": "**-μα and -ιμο.** The stem gains -ατ-, so every form except the basic singular has an extra syllable. Because Greek stress cannot go further back than the third-to-last syllable, it moves right as soon as the word grows: **ό**νομα → ο**νό**ματος (never *όνοματος), ο**νο**μάτων. The genitive plural in **-μάτων** is always stressed on the -μά-: προβλημάτων, συστημάτων, χρωμάτων, γραμμάτων. Two-syllable words move only in that genitive plural: **σώ**μα → **σώ**ματος, **σώ**ματα, σω**μά**των. Verbal nouns in **-σιμο, -ξιμο, -ψιμο** behave the same way: το τρέξιμο → του τρεξίματος.\n\n**Neuter -ος.** Do not confuse it with masculine -ος. The accusative is identical to the nominative (**το λάθος**, never *το λάθο), the genitive is **-ους** (του λάθους), the plural is **-η** (τα λάθη), and the genitive plural is always on the ending (**λαθών**, μελών, εθνών, χρεών). Three-syllable words move the stress to the second-to-last in the genitive singular and in the plural: έδαφος → εδάφους, εδάφη; πέλαγος → πελάγους, πελάγη. λάθος is also used as an indeclinable adjective: **λάθος απάντηση, σε λάθος δρόμο**.\n\n**-ας, -ως, -ον, -εν, -αν.** Learned words with a -τ- or -ντ- stem: κρέας → κρέατος, φως → φωτός, γεγονός → γεγονότος, καθεστώς → καθεστώτος. The -ον/-εν/-αν group is made of old participles: το ενδιαφέρον, το περιβάλλον, το καθήκον, το μέλλον, το παρόν, το παρελθόν, το συμφέρον, το προϊόν, το προσόν, το συμβάν, το φωνήεν, το σύμπαν, το ον. The genitive plural follows the three-syllable window: ενδιαφέρον → ενδιαφερόντων, καθήκον → καθηκόντων, περιβάλλον → περιβαλλόντων. Note **του φωτός** but **τα φώτα, των φώτων**: the monosyllable φως stresses the ending in the genitive singular only."
+  },
+  {
+   "type": "table",
+   "title": "Indeclinable neuters",
+   "head": [
+    "Noun",
+    "Meaning",
+    "In use"
+   ],
+   "rows": [
+    [
+     "το ταξί",
+     "taxi",
+     "Πήραμε δύο **ταξί**. Το χρώμα **του ταξί** ήταν κίτρινο."
+    ],
+    [
+     "το μετρό",
+     "metro",
+     "Η στάση **του μετρό** είναι εδώ."
+    ],
+    [
+     "το ραντεβού",
+     "appointment, date",
+     "Έχω τρία **ραντεβού** σήμερα."
+    ],
+    [
+     "το πάρτι",
+     "party",
+     "Τα **πάρτι** της σχολής είναι διάσημα."
+    ],
+    [
+     "το καφέ",
+     "café",
+     "Τα **καφέ** της παραλίας (but ο καφές, οι καφέδες 'coffee')"
+    ],
+    [
+     "το ευρώ",
+     "euro",
+     "Κοστίζει δέκα **ευρώ**. Η αξία **του ευρώ** ανέβηκε."
+    ],
+    [
+     "το ασανσέρ, το γκαράζ, το μπαρ, το κομπιούτερ, το μπάσκετ, το ρεπό",
+     "lift, garage, bar, computer, basketball, day off",
+     "Το **ασανσέρ** είναι χαλασμένο."
+    ],
+    [
+     "το άλφα, το ωμέγα (letter names)",
+     "alpha, omega",
+     "Γράφεται με δύο **λάμδα**."
+    ],
+    [
+     "*feminine and common-gender loans*",
+     "η σεζόν, η ελίτ, ο/η μάνατζερ, ο/η σταρ",
+     "**της σεζόν**, **η** μάνατζερ της ομάδας"
+    ]
+   ]
+  },
+  {
+   "type": "rules",
+   "title": "Irregular and odd neuters",
+   "items": [
+    "**το γάλα:** του γάλατος or, more formally, του γάλακτος (hence γαλακτοκομικά 'dairy'); pl. τα γάλατα.",
+    "**το μέλι:** του μελιού or the learned του μέλιτος; pl. τα μέλια.",
+    "**το οξύ** 'acid': του οξέος, τα οξέα, των οξέων. **το μηδέν:** του μηδενός.",
+    "**Plural-only place names and festivals:** τα Γιάννινα (των Ιωαννίνων), τα Χανιά (των Χανίων), τα Χριστούγεννα (των Χριστουγέννων), τα Καλάβρυτα.",
+    "**Masculine singular, neuter plural:** ο χρόνος → τα χρόνια 'years' (οι χρόνοι 'times, tenses'); ο λόγος → τα λόγια 'words' (οι λόγοι 'reasons, speeches'); ο βράχος → τα βράχια; ο πλούτος → τα πλούτη.",
+    "**η έξοδος** 'exit' vs **τα έξοδα** 'expenses': two different words."
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Neuters at work",
+   "items": [
+    {
+     "el": "Το όνομα του προϊόντος δεν ήταν γραμμένο πουθενά.",
+     "en": "The product's name was not written anywhere."
+    },
+    {
+     "el": "Οι βαθμοί των μαθημάτων θα ανακοινωθούν τη Δευτέρα.",
+     "en": "The course grades will be announced on Monday."
+    },
+    {
+     "el": "Το φως του φεγγαριού έπεφτε πάνω στη θάλασσα.",
+     "en": "The moonlight fell on the sea."
+    },
+    {
+     "el": "Έκανα τρία λάθη στο τεστ· η διόρθωση των λαθών μού πήρε μια ώρα.",
+     "en": "I made three mistakes in the test; correcting the mistakes took me an hour."
+    },
+    {
+     "el": "Η τιμή του κρέατος ανέβηκε ξανά.",
+     "en": "The price of meat went up again."
+    },
+    {
+     "el": "Η προστασία του περιβάλλοντος είναι καθήκον όλων μας.",
+     "en": "Protecting the environment is the duty of all of us."
+    },
+    {
+     "el": "Τα φώτα των σπιτιών έσβησαν ένα ένα.",
+     "en": "The lights of the houses went out one by one."
+    },
+    {
+     "el": "Τα μέλη του κόμματος ψήφισαν για το μέλλον του κράτους.",
+     "en": "The party members voted on the future of the state."
+    },
+    {
+     "el": "Η λύση των προβλημάτων δεν είναι θέμα χρημάτων μόνο.",
+     "en": "Solving the problems is not only a question of money."
+    },
+    {
+     "el": "Τα γεγονότα της χρονιάς σχολιάστηκαν σε όλα τα κανάλια.",
+     "en": "The events of the year were discussed on every channel."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Small words, big traps",
+   "items": [
+    {
+     "el": "Πήραμε ταξί από το αεροδρόμιο και φτάσαμε στο ραντεβού στην ώρα μας.",
+     "en": "We took a taxi from the airport and got to the appointment on time."
+    },
+    {
+     "el": "Το χρώμα του τσαγιού δείχνει πόση ώρα έμεινε στο νερό.",
+     "en": "The colour of the tea shows how long it stayed in the water."
+    },
+    {
+     "el": "Οι δείκτες του ρολογιού σταμάτησαν στις τρεις.",
+     "en": "The clock's hands stopped at three."
+    },
+    {
+     "el": "Τα νέα του πρωινού ήταν άσχημα.",
+     "en": "The morning news was bad."
+    },
+    {
+     "el": "Πολλά χρόνια ζούσαμε στα Γιάννινα, κοντά στη λίμνη των Ιωαννίνων.",
+     "en": "For many years we lived in Ioannina, near the lake of Ioannina."
+    },
+    {
+     "el": "Μη μου λες τέτοια λόγια!",
+     "en": "Don't say such things to me!"
+    },
+    {
+     "el": "Τα έξοδα του ταξιδιού ήταν μεγαλύτερα απ’ ό,τι περιμέναμε.",
+     "en": "The travel expenses were higher than we expected."
+    },
+    {
+     "el": "Το ενδιαφέρον των φοιτητών για το μάθημα ήταν μεγάλο.",
+     "en": "The students' interest in the course was great."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**The mistakes that mark a foreigner.**\n\n*του λάθου, *τα λάθοι, *των λάθων → **του λάθους, τα λάθη, των λαθών**; and *έκανα ένα λάθο → **ένα λάθος**.\n\n*του όνοματος, *των μάθηματων → **του ονόματος, των μαθημάτων**.\n\n*του σπίτιου, *των παιδίων → **του σπιτιού, των παιδιών**.\n\n*του κρέας, *του φωτού → **του κρέατος, του φωτός**.\n\n*τα ταξιά, *του ταξιού → **τα ταξί, του ταξί**.\n\n*των ενδιαφέροντων → **των ενδιαφερόντων**."
+  },
+  {
+   "type": "culture",
+   "title": "Reading a taverna menu",
+   "text": "A Greek menu is organised by neuter plurals, most of them adjectives turned into nouns: **τα ορεκτικά** (starters), **τα μαγειρευτά** (stove-cooked dishes of the day), **τα ψητά** (grills), **τα θαλασσινά**, **τα γλυκά**. Then the genitive takes over to say how a dish is made: **του φούρνου** 'from the oven', **της σχάρας** 'grilled', **της κατσαρόλας** 'casseroled', and **της ώρας** 'cooked to order', as in μπριζόλα της ώρας. A sign saying **Κρέατα της ώρας** promises meat grilled when you order it."
+  },
+  {
+   "type": "reading",
+   "title": "Το πρόγραμμα του Σαββάτου",
+   "text": "Το Σάββατο είναι η πιο γεμάτη μέρα του σπιτιού μας. Το πρόγραμμα της εβδομάδας κρέμεται στο ψυγείο, και κάθε μέλος της οικογένειας έχει το όνομά του γραμμένο με διαφορετικό χρώμα.\n\nΣτις εννιά τα παιδιά έχουν μάθημα πιάνου. Ο δάσκαλος λέει ότι ο μικρός κάνει πολλά λάθη, αλλά ότι το ενδιαφέρον του για τη μουσική είναι μεγάλο. Στις έντεκα πηγαίνω στη λαϊκή. Οι τιμές των προϊόντων αλλάζουν κάθε εβδομάδα· σήμερα η τιμή του κρέατος είναι πολύ υψηλή, γι’ αυτό αγοράζω λαχανικά και δύο κιλά ψάρια.\n\nΤο μεσημέρι τρώμε όλοι μαζί. Τα γεγονότα της εβδομάδας περνάνε από το τραπέζι ένα ένα: τα νέα του σχολείου, τα προβλήματα της δουλειάς, ένα ραντεβού στον οδοντίατρο που ξεχάσαμε. Η κόρη μας μιλάει για ένα πρόγραμμα του δήμου για την προστασία του περιβάλλοντος· θέλει να γίνει μέλος της ομάδας των εθελοντών.\n\nΜετά το φαγητό ο άντρας μου πλένει τα πιάτα κι εγώ αναλαμβάνω το πλύσιμο των ρούχων. Το πλυντήριο είναι παλιό και κάνει πολύ θόρυβο, αλλά τα αποτελέσματα είναι καλά. Τα παιδιά μαζεύουν τα παιχνίδια τους και τα βιβλία του σχολείου, γιατί τη Δευτέρα έχουν πάλι μαθήματα από το πρωί.\n\nΤο απόγευμα ξεκουραζόμαστε. Το βράδυ, όταν ανάβουν τα φώτα των σπιτιών, παίρνουμε ένα ταξί για το κέντρο. Πηγαίνουμε στο θέατρο, σε ένα έργο για τα όνειρα και τα λάθη των ανθρώπων. Στο τέλος της παράστασης οι ηθοποιοί χαιρετούν το κοινό, και το χειροκρότημα κρατάει πολλά λεπτά.",
+   "en": "Saturday is the busiest day in our house. The week's schedule hangs on the fridge, and every member of the family has their name written in a different colour.\n\nAt nine the children have a piano lesson. The teacher says the little one makes a lot of mistakes, but that his interest in music is great. At eleven I go to the street market. The prices of the produce change every week; today the price of meat is very high, so I buy vegetables and two kilos of fish.\n\nAt midday we all eat together. The events of the week pass across the table one by one: news from school, problems at work, a dentist's appointment we forgot. Our daughter talks about a council programme for protecting the environment; she wants to join the volunteer team.\n\nAfter lunch my husband washes the dishes and I take on the washing of the clothes. The washing machine is old and very noisy, but the results are good. The children gather up their toys and their school books, because on Monday they have lessons again from the morning on.\n\nIn the afternoon we rest. In the evening, when the lights of the houses come on, we take a taxi to the centre. We go to the theatre, to a play about people's dreams and mistakes. At the end of the performance the actors bow to the audience, and the applause lasts for several minutes.",
+   "gloss": {
+    "πλύσιμο": "πλύσιμο — washing (verbal noun of πλένω)",
+    "έντεκα": "έντεκα — eleven",
+    "λαϊκή": "λαϊκή (αγορά) — street market",
+    "γι’": "για — for (before a vowel)",
+    "γεγονότα": "γεγονός — event, fact (pl. γεγονότα)",
+    "ραντεβού": "ραντεβού — appointment (indeclinable)",
+    "Ραντεβού": "ραντεβού — appointment (indeclinable)",
+    "φώτα": "φως — light (pl. φώτα)",
+    "χαιρετούν": "χαιρετώ — to greet; (of actors) to bow",
+    "κολύμβησης": "κολύμβηση — swimming (gen.)",
+    "κρέμεται": "κρέμομαι — to hang",
+    "γραμμένο": "γραμμένος — written (participle of γράφω)"
+   },
+   "questions": [
+    {
+     "prompt": "Τι έχουν τα παιδιά στις εννιά;",
+     "answer": "Μάθημα πιάνου",
+     "options": [
+      "Μάθημα πιάνου",
+      "Μάθημα κολύμβησης",
+      "Ραντεβού στον οδοντίατρο"
+     ]
+    },
+    {
+     "prompt": "Γιατί η μητέρα δεν αγοράζει κρέας;",
+     "answer": "Επειδή η τιμή του είναι πολύ υψηλή",
+     "options": [
+      "Επειδή η τιμή του είναι πολύ υψηλή",
+      "Επειδή η οικογένεια δεν τρώει κρέας",
+      "Επειδή η λαϊκή είναι κλειστή"
+     ]
+    },
+    {
+     "prompt": "Τι θέλει να κάνει η κόρη;",
+     "answer": "Να γίνει μέλος της ομάδας των εθελοντών",
+     "options": [
+      "Να γίνει μέλος της ομάδας των εθελοντών",
+      "Να πάει μόνη της στο θέατρο",
+      "Να μάθει πιάνο"
+     ]
+    },
+    {
+     "prompt": "Πώς πηγαίνει η οικογένεια στο κέντρο το βράδυ;",
+     "answer": "Με ταξί",
+     "options": [
+      "Με ταξί",
+      "Με το μετρό",
+      "Με τα πόδια"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "n": 26,
+   "items": [
+    {
+     "prompt": "Το εξώφυλλο του ___ (το βιβλίο)",
+     "answer": "βιβλίου",
+     "accept": [
+      "βιβλίου"
+     ],
+     "why": "Penult-stressed -ο: gen. -ου, stress unchanged."
+    },
+    {
+     "prompt": "Η σκηνή του ___ (το θέατρο)",
+     "answer": "θεάτρου",
+     "accept": [
+      "θεάτρου"
+     ],
+     "why": "Learned proparoxytone -ο: the genitive moves the stress to the second-to-last."
+    },
+    {
+     "prompt": "Η είσοδος του ___ (το πανεπιστήμιο)",
+     "answer": "πανεπιστημίου",
+     "accept": [
+      "πανεπιστημίου"
+     ],
+     "why": "πανεπιστήμιο → πανεπιστημίου."
+    },
+    {
+     "prompt": "Ο αριθμός του ___ (το τηλέφωνο)",
+     "answer": "τηλεφώνου",
+     "accept": [
+      "τηλεφώνου"
+     ],
+     "why": "τηλέφωνο → τηλεφώνου."
+    },
+    {
+     "prompt": "Το σχήμα του ___ (το σύννεφο)",
+     "answer": "σύννεφου",
+     "accept": [
+      "σύννεφου"
+     ],
+     "why": "σύννεφο is a fixed-stress popular -ο noun."
+    },
+    {
+     "prompt": "Η πόρτα του ___ (το σπίτι)",
+     "answer": "σπιτιού",
+     "accept": [
+      "σπιτιού"
+     ],
+     "why": "-ι nouns stress the ending in the genitive: σπιτιού."
+    },
+    {
+     "prompt": "Τα παιχνίδια των ___ (το παιδί)",
+     "answer": "παιδιών",
+     "accept": [
+      "παιδιών"
+     ],
+     "why": "παιδί → παιδιών."
+    },
+    {
+     "prompt": "Τα πόδια του ___ (το τραπέζι)",
+     "answer": "τραπεζιού",
+     "accept": [
+      "τραπεζιού"
+     ],
+     "why": "τραπέζι → τραπεζιού."
+    },
+    {
+     "prompt": "Το χρώμα του ___ (το τσάι)",
+     "answer": "τσαγιού",
+     "accept": [
+      "τσαγιού"
+     ],
+     "why": "-άι inserts γ: τσαγιού."
+    },
+    {
+     "prompt": "Οι δείκτες του ___ (το ρολόι)",
+     "answer": "ρολογιού",
+     "accept": [
+      "ρολογιού"
+     ],
+     "why": "-όι inserts γ: ρολογιού."
+    },
+    {
+     "prompt": "Τα νέα του ___ (το πρωί)",
+     "answer": "πρωινού",
+     "accept": [
+      "πρωινού"
+     ],
+     "why": "πρωί borrows the genitive of πρωινό."
+    },
+    {
+     "prompt": "Η ώρα του ___ (το μάθημα)",
+     "answer": "μαθήματος",
+     "accept": [
+      "μαθήματος"
+     ],
+     "why": "-μα: stem μαθηματ-, gen. μαθήματος."
+    },
+    {
+     "prompt": "Γράψτε τα ___ σας εδώ. (το όνομα)",
+     "answer": "ονόματα",
+     "accept": [
+      "ονόματα"
+     ],
+     "why": "όνομα → ονόματα: the stress moves to stay within three syllables."
+    },
+    {
+     "prompt": "Η λύση των ___ (το πρόβλημα)",
+     "answer": "προβλημάτων",
+     "accept": [
+      "προβλημάτων"
+     ],
+     "why": "Gen. pl. of -μα is always -μάτων."
+    },
+    {
+     "prompt": "Η υγεία του ___ (το σώμα)",
+     "answer": "σώματος",
+     "accept": [
+      "σώματος"
+     ],
+     "why": "σώμα → σώματος: two syllables, no shift in the gen. sg."
+    },
+    {
+     "prompt": "Η ανάλυση των ___ (το σώμα)",
+     "answer": "σωμάτων",
+     "accept": [
+      "σωμάτων"
+     ],
+     "why": "σωμάτων: -μάτων takes the stress."
+    },
+    {
+     "prompt": "Η ώρα του ___ (το πλύσιμο)",
+     "answer": "πλυσίματος",
+     "accept": [
+      "πλυσίματος"
+     ],
+     "why": "-ιμο nouns take -ίματος."
+    },
+    {
+     "prompt": "Η διόρθωση του ___ (το λάθος)",
+     "answer": "λάθους",
+     "accept": [
+      "λάθους"
+     ],
+     "why": "Neuter -ος: gen. -ους."
+    },
+    {
+     "prompt": "Έκανα τρία ___ στο τεστ. (το λάθος)",
+     "answer": "λάθη",
+     "accept": [
+      "λάθη"
+     ],
+     "why": "Neuter -ος: plural -η."
+    },
+    {
+     "prompt": "Η διόρθωση των ___ (το λάθος)",
+     "answer": "λαθών",
+     "accept": [
+      "λαθών"
+     ],
+     "why": "Neuter -ος: gen. pl. always on -ών."
+    },
+    {
+     "prompt": "Τα ___ της ομάδας (το μέλος)",
+     "answer": "μέλη",
+     "accept": [
+      "μέλη"
+     ],
+     "why": "μέλος → μέλη."
+    },
+    {
+     "prompt": "Η γνώμη των ___ (το μέλος)",
+     "answer": "μελών",
+     "accept": [
+      "μελών"
+     ],
+     "why": "μέλος → μελών."
+    },
+    {
+     "prompt": "Η οικονομία του ___ (το κράτος)",
+     "answer": "κράτους",
+     "accept": [
+      "κράτους"
+     ],
+     "why": "κράτος → κράτους."
+    },
+    {
+     "prompt": "Τα σύνορα των ___ (το κράτος)",
+     "answer": "κρατών",
+     "accept": [
+      "κρατών"
+     ],
+     "why": "κράτος → κρατών."
+    },
+    {
+     "prompt": "Η σύσταση του ___ (το έδαφος)",
+     "answer": "εδάφους",
+     "accept": [
+      "εδάφους"
+     ],
+     "why": "Three-syllable neuter -ος moves the stress right: εδάφους."
+    },
+    {
+     "prompt": "Η σημασία του ___ (το μέγεθος)",
+     "answer": "μεγέθους",
+     "accept": [
+      "μεγέθους"
+     ],
+     "why": "μέγεθος → μεγέθους."
+    },
+    {
+     "prompt": "Τα ___ του Αιγαίου (το πέλαγος)",
+     "answer": "πελάγη",
+     "accept": [
+      "πελάγη"
+     ],
+     "why": "πέλαγος → πελάγη."
+    },
+    {
+     "prompt": "Η τιμή του ___ (το κρέας)",
+     "answer": "κρέατος",
+     "accept": [
+      "κρέατος"
+     ],
+     "why": "κρέας has the stem κρεατ-: κρέατος."
+    },
+    {
+     "prompt": "Τα ___ της μυθολογίας (το τέρας)",
+     "answer": "τέρατα",
+     "accept": [
+      "τέρατα"
+     ],
+     "why": "τέρας → τέρατα."
+    },
+    {
+     "prompt": "Η ταχύτητα του ___ (το φως)",
+     "answer": "φωτός",
+     "accept": [
+      "φωτός"
+     ],
+     "why": "φως → φωτός."
+    },
+    {
+     "prompt": "Άναψε τα ___! (το φως)",
+     "answer": "φώτα",
+     "accept": [
+      "φώτα"
+     ],
+     "why": "φως → φώτα."
+    },
+    {
+     "prompt": "Τα ___ της ημέρας (το γεγονός)",
+     "answer": "γεγονότα",
+     "accept": [
+      "γεγονότα"
+     ],
+     "why": "γεγονός → γεγονότα."
+    },
+    {
+     "prompt": "Η σημασία του ___ (το γεγονός)",
+     "answer": "γεγονότος",
+     "accept": [
+      "γεγονότος"
+     ],
+     "why": "γεγονός → γεγονότος."
+    },
+    {
+     "prompt": "Η προστασία του ___ (το περιβάλλον)",
+     "answer": "περιβάλλοντος",
+     "accept": [
+      "περιβάλλοντος"
+     ],
+     "why": "-ον: gen. -οντος."
+    },
+    {
+     "prompt": "Η ποιότητα των ___ (το προϊόν)",
+     "answer": "προϊόντων",
+     "accept": [
+      "προϊόντων"
+     ],
+     "why": "προϊόν → προϊόντων."
+    },
+    {
+     "prompt": "Η εκπλήρωση των ___ (το καθήκον)",
+     "answer": "καθηκόντων",
+     "accept": [
+      "καθηκόντων"
+     ],
+     "why": "καθήκον → καθηκόντων: the gen. pl. moves to the second-to-last."
+    },
+    {
+     "prompt": "Το βάρος του ___ (το παρελθόν)",
+     "answer": "παρελθόντος",
+     "accept": [
+      "παρελθόντος"
+     ],
+     "why": "παρελθόν → παρελθόντος."
+    },
+    {
+     "prompt": "Τα ___ της ελληνικής (το φωνήεν)",
+     "answer": "φωνήεντα",
+     "accept": [
+      "φωνήεντα"
+     ],
+     "why": "φωνήεν → φωνήεντα."
+    },
+    {
+     "prompt": "Πήραμε δύο ___. (το ταξί)",
+     "answer": "ταξί",
+     "accept": [
+      "ταξί"
+     ],
+     "why": "Loanwords like ταξί are indeclinable."
+    },
+    {
+     "prompt": "Η τιμή του ___ (το γάλα)",
+     "answer": "γάλακτος",
+     "accept": [
+      "γάλακτος",
+      "γάλατος"
+     ],
+     "why": "γάλα has the genitive γάλατος or, more formally, γάλακτος."
+    },
+    {
+     "prompt": "Πολλά ___ ζούσαμε στο εξωτερικό. (ο χρόνος, 'years')",
+     "answer": "χρόνια",
+     "accept": [
+      "χρόνια"
+     ],
+     "why": "χρόνος has the neuter plural τα χρόνια 'years'."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "Η διόρθωση ___ πήρε ώρα.",
+     "answer": "του λάθους",
+     "options": [
+      "του λάθους",
+      "του λάθου",
+      "του λαθού"
+     ],
+     "why": "Neuter -ος: gen. -ους."
+    },
+    {
+     "prompt": "Σε ποια ___ της Ελλάδας έχεις πάει;",
+     "answer": "μέρη",
+     "options": [
+      "μέρη",
+      "μέρα",
+      "μέροι"
+     ],
+     "why": "μέρος → μέρη."
+    },
+    {
+     "prompt": "Το πρόγραμμα ___ άλλαξε.",
+     "answer": "των μαθημάτων",
+     "options": [
+      "των μαθημάτων",
+      "των μαθήματων",
+      "των μάθηματων"
+     ],
+     "why": "-μα: gen. pl. -μάτων."
+    },
+    {
+     "prompt": "Το παράθυρο ___ είναι ανοιχτό.",
+     "answer": "του σπιτιού",
+     "options": [
+      "του σπιτιού",
+      "του σπίτιου",
+      "του σπιτίου"
+     ],
+     "why": "-ι nouns stress the genitive ending."
+    },
+    {
+     "prompt": "Στον τοίχο υπάρχουν δύο ___.",
+     "answer": "ρολόγια",
+     "options": [
+      "ρολόγια",
+      "ρολόια",
+      "ρολόι"
+     ],
+     "why": "ρολόι → ρολόγια, with γ inserted."
+    },
+    {
+     "prompt": "Στη στάση περίμεναν πέντε ___.",
+     "answer": "ταξί",
+     "options": [
+      "ταξί",
+      "ταξιά",
+      "ταξία"
+     ],
+     "why": "ταξί is indeclinable."
+    },
+    {
+     "prompt": "Τα ___ του ταξιδιού ήταν μεγάλα. (expenses)",
+     "answer": "έξοδα",
+     "options": [
+      "έξοδα",
+      "έξοδοι",
+      "εξόδους"
+     ],
+     "why": "τα έξοδα 'expenses' is neuter; η έξοδος 'exit' is feminine."
+    },
+    {
+     "prompt": "Μη μου λες τέτοια ___!",
+     "answer": "λόγια",
+     "options": [
+      "λόγια",
+      "λόγοι",
+      "λόγους"
+     ],
+     "why": "ο λόγος has the neuter plural τα λόγια 'words'."
+    },
+    {
+     "prompt": "Η προστασία ___ είναι προτεραιότητα.",
+     "answer": "του περιβάλλοντος",
+     "options": [
+      "του περιβάλλοντος",
+      "του περιβάλλον",
+      "του περιβαλλόντου"
+     ],
+     "why": "-ον neuters: gen. -οντος."
+    },
+    {
+     "prompt": "Έκανα ένα μεγάλο ___.",
+     "answer": "λάθος",
+     "options": [
+      "λάθος",
+      "λάθο",
+      "λάθους"
+     ],
+     "why": "Neuter: acc. = nom. = λάθος."
+    }
+   ]
+  },
+  {
+   "gen": "decline",
+   "ids": [
+    "n-ο-a",
+    "n-ο-b",
+    "n-ί",
+    "n-ι",
+    "n-ος-2syl",
+    "n-ος-3syl",
+    "n-μα",
+    "n-ιμο",
+    "n-ας",
+    "n-ον"
+   ],
+   "cells": [
+    "sg.gen",
+    "pl.nom",
+    "pl.gen"
+   ],
+   "n": 12
+  },
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/nouns-full.json#paradigms[id=n-μα]",
+   "lemma": "το αποτέλεσμα",
+   "why": "The -ατ- stem adds a syllable, and the stress moves to stay within the last three."
+  },
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/nouns-full.json#paradigms[id=n-ος-2syl]",
+   "lemma": "το κράτος",
+   "why": "Neuter -ος: gen. -ους, pl. -η, gen. pl. -ών."
+  }
+ ],
+ "vocab": [
+  "λάθος",
+  "κρέας",
+  "φως",
+  "γεγονός",
+  "πρόβλημα",
+  "μέγεθος",
+  "έδαφος",
+  "περιβάλλον",
+  "καθήκον",
+  "προϊόν",
+  "συμφέρον",
+  "χρέος"
+ ]
+}

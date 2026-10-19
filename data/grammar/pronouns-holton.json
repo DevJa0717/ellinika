@@ -1,0 +1,836 @@
+{
+ "source": "Holton, Mackridge & Philippaki-Warburton, Greek: An Essential Grammar, 2nd ed. (Routledge, 2016), upload 418329ba, PDF pp. 22-44 = Ch. 4 (§4.1-4.10). Copyrighted, no open license: rules restated in own words; examples shortened; paradigms and word lists are linguistic facts. Separate from pronouns.json (another source).",
+ "variety": "Standard Modern Greek",
+ "overview": "Pronouns stand in for noun phrases; determiners modify nouns (words other than articles, adjectives and numerals). Most Greek pronouns except personal pronouns can also be determiners. The book's Appendix 1 tabulates them (not in these pages).",
+ "weak_personal": {
+  "section": "4.1",
+  "rule": "Weak (clitic) pronouns are one unstressed syllable pronounced together with the word they depend on (§1.8). There are no weak nominatives for 1st/2nd person since the verb shows the person; a strong pronoun is used for emphasis (§4.2). They are far commoner than strong pronouns.",
+  "paradigm": {
+   "1sg": {
+    "acc": "με",
+    "gen": "μου"
+   },
+   "1pl": {
+    "acc": "μας",
+    "gen": "μας"
+   },
+   "2sg": {
+    "acc": "σε",
+    "gen": "σου"
+   },
+   "2pl": {
+    "acc": "σας",
+    "gen": "σας"
+   },
+   "3sg": {
+    "nom": {
+     "m": "τος",
+     "f": "τη",
+     "n": "το"
+    },
+    "acc": {
+     "m": "τον",
+     "f": "τη(ν)",
+     "n": "το"
+    },
+    "gen": {
+     "m": "του",
+     "f": "της",
+     "n": "του"
+    }
+   },
+   "3pl": {
+    "nom": {
+     "m": "τοι",
+     "f": "τες",
+     "n": "τα"
+    },
+    "acc": {
+     "m": "τους",
+     "f": "τις/τες",
+     "n": "τα"
+    },
+    "gen": {
+     "m": "τους",
+     "f": "τους",
+     "n": "τους"
+    }
+   }
+  },
+  "notes": [
+   "The 3rd-person nominative forms occur only in exclamatory and interrogative constructions after να 'there!' and πού 'ν' 'where is/are': να τη! 'there she is!', πού 'ν' τα; 'where are they?'.",
+   "Fem. pl. accusative τις/τες: τις is obligatory before the verb; either may follow a gerund or imperative."
+  ],
+  "functions": [
+   "direct object (accusative) or indirect object (genitive) of a verb",
+   "possessive after a noun (genitive)",
+   "subjective/objective genitive after a noun (§3.52.2)",
+   "genitive after an adjective, numeral, pronoun or quantifier",
+   "genitive after certain adverbs (mostly of place, §8.3)"
+  ],
+  "position": {
+   "rules": [
+    "Nothing may come between a weak object pronoun and its verb.",
+    "Weak object pronouns stand immediately before the verb, except with imperatives and the gerund, where they follow it (and the verb takes a second stress, §1.8).",
+    "With two weak object pronouns the indirect (genitive) precedes the direct (accusative); after an imperative or gerund the order is flexible.",
+    "Colloquially σου may reduce to σ' before a 3rd-person pronoun: Σ' το είπα (sometimes written Στο είπα).",
+    "As possessive, the genitive normally follows the noun, which normally has the definite article (but see §3.54).",
+    "As possessive it may instead follow an adjective or the quantifier όλος.",
+    "After a comparative, the genitive weak pronoun gives the second term of comparison (μεγαλύτερή του; alternative: μεγαλύτερη απ' αυτόν); after a relative superlative it gives the group (η μεγαλύτερή μας).",
+    "After numerals, certain pronouns (compare §4.6, §4.9) and όλος it specifies the person: 1st, 2nd or 3rd."
+   ],
+   "examples": [
+    {
+     "el": "Σε είδα.",
+     "en": "I saw you."
+    },
+    {
+     "el": "Δεν θα τους δεις.",
+     "en": "You won't see them."
+    },
+    {
+     "el": "Κοίταξέ με!",
+     "en": "Look at me!"
+    },
+    {
+     "el": "Ξεφυλλίζοντάς το, καταλαβαίνουμε ότι πρόκειται για αξιόλογο βιβλίο.",
+     "en": "Flicking through it, we realize it's a noteworthy book."
+    },
+    {
+     "el": "Σου το είπα.",
+     "en": "I told you (it)."
+    },
+    {
+     "el": "Μη μου τα δείξεις.",
+     "en": "Don't show them to me."
+    },
+    {
+     "el": "Πες του το. / Πες το του.",
+     "en": "Tell him (it)."
+    },
+    {
+     "el": "ο αδελφός της",
+     "en": "her brother"
+    },
+    {
+     "el": "τα λεφτά τους",
+     "en": "their money"
+    },
+    {
+     "el": "το καινούριο μας σπίτι",
+     "en": "our new house"
+    },
+    {
+     "el": "με όλη μου τη δύναμη",
+     "en": "with all my strength"
+    },
+    {
+     "el": "Η Άννα είναι μεγαλύτερή του.",
+     "en": "Anna is bigger/older than him."
+    },
+    {
+     "el": "Η Άννα είναι η μεγαλύτερή μας.",
+     "en": "Anna is the biggest/oldest of us."
+    },
+    {
+     "el": "οι δύο μας",
+     "en": "the two of us"
+    },
+    {
+     "el": "μόνη της",
+     "en": "on her own"
+    },
+    {
+     "el": "ο καθένας τους",
+     "en": "each one of them"
+    },
+    {
+     "el": "κανένας μας",
+     "en": "none of us"
+    },
+    {
+     "el": "όλοι σας",
+     "en": "all of you"
+    },
+    {
+     "el": "δίπλα μας",
+     "en": "next to us"
+    },
+    {
+     "el": "μέσα της",
+     "en": "inside her/it (fem.)"
+    }
+   ]
+  }
+ },
+ "strong_personal": {
+  "section": "4.2",
+  "rule": "Strong (emphatic) pronouns inflect for number and case (3rd person also for gender). They distinguish one person from another; they can be subject, object, object of a preposition, stand alone, or accompany a noun phrase.",
+  "paradigm": {
+   "1sg": {
+    "nom": "εγώ",
+    "acc": "εμένα",
+    "gen": "εμένα"
+   },
+   "1pl": {
+    "nom": "εμείς",
+    "acc": "εμάς",
+    "gen": "εμάς"
+   },
+   "2sg": {
+    "nom": "εσύ",
+    "acc": "εσένα",
+    "gen": "εσένα"
+   },
+   "2pl": {
+    "nom": "εσείς",
+    "acc": "εσάς",
+    "gen": "εσάς"
+   },
+   "3sg": {
+    "nom": {
+     "m": "αυτός",
+     "f": "αυτή",
+     "n": "αυτό"
+    },
+    "acc": {
+     "m": "αυτόν",
+     "f": "αυτή(ν)",
+     "n": "αυτό"
+    },
+    "gen": {
+     "m": "αυτού",
+     "f": "αυτής",
+     "n": "αυτού"
+    }
+   },
+   "3pl": {
+    "nom": {
+     "m": "αυτοί",
+     "f": "αυτές",
+     "n": "αυτά"
+    },
+    "acc": {
+     "m": "αυτούς",
+     "f": "αυτές",
+     "n": "αυτά"
+    },
+    "gen": {
+     "m": "αυτών",
+     "f": "αυτών",
+     "n": "αυτών"
+    }
+   }
+  },
+  "notes": [
+   "1st/2nd-person accusative forms lose their initial vowel after the prepositions από, για: για μένα 'for me'. The initial vowel of the 1st/2nd nominatives is often dropped in rapid speech after a word ending in a vowel (apostrophe): Ξέρω 'γώ.",
+   "3rd person = also the demonstrative 'this' (§4.3); declines like -ος, -η, -ο adjectives, except that final -ν is often added to masc. and fem. accusative singular. τούτος and εκείνος decline alike and can be 3rd-person pronouns too.",
+   "Colloquial alternative genitives of the 3rd person: masc./neut. sg. αυτουνού, fem. sg. αυτηνής, plural αυτωνών (all genders)."
+  ],
+  "examples": [
+   {
+    "el": "Εσύ το είπες!",
+    "en": "You said it!"
+   },
+   {
+    "el": "Εγώ δεν θέλω να πάω.",
+    "en": "(As for me,) I don't want to go."
+   },
+   {
+    "el": "Εσάς είδαμε!",
+    "en": "We saw you (pl.)!"
+   },
+   {
+    "el": "Εμένα δώσ' το!",
+    "en": "Give it to me!"
+   },
+   {
+    "el": "Το έκανα γι' αυτόν.",
+    "en": "I did it for him."
+   },
+   {
+    "el": "ένας από μας",
+    "en": "one of us"
+   },
+   {
+    "el": "– Ποιος το θέλει; – Εγώ!",
+    "en": "'Who wants it?' 'Me!'"
+   },
+   {
+    "el": "εμείς οι Έλληνες",
+    "en": "we Greeks"
+   }
+  ]
+ },
+ "demonstratives": {
+  "section": "4.3",
+  "forms": [
+   "αυτός, -ή, -ό 'this' (near speaker; most common)",
+   "τούτος, -η, -ο 'this' (close to speaker; least common)",
+   "εκείνος, -η, -ο 'that' (distant from speaker)"
+  ],
+  "rule": "All decline like -ος, -η, -ο adjectives (§3.33). They are strong 3rd-person pronouns or true demonstratives, as pronoun or determiner. As determiner the noun must have the definite article and the demonstrative stands outside article + noun: demonstrative + article + noun for something present; in writing it may follow the noun when referring back. αυτός and εκείνος can head a relative clause.",
+  "examples": [
+   {
+    "el": "Θέλω αυτό, όχι εκείνο.",
+    "en": "I want this one, not that one."
+   },
+   {
+    "el": "Μου αρέσει αυτή η ομπρέλα.",
+    "en": "I like this umbrella."
+   },
+   {
+    "el": "Εκείνο το παιδί όλο παίζει.",
+    "en": "That child is always playing."
+   },
+   {
+    "el": "Θυμάμαι το πρώτο μας σπίτι. Το σπίτι αυτό βρισκόταν στο κέντρο της πόλης.",
+    "en": "I remember our first house. This house was in the centre of town."
+   },
+   {
+    "el": "Αυτός που ήρθε χθες ήταν περίεργος άνθρωπος.",
+    "en": "The one who came yesterday was a strange man."
+   },
+   {
+    "el": "Εκείνοι που λένε τέτοια πράγματα θα έπρεπε να τιμωρηθούν.",
+    "en": "Those who say such things ought to be punished."
+   }
+  ],
+  "qualitative": {
+   "form": "τέτοιος, -α, -ο",
+   "gloss": "such, of that kind",
+   "declines_like": "-ος, -α, -ο adjectives (§3.34)",
+   "rule": "Pronoun or determiner; also in κάτι τέτοιο 'something like that'.",
+   "examples": [
+    {
+     "el": "Δεν είχαμε τέτοιους στα νιάτα μου.",
+     "en": "We didn't have people like that in my youth."
+    },
+    {
+     "el": "Θέλω ένα τέτοιο.",
+     "en": "I want one like that."
+    },
+    {
+     "el": "Δεν έχουμε τέτοια πράγματα.",
+     "en": "We don't have such things."
+    }
+   ]
+  },
+  "quantitative": {
+   "form": "τόσος, -η, -ο",
+   "gloss": "so much/many",
+   "declines_like": "-ος, -η, -ο adjectives (§3.33)",
+   "rule": "Pronoun or determiner. 'So much/many' can also be adverb τόσο + the appropriate form of πολύς, or both τόσος and πολύς are declined.",
+   "examples": [
+    {
+     "el": "Ήρθαν τόσοι σήμερα!",
+     "en": "So many came today!"
+    },
+    {
+     "el": "Μη βάζεις τόση ζάχαρη!",
+     "en": "Don't put in so much sugar!"
+    },
+    {
+     "el": "τόσο/τόσα πολλά σπίτια",
+     "en": "so many houses"
+    }
+   ]
+  }
+ },
+ "possessives": {
+  "section": "4.4",
+  "rule": "The weak genitive pronoun is the non-emphatic possessive (§4.1). Emphatic possessive δικός + weak genitive is both pronoun and determiner; it contrasts persons or emphasizes ('my own'). δικός agrees in gender, number, case with the thing possessed; declined like -ος, -η, -ο (§3.33), with colloquial feminine alternative δικιά (like -ος, -ια, -ο, §3.35). It takes the definite article in definite phrases and none in indefinite ones. Used attributively, predicatively or after a preposition.",
+  "forms": [
+   {
+    "form": "(ο, η, το) δικός, -ή, -ό μου",
+    "gloss": "my, mine, my own"
+   },
+   {
+    "form": "(ο, η, το) δικός, -ή, -ό σου",
+    "gloss": "your, yours (one possessor)"
+   },
+   {
+    "form": "(ο, η, το) δικός, -ή, -ό του",
+    "gloss": "his, his own (its, non-human possessor)"
+   },
+   {
+    "form": "(ο, η, το) δικός, -ή, -ό της",
+    "gloss": "her, hers (its, non-human possessor)"
+   },
+   {
+    "form": "(ο, η, το) δικός, -ή, -ό μας",
+    "gloss": "our, ours"
+   },
+   {
+    "form": "(ο, η, το) δικός, -ή, -ό σας",
+    "gloss": "your, yours (several, or polite plural)"
+   },
+   {
+    "form": "(ο, η, το) δικός, -ή, -ό τους",
+    "gloss": "their, theirs"
+   }
+  ],
+  "examples": [
+   {
+    "el": "Το δικό μας σπίτι είναι παλιό.",
+    "en": "Our house is old."
+   },
+   {
+    "el": "Δεν έχει δικό της σπίτι.",
+    "en": "She hasn't got a house of her own."
+   },
+   {
+    "el": "Το τελευταίο σπίτι είναι το δικό μας.",
+    "en": "The last house is ours (the one where we live)."
+   },
+   {
+    "el": "Το τελευταίο σπίτι είναι δικό μας.",
+    "en": "The last house is ours (it belongs to us)."
+   },
+   {
+    "el": "Πάμε στο σπίτι σου ή στο δικό μου;",
+    "en": "Shall we go to your house or mine?"
+   }
+  ]
+ },
+ "interrogatives": {
+  "section": "4.5",
+  "rule": "Three interrogative pronouns/determiners: ποιος 'who?, which?', τι 'what?' and πόσος 'how much?'. τι is indeclinable and modifies nouns of any gender, number or case. πόσος declines like -ος, -η, -ο (§3.33). ποιος declines like -ος, -α, -ο (§3.34) except masc. (sometimes fem. sg.) accusative adds -ν; extended genitives are colloquial.",
+  "ποιος": {
+   "sg": {
+    "nom": {
+     "m": "ποιος",
+     "f": "ποια",
+     "n": "ποιο"
+    },
+    "acc": {
+     "m": "ποιον",
+     "f": "ποια(ν)",
+     "n": "ποιο"
+    },
+    "gen": {
+     "m": "ποιου/ποιανού",
+     "f": "ποιας/ποιανής",
+     "n": "ποιου/ποιανού"
+    }
+   },
+   "pl": {
+    "nom": {
+     "m": "ποιοι",
+     "f": "ποιες",
+     "n": "ποια"
+    },
+    "acc": {
+     "m": "ποιους",
+     "f": "ποιες",
+     "n": "ποια"
+    },
+    "gen": {
+     "m": "ποιων/ποιανών",
+     "f": "ποιων/ποιανών",
+     "n": "ποιων/ποιανών"
+    }
+   }
+  },
+  "note": "For 'whose?' τίνος is often used instead of the genitive singular masc./neut. (not fem.); genitive plural τίνων (all genders). Direct and indirect question use: §10.6, §10.10."
+ },
+ "indefinites": {
+  "section": "4.6",
+  "rule": "Two kinds: specific ('someone', 'something') and non-specific ('anyone', 'anything', 'no one', 'nothing').",
+  "specific": {
+   "forms": [
+    "κάποιος, -α, -ο (like §3.34 adjectives; masc. acc. sg. κάποιον)",
+    "κάτι (indeclinable)"
+   ],
+   "rule": "κάποιος can be a determiner with nouns of any number, gender or case. κάτι can be a determiner with plural nouns of any gender/case meaning 'some'; it may be followed by determiners (κάτι άλλο, κάτι τέτοιο, κάτι δικό μου) or an adjective, which normally takes the article (κάτι το ωραίο).",
+   "examples": [
+    {
+     "el": "Κάποιος έρχεται.",
+     "en": "Someone's coming."
+    },
+    {
+     "el": "Είδα κάποιον να έρχεται.",
+     "en": "I saw someone coming."
+    },
+    {
+     "el": "Κάτι λείπει.",
+     "en": "Something's missing."
+    },
+    {
+     "el": "κάποια δασκάλα",
+     "en": "some (female) teacher or other"
+    },
+    {
+     "el": "κάποια έργα",
+     "en": "some plays/films (or other)"
+    },
+    {
+     "el": "κάτι φίλοι μου",
+     "en": "some friends of mine"
+    }
+   ]
+  },
+  "non_specific": {
+   "forms": [
+    "κανείς/κανένας 'any(one), no (one)' (singular only)",
+    "τίποτα or τίποτε 'any(thing), no(thing)' (indeclinable)"
+   ],
+   "κανένας": {
+    "sg": {
+     "nom": {
+      "m": "κανείς/κανένας",
+      "f": "καμιά/καμία",
+      "n": "κανένα"
+     },
+     "acc": {
+      "m": "κανένα(ν)",
+      "f": "καμιά(ν)/καμία(ν)",
+      "n": "κανένα"
+     },
+     "gen": {
+      "m": "κανενός",
+      "f": "καμιάς/καμίας",
+      "n": "κανενός"
+     }
+    }
+   },
+   "notes": [
+    "Fem. forms with stressed -ι- (καμιά etc.) are more emphatic.",
+    "Final -ν may be added to masc./fem. acc. sg. before a vowel or voiceless plosive; κανέναν is the normal masc. acc. sg. as pronoun (no noun).",
+    "Colloquially neuter κανένα may shorten to κάνα, only as determiner or in the compound καναδυό.",
+    "κανείς is also a slightly more formal alternative to κανένας, and (formal) means 'one' (indefinite subject in a non-negative clause), normally right after the verb; colloquial equivalent is 2nd sg. of the verb: Εύκολα βλέπει κανείς τα φριχτά αποτελέσματα του πολέμου."
+   ],
+   "use": "Used in questions, negatives and other non-assertive clauses (subjunctive, conditional, imperative). With a verb in a negative sense the verb needs δεν or μην. They can also stand alone as negative answers. In positive statements they mean roughly 'about one'. καμιά φορά = 'occasionally'; καμιά is used with approximate numerals (καμιά δωδεκαριά 'about a dozen', §5.4); καναδυό (colloquial, = κανένα δύο) 'one or two'. τίποτα can take determiners or an adjective: τίποτ' άλλο, τίποτα τέτοιο, τίποτα το ωραίο.",
+   "examples": [
+    {
+     "el": "Εμφανίστηκε κανένας;",
+     "en": "Did anyone show up?"
+    },
+    {
+     "el": "Είπες τίποτα;",
+     "en": "Did you say anything?"
+    },
+    {
+     "el": "Κανένας δεν εμφανίστηκε.",
+     "en": "Nobody showed up."
+    },
+    {
+     "el": "Μη στείλεις κανέναν εδώ.",
+     "en": "Don't send anyone here."
+    },
+    {
+     "el": "Δεν είπα τίποτα.",
+     "en": "I didn't say anything."
+    },
+    {
+     "el": "Προτιμώ να μην πεις τίποτα.",
+     "en": "I prefer you to say nothing."
+    },
+    {
+     "el": "– Ποιος ήρθε σήμερα; – Κανένας.",
+     "en": "'Who came today?' 'Nobody.'"
+    },
+    {
+     "el": "– Τι θέλεις; – Τίποτα.",
+     "en": "'What do you want?' 'Nothing.'"
+    },
+    {
+     "el": "Ίσως να σε δει κανένας δάσκαλος.",
+     "en": "Perhaps a teacher will see you."
+    },
+    {
+     "el": "Αν σε δει κανένας δάσκαλος, θα σε αναφέρει.",
+     "en": "If a teacher sees you, he'll report you."
+    },
+    {
+     "el": "Για ρώτα κανένα δάσκαλο.",
+     "en": "Ask a teacher."
+    },
+    {
+     "el": "Περιμέναμε καμιά ώρα.",
+     "en": "We waited about an hour."
+    }
+   ]
+  }
+ },
+ "relatives": {
+  "section": "4.7",
+  "particle_pou": {
+   "rule": "The basic relative is the indeclinable που: it does not agree with the noun and does not distinguish human from non-human. A Greek relative clause must begin with the relative word; unlike English it cannot be omitted as object. που can introduce any relative clause (§10.9).",
+   "examples": [
+    {
+     "el": "Ο άνθρωπος που ήρθε είναι ο αδελφός μου.",
+     "en": "The man who came is my brother."
+    },
+    {
+     "el": "Ο άνθρωπος που είδες είναι ο αδελφός μου.",
+     "en": "The man (whom) you saw is my brother."
+    },
+    {
+     "el": "Το δέντρο που φυτρώνει στην αυλή μου είναι πορτοκαλιά.",
+     "en": "The tree that is growing in my back yard is an orange."
+    },
+    {
+     "el": "Το δέντρο που είδες είναι πορτοκαλιά.",
+     "en": "The tree (that) you saw is an orange."
+    }
+   ]
+  },
+  "ο οποίος": {
+   "rule": "The alternative, more complex relative: definite article + οποίος; both inflect for gender and number (agreeing with the modified noun) and for case (matching the function inside the relative clause). οποίος declines like -ος, -α, -ο (§3.34). Always has the article and is stressed on the last-but-one syllable. See §10.9."
+  },
+  "correlatives_free_relatives": [
+   {
+    "form": "όποιος, -α, -ο",
+    "gloss": "whoever (declines like §3.34; masc. acc. sg. όποιον; not to be confused with ο οποίος)"
+   },
+   {
+    "form": "οποιοσδήποτε, fem. οποιαδήποτε, neut. οποιοδήποτε",
+    "gloss": "whoever (stronger than όποιος)"
+   },
+   {
+    "form": "ό,τι (indeclinable)",
+    "gloss": "that which, what, whatever (comma distinguishes it from complementizer ότι and interrogative τι)"
+   },
+   {
+    "form": "οτιδήποτε (indeclinable)",
+    "gloss": "whatever (stronger than ό,τι)"
+   },
+   {
+    "form": "όσος, -η, -ο",
+    "gloss": "as much/many as, however much; (pl.) those which (declines like §3.33)"
+   },
+   {
+    "form": "οσοσδήποτε, fem. οσηδήποτε, neut. οσοδήποτε",
+    "gloss": "same as όσος, but stronger"
+   }
+  ],
+  "note": "The correlatives are used as pronouns or determiners in free relative clauses that do not modify a noun (§10.9.2)."
+ },
+ "universals": {
+  "section": "4.8",
+  "καθένας": {
+   "gloss": "every one, each one (mainly pronoun; inflected like ένας and κανένας)",
+   "sg": {
+    "nom": {
+     "m": "καθένας",
+     "f": "καθεμιά/καθεμία",
+     "n": "καθένα"
+    },
+    "acc": {
+     "m": "καθένα(ν)",
+     "f": "καθεμιά/καθεμία",
+     "n": "καθένα"
+    },
+    "gen": {
+     "m": "καθενός",
+     "f": "καθεμιάς/καθεμίας",
+     "n": "καθενός"
+    }
+   }
+  },
+  "καθετί": "'each thing', indeclinable; both καθένας and καθετί may optionally take the definite article.",
+  "κάθε": "'each, every': indeclinable determiner used with singular nouns only; the article is optional (§7.1 for time expressions).",
+  "examples": [
+   {
+    "el": "Το ξέρει ο καθένας μας.",
+    "en": "Each one of us knows it."
+   },
+   {
+    "el": "Παραπονιέται με το καθετί.",
+    "en": "(S)he complains about every single thing."
+   },
+   {
+    "el": "Προσέχει (την) κάθε λέξη.",
+    "en": "(S)he takes care over every word."
+   }
+  ]
+ },
+ "other": {
+  "section": "4.9",
+  "ίδιος": {
+   "declines_like": "-ος, -α, -ο (§3.34)",
+   "rule": "Always with the definite article. As pronoun ο ίδιος means 'the same' or '(my)self'. As a determiner immediately before the noun it means 'the same'; when the article is repeated before the noun, or after a strong pronoun, it means 'myself/yourself' etc. Without the article ίδιος means 'identical, alike'.",
+   "examples": [
+    {
+     "el": "Τα ίδια είναι.",
+     "en": "They're the same (things)."
+    },
+    {
+     "el": "Θέλω να μιλήσω με την ίδια.",
+     "en": "I want to speak with her in person."
+    },
+    {
+     "el": "Έχουμε το ίδιο πρόβλημα.",
+     "en": "We have the same problem."
+    },
+    {
+     "el": "Θέλω να μιλήσω με την ίδια τη Μαρία.",
+     "en": "I want to speak to Mary herself."
+    },
+    {
+     "el": "Εσύ ο ίδιος το είπες.",
+     "en": "You yourself said it."
+    },
+    {
+     "el": "Όλες οι καρέκλες είναι ίδιες.",
+     "en": "All the chairs are alike."
+    }
+   ]
+  },
+  "μόνος": {
+   "declines_like": "-ος, -η, -ο (§3.33)",
+   "rule": "With or without a noun, typically 'only'. With a genitive weak pronoun it means 'by myself/yourself…' (without company or help).",
+   "examples": [
+    {
+     "el": "Ήταν ο μόνος φοιτητής που ήρθε.",
+     "en": "He was the only student who came."
+    },
+    {
+     "el": "Ήταν ο μόνος που ήρθε.",
+     "en": "He was the only one who came."
+    },
+    {
+     "el": "Μένει μόνη της.",
+     "en": "She lives on her own."
+    },
+    {
+     "el": "Μόνη της το έκανε.",
+     "en": "She did it by herself."
+    }
+   ]
+  },
+  "άλλος": {
+   "declines_like": "-ος, -η, -ο, with emphatic genitives: masc./neut. sg. αλλουνού, fem. sg. αλληνής, plural (all genders) αλλωνών",
+   "gloss": "other, next (sometimes 'previous')",
+   "rules": [
+    "May recur in one sentence for 'some… others…'.",
+    "After κάποιος, κανένας, ποιος, όποιος it means 'else': κάποιος άλλος 'someone else', κανένας άλλος 'nobody else', ποιος άλλος 'who else', όποιος άλλος 'whoever else'.",
+    "With a numeral it may precede or follow it with different meanings.",
+    "άλλος τόσος = 'as much again' (twice as much).",
+    "Reciprocal: ο ένας τον άλλο 'each other' (§10.24)."
+   ],
+   "examples": [
+    {
+     "el": "τα άλλα παιδιά",
+     "en": "the other children"
+    },
+    {
+     "el": "την άλλη φορά",
+     "en": "the next/previous time"
+    },
+    {
+     "el": "Άλλοι ήρθαν, άλλοι όχι.",
+     "en": "Some came, others didn't."
+    },
+    {
+     "el": "άλλο ένα μπουκάλι",
+     "en": "one more bottle"
+    },
+    {
+     "el": "ένα άλλο μπουκάλι",
+     "en": "a different bottle"
+    },
+    {
+     "el": "Αν είχαμε άλλα τόσα λεφτά θα μπορούσαμε να αγοράσουμε το σπίτι.",
+     "en": "If we had twice as much money, we could buy the house."
+    }
+   ]
+  }
+ },
+ "quantifiers": {
+  "section": "4.10",
+  "rule": "Quantifiers express quantity, not number. όλος 'all' and ολόκληρος '(the) whole' decline like -ος, -η, -ο (§3.33). With a noun they are accompanied by the article and stand outside article + noun (like demonstratives). Plural όλοι = 'everyone'/'all of them'; neuter όλα = 'everything'.",
+  "examples_all": [
+   {
+    "el": "όλος ο κόσμος",
+    "en": "all the world/everyone"
+   },
+   {
+    "el": "Έφαγε την πίτα ολόκληρη.",
+    "en": "(S)he/it ate the whole pie."
+   },
+   {
+    "el": "Ήρθαν όλοι.",
+    "en": "Everyone came."
+   },
+   {
+    "el": "Τα κατάλαβα όλα.",
+    "en": "I understood everything."
+   }
+  ],
+  "list": [
+   {
+    "form": "πολύς",
+    "gloss": "much, a lot of, too much; (pl.) many, too many; comparative περισσότερος 'more' (no distinction between much/many and too much/many)"
+   },
+   {
+    "form": "αρκετός",
+    "gloss": "quite a lot of"
+   },
+   {
+    "form": "κάμποσος (less commonly καμπόσος)",
+    "gloss": "quite a few"
+   },
+   {
+    "form": "μπόλικος",
+    "gloss": "plenty of"
+   },
+   {
+    "form": "μερικοί",
+    "gloss": "some (plural only)"
+   },
+   {
+    "form": "λίγος",
+    "gloss": "(a) little, (pl.) (a) few; comparative λιγότερος 'less; (pl.) fewer'"
+   },
+   {
+    "form": "ελάχιστος",
+    "gloss": "very little; (pl.) very few"
+   },
+   {
+    "form": "ο υπόλοιπος",
+    "gloss": "the rest of (always with the article)"
+   },
+   {
+    "form": "ένα σωρό",
+    "gloss": "a whole load of (colloquial; indeclinable; originally acc. 'a pile')"
+   }
+  ],
+  "note": "All except ένα σωρό inflect like -ος, -η, -ο adjectives except πολύς (§3.38).",
+  "examples": [
+   {
+    "el": "Ήρθαν ένα σωρό Ιταλοί.",
+    "en": "A whole load of Italians came."
+   },
+   {
+    "el": "το υπόλοιπο αλεύρι",
+    "en": "the rest of the flour"
+   },
+   {
+    "el": "οι υπόλοιπες μαθήτριες",
+    "en": "the rest of the schoolgirls"
+   }
+  ],
+  "adverbs": [
+   {
+    "form": "πολύ",
+    "gloss": "very (with positive adjectives), much (with comparatives), a lot; comparative περισσότερο 'more'"
+   },
+   {
+    "form": "αρκετά",
+    "gloss": "quite (a bit)"
+   },
+   {
+    "form": "λίγο",
+    "gloss": "a little, a bit; comparative λιγότερο 'less'"
+   },
+   {
+    "form": "ελάχιστα",
+    "gloss": "very little, hardly (with adjectives)"
+   }
+  ],
+  "adverbs_see": "§7.1"
+ },
+ "stopped_at": "Ch. 4 complete (§4.1-4.10, PDF p. 44). Ch. 5 numerals in numerals.json."
+}

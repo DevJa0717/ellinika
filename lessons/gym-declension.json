@@ -1,0 +1,36 @@
+{
+ "el": "Γυμναστήριο κλίσης",
+ "title": "Declension gym",
+ "section": "Daily · 10 minutes",
+ "goal": "A mixed daily drill: earlier misses first, then fresh nouns and adjectives from every class.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Declension is the skill that only automaticity fixes, so this set is built to be run every day. It starts with forms you got wrong before (they come back after 1, 3, 7, 21, 60 and 120 days), then adds new nouns from all of Holton's classes and adjectives in agreement with a noun.\n\nEvery item is built by analogy with a model word from the grammar, so the explanation tells you which model to think of. Type the form with or without the article."
+  },
+  {
+   "type": "callout",
+   "text": "**Three questions for any noun.** What gender and class is it (look at the nominative and article)? Does the class add a syllable in the plural (παπάς → παπάδες, μάθημα → μαθήματα)? Does the stress move in the genitive? Answer those and the form follows."
+  }
+ ],
+ "practice": [
+  {
+   "gen": "review",
+   "tag": "decl",
+   "n": 10
+  },
+  {
+   "gen": "decline",
+   "n": 14
+  },
+  {
+   "gen": "adj-agree",
+   "ids": [
+    "ψηλός",
+    "τέλειος",
+    "γλυκός"
+   ],
+   "n": 6
+  }
+ ]
+}

@@ -1,0 +1,465 @@
+{
+ "el": "Άρνηση και ερωτήσεις",
+ "title": "δεν, μην, questions and question words",
+ "section": "A1 · Holton §10.5-10.7",
+ "goal": "Negate any verb correctly and ask yes/no and wh- questions.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Greek questions need no inversion and no auxiliary: intonation alone turns a statement into a question, and the question mark is written **;**. Negation has two words, and choosing between them is a matter of mood: **δεν** with the indicative (statements, θα-futures), **μην** with the subjunctive (after να, ας) and in prohibitions."
+  },
+  {
+   "type": "table",
+   "title": "Question words",
+   "head": [
+    "Greek",
+    "Meaning",
+    "Note"
+   ],
+   "rows": [
+    [
+     "ποιος, ποια, ποιο",
+     "who? which?",
+     "declines: ποιον, ποιας/ποιανής, ποιου"
+    ],
+    [
+     "τι",
+     "what?",
+     "indeclinable"
+    ],
+    [
+     "πού",
+     "where?",
+     "accented; που = that, who"
+    ],
+    [
+     "πώς",
+     "how?",
+     "accented; πως = that"
+    ],
+    [
+     "πότε",
+     "when?",
+     "ποτέ = never"
+    ],
+    [
+     "γιατί",
+     "why? / because",
+     "the same word answers"
+    ],
+    [
+     "πόσος, -η, -ο",
+     "how much, how many?",
+     "declines like an adjective"
+    ],
+    [
+     "πόσο",
+     "how much? (adv.)",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "rules",
+   "title": "Yes/no and wh- questions",
+   "items": [
+    "Intonation only marks a yes/no question: Έχεις νέα; 'Do you have news?'",
+    "μήπως softens or hedges: Μήπως ξέρεις...; 'Do you happen to know...?'",
+    "A preposition stays in front of its question word, never at the end: Με ποιον μίλησες; 'Who did you talk to?'"
+   ],
+   "cite": "Holton §10.5-10.6"
+  },
+  {
+   "type": "examples",
+   "title": "Examples",
+   "src": "grammar/clauses.json#sections[section=10.6].examples",
+   "limit": 5,
+   "cite": "Holton §10.6"
+  },
+  {
+   "type": "rules",
+   "title": "δεν or μην?",
+   "items": [
+    "**δεν** + indicative: Δεν ξέρω. Δεν θα έρθει (δεν stands before θα).",
+    "**μην** after να or ας: Να μην αργήσεις. Ας μην πάμε.",
+    "**μην** in prohibitions, with or without να: Μην το αγγίζεις! (Να) μη φύγεις!",
+    "**μη(ν)**: the ν is kept before a vowel and κ, π, τ, γκ, μπ, ντ, ξ, ψ, like τη(ν).",
+    "Standing alone, 'no' to a suggestion is όχι; an answer to a negative question uses ναι/όχι as in English."
+   ],
+   "cite": "Holton §10.7.1, §9.3.3"
+  },
+  {
+   "type": "culture",
+   "title": "Ναι, όχι and the head toss",
+   "text": "Two traps for English speakers. **Ναι** 'yes' sounds like *nay*, and **όχι** 'no' has no n in it. Then there is the body language: a quick upward toss of the head, often with raised eyebrows and a click of the tongue, means **όχι**, and can look like a nod to foreigners. 'Yes' is a small downward nod, often tilted. Colloquial no's include **μπα** 'nah' and the flat **Όχι, ρε!** In formal answers you hear **μάλιστα** 'yes, certainly'. Negative words need δεν as well: **Δεν ξέρω τίποτα** 'I know nothing', **Δεν ήρθε κανείς** 'Nobody came'."
+  },
+  {
+   "type": "examples",
+   "title": "Negation in use",
+   "src": "grammar/clauses.json#sections[section=10.7].subsections[section=10.7.1].examples",
+   "cite": "Holton §10.7.1"
+  }
+ ],
+ "practice": [
+  {
+   "gen": "mc",
+   "n": 12,
+   "items": [
+    {
+     "prompt": "___ ξέρω τι να κάνω.",
+     "answer": "Δεν",
+     "options": [
+      "Δεν",
+      "Μην",
+      "Όχι"
+     ],
+     "why": "Indicative statement: δεν."
+    },
+    {
+     "prompt": "Να ___ αργήσεις!",
+     "answer": "μην",
+     "options": [
+      "μην",
+      "δεν",
+      "όχι"
+     ],
+     "why": "After να: μην."
+    },
+    {
+     "prompt": "___ το αγγίζεις!",
+     "answer": "Μην",
+     "options": [
+      "Μην",
+      "Δεν",
+      "Όχι"
+     ],
+     "why": "A prohibition takes μην."
+    },
+    {
+     "prompt": "Ο Κώστας ___ θα έρθει αύριο.",
+     "answer": "δεν",
+     "options": [
+      "δεν",
+      "μην",
+      "θα δεν"
+     ],
+     "why": "δεν stands before θα."
+    },
+    {
+     "prompt": "___ μένεις; Στην Αθήνα.",
+     "answer": "Πού",
+     "options": [
+      "Πού",
+      "Που",
+      "Πώς",
+      "Πότε"
+     ],
+     "why": "Asking about place: accented πού."
+    },
+    {
+     "prompt": "___ είσαι; Καλά, ευχαριστώ.",
+     "answer": "Πώς",
+     "options": [
+      "Πώς",
+      "Πως",
+      "Τι",
+      "Ποιος"
+     ]
+    },
+    {
+     "prompt": "___ φεύγει το τρένο; Στις οκτώ.",
+     "answer": "Πότε",
+     "options": [
+      "Πότε",
+      "Ποτέ",
+      "Πού",
+      "Πόσο"
+     ]
+    },
+    {
+     "prompt": "___ κοστίζει; Δέκα ευρώ.",
+     "answer": "Πόσο",
+     "options": [
+      "Πόσο",
+      "Πόσος",
+      "Τι",
+      "Πώς"
+     ],
+     "why": "πόσο as an adverb: how much?"
+    },
+    {
+     "prompt": "Με ___ μίλησες;",
+     "answer": "ποιον",
+     "options": [
+      "ποιον",
+      "ποιος",
+      "ποιου",
+      "που"
+     ],
+     "why": "After a preposition the accusative: ποιον."
+    },
+    {
+     "prompt": "___ δεν ήρθες; ___ ήμουν άρρωστος.",
+     "answer": "Γιατί … Γιατί",
+     "options": [
+      "Γιατί … Γιατί",
+      "Πώς … Γιατί",
+      "Γιατί … Επειδή όχι"
+     ],
+     "why": "γιατί asks 'why' and answers 'because'."
+    },
+    {
+     "prompt": "Ας ___ πάμε σήμερα.",
+     "answer": "μην",
+     "options": [
+      "μην",
+      "δεν",
+      "μη δεν"
+     ],
+     "why": "After ας: μην."
+    },
+    {
+     "prompt": "How do you say 'I never drink coffee'?",
+     "answer": "Δεν πίνω ποτέ καφέ.",
+     "options": [
+      "Δεν πίνω ποτέ καφέ.",
+      "Πίνω ποτέ καφέ.",
+      "Δεν πίνω πότε καφέ."
+     ],
+     "why": "ποτέ 'never' still needs δεν with the verb (negative concord)."
+    },
+    {
+     "prompt": "___ ξέρεις πού είναι ο σταθμός;",
+     "answer": "Μήπως",
+     "options": [
+      "Μήπως",
+      "Μην",
+      "Δεν"
+     ],
+     "why": "μήπως makes a polite, hedged question."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "___ βιβλίο θέλεις;",
+     "answer": "Ποιο",
+     "options": [
+      "Ποιο",
+      "Ποιος",
+      "Ποια",
+      "Ποιον"
+     ],
+     "why": "ποιος declines like an adjective and agrees with its noun: το βιβλίο → ποιο."
+    },
+    {
+     "prompt": "___ είναι η Μαρία; Η αδερφή μου.",
+     "answer": "Ποια",
+     "options": [
+      "Ποια",
+      "Ποιο",
+      "Ποιον"
+     ],
+     "why": "Feminine subject: ποια."
+    },
+    {
+     "prompt": "Ξέρω ___ θα έρθει. 'that'",
+     "answer": "πως",
+     "options": [
+      "πως",
+      "πώς",
+      "πού"
+     ],
+     "why": "Unaccented πως means 'that'; πώς asks 'how?'."
+    },
+    {
+     "prompt": "Θέλεις καφέ; ___, ευχαριστώ.",
+     "answer": "Όχι",
+     "options": [
+      "Όχι",
+      "Δεν",
+      "Μην"
+     ],
+     "why": "Standing alone, 'no' is όχι; δεν and μην only go with a verb."
+    },
+    {
+     "prompt": "___ έρθεις αργά!",
+     "answer": "Να μην",
+     "options": [
+      "Να μην",
+      "Να δεν",
+      "Δεν να"
+     ],
+     "why": "After να the negative is μην, placed between να and the verb."
+    },
+    {
+     "prompt": "Δεν ήρθε ___. 'Nobody came.'",
+     "answer": "κανείς",
+     "options": [
+      "κανείς",
+      "κάποιος",
+      "ποιος"
+     ],
+     "why": "Negative concord: δεν + κανείς 'nobody'."
+    },
+    {
+     "prompt": "Δεν θέλω ___. 'I don't want anything.'",
+     "answer": "τίποτα",
+     "options": [
+      "τίποτα",
+      "κάτι",
+      "τι"
+     ],
+     "why": "With δεν, 'anything / nothing' is τίποτα."
+    },
+    {
+     "prompt": "___ χρονών είσαι; 'How old are you?'",
+     "answer": "Πόσων",
+     "options": [
+      "Πόσων",
+      "Πόσους",
+      "Πόσα"
+     ],
+     "why": "The idiom uses the genitive plural: πόσων χρονών."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say in Greek: *I'm not coming tomorrow.*",
+     "answer": "Δεν έρχομαι αύριο",
+     "accept": [
+      "Δεν έρχομαι αύριο",
+      "Αύριο δεν έρχομαι",
+      "Δεν θα έρθω αύριο",
+      "Δε θα έρθω αύριο",
+      "Αύριο δεν θα έρθω",
+      "Αύριο δε θα έρθω"
+     ],
+     "why": "Indicative (present or θα-future): δεν, which stands before θα."
+    },
+    {
+     "prompt": "Say in Greek to a friend: *Don't leave!*",
+     "answer": "Μη φύγεις",
+     "accept": [
+      "Μη φύγεις",
+      "Μην φύγεις",
+      "Να μη φύγεις",
+      "Να μην φύγεις"
+     ],
+     "why": "A prohibition takes μη(ν), with or without να."
+    },
+    {
+     "prompt": "Say in Greek: *Where is the station?*",
+     "answer": "Πού είναι ο σταθμός",
+     "accept": [
+      "Πού είναι ο σταθμός",
+      "Ο σταθμός πού είναι"
+     ],
+     "why": "Accented πού asks about place; no inversion needed."
+    },
+    {
+     "prompt": "Say in Greek: *When does the train leave?*",
+     "answer": "Πότε φεύγει το τρένο",
+     "accept": [
+      "Πότε φεύγει το τρένο",
+      "Το τρένο πότε φεύγει"
+     ],
+     "why": "πότε 'when?', stressed on the first syllable."
+    },
+    {
+     "prompt": "Say in Greek: *How much does it cost?*",
+     "answer": "Πόσο κοστίζει",
+     "accept": [
+      "Πόσο κοστίζει",
+      "Πόσο κάνει",
+      "Πόσο έχει"
+     ],
+     "why": "Adverb πόσο; Πόσο κάνει; is the everyday shop version."
+    },
+    {
+     "prompt": "Say in Greek to a friend: *Who are you talking to?*",
+     "answer": "Με ποιον μιλάς",
+     "accept": [
+      "Με ποιον μιλάς",
+      "Σε ποιον μιλάς"
+     ],
+     "why": "The preposition stays in front of the question word, which goes into the accusative."
+    },
+    {
+     "prompt": "Say in Greek to a friend: *Why aren't you eating?* (τρως)",
+     "answer": "Γιατί δεν τρως",
+     "accept": [
+      "Γιατί δεν τρως"
+     ],
+     "why": "γιατί 'why?' + δεν + indicative."
+    },
+    {
+     "prompt": "Θέλω να ___ αργήσεις. (negate)",
+     "answer": "μην",
+     "accept": [
+      "μην",
+      "μη"
+     ],
+     "why": "After να: μην."
+    },
+    {
+     "prompt": "Say in Greek: *Do you happen to have a pen?* (μήπως, στυλό)",
+     "answer": "Μήπως έχεις στυλό",
+     "accept": [
+      "Μήπως έχεις στυλό",
+      "Μήπως έχεις ένα στυλό",
+      "Έχεις μήπως στυλό",
+      "Έχεις μήπως ένα στυλό"
+     ],
+     "why": "μήπως softens a question into 'by any chance'."
+    },
+    {
+     "prompt": "Say in Greek: *We never go there.* (εκεί)",
+     "answer": "Δεν πάμε ποτέ εκεί",
+     "accept": [
+      "Δεν πάμε ποτέ εκεί",
+      "Ποτέ δεν πάμε εκεί",
+      "Εκεί δεν πάμε ποτέ",
+      "Δεν πάμε εκεί ποτέ"
+     ],
+     "why": "ποτέ 'never' still needs δεν with the verb."
+    },
+    {
+     "prompt": "Say politely: *What would you like?* (θέλω)",
+     "answer": "Τι θέλετε",
+     "accept": [
+      "Τι θέλετε",
+      "Τι θα θέλατε"
+     ],
+     "why": "Polite plural θέλετε; τι 'what?' never declines."
+    },
+    {
+     "prompt": "Ας ___ μιλάμε τώρα. (negate)",
+     "answer": "μη",
+     "accept": [
+      "μη",
+      "μην"
+     ],
+     "why": "After ας: μη(ν); before μ the ν is usually dropped."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "ξέρω",
+  "έρχομαι",
+  "φεύγω",
+  "κοστίζω",
+  "σταθμός",
+  "τρένο",
+  "ποτέ",
+  "πάντα",
+  "τίποτα",
+  "αργώ"
+ ]
+}

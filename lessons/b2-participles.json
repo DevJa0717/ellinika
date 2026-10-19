@@ -1,0 +1,524 @@
+{
+ "el": "Μετοχές σε -μένος",
+ "title": "Passive perfect participles -μένος, -μένη, -μένο, and the gerund",
+ "section": "B2 · Holton §6.16, §6.5.11",
+ "goal": "Form the -μένος participle from any transitive verb and make it agree; use the gerund in -οντας / -ώντας.",
+ "blocks": [
+  {
+   "type": "rules",
+   "src": "grammar/verbs-holton.json#sections[section=6.16].rule",
+   "cite": "Holton §6.16"
+  },
+  {
+   "type": "table",
+   "title": "From passive stem to participle",
+   "head": [
+    "Passive stem",
+    "Participle",
+    "Examples"
+   ],
+   "rows": [
+    [
+     "-στ- / -σθ-",
+     "-σμένος",
+     "κουρασμένος, καλεσμένος, ξεχασμένος, χαλασμένος, ορισμένος"
+    ],
+    [
+     "-θ- after a vowel, λ, ρ",
+     "-μένος",
+     "αγαπημένος, ντυμένος, χαμένος, δεμένος, σταλμένος, παρμένος"
+    ],
+    [
+     "-φτ- / -φθ-",
+     "-μμένος",
+     "γραμμένος, αναμμένος, θαμμένος, κρυμμένος"
+    ],
+    [
+     "-χτ- / -χθ-",
+     "-γμένος",
+     "ανοιγμένος, εκλεγμένος, αναπτυγμένος, τραβηγμένος"
+    ]
+   ]
+  },
+  {
+   "type": "rules",
+   "src": "grammar/verbs-holton.json#sections[section=6.16].notes",
+   "pick": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "cite": "Holton §6.16"
+  },
+  {
+   "type": "examples",
+   "src": "grammar/verbs-holton.json#sections[section=6.16].subsections[section=6.16.1].examples",
+   "cite": "Holton §6.16.1"
+  },
+  {
+   "type": "callout",
+   "text": "**είμαι + participle** is the resultative state, not an action: *Η πόρτα είναι κλεισμένη* 'The door is (has been) closed', *Είμαι κουρασμένος* 'I'm tired'. Compare the passive action *Η πόρτα κλείστηκε* 'The door was closed (by someone)'."
+  },
+  {
+   "type": "text",
+   "title": "The gerund (μετοχή ενεργητικού ενεστώτα)",
+   "text": "Uninflected: -ω verbs take **-οντας**, stressed on the syllable before it (γράφοντας, διαβάζοντας); stressed -ώ verbs take **-ώντας** (μιλώντας, αγαπώντας, θεωρώντας). Irregular: λέγοντας, τρώγοντας, ακούγοντας, πηγαίνοντας, κλαίγοντας, όντας (είμαι). Passive and deponent verbs have no gerund.\n\nIt expresses manner, time or cause, normally with the same subject as the main verb."
+  },
+  {
+   "type": "culture",
+   "title": "Reading a Greek flat advert",
+   "text": "Greek property listings (on sites such as spitogatos.gr or xe.gr) are strings of -μένος participles and fixed terms: **ανακαινισμένο** 'renovated', **επιπλωμένο** 'furnished', **ηλιόλουστο** 'sunny'. Two terms have no neat English equivalent. **Διαμπερές** is a through-flat with windows on opposite sides, prized for cross-ventilation in hot summers; a **ρετιρέ** is the set-back top floor with a big terrace, typical of Athenian **πολυκατοικίες** 'apartment blocks'. **Αυτόνομη θέρμανση** means you pay only for your own heating instead of sharing the building's boiler through the **κοινόχρηστα** 'common charges'."
+  },
+  {
+   "type": "examples",
+   "src": "grammar/verbs-holton.json#sections[section=6.5.11].examples",
+   "cite": "Holton §6.5.11"
+  },
+  {
+   "type": "reading",
+   "title": "Ψάχνοντας σπίτι στην Αθήνα",
+   "text": "Ψάχνοντας σπίτι στην Αθήνα, ο Νίκος έμαθε γρήγορα να διαβάζει τις αγγελίες με προσοχή. «Ανακαινισμένο δυάρι, πλήρως επιπλωμένο, κοντά στο μετρό», έγραφε η πρώτη. Πηγαίνοντας να το δει, βρήκε ένα διαμέρισμα με σπασμένα παράθυρα, τοίχους βαμμένους πριν από είκοσι χρόνια και μια κουζίνα γεμάτη χαλασμένες συσκευές. «Είναι λίγο παραμελημένο», παραδέχτηκε ο ιδιοκτήτης χαμογελώντας. «Το μπάνιο, πάντως, είναι καινούργιο», πρόσθεσε, δείχνοντας μια πόρτα κλειδωμένη. Ο Νίκος δεν ζήτησε να την ανοίξει.\n\nΤο δεύτερο σπίτι ήταν εντελώς διαφορετικό. Η πόρτα ήταν ήδη ανοιγμένη όταν έφτασε, τα φώτα αναμμένα, και στο τραπέζι υπήρχε ένα σημείωμα γραμμένο στο χέρι: «Καλώς ήρθατε! Κοιτάξτε ελεύθερα.» Όλα ήταν καθαρά και οργανωμένα: τα βιβλία τακτοποιημένα στα ράφια, τα ρούχα κρεμασμένα στις ντουλάπες, τα φυτά ποτισμένα, ακόμα και τα παπούτσια βαλμένα στη σειρά δίπλα στην πόρτα. Ήταν φανερό ότι ο ένοικος που έφευγε ήταν τακτικός άνθρωπος.\n\nΜιλώντας με την ιδιοκτήτρια στο τηλέφωνο, ο Νίκος έμαθε ότι το ενοίκιο ήταν λογικό. Δυστυχώς, όμως, το διαμέρισμα ήταν ήδη κλεισμένο από μια φοιτήτρια μέχρι τον Ιανουάριο. Ο Νίκος, ήδη ερωτευμένος με το διαμέρισμα, προσπάθησε να της αλλάξει γνώμη προσφέροντας μεγαλύτερο ενοίκιο, αλλά εκείνη είχε δώσει τον λόγο της. «Λυπάμαι πολύ», του είπε. «Αν θέλετε, κρατάω το τηλέφωνό σας γραμμένο και σας ειδοποιώ, αν αλλάξει κάτι.»\n\nΑπογοητευμένος αλλά όχι νικημένος, ο Νίκος γύρισε σπίτι περπατώντας. Κάθισε στον υπολογιστή και, πίνοντας έναν κρύο καφέ, άρχισε πάλι να διαβάζει αγγελίες. Αυτή τη φορά ήξερε τι σημαίνει πραγματικά «ανακαινισμένο».",
+   "en": "Looking for a flat in Athens, Nikos quickly learned to read the ads carefully. \"Renovated two-room flat, fully furnished, near the metro,\" said the first one. Going to see it, he found a flat with broken windows, walls painted twenty years ago and a kitchen full of broken appliances. \"It's a little neglected,\" the owner admitted with a smile. \"The bathroom is new, though,\" he added, pointing to a locked door. Nikos didn't ask him to open it.\n\nThe second place was completely different. The door was already open when he arrived, the lights were on, and on the table there was a handwritten note: \"Welcome! Feel free to look around.\" Everything was clean and organized: the books arranged on the shelves, the clothes hung in the wardrobes, the plants watered, even the shoes lined up next to the door. It was obvious that the tenant who was leaving was a tidy person.\n\nTalking to the owner on the phone, Nikos learned that the rent was reasonable. Unfortunately, though, the flat was already booked by a student until January. Nikos, already in love with the flat, tried to change her mind by offering a higher rent, but she had given her word. \"I'm very sorry,\" she told him. \"If you like, I'll keep your number written down and let you know if anything changes.\"\n\nDisappointed but not defeated, Nikos walked home. He sat down at the computer and, drinking a cold coffee, started reading ads again. This time he knew what \"renovated\" really means.",
+   "gloss": {
+    "Νίκος": "Νίκος — Nikos (man's name)",
+    "αγγελίες": "αγγελία — classified ad, listing (pl.)",
+    "αγγελία": "αγγελία — classified ad, listing",
+    "ανακαινισμένο": "ανακαινισμένος — renovated (participle of ανακαινίζω)",
+    "δυάρι": "δυάρι — two-room flat (one bedroom + living room)",
+    "πλήρως": "πλήρως — fully, completely",
+    "επιπλωμένο": "επιπλωμένος — furnished (participle of επιπλώνω)",
+    "βαμμένους": "βαμμένος — painted (participle of βάφω), acc. pl.",
+    "παραμελημένο": "παραμελημένος — neglected (participle of παραμελώ)",
+    "χαμογελώντας": "χαμογελώ — smiling (gerund)",
+    "καινούργιο": "καινούργιος — new",
+    "κλειδωμένη": "κλειδωμένος — locked (participle of κλειδώνω)",
+    "φώτα": "φως — light (pl. τα φώτα)",
+    "αναμμένα": "αναμμένος — switched on, lit (participle of ανάβω)",
+    "γραμμένο": "γραμμένος — written (participle of γράφω)",
+    "οργανωμένα": "οργανωμένος — organized (neut. pl.)",
+    "οργανωμένο": "οργανωμένος — organized",
+    "τακτοποιημένα": "τακτοποιημένος — tidied, arranged (participle of τακτοποιώ)",
+    "ράφια": "ράφι — shelf (pl.)",
+    "κρεμασμένα": "κρεμασμένος — hung (participle of κρεμάω)",
+    "ντουλάπες": "ντουλάπα — wardrobe (pl.)",
+    "ποτισμένα": "ποτισμένος — watered (participle of ποτίζω)",
+    "βαλμένα": "βαλμένος — put, placed (participle of βάζω)",
+    "φανερό": "φανερός — obvious, evident",
+    "ένοικος": "ένοικος — tenant",
+    "ιδιοκτήτρια": "ιδιοκτήτρια — owner, landlady (fem. of ιδιοκτήτης)",
+    "κλεισμένο": "κλεισμένος — booked, reserved (participle of κλείνω)",
+    "φοιτήτρια": "φοιτήτρια — (female) university student",
+    "ερωτευμένος": "ερωτευμένος — in love (με 'with')",
+    "μεγαλύτερο": "μεγαλύτερος — bigger, higher",
+    "απογοητευμένος": "απογοητευμένος — disappointed",
+    "νικημένος": "νικημένος — defeated (participle of νικώ)",
+    "νοικιάσει": "νοικιάζω — rent (να νοικιάσει)"
+   },
+   "questions": [
+    {
+     "prompt": "Πώς ήταν στην πραγματικότητα το πρώτο διαμέρισμα;",
+     "answer": "Παραμελημένο, με σπασμένα παράθυρα",
+     "options": [
+      "Παραμελημένο, με σπασμένα παράθυρα",
+      "Ανακαινισμένο και επιπλωμένο",
+      "Καθαρό και οργανωμένο"
+     ]
+    },
+    {
+     "prompt": "Τι βρήκε ο Νίκος στο τραπέζι του δεύτερου σπιτιού;",
+     "answer": "Ένα σημείωμα γραμμένο στο χέρι",
+     "options": [
+      "Ένα σημείωμα γραμμένο στο χέρι",
+      "Τα κλειδιά του σπιτιού",
+      "Έναν κρύο καφέ",
+      "Μια αγγελία"
+     ]
+    },
+    {
+     "prompt": "Γιατί δεν μπορεί να νοικιάσει το δεύτερο σπίτι;",
+     "answer": "Είναι ήδη κλεισμένο από μια φοιτήτρια",
+     "options": [
+      "Είναι ήδη κλεισμένο από μια φοιτήτρια",
+      "Το ενοίκιο είναι πολύ ακριβό",
+      "Δεν του άρεσε η κουζίνα"
+     ]
+    },
+    {
+     "prompt": "Πώς γύρισε ο Νίκος σπίτι;",
+     "answer": "Περπατώντας",
+     "options": [
+      "Περπατώντας",
+      "Με το μετρό",
+      "Με ταξί"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "Participle of **κουράζω**",
+     "answer": "κουρασμένος",
+     "why": "κουράστηκα (-στ-) → -σμένος."
+    },
+    {
+     "prompt": "Participle of **γράφω**",
+     "answer": "γραμμένος",
+     "why": "γράφτηκα (-φτ-) → -μμένος."
+    },
+    {
+     "prompt": "Participle of **ανοίγω**",
+     "answer": "ανοιγμένος",
+     "accept": [
+      "ανοιγμένος",
+      "ανοιχτός"
+     ],
+     "why": "ανοίχτηκα (-χτ-) → -γμένος (the adjective ανοιχτός is more common for 'open')."
+    },
+    {
+     "prompt": "Participle of **χάνω**",
+     "answer": "χαμένος",
+     "why": "χάθηκα (vowel + θ) → χαμένος."
+    },
+    {
+     "prompt": "Participle of **ντύνω**",
+     "answer": "ντυμένος",
+     "why": "ντύθηκα → ντυμένος."
+    },
+    {
+     "prompt": "Participle of **καλώ** 'invite'",
+     "answer": "καλεσμένος",
+     "why": "καλέστηκα → καλεσμένος."
+    },
+    {
+     "prompt": "Participle of **ξεχνώ**",
+     "answer": "ξεχασμένος",
+     "why": "ξεχάστηκα → ξεχασμένος."
+    },
+    {
+     "prompt": "Participle of **οργανώνω**",
+     "answer": "οργανωμένος",
+     "why": "οργανώθηκα → οργανωμένος."
+    },
+    {
+     "prompt": "Participle of **παντρεύομαι** (informal)",
+     "answer": "παντρεμένος",
+     "why": "-εύω verbs: informal -εμένος."
+    },
+    {
+     "prompt": "Participle of **απογοητεύω** (formal)",
+     "answer": "απογοητευμένος",
+     "why": "-εύω verbs: formal -ευμένος."
+    },
+    {
+     "prompt": "Participle of **θυμώνω**",
+     "answer": "θυμωμένος",
+     "why": "No finite passive, but the participle exists: θυμωμένος."
+    },
+    {
+     "prompt": "Participle of **μαθαίνω**",
+     "answer": "μαθημένος",
+     "why": "-αίνω verbs are irregular: μαθημένος."
+    },
+    {
+     "prompt": "Participle of **πεθαίνω**",
+     "answer": "πεθαμένος",
+     "why": "-αίνω verbs are irregular: πεθαμένος."
+    },
+    {
+     "prompt": "Participle of **κλείνω**",
+     "answer": "κλεισμένος",
+     "accept": [
+      "κλεισμένος",
+      "κλειστός"
+     ],
+     "why": "κλείστηκα → κλεισμένος."
+    },
+    {
+     "prompt": "Participle of **τραβώ**",
+     "answer": "τραβηγμένος",
+     "why": "τραβήχτηκα → τραβηγμένος."
+    },
+    {
+     "prompt": "Participle of **σβήνω**",
+     "answer": "σβησμένος",
+     "why": "σβήστηκα → σβησμένος."
+    }
+   ]
+  },
+  {
+   "gen": "participle-agree",
+   "n": 6,
+   "words": [
+    "κλεισμένος 'closed'",
+    "γραμμένος 'written'",
+    "σταλμένος 'sent'",
+    "ξεχασμένος 'forgotten'",
+    "χαμένος 'lost'",
+    "οργανωμένος 'organized'",
+    "ανοιγμένος 'opened'",
+    "σβησμένος 'erased'"
+   ]
+  },
+  {
+   "gen": "irregular-part",
+   "field": "passive_perfect_participle",
+   "n": 4,
+   "only": [
+    "κάνω",
+    "στέλνω",
+    "λέ(γ)ω",
+    "βάζω",
+    "δίνω",
+    "βλέπω",
+    "περνώ",
+    "πέφτω",
+    "σώζω",
+    "κερδίζω",
+    "ξεχνώ",
+    "φέρνω",
+    "μαθαίνω",
+    "πετυχαίνω",
+    "τρώω",
+    "καλώ",
+    "παίρνω",
+    "πλένω",
+    "αφήνω",
+    "θέλω",
+    "αυξάνω/-αίνω",
+    "κάθομαι",
+    "φορώ",
+    "κόβω",
+    "καίω",
+    "στρέφω"
+   ]
+  },
+  {
+   "gen": "gerund",
+   "n": 5
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "___ στο σπίτι, είδα ότι η πόρτα ήταν ανοιχτή.",
+     "answer": "Μπαίνοντας",
+     "options": [
+      "Μπαίνοντας",
+      "Μπαίνων",
+      "Μπήκοντας"
+     ],
+     "why": "Gerund from the present stem: μπαίνω → μπαίνοντας."
+    },
+    {
+     "prompt": "Η πόρτα ___ (state, not action).",
+     "answer": "είναι κλεισμένη",
+     "options": [
+      "είναι κλεισμένη",
+      "κλείστηκε",
+      "κλείνεται"
+     ],
+     "why": "είμαι + participle = resulting state."
+    },
+    {
+     "prompt": "Ο φόρος είναι ___ στην τιμή.",
+     "answer": "συμπεριλαμβανόμενος",
+     "options": [
+      "συμπεριλαμβανόμενος",
+      "συμπεριλαμβάνοντας",
+      "συμπεριλαμβάνεται"
+     ],
+     "why": "A learned present passive participle in -όμενος, frequent in formal Greek (official notices, prices)."
+    },
+    {
+     "prompt": "Έφυγε ___ (crying).",
+     "answer": "κλαίγοντας",
+     "options": [
+      "κλαίγοντας",
+      "κλαίοντας",
+      "κλαμένος"
+     ],
+     "why": "κλαίω → κλαίγοντας (irregular gerund)."
+    }
+   ]
+  },
+  {
+   "gen": "review",
+   "tag": "decl",
+   "n": 3
+  },
+  {
+   "gen": "type",
+   "n": 4,
+   "items": [
+    {
+     "prompt": "Say in Greek: *a tired woman*",
+     "answer": "μια κουρασμένη γυναίκα",
+     "accept": [
+      "μια κουρασμένη γυναίκα",
+      "μία κουρασμένη γυναίκα"
+     ],
+     "why": "-μένος agrees like ψηλός: feminine -μένη."
+    },
+    {
+     "prompt": "Say in Greek: *the lost keys*",
+     "answer": "τα χαμένα κλειδιά",
+     "accept": [
+      "τα χαμένα κλειδιά"
+     ],
+     "why": "Neuter plural: χαμένα, agreeing with τα κλειδιά."
+    },
+    {
+     "prompt": "Say in Greek: *with written instructions*",
+     "answer": "με γραμμένες οδηγίες",
+     "accept": [
+      "με γραμμένες οδηγίες",
+      "με γραπτές οδηγίες"
+     ],
+     "why": "Feminine plural: γραμμένες (οδηγία is feminine)."
+    },
+    {
+     "prompt": "Η πόρτα ήταν ___. (κλειδώνω, state)",
+     "answer": "κλειδωμένη",
+     "accept": [
+      "κλειδωμένη"
+     ],
+     "why": "Resulting state: ήταν + participle agreeing with η πόρτα."
+    },
+    {
+     "prompt": "Οι καλεσμένοι είναι ήδη ___. (ντύνω, state)",
+     "answer": "ντυμένοι",
+     "accept": [
+      "ντυμένοι"
+     ],
+     "why": "Masculine plural: ντυμένοι, agreeing with οι καλεσμένοι."
+    },
+    {
+     "prompt": "___ στο τηλέφωνο, έκαψε το φαγητό. (μιλάω, gerund)",
+     "answer": "Μιλώντας",
+     "accept": [
+      "Μιλώντας"
+     ],
+     "why": "Stressed -ώ/-άω verbs take -ώντας: μιλώντας."
+    },
+    {
+     "prompt": "Έμαθα ελληνικά ___ τραγούδια. (ακούω, gerund)",
+     "answer": "ακούγοντας",
+     "accept": [
+      "ακούγοντας",
+      "ακούοντας"
+     ],
+     "why": "ακούω has the irregular gerund ακούγοντας."
+    },
+    {
+     "prompt": "Τα παράθυρα είναι ___. (ανοίγω, state)",
+     "answer": "ανοιγμένα",
+     "accept": [
+      "ανοιγμένα",
+      "ανοιχτά"
+     ],
+     "why": "-χτ- passive stem → -γμένος; neuter plural ανοιγμένα (the adjective ανοιχτά also works)."
+    },
+    {
+     "prompt": "Say in Greek: *of the organized trip* (η εκδρομή)",
+     "answer": "της οργανωμένης εκδρομής",
+     "accept": [
+      "της οργανωμένης εκδρομής"
+     ],
+     "why": "Feminine genitive singular: της -μένης -ής."
+    },
+    {
+     "prompt": "Say in Greek: *the forgotten letters* (τα γράμματα)",
+     "answer": "τα ξεχασμένα γράμματα",
+     "accept": [
+      "τα ξεχασμένα γράμματα"
+     ],
+     "why": "Neuter plural: ξεχασμένα."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "n": 3,
+   "items": [
+    {
+     "prompt": "Το μαγαζί ___ από την αστυνομία χθες.",
+     "answer": "σφραγίστηκε",
+     "options": [
+      "σφραγίστηκε",
+      "είναι σφραγισμένο",
+      "σφραγίζοντας"
+     ],
+     "why": "An action with an agent and χθες → passive past; the participle would describe a state."
+    },
+    {
+     "prompt": "Μην μπεις, το πάτωμα ___ ακόμα.",
+     "answer": "είναι βρεγμένο",
+     "options": [
+      "είναι βρεγμένο",
+      "βράχηκε",
+      "βρέχοντας"
+     ],
+     "why": "A present state (ακόμα) → είναι + participle βρεγμένο."
+    },
+    {
+     "prompt": "___ τη μέρα στη βιβλιοθήκη, έγραψα όλη την εργασία.",
+     "answer": "Περνώντας",
+     "options": [
+      "Περνώντας",
+      "Περασμένος",
+      "Περνόντας"
+     ],
+     "why": "περνώ is a stressed -ώ verb → gerund -ώντας."
+    },
+    {
+     "prompt": "Τα παιδιά ήταν ___ μετά την εκδρομή.",
+     "answer": "κουρασμένα",
+     "options": [
+      "κουρασμένα",
+      "κουρασμένοι",
+      "κουρασμένες"
+     ],
+     "why": "τα παιδιά is neuter plural → κουρασμένα."
+    },
+    {
+     "prompt": "Η επιστολή είναι ___ από τον ίδιο τον διευθυντή.",
+     "answer": "γραμμένη",
+     "options": [
+      "γραμμένη",
+      "γραμμένο",
+      "γραμμένος"
+     ],
+     "why": "The participle agrees with the subject η επιστολή (feminine)."
+    },
+    {
+     "prompt": "Έφυγε χωρίς να πει λέξη, ___ την πόρτα πίσω του.",
+     "answer": "κλείνοντας",
+     "options": [
+      "κλείνοντας",
+      "κλεισμένος",
+      "κλείνωντας"
+     ],
+     "why": "-ω verbs take -οντας, spelled with ο, stress on the syllable before."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "κουρασμένος",
+  "κλειστός",
+  "ανοιχτός",
+  "χαμένος",
+  "διαμέρισμα",
+  "ενοίκιο",
+  "ιδιοκτήτης",
+  "ψάχνω",
+  "σημείωμα",
+  "σπασμένος"
+ ]
+}

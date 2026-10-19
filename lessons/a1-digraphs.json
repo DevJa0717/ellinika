@@ -1,0 +1,287 @@
+{
+ "el": "Δίψηφα και φωνήεντα",
+ "title": "Vowels and letter pairs",
+ "section": "A1 · Holton §1.2-1.4",
+ "goal": "Read the two-letter spellings and apply the αυ/ευ rule.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Greek has only **five vowel sounds**, [i e a o u], but many ways to write them. The sound [i] alone has six spellings: ι, η, υ, ει, οι, υι. This is why Greeks talk about writing 'with an ήτα' or 'with a γιώτα': the spelling carries grammar and history, not sound.\n\nSeveral consonant sounds that English writes with one letter need two in Greek: [b] is μπ, [d] is ντ, [g] is γκ."
+  },
+  {
+   "type": "table",
+   "title": "One sound, several spellings",
+   "head": [
+    "Sound",
+    "Spellings"
+   ],
+   "rows": [
+    [
+     "[i]",
+     "ι, η, υ, ει, οι, υι"
+    ],
+    [
+     "[e]",
+     "ε, αι"
+    ],
+    [
+     "[o]",
+     "ο, ω"
+    ],
+    [
+     "[u]",
+     "ου"
+    ],
+    [
+     "[a]",
+     "α"
+    ]
+   ]
+  },
+  {
+   "type": "digraphs"
+  },
+  {
+   "type": "callout",
+   "text": "**The αυ / ευ rule.** Before a vowel or a voiced consonant (β δ γ ζ λ ρ μ ν), υ is [v]: αύριο [ávrio], ευρώ [evró]. Before a voiceless consonant (π τ κ φ θ χ σ ξ ψ) or at the end of a word, it is [f]: αυτός [aftós], ευχαριστώ [efxaristó]."
+  },
+  {
+   "type": "culture",
+   "title": "Why Greeks spell by history",
+   "text": "Because sound no longer decides spelling, Greek schoolchildren practise **ορθογραφία** 'spelling', usually as dictation, for years, and adults still argue over i-sounds. Homophones are everywhere: **κλείνω** 'I close' and **κλίνω** 'I decline (a noun)', **τοίχος** 'wall' and **τείχος** 'city wall', **πήρα** 'I took' and **πείρα** 'experience'. The 1982 reform (μονοτονικό) dropped breathings and extra accents but kept these historical spellings. Borrowed words show the letter pairs at work: foreign b, d, g arrive as μπ, ντ, γκ, in **μπαρ** 'bar', **ντους** 'shower' and **γκολ** 'goal'."
+  },
+  {
+   "type": "rules",
+   "title": "Sounds across word boundaries",
+   "src": "grammar/alphabet-phonology.json#sandhi.rules",
+   "pick": [
+    0,
+    1,
+    2
+   ],
+   "cite": "Holton §1.6. Final ν of τον, την, δεν, μην merges with the next word in speech."
+  }
+ ],
+ "practice": [
+  {
+   "gen": "digraph-sound",
+   "n": 6
+  },
+  {
+   "gen": "av-ev",
+   "n": 6
+  },
+  {
+   "gen": "read-word",
+   "n": 8,
+   "maxRank": 600
+  },
+  {
+   "gen": "mc",
+   "n": 6,
+   "items": [
+    {
+     "prompt": "Read aloud: **αύριο** 'tomorrow'",
+     "answer": "[ávrio]",
+     "options": [
+      "[ávrio]",
+      "[áfrio]",
+      "[áurio]"
+     ],
+     "why": "υ in αυ/ευ is [v] before a vowel or a voiced consonant such as ρ."
+    },
+    {
+     "prompt": "Read aloud: **αυτί** 'ear'",
+     "answer": "[aftí]",
+     "options": [
+      "[aftí]",
+      "[avtí]",
+      "[autí]"
+     ],
+     "why": "Before a voiceless consonant (here τ) αυ is [af]."
+    },
+    {
+     "prompt": "Read aloud: **παιδί** 'child'",
+     "answer": "[peðí]",
+     "options": [
+      "[peðí]",
+      "[paiðí]",
+      "[paðí]"
+     ],
+     "why": "αι is a single [e] sound."
+    },
+    {
+     "prompt": "Read aloud: **ουρανός** 'sky'",
+     "answer": "[uranós]",
+     "options": [
+      "[uranós]",
+      "[ouranós]",
+      "[iranós]"
+     ],
+     "why": "ου is a single [u] sound."
+    },
+    {
+     "prompt": "Read aloud: **μπαμπάς** 'dad'",
+     "answer": "[babás]",
+     "options": [
+      "[babás]",
+      "[mpampás]",
+      "[pampás]"
+     ],
+     "why": "μπ is [b]; inside a word careful speakers may say [mb], never [mp]."
+    },
+    {
+     "prompt": "Read aloud: **ντομάτα** 'tomato'",
+     "answer": "[domáta]",
+     "options": [
+      "[domáta]",
+      "[ntomáta]",
+      "[tomáta]"
+     ],
+     "why": "Word-initial ντ is [d]."
+    },
+    {
+     "prompt": "Read aloud: **γκρίζος** 'grey'",
+     "answer": "[ɡrízos]",
+     "options": [
+      "[ɡrízos]",
+      "[ɣrízos]",
+      "[ŋkrízos]"
+     ],
+     "why": "Word-initial γκ is [ɡ]; a single γ would be [ɣ]."
+    },
+    {
+     "prompt": "Read aloud: **άγγελος** 'angel'",
+     "answer": "[áŋɡelos]",
+     "options": [
+      "[áŋɡelos]",
+      "[áɣɣelos]",
+      "[ájelos]"
+     ],
+     "why": "γγ is always [ŋɡ], as in *anger*."
+    },
+    {
+     "prompt": "Read aloud: **τσάι** 'tea'",
+     "answer": "[tsái]",
+     "options": [
+      "[tsái]",
+      "[tsé]",
+      "[tʃái]"
+     ],
+     "why": "An accent on the first letter of αι (or a diaeresis on ι) splits it into two vowels; τσ is [ts]."
+    },
+    {
+     "prompt": "Read aloud: **είκοσι** 'twenty'",
+     "answer": "[íkosi]",
+     "options": [
+      "[íkosi]",
+      "[éikosi]",
+      "[ékosi]"
+     ],
+     "why": "ει is just [i]; the accent on ί marks the stress, not a separate vowel."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "Write in Greek: [babás] 'dad'",
+     "answer": "μπαμπάς",
+     "accept": [
+      "μπαμπάς"
+     ],
+     "why": "[b] is spelled μπ, both at the start and inside the word."
+    },
+    {
+     "prompt": "Write in Greek: [domáta] 'tomato'",
+     "answer": "ντομάτα",
+     "accept": [
+      "ντομάτα"
+     ],
+     "why": "[d] is spelled ντ; δ would be [ð]."
+    },
+    {
+     "prompt": "Write in Greek: [ɡol] 'goal' (sport)",
+     "answer": "γκολ",
+     "accept": [
+      "γκολ"
+     ],
+     "why": "[ɡ] is spelled γκ; one-syllable words take no accent."
+    },
+    {
+     "prompt": "Write in Greek: [ávrio] 'tomorrow' (spelled with αυ, ending -ιο)",
+     "answer": "αύριο",
+     "accept": [
+      "αύριο"
+     ],
+     "why": "The accent of a stressed αυ goes on the second letter: αύ."
+    },
+    {
+     "prompt": "Write in Greek: [efxaristó] 'thank you' (ευ, final -ώ)",
+     "answer": "ευχαριστώ",
+     "accept": [
+      "ευχαριστώ"
+     ],
+     "why": "[ef] before voiceless χ is ευ."
+    },
+    {
+     "prompt": "Write in Greek: [peðí] 'child' (the [e] is αι)",
+     "answer": "παιδί",
+     "accept": [
+      "παιδί"
+     ],
+     "why": "αι = [e]; the final stressed [i] here is ί."
+    },
+    {
+     "prompt": "Write in Greek: [uranós] 'sky' (ending -ός)",
+     "answer": "ουρανός",
+     "accept": [
+      "ουρανός"
+     ],
+     "why": "[u] is always ου; there is no single letter for it."
+    },
+    {
+     "prompt": "Write in Greek: [ðulévo] 'I work' (ου, ευ, ending -ω)",
+     "answer": "δουλεύω",
+     "accept": [
+      "δουλεύω"
+     ],
+     "why": "[ev] before a vowel is ευ; the accent goes on its second letter: εύ."
+    },
+    {
+     "prompt": "Write in Greek: [tsái] 'tea'",
+     "answer": "τσάι",
+     "accept": [
+      "τσάι"
+     ],
+     "why": "The accent on α shows that α and ι are pronounced separately."
+    },
+    {
+     "prompt": "Write in Greek: [bíra] 'beer' (the [i] is ί)",
+     "answer": "μπίρα",
+     "accept": [
+      "μπίρα",
+      "μπύρα"
+     ],
+     "why": "[b] = μπ. The older spelling μπύρα is still common."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "αύριο",
+  "ευχαριστώ",
+  "αυτοκίνητο",
+  "αυτί",
+  "παιδί",
+  "οικογένεια",
+  "ουρανός",
+  "δουλειά",
+  "ευκαιρία",
+  "εύκολος",
+  "μπαίνω",
+  "ντομάτα"
+ ]
+}

@@ -1,0 +1,1326 @@
+{
+ "source": "Holton, Mackridge & Philippaki-Warburton, Greek: An Essential Grammar, 2nd ed. (Routledge, 2016), upload afb4adc8 (PDF pp. 35-43 = Ch 11 Word formation, §11.1-11.3). Copyrighted, no open license: rules restated in our own words; word lists only.",
+ "variety": "Standard Modern Greek",
+ "related_files": [
+  "clauses-2.json",
+  "nouns-full.json",
+  "adjectives.json"
+ ],
+ "overview": [
+  "Greek forms new words easily by suffixes, prefixes and compounding; many elements shown are still productive.",
+  "The book gives only a small selection of patterns."
+ ],
+ "sections": [
+  {
+   "section": "11.1",
+   "title": "Suffixation",
+   "pdf_pages": "afb4adc8 pp.35-40",
+   "rule": "Suffixes attach to verb or noun stems to derive nouns, adjectives, diminutives, augmentatives and verbs.",
+   "groups": [
+    {
+     "id": "noun-from-verb",
+     "label": "Nouns from verbs",
+     "suffixes": [
+      {
+       "suffix": "-της",
+       "gender": "m",
+       "meaning": "person or appliance that does the action",
+       "declension_ref": "3.10",
+       "examples": [
+        {
+         "el": "προπονητής",
+         "en": "trainer",
+         "from": "προπονώ"
+        },
+        {
+         "el": "τραγουδιστής",
+         "en": "singer",
+         "from": "τραγουδώ"
+        },
+        {
+         "el": "κλέφτης",
+         "en": "thief",
+         "from": "κλέβω"
+        },
+        {
+         "el": "παρατηρητής",
+         "en": "observer",
+         "from": "παρατηρώ"
+        },
+        {
+         "el": "μετρητής",
+         "en": "meter",
+         "from": "μετρώ"
+        },
+        {
+         "el": "υπολογιστής",
+         "en": "computer",
+         "from": "υπολογίζω"
+        }
+       ]
+      },
+      {
+       "suffix": "-τήρας",
+       "gender": "m",
+       "meaning": "implements etc.",
+       "declension_ref": "3.9 type (a)",
+       "examples": [
+        {
+         "el": "ανεμιστήρας",
+         "en": "fan, ventilator",
+         "from": "ανεμίζω"
+        },
+        {
+         "el": "αναπτήρας",
+         "en": "lighter",
+         "from": "ανάβω"
+        },
+        {
+         "el": "συνδετήρας",
+         "en": "paper clip",
+         "from": "συνδέω"
+        }
+       ]
+      },
+      {
+       "suffix": "-ση / -ξη / -ψη",
+       "gender": "f",
+       "meaning": "action of the verb",
+       "declension_ref": "3.17",
+       "examples": [
+        {
+         "el": "απάντηση",
+         "en": "answer",
+         "from": "απαντώ"
+        },
+        {
+         "el": "παρατήρηση",
+         "en": "observation",
+         "from": "παρατηρώ"
+        },
+        {
+         "el": "επιφύλαξη",
+         "en": "reservation",
+         "from": "επιφυλάσσω"
+        },
+        {
+         "el": "χώνεψη",
+         "en": "digestion",
+         "from": "χωνεύω"
+        }
+       ]
+      },
+      {
+       "suffix": "-μα",
+       "gender": "n",
+       "meaning": "action or result of the verb",
+       "declension_ref": "3.25",
+       "examples": [
+        {
+         "el": "διάβασμα",
+         "en": "reading",
+         "from": "διαβάζω"
+        },
+        {
+         "el": "σημείωμα",
+         "en": "note",
+         "from": "σημειώνω"
+        },
+        {
+         "el": "βοήθημα",
+         "en": "help, aid",
+         "from": "βοηθώ"
+        }
+       ]
+      },
+      {
+       "suffix": "-σιμο / -ψιμο / -ξιμο",
+       "gender": "n",
+       "meaning": "action",
+       "declension_ref": "3.26",
+       "examples": [
+        {
+         "el": "πλύσιμο",
+         "en": "washing",
+         "from": "πλένω"
+        },
+        {
+         "el": "γράψιμο",
+         "en": "writing",
+         "from": "γράφω"
+        },
+        {
+         "el": "τρέξιμο",
+         "en": "running",
+         "from": "τρέχω"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "feminine-persons",
+     "label": "Feminine nouns for female persons",
+     "suffixes": [
+      {
+       "suffix": "-τρια / -τρα",
+       "meaning": "feminine counterpart of masculine -της",
+       "declension_ref": "3.14 type (b)",
+       "examples": [
+        {
+         "el": "διευθύντρια",
+         "en": "female director"
+        },
+        {
+         "el": "καθαρίστρια",
+         "en": "female cleaner"
+        },
+        {
+         "el": "παρουσιάστρια",
+         "en": "female presenter"
+        },
+        {
+         "el": "ποιήτρια",
+         "en": "female poet"
+        },
+        {
+         "el": "φοιτήτρια",
+         "en": "female student"
+        },
+        {
+         "el": "ράφτρα",
+         "en": "female dressmaker"
+        }
+       ]
+      },
+      {
+       "suffix": "-ισσα",
+       "meaning": "female person",
+       "declension_ref": "3.14 type (b)",
+       "examples": [
+        {
+         "el": "βασίλισσα",
+         "en": "queen",
+         "from": "βασιλιάς"
+        },
+        {
+         "el": "γειτόνισσα",
+         "en": "woman neighbour",
+         "from": "γείτονας"
+        },
+        {
+         "el": "πριγκίπισσα",
+         "en": "princess",
+         "from": "πρίγκιπας"
+        },
+        {
+         "el": "Σπαρτιάτισσα",
+         "en": "Spartan woman",
+         "from": "Σπαρτιάτης"
+        }
+       ]
+      },
+      {
+       "suffix": "-ίνα",
+       "meaning": "female professional; implies familiarity or sometimes depreciation (see 3.20 for masculine forms used of women)",
+       "examples": [
+        {
+         "el": "βουλευτίνα",
+         "en": "woman member of parliament",
+         "from": "βουλευτής"
+        },
+        {
+         "el": "δικηγορίνα",
+         "en": "female lawyer",
+         "from": "δικηγόρος"
+        }
+       ]
+      },
+      {
+       "suffix": "-ίδα",
+       "meaning": "female person",
+       "declension_ref": "3.14 type (a)",
+       "examples": [
+        {
+         "el": "ηρωίδα",
+         "en": "heroine",
+         "from": "ήρωας"
+        },
+        {
+         "el": "Αμερικανίδα",
+         "en": "American woman",
+         "from": "Αμερικανός"
+        },
+        {
+         "el": "Ελληνίδα",
+         "en": "Greek woman",
+         "from": "Έλληνας"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "abstract-nouns",
+     "label": "Abstract nouns and -isms",
+     "suffixes": [
+      {
+       "suffix": "-ιά",
+       "gender": "f",
+       "declension_ref": "3.14 type (b)",
+       "examples": [
+        {
+         "el": "ζεστασιά",
+         "en": "warmth"
+        },
+        {
+         "el": "ομορφιά",
+         "en": "beauty"
+        }
+       ]
+      },
+      {
+       "suffix": "-άδα",
+       "gender": "f",
+       "declension_ref": "3.14 type (a)",
+       "examples": [
+        {
+         "el": "εξυπνάδα",
+         "en": "intelligence"
+        },
+        {
+         "el": "φρεσκάδα",
+         "en": "freshness"
+        }
+       ]
+      },
+      {
+       "suffix": "-οσύνη",
+       "gender": "f",
+       "declension_ref": "3.15",
+       "examples": [
+        {
+         "el": "δικαιοσύνη",
+         "en": "justice"
+        },
+        {
+         "el": "ευγνωμοσύνη",
+         "en": "gratitude"
+        },
+        {
+         "el": "καλοσύνη",
+         "en": "kindness"
+        }
+       ]
+      },
+      {
+       "suffix": "-ότητα / -ύτητα",
+       "gender": "f",
+       "declension_ref": "3.14 type (a)",
+       "examples": [
+        {
+         "el": "δυνατότητα",
+         "en": "possibility"
+        },
+        {
+         "el": "ικανότητα",
+         "en": "capability"
+        },
+        {
+         "el": "ταχύτητα",
+         "en": "speed"
+        }
+       ]
+      },
+      {
+       "suffix": "-ισμός",
+       "gender": "m",
+       "meaning": "ideologies, beliefs, artistic movements, scientific phenomena (English -ism)",
+       "examples": [
+        {
+         "el": "θετικισμός",
+         "en": "positivism"
+        },
+        {
+         "el": "μαγνητισμός",
+         "en": "magnetism"
+        },
+        {
+         "el": "ρεαλισμός",
+         "en": "realism"
+        },
+        {
+         "el": "ρατσισμός",
+         "en": "racism"
+        },
+        {
+         "el": "σοσιαλισμός",
+         "en": "socialism"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "places",
+     "label": "Place where an action or business is carried out",
+     "suffixes": [
+      {
+       "suffix": "-είο",
+       "gender": "n",
+       "declension_ref": "3.21 type (a)",
+       "examples": [
+        {
+         "el": "ταχυδρομείο",
+         "en": "post office"
+        },
+        {
+         "el": "φαρμακείο",
+         "en": "pharmacy"
+        }
+       ]
+      },
+      {
+       "suffix": "-ήριο",
+       "gender": "n",
+       "declension_ref": "3.21 type (a)",
+       "examples": [
+        {
+         "el": "καθαριστήριο",
+         "en": "cleaner's"
+        },
+        {
+         "el": "δικαστήριο",
+         "en": "law court"
+        },
+        {
+         "el": "εργαστήριο",
+         "en": "laboratory, workshop"
+        },
+        {
+         "el": "γυμναστήριο",
+         "en": "gymnasium"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "adjective-suffixes",
+     "label": "Adjective-forming suffixes",
+     "suffixes": [
+      {
+       "suffix": "-ένιος / -ινος",
+       "meaning": "material",
+       "examples": [
+        {
+         "el": "σιδερένιος",
+         "en": "iron"
+        },
+        {
+         "el": "μαλαματένιος",
+         "en": "of gold"
+        },
+        {
+         "el": "μάλλινος",
+         "en": "woollen"
+        },
+        {
+         "el": "ξύλινος",
+         "en": "wooden"
+        }
+       ]
+      },
+      {
+       "suffix": "-ικός / -ικος / -ιακός",
+       "examples": [
+        {
+         "el": "ανδρικός",
+         "en": "male, masculine"
+        },
+        {
+         "el": "γαλλικός",
+         "en": "French"
+        },
+        {
+         "el": "μαζικός",
+         "en": "mass"
+        },
+        {
+         "el": "συμπαθητικός",
+         "en": "pleasant"
+        },
+        {
+         "el": "ψεύτικος",
+         "en": "false"
+        },
+        {
+         "el": "οικογενειακός",
+         "en": "of the family"
+        }
+       ]
+      },
+      {
+       "suffix": "-ινός",
+       "meaning": "usually time or place",
+       "examples": [
+        {
+         "el": "σημερινός",
+         "en": "today's, present-day"
+        },
+        {
+         "el": "καλοκαιρινός",
+         "en": "summer"
+        },
+        {
+         "el": "διπλανός",
+         "en": "adjacent, next"
+        }
+       ]
+      },
+      {
+       "suffix": "-τός",
+       "meaning": "usually the result of a verb, passive meaning",
+       "examples": [
+        {
+         "el": "γραπτός",
+         "en": "written"
+        },
+        {
+         "el": "τηγανητός",
+         "en": "fried"
+        },
+        {
+         "el": "μικτός",
+         "en": "mixed"
+        }
+       ]
+      },
+      {
+       "suffix": "-ούτσικος",
+       "meaning": "to a moderate extent (like English -ish)",
+       "examples": [
+        {
+         "el": "καλούτσικος",
+         "en": "quite good"
+        },
+        {
+         "el": "μεγαλούτσικος",
+         "en": "biggish"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "diminutives",
+     "label": "Diminutives (small size, familiarity, affection, sometimes depreciation)",
+     "suffixes": [
+      {
+       "suffix": "-άκης",
+       "gender": "m",
+       "meaning": "on masculine noun stems; mainly proper names (see 12.2)",
+       "examples": [
+        {
+         "el": "κοσμάκης",
+         "en": "ordinary person, man in the street"
+        },
+        {
+         "el": "Μανολάκης",
+         "en": "Manolis"
+        }
+       ]
+      },
+      {
+       "suffix": "-ούλης",
+       "gender": "m",
+       "meaning": "masculine nouns, often attached to adjectives (declension 3.40)",
+       "examples": [
+        {
+         "el": "πατερούλης",
+         "en": "daddy"
+        },
+        {
+         "el": "γλυκούλης",
+         "en": "sweetie"
+        },
+        {
+         "el": "μικρούλης",
+         "en": "youngster"
+        }
+       ]
+      },
+      {
+       "suffix": "-ούλα",
+       "gender": "f",
+       "meaning": "on feminine noun stems",
+       "examples": [
+        {
+         "el": "αδερφούλα",
+         "en": "little sister"
+        },
+        {
+         "el": "βαρκούλα",
+         "en": "little boat"
+        },
+        {
+         "el": "λεξούλα",
+         "en": "little word"
+        },
+        {
+         "el": "στιγμούλα",
+         "en": "brief moment"
+        }
+       ]
+      },
+      {
+       "suffix": "-ίτσα",
+       "gender": "f",
+       "meaning": "on feminine noun stems; often feminine proper names (see 12.2)",
+       "examples": [
+        {
+         "el": "μπιρίτσα",
+         "en": "little beer"
+        },
+        {
+         "el": "ωρίτσα",
+         "en": "(an) hour (or so)"
+        },
+        {
+         "el": "Ελενίτσα",
+         "en": "Helen"
+        }
+       ]
+      },
+      {
+       "suffix": "-άκι",
+       "gender": "n",
+       "meaning": "mainly from neuter nouns (see 3.23)",
+       "examples": [
+        {
+         "el": "αδερφάκι",
+         "en": "little brother"
+        },
+        {
+         "el": "καφεδάκι",
+         "en": "small coffee"
+        },
+        {
+         "el": "μεζεδάκι",
+         "en": "snack"
+        },
+        {
+         "el": "παιδάκι",
+         "en": "small child"
+        },
+        {
+         "el": "σπιτάκι",
+         "en": "little house"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "augmentatives",
+     "label": "Augmentatives (large size or admiration)",
+     "suffixes": [
+      {
+       "suffix": "-α",
+       "gender": "f",
+       "examples": [
+        {
+         "el": "κουτάλα",
+         "en": "big spoon"
+        },
+        {
+         "el": "μπουκάλα",
+         "en": "big bottle"
+        }
+       ]
+      },
+      {
+       "suffix": "-άρα",
+       "gender": "f",
+       "examples": [
+        {
+         "el": "αυτοκινητάρα",
+         "en": "big car"
+        },
+        {
+         "el": "κοιλάρα",
+         "en": "big belly"
+        }
+       ]
+      },
+      {
+       "suffix": "-αράς / -ακλάς",
+       "gender": "m",
+       "meaning": "male possessor of a quality (3.13 type (a))",
+       "examples": [
+        {
+         "el": "δουλευταράς",
+         "en": "hard worker"
+        },
+        {
+         "el": "κλεφταράς",
+         "en": "big thief"
+        },
+        {
+         "el": "κοιλαράς",
+         "en": "bigbellied person"
+        },
+        {
+         "el": "φωνακλάς",
+         "en": "loud-mouth"
+        }
+       ]
+      },
+      {
+       "suffix": "-αρος",
+       "gender": "m",
+       "declension_ref": "3.11 type (b)",
+       "examples": [
+        {
+         "el": "παίδαρος",
+         "en": "big (handsome) lad"
+        },
+        {
+         "el": "σκύλαρος",
+         "en": "great big dog"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "verb-suffixes",
+     "label": "Verb-forming suffixes (usually from nouns or adjectives)",
+     "suffixes": [
+      {
+       "suffix": "-ίζω",
+       "examples": [
+        {
+         "el": "βουρτσίζω",
+         "en": "I brush"
+        },
+        {
+         "el": "εκσυγχρονίζω",
+         "en": "I modernize"
+        },
+        {
+         "el": "προγραμματίζω",
+         "en": "I programme"
+        }
+       ]
+      },
+      {
+       "suffix": "-ώνω",
+       "examples": [
+        {
+         "el": "κουμπώνω",
+         "en": "I button"
+        },
+        {
+         "el": "μαλακώνω",
+         "en": "I soften"
+        },
+        {
+         "el": "τσεπώνω",
+         "en": "I pocket"
+        }
+       ]
+      },
+      {
+       "suffix": "-άρω / -ίρω",
+       "meaning": "added to stems of loanwords (see 6.14.8 (w))",
+       "examples": [
+        {
+         "el": "παρκάρω",
+         "en": "I park"
+        }
+       ]
+      },
+      {
+       "suffix": "-οποιώ",
+       "examples": [
+        {
+         "el": "αξιοποιώ",
+         "en": "I develop, exploit"
+        },
+        {
+         "el": "τροποποιώ",
+         "en": "I modify"
+        },
+        {
+         "el": "τυποποιώ",
+         "en": "I standardize"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "section": "11.2",
+   "title": "Prefixation",
+   "pdf_pages": "afb4adc8 pp.40-42",
+   "rule": "The commonest prefixes are prepositions, including Ancient Greek ones that no longer exist as independent prepositions (list in 6.23). Each has a wide range of meanings. The same base verb takes different prefixes to give different meanings, each usually with a matching feminine noun.",
+   "example_family": {
+    "base": "δίνω (usually -δίδω)",
+    "verbs": [
+     {
+      "el": "αποδίδω",
+      "en": "I give back, attribute"
+     },
+     {
+      "el": "διαδίδω",
+      "en": "I give out, disseminate"
+     },
+     {
+      "el": "εκδίδω",
+      "en": "I issue, publish"
+     },
+     {
+      "el": "μεταδίδω",
+      "en": "I transmit"
+     },
+     {
+      "el": "παραδίδω",
+      "en": "I hand over"
+     },
+     {
+      "el": "προδίδω / προδίνω",
+      "en": "I betray"
+     },
+     {
+      "el": "ανταποδίδω",
+      "en": "I give in return (two prefixes)"
+     }
+    ],
+    "nouns": [
+     {
+      "el": "απόδοση",
+      "en": "yield, rendering"
+     },
+     {
+      "el": "διάδοση",
+      "en": "dissemination"
+     },
+     {
+      "el": "έκδοση",
+      "en": "issue, publication"
+     },
+     {
+      "el": "μετάδοση",
+      "en": "transmission"
+     },
+     {
+      "el": "παράδοση",
+      "en": "surrender, tradition"
+     },
+     {
+      "el": "προδοσία",
+      "en": "betrayal"
+     },
+     {
+      "el": "ανταπόδοση",
+      "en": "repayment"
+     }
+    ]
+   },
+   "prefixes": [
+    {
+     "prefix": "ανα- / επανα-",
+     "meaning": "re-",
+     "examples": [
+      {
+       "el": "αναπαλαίωση",
+       "en": "restoration (lit. making old again)"
+      },
+      {
+       "el": "επανεκλέγω",
+       "en": "I re-elect"
+      }
+     ]
+    },
+    {
+     "prefix": "αντι-",
+     "meaning": "in place of, vice-, against, anti-",
+     "examples": [
+      {
+       "el": "αντιπρόεδρος",
+       "en": "vice-president"
+      },
+      {
+       "el": "αντικομμουνιστικός",
+       "en": "anticommunist (adj.)"
+      }
+     ]
+    },
+    {
+     "prefix": "απο-",
+     "meaning": "de-, dis-",
+     "examples": [
+      {
+       "el": "αποσύνθεση",
+       "en": "decomposition"
+      },
+      {
+       "el": "απολυμαντικό",
+       "en": "disinfectant"
+      }
+     ]
+    },
+    {
+     "prefix": "δια-",
+     "meaning": "inter-",
+     "examples": [
+      {
+       "el": "διαδίκτυο",
+       "en": "internet"
+      },
+      {
+       "el": "διακρατικός",
+       "en": "interstate"
+      },
+      {
+       "el": "διασύνδεση",
+       "en": "interconnection"
+      }
+     ]
+    },
+    {
+     "prefix": "εκ- / εξ- (before a vowel)",
+     "meaning": "process of change",
+     "examples": [
+      {
+       "el": "εκσυγχρονισμός",
+       "en": "modernization"
+      },
+      {
+       "el": "εξουδετερώνω",
+       "en": "I neutralize"
+      }
+     ]
+    },
+    {
+     "prefix": "κατα-",
+     "meaning": "very much",
+     "examples": [
+      {
+       "el": "κάτασπρος",
+       "en": "very white"
+      },
+      {
+       "el": "καταβρέχω",
+       "en": "I soak, drench"
+      }
+     ]
+    },
+    {
+     "prefix": "μετα-",
+     "meaning": "after, post-",
+     "examples": [
+      {
+       "el": "μεταμοντερνισμός",
+       "en": "postmodernism"
+      },
+      {
+       "el": "μεταπολεμικός",
+       "en": "post-war"
+      }
+     ]
+    },
+    {
+     "prefix": "προ-",
+     "meaning": "before, pre-",
+     "examples": [
+      {
+       "el": "προκριματικός",
+       "en": "preliminary (round)"
+      },
+      {
+       "el": "προπολεμικός",
+       "en": "pre-war"
+      }
+     ]
+    },
+    {
+     "prefix": "συν-",
+     "meaning": "joint, co-",
+     "examples": [
+      {
+       "el": "συμμαθητής",
+       "en": "fellow pupil"
+      },
+      {
+       "el": "συνυπάρχω",
+       "en": "I co-exist"
+      }
+     ]
+    },
+    {
+     "prefix": "υπερ-",
+     "meaning": "over, trans-, super-",
+     "examples": [
+      {
+       "el": "υπερατλαντικός",
+       "en": "transatlantic"
+      },
+      {
+       "el": "υπερπαραγωγή",
+       "en": "overproduction"
+      },
+      {
+       "el": "υπερφυσικός",
+       "en": "supernatural"
+      }
+     ]
+    },
+    {
+     "prefix": "υπο-",
+     "meaning": "under, sub-",
+     "examples": [
+      {
+       "el": "υποδιευθυντής",
+       "en": "undermanager"
+      },
+      {
+       "el": "υποσύνολο",
+       "en": "sub-total"
+      }
+     ]
+    },
+    {
+     "prefix": "μεγαλο-",
+     "meaning": "big",
+     "examples": [
+      {
+       "el": "μεγαλοεπιχειρηματίας",
+       "en": "big businessman"
+      }
+     ]
+    },
+    {
+     "prefix": "μικρο-",
+     "meaning": "small",
+     "examples": [
+      {
+       "el": "μικροπράγματα",
+       "en": "little things, trifles"
+      }
+     ]
+    },
+    {
+     "prefix": "νεο-",
+     "meaning": "new, neo-",
+     "examples": [
+      {
+       "el": "νεοφασισμός",
+       "en": "neo-Fascism"
+      },
+      {
+       "el": "νεόπλουτος",
+       "en": "newly rich"
+      }
+     ]
+    },
+    {
+     "prefix": "ξανα-",
+     "meaning": "again, re- (on verbs); also 'on a previous occasion'",
+     "examples": [
+      {
+       "el": "ξαναρχίζω",
+       "en": "I begin again"
+      },
+      {
+       "el": "ξαναδιαβάζω",
+       "en": "I reread"
+      },
+      {
+       "el": "το έχω ξαναδεί",
+       "en": "I've seen it before"
+      }
+     ]
+    },
+    {
+     "prefix": "ξε-",
+     "meaning": "on verbs, gives the opposite meaning (cf. English un-)",
+     "examples": [
+      {
+       "el": "ξεμπαρκάρω",
+       "en": "I disembark"
+      },
+      {
+       "el": "ξεδιψώ",
+       "en": "I quench my thirst"
+      },
+      {
+       "el": "ξεντύνω",
+       "en": "I undress"
+      }
+     ]
+    },
+    {
+     "prefix": "πολυ-",
+     "meaning": "much, multi-",
+     "examples": [
+      {
+       "el": "πολυπολιτισμικός",
+       "en": "multicultural"
+      },
+      {
+       "el": "πολυεκατομμυριούχος",
+       "en": "multimillionaire"
+      }
+     ]
+    }
+   ],
+   "negative_prefix": {
+    "prefix": "α- (αν- before a vowel)",
+    "meaning": "negative adjectives, like English un-, in-, im-; stress often moves to the third syllable from the end and the ending may differ",
+    "pairs": [
+     {
+      "positive": "γνωστός",
+      "en_pos": "(well-)known",
+      "negative": "άγνωστος",
+      "en_neg": "unknown"
+     },
+     {
+      "positive": "όμοιος",
+      "en_pos": "similar",
+      "negative": "ανόμοιος",
+      "en_neg": "dissimilar"
+     },
+     {
+      "positive": "πιθανός",
+      "en_pos": "probable",
+      "negative": "απίθανος",
+      "en_neg": "improbable"
+     },
+     {
+      "positive": "σχετικός",
+      "en_pos": "related",
+      "negative": "άσχετος",
+      "en_neg": "unrelated, irrelevant"
+     },
+     {
+      "positive": "τίμιος",
+      "en_pos": "honourable",
+      "negative": "άτιμος",
+      "en_neg": "dishonourable"
+     },
+     {
+      "positive": "φυσικός",
+      "en_pos": "natural",
+      "negative": "αφύσικος",
+      "en_neg": "unnatural"
+     },
+     {
+      "positive": "χρήσιμος",
+      "en_pos": "useful",
+      "negative": "άχρηστος",
+      "en_neg": "useless"
+     }
+    ]
+   }
+  },
+  {
+   "section": "11.3",
+   "title": "Compound formation",
+   "pdf_pages": "afb4adc8 pp.42-44",
+   "rule": "Compounds join two or more words or stems and are very widespread and productive. The elements are typically linked by the vowel -ο-. One type joins two words of the same part of speech so that the result combines both meanings; other compounds combine different parts of speech.",
+   "types": [
+    {
+     "type": "two nouns (both meanings)",
+     "examples": [
+      {
+       "el": "αντρόγυνο",
+       "en": "married couple",
+       "from": "άντρας + γυναίκα"
+      },
+      {
+       "el": "γυναικόπαιδα",
+       "en": "women and children",
+       "from": "γυναίκες + παιδιά"
+      },
+      {
+       "el": "μαχαιροπίρουνο",
+       "en": "knife and fork",
+       "from": "μαχαίρι + πιρούνι"
+      },
+      {
+       "el": "ονοματεπώνυμο",
+       "en": "name and surname",
+       "from": "όνομα + επώνυμο"
+      },
+      {
+       "el": "Σαββατοκύριακο",
+       "en": "weekend",
+       "from": "Σάββατο + Κυριακή"
+      }
+     ]
+    },
+    {
+     "type": "two adjectives",
+     "examples": [
+      {
+       "el": "ασπρόμαυρος",
+       "en": "black and white",
+       "from": "άσπρος + μαύρος"
+      },
+      {
+       "el": "μακρόστενος",
+       "en": "long and narrow (oblong)",
+       "from": "μακρύς + στενός"
+      }
+     ]
+    },
+    {
+     "type": "two verbs",
+     "examples": [
+      {
+       "el": "αναβοσβήνω",
+       "en": "I flash on and off",
+       "from": "ανάβω + σβήνω"
+      },
+      {
+       "el": "ανεβοκατεβαίνω",
+       "en": "I go up and down",
+       "from": "ανεβαίνω + κατεβαίνω"
+      },
+      {
+       "el": "ανοιγοκλείνω",
+       "en": "I open and close",
+       "from": "ανοίγω + κλείνω"
+      },
+      {
+       "el": "πηγαινοέρχομαι",
+       "en": "I come and go",
+       "from": "πηγαίνω + έρχομαι"
+      }
+     ]
+    },
+    {
+     "type": "noun + verb",
+     "examples": [
+      {
+       "el": "βιβλιοδεσία",
+       "en": "book-binding"
+      },
+      {
+       "el": "μυθιστοριογράφος",
+       "en": "novelist"
+      },
+      {
+       "el": "νομοθετώ",
+       "en": "I legislate"
+      },
+      {
+       "el": "σταυροκοπιέμαι",
+       "en": "I cross myself"
+      },
+      {
+       "el": "φυλλομετρώ",
+       "en": "I leaf through, browse"
+      },
+      {
+       "el": "χρονοτριβώ",
+       "en": "I waste time"
+      }
+     ]
+    },
+    {
+     "type": "noun + noun",
+     "examples": [
+      {
+       "el": "ανεμόμυλος",
+       "en": "windmill"
+      },
+      {
+       "el": "ηλιοβασίλεμα",
+       "en": "sunset"
+      },
+      {
+       "el": "κλειδαρότρυπα",
+       "en": "keyhole"
+      },
+      {
+       "el": "ροδόνερο",
+       "en": "rosewater"
+      },
+      {
+       "el": "τερματοφύλακας",
+       "en": "goalkeeper"
+      },
+      {
+       "el": "τυρόπιτα",
+       "en": "cheese pie"
+      },
+      {
+       "el": "χαρτοπαίκτης",
+       "en": "card-player"
+      }
+     ]
+    },
+    {
+     "type": "adjective + noun",
+     "examples": [
+      {
+       "el": "αγριογούρουνο",
+       "en": "wild boar"
+      },
+      {
+       "el": "κοκκινομάλλης",
+       "en": "redhaired"
+      },
+      {
+       "el": "στενόμυαλος",
+       "en": "narrow-minded"
+      },
+      {
+       "el": "ψηλομύτης",
+       "en": "snobbish (lit. high-nosed)"
+      }
+     ]
+    },
+    {
+     "type": "adjective/adverb + verb",
+     "examples": [
+      {
+       "el": "γελοιογραφία",
+       "en": "cartoon"
+      },
+      {
+       "el": "κοντοστέκομαι",
+       "en": "I stop short"
+      },
+      {
+       "el": "ξεροβήχω",
+       "en": "I clear my throat"
+      }
+     ]
+    },
+    {
+     "type": "adjective/adverb + passive perfect participle",
+     "examples": [
+      {
+       "el": "μαυροντυμένος",
+       "en": "dressed in black"
+      },
+      {
+       "el": "φρεσκοβαμμένος",
+       "en": "freshly painted"
+      },
+      {
+       "el": "χοντροκομμένος",
+       "en": "roughly cut"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

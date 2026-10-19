@@ -1,0 +1,407 @@
+{
+ "el": "Υποτακτική: διαρκής και στιγμιαία",
+ "title": "Continuous vs simple subjunctive",
+ "section": "B1 · Holton §6.20, §9.3.2, §10.3",
+ "goal": "Choose να γράφω or να γράψω according to duration and timeframe.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Greek has no separate subjunctive endings: the subjunctive is **να / ας + verb**, with **μην** as negation. What you choose is the stem. **να γράψω** (simple, perfective) treats the action as a single whole; **να γράφω** (continuous, imperfective) treats it as ongoing, repeated or habitual. The exam tests exactly this choice.\n\nThe default after θέλω, μπορώ, πρέπει, για να, πριν is the simple form for one-off actions. Switch to the continuous whenever the context signals duration (όλη μέρα, συνέχεια, για ώρες), repetition (κάθε μέρα, πάντα, συχνά) or an ongoing state."
+  },
+  {
+   "type": "table",
+   "title": "Signals",
+   "head": [
+    "Simple (να γράψω)",
+    "Continuous (να γράφω)"
+   ],
+   "rows": [
+    [
+     "one occasion: αύριο, απόψε, μια φορά",
+     "κάθε μέρα, συνήθως, πάντα, συχνά"
+    ],
+    [
+     "a result to achieve: να τελειώσω",
+     "a process: να διαβάζω όλο το βράδυ"
+    ],
+    [
+     "πριν (always)",
+     "σταματάω να, συνεχίζω να, αρχίζω να (+ process)"
+    ],
+    [
+     "requests for a single act: Να μου πεις...",
+     "advice about habits: Να τρως φρούτα"
+    ]
+   ],
+   "cite": "Holton §6.4, §6.5.4"
+  },
+  {
+   "type": "rules",
+   "src": "grammar/conjunctions.json#sections[section=9.3.2].rule",
+   "cite": "Holton §9.3.2"
+  },
+  {
+   "type": "culture",
+   "title": "Wishes built on να",
+   "text": "A whole family of Greek wishes is simply **να** + subjunctive with the main verb left out ('may...'). On a birthday you hear **Να ζήσεις!** 'may you live (long)!' and **Να τα εκατοστήσεις!** 'may you reach a hundred (years)!'. Parents of a newborn or of a couple just married are told **Να σας ζήσει!** 'may he/she/it live for you!'. **Να 'σαι καλά** 'may you be well' is the warmest everyday thank-you, and to someone setting off, **Να προσέχεις!** 'take care' uses the continuous form because it is advice for the whole trip, not a single act."
+  },
+  {
+   "type": "uses",
+   "src": "grammar/conjunctions.json#sections[section=9.3.2].uses",
+   "limit": 8,
+   "cite": "Holton §9.3.2"
+  },
+  {
+   "type": "reading",
+   "title": "Συμβουλές για τη νέα δουλειά",
+   "text": "Αγαπητέ μου Δημήτρη,\n\nΧαίρομαι πολύ που βρήκες δουλειά! Θέλω να σου δώσω μερικές συμβουλές, γιατί θυμάμαι πόσο άγχος είχα εγώ την πρώτη μου εβδομάδα.\n\nΠρώτα απ' όλα, προσπάθησε να πηγαίνεις στο γραφείο λίγο νωρίτερα κάθε πρωί. Τις πρώτες μέρες πρέπει να ακούς περισσότερο και να μιλάς λιγότερο. Μην ντρέπεσαι να κάνεις ερωτήσεις· κανείς δεν περιμένει να τα ξέρεις όλα.\n\nΑύριο, πριν φύγεις από το σπίτι, να ελέγξεις αν έχεις πάρει την ταυτότητά σου, γιατί θα σου τη ζητήσουν για την κάρτα εισόδου. Και να θυμηθείς να φας κάτι το μεσημέρι! Ξέρω ότι όταν έχεις άγχος, ξεχνάς να τρως.\n\nΚάτι ακόμα: μην αρχίσεις να δουλεύεις κάθε βράδυ μέχρι τις δέκα. Αν το κάνεις από την αρχή, θα το περιμένουν πάντα. Είναι καλύτερα να τελειώνεις στην ώρα σου και να βλέπεις τους φίλους σου.\n\nΕπίσης, προσπάθησε να μάθεις γρήγορα τα ονόματα των συναδέλφων σου. Αν δεν θυμάσαι κάποιο όνομα, μη φοβάσαι να το ρωτήσεις ξανά. Και κάθε Παρασκευή να γράφεις σε ένα τετράδιο τι έμαθες μέσα στην εβδομάδα.\n\nΑς βρεθούμε την Παρασκευή για φαγητό, να μου πεις πώς πήγε η πρώτη εβδομάδα. Κερνάω εγώ!\n\nΦιλιά,\nΕλένη",
+   "en": "My dear Dimitris,\n\nI'm so glad you found a job! I want to give you a few pieces of advice, because I remember how anxious I was in my own first week.\n\nFirst of all, try to get to the office a little earlier every morning. In the first days you should listen more and talk less. Don't be shy about asking questions; nobody expects you to know everything.\n\nTomorrow, before you leave the house, check that you've taken your ID card, because they'll ask you for it for your entry card. And remember to eat something at lunchtime! I know that when you're stressed, you forget to eat.\n\nOne more thing: don't start working until ten every evening. If you do it from the beginning, they'll always expect it. It's better to finish on time and to see your friends.\n\nAlso, try to learn your colleagues' names quickly. If you don't remember a name, don't be afraid to ask again. And every Friday, write down in a notebook what you learned during the week.\n\nLet's meet on Friday for a meal, so you can tell me how the first week went. My treat!\n\nLove,\nEleni",
+   "gloss": {
+    "Δημήτρη": "Δημήτρης — Dimitris (man's name), vocative/accusative",
+    "Δημήτρης": "Δημήτρης — Dimitris (man's name)",
+    "Ελένη": "Ελένη — Eleni (woman's name)",
+    "Πρώτα": "πρώτα — first (adverb); πρώτα απ' όλα = first of all",
+    "νωρίτερα": "νωρίς — earlier (comparative adverb)",
+    "περισσότερο": "πολύ — more (comparative adverb)",
+    "θυμηθείς": "θυμάμαι — (to) remember (dependent, να θυμηθείς)",
+    "τετράδιο": "τετράδιο — notebook",
+    "συμβουλεύει": "συμβουλεύω — advises",
+    "συναντηθούν": "συναντιέμαι — (will) meet each other (dependent)",
+    "μερικές": "μερικοί — some, a few (fem. pl.)",
+    "ντρέπεσαι": "ντρέπομαι — be shy, embarrassed (μην ντρέπεσαι = don't be shy)",
+    "Κερνάω": "κερνάω — I'm treating (paying for someone); Κερνάω εγώ = my treat",
+    "εισόδου": "είσοδος — entry (gen.); κάρτα εισόδου = entry pass",
+    "απ": "από — from (elided before a vowel)"
+   },
+   "questions": [
+    {
+     "prompt": "Γιατί γράφει η Ελένη στον Δημήτρη;",
+     "answer": "Επειδή ο Δημήτρης βρήκε δουλειά",
+     "options": [
+      "Επειδή ο Δημήτρης βρήκε δουλειά",
+      "Επειδή ο Δημήτρης είναι άρρωστος",
+      "Επειδή η Ελένη άλλαξε δουλειά"
+     ]
+    },
+    {
+     "prompt": "Τι πρέπει να πάρει μαζί του ο Δημήτρης αύριο;",
+     "answer": "Την ταυτότητά του",
+     "options": [
+      "Την ταυτότητά του",
+      "Τον υπολογιστή του",
+      "Φαγητό για το μεσημέρι"
+     ]
+    },
+    {
+     "prompt": "Τι τον συμβουλεύει η Ελένη για τα βράδια;",
+     "answer": "Να τελειώνει στην ώρα του",
+     "options": [
+      "Να τελειώνει στην ώρα του",
+      "Να δουλεύει μέχρι τις δέκα",
+      "Να μένει στο σπίτι"
+     ]
+    },
+    {
+     "prompt": "Πότε θα συναντηθούν;",
+     "answer": "Την Παρασκευή",
+     "options": [
+      "Την Παρασκευή",
+      "Αύριο το βράδυ",
+      "Την Κυριακή"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "mc",
+   "n": 14,
+   "items": [
+    {
+     "prompt": "Πρέπει να ___ φρούτα κάθε μέρα. (τρώω)",
+     "answer": "τρως",
+     "options": [
+      "τρως",
+      "φας"
+     ],
+     "why": "κάθε μέρα: continuous."
+    },
+    {
+     "prompt": "Μπορείς να μου ___ αύριο; (τηλεφωνώ)",
+     "answer": "τηλεφωνήσεις",
+     "options": [
+      "τηλεφωνήσεις",
+      "τηλεφωνείς"
+     ],
+     "why": "One call: simple."
+    },
+    {
+     "prompt": "Σταμάτα να ___! (φωνάζω)",
+     "answer": "φωνάζεις",
+     "options": [
+      "φωνάζεις",
+      "φωνάξεις"
+     ],
+     "why": "σταματώ να + process: continuous."
+    },
+    {
+     "prompt": "Πριν ___, κλείσε τα φώτα. (φεύγω)",
+     "answer": "φύγεις",
+     "options": [
+      "φύγεις",
+      "φεύγεις"
+     ],
+     "why": "πριν always takes the simple form."
+    },
+    {
+     "prompt": "Θέλω να ___ ελληνικά καλά. (μαθαίνω, as a result)",
+     "answer": "μάθω",
+     "options": [
+      "μάθω",
+      "μαθαίνω"
+     ],
+     "why": "The result: simple."
+    },
+    {
+     "prompt": "Μου αρέσει να ___ το πρωί. (τρέχω, habit)",
+     "answer": "τρέχω",
+     "options": [
+      "τρέχω",
+      "τρέξω"
+     ]
+    },
+    {
+     "prompt": "Ας ___ λίγο, είμαστε κουρασμένοι. (κάθομαι, now)",
+     "answer": "καθίσουμε",
+     "options": [
+      "καθίσουμε",
+      "καθόμαστε"
+     ]
+    },
+    {
+     "prompt": "Συνέχισε να ___, πας πολύ καλά. (γράφω)",
+     "answer": "γράφεις",
+     "options": [
+      "γράφεις",
+      "γράψεις"
+     ],
+     "why": "συνεχίζω να + continuous."
+    },
+    {
+     "prompt": "Ήρθα για να σε ___ . (βλέπω, this visit)",
+     "answer": "δω",
+     "options": [
+      "δω",
+      "βλέπω"
+     ]
+    },
+    {
+     "prompt": "Να ___ προσεκτικός στον δρόμο! (είμαι)",
+     "answer": "είσαι",
+     "options": [
+      "είσαι",
+      "ήσουν"
+     ],
+     "why": "είμαι has only one non-past form."
+    },
+    {
+     "prompt": "Ελπίζω να ___ σύντομα. (έρχομαι)",
+     "answer": "έρθεις",
+     "options": [
+      "έρθεις",
+      "έρχεσαι"
+     ]
+    },
+    {
+     "prompt": "Δεν μπορώ να ___ όλη μέρα στο γραφείο. (κάθομαι)",
+     "answer": "κάθομαι",
+     "options": [
+      "κάθομαι",
+      "καθίσω"
+     ],
+     "why": "όλη μέρα: duration, continuous."
+    },
+    {
+     "prompt": "Να μην ___ τόσο πολύ καφέ! (πίνω, generally)",
+     "answer": "πίνεις",
+     "options": [
+      "πίνεις",
+      "πιεις"
+     ]
+    },
+    {
+     "prompt": "Να μην ___ το κλειδί! (ξεχνάω, this time)",
+     "answer": "ξεχάσεις",
+     "options": [
+      "ξεχάσεις",
+      "ξεχνάς"
+     ]
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Πρέπει να ___ (παίρνω) τα φάρμακά σου κάθε πρωί.",
+     "answer": "παίρνεις",
+     "accept": [
+      "παίρνεις"
+     ],
+     "why": "κάθε πρωί is a routine: continuous subjunctive."
+    },
+    {
+     "prompt": "Μπορείς να μου ___ (δίνω) το αλάτι;",
+     "answer": "δώσεις",
+     "accept": [
+      "δώσεις"
+     ],
+     "why": "A request for one act: simple subjunctive."
+    },
+    {
+     "prompt": "Θέλω να ___ (βλέπω) την ταινία απόψε.",
+     "answer": "δω",
+     "accept": [
+      "δω"
+     ],
+     "why": "One viewing tonight: simple subjunctive of βλέπω is δω (irregular stem)."
+    },
+    {
+     "prompt": "Άρχισε να ___ (μαθαίνω) πιάνο πέρσι.",
+     "answer": "μαθαίνει",
+     "accept": [
+      "μαθαίνει"
+     ],
+     "why": "αρχίζω να + a process that continues: continuous."
+    },
+    {
+     "prompt": "Ας ___ (πηγαίνω, εμείς) με τα πόδια, έχει ωραίο καιρό.",
+     "answer": "πάμε",
+     "accept": [
+      "πάμε"
+     ],
+     "why": "One trip now: simple subjunctive (πάμε), with ας for 'let's'."
+    },
+    {
+     "prompt": "Σε παρακαλώ, μη ___ (λέω) σε κανέναν τίποτα.",
+     "answer": "πεις",
+     "accept": [
+      "πεις"
+     ],
+     "why": "A specific prohibition: μην + simple subjunctive (πεις)."
+    },
+    {
+     "prompt": "Ήρθε για να μας ___ (βοηθώ) με τη μετακόμιση.",
+     "answer": "βοηθήσει",
+     "accept": [
+      "βοηθήσει"
+     ],
+     "why": "Purpose (για να) for one occasion: simple."
+    },
+    {
+     "prompt": "Δεν θέλω να ___ (ανησυχώ, εσύ) συνέχεια για μένα.",
+     "answer": "ανησυχείς",
+     "accept": [
+      "ανησυχείς"
+     ],
+     "why": "συνέχεια 'all the time' marks duration: continuous."
+    },
+    {
+     "prompt": "Say in Greek: *Let's leave now.*",
+     "answer": "Ας φύγουμε τώρα.",
+     "accept": [
+      "Ας φύγουμε τώρα",
+      "Ας φεύγουμε τώρα",
+      "Πάμε να φύγουμε",
+      "Ας φύγουμε"
+     ],
+     "why": "ας + simple subjunctive for a single suggestion; ας φεύγουμε is the 'let's get going' variant."
+    },
+    {
+     "prompt": "Say in Greek: *I must finish it today.*",
+     "answer": "Πρέπει να το τελειώσω σήμερα.",
+     "accept": [
+      "Πρέπει να το τελειώσω σήμερα",
+      "Σήμερα πρέπει να το τελειώσω",
+      "Πρέπει να το τελειώσω"
+     ],
+     "why": "A result to achieve: simple subjunctive, weak pronoun before the verb."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Ο γιατρός μού είπε να ___ λιγότερο αλάτι.",
+     "answer": "τρώω",
+     "options": [
+      "τρώω",
+      "φάω"
+     ],
+     "why": "Advice about a general habit: continuous subjunctive."
+    },
+    {
+     "prompt": "Θέλεις να ___ ένα ποτό μετά τη δουλειά;",
+     "answer": "πιούμε",
+     "options": [
+      "πιούμε",
+      "πίνουμε"
+     ],
+     "why": "One drink, one occasion: simple subjunctive."
+    },
+    {
+     "prompt": "Σταμάτησε να ___ πριν από δύο χρόνια.",
+     "answer": "καπνίζει",
+     "options": [
+      "καπνίζει",
+      "καπνίσει"
+     ],
+     "why": "σταματώ να is followed by the process that stops: continuous."
+    },
+    {
+     "prompt": "Ελπίζω να ___ καλά στις εξετάσεις.",
+     "answer": "πας",
+     "options": [
+      "πας",
+      "πηγαίνεις"
+     ],
+     "why": "One exam, one outcome: simple subjunctive."
+    },
+    {
+     "prompt": "Μην ___ τόσο γρήγορα, δεν σε καταλαβαίνω!",
+     "answer": "μιλάς",
+     "options": [
+      "μιλάς",
+      "μιλήσεις"
+     ],
+     "why": "Stopping an action already in progress: μην + continuous."
+    },
+    {
+     "prompt": "Μην ___ να κλειδώσεις την πόρτα!",
+     "answer": "ξεχάσεις",
+     "options": [
+      "ξεχάσεις",
+      "ξεχνάς"
+     ],
+     "why": "A warning about one specific act: μην + simple."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "δουλειά",
+  "συμβουλή",
+  "ερώτηση",
+  "ξεχνώ",
+  "θυμάμαι",
+  "ταυτότητα",
+  "γραφείο",
+  "άγχος",
+  "προσπαθώ",
+  "ζητώ",
+  "ελπίζω",
+  "φίλος"
+ ]
+}

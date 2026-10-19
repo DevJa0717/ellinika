@@ -1,0 +1,981 @@
+{
+ "el": "Ψώνια: λαϊκή, σούπερ μάρκετ, ρούχα",
+ "title": "Shopping: market, supermarket, clothes",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "The grammar of buying things",
+   "text": "Shopping Greek rests on four rules.\n\n**1. Measure + item, same case, no 'of'.** Greek puts the thing measured right after the measure, in the same case: **ένα κιλό ντομάτες**, **μισό κιλό φέτα**, **δύο μπουκάλια νερό**, **ένα πακέτο μακαρόνια**. No genitive, no *από*: *ένα κιλό των ντομάτων* is wrong.\n\n**2. What you ask for is accusative.** After **θέλω**, **θα ήθελα**, **έχετε;**, **βάλτε μου**, **δώστε μου** the object is accusative: Θα ήθελα **έναν** καφέ, **μια** φέτα ψωμί, **ένα** μπουκάλι. The numbers 1, 3, 4 and the hundreds agree in gender: **τρεις** ντομάτες but **τρία** μήλα, **τέσσερις** μπίρες but **τέσσερα** κιλά, **διακόσια** γραμμάρια but **διακόσιες** σελίδες.\n\n**3. Prices.** The euro is neuter and does not change: **ένα ευρώ, δύο ευρώ**. The verb agrees with what is priced: Πόσο **κάνει** η φούστα; Πόσο **κάνουν** τα παπούτσια; 'Per' is the article in the accusative: **δύο ευρώ το κιλό**, **πέντε ευρώ το ένα**.\n\n**4. Clothes talk runs on weak pronouns.** The garment is the subject and you are the genitive pronoun: **Μου είναι** στενό 'it's tight on me', **Σας πάει** 'it suits you'. The object pronoun matches the garment's gender: το παντελόνι → **θα το πάρω**, τη φούστα → **θα την πάρω**, τα παπούτσια → **θα τα πάρω**."
+  },
+  {
+   "type": "table",
+   "title": "Quantities: measure + item",
+   "head": [
+    "English",
+    "Greek",
+    "Note"
+   ],
+   "rows": [
+    [
+     "a kilo of tomatoes",
+     "**ένα κιλό** ντομάτες",
+     "no 'of', no genitive"
+    ],
+    [
+     "half a kilo of feta",
+     "**μισό κιλό** φέτα",
+     "μισός agrees with κιλό (neuter)"
+    ],
+    [
+     "a kilo and a half of potatoes",
+     "**ενάμισι κιλό** πατάτες",
+     "ενάμισης (m) · μιάμιση (f) · ενάμισι (n)"
+    ],
+    [
+     "an hour and a half",
+     "**μιάμιση ώρα**",
+     "ώρα is feminine"
+    ],
+    [
+     "two and a half kilos",
+     "**δυόμισι κιλά**",
+     "δυόμισι never changes"
+    ],
+    [
+     "three and a half kilos / hours",
+     "**τριάμισι** κιλά · **τρεισήμισι** ώρες",
+     "3½ and 4½ follow the gender of 3 and 4"
+    ],
+    [
+     "300 grams of olives",
+     "**τριακόσια γραμμάρια** ελιές",
+     "hundreds agree: τριακόσια (n), τριακόσιες (f), τριακόσιοι (m)"
+    ],
+    [
+     "a quarter (kilo) of ham",
+     "**ένα τέταρτο** ζαμπόν",
+     "deli talk for 250 g"
+    ],
+    [
+     "two bottles of water",
+     "**δύο μπουκάλια** νερό",
+     ""
+    ],
+    [
+     "a packet of coffee",
+     "**ένα πακέτο** καφέ",
+     "καφέ: accusative, like the measure"
+    ],
+    [
+     "a slice of bread / a piece of cheese",
+     "**μια φέτα** ψωμί · **ένα κομμάτι** τυρί",
+     ""
+    ],
+    [
+     "a bit more / a bit less",
+     "**λίγο παραπάνω** · **λίγο λιγότερο**",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Prices out loud",
+   "head": [
+    "Written",
+    "Said",
+    "Note"
+   ],
+   "rows": [
+    [
+     "0,50 €",
+     "πενήντα λεπτά",
+     "λεπτό = cent (and minute)"
+    ],
+    [
+     "1,50 €",
+     "ενάμισι ευρώ · ένα και πενήντα",
+     "ευρώ is neuter: ενάμισι, not ενάμισης"
+    ],
+    [
+     "2,50 €",
+     "δυόμισι ευρώ · δύο και πενήντα",
+     ""
+    ],
+    [
+     "2,80 €",
+     "δύο ογδόντα · δύο ευρώ και ογδόντα λεπτά",
+     "the short form is what you hear"
+    ],
+    [
+     "3,99 €",
+     "τρία ενενήντα εννιά",
+     "counting forms: τρία, τέσσερα"
+    ],
+    [
+     "14 €",
+     "δεκατέσσερα ευρώ",
+     ""
+    ],
+    [
+     "21 €",
+     "είκοσι ένα ευρώ",
+     ""
+    ],
+    [
+     "300 €",
+     "τριακόσια ευρώ",
+     ""
+    ],
+    [
+     "1.250 €",
+     "χίλια διακόσια πενήντα ευρώ",
+     "Greek writes a decimal comma and a thousands point"
+    ],
+    [
+     "a ten / twenty / fifty (note)",
+     "ένα **δεκάευρο** · **εικοσάευρο** · **πενηντάευρο**",
+     "colloquial names of the notes"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "At the λαϊκή and the deli counter",
+   "head": [
+    "What you say",
+    "What you hear",
+    "Meaning"
+   ],
+   "rows": [
+    [
+     "**Πόσο κάνουν** οι ντομάτες;",
+     "",
+     "How much are the tomatoes?"
+    ],
+    [
+     "**Πόσο έχει** το κιλό; · **Πόσο πάνε** τα μήλα;",
+     "",
+     "How much a kilo? · What are the apples going for?"
+    ],
+    [
+     "**Βάλε μου** δύο κιλά. · **Βάλτε μου** μισό κιλό.",
+     "",
+     "Give me (lit. put me) two kilos (εσύ / εσείς)."
+    ],
+    [
+     "**Θα ήθελα** διακόσια γραμμάρια γαλοπούλα.",
+     "",
+     "I'd like 200 g of turkey."
+    ],
+    [
+     "**Σε φέτες**, παρακαλώ. · Λεπτές φέτες.",
+     "",
+     "Sliced, please. · Thin slices."
+    ],
+    [
+     "**Τίποτε άλλο**, ευχαριστώ. · Αυτά.",
+     "",
+     "Nothing else, thanks. · That's it."
+    ],
+    [
+     "",
+     "**Τι να σας βάλω;** · Τι θα πάρουμε;",
+     "What can I get you?"
+    ],
+    [
+     "",
+     "**Πόσο να σας βάλω;**",
+     "How much shall I give you?"
+    ],
+    [
+     "",
+     "Βγήκε **λίγο παραπάνω**, πειράζει;",
+     "It's come out a bit over, is that OK?"
+    ],
+    [
+     "",
+     "**Κάτι άλλο;** · Άλλο τίποτα;",
+     "Anything else?"
+    ],
+    [
+     "",
+     "**Ποιος έχει σειρά;**",
+     "Whose turn is it?"
+    ],
+    [
+     "",
+     "**Θέλετε σακούλα;** · **Μετρητά ή κάρτα;**",
+     "Do you want a bag? · Cash or card?"
+    ],
+    [
+     "",
+     "**Έχετε ψιλά;** · Θέλετε απόδειξη;",
+     "Have you got small change? · Do you want a receipt?"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 1 · At the λαϊκή",
+   "items": [
+    {
+     "el": "Πωλητής: Έλα, κυρία μου! Φρέσκες ντομάτες, ένα και πενήντα το κιλό!",
+     "en": "Stallholder: Come on, madam! Fresh tomatoes, one fifty a kilo!"
+    },
+    {
+     "el": "Πελάτισσα: Είναι γλυκές;",
+     "en": "Customer: Are they sweet?"
+    },
+    {
+     "el": "Πωλητής: Μέλι! Δοκίμασε μία.",
+     "en": "Stallholder: Like honey! Try one."
+    },
+    {
+     "el": "Πελάτισσα: Βάλε μου δύο κιλά. Τα αγγούρια πόσο πάνε;",
+     "en": "Customer: Give me two kilos. What are the cucumbers going for?"
+    },
+    {
+     "el": "Πωλητής: Πενήντα λεπτά το ένα, τα τρία ένα ευρώ.",
+     "en": "Stallholder: Fifty cents each, three for a euro."
+    },
+    {
+     "el": "Πελάτισσα: Δώσε μου τρία. Και μισό κιλό φασολάκια.",
+     "en": "Customer: Give me three. And half a kilo of green beans."
+    },
+    {
+     "el": "Πωλητής: Κάτι άλλο; Όχι; Πέντε ευρώ όλα.",
+     "en": "Stallholder: Anything else? No? Five euros altogether."
+    },
+    {
+     "el": "Πελάτισσα: Ορίστε ένα δεκάευρο.",
+     "en": "Customer: Here's a ten."
+    },
+    {
+     "el": "Πωλητής: Και πέντε ρέστα. Να 'σαι καλά!",
+     "en": "Stallholder: And five change. Cheers (lit. be well)!"
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 2 · Deli counter and checkout",
+   "items": [
+    {
+     "el": "Υπάλληλος: Ποιος έχει σειρά;",
+     "en": "Assistant: Whose turn is it?"
+    },
+    {
+     "el": "Πελάτης: Εγώ. Θα ήθελα τριακόσια γραμμάρια φέτα, παρακαλώ.",
+     "en": "Customer: Mine. I'd like 300 grams of feta, please."
+    },
+    {
+     "el": "Υπάλληλος: Από ποια; Αυτή εδώ είναι βαρελίσια.",
+     "en": "Assistant: Which one? This one here is barrel-aged."
+    },
+    {
+     "el": "Πελάτης: Αυτή. Και ένα τέταρτο γαλοπούλα, σε λεπτές φέτες.",
+     "en": "Customer: That one. And a quarter of turkey, thinly sliced."
+    },
+    {
+     "el": "Υπάλληλος: Βγήκε λίγο παραπάνω, πειράζει;",
+     "en": "Assistant: It's a bit over, is that OK?"
+    },
+    {
+     "el": "Πελάτης: Όχι, δεν πειράζει.",
+     "en": "Customer: No, that's fine."
+    },
+    {
+     "el": "Ταμίας: Καλησπέρα. Θέλετε σακούλα;",
+     "en": "Cashier: Good evening. Do you want a bag?"
+    },
+    {
+     "el": "Πελάτης: Όχι, ευχαριστώ, έχω δική μου.",
+     "en": "Customer: No thanks, I've got my own."
+    },
+    {
+     "el": "Ταμίας: Δεκαοχτώ και σαράντα. Μετρητά ή κάρτα;",
+     "en": "Cashier: Eighteen forty. Cash or card?"
+    },
+    {
+     "el": "Πελάτης: Με κάρτα.",
+     "en": "Customer: By card."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "In a clothes or shoe shop",
+   "head": [
+    "What you say",
+    "What you hear",
+    "Meaning"
+   ],
+   "rows": [
+    [
+     "**Απλώς κοιτάζω**, ευχαριστώ.",
+     "**Μπορώ να σας βοηθήσω;**",
+     "I'm just looking. · Can I help you?"
+    ],
+    [
+     "**Το έχετε σε** μαύρο;",
+     "Σε τι χρώμα το θέλετε;",
+     "Do you have it in black? · What colour do you want it in?"
+    ],
+    [
+     "Φοράω **σαράντα δύο**.",
+     "**Τι νούμερο φοράτε;**",
+     "I wear a 42. · What size do you wear?"
+    ],
+    [
+     "**Μπορώ να το δοκιμάσω;**",
+     "Τα δοκιμαστήρια είναι στο βάθος.",
+     "Can I try it on? · The fitting rooms are at the back."
+    ],
+    [
+     "**Μου είναι** στενό / φαρδύ / μεγάλο / κοντό.",
+     "**Σας κάνει;**",
+     "It's tight / loose / big / short on me. · Does it fit?"
+    ],
+    [
+     "Έχετε **ένα νούμερο μεγαλύτερο**;",
+     "**Σας πάει πολύ!**",
+     "Do you have a size up? · It really suits you!"
+    ],
+    [
+     "**Θα το πάρω.** · Θα το σκεφτώ.",
+     "Είναι **σε προσφορά** · έχει **έκπτωση** τριάντα τοις εκατό.",
+     "I'll take it. · I'll think about it. · It's on offer · 30% off."
+    ],
+    [
+     "**Μπορώ να το αλλάξω;**",
+     "Αλλαγή μόνο **με την απόδειξη**.",
+     "Can I exchange it? · Exchanges only with the receipt."
+    ],
+    [
+     "",
+     "Να σας το **τυλίξω για δώρο**;",
+     "Shall I gift-wrap it for you?"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 3 · Trying on jeans",
+   "items": [
+    {
+     "el": "Πωλήτρια: Καλησπέρα! Μπορώ να σας βοηθήσω;",
+     "en": "Assistant: Good evening! Can I help you?"
+    },
+    {
+     "el": "Πελάτης: Ναι. Αυτό το τζιν το έχετε σε μαύρο;",
+     "en": "Customer: Yes. Do you have these jeans in black?"
+    },
+    {
+     "el": "Πωλήτρια: Βεβαίως. Τι νούμερο φοράτε;",
+     "en": "Assistant: Certainly. What size do you wear?"
+    },
+    {
+     "el": "Πελάτης: Τριάντα δύο. Μπορώ να το δοκιμάσω;",
+     "en": "Customer: Thirty-two. Can I try them on?"
+    },
+    {
+     "el": "Πωλήτρια: Φυσικά, τα δοκιμαστήρια είναι εκεί.",
+     "en": "Assistant: Of course, the fitting rooms are over there."
+    },
+    {
+     "el": "Πελάτης: Μου είναι λίγο στενό. Έχετε ένα νούμερο μεγαλύτερο;",
+     "en": "Customer: They're a bit tight on me. Do you have one size up?"
+    },
+    {
+     "el": "Πωλήτρια: Ορίστε το τριάντα τέσσερα... Σας πάει πολύ!",
+     "en": "Assistant: Here's the 34... They really suit you!"
+    },
+    {
+     "el": "Πελάτης: Ωραίο. Θα το πάρω. Αν χρειαστεί, μπορώ να το αλλάξω;",
+     "en": "Customer: Nice. I'll take them. If need be, can I exchange them?"
+    },
+    {
+     "el": "Πωλήτρια: Μέσα σε δεκαπέντε μέρες, με την απόδειξη.",
+     "en": "Assistant: Within fifteen days, with the receipt."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes.** *ένα κιλό από ντομάτες* or *ένα κιλό των ντομάτων* → **ένα κιλό ντομάτες**. *Πόσο κάνει οι ντομάτες;* → **Πόσο κάνουν** (the verb agrees with the plural). *τρία ντομάτες* → **τρεις ντομάτες**; *ενάμισι ώρα* → **μιάμιση ώρα**. *Είμαι στενό* → **Μου είναι στενό** (the garment is the subject). The pronoun follows the garment, not the English 'it/them': τζιν is singular, so **θα το πάρω**; παπούτσια are plural, so **θα τα πάρω**. In a market, the vendor will say **εσύ** to you; answering in kind (**Βάλε μου**) is normal, not rude."
+  },
+  {
+   "type": "culture",
+   "title": "The λαϊκή: a market that moves every day",
+   "text": "Every neighbourhood in a Greek city has its **λαϊκή (αγορά)**, a street market set up on the same street on a fixed weekday from early morning until about two or three in the afternoon. Older shoppers arrive with a wheeled trolley, the **καρότσι**, and vendors shout prices to the whole street: **«Ένα ευρώ το κιλό οι ντομάτες!»**. Growers (**παραγωγοί**) stand next to traders (**έμποροι**), and regulars have their favourite stall. Nobody haggles hard, but a vendor will often round down or throw in **ένα παραπάνω** 'one extra'. Near closing time, prices drop as stalls clear their goods."
+  },
+  {
+   "type": "reading",
+   "title": "Σάββατο στη λαϊκή",
+   "text": "Κάθε Σάββατο πρωί η κυρία Ελένη παίρνει το καρότσι της και πηγαίνει στη λαϊκή της γειτονιάς. Η λίστα της είναι πάντα η ίδια: δύο κιλά ντομάτες, ένα κιλό πορτοκάλια, μισό κιλό φασολάκια και λίγα μήλα. Δεν γράφει ποτέ τις τιμές, αλλά τις θυμάται όλες.\n\nΣτον πρώτο πάγκο ο κύριος Στέλιος φωνάζει: «Ντομάτες Κρήτης, ένα και ογδόντα το κιλό!» Η κυρία Ελένη τις κοιτάζει καλά. «Είναι λίγο ακριβές σήμερα, Στέλιο», λέει. «Για σένα, ενάμισι ευρώ», απαντάει εκείνος και της βάζει δύο κιλά.\n\nΜετά αγοράζει πορτοκάλια από έναν νεαρό παραγωγό από το Άργος. «Δοκιμάστε ένα, κυρία μου! Είναι γλυκά σαν μέλι!» Η κυρία Ελένη δοκιμάζει, χαμογελάει και παίρνει δύο κιλά αντί για ένα.\n\nΣτο τέλος το καρότσι της είναι γεμάτο και το πορτοφόλι της πιο ελαφρύ. Όλα μαζί κάνουν δώδεκα ευρώ και τριάντα λεπτά. Πληρώνει με ένα εικοσάευρο και ο τελευταίος πωλητής τής δίνει τα ρέστα. «Καλή εβδομάδα, κυρία Ελένη!» της λέει. «Τα λέμε το άλλο Σάββατο!»",
+   "en": "Every Saturday morning Mrs Eleni takes her trolley and goes to the neighbourhood street market. Her list is always the same: two kilos of tomatoes, a kilo of oranges, half a kilo of green beans and a few apples. She never writes the prices down, but she remembers them all.\n\nAt the first stall Mr Stelios shouts: 'Cretan tomatoes, one eighty a kilo!' Mrs Eleni looks at them carefully. 'They're a bit expensive today, Stelios,' she says. 'For you, one fifty,' he answers, and puts two kilos in for her.\n\nThen she buys oranges from a young grower from Argos. 'Try one, madam! They're sweet as honey!' Mrs Eleni tastes one, smiles and takes two kilos instead of one.\n\nIn the end her trolley is full and her purse lighter. Altogether it comes to twelve euros thirty. She pays with a twenty and the last stallholder gives her the change. 'Have a good week, Mrs Eleni!' he says. 'See you next Saturday!'",
+   "gloss": {
+    "Ελένη": "Ελένη — Eleni (woman's name)",
+    "καρότσι": "καρότσι — shopping trolley; pushchair",
+    "λαϊκή": "λαϊκή (αγορά) — weekly street market",
+    "φασολάκια": "φασολάκια — green beans",
+    "πάγκο": "πάγκος — stall; counter; bench",
+    "Στέλιος": "Στέλιος — Stelios (man's name)",
+    "Στέλιο": "Στέλιος — Stelios (vocative)",
+    "Κρήτης": "Κρήτη — Crete (genitive)",
+    "ογδόντα": "ογδόντα — eighty",
+    "ενάμισι": "ενάμισι — one and a half (neuter)",
+    "παραγωγό": "παραγωγός — producer, grower",
+    "Άργος": "Άργος — Argos (town in the Peloponnese)",
+    "μέλι": "μέλι — honey",
+    "εικοσάευρο": "εικοσάευρο — twenty-euro note",
+    "ρέστα": "ρέστα — change (money)",
+    "λέμε": "λέω — to say; τα λέμε = see you"
+   },
+   "questions": [
+    {
+     "prompt": "Σε ποια τιμή της δίνει τελικά τις ντομάτες ο κύριος Στέλιος;",
+     "answer": "Ενάμισι ευρώ το κιλό",
+     "options": [
+      "Ενάμισι ευρώ το κιλό",
+      "Ένα και ογδόντα το κιλό",
+      "Δύο ευρώ το κιλό"
+     ]
+    },
+    {
+     "prompt": "Γιατί παίρνει δύο κιλά πορτοκάλια αντί για ένα;",
+     "answer": "Γιατί είναι πολύ γλυκά",
+     "options": [
+      "Γιατί είναι πολύ γλυκά",
+      "Γιατί είναι φτηνά",
+      "Γιατί το γράφει η λίστα της"
+     ]
+    },
+    {
+     "prompt": "Πόσα ρέστα παίρνει;",
+     "answer": "Εφτά ευρώ και εβδομήντα λεπτά",
+     "options": [
+      "Εφτά ευρώ και εβδομήντα λεπτά",
+      "Οχτώ ευρώ και τριάντα λεπτά",
+      "Δώδεκα ευρώ και τριάντα λεπτά"
+     ]
+    },
+    {
+     "prompt": "Πότε θα ξαναπάει στη λαϊκή;",
+     "answer": "Το επόμενο Σάββατο",
+     "options": [
+      "Το επόμενο Σάββατο",
+      "Την Κυριακή",
+      "Σε δύο εβδομάδες"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say in Greek: *a kilo of tomatoes*",
+     "answer": "ένα κιλό ντομάτες",
+     "accept": [
+      "ένα κιλό ντομάτες"
+     ],
+     "why": "Measure + item in the same case, no 'of' and no genitive."
+    },
+    {
+     "prompt": "Say in Greek: *half a kilo of feta*",
+     "answer": "μισό κιλό φέτα",
+     "accept": [
+      "μισό κιλό φέτα"
+     ],
+     "why": "μισό agrees with κιλό (neuter); the cheese follows in the same case."
+    },
+    {
+     "prompt": "Say in Greek: *a kilo and a half of potatoes*",
+     "answer": "ενάμισι κιλό πατάτες",
+     "accept": [
+      "ενάμισι κιλό πατάτες",
+      "ενάμιση κιλό πατάτες"
+     ],
+     "why": "ενάμισι is the neuter form, agreeing with κιλό; ενάμιση is also written."
+    },
+    {
+     "prompt": "Say in Greek: *two and a half kilos of oranges*",
+     "answer": "δυόμισι κιλά πορτοκάλια",
+     "accept": [
+      "δυόμισι κιλά πορτοκάλια",
+      "δυόμιση κιλά πορτοκάλια"
+     ],
+     "why": "δυόμισι never changes; κιλά is plural after it."
+    },
+    {
+     "prompt": "Say in Greek: *three hundred grams of olives*",
+     "answer": "τριακόσια γραμμάρια ελιές",
+     "accept": [
+      "τριακόσια γραμμάρια ελιές",
+      "τρακόσια γραμμάρια ελιές"
+     ],
+     "why": "The hundreds agree with the noun they count: γραμμάρια is neuter, so τριακόσια."
+    },
+    {
+     "prompt": "Say in Greek: *two bottles of water*",
+     "answer": "δύο μπουκάλια νερό",
+     "accept": [
+      "δύο μπουκάλια νερό",
+      "δυο μπουκάλια νερό"
+     ],
+     "why": "Measure + item in the same case, no 'of' and no genitive."
+    },
+    {
+     "prompt": "Say in Greek: *a packet of coffee*",
+     "answer": "ένα πακέτο καφέ",
+     "accept": [
+      "ένα πακέτο καφέ"
+     ],
+     "why": "The item takes the case of the measure: ένα πακέτο (acc.) καφέ (acc.)."
+    },
+    {
+     "prompt": "Say in Greek: *three tomatoes*",
+     "answer": "τρεις ντομάτες",
+     "accept": [
+      "τρεις ντομάτες"
+     ],
+     "why": "3 and 4 have a masculine/feminine form (τρεις, τέσσερις) and a neuter one (τρία, τέσσερα)."
+    },
+    {
+     "prompt": "Say in Greek: *four apples*",
+     "answer": "τέσσερα μήλα",
+     "accept": [
+      "τέσσερα μήλα"
+     ],
+     "why": "μήλο is neuter, so the neuter τέσσερα."
+    },
+    {
+     "prompt": "Say in Greek: *an hour and a half*",
+     "answer": "μιάμιση ώρα",
+     "accept": [
+      "μιάμιση ώρα"
+     ],
+     "why": "ώρα is feminine, so μιάμιση (m. ενάμισης, n. ενάμισι)."
+    },
+    {
+     "prompt": "Ask: *How much are the cucumbers?*",
+     "answer": "Πόσο κάνουν τα αγγούρια;",
+     "accept": [
+      "Πόσο κάνουν τα αγγούρια;",
+      "Πόσο κοστίζουν τα αγγούρια;",
+      "Πόσο έχουν τα αγγούρια;",
+      "Πόσο πάνε τα αγγούρια;",
+      "Τα αγγούρια πόσο κάνουν;",
+      "Τα αγγούρια πόσο πάνε;",
+      "Τα αγγούρια πόσο έχουν;"
+     ],
+     "why": "The verb agrees with what is priced: plural κάνουν."
+    },
+    {
+     "prompt": "Ask: *How much is this skirt?*",
+     "answer": "Πόσο κάνει αυτή η φούστα;",
+     "accept": [
+      "Πόσο κάνει αυτή η φούστα;",
+      "Πόσο κάνει η φούστα αυτή;",
+      "Πόσο κοστίζει αυτή η φούστα;",
+      "Πόσο κοστίζει η φούστα αυτή;",
+      "Αυτή η φούστα πόσο κάνει;",
+      "Αυτή η φούστα πόσο κοστίζει;"
+     ],
+     "why": "Singular subject, singular verb; αυτή + article + noun."
+    },
+    {
+     "prompt": "Say the price: **2,50 €**",
+     "answer": "δυόμισι ευρώ",
+     "accept": [
+      "δυόμισι ευρώ",
+      "δυόμιση ευρώ",
+      "δύο και πενήντα",
+      "δύο πενήντα",
+      "δυο και πενήντα",
+      "δυο πενήντα",
+      "δύο ευρώ και πενήντα λεπτά",
+      "δύο ευρώ και πενήντα",
+      "δυο ευρώ και πενήντα λεπτά",
+      "δυο ευρώ και πενήντα"
+     ],
+     "why": "δυόμισι, or simply 'two fifty': δύο και πενήντα / δύο πενήντα."
+    },
+    {
+     "prompt": "Say the price: **1,50 €**",
+     "answer": "ενάμισι ευρώ",
+     "accept": [
+      "ενάμισι ευρώ",
+      "ενάμιση ευρώ",
+      "ένα και πενήντα",
+      "ένα πενήντα",
+      "ένα ευρώ και πενήντα λεπτά",
+      "ένα ευρώ και πενήντα"
+     ],
+     "why": "ευρώ is neuter, so ενάμισι; or 'one fifty'."
+    },
+    {
+     "prompt": "Say the price: **3,20 €**",
+     "answer": "τρία είκοσι",
+     "accept": [
+      "τρία είκοσι",
+      "τρία και είκοσι",
+      "τρία ευρώ και είκοσι λεπτά",
+      "τρία ευρώ και είκοσι"
+     ],
+     "why": "Counting form τρία; shops say 'three twenty'."
+    },
+    {
+     "prompt": "Say in Greek: *two euros a kilo*",
+     "answer": "δύο ευρώ το κιλό",
+     "accept": [
+      "δύο ευρώ το κιλό",
+      "δυο ευρώ το κιλό"
+     ],
+     "why": "'Per' is the definite article in the accusative: το κιλό."
+    },
+    {
+     "prompt": "To a stallholder (εσύ): *Give me two kilos.*",
+     "answer": "Βάλε μου δύο κιλά.",
+     "accept": [
+      "Βάλε μου δύο κιλά.",
+      "Βάλε μου δυο κιλά.",
+      "Δώσε μου δύο κιλά.",
+      "Δώσε μου δυο κιλά."
+     ],
+     "why": "Market Greek uses βάζω 'put' and εσύ: βάλε μου (or δώσε μου)."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Ένα κιλό ___",
+     "answer": "πορτοκάλια",
+     "options": [
+      "πορτοκάλια",
+      "πορτοκαλιών",
+      "από πορτοκάλια"
+     ],
+     "why": "Measure + item in the same case, no 'of' and no genitive."
+    },
+    {
+     "prompt": "___ ώρα",
+     "answer": "μιάμιση",
+     "options": [
+      "μιάμιση",
+      "ενάμισι",
+      "ενάμισης"
+     ],
+     "why": "ώρα is feminine: μιάμιση."
+    },
+    {
+     "prompt": "___ μήνας",
+     "answer": "ενάμισης",
+     "options": [
+      "ενάμισης",
+      "μιάμιση",
+      "ενάμισι"
+     ],
+     "why": "μήνας is masculine: ενάμισης (acc. ενάμιση)."
+    },
+    {
+     "prompt": "___ ώρες",
+     "answer": "τρεισήμισι",
+     "options": [
+      "τρεισήμισι",
+      "τριάμισι",
+      "τρία και μισό"
+     ],
+     "why": "With feminine and masculine nouns 3½ is τρεισήμισι; with neuters τριάμισι."
+    },
+    {
+     "prompt": "___ γραμμάρια τυρί",
+     "answer": "διακόσια",
+     "options": [
+      "διακόσια",
+      "διακόσιες",
+      "διακόσιοι"
+     ],
+     "why": "γραμμάριο is neuter: διακόσια."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "To a shop assistant (εσείς): *Give me half a kilo.*",
+     "answer": "Βάλτε μου μισό κιλό.",
+     "accept": [
+      "Βάλτε μου μισό κιλό.",
+      "Δώστε μου μισό κιλό.",
+      "Μου βάζετε μισό κιλό;",
+      "Μου δίνετε μισό κιλό;"
+     ],
+     "why": "Polite imperative -τε + weak pronoun after it; or the softer present question Μου βάζετε...;"
+    },
+    {
+     "prompt": "Say: *I'd like two hundred grams of turkey.*",
+     "answer": "Θα ήθελα διακόσια γραμμάρια γαλοπούλα.",
+     "accept": [
+      "Θα ήθελα διακόσια γραμμάρια γαλοπούλα."
+     ],
+     "why": "θα ήθελα is the standard polite request; quantity + item, same case."
+    },
+    {
+     "prompt": "Say: *Nothing else, thanks.*",
+     "answer": "Τίποτε άλλο, ευχαριστώ.",
+     "accept": [
+      "Τίποτε άλλο, ευχαριστώ.",
+      "Τίποτα άλλο, ευχαριστώ.",
+      "Άλλο τίποτε, ευχαριστώ.",
+      "Άλλο τίποτα, ευχαριστώ."
+     ],
+     "why": "τίποτε and τίποτα are both standard."
+    },
+    {
+     "prompt": "Say: *I'm just looking, thanks.*",
+     "answer": "Απλώς κοιτάζω, ευχαριστώ.",
+     "accept": [
+      "Απλώς κοιτάζω, ευχαριστώ.",
+      "Απλώς κοιτάζω.",
+      "Απλά κοιτάζω, ευχαριστώ.",
+      "Απλά κοιτάζω.",
+      "Μόνο κοιτάζω, ευχαριστώ.",
+      "Μόνο κοιτάζω.",
+      "Απλώς ρίχνω μια ματιά, ευχαριστώ.",
+      "Απλώς ρίχνω μια ματιά.",
+      "Απλά ρίχνω μια ματιά, ευχαριστώ.",
+      "Απλά ρίχνω μια ματιά."
+     ],
+     "why": "απλώς (or colloquial απλά) + present tense."
+    },
+    {
+     "prompt": "About trousers (το παντελόνι): *Can I try them on?*",
+     "answer": "Μπορώ να το δοκιμάσω;",
+     "accept": [
+      "Μπορώ να το δοκιμάσω;",
+      "Να το δοκιμάσω;"
+     ],
+     "why": "παντελόνι is singular neuter in Greek, so το; perfective after να for a single try."
+    },
+    {
+     "prompt": "About shoes (τα παπούτσια): *Can I try them on?*",
+     "answer": "Μπορώ να τα δοκιμάσω;",
+     "accept": [
+      "Μπορώ να τα δοκιμάσω;",
+      "Να τα δοκιμάσω;"
+     ],
+     "why": "Plural neuter object pronoun: τα."
+    },
+    {
+     "prompt": "About a skirt (η φούστα): *I'll take it.*",
+     "answer": "Θα την πάρω.",
+     "accept": [
+      "Θα την πάρω."
+     ],
+     "why": "Feminine object pronoun την before a vowel or stop; the decision is perfective θα + πάρω."
+    },
+    {
+     "prompt": "About a shirt (το πουκάμισο): *It's a bit tight on me.*",
+     "answer": "Μου είναι λίγο στενό.",
+     "accept": [
+      "Μου είναι λίγο στενό.",
+      "Μου είναι στενό λίγο.",
+      "Είναι λίγο στενό."
+     ],
+     "why": "The garment is the subject (στενό agrees with πουκάμισο); you are the genitive μου."
+    },
+    {
+     "prompt": "About boots (οι μπότες): *They're big on me.*",
+     "answer": "Μου είναι μεγάλες.",
+     "accept": [
+      "Μου είναι μεγάλες.",
+      "Μου έρχονται μεγάλες.",
+      "Είναι μεγάλες."
+     ],
+     "why": "μεγάλες agrees with the feminine plural μπότες."
+    },
+    {
+     "prompt": "About jeans (το τζιν): *Do you have them in black?*",
+     "answer": "Το έχετε σε μαύρο;",
+     "accept": [
+      "Το έχετε σε μαύρο;",
+      "Το έχετε σε μαύρο χρώμα;",
+      "Υπάρχει σε μαύρο;"
+     ],
+     "why": "Colours after σε are neuter singular: σε μαύρο, σε μπλε."
+    },
+    {
+     "prompt": "Ask: *Do you have one size up?*",
+     "answer": "Έχετε ένα νούμερο μεγαλύτερο;",
+     "accept": [
+      "Έχετε ένα νούμερο μεγαλύτερο;",
+      "Έχετε ένα μεγαλύτερο νούμερο;",
+      "Έχετε ένα πιο μεγάλο νούμερο;",
+      "Έχετε μεγαλύτερο νούμερο;",
+      "Έχετε νούμερο μεγαλύτερο;",
+      "Έχετε πιο μεγάλο νούμερο;"
+     ],
+     "why": "νούμερο = clothes or shoe size."
+    },
+    {
+     "prompt": "Shop assistant to customer: *What size do you wear?*",
+     "answer": "Τι νούμερο φοράτε;",
+     "accept": [
+      "Τι νούμερο φοράτε;",
+      "Τι νούμερο είστε;"
+     ],
+     "why": "Polite plural; φοράω/φορώ is 'to wear'."
+    },
+    {
+     "prompt": "Say: *I wear a 42.*",
+     "answer": "Φοράω σαράντα δύο.",
+     "accept": [
+      "Φοράω σαράντα δύο.",
+      "Φοράω 42.",
+      "Φορώ σαράντα δύο.",
+      "Φορώ 42.",
+      "Είμαι σαράντα δύο.",
+      "Είμαι 42."
+     ],
+     "why": "φοράω and φορώ are both correct."
+    },
+    {
+     "prompt": "To a customer, about a dress: *It really suits you!* (polite)",
+     "answer": "Σας πάει πολύ!",
+     "accept": [
+      "Σας πάει πολύ!",
+      "Σας πάει πάρα πολύ!",
+      "Σας πάει!"
+     ],
+     "why": "πηγαίνω/πάω + genitive pronoun = 'suits': σου πάει, σας πάει."
+    },
+    {
+     "prompt": "Ask: *Can I pay by card?*",
+     "answer": "Μπορώ να πληρώσω με κάρτα;",
+     "accept": [
+      "Μπορώ να πληρώσω με κάρτα;",
+      "Μπορώ να πληρώσω με την κάρτα;"
+     ],
+     "why": "με + accusative for means of payment; μετρητά = cash."
+    },
+    {
+     "prompt": "Say: *I don't have small change.*",
+     "answer": "Δεν έχω ψιλά.",
+     "accept": [
+      "Δεν έχω ψιλά."
+     ],
+     "why": "ψιλά = small change (coins); ρέστα = change given back."
+    },
+    {
+     "prompt": "Ask: *Can I exchange it?* (about a jumper, το πουλόβερ)",
+     "answer": "Μπορώ να το αλλάξω;",
+     "accept": [
+      "Μπορώ να το αλλάξω;",
+      "Να το αλλάξω;",
+      "Αλλάζει;"
+     ],
+     "why": "αλλάζω = exchange; neuter object το."
+    },
+    {
+     "prompt": "Fill in: Πόσο ___ οι μπανάνες; (κάνω)",
+     "answer": "κάνουν",
+     "accept": [
+      "κάνουν",
+      "κάνουνε"
+     ],
+     "why": "Plural subject (οι μπανάνες), plural verb."
+    }
+   ]
+  },
+  {
+   "gen": "number-words",
+   "n": 4,
+   "max": [
+    100,
+    1000
+   ],
+   "genders": [
+    "n",
+    "f",
+    "m"
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Πόσο ___ τα παπούτσια;",
+     "answer": "κάνουν",
+     "options": [
+      "κάνουν",
+      "κάνει",
+      "κάνετε"
+     ],
+     "why": "The plural subject τα παπούτσια takes a plural verb."
+    },
+    {
+     "prompt": "Το φόρεμα; Θα ___ πάρω.",
+     "answer": "το",
+     "options": [
+      "το",
+      "την",
+      "τον"
+     ],
+     "why": "φόρεμα is neuter: το."
+    },
+    {
+     "prompt": "Οι κάλτσες μού είναι ___",
+     "answer": "μικρές",
+     "options": [
+      "μικρές",
+      "μικρά",
+      "μικροί"
+     ],
+     "why": "The adjective agrees with the feminine plural κάλτσες."
+    },
+    {
+     "prompt": "The cashier asks «Έχετε ψιλά;». She wants…",
+     "answer": "small change",
+     "options": [
+      "small change",
+      "a bag",
+      "a loyalty card"
+     ],
+     "why": "ψιλά = small coins, so she can give you change."
+    },
+    {
+     "prompt": "A stallholder shouts «Πέντε ευρώ το ένα!». That means…",
+     "answer": "five euros each",
+     "options": [
+      "five euros each",
+      "five for one euro",
+      "five euros a kilo"
+     ],
+     "why": "The accusative article marks 'per': το ένα 'each one'."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "κιλό",
+  "τιμή",
+  "νούμερο",
+  "δοκιμάζω",
+  "ταιριάζω",
+  "φτηνός",
+  "ακριβός",
+  "ρέστα",
+  "ταμείο",
+  "μετρητά",
+  "σακούλα",
+  "μπουκάλι"
+ ]
+}

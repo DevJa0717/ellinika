@@ -1,0 +1,1422 @@
+{
+ "el": "Η Ελλάδα των διαλέκτων",
+ "title": "Greece of the dialects: regional speech and old Athenian slang",
+ "vocab": [
+  "μαγκιά",
+  "κουτσαβάκης",
+  "τεκές",
+  "μπαγλαμάς",
+  "ντερβίσης",
+  "μπέσα",
+  "μπεσαλής",
+  "αλάνι",
+  "σερέτης",
+  "ντουμάνι",
+  "ταμάμ",
+  "μπάρεμ",
+  "τεμέτερον"
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Μία γλώσσα, πολλές φωνές: why bother with dialects?",
+   "text": "Standard Modern Greek (*η Κοινή Νεοελληνική*) grew mainly out of southern speech, especially that of the Peloponnese, and was spread by school, army, radio and television. Around it there used to be a dense map of **διάλεκτοι** (dialects proper) and **ιδιώματα** (local varieties): Pontic and Cappadocian from Anatolia, Cretan, Cypriot, Tsakonian, the Ionian and Aegean island varieties, and the northern mainland speech of Epirus, Thessaly and Macedonia. Urbanisation since the 1950s has eroded most of it, but you still meet it everywhere: in grandparents' speech, in village festivals, in folk and *λαϊκό* songs, in comedy (where it is often a cheap stereotype), and in hundreds of words that have slipped into everyday colloquial Greek.\n\nYour goal in this lesson is **recognition**, not production. You should be able to say 'that's Pontic' or 'that sounds northern / Ionian / Dodecanesian', understand the handful of words everyone knows, and know which jokes and labels are touchy. (Cretan and Cypriot have their own lessons.)\n\nThe second half of the lesson is about a **social** rather than regional variety: the old urban slang of Athens and Piraeus, the **μάγκικα** of the *μάγκες* and the rebetiko world of the 1870s to 1950s. Much of today's colloquial Greek (*μαγκιά σου, μπέσα, τζάμπα μάγκας, ντουμάνι, τουμπεκί, φαρσί*) comes from there."
+  },
+  {
+   "type": "table",
+   "title": "The map at a glance",
+   "head": [
+    "Variety",
+    "Where",
+    "Hallmarks",
+    "Sample",
+    "Alive today?"
+   ],
+   "rows": [
+    [
+     "**Northern (βόρεια ιδιώματα)**",
+     "Epirus, Thessaly, Macedonia, Thrace, Rumeli, N. Aegean (Lesbos, Samos, Thasos...)",
+     "unstressed vowels raised/dropped (κώφωση); accusative for indirect object",
+     "*σι λέου* (σε λέω), *χέρ'*, *πιδί*",
+     "Strong in villages and older speakers; a light trace in Thessaloniki"
+    ],
+    [
+     "**Semi-northern (ημιβόρεια)**",
+     "Lefkada, Kastoria, Mykonos, Skyros, parts of Thrace",
+     "only unstressed *i, u* dropped",
+     "*ψ'χή μ'* (ψυχή μου)",
+     "Older speakers"
+    ],
+    [
+     "**Southern / Peloponnesian**",
+     "Peloponnese, Athens area, Ionian, Cyclades",
+     "basis of the standard",
+     "(the standard itself)",
+     "It *is* the standard"
+    ],
+    [
+     "**Ionian (Επτανησιακά)**",
+     "Corfu, Kefalonia, Zakynthos, Lefkada...",
+     "Venetian/Italian loans, sing-song intonation",
+     "*αβοκάτος* (lawyer), *καντούνι*",
+     "Loanwords and accent survive"
+    ],
+    [
+     "**Maniot (Μανιάτικα)**",
+     "Mani (S. Peloponnese)",
+     "archaic *u* for *y*",
+     "*ξούλο* (ξύλο)",
+     "Older speakers, laments (μοιρολόγια)"
+    ],
+    [
+     "**Tsakonian (Τσακώνικα)**",
+     "a few villages in Arcadia",
+     "descends from Doric; unintelligible to other Greeks",
+     "-",
+     "Endangered"
+    ],
+    [
+     "**Pontic (Ποντιακά)**",
+     "from the Black Sea; now Macedonia, Athens, diaspora",
+     "η = ε, ω = ο, ä/ö vowels, *ντο* = τι",
+     "*Ντο εφτάς;*",
+     "Yes, as a heritage language"
+    ],
+    [
+     "**Cappadocian**",
+     "central Anatolia; refugees in N. Greece",
+     "Turkish-influenced, lost gender",
+     "-",
+     "Nearly extinct; small revival"
+    ],
+    [
+     "**Dodecanese / SE**",
+     "Rhodes, Kos, Karpathos...",
+     "γ dropped, final -ν kept, double consonants",
+     "*μεάλο*, *είπεν*",
+     "Village speech"
+    ],
+    [
+     "**Old Athenian**",
+     "pre-1830s Athens, Megara, Aegina, Kymi",
+     "u for y, tsitakism",
+     "-",
+     "Extinct"
+    ],
+    [
+     "**Arvanitika / Vlach**",
+     "Attica, Boeotia, Argolid... / Pindus, Thessaly",
+     "not Greek: Albanian and Aromanian (Romance) varieties",
+     "*μπέσα* (Alb.)",
+     "Elderly speakers; endangered"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Ποντιακά: the language of the Black Sea Greeks",
+   "text": "Pontic Greek (**Ποντιακά**, called by its speakers **Ρωμαίικα** or *Ποντιακόν λαλίαν*) was spoken along the southern Black Sea coast around Trabzon (Τραπεζούντα), and in the Caucasus and southern Russia. After the persecutions and deportations of 1916–1923 and the population exchange, most Pontic Greeks settled in **Macedonia** (Thessaloniki, Kilkis, Drama, Ptolemaida, Veria, Giannitsa) and in Athens; a second wave came from the former Soviet Union in the 1990s. A small number of Muslim speakers of a related variety (*Romeyka*) still live around Of in Turkey and keep remarkably ancient features, such as the infinitive.\n\nBecause of its long isolation, Pontic preserves things the standard lost: **η is pronounced ε** (*πεγάδιν* = πηγάδι, *νύφε* = νύφη), **ω stays ο** where the standard has ου (*ζωμίν* = ζουμί, *ρωθώνι* = ρουθούνι), neuters keep **-ιν/-ον** (*παιδίν, χωρίον*), feminine adjectives can end in -ος (*η έμορφος*), the imperative ends in **-ον** (*γράψον* = γράψε), the passive aorist in **-θα** (*εγαπέθα* = αγαπήθηκα), the negation is **'κι** (from ancient *οὐκί*), and *ας* can replace *να* (*δος με ας φάγω* = give me something to eat; note the accusative *με*, as in northern Greek). There are vowels between e and a (*ä*: *όλä* = όλα) and between e and o (*ö*), and 'thick' š, ž sounds. To a standard speaker, fast Pontic is largely **unintelligible**.\n\nPontic culture is very much alive: associations (*σύλλογοι*), the **λύρα** (the three-stringed Pontic lyra, also known by its Turkish name *κεμεντζέ(ς)*), the fast shoulder-shaking dances such as **τικ** and the war dance **σέρρα**, and the commemoration of the **Pontic Genocide on 19 May**."
+  },
+  {
+   "type": "table",
+   "title": "Pontic words and phrases you may hear",
+   "head": [
+    "Pontic",
+    "Standard Greek",
+    "Meaning",
+    "Strength",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "**Ντο εφτάς;**",
+     "Τι κάνεις;",
+     "How are you? / What are you doing?",
+     "0",
+     "*ντο* = τι is the best-known Pontic word; Greeks quote it to signal 'Pontic'."
+    ],
+    [
+     "**Ντο λες;**",
+     "Τι λες;",
+     "What are you saying?",
+     "0",
+     ""
+    ],
+    [
+     "**τεμέτερον**",
+     "δικός μας, πατριώτης",
+     "one of ours, a fellow Pontian",
+     "0",
+     "From ancient *τῶν ἡμετέρων*. *Ντο εφτάς, τεμέτερον;*"
+    ],
+    [
+     "**κόρτσοπον**",
+     "κορίτσι",
+     "girl",
+     "0",
+     "Also a common name for clubs and venues."
+    ],
+    [
+     "**'κι** (κι)",
+     "δεν",
+     "not",
+     "0",
+     "*Ζαντός κι είμαι!* = I'm not stupid! (= Χαζός είμαι;)"
+    ],
+    [
+     "**ζαντός**",
+     "χαζός",
+     "stupid, dim",
+     "1",
+     ""
+    ],
+    [
+     "**τρανός, τρανόν**",
+     "μεγάλος",
+     "big, great",
+     "0",
+     "Also old standard/poetic: *τρανός* = great."
+    ],
+    [
+     "**μουχαμπέτ**",
+     "γλέντι, μάζωξη",
+     "a get-together, a feast",
+     "0",
+     "*Τρανόν μουχαμπέτ!* = a big party! (Turkish *muhabbet*, chat)."
+    ],
+    [
+     "**άμον**",
+     "όπως, σαν",
+     "like, as",
+     "0",
+     "*άμον ντο θέλετε* = as you like."
+    ],
+    [
+     "**δέβα**",
+     "πήγαινε, φύγε",
+     "go!",
+     "0-1",
+     ""
+    ],
+    [
+     "**δέβα χαθ'**",
+     "άντε χάσου",
+     "get lost!",
+     "2",
+     "Famous enough to be used jokingly by non-Pontians."
+    ],
+    [
+     "**δέβα γαμού**",
+     "άντε γαμήσου",
+     "fuck off",
+     "4",
+     "Vulgar, like its standard equivalent."
+    ],
+    [
+     "**Πόντιος και μόνα ματ'**",
+     "Πόντιος, κι ας έχω ένα μάτι",
+     "a Pontian, even with one eye",
+     "0",
+     "Proud motto: being Pontic is worth more than anything."
+    ],
+    [
+     "**γράψον, ποίσον**",
+     "γράψε, φτιάξε",
+     "write!, make!",
+     "0",
+     "Ancient-style imperatives in -ον."
+    ],
+    [
+     "**δος με ας φάγω**",
+     "δώσε μου να φάω",
+     "give me something to eat",
+     "0",
+     "ας for να; accusative με."
+    ]
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Pontic jokes (Ποντιακά ανέκδοτα): handle with care**\n\nGreece has a whole joke genre in which the Pontian (*ο Πόντιος*) is naive or dim, much like 'Irish jokes' in Britain. For decades it was mainstream. Many Pontic Greeks find these jokes **offensive**, given that their families arrived as refugees from massacres, and the use of *Πόντιος* as a synonym for 'idiot' is racist. Associations have protested publicly against such jokes.\n\n• Never tell them to Pontians, and be wary of telling them at all.\n• If someone tells one, a neutral reaction is fine; a sharper one: *Αυτά τα ανέκδοτα δεν μ' αρέσουν, οι Πόντιοι έχουν περάσει πολλά.*\n• Pontians themselves tell self-ironic jokes; that is their call, not yours.\n• *19 Μαΐου* (Pontic Genocide remembrance) is not a day for jokes."
+  },
+  {
+   "type": "table",
+   "title": "Επτανησιακά: Venetian Greek of the Ionian islands",
+   "head": [
+    "Ionian word",
+    "From",
+    "Standard Greek",
+    "Meaning / notes"
+   ],
+   "rows": [
+    [
+     "**αβοκάτος**",
+     "Ital. *avvocato*",
+     "δικηγόρος",
+     "lawyer"
+    ],
+    [
+     "**φέμενα**",
+     "Ven. *femena*",
+     "γυναίκα",
+     "woman"
+    ],
+    [
+     "**προφεσόρας**",
+     "Ital. *professore*",
+     "καθηγητής",
+     "teacher, professor"
+    ],
+    [
+     "**λέτερα**",
+     "Ital. *lettera*",
+     "γράμμα, ταχυδρομείο",
+     "letter, post"
+    ],
+    [
+     "**απαρταμέντο**",
+     "Ital. *appartamento*",
+     "διαμέρισμα",
+     "flat, apartment"
+    ],
+    [
+     "**σοσπίρο**",
+     "Ital. *sospiro*",
+     "αναστεναγμός",
+     "a sigh"
+    ],
+    [
+     "**τσέφο**",
+     "Ven. *cefo*",
+     "στραβομουτσούνιασμα",
+     "a sour, twisted face (*μη μου κάνεις τσέφο*)"
+    ],
+    [
+     "**σοκόρσο**",
+     "Ven. *socorso*",
+     "βοήθεια",
+     "help"
+    ],
+    [
+     "**τσαβατίνος**",
+     "Ven.",
+     "κακός μάστορας",
+     "a botcher, a bad craftsman"
+    ],
+    [
+     "**στρατόνι**",
+     "Ital. *stradone*",
+     "δρομάκι",
+     "lane, little road"
+    ],
+    [
+     "**καντούνι**",
+     "Venetian",
+     "στενό, σοκάκι",
+     "Corfu's narrow alleys (*τα καντούνια της Κέρκυρας*)"
+    ],
+    [
+     "**κουμερκί**",
+     "Ital. *commercio*",
+     "εμπόριο",
+     "trade, commerce"
+    ],
+    [
+     "**μπαρόνα**",
+     "Ven. *barona*",
+     "ψηλομύτα",
+     "a woman who gives herself airs"
+    ],
+    [
+     "**ξεστέλιαστος**",
+     "(Lefkada)",
+     "πολύ αδύνατος",
+     "skinny, scrawny"
+    ],
+    [
+     "**στραβομάρα**",
+     "(Lefkada)",
+     "δουλειά, υποχρέωση",
+     "a chore, an errand (*έχω κάτι στραβομάρες αύριο*); elsewhere *στραβομάρα* = blindness/stupidity"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Ionian islands: what still sounds 'Eftanisiotiko'",
+   "text": "The Ionian islands were Venetian for about four centuries and were never under Ottoman rule; Corfu's educated class spoke Italian well into the 19th century. Hence the **Italian/Venetian loanwords** above (most now used by older islanders or for local colour), the **καντάδα** (serenade with guitars and mandolins, a Zakynthos and Kefalonia speciality), the Corfiot dishes **παστιτσάδα, σοφρίτο, μπουρδέτο**, and Western-style church music and philharmonic bands. The islands' Greek has a characteristic sing-song intonation that other Greeks imitate (gently).\n\nLefkada is semi-northern: older speakers drop unstressed *i* and *u*, as in *ψ'χή μ'* (ψυχή μου, my darling) or *εγίν'κες* (έγινες). The islanders are proud of their dialect, and Kefalonians enjoy a reputation (self-cultivated) for eccentricity and wit; *Κεφαλλονίτης* jokes are affectionate rather than nasty."
+  },
+  {
+   "type": "table",
+   "title": "Mainland, islands and the Ottoman layer: recognition list",
+   "head": [
+    "Form",
+    "Variety",
+    "Standard",
+    "Meaning / note"
+   ],
+   "rows": [
+    [
+     "**σι λέου**, **τ' πιδί**",
+     "Northern (Thessaly, Macedonia, Epirus)",
+     "σε λέω, το παιδί",
+     "raised/dropped unstressed vowels; see the previous lesson"
+    ],
+    [
+     "**-μαν / -ταν** in the past (e.g. *πήγαμαν*)",
+     "Thessaly and other northern areas",
+     "πήγαμε",
+     "distinctive past endings"
+    ],
+    [
+     "**-ούλ'** diminutive",
+     "Thessaly, W. Macedonia",
+     "-ούλα / -ούλι",
+     "e.g. a pet-name suffix"
+    ],
+    [
+     "**ξούλο**",
+     "Maniot",
+     "ξύλο",
+     "archaic *u* for *y*, shared with old Athenian and Tsakonian"
+    ],
+    [
+     "**ίντα;**",
+     "many Aegean islands (and Crete, Cyprus)",
+     "τι;",
+     "*Ίντα θες;* = what do you want?"
+    ],
+    [
+     "**τσ** for κ before e/i (*τσιτακισμός*)",
+     "Lesbos, Mykonos, Cyclades, Crete...",
+     "κ",
+     "*τσαι* for *και*: an islander's or Cretan's tell"
+    ],
+    [
+     "**μεάλο**",
+     "Dodecanese",
+     "μεγάλο",
+     "voiced fricatives dropped between vowels"
+    ],
+    [
+     "**είπεν**",
+     "Dodecanese (and Cyprus)",
+     "είπε",
+     "final -ν kept"
+    ],
+    [
+     "**άλ-λος, θάλασ-σα**",
+     "Dodecanese, Cyprus",
+     "άλλος, θάλασσα",
+     "double consonants actually pronounced long"
+    ],
+    [
+     "**-ιουν** genitive plural",
+     "Lesbos",
+     "-ων",
+     "a Lesbian (Mytilini) marker"
+    ],
+    [
+     "**ντε**",
+     "Turkish *de*; pan-Greek",
+     "έλα, λοιπόν",
+     "*έλα ντε!* (come on! / exactly!), *ντε και καλά* (insisting)"
+    ],
+    [
+     "**ντιπ**",
+     "Turkish *dip* 'bottom'; northern and pan-Greek",
+     "εντελώς, καθόλου",
+     "*ντιπ μαλάκας* (a total idiot, 4), *ντιπ για ντιπ* (completely)"
+    ],
+    [
+     "**μπιτ**",
+     "Turkish",
+     "εντελώς",
+     "*μπιτ για μπιτ* (totally); Lefkada *μπιτ ξεστέλιαστο*"
+    ],
+    [
+     "**μπάρεμ**",
+     "Turkish *bari*",
+     "τουλάχιστον, έστω",
+     "*Μπάρεμ ένα τηλέφωνο να έπαιρνες!* (at least you could have called)"
+    ],
+    [
+     "**ταμάμ**",
+     "Turkish *tamam*",
+     "εντάξει, ακριβώς",
+     "*ήρθαμε ταμάμ* = we're quits; *ταμάμ!* = exactly; regional/older"
+    ],
+    [
+     "**γιοκ**",
+     "Turkish *yok*",
+     "όχι, τίποτα",
+     "*Λεφτά; Γιοκ.* (Money? None.) jokey"
+    ],
+    [
+     "**άφεριμ**",
+     "Turkish/Persian",
+     "μπράβο",
+     "often ironic: *άφεριμ, τα κατάφερες πάλι!*"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Arvanites, Vlachs and other neighbours",
+   "text": "**Αρβανίτικα** are old Albanian dialects brought by settlers in the 14th–15th centuries to Attica, Boeotia, the Argolid, Corinthia, southern Euboea and several islands (Hydra, Spetses, Salamis, Andros). Their speakers, the **Αρβανίτες**, have long identified as Greeks (many heroes of 1821 were Arvanites); the language is now spoken mostly by the elderly. Never call Arvanites *Αλβανοί*. Albanian left Greek some well-loved words: **μπέσα** (word of honour), and in the Argolid **γκιόσα**, an old barren nanny goat, cooked as a speciality and also used as an insult for an old, unattractive woman (3/5). One theory derives **μάγκας** itself from Albanian *μάγκα*, a band of irregular fighters.\n\n**Βλάχικα** (Aromanian) is a Romance language close to Romanian, spoken by the **Βλάχοι** of the Pindus mountains (Metsovo, Samarina), Thessaly and Macedonia, traditionally transhumant shepherds; they too identify overwhelmingly as Greek. From the shepherding association, Athenian slang turned **βλάχος** into 'hick, yokel, boor' (3/5), with jokey compounds like *στρουγκανόβλαχος* (a sheepfold hick). The word is used much more in Athens than in the north, and it is risky in front of anyone with Vlach roots. The old saying **ο βλάχος κρασί πίνει, αλλά αμπέλι δεν σκάβει** (the Vlach drinks wine but doesn't dig the vineyard) praises getting by on wits rather than toil.\n\n**Asia Minor refugees** (1922–23) brought Smyrna and Constantinople (*Πόλη*) to the Athens and Thessaloniki suburbs: the very names *Νέα Σμύρνη, Νέα Ιωνία, Νέα Φιλαδέλφεια, Νίκαια (Κοκκινιά)* tell the story. They brought the *σμυρναίικο* song, the rebetiko's oriental modes, a refined cuisine (*σουτζουκάκια σμυρναίικα*, *τσουρέκι*), and a stock of Turkish-origin colloquial words. A *Πολίτης* is a Constantinopolitan Greek, not a 'citizen'."
+  },
+  {
+   "type": "table",
+   "title": "Μάγκικα: the slang of the old Athenian and Piraeus underworld",
+   "head": [
+    "Word",
+    "Then (1870s–1950s)",
+    "Now",
+    "Register / strength",
+    "Survives?"
+   ],
+   "rows": [
+    [
+     "**μάγκας**",
+     "a working-class urban tough with a code of honour, swagger and style",
+     "1) dude, mate (*μάγκα μου*); 2) a cool, brave or crafty guy; 3) a thug",
+     "colloquial, 1",
+     "**Very much alive**"
+    ],
+    [
+     "**μαγκιά**",
+     "the mangas' attitude, nerve",
+     "nerve, cool; **μαγκιά σου!** = respect, well done",
+     "colloquial, 1",
+     "Alive"
+    ],
+    [
+     "**βαρύμαγκας**",
+     "a heavyweight, respected mangas",
+     "ironic or nostalgic",
+     "colloquial, 1",
+     "Nostalgic"
+    ],
+    [
+     "**ψευτόμαγκας / τζάμπα μάγκας**",
+     "a fake tough",
+     "a wannabe hard man who folds at the first difficulty",
+     "colloquial, 2",
+     "Alive"
+    ],
+    [
+     "**κουτσαβάκης**",
+     "1870s–1890s Psyrri swaggerers with a fake limp, one sleeve hanging, half-shaved moustache when the police caught them",
+     "ironic: a would-be tough",
+     "colloquial, 2",
+     "Rare, ironic"
+    ],
+    [
+     "**μόρτης**",
+     "a street rogue, a lad of the underworld",
+     "mostly in song lyrics (*ήμουνα μόρτης μια φορά*)",
+     "dated, 1",
+     "Song language"
+    ],
+    [
+     "**σερέτης**",
+     "a hard, unbending man; or a retired, quietly respected mangas",
+     "nostalgic",
+     "dated, 1",
+     "Rare"
+    ],
+    [
+     "**ντερβίσης**",
+     "lit. a dervish; a proud, trustworthy mangas; also a hashish smoker",
+     "*ντερβισόπαιδο* (a great lad)",
+     "dated, 1",
+     "Rare, nostalgic"
+    ],
+    [
+     "**μπέσα / μπεσαλής / μπαμπέσης**",
+     "word of honour / a man of his word / a traitor",
+     "same: *έχει μπέσα*, *μπέσα;* (honest?), *μπαμπεσιά* (dirty trick)",
+     "colloquial, 1",
+     "Alive"
+    ],
+    [
+     "**αλάνι / αλανιάρης**",
+     "a street kid from the *αλάνες* (vacant lots)",
+     "a scamp, a free-spirited kid",
+     "colloquial, 1",
+     "Alive, affectionate"
+    ],
+    [
+     "**ζόρικος / νταής**",
+     "a tough / a bully",
+     "same",
+     "colloquial, 1-2",
+     "Alive"
+    ],
+    [
+     "**τεκές**",
+     "a hashish den with hookahs (closed under Metaxas, 1936+)",
+     "jokingly, a smoky room or a stoners' hangout",
+     "slang, 2",
+     "Historical / jokey"
+    ],
+    [
+     "**αργιλές (ναργιλές)**, **λουλάς**",
+     "the hookah and its bowl",
+     "*ναργιλές* = shisha; *άρτσι μπούρτσι και λουλάς* = a slapdash hotchpotch",
+     "colloquial, 1",
+     "Alive"
+    ],
+    [
+     "**ντουμάνι**",
+     "thick smoke in the tekes",
+     "a smoke-filled room: *έγινε ντουμάνι*",
+     "colloquial, 1",
+     "Alive"
+    ],
+    [
+     "**μαστούρα, μαστουρωμένος, μαστούρης**",
+     "being high on hashish",
+     "high, stoned (any drug, even tired/dazed)",
+     "slang, 2",
+     "Alive"
+    ],
+    [
+     "**χασικλής**",
+     "a hashish smoker",
+     "dated",
+     "slang, 2",
+     "Song language"
+    ],
+    [
+     "**κάνε τουμπεκί**",
+     "*τουμπεκί*: hookah tobacco",
+     "shut up, keep quiet; *τουμπεκί ψιλοκομμένο* (mum's the word)",
+     "slang, 2",
+     "Alive"
+    ],
+    [
+     "**μιλάει φαρσί**",
+     "*φαρσί* = Persian (Farsi)",
+     "speaks fluently / knows perfectly",
+     "colloquial, 0",
+     "Alive"
+    ],
+    [
+     "**καβουράκι, κομπολόι**",
+     "the mangas' hat and worry beads",
+     "κομπολόι still everywhere",
+     "neutral, 0",
+     "Objects survive"
+    ],
+    [
+     "**μπαγλαμάς**",
+     "a tiny bouzouki-family instrument (Turkish *bağlama*), easy to hide",
+     "the instrument",
+     "neutral, 0",
+     "Alive in music"
+    ],
+    [
+     "**κουμπούρα / κουμπούρας**",
+     "*κουμπούρα*: an old pistol",
+     "*κουμπούρας*: a hopeless pupil (school slang)",
+     "colloquial, 1-2",
+     "*κουμπούρας* alive"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Διάλογος 1: Η γιαγιά από τον Πόντο",
+   "items": [
+    {
+     "el": "Γιαγιά Σοφία: Έλα, κόρτσοπον, έλα! Ντο εφτάς;",
+     "en": "Grandma Sofia: Come, girl, come! How are you?"
+    },
+    {
+     "el": "Δανάη (ψιθυριστά): Γιώργο, τι είπε;",
+     "en": "Danai (whispering): Giorgos, what did she say?"
+    },
+    {
+     "el": "Γιώργος: «Έλα, κορίτσι μου, τι κάνεις;». Το «ντο» είναι «τι».",
+     "en": "Giorgos: 'Come, my girl, how are you?' 'Do' means 'what'."
+    },
+    {
+     "el": "Δανάη: Καλά είμαι, γιαγιά, ευχαριστώ! Εσείς;",
+     "en": "Danai: I'm fine, Grandma, thank you! And you?"
+    },
+    {
+     "el": "Γιαγιά Σοφία: Καλά, καλά. Τεμέτερον είσαι;",
+     "en": "Grandma Sofia: Fine, fine. Are you one of ours?"
+    },
+    {
+     "el": "Γιώργος: Ρωτάει αν είσαι Πόντια. «Τεμέτερον» λέμε τους δικούς μας.",
+     "en": "Giorgos: She's asking if you're Pontic. 'Temeteron' is what we call our own people."
+    },
+    {
+     "el": "Δανάη: Όχι, γιαγιά, Αθηναία. Αλλά μ' αρέσει πολύ η λύρα!",
+     "en": "Danai: No, Grandma, I'm from Athens. But I love the lyra!"
+    },
+    {
+     "el": "Γιαγιά Σοφία: Αθηναία; Ε, καλό κορίτσι είσαι, φαίνεται.",
+     "en": "Grandma Sofia: An Athenian? Well, you're a good girl, I can see that."
+    },
+    {
+     "el": "Δανάη: Το Σάββατο θα πάμε στο πανηγύρι του συλλόγου;",
+     "en": "Danai: Are we going to the association's festival on Saturday?"
+    },
+    {
+     "el": "Γιώργος: Θα πάμε. «Τρανόν μουχαμπέτ», όπως λέει η γιαγιά: μεγάλο γλέντι.",
+     "en": "Giorgos: We are. 'A big feast', as Grandma says: a huge party."
+    },
+    {
+     "el": "Δανάη: Να σε ρωτήσω κάτι; Τα ανέκδοτα με τους Πόντιους...",
+     "en": "Danai: Can I ask you something? The jokes about Pontians..."
+    },
+    {
+     "el": "Γιώργος: Μην τα πεις μπροστά στη γιαγιά. Δεν είναι αστεία γι' αυτήν. Θυμάται τι πέρασαν οι δικοί της.",
+     "en": "Giorgos: Don't tell them in front of Grandma. They're not funny to her. She remembers what her family went through."
+    },
+    {
+     "el": "Δανάη: Κατάλαβα. Και τι λέει όταν θυμώνει;",
+     "en": "Danai: Got it. And what does she say when she gets angry?"
+    },
+    {
+     "el": "Γιώργος: «Δέβα χαθ'!», δηλαδή «άντε χάσου». Αν είναι πολύ θυμωμένη, ακόμα χειρότερα.",
+     "en": "Giorgos: 'Get lost!' If she's really angry, worse than that."
+    },
+    {
+     "el": "Γιαγιά Σοφία: Πόντιος και μόνα ματ'!",
+     "en": "Grandma Sofia: Pontic, even with one eye!"
+    },
+    {
+     "el": "Γιώργος: Αυτό σημαίνει «Πόντιος, έστω και μ' ένα μάτι». Περηφάνια, ό,τι κι αν γίνει.",
+     "en": "Giorgos: That means 'a Pontian, even if one-eyed'. Pride, whatever happens."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Διάλογος 2: Ο παππούς από τον Πειραιά",
+   "items": [
+    {
+     "el": "Εγγονός: Παππού, πέρασα στη σχολή!",
+     "en": "Grandson: Grandpa, I got into university!"
+    },
+    {
+     "el": "Παππούς: Μπράβο, λεβέντη μου! Μαγκιά σου!",
+     "en": "Grandpa: Well done, my lad! Respect!"
+    },
+    {
+     "el": "Εγγονός: Χαχα, «μαγκιά σου» λέμε κι εμείς. Από πού βγαίνει;",
+     "en": "Grandson: Haha, we say 'magkia sou' too. Where does it come from?"
+    },
+    {
+     "el": "Παππούς: Από τον μάγκα, βρε. Τον κανονικό, με το καβουράκι, όχι τους τζάμπα μάγκες της πλατείας.",
+     "en": "Grandpa: From the mangas, of course. The real one, with the little hat, not the fake tough guys in the square."
+    },
+    {
+     "el": "Εγγονός: Ποιοι είναι οι τζάμπα μάγκες;",
+     "en": "Grandson: Who are the 'tzampa manges'?"
+    },
+    {
+     "el": "Παππούς: Αυτοί που φουσκώνουν και στο πρώτο ζόρι την κάνουν.",
+     "en": "Grandpa: The ones who puff themselves up and scarper at the first sign of trouble."
+    },
+    {
+     "el": "Εγγονός: Α, οι ψευτόμαγκες. Εμείς τους λέμε και κάγκουρες, αν έχουν και μηχανάκι.",
+     "en": "Grandson: Oh, the fake tough guys. We call them 'kagouras' too, if they have a motorbike."
+    },
+    {
+     "el": "Παππούς: Κάγκουρες; Σαν το καγκουρό; Τι λέξεις είναι αυτές!",
+     "en": "Grandpa: Kangaroos? Like the animal? What kind of words are these!"
+    },
+    {
+     "el": "Εγγονός: Κι εσύ λες «σερέτης» και «μόρτης» και δεν σε καταλαβαίνει κανείς!",
+     "en": "Grandson: And you say 'seretis' and 'mortis' and nobody understands you!"
+    },
+    {
+     "el": "Παππούς: Όποιος ξέρει, ξέρει. Άκου τα ρεμπέτικα και θα καταλάβεις.",
+     "en": "Grandpa: Those who know, know. Listen to rebetika and you'll understand."
+    },
+    {
+     "el": "Εγγονός: Πάντως ο φίλος μου ο Άρης είναι μπεσαλής: ό,τι λέει, το κάνει.",
+     "en": "Grandson: Anyway, my friend Aris is a man of his word: whatever he says, he does."
+    },
+    {
+     "el": "Παππούς: Ε, αυτό είναι το σπουδαιότερο. Μπέσα, παιδί μου. Τα άλλα είναι λόγια.",
+     "en": "Grandpa: Well, that's what matters most. Besa, my boy. The rest is just talk."
+    },
+    {
+     "el": "Εγγονός: Μπέσα, παππού. Άντε, κάνε τουμπεκί τώρα, αρχίζει το ματς!",
+     "en": "Grandson: Besa, Grandpa. Come on, keep quiet now, the match is starting!"
+    },
+    {
+     "el": "Παππούς: Τουμπεκί, ε; Κι αυτή τη λέξη από μας την πήρατε!",
+     "en": "Grandpa: Toumbeki, eh? You got that word from us too!"
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Recognition drill: which variety is this?",
+   "items": [
+    {
+     "el": "Ντο εφτάς, τεμέτερον; (Pontic)",
+     "en": "How are you, fellow Pontian?"
+    },
+    {
+     "el": "Δος με ας φάγω. (Pontic)",
+     "en": "Give me something to eat."
+    },
+    {
+     "el": "Σι λέου, δεν ήρθι κανένας. (northern rural)",
+     "en": "I'm telling you, nobody came."
+    },
+    {
+     "el": "Ξεστέλιαστος έγινες, ψ'χή μ'! (Lefkada)",
+     "en": "You've got so skinny, my darling!"
+    },
+    {
+     "el": "Ο αβοκάτος μού έστειλε λέτερα. (old Ionian)",
+     "en": "The lawyer sent me a letter."
+    },
+    {
+     "el": "Χαθήκαμε στα καντούνια. (Corfu)",
+     "en": "We got lost in the alleys."
+    },
+    {
+     "el": "Ίντα θες; (Aegean islands)",
+     "en": "What do you want?"
+    },
+    {
+     "el": "Το μεάλο σπίτι. (Dodecanese)",
+     "en": "The big house."
+    },
+    {
+     "el": "Είπεν ότι θα 'ρθει. (Dodecanese)",
+     "en": "He said he'd come."
+    },
+    {
+     "el": "Μπάρεμ ένα τηλέφωνο να έπαιρνες! (Turkish loan, pan-Greek colloquial)",
+     "en": "At least you could have called!"
+    },
+    {
+     "el": "Μου χρωστάς πέντε, σου χρωστάω πέντε: είμαστε ταμάμ. (Turkish loan, regional)",
+     "en": "You owe me five, I owe you five: we're quits."
+    },
+    {
+     "el": "Λεφτά; Γιοκ. (Turkish loan, jokey)",
+     "en": "Money? None."
+    },
+    {
+     "el": "Μιλάει φαρσί τα ιταλικά. (old slang, pan-Greek)",
+     "en": "He speaks Italian fluently."
+    },
+    {
+     "el": "Έγινε ντουμάνι το μπαλκόνι. (rebetiko-era word)",
+     "en": "The balcony turned into a cloud of smoke."
+    }
+   ]
+  },
+  {
+   "type": "rules",
+   "title": "Pronunciation notes",
+   "items": [
+    "Pontic *ντο* is pronounced [do], exactly like the musical note; in *Ντο εφτάς;* the stress falls on *εφ-τάς* and the two words run together: [doefˈtas].",
+    "Pontic *ä* is between *e* and *a* (*όλä* sounds like 'ólæ'), and *ö* between *e* and *o*; *š* and *ž* are 'thick' sh/zh sounds. You do not need to produce them, but they are the instant giveaway of Pontic speech.",
+    "*Τεμέτερον* [teˈmeteron] is stressed on the second syllable.",
+    "Northern *σι λέου* sounds like one word [siˈleu]; unstressed vowels nearly vanish: *σκλι* (σκυλί) is a single syllable.",
+    "Dodecanese double consonants are really long: *άλ-λος* [ˈalːos], like Italian *bello*.",
+    "Ionian speech is known for a melodic, rising-falling intonation; *καντούνι* [kanˈduni], *αβοκάτος* [avoˈkatos].",
+    "*Μάγκας* is [ˈmaŋɡas]; the vocative *μάγκα* is said with the stress firmly on the first syllable and often a drawn-out *ά*: *μάαγκα μου*.",
+    "*Μαγκιά σου* [maɲˈɟa su]: the *γκι* is palatal, close to the *gy* of Hungarian.",
+    "*Ντουμάνι* [duˈmani], *τουμπεκί* [tubeˈci], *μπαγλαμάς* [baɣlaˈmas]: Turkish loans keep final stress in many cases."
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes and false friends**\n\n• **Πόντιος** means 'a Pontic Greek'. Its use as a synonym for 'stupid' (and *ποντιακό ανέκδοτο* culture) is offensive to many; don't use it that way.\n• **βλάχος**: an ethnic Vlach (Aromanian) or, in Athenian slang, a 'hick' (3/5). Same word, very different effect; avoid the slang sense with people you don't know.\n• **Αρβανίτες** are not *Αλβανοί*: they are Greeks of old Albanian-speaking stock.\n• **μάγκας** is not just positive: depending on tone it is 'dude', 'cool guy', or 'thug'. *Κάνει τον μάγκα* = he's acting tough (negative).\n• **φαρσί** in *μιλάει φαρσί* means 'fluently', whatever language follows.\n• **Πολίτης** with a capital, in context, is a Constantinopolitan Greek, not just a 'citizen'.\n• **στραβομάρα** in Lefkada = a chore; elsewhere = blindness or stupidity (*τι στραβομάρα!* = how blind can you be!).\n• **κουμπούρας** (a bad pupil) is not **κουμπούρα** (an old pistol).\n• Don't sprinkle dialect forms (*ντο, σι λέου, ίντα*) into your own Greek: it reads as mockery. Use them only when quoting.\n• **μπέσα** is from Albanian, **ντεμέκ, ταμάμ, γιοκ, ντιπ** from Turkish: Greeks often mislabel all such words as 'Turkish'."
+  },
+  {
+   "type": "culture",
+   "title": "Rebetiko, the μάγκες and what survived",
+   "text": "In late-19th-century Athens, the *κουτσαβάκηδες* of the Psyrri district swaggered with a fake limp, one jacket sleeve dangling, pointed shoes and enormous moustaches, until police chief **Μπαϊρακτάρης** broke them in the 1890s by publicly cutting off half their moustaches and the toes of their shoes. Their successors, the **μάγκες** of Piraeus and the refugee neighbourhoods of the 1920s and 30s, gave Greece the **ρεμπέτικο**: songs born in prisons, hashish dens (*τεκέδες*) and port taverns, played on the bouzouki and the little **μπαγλαμάς**. The earliest underworld songs are sometimes called *μουρμούρικα*.\n\nThe 1922 catastrophe brought the musicians of Smyrna and Constantinople, with their oriental modes, into the same neighbourhoods; Markos Vamvakaris, Vasilis Tsitsanis and others turned the genre into the sound of urban Greece. The **Metaxas dictatorship (1936–41)** closed the tekedes and censored drug references, and after the war rebetiko slid into mainstream *λαϊκό*. Despite the myth, only a small minority of recorded rebetika are actually about drugs.\n\nWhat survived? The music, triumphantly (rebetiko was added to UNESCO's intangible heritage list in 2017), and a layer of words that every Greek now uses without thinking of *τεκέδες*: **μάγκας, μαγκιά σου, τζάμπα μάγκας, μπέσα, αλάνι, ζόρικος, ντουμάνι, μαστούρα, τουμπεκί, φαρσί**. The rest (*σερέτης, μόρτης, ντερβίσης, κουτσαβάκης, χασικλής*) live mainly in lyrics and in the mouths of older Piraeus men, which is exactly where you will hear them."
+  },
+  {
+   "type": "reading",
+   "title": "Ο κυρ-Παντελής θυμάται",
+   "text": "Ο κυρ-Παντελής θυμάται\n\nΚάτσε, παιδί μου, κάτσε. Θα σε κεράσω έναν καφέ και θα σου πω, αφού ρωτάς.\n\nΟ πατέρας μου ήταν μάγκας. Όχι σαν τους σημερινούς, που λένε «μάγκα μου» ο ένας στον άλλον και φοράνε αθλητικά. Μάγκας με τα όλα του: καβουράκι στραβά, κομπολόι στο χέρι, παπούτσι μυτερό, και μπέσα. Αυτό πάνω απ' όλα. Αν έδινε τον λόγο του, τελείωσε. Μπεσαλής άνθρωπος. Τους μπαμπέσηδες δεν τους έκανε παρέα.\n\nΉρθε από τη Σμύρνη το '22, δεκαπέντε χρονών, με τη μάνα του και μια κουβέρτα. Στην Κοκκινιά μεγάλωσε, σε παράγκα. Αλάνι της γειτονιάς, ξυπόλυτος στις αλάνες. Δούλευε στο λιμάνι, φορτοεκφορτωτής. Τα βράδια έπαιζε μπαγλαμά. Μου έλεγε ότι τον έκρυβαν μέσα στο σακάκι, γιατί αν σε έπιανε ο χωροφύλακας με όργανο, σε περνούσε για χασικλή.\n\nΤεκέδες; Ναι, είχε. Πριν από τον Μεταξά, ο τεκές ήταν ντουμάνι από το πρωί ως το βράδυ και ο αργιλές πήγαινε από χέρι σε χέρι. Ο πατέρας μου, να πω την αλήθεια, δεν ήταν μαστούρης. Ντερβίσης ήταν, όπως έλεγαν τότε: περήφανος, ήσυχος, δεν πείραζε κανέναν. Αλλά αν τον πείραζες... Σερέτης.\n\nΜετά ο Μεταξάς τα έκλεισε όλα, και τα τραγούδια με τον λουλά κόπηκαν από τις πλάκες. Και μετά ήρθε ο πόλεμος, και μετά τα άλλα.\n\nΟ απέναντί μας ήταν Πόντιος, ο Ζαχαρίας. Μόλις με έβλεπε, φώναζε «Ντο εφτάς, τεμέτερον;». Εγώ μικρός δεν καταλάβαινα, νόμιζα ότι με βρίζει! Μετά έμαθα: «τι κάνεις, πατριώτη». Είχε και λύρα, και στις γιορτές παίζαμε μαζί, ο ένας μπουζούκι, ο άλλος λύρα. Τα παιδιά του Ζαχαρία, άμα τους έλεγε κανείς ανέκδοτο για Πόντιους, γίνονταν θηρία. Δίκιο είχαν.\n\nΤώρα; Τώρα οι νέοι λένε «μαγκιά σου» όταν περάσεις στις εξετάσεις, και «τζάμπα μάγκα» αυτόν που κάνει τον σκληρό και τον μαλώνει η μάνα του. Λένε «φαρσί» και «τουμπεκί» και δεν ξέρουν από πού βγήκαν. Κουτσαβάκης, σερέτης, μόρτης; Αυτά τα ξέρουμε εμείς οι παλιοί κι όσοι ακούνε ρεμπέτικα.\n\nΔεν πειράζει. Οι λέξεις πεθαίνουν σαν τους ανθρώπους. Η μπέσα όμως να μην πεθάνει. Αυτό να θυμάσαι. Άντε, πιες τον καφέ σου, κρυώνει.",
+   "en": "Old Pantelis remembers\n\nSit down, my boy, sit down. I'll buy you a coffee and tell you, since you're asking.\n\nMy father was a mangas. Not like today's lot, who call each other 'mangas' and wear trainers. A mangas with everything that goes with it: little hat at an angle, worry beads in his hand, pointed shoes, and besa – his word of honour. That above all. If he gave his word, that was that. A man of his word. He didn't keep company with traitors.\n\nHe came from Smyrna in '22, fifteen years old, with his mother and a blanket. He grew up in Kokkinia, in a shack. A street kid of the neighbourhood, barefoot on the vacant lots. He worked in the port, a stevedore. In the evenings he played the baglamas. He told me they used to hide it inside their jackets, because if the gendarme caught you with an instrument he took you for a hashish smoker.\n\nHashish dens? Yes, there were. Before Metaxas, the tekes was thick with smoke from morning till night and the hookah went from hand to hand. My father, to tell the truth, wasn't a stoner. He was a 'dervish', as they said back then: proud, quiet, never bothered anyone. But if you bothered him... a hard man.\n\nThen Metaxas closed it all down, and the songs about the pipe were cut from the records. And then came the war, and then the rest.\n\nThe man opposite us was Pontic, Zacharias. As soon as he saw me he'd shout 'Do eftas, temeteron?'. As a kid I didn't understand, I thought he was swearing at me! Later I learned: 'how are you, fellow countryman'. He had a lyra too, and on feast days we played together, one on bouzouki, the other on lyra. Zacharias's kids, if anyone told them a joke about Pontians, turned into wild beasts. They were right.\n\nNow? Now young people say 'magkia sou' when you pass your exams, and 'tzampa mangas' for the guy who acts tough and gets told off by his mother. They say 'farsi' and 'toumbeki' and don't know where they came from. Koutsavakis, seretis, mortis? Only us old ones know those, and people who listen to rebetika.\n\nNever mind. Words die like people. But besa mustn't die. Remember that. Go on, drink your coffee, it's getting cold.",
+   "gloss": {
+    "μάγκας": "μάγκας — old-style urban tough with a code; today 'dude'",
+    "μάγκα μου": "μάγκα μου — mate, dude (vocative)",
+    "καβουράκι": "καβουράκι — the mangas's small brimmed hat",
+    "κομπολόι": "κομπολόι — worry beads",
+    "μπέσα": "μπέσα — word of honour, trustworthiness (< Albanian)",
+    "Μπεσαλής": "μπεσαλής — a man of his word",
+    "μπαμπέσηδες": "μπαμπέσης — a treacherous person",
+    "Σμύρνη": "Σμύρνη — Smyrna (İzmir), burned in 1922",
+    "Κοκκινιά": "Κοκκινιά — refugee district of Piraeus (Nikaia)",
+    "παράγκα": "παράγκα — shack, hut",
+    "Αλάνι": "αλάνι — street kid",
+    "αλάνες": "αλάνα — vacant lot, open ground",
+    "φορτοεκφορτωτής": "φορτοεκφορτωτής — stevedore, docker",
+    "μπαγλαμά": "μπαγλαμάς — tiny bouzouki-family instrument",
+    "χωροφύλακας": "χωροφύλακας — gendarme (old rural/state police)",
+    "χασικλή": "χασικλής — hashish smoker (rebetiko era)",
+    "Τεκέδες": "τεκές — hashish den",
+    "Μεταξά": "Μεταξάς — dictator 1936–41; closed the tekedes",
+    "ντουμάνι": "ντουμάνι — thick smoke, a smoke-filled place",
+    "αργιλές": "αργιλές — hookah (= ναργιλές)",
+    "μαστούρης": "μαστούρης — habitual stoner",
+    "Ντερβίσης": "ντερβίσης — proud, honourable mangas (lit. dervish)",
+    "Σερέτης": "σερέτης — hard, unbending man (rebetiko slang)",
+    "λουλά": "λουλάς — bowl of the hookah/pipe",
+    "πλάκες": "πλάκα — (old) gramophone record",
+    "Πόντιος": "Πόντιος — a Pontic Greek",
+    "Ντο εφτάς, τεμέτερον;": "Pontic — How are you, fellow Pontian? (ντο = τι)",
+    "πατριώτη": "πατριώτης — fellow countryman, compatriot",
+    "λύρα": "λύρα — the Pontic lyra (also κεμεντζές)",
+    "γίνονταν θηρία": "γίνομαι θηρίο — to fly into a rage",
+    "μαγκιά σου": "μαγκιά σου — respect! well done!",
+    "τζάμπα μάγκα": "τζάμπα μάγκας — fake tough guy",
+    "φαρσί": "φαρσί — fluently (μιλάει φαρσί)",
+    "τουμπεκί": "τουμπεκί — (κάνε τουμπεκί) keep quiet",
+    "Κουτσαβάκης": "κουτσαβάκης — 1870s–90s Athenian swaggerer; ironic for a would-be tough",
+    "μόρτης": "μόρτης — street rogue (song language)",
+    "ρεμπέτικα": "ρεμπέτικο — urban Greek song of the 1920s–50s"
+   },
+   "questions": [
+    {
+     "prompt": "Από πού ήρθε ο πατέρας του κυρ-Παντελή, και πότε;",
+     "answer": "Από τη Σμύρνη, το 1922",
+     "options": [
+      "Από τη Σμύρνη, το 1922",
+      "Από τον Πόντο, το 1990",
+      "Από την Κέρκυρα, το 1936",
+      "Από τη Θεσσαλονίκη, το 1912"
+     ]
+    },
+    {
+     "prompt": "Τι ήταν πάνω απ' όλα για τον πατέρα του;",
+     "answer": "Η μπέσα",
+     "options": [
+      "Η μπέσα",
+      "Το καβουράκι",
+      "Ο μπαγλαμάς",
+      "Τα λεφτά"
+     ]
+    },
+    {
+     "prompt": "Γιατί έκρυβαν τον μπαγλαμά στο σακάκι;",
+     "answer": "Γιατί ο χωροφύλακας θα τους περνούσε για χασικλήδες",
+     "options": [
+      "Γιατί ο χωροφύλακας θα τους περνούσε για χασικλήδες",
+      "Γιατί έκανε κρύο",
+      "Γιατί ήταν κλεμμένος",
+      "Γιατί ντρέπονταν να παίζουν"
+     ]
+    },
+    {
+     "prompt": "Τι σημαίνει «Ντο εφτάς, τεμέτερον;»;",
+     "answer": "Τι κάνεις, πατριώτη;",
+     "options": [
+      "Τι κάνεις, πατριώτη;",
+      "Φύγε από δω!",
+      "Πού πας, μάγκα;",
+      "Θέλεις καφέ;"
+     ]
+    },
+    {
+     "prompt": "Ποιος έκλεισε τους τεκέδες;",
+     "answer": "Ο Μεταξάς",
+     "options": [
+      "Ο Μεταξάς",
+      "Ο Μπαϊρακτάρης",
+      "Ο Ζαχαρίας",
+      "Οι χωροφύλακες του '22"
+     ]
+    },
+    {
+     "prompt": "Ποια έκφραση της εποχής λένε ακόμα οι νέοι, κατά τον κυρ-Παντελή;",
+     "answer": "«Μαγκιά σου»",
+     "options": [
+      "«Μαγκιά σου»",
+      "«Σερέτης»",
+      "«Κουτσαβάκης»",
+      "«Χασικλής»"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Pontic for 'How are you? / What are you doing?' (two words)",
+     "answer": "Ντο εφτάς;",
+     "accept": [
+      "Ντο εφτάς;",
+      "Ντο εφτάς",
+      "ντο εφτάς;",
+      "ντο εφτάς"
+     ],
+     "why": "ντο = τι; the most quoted Pontic phrase."
+    },
+    {
+     "prompt": "Pontic word for 'one of ours, a fellow Pontian'",
+     "answer": "τεμέτερον",
+     "accept": [
+      "τεμέτερον"
+     ],
+     "why": "< ancient τῶν ἡμετέρων."
+    },
+    {
+     "prompt": "Pontic for 'girl'",
+     "answer": "κόρτσοπον",
+     "accept": [
+      "κόρτσοπον"
+     ],
+     "why": "Standard: κορίτσι."
+    },
+    {
+     "prompt": "Pontic 'get lost!' (two words)",
+     "answer": "δέβα χαθ'",
+     "accept": [
+      "δέβα χαθ'",
+      "δέβα χαθ",
+      "Δέβα χαθ'"
+     ],
+     "why": "= άντε χάσου (2/5)."
+    },
+    {
+     "prompt": "Standard Greek for Pontic «γράψον»",
+     "answer": "γράψε",
+     "accept": [
+      "γράψε"
+     ],
+     "why": "Pontic keeps ancient-style imperatives in -ον."
+    },
+    {
+     "prompt": "Old Ionian (Venetian) word for 'lawyer'",
+     "answer": "αβοκάτος",
+     "accept": [
+      "αβοκάτος"
+     ],
+     "why": "< Italian avvocato."
+    },
+    {
+     "prompt": "Corfiot word for a narrow alley",
+     "answer": "καντούνι",
+     "accept": [
+      "καντούνι",
+      "καντούνια"
+     ],
+     "why": "Τα καντούνια της Κέρκυρας."
+    },
+    {
+     "prompt": "Ionian word for 'woman' (Venetian)",
+     "answer": "φέμενα",
+     "accept": [
+      "φέμενα"
+     ],
+     "why": "< Venetian femena."
+    },
+    {
+     "prompt": "Island word for 'what?' (Aegean, also Crete/Cyprus)",
+     "answer": "ίντα",
+     "accept": [
+      "ίντα",
+      "ίντα;"
+     ],
+     "why": "Ίντα θες;"
+    },
+    {
+     "prompt": "Dodecanese pronunciation of μεγάλο",
+     "answer": "μεάλο",
+     "accept": [
+      "μεάλο"
+     ],
+     "why": "Intervocalic γ dropped."
+    },
+    {
+     "prompt": "Maniot form of ξύλο",
+     "answer": "ξούλο",
+     "accept": [
+      "ξούλο"
+     ],
+     "why": "Archaic u for historical y."
+    },
+    {
+     "prompt": "Albanian-origin word for 'word of honour'",
+     "answer": "μπέσα",
+     "accept": [
+      "μπέσα"
+     ],
+     "why": "Έχει μπέσα; Μπέσα!"
+    },
+    {
+     "prompt": "A man who keeps his word",
+     "answer": "μπεσαλής",
+     "accept": [
+      "μπεσαλής"
+     ],
+     "why": "Opposite: μπαμπέσης."
+    },
+    {
+     "prompt": "A treacherous person (opposite of μπεσαλής)",
+     "answer": "μπαμπέσης",
+     "accept": [
+      "μπαμπέσης"
+     ],
+     "why": "Also μπαμπεσιά = dirty trick."
+    },
+    {
+     "prompt": "Congratulate a friend: 'Respect! Well done!' (two words, from μάγκας)",
+     "answer": "Μαγκιά σου!",
+     "accept": [
+      "Μαγκιά σου!",
+      "Μαγκιά σου",
+      "μαγκιά σου!",
+      "μαγκιά σου"
+     ],
+     "why": "Alive and well in youth speech."
+    },
+    {
+     "prompt": "A fake tough guy who folds at the first difficulty (two words)",
+     "answer": "τζάμπα μάγκας",
+     "accept": [
+      "τζάμπα μάγκας",
+      "ψευτόμαγκας"
+     ],
+     "why": "2/5, mocking."
+    },
+    {
+     "prompt": "1870s–90s Athenian swaggerer with a fake limp",
+     "answer": "κουτσαβάκης",
+     "accept": [
+      "κουτσαβάκης",
+      "κουτσαβάκηδες"
+     ],
+     "why": "From κουτσά + βαίνω (popular etymology)."
+    },
+    {
+     "prompt": "Rebetiko-era hashish den",
+     "answer": "τεκές",
+     "accept": [
+      "τεκές",
+      "ο τεκές",
+      "τεκέδες"
+     ],
+     "why": "Closed under Metaxas."
+    },
+    {
+     "prompt": "A room full of thick smoke: «Έγινε ___.»",
+     "answer": "ντουμάνι",
+     "accept": [
+      "ντουμάνι"
+     ],
+     "why": "Alive in everyday speech."
+    },
+    {
+     "prompt": "The tiny bouzouki-family instrument of the rebetes",
+     "answer": "μπαγλαμάς",
+     "accept": [
+      "μπαγλαμάς"
+     ],
+     "why": "< Turkish bağlama."
+    },
+    {
+     "prompt": "Slang: 'Keep quiet!' (two words, hookah tobacco)",
+     "answer": "Κάνε τουμπεκί!",
+     "accept": [
+      "Κάνε τουμπεκί!",
+      "Κάνε τουμπεκί",
+      "κάνε τουμπεκί!",
+      "κάνε τουμπεκί",
+      "τουμπεκί ψιλοκομμένο"
+     ],
+     "why": "Also τουμπεκί ψιλοκομμένο."
+    },
+    {
+     "prompt": "'He speaks English fluently' using the old slang word for 'fluently'",
+     "answer": "Μιλάει φαρσί αγγλικά.",
+     "accept": [
+      "Μιλάει φαρσί αγγλικά.",
+      "Μιλάει φαρσί αγγλικά",
+      "Μιλάει φαρσί τα αγγλικά",
+      "μιλάει φαρσί τα αγγλικά"
+     ],
+     "why": "φαρσί = Persian; figuratively 'perfectly'."
+    },
+    {
+     "prompt": "Turkish-origin word for 'at least': «___ ένα τηλέφωνο να έπαιρνες!»",
+     "answer": "Μπάρεμ",
+     "accept": [
+      "Μπάρεμ",
+      "μπάρεμ"
+     ],
+     "why": "< Turkish bari."
+    },
+    {
+     "prompt": "Turkish-origin word: 'we're quits / exactly'",
+     "answer": "ταμάμ",
+     "accept": [
+      "ταμάμ"
+     ],
+     "why": "< Turkish tamam; regional/older."
+    },
+    {
+     "prompt": "Say it politely: instead of «Είναι στρουγκανόβλαχος» (he's a hick)",
+     "answer": "Είναι λίγο αγροίκος.",
+     "accept": [
+      "Είναι λίγο αγροίκος.",
+      "Είναι λίγο αγροίκος",
+      "Είναι λίγο άξεστος",
+      "Δεν είναι πολύ ευγενικός"
+     ],
+     "why": "βλάχος and its compounds are 3/5 and can offend people of Vlach origin."
+    },
+    {
+     "prompt": "A street kid, a scamp (neuter noun)",
+     "answer": "αλάνι",
+     "accept": [
+      "αλάνι",
+      "αλανιάρης"
+     ],
+     "why": "From αλάνα, vacant lot."
+    },
+    {
+     "prompt": "The Pontic bowed instrument (Greek name)",
+     "answer": "λύρα",
+     "accept": [
+      "λύρα",
+      "ποντιακή λύρα",
+      "κεμεντζές"
+     ],
+     "why": "Also called κεμεντζές."
+    },
+    {
+     "prompt": "Pontic motto of pride: 'A Pontian, even with one eye!'",
+     "answer": "Πόντιος και μόνα ματ'",
+     "accept": [
+      "Πόντιος και μόνα ματ'",
+      "Πόντιος και μόνα ματ"
+     ],
+     "why": "Proud, humorous self-assertion."
+    },
+    {
+     "prompt": "Strict northern rendering of σε λέω",
+     "answer": "σι λέου",
+     "accept": [
+      "σι λέου"
+     ],
+     "why": "Raised vowels plus northern accusative."
+    },
+    {
+     "prompt": "High, stoned (rebetiko-era word, still used)",
+     "answer": "μαστουρωμένος",
+     "accept": [
+      "μαστουρωμένος",
+      "μαστούρης",
+      "στη μαστούρα"
+     ],
+     "why": "2/5."
+    },
+    {
+     "prompt": "What Greeks call a Constantinopolitan Greek (capital letter)",
+     "answer": "Πολίτης",
+     "accept": [
+      "Πολίτης",
+      "Πολίτισσα"
+     ],
+     "why": "From η Πόλη = Constantinople."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "You hear «Ντο λες;». The speaker is most likely…",
+     "answer": "Pontic",
+     "options": [
+      "Pontic",
+      "Corfiot",
+      "Cretan",
+      "Athenian"
+     ],
+     "why": "ντο = τι."
+    },
+    {
+     "prompt": "Someone at a party starts a Pontic joke. Your Pontic friend is present. Best move?",
+     "answer": "Steer away: «Άσ' τα αυτά, δεν έχουν πλάκα.»",
+     "options": [
+      "Steer away: «Άσ' τα αυτά, δεν έχουν πλάκα.»",
+      "Laugh loudly to be polite",
+      "Ask your friend to translate it into Pontic",
+      "Tell a better one"
+     ],
+     "why": "Many Pontians find the genre offensive."
+    },
+    {
+     "prompt": "«Μαγκιά σου!» said to you after you pass a hard exam means:",
+     "answer": "Respect, well done!",
+     "options": [
+      "Respect, well done!",
+      "You cheated!",
+      "You're a thug.",
+      "You were lucky."
+     ],
+     "why": "Positive, alive in all age groups."
+    },
+    {
+     "prompt": "Which word is NOT of Turkish origin?",
+     "answer": "μπέσα",
+     "options": [
+      "μπέσα",
+      "ντεμέκ",
+      "ταμάμ",
+      "γιοκ"
+     ],
+     "why": "μπέσα is Albanian."
+    },
+    {
+     "prompt": "«Είναι τζάμπα μάγκας» means he is…",
+     "answer": "a fake tough guy",
+     "options": [
+      "a fake tough guy",
+      "a generous man",
+      "a free spirit",
+      "a cheap date"
+     ],
+     "why": "τζάμπα = for nothing."
+    },
+    {
+     "prompt": "Which Ionian loan means 'woman'?",
+     "answer": "φέμενα",
+     "options": [
+      "φέμενα",
+      "λέτερα",
+      "τσέφο",
+      "σοσπίρο"
+     ],
+     "why": "< Venetian femena."
+    },
+    {
+     "prompt": "«Μιλάει φαρσί τα γαλλικά» means:",
+     "answer": "He speaks French fluently.",
+     "options": [
+      "He speaks French fluently.",
+      "He speaks French with a Persian accent.",
+      "He speaks French badly.",
+      "He mixes French and Persian."
+     ],
+     "why": "φαρσί = perfectly."
+    },
+    {
+     "prompt": "Strength of «βλάχος» meaning 'hick' (Athenian slang)?",
+     "answer": "3: rude, can offend",
+     "options": [
+      "3: rude, can offend",
+      "0: neutral",
+      "1: casual",
+      "5: taboo"
+     ],
+     "why": "Also an ethnic name; avoid with strangers."
+    },
+    {
+     "prompt": "Which is still in everyday use today?",
+     "answer": "ντουμάνι",
+     "options": [
+      "ντουμάνι",
+      "σερέτης",
+      "κουτσαβάκης",
+      "χασικλής"
+     ],
+     "why": "The others are mostly song or nostalgia words."
+    },
+    {
+     "prompt": "Arvanites are…",
+     "answer": "Greeks of old Albanian-speaking stock",
+     "options": [
+      "Greeks of old Albanian-speaking stock",
+      "recent Albanian immigrants",
+      "Vlach shepherds",
+      "Pontic refugees"
+     ],
+     "why": "Never call them Αλβανοί."
+    },
+    {
+     "prompt": "A Lefkadian says «Έχω κάτι στραβομάρες αύριο». She means:",
+     "answer": "She has some chores/errands tomorrow.",
+     "options": [
+      "She has some chores/errands tomorrow.",
+      "She'll be blind drunk tomorrow.",
+      "She has eye problems.",
+      "She made some stupid mistakes."
+     ],
+     "why": "Lefkada sense of στραβομάρα."
+    },
+    {
+     "prompt": "Which feature marks Dodecanese speech?",
+     "answer": "Long double consonants and dropped γ (μεάλο)",
+     "options": [
+      "Long double consonants and dropped γ (μεάλο)",
+      "Venetian loans like αβοκάτος",
+      "ντο for τι",
+      "Accusative σε λέω"
+     ],
+     "why": "Also final -ν: είπεν."
+    },
+    {
+     "prompt": "The κουτσαβάκηδες were broken in the 1890s by…",
+     "answer": "police chief Bairaktaris",
+     "options": [
+      "police chief Bairaktaris",
+      "the Metaxas regime",
+      "the Venetians",
+      "the 1922 refugees"
+     ],
+     "why": "He cut off half their moustaches."
+    },
+    {
+     "prompt": "«Κάνε τουμπεκί!» means:",
+     "answer": "Keep quiet!",
+     "options": [
+      "Keep quiet!",
+      "Roll a cigarette!",
+      "Get lost!",
+      "Play the baglamas!"
+     ],
+     "why": "From hookah tobacco."
+    },
+    {
+     "prompt": "Which is a Pontic negation?",
+     "answer": "'κι",
+     "options": [
+      "'κι",
+      "μη",
+      "δε",
+      "όχι"
+     ],
+     "why": "From ancient οὐκί: Ζαντός κι είμαι!"
+    },
+    {
+     "prompt": "The Pontic Genocide is commemorated on…",
+     "answer": "19 May",
+     "options": [
+      "19 May",
+      "25 March",
+      "28 October",
+      "15 August"
+     ],
+     "why": "Officially recognised by the Greek state."
+    }
+   ]
+  }
+ ]
+}

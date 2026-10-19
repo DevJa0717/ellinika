@@ -1,0 +1,421 @@
+{
+ "el": "Σειρά των λέξεων",
+ "title": "Word order, topic and focus",
+ "section": "B2 · Holton §10.20",
+ "goal": "Use word order and clitic doubling to put the emphasis where you mean it.",
+ "blocks": [
+  {
+   "type": "rules",
+   "src": "grammar/clauses-2.json#sections[section=10.20.1].rule",
+   "cite": "Holton §10.20.1"
+  },
+  {
+   "type": "examples",
+   "src": "grammar/clauses-2.json#sections[section=10.20.1].examples",
+   "cite": "Holton §10.20.1"
+  },
+  {
+   "type": "rules",
+   "src": "grammar/clauses-2.json#sections[section=10.20.2].rule",
+   "cite": "Holton §10.20.2"
+  },
+  {
+   "type": "examples",
+   "src": "grammar/clauses-2.json#sections[section=10.20.2].examples",
+   "cite": "Holton §10.20.2"
+  },
+  {
+   "type": "table",
+   "title": "The rule of thumb",
+   "head": [
+    "Pattern",
+    "What it does",
+    "Example"
+   ],
+   "rows": [
+    [
+     "V S O / S V O, no pronoun",
+     "all new information",
+     "*Ο Πέτρος έγραψε το άρθρο.*"
+    ],
+    [
+     "O + doubling pronoun + V",
+     "object is the known topic",
+     "*Το άρθρο το έγραψε ο Πέτρος.* 'As for the article, Peter wrote it.'"
+    ],
+    [
+     "O fronted, no pronoun, stressed",
+     "object is the contrast/focus",
+     "*ΤΟ ΑΡΘΡΟ έγραψε ο Πέτρος (όχι το βιβλίο).*"
+    ],
+    [
+     "V … S at the end",
+     "subject is the focus",
+     "*Το άρθρο το έγραψε ο ΠΕΤΡΟΣ.* 'It was Peter who wrote it.'"
+    ]
+   ]
+  },
+  {
+   "type": "culture",
+   "title": "The national anthem's word order",
+   "text": "Every Greek child memorizes the opening of the national anthem, the first stanzas of Dionysios Solomos' **Ύμνος εις την Ελευθερίαν** (1823): **Σε γνωρίζω από την κόψη / του σπαθιού την τρομερή** 'I know you by the edge of the sword, the terrible one'. The genitive **του σπαθιού** is moved forward and the adjective trails behind with its own article, **την τρομερή**, an order that puts the weight on 'terrible'. Case endings make this possible, and prose uses it too: *Θέλω το σπίτι το παλιό* 'I want the OLD house'."
+  },
+  {
+   "type": "callout",
+   "text": "English uses 'it was X who…' (cleft sentences); Greek mostly uses order and stress instead. Writing *Ήταν ο Πέτρος που το έγραψε* is possible but heavy. Doubling is standard in speech and common in writing: *Αυτό το βιβλίο το έχω διαβάσει.*"
+  },
+  {
+   "type": "reading",
+   "title": "Ποιος έφαγε τον μουσακά;",
+   "text": "Η Κατερίνα μένει σε ένα διαμέρισμα στο Κουκάκι με δύο φίλους, τη Σοφία και τον Μιχάλη. Τις Κυριακές μαγειρεύει για όλη την εβδομάδα. Σήμερα είναι Δευτέρα. Η Κατερίνα γυρίζει σπίτι από τη δουλειά και ανοίγει το ψυγείο.\n\n— Τον μουσακά ποιος τον έφαγε; Τον είχα αφήσει για απόψε!\n— Τον έφαγε ο Μιχάλης, απαντά η Σοφία χωρίς να σηκώσει το κεφάλι από το λάπτοπ.\n— Ο ΜΙΧΑΛΗΣ; Μα ο Μιχάλης δεν τρώει μελιτζάνες!\n— Μελιτζάνες δεν τρώει, πατάτες όμως τρώει. Και ο δικός σου μουσακάς είχε πολλές πατάτες.\n\nΗ Κατερίνα κλείνει το ψυγείο με θόρυβο.\n\n— Και το κρασί; Το κρασί το ήπιε κι αυτό ο Μιχάλης;\n— Όχι, το κρασί το ήπιαμε εμείς, χθες το βράδυ, με την Άννα. Σου άφησα όμως ένα ποτήρι.\n— Ένα ποτήρι μού άφησες. Από ολόκληρο μπουκάλι.\n— Ε, η Άννα είχε πάρει προαγωγή! Έπρεπε να γιορτάσουμε.\n— Και το ψωμί; Μη μου πεις ότι το ψωμί το τελειώσατε κι αυτό.\n— Το ψωμί δεν το άγγιξε κανείς. Είναι στο ντουλάπι.\n\nΣε λίγο ανοίγει η πόρτα και μπαίνει ο Μιχάλης με μια σακούλα.\n\n— Κατερίνα, πριν πεις οτιδήποτε: τον μουσακά τον έφαγα, το ξέρω. Σου έφερα όμως σουβλάκια από το μαγαζί της γωνίας.\n— Σουβλάκια; Εγώ μουσακά ήθελα.\n— Τον μουσακά δεν μπορώ να τον φέρω πίσω. Τα σουβλάκια όμως είναι ζεστά.\n\nΗ Κατερίνα παίρνει τη σακούλα και χαμογελάει.\n\n— Καλά. Αυτή τη φορά σε συγχωρώ. Την επόμενη, όμως, τα φαγητά μου θα τα κλειδώσω.\n\nΟ Μιχάλης γελάει:\n— Και τα κλειδιά του ψυγείου θα τα κρατάς εσύ;\n— Εγώ, ποιος άλλος;",
+   "en": "Katerina shares a flat in Koukaki with two friends, Sofia and Michalis. On Sundays she cooks for the whole week. Today is Monday. Katerina comes home from work and opens the fridge.\n\n'The moussaka, who ate it? I'd left it for tonight!'\n'Michalis ate it,' Sofia answers without lifting her head from her laptop.\n'MICHALIS? But Michalis doesn't eat aubergines!'\n'Aubergines he doesn't eat, but potatoes he does. And your moussaka had a lot of potatoes.'\n\nKaterina shuts the fridge noisily.\n\n'And the wine? Did Michalis drink the wine too?'\n'No, the wine, we drank it, last night, with Anna. But I left you a glass.'\n'ONE GLASS you left me. Out of a whole bottle.'\n'Well, Anna had got a promotion! We had to celebrate.'\n'And the bread? Don't tell me you finished the bread too.'\n'The bread, nobody touched it. It's in the cupboard.'\n\nA little later the door opens and Michalis comes in with a bag.\n\n'Katerina, before you say anything: the moussaka, yes, I ate it, I know. But I've brought you souvlaki from the shop on the corner.'\n'Souvlaki? It was MOUSSAKA I wanted.'\n'The moussaka I can't bring back. But the souvlaki are hot.'\n\nKaterina takes the bag and smiles.\n\n'Fine. This time I forgive you. Next time, though, my food, I'm locking it up.'\n\nMichalis laughs:\n'And the fridge keys, you'll keep them?'\n'Me, who else?'",
+   "gloss": {
+    "Κατερίνα": "Κατερίνα — Katerina (woman's name)",
+    "Κουκάκι": "Κουκάκι — Koukaki (Athens neighbourhood)",
+    "Μιχάλη": "Μιχάλης — Michalis (man's name), accusative",
+    "Μιχάλης": "Μιχάλης — Michalis (man's name)",
+    "ΜΙΧΑΛΗΣ": "Μιχάλης — Michalis (capitals = heavy stress)",
+    "Σοφία": "Σοφία — Sofia (woman's name)",
+    "μουσακά": "μουσακάς — moussaka, accusative",
+    "μουσακάς": "μουσακάς — moussaka",
+    "μελιτζάνες": "μελιτζάνα — aubergines",
+    "Μελιτζάνες": "μελιτζάνα — aubergines",
+    "Άννα": "Άννα — Anna (woman's name)",
+    "Άννας": "Άννα — Anna (woman's name), genitive: Anna's",
+    "Ε": "ε — well, er (interjection)",
+    "σουβλάκια": "σουβλάκι — souvlaki",
+    "Σουβλάκια": "σουβλάκι — souvlaki",
+    "καινούργιο": "καινούργιος — new",
+    "περισσότερο": "περισσότερο — more",
+    "λάπτοπ": "λάπτοπ — laptop",
+    "μού": "μου — (to) me, weak pronoun; accented to avoid reading it as 'my'"
+   },
+   "questions": [
+    {
+     "prompt": "Ποιος έφαγε τον μουσακά;",
+     "answer": "Ο Μιχάλης",
+     "options": [
+      "Ο Μιχάλης",
+      "Η Σοφία",
+      "Η Άννα"
+     ]
+    },
+    {
+     "prompt": "Γιατί ήπιαν το κρασί η Σοφία και η Άννα;",
+     "answer": "Για να γιορτάσουν την προαγωγή της Άννας",
+     "options": [
+      "Για να γιορτάσουν την προαγωγή της Άννας",
+      "Γιατί ήταν τα γενέθλια της Σοφίας",
+      "Γιατί το είχε αγοράσει ο Μιχάλης για αυτές"
+     ]
+    },
+    {
+     "prompt": "Τι φέρνει ο Μιχάλης;",
+     "answer": "Σουβλάκια",
+     "options": [
+      "Σουβλάκια",
+      "Έναν καινούργιο μουσακά",
+      "Ένα μπουκάλι κρασί"
+     ]
+    },
+    {
+     "prompt": "Τι θα κάνει η Κατερίνα την επόμενη φορά;",
+     "answer": "Θα κλειδώσει τα φαγητά της",
+     "options": [
+      "Θα κλειδώσει τα φαγητά της",
+      "Θα μαγειρέψει περισσότερο",
+      "Θα τρώει έξω"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "You are asked 'Who wrote the article?'. The best answer:",
+     "answer": "Το άρθρο το έγραψε ο Πέτρος.",
+     "options": [
+      "Το άρθρο το έγραψε ο Πέτρος.",
+      "Το άρθρο έγραψε ο Πέτρος.",
+      "Ο Πέτρος το άρθρο."
+     ],
+     "why": "The article is known (topic, doubled); the new information, ο Πέτρος, comes last."
+    },
+    {
+     "prompt": "'The book? I've read it already.'",
+     "answer": "Το βιβλίο το έχω διαβάσει ήδη.",
+     "options": [
+      "Το βιβλίο το έχω διαβάσει ήδη.",
+      "Το βιβλίο έχω διαβάσει ήδη.",
+      "Έχω το βιβλίο διαβάσει ήδη."
+     ],
+     "why": "Topic object + doubling pronoun."
+    },
+    {
+     "prompt": "'It's the BOOK I read, not the article.'",
+     "answer": "Το βιβλίο διάβασα, όχι το άρθρο.",
+     "options": [
+      "Το βιβλίο διάβασα, όχι το άρθρο.",
+      "Το βιβλίο το διάβασα, όχι το άρθρο.",
+      "Διάβασα το το βιβλίο."
+     ],
+     "why": "Focused (contrasted) object: fronted with no pronoun."
+    },
+    {
+     "prompt": "Του Γιάννη δεν θα ___ δώσουν αύξηση. (John is the topic)",
+     "answer": "του",
+     "options": [
+      "του",
+      "τον",
+      "το",
+      "—"
+     ],
+     "why": "Indirect object doubled with the genitive pronoun του."
+    },
+    {
+     "prompt": "Neutral news sentence: 'The government announced new measures.'",
+     "answer": "Η κυβέρνηση ανακοίνωσε νέα μέτρα.",
+     "options": [
+      "Η κυβέρνηση ανακοίνωσε νέα μέτρα.",
+      "Νέα μέτρα τα ανακοίνωσε η κυβέρνηση.",
+      "Τα νέα μέτρα τα ανακοίνωσε."
+     ],
+     "why": "All new information: SVO, no doubling."
+    },
+    {
+     "prompt": "Τη Μαρία ___ ξέρω από παλιά.",
+     "answer": "την",
+     "options": [
+      "την",
+      "τη",
+      "της",
+      "—"
+     ],
+     "why": "Doubling the accusative object: την."
+    },
+    {
+     "prompt": "Τα κλειδιά ___ ξέχασα στο αυτοκίνητο.",
+     "answer": "τα",
+     "options": [
+      "τα",
+      "τους",
+      "το",
+      "—"
+     ],
+     "why": "Neuter plural object doubled with τα."
+    },
+    {
+     "prompt": "Which is NOT natural Greek?",
+     "answer": "Ο Πέτρος το έγραψε το άρθρο το.",
+     "options": [
+      "Ο Πέτρος το έγραψε το άρθρο το.",
+      "Το έγραψε ο Πέτρος το άρθρο.",
+      "Το άρθρο ο Πέτρος το έγραψε."
+     ],
+     "why": "One doubling pronoun only."
+    }
+   ]
+  },
+  {
+   "gen": "review",
+   "tag": "decl",
+   "n": 2
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "*The keys, I found them.* → Τα κλειδιά ___.",
+     "answer": "τα βρήκα",
+     "accept": [
+      "τα βρήκα"
+     ],
+     "why": "A fronted definite object (topic) is picked up by a clitic of the same gender, number and case: τα κλειδιά → τα."
+    },
+    {
+     "prompt": "*Maria, I saw her yesterday.* → Τη Μαρία ___ χθες.",
+     "answer": "την είδα",
+     "accept": [
+      "την είδα"
+     ],
+     "why": "Feminine accusative clitic την, keeping the ν before a vowel."
+    },
+    {
+     "prompt": "*Your brother, I know him well.* → Τον αδερφό σου ___ καλά.",
+     "answer": "τον ξέρω",
+     "accept": [
+      "τον ξέρω",
+      "τον γνωρίζω"
+     ],
+     "why": "Masculine accusative topic → clitic τον before the verb."
+    },
+    {
+     "prompt": "*To the children, we gave them presents.* → Στα παιδιά ___ δώρα.",
+     "answer": "τους δώσαμε",
+     "accept": [
+      "τους δώσαμε"
+     ],
+     "why": "An indirect object σε + noun is doubled with the genitive clitic: στα παιδιά → τους."
+    },
+    {
+     "prompt": "*This film, I've seen it twice.* → Αυτή την ταινία ___ δύο φορές.",
+     "answer": "την έχω δει",
+     "accept": [
+      "την έχω δει",
+      "την είδα"
+     ],
+     "why": "Feminine singular clitic την; with the perfect it goes before έχω."
+    },
+    {
+     "prompt": "Front *the old house* (as object) and double: → ___ το πουλήσαμε.",
+     "answer": "Το παλιό σπίτι",
+     "accept": [
+      "Το παλιό σπίτι"
+     ],
+     "why": "Neuter accusative = nominative: το παλιό σπίτι, picked up by το."
+    },
+    {
+     "prompt": "Front *the new neighbours* (as object) and double: → ___ δεν τους έχουμε γνωρίσει ακόμα.",
+     "answer": "Τους νέους γείτονες",
+     "accept": [
+      "Τους νέους γείτονες",
+      "Τους καινούργιους γείτονες",
+      "Τους καινούριους γείτονες"
+     ],
+     "why": "Masculine plural accusative: οι νέοι γείτονες → τους νέους γείτονες, picked up by τους."
+    },
+    {
+     "prompt": "Front *the last letter* (η τελευταία επιστολή, as object) and double: → ___ την έγραψε η γιαγιά μου.",
+     "answer": "Την τελευταία επιστολή",
+     "accept": [
+      "Την τελευταία επιστολή"
+     ],
+     "why": "Feminine accusative: την τελευταία επιστολή, picked up by την."
+    },
+    {
+     "prompt": "*To my grandfather, they gave a medal.* → ___ του έδωσαν ένα μετάλλιο.",
+     "answer": "Στον παππού μου",
+     "accept": [
+      "Στον παππού μου",
+      "Του παππού μου"
+     ],
+     "why": "A fronted indirect object is σε + accusative (στον παππού μου) or a bare genitive (του παππού μου), picked up by του."
+    },
+    {
+     "prompt": "*Who paid?* — *MARIA paid.* → Πλήρωσε ___.",
+     "answer": "η Μαρία",
+     "accept": [
+      "η Μαρία"
+     ],
+     "why": "The new information (focus) goes at the end of the clause: Πλήρωσε η Μαρία."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Στον Νίκο ___ είπα την αλήθεια.",
+     "answer": "του",
+     "options": [
+      "του",
+      "τον",
+      "το",
+      "—"
+     ],
+     "why": "The indirect object (σε + noun) is doubled with the genitive clitic του."
+    },
+    {
+     "prompt": "Τις φωτογραφίες ___ ανέβασες στο ίντερνετ;",
+     "answer": "τις",
+     "options": [
+      "τις",
+      "τους",
+      "τα",
+      "—"
+     ],
+     "why": "Feminine plural accusative clitic: τις."
+    },
+    {
+     "prompt": "Αυτά τα βιβλία ___ έχω διαβάσει όλα.",
+     "answer": "τα",
+     "options": [
+      "τα",
+      "τις",
+      "τους",
+      "—"
+     ],
+     "why": "Neuter plural topic → clitic τα."
+    },
+    {
+     "prompt": "Της μητέρας μου ___ αρέσουν τα λουλούδια.",
+     "answer": "της",
+     "options": [
+      "της",
+      "την",
+      "τη",
+      "—"
+     ],
+     "why": "With αρέσει the experiencer is genitive and is normally doubled: της μητέρας μου της αρέσουν."
+    },
+    {
+     "prompt": "Contrast: 'I want TEA, not coffee.'",
+     "answer": "Τσάι θέλω, όχι καφέ.",
+     "options": [
+      "Τσάι θέλω, όχι καφέ.",
+      "Το τσάι το θέλω, όχι καφέ.",
+      "Τσάι το θέλω, όχι καφέ."
+     ],
+     "why": "A contrastive focus is fronted without a clitic; doubling would turn it into a known topic."
+    },
+    {
+     "prompt": "Which sentence treats *the car* as already known?",
+     "answer": "Το αυτοκίνητο το πούλησε ο Γιώργος.",
+     "options": [
+      "Το αυτοκίνητο το πούλησε ο Γιώργος.",
+      "Ο Γιώργος πούλησε ένα αυτοκίνητο.",
+      "ΑΥΤΟΚΙΝΗΤΟ πούλησε ο Γιώργος."
+     ],
+     "why": "Fronted object + doubling clitic = topic, information already shared."
+    },
+    {
+     "prompt": "Answer to 'What's new?' (everything is new information):",
+     "answer": "Παντρεύτηκε η Ελένη!",
+     "options": [
+      "Παντρεύτηκε η Ελένη!",
+      "Την Ελένη την παντρεύτηκε.",
+      "Η Ελένη, την παντρεύτηκε."
+     ],
+     "why": "All-new information: plain verb-subject order and no clitic; a doubled pronoun signals something already known."
+    },
+    {
+     "prompt": "A house is new information here. Choose the natural sentence:",
+     "answer": "Ένα σπίτι αγόρασαν στη Χαλκιδική.",
+     "options": [
+      "Ένα σπίτι αγόρασαν στη Χαλκιδική.",
+      "Ένα σπίτι το αγόρασαν στη Χαλκιδική.",
+      "Το σπίτι αγόρασαν το στη Χαλκιδική."
+     ],
+     "why": "A fronted indefinite is normally focus, so it is not doubled."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "ψυγείο",
+  "κρασί",
+  "ποτήρι",
+  "μπουκάλι",
+  "γιορτάζω",
+  "συγχωρώ",
+  "πατάτα",
+  "προαγωγή",
+  "γείτονας",
+  "άρθρο",
+  "φέρνω",
+  "πληρώνω"
+ ]
+}

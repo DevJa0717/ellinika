@@ -1,0 +1,304 @@
+{
+ "el": "Ενεστώτας: δεύτερη συζυγία",
+ "title": "Present tense, verbs in -ώ (αγαπώ, θεωρώ)",
+ "section": "A1 · Holton §6.9-6.10",
+ "goal": "Conjugate both types of stress-final verbs in the present.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "Verbs stressed on the final -ώ form the **second conjugation**, and the stress always sits on the ending. They split into two types by the vowel that dominates the endings:\n\n**Type A** (α-type): αγαπώ, μιλώ, ρωτώ, ξεχνώ, περνώ, πουλώ, σταματώ. Many have doublets in -άω (αγαπάω, μιλάω), which are slightly more colloquial and equally correct.\n\n**Type B** (ει/ου-type): θεωρώ, μπορώ, προσπαθώ, παρακαλώ, αποτελώ. Fewer verbs, often more learned, but μπορώ is among the most common verbs in the language."
+  },
+  {
+   "type": "verb-paradigm",
+   "columns": [
+    {
+     "label": "A: αγαπώ",
+     "src": "grammar/verbs-holton.json#sections[section=6.9].paradigm.present.active"
+    },
+    {
+     "label": "B: θεωρώ",
+     "src": "grammar/verbs-holton.json#sections[section=6.10].paradigm.present.active"
+    }
+   ],
+   "cite": "Holton §6.9-6.10. Alternatives separated by a slash are both in use."
+  },
+  {
+   "type": "rules",
+   "title": "Notes",
+   "src": "grammar/verbs-holton.json#sections[section=6.9].rule",
+   "pick": [
+    1,
+    2
+   ],
+   "cite": "Holton §6.9"
+  },
+  {
+   "type": "culture",
+   "title": "Παρακαλώ, the all-purpose verb",
+   "text": "**Παρακαλώ**, a type B verb literally 'I request', is one of the most useful words in Greek. It means 'please' (**Ένα νερό, παρακαλώ**), 'you're welcome' in reply to ευχαριστώ, and, said as a question, **Παρακαλώ;** 'Can I help you?' in a shop or 'Hello?' when answering the phone. Other phone openers are **Ναι;**, **Λέγετε** 'Go ahead' and the old-fashioned **Εμπρός**. Its partner **Ορίστε** 'here you are' also answers the phone or asks 'Pardon?'."
+  },
+  {
+   "type": "vocab",
+   "title": "Common type A verbs in the word list",
+   "words": [
+    "μιλάω",
+    "ρωτάω",
+    "ξεχνάω",
+    "περνάω",
+    "πουλάω",
+    "σταματάω",
+    "περπατάω",
+    "γελάω",
+    "απαντάω",
+    "κρατάω",
+    "πεινάω",
+    "ξυπνάω",
+    "αγαπάω",
+    "μπορώ",
+    "προσπαθώ",
+    "θεωρώ",
+    "παρακαλώ",
+    "ζω",
+    "οδηγώ",
+    "τηλεφωνώ"
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/verbs-holton.json#sections[section=6.9].paradigm.present.active",
+   "lemma": "αγαπώ",
+   "prompt": "Conjugate **αγαπώ** (either alternative is accepted).",
+   "given": 1
+  },
+  {
+   "gen": "paradigm-fill",
+   "src": "grammar/verbs-holton.json#sections[section=6.10].paradigm.present.active",
+   "lemma": "θεωρώ",
+   "prompt": "Conjugate **θεωρώ**.",
+   "given": 1
+  },
+  {
+   "gen": "conjugate-2",
+   "type": "A",
+   "n": 8
+  },
+  {
+   "gen": "conjugate-2",
+   "type": "B",
+   "n": 5
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Εσύ ___ πολύ. (μιλάω)",
+     "answer": "μιλάς",
+     "options": [
+      "μιλάς",
+      "μιλείς",
+      "μιλάει"
+     ],
+     "why": "Type A, 2nd singular: -άς."
+    },
+    {
+     "prompt": "Αυτός ___ ότι είναι σωστό. (θεωρώ)",
+     "answer": "θεωρεί",
+     "options": [
+      "θεωρεί",
+      "θεωράει",
+      "θεωρά"
+     ],
+     "why": "Type B verbs have ει/ου endings: θεωρεί."
+    },
+    {
+     "prompt": "Εμείς δεν ___ να μείνουμε. (μπορώ)",
+     "answer": "μπορούμε",
+     "options": [
+      "μπορούμε",
+      "μποράμε",
+      "μπόρουμε"
+     ],
+     "why": "μπορώ is type B: -ούμε, stressed on the ending."
+    },
+    {
+     "prompt": "Τι ___ ο Γιάννης; (ρωτάω)",
+     "answer": "ρωτάει",
+     "options": [
+      "ρωτάει",
+      "ρωτεί",
+      "ρώτει"
+     ],
+     "why": "Type A, 3rd singular: -άει (or -ά)."
+    },
+    {
+     "prompt": "Which verb is type B?",
+     "answer": "προσπαθώ",
+     "options": [
+      "προσπαθώ",
+      "μιλάω",
+      "γελάω",
+      "ξεχνάω"
+     ],
+     "why": "Type B verbs have no -άω doublet; their endings are -είς, -εί, -ούμε."
+    },
+    {
+     "prompt": "Εσείς ___ στην Αθήνα; (ζω)",
+     "answer": "ζείτε",
+     "options": [
+      "ζείτε",
+      "ζάτε",
+      "ζήτε"
+     ],
+     "why": "ζω follows type B: ζεις, ζει, ζούμε, ζείτε, ζουν."
+    },
+    {
+     "prompt": "Οι φίλοι μου ___ από εδώ κάθε Σάββατο. (περνάω)",
+     "answer": "περνάνε",
+     "options": [
+      "περνάνε",
+      "περνάτε",
+      "περνάει"
+     ],
+     "why": "Type A, 3rd plural: -άνε (also -ούν)."
+    },
+    {
+     "prompt": "Η Μαρία ___ αυτοκίνητο. (οδηγώ)",
+     "answer": "οδηγεί",
+     "options": [
+      "οδηγεί",
+      "οδηγάει",
+      "οδηγά"
+     ],
+     "why": "οδηγώ is type B, so -εί."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "n": 10,
+   "items": [
+    {
+     "prompt": "Εμείς ___ ελληνικά. (μιλάω)",
+     "answer": "μιλάμε",
+     "accept": [
+      "μιλάμε",
+      "μιλούμε"
+     ],
+     "why": "Type A, 1st plural: -άμε (also -ούμε)."
+    },
+    {
+     "prompt": "Πού ___; (ζω, εσύ)",
+     "answer": "ζεις",
+     "accept": [
+      "ζεις"
+     ],
+     "why": "ζω: 2nd singular ζεις."
+    },
+    {
+     "prompt": "Δεν ___ να έρθω αύριο. (μπορώ, εγώ)",
+     "answer": "μπορώ",
+     "accept": [
+      "μπορώ"
+     ],
+     "why": "1st singular is the dictionary form."
+    },
+    {
+     "prompt": "Εσείς ___ ότι έχει δίκιο; (θεωρώ)",
+     "answer": "θεωρείτε",
+     "accept": [
+      "θεωρείτε"
+     ],
+     "why": "Type B, 2nd plural: -είτε."
+    },
+    {
+     "prompt": "Τα παιδιά ___ πολύ. (γελάω)",
+     "answer": "γελάνε",
+     "accept": [
+      "γελάνε",
+      "γελούν",
+      "γελούνε",
+      "γελάν"
+     ],
+     "why": "Type A, 3rd plural: -άνε / -ούν(ε)."
+    },
+    {
+     "prompt": "Ο Νίκος ___ πολύ γρήγορα. (οδηγώ)",
+     "answer": "οδηγεί",
+     "accept": [
+      "οδηγεί"
+     ],
+     "why": "Type B, 3rd singular: -εί."
+    },
+    {
+     "prompt": "Πότε ___ το λεωφορείο; (περνάω)",
+     "answer": "περνάει",
+     "accept": [
+      "περνάει",
+      "περνά"
+     ],
+     "why": "Type A, 3rd singular: -άει or -ά."
+    },
+    {
+     "prompt": "___ κάθε μέρα. (προσπαθώ, εμείς)",
+     "answer": "Προσπαθούμε",
+     "accept": [
+      "Προσπαθούμε"
+     ],
+     "why": "Type B, 1st plural: -ούμε."
+    },
+    {
+     "prompt": "Say in Greek to a friend: *Why are you asking?*",
+     "answer": "Γιατί ρωτάς",
+     "accept": [
+      "Γιατί ρωτάς",
+      "Γιατί με ρωτάς"
+     ],
+     "why": "Type A, 2nd singular: -άς."
+    },
+    {
+     "prompt": "Εσύ ___ πάντα τα κλειδιά σου! (ξεχνάω)",
+     "answer": "ξεχνάς",
+     "accept": [
+      "ξεχνάς"
+     ],
+     "why": "Type A, 2nd singular: -άς."
+    },
+    {
+     "prompt": "Say in Greek: *We are hungry.* (πεινάω)",
+     "answer": "Πεινάμε",
+     "accept": [
+      "Πεινάμε",
+      "Εμείς πεινάμε",
+      "Πεινούμε"
+     ],
+     "why": "Greek says 'we hunger': a verb, not 'be' + adjective."
+    },
+    {
+     "prompt": "Αυτοί ___ στη μητέρα τους κάθε μέρα. (τηλεφωνώ)",
+     "answer": "τηλεφωνούν",
+     "accept": [
+      "τηλεφωνούν",
+      "τηλεφωνούνε"
+     ],
+     "why": "Type B, 3rd plural: -ούν(ε)."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "μιλώ",
+  "ρωτώ",
+  "ξεχνώ",
+  "περνώ",
+  "γελώ",
+  "μπορώ",
+  "θεωρώ",
+  "προσπαθώ",
+  "παρακαλώ",
+  "ζω",
+  "οδηγώ",
+  "τηλεφωνώ"
+ ]
+}

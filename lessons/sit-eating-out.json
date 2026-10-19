@@ -1,0 +1,877 @@
+{
+ "el": "Έξω για φαγητό: ταβέρνα και καφετέρια",
+ "title": "Eating out: taverna, café, the bill",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "The grammar of ordering",
+   "text": "**1. Ordering = accusative, so know the gender of the dish.** Θα πάρω **έναν** μουσακά (ο μουσακάς), **μια** χωριάτικη (η σαλάτα is understood), **ένα** τζατζίκι, **δύο** σουβλάκια. Masculines in -άς/-ές lose the -ς: ο καφές → **έναν καφέ**, ο φραπές → **έναν φραπέ**. A portion is a measure, so the dish follows in the same case: **μια μερίδα πατάτες**, **μισό κιλό κρασί**.\n\n**2. Three ways to order**, from neutral to soft: **Θα πάρω** έναν καφέ (the default; θα + perfective) · **Για μένα** ένα νερό · **Θα ήθελα** μια μπίρα. A bare **Ένα φρέντο εσπρέσο, παρακαλώ** is perfectly polite in a café.\n\n**3. The waiter's grammar.** Waiters use the polite plural and **να**-questions to offer: **Να σας φέρω** κάτι άλλο; 'Shall I bring you anything else?' Customers use polite imperatives with a weak pronoun after the verb: **Φέρτε μας** λίγο ψωμί, **Δώστε μου** τον κατάλογο. Friends say **φέρε μας**, **δώσε μου**.\n\n**4. κερνάω 'treat someone to'** takes the person in the **accusative**, not the genitive: **Σε κερνάω** έναν καφέ 'I'm treating you to a coffee', **Μας κέρασε** γλυκό 'She treated us to dessert'. **Κερνάω εγώ!** 'It's on me!'"
+  },
+  {
+   "type": "table",
+   "title": "What you order, in the accusative",
+   "head": [
+    "Dish (nominative)",
+    "Ordering",
+    "Note"
+   ],
+   "rows": [
+    [
+     "ο μουσακάς",
+     "θα πάρω **έναν μουσακά**",
+     "-άς masculine: drop the -ς"
+    ],
+    [
+     "ο καφές · ο ελληνικός",
+     "**έναν καφέ** · **έναν ελληνικό μέτριο**",
+     "the adjective agrees with καφές"
+    ],
+    [
+     "ο φραπές",
+     "**έναν φραπέ** με γάλα",
+     "plural οι φραπέδες"
+    ],
+    [
+     "ο φρέντο εσπρέσο",
+     "**έναν / ένα φρέντο εσπρέσο** σκέτο",
+     "both genders are heard"
+    ],
+    [
+     "η (χωριάτικη) σαλάτα",
+     "**μια χωριάτικη**",
+     "the noun σαλάτα is usually dropped"
+    ],
+    [
+     "η μπίρα",
+     "**μια μπίρα** · δύο μπίρες",
+     ""
+    ],
+    [
+     "το τζατζίκι",
+     "**ένα τζατζίκι**",
+     ""
+    ],
+    [
+     "το σουβλάκι",
+     "**δύο σουβλάκια** (καλαμάκια)",
+     "pork skewers are καλαμάκια in Athens"
+    ],
+    [
+     "τα κεφτεδάκια",
+     "**μια μερίδα** κεφτεδάκια",
+     "portion + dish, same case"
+    ],
+    [
+     "το κρασί (χύμα)",
+     "**μισό κιλό** κόκκινο",
+     "house wine is ordered by weight"
+    ],
+    [
+     "το νερό",
+     "**ένα μπουκάλι** νερό · μια κανάτα νερό",
+     ""
+    ],
+    [
+     "ο λογαριασμός",
+     "**τον λογαριασμό**, παρακαλώ",
+     "also written το λογαριασμό"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "At the table",
+   "head": [
+    "What you say",
+    "What you hear",
+    "Meaning"
+   ],
+   "rows": [
+    [
+     "**Ένα τραπέζι για τέσσερις**, παρακαλώ.",
+     "**Πόσα άτομα είστε;**",
+     "A table for four, please. · How many are you?"
+    ],
+    [
+     "Έχουμε κράτηση **στο όνομα** Παππά.",
+     "**Μέσα ή έξω;**",
+     "We have a booking in the name of Pappas. · Inside or outside?"
+    ],
+    [
+     "**Μπορούμε να καθίσουμε** έξω;",
+     "**Είστε έτοιμοι να παραγγείλετε;**",
+     "Can we sit outside? · Are you ready to order?"
+    ],
+    [
+     "**Τι μας προτείνετε;**",
+     "Σήμερα έχουμε **γεμιστά** και **κοκκινιστό**.",
+     "What do you recommend? · Today we have stuffed vegetables and beef in tomato sauce."
+    ],
+    [
+     "**Θα πάρω** έναν μουσακά. · **Για μένα** μια σαλάτα.",
+     "**Τι θα πιείτε;**",
+     "I'll have a moussaka. · A salad for me. · What will you drink?"
+    ],
+    [
+     "**Χωρίς** κρεμμύδι, παρακαλώ.",
+     "Ο μουσακάς **τελείωσε**.",
+     "Without onion, please. · We're out of moussaka."
+    ],
+    [
+     "**Φέρτε μας** λίγο ψωμί ακόμα.",
+     "**Αμέσως!** · Έρχεται!",
+     "Bring us some more bread. · Right away! · Coming!"
+    ],
+    [
+     "**Τον λογαριασμό**, παρακαλώ.",
+     "**Μαζί ή χωριστά;**",
+     "The bill, please. · Together or separately?"
+    ],
+    [
+     "**Κερνάω εγώ!** · **Κρατήστε τα ρέστα.**",
+     "Αυτό είναι **κέρασμα** από το μαγαζί.",
+     "It's on me! · Keep the change. · This is on the house."
+    ],
+    [
+     "Ήταν όλα **πολύ νόστιμα**.",
+     "**Καλή όρεξη!** · **Στην υγειά σας!**",
+     "Everything was delicious. · Enjoy your meal! · Cheers!"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 1 · Ordering at a taverna",
+   "items": [
+    {
+     "el": "Σερβιτόρος: Καλησπέρα σας! Είστε έτοιμοι να παραγγείλετε;",
+     "en": "Waiter: Good evening! Are you ready to order?"
+    },
+    {
+     "el": "Άννα: Σχεδόν. Τι μας προτείνετε από τα μαγειρευτά;",
+     "en": "Anna: Nearly. What do you recommend from the dishes of the day?"
+    },
+    {
+     "el": "Σερβιτόρος: Ο μουσακάς είναι πολύ καλός σήμερα. Και τα γεμιστά.",
+     "en": "Waiter: The moussaka is very good today. And the stuffed vegetables."
+    },
+    {
+     "el": "Άννα: Ωραία. Για μένα έναν μουσακά.",
+     "en": "Anna: Fine. A moussaka for me."
+    },
+    {
+     "el": "Πέτρος: Εγώ θα πάρω δύο καλαμάκια χοιρινά και μια μερίδα πατάτες.",
+     "en": "Petros: I'll have two pork skewers and a portion of chips."
+    },
+    {
+     "el": "Άννα: Και για τη μέση μια χωριάτικη και ένα τζατζίκι.",
+     "en": "Anna: And for the middle (to share) a Greek salad and a tzatziki."
+    },
+    {
+     "el": "Σερβιτόρος: Τι θα πιείτε;",
+     "en": "Waiter: What will you drink?"
+    },
+    {
+     "el": "Πέτρος: Μισό κιλό λευκό χύμα και ένα μπουκάλι νερό.",
+     "en": "Petros: Half a kilo of white house wine and a bottle of water."
+    },
+    {
+     "el": "Σερβιτόρος: Αμέσως!",
+     "en": "Waiter: Right away!"
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 2 · At a café",
+   "items": [
+    {
+     "el": "Σερβιτόρα: Γεια σας! Τι θα πάρετε;",
+     "en": "Waitress: Hello! What will you have?"
+    },
+    {
+     "el": "Ελένη: Έναν φρέντο εσπρέσο μέτριο, παρακαλώ.",
+     "en": "Eleni: A freddo espresso, medium sweet, please."
+    },
+    {
+     "el": "Μαρκ: Κι εγώ έναν ελληνικό.",
+     "en": "Mark: And a Greek coffee for me."
+    },
+    {
+     "el": "Σερβιτόρα: Πώς τον πίνετε; Σκέτο, μέτριο ή γλυκό;",
+     "en": "Waitress: How do you take it? No sugar, medium or sweet?"
+    },
+    {
+     "el": "Μαρκ: Μέτριο. Και ένα ποτήρι νερό, αν γίνεται.",
+     "en": "Mark: Medium. And a glass of water, if possible."
+    },
+    {
+     "el": "Σερβιτόρα: Το νερό το φέρνουμε πάντα. Κάτι να φάτε;",
+     "en": "Waitress: We always bring water. Something to eat?"
+    },
+    {
+     "el": "Ελένη: Μια τυρόπιτα, για να τη μοιραστούμε.",
+     "en": "Eleni: A cheese pie, to share."
+    },
+    {
+     "el": "Σερβιτόρα: Έρχονται!",
+     "en": "Waitress: Coming up!"
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "κερνάω (κερνώ) 'treat someone to'",
+   "head": [
+    "",
+    "present",
+    "simple past",
+    "θα / να + perfective"
+   ],
+   "rows": [
+    [
+     "εγώ",
+     "κερνάω / κερνώ",
+     "κέρασα",
+     "κεράσω"
+    ],
+    [
+     "εσύ",
+     "κερνάς",
+     "κέρασες",
+     "κεράσεις"
+    ],
+    [
+     "αυτός",
+     "κερνάει / κερνά",
+     "κέρασε",
+     "κεράσει"
+    ],
+    [
+     "εμείς",
+     "κερνάμε",
+     "κεράσαμε",
+     "κεράσουμε"
+    ],
+    [
+     "εσείς",
+     "κερνάτε",
+     "κεράσατε",
+     "κεράσετε"
+    ],
+    [
+     "αυτοί",
+     "κερνάνε / κερνούν",
+     "κέρασαν",
+     "κεράσουν"
+    ],
+    [
+     "**Pattern**",
+     "κερνάω **κάποιον** (acc.) **κάτι** (acc.)",
+     "**Σε** κερνάω **έναν** καφέ.",
+     "Θα **σας** κεράσω αύριο."
+    ],
+    [
+     "**Nouns**",
+     "**το κέρασμα** 'a treat'",
+     "**κερασμένο** 'on the house'",
+     "imperative: **κέρασέ** μας!"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Dialogue 3 · The bill",
+   "items": [
+    {
+     "el": "Πέτρος: Τον λογαριασμό, παρακαλώ.",
+     "en": "Petros: The bill, please."
+    },
+    {
+     "el": "Σερβιτόρος: Αμέσως. Και αυτό είναι κέρασμα από το μαγαζί: χαλβάς και τσίπουρο.",
+     "en": "Waiter: Right away. And this is on the house: halva and tsipouro."
+    },
+    {
+     "el": "Άννα: Α, ευχαριστούμε πολύ! Πόσο είναι;",
+     "en": "Anna: Oh, thank you very much! How much is it?"
+    },
+    {
+     "el": "Σερβιτόρος: Σαράντα δύο ευρώ. Μαζί ή χωριστά;",
+     "en": "Waiter: Forty-two euros. Together or separately?"
+    },
+    {
+     "el": "Άννα: Μαζί. Να τα σπάσουμε, Πέτρο;",
+     "en": "Anna: Together. Shall we split it, Petros?"
+    },
+    {
+     "el": "Πέτρος: Ούτε να το σκέφτεσαι! Απόψε κερνάω εγώ.",
+     "en": "Petros: Don't even think about it! Tonight it's on me."
+    },
+    {
+     "el": "Άννα: Εντάξει, αλλά τον καφέ αύριο τον κερνάω εγώ.",
+     "en": "Anna: OK, but tomorrow's coffee is on me."
+    },
+    {
+     "el": "Πέτρος: Ορίστε πενήντα. Κρατήστε τα ρέστα.",
+     "en": "Petros: Here's fifty. Keep the change."
+    },
+    {
+     "el": "Σερβιτόρος: Ευχαριστώ πολύ! Καλό βράδυ!",
+     "en": "Waiter: Thank you very much! Have a good evening!"
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes.** *Θα πάρω ένας καφές* → **έναν καφέ** (accusative, and the -ς goes). *Σου κερνάω ένα ποτό* → **Σε κερνάω** (κερνάω takes the person in the accusative). *Ένα τραπέζι για τέσσερα* → **για τέσσερις** (people: masculine/feminine form). *Μπορώ να έχω τον λογαριασμό;* is an English calque: say **Τον λογαριασμό, παρακαλώ** or **Μας φέρνετε τον λογαριασμό;**. *Πόσο κάνει;* asks the price, but **Πόση ώρα κάνει;** asks how long it takes: don't mix them when asking about your order. **Τι θα πιείτε;** uses the perfective of πίνω (πιω), not *πίνετε*."
+  },
+  {
+   "type": "culture",
+   "title": "Wine by the kilo, and the dessert you didn't order",
+   "text": "In a traditional taverna the house wine, **χύμα** 'loose', comes from the barrel and is ordered by weight: **ένα καραφάκι**, **μισό κιλό**, **ένα κιλό**, often brought in a little metal jug. At the end of the meal many tavernas bring something nobody ordered: halva, fruit, yoghurt with a spoon sweet or a shot of tsipouro or raki. That is a **κέρασμα**, and you thank them for it. The bill itself can be a small battle: among friends the phrase **«Άσ' το, κερνάω εγώ!»** starts a polite fight over who pays, while younger people often just split it, **τα σπάμε** or **πάμε ρεφενέ**."
+  },
+  {
+   "type": "reading",
+   "title": "Το τραπέζι της Παρασκευής",
+   "text": "Παρασκευή βράδυ. Ο Νίκος, η Μαρία και ο Τομ κάθονται σε μια ταβέρνα στην Πλάκα. Ο σερβιτόρος τούς φέρνει τον κατάλογο, ψωμί και νερό.\n\n«Τι θα πάρετε, παιδιά;» ρωτάει.\n\n«Για αρχή, μια χωριάτικη, ένα τζατζίκι και μια μερίδα κεφτεδάκια», λέει η Μαρία. «Και μετά έναν μουσακά και δύο σουβλάκια.»\n\n«Τι θα πιείτε;»\n\n«Ένα κιλό κόκκινο κρασί», λέει ο Νίκος. Ο Τομ γελάει: «Κιλό; Το κρασί είναι ντομάτες;» Η Μαρία τού εξηγεί ότι στις ταβέρνες το χύμα κρασί το παραγγέλνουμε με το κιλό.\n\nΤο φαγητό είναι πολύ νόστιμο και η βραδιά περνάει γρήγορα. Ο Τομ δοκιμάζει τα πάντα και θέλει να μάθει το όνομα κάθε πιάτου. Στο τέλος ο σερβιτόρος φέρνει χαλβά και τρία ποτηράκια τσίπουρο. «Κέρασμα από το μαγαζί!»\n\nΌταν έρχεται ο λογαριασμός, ο Τομ βγάζει το πορτοφόλι του. «Όχι, όχι!» λέει ο Νίκος. «Είσαι φιλοξενούμενός μας. Απόψε σε κερνάμε εμείς.»\n\n«Τότε τον καφέ αύριο τον κερνάω εγώ», απαντάει ο Τομ, «και δεν θέλω συζήτηση!»",
+   "en": "Friday evening. Nikos, Maria and Tom are sitting in a taverna in Plaka. The waiter brings them the menu, bread and water.\n\n'What will you have, guys?' he asks.\n\n'To start, a Greek salad, a tzatziki and a portion of meatballs,' says Maria. 'And then a moussaka and two souvlakia.'\n\n'What will you drink?'\n\n'A kilo of red wine,' says Nikos. Tom laughs: 'A kilo? Is wine tomatoes?' Maria explains to him that in tavernas we order house wine by the kilo.\n\nThe food is delicious and the evening passes quickly. Tom tries everything and wants to learn the name of every dish. At the end the waiter brings halva and three small glasses of tsipouro. 'On the house!'\n\nWhen the bill comes, Tom takes out his wallet. 'No, no!' says Nikos. 'You're our guest. Tonight we're treating you.'\n\n'Then tomorrow's coffee is on me,' Tom answers, 'and I don't want any argument!'",
+   "gloss": {
+    "Τομ": "Τομ — Tom (man's name)",
+    "Πλάκα": "Πλάκα — Plaka (old quarter of Athens)",
+    "ταβέρνα": "ταβέρνα — taverna, traditional restaurant",
+    "ταβέρνες": "ταβέρνα — taverna (plural)",
+    "μουσακάς": "μουσακάς — moussaka",
+    "πιάτου": "πιάτο — dish, plate (genitive)",
+    "τούς": "τους — them (weak pronoun, accented to avoid confusion with the article)",
+    "τού": "του — him, to him (weak pronoun, accented)",
+    "χωριάτικη": "χωριάτικη (σαλάτα) — Greek 'village' salad",
+    "τζατζίκι": "τζατζίκι — tzatziki",
+    "μερίδα": "μερίδα — portion, serving",
+    "κεφτεδάκια": "κεφτεδάκια — small meatballs",
+    "μουσακά": "μουσακάς — moussaka (accusative)",
+    "σουβλάκια": "σουβλάκι — souvlaki, skewer",
+    "πιείτε": "πίνω — to drink (perfective, 2pl: θα πιείτε)",
+    "χύμα": "χύμα — loose, unbottled; house (wine)",
+    "χαλβά": "χαλβάς — halva (accusative)",
+    "ποτηράκια": "ποτηράκι — small glass",
+    "τσίπουρο": "τσίπουρο — tsipouro (grape spirit)",
+    "Κέρασμα": "κέρασμα — treat, something on the house",
+    "φιλοξενούμενός": "φιλοξενούμενος — guest",
+    "κερνάμε": "κερνάω — to treat someone (1pl)",
+    "κερνάω": "κερνάω — to treat someone (to food or drink)"
+   },
+   "questions": [
+    {
+     "prompt": "Πού τρώνε οι τρεις φίλοι;",
+     "answer": "Σε μια ταβέρνα στην Πλάκα",
+     "options": [
+      "Σε μια ταβέρνα στην Πλάκα",
+      "Σε μια καφετέρια",
+      "Στο σπίτι του Νίκου"
+     ]
+    },
+    {
+     "prompt": "Γιατί γελάει ο Τομ;",
+     "answer": "Γιατί παραγγέλνουν το κρασί με το κιλό",
+     "options": [
+      "Γιατί παραγγέλνουν το κρασί με το κιλό",
+      "Γιατί δεν υπάρχει μουσακάς",
+      "Γιατί ο σερβιτόρος μιλάει αγγλικά"
+     ]
+    },
+    {
+     "prompt": "Τι φέρνει ο σερβιτόρος στο τέλος;",
+     "answer": "Χαλβά και τσίπουρο",
+     "options": [
+      "Χαλβά και τσίπουρο",
+      "Φρούτα και καφέ",
+      "Τον λογαριασμό μόνο"
+     ]
+    },
+    {
+     "prompt": "Ποιος πληρώνει απόψε;",
+     "answer": "Ο Νίκος και η Μαρία",
+     "options": [
+      "Ο Νίκος και η Μαρία",
+      "Ο Τομ",
+      "Το μαγαζί"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say: *A table for four, please.*",
+     "answer": "Ένα τραπέζι για τέσσερις, παρακαλώ.",
+     "accept": [
+      "Ένα τραπέζι για τέσσερις, παρακαλώ.",
+      "Ένα τραπέζι για τέσσερις.",
+      "τραπέζι για τέσσερις, παρακαλώ.",
+      "τραπέζι για τέσσερις.",
+      "Για τέσσερις, παρακαλώ.",
+      "Για τέσσερις."
+     ],
+     "why": "για + accusative; people take the masculine/feminine τέσσερις, not neuter τέσσερα."
+    },
+    {
+     "prompt": "Say: *A table for three.*",
+     "answer": "Ένα τραπέζι για τρεις.",
+     "accept": [
+      "Ένα τραπέζι για τρεις.",
+      "Ένα τραπέζι για τρεις, παρακαλώ.",
+      "τραπέζι για τρεις, παρακαλώ.",
+      "τραπέζι για τρεις."
+     ],
+     "why": "People: τρεις, not neuter τρία."
+    },
+    {
+     "prompt": "Say: *We have a reservation in the name of Pappas.*",
+     "answer": "Έχουμε κράτηση στο όνομα Παππά.",
+     "accept": [
+      "Έχουμε κράτηση στο όνομα Παππά.",
+      "Έχουμε κάνει κράτηση στο όνομα Παππά."
+     ],
+     "why": "The surname is in the genitive: στο όνομα Παππά."
+    },
+    {
+     "prompt": "Ask: *Can we sit outside?*",
+     "answer": "Μπορούμε να καθίσουμε έξω;",
+     "accept": [
+      "Μπορούμε να καθίσουμε έξω;",
+      "Μπορούμε να κάτσουμε έξω;",
+      "Να καθίσουμε έξω;",
+      "Να κάτσουμε έξω;"
+     ],
+     "why": "μπορώ + να + perfective; κάτσουμε is the colloquial perfective."
+    },
+    {
+     "prompt": "Ask the waiter: *What do you recommend?*",
+     "answer": "Τι μας προτείνετε;",
+     "accept": [
+      "Τι μας προτείνετε;",
+      "Τι προτείνετε;"
+     ],
+     "why": "Polite plural; μας = 'to us'."
+    },
+    {
+     "prompt": "Order: *I'll have a moussaka.*",
+     "answer": "Θα πάρω έναν μουσακά.",
+     "accept": [
+      "Θα πάρω έναν μουσακά.",
+      "Θα πάρω ένα μουσακά.",
+      "Για μένα έναν μουσακά.",
+      "Για μένα ένα μουσακά."
+     ],
+     "why": "ο μουσακάς → acc. τον μουσακά; έναν (ένα is common in speech)."
+    },
+    {
+     "prompt": "Order a Greek coffee, medium sweet:",
+     "answer": "Έναν ελληνικό μέτριο.",
+     "accept": [
+      "Έναν ελληνικό μέτριο.",
+      "Έναν ελληνικό μέτριο, παρακαλώ.",
+      "Ένα ελληνικό μέτριο, παρακαλώ.",
+      "Ένα ελληνικό μέτριο.",
+      "Έναν μέτριο ελληνικό, παρακαλώ.",
+      "Έναν μέτριο ελληνικό.",
+      "Ένα μέτριο ελληνικό, παρακαλώ.",
+      "Ένα μέτριο ελληνικό.",
+      "Θα πάρω έναν ελληνικό μέτριο.",
+      "Θα πάρω ένα ελληνικό μέτριο."
+     ],
+     "why": "ελληνικός (καφές) is masculine: έναν ελληνικό; the sweetness word agrees too."
+    },
+    {
+     "prompt": "Order: *two frappés with milk*",
+     "answer": "δύο φραπέδες με γάλα",
+     "accept": [
+      "δύο φραπέδες με γάλα",
+      "δυο φραπέδες με γάλα"
+     ],
+     "why": "ο φραπές, plural οι φραπέδες (like καφές → καφέδες)."
+    },
+    {
+     "prompt": "Order: *a Greek salad* (one word is enough)",
+     "answer": "μια χωριάτικη",
+     "accept": [
+      "μια χωριάτικη",
+      "μια χωριάτικη σαλάτα",
+      "μία χωριάτικη σαλάτα",
+      "μία χωριάτικη",
+      "Θα πάρω μια χωριάτικη σαλάτα.",
+      "Θα πάρω μια χωριάτικη.",
+      "Θα πάρω μία χωριάτικη σαλάτα.",
+      "Θα πάρω μία χωριάτικη."
+     ],
+     "why": "η χωριάτικη (σαλάτα): feminine, so μια."
+    },
+    {
+     "prompt": "Order: *a portion of chips*",
+     "answer": "μια μερίδα πατάτες",
+     "accept": [
+      "μια μερίδα πατάτες",
+      "μια μερίδα πατάτες τηγανητές",
+      "μία μερίδα πατάτες τηγανητές",
+      "μία μερίδα πατάτες"
+     ],
+     "why": "Portion + dish in the same case, like a measure."
+    },
+    {
+     "prompt": "Order: *half a kilo of white wine*",
+     "answer": "μισό κιλό λευκό κρασί",
+     "accept": [
+      "μισό κιλό λευκό κρασί",
+      "μισό κιλό λευκό",
+      "μισό κιλό άσπρο κρασί",
+      "μισό κιλό άσπρο",
+      "ένα μισόκιλο λευκό κρασί",
+      "ένα μισόκιλο λευκό",
+      "ένα μισόκιλο άσπρο κρασί",
+      "ένα μισόκιλο άσπρο"
+     ],
+     "why": "House wine is ordered by weight; measure + item, same case."
+    },
+    {
+     "prompt": "Say: *I'd like a glass of water.*",
+     "answer": "Θα ήθελα ένα ποτήρι νερό.",
+     "accept": [
+      "Θα ήθελα ένα ποτήρι νερό.",
+      "Θα ήθελα ένα ποτήρι νερό, παρακαλώ."
+     ],
+     "why": "θα ήθελα + accusative; measure + item."
+    },
+    {
+     "prompt": "Say: *Without onion, please.*",
+     "answer": "Χωρίς κρεμμύδι, παρακαλώ.",
+     "accept": [
+      "Χωρίς κρεμμύδι, παρακαλώ.",
+      "Χωρίς κρεμμύδι."
+     ],
+     "why": "χωρίς + accusative, usually without article."
+    },
+    {
+     "prompt": "Polite: *Bring us a bit more bread.*",
+     "answer": "Φέρτε μας λίγο ψωμί ακόμα.",
+     "accept": [
+      "Φέρτε μας λίγο ψωμί ακόμα.",
+      "Φέρτε μας λίγο ακόμα ψωμί.",
+      "Φέρτε μας λίγο ψωμί ακόμη.",
+      "Φέρτε μας κι άλλο ψωμί.",
+      "Μας φέρνετε λίγο ψωμί ακόμα;",
+      "Μας φέρνετε λίγο ακόμα ψωμί;",
+      "Μας φέρνετε κι άλλο ψωμί;"
+     ],
+     "why": "Polite imperative φέρτε + weak pronoun after it; or the softer question Μας φέρνετε...;"
+    },
+    {
+     "prompt": "To a friend: *Pass me the salt.*",
+     "answer": "Δώσε μου το αλάτι.",
+     "accept": [
+      "Δώσε μου το αλάτι.",
+      "Δώσε μου το αλάτι, σε παρακαλώ.",
+      "Φέρε μου το αλάτι."
+     ],
+     "why": "εσύ imperative δώσε + μου."
+    },
+    {
+     "prompt": "Say: *The bill, please.*",
+     "answer": "Τον λογαριασμό, παρακαλώ.",
+     "accept": [
+      "Τον λογαριασμό, παρακαλώ.",
+      "Τον λογαριασμό.",
+      "Το λογαριασμό, παρακαλώ.",
+      "Το λογαριασμό.",
+      "Μας φέρνετε τον λογαριασμό;",
+      "Μας φέρνετε το λογαριασμό;"
+     ],
+     "why": "Accusative, as the object of an unspoken 'bring'; το λογαριασμό is also written."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Θα πάρω ___ μπίρα.",
+     "answer": "μια",
+     "options": [
+      "μια",
+      "έναν",
+      "ένα"
+     ],
+     "why": "η μπίρα is feminine: μια."
+    },
+    {
+     "prompt": "Θα πάρω ___ τζατζίκι.",
+     "answer": "ένα",
+     "options": [
+      "ένα",
+      "έναν",
+      "μια"
+     ],
+     "why": "το τζατζίκι is neuter: ένα."
+    },
+    {
+     "prompt": "Θα πάρω έναν ___",
+     "answer": "φραπέ",
+     "options": [
+      "φραπέ",
+      "φραπές",
+      "φραπέδες"
+     ],
+     "why": "What you order is accusative: masculines in -ς drop it (καφές → καφέ)."
+    },
+    {
+     "prompt": "___ κερνάω ένα ποτό. (you, εσύ)",
+     "answer": "Σε",
+     "options": [
+      "Σε",
+      "Σου",
+      "Εσύ"
+     ],
+     "why": "κερνάω takes the person in the accusative: σε."
+    },
+    {
+     "prompt": "The waiter asks «Σκέτο, μέτριο ή γλυκό;». He means…",
+     "answer": "how much sugar",
+     "options": [
+      "how much sugar",
+      "what size",
+      "hot or cold"
+     ],
+     "why": "σκέτο = no sugar, μέτριο = medium, γλυκό = sweet."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Waiter to a group: *Are you ready to order?*",
+     "answer": "Είστε έτοιμοι να παραγγείλετε;",
+     "accept": [
+      "Είστε έτοιμοι να παραγγείλετε;"
+     ],
+     "why": "να + perfective παραγγείλω; έτοιμοι agrees with a mixed group."
+    },
+    {
+     "prompt": "Waiter: *Shall I bring you anything else?*",
+     "answer": "Να σας φέρω κάτι άλλο;",
+     "accept": [
+      "Να σας φέρω κάτι άλλο;",
+      "Να σας φέρω τίποτε άλλο;",
+      "Να σας φέρω τίποτα άλλο;"
+     ],
+     "why": "να + perfective in a question makes an offer."
+    },
+    {
+     "prompt": "Ask your friends: *Shall we order?*",
+     "answer": "Να παραγγείλουμε;",
+     "accept": [
+      "Να παραγγείλουμε;",
+      "Πάμε να παραγγείλουμε;"
+     ],
+     "why": "Bare να + 1pl = 'shall we…?'"
+    },
+    {
+     "prompt": "Say: *Everything was delicious.*",
+     "answer": "Όλα ήταν πολύ νόστιμα.",
+     "accept": [
+      "Όλα ήταν πολύ νόστιμα.",
+      "Όλα ήταν νόστιμα.",
+      "Ήταν όλα πολύ νόστιμα.",
+      "Ήταν όλα νόστιμα."
+     ],
+     "why": "όλα is neuter plural, so νόστιμα."
+    },
+    {
+     "prompt": "Say: *Enjoy your meal!*",
+     "answer": "Καλή όρεξη!",
+     "accept": [
+      "Καλή όρεξη!"
+     ],
+     "why": "Lit. 'good appetite'."
+    },
+    {
+     "prompt": "Raise your glass: *Cheers!*",
+     "answer": "Στην υγειά μας!",
+     "accept": [
+      "Στην υγειά μας!",
+      "Στην υγειά σας!",
+      "Γεια μας!",
+      "Εις υγείαν!"
+     ],
+     "why": "Also Γεια μας! or, to the others, Στην υγειά σας!"
+    },
+    {
+     "prompt": "To a friend: *I'm treating you to a coffee.*",
+     "answer": "Σε κερνάω έναν καφέ.",
+     "accept": [
+      "Σε κερνάω έναν καφέ.",
+      "Σε κερνάω ένα καφέ.",
+      "Σε κερνώ έναν καφέ.",
+      "Σε κερνώ ένα καφέ."
+     ],
+     "why": "κερνάω + person in the accusative (σε) + thing in the accusative."
+    },
+    {
+     "prompt": "Say: *It's on me!*",
+     "answer": "Κερνάω εγώ!",
+     "accept": [
+      "Κερνάω εγώ!",
+      "Κερνώ εγώ!",
+      "Εγώ κερνάω!",
+      "Εγώ κερνώ!"
+     ],
+     "why": "κερνάω without an object = 'I'm paying'."
+    },
+    {
+     "prompt": "Say: *She treated us to dessert.*",
+     "answer": "Μας κέρασε γλυκό.",
+     "accept": [
+      "Μας κέρασε γλυκό.",
+      "Μας κέρασε ένα γλυκό.",
+      "Μας κέρασε επιδόρπιο."
+     ],
+     "why": "Simple past κέρασε; person in the accusative μας."
+    },
+    {
+     "prompt": "Say: *I'll treat you (pl.) tomorrow.*",
+     "answer": "Θα σας κεράσω αύριο.",
+     "accept": [
+      "Θα σας κεράσω αύριο.",
+      "Αύριο θα σας κεράσω."
+     ],
+     "why": "θα + perfective κεράσω."
+    },
+    {
+     "prompt": "Fill in: Απόψε ___ εμείς! (κερνάω)",
+     "answer": "κερνάμε",
+     "accept": [
+      "κερνάμε"
+     ],
+     "why": "1pl of κερνάω: κερνάμε."
+    },
+    {
+     "prompt": "Fill in: Χθες ο Κώστας μάς ___ ένα ποτό. (κερνάω)",
+     "answer": "κέρασε",
+     "accept": [
+      "κέρασε"
+     ],
+     "why": "Simple past 3sg: κέρασε."
+    },
+    {
+     "prompt": "Say: *It's on the house.*",
+     "answer": "Κερνάει το μαγαζί.",
+     "accept": [
+      "Κερνάει το μαγαζί.",
+      "Κερνά το μαγαζί.",
+      "Είναι κέρασμα από το μαγαζί.",
+      "κέρασμα από το μαγαζί.",
+      "Είναι κερασμένο."
+     ],
+     "why": "Lit. 'the shop is treating'; or Είναι κέρασμα από το μαγαζί."
+    },
+    {
+     "prompt": "Waiter: *Together or separately?*",
+     "answer": "Μαζί ή χωριστά;",
+     "accept": [
+      "Μαζί ή χωριστά;",
+      "Χωριστά ή μαζί;"
+     ],
+     "why": "χωριστά = separately."
+    },
+    {
+     "prompt": "To a friend: *Shall we split it?*",
+     "answer": "Να τα σπάσουμε;",
+     "accept": [
+      "Να τα σπάσουμε;",
+      "Πάμε ρεφενέ;",
+      "Να πάμε ρεφενέ;",
+      "Τα σπάμε;"
+     ],
+     "why": "τα σπάμε = split the bill (colloquial); ρεφενέ = going Dutch."
+    },
+    {
+     "prompt": "Polite: *Keep the change.*",
+     "answer": "Κρατήστε τα ρέστα.",
+     "accept": [
+      "Κρατήστε τα ρέστα."
+     ],
+     "why": "Polite imperative of κρατάω: κρατήστε."
+    },
+    {
+     "prompt": "Fill in: Δύο ___, παρακαλώ. (το σουβλάκι)",
+     "answer": "σουβλάκια",
+     "accept": [
+      "σουβλάκια"
+     ],
+     "why": "Neuter -ι nouns: plural -ια."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "«Ο μουσακάς τελείωσε.» means…",
+     "answer": "There's no moussaka left.",
+     "options": [
+      "There's no moussaka left.",
+      "The moussaka is ready.",
+      "You've finished your moussaka."
+     ],
+     "why": "τελειώνω of food in a restaurant = 'run out'."
+    },
+    {
+     "prompt": "«Πάμε ρεφενέ» means…",
+     "answer": "We each pay our share.",
+     "options": [
+      "We each pay our share.",
+      "Let's leave a tip.",
+      "Let's go somewhere else."
+     ],
+     "why": "ρεφενέ = going Dutch."
+    },
+    {
+     "prompt": "Which one is NOT a natural way to ask for the bill?",
+     "answer": "Μπορώ να έχω τον λογαριασμό;",
+     "options": [
+      "Μπορώ να έχω τον λογαριασμό;",
+      "Τον λογαριασμό, παρακαλώ.",
+      "Μας φέρνετε τον λογαριασμό;"
+     ],
+     "why": "'Can I have…' with έχω is an English calque."
+    },
+    {
+     "prompt": "Waiter: «Τι θα πιείτε;»",
+     "answer": "What will you drink?",
+     "options": [
+      "What will you drink?",
+      "What will you eat?",
+      "How will you pay?"
+     ],
+     "why": "πιείτε is the perfective of πίνω."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "καφετέρια",
+  "σερβιτόρος",
+  "λογαριασμός",
+  "κερνάω",
+  "παραγγέλνω",
+  "κατάλογος",
+  "πιάτο",
+  "κρασί",
+  "ποτήρι",
+  "φιλοδώρημα",
+  "πεινάω",
+  "νόστιμος"
+ ]
+}

@@ -1,0 +1,676 @@
+{
+ "el": "Λόγια στοιχεία",
+ "title": "-ως adverbs, learned pasts in -ην, set phrases with the genitive",
+ "section": "B2 · Holton §7.4, §6.25, §8.1-8.2",
+ "goal": "Recognize and use the learned (καθαρεύουσα-origin) pieces that formal Greek is built from.",
+ "blocks": [
+  {
+   "type": "rules",
+   "src": "grammar/adverbs.json#sections[section=7.4].rule",
+   "cite": "Holton §7.4"
+  },
+  {
+   "type": "examples",
+   "src": "grammar/adverbs.json#sections[section=7.4].lists.examples_-ως",
+   "cite": "Holton §7.4"
+  },
+  {
+   "type": "examples",
+   "title": "Pairs that differ in meaning",
+   "src": "grammar/adverbs.json#sections[section=7.4].lists.doublets_with_meaning_difference",
+   "cite": "Holton §7.4"
+  },
+  {
+   "type": "table",
+   "title": "Learned prepositions and set phrases",
+   "head": [
+    "Phrase",
+    "Meaning",
+    "Example"
+   ],
+   "rows": [
+    [
+     "κατά τη διάρκεια + gen.",
+     "during",
+     "κατά τη διάρκεια της συνάντησης"
+    ],
+    [
+     "λόγω + gen.",
+     "because of",
+     "λόγω της κακοκαιρίας"
+    ],
+    [
+     "εξαιτίας + gen.",
+     "because of (often blame)",
+     "εξαιτίας του λάθους του"
+    ],
+    [
+     "μέσω + gen.",
+     "via, through",
+     "μέσω διαδικτύου"
+    ],
+    [
+     "βάσει + gen.",
+     "on the basis of",
+     "βάσει του νόμου"
+    ],
+    [
+     "εκ μέρους + gen.",
+     "on behalf of",
+     "εκ μέρους της εταιρείας"
+    ],
+    [
+     "υπέρ + gen.",
+     "in favour of",
+     "υπέρ της πρότασης"
+    ],
+    [
+     "εναντίον + gen.",
+     "against",
+     "ψήφισαν εναντίον του νόμου"
+    ],
+    [
+     "εντός / εκτός + gen.",
+     "within / outside",
+     "εντός της προθεσμίας"
+    ],
+    [
+     "ενόψει + gen.",
+     "in view of",
+     "ενόψει των εκλογών"
+    ],
+    [
+     "πλην + gen./acc.",
+     "except",
+     "πλην εξαιρέσεων"
+    ],
+    [
+     "ανά + acc.",
+     "per",
+     "ανά άτομο, ανά δύο"
+    ],
+    [
+     "εν τω μεταξύ",
+     "meanwhile",
+     "Εν τω μεταξύ άρχισε να βρέχει."
+    ],
+    [
+     "εν πάση περιπτώσει",
+     "in any case",
+     "Εν πάση περιπτώσει, θα σας ενημερώσω."
+    ],
+    [
+     "εκ των υστέρων / εκ των προτέρων",
+     "with hindsight / in advance",
+     "Εκ των υστέρων, είχε δίκιο."
+    ],
+    [
+     "εν λόγω",
+     "in question, aforementioned",
+     "το εν λόγω έγγραφο"
+    ],
+    [
+     "επί του παρόντος",
+     "for the time being",
+     "Επί του παρόντος δεν υπάρχει λύση."
+    ],
+    [
+     "κατά κύριο λόγο",
+     "mainly",
+     "Πρόκειται κατά κύριο λόγο για οικονομικό ζήτημα."
+    ]
+   ]
+  },
+  {
+   "type": "prep",
+   "only": [
+    "εναντίον",
+    "κατά",
+    "λόγω",
+    "μεταξύ"
+   ],
+   "limit": 4
+  },
+  {
+   "type": "culture",
+   "title": "Katharevousa's afterlife",
+   "text": "Until 1976 Greece had two written standards: **καθαρεύουσα** 'the purifying language', an archaizing form used by the state, the courts and much of the press, and **δημοτική**, the spoken language. The 1976 reform made Demotic the language of schools and the state, and the monotonic accent system followed in 1982. Katharevousa did not vanish; it was absorbed. Its fossils are the **-ως** adverbs (**ακριβώς, ευχαρίστως**), set phrases like **εν τω μεταξύ** and **εκ των υστέρων**, and the **-ην** pasts of news reports (**συνέβη, εξελέγη**). Legal and bureaucratic Greek still leans on it heavily."
+  },
+  {
+   "type": "text",
+   "title": "Learned pasts in -ην",
+   "text": "Met in the passive unit, here as vocabulary: **συνέβη** 'it happened', **κατέστη** 'became, was rendered', **εξεπλάγη** 'was surprised', **απηλλάγη** 'was acquitted, released', **διεγράφη** 'was expelled, deleted', **εξελέγη** 'was elected'. You will read all of these in news Greek, mostly in the 3rd person; in speech the -ηκε forms are normal (εκλέχτηκε, διαγράφτηκε)."
+  },
+  {
+   "type": "reading",
+   "title": "Ανακοίνωση της Γραμματείας",
+   "text": "Λόγω της απεργίας των εργαζομένων στα μέσα μεταφοράς την ερχόμενη Τετάρτη, οι εξετάσεις του μαθήματος «Νεότερη Ελληνική Ιστορία» αναβάλλονται. Η νέα ημερομηνία θα ανακοινωθεί εντός της εβδομάδας μέσω της ιστοσελίδας του Τμήματος. Επί του παρόντος, το πρόγραμμα των υπόλοιπων εξετάσεων ισχύει κανονικά.\n\nΥπενθυμίζεται ότι, βάσει του κανονισμού σπουδών, οι αιτήσεις για την ορκωμοσία υποβάλλονται εκ των προτέρων και αποκλειστικά ηλεκτρονικά. Αιτήσεις που υποβάλλονται εκτός προθεσμίας δεν γίνονται δεκτές, πλην εξαιρετικών περιπτώσεων. Οι φοιτητές πρέπει να έχουν εξοφλήσει πλήρως τυχόν οφειλές τους προς τη βιβλιοθήκη.\n\nΕπισημαίνεται ότι οι φοιτητές του προγράμματος Erasmus εξετάζονται βάσει ειδικού προγράμματος, το οποίο έχει ήδη αναρτηθεί στην ιστοσελίδα. Σε κάθε αίθουσα θα υπάρχει ένας φοιτητής ανά δύο θέσεις. Όσοι αντιμετωπίζουν σοβαρό πρόβλημα υγείας μπορούν να εξεταστούν προφορικά, εφόσον προσκομίσουν ιατρική βεβαίωση εντός δέκα ημερών.\n\nΚατά τη διάρκεια της περσινής εξεταστικής συνέβη το εξής: πολλοί φοιτητές δεν ενημερώθηκαν έγκαιρα για αλλαγές στις αίθουσες, εξαιτίας ενός τεχνικού προβλήματος στο σύστημα ηλεκτρονικού ταχυδρομείου. Για τον λόγο αυτόν, παρακαλούνται όλοι να ελέγχουν τακτικά την ιστοσελίδα και όχι μόνο το ηλεκτρονικό τους ταχυδρομείο.\n\nΕκ μέρους του νέου Προέδρου του Τμήματος, ο οποίος εξελέγη τον προηγούμενο μήνα, η Γραμματεία ευχαριστεί θερμά τους φοιτητές για τη συνεργασία τους. Ενόψει της εξεταστικής, ο Πρόεδρος θα δέχεται ευχαρίστως φοιτητές στο γραφείο του κάθε Πέμπτη, 11:00-13:00. Εν τω μεταξύ, για οποιαδήποτε απορία μπορείτε να επικοινωνείτε με τη Γραμματεία τηλεφωνικά ή μέσω email. Εν πάση περιπτώσει, θα ενημερωθείτε αμέσως για κάθε νέα αλλαγή.\n\nΗ Γραμματεία του Τμήματος Ιστορίας",
+   "en": "Because of the transport workers' strike next Wednesday, the exams for the course \"Modern Greek History\" are postponed. The new date will be announced within the week via the Department's website. For the time being, the timetable of the other exams stands as normal.\n\nPlease note that, under the study regulations, applications for the graduation ceremony are submitted in advance and exclusively online. Applications submitted after the deadline are not accepted, except in exceptional cases. Students must have fully settled any debts to the library.\n\nPlease note that Erasmus students are examined according to a special timetable, which has already been posted on the website. In each room there will be one student per two seats. Those facing a serious health problem may be examined orally, provided they submit a medical certificate within ten days.\n\nDuring last year's exam period the following happened: many students were not informed in time about room changes, because of a technical problem with the email system. For this reason, everyone is asked to check the website regularly and not only their email.\n\nOn behalf of the new Head of Department, who was elected last month, the Secretariat warmly thanks students for their cooperation. In view of the exam period, the Head will be glad to see students in his office every Thursday, 11:00-13:00. Meanwhile, for any question you can contact the Secretariat by phone or by email. In any case, you will be informed immediately of any new change.\n\nThe Secretariat of the Department of History",
+   "gloss": {
+    "απεργίας": "απεργία — strike (gen.)",
+    "εργαζομένων": "εργαζόμενος — worker, employee (gen. pl.)",
+    "ερχόμενη": "ερχόμενος — next, coming (fem.)",
+    "Νεότερη": "νεότερος — modern (Νεότερη Ιστορία 'modern history')",
+    "Ελληνική": "ελληνικός — Greek (fem.)",
+    "νέα": "νέος — new (fem.)",
+    "ανακοινωθεί": "ανακοινώνομαι — be announced (θα ανακοινωθεί)",
+    "πλήρως": "πλήρως — fully, completely",
+    "Υπενθυμίζεται": "υπενθυμίζεται — it is pointed out, please note (impersonal passive)",
+    "σπουδών": "σπουδές — studies (gen.); κανονισμός σπουδών 'study regulations'",
+    "ορκωμοσία": "ορκωμοσία — graduation ceremony (lit. oath-taking)",
+    "προτέρων": "εκ των προτέρων — in advance",
+    "αποκλειστικά": "αποκλειστικά — exclusively",
+    "ηλεκτρονικά": "ηλεκτρονικά — electronically, online",
+    "δεκτές": "δεκτός — accepted (γίνονται δεκτές 'are accepted')",
+    "πλην": "πλην — except (+ gen.)",
+    "τυχόν": "τυχόν — any (possible); τυχόν οφειλές 'any debts'",
+    "εξοφλήσει": "εξοφλώ — pay off, settle",
+    "οφειλές": "οφειλή — debt, amount owed (pl.)",
+    "Επισημαίνεται": "επισημαίνεται — it is noted (impersonal passive of επισημαίνω)",
+    "αναρτηθεί": "αναρτώμαι — be posted (online), be put up",
+    "ανά": "ανά — per (+ acc.)",
+    "εξεταστούν": "εξετάζομαι — be examined (να εξεταστούν)",
+    "προφορικά": "προφορικά — orally",
+    "εφόσον": "εφόσον — provided that",
+    "προσκομίσουν": "προσκομίζω — produce, submit (a document)",
+    "βεβαίωση": "βεβαίωση — certificate",
+    "περσινής": "περσινός — last year's (fem. gen.)",
+    "εξεταστικής": "εξεταστική — exam period (gen.)",
+    "εξεταστική": "εξεταστική — exam period",
+    "ενημερώθηκαν": "ενημερώνομαι — were informed",
+    "έγκαιρα": "έγκαιρα — in time, promptly",
+    "ηλεκτρονικού": "ηλεκτρονικός — electronic; ηλεκτρονικό ταχυδρομείο 'email'",
+    "ηλεκτρονικό": "ηλεκτρονικός — electronic; ηλεκτρονικό ταχυδρομείο 'email'",
+    "ταχυδρομείου": "ταχυδρομείο — post, mail (gen.)",
+    "ταχυδρομείο": "ταχυδρομείο — post, mail",
+    "παρακαλούνται": "παρακαλούμαι — are requested",
+    "Γραμματεία": "γραμματεία — secretariat, admin office",
+    "Γραμματείας": "γραμματεία — secretariat, admin office (gen.)",
+    "Προέδρου": "πρόεδρος — president; here head of department (gen.)",
+    "Πρόεδρος": "πρόεδρος — president; here head of department",
+    "εξελέγη": "εκλέγομαι — was elected (learned past)",
+    "θερμά": "θερμά — warmly",
+    "Ενόψει": "ενόψει — in view of (+ gen.)",
+    "Εν": "εν — in (learned); εν τω μεταξύ 'meanwhile', εν πάση περιπτώσει 'in any case'",
+    "τω": "εν τω μεταξύ — meanwhile (τω is an old dative article)",
+    "πάση": "εν πάση περιπτώσει — in any case (old dative)",
+    "περιπτώσει": "εν πάση περιπτώσει — in any case (old dative of περίπτωση)",
+    "οποιαδήποτε": "οποιοσδήποτε — any (fem.)",
+    "απορία": "απορία — question, query",
+    "ενημερωθείτε": "ενημερώνομαι — you will be informed (θα ενημερωθείτε)",
+    "πέρσι": "πέρσι — last year",
+    "Ακυρώθηκε": "ακυρώνομαι — was cancelled"
+   },
+   "questions": [
+    {
+     "prompt": "Γιατί αναβάλλονται οι εξετάσεις;",
+     "answer": "Λόγω απεργίας στα μέσα μεταφοράς",
+     "options": [
+      "Λόγω απεργίας στα μέσα μεταφοράς",
+      "Εξαιτίας τεχνικού προβλήματος",
+      "Επειδή εξελέγη νέος Πρόεδρος"
+     ]
+    },
+    {
+     "prompt": "Πώς υποβάλλονται οι αιτήσεις για την ορκωμοσία;",
+     "answer": "Μόνο ηλεκτρονικά και εκ των προτέρων",
+     "options": [
+      "Μόνο ηλεκτρονικά και εκ των προτέρων",
+      "Στη Γραμματεία, κάθε Πέμπτη",
+      "Με email στον Πρόεδρο"
+     ]
+    },
+    {
+     "prompt": "Τι συνέβη πέρσι;",
+     "answer": "Πολλοί φοιτητές δεν ενημερώθηκαν για αλλαγές στις αίθουσες",
+     "options": [
+      "Πολλοί φοιτητές δεν ενημερώθηκαν για αλλαγές στις αίθουσες",
+      "Ακυρώθηκε όλη η εξεταστική",
+      "Έκλεισε η βιβλιοθήκη"
+     ]
+    },
+    {
+     "prompt": "Πότε δέχεται φοιτητές ο Πρόεδρος;",
+     "answer": "Κάθε Πέμπτη το μεσημέρι",
+     "options": [
+      "Κάθε Πέμπτη το μεσημέρι",
+      "Κάθε Τετάρτη το πρωί",
+      "Μόνο μετά την εξεταστική"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "Adverb of **ακριβής**",
+     "answer": "ακριβώς",
+     "why": "-ής → -ώς."
+    },
+    {
+     "prompt": "Adverb of **ασφαλής**",
+     "answer": "ασφαλώς",
+     "why": "-ής → -ώς."
+    },
+    {
+     "prompt": "Adverb of **σαφής**",
+     "answer": "σαφώς",
+     "why": "-ής → -ώς."
+    },
+    {
+     "prompt": "Adverb of **πλήρης**",
+     "answer": "πλήρως",
+     "why": "Stress stays where it is in the masculine: πλήρως."
+    },
+    {
+     "prompt": "Adverb of **συνήθης**",
+     "answer": "συνήθως",
+     "why": "συνήθης → συνήθως."
+    },
+    {
+     "prompt": "Adverb of **συνεχής**",
+     "answer": "συνεχώς",
+     "why": "-ής → -ώς."
+    },
+    {
+     "prompt": "Adverb of **επείγων**",
+     "answer": "επειγόντως",
+     "why": "-ων adjectives: stem -οντ- + -ως, stress on the penult."
+    },
+    {
+     "prompt": "Adverb of **απόλυτος** (formal)",
+     "answer": "απολύτως",
+     "why": "Antepenult adjectives move the stress to the penult: απολύτως."
+    },
+    {
+     "prompt": "Adverb of **κύριος** 'main'",
+     "answer": "κυρίως",
+     "why": "κύριος → κυρίως 'mainly'."
+    },
+    {
+     "prompt": "Adverb of **επόμενος** 'following' (= consequently)",
+     "answer": "επομένως",
+     "why": "επόμενος → επομένως."
+    },
+    {
+     "prompt": "Adverb of **ειλικρινής**",
+     "answer": "ειλικρινώς",
+     "accept": [
+      "ειλικρινώς",
+      "ειλικρινά"
+     ],
+     "why": "ειλικρινώς (formal) or ειλικρινά."
+    },
+    {
+     "prompt": "Adverb of **διεθνής**",
+     "answer": "διεθνώς",
+     "why": "-ής → -ώς."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Έλα ___! (immediately)",
+     "answer": "αμέσως",
+     "options": [
+      "αμέσως",
+      "άμεσα",
+      "άμεσος"
+     ],
+     "why": "αμέσως 'immediately', άμεσα 'directly'."
+    },
+    {
+     "prompt": "Θα σας βοηθήσω ___. (with pleasure)",
+     "answer": "ευχαρίστως",
+     "options": [
+      "ευχαρίστως",
+      "ευχάριστα",
+      "ευχαριστώ"
+     ],
+     "why": "ευχαρίστως 'gladly', ευχάριστα 'pleasantly'."
+    },
+    {
+     "prompt": "Είναι ___ αδύνατο. (completely)",
+     "answer": "τελείως",
+     "options": [
+      "τελείως",
+      "τέλεια",
+      "τελικά"
+     ],
+     "why": "τελείως 'completely', τέλεια 'perfectly'."
+    },
+    {
+     "prompt": "Δεν ήρθε ___ της απεργίας.",
+     "answer": "λόγω",
+     "options": [
+      "λόγω",
+      "βάσει",
+      "υπέρ",
+      "μέσω"
+     ],
+     "why": "λόγω + gen. 'because of'."
+    },
+    {
+     "prompt": "Η πληρωμή γίνεται ___ τράπεζας.",
+     "answer": "μέσω",
+     "options": [
+      "μέσω",
+      "λόγω",
+      "ανά",
+      "εκτός"
+     ],
+     "why": "μέσω + gen. 'via'."
+    },
+    {
+     "prompt": "Ψήφισε ___ της πρότασης. (in favour)",
+     "answer": "υπέρ",
+     "options": [
+      "υπέρ",
+      "εναντίον",
+      "κατά τη διάρκεια",
+      "εντός"
+     ],
+     "why": "υπέρ + gen."
+    },
+    {
+     "prompt": "Το ___ έγγραφο δεν βρέθηκε. (in question)",
+     "answer": "εν λόγω",
+     "options": [
+      "εν λόγω",
+      "λόγω",
+      "εκ μέρους",
+      "εν τω μεταξύ"
+     ],
+     "why": "εν λόγω 'in question'."
+    },
+    {
+     "prompt": "___ των εκλογών, τα κόμματα ετοιμάζονται.",
+     "answer": "Ενόψει",
+     "options": [
+      "Ενόψει",
+      "Εκτός",
+      "Πλην",
+      "Ανά"
+     ],
+     "why": "ενόψει + gen. 'in view of, ahead of'."
+    },
+    {
+     "prompt": "Το εισιτήριο κοστίζει δέκα ευρώ ___ άτομο.",
+     "answer": "ανά",
+     "options": [
+      "ανά",
+      "μέσω",
+      "υπέρ",
+      "κατά"
+     ],
+     "why": "ανά + acc. 'per'."
+    },
+    {
+     "prompt": "Τι ___ χθες; (learned past)",
+     "answer": "συνέβη",
+     "options": [
+      "συνέβη",
+      "συμβαίνει",
+      "κατέστη"
+     ],
+     "why": "συνέβη 'it happened'."
+    },
+    {
+     "prompt": "Ο βουλευτής ___ από το κόμμα. (was expelled, formal)",
+     "answer": "διεγράφη",
+     "options": [
+      "διεγράφη",
+      "διαγράφει",
+      "εξελέγη"
+     ],
+     "why": "διεγράφη = διαγράφτηκε."
+    }
+   ]
+  },
+  {
+   "gen": "prep-blank",
+   "only": [
+    "εναντίον",
+    "κατά",
+    "λόγω",
+    "μεταξύ"
+   ],
+   "n": 3
+  },
+  {
+   "gen": "type",
+   "n": 8,
+   "items": [
+    {
+     "prompt": "Say in Greek: *because of the bad weather* (η κακοκαιρία)",
+     "answer": "λόγω της κακοκαιρίας",
+     "accept": [
+      "λόγω της κακοκαιρίας",
+      "λόγω κακοκαιρίας",
+      "εξαιτίας της κακοκαιρίας"
+     ],
+     "why": "λόγω + genitive."
+    },
+    {
+     "prompt": "Say in Greek: *via the internet* (το διαδίκτυο)",
+     "answer": "μέσω διαδικτύου",
+     "accept": [
+      "μέσω διαδικτύου",
+      "μέσω του διαδικτύου",
+      "μέσω ίντερνετ",
+      "μέσω του ίντερνετ"
+     ],
+     "why": "μέσω + genitive, often without the article."
+    },
+    {
+     "prompt": "Say in Greek: *on behalf of the company*",
+     "answer": "εκ μέρους της εταιρείας",
+     "accept": [
+      "εκ μέρους της εταιρείας",
+      "εκ μέρους της εταιρίας"
+     ],
+     "why": "εκ μέρους + genitive."
+    },
+    {
+     "prompt": "Say in Greek: *within the deadline*",
+     "answer": "εντός της προθεσμίας",
+     "accept": [
+      "εντός της προθεσμίας",
+      "εντός προθεσμίας",
+      "μέσα στην προθεσμία"
+     ],
+     "why": "εντός + genitive (everyday: μέσα στην προθεσμία)."
+    },
+    {
+     "prompt": "Say in Greek: *on the basis of the law*",
+     "answer": "βάσει του νόμου",
+     "accept": [
+      "βάσει του νόμου",
+      "βάσει νόμου",
+      "με βάση τον νόμο",
+      "με βάση το νόμο"
+     ],
+     "why": "βάσει + genitive (everyday: με βάση + accusative)."
+    },
+    {
+     "prompt": "Say in Greek: *during the meeting* (η συνάντηση)",
+     "answer": "κατά τη διάρκεια της συνάντησης",
+     "accept": [
+      "κατά τη διάρκεια της συνάντησης",
+      "κατά την διάρκεια της συνάντησης"
+     ],
+     "why": "κατά τη διάρκεια + genitive."
+    },
+    {
+     "prompt": "Say in Greek: *meanwhile* (learned phrase)",
+     "answer": "εν τω μεταξύ",
+     "accept": [
+      "εν τω μεταξύ",
+      "στο μεταξύ"
+     ],
+     "why": "εν + old dative τω; everyday στο μεταξύ."
+    },
+    {
+     "prompt": "Say in Greek: *in any case* (learned phrase)",
+     "answer": "εν πάση περιπτώσει",
+     "accept": [
+      "εν πάση περιπτώσει",
+      "σε κάθε περίπτωση"
+     ],
+     "why": "Fixed phrase with old datives; everyday σε κάθε περίπτωση."
+    },
+    {
+     "prompt": "Say in Greek: *outside the city*",
+     "answer": "εκτός πόλης",
+     "accept": [
+      "εκτός πόλης",
+      "εκτός της πόλης",
+      "έξω από την πόλη"
+     ],
+     "why": "εκτός + genitive, often without the article."
+    },
+    {
+     "prompt": "Say in Greek: *in advance*",
+     "answer": "εκ των προτέρων",
+     "accept": [
+      "εκ των προτέρων"
+     ],
+     "why": "εκ + old genitive plural; the opposite is εκ των υστέρων."
+    },
+    {
+     "prompt": "Say in Greek: *for the time being* (learned phrase)",
+     "answer": "επί του παρόντος",
+     "accept": [
+      "επί του παρόντος",
+      "προς το παρόν"
+     ],
+     "why": "επί + genitive; everyday προς το παρόν."
+    },
+    {
+     "prompt": "Ο νέος δήμαρχος ___ με μεγάλη πλειοψηφία. (εκλέγομαι, learned past)",
+     "answer": "εξελέγη",
+     "accept": [
+      "εξελέγη",
+      "εκλέχτηκε"
+     ],
+     "why": "Learned -ην past of εκλέγομαι; speech uses εκλέχτηκε."
+    },
+    {
+     "prompt": "Say in Greek: *against the law*",
+     "answer": "εναντίον του νόμου",
+     "accept": [
+      "εναντίον του νόμου",
+      "κατά του νόμου",
+      "ενάντια στον νόμο",
+      "ενάντια στο νόμο"
+     ],
+     "why": "εναντίον + genitive (also κατά του νόμου)."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "n": 5,
+   "items": [
+    {
+     "prompt": "___ του λάθους του χάσαμε το τρένο.",
+     "answer": "Εξαιτίας",
+     "options": [
+      "Εξαιτίας",
+      "Υπέρ",
+      "Ενόψει"
+     ],
+     "why": "εξαιτίας + genitive gives a cause, often with blame."
+    },
+    {
+     "prompt": "Ψήφισαν ___ του νόμου, γιατί τον θεωρούσαν άδικο.",
+     "answer": "εναντίον",
+     "options": [
+      "εναντίον",
+      "υπέρ",
+      "βάσει"
+     ],
+     "why": "They thought it unfair, so they voted against: εναντίον + genitive."
+    },
+    {
+     "prompt": "Ήρθαν όλοι ___ του Νίκου, που ήταν άρρωστος.",
+     "answer": "πλην",
+     "options": [
+      "πλην",
+      "μέσω",
+      "υπέρ"
+     ],
+     "why": "πλην 'except' + genitive."
+    },
+    {
+     "prompt": "Πήγε στη σύσκεψη ___ του διευθυντή, που έλειπε.",
+     "answer": "εκ μέρους",
+     "options": [
+      "εκ μέρους",
+      "εκ των υστέρων",
+      "εν λόγω"
+     ],
+     "why": "Representing someone: εκ μέρους + genitive."
+    },
+    {
+     "prompt": "Θα σας απαντήσουμε ___ τριών ημερών.",
+     "answer": "εντός",
+     "options": [
+      "εντός",
+      "εκτός",
+      "ανά"
+     ],
+     "why": "εντός 'within' + genitive."
+    },
+    {
+     "prompt": "___ φάνηκε ότι είχε δίκιο, αλλά τότε δεν το ξέραμε.",
+     "answer": "Εκ των υστέρων",
+     "options": [
+      "Εκ των υστέρων",
+      "Εκ των προτέρων",
+      "Επί του παρόντος"
+     ],
+     "why": "εκ των υστέρων 'with hindsight', after the fact."
+    },
+    {
+     "prompt": "Η συνάντηση ___ σε καλό κλίμα.",
+     "answer": "διεξήχθη",
+     "options": [
+      "διεξήχθη",
+      "διεξάγει",
+      "διεξαγωγή"
+     ],
+     "why": "Learned past of διεξάγομαι 'take place, be held', a news staple."
+    },
+    {
+     "prompt": "Θα σας ενημερώσουμε ___.",
+     "answer": "εγκαίρως",
+     "options": [
+      "εγκαίρως",
+      "έγκαιρος",
+      "εγκαιρία"
+     ],
+     "why": "An adverb is needed: formal -ως adverb εγκαίρως (everyday έγκαιρα)."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "ακριβώς",
+  "ασφαλώς",
+  "ευχαρίστως",
+  "αμέσως",
+  "αίτηση",
+  "προθεσμία",
+  "εξέταση",
+  "λόγω",
+  "μέσω",
+  "ενημερώνω"
+ ]
+}

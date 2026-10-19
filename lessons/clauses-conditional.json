@@ -1,0 +1,922 @@
+{
+ "el": "Υποθετικοί λόγοι σε βάθος",
+ "title": "Conditionals in depth: every tense, unless, provided, in case, mixed",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Open or closed, then time and aspect",
+   "text": "Every Greek conditional is built from two decisions. First: is the condition **open** (it may be, or may have been, true) or **closed** (we know it is not, or was not, true)? Second: within that, **when** is it, and is the event **single or ongoing**?\n\n**Open (factual) conditions** put in the αν-clause exactly the form the time demands: present for a general truth or a current state, the **dependent** (perfective non-past, no θα) for a single future event, a past tense for the past. Holton (§10.13.1): any tense or aspect may follow αν **except the pluperfect**, and the main clause may contain any form at all, including an imperative, θα + present, θα + past (inference) or να.\n\n**Closed (counterfactual) conditions** use only two forms after αν, the **imperfect** and the **pluperfect**, answered by **θα + imperfect** or **θα + pluperfect** (Holton §10.13.2).\n\nThe imperfect is the hinge between the two systems: *αν ήξερε* can be open ('if he knew, and perhaps he did') or closed ('if he knew, but he doesn't'). The main clause decides: *Αν ήξερε, γιατί δεν μίλησε;* (open) vs *Αν ήξερε, θα μιλούσε* (closed)."
+  },
+  {
+   "type": "table",
+   "title": "Open conditions: the combinations",
+   "head": [
+    "αν-clause",
+    "Main clause",
+    "Example",
+    "Meaning"
+   ],
+   "rows": [
+    [
+     "present (general truth)",
+     "present",
+     "Αν **ζεσταίνεις** το νερό στους εκατό βαθμούς, **βράζει**.",
+     "If you heat water to 100°, it boils."
+    ],
+    [
+     "present (current state)",
+     "imperative",
+     "Αν **πεινάς**, **φάε** κάτι.",
+     "If you're hungry, eat something."
+    ],
+    [
+     "dependent (one future event)",
+     "θα + perfective",
+     "Αν **βρέξει** αύριο, **θα μείνουμε** μέσα.",
+     "If it rains tomorrow, we'll stay in."
+    ],
+    [
+     "dependent",
+     "θα + imperfective (ongoing)",
+     "Αν **πάρεις** τη δουλειά, **θα ταξιδεύεις** συνέχεια.",
+     "If you get the job, you'll be travelling all the time."
+    ],
+    [
+     "present (future habit)",
+     "θα + imperfective",
+     "Αν **γυμνάζεσαι** τακτικά, **θα κοιμάσαι** καλύτερα.",
+     "If you exercise regularly, you'll sleep better."
+    ],
+    [
+     "dependent",
+     "present with future sense",
+     "Αν δεν **έρθεις** ως τις οχτώ, **φεύγουμε**.",
+     "If you're not here by eight, we're leaving."
+    ],
+    [
+     "dependent",
+     "να + subjunctive",
+     "Αν **δεις** τη Μαρία, **να** της **πεις** να με πάρει.",
+     "If you see Maria, tell her to call me."
+    ],
+    [
+     "simple past (one past event)",
+     "present",
+     "Αν σε **πείραξε** αυτό που είπα, **ζητώ** συγγνώμη.",
+     "If what I said upset you, I apologise."
+    ],
+    [
+     "simple past",
+     "θα + perfect (inference)",
+     "Αν **έφυγε** στις έξι, **θα έχει φτάσει** ήδη.",
+     "If he left at six, he'll have arrived by now."
+    ],
+    [
+     "imperfect (open, past)",
+     "simple past question",
+     "Αν **ήξερε** την αλήθεια, γιατί δεν **είπε** τίποτα;",
+     "If he knew the truth, why didn't he say anything?"
+    ],
+    [
+     "perfect",
+     "present / imperative",
+     "Αν **έχεις τελειώσει**, **μπορείς** να φύγεις.",
+     "If you've finished, you can go."
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Aspect inside the αν-clause",
+   "text": "Because the dependent is perfective, aspect is a real choice after αν, not decoration:\n\n- **Αν διαβάσεις** το κεφάλαιο, θα καταλάβεις. (one complete act)\n- **Αν διαβάζεις** κάθε μέρα, θα προοδεύσεις. (a habit: imperfective, which looks like the present)\n- **Αν τον δεις**, πες του να με πάρει. (one meeting) / **Αν τον βλέπεις** συχνά, πες του... (you see him regularly)\n\nVerbs with no dependent (**είμαι, έχω, ξέρω**) simply use the present: **Αν είσαι** κουρασμένος, ξάπλωσε. **Αν έχεις** χρόνο, έλα. θέλω normally does the same: **αν θέλεις**.\n\n**θα after αν.** In speech you will hear *αν θα* when a future event is already planned or predicted: *Αν θα έρθει κι ο Πέτρος, να κλείσουμε μεγαλύτερο τραπέζι*. Holton allows it as optional (*Αν (θα) τον παρακαλέσεις...*), but the default, and the exam-safe form, is the bare dependent. Do not confuse this with **αν = 'whether'** in indirect questions, where θα is required for the future: *Δεν ξέρω **αν θα** έρθει.*\n\n**Negation**: an αν-clause is negated with **δεν**: Αν **δεν** έρθεις... But αρκεί να, φτάνει να and conditional να take **μην**."
+  },
+  {
+   "type": "table",
+   "title": "Closed (counterfactual) conditions",
+   "head": [
+    "αν-clause",
+    "Main clause",
+    "Example",
+    "Meaning"
+   ],
+   "rows": [
+    [
+     "imperfect",
+     "θα + imperfect",
+     "Αν **είχα** χρόνο, **θα ερχόμουν**.",
+     "If I had time, I'd come. (also: If I'd had time, I'd have come.)"
+    ],
+    [
+     "pluperfect",
+     "θα + pluperfect",
+     "Αν **είχες έρθει**, **θα την είχες γνωρίσει**.",
+     "If you'd come, you'd have met her."
+    ],
+    [
+     "pluperfect (past)",
+     "θα + imperfect (present result)",
+     "Αν **είχαμε κλείσει** εισιτήρια, τώρα **θα ήμασταν** στη Νάξο.",
+     "If we'd booked tickets, we'd be on Naxos now."
+    ],
+    [
+     "imperfect (permanent state)",
+     "θα + pluperfect (past result)",
+     "Αν **δεν ήταν** τόσο τεμπέλης, **θα είχε τελειώσει** τις σπουδές του.",
+     "If he weren't so lazy, he'd have finished his degree."
+    ],
+    [
+     "pluperfect",
+     "θα + imperfect (past meaning)",
+     "Αν **είχε στείλει** εκείνο το γράμμα, **θα τον έπειθε**.",
+     "If she had sent that letter, she would have persuaded him."
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Beyond αν: the conditional connectors",
+   "head": [
+    "Connector",
+    "Meaning",
+    "Register",
+    "Example"
+   ],
+   "rows": [
+    [
+     "**εάν**",
+     "if",
+     "formal, written",
+     "**Εάν** δεν λάβετε απάντηση, επικοινωνήστε μαζί μας."
+    ],
+    [
+     "**άμα**",
+     "if (also 'when')",
+     "colloquial",
+     "**Άμα** θέλεις, έλα κι εσύ."
+    ],
+    [
+     "**εκτός (κι) αν**",
+     "unless",
+     "neutral",
+     "Θα πάμε για μπάνιο, **εκτός αν** κάνει πολύ αέρα."
+    ],
+    [
+     "**αρκεί να, φτάνει να**",
+     "provided (that), as long as; neg. **να μην**",
+     "neutral / colloquial",
+     "Θα σου το δανείσω, **αρκεί να** μου το φέρεις πίσω."
+    ],
+    [
+     "**με την προϋπόθεση ότι / να**",
+     "on condition that",
+     "formal",
+     "Δέχτηκε, **με την προϋπόθεση να** πληρωθεί μπροστά."
+    ],
+    [
+     "**εφόσον**",
+     "provided that (also 'since')",
+     "formal",
+     "**Εφόσον** υπάρξει συμφωνία, η σύμβαση θα υπογραφεί τον Μάρτιο."
+    ],
+    [
+     "**σε περίπτωση που**",
+     "in the event that, if",
+     "neutral",
+     "**Σε περίπτωση που** χαθείτε, συναντιόμαστε στην είσοδο."
+    ],
+    [
+     "**μήπως** + dependent",
+     "(just) in case",
+     "neutral",
+     "Πάρε ομπρέλα, **μήπως** βρέξει."
+    ],
+    [
+     "**(ακόμα) κι αν, έστω κι αν**",
+     "even if",
+     "neutral",
+     "**Κι αν** βρέξει, θα πάμε."
+    ],
+    [
+     "**είτε... είτε**",
+     "whether... or",
+     "neutral",
+     "**Είτε** έρθεις **είτε** όχι, θα φύγουμε στις οχτώ."
+    ],
+    [
+     "**έτσι και**",
+     "if ever, just let...",
+     "colloquial, threats",
+     "**Έτσι και** αργήσεις ξανά, θα σε απολύσουν."
+    ],
+    [
+     "**να** + subjunctive",
+     "if (you were to)",
+     "colloquial",
+     "**Να** τον δεις τώρα, θα τον λυπηθείς."
+    ],
+    [
+     "**αλλιώς, ειδάλλως**",
+     "otherwise",
+     "neutral / formal",
+     "Βιάσου, **αλλιώς** θα χάσουμε το πλοίο."
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Mixed and inferential conditionals",
+   "text": "**Open conditions mix times freely**, because each clause takes the form its own time needs: **Αν έφυγε** στις έξι (past), **τώρα θα είναι** στη Λάρισα (present inference). **Αν δεν έχει απαντήσει** ως τώρα (perfect), μάλλον **δεν θα απαντήσει** (future). **Αν τελείωσες**, βοήθησέ με (past → imperative).\n\n**θα + past forms express inference, not the future and not 'would have'**: **θα έφυγε** 'he must have left', **θα έχει φύγει** 'he will have left (by now)'; θα + present does the same for the present: **θα κοιμάται** 'he'll be asleep'. They are typical in the main clause of an open condition about the past or present: *Αν ήταν στο γραφείο χθες, **θα είδε** το σημείωμα.*\n\n**Closed conditions mix** pluperfect and imperfect as in the table: a past cause with a present result (*Αν είχες ακούσει τον γιατρό, **τώρα δεν θα ήσουν** στο κρεβάτι*) or a permanent state with a past result (*Αν **ήξερα** ιταλικά, θα **είχα πάρει** τη θέση*).\n\nBecause *αν ήξερα* can point to the present or the past, add a time word when it matters: **Αν το ήξερα από χθες**, θα σου το είχα πει."
+  },
+  {
+   "type": "examples",
+   "title": "Open conditions",
+   "items": [
+    {
+     "el": "Αν προσπαθείς να τον πείσεις, κάνεις μεγάλο λάθος.",
+     "en": "If you're trying to persuade him, you're making a big mistake."
+    },
+    {
+     "el": "Αν συναντήθηκαν, μάλλον θα μίλησαν και γι' αυτό το θέμα.",
+     "en": "If they met, they probably talked about this matter too."
+    },
+    {
+     "el": "Αν πάρεις αυτή τη δουλειά, θα ξυπνάς κάθε μέρα στις έξι.",
+     "en": "If you take this job, you'll be getting up at six every day."
+    },
+    {
+     "el": "Αν έχεις ήδη φάει, δεν πειράζει· πιες τουλάχιστον έναν καφέ.",
+     "en": "If you've already eaten, never mind; at least have a coffee."
+    },
+    {
+     "el": "Αν δεν έχει απαντήσει ως τώρα, μάλλον δεν θα απαντήσει.",
+     "en": "If she hasn't answered by now, she probably won't."
+    },
+    {
+     "el": "Αν ήταν στο γραφείο χθες, θα είδε το σημείωμα.",
+     "en": "If she was at the office yesterday, she'll have seen the note."
+    },
+    {
+     "el": "Εάν δεν λάβετε επιβεβαίωση εντός είκοσι τεσσάρων ωρών, επικοινωνήστε μαζί μας.",
+     "en": "If you do not receive confirmation within twenty-four hours, contact us."
+    },
+    {
+     "el": "Άμα σε ενοχλεί ο καπνός, άνοιξε το παράθυρο.",
+     "en": "If the smoke bothers you, open the window."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Unless, provided, in case, even if",
+   "items": [
+    {
+     "el": "Θα πάμε για μπάνιο, εκτός αν κάνει πολύ αέρα.",
+     "en": "We'll go for a swim, unless it's very windy."
+    },
+    {
+     "el": "Θα σου δανείσω το αυτοκίνητο, αρκεί να μου το φέρεις πίσω ως την Κυριακή.",
+     "en": "I'll lend you the car, as long as you bring it back by Sunday."
+    },
+    {
+     "el": "Μπορείς να μείνεις, φτάνει να μην κάνεις φασαρία.",
+     "en": "You can stay, as long as you don't make a racket."
+    },
+    {
+     "el": "Σε περίπτωση που χαθείτε, συναντιόμαστε στην είσοδο του μουσείου.",
+     "en": "In case you get lost, we'll meet at the museum entrance."
+    },
+    {
+     "el": "Πάρε και ένα πουλόβερ, μήπως κάνει κρύο το βράδυ.",
+     "en": "Take a jumper too, in case it gets cold in the evening."
+    },
+    {
+     "el": "Ακόμα κι αν μου το ζητήσει, δεν θα του το δώσω.",
+     "en": "Even if he asks me for it, I won't give it to him."
+    },
+    {
+     "el": "Είτε του μιλάς είτε δεν του μιλάς, το ίδιο κάνει.",
+     "en": "Whether you talk to him or not, it makes no difference."
+    },
+    {
+     "el": "Έτσι και αργήσεις ξανά, θα σε απολύσουν.",
+     "en": "If you're late one more time, they'll fire you."
+    },
+    {
+     "el": "Βιάσου, αλλιώς θα χάσουμε το πλοίο.",
+     "en": "Hurry up, otherwise we'll miss the boat."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Closed and mixed conditions",
+   "items": [
+    {
+     "el": "Αν είχα περισσότερο χρόνο, θα μάθαινα και τουρκικά.",
+     "en": "If I had more time, I'd learn Turkish as well."
+    },
+    {
+     "el": "Αν το ήξερα, θα σου το είχα πει.",
+     "en": "If I had known, I would have told you."
+    },
+    {
+     "el": "Αν είχαμε φύγει νωρίτερα, δεν θα είχαμε χάσει το πλοίο.",
+     "en": "If we'd left earlier, we wouldn't have missed the boat."
+    },
+    {
+     "el": "Αν είχες ακούσει τον γιατρό, τώρα δεν θα ήσουν στο κρεβάτι.",
+     "en": "If you'd listened to the doctor, you wouldn't be in bed now."
+    },
+    {
+     "el": "Αν δεν ήταν τόσο πεισματάρης, θα τα είχαν βρει εδώ και χρόνια.",
+     "en": "If he weren't so stubborn, they'd have made up years ago."
+    },
+    {
+     "el": "Αν καταλάβαινες τη στενοχώρια μου, δεν θα μιλούσες έτσι.",
+     "en": "If you understood my distress, you wouldn't talk like that."
+    },
+    {
+     "el": "Δεν θα τον παντρευόταν ποτέ αν δεν τον αγαπούσε.",
+     "en": "She would never marry him (have married him) if she didn't (hadn't) love(d) him."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes**\n\n- *Αν θα έρθεις αύριο, ...* → **Αν έρθεις** αύριο. (θα after 'if' only in speech for planned events; after αν = 'whether' it is required.)\n- Present for a single future event: *Αν βρέχει αύριο* → **Αν βρέξει** αύριο.\n- Simple past in a counterfactual: *Αν ήρθες, θα τη γνώριζες* → **Αν είχες έρθει**, θα την είχες γνωρίσει / **Αν ερχόσουν**, θα τη γνώριζες.\n- θα + simple past is inference, not 'would have': *θα πήγα* = 'I must have gone'; 'I would have gone' = **θα είχα πάει** / **θα πήγαινα**.\n- εκτός αν already means 'unless': *εκτός αν δεν βρέξει* means 'unless it does NOT rain'.\n- Negation: αν **δεν**, but αρκεί να **μην**, φτάνει να **μην**."
+  },
+  {
+   "type": "culture",
+   "title": "Αν η γιαγιά μου είχε καρούλια...",
+   "text": "Greeks have a stock retort to idle what-ifs: **Αν η γιαγιά μου είχε καρούλια, θα ήταν πατίνι** 'if my grandmother had wheels, she'd be a scooter', a textbook counterfactual (αν + imperfect, θα + imperfect) used to shut down pointless speculation. Politicians hedge with **αν και εφόσον** 'if and only if, if indeed': *θα το στηρίξουμε αν και εφόσον...*. In relaxed speech **άμα λάχει** 'if need be, should the occasion arise' (from **λαχαίνω** 'to fall to one's lot') sounds folksy, and **όπως και να 'χει** 'be that as it may' closes the hypothetical altogether."
+  },
+  {
+   "type": "reading",
+   "title": "Να πάρω τη δουλειά στο Ηράκλειο;",
+   "text": "Η Δανάη δουλεύει σε έναν εκδοτικό οίκο στην Αθήνα. Την περασμένη εβδομάδα της πρότειναν μια θέση στο Ηράκλειο και πρέπει να απαντήσει μέχρι τη Δευτέρα. Το βράδυ τα συζητάει με τον αδερφό της.\n\n— Αν δεχτείς, θα κερδίζεις περισσότερα, αλλά θα είσαι μακριά από όλους μας.\n— Το ξέρω. Αν ήμουν πέντε χρόνια νεότερη, δεν θα το σκεφτόμουν καθόλου. Θα είχα κιόλας φτιάξει βαλίτσες.\n— Και τι σε σταματάει;\n— Ο Άρης. Αν είχαμε γνωριστεί έναν χρόνο αργότερα, θα ήταν πιο απλό. Τώρα δεν ξέρω αν θα θέλει να έρθει μαζί μου.\n— Του το είπες;\n— Όχι ακόμα. Αν του το είχα πει χθες, θα είχα κοιμηθεί πιο ήσυχη.\n— Τότε πες του το απόψε. Άμα σε αγαπάει, θα βρείτε λύση. Μπορεί να δουλεύει κι από εκεί, όχι;\n— Ναι, αρκεί να συμφωνήσει ο προϊστάμενός του. Σε περίπτωση που δεν συμφωνήσει, θα ζήσουμε χώρια για λίγο.\n— Κι αν δεν αντέξετε την απόσταση;\n— Τότε θα γυρίσω. Η εταιρεία μού είπε ότι, εφόσον μείνω τουλάχιστον έναν χρόνο, μπορώ μετά να ζητήσω μετάθεση πίσω στην Αθήνα.\n— Βλέπεις; Δεν είναι για πάντα. Κι εκτός αν με διώξει ο Άρης, θα έρχομαι κάθε καλοκαίρι!\n— Έτσι και έρθεις χωρίς να μου το πεις, δεν θα σου ανοίξω!\n\nΤο ίδιο βράδυ η Δανάη τηλεφώνησε στον Άρη. Αν την είχατε δει μετά το τηλεφώνημα, θα είχατε καταλάβει την απάντησή του: χαμογελούσε.",
+   "en": "Danai works at a publishing house in Athens. Last week she was offered a position in Heraklion and she has to answer by Monday. In the evening she talks it over with her brother.\n\n— If you accept, you'll be earning more, but you'll be far away from all of us.\n— I know. If I were five years younger, I wouldn't think twice. I'd have packed my bags already.\n— So what's stopping you?\n— Aris. If we had met a year later, it would be simpler. Now I don't know whether he'll want to come with me.\n— Have you told him?\n— Not yet. If I'd told him yesterday, I'd have slept more peacefully.\n— Then tell him tonight. If he loves you, you'll find a solution. He could work from there too, couldn't he?\n— Yes, as long as his manager agrees. In case he doesn't, we'll live apart for a while.\n— And what if you can't stand the distance?\n— Then I'll come back. The company told me that, provided I stay at least a year, I can then ask for a transfer back to Athens.\n— See? It isn't for ever. And unless Aris throws me out, I'll be coming every summer!\n— If you dare turn up without telling me, I won't open the door!\n\nThat same evening Danai rang Aris. If you had seen her after the call, you'd have guessed his answer: she was smiling.",
+   "gloss": {
+    "Δανάη": "Δανάη — Danai (woman's name)",
+    "εκδοτικό": "εκδοτικός — publishing (adj.); εκδοτικός οίκος = publishing house",
+    "οίκο": "οίκος — house, firm (formal); εκδοτικός οίκος = publisher",
+    "Ηράκλειο": "Ηράκλειο — Heraklion (capital of Crete)",
+    "δεχτείς": "δέχομαι — (you) accept (dependent)",
+    "νεότερη": "νέος — younger (fem. comparative)",
+    "κιόλας": "κιόλας — already",
+    "Άρης": "Άρης — Aris (man's name)",
+    "Άρη": "Άρης — Aris (acc.)",
+    "γνωριστεί": "γνωρίζομαι — (had) met each other (non-finite form)",
+    "κοιμηθεί": "κοιμάμαι — (had) slept (non-finite form)",
+    "χώρια": "χώρια — apart, separately",
+    "αντέξετε": "αντέχω — (you) bear, stand (dependent)",
+    "εφόσον": "εφόσον — provided that",
+    "μετάθεση": "μετάθεση — (job) transfer",
+    "διώξει": "διώχνω — throws out, sends away (dependent)",
+    "τηλεφώνημα": "τηλεφώνημα — phone call",
+    "χαμογελούσε": "χαμογελώ — was smiling (imperfect)",
+    "Θύμωσε": "θυμώνω — got angry (past)",
+    "αύξηση": "αύξηση — pay rise",
+    "διευθύντρια": "διευθύντρια — (female) director, manager"
+   },
+   "questions": [
+    {
+     "prompt": "Τι πρέπει να κάνει η Δανάη μέχρι τη Δευτέρα;",
+     "answer": "Να απαντήσει για τη θέση",
+     "options": [
+      "Να απαντήσει για τη θέση",
+      "Να μετακομίσει στο Ηράκλειο",
+      "Να μιλήσει με τον προϊστάμενό της"
+     ]
+    },
+    {
+     "prompt": "Με ποια προϋπόθεση μπορεί ο Άρης να δουλεύει από το Ηράκλειο;",
+     "answer": "Αν συμφωνήσει ο προϊστάμενός του",
+     "options": [
+      "Αν συμφωνήσει ο προϊστάμενός του",
+      "Αν βρει καινούρια δουλειά",
+      "Αν η Δανάη κερδίζει περισσότερα"
+     ]
+    },
+    {
+     "prompt": "Τι θα μπορεί να κάνει η Δανάη αν μείνει τουλάχιστον έναν χρόνο;",
+     "answer": "Να ζητήσει μετάθεση στην Αθήνα",
+     "options": [
+      "Να ζητήσει μετάθεση στην Αθήνα",
+      "Να πάρει αύξηση",
+      "Να γίνει διευθύντρια"
+     ]
+    },
+    {
+     "prompt": "Πώς αντέδρασε μάλλον ο Άρης;",
+     "answer": "Χάρηκε",
+     "options": [
+      "Χάρηκε",
+      "Θύμωσε",
+      "Δεν απάντησε"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Αν ___ (βρίσκω, εσύ) τα κλειδιά μου, πες μου.",
+     "answer": "βρεις",
+     "accept": [
+      "βρεις"
+     ],
+     "why": "One possible future event: dependent, never θα."
+    },
+    {
+     "prompt": "Αν ___ (γυμνάζομαι, εσύ) τακτικά, θα κοιμάσαι καλύτερα.",
+     "answer": "γυμνάζεσαι",
+     "accept": [
+      "γυμνάζεσαι"
+     ],
+     "why": "A future habit: imperfective, i.e. the present form."
+    },
+    {
+     "prompt": "Αν ___ (παίρνω, εσύ) αυτή τη δουλειά, θα ταξιδεύεις συνέχεια.",
+     "answer": "πάρεις",
+     "accept": [
+      "πάρεις"
+     ],
+     "why": "Getting the job is one event: dependent πάρεις."
+    },
+    {
+     "prompt": "Αν πάρεις αυτή τη δουλειά, θα ___ (ταξιδεύω, εσύ) συνέχεια.",
+     "answer": "ταξιδεύεις",
+     "accept": [
+      "ταξιδεύεις"
+     ],
+     "why": "An ongoing consequence: θα + imperfective."
+    },
+    {
+     "prompt": "Αν ___ (τελειώνω, εσύ; perfect) με τον υπολογιστή, δώσ' τον μου.",
+     "answer": "έχεις τελειώσει",
+     "accept": [
+      "έχεις τελειώσει"
+     ],
+     "why": "A completed state now: perfect έχεις τελειώσει is fine in an open condition."
+    },
+    {
+     "prompt": "Αν ___ (φεύγω, αυτός) στις έξι, θα έχει φτάσει πια.",
+     "answer": "έφυγε",
+     "accept": [
+      "έφυγε"
+     ],
+     "why": "A condition about one past event: simple past."
+    },
+    {
+     "prompt": "Αν έφυγε στις έξι, ___ (φτάνω, αυτός; inference) ήδη.",
+     "answer": "θα έχει φτάσει",
+     "accept": [
+      "θα έχει φτάσει",
+      "θα έφτασε"
+     ],
+     "why": "Inference about the past: θα έχει + participle or θα + simple past."
+    },
+    {
+     "prompt": "Αν ___ (ξέρω, αυτή) την αλήθεια, γιατί δεν μίλησε;",
+     "answer": "ήξερε",
+     "accept": [
+      "ήξερε"
+     ],
+     "why": "An open condition about the past with a stative verb: imperfect ήξερε."
+    },
+    {
+     "prompt": "Αν ___ (έχω, εγώ) χρόνο, θα ερχόμουν.",
+     "answer": "είχα",
+     "accept": [
+      "είχα"
+     ],
+     "why": "Counterfactual: imperfect in the αν-clause."
+    },
+    {
+     "prompt": "Αν είχα χρόνο, ___ (έρχομαι, εγώ).",
+     "answer": "θα ερχόμουν",
+     "accept": [
+      "θα ερχόμουν",
+      "θα ερχόμουνα"
+     ],
+     "why": "Counterfactual main clause: θα + imperfect."
+    },
+    {
+     "prompt": "Αν ___ (διαβάζω, εσύ; pluperfect), θα είχες περάσει.",
+     "answer": "είχες διαβάσει",
+     "accept": [
+      "είχες διαβάσει"
+     ],
+     "why": "Unreal past: pluperfect είχα + non-finite form."
+    },
+    {
+     "prompt": "Αν είχες διαβάσει, ___ (περνάω, εσύ; would have) στις εξετάσεις.",
+     "answer": "θα είχες περάσει",
+     "accept": [
+      "θα είχες περάσει"
+     ],
+     "why": "Unreal past result: θα + pluperfect."
+    },
+    {
+     "prompt": "Αν είχαμε κλείσει δωμάτιο, τώρα ___ (είμαι, εμείς) στη Νάξο.",
+     "answer": "θα ήμασταν",
+     "accept": [
+      "θα ήμασταν",
+      "θα ήμαστε"
+     ],
+     "why": "Past cause, present result: θα + imperfect."
+    },
+    {
+     "prompt": "Αν δεν ήταν τόσο τεμπέλης, ___ (τελειώνω, αυτός; would have) τις σπουδές του χρόνια πριν.",
+     "answer": "θα είχε τελειώσει",
+     "accept": [
+      "θα είχε τελειώσει"
+     ],
+     "why": "Permanent state (imperfect) with a past result: θα + pluperfect."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Αν ___ αύριο, θα μείνουμε σπίτι.",
+     "answer": "βρέξει",
+     "options": [
+      "βρέξει",
+      "βρέχει",
+      "θα βρέξει"
+     ],
+     "why": "One future event in an open condition: dependent."
+    },
+    {
+     "prompt": "Δεν ξέρω αν ___ αύριο.",
+     "answer": "θα βρέξει",
+     "options": [
+      "θα βρέξει",
+      "βρέξει",
+      "έβρεχε"
+     ],
+     "why": "Here αν means 'whether' (indirect question): the future needs θα."
+    },
+    {
+     "prompt": "Αν ___ χθες, θα με είχες δει.",
+     "answer": "είχες έρθει",
+     "options": [
+      "είχες έρθει",
+      "ήρθες",
+      "έρθεις"
+     ],
+     "why": "Unreal past: pluperfect after αν; a simple past makes an open condition."
+    },
+    {
+     "prompt": "*Θα πήγα* means:",
+     "answer": "I must have gone",
+     "options": [
+      "I must have gone",
+      "I would have gone",
+      "I will go"
+     ],
+     "why": "θα + simple past = inference about the past. 'I would have gone' = θα είχα πάει / θα πήγαινα."
+    },
+    {
+     "prompt": "Θα σε βοηθήσω, αρκεί να ___ μου πεις ψέματα.",
+     "answer": "μην",
+     "options": [
+      "μην",
+      "δεν",
+      "όχι"
+     ],
+     "why": "αρκεί να is negated with μην."
+    },
+    {
+     "prompt": "Αν ___ τον λογαριασμό, πληρώστε τον μέχρι τις 30 του μήνα.",
+     "answer": "δεν έχετε πληρώσει",
+     "options": [
+      "δεν έχετε πληρώσει",
+      "μην πληρώσατε",
+      "μη θα πληρώσετε"
+     ],
+     "why": "An αν-clause is negated with δεν; the perfect fits a current state."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Θα σου δανείσω το αυτοκίνητο, αρκεί να μου το ___ (φέρνω, εσύ) πίσω την Κυριακή.",
+     "answer": "φέρεις",
+     "accept": [
+      "φέρεις"
+     ],
+     "why": "αρκεί να + dependent for a single future act."
+    },
+    {
+     "prompt": "Μπορείς να έρθεις, φτάνει να ___ (not) αργήσεις.",
+     "answer": "μην",
+     "accept": [
+      "μην",
+      "μη"
+     ],
+     "why": "φτάνει να / αρκεί να are negated with μην, not δεν."
+    },
+    {
+     "prompt": "Θα πάμε στην παραλία, ___ (unless) βρέξει.",
+     "answer": "εκτός αν",
+     "accept": [
+      "εκτός αν",
+      "εκτός κι αν",
+      "εκτός εάν",
+      "εκτός και αν"
+     ],
+     "why": "'unless' = εκτός (κι) αν, with the same verb forms as αν."
+    },
+    {
+     "prompt": "___ (in the event that) χαθείτε, συναντιόμαστε στην είσοδο.",
+     "answer": "Σε περίπτωση που",
+     "accept": [
+      "Σε περίπτωση που"
+     ],
+     "why": "σε περίπτωση που + dependent for a possible future event."
+    },
+    {
+     "prompt": "Πάρε ομπρέλα, ___ (in case) βρέξει.",
+     "answer": "μήπως",
+     "accept": [
+      "μήπως",
+      "μήπως και",
+      "σε περίπτωση που"
+     ],
+     "why": "Precautionary 'in case' = μήπως + dependent."
+    },
+    {
+     "prompt": "___ (even if) με παρακαλέσει, δεν θα πάω.",
+     "answer": "Ακόμα κι αν",
+     "accept": [
+      "Ακόμα κι αν",
+      "Ακόμη κι αν",
+      "Κι αν",
+      "Ακόμα και αν",
+      "Ακόμη και αν",
+      "Έστω κι αν",
+      "Και να"
+     ],
+     "why": "'even if' = (ακόμα) κι αν / έστω κι αν."
+    },
+    {
+     "prompt": "Type both words: ___ έρθεις ___ όχι, θα φύγουμε στις οχτώ. (whether... or)",
+     "answer": "είτε είτε",
+     "accept": [
+      "είτε είτε",
+      "είτε, είτε",
+      "είτε ... είτε",
+      "είτε...είτε"
+     ],
+     "why": "'whether... or' = είτε... είτε."
+    },
+    {
+     "prompt": "Formal letter: ___ (if) δεν λάβετε απάντηση, επικοινωνήστε μαζί μας.",
+     "answer": "Εάν",
+     "accept": [
+      "Εάν",
+      "Αν"
+     ],
+     "why": "εάν is the written, formal form of αν."
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say in Greek: *If you see Maria, tell her to call me.*",
+     "answer": "Αν δεις τη Μαρία, πες της να με πάρει τηλέφωνο.",
+     "accept": [
+      "Αν δεις τη Μαρία, πες της να με πάρει τηλέφωνο.",
+      "Αν δεις τη Μαρία, πες της να με πάρει",
+      "Αν δεις τη Μαρία πες της να με πάρει τηλέφωνο",
+      "Αν δεις τη Μαρία πες της να με πάρει",
+      "Αν δεις τη Μαρία, πες της να μου τηλεφωνήσει",
+      "Αν δεις τη Μαρία πες της να μου τηλεφωνήσει",
+      "Άμα δεις τη Μαρία, πες της να με πάρει τηλέφωνο",
+      "Άμα δεις τη Μαρία, πες της να με πάρει",
+      "Αν δεις την Μαρία, πες της να με πάρει τηλέφωνο"
+     ],
+     "why": "One future meeting: αν + dependent δεις; reported command να + subjunctive."
+    },
+    {
+     "prompt": "Say in Greek: *If I had known, I would have told you.*",
+     "answer": "Αν το ήξερα, θα σου το είχα πει.",
+     "accept": [
+      "Αν το ήξερα, θα σου το είχα πει.",
+      "Αν το ήξερα θα σου το είχα πει",
+      "Αν το ήξερα, θα σου το έλεγα",
+      "Αν το ήξερα θα σου το έλεγα",
+      "Αν ήξερα, θα σου το είχα πει",
+      "Αν ήξερα θα σου το είχα πει"
+     ],
+     "why": "ξέρω has no pluperfect: αν + imperfect ήξερα; main clause θα + pluperfect (or imperfect)."
+    },
+    {
+     "prompt": "Say in Greek: *If you had listened to me, you wouldn't be here now.*",
+     "answer": "Αν με είχες ακούσει, δεν θα ήσουν εδώ τώρα.",
+     "accept": [
+      "Αν με είχες ακούσει, δεν θα ήσουν εδώ τώρα.",
+      "Αν με είχες ακούσει δεν θα ήσουν εδώ τώρα",
+      "Αν με είχες ακούσει, τώρα δεν θα ήσουν εδώ",
+      "Αν με είχες ακούσει τώρα δεν θα ήσουν εδώ",
+      "Αν με άκουγες, δεν θα ήσουν εδώ τώρα",
+      "Αν με άκουγες, τώρα δεν θα ήσουν εδώ",
+      "Αν με είχες ακούσει, δε θα ήσουν εδώ τώρα"
+     ],
+     "why": "Mixed: past cause (pluperfect), present result (θα + imperfect)."
+    },
+    {
+     "prompt": "Say in Greek: *Unless you're tired, let's go for a walk.*",
+     "answer": "Εκτός αν είσαι κουρασμένος, πάμε μια βόλτα.",
+     "accept": [
+      "Εκτός αν είσαι κουρασμένος, πάμε μια βόλτα.",
+      "Εκτός αν είσαι κουρασμένος πάμε μια βόλτα",
+      "Εκτός αν είσαι κουρασμένη, πάμε μια βόλτα",
+      "Εκτός αν είσαι κουρασμένη πάμε μια βόλτα",
+      "Εκτός κι αν είσαι κουρασμένος, πάμε μια βόλτα",
+      "Εκτός κι αν είσαι κουρασμένη, πάμε μια βόλτα",
+      "Εκτός αν είσαι κουρασμένος, πάμε βόλτα",
+      "Εκτός αν είσαι κουρασμένη, πάμε βόλτα",
+      "Πάμε μια βόλτα, εκτός αν είσαι κουρασμένος",
+      "Πάμε μια βόλτα, εκτός αν είσαι κουρασμένη"
+     ],
+     "why": "εκτός αν + present for a current state; no extra negative."
+    },
+    {
+     "prompt": "Say in Greek: *Hurry, otherwise we'll miss the boat.*",
+     "answer": "Βιάσου, αλλιώς θα χάσουμε το πλοίο.",
+     "accept": [
+      "Βιάσου, αλλιώς θα χάσουμε το πλοίο.",
+      "Βιάσου αλλιώς θα χάσουμε το πλοίο",
+      "Βιάσου, ειδάλλως θα χάσουμε το πλοίο",
+      "Βιάσου, αλλιώς θα χάσουμε το καράβι",
+      "Βιάσου αλλιώς θα χάσουμε το καράβι"
+     ],
+     "why": "'otherwise' = αλλιώς (formal ειδάλλως)."
+    },
+    {
+     "prompt": "Say in Greek: *If he's not asleep, he'll be watching TV.*",
+     "answer": "Αν δεν κοιμάται, θα βλέπει τηλεόραση.",
+     "accept": [
+      "Αν δεν κοιμάται, θα βλέπει τηλεόραση.",
+      "Αν δεν κοιμάται θα βλέπει τηλεόραση"
+     ],
+     "why": "θα + present expresses a guess about now."
+    },
+    {
+     "prompt": "Say in Greek: *As long as you're well.* (the classic Greek reassurance)",
+     "answer": "Φτάνει να είσαι καλά.",
+     "accept": [
+      "Φτάνει να είσαι καλά.",
+      "Αρκεί να είσαι καλά",
+      "Φτάνει να 'σαι καλά"
+     ],
+     "why": "φτάνει να / αρκεί να + subjunctive = as long as."
+    },
+    {
+     "prompt": "Say in Greek: *If you so much as touch it, I'll tell mum.*",
+     "answer": "Έτσι και το αγγίξεις, θα το πω στη μαμά.",
+     "accept": [
+      "Έτσι και το αγγίξεις, θα το πω στη μαμά.",
+      "Έτσι και το αγγίξεις θα το πω στη μαμά",
+      "Έτσι και το πιάσεις, θα το πω στη μαμά",
+      "Έτσι και το πιάσεις θα το πω στη μαμά",
+      "Έτσι και το αγγίξεις, θα το πω στη μάνα μου"
+     ],
+     "why": "έτσι και + dependent: a colloquial threat 'if you so much as...'."
+    },
+    {
+     "prompt": "Say in Greek: *Even if it rains, we'll go.*",
+     "answer": "Κι αν βρέξει, θα πάμε.",
+     "accept": [
+      "Κι αν βρέξει, θα πάμε.",
+      "Κι αν βρέξει θα πάμε",
+      "Ακόμα κι αν βρέξει, θα πάμε",
+      "Ακόμα κι αν βρέξει θα πάμε",
+      "Ακόμη κι αν βρέξει, θα πάμε",
+      "Έστω κι αν βρέξει, θα πάμε",
+      "Και να βρέξει, θα πάμε",
+      "Θα πάμε ακόμα κι αν βρέξει",
+      "Θα πάμε κι αν βρέξει"
+     ],
+     "why": "(ακόμα) κι αν + dependent."
+    },
+    {
+     "prompt": "Make it unreal (now): *Αν έχω λεφτά, θα αγοράσω σπίτι.*",
+     "answer": "Αν είχα λεφτά, θα αγόραζα σπίτι.",
+     "accept": [
+      "Αν είχα λεφτά, θα αγόραζα σπίτι.",
+      "Αν είχα λεφτά θα αγόραζα σπίτι",
+      "Αν είχα χρήματα, θα αγόραζα σπίτι"
+     ],
+     "why": "Present counterfactual: αν + imperfect, θα + imperfect."
+    },
+    {
+     "prompt": "Make it unreal (past): *Αν έρθεις, θα τη γνωρίσεις.*",
+     "answer": "Αν είχες έρθει, θα την είχες γνωρίσει.",
+     "accept": [
+      "Αν είχες έρθει, θα την είχες γνωρίσει.",
+      "Αν είχες έρθει θα την είχες γνωρίσει",
+      "Αν είχες έρθει, θα τη γνώριζες",
+      "Αν ερχόσουν, θα τη γνώριζες",
+      "Αν είχες έλθει, θα την είχες γνωρίσει"
+     ],
+     "why": "Past counterfactual: pluperfect in both clauses (or imperfect, which can also refer to the past)."
+    },
+    {
+     "prompt": "Say in Greek: *If we had left earlier, we'd be there now.*",
+     "answer": "Αν είχαμε φύγει νωρίτερα, τώρα θα ήμασταν εκεί.",
+     "accept": [
+      "Αν είχαμε φύγει νωρίτερα, τώρα θα ήμασταν εκεί.",
+      "Αν είχαμε φύγει νωρίτερα τώρα θα ήμασταν εκεί",
+      "Αν είχαμε φύγει νωρίτερα, θα ήμασταν εκεί τώρα",
+      "Αν είχαμε φύγει νωρίτερα θα ήμασταν εκεί τώρα",
+      "Αν είχαμε φύγει νωρίτερα, τώρα θα ήμαστε εκεί",
+      "Αν είχαμε φύγει πιο νωρίς, τώρα θα ήμασταν εκεί",
+      "Αν είχαμε φύγει πιο νωρίς, θα ήμασταν εκεί τώρα"
+     ],
+     "why": "Mixed: pluperfect cause, θα + imperfect for the present result."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Which connector suits a contract? ___ ο μισθωτής καθυστερήσει την πληρωμή...",
+     "answer": "Εάν",
+     "options": [
+      "Εάν",
+      "Άμα",
+      "Έτσι και"
+     ],
+     "why": "εάν is the formal written form; άμα and έτσι και are colloquial."
+    },
+    {
+     "prompt": "*Αν ήξερε την αλήθεια, γιατί δεν μίλησε;* The condition is:",
+     "answer": "open: maybe he knew",
+     "options": [
+      "open: maybe he knew",
+      "closed: he didn't know",
+      "a wish"
+     ],
+     "why": "The main clause is an ordinary past question, so the imperfect is open here."
+    },
+    {
+     "prompt": "*Αν ήξερε την αλήθεια, θα μιλούσε.* The condition is:",
+     "answer": "closed: he doesn't/didn't know",
+     "options": [
+      "closed: he doesn't/didn't know",
+      "open: maybe he knew",
+      "a polite request"
+     ],
+     "why": "θα + imperfect in the main clause marks a counterfactual."
+    },
+    {
+     "prompt": "Αν πας στην Κρήτη, θα ___ κάθε μέρα στη θάλασσα.",
+     "answer": "πηγαίνεις",
+     "options": [
+      "πηγαίνεις",
+      "πήγαινες",
+      "πήγες"
+     ],
+     "why": "κάθε μέρα = repeated: θα + imperfective."
+    },
+    {
+     "prompt": "___ κι αν γίνει, θα σε στηρίξω.",
+     "answer": "Ό,τι",
+     "options": [
+      "Ό,τι",
+      "Ότι",
+      "Αν"
+     ],
+     "why": "'whatever happens' = ό,τι κι αν γίνει."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "θέση",
+  "απόσταση",
+  "προϊστάμενος",
+  "μετάθεση",
+  "προϋπόθεση",
+  "περίπτωση",
+  "συμφωνώ",
+  "δέχομαι",
+  "απαντώ",
+  "εταιρεία",
+  "αντέχω",
+  "λύση"
+ ]
+}

@@ -1,0 +1,323 @@
+{
+ "el": "Η γενική",
+ "title": "The genitive: possession and indirect object",
+ "section": "A2 · Holton §3.52",
+ "goal": "Form the genitive of every noun class and know when Greek uses it.",
+ "blocks": [
+  {
+   "type": "text",
+   "text": "The genitive does two jobs in modern Greek. After a noun it is the possessor, like English 's: **το σπίτι του Γιάννη** 'John's house', **η πρωτεύουσα της Ελλάδας**. With a verb it marks the indirect object, but for full nouns speech prefers **σε + accusative**: Έδωσα το βιβλίο **στη Μαρία**. Weak pronouns use the genitive freely: **Της** έδωσα το βιβλίο.\n\nThe genitive plural is the hard part: it always ends in -ων, and in many classes the stress jumps onto that ending."
+  },
+  {
+   "type": "rules",
+   "title": "Genitive with a verb",
+   "src": "grammar/noun-phrase.json#case_uses.genitive.governed_by_verb.uses",
+   "cite": "Holton §3.52.1"
+  },
+  {
+   "type": "table",
+   "title": "Genitive endings at a glance",
+   "head": [
+    "Class",
+    "gen. sg.",
+    "gen. pl."
+   ],
+   "rows": [
+    [
+     "ο δρόμος / άνθρωπος",
+     "του δρόμου / ανθρώπου",
+     "των δρόμων / ανθρώπων"
+    ],
+    [
+     "ο πατέρας, ο μαθητής",
+     "του πατέρα, του μαθητή",
+     "των πατέρων, των μαθητών"
+    ],
+    [
+     "η ώρα, η θάλασσα",
+     "της ώρας, της θάλασσας",
+     "των ωρών, των θαλασσών"
+    ],
+    [
+     "η τέχνη, η πόλη",
+     "της τέχνης, της πόλης",
+     "των τεχνών, των πόλεων"
+    ],
+    [
+     "το βιβλίο, το παιδί",
+     "του βιβλίου, του παιδιού",
+     "των βιβλίων, των παιδιών"
+    ],
+    [
+     "το πρόβλημα",
+     "του προβλήματος",
+     "των προβλημάτων"
+    ]
+   ],
+   "cite": "Holton §3.9-3.27"
+  },
+  {
+   "type": "culture",
+   "title": "Athens street names are genitives",
+   "text": "Read a street sign in Athens and you are reading genitives. **Οδός Ερμού** is 'the street of Hermes', **Πανεπιστημίου** 'of the University', **Σταδίου** 'of the Stadium'; in addresses the word **οδός** is dropped: **Ερμού 25**. Squares work the same way: **πλατεία Συντάγματος** 'Constitution Square', **πλατεία Ομονοίας** 'Concord Square'. Many of these names keep older, learned genitives (**Βασιλίσσης Σοφίας** 'of Queen Sophia', where everyday Greek would say **της βασίλισσας**), so the city map is a daily reminder that the genitive is the case of names, titles and formal Greek."
+  },
+  {
+   "type": "callout",
+   "text": "**Masculines in -ας and -ης** drop the -ς in the genitive singular (του πατέρα, του μαθητή); only -ος nouns take -ου. Most -ης masculines and -α feminines stressed on the second-to-last syllable put the genitive-plural stress on the ending (μαθητών, ωρών); -ας masculines keep it (πατέρων)."
+  },
+  {
+   "type": "reading",
+   "title": "Ραντεβού στο κέντρο",
+   "text": "Καλημέρα, Τομ!\n\nΓια το ραντεβού μας αύριο: θα σε περιμένω στις έξι στην πλατεία Συντάγματος, μπροστά στο κτίριο της Βουλής. Αν έρθεις με το μετρό, βγες από την έξοδο προς την οδό Ερμού.\n\nΠρώτα θα πάμε στο σπίτι της θείας μου, στην οδό Σταδίου. Η θεία μου είναι η αδερφή του πατέρα μου και είναι καθηγήτρια ιστορίας στο πανεπιστήμιο. Θα σου δείξει φωτογραφίες της Αθήνας του 1960.\n\nΜετά θα φάμε στην ταβέρνα του κυρίου Θανάση, στη γωνία της οδού Αιόλου. Τα φαγητά της κουζίνας του είναι τα καλύτερα της γειτονιάς, και οι τιμές των πιάτων είναι λογικές. Ο γιος του ιδιοκτήτη παίζει μπουζούκι τα βράδια της Παρασκευής. Η φωνή του δεν είναι η καλύτερη της Αθήνας, αλλά οι πελάτες του μαγαζιού τον λατρεύουν.\n\nΜην ξεχάσεις τον αριθμό του κινητού μου: αν χαθείς, πάρε με τηλέφωνο!\n\nΦιλιά,\n\nΔήμητρα",
+   "en": "Good morning, Tom!\n\nAbout our meeting tomorrow: I'll wait for you at six in Syntagma Square, in front of the Parliament building. If you come by metro, take the exit towards Ermou Street.\n\nFirst we'll go to my aunt's house on Stadiou Street. My aunt is my father's sister and she teaches history at the university. She'll show you photos of 1960s Athens.\n\nThen we'll eat at Mr Thanasis's taverna, on the corner of Aiolou Street. The food from his kitchen is the best in the neighbourhood, and the prices of the dishes are reasonable. The owner's son plays the bouzouki on Friday evenings. His voice isn't the best in Athens, but the customers love him.\n\nDon't forget my mobile number: if you get lost, call me!\n\nLove,\n\nDimitra",
+   "gloss": {
+    "Τομ": "Τομ — Tom (man's name)",
+    "ραντεβού": "ραντεβού — meeting, date, appointment (indeclinable)",
+    "Ερμού": "Ερμής — Hermes; οδός Ερμού = Ermou Street (genitive)",
+    "Αθήνας": "Αθήνα — Athens (genitive)",
+    "ταβέρνα": "ταβέρνα — taverna, traditional restaurant",
+    "Θανάση": "Θανάσης — Thanasis (man's name), genitive",
+    "Θανάσης": "Θανάσης — Thanasis (man's name)",
+    "Αιόλου": "Αίολος — Aeolus; οδός Αιόλου = Aiolou Street (genitive)",
+    "μπουζούκι": "μπουζούκι — bouzouki (long-necked lute)",
+    "χαθείς": "χάνομαι — to get lost (perfective, 2sg: αν χαθείς 'if you get lost')",
+    "Δήμητρα": "Δήμητρα — Dimitra (woman's name)",
+    "Δήμητρας": "Δήμητρα — Dimitra (woman's name), genitive",
+    "συναντηθούν": "συναντιέμαι — to meet each other (perfective, 3pl)",
+    "Πρώτα": "πρώτα — first (adverb)",
+    "Συντάγματος": "Σύνταγμα — constitution; πλατεία Συντάγματος = Syntagma Square (genitive)",
+    "Σταδίου": "στάδιο — stadium; οδός Σταδίου = Stadiou Street (genitive)",
+    "Βουλής": "Βουλή — Parliament (genitive)",
+    "έξοδο": "έξοδος — exit (feminine despite -ος)",
+    "λογικές": "λογικός — reasonable, sensible"
+   },
+   "questions": [
+    {
+     "prompt": "Πού θα συναντηθούν;",
+     "answer": "Στην πλατεία Συντάγματος",
+     "options": [
+      "Στην πλατεία Συντάγματος",
+      "Στην οδό Σταδίου",
+      "Στην ταβέρνα"
+     ]
+    },
+    {
+     "prompt": "Ποια είναι η θεία της Δήμητρας;",
+     "answer": "Η αδερφή του πατέρα της",
+     "options": [
+      "Η αδερφή του πατέρα της",
+      "Η αδερφή της μητέρας της",
+      "Η γυναίκα του κυρίου Θανάση"
+     ]
+    },
+    {
+     "prompt": "Τι θα δείξει η θεία στον Τομ;",
+     "answer": "Φωτογραφίες της Αθήνας",
+     "options": [
+      "Φωτογραφίες της Αθήνας",
+      "Το κτίριο της Βουλής",
+      "Το πανεπιστήμιο"
+     ]
+    },
+    {
+     "prompt": "Ποιος παίζει μπουζούκι;",
+     "answer": "Ο γιος του ιδιοκτήτη",
+     "options": [
+      "Ο γιος του ιδιοκτήτη",
+      "Ο κύριος Θανάσης",
+      "Ο πατέρας της Δήμητρας"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "decline",
+   "cells": [
+    "sg.gen",
+    "pl.gen"
+   ],
+   "n": 18
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "το σπίτι ___ (ο Γιάννης)",
+     "answer": "του Γιάννη",
+     "options": [
+      "του Γιάννη",
+      "του Γιάννης",
+      "τον Γιάννη"
+     ],
+     "why": "-ης masculines drop -ς in the genitive."
+    },
+    {
+     "prompt": "η πρωτεύουσα ___ (η Ελλάδα)",
+     "answer": "της Ελλάδας",
+     "options": [
+      "της Ελλάδας",
+      "της Ελλάδα",
+      "την Ελλάδα"
+     ]
+    },
+    {
+     "prompt": "Έδωσα το βιβλίο ___ (η Μαρία, everyday speech)",
+     "answer": "στη Μαρία",
+     "options": [
+      "στη Μαρία",
+      "της Μαρίας",
+      "τη Μαρία"
+     ],
+     "why": "With full nouns, σε + accusative is the normal indirect object."
+    },
+    {
+     "prompt": "Η ώρα ___ (το μάθημα)",
+     "answer": "του μαθήματος",
+     "options": [
+      "του μαθήματος",
+      "του μάθηματος",
+      "του μαθήματου"
+     ]
+    }
+   ]
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Say in Greek: *the teacher's book* (ο δάσκαλος)",
+     "answer": "το βιβλίο του δασκάλου",
+     "accept": [
+      "το βιβλίο του δασκάλου"
+     ],
+     "why": "-ος nouns take -ου; stressed on the third syllable from the end, they usually move the stress forward: δασκάλου (colloquially also δάσκαλου)."
+    },
+    {
+     "prompt": "Say in Greek: *the children's room*",
+     "answer": "το δωμάτιο των παιδιών",
+     "accept": [
+      "το δωμάτιο των παιδιών"
+     ],
+     "why": "-ι neuters form the genitive plural in -ιών, stressed on the ending."
+    },
+    {
+     "prompt": "Say in Greek: *the end of the lesson*",
+     "answer": "το τέλος του μαθήματος",
+     "accept": [
+      "το τέλος του μαθήματος"
+     ],
+     "why": "-μα neuters: genitive -ματος, with the stress moving one syllable on (μάθημα → μαθήματος)."
+    },
+    {
+     "prompt": "Say in Greek: *the colour of the sea*",
+     "answer": "το χρώμα της θάλασσας",
+     "accept": [
+      "το χρώμα της θάλασσας"
+     ],
+     "why": "-α feminines add -ς in the genitive singular and keep the stress."
+    },
+    {
+     "prompt": "Say in Greek: *the students' (m.) problems*",
+     "answer": "τα προβλήματα των μαθητών",
+     "accept": [
+      "τα προβλήματα των μαθητών"
+     ],
+     "why": "-ής masculines: genitive plural -ών, stressed on the ending."
+    },
+    {
+     "prompt": "Say in Greek: *the streets of the city*",
+     "answer": "οι δρόμοι της πόλης",
+     "accept": [
+      "οι δρόμοι της πόλης"
+     ],
+     "why": "πόλη: genitive singular της πόλης (the learned πόλεως survives only in set phrases)."
+    },
+    {
+     "prompt": "Say in Greek: *the history of the cities*",
+     "answer": "η ιστορία των πόλεων",
+     "accept": [
+      "η ιστορία των πόλεων"
+     ],
+     "why": "-η nouns with plural -εις form the genitive plural in -εων, stressed on the third syllable from the end."
+    },
+    {
+     "prompt": "Say in Greek: *my father's car*",
+     "answer": "το αυτοκίνητο του πατέρα μου",
+     "accept": [
+      "το αυτοκίνητο του πατέρα μου"
+     ],
+     "why": "-ας masculines drop the -ς: του πατέρα."
+    },
+    {
+     "prompt": "Say in Greek: *the price of the tickets*",
+     "answer": "η τιμή των εισιτηρίων",
+     "accept": [
+      "η τιμή των εισιτηρίων"
+     ],
+     "why": "-ο neuters: genitive plural -ων; εισιτήριο keeps the stress on the same syllable as the plural εισιτήρια."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "η μητέρα ___ (ο φοιτητής)",
+     "answer": "του φοιτητή",
+     "options": [
+      "του φοιτητή",
+      "του φοιτητού",
+      "του φοιτητής"
+     ],
+     "why": "-ης masculines drop the -ς in the genitive singular; -ού is the old learned ending."
+    },
+    {
+     "prompt": "τα σπίτια ___ (οι ψαράδες)",
+     "answer": "των ψαράδων",
+     "options": [
+      "των ψαράδων",
+      "των ψαραδών",
+      "των ψαράων"
+     ],
+     "why": "Plurals in -άδες keep the stress in the genitive: -άδων."
+    },
+    {
+     "prompt": "τα παιχνίδια ___ (τα κορίτσια)",
+     "answer": "των κοριτσιών",
+     "options": [
+      "των κοριτσιών",
+      "των κοριτσίων",
+      "των κορίτσιων"
+     ],
+     "why": "-ι neuters: genitive plural -ιών, stress on the ending."
+    },
+    {
+     "prompt": "το κόστος ___ (το ταξίδι)",
+     "answer": "του ταξιδιού",
+     "options": [
+      "του ταξιδιού",
+      "του ταξίδιου",
+      "του ταξιδίου"
+     ],
+     "why": "-ι neuters: genitive singular -ιού, stress on the ending."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "οδός",
+  "δρόμος",
+  "πόλη",
+  "κτίριο",
+  "ιστορία",
+  "πανεπιστήμιο",
+  "γειτονιά",
+  "τιμή",
+  "ιδιοκτήτης",
+  "φωτογραφία",
+  "πατέρας",
+  "κουζίνα"
+ ]
+}
