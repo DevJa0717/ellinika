@@ -1,0 +1,1129 @@
+{
+ "el": "Στην ταβέρνα: διάλογοι",
+ "title": "Dialogues: at the taverna",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "How a taverna meal runs",
+   "text": "A taverna meal has five moments, each with its own lines. The grammar is one rule used again and again: **what you order is the object, so it goes in the accusative**: θα πάρω **έναν** μουσακά, **μια** χωριάτικη, **τον** λογαριασμό.\n\n**1. A table.** The waiter asks **Πόσα άτομα;** and you answer with a number: **Δύο. · Είμαστε τρεις.** Ask **Έχετε ένα τραπέζι έξω / για τέσσερις;**\n\n**2. Drinks first.** **Τι θα πιείτε;** House wine is **χύμα** and is ordered by weight: **ένα κιλό, ένα μισόκιλο, ένα καραφάκι** (a quarter). Water: **εμφιαλωμένο** (bottled) or **νερό της βρύσης** (tap, usually free).\n\n**3. Ordering.** **Τι θα πάρετε;** Answer with **Θα πάρω…** (I'll have), **Θα ήθελα…** (I'd like, a little more polite) or simply the dish + **παρακαλώ**. Greeks order dishes **για τη μέση** (for the middle of the table) and share. Ask about food with **Τι είναι…;**, **Τι μας προτείνετε;**, **Έχει κρέας;**, **Είναι πικάντικο;** and adjust with **χωρίς** / **με** + accusative.\n\n**4. Calling the waiter.** Catch an eye or say **Συγγνώμη!** or **Παρακαλώ!**. The waiter answers **Ορίστε;** ('yes?'). Never snap your fingers.\n\n**5. The bill.** It never comes unasked: lingering for hours is normal. Say **Τον λογαριασμό, παρακαλώ**, ask **Δέχεστε κάρτα;**, and leave a tip in cash: **Αυτά για εσάς** or **Κρατήστε τα ρέστα**. The staff answer with **Να είστε καλά!** and **Να ξανάρθετε!**"
+  },
+  {
+   "type": "dialogue",
+   "title": "Ένα τραπέζι για δύο",
+   "setting": "A taverna in Plaka, 9 p.m.: Claire and a friend arrive; the waiter seats them and takes the drinks order.",
+   "lines": [
+    {
+     "who": "Σερβιτόρος",
+     "voice": "m",
+     "el": "Καλησπέρα σας! Πόσα άτομα είστε;",
+     "en": "Good evening! How many are you?"
+    },
+    {
+     "who": "Κλερ",
+     "voice": "f",
+     "el": "Καλησπέρα! Δύο. Έχετε ένα τραπέζι έξω;",
+     "en": "Good evening! Two. Do you have a table outside?"
+    },
+    {
+     "who": "Σερβιτόρος",
+     "voice": "m",
+     "el": "Βεβαίως. Ελάτε, καθίστε εδώ, στη γωνία.",
+     "en": "Of course. Come, sit here, in the corner."
+    },
+    {
+     "who": "Κλερ",
+     "voice": "f",
+     "el": "Ωραία, ευχαριστούμε. Τον κατάλογο, παρακαλώ.",
+     "en": "Lovely, thank you. The menu, please."
+    },
+    {
+     "who": "Σερβιτόρος",
+     "voice": "m",
+     "el": "Ορίστε. Νερό θέλετε; Εμφιαλωμένο ή της βρύσης;",
+     "en": "Here you are. Would you like water? Bottled or tap?"
+    },
+    {
+     "who": "Κλερ",
+     "voice": "f",
+     "el": "Μια κανάτα νερό της βρύσης, παρακαλώ. Και ψωμί.",
+     "en": "A jug of tap water, please. And bread."
+    },
+    {
+     "who": "Σερβιτόρος",
+     "voice": "m",
+     "el": "Μάλιστα. Και τι θα πιείτε;",
+     "en": "Certainly. And what will you drink?"
+    },
+    {
+     "who": "Κλερ",
+     "voice": "f",
+     "el": "Έχετε χύμα κρασί;",
+     "en": "Do you have house wine?"
+    },
+    {
+     "who": "Σερβιτόρος",
+     "voice": "m",
+     "el": "Ναι, λευκό και κόκκινο, δικό μας, από το χωριό. Το μισόκιλο κάνει έξι ευρώ.",
+     "en": "Yes, white and red, our own, from the village. Half a kilo is six euros."
+    },
+    {
+     "who": "Κλερ",
+     "voice": "f",
+     "el": "Ένα μισόκιλο λευκό, παρακαλώ.",
+     "en": "Half a kilo of white, please."
+    },
+    {
+     "who": "Σερβιτόρος",
+     "voice": "m",
+     "el": "Αμέσως. Και για φαγητό;",
+     "en": "Right away. And to eat?"
+    },
+    {
+     "who": "Κλερ",
+     "voice": "f",
+     "el": "Σε λίγο. Πρώτα κοιτάμε τον κατάλογο.",
+     "en": "In a little while. First we'll look at the menu."
+    }
+   ],
+   "gloss": {
+    "άτομα": "άτομο — person (Πόσα άτομα; = how many people?)",
+    "Ελάτε": "έρχομαι — come (ελάτε = come!, polite)",
+    "καθίστε": "κάθομαι — sit (καθίστε = sit down!, polite)",
+    "γωνία": "γωνία — corner",
+    "κατάλογο": "κατάλογος — menu, list",
+    "Εμφιαλωμένο": "εμφιαλωμένος — bottled",
+    "βρύσης": "βρύση — tap (νερό της βρύσης = tap water)",
+    "κανάτα": "κανάτα — jug, carafe",
+    "Μάλιστα": "μάλιστα — certainly, yes (polite)",
+    "πιείτε": "πίνω — drink (τι θα πιείτε; = what will you drink?)",
+    "χύμα": "χύμα — loose, from the barrel (χύμα κρασί = house wine)",
+    "δικό μας": "δικός μας — our own",
+    "δικό": "δικός — own (δικό μας = our own)",
+    "χωριό": "χωριό — village",
+    "μισόκιλο": "μισόκιλο — half a kilo (wine is ordered by weight)",
+    "Αμέσως": "αμέσως — right away",
+    "κοιτάμε": "κοιτάζω/κοιτάω — look at",
+    "Κλερ": "Κλερ — Claire",
+    "ροζέ": "ροζέ — rosé (wine)",
+    "μπουκάλι": "μπουκάλι — bottle",
+    "Σερβιτόρος": "σερβιτόρος — waiter"
+   },
+   "questions": [
+    {
+     "prompt": "Πόσα άτομα είναι;",
+     "answer": "Δύο",
+     "options": [
+      "Δύο",
+      "Τρία",
+      "Τέσσερα"
+     ]
+    },
+    {
+     "prompt": "Τι νερό θέλει η Κλερ;",
+     "answer": "Νερό της βρύσης, σε κανάτα",
+     "options": [
+      "Νερό της βρύσης, σε κανάτα",
+      "Ένα εμφιαλωμένο",
+      "Δεν θέλει νερό"
+     ]
+    },
+    {
+     "prompt": "Πόσο κάνει το μισόκιλο κρασί;",
+     "answer": "Έξι ευρώ",
+     "options": [
+      "Έξι ευρώ",
+      "Δέκα ευρώ",
+      "Τρία ευρώ"
+     ]
+    },
+    {
+     "prompt": "Τι κρασί παίρνει η Κλερ;",
+     "answer": "Λευκό χύμα",
+     "options": [
+      "Λευκό χύμα",
+      "Κόκκινο χύμα",
+      "Ένα μπουκάλι ροζέ"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Key phrases at the taverna",
+   "head": [
+    "Greek",
+    "English",
+    "When · register"
+   ],
+   "rows": [
+    [
+     "**Πόσα άτομα (είστε);** — **Δύο.**",
+     "How many people? — Two.",
+     "waiter, on arrival"
+    ],
+    [
+     "**Έχετε ένα τραπέζι για τέσσερις;**",
+     "Do you have a table for four?",
+     "you, on arrival"
+    ],
+    [
+     "**Τον κατάλογο, παρακαλώ.**",
+     "The menu, please.",
+     "polite, any time"
+    ],
+    [
+     "**Τι θα πιείτε;** · **Τι θα πάρετε;**",
+     "What will you drink? · What will you have?",
+     "waiter (always εσείς)"
+    ],
+    [
+     "**Θα πάρω** έναν μουσακά.",
+     "I'll have a moussaka.",
+     "neutral, the most common"
+    ],
+    [
+     "**Θα ήθελα** μια χωριάτικη.",
+     "I'd like a village salad.",
+     "a touch more polite"
+    ],
+    [
+     "**Για μένα** μια τσιπούρα.",
+     "For me, a sea bream.",
+     "when the table orders together"
+    ],
+    [
+     "**Τι είναι** η φάβα;",
+     "What is fava?",
+     "asking about a dish"
+    ],
+    [
+     "**Τι μας προτείνετε;**",
+     "What do you recommend?",
+     "polite; μου for 'me'"
+    ],
+    [
+     "**Έχει κρέας;** · **Είναι πικάντικο;**",
+     "Does it have meat? · Is it spicy?",
+     "checking a dish"
+    ],
+    [
+     "**Χωρίς** κρεμμύδι, παρακαλώ.",
+     "Without onion, please.",
+     "χωρίς / με + accusative"
+    ],
+    [
+     "**Για τη μέση.**",
+     "To share.",
+     "dishes in the middle of the table"
+    ],
+    [
+     "**Συγγνώμη!** — **Ορίστε;**",
+     "Excuse me! — Yes?",
+     "calling the waiter"
+    ],
+    [
+     "**Κάτι άλλο;** — **Όχι, αυτά, ευχαριστώ.**",
+     "Anything else? — No, that's all, thanks.",
+     "end of the order"
+    ],
+    [
+     "**Τον λογαριασμό, παρακαλώ.**",
+     "The bill, please.",
+     "accusative τον"
+    ],
+    [
+     "**Δέχεστε κάρτα;**",
+     "Do you take cards?",
+     "polite"
+    ],
+    [
+     "**Αυτά για εσάς.** · **Κρατήστε τα ρέστα.**",
+     "This is for you. · Keep the change.",
+     "leaving a tip"
+    ],
+    [
+     "**Να είστε καλά!** — **Κι εσείς!**",
+     "Thank you, bless you! — You too!",
+     "warm thanks and its answer"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "The order is an object: nominative → accusative",
+   "head": [
+    "On the menu (nominative)",
+    "Θα πάρω… (accusative)",
+    "Note"
+   ],
+   "rows": [
+    [
+     "ο μουσακάς",
+     "**έναν μουσακά**",
+     "masc. -ας drops ς"
+    ],
+    [
+     "ο λογαριασμός",
+     "**τον λογαριασμό**",
+     "masc. -ος → -ο"
+    ],
+    [
+     "ο χαλβάς",
+     "**έναν χαλβά**",
+     "masc. -ας drops ς"
+    ],
+    [
+     "η χωριάτικη (σαλάτα)",
+     "**μια χωριάτικη**",
+     "feminine: no change in the singular"
+    ],
+    [
+     "η τσιπούρα",
+     "**μια τσιπούρα**",
+     "feminine: no change"
+    ],
+    [
+     "η φάβα",
+     "**μια φάβα**",
+     "feminine: no change"
+    ],
+    [
+     "το τζατζίκι",
+     "**ένα τζατζίκι**",
+     "neuter: no change"
+    ],
+    [
+     "το κοκκινιστό",
+     "**ένα κοκκινιστό**",
+     "neuter: no change"
+    ],
+    [
+     "οι κεφτέδες",
+     "**(μια μερίδα) κεφτέδες**",
+     "masc. plural: -ες in both cases"
+    ],
+    [
+     "οι πατάτες (τηγανητές)",
+     "**(μια μερίδα) πατάτες**",
+     "fem. plural: no change"
+    ]
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Τι είναι η φάβα;",
+   "setting": "Same evening, another table: Peter asks the waitress about a dish and orders.",
+   "lines": [
+    {
+     "who": "Σερβιτόρα",
+     "voice": "f",
+     "el": "Λοιπόν, τι θα πάρετε;",
+     "en": "So, what will you have?"
+    },
+    {
+     "who": "Πίτερ",
+     "voice": "m",
+     "el": "Μια ερώτηση πρώτα: τι είναι η φάβα;",
+     "en": "A question first: what is fava?"
+    },
+    {
+     "who": "Σερβιτόρα",
+     "voice": "f",
+     "el": "Η φάβα; Είναι σαν πουρές, από κίτρινα μπιζέλια, με λάδι και κρεμμύδι. Πολύ νόστιμη!",
+     "en": "Fava? It's like a purée, made from yellow split peas, with oil and onion. Very tasty!"
+    },
+    {
+     "who": "Πίτερ",
+     "voice": "m",
+     "el": "Ωραία, μια φάβα τότε. Και μια χωριάτικη σαλάτα.",
+     "en": "Great, a fava then. And a village salad."
+    },
+    {
+     "who": "Σερβιτόρα",
+     "voice": "f",
+     "el": "Μια φάβα, μια χωριάτικη. Και για κυρίως πιάτο;",
+     "en": "One fava, one village salad. And for the main course?"
+    },
+    {
+     "who": "Πίτερ",
+     "voice": "m",
+     "el": "Τι μου προτείνετε;",
+     "en": "What do you recommend?"
+    },
+    {
+     "who": "Σερβιτόρα",
+     "voice": "f",
+     "el": "Σήμερα έχουμε φρέσκια τσιπούρα. Και το κοκκινιστό είναι πολύ ωραίο.",
+     "en": "Today we have fresh sea bream. And the beef in tomato sauce is very good."
+    },
+    {
+     "who": "Πίτερ",
+     "voice": "m",
+     "el": "Πόσο κάνει η τσιπούρα;",
+     "en": "How much is the sea bream?"
+    },
+    {
+     "who": "Σερβιτόρα",
+     "voice": "f",
+     "el": "Δεκαέξι ευρώ η μερίδα.",
+     "en": "Sixteen euros a portion."
+    },
+    {
+     "who": "Πίτερ",
+     "voice": "m",
+     "el": "Εντάξει, μια τσιπούρα στα κάρβουνα. Α, και η σαλάτα χωρίς κρεμμύδι, παρακαλώ.",
+     "en": "OK, a grilled sea bream. Oh, and the salad without onion, please."
+    },
+    {
+     "who": "Σερβιτόρα",
+     "voice": "f",
+     "el": "Κανένα πρόβλημα. Κάτι άλλο;",
+     "en": "No problem. Anything else?"
+    },
+    {
+     "who": "Πίτερ",
+     "voice": "m",
+     "el": "Όχι, αυτά, ευχαριστώ.",
+     "en": "No, that's all, thanks."
+    }
+   ],
+   "gloss": {
+    "ερώτηση": "ερώτηση — question",
+    "φάβα": "φάβα — fava, yellow split-pea purée",
+    "σαν": "σαν — like",
+    "πουρές": "πουρές — purée, mash",
+    "κίτρινα": "κίτρινος — yellow",
+    "μπιζέλια": "μπιζέλι — pea",
+    "κρεμμύδι": "κρεμμύδι — onion",
+    "νόστιμη": "νόστιμος — tasty",
+    "χωριάτικη": "χωριάτικη (σαλάτα) — village salad, 'Greek salad'",
+    "κυρίως πιάτο": "κυρίως πιάτο — main course",
+    "κυρίως": "κυρίως — mainly (κυρίως πιάτο = main course)",
+    "προτείνετε": "προτείνω — recommend, suggest",
+    "φρέσκια": "φρέσκος — fresh",
+    "τσιπούρα": "τσιπούρα — gilt-head sea bream",
+    "κοκκινιστό": "κοκκινιστό — meat stewed in tomato sauce",
+    "μερίδα": "μερίδα — portion",
+    "κάρβουνα": "κάρβουνο — charcoal (στα κάρβουνα = charcoal-grilled)",
+    "Κανένα": "κανένας — no, any (κανένα πρόβλημα = no problem)",
+    "αυτά": "αυτός — this (αυτά = that's all)",
+    "Πίτερ": "Πίτερ — Peter",
+    "Σερβιτόρα": "σερβιτόρα — waitress"
+   },
+   "questions": [
+    {
+     "prompt": "Τι είναι η φάβα;",
+     "answer": "Ένας πουρές από κίτρινα μπιζέλια",
+     "options": [
+      "Ένας πουρές από κίτρινα μπιζέλια",
+      "Ένα ψάρι",
+      "Μια σαλάτα με ντομάτα"
+     ]
+    },
+    {
+     "prompt": "Πόσο κάνει η τσιπούρα;",
+     "answer": "Δεκαέξι ευρώ",
+     "options": [
+      "Δεκαέξι ευρώ",
+      "Έξι ευρώ",
+      "Είκοσι έξι ευρώ"
+     ]
+    },
+    {
+     "prompt": "Τι δεν θέλει ο Πίτερ στη σαλάτα;",
+     "answer": "Κρεμμύδι",
+     "options": [
+      "Κρεμμύδι",
+      "Ντομάτα",
+      "Φέτα"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "More lines from the table",
+   "items": [
+    {
+     "el": "Θα πάρουμε ένα τζατζίκι, μια χωριάτικη και δύο μερίδες πατάτες.",
+     "en": "We'll have a tzatziki, a village salad and two portions of chips."
+    },
+    {
+     "el": "Για μένα έναν μουσακά, και για τη φίλη μου τα γεμιστά.",
+     "en": "For me a moussaka, and for my friend the stuffed vegetables."
+    },
+    {
+     "el": "Είμαι χορτοφάγος. Τα γεμιστά έχουν κρέας;",
+     "en": "I'm vegetarian. Do the stuffed vegetables have meat?"
+    },
+    {
+     "el": "Ένα καραφάκι τσίπουρο, παρακαλώ, και τρία ποτήρια.",
+     "en": "A small carafe of tsipouro, please, and three glasses."
+    },
+    {
+     "el": "Το ψάρι πόσο έχει το κιλό;",
+     "en": "How much is the fish per kilo?"
+    },
+    {
+     "el": "Συγγνώμη, μας φέρνετε λίγο ψωμί ακόμα;",
+     "en": "Excuse me, could you bring us a little more bread?"
+    },
+    {
+     "el": "Η μπίρα είναι παγωμένη; Τέλεια, μία μεγάλη τότε.",
+     "en": "Is the beer cold? Great, a large one then."
+    },
+    {
+     "el": "Πληρώνουμε χωριστά ή μαζί; — Μαζί, κερνάω εγώ!",
+     "en": "Do we pay separately or together? — Together, it's on me!"
+    },
+    {
+     "el": "Οι κεφτέδες είναι πολύ νόστιμοι! Τι έχουν μέσα;",
+     "en": "The meatballs are very tasty! What's in them?"
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Traps for English speakers**\n\n• **Accusative after θα πάρω / θα ήθελα / χωρίς / με:** έναν μουσακά, **τον** λογαριασμό, χωρίς **κρεμμύδι**. *Ο λογαριασμός, παρακαλώ* sounds like a label, not a request.\n\n• **Wine by weight:** ένα **κιλό** / **μισόκιλο** / **καραφάκι** χύμα, not 'a bottle of house wine'.\n\n• **Ορίστε has two jobs:** 'Here you are' (handing something over) and **Ορίστε;** 'Yes? / Pardon?'.\n\n• **Adjectives agree with the dish's gender:** ο χαλβάς είναι νόστιμο**ς**, η φάβα είναι νόστιμ**η**, το κοκκινιστό είναι νόστιμ**ο**, οι κεφτέδες είναι νόστιμ**οι**.\n\n• **κερασμένο is 'on the house'**, nothing to do with κεράσι (cherry).\n\n• **Πόσο κάνει** for one thing, **Πόσο κάνουν** for several: Πόσο κάνουν οι πατάτες;"
+  },
+  {
+   "type": "dialogue",
+   "title": "Τον λογαριασμό, παρακαλώ",
+   "setting": "End of the meal: Anna asks Giorgos, the owner's son, for the bill.",
+   "lines": [
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Συγγνώμη! Τον λογαριασμό, παρακαλώ.",
+     "en": "Excuse me! The bill, please."
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Αμέσως. Και ορίστε, ένα γλυκάκι, κερασμένο από το μαγαζί.",
+     "en": "Right away. And here you are, a little dessert, on the house."
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Α, τι ωραίο! Ευχαριστούμε πολύ. Τι είναι;",
+     "en": "Oh, how lovely! Thank you very much. What is it?"
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Χαλβάς σιμιγδαλένιος. Τον φτιάχνει η μητέρα μου.",
+     "en": "Semolina halva. My mother makes it."
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Μμμ, είναι πολύ νόστιμος!",
+     "en": "Mmm, it's very tasty!"
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Ορίστε και ο λογαριασμός. Σαράντα δύο ευρώ.",
+     "en": "And here's the bill. Forty-two euros."
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Δέχεστε κάρτα;",
+     "en": "Do you take cards?"
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Βεβαίως, φέρνω το μηχανάκι.",
+     "en": "Of course, I'll bring the card machine."
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Ορίστε. Και αυτά τα πέντε ευρώ είναι για εσάς.",
+     "en": "Here you go. And these five euros are for you."
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Α, ευχαριστώ πολύ! Να είστε καλά.",
+     "en": "Oh, thank you very much! Bless you."
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Κι εσείς! Όλα ήταν τέλεια.",
+     "en": "You too! Everything was perfect."
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Να ξανάρθετε! Καλό βράδυ!",
+     "en": "Come again! Have a good evening!"
+    }
+   ],
+   "gloss": {
+    "λογαριασμό": "λογαριασμός — bill (τον λογαριασμό = the bill, accusative)",
+    "λογαριασμός": "λογαριασμός — bill",
+    "γλυκάκι": "γλυκάκι — little sweet, dessert (diminutive of γλυκό)",
+    "κερασμένο": "κερασμένος — treated, on the house (κερνάω = treat)",
+    "μαγαζί": "μαγαζί — shop; here: the restaurant",
+    "Χαλβάς": "χαλβάς — halva",
+    "σιμιγδαλένιος": "σιμιγδαλένιος — made of semolina",
+    "φτιάχνει": "φτιάχνω — make",
+    "νόστιμος": "νόστιμος — tasty",
+    "Δέχεστε": "δέχομαι — accept",
+    "φέρνω": "φέρνω — bring",
+    "μηχανάκι": "μηχανάκι — little machine; here: card terminal (POS)",
+    "Να είστε καλά": "να είστε καλά — thank you, bless you (lit. be well)",
+    "ήταν": "είμαι — be (ήταν = was, were)",
+    "τέλεια": "τέλειος — perfect (τέλεια = perfect, great)",
+    "ξανάρθετε": "ξανάρχομαι — come again (Να ξανάρθετε! = come again!)",
+    "Γιώργος": "Γιώργος — Giorgos (George)",
+    "Άννα": "Άννα — Anna"
+   },
+   "questions": [
+    {
+     "prompt": "Τι είναι κερασμένο;",
+     "answer": "Ο χαλβάς",
+     "options": [
+      "Ο χαλβάς",
+      "Το κρασί",
+      "Ο καφές"
+     ]
+    },
+    {
+     "prompt": "Πόσο κάνει ο λογαριασμός;",
+     "answer": "Σαράντα δύο ευρώ",
+     "options": [
+      "Σαράντα δύο ευρώ",
+      "Τριάντα δύο ευρώ",
+      "Πενήντα ευρώ"
+     ]
+    },
+    {
+     "prompt": "Πώς πληρώνει η Άννα;",
+     "answer": "Με κάρτα, και αφήνει πέντε ευρώ για τον Γιώργο",
+     "options": [
+      "Με κάρτα, και αφήνει πέντε ευρώ για τον Γιώργο",
+      "Μόνο με μετρητά",
+      "Δεν πληρώνει, είναι κερασμένα όλα"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "culture",
+   "title": "Κουβέρ, κέρασμα and the tip",
+   "text": "On the bill you will often see **κουβέρ** or **ψωμί**: a small charge per person for bread (and cutlery). At the end, many tavernas bring something **κερασμένο** ('on the house'): fruit, halva, a spoon sweet or a small carafe of **ρακή** or **τσίπουρο**; you thank them with **Να 'στε καλά!** The bill only comes when you ask, because hurrying guests is rude. The tip (**φιλοδώρημα**, in speech just **πουρμπουάρ**) is not added to the bill; people round up or leave about 5–10% in cash on the table, often saying **Αυτά για εσάς**."
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Ο σερβιτόρος ρωτά: «Πόσα άτομα είστε;» Answer: *Three. Do you have a table outside?*",
+     "answer": "Τρεις. Έχετε ένα τραπέζι έξω;",
+     "accept": [
+      "Τρεις. Έχετε ένα τραπέζι έξω;",
+      "Τρεις Έχετε ένα τραπέζι έξω;",
+      "Τρία. Έχετε ένα τραπέζι έξω;",
+      "Τρία Έχετε ένα τραπέζι έξω;",
+      "Είμαστε τρεις. Έχετε ένα τραπέζι έξω;",
+      "Είμαστε τρεις Έχετε ένα τραπέζι έξω;",
+      "Τρεις. Έχετε τραπέζι έξω;",
+      "Τρεις Έχετε τραπέζι έξω;",
+      "Τρία άτομα. Έχετε ένα τραπέζι έξω;",
+      "Τρία άτομα Έχετε ένα τραπέζι έξω;",
+      "Τρία άτομα. Έχετε τραπέζι έξω;",
+      "Τρία άτομα Έχετε τραπέζι έξω;",
+      "Είμαστε τρεις. Έχετε τραπέζι έξω;",
+      "Είμαστε τρεις Έχετε τραπέζι έξω;"
+     ],
+     "why": "τρεις (people) or τρία (άτομα, neuter); ένα τραπέζι is neuter."
+    },
+    {
+     "prompt": "Ask: *Do you have a table for four?*",
+     "answer": "Έχετε ένα τραπέζι για τέσσερις;",
+     "accept": [
+      "Έχετε ένα τραπέζι για τέσσερις;",
+      "Έχετε τραπέζι για τέσσερις;",
+      "Υπάρχει τραπέζι για τέσσερις;",
+      "Έχετε ένα τραπέζι για τέσσερα άτομα;",
+      "Έχετε τραπέζι για τέσσερα άτομα;"
+     ],
+     "why": "για + number: τέσσερις (people) or τέσσερα άτομα."
+    },
+    {
+     "prompt": "Ask for the menu.",
+     "answer": "Τον κατάλογο, παρακαλώ.",
+     "accept": [
+      "Τον κατάλογο, παρακαλώ.",
+      "Τον κατάλογο",
+      "Τον κατάλογο παρακαλώ",
+      "Το μενού, παρακαλώ.",
+      "Το μενού",
+      "Έναν κατάλογο, παρακαλώ.",
+      "Έναν κατάλογο",
+      "Μας φέρνετε τον κατάλογο;"
+     ],
+     "why": "A request is an object: ο κατάλογος → τον κατάλογο."
+    },
+    {
+     "prompt": "Ask for a jug of tap water.",
+     "answer": "Μια κανάτα νερό, παρακαλώ.",
+     "accept": [
+      "Μια κανάτα νερό, παρακαλώ.",
+      "Μια κανάτα νερό",
+      "Μια κανάτα νερό της βρύσης, παρακαλώ.",
+      "Μια κανάτα νερό της βρύσης",
+      "Μία κανάτα νερό, παρακαλώ.",
+      "Μία κανάτα νερό",
+      "Μία κανάτα νερό της βρύσης, παρακαλώ.",
+      "Μία κανάτα νερό της βρύσης",
+      "Νερό της βρύσης, παρακαλώ.",
+      "Νερό της βρύσης"
+     ],
+     "why": "Quantity + noun with no 'of': μια κανάτα νερό."
+    },
+    {
+     "prompt": "«Τι θα πιείτε;» Say: *Half a kilo of white (house wine).*",
+     "answer": "Ένα μισόκιλο λευκό.",
+     "accept": [
+      "Ένα μισόκιλο λευκό.",
+      "Ένα μισόκιλο λευκό κρασί.",
+      "Ένα μισόκιλο λευκό χύμα.",
+      "Ένα μισόκιλο χύμα λευκό.",
+      "Μισόκιλο λευκό.",
+      "Μισό κιλό λευκό.",
+      "Ένα μισόκιλο λευκό, παρακαλώ.",
+      "Ένα μισόκιλο λευκό"
+     ],
+     "why": "House wine is ordered by weight: ένα μισόκιλο (neuter)."
+    },
+    {
+     "prompt": "«Τι θα πάρετε;» Say: *I'll have a moussaka.*",
+     "answer": "Θα πάρω έναν μουσακά.",
+     "accept": [
+      "Θα πάρω έναν μουσακά.",
+      "Θα πάρω ένα μουσακά.",
+      "Θα ήθελα έναν μουσακά.",
+      "Θα ήθελα ένα μουσακά.",
+      "Έναν μουσακά, παρακαλώ.",
+      "Έναν μουσακά",
+      "Ένα μουσακά, παρακαλώ.",
+      "Ένα μουσακά"
+     ],
+     "why": "ο μουσακάς → accusative έναν μουσακά."
+    },
+    {
+     "prompt": "Say: *I'd like a village salad.*",
+     "answer": "Θα ήθελα μια χωριάτικη.",
+     "accept": [
+      "Θα ήθελα μια χωριάτικη.",
+      "Θα ήθελα μια χωριάτικη σαλάτα.",
+      "Θα ήθελα μία χωριάτικη.",
+      "Θα ήθελα μία χωριάτικη σαλάτα.",
+      "Θα πάρω μια χωριάτικη.",
+      "Θα πάρω μια χωριάτικη σαλάτα."
+     ],
+     "why": "Feminine singular: μια χωριάτικη, same form as the nominative."
+    },
+    {
+     "prompt": "Say: *Without onion, please.*",
+     "answer": "Χωρίς κρεμμύδι, παρακαλώ.",
+     "accept": [
+      "Χωρίς κρεμμύδι, παρακαλώ.",
+      "Χωρίς κρεμμύδι",
+      "Χωρίς κρεμμύδια, παρακαλώ.",
+      "Χωρίς κρεμμύδια"
+     ],
+     "why": "χωρίς + accusative; neuter κρεμμύδι does not change."
+    },
+    {
+     "prompt": "Ask: *What is fava?*",
+     "answer": "Τι είναι η φάβα;",
+     "accept": [
+      "Τι είναι η φάβα;",
+      "Τι είναι φάβα;"
+     ],
+     "why": "Τι είναι + the dish with its article."
+    },
+    {
+     "prompt": "Ask politely: *What do you recommend (to us)?*",
+     "answer": "Τι μας προτείνετε;",
+     "accept": [
+      "Τι μας προτείνετε;",
+      "Τι προτείνετε;",
+      "Τι μου προτείνετε;"
+     ],
+     "why": "μας = to us; προτείνετε is the εσείς form."
+    },
+    {
+     "prompt": "Ask: *How much is the sea bream?*",
+     "answer": "Πόσο κάνει η τσιπούρα;",
+     "accept": [
+      "Πόσο κάνει η τσιπούρα;",
+      "Πόσο έχει η τσιπούρα;",
+      "Η τσιπούρα πόσο κάνει;",
+      "Η τσιπούρα πόσο έχει;"
+     ],
+     "why": "Πόσο κάνει / Πόσο έχει + one item in the nominative."
+    },
+    {
+     "prompt": "Ask: *How much are the chips (potatoes)?*",
+     "answer": "Πόσο κάνουν οι πατάτες;",
+     "accept": [
+      "Πόσο κάνουν οι πατάτες;",
+      "Πόσο έχουν οι πατάτες;",
+      "Οι πατάτες πόσο κάνουν;"
+     ],
+     "why": "Plural subject → plural verb: κάνουν."
+    },
+    {
+     "prompt": "Order: *A portion of meatballs, please.*",
+     "answer": "Μια μερίδα κεφτέδες, παρακαλώ.",
+     "accept": [
+      "Μια μερίδα κεφτέδες, παρακαλώ.",
+      "Μια μερίδα κεφτέδες",
+      "Μία μερίδα κεφτέδες, παρακαλώ.",
+      "Μία μερίδα κεφτέδες",
+      "Θα πάρω μια μερίδα κεφτέδες.",
+      "Θα ήθελα μια μερίδα κεφτέδες."
+     ],
+     "why": "μια μερίδα + plural noun, with no 'of'."
+    },
+    {
+     "prompt": "Ask about a dish: *Is it spicy?*",
+     "answer": "Είναι πικάντικο;",
+     "accept": [
+      "Είναι πικάντικο;",
+      "Είναι καυτερό;"
+     ],
+     "why": "Neuter, agreeing with an understood φαγητό / πιάτο."
+    },
+    {
+     "prompt": "Ask: *Does it have meat?*",
+     "answer": "Έχει κρέας;",
+     "accept": [
+      "Έχει κρέας;",
+      "Έχει μέσα κρέας;"
+     ],
+     "why": "έχει = it has / it contains."
+    },
+    {
+     "prompt": "A woman says: *I'm vegetarian.*",
+     "answer": "Είμαι χορτοφάγος.",
+     "accept": [
+      "Είμαι χορτοφάγος."
+     ],
+     "why": "χορτοφάγος has one form for both genders: ο/η χορτοφάγος."
+    },
+    {
+     "prompt": "Get the waiter's attention.",
+     "answer": "Συγγνώμη!",
+     "accept": [
+      "Συγγνώμη!",
+      "Παρακαλώ!",
+      "Συγγνώμη, παρακαλώ!",
+      "Συγγνώμη",
+      "Συγνώμη!"
+     ],
+     "why": "Συγγνώμη! or Παρακαλώ!; never snap your fingers."
+    },
+    {
+     "prompt": "Ask for the bill.",
+     "answer": "Τον λογαριασμό, παρακαλώ.",
+     "accept": [
+      "Τον λογαριασμό, παρακαλώ.",
+      "Τον λογαριασμό",
+      "Το λογαριασμό, παρακαλώ.",
+      "Το λογαριασμό",
+      "Μας φέρνετε τον λογαριασμό;",
+      "Τον λογαριασμό παρακαλώ"
+     ],
+     "why": "Accusative: ο λογαριασμός → τον λογαριασμό."
+    },
+    {
+     "prompt": "Ask: *Do you take cards?*",
+     "answer": "Δέχεστε κάρτα;",
+     "accept": [
+      "Δέχεστε κάρτα;",
+      "Δέχεστε κάρτες;",
+      "Πληρώνω με κάρτα;",
+      "Μπορώ να πληρώσω με κάρτα;",
+      "Μπορούμε να πληρώσουμε με κάρτα;"
+     ],
+     "why": "δέχομαι 'accept', εσείς form δέχεστε."
+    },
+    {
+     "prompt": "Leave a tip in cash: *This is for you.*",
+     "answer": "Αυτά για εσάς.",
+     "accept": [
+      "Αυτά για εσάς.",
+      "Αυτά είναι για εσάς.",
+      "Αυτό για εσάς.",
+      "Ορίστε, για εσάς.",
+      "Αυτά για σας."
+     ],
+     "why": "αυτά (those coins/notes) για εσάς; για + accusative εσάς."
+    },
+    {
+     "prompt": "The waiter brings a free dessert. Say: *Oh, how lovely! Thank you very much.*",
+     "answer": "Α, τι ωραίο! Ευχαριστούμε πολύ.",
+     "accept": [
+      "Α, τι ωραίο! Ευχαριστούμε πολύ.",
+      "Α, τι ωραίο Ευχαριστούμε πολύ.",
+      "Τι ωραίο! Ευχαριστούμε πολύ.",
+      "Τι ωραίο Ευχαριστούμε πολύ.",
+      "Α, τι ωραίο! Ευχαριστώ πολύ.",
+      "Α, τι ωραίο Ευχαριστώ πολύ.",
+      "Τι ωραίο! Ευχαριστώ πολύ.",
+      "Τι ωραίο Ευχαριστώ πολύ."
+     ],
+     "why": "Τι ωραίο! 'how nice!' (neuter: the gesture/thing)."
+    },
+    {
+     "prompt": "Say on leaving: *Everything was perfect.*",
+     "answer": "Όλα ήταν τέλεια.",
+     "accept": [
+      "Όλα ήταν τέλεια.",
+      "Όλα ήταν πολύ ωραία.",
+      "Όλα ήταν υπέροχα.",
+      "Όλα ήταν πολύ νόστιμα."
+     ],
+     "why": "όλα 'everything' is neuter plural: τέλεια, ωραία."
+    },
+    {
+     "prompt": "Order: *A tzatziki and a village salad, please.*",
+     "answer": "Ένα τζατζίκι και μια χωριάτικη, παρακαλώ.",
+     "accept": [
+      "Ένα τζατζίκι και μια χωριάτικη, παρακαλώ.",
+      "Ένα τζατζίκι και μια χωριάτικη",
+      "Ένα τζατζίκι και μία χωριάτικη, παρακαλώ.",
+      "Ένα τζατζίκι και μία χωριάτικη",
+      "Ένα τζατζίκι και μια χωριάτικη σαλάτα, παρακαλώ.",
+      "Ένα τζατζίκι και μια χωριάτικη σαλάτα",
+      "Θα πάρω ένα τζατζίκι και μια χωριάτικη.",
+      "Θα ήθελα ένα τζατζίκι και μια χωριάτικη."
+     ],
+     "why": "Neuter ένα τζατζίκι, feminine μια χωριάτικη."
+    },
+    {
+     "prompt": "Make it polite (εσείς): «Τι θα πάρεις;»",
+     "answer": "Τι θα πάρετε;",
+     "accept": [
+      "Τι θα πάρετε;"
+     ],
+     "why": "πάρεις → πάρετε."
+    },
+    {
+     "prompt": "Make it polite (εσείς): «Τι θα πιεις;»",
+     "answer": "Τι θα πιείτε;",
+     "accept": [
+      "Τι θα πιείτε;"
+     ],
+     "why": "πιεις → πιείτε."
+    },
+    {
+     "prompt": "«Κάτι άλλο;» Say: *No, that's all, thanks.*",
+     "answer": "Όχι, αυτά, ευχαριστώ.",
+     "accept": [
+      "Όχι, αυτά, ευχαριστώ.",
+      "Αυτά, ευχαριστώ.",
+      "Όχι, ευχαριστώ.",
+      "Όχι, τίποτα άλλο, ευχαριστώ.",
+      "Όχι, αυτά προς το παρόν, ευχαριστώ."
+     ],
+     "why": "Αυτά (lit. 'these') closes an order."
+    },
+    {
+     "prompt": "Order: *A bottle of sparkling water.*",
+     "answer": "Ένα μπουκάλι ανθρακούχο νερό.",
+     "accept": [
+      "Ένα μπουκάλι ανθρακούχο νερό.",
+      "Ένα ανθρακούχο.",
+      "Ένα ανθρακούχο νερό.",
+      "Ένα μπουκάλι ανθρακούχο.",
+      "Ένα ανθρακούχο, παρακαλώ.",
+      "Ένα ανθρακούχο"
+     ],
+     "why": "ανθρακούχο agrees with neuter νερό."
+    },
+    {
+     "prompt": "Answer «Να είστε καλά!»",
+     "answer": "Κι εσείς!",
+     "accept": [
+      "Κι εσείς!",
+      "Και εσείς!",
+      "Επίσης!",
+      "Κι εσείς, ευχαριστούμε!"
+     ],
+     "why": "The warm wish is returned: Κι εσείς!"
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Θα πάρω ___ (ο μουσακάς)",
+     "answer": "έναν μουσακά",
+     "options": [
+      "έναν μουσακά",
+      "ένας μουσακάς",
+      "ενός μουσακά"
+     ],
+     "why": "The order is an object: accusative."
+    },
+    {
+     "prompt": "___ λογαριασμό, παρακαλώ.",
+     "answer": "Τον",
+     "options": [
+      "Τον",
+      "Ο",
+      "Του"
+     ],
+     "why": "Accusative masculine article: τον."
+    },
+    {
+     "prompt": "Θα ήθελα ___ τσιπούρα.",
+     "answer": "μια",
+     "options": [
+      "μια",
+      "μιας",
+      "ένα"
+     ],
+     "why": "Feminine accusative singular: μια (same as nominative)."
+    },
+    {
+     "prompt": "The waiter comes to your table and says «Ορίστε;». He means…",
+     "answer": "Yes? What can I do for you?",
+     "options": [
+      "Yes? What can I do for you?",
+      "Here is your food.",
+      "Goodbye."
+     ],
+     "why": "With a question tone Ορίστε; means 'yes? / pardon?'."
+    },
+    {
+     "prompt": "How do you get the waiter's attention?",
+     "answer": "Συγγνώμη!",
+     "options": [
+      "Συγγνώμη!",
+      "Γκαρσόν!",
+      "Έλα δω!"
+     ],
+     "why": "Συγγνώμη! or Παρακαλώ! is polite; the others are rude."
+    },
+    {
+     "prompt": "«Κάτι άλλο;» Choose the natural reply.",
+     "answer": "Όχι, αυτά, ευχαριστώ.",
+     "options": [
+      "Όχι, αυτά, ευχαριστώ.",
+      "Επίσης.",
+      "Καλώς σας βρήκα."
+     ],
+     "why": "Αυτά closes the order."
+    },
+    {
+     "prompt": "«Να είστε καλά!» Choose the natural reply.",
+     "answer": "Κι εσείς!",
+     "options": [
+      "Κι εσείς!",
+      "Παρακαλώ, ορίστε.",
+      "Χαίρω πολύ!"
+     ],
+     "why": "Return the wish."
+    },
+    {
+     "prompt": "Ο χαλβάς είναι πολύ ___.",
+     "answer": "νόστιμος",
+     "options": [
+      "νόστιμος",
+      "νόστιμη",
+      "νόστιμο"
+     ],
+     "why": "χαλβάς is masculine."
+    },
+    {
+     "prompt": "Η φάβα είναι πολύ ___.",
+     "answer": "νόστιμη",
+     "options": [
+      "νόστιμη",
+      "νόστιμος",
+      "νόστιμο"
+     ],
+     "why": "φάβα is feminine."
+    },
+    {
+     "prompt": "Οι κεφτέδες είναι πολύ ___.",
+     "answer": "νόστιμοι",
+     "options": [
+      "νόστιμοι",
+      "νόστιμα",
+      "νόστιμες"
+     ],
+     "why": "κεφτές is masculine: plural νόστιμοι."
+    },
+    {
+     "prompt": "Πόσο ___ οι πατάτες;",
+     "answer": "κάνουν",
+     "options": [
+      "κάνουν",
+      "κάνει",
+      "κάνετε"
+     ],
+     "why": "Plural subject, plural verb."
+    },
+    {
+     "prompt": "«Για τη μέση» means…",
+     "answer": "To share, in the middle of the table",
+     "options": [
+      "To share, in the middle of the table",
+      "Cooked medium",
+      "A half portion"
+     ],
+     "why": "Greeks put dishes in the middle and share."
+    },
+    {
+     "prompt": "«Κερασμένο» means…",
+     "answer": "On the house",
+     "options": [
+      "On the house",
+      "Cherry-flavoured",
+      "Reserved"
+     ],
+     "why": "κερνάω = treat someone; κεράσι (cherry) is a false friend."
+    },
+    {
+     "prompt": "How do most Greeks tip at a taverna?",
+     "answer": "Cash on the table, about 5–10%",
+     "options": [
+      "Cash on the table, about 5–10%",
+      "15% added automatically to the bill",
+      "Tipping is not done"
+     ],
+     "why": "The tip is not on the bill; round up or leave cash."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "ταβέρνα",
+  "τραπέζι",
+  "κατάλογος",
+  "λογαριασμός",
+  "σερβιτόρος",
+  "μερίδα",
+  "σαλάτα",
+  "κρασί",
+  "νερό",
+  "ψωμί",
+  "ψάρι",
+  "πληρώνω"
+ ]
+}
