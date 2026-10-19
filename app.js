@@ -802,7 +802,7 @@
     const id = item.reviewId || norm(item.prompt + "|" + item.answer).slice(0, 160);
     let r = list.find((x) => x.id === id);
     if (!r && right) return;
-    if (!r) { r = { id, tag: item.tag || "", step: -1, item: { prompt: item.prompt, big: item.big, answer: item.answer, accept: item.accept, options: item.options, why: item.why, tag: item.tag } }; list.push(r); }
+    if (!r) { r = { id, tag: item.tag || "", step: -1, item: { prompt: item.prompt, big: item.big, say: item.say, kind: item.say ? item.kind : undefined, answer: item.answer, accept: item.accept, options: item.options, why: item.why, tag: item.tag } }; list.push(r); }
     r.step = right ? r.step + 1 : 0;
     if (r.step >= STEPS.length) { list.splice(list.indexOf(r), 1); }
     else r.due = Date.now() + STEPS[Math.max(0, r.step)] * 864e5 - 4 * 36e5;
@@ -1228,6 +1228,9 @@
     if (!lesson.practice.some((p) => p.gen === "vocab-recall")) {
       try { tail.push(...(await GENERATORS["vocab-recall"]({ n: 6, new: 4, words: lesson.vocab }))); } catch (e) { console.warn("vocab failed", e); }
     }
+    // Dictation from the lesson's dialogues, only where the device has a Greek voice.
+    const dLines = lesson.blocks.filter((b) => b.type === "dialogue").flatMap((b) => b.lines).filter((l) => { const n = l.el.split(/\s+/).length; return n >= 4 && n <= 12; });
+    if (dLines.length && (await greekVoices()).length) tail.push(...sample(dLines, 3).map((l) => ({ kind: "Listen and type", prompt: "Type what you hear.", say: l.el, answer: l.el, accept: [l.el, l.el.replace(/[.!;?·…—–]+/g, " ").replace(/[()\/]/g, " ").trim()], why: l.en })));
     const main = items.filter((it) => !it.vocab), voc = items.filter((it) => it.vocab);
     return [...(lesson.shuffle === false ? main : shuffle(main)), ...tail, ...voc];
   }
@@ -1254,6 +1257,7 @@
             <span class="q-kind">${esc(item.kind)}</span>
             <div class="q-prompt">${md(item.prompt)}</div>
             ${item.big ? `<div class="q-big${item.big.length > 8 ? " mid" : ""}" lang="el">${esc(item.big)}</div>` : ""}
+            ${item.say ? `<div class="dl-ctl"><button class="btn small" id="say-btn">▶ Listen</button><button class="btn small ghost" id="say-slow">▶ Slower</button></div>` : ""}
             <div id="answer-area"></div>
             <div id="fb"></div>
             <div class="actions" id="acts"></div>
@@ -1261,6 +1265,11 @@
         </div>`;
       const area = $("#answer-area"), fb = $("#fb"), acts = $("#acts");
       if (!item.vocab) wrapGreek($("#card .q-prompt"));
+      if (item.say) {
+        // Dictation: the device's Greek voice reads the line; the learner types it.
+        const speak = async (rate) => { const v = await greekVoices(), ss = window.speechSynthesis; if (!v.length) return; ss.cancel(); const u = new SpeechSynthesisUtterance(item.say); u.lang = "el-GR"; u.voice = v[0]; u.rate = rate; ss.speak(u); };
+        $("#say-btn").onclick = () => speak(0.95); $("#say-slow").onclick = () => speak(0.7); speak(0.95);
+      }
       const record = (result, shown) => {
         let snap = null;
         if (firstPass && item.vocab) {

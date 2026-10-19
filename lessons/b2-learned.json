@@ -65,20 +65,20 @@
     {
      "who": "Υπάλληλος",
      "voice": "m",
-     "el": "Ασφαλώς. Υπάρχει μία στις επτά και δέκα. Προφανώς θα είναι γεμάτη, αλλά σας κρατώ θέση αμέσως.",
-     "en": "Certainly. There's one at ten past seven. It will obviously be full, but I'm holding a seat for you right away."
+     "el": "Ασφαλώς. Υπάρχει μία στις επτά και δέκα. Προφανώς θα γεμίσει γρήγορα, γι' αυτό σας κρατώ θέση αμέσως.",
+     "en": "Certainly. There's one at ten past seven. It will obviously fill up fast, so I'm holding a seat for you right away."
     },
     {
      "who": "Κατερίνα",
      "voice": "f",
      "el": "Τέλεια. Και η βαλίτσα μου; Πρέπει να τη δηλώσω ξανά;",
-     "en": "Great. And my suitcase? Do I have to declare it again?"
+     "en": "Great. And my suitcase? Do I have to add it to the booking again?"
     },
     {
      "who": "Υπάλληλος",
      "voice": "m",
      "el": "Όχι, η αποσκευή σας μεταφέρεται αυτομάτως στη νέα κράτηση.",
-     "en": "No, your baggage is transferred automatically to the new booking."
+     "en": "No, your checked bag is carried over automatically to the new booking."
     },
     {
      "who": "Κατερίνα",
@@ -95,8 +95,8 @@
     {
      "who": "Κατερίνα",
      "voice": "f",
-     "el": "Κι αν γίνει πάλι απεργία αύριο; Δεν θέλω να μείνω πάλι στο αεροδρόμιο.",
-     "en": "And what if there's another strike tomorrow? I don't want to get stuck at the airport again."
+     "el": "Κι αν γίνει πάλι απεργία αύριο; Δεν θέλω να μείνω κολλημένη στο αεροδρόμιο.",
+     "en": "And what if there's another strike tomorrow? I don't want to end up stuck at the airport."
     },
     {
      "who": "Υπάλληλος",
@@ -177,7 +177,8 @@
     "απευθείας": "απευθείας — directly",
     "υστέρων": "εκ των υστέρων — with hindsight",
     "ταλαιπωρία": "ταλαιπωρία — inconvenience, hassle",
-    "γκισέ": "γκισέ — counter, ticket window (indeclinable)"
+    "γκισέ": "γκισέ — counter, ticket window (indeclinable)",
+    "κολλημένη": "κολλημένος — stuck (κολλάω); μένω κολλημένος 'get stuck'"
    },
    "questions": [
     {
@@ -893,7 +894,7 @@
       "Τι ακριβώς έγινε",
       "Τι έγινε ακριβώς"
      ],
-     "why": "συνέβη is the learned past of συμβαίνει; ακριβώς is a learned -ως adverb with no -α twin."
+     "why": "συνέβη is the learned past of συμβαίνει; ακριβώς is a learned -ως adverb (ακριβά means 'expensively', not 'exactly')."
     },
     {
      "prompt": "Agent: *The flight was cancelled because of the work stoppage.*",
@@ -932,7 +933,8 @@
       "Εκ μέρους της εταιρείας, σας ζητώ ειλικρινώς συγγνώμη",
       "Εκ μέρους της εταιρείας, ζητώ συγγνώμη",
       "Εκ μέρους της εταιρείας, σας ζητώ συγνώμη",
-      "Εκ μέρους της εταιρείας, σας ζητάω συγνώμη"
+      "Εκ μέρους της εταιρείας, σας ζητάω συγνώμη",
+      "Εκ μέρους της εταιρείας, σας ζητώ ειλικρινά συγγνώμη"
      ],
      "why": "εκ μέρους + genitive 'on behalf of': εκ μέρους της εταιρείας."
     },
