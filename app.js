@@ -843,6 +843,13 @@
   let collocP;
   const collocs = () => (collocP = collocP || resolve("lexicon/collocations.json").then((d) => d.entries || {}).catch(() => ({})));
   const collocBlock = (c) => !c ? "" : `${(c.collocations || []).length ? `<ul class="lk-col">${c.collocations.slice(0, 3).map((x) => `<li><span lang="el">${esc(x.el)}</span> <span class="lk-col-en">${esc(x.en)}</span></li>`).join("")}</ul>` : ""}${(c.synonyms || []).length ? `<div class="lk-rel"><span class="lk-pos">≈</span> <span lang="el">${esc(c.synonyms.slice(0, 3).join(", "))}</span></div>` : ""}${(c.family || []).length ? `<div class="lk-rel"><span class="lk-pos">family</span> <span lang="el">${esc(c.family.slice(0, 4).join(", "))}</span></div>` : ""}`;
+  // When the tapped word is an inflected form, say so: «φωτός» is the genitive singular of «φως».
+  function formNote(word, h) {
+    const w = word.replace(/['’]$/, "").toLowerCase();
+    if (!h.lemma || w === h.lemma.toLowerCase()) return "";
+    const what = h.entry?.noun?.gen_sg === w ? "genitive singular of" : "a form of";
+    return `<div class="lk-form"><span lang="el">${esc(word)}</span> is ${what} <span lang="el">${esc(h.lemma)}</span></div>`;
+  }
   async function showLookup(el) {
     popFor = el;
     const word = el.textContent;
@@ -852,6 +859,7 @@
     const wik = (w) => `<a class="lk-ext" href="https://en.wiktionary.org/wiki/${encodeURIComponent(w.replace(/['’]$/, ""))}#Greek" target="_blank" rel="noopener">Wiktionary ↗</a>`;
     pop.innerHTML = `<div class="lk-word" lang="el">${esc(word)}</div>` + (hits ? hits.map((h, i) => `<div class="lk-hit">
         <div><span class="lk-lemma" lang="el">${esc(h.lemma)}</span>${POS_EL[h.pos] ? ` <span class="lk-pos">${POS_EL[h.pos]}</span>` : ""}${h.how === "guess" ? ` <span class="lk-pos">best guess</span>` : ""}</div>
+        ${formNote(word, h)}
         <div class="lk-gloss">${esc(h.gloss)}</div>
         ${h.entry?.example?.el ? `<div class="lk-ex" lang="el">${esc(h.entry.example.el)}</div>` : ""}
         ${i === 0 ? collocBlock(col[h.lemma]) : ""}
