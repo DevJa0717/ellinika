@@ -269,7 +269,7 @@
     [
      "**μπροστά στην** εκκλησία",
      "in front of the church",
-     "μπροστά σε"
+     "μπροστά σε (also μπροστά από)"
     ],
     [
      "**απέναντι από** την τράπεζα",
@@ -492,7 +492,7 @@
   },
   {
    "type": "callout",
-   "text": "**Traps for English speakers**\n\n• **ακυρώνω το εισιτήριο = validate**, not 'cancel'. An unvalidated ticket can mean a fine.\n\n• **κατεβαίνω = get off, ανεβαίνω = get on.** Κατεβαίνω **στο** Σύνταγμα (at), but κατεβαίνω **από** το λεωφορείο (off).\n\n• **σε fuses with the article:** στο, στη(ν), στον. **δίπλα / κοντά / μπροστά** take σε; **απέναντι / πίσω / μακριά** take από.\n\n• **τη(ν) before μπ:** **την μπλε γραμμή** (the ν stays before vowels and κ π τ ξ ψ μπ ντ γκ τσ τζ), but **τη γραμμή**.\n\n• **Πόση ώρα κάνει;** asks how long a trip takes. **Τι ώρα;** asks *at what time*.\n\n• **Δεξιά / αριστερά / ευθεία** are adverbs and never change."
+   "text": "**Traps for English speakers**\n\n• **ακυρώνω το εισιτήριο = validate**, not 'cancel'. An unvalidated ticket can mean a fine.\n\n• **κατεβαίνω = get off, ανεβαίνω = get on.** Κατεβαίνω **στο** Σύνταγμα (at), but κατεβαίνω **από** το λεωφορείο (off).\n\n• **σε fuses with the article:** στο, στη(ν), στον. **δίπλα / κοντά** take σε; **απέναντι / πίσω / μακριά** take από; **μπροστά** takes either: μπροστά **στην** / μπροστά **από την** εκκλησία.\n\n• **τη(ν) before μπ:** **την μπλε γραμμή** (the ν stays before vowels and κ π τ ξ ψ μπ ντ γκ τσ τζ), but **τη γραμμή**.\n\n• **Πόση ώρα κάνει;** asks how long a trip takes. **Τι ώρα;** asks *at what time*.\n\n• **Δεξιά / αριστερά / ευθεία** are adverbs and never change."
   },
   {
    "type": "dialogue",
@@ -672,7 +672,8 @@
      "prompt": "Ask: *Is it far?*",
      "answer": "Είναι μακριά;",
      "accept": [
-      "Είναι μακριά;"
+      "Είναι μακριά;",
+      "Είναι μακριά από εδώ;"
      ],
      "why": "μακριά = far; κοντά = near."
     },
@@ -804,7 +805,8 @@
      "prompt": "Ask: *Where do I get off?*",
      "answer": "Πού κατεβαίνω;",
      "accept": [
-      "Πού κατεβαίνω;"
+      "Πού κατεβαίνω;",
+      "Σε ποια στάση κατεβαίνω;"
      ],
      "why": "κατεβαίνω = get off."
     },
@@ -1032,10 +1034,10 @@
      "answer": "τη",
      "options": [
       "τη",
-      "την",
+      "του",
       "το"
      ],
-     "why": "Before γ the ν drops: τη γραμμή (την also seen in speech)."
+     "why": "Before γ the ν drops: τη γραμμή."
     },
     {
      "prompt": "«Πάτε ευθεία» is…",
