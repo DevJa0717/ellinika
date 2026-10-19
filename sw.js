@@ -4,7 +4,7 @@
    - Lessons, data and photos live in a cache that survives app updates; each file is re-checked in the background,
      big word lists at most twice a day so the phone does not re-download megabytes on every launch.
    Bump CACHE whenever app.css/app.js/any script changes (with the ?v= in index.html). */
-const CACHE = "ellinika-v26";
+const CACHE = "ellinika-v27";
 const DATA = "ellinika-data";
 const FONTS = "ellinika-fonts";
 const SHELL = ["./", "index.html", "app.css", "profiles.js", "lookup.js", "lookup-worker.js", "library.js", "app.js", "manifest.webmanifest",
