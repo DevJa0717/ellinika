@@ -941,7 +941,7 @@
   function videoHTML(v) {
     const start = Math.floor(v.start || 0), end = Math.ceil(v.end || 0);
     const player = v.embed.kind === "youtube"
-      ? `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.embed.src)}?enablejsapi=1&playsinline=1&rel=0&start=${start}${end ? `&end=${end}` : ""}" title="${esc(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`
+      ? `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.embed.src)}?enablejsapi=1&playsinline=1&rel=0&start=${start}${end ? `&end=${end}` : ""}" title="${esc(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe>`
       : `<video controls playsinline preload="metadata" crossorigin="anonymous" src="${esc(v.embed.src)}#t=${start}${end ? "," + end : ""}"></video>`;
     return `<div class="video" data-vid="${esc(v.id)}">
       <span class="eyebrow">ΒΙΝΤΕΟ · ${esc(v.level || "")}</span><h3 lang="el">${esc(v.title)}</h3>
@@ -1140,6 +1140,9 @@
     tabs.forEach((t, k) => (t.onclick = () => pg.go(k)));
     pg.go(Math.max(0, firstOpen), true);
     window.scrollTo(0, 0);
+    // While the map is on screen: fetch the video list every lesson checks, and a lesson's file as soon as a finger lands on it.
+    (window.requestIdleCallback || ((f) => setTimeout(f, 1500)))(() => allVideos(), { timeout: 4000 });
+    $("#units").addEventListener("pointerdown", (e) => { const id = e.target.closest(".lesson-row")?.getAttribute("href")?.slice(1); const m = id && course.units.flatMap((u) => u.lessons).find((l) => l.id === id && l.file); if (m) { getJSON(`lessons/${m.file}`).catch(() => {}); warmLookup(); } }, { passive: true });
   }
 
   async function renderLesson(id, tab) {
@@ -1179,11 +1182,12 @@
     pane.innerHTML = `<p class="loading">Loading…</p>`;
     const html = [];
     lookCtx = {};
-    const vids = (await Promise.all(["lessons/videos.json", "lessons/videos-c1.json"].map((f) => getJSON(f).then((d) => d.videos || []).catch(() => [])))).flat().filter((v) => (v.lessons || []).includes(lesson.id));
-    for (const b of [...lesson.blocks, ...vids.map((v) => ({ ...v, type: "video" }))]) {
-      try { html.push(`<section class="block">${await BLOCKS[b.type](b)}</section>`); }
-      catch (e) { html.push(`<section class="block"><p class="sub">This part could not load (${esc(e.message)}).</p></section>`); }
-    }
+    const vids = (await allVideos()).filter((v) => (v.lessons || []).includes(lesson.id));
+    // Blocks fetch their data at the same time; the pages keep the lesson's order.
+    html.push(...await Promise.all([...lesson.blocks, ...vids.map((v) => ({ ...v, type: "video" }))].map(async (b) => {
+      try { return `<section class="block">${await BLOCKS[b.type](b)}</section>`; }
+      catch (e) { return `<section class="block"><p class="sub">This part could not load (${esc(e.message)}).</p></section>`; }
+    })));
     const pages = html.map((h, i) => `<div class="page">${i === 0 ? photoFor(lesson.photo ?? hashStr(lesson.el)) : ""}${h}${i === html.length - 1 ? `<div class="next-cta"><button class="btn" id="go-practice">Start practice</button></div>` : ""}</div>`);
     pane.innerHTML = `<div class="learn pager-wrap" id="learn"><div class="pager">${pages.join("")}</div>${pagerNav()}</div>`;
     pager($("#learn"));
@@ -1195,11 +1199,10 @@
 
   /* ---------- practice session ---------- */
   async function buildItems(lesson) {
-    const items = [];
-    for (const spec of lesson.practice) {
-      try { items.push(...(await GENERATORS[spec.gen](spec)).map((it) => ({ ...it, why: it.why || spec.why }))); }
-      catch (e) { console.warn("generator failed", spec.gen, e); }
-    }
+    const items = (await Promise.all(lesson.practice.map(async (spec) => {
+      try { return (await GENERATORS[spec.gen](spec)).map((it) => ({ ...it, why: it.why || spec.why })); }
+      catch (e) { console.warn("generator failed", spec.gen, e); return []; }
+    }))).flat();
     const tail = [];
     for (const b of lesson.blocks) if ((b.type === "reading" || b.type === "dialogue") && b.questions) tail.push(...(await GENERATORS["reading-q"](b)));
     if (!lesson.practice.some((p) => p.gen === "vocab-recall")) {
@@ -1405,6 +1408,7 @@
   $("#brand").onclick = (e) => { e.preventDefault(); if (location.hash) location.hash = ""; else renderHome(); };
   window.addEventListener("hashchange", route);
 
+  dataRoot().catch(() => {}); // find the data folder while the course loads
   Promise.all([getJSON("lessons/course.json"), getJSON("img/manifest.json").then((m) => { photos = m.photos || []; }).catch(() => {})])
     .then(([c]) => { course = c; route(); })
     .catch((e) => { view.innerHTML = `<p>The course could not load: ${esc(e.message)}. Open the app from its folder over http (for example <code>python3 -m http.server</code> in the project folder) so it can read the lesson files.</p>`; });
