@@ -881,12 +881,12 @@
   },
   {
    "type": "callout",
-   "text": "**Traps for English speakers**\n\n**The body part is the subject**: *Με πονάνε τα δόντια*, with a plural verb, not *με πονάει τα δόντια*.\n\n**εδώ και + present** for something still going on: *Βήχω εδώ και μια εβδομάδα* ('I've been coughing for a week'). The perfect *έχω βήξει* would present it as a completed experience.\n\n**γιατρέ** is the vocative for every doctor; a female doctor is *η γιατρός*, *της γιατρού*, never *η γιατρίνα* in polite speech.\n\n**ασθενής** keeps its learned endings: *του ασθενούς*, *οι ασθενείς*, *των ασθενών*.\n\n**Εξετάσεις** are medical tests as well as school exams; *κάνω εξετάσεις* = have tests done.\n\n**Blood pressure is said in centimetres of mercury**: 130/80 is *δεκατρία με οκτώ*.\n\n**Συνταγή** is a prescription as well as a recipe; the pharmacy *εκτελεί* (fills) it.\n\n**Περαστικά** is for the ill person (or their family); the answer is just *Ευχαριστώ*."
+   "text": "**Traps for English speakers**\n\n**The body part is the subject**: *Με πονάνε τα δόντια*, with a plural verb, not *με πονάει τα δόντια*.\n\n**εδώ και + present** for something still going on: *Βήχω εδώ και μια εβδομάδα* ('I've been coughing for a week'). The perfect *έχω βήξει* would present it as a completed experience.\n\n**γιατρέ** is the vocative for every doctor; a female doctor is *η γιατρός*, *της γιατρού*, avoid the colloquial *η γιατρίνα* in polite speech.\n\n**ασθενής** keeps its learned endings: *του ασθενούς*, *οι ασθενείς*, *των ασθενών*.\n\n**Εξετάσεις** are medical tests as well as school exams; *κάνω εξετάσεις* = have tests done.\n\n**Blood pressure is said in centimetres of mercury**: 130/80 is *δεκατρία με οκτώ*.\n\n**Συνταγή** is a prescription as well as a recipe; the pharmacy *εκτελεί* (fills) it.\n\n**Περαστικά** is for the ill person (or their family); the answer is just *Ευχαριστώ*."
   },
   {
    "type": "culture",
    "title": "Προσωπικός γιατρός, 1566 και φακελάκι",
-   "text": "Since 2022 every adult is meant to register with a **προσωπικός γιατρός** (personal doctor), usually a GP or internist (**παθολόγος**), who issues the **παραπεμπτικό** (referral) for specialists and tests. Appointments at public hospitals' **εξωτερικά ιατρεία** (outpatient clinics) and health centres are booked through the national line **1566**, and waits can run to weeks, so many Greeks pay to see a specialist **ιδιωτικά** (privately). Prescriptions are now **άυλες**: they are linked to your **ΑΜΚΑ** and you get a code by text for the pharmacy. Adult dental care is almost entirely private. And the notorious **φακελάκι**, cash slipped to a hospital doctor, is illegal and far rarer than it used to be."
+   "text": "Since 2022 every adult is meant to register with a **προσωπικός γιατρός** (personal doctor), usually a GP or internist (**παθολόγος**), who issues the **παραπεμπτικό** (referral) for specialists and tests. Appointments at public hospitals' **εξωτερικά ιατρεία** (outpatient clinics) and health centres can be booked through the national line **1566** (or online), and waits can run to weeks, so many Greeks pay to see a specialist **ιδιωτικά** (privately). Most prescriptions are now **άυλες** (paperless): once you have signed up, they are linked to your **ΑΜΚΑ** and you get a code by text or email for the pharmacy. Adult dental care is almost entirely private. And the notorious **φακελάκι**, cash slipped to a hospital doctor, is illegal and far rarer than it used to be."
   },
   {
    "type": "dialogue",
@@ -1368,7 +1368,7 @@
      "why": "όριο → pl. όρια; μέσα σε + τα = μέσα στα."
     },
     {
-     "prompt": "Passive aorist: *The results came out yesterday.* → Τα αποτελέσματα ___ χθες. (βγαίνω)",
+     "prompt": "Irregular aorist: *The results came out yesterday.* → Τα αποτελέσματα ___ χθες. (βγαίνω)",
      "answer": "βγήκαν",
      "accept": [
       "βγήκαν"
@@ -1438,7 +1438,7 @@
      "why": "εδώ και + present: still going on."
     },
     {
-     "prompt": "Addressing a woman doctor:",
+     "prompt": "Addressing a woman doctor politely:",
      "answer": "Γιατρέ, είναι κάτι σοβαρό;",
      "options": [
       "Γιατρέ, είναι κάτι σοβαρό;",
