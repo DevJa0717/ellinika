@@ -5,6 +5,9 @@
   "use strict";
 
   const $ = (sel, el = document) => el.querySelector(sel);
+  // Sticky tabs and toolbars sit just under the header, whose height varies with the safe area and wrapping.
+  const bar = document.querySelector(".bar");
+  if (bar && window.ResizeObserver) new ResizeObserver(() => document.documentElement.style.setProperty("--bar-h", bar.offsetHeight + "px")).observe(bar);
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const pick = (a) => a[Math.floor(Math.random() * a.length)];

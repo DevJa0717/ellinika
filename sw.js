@@ -1,6 +1,6 @@
 /* Ελληνικά offline worker: used when the app is served from its own site and added to a home screen.
    The page shell is network-first; lessons, data and photos are served from cache and refreshed in the background. */
-const CACHE = "ellinika-v1";
+const CACHE = "ellinika-v2";
 const SHELL = ["./", "index.html", "app.css", "profiles.js", "lookup.js", "library.js", "app.js", "manifest.webmanifest",
   "lessons/course.json", "img/manifest.json", "icons/icon-192.png", "icons/apple-touch-icon.png"];
 
