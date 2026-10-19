@@ -908,8 +908,11 @@
         let ok = 0, all = 0;
         E.view.querySelectorAll(".ls-dict").forEach((d) => {
           const target = it.script[+d.dataset.i].el.split(/\s+/), typed = d.querySelector("textarea").value.split(/\s+/).map((w) => bare(w.replace(/[.,;!?·«»"…]/g, "")));
-          const pool = typed.slice();
-          const marks = target.map((w) => { const b = bare(w.replace(/[.,;!?·«»"…]/g, "")); const j = pool.indexOf(b); all++; if (j >= 0) { pool.splice(j, 1); ok++; return `<span class="ok">${E.esc(w)}</span>`; } return `<span class="miss">${E.esc(w)}</span>`; });
+          // Longest common subsequence: correct words in the wrong order no longer get full credit.
+          const ordered = window.EllinikaDictation.compare(target, typed);
+          all += ordered.total; ok += ordered.correct;
+          const matched = new Set(ordered.matched);
+          const marks = target.map((w, i) => `<span class="${matched.has(i) ? "ok" : "miss"}">${E.esc(w)}</span>`);
           const m = d.querySelector(".ls-mark"); m.innerHTML = marks.join(" "); m.hidden = false;
         });
         const sc = all ? ok / all : 0; E.$("#ls-dscore").textContent = `${ok} of ${all} words`;
