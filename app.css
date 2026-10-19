@@ -93,7 +93,7 @@ td .ipa, .ipa { font-family: var(--f-ui); color: var(--muted); font-size: 0.88em
 .progress { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
 .progress > i { display: block; height: 100%; background: var(--terra); transition: width .25s; }
 .pmeta { display: flex; justify-content: space-between; font: 500 0.8rem/1 var(--f-ui); color: var(--muted); font-variant-numeric: tabular-nums; }
-.card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 20px 18px; display: grid; gap: 16px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 20px 18px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
 .q-kind { font: 600 0.72rem/1.2 var(--f-ui); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
 .q-prompt { font-size: 1.12rem; line-height: 1.45; }
 .q-big { font: 400 3rem/1.1 var(--f-display); color: var(--aegean); text-align: center; padding: 6px 0; overflow-wrap: anywhere; }
@@ -424,3 +424,10 @@ table.drill td { padding: 5px 6px; }
 .dl-el { font-size: 1.08rem; line-height: 1.5; }
 .dl-line.hide .dl-el, .dl-line.hide .dl-en { filter: blur(6px); cursor: pointer; user-select: none; }
 .dl-line.hide .dl-el::after { content: ""; }
+
+/* Touch: answer taps at once (no double-tap-zoom wait, no grey flash) and show a short press state instead. */
+a, button, summary, .w, .opt, .lesson-row { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+.btn:active:not(:disabled), .opt:active:not(:disabled), .unit-tabs button:active, .tab:active, .pager-nav .btn:active:not(:disabled) { transform: scale(0.97); }
+.lesson-row:active { background: rgba(255, 255, 255, 0.08); }
+.w:active { background: rgba(143, 196, 255, 0.24); }
+@media (hover: none) { .opt:hover:not(:disabled) { border-color: var(--line); } a.shelf:hover { transform: none; } }

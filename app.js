@@ -1282,7 +1282,7 @@
           ov.remove(); fb.querySelector(".feedback").className = "feedback right";
         };
         const nb = $("#next"); nb.focus({ preventScroll: true }); nb.onclick = () => { state.i++; next(); };
-        fb.scrollIntoView({ block: "nearest", behavior: "smooth" });
+        acts.scrollIntoView({ block: "nearest", behavior: "smooth" }); // feedback and the Next button, without a manual scroll
       };
 
       if (item.options) {
@@ -1419,6 +1419,7 @@
     if (addon) { hideLookup(); return addon(tab); }
     renderLesson(id, tab);
   }
+  document.addEventListener("touchstart", () => {}, { passive: true }); // lets iOS Safari show :active press states
   $("#brand").onclick = (e) => { e.preventDefault(); if (location.hash) location.hash = ""; else renderHome(); };
   window.addEventListener("hashchange", route);
 
