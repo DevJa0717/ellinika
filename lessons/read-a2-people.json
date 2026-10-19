@@ -493,7 +493,7 @@
   {
    "type": "text",
    "title": "Patterns to notice in these texts",
-   "text": "**1. Possession and belonging with the genitive.** Greek says *whose* with the genitive, even after είναι: **Το περίπτερο είναι του κυρ-Στέλιου** 'belongs to Mr Stelios'; **η μέρα του Γιάννη**, **η γυναίκα του Γιάννη** (masculine -ης → -η). Genitives also label people by place: ο κυρ-Στέλιος **του περιπτέρου**, ο φούρναρης **της γειτονιάς**, οι μαθητές **του δημοτικού σχολείου**, παιδιά **μεταναστών** (ο μετανάστης → των μεταναστών).\n\n**2. Plurals of people.** Masculine -ης nouns make **-ες**: οι πελάτ**ες**, οι εργάτ**ες**, οι τουρίστ**ες**, οι μαθητ**ές**; some have -δες: ο παππούς → οι **παππούδες**; ο γονιός → οι **γονείς**; ο γείτονας → οι **γείτονες**. In the accusative -ες stays -ες, but the article changes: **τους** πελάτες, **τους** μαθητές της.\n\n**3. Topic first, then a pronoun.** Spoken and journalistic Greek puts the topic first and repeats it with a weak pronoun: **Το περίπτερο θα το πάρει η κόρη του**, **τον καφέ θα τον κερνάς εσύ**, **Να της την κρατάς** (της = for her, την = the newspaper).\n\n**4. Two futures.** **θα + aorist stem** for one event: θα πάρει σύνταξη, θα πάει στην Αίγυπτο, θα κερδίσει. **θα + present stem** for a repeated or ongoing future: **θα περνάω** κάθε πρωί, **θα ξυπνάς** νωρίς, θα κερνάς εσύ."
+   "text": "**1. Possession and belonging with the genitive.** Greek says *whose* with the genitive, even after είναι: **Το περίπτερο είναι του κυρ-Στέλιου** 'belongs to Mr Stelios'; **η μέρα του Γιάννη**, **η γυναίκα του Γιάννη** (masculine -ης → -η). Genitives also label people by place: ο κυρ-Στέλιος **του περιπτέρου**, ο φούρναρης **της γειτονιάς**, οι μαθητές **του δημοτικού σχολείου**, παιδιά **μεταναστών** (ο μετανάστης → των μεταναστών).\n\n**2. Plurals of people.** Masculine -ης nouns usually make **-ες**: οι πελάτ**ες**, οι εργάτ**ες**, οι μαθητ**ές** (so does -ας ο τουρίστας → οι τουρίστ**ες**); some have -δες: ο φούρναρης → οι **φουρνάρηδες**, ο παππούς → οι **παππούδες**; others are irregular: ο γονιός → οι **γονείς**; ο γείτονας → οι **γείτονες**. In the accusative -ες stays -ες, but the article changes: **τους** πελάτες, **τους** μαθητές της.\n\n**3. Topic first, then a pronoun.** Spoken and journalistic Greek puts the topic first and repeats it with a weak pronoun: **Το περίπτερο θα το πάρει η κόρη του**, **τον καφέ θα τον κερνάς εσύ**, **Να της την κρατάς** (της = for her, την = the newspaper).\n\n**4. Two futures.** **θα + aorist stem** for one event: θα πάρει σύνταξη, θα πάει στην Αίγυπτο, θα κερδίσει. **θα + present stem** for a repeated or ongoing future: **θα περνάω** κάθε πρωί, **θα ξυπνάς** νωρίς, θα κερνάς εσύ."
   },
   {
    "type": "culture",
@@ -552,7 +552,7 @@
      "accept": [
       "τους ανθρώπους"
      ],
-     "why": "Accusative plural of άνθρωπος: τους ανθρώπους (stress moves forward)."
+     "why": "Accusative plural of άνθρωπος: τους ανθρώπους (stress moves one syllable to the right)."
     },
     {
      "prompt": "Οι τουρίστες τον ρωτάνε για δρόμους και ___. (τα λεωφορεία)",
@@ -641,7 +641,7 @@
      "accept": [
       "μεταναστών"
      ],
-     "why": "Genitive plural of μετανάστης: μεταναστών (masculine -ης → -ών)."
+     "why": "Genitive plural of μετανάστης: μεταναστών (most masculine -ης nouns → -ών)."
     },
     {
      "prompt": "…στο πολιτιστικό κέντρο ___. (ο δήμος)",
@@ -884,7 +884,6 @@
      "accept": [
       "ο φούρνος",
       "φούρνος",
-      "ο αρτοποιός",
       "το αρτοποιείο"
      ],
      "why": "ο φούρνος = bakery and oven."
