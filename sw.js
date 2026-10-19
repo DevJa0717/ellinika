@@ -81,6 +81,7 @@ self.addEventListener("fetch", (e) => {
       // First open of a lesson after an app update: try for the new copy, falling back to the saved one on a slow line.
       if (hit.headers.get("x-ell-v") !== CACHE && !(+hit.headers.get("x-ell-size") >= BIG) && stale(hit, url)) {
         const fresh = net().then((r) => (r.ok ? r : hit)).catch(() => hit);
+        e.waitUntil(fresh);
         return Promise.race([fresh, new Promise((res) => setTimeout(() => res(hit), 2500))]);
       }
       if (stale(hit, url)) e.waitUntil(net().catch(() => {}));
