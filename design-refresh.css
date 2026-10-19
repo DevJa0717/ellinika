@@ -118,3 +118,10 @@ a.shelf:hover, a.shelf:focus-visible { transform: none; border-color: var(--link
   .ell-nav *, .card, .shelf, .lesson-row { transition: none !important; }
 }
 @media print { .ell-nav { display: none !important; } }
+
+/* Road to B2 card: solid surface so bar tracks and counts stay legible. */
+.tracker { background: var(--card); box-shadow: 0 3px 14px rgba(14, 40, 62, .06); }
+.tracker .progress { background: #d3dde4; box-shadow: inset 0 0 0 1px rgba(23, 50, 74, .08); }
+:root[data-ell-theme="dark"] .tracker .progress { background: #0d2336; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .08); }
+.tracker .progress > i { background: var(--terra); }
+.tracker .level .sub { color: var(--muted); }
