@@ -72,7 +72,7 @@
   const ADD_ACC = Object.fromEntries(Object.entries(ACC).map(([a, b]) => [b, a]));
   const stripAccents = (s) => s.replace(/[άέήίόύώΐΰΆΈΉΊΌΎΏ]/g, (c) => ACC[c]);
   function norm(s) {
-    return String(s).normalize("NFC").trim().toLowerCase().replace(/[’‘`]/g, "'").replace(/[,«»"]/g, "").replace(/\s+/g, " ")
+    return String(s).normalize("NFC").trim().toLowerCase().replace(/[’‘`]/g, "'").replace(/(^|[^\p{L}])ό,\s?τι(?!\p{L})/gu, "$1ό|τι").replace(/[,«»"]/g, "").replace(/\s+/g, " ")
       .replace(/σ(?=$|[\s.,;!?·])/g, "ς").replace(/[.;!?·]+$/, "").replace(/;/g, ";");
   }
   // "χάνουν(ε)" -> ["χάνουν","χάνουνε"]; "είστε/είσαστε" -> both
