@@ -993,7 +993,7 @@
       ? `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.embed.src)}?enablejsapi=1&playsinline=1&rel=0&start=${start}${end ? `&end=${end}` : ""}" title="${esc(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe>`
       : `<video controls playsinline preload="metadata" crossorigin="anonymous" src="${esc(v.embed.src)}#t=${start}${end ? "," + end : ""}"></video>`;
     return `<div class="video" data-vid="${esc(v.id)}">
-      <span class="eyebrow">ΒΙΝΤΕΟ · ${esc(v.level || "")}</span><h3 lang="el">${esc(v.title)}</h3>
+      <span class="eyebrow"><span class="eb-el" lang="el">Βίντεο</span> · ${esc(v.level || "")}</span><h3 lang="el">${esc(v.title)}</h3>
       <div class="vframe">${player}</div>
       <div class="subs"><div class="sub-el" lang="el">&nbsp;</div><div class="sub-en no-look" hidden></div></div>
       <div class="vctl"><button class="btn ghost small" data-act="en">English line</button><button class="btn ghost small" data-act="list">Transcript</button></div>
