@@ -125,3 +125,10 @@ a.shelf:hover, a.shelf:focus-visible { transform: none; border-color: var(--link
 :root[data-ell-theme="dark"] .tracker .progress { background: #0d2336; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .08); }
 .tracker .progress > i { background: var(--terra); }
 .tracker .level .sub { color: var(--muted); }
+
+/* Light theme: replace surfaces that app.css paints with fixed deep-blue tones. */
+:root[data-ell-theme="light"] .unit { background: var(--card); box-shadow: 0 3px 14px rgba(14, 40, 62, .06); }
+:root[data-ell-theme="light"] .lesson-row:hover,
+:root[data-ell-theme="light"] .lesson-row:active { background: var(--aegean-soft); }
+:root[data-ell-theme="light"] .lk-pop { background: var(--card); border-color: var(--line); box-shadow: 0 12px 32px rgba(14, 40, 62, .22); }
+:root[data-ell-theme="light"] .subs { --ink: #f4f6f7; --muted: #c4d0d8; --line: #456075; --terra: #f0bd83; color: var(--ink); }
