@@ -93,7 +93,7 @@
     {
      "who": "Άρης",
      "voice": "m",
-     "el": "Μιλάω άπταιστα. Τα χρησιμοποιώ κάθε μέρα με πελάτες από το εξωτερικό.",
+     "el": "Τα μιλάω άπταιστα. Τα χρησιμοποιώ κάθε μέρα με πελάτες από το εξωτερικό.",
      "en": "I speak it fluently. I use it every day with clients from abroad."
     },
     {
@@ -629,12 +629,12 @@
   },
   {
    "type": "callout",
-   "text": "**Traps for English speakers**\n\n**'I have been working' is present**: *Δουλεύω εδώ τέσσερα χρόνια* (or *εδώ και τέσσερα χρόνια*). *Έχω δουλέψει* means 'I have (at some point) worked'.\n\n**Never θέλω for money.** *Θέλω χίλια οκτακόσια* sounds like a demand; say *θα ήθελα* or *οι οικονομικές μου απαιτήσεις είναι…*.\n\n**Μικτά or καθαρά?** Greek salaries are usually quoted gross per month; always check which.\n\n**Μάλιστα** in an interview just means 'yes'; it is not 'indeed' or 'even'.\n\n**Vocative of surnames**: *κύριε Παππά*, *κυρία Σταύρου* (feminine surnames do not change).\n\n**Η αίτηση** is the application; *η εφαρμογή* is an app. **Ο υποψήφιος** is the candidate, *ο υπάλληλος* the employee."
+   "text": "**Traps for English speakers**\n\n**'I have been working' is present**: *Δουλεύω εδώ τέσσερα χρόνια* (or *εδώ και τέσσερα χρόνια*). *Έχω δουλέψει* means 'I have (at some point) worked'.\n\n**Never θέλω for money.** *Θέλω χίλια οκτακόσια* sounds like a demand; say *θα ήθελα* or *οι οικονομικές μου απαιτήσεις είναι…*.\n\n**Μικτά or καθαρά?** Greek salaries are usually quoted gross per month; always check which.\n\n**Μάλιστα** as a reply in an interview just means 'yes'; inside a sentence it means 'in fact, even' (*Ήρθε, και μάλιστα νωρίς*).\n\n**Vocative of surnames**: *κύριε Παππά*, *κυρία Σταύρου* (feminine surnames do not change).\n\n**Η αίτηση** is the application; *η εφαρμογή* is an app. **Ο υποψήφιος** is the candidate, *ο υπάλληλος* the employee."
   },
   {
    "type": "culture",
    "title": "Δεκατέσσερις μισθοί",
-   "text": "Private-sector employees in Greece are paid **δεκατέσσερις μισθοί** a year: twelve monthly salaries plus the **δώρο Χριστουγέννων** (a full month's pay in December), the **δώρο Πάσχα** (half a month at Easter) and the **επίδομα αδείας** (half a month with your summer leave). So when an offer says *χίλια επτακόσια μικτά*, multiply by fourteen, not twelve. Salaries are quoted **μικτά** (gross); the **καθαρά** (net) figure is noticeably lower after insurance contributions and tax. In the public sector, jobs are filled through the **ΑΣΕΠ** selection system, and everyone has heard of the **μέσον**, the 'connection' that gets you an interview."
+   "text": "Private-sector employees in Greece are paid **δεκατέσσερις μισθοί** a year: twelve monthly salaries plus the **δώρο Χριστουγέννων** (a full month's pay in December), the **δώρο Πάσχα** (half a month at Easter) and the **επίδομα αδείας** (half a month, paid with your annual leave, usually in summer). So when an offer says *χίλια επτακόσια μικτά*, multiply by fourteen, not twelve. Salaries are quoted **μικτά** (gross); the **καθαρά** (net) figure is noticeably lower after insurance contributions and tax. By law, notice periods (**προειδοποίηση**) mainly bind the employer when dismissing someone; an employee who resigns usually gives notice because the contract says so or out of courtesy, as Aris does. In the public sector, jobs are filled through the **ΑΣΕΠ** selection system, and everyone has heard of the **μέσον**, the 'connection' that gets you an interview."
   },
   {
    "type": "dialogue",
@@ -646,6 +646,12 @@
      "voice": "m",
      "el": "Κυρία Σταύρου, καλώς ήρθατε. Η κυρία Δημητρίου μού είπε ότι η πρώτη συνέντευξη πήγε πολύ καλά.",
      "en": "Ms Stavrou, welcome. Ms Dimitriou told me the first interview went very well."
+    },
+    {
+     "who": "Μαρίνα",
+     "voice": "f",
+     "el": "Σας ευχαριστώ, χαίρομαι πολύ που το ακούω.",
+     "en": "Thank you, I'm very glad to hear that."
     },
     {
      "who": "Κύριος Λαμπρόπουλος",
@@ -851,7 +857,8 @@
       "Ήμουν υπεύθυνη για μια ομάδα έξι ατόμων.",
       "Ήμουν υπεύθυνη για ομάδα έξι ατόμων",
       "Ήμουν υπεύθυνη για μια ομάδα από έξι άτομα",
-      "Ήμουν υπεύθυνη για μια ομάδα με έξι άτομα"
+      "Ήμουν υπεύθυνη για μια ομάδα με έξι άτομα",
+      "Ήμουν υπεύθυνη μιας ομάδας έξι ατόμων"
      ],
      "why": "The adjective agrees with the speaker: υπεύθυνη."
     },
@@ -1265,7 +1272,7 @@
      "why": "After an amount, μικτά / καθαρά is used adverbially in the neuter plural."
     },
     {
-     "prompt": "An interviewer tells you about a family illness gap politely. The natural sympathetic reply is:",
+     "prompt": "In an interview, a candidate mentions that her father was seriously ill. The natural sympathetic reply is:",
      "answer": "Λυπάμαι. Είναι καλύτερα τώρα;",
      "options": [
       "Λυπάμαι. Είναι καλύτερα τώρα;",

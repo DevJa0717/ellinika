@@ -187,12 +187,12 @@
      ]
     },
     {
-     "prompt": "Πώς θα πληρωθεί ο εξωτερικός συνεργάτης;",
-     "answer": "Το κόστος θα χρεωθεί στον πελάτη ως επιπλέον εργασία",
+     "prompt": "Πώς προτείνει ο Πέτρος να πληρωθεί ο εξωτερικός συνεργάτης;",
+     "answer": "Να χρεωθεί το κόστος στον πελάτη ως επιπλέον εργασία",
      "options": [
-      "Το κόστος θα χρεωθεί στον πελάτη ως επιπλέον εργασία",
-      "Από τον προϋπολογισμό του Ιανουαρίου",
-      "Θα δουλέψει δωρεάν"
+      "Να χρεωθεί το κόστος στον πελάτη ως επιπλέον εργασία",
+      "Να περιμένουν τον προϋπολογισμό του Ιανουαρίου",
+      "Να δουλέψει δωρεάν"
      ]
     }
    ]
@@ -329,7 +329,7 @@
     ],
     [
      "more polite",
-     "**Θα μπορούσες / Θα μπορούσατε να μου στείλετε**…;",
+     "**Θα μπορούσες να μου στείλεις / Θα μπορούσατε να μου στείλετε**…;",
      "conditional θα + imperfect"
     ],
     [
@@ -605,7 +605,7 @@
   },
   {
    "type": "callout",
-   "text": "**Traps.** *Μπορώ να έχω μια αύξηση;* ✗ (calque of 'Can I have') → **Θα ήθελα να συζητήσουμε μια αύξηση** ✓. *Η προθεσμία είναι Παρασκευή* sounds clipped → **είναι την Παρασκευή** or **λήγει την Παρασκευή** ✓.\n\n**μέχρι + accusative:** *μέχρι η Παρασκευή* ✗ → **μέχρι την Παρασκευή** ✓; dates take **τις**: **μέχρι τις είκοσι Νοεμβρίου** ✓ (the noun ημέρες is understood).\n\n**Hypothetical proposals take the imperfect:** **Κι αν το χρεώναμε…;**, **Αν παραγγέλναμε…, θα μπορούσατε…;** Using the present (*Κι αν το χρεώνουμε;*) sounds like a plan already decided.\n\n**Asymmetric address:** if your Greek boss says **εσύ** to you, keep **εσείς** until invited (**Μίλα μου στον ενικό** 'call me εσύ'). Polite plural + singular adjective: **Είστε σίγουρη, κυρία Μαργαρίτη;**"
+   "text": "**Traps.** *Μπορώ να έχω μια αύξηση;* ✗ (calque of 'Can I have') → **Θα ήθελα να συζητήσουμε μια αύξηση** ✓. *Η προθεσμία είναι Παρασκευή* sounds clipped → **είναι την Παρασκευή** or **λήγει την Παρασκευή** ✓.\n\n**μέχρι + accusative:** *μέχρι η Παρασκευή* ✗ → **μέχρι την Παρασκευή** ✓; dates take **τις**: **μέχρι τις είκοσι Νοεμβρίου** ✓ (the noun ημέρες is understood).\n\n**Hypothetical proposals take the imperfect:** **Κι αν το χρεώναμε…;**, **Αν παραγγέλναμε…, θα μπορούσατε…;** Using the present indicative (*Κι αν το χρεώνουμε;*) sounds like a plan already decided; **Κι αν το χρεώσουμε…;** (perfective subjunctive) is also common and a little more direct.\n\n**Asymmetric address:** if your Greek boss says **εσύ** to you, keep **εσείς** until invited (**Μίλα μου στον ενικό** 'call me εσύ'). Polite plural + singular adjective: **Είστε σίγουρη, κυρία Μαργαρίτη;**"
   },
   {
    "type": "dialogue",
@@ -858,7 +858,8 @@
      "answer": "Προτείνω να χωρίσουμε το έργο σε δύο φάσεις.",
      "accept": [
       "Προτείνω να χωρίσουμε το έργο σε δύο φάσεις.",
-      "Προτείνω να χωρίσουμε το έργο σε δυο φάσεις"
+      "Προτείνω να χωρίσουμε το έργο σε δυο φάσεις",
+      "Εγώ προτείνω να χωρίσουμε το έργο σε δύο φάσεις"
      ],
      "why": "προτείνω να + perfective subjunctive (χωρίσουμε)."
     },
@@ -909,7 +910,8 @@
      "prompt": "Tentative idea: *What if we charged the cost to the client?* → Κι αν το κόστος το ___ στον πελάτη;",
      "answer": "χρεώναμε",
      "accept": [
-      "χρεώναμε"
+      "χρεώναμε",
+      "χρεώσουμε"
      ],
      "why": "Κι αν + imperfect makes a hypothetical suggestion."
     },
@@ -925,7 +927,8 @@
      "prompt": "Bargain: *If we ordered ten thousand…* → Αν ___ δέκα χιλιάδες…",
      "answer": "παραγγέλναμε",
      "accept": [
-      "παραγγέλναμε"
+      "παραγγέλναμε",
+      "παραγγέλλαμε"
      ],
      "why": "αν + imperfect for a hypothetical offer."
     },
@@ -967,7 +970,10 @@
       "υπό έναν όρο: να δουλεύω από το σπίτι",
       "υπό έναν όρο, να δουλεύω από το σπίτι",
       "με έναν όρο: να δουλεύω από το σπίτι",
-      "υπό τον όρο να δουλεύω από το σπίτι"
+      "υπό τον όρο να δουλεύω από το σπίτι",
+      "υπό έναν όρο να δουλεύω από το σπίτι",
+      "με τον όρο να δουλεύω από το σπίτι",
+      "υπό τον όρο ότι θα δουλεύω από το σπίτι"
      ],
      "why": "υπό + accusative (formal 'under'); να + imperfective for an ongoing arrangement."
     },
@@ -976,7 +982,8 @@
      "answer": "Θα σας ήμουν ευγνώμων.",
      "accept": [
       "Θα σας ήμουν ευγνώμων.",
-      "Θα σας ήμουν πολύ ευγνώμων"
+      "Θα σας ήμουν πολύ ευγνώμων",
+      "Θα σας ήμουν ιδιαίτερα ευγνώμων"
      ],
      "why": "ευγνώμων is a learned adjective; same form for men and women."
     },
@@ -1101,10 +1108,10 @@
      "answer": "μεταφέραμε",
      "options": [
       "μεταφέραμε",
-      "μεταφέρουμε",
-      "θα μεταφέρουμε"
+      "θα μεταφέρουμε",
+      "μεταφέροντας"
      ],
-     "why": "A tentative 'what if' takes a past form: Κι αν το μεταφέραμε…; the present would sound like a decision already made."
+     "why": "A tentative 'what if' takes a past form: Κι αν το μεταφέραμε…; θα cannot follow αν here, and the gerund cannot make a clause."
     },
     {
      "prompt": "Η προθεσμία λήγει ___ δεκαπέντε Νοεμβρίου.",

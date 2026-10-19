@@ -626,7 +626,7 @@
   {
    "type": "culture",
    "title": "Από το «περάστε αύριο» στο gov.gr",
-   "text": "Greek bureaucracy is famous for **ταλαιπωρία** (hassle): queues, stamps and the proverbial **«περάστε αύριο»**. Two reforms changed daily life. The **ΚΕΠ** (Κέντρα Εξυπηρέτησης Πολιτών), set up in 2002, gathered hundreds of procedures into one local office. Then from 2020 the **gov.gr** portal moved many of them online: a **υπεύθυνη δήλωση** or an **εξουσιοδότηση** (authorisation) can now be made from a phone with your **Taxisnet** codes, and the **γνήσιο της υπογραφής** is no longer always needed. The counter has not disappeared, especially for newcomers, so the old advice still holds: arrive early, bring copies of everything, and ask for the list in writing."
+   "text": "Greek bureaucracy is famous for **ταλαιπωρία** (hassle): queues, stamps and the proverbial **«περάστε αύριο»**. Two reforms changed daily life. The **ΚΕΠ** (Κέντρα Εξυπηρέτησης Πολιτών), set up in 2002, gathered hundreds of procedures into one local office. Then from 2020 the **gov.gr** portal moved many of them online: a **υπεύθυνη δήλωση** or an **εξουσιοδότηση** (authorisation) can now be made from a phone with your **Taxisnet** codes, and the **γνήσιο της υπογραφής** is no longer always needed. The tax authority (**ΑΑΔΕ**) now also handles many requests online through **myAADE** or by appointment, so check before you queue. The counter has not disappeared, especially for newcomers, so the old advice still holds: arrive early, bring copies of everything, and ask for the list in writing."
   },
   {
    "type": "dialogue",
@@ -814,7 +814,6 @@
      "answer": "Θα ήθελα να βγάλω ΑΦΜ.",
      "accept": [
       "Θα ήθελα να βγάλω ΑΦΜ.",
-      "Θα ήθελα να εκδώσω ΑΦΜ",
       "Θέλω να βγάλω ΑΦΜ",
       "Θα ήθελα να βγάλω ΑΦΜ, παρακαλώ"
      ],
@@ -839,7 +838,6 @@
       "Δεν γίνεται να το κανονίσουμε σήμερα;",
       "δε γίνεται να το κανονίσουμε σήμερα;",
       "Δεν μπορούμε να το κανονίσουμε σήμερα",
-      "δε μπορούμε να το κανονίσουμε σήμερα",
       "Δεν γίνεται να το κανονίσουμε σήμερα",
       "δε γίνεται να το κανονίσουμε σήμερα"
      ],
@@ -881,13 +879,9 @@
      "prompt": "*Without proof of address the tax number cannot be issued.*",
      "answer": "Χωρίς αποδεικτικό διεύθυνσης ο ΑΦΜ δεν μπορεί να εκδοθεί.",
      "accept": [
-      "Χωρίς αποδεικτικό διεύθυνσης ο ΑΦΜ δε μπορεί να εκδοθεί.",
       "Χωρίς αποδεικτικό διεύθυνσης ο ΑΦΜ δεν μπορεί να εκδοθεί.",
-      "Χωρίς αποδεικτικό διεύθυνσης το ΑΦΜ δε μπορεί να εκδοθεί",
       "Χωρίς αποδεικτικό διεύθυνσης το ΑΦΜ δεν μπορεί να εκδοθεί",
-      "Ο ΑΦΜ δε μπορεί να εκδοθεί χωρίς αποδεικτικό διεύθυνσης",
       "Ο ΑΦΜ δεν μπορεί να εκδοθεί χωρίς αποδεικτικό διεύθυνσης",
-      "Το ΑΦΜ δε μπορεί να εκδοθεί χωρίς αποδεικτικό διεύθυνσης",
       "Το ΑΦΜ δεν μπορεί να εκδοθεί χωρίς αποδεικτικό διεύθυνσης"
      ],
      "why": "δεν μπορεί να + perfective passive: εκδοθεί (from εκδίδω)."
@@ -1032,7 +1026,9 @@
      "prompt": "Make it formal: *Πέρνα αύριο.*",
      "answer": "Περάστε αύριο.",
      "accept": [
-      "Περάστε αύριο."
+      "Περάστε αύριο.",
+      "Περάστε αύριο, παρακαλώ",
+      "Παρακαλώ, περάστε αύριο"
      ],
      "why": "Perfective plural imperative of περνώ: περάστε."
     },
@@ -1062,7 +1058,7 @@
      "accept": [
       "διαβατηρίου"
      ],
-     "why": "Neuters in -ιο shift stress in the genitive: διαβατηρίου."
+     "why": "Neuters in -ιο stressed on the third-from-last syllable move the stress down in the genitive: διαβατήριο → διαβατηρίου."
     },
     {
      "prompt": "Genitive: *proof of address* → αποδεικτικό ___",
