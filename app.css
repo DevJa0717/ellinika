@@ -422,3 +422,5 @@ table.drill td { padding: 5px 6px; }
 .dl-say { width: 2.2rem; height: 2.2rem; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; font-size: .8rem; }
 .dl-who { font: 600 .75rem/1 var(--f-ui); color: var(--terra); letter-spacing: .04em; }
 .dl-el { font-size: 1.08rem; line-height: 1.5; }
+.dl-line.hide .dl-el, .dl-line.hide .dl-en { filter: blur(6px); cursor: pointer; user-select: none; }
+.dl-line.hide .dl-el::after { content: ""; }
