@@ -6,7 +6,9 @@
   "use strict";
 
   const REG_KEY = "ellinika.profiles.v1";
-  const SHARED = new Set([REG_KEY]);
+  const SYNC_KEY = "ellinika.sync.v1", STASH_KEY = "ellinika.sync.stash";
+  const SHARED = new Set([REG_KEY, SYNC_KEY, STASH_KEY]); // device-level keys, never per profile
+  const SY = { applying: false, timer: 0, pushing: null }; // save-destination state for this page
   const LEGACY = "ellinika.progress.v1";
   const S = window.Storage && Storage.prototype;
   const raw = S ? { get: S.getItem, set: S.setItem, del: S.removeItem } : null;
@@ -17,7 +19,7 @@
 
   /* ---------- registry ---------- */
   function readReg() { try { return JSON.parse(raw.get.call(ls, REG_KEY)) || null; } catch (e) { return null; } }
-  function writeReg(r) { try { raw.set.call(ls, REG_KEY, JSON.stringify(r)); } catch (e) { /* storage full or blocked */ } }
+  function writeReg(r) { try { raw.set.call(ls, REG_KEY, JSON.stringify(r)); changed(); } catch (e) { /* storage full or blocked */ } }
   const newId = () => "p" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
   const scoped = (key, id) => key + "~" + id;
 
@@ -45,7 +47,9 @@
     S.setItem = function (k, v) {
       if (this !== ls) return raw.set.call(this, k, v);
       if (frozen && map(k) !== k) return;
-      return raw.set.call(this, map(k), v);
+      const r = raw.set.call(this, map(k), v);
+      if (map(k) !== k) changed();
+      return r;
     };
     S.removeItem = function (k) { return this === ls ? raw.del.call(this, map(k)) : raw.del.call(this, k); };
   }
@@ -219,9 +223,10 @@
           <div class="pf-row-actions">${on ? "" : `<button class="btn small" data-act="use" data-id="${esc(p.id)}">Switch</button>`}<button class="btn small ghost" data-act="edit" data-id="${esc(p.id)}">Edit</button></div></li>`; }).join("")}</ul>
       <div class="actions" style="justify-content:flex-start"><button class="btn ghost" id="pf-add">+ Add a profile</button></div>
       <div id="pf-editor"></div>
+      <div id="pf-sync"></div>
 
-      <section class="card${stale.length ? " pf-warn" : ""}"><h3>Back up and move progress</h3>
-        <p class="pf-note">Progress lives only on this device. A backup file keeps it safe and carries it to another device or browser: save it here, then open the app there and restore it. ${stale.length ? `<strong>${esc(stale.map(label).join(", "))}</strong> ${stale.length === 1 ? "has" : "have"} no backup from the last two weeks.` : ""}</p>
+      <section class="card${stale.length ? " pf-warn" : ""}"><h3>Backup by hand</h3>
+        <p class="pf-note">Without a save destination, progress lives only on this device. A backup file keeps it safe and carries it to another device: save it here, then open the app there and restore it. It always has the same name, so saving to the same folder replaces the old copy. ${stale.length ? `<strong>${esc(stale.map(label).join(", "))}</strong> ${stale.length === 1 ? "has" : "have"} no backup from the last two weeks.` : ""}</p>
         <div class="actions" style="justify-content:flex-start"><button class="btn" id="pf-exp-one">Back up ${esc(label(prof(ACTIVE)))}</button>${reg.list.length > 1 ? `<button class="btn ghost" id="pf-exp-all">Back up all ${reg.list.length} profiles</button>` : ""}
           <label class="btn ghost">Restore from file<input type="file" id="pf-imp" accept="application/json,.json" hidden></label></div>
         <p class="pf-note" id="pf-msg" role="status"></p>
@@ -242,7 +247,7 @@
     const doExport = async (ids, name) => {
       if (E && ids.includes(ACTIVE)) E.saveProgress();
       try {
-        const r = await saveFile(`ellinika-${name}-${today()}.json`, exportProfiles(ids));
+        const r = await saveFile(name === "all-profiles" ? SYNC_FILE : `ellinika-${name}.json`, exportProfiles(ids));
         if (r === "saved") { markBackedUp(ids); msg.textContent = "Backup file saved. Keep it somewhere you can reach from your other devices."; setTimeout(renderPage, 1500); }
         else msg.textContent = "Not saved.";
       } catch (err) { msg.textContent = err?.code === "declined" ? "Not saved." : "Could not save: " + (err?.message || err); }
@@ -253,6 +258,7 @@
       const f = e.target.files[0]; e.target.value = ""; if (!f) return;
       try { importer(parseBackup(await f.text()), f.name); } catch (err) { msg.textContent = "Could not restore: " + err.message; }
     };
+    syncCard(view.querySelector("#pf-sync"));
     askPersist(view.querySelector("#pf-persist"));
     offlineButton(view.querySelector("#pf-offline"));
     window.scrollTo(0, 0);
@@ -357,9 +363,235 @@
     fetch("sw.js", { method: "HEAD" }).then((r) => { if (r.ok) navigator.serviceWorker.register("sw.js").catch(() => {}); }).catch(() => {});
   }
 
+  /* ---------- save destination: one save file, overwritten in place, read back when the app opens ---------- */
+  // Targets: a secret GitHub gist (works on every device, iPhone included) or a file on this computer (Chrome/Edge desktop).
+  // The file holds every profile on the device; whichever side changed last wins, and the other side is kept for "Undo".
+  const SYNC_FILE = "ellinika-progress.json";
+  function syncCfg() { try { return JSON.parse(raw.get.call(ls, SYNC_KEY)) || {}; } catch (e) { return {}; } }
+  function setSync(patch) { const c = Object.assign(syncCfg(), patch); try { raw.set.call(ls, SYNC_KEY, JSON.stringify(c)); } catch (e) { /* full */ } return c; }
+  function changed() {
+    if (SY.applying || !ls) return;
+    const c = syncCfg(); if (!c.kind) return;
+    if (!c.dirtyAt) setSync({ dirtyAt: new Date().toISOString() });
+    clearTimeout(SY.timer); SY.timer = setTimeout(() => push().catch(() => {}), 4000);
+  }
+  function syncSnapshot() {
+    const r = readReg() || reg;
+    return { app: "ellinika", kind: "sync", v: 1, saved: new Date().toISOString(),
+      profiles: r.list.map((p) => ({ id: p.id, name: label(p), color: p.color, created: p.created, keys: snapshot(p.id) })) };
+  }
+  // Make this device match a sync file exactly (profiles deleted elsewhere go here too).
+  function applySnapshot(d) {
+    SY.applying = true;
+    try {
+      const r = readReg() || reg, keep = new Set(d.profiles.map((p) => p.id));
+      for (const p of r.list) if (!keep.has(p.id)) for (const k of profileKeys(p.id)) raw.del.call(ls, k);
+      r.list = d.profiles.map((p) => { const old = r.list.find((x) => x.id === p.id) || {}; restore(p.id, p.keys);
+        return Object.assign({}, old, { id: p.id, name: p.name === "Learner" && !old.name ? "" : p.name, color: p.color || old.color || COLORS[0], created: p.created || old.created || today() }); });
+      if (!r.list.length) return;
+      if (!r.list.find((p) => p.id === r.active)) r.active = r.list[0].id;
+      raw.set.call(ls, REG_KEY, JSON.stringify(r)); reg = r;
+    } finally { SY.applying = false; }
+  }
+  const validSync = (d) => d && d.app === "ellinika" && Array.isArray(d.profiles) && d.profiles.every((p) => p && typeof p.id === "string" && p.keys);
+
+  // IndexedDB keeps the file handle (handles cannot go in localStorage).
+  function idb(mode, fn) {
+    return new Promise((res, rej) => { const o = indexedDB.open("ellinika-sync", 1);
+      o.onupgradeneeded = () => o.result.createObjectStore("h");
+      o.onsuccess = () => { const t = o.result.transaction("h", mode), q = fn(t.objectStore("h")); t.oncomplete = () => res(q && q.result); t.onerror = () => rej(t.error); };
+      o.onerror = () => rej(o.error); });
+  }
+  const getHandle = () => idb("readonly", (s) => s.get("file"));
+  const putHandle = (h) => idb("readwrite", (s) => (h ? s.put(h, "file") : s.delete("file")));
+
+  const GH = "https://api.github.com";
+  const ghHead = (t) => ({ Authorization: "Bearer " + t, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" });
+  async function gh(path, opt = {}) {
+    const c = syncCfg(), r = await fetch(GH + path, Object.assign({ cache: "no-store" }, opt, { headers: Object.assign(ghHead(opt.token || c.token), opt.body ? { "Content-Type": "application/json" } : {}) }));
+    if (r.status === 401) throw new Error("GitHub did not accept the token (it may have expired)");
+    if (r.status === 404) throw new Error("the save file on GitHub was not found");
+    if (!r.ok) throw new Error("GitHub answered " + r.status);
+    return r.json();
+  }
+  const target = {
+    gist: {
+      async read() {
+        const g = await gh(`/gists/${syncCfg().gistId}`), f = g.files && g.files[SYNC_FILE]; if (!f) return null;
+        const text = f.truncated ? await (await fetch(f.raw_url, { cache: "no-store" })).text() : f.content;
+        return text ? JSON.parse(text) : null;
+      },
+      write: (text) => gh(`/gists/${syncCfg().gistId}`, { method: "PATCH", body: JSON.stringify({ files: { [SYNC_FILE]: { content: text } } }) }),
+      label: () => "a secret gist on your GitHub account",
+    },
+    file: {
+      async handle(ask) {
+        const h = await getHandle(); if (!h) throw new Error("no save file is linked");
+        let p = await h.queryPermission({ mode: "readwrite" });
+        if (p !== "granted" && ask) p = await h.requestPermission({ mode: "readwrite" });
+        if (p !== "granted") { const e = new Error("the browser needs your OK to open " + h.name); e.needsTap = true; throw e; }
+        return h;
+      },
+      async read(ask) { const t = await (await (await this.handle(ask)).getFile()).text(); return t.trim() ? JSON.parse(t) : null; },
+      async write(text, ask) { const w = await (await this.handle(ask)).createWritable(); await w.write(text); await w.close(); },
+      label: () => "a file on this computer",
+    },
+  };
+
+  async function push(ask) {
+    const c = syncCfg(); if (!c.kind || !target[c.kind]) return;
+    if (SY.pushing) return SY.pushing;
+    SY.pushing = (async () => {
+      const startedDirty = c.dirtyAt, d = syncSnapshot();
+      try {
+        await target[c.kind].write(JSON.stringify(d), ask);
+        const now = syncCfg(); setSync({ lastRemote: d.saved, lastOk: d.saved, err: null, dirtyAt: now.dirtyAt === startedDirty ? null : now.dirtyAt });
+        reg = readReg() || reg; for (const p of reg.list) p.backup = today(); raw.set.call(ls, REG_KEY, JSON.stringify(reg));
+        syncStatus();
+      } catch (e) { setSync({ err: e.message, needsTap: !!e.needsTap }); syncStatus(); throw e; }
+      finally { SY.pushing = null; }
+    })();
+    return SY.pushing;
+  }
+
+  // On opening: read the save file; take it if it is newer than this device, otherwise write this device's progress to it.
+  async function pull(ask) {
+    const c = syncCfg(); if (!c.kind || !target[c.kind]) return "off";
+    let d;
+    try { d = await target[c.kind].read(ask); } catch (e) { setSync({ err: e.message, needsTap: !!e.needsTap }); syncStatus(); return "error"; }
+    setSync({ err: null, needsTap: false });
+    if (!d) { await push(ask).catch(() => {}); return "pushed"; }
+    if (!validSync(d)) { setSync({ err: "the save file is not an Ελληνικά progress file" }); syncStatus(); return "error"; }
+    const fresh = !c.lastRemote || d.saved > c.lastRemote;
+    if (!fresh) { if (c.dirtyAt) await push(ask).catch(() => {}); else setSync({ lastOk: new Date().toISOString() }); syncStatus(); return "same"; }
+    if (c.dirtyAt && c.dirtyAt > d.saved) { // both changed; this device's change is the later one
+      try { raw.set.call(ls, STASH_KEY, JSON.stringify({ at: new Date().toISOString(), from: "save file", snap: d })); } catch (e) { /* full */ }
+      await push(ask).catch(() => {}); return "pushed";
+    }
+    if (c.dirtyAt) try { raw.set.call(ls, STASH_KEY, JSON.stringify({ at: new Date().toISOString(), from: "this device", snap: syncSnapshot() })); } catch (e) { /* full */ }
+    applySnapshot(d); setSync({ lastRemote: d.saved, lastOk: new Date().toISOString(), dirtyAt: null });
+    return "applied";
+  }
+
+  function syncStatus() {
+    const el = document.getElementById("pf-sync-status"); if (el) el.innerHTML = syncLine();
+    const c = syncCfg(), bar = document.querySelector(".pf-banner.sync");
+    if (c.kind === "file" && c.needsTap && !bar) {
+      const b = document.createElement("div"); b.className = "pf-banner sync";
+      b.innerHTML = `<span>Your progress is saved to a file. Allow the app to open it again.</span><button class="btn small">Open save file</button>`;
+      b.querySelector("button").onclick = async () => { b.remove(); const r = await pull(true); if (r === "applied") reloadAfterSync(); };
+      document.body.append(b);
+    } else if (bar && !c.needsTap) bar.remove();
+  }
+  function syncLine() {
+    const c = syncCfg(); if (!c.kind) return "Not set: progress is only on this device.";
+    const t = (iso) => iso ? new Date(iso).toLocaleString([], { dateStyle: "medium", timeStyle: "short" }) : "never";
+    return `Saving to ${esc(target[c.kind].label())}${c.kind === "file" && c.fileName ? ` (<strong>${esc(c.fileName)}</strong>)` : ""}. Last saved ${esc(t(c.lastOk))}.${c.dirtyAt ? " Changes waiting to be saved." : ""}${c.err ? ` <span style="color:var(--bad)">Problem: ${esc(c.err)}.</span>` : ""}`;
+  }
+  function reloadAfterSync() {
+    try { sessionStorage.setItem("ellinika.picked", sessionStorage.getItem("ellinika.picked") || ""); sessionStorage.setItem("ellinika.synced", "1"); } catch (e) { /* ignore */ }
+    frozen = true; location.reload();
+  }
+  async function syncOnOpen() {
+    if (!ls || !syncCfg().kind) return;
+    let once = false; try { once = sessionStorage.getItem("ellinika.synced") === "1"; sessionStorage.removeItem("ellinika.synced"); } catch (e) { /* ignore */ }
+    if (once) { toast("Progress loaded from your save file."); syncStatus(); return; }
+    if ((await pull(false)) === "applied") reloadAfterSync(); else syncStatus();
+  }
+  function toast(t) {
+    const b = document.createElement("div"); b.className = "pf-banner"; b.textContent = t; document.body.append(b); setTimeout(() => b.remove(), 3500);
+  }
+  // Leaving or hiding the app (iPhone home screen): save straight away instead of waiting.
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden" && syncCfg().dirtyAt) { clearTimeout(SY.timer); push().catch(() => {}); } });
+  window.addEventListener("online", () => { if (syncCfg().dirtyAt) push().catch(() => {}); });
+
+  // The "Save destination" card on #profiles.
+  function syncCard(box) {
+    if (!box) return;
+    const c = syncCfg(), canFile = !!window.showSaveFilePicker, stash = (() => { try { return JSON.parse(raw.get.call(ls, STASH_KEY)); } catch (e) { return null; } })();
+    box.innerHTML = `<section class="card"><h3>Save destination</h3>
+      <p class="pf-note">Pick one place for the save file. Every change is written over that same file, and each time the app opens it loads the file if another device saved something newer.</p>
+      <p class="pf-note" id="pf-sync-status" role="status">${syncLine()}</p>
+      ${c.kind ? `<div class="actions" style="justify-content:flex-start"><button class="btn small" id="sy-now">Save now</button><button class="btn small ghost" id="sy-pull">Load from save file</button><button class="btn small ghost" id="sy-off">Stop using it</button></div>` : `
+      <div class="actions" style="justify-content:flex-start"><button class="btn" id="sy-gh">GitHub (any device, iPhone too)</button>${canFile ? `<button class="btn ghost" id="sy-new">New file on this computer</button><button class="btn ghost" id="sy-open">Existing file on this computer</button>` : ""}</div>
+      <p class="pf-note">${canFile ? "" : "This browser cannot keep writing to a file on the device (iPhone and iPad browsers do not allow it), so GitHub is the automatic option here. "}Backups saved by hand use the fixed name <strong>${SYNC_FILE}</strong>, so the Files app offers to replace the old copy.</p>`}
+      ${stash ? `<p class="pf-note">The last sync replaced progress from ${esc(stash.from)} (${esc(new Date(stash.at).toLocaleString())}). <button class="btn small ghost" id="sy-undo">Undo that</button></p>` : ""}
+      <div id="sy-form"></div><p class="pf-note" id="sy-msg" role="status"></p></section>`;
+    const msg = box.querySelector("#sy-msg"), $b = (id) => box.querySelector(id);
+    const fail = (e) => { msg.textContent = "Could not use it: " + (e?.message || e); };
+    // Linking: the destination may already hold progress from another device.
+    async function link(kind, extra) {
+      setSync(Object.assign({ kind, lastRemote: null, lastOk: null, err: null, needsTap: false, dirtyAt: null }, extra));
+      let d = null; try { d = await target[kind].read(true); } catch (e) { setSync({ kind: null }); return fail(e); }
+      if (d && validSync(d) && d.profiles.length) {
+        const names = d.profiles.map((p) => p.name).join(", ");
+        $b("#sy-form").innerHTML = `<p class="pf-note">The save file already holds progress for <strong>${esc(names)}</strong> (saved ${esc(new Date(d.saved).toLocaleString())}).</p>
+          <div class="actions" style="justify-content:flex-start"><button class="btn small" id="sy-take">Load it onto this device</button><button class="btn small ghost" id="sy-mine">Replace it with this device's progress</button></div>`;
+        $b("#sy-take").onclick = () => { try { raw.set.call(ls, STASH_KEY, JSON.stringify({ at: new Date().toISOString(), from: "this device", snap: syncSnapshot() })); } catch (e) { /* full */ }
+          applySnapshot(d); setSync({ lastRemote: d.saved, lastOk: new Date().toISOString() }); reloadAfterSync(); };
+        $b("#sy-mine").onclick = () => push(true).then(renderPage, fail);
+        return;
+      }
+      await push(true).then(renderPage, fail);
+    }
+    if ($b("#sy-gh")) $b("#sy-gh").onclick = () => {
+      $b("#sy-form").innerHTML = `<ol class="pf-note" style="padding-left:1.2em;margin:0;display:grid;gap:6px">
+          <li>Open <a href="https://github.com/settings/tokens/new?scopes=gist&amp;description=Ellinika%20progress" target="_blank" rel="noopener">GitHub → new token</a> (it opens with only the <strong>gist</strong> box ticked). Set the expiry to <strong>No expiration</strong> or a long one, then <strong>Generate token</strong> and copy it.</li>
+          <li>Paste it here. It stays in this browser and can only touch your gists. On your other devices, paste the same token.</li></ol>
+        <label class="pf-field">GitHub token<input type="text" id="sy-tok" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="ghp_…"></label>
+        <div class="actions" style="justify-content:flex-start"><button class="btn small" id="sy-go">Connect</button></div>`;
+      $b("#sy-go").onclick = async () => {
+        const token = $b("#sy-tok").value.trim(); if (!token) return;
+        msg.textContent = "Connecting…";
+        try {
+          // Reuse the save file another device already made, else create a secret gist.
+          let id = null;
+          for (let page = 1; page <= 5 && !id; page++) {
+            const list = await gh(`/gists?per_page=100&page=${page}`, { token });
+            id = (list.find((g) => g.files && g.files[SYNC_FILE]) || {}).id || null; if (list.length < 100) break;
+          }
+          if (!id) id = (await gh("/gists", { token, method: "POST", body: JSON.stringify({ description: "Ελληνικά progress (saved by the app)", public: false, files: { [SYNC_FILE]: { content: "{}" } } }) })).id;
+          msg.textContent = ""; await link("gist", { token, gistId: id });
+        } catch (e) { fail(e); }
+      };
+      $b("#sy-tok").focus();
+    };
+    if ($b("#sy-new")) $b("#sy-new").onclick = async () => {
+      try { const h = await showSaveFilePicker({ suggestedName: SYNC_FILE, types: [{ description: "Ελληνικά progress", accept: { "application/json": [".json"] } }] });
+        await putHandle(h); setSync({ kind: "file", fileName: h.name, lastRemote: null, dirtyAt: null }); await push(true); renderPage(); }
+      catch (e) { if (e?.name !== "AbortError") fail(e); }
+    };
+    if ($b("#sy-open")) $b("#sy-open").onclick = async () => {
+      try { const [h] = await showOpenFilePicker({ types: [{ description: "Ελληνικά progress", accept: { "application/json": [".json"] } }] });
+        await putHandle(h); await link("file", { fileName: h.name }); }
+      catch (e) { if (e?.name !== "AbortError") fail(e); }
+    };
+    if ($b("#sy-now")) $b("#sy-now").onclick = () => { msg.textContent = "Saving…"; push(true).then(() => { msg.textContent = "Saved."; }, fail); };
+    if ($b("#sy-pull")) $b("#sy-pull").onclick = async () => { msg.textContent = "Loading…"; const r = await pull(true); if (r === "applied") reloadAfterSync(); else msg.textContent = r === "error" ? "" : "This device already has the latest progress."; };
+    if ($b("#sy-off")) $b("#sy-off").onclick = async () => {
+      if (!confirm("Stop saving to this destination? The progress stays on this device and in the save file.")) return;
+      try { raw.del.call(ls, SYNC_KEY); await putHandle(null).catch(() => {}); } catch (e) { /* ignore */ }
+      renderPage();
+    };
+    if ($b("#sy-undo")) $b("#sy-undo").onclick = () => {
+      if (!confirm(`Put back the progress from ${stash.from} as it was on ${new Date(stash.at).toLocaleString()}?`)) return;
+      applySnapshot(stash.snap); raw.del.call(ls, STASH_KEY); setSync({ dirtyAt: new Date().toISOString(), lastRemote: new Date().toISOString() });
+      push(true).catch(() => {}).then(reloadAfterSync);
+    };
+  }
+
   /* ---------- wiring ---------- */
   (window.EllinikaAddons = window.EllinikaAddons || {}).profiles = renderPage;
-  window.EllinikaProfiles = { active: ACTIVE, list: () => (reg ? reg.list.slice() : []), switchTo };
-  const start = () => { addStyle(); addChip(); picker(); registerWorker(); };
+  window.EllinikaProfiles = { active: ACTIVE, list: () => (reg ? reg.list.slice() : []), switchTo, saveNow };
+  // "Save & quit": write the save file now and say where it went.
+  async function saveNow() {
+    window.Ellinika?.saveProgress?.();
+    const c = syncCfg();
+    if (!c.kind) { toast("Saved on this device. Choose a save destination under Profiles to keep a copy elsewhere."); return "local"; }
+    clearTimeout(SY.timer);
+    try { await push(true); toast(c.kind === "gist" ? "Progress saved to GitHub." : `Progress saved to ${c.fileName || "your save file"}.`); return "saved"; }
+    catch (e) { toast("Saved on this device; the save file could not be written: " + e.message); return "error"; }
+  }
+  const start = () => { addStyle(); addChip(); picker(); registerWorker(); syncOnOpen().catch(() => {}); };
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start); else start();
 })();

@@ -1243,10 +1243,13 @@
           ${state.missed.length ? `<div class="missed"><h3>To review</h3><ul class="ex-list">${state.missed.map((m) => `<li><span class="ex-el">${md(m.item.prompt)} ${m.item.big ? `<span lang="el">${esc(m.item.big)}</span>` : ""}</span><span class="ex-en">Answer: <span lang="el">${esc(m.item.answer)}</span>${m.given ? ` · you wrote ${esc(m.given)}` : ""}</span></li>`).join("")}</ul></div>` : ""}
           <div class="actions" style="width:100%">
             <button class="btn ghost" id="again">Practise again</button>
+            <button class="btn ghost" id="quit">Save &amp; quit</button>
             ${nextL ? `<a class="btn" href="#${nextL.id}">Next lesson</a>` : `<a class="btn" href="#">Course map</a>`}
           </div>
         </div>`;
       $("#again").onclick = () => showPractice(lesson, meta, all, idx);
+      // Quit writes the save file to the chosen destination (profiles.js), then returns to the course map.
+      $("#quit").onclick = async (e) => { e.target.disabled = true; e.target.textContent = "Saving…"; await window.EllinikaProfiles?.saveNow?.(); location.hash = ""; };
     }
     next();
   }
