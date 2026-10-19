@@ -899,7 +899,11 @@
   async function showLookup(el) {
     popFor = el;
     const word = el.textContent;
+    document.querySelectorAll(".w.on").forEach((x) => x.classList.remove("on")); el.classList.add("on");
+    // If the word lists are still loading, open the card at once with the word and fill it in when they arrive.
+    const wait = setTimeout(() => { if (popFor === el) { pop.innerHTML = `<div class="lk-word" lang="el">${esc(word)}</div><div class="lk-gloss lk-wait">Looking up…</div>`; placePop(el); } }, 120);
     const [hits, col] = await Promise.all([lookupWord(word, lookCtx), collocs()]);
+    clearTimeout(wait);
     if (popFor !== el) return;
     const wik = (w) => `<a class="lk-ext" href="https://en.wiktionary.org/wiki/${encodeURIComponent(w.replace(/['’]$/, ""))}#Greek" target="_blank" rel="noopener">Wiktionary ↗</a>`;
     pop.innerHTML = `<div class="lk-word" lang="el">${esc(word)}</div>` + (hits ? hits.map((h, i) => `<div class="lk-hit">
@@ -911,13 +915,15 @@
         ${h.entry && VOCAB_POS.has(h.entry.pos) ? vocabState(h.entry.lemma) : ""}
         ${REF_TAB[h.pos] ? `<a class="lk-ext lk-tbl" href="#ref.${REF_TAB[h.pos]}~${encodeURIComponent(h.lemma)}">Table ↗</a>` : ""}
       </div>`).join("") + wik(hits[0].lemma) : `<div class="lk-gloss">Not in the word list yet.</div>${wik(word)}`);
+    placePop(el);
+  }
+  function placePop(el) {
     pop.hidden = false;
     const r = el.getBoundingClientRect(), pw = Math.min(300, window.innerWidth - 24);
     pop.style.width = pw + "px";
     pop.style.left = Math.max(12, Math.min(window.innerWidth - pw - 12, r.left + r.width / 2 - pw / 2)) + "px";
     const below = r.bottom + 8, h = pop.offsetHeight;
     pop.style.top = (below + h > window.innerHeight - 8 && r.top - h - 8 > 8 ? r.top - h - 8 : below) + "px";
-    document.querySelectorAll(".w.on").forEach((x) => x.classList.remove("on")); el.classList.add("on");
   }
   function hideLookup() { pop.hidden = true; popFor = null; document.querySelectorAll(".w.on").forEach((x) => x.classList.remove("on")); }
   document.addEventListener("click", (e) => {
