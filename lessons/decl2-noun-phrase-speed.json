@@ -1,0 +1,1049 @@
+{
+ "el": "Ονοματικές φράσεις με ταχύτητα",
+ "title": "Noun phrases at speed: numerals, quantifiers, apposition",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Decide once, then run the phrase",
+   "text": "Speed in declension does not come from knowing more endings; it comes from making **one decision** per phrase. Before you speak, fix three things for the **head noun**: gender, number, case. Then run that combination through every word that agrees, in a fixed order:\n\n**quantifier / demonstrative → article → numeral → adjective(s) → noun → (genitive dependent)**\n\n**όλοι οι τρεις καινούριοι υπάλληλοι της εταιρείας** → acc. **όλους τους τρεις καινούριους υπαλλήλους της εταιρείας** → gen. **όλων των τριών καινούριων υπαλλήλων της εταιρείας**.\n\nTwo things never change with the head. **The genitive dependent** keeps its own case: *της εταιρείας* stays genitive whatever happens to *οι υπάλληλοι*. And **indeclinables**: κάθε, δύο, πέντε to εκατό, ευρώ, μπλε.\n\nThree things trip up fast speech. **Numerals**: 1, 3, 4, the hundreds from 200 and **χίλιοι** agree; from 2,000 up the word **χιλιάδες** is a feminine noun, so the number before it is feminine (**τρεις χιλιάδες, τριών χιλιάδων**) while the hundreds after it agree with the counted noun (**τρεις χιλιάδες τριακόσιοι άντρες**). **Quantifiers**: όλος stands *before* the article; κάθε has *no* article; κανένας and κάποιος decline like adjectives with their own quirks (κανέναν, καμία/καμιά, κανενός). **Apposition**: a second noun phrase that renames the first copies its case, even after a comma: **Μίλησα με τον Πέτρο, τον καινούριο μας συνάδελφο.**"
+  },
+  {
+   "type": "table",
+   "title": "Numerals that decline",
+   "head": [
+    "",
+    "masc.",
+    "fem.",
+    "neut."
+   ],
+   "rows": [
+    [
+     "1 · nom. / acc. / gen.",
+     "ένας / έναν / ενός",
+     "μία (μια) / μία / μίας (μιας)",
+     "ένα / ένα / ενός"
+    ],
+    [
+     "3 · nom.-acc. / gen.",
+     "τρεις / **τριών**",
+     "τρεις / **τριών**",
+     "**τρία** / **τριών**"
+    ],
+    [
+     "4 · nom.-acc. / gen.",
+     "τέσσερις / **τεσσάρων**",
+     "τέσσερις / **τεσσάρων**",
+     "**τέσσερα** / **τεσσάρων**"
+    ],
+    [
+     "13, 14, 23, 24 …",
+     "δεκατρείς, είκοσι τέσσερις",
+     "δεκατρείς, είκοσι τέσσερις",
+     "δεκατρία, είκοσι τέσσερα"
+    ],
+    [
+     "200 · nom. / acc. / gen.",
+     "διακόσιοι / διακόσιους / **διακοσίων**",
+     "διακόσιες / διακόσιες / **διακοσίων**",
+     "διακόσια / διακόσια / **διακοσίων**"
+    ],
+    [
+     "1,000 · nom.-acc. / gen.",
+     "χίλιοι, χίλιους / **χιλίων**",
+     "χίλιες / **χιλίων**",
+     "χίλια / **χιλίων**"
+    ],
+    [
+     "2,000+ (fem. noun)",
+     "δύο **χιλιάδες** άντρες",
+     "τρεις **χιλιάδες** γυναίκες",
+     "τέσσερις **χιλιάδες** ευρώ"
+    ],
+    [
+     "χιλιάδες · gen.",
+     "δύο **χιλιάδων** αντρών",
+     "τριών **χιλιάδων** γυναικών",
+     "τεσσάρων **χιλιάδων** ευρώ"
+    ],
+    [
+     "1,000,000 (neut. noun)",
+     "ένα **εκατομμύριο** κάτοικοι",
+     "δύο **εκατομμύρια** ψήφοι",
+     "gen. **εκατομμυρίων**"
+    ],
+    [
+     "never change",
+     "δύο, 5–12, 20, 30 … 100 (εκατό / εκατόν + number)",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Η λίστα των καλεσμένων",
+   "setting": "Marina and Thodoris, engaged, go through the numbers for their wedding party at a country venue outside Athens.",
+   "lines": [
+    {
+     "who": "Μαρίνα",
+     "voice": "f",
+     "el": "Λοιπόν, πρέπει να κλείσουμε τη λίστα των καλεσμένων μέχρι την Παρασκευή. Πόσους έχουμε;",
+     "en": "Right, we have to close the guest list by Friday. How many have we got?"
+    },
+    {
+     "who": "Θοδωρής",
+     "voice": "m",
+     "el": "Από τη δική μου πλευρά, εκατόν ογδόντα τρεις. Από τη δική σου;",
+     "en": "From my side, a hundred and eighty-three. From yours?"
+    },
+    {
+     "who": "Μαρίνα",
+     "voice": "f",
+     "el": "Διακόσιοι τέσσερις. Δηλαδή συνολικά τριακόσιοι ογδόντα επτά άνθρωποι. Είναι τρελό!",
+     "en": "Two hundred and four. So three hundred and eighty-seven people altogether. It's crazy!"
+    },
+    {
+     "who": "Θοδωρής",
+     "voice": "m",
+     "el": "Κάθε τραπέζι παίρνει δέκα άτομα. Άρα θέλουμε τριάντα εννιά τραπέζια.",
+     "en": "Each table takes ten people. So we need thirty-nine tables."
+    },
+    {
+     "who": "Μαρίνα",
+     "voice": "f",
+     "el": "Το κτήμα έχει μόνο τριάντα τέσσερα. Πρέπει να κόψουμε κάποιους.",
+     "en": "The venue only has thirty-four. We have to cut some people."
+    },
+    {
+     "who": "Θοδωρής",
+     "voice": "m",
+     "el": "Ποιους; Όλοι οι συγγενείς της μάνας μου θα θυμώσουν αν δεν καλέσουμε κανένα από τα ξαδέρφια της.",
+     "en": "Whom? All my mother's relatives will be angry if we don't invite any of her cousins."
+    },
+    {
+     "who": "Μαρίνα",
+     "voice": "f",
+     "el": "Δεν λέω για τους συγγενείς. Λέω για τους συναδέλφους σου, εκείνους τους τέσσερις από το λογιστήριο.",
+     "en": "I'm not talking about relatives. I mean your colleagues, those four from accounts."
+    },
+    {
+     "who": "Θοδωρής",
+     "voice": "m",
+     "el": "Τον Αλέκο, τον διευθυντή μου, πρέπει να τον καλέσουμε. Τους άλλους τρεις τους αφήνω.",
+     "en": "Alekos, my manager, we have to invite. The other three I'll let go."
+    },
+    {
+     "who": "Μαρίνα",
+     "voice": "f",
+     "el": "Εντάξει. Και η τιμή; Το κτήμα ζητάει πενήντα πέντε ευρώ το άτομο.",
+     "en": "Fine. And the price? The venue is asking fifty-five euros a head."
+    },
+    {
+     "who": "Θοδωρής",
+     "voice": "m",
+     "el": "Για τριακόσια ογδόντα άτομα, αυτό κάνει είκοσι χιλιάδες εννιακόσια ευρώ. Πάνω από είκοσι χιλιάδες!",
+     "en": "For three hundred and eighty people, that makes twenty thousand nine hundred euros. Over twenty thousand!"
+    },
+    {
+     "who": "Μαρίνα",
+     "voice": "f",
+     "el": "Και χωρίς τα λουλούδια και τη μουσική. Η ορχήστρα θέλει άλλες τρεις χιλιάδες.",
+     "en": "And that's without the flowers and the music. The band wants another three thousand."
+    },
+    {
+     "who": "Θοδωρής",
+     "voice": "m",
+     "el": "Τρεις χιλιάδες; Για τέσσερις ώρες μουσική;",
+     "en": "Three thousand? For four hours of music?"
+    },
+    {
+     "who": "Μαρίνα",
+     "voice": "f",
+     "el": "Για πέντε ώρες, με τρεις μουσικούς. Και η ξαδέρφη μου, η Νεφέλη, θα τραγουδήσει χωρίς αμοιβή.",
+     "en": "For five hours, with three musicians. And my cousin, Nefeli, will sing for free."
+    },
+    {
+     "who": "Θοδωρής",
+     "voice": "m",
+     "el": "Καλά. Τότε το κόστος του γάμου θα φτάσει τις είκοσι πέντε χιλιάδες. Με τα δώρα των καλεσμένων, ίσως βγούμε.",
+     "en": "OK. Then the cost of the wedding will reach twenty-five thousand. With the guests' gifts, maybe we'll break even."
+    },
+    {
+     "who": "Μαρίνα",
+     "voice": "f",
+     "el": "Ίσως. Σε κάθε περίπτωση, θέλω όλους τους φίλους μας εκεί, και κάθε γιαγιά να χορέψει!",
+     "en": "Maybe. In any case, I want all our friends there, and every grandma dancing!"
+    },
+    {
+     "who": "Θοδωρής",
+     "voice": "m",
+     "el": "Και τις δύο γιαγιάδες θα τις σηκώσω εγώ στον χορό, το υπόσχομαι!",
+     "en": "I'll get both grandmas up to dance myself, I promise!"
+    }
+   ],
+   "gloss": {
+    "Μαρίνα": "Μαρίνα — Marina (woman's name)",
+    "Θοδωρής": "Θοδωρής — Thodoris (man's name)",
+    "καλεσμένων": "καλεσμένος — guest (gen. pl.)",
+    "πλευρά": "πλευρά — side",
+    "εκατόν": "εκατό(ν) — a hundred (εκατόν before another number)",
+    "ογδόντα": "ογδόντα — eighty",
+    "Διακόσιοι": "διακόσιοι — two hundred (masc.)",
+    "συνολικά": "συνολικά — in total",
+    "τριακόσιοι": "τριακόσιοι — three hundred (masc.)",
+    "τριακόσια": "τριακόσια — three hundred (neut.)",
+    "τρελό": "τρελός — crazy (neut.)",
+    "άτομα": "άτομο — person (pl.)",
+    "εννιά": "εννιά — nine",
+    "κτήμα": "κτήμα — estate; (wedding) venue in the country",
+    "κόψουμε": "κόβω — to cut",
+    "συγγενείς": "συγγενής — relative",
+    "μάνας": "μάνα — mum, mother (gen.)",
+    "θυμώσουν": "θυμώνω — to get angry",
+    "κανένα": "κανένας — no, any (neut. κανένα)",
+    "ξαδέρφια": "ξαδέρφια — cousins",
+    "συναδέλφους": "συνάδελφος — colleague (acc. pl.)",
+    "λογιστήριο": "λογιστήριο — accounts department",
+    "λογιστηρίου": "λογιστήριο — accounts department (gen.)",
+    "Θοδωρή": "Θοδωρής — Thodoris (gen./acc.)",
+    "Αλέκο": "Αλέκος — Alekos (acc.)",
+    "διευθυντή": "διευθυντής — manager, director (acc.)",
+    "εννιακόσια": "εννιακόσια — nine hundred (neut.)",
+    "χιλιάδες": "χιλιάδα — thousand (fem. noun; pl. χιλιάδες)",
+    "ορχήστρα": "ορχήστρα — band, orchestra",
+    "μουσικούς": "μουσικός — musician (acc. pl.)",
+    "ξαδέρφη": "ξαδέρφη — (female) cousin",
+    "Νεφέλη": "Νεφέλη — Nefeli (woman's name)",
+    "αμοιβή": "αμοιβή — fee, payment",
+    "βγούμε": "βγαίνω — to come out; (εδώ) to break even",
+    "περίπτωση": "περίπτωση — case",
+    "γιαγιάδες": "γιαγιά — grandmother (pl. γιαγιάδες)",
+    "σηκώσω": "σηκώνω — to lift; to get someone up",
+    "υπόσχομαι": "υπόσχομαι — to promise"
+   },
+   "questions": [
+    {
+     "prompt": "Πόσοι είναι συνολικά οι καλεσμένοι;",
+     "answer": "Τριακόσιοι ογδόντα επτά",
+     "options": [
+      "Τριακόσιοι ογδόντα επτά",
+      "Διακόσιοι τέσσερις",
+      "Εκατόν ογδόντα τρεις"
+     ]
+    },
+    {
+     "prompt": "Πόσα τραπέζια έχει το κτήμα;",
+     "answer": "Τριάντα τέσσερα",
+     "options": [
+      "Τριάντα τέσσερα",
+      "Τριάντα εννιά",
+      "Τριάντα τέσσερις"
+     ]
+    },
+    {
+     "prompt": "Ποιον συνάδελφο θα καλέσουν;",
+     "answer": "Τον Αλέκο, τον διευθυντή του Θοδωρή",
+     "options": [
+      "Τον Αλέκο, τον διευθυντή του Θοδωρή",
+      "Όλους τους συναδέλφους του λογιστηρίου",
+      "Κανέναν"
+     ]
+    },
+    {
+     "prompt": "«Θα θυμώσουν αν δεν καλέσουμε ___ από τα ξαδέρφια της.»",
+     "answer": "κανένα",
+     "options": [
+      "κανένα",
+      "κανέναν",
+      "καμία"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Quantifiers in every case",
+   "head": [
+    "",
+    "όλος",
+    "κάποιος",
+    "κανένας",
+    "καθένας"
+   ],
+   "rows": [
+    [
+     "masc. nom. / acc. / gen.",
+     "όλος ο / όλο τον / όλου του",
+     "κάποιος / κάποιον / κάποιου",
+     "κανένας (κανείς) / κανέναν / κανενός",
+     "καθένας / καθέναν / καθενός"
+    ],
+    [
+     "fem. nom.-acc. / gen.",
+     "όλη η, όλη τη(ν) / όλης της",
+     "κάποια / κάποιας",
+     "καμία (καμιά) / καμίας (καμιάς)",
+     "καθεμία (καθεμιά) / καθεμίας"
+    ],
+    [
+     "neut. nom.-acc. / gen.",
+     "όλο το / όλου του",
+     "κάποιο / κάποιου",
+     "κανένα / κανενός",
+     "καθένα / καθενός"
+    ],
+    [
+     "plural nom. / acc. / gen.",
+     "όλοι οι, όλες οι, όλα τα / όλους τους, όλες τις / όλων των",
+     "κάποιοι, κάποιες, κάποια / κάποιους / κάποιων",
+     "—",
+     "—"
+    ],
+    [
+     "κάθε",
+     "κάθε μέρα · για κάθε φοιτητή · η γνώμη κάθε φοιτητή: never changes, never takes an article",
+     "",
+     "",
+     ""
+    ],
+    [
+     "μερικοί",
+     "μερικοί, μερικές, μερικά / μερικούς / μερικών",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "One phrase through all six cells",
+   "head": [
+    "",
+    "αυτός ο έμπειρος οδηγός",
+    "εκείνη η παλιά εκκλησία",
+    "κάθε (sg.) / όλα (pl.) + ακριβές αποτέλεσμα"
+   ],
+   "rows": [
+    [
+     "nom. sg.",
+     "αυτός ο έμπειρος οδηγός",
+     "εκείνη η παλιά εκκλησία",
+     "κάθε ακριβές αποτέλεσμα"
+    ],
+    [
+     "acc. sg.",
+     "αυτόν τον έμπειρο οδηγό",
+     "εκείνη την παλιά εκκλησία",
+     "κάθε ακριβές αποτέλεσμα"
+    ],
+    [
+     "gen. sg.",
+     "αυτού του έμπειρου οδηγού",
+     "εκείνης της παλιάς εκκλησίας",
+     "κάθε ακριβούς αποτελέσματος"
+    ],
+    [
+     "nom. pl.",
+     "αυτοί οι έμπειροι οδηγοί",
+     "εκείνες οι παλιές εκκλησίες",
+     "όλα τα ακριβή αποτελέσματα"
+    ],
+    [
+     "acc. pl.",
+     "αυτούς τους έμπειρους οδηγούς",
+     "εκείνες τις παλιές εκκλησίες",
+     "όλα τα ακριβή αποτελέσματα"
+    ],
+    [
+     "gen. pl.",
+     "αυτών των έμπειρων οδηγών",
+     "εκείνων των παλιών εκκλησιών",
+     "όλων των ακριβών αποτελεσμάτων"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "title": "Apposition and names at speed",
+   "text": "A noun phrase that explains another one copies its case: **Είδα τον Αλέκο, τον διευθυντή μου.** **Η γυναίκα του Αλέκου, του διευθυντή μου, είναι γιατρός.** **Μιλήσαμε για τον Καζαντζάκη, τον μεγάλο Κρητικό συγγραφέα.** After a preposition, the second phrase repeats only the article, not the preposition: **στη Θεσσαλονίκη, τη συμπρωτεύουσα** (σε fuses only once).\n\nTitles and first names decline with the surname: **ο κύριος Παπαδάκης → του κυρίου Παπαδάκη**, **ο Νίκος Καζαντζάκης → του Νίκου Καζαντζάκη**. Women's surnames are frozen genitives and never change: **της κυρίας Μαρκοπούλου**.\n\nWith learned adjectives the phrase still runs in one case, only the endings are older: **η ακριβής ημερομηνία → της ακριβούς ημερομηνίας**, **οι συνήθεις ύποπτοι → των συνήθων υπόπτων**, **μια επείγουσα ανάγκη → μιας επείγουσας ανάγκης**."
+  },
+  {
+   "type": "examples",
+   "title": "Whole phrases at speed",
+   "items": [
+    {
+     "el": "Η γνώμη όλων των άλλων γονιών ήταν διαφορετική.",
+     "en": "The opinion of all the other parents was different."
+    },
+    {
+     "el": "Δεν έχω κανέναν σοβαρό λόγο να παραπονεθώ.",
+     "en": "I have no serious reason to complain."
+    },
+    {
+     "el": "Η απουσία καμίας σοβαρής αιτίας μάς ανησύχησε.",
+     "en": "The absence of any serious cause worried us."
+    },
+    {
+     "el": "Ζήτησα τη βοήθεια κάποιου παλιού μου συμμαθητή.",
+     "en": "I asked for the help of an old classmate of mine."
+    },
+    {
+     "el": "Η ευθύνη καθενός από εμάς είναι μεγάλη.",
+     "en": "Each of us bears a great responsibility."
+    },
+    {
+     "el": "Η αξία αυτού του παλιού πίνακα δεν είναι γνωστή.",
+     "en": "The value of this old painting is not known."
+    },
+    {
+     "el": "Στις αρχές του εικοστού πρώτου αιώνα όλα άλλαξαν.",
+     "en": "At the start of the twenty-first century everything changed."
+    },
+    {
+     "el": "Η αστυνομία συνέλαβε τους συνήθεις υπόπτους.",
+     "en": "The police arrested the usual suspects."
+    },
+    {
+     "el": "Μίλησα με την κυρία Μαρκοπούλου, τη διευθύντρια του σχολείου.",
+     "en": "I spoke to Mrs Markopoulou, the head of the school."
+    },
+    {
+     "el": "Διαβάζω ένα βιβλίο του Νίκου Καζαντζάκη, του μεγάλου Κρητικού συγγραφέα.",
+     "en": "I'm reading a book by Nikos Kazantzakis, the great Cretan writer."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Numbers inside phrases",
+   "items": [
+    {
+     "el": "Η μητέρα τριών μικρών παιδιών δουλεύει και τα Σάββατα.",
+     "en": "The mother of three small children also works on Saturdays."
+    },
+    {
+     "el": "Οι κάτοικοι των τεσσάρων χωριών ψήφισαν κατά της νέας χωματερής.",
+     "en": "The residents of the four villages voted against the new landfill."
+    },
+    {
+     "el": "Στο συνέδριο ήρθαν χίλιοι διακόσιοι σύνεδροι από τριάντα χώρες.",
+     "en": "One thousand two hundred delegates from thirty countries came to the conference."
+    },
+    {
+     "el": "Ένα δώρο αξίας χιλίων ευρώ είναι υπερβολικό.",
+     "en": "A present worth a thousand euros is excessive."
+    },
+    {
+     "el": "Η πόλη έχει τρεις χιλιάδες τριακόσιους φοιτητές και σαράντα χιλιάδες κατοίκους.",
+     "en": "The town has three thousand three hundred students and forty thousand residents."
+    },
+    {
+     "el": "Η ανακαίνιση διακοσίων σαράντα σχολείων θα κοστίσει δύο εκατομμύρια ευρώ.",
+     "en": "Renovating two hundred and forty schools will cost two million euros."
+    },
+    {
+     "el": "Χρειάζονται υπογραφές τριών χιλιάδων πολιτών.",
+     "en": "The signatures of three thousand citizens are needed."
+    },
+    {
+     "el": "Μείναμε τρεις νύχτες σε ένα ξενοδοχείο τεσσάρων αστέρων.",
+     "en": "We stayed three nights in a four-star hotel."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes.** (1) *τρεις βιβλία, τέσσερις παιδιά* → **τρία βιβλία, τέσσερα παιδιά**. (2) *των τρία, των τέσσερα* → **των τριών, των τεσσάρων**. (3) *δύο χιλιάδες τριακόσια φοιτητές* → **δύο χιλιάδες τριακόσιοι φοιτητές**: the hundreds agree with the noun, χιλιάδες is always feminine. (4) *χίλια γυναίκες* → **χίλιες γυναίκες**; gen. **χιλίων**. (5) *ο όλος κόσμος, στην όλη πόλη* → **όλος ο κόσμος, σε όλη την πόλη**. (6) *κάθε τη μέρα, των κάθε* → **κάθε μέρα**, κάθε never takes an article or changes. (7) *κανέναν από τα παιδιά* → **κανένα από τα παιδιά** (neuter). (8) Apposition in the nominative: *Είδα τον Νίκο, ο αδερφός μου* → **τον αδερφό μου**. (9) Changing the dependent genitive: *τους δρόμους των πόλεις* → **των πόλεων**, which keeps its own genitive."
+  },
+  {
+   "type": "culture",
+   "title": "Οι Τριακόσιοι",
+   "text": "Greek history is told in declined numerals. The Spartans of 480 BC are simply **οι Τριακόσιοι** 'the Three Hundred', and textbooks speak of **η θυσία των Τριακοσίων** 'the sacrifice of the Three Hundred' at **η μάχη των Θερμοπυλών** (genitive of the plural-only name **οι Θερμοπύλες**). The modern Parliament, the **Βουλή των Ελλήνων**, also has exactly **τριακόσιοι βουλευτές**, so journalists write **οι 300** and say **οι τριακόσιοι**; a law passes with the votes of **εκατόν πενήντα ένα** members, an absolute majority **των τριακοσίων**."
+  },
+  {
+   "type": "reading",
+   "title": "Το σχολείο μας σε αριθμούς",
+   "text": "Φέτος στο σχολείο μας φοιτούν πεντακόσιοι τριάντα ένας μαθητές: διακόσια εξήντα τέσσερα αγόρια και διακόσια εξήντα επτά κορίτσια. Τους διδάσκουν σαράντα τρεις καθηγητές, από τους οποίους οι είκοσι εννιά είναι γυναίκες. Κάθε τμήμα έχει περίπου είκοσι πέντε παιδιά, και κανένα δεν ξεπερνά τα είκοσι οχτώ.\n\nΗ βιβλιοθήκη του σχολείου απέκτησε φέτος τριακόσια καινούρια βιβλία, χάρη στη δωρεά ενός παλιού μας μαθητή, του συγγραφέα Νίκου Αλεξίου. Ο ίδιος ήρθε τον Μάρτιο και μίλησε σε όλους τους μαθητές της τρίτης τάξης για τα χρόνια του στο σχολείο.\n\nΣτους πανελλήνιους διαγωνισμούς οι μαθητές μας κέρδισαν τέσσερα βραβεία: δύο στα μαθηματικά, ένα στη φυσική και ένα στην ιστορία. Η ομάδα ρομποτικής, οχτώ μαθητές και μία καθηγήτρια, η κυρία Μαρκοπούλου, ταξίδεψε στη Θεσσαλονίκη για τον τελικό. Οι γονείς όλων των παιδιών της ομάδας κάλυψαν τα έξοδα των τεσσάρων ημερών.\n\nΥπάρχουν όμως και προβλήματα. Σε κάποιες αίθουσες τα θρανία είναι πολύ παλιά, και η αυλή χρειάζεται επισκευή. Ο σύλλογος γονέων συγκέντρωσε μέσα σε δύο μήνες τρεις χιλιάδες τετρακόσια ευρώ, αλλά το κόστος των εργασιών φτάνει τις οχτώ χιλιάδες. Ζητάμε λοιπόν τη βοήθεια του δήμου και κάθε επιχείρησης της περιοχής.\n\nΕυχαριστούμε όλους όσοι βοήθησαν, και κάθε γονιό που έδωσε έστω και ένα ευρώ. Καλό καλοκαίρι σε όλους!",
+   "en": "This year five hundred and thirty-one pupils attend our school: two hundred and sixty-four boys and two hundred and sixty-seven girls. They are taught by forty-three teachers, twenty-nine of whom are women. Each class has about twenty-five children, and none goes over twenty-eight.\n\nThe school library acquired three hundred new books this year, thanks to a donation from one of our former pupils, the writer Nikos Alexiou. He came himself in March and talked to all the third-year pupils about his years at the school.\n\nIn national competitions our pupils won four prizes: two in mathematics, one in physics and one in history. The robotics team, eight pupils and one teacher, Mrs Markopoulou, travelled to Thessaloniki for the final. The parents of all the children in the team covered the costs of the four days.\n\nBut there are problems too. In some classrooms the desks are very old, and the playground needs repairs. The parents' association raised three thousand four hundred euros in two months, but the cost of the work comes to eight thousand. So we are asking for help from the municipality and from every business in the area.\n\nThank you to everyone who helped, and to every parent who gave even one euro. Have a good summer, everyone!",
+   "gloss": {
+    "φοιτούν": "φοιτώ — to attend (school, university)",
+    "πεντακόσιοι": "πεντακόσιοι — five hundred (masc.)",
+    "ένας": "ένας — one (masc.)",
+    "εξήντα": "εξήντα — sixty",
+    "διακόσια": "διακόσια — two hundred (neut.)",
+    "σαράντα": "σαράντα — forty",
+    "οποίους": "ο οποίος — who, which (acc. pl.)",
+    "εννιά": "εννιά — nine",
+    "τμήμα": "τμήμα — class, section",
+    "ξεπερνά": "ξεπερνώ — to exceed",
+    "οχτώ": "οχτώ — eight",
+    "απέκτησε": "αποκτώ — to acquire",
+    "δωρεά": "δωρεά — donation",
+    "Αλεξίου": "Αλεξίου — Alexiou (surname)",
+    "Νίκου": "Νίκος — Nikos (gen.)",
+    "πανελλήνιους": "πανελλήνιος — national, all-Greek",
+    "διαγωνισμούς": "διαγωνισμός — competition",
+    "ρομποτικής": "ρομποτική — robotics (gen.)",
+    "Μαρκοπούλου": "Μαρκοπούλου — Markopoulou (woman's surname)",
+    "τελικό": "τελικός — final",
+    "κάλυψαν": "καλύπτω — to cover",
+    "έξοδα": "έξοδα — expenses",
+    "ημερών": "ημέρα — day (gen. pl.)",
+    "θρανία": "θρανίο — school desk",
+    "αυλή": "αυλή — yard, playground",
+    "συγκέντρωσε": "συγκεντρώνω — to collect, raise",
+    "τετρακόσια": "τετρακόσια — four hundred (neut.)",
+    "εργασιών": "εργασία — work (gen. pl.)",
+    "επιχείρησης": "επιχείρηση — business (gen.)",
+    "γονιό": "γονιός — parent (acc.)",
+    "έστω": "έστω και — even"
+   },
+   "questions": [
+    {
+     "prompt": "Πόσα κορίτσια φοιτούν στο σχολείο;",
+     "answer": "Διακόσια εξήντα επτά",
+     "options": [
+      "Διακόσια εξήντα επτά",
+      "Διακόσια εξήντα τέσσερα",
+      "Πεντακόσια τριάντα ένα"
+     ]
+    },
+    {
+     "prompt": "Ποιος έκανε δωρεά στη βιβλιοθήκη;",
+     "answer": "Ένας παλιός μαθητής, ο συγγραφέας Νίκος Αλεξίου",
+     "options": [
+      "Ένας παλιός μαθητής, ο συγγραφέας Νίκος Αλεξίου",
+      "Ο δήμος",
+      "Η κυρία Μαρκοπούλου"
+     ]
+    },
+    {
+     "prompt": "Πόσα βραβεία κέρδισαν οι μαθητές;",
+     "answer": "Τέσσερα",
+     "options": [
+      "Τέσσερα",
+      "Τρία",
+      "Οχτώ"
+     ]
+    },
+    {
+     "prompt": "Πόσα χρήματα συγκέντρωσε ο σύλλογος γονέων;",
+     "answer": "Τρεις χιλιάδες τετρακόσια ευρώ",
+     "options": [
+      "Τρεις χιλιάδες τετρακόσια ευρώ",
+      "Οχτώ χιλιάδες ευρώ",
+      "Τριακόσια ευρώ"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Genitive: **αυτή η σημαντική απόφαση της κυβέρνησης**",
+     "answer": "αυτής της σημαντικής απόφασης της κυβέρνησης",
+     "accept": [
+      "αυτής της σημαντικής απόφασης της κυβέρνησης",
+      "αυτής της σημαντικής αποφάσεως της κυβέρνησης"
+     ],
+     "why": "Only the head phrase changes; της κυβέρνησης stays as it is."
+    },
+    {
+     "prompt": "Accusative plural: **ο νέος κανόνας του σχολείου**",
+     "answer": "τους νέους κανόνες του σχολείου",
+     "accept": [
+      "τους νέους κανόνες του σχολείου"
+     ],
+     "why": "τους -ους -ες; the dependent του σχολείου does not change."
+    },
+    {
+     "prompt": "Genitive plural: **το παλιό σπίτι του χωριού**",
+     "answer": "των παλιών σπιτιών του χωριού",
+     "accept": [
+      "των παλιών σπιτιών του χωριού"
+     ],
+     "why": "των -ών -ιών; του χωριού stays singular."
+    },
+    {
+     "prompt": "Genitive: **όλος ο ελεύθερος χρόνος μου**",
+     "answer": "όλου του ελεύθερου χρόνου μου",
+     "accept": [
+      "όλου του ελεύθερου χρόνου μου"
+     ],
+     "why": "όλος declines too and stays before the article."
+    },
+    {
+     "prompt": "Accusative: **όλη η μεγάλη οικογένεια του Γιώργου**",
+     "answer": "όλη τη μεγάλη οικογένεια του Γιώργου",
+     "accept": [
+      "όλη τη μεγάλη οικογένεια του Γιώργου",
+      "όλη την μεγάλη οικογένεια του Γιώργου"
+     ],
+     "why": "Feminine accusative: όλη τη(ν) …"
+    },
+    {
+     "prompt": "Genitive plural: **εκείνη η δύσκολη μέρα του χειμώνα**",
+     "answer": "εκείνων των δύσκολων ημερών του χειμώνα",
+     "accept": [
+      "εκείνων των δύσκολων ημερών του χειμώνα",
+      "εκείνων των δύσκολων μερών του χειμώνα"
+     ],
+     "why": "μέρα → ημερών; demonstrative εκείνων."
+    },
+    {
+     "prompt": "Accusative plural: **ο έμπειρος οδηγός του λεωφορείου**",
+     "answer": "τους έμπειρους οδηγούς του λεωφορείου",
+     "accept": [
+      "τους έμπειρους οδηγούς του λεωφορείου"
+     ],
+     "why": "τους -ους -ούς."
+    },
+    {
+     "prompt": "Genitive: **ένα ακριβές αποτέλεσμα**",
+     "answer": "ενός ακριβούς αποτελέσματος",
+     "accept": [
+      "ενός ακριβούς αποτελέσματος"
+     ],
+     "why": "ακριβής: neuter gen. ακριβούς; -μα → -ματος."
+    },
+    {
+     "prompt": "Genitive: **μια επείγουσα ανάγκη**",
+     "answer": "μιας επείγουσας ανάγκης",
+     "accept": [
+      "μιας επείγουσας ανάγκης",
+      "μίας επείγουσας ανάγκης"
+     ],
+     "why": "επείγων: fem. gen. επείγουσας."
+    },
+    {
+     "prompt": "Accusative plural: **η επείγουσα ανάγκη**",
+     "answer": "τις επείγουσες ανάγκες",
+     "accept": [
+      "τις επείγουσες ανάγκες"
+     ],
+     "why": "τις -ουσες -ες."
+    },
+    {
+     "prompt": "Genitive plural: **ο συνήθης ύποπτος**",
+     "answer": "των συνήθων υπόπτων",
+     "accept": [
+      "των συνήθων υπόπτων"
+     ],
+     "why": "συνήθης: gen. pl. συνήθων; ύποπτος → υπόπτων."
+    },
+    {
+     "prompt": "Genitive: **κάθε νέος φοιτητής**",
+     "answer": "κάθε νέου φοιτητή",
+     "accept": [
+      "κάθε νέου φοιτητή"
+     ],
+     "why": "κάθε never changes; the rest goes into the genitive."
+    },
+    {
+     "prompt": "Genitive: **κάποια παλιά φίλη μου**",
+     "answer": "κάποιας παλιάς φίλης μου",
+     "accept": [
+      "κάποιας παλιάς φίλης μου"
+     ],
+     "why": "κάποιος declines like an adjective: κάποιας."
+    },
+    {
+     "prompt": "Accusative: **κανένας σοβαρός λόγος**",
+     "answer": "κανέναν σοβαρό λόγο",
+     "accept": [
+      "κανέναν σοβαρό λόγο",
+      "κανένα σοβαρό λόγο"
+     ],
+     "why": "κανένας → κανέναν in the accusative."
+    },
+    {
+     "prompt": "Genitive: **καμία σοβαρή αιτία**",
+     "answer": "καμίας σοβαρής αιτίας",
+     "accept": [
+      "καμίας σοβαρής αιτίας",
+      "καμιάς σοβαρής αιτίας"
+     ],
+     "why": "καμία → καμίας (or καμιάς)."
+    },
+    {
+     "prompt": "Genitive: **καθένας από τους μαθητές**",
+     "answer": "καθενός από τους μαθητές",
+     "accept": [
+      "καθενός από τους μαθητές"
+     ],
+     "why": "Only καθένας changes; από + accusative stays."
+    },
+    {
+     "prompt": "Genitive: **τρεις μεγάλες πόλεις**",
+     "answer": "τριών μεγάλων πόλεων",
+     "accept": [
+      "τριών μεγάλων πόλεων"
+     ],
+     "why": "τρεις → τριών; πόλεις → πόλεων."
+    },
+    {
+     "prompt": "Genitive: **τέσσερα μικρά νησιά**",
+     "answer": "τεσσάρων μικρών νησιών",
+     "accept": [
+      "τεσσάρων μικρών νησιών"
+     ],
+     "why": "τέσσερα → τεσσάρων."
+    },
+    {
+     "prompt": "Accusative: **τρεις καινούριοι υπάλληλοι**",
+     "answer": "τρεις καινούριους υπαλλήλους",
+     "accept": [
+      "τρεις καινούριους υπαλλήλους",
+      "τρεις καινούργιους υπαλλήλους"
+     ],
+     "why": "τρεις has the same form in nom. and acc.; υπάλληλος → υπαλλήλους."
+    },
+    {
+     "prompt": "Genitive: **διακόσιοι πενήντα επιβάτες**",
+     "answer": "διακοσίων πενήντα επιβατών",
+     "accept": [
+      "διακοσίων πενήντα επιβατών"
+     ],
+     "why": "Hundreds: gen. -ων with stress on -κοσίων."
+    },
+    {
+     "prompt": "Genitive: **χίλιες διακόσιες σελίδες**",
+     "answer": "χιλίων διακοσίων σελίδων",
+     "accept": [
+      "χιλίων διακοσίων σελίδων"
+     ],
+     "why": "χίλιες → χιλίων; διακόσιες → διακοσίων."
+    },
+    {
+     "prompt": "Genitive: **τρεις χιλιάδες κάτοικοι**",
+     "answer": "τριών χιλιάδων κατοίκων",
+     "accept": [
+      "τριών χιλιάδων κατοίκων"
+     ],
+     "why": "χιλιάδες is a feminine noun: τριών χιλιάδων."
+    },
+    {
+     "prompt": "In words: **2.300 ευρώ**",
+     "answer": "δύο χιλιάδες τριακόσια ευρώ",
+     "accept": [
+      "δύο χιλιάδες τριακόσια ευρώ",
+      "δυο χιλιάδες τριακόσια ευρώ",
+      "δύο χιλιάδες τρακόσια ευρώ",
+      "δυο χιλιάδες τρακόσια ευρώ"
+     ],
+     "why": "ευρώ is neuter: τριακόσια."
+    },
+    {
+     "prompt": "In words: **1.400 γυναίκες**",
+     "answer": "χίλιες τετρακόσιες γυναίκες",
+     "accept": [
+      "χίλιες τετρακόσιες γυναίκες"
+     ],
+     "why": "Feminine: χίλιες, τετρακόσιες."
+    },
+    {
+     "prompt": "In words: **4.200 φοιτητές**",
+     "answer": "τέσσερις χιλιάδες διακόσιοι φοιτητές",
+     "accept": [
+      "τέσσερις χιλιάδες διακόσιοι φοιτητές"
+     ],
+     "why": "τέσσερις agrees with χιλιάδες (fem.); διακόσιοι with φοιτητές."
+    },
+    {
+     "prompt": "Μίλησα με τον Πέτρο, ___ (ο καινούριος μας συνάδελφος)",
+     "answer": "τον καινούριο μας συνάδελφο",
+     "accept": [
+      "τον καινούριο μας συνάδελφο",
+      "τον καινούργιο μας συνάδελφο"
+     ],
+     "why": "Apposition copies the accusative."
+    },
+    {
+     "prompt": "Το τελευταίο βιβλίο του Νίκου Καζαντζάκη, ___ (ο μεγάλος Κρητικός συγγραφέας)",
+     "answer": "του μεγάλου Κρητικού συγγραφέα",
+     "accept": [
+      "του μεγάλου Κρητικού συγγραφέα",
+      "του μεγάλου κρητικού συγγραφέα"
+     ],
+     "why": "Apposition copies the genitive."
+    },
+    {
+     "prompt": "Πήγαμε στη Θεσσαλονίκη, ___ (η συμπρωτεύουσα)",
+     "answer": "τη συμπρωτεύουσα",
+     "accept": [
+      "τη συμπρωτεύουσα",
+      "την συμπρωτεύουσα",
+      "στη συμπρωτεύουσα"
+     ],
+     "why": "After σε + article, the apposition repeats only the article."
+    },
+    {
+     "prompt": "Η γυναίκα ___ (ο κύριος Παπαδάκης, ο δικηγόρος)",
+     "answer": "του κυρίου Παπαδάκη, του δικηγόρου",
+     "accept": [
+      "του κυρίου Παπαδάκη, του δικηγόρου",
+      "του κυρίου Παπαδάκη του δικηγόρου"
+     ],
+     "why": "Title, name and apposition all in the genitive."
+    },
+    {
+     "prompt": "Δεν ξέρω τίποτα για ___ (αυτοί οι καινούριοι νόμοι)",
+     "answer": "αυτούς τους καινούριους νόμους",
+     "accept": [
+      "αυτούς τους καινούριους νόμους",
+      "αυτούς τους καινούργιους νόμους"
+     ],
+     "why": "για + accusative; demonstrative αυτούς."
+    },
+    {
+     "prompt": "Η ιστορία ___ (εκείνη η μικρή εκκλησία)",
+     "answer": "εκείνης της μικρής εκκλησίας",
+     "accept": [
+      "εκείνης της μικρής εκκλησίας"
+     ],
+     "why": "Feminine genitive throughout."
+    },
+    {
+     "prompt": "Η γνώμη ___ (όλοι οι άλλοι γονείς)",
+     "answer": "όλων των άλλων γονιών",
+     "accept": [
+      "όλων των άλλων γονιών",
+      "όλων των άλλων γονέων"
+     ],
+     "why": "Genitive plural throughout; γονιών or γονέων."
+    },
+    {
+     "prompt": "Η αξία ___ (ο ίδιος ο πίνακας)",
+     "answer": "του ίδιου του πίνακα",
+     "accept": [
+      "του ίδιου του πίνακα"
+     ],
+     "why": "ο ίδιος ο = 'itself'; both articles change."
+    },
+    {
+     "prompt": "Η βοήθεια ___ (μερικοί παλιοί συμμαθητές)",
+     "answer": "μερικών παλιών συμμαθητών",
+     "accept": [
+      "μερικών παλιών συμμαθητών"
+     ],
+     "why": "μερικοί → μερικών."
+    },
+    {
+     "prompt": "Genitive: **ο εικοστός πρώτος αιώνας**",
+     "answer": "του εικοστού πρώτου αιώνα",
+     "accept": [
+      "του εικοστού πρώτου αιώνα"
+     ],
+     "why": "Ordinals decline like adjectives."
+    }
+   ],
+   "n": 30
+  },
+  {
+   "gen": "decline",
+   "ids": [
+    "f-α-b",
+    "f-α-a",
+    "f-η-ες",
+    "f-η-εις",
+    "f-ος",
+    "m-ης",
+    "m-ας-a",
+    "m-ος-fixed",
+    "m-ος-antepenult-a",
+    "m-έας",
+    "n-ο-a",
+    "n-ι",
+    "n-ί",
+    "n-μα",
+    "n-ος-3syl"
+   ],
+   "cells": [
+    "sg.acc",
+    "sg.gen",
+    "pl.nom",
+    "pl.acc",
+    "pl.gen"
+   ],
+   "n": 10
+  },
+  {
+   "gen": "adj-agree",
+   "ids": [
+    "ψηλός",
+    "τέλειος",
+    "ακριβής",
+    "επείγων",
+    "συνήθης"
+   ],
+   "exclude": [
+    "βίαιος",
+    "κρύος",
+    "κλινήρης",
+    "σπουδάζων",
+    "ιδιάζων",
+    "μέλλων",
+    "τριμερής",
+    "ωοειδής"
+   ],
+   "n": 8
+  },
+  {
+   "gen": "number-words",
+   "max": [
+    1000,
+    10000
+   ],
+   "genders": [
+    "m",
+    "f",
+    "n"
+   ],
+   "n": 5
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Αγόρασα ___ βιβλία.",
+     "answer": "τρία",
+     "options": [
+      "τρία",
+      "τρεις",
+      "τριών"
+     ],
+     "why": "Neuter: τρία."
+    },
+    {
+     "prompt": "Η μητέρα ___ παιδιών",
+     "answer": "τεσσάρων",
+     "options": [
+      "τεσσάρων",
+      "τέσσερα",
+      "τέσσερις"
+     ],
+     "why": "Genitive of 4: τεσσάρων."
+    },
+    {
+     "prompt": "Μένουν εδώ δύο ___ άνθρωποι.",
+     "answer": "χιλιάδες",
+     "options": [
+      "χιλιάδες",
+      "χίλιοι",
+      "χιλιάδων"
+     ],
+     "why": "From 2,000: χιλιάδες (same case as the noun)."
+    },
+    {
+     "prompt": "Ήρθαν ___ γυναίκες.",
+     "answer": "χίλιες",
+     "options": [
+      "χίλιες",
+      "χίλιοι",
+      "χίλια"
+     ],
+     "why": "χίλιοι agrees: χίλιες γυναίκες."
+    },
+    {
+     "prompt": "Ένα δώρο αξίας ___ ευρώ",
+     "answer": "χιλίων",
+     "options": [
+      "χιλίων",
+      "χίλια",
+      "χιλιάδων"
+     ],
+     "why": "Genitive of χίλια: χιλίων."
+    },
+    {
+     "prompt": "___ μέρα πάω για τρέξιμο.",
+     "answer": "Κάθε",
+     "options": [
+      "Κάθε",
+      "Καθεμία",
+      "Όλη η"
+     ],
+     "why": "κάθε + noun, no article."
+    },
+    {
+     "prompt": "Δεν ήρθε ___.",
+     "answer": "κανένας",
+     "options": [
+      "κανένας",
+      "κάθε",
+      "καθένας"
+     ],
+     "why": "With δεν: κανένας 'nobody'."
+    },
+    {
+     "prompt": "Η γνώμη ___ μετράει.",
+     "answer": "καθενός",
+     "options": [
+      "καθενός",
+      "κάθε",
+      "καθένας"
+     ],
+     "why": "Genitive of καθένας: καθενός."
+    },
+    {
+     "prompt": "Η είδηση ακούστηκε ___",
+     "answer": "σε όλη την πόλη",
+     "options": [
+      "σε όλη την πόλη",
+      "στην όλη πόλη",
+      "σε όλης της πόλης"
+     ],
+     "why": "όλος before the article; σε cannot fuse."
+    },
+    {
+     "prompt": "Είδα τον φίλο μου ___ Νίκο.",
+     "answer": "τον",
+     "options": [
+      "τον",
+      "ο",
+      "του"
+     ],
+     "why": "Apposition copies the accusative."
+    },
+    {
+     "prompt": "Η πληρωμή ___ ποσού",
+     "answer": "του ακριβούς",
+     "options": [
+      "του ακριβούς",
+      "του ακριβή",
+      "του ακριβής"
+     ],
+     "why": "ακριβής: gen. ακριβούς."
+    },
+    {
+     "prompt": "δύο χιλιάδες ___ φοιτητές",
+     "answer": "τριακόσιοι",
+     "options": [
+      "τριακόσιοι",
+      "τριακόσιες",
+      "τριακόσια"
+     ],
+     "why": "The hundreds agree with the noun (masc.)."
+    }
+   ],
+   "n": 10
+  }
+ ],
+ "vocab": [
+  "χιλιάδα",
+  "εκατομμύριο",
+  "καθένας",
+  "κάποιος",
+  "όλος",
+  "μερικοί",
+  "συνάδελφος",
+  "καλεσμένος",
+  "κόστος",
+  "συνολικά",
+  "αριθμός",
+  "βραβείο"
+ ]
+}

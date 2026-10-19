@@ -1,0 +1,1306 @@
+{
+ "el": "Η γενική πληθυντικού χωρίς λάθη",
+ "title": "Genitive plural and genitive traps, class by class",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "One ending, three stress outcomes",
+   "text": "The genitive plural is the most uniform form in Greek: **every** noun, adjective, article and pronoun ends in **-ων** (των, αυτών, όλων, καλών, ανθρώπων). What you actually have to know is **where the stress lands**. There are only three outcomes:\n\n**1. It jumps to the ending: -ών.** This is the default for ordinary feminines in -α and -η (θάλασσα → **θαλασσών**, τέχνη → **τεχνών**, γυναίκα → **γυναικών**), for *every* masculine in -ης (εργάτης → **εργατών**, πολίτης → **πολιτών**), for masculines in -ίας, -ίστας plus μήνας and άντρας (ταμίας → **ταμιών**, τουρίστας → **τουριστών**, μήνας → **μηνών**), for neuters in -ι/-ί (σπίτι → **σπιτιών**) and for neuters in -ος (κράτος → **κρατών**).\n\n**2. It moves to the second-to-last syllable.** Learned nouns stressed on the third syllable from the end cannot keep that stress before the long -ων: άνθρωπος → **ανθρώπων**, μέθοδος → **μεθόδων**, θέατρο → **θεάτρων**, γείτονας → **γειτόνων**, πρόβλημα → **προβλημάτων**, ταυτότητα → **ταυτοτήτων**, απόφαση → **αποφάσεων**.\n\n**3. It stays where it was.** Nouns already stressed on the second-to-last syllable that are not in group 1: δρόμος → **δρόμων**, βιβλίο → **βιβλίων**, αγώνας → **αγώνων**, and the important feminine exceptions in **-άδα, -ίδα** plus a short list (μητέρα, εικόνα, ακτίνα, σταγόνα): εβδομάδα → **εβδομάδων**, εφημερίδα → **εφημερίδων**, μητέρα → **μητέρων**. Imparisyllabic plurals keep the plural's stress: γιαγιάδες → **γιαγιάδων**, παππούδες → **παππούδων**, καφέδες → **καφέδων**, μανάβηδες → **μανάβηδων**.\n\nA quick test: say the nominative plural, then ask *which group is this noun in?* Do not guess from the singular alone: θάλασσα and ελπίδα both end in -α, but one gives θαλασσ**ών** and the other ελπ**ίδ**ων."
+  },
+  {
+   "type": "table",
+   "title": "Genitive plural, class by class",
+   "head": [
+    "Class",
+    "nom. sg. → nom. pl.",
+    "gen. pl.",
+    "Stress"
+   ],
+   "rows": [
+    [
+     "fem. -α (default)",
+     "η θάλασσα → οι θάλασσες",
+     "των **θαλασσών**",
+     "jumps to -ών"
+    ],
+    [
+     "fem. -ιά, -εια, -ία",
+     "η γειτονιά, η οικογένεια, η εταιρεία",
+     "**γειτονιών, οικογενειών, εταιρειών**",
+     "jumps to -ών"
+    ],
+    [
+     "fem. -άδα, -ίδα (+ μητέρα, εικόνα)",
+     "η εβδομάδα → οι εβδομάδες",
+     "των **εβδομάδων**",
+     "stays"
+    ],
+    [
+     "fem. -ότητα, -ύτητα",
+     "η ποσότητα → οι ποσότητες",
+     "των **ποσοτήτων**",
+     "moves to second-to-last"
+    ],
+    [
+     "fem. -η, pl. -ες",
+     "η αλλαγή → οι αλλαγές",
+     "των **αλλαγών**",
+     "jumps to -ών"
+    ],
+    [
+     "fem. -η, pl. -εις",
+     "η λέξη, η απόφαση",
+     "των **λέξεων, αποφάσεων**",
+     "-εων, stress on the syllable before"
+    ],
+    [
+     "fem. -ος",
+     "η μέθοδος, η οδός, η ψήφος",
+     "των **μεθόδων, οδών, ψήφων**",
+     "like masculine -ος"
+    ],
+    [
+     "masc. -ης",
+     "ο πολίτης → οι πολίτες",
+     "των **πολιτών**",
+     "always -ών"
+    ],
+    [
+     "masc. -ίας, -ίστας, μήνας, άντρας",
+     "ο ταμίας, ο τουρίστας",
+     "των **ταμιών, τουριστών, μηνών, αντρών**",
+     "jumps to -ών"
+    ],
+    [
+     "masc. other -ας",
+     "ο αγώνας, ο γείτονας",
+     "των **αγώνων, γειτόνων**",
+     "stays / moves to second-to-last"
+    ],
+    [
+     "masc. -έας",
+     "ο συγγραφέας → οι συγγραφείς",
+     "των **συγγραφέων**",
+     "stays on -έ-"
+    ],
+    [
+     "masc. -ος, learned",
+     "ο κάτοικος → οι κάτοικοι",
+     "των **κατοίκων**",
+     "moves to second-to-last"
+    ],
+    [
+     "masc. -ος, fixed",
+     "ο δρόμος, ο γιατρός",
+     "των **δρόμων, γιατρών**",
+     "stays"
+    ],
+    [
+     "imparisyllabic (-δες)",
+     "ο ψαράς → οι ψαράδες",
+     "των **ψαράδων**",
+     "stays as in the plural"
+    ],
+    [
+     "neut. -ο, learned",
+     "το νοσοκομείο, το πρόσωπο",
+     "των **νοσοκομείων, προσώπων**",
+     "stays / moves to second-to-last"
+    ],
+    [
+     "neut. -ι, -ί",
+     "το κομμάτι, το παιδί",
+     "των **κομματιών, παιδιών**",
+     "-ιών, final"
+    ],
+    [
+     "neut. -μα",
+     "το κύμα, το κόμμα",
+     "των **κυμάτων, κομμάτων**",
+     "-μάτων"
+    ],
+    [
+     "neut. -ος",
+     "το δάσος, το έδαφος",
+     "των **δασών, εδαφών**",
+     "-ών, final"
+    ],
+    [
+     "neut. -ον, -ως, -ας",
+     "το προϊόν, το γεγονός, το κρέας",
+     "των **προϊόντων, γεγονότων, κρεάτων**",
+     "learned stems, second-to-last"
+    ]
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Η έκθεση για τα νησιά",
+   "setting": "A morning radio show: the journalist Eleni interviews Stathis Margaritis, a statistician, about a new report on the islands in summer.",
+   "lines": [
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Κύριε Μαργαρίτη, καλημέρα σας. Τι δείχνει η καινούρια έκθεση για τα νησιά μας;",
+     "en": "Mr Margaritis, good morning. What does the new report on our islands show?"
+    },
+    {
+     "who": "Στάθης",
+     "voice": "m",
+     "el": "Καλημέρα. Λοιπόν, ο αριθμός των τουριστών αυξήθηκε πολύ, αλλά οι ανάγκες των κατοίκων μένουν πίσω.",
+     "en": "Good morning. Well, the number of tourists has risen a lot, but the needs of the residents are lagging behind."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Τι εννοείτε; Δώστε μας ένα παράδειγμα.",
+     "en": "What do you mean? Give us an example."
+    },
+    {
+     "who": "Στάθης",
+     "voice": "m",
+     "el": "Πάρτε τις Κυκλάδες. Τον Αύγουστο ο αριθμός των επιβατών στα λιμάνια ήταν τριπλάσιος από τον αριθμό των μόνιμων κατοίκων.",
+     "en": "Take the Cyclades. In August the number of passengers in the ports was three times the number of permanent residents."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Και τι σημαίνει αυτό για τις υπηρεσίες των νησιών;",
+     "en": "And what does that mean for the islands' services?"
+    },
+    {
+     "who": "Στάθης",
+     "voice": "m",
+     "el": "Σημαίνει ουρές στα κέντρα υγείας και έλλειψη γιατρών και νοσηλευτών. Οι εργαζόμενοι το λένε εδώ και καιρό.",
+     "en": "It means queues at the health centres and a shortage of doctors and nurses. The staff have been saying so for a long time."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Η έκθεση μιλάει και για το νερό, σωστά;",
+     "en": "The report also talks about water, right?"
+    },
+    {
+     "who": "Στάθης",
+     "voice": "m",
+     "el": "Ναι. Οι δήμαρχοι των μικρών νησιών ζητούν λύσεις εδώ και χρόνια. Οι ανάγκες των ξενοδοχείων και των πισινών είναι τεράστιες.",
+     "en": "Yes. The mayors of the small islands have been asking for solutions for years. The needs of the hotels and swimming pools are enormous."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Και η στέγαση; Ακούμε συνέχεια για τις τιμές των ενοικίων.",
+     "en": "And housing? We keep hearing about the price of rents."
+    },
+    {
+     "who": "Στάθης",
+     "voice": "m",
+     "el": "Εκεί είναι το μεγαλύτερο πρόβλημα. Χιλιάδες διαμερίσματα νοικιάζονται πια σε τουρίστες, και οι δάσκαλοι και οι γιατροί δεν βρίσκουν σπίτι.",
+     "en": "That's where the biggest problem is. Thousands of flats are now rented to tourists, and teachers and doctors can't find a home."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Υπάρχουν και θετικά στοιχεία στην έκθεση;",
+     "en": "Are there positive findings in the report too?"
+    },
+    {
+     "who": "Στάθης",
+     "voice": "m",
+     "el": "Βεβαίως. Τα έσοδα των επιχειρήσεων αυξήθηκαν, και οι θέσεις εργασίας για νέους ανθρώπους είναι περισσότερες.",
+     "en": "Certainly. Business revenues have risen, and there are more jobs for young people."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Και ποια είναι η πρόταση των ερευνητών σας;",
+     "en": "And what do your researchers propose?"
+    },
+    {
+     "who": "Στάθης",
+     "voice": "m",
+     "el": "Ένα σχέδιο για τις ανάγκες των τοπικών κοινωνιών, όχι μόνο για τις προτιμήσεις των επισκεπτών.",
+     "en": "A plan for the needs of the local communities, not just for the preferences of visitors."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Κύριε Μαργαρίτη, σας ευχαριστούμε πολύ.",
+     "en": "Mr Margaritis, thank you very much."
+    },
+    {
+     "who": "Στάθης",
+     "voice": "m",
+     "el": "Εγώ ευχαριστώ. Καλή συνέχεια στους ακροατές σας.",
+     "en": "Thank you. Have a good day, all your listeners."
+    }
+   ],
+   "gloss": {
+    "Μαργαρίτη": "Μαργαρίτης — Margaritis (surname; vocative)",
+    "Στάθης": "Στάθης — Stathis (man's name)",
+    "Ελένη": "Ελένη — Eleni (woman's name)",
+    "έκθεση": "έκθεση — report; exhibition",
+    "τουριστών": "τουρίστας — tourist (gen. pl. τουριστών)",
+    "κατοίκων": "κάτοικος — resident (gen. pl. κατοίκων)",
+    "μένουν πίσω": "μένω πίσω — to lag behind",
+    "Κυκλάδες": "Κυκλάδες — the Cyclades",
+    "επιβατών": "επιβάτης — passenger (gen. pl.)",
+    "τριπλάσιος": "τριπλάσιος — three times as large",
+    "μόνιμων": "μόνιμος — permanent (gen. pl.)",
+    "υπηρεσίες": "υπηρεσία — service",
+    "κέντρα υγείας": "κέντρο υγείας — health centre",
+    "έλλειψη": "έλλειψη — shortage",
+    "γιατρών": "γιατρός — doctor (gen. pl.)",
+    "νοσηλευτών": "νοσηλευτής — nurse (gen. pl.)",
+    "εργαζόμενοι": "εργαζόμενος — employee, worker",
+    "δήμαρχοι": "δήμαρχος — mayor",
+    "ξενοδοχείων": "ξενοδοχείο — hotel (gen. pl.)",
+    "πισινών": "πισίνα — swimming pool (gen. pl. πισινών)",
+    "στέγαση": "στέγαση — housing",
+    "ενοικίων": "ενοίκιο — rent (gen. pl.)",
+    "νοικιάζονται": "νοικιάζομαι — to be rented",
+    "στοιχεία": "στοιχείο — element; (pl.) data, findings",
+    "έσοδα": "έσοδα — revenue, income (pl.)",
+    "επιχειρήσεων": "επιχείρηση — business (gen. pl. επιχειρήσεων)",
+    "ερευνητών": "ερευνητής — researcher (gen. pl.)",
+    "κοινωνιών": "κοινωνία — society, community (gen. pl.)",
+    "προτιμήσεις": "προτίμηση — preference",
+    "επισκεπτών": "επισκέπτης — visitor (gen. pl.)",
+    "ακροατές": "ακροατής — listener"
+   },
+   "questions": [
+    {
+     "prompt": "Τι αυξήθηκε πολύ, σύμφωνα με την έκθεση;",
+     "answer": "Ο αριθμός των τουριστών",
+     "options": [
+      "Ο αριθμός των τουριστών",
+      "Ο αριθμός των μόνιμων κατοίκων",
+      "Ο αριθμός των γιατρών"
+     ]
+    },
+    {
+     "prompt": "Ποιοι δεν βρίσκουν σπίτι στα νησιά;",
+     "answer": "Οι δάσκαλοι και οι γιατροί",
+     "options": [
+      "Οι δάσκαλοι και οι γιατροί",
+      "Οι τουρίστες",
+      "Οι δήμαρχοι"
+     ]
+    },
+    {
+     "prompt": "«Οι ανάγκες ___ είναι τεράστιες.» (τα ξενοδοχεία)",
+     "answer": "των ξενοδοχείων",
+     "options": [
+      "των ξενοδοχείων",
+      "των ξενοδοχειών",
+      "των ξενοδόχειων"
+     ]
+    },
+    {
+     "prompt": "«Η πρόταση ___» (οι ερευνητές)",
+     "answer": "των ερευνητών",
+     "options": [
+      "των ερευνητών",
+      "των ερευνήτων",
+      "των ερευνητές"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Feminine -α: jump or stay?",
+   "head": [
+    "Jumps to -ών",
+    "",
+    "Does not jump",
+    ""
+   ],
+   "rows": [
+    [
+     "η γλώσσα",
+     "των **γλωσσών**",
+     "η ελπίδα",
+     "των **ελπίδων**"
+    ],
+    [
+     "η πόρτα",
+     "των **πορτών**",
+     "η ομάδα",
+     "των **ομάδων**"
+    ],
+    [
+     "η ώρα",
+     "των **ωρών**",
+     "η λαμπάδα",
+     "των **λαμπάδων**"
+    ],
+    [
+     "η νύχτα",
+     "των **νυχτών**",
+     "η πατρίδα",
+     "των **πατρίδων**"
+    ],
+    [
+     "η πισίνα",
+     "των **πισινών**",
+     "η μητέρα",
+     "των **μητέρων**"
+    ],
+    [
+     "η ευκαιρία",
+     "των **ευκαιριών**",
+     "η εικόνα",
+     "των **εικόνων**"
+    ],
+    [
+     "η συνέπεια",
+     "των **συνεπειών**",
+     "η ακτίνα",
+     "των **ακτίνων**"
+    ],
+    [
+     "η δουλειά",
+     "των **δουλειών**",
+     "η σταγόνα",
+     "των **σταγόνων**"
+    ],
+    [
+     "η μαθήτρια",
+     "των **μαθητριών**",
+     "η δυνατότητα",
+     "των **δυνατοτήτων** (moves, never to -ών)"
+    ],
+    [
+     "η μέρα",
+     "των **ημερών** (learned stem)",
+     "η κοινότητα",
+     "των **κοινοτήτων**"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "title": "The genitive singular traps",
+   "text": "The genitive singular looks easy because most nouns simply add -ς (feminines) or -ου (masc./neut. -ος, -ο), or drop the -ς (masculines in -ας, -ης, -ές, -ούς). The mistakes come from six places:\n\n**Feminines in -ος decline like masculines**: η οδός → **της οδού**, η είσοδος → **της εισόδου**, η Κύπρος → **της Κύπρου**, η περίοδος → **της περιόδου**. Never *της εισόδος*.\n\n**Learned stress shifts happen already in the singular**: ο άνθρωπος → **του ανθρώπου**, ο Αύγουστος → **του Αυγούστου**, το θέατρο → **του θεάτρου**, το έδαφος → **του εδάφους**, το πρόβλημα → **του προβλήματος**.\n\n**Neuters in -ος take -ους, not -ου**: το κράτος → **του κράτους**, το μέρος → **του μέρους**, το λάθος → **του λάθους**, το κόστος → **του κόστους**.\n\n**Feminines in -η of the πόλη type** have an everyday genitive in **-ης** and a formal one in **-εως** that still appears in names, set phrases and official texts: της πόλης / **της πόλεως**, της απόφασης / **της αποφάσεως**, της κυβέρνησης / **της κυβερνήσεως**. Both are correct; -ης is the neutral choice.\n\n**Masculines in -έας** have an ordinary genitive in -έα, but when the same noun refers to a woman the formal genitive is **-έως**: του συγγραφέα, but **της συγγραφέως** (everyday also της συγγραφέα).\n\n**Hidden stems**: το φως → **του φωτός**, το κρέας → **του κρέατος**, το προϊόν → **του προϊόντος**, το περιβάλλον → **του περιβάλλοντος**, το γεγονός → **του γεγονότος**. These come back in the next lesson."
+  },
+  {
+   "type": "table",
+   "title": "Genitive singular: right and wrong",
+   "head": [
+    "Nominative",
+    "Genitive singular",
+    "Not"
+   ],
+   "rows": [
+    [
+     "η οδός",
+     "της **οδού**",
+     "*της οδός*"
+    ],
+    [
+     "η είσοδος",
+     "της **εισόδου**",
+     "*της είσοδου, της εισόδος*"
+    ],
+    [
+     "το κράτος",
+     "του **κράτους**",
+     "*του κράτου*"
+    ],
+    [
+     "το έδαφος",
+     "του **εδάφους**",
+     "*του έδαφου*"
+    ],
+    [
+     "το πρόβλημα",
+     "του **προβλήματος**",
+     "*του προβλήμα*"
+    ],
+    [
+     "ο Αύγουστος",
+     "του **Αυγούστου**",
+     "*του Αύγουστου*"
+    ],
+    [
+     "ο συγγραφέας / η συγγραφέας",
+     "του **συγγραφέα** / της **συγγραφέως** (or συγγραφέα)",
+     "*του συγγραφέως* for a man in speech"
+    ],
+    [
+     "η πόλη",
+     "της **πόλης** (formal **πόλεως**)",
+     "*της πόλεις*"
+    ],
+    [
+     "η Ελλάδα",
+     "της **Ελλάδας** (formal **Ελλάδος**)",
+     "*της Ελλάδου*"
+    ],
+    [
+     "ο παππούς, ο καφές",
+     "του **παππού**, του **καφέ**",
+     "*του παππούδου, του καφέδου*"
+    ],
+    [
+     "το φως, το κρέας",
+     "του **φωτός**, του **κρέατος**",
+     "*του φωσού, του κρέα*"
+    ],
+    [
+     "το περιβάλλον",
+     "του **περιβάλλοντος**",
+     "*του περιβάλλου*"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Genitive plurals at work",
+   "items": [
+    {
+     "el": "Η εκμάθηση ξένων γλωσσών ξεκινά από το δημοτικό.",
+     "en": "Learning foreign languages starts at primary school."
+    },
+    {
+     "el": "Ο σύλλογος γονέων οργανώνει γιορτή στο τέλος της χρονιάς.",
+     "en": "The parents' association organises a party at the end of the year."
+    },
+    {
+     "el": "Τα αποτελέσματα των εκλογών ανακοινώθηκαν μετά τα μεσάνυχτα.",
+     "en": "The election results were announced after midnight."
+    },
+    {
+     "el": "Η ποιότητα των ελληνικών προϊόντων είναι πολύ υψηλή.",
+     "en": "The quality of Greek products is very high."
+    },
+    {
+     "el": "Η σειρά των γεγονότων δεν είναι ακόμα σαφής.",
+     "en": "The sequence of events is not yet clear."
+    },
+    {
+     "el": "Οι εκπρόσωποι των κομμάτων συναντήθηκαν στη Βουλή.",
+     "en": "The parties' representatives met in Parliament."
+    },
+    {
+     "el": "Μάζεψε τα κομμάτια των σπασμένων ποτηριών.",
+     "en": "Pick up the pieces of the broken glasses."
+    },
+    {
+     "el": "Η μόλυνση των δασών και των ποταμών μάς αφορά όλους.",
+     "en": "The pollution of forests and rivers concerns us all."
+    },
+    {
+     "el": "Η ομάδα έχασε λόγω των πολλών λαθών στην άμυνα.",
+     "en": "The team lost because of all the mistakes in defence."
+    },
+    {
+     "el": "Ο Οργανισμός Ηνωμένων Εθνών ιδρύθηκε το 1945.",
+     "en": "The United Nations Organisation was founded in 1945."
+    }
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Genitive singulars that catch people out",
+   "items": [
+    {
+     "el": "Το γραφείο είναι στο τέλος της οδού Σταδίου.",
+     "en": "The office is at the end of Stadiou Street."
+    },
+    {
+     "el": "Οι διακοπές μας ήταν στις αρχές του Αυγούστου.",
+     "en": "Our holiday was at the beginning of August."
+    },
+    {
+     "el": "Ο προϋπολογισμός του κράτους ψηφίζεται τον Δεκέμβριο.",
+     "en": "The state budget is voted on in December."
+    },
+    {
+     "el": "Η προστασία του περιβάλλοντος είναι προτεραιότητα του δήμου.",
+     "en": "Protecting the environment is a priority for the municipality."
+    },
+    {
+     "el": "Η ταχύτητα του φωτός είναι περίπου τριακόσιες χιλιάδες χιλιόμετρα το δευτερόλεπτο.",
+     "en": "The speed of light is about three hundred thousand kilometres per second."
+    },
+    {
+     "el": "Το βιβλίο της συγγραφέως κέρδισε κρατικό βραβείο.",
+     "en": "The (woman) author's book won a state prize."
+    },
+    {
+     "el": "Η Τράπεζα της Ελλάδος βρίσκεται στην οδό Πανεπιστημίου.",
+     "en": "The Bank of Greece is on Panepistimiou Street."
+    },
+    {
+     "el": "Στο τέλος της περιόδου οι τιμές πέφτουν.",
+     "en": "At the end of the season prices fall."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Common mistakes.** (1) Putting the stress on -ών everywhere: *ελπιδών, εβδομαδών, εφημεριδών* → **ελπίδων, εβδομάδων, εφημερίδων**. (2) Forgetting the jump: *των θάλασσων, των τέχνων, των εργάτων* → **θαλασσών, τεχνών, εργατών**; masculines in -ης *always* jump. (3) Keeping the dictionary stress on learned nouns: *των άνθρωπων, των κάτοικων, των πρόβλημάτων* → **ανθρώπων, κατοίκων, προβλημάτων**. (4) -ότητα nouns: *ταυτοτητών* → **ταυτοτήτων**. (5) κόμμα vs κομμάτι: **των κομμάτων** (parties) but **των κομματιών** (pieces). (6) μέρα: the genitive plural is normally **ημερών**. (7) γονείς: formal **γονέων** (σύλλογος γονέων), everyday also **γονιών**. (8) In the singular: feminine -ος takes **-ου** (της εισόδου), neuter -ος takes **-ους** (του κράτους)."
+  },
+  {
+   "type": "culture",
+   "title": "Φιλελλήνων, Ηρώων Πολυτεχνείου",
+   "text": "Greek street names are full of genitive plurals, which is why the forms in this lesson are worth knowing by sight. Behind Syntagma runs **οδός Φιλελλήνων** 'Street of the Philhellenes', honouring the foreigners who backed the War of Independence. Piraeus has its main avenue **Ηρώων Πολυτεχνείου** 'Heroes of the Polytechnic', after the students of November 1973. In Thessaloniki people meet at **Πλατεία Δικαστηρίων** 'Courts Square'. Neighbourhoods do the same: **Άγιοι Ανάργυροι** in Athens gives *οι κάτοικοι των Αγίων Αναργύρων*. Read them aloud and you'll hear the stress on -ών or one syllable before."
+  },
+  {
+   "type": "reading",
+   "title": "Μια μέρα στη Βαρβάκειο Αγορά",
+   "text": "Η Βαρβάκειος Αγορά, στην οδό Αθηνάς, είναι η κεντρική αγορά της Αθήνας εδώ και πάνω από εκατό χρόνια. Πήρε το όνομά της από τον Ιωάννη Βαρβάκη, έναν πλούσιο έμπορο από τα Ψαρά. Από νωρίς το πρωί ακούς τις φωνές των πωλητών και τα γέλια των πελατών.\n\nΣτη μέση βρίσκεται η αγορά των ψαριών. Οι πάγκοι των ψαράδων είναι γεμάτοι χταπόδια, γαρίδες και σαρδέλες, και οι τιμές των φρέσκων ψαριών αλλάζουν κάθε μέρα. Γύρω γύρω είναι τα μαγαζιά των κρεοπωλών. Οι νοικοκυρές συγκρίνουν τις τιμές των κρεάτων και ρωτούν για την ποιότητα των αρνιών και των κατσικιών, κυρίως πριν από το Πάσχα.\n\nΑπέναντι, στην πλατεία, είναι η αγορά των φρούτων και των λαχανικών. Εκεί βλέπεις τα χρώματα όλων των εποχών: το κόκκινο των ντοματών, το πράσινο των αγγουριών, το κίτρινο των λεμονιών. Στα στενά γύρω από την αγορά υπάρχουν μαγαζιά με μπαχαρικά, ελιές και τυριά, αλλά και παλιά καφενεία.\n\nΗ αγορά έχει όμως και τα προβλήματά της. Οι ιδιοκτήτες των μαγαζιών παραπονιούνται για το κόστος των λογαριασμών και για τη μείωση των πελατών, γιατί πολλοί ψωνίζουν πια στα σουπερμάρκετ των προαστίων. Παρ' όλα αυτά, η Βαρβάκειος μένει ένα από τα πιο ζωντανά μέρη της πόλης. Για πολλούς επισκέπτες, μια βόλτα ανάμεσα στους πάγκους είναι το καλύτερο μάθημα για την καθημερινή ζωή των Αθηναίων.",
+   "en": "The Varvakios Market, on Athinas Street, has been the central market of Athens for over a hundred years. It took its name from Ioannis Varvakis, a rich merchant from Psara. From early morning you hear the shouts of the sellers and the laughter of the customers.\n\nIn the middle is the fish market. The fishmongers' stalls are full of octopus, prawns and sardines, and the prices of fresh fish change every day. All around are the butchers' shops. Housewives compare the prices of the meats and ask about the quality of the lambs and kids, especially before Easter.\n\nOpposite, on the square, is the fruit and vegetable market. There you see the colours of every season: the red of the tomatoes, the green of the cucumbers, the yellow of the lemons. In the narrow streets around the market there are shops with spices, olives and cheeses, and old coffee houses too.\n\nBut the market has its problems. The shop owners complain about the cost of the bills and the fall in customers, because many people now shop at the supermarkets in the suburbs. Even so, the Varvakios remains one of the liveliest places in the city. For many visitors, a walk among the stalls is the best lesson in the everyday life of Athenians.",
+   "gloss": {
+    "Βαρβάκειος": "Βαρβάκειος Αγορά — the Varvakios Market, Athens' central market",
+    "Βαρβάκειο": "Βαρβάκειος Αγορά — the Varvakios Market (acc.)",
+    "Αθηνάς": "Αθηνάς — Athinas Street (gen. of Αθηνά 'Athena')",
+    "Ιωάννη": "Ιωάννης — Ioannis (acc.)",
+    "Βαρβάκη": "Βαρβάκης — Varvakis (surname, acc.)",
+    "έμπορο": "έμπορος — merchant (acc.)",
+    "Ψαρά": "Ψαρά — Psara (island; plural noun)",
+    "πωλητών": "πωλητής — seller (gen. pl.)",
+    "πελατών": "πελάτης — customer (gen. pl.)",
+    "ψαριών": "ψάρι — fish (gen. pl.)",
+    "πάγκοι": "πάγκος — stall, counter",
+    "πάγκους": "πάγκος — stall (acc. pl.)",
+    "ψαράδων": "ψαράς — fisherman, fishmonger (gen. pl. ψαράδων)",
+    "χταπόδια": "χταπόδι — octopus",
+    "γαρίδες": "γαρίδα — prawn, shrimp",
+    "σαρδέλες": "σαρδέλα — sardine",
+    "κρεοπωλών": "κρεοπώλης — butcher (gen. pl.)",
+    "νοικοκυρές": "νοικοκυρά — housewife",
+    "συγκρίνουν": "συγκρίνω — to compare",
+    "κρεάτων": "κρέας — meat (gen. pl. κρεάτων)",
+    "αρνιών": "αρνί — lamb (gen. pl.)",
+    "κατσικιών": "κατσίκι — kid, young goat (gen. pl.)",
+    "λαχανικών": "λαχανικό — vegetable (gen. pl.)",
+    "εποχών": "εποχή — season (gen. pl.)",
+    "ντοματών": "ντομάτα — tomato (gen. pl.)",
+    "αγγουριών": "αγγούρι — cucumber (gen. pl.)",
+    "λεμονιών": "λεμόνι — lemon (gen. pl.)",
+    "μπαχαρικά": "μπαχαρικό — spice",
+    "καφενεία": "καφενείο — traditional coffee house",
+    "παραπονιούνται": "παραπονιέμαι — to complain",
+    "λογαριασμών": "λογαριασμός — bill (gen. pl.)",
+    "μείωση": "μείωση — decrease",
+    "προαστίων": "προάστιο — suburb (gen. pl.)",
+    "Αθηναίων": "Αθηναίος — Athenian (gen. pl.)",
+    "Παρ'": "παρ' όλα αυτά — even so, nevertheless",
+    "ζωντανά": "ζωντανός — lively (neut. pl.)"
+   },
+   "questions": [
+    {
+     "prompt": "Από πού πήρε το όνομά της η αγορά;",
+     "answer": "Από έναν πλούσιο έμπορο από τα Ψαρά",
+     "options": [
+      "Από έναν πλούσιο έμπορο από τα Ψαρά",
+      "Από την οδό Αθηνάς",
+      "Από ένα παλιό καφενείο"
+     ]
+    },
+    {
+     "prompt": "Τι υπάρχει στη μέση της αγοράς;",
+     "answer": "Η αγορά των ψαριών",
+     "options": [
+      "Η αγορά των ψαριών",
+      "Η αγορά των φρούτων",
+      "Τα μαγαζιά των κρεοπωλών"
+     ]
+    },
+    {
+     "prompt": "Για τι παραπονιούνται οι ιδιοκτήτες των μαγαζιών;",
+     "answer": "Για το κόστος των λογαριασμών και τη μείωση των πελατών",
+     "options": [
+      "Για το κόστος των λογαριασμών και τη μείωση των πελατών",
+      "Για τις τιμές των ψαριών",
+      "Για τους τουρίστες"
+     ]
+    },
+    {
+     "prompt": "Πού ψωνίζουν πολλοί άνθρωποι σήμερα;",
+     "answer": "Στα σουπερμάρκετ των προαστίων",
+     "options": [
+      "Στα σουπερμάρκετ των προαστίων",
+      "Στους πάγκους των ψαράδων",
+      "Στα στενά γύρω από την αγορά"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "decline",
+   "ids": [
+    "f-α-b",
+    "f-η-ες",
+    "f-α-a",
+    "m-ης",
+    "m-ας-a",
+    "f-η-εις",
+    "n-μα",
+    "n-ο-a",
+    "m-ος-antepenult-a",
+    "f-ος",
+    "n-ος-3syl",
+    "n-ι",
+    "n-ί",
+    "m-έας",
+    "m-imparisyllabic-penult",
+    "f-imparisyllabic-ά",
+    "n-ας"
+   ],
+   "cells": [
+    "pl.gen"
+   ],
+   "n": 14
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Η εκμάθηση ξένων ___ (η γλώσσα)",
+     "answer": "γλωσσών",
+     "accept": [
+      "γλωσσών"
+     ],
+     "why": "Ordinary -α feminines put the genitive plural stress on -ών."
+    },
+    {
+     "prompt": "Τα χρώματα των ___ στη Σαντορίνη (η πόρτα)",
+     "answer": "πορτών",
+     "accept": [
+      "πορτών"
+     ],
+     "why": "πόρτα → πορτών: default -α feminine, stress jumps to the ending."
+    },
+    {
+     "prompt": "Το Ψυχοσάββατο είναι η μέρα των ___ (η ψυχή)",
+     "answer": "ψυχών",
+     "accept": [
+      "ψυχών"
+     ],
+     "why": "-η feminines with plural -ες jump to -ών: ψυχών."
+    },
+    {
+     "prompt": "Η λίστα των ___ στο πρόγραμμα (η αλλαγή)",
+     "answer": "αλλαγών",
+     "accept": [
+      "αλλαγών"
+     ],
+     "why": "αλλαγή → αλλαγών."
+    },
+    {
+     "prompt": "Η μοιρασιά των ___ του σπιτιού (η δουλειά)",
+     "answer": "δουλειών",
+     "accept": [
+      "δουλειών"
+     ],
+     "why": "-ιά nouns: -ιών, still on the ending."
+    },
+    {
+     "prompt": "Οι μετοχές των μεγάλων ___ (η εταιρεία)",
+     "answer": "εταιρειών",
+     "accept": [
+      "εταιρειών"
+     ],
+     "why": "-εία → -ειών: stress on the ending."
+    },
+    {
+     "prompt": "Η ισότητα των ___ (η ευκαιρία)",
+     "answer": "ευκαιριών",
+     "accept": [
+      "ευκαιριών"
+     ],
+     "why": "-ία → -ιών."
+    },
+    {
+     "prompt": "Αναλύσαμε τις αιτίες και τις συνέπειες. Η ανάλυση των ___ πήρε ώρες. (η συνέπεια)",
+     "answer": "συνεπειών",
+     "accept": [
+      "συνεπειών"
+     ],
+     "why": "-εια abstracts jump to -ειών."
+    },
+    {
+     "prompt": "Το Πάσχα τα παιδιά κρατούν λαμπάδες. Οι τιμές των ___ ανέβηκαν φέτος. (η λαμπάδα)",
+     "answer": "λαμπάδων",
+     "accept": [
+      "λαμπάδων"
+     ],
+     "why": "-άδα nouns keep their stress: λαμπάδων."
+    },
+    {
+     "prompt": "Η γιορτή των ___ είναι τον Μάιο. (η μητέρα)",
+     "answer": "μητέρων",
+     "accept": [
+      "μητέρων"
+     ],
+     "why": "μητέρα is one of the -α nouns that keep the stress: μητέρων."
+    },
+    {
+     "prompt": "Μια συλλογή βυζαντινών ___ (η εικόνα)",
+     "answer": "εικόνων",
+     "accept": [
+      "εικόνων"
+     ],
+     "why": "εικόνα keeps the stress: εικόνων."
+    },
+    {
+     "prompt": "Η αξιολόγηση των ___ του προσωπικού (η δυνατότητα)",
+     "answer": "δυνατοτήτων",
+     "accept": [
+      "δυνατοτήτων"
+     ],
+     "why": "-ότητα nouns move the stress to the second-to-last: δυνατοτήτων."
+    },
+    {
+     "prompt": "Η συνεργασία των τοπικών ___ (η κοινότητα)",
+     "answer": "κοινοτήτων",
+     "accept": [
+      "κοινοτήτων"
+     ],
+     "why": "κοινότητα → κοινοτήτων."
+    },
+    {
+     "prompt": "Ένα ταξίδι τριών ___ (η μέρα)",
+     "answer": "ημερών",
+     "accept": [
+      "ημερών",
+      "μερών"
+     ],
+     "why": "μέρα takes its genitive plural from ημέρα: ημερών."
+    },
+    {
+     "prompt": "Τα μαθήματα των ξένων ___ (η μαθήτρια)",
+     "answer": "μαθητριών",
+     "accept": [
+      "μαθητριών"
+     ],
+     "why": "-τρια nouns jump to -ών: μαθητριών."
+    },
+    {
+     "prompt": "Τα δικαιώματα των ___ (ο πολίτης)",
+     "answer": "πολιτών",
+     "accept": [
+      "πολιτών"
+     ],
+     "why": "Every masculine in -ης has gen. pl. -ών."
+    },
+    {
+     "prompt": "Οι ουρές των ___ στο λιμάνι (ο επιβάτης)",
+     "answer": "επιβατών",
+     "accept": [
+      "επιβατών"
+     ],
+     "why": "επιβάτης → επιβατών."
+    },
+    {
+     "prompt": "Η πιάτσα των ___ έξω από τον σταθμό (ο ταξιτζής)",
+     "answer": "ταξιτζήδων",
+     "accept": [
+      "ταξιτζήδων"
+     ],
+     "why": "Imparisyllabic -ής (pl. -ήδες) keeps the plural's stress: ταξιτζήδων."
+    },
+    {
+     "prompt": "Οι τιμές των ___ στις καφετέριες (ο καφές)",
+     "answer": "καφέδων",
+     "accept": [
+      "καφέδων"
+     ],
+     "why": "καφές → καφέδες → καφέδων."
+    },
+    {
+     "prompt": "Το καφενείο των ___ στην πλατεία (ο παππούς)",
+     "answer": "παππούδων",
+     "accept": [
+      "παππούδων"
+     ],
+     "why": "παππούς → παππούδες → παππούδων."
+    },
+    {
+     "prompt": "Η διάρκεια των καλοκαιρινών ___ (ο μήνας)",
+     "answer": "μηνών",
+     "accept": [
+      "μηνών"
+     ],
+     "why": "μήνας is one of the -ας masculines that jump: μηνών."
+    },
+    {
+     "prompt": "Η ομάδα μπάσκετ των ___ (ο άντρας)",
+     "answer": "αντρών",
+     "accept": [
+      "αντρών",
+      "ανδρών"
+     ],
+     "why": "άντρας → αντρών (formal ανδρών)."
+    },
+    {
+     "prompt": "Οι νικητές των ___ (ο αγώνας)",
+     "answer": "αγώνων",
+     "accept": [
+      "αγώνων"
+     ],
+     "why": "Other penult-stressed -ας masculines keep the stress: αγώνων."
+    },
+    {
+     "prompt": "Ο σύλλογος ___ του σχολείου (ο γονέας / οι γονείς)",
+     "answer": "γονέων",
+     "accept": [
+      "γονέων",
+      "γονιών"
+     ],
+     "why": "Formal γονέων (σύλλογος γονέων); in speech also γονιών from γονιός."
+    },
+    {
+     "prompt": "Τα βιβλία των νέων ___ (ο συγγραφέας)",
+     "answer": "συγγραφέων",
+     "accept": [
+      "συγγραφέων"
+     ],
+     "why": "-έας masculines: -έων, stress unchanged."
+    },
+    {
+     "prompt": "Η συνέλευση των ___ της πολυκατοικίας (ο ένοικος)",
+     "answer": "ενοίκων",
+     "accept": [
+      "ενοίκων"
+     ],
+     "why": "ένοικος is a learned -ος noun: the stress moves to the second-to-last, ενοίκων."
+    },
+    {
+     "prompt": "Η καταμέτρηση των ___ κράτησε όλη τη νύχτα. (η ψήφος)",
+     "answer": "ψήφων",
+     "accept": [
+      "ψήφων"
+     ],
+     "why": "Feminine -ος declines like masculine -ος; ψήφος is penult-stressed, so ψήφων."
+    },
+    {
+     "prompt": "Τα ονόματα των ___ της πόλης (η οδός)",
+     "answer": "οδών",
+     "accept": [
+      "οδών"
+     ],
+     "why": "οδός is final-stressed: οδών."
+    },
+    {
+     "prompt": "Τα φανάρια των μεγάλων ___ (η λεωφόρος)",
+     "answer": "λεωφόρων",
+     "accept": [
+      "λεωφόρων"
+     ],
+     "why": "λεωφόρος keeps the penult stress: λεωφόρων."
+    },
+    {
+     "prompt": "Η επιλογή των σωστών ___ διδασκαλίας (η μέθοδος)",
+     "answer": "μεθόδων",
+     "accept": [
+      "μεθόδων"
+     ],
+     "why": "μέθοδος → μεθόδων, learned shift."
+    },
+    {
+     "prompt": "Οι εκπρόσωποι των πολιτικών ___ (το κόμμα)",
+     "answer": "κομμάτων",
+     "accept": [
+      "κομμάτων"
+     ],
+     "why": "κόμμα (party) is a -μα neuter: κομμάτων."
+    },
+    {
+     "prompt": "Μάζεψε τα κομμάτια. Ο αριθμός των ___ (το κομμάτι)",
+     "answer": "κομματιών",
+     "accept": [
+      "κομματιών"
+     ],
+     "why": "κομμάτι (piece) is an -ι neuter: κομματιών."
+    },
+    {
+     "prompt": "Ο ήχος των ___ (το κύμα)",
+     "answer": "κυμάτων",
+     "accept": [
+      "κυμάτων"
+     ],
+     "why": "-μα neuters: -μάτων."
+    },
+    {
+     "prompt": "Η ποιότητα των ελληνικών ___ (το προϊόν)",
+     "answer": "προϊόντων",
+     "accept": [
+      "προϊόντων"
+     ],
+     "why": "προϊόν has the stem προϊοντ-: προϊόντων."
+    },
+    {
+     "prompt": "Η χρονολογία των ___ (το γεγονός)",
+     "answer": "γεγονότων",
+     "accept": [
+      "γεγονότων"
+     ],
+     "why": "γεγονός → γεγονότος → γεγονότων."
+    },
+    {
+     "prompt": "Ο Οργανισμός Ηνωμένων ___ (το έθνος)",
+     "answer": "Εθνών",
+     "accept": [
+      "Εθνών",
+      "εθνών"
+     ],
+     "why": "Neuter -ος nouns jump to -ών: εθνών."
+    },
+    {
+     "prompt": "Η προστασία των ___ από τις πυρκαγιές (το δάσος)",
+     "answer": "δασών",
+     "accept": [
+      "δασών"
+     ],
+     "why": "δάσος → δασών."
+    },
+    {
+     "prompt": "Η πληρωμή των ___ κυκλοφορίας (τα τέλη)",
+     "answer": "τελών",
+     "accept": [
+      "τελών"
+     ],
+     "why": "τέλος (fee) → τέλη → τελών."
+    },
+    {
+     "prompt": "Τα αποτελέσματα των ___ του αίματος (η εξέταση)",
+     "answer": "εξετάσεων",
+     "accept": [
+      "εξετάσεων"
+     ],
+     "why": "-η nouns with plural -εις: -εων, stressed just before: εξετάσεων."
+    },
+    {
+     "prompt": "Ο αριθμός των ___ σε ένα κείμενο (η λέξη)",
+     "answer": "λέξεων",
+     "accept": [
+      "λέξεων"
+     ],
+     "why": "Two-syllable -ση/-ξη nouns: λέξεις → λέξεων."
+    },
+    {
+     "prompt": "Ο σεβασμός των διαφορετικών ___ (η άποψη)",
+     "answer": "απόψεων",
+     "accept": [
+      "απόψεων"
+     ],
+     "why": "άποψη → απόψεις → απόψεων."
+    },
+    {
+     "prompt": "Η είσοδος των ___ στο δημοτικό (ο μαθητής)",
+     "answer": "μαθητών",
+     "accept": [
+      "μαθητών"
+     ],
+     "why": "-ής masculines: always -ών."
+    }
+   ],
+   "n": 26
+  },
+  {
+   "gen": "decline",
+   "ids": [
+    "n-ος-2syl",
+    "n-ον",
+    "f-ος",
+    "m-ος-antepenult-a",
+    "n-μα",
+    "f-η-εις",
+    "m-έας",
+    "n-ο-a",
+    "n-ι"
+   ],
+   "cells": [
+    "sg.gen"
+   ],
+   "n": 6
+  },
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Στο τέλος της ___ (η οδός)",
+     "answer": "οδού",
+     "accept": [
+      "οδού"
+     ],
+     "why": "Feminine -ος nouns take -ου in the genitive: της οδού."
+    },
+    {
+     "prompt": "Οι πόρτες της ___ (η είσοδος)",
+     "answer": "εισόδου",
+     "accept": [
+      "εισόδου"
+     ],
+     "why": "είσοδος → εισόδου: -ου, stress to the second-to-last."
+    },
+    {
+     "prompt": "Ο πρόεδρος της ___ (η Κύπρος)",
+     "answer": "Κύπρου",
+     "accept": [
+      "Κύπρου",
+      "κύπρου"
+     ],
+     "why": "Islands in -ος are feminine but decline like masculines: της Κύπρου."
+    },
+    {
+     "prompt": "Η εξουσία του ___ (το κράτος)",
+     "answer": "κράτους",
+     "accept": [
+      "κράτους"
+     ],
+     "why": "Neuters in -ος: genitive -ους."
+    },
+    {
+     "prompt": "Στο πρώτο μισό του ___ (το μέρος)",
+     "answer": "μέρους",
+     "accept": [
+      "μέρους"
+     ],
+     "why": "μέρος → μέρους."
+    },
+    {
+     "prompt": "Η επιφάνεια του ___ (το έδαφος)",
+     "answer": "εδάφους",
+     "accept": [
+      "εδάφους"
+     ],
+     "why": "έδαφος → εδάφους: -ους plus a stress shift."
+    },
+    {
+     "prompt": "Η λύση του ___ (το πρόβλημα)",
+     "answer": "προβλήματος",
+     "accept": [
+      "προβλήματος"
+     ],
+     "why": "-μα neuters: -ματος."
+    },
+    {
+     "prompt": "Ο δεκαπενταύγουστος είναι στη μέση του ___ (ο Αύγουστος)",
+     "answer": "Αυγούστου",
+     "accept": [
+      "Αυγούστου",
+      "αυγούστου"
+     ],
+     "why": "Months follow άνθρωπος: Αυγούστου."
+    },
+    {
+     "prompt": "Η προστασία του ___ (το περιβάλλον)",
+     "answer": "περιβάλλοντος",
+     "accept": [
+      "περιβάλλοντος"
+     ],
+     "why": "-ον neuters: genitive -οντος."
+    },
+    {
+     "prompt": "Η ταχύτητα του ___ (το φως)",
+     "answer": "φωτός",
+     "accept": [
+      "φωτός"
+     ],
+     "why": "φως → φωτός (stem φωτ-)."
+    },
+    {
+     "prompt": "Το καινούριο βιβλίο της ___ (η συγγραφέας, formal)",
+     "answer": "συγγραφέως",
+     "accept": [
+      "συγγραφέως",
+      "συγγραφέα"
+     ],
+     "why": "For a woman, the formal genitive of -έας nouns is -έως; everyday συγγραφέα."
+    },
+    {
+     "prompt": "Η Τράπεζα της ___ (η Ελλάδα, official name)",
+     "answer": "Ελλάδος",
+     "accept": [
+      "Ελλάδος",
+      "ελλάδος",
+      "Ελλάδας"
+     ],
+     "why": "Official names keep the old genitive Ελλάδος; everyday Ελλάδας."
+    },
+    {
+     "prompt": "Το κέντρο της ___ (η πόλη)",
+     "answer": "πόλης",
+     "accept": [
+      "πόλης",
+      "πόλεως"
+     ],
+     "why": "Everyday genitive πόλης; formal πόλεως."
+    },
+    {
+     "prompt": "Η γνώμη του ___ (ο παππούς)",
+     "answer": "παππού",
+     "accept": [
+      "παππού"
+     ],
+     "why": "παππούς → του παππού: drop the -ς."
+    },
+    {
+     "prompt": "Το άρωμα του ___ (ο καφές)",
+     "answer": "καφέ",
+     "accept": [
+      "καφέ"
+     ],
+     "why": "καφές → του καφέ."
+    },
+    {
+     "prompt": "Η συνέχεια της ___ (η περίοδος)",
+     "answer": "περιόδου",
+     "accept": [
+      "περιόδου"
+     ],
+     "why": "περίοδος → περιόδου."
+    }
+   ],
+   "n": 12
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "των ___ (η ελπίδα)",
+     "answer": "ελπίδων",
+     "options": [
+      "ελπίδων",
+      "ελπιδών",
+      "έλπιδων"
+     ],
+     "why": "-ίδα nouns keep the stress: ελπίδων."
+    },
+    {
+     "prompt": "των ___ (η ομάδα)",
+     "answer": "ομάδων",
+     "options": [
+      "ομάδων",
+      "ομαδών",
+      "όμαδων"
+     ],
+     "why": "-άδα nouns keep the stress: ομάδων."
+    },
+    {
+     "prompt": "των ___ (η θάλασσα)",
+     "answer": "θαλασσών",
+     "options": [
+      "θαλασσών",
+      "θάλασσων",
+      "θαλάσσων"
+     ],
+     "why": "Default -α feminine: θαλασσών."
+    },
+    {
+     "prompt": "των ___ (η ποσότητα)",
+     "answer": "ποσοτήτων",
+     "options": [
+      "ποσοτήτων",
+      "ποσοτητών",
+      "ποσότητων"
+     ],
+     "why": "-ότητα: second-to-last, never -ών."
+    },
+    {
+     "prompt": "των ___ (ο εργάτης)",
+     "answer": "εργατών",
+     "options": [
+      "εργατών",
+      "εργάτων",
+      "εργατέων"
+     ],
+     "why": "Masculine -ης: always -ών."
+    },
+    {
+     "prompt": "των ___ (ο γείτονας)",
+     "answer": "γειτόνων",
+     "options": [
+      "γειτόνων",
+      "γειτονών",
+      "γείτονων"
+     ],
+     "why": "Antepenult -ας: gen. pl. on the second-to-last."
+    },
+    {
+     "prompt": "των ___ (η πόλη)",
+     "answer": "πόλεων",
+     "options": [
+      "πόλεων",
+      "πολεών",
+      "πόλων"
+     ],
+     "why": "πόλη → πόλεις → πόλεων."
+    },
+    {
+     "prompt": "των ___ (το κύμα)",
+     "answer": "κυμάτων",
+     "options": [
+      "κυμάτων",
+      "κύματων",
+      "κυματών"
+     ],
+     "why": "-μα: -μάτων."
+    },
+    {
+     "prompt": "Which one means 'of the (political) parties'?",
+     "answer": "των κομμάτων",
+     "options": [
+      "των κομμάτων",
+      "των κομματιών",
+      "των κομμών"
+     ],
+     "why": "κόμμα (party) → κομμάτων; κομμάτι (piece) → κομματιών."
+    },
+    {
+     "prompt": "της ___ (η περίοδος)",
+     "answer": "περιόδου",
+     "options": [
+      "περιόδου",
+      "περίοδου",
+      "περιόδος"
+     ],
+     "why": "Feminine -ος: -ου with the learned stress shift."
+    },
+    {
+     "prompt": "του ___ (το έδαφος)",
+     "answer": "εδάφους",
+     "options": [
+      "εδάφους",
+      "έδαφου",
+      "εδάφου"
+     ],
+     "why": "Neuter -ος: -ους; the stress moves to the second-to-last."
+    },
+    {
+     "prompt": "των ___ (το γεγονός)",
+     "answer": "γεγονότων",
+     "options": [
+      "γεγονότων",
+      "γεγονών",
+      "γεγονοτών"
+     ],
+     "why": "γεγονός has the stem γεγονοτ-: γεγονότων."
+    }
+   ],
+   "n": 10
+  }
+ ],
+ "vocab": [
+  "πολίτης",
+  "κάτοικος",
+  "επιβάτης",
+  "εταιρεία",
+  "ευκαιρία",
+  "συνέπεια",
+  "γεγονός",
+  "προϊόν",
+  "κόμμα",
+  "ψήφος",
+  "άποψη",
+  "έρευνα"
+ ]
+}
