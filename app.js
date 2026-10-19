@@ -692,7 +692,7 @@
       let list = b.items || (await resolve(b.src));
       if (typeof list === "string") list = [list];
       if (b.pick) list = b.pick.map((i) => list[i]).filter(Boolean);
-      return `${b.title ? `<h3>${esc(b.title)}</h3>` : ""}<ul>${list.map((r) => `<li>${md(r)}</li>`).join("")}</ul>${srcNote(b)}`;
+      return `${b.title ? `<h3>${esc(b.title)}</h3>` : ""}<ul>${list.map((r) => `<li>${ruleItem(r)}</li>`).join("")}</ul>${srcNote(b)}`;
     },
     async examples(b) {
       let list = b.items || (await resolve(b.src));
@@ -1283,6 +1283,18 @@
       <ul class="ex-list">${photos.map((p) => `<li><span class="ex-el" lang="el">${esc(p.caption)}</span><span class="ex-en">${esc(p.credit)} · <a href="${esc(p.source)}" target="_blank" rel="noopener">${esc(p.license)}, source</a></span></li>`).join("")}</ul>
       <p><a href="#">← Back to the course</a></p>`;
     window.scrollTo(0, 0);
+  }
+
+  // A rule item may be a string or an object ({rule, examples: [{el, en}]}); objects show their text and examples.
+  function ruleItem(r) {
+    if (r == null) return "";
+    if (typeof r !== "object") return md(String(r));
+    const text = r.rule || r.text || r.note || r.description || r.en || "";
+    const ex = [].concat(r.examples || r.example || []).map((x) => typeof x === "object" && x
+      ? `<span lang="el">${esc(x.el || x.form || "")}</span>${x.ipa ? ` [${esc(x.ipa)}]` : ""}${x.en || x.gloss ? ` <span class="ex-en">${esc(x.en || x.gloss)}</span>` : ""}`
+      : `<span lang="el">${esc(x)}</span>`);
+    const head = text ? md(String(text)) : r.el ? `<span lang="el">${esc(r.el)}</span>${r.en ? ` <span class="ex-en">${esc(r.en)}</span>` : ""}` : "";
+    return head + (ex.length ? `<br>${ex.join(" · ")}` : "");
   }
 
   /* ---------- add-on hook: library.js and later modules register routes in window.EllinikaAddons ---------- */

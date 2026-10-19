@@ -59,6 +59,27 @@
     const cols = new Set(ls.map(([p]) => p.filter((k) => !ROWS.includes(k)).join("|")));
     return cols.size <= 4 ? ls : null;
   }
+  // Any form value as plain text: "a / b" strings stay, lists join, {form, en} keeps its gloss, {gen: …} keeps its label.
+  const SHORT = { nom: "nom.", acc: "acc.", gen: "gen.", voc: "voc.", nom_acc: "nom./acc.", sg: "sg.", pl: "pl." };
+  function fv(v) {
+    if (v == null) return "";
+    if (typeof v !== "object") return String(v);
+    if (Array.isArray(v)) return v.map(fv).filter(Boolean).join(", ");
+    if (v.form || v.el) return fv(v.form || v.el) + (v.en || v.gloss ? ` (${fv(v.en || v.gloss)})` : "");
+    return Object.entries(v).filter(([k, x]) => !HIDE.has(k) && x != null).map(([k, x]) => `${SHORT[k] || lab(k)} ${fv(x)}`).join(", ");
+  }
+  // Singular → plural entries: irregular neuters ({lemma, sg: {gen}, pl: {nom, gen}}) and gender-changing plurals ({sg, pl: [{form, en}]}).
+  function sgPl(x) {
+    const head = x.lemma || (typeof x.sg === "string" ? x.sg : "");
+    const sg = typeof x.sg === "object" && x.sg ? Object.entries(x.sg).filter(([, v]) => v != null).map(([k, v]) => `${SHORT[k] || lab(k)} sg. ${fv(v)}`).join(", ") : "";
+    const pls = [].concat(x.pl ?? []).filter((p) => p != null);
+    const plEl = pls.map((p) => typeof p === "object" && !p.form && !p.el
+      ? Object.entries(p).filter(([, v]) => v != null).map(([k, v]) => `${SHORT[k] || lab(k)} pl. ${fv(v)}`).join(", ")
+      : fv(p.form || p.el || p)).join(" · ");
+    const glosses = pls.filter((p) => p && (p.en || p.gloss)).map((p) => pls.length > 1 ? `${fv(p.form || p.el)}: ${fv(p.en || p.gloss)}` : fv(p.en || p.gloss));
+    const forms = [sg, plEl ? (x.lemma ? plEl : `→ ${plEl}`) : x.lemma ? "no plural" : ""].filter(Boolean).join(" · ");
+    return `<li><span class="ex-el" lang="el">${A().esc(head)}${forms ? (x.lemma ? " · " : " ") + A().esc(forms) : ""}</span>${glosses.length ? `<span class="ex-en">${A().esc(glosses.join(" · "))}</span>` : ""}</li>`;
+  }
   // Render anything: grids for form tables, lists for examples, prose for rules.
   function block(o, depth = 0) {
     if (o == null) return "";
@@ -69,8 +90,8 @@
         ? `<p class="word-cloud" lang="el">${o.map((x) => A().esc(x)).join(" · ")}</p>`
         : `<ul class="ref-notes">${o.map((x) => `<li>${txt(x)}</li>`).join("")}</ul>`;
       if (o.every((x) => x && typeof x === "object" && (x.el || x.form || x.sg))) return `<ul class="ex-list">${o.map((x) => x.el || x.form
-        ? `<li><span class="ex-el" lang="el">${A().esc(x.el || x.form)}</span>${x.en || x.gloss ? `<span class="ex-en">${A().esc(x.en || x.gloss)}</span>` : ""}</li>`
-        : `<li><span class="ex-el" lang="el">${A().esc(x.sg)} → ${A().esc([].concat(x.pl).join(", "))}</span></li>`).join("")}</ul>`;
+        ? `<li><span class="ex-el" lang="el">${A().esc(fv(x.el || x.form))}</span>${x.en || x.gloss ? `<span class="ex-en">${A().esc(fv(x.en || x.gloss))}</span>` : ""}</li>`
+        : sgPl(x)).join("")}</ul>`;
       return o.map((x) => `<div class="ref-sub">${block(x, depth + 1)}</div>`).join("");
     }
     const g = gridable(o);
