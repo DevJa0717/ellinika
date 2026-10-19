@@ -1,0 +1,1430 @@
+{
+ "el": "Αυτοκίνητο και δρόμος",
+ "title": "Car and road: renting, breaking down, getting stopped",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Talking your way through rentals, breakdowns and checks",
+   "text": "Three situations, three registers. At the **rental desk** you are a customer: open with *Έχω κάνει κράτηση… στο όνομα…*, and ask what is included with short, direct questions: *Τι καλύπτει η ασφάλεια;*, *Έχει απαλλαγή;*, *Βενζίνη ή πετρέλαιο;*. Money talk puts numbers in the **genitive** after a noun: *απαλλαγή εξακοσίων ευρώ*, *εγγύηση τριακοσίων ευρώ*. Only the hundreds (and *χίλιες*) decline: *διακοσίων, τριακοσίων, χιλίων*.\n\nOn the phone to **roadside assistance** you narrate in the **aorist**, with the car as subject: *Έσβησε ξαφνικά*, *Άναψε ένα λαμπάκι*, *Έσκασε το λάστιχο*, often with an ethic dative *μου*: *Μου χάλασε το αυτοκίνητο* 'my car broke down (on me)'. Then you **locate yourself**: *στην Αθηνών–Λαμίας*, *με κατεύθυνση προς Λαμία* (προς + accusative), *στο ύψος της Θήβας* (στο ύψος + genitive), *λίγο μετά τα διόδια*, *στο χιλιόμετρο σαράντα δύο*.\n\nWith the **traffic police** keep it formal and short: *εσείς*, *Μάλιστα*, *Ορίστε*. The officer speaks in plural imperatives (*Σβήστε τη μηχανή*, *Φυσήξτε εδώ*) and you answer with apologies and facts, not arguments: *Συγγνώμη, δεν είδα την πινακίδα.*"
+  },
+  {
+   "type": "dialogue",
+   "title": "Στο γραφείο ενοικίασης",
+   "setting": "Athens airport: Petros picks up a rental car for a five-day trip to Volos; Katerina works at the desk.",
+   "lines": [
+    {
+     "who": "Κατερίνα",
+     "voice": "f",
+     "el": "Καλημέρα σας. Πώς μπορώ να σας εξυπηρετήσω;",
+     "en": "Good morning. How can I help you?"
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Καλημέρα. Έχω κάνει κράτηση από την ιστοσελίδα σας για ένα μικρό αυτοκίνητο, στο όνομα Αλεξίου.",
+     "en": "Good morning. I've made a booking on your website for a small car, in the name of Alexiou."
+    },
+    {
+     "who": "Κατερίνα",
+     "voice": "f",
+     "el": "Μάλιστα, κύριε Αλεξίου, τη βλέπω. Θα χρειαστώ το δίπλωμά σας, την ταυτότητα και μια πιστωτική κάρτα.",
+     "en": "Right, Mr Alexiou, I can see it. I'll need your driving licence, your ID card and a credit card."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Ορίστε. Γιατί πιστωτική, όμως; Δεν έχω πληρώσει ήδη;",
+     "en": "Here you are. But why a credit card? Haven't I already paid?"
+    },
+    {
+     "who": "Κατερίνα",
+     "voice": "f",
+     "el": "Έχετε πληρώσει την ενοικίαση. Η κάρτα είναι για την εγγύηση: δεσμεύουμε τριακόσια ευρώ και τα αποδεσμεύουμε όταν επιστρέψετε το αυτοκίνητο.",
+     "en": "You've paid for the rental. The card is for the deposit: we block three hundred euros and release them when you return the car."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Κατάλαβα. Και τι καλύπτει η ασφάλεια; Είναι πλήρης;",
+     "en": "I see. And what does the insurance cover? Is it full cover?"
+    },
+    {
+     "who": "Κατερίνα",
+     "voice": "f",
+     "el": "Η βασική ασφάλεια έχει απαλλαγή εξακοσίων ευρώ. Δηλαδή, αν γίνει κάποια ζημιά, πληρώνετε εσείς μέχρι εξακόσια.",
+     "en": "The basic insurance has an excess of six hundred euros. That is, if there's any damage, you pay up to six hundred."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Εξακόσια; Είναι πολλά. Υπάρχει τρόπος να μην πληρώσω τίποτα;",
+     "en": "Six hundred? That's a lot. Is there a way not to pay anything?"
+    },
+    {
+     "who": "Κατερίνα",
+     "voice": "f",
+     "el": "Βεβαίως. Με την πλήρη ασφάλεια, χωρίς απαλλαγή, είναι δώδεκα ευρώ την ημέρα επιπλέον.",
+     "en": "Of course. With full insurance, with no excess, it's twelve euros a day extra."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Εντάξει, βάλτε την. Πάμε για Βόλο και δεν θέλω άγχος στον δρόμο.",
+     "en": "All right, put it on. We're going to Volos and I don't want any stress on the road."
+    },
+    {
+     "who": "Κατερίνα",
+     "voice": "f",
+     "el": "Πολύ σωστά. Για το καύσιμο ισχύει το «γεμάτο προς γεμάτο»: το παίρνετε με γεμάτο ρεζερβουάρ και το φέρνετε πίσω γεμάτο.",
+     "en": "Very wise. For fuel it's 'full to full': you take it with a full tank and bring it back full."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Βενζίνη ή πετρέλαιο;",
+     "en": "Petrol or diesel?"
+    },
+    {
+     "who": "Κατερίνα",
+     "voice": "f",
+     "el": "Αμόλυβδη βενζίνη. Και κάτι ακόμα: στην Εθνική θα περάσετε από διόδια, οπότε κρατήστε μετρητά ή κάρτα πρόχειρα.",
+     "en": "Unleaded petrol. And one more thing: on the national road you'll go through tolls, so keep cash or a card handy."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Ωραία. Μπορούμε να δούμε μαζί το αυτοκίνητο για τυχόν γρατζουνιές πριν φύγω;",
+     "en": "Great. Can we look over the car together for any scratches before I leave?"
+    },
+    {
+     "who": "Κατερίνα",
+     "voice": "f",
+     "el": "Φυσικά. Ελάτε μαζί μου στο πάρκινγκ. Όλες οι ζημιές σημειώνονται σε αυτό το έντυπο.",
+     "en": "Of course. Come with me to the car park. All damage is noted on this form."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Εδώ, στον πίσω προφυλακτήρα, υπάρχει μια γρατζουνιά. Τη σημειώνετε;",
+     "en": "Here, on the rear bumper, there's a scratch. Will you note it down?"
+    },
+    {
+     "who": "Κατερίνα",
+     "voice": "f",
+     "el": "Τη σημείωσα. Υπογράψτε εδώ, και ορίστε τα κλειδιά. Στο ντουλαπάκι θα βρείτε τα χαρτιά του αυτοκινήτου και το τηλέφωνο της οδικής βοήθειας.",
+     "en": "Noted. Sign here, and here are the keys. In the glovebox you'll find the car's papers and the roadside assistance number."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Τέλεια. Ευχαριστώ πολύ.",
+     "en": "Perfect. Thanks a lot."
+    },
+    {
+     "who": "Κατερίνα",
+     "voice": "f",
+     "el": "Καλό ταξίδι, κύριε Αλεξίου, και καλή διαμονή στον Βόλο!",
+     "en": "Have a good trip, Mr Alexiou, and enjoy your stay in Volos!"
+    }
+   ],
+   "gloss": {
+    "ενοικίαση": "ενοικίαση — rental, hire",
+    "ενοικίασης": "ενοικίαση — rental (gen.)",
+    "Αλεξίου": "Αλεξίου — Alexiou (surname; does not decline)",
+    "δεσμεύουμε": "δεσμεύω — block, put a hold on (money on a card)",
+    "αποδεσμεύουμε": "αποδεσμεύω — release (a hold on money)",
+    "απαλλαγή": "απαλλαγή — excess, deductible (insurance)",
+    "εξακοσίων": "εξακόσιοι — six hundred (gen. pl.)",
+    "πλήρης": "πλήρης — full, complete",
+    "πλήρη": "πλήρης — full (acc. sg.)",
+    "καύσιμο": "καύσιμο — fuel",
+    "ρεζερβουάρ": "ρεζερβουάρ — fuel tank",
+    "πετρέλαιο": "πετρέλαιο — diesel (also: oil, heating oil)",
+    "Αμόλυβδη": "αμόλυβδος — unleaded",
+    "Εθνική": "Εθνική (Οδός) — the national road / motorway",
+    "διόδια": "διόδια — tolls, toll station (neuter plural only)",
+    "πρόχειρα": "πρόχειρος — handy, within reach",
+    "τυχόν": "τυχόν — any (possible)",
+    "γρατζουνιές": "γρατζουνιά — scratch",
+    "γρατζουνιά": "γρατζουνιά — scratch",
+    "πάρκινγκ": "πάρκινγκ — car park",
+    "σημειώνονται": "σημειώνομαι — are noted (passive of σημειώνω)",
+    "έντυπο": "έντυπο — form",
+    "προφυλακτήρα": "προφυλακτήρας — bumper",
+    "ντουλαπάκι": "ντουλαπάκι — glovebox (lit. little cupboard)",
+    "οδικής": "οδικός — road (adj.); οδική βοήθεια = roadside assistance",
+    "Βόλο": "Βόλος — Volos (city in Thessaly)",
+    "δεσμεύονται": "δεσμεύομαι — are blocked, held (passive of δεσμεύω)",
+    "πορτμπαγκάζ": "πορτμπαγκάζ — boot, trunk",
+    "Θήβας": "Θήβα — Thebes (gen.)",
+    "Θήβα": "Θήβα — Thebes",
+    "φρενάρω": "φρενάρω — brake",
+    "διοδίων": "διόδια — tolls (gen. pl.)",
+    "πομποδέκτης": "πομποδέκτης — toll tag, transponder",
+    "ντίζελ": "ντίζελ — diesel",
+    "Αφίδνες": "Αφίδνες — Afidnes (town north of Athens)",
+    "ανηφόρας": "ανηφόρα — uphill slope (gen.)",
+    "διαμονή": "διαμονή — stay"
+   },
+   "questions": [
+    {
+     "prompt": "Πόσα χρήματα δεσμεύονται στην κάρτα για εγγύηση;",
+     "answer": "Τριακόσια ευρώ",
+     "options": [
+      "Τριακόσια ευρώ",
+      "Εξακόσια ευρώ",
+      "Δώδεκα ευρώ"
+     ]
+    },
+    {
+     "prompt": "Γιατί ο Πέτρος παίρνει την πλήρη ασφάλεια;",
+     "answer": "Δεν θέλει άγχος στον δρόμο",
+     "options": [
+      "Δεν θέλει άγχος στον δρόμο",
+      "Είναι δωρεάν",
+      "Την απαιτεί ο νόμος"
+     ]
+    },
+    {
+     "prompt": "Ποια ζημιά σημειώνει η Κατερίνα στο έντυπο;",
+     "answer": "Μια γρατζουνιά στον πίσω προφυλακτήρα",
+     "options": [
+      "Μια γρατζουνιά στον πίσω προφυλακτήρα",
+      "Ένα σκασμένο λάστιχο",
+      "Ένα σπασμένο φανάρι"
+     ]
+    },
+    {
+     "prompt": "Πού θα βρει ο Πέτρος το τηλέφωνο της οδικής βοήθειας;",
+     "answer": "Στο ντουλαπάκι",
+     "options": [
+      "Στο ντουλαπάκι",
+      "Στο πορτμπαγκάζ",
+      "Στην ιστοσελίδα"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Key phrases on the road",
+   "head": [
+    "Greek",
+    "English",
+    "When / register"
+   ],
+   "rows": [
+    [
+     "Έχω κάνει κράτηση στο όνομα…",
+     "I've made a booking in the name of…",
+     "rental desk, neutral"
+    ],
+    [
+     "Τι καλύπτει η ασφάλεια;",
+     "What does the insurance cover?",
+     "rental desk"
+    ],
+    [
+     "Έχει απαλλαγή; / Είναι με πλήρη ασφάλεια;",
+     "Is there an excess? / Is it fully insured?",
+     "rental desk"
+    ],
+    [
+     "γεμάτο προς γεμάτο",
+     "full to full (fuel policy)",
+     "rental jargon"
+    ],
+    [
+     "Μου χάλασε το αυτοκίνητο.",
+     "My car has broken down.",
+     "phoning for help"
+    ],
+    [
+     "Δεν παίρνει μπρος.",
+     "It won't start.",
+     "everyday, about the engine"
+    ],
+    [
+     "Έσκασε το λάστιχο. / Έμεινα από βενζίνη.",
+     "I've got a flat. / I've run out of petrol.",
+     "describing the fault"
+    ],
+    [
+     "Άναψε ένα λαμπάκι στο ταμπλό.",
+     "A warning light came on on the dashboard.",
+     "describing the fault"
+    ],
+    [
+     "Βρίσκομαι στο ύψος της…, με κατεύθυνση προς…",
+     "I'm near…, heading towards…",
+     "giving your location"
+    ],
+    [
+     "Σε πόση ώρα θα έρθει κάποιος;",
+     "How long until someone comes?",
+     "asking about help"
+    ],
+    [
+     "Δίπλωμα και άδεια κυκλοφορίας, παρακαλώ.",
+     "Licence and registration, please.",
+     "police, formal"
+    ],
+    [
+     "Ξέρετε με πόσο πηγαίνατε;",
+     "Do you know how fast you were going?",
+     "police"
+    ],
+    [
+     "Συγγνώμη, δεν είδα την πινακίδα.",
+     "Sorry, I didn't see the sign.",
+     "driver, apologetic"
+    ],
+    [
+     "Θα σας αφήσω με μια σύσταση.",
+     "I'll let you off with a warning.",
+     "police, lenient"
+    ],
+    [
+     "Θα σας γράψω κλήση. / Θα πληρώσετε πρόστιμο.",
+     "I'll give you a ticket. / You'll pay a fine.",
+     "police, strict"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "What went wrong: describing a fault",
+   "items": [
+    {
+     "el": "Μου έσκασε το λάστιχο στη μέση της ανηφόρας.",
+     "en": "I got a flat tyre halfway up the hill."
+    },
+    {
+     "el": "Άδειασε η μπαταρία, γιατί άφησα τα φώτα αναμμένα όλη νύχτα.",
+     "en": "The battery went flat because I left the lights on all night."
+    },
+    {
+     "el": "Ακούγεται ένας περίεργος θόρυβος από τα φρένα όταν σταματάω.",
+     "en": "There's a strange noise from the brakes when I stop."
+    },
+    {
+     "el": "Μου έμειναν τα κλειδιά μέσα στο αυτοκίνητο και κλείδωσε.",
+     "en": "I left the keys inside the car and it locked."
+    },
+    {
+     "el": "Έμεινα από βενζίνη δύο χιλιόμετρα πριν από το βενζινάδικο.",
+     "en": "I ran out of petrol two kilometres before the petrol station."
+    },
+    {
+     "el": "Κάποιος μου χτύπησε το αυτοκίνητο στο πάρκινγκ και έφυγε.",
+     "en": "Someone hit my car in the car park and drove off."
+    },
+    {
+     "el": "Το αυτοκίνητο τραβάει δεξιά όταν φρενάρω.",
+     "en": "The car pulls to the right when I brake."
+    },
+    {
+     "el": "Δεν ανάβουν τα φώτα, μάλλον κάηκε μια ασφάλεια.",
+     "en": "The lights don't come on, probably a fuse has blown."
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Βλάβη στην Εθνική",
+   "setting": "An hour later the car stops on the Athens–Lamia motorway. Petros calls roadside assistance; Eleni takes the call.",
+   "lines": [
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Οδική βοήθεια, καλησπέρα σας. Ελένη ονομάζομαι. Πώς μπορώ να σας βοηθήσω;",
+     "en": "Roadside assistance, good afternoon. My name is Eleni. How can I help you?"
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Καλησπέρα. Έχω ένα νοικιασμένο αυτοκίνητο και μου χάλασε στην Εθνική. Έσβησε ξαφνικά και δεν παίρνει μπρος.",
+     "en": "Good afternoon. I've got a rental car and it's broken down on the motorway. It suddenly stalled and won't start."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Λυπάμαι πολύ. Πρώτα απ' όλα, είστε σε ασφαλές σημείο;",
+     "en": "I'm very sorry. First of all, are you somewhere safe?"
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Ναι, το έβγαλα στη λωρίδα έκτακτης ανάγκης. Άναψα τα αλάρμ και βάλαμε το τρίγωνο.",
+     "en": "Yes, I pulled it onto the hard shoulder. I put the hazard lights on and we set up the warning triangle."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Πολύ σωστά. Μείνετε έξω από το αυτοκίνητο, μακριά από τον δρόμο. Μου λέτε τον αριθμό κυκλοφορίας;",
+     "en": "Quite right. Stay out of the car, away from the road. Can you tell me the registration number?"
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Γιώτα, Κάπα, Μι, τέσσερα, πέντε, δύο, ένα.",
+     "en": "I, K, M, four, five, two, one."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Ευχαριστώ. Πού ακριβώς βρίσκεστε;",
+     "en": "Thank you. Where exactly are you?"
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Στην Αθηνών–Λαμίας, με κατεύθυνση προς Λαμία, λίγο μετά τα διόδια των Αφιδνών.",
+     "en": "On the Athens–Lamia road, heading towards Lamia, just after the Afidnes tolls."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Βλέπετε κάποια πινακίδα με τα χιλιόμετρα;",
+     "en": "Can you see a kilometre sign?"
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Ναι, μόλις περάσαμε το χιλιόμετρο σαράντα δύο.",
+     "en": "Yes, we've just passed kilometre forty-two."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Τέλεια. Πείτε μου τι ακριβώς έγινε. Άναψε κάποια ένδειξη στο ταμπλό;",
+     "en": "Great. Tell me exactly what happened. Did a warning light come on on the dashboard?"
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Ναι, πρώτα άναψε ένα κόκκινο λαμπάκι με ένα θερμόμετρο, και μετά βγήκε λίγος καπνός από το καπό.",
+     "en": "Yes, first a red light with a thermometer came on, and then a bit of smoke came out of the bonnet."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Μάλλον υπερθερμάνθηκε η μηχανή. Μην ανοίξετε το καπό μέχρι να κρυώσει, γιατί είναι επικίνδυνο.",
+     "en": "The engine has probably overheated. Don't open the bonnet until it cools down, because it's dangerous."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Εντάξει. Σε πόση ώρα θα έρθει κάποιος;",
+     "en": "OK. How long until someone comes?"
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Το γερανοφόρο θα είναι εκεί σε περίπου σαράντα πέντε λεπτά. Θα σας στείλω και μήνυμα με τα στοιχεία του οδηγού.",
+     "en": "The tow truck will be there in about forty-five minutes. I'll also send you a message with the driver's details."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Και μετά; Πρέπει να συνεχίσουμε το ταξίδι μας για Βόλο.",
+     "en": "And then? We have to continue our trip to Volos."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Το αυτοκίνητο θα μεταφερθεί στο συνεργείο. Η εταιρεία ενοικίασης θα σας δώσει άλλο, χωρίς επιπλέον χρέωση.",
+     "en": "The car will be taken to the garage. The rental company will give you another one, at no extra charge."
+    },
+    {
+     "who": "Πέτρος",
+     "voice": "m",
+     "el": "Α, πολύ ωραία, αυτό με ησυχάζει.",
+     "en": "Oh, very good, that puts my mind at rest."
+    },
+    {
+     "who": "Ελένη",
+     "voice": "f",
+     "el": "Αν χρειαστείτε κάτι στο μεταξύ, πάρτε μας ξανά σε αυτόν τον αριθμό. Και προσέχετε.",
+     "en": "If you need anything in the meantime, call us again on this number. And take care."
+    }
+   ],
+   "gloss": {
+    "νοικιασμένο": "νοικιασμένος — rented",
+    "Οδική": "οδικός — road (adj.); οδική βοήθεια = roadside assistance",
+    "θερμόμετρο": "θερμόμετρο — thermometer",
+    "χάλασε": "χαλάω — broke down (aorist)",
+    "Έσβησε": "σβήνω — stalled, went out (aorist)",
+    "παίρνει": "παίρνω — παίρνω μπρος = (engine) start",
+    "μπρος": "μπρος — forward; παίρνω μπρος = start (engine)",
+    "ασφαλές": "ασφαλής — safe (neut.)",
+    "λωρίδα": "λωρίδα — lane",
+    "έκτακτης": "έκτακτος — emergency; λωρίδα έκτακτης ανάγκης = hard shoulder",
+    "αλάρμ": "αλάρμ — hazard lights (indeclinable)",
+    "τρίγωνο": "τρίγωνο — (warning) triangle",
+    "κυκλοφορίας": "κυκλοφορία — traffic; αριθμός κυκλοφορίας = registration number",
+    "Γιώτα": "γιώτα — the letter Ι",
+    "Κάπα": "κάπα — the letter Κ",
+    "Μι": "μι — the letter Μ",
+    "Αθηνών": "Αθήνα — Athens (old gen. pl. Αθηνών, in road names)",
+    "Λαμίας": "Λαμία — Lamia (gen.)",
+    "Λαμία": "Λαμία — Lamia (town)",
+    "κατεύθυνση": "κατεύθυνση — direction",
+    "Αφιδνών": "Αφίδνες — Afidnes (gen. pl.), town north of Athens",
+    "ένδειξη": "ένδειξη — indication; here: warning light",
+    "ταμπλό": "ταμπλό — dashboard",
+    "λαμπάκι": "λαμπάκι — little light",
+    "καπό": "καπό — bonnet, hood",
+    "υπερθερμάνθηκε": "υπερθερμαίνομαι — overheated (passive aorist)",
+    "κρυώσει": "κρυώνω — cool down (subjunctive)",
+    "γερανοφόρο": "γερανοφόρο — tow truck",
+    "μεταφερθεί": "μεταφέρομαι — be transported (passive subjunctive)",
+    "συνεργείο": "συνεργείο — garage, repair shop",
+    "χρέωση": "χρέωση — charge",
+    "ησυχάζει": "ησυχάζω — reassure, calm",
+    "πάρτε": "παίρνω — call (on the phone), imperative pl."
+   },
+   "questions": [
+    {
+     "prompt": "Πού σταμάτησε ο Πέτρος το αυτοκίνητο;",
+     "answer": "Στη λωρίδα έκτακτης ανάγκης",
+     "options": [
+      "Στη λωρίδα έκτακτης ανάγκης",
+      "Στα διόδια",
+      "Σε ένα βενζινάδικο"
+     ]
+    },
+    {
+     "prompt": "Τι πρόβλημα έχει μάλλον το αυτοκίνητο;",
+     "answer": "Υπερθερμάνθηκε η μηχανή",
+     "options": [
+      "Υπερθερμάνθηκε η μηχανή",
+      "Έσκασε ένα λάστιχο",
+      "Τελείωσε η βενζίνη"
+     ]
+    },
+    {
+     "prompt": "Σε πόση ώρα θα έρθει το γερανοφόρο;",
+     "answer": "Σε περίπου σαράντα πέντε λεπτά",
+     "options": [
+      "Σε περίπου σαράντα πέντε λεπτά",
+      "Σε δύο ώρες",
+      "Σε δεκαπέντε λεπτά"
+     ]
+    },
+    {
+     "prompt": "Τι θα κάνει η εταιρεία ενοικίασης;",
+     "answer": "Θα τους δώσει άλλο αυτοκίνητο",
+     "options": [
+      "Θα τους δώσει άλλο αυτοκίνητο",
+      "Θα τους χρεώσει τη ζημιά",
+      "Θα τους στείλει ταξί"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Where are you? Location phrases and their cases",
+   "head": [
+    "Phrase",
+    "Case",
+    "Example"
+   ],
+   "rows": [
+    [
+     "στο ύψος + gen.",
+     "genitive",
+     "στο ύψος **της Θήβας** / **των Αφιδνών**"
+    ],
+    [
+     "με κατεύθυνση προς + acc.",
+     "accusative (article often dropped with towns)",
+     "με κατεύθυνση προς **Λαμία** / προς **τη Λαμία**"
+    ],
+    [
+     "μετά (από) + acc.",
+     "accusative",
+     "λίγο μετά **τα διόδια** / μετά από **την έξοδο**"
+    ],
+    [
+     "πριν από + acc.",
+     "accusative",
+     "πριν από **τη γέφυρα**"
+    ],
+    [
+     "στο χιλιόμετρο + number",
+     "number as a label",
+     "στο χιλιόμετρο **σαράντα δύο**"
+    ],
+    [
+     "η Αθηνών–Λαμίας",
+     "two old genitives naming a road",
+     "η (Εθνική Οδός) **Αθηνών–Λαμίας**"
+    ],
+    [
+     "απαλλαγή / εγγύηση + gen.",
+     "genitive of the amount",
+     "απαλλαγή **εξακοσίων** ευρώ, εγγύηση **τριακοσίων** ευρώ"
+    ],
+    [
+     "με + speed",
+     "accusative (number)",
+     "πήγαινα **με ογδόντα**, το ραντάρ με έπιασε **με ενενήντα**"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Car nouns: declension",
+   "head": [
+    "",
+    "το δίπλωμα",
+    "ο οδηγός",
+    "η ζημιά",
+    "το συνεργείο",
+    "τα διόδια"
+   ],
+   "rows": [
+    [
+     "nom. sg.",
+     "το δίπλωμα",
+     "ο οδηγός",
+     "η ζημιά",
+     "το συνεργείο",
+     "—"
+    ],
+    [
+     "gen. sg.",
+     "του **διπλώματος**",
+     "του οδηγού",
+     "της ζημιάς",
+     "του **συνεργείου**",
+     "—"
+    ],
+    [
+     "acc. sg.",
+     "το δίπλωμα",
+     "τον οδηγό",
+     "τη ζημιά",
+     "το συνεργείο",
+     "—"
+    ],
+    [
+     "nom. pl.",
+     "τα διπλώματα",
+     "οι οδηγοί",
+     "οι ζημιές",
+     "τα συνεργεία",
+     "τα διόδια"
+    ],
+    [
+     "gen. pl.",
+     "των **διπλωμάτων**",
+     "των οδηγών",
+     "των ζημιών",
+     "των συνεργείων",
+     "των **διοδίων**"
+    ],
+    [
+     "acc. pl.",
+     "τα διπλώματα",
+     "τους οδηγούς",
+     "τις ζημιές",
+     "τα συνεργεία",
+     "τα διόδια"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "With the traffic police",
+   "items": [
+    {
+     "el": "Κατεβάστε το παράθυρο και σβήστε τη μηχανή, παρακαλώ.",
+     "en": "Wind down the window and switch off the engine, please."
+    },
+    {
+     "el": "Μου δίνετε το δίπλωμα και την άδεια κυκλοφορίας;",
+     "en": "Could you give me your licence and the registration?"
+    },
+    {
+     "el": "Δεν φορούσατε ζώνη, κυρία μου.",
+     "en": "You weren't wearing a seatbelt, madam."
+    },
+    {
+     "el": "Μιλούσατε στο κινητό ενώ οδηγούσατε.",
+     "en": "You were talking on your mobile while driving."
+    },
+    {
+     "el": "Περάσατε με κόκκινο στη διασταύρωση.",
+     "en": "You went through a red light at the junction."
+    },
+    {
+     "el": "Συγγνώμη, δεν ήξερα ότι εδώ το όριο είναι πενήντα.",
+     "en": "Sorry, I didn't know the limit here is fifty."
+    },
+    {
+     "el": "Θα σας γράψω κλήση, την πληρώνετε ηλεκτρονικά.",
+     "en": "I'll give you a ticket, you pay it online."
+    },
+    {
+     "el": "Το αυτοκίνητο είναι νοικιασμένο, το συμβόλαιο είναι στο ντουλαπάκι.",
+     "en": "The car is rented, the contract is in the glovebox."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Traps for English speakers**\n\n**Άδεια ≠ licence to drive.** Your driving licence is *το δίπλωμα (οδήγησης)*; *η άδεια κυκλοφορίας* is the car's registration document. *Άδεια* alone also means 'leave' (*είμαι σε άδεια*).\n\n**Ασφάλεια** is both 'insurance (policy)' and 'safety', and also a 'fuse'. *Είστε σε ασφαλές σημείο;* asks about safety, not cover.\n\n**Start / switch on / switch off**: the engine *παίρνει μπρος* (it starts by itself); you *ανάβω* lights and *σβήνω* the engine. A stalled car *έσβησε*.\n\n**Πετρέλαιο** at the pump is diesel; 'petrol' is *βενζίνη*.\n\n**Numbers after nouns go into the genitive**: *απαλλαγή εξακοσίων ευρώ*, not *εξακόσια ευρώ*. Only hundreds and *χίλιες* change: *τριακοσίων, χιλίων*; *ευρώ* never changes.\n\n**Possessive accent**: *το δίπλωμά μου*, *το αυτοκίνητό σας*. A word stressed on the third-last syllable takes a second accent before *μου/σας*.\n\n**Vocatives of surnames**: *κύριε Αλεξίου* (indeclinable), *κύριε Παπαδόπουλε*, *κυρία Παπαδοπούλου*."
+  },
+  {
+   "type": "culture",
+   "title": "Η Εθνική, τα διόδια και τα φώτα",
+   "text": "Greeks call the main motorways simply **η Εθνική** (Εθνική Οδός, 'national road'), and name them after two cities in an old genitive plural: **η Αθηνών–Λαμίας**, **η Αθηνών–Θεσσαλονίκης**. They are run by concession companies, so every few dozen kilometres you stop at the **διόδια** (tolls), paying cash, by card, or with an electronic tag (**πομποδέκτης**). The right-hand **λωρίδα έκτακτης ανάγκης** is for breakdowns only. Two habits surprise visitors: a driver who flashes his headlights at you usually means 'I'm coming, don't pull out', not 'go ahead'; and drivers switch on **τα αλάρμ** to warn those behind of a sudden queue. In any emergency, call **112**."
+  },
+  {
+   "type": "dialogue",
+   "title": "Έλεγχος της Τροχαίας",
+   "setting": "Evening, on the way into Volos in the replacement car. Petros's wife Dimitra is driving when a traffic policeman waves them over.",
+   "lines": [
+    {
+     "who": "Αστυνομικός",
+     "voice": "m",
+     "el": "Καλησπέρα σας. Έλεγχος της Τροχαίας. Σβήστε τη μηχανή, παρακαλώ.",
+     "en": "Good evening. Traffic police check. Switch off the engine, please."
+    },
+    {
+     "who": "Δήμητρα",
+     "voice": "f",
+     "el": "Καλησπέρα. Μάλιστα. Συμβαίνει κάτι;",
+     "en": "Good evening. Certainly. Is something wrong?"
+    },
+    {
+     "who": "Αστυνομικός",
+     "voice": "m",
+     "el": "Δίπλωμα οδήγησης και άδεια κυκλοφορίας, παρακαλώ.",
+     "en": "Driving licence and registration document, please."
+    },
+    {
+     "who": "Δήμητρα",
+     "voice": "f",
+     "el": "Ορίστε το δίπλωμά μου. Το αυτοκίνητο είναι νοικιασμένο, τα χαρτιά πρέπει να είναι στο ντουλαπάκι… Ορίστε, το συμβόλαιο ενοικίασης και η άδεια.",
+     "en": "Here's my licence. The car is rented, the papers should be in the glovebox… Here you are, the rental contract and the registration."
+    },
+    {
+     "who": "Αστυνομικός",
+     "voice": "m",
+     "el": "Ευχαριστώ. Ξέρετε με πόσο πηγαίνατε;",
+     "en": "Thank you. Do you know how fast you were going?"
+    },
+    {
+     "who": "Δήμητρα",
+     "voice": "f",
+     "el": "Ειλικρινά, όχι ακριβώς. Γύρω στα εβδομήντα;",
+     "en": "Honestly, not exactly. About seventy?"
+    },
+    {
+     "who": "Αστυνομικός",
+     "voice": "m",
+     "el": "Το ραντάρ σας έπιασε με ογδόντα δύο. Εδώ το όριο είναι εβδομήντα, γιατί πλησιάζουμε στην πόλη.",
+     "en": "The radar caught you at eighty-two. The limit here is seventy, because we're approaching the town."
+    },
+    {
+     "who": "Δήμητρα",
+     "voice": "f",
+     "el": "Ωχ, συγγνώμη, δεν είδα την πινακίδα. Δεν είμαστε από εδώ, ερχόμαστε από την Αθήνα.",
+     "en": "Oh, sorry, I didn't see the sign. We're not from here, we're coming from Athens."
+    },
+    {
+     "who": "Αστυνομικός",
+     "voice": "m",
+     "el": "Η πινακίδα είναι εκεί πίσω, στην αρχή της ευθείας. Έχετε πιει αλκοόλ σήμερα;",
+     "en": "The sign is back there, at the start of the straight. Have you drunk any alcohol today?"
+    },
+    {
+     "who": "Δήμητρα",
+     "voice": "f",
+     "el": "Όχι, καθόλου. Μόνο έναν καφέ στον δρόμο.",
+     "en": "No, not at all. Just a coffee on the way."
+    },
+    {
+     "who": "Αστυνομικός",
+     "voice": "m",
+     "el": "Θα σας κάνουμε ένα αλκοτέστ, είναι τυπική διαδικασία. Φυσήξτε εδώ, δυνατά και σταθερά, μέχρι να σας πω.",
+     "en": "We'll give you a breath test, it's standard procedure. Blow in here, hard and steady, until I tell you."
+    },
+    {
+     "who": "Δήμητρα",
+     "voice": "f",
+     "el": "Εντάξει… Φτάνει;",
+     "en": "OK… Is that enough?"
+    },
+    {
+     "who": "Αστυνομικός",
+     "voice": "m",
+     "el": "Φτάνει. Μηδέν, όλα καλά. Ο κύριος δίπλα σας να φορέσει τη ζώνη του, παρακαλώ.",
+     "en": "That's enough. Zero, all fine. The gentleman next to you should put his seatbelt on, please."
+    },
+    {
+     "who": "Δήμητρα",
+     "voice": "f",
+     "el": "Πέτρο, η ζώνη! Συγγνώμη, μόλις την έβγαλε για να πιάσει τα χαρτιά.",
+     "en": "Petros, your seatbelt! Sorry, he just took it off to reach the papers."
+    },
+    {
+     "who": "Αστυνομικός",
+     "voice": "m",
+     "el": "Καταλαβαίνω. Για την ταχύτητα, αυτή τη φορά θα σας αφήσω με μια σύσταση. Την επόμενη φορά όμως θα είναι κλήση.",
+     "en": "I understand. As for the speed, this time I'll let you off with a warning. But next time it'll be a ticket."
+    },
+    {
+     "who": "Δήμητρα",
+     "voice": "f",
+     "el": "Σας ευχαριστώ πολύ. Θα προσέχω, σας το υπόσχομαι.",
+     "en": "Thank you very much. I'll be careful, I promise."
+    },
+    {
+     "who": "Αστυνομικός",
+     "voice": "m",
+     "el": "Ορίστε τα χαρτιά σας. Πού πηγαίνετε;",
+     "en": "Here are your papers. Where are you heading?"
+    },
+    {
+     "who": "Δήμητρα",
+     "voice": "f",
+     "el": "Στον Βόλο, και αύριο στο Πήλιο.",
+     "en": "To Volos, and tomorrow up to Pelion."
+    },
+    {
+     "who": "Αστυνομικός",
+     "voice": "m",
+     "el": "Στο Πήλιο ο δρόμος έχει πολλές στροφές και τη νύχτα πέφτει ομίχλη. Οδηγείτε προσεκτικά. Καλή συνέχεια.",
+     "en": "On Pelion the road has lots of bends and at night the fog comes down. Drive carefully. Have a good evening."
+    },
+    {
+     "who": "Δήμητρα",
+     "voice": "f",
+     "el": "Ευχαριστούμε, καλό βράδυ.",
+     "en": "Thank you, good night."
+    }
+   ],
+   "gloss": {
+    "Τροχαίας": "Τροχαία — traffic police (gen.)",
+    "Σβήστε": "σβήνω — switch off (imperative pl.)",
+    "άδεια": "άδεια — licence, permit; άδεια κυκλοφορίας = vehicle registration document",
+    "δίπλωμά": "δίπλωμα — licence (accent added before μου)",
+    "συμβόλαιο": "συμβόλαιο — contract",
+    "πηγαίνατε": "πηγαίνω — were going (imperfect)",
+    "ραντάρ": "ραντάρ — radar",
+    "έπιασε": "πιάνω — caught (aorist)",
+    "όριο": "όριο — limit",
+    "πλησιάζουμε": "πλησιάζω — approach",
+    "πινακίδα": "πινακίδα — (road) sign",
+    "ευθείας": "ευθεία — straight stretch of road (gen.)",
+    "αλκοτέστ": "αλκοτέστ — breath test",
+    "τυπική": "τυπικός — routine, standard",
+    "διαδικασία": "διαδικασία — procedure",
+    "Φυσήξτε": "φυσάω — blow (imperative pl.)",
+    "σταθερά": "σταθερά — steadily",
+    "ζώνη": "ζώνη — seatbelt (also: belt, zone)",
+    "σύσταση": "σύσταση — warning, recommendation",
+    "κλήση": "κλήση — (traffic) ticket, fine; also: summons",
+    "Πήλιο": "Πήλιο — Pelion (mountain near Volos)",
+    "στροφές": "στροφή — bend, turn",
+    "ομίχλη": "ομίχλη — fog",
+    "Οδηγείτε": "οδηγώ — drive"
+   },
+   "questions": [
+    {
+     "prompt": "Με πόσο πήγαινε η Δήμητρα σύμφωνα με το ραντάρ;",
+     "answer": "Με ογδόντα δύο",
+     "options": [
+      "Με ογδόντα δύο",
+      "Με εβδομήντα",
+      "Με πενήντα"
+     ]
+    },
+    {
+     "prompt": "Ποιο ήταν το αποτέλεσμα του αλκοτέστ;",
+     "answer": "Μηδέν",
+     "options": [
+      "Μηδέν",
+      "Λίγο πάνω από το όριο",
+      "Δεν έγινε αλκοτέστ"
+     ]
+    },
+    {
+     "prompt": "Τι αποφασίζει ο αστυνομικός για την ταχύτητα;",
+     "answer": "Την αφήνει με μια σύσταση",
+     "options": [
+      "Την αφήνει με μια σύσταση",
+      "Της γράφει κλήση",
+      "Της παίρνει το δίπλωμα"
+     ]
+    },
+    {
+     "prompt": "Γιατί πρέπει να προσέχουν στο Πήλιο;",
+     "answer": "Ο δρόμος έχει στροφές και τη νύχτα πέφτει ομίχλη",
+     "options": [
+      "Ο δρόμος έχει στροφές και τη νύχτα πέφτει ομίχλη",
+      "Έχει πολλή κίνηση",
+      "Ο δρόμος είναι κλειστός"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Η υπάλληλος: «Πώς μπορώ να σας εξυπηρετήσω;» Say: *I've made a booking for a small car, in the name of Alexiou.*",
+     "answer": "Έχω κάνει κράτηση για ένα μικρό αυτοκίνητο, στο όνομα Αλεξίου.",
+     "accept": [
+      "Έχω κάνει κράτηση για ένα μικρό αυτοκίνητο, στο όνομα Αλεξίου.",
+      "Έχω κάνει κράτηση για ένα μικρό αυτοκίνητο στο όνομα Αλεξίου.",
+      "Έκανα κράτηση για ένα μικρό αυτοκίνητο, στο όνομα Αλεξίου.",
+      "Έκανα κράτηση για ένα μικρό αυτοκίνητο στο όνομα Αλεξίου.",
+      "Έχω κάνει μια κράτηση για ένα μικρό αυτοκίνητο, στο όνομα Αλεξίου.",
+      "Έχω κάνει μια κράτηση για ένα μικρό αυτοκίνητο στο όνομα Αλεξίου.",
+      "Έχω κλείσει ένα μικρό αυτοκίνητο στο όνομα Αλεξίου.",
+      "Έχω κάνει κράτηση στο όνομα Αλεξίου για ένα μικρό αυτοκίνητο."
+     ],
+     "why": "The perfect έχω κάνει stresses a past action that matters now; 'in the name of' is στο όνομα + name."
+    },
+    {
+     "prompt": "Ask at the rental desk: *What does the insurance cover?*",
+     "answer": "Τι καλύπτει η ασφάλεια;",
+     "accept": [
+      "Τι καλύπτει η ασφάλεια;",
+      "Τι καλύπτει η ασφάλιση;",
+      "Η ασφάλεια τι καλύπτει;"
+     ],
+     "why": "καλύπτω 'cover'; in questions the subject usually follows the verb."
+    },
+    {
+     "prompt": "Fill in the number: *Η βασική ασφάλεια έχει απαλλαγή ___ ευρώ.* (600)",
+     "answer": "εξακοσίων",
+     "accept": [
+      "εξακοσίων"
+     ],
+     "why": "After a noun the amount goes into the genitive; the hundreds decline: εξακόσια → εξακοσίων."
+    },
+    {
+     "prompt": "Fill in the number: *Δεσμεύουμε εγγύηση ___ ευρώ στην κάρτα σας.* (300)",
+     "answer": "τριακοσίων",
+     "accept": [
+      "τριακοσίων"
+     ],
+     "why": "εγγύηση + genitive of the amount: τριακόσια → τριακοσίων; ευρώ never changes."
+    },
+    {
+     "prompt": "Fill in the number: *Πήρα πρόστιμο ___ ευρώ.* (200)",
+     "answer": "διακοσίων",
+     "accept": [
+      "διακοσίων"
+     ],
+     "why": "πρόστιμο + genitive: διακόσια → διακοσίων."
+    },
+    {
+     "prompt": "Ask for the full cover: *I'd like the full insurance.* (η πλήρης ασφάλεια)",
+     "answer": "Θα ήθελα την πλήρη ασφάλεια.",
+     "accept": [
+      "Θα ήθελα την πλήρη ασφάλεια.",
+      "Θα ήθελα πλήρη ασφάλεια.",
+      "Θέλω την πλήρη ασφάλεια.",
+      "Θέλω πλήρη ασφάλεια.",
+      "Βάλτε μου την πλήρη ασφάλεια."
+     ],
+     "why": "πλήρης is a learned -ης adjective: η πλήρης → την πλήρη (acc.), της πλήρους (gen.)."
+    },
+    {
+     "prompt": "*Petrol or ___?* (diesel) → Βενζίνη ή ___;",
+     "answer": "πετρέλαιο",
+     "accept": [
+      "πετρέλαιο",
+      "ντίζελ"
+     ],
+     "why": "At the pump, diesel is πετρέλαιο (or ντίζελ); petrol is βενζίνη."
+    },
+    {
+     "prompt": "Checking the car: *There's a scratch here on the rear bumper.*",
+     "answer": "Εδώ στον πίσω προφυλακτήρα υπάρχει μια γρατζουνιά.",
+     "accept": [
+      "Εδώ στον πίσω προφυλακτήρα υπάρχει μια γρατζουνιά.",
+      "Υπάρχει μια γρατζουνιά στον πίσω προφυλακτήρα.",
+      "Υπάρχει μια γρατζουνιά εδώ στον πίσω προφυλακτήρα.",
+      "Εδώ στον πίσω προφυλακτήρα έχει μια γρατζουνιά.",
+      "Έχει μια γρατζουνιά στον πίσω προφυλακτήρα.",
+      "Εδώ, στον πίσω προφυλακτήρα, υπάρχει μία γρατζουνιά.",
+      "Εδώ στον πίσω προφυλακτήρα υπάρχει μία γρατζουνιά."
+     ],
+     "why": "σε + τον = στον; 'there is' = υπάρχει, or colloquially έχει."
+    },
+    {
+     "prompt": "Passive: *All damage is noted on this form.*",
+     "answer": "Όλες οι ζημιές σημειώνονται σε αυτό το έντυπο.",
+     "accept": [
+      "Όλες οι ζημιές σημειώνονται σε αυτό το έντυπο.",
+      "Όλες οι ζημιές σημειώνονται σ' αυτό το έντυπο.",
+      "Όλες οι ζημιές σημειώνονται στο έντυπο αυτό.",
+      "Όλες οι ζημιές σημειώνονται σε αυτό το χαρτί."
+     ],
+     "why": "σημειώνω → σημειώνομαι; the plural subject οι ζημιές takes -ονται."
+    },
+    {
+     "prompt": "Phoning for help: *My car has broken down on the national road.*",
+     "answer": "Μου χάλασε το αυτοκίνητο στην Εθνική.",
+     "accept": [
+      "Μου χάλασε το αυτοκίνητο στην Εθνική.",
+      "Μου χάλασε το αυτοκίνητο στην Εθνική Οδό.",
+      "Χάλασε το αυτοκίνητό μου στην Εθνική.",
+      "Το αυτοκίνητό μου χάλασε στην Εθνική.",
+      "Μου χάλασε το αμάξι στην Εθνική."
+     ],
+     "why": "The ethic dative μου ('on me') + aorist χάλασε is the natural way to report a breakdown."
+    },
+    {
+     "prompt": "*It suddenly stalled and won't start.*",
+     "answer": "Έσβησε ξαφνικά και δεν παίρνει μπρος.",
+     "accept": [
+      "Έσβησε ξαφνικά και δεν παίρνει μπρος.",
+      "Ξαφνικά έσβησε και δεν παίρνει μπρος.",
+      "Έσβησε ξαφνικά και δεν παίρνει εμπρός.",
+      "Έσβησε ξαφνικά και δεν ξεκινάει.",
+      "Έσβησε ξαφνικά και δεν ξεκινά."
+     ],
+     "why": "σβήνω 'go out, stall' (aorist έσβησε); the engine παίρνει μπρος when it starts."
+    },
+    {
+     "prompt": "*I've got a flat tyre.* (the tyre burst on me)",
+     "answer": "Μου έσκασε το λάστιχο.",
+     "accept": [
+      "Μου έσκασε το λάστιχο.",
+      "Έσκασε το λάστιχο.",
+      "Μου έσκασε ένα λάστιχο.",
+      "Έσκασε ένα λάστιχο.",
+      "Έχω σκασμένο λάστιχο."
+     ],
+     "why": "σκάω 'burst', aorist έσκασε; μου marks who is affected."
+    },
+    {
+     "prompt": "*I've run out of petrol.*",
+     "answer": "Έμεινα από βενζίνη.",
+     "accept": [
+      "Έμεινα από βενζίνη.",
+      "Έμεινα χωρίς βενζίνη.",
+      "Μου τελείωσε η βενζίνη.",
+      "Τελείωσε η βενζίνη."
+     ],
+     "why": "μένω από κάτι = run out of something (aorist έμεινα)."
+    },
+    {
+     "prompt": "Give your location with στο ύψος: *near Afidnes* (οι Αφίδνες)",
+     "answer": "στο ύψος των Αφιδνών",
+     "accept": [
+      "στο ύψος των Αφιδνών"
+     ],
+     "why": "στο ύψος takes the genitive; Αφίδνες → των Αφιδνών."
+    },
+    {
+     "prompt": "Give your location with στο ύψος: *near Thebes* (η Θήβα)",
+     "answer": "στο ύψος της Θήβας",
+     "accept": [
+      "στο ύψος της Θήβας"
+     ],
+     "why": "στο ύψος + genitive: η Θήβα → της Θήβας."
+    },
+    {
+     "prompt": "*heading towards Lamia*",
+     "answer": "με κατεύθυνση προς Λαμία",
+     "accept": [
+      "με κατεύθυνση προς Λαμία",
+      "με κατεύθυνση προς τη Λαμία",
+      "με κατεύθυνση τη Λαμία",
+      "προς Λαμία",
+      "προς τη Λαμία",
+      "με κατεύθυνση Λαμία"
+     ],
+     "why": "προς takes the accusative; with town names the article is often dropped."
+    },
+    {
+     "prompt": "*I put on the hazard lights and set up the triangle.*",
+     "answer": "Άναψα τα αλάρμ και έβαλα το τρίγωνο.",
+     "accept": [
+      "Άναψα τα αλάρμ και έβαλα το τρίγωνο.",
+      "Άναψα τα αλάρμ κι έβαλα το τρίγωνο.",
+      "Έβαλα τα αλάρμ και το τρίγωνο.",
+      "Άναψα τα αλάρμ και βάλαμε το τρίγωνο.",
+      "Άναψα τα αλάρμ και έστησα το τρίγωνο."
+     ],
+     "why": "ανάβω 'switch on (lights)', aorist άναψα; βάζω, aorist έβαλα."
+    },
+    {
+     "prompt": "The operator warns you (εσείς): *Don't open the bonnet until it cools down.*",
+     "answer": "Μην ανοίξετε το καπό μέχρι να κρυώσει.",
+     "accept": [
+      "Μην ανοίξετε το καπό μέχρι να κρυώσει.",
+      "Μην ανοίγετε το καπό μέχρι να κρυώσει.",
+      "Μην ανοίξετε το καπό ώσπου να κρυώσει.",
+      "Μην ανοίξετε το καπό πριν κρυώσει.",
+      "Μην ανοίξετε το καπό πριν να κρυώσει."
+     ],
+     "why": "A negative command is μην + subjunctive (ανοίξετε), never the imperative ανοίξτε; μέχρι να + subjunctive."
+    },
+    {
+     "prompt": "*How long until someone comes?*",
+     "answer": "Σε πόση ώρα θα έρθει κάποιος;",
+     "accept": [
+      "Σε πόση ώρα θα έρθει κάποιος;",
+      "Σε πόση ώρα θα 'ρθει κάποιος;",
+      "Πότε θα έρθει κάποιος;",
+      "Σε πόση ώρα θα έρθει κανείς;"
+     ],
+     "why": "σε + period of time = 'in (that long from now)'."
+    },
+    {
+     "prompt": "Passive future: *The car will be taken to the garage.*",
+     "answer": "Το αυτοκίνητο θα μεταφερθεί στο συνεργείο.",
+     "accept": [
+      "Το αυτοκίνητο θα μεταφερθεί στο συνεργείο.",
+      "Το αυτοκίνητο θα πάει στο συνεργείο.",
+      "Θα μεταφερθεί το αυτοκίνητο στο συνεργείο."
+     ],
+     "why": "μεταφέρω → passive perfective μεταφερθώ: θα μεταφερθεί."
+    },
+    {
+     "prompt": "The officer: *Licence and registration, please.*",
+     "answer": "Δίπλωμα και άδεια κυκλοφορίας, παρακαλώ.",
+     "accept": [
+      "Δίπλωμα και άδεια κυκλοφορίας, παρακαλώ.",
+      "Δίπλωμα και άδεια κυκλοφορίας παρακαλώ.",
+      "Δίπλωμα οδήγησης και άδεια κυκλοφορίας, παρακαλώ.",
+      "Δίπλωμα οδήγησης και άδεια κυκλοφορίας παρακαλώ.",
+      "Το δίπλωμα και την άδεια κυκλοφορίας, παρακαλώ.",
+      "Το δίπλωμα και την άδεια κυκλοφορίας παρακαλώ.",
+      "Δίπλωμα και άδεια, παρακαλώ.",
+      "Δίπλωμα και άδεια παρακαλώ."
+     ],
+     "why": "δίπλωμα (οδήγησης) is your licence; άδεια κυκλοφορίας is the car's registration."
+    },
+    {
+     "prompt": "*Here's my licence.*",
+     "answer": "Ορίστε το δίπλωμά μου.",
+     "accept": [
+      "Ορίστε το δίπλωμά μου.",
+      "Ορίστε το δίπλωμά μου, παρακαλώ.",
+      "Ορίστε το δίπλωμά μου παρακαλώ."
+     ],
+     "why": "δίπλωμα is stressed on the third-last syllable, so it takes a second accent before μου: δίπλωμά μου."
+    },
+    {
+     "prompt": "Officer asks your speed. Say: *About seventy?* (γύρω σε)",
+     "answer": "Γύρω στα εβδομήντα;",
+     "accept": [
+      "Γύρω στα εβδομήντα;",
+      "Γύρω στα εβδομήντα",
+      "Περίπου εβδομήντα;",
+      "Γύρω στα εβδομήντα χιλιόμετρα;"
+     ],
+     "why": "γύρω σε + τα + number gives an approximate figure."
+    },
+    {
+     "prompt": "The officer: *The radar caught you at eighty-two.*",
+     "answer": "Το ραντάρ σας έπιασε με ογδόντα δύο.",
+     "accept": [
+      "Το ραντάρ σας έπιασε με ογδόντα δύο.",
+      "Το ραντάρ σας έπιασε με ογδόντα δυο."
+     ],
+     "why": "πιάνω κάποιον με + speed: 'catch someone doing'."
+    },
+    {
+     "prompt": "*Sorry, I didn't see the sign.*",
+     "answer": "Συγγνώμη, δεν είδα την πινακίδα.",
+     "accept": [
+      "Συγγνώμη, δεν είδα την πινακίδα.",
+      "Συγγνώμη δεν είδα την πινακίδα.",
+      "Συγνώμη, δεν είδα την πινακίδα.",
+      "Συγνώμη δεν είδα την πινακίδα.",
+      "Συγγνώμη, δεν πρόσεξα την πινακίδα.",
+      "Συγγνώμη δεν πρόσεξα την πινακίδα."
+     ],
+     "why": "την before π keeps its ν; είδα is the aorist of βλέπω."
+    },
+    {
+     "prompt": "*This time I'll let you off with a warning.*",
+     "answer": "Αυτή τη φορά θα σας αφήσω με μια σύσταση.",
+     "accept": [
+      "Αυτή τη φορά θα σας αφήσω με μια σύσταση.",
+      "Αυτή τη φορά θα σας αφήσω με μία σύσταση.",
+      "Θα σας αφήσω με μια σύσταση αυτή τη φορά.",
+      "Αυτή τη φορά θα σας αφήσω με μια προειδοποίηση."
+     ],
+     "why": "αφήνω κάποιον με σύσταση = let someone off with a warning; perfective αφήσω after θα."
+    },
+    {
+     "prompt": "Register switch to informal (εσύ): *Φυσήξτε εδώ, δυνατά.*",
+     "answer": "Φύσηξε εδώ, δυνατά.",
+     "accept": [
+      "Φύσηξε εδώ, δυνατά.",
+      "Φύσηξε εδώ δυνατά.",
+      "Φύσα εδώ, δυνατά.",
+      "Φύσα εδώ δυνατά."
+     ],
+     "why": "Plural imperative φυσήξτε → singular φύσηξε (or continuous φύσα)."
+    },
+    {
+     "prompt": "Register switch to formal (εσείς): *Μην ανοίξεις το καπό.*",
+     "answer": "Μην ανοίξετε το καπό.",
+     "accept": [
+      "Μην ανοίξετε το καπό.",
+      "Μην ανοίγετε το καπό."
+     ],
+     "why": "Negative commands use μην + subjunctive in every person: ανοίξεις → ανοίξετε."
+    },
+    {
+     "prompt": "Genitive: *the papers of the car* → τα χαρτιά ___ (το αυτοκίνητο)",
+     "answer": "του αυτοκινήτου",
+     "accept": [
+      "του αυτοκινήτου"
+     ],
+     "why": "Neuter -ο stressed on the third-last syllable moves the stress in the genitive: αυτοκινήτου."
+    },
+    {
+     "prompt": "Genitive plural: *car rental company* → εταιρεία ενοικίασης ___ (τα αυτοκίνητα)",
+     "answer": "αυτοκινήτων",
+     "accept": [
+      "αυτοκινήτων",
+      "των αυτοκινήτων"
+     ],
+     "why": "Gen. pl. -ων pulls the stress to the penultimate: αυτοκινήτων."
+    },
+    {
+     "prompt": "Genitive: *the garage's phone number* → το τηλέφωνο ___ (το συνεργείο)",
+     "answer": "του συνεργείου",
+     "accept": [
+      "του συνεργείου"
+     ],
+     "why": "-είο nouns: του συνεργείου, των συνεργείων."
+    },
+    {
+     "prompt": "Genitive plural: *the cost of the tolls* → το κόστος ___ (τα διόδια)",
+     "answer": "των διοδίων",
+     "accept": [
+      "των διοδίων"
+     ],
+     "why": "τα διόδια exists only in the plural; gen. των διοδίων."
+    },
+    {
+     "prompt": "Genitive: *the driver's licence* → το δίπλωμα ___ (ο οδηγός)",
+     "answer": "του οδηγού",
+     "accept": [
+      "του οδηγού"
+     ],
+     "why": "Final-stressed -ός: του οδηγού, των οδηγών."
+    },
+    {
+     "prompt": "Genitive: *the licence number* → ο αριθμός ___ (το δίπλωμα)",
+     "answer": "του διπλώματος",
+     "accept": [
+      "του διπλώματος"
+     ],
+     "why": "-μα nouns add -τος in the genitive and the stress moves: διπλώματος, διπλωμάτων."
+    },
+    {
+     "prompt": "Accusative plural: *We'll note all the damage.* → Θα σημειώσουμε όλες ___ (οι ζημιές)",
+     "answer": "τις ζημιές",
+     "accept": [
+      "τις ζημιές"
+     ],
+     "why": "Feminine plural accusative article: τις."
+    },
+    {
+     "prompt": "*the speed limit*",
+     "answer": "το όριο ταχύτητας",
+     "accept": [
+      "το όριο ταχύτητας"
+     ],
+     "why": "A genitive noun after the head works like an English compound: όριο ταχύτητας."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Choose the natural reply: «Δίπλωμα και άδεια κυκλοφορίας, παρακαλώ.»",
+     "answer": "Ορίστε.",
+     "options": [
+      "Ορίστε.",
+      "Έλα, πάρ' τα.",
+      "Παρακαλώ, τίποτα."
+     ],
+     "why": "Ορίστε is what you say when handing something over."
+    },
+    {
+     "prompt": "Which means 'it won't start'?",
+     "answer": "Δεν παίρνει μπρος.",
+     "options": [
+      "Δεν παίρνει μπρος.",
+      "Δεν πάει πίσω.",
+      "Δεν παίρνει δρόμο."
+     ],
+     "why": "παίρνω μπρος = (engine) start."
+    },
+    {
+     "prompt": "η άδεια κυκλοφορίας is:",
+     "answer": "the vehicle registration document",
+     "options": [
+      "the vehicle registration document",
+      "the driving licence",
+      "a parking permit"
+     ],
+     "why": "Your licence is το δίπλωμα; the car's papers are η άδεια κυκλοφορίας."
+    },
+    {
+     "prompt": "Η βασική ασφάλεια έχει απαλλαγή ___ ευρώ.",
+     "answer": "εξακοσίων",
+     "options": [
+      "εξακοσίων",
+      "εξακόσια",
+      "εξακόσιους"
+     ],
+     "why": "After απαλλαγή the amount is genitive: εξακοσίων."
+    },
+    {
+     "prompt": "Βρίσκομαι στο ύψος ___ Λαμίας.",
+     "answer": "της",
+     "options": [
+      "της",
+      "τη",
+      "η"
+     ],
+     "why": "στο ύψος + genitive."
+    },
+    {
+     "prompt": "Choose what a police officer would say:",
+     "answer": "Σβήστε τη μηχανή, παρακαλώ.",
+     "options": [
+      "Σβήστε τη μηχανή, παρακαλώ.",
+      "Σβήσε τη μηχανή, ρε.",
+      "Σβήνουμε τη μηχανή, φίλε;"
+     ],
+     "why": "Officers use εσείς and the plural imperative."
+    },
+    {
+     "prompt": "Μην ___ το καπό!",
+     "answer": "ανοίξετε",
+     "options": [
+      "ανοίξετε",
+      "ανοίξτε",
+      "άνοιξε"
+     ],
+     "why": "Negative commands take μην + subjunctive, not the imperative."
+    },
+    {
+     "prompt": "«Γεμάτο προς γεμάτο» means:",
+     "answer": "Take the car with a full tank and return it full.",
+     "options": [
+      "Take the car with a full tank and return it full.",
+      "Fuel is included in the price.",
+      "You pay for a full tank in advance."
+     ],
+     "why": "The standard rental fuel policy."
+    },
+    {
+     "prompt": "Choose the natural reply: «Είστε σε ασφαλές σημείο;»",
+     "answer": "Ναι, είμαι στη λωρίδα έκτακτης ανάγκης.",
+     "options": [
+      "Ναι, είμαι στη λωρίδα έκτακτης ανάγκης.",
+      "Ναι, έχω πλήρη ασφάλεια.",
+      "Ναι, το ασφάλισα."
+     ],
+     "why": "ασφαλής 'safe' is about safety here, not insurance."
+    },
+    {
+     "prompt": "«Μου έμειναν τα κλειδιά μέσα στο αυτοκίνητο» means:",
+     "answer": "I've locked my keys in the car.",
+     "options": [
+      "I've locked my keys in the car.",
+      "I've lost my keys.",
+      "I still have my keys."
+     ],
+     "why": "μένω μέσα = be left inside."
+    },
+    {
+     "prompt": "Το αυτοκίνητο θα ___ στο συνεργείο.",
+     "answer": "μεταφερθεί",
+     "options": [
+      "μεταφερθεί",
+      "μεταφέρει",
+      "μεταφέρθηκε"
+     ],
+     "why": "θα + passive perfective: θα μεταφερθεί 'will be taken'."
+    },
+    {
+     "prompt": "Καλησπέρα, κύριε ___. (Παπαδόπουλος)",
+     "answer": "Παπαδόπουλε",
+     "options": [
+      "Παπαδόπουλε",
+      "Παπαδόπουλο",
+      "Παπαδόπουλος"
+     ],
+     "why": "Surnames in -όπουλος take -ε in the vocative."
+    },
+    {
+     "prompt": "A driver flashes his headlights at you at a junction. In Greece this usually means:",
+     "answer": "I'm coming, don't pull out.",
+     "options": [
+      "I'm coming, don't pull out.",
+      "Go ahead, after you.",
+      "Your lights are off."
+     ],
+     "why": "See the culture note: a warning, not an invitation."
+    },
+    {
+     "prompt": "Πήγαινα ___ ογδόντα.",
+     "answer": "με",
+     "options": [
+      "με",
+      "σε",
+      "για"
+     ],
+     "why": "Speed: πηγαίνω με + number."
+    }
+   ]
+  },
+  {
+   "gen": "decline",
+   "ids": [
+    "n-μα",
+    "n-ο-a",
+    "m-ος-fixed",
+    "f-α-a",
+    "f-η-εις"
+   ],
+   "cells": [
+    "sg.gen",
+    "pl.gen",
+    "pl.acc"
+   ],
+   "n": 6
+  }
+ ],
+ "vocab": [
+  "αυτοκίνητο",
+  "δίπλωμα",
+  "ενοικιάζω",
+  "βενζίνη",
+  "λάστιχο",
+  "ταχύτητα",
+  "πρόστιμο",
+  "ασφάλεια",
+  "συνεργείο",
+  "ζώνη",
+  "κλήση",
+  "όριο"
+ ]
+}

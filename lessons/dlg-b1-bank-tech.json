@@ -1,0 +1,1607 @@
+{
+ "el": "Τράπεζα και τεχνολογία",
+ "title": "Bank and tech: accounts, blocked cards, phone contracts",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "Banks, helplines and shop counters",
+   "text": "**At the bank** you state the goal and ask for the list: *Θα ήθελα να ανοίξω λογαριασμό. Τι δικαιολογητικά χρειάζομαι;* Three numbers come up every time: the **ΑΦΜ** (tax number, said *α-φι-μι*), the **ΑΜΚΑ** (social security number, *άμκα*) and the **IBAN** (*ίμπαν*), which Greeks just call *το IBAN* or *ο αριθμός λογαριασμού*. Speech uses the full forms when it wants to be clear: *ο αριθμός φορολογικού μητρώου*, a noun followed by a chain of genitives.\n\n**On a helpline** expect identity checks (*ερωτήσεις ταυτοποίησης*) and the **passive aorist** everywhere, because banks describe what *happened to* your card: *μπλοκαρίστηκε*, *η συναλλαγή δεν εγκρίθηκε*, *δεν χρεωθήκατε*, *θα σταλεί*.\n\n**In a shop**, a complaint follows a pattern: state the fact (*Ήρθε ο λογαριασμός και είναι σαράντα ένα ευρώ αντί για τριάντα*), recall the promise (*Μου είπατε ρητά ότι…*), say what you want (*Θέλω να μου επιστραφούν τα χρήματα*) and, if needed, name the next step (*θα κάνω καταγγελία*). Stay with *εσείς* and short, firm sentences; politeness and firmness go together."
+  },
+  {
+   "type": "dialogue",
+   "title": "Ο πρώτος μου λογαριασμός",
+   "setting": "Danai, just eighteen, opens her first bank account for a summer job; Mr Rigas at the branch explains the numbers she needs.",
+   "lines": [
+    {
+     "who": "Κύριος Ρήγας",
+     "voice": "m",
+     "el": "Καλημέρα. Περάστε, καθίστε. Πώς μπορώ να σας βοηθήσω;",
+     "en": "Good morning. Come in, have a seat. How can I help you?"
+    },
+    {
+     "who": "Δανάη",
+     "voice": "f",
+     "el": "Καλημέρα σας. Θα ήθελα να ανοίξω λογαριασμό. Είναι ο πρώτος μου, γιατί βρήκα δουλειά για το καλοκαίρι σε ένα ξενοδοχείο.",
+     "en": "Good morning. I'd like to open an account. It's my first one, because I've found a summer job at a hotel."
+    },
+    {
+     "who": "Κύριος Ρήγας",
+     "voice": "m",
+     "el": "Συγχαρητήρια! Είστε ενήλικη, έτσι;",
+     "en": "Congratulations! You're of age, aren't you?"
+    },
+    {
+     "who": "Δανάη",
+     "voice": "f",
+     "el": "Ναι, έκλεισα τα δεκαοχτώ τον Μάρτιο. Τι χαρτιά χρειάζομαι;",
+     "en": "Yes, I turned eighteen in March. What papers do I need?"
+    },
+    {
+     "who": "Κύριος Ρήγας",
+     "voice": "m",
+     "el": "Την ταυτότητά σας, τον αριθμό φορολογικού μητρώου και τον αριθμό μητρώου κοινωνικής ασφάλισης. Και ένα αποδεικτικό διεύθυνσης, για παράδειγμα έναν λογαριασμό ρεύματος.",
+     "en": "Your ID card, your tax number and your social security number. And proof of address, for example an electricity bill."
+    },
+    {
+     "who": "Δανάη",
+     "voice": "f",
+     "el": "Την ταυτότητα την έχω. Αλλά ποια είναι η διαφορά ανάμεσα στους δύο αριθμούς; Πάντα τους μπερδεύω.",
+     "en": "I've got my ID. But what's the difference between the two numbers? I always mix them up."
+    },
+    {
+     "who": "Κύριος Ρήγας",
+     "voice": "m",
+     "el": "Ο αριθμός φορολογικού μητρώου έχει εννιά ψηφία και σας τον δίνει η εφορία. Τον χρειάζεστε για ό,τι έχει σχέση με φόρους και εισόδημα.",
+     "en": "The tax number has nine digits and the tax office gives it to you. You need it for anything to do with taxes and income."
+    },
+    {
+     "who": "Δανάη",
+     "voice": "f",
+     "el": "Και ο άλλος;",
+     "en": "And the other one?"
+    },
+    {
+     "who": "Κύριος Ρήγας",
+     "voice": "m",
+     "el": "Ο αριθμός κοινωνικής ασφάλισης έχει έντεκα ψηφία, και τα πρώτα έξι είναι η ημερομηνία γέννησής σας. Με αυτόν πηγαίνετε στον γιατρό, παίρνετε φάρμακα και ασφαλίζεστε όταν δουλεύετε.",
+     "en": "The social security number has eleven digits, and the first six are your date of birth. With it you go to the doctor, get medicines and are insured when you work."
+    },
+    {
+     "who": "Δανάη",
+     "voice": "f",
+     "el": "Α, γι' αυτό ο δικός μου ξεκινάει με δεκαπέντε, μηδέν τρία, μηδέν οκτώ! Τους έχω και τους δύο στο κινητό, μου τους έστειλε ο πατέρας μου.",
+     "en": "Oh, that's why mine starts with fifteen, zero three, zero eight! I've got both on my phone, my dad sent them to me."
+    },
+    {
+     "who": "Κύριος Ρήγας",
+     "voice": "m",
+     "el": "Τέλεια. Για τη διεύθυνση, φτάνει ένας λογαριασμός στο όνομα του πατέρα σας και μια υπεύθυνη δήλωση ότι μένετε μαζί του. Γίνεται ηλεκτρονικά σε δύο λεπτά.",
+     "en": "Perfect. For the address, a bill in your father's name and a solemn declaration that you live with him will do. It takes two minutes online."
+    },
+    {
+     "who": "Δανάη",
+     "voice": "f",
+     "el": "Εντάξει, θα την κάνω τώρα από το κινητό. Και πώς θα με πληρώνει το ξενοδοχείο;",
+     "en": "OK, I'll do it now on my phone. And how will the hotel pay me?"
+    },
+    {
+     "who": "Κύριος Ρήγας",
+     "voice": "m",
+     "el": "Θα τους δώσετε τον διεθνή αριθμό του λογαριασμού σας. Ξεκινάει με δύο λατινικά γράμματα για τη χώρα και έχει είκοσι επτά χαρακτήρες συνολικά.",
+     "en": "You'll give them your account's international number. It starts with two Latin letters for the country and has twenty-seven characters in total."
+    },
+    {
+     "who": "Δανάη",
+     "voice": "f",
+     "el": "Είκοσι επτά! Δεν θα τον μάθω ποτέ απ' έξω.",
+     "en": "Twenty-seven! I'll never learn it by heart."
+    },
+    {
+     "who": "Κύριος Ρήγας",
+     "voice": "m",
+     "el": "Δεν χρειάζεται. Τον βρίσκετε πάντα στην εφαρμογή και τον αντιγράφετε με ένα πάτημα. Θέλετε να σας ενεργοποιήσω και την ηλεκτρονική τραπεζική;",
+     "en": "No need. You can always find it in the app and copy it with one tap. Shall I activate online banking for you too?"
+    },
+    {
+     "who": "Δανάη",
+     "voice": "f",
+     "el": "Ναι, παρακαλώ. Και μια κάρτα, για να πληρώνω με το κινητό.",
+     "en": "Yes, please. And a card, so I can pay with my phone."
+    },
+    {
+     "who": "Κύριος Ρήγας",
+     "voice": "m",
+     "el": "Θα σας εκδώσουμε χρεωστική κάρτα. Μπορείτε να τη βάλετε στο κινητό από σήμερα, και η πλαστική θα έρθει στο σπίτι σε μία εβδομάδα.",
+     "en": "We'll issue you a debit card. You can add it to your phone from today, and the plastic one will arrive at your home in a week."
+    },
+    {
+     "who": "Δανάη",
+     "voice": "f",
+     "el": "Τέλεια. Ο πατέρας μου θα πάθει πλάκα, εκείνος ακόμα πληρώνει μόνο με μετρητά!",
+     "en": "Great. My dad will be amazed, he still pays only in cash!"
+    }
+   ],
+   "gloss": {
+    "Ρήγας": "Ρήγας — Rigas (surname)",
+    "Δανάη": "Δανάη — Danai (name)",
+    "ενήλικη": "ενήλικος — adult, of age (f.)",
+    "έκλεισα": "κλείνω — κλείνω τα δεκαοχτώ = turn eighteen",
+    "δεκαοχτώ": "δεκαοχτώ — eighteen",
+    "φορολογικού": "φορολογικός — tax (adj.); αριθμός φορολογικού μητρώου = tax number (ΑΦΜ, said 'a-fi-mi')",
+    "μητρώου": "μητρώο — register (gen.)",
+    "κοινωνικής": "κοινωνικός — social; αριθμός μητρώου κοινωνικής ασφάλισης = social security number (ΑΜΚΑ, said 'amka')",
+    "ασφάλισης": "ασφάλιση — insurance (gen.)",
+    "αποδεικτικό": "αποδεικτικό — proof, certificate",
+    "ρεύματος": "ρεύμα — electricity (gen.); λογαριασμός ρεύματος = electricity bill",
+    "μπερδεύω": "μπερδεύω — mix up, confuse",
+    "ψηφία": "ψηφίο — digit",
+    "εισόδημα": "εισόδημα — income",
+    "γέννησής": "γέννηση — birth (gen.; accent added before σας)",
+    "ασφαλίζεστε": "ασφαλίζομαι — be insured",
+    "υπεύθυνη": "υπεύθυνος — responsible; υπεύθυνη δήλωση = solemn declaration",
+    "δήλωση": "δήλωση — declaration",
+    "διεθνή": "διεθνής — international (acc.); διεθνής αριθμός λογαριασμού = IBAN, said 'iban'",
+    "λατινικά": "λατινικός — Latin",
+    "χαρακτήρες": "χαρακτήρας — character",
+    "συνολικά": "συνολικά — in total",
+    "απ'": "από — απ' έξω = by heart",
+    "πάτημα": "πάτημα — press, tap",
+    "ενεργοποιήσω": "ενεργοποιώ — activate (subjunctive)",
+    "τραπεζική": "τραπεζικός — banking; ηλεκτρονική τραπεζική = online banking",
+    "εκδώσουμε": "εκδίδω — issue (subjunctive)",
+    "χρεωστική": "χρεωστικός — debit (card)",
+    "πλαστική": "πλαστικός — plastic",
+    "πλάκα": "πλάκα — θα πάθει πλάκα = he'll be amazed",
+    "μετρητά": "μετρητά — cash",
+    "ΑΦΜ": "ΑΦΜ (α-φι-μι) — tax number, Αριθμός Φορολογικού Μητρώου",
+    "ΑΜΚΑ": "ΑΜΚΑ (άμκα) — social security number",
+    "πιστωτική": "πιστωτικός — credit (card)",
+    "ταυτοποίηση": "ταυτοποίηση — identity verification",
+    "ταυτοποίησής": "ταυτοποίηση — identity verification (gen.)"
+   },
+   "questions": [
+    {
+     "prompt": "Γιατί ανοίγει λογαριασμό η Δανάη;",
+     "answer": "Βρήκε δουλειά για το καλοκαίρι",
+     "options": [
+      "Βρήκε δουλειά για το καλοκαίρι",
+      "Πάει για σπουδές στο εξωτερικό",
+      "Της το ζήτησε η σχολή της"
+     ]
+    },
+    {
+     "prompt": "Πόσα ψηφία έχει ο αριθμός φορολογικού μητρώου;",
+     "answer": "Εννιά",
+     "options": [
+      "Εννιά",
+      "Έντεκα",
+      "Είκοσι επτά"
+     ]
+    },
+    {
+     "prompt": "Τι δείχνουν τα πρώτα έξι ψηφία του αριθμού κοινωνικής ασφάλισης;",
+     "answer": "Την ημερομηνία γέννησης",
+     "options": [
+      "Την ημερομηνία γέννησης",
+      "Την πόλη όπου μένει κανείς",
+      "Τον κωδικό της τράπεζας"
+     ]
+    },
+    {
+     "prompt": "Πόσους χαρακτήρες έχει ο διεθνής αριθμός λογαριασμού;",
+     "answer": "Είκοσι επτά",
+     "options": [
+      "Είκοσι επτά",
+      "Εννιά",
+      "Δεκαέξι"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Three numbers every resident needs",
+   "head": [
+    "Abbreviation",
+    "Full form",
+    "What it is",
+    "Used for"
+   ],
+   "rows": [
+    [
+     "**ΑΦΜ** (α-φι-μι)",
+     "Αριθμός Φορολογικού Μητρώου",
+     "9 digits, issued by the tax authority",
+     "tax, salary, contracts, rent, phone lines"
+    ],
+    [
+     "**ΑΜΚΑ** (άμκα)",
+     "Αριθμός Μητρώου Κοινωνικής Ασφάλισης",
+     "11 digits; the first six are your date of birth",
+     "doctors, prescriptions, insurance, employment"
+    ],
+    [
+     "**IBAN** (ίμπαν)",
+     "Διεθνής Αριθμός Τραπεζικού Λογαριασμού",
+     "27 characters in Greece, starting GR",
+     "salary, transfers, rent, direct debits"
+    ],
+    [
+     "**PIN**",
+     "ο (τετραψήφιος) κωδικός",
+     "4 digits",
+     "card payments, cash machines"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Key phrases: bank, helpline, shop",
+   "head": [
+    "Greek",
+    "English",
+    "When / register"
+   ],
+   "rows": [
+    [
+     "Θα ήθελα να ανοίξω λογαριασμό.",
+     "I'd like to open an account.",
+     "bank, polite"
+    ],
+    [
+     "Τι δικαιολογητικά χρειάζομαι;",
+     "What documents do I need?",
+     "bank, office"
+    ],
+    [
+     "Η κάρτα μου απορρίπτεται. / Η κάρτα δεν περνάει.",
+     "My card is being declined.",
+     "formal / everyday"
+    ],
+    [
+     "Η κάρτα μου μπλοκαρίστηκε.",
+     "My card has been blocked.",
+     "helpline"
+    ],
+    [
+     "Μου έκλεψαν την κάρτα. / Έχασα την κάρτα μου.",
+     "My card was stolen. / I've lost my card.",
+     "helpline"
+    ],
+    [
+     "Βλέπω μια χρέωση που δεν αναγνωρίζω.",
+     "I see a charge I don't recognise.",
+     "helpline"
+    ],
+    [
+     "Θέλω να κάνω ανάληψη / κατάθεση / μεταφορά.",
+     "I want to make a withdrawal / deposit / transfer.",
+     "bank"
+    ],
+    [
+     "Πού είναι η παγίδα;",
+     "Where's the catch?",
+     "shop, sceptical"
+    ],
+    [
+     "Πόσο διαρκεί η δέσμευση;",
+     "How long is the commitment?",
+     "phone contract"
+    ],
+    [
+     "Μου είπατε ρητά ότι…",
+     "You told me explicitly that…",
+     "complaint"
+    ],
+    [
+     "Χρεώθηκα για κάτι που δεν ζήτησα.",
+     "I was charged for something I didn't ask for.",
+     "complaint"
+    ],
+    [
+     "Θέλω να μου επιστραφούν τα χρήματα.",
+     "I want my money refunded.",
+     "complaint, firm"
+    ],
+    [
+     "Θα ήθελα να μιλήσω με τον υπεύθυνο.",
+     "I'd like to speak to the manager.",
+     "complaint, escalation"
+    ],
+    [
+     "Θα κάνω καταγγελία.",
+     "I'll file a formal complaint.",
+     "last resort"
+    ]
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Η κάρτα δεν περνάει",
+   "setting": "Alexis is in Berlin and his card is being declined everywhere. He calls his bank's helpline; Ioanna answers.",
+   "lines": [
+    {
+     "who": "Ιωάννα",
+     "voice": "f",
+     "el": "Τηλεφωνική εξυπηρέτηση, Ιωάννα ονομάζομαι, καλησπέρα σας. Πώς μπορώ να σας εξυπηρετήσω;",
+     "en": "Customer service, my name is Ioanna, good evening. How can I help you?"
+    },
+    {
+     "who": "Αλέξης",
+     "voice": "m",
+     "el": "Καλησπέρα. Είμαι στο εξωτερικό και η κάρτα μου απορρίπτεται παντού. Στο ξενοδοχείο, στο σούπερ μάρκετ, παντού.",
+     "en": "Good evening. I'm abroad and my card is being declined everywhere. At the hotel, at the supermarket, everywhere."
+    },
+    {
+     "who": "Ιωάννα",
+     "voice": "f",
+     "el": "Λυπάμαι για την ταλαιπωρία. Πριν προχωρήσουμε, θα σας κάνω μερικές ερωτήσεις ταυτοποίησης. Το ονοματεπώνυμό σας;",
+     "en": "I'm sorry for the inconvenience. Before we go on, I'll ask you a few security questions. Your full name?"
+    },
+    {
+     "who": "Αλέξης",
+     "voice": "m",
+     "el": "Αλέξανδρος Παπαδόγιαννης.",
+     "en": "Alexandros Papadogiannis."
+    },
+    {
+     "who": "Ιωάννα",
+     "voice": "f",
+     "el": "Την ημερομηνία γέννησής σας και τα τέσσερα τελευταία ψηφία της κάρτας;",
+     "en": "Your date of birth and the last four digits of the card?"
+    },
+    {
+     "who": "Αλέξης",
+     "voice": "m",
+     "el": "Τρεις Νοεμβρίου του ενενήντα ένα. Η κάρτα τελειώνει σε τέσσερα, εννιά, ένα, επτά.",
+     "en": "Third of November ninety-one. The card ends in four, nine, one, seven."
+    },
+    {
+     "who": "Ιωάννα",
+     "voice": "f",
+     "el": "Ευχαριστώ, κύριε Παπαδόγιαννη. Βλέπω ότι η κάρτα σας μπλοκαρίστηκε προσωρινά χθες το βράδυ από το σύστημα ασφαλείας.",
+     "en": "Thank you, Mr Papadogiannis. I can see your card was temporarily blocked last night by the security system."
+    },
+    {
+     "who": "Αλέξης",
+     "voice": "m",
+     "el": "Από το σύστημα; Γιατί; Δεν έκανα τίποτα περίεργο.",
+     "en": "By the system? Why? I didn't do anything unusual."
+    },
+    {
+     "who": "Ιωάννα",
+     "voice": "f",
+     "el": "Έγινε μια απόπειρα αγοράς τριακοσίων ογδόντα ευρώ από ένα ηλεκτρονικό κατάστημα στην Ασία. Εσείς την κάνατε;",
+     "en": "There was an attempted purchase of three hundred and eighty euros from an online shop in Asia. Was that you?"
+    },
+    {
+     "who": "Αλέξης",
+     "voice": "m",
+     "el": "Όχι βέβαια! Ούτε καν ξέρω τέτοιο κατάστημα. Δηλαδή μου έκλεψαν τα στοιχεία της κάρτας;",
+     "en": "Certainly not! I don't even know a shop like that. So my card details have been stolen?"
+    },
+    {
+     "who": "Ιωάννα",
+     "voice": "f",
+     "el": "Πιθανότατα. Ευτυχώς η συναλλαγή δεν εγκρίθηκε, οπότε δεν χρεωθήκατε τίποτα. Αλλά αυτή η κάρτα δεν μπορεί να ξαναενεργοποιηθεί.",
+     "en": "Most likely. Luckily the transaction wasn't approved, so you haven't been charged anything. But this card can't be reactivated."
+    },
+    {
+     "who": "Αλέξης",
+     "voice": "m",
+     "el": "Και τώρα τι κάνω; Είμαι στο Βερολίνο για άλλες πέντε μέρες, χωρίς κάρτα!",
+     "en": "So what do I do now? I'm in Berlin for another five days, without a card!"
+    },
+    {
+     "who": "Ιωάννα",
+     "voice": "f",
+     "el": "Θα την ακυρώσω οριστικά και θα σας εκδώσουμε καινούργια. Στο μεταξύ, η ψηφιακή κάρτα θα είναι έτοιμη στο κινητό σας σε μία ώρα.",
+     "en": "I'll cancel it permanently and we'll issue you a new one. Meanwhile, the digital card will be ready on your phone within an hour."
+    },
+    {
+     "who": "Αλέξης",
+     "voice": "m",
+     "el": "Α, ωραία, αυτό με σώζει. Θα μπορώ να πληρώνω ανέπαφα με το κινητό;",
+     "en": "Oh, good, that saves me. Will I be able to pay contactless with my phone?"
+    },
+    {
+     "who": "Ιωάννα",
+     "voice": "f",
+     "el": "Ακριβώς. Η πλαστική κάρτα θα σταλεί στη διεύθυνσή σας στην Ελλάδα σε πέντε με επτά εργάσιμες.",
+     "en": "Exactly. The plastic card will be sent to your address in Greece in five to seven working days."
+    },
+    {
+     "who": "Αλέξης",
+     "voice": "m",
+     "el": "Και μετρητά; Μπορώ να κάνω ανάληψη χωρίς κάρτα;",
+     "en": "And cash? Can I withdraw money without a card?"
+    },
+    {
+     "who": "Ιωάννα",
+     "voice": "f",
+     "el": "Από τα δικά μας μηχανήματα στην Ελλάδα ναι, με κωδικό από την εφαρμογή. Στο εξωτερικό, δυστυχώς, όχι.",
+     "en": "From our own machines in Greece, yes, with a code from the app. Abroad, unfortunately, no."
+    },
+    {
+     "who": "Αλέξης",
+     "voice": "m",
+     "el": "Εντάξει, θα τα βγάλω πέρα με το κινητό. Ευχαριστώ πολύ για τη βοήθεια.",
+     "en": "OK, I'll manage with my phone. Thanks a lot for your help."
+    },
+    {
+     "who": "Ιωάννα",
+     "voice": "f",
+     "el": "Παρακαλώ. Και μην απαντάτε ποτέ σε μηνύματα που σας ζητούν κωδικούς, η τράπεζα δεν τους ζητάει ποτέ. Καλή συνέχεια!",
+     "en": "You're welcome. And never reply to messages asking for your codes, the bank never asks for them. Have a good evening!"
+    }
+   ],
+   "gloss": {
+    "απορρίπτεται": "απορρίπτομαι — be declined, rejected",
+    "σούπερ": "σούπερ μάρκετ — supermarket",
+    "μάρκετ": "σούπερ μάρκετ — supermarket",
+    "ταλαιπωρία": "ταλαιπωρία — inconvenience, hassle",
+    "προχωρήσουμε": "προχωράω — go ahead, proceed",
+    "ταυτοποίησης": "ταυτοποίηση — identification; ερωτήσεις ταυτοποίησης = security questions",
+    "ονοματεπώνυμό": "ονοματεπώνυμο — full name (accent added before σας)",
+    "Παπαδόγιαννης": "Παπαδόγιαννης — Papadogiannis (surname)",
+    "Παπαδόγιαννη": "Παπαδόγιαννης — Papadogiannis (vocative)",
+    "Αλέξανδρος": "Αλέξανδρος — Alexander (formal form of Αλέξης)",
+    "μπλοκαρίστηκε": "μπλοκάρω — was blocked (passive aorist)",
+    "προσωρινά": "προσωρινά — temporarily",
+    "ασφαλείας": "ασφάλεια — security (gen.)",
+    "απόπειρα": "απόπειρα — attempt",
+    "τριακοσίων": "τριακόσιοι — three hundred (gen.)",
+    "ογδόντα": "ογδόντα — eighty",
+    "Ασία": "Ασία — Asia",
+    "στοιχεία": "στοιχείο — detail, data (pl.)",
+    "Πιθανότατα": "πιθανότατα — most likely",
+    "συναλλαγή": "συναλλαγή — transaction",
+    "εγκρίθηκε": "εγκρίνω — was approved (passive aorist)",
+    "χρεωθήκατε": "χρεώνομαι — be charged (passive aorist, 2nd pl.)",
+    "ξαναενεργοποιηθεί": "ξαναενεργοποιούμαι — be reactivated",
+    "Βερολίνο": "Βερολίνο — Berlin",
+    "οριστικά": "οριστικά — permanently, for good",
+    "ψηφιακή": "ψηφιακός — digital",
+    "σώζει": "σώζω — save",
+    "ανέπαφα": "ανέπαφα — contactless",
+    "σταλεί": "στέλνομαι — be sent (passive subjunctive)",
+    "εργάσιμες": "εργάσιμος — working (day)",
+    "ανάληψη": "ανάληψη — withdrawal",
+    "μηχανήματα": "μηχάνημα — machine; here: cash machine",
+    "βγάλω": "βγάζω — θα τα βγάλω πέρα = I'll manage, cope"
+   },
+   "questions": [
+    {
+     "prompt": "Πού βρίσκεται ο Αλέξης;",
+     "answer": "Στο Βερολίνο",
+     "options": [
+      "Στο Βερολίνο",
+      "Στην Αθήνα",
+      "Στην Ασία"
+     ]
+    },
+    {
+     "prompt": "Γιατί μπλοκαρίστηκε η κάρτα;",
+     "answer": "Έγινε μια ύποπτη απόπειρα αγοράς",
+     "options": [
+      "Έγινε μια ύποπτη απόπειρα αγοράς",
+      "Έληξε",
+      "Έβαλε λάθος κωδικό τρεις φορές"
+     ]
+    },
+    {
+     "prompt": "Χρεώθηκε ο Αλέξης τα τριακόσια ογδόντα ευρώ;",
+     "answer": "Όχι, η συναλλαγή δεν εγκρίθηκε",
+     "options": [
+      "Όχι, η συναλλαγή δεν εγκρίθηκε",
+      "Ναι, όλα",
+      "Ναι, αλλά θα του επιστραφούν"
+     ]
+    },
+    {
+     "prompt": "Πότε θα έρθει η πλαστική κάρτα;",
+     "answer": "Σε πέντε με επτά εργάσιμες",
+     "options": [
+      "Σε πέντε με επτά εργάσιμες",
+      "Σε μία ώρα",
+      "Σε έναν μήνα"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "What happened to the card: the passive aorist",
+   "head": [
+    "Active",
+    "Passive aorist / perfective",
+    "In context"
+   ],
+   "rows": [
+    [
+     "μπλοκάρω",
+     "μπλοκαρίστηκε",
+     "Η κάρτα **μπλοκαρίστηκε** προσωρινά."
+    ],
+    [
+     "εγκρίνω",
+     "εγκρίθηκε",
+     "Η συναλλαγή δεν **εγκρίθηκε**."
+    ],
+    [
+     "χρεώνω",
+     "χρεώθηκα, χρεωθήκατε",
+     "Δεν **χρεωθήκατε** τίποτα. / **Χρεώθηκα** δύο φορές."
+    ],
+    [
+     "στέλνω",
+     "στάλθηκε, θα σταλεί",
+     "Η κάρτα θα **σταλεί** στη διεύθυνσή σας."
+    ],
+    [
+     "επιστρέφω",
+     "επιστράφηκε, να επιστραφούν",
+     "Θέλω να μου **επιστραφούν** τα χρήματα."
+    ],
+    [
+     "πιστώνω",
+     "πιστώθηκε, θα πιστωθούν",
+     "Τα χρήματα θα **πιστωθούν** στον λογαριασμό σας."
+    ],
+    [
+     "εξηγώ",
+     "εξηγήθηκε",
+     "Δεν μου **εξηγήθηκε** τίποτα."
+    ],
+    [
+     "διορθώνω",
+     "διορθώθηκε, να διορθωθεί",
+     "Αν δεν **διορθωθεί**, θα κάνω καταγγελία."
+    ],
+    [
+     "ενεργοποιώ",
+     "ενεργοποιήθηκε, ενεργοποιείται",
+     "Η συνδρομή **ενεργοποιείται** αυτόματα."
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "At the bank and on the phone",
+   "items": [
+    {
+     "el": "Μπορείτε να μου στείλετε τον αριθμό του λογαριασμού σας για να σας κάνω τη μεταφορά;",
+     "en": "Can you send me your account number so I can make the transfer to you?"
+    },
+    {
+     "el": "Έβαλα λάθος κωδικό τρεις φορές και η κάρτα κλείδωσε.",
+     "en": "I entered the wrong PIN three times and the card locked."
+    },
+    {
+     "el": "Το μηχάνημα κράτησε την κάρτα μου.",
+     "en": "The cash machine swallowed my card."
+    },
+    {
+     "el": "Βλέπω μια χρέωση δεκαπέντε ευρώ που δεν αναγνωρίζω.",
+     "en": "I can see a charge of fifteen euros that I don't recognise."
+    },
+    {
+     "el": "Θέλω να κάνω ανάληψη διακοσίων ευρώ.",
+     "en": "I'd like to withdraw two hundred euros."
+    },
+    {
+     "el": "Ο μισθός μου κατατίθεται στις τριάντα κάθε μήνα.",
+     "en": "My salary is paid in on the thirtieth of every month."
+    },
+    {
+     "el": "Στείλε μου τα στο κινητό, έχω την εφαρμογή.",
+     "en": "Send the money to my mobile number, I've got the app."
+    },
+    {
+     "el": "Η μεταφορά σε άλλη τράπεζα θα φανεί αύριο.",
+     "en": "The transfer to another bank will show up tomorrow."
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Νέο συμβόλαιο κινητού",
+   "setting": "Rena's mobile contract is ending and she goes into a phone shop; Manos, a sales assistant, serves her.",
+   "lines": [
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Γεια σας! Πώς μπορώ να σας βοηθήσω;",
+     "en": "Hello! How can I help you?"
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Γεια σας. Το συμβόλαιό μου λήγει τον άλλο μήνα και ψάχνω κάτι καλύτερο. Πληρώνω πολλά και τα δεδομένα δεν μου φτάνουν ποτέ.",
+     "en": "Hello. My contract ends next month and I'm looking for something better. I pay a lot and the data is never enough."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Πόσα πληρώνετε τώρα;",
+     "en": "How much are you paying now?"
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Τριάντα πέντε ευρώ τον μήνα, για δέκα γίγα.",
+     "en": "Thirty-five euros a month, for ten gigs."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Τότε έχω κάτι που θα σας αρέσει. Με τριάντα ευρώ τον μήνα έχετε απεριόριστες ομιλίες και πενήντα γίγα.",
+     "en": "Then I've got something you'll like. For thirty euros a month you get unlimited calls and fifty gigs."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Ακούγεται καλό. Πού είναι η παγίδα; Πόσο διαρκεί η δέσμευση;",
+     "en": "Sounds good. Where's the catch? How long is the commitment?"
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Δεν υπάρχει παγίδα! Η δέσμευση είναι είκοσι τέσσερις μήνες. Αν διακόψετε νωρίτερα, πληρώνετε ένα μέρος από τους μήνες που απομένουν.",
+     "en": "There's no catch! The commitment is twenty-four months. If you terminate early, you pay part of the remaining months."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Και αν θέλω και καινούργιο κινητό;",
+     "en": "And if I want a new phone too?"
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Το παίρνετε με άτοκες δόσεις μέσα στον λογαριασμό. Αυτό εδώ, για παράδειγμα, είναι δεκαοχτώ ευρώ τον μήνα για είκοσι τέσσερις μήνες.",
+     "en": "You get it in interest-free instalments on your bill. This one here, for example, is eighteen euros a month for twenty-four months."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Δηλαδή πόσο συνολικά; … Τετρακόσια τριάντα δύο ευρώ. Χμ, δεν είναι και λίγα.",
+     "en": "So how much in total? … Four hundred and thirty-two euros. Hmm, that's not exactly cheap."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Είναι η ίδια τιμή με το να το αγοράσετε τώρα, απλώς σε δόσεις.",
+     "en": "It's the same price as buying it now, just in instalments."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Το συμβόλαιο το παίρνω, το κινητό όχι. Το δικό μου δουλεύει μια χαρά.",
+     "en": "I'll take the contract, but not the phone. Mine works perfectly well."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Πολύ λογικό. Θα χρειαστώ την ταυτότητά σας και τον αριθμό φορολογικού μητρώου. Θα κρατήσετε τον ίδιο αριθμό τηλεφώνου, έτσι;",
+     "en": "Very sensible. I'll need your ID and your tax number. You'll keep the same phone number, won't you?"
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Ναι, φυσικά. Πριν υπογράψω, μπορείτε να μου πείτε αν υπάρχουν άλλες χρεώσεις, για περιαγωγή ή κάτι τέτοιο;",
+     "en": "Yes, of course. Before I sign, can you tell me if there are other charges, for roaming or anything like that?"
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Μέσα στην Ευρωπαϊκή Ένωση η περιαγωγή είναι χωρίς επιπλέον χρέωση. Εκτός Ευρωπαϊκής Ένωσης χρεώνεστε ξεχωριστά.",
+     "en": "Within the European Union roaming has no extra charge. Outside the EU you're charged separately."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Ωραία. Και δεν υπάρχει τίποτε άλλο; Καμία συνδρομή, κανένα τέλος;",
+     "en": "Good. And there's nothing else? No subscription, no fee?"
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Τίποτα απολύτως. Όλοι οι όροι είναι στο συμβόλαιο, και θα σας το στείλω και στο ηλεκτρονικό σας ταχυδρομείο.",
+     "en": "Nothing at all. All the terms are in the contract, and I'll also send it to your email."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Τέλεια. Πού υπογράφω;",
+     "en": "Perfect. Where do I sign?"
+    }
+   ],
+   "gloss": {
+    "Ρένα": "Ρένα — Rena (name)",
+    "Μάνος": "Μάνος — Manos (name)",
+    "συμβόλαιό": "συμβόλαιο — contract (accent added before μου)",
+    "λήγει": "λήγω — expire, end",
+    "δεδομένα": "δεδομένα — (mobile) data",
+    "γίγα": "γίγα — gigabyte(s), 'gigs' (indeclinable)",
+    "απεριόριστες": "απεριόριστος — unlimited",
+    "ομιλίες": "ομιλία — call time (also: speech)",
+    "παγίδα": "παγίδα — trap; here: the catch",
+    "διαρκεί": "διαρκώ — last",
+    "δέσμευση": "δέσμευση — commitment (contract period)",
+    "διακόψετε": "διακόπτω — terminate, interrupt (subjunctive)",
+    "απομένουν": "απομένω — remain",
+    "άτοκες": "άτοκος — interest-free",
+    "δόσεις": "δόση — instalment",
+    "Τετρακόσια": "τετρακόσια — four hundred",
+    "Χμ": "χμ — hmm",
+    "λογικό": "λογικός — sensible, logical",
+    "περιαγωγή": "περιαγωγή — roaming",
+    "Ευρωπαϊκή": "ευρωπαϊκός — European",
+    "Ευρωπαϊκής": "ευρωπαϊκός — European (gen.)",
+    "Ένωση": "ένωση — union",
+    "Ένωσης": "ένωση — union (gen.)",
+    "Εκτός": "εκτός — outside (+ gen.)",
+    "χρεώνεστε": "χρεώνομαι — be charged",
+    "ξεχωριστά": "ξεχωριστά — separately",
+    "συνδρομή": "συνδρομή — subscription",
+    "τέλος": "τέλος — fee, charge (also: end)",
+    "όροι": "όρος — term, condition",
+    "ταχυδρομείο": "ταχυδρομείο — post; ηλεκτρονικό ταχυδρομείο = email",
+    "καρτοκινητό": "καρτοκινητό — pay-as-you-go mobile",
+    "χρέωση": "χρέωση — charge",
+    "Χρέωση": "χρέωση — charge",
+    "χρέωσης": "χρέωση — charge (gen.)",
+    "χρεώσεων": "χρέωση — charge (gen. pl.)",
+    "Ρένας": "Ρένα — Rena (gen.)",
+    "έμβασμα": "έμβασμα — bank transfer, remittance",
+    "ίμπαν": "IBAN — international account number",
+    "τετραψήφιος": "τετραψήφιος — four-digit",
+    "πιστώνω": "πιστώνω — credit",
+    "πιστώθηκε": "πιστώνω — was credited (passive aorist)",
+    "πιστώνεται": "πιστώνομαι — is credited",
+    "ΕΕΤΤ": "ΕΕΤΤ — Greek telecoms regulator",
+    "Μάρτη": "Μάρτης — March (colloquial)",
+    "περιήγηση": "περιήγηση — sightseeing tour, browsing",
+    "μπλοκαρίστηκα": "μπλοκάρω — was blocked (1st sg.)"
+   },
+   "questions": [
+    {
+     "prompt": "Πόσα πληρώνει τώρα η Ρένα;",
+     "answer": "Τριάντα πέντε ευρώ τον μήνα",
+     "options": [
+      "Τριάντα πέντε ευρώ τον μήνα",
+      "Τριάντα ευρώ τον μήνα",
+      "Δεκαοχτώ ευρώ τον μήνα"
+     ]
+    },
+    {
+     "prompt": "Πόσο διαρκεί η δέσμευση του νέου συμβολαίου;",
+     "answer": "Είκοσι τέσσερις μήνες",
+     "options": [
+      "Είκοσι τέσσερις μήνες",
+      "Δώδεκα μήνες",
+      "Δεν υπάρχει δέσμευση"
+     ]
+    },
+    {
+     "prompt": "Γιατί δεν παίρνει καινούργιο κινητό;",
+     "answer": "Το δικό της δουλεύει μια χαρά",
+     "options": [
+      "Το δικό της δουλεύει μια χαρά",
+      "Δεν της αρέσουν τα καινούργια",
+      "Δεν δίνουν δόσεις"
+     ]
+    },
+    {
+     "prompt": "Τι ισχύει για την περιαγωγή μέσα στην Ευρωπαϊκή Ένωση;",
+     "answer": "Δεν υπάρχει επιπλέον χρέωση",
+     "options": [
+      "Δεν υπάρχει επιπλέον χρέωση",
+      "Χρεώνεται ξεχωριστά",
+      "Δεν επιτρέπεται"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Money and contract nouns: declension",
+   "head": [
+    "",
+    "ο λογαριασμός",
+    "η συναλλαγή",
+    "η χρέωση",
+    "το συμβόλαιο",
+    "το ποσό"
+   ],
+   "rows": [
+    [
+     "nom. sg.",
+     "ο λογαριασμός",
+     "η συναλλαγή",
+     "η χρέωση",
+     "το συμβόλαιο",
+     "το ποσό"
+    ],
+    [
+     "gen. sg.",
+     "του λογαριασμού",
+     "της συναλλαγής",
+     "της χρέωσης",
+     "του **συμβολαίου**",
+     "του ποσού"
+    ],
+    [
+     "acc. sg.",
+     "τον λογαριασμό",
+     "τη συναλλαγή",
+     "τη χρέωση",
+     "το συμβόλαιο",
+     "το ποσό"
+    ],
+    [
+     "nom. pl.",
+     "οι λογαριασμοί",
+     "οι συναλλαγές",
+     "οι **χρεώσεις**",
+     "τα συμβόλαια",
+     "τα ποσά"
+    ],
+    [
+     "gen. pl.",
+     "των λογαριασμών",
+     "των συναλλαγών",
+     "των **χρεώσεων**",
+     "των **συμβολαίων**",
+     "των ποσών"
+    ],
+    [
+     "acc. pl.",
+     "τους λογαριασμούς",
+     "τις συναλλαγές",
+     "τις χρεώσεις",
+     "τα συμβόλαια",
+     "τα ποσά"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Complaining firmly but politely",
+   "items": [
+    {
+     "el": "Μου είπατε ότι δεν υπάρχει δέσμευση, και τελικά υπάρχει.",
+     "en": "You told me there was no commitment, and it turns out there is."
+    },
+    {
+     "el": "Το κινητό σταμάτησε να δουλεύει μετά από μία εβδομάδα. Είναι στην εγγύηση.",
+     "en": "The phone stopped working after a week. It's under warranty."
+    },
+    {
+     "el": "Δεν θέλω επισκευή, θέλω αντικατάσταση.",
+     "en": "I don't want a repair, I want a replacement."
+    },
+    {
+     "el": "Έχω πάρει τρεις φορές τηλέφωνο και κανείς δεν μου απαντάει.",
+     "en": "I've called three times and nobody answers me."
+    },
+    {
+     "el": "Μπορείτε να μου δώσετε γραπτώς αυτό που μου λέτε;",
+     "en": "Can you give me what you're telling me in writing?"
+    },
+    {
+     "el": "Θα ήθελα να μιλήσω με τον υπεύθυνο του καταστήματος.",
+     "en": "I'd like to speak to the store manager."
+    },
+    {
+     "el": "Δεν φταίτε εσείς προσωπικά, αλλά κάποιος πρέπει να το λύσει.",
+     "en": "It's not your fault personally, but someone has to sort it out."
+    },
+    {
+     "el": "Αν δεν λυθεί μέχρι την Παρασκευή, θα κάνω καταγγελία.",
+     "en": "If it isn't solved by Friday, I'll file a complaint."
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Traps for English speakers**\n\n**Λογαριασμός** is a bank account **and** a bill (*λογαριασμός ρεύματος*, the phone bill) **and** the bill in a restaurant. Context decides.\n\n**Χρέωση / χρεωστική** is 'charge / debit', **πίστωση / πιστωτική** is 'credit'. A refund is *επιστροφή χρημάτων*; money *πιστώνεται* (is credited) to you.\n\n**Gender of the abbreviations**: *ο ΑΦΜ* (ο αριθμός) is standard, though *το ΑΦΜ* is common in speech; *ο ΑΜΚΑ* / *το ΑΜΚΑ*; *το IBAN*. Pick one and keep it.\n\n**Numbers in the genitive after a noun**: *απόπειρα αγοράς τριακοσίων ογδόντα ευρώ*, *ανάληψη διακοσίων ευρώ*.\n\n**Τέσσερις vs τέσσερα**: *είκοσι τέσσερις μήνες* (masc.), *τέσσερα ψηφία* (neut.), *τέσσερις δόσεις* (fem.).\n\n**Ακυρώνω** a card = cancel it permanently; **μπλοκάρω** = block (possibly temporarily).\n\n**Passive subjunctive after να / θα / αν**: *να επιστραφούν*, *θα σταλεί*, *αν δεν διορθωθεί*. These are not the aorist forms *επιστράφηκαν*, *στάλθηκε*."
+  },
+  {
+   "type": "culture",
+   "title": "ΑΦΜ, ΑΜΚΑ και IRIS",
+   "text": "In Greece almost nothing happens without your **ΑΦΜ**: a phone contract, a rental, a job. It comes from the tax authority (**ΑΑΔΕ**) and is printed on every invoice. Your **ΑΜΚΑ** is the key to the health system, and its first six digits are your date of birth, so Greeks born on the same day share the start. Since 2020 the **IRIS** system lets you send money to a friend's mobile number straight from your banking app, which is how restaurant bills are now split: *στείλ' τα μου με IRIS*. And if a phone company won't listen, complaints can go to the regulator **ΕΕΤΤ** or to the **Συνήγορος του Καταναλωτή**."
+  },
+  {
+   "type": "dialogue",
+   "title": "Ένα παράπονο στο κατάστημα",
+   "setting": "Two weeks later Rena is back in the shop with her first bill.",
+   "lines": [
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Καλημέρα. Ήρθα πριν από δύο εβδομάδες για ένα συμβόλαιο. Με θυμάστε;",
+     "en": "Good morning. I came in two weeks ago for a contract. Do you remember me?"
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Ναι, βέβαια, κυρία Αθανασίου. Όλα καλά;",
+     "en": "Yes, of course, Mrs Athanasiou. Is everything all right?"
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Όχι ακριβώς. Ήρθε ο πρώτος λογαριασμός και είναι σαράντα ένα ευρώ αντί για τριάντα.",
+     "en": "Not exactly. The first bill has come and it's forty-one euros instead of thirty."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Για να δω… Α, βλέπω μια συνδρομή σε μια υπηρεσία ταινιών, εννιά ευρώ τον μήνα.",
+     "en": "Let me see… Ah, I can see a subscription to a film service, nine euros a month."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Συνδρομή; Εγώ δεν ζήτησα καμία συνδρομή. Μου είπατε ρητά ότι δεν υπάρχουν άλλες χρεώσεις.",
+     "en": "A subscription? I didn't ask for any subscription. You told me explicitly there were no other charges."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Ενεργοποιείται αυτόματα με το πακέτο. Υπάρχει επίσης ένα εφάπαξ τέλος ενεργοποίησης, δύο ευρώ.",
+     "en": "It's activated automatically with the package. There's also a one-off activation fee, two euros."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Δηλαδή χρεώθηκα για κάτι που ούτε ζήτησα ούτε μου εξηγήθηκε. Αυτό δεν είναι σωστό.",
+     "en": "So I've been charged for something I neither asked for nor had explained to me. That isn't right."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Έχετε δίκιο, έπρεπε να σας το πω. Ζητώ συγγνώμη. Μπορώ να απενεργοποιήσω τη συνδρομή αμέσως.",
+     "en": "You're right, I should have told you. I apologise. I can deactivate the subscription right away."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Αυτό είναι το ελάχιστο. Θέλω επίσης να μου επιστραφούν τα εννιά ευρώ.",
+     "en": "That's the least you can do. I also want the nine euros refunded to me."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Την επιστροφή δεν μπορώ να την κάνω εγώ από εδώ. Πρέπει να γίνει αίτημα στην εξυπηρέτηση πελατών.",
+     "en": "I can't do the refund myself from here. A request has to go to customer service."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Τότε κάντε το εσείς, τώρα, μπροστά μου, και δώστε μου τον αριθμό του αιτήματος. Δεν έχω χρόνο για τηλέφωνα.",
+     "en": "Then you do it, now, in front of me, and give me the request number. I haven't got time for phone calls."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Εντάξει, το καταχωρώ τώρα… Έγινε. Τα χρήματα θα πιστωθούν στον επόμενο λογαριασμό σας.",
+     "en": "All right, I'm logging it now… Done. The money will be credited to your next bill."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Και το τέλος ενεργοποίησης; Ούτε γι' αυτό μου είπατε τίποτα.",
+     "en": "And the activation fee? You didn't tell me anything about that either."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Θα ζητήσω να διαγραφεί κι αυτό, ως ένδειξη καλής θέλησης. Δεν μπορώ όμως να σας το εγγυηθώ.",
+     "en": "I'll ask for that to be cancelled too, as a goodwill gesture. But I can't guarantee it."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Εντάξει. Αν δεν διορθωθεί στον επόμενο λογαριασμό, θα κάνω καταγγελία στον Συνήγορο του Καταναλωτή.",
+     "en": "All right. If it isn't corrected on the next bill, I'll file a complaint with the Consumer Ombudsman."
+    },
+    {
+     "who": "Μάνος",
+     "voice": "m",
+     "el": "Το καταλαβαίνω απόλυτα. Σας δίνω και την κάρτα μου. Αν χρειαστείτε κάτι, ζητήστε εμένα.",
+     "en": "I completely understand. Here's my card as well. If you need anything, ask for me."
+    },
+    {
+     "who": "Ρένα",
+     "voice": "f",
+     "el": "Ευχαριστώ. Ελπίζω να μη χρειαστεί να ξανάρθω για τον ίδιο λόγο.",
+     "en": "Thank you. I hope I won't need to come back for the same reason."
+    }
+   ],
+   "gloss": {
+    "Αθανασίου": "Αθανασίου — Athanasiou (surname; does not decline)",
+    "ταινιών": "ταινία — film (gen. pl.)",
+    "ρητά": "ρητά — explicitly",
+    "Ενεργοποιείται": "ενεργοποιούμαι — be activated",
+    "αυτόματα": "αυτόματα — automatically",
+    "πακέτο": "πακέτο — package, plan",
+    "εφάπαξ": "εφάπαξ — one-off",
+    "ενεργοποίησης": "ενεργοποίηση — activation (gen.)",
+    "χρεώθηκα": "χρεώνομαι — was charged (passive aorist)",
+    "εξηγήθηκε": "εξηγούμαι — was explained (passive aorist)",
+    "απενεργοποιήσω": "απενεργοποιώ — deactivate (subjunctive)",
+    "ελάχιστο": "ελάχιστος — least; το ελάχιστο = the least",
+    "επιστραφούν": "επιστρέφομαι — be returned, refunded (passive subjunctive)",
+    "αίτημα": "αίτημα — request",
+    "αιτήματος": "αίτημα — request (gen.)",
+    "πελατών": "πελάτης — customer (gen. pl.)",
+    "καταχωρώ": "καταχωρώ — register, log",
+    "πιστωθούν": "πιστώνομαι — be credited (passive subjunctive)",
+    "διαγραφεί": "διαγράφομαι — be deleted, written off (passive subjunctive)",
+    "ένδειξη": "ένδειξη — sign, token",
+    "θέλησης": "θέληση — will (gen.); ως ένδειξη καλής θέλησης = as a goodwill gesture",
+    "εγγυηθώ": "εγγυώμαι — guarantee (subjunctive)",
+    "διορθωθεί": "διορθώνομαι — be corrected (passive subjunctive)",
+    "καταγγελία": "καταγγελία — formal complaint, report",
+    "Συνήγορο": "συνήγορος — advocate; Συνήγορος του Καταναλωτή = Consumer Ombudsman",
+    "Καταναλωτή": "καταναλωτής — consumer (gen.)",
+    "απόλυτα": "απόλυτα — completely"
+   },
+   "questions": [
+    {
+     "prompt": "Πόσο ήταν ο πρώτος λογαριασμός της Ρένας;",
+     "answer": "Σαράντα ένα ευρώ",
+     "options": [
+      "Σαράντα ένα ευρώ",
+      "Τριάντα ευρώ",
+      "Εννιά ευρώ"
+     ]
+    },
+    {
+     "prompt": "Για ποια χρέωση δεν της είχαν πει τίποτα;",
+     "answer": "Για μια συνδρομή σε υπηρεσία ταινιών",
+     "options": [
+      "Για μια συνδρομή σε υπηρεσία ταινιών",
+      "Για την περιαγωγή",
+      "Για δόσεις κινητού"
+     ]
+    },
+    {
+     "prompt": "Πώς θα πάρει πίσω τα εννιά ευρώ;",
+     "answer": "Θα πιστωθούν στον επόμενο λογαριασμό",
+     "options": [
+      "Θα πιστωθούν στον επόμενο λογαριασμό",
+      "Σε μετρητά από το κατάστημα",
+      "Με έμβασμα στην τράπεζά της"
+     ]
+    },
+    {
+     "prompt": "Πού θα κάνει καταγγελία, αν δεν διορθωθεί ο λογαριασμός;",
+     "answer": "Στον Συνήγορο του Καταναλωτή",
+     "options": [
+      "Στον Συνήγορο του Καταναλωτή",
+      "Στην αστυνομία",
+      "Στην τράπεζα"
+     ]
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "At the bank: *I'd like to open an account.*",
+     "answer": "Θα ήθελα να ανοίξω λογαριασμό.",
+     "accept": [
+      "Θα ήθελα να ανοίξω λογαριασμό.",
+      "Θα ήθελα να ανοίξω έναν λογαριασμό.",
+      "Θέλω να ανοίξω λογαριασμό.",
+      "Θέλω να ανοίξω έναν λογαριασμό.",
+      "Θα ήθελα να ανοίξω ένα λογαριασμό."
+     ],
+     "why": "Θα ήθελα να + subjunctive is the neutral polite request."
+    },
+    {
+     "prompt": "*What documents do I need?*",
+     "answer": "Τι δικαιολογητικά χρειάζομαι;",
+     "accept": [
+      "Τι δικαιολογητικά χρειάζομαι;",
+      "Τι χαρτιά χρειάζομαι;",
+      "Τι δικαιολογητικά χρειάζονται;",
+      "Τι έγγραφα χρειάζομαι;"
+     ],
+     "why": "τα δικαιολογητικά = the supporting documents an office asks for."
+    },
+    {
+     "prompt": "Say in full words: *the tax number* (ΑΦΜ)",
+     "answer": "ο αριθμός φορολογικού μητρώου",
+     "accept": [
+      "ο αριθμός φορολογικού μητρώου",
+      "αριθμός φορολογικού μητρώου",
+      "τον αριθμό φορολογικού μητρώου"
+     ],
+     "why": "A head noun followed by genitives without articles: φορολογικού μητρώου."
+    },
+    {
+     "prompt": "Say in full words: *the social security number* (ΑΜΚΑ)",
+     "answer": "ο αριθμός μητρώου κοινωνικής ασφάλισης",
+     "accept": [
+      "ο αριθμός μητρώου κοινωνικής ασφάλισης",
+      "αριθμός μητρώου κοινωνικής ασφάλισης",
+      "τον αριθμό μητρώου κοινωνικής ασφάλισης"
+     ],
+     "why": "Chain of genitives: μητρώου (neut.), κοινωνικής ασφάλισης (fem.)."
+    },
+    {
+     "prompt": "*I always mix up the two numbers.*",
+     "answer": "Πάντα μπερδεύω τους δύο αριθμούς.",
+     "accept": [
+      "Πάντα μπερδεύω τους δύο αριθμούς.",
+      "Μπερδεύω πάντα τους δύο αριθμούς.",
+      "Πάντα μπερδεύω τους δυο αριθμούς.",
+      "Πάντα τους μπερδεύω τους δύο αριθμούς."
+     ],
+     "why": "Accusative plural of ο αριθμός: τους αριθμούς."
+    },
+    {
+     "prompt": "*It has nine digits.*",
+     "answer": "Έχει εννιά ψηφία.",
+     "accept": [
+      "Έχει εννιά ψηφία.",
+      "Έχει εννέα ψηφία."
+     ],
+     "why": "το ψηφίο, pl. τα ψηφία; εννιά = εννέα."
+    },
+    {
+     "prompt": "*I turned eighteen in March.*",
+     "answer": "Έκλεισα τα δεκαοχτώ τον Μάρτιο.",
+     "accept": [
+      "Έκλεισα τα δεκαοχτώ τον Μάρτιο.",
+      "Έκλεισα τα δεκαοκτώ τον Μάρτιο.",
+      "Έκλεισα τα δεκαοχτώ τον Μάρτη.",
+      "Τα δεκαοχτώ τα έκλεισα τον Μάρτιο."
+     ],
+     "why": "κλείνω τα + age = turn (an age); months take the accusative: τον Μάρτιο."
+    },
+    {
+     "prompt": "*I'll never learn it by heart.*",
+     "answer": "Δεν θα τον μάθω ποτέ απ' έξω.",
+     "accept": [
+      "Δεν θα τον μάθω ποτέ απ' έξω.",
+      "Δεν θα το μάθω ποτέ απ' έξω.",
+      "Δεν θα τον μάθω ποτέ απέξω.",
+      "Δεν θα το μάθω ποτέ απέξω.",
+      "Ποτέ δεν θα τον μάθω απ' έξω."
+     ],
+     "why": "μαθαίνω απ' έξω = learn by heart; τον refers to ο αριθμός."
+    },
+    {
+     "prompt": "Helpline: *My card is being declined everywhere.*",
+     "answer": "Η κάρτα μου απορρίπτεται παντού.",
+     "accept": [
+      "Η κάρτα μου απορρίπτεται παντού.",
+      "Η κάρτα μου δεν περνάει πουθενά."
+     ],
+     "why": "απορρίπτομαι = be rejected; everyday alternative: δεν περνάει."
+    },
+    {
+     "prompt": "Passive aorist: *My card was blocked.*",
+     "answer": "Η κάρτα μου μπλοκαρίστηκε.",
+     "accept": [
+      "Η κάρτα μου μπλοκαρίστηκε.",
+      "Μπλοκαρίστηκε η κάρτα μου."
+     ],
+     "why": "Verbs in -άρω form the passive aorist in -αρίστηκα."
+    },
+    {
+     "prompt": "Passive aorist: *The transaction wasn't approved.*",
+     "answer": "Η συναλλαγή δεν εγκρίθηκε.",
+     "accept": [
+      "Η συναλλαγή δεν εγκρίθηκε.",
+      "Δεν εγκρίθηκε η συναλλαγή."
+     ],
+     "why": "εγκρίνω → εγκρίθηκε."
+    },
+    {
+     "prompt": "Passive aorist: *You weren't charged anything.* (εσείς)",
+     "answer": "Δεν χρεωθήκατε τίποτα.",
+     "accept": [
+      "Δεν χρεωθήκατε τίποτα.",
+      "Δεν χρεωθήκατε τίποτε."
+     ],
+     "why": "χρεώνω → χρεώθηκα, 2nd pl. χρεωθήκατε (stress moves)."
+    },
+    {
+     "prompt": "Passive aorist: *I was charged twice.*",
+     "answer": "Χρεώθηκα δύο φορές.",
+     "accept": [
+      "Χρεώθηκα δύο φορές.",
+      "Χρεώθηκα δυο φορές."
+     ],
+     "why": "1st sg. passive aorist of χρεώνω."
+    },
+    {
+     "prompt": "Passive future: *The card will be sent to your address.*",
+     "answer": "Η κάρτα θα σταλεί στη διεύθυνσή σας.",
+     "accept": [
+      "Η κάρτα θα σταλεί στη διεύθυνσή σας.",
+      "Θα σταλεί η κάρτα στη διεύθυνσή σας."
+     ],
+     "why": "στέλνω → passive perfective σταλώ: θα σταλεί; διεύθυνση takes a second accent before σας."
+    },
+    {
+     "prompt": "*So my card details were stolen?*",
+     "answer": "Δηλαδή μου έκλεψαν τα στοιχεία της κάρτας;",
+     "accept": [
+      "Δηλαδή μου έκλεψαν τα στοιχεία της κάρτας;",
+      "Δηλαδή μου έκλεψαν τα στοιχεία;",
+      "Δηλαδή έκλεψαν τα στοιχεία της κάρτας μου;"
+     ],
+     "why": "Greek prefers an active 3rd plural ('they stole') with μου for the victim."
+    },
+    {
+     "prompt": "Number in the genitive: *an attempted purchase of 380 euros* → απόπειρα αγοράς ___ ευρώ",
+     "answer": "τριακοσίων ογδόντα",
+     "accept": [
+      "τριακοσίων ογδόντα"
+     ],
+     "why": "Only the hundreds decline: τριακόσια → τριακοσίων; ογδόντα stays."
+    },
+    {
+     "prompt": "Number in the genitive: *a withdrawal of 200 euros* → ανάληψη ___ ευρώ",
+     "answer": "διακοσίων",
+     "accept": [
+      "διακοσίων"
+     ],
+     "why": "διακόσια → διακοσίων."
+    },
+    {
+     "prompt": "*Can I withdraw money without a card?*",
+     "answer": "Μπορώ να κάνω ανάληψη χωρίς κάρτα;",
+     "accept": [
+      "Μπορώ να κάνω ανάληψη χωρίς κάρτα;",
+      "Μπορώ να κάνω ανάληψη χωρίς την κάρτα;",
+      "Μπορώ να βγάλω χρήματα χωρίς κάρτα;",
+      "Μπορώ να βγάλω λεφτά χωρίς κάρτα;"
+     ],
+     "why": "κάνω ανάληψη = withdraw; colloquial βγάζω λεφτά."
+    },
+    {
+     "prompt": "*I'll manage with my phone.*",
+     "answer": "Θα τα βγάλω πέρα με το κινητό.",
+     "accept": [
+      "Θα τα βγάλω πέρα με το κινητό.",
+      "Θα τα βγάλω πέρα με το κινητό μου."
+     ],
+     "why": "τα βγάζω πέρα = cope, manage."
+    },
+    {
+     "prompt": "Shop: *My contract ends next month.*",
+     "answer": "Το συμβόλαιό μου λήγει τον άλλο μήνα.",
+     "accept": [
+      "Το συμβόλαιό μου λήγει τον άλλο μήνα.",
+      "Το συμβόλαιό μου λήγει τον επόμενο μήνα.",
+      "Το συμβόλαιό μου τελειώνει τον άλλο μήνα.",
+      "Το συμβόλαιό μου τελειώνει τον επόμενο μήνα."
+     ],
+     "why": "συμβόλαιο + μου → συμβόλαιό μου; λήγω = expire."
+    },
+    {
+     "prompt": "*Where's the catch?*",
+     "answer": "Πού είναι η παγίδα;",
+     "accept": [
+      "Πού είναι η παγίδα;",
+      "Πού είναι το κόλπο;",
+      "Ποια είναι η παγίδα;"
+     ],
+     "why": "παγίδα = trap; πού (with accent) = where."
+    },
+    {
+     "prompt": "*How long is the commitment?*",
+     "answer": "Πόσο διαρκεί η δέσμευση;",
+     "accept": [
+      "Πόσο διαρκεί η δέσμευση;",
+      "Πόσο κρατάει η δέσμευση;",
+      "Πόσους μήνες είναι η δέσμευση;"
+     ],
+     "why": "διαρκώ / κρατάω = last."
+    },
+    {
+     "prompt": "Agreement: *twenty-four months* → είκοσι ___ μήνες",
+     "answer": "τέσσερις",
+     "accept": [
+      "τέσσερις"
+     ],
+     "why": "μήνας is masculine: τέσσερις (τέσσερα only with neuters)."
+    },
+    {
+     "prompt": "Agreement: *four digits* → ___ ψηφία",
+     "answer": "τέσσερα",
+     "accept": [
+      "τέσσερα"
+     ],
+     "why": "ψηφίο is neuter: τέσσερα."
+    },
+    {
+     "prompt": "*Before I sign, are there any other charges?*",
+     "answer": "Πριν υπογράψω, υπάρχουν άλλες χρεώσεις;",
+     "accept": [
+      "Πριν υπογράψω, υπάρχουν άλλες χρεώσεις;",
+      "Πριν υπογράψω υπάρχουν άλλες χρεώσεις;",
+      "Πριν υπογράψω, υπάρχουν κι άλλες χρεώσεις;",
+      "Πριν υπογράψω υπάρχουν κι άλλες χρεώσεις;",
+      "Υπάρχουν άλλες χρεώσεις πριν υπογράψω;"
+     ],
+     "why": "πριν + subjunctive (υπογράψω); η χρέωση → οι χρεώσεις."
+    },
+    {
+     "prompt": "Complaint: *You told me explicitly there were no other charges.*",
+     "answer": "Μου είπατε ρητά ότι δεν υπάρχουν άλλες χρεώσεις.",
+     "accept": [
+      "Μου είπατε ρητά ότι δεν υπάρχουν άλλες χρεώσεις.",
+      "Μου είπατε ρητά ότι δεν υπήρχαν άλλες χρεώσεις.",
+      "Μου είπατε ξεκάθαρα ότι δεν υπάρχουν άλλες χρεώσεις.",
+      "Μου είπατε ρητά πως δεν υπάρχουν άλλες χρεώσεις."
+     ],
+     "why": "Reported speech keeps the original tense (υπάρχουν) or shifts it (υπήρχαν); both are fine."
+    },
+    {
+     "prompt": "*I was charged for something I didn't ask for.*",
+     "answer": "Χρεώθηκα για κάτι που δεν ζήτησα.",
+     "accept": [
+      "Χρεώθηκα για κάτι που δεν ζήτησα.",
+      "Με χρέωσαν για κάτι που δεν ζήτησα.",
+      "Χρεώθηκα για κάτι που δεν το ζήτησα."
+     ],
+     "why": "Passive aorist χρεώθηκα, or active 3rd pl. με χρέωσαν."
+    },
+    {
+     "prompt": "*I want the money refunded to me.*",
+     "answer": "Θέλω να μου επιστραφούν τα χρήματα.",
+     "accept": [
+      "Θέλω να μου επιστραφούν τα χρήματα.",
+      "Θέλω να μου επιστραφούν τα λεφτά.",
+      "Θέλω να μου επιστρέψετε τα χρήματα.",
+      "Θέλω να μου επιστρέψετε τα λεφτά."
+     ],
+     "why": "να + passive subjunctive επιστραφούν (plural subject τα χρήματα)."
+    },
+    {
+     "prompt": "*I'd like to speak to the manager.*",
+     "answer": "Θα ήθελα να μιλήσω με τον υπεύθυνο.",
+     "accept": [
+      "Θα ήθελα να μιλήσω με τον υπεύθυνο.",
+      "Θέλω να μιλήσω με τον υπεύθυνο.",
+      "Θα ήθελα να μιλήσω με τον διευθυντή.",
+      "Θα ήθελα να μιλήσω με την υπεύθυνη."
+     ],
+     "why": "μιλάω με + accusative."
+    },
+    {
+     "prompt": "*If it isn't corrected, I'll file a complaint.*",
+     "answer": "Αν δεν διορθωθεί, θα κάνω καταγγελία.",
+     "accept": [
+      "Αν δεν διορθωθεί, θα κάνω καταγγελία.",
+      "Αν δεν διορθωθεί θα κάνω καταγγελία.",
+      "Αν δεν διορθωθεί, θα κάνω παράπονο.",
+      "Αν δεν διορθωθεί θα κάνω παράπονο.",
+      "Αν δε διορθωθεί, θα κάνω καταγγελία.",
+      "Αν δε διορθωθεί θα κάνω καταγγελία."
+     ],
+     "why": "αν + passive perfective διορθωθεί for a future condition."
+    },
+    {
+     "prompt": "Genitive: *the terms of the contract* → οι όροι ___ (το συμβόλαιο)",
+     "answer": "του συμβολαίου",
+     "accept": [
+      "του συμβολαίου"
+     ],
+     "why": "-αιο nouns move the stress: συμβολαίου."
+    },
+    {
+     "prompt": "Genitive plural: *the total of the charges* → το σύνολο ___ (οι χρεώσεις)",
+     "answer": "των χρεώσεων",
+     "accept": [
+      "των χρεώσεων"
+     ],
+     "why": "-ση nouns: χρεώσεων, stress on the third-last."
+    },
+    {
+     "prompt": "Genitive plural: *the list of transactions* → η λίστα ___ (οι συναλλαγές)",
+     "answer": "των συναλλαγών",
+     "accept": [
+      "των συναλλαγών"
+     ],
+     "why": "Feminine gen. pl. always ends -ών here: συναλλαγών."
+    },
+    {
+     "prompt": "Genitive: *the account number* → ο αριθμός ___ (ο λογαριασμός)",
+     "answer": "του λογαριασμού",
+     "accept": [
+      "του λογαριασμού"
+     ],
+     "why": "Final-stressed -ός: λογαριασμού."
+    },
+    {
+     "prompt": "Register switch to εσύ: *Μην απαντάτε σε μηνύματα που σας ζητούν κωδικούς.*",
+     "answer": "Μην απαντάς σε μηνύματα που σου ζητούν κωδικούς.",
+     "accept": [
+      "Μην απαντάς σε μηνύματα που σου ζητούν κωδικούς.",
+      "Μην απαντάς σε μηνύματα που σου ζητάνε κωδικούς."
+     ],
+     "why": "μην + present subjunctive in 2nd sg.; σας → σου."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "«Η κάρτα δεν περνάει» means:",
+     "answer": "The card is being declined.",
+     "options": [
+      "The card is being declined.",
+      "The card hasn't arrived.",
+      "The card is expired."
+     ],
+     "why": "περνάω = go through (a payment)."
+    },
+    {
+     "prompt": "The ΑΜΚΑ is used mainly for:",
+     "answer": "healthcare and social insurance",
+     "options": [
+      "healthcare and social insurance",
+      "paying tax",
+      "bank transfers"
+     ],
+     "why": "ΑΜΚΑ = social security number."
+    },
+    {
+     "prompt": "Η συναλλαγή δεν ___.",
+     "answer": "εγκρίθηκε",
+     "options": [
+      "εγκρίθηκε",
+      "ενέκρινε",
+      "εγκρίνει"
+     ],
+     "why": "The transaction was (not) approved: passive."
+    },
+    {
+     "prompt": "Θέλω να μου ___ τα χρήματα.",
+     "answer": "επιστραφούν",
+     "options": [
+      "επιστραφούν",
+      "επιστράφηκαν",
+      "επιστρέφουν"
+     ],
+     "why": "να + passive perfective (subjunctive)."
+    },
+    {
+     "prompt": "Η δέσμευση είναι είκοσι ___ μήνες.",
+     "answer": "τέσσερις",
+     "options": [
+      "τέσσερις",
+      "τέσσερα",
+      "τέσσερεις"
+     ],
+     "why": "Masculine noun: τέσσερις."
+    },
+    {
+     "prompt": "«λογαριασμός ρεύματος» is:",
+     "answer": "an electricity bill",
+     "options": [
+      "an electricity bill",
+      "an electricity account at the bank",
+      "a power cut"
+     ],
+     "why": "λογαριασμός = bill as well as account."
+    },
+    {
+     "prompt": "A firm but polite complaint:",
+     "answer": "Μου είπατε ρητά ότι δεν υπάρχουν άλλες χρεώσεις.",
+     "options": [
+      "Μου είπατε ρητά ότι δεν υπάρχουν άλλες χρεώσεις.",
+      "Ρε, με κλέψατε!",
+      "Δεν πειράζει, μωρέ."
+     ],
+     "why": "State the promise with εσείς."
+    },
+    {
+     "prompt": "απόπειρα αγοράς ___ ευρώ (380)",
+     "answer": "τριακοσίων ογδόντα",
+     "options": [
+      "τριακοσίων ογδόντα",
+      "τριακόσια ογδόντα",
+      "τριακοσίων ογδοήντων"
+     ],
+     "why": "Only the hundreds decline."
+    },
+    {
+     "prompt": "Choose the natural reply to «Το ονοματεπώνυμό σας;»",
+     "answer": "Αλέξανδρος Παπαδόγιαννης.",
+     "options": [
+      "Αλέξανδρος Παπαδόγιαννης.",
+      "Είμαι καλά, ευχαριστώ.",
+      "Στο Βερολίνο."
+     ],
+     "why": "ονοματεπώνυμο = full name."
+    },
+    {
+     "prompt": "«Θα πιστωθούν στον λογαριασμό σας» means the money will be:",
+     "answer": "credited to your account",
+     "options": [
+      "credited to your account",
+      "charged to your account",
+      "frozen in your account"
+     ],
+     "why": "πιστώνω = credit; χρεώνω = charge."
+    },
+    {
+     "prompt": "«Θα τα βγάλω πέρα» means:",
+     "answer": "I'll manage.",
+     "options": [
+      "I'll manage.",
+      "I'll take them out.",
+      "I'll go abroad."
+     ],
+     "why": "τα βγάζω πέρα = cope."
+    },
+    {
+     "prompt": "Η κάρτα ___ στη διεύθυνσή σας αύριο.",
+     "answer": "θα σταλεί",
+     "options": [
+      "θα σταλεί",
+      "θα στείλει",
+      "στάλθηκε"
+     ],
+     "why": "Future passive: θα σταλεί."
+    },
+    {
+     "prompt": "Which word means 'roaming'?",
+     "answer": "περιαγωγή",
+     "options": [
+      "περιαγωγή",
+      "περιήγηση",
+      "περίοδος"
+     ],
+     "why": "περιαγωγή = roaming; περιήγηση = sightseeing tour."
+    }
+   ]
+  },
+  {
+   "gen": "decline",
+   "ids": [
+    "m-ος-fixed",
+    "f-η-εις",
+    "n-ο-a",
+    "n-μα",
+    "f-α-a"
+   ],
+   "cells": [
+    "sg.gen",
+    "pl.nom",
+    "pl.gen"
+   ],
+   "n": 6
+  }
+ ],
+ "vocab": [
+  "τράπεζα",
+  "λογαριασμός",
+  "κάρτα",
+  "κωδικός",
+  "συναλλαγή",
+  "εφαρμογή",
+  "συμβόλαιο",
+  "παράπονο",
+  "υπογράφω",
+  "μπλοκάρω",
+  "πληρωμή",
+  "επιστροφή"
+ ]
+}
