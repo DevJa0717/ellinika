@@ -407,3 +407,16 @@ table.drill td { padding: 5px 6px; }
 .fc-bar span.ok { background: var(--good); }
 .fc-bar span.bad { background: var(--bad); }
 .fc-n { text-align: right; color: var(--muted); font-size: .8rem; }
+
+/* read-aloud dialogues */
+.dialogue { display: grid; gap: 10px; }
+.dl-ctl { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.dl-ctl .btn.on { background: var(--aegean-soft); }
+.dl-lines { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.dl-line { display: grid; grid-template-columns: 2.2rem 1fr; gap: 8px; align-items: start; padding: 8px 10px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); margin-right: 12%; transition: background .15s, border-color .15s; }
+.dl-line.m { margin-right: 0; margin-left: 12%; background: var(--aegean-soft); }
+.dl-line.on { border-color: var(--terra); box-shadow: 0 0 0 1px var(--terra); }
+.dl-line p { margin: 0; }
+.dl-say { width: 2.2rem; height: 2.2rem; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; font-size: .8rem; }
+.dl-who { font: 600 .75rem/1 var(--f-ui); color: var(--terra); letter-spacing: .04em; }
+.dl-el { font-size: 1.08rem; line-height: 1.5; }

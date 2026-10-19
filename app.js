@@ -688,6 +688,12 @@
       return `<div class="reading"><span class="eyebrow">ΑΝΑΓΝΩΣΗ · reading</span><h3 lang="el">${esc(b.title)}</h3><div class="rd-text" lang="el">${paras(b.text)}</div>${b.en ? `<details class="rd-en no-look"><summary>English</summary>${paras(b.en)}</details>` : ""}</div>`;
     },
     async video(b) { Object.assign(lookCtx, b.gloss || {}); return videoHTML(b); },
+    async dialogue(b) {
+      Object.assign(lookCtx, b.gloss || {});
+      return `<div class="dialogue"><span class="eyebrow">ΔΙΑΛΟΓΟΣ · dialogue</span><h3 lang="el">${esc(b.title)}</h3>${b.setting ? `<p class="sub">${esc(b.setting)}</p>` : ""}
+        <div class="dl-ctl"><button class="btn small dl-play">▶ Play all</button><button class="btn small ghost dl-rate" aria-pressed="false">Slower</button><button class="btn small ghost dl-tr" aria-pressed="false">English</button><span class="sub dl-note" hidden></span></div>
+        <ol class="dl-lines">${b.lines.map((l, i) => `<li class="dl-line${l.voice === "m" ? " m" : ""}" data-i="${i}" data-v="${l.voice === "m" ? "m" : "f"}"><button class="dl-say" aria-label="Play this line">▶</button><div><span class="dl-who">${esc(l.who)}</span><p class="dl-el" lang="el">${esc(l.el)}</p><p class="dl-en ex-en no-look" hidden>${esc(l.en || "")}</p></div></li>`).join("")}</ol></div>`;
+    },
     async rules(b) {
       let list = b.items || (await resolve(b.src));
       if (typeof list === "string") list = [list];
@@ -907,6 +913,42 @@
       <p class="src"><a href="${esc(v.source || "#")}" target="_blank" rel="noopener">${esc(v.credit || "source")}${v.license ? ", " + esc(v.license) : ""}</a></p>
     </div>`;
   }
+  /* Dialogues read aloud by the device's Greek voice, one line at a time: play all, pause, replay a line, slower, English. */
+  const greekVoices = () => new Promise((res) => {
+    const ss = window.speechSynthesis; if (!ss) return res([]);
+    const pick = () => ss.getVoices().filter((v) => /^el(-|_|$)/i.test(v.lang));
+    if (pick().length) return res(pick());
+    let done = false; const fin = () => { if (!done) { done = true; res(pick()); } };
+    ss.addEventListener?.("voiceschanged", fin, { once: true }); setTimeout(fin, 1500);
+  });
+  let dlActive = null; // the dialogue currently speaking, so starting another one stops it
+  window.addEventListener("hashchange", () => { window.speechSynthesis?.cancel(); dlActive?.stop(); });
+  async function wireDialogue(el) {
+    const ss = window.speechSynthesis, voices = await greekVoices();
+    const lines = [...el.querySelectorAll(".dl-line")], play = el.querySelector(".dl-play"), note = el.querySelector(".dl-note");
+    if (!voices.length) { el.querySelectorAll(".dl-say").forEach((b) => (b.hidden = true)); play.hidden = true; el.querySelector(".dl-rate").hidden = true; note.textContent = "This device has no Greek voice, so the dialogue can't be read aloud here."; note.hidden = false; }
+    const fem = voices.find((v) => /melina|female|γυν/i.test(v.name)) || voices[0], mal = voices.find((v) => v !== fem) || voices[0];
+    let rate = 0.95, at = -1, run = 0;
+    const mark = (i) => lines.forEach((l, j) => l.classList.toggle("on", j === i));
+    const say = (i) => new Promise((res) => {
+      const l = lines[i], u = new SpeechSynthesisUtterance(l.querySelector(".dl-el").textContent);
+      u.lang = "el-GR"; u.voice = l.dataset.v === "m" ? mal : fem; u.rate = rate;
+      u.pitch = mal === fem ? (l.dataset.v === "m" ? 0.75 : 1.15) : 1;
+      u.onend = u.onerror = () => res(); mark(i); ss.speak(u);
+    });
+    const ctl = { stop: () => { run++; ss?.cancel(); play.textContent = at >= 0 && at < lines.length - 1 ? "▶ Resume" : "▶ Play all"; mark(-1); } };
+    const from = async (i) => {
+      if (dlActive && dlActive !== ctl) dlActive.stop();
+      dlActive = ctl; ss.cancel(); const my = ++run; play.textContent = "❚❚ Pause";
+      for (at = i; at < lines.length; at++) { await say(at); if (my !== run) return; await new Promise((r) => setTimeout(r, 350)); if (my !== run) return; }
+      at = -1; ctl.stop();
+    };
+    play.onclick = () => (play.textContent.startsWith("❚❚") ? ctl.stop() : from(at >= 0 ? at : 0));
+    el.querySelectorAll(".dl-say").forEach((b, i) => (b.onclick = () => { if (dlActive && dlActive !== ctl) dlActive.stop(); dlActive = ctl; run++; ss.cancel(); at = -1; play.textContent = "▶ Play all"; say(i).then(() => mark(-1)); }));
+    el.querySelector(".dl-rate").onclick = (e) => { const on = e.target.getAttribute("aria-pressed") !== "true"; e.target.setAttribute("aria-pressed", on); rate = on ? 0.7 : 0.95; e.target.classList.toggle("on", on); };
+    el.querySelector(".dl-tr").onclick = (e) => { const on = e.target.getAttribute("aria-pressed") !== "true"; e.target.setAttribute("aria-pressed", on); e.target.classList.toggle("on", on); el.querySelectorAll(".dl-en").forEach((x) => (x.hidden = !on)); };
+  }
+
   function wireVideo(el, v) {
     if (!v) return;
     const cues = v.cues || [], subEl = el.querySelector(".sub-el"), subEn = el.querySelector(".sub-en");
@@ -1103,6 +1145,7 @@
     pager($("#learn"));
     wrapGreek(pane);
     pane.querySelectorAll(".video").forEach((el) => wireVideo(el, vids.find((v) => v.id === el.dataset.vid)));
+    pane.querySelectorAll(".dialogue").forEach(wireDialogue);
     $("#go-practice").onclick = () => { $("#tab-practice").click(); window.scrollTo(0, 0); };
   }
 
@@ -1114,7 +1157,7 @@
       catch (e) { console.warn("generator failed", spec.gen, e); }
     }
     const tail = [];
-    for (const b of lesson.blocks) if (b.type === "reading" && b.questions) tail.push(...(await GENERATORS["reading-q"](b)));
+    for (const b of lesson.blocks) if ((b.type === "reading" || b.type === "dialogue") && b.questions) tail.push(...(await GENERATORS["reading-q"](b)));
     if (!lesson.practice.some((p) => p.gen === "vocab-recall")) {
       try { tail.push(...(await GENERATORS["vocab-recall"]({ n: 6, new: 4, words: lesson.vocab }))); } catch (e) { console.warn("vocab failed", e); }
     }
