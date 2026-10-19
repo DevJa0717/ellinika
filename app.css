@@ -198,7 +198,9 @@ body { background: radial-gradient(120% 60% at 50% -10%, #133e6b 0%, var(--paper
 .hero .meander { margin: 2px 0 6px; }
 .hero-stats { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font: 500 0.85rem/1.2 var(--f-ui); color: var(--muted); }
 .hero-stats b { color: var(--ink); font-size: 1.05rem; font-variant-numeric: tabular-nums; }
-.hero-stats .btn { margin-left: auto; background: var(--terra); border-color: var(--terra); color: #10233b; }
+/* Word recall · Videos · Resources: one row of equal buttons under the stats. */
+.hero-acts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
+.hero-acts .btn { display: flex; align-items: center; justify-content: center; min-height: 2.6rem; padding-inline: 6px; text-align: center; white-space: nowrap; background: var(--terra); border-color: var(--terra); color: #10233b; }
 .tracker { background: linear-gradient(160deg, var(--card), #0c2b4d); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
 .unit { background: rgba(16, 51, 90, 0.55); border: 1px solid var(--line); border-radius: 14px; padding: 12px; }
 .lesson-row { border-bottom: 0; border-radius: 10px; padding: 11px 8px; transition: background .15s; }
