@@ -1,0 +1,1189 @@
+{
+ "el": "Στον γιατρό και στο φαρμακείο",
+ "title": "Dialogues: at the doctor's and the pharmacy",
+ "blocks": [
+  {
+   "type": "text",
+   "title": "How a consultation runs",
+   "text": "A Greek consultation follows a predictable script, and most of it hangs on three constructions.\n\n**1. The symptom.** The body part is the *subject* and you are the *object*: **Με πονάει ο λαιμός μου** 'my throat hurts (me)', **Με πονάνε τα πόδια μου** with a plural verb for a plural body part. The alternatives are **Πονάει το κεφάλι μου** (no με) and **Πονάω στο στομάχι** 'I have a pain in my stomach'. Named complaints go with **έχω** + accusative: **έχω πυρετό, βήχα, πονοκέφαλο, πονόλαιμο**. Feelings use passive-looking verbs: **ζαλίζομαι** 'I feel dizzy', **κρύωσα** 'I caught a cold'.\n\n**2. How long.** The doctor asks **Από πότε;** or **Πόσο καιρό;**. For something still going on Greek uses the *present*: **Έχω βήχα εδώ και τρεις μέρες / από το Σάββατο**, where English needs 'I have had'.\n\n**3. Instructions.** In the examination the doctor uses perfective imperatives with εσείς: **Ανοίξτε το στόμα, πάρτε βαθιά ανάσα, ξαπλώστε**. For a course of treatment you hear **να + imperfective**: **Να το παίρνετε δύο φορές τη μέρα** 'take it (regularly)'; for one action **να + perfective**: **Να το πάρετε τώρα**. Bans are **μην + subjunctive**: **μην πάτε στη δουλειά, μην πίνετε αλκοόλ**.\n\nThe patient always says **εσείς** and **γιατρέ** to the doctor (male or female). The pharmacist is **ο/η φαρμακοποιός**, and the exchange ends with **Περαστικά!** 'get well soon'."
+  },
+  {
+   "type": "dialogue",
+   "title": "Στο ιατρείο",
+   "setting": "Nikos Alexiou, a patient, sees Dr Eleni Papadaki, a GP, in her surgery.",
+   "lines": [
+    {
+     "who": "Γιατρός",
+     "voice": "f",
+     "el": "Καλημέρα σας, κύριε Αλεξίου. Περάστε, καθίστε. Τι σας φέρνει εδώ;",
+     "en": "Good morning, Mr Alexiou. Come in, sit down. What brings you here?"
+    },
+    {
+     "who": "Νίκος",
+     "voice": "m",
+     "el": "Καλημέρα, γιατρέ. Ε, δεν είμαι καθόλου καλά. Με πονάει πολύ ο λαιμός μου και βήχω συνέχεια.",
+     "en": "Good morning, doctor. Well, I'm not well at all. My throat hurts a lot and I cough all the time."
+    },
+    {
+     "who": "Γιατρός",
+     "voice": "f",
+     "el": "Από πότε έχετε αυτά τα συμπτώματα;",
+     "en": "How long have you had these symptoms?"
+    },
+    {
+     "who": "Νίκος",
+     "voice": "m",
+     "el": "Εδώ και τρεις μέρες. Την Κυριακή ήμουν μια χαρά, τη Δευτέρα όμως ξύπνησα με πονόλαιμο.",
+     "en": "For three days. On Sunday I was fine, but on Monday I woke up with a sore throat."
+    },
+    {
+     "who": "Γιατρός",
+     "voice": "f",
+     "el": "Πυρετό έχετε; Μετρήσατε;",
+     "en": "Do you have a temperature? Did you take it?"
+    },
+    {
+     "who": "Νίκος",
+     "voice": "m",
+     "el": "Ναι, χθες το βράδυ είχα τριάντα οχτώ και πέντε. Πήρα ένα παυσίπονο και έπεσε λίγο.",
+     "en": "Yes, last night I had 38.5. I took a painkiller and it came down a bit."
+    },
+    {
+     "who": "Γιατρός",
+     "voice": "f",
+     "el": "Εντάξει. Ανοίξτε το στόμα σας, παρακαλώ, και πείτε «α».",
+     "en": "All right. Open your mouth, please, and say 'ah'."
+    },
+    {
+     "who": "Γιατρός",
+     "voice": "f",
+     "el": "Ναι, ο λαιμός σας είναι πολύ κόκκινος. Τώρα βγάλτε την μπλούζα σας και πάρτε μια βαθιά ανάσα.",
+     "en": "Yes, your throat is very red. Now take off your top and take a deep breath."
+    },
+    {
+     "who": "Νίκος",
+     "voice": "m",
+     "el": "Έτσι; Με πονάει λίγο και το στήθος όταν βήχω.",
+     "en": "Like this? My chest hurts a bit too when I cough."
+    },
+    {
+     "who": "Γιατρός",
+     "voice": "f",
+     "el": "Τα πνευμόνια σας είναι καθαρά, δεν είναι κάτι σοβαρό. Έχετε μια λοίμωξη στον λαιμό. Είστε αλλεργικός σε κάποιο φάρμακο;",
+     "en": "Your lungs are clear, it's nothing serious. You have a throat infection. Are you allergic to any medicine?"
+    },
+    {
+     "who": "Νίκος",
+     "voice": "m",
+     "el": "Όχι, απ' όσο ξέρω, σε κανένα.",
+     "en": "No, not to any, as far as I know."
+    },
+    {
+     "who": "Γιατρός",
+     "voice": "f",
+     "el": "Ωραία. Θα σας γράψω ένα αντιβιοτικό. Να το παίρνετε δύο φορές τη μέρα, πρωί και βράδυ, για επτά μέρες.",
+     "en": "Good. I'll prescribe you an antibiotic. Take it twice a day, morning and evening, for seven days."
+    },
+    {
+     "who": "Νίκος",
+     "voice": "m",
+     "el": "Μετά το φαγητό ή πριν;",
+     "en": "After meals or before?"
+    },
+    {
+     "who": "Γιατρός",
+     "voice": "f",
+     "el": "Μετά το φαγητό. Και πίνετε πολλά υγρά, ξεκουραστείτε και μην πάτε στη δουλειά μέχρι την Πέμπτη.",
+     "en": "After meals. And drink lots of fluids, get some rest and don't go to work until Thursday."
+    },
+    {
+     "who": "Νίκος",
+     "voice": "m",
+     "el": "Ευχαριστώ πολύ, γιατρέ. Η συνταγή είναι ηλεκτρονική;",
+     "en": "Thank you very much, doctor. Is the prescription electronic?"
+    },
+    {
+     "who": "Γιατρός",
+     "voice": "f",
+     "el": "Ναι, θα σας έρθει μήνυμα στο κινητό. Πάτε σε όποιο φαρμακείο θέλετε. Περαστικά!",
+     "en": "Yes, you'll get a text message on your mobile. Go to any pharmacy you like. Get well soon!"
+    }
+   ],
+   "gloss": {
+    "συμπτώματα": "σύμπτωμα — symptom",
+    "πονόλαιμο": "πονόλαιμος — sore throat",
+    "Μετρήσατε": "μετράω — to measure; here: take your temperature (aorist, εσείς)",
+    "παυσίπονο": "παυσίπονο — painkiller",
+    "έπεσε": "πέφτω — to fall; (of a fever) to come down (aorist)",
+    "Ανοίξτε": "ανοίγω — to open (imperative, εσείς)",
+    "πείτε": "λέω — to say (imperative, εσείς)",
+    "βγάλτε": "βγάζω — to take off (imperative, εσείς)",
+    "μπλούζα": "μπλούζα — top, T-shirt",
+    "πάρτε": "παίρνω — to take (imperative, εσείς)",
+    "ανάσα": "ανάσα — breath",
+    "βαθιά": "βαθύς — deep (fem.)",
+    "στήθος": "στήθος — chest",
+    "πνευμόνια": "πνευμόνι — lung",
+    "λοίμωξη": "λοίμωξη — infection",
+    "αλλεργικός": "αλλεργικός — allergic (σε + acc.)",
+    "απ'": "από — from; απ' όσο ξέρω = as far as I know",
+    "αντιβιοτικό": "αντιβιοτικό — antibiotic",
+    "υγρά": "υγρό — liquid; πολλά υγρά = lots of fluids",
+    "ξεκουραστείτε": "ξεκουράζομαι — to rest (imperative, εσείς)",
+    "ηλεκτρονική": "ηλεκτρονικός — electronic",
+    "Περαστικά": "περαστικά — get well soon",
+    "Αλεξίου": "Αλεξίου — Alexiou (surname)",
+    "γιατρέ": "γιατρός — doctor (vocative, for men and women)",
+    "Πάτε": "πηγαίνω — to go (imperative, εσείς)",
+    "Περάστε": "περνάω — to come in (imperative, εσείς)",
+    "καθίστε": "κάθομαι — to sit (imperative, εσείς)",
+    "όποιο": "όποιος — whichever"
+   },
+   "questions": [
+    {
+     "prompt": "Από πότε είναι άρρωστος ο κύριος Αλεξίου;",
+     "answer": "Από τη Δευτέρα",
+     "options": [
+      "Από τη Δευτέρα",
+      "Από την Κυριακή",
+      "Από χθες"
+     ]
+    },
+    {
+     "prompt": "Τι έχει ο κύριος Αλεξίου;",
+     "answer": "Λοίμωξη στον λαιμό",
+     "options": [
+      "Λοίμωξη στον λαιμό",
+      "Πρόβλημα στα πνευμόνια",
+      "Αλλεργία σε ένα φάρμακο"
+     ]
+    },
+    {
+     "prompt": "Πόσες φορές τη μέρα θα παίρνει το αντιβιοτικό;",
+     "answer": "Δύο",
+     "options": [
+      "Δύο",
+      "Τρεις",
+      "Μία"
+     ]
+    },
+    {
+     "prompt": "Πότε θα παίρνει το φάρμακο;",
+     "answer": "Μετά το φαγητό",
+     "options": [
+      "Μετά το φαγητό",
+      "Πριν από το φαγητό",
+      "Μόνο το βράδυ"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Key phrases: doctor and pharmacy",
+   "head": [
+    "Greek",
+    "English",
+    "When / register"
+   ],
+   "rows": [
+    [
+     "Τι σας φέρνει εδώ; / Τι πρόβλημα έχετε;",
+     "What brings you here? / What's the problem?",
+     "doctor's opener, εσείς"
+    ],
+    [
+     "Με πονάει ο λαιμός μου / το κεφάλι μου",
+     "My throat / head hurts",
+     "body part = subject, **με** = object"
+    ],
+    [
+     "Με πονάνε τα αυτιά μου",
+     "My ears hurt",
+     "plural body part → **πονάνε** (or πονούν)"
+    ],
+    [
+     "Πονάω στο στομάχι / στην πλάτη",
+     "I have a pain in my stomach / back",
+     "πονάω + **σε**"
+    ],
+    [
+     "Έχω πυρετό / βήχα / πονοκέφαλο",
+     "I have a temperature / a cough / a headache",
+     "έχω + accusative"
+    ],
+    [
+     "Ζαλίζομαι · Κρύωσα · Είμαι κρυωμένος/-η",
+     "I feel dizzy · I caught a cold · I have a cold",
+     "symptoms as verbs"
+    ],
+    [
+     "Από πότε; — Από χθες / Εδώ και τρεις μέρες",
+     "Since when? — Since yesterday / For three days",
+     "present tense for ongoing"
+    ],
+    [
+     "Είστε αλλεργικός/-ή σε κάποιο φάρμακο;",
+     "Are you allergic to any medicine?",
+     "αλλεργικός **σε** + acc."
+    ],
+    [
+     "Θα σας γράψω ένα αντιβιοτικό / μια εξέταση",
+     "I'll prescribe you an antibiotic / a test",
+     "doctor"
+    ],
+    [
+     "Να το παίρνετε δύο φορές τη μέρα",
+     "Take it twice a day",
+     "**να + imperfective** = regimen"
+    ],
+    [
+     "Μην πάτε στη δουλειά · Μην πίνετε αλκοόλ",
+     "Don't go to work · Don't drink alcohol",
+     "**μην** + subjunctive"
+    ],
+    [
+     "Θα ήθελα να κλείσω ένα ραντεβού",
+     "I'd like to book an appointment",
+     "phone, polite"
+    ],
+    [
+     "Έχετε κάτι για τον βήχα;",
+     "Have you got anything for a cough?",
+     "pharmacy, για + acc."
+    ],
+    [
+     "Χρειάζεται συνταγή;",
+     "Do I need a prescription?",
+     "pharmacy"
+    ],
+    [
+     "Περαστικά (σας)! — Ευχαριστώ.",
+     "Get well soon! — Thanks.",
+     "to anyone ill, any register"
+    ]
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Στο φαρμακείο",
+   "setting": "Anna brings an e-prescription to her local pharmacist.",
+   "lines": [
+    {
+     "who": "Φαρμακοποιός",
+     "voice": "m",
+     "el": "Γεια σας, ορίστε;",
+     "en": "Hello, can I help you?"
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Γεια σας. Ο γιατρός μού έστειλε τη συνταγή στο κινητό. Ορίστε ο κωδικός.",
+     "en": "Hello. The doctor sent the prescription to my phone. Here's the code."
+    },
+    {
+     "who": "Φαρμακοποιός",
+     "voice": "m",
+     "el": "Για να δω... Ναι, ένα αντιβιοτικό και ένα σιρόπι για τον βήχα. Το σιρόπι δεν το έχω αυτή τη στιγμή, θα το φέρω το απόγευμα.",
+     "en": "Let me see... Yes, an antibiotic and a cough syrup. I don't have the syrup right now, I'll get it in this afternoon."
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Α, κρίμα. Μπορώ να περάσω μετά τις έξι;",
+     "en": "Oh, pity. Can I come by after six?"
+    },
+    {
+     "who": "Φαρμακοποιός",
+     "voice": "m",
+     "el": "Βεβαίως. Το αντιβιοτικό σάς το δίνω τώρα. Ξέρετε πώς να το παίρνετε;",
+     "en": "Of course. I'll give you the antibiotic now. Do you know how to take it?"
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Ο γιατρός μού είπε ένα χάπι κάθε δώδεκα ώρες.",
+     "en": "The doctor told me one pill every twelve hours."
+    },
+    {
+     "who": "Φαρμακοποιός",
+     "voice": "m",
+     "el": "Σωστά. Να το παίρνετε με νερό, όχι με γάλα, και να μην το σταματήσετε όταν νιώσετε καλύτερα. Να τελειώσετε όλο το κουτί.",
+     "en": "Right. Take it with water, not with milk, and don't stop it when you feel better. Finish the whole box."
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Εντάξει. Α, και κάτι ακόμα: έχετε κάτι για τον πονοκέφαλο; Με πονάει το κεφάλι μου από το πρωί.",
+     "en": "OK. Oh, and one more thing: do you have something for a headache? My head has been hurting since this morning."
+    },
+    {
+     "who": "Φαρμακοποιός",
+     "voice": "m",
+     "el": "Μπορείτε να πάρετε παρακεταμόλη, ένα χάπι των πεντακοσίων. Αλλά όχι πάνω από τέσσερα τη μέρα.",
+     "en": "You can take paracetamol, one 500 mg tablet. But no more than four a day."
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Χρειάζεται συνταγή γι' αυτό;",
+     "en": "Do I need a prescription for that?"
+    },
+    {
+     "who": "Φαρμακοποιός",
+     "voice": "m",
+     "el": "Όχι, δεν χρειάζεται. Θέλετε τίποτε άλλο; Καραμέλες για τον λαιμό, ίσως;",
+     "en": "No, you don't. Would you like anything else? Throat lozenges, maybe?"
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Όχι, ευχαριστώ, φτάνουν αυτά. Πόσο κάνουν;",
+     "en": "No thanks, that's enough. How much are they?"
+    },
+    {
+     "who": "Φαρμακοποιός",
+     "voice": "m",
+     "el": "Η συμμετοχή για το αντιβιοτικό είναι δύο ευρώ και σαράντα λεπτά, και η παρακεταμόλη τρία ευρώ. Σύνολο πέντε και σαράντα.",
+     "en": "The co-payment for the antibiotic is two euros forty, and the paracetamol three euros. Five forty in total."
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Ορίστε. Και πείτε μου, το απόγευμα μέχρι τι ώρα είστε ανοιχτά;",
+     "en": "Here you are. And tell me, until what time are you open this afternoon?"
+    },
+    {
+     "who": "Φαρμακοποιός",
+     "voice": "m",
+     "el": "Μέχρι τις οχτώ και μισή. Περαστικά σας!",
+     "en": "Until half past eight. Get well soon!"
+    },
+    {
+     "who": "Άννα",
+     "voice": "f",
+     "el": "Ευχαριστώ, καλή συνέχεια!",
+     "en": "Thanks, have a good rest of the day!"
+    }
+   ],
+   "gloss": {
+    "μού": "μου — to me (weak pronoun; accented to show it belongs to the verb)",
+    "κωδικός": "κωδικός — code",
+    "σιρόπι": "σιρόπι — syrup",
+    "σάς": "σας — to you (weak pronoun, accented before another pronoun)",
+    "σταματήσετε": "σταματάω — to stop (perfective, εσείς)",
+    "νιώσετε": "νιώθω — to feel (perfective, εσείς)",
+    "τελειώσετε": "τελειώνω — to finish (perfective, εσείς)",
+    "κουτί": "κουτί — box",
+    "πονοκέφαλο": "πονοκέφαλος — headache",
+    "παρακεταμόλη": "παρακεταμόλη — paracetamol",
+    "πεντακοσίων": "πεντακόσια — five hundred; των πεντακοσίων = the 500 mg one (genitive)",
+    "γι'": "για — for",
+    "Καραμέλες": "καραμέλα — sweet; καραμέλες για τον λαιμό = throat lozenges",
+    "φτάνουν": "φτάνω — to be enough",
+    "συμμετοχή": "συμμετοχή — co-payment (the patient's share of a prescription)",
+    "Σύνολο": "σύνολο — total",
+    "ανοιχτά": "ανοιχτός — open",
+    "συνέχεια": "συνέχεια — continuation; καλή συνέχεια = have a good rest of the day",
+    "Βεβαίως": "βεβαίως — of course",
+    "Περαστικά": "περαστικά — get well soon"
+   },
+   "questions": [
+    {
+     "prompt": "Τι δεν έχει το φαρμακείο αυτή τη στιγμή;",
+     "answer": "Το σιρόπι",
+     "options": [
+      "Το σιρόπι",
+      "Το αντιβιοτικό",
+      "Την παρακεταμόλη"
+     ]
+    },
+    {
+     "prompt": "Πώς πρέπει να παίρνει η Άννα το αντιβιοτικό;",
+     "answer": "Με νερό, κάθε δώδεκα ώρες",
+     "options": [
+      "Με νερό, κάθε δώδεκα ώρες",
+      "Με γάλα, κάθε δώδεκα ώρες",
+      "Με νερό, τέσσερις φορές τη μέρα"
+     ]
+    },
+    {
+     "prompt": "Πόσα πληρώνει η Άννα συνολικά;",
+     "answer": "Πέντε ευρώ και σαράντα λεπτά",
+     "options": [
+      "Πέντε ευρώ και σαράντα λεπτά",
+      "Δύο ευρώ και σαράντα λεπτά",
+      "Τρία ευρώ"
+     ]
+    },
+    {
+     "prompt": "Πότε θα ξαναπάει στο φαρμακείο;",
+     "answer": "Μετά τις έξι",
+     "options": [
+      "Μετά τις έξι",
+      "Αύριο το πρωί",
+      "Μετά τις οχτώ και μισή"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "The doctor's imperatives: εσύ and εσείς",
+   "head": [
+    "Verb",
+    "εσύ (once)",
+    "εσείς (once)",
+    "Ongoing (εσείς)"
+   ],
+   "rows": [
+    [
+     "ανοίγω",
+     "άνοιξε",
+     "ανοίξτε",
+     "ανοίγετε"
+    ],
+    [
+     "παίρνω",
+     "πάρε",
+     "πάρτε",
+     "παίρνετε"
+    ],
+    [
+     "πίνω",
+     "πιες",
+     "πιείτε",
+     "πίνετε"
+    ],
+    [
+     "τρώω",
+     "φάε",
+     "φάτε",
+     "τρώτε"
+    ],
+    [
+     "ξαπλώνω",
+     "ξάπλωσε",
+     "ξαπλώστε",
+     "ξαπλώνετε"
+    ],
+    [
+     "βγάζω",
+     "βγάλε",
+     "βγάλτε",
+     "βγάζετε"
+    ],
+    [
+     "λέω",
+     "πες",
+     "πείτε",
+     "λέτε"
+    ],
+    [
+     "κάθομαι",
+     "κάτσε / κάθισε",
+     "καθίστε",
+     "κάθεστε"
+    ],
+    [
+     "ξεκουράζομαι",
+     "ξεκουράσου",
+     "ξεκουραστείτε",
+     "ξεκουράζεστε"
+    ],
+    [
+     "μένω",
+     "μείνε",
+     "μείνετε",
+     "μένετε"
+    ],
+    [
+     "*negative*",
+     "μην πάρεις",
+     "μην πάρετε",
+     "μην παίρνετε"
+    ]
+   ]
+  },
+  {
+   "type": "examples",
+   "title": "Symptoms, durations, instructions",
+   "items": [
+    {
+     "el": "Με πονάει το δόντι μου από το Σάββατο.",
+     "en": "My tooth has been hurting since Saturday."
+    },
+    {
+     "el": "Πονάνε τα πόδια μου, περπάτησα πολύ χθες.",
+     "en": "My feet hurt, I walked a lot yesterday."
+    },
+    {
+     "el": "Εδώ και δύο μέρες έχω βήχα και δεν μπορώ να κοιμηθώ.",
+     "en": "I've had a cough for two days and I can't sleep."
+    },
+    {
+     "el": "Θα ήθελα να κλείσω ένα ραντεβού με τον κύριο Δημητρίου. — Τι μέρα σας βολεύει;",
+     "en": "I'd like to book an appointment with Mr Dimitriou. — Which day suits you?"
+    },
+    {
+     "el": "Να παίρνετε ένα χάπι το πρωί, πριν από το φαγητό.",
+     "en": "Take one pill in the morning, before food."
+    },
+    {
+     "el": "Μην οδηγείτε όσο παίρνετε αυτό το φάρμακο.",
+     "en": "Don't drive while you're taking this medicine."
+    },
+    {
+     "el": "Σας γράφω και μια εξέταση αίματος.",
+     "en": "I'm also sending you for a blood test."
+    },
+    {
+     "el": "Το παιδί μου έχει πυρετό τριάντα εννιά. Τι να του δώσω;",
+     "en": "My child has a temperature of 39. What should I give him?"
+    },
+    {
+     "el": "Έκοψα το δάχτυλό μου. Έχετε τσιρότα;",
+     "en": "I've cut my finger. Do you have plasters?"
+    },
+    {
+     "el": "Ποιο φαρμακείο εφημερεύει σήμερα;",
+     "en": "Which pharmacy is on duty today?"
+    }
+   ]
+  },
+  {
+   "type": "callout",
+   "text": "**Traps for English speakers**\n\n- *I have a headache* is **έχω πονοκέφαλο**, but *my head hurts* is **με πονάει το κεφάλι μου**, never ~~πονάω το κεφάλι μου~~. With a plural part the verb is plural: **με πονάνε τα δόντια μου**.\n- *I've had a fever for two days* takes the **present**: **έχω πυρετό εδώ και δύο μέρες**. **Για δύο μέρες** describes a span that is planned or finished: **για επτά μέρες** (the course of pills).\n- **Να το παίρνετε** (imperfective) = every day for a while; **να το πάρετε** (perfective) = once. Pharmacists switch between them constantly.\n- **Γιατρέ** is the vocative for any doctor, man or woman; don't say ~~γιατρός~~ to their face.\n- The weak pronoun gets an accent when it could be misread: **ο γιατρός μού είπε** 'the doctor told me' vs **ο γιατρός μου είπε** 'my doctor said'."
+  },
+  {
+   "type": "dialogue",
+   "title": "Ένας άρρωστος φίλος",
+   "setting": "Maria phones her friend Giorgos, who didn't turn up at the gym.",
+   "lines": [
+    {
+     "who": "Μαρία",
+     "voice": "f",
+     "el": "Έλα, Γιώργο! Πού είσαι, ρε συ; Σε περιμέναμε στο γυμναστήριο.",
+     "en": "Hi, Giorgos! Where are you? We were waiting for you at the gym."
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Γεια σου, Μαρία. Ε, άσ' τα, είμαι άρρωστος. Από χθες το βράδυ είμαι στο κρεβάτι.",
+     "en": "Hi, Maria. Oh, don't ask, I'm ill. I've been in bed since last night."
+    },
+    {
+     "who": "Μαρία",
+     "voice": "f",
+     "el": "Αλήθεια; Τι έπαθες;",
+     "en": "Really? What happened to you?"
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Δεν ξέρω, κάτι έφαγα μάλλον. Με πονάει η κοιλιά μου και ζαλίζομαι όταν σηκώνομαι.",
+     "en": "I don't know, I probably ate something. My stomach hurts and I feel dizzy when I get up."
+    },
+    {
+     "who": "Μαρία",
+     "voice": "f",
+     "el": "Πυρετό έχεις;",
+     "en": "Have you got a temperature?"
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Λίγο, τριάντα επτά και οχτώ. Αλλά δεν μπορώ να φάω τίποτα.",
+     "en": "A little, thirty-seven point eight. But I can't eat anything."
+    },
+    {
+     "who": "Μαρία",
+     "voice": "f",
+     "el": "Πήγες σε γιατρό;",
+     "en": "Did you go to a doctor?"
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Όχι ακόμα. Πήρα τηλέφωνο στο ιατρείο, αλλά η γραμματέας μού είπε ότι ο γιατρός έχει ραντεβού μόνο για την Πέμπτη.",
+     "en": "Not yet. I phoned the surgery, but the receptionist told me the doctor only has appointments for Thursday."
+    },
+    {
+     "who": "Μαρία",
+     "voice": "f",
+     "el": "Την Πέμπτη; Μα σήμερα είναι Δευτέρα! Αν χειροτερέψεις, να πας στα επείγοντα, εντάξει;",
+     "en": "Thursday? But today's Monday! If you get worse, go to A&E, OK?"
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Ναι, ναι, μην ανησυχείς. Δεν είναι τόσο σοβαρό.",
+     "en": "Yes, yes, don't worry. It's not that serious."
+    },
+    {
+     "who": "Μαρία",
+     "voice": "f",
+     "el": "Άκου με: πίνε πολύ νερό, φάε λίγο ρύζι ή φρυγανιές, και ξάπλωσε. Και μην πιεις καφέ.",
+     "en": "Listen to me: drink lots of water, eat a little rice or some rusks, and lie down. And don't drink coffee."
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Καλά, μαμά!",
+     "en": "OK, Mum!"
+    },
+    {
+     "who": "Μαρία",
+     "voice": "f",
+     "el": "Γελάς εσύ... Θέλεις να σου φέρω κάτι από το φαρμακείο;",
+     "en": "You can laugh... Do you want me to bring you something from the pharmacy?"
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Αν δεν σε πειράζει, φέρε μου ένα κουτί παρακεταμόλη. Δεν μου έμεινε καθόλου.",
+     "en": "If you don't mind, bring me a box of paracetamol. I've got none left."
+    },
+    {
+     "who": "Μαρία",
+     "voice": "f",
+     "el": "Εντάξει, θα περάσω κατά τις οχτώ. Περαστικά!",
+     "en": "OK, I'll drop by around eight. Get well soon!"
+    },
+    {
+     "who": "Γιώργος",
+     "voice": "m",
+     "el": "Ευχαριστώ, είσαι θησαυρός!",
+     "en": "Thanks, you're a treasure!"
+    }
+   ],
+   "gloss": {
+    "ρε": "ρε — hey (informal particle); ρε συ = mate, come on",
+    "συ": "εσύ — you (ρε συ = hey you, mate)",
+    "γυμναστήριο": "γυμναστήριο — gym",
+    "άσ'": "αφήνω — to leave (imperative άσε); άσ' τα = don't ask",
+    "έπαθες": "παθαίνω — to suffer, happen to (aorist); τι έπαθες; = what happened to you?",
+    "κοιλιά": "κοιλιά — belly, stomach",
+    "ζαλίζομαι": "ζαλίζομαι — to feel dizzy",
+    "σηκώνομαι": "σηκώνομαι — to get up",
+    "γραμματέας": "γραμματέας — secretary, receptionist",
+    "μού": "μου — to me (weak pronoun, accented)",
+    "χειροτερέψεις": "χειροτερεύω — to get worse (perfective)",
+    "επείγοντα": "επείγοντα — A&E, emergency department (τα επείγοντα)",
+    "ανησυχείς": "ανησυχώ — to worry",
+    "πίνε": "πίνω — to drink (imperative, ongoing)",
+    "φάε": "τρώω — to eat (imperative)",
+    "φρυγανιές": "φρυγανιά — rusk, toast",
+    "ξάπλωσε": "ξαπλώνω — to lie down (imperative)",
+    "πιεις": "πίνω — to drink (perfective, 2sg)",
+    "Γελάς": "γελάω — to laugh",
+    "πειράζει": "πειράζω — to bother; αν δεν σε πειράζει = if you don't mind",
+    "φέρε": "φέρνω — to bring (imperative)",
+    "έμεινε": "μένω — to stay, be left (aorist)",
+    "θησαυρός": "θησαυρός — treasure",
+    "παρακεταμόλη": "παρακεταμόλη — paracetamol",
+    "κατά": "κατά — around (time)"
+   },
+   "questions": [
+    {
+     "prompt": "Γιατί ο Γιώργος δεν πήγε στο γυμναστήριο;",
+     "answer": "Γιατί είναι άρρωστος",
+     "options": [
+      "Γιατί είναι άρρωστος",
+      "Γιατί δούλευε",
+      "Γιατί ήταν στον γιατρό"
+     ]
+    },
+    {
+     "prompt": "Τι νομίζει ο Γιώργος ότι έγινε;",
+     "answer": "Κάτι έφαγε",
+     "options": [
+      "Κάτι έφαγε",
+      "Κρύωσε",
+      "Κουράστηκε στο γυμναστήριο"
+     ]
+    },
+    {
+     "prompt": "Πότε μπορεί να τον δει ο γιατρός;",
+     "answer": "Την Πέμπτη",
+     "options": [
+      "Την Πέμπτη",
+      "Σήμερα",
+      "Αύριο"
+     ]
+    },
+    {
+     "prompt": "Τι θα του φέρει η Μαρία;",
+     "answer": "Παρακεταμόλη",
+     "options": [
+      "Παρακεταμόλη",
+      "Ρύζι και φρυγανιές",
+      "Καφέ"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "culture",
+   "title": "Paperless prescriptions and the pharmacist as first stop",
+   "text": "Since 2020 most Greek prescriptions are **άυλες** 'paperless': the doctor enters the medicines in the national e-prescription system and you receive a text message with a code linked to your **ΑΜΚΑ**, the social-security number every resident has. Any pharmacy can fill it, and you pay only the **συμμετοχή** 'co-payment', usually 25% of the price, less or nothing for some chronic illnesses. Many Greeks also go to the **φαρμακοποιός** before the doctor: pharmacists are expected to advise on colds, stomach upsets and small injuries, and in a neighbourhood people know theirs by name."
+  }
+ ],
+ "practice": [
+  {
+   "gen": "type",
+   "items": [
+    {
+     "prompt": "Ο γιατρός ρωτά: «Τι σας φέρνει εδώ;» Say: *My throat hurts a lot.*",
+     "answer": "Με πονάει πολύ ο λαιμός μου",
+     "accept": [
+      "Με πονάει πολύ ο λαιμός μου",
+      "Με πονάει ο λαιμός μου πολύ",
+      "Πονάει πολύ ο λαιμός μου",
+      "Ο λαιμός μου με πονάει πολύ",
+      "Με πονάει πολύ ο λαιμός",
+      "Πονάω πολύ στον λαιμό",
+      "Πονάω πολύ στο λαιμό"
+     ],
+     "why": "The body part is the subject of πονάει; you are the object με."
+    },
+    {
+     "prompt": "Say: *My ears hurt.*",
+     "answer": "Με πονάνε τα αυτιά μου",
+     "accept": [
+      "Με πονάνε τα αυτιά μου",
+      "Πονάνε τα αυτιά μου",
+      "Με πονούν τα αυτιά μου",
+      "Πονούν τα αυτιά μου",
+      "Τα αυτιά μου με πονάνε"
+     ],
+     "why": "A plural body part takes a plural verb: πονάνε (or πονούν)."
+    },
+    {
+     "prompt": "«Από πότε έχετε αυτά τα συμπτώματα;» Say: *For three days.*",
+     "answer": "Εδώ και τρεις μέρες",
+     "accept": [
+      "Εδώ και τρεις μέρες",
+      "Εδώ και τρεις ημέρες",
+      "Τρεις μέρες",
+      "Από πριν από τρεις μέρες"
+     ],
+     "why": "εδώ και + period marks something that started then and is still going on."
+    },
+    {
+     "prompt": "Say: *I've had a cough since Saturday.*",
+     "answer": "Έχω βήχα από το Σάββατο",
+     "accept": [
+      "Έχω βήχα από το Σάββατο",
+      "Από το Σάββατο έχω βήχα",
+      "Βήχω από το Σάββατο",
+      "Από το Σάββατο βήχω"
+     ],
+     "why": "Greek uses the present for a state that is still going on: έχω βήχα, not 'I have had'."
+    },
+    {
+     "prompt": "Say: *I've got a temperature of thirty-eight.* (numbers in words)",
+     "answer": "Έχω πυρετό τριάντα οχτώ",
+     "accept": [
+      "Έχω πυρετό τριάντα οχτώ",
+      "Έχω πυρετό τριάντα οκτώ",
+      "Έχω τριάντα οχτώ πυρετό",
+      "Έχω τριάντα οκτώ πυρετό",
+      "Έχω τριάντα οχτώ",
+      "Έχω τριάντα οκτώ"
+     ],
+     "why": "έχω + accusative πυρετό; the reading follows."
+    },
+    {
+     "prompt": "The doctor (εσείς): *Open your mouth, please.*",
+     "answer": "Ανοίξτε το στόμα σας, παρακαλώ",
+     "accept": [
+      "Ανοίξτε το στόμα σας, παρακαλώ",
+      "Ανοίξτε το στόμα σας",
+      "Ανοίξτε το στόμα",
+      "Ανοίξτε το στόμα, παρακαλώ",
+      "Παρακαλώ, ανοίξτε το στόμα σας",
+      "Ανοίξτε το στόμα σας παρακαλώ"
+     ],
+     "why": "Perfective imperative, εσείς: ανοίγω → ανοίξτε."
+    },
+    {
+     "prompt": "The same to a child (εσύ): *Open your mouth.*",
+     "answer": "Άνοιξε το στόμα σου",
+     "accept": [
+      "Άνοιξε το στόμα σου",
+      "Άνοιξε το στόμα",
+      "Άνοιξε το στόμα σου, σε παρακαλώ"
+     ],
+     "why": "εσύ imperative: άνοιξε, stressed on the third syllable from the end."
+    },
+    {
+     "prompt": "The doctor (εσείς): *Take a deep breath.*",
+     "answer": "Πάρτε μια βαθιά ανάσα",
+     "accept": [
+      "Πάρτε μια βαθιά ανάσα",
+      "Πάρτε βαθιά ανάσα",
+      "Πάρτε μία βαθιά ανάσα",
+      "Πάρτε μια βαθιά αναπνοή",
+      "Πάρτε βαθιά αναπνοή"
+     ],
+     "why": "παίρνω → πάρτε (εσείς), πάρε (εσύ)."
+    },
+    {
+     "prompt": "The doctor (εσείς): *Lie down here.*",
+     "answer": "Ξαπλώστε εδώ",
+     "accept": [
+      "Ξαπλώστε εδώ",
+      "Ξαπλώστε εδώ, παρακαλώ",
+      "Εδώ ξαπλώστε"
+     ],
+     "why": "ξαπλώνω → perfective ξαπλώσ- → ξαπλώστε."
+    },
+    {
+     "prompt": "The doctor (εσείς): *Take it twice a day.* (a regular course)",
+     "answer": "Να το παίρνετε δύο φορές τη μέρα",
+     "accept": [
+      "Να το παίρνετε δύο φορές τη μέρα",
+      "Να το παίρνετε δυο φορές τη μέρα",
+      "Να το παίρνετε δύο φορές την ημέρα",
+      "Να το παίρνετε δυο φορές την ημέρα",
+      "Παίρνετέ το δύο φορές τη μέρα",
+      "Παίρνετέ το δυο φορές τη μέρα"
+     ],
+     "why": "A repeated regimen takes να + imperfective: να το παίρνετε."
+    },
+    {
+     "prompt": "The doctor (εσείς): *Don't drink alcohol.* (during the treatment)",
+     "answer": "Μην πίνετε αλκοόλ",
+     "accept": [
+      "Μην πίνετε αλκοόλ",
+      "Να μην πίνετε αλκοόλ"
+     ],
+     "why": "A standing ban: μην + imperfective."
+    },
+    {
+     "prompt": "At the pharmacy: *Do you have something for a cough?*",
+     "answer": "Έχετε κάτι για τον βήχα;",
+     "accept": [
+      "Έχετε κάτι για τον βήχα;",
+      "Έχετε κάτι για το βήχα",
+      "Έχετε κάτι για βήχα",
+      "Έχετε τίποτα για τον βήχα",
+      "Έχετε τίποτα για βήχα"
+     ],
+     "why": "για + accusative: για τον βήχα."
+    },
+    {
+     "prompt": "*Do I need a prescription?*",
+     "answer": "Χρειάζεται συνταγή;",
+     "accept": [
+      "Χρειάζεται συνταγή;",
+      "Χρειάζομαι συνταγή",
+      "Θέλει συνταγή",
+      "Χρειάζεται συνταγή γι' αυτό"
+     ],
+     "why": "Impersonal χρειάζεται 'is it needed' is the usual question."
+    },
+    {
+     "prompt": "On the phone: *I'd like to book an appointment.*",
+     "answer": "Θα ήθελα να κλείσω ένα ραντεβού",
+     "accept": [
+      "Θα ήθελα να κλείσω ένα ραντεβού",
+      "Θα ήθελα να κλείσω ραντεβού",
+      "Θέλω να κλείσω ένα ραντεβού",
+      "Θέλω να κλείσω ραντεβού",
+      "Θα ήθελα ένα ραντεβού"
+     ],
+     "why": "κλείνω ραντεβού = book an appointment; θα ήθελα να softens the request."
+    },
+    {
+     "prompt": "The doctor to a woman: *Are you allergic to any medicine?*",
+     "answer": "Είστε αλλεργική σε κάποιο φάρμακο;",
+     "accept": [
+      "Είστε αλλεργική σε κάποιο φάρμακο;",
+      "Είστε αλλεργική σε κανένα φάρμακο",
+      "Έχετε αλλεργία σε κάποιο φάρμακο",
+      "Έχετε αλλεργία σε κανένα φάρμακο"
+     ],
+     "why": "αλλεργικός agrees with the patient (αλλεργική) and takes σε + accusative."
+    },
+    {
+     "prompt": "Switch to εσύ: «Πάρτε ένα χάπι το βράδυ.»",
+     "answer": "Πάρε ένα χάπι το βράδυ",
+     "accept": [
+      "Πάρε ένα χάπι το βράδυ"
+     ],
+     "why": "πάρτε → πάρε."
+    },
+    {
+     "prompt": "Switch to εσείς: «Πιες πολύ νερό.»",
+     "answer": "Πιείτε πολύ νερό",
+     "accept": [
+      "Πιείτε πολύ νερό"
+     ],
+     "why": "πιες → πιείτε (note the spelling -ιεί-)."
+    },
+    {
+     "prompt": "Switch to εσείς: «Μην πας στη δουλειά αύριο.»",
+     "answer": "Μην πάτε στη δουλειά αύριο",
+     "accept": [
+      "Μην πάτε στη δουλειά αύριο",
+      "Αύριο μην πάτε στη δουλειά"
+     ],
+     "why": "Negative imperative = μην + subjunctive: πας → πάτε."
+    },
+    {
+     "prompt": "Switch to εσείς: «Ξεκουράσου!»",
+     "answer": "Ξεκουραστείτε!",
+     "accept": [
+      "Ξεκουραστείτε!",
+      "Ξεκουραστείτε"
+     ],
+     "why": "Passive-form verbs: -σου (εσύ) → -στείτε (εσείς)."
+    },
+    {
+     "prompt": "Switch to εσύ: «Καθίστε, παρακαλώ.»",
+     "answer": "Κάτσε, σε παρακαλώ",
+     "accept": [
+      "Κάτσε, σε παρακαλώ",
+      "Κάτσε",
+      "Κάθισε",
+      "Κάτσε, παρακαλώ",
+      "Κάθισε, σε παρακαλώ",
+      "Κάθισε, παρακαλώ"
+     ],
+     "why": "κάθομαι: καθίστε (εσείς), κάτσε or κάθισε (εσύ)."
+    },
+    {
+     "prompt": "A friend says she's ill. Ask: *What happened to you?*",
+     "answer": "Τι έπαθες;",
+     "accept": [
+      "Τι έπαθες;",
+      "Τι σου συνέβη",
+      "Τι έγινε",
+      "Τι έχεις"
+     ],
+     "why": "παθαίνω 'suffer, have happen to one': τι έπαθες; is the standard reaction."
+    },
+    {
+     "prompt": "Say to someone ill: *Get well soon!*",
+     "answer": "Περαστικά!",
+     "accept": [
+      "Περαστικά!",
+      "Περαστικά",
+      "Περαστικά σου",
+      "Περαστικά σας",
+      "Να γίνεις καλά",
+      "Γίνε καλά"
+     ],
+     "why": "Περαστικά 'may it pass' is said to anyone who is ill."
+    },
+    {
+     "prompt": "Say: *I feel dizzy when I get up.*",
+     "answer": "Ζαλίζομαι όταν σηκώνομαι",
+     "accept": [
+      "Ζαλίζομαι όταν σηκώνομαι",
+      "Ζαλίζομαι όταν σηκώνομαι από το κρεβάτι"
+     ],
+     "why": "ζαλίζομαι and σηκώνομαι are passive in form, active in meaning."
+    },
+    {
+     "prompt": "Say: *I've caught a cold.*",
+     "answer": "Κρύωσα",
+     "accept": [
+      "Κρύωσα",
+      "Έχω κρυώσει",
+      "Είμαι κρυωμένος",
+      "Είμαι κρυωμένη"
+     ],
+     "why": "κρυώνω 'get cold': the aorist κρύωσα means 'I caught a cold'."
+    },
+    {
+     "prompt": "To a friend: *Do you want me to bring you something from the pharmacy?*",
+     "answer": "Θέλεις να σου φέρω κάτι από το φαρμακείο;",
+     "accept": [
+      "Θέλεις να σου φέρω κάτι από το φαρμακείο;",
+      "Να σου φέρω κάτι από το φαρμακείο",
+      "Θες να σου φέρω κάτι από το φαρμακείο"
+     ],
+     "why": "θέλεις να + perfective; the weak pronoun σου comes before φέρω."
+    },
+    {
+     "prompt": "Say: *The doctor told me one pill every twelve hours.*",
+     "answer": "Ο γιατρός μού είπε ένα χάπι κάθε δώδεκα ώρες",
+     "accept": [
+      "Ο γιατρός μού είπε ένα χάπι κάθε δώδεκα ώρες",
+      "Ο γιατρός μου είπε ένα χάπι κάθε δώδεκα ώρες",
+      "Μου είπε ο γιατρός ένα χάπι κάθε δώδεκα ώρες"
+     ],
+     "why": "μού είπε: accent the pronoun so it isn't read as 'my doctor'."
+    },
+    {
+     "prompt": "«Το σιρόπι; Θα ___ φέρω το απόγευμα.» Fill in the pronoun.",
+     "answer": "το",
+     "accept": [
+      "το"
+     ],
+     "why": "A fronted object is repeated by a weak pronoun: Το σιρόπι θα το φέρω."
+    },
+    {
+     "prompt": "«Δώστε ___ αυτό το σιρόπι.» *(to her)*",
+     "answer": "της",
+     "accept": [
+      "της"
+     ],
+     "why": "Indirect object 'to her' = genitive weak pronoun της, after the imperative."
+    },
+    {
+     "prompt": "Bring me a box of paracetamol (εσύ).",
+     "answer": "Φέρε μου ένα κουτί παρακεταμόλη",
+     "accept": [
+      "Φέρε μου ένα κουτί παρακεταμόλη",
+      "Φέρε μου ένα κουτί παρακεταμόλες",
+      "Φέρε μου ένα κουτί παρακεταμόλη, σε παρακαλώ"
+     ],
+     "why": "After an imperative the weak pronoun follows: φέρε μου. No 'of' after a container: ένα κουτί παρακεταμόλη."
+    }
+   ]
+  },
+  {
+   "gen": "mc",
+   "items": [
+    {
+     "prompt": "Γιατρός: «Από πότε έχετε πυρετό;» — choose the natural reply.",
+     "answer": "Από χθες το βράδυ.",
+     "options": [
+      "Από χθες το βράδυ.",
+      "Για χθες το βράδυ.",
+      "Πριν χθες το βράδυ."
+     ],
+     "why": "από + time = since."
+    },
+    {
+     "prompt": "*My feet hurt.*",
+     "answer": "Με πονάνε τα πόδια μου.",
+     "options": [
+      "Με πονάνε τα πόδια μου.",
+      "Με πονάει τα πόδια μου.",
+      "Πονάω τα πόδια μου."
+     ],
+     "why": "The feet are the subject, so the verb is plural."
+    },
+    {
+     "prompt": "Φαρμακοποιός: «Περαστικά σας!» — reply.",
+     "answer": "Ευχαριστώ, καλή συνέχεια!",
+     "options": [
+      "Ευχαριστώ, καλή συνέχεια!",
+      "Επίσης!",
+      "Καλή όρεξη!"
+     ],
+     "why": "Περαστικά is only for the sick, so you don't return it with επίσης."
+    },
+    {
+     "prompt": "A seven-day course of antibiotics: *Take it every morning.*",
+     "answer": "Να το παίρνετε κάθε πρωί.",
+     "options": [
+      "Να το παίρνετε κάθε πρωί.",
+      "Να το πάρετε κάθε πρωί.",
+      "Το πήρατε κάθε πρωί."
+     ],
+     "why": "Repeated action → imperfective παίρνετε."
+    },
+    {
+     "prompt": "One dose, right now: *Take a pill now.*",
+     "answer": "Πάρτε ένα χάπι τώρα.",
+     "options": [
+      "Πάρτε ένα χάπι τώρα.",
+      "Παίρνετε ένα χάπι τώρα.",
+      "Θα παίρνετε ένα χάπι τώρα."
+     ],
+     "why": "A single action → perfective imperative πάρτε."
+    },
+    {
+     "prompt": "A friend: «Είμαι άρρωστος.» — the natural reply.",
+     "answer": "Αλήθεια; Τι έπαθες;",
+     "options": [
+      "Αλήθεια; Τι έπαθες;",
+      "Τι σας φέρνει εδώ;",
+      "Συγχαρητήρια!"
+     ],
+     "why": "Between friends: εσύ and τι έπαθες;"
+    },
+    {
+     "prompt": "*I've had a headache for two days.*",
+     "answer": "Έχω πονοκέφαλο εδώ και δύο μέρες.",
+     "options": [
+      "Έχω πονοκέφαλο εδώ και δύο μέρες.",
+      "Είχα πονοκέφαλο για δύο μέρες.",
+      "Έχω πονοκέφαλο πριν δύο μέρες."
+     ],
+     "why": "Still going on → present + εδώ και."
+    },
+    {
+     "prompt": "Addressing a woman doctor:",
+     "answer": "Γιατρέ, ...",
+     "options": [
+      "Γιατρέ, ...",
+      "Γιατρός, ...",
+      "Γιατρίνα, ..."
+     ],
+     "why": "γιατρέ is the vocative for any doctor."
+    },
+    {
+     "prompt": "Είστε αλλεργικός ___ κάποιο φάρμακο;",
+     "answer": "σε",
+     "options": [
+      "σε",
+      "με",
+      "από"
+     ],
+     "why": "αλλεργικός σε + accusative."
+    },
+    {
+     "prompt": "Γραμματέας: «Τι μέρα σας βολεύει;» — the natural reply.",
+     "answer": "Την Τρίτη το πρωί, αν γίνεται.",
+     "options": [
+      "Την Τρίτη το πρωί, αν γίνεται.",
+      "Με βολεύει η γιατρός.",
+      "Τρίτη πρωί είμαι."
+     ],
+     "why": "Name a time in the accusative; αν γίνεται 'if possible' keeps it polite."
+    },
+    {
+     "prompt": "ένα χάπι ___ (the 500 mg one)",
+     "answer": "των πεντακοσίων",
+     "options": [
+      "των πεντακοσίων",
+      "τα πεντακόσια",
+      "του πεντακοσίου"
+     ],
+     "why": "Strength is given with a genitive plural: των πεντακοσίων."
+    },
+    {
+     "prompt": "Ο γιατρός σάς είπε να μην πάτε στη δουλειά. What does he mean?",
+     "answer": "Stay off work.",
+     "options": [
+      "Stay off work.",
+      "Go to work later.",
+      "Go to work but rest."
+     ],
+     "why": "να μην + subjunctive reports a prohibition."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  "πονάω",
+  "πυρετός",
+  "βήχας",
+  "λαιμός",
+  "στομάχι",
+  "συνταγή",
+  "χάπι",
+  "δόση",
+  "οδηγία",
+  "θερμοκρασία",
+  "φάρμακο",
+  "άρρωστος"
+ ]
+}
