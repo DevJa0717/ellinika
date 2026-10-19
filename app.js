@@ -461,34 +461,38 @@
     },
     async "principal-parts"(spec) {
       // Present → simple past or future (dependent) from Poulopoulou's 99 verbs or Holton's irregular table.
+      // Verbs listed in the 3rd person (βρέχει, πρέπει, συμβαίνει) are asked without εγώ; verbs with no aorist (έχω, ξέρω) carry aorist null and drop out.
       let rows;
-      if (spec.source === "irregular") rows = (await resolve("grammar/verbs-holton.json"))["irregular_verbs_6.25"].verbs.filter((v) => v.active_simple_past).map((v) => ({ present: v.present, gloss: v.meaning, aorist: v.active_simple_past, future: v.dependent }));
-      else rows = (await resolve("grammar/verbs-past-future.json#principal_parts")).map((v) => ({ present: v.present, gloss: v.gloss, aorist: v.aorist_1sg, future: v.future_1sg, group: v.past_group }));
+      if (spec.source === "irregular") rows = (await resolve("grammar/verbs-holton.json"))["irregular_verbs_6.25"].verbs.filter((v) => v.active_simple_past).map((v) => ({ present: v.present, gloss: v.meaning, aorist: v.active_simple_past, future: v.dependent, p3: /ει$/.test(v.present.split(/[\/ ]/)[0]) }));
+      else rows = (await resolve("grammar/verbs-past-future.json#principal_parts")).map((v) => { const p3 = v.person === "3sg"; return { present: v.present, gloss: v.gloss, aorist: p3 ? v.aorist_3sg : v.aorist_1sg, future: p3 ? v.future_3sg : v.future_1sg, group: v.past_group, p3, imperf: v.imperfect_1sg, impfFut: v.no_perfective || v.present === "θέλω" }; });
       const part = spec.part || "aorist";
       rows = rows.filter((r) => r[part] && !/only|impers/.test(r[part]) && (!spec.irregularOnly || r.group));
       return sample(rows, spec.n).map((r) => {
         const accept = r[part].split(/\s*\/\s*/).flatMap((x) => [x.replace(/\s*\(.*?\)\s*/g, "").trim(), (x.match(/\((.*?)\)/) || [])[1]]).filter(Boolean);
-        return { kind: "Type", prompt: `**${r.present}** (${r.gloss.replace(/^to /, "")}): ${part === "aorist" ? "εγώ ___ (simple past)" : "εγώ θα ___ (perfective)"}`, answer: r[part], accept: accept.map((a) => a.replace(/^θα\s+/, "")),
-          why: `${r.present} → ${part === "aorist" ? r.aorist : "θα " + r.future}${/irregular/.test(r.group || "") ? " (irregular: learn it as a pair)" : ""}.` , tag: "verb" };
+        const who = r.p3 ? "" : "εγώ ", p3 = r.p3 ? ", 3rd person" : "";
+        const note = part === "aorist" && r.imperf ? ` The everyday past "I wanted" is the imperfect ${r.imperf}; ${r.aorist} is the aorist.` : part === "future" && r.impfFut ? ` θα ${r.future.split(" ")[0]} is the ordinary future${/\(/.test(r.future) ? `; ${r.future.match(/\((.*?)\)/)[1]} is the perfective` : ": this verb has no separate perfective stem"}.` : "";
+        return { kind: "Type", prompt: `**${r.present}** (${r.gloss.replace(/^to /, "")}): ${part === "aorist" ? `${who}___ (simple past${p3})` : `${who}θα ___ (${r.impfFut ? "future" : "perfective"}${p3})`}`, answer: r[part], accept: accept.map((a) => a.replace(/^θα\s+/, "")),
+          why: `${r.present} → ${part === "aorist" ? r.aorist : "θα " + r.future}${/irregular/.test(r.group || "") ? " (irregular: learn it as a pair)" : ""}.${note}` , tag: "verb" };
       });
     },
     async "aorist-person"(spec) {
-      const rows = (await resolve("grammar/verbs-past-future.json#principal_parts")).filter((v) => /^[α-ωάέήίόύώ]+α$/.test(v.aorist_1sg || ""));
+      // aorist_1sg holds true aorists only (no ήξερα, ήθελα, είχα), so no *ηξέραμε can be built; 3rd-person-only verbs have no aorist_1sg.
+      const rows = (await resolve("grammar/verbs-past-future.json#principal_parts")).filter((v) => !v.no_aorist && v.person !== "3sg" && /^[α-ωάέήίόύώ]+α$/.test(v.aorist_1sg || ""));
       const ends = { "1sg": "α", "2sg": "ες", "3sg": "ε", "1pl": "αμε", "2pl": "ατε", "3pl": "αν" };
       const out = [];
       for (const v of sample(rows, spec.n)) {
         const [k, pro] = pick(PERSONS), aor = v.aorist_1sg, pres = stripAccents(v.present.split(/[ /]/)[0]);
         const stem = stripAccents(aor).slice(0, -1), fixed = v.past_group === "irregular_1";
         const aug = /^ε/.test(stem) && !/^ε/.test(pres) && !fixed;
-        const sp = spansG(aor), idx = sp.findIndex(([a, b]) => /[άέήίόύώ]/.test(aor.slice(a, b + 1)));
-        const atIndex = (bare, i) => { const s2 = spansG(bare); const j = s2[i][1]; return bare.slice(0, j) + (ADD_ACC[bare[j]] || bare[j]) + bare.slice(j + 1); };
+        // Singular and 3pl keep the 1sg's accented stem as it is (κρύωσα → κρύωσες; re-placing it would misread υ as a glide).
+        const accStem = aor.slice(0, -1);
         let form;
-        if (fixed) form = atIndex(stem + ends[k], idx);
+        if (fixed) form = accStem + ends[k];
         else if (k === "1pl" || k === "2pl") form = placeAccent((aug ? stem.slice(1) : stem) + ends[k], 3);
-        else form = atIndex(stem + ends[k], idx);
+        else form = accStem + ends[k];
         const accept = [form];
         if (k === "3pl" && !fixed) accept.push(placeAccent((aug ? stem.slice(1) : stem) + "ανε", 3));
-        if (k === "3pl" && fixed) accept.push(atIndex(stem + "ανε", idx));
+        if (k === "3pl" && fixed) accept.push(accStem + "ανε");
         out.push({ kind: "Type", prompt: `**${v.present}** → ${aor}: ${pro} ___ (simple past)`, answer: form, accept,
           why: fixed ? `${aor} keeps its stress throughout: ${form}.` : `Stress on the third syllable from the end${aug ? "; the augment ε- appears only when it is needed to carry the stress" : ""}: ${form}.`, tag: "verb" });
       }
@@ -539,8 +543,9 @@
         }
         const list = forms[k];
         if (!list.every(Boolean)) continue;
-        out.push({ kind: "Type", prompt: `**${v.present}** (${v.gloss.replace(/^to /, "")}): ${pro} ${particle} ___ (perfective)`, answer: list[0], accept: list.flatMap((x) => [x, `${particle} ${x}`]),
-          why: `Perfective stem ${v.fut} + present endings: ${particle} ${list[0]}.`, tag: "verb" });
+        const impf = v.no_perfective || v.present === "θέλω";
+        out.push({ kind: "Type", prompt: `**${v.present}** (${v.gloss.replace(/^to /, "")}): ${pro} ${particle} ___ (${impf ? (particle === "θα" ? "future" : "να form") : "perfective"})`, answer: list[0], accept: list.flatMap((x) => [x, `${particle} ${x}`]),
+          why: impf ? `${v.present} ${v.no_perfective ? "has no separate perfective stem" : "normally keeps the present stem here (perfective θελήσω is rarer)"}: ${particle} ${list[0]}.` : `Perfective stem ${v.fut} + present endings: ${particle} ${list[0]}.`, tag: "verb" });
       }
       return out;
     },

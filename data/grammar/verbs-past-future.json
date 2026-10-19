@@ -1,7 +1,7 @@
 {
  "source": "Poulopoulou, Modern Greek: Grammar Notes for Absolute Beginners (A1-A2), ΣΕΑΒ/Kallipos 2015, CC BY-NC-SA 3.0 GR (upload Greek Grammar84.pdf, book pp. 92-176): Appendix (pp. 162-167), Chapter 8 (aorist, pp. 113-124), Chapter 9 (future, pp. 125-129)",
  "variety": "Standard Modern Greek",
- "note": "future_1sg is the perfective form used after θα (simple future) and να (the book's 'infinitive'); prepend θα/να. Parentheses mark possible but less common forms. past_group is the book's Chapter 8 classification where it lists the verb; null means not classified there (B1/B2 verbs: predictable -σ- but unpredictable vowel, learn as irregular).",
+ "note": "future_1sg is the perfective form used after θα (simple future) and να (the book's 'infinitive'); prepend θα/να. aorist_1sg holds only true simple-past (aorist) forms. Verbs with no aorist (είμαι, έχω, ξέρω) have aorist_1sg null, their only past in imperfect_1sg, and no_aorist true; no_perfective marks verbs whose θα form is the present stem (θα έχω). θέλω keeps the aorist θέλησα apart from the everyday imperfect ήθελα. Entries listed in the 3rd person (person '3sg': αρέσει, βρέχει, πρέπει, σημαίνει, υπάρχει, μπορεί) use *_3sg fields instead of *_1sg; impersonal true marks verbs with no 1st/2nd person use. Parentheses mark possible but less common forms. past_group is the book's Chapter 8 classification where it lists the verb; null means not classified there (B1/B2 verbs: predictable -σ- but unpredictable vowel, learn as irregular).",
  "aorist": {
   "endings": {
    "1sg": "-α",
@@ -22,7 +22,7 @@
     "3pl": "πήγαν(ε)"
    }
   },
-  "stress_rule": "Antepenultimate (3rd from last) syllable, except irregular group 1 (fixed stress, e.g. πήρα, πήραμε). A short stem adds a stressed augment έ- (ή- for θέλω, ξέρω) only when needed to carry it: έφαγα but φάγαμε; κατάλαβα, καταλάβαμε.",
+  "stress_rule": "Antepenultimate (3rd from last) syllable, except irregular group 1 (fixed stress, e.g. πήρα, πήραμε). A short stem adds a stressed augment έ- only when needed to carry it: έφαγα but φάγαμε; κατάλαβα, καταλάβαμε. The same rule drops the ή- of the imperfects ήθελα, ήξερα in the plural: θέλαμε, ξέραμε (never *ηθέλαμε, *ηξέραμε).",
   "regular_formation": "Present stem + [s]: -β/-φ/-π/-ευ → -ψ- (γράφω → έγραψα, δουλεύω → δούλεψα); -γ/-χ/-χν → -ξ- (τρέχω → έτρεξα, φτιάχνω → έφτιαξα, ανοίγω → άνοιξα); -ν(ω) after vowel → -σ- (τελειώνω → τελείωσα). Stem -ζ- gives -σ- or -ξ- unpredictably (αλλάζω → άλλαξα, αγοράζω → αγόρασα).",
   "είμαι": {
    "1sg": "ήμουν(α)",
@@ -32,7 +32,8 @@
    "2pl": "ήσασταν / ήσαστε",
    "3pl": "ήταν(ε)"
   },
-  "passive_note": "Most passive verbs take a different past model (B1-B2 level); γίνομαι, έρχομαι, κάθομαι behave like active verbs."
+  "passive_note": "Most passive verbs take a different past model (B1-B2 level); γίνομαι, έρχομαι, κάθομαι behave like active verbs.",
+  "είμαι_note": "είμαι has no aorist: the forms below are its imperfect, which serves as its only past tense."
  },
  "future": {
   "formation": "θα + perfective stem + present-type endings. The form follows whichever present model it looks like: most go like A1, a few like A2 or B2; none like B1.",
@@ -117,8 +118,10 @@
   {
    "present": "αρέσει",
    "gloss": "to like (3sg)",
-   "aorist_1sg": "άρεσε",
-   "future_1sg": "αρέσει (θα only)",
+   "person": "3sg",
+   "aorist_3sg": "άρεσε",
+   "imperfect_3sg": "άρεσε",
+   "future_3sg": "αρέσει (θα only)",
    "past_group": "irregular_2"
   },
   {
@@ -166,8 +169,11 @@
   {
    "present": "βρέχει",
    "gloss": "it rains",
-   "aorist_1sg": "έβρεξε",
-   "future_1sg": "βρέξει",
+   "person": "3sg",
+   "impersonal": true,
+   "aorist_3sg": "έβρεξε",
+   "imperfect_3sg": "έβρεχε",
+   "future_3sg": "βρέξει",
    "past_group": null
   },
   {
@@ -236,8 +242,11 @@
   {
    "present": "είμαι",
    "gloss": "to be",
-   "aorist_1sg": "ήμουν(α)",
+   "aorist_1sg": null,
+   "imperfect_1sg": "ήμουν(α)",
    "future_1sg": "είμαι",
+   "no_aorist": true,
+   "no_perfective": true,
    "past_group": null
   },
   {
@@ -250,8 +259,11 @@
   {
    "present": "έχω",
    "gloss": "to have",
-   "aorist_1sg": "είχα",
+   "aorist_1sg": null,
+   "imperfect_1sg": "είχα",
    "future_1sg": "έχω",
+   "no_aorist": true,
+   "no_perfective": true,
    "past_group": "irregular_1"
   },
   {
@@ -278,7 +290,8 @@
   {
    "present": "θέλω",
    "gloss": "to want",
-   "aorist_1sg": "ήθελα (θέλησα)",
+   "aorist_1sg": "θέλησα",
+   "imperfect_1sg": "ήθελα",
    "future_1sg": "θέλω (θελήσω)",
    "past_group": "irregular_2"
   },
@@ -439,8 +452,11 @@
   {
    "present": "μπορεί",
    "gloss": "may, might (impersonal)",
-   "aorist_1sg": null,
-   "future_1sg": null,
+   "person": "3sg",
+   "impersonal": true,
+   "aorist_3sg": null,
+   "imperfect_3sg": "μπορούσε",
+   "future_3sg": null,
    "past_group": null
   },
   {
@@ -467,8 +483,11 @@
   {
    "present": "ξέρω",
    "gloss": "to know",
-   "aorist_1sg": "ήξερα",
+   "aorist_1sg": null,
+   "imperfect_1sg": "ήξερα",
    "future_1sg": "ξέρω",
+   "no_aorist": true,
+   "no_perfective": true,
    "past_group": "irregular_2"
   },
   {
@@ -558,8 +577,12 @@
   {
    "present": "πρέπει",
    "gloss": "must, have to (impersonal)",
-   "aorist_1sg": "έπρεπε",
-   "future_1sg": "πρέπει (θα only)",
+   "person": "3sg",
+   "impersonal": true,
+   "aorist_3sg": null,
+   "imperfect_3sg": "έπρεπε",
+   "future_3sg": "πρέπει (θα only)",
+   "no_aorist": true,
    "past_group": null
   },
   {
@@ -593,8 +616,10 @@
   {
    "present": "σημαίνει",
    "gloss": "to mean (3sg)",
-   "aorist_1sg": "σήμαινε",
-   "future_1sg": "(σημάνει, θα only)",
+   "person": "3sg",
+   "aorist_3sg": "σήμανε",
+   "imperfect_3sg": "σήμαινε",
+   "future_3sg": "σημάνει",
    "past_group": null
   },
   {
@@ -663,8 +688,10 @@
   {
    "present": "υπάρχει",
    "gloss": "there is (3sg)",
-   "aorist_1sg": "υπήρχε (υπήρξε)",
-   "future_1sg": "υπάρχει (υπάρξει)",
+   "person": "3sg",
+   "aorist_3sg": "υπήρξε",
+   "imperfect_3sg": "υπήρχε",
+   "future_3sg": "υπάρξει",
    "past_group": null
   },
   {
