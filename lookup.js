@@ -3,7 +3,10 @@
    Works in the page (window.EllinikaLookup) and in node (module.exports) for the coverage checker. */
 (function (root) {
   "use strict";
-  const strip = (s) => String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").normalize("NFC").toLowerCase().replace(/ς/g, "σ");
+  // Accent-free lowercase with final ς as σ. Plain letters pass through; any other character is stripped once and remembered.
+  const slow = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").normalize("NFC").toLowerCase().replace(/ς/g, "σ");
+  const CH = new Map();
+  const strip = (s) => String(s).replace(/[^a-zα-ρσ-ω0-9 ]/g, (c) => { let r = CH.get(c); if (r === undefined) CH.set(c, r = slow(c)); return r; });
   const GREEK = /[Ͱ-Ͽἀ-῿]/;
 
   // Ending sets by lemma ending (accent-stripped, final ς written σ). Over-generation is harmless: rank decides.

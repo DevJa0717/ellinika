@@ -159,6 +159,8 @@ td .ipa, .ipa { font-family: var(--f-ui); color: var(--muted); font-size: 0.88em
 .pager { display: flex; align-items: flex-start; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; gap: 16px; overscroll-behavior-x: contain; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
 .pager::-webkit-scrollbar { display: none; }
 .page { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; display: grid; gap: 14px; align-content: start; }
+/* Pages out of view skip layout and paint until swiped to (the course map holds 30+ unit pages). */
+.pager > .page { content-visibility: auto; contain-intrinsic-size: auto 100% auto 520px; }
 .learn .page { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 16px; }
 .pager-nav { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; }
 .dots { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; flex: 1; }

@@ -52,16 +52,16 @@
     return obj;
   }
 
-  // Vocabulary: every core list present, merged by lemma.
+  // Vocabulary: every core list present, merged by lemma (first file wins).
+  const LEX_FILES = ["lexicon/core-1000.json", "lexicon/core-3000.json", "colloquial/colloquial-lexicon.json"];
   let lexPromise = null;
   function lexicon() {
     if (!lexPromise) lexPromise = (async () => {
       const root = await dataRoot();
       // core-3000.json holds only ranks 1001+, so merge it onto core-1000 (keyed by lemma).
       const out = [], seen = new Set();
-      for (const f of ["lexicon/core-1000.json", "lexicon/core-3000.json", "colloquial/colloquial-lexicon.json"]) {
-        try { const r = await fetch(root + f); if (r.ok) { const d = await r.json(); for (const e of (Array.isArray(d) ? d : d.entries)) if (!seen.has(e.lemma)) { seen.add(e.lemma); out.push(e); } } } catch (e) { /* missing file */ }
-      }
+      const lists = await Promise.all(LEX_FILES.map((f) => fetch(root + f).then((r) => (r.ok ? r.json() : [])).catch(() => [])));
+      for (const d of lists) for (const e of (Array.isArray(d) ? d : d.entries || [])) if (!seen.has(e.lemma)) { seen.add(e.lemma); out.push(e); }
       return out;
     })();
     return lexPromise;
@@ -773,7 +773,9 @@
       track.scrollTo({ left: pages[i].offsetLeft - track.offsetLeft, behavior: instant ? "auto" : "smooth" });
       set(i);
       const top = wrap.getBoundingClientRect().top;
-      if (!instant && top < 0) window.scrollBy({ top: top - 70, behavior: "smooth" });
+      // Bring the page's top edge back into view below the sticky header (and lesson tabs, when there are any).
+      const head = bar.offsetHeight + (wrap.closest("#pane") ? $(".tabs")?.offsetHeight || 0 : 0) + 8;
+      if (!instant && top < head) window.scrollBy({ top: top - head, behavior: "smooth" });
     };
     let t;
     track.addEventListener("scroll", () => { clearTimeout(t); t = setTimeout(() => set(Math.round(track.scrollLeft / track.clientWidth)), 60); });
@@ -809,12 +811,49 @@
 
   /* ---------- word lookup (tap, or hover with a mouse) ---------- */
   let lookIdx = null, lookCtx = {};
+  async function lookupFiles() {
+    const root = await dataRoot(), abs = (u) => new URL(u, location.href).href;
+    return { lex: LEX_FILES.map((f) => abs(root + f)), extra: [root + "lexicon/names.json", root + "colloquial/colloquial-lookup.json", "lessons/lookup-gloss.json", "lessons/lookup-extra.json"].map(abs),
+      verbs: abs(root + "grammar/verbs-holton.json"), forms: abs(root + "lexicon/forms-index.json") };
+  }
+  // On a real site the ~170k-form index is built in a worker (lookup-worker.js) and queried by message;
+  // the single-file and preview builds, or a failed worker, build it on the page instead.
+  let lookW = null, lookN = 0;
+  const lookWaits = new Map();
+  function workerLookup() {
+    if (lookW !== null) return lookW;
+    lookW = (async () => {
+      if (window.__ELL_PACK || !/^https?:$/.test(location.protocol) || !window.Worker) return false;
+      const w = new Worker("lookup-worker.js");
+      const call = (msg) => new Promise((res, rej) => { const id = ++lookN; lookWaits.set(id, { res, rej }); w.postMessage({ ...msg, id }); });
+      w.onmessage = (e) => { const p = lookWaits.get(e.data.id); if (!p) return; lookWaits.delete(e.data.id); e.data.error ? p.rej(new Error(e.data.error)) : p.res(e.data); };
+      const failed = new Promise((res, rej) => { w.onerror = (e) => { e.preventDefault?.(); rej(new Error("lookup worker failed")); }; });
+      failed.catch(() => {});
+      await Promise.race([call({ files: await lookupFiles() }), failed]);
+      return { lookup: (word, ctx) => Promise.race([call({ word, ctx }), failed]).then((r) => r.hits) };
+    })().catch((e) => { console.warn("lookup worker unavailable, building on the page", e); return false; });
+    return lookW;
+  }
   function lookupIndex() {
     if (!lookIdx) lookIdx = (async () => {
       const [lex, extra, more, verbs, names, forms, colloq] = await Promise.all([lexicon(), getJSON("lessons/lookup-extra.json").catch(() => ({})), getJSON("lessons/lookup-gloss.json").catch(() => ({})), resolve("grammar/verbs-holton.json").catch(() => ({})), resolve("lexicon/names.json").catch(() => ({})), resolve("lexicon/forms-index.json").catch(() => ({})), resolve("colloquial/colloquial-lookup.json").catch(() => ({}))]);
       return window.EllinikaLookup.build(lex, { ...names, ...colloq, ...more, ...extra }, verbs["irregular_verbs_6.25"]?.verbs || [], forms.forms || {});
     })();
     return lookIdx;
+  }
+  async function lookupWord(word, ctx) {
+    const w = await workerLookup();
+    if (w) try { return await w.lookup(word, ctx); } catch (e) { lookW = Promise.resolve(false); }
+    return window.EllinikaLookup.lookup(await lookupIndex(), word, ctx);
+  }
+  // Pages with tappable words start the worker while the reader is still reading, so the first tap answers at once.
+  let warmed = false;
+  function warmLookup() {
+    if (warmed || window.__ELL_PACK || !/^https?:$/.test(location.protocol)) return;
+    warmed = true;
+    const idle = (f) => (window.requestIdleCallback || ((g) => setTimeout(g, 1200)))(f, { timeout: 3000 });
+    // Then the word lists that practice needs, once the worker has its files.
+    idle(() => { workerLookup().then(() => idle(() => { lexicon(); collocs(); })); });
   }
   const GREEK_RUN = /[Ͱ-Ͽἀ-῿]+(?:['’](?=[\s,.;!?»]|$))?/g;
   function wrapGreek(root) {
@@ -831,6 +870,7 @@
       if (last < s.length) frag.append(s.slice(last));
       n.replaceWith(frag);
     }
+    if (nodes.length) warmLookup();
   }
   const pop = document.createElement("div");
   pop.className = "lk-pop"; pop.hidden = true; pop.setAttribute("role", "dialog");
@@ -859,8 +899,7 @@
   async function showLookup(el) {
     popFor = el;
     const word = el.textContent;
-    const [index, col] = await Promise.all([lookupIndex(), collocs()]);
-    const hits = window.EllinikaLookup.lookup(index, word, lookCtx);
+    const [hits, col] = await Promise.all([lookupWord(word, lookCtx), collocs()]);
     if (popFor !== el) return;
     const wik = (w) => `<a class="lk-ext" href="https://en.wiktionary.org/wiki/${encodeURIComponent(w.replace(/['’]$/, ""))}#Greek" target="_blank" rel="noopener">Wiktionary ↗</a>`;
     pop.innerHTML = `<div class="lk-word" lang="el">${esc(word)}</div>` + (hits ? hits.map((h, i) => `<div class="lk-hit">
@@ -1092,7 +1131,12 @@
     // Open on the unit holding the first lesson not yet mastered.
     const firstOpen = course.units.findIndex((u) => u.lessons.some((l) => l.file && !(progress[l.id]?.best >= 0.85)));
     const tabs = [...view.querySelectorAll(".unit-tabs button")];
-    const pg = pager($("#units"), (i) => tabs.forEach((t, k) => { t.setAttribute("aria-current", k === i); if (k === i) t.scrollIntoView({ inline: "nearest", block: "nearest" }); }));
+    // Keep the current unit's tab in view by scrolling the strip itself (scrollIntoView could also move the page).
+    const strip = $(".unit-tabs", view);
+    const pg = pager($("#units"), (i) => tabs.forEach((t, k) => {
+      t.setAttribute("aria-current", k === i);
+      if (k === i) { const l = t.offsetLeft - strip.offsetLeft; if (l < strip.scrollLeft || l + t.offsetWidth > strip.scrollLeft + strip.clientWidth) strip.scrollLeft = l - 12; }
+    }));
     tabs.forEach((t, k) => (t.onclick = () => pg.go(k)));
     pg.go(Math.max(0, firstOpen), true);
     window.scrollTo(0, 0);
@@ -1361,7 +1405,7 @@
   $("#brand").onclick = (e) => { e.preventDefault(); if (location.hash) location.hash = ""; else renderHome(); };
   window.addEventListener("hashchange", route);
 
-  getJSON("img/manifest.json").then((m) => { photos = m.photos || []; }).catch(() => {})
-    .then(() => getJSON("lessons/course.json")).then((c) => { course = c; route(); })
+  Promise.all([getJSON("lessons/course.json"), getJSON("img/manifest.json").then((m) => { photos = m.photos || []; }).catch(() => {})])
+    .then(([c]) => { course = c; route(); })
     .catch((e) => { view.innerHTML = `<p>The course could not load: ${esc(e.message)}. Open the app from its folder over http (for example <code>python3 -m http.server</code> in the project folder) so it can read the lesson files.</p>`; });
 })();
