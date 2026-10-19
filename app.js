@@ -90,13 +90,19 @@
     }
     return uniq(out.map((x) => x.trim()).filter(Boolean));
   }
-  // Compare a typed answer with the accepted forms: "right", "almost" (accent only), or "wrong".
+  // The displayed answer always counts, whatever the accept list says.
+  const accepted = (item) => uniq([item.answer, ...(item.accept || [])].filter((x) => typeof x === "string"));
+  // τη(ν), αυτή(ν), δε(ν), μη(ν) written with or without the final ν: a spelling slip, not a wrong answer.
+  const dropNu = (s) => stripAccents(s).replace(/(^|[\s'])(σ?τη|αυτη|δε|μη)ν(?=\s)/g, "$1$2");
+  const nuOnly = (n, accepted) => accepted.map(dropNu).includes(dropNu(n));
+  // Compare a typed answer with the accepted forms: "right", "almost" (accent or final -ν only), or "wrong".
   function grade(input, forms) {
     const n = norm(input);
     if (!n) return "wrong";
     const accepted = forms.flatMap(variants).map(norm);
     if (accepted.includes(n)) return "right";
     if (accepted.map(stripAccents).includes(stripAccents(n))) return "almost";
+    if (nuOnly(n, accepted)) return "almost";
     return "wrong";
   }
   // Syllable nuclei for stress questions. Returns null when glides make the count ambiguous.
@@ -1354,7 +1360,8 @@
           if (result === "right") state.right++;
           else { state.missed.push({ item, given: shown }); queue.push(item); }
         }
-        const label = { right: "Σωστά! Correct.", almost: "Almost: check the accent.", wrong: "Not quite." }[result];
+        const nuSlip = result === "almost" && !accepted(item).flatMap(variants).map((x) => stripAccents(norm(x))).includes(stripAccents(norm(shown || "")));
+        const label = { right: "Σωστά! Correct.", almost: nuSlip ? "Almost: τη(ν) keeps its ν only before a vowel or κ, π, τ, ξ, ψ, γκ, μπ, ντ, τσ, τζ." : "Almost: check the accent.", wrong: "Not quite." }[result];
         fb.innerHTML = `<div class="feedback ${result}"><strong>${label}</strong>${result !== "right" ? `<span>Answer: <span lang="el">${esc(item.answer)}</span></span>` : ""}${item.why ? `<span class="why">${md(item.why)}</span>` : ""}</div>`;
         wrapGreek(fb);
         acts.innerHTML = `${snap && result === "wrong" && item.vocab.mode === "prod" ? `<button class="kbd-toggle" id="override">I was right</button>` : "<span></span>"}<button class="btn" id="next">${state.i + 1 >= queue.length ? "See results" : "Next"}</button>`;
@@ -1403,7 +1410,7 @@
         const inp = $("#ans");
         const check = () => {
           if (inp.readOnly) return;
-          const g = grade(inp.value, item.accept || [item.answer]);
+          const g = grade(inp.value, accepted(item));
           inp.classList.add(g); inp.readOnly = true; $("#check").disabled = true;
           hideKeypad();
           record(g, inp.value);
