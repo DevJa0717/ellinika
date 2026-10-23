@@ -4,7 +4,7 @@
    - Lessons, data and photos live in a cache that survives app updates; each file is re-checked in the background,
      big word lists at most twice a day so the phone does not re-download megabytes on every launch.
    Bump CACHE whenever app.css/app.js/any script changes (with the ?v= in index.html). */
-const CACHE = "ellinika-v55";
+const CACHE = "ellinika-v56";
 const DATA = "ellinika-data";
 const FONTS = "ellinika-fonts";
 const SHELL = ["design-refresh.css", "design-refresh.js", "./", "index.html", "app.css", "profiles.js", "lookup.js", "lookup-worker.js", "dictation-utils.js", "library.js", "learning-tools.js", "app.js", "manifest.webmanifest",
@@ -60,6 +60,8 @@ self.addEventListener("fetch", (e) => {
     return;
   }
   if (url.origin !== location.origin) return;
+  // Downloads (textbook PDFs and their index) go straight to the network and are never saved as the app page.
+  if (url.pathname.includes("/downloads/")) return;
 
   if (req.mode === "navigate") {
     e.respondWith(caches.open(CACHE).then(async (c) => {
