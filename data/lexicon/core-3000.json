@@ -3284,7 +3284,7 @@
   "translit": "parti",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "party",
   "example": {
    "el": "Θα κάνουμε πάρτι το Σάββατο βράδυ.",
@@ -5510,7 +5510,7 @@
   "translit": "seks",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "sex",
   "example": {
    "el": "Η ταινία έχει πολύ σεξ και βία.",
@@ -15709,7 +15709,7 @@
   "translit": "genethlia",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: γενεθλίων | n (2nd decl)",
+  "form_key": "Gen: γενεθλίων | n pl (2nd decl)",
   "gloss": "birthday",
   "example": {
    "el": "Τι θα κάνεις για τα γενέθλιά σου;",
@@ -20781,7 +20781,7 @@
   "translit": "metrita",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: μετρητών | n (2nd decl)",
+  "form_key": "Gen: μετρητών | n pl (2nd decl)",
   "gloss": "cash",
   "example": {
    "el": "Πληρώνετε με κάρτα ή με μετρητά;",
@@ -30147,7 +30147,7 @@
   "translit": "mesanichta",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: μεσανύχτων | n (2nd decl)",
+  "form_key": "Gen: μεσανύχτων | n pl (2nd decl)",
   "gloss": "midnight",
   "example": {
    "el": "Γυρίσαμε σπίτι μετά τα μεσάνυχτα.",
@@ -32240,7 +32240,7 @@
   "translit": "psonia",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: ψωνιών | n (2nd decl)",
+  "form_key": "Gen: ψωνιών | n pl (2nd decl)",
   "gloss": "shopping; groceries",
   "example": {
    "el": "Το Σάββατο πάω για ψώνια με τη μαμά μου.",
@@ -45244,7 +45244,7 @@
   "translit": "apecho",
   "pos": "verb",
   "pos_raw": "Verb",
-  "form_key": "Pres: απέχω | Aor: απείχα",
+  "form_key": "Pres: απέχω | Impf: απείχα (no aor)",
   "gloss": "to be (a distance) away; to abstain",
   "example": {
    "el": "Η παραλία απέχει δέκα λεπτά από εδώ.",
@@ -45252,8 +45252,10 @@
   },
   "verb": {
    "present_1sg": "απέχω",
-   "aorist_1sg": "απείχα",
-   "conj_group": "A"
+   "aorist_1sg": null,
+   "conj_group": "A",
+   "imperfect_1sg": "απείχα",
+   "note": "no aorist; past: απείχα (imperfect only)"
   },
   "cefr_est": "B1",
   "freq_count": 4210,
@@ -47376,7 +47378,7 @@
   "translit": "kari",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "curry",
   "example": {
    "el": "Μου αρέσει πολύ το κοτόπουλο με κάρι.",
@@ -48885,7 +48887,7 @@
   "translit": "poker",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "poker",
   "example": {
    "el": "Κάθε Παρασκευή παίζουν πόκερ με τους φίλους τους.",
@@ -51060,7 +51062,7 @@
   "translit": "piromachika",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: πυρομαχικών | n (2nd decl)",
+  "form_key": "Gen: πυρομαχικών | n pl (2nd decl)",
   "gloss": "ammunition",
   "example": {
    "el": "Ο στρατός έμεινε χωρίς πυρομαχικά.",
@@ -53317,7 +53319,7 @@
   "translit": "tsip",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "chip; microchip; (τσιπς) crisps",
   "example": {
    "el": "Το νέο κινητό έχει πολύ πιο γρήγορο τσιπ.",
@@ -56356,7 +56358,7 @@
   "translit": "bleksimo",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: μπλεξίματος | n (2nd decl)",
+  "form_key": "Gen: μπλεξίματος | n (3rd decl)",
   "gloss": "mess; entanglement; (pl.) trouble",
   "example": {
    "el": "Δεν θέλω άλλα μπλεξίματα με την αστυνομία.",
@@ -56365,7 +56367,7 @@
   "noun": {
    "gen_sg": "μπλεξίματος",
    "gender": "n",
-   "declension": 2,
+   "declension": 3,
    "model": "n-ιμο"
   },
   "cefr_est": "B2",
@@ -60177,7 +60179,7 @@
   "gloss": "(Pontic) what (= τι); (music) the note C, do",
   "example": {
    "el": "«Ντο εφτάς;» ρωτάει η γιαγιά από τον Πόντο.",
-   "en": "'How are you?' asks Grandma from Pontus."
+   "en": "'What are you doing?' (i.e. how are you?) asks Grandma from Pontus."
   },
   "cefr_est": "B2",
   "source": "Lesson vocabulary (word found in the app lessons); entry written by Claude",
@@ -60527,7 +60529,7 @@
   "translit": "pechnidaki",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: — | n (2nd decl)",
+  "form_key": "Gen: παιχνιδακιού | n (2nd decl)",
   "gloss": "little game; toy; piece of cake (easy)",
   "example": {
    "el": "Μην ανησυχείς, η εξέταση ήταν παιχνιδάκι.",
@@ -63096,7 +63098,7 @@
   "translit": "outos",
   "pos": "pronoun",
   "pos_raw": "Pron",
-  "form_key": "indecl",
+  "form_key": "f: αύτη, n: τούτο (archaic)",
   "gloss": "(archaic) this; he (demonstrative)",
   "example": {
    "el": "Ούτος ο άνθρωπος είναι ο δάσκαλός μου.",
@@ -66071,7 +66073,7 @@
   "translit": "spoudes",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: σπουδών | f (1st decl)",
+  "form_key": "Gen: σπουδών | f pl (1st decl)",
   "gloss": "studies (academic)",
   "example": {
    "el": "Τελείωσε τις σπουδές του στη Θεσσαλονίκη.",
@@ -66371,7 +66373,7 @@
   "pos": "noun",
   "pos_raw": "Noun",
   "form_key": "Gen: Άγγλου | m (2nd decl)",
-  "gloss": "Englishman; English person (Άγγλος στο ραντεβού = always punctual)",
+  "gloss": "Englishman; English person (Εγγλέζος στο ραντεβού = always punctual)",
   "example": {
    "el": "Ο καινούργιος μας γείτονας είναι Άγγλος.",
    "en": "Our new neighbour is English."
@@ -67718,7 +67720,7 @@
   "translit": "alfa",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "alpha (Greek letter)",
   "example": {
    "el": "Το άλφα είναι το πρώτο γράμμα του αλφαβήτου.",
@@ -67796,7 +67798,7 @@
   "translit": "kartel",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "cartel",
   "example": {
    "el": "Το καρτέλ ελέγχει όλο το λιμάνι.",
@@ -67963,7 +67965,7 @@
   "translit": "kragion",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "lipstick",
   "example": {
    "el": "Φόρεσε κόκκινο κραγιόν για το πάρτι.",
@@ -68592,7 +68594,7 @@
   "translit": "bol",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "bowl",
   "example": {
    "el": "Βάλε τη σαλάτα σε ένα μεγάλο μπολ.",
@@ -68641,7 +68643,7 @@
   "translit": "dimitriaka",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: δημητριακών | n (2nd decl)",
+  "form_key": "Gen: δημητριακών | n pl (2nd decl)",
   "gloss": "cereals; grains",
   "example": {
    "el": "Τρώω δημητριακά με γάλα για πρωινό.",
@@ -68812,7 +68814,7 @@
   "translit": "tzip",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "jeep, SUV",
   "example": {
    "el": "Νοικιάσαμε ένα τζιπ για τους χωματόδρομους της Κρήτης.",
@@ -69652,7 +69654,7 @@
   "translit": "tournoua",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "tournament",
   "example": {
    "el": "Η ομάδα μας κέρδισε το τουρνουά του σχολείου.",
@@ -80334,7 +80336,7 @@
   "translit": "chokei",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "hockey",
   "example": {
    "el": "Στην Ελλάδα το χόκεϊ δεν είναι πολύ δημοφιλές.",
@@ -80532,7 +80534,7 @@
   "translit": "faks",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "fax",
   "example": {
    "el": "Στείλτε μας την αίτηση με φαξ ή email.",
@@ -87572,7 +87574,7 @@
   "translit": "baza",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: μπάζων | n (2nd decl)",
+  "form_key": "Gen: μπάζων | n pl (2nd decl)",
   "gloss": "rubble; debris",
   "example": {
    "el": "Οι εργάτες καθάρισαν τα μπάζα από τον δρόμο.",
@@ -88470,7 +88472,7 @@
   "translit": "engenia",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: εγκαινίων | n (2nd decl)",
+  "form_key": "Gen: εγκαινίων | n pl (2nd decl)",
   "gloss": "opening; inauguration",
   "example": {
    "el": "Τα εγκαίνια του νέου μουσείου έγιναν χθες.",
@@ -96720,7 +96722,7 @@
   "translit": "ksimeromata",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: ξημερωμάτων | n (3rd decl)",
+  "form_key": "Gen: ξημερωμάτων | n pl (3rd decl)",
   "gloss": "the small hours; dawn",
   "example": {
    "el": "Γυρίσαμε από το πανηγύρι τα ξημερώματα.",
@@ -100562,7 +100564,7 @@
   "translit": "prothira",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: προθύρων | n (2nd decl)",
+  "form_key": "Gen: προθύρων | n pl (2nd decl)",
   "gloss": "threshold, brink (στα πρόθυρα + gen. = on the verge of)",
   "example": {
    "el": "Η εταιρεία βρίσκεται στα πρόθυρα της χρεοκοπίας.",
@@ -105460,7 +105462,7 @@
   "translit": "desma",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: δεσμών | n (2nd decl)",
+  "form_key": "Gen: δεσμών | n pl (2nd decl)",
   "gloss": "chains; shackles; bonds",
   "example": {
    "el": "Έσπασε τα δεσμά του και ελευθερώθηκε.",
@@ -109231,7 +109233,7 @@
   "translit": "inia",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: ηνίων | n (2nd decl)",
+  "form_key": "Gen: ηνίων | n pl (2nd decl)",
   "gloss": "reins (παίρνω τα ηνία = to take control)",
   "example": {
    "el": "Η κόρη του πήρε τα ηνία της επιχείρησης.",
@@ -109255,7 +109257,7 @@
   "translit": "opisthia",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: οπισθίων | n (2nd decl)",
+  "form_key": "Gen: οπισθίων | n pl (2nd decl)",
   "gloss": "(formal, euphemistic) backside, bottom, buttocks",
   "example": {
    "el": "Έπεσε από τη σκάλα πάνω στα οπίσθιά του.",
@@ -116311,7 +116313,7 @@
   "translit": "petherika",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: πεθερικών | n (2nd decl)",
+  "form_key": "Gen: πεθερικών | n pl (2nd decl)",
   "gloss": "in-laws (one's spouse's parents)",
   "example": {
    "el": "Την Κυριακή τρώμε στα πεθερικά μου.",
@@ -116358,7 +116360,7 @@
   "translit": "geramata",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: γεραμάτων | n (3rd decl)",
+  "form_key": "Gen: γεραμάτων | n pl (3rd decl)",
   "gloss": "old age",
   "example": {
    "el": "Θέλει να περάσει τα γεράματά του σε ένα νησί.",
@@ -118146,7 +118148,7 @@
   "translit": "eksper",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | common",
   "gloss": "expert",
   "example": {
    "el": "Ο θείος μου είναι εξπέρ στα κρασιά.",
@@ -122531,7 +122533,7 @@
   "translit": "ekklisaki",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: — | n (2nd decl)",
+  "form_key": "Gen: εκκλησακιού | n (2nd decl)",
   "gloss": "small (country) chapel",
   "example": {
    "el": "Στην κορυφή του λόφου υπάρχει ένα άσπρο εκκλησάκι.",
@@ -123612,7 +123614,7 @@
   "translit": "souvlaki",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: — | n (2nd decl)",
+  "form_key": "Gen: σουβλακιού | n (2nd decl)",
   "gloss": "souvlaki (grilled meat on a skewer, or in pitta)",
   "example": {
    "el": "Πάμε για ένα σουβλάκι μετά το σινεμά;",
@@ -124427,7 +124429,7 @@
   "translit": "isagogika",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: εισαγωγικών | n (2nd decl)",
+  "form_key": "Gen: εισαγωγικών | n pl (2nd decl)",
   "gloss": "quotation marks, inverted commas",
   "example": {
    "el": "Βάλε τη φράση σε εισαγωγικά.",
@@ -139101,7 +139103,7 @@
   "translit": "aposiopitika",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: αποσιωπητικών | n (2nd decl)",
+  "form_key": "Gen: αποσιωπητικών | n pl (2nd decl)",
   "gloss": "ellipsis, suspension points (…)",
   "example": {
    "el": "Η πρόταση τελειώνει με αποσιωπητικά.",
@@ -140996,7 +140998,7 @@
   "translit": "frangochiotika",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: φραγκοχιώτικων | n (2nd decl)",
+  "form_key": "Gen: φραγκοχιώτικων | n pl (2nd decl)",
   "gloss": "(old joke) Greek written in Latin letters, Greeklish; Frankochiotika (Chios Catholics' Greek in Latin script)",
   "example": {
    "el": "Ο παππούς έλεγε τα γκρίκλις «φραγκοχιώτικα».",
@@ -153782,7 +153784,7 @@
   "translit": "mourmourika",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "Gen: μουρμούρικων | n (2nd decl)",
+  "form_key": "Gen: μουρμούρικων | n pl (2nd decl)",
   "gloss": "murmourika (earliest underworld songs, precursors of rebetiko)",
   "example": {
    "el": "Τα μουρμούρικα τραγουδιούνταν στις φυλακές.",
@@ -171725,7 +171727,7 @@
   "translit": "kresendo",
   "pos": "noun",
   "pos_raw": "Noun",
-  "form_key": "indecl",
+  "form_key": "indecl | n",
   "gloss": "crescendo; climax",
   "example": {
    "el": "Η συναυλία τελείωσε με ένα εντυπωσιακό κρεσέντο.",
