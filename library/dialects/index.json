@@ -1,0 +1,433 @@
+{
+  "intro": "Every Greek you will meet speaks Standard Modern Greek (**κοινή νεοελληνική**), but almost every region once had, and many still have, its own way of speaking. These pages take each dialect in turn: where it is spoken, how it sounds, how its grammar and words differ from the standard, and which events in Greek history (the Hellenistic **Κοινή**, Byzantine frontiers, Venetian and Ottoman rule, the population exchange of 1923) explain the differences. Start with the two overview pages, then read the dialects in any order. Tap any Greek word for its meaning; dialect forms carry their own glosses.",
+  "mapCaption": "Traditional dialect areas around 1900, before the population movements of the early 20th century. Dots mark representative places, not borders. Tap a dot to open its page. Coastlines from Natural Earth (public domain).",
+  "groups": [
+    {
+      "id": "start",
+      "en": "Start here: history and classification",
+      "color": "#cfd8dc"
+    },
+    {
+      "id": "outlying",
+      "en": "Outlying dialects, hard for other Greeks to follow",
+      "color": "#e8836a"
+    },
+    {
+      "id": "southeast",
+      "en": "South-eastern dialects: Cyprus, Dodecanese, Chios",
+      "color": "#f2c14e"
+    },
+    {
+      "id": "southern",
+      "en": "Southern dialects: Crete and the Cyclades",
+      "color": "#7fcf9f"
+    },
+    {
+      "id": "central",
+      "en": "Central dialects: Peloponnese and the Ionian Islands",
+      "color": "#8fc4ff"
+    },
+    {
+      "id": "northern",
+      "en": "Northern dialects",
+      "color": "#c39bf0"
+    },
+    {
+      "id": "relic",
+      "en": "Relic dialects: Old Athenian and Mani",
+      "color": "#f59ab8"
+    }
+  ],
+  "items": [
+    {
+      "id": "history",
+      "file": "history.json",
+      "group": "start",
+      "el": "Από την Κοινή στις διαλέκτους",
+      "title": "History: how one ancient Koine became many modern dialects"
+    },
+    {
+      "id": "classification",
+      "file": "classification.json",
+      "group": "start",
+      "el": "Ο χάρτης των διαλέκτων",
+      "title": "Classification: the six features that divide the dialect map"
+    },
+    {
+      "id": "pontic",
+      "file": "pontic.json",
+      "group": "outlying",
+      "el": "Ποντιακά",
+      "title": "Pontic Greek (Romeyka): the Black Sea dialect"
+    },
+    {
+      "id": "cappadocian",
+      "file": "cappadocian.json",
+      "group": "outlying",
+      "el": "Καππαδοκικά",
+      "title": "Cappadocian Greek, with Pharasa and Sille: Greek under Turkish influence"
+    },
+    {
+      "id": "tsakonian",
+      "file": "tsakonian.json",
+      "group": "outlying",
+      "el": "Τσακώνικα",
+      "title": "Tsakonian: the one living descendant of a Doric dialect"
+    },
+    {
+      "id": "italiot",
+      "file": "italiot.json",
+      "group": "outlying",
+      "el": "Κατωιταλιώτικα",
+      "title": "Griko and Greko: the Greek of southern Italy"
+    },
+    {
+      "id": "cypriot",
+      "file": "cypriot.json",
+      "group": "southeast",
+      "el": "Κυπριακά",
+      "title": "Cypriot Greek: the dialect that is still everyone's everyday language"
+    },
+    {
+      "id": "dodecanese",
+      "file": "dodecanese.json",
+      "group": "southeast",
+      "el": "Δωδεκανησιακά και Χιώτικα",
+      "title": "The Dodecanese, Chios and Ikaria: final -ν and double consonants"
+    },
+    {
+      "id": "cretan",
+      "file": "cretan.json",
+      "group": "southern",
+      "el": "Κρητικά",
+      "title": "Cretan Greek, with Kythera, Santorini and Milos"
+    },
+    {
+      "id": "cyclades",
+      "file": "cyclades.json",
+      "group": "southern",
+      "el": "Κυκλαδίτικα",
+      "title": "The Cyclades: tsitakismos and an island-by-island mosaic"
+    },
+    {
+      "id": "central",
+      "file": "central.json",
+      "group": "central",
+      "el": "Πελοποννησιακά και Επτανησιακά",
+      "title": "The Peloponnese and the Ionian Islands: the dialects closest to the standard"
+    },
+    {
+      "id": "northern",
+      "file": "northern.json",
+      "group": "northern",
+      "el": "Βόρεια ιδιώματα",
+      "title": "Northern dialects: lost vowels, dark l, and «σε λέω»"
+    },
+    {
+      "id": "relic",
+      "file": "relic.json",
+      "group": "relic",
+      "el": "Παλαιοαθηναϊκά και Μανιάτικα",
+      "title": "Old Athenian, Megara, Aegina, Kymi and Mani: the «ου» dialects"
+    }
+  ],
+  "markers": [
+    {
+      "id": "trabzon",
+      "label": "Pontus",
+      "name": "Trebizond (Trabzon) and the Pontic coast",
+      "lon": 39.72,
+      "lat": 41.0,
+      "group": "outlying",
+      "doc": "pontic",
+      "dx": -9
+    },
+    {
+      "id": "of",
+      "label": "",
+      "name": "Of valley (Romeyka still spoken)",
+      "lon": 40.27,
+      "lat": 40.95,
+      "group": "outlying",
+      "doc": "pontic"
+    },
+    {
+      "id": "mariupol",
+      "label": "Mariupol",
+      "name": "Mariupol (Rumeika, from Crimean Greek)",
+      "lon": 37.55,
+      "lat": 47.1,
+      "group": "outlying",
+      "doc": "pontic"
+    },
+    {
+      "id": "misti",
+      "label": "Cappadocia",
+      "name": "Mistí and the Cappadocian villages",
+      "lon": 34.6,
+      "lat": 38.15,
+      "group": "outlying",
+      "doc": "cappadocian",
+      "dy": -8,
+      "dx": -9
+    },
+    {
+      "id": "pharasa",
+      "label": "Pharasa",
+      "name": "Pharasa (Çamlıca)",
+      "lon": 35.6,
+      "lat": 38.0,
+      "group": "outlying",
+      "doc": "cappadocian",
+      "dy": 16
+    },
+    {
+      "id": "sille",
+      "label": "Sille",
+      "name": "Sille near Konya (Iconium)",
+      "lon": 32.43,
+      "lat": 37.93,
+      "group": "outlying",
+      "doc": "cappadocian",
+      "dx": -9
+    },
+    {
+      "id": "leonidio",
+      "label": "Tsakonia",
+      "name": "Leonidio and the Tsakonian villages",
+      "lon": 22.86,
+      "lat": 37.17,
+      "group": "outlying",
+      "doc": "tsakonian",
+      "dy": -6
+    },
+    {
+      "id": "calimera",
+      "label": "Grecìa Salentina",
+      "name": "Calimera and the Griko villages of Salento",
+      "lon": 18.28,
+      "lat": 40.25,
+      "group": "outlying",
+      "doc": "italiot",
+      "dx": -9,
+      "dy": -8
+    },
+    {
+      "id": "bova",
+      "label": "Bova",
+      "name": "Bova and the Greko villages of Calabria",
+      "lon": 15.92,
+      "lat": 37.99,
+      "group": "outlying",
+      "doc": "italiot",
+      "dx": -9,
+      "dy": -8
+    },
+    {
+      "id": "nicosia",
+      "label": "Cyprus",
+      "name": "Cyprus (Nicosia)",
+      "lon": 33.36,
+      "lat": 35.17,
+      "group": "southeast",
+      "doc": "cypriot"
+    },
+    {
+      "id": "rhodes",
+      "label": "Rhodes",
+      "name": "Rhodes",
+      "lon": 28.0,
+      "lat": 36.3,
+      "group": "southeast",
+      "doc": "dodecanese",
+      "dx": -9
+    },
+    {
+      "id": "karpathos",
+      "label": "",
+      "name": "Karpathos",
+      "lon": 27.15,
+      "lat": 35.6,
+      "group": "southeast",
+      "doc": "dodecanese"
+    },
+    {
+      "id": "kalymnos",
+      "label": "",
+      "name": "Kalymnos",
+      "lon": 26.98,
+      "lat": 36.98,
+      "group": "southeast",
+      "doc": "dodecanese"
+    },
+    {
+      "id": "chios",
+      "label": "",
+      "name": "Chios",
+      "lon": 26.0,
+      "lat": 38.37,
+      "group": "southeast",
+      "doc": "dodecanese"
+    },
+    {
+      "id": "crete",
+      "label": "Crete",
+      "name": "Crete",
+      "lon": 24.9,
+      "lat": 35.25,
+      "group": "southern",
+      "doc": "cretan",
+      "dx": -9,
+      "dy": -8
+    },
+    {
+      "id": "santorini",
+      "label": "",
+      "name": "Santorini (Thira)",
+      "lon": 25.43,
+      "lat": 36.4,
+      "group": "southern",
+      "doc": "cretan"
+    },
+    {
+      "id": "naxos",
+      "label": "Cyclades",
+      "name": "Naxos and the Cyclades",
+      "lon": 25.4,
+      "lat": 37.08,
+      "group": "southern",
+      "doc": "cyclades",
+      "dx": -9,
+      "dy": 16
+    },
+    {
+      "id": "tripoli",
+      "label": "Peloponnese",
+      "name": "The Peloponnese (Tripoli)",
+      "lon": 22.2,
+      "lat": 37.6,
+      "group": "central",
+      "doc": "central",
+      "dx": -9,
+      "dy": 16
+    },
+    {
+      "id": "corfu",
+      "label": "Corfu",
+      "name": "Corfu",
+      "lon": 19.92,
+      "lat": 39.62,
+      "group": "central",
+      "doc": "central",
+      "dx": -9
+    },
+    {
+      "id": "zakynthos",
+      "label": "Ionian",
+      "name": "Zakynthos and Kefalonia",
+      "lon": 20.85,
+      "lat": 37.78,
+      "group": "central",
+      "doc": "central",
+      "dx": -9,
+      "dy": -8
+    },
+    {
+      "id": "thessaloniki",
+      "label": "Macedonia",
+      "name": "Macedonia (Thessaloniki, Kozani)",
+      "lon": 22.4,
+      "lat": 40.6,
+      "group": "northern",
+      "doc": "northern",
+      "dx": -9
+    },
+    {
+      "id": "ioannina",
+      "label": "Epirus",
+      "name": "Epirus (Ioannina)",
+      "lon": 20.85,
+      "lat": 39.66,
+      "group": "northern",
+      "doc": "northern",
+      "dy": -8
+    },
+    {
+      "id": "larissa",
+      "label": "Thessaly",
+      "name": "Thessaly (Larissa)",
+      "lon": 22.42,
+      "lat": 39.64,
+      "group": "northern",
+      "doc": "northern"
+    },
+    {
+      "id": "lesbos",
+      "label": "Lesbos",
+      "name": "Lesbos",
+      "lon": 26.3,
+      "lat": 39.2,
+      "group": "northern",
+      "doc": "northern",
+      "dx": -9
+    },
+    {
+      "id": "samos",
+      "label": "",
+      "name": "Samos",
+      "lon": 26.8,
+      "lat": 37.73,
+      "group": "northern",
+      "doc": "northern"
+    },
+    {
+      "id": "athens",
+      "label": "Athens",
+      "name": "Athens, Megara and Aegina (Old Athenian)",
+      "lon": 23.73,
+      "lat": 37.98,
+      "group": "relic",
+      "doc": "relic",
+      "dy": -8,
+      "dx": -9
+    },
+    {
+      "id": "kymi",
+      "label": "Kymi",
+      "name": "Kymi in Euboea",
+      "lon": 24.1,
+      "lat": 38.63,
+      "group": "relic",
+      "doc": "relic"
+    },
+    {
+      "id": "mani",
+      "label": "Mani",
+      "name": "Mani (Areopoli)",
+      "lon": 22.38,
+      "lat": 36.67,
+      "group": "relic",
+      "doc": "relic",
+      "dx": -9
+    },
+    {
+      "id": "smyrna",
+      "label": "Smyrna",
+      "name": "Smyrna (İzmir), until 1922",
+      "lon": 27.14,
+      "lat": 38.42,
+      "group": "start",
+      "doc": "history",
+      "dy": -8
+    },
+    {
+      "id": "constantinople",
+      "label": "Constantinople",
+      "name": "Constantinople (Istanbul)",
+      "lon": 28.98,
+      "lat": 41.01,
+      "group": "start",
+      "doc": "history"
+    }
+  ]
+}

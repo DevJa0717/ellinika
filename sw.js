@@ -7,7 +7,7 @@
 const CACHE = "ellinika-v58";
 const DATA = "ellinika-data";
 const FONTS = "ellinika-fonts";
-const SHELL = ["design-refresh.css", "design-refresh.js", "./", "index.html", "app.css", "profiles.js", "lookup.js", "lookup-worker.js", "dictation-utils.js", "library.js", "learning-tools.js", "grammar-guides.js", "app.js", "manifest.webmanifest",
+const SHELL = ["design-refresh.css", "design-refresh.js", "./", "index.html", "app.css", "profiles.js", "lookup.js", "lookup-worker.js", "dictation-utils.js", "library.js", "learning-tools.js", "grammar-guides.js", "dialects.js", "app.js", "manifest.webmanifest",
   "icons/icon-192.png", "icons/apple-touch-icon.png"];
 const PAGE_WAIT = 3500;            // ms before a slow network gives way to the saved page
 const BIG = 300 * 1024, BIG_AGE = 12 * 36e5;

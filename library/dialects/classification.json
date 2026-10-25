@@ -1,0 +1,145 @@
+{
+  "id": "classification",
+  "el": "Ο χάρτης των διαλέκτων",
+  "title": "Classification: the six features that divide the dialect map",
+  "status": "Overview",
+  "lead": "There is no single official map of Greek dialects, and Greek dialectology has never had a national atlas. The most widely used classification today is Peter Trudgill's (2003), built on the work of Nikolaos Kontosopoulos and Brian Newton. It sorts the traditional dialects of about 1820–1920, the period before the population movements, by six features you can actually hear. Learn these six and you can place most Greek accents on the map.",
+  "facts": [
+    ["Main split", "**North vs south**, first noticed by Georgios Hatzidakis in the 1890s: the north drops unstressed **ι, ου** and raises unstressed **ε, ο**; the south keeps all five vowels."],
+    ["A second split", "**«τι» Greece vs «είντα» Greece** (Kontosopoulos): most Aegean islands, Crete and Cyprus say **ίντα/είντα** for 'what?'."],
+    ["Outside the map", "Pontic, Cappadocian, Tsakonian and Italiot Greek are so different that they are treated separately, as **διάλεκτοι** in the strict sense."],
+    ["No local dialect", "Attica, Boeotia and much of the north-east Peloponnese were largely Arvanite (Albanian-speaking) until the 19th–20th c.; their Greek today is near-standard."]
+  ],
+  "markers": ["thessaloniki", "ioannina", "larissa", "lesbos", "samos", "tripoli", "corfu", "zakynthos", "crete", "santorini", "naxos", "nicosia", "rhodes", "karpathos", "kalymnos", "chios", "athens", "kymi", "mani", "leonidio", "smyrna"],
+  "sections": [
+    {
+      "h": "Feature 1: northern vocalism (high vowel loss)",
+      "el": "Βόρειος φωνηεντισμός",
+      "text": "In the north, unstressed **ι** and **ου** disappear and unstressed **ε** and **ο** are raised to **ι** and **ου**. A standard word like **παιδί** becomes **πιδί**, **χωράφι** becomes **χουράφ'**, and Thessaloniki sounds like *Θισαλουνίκ'*. Kontosopoulos distinguishes three degrees: **extreme northern** (both changes everywhere), **northern** (raising everywhere, deletion only at the end of words) and **semi-northern** (only final **ι, ου** deleted, no raising: Lefkada, Mykonos, Skyros, Kastoria, Constantinople).",
+      "examples": [
+        { "el": "σκλι", "std": "σκυλί", "en": "dog: unstressed υ [i] deleted" },
+        { "el": "πιδί", "std": "παιδί", "en": "child: unstressed αι [e] raised to [i]" },
+        { "el": "χουράφ'", "std": "χωράφι", "en": "field: ω [o] raised to [u], final ι lost" }
+      ]
+    },
+    {
+      "h": "Feature 2: ancient υ pronounced [u]",
+      "el": "Το υ ως ου",
+      "text": "Everywhere else ancient **υ** and **οι** became [i]. A few areas have [u] instead, as in **ξούλο** for **ξύλο**, **γουναίκα** for **γυναίκα**. They are Tsakonian, Mani, and four extinct 'oasis' dialects inside the old Arvanite area: Old Athenian, Megara, Aegina and Kymi. Trudgill's conclusion: these four are the last fragments of one large dialect area that was split apart when Albanian-speaking settlers moved in."
+    },
+    {
+      "h": "Feature 3: palatalisation of velars",
+      "el": "Ουράνωση των υπερωικών",
+      "text": "All Greek fronts **κ, γ, χ** before **ε, ι** (standard **και** is [ce], not [ke]). In the south this goes much further, to *ch*- and *sh*-like sounds: **και** [tʃe] or [tɕe], **χέρι** [ʃeri]. Cyprus has the palato-alveolar [tʃ, ʃ]; Crete has the softer alveolo-palatal [tɕ, ɕ]. The area: Crete, Mani, Kythera, Santorini, Milos and other southern islands, much of the Dodecanese, Cyprus, and Kymi in Euboea."
+    },
+    {
+      "h": "Feature 4: tsitakismos",
+      "el": "Τσιτακισμός",
+      "text": "Just north of the palatalisation zone, **κ** before **ε, ι** went all the way to **τσ** [ts], so that it merged with the old τσ: **τσαι** for **και**, **τσεφάλι** for **κεφάλι**. This is the classic sound of most of the **Cyclades**, and it was shared by Old Athenian, Megara and Aegina.",
+      "examples": [
+        { "el": "αυλάτσι, τσέρατο", "std": "αυλάκι, κέρατο", "en": "furrow, horn (Cyclades)" }
+      ]
+    },
+    {
+      "h": "Feature 5: double consonants",
+      "el": "Τα διπλά σύμφωνα",
+      "text": "Standard Greek writes **λλ, μμ, ττ** but pronounces them single. The south-east keeps them long, as in Ancient Greek, and even creates new ones, including at the start of words. In Cypriot **φύλλα** 'leaves' and **φίλα** 'kiss!' differ only in the length of λ; **ναι** 'yes' is said [nːe]. Long **ππ, ττ, κκ** are heard as aspirated: **κόκκαλον** [kókʰalon]."
+    },
+    {
+      "h": "Feature 6: final -ν kept",
+      "el": "Το τελικό -ν",
+      "text": "The standard has lost the final **-ν** of many ancient endings (**είπε, τυρί**). The south-east keeps it, and adds it by analogy: **είπεν, τυρίν, χαρτίν, βουνόν**. Before another consonant it often assimilates and produces a new double consonant: **τον λαό** → [tolːaón]."
+    },
+    {
+      "h": "Fourteen areas",
+      "el": "Δεκατέσσερις περιοχές",
+      "text": "Combining the six features, Trudgill divides the dialect-speaking area of about 1900 into fourteen areas. A ✓ means the feature is typical of the area.",
+      "table": {
+        "head": ["Area", "Northern vowels", "υ as [u]", "Velar palatalisation", "Tsitakismos", "Double consonants", "Final -ν"],
+        "rows": [
+          ["1 Central: Peloponnese, W Epirus, Corfu, Kefalonia, Zakynthos", "–", "–", "–", "–", "–", "–"],
+          ["2 Northern: mainland north, Lefkada, N Euboea, Lesbos, Lemnos, Thasos, Sporades…", "✓", "–", "–", "–", "–", "–"],
+          ["2a Samos", "✓", "–", "–", "–", "–", "–"],
+          ["3 Mani", "–", "✓", "✓", "–", "–", "–"],
+          ["4 Tsakonian", "–", "✓", "(own system)", "(own system)", "–", "–"],
+          ["5 Old Athenian: Athens, Megara, Aegina", "–", "✓", "–", "✓", "–", "–"],
+          ["6 Kymi", "–", "✓", "✓", "–", "–", "–"],
+          ["7 Southern: Crete, Kythera, Santorini, probably Milos, Anafi", "–", "–", "✓", "–", "–", "–"],
+          ["8 South-eastern: Cyprus, Rhodes, Karpathos, Kasos, Kastellorizo, Kos, Leros, Patmos", "–", "–", "✓", "–", "✓", "✓"],
+          ["9 Eastern: Symi, Tilos, Nisyros, Kalymnos, Astypalaia, Ikaria, Chios", "–", "–", "–", "–", "✓", "✓"],
+          ["10 Smyrna", "–", "–", "–", "–", "–", "–"],
+          ["11 Central Cyclades: Amorgos, Irakleia, Schinoussa, Koufonisia, Donoussa", "–", "–", "–", "✓", "✓", "✓"],
+          ["12 Western Cyclades: Sifnos, Kimolos, Serifos", "–", "–", "✓", "–", "✓", "–"],
+          ["13 Mykonos", "✓ (semi)", "–", "–", "✓", "–", "–"],
+          ["14 Northern Cyclades: Andros, Tinos, Kea, Kythnos, Syros, Naxos, Paros, Ios, Folegandros…", "–", "–", "–", "✓", "–", "–"]
+        ],
+        "wrap": true
+      },
+      "after": "Area 1, with none of the six features, is where the base of the standard language lies (see the Peloponnese–Ionian page). Smyrna (area 10) had its own peculiarities, but none of these six."
+    },
+    {
+      "h": "Other features worth knowing",
+      "el": "Άλλα γνωρίσματα",
+      "notes": [
+        "**«ίντα» for «τι»** in most Aegean islands (not Rhodes, Lemnos, Thasos, the Sporades or Andros), Crete and Cyprus; Pontic has **ντο**.",
+        "**Indirect objects in the accusative** in the north (and in Constantinople, Smyrna, Rhodes and Inner Mani): **σε λέω** for **σου λέω**, **τον έδωσα** for **του έδωσα**. The south uses the genitive, like the standard.",
+        "**Dark λ** [ɫ] before **α, ο, ου** in Macedonia, Epirus and other northern areas.",
+        "**Loss of γ, δ, β between vowels** in many Aegean islands, especially the Dodecanese and Cyclades: **μεάλο** for **μεγάλο**, **πρόατο** for **πρόβατο**.",
+        "**No synizesis**: in Pontic, Griko, Old Athenian and some southern areas, **-ία, -έα** stay two syllables: **παιδία, φωλέα** for **παιδιά, φωλιά**.",
+        "**Clitics after the verb** (**θωρώ σε, είπα σου**) in Crete, Cyprus, the Cyclades, Pontic and Cappadocian, where the standard puts them before (**σε βλέπω, σου είπα**)."
+      ]
+    },
+    {
+      "h": "Greek outside the map",
+      "el": "Ελληνικά εκτός χάρτη",
+      "text": "Besides the four outlying dialects with their own pages, Greek has been spoken in many smaller enclaves: **Cargèse** in Corsica (descendants of settlers from Mani who reached Corsica in 1676; the dialect died out in the 20th century), Greek-speaking Muslims of Cretan origin in **al-Hamidiyah** (Syria) and Lebanon, the Romaniote Jews' **Yevanic** (Judeo-Greek), and the Greek of the diaspora in Australia, the United States and Germany, now with its own loanwords (in Australia **το κάρο, το φλόρι, η μπάνκα, το μπούκο** for car, floor, bank, book)."
+    }
+  ],
+  "questions": [
+    { "q": "A speaker says **πιδί** and **χουράφ'**. Which area are they most likely from?", "options": ["Crete", "Macedonia or Thessaly", "Cyprus"], "answer": "Macedonia or Thessaly", "why": "Raising unstressed ε, ο to ι, ου and dropping final ι are northern vocalism." },
+    { "q": "Which feature unites Old Athenian, Mani and Tsakonian?", "options": ["Final -ν", "υ pronounced [u]", "Northern vowels"], "answer": "υ pronounced [u]", "why": "ξούλο for ξύλο: a relic feature of areas cut apart by later Arvanite settlement." },
+    { "q": "**τσαι** for **και** with a plain [ts] sound is called…", "options": ["tsitakismos", "gemination", "synizesis"], "answer": "tsitakismos", "why": "κ before ε, ι > τσ: typical of the Cyclades." },
+    { "q": "Which area has double consonants **and** final -ν **and** velar palatalisation?", "options": ["South-eastern (Cyprus, Rhodes, Karpathos…)", "Central (Peloponnese)", "Northern Cyclades"], "answer": "South-eastern (Cyprus, Rhodes, Karpathos…)", "why": "Trudgill's area 8 has all three." }
+  ],
+  "gloss": {
+    "σκλι": "σκλι (northern) — dog = σκυλί",
+    "πιδί": "πιδί (northern) — child = παιδί",
+    "χουράφ'": "χουράφ' (northern) — field = χωράφι",
+    "ξούλο": "ξούλο (Mani, Old Athenian) — wood = ξύλο",
+    "γουναίκα": "γουναίκα (Mani, Old Athenian, Tsakonian) — woman = γυναίκα",
+    "τσαι": "τσαι (Cyclades, Crete) — and = και",
+    "τσεφάλι": "τσεφάλι (Cyclades) — head = κεφάλι",
+    "αυλάτσι": "αυλάτσι (Cyclades) — furrow = αυλάκι",
+    "τσέρατο": "τσέρατο (Cyclades) — horn = κέρατο",
+    "κόκκαλον": "κόκκαλον (Cypriot) — bone = κόκαλο",
+    "είπεν": "είπεν (south-east) — he/she said = είπε",
+    "τυρίν": "τυρίν (south-east) — cheese = τυρί",
+    "χαρτίν": "χαρτίν (south-east) — paper = χαρτί",
+    "βουνόν": "βουνόν (Cypriot) — mountain = βουνό",
+    "ίντα": "ίντα (Aegean, Crete, Cyprus) — what? = τι",
+    "ντο": "ντο (Pontic) — what? = τι",
+    "μεάλο": "μεάλο (Aegean islands) — big = μεγάλο",
+    "πρόατο": "πρόατο (Dodecanese) — sheep = πρόβατο",
+    "παιδία": "παιδία (dialects without synizesis) — children = παιδιά",
+    "φωλέα": "φωλέα (dialects without synizesis) — nest = φωλιά",
+    "θωρώ": "θωρώ (Crete, Cyprus) — I see = βλέπω",
+    "μπάνκα": "μπάνκα (Greek-Australian) — bank = τράπεζα",
+    "μπούκο": "μπούκο (Greek-Australian) — book = βιβλίο",
+    "φλόρι": "φλόρι (Greek-Australian) — floor = πάτωμα",
+    "κάρο": "κάρο — cart (standard); car (Greek-Australian)"
+  },
+  "related": [
+    { "href": "#dialects.northern", "label": "Northern dialects in detail" },
+    { "href": "#dialects.cypriot", "label": "Cypriot: double consonants and final -ν" }
+  ],
+  "sources": [
+    { "label": "Trudgill, P. (2003). Modern Greek dialects: a preliminary classification. Journal of Greek Linguistics 4: 45–63; summary on the Portal for the Greek Language.", "url": "https://www.greek-language.gr/greekLang/modern_greek/studies/dialects/thema_a_1_1en/index.html" },
+    { "label": "Κοντοσόπουλος, Ν. Γ. (2000). Διάλεκτοι και ιδιώματα της νέας ελληνικής, 3rd ed. Athens: Grigoris." },
+    { "label": "Kontosopoulos, N. (1983–84). La Grèce du τι et la Grèce du ίντα. Glossologia 2–3: 149–162." },
+    { "label": "Newton, B. (1972). The Generative Interpretation of Dialect: A Study of Modern Greek Phonology. Cambridge: CUP." },
+    { "label": "Κατσώχης, Ν. Βόρειες διάλεκτοι. Portal for the Greek Language.", "url": "https://www.greek-language.gr/greekLang/modern_greek/studies/dialects/thema_b_2/index.html" },
+    { "label": "Wikipedia: Varieties of Modern Greek, section 'Core dialects' (CC BY-SA 4.0).", "url": "https://en.wikipedia.org/wiki/Varieties_of_Modern_Greek" },
+    { "label": "Wikipedia: Greek in Australia (CC BY-SA 4.0).", "url": "https://en.wikipedia.org/wiki/Greek_in_Australia" },
+    { "label": "Coastline data: Natural Earth 1:50m via world-atlas 2.0.2 (public domain).", "url": "https://www.naturalearthdata.com/" }
+  ]
+}
