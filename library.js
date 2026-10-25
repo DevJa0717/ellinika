@@ -1352,6 +1352,11 @@
       const L = await E.getJSON("library/listening/" + f).catch(() => null);
       if (L) for (const it of L.items) docs.push({ kind: "Listening", href: `#listening.${encodeURIComponent(it.id)}`, title: `${it.title} · ${it.title_en || ""}`, text: flat(it.script) });
     }
+    const pos = await E.getJSON("library/pos/index.json").catch(() => ({ items: [] }));
+    await Promise.all(pos.items.map(async (it) => {
+      const j = await E.getJSON(`library/pos/${it.file}`).catch(() => null); if (!j) return;
+      j.sections.forEach((s, i) => docs.push({ kind: "Grammar", href: `#pos.${it.id}~${i}`, title: `${s.el} · ${s.title}`, text: flat(s.body) }));
+    }));
     for (const d of docs) { d.text = d.text.replace(/\*\*|__|`/g, "").replace(/\s+/g, " "); d.bare = bare(d.text); }
     return docs;
   }
@@ -1360,7 +1365,7 @@
     document.title = "Search · Ελληνικά"; E.$("#bar-meta").textContent = "Search";
     E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Search</h2>
       <form class="answer-row" id="sr-form"><input id="sr-q" lang="el" placeholder="e.g. aorist, γενική, ο οποίος, rent" value="${E.esc(q)}" autocomplete="off"><button class="btn">Search</button></form>
-      <div id="sr-out">${q ? `<p class="loading">Searching…</p>` : `<p class="sub">Searches every lesson, story, news text, classic, workshop task, listening script and the phrasebook, in Greek or English, ignoring accents.</p>`}</div>`;
+      <div id="sr-out">${q ? `<p class="loading">Searching…</p>` : `<p class="sub">Searches every lesson, story, news text, classic, workshop task, listening script, grammar guide and the phrasebook, in Greek or English, ignoring accents.</p>`}</div>`;
     E.$("#sr-form").onsubmit = (e) => { e.preventDefault(); const v = E.$("#sr-q").value.trim(); if (v) location.hash = "search." + encodeURIComponent(v); };
     if (!q) return E.$("#sr-q").focus();
     searchIdx = searchIdx || (await buildSearch());
