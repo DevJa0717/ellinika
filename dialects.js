@@ -1,4 +1,4 @@
-/* Ελληνικά Dialects: one document per Modern Greek dialect, with a map, feature tables, sample texts and sources.
+/* Ελληνικά Dialects: one document per Modern Greek dialect, with a map, feature tables, sample texts, recordings and sources.
    Registers #dialects (the shelf, with the map) and #dialects.<id> in window.EllinikaAddons.
    Content is data: library/dialects/index.json lists the documents, the dialect groups and the map markers;
    library/dialects/map.json holds the coastline paths; each document is library/dialects/<id>.json. */
@@ -65,7 +65,17 @@
 .dl-yes { color: var(--good); font-weight: 600; }
 .dl-part { color: var(--warn); font-weight: 600; }
 .dl-no { color: var(--muted); }
-.dl-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }`;
+.dl-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+.dl-clip { display: grid; gap: 10px; padding-top: 14px; }
+.dl-clip + .dl-clip { border-top: 1px solid var(--line); margin-top: 14px; }
+.dl-clip h4 { margin: 0; font-size: 1.05rem; }
+.dl-clip .who { margin: 0; font-size: .92rem; color: var(--muted); }
+.dl-clip .sub-tr { font: 400 .9rem/1.4 var(--f-body); color: var(--muted); }
+.dl-clip .vctl { display: flex; flex-wrap: wrap; gap: 6px; }
+.dl-clip .transcript li { align-items: start; }
+.dl-clip .transcript .tr { display: block; font: 400 .84rem/1.35 var(--f-body); color: var(--muted); }
+.dl-clip .src { margin: 0; font-size: .8rem; color: var(--muted); }
+.dl-clip .lf { margin: 0; font-size: .9rem; }`;
   function style() { if (!document.getElementById("dl-css")) { const s = document.createElement("style"); s.id = "dl-css"; s.textContent = css; document.head.append(s); } }
 
   let idxP = null, mapP = null;
@@ -134,6 +144,52 @@
     window.scrollTo(0, 0);
   }
 
+  // Listen: dialect recordings played from YouTube (nothing stored), with subtitles synced by the embed's postMessage time.
+  // Each subtitle shows the Greek-script line (tappable), and on request VLACH's phonetic transcription and English.
+  const mmss = (t) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
+  function clipHTML(E, c) {
+    const cues = c.cues || [], start = Math.floor(cues[0]?.t || 0);
+    return `<div class="dl-clip" data-clip="${E.esc(c.id)}">
+      <h4>${c.el ? `<span lang="el">${E.esc(c.el)}</span> · ` : ""}<span class="no-look">${E.esc(c.title)}</span></h4>
+      ${c.who ? `<p class="who">${E.md(c.who)}</p>` : ""}
+      <div class="vframe"><iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(c.yt)}?enablejsapi=1&playsinline=1&rel=0${start ? `&start=${Math.max(0, start - 2)}` : ""}" title="${E.esc(c.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe></div>
+      ${cues.length ? `<div class="subs"><div class="sub-el" lang="el">&nbsp;</div><div class="sub-tr no-look" hidden></div><div class="sub-en no-look" hidden></div></div>
+      <div class="vctl"><button class="btn ghost small" data-act="en">English line</button><button class="btn ghost small" data-act="tr">VLACH transcription</button><button class="btn ghost small" data-act="list">Transcript</button></div>
+      <ol class="transcript" hidden>${cues.map((q, i) => `<li data-i="${i}"><button class="tc-time" data-i="${i}">${mmss(q.t)}</button><span><span lang="el">${E.esc(q.el)}</span><span class="tr no-look">${E.esc(q.tr || "")}</span><span class="tr no-look">${E.esc(q.en || "")}</span></span></li>`).join("")}</ol>` : ""}
+      ${c.listenFor ? `<p class="lf"><b>Listen for:</b> ${E.md(c.listenFor)}</p>` : ""}
+      ${c.note ? `<p class="who">${E.md(c.note)}</p>` : ""}
+      <p class="src no-look"><a href="https://www.youtube.com/watch?v=${encodeURIComponent(c.yt)}" target="_blank" rel="noopener">${E.esc(c.cite)}</a></p>
+    </div>`;
+  }
+  function wireClip(E, el, c) {
+    const cues = c.cues || [], frame = el.querySelector("iframe");
+    if (!cues.length || !frame) return;
+    const subEl = el.querySelector(".sub-el"), subTr = el.querySelector(".sub-tr"), subEn = el.querySelector(".sub-en");
+    let cur = -2;
+    const yt = (func, args = []) => frame.contentWindow?.postMessage(JSON.stringify({ event: "command", func, args }), "*");
+    const tick = (t) => {
+      const i = cues.findIndex((q) => t >= q.t && t < q.d);
+      if (i === cur) return; cur = i;
+      subEl.textContent = i >= 0 ? cues[i].el : " "; E.wrapGreek(subEl);
+      subTr.textContent = i >= 0 ? cues[i].tr || "" : "";
+      subEn.textContent = i >= 0 ? cues[i].en || "" : "";
+      el.querySelectorAll(".transcript li").forEach((li) => li.classList.toggle("on", +li.dataset.i === i));
+    };
+    const listen = () => frame.contentWindow?.postMessage(JSON.stringify({ event: "listening", id: c.id, channel: "widget" }), "*");
+    frame.addEventListener("load", () => { listen(); setTimeout(listen, 800); });
+    const onMsg = (e) => {
+      if (e.source !== frame.contentWindow) return;
+      try { const d = typeof e.data === "string" ? JSON.parse(e.data) : e.data; if (d?.info?.currentTime != null) tick(d.info.currentTime); } catch (err) { /* not ours */ }
+    };
+    window.addEventListener("message", onMsg);
+    const iv = setInterval(() => { if (!document.body.contains(el)) { clearInterval(iv); window.removeEventListener("message", onMsg); } }, 2000);
+    const toggle = (sel) => (e) => { const x = el.querySelector(sel); x.hidden = !x.hidden; e.target.classList.toggle("on", !x.hidden); };
+    el.querySelector('[data-act="en"]').onclick = toggle(".sub-en");
+    el.querySelector('[data-act="tr"]').onclick = toggle(".sub-tr");
+    el.querySelector('[data-act="list"]').onclick = toggle(".transcript");
+    el.querySelectorAll(".tc-time").forEach((b) => (b.onclick = () => { yt("seekTo", [cues[+b.dataset.i].t, true]); yt("playVideo"); }));
+  }
+
   async function doc(id) {
     const E = A();
     const idx = await index(), meta = idx.items.find((x) => x.id === id);
@@ -143,7 +199,7 @@
     if (location.hash !== "#dialects." + id) return;
     document.title = d.el + " · Dialects";
     E.$("#bar-meta").textContent = "Dialects";
-    E.setGloss(d.gloss);
+    E.setGloss(Object.assign({}, ...(d.listen?.clips || []).map((c) => c.gloss || {}), d.gloss));
     const g = idx.groups.find((x) => x.id === meta.group), pos = idx.items.indexOf(meta), prev = idx.items[pos - 1], next = idx.items[pos + 1];
     E.view.innerHTML = `<p class="crumbs"><a href="#dialects">← Dialects</a></p>
       <div class="dl-head"><div class="dl-chips">${g ? `<span class="chip" style="background:${g.color};color:#10283e">${E.esc(g.en)}</span>` : ""}${d.status ? `<span class="chip">${E.esc(d.status)}</span>` : ""}</div>
@@ -158,6 +214,9 @@
         ${d.sample.en ? `<details class="rd-en"><summary>English translation</summary>${d.sample.en.map((l) => `<p class="ln">${E.esc(l)}</p>`).join("")}</details>` : ""}
         ${d.sample.notes ? `<ul class="ref-notes">${d.sample.notes.map((n) => `<li>${E.md(n)}</li>`).join("")}</ul>` : ""}
         ${d.sample.source ? `<p class="sub">${E.md(d.sample.source)}</p>` : ""}</section>` : ""}
+      ${d.listen?.clips?.length ? `<section class="dl-sec card dl-listen"><h3>${E.esc(d.listen.h || "Listen")}</h3>${d.listen.intro ? `<p class="sub">${E.md(d.listen.intro)}</p>` : ""}
+        ${d.listen.clips.map((c) => clipHTML(E, c)).join("")}
+        ${d.listen.render && d.listen.clips.some((c) => c.cues?.length) ? `<p class="sub no-look">${E.md(d.listen.render)}</p>` : ""}</section>` : ""}
       ${d.culture ? `<section class="dl-sec culture"><h3>${E.esc(d.culture.h || "Culture")}</h3>${E.paras ? E.paras(d.culture.text) : E.md(d.culture.text)}</section>` : ""}
       </div>
       ${d.questions?.length ? `<section class="dl-sec card story-q"><h3>Check your understanding</h3>${d.questions.map((q, i) => `<div class="sq" data-i="${i}"><p class="q-prompt">${E.md(q.q)}</p><div class="options">${q.options.map((o) => `<button class="opt">${E.esc(o)}</button>`).join("")}</div><p class="ex-en sq-why" hidden></p></div>`).join("")}<p class="sub" id="sq-score"></p></section>` : ""}
@@ -166,6 +225,7 @@
       <div class="dl-nav">${prev ? `<a class="btn ghost" href="#dialects.${E.esc(prev.id)}">← <span lang="el">${E.esc(prev.el)}</span></a>` : ""}${next ? `<a class="btn" href="#dialects.${E.esc(next.id)}">Next: <span lang="el">${E.esc(next.el)}</span></a>` : ""}</div>`;
     E.wrapGreek(E.view.querySelector(".dl-body"));
     E.wrapGreek(E.view.querySelector(".dl-head h2"));
+    E.view.querySelectorAll(".dl-clip").forEach((el) => wireClip(E, el, d.listen.clips.find((c) => c.id === el.dataset.clip)));
     // Questions: the first answer counts; the score is saved once all are answered.
     let right = 0, answered = 0;
     E.view.querySelectorAll(".sq").forEach((box) => {
