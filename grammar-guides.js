@@ -49,6 +49,9 @@ table.pos-tbl th[scope="row"] { white-space: nowrap; text-transform: none; lette
 
   routes.pos = async (id) => {
     const E = A();
+    // #pos.<id>~<n> opens a document at section n (for links from search).
+    let sec = null;
+    if (id && id.includes("~")) [id, sec] = id.split("~");
     let idx = { items: [] };
     try { idx = await E.getJSON(BASE + "index.json"); } catch (e) { /* not built */ }
     E.$("#bar-meta").textContent = HEAD;
@@ -104,6 +107,7 @@ table.pos-tbl th[scope="row"] { white-space: nowrap; text-transform: none; lette
         }
       }));
     });
-    window.scrollTo(0, 0);
+    if (sec && E.$("#pos-s" + sec)) E.$("#pos-s" + sec).scrollIntoView({ block: "start" });
+    else window.scrollTo(0, 0);
   };
 })();
