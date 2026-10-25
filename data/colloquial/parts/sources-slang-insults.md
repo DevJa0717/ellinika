@@ -1,0 +1,24 @@
+# Sources: slang-insults («Βρίζοντας χωρίς βρισιές»)
+
+- https://en.wikipedia.org/wiki/Moutza: the μούντζα / φάσκελο gesture, its Byzantine soot (μούντζος) origin, the closer-to-the-face-is-stronger rule, the double μούντζα, and Greeks avoiding spread fingers or a forward palm when counting to five.
+- https://www.slang.gr/lemma/3830-moutza-mountza and https://www.slang.gr/lemma/10926-faskelo: μούντζα/μούτζα variants; φάσκελο = μούντζα.
+- https://www.slang.gr/lemma/6759-mpoumpounas: μπουμπούνας = total dope, usually said fondly.
+- https://www.slang.gr/lemma/88-stokos (search result) and https://www.slang.gr/lemma/2147-toublo, https://www.slang.gr/lemma/2041-ntoubari (search results): confirmed these entries exist; meanings checked from general dictionaries/usage.
+- https://el.wiktionary.org/wiki/κουτορνίθι, https://el.wiktionary.org/wiki/καθίκι, https://el.wiktionary.org/wiki/ρεμάλι, https://el.wiktionary.org/wiki/ψώνιο: entries and declension (wiktionary rate-limited further lookups).
+- https://www.slang.gr/lemma/8466-lapas: λαπάς = flabby, soft person; list of synonyms (φλώρος, μαμόθρεφτο, χαλβάς...).
+- https://www.slang.gr/lemma/2459-xestis: χέστης = coward; synonyms κότα, κουραμπιές.
+- https://www.slang.gr/lemma/476-lamogio: λαμόγιο = crook, con man; etymology from Italian «la moglie» (Neapolitan card players).
+- https://www.slang.gr/lemma/940-psonio: ψώνιο in 1980s slang = great/cool ("ψώνιο φάση"). Main modern sense (poser) from general usage.
+- https://www.slang.gr/lemma/8515-prixtis: πρήχτης = clingy, annoying person.
+- https://www.slang.gr/lemma/4144-kserolas: ξερόλας = know-it-all; «μην κάνεις τον ξερόλα».
+- https://www.slang.gr/lemma/12715-spastikos: σπαστικός, derived from the medical term and used pejoratively.
+- https://www.slang.gr/lemma/16960-gleiftis, https://www.slang.gr/lemma/19153-kifinas (search results): confirmed these entries exist.
+- https://www.slang.gr/lemma/4244-tourkosporos: τουρκόσπορος = slur against Asia-Minor/Constantinople refugees and by extension PAOK and AEK fans; also Τουρκόγυφτος.
+- https://www.slang.gr/lemma/7149-poutania: the entry discusses how πουστιά and γυφτιές lost their literal reference, which supports the "extended use" notes for the slurs.
+- https://realgreekexperiences.com/greek-curse-words: πούστης (derogatory, sometimes among male friends), βλάκας/ηλίθιος as mild.
+- https://atcorfu.com/greek-swear-words/: κόπανος as light teasing, «σκάσε», λαμόγιο as a character judgment, πούστης as hostile.
+- https://www.slang.gr/lemma/1830-marmagka: μαρμάγκα = (big, poisonous) spider (Arvanitic); «θα σε φάει η μαρμάγκα» as a warning; second, sexual slang sense. Shows the phrase is a jokey threat, not a mainstream curse.
+- https://www.slang.gr/lemma/9896-anathema and https://www.orthodoxianewsagency.gr/pdf.php?id=336055 (search snippet): ανάθεμα / «ανάθεμά σε», «αναθεματισμένε» as everyday curses.
+- https://www.slang.gr/lemma/8924-ftou-sou-ftou-sou-na-min-se-matiakso: φτου σου against the evil eye, and its ironic use to mock someone.
+- https://www.slang.gr/lemma/21112-katara: κατάρα as an exclamation.
+- Not found online: «να μη σώσεις», «κακό χρόνο να 'χεις», «κακό ψόφο να 'χεις», «να μη δεις χαΐρι». These are standard curses known from general knowledge of the language, and I could not find a dedicated web source for them.

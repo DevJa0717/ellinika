@@ -1,0 +1,75 @@
+import json, sys
+SCALE = [
+ ("είναι βέβαιο ότι / αναμφίβολα","certain","Αναμφίβολα, η πρόταση έχει αδυναμίες."),
+ ("είναι σαφές ότι / προφανώς","clear, obvious","Προφανώς, δεν μπορούμε να συνεχίσουμε έτσι."),
+ ("θα πρέπει να + past (epistemic)","must have","Θα πρέπει να έφυγε νωρίς."),
+ ("κατά πάσα πιθανότητα","in all likelihood","Κατά πάσα πιθανότητα θα γίνουν εκλογές το φθινόπωρο."),
+ ("είναι πιθανό(ν) να","it is likely","Είναι πιθανό να αυξηθούν οι τιμές."),
+ ("μάλλον / μάλλον θα","probably","Μάλλον θα αργήσει."),
+ ("φαίνεται ότι / φαίνεται να","it seems","Φαίνεται ότι η λύση δεν ικανοποιεί κανέναν."),
+ ("ενδέχεται να","may (formal)","Ενδέχεται να υπάρξουν καθυστερήσεις."),
+ ("ίσως / ενδεχομένως","perhaps, possibly","Ενδεχομένως να χρειαστεί δεύτερη συνάντηση."),
+ ("δεν αποκλείεται να","it can't be ruled out","Δεν αποκλείεται να παραιτηθεί."),
+ ("είναι αμφίβολο αν","it is doubtful whether","Είναι αμφίβολο αν θα εγκριθεί."),
+ ("είναι απίθανο να","it is unlikely","Είναι απίθανο να συμφωνήσουν."),
+ ("αποκλείεται να","there's no way","Αποκλείεται να το ήξερε."),
+]
+SRC = [
+ ("σύμφωνα με + acc.","according to","Σύμφωνα με την ΕΛΣΤΑΤ…"),
+ ("κατά + acc.","according to (a person)","Κατά τον υπουργό, … / κατά τη γνώμη μου"),
+ ("όπως αναφέρει / όπως επισημαίνει","as … reports / points out","Όπως επισημαίνει η έκθεση, …"),
+ ("λέγεται ότι / φημολογείται ότι","it is said / rumoured that","Φημολογείται ότι θα αλλάξει ο προπονητής."),
+ ("υποτίθεται ότι","supposedly","Υποτίθεται ότι το έργο θα τελείωνε πέρσι."),
+ ("φέρεται να","is reported/alleged to","Ο ύποπτος φέρεται να ομολόγησε."),
+ ("κατά τα φαινόμενα","to all appearances","Κατά τα φαινόμενα, η συμφωνία κλείνει."),
+ ("απ' ό,τι φαίνεται / απ' ό,τι ξέρω","from what I can see / know","Απ' ό,τι ξέρω, δεν έχει απαντήσει ακόμα."),
+]
+STANCE = [
+ ("Θα έλεγα ότι…","I would say that… (softens)"),("Τείνω να πιστεύω ότι…","I tend to think that…"),
+ ("Αν δεν κάνω λάθος,…","If I'm not mistaken,…"),("Δεν είμαι απολύτως πεπεισμένος ότι…","I'm not entirely convinced that…"),
+ ("Με κάθε επιφύλαξη,…","With every reservation,… (I may be wrong)"),("Από τη μία… από την άλλη…","On the one hand… on the other…"),
+ ("Σε γενικές γραμμές συμφωνώ, ωστόσο…","Broadly I agree; however…"),("Θα διαφωνήσω σε ένα σημείο.","I'll disagree on one point."),
+ ("Δεν θα το έθετα έτσι.","I wouldn't put it that way."),("Εξαρτάται από το τι εννοούμε με…","It depends what we mean by…"),
+ ("Το ερώτημα είναι αν…","The question is whether…"),("Ας μην ξεχνάμε ότι…","Let's not forget that…")]
+L = {
+ "el": "Βεβαιότητα, πιθανότητα, απόσταση",
+ "title": "Hedging and stance: ενδέχεται, δεν αποκλείεται, φέρεται να, θα έλεγα",
+ "section": "C1 · argument and register",
+ "goal": "Say exactly how sure you are, where a claim comes from, and disagree without bluntness.",
+ "blocks": [
+  {"type":"text","text":"Intellectual conversation is mostly calibration: *probably*, *it seems*, *allegedly*, *I'd put it differently*. Greek has a rich set of tools for this, and C1 examiners reward them in both the essay and the oral. Three families: **degrees of certainty**, **sources** (who says so), and **stance phrases** for agreeing, disagreeing and softening."},
+  {"type":"table","title":"From certain to impossible","head":["Expression","Degree","Example"],"rows":[[f"**{a}**",b,f"*{c}*"] for a,b,c in SCALE]},
+  {"type":"callout","text":"**Mood after these.** *ότι/πως* + indicative after verbs of knowing and seeming (*φαίνεται ότι ήρθε*); **να** + subjunctive after expressions of possibility (*ενδέχεται να, δεν αποκλείεται να, είναι πιθανό να, είναι απίθανο να*). With **να** the tense still matters: *Δεν αποκλείεται να **έφυγε*** 'He may have left' (past) vs *να **φύγει*** 'He may leave'.\n\n**Epistemic θα:** *Θα είναι κουρασμένος* 'He must be tired'; *Θα το ξέχασε* 'He must have forgotten'. And **θα πρέπει να** + past: *Θα πρέπει να το είδε* 'He must have seen it'."},
+  {"type":"table","title":"Where the claim comes from","head":["Expression","Meaning","Example"],"rows":[[f"**{a}**",b,f"*{c}*"] for a,b,c in SRC]},
+  {"type":"table","title":"Stance in conversation","head":["Phrase","Function"],"rows":[[f"**{a}**",b] for a,b in STANCE]},
+  {"type":"culture","title":"Ο Έλληνας και η διαφωνία","text":"Greek conversation tolerates, even enjoys, open disagreement: *Διαφωνώ κάθετα!* 'I flatly disagree!' between friends is a sign of engagement, not hostility, and interruptions are normal. What sounds rude is **condescension**, not directness. Softeners like *θα έλεγα* and *με κάθε επιφύλαξη* are more typical of academics, journalists and the polite plural; among friends you'll hear *Έλα τώρα!* 'Come on!' and *Καλά, άσ' το* 'OK, forget it'."},
+  {"type":"reading","title":"Ένα πάνελ για την τεχνητή νοημοσύνη","text":"— Κυρία Αντωνίου, θα αντικαταστήσει η τεχνητή νοημοσύνη τους δημοσιογράφους;\n\n— **Θα έλεγα ότι** η ερώτηση τίθεται λάθος. **Κατά πάσα πιθανότητα** θα αλλάξει ο τρόπος που δουλεύουμε, όχι το αν δουλεύουμε. **Δεν αποκλείεται να** χαθούν θέσεις στις απλές ειδήσεις, αλλά **είναι απίθανο να** αντικατασταθεί η έρευνα πεδίου.\n\n— Κύριε Μαργαρίτη, συμφωνείτε;\n\n— **Σε γενικές γραμμές συμφωνώ, ωστόσο** **θα διαφωνήσω σε ένα σημείο.** **Σύμφωνα με** πρόσφατη έρευνα, ήδη το ένα τρίτο των ειδήσεων σε ορισμένες ιστοσελίδες **φέρεται να** γράφεται από αλγορίθμους. **Υποτίθεται ότι** οι συντάκτες τις ελέγχουν, αλλά **απ' ό,τι ξέρω**, αυτό σπάνια συμβαίνει. **Ας μην ξεχνάμε ότι** η εμπιστοσύνη του κοινού είναι ήδη χαμηλή.\n\n— Άρα το πρόβλημα είναι ηθικό;\n\n— **Το ερώτημα είναι αν** θα θέσουμε κανόνες εγκαίρως. **Ενδέχεται να** είναι ήδη αργά.","en":"— Ms Antoniou, will AI replace journalists?\n\n— I would say the question is wrongly put. In all likelihood the way we work will change, not whether we work. Jobs may well be lost in simple news, but field research is unlikely to be replaced.\n\n— Mr Margaritis, do you agree?\n\n— Broadly I agree, but I'll disagree on one point. According to recent research, a third of the news on some websites is already reportedly written by algorithms. Editors are supposed to check it, but as far as I know that rarely happens. Let's not forget that public trust is already low.\n\n— So the problem is ethical?\n\n— The question is whether we'll set rules in time. It may already be too late.",
+   "gloss":{"έρευνα πεδίου":"field research","συντάκτες":"editors, staff writers","εγκαίρως":"in time","αλγορίθμους":"algorithms (acc. pl.)"},
+   "questions":[
+    {"prompt":"Πόσο σίγουρη είναι η κυρία Αντωνίου ότι θα χαθούν θέσεις;","answer":"Το θεωρεί πιθανό αλλά όχι βέβαιο.","options":["Το θεωρεί πιθανό αλλά όχι βέβαιο.","Είναι απολύτως βέβαιη.","Το αποκλείει.","Δεν απαντά καθόλου."],"why":"Δεν αποκλείεται να χαθούν θέσεις."},
+    {"prompt":"Τι υπονοεί ο κύριος Μαργαρίτης με το «υποτίθεται ότι»;","answer":"Ότι στην πράξη ο έλεγχος δεν γίνεται.","options":["Ότι στην πράξη ο έλεγχος δεν γίνεται.","Ότι οι συντάκτες κάνουν πάντα έλεγχο.","Ότι οι αλγόριθμοι ελέγχουν τους συντάκτες.","Ότι το κοινό εμπιστεύεται τις ειδήσεις."],"why":"υποτίθεται ότι … αλλά … σπάνια συμβαίνει."}]}
+ ],
+ "practice": [
+  {"gen":"mc","items":[
+    {"prompt":"Δεν αποκλείεται ___ ήδη. (that he has already left)","answer":"να έφυγε","options":["να έφυγε","ότι έφυγε","να φύγει","θα φύγει"],"why":"να + past for a possibility about the past."},
+    {"prompt":"Φαίνεται ___ η συμφωνία κλείνει.","answer":"ότι","options":["ότι","να","αν","μήπως"],"why":"φαίνεται ότι + indicative (fact as it appears)."},
+    {"prompt":"___ να υπάρξουν καθυστερήσεις στις πτήσεις. (formal 'may')","answer":"Ενδέχεται","options":["Ενδέχεται","Υποτίθεται","Φημολογείται","Αναμφίβολα"],"why":"ενδέχεται να 'may' (formal)."},
+    {"prompt":"Ο ύποπτος ___ να έδωσε ψεύτικα στοιχεία. (allegedly)","answer":"φέρεται","options":["φέρεται","φαίνεται ότι","υποτίθεται","ενδέχεται ότι"],"why":"φέρεται να 'is alleged to' (news)."},
+    {"prompt":"Δεν απαντάει. ___ κοιμάται. (He must be sleeping)","answer":"Θα","options":["Θα","Να","Ας","Μην"],"why":"Epistemic θα + present: θα κοιμάται 'he must be asleep'."},
+    {"prompt":"___ ο Γιάννης θα ερχόταν στις οκτώ. Είναι δέκα. (supposedly)","answer":"Υποτίθεται ότι","options":["Υποτίθεται ότι","Σύμφωνα με","Αναμφίβολα","Κατά τα φαινόμενα"],"why":"υποτίθεται ότι: expectation that failed."},
+    {"prompt":"Which is the softest way to disagree?","answer":"Δεν θα το έθετα ακριβώς έτσι.","options":["Δεν θα το έθετα ακριβώς έτσι.","Διαφωνώ κάθετα.","Λάθος κάνεις.","Έλα τώρα!"],"why":"Conditional θα + past: polite distance."},
+    {"prompt":"Είναι ___ αν θα εγκριθεί η χρηματοδότηση. (doubtful)","answer":"αμφίβολο","options":["αμφίβολο","απίθανο","πιθανό","σαφές"],"why":"είναι αμφίβολο αν 'it is doubtful whether' (αν, not να)."},
+    {"prompt":"Είναι απίθανο ___ τα κόμματα.","answer":"να συμφωνήσουν","options":["να συμφωνήσουν","ότι θα συμφωνήσουν","αν συμφωνήσουν","θα συμφωνήσουν"],"why":"είναι απίθανο να + subjunctive."},
+    {"prompt":"___ τον υπουργό, τα μέτρα είναι προσωρινά. (according to)","answer":"Κατά","options":["Κατά","Σύμφωνα","Από","Με"],"why":"κατά + acc. or σύμφωνα με + acc. (σύμφωνα alone needs με)."}]},
+  {"gen":"type","n":6,"items":[
+    {"prompt":"Say in Greek: **It can't be ruled out that…** (3 words + να)","answer":"Δεν αποκλείεται να","accept":["δεν αποκλείεται να","Δεν αποκλείεται να"]},
+    {"prompt":"Say in Greek: **in all likelihood**","answer":"κατά πάσα πιθανότητα"},
+    {"prompt":"Say in Greek: **to all appearances**","answer":"κατά τα φαινόμενα"},
+    {"prompt":"Say in Greek: **I tend to think that…**","answer":"Τείνω να πιστεύω ότι","accept":["τείνω να πιστεύω ότι","τείνω να πιστεύω πως"]},
+    {"prompt":"Say in Greek: **If I'm not mistaken**","answer":"Αν δεν κάνω λάθος","accept":["αν δεν κάνω λάθος","αν δεν απατώμαι"]},
+    {"prompt":"Say in Greek: **it is rumoured that**","answer":"φημολογείται ότι","accept":["φημολογείται ότι","φημολογείται πως","λέγεται ότι"]},
+    {"prompt":"Say in Greek: **Let's not forget that…**","answer":"Ας μην ξεχνάμε ότι","accept":["ας μην ξεχνάμε ότι","ας μην ξεχνάμε πως","ας μην ξεχνάμε"]},
+    {"prompt":"Say in Greek: **with every reservation**","answer":"με κάθε επιφύλαξη"}]}
+ ]
+}
+json.dump(L, open(sys.argv[1],"w"), ensure_ascii=False, indent=1)

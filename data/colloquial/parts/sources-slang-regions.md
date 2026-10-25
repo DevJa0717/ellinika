@@ -1,0 +1,27 @@
+# Sources: slang-regions
+
+- https://en.wikipedia.org/wiki/Varieties_of_Modern_Greek: overview of northern, semi-northern, southern, Maniot (ξούλο), Tsakonian, Old Athenian, Pontic, Cappadocian, Dodecanese (μεάλο, είπεν, geminates), ίντα for τι in the Aegean.
+- https://www.greek-language.gr/greekLang/el/modern_greek/studies/dialects/thema_b_2/index.html: northern and semi-northern varieties (Lefkada, Mykonos, Skyros, Kastoria...), σι λέου, Lesbos genitive plural -ιουν and tsitakism, Thessalian -μαν/-ταν past endings and -ούλ' diminutive.
+- https://el.wikipedia.org/wiki/Ποντιακή_διάλεκτος: Pontic names (Ρωμαίικα, Ποντιακόν λαλίαν), history, where spoken in Greece, η→ε, ω→ο, -ιν/-ον neuters, feminine -ος adjectives, imperative -ον (γράψον, ποίσον), passive aorist -θα (εγαπέθα), 'κι negation, ας for να (δος με ας φάγω), ä/ö vowels, š/ž, τεμέτερον.
+- https://en.wikipedia.org/wiki/Pontic_Greek: Romeyka of Of/Trabzon, infinitive survival.
+- https://www.slang.gr/lemma/12840-pontios-kai-mona-mat: Πόντιος και μόνα ματ', Ντο εφτάς τεμέτερον, κόρτσοπον, τρανόν μουχαμπέτ, άμον, ζαντός κι είμαι.
+- https://www.slang.gr/lemma/25788-deba-gamou: δέβα γαμού (Pontic, βρισιά).
+- https://www.iefimerida.gr/ellada/beroia-eftiaxan-pontiako-lexiko-mesa-karantina: «Δέβα χαθ'» in a headline; Veria Pontic dictionary (10,000 entries).
+- https://www.slang.gr/lemma/5303-yperpontios: racist use of «Πόντιος» for 'stupid'.
+- https://en.wikipedia.org/wiki/Pontic_lyra: the instrument, Greek/Turkish names.
+- https://pasithee.library.upatras.gr/pwpl/article/view/2158 (Μακρή, Κουτσούκος, Ανδρέου, «Δανεισμός ονομάτων και απόδοση γένους στην Επτανησιακή διάλεκτο», PWPL 3, 2013): αβοκάτος, φέμενα, προφεσόρας, λέτερα, απαρταμέντο, σοσπίρο, τσέφο, σοκόρσο, τσαβατίνος, στρατόνι, κουμερκί, μπαρόνα and their Italian/Venetian sources; Venetian rule background.
+- https://unitesi.unive.it/handle/20.500.14247/24870 (search summary): Corfiot καντούνι, Venetian lexical domains.
+- https://www.slang.gr/lemma/23060-ksesteliastos and https://www.slang.gr/lemma/23017-strabomara: Lefkada ξεστέλιαστος, στραβομάρα (chore); semi-northern vowel loss in the example.
+- https://www.slang.gr/lemma/6265-gkiosa: γκιόσα (Albanian origin, Argolid dish, insult).
+- https://en.wiktionary.org/wiki/μπέσα: Albanian besë, μπεσαλής, μπαμπέσης, interjection use.
+- https://www.slang.gr/lemma/6050-mpesalis: μπεσαλής.
+- https://www.slang.gr/lemma/22760-strougkanoblaxos and https://www.slang.gr/lemma/25540-o-blaxos-krasi-pinei-alla-ampeli-den-skabei: βλάχος as 'hick' (more Athenian than northern), compounds, the proverb.
+- https://ejournals.epublishing.ekt.gr/index.php/lexdelt/article/view/37996 (Βραχιονίδου): ντε, ντιπ, μπιτ (μπιτ για μπιτ), ταμάμ (incl. ήρθαμε ταμάμ = πάτσι), μπάρεμ, γιοκ, άφεριμ: meanings, regional notes.
+- https://el.wikipedia.org/wiki/Μάγκας_(παλαιά_Αθήνα): mangas dress (καβουράκι, κομπολόι, pointed shoes, one sleeve), κουτσαβάκηδες 1870–1892, Bairaktaris' moustache-cutting, rebetiko link, etymologies (Albanian μάγκα, Latin mango, μάνικα), βαρύμαγκας, ψευτόμαγκας, τζάμπα μάγκες, μαγκιά.
+- https://el.wikipedia.org/wiki/Κουτσαβάκης: origin of the name, Psyrri.
+- https://en.wikipedia.org/wiki/Mangas: modern meanings (dude / thug / brave guy).
+- https://en.wikipedia.org/wiki/Rebetiko: tekedes, Metaxas closing them and censoring drug references, under 7% drug songs, 'Mourmourika' as an album title.
+- https://en.wiktionary.org/wiki/μπαγλαμάς, https://en.wiktionary.org/wiki/αλάνι: etymologies and meanings.
+- slang.gr lemmas: https://www.slang.gr/lemma/13937-koutsavakis (κουτσαβάκης, now ironic), https://www.slang.gr/lemma/18386-seretis (σερέτης), https://www.slang.gr/lemma/6569-nterbisis (ντερβίσης), https://www.slang.gr/lemma/8470-tekes (τεκές, αργιλές), https://www.slang.gr/lemma/8115-loulas and /lemma/1230-artsi-mpourtsi-kai-loulas (λουλάς), https://www.slang.gr/lemma/7194-ntoumani (ντουμάνι), https://www.slang.gr/lemma/26717-mastouras (μαστούρας, Vamvakaris 1934), https://www.slang.gr/lemma/703-tzampa-magkas (τζάμπα μάγκας), https://www.slang.gr/lemma/11582-toumpeki-sto-mantri (τουμπεκί), https://www.slang.gr/lemma/13816-farsi (φαρσί = fluently), https://www.slang.gr/lemma/150-koumpouras (κουμπούρας = bad pupil).
+- https://vmrebetiko.aegean.gr/en/item-en?id=4101: song title «Ήμουνα μόρτης μια φορά».
+- Own knowledge, not separately fetched (flagged in report): 19 May Pontic Genocide remembrance, dances τικ/σέρρα, Arvanite/Vlach historical outline, Corfiot dishes, refugee suburb names, rebetiko on UNESCO list (2017).

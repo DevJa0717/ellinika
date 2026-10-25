@@ -1,0 +1,29 @@
+# Sources: slang-swearing («Βρισιές: το σύστημα»)
+
+- https://en.wikipedia.org/wiki/Malakas: etymology of μαλάκας (< μαλακός), the range of uses from friendly address to insult, μαλακία (nonsense / mistake), μαλακίζομαι (waste time, act stupid), feminine μαλακισμένη (insult only) and the newer μαλάκω; also its description as the most-used Greek slang word.
+- https://el.wiktionary.org/wiki/γαμώτο: γαμώτο < γαμώ το; labelled vulgar and colloquial; ρε γαμώτο; the neuter noun sense (self-respect, drive: «έχω γαμώτο»); synonyms διάολε, σκατά, στα κομμάτια.
+- https://www.slang.gr/lemma/3580-gamatos: γαμάτος = great, awesome (said with admiration).
+- https://www.slang.gr/lemma/13791-gamias: γαμιάς = womaniser, a man known for sleeping around and boasting of it.
+- https://www.slang.gr/lemma/14188-gamo-to-kerato-mou: γαμώ το κέρατό μου = exasperation, extensions «μέσα», «το βερνικωμένο».
+- https://www.slang.gr/lemma/6913-gmtkrtmms: texting abbreviation γμτκρτμμσ (= γαμώ το κέρατό μου μέσα); also mentions «ρε πστ».
+- https://www.slang.gr/lemma/22390-gama-ta: γάμα τα = give up on a hopeless situation; cf. χέσ' τα κι άσ' τα.
+- https://www.slang.gr/lemma/1663-de-gamietai: δε γαμιέται = dismissive "never mind".
+- https://www.slang.gr/lemma/1564-gamietai-o-dias: γαμιέται ο Δίας = hopeless or chaotic situation.
+- https://www.slang.gr/lemma/19928-tou-gamao-ti-mana: του γαμάω τη μάνα said of things or tasks, meaning both "wrecked it" and "nailed it".
+- https://www.slang.gr/lemma/12286-ksegamao: ξεγαμάω exists as an intensive sexual verb. I left out ξεγαμημένος because I found no source for the adjective.
+- https://www.slang.gr/lemma/13041-xestika: χέστηκα = indifference ("I don't give a shit").
+- https://www.slang.gr/lemma/2459-xestis: χέστης = coward; synonyms κότα etc.
+- https://www.slang.gr/lemma/3695-skatopsyxos: σκατόψυχος = extremely mean-spirited; its definition also uses «ψυχή σκατένια», which confirms σκατένιος.
+- https://www.slang.gr/lemma/12873-kolofardia: κωλοφαρδία = exceptional (dumb) luck in cards, backgammon, basketball.
+- https://www.slang.gr/lemma/4375-kolopaido: κωλόπαιδο, the κωλο- pejorative prefix and its etymology debate.
+- https://www.slang.gr/lemma/4032-arxidatos: αρχιδάτος = positive: brave, gutsy man.
+- https://www.slang.gr/lemma/21729-den-ksero-t-arxidia-mou and https://www.slang.gr/lemma/25027-den-skizo-kai-ta-arxidia-mou: "I know nothing" and "I'm not exactly thrilled" phrases.
+- https://www.slang.gr/lemma/11242-tis-poutanas: της πουτάνας (γίνεται) = chaos, or a huge amount of something.
+- https://www.slang.gr/lemma/7149-poutania: πουτανιά = underhand, treacherous behaviour beyond the literal sense.
+- https://www.slang.gr/lemma/322-keratas: κερατάς (also slang for police). The friendly vocative κερατά comes from general knowledge plus usage; I found no single dictionary citation for it.
+- https://www.alfavita.gr/koinonia/474629_poia-einai-i-etymologia-tis-lexis-keratas: etymology of κερατάς (κέρας, Psellos' treatise), κέρατο = infidelity.
+- https://www.slang.gr/lemma/20162-mou-bgainei-i-panagia: μου βγαίνει η Παναγία = to be exhausted, tormented.
+- https://www.slang.gr/lemma/6150-ton-xristo-sou-anesti: shows the «τον Χριστό σου» blasphemy frame in use.
+- https://realgreekexperiences.com/greek-curse-words: overview of 20 common words with strength notes (μαλάκας, γαμώτο, άντε γαμήσου, άει στο διάολο, σκατά, χέσε μας, χέστηκα, κώλος/κωλο-, αρχίδια vs παπάρια, πούτσος/καυλί/ψωλή and the ψωλή/ψωμί confusion, πουτάνα and της πουτάνας, μπουρδέλο, μουνί, καριόλης).
+- https://atcorfu.com/greek-swear-words/: register notes (tone decides; γαμώτο as a passing outburst; σκατά as reflex; ρε).
+- https://end-blasphemy-laws.org/2019/06/greece-quietly-drops-blasphemy-laws-new-criminal-code/ and https://europe.humanists.international/?p=3949: articles 198-199 removed from the Greek Penal Code in 2019; a reinstatement attempt was withdrawn in November 2019.

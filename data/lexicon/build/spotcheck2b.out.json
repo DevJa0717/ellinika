@@ -1,0 +1,32 @@
+[
+ {
+  "lemma": "στωικός",
+  "set": {
+   "adjective.f": "στωική",
+   "adjective.n": "στωικό"
+  },
+  "why": "f/n forms missing accent"
+ },
+ {
+  "lemma": "παραγωγικός",
+  "set": {
+   "adjective.f": "παραγωγική",
+   "adjective.n": "παραγωγικό"
+  },
+  "why": "f/n forms missing accent"
+ },
+ {
+  "lemma": "φραγκοχιώτικα",
+  "set": {
+   "noun.model": "n-ο-b"
+  },
+  "why": "stress stays on antepenult (gen pl φραγκοχιώτικων), so n-ο-b not n-ο-a"
+ },
+ {
+  "lemma": "εκκλησάκι",
+  "set": {
+   "noun.gen_sg": "εκκλησακιού"
+  },
+  "why": "gen_sg was null"
+ }
+]

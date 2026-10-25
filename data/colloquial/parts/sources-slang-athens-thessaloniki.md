@@ -1,0 +1,29 @@
+# Sources: slang-athens-thessaloniki
+
+- https://www.greek-language.gr/greekLang/el/modern_greek/studies/dialects/thema_b_2/index.html (Centre for the Greek Language, northern dialects): northern vowel raising/deletion examples (χέρ', πηγάδ', σκλι, πλάου, φιγγάρ', χουράφ'); accusative for the standard genitive indirect object (σι λέου); Chatzidakis' north/south split.
+- https://www.greek-language.gr/greekLang/modern_greek/studies/dialects/thema_b_3/index.html: κώφωση as a northern feature; northern retention of ω (κωδώνι, ζωμί).
+- https://en.wikipedia.org/wiki/Varieties_of_Modern_Greek: northern raising (piˈði for παιδί, skon), accusative indirect objects in Macedonian/Thessaloniki speech.
+- https://www.alfavita.gr/koinonia/465457_poios-einai-o-logos-poy-sti-thessaloniki-hrisimopoioyn-ti-frasi-me-les-anti-gia-moy: «με λες» vs «μου λες», Lamia-line jokes, παχύ λ as an Athenian-noticed trait, identity value, fake Babiniotis text.
+- https://www.athensvoice.gr (search result summary, «Τι με λες;»): northern case usage noted as a Thessaloniki marker.
+- https://www.lifo.gr/articles/cities_articles/100242 (Χ. Βλαχοπούλου 2016, «Η γλώσσα της Θεσσαλονίκης και η γλώσσα της Αθήνας – το λεξικό των διαφορών»): food word differences (λεμονάδα, καλαμάκι, μπουγάτσα κρέμα ή τυρί, τυρί = φέτα, κασέρι, σάντουιτς, αλοιφή), and phrase pairs (ναι αφού/αμέ, έβγαλε κρύο, πάνε, ξες, μ' έστειλε, πίτα γύρο, κουλούρι, τοστ, φούιτ/λάστιχο, ντεμέκ/και καλά, φουξ, αστικό/λεωφορείο, με/σε, πλάκα με κάνεις, τρακόσα). Also Thessaloniki landmarks and the "what each city envies" material used in the culture block.
+- https://www.athensvoice.gr/stiles/archive/100081/soyvlaki-tylihti-agapi/ (via search summary): πιτόγυρο in Thessaloniki, τυλιχτά and καλαμάκια further south.
+- https://ejournals.epublishing.ekt.gr/index.php/lexdelt/article/view/37996 (Μ. Βραχιονίδου, «Ντε, ντεμέκ, μπάρεμ, εμ…εμ: Τουρκικά δάνεια ως πραγματολογικοί δείκτες»): ντεμέκ = δήθεν/τάχα, its status as an Athens/Thessaloniki shibboleth, derived ντεμεκιά.
+- https://en.wiktionary.org/wiki/ντεμέκ: etymology (Ottoman Turkish demek), meaning 'supposedly'.
+- https://en.wiktionary.org/wiki/μπουγάτσα and https://en.wiktionary.org/wiki/τσουρέκι: etymologies (Late Latin focacia via Medieval πογάτσα; Turkish çörek).
+- https://www.slang.gr/lemma/2407-xamoutzis: χαμουτζής = Athenian in northern speech, from χάμω.
+- https://www.slang.gr/lemma/11382-ntemekia: ντεμεκιά; Thessaloniki sense of ντεμέκ; μπουγατσοφάγοι, φραπεδούπολη as jokey names.
+- https://www.slang.gr/lemma/1911-ntemek: ντεμέκ = προσποιητό, και καλά.
+- https://www.slang.gr/lemma/11089-fouit: φούιτ = flat tyre, Northern Greece/Macedonia, from French fuite.
+- https://www.slang.gr/lemma/14475-kabgas-tis-mpougatsas: ο καβγάς της μπουγάτσας (Athens–Thessaloniki petty feud).
+- https://www.slang.gr/lemma/729-boulgaros: βούλγαρος as a slur for PAOK fans / northerners (marked βρισιά); ΜΠΑΟΚ.
+- https://www.slang.gr/lemma/193-bazelos: βάζελος = Panathinaikos fan, vaseline etymologies.
+- https://www.slang.gr/lemma/26584-syggauros: γαύρος = Olympiakos fan.
+- https://www.slang.gr/lemma/19736-xanoumissa: χανούμισσα as a pejorative for AEK.
+- https://www.slang.gr/lemma/8281-thryler: Θρύλος = Olympiakos.
+- https://www.slang.gr/lemma/2740-kolonaki: Κολωνάκι as a byword for expensive/trendy.
+- https://www.slang.gr/lemma/17084-tholokoultouriaris: κουλτουριάρης / θολοκουλτουριάρης.
+- https://www.slang.gr/lemma/24025-klarinokagkouras: κάγκουρας (show-off with souped-up car/bike).
+- https://www.slang.gr/lemma/26788-tsipouradiko: τσιπουράδικο.
+- https://en.wikipedia.org/wiki/Frapp%C3%A9_coffee (and Nescafé/other search results): frappé improvised by Dimitris Vakondios at the Thessaloniki International Fair, 1957.
+- https://arxiv.org/pdf/2110.03756 and Hadodo (Pitt) dissertation abstract (search results): dark/velarised lateral in northern Greek varieties and Istanbul Greek as a salient identity marker.
+- General background on Thessaloniki history (Ottoman 1430–1912, Sephardic community, 1917 fire, 1923 exchange, 1943 deportations), club founding dates and fan-group gate names: own knowledge, not separately fetched; flagged in the report.

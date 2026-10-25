@@ -1,0 +1,222 @@
+# Language audit corrections, 2026-10-25
+
+Commits a0d2ac7 and 4213c1c on main. Each line: file, then the changed words (old → new). Removed accept variants and word-family entries are listed as removed.
+
+- `data/c1/phrases/idioms.json`: τη → την
+- `data/c1/syllabus/reading-tasks.json`: τη → την; στη → στην; αυτοκίνητο → αυτοκίνητό
+- `data/c1/syllabus/writing-speaking-prompts.json`: τον/την → τον/τη
+- `data/c1/texts/j06.json`: προβλήματα → προβλήματά
+- `data/c1/texts/l09.json`: σὲν → δὲν; τοὺ → τοῦ; συσκολία → δυσκολία; μμὲ → μὲ; ὀλοίγες → ὀλίγες; ἄρχισενὰ → ἄρχισε νὰ; ὀγληγορα → ὀγλήγορα; σοφολοιώτατος → σοφολογιώτατος; κἱ → οἱ; τὰ → τὸν; σεν → δεν; μμε → με; ολοίγες → ολίγες; άρχισενά → άρχισε να; ογληγορα → ογλήγορα; κι → οι; τα → τον; ο,τι → ό,τι
+- `data/c1/texts/l12.json`: ὡςτόσο → ὡστόσο; πάραξενιά, → παραξενιά,; ωςτόσο → ωστόσο
+- `data/c1/texts/s01.json`: άρμάδα. Άλλά → αρμάδα. Αλλά
+- `data/c1/texts/s02.json`: ἔβεβήλωσαν, → ἐβεβήλωσαν,; Ὕποκλινόμεθα → Ὑποκλινόμεθα; Ἐλ-Ἄλαμέϊν, → Ἐλ-Ἀλαμέιν,; έβεβήλωσαν, → εβεβήλωσαν,; Ελ-Άλαμέϊν, → Ελ-Αλαμέιν,
+- `data/c1/texts/s03.json`: αναμεσα → ανάμεσα; προπάτορες → προπάτορές
+- `data/c1/texts/w10.json`: περιστέφονται → περιστρέφονται
+- `data/c1/videos/amara-greek-tedx-index.json`: Αn → An; Iθαγένεια → Ιθαγένεια; Νikoletta → Nikoletta; οf → of
+- `data/c1/videos/videos-c1.json`: έννοια → έννοιά; πελατολόγιο → πελατολόγιό; πράξεων → πράξεών; τού → του; δωσ' → δώσ'; 'δώ, → 'δω,; 'κεί, → 'κει,
+- `data/c1/words/c1-words.json`: στη → στην
+- `data/colloquial/colloquial-lexicon.json`: κωλοκαιρός → κωλόκαιρος; κωλοκαιρό → κωλόκαιρο; κωλοκαιρού → κωλόκαιρου; τη → την; 'κεί → 'κει; 'κεί, → 'κει,
+- `data/grammar/adverbs.json`: πιοεδώ/εκεί → πιο εδώ/εκεί; πιοπάνω/κάτω → πιο πάνω/κάτω; πιοπριν → πιο πριν
+- `data/grammar/clauses-2.json`: την → τη
+- `data/grammar/clauses.json`: τρελήγυι' → τρελή γι'; προξιϊόντα → προϊόντα; the two notes about the source misprints shortened accordingly
+- `data/grammar/pronouns-holton.json`: 'γώ. → 'γω.
+- `data/grammar/verbs-holton.json`: 'ρθώ, → 'ρθω,; 'ρθώ, 'ρθείς, → 'ρθω, 'ρθεις,; 'ρθώ, 'ρθείς → 'ρθω, 'ρθεις; 'ρθώ) → 'ρθω); Λυναμωμένοι → Δυναμωμένοι
+- `data/lexicon/collocations.json`: τη → την; γλυκίσμα → γλύκισμα; αδελφοποιός → αδελφοποίηση; εμπόδιση → παρεμπόδιση; removed: κάνομαι; removed: νιώσιμο (rare); removed: συμπαρέα (rare); removed: κλοτσάω τη μπάλα; removed: πετάω τη μπάλα; removed: χάνω τη μπάλα; removed: συνθήκευση; removed: εξωπλανητικός; removed: μορφότυπο; removed: επιστροφικός; removed: συναγερμικός; removed: πολυτιμότητα; removed: αντικαθιστώ τη μπαταρία; removed: χρονολόγιο
+- `data/lexicon/core-3000.json`: μεγαλειότατου → μεγαλειοτάτου; τη → την; στη → στην; αιδεσιμότατου → αιδεσιμοτάτου; κωλοκαιρός → κωλόκαιρος; κωλοκαιρού → κωλόκαιρου; κωλοκαιρό → κωλόκαιρο; m/f: αθηναϊκη, → f: αθηναϊκή,; αθηναϊκο → αθηναϊκό; αθηναϊκη → αθηναϊκή; παραήπια → παράπια
+- `data/lexicon/forms-index.json`: keys removed ['αθηναϊκη', 'αθηναϊκο', 'κωλοκαιρού', 'κωλοκαιρό', 'κωλοκαιρός', 'παραήπια'], added ['αθηναϊκή', 'αθηναϊκό', 'κωλόκαιρο', 'κωλόκαιρος', 'κωλόκαιρου', 'παράπια']
+- `lessons/a2-weak-pronouns.json`: Δωσ' → Δώσ'
+- `lessons/b1-comparison.json`: δημοσιέψει → δημοσιεύσει (story text); removed accept variant with δημοσιέψει
+- `lessons/b2-concession.json`: removed: παρόλες τις υποσχέσεις του ιδιοκτήτη
+- `lessons/b2-discourse.json`: ποδηλατόδρομους. → ποδηλατοδρόμους.
+- `lessons/c1-bank-idioms-2.json`: τη → την
+- `lessons/c1-bank-idioms-4.json`: τη → την
+- `lessons/c1-exam-reading.json`: τη → την; στη → στην
+- `lessons/c1-read-science-tech.json`: περιστέφονται → περιστρέφονται; προβλήματα → προβλήματά
+- `lessons/dlg-b1-job-interview.json`: συνέχεια → συνέχειά
+- `lessons/exam-speaking.json`: removed: Στην φωτογραφία βλέπω
+- `lessons/slang-dialogues.json`: 'κεί, → 'κει,; 'κεί!** → 'κει!**; 'κεί*, → 'κει*,
+- `lessons/slang-morphology.json`: Γκουγκλαρέ → γκούγκλαρε; removed: Γκουγκλαρέ το
+- `lessons/slang-nightlife.json`: κωλοκαιρός) → κωλόκαιρος)
+- `lessons/slang-swearing.json`: *κωλοκαιρός, → *κωλόκαιρος,; *κωλοκαιρός* → *κωλόκαιρος*; κωλοκαιρός*, → κωλόκαιρος*,; κωλοκαιρός → κωλόκαιρος
+- `lessons/videos-c1.json`: έννοια → έννοιά; πελατολόγιο → πελατολόγιό; πράξεων → πράξεών; τού → του; δωσ' → δώσ'; 'δώ, → 'δω,; 'κεί, → 'κει,
+- `lessons/words-verbs.json`: κόντυνανε → κοντύνανε; Κόντυνανε → Κοντύνανε; κόντυνανε. → κοντύνανε.
+- `library/exam/b2-tasks-4.json`: ποδηλατόδρομους, → ποδηλατοδρόμους,
+- `library/register/register.json`: ποδηλατόδρομου → ποδηλατοδρόμου
+
+## Word-list pass (core-1000 + core-3000, 8,214 entries)
+
+Bulk change not listed one by one: adjective labels "m/f: X, n: Y" rewritten as "f: X, n: Y" where the feminine differs from the masculine.
+
+Individual changes (entry · field: old → new):
+
+- έχω · form_key: Pres: έχω | Aor: είχα → Pres: έχω | Impf: είχα (no aor) (είχα is imperfect)
+- εκλογές · form_key: Gen: εκλογής | f (1st decl); usu. pl: εκλογές → Gen: εκλογών | f.pl (1st decl); sg εκλογή = choice (plural lemma)
+- εκλογές · noun.gen_sg: εκλογής → εκλογών
+- εκλογές · noun.pl_only: null → true
+- εφαρμογή · gloss: implementation; application (of a law, plan) → implementation; application (of a law, plan); app (software) (missing common sense)
+- ενάμισης · example.el: Περίμενα ενάμιση ώρα στο αεροδρόμιο. → Περίμενα μιάμιση ώρα στο αεροδρόμιο. (ώρα is feminine: μιάμιση)
+- τέσσερα · form_key: f: τέσσερις, n: τέσσερα → m/f: τέσσερις, n: τέσσερα (numeral: τέσσερις is both m and f)
+- δεκατέσσερα · form_key: f: δεκατέσσερις, n: δεκατέσσερα → m/f: δεκατέσσερις, n: δεκατέσσερα (numeral: m and f)
+- ενδιαφέρω · form_key: Pres: ενδιαφέρω | Aor: ενδιέφερα → Pres: ενδιαφέρω | Impf: ενδιέφερα (ενδιέφερα is imperfect)
+- ενδιαφέρω · verb.aorist_1sg: ενδιέφερα → null
+- ενδιαφέρω · verb.imperfect_1sg: null → ενδιέφερα
+- ενδιαφέρω · verb.note: null → no common active aorist; past = imperfect ενδιέφερα (passive aor. ενδιαφέρθηκα)
+- ουίσκι · form_key: Gen: ουίσκι | n (2nd decl) → Gen: ουίσκι | n (indecl) (indeclinable loanword)
+- ουίσκι · noun.declension: 2 → null
+- βαν · form_key: Gen: βαν | n (2nd decl) → Gen: βαν | n (indecl) (indeclinable loanword)
+- βαν · noun.declension: 2 → null
+- μπέικον · form_key: Gen: μπέικον | n (3rd decl) → Gen: μπέικον | n (indecl) (indeclinable loanword)
+- μπέικον · noun.declension: 3 → null
+- φεστιβάλ · form_key: Gen: φεστιβάλ | n (3rd decl) → Gen: φεστιβάλ | n (indecl) (indeclinable loanword)
+- φεστιβάλ · noun.declension: 3 → null
+- μπάρμαν · form_key: Gen: μπάρμαν | m (3rd decl) → Gen: μπάρμαν | m (indecl) (indeclinable loanword)
+- μπάρμαν · noun.declension: 3 → null
+- τζετ · form_key: Gen: τζετ | n (3rd decl) → Gen: τζετ | n (indecl) (indeclinable loanword)
+- τζετ · noun.declension: 3 → null
+- γιόγκα · form_key: Gen: γιόγκα | f (1st decl) → Gen: γιόγκα | f (indecl) (indeclinable loanword)
+- γιόγκα · noun.declension: 1 → null
+- χολ · form_key: Gen: χολ | n (3rd decl) → Gen: χολ | n (indecl) (indeclinable loanword)
+- χολ · noun.declension: 3 → null
+- μπέργκερ · form_key: Gen: μπέργκερ | n (3rd decl) → Gen: μπέργκερ | n (indecl) (indeclinable loanword)
+- μπέργκερ · noun.declension: 3 → null
+- φαβορί · form_key: Gen: φαβορί | n (3rd decl) → Gen: φαβορί | n (indecl) (indeclinable loanword)
+- φαβορί · noun.declension: 3 → null
+- τσεκάρω · form_key: Pres: τσεκάρω | Aor: τσεκάρισα → Pres: τσεκάρω | Aor: τσέκαρα (aorist τσέκαρα (like παρκάρω → πάρκαρα))
+- τσεκάρω · verb.aorist_1sg: τσεκάρισα → τσέκαρα
+- προλαμβάνω · form_key: Pres: προλαμβάνω | Aor: πρόλαβα → Pres: προλαμβάνω | Aor: προέλαβα (πρόλαβα belongs to προλαβαίνω)
+- προλαμβάνω · verb.aorist_1sg: πρόλαβα → προέλαβα
+- μάγια · form_key: Gen: None | n (2nd decl) → Gen: μαγιών | n pl (2nd decl) (broken label)
+- παρόλο · gloss: despite, in spite of (+ article + noun: παρόλη την..., παρόλο το..., παρόλα τα...) → despite: παρόλο που + clause (although); before article + noun the standard spelling is παρ' όλη / παρ' όλο / παρ' όλα (παρ' όλη την...) (standard spelling of the prepositional use)
+- παρόλο · example.el: Παρόλη την κούραση, βγήκαμε για φαγητό. → Παρ' όλη την κούραση, βγήκαμε για φαγητό.
+- απέχω · form_key: Pres: απέχω | Aor: απείχα → Pres: απέχω | Impf: απείχα (no aor)
+- απέχω · verb.aorist_1sg: απείχα → null
+- απέχω · verb.imperfect_1sg: null → απείχα
+- απέχω · verb.note: null → no aorist; past: απείχα (imperfect only)
+- πάρτι · form_key: indecl → indecl | n
+- σεξ · form_key: indecl → indecl | n
+- κάρι · form_key: indecl → indecl | n
+- πόκερ · form_key: indecl → indecl | n
+- τσιπ · form_key: indecl → indecl | n
+- άλφα · form_key: indecl → indecl | n
+- καρτέλ · form_key: indecl → indecl | n
+- κραγιόν · form_key: indecl → indecl | n
+- μπολ · form_key: indecl → indecl | n
+- τζιπ · form_key: indecl → indecl | n
+- τουρνουά · form_key: indecl → indecl | n
+- χόκεϊ · form_key: indecl → indecl | n
+- φαξ · form_key: indecl → indecl | n
+- εξπέρ · form_key: indecl → indecl | common
+- κρεσέντο · form_key: indecl → indecl | n
+- γενέθλια · form_key: Gen: γενεθλίων | n (2nd decl) → Gen: γενεθλίων | n pl (2nd decl)
+- μετρητά · form_key: Gen: μετρητών | n (2nd decl) → Gen: μετρητών | n pl (2nd decl)
+- μεσάνυχτα · form_key: Gen: μεσανύχτων | n (2nd decl) → Gen: μεσανύχτων | n pl (2nd decl)
+- ψώνια · form_key: Gen: ψωνιών | n (2nd decl) → Gen: ψωνιών | n pl (2nd decl)
+- πυρομαχικά · form_key: Gen: πυρομαχικών | n (2nd decl) → Gen: πυρομαχικών | n pl (2nd decl)
+- σπουδές · form_key: Gen: σπουδών | f (1st decl) → Gen: σπουδών | f pl (1st decl)
+- δημητριακά · form_key: Gen: δημητριακών | n (2nd decl) → Gen: δημητριακών | n pl (2nd decl)
+- μπάζα · form_key: Gen: μπάζων | n (2nd decl) → Gen: μπάζων | n pl (2nd decl)
+- εγκαίνια · form_key: Gen: εγκαινίων | n (2nd decl) → Gen: εγκαινίων | n pl (2nd decl)
+- ξημερώματα · form_key: Gen: ξημερωμάτων | n (3rd decl) → Gen: ξημερωμάτων | n pl (3rd decl)
+- πρόθυρα · form_key: Gen: προθύρων | n (2nd decl) → Gen: προθύρων | n pl (2nd decl)
+- δεσμά · form_key: Gen: δεσμών | n (2nd decl) → Gen: δεσμών | n pl (2nd decl)
+- ηνία · form_key: Gen: ηνίων | n (2nd decl) → Gen: ηνίων | n pl (2nd decl)
+- οπίσθια · form_key: Gen: οπισθίων | n (2nd decl) → Gen: οπισθίων | n pl (2nd decl)
+- πεθερικά · form_key: Gen: πεθερικών | n (2nd decl) → Gen: πεθερικών | n pl (2nd decl)
+- γεράματα · form_key: Gen: γεραμάτων | n (3rd decl) → Gen: γεραμάτων | n pl (3rd decl)
+- εισαγωγικά · form_key: Gen: εισαγωγικών | n (2nd decl) → Gen: εισαγωγικών | n pl (2nd decl)
+- αποσιωπητικά · form_key: Gen: αποσιωπητικών | n (2nd decl) → Gen: αποσιωπητικών | n pl (2nd decl)
+- φραγκοχιώτικα · form_key: Gen: φραγκοχιώτικων | n (2nd decl) → Gen: φραγκοχιώτικων | n pl (2nd decl)
+- μουρμούρικα · form_key: Gen: μουρμούρικων | n (2nd decl) → Gen: μουρμούρικων | n pl (2nd decl)
+- ντο · example.en: 'How are you?' asks Grandma from Pontus. → 'What are you doing?' (i.e. how are you?) asks Grandma from Pontus.
+- ούτος · form_key: indecl → f: αύτη, n: τούτο (archaic)
+- μπλέξιμο · form_key: Gen: μπλεξίματος | n (2nd decl) → Gen: μπλεξίματος | n (3rd decl)
+- μπλέξιμο · noun.declension: 2 → 3
+- Άγγλος · gloss: Englishman; English person (Άγγλος στο ραντεβού = always punctual) → Englishman; English person (Εγγλέζος στο ραντεβού = always punctual)
+- παιχνιδάκι · form_key: Gen: — | n (2nd decl) → Gen: παιχνιδακιού | n (2nd decl)
+- εκκλησάκι · form_key: Gen: — | n (2nd decl) → Gen: εκκλησακιού | n (2nd decl)
+- σουβλάκι · form_key: Gen: — | n (2nd decl) → Gen: σουβλακιού | n (2nd decl)
+- ραντεβού · form_key: Gen: ραντεβού | n → Gen: ραντεβού | n (indecl)
+- μπράντι · form_key: Gen: μπράντι | n → Gen: μπράντι | n (indecl)
+- μπόουλινγκ · form_key: Gen: μπόουλινγκ | n → Gen: μπόουλινγκ | n (indecl)
+- μπούλινγκ · form_key: Gen: μπούλινγκ | n → Gen: μπούλινγκ | n (indecl)
+- τσεκάπ · form_key: Gen: τσεκάπ | n → Gen: τσεκάπ | n (indecl)
+- μπούλινγκ · noun.declension: 2 → null
+- τσεκάπ · noun.declension: 2 → null
+- συγχαρητήρια · form_key: Gen: συγχαρητηρίων | n pl only → Gen: συγχαρητηρίων | n pl (2nd decl)
+- χειροπέδες · form_key: Gen: χειροπέδων | f pl → Gen: χειροπέδων | f pl (1st decl)
+- αρκουδάκι · form_key: Gen: ? | n (2nd decl) → Gen: αρκουδακιού | n (2nd decl)
+- αρκουδάκι · noun.gen_sg: null → αρκουδακιού
+- ματς · form_key: Gen: ματς | n (3rd decl) → Gen: ματς | n (indecl)
+- ματς · noun.declension: 3 → null
+- μπόνους · form_key: Gen: μπόνους | n (3rd decl) → Gen: μπόνους | n (indecl)
+- μπόνους · noun.declension: 3 → null
+- τσιγγάνος · gloss: Roma, gypsy (the more neutral everyday term; officially Ρομά) → Roma, gypsy (everyday word, can sound pejorative; the official and respectful term is Ρομά)
+- θεατής · gloss: spectator, viewer (f. θεάτρια) → spectator, viewer (f. η θεατής; θεάτρια is rare)
+- δυόμισι · gloss: two and a half (with neuter nouns; m/f: δυόμισι too) → two and a half (invariable: δυόμισι κιλά, δυόμισι ώρες)
+- ευφυΐα · example.el: Η τεχνητή ευφυΐα αλλάζει τον τρόπο που δουλεύουμε. → Η ευφυΐα του Αρχιμήδη έμεινε στην ιστορία.
+- ευφυΐα · example.en: Artificial intelligence is changing the way we work. → Archimedes' genius went down in history.
+- αλοιφή · gloss: ointment, cream; (Thessaloniki) creamy salad or dip → ointment, cream; (colloq.) smear, spread
+- κοκαλιάρης · example.el: Ήταν κοκαλιάρης παιδί, τώρα είναι αθλητής. → Μικρός ήταν κοκαλιάρης· τώρα είναι αθλητής.
+- κοκαλιάρης · example.en: He was a skinny kid; now he is an athlete. → As a kid he was skinny; now he is an athlete.
+- αριθμητικός · example.el: Τα αριθμητικά συμφωνούν με το ουσιαστικό. → Τα κλιτά αριθμητικά συμφωνούν με το ουσιαστικό.
+- αριθμητικός · example.en: Numerals agree with the noun. → Declinable numerals agree with the noun.
+- παραγωγικός · form_key: f: παραγωγικη, n: παραγωγικο → f: παραγωγική, n: παραγωγικό
+- περιφερειακός · form_key: f: περιφερειακη, n: περιφερειακο → f: περιφερειακή, n: περιφερειακό
+- οργανικός · form_key: f: οργανικη, n: οργανικο → f: οργανική, n: οργανικό
+- ορθός · form_key: f: ορθη, n: ορθο → f: ορθή, n: ορθό
+- διανοητικός · form_key: f: διανοητικη, n: διανοητικο → f: διανοητική, n: διανοητικό
+- συνειδητός · form_key: f: συνειδητη, n: συνειδητο → f: συνειδητή, n: συνειδητό
+- συμβατός · form_key: f: συμβατη, n: συμβατο → f: συμβατή, n: συμβατό
+- δημοσιογραφικός · form_key: f: δημοσιογραφικη, n: δημοσιογραφικο → f: δημοσιογραφική, n: δημοσιογραφικό
+- υπουργικός · form_key: f: υπουργικη, n: υπουργικο → f: υπουργική, n: υπουργικό
+- οικιστικός · form_key: f: οικιστικη, n: οικιστικο → f: οικιστική, n: οικιστικό
+- ρυθμιστικός · form_key: f: ρυθμιστικη, n: ρυθμιστικο → f: ρυθμιστική, n: ρυθμιστικό
+- οικουμενικός · form_key: f: οικουμενικη, n: οικουμενικο → f: οικουμενική, n: οικουμενικό
+- αναπαραγωγικός · form_key: f: αναπαραγωγικη, n: αναπαραγωγικο → f: αναπαραγωγική, n: αναπαραγωγικό
+- θεραπευτικός · form_key: f: θεραπευτικη, n: θεραπευτικο → f: θεραπευτική, n: θεραπευτικό
+- σιωπηρός · form_key: f: σιωπηρη, n: σιωπηρο → f: σιωπηρή, n: σιωπηρό
+- εθνοτικός · form_key: f: εθνοτικη, n: εθνοτικο → f: εθνοτική, n: εθνοτικό
+- συνοριακός · form_key: f: συνοριακη, n: συνοριακο → f: συνοριακή, n: συνοριακό
+- ορθολογικός · form_key: f: ορθολογικη, n: ορθολογικο → f: ορθολογική, n: ορθολογικό
+- δογματικός · form_key: f: δογματικη, n: δογματικο → f: δογματική, n: δογματικό
+- διαλεκτικός · form_key: f: διαλεκτικη, n: διαλεκτικο → f: διαλεκτική, n: διαλεκτικό
+- πλατωνικός · form_key: f: πλατωνικη, n: πλατωνικο → f: πλατωνική, n: πλατωνικό
+- στωικός · form_key: f: στωικη, n: στωικο → f: στωική, n: στωικό
+- ιδεολογικός · form_key: f: ιδεολογικη, n: ιδεολογικο → f: ιδεολογική, n: ιδεολογικό
+- συνταγματικός · form_key: f: συνταγματικη, n: συνταγματικο → f: συνταγματική, n: συνταγματικό
+- δοκιμιακός · form_key: f: δοκιμιακη, n: δοκιμιακο → f: δοκιμιακή, n: δοκιμιακό
+- επικοινωνιακός · form_key: f: επικοινωνιακη, n: επικοινωνιακο → f: επικοινωνιακή, n: επικοινωνιακό
+- ισλαμικός · form_key: f: ισλαμικη, n: ισλαμικο → f: ισλαμική, n: ισλαμικό
+- πτωχός · form_key: f: πτωχη, n: πτωχο → f: πτωχή, n: πτωχό
+- κοινωνικοοικονομικός · form_key: f: κοινωνικοοικονομικη, n: κοινωνικοοικονομικο → f: κοινωνικοοικονομική, n: κοινωνικοοικονομικό
+- αρθρώνω · example.en: He has trouble articulating a coherent proposal. → He has trouble putting together a coherent sentence.
+- τρανός · gloss: (Pontic; old/poetic) big, great (= μεγάλος) → (folk, dialectal, poetic) big, great; eminent (= μεγάλος) (not specifically Pontic)
+- ακροαματικός · gloss: audience (attrib.); listening → listening, auditory; ακροαματική διαδικασία = (law) hearing; cf. ακροαματικότητα = (radio) ratings
+- ακροαματικός · example.el: Η εκπομπή σημείωσε ρεκόρ ακροαματικότητας... με ακροαματικό κοινό κυρίως νέων. → Η ακροαματική διαδικασία στο δικαστήριο κράτησε τρεις μέρες.
+- ακροαματικός · example.en: The show set a ratings record, with an audience made up mainly of young people. → The court hearing lasted three days.
+- αγροίκος · adjective.f: αγροίκα → αγροίκος (two-termination: ο/η αγροίκος)
+- αγροίκος · adjective.model: adj-ος-α-ο → irregular
+- αγροίκος · form_key: f: αγροίκα, n: αγροίκο → f: αγροίκος, n: αγροίκο
+- βαίνω · gloss: (learned) to proceed, to go on (mostly 3rd person: βαίνει ούτω καθεξής = and so on; βαίνει μειούμενος = keeps decreasing) → (learned) to proceed, go on (mostly 3rd person: βαίνει μειούμενος/αυξανόμενος = keeps decreasing/increasing) (ούτω καθεξής is not a βαίνω phrase)
+- εννιακόσια · example.el: Το βιβλίο έχει εννιακόσιες σελίδες. → Το ταξίδι μάς κόστισε εννιακόσια ευρώ. (example used feminine form)
+- εννιακόσια · example.en: The book has nine hundred pages. → The trip cost us nine hundred euros.
+- ονοματοποίηση · gloss: nominalisation (turning verbs into nouns); onomatopoeia → nominalisation (turning verbs or adjectives into nouns); not the same as ονοματοποιία "onomatopoeia"
+- ανασυνθέτω · verb.aorist_1sg: ανασύνθεσα → ανασυνέθεσα (learned compound keeps internal augment)
+- ανασυνθέτω · form_key: Pres: ανασυνθέτω | Aor: ανασύνθεσα → Pres: ανασυνθέτω | Aor: ανασυνέθεσα
+- μικρασιατικός · example.el: Η γιαγιά μου μαγειρεύει μικρασιάτικες συνταγές. → Η γιαγιά μου μαγειρεύει μικρασιατικές συνταγές. (example used colloquial variant μικρασιάτικες)
+- γάρο · gloss: (slang, old-school) hashish, joint → (unverified: not found in standard dictionaries or rebetiko glossaries) said to be old slang for hashish
+- πυροβόλος · gloss: (Cretan) cigarette lighter → (unverified: not found in Cretan dictionaries) said to be Cretan for a cigarette lighter; standard Greek πυροβόλο = gun, πυροβόλος = firing
+- ογλήγορα · gloss: (Cretan, dialect) quickly; soon → (folk, poetic, dialectal; common in Crete) quickly; soon (= γρήγορα) (not Cretan only)
+- διατί · gloss: (archaic) why; because → (archaic, katharevousa) why (= γιατί); "because" is διότι (διατί never meant because)
+- ίνταμπου · example.el: Νάμπου λαλείς, ρε; Εν σε καταλαβαίνω. → Ίνταμπου λαλείς, ρε; Εν σε καταλαβαίνω. (example used a variant, not the headword)
+- θρους · noun.declension: 3 → 2 (contracted 2nd decl (θρόος > θρους))
+- θρους · form_key: Gen: θρου | m (3rd decl) → Gen: θρου | m (2nd decl, contracted)
+- τσιτακισμός · example.el: Ο τσιτακισμός ακούγεται στη Λέσβο και στην Κρήτη. → Ο τσιτακισμός ακούγεται στην Κρήτη, στην Κύπρο και σε πολλά νησιά των Κυκλάδων. (Lesbos is not a tsitakism area)
+- τσιτακισμός · example.en: Tsitakism is heard on Lesbos and in Crete. → Tsitakism is heard in Crete, in Cyprus and on many Cycladic islands.
+- Κωνσταντινουπολίτης · example.el: Η γιαγιά μου ήταν Κωνσταντινουπολίτισσα και μαγείρευε υπέροχα. → Ο παππούς μου ήταν Κωνσταντινουπολίτης και μαγείρευε υπέροχα.
+- Κωνσταντινουπολίτης · example.en: My grandmother was from Constantinople and cooked wonderfully. → My grandfather was from Constantinople and cooked wonderfully.
+- λουφάρω · verb.aorist_1sg: λούφαξα → λούφαρα (λούφαξα is the aorist of λουφάζω)
+- λουφάρω · form_key: Pres: λουφάρω | Aor: λούφαξα → Pres: λουφάρω | Aor: λούφαρα
+- λουφάρω · gloss: (colloquial) to shirk, dodge work; to lie low → (colloquial) to shirk, dodge work (cf. λουφάζω, aor. λούφαξα = to lie low, keep quiet)
+- βιωτή · example.el: Η αρχαία φιλοσοφία αναζητούσε την ευ ζην, την καλή βιωτή. → Η αρχαία φιλοσοφία αναζητούσε το ευ ζην, την καλή βιωτή. (το ευ ζην is neuter)
+- πυροβόλος · gloss: "unverified" flag removed after verification ("πυροβόλος (αναπτήρας, τσακμάκι)" in the Centre for the Greek Language's Cretan dialect chapter, https://www.greek-language.gr/greekLang/modern_greek/studies/dialects/thema_b_6/index.html). γάρο remains unverified.

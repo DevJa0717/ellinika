@@ -1,0 +1,7 @@
+State 2026-10-18 19:30 UTC. Lexicon 8,214 entries (core-1000 + core-3000); forms-index 101,246; names.json 1,781; collocations.json 2,000 lemmas. Lesson lookup 99.9%.
+Running: nothing.
+Merge after any misses/*.out.json or spotcheck*.out.json changes:  python3 /mnt/project-files/data/lexicon/build/finalize.py --write   (idempotent)
+If forms/*.out.json change: apply_forms.py --write first, then finalize.py --write.
+Coverage with the app's sources:  cd /tmp && node /mnt/project-files/data/lexicon/build/misses/cov.js   (writes misses.json in cwd)
+Do NOT rerun merge.py (would undo fixes).
+Next: collocations for the next 2,000 words (brief_colloc.md); 17 needs_review entries.

@@ -1,0 +1,35 @@
+# Sources: slang-everyday
+
+- https://el.wiktionary.org/wiki/ταπί — ταπί < French tapis; meaning 'having spent all my money, broke'; set phrases μένω ταπί and ταπί και ψύχραιμος.
+- https://el.wiktionary.org/wiki/μπαγιόκο — < Italian baiocco (small papal coin); senses: small change, a large sum or stash of money, money in general; appears in rebetiko songs.
+- https://el.wiktionary.org/wiki/φραγκάτος — φράγκο + -άτος (loaded, well-off).
+- https://el.wiktionary.org/wiki/τζάμπα — the two senses 'free' and 'in vain'.
+- https://el.wiktionary.org/wiki/τζαμπατζής — pejorative 'someone who always tries to get things for free'.
+- https://el.wiktionary.org/wiki/τυπάς — popular 'a person with distinctive style and personality', also 'some guy'.
+- https://el.wiktionary.org/wiki/κολλητός — 'very close'; noun use 'best friend' (fem. κολλητή).
+- https://el.wiktionary.org/wiki/κόλλημα — 'obsession' (έχει φάει κόλλημα) and 'persistent, annoying clinging'.
+- https://el.wiktionary.org/wiki/φάση — popular senses: period/moment; a fling without emotional follow-up.
+- https://el.wiktionary.org/wiki/χαβαλές — < Turkish havale; 'attempt to have fun and escape boredom'; a person who jokes or is joked about.
+- https://el.wiktionary.org/wiki/ξενέρωμα, https://el.wiktionary.org/wiki/ξενερώνω, https://el.wiktionary.org/wiki/ξενέρωτος — sobering up → losing one's good mood or positive opinion; ξενέρωτος = dull, without playfulness.
+- https://el.wiktionary.org/wiki/φρικάρω — < English freak (out) + -άρω, with folk-etymological link to φρίκη; aorist φρίκαρα.
+- https://el.wiktionary.org/wiki/τσιμπάω — figurative senses: eat something quickly; fall for something misleading; catch someone in the act.
+- https://el.wiktionary.org/wiki/σκίζω — familiar intransitive sense 'to excel' (in sport, exams).
+- https://el.wiktionary.org/wiki/μπάτσος — the two senses ('slap', 'cop') and their etymologies.
+- https://el.wiktionary.org/wiki/γέρος — familiar or pejorative 'someone's father' (το γέρο μου).
+- https://el.wiktionary.org/wiki/πιτσιρίκι — familiar term for a small child.
+- https://el.wiktionary.org/wiki/μάπα — senses: face/mug; cabbage; figuratively a useless or poor-quality object (synonym χάλια).
+- https://el.wiktionary.org/wiki/άπαιχτος — slang 'unbeatable, beyond competition' (synonyms φοβερός, τέλειος).
+- https://el.wiktionary.org/wiki/πατάτα — figurative senses: a big mistake or blunder; something worthless or uninteresting.
+- https://el.wiktionary.org/wiki/μούρλια — colloquial 'very nice, lovely'.
+- https://el.wiktionary.org/wiki/αράζω — popular 'to park'; 'to laze about'.
+- https://el.wiktionary.org/wiki/φέσι — 'a large debt left unpaid'; familiar 'drunk'.
+- https://el.wiktionary.org/wiki/κοπάνα — skipping school; skipping work, e.g. by pretending to be ill.
+- https://el.wiktionary.org/wiki/μπόμπιρας — 'a small, mischievous boy'.
+- https://el.wiktionary.org/wiki/πτώμα — figurative 'someone exhausted from fatigue'.
+- https://el.wiktionary.org/wiki/κερνάω — offer a sweet or drink to a guest; pay for others as a gift.
+- https://el.wiktionary.org/wiki/ψιλά — small change; colloquially, money.
+- https://el.wiktionary.org/wiki/φρέντο — etymology (Italian freddo).
+- https://el.wiktionary.org/wiki/τσακάλι, https://el.wiktionary.org/wiki/χαλαρά — checked colloquial senses (χαλαρά as an urging to relax).
+- Core lexicon /mnt/project-files/data/lexicon/core-1000.json and core-3000.json — checked existing entries (φράγκο, τζάμπα, κολλητός, φιλαράκι, γκόμενος/γκόμενα, γκομενάκι, μπάτσος, φάση, πλάκα, σκίζω, φρικάρω, κερνάω, σούπερ, χιλιάρικο…) so that only new words or new slang senses were added.
+- Not verified, so deliberately left out: μαλλιά as a word for money (the lesson flags it as a false friend instead), λεφτάς, πανί με πανί.
+- From general knowledge, not checked online: the 1957 Thessaloniki Fair origin of the frappé (a widely reported story).
