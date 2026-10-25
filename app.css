@@ -460,3 +460,13 @@ a, button, summary, .w, .opt, .lesson-row { touch-action: manipulation; -webkit-
 .skel-row { height: 3.4rem; opacity: 0.7; }
 @keyframes skel { from { opacity: 0.55; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .skel > div { animation: none; } }
+
+/* Greek reader (library/reader): section jump chips, picture with credit, poems set as verse. */
+.rdr-toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px; }
+.rdr-toc a { text-decoration: none; }
+.rdr-fig { margin: 0 0 14px; }
+.rdr-fig img { display: block; width: 100%; max-height: 62vh; object-fit: contain; border-radius: 10px; background: rgba(0, 0, 0, 0.04); }
+.rdr-fig figcaption { font: 400 0.85rem/1.45 var(--f-ui); color: var(--muted); margin-top: 6px; }
+.rd-text.poem p { font-style: italic; }
+.rd-text.poem p + p { margin-top: 1.2em; }
+.rdr-src { font-size: 0.8rem; margin: 6px 0 14px; }

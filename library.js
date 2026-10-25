@@ -251,11 +251,20 @@
       const done = (E.progress.library || {});
       if (!id) {
         document.title = heading + " · Ελληνικά";
-        E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>${E.esc(heading)}</h2>
-          ${LEVELS.filter((lv) => idx.items.some((x) => x.level === lv)).map((lv) => `<h3 class="ref-group">${lv}</h3><ul class="lessons">${idx.items.filter((x) => x.level === lv).map((x) => `
+        // A shelf with idx.sections (the Reader) is grouped by section, each row carrying its level.
+        const row = (x, lvl) => `
             <li><a class="lesson-row" href="#${shelf}.${E.esc(x.id)}"><span class="lr-num">${idx.items.indexOf(x) + 1}</span>
             <span class="lr-main"><span class="lr-title" lang="el">${E.esc(x.el)}</span><span class="lr-en">${E.esc(x.title)}</span></span>
-            ${done[shelf + "/" + x.id] != null ? `<span class="chip done">${Math.round(done[shelf + "/" + x.id] * 100)}%</span>` : ""}</a></li>`).join("")}</ul>`).join("")}`;
+            ${lvl ? `<span class="chip">${E.esc(x.level)}</span>` : ""}${done[shelf + "/" + x.id] != null ? `<span class="chip done">${Math.round(done[shelf + "/" + x.id] * 100)}%</span>` : ""}</a></li>`;
+        if (idx.sections) {
+          E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>${E.esc(heading)}</h2>
+            <nav class="rdr-toc">${idx.sections.map((s) => `<a class="chip" href="#${shelf}" data-sec="${s.id}" lang="el">${E.esc(s.el)}</a>`).join("")}</nav>
+            ${idx.sections.map((s) => `<h3 class="ref-group" id="sec-${s.id}"><span lang="el">${E.esc(s.el)}</span> <span class="sub">· ${E.esc(s.title)}</span></h3><ul class="lessons">${idx.items.filter((x) => x.section === s.id).map((x) => row(x, true)).join("")}</ul>`).join("")}`;
+          E.view.querySelectorAll(".rdr-toc a").forEach((a) => (a.onclick = (e) => { e.preventDefault(); E.$("#sec-" + a.dataset.sec).scrollIntoView({ behavior: "smooth" }); }));
+          return window.scrollTo(0, 0);
+        }
+        E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>${E.esc(heading)}</h2>
+          ${LEVELS.filter((lv) => idx.items.some((x) => x.level === lv)).map((lv) => `<h3 class="ref-group">${lv}</h3><ul class="lessons">${idx.items.filter((x) => x.level === lv).map((x) => row(x)).join("")}</ul>`).join("")}`;
         return window.scrollTo(0, 0);
       }
       const meta = idx.items.find((x) => x.id === id);
@@ -266,11 +275,13 @@
       const pos = idx.items.indexOf(meta), next = idx.items[pos + 1];
       E.view.innerHTML = `<p class="crumbs"><a href="#${shelf}">← ${E.esc(heading)}</a></p>
         <div class="story-head"><span class="chip">${E.esc(st.level || meta.level)}</span><h2 lang="el">${E.esc(st.el)}</h2><span class="ex-en">${E.esc(st.title)}${st.author ? " · " + E.esc(st.author) : ""}</span></div>
+        ${st.image ? `<figure class="rdr-fig"><img src="${E.esc(st.image.file)}" alt="${E.esc(st.image.caption || "")}" loading="lazy"><figcaption><span lang="el">${E.esc(st.image.caption || "")}</span>${st.image.credit ? ` <span class="sub">· ${E.esc(st.image.credit.split(" · ").pop())}${st.image.license ? ", " + E.esc(st.image.license) : ""}</span>` : ""}</figcaption></figure>` : ""}
         ${roles ? `<div class="sheet-bar op-bar"><label><input type="checkbox" id="op-show" checked> Show argument structure</label><a class="btn small ghost" href="#expr.connectors~practice">Practise connectors</a></div>` : ""}
-        <div class="rd-text story${roles ? " op-on" : ""}">${st.paras.map((p) => `${p.role ? `<div class="op-role no-look"><span lang="el">${E.esc(p.role)}</span> · ${E.esc(p.role_en || "")}</div>` : ""}<p>${roles ? markMoves(E, p) : E.esc(p.el)}</p>`).join("")}</div>
+        <div class="rd-text story${roles ? " op-on" : ""}${st.form === "poem" ? " poem" : ""}">${st.paras.map((p) => `${p.role ? `<div class="op-role no-look"><span lang="el">${E.esc(p.role)}</span> · ${E.esc(p.role_en || "")}</div>` : ""}<p>${roles ? markMoves(E, p) : E.esc(p.el)}</p>`).join("")}</div>
         ${st.paras.some((p) => p.en) ? `<details class="rd-en"><summary>English translation</summary>${st.paras.map((p) => `<p>${E.esc(p.en || "")}</p>`).join("")}</details>` : ""}
         ${st.structure ? `<section class="card op-struct"><h3>How the argument is built</h3><p>${E.esc(st.structure)}</p>${roles ? `<ol class="op-outline">${st.paras.map((p) => `<li><b>${E.esc(p.role_en || p.role || "")}</b>${(p.moves || []).length ? ` · <span lang="el">${p.moves.map((m) => E.esc(m)).join(", ")}</span>` : ""}</li>`).join("")}</ol>` : ""}</section>` : ""}
         ${st.notes?.length ? `<section class="culture"><h3>Notes</h3><ul class="ref-notes">${st.notes.map((n) => `<li>${E.md(n)}</li>`).join("")}</ul></section>` : ""}
+        ${st.source ? `<p class="sub rdr-src no-look" lang="el">${E.esc(st.source)}</p>` : ""}
         ${st.questions?.length ? `<section class="card story-q"><h3>Questions</h3>${st.questions.map((q, i) => `<div class="sq" data-i="${i}"><p class="q-prompt">${E.esc(q.q)}</p><div class="options">${q.options.map((o) => `<button class="opt">${E.esc(o)}</button>`).join("")}</div><p class="ex-en sq-why" hidden></p></div>`).join("")}<p class="sub" id="sq-score"></p></section>` : ""}
         ${st.vocab?.length ? `<section class="card"><h3>Words from this text</h3><p class="word-cloud" lang="el">${st.vocab.map((v) => E.esc(v)).join(" · ")}</p><button class="btn small" id="sv-add">Add all to my words</button></section>` : ""}
         ${roles ? `<section class="card"><h3>Summary</h3><div class="ws-prompt" lang="el"><p>${SUM_TASK}</p></div><textarea id="sm-draft" class="ws-draft" lang="el" rows="5" spellcheck="false" placeholder="Το άρθρο υποστηρίζει ότι…"></textarea><div class="sheet-bar"><span id="sm-count" class="sub"></span><button class="btn small ghost" id="sm-fb" hidden>Writing feedback</button></div><div id="sm-fbout"></div></section>` : ""}
@@ -308,6 +319,7 @@
   routes.classics = shelfRoute("classics", "Classic Greek stories");
   routes.news = shelfRoute("news", "News reader");
   routes.opinion = shelfRoute("opinion", "Opinion articles");
+  routes.reader = shelfRoute("reader", "Greek reader");
 
   /* ---------- exercise sheets: printable, self-checking grids built from the grammar data ---------- */
   // Each sheet type builds cards of {title, sub, rows:[{label, answers:[...]}]}; answers[0] is shown in the key.
@@ -446,7 +458,7 @@
     } },
     { id: "context", el: "Λέξεις στο κείμενο", title: "Words in context (from the readings)", async make() {
       // Gaps a vocab word in a real sentence from the stories and news; the hint gives the dictionary form, the answer is the inflected form.
-      const shelves = ["stories", "news", "opinion"], texts = [];
+      const shelves = ["stories", "news", "opinion", "reader"], texts = [];
       for (const sh of shelves) { try { const ix = await A().getJSON(`library/${sh}/index.json`); for (const it of ix.items) texts.push(`library/${sh}/${it.file}`); } catch (e) { /* shelf missing */ } }
       const cards = [];
       for (const f of sampleN(texts, texts.length)) {
@@ -1337,7 +1349,7 @@
       const j = await E.getJSON(`lessons/${l.file}`).catch(() => null); if (!j) return;
       docs.push({ kind: "Lesson", href: "#" + l.id, title: `${l.el || j.el || ""} · ${l.title || j.title || ""}`, text: flat([j.blocks, j.practice, j.vocab]) });
     }));
-    for (const [sh, label] of [["stories", "Story"], ["news", "News"], ["classics", "Classic"], ["opinion", "Opinion"]]) {
+    for (const [sh, label] of [["stories", "Story"], ["news", "News"], ["classics", "Classic"], ["opinion", "Opinion"], ["reader", "Reader"]]) {
       const ix = await E.getJSON(`library/${sh}/index.json`).catch(() => ({ items: [] }));
       await Promise.all(ix.items.map(async (it) => {
         const j = await E.getJSON(`library/${sh}/${it.file}`).catch(() => null); if (!j) return;
