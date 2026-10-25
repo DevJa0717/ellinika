@@ -6,6 +6,14 @@
  "intro_en": "From Thales to Hypatia: the life, times, picture of the world, ideas and influence of each Greek philosopher. Chapters follow the chronological order and the Greek grows gradually harder, from B1+ to C1. Every chapter has the Greek text with a fuller English parallel (switch between Greek only, both and English only), new terms defined in Greek and English, graded grammar notes, numbered sources, questions and words to keep. Tap any Greek word to look it up.",
  "parts": [
   {
+   "id": "ionia",
+   "el": "Οι πρώτοι φυσικοί",
+   "en": "The first natural philosophers",
+   "dates": "περ. 600–480 π.Χ.",
+   "intro_el": "Στις πόλεις της Ιωνίας και της Κάτω Ιταλίας, μερικοί άνθρωποι άρχισαν να εξηγούν τον κόσμο χωρίς μύθους, με παρατήρηση και επιχειρήματα.",
+   "intro_en": "In the Greek cities of Ionia (the west coast of Asia Minor) and of southern Italy, a few people began to explain the world without myths, through observation and argument. Aristotle called them the physikoi, the students of nature."
+  },
+  {
    "id": "hellenistic",
    "el": "Οι δρόμοι της ευτυχίας",
    "en": "Hellenistic roads to happiness",
@@ -15,6 +23,60 @@
   }
  ],
  "items": [
+  {
+   "id": "thales",
+   "file": "thales.json",
+   "el": "Θαλής ο Μιλήσιος",
+   "title": "Thales of Miletus",
+   "level": "B1+",
+   "part": "ionia",
+   "dates": "περ. 624 – 546 π.Χ."
+  },
+  {
+   "id": "anaximander",
+   "file": "anaximander.json",
+   "el": "Αναξίμανδρος",
+   "title": "Anaximander",
+   "level": "B1+",
+   "part": "ionia",
+   "dates": "περ. 610 – 546 π.Χ."
+  },
+  {
+   "id": "anaximenes",
+   "file": "anaximenes.json",
+   "el": "Αναξιμένης",
+   "title": "Anaximenes",
+   "level": "B1+",
+   "part": "ionia",
+   "dates": "περ. 585 – 525 π.Χ."
+  },
+  {
+   "id": "pythagoras",
+   "file": "pythagoras.json",
+   "el": "Πυθαγόρας",
+   "title": "Pythagoras",
+   "level": "B2",
+   "part": "ionia",
+   "dates": "περ. 570 – 495 π.Χ."
+  },
+  {
+   "id": "xenophanes",
+   "file": "xenophanes.json",
+   "el": "Ξενοφάνης",
+   "title": "Xenophanes",
+   "level": "B2",
+   "part": "ionia",
+   "dates": "περ. 570 – 475 π.Χ."
+  },
+  {
+   "id": "heraclitus",
+   "file": "heraclitus.json",
+   "el": "Ηράκλειτος",
+   "title": "Heraclitus",
+   "level": "B2",
+   "part": "ionia",
+   "dates": "περ. 535 – 475 π.Χ."
+  },
   {
    "id": "diogenes",
    "file": "diogenes.json",
