@@ -1,0 +1,233 @@
+PART = dict(id="kriti", el="Κρήτη", en="Crete",
+            intro_el="Το μεγαλύτερο ελληνικό νησί έχει τη δική του κουζίνα: χόρτα του βουνού, κριθαρένια παξιμάδια, μυζήθρα, ελαιόλαδο σε κάθε πιάτο, σαλιγκάρια και το γαμοπίλαφο των γάμων.",
+            intro_en="Greece's largest island has a cuisine of its own: mountain greens, barley rusks, fresh whey cheese, olive oil in every dish, snails, and the rich pilaf of Cretan weddings. In the 1960s the diet of Cretan villagers became the model for what the world now calls the Mediterranean diet.")
+
+CHAPTERS = [
+dict(
+ id="ntakos", el="Ντάκος", title="Dakos: barley rusk with tomato and cheese", level="B2", dates="Κρήτη",
+ summary_en="*Dakos* is the simplest dish in this book and one of the most Cretan: a barley rusk moistened with water and olive oil, piled with grated tomato and crumbled mizithra or feta, finished with oregano. It turns a shepherd's dry bread into a meal, and it shows the three pillars of the Cretan table: barley, olive oil and cheese.",
+ sections=[
+  dict(id="paximadi", el="Από το παξιμάδι στο πιάτο", en="From rusk to plate", paras=[
+   ("Ο ντάκος ξεκινά από ένα κριθαρένιο παξιμάδι, ψωμί από κριθάρι που ψήνεται δύο φορές μέχρι να ξεραθεί εντελώς. Τα παξιμάδια κρατούσαν μήνες χωρίς να χαλάσουν, γι' αυτό τα έπαιρναν μαζί τους οι βοσκοί στα βουνά και οι ναυτικοί στα καράβια. Για να φαγωθεί, το σκληρό παξιμάδι πρέπει πρώτα να μαλακώσει με λίγο νερό και λάδι.",
+    "Dakos starts from a barley rusk, bread made with barley flour and baked twice until completely dry. Rusks kept for months without spoiling, which is why shepherds took them up to the summer pastures and sailors took them to sea; barley also grows in poorer, drier soils than wheat. To be eaten, the hard rusk must first be softened with a splash of water and olive oil, which it soaks up like a sponge.", ["dakos_w", "paximadi_w", "psilakis"]),
+   ("Πάνω στο παξιμάδι μπαίνει τριμμένη ώριμη ντομάτα, τυρί και ρίγανη. Στην Κρήτη το τυρί είναι συνήθως ξινομυζήθρα ή μυζήθρα, ενώ έξω από την Κρήτη χρησιμοποιούν συχνά φέτα. Πολλοί προσθέτουν ελιές και κάπαρη. Ο ντάκος λέγεται σε μερικές περιοχές και «κουκουβάγια».",
+    "On top go grated ripe tomato, cheese and oregano. In Crete the cheese is usually *xinomizithra* (a soft, tangy whey cheese) or fresh *mizithra*; elsewhere feta is common. Many cooks add olives and capers. In some places the dish is also called *koukouvagia*, “owl”. Its salad layer is close to Italian *panzanella* or Catalan *pa amb tomàquet*: bread, tomato and oil, the summer meal of the whole Mediterranean.", ["dakos_w", "kochilas"]),
+  ]),
+  dict(id="trapezi", el="Στο κρητικό τραπέζι", en="On the Cretan table", paras=[
+   ("Στις κρητικές ταβέρνες ο ντάκος σερβίρεται ως μεζές, συνήθως με ένα ποτηράκι τσικουδιά, το δυνατό ποτό του νησιού από τα στέμφυλα του σταφυλιού. Στο σπίτι είναι ένα γρήγορο και φτηνό καλοκαιρινό φαγητό. Είναι επίσης νηστίσιμος αν παραλείψουμε το τυρί.",
+    "In Cretan tavernas *dakos* is served as a *meze*, a small shared dish, usually with a glass of *tsikoudia*, the island's strong spirit distilled from grape pomace (the skins and pips left after pressing). At home it is a quick, cheap summer meal. Without the cheese it is a fast-day dish (*νηστίσιμος*).", ["cretan_w", "kochilas"]),
+  ]),
+ ],
+ recipe=dict(serves=("2 μερίδες", "Serves 2"), time=("15 λεπτά", "15 minutes"),
+  groups=[("Υλικά", "Ingredients", [
+   ("2 μεγάλα κριθαρένια παξιμάδια (ή 4 μικρά)", "2 large barley rusks (or 4 small)"),
+   ("2 ώριμες ντομάτες", "2 ripe tomatoes"),
+   ("150 γρ. ξινομυζήθρα, μυζήθρα ή φέτα", "150 g xinomizithra, mizithra or feta"),
+   ("4 κουταλιές της σούπας εξαιρετικό παρθένο ελαιόλαδο", "4 tablespoons extra virgin olive oil"),
+   ("1 κουταλάκι ρίγανη", "1 teaspoon dried oregano"),
+   ("μερικές ελιές και 1 κουταλιά κάπαρη (προαιρετικά)", "a few olives and 1 tablespoon capers (optional)"),
+   ("αλάτι", "salt")])],
+  steps=[
+   ("Ραντίστε τα παξιμάδια με λίγο κρύο νερό, όσο χρειάζεται για να μαλακώσουν λίγο στην επιφάνεια, χωρίς να λιώσουν.", "Sprinkle the rusks with a little cold water, just enough to soften the surface without making them soggy."),
+   ("Βάλτε τα σε ένα πιάτο και περιχύστε τα με τη μισή ποσότητα του ελαιολάδου. Αφήστε τα πέντε λεπτά να το απορροφήσουν.", "Put them on a plate and pour half the olive oil over them. Leave them for five minutes to soak it up."),
+   ("Κόψτε τις ντομάτες στη μέση και τρίψτε τες στον χοντρό τρίφτη. Πετάξτε τη φλούδα. Αλατίστε ελαφρά τον χυμό.", "Halve the tomatoes and grate them on the coarse side of the grater. Throw away the skin. Salt the pulp lightly."),
+   ("Απλώστε την ντομάτα πάνω στα παξιμάδια.", "Spread the tomato over the rusks."),
+   ("Θρυμματίστε το τυρί με τα δάχτυλα και πασπαλίστε το από πάνω.", "Crumble the cheese with your fingers and scatter it on top."),
+   ("Προσθέστε τις ελιές και την κάπαρη, πασπαλίστε με ρίγανη και περιχύστε με το υπόλοιπο λάδι. Σερβίρετε αμέσως.", "Add the olives and capers, sprinkle with oregano and drizzle with the rest of the oil. Serve at once.")],
+  tips=[("Μη βρέξετε πολύ τα παξιμάδια: ο καλός ντάκος είναι μαλακός από πάνω και τραγανός στη μέση.", "Don't soak the rusks too much: a good dakos is soft on top and still crunchy in the middle.")]),
+ grammar=[
+  dict(level="B2", title="Object pronouns after the imperative: τρίψτε τες, βάλτε τα",
+       el="Μετά την προστακτική ο αδύνατος τύπος της προσωπικής αντωνυμίας μπαίνει μετά το ρήμα: «τρίψτε τες», «βάλτε τα στο πιάτο».",
+       en="With an imperative the weak object pronoun **follows** the verb: *τρίψτε τες* (grate them, f.), *βάλτε τα* (put them, n.), *σερβίρετέ το* (serve it). Note the feminine plural form **τες** (not *τις*) after an imperative, and the extra accent when the verb is stressed on the third-last syllable: *σερβίρετέ το, ανακατέψτε τα*.",
+       examples=[("Κόψτε τις ντομάτες και τρίψτε τες.", "Cut the tomatoes and grate them."), ("Πάρτε τα παξιμάδια και βρέξτε τα.", "Take the rusks and wet them."), ("Σερβίρετέ το αμέσως.", "Serve it immediately.")]),
+  dict(level="B2", title="Adjectives of material in -ένιος: κριθαρένιος, ξύλινος, πήλινος",
+       el="Το επίθετο κριθαρένιος σημαίνει «φτιαγμένος από κριθάρι». Με τον ίδιο τρόπο: σταρένιος, καλαμποκένιος.",
+       en="**-ένιος, -ένια, -ένιο** marks the grain or material something is made of: *κριθαρένιο παξιμάδι* (barley rusk), *σταρένιο ψωμί* (wheat bread), *καλαμποκένιο αλεύρι* (cornflour), *χρυσαφένιος* (golden). **-ινος** does the same for materials: *ξύλινος* (wooden), *πήλινος* (clay), *γυάλινος* (glass).",
+       examples=[("Θέλω δύο κριθαρένια παξιμάδια.", "I'd like two barley rusks."), ("Ανακατέψτε με ξύλινη κουτάλα.", "Stir with a wooden spoon.")]),
+ ],
+ terms=[
+  ("το κριθάρι", "barley", "Δημητριακό που αντέχει στην ξηρασία· από αυτό γίνονται τα κρητικά παξιμάδια.", "A drought-tolerant grain; Cretan rusks are made from it."),
+  ("η μυζήθρα", "mizithra (whey cheese)", "Μαλακό λευκό τυρί από τον ορό του γάλακτος, φρέσκο ή ξερό.", "A soft white cheese made from whey, eaten fresh or dried."),
+  ("ο μεζές", "meze, small dish", "Μικρή μερίδα φαγητού που συνοδεύει το ποτό.", "A small portion of food served with a drink and shared."),
+  ("η τσικουδιά", "tsikoudia", "Το κρητικό απόσταγμα από τα στέμφυλα του σταφυλιού, αλλιώς ρακί.", "Crete's grape-pomace spirit, also called raki."),
+  ("νηστίσιμος", "suitable for fast days", "Φαγητό χωρίς κρέας και γαλακτοκομικά, που τρώγεται τις ημέρες της νηστείας.", "Free of meat and dairy, so it can be eaten on fast days."),
+  ("θρυμματίζω", "crumble", "Κόβω κάτι σε πολύ μικρά κομματάκια με τα δάχτυλα.", "Break into small crumbs with the fingers."),
+ ],
+ questions=[
+  ("Από τι είναι φτιαγμένο το παξιμάδι του ντάκου;", ["Από κριθάρι", "Από καλαμπόκι", "Από ρύζι", "Από πατάτα"], "Από κριθάρι", "Ο ντάκος γίνεται με κριθαρένιο παξιμάδι."),
+  ("Γιατί έπαιρναν παξιμάδια οι βοσκοί και οι ναυτικοί;", ["Γιατί κρατούσαν μήνες", "Γιατί ήταν γλυκά", "Γιατί ήταν ζεστά", "Γιατί ήταν ακριβά"], "Γιατί κρατούσαν μήνες", "Το ξερό ψωμί δεν χαλάει."),
+  ("Τι κάνουμε με τις ντομάτες;", ["Τις τρίβουμε στον τρίφτη", "Τις τηγανίζουμε", "Τις βράζουμε", "Τις ψήνουμε"], "Τις τρίβουμε στον τρίφτη", "Η φλούδα μένει στο χέρι και πετιέται."),
+  ("Πώς λέμε «grate them» για τις ντομάτες;", ["τρίψτε τες", "τρίψτε τις", "τες τρίψτε", "τρίψτε τους"], "τρίψτε τες", "Μετά από προστακτική το θηλυκό είναι «τες»."),
+ ],
+ vocab=["το παξιμάδι", "το κριθάρι", "κριθαρένιος", "η ντομάτα", "τρίβω", "ο τρίφτης", "η μυζήθρα", "η φέτα", "η ρίγανη", "η κάπαρη", "περιχύνω", "θρυμματίζω", "ο μεζές", "νηστίσιμος"],
+),
+
+dict(
+ id="kalitsounia", el="Καλιτσούνια", title="Kalitsounia: Cretan cheese pastries", level="B2", dates="Κρήτη",
+ summary_en="*Kalitsounia* are small Cretan pastries filled with fresh whey cheese, made in a dozen local versions: salty or sweet, open or closed, baked or fried, with mint, with cinnamon, with honey poured over. They are the Easter pastry of Crete, and a good lesson in the vocabulary of dough: *ζυμάρι, ζυμώνω, ανοίγω φύλλο, κόβω κύκλους, κλείνω*.",
+ sections=[
+  dict(id="poikilia", el="Ένα γλυκό με πολλά πρόσωπα", en="One pastry, many faces", paras=[
+   ("Σχεδόν κάθε περιοχή της Κρήτης έχει τα δικά της καλιτσούνια. Στα Χανιά τα φτιάχνουν αλμυρά, με μυζήθρα και μυρωδικά, ή γλυκά, με μυζήθρα και μέλι από πάνω. Στο Λασίθι είναι κυρίως γλυκά, με μυζήθρα, κανέλα και ξύσμα λεμονιού. Άλλα ψήνονται στον φούρνο και άλλα τηγανίζονται, ανάλογα με το ζυμάρι.",
+    "Almost every part of Crete has its own *kalitsounia*. In the Chania area they are made salty, with mizithra and fresh herbs, or with greens and no cheese at all, or sweet, with mizithra and honey poured on top. In Lasithi in the east they are mostly sweet, filled with mizithra, cinnamon and sometimes lemon zest. Some are baked and some fried, depending on whether the pastry is a soft dough or thin filo.", ["kalitsounia_w", "psilakis"]),
+   ("Η γέμιση είναι απλή: φρέσκια μυζήθρα ή ανθότυρο, ένα αυγό για να δέσει, και δυόσμος για τα αλμυρά ή ζάχαρη και κανέλα για τα γλυκά. Το πιο γνωστό σχήμα είναι το «ανοιχτό»: ένας κύκλος ζυμαριού που διπλώνει γύρω από τη γέμιση σαν μικρό αστέρι, ενώ η μυζήθρα μένει ορατή στη μέση.",
+    "The filling is simple: fresh mizithra or *anthotyro* (another soft whey cheese), an egg to bind it, and mint for the salty kind or sugar and cinnamon for the sweet. The best-known shape is the “open” one: a round of dough pinched up around the filling into a little star or crown, leaving the cheese visible in the middle, which browns in the oven. The closed half-moon shape, sealed with a fork, is the one usually fried.", ["kalitsounia_w", "kochilas"]),
+  ]),
+  dict(id="pascha", el="Το Πάσχα στην Κρήτη", en="Easter in Crete", paras=[
+   ("Τα καλιτσούνια συνδέονται πολύ με το Πάσχα. Στο τέλος της Σαρακοστής, όταν τελειώνει η νηστεία, τα τυριά ξαναμπαίνουν στο σπίτι και οι νοικοκυρές ψήνουν μεγάλες ποσότητες για την οικογένεια και τους επισκέπτες. Η άνοιξη είναι και η εποχή της φρέσκιας μυζήθρας, γιατί τα ζώα έχουν πολύ γάλα.",
+    "*Kalitsounia* are closely tied to Easter. At the end of Lent, when the fast is over, cheese comes back into the house and families bake them in large batches for relatives and visitors, together with the Easter bread rings. Spring is also the season of fresh mizithra, because the sheep and goats, grazing on new grass after lambing, give plenty of milk.", ["kochilas", "psilakis"]),
+  ]),
+ ],
+ recipe=dict(serves=("περίπου 30 κομμάτια", "About 30 pastries"), time=("1 ώρα και 30 λεπτά", "1 hour 30 minutes"),
+  groups=[
+   ("Για το ζυμάρι", "For the dough", [
+    ("500 γρ. αλεύρι για όλες τις χρήσεις", "500 g plain flour"), ("120 ml ελαιόλαδο", "120 ml olive oil"), ("1 αυγό", "1 egg"),
+    ("1 κουταλάκι μπέικιν πάουντερ", "1 teaspoon baking powder"), ("περίπου 200 ml χλιαρό νερό", "about 200 ml lukewarm water"), ("1 πρέζα αλάτι", "1 pinch of salt")]),
+   ("Για τη γέμιση", "For the filling", [
+    ("500 γρ. φρέσκια μυζήθρα ή ανθότυρο", "500 g fresh mizithra or anthotyro"), ("1 αυγό", "1 egg"),
+    ("2 κουταλιές της σούπας ψιλοκομμένο δυόσμο (για αλμυρά)", "2 tablespoons chopped mint (for the salty kind)"),
+    ("ή 3 κουταλιές ζάχαρη και 1 κουταλάκι κανέλα (για γλυκά)", "or 3 tablespoons sugar and 1 teaspoon cinnamon (for the sweet kind)")]),
+   ("Για το πασάλειμμα", "To finish", [("1 κρόκος αυγού χτυπημένος με λίγο γάλα", "1 egg yolk beaten with a little milk"), ("σουσάμι", "sesame seeds")])],
+  steps=[
+   ("Σε μια λεκάνη ανακατέψτε το αλεύρι, το αλάτι και το μπέικιν πάουντερ. Κάντε μια λακκούβα στη μέση και ρίξτε το λάδι και το αυγό.", "In a bowl mix the flour, salt and baking powder. Make a well in the middle and add the oil and egg."),
+   ("Προσθέτετε το νερό λίγο λίγο και ζυμώνετε, μέχρι να γίνει ένα μαλακό ζυμάρι που δεν κολλάει στα χέρια. Σκεπάστε το και αφήστε το να ξεκουραστεί μισή ώρα.", "Add the water a little at a time, kneading, until you have a soft dough that doesn't stick to your hands. Cover it and let it rest for half an hour."),
+   ("Στο μεταξύ λιώστε τη μυζήθρα με ένα πιρούνι και ανακατέψτε τη με το αυγό και τον δυόσμο, ή με τη ζάχαρη και την κανέλα.", "Meanwhile mash the mizithra with a fork and mix it with the egg and mint, or with the sugar and cinnamon."),
+   ("Προθερμάνετε τον φούρνο στους 180 βαθμούς. Ανοίξτε το ζυμάρι σε λεπτό φύλλο με τον πλάστη και κόψτε κύκλους με ένα ποτήρι.", "Preheat the oven to 180 °C. Roll out the dough thinly with a rolling pin and cut out rounds with a glass."),
+   ("Βάλτε μία κουταλιά γέμιση στη μέση κάθε κύκλου. Σηκώστε τις άκρες και τσιμπήστε τες γύρω γύρω, ώστε να μείνει η γέμιση ανοιχτή στο κέντρο.", "Put a spoonful of filling in the middle of each round. Lift the edges and pinch them all round, so that the filling stays open in the centre."),
+   ("Αραδιάστε τα σε ταψί στρωμένο με λαδόκολλα, αλείψτε τα με τον κρόκο και πασπαλίστε με σουσάμι.", "Arrange them on a tin lined with baking paper, brush them with the yolk and sprinkle with sesame."),
+   ("Ψήστε τα για 25 με 30 λεπτά, μέχρι να ροδίσουν. Τα γλυκά σερβίρονται και με λίγο μέλι από πάνω.", "Bake for 25 to 30 minutes, until golden. The sweet ones are also served with a little honey on top.")],
+  tips=[("Αν η μυζήθρα είναι πολύ υγρή, στραγγίστε την από το βράδυ σε ένα πανί, αλλιώς η γέμιση θα τρέξει στο ψήσιμο.", "If the mizithra is very wet, drain it overnight in a cloth, or the filling will run during baking.")]),
+ grammar=[
+  dict(level="B2", title="Repeated adverbs for gradual or all-round actions: λίγο λίγο, γύρω γύρω, σιγά σιγά",
+       el="Ο διπλασιασμός του επιρρήματος δείχνει ότι κάτι γίνεται σταδιακά ή παντού: «λίγο λίγο», «σιγά σιγά», «γύρω γύρω».",
+       en="Greek doubles adverbs to show that an action is gradual or covers a whole area: *λίγο λίγο* (a little at a time), *σιγά σιγά* (slowly, gradually), *γύρω γύρω* (all the way round), *ένα ένα* (one by one). There is no comma or hyphen between the two words in standard spelling.",
+       examples=[("Ρίχνετε το νερό λίγο λίγο.", "Add the water a little at a time."), ("Τσιμπήστε τις άκρες γύρω γύρω.", "Pinch the edges all the way round."), ("Βάλτε τα ένα ένα στο ταψί.", "Put them one by one on the tin.")]),
+  dict(level="B2", title="Στο μεταξύ, ώστε, ανάλογα με: linking steps",
+       el="«Στο μεταξύ» σημαίνει «την ίδια ώρα», «ώστε» δείχνει αποτέλεσμα και «ανάλογα με» δείχνει ότι κάτι εξαρτάται από κάτι άλλο.",
+       en="**Στο μεταξύ** (meanwhile) introduces a parallel step. **Ώστε (να)** introduces result or purpose: *τσιμπήστε τις άκρες ώστε να μείνει ανοιχτή η γέμιση*. **Ανάλογα με** + accusative means “depending on”: *ανάλογα με το ζυμάρι*, *ανάλογα με τον φούρνο*.",
+       examples=[("Στο μεταξύ ετοιμάστε τη γέμιση.", "Meanwhile, prepare the filling."), ("Ψήστε 25–30 λεπτά, ανάλογα με τον φούρνο.", "Bake 25–30 minutes, depending on the oven.")]),
+ ],
+ terms=[
+  ("το ζυμάρι", "dough", "Μείγμα από αλεύρι και υγρό που ζυμώνεται.", "A mixture of flour and liquid that is kneaded."),
+  ("η γέμιση", "filling, stuffing", "Ό,τι βάζουμε μέσα σε πίτα, λαχανικό ή ζυμάρι.", "Whatever is put inside a pie, vegetable or pastry."),
+  ("το ανθότυρο", "anthotyro (soft whey cheese)", "Μαλακό λευκό τυρί από ορό γάλακτος, συγγενικό με τη μυζήθρα.", "A soft white whey cheese, related to mizithra."),
+  ("το ξύσμα", "zest", "Η ξυσμένη εξωτερική φλούδα του λεμονιού ή του πορτοκαλιού.", "The grated outer peel of a lemon or orange."),
+  ("η λακκούβα", "well (in flour)", "Μικρό βαθούλωμα· στη ζύμη, η τρύπα στη μέση του αλευριού.", "A small hollow; in baking, the well in the flour."),
+  ("αραδιάζω", "arrange in rows", "Βάζω πράγματα το ένα δίπλα στο άλλο σε σειρά.", "Set things side by side in a row."),
+ ],
+ questions=[
+  ("Με ποια γιορτή συνδέονται τα καλιτσούνια;", ["Με το Πάσχα", "Με τα Χριστούγεννα", "Με την Καθαρά Δευτέρα", "Με το Δεκαπενταύγουστο"], "Με το Πάσχα", "Μετά τη νηστεία της Σαρακοστής ξαναμπαίνουν τα τυριά."),
+  ("Τι μπαίνει στα γλυκά καλιτσούνια του Λασιθίου;", ["Μυζήθρα, κανέλα και ξύσμα λεμονιού", "Φέτα και δυόσμος", "Κιμάς και ρύζι", "Σπανάκι και άνηθος"], "Μυζήθρα, κανέλα και ξύσμα λεμονιού", "Στο Λασίθι είναι κυρίως γλυκά."),
+  ("Τι σημαίνει «λίγο λίγο»;", ["A little at a time", "Very little", "Not at all", "Too much"], "A little at a time", "Ο διπλασιασμός δείχνει κάτι σταδιακό."),
+  ("Γιατί στραγγίζουμε τη μυζήθρα από το βράδυ;", ["Για να μην τρέξει η γέμιση", "Για να γίνει πιο γλυκιά", "Για να ψηθεί πιο γρήγορα", "Για να γίνει πιο αλμυρή"], "Για να μην τρέξει η γέμιση", "Η υγρή μυζήθρα βγάζει νερά στον φούρνο."),
+ ],
+ vocab=["το ζυμάρι", "ζυμώνω", "ο πλάστης", "ο κύκλος", "η γέμιση", "η μυζήθρα", "ο δυόσμος", "η κανέλα", "το ξύσμα", "ο κρόκος", "το σουσάμι", "αλείφω", "τσιμπώ", "στο μεταξύ"],
+),
+
+dict(
+ id="chochlioi", el="Χοχλιοί μπουμπουριστοί", title="Chochlioi boubouristi: Cretan snails with rosemary and vinegar", level="B2", dates="Κρήτη",
+ summary_en="Cretans have eaten snails for as long as anyone can remember, and they eat more of them than anyone else in Greece. The classic dish is *chochlioi boubouristi*: snails laid face down in a pan of salt, then fried in olive oil and finished with vinegar and rosemary. It is quick, strong-flavoured and, because snails are “bloodless”, allowed on most fast days.",
+ sections=[
+  dict(id="saligkaria", el="Τα σαλιγκάρια της Κρήτης", en="The snails of Crete", paras=[
+   ("Στην Κρήτη τα σαλιγκάρια λέγονται «χοχλιοί». Οι Κρητικοί τα μαζεύουν μετά την πρώτη βροχή του φθινοπώρου, όταν βγαίνουν από τα χώματα και τις πέτρες. Επειδή η Εκκλησία θεωρεί τα σαλιγκάρια «αναίμακτα», όπως τα θαλασσινά, επιτρέπονται τις περισσότερες ημέρες της νηστείας. Γι' αυτό είχαν μεγάλη θέση στη διατροφή των χωριών.",
+    "In Crete snails are called *chochlioi* (standard Greek *σαλιγκάρια*). Cretans gather them after the first autumn rains, when they come out from under soil and stones, and in spring. Because the Church treats snails as “bloodless”, like seafood, they are allowed on most fast days, so in the many weeks of the Orthodox fasting calendar they were a precious source of protein in village diets. Collected snails are kept for some days and fed on flour or greens so that they purge themselves before cooking.", ["cretan_w", "psilakis", "fasting_w"]),
+   ("Υπάρχουν πολλές συνταγές: χοχλιοί με κολοκυθάκια, με πατάτες, με χόντρο (σπασμένο σιτάρι) ή στιφάδο. Η πιο γνωστή όμως είναι οι «μπουμπουριστοί». Τα σαλιγκάρια μπαίνουν μπρούμυτα, με το άνοιγμα προς τα κάτω, σε ένα τηγάνι με χοντρό αλάτι, και ύστερα τηγανίζονται με λάδι, σβήνονται με ξίδι και αρωματίζονται με δεντρολίβανο.",
+    "There are many recipes: snails with courgettes, with potatoes, with *chondros* (cracked wheat) or as a *stifado* with onions. The best known, though, is *boubouristi*. The snails are laid face down, opening to the bottom, in a frying pan sprinkled with coarse salt and left to sizzle; then olive oil goes in, the pan is deglazed with vinegar and flavoured with rosemary. They are eaten straight from the shell, often with a pin or a toothpick, and the oily, vinegary juice is mopped up with bread.", ["cretan_w", "kochilas", "psilakis"]),
+  ]),
+ ],
+ recipe=dict(serves=("4 μερίδες (ως μεζές)", "Serves 4 (as a meze)"), time=("30 λεπτά (με έτοιμα σαλιγκάρια)", "30 minutes (with prepared snails)"),
+  groups=[("Υλικά", "Ingredients", [
+   ("1 κιλό ζωντανά σαλιγκάρια, καθαρισμένα (ή κατεψυγμένα, έτοιμα για μαγείρεμα)", "1 kg live snails, purged and cleaned (or frozen ones ready for cooking)"),
+   ("2–3 κουταλιές της σούπας χοντρό αλάτι", "2–3 tablespoons coarse salt"),
+   ("150 ml ελαιόλαδο", "150 ml olive oil"),
+   ("150 ml κόκκινο ξίδι", "150 ml red wine vinegar"),
+   ("2 κλωναράκια φρέσκο δεντρολίβανο", "2 sprigs fresh rosemary")])],
+  steps=[
+   ("Πλύνετε πολύ καλά τα σαλιγκάρια σε πολλά νερά. Με ένα μικρό μαχαίρι ξύστε τη λεπτή μεμβράνη που κλείνει το άνοιγμα του καθενός.", "Wash the snails very well in several changes of water. With a small knife scrape off the thin membrane that seals each one's opening."),
+   ("Πασπαλίστε τον πάτο ενός μεγάλου τηγανιού με το χοντρό αλάτι και ζεστάνετέ το σε μέτρια φωτιά.", "Sprinkle the bottom of a large frying pan with the coarse salt and heat it over medium heat."),
+   ("Βάλτε τα σαλιγκάρια μπρούμυτα, με το άνοιγμα προς τα κάτω, πάνω στο αλάτι. Αφήστε τα να «τσιτσιρίσουν» τρία με τέσσερα λεπτά, χωρίς να τα ανακατέψετε.", "Lay the snails face down, opening to the bottom, on the salt. Let them sizzle for three or four minutes without stirring."),
+   ("Ρίξτε το λάδι και τηγανίστε τα άλλα τρία με τέσσερα λεπτά, κουνώντας το τηγάνι.", "Pour in the oil and fry for another three or four minutes, shaking the pan."),
+   ("Σβήστε με το ξίδι, προσέχοντας γιατί πετάγεται, και ρίξτε το δεντρολίβανο. Αφήστε να βράσουν ένα με δύο λεπτά.", "Deglaze with the vinegar, taking care because it spits, and add the rosemary. Let it bubble for a minute or two."),
+   ("Σερβίρετε αμέσως, ζεστά, με τη σάλτσα του τηγανιού και φρέσκο ψωμί.", "Serve immediately, hot, with the pan juices and fresh bread.")],
+  tips=[("Όταν ρίχνετε το ξίδι, κρατήστε το πρόσωπό σας μακριά από το τηγάνι: ο ατμός είναι πολύ δυνατός.", "When you pour in the vinegar, keep your face away from the pan: the steam is very sharp.")]),
+ grammar=[
+  dict(level="B2", title="The active participle in -οντας / -ώντας: κουνώντας, προσέχοντας",
+       el="Η μετοχή σε -οντας ή -ώντας δείχνει κάτι που γίνεται την ίδια ώρα με το κύριο ρήμα: «τηγανίστε κουνώντας το τηγάνι».",
+       en="The indeclinable active participle (**γερούνδιο**) in **-οντας** (verbs in -ω) or **-ώντας** (verbs in -άω/-ώ) describes an action happening at the same time as the main verb: *τηγανίστε, κουνώντας το τηγάνι* (fry, shaking the pan), *σβήστε με το ξίδι, προσέχοντας* (deglaze, being careful). Object pronouns follow it: *ανακατεύοντάς το* (stirring it).",
+       examples=[("Ρίξτε το γάλα ανακατεύοντας συνέχεια.", "Pour in the milk, stirring all the time."), ("Ψήστε, γυρίζοντάς τα μία φορά.", "Grill, turning them once.")]),
+  dict(level="B2", title="Manner adverbs from posture: μπρούμυτα, ανάσκελα, όρθιος",
+       el="Το «μπρούμυτα» σημαίνει «με το πρόσωπο προς τα κάτω» και το αντίθετό του είναι «ανάσκελα».",
+       en="*Μπρούμυτα* (face down) and *ανάσκελα* (face up, on one's back) are used for people and, in the kitchen, for anything with a “face”: snails, halved vegetables, a fish on the grill. Related: *ανάποδα* (upside down), *όρθιος* (upright), *πλάγια* (on its side).",
+       examples=[("Βάλτε τις μελιτζάνες μπρούμυτα στο ταψί.", "Place the aubergines face down in the tin."), ("Γυρίστε το κέικ ανάποδα σε μια πιατέλα.", "Turn the cake upside down onto a platter.")]),
+ ],
+ terms=[
+  ("ο χοχλιός", "snail (Crete)", "Κρητική λέξη για το σαλιγκάρι.", "The Cretan word for snail."),
+  ("αναίμακτος", "bloodless", "Χωρίς αίμα· έτσι χαρακτηρίζονται τα θαλασσινά και τα σαλιγκάρια στη νηστεία.", "Without blood; how seafood and snails are classed for fasting."),
+  ("μπρούμυτα", "face down", "Με το μπροστινό μέρος προς τα κάτω.", "With the front side downwards."),
+  ("τσιτσιρίζω", "sizzle", "Κάνω τον ήχο που κάνει το φαγητό στο καυτό τηγάνι.", "Make the sound food makes in a very hot pan."),
+  ("ο χόντρος", "cracked wheat (Crete)", "Σπασμένο σιτάρι, βρασμένο και ξεραμένο, για σούπες και πιλάφια.", "Wheat that is boiled, dried and cracked, for soups and pilafs."),
+  ("πετάγομαι", "spit, jump out", "Βγαίνω απότομα έξω· λέγεται για το λάδι που πετάγεται από το τηγάνι.", "Shoot out suddenly; said of oil spitting from a pan."),
+ ],
+ questions=[
+  ("Γιατί επιτρέπονται τα σαλιγκάρια στη νηστεία;", ["Γιατί θεωρούνται αναίμακτα", "Γιατί είναι φυτά", "Γιατί είναι ακριβά", "Γιατί τρώγονται μόνο το καλοκαίρι"], "Γιατί θεωρούνται αναίμακτα", "Όπως τα θαλασσινά."),
+  ("Πώς μπαίνουν τα σαλιγκάρια στο τηγάνι;", ["Μπρούμυτα, πάνω στο αλάτι", "Ανάσκελα, μέσα στο λάδι", "Μέσα σε νερό", "Τυλιγμένα σε φύλλο"], "Μπρούμυτα, πάνω στο αλάτι", "Γι' αυτό λέγονται «μπουμπουριστοί»."),
+  ("Με τι σβήνουμε το τηγάνι σε αυτή τη συνταγή;", ["Με ξίδι", "Με κρασί", "Με νερό", "Με λεμόνι"], "Με ξίδι", "Το ξίδι και το δεντρολίβανο δίνουν τη γεύση."),
+  ("Τι σημαίνει «κουνώντας το τηγάνι»;", ["Shaking the pan", "After shaking the pan", "Without shaking the pan", "Shake the pan!"], "Shaking the pan", "Η μετοχή σε -ώντας δείχνει ταυτόχρονη ενέργεια."),
+ ],
+ vocab=["το σαλιγκάρι", "ο χοχλιός", "το αλάτι", "χοντρός", "το δεντρολίβανο", "το ξίδι", "μπρούμυτα", "τσιτσιρίζω", "σβήνω", "κουνώ", "προσέχω", "ο ατμός", "η νηστεία", "αναίμακτος"],
+),
+
+dict(
+ id="gamopilafo", el="Γαμοπίλαφο", title="Gamopilafo: the Cretan wedding pilaf", level="B2", dates="Κρήτη",
+ summary_en="At a traditional Cretan wedding, huge cauldrons of meat are boiled the day before and the broth is turned into *gamopilafo*, “wedding pilaf”: rice cooked in a rich stock of goat or lamb and rooster, sharpened with lemon and finished with *staka* butter. It is festive food for hundreds of guests, and the recipe below scales it down for a family.",
+ sections=[
+  dict(id="gamos", el="Ο γάμος και το πιλάφι", en="The wedding and the pilaf", paras=[
+   ("Το όνομα το λέει: «γαμοπίλαφο» είναι το πιλάφι του γάμου. Στα κρητικά χωριά ο γάμος ήταν γιορτή για όλο το χωριό, με εκατοντάδες καλεσμένους. Από το προηγούμενο βράδυ έβραζαν το κρέας σε μεγάλα καζάνια: κατσίκι ή αρνί και κόκορες. Στον ζωμό που έμενε έβραζαν το ρύζι.",
+    "The name says it: *gamopilafo* is *γάμος* (wedding) + *πιλάφι* (pilaf). In Cretan villages a wedding was a feast for the whole community, with hundreds of guests. From the night before, the meat was boiled in huge cauldrons (*καζάνια*): goat or lamb, and roosters. The rice was then cooked in the broth left behind, so nothing went to waste and a single cauldron fed everyone. The boiled meat was served alongside.", ["cretan_w", "psilakis", "kochilas"]),
+   ("Το μυστικό του γαμοπίλαφου είναι ο ζωμός, που πρέπει να είναι πολύ δυνατός, και το λεμόνι, που μπαίνει στο τέλος. Πολλοί προσθέτουν και στάκα ή στακοβούτυρο, ένα πλούσιο βούτυρο από την κρέμα του πρόβειου ή του κατσικίσιου γάλακτος. Σήμερα το γαμοπίλαφο το βρίσκεις και σε ταβέρνες, όχι μόνο σε γάμους και βαφτίσια.",
+    "The secret is the broth, which must be very strong, and the lemon, added at the end. Many cooks also stir in *staka* or *stakovoutyro*, a rich butter made from the cream of sheep's or goat's milk, a Cretan speciality. The rice should be creamy and slightly soupy rather than dry and separate. Today *gamopilafo* is served in tavernas too, not only at weddings and christenings.", ["cretan_w", "psilakis"]),
+  ]),
+ ],
+ recipe=dict(serves=("6 μερίδες", "Serves 6"), time=("2 ώρες και 30 λεπτά", "2 hours 30 minutes"),
+  groups=[
+   ("Για τον ζωμό", "For the broth", [
+    ("1 κιλό κατσικίσιο ή αρνίσιο κρέας με κόκαλο", "1 kg goat or lamb on the bone"), ("1 κόκορας ή μισό κοτόπουλο (περίπου 1 κιλό)", "1 rooster or half a chicken (about 1 kg)"),
+    ("1 κρεμμύδι", "1 onion"), ("περίπου 3 λίτρα νερό", "about 3 litres water"), ("αλάτι και πιπέρι", "salt and pepper")]),
+   ("Για το πιλάφι", "For the pilaf", [
+    ("400 γρ. ρύζι γλασέ ή καρολίνα", "400 g short-grain rice (glacé or carolina)"), ("1,5 λίτρο ζωμό από το κρέας", "1.5 litres of the meat broth"),
+    ("χυμό από 2 λεμόνια", "juice of 2 lemons"), ("50 γρ. στακοβούτυρο ή βούτυρο", "50 g staka butter or ordinary butter")])],
+  steps=[
+   ("Βάλτε το κρέας και το κοτόπουλο σε μεγάλη κατσαρόλα με το νερό και το κρεμμύδι. Μόλις πάρει βράση, ξαφρίστε με την τρυπητή κουτάλα.", "Put the meat and chicken in a large pot with the water and the onion. As soon as it boils, skim off the foam with the slotted spoon."),
+   ("Αλατίστε, χαμηλώστε τη φωτιά και σιγοβράστε περίπου δύο ώρες, μέχρι να μαλακώσει το κρέας και να ξεκολλάει από το κόκαλο.", "Salt, lower the heat and simmer for about two hours, until the meat is tender and comes away from the bone."),
+   ("Βγάλτε τα κρέατα σε μια πιατέλα και κρατήστε τα ζεστά. Σουρώστε τον ζωμό και μετρήστε ενάμισι λίτρο.", "Take the meat out onto a platter and keep it warm. Strain the broth and measure out one and a half litres."),
+   ("Ξαναβάλτε τον ζωμό στην κατσαρόλα. Όταν βράσει, ρίξτε το ρύζι και ανακατέψτε.", "Return the broth to the pot. When it boils, add the rice and stir."),
+   ("Βράστε σε μέτρια φωτιά 15 με 18 λεπτά, ανακατεύοντας πού και πού, μέχρι να μαλακώσει το ρύζι. Το πιλάφι πρέπει να μείνει λίγο ζουμερό.", "Cook on medium heat for 15 to 18 minutes, stirring now and then, until the rice is soft. The pilaf should stay a little soupy."),
+   ("Κατεβάστε από τη φωτιά, ρίξτε τον χυμό λεμονιού και το βούτυρο και ανακατέψτε καλά. Αλατοπιπερώστε.", "Take off the heat, add the lemon juice and butter and stir well. Season with salt and pepper."),
+   ("Σκεπάστε και αφήστε το πέντε λεπτά να ξεκουραστεί. Σερβίρετε με το βραστό κρέας.", "Cover and let it rest for five minutes. Serve with the boiled meat.")],
+  tips=[("Ο ζωμός πρέπει να είναι αρκετά αλμυρός, γιατί το ρύζι τραβάει το αλάτι.", "The broth should be well salted, because the rice absorbs the salt.")]),
+ grammar=[
+  dict(level="B2", title="Compound nouns: γαμοπίλαφο, στακοβούτυρο, αλατοπιπερώνω",
+       el="Πολλές λέξεις της κουζίνας είναι σύνθετες: γάμος + πιλάφι → γαμοπίλαφο, αλάτι + πιπέρι → αλατοπιπερώνω.",
+       en="Greek freely compounds two stems with the linking vowel **-ο-**: *γάμος + πιλάφι → γαμοπίλαφο*, *στάκα + βούτυρο → στακοβούτυρο*, *αλάτι + πιπέρι → αλατοπιπερώνω* (season with salt and pepper), *λάδι + λεμόνι → λαδολέμονο*, *αυγό + λεμόνι → αυγολέμονο*. The gender and ending come from the second part.",
+       examples=[("Αλατοπιπερώστε τη σάλτσα.", "Season the sauce with salt and pepper."), ("Περιχύστε με λαδολέμονο.", "Pour oil-and-lemon dressing over it.")]),
+  dict(level="B2", title="Πού και πού, πότε πότε: frequency in recipes",
+       el="Το «πού και πού» και το «πότε πότε» σημαίνουν «μερικές φορές, όχι συνέχεια».",
+       en="*Πού και πού* and *πότε πότε* mean “now and then”, the opposite of *συνέχεια* (continuously). Recipes pair them with the imperfective participle or imperative: *ανακατεύοντας πού και πού* (stirring occasionally), *ανακατεύετε πότε πότε*.",
+       examples=[("Βράστε, ανακατεύοντας πού και πού.", "Boil, stirring now and then."), ("Ελέγχετε το φαγητό πότε πότε.", "Check the dish from time to time.")]),
+ ],
+ terms=[
+  ("το πιλάφι", "pilaf", "Φαγητό από ρύζι βρασμένο σε ζωμό.", "A rice dish cooked in broth."),
+  ("ο ζωμός", "broth, stock", "Το νερό στο οποίο έχει βράσει κρέας, ψάρι ή λαχανικά.", "The liquid in which meat, fish or vegetables have boiled."),
+  ("το καζάνι", "cauldron", "Πολύ μεγάλη κατσαρόλα για φαγητό πολλών ατόμων.", "A very large pot for cooking for many people."),
+  ("η στάκα", "staka (Cretan cream)", "Η κρέμα από το πρόβειο ή το κατσικίσιο γάλα· από αυτή βγαίνει το στακοβούτυρο.", "Cream from sheep's or goat's milk, from which staka butter is made."),
+  ("ξαφρίζω", "skim (foam)", "Βγάζω τον αφρό από την επιφάνεια του ζωμού.", "Remove the foam from the surface of a broth."),
+  ("ζουμερός", "juicy, soupy", "Που έχει πολύ ζουμί.", "With plenty of liquid."),
+ ],
+ questions=[
+  ("Τι σημαίνει η λέξη «γαμοπίλαφο»;", ["Πιλάφι του γάμου", "Πιλάφι με γάλα", "Πιλάφι χωρίς κρέας", "Πιλάφι του Πάσχα"], "Πιλάφι του γάμου", "Γάμος + πιλάφι."),
+  ("Σε τι βράζει το ρύζι του γαμοπίλαφου;", ["Στον ζωμό του κρέατος", "Σε γάλα", "Σε κρασί", "Σε σκέτο νερό"], "Στον ζωμό του κρέατος", "Ο δυνατός ζωμός είναι το μυστικό."),
+  ("Πότε μπαίνει το λεμόνι;", ["Στο τέλος, εκτός φωτιάς", "Στην αρχή, με το κρέας", "Με το ρύζι", "Δεν μπαίνει λεμόνι"], "Στο τέλος, εκτός φωτιάς", "Κατεβάζουμε από τη φωτιά και ρίχνουμε λεμόνι και βούτυρο."),
+  ("Τι κάνουμε όταν ο ζωμός πάρει βράση στην αρχή;", ["Τον ξαφρίζουμε", "Ρίχνουμε το ρύζι", "Ρίχνουμε το λεμόνι", "Τον σουρώνουμε"], "Τον ξαφρίζουμε", "Βγάζουμε τον αφρό με τρυπητή κουτάλα."),
+ ],
+ vocab=["ο γάμος", "το πιλάφι", "το ρύζι", "ο ζωμός", "το καζάνι", "ο κόκορας", "το κατσίκι", "ξαφρίζω", "σουρώνω", "το βούτυρο", "ο χυμός", "αλατοπιπερώνω", "ζουμερός", "πού και πού"],
+),
+]

@@ -7,7 +7,7 @@
   "use strict";
   const A = () => window.Ellinika;
   const routes = (window.EllinikaAddons = window.EllinikaAddons || {});
-  const SHELVES = { philosophers: "Philosophers", istoria: "History of the Greeks", simera: "Greece today", politeia: "The Greek polity" };
+  const SHELVES = { philosophers: "Philosophers", istoria: "History of the Greeks", simera: "Greece today", politeia: "The Greek polity", kouzina: "The Greek kitchen", mousiki: "Greek music", skini: "Theatre and cinema", eortes: "The Orthodox year" };
   const MODE_KEY = "ellinika.bilingual.mode";
   const MODES = [["el", "Ελληνικά"], ["both", "Δίγλωσσο"], ["en", "English"]];
 
@@ -64,9 +64,29 @@
 .bl-gram ul { margin: 6px 0 0; padding-left: 18px; }
 .bl-gram li { margin: 0 0 4px; }
 .bl-gram li .ex-en { display: block; }
+.bl-listen ul { margin: 0; padding-left: 20px; } .bl-listen li { margin: 0 0 8px; overflow-wrap: anywhere; } .bl-listen .ex-en { display: block; }
 .bl-src ol { margin: 0; padding-left: 22px; font-size: .9rem; }
 .bl-src li { margin: 0 0 6px; overflow-wrap: anywhere; scroll-margin-top: 110px; }
 .bl-src li:target { background: var(--aegean-soft); border-radius: 6px; }
+.bl-recipe .bl-rmeta { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 10px; font: 500 .85rem/1.3 var(--f-ui); color: var(--muted); }
+.bl-recipe h4 { margin: 14px 0 6px; font: 600 1rem/1.3 var(--f-ui); color: var(--terra); }
+.bl-ing { margin: 0; padding-left: 20px; }
+.bl-ing li { margin: 0 0 6px; }
+.bl-ing .el, .bl-steps .el { margin: 0; }
+.bl-ing .en { display: block; color: var(--muted); font-size: .88rem; }
+.bl-steps { margin: 0; padding-left: 24px; }
+.bl-steps li { margin: 0 0 12px; }
+.bl-steps .el { font-size: 1.04rem; line-height: 1.6; }
+.bl-steps .en { margin: 4px 0 0; color: var(--muted); font-size: .93rem; line-height: 1.55; }
+.bl-tip { margin: 12px 0 0; padding: 10px 12px; border-radius: 8px; background: var(--aegean-soft); }
+.bl-tip p { margin: 0; } .bl-tip .en { margin-top: 4px; color: var(--muted); font-size: .92rem; }
+.bl-text[data-mode="en"] .bl-ing .en, .bl-text[data-mode="en"] .bl-steps .en, .bl-text[data-mode="en"] .bl-tip .en { color: var(--ink); font-size: 1rem; }
+.bl-tblwrap { overflow-x: auto; margin: 4px 0 16px; -webkit-overflow-scrolling: touch; }
+.bl-tblcap { font: 600 .92rem/1.3 var(--f-ui); margin: 8px 0 6px; }
+.bl-tbl { border-collapse: collapse; width: 100%; font-size: .93rem; }
+.bl-tbl th, .bl-tbl td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+.bl-tbl th { font: 600 .8rem/1.3 var(--f-ui); color: var(--muted); }
+.bl-tbl td[lang="el"] { font-weight: 500; }
 .bl-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 20px 0 0; }
 .bl-nav .btn { max-width: 100%; white-space: normal; text-align: left; }
 `;
@@ -77,6 +97,26 @@
   const mode = () => { try { const m = localStorage.getItem(MODE_KEY); return MODES.some((x) => x[0] === m) ? m : "both"; } catch (e) { return "both"; } };
   const setMode = (m) => { try { localStorage.setItem(MODE_KEY, m); } catch (e) { /* private mode */ } };
   const intro = (E, o) => (o.intro_el || o.intro_en ? `<div class="bl-intro">${o.intro_el ? `<p lang="el" class="el">${E.esc(o.intro_el)}</p>` : ""}${o.intro_en ? `<p class="en">${E.esc(o.intro_en)}</p>` : ""}</div>` : "");
+
+  // Optional blocks (cookbook shelf): section.tables = [{el, en, cols: [{h, lang}], rows: [[cell…]]}] and
+  // chapter.recipe = {serves_el, serves_en, time_el, time_en, groups: [{el, en, items: [{el, en}]}], steps: [{el, en}], tips: [{el, en}]}.
+  function table(E, t) {
+    const cols = t.cols || [];
+    return `${t.el || t.en ? `<p class="bl-tblcap"><span lang="el">${E.esc(t.el || "")}</span>${t.en ? ` <span class="no-look">· ${E.esc(t.en)}</span>` : ""}</p>` : ""}<div class="bl-tblwrap"><table class="bl-tbl">
+      <thead><tr>${cols.map((c) => `<th>${E.esc(c.h)}</th>`).join("")}</tr></thead>
+      <tbody>${(t.rows || []).map((r) => `<tr>${r.map((v, i) => `<td${cols[i]?.lang === "el" ? ' lang="el"' : ' class="no-look"'}>${E.esc(v)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  }
+  function recipe(E, r, m) {
+    const pair = (x, tag) => `<${tag} class="el" lang="el">${E.esc(x.el)}</${tag}>${x.en ? `<${tag} class="en">${E.esc(x.en)}</${tag}>` : ""}`;
+    const meta = [[r.serves_el, r.serves_en], [r.time_el, r.time_en]].filter((x) => x[0] || x[1]);
+    return `<section class="card bl-sec bl-recipe" id="bl-recipe"><h3><span class="el" lang="el">Η συνταγή</span>The recipe</h3>
+      ${meta.length ? `<p class="bl-rmeta">${meta.map(([g, e]) => `<span><span lang="el">${E.esc(g || "")}</span>${e ? ` <span class="no-look">· ${E.esc(e)}</span>` : ""}</span>`).join("")}</p>` : ""}
+      <div class="bl-text" data-mode="${m}">${(r.groups || []).map((g) => `<h4><span lang="el">${E.esc(g.el || "Υλικά")}</span>${g.en ? ` <span class="no-look">· ${E.esc(g.en)}</span>` : ""}</h4>
+        <ul class="bl-ing">${g.items.map((x) => `<li>${pair(x, "span")}</li>`).join("")}</ul>`).join("")}
+      <h4><span lang="el">Εκτέλεση</span> <span class="no-look">· Method</span></h4>
+      <ol class="bl-steps">${(r.steps || []).map((x) => `<li>${pair(x, "p")}</li>`).join("")}</ol>
+      ${(r.tips || []).map((x) => `<div class="bl-tip">${pair(x, "p")}</div>`).join("")}</div></section>`;
+  }
 
   async function shelf(sh, heading) {
     const E = A(), idx = await E.getJSON(`library/${sh}/index.json`), done = E.progress.library || {};
@@ -122,23 +162,25 @@
       ${img ? `<figure class="bl-fig"><img src="${E.esc(img.file)}" alt="${E.esc(img.caption_en || img.caption || "")}" loading="lazy"><figcaption><span lang="el">${E.esc(img.caption || "")}</span>${img.caption_en ? ` <span class="no-look">· ${E.esc(img.caption_en)}</span>` : ""}<br><span class="no-look">${E.esc(img.credit || "")}${img.license ? " · " + E.esc(img.license) : ""}${img.source ? ` · <a href="${E.esc(img.source)}" target="_blank" rel="noopener">source</a>` : ""}</span></figcaption></figure>` : ""}
       ${ch.summary_en ? `<section class="card bl-brief"><h3>In brief</h3><p>${E.md(ch.summary_en)}</p></section>` : ""}
       <div class="bl-bar"><div class="bl-seg" role="group" aria-label="Reading mode">${MODES.map(([k, l]) => `<button type="button" data-mode="${k}" aria-pressed="${k === m}">${l}</button>`).join("")}</div>
-        <select class="bl-jump" aria-label="Go to section"><option value="">Sections…</option>${(ch.sections || []).map((s) => `<option value="${E.esc(s.id)}">${E.esc(s.el)} · ${E.esc(s.en)}</option>`).join("")}${ch.terms?.length ? `<option value="terms">Νέοι όροι · New terms</option>` : ""}${ch.grammar?.length ? `<option value="grammar">Γραμματική · Grammar notes</option>` : ""}${ch.questions?.length ? `<option value="quiz">Ερωτήσεις · Questions</option>` : ""}${ch.sources?.length ? `<option value="sources">Πηγές · Sources</option>` : ""}</select></div>
+        <select class="bl-jump" aria-label="Go to section"><option value="">Sections…</option>${(ch.sections || []).map((s) => `<option value="${E.esc(s.id)}">${E.esc(s.el)} · ${E.esc(s.en)}</option>`).join("")}${ch.recipe ? `<option value="recipe">Η συνταγή · The recipe</option>` : ""}${ch.terms?.length ? `<option value="terms">Νέοι όροι · New terms</option>` : ""}${ch.grammar?.length ? `<option value="grammar">Γραμματική · Grammar notes</option>` : ""}${ch.questions?.length ? `<option value="quiz">Ερωτήσεις · Questions</option>` : ""}${ch.sources?.length ? `<option value="sources">Πηγές · Sources</option>` : ""}</select></div>
       ${ch.terms?.length ? `<section class="card bl-sec" id="bl-terms"><h3><span class="el" lang="el">Νέοι όροι</span>New terms in this chapter</h3><dl class="bl-terms">${ch.terms.map((t) => `<div><dt lang="el">${E.esc(t.el)} <span class="sub no-look">· ${E.esc(t.en)}</span></dt><dd>${t.def_el ? `<span lang="el">${E.esc(t.def_el)}</span>` : ""}${t.def_en ? `<span class="en">${E.esc(t.def_en)}</span>` : ""}</dd></div>`).join("")}</dl></section>` : ""}
       <div class="bl-text" data-mode="${m}">${(ch.sections || []).map((s) => `<section class="bl-sec" id="bl-${E.esc(s.id)}"><h3><span class="el" lang="el">${E.esc(s.el)}</span><span class="en-h">${E.esc(s.en)}</span></h3>
-        ${s.paras.map((p) => `<div class="bl-p"><p class="el" lang="el">${E.esc(p.el)}<span class="bl-cite-el no-look">${cites(p)}</span></p>${p.en ? `<p class="en">${E.esc(p.en)}${cites(p)}</p>` : ""}</div>`).join("")}</section>`).join("")}</div>
+        ${s.paras.map((p) => `<div class="bl-p"><p class="el" lang="el">${E.esc(p.el)}<span class="bl-cite-el no-look">${cites(p)}</span></p>${p.en ? `<p class="en">${E.esc(p.en)}${cites(p)}</p>` : ""}</div>`).join("")}${(s.tables || []).map((t) => table(E, t)).join("")}</section>`).join("")}</div>
+      ${ch.recipe ? recipe(E, ch.recipe, m) : ""}
       ${ch.grammar?.length ? `<section class="card bl-sec" id="bl-grammar"><h3><span class="el" lang="el">Γραμματική</span>Grammar notes</h3>${ch.grammar.map((g) => `<div class="bl-gram"><h4>${g.level ? `<span class="chip">${E.esc(g.level)}</span>` : ""}<span>${E.esc(g.title)}</span></h4>${g.el ? `<p lang="el">${E.esc(g.el)}</p>` : ""}${g.en ? `<p>${E.md(g.en)}</p>` : ""}${g.examples?.length ? `<ul>${g.examples.map((x) => `<li><span lang="el">${E.esc(x.el)}</span><span class="ex-en">${E.esc(x.en || "")}</span></li>`).join("")}</ul>` : ""}</div>`).join("")}</section>` : ""}
       ${ch.questions?.length ? `<section class="card story-q bl-sec" id="bl-quiz"><h3>Questions</h3>${ch.questions.map((q, i) => `<div class="sq" data-i="${i}"><p class="q-prompt" lang="el">${E.esc(q.q)}</p><div class="options">${q.options.map((o) => `<button class="opt" lang="el">${E.esc(o)}</button>`).join("")}</div><p class="ex-en sq-why" hidden></p></div>`).join("")}<p class="sub" id="sq-score"></p></section>` : ""}
       ${ch.vocab?.length ? `<section class="card bl-sec"><h3>Words to keep</h3><p class="word-cloud" lang="el">${ch.vocab.map((v) => E.esc(v)).join(" · ")}</p><button class="btn small" id="bl-add">Add all to my words</button></section>` : ""}
+      ${ch.listen?.length ? `<section class="card bl-sec bl-listen no-look" id="bl-listen"><h3><span class="el" lang="el">Ακούστε και δείτε</span>Listen and watch</h3><ul>${ch.listen.map((l) => `<li><a href="${E.esc(l.url)}" target="_blank" rel="noopener">${E.esc(l.title)}</a>${l.note ? `<span class="ex-en">${E.esc(l.note)}</span>` : ""}</li>`).join("")}</ul></section>` : ""}
       ${ch.sources?.length ? `<section class="bl-sec bl-src" id="bl-sources"><h3><span class="el" lang="el">Πηγές</span>Sources</h3><ol>${ch.sources.map((s) => `<li id="bl-src-${s.n}" value="${s.n}">${E.esc(s.text)}${s.url ? ` <a href="${E.esc(s.url)}" target="_blank" rel="noopener">${E.esc(s.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""))}</a>` : ""}</li>`).join("")}</ol></section>` : ""}
       <div class="bl-nav">${prev ? `<a class="btn ghost" href="#${sh}.${E.esc(prev.id)}">← <span lang="el">${E.esc(prev.el)}</span></a>` : ""}${next ? `<a class="btn" href="#${sh}.${E.esc(next.id)}">Next: <span lang="el">${E.esc(next.el)}</span></a>` : ""}</div>`;
-    const text = E.view.querySelector(".bl-text");
+    const texts = E.view.querySelectorAll(".bl-text");
     E.view.querySelectorAll(".bl-seg button").forEach((b) => (b.onclick = () => {
-      setMode(b.dataset.mode); text.dataset.mode = b.dataset.mode;
+      setMode(b.dataset.mode); texts.forEach((t) => (t.dataset.mode = b.dataset.mode));
       E.view.querySelectorAll(".bl-seg button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
     }));
     E.view.querySelector(".bl-jump").onchange = (e) => { const t = E.$("#bl-" + e.target.value); if (t) t.scrollIntoView({ behavior: "smooth" }); e.target.value = ""; };
     E.view.querySelectorAll(".bl-cite").forEach((a) => (a.onclick = (e) => { e.preventDefault(); const li = E.$("#bl-src-" + a.dataset.src); if (!li) return; li.scrollIntoView({ behavior: "smooth", block: "center" }); E.view.querySelectorAll(".bl-src li").forEach((x) => x.style.background = ""); li.style.background = "var(--aegean-soft)"; }));
-    E.view.querySelectorAll(".bl-text .el, .bl-terms dt, .bl-terms dd > span[lang], .bl-gram [lang=el], .bl-fig figcaption > span[lang], .story-q").forEach((n) => E.wrapGreek(n));
+    E.view.querySelectorAll(".bl-text .el, .bl-tbl [lang=el], .bl-recipe h4 [lang=el], .bl-terms dt, .bl-terms dd > span[lang], .bl-gram [lang=el], .bl-fig figcaption > span[lang], .story-q").forEach((n) => E.wrapGreek(n));
     let right = 0, answered = 0;
     E.view.querySelectorAll(".sq").forEach((box) => {
       const q = ch.questions[box.dataset.i];
