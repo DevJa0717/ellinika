@@ -1,0 +1,473 @@
+{
+ "id": "words",
+ "el": "Λεξιλόγιο",
+ "title": "Words: false friends, confusables, calques",
+ "about": "Some Greek words look like English ones but mean something else (*συμπαθητικός* = likeable, *ενδεχομένως* = possibly), some pairs differ by one suffix (*κουρασμένος* tired / *κουραστικός* tiring), and some English phrases do not translate word for word (*περνάω καλά*, not *έχω καλό χρόνο*). This set puts the pairs that trip learners up most often inside real sentences.",
+ "items": [
+  {
+   "id": "words-01",
+   "level": "A2",
+   "parts": [
+    "Χάρηκα πολύ που σε ",
+    0,
+    "."
+   ],
+   "en": "Very nice to meet you.",
+   "errs": [
+    {
+     "w": "συνάντησα",
+     "r": [
+      "γνώρισα"
+     ],
+     "c": "words",
+     "why": "*γνωρίζω* is meeting someone for the first time; *συναντώ* is meeting someone you already know: *συνάντησα τη Μαρία στον δρόμο*."
+    }
+   ]
+  },
+  {
+   "id": "words-02",
+   "level": "A2",
+   "parts": [
+    "Θέλω να ",
+    0,
+    "."
+   ],
+   "en": "I want to ask a question.",
+   "errs": [
+    {
+     "w": "ρωτήσω μια ερώτηση",
+     "r": [
+      "κάνω μια ερώτηση"
+     ],
+     "c": "words",
+     "why": "\"Ask a question\" is *κάνω μια ερώτηση*; *ρωτάω* stands alone: *θέλω να ρωτήσω κάτι*."
+    }
+   ]
+  },
+  {
+   "id": "words-03",
+   "level": "A2",
+   "parts": [
+    "Ο παππούς μου είναι πολύ ",
+    0,
+    "."
+   ],
+   "en": "My grandfather is very old.",
+   "errs": [
+    {
+     "w": "παλιός",
+     "r": [
+      "ηλικιωμένος",
+      "μεγάλος"
+     ],
+     "c": "words",
+     "why": "For people, \"old\" is *ηλικιωμένος* or *μεγάλος* (*σε ηλικία*). *Παλιός* is for things and for long-standing relationships: *παλιό σπίτι*, *παλιός φίλος*."
+    }
+   ]
+  },
+  {
+   "id": "words-04",
+   "level": "A2",
+   "parts": [
+    "Στις διακοπές ",
+    0,
+    "."
+   ],
+   "en": "We had a good time on holiday.",
+   "errs": [
+    {
+     "w": "είχαμε καλό χρόνο",
+     "r": [
+      "περάσαμε καλά",
+      "περάσαμε πολύ ωραία"
+     ],
+     "c": "words",
+     "why": "\"Have a good time\" is *περνάω καλά*. *Έχω χρόνο* only means having time available."
+    }
+   ]
+  },
+  {
+   "id": "words-05",
+   "level": "A2",
+   "parts": [
+    "Ο καινούργιος μας γείτονας είναι πολύ συμπαθητικός."
+   ],
+   "en": "Our new neighbour is very nice.",
+   "ok": true,
+   "why": "Nothing to fix: *συμπαθητικός* means \"likeable, nice\", which is what is meant here."
+  },
+  {
+   "id": "words-06",
+   "level": "B1",
+   "parts": [
+    "Η δουλειά μου είναι πολύ ",
+    0,
+    "."
+   ],
+   "en": "My job is very tiring.",
+   "errs": [
+    {
+     "w": "κουρασμένη",
+     "r": [
+      "κουραστική"
+     ],
+     "c": "words",
+     "why": "*-ικός/-τικός* describes what causes the feeling (*κουραστικός* tiring); *-μένος* describes the person who feels it (*κουρασμένος* tired)."
+    }
+   ]
+  },
+  {
+   "id": "words-07",
+   "level": "B1",
+   "parts": [
+    "Σήμερα ",
+    0,
+    ", δεν έχω τι να κάνω."
+   ],
+   "en": "I'm very bored today, I've nothing to do.",
+   "errs": [
+    {
+     "w": "είμαι πολύ βαρετός",
+     "r": [
+      "βαριέμαι πολύ"
+     ],
+     "c": "words",
+     "why": "\"I'm bored\" is *βαριέμαι*. *Είμαι βαρετός* means \"I'm boring\"."
+    }
+   ]
+  },
+  {
+   "id": "words-08",
+   "level": "B1",
+   "parts": [
+    "Πρέπει να ",
+    0,
+    " στο μάθημα."
+   ],
+   "en": "You must pay attention in class.",
+   "errs": [
+    {
+     "w": "πληρώνεις προσοχή",
+     "r": [
+      "δίνεις προσοχή",
+      "προσέχεις"
+     ],
+     "c": "words",
+     "why": "\"Pay attention\" is *δίνω προσοχή* or simply *προσέχω*."
+    }
+   ]
+  },
+  {
+   "id": "words-09",
+   "level": "B1",
+   "parts": [
+    "Το ταξίδι μέχρι τη Θεσσαλονίκη ",
+    0,
+    " πέντε ώρες."
+   ],
+   "en": "The journey to Thessaloniki takes five hours.",
+   "errs": [
+    {
+     "w": "παίρνει",
+     "r": [
+      "κρατάει",
+      "διαρκεί"
+     ],
+     "c": "words",
+     "why": "\"It takes (time)\" is *κρατάει*, *διαρκεί*, or *χρειάζεται*. *Παίρνει* in this sense is an anglicism."
+    }
+   ]
+  },
+  {
+   "id": "words-10",
+   "level": "B1",
+   "parts": [
+    "Πρέπει να ",
+    0,
+    " σήμερα."
+   ],
+   "en": "We must make a decision today.",
+   "errs": [
+    {
+     "w": "κάνουμε μια απόφαση",
+     "r": [
+      "πάρουμε μια απόφαση"
+     ],
+     "c": "words",
+     "why": "\"Make a decision\" is *παίρνω απόφαση*."
+    }
+   ]
+  },
+  {
+   "id": "words-11",
+   "level": "B1",
+   "parts": [
+    "Υπάρχει μεγάλη ",
+    0,
+    " να βρέξει αύριο."
+   ],
+   "en": "There's a good chance it will rain tomorrow.",
+   "errs": [
+    {
+     "w": "ευκαιρία",
+     "r": [
+      "πιθανότητα"
+     ],
+     "c": "words",
+     "why": "\"Chance\" meaning probability is *πιθανότητα*; *ευκαιρία* is a chance meaning opportunity: *μια ευκαιρία να γνωριστούμε*."
+    }
+   ]
+  },
+  {
+   "id": "words-12",
+   "level": "B1",
+   "parts": [
+    "Έκανα ένα ντους και ετοιμάστηκα για τη δουλειά."
+   ],
+   "en": "I had a shower and got ready for work.",
+   "ok": true,
+   "why": "Nothing to fix: *κάνω ένα ντους* is the everyday Greek for \"have a shower\", and *ετοιμάστηκα* is the passive aorist of *ετοιμάζομαι*."
+  },
+  {
+   "id": "words-13",
+   "level": "B2",
+   "parts": [
+    "Όταν έχασα τη δουλειά μου, ο φίλος μου ήταν πολύ ",
+    0,
+    "."
+   ],
+   "en": "When I lost my job, my friend was very understanding.",
+   "errs": [
+    {
+     "w": "συμπαθητικός",
+     "r": [
+      "υποστηρικτικός"
+     ],
+     "c": "words",
+     "why": "*Συμπαθητικός* means \"likeable\", not \"sympathetic\". For \"sympathetic, supportive\": *υποστηρικτικός*, *μου στάθηκε*, *έδειξε κατανόηση*."
+    }
+   ]
+  },
+  {
+   "id": "words-14",
+   "level": "B2",
+   "parts": [
+    "Έστειλα αιτήσεις για μήνες και ",
+    0,
+    " βρήκα δουλειά."
+   ],
+   "en": "I sent applications for months and eventually found a job.",
+   "errs": [
+    {
+     "w": "ενδεχομένως",
+     "r": [
+      "τελικά"
+     ],
+     "c": "words",
+     "why": "*ενδεχομένως* means \"possibly\"; \"eventually, in the end\" is *τελικά*."
+    }
+   ]
+  },
+  {
+   "id": "words-15",
+   "level": "B2",
+   "parts": [
+    "Ο αδελφός μου σπούδασε οικονομικά και είναι ",
+    0,
+    "."
+   ],
+   "en": "My brother studied economics and is an economist.",
+   "errs": [
+    {
+     "w": "οικονομικός",
+     "r": [
+      "οικονομολόγος"
+     ],
+     "c": "words",
+     "why": "The economist is *ο οικονομολόγος*; *οικονομικός* is an adjective, \"economic\" or \"economical\"."
+    }
+   ]
+  },
+  {
+   "id": "words-16",
+   "level": "B2",
+   "parts": [
+    "Πήρα μέρος σε ένα πρόγραμμα ",
+    0,
+    " φοιτητών."
+   ],
+   "en": "I took part in a student exchange programme.",
+   "errs": [
+    {
+     "w": "αλλαγής",
+     "r": [
+      "ανταλλαγής"
+     ],
+     "c": "words",
+     "why": "\"Exchange\" is *ανταλλαγή*; *αλλαγή* is \"change\"."
+    }
+   ]
+  },
+  {
+   "id": "words-17",
+   "level": "B2",
+   "parts": [
+    "Σου στέλνω την πρόσκληση με ",
+    0,
+    " ταχυδρομείο."
+   ],
+   "en": "I'm sending you the invitation by email.",
+   "errs": [
+    {
+     "w": "ηλεκτρικό",
+     "r": [
+      "ηλεκτρονικό"
+     ],
+     "c": "words",
+     "why": "*ηλεκτρονικός* \"electronic\" (*ηλεκτρονικό ταχυδρομείο* = email); *ηλεκτρικός* \"electric\" (*ηλεκτρική σκούπα*)."
+    }
+   ]
+  },
+  {
+   "id": "words-18",
+   "level": "B2",
+   "parts": [
+    "Αυτό που λες δεν ",
+    0,
+    "."
+   ],
+   "en": "What you're saying doesn't make sense.",
+   "errs": [
+    {
+     "w": "κάνει νόημα",
+     "r": [
+      "έχει νόημα",
+      "βγάζει νόημα"
+     ],
+     "c": "words",
+     "why": "*Κάνει νόημα* is a calque of English that is heard but still considered incorrect; the standard is *έχει νόημα* or *βγάζει νόημα*."
+    }
+   ]
+  },
+  {
+   "id": "words-19",
+   "level": "B2",
+   "parts": [
+    "Η παράσταση ήταν εντυπωσιακή και το κοινό χειροκρότησε όρθιο."
+   ],
+   "en": "The performance was impressive and the audience gave a standing ovation.",
+   "ok": true,
+   "why": "Nothing to fix: *εντυπωσιακός* \"impressive\"; the adjective *όρθιο* agrees with *το κοινό*."
+  },
+  {
+   "id": "words-20",
+   "level": "C1",
+   "parts": [
+    "Η αίτηση πρέπει να υποβληθεί ",
+    0,
+    ", αλλιώς δεν θα εξεταστεί."
+   ],
+   "en": "The application must be submitted on time, otherwise it will not be considered.",
+   "errs": [
+    {
+     "w": "έγκυρα",
+     "r": [
+      "έγκαιρα"
+     ],
+     "c": "words",
+     "why": "*έγκαιρα* \"in good time\"; *έγκυρα* \"validly, reliably\" (*έγκυρη πηγή* a reliable source)."
+    }
+   ]
+  },
+  {
+   "id": "words-21",
+   "level": "C1",
+   "parts": [
+    "Η συνεδρίαση ",
+    0,
+    " για την επόμενη Τρίτη."
+   ],
+   "en": "The session was postponed until next Tuesday.",
+   "errs": [
+    {
+     "w": "αναλήφθηκε",
+     "r": [
+      "αναβλήθηκε"
+     ],
+     "c": "words",
+     "why": "*αναβάλλω* (aorist passive *αναβλήθηκε*) \"postpone\"; *αναλαμβάνω* (*αναλήφθηκε*) \"take on, undertake\"."
+    }
+   ]
+  },
+  {
+   "id": "words-22",
+   "level": "C1",
+   "parts": [
+    "Η τεχνολογία ",
+    0,
+    " σημαντικά στην ανάπτυξη της περιοχής."
+   ],
+   "en": "Technology contributes significantly to the region's development.",
+   "errs": [
+    {
+     "w": "συμβαίνει",
+     "r": [
+      "συμβάλλει"
+     ],
+     "c": "words",
+     "why": "*συμβάλλω* \"contribute\" (*η συμβολή*); *συμβαίνει* \"happens\"."
+    }
+   ]
+  },
+  {
+   "id": "words-23",
+   "level": "C1",
+   "parts": [
+    "Η εταιρεία ψάχνει έναν ",
+    0,
+    " τρόπο να μειώσει το κόστος ενέργειας ανά μονάδα."
+   ],
+   "en": "The company is looking for an efficient way to reduce energy cost per unit.",
+   "errs": [
+    {
+     "w": "αποτελεσματικό",
+     "r": [
+      "αποδοτικό"
+     ],
+     "c": "words",
+     "why": "Cost per unit is about efficiency, *αποδοτικός* (good output for input). *Αποτελεσματικός* is \"effective\", one that works at all."
+    }
+   ]
+  },
+  {
+   "id": "words-24",
+   "level": "C1",
+   "parts": [
+    "Οι ",
+    0,
+    " εκδηλώσεις του δήμου περιλαμβάνουν συναυλίες και εκθέσεις."
+   ],
+   "en": "The municipality's cultural events include concerts and exhibitions.",
+   "errs": [
+    {
+     "w": "πολιτικές",
+     "r": [
+      "πολιτιστικές"
+     ],
+     "c": "words",
+     "why": "*πολιτιστικός* \"cultural\" (arts, events); *πολιτικός* \"political\"; *πολιτισμικός* \"cultural\" in the sense of a civilisation's traits (*πολιτισμικές διαφορές*)."
+    }
+   ]
+  },
+  {
+   "id": "words-25",
+   "level": "C1",
+   "parts": [
+    "Η εκστρατεία αποσκοπεί στην ευαισθητοποίηση του κοινού για την ανακύκλωση."
+   ],
+   "en": "The campaign aims to raise public awareness about recycling.",
+   "ok": true,
+   "why": "Nothing to fix: *ευαισθητοποίηση* \"raising awareness\" (not *ευαισθησία* \"sensitivity\")."
+  }
+ ]
+}

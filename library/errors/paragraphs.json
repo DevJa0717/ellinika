@@ -1,0 +1,1408 @@
+{
+ "items": [
+  {
+   "id": "p-a2-01",
+   "level": "A2",
+   "parts": [
+    "Γεια σου Άννα! Τι κάνεις; Εγώ είμαι καλά. Τώρα μένω ",
+    0,
+    " και δουλεύω σε ένα καφέ. Η δουλειά είναι ",
+    1,
+    ", αλλά μου αρέσει. Το σπίτι μου είναι ",
+    2,
+    ", αλλά έχει ένα ωραίο μπαλκόνι. ",
+    3,
+    " θα ",
+    4,
+    " τη Μαρία και θα πάμε στη θάλασσα. Θέλεις να έρθεις μαζί μας; Γράψε μου! Φιλιά, Λένα"
+   ],
+   "en": "Hi Anna! How are you? I'm fine. I now live in Athens and work in a café. The work is tiring, but I like it. My house is small, but it has a nice balcony. On Saturday I'll see Maria and we'll go to the beach. Do you want to come with us? Write to me! Love, Lena",
+   "errs": [
+    {
+     "w": "σε Αθήνα",
+     "r": [
+      "στην Αθήνα"
+     ],
+     "c": "article",
+     "why": "Cities take the article, so *σε* fuses with it: *στην Αθήνα*."
+    },
+    {
+     "w": "κουρασμένη",
+     "r": [
+      "κουραστική"
+     ],
+     "c": "words",
+     "why": "A job that tires you is *κουραστική*; *κουρασμένη* is how you feel."
+    },
+    {
+     "w": "μικρός",
+     "r": [
+      "μικρό"
+     ],
+     "c": "agree",
+     "why": "*το σπίτι* is neuter: *μικρό*."
+    },
+    {
+     "w": "Το Σάβατο",
+     "r": [
+      "Το Σάββατο"
+     ],
+     "c": "spelling",
+     "why": "*Σάββατο* has double *β*."
+    },
+    {
+     "w": "βλέψω",
+     "r": [
+      "δω"
+     ],
+     "c": "verb",
+     "why": "The future of *βλέπω* is *θα δω*."
+    }
+   ],
+   "el": "Ένα email σε μια φίλη",
+   "title": "An email to a friend"
+  },
+  {
+   "id": "p-a2-02",
+   "level": "A2",
+   "parts": [
+    "Η οικογένειά μου δεν είναι μεγάλη. Ο πατέρας μου είναι ",
+    0,
+    " και η μητέρα μου είναι δασκάλα. Έχω ",
+    1,
+    " και μια αδελφή. Ο αδελφός μου είναι δεκαοκτώ χρονών και η αδελφή μου είναι δεκαπέντε. Τα Σαββατοκύριακα τρώμε όλοι μαζί ",
+    2,
+    " της γιαγιάς μου. Η γιαγιά μου μαγειρεύει πολύ ωραία και ",
+    3,
+    " πολύ το φαγητό της. Το βράδυ βλέπουμε τηλεόραση ή παίζουμε χαρτιά. ",
+    4,
+    "!"
+   ],
+   "en": "My family isn't big. My father is a doctor and my mother is a teacher. I have a brother and a sister. My brother is eighteen and my sister is fifteen. At weekends we all eat together at my grandmother's house. My grandmother cooks very well and I really like her food. In the evening we watch TV or play cards. I love them very much!",
+   "errs": [
+    {
+     "w": "ένας γιατρός",
+     "r": [
+      "γιατρός"
+     ],
+     "c": "article",
+     "why": "No article with a job after *είναι*: *είναι γιατρός*."
+    },
+    {
+     "w": "ένας αδελφός",
+     "r": [
+      "έναν αδελφό"
+     ],
+     "c": "case",
+     "why": "The object of *έχω* is accusative: *έναν αδελφό*."
+    },
+    {
+     "w": "στον σπίτι",
+     "r": [
+      "στο σπίτι"
+     ],
+     "c": "gender",
+     "why": "*το σπίτι* is neuter: *στο σπίτι*."
+    },
+    {
+     "w": "με αρέσει",
+     "r": [
+      "μου αρέσει"
+     ],
+     "c": "clitic",
+     "why": "With *αρέσει* the person is genitive: *μου αρέσει*."
+    },
+    {
+     "w": "Αγαπάω πολύ αυτοί",
+     "r": [
+      "Τους αγαπάω πολύ",
+      "Τους αγαπώ πολύ"
+     ],
+     "c": "clitic",
+     "why": "An object pronoun is the clitic before the verb: *τους αγαπάω*."
+    }
+   ],
+   "el": "Η οικογένειά μου",
+   "title": "My family"
+  },
+  {
+   "id": "p-a2-03",
+   "level": "A2",
+   "parts": [
+    "Κάθε πρωί ξυπνάω στις επτά. Πίνω ",
+    0,
+    " και τρώω ένα κουλούρι. Μετά πηγαίνω στη δουλειά με το λεωφορείο. Το λεωφορείο ",
+    1,
+    " πάντα αργά! Στη δουλειά μιλάω με πολλούς πελάτες και γράφω ",
+    2,
+    " email. Το μεσημέρι τρώω με ",
+    3,
+    ", μια συνάδελφο. Τελειώνω στις πέντε. Το βράδυ ",
+    4,
+    " ένα βιβλίο ή βλέπω μια ταινία."
+   ],
+   "en": "Every morning I wake up at seven. I drink a coffee and eat a sesame bread ring. Then I go to work by bus. The bus always comes late! At work I talk to lots of customers and write lots of emails. At lunchtime I eat with Katerina, a colleague. I finish at five. In the evening I read a book or watch a film.",
+   "errs": [
+    {
+     "w": "ένας καφές",
+     "r": [
+      "έναν καφέ"
+     ],
+     "c": "case",
+     "why": "The object of *πίνω* is accusative: *έναν καφέ*."
+    },
+    {
+     "w": "έρχετε",
+     "r": [
+      "έρχεται"
+     ],
+     "c": "spelling",
+     "why": "3rd person of *έρχομαι*: *έρχεται*, with *-αι*."
+    },
+    {
+     "w": "πολύ",
+     "r": [
+      "πολλά"
+     ],
+     "c": "agree",
+     "why": "Before a noun \"a lot of\" is the adjective, here neuter plural: *πολλά email*."
+    },
+    {
+     "w": "η Κατερίνα",
+     "r": [
+      "την Κατερίνα"
+     ],
+     "c": "case",
+     "why": "*με* takes the accusative: *με την Κατερίνα*."
+    },
+    {
+     "w": "διαβάσω",
+     "r": [
+      "διαβάζω"
+     ],
+     "c": "aspect",
+     "why": "A habit in the present uses the present tense *διαβάζω*. *Διαβάσω* is a perfective form that needs *να* or *θα*."
+    }
+   ],
+   "el": "Μια μέρα στη δουλειά",
+   "title": "A day at work"
+  },
+  {
+   "id": "p-a2-04",
+   "level": "A2",
+   "parts": [
+    "Χθες το βράδυ πήγαμε σε μια ταβέρνα με τους φίλους μου. Ο σερβιτόρος ήταν πολύ ευγενικός. Εγώ ",
+    0,
+    " μουσακά και ο Νίκος έφαγε ψάρι. Ήπιαμε ",
+    1,
+    " μπίρες και ένα μπουκάλι κρασί. ",
+    2,
+    " ωραία βραδιά! Στο τέλος ",
+    3,
+    ". ",
+    4,
+    " ακριβό: πληρώσαμε δεκαπέντε ευρώ ο καθένας."
+   ],
+   "en": "Last night we went to a taverna with my friends. The waiter was very polite. I ate moussaka and Nikos ate fish. We drank three beers and a bottle of wine. What a lovely evening! At the end we asked for the bill. It wasn't expensive: we paid fifteen euros each.",
+   "errs": [
+    {
+     "w": "έτρωσα",
+     "r": [
+      "έφαγα"
+     ],
+     "c": "verb",
+     "why": "*τρώω* has the aorist *έφαγα*."
+    },
+    {
+     "w": "τρία",
+     "r": [
+      "τρεις"
+     ],
+     "c": "agree",
+     "why": "*η μπίρα* is feminine: *τρεις μπίρες*."
+    },
+    {
+     "w": "Τί",
+     "r": [
+      "Τι"
+     ],
+     "c": "accent",
+     "why": "One-syllable *τι* takes no accent."
+    },
+    {
+     "w": "ζητήσαμε για τον λογαριασμό",
+     "r": [
+      "ζητήσαμε τον λογαριασμό"
+     ],
+     "c": "prep",
+     "why": "*ζητάω* takes a direct object: *ζητήσαμε τον λογαριασμό*."
+    },
+    {
+     "w": "Δε ήταν",
+     "r": [
+      "Δεν ήταν"
+     ],
+     "c": "nu",
+     "why": "Before a vowel *δεν* keeps its ν: *δεν ήταν*."
+    }
+   ],
+   "el": "Στην ταβέρνα",
+   "title": "At the taverna"
+  },
+  {
+   "id": "p-a2-05",
+   "level": "A2",
+   "parts": [
+    "Το καλοκαίρι πήγα στη Νάξο με την αδελφή μου. Μείναμε σε ένα μικρό ξενοδοχείο κοντά ",
+    0,
+    ". Κάθε μέρα κολυμπούσαμε και τρώγαμε φρέσκα ψάρια. Η Νάξος είναι πολύ ",
+    1,
+    ". Ένα βράδυ ανεβήκαμε στο κάστρο και ",
+    2,
+    " το ηλιοβασίλεμα. ",
+    3,
+    "! Του χρόνου θέλω να πάω ",
+    4,
+    "."
+   ],
+   "en": "In the summer I went to Naxos with my sister. We stayed in a small hotel near the sea. Every day we swam and ate fresh fish. Naxos is very beautiful. One evening we went up to the castle and watched the sunset. We had a really good time! Next year I want to go to Crete.",
+   "errs": [
+    {
+     "w": "στην θάλασσα",
+     "r": [
+      "στη θάλασσα"
+     ],
+     "c": "nu",
+     "why": "Before *θ* the ν drops: *στη θάλασσα*."
+    },
+    {
+     "w": "ωραίος",
+     "r": [
+      "ωραία"
+     ],
+     "c": "gender",
+     "why": "*η Νάξος* is feminine, like most islands in *-ος*: *ωραία*."
+    },
+    {
+     "w": "βλέψαμε",
+     "r": [
+      "είδαμε"
+     ],
+     "c": "verb",
+     "why": "The aorist of *βλέπω* is *είδα*, *είδαμε*."
+    },
+    {
+     "w": "Είχαμε πολύ καλό χρόνο",
+     "r": [
+      "Περάσαμε πολύ καλά",
+      "Περάσαμε πολύ ωραία"
+     ],
+     "c": "words",
+     "why": "\"Have a good time\" is *περνάω καλά*."
+    },
+    {
+     "w": "σε Κρήτη",
+     "r": [
+      "στην Κρήτη"
+     ],
+     "c": "article",
+     "why": "Places take the article: *στην Κρήτη*."
+    }
+   ],
+   "el": "Οι διακοπές μου",
+   "title": "My holidays"
+  },
+  {
+   "id": "p-b1-01",
+   "level": "B1",
+   "parts": [
+    "Αξιότιμε κύριε, σας γράφω για τη διαμονή μου στο ξενοδοχείο σας ",
+    0,
+    " εβδομάδα. Δυστυχώς, το δωμάτιο δεν ήταν καθαρό και το κλιματιστικό δεν δούλευε. Όταν ",
+    1,
+    " στον υπάλληλο της ρεσεψιόν, μου απάντησε ότι δεν υπήρχε άλλο ελεύθερο δωμάτιο. Σας έστειλα email την Τρίτη. ",
+    2,
+    " ",
+    3,
+    ". ",
+    4,
+    " να μου επιστρέψετε ένα μέρος των χρημάτων. ",
+    5,
+    ", Τζον Σμιθ"
+   ],
+   "en": "Dear Sir, I am writing about my stay at your hotel last week. Unfortunately the room was not clean and the air conditioning did not work. When I told the receptionist, he replied that there was no other free room. I sent you an email on Tuesday. I have been waiting for a reply for three days. I would like you to refund part of the money. Yours sincerely, John Smith",
+   "errs": [
+    {
+     "w": "τη περασμένη",
+     "r": [
+      "την περασμένη"
+     ],
+     "c": "nu",
+     "why": "Before *π* the ν stays: *την περασμένη*."
+    },
+    {
+     "w": "τον είπα",
+     "r": [
+      "το είπα",
+      "του το είπα"
+     ],
+     "c": "clitic",
+     "why": "What you said is the object: *το είπα στον υπάλληλο* (or, doubling the person, *του το είπα*). *Τον είπα* would mean you \"said\" the man."
+    },
+    {
+     "w": "Περιμένω για μια απάντηση",
+     "r": [
+      "Περιμένω μια απάντηση"
+     ],
+     "c": "prep",
+     "why": "*περιμένω* takes a direct object, without *για*."
+    },
+    {
+     "w": "για τρεις μέρες",
+     "r": [
+      "εδώ και τρεις μέρες"
+     ],
+     "c": "prep",
+     "why": "Waiting that started in the past and is still going on: *εδώ και τρεις μέρες*."
+    },
+    {
+     "w": "Θέλω",
+     "r": [
+      "Θα ήθελα"
+     ],
+     "c": "register",
+     "why": "In a formal complaint the conditional *θα ήθελα* is the polite way to ask."
+    },
+    {
+     "w": "Φιλιά",
+     "r": [
+      "Με εκτίμηση"
+     ],
+     "c": "register",
+     "why": "A formal letter closes with *Με εκτίμηση*."
+    }
+   ],
+   "el": "Παράπονο σε ένα ξενοδοχείο",
+   "title": "A complaint to a hotel"
+  },
+  {
+   "id": "p-b1-02",
+   "level": "B1",
+   "parts": [
+    "Γεννήθηκα στο Μάντσεστερ, μια μεγάλη πόλη στη βόρεια Αγγλία. Η πόλη έχει ",
+    0,
+    " μουσεία, ωραίες παμπ και δύο ",
+    1,
+    " ομάδες ποδοσφαίρου. Όταν ήμουν μικρός, ",
+    2,
+    " κάθε Σάββατο στο γήπεδο με τον πατέρα μου. Ο καιρός δεν είναι πολύ καλός, γιατί βρέχει συχνά. Μένω στην Ελλάδα ",
+    3,
+    " και μου αρέσει πολύ, αλλά ",
+    4,
+    "."
+   ],
+   "en": "I was born in Manchester, a big city in the north of England. The city has lots of museums, nice pubs and two famous football teams. When I was little I used to go to the stadium with my father every Saturday. The weather isn't very good, because it rains often. I've been living in Greece for two years and I like it a lot, but I miss my family.",
+   "errs": [
+    {
+     "w": "πολύ",
+     "r": [
+      "πολλά"
+     ],
+     "c": "agree",
+     "why": "\"Many\" before a neuter plural noun: *πολλά μουσεία*."
+    },
+    {
+     "w": "γνωστοί",
+     "r": [
+      "γνωστές"
+     ],
+     "c": "agree",
+     "why": "*η ομάδα* is feminine: *δύο γνωστές ομάδες*."
+    },
+    {
+     "w": "πήγα",
+     "r": [
+      "πήγαινα"
+     ],
+     "c": "aspect",
+     "why": "A repeated past habit takes the imperfective: *πήγαινα*."
+    },
+    {
+     "w": "για δύο χρόνια",
+     "r": [
+      "εδώ και δύο χρόνια"
+     ],
+     "c": "prep",
+     "why": "A situation still going on: *εδώ και δύο χρόνια* with the present tense."
+    },
+    {
+     "w": "λείπω την οικογένειά μου",
+     "r": [
+      "μου λείπει η οικογένειά μου"
+     ],
+     "c": "words",
+     "why": "\"I miss someone\" is *μου λείπει κάποιος*: the person missed is the subject."
+    }
+   ],
+   "el": "Η πόλη μου",
+   "title": "My home town"
+  },
+  {
+   "id": "p-b1-03",
+   "level": "B1",
+   "parts": [
+    "Πέρσι τα Χριστούγεννα ταξίδευα από το Λονδίνο στην Αθήνα. Ενώ περίμενα στην πύλη, ανακοίνωσαν ",
+    0,
+    " η πτήση ακυρώθηκε ",
+    1,
+    ". ",
+    2,
+    " ήταν θυμωμένοι. Πήγα στο γκισέ και ζήτησα ",
+    3,
+    " στην επόμενη πτήση. Η υπάλληλος ήταν πολύ ",
+    4,
+    " και μου έδωσε ένα κουπόνι για φαγητό. ",
+    5,
+    " έφτασα στην Αθήνα την επόμενη μέρα, πολύ κουρασμένος αλλά χαρούμενος."
+   ],
+   "en": "Last Christmas I was travelling from London to Athens. While I was waiting at the gate, they announced that the flight had been cancelled because of the bad weather. All the passengers were angry. I went to the desk and asked them to put me on the next flight. The clerk was very polite and gave me a meal voucher. In the end I reached Athens the next day, very tired but happy.",
+   "errs": [
+    {
+     "w": "να",
+     "r": [
+      "ότι"
+     ],
+     "c": "mood",
+     "why": "Announcing a fact takes *ότι*."
+    },
+    {
+     "w": "λόγω την κακοκαιρία",
+     "r": [
+      "λόγω της κακοκαιρίας"
+     ],
+     "c": "case",
+     "why": "*λόγω* takes the genitive: *λόγω της κακοκαιρίας*."
+    },
+    {
+     "w": "Όλοι επιβάτες",
+     "r": [
+      "Όλοι οι επιβάτες"
+     ],
+     "c": "article",
+     "why": "*όλοι* is followed by the article: *όλοι οι επιβάτες*."
+    },
+    {
+     "w": "ότι με βάλουν",
+     "r": [
+      "να με βάλουν"
+     ],
+     "c": "mood",
+     "why": "Asking someone to do something takes *να*: *ζήτησα να με βάλουν*."
+    },
+    {
+     "w": "ευγενικός",
+     "r": [
+      "ευγενική"
+     ],
+     "c": "agree",
+     "why": "*η υπάλληλος* (a woman) takes feminine adjectives: *ευγενική*."
+    },
+    {
+     "w": "Ενδεχομένως",
+     "r": [
+      "Τελικά"
+     ],
+     "c": "words",
+     "why": "*ενδεχομένως* is \"possibly\"; \"in the end\" is *τελικά*."
+    }
+   ],
+   "el": "Περιπέτεια στο αεροδρόμιο",
+   "title": "Trouble at the airport"
+  },
+  {
+   "id": "p-b1-04",
+   "level": "B1",
+   "parts": [
+    "Αν θέλεις να είσαι υγιής, πρέπει να ",
+    0,
+    " πολλά φρούτα και λαχανικά κάθε μέρα. ",
+    1,
+    " πολύ αλάτι και πίνε ",
+    2,
+    " νερό. Είναι σημαντικό ",
+    3,
+    " οκτώ ώρες. ",
+    4,
+    " είναι επίσης πολύ χρήσιμη: δεν χρειάζεται να πας σε γυμναστήριο, μπορείς να περπατάς μισή ώρα την ημέρα. Και κάτι τελευταίο: ",
+    5,
+    " για όλα!"
+   ],
+   "en": "If you want to be healthy, you should eat plenty of fruit and vegetables every day. Don't eat a lot of salt, and drink plenty of water. It's important to sleep eight hours. Exercise is also very useful: you don't need to go to a gym, you can walk half an hour a day. And one last thing: don't stress about everything!",
+   "errs": [
+    {
+     "w": "φας",
+     "r": [
+      "τρως"
+     ],
+     "c": "aspect",
+     "why": "A daily habit takes the imperfective: *να τρως*."
+    },
+    {
+     "w": "Δεν τρως",
+     "r": [
+      "Μην τρως"
+     ],
+     "c": "mood",
+     "why": "A negative command is *μην* + subjunctive: *μην τρως*."
+    },
+    {
+     "w": "πολλή",
+     "r": [
+      "πολύ"
+     ],
+     "c": "agree",
+     "why": "*το νερό* is neuter: *πολύ νερό*."
+    },
+    {
+     "w": "ότι κοιμάσαι",
+     "r": [
+      "να κοιμάσαι"
+     ],
+     "c": "mood",
+     "why": "Advice after *είναι σημαντικό* takes *να*."
+    },
+    {
+     "w": "Γυμναστική",
+     "r": [
+      "Η γυμναστική"
+     ],
+     "c": "article",
+     "why": "Abstract nouns in general statements take the article: *η γυμναστική*."
+    },
+    {
+     "w": "μη αγχώνεσαι",
+     "r": [
+      "μην αγχώνεσαι"
+     ],
+     "c": "nu",
+     "why": "Before a vowel *μην* keeps the ν."
+    }
+   ],
+   "el": "Συμβουλές για υγιεινή ζωή",
+   "title": "Tips for a healthy life"
+  },
+  {
+   "id": "p-b1-05",
+   "level": "B1",
+   "parts": [
+    0,
+    "! ",
+    1,
+    " κάνω ένα πάρτι για ",
+    2,
+    " και θέλω πολύ ",
+    3,
+    ". Θα είμαστε περίπου είκοσι άτομα. Αν θέλεις, φέρε και την κοπέλα σου. Το πάρτι αρχίζει στις εννιά στο σπίτι μου, στην ",
+    4,
+    " Ιπποκράτους 12. ",
+    5,
+    " να μου πεις αν θα έρθεις. Τα λέμε!"
+   ],
+   "en": "Hi Dimitris! On Friday I'm having a party for my birthday and I'd really like you to come. There'll be about twenty of us. If you like, bring your girlfriend too. The party starts at nine at my place, 12 Ippokratous Street. Don't forget to tell me whether you're coming. See you!",
+   "errs": [
+    {
+     "w": "Αξιότιμε κύριε Δημήτρη",
+     "r": [
+      "Γεια σου Δημήτρη"
+     ],
+     "c": "register",
+     "why": "A message to a friend opens with *Γεια σου*; *Αξιότιμε κύριε* is for formal letters."
+    },
+    {
+     "w": "Τη Παρασκευή",
+     "r": [
+      "Την Παρασκευή"
+     ],
+     "c": "nu",
+     "why": "Before *π* the ν stays: *την Παρασκευή*."
+    },
+    {
+     "w": "τα γενέθλια μου",
+     "r": [
+      "τα γενέθλιά μου"
+     ],
+     "c": "accent",
+     "why": "*γενέθλια* is stressed on its third-last syllable, so before *μου* it takes a second accent."
+    },
+    {
+     "w": "ότι έρθεις",
+     "r": [
+      "να έρθεις"
+     ],
+     "c": "mood",
+     "why": "*θέλω* + another person's action takes *να*: *θέλω να έρθεις*."
+    },
+    {
+     "w": "οδός",
+     "r": [
+      "οδό"
+     ],
+     "c": "case",
+     "why": "After *σε* the noun is accusative: *στην οδό*."
+    },
+    {
+     "w": "Μη ξεχάσεις",
+     "r": [
+      "Μην ξεχάσεις"
+     ],
+     "c": "nu",
+     "why": "Before *ξ* the ν stays: *μην ξεχάσεις*."
+    }
+   ],
+   "el": "Πρόσκληση σε πάρτι",
+   "title": "A party invitation"
+  },
+  {
+   "id": "p-b2-01",
+   "level": "B2",
+   "parts": [
+    "Ο τουρισμός είναι μία από τις ",
+    0,
+    " πηγές εσόδων της Ελλάδας. Κάθε χρόνο ",
+    1,
+    " επισκέπτες έρχονται στα νησιά, κυρίως τον Ιούλιο και τον Αύγουστο. ",
+    2,
+    ", ο μαζικός τουρισμός δημιουργεί ",
+    3,
+    ": το νερό δεν φτάνει, οι τιμές των ενοικίων ",
+    4,
+    " και οι κάτοικοι δυσκολεύονται να βρουν σπίτι. Κατά τη γνώμη μου, η λύση δεν είναι ",
+    5,
+    " τους τουρίστες, αλλά να τους μοιράσουμε καλύτερα ",
+    6,
+    " του χρόνου."
+   ],
+   "en": "Tourism is one of Greece's most important sources of income. Every year millions of visitors come to the islands, mainly in July and August. Despite the benefits, mass tourism creates serious problems: there is not enough water, rents go up and residents struggle to find a home. In my opinion, the solution is not to limit the number of tourists but to spread them better over the whole year.",
+   "errs": [
+    {
+     "w": "πιο σημαντικότερες",
+     "r": [
+      "σημαντικότερες"
+     ],
+     "c": "order",
+     "why": "*σημαντικότερες* is already a comparative; *πιο* doubles it."
+    },
+    {
+     "w": "εκατομύρια",
+     "r": [
+      "εκατομμύρια"
+     ],
+     "c": "spelling",
+     "why": "*εκατομμύρια* has double *μ*."
+    },
+    {
+     "w": "Παρά των οφελών",
+     "r": [
+      "Παρά τα οφέλη"
+     ],
+     "c": "case",
+     "why": "*παρά* \"despite\" takes the accusative: *παρά τα οφέλη*."
+    },
+    {
+     "w": "σοβαρές προβλήματα",
+     "r": [
+      "σοβαρά προβλήματα"
+     ],
+     "c": "gender",
+     "why": "*το πρόβλημα* is neuter: *σοβαρά προβλήματα*."
+    },
+    {
+     "w": "ανεβαίνει",
+     "r": [
+      "ανεβαίνουν"
+     ],
+     "c": "agree",
+     "why": "The subject is *οι τιμές* (plural): *ανεβαίνουν*."
+    },
+    {
+     "w": "ότι περιορίσουμε",
+     "r": [
+      "να περιορίσουμε"
+     ],
+     "c": "mood",
+     "why": "*η λύση είναι να…*: a proposed action takes *να*."
+    },
+    {
+     "w": "σε όλο τη διάρκεια",
+     "r": [
+      "σε όλη τη διάρκεια"
+     ],
+     "c": "agree",
+     "why": "*η διάρκεια* is feminine: *όλη τη διάρκεια*."
+    }
+   ],
+   "el": "Ο τουρισμός στα νησιά",
+   "title": "Tourism on the islands"
+  },
+  {
+   "id": "p-b2-02",
+   "level": "B2",
+   "parts": [
+    "Αξιότιμη κυρία Μαυρίδου, με ενδιαφέρον διάβασα την αγγελία σας για τη θέση του υπεύθυνου επικοινωνίας. Εργάζομαι ",
+    0,
+    " ",
+    1,
+    " και έχω μεγάλη εμπειρία ",
+    2,
+    " εκδηλώσεων. Μιλάω άπταιστα αγγλικά και γαλλικά, ενώ τα ελληνικά μου είναι σε επίπεδο Β2. Θεωρώ ",
+    3,
+    " η θέση ταιριάζει στις δεξιότητές μου. Σας επισυνάπτω το βιογραφικό μου και θα χαρώ να ",
+    4,
+    " γνωρίσω σε μια συνέντευξη. ",
+    5,
+    ", Σάρα Μίλερ"
+   ],
+   "en": "Dear Ms Mavridou, I read your advertisement for the post of communications manager with interest. I have been working as a translator for five years and have extensive experience in organising events. I speak fluent English and French, and my Greek is at B2 level. I believe the post matches my skills. I attach my CV and would be pleased to meet you at an interview. Yours sincerely, Sarah Miller",
+   "errs": [
+    {
+     "w": "ως η μεταφράστρια",
+     "r": [
+      "ως μεταφράστρια"
+     ],
+     "c": "article",
+     "why": "*ως* \"as\" in a role takes the bare noun: *ως μεταφράστρια*."
+    },
+    {
+     "w": "από πέντε χρόνια",
+     "r": [
+      "εδώ και πέντε χρόνια"
+     ],
+     "c": "prep",
+     "why": "\"For (a period up to now)\" is *εδώ και*. *Από πέντε χρόνια* copies French *depuis* or Spanish *desde hace*."
+    },
+    {
+     "w": "σε οργάνωση",
+     "r": [
+      "στην οργάνωση"
+     ],
+     "c": "article",
+     "why": "Activities and fields take the article: *στην οργάνωση*."
+    },
+    {
+     "w": "να",
+     "r": [
+      "ότι"
+     ],
+     "c": "mood",
+     "why": "*θεωρώ* introducing an opinion takes *ότι*."
+    },
+    {
+     "w": "σε",
+     "r": [
+      "σας"
+     ],
+     "c": "register",
+     "why": "Once you use *σας*, keep the polite plural: *να σας γνωρίσω*."
+    },
+    {
+     "w": "Φιλικά",
+     "r": [
+      "Με εκτίμηση"
+     ],
+     "c": "register",
+     "why": "A job application closes with *Με εκτίμηση*; *Φιλικά* is for people you know."
+    }
+   ],
+   "el": "Αίτηση για θέση εργασίας",
+   "title": "A job application"
+  },
+  {
+   "id": "p-b2-03",
+   "level": "B2",
+   "parts": [
+    "Τα τελευταία χρόνια τα μέσα κοινωνικής δικτύωσης έχουν ",
+    0,
+    " τον τρόπο που επικοινωνούμε. Από τη μία πλευρά, μας επιτρέπουν ",
+    1,
+    " σε επαφή με φίλους που ζουν μακριά. ",
+    2,
+    ", πολλοί νέοι ",
+    3,
+    " ώρες μπροστά στην οθόνη και νιώθουν μοναξιά. Έρευνες δείχνουν ότι η υπερβολική χρήση ",
+    4,
+    ". Πιστεύω ότι το πρόβλημα δεν είναι η τεχνολογία καθαυτή, αλλά ο τρόπος που ",
+    5,
+    "."
+   ],
+   "en": "In recent years social media have changed the way we communicate. On the one hand, they allow us to stay in touch with friends who live far away. On the other, many young people spend hours in front of a screen and feel lonely. Research shows that excessive use affects mental health. I believe the problem is not technology as such but the way we use it.",
+   "errs": [
+    {
+     "w": "αλλάζει",
+     "r": [
+      "αλλάξει"
+     ],
+     "c": "aspect",
+     "why": "The perfect is *έχω* + the perfective form: *έχουν αλλάξει*."
+    },
+    {
+     "w": "ότι μένουμε",
+     "r": [
+      "να μένουμε"
+     ],
+     "c": "mood",
+     "why": "*επιτρέπω* + an action takes *να*."
+    },
+    {
+     "w": "Από τη άλλη",
+     "r": [
+      "Από την άλλη"
+     ],
+     "c": "nu",
+     "why": "Before a vowel the ν stays: *από την άλλη*."
+    },
+    {
+     "w": "περνάει",
+     "r": [
+      "περνούν",
+      "περνάνε"
+     ],
+     "c": "agree",
+     "why": "*πολλοί νέοι* is plural: *περνούν*."
+    },
+    {
+     "w": "επηρεάζει στην ψυχική υγεία",
+     "r": [
+      "επηρεάζει την ψυχική υγεία"
+     ],
+     "c": "prep",
+     "why": "*επηρεάζω* takes a direct object."
+    },
+    {
+     "w": "χρησιμοποιούμε αυτή",
+     "r": [
+      "τη χρησιμοποιούμε"
+     ],
+     "c": "clitic",
+     "why": "A pronoun object is a clitic before the verb: *τη χρησιμοποιούμε*."
+    }
+   ],
+   "el": "Τα μέσα κοινωνικής δικτύωσης",
+   "title": "Social media"
+  },
+  {
+   "id": "p-b2-04",
+   "level": "B2",
+   "parts": [
+    "Κάθε χρόνο ",
+    0,
+    " το χωριό της γιαγιάς μου γιορτάζει την Παναγία. Το πρωί όλοι ",
+    1,
+    " ",
+    2,
+    " και το βράδυ στήνεται μεγάλο πανηγύρι στην πλατεία. Φέτος ήρθαν περισσότεροι από ",
+    3,
+    " άνθρωποι, ",
+    4,
+    " και πολλοί ομογενείς από τη Γερμανία και την Αυστραλία. Η ορχήστρα έπαιζε μέχρι το πρωί και οι νέοι χόρευαν ασταμάτητα. Για μένα ήταν η πρώτη φορά ",
+    5,
+    " έβλεπα τόσο κόσμο να γιορτάζει μαζί."
+   ],
+   "en": "Every year on 15 August my grandmother's village celebrates the Virgin Mary. In the morning everyone goes to church, and in the evening a big feast is set up in the square. This year more than a thousand people came, among them many Greeks from abroad, from Germany and Australia. The band played until morning and the young people danced non-stop. For me it was the first time I had seen so many people celebrating together.",
+   "errs": [
+    {
+     "w": "σε 15 Αυγούστου",
+     "r": [
+      "στις 15 Αυγούστου"
+     ],
+     "c": "prep",
+     "why": "Dates take *στις*."
+    },
+    {
+     "w": "πηγαίνει",
+     "r": [
+      "πηγαίνουν"
+     ],
+     "c": "agree",
+     "why": "*όλοι* is plural: *πηγαίνουν*."
+    },
+    {
+     "w": "στη εκκλησία",
+     "r": [
+      "στην εκκλησία"
+     ],
+     "c": "nu",
+     "why": "Before a vowel the ν stays: *στην εκκλησία*."
+    },
+    {
+     "w": "χίλια",
+     "r": [
+      "χίλιοι"
+     ],
+     "c": "agree",
+     "why": "*χίλιοι* agrees with *άνθρωποι* (masculine plural)."
+    },
+    {
+     "w": "ανάμεσα τους",
+     "r": [
+      "ανάμεσά τους"
+     ],
+     "c": "accent",
+     "why": "*ανάμεσα* is stressed on its third-last syllable, so before *τους* it takes a second accent."
+    },
+    {
+     "w": "ότι",
+     "r": [
+      "που"
+     ],
+     "c": "order",
+     "why": "\"The first time that\" is *η πρώτη φορά που*."
+    }
+   ],
+   "el": "Το πανηγύρι του χωριού",
+   "title": "The village feast"
+  },
+  {
+   "id": "p-b2-05",
+   "level": "B2",
+   "parts": [
+    "Χθες ",
+    0,
+    " την καινούργια ταινία μιας νέας Ελληνίδας σκηνοθέτριας. Η υπόθεση είναι ",
+    1,
+    ", αλλά η ταινία είναι ",
+    2,
+    ". Οι ηθοποιοί παίζουν εξαιρετικά, ειδικά η πρωταγωνίστρια, ",
+    3,
+    " είναι μόλις είκοσι χρονών. Το μόνο αρνητικό είναι ότι η ταινία ",
+    4,
+    " σχεδόν τρεις ώρες. Αν σας αρέσει ο κινηματογράφος που σας κάνει να σκεφτείτε, αξίζει να ",
+    5,
+    " δείτε."
+   ],
+   "en": "Yesterday I saw the new film by a young Greek director. The plot is strange, but the film is impressive. The actors are excellent, especially the lead actress, who is only twenty. The only downside is that the film lasts almost three hours. If you like cinema that makes you think, it's worth seeing.",
+   "errs": [
+    {
+     "w": "έβλεψα",
+     "r": [
+      "είδα"
+     ],
+     "c": "verb",
+     "why": "The aorist of *βλέπω* is *είδα*."
+    },
+    {
+     "w": "περίεργος",
+     "r": [
+      "περίεργη"
+     ],
+     "c": "agree",
+     "why": "*η υπόθεση* is feminine: *περίεργη*."
+    },
+    {
+     "w": "εντυπωσιασμένη",
+     "r": [
+      "εντυπωσιακή"
+     ],
+     "c": "words",
+     "why": "*Εντυπωσιασμένος* is the person who is impressed; the film that impresses is *εντυπωσιακή*."
+    },
+    {
+     "w": "ο οποίος",
+     "r": [
+      "η οποία"
+     ],
+     "c": "agree",
+     "why": "*ο οποίος* agrees with *η πρωταγωνίστρια*: *η οποία*."
+    },
+    {
+     "w": "παίρνει",
+     "r": [
+      "κρατάει",
+      "διαρκεί"
+     ],
+     "c": "words",
+     "why": "\"Lasts\" is *κρατάει* or *διαρκεί*; *παίρνει* is an anglicism here."
+    },
+    {
+     "w": "την",
+     "r": [
+      "τη"
+     ],
+     "c": "nu",
+     "why": "Before *δ* the ν drops: *να τη δείτε*."
+    }
+   ],
+   "el": "Μια ταινία που είδα",
+   "title": "A film I saw"
+  },
+  {
+   "id": "p-c1-01",
+   "level": "C1",
+   "parts": [
+    "Κατά τη διάρκεια ",
+    0,
+    ", εκατοντάδες χιλιάδες νέοι, πολλοί από αυτούς πτυχιούχοι, εγκατέλειψαν τη χώρα ",
+    1,
+    " καλύτερες συνθήκες εργασίας στο εξωτερικό. Το φαινόμενο, γνωστό ",
+    2,
+    ", στέρησε από την ελληνική οικονομία πολύτιμο ανθρώπινο δυναμικό. Τα τελευταία χρόνια, ωστόσο, παρατηρείται μια ",
+    3,
+    " τάση, καθώς αρκετοί επιστρέφουν ",
+    4,
+    " και στην τηλεργασία. Το ζητούμενο είναι ",
+    5,
+    " η χώρα θα καταφέρει να τους προσφέρει τις προοπτικές που ανέμεναν."
+   ],
+   "en": "During the economic crisis, hundreds of thousands of young people, many of them graduates, left the country in search of better working conditions abroad. The phenomenon, known as the \"brain drain\", deprived the Greek economy of valuable human capital. In recent years, however, a reverse trend can be seen, as quite a few are returning thanks to state incentives and remote work. The question is whether the country will manage to offer them the prospects they expected.",
+   "errs": [
+    {
+     "w": "της οικονομική κρίση",
+     "r": [
+      "της οικονομικής κρίσης"
+     ],
+     "c": "case",
+     "why": "*κατά τη διάρκεια* + genitive, and the adjective agrees: *της οικονομικής κρίσης*."
+    },
+    {
+     "w": "αναζητώντες",
+     "r": [
+      "αναζητώντας"
+     ],
+     "c": "agree",
+     "why": "The gerund never changes: *αναζητώντας*."
+    },
+    {
+     "w": "ως η «διαρροή εγκεφάλων»",
+     "r": [
+      "ως «διαρροή εγκεφάλων»"
+     ],
+     "c": "article",
+     "why": "*ως* \"as\" takes the bare noun, also with a quoted term."
+    },
+    {
+     "w": "αντίστροφος",
+     "r": [
+      "αντίστροφη"
+     ],
+     "c": "agree",
+     "why": "*η τάση* is feminine: *αντίστροφη*."
+    },
+    {
+     "w": "χάρη των κρατικών κινήτρων",
+     "r": [
+      "χάρη στα κρατικά κίνητρα"
+     ],
+     "c": "case",
+     "why": "*χάρη σε* \"thanks to\" takes the accusative: *χάρη στα κρατικά κίνητρα*."
+    },
+    {
+     "w": "ότι",
+     "r": [
+      "αν"
+     ],
+     "c": "mood",
+     "why": "\"Whether\" is *αν*: *το ζητούμενο είναι αν…*."
+    }
+   ],
+   "el": "Η διαρροή εγκεφάλων",
+   "title": "The brain drain"
+  },
+  {
+   "id": "p-c1-02",
+   "level": "C1",
+   "parts": [
+    "Οι δασικές πυρκαγιές ",
+    0,
+    " πλέον μόνιμη απειλή για τη χώρα. Το καλοκαίρι του 2023 η φωτιά ",
+    1,
+    " θεωρήθηκε η μεγαλύτερη που ",
+    2,
+    " στην Ευρωπαϊκή Ένωση. Οι ειδικοί επισημαίνουν ",
+    3,
+    " η κλιματική αλλαγή, ",
+    4,
+    " της υπαίθρου, ",
+    5,
+    ". Η πρόληψη, δηλαδή ο καθαρισμός των δασών και η ενίσχυση της πυροσβεστικής, κοστίζει πολύ λιγότερο ",
+    6,
+    " την αποκατάσταση των ζημιών."
+   ],
+   "en": "Forest fires are now a permanent threat to the country. In the summer of 2023 the fire in Evros was considered the largest ever recorded in the European Union. Experts point out that climate change, combined with the abandonment of the countryside, increases the risk. Prevention, that is clearing the forests and strengthening the fire service, costs far less than repairing the damage.",
+   "errs": [
+    {
+     "w": "αποτελεί",
+     "r": [
+      "αποτελούν"
+     ],
+     "c": "agree",
+     "why": "The subject is plural: *οι πυρκαγιές αποτελούν*."
+    },
+    {
+     "w": "στο Έβρο",
+     "r": [
+      "στον Έβρο"
+     ],
+     "c": "nu",
+     "why": "The masculine article always keeps its ν: *στον Έβρο*."
+    },
+    {
+     "w": "έχει καταγράφει",
+     "r": [
+      "έχει καταγραφεί"
+     ],
+     "c": "verb",
+     "why": "A record is something done to the fire: passive perfect *έχει καταγραφεί*."
+    },
+    {
+     "w": "να",
+     "r": [
+      "ότι"
+     ],
+     "c": "mood",
+     "why": "*επισημαίνω* reports a fact: *ότι*."
+    },
+    {
+     "w": "σε συνδυασμό της εγκατάλειψης",
+     "r": [
+      "σε συνδυασμό με την εγκατάλειψη"
+     ],
+     "c": "prep",
+     "why": "\"Combined with\" is *σε συνδυασμό με*."
+    },
+    {
+     "w": "αυξάνει στον κίνδυνο",
+     "r": [
+      "αυξάνει τον κίνδυνο"
+     ],
+     "c": "prep",
+     "why": "*αυξάνω* takes a direct object."
+    },
+    {
+     "w": "παρά",
+     "r": [
+      "από"
+     ],
+     "c": "order",
+     "why": "Before a noun, \"than\" is *από*."
+    }
+   ],
+   "el": "Οι πυρκαγιές του καλοκαιριού",
+   "title": "Summer wildfires"
+  },
+  {
+   "id": "p-c1-03",
+   "level": "C1",
+   "parts": [
+    "Αξιότιμε κύριε ",
+    0,
+    ", ",
+    1,
+    " της οδού Αριστοτέλους, θα θέλαμε να σας εκφράσουμε την έντονη ανησυχία μας για την κατάσταση του πάρκου της γειτονιάς μας. Τους τελευταίους μήνες ο φωτισμός ",
+    2,
+    " και οι παιδικές χαρές έχουν ",
+    3,
+    ". ",
+    4,
+    ", δεν έχουμε λάβει καμία απάντηση. Σας παρακαλούμε ",
+    5,
+    " το ζήτημα το συντομότερο δυνατόν. Με τιμή, οι κάτοικοι της οδού Αριστοτέλους"
+   ],
+   "en": "Dear Mayor, as residents of Aristotelous Street, we would like to express our deep concern about the state of our neighbourhood park. For the last few months the lighting has not been working and the playgrounds have been destroyed. Despite our repeated complaints, we have received no reply. We ask you to look into the matter as soon as possible. Yours faithfully, the residents of Aristotelous Street",
+   "errs": [
+    {
+     "w": "Δήμαρχος",
+     "r": [
+      "Δήμαρχε"
+     ],
+     "c": "case",
+     "why": "Addressing someone takes the vocative: *κύριε Δήμαρχε*."
+    },
+    {
+     "w": "ως οι κάτοικοι",
+     "r": [
+      "ως κάτοικοι"
+     ],
+     "c": "article",
+     "why": "*ως* + bare noun for a role."
+    },
+    {
+     "w": "δεν λειτουργούν",
+     "r": [
+      "δεν λειτουργεί"
+     ],
+     "c": "agree",
+     "why": "*ο φωτισμός* is singular: *λειτουργεί*."
+    },
+    {
+     "w": "καταστρέψει",
+     "r": [
+      "καταστραφεί"
+     ],
+     "c": "verb",
+     "why": "The playgrounds did not destroy something; they were destroyed: passive *έχουν καταστραφεί*."
+    },
+    {
+     "w": "Παρά των επανειλημμένων καταγγελιών μας",
+     "r": [
+      "Παρά τις επανειλημμένες καταγγελίες μας"
+     ],
+     "c": "case",
+     "why": "*παρά* takes the accusative: *παρά τις επανειλημμένες καταγγελίες μας*."
+    },
+    {
+     "w": "να εξετάσεις",
+     "r": [
+      "να εξετάσετε"
+     ],
+     "c": "register",
+     "why": "The letter uses *σας*; every verb addressed to the mayor stays plural."
+    }
+   ],
+   "el": "Επιστολή προς τον δήμαρχο",
+   "title": "A letter to the mayor"
+  },
+  {
+   "id": "p-c1-04",
+   "level": "C1",
+   "parts": [
+    "Η ελληνική γλώσσα έχει ",
+    0,
+    " λέξεις από πολλές γλώσσες, από τα λατινικά και τα τουρκικά μέχρι τα ιταλικά και τα γαλλικά. Σήμερα η μεγαλύτερη επιρροή προέρχεται από τα αγγλικά, ιδίως ",
+    1,
+    " της τεχνολογίας και των επιχειρήσεων. Ορισμένοι γλωσσολόγοι ",
+    2,
+    " ότι το φαινόμενο απειλεί τη γλώσσα, ενώ άλλοι ",
+    3,
+    " για φυσική εξέλιξη. Αυτό που ενοχλεί περισσότερο δεν είναι οι λέξεις, αλλά ",
+    4,
+    " εκφράσεις, όπως το «κάνει νόημα», που αλλοιώνουν ",
+    5,
+    "."
+   ],
+   "en": "Greek has borrowed words from many languages, from Latin and Turkish to Italian and French. Today the greatest influence comes from English, especially in technology and business. Some linguists consider that the phenomenon threatens the language, while others argue that it is a natural development. What bothers people most is not the words but translated expressions such as \"κάνει νόημα\" (makes sense), which distort the syntax.",
+   "errs": [
+    {
+     "w": "δανειστή",
+     "r": [
+      "δανειστεί"
+     ],
+     "c": "spelling",
+     "why": "Passive perfective forms end in *-εί*: *έχει δανειστεί*."
+    },
+    {
+     "w": "στο χώρο",
+     "r": [
+      "στον χώρο"
+     ],
+     "c": "nu",
+     "why": "The masculine article always keeps its ν: *στον χώρο*."
+    },
+    {
+     "w": "θεωρεί",
+     "r": [
+      "θεωρούν"
+     ],
+     "c": "agree",
+     "why": "*ορισμένοι γλωσσολόγοι* is plural: *θεωρούν*."
+    },
+    {
+     "w": "υποστηρίζουν να πρόκειται",
+     "r": [
+      "υποστηρίζουν ότι πρόκειται"
+     ],
+     "c": "mood",
+     "why": "*υποστηρίζω* introducing a claim takes *ότι*."
+    },
+    {
+     "w": "οι μεταφραστικοί",
+     "r": [
+      "οι μεταφραστικές"
+     ],
+     "c": "agree",
+     "why": "*η έκφραση* is feminine: *οι μεταφραστικές εκφράσεις*."
+    },
+    {
+     "w": "τη σύνταξή",
+     "r": [
+      "τη σύνταξη"
+     ],
+     "c": "accent",
+     "why": "A second accent appears only before a clitic; *σύνταξη* is the end of the sentence, so it has one accent."
+    }
+   ],
+   "el": "Η γλώσσα και τα αγγλικά δάνεια",
+   "title": "Greek and English loans"
+  },
+  {
+   "id": "p-c1-05",
+   "level": "C1",
+   "parts": [
+    "Χθες η Βουλή συζήτησε το νομοσχέδιο για την ανώτατη εκπαίδευση. Η υπουργός Παιδείας, ",
+    0,
+    " μίλησε πρώτη, υποστήριξε ότι οι αλλαγές θα ενισχύσουν την αυτονομία ",
+    1,
+    ". Η αντιπολίτευση, αντιθέτως, ",
+    2,
+    " δεν διαβουλεύτηκε με την ",
+    3,
+    " κοινότητα. Μετά από οκτάωρη συζήτηση, το νομοσχέδιο ψηφίστηκε με 158 ",
+    4,
+    " υπέρ. Οι φοιτητικοί σύλλογοι ",
+    5,
+    " ότι θα συνεχίσουν τις κινητοποιήσεις τους."
+   ],
+   "en": "Yesterday Parliament debated the bill on higher education. The (female) Minister of Education, who spoke first, argued that the changes would strengthen the universities' autonomy. The opposition, by contrast, accused the government of not consulting the academic community. After an eight-hour debate, the bill was passed with 158 votes in favour. The student unions announced that they would continue their protests.",
+   "errs": [
+    {
+     "w": "ο οποίος",
+     "r": [
+      "η οποία"
+     ],
+     "c": "agree",
+     "why": "*ο οποίος* agrees with *η υπουργός*, here a woman: *η οποία*."
+    },
+    {
+     "w": "των πανεπιστήμιων",
+     "r": [
+      "των πανεπιστημίων"
+     ],
+     "c": "accent",
+     "why": "*πανεπιστήμιο* moves the stress in the genitive plural: *των πανεπιστημίων*."
+    },
+    {
+     "w": "τα έψαλε στην κυβέρνηση γιατί",
+     "r": [
+      "κατηγόρησε την κυβέρνηση ότι"
+     ],
+     "c": "register",
+     "why": "*Τα έψαλε* \"gave them a telling-off\" is colloquial; a report of a debate needs *κατηγόρησε… ότι*."
+    },
+    {
+     "w": "ακαδημαική",
+     "r": [
+      "ακαδημαϊκή"
+     ],
+     "c": "spelling",
+     "why": "*ακαδημαϊκός*: the unstressed *ι* after *α* needs a diaeresis."
+    },
+    {
+     "w": "ψήφοι",
+     "r": [
+      "ψήφους"
+     ],
+     "c": "case",
+     "why": "*με* takes the accusative: *με 158 ψήφους*."
+    },
+    {
+     "w": "ανακοίνωσε",
+     "r": [
+      "ανακοίνωσαν"
+     ],
+     "c": "agree",
+     "why": "*οι σύλλογοι* is plural: *ανακοίνωσαν*."
+    }
+   ],
+   "el": "Συζήτηση στη Βουλή",
+   "title": "A debate in Parliament"
+  }
+ ]
+}

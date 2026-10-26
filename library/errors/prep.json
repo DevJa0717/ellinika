@@ -1,0 +1,489 @@
+{
+ "id": "prep",
+ "el": "Προθέσεις",
+ "title": "Prepositions",
+ "about": "*σε* fuses with the article (*στο, στη, στον*) and covers \"in\", \"at\", \"to\" and \"on\". Many verbs take a different preposition from English, or none at all: *περιμένω το λεωφορείο* (wait for), *ακούω μουσική* (listen to), *εξαρτάται από* (depend on), *ενδιαφέρομαι για* (be interested in). \"For\" with a period up to now is *εδώ και*, not *για*.",
+ "items": [
+  {
+   "id": "prep-01",
+   "level": "A2",
+   "parts": [
+    "Πάμε ",
+    0,
+    " αύριο."
+   ],
+   "en": "We're going to Thessaloniki tomorrow.",
+   "errs": [
+    {
+     "w": "σε Θεσσαλονίκη",
+     "r": [
+      "στη Θεσσαλονίκη"
+     ],
+     "c": "prep",
+     "why": "*σε* fuses with the article of the place: *στη Θεσσαλονίκη*, *στο Ηράκλειο*."
+    }
+   ]
+  },
+  {
+   "id": "prep-02",
+   "level": "A2",
+   "parts": [
+    0,
+    " εδώ και μισή ώρα."
+   ],
+   "en": "I've been waiting for the bus for half an hour.",
+   "errs": [
+    {
+     "w": "Περιμένω για το λεωφορείο",
+     "r": [
+      "Περιμένω το λεωφορείο"
+     ],
+     "c": "prep",
+     "why": "*περιμένω* takes a direct object: *περιμένω το λεωφορείο*, *σε περιμένω*. No *για*."
+    }
+   ]
+  },
+  {
+   "id": "prep-03",
+   "level": "A2",
+   "parts": [
+    "Κάθε βράδυ ",
+    0,
+    " πριν κοιμηθώ."
+   ],
+   "en": "Every evening I listen to music before I sleep.",
+   "errs": [
+    {
+     "w": "ακούω σε μουσική",
+     "r": [
+      "ακούω μουσική"
+     ],
+     "c": "prep",
+     "why": "*ακούω* takes a direct object: *ακούω μουσική*, *τον ακούω*."
+    }
+   ]
+  },
+  {
+   "id": "prep-04",
+   "level": "A2",
+   "parts": [
+    "Πάω στη δουλειά ",
+    0,
+    "."
+   ],
+   "en": "I walk to work.",
+   "errs": [
+    {
+     "w": "με πόδι",
+     "r": [
+      "με τα πόδια"
+     ],
+     "c": "prep",
+     "why": "\"On foot\" is *με τα πόδια*; by vehicle: *με το λεωφορείο*, *με το αυτοκίνητο*."
+    }
+   ]
+  },
+  {
+   "id": "prep-05",
+   "level": "A2",
+   "parts": [
+    "Τα γενέθλιά μου είναι ",
+    0,
+    "."
+   ],
+   "en": "My birthday is on 5 May.",
+   "errs": [
+    {
+     "w": "σε 5 Μαΐου",
+     "r": [
+      "στις 5 Μαΐου"
+     ],
+     "c": "prep",
+     "why": "Dates take *στις* (from *σε τις* [ημέρες]): *στις 5 Μαΐου*, *στις 25 Μαρτίου*."
+    }
+   ]
+  },
+  {
+   "id": "prep-06",
+   "level": "A2",
+   "parts": [
+    "Ο Νίκος μένει στο Λονδίνο, αλλά έρχεται συχνά στην Ελλάδα."
+   ],
+   "en": "Nikos lives in London but often comes to Greece.",
+   "ok": true,
+   "why": "Nothing to fix: *σε* + article covers both \"in\" (*στο Λονδίνο*) and \"to\" (*στην Ελλάδα*)."
+  },
+  {
+   "id": "prep-07",
+   "level": "B1",
+   "parts": [
+    "Μένω στην Αθήνα ",
+    0,
+    "."
+   ],
+   "en": "I've been living in Athens for five years.",
+   "errs": [
+    {
+     "w": "για πέντε χρόνια",
+     "r": [
+      "εδώ και πέντε χρόνια"
+     ],
+     "c": "prep",
+     "why": "A situation that started in the past and is still going on is in the present tense with *εδώ και*. *Για πέντε χρόνια* means a planned stretch: *θα μείνω για πέντε χρόνια*."
+    }
+   ]
+  },
+  {
+   "id": "prep-08",
+   "level": "B1",
+   "parts": [
+    "Ενδιαφέρομαι ",
+    0,
+    " θέσεις στον τουρισμό."
+   ],
+   "en": "I'm interested in jobs in tourism.",
+   "errs": [
+    {
+     "w": "σε",
+     "r": [
+      "για"
+     ],
+     "c": "prep",
+     "why": "*ενδιαφέρομαι για* \"be interested in\"."
+    }
+   ]
+  },
+  {
+   "id": "prep-09",
+   "level": "B1",
+   "parts": [
+    "Όλα ",
+    0,
+    " τον καιρό."
+   ],
+   "en": "Everything depends on the weather.",
+   "errs": [
+    {
+     "w": "εξαρτώνται σε",
+     "r": [
+      "εξαρτώνται από"
+     ],
+     "c": "prep",
+     "why": "*εξαρτώμαι από* \"depend on\"."
+    }
+   ]
+  },
+  {
+   "id": "prep-10",
+   "level": "B1",
+   "parts": [
+    "Είμαι πολύ θυμωμένη ",
+    0,
+    "."
+   ],
+   "en": "I'm very angry with you.",
+   "errs": [
+    {
+     "w": "σε σένα",
+     "r": [
+      "μαζί σου",
+      "με σένα"
+     ],
+     "c": "prep",
+     "why": "\"Angry with someone\" is *θυμωμένος με* / *μαζί*: *μαζί σου*, *με τον Νίκο*."
+    }
+   ]
+  },
+  {
+   "id": "prep-11",
+   "level": "B1",
+   "parts": [
+    "Θέλω να ",
+    0,
+    "."
+   ],
+   "en": "I want to ask for help.",
+   "errs": [
+    {
+     "w": "ζητήσω για βοήθεια",
+     "r": [
+      "ζητήσω βοήθεια"
+     ],
+     "c": "prep",
+     "why": "*ζητάω* takes a direct object: *ζητάω βοήθεια*, *ζήτησε τον λογαριασμό*."
+    }
+   ]
+  },
+  {
+   "id": "prep-12",
+   "level": "B1",
+   "parts": [
+    "Συμφωνώ απόλυτα ",
+    0,
+    "."
+   ],
+   "en": "I completely agree with you.",
+   "errs": [
+    {
+     "w": "σε σένα",
+     "r": [
+      "με σένα",
+      "μαζί σου"
+     ],
+     "c": "prep",
+     "why": "You agree *με* someone: *συμφωνώ μαζί σου*. *Συμφωνώ σε κάτι* means agreeing on or to something: *συμφωνήσαμε στην τιμή*."
+    }
+   ]
+  },
+  {
+   "id": "prep-13",
+   "level": "B1",
+   "parts": [
+    "Μαθαίνω ελληνικά από το 2023 και πήγα στην Κρήτη πριν από δύο χρόνια."
+   ],
+   "en": "I've been learning Greek since 2023 and went to Crete two years ago.",
+   "ok": true,
+   "why": "Nothing to fix: *από* \"since\" with a starting point, *πριν από* \"ago\"."
+  },
+  {
+   "id": "prep-14",
+   "level": "B2",
+   "parts": [
+    "Η τεχνολογία ",
+    0,
+    " μας."
+   ],
+   "en": "Technology affects our health.",
+   "errs": [
+    {
+     "w": "επηρεάζει στην υγεία",
+     "r": [
+      "επηρεάζει την υγεία"
+     ],
+     "c": "prep",
+     "why": "*επηρεάζω* takes a direct object; the \"on\" of \"an effect on\" is not translated."
+    }
+   ]
+  },
+  {
+   "id": "prep-15",
+   "level": "B2",
+   "parts": [
+    "Η επιτροπή ",
+    0,
+    " επτά μέλη."
+   ],
+   "en": "The committee consists of seven members.",
+   "errs": [
+    {
+     "w": "αποτελείται με",
+     "r": [
+      "αποτελείται από"
+     ],
+     "c": "prep",
+     "why": "*αποτελούμαι από* \"consist of\"."
+    }
+   ]
+  },
+  {
+   "id": "prep-16",
+   "level": "B2",
+   "parts": [
+    "Θα ",
+    0,
+    " τον Νοέμβριο."
+   ],
+   "en": "I'll take part in a conference in November.",
+   "errs": [
+    {
+     "w": "συμμετάσχω ένα συνέδριο",
+     "r": [
+      "συμμετάσχω σε ένα συνέδριο"
+     ],
+     "c": "prep",
+     "why": "*συμμετέχω σε* \"take part in\"."
+    }
+   ]
+  },
+  {
+   "id": "prep-17",
+   "level": "B2",
+   "parts": [
+    "Το άρθρο ",
+    0,
+    " κρίση του 2010."
+   ],
+   "en": "The article refers to the 2010 crisis.",
+   "errs": [
+    {
+     "w": "αναφέρεται για την",
+     "r": [
+      "αναφέρεται στην"
+     ],
+     "c": "prep",
+     "why": "*αναφέρομαι σε* \"refer to\"; with the article: *αναφέρεται στην κρίση*."
+    }
+   ]
+  },
+  {
+   "id": "prep-18",
+   "level": "B2",
+   "parts": [
+    0,
+    " πολύ αργά."
+   ],
+   "en": "I got home very late.",
+   "errs": [
+    {
+     "w": "Έφτασα το σπίτι",
+     "r": [
+      "Έφτασα στο σπίτι"
+     ],
+     "c": "prep",
+     "why": "*φτάνω σε* \"arrive at, reach\": *έφτασα στο σπίτι*, *φτάσαμε στην Πάτρα*."
+    }
+   ]
+  },
+  {
+   "id": "prep-19",
+   "level": "B2",
+   "parts": [
+    "Ήρθε στη συνάντηση μαζί με τον δικηγόρο της."
+   ],
+   "en": "She came to the meeting together with her lawyer.",
+   "ok": true,
+   "why": "Nothing to fix: *στη συνάντηση* (*σε* \"to\") and *μαζί με* \"together with\"."
+  },
+  {
+   "id": "prep-20",
+   "level": "C1",
+   "parts": [
+    "Η πρόταση ",
+    0,
+    " νέους αγρότες."
+   ],
+   "en": "The proposal is addressed to young farmers.",
+   "errs": [
+    {
+     "w": "απευθύνεται για τους",
+     "r": [
+      "απευθύνεται στους"
+     ],
+     "c": "prep",
+     "why": "*απευθύνομαι σε* \"address, be aimed at\": *απευθύνεται στους νέους*."
+    }
+   ]
+  },
+  {
+   "id": "prep-21",
+   "level": "C1",
+   "parts": [
+    "Το σχέδιο ",
+    0,
+    " στοιχεία της ΕΛΣΤΑΤ."
+   ],
+   "en": "The plan is based on ELSTAT data.",
+   "errs": [
+    {
+     "w": "στηρίζεται πάνω τα",
+     "r": [
+      "στηρίζεται στα",
+      "βασίζεται στα"
+     ],
+     "c": "prep",
+     "why": "*στηρίζομαι σε* / *βασίζομαι σε* \"be based on\": *στηρίζεται στα στοιχεία*. *Πάνω* alone cannot introduce a noun; it needs *σε*."
+    }
+   ]
+  },
+  {
+   "id": "prep-22",
+   "level": "C1",
+   "parts": [
+    "Η Ελλάδα δεν ",
+    0,
+    " την Ιταλία σε αυτό."
+   ],
+   "en": "Greece does not differ much from Italy in this respect.",
+   "errs": [
+    {
+     "w": "διαφέρει πολύ με",
+     "r": [
+      "διαφέρει πολύ από"
+     ],
+     "c": "prep",
+     "why": "*διαφέρω από* \"differ from\". *Διαφωνώ με* is \"disagree with\"; the two are easily crossed."
+    }
+   ]
+  },
+  {
+   "id": "prep-23",
+   "level": "C1",
+   "parts": [
+    "Η ανακοίνωση εκδόθηκε ",
+    0,
+    " επικρίσεις της αντιπολίτευσης."
+   ],
+   "en": "The statement was issued in response to the opposition's criticism.",
+   "errs": [
+    {
+     "w": "σε απάντηση για",
+     "r": [
+      "σε απάντηση στις"
+     ],
+     "c": "prep",
+     "why": "*σε απάντηση σε* \"in response to\": *σε απάντηση στις επικρίσεις*."
+    }
+   ]
+  },
+  {
+   "id": "prep-24",
+   "level": "C1",
+   "parts": [
+    "Η κυβέρνηση ",
+    0,
+    " παιδεία."
+   ],
+   "en": "The government put the emphasis on education.",
+   "errs": [
+    {
+     "w": "έδωσε έμφαση για",
+     "r": [
+      "έδωσε έμφαση στην"
+     ],
+     "c": "prep",
+     "why": "*δίνω έμφαση σε* \"put emphasis on\"."
+    }
+   ]
+  },
+  {
+   "id": "prep-25",
+   "level": "C1",
+   "parts": [
+    "Η μελέτη ",
+    0,
+    " επιπτώσεις του τουρισμού."
+   ],
+   "en": "The study focuses on the effects of tourism.",
+   "errs": [
+    {
+     "w": "εστιάζει για",
+     "r": [
+      "εστιάζει στις"
+     ],
+     "c": "prep",
+     "why": "*εστιάζω σε* \"focus on\": *εστιάζει στις επιπτώσεις*."
+    }
+   ]
+  },
+  {
+   "id": "prep-26",
+   "level": "C1",
+   "parts": [
+    "Σε αντίθεση με τις προβλέψεις, η ανεργία μειώθηκε."
+   ],
+   "en": "Contrary to the forecasts, unemployment fell.",
+   "ok": true,
+   "why": "Nothing to fix: *σε αντίθεση με* \"in contrast to, contrary to\"."
+  }
+ ]
+}

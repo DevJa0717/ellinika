@@ -1,0 +1,509 @@
+{
+ "id": "agree",
+ "el": "Συμφωνία",
+ "title": "Agreement",
+ "about": "Articles, adjectives, numerals, participles and pronouns copy the gender, number and case of their noun, and the verb copies the person and number of its subject. Watch the numbers 1, 3, 4 and the hundreds, which change with gender, and *πολύς*, which is an adjective, not the adverb *πολύ*.",
+ "items": [
+  {
+   "id": "agree-01",
+   "level": "A2",
+   "parts": [
+    "Σήμερα είναι μια ",
+    0,
+    " μέρα."
+   ],
+   "en": "Today is a lovely day.",
+   "errs": [
+    {
+     "w": "ωραίο",
+     "r": [
+      "ωραία"
+     ],
+     "c": "agree",
+     "why": "*η μέρα* is feminine, so the adjective is feminine too: *μια ωραία μέρα* (masculine *ωραίος*, neuter *ωραίο*)."
+    }
+   ]
+  },
+  {
+   "id": "agree-02",
+   "level": "A2",
+   "parts": [
+    "Τα παιδιά ",
+    0,
+    " στον κήπο."
+   ],
+   "en": "The children are playing in the garden.",
+   "errs": [
+    {
+     "w": "παίζει",
+     "r": [
+      "παίζουν",
+      "παίζουνε"
+     ],
+     "c": "agree",
+     "why": "A plural subject takes a plural verb: *τα παιδιά παίζουν*."
+    }
+   ]
+  },
+  {
+   "id": "agree-03",
+   "level": "A2",
+   "parts": [
+    "Στο τμήμα μας είναι ",
+    0,
+    " γυναίκες και δύο άντρες."
+   ],
+   "en": "In our department there are three women and two men.",
+   "errs": [
+    {
+     "w": "τρία",
+     "r": [
+      "τρεις"
+     ],
+     "c": "agree",
+     "why": "*τρία* is only neuter (*τρία παιδιά*). With masculine and feminine nouns it is *τρεις*: *τρεις γυναίκες*, *τρεις άντρες*. The same goes for *τέσσερα/τέσσερις*."
+    }
+   ]
+  },
+  {
+   "id": "agree-04",
+   "level": "A2",
+   "parts": [
+    "Το σπίτι τους είναι πολύ ",
+    0,
+    "."
+   ],
+   "en": "Their house is very big.",
+   "errs": [
+    {
+     "w": "μεγάλος",
+     "r": [
+      "μεγάλο"
+     ],
+     "c": "agree",
+     "why": "The adjective after *είναι* agrees with the subject: *το σπίτι* is neuter, so *μεγάλο*."
+    }
+   ]
+  },
+  {
+   "id": "agree-05",
+   "level": "A2",
+   "parts": [
+    "Έχω ",
+    0,
+    " δουλειά σήμερα."
+   ],
+   "en": "I have a lot of work today.",
+   "errs": [
+    {
+     "w": "πολύ",
+     "r": [
+      "πολλή"
+     ],
+     "c": "agree",
+     "why": "Before a noun, \"a lot of\" is the adjective *πολύς, πολλή, πολύ*: *πολλή δουλειά*, *πολλοί φίλοι*, *πολλά λεφτά*. The adverb *πολύ* goes with verbs and adjectives: *δουλεύω πολύ*, *πολύ καλή*."
+    }
+   ]
+  },
+  {
+   "id": "agree-06",
+   "level": "A2",
+   "parts": [
+    "Εγώ και η Μαρία πηγαίνουμε κάθε μέρα στη δουλειά με το μετρό."
+   ],
+   "en": "Maria and I go to work by metro every day.",
+   "ok": true,
+   "why": "Nothing to fix: *εγώ και η Μαρία* is \"we\", so the verb is first person plural, *πηγαίνουμε*."
+  },
+  {
+   "id": "agree-07",
+   "level": "B1",
+   "parts": [
+    "Η πόρτα ήταν ",
+    0,
+    " όλη τη νύχτα."
+   ],
+   "en": "The door was open all night.",
+   "errs": [
+    {
+     "w": "ανοιχτός",
+     "r": [
+      "ανοιχτή"
+     ],
+     "c": "agree",
+     "why": "*η πόρτα* is feminine: *ανοιχτή*. Adjectives and participles after *είμαι* agree with the subject."
+    }
+   ]
+  },
+  {
+   "id": "agree-08",
+   "level": "B1",
+   "parts": [
+    "Οι φοιτήτριες ήταν πολύ ",
+    0,
+    " μετά την εξέταση."
+   ],
+   "en": "The (female) students were very tired after the exam.",
+   "errs": [
+    {
+     "w": "κουρασμένοι",
+     "r": [
+      "κουρασμένες"
+     ],
+     "c": "agree",
+     "why": "A group of women takes the feminine plural: *κουρασμένες*. The masculine *κουρασμένοι* is used for men or mixed groups."
+    }
+   ]
+  },
+  {
+   "id": "agree-09",
+   "level": "B1",
+   "parts": [
+    "Περίμενα ",
+    0,
+    " στο αεροδρόμιο."
+   ],
+   "en": "I waited an hour and a half at the airport.",
+   "errs": [
+    {
+     "w": "ενάμιση ώρα",
+     "r": [
+      "μιάμιση ώρα"
+     ],
+     "c": "agree",
+     "why": "\"One and a half\" agrees with the noun: *ενάμισης χρόνος* (masculine), *μιάμιση ώρα* (feminine), *ενάμισι κιλό* (neuter)."
+    }
+   ]
+  },
+  {
+   "id": "agree-10",
+   "level": "B1",
+   "parts": [
+    "Χθες στη συναυλία ",
+    0,
+    " πολύς κόσμος."
+   ],
+   "en": "A lot of people came to the concert yesterday.",
+   "errs": [
+    {
+     "w": "ήρθαν",
+     "r": [
+      "ήρθε"
+     ],
+     "c": "agree",
+     "why": "*ο κόσμος* \"people, crowd\" is grammatically singular, so the verb is singular: *ήρθε πολύς κόσμος*."
+    }
+   ]
+  },
+  {
+   "id": "agree-11",
+   "level": "B1",
+   "parts": [
+    "Στο βιβλίο υπάρχουν ",
+    0,
+    " σελίδες."
+   ],
+   "en": "There are two hundred pages in the book.",
+   "errs": [
+    {
+     "w": "διακόσια",
+     "r": [
+      "διακόσιες"
+     ],
+     "c": "agree",
+     "why": "The hundreds from 200 to 900 decline like adjectives: *διακόσιοι άντρες*, *διακόσιες σελίδες*, *διακόσια ευρώ*."
+    }
+   ]
+  },
+  {
+   "id": "agree-12",
+   "level": "B1",
+   "parts": [
+    "Δούλευα ",
+    0,
+    " την ημέρα και τώρα είμαι πτώμα."
+   ],
+   "en": "I worked all day and now I'm dead tired.",
+   "errs": [
+    {
+     "w": "όλο",
+     "r": [
+      "όλη"
+     ],
+     "c": "agree",
+     "why": "*όλος* agrees with the noun: *όλη την ημέρα*, *όλο το πρωί*, *όλους τους φίλους*."
+    }
+   ]
+  },
+  {
+   "id": "agree-13",
+   "level": "B1",
+   "parts": [
+    "Κυρία Αλεξίου, είστε κουρασμένη; Θέλετε να καθίσετε;"
+   ],
+   "en": "Mrs Alexiou, are you tired? Would you like to sit down?",
+   "ok": true,
+   "why": "Nothing to fix: in polite address the verb is plural (*είστε*, *θέλετε*) but the adjective keeps the real gender and number of the person: *είστε κουρασμένη*."
+  },
+  {
+   "id": "agree-14",
+   "level": "B2",
+   "parts": [
+    "Στην αίθουσα ",
+    0,
+    " πάνω από εκατό άτομα."
+   ],
+   "en": "There were over a hundred people in the hall.",
+   "errs": [
+    {
+     "w": "υπήρχε",
+     "r": [
+      "υπήρχαν"
+     ],
+     "c": "agree",
+     "why": "*υπάρχω* agrees with what exists: one thing *υπήρχε*, many *υπήρχαν*. \"Πάνω από εκατό άτομα\" is plural."
+    }
+   ]
+  },
+  {
+   "id": "agree-15",
+   "level": "B2",
+   "parts": [
+    "Μας έκαναν ",
+    0,
+    " ερωτήσεις για το σχέδιο."
+   ],
+   "en": "They kept asking us questions about the plan.",
+   "errs": [
+    {
+     "w": "συνεχής",
+     "r": [
+      "συνεχείς"
+     ],
+     "c": "agree",
+     "why": "Adjectives in *-ής* have plural *-είς* for masculine and feminine: *συνεχείς ερωτήσεις*, *ακριβείς πληροφορίες*; neuter *-ή*: *συνεχή προβλήματα*."
+    }
+   ]
+  },
+  {
+   "id": "agree-16",
+   "level": "B2",
+   "parts": [
+    "Η εταιρεία ",
+    0,
+    " δουλεύω έχει γραφεία στη Λάρισα."
+   ],
+   "en": "The company I work for has offices in Larissa.",
+   "errs": [
+    {
+     "w": "στον οποίο",
+     "r": [
+      "στην οποία"
+     ],
+     "c": "agree",
+     "why": "*ο οποίος* agrees in gender and number with the noun it refers to: *η εταιρεία* → *στην οποία*."
+    }
+   ]
+  },
+  {
+   "id": "agree-17",
+   "level": "B2",
+   "parts": [
+    "Πρέπει να πιεις ",
+    0,
+    " φορές περισσότερο νερό!"
+   ],
+   "en": "You need to drink a thousand times more water!",
+   "errs": [
+    {
+     "w": "χίλια",
+     "r": [
+      "χίλιες"
+     ],
+     "c": "agree",
+     "why": "*χίλιοι, χίλιες, χίλια* agree with their noun: *χίλιες φορές*, *χίλια ευρώ*. Only from two thousand on is it the noun *χιλιάδες*: *δύο χιλιάδες ευρώ*."
+    }
+   ]
+  },
+  {
+   "id": "agree-18",
+   "level": "B2",
+   "parts": [
+    "Οι γονείς μου, όπως και η αδελφή μου, ",
+    0,
+    " στην Κρήτη."
+   ],
+   "en": "My parents, like my sister, live in Crete.",
+   "errs": [
+    {
+     "w": "μένει",
+     "r": [
+      "μένουν"
+     ],
+     "c": "agree",
+     "why": "A phrase in commas such as *όπως και η αδελφή μου* does not change the subject: *οι γονείς μου μένουν*."
+    }
+   ]
+  },
+  {
+   "id": "agree-19",
+   "level": "B2",
+   "parts": [
+    "Ούτε ο Πέτρος ούτε η Άννα ήξεραν τι είχε συμβεί."
+   ],
+   "en": "Neither Petros nor Anna knew what had happened.",
+   "ok": true,
+   "why": "Nothing to fix: two subjects joined by *ούτε… ούτε* can take a plural verb (*ήξεραν*), and *είχε συμβεί* has the impersonal *τι* as its subject."
+  },
+  {
+   "id": "agree-20",
+   "level": "C1",
+   "parts": [
+    "Η ",
+    0,
+    " κοινότητα αντέδρασε αμέσως."
+   ],
+   "en": "The international community reacted at once.",
+   "errs": [
+    {
+     "w": "διεθνή",
+     "r": [
+      "διεθνής"
+     ],
+     "c": "agree",
+     "why": "Adjectives in *-ής* have the same nominative for masculine and feminine: *ο/η διεθνής*; *διεθνή* is the accusative (*τη διεθνή κοινότητα*)."
+    }
+   ]
+  },
+  {
+   "id": "agree-21",
+   "level": "C1",
+   "parts": [
+    "Η στάση ",
+    0,
+    " κοινότητας ήταν αμήχανη."
+   ],
+   "en": "The stance of the international community was awkward.",
+   "errs": [
+    {
+     "w": "της διεθνής",
+     "r": [
+      "της διεθνούς"
+     ],
+     "c": "agree",
+     "why": "The genitive singular of *-ής* adjectives ends in *-ούς*: *της διεθνούς κοινότητας*, *του συνεχούς αγώνα*."
+    }
+   ]
+  },
+  {
+   "id": "agree-22",
+   "level": "C1",
+   "parts": [
+    "Σύμφωνα με την ",
+    0,
+    " νομοθεσία, η άδεια ανανεώνεται κάθε χρόνο."
+   ],
+   "en": "Under the legislation in force, the licence is renewed every year.",
+   "errs": [
+    {
+     "w": "ισχύων",
+     "r": [
+      "ισχύουσα"
+     ],
+     "c": "agree",
+     "why": "Learned active participles decline in three genders: *ο ισχύων νόμος*, *η ισχύουσα νομοθεσία*, *το ισχύον καθεστώς*; plural *οι ισχύουσες διατάξεις*."
+    }
+   ]
+  },
+  {
+   "id": "agree-23",
+   "level": "C1",
+   "parts": [
+    "Η ",
+    0,
+    " υπουργός Παιδείας παρουσίασε το σχέδιό της."
+   ],
+   "en": "The new (female) Minister of Education presented her plan.",
+   "errs": [
+    {
+     "w": "νέος",
+     "r": [
+      "νέα"
+     ],
+     "c": "agree",
+     "why": "*ο/η υπουργός* is common gender: the article and the adjective show the person's gender. For a woman, *η νέα υπουργός*."
+    }
+   ]
+  },
+  {
+   "id": "agree-24",
+   "level": "C1",
+   "parts": [
+    "Η απόφαση του δικαστηρίου και το σκεπτικό της ",
+    0,
+    " χθες."
+   ],
+   "en": "The court's decision and its reasoning were published yesterday.",
+   "errs": [
+    {
+     "w": "δημοσιεύτηκε",
+     "r": [
+      "δημοσιεύτηκαν"
+     ],
+     "c": "agree",
+     "why": "Two subjects joined by *και* take a plural verb: *η απόφαση και το σκεπτικό δημοσιεύτηκαν*."
+    }
+   ]
+  },
+  {
+   "id": "agree-25",
+   "level": "C1",
+   "parts": [
+    "Η χώρα περνάει μια ",
+    0,
+    " οικονομική κρίση."
+   ],
+   "en": "The country is going through a deep economic crisis.",
+   "errs": [
+    {
+     "w": "βαθύ",
+     "r": [
+      "βαθιά"
+     ],
+     "c": "agree",
+     "why": "Adjectives in *-ύς* have a feminine in *-ιά*: *βαθύς, βαθιά, βαθύ*; *βαρύς, βαριά, βαρύ*; *φαρδύς, φαρδιά, φαρδύ*."
+    }
+   ]
+  },
+  {
+   "id": "agree-26",
+   "level": "C1",
+   "parts": [
+    "Οι φίλες μου μπήκαν στο γραφείο ",
+    0,
+    "."
+   ],
+   "en": "My friends came into the office laughing.",
+   "errs": [
+    {
+     "w": "γελώντες",
+     "r": [
+      "γελώντας"
+     ],
+     "c": "agree",
+     "why": "The gerund in *-οντας/-ώντας* never changes: *γελώντας*, *τρέχοντας*, whoever the subject is. Only the learned participles (*ο ισχύων*) decline."
+    }
+   ]
+  },
+  {
+   "id": "agree-27",
+   "level": "C1",
+   "parts": [
+    "Τα μέλη της επιτροπής, η πλειονότητα των οποίων είναι γυναίκες, ψήφισαν ομόφωνα."
+   ],
+   "en": "The members of the committee, most of whom are women, voted unanimously.",
+   "ok": true,
+   "why": "Nothing to fix: *των οποίων* is genitive plural, agreeing with *τα μέλη*; *ψήφισαν* agrees with *τα μέλη*."
+  }
+ ]
+}

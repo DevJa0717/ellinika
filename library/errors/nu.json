@@ -1,0 +1,483 @@
+{
+ "id": "nu",
+ "el": "Τελικό -ν",
+ "title": "Final ν",
+ "about": "The masculine *τον* always keeps its ν. The words *την, στην, αυτήν, δεν, μην* keep it only before a vowel or before *κ, π, τ, ξ, ψ* and the pairs *γκ, μπ, ντ, τσ, τζ*; before any other consonant (*β, γ, δ, ζ, θ, λ, μ, ν, ρ, σ, φ, χ*) it drops: *τη Μαρία*, *στη θάλασσα*, *μη φύγεις*. With *δεν* the full form is also accepted before other consonants (*δεν θέλω*), but *δε* before a vowel or *κ, π, τ…* is a mistake.",
+ "items": [
+  {
+   "id": "nu-01",
+   "level": "A2",
+   "parts": [
+    "Ψάχνω ",
+    0,
+    " της τάξης."
+   ],
+   "en": "I'm looking for the classroom door.",
+   "errs": [
+    {
+     "w": "τη πόρτα",
+     "r": [
+      "την πόρτα"
+     ],
+     "c": "nu",
+     "why": "*π* is one of the letters that keep the ν: *την πόρτα*."
+    }
+   ]
+  },
+  {
+   "id": "nu-02",
+   "level": "A2",
+   "parts": [
+    "Πάμε ",
+    0,
+    " το Σάββατο."
+   ],
+   "en": "We're going to Patras on Saturday.",
+   "errs": [
+    {
+     "w": "στη Πάτρα",
+     "r": [
+      "στην Πάτρα"
+     ],
+     "c": "nu",
+     "why": "*στην* before *π* keeps the ν: *στην Πάτρα*, *στην Κρήτη*, *στην Τήνο*."
+    }
+   ]
+  },
+  {
+   "id": "nu-03",
+   "level": "A2",
+   "parts": [
+    0,
+    " πού είναι το μουσείο."
+   ],
+   "en": "I don't know where the museum is.",
+   "errs": [
+    {
+     "w": "Δε ξέρω",
+     "r": [
+      "Δεν ξέρω"
+     ],
+     "c": "nu",
+     "why": "Before *ξ* the ν stays: *δεν ξέρω*."
+    }
+   ]
+  },
+  {
+   "id": "nu-04",
+   "level": "A2",
+   "parts": [
+    "Είδα ",
+    0,
+    " στο σούπερ μάρκετ."
+   ],
+   "en": "I saw Maria at the supermarket.",
+   "errs": [
+    {
+     "w": "την Μαρία",
+     "r": [
+      "τη Μαρία"
+     ],
+     "c": "nu",
+     "why": "Before *μ* the ν drops: *τη Μαρία*."
+    }
+   ]
+  },
+  {
+   "id": "nu-05",
+   "level": "A2",
+   "parts": [
+    "Αγαπώ ",
+    0,
+    " γάτο μου."
+   ],
+   "en": "I love my (tom)cat.",
+   "errs": [
+    {
+     "w": "το",
+     "r": [
+      "τον"
+     ],
+     "c": "nu",
+     "why": "The masculine article *τον* always keeps its ν: *τον γάτο*, *τον φίλο*. *Το γάτο* confuses it with the neuter *το*."
+    }
+   ]
+  },
+  {
+   "id": "nu-06",
+   "level": "A2",
+   "parts": [
+    0,
+    ", όλα θα πάνε καλά."
+   ],
+   "en": "Don't worry, everything will be fine.",
+   "errs": [
+    {
+     "w": "Μη ανησυχείς",
+     "r": [
+      "Μην ανησυχείς"
+     ],
+     "c": "nu",
+     "why": "Before a vowel *μην* keeps the ν: *μην ανησυχείς*, *μην αργήσεις*."
+    }
+   ]
+  },
+  {
+   "id": "nu-07",
+   "level": "A2",
+   "parts": [
+    "Είδα τον Νίκο και τη Λένα στη θάλασσα."
+   ],
+   "en": "I saw Nikos and Lena at the beach.",
+   "ok": true,
+   "why": "Nothing to fix: *τον* always keeps ν; *τη Λένα* and *στη θάλασσα* drop it before *λ* and *θ*."
+  },
+  {
+   "id": "nu-08",
+   "level": "B1",
+   "parts": [
+    "Έλα να δεις ",
+    0,
+    " μου τσάντα."
+   ],
+   "en": "Come and see my new bag.",
+   "errs": [
+    {
+     "w": "τη καινούργια",
+     "r": [
+      "την καινούργια"
+     ],
+     "c": "nu",
+     "why": "Before *κ* the ν stays: *την καινούργια*."
+    }
+   ]
+  },
+  {
+   "id": "nu-09",
+   "level": "B1",
+   "parts": [
+    0,
+    ", το μωρό κοιμάται."
+   ],
+   "en": "Don't shout, the baby is sleeping.",
+   "errs": [
+    {
+     "w": "Μην φωνάζεις",
+     "r": [
+      "Μη φωνάζεις"
+     ],
+     "c": "nu",
+     "why": "Before *φ* the ν drops: *μη φωνάζεις*."
+    }
+   ]
+  },
+  {
+   "id": "nu-10",
+   "level": "B1",
+   "parts": [
+    "Άφησα τα κλειδιά ",
+    0,
+    "."
+   ],
+   "en": "I left the keys in the wardrobe.",
+   "errs": [
+    {
+     "w": "στη ντουλάπα",
+     "r": [
+      "στην ντουλάπα"
+     ],
+     "c": "nu",
+     "why": "*ντ* counts like *τ*: *στην ντουλάπα*. Same with *μπ* and *γκ*: *την μπάλα*."
+    }
+   ]
+  },
+  {
+   "id": "nu-11",
+   "level": "B1",
+   "parts": [
+    "Θα σε δω ",
+    0,
+    " το πρωί."
+   ],
+   "en": "I'll see you on Tuesday morning.",
+   "errs": [
+    {
+     "w": "τη Τρίτη",
+     "r": [
+      "την Τρίτη"
+     ],
+     "c": "nu",
+     "why": "Before *τ* the ν stays: *την Τρίτη*, *την Τετάρτη*, *την Πέμπτη*, *την Παρασκευή*; but *τη Δευτέρα*, *την Κυριακή*."
+    }
+   ]
+  },
+  {
+   "id": "nu-12",
+   "level": "B1",
+   "parts": [
+    "Η μητέρα μου ",
+    0,
+    " χρόνο για καφέ."
+   ],
+   "en": "My mother has no time for coffee.",
+   "errs": [
+    {
+     "w": "δε έχει",
+     "r": [
+      "δεν έχει"
+     ],
+     "c": "nu",
+     "why": "Before a vowel *δεν*: *δεν έχει*, *δεν είναι*, *δεν άκουσα*."
+    }
+   ]
+  },
+  {
+   "id": "nu-13",
+   "level": "B1",
+   "parts": [
+    "Χάρηκα πολύ που γνώρισα ",
+    0,
+    " σου."
+   ],
+   "en": "I was very pleased to meet your wife.",
+   "errs": [
+    {
+     "w": "την γυναίκα",
+     "r": [
+      "τη γυναίκα"
+     ],
+     "c": "nu",
+     "why": "Before *γ* the ν drops: *τη γυναίκα*."
+    }
+   ]
+  },
+  {
+   "id": "nu-14",
+   "level": "B1",
+   "parts": [
+    "Μη μου θυμώνεις, δεν το έκανα επίτηδες."
+   ],
+   "en": "Don't be cross with me, I didn't do it on purpose.",
+   "ok": true,
+   "why": "Nothing to fix: *μη* before *μ*, and *δεν* before *τ* keeps the ν."
+  },
+  {
+   "id": "nu-15",
+   "level": "B2",
+   "parts": [
+    "Το καλοκαίρι πήγαμε στα Ψαρά και ",
+    0,
+    "."
+   ],
+   "en": "In the summer we went to Psara and to Xanthi.",
+   "errs": [
+    {
+     "w": "στη Ξάνθη",
+     "r": [
+      "στην Ξάνθη"
+     ],
+     "c": "nu",
+     "why": "*ξ* and *ψ* keep the ν: *στην Ξάνθη*, *την ψυχή*. *Στα Ψαρά* is right as it is: *τα Ψαρά* is neuter plural and has no ν to keep."
+    }
+   ]
+  },
+  {
+   "id": "nu-16",
+   "level": "B2",
+   "parts": [
+    "Κάθε πρωί κάνει ",
+    0,
+    " διαδρομή με το ποδήλατο."
+   ],
+   "en": "Every morning he rides the same route on his bike.",
+   "errs": [
+    {
+     "w": "τη ίδια",
+     "r": [
+      "την ίδια"
+     ],
+     "c": "nu",
+     "why": "Before a vowel the ν stays: *την ίδια*."
+    }
+   ]
+  },
+  {
+   "id": "nu-17",
+   "level": "B2",
+   "parts": [
+    "Ποιος θα φέρει ",
+    0,
+    " με τα ψώνια;"
+   ],
+   "en": "Who's going to bring the shopping bag?",
+   "errs": [
+    {
+     "w": "τη τσάντα",
+     "r": [
+      "την τσάντα"
+     ],
+     "c": "nu",
+     "why": "*τσ* and *τζ* keep the ν: *την τσάντα*, *την τζαμαρία*."
+    }
+   ]
+  },
+  {
+   "id": "nu-18",
+   "level": "B2",
+   "parts": [
+    0,
+    " να μπαίνει ",
+    1,
+    "."
+   ],
+   "en": "I saw her going into the bank.",
+   "errs": [
+    {
+     "w": "Τη είδα",
+     "r": [
+      "Την είδα"
+     ],
+     "c": "nu",
+     "why": "The clitic *την* follows the same rule as the article: before a vowel it keeps the ν, *την είδα*."
+    },
+    {
+     "w": "στη τράπεζα",
+     "r": [
+      "στην τράπεζα"
+     ],
+     "c": "nu",
+     "why": "Before *τ* the ν stays: *στην τράπεζα*."
+    }
+   ]
+  },
+  {
+   "id": "nu-19",
+   "level": "B2",
+   "parts": [
+    "Η Ελένη δεν ξέρει ακόμα τη διεύθυνση, αλλά θα την πάρει από την Άννα."
+   ],
+   "en": "Eleni doesn't know the address yet, but she'll get it from Anna.",
+   "ok": true,
+   "why": "Nothing to fix: *τη διεύθυνση* (δ drops), *θα την πάρει* (π keeps), *από την Άννα* (vowel keeps)."
+  },
+  {
+   "id": "nu-20",
+   "level": "C1",
+   "parts": [
+    "Ήρθε η ώρα να ",
+    0,
+    " σοβαρά."
+   ],
+   "en": "The time has come to face it seriously.",
+   "errs": [
+    {
+     "w": "τη αντιμετωπίσουμε",
+     "r": [
+      "την αντιμετωπίσουμε"
+     ],
+     "c": "nu",
+     "why": "The clitic before a vowel keeps the ν: *να την αντιμετωπίσουμε*."
+    }
+   ]
+  },
+  {
+   "id": "nu-21",
+   "level": "C1",
+   "parts": [
+    "Πρέπει να ",
+    0,
+    " με άλλο μάτι."
+   ],
+   "en": "We need to see it with fresh eyes.",
+   "errs": [
+    {
+     "w": "την δούμε",
+     "r": [
+      "τη δούμε"
+     ],
+     "c": "nu",
+     "why": "Before *δ* the ν drops, for the clitic too: *να τη δούμε*."
+    }
+   ]
+  },
+  {
+   "id": "nu-22",
+   "level": "C1",
+   "parts": [
+    "Στη σύσκεψη ο υπουργός έκανε ",
+    0,
+    " της χρονιάς."
+   ],
+   "en": "At the meeting the minister made the blunder of the year.",
+   "errs": [
+    {
+     "w": "τη γκάφα",
+     "r": [
+      "την γκάφα"
+     ],
+     "c": "nu",
+     "why": "*γκ* keeps the ν, like *μπ* and *ντ*: *την γκάφα*."
+    }
+   ]
+  },
+  {
+   "id": "nu-23",
+   "level": "C1",
+   "parts": [
+    0,
+    " αφήσεις να φύγει χωρίς να φάει."
+   ],
+   "en": "Don't let him leave without eating.",
+   "errs": [
+    {
+     "w": "Μη τον",
+     "r": [
+      "Μην τον"
+     ],
+     "c": "nu",
+     "why": "Before *τ* the ν stays: *μην τον αφήσεις*."
+    }
+   ]
+  },
+  {
+   "id": "nu-24",
+   "level": "C1",
+   "parts": [
+    "Η σύμβαση υπογράφηκε ",
+    0,
+    " και επικυρώθηκε ",
+    1,
+    "."
+   ],
+   "en": "The agreement was signed in Athens and ratified in Parliament.",
+   "errs": [
+    {
+     "w": "στη Αθήνα",
+     "r": [
+      "στην Αθήνα"
+     ],
+     "c": "nu",
+     "why": "Before a vowel the ν stays: *στην Αθήνα*."
+    },
+    {
+     "w": "στην Βουλή",
+     "r": [
+      "στη Βουλή"
+     ],
+     "c": "nu",
+     "why": "Before *β* the ν drops: *στη Βουλή*."
+    }
+   ]
+  },
+  {
+   "id": "nu-25",
+   "level": "C1",
+   "parts": [
+    "Δεν θέλω να τη δω ούτε στη ζωγραφιά."
+   ],
+   "en": "I don't want to see her ever again (literally: not even in a painting).",
+   "ok": true,
+   "why": "Nothing to fix: *δεν* before *θ* is accepted, *τη δω* and *στη ζωγραφιά* drop the ν before *δ* and *ζ*."
+  }
+ ]
+}

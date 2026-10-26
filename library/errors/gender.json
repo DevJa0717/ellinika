@@ -1,0 +1,485 @@
+{
+ "id": "gender",
+ "el": "Γένος",
+ "title": "Gender",
+ "about": "The ending is a good guide but not a law. Nouns in *-μα* are neuter (*το πρόβλημα*), a handful in *-ος* are feminine (*η οδός*, *η μέθοδος*) or neuter (*το λάθος*, *το μέρος*), *το κρέας* and *το φως* are neuter, and many professions are common gender (*ο/η γιατρός*). Learn every noun with its article.",
+ "items": [
+  {
+   "id": "gender-01",
+   "level": "A2",
+   "parts": [
+    "Δεν υπάρχει ",
+    0,
+    "."
+   ],
+   "en": "There's no problem.",
+   "errs": [
+    {
+     "w": "κανένας πρόβλημα",
+     "r": [
+      "κανένα πρόβλημα"
+     ],
+     "c": "gender",
+     "why": "Nouns in *-μα* are neuter: *το πρόβλημα*, *το θέμα*, *το όνομα*, *το γράμμα*. So *κανένα πρόβλημα*."
+    }
+   ]
+  },
+  {
+   "id": "gender-02",
+   "level": "A2",
+   "parts": [
+    0,
+    " της συζήτησης ήταν οι διακοπές."
+   ],
+   "en": "The topic of the discussion was the holidays.",
+   "errs": [
+    {
+     "w": "Η θέμα",
+     "r": [
+      "Το θέμα"
+     ],
+     "c": "gender",
+     "why": "*-α* does not always mean feminine: *-μα* nouns are neuter, *το θέμα*."
+    }
+   ]
+  },
+  {
+   "id": "gender-03",
+   "level": "A2",
+   "parts": [
+    "Δεν τρώω ",
+    0,
+    ", είμαι χορτοφάγος."
+   ],
+   "en": "I don't eat meat, I'm a vegetarian.",
+   "errs": [
+    {
+     "w": "τον κρέας",
+     "r": [
+      "το κρέας"
+     ],
+     "c": "gender",
+     "why": "*το κρέας* is neuter (genitive *του κρέατος*, plural *τα κρέατα*), even though *-ας* is usually masculine."
+    }
+   ]
+  },
+  {
+   "id": "gender-04",
+   "level": "A2",
+   "parts": [
+    "Άνοιξε ",
+    0,
+    ", δεν βλέπω τίποτα."
+   ],
+   "en": "Turn on the light, I can't see anything.",
+   "errs": [
+    {
+     "w": "τον φως",
+     "r": [
+      "το φως"
+     ],
+     "c": "gender",
+     "why": "*το φως* is neuter: *το φως*, *του φωτός*, *τα φώτα*."
+    }
+   ]
+  },
+  {
+   "id": "gender-05",
+   "level": "A2",
+   "parts": [
+    "Θα πάμε διακοπές ",
+    0,
+    "."
+   ],
+   "en": "We'll go on holiday to Rhodes.",
+   "errs": [
+    {
+     "w": "στον Ρόδο",
+     "r": [
+      "στη Ρόδο"
+     ],
+     "c": "gender",
+     "why": "Islands and countries in *-ος* are feminine: *η Ρόδος*, *η Κύπρος*, *η Πάρος*, *η Νάξος*."
+    }
+   ]
+  },
+  {
+   "id": "gender-06",
+   "level": "A2",
+   "parts": [
+    "Ο αδελφός μου πίνει ",
+    0,
+    "."
+   ],
+   "en": "My brother drinks a lot of coffee.",
+   "errs": [
+    {
+     "w": "πολλή καφέ",
+     "r": [
+      "πολύ καφέ"
+     ],
+     "c": "gender",
+     "why": "*ο καφές* is masculine, so \"a lot of coffee\" is *πολύ καφέ* (masculine accusative of *πολύς*). Compare *πολλή ζάχαρη* (feminine)."
+    }
+   ]
+  },
+  {
+   "id": "gender-07",
+   "level": "A2",
+   "parts": [
+    "Η γιατρός μου είναι πολύ καλή και πάντα με ακούει."
+   ],
+   "en": "My doctor is very good and always listens to me.",
+   "ok": true,
+   "why": "Nothing to fix: *ο/η γιατρός* is common gender. For a woman you say *η γιατρός*, with feminine article and adjective."
+  },
+  {
+   "id": "gender-08",
+   "level": "B1",
+   "parts": [
+    "Στο τέλος ",
+    0,
+    " όλοι έκλαιγαν."
+   ],
+   "en": "At the end of the film everyone was crying.",
+   "errs": [
+    {
+     "w": "του ταινίας",
+     "r": [
+      "της ταινίας"
+     ],
+     "c": "gender",
+     "why": "*η ταινία* is feminine: *της ταινίας*. (And *το τέλος* itself is neuter.)"
+    }
+   ]
+  },
+  {
+   "id": "gender-09",
+   "level": "B1",
+   "parts": [
+    "Έκανα ",
+    0,
+    "."
+   ],
+   "en": "I made a big mistake.",
+   "errs": [
+    {
+     "w": "ένας μεγάλος λάθος",
+     "r": [
+      "ένα μεγάλο λάθος"
+     ],
+     "c": "gender",
+     "why": "*το λάθος* is neuter, like *το μέρος*, *το δάσος*, *το έθνος*, *το ύψος*: *ένα μεγάλο λάθος*."
+    }
+   ]
+  },
+  {
+   "id": "gender-10",
+   "level": "B1",
+   "parts": [
+    0,
+    " κινδύνου είναι στο βάθος του διαδρόμου."
+   ],
+   "en": "The emergency exit is at the end of the corridor.",
+   "errs": [
+    {
+     "w": "Ο έξοδος",
+     "r": [
+      "Η έξοδος"
+     ],
+     "c": "gender",
+     "why": "*η έξοδος*, *η είσοδος*, *η οδός*, *η μέθοδος*, *η περίοδος* are feminine despite *-ος*."
+    }
+   ]
+  },
+  {
+   "id": "gender-11",
+   "level": "B1",
+   "parts": [
+    0,
+    " είναι το ψηλότερο βουνό της Πελοποννήσου."
+   ],
+   "en": "Taygetos is the highest mountain in the Peloponnese.",
+   "errs": [
+    {
+     "w": "Το Ταΰγετος",
+     "r": [
+      "Ο Ταΰγετος"
+     ],
+     "c": "gender",
+     "why": "Mountain names follow their own gender: *ο Ταΰγετος*, *ο Όλυμπος*, *ο Υμηττός*, but *η Πίνδος*, *τα Μετέωρα*."
+    }
+   ]
+  },
+  {
+   "id": "gender-12",
+   "level": "B1",
+   "parts": [
+    "Η Ελλάδα έχει ",
+    0,
+    "."
+   ],
+   "en": "Greece has a very rich culture.",
+   "errs": [
+    {
+     "w": "ένας πολύ πλούσιος πολιτισμός",
+     "r": [
+      "έναν πολύ πλούσιο πολιτισμό"
+     ],
+     "c": "gender",
+     "why": "*ο πολιτισμός* is masculine; as the object of *έχει* it is accusative: *έναν πολύ πλούσιο πολιτισμό*."
+    }
+   ]
+  },
+  {
+   "id": "gender-13",
+   "level": "B1",
+   "parts": [
+    "Χθες χάλασε ",
+    0,
+    "."
+   ],
+   "en": "The fridge broke down yesterday.",
+   "errs": [
+    {
+     "w": "ο ψυγείο",
+     "r": [
+      "το ψυγείο"
+     ],
+     "c": "gender",
+     "why": "*το ψυγείο* is neuter, like most nouns in *-ο* and *-ι*: *το γραφείο*, *το σχολείο*, *το τραπέζι*."
+    }
+   ]
+  },
+  {
+   "id": "gender-14",
+   "level": "B1",
+   "parts": [
+    "Ο ταμίας μάς έδωσε λάθος ρέστα."
+   ],
+   "en": "The cashier gave us the wrong change.",
+   "ok": true,
+   "why": "Nothing to fix: *ο ταμίας* is masculine despite the *-ας* (*η ταμίας* for a woman); *λάθος* here is used like an adjective and does not change."
+  },
+  {
+   "id": "gender-15",
+   "level": "B2",
+   "parts": [
+    "Η χώρα αντιμετωπίζει ",
+    0,
+    "."
+   ],
+   "en": "The country faces a serious energy issue.",
+   "errs": [
+    {
+     "w": "μια σοβαρή ενεργειακό ζήτημα",
+     "r": [
+      "ένα σοβαρό ενεργειακό ζήτημα"
+     ],
+     "c": "gender",
+     "why": "*το ζήτημα* is neuter like every *-μα* noun, so article and both adjectives are neuter: *ένα σοβαρό ενεργειακό ζήτημα*."
+    }
+   ]
+  },
+  {
+   "id": "gender-16",
+   "level": "B2",
+   "parts": [
+    "Η διάρκεια ",
+    0,
+    " χάριτος είναι δύο μήνες."
+   ],
+   "en": "The grace period lasts two months.",
+   "errs": [
+    {
+     "w": "του περιόδου",
+     "r": [
+      "της περιόδου"
+     ],
+     "c": "gender",
+     "why": "*η περίοδος* is feminine: *της περιόδου*. The *-ου* ending looks masculine, but the article shows the gender."
+    }
+   ]
+  },
+  {
+   "id": "gender-17",
+   "level": "B2",
+   "parts": [
+    "Μένουμε ",
+    0,
+    " Ερμού, κοντά στο Σύνταγμα."
+   ],
+   "en": "We live on Ermou Street, near Syntagma.",
+   "errs": [
+    {
+     "w": "στον οδό",
+     "r": [
+      "στην οδό"
+     ],
+     "c": "gender",
+     "why": "*η οδός* is feminine: *στην οδό Ερμού*, genitive *της οδού*."
+    }
+   ]
+  },
+  {
+   "id": "gender-18",
+   "level": "B2",
+   "parts": [
+    "Η Ελένη ήρθε με ",
+    0,
+    " της, τον Πέτρο."
+   ],
+   "en": "Eleni came with her husband, Petros.",
+   "errs": [
+    {
+     "w": "τη σύζυγό",
+     "r": [
+      "τον σύζυγό"
+     ],
+     "c": "gender",
+     "why": "*ο σύζυγος* is the husband and *η σύζυγος* the wife: same noun, the article shows who is meant."
+    }
+   ]
+  },
+  {
+   "id": "gender-19",
+   "level": "B2",
+   "parts": [
+    "Περπατούσαμε ξυπόλυτοι στη ",
+    0,
+    " άμμο."
+   ],
+   "en": "We were walking barefoot on the warm sand.",
+   "errs": [
+    {
+     "w": "ζεστό",
+     "r": [
+      "ζεστή"
+     ],
+     "c": "gender",
+     "why": "*η άμμος* is feminine, so its adjective is too: *στη ζεστή άμμο*."
+    }
+   ]
+  },
+  {
+   "id": "gender-20",
+   "level": "B2",
+   "parts": [
+    "Η είσοδος στο μουσείο είναι δωρεάν για τους φοιτητές."
+   ],
+   "en": "Entry to the museum is free for students.",
+   "ok": true,
+   "why": "Nothing to fix: *η είσοδος* is feminine, and *δωρεάν* never changes."
+  },
+  {
+   "id": "gender-21",
+   "level": "C1",
+   "parts": [
+    "Πολλοί ψηφοφόροι έριξαν ",
+    0,
+    " στις τελευταίες εκλογές."
+   ],
+   "en": "Many voters cast a blank vote in the last election.",
+   "errs": [
+    {
+     "w": "λευκό ψήφο",
+     "r": [
+      "λευκή ψήφο"
+     ],
+     "c": "gender",
+     "why": "*η ψήφος* is feminine: *λευκή ψήφος*, *της ψήφου*, *οι ψήφοι*."
+    }
+   ]
+  },
+  {
+   "id": "gender-22",
+   "level": "C1",
+   "parts": [
+    "Η κρητική διάλεκτος παραμένει ",
+    0,
+    " και σήμερα."
+   ],
+   "en": "The Cretan dialect is still alive today.",
+   "errs": [
+    {
+     "w": "ζωντανός",
+     "r": [
+      "ζωντανή"
+     ],
+     "c": "gender",
+     "why": "*η διάλεκτος* is feminine, like *η μέθοδος* and *η περίοδος*: *ζωντανή*."
+    }
+   ]
+  },
+  {
+   "id": "gender-23",
+   "level": "C1",
+   "parts": [
+    "Η Χαλκιδική είναι ",
+    0,
+    " με τρία «πόδια»."
+   ],
+   "en": "Halkidiki is a peninsula with three \"legs\".",
+   "errs": [
+    {
+     "w": "ένας χερσόνησος",
+     "r": [
+      "μια χερσόνησος"
+     ],
+     "c": "gender",
+     "why": "*η χερσόνησος* is feminine, like *η νήσος* from which it is built: *μια χερσόνησος*."
+    }
+   ]
+  },
+  {
+   "id": "gender-24",
+   "level": "C1",
+   "parts": [
+    "Ο φάκελος πρέπει να περιλαμβάνει ",
+    0,
+    "."
+   ],
+   "en": "The file must include the doctoral diploma.",
+   "errs": [
+    {
+     "w": "τον διδακτορικό δίπλωμα",
+     "r": [
+      "το διδακτορικό δίπλωμα"
+     ],
+     "c": "gender",
+     "why": "*το δίπλωμα* is neuter, like every noun in *-μα*: *το διδακτορικό δίπλωμα*."
+    }
+   ]
+  },
+  {
+   "id": "gender-25",
+   "level": "C1",
+   "parts": [
+    "Η κίνηση ",
+    0,
+    " ήταν αδιανόητη."
+   ],
+   "en": "The traffic on the main avenue was unbelievable.",
+   "errs": [
+    {
+     "w": "στον κεντρικό λεωφόρο",
+     "r": [
+      "στην κεντρική λεωφόρο"
+     ],
+     "c": "gender",
+     "why": "*η λεωφόρος* is feminine: *στην κεντρική λεωφόρο*."
+    }
+   ]
+  },
+  {
+   "id": "gender-26",
+   "level": "C1",
+   "parts": [
+    "Η πρώτη γυναίκα Πρόεδρος της Δημοκρατίας ήταν η Κατερίνα Σακελλαροπούλου."
+   ],
+   "en": "The first woman President of the Republic was Katerina Sakellaropoulou.",
+   "ok": true,
+   "why": "Nothing to fix: *ο/η Πρόεδρος* is common gender, so a woman is *η Πρόεδρος*, not a form like *Προέδρα*."
+  }
+ ]
+}

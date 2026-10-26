@@ -1,0 +1,488 @@
+{
+ "id": "mood",
+ "el": "Υποτακτική και εγκλίσεις",
+ "title": "Subjunctive, να/ότι and negation",
+ "about": "Greek has no infinitive: where English says \"to go\", Greek says *να πάω* with a personal ending. Verbs of wanting, being able, trying and asking take *να*; verbs of saying, thinking and knowing a fact take *ότι* or *πως*. The subjunctive and the imperative are negated with *μη(ν)*, the indicative with *δεν*. Conditions use *αν* without *θα*.",
+ "items": [
+  {
+   "id": "mood-01",
+   "level": "A2",
+   "parts": [
+    "Θέλω ",
+    0,
+    " έρθεις μαζί μας."
+   ],
+   "en": "I want you to come with us.",
+   "errs": [
+    {
+     "w": "ότι",
+     "r": [
+      "να"
+     ],
+     "c": "mood",
+     "why": "*θέλω* is followed by *να* + subjunctive: *θέλω να έρθεις*. *Ότι* reports a fact."
+    }
+   ]
+  },
+  {
+   "id": "mood-02",
+   "level": "A2",
+   "parts": [
+    "Νομίζω ",
+    0,
+    " έχεις δίκιο."
+   ],
+   "en": "I think you're right.",
+   "errs": [
+    {
+     "w": "να",
+     "r": [
+      "ότι",
+      "πως"
+     ],
+     "c": "mood",
+     "why": "*νομίζω*, *λέω*, *ξέρω* (a fact), *πιστεύω* introduce a statement with *ότι* or *πως*."
+    }
+   ]
+  },
+  {
+   "id": "mood-03",
+   "level": "A2",
+   "parts": [
+    "Μπορώ ",
+    0,
+    " πολύ καλά."
+   ],
+   "en": "I can swim very well.",
+   "errs": [
+    {
+     "w": "κολυμπάω",
+     "r": [
+      "να κολυμπάω",
+      "να κολυμπήσω"
+     ],
+     "c": "mood",
+     "why": "*μπορώ* always needs *να* before the next verb: *μπορώ να κολυμπάω*. Greek has no bare infinitive."
+    }
+   ]
+  },
+  {
+   "id": "mood-04",
+   "level": "A2",
+   "parts": [
+    0,
+    "! Είμαι εδώ."
+   ],
+   "en": "Don't be afraid! I'm here.",
+   "errs": [
+    {
+     "w": "Δεν φοβάσαι",
+     "r": [
+      "Μη φοβάσαι"
+     ],
+     "c": "mood",
+     "why": "A negative command uses *μη(ν)* + subjunctive: *μη φοβάσαι*, *μην ανησυχείς*. *Δεν* negates statements."
+    }
+   ]
+  },
+  {
+   "id": "mood-05",
+   "level": "A2",
+   "parts": [
+    0,
+    " για καφέ."
+   ],
+   "en": "Let's go for a coffee.",
+   "errs": [
+    {
+     "w": "Ας να πάμε",
+     "r": [
+      "Ας πάμε"
+     ],
+     "c": "mood",
+     "why": "*ας* replaces *να*; you never use both: *ας πάμε*, *ας μείνουμε*."
+    }
+   ]
+  },
+  {
+   "id": "mood-06",
+   "level": "A2",
+   "parts": [
+    "Ξέρω να μαγειρεύω, αλλά δεν ήξερα ότι ο Νίκος είναι σεφ."
+   ],
+   "en": "I know how to cook, but I didn't know that Nikos is a chef.",
+   "ok": true,
+   "why": "Nothing to fix: *ξέρω να* + verb means \"know how to\"; *ξέρω ότι* means \"know that\"."
+  },
+  {
+   "id": "mood-07",
+   "level": "B1",
+   "parts": [
+    "Θέλω να ",
+    0,
+    " αργήσεις."
+   ],
+   "en": "I don't want you to be late.",
+   "errs": [
+    {
+     "w": "δεν",
+     "r": [
+      "μην"
+     ],
+     "c": "mood",
+     "why": "After *να* the negation is *μη(ν)*: *να μην αργήσεις*."
+    }
+   ]
+  },
+  {
+   "id": "mood-08",
+   "level": "B1",
+   "parts": [
+    0,
+    " αύριο, θα πάμε στη θάλασσα."
+   ],
+   "en": "If you come tomorrow, we'll go to the sea.",
+   "errs": [
+    {
+     "w": "Αν θα έρθεις",
+     "r": [
+      "Αν έρθεις"
+     ],
+     "c": "mood",
+     "why": "In a condition about the future, *αν* takes the subjunctive without *θα*: *αν έρθεις*. *Θα* belongs in the main clause."
+    }
+   ]
+  },
+  {
+   "id": "mood-09",
+   "level": "B1",
+   "parts": [
+    "Αν είχα λεφτά, θα ",
+    0,
+    " ένα σπίτι στη Νάξο."
+   ],
+   "en": "If I had money, I'd buy a house on Naxos.",
+   "errs": [
+    {
+     "w": "αγόρασα",
+     "r": [
+      "αγόραζα"
+     ],
+     "c": "mood",
+     "why": "The conditional \"would buy\" is *θα* + imperfective past: *θα αγόραζα*. *Θα αγόρασα* expresses a guess about the past (\"I must have bought\")."
+    }
+   ]
+  },
+  {
+   "id": "mood-10",
+   "level": "B1",
+   "parts": [
+    "Ήρθα στην Ελλάδα ",
+    0,
+    " ελληνικά."
+   ],
+   "en": "I came to Greece to learn Greek.",
+   "errs": [
+    {
+     "w": "για μάθω",
+     "r": [
+      "για να μάθω"
+     ],
+     "c": "mood",
+     "why": "Purpose is *για να* + subjunctive: *για να μάθω*."
+    }
+   ]
+  },
+  {
+   "id": "mood-11",
+   "level": "B1",
+   "parts": [
+    "Έφυγε ",
+    0,
+    " τίποτα."
+   ],
+   "en": "He left without saying anything.",
+   "errs": [
+    {
+     "w": "χωρίς πει",
+     "r": [
+      "χωρίς να πει"
+     ],
+     "c": "mood",
+     "why": "*χωρίς* before a verb needs *να*: *χωρίς να πει*."
+    }
+   ]
+  },
+  {
+   "id": "mood-12",
+   "level": "B1",
+   "parts": [
+    "Ο γιατρός μού είπε ",
+    0,
+    " τρώω αλάτι."
+   ],
+   "en": "The doctor told me not to eat salt.",
+   "errs": [
+    {
+     "w": "ότι μην",
+     "r": [
+      "να μην"
+     ],
+     "c": "mood",
+     "why": "A reported order or advice uses *να* (negated *να μην*), not *ότι*: *μου είπε να μην τρώω*."
+    }
+   ]
+  },
+  {
+   "id": "mood-13",
+   "level": "B1",
+   "parts": [
+    "Ελπίζω να μη βρέξει αύριο, γιατί θέλουμε να πάμε εκδρομή."
+   ],
+   "en": "I hope it doesn't rain tomorrow, because we want to go on a trip.",
+   "ok": true,
+   "why": "Nothing to fix: *ελπίζω να* + subjunctive, negated with *μη*; *θέλουμε να πάμε*."
+  },
+  {
+   "id": "mood-14",
+   "level": "B2",
+   "parts": [
+    "Ο Γιάννης είπε ",
+    0,
+    " αύριο."
+   ],
+   "en": "Giannis said he would come tomorrow.",
+   "errs": [
+    {
+     "w": "να έρθει",
+     "r": [
+      "ότι θα έρθει",
+      "πως θα έρθει"
+     ],
+     "c": "mood",
+     "why": "A reported statement uses *ότι/πως* + the tense of the original (*θα έρθω* → *ότι θα έρθει*). *Είπε να έρθει* would mean \"he said that someone should come\"."
+    }
+   ]
+  },
+  {
+   "id": "mood-15",
+   "level": "B2",
+   "parts": [
+    "Αν ",
+    0,
+    " την αλήθεια, θα σου την έλεγα."
+   ],
+   "en": "If I knew the truth, I would tell you.",
+   "errs": [
+    {
+     "w": "θα ήξερα",
+     "r": [
+      "ήξερα"
+     ],
+     "c": "mood",
+     "why": "In unreal conditions *αν* takes the past without *θα*: *αν ήξερα*; *θα* goes in the main clause: *θα σου την έλεγα*."
+    }
+   ]
+  },
+  {
+   "id": "mood-16",
+   "level": "B2",
+   "parts": [
+    "Του ζήτησα ",
+    0,
+    "."
+   ],
+   "en": "I asked him to help me.",
+   "errs": [
+    {
+     "w": "ότι με βοηθήσει",
+     "r": [
+      "να με βοηθήσει"
+     ],
+     "c": "mood",
+     "why": "*ζητάω* + an action takes *να*: *του ζήτησα να με βοηθήσει*."
+    }
+   ]
+  },
+  {
+   "id": "mood-17",
+   "level": "B2",
+   "parts": [
+    "Είναι σημαντικό ",
+    0,
+    " κάθε μέρα."
+   ],
+   "en": "It's important to read every day.",
+   "errs": [
+    {
+     "w": "ότι διαβάζεις",
+     "r": [
+      "να διαβάζεις"
+     ],
+     "c": "mood",
+     "why": "Advice or necessity after *είναι σημαντικό/απαραίτητο/καλό* takes *να*. *Είναι σημαντικό ότι διαβάζεις* would mean \"it matters that you (actually) read\"."
+    }
+   ]
+  },
+  {
+   "id": "mood-18",
+   "level": "B2",
+   "parts": [
+    "Δεν ξέρω ",
+    0,
+    " θα έρθει στο πάρτι."
+   ],
+   "en": "I don't know if she'll come to the party.",
+   "errs": [
+    {
+     "w": "ότι",
+     "r": [
+      "αν"
+     ],
+     "c": "mood",
+     "why": "An indirect yes/no question uses *αν* \"whether\". Here *αν θα* is correct, because this *αν* is not a condition."
+    }
+   ]
+  },
+  {
+   "id": "mood-19",
+   "level": "B2",
+   "parts": [
+    "Δεν ξέρω αν θα προλάβω το τελευταίο τρένο."
+   ],
+   "en": "I don't know whether I'll catch the last train.",
+   "ok": true,
+   "why": "Nothing to fix: in an indirect question (\"whether\") *αν* can be followed by *θα*. Only the conditional *αν* (\"if\") refuses *θα*."
+  },
+  {
+   "id": "mood-20",
+   "level": "C1",
+   "parts": [
+    "Φοβάμαι ",
+    0,
+    " στη συνάντηση."
+   ],
+   "en": "I'm afraid we'll be late for the meeting.",
+   "errs": [
+    {
+     "w": "να αργήσουμε",
+     "r": [
+      "μήπως αργήσουμε",
+      "ότι θα αργήσουμε"
+     ],
+     "c": "mood",
+     "why": "Fear that something may happen is *φοβάμαι μήπως* + subjunctive or *φοβάμαι ότι θα*. *Φοβάμαι να* means \"I'm afraid to (do)\": *φοβάμαι να οδηγήσω τη νύχτα*."
+    }
+   ]
+  },
+  {
+   "id": "mood-21",
+   "level": "C1",
+   "parts": [
+    "Η μητέρα του επιμένει ",
+    0,
+    " ιατρική."
+   ],
+   "en": "His mother insists that he study medicine.",
+   "errs": [
+    {
+     "w": "ότι σπουδάσει",
+     "r": [
+      "να σπουδάσει"
+     ],
+     "c": "mood",
+     "why": "*επιμένω να* = insist on something being done; *επιμένω ότι* = insist that something is true (*επιμένει ότι είναι αθώος*)."
+    }
+   ]
+  },
+  {
+   "id": "mood-22",
+   "level": "C1",
+   "parts": [
+    "Αν δεν ",
+    0,
+    " βρέξει, θα είχαμε φύγει νωρίς."
+   ],
+   "en": "If it hadn't rained, we would have left early.",
+   "errs": [
+    {
+     "w": "θα είχε",
+     "r": [
+      "είχε"
+     ],
+     "c": "mood",
+     "why": "Past unreal condition: *αν* + pluperfect without *θα*, main clause *θα* + pluperfect."
+    }
+   ]
+  },
+  {
+   "id": "mood-23",
+   "level": "C1",
+   "parts": [
+    "Μακάρι ",
+    0,
+    " τι σκέφτεται."
+   ],
+   "en": "If only I knew what she's thinking.",
+   "errs": [
+    {
+     "w": "θα ήξερα",
+     "r": [
+      "να ήξερα"
+     ],
+     "c": "mood",
+     "why": "*μακάρι* \"if only\" is followed by *να*: *μακάρι να ήξερα*, *μακάρι να έρθει*."
+    }
+   ]
+  },
+  {
+   "id": "mood-24",
+   "level": "C1",
+   "parts": [
+    "Έκανε ",
+    0,
+    " με είδε."
+   ],
+   "en": "He acted as if he hadn't seen me.",
+   "errs": [
+    {
+     "w": "σαν ότι δεν",
+     "r": [
+      "σαν να μη"
+     ],
+     "c": "mood",
+     "why": "\"As if\" is *σαν να*, and after *να* the negation is *μη(ν)*: *σαν να μη με είδε*."
+    }
+   ]
+  },
+  {
+   "id": "mood-25",
+   "level": "C1",
+   "parts": [
+    0,
+    " άλλη επιλογή, υπέγραψε τη σύμβαση."
+   ],
+   "en": "Having no other choice, she signed the contract.",
+   "errs": [
+    {
+     "w": "Δεν έχοντας",
+     "r": [
+      "Μην έχοντας"
+     ],
+     "c": "mood",
+     "why": "The gerund is negated with *μην* (or *μη*), never *δεν*: *μην έχοντας*, *μη γνωρίζοντας*."
+    }
+   ]
+  },
+  {
+   "id": "mood-26",
+   "level": "C1",
+   "parts": [
+    "Αν δεν είχαμε επενδύσει τότε, σήμερα δεν θα υπήρχε η εταιρεία."
+   ],
+   "en": "If we hadn't invested back then, the company would not exist today.",
+   "ok": true,
+   "why": "Nothing to fix: a mixed condition, past unreal *αν δεν είχαμε επενδύσει* with a present result *δεν θα υπήρχε*."
+  }
+ ]
+}

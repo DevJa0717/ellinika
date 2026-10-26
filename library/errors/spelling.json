@@ -1,0 +1,523 @@
+{
+ "id": "spelling",
+ "el": "Ορθογραφία",
+ "title": "Spelling",
+ "about": "Greek writes the sound [i] six ways and [o] two ways, and the spelling carries grammar: *-ει* is a verb ending, *-η* a feminine noun ending, *-οι* a masculine plural, *-εται* a passive third person singular, *-ετε* an active second person plural. Most spelling mistakes are really grammar mistakes, so ask which form you need before you ask how it is spelled.",
+ "items": [
+  {
+   "id": "spelling-01",
+   "level": "A2",
+   "parts": [
+    "Ο Νίκος ",
+    0,
+    " αύριο από τη Λάρισα."
+   ],
+   "en": "Nikos is coming from Larissa tomorrow.",
+   "errs": [
+    {
+     "w": "έρχετε",
+     "r": [
+      "έρχεται"
+     ],
+     "c": "spelling",
+     "why": "Third person singular of verbs in *-ομαι* ends in *-εται*: *έρχεται*, *κάθεται*, *λέγεται*. *-ετε* is the active \"you (plural)\": *έρχεστε*, *γράφετε*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-02",
+   "level": "A2",
+   "parts": [
+    0,
+    " μου μένουν στη Γερμανία."
+   ],
+   "en": "My friends live in Germany.",
+   "errs": [
+    {
+     "w": "Οι φίλει",
+     "r": [
+      "Οι φίλοι"
+     ],
+     "c": "spelling",
+     "why": "Masculine plural in *-οι*: *οι φίλοι*, *οι δρόμοι*. *-ει* is a verb ending."
+    }
+   ]
+  },
+  {
+   "id": "spelling-03",
+   "level": "A2",
+   "parts": [
+    "Το ",
+    0,
+    " πάμε στο χωριό."
+   ],
+   "en": "On Saturday we're going to the village.",
+   "errs": [
+    {
+     "w": "Σάβατο",
+     "r": [
+      "Σάββατο"
+     ],
+     "c": "spelling",
+     "why": "*Σάββατο* is spelled with double *β*. So are *Σαββατοκύριακο* and *Σάββας*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-04",
+   "level": "A2",
+   "parts": [
+    0,
+    " πολύ για τη βοήθεια!"
+   ],
+   "en": "Thank you very much for the help!",
+   "errs": [
+    {
+     "w": "Ευχαριστό",
+     "r": [
+      "Ευχαριστώ"
+     ],
+     "c": "spelling",
+     "why": "Verbs end in *-ω*: *ευχαριστώ*, *μπορώ*, *γράφω*. Nouns in *-ο* are neuter: *το βιβλίο*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-05",
+   "level": "A2",
+   "parts": [
+    0,
+    " ωραίο είναι το καινούργιο σου σπίτι!"
+   ],
+   "en": "Your new house is nicer!",
+   "errs": [
+    {
+     "w": "Ποιο",
+     "r": [
+      "Πιο"
+     ],
+     "c": "spelling",
+     "why": "*πιο* \"more\" (*πιο ωραίο*) and *ποιο* \"which\" (*ποιο σπίτι;*) sound the same. Here it means \"more\": *πιο ωραίο* \"nicer\"."
+    }
+   ]
+  },
+  {
+   "id": "spelling-06",
+   "level": "A2",
+   "parts": [
+    "Ποιος είναι πιο ψηλός, ο Γιάννης ή ο Πέτρος;"
+   ],
+   "en": "Who's taller, Giannis or Petros?",
+   "ok": true,
+   "why": "Nothing to fix: *ποιος* \"who/which\" and *πιο* \"more\" are both right where they stand."
+  },
+  {
+   "id": "spelling-07",
+   "level": "B1",
+   "parts": [
+    "Χθες ",
+    0,
+    " στα στενά της Πλάκας."
+   ],
+   "en": "Yesterday I got lost in the alleys of Plaka.",
+   "errs": [
+    {
+     "w": "χάθικα",
+     "r": [
+      "χάθηκα"
+     ],
+     "c": "spelling",
+     "why": "Passive aorists end in *-ηκα*: *χάθηκα*, *γεννήθηκα*, *κοιμήθηκα*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-08",
+   "level": "B1",
+   "parts": [
+    "Πάρε ",
+    0,
+    " θέλεις από το ψυγείο."
+   ],
+   "en": "Take whatever you want from the fridge.",
+   "errs": [
+    {
+     "w": "ότι",
+     "r": [
+      "ό,τι"
+     ],
+     "c": "spelling",
+     "why": "*ό,τι* (with a comma) means \"whatever\"; *ότι* means \"that\"."
+    }
+   ]
+  },
+  {
+   "id": "spelling-09",
+   "level": "B1",
+   "parts": [
+    "Η ",
+    0,
+    " του προβλήματος ήταν απλή."
+   ],
+   "en": "The solution to the problem was simple.",
+   "errs": [
+    {
+     "w": "λύσει",
+     "r": [
+      "λύση"
+     ],
+     "c": "spelling",
+     "why": "Nouns in *-η* (feminine): *η λύση*, *η άσκηση*. *-ει* is the verb ending: *θα λύσει*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-10",
+   "level": "B1",
+   "parts": [
+    "Θέλω να ",
+    0,
+    " νωρίς."
+   ],
+   "en": "I want you to come early.",
+   "errs": [
+    {
+     "w": "έρθης",
+     "r": [
+      "έρθεις"
+     ],
+     "c": "spelling",
+     "why": "In today's spelling the subjunctive has the same endings as the present: *να έρθεις*, *να γράψει*. The old *-ης/-η* endings are no longer used."
+    }
+   ]
+  },
+  {
+   "id": "spelling-11",
+   "level": "B1",
+   "parts": [
+    "Το νέο κινητό είναι ",
+    0,
+    " από το παλιό."
+   ],
+   "en": "The new phone is better than the old one.",
+   "errs": [
+    {
+     "w": "καλήτερο",
+     "r": [
+      "καλύτερο"
+     ],
+     "c": "spelling",
+     "why": "*καλύτερος* is written with *υ*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-12",
+   "level": "B1",
+   "parts": [
+    "Η Μύκονος είναι ",
+    0,
+    " τον Μάιο."
+   ],
+   "en": "Mykonos is nicer in May.",
+   "errs": [
+    {
+     "w": "ωραιώτερη",
+     "r": [
+      "ωραιότερη"
+     ],
+     "c": "spelling",
+     "why": "The comparative suffix is *-ότερος* with omicron: *ωραιότερος*, *μικρότερος*. The *-ώτερος* spelling is old."
+    }
+   ]
+  },
+  {
+   "id": "spelling-13",
+   "level": "B1",
+   "parts": [
+    "Έφυγε ",
+    0,
+    " για να προλάβει το τρένο."
+   ],
+   "en": "She ran off to catch the train.",
+   "errs": [
+    {
+     "w": "τρέχωντας",
+     "r": [
+      "τρέχοντας"
+     ],
+     "c": "spelling",
+     "why": "Gerunds end in *-οντας* or, when stressed, *-ώντας*: *τρέχοντας*, *γράφοντας*, but *μιλώντας*, *ρωτώντας*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-14",
+   "level": "B1",
+   "parts": [
+    "Κάθεται όλη μέρα στο μπαλκόνι και διαβάζει."
+   ],
+   "en": "He sits on the balcony all day reading.",
+   "ok": true,
+   "why": "Nothing to fix: *κάθεται* (*-εται*, passive form) and *διαβάζει* (*-ει*, active)."
+  },
+  {
+   "id": "spelling-15",
+   "level": "B2",
+   "parts": [
+    "Η ",
+    0,
+    " Ένωση έχει 27 κράτη μέλη."
+   ],
+   "en": "The European Union has 27 member states.",
+   "errs": [
+    {
+     "w": "Ευρωπαική",
+     "r": [
+      "Ευρωπαϊκή"
+     ],
+     "c": "spelling",
+     "why": "When *α* and *ι* are pronounced separately and the *ι* is not stressed, the *ι* takes a diaeresis: *ευρωπαϊκός*, *αρχαϊκός*, *Πειραϊκός*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-16",
+   "level": "B2",
+   "parts": [
+    "Η πτήση καθυστέρησε ",
+    0,
+    " της απεργίας."
+   ],
+   "en": "The flight was delayed because of the strike.",
+   "errs": [
+    {
+     "w": "εξ' αιτίας",
+     "r": [
+      "εξαιτίας"
+     ],
+     "c": "spelling",
+     "why": "*εξαιτίας* is one word, with no apostrophe."
+    }
+   ]
+  },
+  {
+   "id": "spelling-17",
+   "level": "B2",
+   "parts": [
+    0,
+    ", δεν είχαμε χρόνο για όλα."
+   ],
+   "en": "Besides, we didn't have time for everything.",
+   "errs": [
+    {
+     "w": "Εξ' άλλου",
+     "r": [
+      "Εξάλλου"
+     ],
+     "c": "spelling",
+     "why": "*εξάλλου* \"besides\" is written as one word."
+    }
+   ]
+  },
+  {
+   "id": "spelling-18",
+   "level": "B2",
+   "parts": [
+    "Ο Αϊνστάιν ήταν σπουδαίος ",
+    0,
+    "."
+   ],
+   "en": "Einstein was a great scientist.",
+   "errs": [
+    {
+     "w": "επιστήμωνας",
+     "r": [
+      "επιστήμονας"
+     ],
+     "c": "spelling",
+     "why": "*ο επιστήμονας* is written with omicron: *επιστήμονας*, *των επιστημόνων*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-19",
+   "level": "B2",
+   "parts": [
+    "Αγοράσαμε καινούργιο ",
+    0,
+    " για το παιδικό δωμάτιο."
+   ],
+   "en": "We bought a new bed for the children's room.",
+   "errs": [
+    {
+     "w": "κρεββάτι",
+     "r": [
+      "κρεβάτι"
+     ],
+     "c": "spelling",
+     "why": "Today's spelling is *κρεβάτι* with one *β*; *κρεββάτι* is the older spelling."
+    }
+   ]
+  },
+  {
+   "id": "spelling-20",
+   "level": "B2",
+   "parts": [
+    "Ούτως ή άλλως θα περάσουμε από το σπίτι σου."
+   ],
+   "en": "We'll be passing by your house anyway.",
+   "ok": true,
+   "why": "Nothing to fix: *ούτως ή άλλως* \"anyway\" is written as three words, with *ή* \"or\" in the middle."
+  },
+  {
+   "id": "spelling-21",
+   "level": "C1",
+   "parts": [
+    "Τη βρήκαμε σε μια παλιά ",
+    0,
+    "."
+   ],
+   "en": "We found it in an old encyclopedia.",
+   "errs": [
+    {
+     "w": "εγκυκλοπέδεια",
+     "r": [
+      "εγκυκλοπαίδεια"
+     ],
+     "c": "spelling",
+     "why": "*εγκυκλοπαίδεια* keeps *αι* from *παιδεία* \"education\"."
+    }
+   ]
+  },
+  {
+   "id": "spelling-22",
+   "level": "C1",
+   "parts": [
+    "Η πρότασή του ήταν ",
+    0,
+    " η καλύτερη."
+   ],
+   "en": "His proposal was undoubtedly the best.",
+   "errs": [
+    {
+     "w": "αναμφισβήτιτα",
+     "r": [
+      "αναμφισβήτητα"
+     ],
+     "c": "spelling",
+     "why": "Verbal adjectives in *-τος* keep the vowel the verb has in its aorist: *αμφισβήτησα* → *αναμφισβήτητος*, *κατανόησα* → *ακατανόητος*, *σημείωσα* → *αξιοσημείωτος*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-23",
+   "level": "C1",
+   "parts": [
+    "Το δημοτικό συμβούλιο εξέφρασε την ",
+    0,
+    " του στους πληγέντες."
+   ],
+   "en": "The town council expressed its solidarity with those affected.",
+   "errs": [
+    {
+     "w": "αλληλεγκύη",
+     "r": [
+      "αλληλεγγύη"
+     ],
+     "c": "spelling",
+     "why": "*αλληλεγγύη* is written with *γγ*, like *εγγύηση* and *εγγονός*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-24",
+   "level": "C1",
+   "parts": [
+    "Η εταιρεία ζημιώθηκε κατά δύο ",
+    0,
+    " ευρώ."
+   ],
+   "en": "The company lost two million euros.",
+   "errs": [
+    {
+     "w": "εκατομύρια",
+     "r": [
+      "εκατομμύρια"
+     ],
+     "c": "spelling",
+     "why": "*εκατομμύριο* has double *μ*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-25",
+   "level": "C1",
+   "parts": [
+    "Η χρόνια ",
+    0,
+    " τον ανάγκασε να σταματήσει να δουλεύει."
+   ],
+   "en": "The chronic illness forced him to stop working.",
+   "errs": [
+    {
+     "w": "ασθένια",
+     "r": [
+      "ασθένεια"
+     ],
+     "c": "spelling",
+     "why": "*η ασθένεια* is written with *-εια*, like *η αλήθεια*, *η συνήθεια*, *η βοήθεια*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-26",
+   "level": "C1",
+   "parts": [
+    "Η χειρότερη ",
+    0,
+    " μου είναι ότι αργώ παντού."
+   ],
+   "en": "My worst habit is that I'm late everywhere.",
+   "errs": [
+    {
+     "w": "συνήθιά",
+     "r": [
+      "συνήθειά"
+     ],
+     "c": "spelling",
+     "why": "*η συνήθεια* ends in *-εια*. Its stress is on the third-last syllable, so before *μου* it also takes a second accent: *η συνήθειά μου*."
+    }
+   ]
+  },
+  {
+   "id": "spelling-27",
+   "level": "C1",
+   "parts": [
+    0,
+    " τη διάρκεια της ταινίας γελούσαμε."
+   ],
+   "en": "We laughed throughout the film.",
+   "errs": [
+    {
+     "w": "Καθόλη",
+     "r": [
+      "Καθ' όλη"
+     ],
+     "c": "spelling",
+     "why": "*καθ' όλη τη διάρκεια* \"throughout\" is two words: *καθ'* (= *κατά*) + *όλη*. *Καθόλου* \"at all\" is a different word."
+    }
+   ]
+  },
+  {
+   "id": "spelling-28",
+   "level": "C1",
+   "parts": [
+    "Η εκκλησία ήταν γεμάτη, αν και ήταν καθημερινή."
+   ],
+   "en": "The church was full, even though it was a weekday.",
+   "ok": true,
+   "why": "Nothing to fix: *εκκλησία* with double *κ*, and *καθημερινή* \"weekday\" with *η* and *ι*."
+  }
+ ]
+}

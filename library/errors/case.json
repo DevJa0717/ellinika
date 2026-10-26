@@ -1,0 +1,519 @@
+{
+ "id": "case",
+ "el": "Πτώσεις και κλίση",
+ "title": "Case and declension",
+ "about": "Greek marks a noun's job with its ending and its article: nominative for the subject and after *είμαι*, accusative for the object and after almost every preposition, genitive for possession and for the person you give or say something to, vocative when you call someone. Most slips come from leaving a noun in the nominative because that is the form in the dictionary.",
+ "items": [
+  {
+   "id": "case-01",
+   "level": "A2",
+   "parts": [
+    "Δίνω ",
+    0,
+    " μου ένα δώρο."
+   ],
+   "en": "I give my friend a present.",
+   "errs": [
+    {
+     "w": "ο φίλος",
+     "r": [
+      "στον φίλο"
+     ],
+     "c": "case",
+     "why": "The person you give something to is the indirect object: *σε* + accusative (*στον φίλο μου*) or the genitive (*του φίλου μου*), never the nominative."
+    }
+   ]
+  },
+  {
+   "id": "case-02",
+   "level": "A2",
+   "parts": [
+    "Πηγαίνω στο σινεμά με ",
+    0,
+    " μου."
+   ],
+   "en": "I'm going to the cinema with my sister.",
+   "errs": [
+    {
+     "w": "η αδελφή",
+     "r": [
+      "την αδελφή"
+     ],
+     "c": "case",
+     "why": "*με* takes the accusative: *με την αδελφή μου*, *με τον αδελφό μου*."
+    }
+   ]
+  },
+  {
+   "id": "case-03",
+   "level": "A2",
+   "parts": [
+    "Αυτό είναι το σπίτι ",
+    0,
+    "."
+   ],
+   "en": "This is Maria's house.",
+   "errs": [
+    {
+     "w": "η Μαρία",
+     "r": [
+      "της Μαρίας"
+     ],
+     "c": "case",
+     "why": "Possession is the genitive: *της Μαρίας*, *του Νίκου*. The genitive follows the noun it belongs to."
+    }
+   ]
+  },
+  {
+   "id": "case-04",
+   "level": "A2",
+   "parts": [
+    0,
+    " δουλεύω μέχρι τις πέντε."
+   ],
+   "en": "On Monday I work until five.",
+   "errs": [
+    {
+     "w": "Η Δευτέρα",
+     "r": [
+      "Τη Δευτέρα"
+     ],
+     "c": "case",
+     "why": "\"On Monday\" is a time expression in the accusative without a preposition: *τη Δευτέρα*, *το Σάββατο*, *την Κυριακή*."
+    }
+   ]
+  },
+  {
+   "id": "case-05",
+   "level": "A2",
+   "parts": [
+    "Καλημέρα, ",
+    0,
+    "!"
+   ],
+   "en": "Good morning, Mr Papadopoulos!",
+   "errs": [
+    {
+     "w": "κύριος Παπαδόπουλος",
+     "r": [
+      "κύριε Παπαδόπουλε"
+     ],
+     "c": "case",
+     "why": "When you speak to someone you use the vocative: masculine *-ος* becomes *-ε* (*κύριε Παπαδόπουλε*), *-ης* drops the *ς* (*Γιάννη*)."
+    }
+   ]
+  },
+  {
+   "id": "case-06",
+   "level": "A2",
+   "parts": [
+    "Η αδελφή μου είναι ",
+    0,
+    "."
+   ],
+   "en": "My sister is a doctor.",
+   "errs": [
+    {
+     "w": "γιατρό",
+     "r": [
+      "γιατρός"
+     ],
+     "c": "case",
+     "why": "After *είμαι* the noun describing the subject stays in the nominative: *είναι γιατρός*. *γιατρός* is the same word for a man and a woman."
+    }
+   ]
+  },
+  {
+   "id": "case-07",
+   "level": "A2",
+   "parts": [
+    "Το βράδυ τρώμε με τους γονείς της Ελένης."
+   ],
+   "en": "In the evening we eat with Eleni's parents.",
+   "ok": true,
+   "why": "Nothing to fix: *το βράδυ* (time, accusative), *με τους γονείς* (accusative after *με*), *της Ελένης* (genitive of possession)."
+  },
+  {
+   "id": "case-08",
+   "level": "B1",
+   "parts": [
+    0,
+    " είπα να έρθει νωρίς."
+   ],
+   "en": "I told him to come early.",
+   "errs": [
+    {
+     "w": "Τον",
+     "r": [
+      "Του"
+     ],
+     "c": "case",
+     "why": "The person you tell something to takes the genitive clitic: *του είπα*, *της είπα*. *Τον είπα* is heard in northern Greece but is not standard."
+    }
+   ]
+  },
+  {
+   "id": "case-09",
+   "level": "B1",
+   "parts": [
+    "Είμαι τριάντα ",
+    0,
+    "."
+   ],
+   "en": "I'm thirty (years old).",
+   "errs": [
+    {
+     "w": "χρόνια",
+     "r": [
+      "χρονών",
+      "χρόνων"
+     ],
+     "c": "case",
+     "why": "Age is *είμαι* + number + genitive: *είμαι τριάντα χρονών* (everyday) or *τριάντα χρόνων*; formal *ετών*. *Είμαι τριάντα χρόνια* is a calque of English."
+    }
+   ]
+  },
+  {
+   "id": "case-10",
+   "level": "B1",
+   "parts": [
+    "Οι γονείς ",
+    0,
+    " ήρθαν στη συνάντηση."
+   ],
+   "en": "The pupils' parents came to the meeting.",
+   "errs": [
+    {
+     "w": "των μαθητές",
+     "r": [
+      "των μαθητών"
+     ],
+     "c": "case",
+     "why": "Genitive plural always ends in *-ων*: *των μαθητών*, *των φίλων*, *των πόλεων*."
+    }
+   ]
+  },
+  {
+   "id": "case-11",
+   "level": "B1",
+   "parts": [
+    "Χάσαμε τα κλειδιά ",
+    0,
+    "."
+   ],
+   "en": "We lost the car keys.",
+   "errs": [
+    {
+     "w": "του αυτοκίνητου",
+     "r": [
+      "του αυτοκινήτου"
+     ],
+     "c": "case",
+     "why": "Neuter nouns in *-ο* stressed on the third syllable from the end move the stress in the genitive: *το αυτοκίνητο*, *του αυτοκινήτου*, *των αυτοκινήτων*."
+    }
+   ]
+  },
+  {
+   "id": "case-12",
+   "level": "B1",
+   "parts": [
+    "Ο Νίκος μάς έδειξε όλα ",
+    0,
+    " μας."
+   ],
+   "en": "Nikos showed us all our mistakes.",
+   "errs": [
+    {
+     "w": "τα λάθοι",
+     "r": [
+      "τα λάθη"
+     ],
+     "c": "case",
+     "why": "*το λάθος* is a neuter noun in *-ος*: plural *τα λάθη*, genitive *του λάθους*, *των λαθών*. Same pattern: *το μέρος* → *τα μέρη*, *το δάσος* → *τα δάση*."
+    }
+   ]
+  },
+  {
+   "id": "case-13",
+   "level": "B1",
+   "parts": [
+    "Περάσαμε το βράδυ στο σπίτι ",
+    0,
+    " μου."
+   ],
+   "en": "We spent the evening at my uncle's house.",
+   "errs": [
+    {
+     "w": "ο θείος",
+     "r": [
+      "του θείου"
+     ],
+     "c": "case",
+     "why": "\"My uncle's\" is the genitive: *του θείου μου*. A noun that belongs to another noun never stays in the nominative."
+    }
+   ]
+  },
+  {
+   "id": "case-14",
+   "level": "B1",
+   "parts": [
+    "Έστειλα στη γιαγιά μου μια κάρτα για τη γιορτή της."
+   ],
+   "en": "I sent my grandmother a card for her name day.",
+   "ok": true,
+   "why": "Nothing to fix: *σε* + accusative for the person who receives (*στη γιαγιά μου*), *για* + accusative (*για τη γιορτή της*)."
+  },
+  {
+   "id": "case-15",
+   "level": "B2",
+   "parts": [
+    "Η πτήση ακυρώθηκε ",
+    0,
+    "."
+   ],
+   "en": "The flight was cancelled because of the bad weather.",
+   "errs": [
+    {
+     "w": "λόγω την κακοκαιρία",
+     "r": [
+      "λόγω της κακοκαιρίας"
+     ],
+     "c": "case",
+     "why": "*λόγω* \"because of\" and *εξαιτίας* take the genitive: *λόγω της κακοκαιρίας*, *εξαιτίας της απεργίας*."
+    }
+   ]
+  },
+  {
+   "id": "case-16",
+   "level": "B2",
+   "parts": [
+    "Βγήκαμε έξω ",
+    0,
+    "."
+   ],
+   "en": "We went out despite the rain.",
+   "errs": [
+    {
+     "w": "παρά της βροχής",
+     "r": [
+      "παρά τη βροχή"
+     ],
+     "c": "case",
+     "why": "*παρά* \"despite\" takes the accusative: *παρά τη βροχή*, *παρά τις δυσκολίες*."
+    }
+   ]
+  },
+  {
+   "id": "case-17",
+   "level": "B2",
+   "parts": [
+    "Η κοπέλα, ",
+    0,
+    " γνώρισα χθες, είναι Ιταλίδα."
+   ],
+   "en": "The girl I met yesterday is Italian.",
+   "errs": [
+    {
+     "w": "η οποία",
+     "r": [
+      "την οποία"
+     ],
+     "c": "case",
+     "why": "*ο οποίος* takes the case of its job inside its own clause. Here it is the object of *γνώρισα*, so accusative: *την οποία γνώρισα*."
+    }
+   ]
+  },
+  {
+   "id": "case-18",
+   "level": "B2",
+   "parts": [
+    "Στο φεστιβάλ ήρθαν πολλοί ",
+    0,
+    " από την Κύπρο."
+   ],
+   "en": "Many writers from Cyprus came to the festival.",
+   "errs": [
+    {
+     "w": "συγγραφέες",
+     "r": [
+      "συγγραφείς"
+     ],
+     "c": "case",
+     "why": "*ο συγγραφέας* has the plural *οι συγγραφείς*, *των συγγραφέων*, *τους συγγραφείς*; genitive singular *του συγγραφέα*. Same pattern: *ο γραμματέας* → *οι γραμματείς*."
+    }
+   ]
+  },
+  {
+   "id": "case-19",
+   "level": "B2",
+   "parts": [
+    "Η επιτυχία ",
+    0,
+    " εξαρτάται από τον δάσκαλο."
+   ],
+   "en": "The success of the method depends on the teacher.",
+   "errs": [
+    {
+     "w": "της μέθοδος",
+     "r": [
+      "της μεθόδου"
+     ],
+     "c": "case",
+     "why": "*η μέθοδος* is feminine but declines like *ο άνθρωπος*: genitive *της μεθόδου*, plural *οι μέθοδοι*. So do *η οδός*, *η είσοδος*, *η έξοδος*, *η περίοδος*."
+    }
+   ]
+  },
+  {
+   "id": "case-20",
+   "level": "B2",
+   "parts": [
+    "Έχουμε δύο κόρες και ",
+    0,
+    "."
+   ],
+   "en": "We have two daughters and a son.",
+   "errs": [
+    {
+     "w": "ένας γιος",
+     "r": [
+      "έναν γιο"
+     ],
+     "c": "case",
+     "why": "After *έχω* the object is accusative: *έναν γιο* (nominative *ένας γιος*). *Δύο κόρες* is already right, because feminine nouns in *-η/-α* have the same form for nominative and accusative plural."
+    }
+   ]
+  },
+  {
+   "id": "case-21",
+   "level": "B2",
+   "parts": [
+    "Μετά από τόσα χρόνια, θυμάμαι ακόμα τη φωνή της δασκάλας μου."
+   ],
+   "en": "After so many years I still remember my teacher's voice.",
+   "ok": true,
+   "why": "Nothing to fix: *μετά από* + accusative, *τη φωνή* (object), *της δασκάλας μου* (genitive of possession)."
+  },
+  {
+   "id": "case-27",
+   "level": "B2",
+   "parts": [
+    "Κατά τη διάρκεια ",
+    0,
+    ", πολλοί νέοι έφυγαν στο εξωτερικό."
+   ],
+   "en": "During the crisis many young people left for abroad.",
+   "errs": [
+    {
+     "w": "της κρίση",
+     "r": [
+      "της κρίσης",
+      "της κρίσεως"
+     ],
+     "c": "case",
+     "why": "*κατά τη διάρκεια* \"during\" is followed by the genitive: *της κρίσης* (learned *της κρίσεως* is also correct in formal texts). Feminine nouns in *-η* add *-ς* in the genitive singular."
+    }
+   ]
+  },
+  {
+   "id": "case-22",
+   "level": "C1",
+   "parts": [
+    "Οι αποφάσεις ελήφθησαν ",
+    0,
+    " του 2019."
+   ],
+   "en": "The decisions were taken on the basis of the 2019 law.",
+   "errs": [
+    {
+     "w": "βάσει τον νόμο",
+     "r": [
+      "βάσει του νόμου"
+     ],
+     "c": "case",
+     "why": "*βάσει* \"on the basis of\" is a learned preposition with the genitive: *βάσει του νόμου*. Its everyday equivalent *με βάση* takes the accusative: *με βάση τον νόμο*."
+    }
+   ]
+  },
+  {
+   "id": "case-23",
+   "level": "C1",
+   "parts": [
+    "Η διαμαρτυρία στράφηκε ",
+    0,
+    "."
+   ],
+   "en": "The protest was aimed against the government.",
+   "errs": [
+    {
+     "w": "εναντίον στην κυβέρνηση",
+     "r": [
+      "εναντίον της κυβέρνησης",
+      "ενάντια στην κυβέρνηση"
+     ],
+     "c": "case",
+     "why": "*εναντίον* takes the genitive (*εναντίον της κυβέρνησης*); the everyday *ενάντια* takes *σε* (*ενάντια στην κυβέρνηση*). Mixing the two is a common slip."
+    }
+   ]
+  },
+  {
+   "id": "case-24",
+   "level": "C1",
+   "parts": [
+    "Το κείμενο υπογράφτηκε ",
+    0,
+    "."
+   ],
+   "en": "The text was signed on behalf of the director.",
+   "errs": [
+    {
+     "w": "εκ μέρους ο διευθυντής",
+     "r": [
+      "εκ μέρους του διευθυντή"
+     ],
+     "c": "case",
+     "why": "*εκ μέρους* \"on behalf of\" is followed by the genitive: *εκ μέρους του διευθυντή*."
+    }
+   ]
+  },
+  {
+   "id": "case-25",
+   "level": "C1",
+   "parts": [
+    "Η συνεργασία ",
+    0,
+    " είναι στενή."
+   ],
+   "en": "Cooperation between the two countries is close.",
+   "errs": [
+    {
+     "w": "μεταξύ τις δύο χώρες",
+     "r": [
+      "μεταξύ των δύο χωρών"
+     ],
+     "c": "case",
+     "why": "*μεταξύ* takes the genitive: *μεταξύ των δύο χωρών*. Everyday *ανάμεσα σε* takes the accusative: *ανάμεσα στις δύο χώρες*."
+    }
+   ]
+  },
+  {
+   "id": "case-26",
+   "level": "C1",
+   "parts": [
+    "Ήταν ένας από τους πιο σημαντικούς ",
+    0,
+    " της γενιάς του."
+   ],
+   "en": "He was one of the most important researchers of his generation.",
+   "errs": [
+    {
+     "w": "ερευνητής",
+     "r": [
+      "ερευνητές"
+     ],
+     "c": "case",
+     "why": "After *ένας από τους* the noun is accusative plural, agreeing with *τους*: *τους πιο σημαντικούς ερευνητές*."
+    }
+   ]
+  }
+ ]
+}

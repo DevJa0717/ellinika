@@ -1,0 +1,358 @@
+{
+ "id": "register",
+ "el": "Ύφος",
+ "title": "Register",
+ "about": "Greek marks formality clearly. In formal letters and emails you use the polite plural (*εσείς*) throughout, open with *Αξιότιμε κύριε / Αξιότιμη κυρία* and close with *Με εκτίμηση*. In essays and reports avoid slang, elisions like *τα 'πα* and casual fillers; in everyday speech avoid stiff learned forms. The most common slip is mixing the two inside one text.",
+ "items": [
+  {
+   "id": "register-01",
+   "level": "B1",
+   "parts": [
+    "Αξιότιμε κύριε Δημητρίου, σας ευχαριστώ για την ",
+    0,
+    "."
+   ],
+   "en": "Dear Mr Dimitriou, thank you for your reply.",
+   "errs": [
+    {
+     "w": "απάντησή σου",
+     "r": [
+      "απάντησή σας"
+     ],
+     "c": "register",
+     "why": "Once you address someone with *εσείς*, keep the plural all the way: *σας ευχαριστώ για την απάντησή σας*."
+    }
+   ]
+  },
+  {
+   "id": "register-02",
+   "level": "B1",
+   "parts": [
+    0,
+    " κύριε Διευθυντά, σας γράφω για να ζητήσω πληροφορίες."
+   ],
+   "en": "Dear Director, I am writing to request information.",
+   "errs": [
+    {
+     "w": "Γεια σου",
+     "r": [
+      "Αξιότιμε"
+     ],
+     "c": "register",
+     "why": "A formal letter opens with *Αξιότιμε κύριε…* / *Αξιότιμη κυρία…*. *Γεια σου* is for friends."
+    }
+   ]
+  },
+  {
+   "id": "register-03",
+   "level": "B1",
+   "parts": [
+    "Περιμένω την απάντησή σας. ",
+    0,
+    ", Άννα Κάππα"
+   ],
+   "en": "I look forward to your reply. Yours sincerely, Anna Kappa",
+   "errs": [
+    {
+     "w": "Φιλιά",
+     "r": [
+      "Με εκτίμηση"
+     ],
+     "c": "register",
+     "why": "A formal letter closes with *Με εκτίμηση* or *Με τιμή*. *Φιλιά* is for family and friends."
+    }
+   ]
+  },
+  {
+   "id": "register-04",
+   "level": "B1",
+   "parts": [
+    "Κύριε Παππά, ",
+    0,
+    " να μου στείλετε το πρόγραμμα;"
+   ],
+   "en": "Mr Pappas, could you send me the programme?",
+   "errs": [
+    {
+     "w": "μπορείς",
+     "r": [
+      "μπορείτε"
+     ],
+     "c": "register",
+     "why": "Polite address takes the plural in every verb: *μπορείτε να μου στείλετε*."
+    }
+   ]
+  },
+  {
+   "id": "register-05",
+   "level": "B1",
+   "parts": [
+    "Αγαπητή Ελένη, ",
+    0,
+    " να πάμε για καφέ το Σάββατο;"
+   ],
+   "en": "Dear Eleni, do you want to go for a coffee on Saturday?",
+   "errs": [
+    {
+     "w": "θα επιθυμούσατε",
+     "r": [
+      "θέλεις"
+     ],
+     "c": "register",
+     "why": "To a friend, the polite plural and a stiff verb like *επιθυμώ* sound comic or cold. Keep the tone of *Αγαπητή Ελένη*: *θέλεις να πάμε για καφέ;*"
+    }
+   ]
+  },
+  {
+   "id": "register-06",
+   "level": "B1",
+   "parts": [
+    "Αξιότιμη κυρία Νικολάου, θα ήθελα να σας ενημερώσω ότι θα απουσιάσω την Παρασκευή."
+   ],
+   "en": "Dear Mrs Nikolaou, I would like to inform you that I will be absent on Friday.",
+   "ok": true,
+   "why": "Nothing to fix: formal opening, *θα ήθελα*, and the polite plural *σας* throughout."
+  },
+  {
+   "id": "register-07",
+   "level": "B2",
+   "parts": [
+    "Στην έκθεσή του γράφει ότι η κυβέρνηση ",
+    0,
+    " στην οικονομία."
+   ],
+   "en": "In his essay he writes that the government failed on the economy.",
+   "errs": [
+    {
+     "w": "τα έκανε μαντάρα",
+     "r": [
+      "απέτυχε"
+     ],
+     "c": "register",
+     "why": "*Τα έκανε μαντάρα* \"made a mess of it\" is slang; an essay needs a neutral verb: *απέτυχε*, *δεν τα κατάφερε*."
+    }
+   ]
+  },
+  {
+   "id": "register-08",
+   "level": "B2",
+   "parts": [
+    0,
+    " στη συνάντηση με τον διευθυντή."
+   ],
+   "en": "I said so in the meeting with the director.",
+   "errs": [
+    {
+     "w": "Τα 'πα",
+     "r": [
+      "Τα είπα"
+     ],
+     "c": "register",
+     "why": "In writing for work or study, avoid elisions such as *τα 'πα*, *σ' το 'πα*: write the full forms *τα είπα*."
+    }
+   ]
+  },
+  {
+   "id": "register-09",
+   "level": "B2",
+   "parts": [
+    "Αξιότιμοι κύριοι, θα ήθελα να μάθω ",
+    0,
+    " τις εγγραφές στο πρόγραμμα."
+   ],
+   "en": "Dear Sirs, I would like to know what the arrangements are for enrolling in the programme.",
+   "errs": [
+    {
+     "w": "τι παίζει με",
+     "r": [
+      "τι ισχύει για"
+     ],
+     "c": "register",
+     "why": "*Τι παίζει με…* \"what's the deal with…\" is slang. In a formal email: *τι ισχύει για*, *ποια είναι η διαδικασία για*."
+    }
+   ]
+  },
+  {
+   "id": "register-10",
+   "level": "B2",
+   "parts": [
+    "Το πρόβλημα με τα κινητά είναι ότι τα παιδιά ",
+    0,
+    " από πολύ μικρή ηλικία."
+   ],
+   "en": "The problem with mobile phones is that children become addicted from a very young age.",
+   "errs": [
+    {
+     "w": "κολλάνε",
+     "r": [
+      "εθίζονται"
+     ],
+     "c": "register",
+     "why": "*Κολλάω* \"get hooked\" is colloquial; in an essay prefer *εθίζομαι* or *εξαρτώνται*."
+    }
+   ]
+  },
+  {
+   "id": "register-11",
+   "level": "B2",
+   "parts": [
+    "Ήμουν ",
+    0,
+    " όλη την ημέρα."
+   ],
+   "en": "I was at home all day.",
+   "errs": [
+    {
+     "w": "εις το σπίτι",
+     "r": [
+      "στο σπίτι"
+     ],
+     "c": "register",
+     "why": "*εις* is katharevousa and survives only in fixed phrases (*εις υγείαν*, *εις βάρος*). In ordinary sentences: *στο σπίτι*."
+    }
+   ]
+  },
+  {
+   "id": "register-12",
+   "level": "B2",
+   "parts": [
+    "Σας ευχαριστώ εκ των προτέρων για τη συνεργασία."
+   ],
+   "en": "Thank you in advance for your cooperation.",
+   "ok": true,
+   "why": "Nothing to fix: *εκ των προτέρων* is one of the learned set phrases that belong in formal Greek."
+  },
+  {
+   "id": "register-13",
+   "level": "C1",
+   "parts": [
+    "Επιπλέον, ",
+    0,
+    " για τις μικρές επιχειρήσεις."
+   ],
+   "en": "Moreover, the situation is unfavourable for small businesses.",
+   "errs": [
+    {
+     "w": "η φάση είναι χάλια",
+     "r": [
+      "η κατάσταση είναι δυσμενής",
+      "η κατάσταση είναι δύσκολη"
+     ],
+     "c": "register",
+     "why": "*Επιπλέον* sets a formal tone that *η φάση είναι χάλια* \"it's a mess\" breaks. Keep one register: *η κατάσταση είναι δυσμενής*."
+    }
+   ]
+  },
+  {
+   "id": "register-14",
+   "level": "C1",
+   "parts": [
+    "Κατά τη γνώμη μου, ",
+    0,
+    " η πολιτεία ",
+    1,
+    "."
+   ],
+   "en": "In my opinion, the issue is that the state is not taking measures.",
+   "errs": [
+    {
+     "w": "το θέμα είναι ότι",
+     "r": [
+      "το ζήτημα είναι ότι"
+     ],
+     "c": "register",
+     "why": "*Το θέμα είναι* is fine in speech; in a formal essay *το ζήτημα είναι* is stronger."
+    },
+    {
+     "w": "δεν κάνει τίποτα",
+     "r": [
+      "δεν λαμβάνει μέτρα",
+      "δεν παίρνει μέτρα"
+     ],
+     "c": "register",
+     "why": "*Δεν κάνει τίποτα* overstates and sounds conversational; say precisely what is lacking: *δεν λαμβάνει μέτρα*."
+    }
+   ]
+  },
+  {
+   "id": "register-15",
+   "level": "C1",
+   "parts": [
+    "Η μελέτη κατέληξε ",
+    0,
+    " η ανεργία ",
+    1,
+    "."
+   ],
+   "en": "The study concluded that unemployment fell markedly.",
+   "errs": [
+    {
+     "w": "στο ότι",
+     "r": [
+      "στο συμπέρασμα ότι"
+     ],
+     "c": "register",
+     "why": "*Καταλήγω στο συμπέρασμα ότι* is the formal \"conclude that\"."
+    },
+    {
+     "w": "έπεσε πατόκορφα",
+     "r": [
+      "μειώθηκε αισθητά"
+     ],
+     "c": "register",
+     "why": "*Πατόκορφα* belongs to folk style; in a report use *αισθητά* or *σημαντικά*."
+    }
+   ]
+  },
+  {
+   "id": "register-16",
+   "level": "C1",
+   "parts": [
+    "Στη Βουλή ο βουλευτής δήλωσε: «",
+    0,
+    " σε εκβιασμούς.»"
+   ],
+   "en": "In Parliament the MP declared: \"We will not give in to blackmail.\"",
+   "errs": [
+    {
+     "w": "Δεν μασάμε",
+     "r": [
+      "Δεν θα υποχωρήσουμε"
+     ],
+     "c": "register",
+     "why": "*Δεν μασάμε* \"we don't buy it / we won't be cowed\" is street slang; a speech in Parliament needs *δεν θα υποχωρήσουμε*."
+    }
+   ]
+  },
+  {
+   "id": "register-17",
+   "level": "C1",
+   "parts": [
+    "Αγαπητέ Νίκο, ",
+    0,
+    ", σου στέλνω τις φωτογραφίες."
+   ],
+   "en": "Dear Nikos, about your message of 3 May, I'm sending you the photos.",
+   "errs": [
+    {
+     "w": "εν συνεχεία της από 3 Μαΐου επιστολής σας",
+     "r": [
+      "σχετικά με το μήνυμά σου της 3ης Μαΐου"
+     ],
+     "c": "register",
+     "why": "Bureaucratic formulas like *εν συνεχεία της… επιστολής σας* clash with *Αγαπητέ Νίκο* and *σου*. In a friendly message: *σχετικά με το μήνυμά σου*."
+    }
+   ]
+  },
+  {
+   "id": "register-18",
+   "level": "C1",
+   "parts": [
+    "Θα ήθελα, εν κατακλείδι, να επισημάνω ότι η πρόταση χρήζει περαιτέρω διερεύνησης."
+   ],
+   "en": "In conclusion, I would like to point out that the proposal needs further investigation.",
+   "ok": true,
+   "why": "Nothing to fix: a consistent formal register (*εν κατακλείδι*, *επισημάνω*, *χρήζει*, *περαιτέρω*), right for a report or an exam essay."
+  }
+ ]
+}

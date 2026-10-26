@@ -4,10 +4,10 @@
    - Lessons, data and photos live in a cache that survives app updates; each file is re-checked in the background,
      big word lists at most twice a day so the phone does not re-download megabytes on every launch.
    Bump CACHE whenever app.css/app.js/any script changes (with the ?v= in index.html). */
-const CACHE = "ellinika-v80";
+const CACHE = "ellinika-v81";
 const DATA = "ellinika-data";
 const FONTS = "ellinika-fonts";
-const SHELL = ["design-refresh.css", "design-refresh.js", "./", "index.html", "app.css", "profiles.js", "lookup.js", "lookup-worker.js", "dictation-utils.js", "library.js", "learning-tools.js", "grammar-guides.js", "dialects.js", "bilingual.js", "news-digest.js", "tetradio.js", "drillbooks.js", "app.js", "manifest.webmanifest",
+const SHELL = ["design-refresh.css", "design-refresh.js", "./", "index.html", "app.css", "profiles.js", "lookup.js", "lookup-worker.js", "dictation-utils.js", "library.js", "learning-tools.js", "grammar-guides.js", "dialects.js", "bilingual.js", "news-digest.js", "tetradio.js", "drillbooks.js", "errors.js", "app.js", "manifest.webmanifest",
   "icons/icon-192.png", "icons/apple-touch-icon.png"];
 const PAGE_WAIT = 3500;            // ms before a slow network gives way to the saved page
 const BIG = 300 * 1024, BIG_AGE = 12 * 36e5;

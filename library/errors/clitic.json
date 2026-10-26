@@ -1,0 +1,459 @@
+{
+ "id": "clitic",
+ "el": "Αδύναμοι τύποι",
+ "title": "Clitic pronouns",
+ "about": "The short pronouns *με, σε, τον, την, το, μου, σου, του, της…* lean on the verb. They go before every finite verb, including after *θα*, *να*, *δεν*, *μην*, *ας* and before *έχω* in the perfect; they go after an imperative or a gerund. With two clitics the genitive (to whom) comes before the accusative (what): *μου το έδωσε*, *δώσ' μου το*. The person something is given or said to is genitive: *του είπα*, not *τον είπα*.",
+ "items": [
+  {
+   "id": "clitic-01",
+   "level": "A2",
+   "parts": [
+    0,
+    " κάθε μέρα στο λεωφορείο."
+   ],
+   "en": "I see him every day on the bus.",
+   "errs": [
+    {
+     "w": "Βλέπω τον",
+     "r": [
+      "Τον βλέπω"
+     ],
+     "c": "clitic",
+     "why": "Object clitics go before the verb: *τον βλέπω*, *τη θυμάμαι*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-02",
+   "level": "A2",
+   "parts": [
+    0,
+    " πολύ η Θεσσαλονίκη."
+   ],
+   "en": "I really like Thessaloniki.",
+   "errs": [
+    {
+     "w": "Με αρέσει",
+     "r": [
+      "Μου αρέσει",
+      "Μ' αρέσει"
+     ],
+     "c": "clitic",
+     "why": "With *αρέσει* the person who likes is in the genitive: *μου αρέσει*, *σου αρέσει*, *της αρέσουν*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-03",
+   "level": "A2",
+   "parts": [
+    0,
+    " αύριο, σου το υπόσχομαι."
+   ],
+   "en": "I'll do it tomorrow, I promise.",
+   "errs": [
+    {
+     "w": "Το θα κάνω",
+     "r": [
+      "Θα το κάνω"
+     ],
+     "c": "clitic",
+     "why": "*θα* comes first and the clitic sits between *θα* and the verb: *θα το κάνω*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-04",
+   "level": "A2",
+   "parts": [
+    "Δεν ",
+    0,
+    ", ρώτα τη Μαρία."
+   ],
+   "en": "I don't know it, ask Maria.",
+   "errs": [
+    {
+     "w": "ξέρω το",
+     "r": [
+      "το ξέρω"
+     ],
+     "c": "clitic",
+     "why": "After *δεν* the clitic still goes before the verb: *δεν το ξέρω*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-05",
+   "level": "A2",
+   "parts": [
+    0,
+    " το αλάτι, σε παρακαλώ."
+   ],
+   "en": "Pass me the salt, please.",
+   "errs": [
+    {
+     "w": "Μου δώσε",
+     "r": [
+      "Δώσε μου",
+      "Δώσ' μου"
+     ],
+     "c": "clitic",
+     "why": "With the imperative the clitic follows the verb: *δώσε μου*, *πες μου*, *φέρ' το*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-06",
+   "level": "A2",
+   "parts": [
+    "Σε πήρα τηλέφωνο, αλλά δεν απάντησες."
+   ],
+   "en": "I called you, but you didn't answer.",
+   "ok": true,
+   "why": "Nothing to fix: *σε* (accusative) before *πήρα τηλέφωνο*, the usual way to say \"call someone\"."
+  },
+  {
+   "id": "clitic-07",
+   "level": "B1",
+   "parts": [
+    0,
+    " δύο φορές."
+   ],
+   "en": "I've read it twice.",
+   "errs": [
+    {
+     "w": "Έχω το διαβάσει",
+     "r": [
+      "Το έχω διαβάσει"
+     ],
+     "c": "clitic",
+     "why": "In the perfect the clitic goes before *έχω*: *το έχω διαβάσει*, *την είχα δει*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-08",
+   "level": "B1",
+   "parts": [
+    0,
+    " η Ελένη."
+   ],
+   "en": "Eleni gave it to me.",
+   "errs": [
+    {
+     "w": "Το μου έδωσε",
+     "r": [
+      "Μου το έδωσε"
+     ],
+     "c": "clitic",
+     "why": "Two clitics before the verb: genitive first, then accusative: *μου το έδωσε*, *σας τα έστειλα*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-09",
+   "level": "B1",
+   "parts": [
+    "Θέλω να ",
+    0,
+    " μαζί μου."
+   ],
+   "en": "I want to take it with me.",
+   "errs": [
+    {
+     "w": "πάρω το",
+     "r": [
+      "το πάρω"
+     ],
+     "c": "clitic",
+     "why": "After *να* the clitic goes before the verb: *να το πάρω*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-10",
+   "level": "B1",
+   "parts": [
+    "Μην ",
+    0,
+    " σε κανέναν!"
+   ],
+   "en": "Don't tell anyone!",
+   "errs": [
+    {
+     "w": "πεις το",
+     "r": [
+      "το πεις"
+     ],
+     "c": "clitic",
+     "why": "*μην* + subjunctive is not an imperative, so the clitic stays in front: *μην το πεις*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-11",
+   "level": "B1",
+   "parts": [
+    "Μου είπε να ",
+    0,
+    " περιμένω στη στάση."
+   ],
+   "en": "She told me to wait for him at the stop.",
+   "errs": [
+    {
+     "w": "του",
+     "r": [
+      "τον"
+     ],
+     "c": "clitic",
+     "why": "*περιμένω* takes a direct object in the accusative: *τον περιμένω*. Only verbs of giving, saying and the like take the genitive."
+    }
+   ]
+  },
+  {
+   "id": "clitic-12",
+   "level": "B1",
+   "parts": [
+    0,
+    " να μην ανησυχεί."
+   ],
+   "en": "I told him not to worry.",
+   "errs": [
+    {
+     "w": "Τον είπα",
+     "r": [
+      "Του είπα"
+     ],
+     "c": "clitic",
+     "why": "The person you tell something to is genitive: *του είπα*, *της είπα*, *τους είπα*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-13",
+   "level": "B1",
+   "parts": [
+    "Ας το αφήσουμε για αύριο."
+   ],
+   "en": "Let's leave it for tomorrow.",
+   "ok": true,
+   "why": "Nothing to fix: after *ας* the clitic goes before the verb: *ας το αφήσουμε*."
+  },
+  {
+   "id": "clitic-14",
+   "level": "B2",
+   "parts": [
+    "Το βιβλίο που μου δάνεισες ",
+    0,
+    " σε μια μέρα."
+   ],
+   "en": "The book you lent me, I read in one day.",
+   "errs": [
+    {
+     "w": "διάβασα",
+     "r": [
+      "το διάβασα"
+     ],
+     "c": "clitic",
+     "why": "When a definite object is put first for emphasis, a clitic repeats it before the verb: *το βιβλίο… το διάβασα*. This \"clitic doubling\" is obligatory."
+    }
+   ]
+  },
+  {
+   "id": "clitic-15",
+   "level": "B2",
+   "parts": [
+    "Τον Γιάννη δεν ",
+    0,
+    " καθόλου σήμερα."
+   ],
+   "en": "I didn't see Giannis at all today.",
+   "errs": [
+    {
+     "w": "είδα",
+     "r": [
+      "τον είδα"
+     ],
+     "c": "clitic",
+     "why": "Same rule: a definite object moved to the front is doubled by a clitic: *τον Γιάννη δεν τον είδα*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-16",
+   "level": "B2",
+   "parts": [
+    0,
+    " προσεκτικά, κατάλαβα ότι έλεγε ψέματα."
+   ],
+   "en": "Looking at him carefully, I realised he was lying.",
+   "errs": [
+    {
+     "w": "Τον κοιτάζοντας",
+     "r": [
+      "Κοιτάζοντάς τον"
+     ],
+     "c": "clitic",
+     "why": "With the gerund the clitic follows, as with the imperative: *κοιτάζοντάς τον*. The gerund then takes a second accent because its stress is on the third syllable from the end."
+    }
+   ]
+  },
+  {
+   "id": "clitic-17",
+   "level": "B2",
+   "parts": [
+    "Πες ",
+    0,
+    " επιτέλους!"
+   ],
+   "en": "Just tell me!",
+   "errs": [
+    {
+     "w": "το μου",
+     "r": [
+      "μου το"
+     ],
+     "c": "clitic",
+     "why": "After an imperative, two clitics also go genitive first: *πες μου το*, *δώσ' του τα*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-18",
+   "level": "B2",
+   "parts": [
+    0,
+    " χίλιες φορές."
+   ],
+   "en": "I've told him a thousand times.",
+   "errs": [
+    {
+     "w": "Έχω του το πει",
+     "r": [
+      "Του το έχω πει"
+     ],
+     "c": "clitic",
+     "why": "In the perfect both clitics go before *έχω*, genitive first: *του το έχω πει*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-19",
+   "level": "B2",
+   "parts": [
+    "Στη Μαρία της αρέσουν πολύ τα γλυκά."
+   ],
+   "en": "Maria really likes sweets.",
+   "ok": true,
+   "why": "Nothing to fix: the person is named with *σε* and repeated by the clitic *της* (doubling), and *αρέσουν* agrees with *τα γλυκά*."
+  },
+  {
+   "id": "clitic-20",
+   "level": "C1",
+   "parts": [
+    0,
+    " σήμερα κιόλας."
+   ],
+   "en": "We have to do it today.",
+   "errs": [
+    {
+     "w": "Το πρέπει να κάνουμε",
+     "r": [
+      "Πρέπει να το κάνουμε"
+     ],
+     "c": "clitic",
+     "why": "Greek clitics do not move up to *πρέπει* or *μπορώ*: they stay with their own verb, after *να*: *πρέπει να το κάνουμε*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-21",
+   "level": "C1",
+   "parts": [
+    "Μπορείς να ",
+    0,
+    " συστήσεις;"
+   ],
+   "en": "Can you introduce him to me?",
+   "errs": [
+    {
+     "w": "τον μου",
+     "r": [
+      "μου τον"
+     ],
+     "c": "clitic",
+     "why": "Genitive before accusative: *να μου τον συστήσεις*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-22",
+   "level": "C1",
+   "parts": [
+    0,
+    ", του είπε να το προσέχει."
+   ],
+   "en": "Giving it to him, she told him to look after it.",
+   "errs": [
+    {
+     "w": "Το του δίνοντας",
+     "r": [
+      "Δίνοντάς του το"
+     ],
+     "c": "clitic",
+     "why": "After a gerund both clitics follow, genitive first: *δίνοντάς του το*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-23",
+   "level": "C1",
+   "parts": [
+    "Αν ",
+    0,
+    ", πες του ότι τον ψάχνω."
+   ],
+   "en": "If you see him, tell him I'm looking for him.",
+   "errs": [
+    {
+     "w": "δεις τον",
+     "r": [
+      "τον δεις"
+     ],
+     "c": "clitic",
+     "why": "*αν* + subjunctive is not an imperative, so the clitic goes before the verb: *αν τον δεις*. Only the real imperative *πες* puts it after: *πες του*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-24",
+   "level": "C1",
+   "parts": [
+    "Αυτά που μου είπες, ",
+    0,
+    "."
+   ],
+   "en": "I'll never forget the things you told me.",
+   "errs": [
+    {
+     "w": "δεν θα ξεχάσω ποτέ",
+     "r": [
+      "δεν θα τα ξεχάσω ποτέ"
+     ],
+     "c": "clitic",
+     "why": "A fronted definite object, here the clause *αυτά που μου είπες*, is doubled by a clitic: *δεν θα τα ξεχάσω*."
+    }
+   ]
+  },
+  {
+   "id": "clitic-25",
+   "level": "C1",
+   "parts": [
+    "Δώσ' τους τα, να ησυχάσουν."
+   ],
+   "en": "Give them to them, so they calm down.",
+   "ok": true,
+   "why": "Nothing to fix: imperative + genitive *τους* + accusative *τα*; *δώσ'* is the usual elided *δώσε*."
+  }
+ ]
+}

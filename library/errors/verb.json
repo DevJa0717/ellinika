@@ -1,0 +1,523 @@
+{
+ "id": "verb",
+ "el": "Ρηματικοί τύποι",
+ "title": "Verb forms",
+ "about": "The everyday verbs are the irregular ones: *τρώω → έφαγα, θα φάω*; *βλέπω → είδα, θα δω*; *λέω → είπα, θα πω*; *πίνω → ήπια, θα πιω*; *έρχομαι → ήρθα, θα έρθω*. The augment *ε-* appears only when it carries the stress (*έγραψα*, but *γράψαμε*). Learned compounds put the augment inside (*επέστρεψα*), and verbs in *-ομαι* have their own imperatives (*ντύσου*, *κάθισε*).",
+ "items": [
+  {
+   "id": "verb-01",
+   "level": "A2",
+   "parts": [
+    "Χθες ",
+    0,
+    " μουσακά στην ταβέρνα."
+   ],
+   "en": "Yesterday I ate moussaka at the taverna.",
+   "errs": [
+    {
+     "w": "έτρωσα",
+     "r": [
+      "έφαγα"
+     ],
+     "c": "verb",
+     "why": "*τρώω* has the irregular aorist *έφαγα* (*θα φάω*, *να φάω*)."
+    }
+   ]
+  },
+  {
+   "id": "verb-02",
+   "level": "A2",
+   "parts": [
+    "Θα ",
+    0,
+    " τη Μαρία το απόγευμα."
+   ],
+   "en": "I'll see Maria in the afternoon.",
+   "errs": [
+    {
+     "w": "βλέψω",
+     "r": [
+      "δω"
+     ],
+     "c": "verb",
+     "why": "The perfective of *βλέπω* is *δ-*: *θα δω*, *να δεις*; aorist *είδα*."
+    }
+   ]
+  },
+  {
+   "id": "verb-03",
+   "level": "A2",
+   "parts": [
+    0,
+    " τι θέλεις."
+   ],
+   "en": "Tell me what you want.",
+   "errs": [
+    {
+     "w": "Είπε μου",
+     "r": [
+      "Πες μου"
+     ],
+     "c": "verb",
+     "why": "The imperative of *λέω* is *πες* (plural *πείτε*): *πες μου*."
+    }
+   ]
+  },
+  {
+   "id": "verb-04",
+   "level": "A2",
+   "parts": [
+    0,
+    " το φαγητό σου, κρυώνει!"
+   ],
+   "en": "Eat your food, it's getting cold!",
+   "errs": [
+    {
+     "w": "Φάγε",
+     "r": [
+      "Φάε"
+     ],
+     "c": "verb",
+     "why": "The imperative of *τρώω* is *φάε* (plural *φάτε*)."
+    }
+   ]
+  },
+  {
+   "id": "verb-05",
+   "level": "A2",
+   "parts": [
+    "Θα ",
+    0,
+    " στις οκτώ."
+   ],
+   "en": "I'll come at eight.",
+   "errs": [
+    {
+     "w": "έρχω",
+     "r": [
+      "έρθω"
+     ],
+     "c": "verb",
+     "why": "*έρχομαι* has the perfective *έρθ-* (formal *έλθω*): *θα έρθω*, *να έρθεις*; aorist *ήρθα*. There is no active *έρχω*."
+    }
+   ]
+  },
+  {
+   "id": "verb-06",
+   "level": "A2",
+   "parts": [
+    "Το καλοκαίρι ",
+    0,
+    " στη Σαντορίνη."
+   ],
+   "en": "In the summer I went to Santorini.",
+   "errs": [
+    {
+     "w": "πήγησα",
+     "r": [
+      "πήγα"
+     ],
+     "c": "verb",
+     "why": "*πηγαίνω/πάω* has the aorist *πήγα*."
+    }
+   ]
+  },
+  {
+   "id": "verb-07",
+   "level": "A2",
+   "parts": [
+    "Ήπια έναν καφέ και είδα τις ειδήσεις."
+   ],
+   "en": "I had a coffee and watched the news.",
+   "ok": true,
+   "why": "Nothing to fix: *πίνω → ήπια*, *βλέπω → είδα*."
+  },
+  {
+   "id": "verb-08",
+   "level": "B1",
+   "parts": [
+    "Χθες το βράδυ ",
+    0,
+    " με τους συναδέλφους."
+   ],
+   "en": "Last night we went out with colleagues.",
+   "errs": [
+    {
+     "w": "εβγήκαμε",
+     "r": [
+      "βγήκαμε"
+     ],
+     "c": "verb",
+     "why": "*βγαίνω* has the aorist *βγήκα*, with no augment: *βγήκαμε*."
+    }
+   ]
+  },
+  {
+   "id": "verb-09",
+   "level": "B1",
+   "parts": [
+    "Χθες ",
+    0,
+    " τεστ στα μαθηματικά."
+   ],
+   "en": "Yesterday we had a maths test.",
+   "errs": [
+    {
+     "w": "εγράψαμε",
+     "r": [
+      "γράψαμε"
+     ],
+     "c": "verb",
+     "why": "The augment *ε-* appears only when it is stressed: *έγραψα*, *έγραψες*, but *γράψαμε*, *γράψατε*."
+    }
+   ]
+  },
+  {
+   "id": "verb-10",
+   "level": "B1",
+   "parts": [
+    0,
+    " τα μεγάλα σκυλιά."
+   ],
+   "en": "I'm afraid of big dogs.",
+   "errs": [
+    {
+     "w": "Φοβώ",
+     "r": [
+      "Φοβάμαι"
+     ],
+     "c": "verb",
+     "why": "\"I'm afraid\" is the deponent *φοβάμαι*. Active *φοβίζω* means \"I frighten someone\"."
+    }
+   ]
+  },
+  {
+   "id": "verb-11",
+   "level": "B1",
+   "parts": [
+    0,
+    " γρήγορα, θα αργήσουμε!"
+   ],
+   "en": "Get dressed quickly, we'll be late!",
+   "errs": [
+    {
+     "w": "Ντύσε",
+     "r": [
+      "Ντύσου"
+     ],
+     "c": "verb",
+     "why": "*ντύνομαι* \"get dressed\" has the imperative *ντύσου* (plural *ντυθείτε*). *Ντύσε* means \"dress someone\": *ντύσε το μωρό*."
+    }
+   ]
+  },
+  {
+   "id": "verb-12",
+   "level": "B1",
+   "parts": [
+    "Παιδιά, ",
+    0,
+    " τα βιβλία σας."
+   ],
+   "en": "Children, close your books.",
+   "errs": [
+    {
+     "w": "κλείσετε",
+     "r": [
+      "κλείστε"
+     ],
+     "c": "verb",
+     "why": "The plural imperative is *κλείστε*, *γράψτε*, *ανοίξτε*. *Κλείσετε* is the subjunctive (*να κλείσετε*)."
+    }
+   ]
+  },
+  {
+   "id": "verb-13",
+   "level": "B1",
+   "parts": [
+    "Ο αδελφός μου ",
+    0,
+    " πολύ προσεκτικά."
+   ],
+   "en": "My brother drives very carefully.",
+   "errs": [
+    {
+     "w": "οδηγάει",
+     "r": [
+      "οδηγεί"
+     ],
+     "c": "verb",
+     "why": "*οδηγώ* belongs to the *-είς/-εί* group: *οδηγώ, οδηγείς, οδηγεί*, like *μπορώ* and *ζω*. Only verbs like *αγαπάω* have *-άει*."
+    }
+   ]
+  },
+  {
+   "id": "verb-14",
+   "level": "B1",
+   "parts": [
+    "Χθες ",
+    0,
+    " πολύ αργά."
+   ],
+   "en": "Yesterday I went to sleep very late.",
+   "errs": [
+    {
+     "w": "κοιμώθηκα",
+     "r": [
+      "κοιμήθηκα"
+     ],
+     "c": "verb",
+     "why": "*κοιμάμαι* has the aorist *κοιμήθηκα*."
+    }
+   ]
+  },
+  {
+   "id": "verb-15",
+   "level": "B1",
+   "parts": [
+    "Γεννήθηκα στη Θεσσαλονίκη, αλλά μεγάλωσα στην Αθήνα."
+   ],
+   "en": "I was born in Thessaloniki but grew up in Athens.",
+   "ok": true,
+   "why": "Nothing to fix: *γεννιέμαι → γεννήθηκα*; *μεγαλώνω → μεγάλωσα*."
+  },
+  {
+   "id": "verb-16",
+   "level": "B2",
+   "parts": [
+    "Η πόρτα ήταν ",
+    0,
+    " με γκράφιτι."
+   ],
+   "en": "The door was covered in graffiti.",
+   "errs": [
+    {
+     "w": "γραψμένη",
+     "r": [
+      "γραμμένη"
+     ],
+     "c": "verb",
+     "why": "The passive participle of *γράφω* is *γραμμένος*, with double *μ*."
+    }
+   ]
+  },
+  {
+   "id": "verb-17",
+   "level": "B2",
+   "parts": [
+    0,
+    " Γιατί φωνάζετε;"
+   ],
+   "en": "What happened? Why are you shouting?",
+   "errs": [
+    {
+     "w": "Τι συνέβηκε;",
+     "r": [
+      "Τι συνέβη;"
+     ],
+     "c": "verb",
+     "why": "*συμβαίνει* has the learned aorist *συνέβη*, plural *συνέβησαν*."
+    }
+   ]
+  },
+  {
+   "id": "verb-18",
+   "level": "B2",
+   "parts": [
+    "Όταν ",
+    0,
+    " από τις διακοπές, το σπίτι ήταν άνω κάτω."
+   ],
+   "en": "When we got back from holiday, the house was upside down.",
+   "errs": [
+    {
+     "w": "επεστρέψαμε",
+     "r": [
+      "επιστρέψαμε"
+     ],
+     "c": "verb",
+     "why": "Learned compounds keep the inner augment only when it is stressed: *επέστρεψα*, *επέστρεψες*, but *επιστρέψαμε*, *επιστρέψατε*."
+    }
+   ]
+  },
+  {
+   "id": "verb-19",
+   "level": "B2",
+   "parts": [
+    "Η πρότασή μας ",
+    0,
+    " από τη διοίκηση."
+   ],
+   "en": "Our proposal was approved by the management.",
+   "errs": [
+    {
+     "w": "εγκρίνηκε",
+     "r": [
+      "εγκρίθηκε"
+     ],
+     "c": "verb",
+     "why": "*εγκρίνω* has the passive aorist *εγκρίθηκε*, like *κρίνω → κρίθηκε*."
+    }
+   ]
+  },
+  {
+   "id": "verb-20",
+   "level": "B2",
+   "parts": [
+    "Όταν μπήκε ο διευθυντής, όλοι ",
+    0,
+    " όρθιοι."
+   ],
+   "en": "When the director came in, everyone stood up.",
+   "errs": [
+    {
+     "w": "σηκωθήκαν",
+     "r": [
+      "σηκώθηκαν"
+     ],
+     "c": "verb",
+     "why": "In the 3rd person plural the passive aorist keeps the stress on the third-last syllable: *σηκώθηκαν*, *χάθηκαν*. Only the 1st and 2nd plural move it: *σηκωθήκαμε*."
+    }
+   ]
+  },
+  {
+   "id": "verb-21",
+   "level": "B2",
+   "parts": [
+    "Ο πρόεδρος ανέλαβε τα καθήκοντά του τον Μάρτιο."
+   ],
+   "en": "The president took up his duties in March.",
+   "ok": true,
+   "why": "Nothing to fix: *αναλαμβάνω* has the aorist *ανέλαβα* with an inner augment, and *καθήκοντα* takes a second accent before *του*."
+  },
+  {
+   "id": "verb-22",
+   "level": "C1",
+   "parts": [
+    "Ο δήμος ",
+    0,
+    " αίτηση χρηματοδότησης."
+   ],
+   "en": "The municipality submitted a funding application.",
+   "errs": [
+    {
+     "w": "υπόβαλε",
+     "r": [
+      "υπέβαλε"
+     ],
+     "c": "verb",
+     "why": "*υποβάλλω* is a learned compound: the augment goes inside and carries the stress, *υπέβαλα*, *υπέβαλε*; but *υποβάλαμε*."
+    }
+   ]
+  },
+  {
+   "id": "verb-23",
+   "level": "C1",
+   "parts": [
+    "Η αστυνομία ",
+    0,
+    " δύο υπόπτους."
+   ],
+   "en": "The police arrested two suspects.",
+   "errs": [
+    {
+     "w": "συλλάβε",
+     "r": [
+      "συνέλαβε"
+     ],
+     "c": "verb",
+     "why": "*συλλαμβάνω* has the aorist *συνέλαβα* (inner augment, *λ* becomes *ν* before the vowel); plural *συλλάβαμε*, *συνέλαβαν*."
+    }
+   ]
+  },
+  {
+   "id": "verb-24",
+   "level": "C1",
+   "parts": [
+    "Το βιβλίο ",
+    0,
+    " σε είκοσι γλώσσες."
+   ],
+   "en": "The book was translated into twenty languages.",
+   "errs": [
+    {
+     "w": "μεταφράστικε",
+     "r": [
+      "μεταφράστηκε"
+     ],
+     "c": "verb",
+     "why": "Passive aorist ending *-ηκε*: *μεταφράστηκε*."
+    }
+   ]
+  },
+  {
+   "id": "verb-25",
+   "level": "C1",
+   "parts": [
+    "Η κυβέρνηση ",
+    0,
+    " ανακοίνωση."
+   ],
+   "en": "The government issued a statement.",
+   "errs": [
+    {
+     "w": "εξέδοσε",
+     "r": [
+      "εξέδωσε"
+     ],
+     "c": "verb",
+     "why": "*εκδίδω* has the aorist *εξέδωσα* with *ω*, like *δίνω → έδωσα*."
+    }
+   ]
+  },
+  {
+   "id": "verb-26",
+   "level": "C1",
+   "parts": [
+    "Οι υπουργοί ",
+    0,
+    " μετά το σκάνδαλο."
+   ],
+   "en": "The ministers resigned after the scandal.",
+   "errs": [
+    {
+     "w": "παραιτηθήκαν",
+     "r": [
+      "παραιτήθηκαν"
+     ],
+     "c": "verb",
+     "why": "*παραιτούμαι* has the aorist *παραιτήθηκα*, 3rd plural *παραιτήθηκαν*."
+    }
+   ]
+  },
+  {
+   "id": "verb-27",
+   "level": "C1",
+   "parts": [
+    "Το συνέδριο θα ",
+    0,
+    " στη Θεσσαλονίκη."
+   ],
+   "en": "The conference will be held in Thessaloniki.",
+   "errs": [
+    {
+     "w": "διεξαχθή",
+     "r": [
+      "διεξαχθεί"
+     ],
+     "c": "verb",
+     "why": "Passive perfective forms end in *-εί*: *θα διεξαχθεί*, *να ληφθεί*, *να εγκριθεί*. The *-ή* ending is the old spelling."
+    }
+   ]
+  },
+  {
+   "id": "verb-28",
+   "level": "C1",
+   "parts": [
+    "Τα μέτρα που ελήφθησαν δεν απέδωσαν τα αναμενόμενα."
+   ],
+   "en": "The measures taken did not deliver the expected results.",
+   "ok": true,
+   "why": "Nothing to fix: *ελήφθησαν* is the learned passive aorist of *λαμβάνω* (everyday *πάρθηκαν*), and *απέδωσαν* keeps the inner augment of *αποδίδω*."
+  }
+ ]
+}

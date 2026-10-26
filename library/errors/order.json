@@ -1,0 +1,413 @@
+{
+ "id": "order",
+ "el": "Σύνταξη",
+ "title": "Syntax: comparison, negation, linking",
+ "about": "Greek needs *δεν* even when *κανείς*, *τίποτα* or *ποτέ* is already in the sentence. Comparatives are formed once, with *πιο* or with *-τερος*, never both, and \"than\" before a noun or pronoun is *από*. Many English linkers have their own Greek pattern: *τόσο… που/ώστε* \"so… that\", *ίδιος με* \"the same as\", *παρόλο που* \"although\".",
+ "items": [
+  {
+   "id": "order-01",
+   "level": "A2",
+   "parts": [
+    0,
+    " στο πάρτι."
+   ],
+   "en": "Nobody came to the party.",
+   "errs": [
+    {
+     "w": "Κανείς ήρθε",
+     "r": [
+      "Κανείς δεν ήρθε"
+     ],
+     "c": "order",
+     "why": "Greek needs *δεν* alongside *κανείς*, *τίποτα*, *ποτέ*: *κανείς δεν ήρθε*, *δεν είδα τίποτα*."
+    }
+   ]
+  },
+  {
+   "id": "order-02",
+   "level": "A2",
+   "parts": [
+    "Αυτό το κρασί είναι ",
+    0,
+    " από το άλλο."
+   ],
+   "en": "This wine is better than the other one.",
+   "errs": [
+    {
+     "w": "πιο καλύτερο",
+     "r": [
+      "καλύτερο",
+      "πιο καλό"
+     ],
+     "c": "order",
+     "why": "*καλύτερο* already means \"better\"; adding *πιο* doubles the comparative. Use one or the other: *καλύτερο* or *πιο καλό*."
+    }
+   ]
+  },
+  {
+   "id": "order-03",
+   "level": "A2",
+   "parts": [
+    "Ο Γιάννης είναι πιο ψηλός ",
+    0,
+    "."
+   ],
+   "en": "Giannis is taller than me.",
+   "errs": [
+    {
+     "w": "παρά εμένα",
+     "r": [
+      "από εμένα",
+      "από μένα"
+     ],
+     "c": "order",
+     "why": "\"Than\" before a noun or pronoun is *από* + accusative."
+    }
+   ]
+  },
+  {
+   "id": "order-04",
+   "level": "A2",
+   "parts": [
+    0,
+    "."
+   ],
+   "en": "I didn't understand anything.",
+   "errs": [
+    {
+     "w": "Τίποτα κατάλαβα",
+     "r": [
+      "Δεν κατάλαβα τίποτα",
+      "Τίποτα δεν κατάλαβα"
+     ],
+     "c": "order",
+     "why": "*τίποτα* needs *δεν* with the verb."
+    }
+   ]
+  },
+  {
+   "id": "order-05",
+   "level": "A2",
+   "parts": [
+    "Δεν μου αρέσει ούτε το τσάι ούτε ο καφές."
+   ],
+   "en": "I like neither tea nor coffee.",
+   "ok": true,
+   "why": "Nothing to fix: *ούτε… ούτε* also needs *δεν* with the verb."
+  },
+  {
+   "id": "order-06",
+   "level": "B1",
+   "parts": [
+    "Το δικό σου κινητό είναι ",
+    0,
+    " το δικό μου."
+   ],
+   "en": "Your phone is the same as mine.",
+   "errs": [
+    {
+     "w": "ίδιο όπως",
+     "r": [
+      "ίδιο με"
+     ],
+     "c": "order",
+     "why": "\"The same as\" is *ίδιος με*: *ίδιο με το δικό μου*."
+    }
+   ]
+  },
+  {
+   "id": "order-07",
+   "level": "B1",
+   "parts": [
+    0,
+    " στη Ρόδο."
+   ],
+   "en": "I've never been to Rhodes.",
+   "errs": [
+    {
+     "w": "Ποτέ πήγα",
+     "r": [
+      "Δεν πήγα ποτέ",
+      "Ποτέ δεν πήγα"
+     ],
+     "c": "order",
+     "why": "*ποτέ* \"never\" needs *δεν*: *δεν πήγα ποτέ*."
+    }
+   ]
+  },
+  {
+   "id": "order-08",
+   "level": "B1",
+   "parts": [
+    "Ήταν ",
+    0,
+    " σεισμός της δεκαετίας."
+   ],
+   "en": "It was the biggest earthquake of the decade.",
+   "errs": [
+    {
+     "w": "ο πιο μεγαλύτερος",
+     "r": [
+      "ο μεγαλύτερος",
+      "ο πιο μεγάλος"
+     ],
+     "c": "order",
+     "why": "The superlative is article + comparative: *ο μεγαλύτερος* or *ο πιο μεγάλος*. Never both."
+    }
+   ]
+  },
+  {
+   "id": "order-09",
+   "level": "B1",
+   "parts": [
+    "Με ρώτησε ",
+    0,
+    " θέλω καφέ."
+   ],
+   "en": "He asked me whether I wanted coffee.",
+   "errs": [
+    {
+     "w": "ότι αν",
+     "r": [
+      "αν"
+     ],
+     "c": "order",
+     "why": "A reported yes/no question uses *αν* alone. Greek keeps the original tense: *θέλω*."
+    }
+   ]
+  },
+  {
+   "id": "order-10",
+   "level": "B1",
+   "parts": [
+    "Ήταν ",
+    0,
+    " κοιμήθηκε στον καναπέ."
+   ],
+   "en": "She was so tired that she fell asleep on the sofa.",
+   "errs": [
+    {
+     "w": "τόσο κουρασμένη ότι",
+     "r": [
+      "τόσο κουρασμένη που",
+      "τόσο κουρασμένη ώστε"
+     ],
+     "c": "order",
+     "why": "\"So… that\" is *τόσο… που* (everyday) or *τόσο… ώστε* (formal). *Ότι* is a calque."
+    }
+   ]
+  },
+  {
+   "id": "order-11",
+   "level": "B1",
+   "parts": [
+    "Είναι η πρώτη φορά που έρχομαι στην Κέρκυρα."
+   ],
+   "en": "It's the first time I've come to Corfu.",
+   "ok": true,
+   "why": "Nothing to fix: *η πρώτη φορά που* + present, where English uses the perfect."
+  },
+  {
+   "id": "order-12",
+   "level": "B2",
+   "parts": [
+    0,
+    " έβρεχε, βγήκαμε για περπάτημα."
+   ],
+   "en": "Although it was raining, we went for a walk.",
+   "errs": [
+    {
+     "w": "Παρόλο ότι",
+     "r": [
+      "Παρόλο που",
+      "Αν και"
+     ],
+     "c": "order",
+     "why": "\"Although\" is *παρόλο που*, *αν και* or *μολονότι*. *Παρόλο* does not combine with *ότι*."
+    }
+   ]
+  },
+  {
+   "id": "order-13",
+   "level": "B2",
+   "parts": [
+    "Όσο περισσότερο διαβάζεις, ",
+    0,
+    " μαθαίνεις."
+   ],
+   "en": "The more you read, the more you learn.",
+   "errs": [
+    {
+     "w": "περισσότερο",
+     "r": [
+      "τόσο περισσότερο"
+     ],
+     "c": "order",
+     "why": "\"The more… the more\" is *όσο… τόσο*: *όσο περισσότερο…, τόσο περισσότερο…*."
+    }
+   ]
+  },
+  {
+   "id": "order-14",
+   "level": "B2",
+   "parts": [
+    "Το βιβλίο ",
+    0,
+    " διάβασα ήταν συγκλονιστικό."
+   ],
+   "en": "The book I read was gripping.",
+   "errs": [
+    {
+     "w": "που το οποίο",
+     "r": [
+      "το οποίο",
+      "που"
+     ],
+     "c": "order",
+     "why": "Use either *που* or *ο οποίος*, never both together."
+    }
+   ]
+  },
+  {
+   "id": "order-15",
+   "level": "B2",
+   "parts": [
+    "Η κατάσταση είναι ",
+    0,
+    " πιστεύαμε."
+   ],
+   "en": "The situation is worse than we thought.",
+   "errs": [
+    {
+     "w": "χειρότερη παρά",
+     "r": [
+      "χειρότερη απ' ό,τι",
+      "χειρότερη από ό,τι"
+     ],
+     "c": "order",
+     "why": "Before a clause, \"than\" is *απ' ό,τι* (or *παρά* in some set patterns, *προτιμώ να φύγω παρά να μείνω*). After a comparative with a clause, *απ' ό,τι* is the normal choice."
+    }
+   ]
+  },
+  {
+   "id": "order-16",
+   "level": "B2",
+   "parts": [
+    "Δεν ήρθε κανείς από τους συναδέλφους, ούτε καν ο προϊστάμενος."
+   ],
+   "en": "None of the colleagues came, not even the boss.",
+   "ok": true,
+   "why": "Nothing to fix: *δεν… κανείς* and *ούτε καν* \"not even\"."
+  },
+  {
+   "id": "order-17",
+   "level": "C1",
+   "parts": [
+    "Ο υπουργός, ",
+    0,
+    " απορρίφθηκε, παραιτήθηκε."
+   ],
+   "en": "The minister, whose proposal was rejected, resigned.",
+   "errs": [
+    {
+     "w": "ο οποίος η πρότασή του",
+     "r": [
+      "του οποίου η πρόταση"
+     ],
+     "c": "order",
+     "why": "\"Whose\" is *του οποίου* (*της οποίας*, *των οποίων*) placed before the noun: *του οποίου η πρόταση*."
+    }
+   ]
+  },
+  {
+   "id": "order-18",
+   "level": "C1",
+   "parts": [
+    "Προτιμώ να περπατήσω ",
+    0,
+    " πάρω ταξί."
+   ],
+   "en": "I'd rather walk than take a taxi.",
+   "errs": [
+    {
+     "w": "από να",
+     "r": [
+      "παρά να"
+     ],
+     "c": "order",
+     "why": "Before a *να* clause \"than / rather than\" is *παρά*: *προτιμώ να περπατήσω παρά να πάρω ταξί*."
+    }
+   ]
+  },
+  {
+   "id": "order-19",
+   "level": "C1",
+   "parts": [
+    "Το θέμα δεν είναι ",
+    0,
+    " νομίζεις."
+   ],
+   "en": "The matter is not as serious as you think.",
+   "errs": [
+    {
+     "w": "τόσο σοβαρό σαν",
+     "r": [
+      "τόσο σοβαρό όσο"
+     ],
+     "c": "order",
+     "why": "\"As… as\" is *τόσο… όσο*: *τόσο σοβαρό όσο νομίζεις*."
+    }
+   ]
+  },
+  {
+   "id": "order-20",
+   "level": "C1",
+   "parts": [
+    "Ο υπουργός ",
+    0,
+    " κάτι τέτοιο."
+   ],
+   "en": "The minister never stated anything of the kind.",
+   "errs": [
+    {
+     "w": "ουδέποτε δεν δήλωσε",
+     "r": [
+      "ουδέποτε δήλωσε"
+     ],
+     "c": "order",
+     "why": "Learned negative words such as *ουδέποτε* and *ουδείς* are already negative and take no *δεν*. Everyday *ποτέ* and *κανείς* do need it: *δεν δήλωσε ποτέ*."
+    }
+   ]
+  },
+  {
+   "id": "order-21",
+   "level": "C1",
+   "parts": [
+    "Η πόλη δεν είναι μόνο όμορφη ",
+    0,
+    " ασφαλής."
+   ],
+   "en": "The city is not only beautiful but also safe.",
+   "errs": [
+    {
+     "w": "αλλά επίσης",
+     "r": [
+      "αλλά και"
+     ],
+     "c": "order",
+     "why": "\"Not only… but also\" is *όχι μόνο… αλλά και* / *δεν… μόνο… αλλά και*."
+    }
+   ]
+  },
+  {
+   "id": "order-22",
+   "level": "C1",
+   "parts": [
+    "Ουδείς γνώριζε την αλήθεια, ούτε καν οι στενοί του συνεργάτες."
+   ],
+   "en": "No one knew the truth, not even his close associates.",
+   "ok": true,
+   "why": "Nothing to fix: *ουδείς* is negative by itself and takes no *δεν*."
+  }
+ ]
+}

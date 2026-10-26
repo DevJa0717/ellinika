@@ -1,0 +1,468 @@
+{
+ "id": "accent",
+ "el": "Τονισμός",
+ "title": "Accent marks and stress",
+ "about": "Every word of two or more syllables carries one accent, and words of one syllable carry none, except *ή* \"or\", the question words *πού* and *πώς*, and a few others that need telling apart. The stress can never go further back than the third syllable from the end, which is why it moves forward in forms like *αγοράσαμε* and *των ανθρώπων*. A word stressed on its third-last syllable takes a second accent before a clitic: *το όνομά μου*.",
+ "items": [
+  {
+   "id": "accent-01",
+   "level": "A2",
+   "parts": [
+    0,
+    " Καιρό έχουμε να τα πούμε!"
+   ],
+   "en": "How are you? We haven't talked in ages!",
+   "errs": [
+    {
+     "w": "Τί κάνεις;",
+     "r": [
+      "Τι κάνεις;"
+     ],
+     "c": "accent",
+     "why": "One-syllable words take no accent: *τι*, *ναι*, *και*, *μου*, *το*. *Τι* is one of them."
+    }
+   ]
+  },
+  {
+   "id": "accent-02",
+   "level": "A2",
+   "parts": [
+    0,
+    " Κοντά στο κέντρο;"
+   ],
+   "en": "Where do you live? Near the centre?",
+   "errs": [
+    {
+     "w": "Που μένεις;",
+     "r": [
+      "Πού μένεις;"
+     ],
+     "c": "accent",
+     "why": "The question word \"where\" is *πού*, with an accent; *που* without accent means \"that, who, which\"."
+    }
+   ]
+  },
+  {
+   "id": "accent-03",
+   "level": "A2",
+   "parts": [
+    "Θέλεις τσάι ",
+    0,
+    ";"
+   ],
+   "en": "Would you like tea or coffee?",
+   "errs": [
+    {
+     "w": "η καφέ",
+     "r": [
+      "ή καφέ"
+     ],
+     "c": "accent",
+     "why": "\"Or\" is *ή*, with an accent; *η* is the feminine article."
+    }
+   ]
+  },
+  {
+   "id": "accent-04",
+   "level": "A2",
+   "parts": [
+    0
+   ],
+   "en": "What's your name?",
+   "errs": [
+    {
+     "w": "Πως σε λένε;",
+     "r": [
+      "Πώς σε λένε;"
+     ],
+     "c": "accent",
+     "why": "The question word \"how\" is *πώς*; *πως* without accent means \"that\" (*είπε πως θα έρθει*)."
+    }
+   ]
+  },
+  {
+   "id": "accent-05",
+   "level": "A2",
+   "parts": [
+    0,
+    " είναι Δήμητρα."
+   ],
+   "en": "My name is Dimitra.",
+   "errs": [
+    {
+     "w": "Το όνομα μου",
+     "r": [
+      "Το όνομά μου"
+     ],
+     "c": "accent",
+     "why": "*όνομα* is stressed on its third-last syllable, so before *μου* it takes a second accent: *το όνομά μου*."
+    }
+   ]
+  },
+  {
+   "id": "accent-06",
+   "level": "A2",
+   "parts": [
+    "Το σπίτι μου είναι κοντά στο σχολείο."
+   ],
+   "en": "My house is near the school.",
+   "ok": true,
+   "why": "Nothing to fix: *σπίτι* is stressed on its second-last syllable, so *το σπίτι μου* takes no second accent."
+  },
+  {
+   "id": "accent-07",
+   "level": "B1",
+   "parts": [
+    "Χθες ",
+    0,
+    " ένα καινούργιο ψυγείο."
+   ],
+   "en": "Yesterday we bought a new fridge.",
+   "errs": [
+    {
+     "w": "αγόρασαμε",
+     "r": [
+      "αγοράσαμε"
+     ],
+     "c": "accent",
+     "why": "The stress cannot be further back than the third syllable from the end: *αγόρασα*, but *αγοράσαμε*, *αγοράσατε*."
+    }
+   ]
+  },
+  {
+   "id": "accent-08",
+   "level": "B1",
+   "parts": [
+    "Εμείς ",
+    0,
+    " με το επόμενο λεωφορείο."
+   ],
+   "en": "We're coming on the next bus.",
+   "errs": [
+    {
+     "w": "έρχομαστε",
+     "r": [
+      "ερχόμαστε"
+     ],
+     "c": "accent",
+     "why": "*έρχομαι* moves the stress forward when the word grows: *ερχόμαστε*, *ερχόσαστε*."
+    }
+   ]
+  },
+  {
+   "id": "accent-09",
+   "level": "B1",
+   "parts": [
+    0,
+    " είναι στο συνεργείο."
+   ],
+   "en": "My car is at the garage.",
+   "errs": [
+    {
+     "w": "Το αυτοκίνητο μου",
+     "r": [
+      "Το αυτοκίνητό μου"
+     ],
+     "c": "accent",
+     "why": "*αυτοκίνητο* is stressed on its third-last syllable, so before *μου*: *το αυτοκίνητό μου*."
+    }
+   ]
+  },
+  {
+   "id": "accent-10",
+   "level": "B1",
+   "parts": [
+    "Πες μου ",
+    0,
+    " έγινε το ατύχημα."
+   ],
+   "en": "Tell me how the accident happened.",
+   "errs": [
+    {
+     "w": "πως",
+     "r": [
+      "πώς"
+     ],
+     "c": "accent",
+     "why": "Here it asks \"how\", so *πώς*. Compare *μου είπε πως ήταν κουρασμένη* \"she told me that she was tired\"."
+    }
+   ]
+  },
+  {
+   "id": "accent-11",
+   "level": "B1",
+   "parts": [
+    "Ο φίλος ",
+    0,
+    " σου σύστησα είναι ηθοποιός."
+   ],
+   "en": "The friend I introduced you to is an actor.",
+   "errs": [
+    {
+     "w": "πού",
+     "r": [
+      "που"
+     ],
+     "c": "accent",
+     "why": "The relative \"who, that\" is *που*, without accent."
+    }
+   ]
+  },
+  {
+   "id": "accent-12",
+   "level": "B1",
+   "parts": [
+    "Στο συνέδριο μίλησαν καθηγητές ",
+    0,
+    "."
+   ],
+   "en": "Professors of foreign languages spoke at the conference.",
+   "errs": [
+    {
+     "w": "των ξένων γλώσσων",
+     "r": [
+      "των ξένων γλωσσών"
+     ],
+     "c": "accent",
+     "why": "Feminine nouns in *-α* stress the genitive plural on the last syllable: *η γλώσσα* → *των γλωσσών*, *η θάλασσα* → *των θαλασσών*, *η ώρα* → *των ωρών*."
+    }
+   ]
+  },
+  {
+   "id": "accent-13",
+   "level": "B1",
+   "parts": [
+    "Ο καθηγητής μας μάς έδωσε πολλές ασκήσεις."
+   ],
+   "en": "Our teacher gave us a lot of exercises.",
+   "ok": true,
+   "why": "Nothing to fix: the first *μας* is \"our\" (after the noun); the second is \"to us\" before the verb and gets an accent, *μάς*, so the two cannot be confused."
+  },
+  {
+   "id": "accent-14",
+   "level": "B2",
+   "parts": [
+    0,
+    " όταν φτάσεις."
+   ],
+   "en": "Call me when you arrive.",
+   "errs": [
+    {
+     "w": "Τηλεφώνησε μου",
+     "r": [
+      "Τηλεφώνησέ μου"
+     ],
+     "c": "accent",
+     "why": "An imperative stressed on its third-last syllable takes a second accent before a clitic: *τηλεφώνησέ μου*, *κράτησέ το*."
+    }
+   ]
+  },
+  {
+   "id": "accent-15",
+   "level": "B2",
+   "parts": [
+    "Η ορθογραφία ",
+    0,
+    " είναι λάθος."
+   ],
+   "en": "The spelling of the name is wrong.",
+   "errs": [
+    {
+     "w": "του όνοματος",
+     "r": [
+      "του ονόματος"
+     ],
+     "c": "accent",
+     "why": "The genitive grows by one syllable, so the stress moves forward: *το όνομα*, *του ονόματος*, *τα ονόματα*, *των ονομάτων*."
+    }
+   ]
+  },
+  {
+   "id": "accent-16",
+   "level": "B2",
+   "parts": [
+    "Η ζωή ",
+    0,
+    " άλλαξε με την τεχνολογία."
+   ],
+   "en": "People's lives changed with technology.",
+   "errs": [
+    {
+     "w": "των άνθρωπων",
+     "r": [
+      "των ανθρώπων"
+     ],
+     "c": "accent",
+     "why": "*άνθρωπος* moves the stress forward when the ending is long: *του ανθρώπου*, *των ανθρώπων*, *τους ανθρώπους*."
+    }
+   ]
+  },
+  {
+   "id": "accent-17",
+   "level": "B2",
+   "parts": [
+    0,
+    " είναι από τα Χανιά."
+   ],
+   "en": "Our teacher is from Chania.",
+   "errs": [
+    {
+     "w": "Ο δάσκαλος μας",
+     "r": [
+      "Ο δάσκαλός μας"
+     ],
+     "c": "accent",
+     "why": "*δάσκαλος* is stressed on the third-last syllable, so before *μας*: *ο δάσκαλός μας*."
+    }
+   ]
+  },
+  {
+   "id": "accent-18",
+   "level": "B2",
+   "parts": [
+    "Δεν καταλάβαμε το μέγεθος ",
+    0,
+    "."
+   ],
+   "en": "We didn't grasp the size of the danger.",
+   "errs": [
+    {
+     "w": "του κίνδυνου",
+     "r": [
+      "του κινδύνου"
+     ],
+     "c": "accent",
+     "why": "*ο κίνδυνος* moves its stress in the genitive: *του κινδύνου*, *των κινδύνων*."
+    }
+   ]
+  },
+  {
+   "id": "accent-19",
+   "level": "B2",
+   "parts": [
+    0,
+    " σε ένα μάθημα χορού."
+   ],
+   "en": "We signed up for a dance class.",
+   "errs": [
+    {
+     "w": "Γράφτηκαμε",
+     "r": [
+      "Γραφτήκαμε"
+     ],
+     "c": "accent",
+     "why": "Passive aorists stress the second-last syllable in the 1st and 2nd plural: *γράφτηκα*, but *γραφτήκαμε*, *γραφτήκατε*."
+    }
+   ]
+  },
+  {
+   "id": "accent-20",
+   "level": "C1",
+   "parts": [
+    "Στο σχολείο όλοι τον ",
+    0,
+    " για την προφορά του."
+   ],
+   "en": "At school everyone made fun of him for his accent.",
+   "errs": [
+    {
+     "w": "κοροίδευαν",
+     "r": [
+      "κοροΐδευαν"
+     ],
+     "c": "accent",
+     "why": "When *ο* and *ι* are pronounced separately and the stress falls on the *ι*, it takes both marks: *κοροΐδευαν*. Without them the reader would say *οι* as one sound [i]."
+    }
+   ]
+  },
+  {
+   "id": "accent-21",
+   "level": "C1",
+   "parts": [
+    0,
+    " της εκκλησίας σταμάτησε στις τρεις."
+   ],
+   "en": "The church clock stopped at three.",
+   "errs": [
+    {
+     "w": "Το ρολόϊ",
+     "r": [
+      "Το ρολόι"
+     ],
+     "c": "accent",
+     "why": "No diaeresis when the accent is already on the first vowel: *ρολόι*, *τσάι*, *κορόιδο*. The accent alone shows the vowels are separate."
+    }
+   ]
+  },
+  {
+   "id": "accent-22",
+   "level": "C1",
+   "parts": [
+    "Ο αγώνας για τα δικαιώματα ",
+    0,
+    " συνεχίζεται."
+   ],
+   "en": "The struggle for women's rights continues.",
+   "errs": [
+    {
+     "w": "των γυναίκων",
+     "r": [
+      "των γυναικών"
+     ],
+     "c": "accent",
+     "why": "*η γυναίκα* has genitive plural *των γυναικών*, stressed on the last syllable."
+    }
+   ]
+  },
+  {
+   "id": "accent-23",
+   "level": "C1",
+   "parts": [
+    "Η γλώσσα ",
+    0,
+    " μας ζει ακόμα στα τοπωνύμια."
+   ],
+   "en": "The language of our ancestors still lives in place names.",
+   "errs": [
+    {
+     "w": "των πρόγονων",
+     "r": [
+      "των προγόνων"
+     ],
+     "c": "accent",
+     "why": "*ο πρόγονος* moves its stress forward: *του προγόνου*, *των προγόνων*."
+    }
+   ]
+  },
+  {
+   "id": "accent-24",
+   "level": "C1",
+   "parts": [
+    "Ο δάσκαλος ",
+    0,
+    " είπε να διαβάσουμε το τρίτο κεφάλαιο."
+   ],
+   "en": "The teacher told us to read the third chapter.",
+   "errs": [
+    {
+     "w": "μας",
+     "r": [
+      "μάς"
+     ],
+     "c": "accent",
+     "why": "Without an accent *ο δάσκαλος μας είπε* reads as \"our teacher said\". To show that *μας* belongs to the verb (\"told us\"), it gets an accent: *ο δάσκαλος μάς είπε*."
+    }
+   ]
+  },
+  {
+   "id": "accent-25",
+   "level": "C1",
+   "parts": [
+    "Πού και πού βγαίνουμε για φαγητό στην πλατεία."
+   ],
+   "en": "Every now and then we go out to eat in the square.",
+   "ok": true,
+   "why": "Nothing to fix: in *πού και πού* \"now and then\" the *πού* keeps its accent."
+  }
+ ]
+}

@@ -1,0 +1,478 @@
+{
+ "id": "article",
+ "el": "Άρθρο",
+ "title": "Article use",
+ "about": "Greek uses the definite article far more than English: with names of people and places, with abstract and general nouns (*η ζωή*, *η μουσική*), with possessives (*το σπίτι μου*) and after demonstratives (*αυτό το βιβλίο*). It drops the indefinite article where English keeps it, above all for jobs and roles after *είμαι*.",
+ "items": [
+  {
+   "id": "article-01",
+   "level": "A2",
+   "parts": [
+    0,
+    " δουλεύει σε μια τράπεζα."
+   ],
+   "en": "Maria works in a bank.",
+   "errs": [
+    {
+     "w": "Μαρία",
+     "r": [
+      "Η Μαρία"
+     ],
+     "c": "article",
+     "why": "Names of people take the article in Greek: *η Μαρία*, *ο Νίκος*. You drop it only when you call someone (*Μαρία, έλα!*)."
+    }
+   ]
+  },
+  {
+   "id": "article-02",
+   "level": "A2",
+   "parts": [
+    "Μου αρέσει πολύ ",
+    0,
+    "."
+   ],
+   "en": "I really like music.",
+   "errs": [
+    {
+     "w": "μουσική",
+     "r": [
+      "η μουσική"
+     ],
+     "c": "article",
+     "why": "General and abstract nouns take the definite article: *μου αρέσει η μουσική*, *η ζωή είναι ωραία*."
+    }
+   ]
+  },
+  {
+   "id": "article-03",
+   "level": "A2",
+   "parts": [
+    "Είμαι ",
+    0,
+    " στο Πανεπιστήμιο Αθηνών."
+   ],
+   "en": "I'm a student at the University of Athens.",
+   "errs": [
+    {
+     "w": "ένας φοιτητής",
+     "r": [
+      "φοιτητής"
+     ],
+     "c": "article",
+     "why": "Jobs and roles after *είμαι* or *γίνομαι* take no article: *είμαι φοιτητής*, *θέλω να γίνω γιατρός*."
+    }
+   ]
+  },
+  {
+   "id": "article-04",
+   "level": "A2",
+   "parts": [
+    "Πού είναι ",
+    0,
+    " μου;"
+   ],
+   "en": "Where's my mobile?",
+   "errs": [
+    {
+     "w": "κινητό",
+     "r": [
+      "το κινητό"
+     ],
+     "c": "article",
+     "why": "Possessives come after a noun with the article: *το κινητό μου*, *η μητέρα σου*."
+    }
+   ]
+  },
+  {
+   "id": "article-05",
+   "level": "A2",
+   "parts": [
+    "Θέλω να διαβάσω ",
+    0,
+    "."
+   ],
+   "en": "I want to read this book.",
+   "errs": [
+    {
+     "w": "αυτό βιβλίο",
+     "r": [
+      "αυτό το βιβλίο"
+     ],
+     "c": "article",
+     "why": "After *αυτός* and *εκείνος* the article stays: *αυτό το βιβλίο*, *εκείνη η μέρα*."
+    }
+   ]
+  },
+  {
+   "id": "article-06",
+   "level": "A2",
+   "parts": [
+    "Μένουμε ",
+    0,
+    " εδώ και δύο χρόνια."
+   ],
+   "en": "We have lived in Athens for two years.",
+   "errs": [
+    {
+     "w": "σε Αθήνα",
+     "r": [
+      "στην Αθήνα"
+     ],
+     "c": "article",
+     "why": "Cities and countries take the article, so *σε* fuses with it: *στην Αθήνα*, *στο Λονδίνο*, *στην Ιταλία*."
+    }
+   ]
+  },
+  {
+   "id": "article-07",
+   "level": "A2",
+   "parts": [
+    "Πάω σπίτι, είμαι πολύ κουρασμένη."
+   ],
+   "en": "I'm going home, I'm very tired.",
+   "ok": true,
+   "why": "Nothing to fix: *πάω σπίτι* \"go home\" is a set phrase without article or preposition (*πάω στο σπίτι* is also fine)."
+  },
+  {
+   "id": "article-08",
+   "level": "B1",
+   "parts": [
+    0,
+    " πέρασαν τις εξετάσεις."
+   ],
+   "en": "All the students passed the exams.",
+   "errs": [
+    {
+     "w": "Όλοι φοιτητές",
+     "r": [
+      "Όλοι οι φοιτητές"
+     ],
+     "c": "article",
+     "why": "*όλος* is followed by the article: *όλοι οι φοιτητές*, *όλη η μέρα*, *όλο το βράδυ*."
+    }
+   ]
+  },
+  {
+   "id": "article-09",
+   "level": "B1",
+   "parts": [
+    0,
+    " σας περιμένει στο γραφείο του."
+   ],
+   "en": "Mr Antoniou is waiting for you in his office.",
+   "errs": [
+    {
+     "w": "Κύριος Αντωνίου",
+     "r": [
+      "Ο κύριος Αντωνίου"
+     ],
+     "c": "article",
+     "why": "Talking about someone, titles take the article: *ο κύριος Αντωνίου*, *η κυρία Παππά*, *ο γιατρός Λαμπρόπουλος*. Without the article only when you address them: *Κύριε Αντωνίου!*"
+    }
+   ]
+  },
+  {
+   "id": "article-10",
+   "level": "B1",
+   "parts": [
+    "Ο πατέρας μου είναι ",
+    0,
+    " σε μια μεγάλη εταιρεία."
+   ],
+   "en": "My father is an engineer at a big company.",
+   "errs": [
+    {
+     "w": "ένας μηχανικός",
+     "r": [
+      "μηχανικός"
+     ],
+     "c": "article",
+     "why": "No indefinite article with a job after *είμαι*: *είναι μηχανικός*. *Ένας* is only added when an adjective describes the person: *είναι ένας πολύ καλός μηχανικός*."
+    }
+   ]
+  },
+  {
+   "id": "article-11",
+   "level": "B1",
+   "parts": [
+    "Είμαι καλή ",
+    0,
+    "."
+   ],
+   "en": "I'm good at maths.",
+   "errs": [
+    {
+     "w": "σε μαθηματικά",
+     "r": [
+      "στα μαθηματικά"
+     ],
+     "c": "article",
+     "why": "School subjects and fields take the article: *τα μαθηματικά*, *η ιστορία*, so *στα μαθηματικά*."
+    }
+   ]
+  },
+  {
+   "id": "article-12",
+   "level": "B1",
+   "parts": [
+    "Θα σε δω ",
+    0,
+    "."
+   ],
+   "en": "I'll see you on Saturday.",
+   "errs": [
+    {
+     "w": "σε Σάββατο",
+     "r": [
+      "το Σάββατο"
+     ],
+     "c": "article",
+     "why": "Days, months and seasons as time expressions are just article + accusative: *το Σάββατο*, *τον Αύγουστο*, *το καλοκαίρι*."
+    }
+   ]
+  },
+  {
+   "id": "article-13",
+   "level": "B1",
+   "parts": [
+    0,
+    " είναι το πιο σημαντικό πράγμα."
+   ],
+   "en": "Health is the most important thing.",
+   "errs": [
+    {
+     "w": "Υγεία",
+     "r": [
+      "Η υγεία"
+     ],
+     "c": "article",
+     "why": "Abstract nouns used in general statements take the article: *η υγεία*, *η ελευθερία*, *ο χρόνος*."
+    }
+   ]
+  },
+  {
+   "id": "article-14",
+   "level": "B1",
+   "parts": [
+    "Ο Νίκος έχει αυτοκίνητο, αλλά πηγαίνει στη δουλειά με τα πόδια."
+   ],
+   "en": "Nikos has a car but walks to work.",
+   "ok": true,
+   "why": "Nothing to fix: after *έχω* Greek often leaves out *ένα* (*έχει αυτοκίνητο*, *έχεις παιδιά;*), and \"on foot\" is *με τα πόδια*."
+  },
+  {
+   "id": "article-15",
+   "level": "B2",
+   "parts": [
+    0,
+    " μπήκε στην ΕΟΚ το 1981."
+   ],
+   "en": "Greece joined the EEC in 1981.",
+   "errs": [
+    {
+     "w": "Ελλάδα",
+     "r": [
+      "Η Ελλάδα"
+     ],
+     "c": "article",
+     "why": "Country names take the article as subjects too: *η Ελλάδα*, *η Γαλλία*, *ο Καναδάς*."
+    }
+   ]
+  },
+  {
+   "id": "article-16",
+   "level": "B2",
+   "parts": [
+    "Η Πάτρα είναι ",
+    0,
+    " πόλη της Ελλάδας."
+   ],
+   "en": "Patras is the third-largest city in Greece.",
+   "errs": [
+    {
+     "w": "τρίτη μεγαλύτερη",
+     "r": [
+      "η τρίτη μεγαλύτερη"
+     ],
+     "c": "article",
+     "why": "Superlatives and ordinal numbers take the definite article: *η τρίτη μεγαλύτερη πόλη*, *ο πιο ψηλός*."
+    }
+   ]
+  },
+  {
+   "id": "article-17",
+   "level": "B2",
+   "parts": [
+    0,
+    " είναι κοινωνικό ον."
+   ],
+   "en": "Man is a social being.",
+   "errs": [
+    {
+     "w": "Άνθρωπος",
+     "r": [
+      "Ο άνθρωπος"
+     ],
+     "c": "article",
+     "why": "A noun meaning a whole kind takes the definite article: *ο άνθρωπος*, *η γάτα είναι ζώο*, *οι γάτες κοιμούνται πολύ*."
+    }
+   ]
+  },
+  {
+   "id": "article-18",
+   "level": "B2",
+   "parts": [
+    0,
+    " κοιμούνται πολλές ώρες τη μέρα."
+   ],
+   "en": "Cats sleep many hours a day.",
+   "errs": [
+    {
+     "w": "Γάτες",
+     "r": [
+      "Οι γάτες"
+     ],
+     "c": "article",
+     "why": "General statements about a whole class use the article, singular or plural: *οι γάτες*, *η γάτα*. English drops it here; Greek does not."
+    }
+   ]
+  },
+  {
+   "id": "article-19",
+   "level": "B2",
+   "parts": [
+    "Το καλοκαίρι επισκεφτήκαμε ",
+    0,
+    " και το Μουσείο της Ακρόπολης."
+   ],
+   "en": "In the summer we visited the Parthenon and the Acropolis Museum.",
+   "errs": [
+    {
+     "w": "Παρθενώνα",
+     "r": [
+      "τον Παρθενώνα"
+     ],
+     "c": "article",
+     "why": "Names of monuments, buildings and institutions take the article: *τον Παρθενώνα*, *το Μουσείο της Ακρόπολης*, *τη Βουλή*."
+    }
+   ]
+  },
+  {
+   "id": "article-20",
+   "level": "B2",
+   "parts": [
+    "Δουλεύει ",
+    0,
+    " σε μια ασφαλιστική εταιρεία."
+   ],
+   "en": "She works as a consultant at an insurance company.",
+   "errs": [
+    {
+     "w": "ως ο σύμβουλος",
+     "r": [
+      "ως σύμβουλος"
+     ],
+     "c": "article",
+     "why": "*ως* \"as\" (in a role) is followed by the bare noun: *ως σύμβουλος*, *ως δασκάλα*."
+    }
+   ]
+  },
+  {
+   "id": "article-21",
+   "level": "B2",
+   "parts": [
+    "Ο ποιητής Κωνσταντίνος Καβάφης γεννήθηκε στην Αλεξάνδρεια το 1863."
+   ],
+   "en": "The poet Constantine Cavafy was born in Alexandria in 1863.",
+   "ok": true,
+   "why": "Nothing to fix: one article covers the title and the name (*ο ποιητής Κωνσταντίνος Καβάφης*), and years take *το*."
+  },
+  {
+   "id": "article-22",
+   "level": "C1",
+   "parts": [
+    0,
+    " ξένες γλώσσες ανοίγει το μυαλό."
+   ],
+   "en": "Learning foreign languages opens the mind.",
+   "errs": [
+    {
+     "w": "Να μαθαίνεις",
+     "r": [
+      "Το να μαθαίνεις"
+     ],
+     "c": "article",
+     "why": "A *να* clause used as the subject at the start of a sentence takes the neuter article: *το να μαθαίνεις*. After the verb it can go without: *είναι ωραίο να μαθαίνεις*."
+    }
+   ]
+  },
+  {
+   "id": "article-23",
+   "level": "C1",
+   "parts": [
+    0,
+    " στον γάμο με στενοχώρησε πολύ."
+   ],
+   "en": "The fact that he didn't come to the wedding upset me a lot.",
+   "errs": [
+    {
+     "w": "Ότι δεν ήρθε",
+     "r": [
+      "Το ότι δεν ήρθε"
+     ],
+     "c": "article",
+     "why": "An *ότι* clause standing as subject at the start of the sentence needs *το*: *το ότι δεν ήρθε…*."
+    }
+   ]
+  },
+  {
+   "id": "article-24",
+   "level": "C1",
+   "parts": [
+    0,
+    " ψηφίστηκε πριν από δύο χρόνια."
+   ],
+   "en": "The law in question was passed two years ago.",
+   "errs": [
+    {
+     "w": "Εν λόγω νόμος",
+     "r": [
+      "Ο εν λόγω νόμος"
+     ],
+     "c": "article",
+     "why": "*εν λόγω* \"in question\" sits between the article and the noun and needs the article: *ο εν λόγω νόμος*, *της εν λόγω απόφασης*."
+    }
+   ]
+  },
+  {
+   "id": "article-25",
+   "level": "C1",
+   "parts": [
+    "Η διάσκεψη ασχολήθηκε με ",
+    0,
+    " και τις συνέπειές της."
+   ],
+   "en": "The conference dealt with climate change and its consequences.",
+   "errs": [
+    {
+     "w": "κλιματική αλλαγή",
+     "r": [
+      "την κλιματική αλλαγή"
+     ],
+     "c": "article",
+     "why": "Abstract topics take the article after a preposition as well: *με την κλιματική αλλαγή*, *για την ανεργία*. English \"climate change\" has no article; Greek needs it."
+    }
+   ]
+  },
+  {
+   "id": "article-26",
+   "level": "C1",
+   "parts": [
+    "Ως πρόεδρος της επιτροπής, οφείλω να σας ενημερώσω για τις εξελίξεις."
+   ],
+   "en": "As chair of the committee, I must inform you of the developments.",
+   "ok": true,
+   "why": "Nothing to fix: *ως* + bare noun for a role (*ως πρόεδρος*), and *της επιτροπής* keeps its article."
+  }
+ ]
+}

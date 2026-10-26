@@ -1,0 +1,468 @@
+{
+ "id": "aspect",
+ "el": "Ποιόν ενεργείας",
+ "title": "Aspect",
+ "about": "Almost every Greek verb has two stems: the imperfective (*γράφ-*) for actions seen as ongoing or repeated, and the perfective (*γράψ-*) for one complete action. After *θα*, *να*, *ας*, in the imperative and in the past you must choose. A one-off action takes the perfective; a habit or a background action takes the imperfective. The perfect tenses (*έχω*, *είχα*) always use the perfective form *γράψει*.",
+ "items": [
+  {
+   "id": "aspect-01",
+   "level": "A2",
+   "parts": [
+    "Αύριο θα σου ",
+    0,
+    " ένα email."
+   ],
+   "en": "Tomorrow I'll write you an email.",
+   "errs": [
+    {
+     "w": "γράφω",
+     "r": [
+      "γράψω"
+     ],
+     "c": "aspect",
+     "why": "One action in the future, done once: perfective *θα γράψω*. *Θα γράφω* means \"I'll be writing / I'll write regularly\"."
+    }
+   ]
+  },
+  {
+   "id": "aspect-02",
+   "level": "A2",
+   "parts": [
+    "Θα ",
+    0,
+    " έναν καφέ και μετά φεύγω."
+   ],
+   "en": "I'll have a coffee and then I'm off.",
+   "errs": [
+    {
+     "w": "πίνω",
+     "r": [
+      "πιω"
+     ],
+     "c": "aspect",
+     "why": "One coffee, once: *θα πιω* (perfective of *πίνω*)."
+    }
+   ]
+  },
+  {
+   "id": "aspect-03",
+   "level": "A2",
+   "parts": [
+    "Θέλω να ",
+    0,
+    " κάθε μέρα μισή ώρα."
+   ],
+   "en": "I want to read for half an hour every day.",
+   "errs": [
+    {
+     "w": "διαβάσω",
+     "r": [
+      "διαβάζω"
+     ],
+     "c": "aspect",
+     "why": "A habit (*κάθε μέρα*) takes the imperfective: *να διαβάζω*. For one time, *θέλω να διαβάσω αυτό το βιβλίο*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-04",
+   "level": "A2",
+   "parts": [
+    "Μπορείς να με ",
+    0,
+    " τώρα;"
+   ],
+   "en": "Can you help me now?",
+   "errs": [
+    {
+     "w": "βοηθάς",
+     "r": [
+      "βοηθήσεις"
+     ],
+     "c": "aspect",
+     "why": "A single request for now: perfective *να με βοηθήσεις*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-05",
+   "level": "A2",
+   "parts": [
+    0,
+    " την πόρτα, σε παρακαλώ."
+   ],
+   "en": "Close the door, please.",
+   "errs": [
+    {
+     "w": "Κλείνε",
+     "r": [
+      "Κλείσε"
+     ],
+     "c": "aspect",
+     "why": "For one action the imperative is perfective: *κλείσε*, *άνοιξε*, *πες μου*. *Κλείνε* means \"keep closing it / close it every time\"."
+    }
+   ]
+  },
+  {
+   "id": "aspect-06",
+   "level": "A2",
+   "parts": [
+    "Κάθε πρωί πίνω έναν καφέ και διαβάζω τις ειδήσεις."
+   ],
+   "en": "Every morning I drink a coffee and read the news.",
+   "ok": true,
+   "why": "Nothing to fix: the present tense is always imperfective, and the habit fits it."
+  },
+  {
+   "id": "aspect-07",
+   "level": "B1",
+   "parts": [
+    "Όταν ήμουν παιδί, ",
+    0,
+    " κάθε καλοκαίρι στο χωριό."
+   ],
+   "en": "When I was a child I used to go to the village every summer.",
+   "errs": [
+    {
+     "w": "πήγα",
+     "r": [
+      "πήγαινα"
+     ],
+     "c": "aspect",
+     "why": "Repeated past habits take the imperfective past: *πήγαινα*. The aorist *πήγα* is for one trip."
+    }
+   ]
+  },
+  {
+   "id": "aspect-08",
+   "level": "B1",
+   "parts": [
+    "Πέρσι ",
+    0,
+    " στην Κρήτη για μια εβδομάδα."
+   ],
+   "en": "Last year I went to Crete for a week.",
+   "errs": [
+    {
+     "w": "πήγαινα",
+     "r": [
+      "πήγα"
+     ],
+     "c": "aspect",
+     "why": "One finished trip: aorist *πήγα*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-09",
+   "level": "B1",
+   "parts": [
+    "Ενώ ",
+    0,
+    " το email, χτύπησε το τηλέφωνο."
+   ],
+   "en": "While I was writing the email, the phone rang.",
+   "errs": [
+    {
+     "w": "έγραψα",
+     "r": [
+      "έγραφα"
+     ],
+     "c": "aspect",
+     "why": "The background action that was going on uses the imperfective (*έγραφα*); the event that interrupts it uses the aorist (*χτύπησε*)."
+    }
+   ]
+  },
+  {
+   "id": "aspect-10",
+   "level": "B1",
+   "parts": [
+    "Έχω ",
+    0,
+    " όλα τα βιβλία της."
+   ],
+   "en": "I have read all her books.",
+   "errs": [
+    {
+     "w": "διαβάζει",
+     "r": [
+      "διαβάσει"
+     ],
+     "c": "aspect",
+     "why": "The perfect is *έχω* + the perfective form in *-ει*: *έχω διαβάσει*, *έχω γράψει*. There is no *έχω διαβάζει*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-11",
+   "level": "B1",
+   "parts": [
+    "Δεν έχω ",
+    0,
+    " ακόμα την καινούργια ταινία."
+   ],
+   "en": "I haven't seen the new film yet.",
+   "errs": [
+    {
+     "w": "βλέπει",
+     "r": [
+      "δει"
+     ],
+     "c": "aspect",
+     "why": "*βλέπω* has the perfective stem *δ-*: *θα δω*, *να δω*, *έχω δει*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-12",
+   "level": "B1",
+   "parts": [
+    "Μόλις ",
+    0,
+    ", θα σε πάρω τηλέφωνο."
+   ],
+   "en": "As soon as I finish, I'll call you.",
+   "errs": [
+    {
+     "w": "τελειώνω",
+     "r": [
+      "τελειώσω"
+     ],
+     "c": "aspect",
+     "why": "After *μόλις*, *όταν*, *αφού* about the future, use the perfective subjunctive: *μόλις τελειώσω*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-13",
+   "level": "B1",
+   "parts": [
+    "Μην ανησυχείς, θα σου τηλεφωνώ κάθε βράδυ."
+   ],
+   "en": "Don't worry, I'll call you every evening.",
+   "ok": true,
+   "why": "Nothing to fix: *κάθε βράδυ* is a repeated future action, so the imperfective *θα τηλεφωνώ* is right."
+  },
+  {
+   "id": "aspect-14",
+   "level": "B2",
+   "parts": [
+    "Κάθε φορά που τον συναντούσα, μου ",
+    0,
+    " την ίδια ιστορία."
+   ],
+   "en": "Every time I met him he told me the same story.",
+   "errs": [
+    {
+     "w": "είπε",
+     "r": [
+      "έλεγε"
+     ],
+     "c": "aspect",
+     "why": "*κάθε φορά που* describes a repeated past situation, so both verbs are imperfective: *συναντούσα… έλεγε*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-15",
+   "level": "B2",
+   "parts": [
+    "Μέχρι τις οκτώ είχα ",
+    0,
+    " τη δουλειά."
+   ],
+   "en": "By eight I had finished the work.",
+   "errs": [
+    {
+     "w": "τελειώνει",
+     "r": [
+      "τελειώσει"
+     ],
+     "c": "aspect",
+     "why": "The pluperfect is *είχα* + perfective form: *είχα τελειώσει*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-16",
+   "level": "B2",
+   "parts": [
+    "Σε ένα χρόνο θα ",
+    0,
+    " τις σπουδές μου."
+   ],
+   "en": "In a year I'll have finished my studies.",
+   "errs": [
+    {
+     "w": "τελειώνω",
+     "r": [
+      "έχω τελειώσει",
+      "τελειώσω"
+     ],
+     "c": "aspect",
+     "why": "A completed point in the future: *θα τελειώσω* or, stressing completion by then, *θα έχω τελειώσει*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-17",
+   "level": "B2",
+   "parts": [
+    "Τον περιμέναμε μία ώρα και τελικά ",
+    0,
+    " με το ταξί."
+   ],
+   "en": "We waited for him for an hour and in the end he came by taxi.",
+   "errs": [
+    {
+     "w": "ερχόταν",
+     "r": [
+      "ήρθε"
+     ],
+     "c": "aspect",
+     "why": "The arrival is one completed event: aorist *ήρθε*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-18",
+   "level": "B2",
+   "parts": [
+    "Όσο έβρεχε, καθόμασταν μέσα και παίζαμε τάβλι."
+   ],
+   "en": "While it was raining we sat inside playing backgammon.",
+   "ok": true,
+   "why": "Nothing to fix: *όσο* \"while\" frames ongoing background actions, all imperfective."
+  },
+  {
+   "id": "aspect-19",
+   "level": "C1",
+   "parts": [
+    "Από τότε που μετακόμισε, μας ",
+    0,
+    " σπάνια."
+   ],
+   "en": "Since she moved, she rarely visits us.",
+   "errs": [
+    {
+     "w": "επισκεφτεί",
+     "r": [
+      "επισκέπτεται"
+     ],
+     "c": "aspect",
+     "why": "*σπάνια* describes a habit, so the present (imperfective) *επισκέπτεται*. *Επισκεφτεί* is a perfective subjunctive and cannot stand alone."
+    }
+   ]
+  },
+  {
+   "id": "aspect-20",
+   "level": "C1",
+   "parts": [
+    "Αν ",
+    0,
+    " νωρίτερα, θα την είχες γνωρίσει."
+   ],
+   "en": "If you had come earlier, you would have met her.",
+   "errs": [
+    {
+     "w": "θα ερχόσουν",
+     "r": [
+      "είχες έρθει"
+     ],
+     "c": "mood",
+     "why": "Unreal past condition: *αν* + pluperfect, *θα* + pluperfect: *αν είχες έρθει, θα την είχες γνωρίσει*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-21",
+   "level": "C1",
+   "parts": [
+    "Η επιτροπή αναμένεται να ",
+    0,
+    " το θέμα την επόμενη Τρίτη."
+   ],
+   "en": "The committee is expected to examine the matter next Tuesday.",
+   "errs": [
+    {
+     "w": "εξετάζει",
+     "r": [
+      "εξετάσει"
+     ],
+     "c": "aspect",
+     "why": "One completed future act on a set date: perfective *να εξετάσει*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-22",
+   "level": "C1",
+   "parts": [
+    "Ο συγγραφέας ",
+    0,
+    " το μυθιστόρημα σε τρεις μήνες."
+   ],
+   "en": "The writer wrote the novel in three months.",
+   "errs": [
+    {
+     "w": "έγραφε",
+     "r": [
+      "έγραψε"
+     ],
+     "c": "aspect",
+     "why": "*Σε τρεις μήνες* measures how long it took to complete, so the aorist: *έγραψε*. With *για τρεις μήνες* \"for three months\" the imperfective *έγραφε* is natural."
+    }
+   ]
+  },
+  {
+   "id": "aspect-23",
+   "level": "C1",
+   "parts": [
+    "Τα τελευταία χρόνια διαβάζω πολύ λιγότερο απ' ό,τι ",
+    0,
+    " ως φοιτήτρια."
+   ],
+   "en": "In recent years I read much less than I used to read as a student.",
+   "errs": [
+    {
+     "w": "διάβασα",
+     "r": [
+      "διάβαζα"
+     ],
+     "c": "aspect",
+     "why": "A habit over a stretch of the past (\"used to read\") takes the imperfective: *διάβαζα*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-24",
+   "level": "C1",
+   "parts": [
+    "Μόλις ",
+    0,
+    " η είδηση, η αγορά αντέδρασε."
+   ],
+   "en": "As soon as the news arrived, the market reacted.",
+   "errs": [
+    {
+     "w": "έφτανε",
+     "r": [
+      "έφτασε"
+     ],
+     "c": "aspect",
+     "why": "*μόλις* with a single past event takes the aorist: *μόλις έφτασε*."
+    }
+   ]
+  },
+  {
+   "id": "aspect-25",
+   "level": "C1",
+   "parts": [
+    "Θα σας ενημερώνουμε τακτικά για την πορεία της έρευνας."
+   ],
+   "en": "We will keep you regularly informed about the progress of the investigation.",
+   "ok": true,
+   "why": "Nothing to fix: *τακτικά* signals repetition, so the imperfective future *θα ενημερώνουμε* is right."
+  }
+ ]
+}
