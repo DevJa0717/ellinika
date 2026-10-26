@@ -1,0 +1,466 @@
+{
+ "id": "persuade",
+ "kind": "unit",
+ "part": "personal",
+ "level": "B2",
+ "el": "Γράμμα που πείθει",
+ "title": "Persuasive letter to a friend",
+ "intro": [
+  {
+   "p": "The first official B2 sample asks you to persuade a rich friend to donate to a shelter. Persuasion letters follow a pattern: make the request early, explain why it matters, show how it will work, **answer the objection before it is made**, and make it easy to say yes (a deadline, a concrete next step)."
+  },
+  {
+   "tip": "The official prompt is in the Writing coach shelf with its model answer; write it there after this unit."
+  }
+ ],
+ "structure": [
+  [
+   "Άνοιγμα και αίτημα",
+   "Opening and request",
+   "A warm line, then the request in the first paragraph: Σου γράφω γιατί θέλω να σου ζητήσω…"
+  ],
+  [
+   "Γιατί είναι σημαντικό",
+   "Why it matters",
+   "The cause, the people it helps, a concrete detail."
+  ],
+  [
+   "Πώς θα γίνει",
+   "How it will work",
+   "Practical details that remove effort for the friend."
+  ],
+  [
+   "Απάντηση στην αντίρρηση",
+   "Meeting the objection",
+   "Ξέρω τι θα πεις: … Κι όμως, …"
+  ],
+  [
+   "Τελευταίο επιχείρημα και κλείσιμο",
+   "Final argument and close",
+   "What they gain; a deadline; warm sign-off."
+  ]
+ ],
+ "phrases": [
+  {
+   "el": "Αίτημα σε φίλο",
+   "en": "Asking a friend",
+   "items": [
+    {
+     "el": "Θέλω να σου ζητήσω μια μεγάλη χάρη.",
+     "en": "I want to ask you a big favour."
+    },
+    {
+     "el": "Θα μου έκανες τεράστια χάρη αν…",
+     "en": "You'd be doing me a huge favour if…"
+    },
+    {
+     "el": "Ξέρω ότι είσαι πολύ απασχολημένος, αλλά…",
+     "en": "I know you're very busy, but…"
+    },
+    {
+     "el": "Θα σου ήμουν ευγνώμων αν…",
+     "en": "I'd be grateful if…"
+    }
+   ]
+  },
+  {
+   "el": "Πειθώ",
+   "en": "Persuading",
+   "items": [
+    {
+     "el": "Φαντάσου πόσο…",
+     "en": "Imagine how much…"
+    },
+    {
+     "el": "Σκέψου ότι…",
+     "en": "Think that…"
+    },
+    {
+     "el": "Το πιο σημαντικό, όμως, είναι…",
+     "en": "The most important thing, though, is…"
+    },
+    {
+     "el": "Και κάτι ακόμα: …",
+     "en": "And one more thing: …"
+    },
+    {
+     "el": "Ξέρω τι θα πεις: …",
+     "en": "I know what you'll say: …"
+    },
+    {
+     "el": "Κι όμως, …",
+     "en": "And yet, …"
+    },
+    {
+     "el": "Δεν χρειάζεται παρά να…",
+     "en": "All you need to do is…"
+    }
+   ]
+  },
+  {
+   "el": "Κλείσιμο",
+   "en": "Closing",
+   "items": [
+    {
+     "el": "Σκέψου το και απάντησέ μου μέχρι…",
+     "en": "Think it over and answer me by…"
+    },
+    {
+     "el": "Περιμένω με ανυπομονησία την απάντησή σου.",
+     "en": "I'm looking forward to your answer."
+    },
+    {
+     "el": "Ελπίζω να πεις ναι!",
+     "en": "I hope you'll say yes!"
+    }
+   ]
+  }
+ ],
+ "models": [
+  {
+   "el": "Τρέξε μαζί μου!",
+   "en": "Run with me!",
+   "level": "B2",
+   "task_el": "Γράφετε σε έναν φίλο σας που δεν αθλείται καθόλου, για να τον πείσετε να τρέξει μαζί σας στον αγώνα των 5 χιλιομέτρων του Μαραθωνίου της Αθήνας, για να μαζέψετε χρήματα για έναν φιλανθρωπικό σύλλογο. Του εξηγείτε γιατί αξίζει, πώς θα προετοιμαστείτε και ό,τι άλλο νομίζετε για να τον πείσετε. (200 λέξεις)",
+   "task_en": "Write to a friend who never exercises, to persuade him to run the 5 km race of the Athens Marathon with you to raise money for a charity. Explain why it's worth it, how you'll prepare and anything else that might persuade him. (200 words)",
+   "text": [
+    "Αγαπητέ μου Θοδωρή,",
+    "Ελπίζω να είσαι καλά. Σου γράφω γιατί έχω μια πρόταση που, είμαι σίγουρη, στην αρχή θα σε κάνει να γελάσεις: θέλω να τρέξουμε μαζί στον αγώνα των 5 χιλιομέτρων του Μαραθωνίου της Αθήνας, τον Νοέμβριο.",
+    "Ξέρω τι θα πεις: «Εγώ; Που λαχανιάζω όταν ανεβαίνω τις σκάλες;» Κι όμως, τα 5 χιλιόμετρα δεν είναι τόσο δύσκολα όσο φαίνονται. Αν βγαίνουμε τρεις φορές την εβδομάδα για μισή ώρα, ξεκινώντας με γρήγορο περπάτημα, σε δύο μήνες θα είμαστε έτοιμοι χωρίς να ταλαιπωρηθούμε.",
+    "Το πιο σημαντικό, όμως, είναι ο σκοπός. Η ομάδα μας θα τρέξει για τον σύλλογο που στηρίζει παιδιά με χρόνιες ασθένειες. Κάθε δρομέας ζητάει από φίλους και συναδέλφους μια μικρή δωρεά, και όλα τα χρήματα θα πάνε στον σύλλογο, για να αγοράσει ιατρικό εξοπλισμό. Φαντάσου πόσα μπορούμε να μαζέψουμε, αν ο καθένας μας πείσει είκοσι γνωστούς του!",
+    "Και κάτι ακόμα: η άσκηση θα σου κάνει καλό. Μου έλεγες πριν από λίγο καιρό ότι νιώθεις συνέχεια κουρασμένος. Τι καλύτερο από τρεις βόλτες την εβδομάδα με παρέα;",
+    "Σε παρακαλώ, σκέψου το και απάντησέ μου μέχρι την Παρασκευή, για να σε γράψω στην ομάδα.",
+    "Με αγάπη,\nΡένα"
+   ],
+   "text_en": [
+    "Dear Thodoris,",
+    "I hope you're well. I'm writing because I have a proposal that, I'm sure, will make you laugh at first: I want us to run the 5 km race of the Athens Marathon together, in November.",
+    "I know what you'll say: “Me? I get out of breath climbing the stairs!” And yet 5 km isn't as hard as it looks. If we go out three times a week for half an hour, starting with brisk walking, in two months we'll be ready without wearing ourselves out.",
+    "The most important thing, though, is the cause. Our team will run for the association that supports children with chronic illnesses. Each runner asks friends and colleagues for a small donation, and all the money will go to the association to buy medical equipment. Imagine how much we could raise if each of us persuades twenty acquaintances!",
+    "And one more thing: the exercise will do you good. You were telling me not long ago that you feel tired all the time. What could be better than three walks a week in good company?",
+    "Please think about it and answer me by Friday, so I can sign you up for the team.",
+    "With love,\nRena"
+   ],
+   "notes": [
+    "**Request in the first paragraph.** The reader knows at once what is being asked.",
+    "**The objection is quoted and answered** (Ξέρω τι θα πεις… Κι όμως…): the strongest persuasive move in the letter.",
+    "**Each paragraph has one argument**: it's doable, the cause matters, it's good for you. Then a **deadline**.",
+    "**ξεκινώντας** (starting) and **χωρίς να ταλαιπωρηθούμε** (without wearing ourselves out): see the grammar note."
+   ],
+   "words": 184
+  }
+ ],
+ "grammar": [
+  {
+   "title": "The gerund (-οντας / -ώντας) and χωρίς να",
+   "en": "The gerund (μετοχή) shows how or when something happens, and refers to the subject of the main verb: **-οντας** for verbs stressed on the stem (τρέχω → τρέχοντας), **-ώντας** for verbs in -ώ/-άω (ξεκινώ → ξεκινώντας). It never changes form. For ‘without doing’, use **χωρίς να** + subjunctive.",
+   "examples": [
+    {
+     "el": "Ξεκινώντας με περπάτημα, θα είμαστε έτοιμοι σε δύο μήνες.",
+     "en": "Starting with walking, we'll be ready in two months."
+    },
+    {
+     "el": "Έμαθε ελληνικά βλέποντας σειρές.",
+     "en": "He learned Greek by watching series."
+    },
+    {
+     "el": "Έφυγε χωρίς να πει αντίο.",
+     "en": "She left without saying goodbye."
+    }
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "q": "Πού βάζετε το αίτημα σε ένα γράμμα που πείθει;",
+   "options": [
+    "στην πρώτη παράγραφο",
+    "στο τέλος",
+    "στο υστερόγραφο"
+   ],
+   "answer": "στην πρώτη παράγραφο"
+  },
+  {
+   "q": "Έμαθε να μαγειρεύει ___ τη γιαγιά της.",
+   "options": [
+    "παρακολουθώντας",
+    "παρακολουθόντας",
+    "να παρακολουθεί"
+   ],
+   "answer": "παρακολουθώντας",
+   "why": "παρακολουθώ is stressed on the ending, so the gerund is -ώντας."
+  },
+  {
+   "q": "Έφυγε ___ μας πει τίποτα.",
+   "options": [
+    "χωρίς να",
+    "χωρίς",
+    "για να"
+   ],
+   "answer": "χωρίς να"
+  },
+  {
+   "q": "Ποια φράση προλαβαίνει την αντίρρηση του φίλου;",
+   "options": [
+    "Ξέρω τι θα πεις: δεν έχεις χρόνο.",
+    "Σου στέλνω πολλά φιλιά.",
+    "Τι κάνεις; Πώς είσαι;"
+   ],
+   "answer": "Ξέρω τι θα πεις: δεν έχεις χρόνο."
+  }
+ ],
+ "tasks": [
+  {
+   "id": "persuade-1",
+   "level": "B2",
+   "words": 200,
+   "el": "Γράφετε σε μια φίλη σας που είναι μουσικός, για να της ζητήσετε να παίξει χωρίς αμοιβή στη χριστουγεννιάτικη γιορτή του σχολείου όπου πηγαίνει το παιδί σας. Της εξηγείτε για ποιο σκοπό γίνεται η γιορτή, πώς θα οργανωθεί και ό,τι άλλο νομίζετε για να την πείσετε. (200 λέξεις)",
+   "en": "Write to a musician friend asking her to play for free at the Christmas party of your child's school. Explain the purpose, how it will be organised and anything else that might persuade her. (200 words)",
+   "plan": [
+    "Warm opening (compliment her music).",
+    "Request + purpose (what the money is for).",
+    "Practical details you will take care of.",
+    "What she gains + emotional argument.",
+    "Ask for an answer."
+   ],
+   "model": [
+    "Αγαπητή μου Ιφιγένεια,",
+    "Πώς είσαι; Είδα στο διαδίκτυο το βίντεο από τη συναυλία σου στη Θεσσαλονίκη και ενθουσιάστηκα. Μπράβο σου!",
+    "Σου γράφω γιατί θέλω να σου ζητήσω μια μεγάλη χάρη. Ο σύλλογος γονέων του σχολείου όπου πηγαίνει ο γιος μου οργανώνει στις 14 Δεκεμβρίου μια χριστουγεννιάτικη γιορτή στην αυλή του σχολείου. Τα έσοδα θα διατεθούν για την αγορά βιβλίων για τη σχολική βιβλιοθήκη, η οποία, δυστυχώς, είναι σχεδόν άδεια. Θα μου έκανες τεράστια χάρη αν έπαιζες μισή ώρα με την κιθάρα σου, χωρίς αμοιβή.",
+    "Ξέρω ότι είσαι πολύ απασχολημένη αυτή την εποχή, γι' αυτό σου υπόσχομαι ότι θα φροντίσουμε για όλα: το ηχητικό, τη μεταφορά σου και, φυσικά, ένα καλό φαγητό μετά! Σκέψου επίσης ότι θα σε ακούσουν πάνω από διακόσιοι γονείς, ανάμεσα στους οποίους μπορεί να βρεις και καινούργιους θαυμαστές για τις συναυλίες σου.",
+    "Πάνω απ' όλα, όμως, θα δώσεις χαρά σε πολλά παιδιά, που θα έχουν επιτέλους βιβλία να διαβάζουν στα διαλείμματα.",
+    "Περιμένω με ανυπομονησία την απάντησή σου. Ελπίζω να πεις ναι!",
+    "Φιλιά,\nΜυρτώ"
+   ],
+   "model_en": [
+    "Dear Ifigenia,",
+    "How are you? I saw the video of your concert in Thessaloniki online and I loved it. Well done!",
+    "I'm writing because I want to ask you a big favour. The parents' association at my son's school is holding a Christmas party in the schoolyard on 14 December. The proceeds will go towards buying books for the school library, which, sadly, is almost empty. You'd be doing me a huge favour if you played for half an hour on your guitar, without a fee.",
+    "I know you're very busy at this time of year, so I promise we'll take care of everything: the sound system, your transport and, of course, a good meal afterwards! Think, too, that more than two hundred parents will hear you, and among them you may find some new fans for your concerts.",
+    "Above all, though, you'll bring joy to a lot of children, who will finally have books to read at break time.",
+    "I'm looking forward to your answer. I hope you'll say yes!",
+    "Love,\nMyrto"
+   ],
+   "model_words": 165
+  },
+  {
+   "id": "persuade-2",
+   "level": "B2",
+   "words": 200,
+   "el": "Γράφετε στην αδερφή σας για να την πείσετε να υιοθετήσει έναν σκύλο από ένα καταφύγιο ζώων, αντί να αγοράσει κουτάβι από κατάστημα. (200 λέξεις)",
+   "en": "Write to your sister to persuade her to adopt a dog from a shelter instead of buying a puppy from a shop. (200 words)",
+   "plan": [
+    "Request first.",
+    "Two arguments (the animal's life, cost or health).",
+    "Answer her likely objection (a shelter dog will be difficult).",
+    "Offer concrete help: you'll go with her to the shelter."
+   ]
+  },
+  {
+   "id": "persuade-3",
+   "level": "C1",
+   "words": 250,
+   "el": "Γράφετε σε μια παλιά σας καθηγήτρια, με την οποία έχετε χρόνια να επικοινωνήσετε, για να την πείσετε να μιλήσει σε μια εκδήλωση του πολιτιστικού συλλόγου σας. (250 λέξεις)",
+   "en": "Write to a former teacher you haven't been in touch with for years, to persuade her to speak at an event of your cultural association. (250 words)",
+   "plan": [
+    "Semi-formal register: εσείς, but warm (Αγαπητή κυρία…).",
+    "Remind her who you are and what she meant to you.",
+    "The event, the audience, why her in particular.",
+    "Make it easy: date options, travel, length of the talk."
+   ]
+  }
+ ],
+ "gloss": {
+  "αιτιολόγηση": "αιτιολόγηση — justification, giving reasons",
+  "Αιτιολόγηση": "αιτιολόγηση — justification, giving reasons",
+  "Νεφέλη": "Νεφέλη — Nefeli (woman's name)",
+  "πτυχιακή": "πτυχιακή (εργασία) — undergraduate dissertation",
+  "επιχειρηματικό": "επιχειρηματικός — business (adj.)",
+  "Συνημμένα": "συνημμένο — attachment, enclosure",
+  "Σταθοπούλου": "Σταθοπούλου — Stathopoulou (surname)",
+  "φετινή": "φετινός — this year's",
+  "φετινού": "φετινός — this year's",
+  "διοργάνωση": "διοργάνωση — organisation; (festival) edition",
+  "Λάουρα": "Λάουρα — Laura",
+  "Μπιάνκι": "Μπιάνκι — Bianchi (surname)",
+  "Γένοβα": "Γένοβα — Genoa",
+  "συμμετέχειν": "(wrong option) — not a Modern Greek noun",
+  "απταίστως": "άπταιστα — fluently (archaic form, not used)",
+  "Γιόνας": "Γιόνας — Jonas",
+  "Μπεργκ": "Μπεργκ — Berg (surname)",
+  "Στοκχόλμη": "Στοκχόλμη — Stockholm",
+  "δίδακτρα": "δίδακτρα — tuition fees",
+  "μεσιτικό": "μεσιτικός — estate agent's (μεσιτικό γραφείο: estate agency)",
+  "κάτοχος": "κάτοχος — holder, owner (κάτοχος πτυχίου: degree holder)",
+  "Ιταλίας": "Ιταλία — Italy",
+  "συμμετοχία": "(wrong option) — the noun is η συμμετοχή",
+  "ταξιδιωτικό": "ταξιδιωτικός — travel (adj.); ταξιδιωτικό γραφείο: travel agency",
+  "Εκφώνηση": "εκφώνηση — the exam prompt, task wording",
+  "εκφώνησης": "εκφώνηση — the exam prompt, task wording",
+  "επινοημένο": "επινοημένος — invented, made-up",
+  "αποχαιρετισμός": "αποχαιρετισμός — farewell; sign-off",
+  "Αποχαιρετισμός": "αποχαιρετισμός — farewell; sign-off",
+  "αποχαιρετισμοί": "αποχαιρετισμός — farewell; sign-off",
+  "ενικό": "ενικός — singular",
+  "θεματική": "θεματικός — thematic; θεματική περίοδος: topic sentence",
+  "Θεματική": "θεματικός — thematic; θεματική περίοδος: topic sentence",
+  "συνεχόμενες": "συνεχόμενος — consecutive",
+  "εξακολουθητικό": "εξακολουθητικός — imperfective (aspect)",
+  "μονοσύλλαβες": "μονοσύλλαβος — monosyllabic",
+  "Διαλυτικά": "διαλυτικά — diaeresis (¨)",
+  "Στίξη": "στίξη — punctuation",
+  "στίξη": "στίξη — punctuation",
+  "γράψη": "(misspelling) — write γράψει",
+  "θηκα": "-θηκα — passive aorist ending (στάλθηκα)",
+  "τηκα": "-τηκα — passive aorist ending (αντιμετωπίστηκα)",
+  "θώ": "-θώ — passive perfective ending after να/θα",
+  "εργάσιμων": "εργάσιμος — working (εργάσιμη μέρα: working day)",
+  "φορητό": "φορητός — portable; φορητός υπολογιστής: laptop",
+  "Ανεμώνης": "Ανεμώνη — Anemoni (street name; anemone)",
+  "δυσοσμία": "δυσοσμία — bad smell, stench",
+  "αντηλιακό": "αντηλιακό — sunscreen",
+  "Σίφνος": "Σίφνος — Sifnos (Cycladic island)",
+  "ανεφάρμοστη": "ανεφάρμοστος — unworkable, impracticable",
+  "αξίωμα": "αξίωμα — office, official position",
+  "Παπαδοπούλη": "(wrong option) — the surname is Παπαδοπούλου",
+  "Δοκίμιο": "δοκίμιο — essay",
+  "δοκίμιο": "δοκίμιο — essay",
+  "Πρόλογος": "πρόλογος — introduction",
+  "πρόλογο": "πρόλογος — introduction",
+  "Επίλογος": "επίλογος — conclusion",
+  "επίλογο": "επίλογος — conclusion",
+  "εξατομίκευσης": "εξατομίκευση — personalisation",
+  "ταχύτερος": "ταχύς — fast (ταχύτερος: faster)",
+  "προϋποθέτει": "προϋποθέτω — to presuppose, require",
+  "αλάνθαστα": "αλάνθαστος — infallible",
+  "αριθμομηχανές": "αριθμομηχανή — calculator",
+  "υποκατάστατο": "υποκατάστατο — substitute",
+  "συμπληρωματικό": "συμπληρωματικός — supplementary",
+  "ανακαινίστηκαν": "ανακαινίζω — to renovate (passive)",
+  "λιγοστεύουν": "λιγοστεύω — to become fewer, dwindle",
+  "λιγόστεψαν": "λιγοστεύω — to become fewer, dwindle",
+  "φορολόγηση": "φορολόγηση — taxation",
+  "εξισορροπήσουν": "εξισορροπώ — to balance",
+  "παγκοσμιοποίηση": "παγκοσμιοποίηση — globalisation",
+  "ρητή": "ρητός — explicit",
+  "μπακάλικων": "μπακάλικο — grocer's shop",
+  "βαθμολογείται": "βαθμολογώ — to mark, grade (passive)",
+  "Μορφολογία": "μορφολογία — morphology (word forms)",
+  "τετράδιο": "τετράδιο — exercise book, workbook",
+  "Λένα": "Λένα — Lena",
+  "χαμηλότερες": "χαμηλός — low (χαμηλότερος: lower)",
+  "Φολέγανδρος": "Φολέγανδρος — Folegandros (Cycladic island)",
+  "Ικαρία": "Ικαρία — Ikaria (Aegean island)",
+  "Μύκονο": "Μύκονος — Mykonos",
+  "τυρόπιτες": "τυρόπιτα — cheese pie",
+  "χαχα": "χαχα — haha (chat only)",
+  "Καλλιμάρμαρο": "Καλλιμάρμαρο — the Panathenaic Stadium, Athens",
+  "Γαβριήλ": "Γαβριήλ — Gabriel",
+  "παρευρεθείτε": "παρευρίσκομαι — to attend, be present",
+  "παρευρεθώ": "παρευρίσκομαι — to attend, be present",
+  "παρευρέθηκα": "παρευρίσκομαι — to attend, be present",
+  "Εναντιωματική": "εναντιωματικός — concessive",
+  "Ξαναγράψτε": "ξαναγράφω — to rewrite",
+  "Παλαμήδι": "Παλαμήδι — Palamidi, the fortress above Nafplio",
+  "νεοκλασικά": "νεοκλασικός — neoclassical",
+  "ανάβαση": "ανάβαση — climb, ascent",
+  "δάνεισες": "δανείζω — to lend",
+  "παιδίατρος": "παιδίατρος — paediatrician",
+  "Καλογήρου": "Καλογήρου — Kalogirou (surname)",
+  "ζωντάνεψαν": "ζωντανεύω — to come alive; to bring to life",
+  "συχνότερα": "συχνός — frequent (συχνότερος: more frequent)",
+  "στάθμευσης": "στάθμευση — parking",
+  "Ραφαηλίδης": "Ραφαηλίδης — Rafailidis (surname)",
+  "προσφωνείτε": "προσφωνώ — to address (someone, in a letter or speech)",
+  "σύντμηση": "σύντμηση — abbreviation",
+  "προστατευόμενη": "προστατευόμενος — protected",
+  "ξενοδοχειακής": "ξενοδοχειακός — hotel (adj.)",
+  "ανέγγιχτες": "ανέγγιχτος — untouched",
+  "αμμοθίνες": "αμμοθίνη — sand dune",
+  "ανακαίνιση": "ανακαίνιση — renovation",
+  "οικοτουρισμός": "οικοτουρισμός — ecotourism",
+  "θρανία": "θρανίο — school desk",
+  "θρανίο": "θρανίο — school desk",
+  "αντίλογο": "αντίλογος — counterargument",
+  "ουτοπία": "ουτοπία — utopia",
+  "ισχυρότερο": "ισχυρός — strong (ισχυρότερος: stronger)",
+  "κούραση": "κούραση — tiredness, fatigue",
+  "παραγωγικότητα": "παραγωγικότητα — productivity",
+  "σύνεση": "σύνεση — prudence, good sense",
+  "πιλοτικά": "πιλοτικός — pilot (scheme), trial",
+  "Κατακλείδα": "κατακλείδα — concluding sentence",
+  "κατακλείδα": "κατακλείδα — concluding sentence",
+  "ανυπομονησία": "ανυπομονησία — impatience; με ανυπομονησία: eagerly",
+  "αθλείται": "αθλούμαι — to exercise, do sport",
+  "Μαραθωνίου": "Μαραθώνιος — marathon",
+  "Θοδωρή": "Θοδωρής — Thodoris (man's name)",
+  "λαχανιάζω": "λαχανιάζω — to get out of breath",
+  "ταλαιπωρηθούμε": "ταλαιπωρούμαι — to suffer, be put through hardship",
+  "δρομέας": "δρομέας — runner",
+  "υστερόγραφο": "υστερόγραφο — postscript (P.S.)",
+  "Ιφιγένεια": "Ιφιγένεια — Ifigenia (woman's name)",
+  "ενθουσιάστηκα": "ενθουσιάζομαι — to be thrilled",
+  "Μυρτώ": "Μυρτώ — Myrto (woman's name)",
+  "οντας": "-οντας — gerund ending (τρέχοντας)",
+  "ώντας": "-ώντας — gerund ending (ξεκινώντας)",
+  "παρακολουθόντας": "(misspelling) — write παρακολουθώντας",
+  "εργαστήρι": "εργαστήρι — workshop (everyday form of εργαστήριο)",
+  "δίκλινο": "δίκλινος — double (room), two-bed",
+  "δίκλινου": "δίκλινος — double (room), two-bed",
+  "Άννας": "Άννα — Anna",
+  "Παππάς": "Παππάς — Pappas (surname)",
+  "Κεφαλίδα": "κεφαλίδα — header",
+  "ερωτηματολόγια": "ερωτηματολόγιο — questionnaire",
+  "πλειονότητα": "πλειονότητα — majority",
+  "ερωτηθέντων": "ερωτηθείς — respondent (learned participle of ερωτώ)",
+  "ερωτηθέντες": "ερωτηθείς — respondent (learned participle of ερωτώ)",
+  "ικανοποιητική": "ικανοποιητικός — satisfactory",
+  "πληρότητα": "πληρότητα — occupancy, how full (a venue is)",
+  "προσβάσιμοι": "προσβάσιμος — accessible",
+  "περιοίκων": "περίοικος — local resident, neighbour",
+  "ραμπών": "ράμπα — ramp",
+  "δημότες": "δημότης — resident (registered citizen of a municipality)",
+  "ληφθέντα": "ληφθείς — taken (learned participle of λαμβάνω)",
+  "βιντεοσκοπημένα": "βιντεοσκοπημένος — recorded on video",
+  "διαδραστικές": "διαδραστικός — interactive",
+  "κινητικά": "κινητικός — motor; κινητικά προβλήματα: mobility problems",
+  "υπαίθριες": "υπαίθριος — open-air",
+  "υπαίθριων": "υπαίθριος — open-air",
+  "διδάσκοντες": "διδάσκων — teacher, member of teaching staff",
+  "παρόχου": "πάροχος — provider",
+  "Διαχειριστή": "διαχειριστής — (building) manager, administrator",
+  "διαχειριστή": "διαχειριστής — (building) manager, administrator",
+  "Μαρκόπουλος": "Μαρκόπουλος — Markopoulos (surname)",
+  "σκωληκοειδίτιδα": "σκωληκοειδίτιδα — appendicitis",
+  "επαναληπτική": "επαναληπτικός — repeat; επαναληπτική εξέταση: resit",
+  "προαπαιτούμενο": "προαπαιτούμενος — prerequisite",
+  "δικαιολογητικό": "δικαιολογητικό — supporting document",
+  "τσουχτερές": "τσουχτερός — steep (prices), stinging",
+  "Αλέξη": "Αλέξης — Alexis",
+  "Ζορμπά": "Ζορμπάς — Zorba",
+  "Ζορμπάς": "Ζορμπάς — Zorba",
+  "συρτάκι": "συρτάκι — sirtaki (dance)",
+  "πλουσιότερο": "πλούσιος — rich (πλουσιότερος: richer)",
+  "λιγνίτη": "λιγνίτης — lignite, brown coal",
+  "περιπετειώδη": "περιπετειώδης — adventurous",
+  "λιμανάκι": "λιμανάκι — little harbour",
+  "Μαρίνας": "Μαρίνα — Marina (Αγία Μαρίνα: a common place name)",
+  "ψαροταβέρνα": "ψαροταβέρνα — fish taverna",
+  "ιστολόγιο": "ιστολόγιο — blog",
+  "ένθετο": "ένθετο — (newspaper) supplement",
+  "δεκατρία": "δεκατρία — thirteen",
+  "επιγραφές": "επιγραφή — inscription",
+  "Θεοδωράκη": "Θεοδωράκης — Mikis Theodorakis, composer",
+  "Χατζιδάκι": "Χατζιδάκις — Manos Hadjidakis, composer",
+  "Σεφέρη": "Σεφέρης — Giorgos Seferis, poet (Nobel 1963)",
+  "υπομονετικό": "υπομονετικός — patient",
+  "κοινοτικό": "κοινοτικός — community (adj.)",
+  "κοινοτικός": "κοινοτικός — community (adj.)",
+  "πότισμα": "πότισμα — watering",
+  "ημερίδα": "ημερίδα — one-day conference",
+  "ευτυχήσετε": "ευτυχώ — to be happy",
+  "Ρητορικά": "ρητορικός — rhetorical",
+  "ρητορικό": "ρητορικός — rhetorical",
+  "ἐνθουσιασμός": "ενθουσιασμός — enthusiasm (ancient spelling)"
+ }
+}

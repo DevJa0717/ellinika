@@ -1,0 +1,335 @@
+{
+ "kind": "workbook",
+ "el": "Τετράδιο γραπτού λόγου",
+ "title": "Writing workbook: graded letters, emails, opinion pieces and essays for the B2 writing paper",
+ "parts": [
+  {
+   "id": "exam",
+   "el": "Η εξέταση",
+   "en": "The exam"
+  },
+  {
+   "id": "found",
+   "el": "Θεμέλια",
+   "en": "Foundations",
+   "level": "B1"
+  },
+  {
+   "id": "personal",
+   "el": "Προσωπικά κείμενα · Α΄ μέρος",
+   "en": "Personal texts · Part A",
+   "level": "B1–B2"
+  },
+  {
+   "id": "formal",
+   "el": "Επίσημα κείμενα · Β΄ μέρος",
+   "en": "Formal texts · Part B",
+   "level": "B2"
+  },
+  {
+   "id": "argue",
+   "el": "Γνώμη και επιχειρηματολογία",
+   "en": "Opinion and argument",
+   "level": "B2+–C1"
+  },
+  {
+   "id": "tools",
+   "el": "Εργαλεία",
+   "en": "Tools"
+  }
+ ],
+ "items": [
+  {
+   "id": "exam",
+   "file": "exam.json",
+   "kind": "guide",
+   "part": "exam",
+   "level": "B2",
+   "el": "Η εξέταση γραπτού λόγου",
+   "title": "The B2 writing paper and how to use this workbook",
+   "tasks": [],
+   "models": 0,
+   "drills": 4
+  },
+  {
+   "id": "paragraph",
+   "file": "paragraph.json",
+   "kind": "unit",
+   "part": "found",
+   "level": "B1",
+   "el": "Η παράγραφος",
+   "title": "The paragraph: one idea, announced, supported, closed",
+   "tasks": [
+    "paragraph-1",
+    "paragraph-2",
+    "paragraph-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "linking",
+   "file": "linking.json",
+   "kind": "unit",
+   "part": "found",
+   "level": "B1",
+   "el": "Από απλές σε σύνθετες προτάσεις",
+   "title": "Linking: from short sentences to complex ones",
+   "tasks": [
+    "linking-1",
+    "linking-2",
+    "linking-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "register",
+   "file": "register.json",
+   "kind": "unit",
+   "part": "found",
+   "level": "B1+",
+   "el": "Ύφος: φιλικό, ουδέτερο, επίσημο",
+   "title": "Register: friendly, neutral, formal",
+   "tasks": [
+    "register-1",
+    "register-2",
+    "register-3"
+   ],
+   "models": 3,
+   "drills": 5
+  },
+  {
+   "id": "friendly-email",
+   "file": "friendly-email.json",
+   "kind": "unit",
+   "part": "personal",
+   "level": "B1",
+   "el": "Φιλικό email: νέα και πρόσκληση",
+   "title": "Friendly email: news and an invitation",
+   "tasks": [
+    "friendly-email-1",
+    "friendly-email-2",
+    "friendly-email-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "advice-letter",
+   "file": "advice-letter.json",
+   "kind": "unit",
+   "part": "personal",
+   "level": "B2",
+   "el": "Φιλικό γράμμα με συμβουλές",
+   "title": "Friendly letter giving advice",
+   "tasks": [
+    "advice-letter-1",
+    "advice-letter-2",
+    "advice-letter-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "persuade",
+   "file": "persuade.json",
+   "kind": "unit",
+   "part": "personal",
+   "level": "B2",
+   "el": "Γράμμα που πείθει",
+   "title": "Persuasive letter to a friend",
+   "tasks": [
+    "persuade-1",
+    "persuade-2",
+    "persuade-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "forum",
+   "file": "forum.json",
+   "kind": "unit",
+   "part": "personal",
+   "level": "B2",
+   "el": "Ανάρτηση σε φόρουμ",
+   "title": "Forum post: information and advice",
+   "tasks": [
+    "forum-1",
+    "forum-2",
+    "forum-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "complaint",
+   "file": "complaint.json",
+   "kind": "unit",
+   "part": "formal",
+   "level": "B2",
+   "el": "Επιστολή παραπόνων",
+   "title": "Letter of complaint",
+   "tasks": [
+    "complaint-1",
+    "complaint-2",
+    "complaint-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "request",
+   "file": "request.json",
+   "kind": "unit",
+   "part": "formal",
+   "level": "B2",
+   "el": "Επίσημο αίτημα",
+   "title": "Formal request: permission, an exception, information",
+   "tasks": [
+    "request-1",
+    "request-2",
+    "request-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "application",
+   "file": "application.json",
+   "kind": "unit",
+   "part": "formal",
+   "level": "B2",
+   "el": "Αίτηση και συνοδευτική επιστολή",
+   "title": "Application and cover letter",
+   "tasks": [
+    "application-1",
+    "application-2",
+    "application-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "newspaper-letter",
+   "file": "newspaper-letter.json",
+   "kind": "unit",
+   "part": "formal",
+   "level": "B2+",
+   "el": "Επιστολή σε εφημερίδα",
+   "title": "Letter to a newspaper",
+   "tasks": [
+    "newspaper-letter-1",
+    "newspaper-letter-2",
+    "newspaper-letter-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "opinion",
+   "file": "opinion.json",
+   "kind": "unit",
+   "part": "argue",
+   "level": "B2+",
+   "el": "Άρθρο γνώμης",
+   "title": "Opinion article",
+   "tasks": [
+    "opinion-1",
+    "opinion-2",
+    "opinion-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "review",
+   "file": "review.json",
+   "kind": "unit",
+   "part": "argue",
+   "level": "B2+",
+   "el": "Κριτική",
+   "title": "Review: book, film, restaurant",
+   "tasks": [
+    "review-1",
+    "review-2",
+    "review-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "essay",
+   "file": "essay.json",
+   "kind": "unit",
+   "part": "argue",
+   "level": "C1",
+   "el": "Δοκίμιο: υπέρ και κατά",
+   "title": "Argumentative essay: for and against",
+   "tasks": [
+    "essay-1",
+    "essay-2",
+    "essay-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "report",
+   "file": "report.json",
+   "kind": "unit",
+   "part": "argue",
+   "level": "C1",
+   "el": "Έκθεση αξιολόγησης με προτάσεις",
+   "title": "Evaluation report with proposals",
+   "tasks": [
+    "report-1",
+    "report-2",
+    "report-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "speech",
+   "file": "speech.json",
+   "kind": "unit",
+   "part": "argue",
+   "level": "C1",
+   "el": "Ομιλία",
+   "title": "Speech or address",
+   "tasks": [
+    "speech-1",
+    "speech-2",
+    "speech-3"
+   ],
+   "models": 2,
+   "drills": 4
+  },
+  {
+   "id": "connectives",
+   "file": "connectives.json",
+   "kind": "bank",
+   "part": "tools",
+   "level": "B1–C1",
+   "el": "Τράπεζα συνδέσμων",
+   "title": "Connectives bank: linking words by function and register",
+   "tasks": [],
+   "models": 0,
+   "drills": 9
+  },
+  {
+   "id": "checklist",
+   "file": "checklist.json",
+   "kind": "checklist",
+   "part": "tools",
+   "level": "B1–C1",
+   "el": "Λίστα διόρθωσης",
+   "title": "Correction checklist: read your draft four times",
+   "tasks": [],
+   "models": 0,
+   "drills": 0
+  }
+ ]
+}
