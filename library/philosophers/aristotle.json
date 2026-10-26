@@ -1,0 +1,668 @@
+{
+  "id": "aristotle",
+  "el": "Αριστοτέλης",
+  "title": "Aristotle",
+  "level": "B2+",
+  "dates": "384 – 322 π.Χ.",
+  "image": {
+    "file": "img/philosophers/aristotle.jpg",
+    "caption": "Προτομή του Αριστοτέλη, ρωμαϊκό αντίγραφο από πρωτότυπο του Λυσίππου (Παλάτσο Αλτέμπς, Ρώμη).",
+    "caption_en": "Bust of Aristotle, Roman copy after a Greek original by Lysippus (c. 330 BC); the alabaster mantle is modern. Palazzo Altemps, Rome.",
+    "credit": "Photograph by Jastrow (2006), Museo Nazionale Romano, Palazzo Altemps, Inv. 8575",
+    "license": "Public domain (released by the photographer)",
+    "source": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg"
+  },
+  "summary_en": "Aristotle of Stagira (384–322 BC) studied for twenty years in Plato’s Academy, tutored the young Alexander the Great, and founded his own school, the **Lyceum**, whose members were called **Peripatetics**. He wrote on almost everything: logic (he invented the **syllogism**), physics, astronomy, biology, psychology, metaphysics, ethics, politics, rhetoric and poetry. Against Plato he argued that forms do not exist apart from things: every natural being is a compound of **matter and form**, and is explained by **four causes** (material, formal, efficient, final). His cosmos is eternal and spherical, with the Earth at its centre, four elements below the Moon and a fifth, **aether**, in the heavens, all ultimately moved by an **unmoved mover** that “thinks itself”. In ethics, the human good is **eudaimonia**, activity of the soul in accordance with virtue over a complete life, and moral virtue is a **mean** between two extremes, acquired by habit. Man is “by nature a political animal”. For medieval scholars he was simply **“the Philosopher”**.",
+  "terms": [
+    {
+      "el": "η ύλη",
+      "en": "matter",
+      "def_el": "Αυτό από το οποίο είναι φτιαγμένο κάτι (ο χαλκός ενός αγάλματος).",
+      "def_en": "Originally “wood, timber”. Today also “subject matter, syllabus”: η ύλη των εξετάσεων."
+    },
+    {
+      "el": "η μορφή",
+      "en": "form",
+      "def_el": "Αυτό που κάνει την ύλη να είναι το συγκεκριμένο πράγμα (το σχήμα και η ουσία του αγάλματος).",
+      "def_en": "Aristotle’s word for form is εἶδος or μορφή. Matter + form = hylomorphism (υλομορφισμός)."
+    },
+    {
+      "el": "η αιτία",
+      "en": "cause, explanation",
+      "def_el": "Αυτό που απαντά στο «γιατί;».",
+      "def_en": "Aristotle’s four αἴτια: material, formal, efficient (κινούσα), final (τελική)."
+    },
+    {
+      "el": "ο σκοπός / το τέλος",
+      "en": "purpose, end",
+      "def_el": "Αυτό για το οποίο γίνεται κάτι.",
+      "def_en": "Hence τελολογία (teleology). Modern τέλος usually means “end” or “tax” (τέλος κυκλοφορίας)."
+    },
+    {
+      "el": "η δύναμη / η ενέργεια",
+      "en": "potentiality / actuality",
+      "def_el": "Η δυνατότητα να γίνει κάτι και η πραγματοποίησή της (ο σπόρος είναι δυνάμει δέντρο).",
+      "def_en": "The everyday words δύναμη “power” and ενέργεια “energy, action” come from Aristotle’s technical pair. δυνάμει = potentially."
+    },
+    {
+      "el": "ο συλλογισμός",
+      "en": "syllogism, reasoning",
+      "def_el": "Συμπέρασμα που βγαίνει αναγκαστικά από δύο προκείμενες.",
+      "def_en": "Modern συλλογίζομαι = to ponder; συλλογισμένος = thoughtful."
+    },
+    {
+      "el": "η ευδαιμονία",
+      "en": "happiness, flourishing (eudaimonia)",
+      "def_el": "Για τον Αριστοτέλη, η καλή ζωή: δραστηριότητα της ψυχής σύμφωνα με την αρετή.",
+      "def_en": "ευ + δαίμων. In modern Greek also “prosperity”: οικονομική ευδαιμονία."
+    },
+    {
+      "el": "η μεσότητα",
+      "en": "the mean",
+      "def_el": "Η σωστή θέση ανάμεσα σε δύο άκρα, την υπερβολή και την έλλειψη.",
+      "def_en": "Popularly «το μέτρο» or «η χρυσή τομή»; μέτρον άριστον was a much older saying."
+    },
+    {
+      "el": "ο αιθέρας",
+      "en": "aether, the fifth element",
+      "def_el": "Το πέμπτο στοιχείο από το οποίο είναι φτιαγμένοι ο ουρανός και τα αστέρια.",
+      "def_en": "Latin quinta essentia gives English “quintessence”. Modern αιθέρας also = ether (chemistry) and “the airwaves”."
+    },
+    {
+      "el": "το πολιτικό ζώο",
+      "en": "political animal",
+      "def_el": "Ο άνθρωπος, που από τη φύση του ζει μέσα σε πόλη και κοινότητα.",
+      "def_en": "«Ο άνθρωπος φύσει πολιτικόν ζώον» (Politics 1253a)."
+    }
+  ],
+  "sections": [
+    {
+      "id": "context",
+      "el": "Ιστορικό πλαίσιο",
+      "en": "Historical context",
+      "paras": [
+        {
+          "el": "Ο Αριστοτέλης γεννήθηκε το 384 π.Χ., λίγα χρόνια μετά την ίδρυση της Ακαδημίας, και έζησε σε μια εποχή μεγάλων αλλαγών. Στη διάρκεια της ζωής του, η Μακεδονία του Φιλίππου Β΄ έγινε η ισχυρότερη δύναμη της Ελλάδας, και ο γιος του, ο Μέγας Αλέξανδρος, κατέκτησε την Περσική αυτοκρατορία.",
+          "en": "Aristotle was born in 384 BC, a few years after the founding of the Academy, and lived through great changes. In his lifetime Macedon under Philip II became the strongest power in Greece, and Philip’s son, Alexander the Great, conquered the Persian empire. His career, as IEP puts it, was directly entangled with the rise of a major power.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Στην Αθήνα, πολλοί έβλεπαν τη Μακεδονία ως απειλή για την ελευθερία της πόλης. Ο Αριστοτέλης, που είχε στενούς δεσμούς με τη μακεδονική αυλή, δεν ήταν Αθηναίος πολίτης, αλλά «μέτοικος». Αυτό το διπλό πρόβλημα, ο ξένος με τους μακεδονικούς φίλους, σημάδεψε και τις δύο αναχωρήσεις του από την Αθήνα.",
+          "en": "In Athens many saw Macedon as a threat to the city’s freedom. Aristotle, closely tied to the Macedonian court, was not an Athenian citizen but a resident alien (metic). This double position, a foreigner with Macedonian friends, probably shaped both of his departures from Athens.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Φιλοσοφικά, ο Αριστοτέλης μεγάλωσε μέσα στην Ακαδημία του Πλάτωνα. Η θεωρία των ιδεών ήταν το κέντρο της συζήτησης, και πολλά από τα έργα του ξεκινούν από μια κριτική του δασκάλου του. Όμως, αντίθετα με τον Πλάτωνα, ο Αριστοτέλης αγαπούσε να συλλέγει παρατηρήσεις για τον κόσμο: για τα ζώα, τα φυτά, τα αστέρια, ακόμη και για τα συντάγματα των πόλεων.",
+          "en": "Philosophically, Aristotle grew up inside Plato’s Academy, where the theory of Forms was central, and many of his works begin from a critique of his teacher. Unlike Plato, however, he loved to collect observations of the world: animals, plants, stars, even the constitutions of cities. He always begins, says SEP, by considering how the world appears (phainomena) and what has been said about it (endoxa).",
+          "cite": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "el": "Βιογραφία",
+      "en": "Biography",
+      "paras": [
+        {
+          "el": "Γεννήθηκε στα Στάγειρα, μια μικρή πόλη της Χαλκιδικής· γι’ αυτό τον λένε και «Σταγειρίτη». Ο πατέρας του, ο Νικόμαχος, ήταν γιατρός του βασιλιά της Μακεδονίας Αμύντα, παππού του Μεγάλου Αλεξάνδρου.",
+          "en": "He was born in Stagira, a small town in Chalcidice in north-eastern Greece, whence his nickname “the Stagirite”. His father, Nicomachus, was physician to King Amyntas of Macedon, grandfather of Alexander the Great.",
+          "cite": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Στα δεκαεφτά του πήγε στην Αθήνα και μπήκε στην Ακαδημία του Πλάτωνα, όπου έμεινε είκοσι χρόνια, ως τον θάνατο του δασκάλου του το 347. Ο Διογένης ο Λαέρτιος λέει ότι ήταν λεπτός, ντυνόταν κομψά, είχε μοντέρνο κούρεμα και φορούσε πολλά δαχτυλίδια.",
+          "en": "At seventeen he went to Athens and entered Plato’s Academy, where he remained for twenty years, until Plato’s death in 347. Diogenes Laertius describes him as a thin man who dressed flashily, with a fashionable haircut and several rings.",
+          "cite": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Μετά τον θάνατο του Πλάτωνα, την Ακαδημία την ανέλαβε ο ανιψιός του, ο Σπεύσιππος, και ο Αριστοτέλης έφυγε. Έζησε τρία χρόνια στην Άσσο της Μικράς Ασίας, κοντά στον φίλο του Ερμεία, και δύο στη Λέσβο, με τον Θεόφραστο. Εκεί μελέτησε τα θαλάσσια ζώα και παντρεύτηκε την Πυθιάδα, ανιψιά του Ερμεία.",
+          "en": "After Plato’s death the Academy passed to Plato’s nephew Speusippus, and Aristotle left. He spent about three years at Assos in Asia Minor with his friend Hermias (Hermeias), a former member of the Academy who ruled there, and two years on Lesbos with Theophrastus, where he probably began his studies of marine biology and married Pythias, Hermias’ niece; they had a daughter, also called Pythias.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Το 343 ο Φίλιππος τον κάλεσε στην Πέλλα, για να γίνει δάσκαλος του δεκατριάχρονου γιου του, του Αλεξάνδρου. Δεν ξέρουμε πολλά για αυτή τη σχέση· μάλλον κράτησε δύο ή τρία χρόνια.",
+          "en": "In 343 Philip invited him to Pella to tutor his thirteen-year-old son Alexander. Little concrete is known about their interaction; the tuition probably lasted only two or three years, though some suppose up to eight.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Το 335 γύρισε στην Αθήνα και ίδρυσε τη δική του σχολή στο Λύκειο, έναν γυμναστικό χώρο αφιερωμένο στον Λύκειο Απόλλωνα. Οι μαθητές του ονομάστηκαν «περιπατητικοί», μάλλον από τον «περίπατο», μια στοά της σχολής. Στο Λύκειο έγινε έρευνα σε όλους σχεδόν τους τομείς, και συγκεντρώθηκε ίσως η πρώτη μεγάλη βιβλιοθήκη της αρχαιότητας.",
+          "en": "In 335 he returned to Athens and founded his own school in the Lyceum, a public exercise ground sacred to Apollo Lykeios. His followers were later called Peripatetics, probably from the peripatos, a covered walk on the school’s property. The Lyceum researched almost every field, from botany and biology to political history, and assembled, according to some ancient accounts, the first great library of antiquity.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Η γυναίκα του πέθανε, και ο Αριστοτέλης έζησε με την Ερπυλλίδα, με την οποία απέκτησε έναν γιο, τον Νικόμαχο. Το βιβλίο του «Ηθικά Νικομάχεια» πιθανότατα πήρε το όνομά του από αυτόν.",
+          "en": "His wife Pythias died, and he formed a relationship with Herpyllis, perhaps a native of Stagira, by whom he had a son, Nicomachus, after whom the Nicomachean Ethics is presumably named.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Το 323 πέθανε ο Αλέξανδρος στη Βαβυλώνα, και στην Αθήνα ξέσπασε αντιμακεδονικό κλίμα. Ο Αριστοτέλης κατηγορήθηκε για ασέβεια, όπως ο Σωκράτης. Έφυγε για τη Χαλκίδα της Εύβοιας, λέγοντας, κατά την παράδοση, ότι δεν θα αφήσει τους Αθηναίους να αμαρτήσουν δεύτερη φορά απέναντι στη φιλοσοφία. Πέθανε εκεί τον επόμενο χρόνο, σε ηλικία εξήντα τριών ετών.",
+          "en": "In 323 Alexander died in Babylon and anti-Macedonian feeling boiled over in Athens. Aristotle was charged with impiety (DL V 5) and withdrew to Chalcis on Euboea, remarking, as an oft-repeated ancient tale has it, that he saw no reason to let Athens sin twice against philosophy. He died there the following year, 322, aged sixty-three, of natural causes.",
+          "cite": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "el": "Κοσμολογία: ο αιώνιος κόσμος",
+      "en": "Cosmology: the eternal cosmos",
+      "paras": [
+        {
+          "el": "Ο Αριστοτέλης ξεκινά από μια απλή παρατήρηση: τα σώματα στη Γη ή ανεβαίνουν ή πέφτουν σε ευθεία γραμμή, ενώ τα ουράνια σώματα κινούνται συνέχεια σε κύκλους, χωρίς να τα σπρώχνει κανείς. Άρα, συμπεραίνει, ο ουρανός πρέπει να είναι φτιαγμένος από ένα διαφορετικό υλικό.",
+          "en": "Aristotle starts from a simple observation: bodies on Earth either rise or fall in straight lines, while the heavenly bodies keep moving in circles with no visible force acting on them. So, he concludes, the heavens must be made of a different body that naturally moves in a circle.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Έτσι, χωρίζει τον κόσμο σε δύο περιοχές. Κάτω από τη Σελήνη υπάρχουν τα τέσσερα στοιχεία, γη, νερό, αέρας και φωτιά, και όλα γεννιούνται και φθείρονται. Πάνω από τη Σελήνη υπάρχει ένα πέμπτο στοιχείο, ο αιθέρας, που κινείται αιώνια σε κύκλο. Ο ουρανός δεν γεννήθηκε ποτέ και δεν θα χαθεί ποτέ.",
+          "en": "He divides the cosmos into two regions. Below the Moon (sublunary) are the four elements, earth, water, air and fire, and everything comes to be and passes away. Above the Moon (superlunary) is a fifth element, aether, which moves eternally in a circle. The heavens are ungenerated and imperishable.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Η Γη είναι ακίνητη στο κέντρο και είναι σφαιρική. Το αποδεικνύει με παρατηρήσεις: στις εκλείψεις της Σελήνης η σκιά της Γης είναι στρογγυλή, και όταν ταξιδεύουμε βόρεια ή νότια, βλέπουμε διαφορετικά αστέρια. Ο Γαλαξίας, πίστευε, είναι η εικόνα πολλών αστεριών μαζί.",
+          "en": "The Earth is motionless at the centre and spherical. He supports this with observations: the shape of eclipses, and the fact that different stars are visible at different latitudes (On the Heavens 297b). The Milky Way, he held, is an appearance produced by many stars together. He also used Egyptian and Babylonian observations of the planets.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Κάθε κίνηση χρειάζεται κάτι που την προκαλεί. Για να μην πάμε στο άπειρο, πρέπει να υπάρχει ένα πρώτο κινούν που το ίδιο είναι ακίνητο: το «ακίνητο κινούν». Αυτό είναι για τον Αριστοτέλη ο θεός, ένας νους που σκέφτεται αιώνια τον εαυτό του, «νόησις νοήσεως».",
+          "en": "Every motion needs a mover. To avoid an infinite regress there must be a first mover that is itself unmoved: the “unmoved mover”. For Aristotle this is god, an intellect that eternally “thinks itself” (Metaphysics 1072b, 1073a), thought thinking thought.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Ο κόσμος του Αριστοτέλη δεν έχει αρχή ούτε τέλος. Αλλά οι ανθρώπινοι πολιτισμοί έρχονται και φεύγουν σε κύκλους: η θάλασσα γίνεται στεριά και η στεριά θάλασσα, και μεγάλες καταστροφές σβήνουν τις γνώσεις των προγόνων, που σώζονται μόνο μέσα στους μύθους.",
+          "en": "Aristotle’s cosmos has no beginning or end. But human history is cyclical: sea becomes land and land sea, and periodic catastrophes wipe out the wisdom of forgotten ancestors, some of which survives only in myths (Meteorology 351b; Metaphysics 1074b).",
+          "cite": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "el": "Θεωρίες: από τη λογική στην ευδαιμονία",
+      "en": "Theories: from logic to happiness",
+      "paras": [
+        {
+          "el": "Για τον Αριστοτέλη, η φιλοσοφία ξεκινά από την απορία, από την έκπληξη μπροστά στον κόσμο: οι άνθρωποι άρχισαν να φιλοσοφούν επειδή απόρησαν με τα παράξενα πράγματα μπροστά τους, και σιγά σιγά με τα μεγαλύτερα.",
+          "en": "For Aristotle philosophy starts from wonder (Metaphysics 982b12): “human beings began to do philosophy, even as they do now, because of wonder, at first because they wondered about the strange things right in front of them, and then later, advancing little by little, because they came to find greater things puzzling”",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ο Αριστοτέλης είναι ο θεμελιωτής της λογικής. Ο συλλογισμός του είναι ένας τρόπος να βγάζουμε αναγκαστικά συμπεράσματα: «Όλοι οι άνθρωποι είναι θνητοί· ο Σωκράτης είναι άνθρωπος· άρα ο Σωκράτης είναι θνητός». Η βασική αρχή κάθε σκέψης είναι η αρχή της μη αντίφασης: κάτι δεν μπορεί ταυτόχρονα να είναι και να μην είναι.",
+          "en": "Aristotle founded logic. His syllogism is a pattern of necessary inference, as in the classic textbook example: all men are mortal; Socrates is a man; therefore Socrates is mortal. The basic principle of all thought is the law of non-contradiction: something cannot both be and not be at the same time and in the same respect (Metaphysics 1006a). Whoever demands a proof of it, he says, is no better than a plant.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Ενάντια στον Πλάτωνα, ο Αριστοτέλης λέει ότι οι μορφές δεν υπάρχουν χωριστά από τα πράγματα. Κάθε φυσικό ον είναι ένωση ύλης και μορφής. Για να το εξηγήσουμε, πρέπει να βρούμε τέσσερις αιτίες. Σε ένα χάλκινο άγαλμα: η υλική αιτία είναι ο χαλκός, η μορφική το σχήμα, η κινούσα ο γλύπτης, και η τελική ο σκοπός για τον οποίο φτιάχτηκε.",
+          "en": "Against Plato, Aristotle holds that forms do not exist apart from things: every natural being is a compound of matter and form (hylomorphism). To explain a change fully we must give four causes. For a bronze statue: the material cause is the bronze, the formal cause its shape and kind, the efficient cause the sculptor, the final cause the purpose for which it was made (Physics 194b–195a).",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Στη φύση, οι αιτίες αυτές συχνά συμπίπτουν, και κάθε ον τείνει προς έναν σκοπό. Ο σπόρος είναι «δυνάμει» δέντρο και γίνεται «ενεργεία» δέντρο όταν μεγαλώσει. Γι’ αυτό ο Αριστοτέλης μελέτησε με πάθος τη βιολογία, ήδη από τα χρόνια του στη Λέσβο.",
+          "en": "In nature these causes often coincide, and every being tends towards an end. The seed is potentially a tree and becomes actually a tree when it grows. That is why Aristotle studied biology so passionately; his natural science is continuous rather than atomistic, and purposeful (teleological) rather than mechanical.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Στην ηθική, ο Αριστοτέλης ρωτά ποιο είναι το έργο του ανθρώπου. Ο αυλητής είναι καλός όταν παίζει καλά αυλό· ο άνθρωπος είναι καλός όταν κάνει καλά αυτό που είναι μόνο δικό του: να ζει σύμφωνα με τη λογική. Η ευδαιμονία είναι δραστηριότητα της ψυχής σύμφωνα με την αρετή, σε ολόκληρη τη ζωή, γιατί «ένα χελιδόνι δεν φέρνει την άνοιξη».",
+          "en": "In ethics Aristotle asks what the function (ergon) of a human being is. A flute-player is good when he plays the flute well; a human being is good when he does well what is peculiarly human: living according to reason. Eudaimonia is activity of the soul in accordance with virtue in a complete life, “for as it is not one swallow or one fine day that makes a spring, so it is not one day or a short time that makes a man blessed and happy” (Nicomachean Ethics 1098a).",
+          "cite": [
+            2,
+            4
+          ]
+        },
+        {
+          "el": "Οι ηθικές αρετές δεν διδάσκονται με λόγια· αποκτώνται με τη συνήθεια. Γινόμαστε δίκαιοι κάνοντας δίκαιες πράξεις και θαρραλέοι κάνοντας θαρραλέες. Και κάθε αρετή είναι μια μεσότητα ανάμεσα σε δύο κακίες: η ανδρεία βρίσκεται ανάμεσα στη δειλία και στο θράσος. Ο γενναίος φαίνεται θρασύς στον δειλό και δειλός στον θρασύ.",
+          "en": "Moral virtues are not taught by words but acquired by habit: we become just by doing just acts and brave by doing brave ones (EN 1103a–b). Each virtue is a mean between two vices: courage lies between cowardice and rashness. “The brave man is called a rash man by the coward, and a coward by the rash man” (EN 1108b).",
+          "cite": [
+            2,
+            4
+          ]
+        },
+        {
+          "el": "«Ο άνθρωπος είναι από τη φύση του πολιτικό ζώο», γράφει στα «Πολιτικά». Μόνο μέσα στην πόλη μπορεί να ζήσει καλά, γιατί έχει λόγο και μπορεί να συζητά για το δίκαιο και το άδικο. Όποιος ζει έξω από την πόλη είναι ή θηρίο ή θεός. Η καλύτερη πολιτεία κυβερνάται από τους νόμους και όχι από έναν άνθρωπο, γιατί ακόμη και ο καλύτερος άρχοντας έχει πάθη.",
+          "en": "“Man is by nature a political animal,” he writes in the Politics (1253a). Only within the city can he live well, because he has speech (logos) and can deliberate about just and unjust. Whoever lives outside the city is either a beast or a god. The best community is ruled by laws rather than by one man, since even the best ruler has passions; law is like the “rule of God and reason alone” (1287a).",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Ο Αριστοτέλης όμως ήταν και άνθρωπος της εποχής του. Στα «Πολιτικά» υπερασπίζεται τη δουλεία, λέγοντας ότι μερικοί άνθρωποι είναι «από τη φύση τους δούλοι», και θεωρεί τις γυναίκες κατώτερες από τους άντρες. Αυτές οι απόψεις σήμερα απορρίπτονται, και δείχνουν ότι ακόμη και ένας μεγάλος νους μπορεί να υποτάσσεται στις προκαταλήψεις της κοινωνίας του.",
+          "en": "Aristotle was also a man of his time. In the Politics he offers a staunch defence of slavery, arguing that some people are “slaves by nature” (1254a), and he holds that males should rule over females. These views are rejected today; they show how even a great mind can serve the prejudices of its society.",
+          "cite": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "el": "Επίδραση",
+      "en": "Impact",
+      "paras": [
+        {
+          "el": "Τα έργα που σώθηκαν από τον Αριστοτέλη είναι κυρίως σημειώσεις από τις παραδόσεις του. Οι διάλογοι που έγραψε για το ευρύ κοινό σώζονται μόνο σε αποσπάσματα. Γι’ αυτό το ύφος του είναι συχνά πυκνό και δύσκολο.",
+          "en": "The works that survive are mostly records of his lectures. The dialogues and other works he wrote for a wider public survive only in fragments. That is why his style is often condensed and difficult, with heavy use of technical terminology.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Η σχολή του συνεχίστηκε με τον Θεόφραστο. Αργότερα, μεγάλοι σχολιαστές, όπως ο Αλέξανδρος ο Αφροδισιεύς, εξήγησαν τα έργα του. Τον Μεσαίωνα μεταφράστηκε στα αραβικά, και φιλόσοφοι όπως ο Ιμπν Ρουσντ (Αβερρόης) έγραψαν σχόλια. Ο Μαϊμονίδης τον ονόμασε αρχηγό των φιλοσόφων.",
+          "en": "His school continued under Theophrastus. In late antiquity commentators such as Alexander of Aphrodisias explained his works. In the Middle Ages he was translated into Arabic, and Islamic philosophers such as Ibn Rushd (Averroes) wrote commentaries; Maimonides called him the chief of the philosophers.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Στη Δύση, όταν τα έργα του μεταφράστηκαν στα λατινικά τον ενδέκατο και τον δωδέκατο αιώνα, ο Αριστοτέλης έγινε η μεγάλη αυθεντία των πανεπιστημίων. Ο Θωμάς ο Ακινάτης και οι άλλοι σχολαστικοί τον έλεγαν απλώς «ο Φιλόσοφος».",
+          "en": "In the West, once his works were published in Latin in the eleventh and twelfth centuries, he became the great authority of the universities. Aquinas and the other scholastics often called him simply “The Philosopher”.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Από τον δέκατο έκτο αιώνα και μετά, η νέα επιστήμη τον αμφισβήτησε: ο Κοπέρνικος έβγαλε τη Γη από το κέντρο, ο Γαλιλαίος έδειξε ότι τα βαριά σώματα δεν πέφτουν πιο γρήγορα από τα ελαφριά, και ο Δαρβίνος ότι τα είδη δεν είναι αιώνια. Όμως τον εικοστό αιώνα η ηθική της αρετής, με αφετηρία την Ελίζαμπεθ Άνσκομ, ξαναζωντάνεψε τον Αριστοτέλη.",
+          "en": "From the sixteenth century the new science challenged him: Copernicus removed the Earth from the centre, Galileo showed that heavier objects do not fall faster than lighter ones, and Darwin that species are not eternal. Yet in the late twentieth century virtue ethics, starting from Elizabeth Anscombe (1958), brought Aristotle back to life, and neo-Aristotelian positions are widely defended today.",
+          "cite": [
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "level": "B2+",
+      "title": "Feminine nouns in -ση / -ξη / -ψη",
+      "en": "Many abstract nouns from verbs end in **-ση, -ξη, -ψη**: **κίνηση** (κινώ), **αίσθηση**, **φύση**, **ένωση**, **εξέλιξη**, **κρίση**, **σκέψη**, **σύλληψη**. They decline like **η κίνηση, της κίνησης, οι κινήσεις, των κινήσεων**. In formal style you will still meet the learned genitive in **-εως**: **της κινήσεως, της φύσεως**, as in **εκ φύσεως** (by nature).",
+      "examples": [
+        {
+          "el": "Κάθε κίνηση χρειάζεται κάτι που την προκαλεί.",
+          "en": "Every motion needs something that causes it."
+        },
+        {
+          "el": "Η θεωρία της κινήσεως του Αριστοτέλη επικράτησε για αιώνες.",
+          "en": "Aristotle’s theory of motion prevailed for centuries."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "Neuter article + adjective: το καλό, το δίκαιο, το μέσο",
+      "en": "The neuter article turns an adjective into an abstract noun: **το καλό** (the good), **το δίκαιο** (the just; also “law”), **το άδικο**, **το ωραίο**, **το μέσο** (the middle, the mean). The article can also turn a whole **να**-clause into a noun, standing in for the infinitive Greek lost: **το να ζεις σύμφωνα με τη λογική**.",
+      "examples": [
+        {
+          "el": "Ο άνθρωπος μπορεί να συζητά για το δίκαιο και το άδικο.",
+          "en": "Man can discuss the just and the unjust."
+        },
+        {
+          "el": "Το να κάνεις δίκαιες πράξεις σε κάνει δίκαιο.",
+          "en": "Doing just acts makes you just."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "Gerund of means: κάνοντας…",
+      "en": "The active participle in **-οντας / -ώντας** often expresses **means** (“by doing”): **γινόμαστε δίκαιοι κάνοντας δίκαιες πράξεις**. Its subject must be the same as the subject of the main verb. Its negative is **μη**: **μη γνωρίζοντας** (not knowing).",
+      "examples": [
+        {
+          "el": "Γινόμαστε θαρραλέοι κάνοντας θαρραλέες πράξεις.",
+          "en": "We become brave by doing brave acts."
+        },
+        {
+          "el": "Μαθαίνουμε παρατηρώντας τη φύση.",
+          "en": "We learn by observing nature."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "είτε… είτε, ή… ή, ούτε… ούτε",
+      "en": "Aristotle loves exhaustive alternatives. **ή… ή** = either… or (exclusive): **ή θηρίο ή θεός**. **ούτε… ούτε** = neither… nor, and the verb takes **δεν**: **ο ουρανός ούτε γεννήθηκε ούτε θα χαθεί** / **δεν έχει ούτε αρχή ούτε τέλος**. **είτε… είτε** = whether… or, either… or (see Gorgias).",
+      "examples": [
+        {
+          "el": "Όποιος ζει έξω από την πόλη είναι ή θηρίο ή θεός.",
+          "en": "Whoever lives outside the city is either a beast or a god."
+        },
+        {
+          "el": "Ο κόσμος δεν έχει ούτε αρχή ούτε τέλος.",
+          "en": "The world has neither beginning nor end."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "Proverbs from Aristotle",
+      "en": "Several everyday proverbs and phrases come from Aristotle: **Ένα χελιδόνι δεν φέρνει την άνοιξη** (one swallow does not make a spring), **Ο άνθρωπος είναι πολιτικό ζώο**, **η χρυσή τομή / το μέτρο** for the mean. Note that Greek proverbs use the definite article where English uses none: **την άνοιξη**.",
+      "examples": [
+        {
+          "el": "Πέρασε μια εξέταση, αλλά ένα χελιδόνι δεν φέρνει την άνοιξη.",
+          "en": "He passed one exam, but one swallow does not make a spring."
+        },
+        {
+          "el": "Σε όλα χρειάζεται μέτρο.",
+          "en": "Everything needs moderation."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "Πόσα χρόνια έμεινε ο Αριστοτέλης στην Ακαδημία;",
+      "options": [
+        "Είκοσι",
+        "Τρία",
+        "Δέκα",
+        "Σαράντα"
+      ],
+      "answer": "Είκοσι",
+      "why": "From seventeen until Plato’s death in 347."
+    },
+    {
+      "q": "Ποιον δίδαξε ο Αριστοτέλης στην Πέλλα;",
+      "options": [
+        "Τον Αλέξανδρο",
+        "Τον Φίλιππο",
+        "Τον Πλάτωνα",
+        "Τον Θεόφραστο"
+      ],
+      "answer": "Τον Αλέξανδρο",
+      "why": "Philip’s thirteen-year-old son, from 343."
+    },
+    {
+      "q": "Γιατί οι μαθητές του λέγονταν «περιπατητικοί»;",
+      "options": [
+        "Από τον «περίπατο», μια στοά της σχολής",
+        "Γιατί ταξίδευαν από πόλη σε πόλη",
+        "Γιατί δεν είχαν σπίτι",
+        "Από το όνομα ενός δασκάλου"
+      ],
+      "answer": "Από τον «περίπατο», μια στοά της σχολής",
+      "why": "Probably a covered walk at the Lyceum."
+    },
+    {
+      "q": "Από τι είναι φτιαγμένος ο ουρανός κατά τον Αριστοτέλη;",
+      "options": [
+        "Από αιθέρα",
+        "Από φωτιά",
+        "Από νερό",
+        "Από άτομα"
+      ],
+      "answer": "Από αιθέρα",
+      "why": "The fifth element, moving eternally in a circle."
+    },
+    {
+      "q": "Ποια είναι η τελική αιτία ενός αγάλματος;",
+      "options": [
+        "Ο σκοπός για τον οποίο φτιάχτηκε",
+        "Ο χαλκός",
+        "Ο γλύπτης",
+        "Το σχήμα του"
+      ],
+      "answer": "Ο σκοπός για τον οποίο φτιάχτηκε",
+      "why": "Material = bronze, formal = shape, efficient = sculptor."
+    },
+    {
+      "q": "Η ανδρεία είναι μεσότητα ανάμεσα σε…",
+      "options": [
+        "δειλία και θράσος",
+        "φόβο και πόνο",
+        "πλούτο και φτώχεια",
+        "λογική και πάθος"
+      ],
+      "answer": "δειλία και θράσος",
+      "why": "Cowardice and rashness."
+    },
+    {
+      "q": "Συμπληρώστε: «Γινόμαστε δίκαιοι ___ δίκαιες πράξεις.»",
+      "options": [
+        "κάνοντας",
+        "κάνουμε",
+        "να κάνουμε",
+        "έκανε"
+      ],
+      "answer": "κάνοντας",
+      "why": "The -οντας form expresses means: by doing."
+    },
+    {
+      "q": "Τι σημαίνει «ένα χελιδόνι δεν φέρνει την άνοιξη»;",
+      "options": [
+        "Ένα μεμονωμένο γεγονός δεν αρκεί",
+        "Τα πουλιά φεύγουν τον χειμώνα",
+        "Η άνοιξη αργεί",
+        "Η ευτυχία είναι στιγμιαία"
+      ],
+      "answer": "Ένα μεμονωμένο γεγονός δεν αρκεί",
+      "why": "Happiness needs a complete life, not one good day."
+    }
+  ],
+  "vocab": [
+    "κατακτώ",
+    "αυλή",
+    "μέτοικος",
+    "δεσμός",
+    "σημαδεύω",
+    "αναχώρηση",
+    "συλλέγω",
+    "παρατήρηση",
+    "σύνταγμα",
+    "λεπτός",
+    "κομψά",
+    "κούρεμα",
+    "δαχτυλίδι",
+    "ανιψιός",
+    "θαλάσσιος",
+    "ιδρύω",
+    "στοά",
+    "συγκεντρώνω",
+    "ξεσπώ",
+    "αμαρτάνω",
+    "ουράνιος",
+    "συμπεραίνω",
+    "φθείρομαι",
+    "ακίνητος",
+    "έκλειψη",
+    "σκιά",
+    "άπειρο",
+    "σβήνω",
+    "πρόγονος",
+    "απορώ",
+    "θεμελιωτής",
+    "θνητός",
+    "αντίφαση",
+    "ταυτόχρονα",
+    "χάλκινος",
+    "γλύπτης",
+    "συμπίπτω",
+    "τείνω",
+    "αυλητής",
+    "χελιδόνι",
+    "συνήθεια",
+    "θαρραλέος",
+    "δειλία",
+    "θράσος",
+    "θηρίο",
+    "υπερασπίζομαι",
+    "δουλεία",
+    "κατώτερος",
+    "προκατάληψη",
+    "παράδοση",
+    "σχολιαστής",
+    "αυθεντία",
+    "αμφισβητώ",
+    "αφετηρία"
+  ],
+  "gloss": {
+    "Βιογραφία": "βιογραφία — biography",
+    "Κοσμολογία": "κοσμολογία — cosmology",
+    "έκλειψη": "έκλειψη — eclipse",
+    "π.Χ.": "π.Χ. — BC (προ Χριστού)",
+    "Αριστοτέλης": "Αριστοτέλης — Aristotle",
+    "Αριστοτέλη": "Αριστοτέλης — Aristotle",
+    "Πλάτωνα": "Πλάτων — Plato",
+    "Σωκράτης": "Σωκράτης — Socrates",
+    "Λαέρτιος": "Διογένης Λαέρτιος — Diogenes Laertius, 3rd-century AD biographer of philosophers",
+    "Μικράς": "Μικρά Ασία — Asia Minor",
+    "Ασίας": "Ασία — Asia",
+    "Ακαδημία": "Ακαδημία — Plato’s Academy",
+    "Λύκειο": "Λύκειο — Aristotle’s Lyceum; (today) upper secondary school",
+    "αρχή": "αρχή — beginning; principle; authority",
+    "Κάτω": "Κάτω Ιταλία — southern Italy (Magna Graecia)",
+    "σφαιρική": "σφαιρικός — spherical",
+    "Διογένης": "Διογένης — Diogenes",
+    "Βαβυλώνα": "Βαβυλώνα — Babylon",
+    "Κοπέρνικος": "Κοπέρνικος — Copernicus",
+    "Σπεύσιππος": "Σπεύσιππος — Speusippus, Plato’s nephew and successor",
+    "Απόλλωνα": "Απόλλων — Apollo",
+    "Θεόφραστο": "Θεόφραστος — Theophrastus",
+    "εκλείψεις": "έκλειψη — eclipse",
+    "αναγκαστικά": "αναγκαστικά — necessarily",
+    "αιθέρας": "αιθέρας — aether (fifth element)",
+    "αιθέρα": "αιθέρας — aether (fifth element)",
+    "ασέβεια": "ασέβεια — impiety",
+    "πυκνό": "πυκνός — dense",
+    "κοσμολογία": "κοσμολογία — cosmology",
+    "Πλάτων": "Πλάτων — Plato",
+    "Θεόφραστος": "Θεόφραστος — Theophrastus, Aristotle’s successor",
+    "Ιταλία": "Ιταλία — Italy",
+    "Φιλίππου": "Φίλιππος — Philip II of Macedon",
+    "Φίλιππο": "Φίλιππος — Philip II of Macedon",
+    "Στάγειρα": "Στάγειρα — Stagira (Aristotle's birthplace)",
+    "Χαλκιδικής": "Χαλκιδική — Chalcidice",
+    "Σταγειρίτη": "Σταγειρίτης — the Stagirite (Aristotle)",
+    "Νικόμαχος": "Νικόμαχος — Nicomachus",
+    "Νικόμαχο": "Νικόμαχος — Nicomachus",
+    "Νικομάχεια": "Νικομάχεια — Nicomachean (Ethics)",
+    "Αμύντα": "Αμύντας — Amyntas (king of Macedon)",
+    "Αλεξάνδρου": "Αλέξανδρος — Alexander",
+    "Άσσο": "Άσσος — Assos (in Asia Minor)",
+    "Ερμεία": "Ερμείας — Hermias (ruler of Atarneus and Assos)",
+    "Πυθιάδα": "Πυθιάς — Pythias (Aristotle's wife)",
+    "Ερπυλλίδα": "Ερπυλλίς — Herpyllis",
+    "Χαλκίδα": "Χαλκίδα — Chalcis",
+    "Εύβοιας": "Εύβοια — Euboea",
+    "Αφροδισιεύς": "Αφροδισιεύς — of Aphrodisias",
+    "Μεσαίωνα": "Μεσαίωνας — the Middle Ages",
+    "Ιμπν": "Ιμπν — Ibn (Ibn Rushd)",
+    "Ρουσντ": "Ρουσντ — Rushd (Ibn Rushd, Averroes)",
+    "Αβερρόης": "Αβερρόης — Averroes",
+    "Μαϊμονίδης": "Μαϊμονίδης — Maimonides",
+    "Ακινάτης": "Ακινάτης — Aquinas",
+    "Γαλιλαίος": "Γαλιλαίος — Galileo",
+    "Άνσκομ": "Άνσκομ — Elizabeth Anscombe",
+    "Περσική": "περσικός — Persian",
+    "ισχυρότερη": "ισχυρός — strongest",
+    "μακεδονική": "μακεδονικός — Macedonian",
+    "μακεδονικούς": "μακεδονικός — Macedonian",
+    "αντιμακεδονικό": "αντιμακεδονικός — anti-Macedonian",
+    "μέτοικος": "μέτοικος — resident alien, metic",
+    "σημάδεψε": "σημαδεύω — to mark, scar",
+    "σημαδεύω": "σημαδεύω — to mark, scar",
+    "δεκαεφτά": "δεκαεφτά — seventeen",
+    "δεκατριάχρονου": "δεκατριάχρονος — thirteen-year-old",
+    "περιπατητικοί": "περιπατητικός — Peripatetic",
+    "αμαρτήσουν": "αμαρτάνω — to sin",
+    "αμαρτάνω": "αμαρτάνω — to sin",
+    "φθείρονται": "φθείρομαι — to perish, decay",
+    "φθείρομαι": "φθείρομαι — to perish, decay",
+    "νόησις": "νόηση — thinking (ancient form)",
+    "νοήσεως": "νόηση — of thinking (ancient genitive)",
+    "θεμελιωτής": "θεμελιωτής — founder",
+    "χάλκινο": "χάλκινος — bronze",
+    "χάλκινος": "χάλκινος — bronze",
+    "χαλκός": "χαλκός — bronze, copper",
+    "συμπίπτουν": "συμπίπτω — to coincide",
+    "αυλητής": "αυλητής — flute player (aulos player)",
+    "αυλό": "αυλός — aulos, ancient double pipe",
+    "θαρραλέοι": "θαρραλέος — brave",
+    "θαρραλέες": "θαρραλέος — brave",
+    "θαρραλέος": "θαρραλέος — brave",
+    "μεσότητα": "μεσότητα — the mean",
+    "κατώτερες": "κατώτερος — inferior",
+    "κατώτερος": "κατώτερος — inferior",
+    "υποτάσσεται": "υποτάσσομαι — to submit, be subject to",
+    "προκαταλήψεις": "προκατάληψη — prejudice",
+    "αραβικά": "αραβικά — Arabic (language)",
+    "ενδέκατο": "ενδέκατος — eleventh",
+    "σχολαστικοί": "σχολαστικός — scholastic",
+    "εικοστό": "εικοστός — twentieth",
+    "ξαναζωντάνεψε": "ξαναζωντανεύω — to revive",
+    "γυμναστικό": "γυμναστικός — athletic, gymnastic",
+    "φιλοσοφούν": "φιλοσοφώ — to philosophise",
+    "υλική": "υλικός — material",
+    "μορφική": "μορφικός — formal (of form)",
+    "θρασύς": "θρασύς — rash, reckless",
+    "θρασύ": "θρασύς — rash, reckless"
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "Christopher Shields, “Aristotle”, Stanford Encyclopedia of Philosophy (2020): life (Stagira, Academy, Assos, Lesbos, Pella, Lyceum, Chalcis), the corpus, method, wonder, unmoved mover, happiness.",
+      "url": "https://plato.stanford.edu/entries/aristotle/"
+    },
+    {
+      "n": 2,
+      "text": "Justin Humphreys, “Aristotle”, Internet Encyclopedia of Philosophy: life and lost works, natural philosophy and four causes, cosmology and geology, first philosophy, ethics, household and state, influence.",
+      "url": "https://iep.utm.edu/aristotle/"
+    },
+    {
+      "n": 3,
+      "text": "Diogenes Laertius, Lives of the Eminent Philosophers, Book V (Aristotle), trans. R. D. Hicks, Wikisource: father Nicomachus, twenty years with Plato, impiety charge, death at sixty-three.",
+      "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_V"
+    },
+    {
+      "n": 4,
+      "text": "Aristotle, Nicomachean Ethics, trans. D. P. Chase (Project Gutenberg #8438): one swallow (1098a), the brave man between coward and rash man (1108b).",
+      "url": "https://www.gutenberg.org/ebooks/8438"
+    }
+  ]
+}
