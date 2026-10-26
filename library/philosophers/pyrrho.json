@@ -1,0 +1,596 @@
+{
+  "id": "pyrrho",
+  "el": "Πύρρων",
+  "title": "Pyrrho",
+  "level": "B2+",
+  "dates": "περ. 365 – 275 π.Χ.",
+  "image": {
+    "file": "img/philosophers/pyrrho.jpg",
+    "caption": "Ο Πύρρων στην τρικυμία δείχνει το γουρουνάκι που τρώει ήσυχα· ζωγραφική του «Δασκάλου του Πετράρχη» (16ος αι.).",
+    "caption_en": "Pyrrho in a storm at sea, pointing to the pig calmly eating: “the wise man should imitate this security”. Painting by the Petrarch Master, 16th century, Alte Pinakothek, Munich.",
+    "credit": "Petrarca-Meister (Master of the Petrarch illustrations), Alte Pinakothek, Munich; The Yorck Project",
+    "license": "Public domain (PD-Art)",
+    "source": "https://commons.wikimedia.org/wiki/File:Petrarca-Meister_001.jpg"
+  },
+  "summary_en": "Pyrrho of Elis (c. 365–360 – c. 275–270 BC) began as a painter, studied with the Democritean Anaxarchus, and travelled with Alexander the Great as far as India, where he is said to have met the “naked wise men” (gymnosophists). Back in Elis he lived quietly with his sister, doing housework and taking pigs to market, and became so admired that his city made him high priest. He wrote nothing; we know his ideas mainly through his pupil **Timon of Phlius**. According to Timon, to be happy we must ask three questions: what things are like by nature, how we should be disposed towards them, and what will come of it. The answers: things are **indifferent, unstable and undecidable**; so we should trust neither our senses nor our opinions, and say of each thing that it **“no more is than is not”**; the result is first **speechlessness (aphasia)** and then **freedom from worry (ataraxia)**. Scholars still debate whether he was a true sceptic or a metaphysician of indeterminacy. Centuries later his name was given to **Pyrrhonism**, the radical scepticism of Aenesidemus and Sextus Empiricus, which shaped early modern philosophy.",
+  "terms": [
+    {
+      "el": "ο σκεπτικισμός",
+      "en": "scepticism",
+      "def_el": "Η φιλοσοφική στάση που αμφιβάλλει αν μπορούμε να γνωρίσουμε την αλήθεια.",
+      "def_en": "From σκέπτομαι “examine, look carefully”: the sceptic is “one who keeps examining”."
+    },
+    {
+      "el": "η εποχή",
+      "en": "suspension of judgement (epochē)",
+      "def_el": "Το να μην αποφασίζεις αν κάτι είναι αληθινό ή ψεύτικο.",
+      "def_en": "From ἐπέχω “hold back”. Same word as modern εποχή “era, season”!"
+    },
+    {
+      "el": "η αταραξία",
+      "en": "tranquillity, freedom from worry",
+      "def_el": "Η ψυχική ηρεμία, όταν τίποτα δεν σε ταράζει.",
+      "def_en": "α- + ταράσσω “disturb”. Shared goal of Pyrrhonists and Epicureans."
+    },
+    {
+      "el": "η αφασία",
+      "en": "non-assertion; speechlessness",
+      "def_el": "Για τον Πύρρωνα, το να μη δηλώνεις τίποτα με βεβαιότητα.",
+      "def_en": "α- + φημί “say”. Modern αφασία is the medical condition “aphasia”."
+    },
+    {
+      "el": "η απάθεια",
+      "en": "impassivity, freedom from passion",
+      "def_el": "Το να μη σε επηρεάζουν τα πάθη και τα συναισθήματα.",
+      "def_en": "Modern απάθεια = apathy, indifference, usually negative."
+    },
+    {
+      "el": "αδιάφορος",
+      "en": "indifferent, undifferentiated",
+      "def_el": "Που δεν διαφέρει από κάτι άλλο· και που δεν σε ενδιαφέρει.",
+      "def_en": "Timon’s first epithet for things: ἀδιάφορα."
+    },
+    {
+      "el": "ανεπίκριτος",
+      "en": "undecidable, indeterminate",
+      "def_el": "Που δεν μπορεί να κριθεί ή να αποφασιστεί.",
+      "def_en": "Learned; ἀνεπίκριτα is Timon’s third epithet."
+    },
+    {
+      "el": "οι γυμνοσοφιστές",
+      "en": "gymnosophists, “naked wise men”",
+      "def_el": "Έτσι έλεγαν οι Έλληνες τους ασκητές σοφούς της Ινδίας.",
+      "def_en": "γυμνός + σοφιστής. Perhaps Jain or other Indian ascetics; the identification is debated."
+    },
+    {
+      "el": "η συνήθεια / ο νόμος",
+      "en": "custom, convention",
+      "def_el": "Αυτό που κάνουν οι άνθρωποι επειδή έτσι έχουν μάθει.",
+      "def_en": "For Pyrrho, human beings do everything by convention and habit."
+    },
+    {
+      "el": "ου μάλλον",
+      "en": "“no more (this than that)”",
+      "def_el": "Η χαρακτηριστική έκφραση των σκεπτικών: κάτι δεν είναι περισσότερο έτσι παρά αλλιώς.",
+      "def_en": "Ancient οὐ μᾶλλον; in modern Greek «όχι περισσότερο… παρά…»."
+    }
+  ],
+  "sections": [
+    {
+      "id": "context",
+      "el": "Ιστορικό πλαίσιο",
+      "en": "Historical context",
+      "paras": [
+        {
+          "el": "Ο Πύρρων γεννήθηκε στην Ήλιδα της Πελοποννήσου, κοντά στην Ολυμπία, γύρω στο 365–360 π.Χ., την ίδια περίπου εποχή με τον Κράτη. Ήταν νέος όταν ο Αλέξανδρος ξεκίνησε την εκστρατεία του στην Ασία, που για πρώτη φορά έφερε τους Έλληνες σε επαφή με τους σοφούς της Περσίας και της Ινδίας.",
+          "en": "Pyrrho was born in Elis in the Peloponnese, near Olympia, around 365–360 BC, roughly the same time as Crates. He was a young man when Alexander began his campaign in Asia, which for the first time brought Greeks into direct contact with the sages of Persia and India.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Στη φιλοσοφία, η εποχή του ήταν εποχή αμφιβολίας. Οι προσωκρατικοί είχαν δώσει δεκάδες διαφορετικές απαντήσεις για τη φύση του κόσμου, ο Πρωταγόρας είχε πει ότι ο άνθρωπος είναι μέτρο όλων, και ο Δημόκριτος είχε γράψει ότι «στην πραγματικότητα δεν ξέρουμε τίποτα, γιατί η αλήθεια βρίσκεται στον βυθό».",
+          "en": "In philosophy it was an age of doubt. The Presocratics had given dozens of conflicting answers about the nature of the world, Protagoras had made man the measure of all things, and Democritus had written: “Of a truth we know nothing, for truth is in a well” (DL IX 72). Ancient writers listed Xenophanes, Zeno and Democritus among the forerunners of scepticism.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Ο πρώτος δάσκαλος του Πύρρωνα για τον οποίο έχουμε αξιόπιστες πληροφορίες ήταν ο Ανάξαρχος από τα Άβδηρα, οπαδός του Δημόκριτου. Ο Ανάξαρχος ήταν ένας από τους φιλοσόφους που ακολούθησαν τον Αλέξανδρο στην εκστρατεία του.",
+          "en": "The most reliable reports of Pyrrho’s teachers concern Anaxarchus of Abdera, a follower of Democritus’ tradition, one of several philosophers who accompanied Alexander on his expedition.",
+          "cite": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "el": "Βιογραφία",
+      "en": "Biography",
+      "paras": [
+        {
+          "el": "Ο Πύρρων ήταν γιος του Πλειστάρχου. Στην αρχή ήταν φτωχός και άγνωστος ζωγράφος· ο Διογένης ο Λαέρτιος λέει ότι στο γυμνάσιο της Ήλιδας υπήρχαν ακόμη κάποιοι μέτριοι πίνακές του με λαμπαδηφόρους.",
+          "en": "Pyrrho was the son of Pleistarchus. At first he was a poor and unknown painter; Diogenes Laertius says that some “indifferent torch-racers” of his could still be seen in the gymnasium at Elis.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Μαζί με τον Ανάξαρχο ακολούθησε τον Αλέξανδρο ως την Ινδία. Εκεί, λέγεται, γνώρισε τους «γυμνοσοφιστές», τους γυμνούς σοφούς της Ινδίας, και τους μάγους της Περσίας. Ο Διογένης ο Λαέρτιος λέει ότι η φιλοσοφία του γεννήθηκε από αυτή τη συνάντηση, αλλά δεν ξέρουμε αν αυτό είναι αλήθεια.",
+          "en": "With Anaxarchus he accompanied Alexander as far as India, where he is said to have met the gymnosophists, the “naked wise men”, and the Magi. Diogenes Laertius (IX 61) claims that his philosophy grew out of this meeting, but, as SEP notes, it is not clear what basis he has for this; the extent of Indian influence remains disputed.",
+          "cite": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Ένας Ινδός, λέει ο Διογένης, κατηγόρησε τον Ανάξαρχο ότι δεν μπορεί να διδάξει σε άλλους το καλό, αφού ο ίδιος κολακεύει τους βασιλιάδες στις αυλές τους. Από τότε ο Πύρρων αποτραβήχτηκε από τον κόσμο και ζούσε μόνος, χωρίς να βλέπει σχεδόν ούτε τους συγγενείς του.",
+          "en": "An Indian, says Diogenes, reproached Anaxarchus that he could never teach others what is good while he himself danced attendance on kings in their courts. From then on Pyrrho withdrew from the world and lived in solitude, rarely showing himself even to his relatives.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Στην Ήλιδα ζούσε με την αδελφή του, τη Φιλίστα, που ήταν μαία. Έκανε ο ίδιος τις δουλειές του σπιτιού, ξεσκόνιζε, πήγαινε στην αγορά να πουλήσει πουλερικά ή γουρουνάκια, και μια φορά, λένε, έπλυνε ένα γουρούνι, για να δείξει ότι για εκείνον όλα ήταν αδιάφορα.",
+          "en": "In Elis he lived with his sister Philista, a midwife. He did the housework himself, dusted, took poultry or piglets to market, and once, they say, washed a pig, showing his indifference to what he did. Such tasks were normally left to social inferiors; the point is that he did not care about the disapproval of others.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Οι ιστορίες για την ηρεμία του είναι πολλές. Όταν οι γιατροί τού έβαλαν καυστικά φάρμακα σε μια πληγή, δεν ζάρωσε καν τα φρύδια. Σε ένα πλοίο, μέσα σε τρικυμία, όλοι οι επιβάτες είχαν τρομάξει· ο Πύρρων έδειξε ένα γουρουνάκι που συνέχιζε ήσυχα να τρώει και είπε ότι έτσι πρέπει να μένει ο σοφός.",
+          "en": "Stories of his calm abound. When caustic remedies were applied to a wound, he did not so much as frown. On a ship in a storm, when all his fellow passengers were terrified, he pointed to a little pig on board that went on eating, and said that such was the unperturbed state in which the wise man should keep himself (Posidonius, in DL IX 68).",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Κάποιες ιστορίες είναι προφανώς υπερβολές των αντιπάλων του: λέγεται ότι δεν απέφευγε ούτε άμαξες ούτε γκρεμούς ούτε σκυλιά, και ότι οι φίλοι του τον ακολουθούσαν για να μην πάθει κακό. Ο Αινησίδημος όμως έγραψε ότι μόνο η φιλοσοφία του στηριζόταν στην εποχή, ενώ στην καθημερινή ζωή ήταν συνετός.",
+          "en": "Some stories are clearly hostile inventions: Antigonus of Carystus said he took no precautions against carts, precipices or dogs, and that his friends had to follow him around. But Aenesidemus said that only his philosophy was based on suspension of judgement, and that he did not lack foresight in everyday life. SEP: there is no reason to take the hostile version seriously as biography.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Οι συμπολίτες του τον τίμησαν τόσο πολύ, που τον έκαναν αρχιερέα και, χάρη σε αυτόν, απάλλαξαν όλους τους φιλοσόφους από τους φόρους. Ο περιηγητής Παυσανίας είδε αιώνες αργότερα το άγαλμά του στην αγορά της Ήλιδας. Ο Πύρρων πέθανε σε ηλικία σχεδόν ενενήντα ετών, γύρω στο 275–270 π.Χ.",
+          "en": "His fellow citizens honoured him by making him high priest and, on his account, exempting all philosophers from taxation (DL IX 64). The travel writer Pausanias (6.24.5) saw his statue in the marketplace of Elis centuries later. Pyrrho died aged nearly ninety, around 275–270 BC.",
+          "cite": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "el": "Κοσμολογία: πώς είναι τα πράγματα;",
+      "en": "Cosmology: what are things like?",
+      "paras": [
+        {
+          "el": "Ο Πύρρων δεν έγραψε τίποτα. Η πιο σημαντική πηγή για τη σκέψη του είναι μια περίληψη του μαθητή του, του Τίμωνα, που σώθηκε μέσα από τον Αριστοκλή και τον Ευσέβιο. Κατά τον Τίμωνα, όποιος θέλει να είναι ευτυχισμένος πρέπει να απαντήσει σε τρία ερωτήματα: πώς είναι τα πράγματα από τη φύση τους; πώς πρέπει να στεκόμαστε απέναντί τους; και τι θα κερδίσουμε;",
+          "en": "Pyrrho wrote nothing. The key evidence is a summary of Timon’s account preserved by the Peripatetic Aristocles and quoted by Eusebius. According to Timon, whoever wants to be happy must look at three questions: what are things like by nature? how should we be disposed towards them? and what will be the outcome for those so disposed?",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Η απάντηση στο πρώτο ερώτημα είναι η «κοσμολογία» του Πύρρωνα, και είναι εντυπωσιακά σύντομη: τα πράγματα είναι «αδιάφορα, αστάθμητα και ανεπίκριτα». Δεν έχουν σταθερές διαφορές, δεν μπορούν να ζυγιστούν και δεν μπορούν να κριθούν.",
+          "en": "The answer to the first question is Pyrrho’s “cosmology”, and it is strikingly brief: things are adiaphora, astathmēta and anepikrita: indifferent (or undifferentiable), unstable (or unmeasurable), and indeterminate (or undecidable).",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Οι μελετητές διαφωνούν για το τι σημαίνουν αυτές οι λέξεις. Κατά τη «μεταφυσική» ερμηνεία, ο Πύρρων λέει ότι ο ίδιος ο κόσμος είναι αόριστος: τα πράγματα δεν έχουν σταθερή φύση. Κατά την «επιστημολογική» ερμηνεία, λέει μόνο ότι εμείς δεν μπορούμε να γνωρίσουμε τη φύση τους.",
+          "en": "Scholars disagree about what the words mean. On the metaphysical interpretation, Pyrrho says that reality itself is indeterminate: things have no fixed nature, and he is then not a sceptic in any recognisable sense. On the epistemological interpretation, he says only that we cannot determine their nature, which makes him a forerunner of later scepticism.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ο Διογένης ο Λαέρτιος το λέει πιο απλά: για τον Πύρρωνα τίποτα δεν είναι από τη φύση του ωραίο ή άσχημο, δίκαιο ή άδικο· οι άνθρωποι κάνουν τα πάντα από συνήθεια και σύμβαση, γιατί κανένα πράγμα δεν είναι περισσότερο αυτό παρά εκείνο.",
+          "en": "Diogenes Laertius puts it more simply: Pyrrho denied that anything was honourable or dishonourable, just or unjust; “custom and convention govern human action; for no single thing is in itself any more this than that” (IX 61).",
+          "cite": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "el": "Θεωρίες: ο δρόμος προς την αταραξία",
+      "en": "Theories: the road to tranquillity",
+      "paras": [
+        {
+          "el": "Αφού τα πράγματα είναι έτσι, ούτε οι αισθήσεις ούτε οι γνώμες μας λένε την αλήθεια ή ψέματα. Γι’ αυτό, λέει ο Τίμων, δεν πρέπει να τους εμπιστευόμαστε, αλλά να μένουμε χωρίς γνώμες, χωρίς να γέρνουμε προς καμία πλευρά.",
+          "en": "Since things are like this, neither our sensations nor our opinions tell the truth or lie. So, says Timon, we should not trust them but adopt an unopinionated attitude, refraining from positing any definite characteristics in the nature of things.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Για κάθε πράγμα πρέπει να λέμε ότι «δεν είναι περισσότερο απ’ ό,τι δεν είναι, ή και είναι και δεν είναι, ή ούτε είναι ούτε δεν είναι». Η έκφραση «ου μάλλον», «όχι περισσότερο», έγινε αργότερα το σύνθημα των σκεπτικών.",
+          "en": "About each single thing we should say “that it no more is than is not, or both is and is not, or neither is nor is not”. The expression ou mallon, “no more”, later became a watchword of the sceptics; Sextus Empiricus says they used it to express suspension of judgement.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Και το αποτέλεσμα; Πρώτα έρχεται η «αφασία», δηλαδή το να μη δηλώνεις τίποτα με βεβαιότητα, ή ίσως μια σιωπή από έκπληξη. Ύστερα έρχεται η «αταραξία», η ψυχική γαλήνη. Αυτός είναι ο στόχος: όχι η γνώση, αλλά η ηρεμία.",
+          "en": "And the outcome? First aphasia, non-assertion or perhaps a stunned speechlessness (some scholars read apatheia, “lack of passion”), and then ataraxia, freedom from worry. That is the goal: not knowledge, but peace of mind.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ο Πύρρων δεν ήταν όμως πέτρα. Όταν κάποιος τον κατηγόρησε ότι θύμωσε για χάρη της αδελφής του, απάντησε ότι η αδιαφορία δεν δείχνεται σε βάρος μιας αδύναμης γυναίκας. Κι όταν τον τρόμαξε ένα σκυλί, είπε ότι δεν είναι εύκολο να ξεντυθεί κανείς εντελώς τον άνθρωπο, αλλά πρέπει να παλεύει με τα πράγματα, με έργα αν μπορεί, αλλιώς με λόγια.",
+          "en": "Pyrrho was not made of stone. When blamed for getting angry on his sister’s behalf, he replied that it was not over a weak woman that one should display indifference. And when a dog rushed at him and frightened him, he said that it was not easy entirely to strip oneself of human weakness, but one should strive against facts, by deeds if possible, and if not, in word (DL IX 66). SEP notes he was an “aspirationalist”: his calm was not perfect.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Ένας μαθητής τον βρήκε κάποτε να μιλάει μόνος του και τον ρώτησε γιατί. «Εξασκούμαι να γίνω καλός», απάντησε. Για τον Πύρρωνα, η φιλοσοφία δεν ήταν θεωρία αλλά τρόπος ζωής και άσκηση.",
+          "en": "Found once talking to himself, he answered that he was training to be good. For Pyrrho philosophy was not a theory but a way of life and a discipline. Nausiphanes, the future teacher of Epicurus, said one should follow Pyrrho in disposition but himself in doctrine.",
+          "cite": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "el": "Επίδραση",
+      "en": "Impact",
+      "paras": [
+        {
+          "el": "Ο πιο σημαντικός μαθητής του ήταν ο Τίμων από τη Φλιούντα, που έγραψε σατιρικά ποιήματα, τους «Σίλλους», κοροϊδεύοντας όλους τους φιλοσόφους εκτός από τον δάσκαλό του. «Πώς, Πύρρων, βρήκες τη γαλήνη και ζεις ανάμεσα στους ανθρώπους σαν θεός;» τον ρωτά σε ένα ποίημα.",
+          "en": "His most important pupil was Timon of Phlius, who wrote satirical poems, the Silloi (Lampoons), mocking every philosopher except his master. “This, Pyrrho, this my heart is fain to know, whence peace of mind to thee doth freely flow, why among men thou like a god dost show?”",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Μετά τον θάνατο του Τίμωνα, ο Πύρρων ξεχάστηκε σχεδόν. Ο Κικέρωνας και ο Σενέκας τον αναφέρουν ως φιλόσοφο χωρίς οπαδούς. Ίσως επηρέασε τον σκεπτικισμό της Ακαδημίας και τον Επίκουρο, που κι αυτός ζητούσε την αταραξία· ο Επίκουρος, λέει ο Διογένης, ρωτούσε συχνά για τον τρόπο ζωής του Πύρρωνα.",
+          "en": "After Timon, Pyrrho was nearly forgotten; Cicero and Seneca refer to him as a neglected figure without a following. He may have influenced the sceptical Academy, and perhaps the Epicureans, who also sought ataraxia; Epicurus, says Diogenes, admired Pyrrho’s way of life and often asked about him. But the Epicureans reached tranquillity through atomism and trusted the senses.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Τον πρώτο αιώνα π.Χ., ο Αινησίδημος ξαναζωντάνεψε τη φιλοσοφία του με το όνομα «πυρρωνισμός». Τα έργα του Σέξτου του Εμπειρικού, που σώθηκαν, έγιναν το εγχειρίδιο του αρχαίου σκεπτικισμού, και όταν ξαναδιαβάστηκαν στη νεότερη Ευρώπη, επηρέασαν βαθιά τη φιλοσοφία.",
+          "en": "In the first century BC Aenesidemus revived his thought under the name Pyrrhonism, one of the two great schools of ancient scepticism. The surviving works of Sextus Empiricus became its handbook, and given the importance of Pyrrhonism in early modern philosophy, Pyrrho’s indirect influence may be thought of as very considerable.",
+          "cite": [
+            1,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "level": "B2+",
+      "title": "όχι περισσότερο… παρά…: comparing alternatives",
+      "en": "The sceptic formula «ου μάλλον» is in modern Greek **όχι περισσότερο… παρά…** or **δεν είναι περισσότερο… απ’ ό,τι…**. Use **παρά** when comparing two qualities, actions or phrases; use **από / απ’ ό,τι** before a clause. **Μάλλον** survives in modern Greek too, meaning “probably” or “rather”: **μάλλον έχεις δίκιο**; **θέλω μάλλον τσάι παρά καφέ**.",
+      "examples": [
+        {
+          "el": "Το μέλι δεν είναι περισσότερο γλυκό παρά πικρό.",
+          "en": "Honey is no more sweet than bitter."
+        },
+        {
+          "el": "Μάλλον ήταν ζωγράφος παρά φιλόσοφος στα νιάτα του.",
+          "en": "He was rather a painter than a philosopher in his youth."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "φαίνεται: appearance vs reality",
+      "en": "Sceptics speak of how things **appear**, not how they **are**. **φαίνομαι** + adjective: **το μέλι φαίνεται γλυκό**. Impersonal **φαίνεται ότι / πως** + indicative states an inference: **φαίνεται ότι ο Πύρρων ταξίδεψε στην Ινδία**. **φαίνεται να** + verb is more tentative: **φαίνεται να ήταν ζωγράφος**. **μου φαίνεται** = it seems to me, I think.",
+      "examples": [
+        {
+          "el": "Το μέλι μού φαίνεται γλυκό, αλλά δεν ξέρω αν είναι.",
+          "en": "Honey seems sweet to me, but I do not know if it is."
+        },
+        {
+          "el": "Φαίνεται ότι ο Πύρρων δεν έγραψε τίποτα.",
+          "en": "It seems that Pyrrho wrote nothing."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "Imperfect for habits in the past",
+      "en": "For repeated or habitual actions in the past Greek uses the **imperfect** (continuous past), not the aorist: **ξεσκόνιζε, πήγαινε στην αγορά, ζούσε μόνος, μιλούσε μόνος του**. The aorist is for single completed events: **μια φορά έπλυνε ένα γουρούνι**. English often uses “used to” or “would” for the imperfect.",
+      "examples": [
+        {
+          "el": "Πήγαινε στην αγορά να πουλήσει πουλερικά.",
+          "en": "He used to go to the market to sell poultry."
+        },
+        {
+          "el": "Μια φορά δεν βοήθησε τον Ανάξαρχο, που είχε πέσει σε έναν βάλτο.",
+          "en": "Once he did not help Anaxarchus, who had fallen into a bog."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "Nouns with privative α-: αταραξία, αφασία, απάθεια",
+      "en": "The privative prefix **α- / αν-** also forms abstract nouns: **αταραξία** (ταράζω), **αφασία** (φημί), **απάθεια** (πάθος), **αδιαφορία** (διαφέρω), **ανησυχία** (ησυχία), **αβεβαιότητα**. Many are learned words used in philosophy, medicine and journalism; note how **ανησυχία** (worry) is the exact opposite of **αταραξία**.",
+      "examples": [
+        {
+          "el": "Ο στόχος του Πύρρωνα ήταν η αταραξία.",
+          "en": "Pyrrho’s goal was tranquillity."
+        },
+        {
+          "el": "Η ανησυχία των επιβατών δεν άγγιξε τον Πύρρωνα.",
+          "en": "The passengers’ anxiety did not touch Pyrrho."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "Learned set phrases: ει δυνατόν, εν πάση περιπτώσει",
+      "en": "Pyrrho’s “by deeds if possible, and if not, in word” uses phrases still common in formal Greek: **ει δυνατόν** (if possible), **ει δε μη** (otherwise), **εν πάση περιπτώσει** (in any case), **εν τω μεταξύ** (meanwhile), **κατά τα άλλα** (otherwise, apart from that). Learn them as fixed expressions; the ancient grammar inside does not change.",
+      "examples": [
+        {
+          "el": "Πρέπει να παλεύουμε με έργα, ει δυνατόν, ει δε μη, με λόγια.",
+          "en": "We must strive by deeds if possible, otherwise by words."
+        },
+        {
+          "el": "Εν πάση περιπτώσει, ο Πύρρων δεν έγραψε τίποτα.",
+          "en": "In any case, Pyrrho wrote nothing."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "Τι δουλειά έκανε ο Πύρρων πριν γίνει φιλόσοφος;",
+      "options": [
+        "Ήταν ζωγράφος",
+        "Ήταν γιατρός",
+        "Ήταν στρατιώτης",
+        "Ήταν έμπορος"
+      ],
+      "answer": "Ήταν ζωγράφος",
+      "why": "A poor and unknown painter, DL IX 61–62."
+    },
+    {
+      "q": "Με ποιον ταξίδεψε ο Πύρρων ως την Ινδία;",
+      "options": [
+        "Με τον Ανάξαρχο και τον στρατό του Αλεξάνδρου",
+        "Με τον Πλάτωνα",
+        "Με τον Κράτη",
+        "Με τον Αριστοτέλη"
+      ],
+      "answer": "Με τον Ανάξαρχο και τον στρατό του Αλεξάνδρου",
+      "why": "He met the gymnosophists there."
+    },
+    {
+      "q": "Τι έδειξε ο Πύρρων στους επιβάτες κατά την τρικυμία;",
+      "options": [
+        "Ένα γουρουνάκι που έτρωγε ήσυχα",
+        "Τα αστέρια",
+        "Μια σωσίβια λέμβο",
+        "Τον καπετάνιο"
+      ],
+      "answer": "Ένα γουρουνάκι που έτρωγε ήσυχα",
+      "why": "The wise man should be as unperturbed."
+    },
+    {
+      "q": "Πώς είναι τα πράγματα από τη φύση τους, κατά τον Τίμωνα;",
+      "options": [
+        "Αδιάφορα, αστάθμητα και ανεπίκριτα",
+        "Φτιαγμένα από άτομα",
+        "Εικόνες των ιδεών",
+        "Φτιαγμένα από νερό"
+      ],
+      "answer": "Αδιάφορα, αστάθμητα και ανεπίκριτα",
+      "why": "The Aristocles passage."
+    },
+    {
+      "q": "Ποιο είναι το τελικό αποτέλεσμα της στάσης του Πύρρωνα;",
+      "options": [
+        "Η αταραξία",
+        "Η γνώση",
+        "Ο πλούτος",
+        "Η δόξα"
+      ],
+      "answer": "Η αταραξία",
+      "why": "First aphasia, then ataraxia."
+    },
+    {
+      "q": "Ποια τιμή του έδωσε η Ήλιδα;",
+      "options": [
+        "Τον έκανε αρχιερέα",
+        "Τον έκανε βασιλιά",
+        "Του έδωσε χρυσό στεφάνι",
+        "Τον έστειλε πρέσβη στην Αθήνα"
+      ],
+      "answer": "Τον έκανε αρχιερέα",
+      "why": "And exempted philosophers from taxes."
+    },
+    {
+      "q": "Συμπληρώστε: «Κάθε μέρα ___ στην αγορά.»",
+      "options": [
+        "πήγαινε",
+        "πήγε",
+        "θα πάει",
+        "να πάει"
+      ],
+      "answer": "πήγαινε",
+      "why": "Habitual past: imperfect."
+    },
+    {
+      "q": "Ποια λέξη είναι το αντίθετο της «αταραξίας»;",
+      "options": [
+        "ανησυχία",
+        "ησυχία",
+        "γαλήνη",
+        "ηρεμία"
+      ],
+      "answer": "ανησυχία",
+      "why": "αν- + ησυχία = lack of quiet, worry."
+    }
+  ],
+  "vocab": [
+    "εκστρατεία",
+    "επαφή",
+    "αμφιβολία",
+    "βυθός",
+    "αξιόπιστος",
+    "οπαδός",
+    "μέτριος",
+    "λαμπαδηφόρος",
+    "μάγος",
+    "κολακεύω",
+    "αποτραβιέμαι",
+    "συγγενής",
+    "ξεσκονίζω",
+    "πουλερικά",
+    "γουρούνι",
+    "καυστικός",
+    "πληγή",
+    "ζαρώνω",
+    "τρικυμία",
+    "επιβάτης",
+    "υπερβολή",
+    "άμαξα",
+    "γκρεμός",
+    "συνετός",
+    "αρχιερέας",
+    "απαλλάσσω",
+    "φόρος",
+    "περιηγητής",
+    "περίληψη",
+    "αστάθμητος",
+    "ζυγίζω",
+    "αόριστος",
+    "σύμβαση",
+    "εμπιστεύομαι",
+    "σύνθημα",
+    "βεβαιότητα",
+    "έκπληξη",
+    "γαλήνη",
+    "θυμώνω",
+    "παλεύω",
+    "εξασκούμαι",
+    "οπαδός",
+    "εγχειρίδιο"
+  ],
+  "gloss": {
+    "Βιογραφία": "βιογραφία — biography",
+    "Κοσμολογία": "κοσμολογία — cosmology",
+    "κοσμολογία": "κοσμολογία — cosmology",
+    "σοφιστής": "σοφιστής — sophist",
+    "π.Χ.": "π.Χ. — BC (προ Χριστού)",
+    "περ.": "περίπου — about, circa",
+    "Αριστοτέλη": "Αριστοτέλης — Aristotle",
+    "Πλάτωνα": "Πλάτων — Plato",
+    "Λαέρτιος": "Διογένης Λαέρτιος — Diogenes Laertius, 3rd-century AD biographer of philosophers",
+    "Δημόκριτος": "Δημόκριτος — Democritus of Abdera",
+    "Επίκουρος": "Επίκουρος — Epicurus",
+    "Επίκουρο": "Επίκουρος — Epicurus",
+    "αρχή": "αρχή — beginning; principle; authority",
+    "Άβδηρα": "Άβδηρα — Abdera, city in Thrace",
+    "Διογένης": "Διογένης — Diogenes",
+    "μελετητές": "μελετητής — scholar",
+    "Πρωταγόρας": "Πρωταγόρας — Protagoras",
+    "Ινδία": "Ινδία — India",
+    "Δημόκριτου": "Δημόκριτος — Democritus",
+    "Σέξτου": "Σέξτος — Sextus (Empiricus)",
+    "Εμπειρικού": "Εμπειρικός — Empiricus (Sextus Empiricus, sceptic writer)",
+    "Αλεξάνδρου": "Αλέξανδρος — Alexander",
+    "Αριστοτέλης": "Αριστοτέλης — Aristotle",
+    "Πλάτων": "Πλάτων — Plato",
+    "Πύρρων": "Πύρρων — Pyrrho of Elis",
+    "Πύρρωνα": "Πύρρων — Pyrrho of Elis",
+    "Ήλιδα": "Ήλιδα — Elis (in the Peloponnese)",
+    "Ήλιδας": "Ήλιδα — Elis",
+    "Ινδίας": "Ινδία — India",
+    "Ινδός": "Ινδός — an Indian",
+    "Περσίας": "Περσία — Persia",
+    "Ανάξαρχος": "Ανάξαρχος — Anaxarchus of Abdera",
+    "Ανάξαρχο": "Ανάξαρχος — Anaxarchus of Abdera",
+    "Πλειστάρχου": "Πλείσταρχος — Pleistarchus (Pyrrho's father)",
+    "Φιλίστα": "Φιλίστα — Philista (Pyrrho's sister)",
+    "Αινησίδημος": "Αινησίδημος — Aenesidemus (sceptic, 1st c. BC)",
+    "Παυσανίας": "Παυσανίας — Pausanias (travel writer)",
+    "Τίμωνα": "Τίμων — Timon of Phlius",
+    "Αριστοκλή": "Αριστοκλής — Aristocles of Messene",
+    "Ευσέβιο": "Ευσέβιος — Eusebius of Caesarea",
+    "Φλιούντα": "Φλιούς — Phlius",
+    "Σίλλους": "Σίλλοι — the Silloi (Timon's satirical poems)",
+    "Κικέρωνας": "Κικέρων — Cicero",
+    "Σενέκας": "Σενέκας — Seneca",
+    "προσωκρατικοί": "προσωκρατικός — Presocratic",
+    "σκεπτικισμός": "σκεπτικισμός — scepticism",
+    "σκεπτικισμό": "σκεπτικισμός — scepticism",
+    "σκεπτικισμού": "σκεπτικισμός — scepticism",
+    "σκεπτικών": "σκεπτικός — sceptic",
+    "πυρρωνισμός": "πυρρωνισμός — Pyrrhonism",
+    "αταραξία": "αταραξία — tranquillity, freedom from worry",
+    "αταραξίας": "αταραξία — tranquillity, freedom from worry",
+    "απάθεια": "απάθεια — impassivity; apathy",
+    "λαμπαδηφόρους": "λαμπαδηφόρος — torch-bearer, torch-racer",
+    "λαμπαδηφόρος": "λαμπαδηφόρος — torch-bearer, torch-racer",
+    "γυμνοσοφιστές": "γυμνοσοφιστής — gymnosophist, \"naked wise man\"",
+    "αποτραβήχτηκε": "αποτραβιέμαι — to withdraw",
+    "αποτραβιέμαι": "αποτραβιέμαι — to withdraw",
+    "ξεσκόνιζε": "ξεσκονίζω — to dust",
+    "πουλερικά": "πουλερικά — poultry",
+    "γουρουνάκια": "γουρουνάκι — piglet",
+    "γουρουνάκι": "γουρουνάκι — piglet",
+    "καυστικά": "καυστικός — caustic",
+    "καυστικός": "καυστικός — caustic",
+    "ζάρωσε": "ζαρώνω — to wrinkle, frown",
+    "ζαρώνω": "ζαρώνω — to wrinkle, frown",
+    "φρύδια": "φρύδι — eyebrow",
+    "τρικυμία": "τρικυμία — storm at sea",
+    "συνετός": "συνετός — prudent, sensible",
+    "περιηγητής": "περιηγητής — traveller, travel writer",
+    "αστάθμητα": "αστάθμητος — unstable, unmeasurable",
+    "αστάθμητος": "αστάθμητος — unstable, unmeasurable",
+    "ανεπίκριτα": "ανεπίκριτος — undecidable",
+    "ανεπίκριτος": "ανεπίκριτος — undecidable",
+    "επιστημολογική": "επιστημολογικός — epistemological",
+    "αφασία": "αφασία — non-assertion; aphasia",
+    "ξεντυθεί": "ξεντύνομαι — to undress, strip off",
+    "σατιρικά": "σατιρικός — satirical",
+    "ξαναζωντάνεψε": "ξαναζωντανεύω — to revive",
+    "ξαναδιαβάστηκαν": "ξαναδιαβάζομαι — to be read again",
+    "σωσίβια": "σωσίβιος — life-saving",
+    "λέμβο": "λέμβος — boat (σωσίβια λέμβος = lifeboat)",
+    "ασκητές": "ασκητής — ascetic",
+    "μαία": "μαία — midwife"
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "Richard Bett, “Pyrrho”, Stanford Encyclopedia of Philosophy: life and dates, Anaxarchus and India, the sources (Timon, Antigonus), the Aristocles passage, demeanour and anecdotes, influence.",
+      "url": "https://plato.stanford.edu/entries/pyrrho/"
+    },
+    {
+      "n": 2,
+      "text": "Diogenes Laertius, Lives of the Eminent Philosophers, Book IX §§ 61–72 (Pyrrho), trans. R. D. Hicks, Wikisource.",
+      "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_IX"
+    },
+    {
+      "n": 3,
+      "text": "“Pyrrho”, Wikipedia: Timon as main source, ataraxia, the revival by Aenesidemus, debate over Indian influence.",
+      "url": "https://en.wikipedia.org/wiki/Pyrrho"
+    }
+  ]
+}
