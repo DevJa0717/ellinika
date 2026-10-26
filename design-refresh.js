@@ -47,7 +47,7 @@
     const h = decodeURIComponent(location.hash.slice(1)).split('.')[0];
     if (h === 'today') return 'today';
     if (h === 'practicehub' || /^(sheets|drill|exam|mock|writing|listening|expr|mistakes|register|speaking|diagnostic|speakinglab|writingcoach|tetradio)$/.test(h)) return 'practice';
-    if (/^(library|stories|classics|news|opinion|ref|search|phrases|argue|pos)$/.test(h)) return 'library';
+    if (/^(library|stories|classics|news|opinion|ref|search|phrases|argue|pos|syntax|cards)$/.test(h)) return 'library';
     if (h === 'focus' || h === 'backup') return 'progress';
     return 'course';
   };
@@ -65,7 +65,7 @@
     ['Λέξεις · Vocabulary', 'Recall, expressions and phrases',
       [['Word recall', '#today'], ['Expression trainer', '#expr'], ['Phrasebook', '#phrases']]],
     ['Γραμματική · Grammar', 'Inflection tables, productive practice and written exercises',
-      [['Exercise sheets', '#sheets'], ['Paradigm drill', '#drill'], ['Grammar reference', '#ref'], ['Grammar by part of speech', '#pos']]],
+      [['Exercise sheets', '#sheets'], ['Paradigm drill', '#drill'], ['Grammar reference', '#ref'], ['Grammar by part of speech', '#pos'], ['Syntax and discourse', '#syntax'], ['Pocket grammar cards', '#cards']]],
     ['Κατανόηση · Comprehension', 'Listening and reading comprehension',
       [['Listening and dictation', '#listening'], ['Graded stories', '#stories']]],
     ['Παραγωγή · Production', 'Write, rehearse speaking and practise register',

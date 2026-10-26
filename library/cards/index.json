@@ -1,0 +1,403 @@
+{
+ "groups": [
+  {
+   "id": "sounds",
+   "el": "Γράμματα και προφορά",
+   "title": "Letters and sounds",
+   "file": "sounds.json"
+  },
+  {
+   "id": "nouns",
+   "el": "Άρθρο και ουσιαστικό",
+   "title": "Article and noun",
+   "file": "nouns.json"
+  },
+  {
+   "id": "adjectives",
+   "el": "Επίθετο και επίρρημα",
+   "title": "Adjective and adverb",
+   "file": "adjectives.json"
+  },
+  {
+   "id": "pronouns",
+   "el": "Αντωνυμίες",
+   "title": "Pronouns",
+   "file": "pronouns.json"
+  },
+  {
+   "id": "numbers",
+   "el": "Αριθμητικά",
+   "title": "Numbers",
+   "file": "numbers.json"
+  },
+  {
+   "id": "verbs",
+   "el": "Το ρήμα",
+   "title": "The verb",
+   "file": "verbs.json"
+  },
+  {
+   "id": "small-words",
+   "el": "Άκλιτες λέξεις",
+   "title": "Prepositions, conjunctions, particles",
+   "file": "small-words.json"
+  },
+  {
+   "id": "syntax",
+   "el": "Σύνταξη",
+   "title": "Syntax",
+   "file": "syntax.json"
+  },
+  {
+   "id": "learned",
+   "el": "Λόγια γλώσσα",
+   "title": "Learned and formal Greek",
+   "file": "learned.json"
+  }
+ ],
+ "cards": [
+  {
+   "id": "alphabet",
+   "el": "Το αλφάβητο",
+   "title": "The alphabet",
+   "level": "A1",
+   "group": "sounds"
+  },
+  {
+   "id": "digraphs",
+   "el": "Δίψηφα και συνδυασμοί",
+   "title": "Letter pairs",
+   "level": "A1",
+   "group": "sounds"
+  },
+  {
+   "id": "stress",
+   "el": "Ο τόνος",
+   "title": "Stress and the accent mark",
+   "level": "A1",
+   "group": "sounds"
+  },
+  {
+   "id": "article",
+   "el": "Το άρθρο",
+   "title": "The article",
+   "level": "A1",
+   "group": "nouns"
+  },
+  {
+   "id": "masculine",
+   "el": "Αρσενικά ουσιαστικά",
+   "title": "Masculine nouns",
+   "level": "A1",
+   "group": "nouns"
+  },
+  {
+   "id": "feminine",
+   "el": "Θηλυκά ουσιαστικά",
+   "title": "Feminine nouns",
+   "level": "A1",
+   "group": "nouns"
+  },
+  {
+   "id": "neuter",
+   "el": "Ουδέτερα ουσιαστικά",
+   "title": "Neuter nouns",
+   "level": "A1",
+   "group": "nouns"
+  },
+  {
+   "id": "cases",
+   "el": "Οι πτώσεις με μια ματιά",
+   "title": "The cases at a glance",
+   "level": "A1",
+   "group": "nouns"
+  },
+  {
+   "id": "noun-traps",
+   "el": "Παγίδες στην κλίση",
+   "title": "Declension traps",
+   "level": "B1",
+   "group": "nouns"
+  },
+  {
+   "id": "adj-os",
+   "el": "Επίθετα σε -ος, -η/-α, -ο",
+   "title": "Adjectives in -ος",
+   "level": "A1",
+   "group": "adjectives"
+  },
+  {
+   "id": "adj-other",
+   "el": "Τα άλλα επίθετα",
+   "title": "Other adjective patterns",
+   "level": "A2",
+   "group": "adjectives"
+  },
+  {
+   "id": "comparison",
+   "el": "Συγκριτικός και υπερθετικός",
+   "title": "Comparison",
+   "level": "A2",
+   "group": "adjectives"
+  },
+  {
+   "id": "adverbs",
+   "el": "Επιρρήματα",
+   "title": "Adverbs",
+   "level": "A2",
+   "group": "adjectives"
+  },
+  {
+   "id": "personal",
+   "el": "Προσωπικές αντωνυμίες",
+   "title": "Personal pronouns",
+   "level": "A1",
+   "group": "pronouns"
+  },
+  {
+   "id": "possessive",
+   "el": "Κτητικά και αυτοπαθή",
+   "title": "Possessives and reflexives",
+   "level": "A2",
+   "group": "pronouns"
+  },
+  {
+   "id": "determiners",
+   "el": "Δεικτικές, ερωτηματικές, αόριστες",
+   "title": "This, which, some, no",
+   "level": "A2",
+   "group": "pronouns"
+  },
+  {
+   "id": "relative-pron",
+   "el": "Αναφορικές αντωνυμίες",
+   "title": "Relative pronouns",
+   "level": "B1",
+   "group": "pronouns"
+  },
+  {
+   "id": "cardinals",
+   "el": "Απόλυτα αριθμητικά",
+   "title": "Counting",
+   "level": "A1",
+   "group": "numbers"
+  },
+  {
+   "id": "time-dates",
+   "el": "Ώρα, ημερομηνίες, τακτικά",
+   "title": "Time, dates and ordinals",
+   "level": "A2",
+   "group": "numbers"
+  },
+  {
+   "id": "verb-map",
+   "el": "Ο χάρτης του ρήματος",
+   "title": "The verb map",
+   "level": "A2",
+   "group": "verbs"
+  },
+  {
+   "id": "present",
+   "el": "Ενεστώτας: οι συζυγίες",
+   "title": "The present: conjugations",
+   "level": "A1",
+   "group": "verbs"
+  },
+  {
+   "id": "present-passive",
+   "el": "Παθητικός ενεστώτας και παρατατικός",
+   "title": "Passive present and imperfect",
+   "level": "A2",
+   "group": "verbs"
+  },
+  {
+   "id": "imperfect",
+   "el": "Παρατατικός",
+   "title": "The imperfect",
+   "level": "A2",
+   "group": "verbs"
+  },
+  {
+   "id": "aorist",
+   "el": "Αόριστος: σχηματισμός",
+   "title": "The aorist: forming the perfective stem",
+   "level": "A2",
+   "group": "verbs"
+  },
+  {
+   "id": "irregular-aorists",
+   "el": "Ανώμαλοι αόριστοι",
+   "title": "Irregular aorists",
+   "level": "A2",
+   "group": "verbs"
+  },
+  {
+   "id": "future-subj",
+   "el": "Μέλλοντας και υποτακτική",
+   "title": "Future and subjunctive",
+   "level": "B1",
+   "group": "verbs"
+  },
+  {
+   "id": "imperative",
+   "el": "Προστακτική",
+   "title": "The imperative",
+   "level": "B1",
+   "group": "verbs"
+  },
+  {
+   "id": "passive-past",
+   "el": "Παθητικός αόριστος",
+   "title": "The passive aorist",
+   "level": "B1",
+   "group": "verbs"
+  },
+  {
+   "id": "perfect",
+   "el": "Οι συντελεσμένοι χρόνοι",
+   "title": "The perfect tenses",
+   "level": "B1",
+   "group": "verbs"
+  },
+  {
+   "id": "aspect",
+   "el": "Ποιο θέμα; Η επιλογή της όψης",
+   "title": "Choosing the aspect",
+   "level": "B1",
+   "group": "verbs"
+  },
+  {
+   "id": "participles",
+   "el": "Μετοχές και γερούνδιο",
+   "title": "Participles and gerund",
+   "level": "B2",
+   "group": "verbs"
+  },
+  {
+   "id": "prepositions",
+   "el": "Προθέσεις",
+   "title": "Prepositions",
+   "level": "A2",
+   "group": "small-words"
+  },
+  {
+   "id": "conjunctions",
+   "el": "Σύνδεσμοι και τι ακολουθεί",
+   "title": "Conjunctions and the mood that follows",
+   "level": "B1",
+   "group": "small-words"
+  },
+  {
+   "id": "particles",
+   "el": "Μόρια",
+   "title": "Particles: θα, να, ας, δεν, μη",
+   "level": "A2",
+   "group": "small-words"
+  },
+  {
+   "id": "word-order",
+   "el": "Σειρά των λέξεων",
+   "title": "Word order, topic and focus",
+   "level": "B1",
+   "group": "syntax"
+  },
+  {
+   "id": "clitics",
+   "el": "Θέση των αδύνατων τύπων",
+   "title": "Where weak pronouns go",
+   "level": "B1",
+   "group": "syntax"
+  },
+  {
+   "id": "negation",
+   "el": "Άρνηση",
+   "title": "Negation",
+   "level": "A2",
+   "group": "syntax"
+  },
+  {
+   "id": "mood",
+   "el": "Ότι, να, που, αν",
+   "title": "Which \"that\"?",
+   "level": "B1",
+   "group": "syntax"
+  },
+  {
+   "id": "na-chains",
+   "el": "Αλυσίδες με το να",
+   "title": "να-chains and the subjunctive",
+   "level": "B1",
+   "group": "syntax"
+  },
+  {
+   "id": "clauses",
+   "el": "Χρόνος, αιτία, σκοπός, αποτέλεσμα, εναντίωση",
+   "title": "Time, cause, purpose, result, concession",
+   "level": "B1",
+   "group": "syntax"
+  },
+  {
+   "id": "conditionals",
+   "el": "Υποθετικοί λόγοι",
+   "title": "Conditionals",
+   "level": "B1",
+   "group": "syntax"
+  },
+  {
+   "id": "reported",
+   "el": "Πλάγιος λόγος",
+   "title": "Reported speech",
+   "level": "B2",
+   "group": "syntax"
+  },
+  {
+   "id": "questions",
+   "el": "Ερωτήσεις",
+   "title": "Questions",
+   "level": "A1",
+   "group": "syntax"
+  },
+  {
+   "id": "agreement",
+   "el": "Συμφωνία",
+   "title": "Agreement",
+   "level": "A2",
+   "group": "syntax"
+  },
+  {
+   "id": "discourse",
+   "el": "Σύνδεση και οργάνωση του λόγου",
+   "title": "Linking a text",
+   "level": "B2",
+   "group": "syntax"
+  },
+  {
+   "id": "learned-nouns",
+   "el": "Λόγια κλίση",
+   "title": "Learned declension",
+   "level": "B2",
+   "group": "learned"
+  },
+  {
+   "id": "learned-verbs",
+   "el": "Λόγια ρήματα",
+   "title": "Learned verb forms",
+   "level": "C1",
+   "group": "learned"
+  },
+  {
+   "id": "set-phrases",
+   "el": "Λόγιες φράσεις",
+   "title": "Learned set phrases",
+   "level": "C1",
+   "group": "learned"
+  },
+  {
+   "id": "nominal-style",
+   "el": "Ονοματικό ύφος",
+   "title": "Nominal style and register",
+   "level": "C1",
+   "group": "learned"
+  }
+ ]
+}

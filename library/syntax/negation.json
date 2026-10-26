@@ -1,0 +1,726 @@
+{
+ "sections": [
+  {
+   "level": "A1",
+   "el": "Δεν + ρήμα",
+   "title": "δεν before the verb",
+   "body": [
+    {
+     "p": "**Δεν** goes directly before the verb, or before **θα** and the weak pronouns, which stay glued to the verb."
+    },
+    {
+     "ex": [
+      {
+       "el": "Δεν καταλαβαίνω.",
+       "en": "I don't understand."
+      },
+      {
+       "el": "Δεν θα έρθω.",
+       "en": "I won't come."
+      },
+      {
+       "el": "Δεν το ξέρω.",
+       "en": "I don't know it."
+      },
+      {
+       "el": "Δεν μου αρέσει.",
+       "en": "I don't like it."
+      }
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "Order",
+       "Example"
+      ],
+      "rows": [
+       [
+        "δεν + verb",
+        "Δεν δουλεύω σήμερα."
+       ],
+       [
+        "δεν + θα + verb",
+        "Δεν θα δουλέψω αύριο."
+       ],
+       [
+        "δεν + pronoun + verb",
+        "Δεν τον είδα."
+       ],
+       [
+        "δεν + θα + pronoun + verb",
+        "Δεν θα τον δω."
+       ],
+       [
+        "δεν + pronoun + έχω + participle",
+        "Δεν το έχω διαβάσει."
+       ]
+      ]
+     }
+    },
+    {
+     "p": "**Δεν** is often written **δε** before a consonant other than κ, π, τ, ξ, ψ and the pairs γκ, μπ, ντ, τσ, τζ: **δε θέλω, δε μου λες**. Keeping the ν everywhere (**δεν θέλω**) is also correct and increasingly common."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"I won't tell you.\"",
+       "options": [
+        "Θα δεν σου πω.",
+        "Δεν θα σου πω.",
+        "Δεν σου θα πω."
+       ],
+       "answer": "Δεν θα σου πω.",
+       "why": "δεν, then θα, then the pronoun, then the verb."
+      },
+      {
+       "type": "order",
+       "q": "\"I haven't read it.\"",
+       "answer": "Δεν το έχω διαβάσει.",
+       "accept": [],
+       "why": "δεν + το + έχω + διαβάσει."
+      },
+      {
+       "type": "write",
+       "q": "Make negative: Μου αρέσει ο καφές.",
+       "answer": "Δεν μου αρέσει ο καφές.",
+       "accept": [
+        "Δε μου αρέσει ο καφές."
+       ],
+       "why": "δεν goes before the weak pronoun."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "el": "Όχι",
+   "title": "όχι: \"no\" and \"not\" with single words",
+   "body": [
+    {
+     "p": "**Όχι** answers a question (\"No\") and negates a single word or phrase rather than the verb."
+    },
+    {
+     "ex": [
+      {
+       "el": "Θέλεις καφέ; Όχι, ευχαριστώ.",
+       "en": "Would you like coffee? No, thanks."
+      },
+      {
+       "el": "Θέλω τσάι, όχι καφέ.",
+       "en": "I want tea, not coffee."
+      },
+      {
+       "el": "Όχι εγώ!",
+       "en": "Not me!"
+      },
+      {
+       "el": "Έρχεσαι ή όχι;",
+       "en": "Are you coming or not?"
+      },
+      {
+       "el": "Όχι πολύ.",
+       "en": "Not much."
+      }
+     ]
+    },
+    {
+     "p": "**Όχι μόνο ... αλλά και** \"not only ... but also\": **Είναι όχι μόνο έξυπνη αλλά και εργατική.**"
+    },
+    {
+     "tip": "**Όχι** never goes before a verb to negate it: \"I don't want\" is **Δεν θέλω**, never ***Όχι θέλω**."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"I don't eat meat.\"",
+       "options": [
+        "Όχι τρώω κρέας.",
+        "Δεν τρώω κρέας.",
+        "Τρώω όχι κρέας."
+       ],
+       "answer": "Δεν τρώω κρέας.",
+       "why": "A verb is negated with δεν."
+      },
+      {
+       "type": "choice",
+       "q": "\"Not now!\"",
+       "options": [
+        "Δεν τώρα!",
+        "Όχι τώρα!",
+        "Μην τώρα!"
+       ],
+       "answer": "Όχι τώρα!",
+       "why": "A single word is negated with όχι."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "el": "Μη(ν): με το να και στις απαγορεύσεις",
+   "title": "μη(ν) with να and in prohibitions",
+   "body": [
+    {
+     "p": "**Μη(ν)** replaces δεν wherever the verb is in the **subjunctive**: after **να**, in prohibitions, after **ας**, **για να**, **πριν**, **χωρίς να** and so on."
+    },
+    {
+     "ex": [
+      {
+       "el": "Μην ανησυχείς.",
+       "en": "Don't worry."
+      },
+      {
+       "el": "Μη φύγεις!",
+       "en": "Don't leave!"
+      },
+      {
+       "el": "Προσπάθησε να μην αργήσεις.",
+       "en": "Try not to be late."
+      },
+      {
+       "el": "Ας μην το συζητήσουμε.",
+       "en": "Let's not discuss it."
+      },
+      {
+       "el": "Το λέω για να μην το ξεχάσω.",
+       "en": "I'm saying it so as not to forget it."
+      }
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "Positive",
+       "Negative",
+       "Note"
+      ],
+      "rows": [
+       [
+        "Θέλω να πάω.",
+        "Θέλω να μην πάω. / Δεν θέλω να πάω.",
+        "Different meanings: see below"
+       ],
+       [
+        "Ας φύγουμε.",
+        "Ας μη φύγουμε.",
+        ""
+       ],
+       [
+        "Φύγε!",
+        "Μη φύγεις!",
+        "The imperative itself cannot be negated"
+       ],
+       [
+        "Μπορείς να έρθεις.",
+        "Μπορείς να μην έρθεις.",
+        "\"You may not come / you're free not to come\""
+       ]
+      ]
+     }
+    },
+    {
+     "p": "**Δεν θέλω να πάω** \"I don't want to go\" negates the wanting; **Θέλω να μην πάω** \"I want not to go\" negates the going. The first is the usual one."
+    },
+    {
+     "p": "Like **δεν**, **μη** keeps its ν before vowels and before κ, π, τ, ξ, ψ, γκ, μπ, ντ, τσ, τζ: **μην αργήσεις, μην το πεις, μη φύγεις, μη μιλάς**."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"Don't touch it!\"",
+       "options": [
+        "Δεν το αγγίζεις!",
+        "Μην το αγγίξεις!",
+        "Όχι το άγγιξε!"
+       ],
+       "answer": "Μην το αγγίξεις!",
+       "why": "Prohibition: μην + subjunctive."
+      },
+      {
+       "type": "choice",
+       "q": "\"So as not to get wet, take an umbrella.\"",
+       "options": [
+        "Για να δεν βραχείς, πάρε ομπρέλα.",
+        "Για να μη βραχείς, πάρε ομπρέλα.",
+        "Για όχι να βραχείς, πάρε ομπρέλα."
+       ],
+       "answer": "Για να μη βραχείς, πάρε ομπρέλα.",
+       "why": "After να the negator is μη(ν)."
+      },
+      {
+       "type": "write",
+       "q": "Make negative: Ας το πούμε σε όλους.",
+       "answer": "Ας μην το πούμε σε όλους.",
+       "accept": [],
+       "why": "After ας, the negator is μην (with ν before τ)."
+      },
+      {
+       "type": "write",
+       "q": "\"Don't shout!\" (φωνάζω, continuous)",
+       "answer": "Μη φωνάζεις!",
+       "accept": [
+        "Μην φωνάζεις!"
+       ],
+       "why": "Prohibition of an ongoing action: μη + continuous subjunctive."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "el": "Κανείς, τίποτα, ποτέ, πουθενά",
+   "title": "The negative words and negative concord",
+   "body": [
+    {
+     "p": "**Κανείς / κανένας** \"nobody, no\", **τίποτα** \"nothing\", **ποτέ** \"never\", **πουθενά** \"nowhere\", **καθόλου** \"not at all\" need **δεν** (or μη) with the verb. Two negatives make one negative."
+    },
+    {
+     "ex": [
+      {
+       "el": "Δεν ήρθε κανείς.",
+       "en": "Nobody came."
+      },
+      {
+       "el": "Κανείς δεν ήρθε.",
+       "en": "Nobody came."
+      },
+      {
+       "el": "Δεν είδα τίποτα.",
+       "en": "I saw nothing."
+      },
+      {
+       "el": "Δεν πάω ποτέ εκεί.",
+       "en": "I never go there."
+      },
+      {
+       "el": "Δεν τον βρήκα πουθενά.",
+       "en": "I couldn't find him anywhere."
+      },
+      {
+       "el": "Δεν μου αρέσει καθόλου.",
+       "en": "I don't like it at all."
+      },
+      {
+       "el": "Μη μιλήσεις σε κανέναν!",
+       "en": "Don't talk to anyone!"
+      }
+     ]
+    },
+    {
+     "p": "Without a verb (in short answers) they are negative on their own: **Ποιος ήρθε; Κανείς.** \"Who came? Nobody.\" **Τι θέλεις; Τίποτα.**"
+    },
+    {
+     "p": "In **questions** and **conditions** the same words mean \"any, ever\": **Θέλεις τίποτα;** \"Do you want anything?\", **Έχεις πάει ποτέ στην Κρήτη;** \"Have you ever been to Crete?\", **Αν δεις κανέναν, πες μου** \"If you see anyone, tell me\"."
+    },
+    {
+     "tip": "Greek has no separate \"any\": **Δεν έχω κανένα πρόβλημα** \"I don't have any problem\", **Δεν έχω καθόλου λεφτά** \"I have no money at all\"."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"Nobody knows.\"",
+       "options": [
+        "Κανείς ξέρει.",
+        "Κανείς δεν ξέρει.",
+        "Δεν κανείς ξέρει."
+       ],
+       "answer": "Κανείς δεν ξέρει.",
+       "why": "Negative words need δεν with the verb."
+      },
+      {
+       "type": "choice",
+       "q": "\"Have you ever eaten octopus?\"",
+       "options": [
+        "Δεν έχεις φάει ποτέ χταπόδι;",
+        "Έχεις φάει ποτέ χταπόδι;",
+        "Έχεις φάει κανένα ποτέ χταπόδι;"
+       ],
+       "answer": "Έχεις φάει ποτέ χταπόδι;",
+       "why": "In a question, ποτέ means \"ever\" and needs no δεν."
+      },
+      {
+       "type": "order",
+       "q": "\"I didn't buy anything.\"",
+       "answer": "Δεν αγόρασα τίποτα.",
+       "accept": [
+        "Τίποτα δεν αγόρασα."
+       ],
+       "why": "δεν + verb + τίποτα, or τίποτα fronted before δεν."
+      },
+      {
+       "type": "write",
+       "q": "\"I never drink coffee.\"",
+       "answer": "Δεν πίνω ποτέ καφέ.",
+       "accept": [
+        "Ποτέ δεν πίνω καφέ.",
+        "Δεν πίνω καφέ ποτέ."
+       ],
+       "why": "ποτέ with δεν."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Ούτε, ούτε καν, ούτε ... ούτε",
+   "title": "ούτε: \"nor, not even, neither ... nor\"",
+   "body": [
+    {
+     "p": "**Ούτε** joins negatives and also means \"not even\"."
+    },
+    {
+     "ex": [
+      {
+       "el": "Δεν τρώει κρέας ούτε ψάρι.",
+       "en": "(S)he doesn't eat meat or fish."
+      },
+      {
+       "el": "Ούτε εγώ!",
+       "en": "Me neither!"
+      },
+      {
+       "el": "Δεν μου τηλεφώνησε ούτε μία φορά.",
+       "en": "(S)he didn't call me even once."
+      },
+      {
+       "el": "Δεν ξέρει ούτε καν να μαγειρέψει αυγά.",
+       "en": "(S)he doesn't even know how to cook eggs."
+      },
+      {
+       "el": "Δεν είναι ούτε ψηλός ούτε κοντός.",
+       "en": "He's neither tall nor short."
+      },
+      {
+       "el": "Ούτε ο Νίκος ούτε η Μαρία ήρθαν.",
+       "en": "Neither Nikos nor Maria came."
+      }
+     ]
+    },
+    {
+     "p": "When **ούτε** comes **before** the verb, δεν may be dropped: **Ούτε εγώ το ξέρω** \"I don't know either\". When it follows the verb, δεν stays: **Δεν το ξέρω ούτε εγώ.**"
+    },
+    {
+     "table": {
+      "head": [
+       "Positive",
+       "Negative partner"
+      ],
+      "rows": [
+       [
+        "κι εγώ \"me too\"",
+        "ούτε εγώ \"me neither\""
+       ],
+       [
+        "και ... και \"both ... and\"",
+        "ούτε ... ούτε \"neither ... nor\""
+       ],
+       [
+        "ακόμα και \"even\"",
+        "ούτε καν \"not even\""
+       ],
+       [
+        "όχι μόνο ... αλλά και",
+        "(no negative partner)"
+       ]
+      ]
+     }
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"I don't like it. — Me neither.\"",
+       "options": [
+        "Κι εγώ.",
+        "Ούτε εγώ.",
+        "Όχι εγώ."
+       ],
+       "answer": "Ούτε εγώ.",
+       "why": "The negative \"too\" is ούτε."
+      },
+      {
+       "type": "choice",
+       "q": "\"He didn't even say thank you.\"",
+       "options": [
+        "Δεν είπε ακόμα και ευχαριστώ.",
+        "Δεν είπε ούτε καν ευχαριστώ.",
+        "Είπε ούτε ευχαριστώ."
+       ],
+       "answer": "Δεν είπε ούτε καν ευχαριστώ.",
+       "why": "\"Not even\" is ούτε (καν), with δεν on the verb."
+      },
+      {
+       "type": "write",
+       "q": "\"Neither Giorgos nor Eleni knows.\" (ξέρουν)",
+       "answer": "Ούτε ο Γιώργος ούτε η Ελένη ξέρουν.",
+       "accept": [
+        "Ούτε ο Γιώργος ούτε η Ελένη το ξέρουν."
+       ],
+       "why": "ούτε ... ούτε before the verb, no δεν."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Ερωτήσεις με άρνηση",
+   "title": "Negative questions",
+   "body": [
+    {
+     "p": "A negative question often expects the answer \"yes\", as in English: **Δεν σου το είπα;** \"Didn't I tell you?\" To answer, Greek **ναι** confirms the positive fact and **όχι** the negative one."
+    },
+    {
+     "ex": [
+      {
+       "el": "Δεν ήρθε ο Νίκος; Όχι, δεν ήρθε.",
+       "en": "Didn't Nikos come? No, he didn't."
+      },
+      {
+       "el": "Δεν ήρθε ο Νίκος; Ναι, ήρθε.",
+       "en": "Didn't Nikos come? Yes, he did."
+      },
+      {
+       "el": "Μήπως δεν κατάλαβες;",
+       "en": "Is it possible you didn't understand?"
+      }
+     ]
+    },
+    {
+     "p": "**Μήπως** introduces a cautious question (\"by any chance\", \"perhaps\") and is the polite way to ask: **Μήπως έχετε ψιλά;** \"Do you happen to have change?\""
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"Do you happen to know where the station is?\"",
+       "options": [
+        "Ξέρεις πού είναι ο σταθμός ή όχι;",
+        "Μήπως ξέρεις πού είναι ο σταθμός;",
+        "Δεν ξέρεις πού είναι ο σταθμός."
+       ],
+       "answer": "Μήπως ξέρεις πού είναι ο σταθμός;",
+       "why": "Μήπως makes the question tentative and polite."
+      },
+      {
+       "type": "choice",
+       "q": "\"Didn't you eat?\" — \"Yes, I did.\"",
+       "options": [
+        "Όχι, έφαγα.",
+        "Ναι, έφαγα.",
+        "Ναι, δεν έφαγα."
+       ],
+       "answer": "Ναι, έφαγα.",
+       "why": "Ναι confirms the positive fact."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "el": "Μη(ν) σε ειδικές θέσεις",
+   "title": "μη(ν) in special places",
+   "body": [
+    {
+     "list": [
+      "After verbs of **fear** and **worry**, **μη(ν) + subjunctive** expresses the thing feared: **Φοβάμαι μην αργήσουμε** \"I'm afraid we'll be late\", **Ανησυχώ μήπως χαθεί** \"I'm worried (s)he'll get lost\".",
+      "**Μη(ν)** negates participles and adjectives used as nouns, mostly in formal Greek: **οι μη καπνίζοντες** \"non-smokers\", **μη κυβερνητικές οργανώσεις** \"non-governmental organisations\", **μη επιστρεπτέα ενίσχυση** \"non-repayable grant\".",
+      "**Μη** alone means \"don't\": **Μη!** \"Don't!\"; **Μη μου πεις!** \"You don't say!\"",
+      "**Χωρίς να** \"without -ing\" already contains a negative, so what follows uses **τίποτα, κανείς** like a negative clause: **Έφυγε χωρίς να πει τίποτα** \"(S)he left without saying anything\"."
+     ]
+    },
+    {
+     "ex": [
+      {
+       "el": "Φοβάμαι μην τον στενοχωρήσω.",
+       "en": "I'm afraid I'll upset him."
+      },
+      {
+       "el": "Η ενίσχυση είναι μη επιστρεπτέα.",
+       "en": "The grant does not have to be repaid."
+      },
+      {
+       "el": "Μπήκε χωρίς να χαιρετήσει κανέναν.",
+       "en": "He came in without greeting anyone."
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"I'm afraid it will rain.\"",
+       "options": [
+        "Φοβάμαι ότι δεν θα βρέξει.",
+        "Φοβάμαι μη βρέξει.",
+        "Φοβάμαι να βρέξει."
+       ],
+       "answer": "Φοβάμαι μη βρέξει.",
+       "why": "Fear of something that may happen: μη(ν) + subjunctive."
+      },
+      {
+       "type": "choice",
+       "q": "\"non-smokers\"",
+       "options": [
+        "οι δεν καπνίζοντες",
+        "οι μη καπνίζοντες",
+        "οι όχι καπνίζοντες"
+       ],
+       "answer": "οι μη καπνίζοντες",
+       "why": "Participles are negated with μη."
+      },
+      {
+       "type": "write",
+       "q": "\"She left without saying anything.\"",
+       "answer": "Έφυγε χωρίς να πει τίποτα.",
+       "accept": [],
+       "why": "χωρίς να + subjunctive; τίποτα acts as \"anything\"."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "C1",
+   "el": "Άρνηση στον λόγιο και στον εμφατικό λόγο",
+   "title": "Negation in learned and emphatic Greek",
+   "body": [
+    {
+     "list": [
+      "**Ου** survives in learned phrases: **ουκ ολίγοι** \"not a few, quite a lot\", **ου μην αλλά** \"however, but then again\", **ουδέποτε** \"never\", **ουδείς** \"nobody\", **ουδόλως** \"not at all\".",
+      "**Μηδέ** and **μήτε** are literary equivalents of ούτε: **μήτε ο ήλιος μήτε η βροχή**.",
+      "**Δεν ... παρά** \"only, nothing but\": **Δεν έχω παρά δέκα ευρώ** \"I have only ten euros\", **Δεν μένει παρά να περιμένουμε** \"All that is left is to wait\".",
+      "**Δεν ... μόνο** \"not only\": **Δεν είναι μόνο ακριβό, είναι και άσχημο.**",
+      "**Litotes** (understatement by negating the opposite) is frequent in good style: **δεν είναι λίγοι αυτοί που ...** \"there are quite a few who ...\", **όχι άδικα** \"not without reason\".",
+      "**Emphatic negation**: **Ούτε που το σκέφτηκα** \"It never even crossed my mind\", **Καθόλου δεν μου αρέσει**, **Με τίποτα!** \"No way!\", **Ούτε για αστείο** \"Not even as a joke\"."
+     ]
+    },
+    {
+     "ex": [
+      {
+       "el": "Ουκ ολίγοι βουλευτές διαφώνησαν.",
+       "en": "Quite a few MPs disagreed."
+      },
+      {
+       "el": "Ουδέποτε δήλωσε κάτι τέτοιο.",
+       "en": "(S)he never stated any such thing."
+      },
+      {
+       "el": "Δεν μας μένει παρά να ελπίζουμε.",
+       "en": "All we can do is hope."
+      },
+      {
+       "el": "Όχι άδικα, η πρόταση απορρίφθηκε.",
+       "en": "Not without reason, the proposal was rejected."
+      }
+     ]
+    },
+    {
+     "links": [
+      {
+       "href": "#c1-learned-phrases",
+       "kind": "Lesson",
+       "el": "Λόγιες προθέσεις και δοτική",
+       "title": "Learned prepositions and frozen datives: εν τω μεταξύ, εκ των υστέρων, άνευ όρων"
+      },
+      {
+       "href": "#c1-emphasis",
+       "kind": "Lesson",
+       "el": "Έμφαση και ελεύθερες αναφορικές",
+       "title": "Emphasis: όποιος κι αν, όσο κι αν, αυτό που, ούτε καν, ίσα ίσα"
+      },
+      {
+       "href": "#pos.particle~11",
+       "kind": "Part of speech",
+       "el": "Λόγια μόρια",
+       "title": "Learned particles: μεν, δε, δη, ου, μη"
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"We have no choice but to wait.\"",
+       "options": [
+        "Δεν έχουμε επιλογή μόνο να περιμένουμε.",
+        "Δεν μας μένει παρά να περιμένουμε.",
+        "Δεν έχουμε ούτε να περιμένουμε."
+       ],
+       "answer": "Δεν μας μένει παρά να περιμένουμε.",
+       "why": "δεν ... παρά = \"only, nothing but\"."
+      },
+      {
+       "type": "choice",
+       "q": "**ουκ ολίγοι** means",
+       "options": [
+        "very few",
+        "quite a lot of",
+        "nobody"
+       ],
+       "answer": "quite a lot of",
+       "why": "A learned litotes: \"not a few\"."
+      },
+      {
+       "type": "write",
+       "q": "Make it emphatic with **με τίποτα**: \"No way am I going!\"",
+       "answer": "Δεν πάω με τίποτα!",
+       "accept": [
+        "Με τίποτα δεν πάω!"
+       ],
+       "why": "με τίποτα = \"for nothing in the world\", with δεν on the verb."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "negation",
+ "el": "Η άρνηση",
+ "title": "Negation",
+ "span": "A1–C1",
+ "blurb": "δεν or μην, όχι, ούτε, and the negative words κανείς, τίποτα, ποτέ, πουθενά: which one goes where, and how Greek piles negatives up.",
+ "intro": [
+  {
+   "p": "Greek has two sentence negators, **δεν** and **μη(ν)**, and the choice between them follows the mood of the verb, not its meaning. On top of these, **όχι** negates single words and answers questions, and **ούτε** means \"not even, nor\". Negative words such as **κανείς** \"nobody\" and **τίποτα** \"nothing\" combine with δεν instead of replacing it, so Greek says \"I didn't see nothing\" and means \"I saw nothing\"."
+  },
+  {
+   "links": [
+    {
+     "href": "#a1-negation-questions",
+     "kind": "Lesson",
+     "el": "Άρνηση και ερωτήσεις",
+     "title": "δεν, questions and question words"
+    },
+    {
+     "href": "#pos.particle~1",
+     "kind": "Part of speech",
+     "el": "Δεν, μη(ν), όχι",
+     "title": "Negation: δεν, μη(ν) and όχι"
+    },
+    {
+     "href": "#pos.adverb~7",
+     "kind": "Part of speech",
+     "el": "Επιρρήματα βεβαίωσης, άρνησης, αμφιβολίας",
+     "title": "Affirmation, negation and doubt"
+    },
+    {
+     "href": "#cards.negation",
+     "kind": "Card",
+     "el": "Άρνηση",
+     "title": "Negation"
+    }
+   ]
+  }
+ ]
+}

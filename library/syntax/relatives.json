@@ -1,0 +1,556 @@
+{
+ "sections": [
+  {
+   "level": "A2",
+   "el": "Που: μία λέξη για όλα",
+   "title": "που: one word for everything",
+   "body": [
+    {
+     "p": "**Που** (no accent) means \"who, which, that\". It never changes and works for people and things, as subject or object."
+    },
+    {
+     "ex": [
+      {
+       "el": "Ο άντρας που μένει δίπλα είναι γιατρός.",
+       "en": "The man who lives next door is a doctor."
+      },
+      {
+       "el": "Το βιβλίο που διαβάζω είναι πολύ ωραίο.",
+       "en": "The book (that) I'm reading is very good."
+      },
+      {
+       "el": "Η γυναίκα που είδαμε χθες είναι η θεία μου.",
+       "en": "The woman (whom) we saw yesterday is my aunt."
+      },
+      {
+       "el": "Τα παιδιά που παίζουν στον κήπο είναι δικά μας.",
+       "en": "The children playing in the garden are ours."
+      }
+     ]
+    },
+    {
+     "p": "Greek cannot leave the relative out, as English often does (\"the book I'm reading\"). **Που** must always be there."
+    },
+    {
+     "tip": "**Πού** with an accent asks \"where?\". **Που** without an accent is the relative."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"The film (that) we saw was boring.\"",
+       "options": [
+        "Η ταινία είδαμε ήταν βαρετή.",
+        "Η ταινία που είδαμε ήταν βαρετή.",
+        "Η ταινία πού είδαμε ήταν βαρετή."
+       ],
+       "answer": "Η ταινία που είδαμε ήταν βαρετή.",
+       "why": "The relative που cannot be left out, and has no accent."
+      },
+      {
+       "type": "write",
+       "q": "Join with που: Έχω έναν φίλο. Ο φίλος μένει στην Πάτρα.",
+       "answer": "Έχω έναν φίλο που μένει στην Πάτρα.",
+       "accept": [],
+       "why": "The second clause describes φίλο, so it becomes a που-clause."
+      },
+      {
+       "type": "order",
+       "q": "\"The woman we saw yesterday is my aunt.\"",
+       "answer": "Η γυναίκα που είδαμε χθες είναι η θεία μου.",
+       "accept": [],
+       "why": "The relative clause follows the noun directly."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Ο οποίος",
+   "title": "ο οποίος: the declinable relative",
+   "body": [
+    {
+     "p": "**Ο οποίος, η οποία, το οποίο** agrees in **gender and number** with the noun it refers to, and takes the **case** of its role inside the relative clause. It always has the article."
+    },
+    {
+     "table": {
+      "head": [
+       "",
+       "Masculine",
+       "Feminine",
+       "Neuter"
+      ],
+      "rows": [
+       [
+        "Nom. sg.",
+        "ο οποίος",
+        "η οποία",
+        "το οποίο"
+       ],
+       [
+        "Gen. sg.",
+        "του οποίου",
+        "της οποίας",
+        "του οποίου"
+       ],
+       [
+        "Acc. sg.",
+        "τον οποίο",
+        "την οποία",
+        "το οποίο"
+       ],
+       [
+        "Nom. pl.",
+        "οι οποίοι",
+        "οι οποίες",
+        "τα οποία"
+       ],
+       [
+        "Gen. pl.",
+        "των οποίων",
+        "των οποίων",
+        "των οποίων"
+       ],
+       [
+        "Acc. pl.",
+        "τους οποίους",
+        "τις οποίες",
+        "τα οποία"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "**Ο οποίος is required after a preposition**, because **που** cannot follow one:"
+    },
+    {
+     "ex": [
+      {
+       "el": "Το σπίτι στο οποίο μεγάλωσα πουλήθηκε.",
+       "en": "The house I grew up in was sold."
+      },
+      {
+       "el": "Η φίλη με την οποία ταξίδεψα είναι Ιταλίδα.",
+       "en": "The friend I travelled with is Italian."
+      },
+      {
+       "el": "Οι λόγοι για τους οποίους παραιτήθηκε είναι άγνωστοι.",
+       "en": "The reasons for which he resigned are unknown."
+      }
+     ]
+    },
+    {
+     "p": "In speech, the preposition is often avoided with **που** + a weak pronoun or with **όπου** for places: **Το σπίτι που μεγάλωσα** (place is understood), **Η φίλη που ταξίδεψα μαζί της**."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"The company I work for\"",
+       "options": [
+        "Η εταιρεία για που δουλεύω",
+        "Η εταιρεία για την οποία δουλεύω",
+        "Η εταιρεία για τον οποίο δουλεύω"
+       ],
+       "answer": "Η εταιρεία για την οποία δουλεύω",
+       "why": "After a preposition: ο οποίος, agreeing with εταιρεία (feminine)."
+      },
+      {
+       "type": "choice",
+       "q": "\"the colleagues (men) I spoke with\"",
+       "options": [
+        "Οι συνάδελφοι με που μίλησα",
+        "Οι συνάδελφοι με τους οποίους μίλησα",
+        "Οι συνάδελφοι με τα οποία μίλησα"
+       ],
+       "answer": "Οι συνάδελφοι με τους οποίους μίλησα",
+       "why": "After με: ο οποίος in the masculine plural accusative."
+      },
+      {
+       "type": "write",
+       "q": "\"The city in which I live\" (η πόλη, μένω)",
+       "answer": "Η πόλη στην οποία μένω",
+       "accept": [
+        "Η πόλη όπου μένω",
+        "Η πόλη που μένω"
+       ],
+       "why": "σε + την οποία = στην οποία; όπου and που are also natural for places."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Πότε χρειάζεται αντωνυμία μετά το που",
+   "title": "When που needs a weak pronoun",
+   "body": [
+    {
+     "p": "**Που** shows no case. When the noun is the **subject** or the **direct object** of the relative clause, nothing else is needed. When it is the **indirect object** or a **possessor**, the case is shown by a **weak pronoun** inside the clause:"
+    },
+    {
+     "table": {
+      "head": [
+       "Role in the relative clause",
+       "With που",
+       "With ο οποίος"
+      ],
+      "rows": [
+       [
+        "subject",
+        "ο φίλος που ήρθε",
+        "ο φίλος ο οποίος ήρθε"
+       ],
+       [
+        "direct object",
+        "ο φίλος που είδα",
+        "ο φίλος τον οποίο είδα"
+       ],
+       [
+        "indirect object",
+        "ο φίλος που **του** έδωσα το βιβλίο",
+        "ο φίλος στον οποίο έδωσα το βιβλίο"
+       ],
+       [
+        "possessor (\"whose\")",
+        "ο φίλος που **το** σπίτι **του** κάηκε",
+        "ο φίλος του οποίου το σπίτι κάηκε"
+       ]
+      ]
+     }
+    },
+    {
+     "ex": [
+      {
+       "el": "Η κοπέλα που της τηλεφώνησα δεν απάντησε.",
+       "en": "The girl I phoned didn't answer."
+      },
+      {
+       "el": "Ο συγγραφέας που διάβασα το βιβλίο του είναι από την Κρήτη.",
+       "en": "The writer whose book I read is from Crete."
+      }
+     ]
+    },
+    {
+     "p": "A weak pronoun with a direct object is optional in speech and adds emphasis: **ένα βιβλίο που δεν (το) βρίσκεις πουθενά**."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"the man I gave the key to\" (with που)",
+       "options": [
+        "ο άντρας που έδωσα το κλειδί",
+        "ο άντρας που του έδωσα το κλειδί",
+        "ο άντρας που τον έδωσα το κλειδί"
+       ],
+       "answer": "ο άντρας που του έδωσα το κλειδί",
+       "why": "Indirect object: που + genitive pronoun του."
+      },
+      {
+       "type": "choice",
+       "q": "\"the student whose father is a teacher\" (formal)",
+       "options": [
+        "ο μαθητής που ο πατέρας είναι δάσκαλος",
+        "ο μαθητής του οποίου ο πατέρας είναι δάσκαλος",
+        "ο μαθητής ο οποίου πατέρας είναι δάσκαλος"
+       ],
+       "answer": "ο μαθητής του οποίου ο πατέρας είναι δάσκαλος",
+       "why": "\"whose\" formally: του οποίου + noun with its article."
+      },
+      {
+       "type": "write",
+       "q": "With που: \"the neighbour whose dog barks\" (ο γείτονας, ο σκύλος, γαβγίζει)",
+       "answer": "ο γείτονας που ο σκύλος του γαβγίζει",
+       "accept": [
+        "ο γείτονας που γαβγίζει ο σκύλος του"
+       ],
+       "why": "που + του after the possessed noun."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "el": "Περιοριστικές και προσθετικές",
+   "title": "Restrictive and non-restrictive clauses",
+   "body": [
+    {
+     "p": "A **restrictive** clause picks out which one we mean, with no commas: **Οι φοιτητές που πέρασαν τις εξετάσεις πήραν υποτροφία** (only those who passed). A **non-restrictive** clause adds information about something already identified, between commas: **Οι φοιτητές, που πέρασαν τις εξετάσεις, πήραν υποτροφία** (all of them passed)."
+    },
+    {
+     "p": "In non-restrictive clauses, writing prefers **ο οποίος**: **Ο Καβάφης, ο οποίος έζησε στην Αλεξάνδρεια, ...**"
+    },
+    {
+     "p": "A relative can refer to a **whole clause**. Use **πράγμα που** or **(κάτι) το οποίο**, never a bare που:"
+    },
+    {
+     "ex": [
+      {
+       "el": "Άργησε πάλι, πράγμα που με εκνεύρισε.",
+       "en": "(S)he was late again, which annoyed me."
+      },
+      {
+       "el": "Η κυβέρνηση αύξησε τους φόρους, γεγονός το οποίο προκάλεσε αντιδράσεις.",
+       "en": "The government raised taxes, which caused reactions."
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"It rained all day, which spoiled our plans.\"",
+       "options": [
+        "Έβρεχε όλη μέρα, που χάλασε τα σχέδιά μας.",
+        "Έβρεχε όλη μέρα, πράγμα που χάλασε τα σχέδιά μας.",
+        "Έβρεχε όλη μέρα, ο οποίος χάλασε τα σχέδιά μας."
+       ],
+       "answer": "Έβρεχε όλη μέρα, πράγμα που χάλασε τα σχέδιά μας.",
+       "why": "A relative referring to the whole clause: πράγμα που."
+      },
+      {
+       "type": "choice",
+       "q": "Formal: \"Seferis, who won the Nobel prize, ...\"",
+       "options": [
+        "Ο Σεφέρης που κέρδισε το Νόμπελ ...",
+        "Ο Σεφέρης, ο οποίος τιμήθηκε με το Νόμπελ, ...",
+        "Ο Σεφέρης, την οποία τιμήθηκε με το Νόμπελ, ..."
+       ],
+       "answer": "Ο Σεφέρης, ο οποίος τιμήθηκε με το Νόμπελ, ...",
+       "why": "Non-restrictive, formal: commas and ο οποίος."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "el": "Όποιος, ό,τι, όσος, όπου, όποτε",
+   "title": "Free relatives: whoever, whatever, as much as",
+   "body": [
+    {
+     "p": "These relatives contain their own antecedent (\"the person who\", \"the thing that\")."
+    },
+    {
+     "table": {
+      "head": [
+       "Word",
+       "Meaning",
+       "Example"
+      ],
+      "rows": [
+       [
+        "όποιος, -α, -ο",
+        "whoever, whichever",
+        "Όποιος θέλει, ας έρθει."
+       ],
+       [
+        "ό,τι",
+        "whatever, everything that",
+        "Κάνε ό,τι θέλεις."
+       ],
+       [
+        "όσος, -η, -ο",
+        "as much/many as, all that",
+        "Πάρε όσα θέλεις."
+       ],
+       [
+        "όπου",
+        "wherever, where",
+        "Πήγαινε όπου θέλεις."
+       ],
+       [
+        "όποτε",
+        "whenever",
+        "Έλα όποτε μπορείς."
+       ],
+       [
+        "όπως",
+        "(in the way) as, however",
+        "Κάν' το όπως σου είπα."
+       ]
+      ]
+     }
+    },
+    {
+     "p": "**Όποιος** takes the case of its role in **its own** clause: **Όποιον δεις, πες του** \"Whoever you see (object), tell him\". **Ό,τι** is written with a comma inside (υποδιαστολή) to tell it apart from ότι \"that\"."
+    },
+    {
+     "p": "With **κι αν** they mean \"-ever, no matter\": **ό,τι κι αν γίνει** \"whatever happens\", **όποιος κι αν είναι** \"whoever it is\", **όσο κι αν προσπαθήσω** \"however hard I try\" (subjunctive)."
+    },
+    {
+     "links": [
+      {
+       "href": "#c1-emphasis",
+       "kind": "Lesson",
+       "el": "Έμφαση και ελεύθερες αναφορικές",
+       "title": "Emphasis: όποιος κι αν, όσο κι αν, αυτό που, ούτε καν, ίσα ίσα"
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"Whatever you say.\"",
+       "options": [
+        "Ότι πεις.",
+        "Ό,τι πεις.",
+        "Τι πεις."
+       ],
+       "answer": "Ό,τι πεις.",
+       "why": "\"Whatever\" is ό,τι, with the comma."
+      },
+      {
+       "type": "choice",
+       "q": "\"Invite whoever you want.\"",
+       "options": [
+        "Κάλεσε όποιος θέλεις.",
+        "Κάλεσε όποιον θέλεις.",
+        "Κάλεσε που θέλεις."
+       ],
+       "answer": "Κάλεσε όποιον θέλεις.",
+       "why": "όποιον is the object in its own clause (θέλεις όποιον)."
+      },
+      {
+       "type": "write",
+       "q": "\"Whatever happens, call me.\" (γίνομαι)",
+       "answer": "Ό,τι κι αν γίνει, πάρε με τηλέφωνο.",
+       "accept": [
+        "Ό,τι και να γίνει, πάρε με τηλέφωνο.",
+        "Ό,τι κι αν γίνει, τηλεφώνησέ μου."
+       ],
+       "why": "ό,τι κι αν / ό,τι και να + subjunctive."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "C1",
+   "el": "Αναφορικές με υποτακτική και λόγιες μορφές",
+   "title": "Relatives in the subjunctive, and learned forms",
+   "body": [
+    {
+     "p": "When the noun is **not yet found, wished for or non-existent**, the relative clause takes **να** or **που να**:"
+    },
+    {
+     "ex": [
+      {
+       "el": "Ψάχνω κάποιον να μιλάει γαλλικά.",
+       "en": "I'm looking for someone who speaks French (if such a person exists)."
+      },
+      {
+       "el": "Θέλω ένα σπίτι που να έχει κήπο.",
+       "en": "I want a house that has a garden."
+      },
+      {
+       "el": "Δεν υπάρχει κανείς που να μην τον συμπαθεί.",
+       "en": "There's nobody who doesn't like him."
+      }
+     ]
+    },
+    {
+     "p": "Compare **Ξέρω κάποιον που μιλάει γαλλικά** \"I know someone who speaks French\" (a real person: indicative)."
+    },
+    {
+     "p": "Fixed relative patterns of written Greek:"
+    },
+    {
+     "list": [
+      "**όλα όσα** \"everything that\": **Όλα όσα είπε ήταν αλήθεια.** After **όλα** the relative is **όσα**, not που.",
+      "**ό,τι + superlative** \"the best/worst ... ever\": **Ήταν ό,τι καλύτερο έχω δει** \"It was the best thing I've ever seen\".",
+      "**εξ ου και** \"hence\" (learned, from the old relative **ου**): **Ήταν από τη Σμύρνη, εξ ου και η προφορά του** \"He was from Smyrna, hence his accent\"."
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "Which sentence is about a real, particular person?",
+       "options": [
+        "Ψάχνω κάποιον να μιλάει γαλλικά.",
+        "Ξέρω κάποιον που μιλάει γαλλικά.",
+        "Θέλω κάποιον που να μιλάει γαλλικά."
+       ],
+       "answer": "Ξέρω κάποιον που μιλάει γαλλικά.",
+       "why": "A real person: που + indicative. The other two look for someone who may not exist: να / που να."
+      },
+      {
+       "type": "order",
+       "q": "\"I want a house that has a garden.\"",
+       "answer": "Θέλω ένα σπίτι που να έχει κήπο.",
+       "accept": [],
+       "why": "A wished-for thing: που να + verb."
+      },
+      {
+       "type": "choice",
+       "q": "\"Everything she said was true.\"",
+       "options": [
+        "Όλα που είπε ήταν αλήθεια.",
+        "Όλα όσα είπε ήταν αλήθεια.",
+        "Όλα ό,τι είπε ήταν αλήθεια."
+       ],
+       "answer": "Όλα όσα είπε ήταν αλήθεια.",
+       "why": "After όλα: όσα."
+      },
+      {
+       "type": "write",
+       "q": "\"He was from Crete, hence his accent.\" (εξ ου και)",
+       "answer": "Ήταν από την Κρήτη, εξ ου και η προφορά του.",
+       "accept": [],
+       "why": "εξ ου και + noun phrase = \"hence\"."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "relatives",
+ "el": "Οι αναφορικές προτάσεις",
+ "title": "Relative clauses",
+ "span": "A2–C1",
+ "blurb": "που for everything, ο οποίος after prepositions and in writing, the pronoun that που sometimes needs, \"whose\", όποιος and ό,τι, and relative clauses in the subjunctive.",
+ "intro": [
+  {
+   "p": "A relative clause describes a noun: \"the man **who lives next door**\", \"the book **that I'm reading**\". Greek has one invariable word, **που**, that works for people and things in almost every position, and a declinable, more formal **ο οποίος, η οποία, το οποίο**. The main traps are prepositions (which need ο οποίος), the weak pronoun that **που** may need to show case, and the \"whoever / whatever\" family."
+  },
+  {
+   "links": [
+    {
+     "href": "#b1-relatives",
+     "kind": "Lesson",
+     "el": "Αναφορικές προτάσεις",
+     "title": "Relative clauses with που and ο οποίος"
+    },
+    {
+     "href": "#clauses-relative",
+     "kind": "Lesson",
+     "el": "Αναφορικές σε βάθος: που, ο οποίος, όποιος",
+     "title": "Relative clauses in depth: every case, whose, free relatives"
+    },
+    {
+     "href": "#pos.pronoun~8",
+     "kind": "Part of speech",
+     "el": "Αναφορικές: που και ο οποίος",
+     "title": "Relative pronouns: που and ο οποίος"
+    },
+    {
+     "href": "#pos.pronoun~10",
+     "kind": "Part of speech",
+     "el": "Αναφορικές χωρίς προηγούμενο",
+     "title": "Free relatives: όποιος, ό,τι, όσος"
+    },
+    {
+     "href": "#cards.relative-pron",
+     "kind": "Card",
+     "el": "Αναφορικές αντωνυμίες",
+     "title": "Relative pronouns"
+    }
+   ]
+  }
+ ]
+}

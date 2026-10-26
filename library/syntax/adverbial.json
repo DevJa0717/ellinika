@@ -1,0 +1,752 @@
+{
+ "sections": [
+  {
+   "level": "A2",
+   "el": "Όταν",
+   "title": "όταν: when",
+   "body": [
+    {
+     "p": "**Όταν** \"when\" takes the **indicative** for the present and the past:"
+    },
+    {
+     "ex": [
+      {
+       "el": "Όταν βρέχει, μένω σπίτι.",
+       "en": "When it rains, I stay home. (habit: imperfective)"
+      },
+      {
+       "el": "Όταν ήμουν παιδί, ζούσα στο χωριό.",
+       "en": "When I was a child, I lived in the village."
+      },
+      {
+       "el": "Όταν τον είδα, χάρηκα.",
+       "en": "When I saw him, I was happy. (one event: aorist)"
+      }
+     ]
+    },
+    {
+     "p": "For the **future**, όταν takes the **non-past form without θα**: perfective for one event (**όταν έρθεις**), imperfective for something ongoing or repeated (**όταν είσαι**). **Όταν θα** + future is heard in speech, but the standard form has no θα."
+    },
+    {
+     "ex": [
+      {
+       "el": "Όταν έρθεις, θα φάμε.",
+       "en": "When you come, we'll eat."
+      },
+      {
+       "el": "Όταν τελειώσω, θα σου τηλεφωνήσω.",
+       "en": "When I finish, I'll call you."
+      },
+      {
+       "el": "Όταν θα είσαι στην Αθήνα ... (colloquial, avoid) → Όταν είσαι στην Αθήνα, πάρε με.",
+       "en": "When you are in Athens, call me."
+      }
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "Time",
+       "Form after όταν",
+       "Example"
+      ],
+      "rows": [
+       [
+        "habit",
+        "present",
+        "Όταν πεινάω, τρώω."
+       ],
+       [
+        "past event",
+        "aorist",
+        "Όταν έφτασα, έβρεχε."
+       ],
+       [
+        "past background",
+        "imperfect",
+        "Όταν ζούσα στο Λονδίνο, ..."
+       ],
+       [
+        "future event",
+        "perfective non-past (no θα)",
+        "Όταν φτάσεις, γράψε μου."
+       ]
+      ]
+     }
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"When I get home, I'll call you.\"",
+       "options": [
+        "Όταν θα φτάσω σπίτι, θα σε πάρω.",
+        "Όταν φτάσω σπίτι, θα σε πάρω.",
+        "Όταν φτάνω σπίτι, θα σε πάρω."
+       ],
+       "answer": "Όταν φτάσω σπίτι, θα σε πάρω.",
+       "why": "Future event after όταν: perfective φτάσω, no θα."
+      },
+      {
+       "type": "choice",
+       "q": "\"When I was young, I played football.\"",
+       "options": [
+        "Όταν είμαι μικρός, έπαιζα ποδόσφαιρο.",
+        "Όταν ήμουν μικρός, έπαιζα ποδόσφαιρο.",
+        "Όταν ήμουνα μικρός, παίξω ποδόσφαιρο."
+       ],
+       "answer": "Όταν ήμουν μικρός, έπαιζα ποδόσφαιρο.",
+       "why": "A past background: imperfect in both clauses."
+      },
+      {
+       "type": "write",
+       "q": "\"When you see her, tell her.\" (βλέπω, λέω)",
+       "answer": "Όταν τη δεις, πες της.",
+       "accept": [
+        "Όταν τη δεις, να της πεις."
+       ],
+       "why": "Future: όταν + perfective δεις, then the command."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Μόλις, πριν, αφού, μέχρι, ενώ",
+   "title": "Other time conjunctions",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "Conjunction",
+       "Meaning",
+       "Future reference",
+       "Past reference"
+      ],
+      "rows": [
+       [
+        "μόλις",
+        "as soon as",
+        "Μόλις φτάσεις, πες μου.",
+        "Μόλις έφτασα, κοιμήθηκα."
+       ],
+       [
+        "αφού",
+        "after (also \"since\")",
+        "Αφού φας, θα βγούμε.",
+        "Αφού έφαγε, βγήκε."
+       ],
+       [
+        "πριν (να) / προτού",
+        "before",
+        "Πριν φύγεις, πες μου.",
+        "Πριν φύγει, μου είπε. (always subjunctive)"
+       ],
+       [
+        "μέχρι να / ώσπου να",
+        "until",
+        "Θα περιμένω μέχρι να έρθεις.",
+        "Περίμενα μέχρι να έρθει."
+       ],
+       [
+        "μέχρι που",
+        "until (finally)",
+        "",
+        "Περίμενα, μέχρι που βαρέθηκα."
+       ],
+       [
+        "ενώ / καθώς",
+        "while, as",
+        "",
+        "Ενώ μαγείρευε, άκουγε ράδιο."
+       ],
+       [
+        "όσο",
+        "as long as, while",
+        "Όσο είσαι εδώ, μείνε μαζί μας.",
+        "Όσο έλειπε, ..."
+       ],
+       [
+        "από τότε που",
+        "since (time)",
+        "",
+        "Από τότε που μετακόμισε, δεν τον έχω δει."
+       ],
+       [
+        "κάθε φορά που",
+        "every time",
+        "Κάθε φορά που έρχεται, φέρνει γλυκά.",
+        ""
+       ]
+      ]
+     }
+    },
+    {
+     "p": "**Πριν (να)** always takes the subjunctive form, even in the past: **Πριν φύγει, με φίλησε** \"Before (s)he left, (s)he kissed me\". **Μέχρι να** expects something that is not yet real at that point; **μέχρι που** reports what eventually happened."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"Before you go, close the window.\"",
+       "options": [
+        "Πριν φεύγεις, κλείσε το παράθυρο.",
+        "Πριν φύγεις, κλείσε το παράθυρο.",
+        "Πριν θα φύγεις, κλείσε το παράθυρο."
+       ],
+       "answer": "Πριν φύγεις, κλείσε το παράθυρο.",
+       "why": "πριν + perfective subjunctive."
+      },
+      {
+       "type": "choice",
+       "q": "\"Before he left, he paid.\"",
+       "options": [
+        "Πριν έφυγε, πλήρωσε.",
+        "Πριν φύγει, πλήρωσε.",
+        "Πριν να έφευγε, πλήρωσε."
+       ],
+       "answer": "Πριν φύγει, πλήρωσε.",
+       "why": "πριν takes the subjunctive form even about the past."
+      },
+      {
+       "type": "choice",
+       "q": "\"While I was cooking, the phone rang.\"",
+       "options": [
+        "Ενώ μαγείρεψα, χτύπησε το τηλέφωνο.",
+        "Ενώ μαγείρευα, χτύπησε το τηλέφωνο.",
+        "Ενώ μαγειρεύω, χτύπησε το τηλέφωνο."
+       ],
+       "answer": "Ενώ μαγείρευα, χτύπησε το τηλέφωνο.",
+       "why": "A background activity: imperfect."
+      },
+      {
+       "type": "write",
+       "q": "\"As soon as I hear something, I'll tell you.\" (μόλις, μαθαίνω)",
+       "answer": "Μόλις μάθω κάτι, θα σου πω.",
+       "accept": [
+        "Μόλις μάθω κάτι, θα σου το πω.",
+        "Μόλις μάθω κάτι, θα σε ενημερώσω."
+       ],
+       "why": "μόλις + perfective, no θα."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Αιτία: επειδή, γιατί, αφού, καθώς, μια και",
+   "title": "Cause",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "Conjunction",
+       "Use",
+       "Example"
+      ],
+      "rows": [
+       [
+        "επειδή",
+        "because (any position)",
+        "Επειδή βρέχει, δεν βγαίνω."
+       ],
+       [
+        "γιατί",
+        "because (after the main clause)",
+        "Δεν βγαίνω, γιατί βρέχει."
+       ],
+       [
+        "αφού",
+        "since (the cause is known to both)",
+        "Αφού δεν θέλεις, δεν πάμε."
+       ],
+       [
+        "καθώς",
+        "as (written, neutral)",
+        "Καθώς ήταν αργά, φύγαμε."
+       ],
+       [
+        "μια και / μιας και",
+        "since, seeing that",
+        "Μια και είσαι εδώ, βοήθησέ με."
+       ],
+       [
+        "εφόσον",
+        "since, given that (formal)",
+        "Εφόσον συμφωνείτε, προχωράμε."
+       ],
+       [
+        "διότι",
+        "because (formal)",
+        "Απορρίφθηκε, διότι ήταν εκπρόθεσμη."
+       ],
+       [
+        "δεδομένου ότι",
+        "given that (formal)",
+        "Δεδομένου ότι ..."
+       ]
+      ]
+     }
+    },
+    {
+     "p": "All take the **indicative**: a cause is presented as real."
+    },
+    {
+     "p": "With a **noun phrase** instead of a clause: **λόγω + genitive**, **εξαιτίας + genitive**, **από + accusative** for emotions: **λόγω της κακοκαιρίας**, **εξαιτίας του λάθους μου**, **έτρεμε από φόβο**."
+    },
+    {
+     "tip": "**Αφού** has two meanings: \"after\" (time, often with aorist subjunctive for the future: **αφού φάμε**) and \"since\" (cause, indicative: **αφού το ξέρεις, γιατί ρωτάς;**)."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"Since you know, why are you asking?\"",
+       "options": [
+        "Επειδή ξέρεις, γιατί ρωτάς;",
+        "Αφού ξέρεις, γιατί ρωτάς;",
+        "Πριν ξέρεις, γιατί ρωτάς;"
+       ],
+       "answer": "Αφού ξέρεις, γιατί ρωτάς;",
+       "why": "A cause both speakers know: αφού."
+      },
+      {
+       "type": "choice",
+       "q": "\"because of the strike\"",
+       "options": [
+        "επειδή η απεργία",
+        "λόγω της απεργίας",
+        "γιατί της απεργίας"
+       ],
+       "answer": "λόγω της απεργίας",
+       "why": "A noun phrase: λόγω + genitive."
+      },
+      {
+       "type": "write",
+       "q": "Formal: \"The application was rejected because it was late.\" (απορρίπτομαι, εκπρόθεσμος)",
+       "answer": "Η αίτηση απορρίφθηκε, διότι ήταν εκπρόθεσμη.",
+       "accept": [
+        "Η αίτηση απορρίφθηκε επειδή ήταν εκπρόθεσμη.",
+        "Η αίτηση απορρίφθηκε, επειδή ήταν εκπρόθεσμη."
+       ],
+       "why": "διότι is the formal \"because\"; επειδή is always correct."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Σκοπός: για να, να, ώστε να, προκειμένου να",
+   "title": "Purpose",
+   "body": [
+    {
+     "p": "Purpose clauses use **να** and therefore the **subjunctive**:"
+    },
+    {
+     "ex": [
+      {
+       "el": "Ήρθα για να σε δω.",
+       "en": "I came to see you."
+      },
+      {
+       "el": "Πήγε στον φούρνο να πάρει ψωμί.",
+       "en": "(S)he went to the baker's to get bread."
+      },
+      {
+       "el": "Μίλα πιο δυνατά, ώστε να σε ακούσουν όλοι.",
+       "en": "Speak louder so that everyone can hear you."
+      },
+      {
+       "el": "Προκειμένου να εγγραφείτε, χρειάζεστε ταυτότητα.",
+       "en": "In order to register, you need an ID."
+      },
+      {
+       "el": "Το λέω για να μην το ξεχάσεις.",
+       "en": "I'm telling you so you won't forget."
+      }
+     ]
+    },
+    {
+     "p": "Negative purpose: **για να μη(ν)**. After verbs of motion **για** can drop. With a noun: **για + accusative**: **Ήρθα για δουλειά** \"I came for work\"."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"I'm saving so I can buy a car.\"",
+       "options": [
+        "Μαζεύω λεφτά επειδή αγοράζω αυτοκίνητο.",
+        "Μαζεύω λεφτά για να αγοράσω αυτοκίνητο.",
+        "Μαζεύω λεφτά για αγοράζω αυτοκίνητο."
+       ],
+       "answer": "Μαζεύω λεφτά για να αγοράσω αυτοκίνητο.",
+       "why": "Purpose: για να + subjunctive."
+      },
+      {
+       "type": "write",
+       "q": "\"Write it down so you don't forget it.\" (σημειώνω, ξεχνάω)",
+       "answer": "Σημείωσέ το για να μην το ξεχάσεις.",
+       "accept": [
+        "Γράψ' το για να μην το ξεχάσεις.",
+        "Γράψε το για να μην το ξεχάσεις."
+       ],
+       "why": "Negative purpose: για να μην + subjunctive."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "el": "Αποτέλεσμα: ώστε, τόσο ... που",
+   "title": "Result",
+   "body": [
+    {
+     "p": "A **real** result takes the **indicative**; an **intended** result takes **να**:"
+    },
+    {
+     "table": {
+      "head": [
+       "Pattern",
+       "Example",
+       "Meaning"
+      ],
+      "rows": [
+       [
+        "τόσο ... που + ind.",
+        "Ήταν τόσο κουρασμένος που αποκοιμήθηκε.",
+        "He was so tired that he fell asleep."
+       ],
+       [
+        "τόσο ... ώστε + ind.",
+        "Έβρεξε τόσο πολύ ώστε πλημμύρισαν οι δρόμοι.",
+        "It rained so much that the roads flooded."
+       ],
+       [
+        "έτσι ώστε να + subj.",
+        "Οργάνωσέ το έτσι ώστε να τελειώσουμε νωρίς.",
+        "Arrange it so that we finish early."
+       ],
+       [
+        "με αποτέλεσμα να + subj.",
+        "Έχασε το τρένο, με αποτέλεσμα να αργήσει.",
+        "(S)he missed the train, so (s)he was late."
+       ],
+       [
+        "γι' αυτό / οπότε / άρα + ind.",
+        "Ήταν αργά, οπότε φύγαμε.",
+        "It was late, so we left."
+       ]
+      ]
+     }
+    },
+    {
+     "p": "**Με αποτέλεσμα να** reports a real result but uses **να** by fixed habit; it is typical of written and news language."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"It was so hot that we couldn't sleep.\"",
+       "options": [
+        "Έκανε τόση ζέστη να μην μπορούσαμε να κοιμηθούμε.",
+        "Έκανε τόση ζέστη που δεν μπορούσαμε να κοιμηθούμε.",
+        "Έκανε τόση ζέστη για να μην κοιμηθούμε."
+       ],
+       "answer": "Έκανε τόση ζέστη που δεν μπορούσαμε να κοιμηθούμε.",
+       "why": "Real result: τόσο/τόση ... που + indicative."
+      },
+      {
+       "type": "choice",
+       "q": "\"The bridge collapsed, so the road was closed.\" (news style)",
+       "options": [
+        "Κατέρρευσε η γέφυρα, για να κλείσει ο δρόμος.",
+        "Κατέρρευσε η γέφυρα, με αποτέλεσμα να κλείσει ο δρόμος.",
+        "Κατέρρευσε η γέφυρα, ώστε κλείνει ο δρόμος."
+       ],
+       "answer": "Κατέρρευσε η γέφυρα, με αποτέλεσμα να κλείσει ο δρόμος.",
+       "why": "News style for a real result: με αποτέλεσμα να."
+      },
+      {
+       "type": "order",
+       "q": "\"He was so tired that he fell asleep.\"",
+       "answer": "Ήταν τόσο κουρασμένος που αποκοιμήθηκε.",
+       "accept": [],
+       "why": "τόσο + adjective + που + indicative."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "el": "Παραχώρηση και αντίθεση",
+   "title": "Concession and contrast",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "Conjunction",
+       "Mood",
+       "Example",
+       "Meaning"
+      ],
+      "rows": [
+       [
+        "αν και",
+        "indicative",
+        "Αν και ήταν άρρωστη, ήρθε.",
+        "Although she was ill, she came."
+       ],
+       [
+        "παρόλο που / παρ' όλο που",
+        "indicative",
+        "Παρόλο που βρέχει, θα βγούμε.",
+        "Even though it's raining, we'll go out."
+       ],
+       [
+        "μολονότι",
+        "indicative (formal)",
+        "Μολονότι προσπάθησε, απέτυχε.",
+        "Although (s)he tried, (s)he failed."
+       ],
+       [
+        "ενώ",
+        "indicative",
+        "Ενώ το ήξερε, δεν είπε τίποτα.",
+        "Although (whereas) (s)he knew, ..."
+       ],
+       [
+        "ακόμα κι αν / και να",
+        "subjunctive",
+        "Ακόμα κι αν βρέξει, θα πάμε.",
+        "Even if it rains, we'll go."
+       ],
+       [
+        "όσο κι αν / όσο και να",
+        "subjunctive",
+        "Όσο κι αν προσπαθήσω, δεν μπορώ.",
+        "However hard I try, I can't."
+       ],
+       [
+        "παρά + accusative",
+        "(noun)",
+        "Παρά τον καιρό, βγήκαμε.",
+        "Despite the weather, we went out."
+       ],
+       [
+        "παρ' όλα αυτά / ωστόσο",
+        "(adverb)",
+        "Ήταν ακριβό. Παρ' όλα αυτά, το πήραμε.",
+        "Nevertheless, we bought it."
+       ]
+      ]
+     }
+    },
+    {
+     "p": "**Αν και / παρόλο που** concede a **fact** (indicative). **Ακόμα κι αν / και να** concede a **possibility** (subjunctive for the future, imperfect for the unreal: **ακόμα κι αν το ήξερα** \"even if I had known\")."
+    },
+    {
+     "tip": "Do not write **παρόλα** for the adverb. Standard spelling: **παρ' όλα αυτά** (adverb, \"nevertheless\"), **παρόλο που** (conjunction)."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"Although it was late, they kept talking.\"",
+       "options": [
+        "Ακόμα κι αν ήταν αργά, συνέχισαν να μιλάνε.",
+        "Αν και ήταν αργά, συνέχισαν να μιλάνε.",
+        "Αν και ήταν αργά, συνέχισαν μιλάνε."
+       ],
+       "answer": "Αν και ήταν αργά, συνέχισαν να μιλάνε.",
+       "why": "A real fact conceded: αν και + indicative."
+      },
+      {
+       "type": "choice",
+       "q": "\"Even if you insist, I won't go.\"",
+       "options": [
+        "Αν και επιμείνεις, δεν θα πάω.",
+        "Ακόμα κι αν επιμείνεις, δεν θα πάω.",
+        "Παρόλο που επιμένεις θα, δεν θα πάω."
+       ],
+       "answer": "Ακόμα κι αν επιμείνεις, δεν θα πάω.",
+       "why": "A possibility: ακόμα κι αν + subjunctive."
+      },
+      {
+       "type": "write",
+       "q": "\"Despite the rain, we went out.\" (η βροχή)",
+       "answer": "Παρά τη βροχή, βγήκαμε.",
+       "accept": [
+        "Παρά τη βροχή βγήκαμε έξω.",
+        "Παρά τη βροχή, βγήκαμε έξω."
+       ],
+       "why": "παρά + accusative with a noun."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "C1",
+   "el": "Τρόπος, σύγκριση και λόγιοι σύνδεσμοι",
+   "title": "Manner, comparison and learned conjunctions",
+   "body": [
+    {
+     "list": [
+      "**Όπως** \"as, the way\": **Κάν' το όπως σου έδειξα.** **Σαν να + indicative** \"as if\": **Φέρεται σαν να μην έγινε τίποτα** \"(S)he behaves as if nothing happened\".",
+      "**Όσο ... τόσο** \"the more ... the more\": **Όσο περισσότερο διαβάζεις, τόσο καλύτερα γράφεις.**",
+      "**Παρά να** \"rather than\": **Προτιμώ να περπατήσω παρά να περιμένω το λεωφορείο.**",
+      "**Εφόσον** \"provided / since\", **καθόσον** \"inasmuch as\", **ενόσω** \"while\" (formal), **αμέσως μόλις** \"immediately after\", **έως ότου** \"until\" (formal, + subjunctive for the future: **έως ότου ολοκληρωθεί η έρευνα**).",
+      "**Γενικής απόλυτης** traces: participle phrases replace clauses in formal style: **Ολοκληρωθείσης της συνεδρίασης** is archaic; today's formal style says **Μετά την ολοκλήρωση της συνεδρίασης** \"After the meeting had ended\"."
+     ]
+    },
+    {
+     "ex": [
+      {
+       "el": "Οι εργασίες θα συνεχιστούν έως ότου ολοκληρωθεί το έργο.",
+       "en": "Work will continue until the project is completed."
+      },
+      {
+       "el": "Ενόσω διαρκεί η απεργία, τα πλοία δεν θα αναχωρούν.",
+       "en": "While the strike lasts, the ships will not sail."
+      },
+      {
+       "el": "Μετά την ολοκλήρωση της συνεδρίασης, ο υπουργός έκανε δηλώσεις.",
+       "en": "After the meeting ended, the minister made a statement."
+      }
+     ]
+    },
+    {
+     "links": [
+      {
+       "href": "#c1-connectors",
+       "kind": "Lesson",
+       "el": "Συνδετικά του επιχειρήματος",
+       "title": "Connectors for argument: αφενός… αφετέρου, μεν… δε, ως εκ τούτου, άλλωστε"
+      },
+      {
+       "href": "#c1-nominal-style",
+       "kind": "Lesson",
+       "el": "Ονοματοποίηση",
+       "title": "Nominal style: from «επειδή αυξήθηκαν οι τιμές» to «η αύξηση των τιμών»"
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "Formal: \"until the investigation is completed\"",
+       "options": [
+        "μέχρι που ολοκληρώνεται η έρευνα",
+        "έως ότου ολοκληρωθεί η έρευνα",
+        "έως ότι ολοκληρώθηκε η έρευνα"
+       ],
+       "answer": "έως ότου ολοκληρωθεί η έρευνα",
+       "why": "έως ότου + perfective subjunctive for a future limit."
+      },
+      {
+       "type": "choice",
+       "q": "\"He talks as if he knew everything.\"",
+       "options": [
+        "Μιλάει σαν ξέρει τα πάντα.",
+        "Μιλάει σαν να ξέρει τα πάντα.",
+        "Μιλάει σαν να ξέρει όλα."
+       ],
+       "answer": "Μιλάει σαν να ξέρει τα πάντα.",
+       "why": "σαν να + indicative; \"everything\" is τα πάντα."
+      },
+      {
+       "type": "write",
+       "q": "\"The more you practise, the better you speak.\" (εξασκούμαι, μιλάω)",
+       "answer": "Όσο περισσότερο εξασκείσαι, τόσο καλύτερα μιλάς.",
+       "accept": [
+        "Όσο πιο πολύ εξασκείσαι, τόσο καλύτερα μιλάς.",
+        "Όσο περισσότερο εξασκείσαι, τόσο πιο καλά μιλάς."
+       ],
+       "why": "όσο ... τόσο with comparatives."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "adverbial",
+ "el": "Χρονικές, αιτιολογικές, τελικές, αποτελεσματικές και παραχωρητικές",
+ "title": "Clauses of time, cause, purpose, result and concession",
+ "span": "A2–C1",
+ "blurb": "όταν, μόλις, πριν, αφού, ενώ; επειδή, αφού, καθώς; για να, ώστε; αν και, παρόλο που, ακόμα κι αν: which mood and which stem each one takes, and the trap of θα after \"when\".",
+ "intro": [
+  {
+   "p": "These clauses say **when, why, what for, with what result** and **in spite of what** something happens. Their conjunctions are easy to learn as vocabulary; the real skill is the verb that follows. Three rules cover most of it: **future time after \"when, as soon as, until, before\" takes no θα but a subjunctive-type form**; **purpose takes να**; **real cause and real result take the indicative**."
+  },
+  {
+   "links": [
+    {
+     "href": "#b1-temporal",
+     "kind": "Lesson",
+     "el": "Χρονικές προτάσεις",
+     "title": "όταν, πριν, μόλις, ενώ"
+    },
+    {
+     "href": "#b1-causal",
+     "kind": "Lesson",
+     "el": "Αιτιολογικές προτάσεις",
+     "title": "Cause: επειδή, γιατί, δεδομένου ότι, μια και"
+    },
+    {
+     "href": "#clauses-time-cause",
+     "kind": "Lesson",
+     "el": "Χρόνος και αιτία σε βάθος",
+     "title": "Time and cause clauses in depth: aspect choice and double meanings"
+    },
+    {
+     "href": "#b2-concession",
+     "kind": "Lesson",
+     "el": "Παραχωρητικές προτάσεις",
+     "title": "Concession: παρόλο που, αν και, παρ' όλα αυτά"
+    },
+    {
+     "href": "#b2-result-purpose",
+     "kind": "Lesson",
+     "el": "Αποτέλεσμα και σκοπός",
+     "title": "Result and purpose: ώστε να, με αποτέλεσμα να, για να"
+    },
+    {
+     "href": "#pos.conjunction~4",
+     "kind": "Part of speech",
+     "el": "Όταν, ενώ, μόλις, πριν, αφού, μέχρι",
+     "title": "Time conjunctions"
+    },
+    {
+     "href": "#pos.conjunction~6",
+     "kind": "Part of speech",
+     "el": "Για να, ώστε, που",
+     "title": "Purpose and result: για να, ώστε (να), τόσο ... που"
+    },
+    {
+     "href": "#pos.conjunction~7",
+     "kind": "Part of speech",
+     "el": "Αν και, παρόλο που, ενώ",
+     "title": "Concession and contrast"
+    },
+    {
+     "href": "#pos.conjunction~9",
+     "kind": "Part of speech",
+     "el": "Αιτιολογικοί σύνδεσμοι",
+     "title": "Cause in depth: επειδή, γιατί, αφού, καθώς, δεδομένου ότι"
+    },
+    {
+     "href": "#cards.clauses",
+     "kind": "Card",
+     "el": "Χρόνος, αιτία, σκοπός, αποτέλεσμα, εναντίωση",
+     "title": "Time, cause, purpose, result, concession"
+    }
+   ]
+  }
+ ]
+}

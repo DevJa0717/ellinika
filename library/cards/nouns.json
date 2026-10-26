@@ -1,0 +1,615 @@
+{
+ "id": "nouns",
+ "el": "Άρθρο και ουσιαστικό",
+ "title": "Article and noun",
+ "cards": [
+  {
+   "id": "article",
+   "level": "A1",
+   "el": "Το άρθρο",
+   "title": "The article",
+   "group": "nouns",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "",
+       "Masculine",
+       "Feminine",
+       "Neuter"
+      ],
+      "rows": [
+       [
+        "Nom. sg.",
+        "ο",
+        "η",
+        "το"
+       ],
+       [
+        "Gen. sg.",
+        "του",
+        "της",
+        "του"
+       ],
+       [
+        "Acc. sg.",
+        "τον",
+        "τη(ν)",
+        "το"
+       ],
+       [
+        "Nom. pl.",
+        "οι",
+        "οι",
+        "τα"
+       ],
+       [
+        "Gen. pl.",
+        "των",
+        "των",
+        "των"
+       ],
+       [
+        "Acc. pl.",
+        "τους",
+        "τις",
+        "τα"
+       ]
+      ]
+     }
+    },
+    {
+     "table": {
+      "head": [
+       "Indefinite",
+       "Masculine",
+       "Feminine",
+       "Neuter"
+      ],
+      "rows": [
+       [
+        "Nom.",
+        "ένας",
+        "μία / μια",
+        "ένα"
+       ],
+       [
+        "Gen.",
+        "ενός",
+        "μίας / μιας",
+        "ενός"
+       ],
+       [
+        "Acc.",
+        "έναν",
+        "μία / μια",
+        "ένα"
+       ]
+      ]
+     }
+    },
+    {
+     "list": [
+      "**σε + article** fuses: **στον, στη(ν), στο, στους, στις, στα**: **στο σπίτι, στην Αθήνα**.",
+      "**τον** keeps its ν always; **την** keeps it before a vowel and κ, π, τ, ξ, ψ, γκ, μπ, ντ, τσ, τζ (**την Αθήνα, την πόλη, τη Μαρία**). The same rule holds for **δεν, μην, αυτήν, καμιάν**.",
+      "Greek uses the article with **names** (**ο Νίκος, η Ελλάδα**), **abstract nouns** (**η αγάπη**), **generic plurals** (**Οι γάτες κοιμούνται πολύ**) and **possessives** (**το σπίτι μου**).",
+      "No article: after **είμαι** with professions (**Είναι γιατρός**), with uncounted amounts (**Θέλω νερό**), in the vocative (**Νίκο!**)."
+     ]
+    },
+    {
+     "links": [
+      {
+       "href": "#a1-gender",
+       "kind": "Lesson",
+       "el": "Το γένος και το άρθρο",
+       "title": "Gender and the article"
+      },
+      {
+       "href": "#pos.article~0",
+       "kind": "Part of speech",
+       "el": "Το οριστικό άρθρο",
+       "title": "The definite article: all the forms"
+      },
+      {
+       "href": "#pos.article~1",
+       "kind": "Part of speech",
+       "el": "Το τελικό -ν",
+       "title": "When the final -ν stays"
+      },
+      {
+       "href": "#pos.article~6",
+       "kind": "Part of speech",
+       "el": "Το άρθρο όπου τα αγγλικά δεν βάζουν",
+       "title": "Where Greek has \"the\" and English has nothing"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "masculine",
+   "level": "A1",
+   "el": "Αρσενικά ουσιαστικά",
+   "title": "Masculine nouns",
+   "group": "nouns",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "",
+       "-ος",
+       "-ος (stress 3rd from end)",
+       "-ας",
+       "-ης",
+       "-ές / -άς / -ούς"
+      ],
+      "rows": [
+       [
+        "Nom. sg.",
+        "ο δρόμος",
+        "ο άνθρωπος",
+        "ο πατέρας",
+        "ο μαθητής",
+        "ο καφές"
+       ],
+       [
+        "Gen. sg.",
+        "του δρόμου",
+        "του ανθρώπου",
+        "του πατέρα",
+        "του μαθητή",
+        "του καφέ"
+       ],
+       [
+        "Acc. sg.",
+        "τον δρόμο",
+        "τον άνθρωπο",
+        "τον πατέρα",
+        "τον μαθητή",
+        "τον καφέ"
+       ],
+       [
+        "Voc. sg.",
+        "δρόμε",
+        "άνθρωπε",
+        "πατέρα",
+        "μαθητή",
+        "καφέ"
+       ],
+       [
+        "Nom. pl.",
+        "οι δρόμοι",
+        "οι άνθρωποι",
+        "οι πατέρες",
+        "οι μαθητές",
+        "οι καφέδες"
+       ],
+       [
+        "Gen. pl.",
+        "των δρόμων",
+        "των ανθρώπων",
+        "των πατέρων",
+        "των μαθητών",
+        "των καφέδων"
+       ],
+       [
+        "Acc. pl.",
+        "τους δρόμους",
+        "τους ανθρώπους",
+        "τους πατέρες",
+        "τους μαθητές",
+        "τους καφέδες"
+       ]
+      ]
+     }
+    },
+    {
+     "list": [
+      "**Genitive and accusative singular lose the -ς**: ο πατέρας → του πατέρα, τον πατέρα.",
+      "**-ος words stressed on the third-from-last** move the stress one place in the genitive singular and in the genitive and accusative plural: **του ανθρώπου, των ανθρώπων, τους ανθρώπους**.",
+      "**-ης nouns** stress the genitive plural ending: **ο ναύτης → των ναυτών**; so do many -ας nouns: **ο μήνας → των μηνών**.",
+      "Vocative of -ος: **-ε** (φίλε, γιατρέ), but two-syllable names and many names in -ος: **-ο** (**Νίκο, Πέτρο, Γιώργο**).",
+      "Like **καφές**: **ο ψαράς → οι ψαράδες**, **ο παππούς → οι παππούδες**, **ο μανάβης → οι μανάβηδες**."
+     ]
+    },
+    {
+     "links": [
+      {
+       "href": "#a1-masc-os",
+       "kind": "Lesson",
+       "el": "Αρσενικά σε -ος",
+       "title": "Masculine nouns in -ος"
+      },
+      {
+       "href": "#decl-masculine",
+       "kind": "Lesson",
+       "el": "Τα αρσενικά ουσιαστικά",
+       "title": "Masculine nouns in full"
+      },
+      {
+       "href": "#pos.noun~3",
+       "kind": "Part of speech",
+       "el": "Αρσενικά σε -ος",
+       "title": "Masculine nouns in -ος"
+      },
+      {
+       "href": "#pos.noun~4",
+       "kind": "Part of speech",
+       "el": "Αρσενικά σε -ας, -ης",
+       "title": "Masculine nouns in -ας and -ης"
+      },
+      {
+       "href": "#gym-declension",
+       "kind": "Lesson",
+       "el": "Γυμναστήριο κλίσης",
+       "title": "Declension gym"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "feminine",
+   "level": "A1",
+   "el": "Θηλυκά ουσιαστικά",
+   "title": "Feminine nouns",
+   "group": "nouns",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "",
+       "-α",
+       "-η",
+       "-η (-εις)",
+       "-ος",
+       "-ού / -ά"
+      ],
+      "rows": [
+       [
+        "Nom. sg.",
+        "η ώρα",
+        "η αδερφή",
+        "η πόλη",
+        "η οδός",
+        "η γιαγιά"
+       ],
+       [
+        "Gen. sg.",
+        "της ώρας",
+        "της αδερφής",
+        "της πόλης (πόλεως)",
+        "της οδού",
+        "της γιαγιάς"
+       ],
+       [
+        "Acc. sg.",
+        "την ώρα",
+        "την αδερφή",
+        "την πόλη",
+        "την οδό",
+        "τη γιαγιά"
+       ],
+       [
+        "Nom. pl.",
+        "οι ώρες",
+        "οι αδερφές",
+        "οι πόλεις",
+        "οι οδοί",
+        "οι γιαγιάδες"
+       ],
+       [
+        "Gen. pl.",
+        "των ωρών",
+        "των αδερφών",
+        "των πόλεων",
+        "των οδών",
+        "των γιαγιάδων"
+       ],
+       [
+        "Acc. pl.",
+        "τις ώρες",
+        "τις αδερφές",
+        "τις πόλεις",
+        "τις οδούς",
+        "τις γιαγιάδες"
+       ]
+      ]
+     }
+    },
+    {
+     "list": [
+      "**The genitive plural of -α and -η nouns is stressed on the ending -ών**: **η θάλασσα → των θαλασσών, η γλώσσα → των γλωσσών, η ώρα → των ωρών**. Exceptions keep the stress on the next-to-last syllable: nouns in **-άδα, -ίδα, -όνα** and a few others (**των εβδομάδων, των εφημερίδων, των εικόνων, των μητέρων**). Plurals in -άδες keep their stress: **των γιαγιάδων**.",
+      "**-η / -εις** nouns are mostly learned abstract nouns in **-ση, -ξη, -ψη** (**η λύση, η τάξη, η άποψη**). Formal genitive singular **-εως**: **της πόλεως** (in names and set phrases).",
+      "**-ος** feminines take masculine-looking endings with the feminine article: **η οδός, η μέθοδος, η είσοδος, η έξοδος, η Κύπρος**.",
+      "Like **γιαγιά**: **η αλεπού → οι αλεπούδες**, **η μαμά → οι μαμάδες**."
+     ]
+    },
+    {
+     "links": [
+      {
+       "href": "#a1-fem-neut",
+       "kind": "Lesson",
+       "el": "Θηλυκά και ουδέτερα",
+       "title": "Feminines in -α/-η, neuters in -ο/-ι/-μα"
+      },
+      {
+       "href": "#decl-feminine",
+       "kind": "Lesson",
+       "el": "Τα θηλυκά ουσιαστικά",
+       "title": "Feminine nouns in full"
+      },
+      {
+       "href": "#decl2-genitive-plural",
+       "kind": "Lesson",
+       "el": "Η γενική πληθυντικού χωρίς λάθη",
+       "title": "Genitive plural and genitive traps, class by class"
+      },
+      {
+       "href": "#pos.noun~5",
+       "kind": "Part of speech",
+       "el": "Θηλυκά σε -α, -η",
+       "title": "Feminine nouns in -α and -η"
+      },
+      {
+       "href": "#pos.noun~8",
+       "kind": "Part of speech",
+       "el": "Θηλυκά σε -η/-εις, -ος, -ού",
+       "title": "Feminine nouns in -η (plural -εις), -ος and -ού"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "neuter",
+   "level": "A1",
+   "el": "Ουδέτερα ουσιαστικά",
+   "title": "Neuter nouns",
+   "group": "nouns",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "",
+       "-ο",
+       "-ι",
+       "-μα",
+       "-ος",
+       "-ιμο"
+      ],
+      "rows": [
+       [
+        "Nom./Acc. sg.",
+        "το βιβλίο",
+        "το παιδί",
+        "το όνομα",
+        "το δάσος",
+        "το γράψιμο"
+       ],
+       [
+        "Gen. sg.",
+        "του βιβλίου",
+        "του παιδιού",
+        "του ονόματος",
+        "του δάσους",
+        "του γραψίματος"
+       ],
+       [
+        "Nom./Acc. pl.",
+        "τα βιβλία",
+        "τα παιδιά",
+        "τα ονόματα",
+        "τα δάση",
+        "τα γραψίματα"
+       ],
+       [
+        "Gen. pl.",
+        "των βιβλίων",
+        "των παιδιών",
+        "των ονομάτων",
+        "των δασών",
+        "των γραψιμάτων"
+       ]
+      ]
+     }
+    },
+    {
+     "list": [
+      "**Nominative, accusative and vocative are always the same** in the neuter.",
+      "**-ι nouns** add **-ιού, -ιά, -ιών** with the stress on the ending: **το τραπέζι → του τραπεζιού, τα τραπέζια, των τραπεζιών**.",
+      "**-μα nouns** add a syllable (**-ματος, -ματα, -μάτων**): **το πρόβλημα → του προβλήματος, τα προβλήματα, των προβλημάτων**.",
+      "**-ος neuters** are not masculine: **το δάσος, το λάθος, το μέρος, το κράτος** → **τα δάση, τα λάθη, τα μέρη, τα κράτη**.",
+      "Learned neuters: **το περιβάλλον → του περιβάλλοντος**, **το φως → του φωτός, τα φώτα**, **το κρέας → του κρέατος**.",
+      "Most diminutives are neuter: **το σπιτάκι, το κοριτσάκι, το παιδάκι**."
+     ]
+    },
+    {
+     "links": [
+      {
+       "href": "#decl-neuter",
+       "kind": "Lesson",
+       "el": "Τα ουδέτερα ουσιαστικά",
+       "title": "Neuter nouns in full"
+      },
+      {
+       "href": "#pos.noun~6",
+       "kind": "Part of speech",
+       "el": "Ουδέτερα σε -ο, -ι, -μα",
+       "title": "Neuter nouns in -ο, -ι and -μα"
+      },
+      {
+       "href": "#pos.noun~7",
+       "kind": "Part of speech",
+       "el": "Ουδέτερα σε -ος και ιδιόμορφα",
+       "title": "Neuter nouns in -ος, and irregular neuters"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cases",
+   "level": "A1",
+   "el": "Οι πτώσεις με μια ματιά",
+   "title": "The cases at a glance",
+   "group": "nouns",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "Case",
+       "Answers",
+       "Main uses",
+       "Example"
+      ],
+      "rows": [
+       [
+        "Nominative",
+        "who? what? (subject)",
+        "subject; after είμαι, γίνομαι, φαίνομαι",
+        "**Ο Νίκος** είναι **δάσκαλος**."
+       ],
+       [
+        "Accusative",
+        "whom? what? (object)",
+        "direct object; after σε, από, με, για, χωρίς ...; time and measure",
+        "Βλέπω **τον Νίκο**. **Την Κυριακή** πάμε **στη θάλασσα**."
+       ],
+       [
+        "Genitive",
+        "whose? to whom?",
+        "possessor; indirect object (pronouns); after λόγω, εξαιτίας, κατά τη διάρκεια ...",
+        "Το σπίτι **του Νίκου**. **Του** έδωσα το κλειδί."
+       ],
+       [
+        "Vocative",
+        "(calling)",
+        "addressing someone",
+        "**Νίκο**, έλα! **Κύριε Παπαδόπουλε!**"
+       ]
+      ]
+     }
+    },
+    {
+     "list": [
+      "The **indirect object** (\"to whom\") is **σε + accusative** with nouns (**Το έδωσα στη Μαρία**) and a **genitive weak pronoun** with pronouns (**Της το έδωσα**).",
+      "**Time**: plain accusative: **τη Δευτέρα, το πρωί, κάθε μέρα, δύο ώρες, πέρσι τον Μάιο**.",
+      "**Container + content** in the same case, no \"of\": **ένα ποτήρι νερό, δύο κιλά πατάτες**.",
+      "**Accusative experiencer**: **Με πονάει το κεφάλι**; **genitive experiencer**: **Μου αρέσει, μου λείπεις, μου φαίνεται**."
+     ]
+    },
+    {
+     "links": [
+      {
+       "href": "#a1-cases",
+       "kind": "Lesson",
+       "el": "Οι πτώσεις",
+       "title": "The four cases"
+      },
+      {
+       "href": "#a2-genitive",
+       "kind": "Lesson",
+       "el": "Η γενική",
+       "title": "The genitive: possession and indirect object"
+      },
+      {
+       "href": "#decl2-case-government",
+       "kind": "Lesson",
+       "el": "Ποια πτώση μετά από τι;",
+       "title": "Case government: what takes which case"
+      },
+      {
+       "href": "#decl-vocative",
+       "kind": "Lesson",
+       "el": "Η κλητική: πώς απευθυνόμαστε",
+       "title": "The vocative: addressing people"
+      },
+      {
+       "href": "#syntax.agreement~2",
+       "kind": "Syntax",
+       "el": "Οι τέσσερις πτώσεις ως ρόλοι",
+       "title": "The four cases as roles"
+      },
+      {
+       "href": "#syntax.agreement~3",
+       "kind": "Syntax",
+       "el": "Το έμμεσο αντικείμενο: σε ή γενική",
+       "title": "The indirect object: σε + accusative or the genitive"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "noun-traps",
+   "level": "B1",
+   "el": "Παγίδες στην κλίση",
+   "title": "Declension traps",
+   "group": "nouns",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "Trap",
+       "Right",
+       "Wrong"
+      ],
+      "rows": [
+       [
+        "feminine genitive plural stress",
+        "των θαλασσών, των γλωσσών",
+        "των θάλασσων"
+       ],
+       [
+        "feminine -ος",
+        "η μέθοδος, τη μέθοδο",
+        "ο μέθοδος"
+       ],
+       [
+        "plural that changes gender",
+        "ο βράχος → τα βράχια",
+        ""
+       ]
+      ]
+     }
+    },
+    {
+     "list": [
+      "**Gender from the ending** works most of the time: **-ος** masc. (but η οδός, το δάσος), **-ας, -ης, -ές** masc., **-α, -η** fem., **-ο, -ι, -μα, -ος (stressed early, plural -η)** neuter.",
+      "**Nouns with two plurals**: **ο χρόνος → οι χρόνοι (times) / τα χρόνια (years)**; **ο λόγος → οι λόγοι (reasons, speeches) / τα λόγια (words)**.",
+      "**Professions with common gender**: **ο/η γιατρός, ο/η δικηγόρος, ο/η υπουργός**."
+     ]
+    },
+    {
+     "links": [
+      {
+       "href": "#decl2-irregular",
+       "kind": "Lesson",
+       "el": "Ακανόνιστα και μικτά ουσιαστικά",
+       "title": "Irregular and mixed nouns, awkward adjectives"
+      },
+      {
+       "href": "#decl-stress",
+       "kind": "Lesson",
+       "el": "Ο τονισμός στην κλίση",
+       "title": "Stress movement in declension"
+      },
+      {
+       "href": "#pos.noun~12",
+       "kind": "Part of speech",
+       "el": "Μετακίνηση τόνου",
+       "title": "Stress movement, the full picture"
+      },
+      {
+       "href": "#pos.noun~13",
+       "kind": "Part of speech",
+       "el": "Ετερόκλιτα και μόνο πληθυντικός",
+       "title": "Nouns that change in the plural, and plural-only nouns"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

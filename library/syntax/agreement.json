@@ -1,0 +1,841 @@
+{
+ "sections": [
+  {
+   "level": "A1",
+   "el": "Ρήμα και υποκείμενο",
+   "title": "The verb agrees with its subject",
+   "body": [
+    {
+     "p": "The verb ending matches the **person** and **number** of the subject."
+    },
+    {
+     "ex": [
+      {
+       "el": "Ο Νίκος δουλεύει. — Ο Νίκος και η Ελένη δουλεύουν.",
+       "en": "Nikos works. — Nikos and Eleni work."
+      },
+      {
+       "el": "Τα παιδιά παίζουν.",
+       "en": "The children are playing."
+      },
+      {
+       "el": "Εσύ κι εγώ θα πάμε μαζί.",
+       "en": "You and I will go together."
+      }
+     ]
+    },
+    {
+     "list": [
+      "Two subjects joined by **και** take a plural verb. If one of them is **εγώ**, the verb is 1st person plural (**εσύ κι εγώ ... πάμε**); if one is **εσύ** (and no εγώ), 2nd person plural (**εσύ κι ο Νίκος ... πάτε**).",
+      "**Neuter plurals** take a plural verb in Modern Greek: **Τα σπίτια είναι παλιά.** (Ancient Greek used the singular; you will meet this only in quotations.)",
+      "With **με** \"with\", speech often uses the plural too: **Ο Νίκος με τη Μαρία ήρθαν μαζί.** Writing prefers **Ο Νίκος ήρθε με τη Μαρία.**"
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"My brother and I live in Athens.\"",
+       "options": [
+        "Ο αδερφός μου κι εγώ μένουν στην Αθήνα.",
+        "Ο αδερφός μου κι εγώ μένουμε στην Αθήνα.",
+        "Ο αδερφός μου κι εγώ μένω στην Αθήνα."
+       ],
+       "answer": "Ο αδερφός μου κι εγώ μένουμε στην Αθήνα.",
+       "why": "With εγώ among the subjects, the verb is \"we\": μένουμε."
+      },
+      {
+       "type": "choice",
+       "q": "\"The flowers are beautiful.\"",
+       "options": [
+        "Τα λουλούδια είναι ωραίο.",
+        "Τα λουλούδια είναι ωραία.",
+        "Τα λουλούδια είσαι ωραία."
+       ],
+       "answer": "Τα λουλούδια είναι ωραία.",
+       "why": "Neuter plural subject, plural verb, neuter plural adjective."
+      },
+      {
+       "type": "write",
+       "q": "\"You and Nikos will come.\" (θα έρθω)",
+       "answer": "Εσύ κι ο Νίκος θα έρθετε.",
+       "accept": [
+        "Εσύ και ο Νίκος θα έρθετε."
+       ],
+       "why": "εσύ + someone else = εσείς: θα έρθετε."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "el": "Το κατηγορούμενο: είμαι, γίνομαι, φαίνομαι",
+   "title": "The predicate after είμαι: the nominative",
+   "body": [
+    {
+     "p": "After **είμαι, γίνομαι** \"become\", **φαίνομαι** \"seem\", **λέγομαι** \"be called\", **μένω** \"remain\" the predicate is in the **nominative** and agrees with the subject."
+    },
+    {
+     "ex": [
+      {
+       "el": "Η Ελένη είναι γιατρός.",
+       "en": "Eleni is a doctor."
+      },
+      {
+       "el": "Ο καφές είναι ζεστός.",
+       "en": "The coffee is hot."
+      },
+      {
+       "el": "Τα παιδιά φαίνονται κουρασμένα.",
+       "en": "The children look tired."
+      },
+      {
+       "el": "Θέλει να γίνει δικηγόρος.",
+       "en": "(S)he wants to become a lawyer."
+      },
+      {
+       "el": "Έμεινε ήσυχος.",
+       "en": "He stayed calm."
+      }
+     ]
+    },
+    {
+     "p": "No article and no **ένας** with professions and roles after είμαι: **Είναι δασκάλα** \"She is a teacher\"."
+    },
+    {
+     "p": "**Polite εσείς** takes a plural verb but the adjective agrees with the real person: **Είστε κουρασμένος, κύριε;** \"Are you tired, sir?\" **Είστε έτοιμη, κυρία Παπαδάκη;**"
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"She is a lawyer.\"",
+       "options": [
+        "Είναι μία δικηγόρος.",
+        "Είναι δικηγόρος.",
+        "Είναι δικηγόρο."
+       ],
+       "answer": "Είναι δικηγόρος.",
+       "why": "A profession after είναι: nominative, no article."
+      },
+      {
+       "type": "choice",
+       "q": "To a woman, politely: \"Are you ready?\"",
+       "options": [
+        "Είστε έτοιμες;",
+        "Είστε έτοιμη;",
+        "Είσαι έτοιμοι;"
+       ],
+       "answer": "Είστε έτοιμη;",
+       "why": "Plural verb, but the adjective agrees with the one woman: έτοιμη."
+      },
+      {
+       "type": "write",
+       "q": "\"The children seem happy.\" (φαίνομαι, χαρούμενος)",
+       "answer": "Τα παιδιά φαίνονται χαρούμενα.",
+       "accept": [],
+       "why": "Nominative neuter plural predicate."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "el": "Οι τέσσερις πτώσεις ως ρόλοι",
+   "title": "The four cases as roles",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "Case",
+       "Role",
+       "Example"
+      ],
+      "rows": [
+       [
+        "Ονομαστική (nominative)",
+        "subject; predicate after είμαι",
+        "**Ο φίλος μου** είναι **γιατρός**."
+       ],
+       [
+        "Αιτιατική (accusative)",
+        "direct object; after almost every preposition; time and measure",
+        "Βλέπω **τον φίλο μου**. Πάω **στον φίλο μου**. Έμεινα **δύο μέρες**."
+       ],
+       [
+        "Γενική (genitive)",
+        "possessor; indirect object (person who receives); after some formal prepositions",
+        "Το σπίτι **του φίλου μου**. **Του** έδωσα το κλειδί."
+       ],
+       [
+        "Κλητική (vocative)",
+        "calling or addressing",
+        "**Φίλε μου**, έλα!"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "The **accusative without a preposition** also expresses **time** and **measure**:"
+    },
+    {
+     "ex": [
+      {
+       "el": "Τη Δευτέρα πάω στη δουλειά.",
+       "en": "On Monday I go to work."
+      },
+      {
+       "el": "Δουλεύω οχτώ ώρες τη μέρα.",
+       "en": "I work eight hours a day."
+      },
+      {
+       "el": "Κάθε πρωί πίνω καφέ.",
+       "en": "Every morning I drink coffee."
+      },
+      {
+       "el": "Περπατήσαμε δέκα χιλιόμετρα.",
+       "en": "We walked ten kilometres."
+      },
+      {
+       "el": "Το μωρό ζυγίζει τέσσερα κιλά.",
+       "en": "The baby weighs four kilos."
+      }
+     ]
+    },
+    {
+     "p": "A container and its content stand side by side in the same case, with no \"of\": **ένα ποτήρι νερό** \"a glass of water\", **δύο κιλά ντομάτες**, **ένα μπουκάλι κρασί**."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"On Sunday we're going to the beach.\"",
+       "options": [
+        "Στην Κυριακή πάμε στη θάλασσα.",
+        "Την Κυριακή πάμε στη θάλασσα.",
+        "Η Κυριακή πάμε στη θάλασσα."
+       ],
+       "answer": "Την Κυριακή πάμε στη θάλασσα.",
+       "why": "Days as time expressions: accusative, no preposition."
+      },
+      {
+       "type": "choice",
+       "q": "\"a cup of coffee\"",
+       "options": [
+        "ένα φλιτζάνι του καφέ (= a cup for coffee)",
+        "ένα φλιτζάνι καφέ",
+        "ένα φλιτζάνι από καφέ"
+       ],
+       "answer": "ένα φλιτζάνι καφέ",
+       "why": "Container + content: same case, no preposition. (φλιτζάνι του καφέ means \"a coffee cup\".)"
+      },
+      {
+       "type": "write",
+       "q": "\"I stayed three weeks in Crete.\"",
+       "answer": "Έμεινα τρεις εβδομάδες στην Κρήτη.",
+       "accept": [
+        "Έμεινα στην Κρήτη τρεις εβδομάδες."
+       ],
+       "why": "Duration: plain accusative."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "el": "Το έμμεσο αντικείμενο: σε ή γενική",
+   "title": "The indirect object: σε + accusative or the genitive",
+   "body": [
+    {
+     "p": "The person who receives or is addressed (\"to whom\") is expressed in two ways:"
+    },
+    {
+     "table": {
+      "head": [
+       "Form",
+       "Example",
+       "Use"
+      ],
+      "rows": [
+       [
+        "σε + accusative",
+        "Έδωσα το βιβλίο **στη Μαρία**.",
+        "standard with full nouns"
+       ],
+       [
+        "genitive weak pronoun",
+        "**Της** έδωσα το βιβλίο.",
+        "standard with pronouns"
+       ],
+       [
+        "genitive noun",
+        "Έδωσα **της Μαρίας** το βιβλίο.",
+        "colloquial, northern Greek; avoid in writing"
+       ],
+       [
+        "strong pronoun",
+        "Το έδωσα **σ' εκείνη**.",
+        "contrast: \"to *her*\""
+       ]
+      ]
+     }
+    },
+    {
+     "p": "Verbs that take this \"to whom\": **δίνω, λέω, στέλνω, γράφω, δείχνω, εξηγώ, τηλεφωνώ, απαντώ, μιλάω, χρωστάω, υπόσχομαι, δανείζω**."
+    },
+    {
+     "ex": [
+      {
+       "el": "Μίλησα στον διευθυντή. — Του μίλησα.",
+       "en": "I spoke to the director. — I spoke to him."
+      },
+      {
+       "el": "Χρωστάω στην τράπεζα. — Της χρωστάω.",
+       "en": "I owe the bank. — I owe it."
+      },
+      {
+       "el": "Τηλεφώνησέ μου!",
+       "en": "Call me!"
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"I called my mother.\"",
+       "options": [
+        "Τηλεφώνησα τη μητέρα μου.",
+        "Τηλεφώνησα στη μητέρα μου.",
+        "Τηλεφώνησα της μητέρας μου σε."
+       ],
+       "answer": "Τηλεφώνησα στη μητέρα μου.",
+       "why": "τηλεφωνώ takes σε + accusative (or a genitive pronoun)."
+      },
+      {
+       "type": "choice",
+       "q": "\"Show us the photos!\"",
+       "options": [
+        "Δείξε μας τις φωτογραφίες!",
+        "Δείξε εμάς τις φωτογραφίες!",
+        "Δείξε τις φωτογραφίες μας!"
+       ],
+       "answer": "Δείξε μας τις φωτογραφίες!",
+       "why": "The person shown to: genitive weak pronoun μας after the imperative. (Δείξε τις φωτογραφίες μας = \"show our photos\".)"
+      },
+      {
+       "type": "write",
+       "q": "Replace the noun with a pronoun: Έστειλα ένα μήνυμα στον Πέτρο.",
+       "answer": "Του έστειλα ένα μήνυμα.",
+       "accept": [],
+       "why": "σε + noun becomes a genitive weak pronoun before the verb."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Ρήματα με ιδιαίτερη σύνταξη",
+   "title": "Verbs with a special pattern",
+   "body": [
+    {
+     "p": "Some very common verbs put the **person who feels** in the genitive (or σε + accusative) and the **thing** in the nominative, as the subject. The verb then agrees with the thing."
+    },
+    {
+     "table": {
+      "head": [
+       "Verb",
+       "Example",
+       "Literally"
+      ],
+      "rows": [
+       [
+        "αρέσει",
+        "Μου αρέσουν τα σύκα. \"I like figs.\"",
+        "Figs please me."
+       ],
+       [
+        "λείπει",
+        "Μου λείπεις. \"I miss you.\"",
+        "You are missing to me."
+       ],
+       [
+        "φαίνεται",
+        "Μου φαίνεται δύσκολο. \"It seems hard to me.\"",
+        ""
+       ],
+       [
+        "πονάει",
+        "Με πονάει το κεφάλι μου. / Πονάει το κεφάλι μου. \"I have a headache.\"",
+        "(accusative με!)"
+       ],
+       [
+        "ανήκει",
+        "Το σπίτι ανήκει στον παππού. \"The house belongs to grandpa.\"",
+        ""
+       ],
+       [
+        "αξίζει",
+        "Σου αξίζει. \"You deserve it.\"",
+        "It is worth to you."
+       ],
+       [
+        "χρειάζεται",
+        "Μου χρειάζονται λεφτά. / Χρειάζομαι λεφτά. \"I need money.\"",
+        ""
+       ],
+       [
+        "κάνει (fits, suits)",
+        "Δεν μου κάνει το παντελόνι. \"The trousers don't fit me.\"",
+        ""
+       ]
+      ]
+     }
+    },
+    {
+     "ex": [
+      {
+       "el": "Σου άρεσαν οι ταινίες;",
+       "en": "Did you like the films? (plural verb: the films)"
+      },
+      {
+       "el": "Μας λείπουν τα παιδιά.",
+       "en": "We miss the children."
+      },
+      {
+       "el": "Τους λείπει η θάλασσα.",
+       "en": "They miss the sea."
+      }
+     ]
+    },
+    {
+     "tip": "\"I miss you\" is **Μου λείπεις**: **you** are the subject (λείπεις), **I** am the genitive (μου). English learners often say ***Σου λείπω**, which means \"You miss me\"."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"I like these shoes.\"",
+       "options": [
+        "Μου αρέσει αυτά τα παπούτσια.",
+        "Μου αρέσουν αυτά τα παπούτσια.",
+        "Αρέσω αυτά τα παπούτσια."
+       ],
+       "answer": "Μου αρέσουν αυτά τα παπούτσια.",
+       "why": "The shoes are the subject, so the verb is plural: αρέσουν."
+      },
+      {
+       "type": "choice",
+       "q": "\"She misses her parents.\"",
+       "options": [
+        "Λείπει τους γονείς της.",
+        "Της λείπουν οι γονείς της.",
+        "Τους λείπει η μητέρα της."
+       ],
+       "answer": "Της λείπουν οι γονείς της.",
+       "why": "The parents are the subject (λείπουν); she is the genitive της."
+      },
+      {
+       "type": "write",
+       "q": "\"I miss you (plural).\"",
+       "answer": "Μου λείπετε.",
+       "accept": [],
+       "why": "You (plural) are the subject: λείπετε; I am μου."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Δύο αιτιατικές και κατηγορούμενο του αντικειμένου",
+   "title": "Two accusatives and the object predicate",
+   "body": [
+    {
+     "p": "A few verbs take **two accusatives**: the person and the thing."
+    },
+    {
+     "ex": [
+      {
+       "el": "Με ρώτησε την ώρα.",
+       "en": "(S)he asked me the time."
+      },
+      {
+       "el": "Τον δίδαξε ιστορία.",
+       "en": "(S)he taught him history."
+      },
+      {
+       "el": "Με κέρασε έναν καφέ.",
+       "en": "(S)he treated me to a coffee."
+      }
+     ]
+    },
+    {
+     "p": "Verbs of **naming, choosing, considering, making** take an object and a **predicate in the accusative** (the object's description):"
+    },
+    {
+     "ex": [
+      {
+       "el": "Τον θεωρώ έξυπνο.",
+       "en": "I consider him clever."
+      },
+      {
+       "el": "Τη βρήκα κουρασμένη.",
+       "en": "I found her tired."
+      },
+      {
+       "el": "Τον εξέλεξαν δήμαρχο.",
+       "en": "They elected him mayor."
+      },
+      {
+       "el": "Τον έκανε ευτυχισμένο.",
+       "en": "She made him happy."
+      },
+      {
+       "el": "Το παιδί το βάφτισαν Αλέξανδρο.",
+       "en": "They christened the child Alexandros."
+      }
+     ]
+    },
+    {
+     "p": "In the **passive** both turn into nominatives: **Θεωρείται έξυπνος** \"He is considered clever\", **Εξελέγη δήμαρχος** \"He was elected mayor\"."
+    },
+    {
+     "links": [
+      {
+       "href": "#pos.verb-voice~7",
+       "kind": "Part of speech",
+       "el": "Ρήματα με δύο αντικείμενα και κατηγορούμενο",
+       "title": "Double objects and object complements"
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"They consider her the best.\"",
+       "options": [
+        "Τη θεωρούν η καλύτερη.",
+        "Τη θεωρούν την καλύτερη.",
+        "Της θεωρούν την καλύτερη."
+       ],
+       "answer": "Τη θεωρούν την καλύτερη.",
+       "why": "Object and its predicate both in the accusative."
+      },
+      {
+       "type": "choice",
+       "q": "\"He was elected president.\"",
+       "options": [
+        "Εξελέγη πρόεδρο.",
+        "Εξελέγη πρόεδρος.",
+        "Τον εξελέγη πρόεδρος."
+       ],
+       "answer": "Εξελέγη πρόεδρος.",
+       "why": "In the passive the predicate is nominative."
+      },
+      {
+       "type": "write",
+       "q": "\"I found the house empty.\" (άδειος)",
+       "answer": "Βρήκα το σπίτι άδειο.",
+       "accept": [
+        "Το σπίτι το βρήκα άδειο."
+       ],
+       "why": "The object predicate agrees in the accusative (neuter άδειο)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "el": "Η γενική ως ρόλος στην πρόταση",
+   "title": "The genitive in sentence roles",
+   "body": [
+    {
+     "p": "Besides possession and the indirect object, the genitive does a lot of work in formal Greek:"
+    },
+    {
+     "list": [
+      "**Subject or object of a noun**: **η άφιξη του πλοίου** \"the arrival of the ship\" (the ship arrives), **η κατασκευή της γέφυρας** \"the building of the bridge\" (someone builds the bridge). This is the heart of the nominal style.",
+      "**After formal prepositions and adverbs**: **κατά τη διάρκεια της συνάντησης**, **εξαιτίας του καιρού**, **λόγω της απεργίας**, **εναντίον του νόμου**, **μεταξύ των δύο χωρών**, **εντός της προθεσμίας**, **υπέρ της πρότασης**.",
+      "**Time**: **του χρόνου** \"next year\", **της Παναγίας** \"on the Feast of the Assumption\".",
+      "**Comparison**: **μεγαλύτερός μου** \"older than me\" (= **μεγαλύτερος από μένα**).",
+      "**Quality and material in set phrases**: **άνθρωπος της εμπιστοσύνης μου** \"someone I trust\", **κοστούμι του γάμου**."
+     ]
+    },
+    {
+     "ex": [
+      {
+       "el": "Λόγω της απεργίας, τα πλοία μένουν δεμένα.",
+       "en": "Because of the strike, the ships are staying in port."
+      },
+      {
+       "el": "Η αύξηση των τιμών ανησυχεί τους καταναλωτές.",
+       "en": "The rise in prices worries consumers."
+      },
+      {
+       "el": "Είναι δύο χρόνια μεγαλύτερή μου.",
+       "en": "She is two years older than me."
+      }
+     ]
+    },
+    {
+     "links": [
+      {
+       "href": "#decl3-formal-phrases",
+       "kind": "Lesson",
+       "el": "Πτώσεις σε λόγιες φράσεις και στη γλώσσα των ειδήσεων",
+       "title": "Case in learned set phrases and journalese: εν λόγω, εν όψει, nominalised clauses, genitive chains"
+      },
+      {
+       "href": "#c1-nominal-style",
+       "kind": "Lesson",
+       "el": "Ονοματοποίηση",
+       "title": "Nominal style: from «επειδή αυξήθηκαν οι τιμές» to «η αύξηση των τιμών»"
+      },
+      {
+       "href": "#pos.preposition~7",
+       "kind": "Part of speech",
+       "el": "Προθέσεις με γενική",
+       "title": "Prepositions with the genitive (everyday-formal)"
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"because of the weather\"",
+       "options": [
+        "λόγω τον καιρό",
+        "λόγω του καιρού",
+        "λόγω στον καιρό"
+       ],
+       "answer": "λόγω του καιρού",
+       "why": "λόγω takes the genitive."
+      },
+      {
+       "type": "choice",
+       "q": "\"during the meeting\"",
+       "options": [
+        "κατά τη διάρκεια η συνάντηση",
+        "κατά τη διάρκεια της συνάντησης",
+        "κατά τη διάρκειά της συνάντηση"
+       ],
+       "answer": "κατά τη διάρκεια της συνάντησης",
+       "why": "διάρκεια + genitive of what lasts."
+      },
+      {
+       "type": "write",
+       "q": "Turn into a noun phrase: Το πλοίο έφτασε. (η άφιξη)",
+       "answer": "η άφιξη του πλοίου",
+       "accept": [],
+       "why": "The subject of the verb becomes a genitive after the noun."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "C1",
+   "el": "Λόγιες πτώσεις και απολιθωμένες δοτικές",
+   "title": "Learned case uses and frozen datives",
+   "body": [
+    {
+     "p": "The dative has gone from the living language, but many fixed phrases keep it. You must recognise them and use them as wholes; they do not combine with modern case rules."
+    },
+    {
+     "table": {
+      "head": [
+       "Phrase",
+       "Meaning"
+      ],
+      "rows": [
+       [
+        "εν τάξει / εντάξει",
+        "OK, in order"
+       ],
+       [
+        "εν τω μεταξύ",
+        "meanwhile"
+       ],
+       [
+        "εν πάση περιπτώσει",
+        "in any case"
+       ],
+       [
+        "εν ονόματι + gen.",
+        "in the name of"
+       ],
+       [
+        "εν ολίγοις",
+        "in short"
+       ],
+       [
+        "εν μέρει",
+        "partly"
+       ],
+       [
+        "τοις μετρητοίς",
+        "in cash"
+       ],
+       [
+        "τω όντι",
+        "indeed, really"
+       ],
+       [
+        "δόξα τω Θεώ",
+        "thank God"
+       ],
+       [
+        "εν αγνοία μου",
+        "without my knowledge"
+       ],
+       [
+        "πάση θυσία",
+        "at all costs"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "Two more learned patterns:"
+    },
+    {
+     "list": [
+      "**Genitive absolute-like phrases** with participles: **δοθείσης της ευκαιρίας** \"since the opportunity has arisen\", **λαμβανομένου υπόψη ότι** \"taking into account that\". They belong to formal writing and speeches.",
+      "**Accusative of respect**: **Είναι Έλληνας την καταγωγή** \"He is Greek by origin\", **γιατρός το επάγγελμα** \"a doctor by profession\", **ψηλός το ανάστημα**."
+     ]
+    },
+    {
+     "ex": [
+      {
+       "el": "Πλήρωσε τοις μετρητοίς.",
+       "en": "(S)he paid in cash."
+      },
+      {
+       "el": "Η απόφαση πάρθηκε εν αγνοία μου.",
+       "en": "The decision was taken without my knowledge."
+      },
+      {
+       "el": "Είναι Κρητικός την καταγωγή.",
+       "en": "He is Cretan by descent."
+      }
+     ]
+    },
+    {
+     "links": [
+      {
+       "href": "#c1-learned-phrases",
+       "kind": "Lesson",
+       "el": "Λόγιες προθέσεις και δοτική",
+       "title": "Learned prepositions and frozen datives: εν τω μεταξύ, εκ των υστέρων, άνευ όρων"
+      },
+      {
+       "href": "#decl3-formal-phrases",
+       "kind": "Lesson",
+       "el": "Πτώσεις σε λόγιες φράσεις και στη γλώσσα των ειδήσεων",
+       "title": "Case in learned set phrases and journalese: εν λόγω, εν όψει, nominalised clauses, genitive chains"
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"a lawyer by profession\"",
+       "options": [
+        "δικηγόρος του επαγγέλματος",
+        "δικηγόρος το επάγγελμα",
+        "δικηγόρος στο επάγγελμα"
+       ],
+       "answer": "δικηγόρος το επάγγελμα",
+       "why": "Accusative of respect: το επάγγελμα."
+      },
+      {
+       "type": "choice",
+       "q": "\"They paid in cash.\"",
+       "options": [
+        "Πλήρωσαν τα μετρητά.",
+        "Πλήρωσαν τοις μετρητοίς.",
+        "Πλήρωσαν στους μετρητούς."
+       ],
+       "answer": "Πλήρωσαν τοις μετρητοίς.",
+       "why": "A frozen dative: τοις μετρητοίς."
+      },
+      {
+       "type": "write",
+       "q": "\"Meanwhile\" (frozen dative)",
+       "answer": "εν τω μεταξύ",
+       "accept": [
+        "στο μεταξύ"
+       ],
+       "why": "Both are used; εν τω μεταξύ is the learned fixed phrase, στο μεταξύ the everyday one."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "agreement",
+ "el": "Συμφωνία και πτώσεις στην πρόταση",
+ "title": "Agreement and case in the sentence",
+ "span": "A1–C1",
+ "blurb": "Who agrees with whom, the four cases as sentence roles, verbs that take the genitive or two accusatives, predicates after είμαι and θεωρώ, and the frozen datives of formal Greek.",
+ "intro": [
+  {
+   "p": "Declension tables tell you the forms; this guide tells you **which form the sentence needs**. Greek grammar ties the verb to its subject (person and number), the adjective to its noun (gender, number, case), and each noun phrase to its role (nominative subject, accusative object, genitive possessor or recipient). Once you see the roles, choosing the case becomes a matter of asking one question: what is this phrase doing in the sentence?"
+  },
+  {
+   "links": [
+    {
+     "href": "#a1-cases",
+     "kind": "Lesson",
+     "el": "Οι πτώσεις",
+     "title": "The four cases"
+    },
+    {
+     "href": "#a2-genitive",
+     "kind": "Lesson",
+     "el": "Η γενική",
+     "title": "The genitive: possession and indirect object"
+    },
+    {
+     "href": "#decl2-case-government",
+     "kind": "Lesson",
+     "el": "Ποια πτώση μετά από τι;",
+     "title": "Case government: what takes which case"
+    },
+    {
+     "href": "#decl-noun-phrase",
+     "kind": "Lesson",
+     "el": "Η ονοματική φράση σε κάθε πτώση",
+     "title": "The whole noun phrase in every case"
+    },
+    {
+     "href": "#pos.noun~2",
+     "kind": "Part of speech",
+     "el": "Οι πτώσεις",
+     "title": "What the four cases do"
+    },
+    {
+     "href": "#pos.verb-voice~2",
+     "kind": "Part of speech",
+     "el": "Αντικείμενα και πτώσεις",
+     "title": "Objects: accusative, genitive and σε"
+    },
+    {
+     "href": "#cards.agreement",
+     "kind": "Card",
+     "el": "Συμφωνία",
+     "title": "Agreement"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,593 @@
+{
+ "sections": [
+  {
+   "level": "A1",
+   "el": "Ερωτήσεις ναι ή όχι",
+   "title": "Yes/no questions",
+   "body": [
+    {
+     "p": "A yes/no question has exactly the same words and order as the statement. Only the voice rises at the end."
+    },
+    {
+     "ex": [
+      {
+       "el": "Είσαι κουρασμένος. — Είσαι κουρασμένος;",
+       "en": "You are tired. — Are you tired?"
+      },
+      {
+       "el": "Ο Νίκος μένει εδώ. — Ο Νίκος μένει εδώ;",
+       "en": "Nikos lives here. — Does Nikos live here?"
+      },
+      {
+       "el": "Θέλετε νερό;",
+       "en": "Would you like water?"
+      },
+      {
+       "el": "Το έχεις δει;",
+       "en": "Have you seen it?"
+      }
+     ]
+    },
+    {
+     "p": "The subject often moves after the verb, as in a statement with new information: **Μένει εδώ ο Νίκος;** Both orders are correct."
+    },
+    {
+     "p": "Answers: **Ναι** \"yes\", **Όχι** \"no\", **Βέβαια / Φυσικά** \"of course\", **Μάλιστα** \"yes (polite, formal)\", **Μπα** \"nah, I don't think so\", **Ίσως** \"maybe\"."
+    },
+    {
+     "tip": "The Greek question mark is **;**. Greek semicolon is a raised dot **·**."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"Do you speak Greek?\"",
+       "options": [
+        "Κάνεις μιλάς ελληνικά;",
+        "Μιλάς ελληνικά;",
+        "Μιλάς ελληνικά?"
+       ],
+       "answer": "Μιλάς ελληνικά;",
+       "why": "No auxiliary; the Greek question mark is ;"
+      },
+      {
+       "type": "write",
+       "q": "Turn into a question: Η Ελένη είναι εδώ.",
+       "answer": "Η Ελένη είναι εδώ;",
+       "accept": [
+        "Είναι εδώ η Ελένη;"
+       ],
+       "why": "Same words, question mark (rising voice)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "A1",
+   "el": "Οι ερωτηματικές λέξεις",
+   "title": "Question words",
+   "body": [
+    {
+     "table": {
+      "head": [
+       "Word",
+       "Meaning",
+       "Example"
+      ],
+      "rows": [
+       [
+        "τι",
+        "what",
+        "Τι θέλεις;"
+       ],
+       [
+        "ποιος, ποια, ποιο",
+        "who, which",
+        "Ποιος είναι; Ποιο θέλεις;"
+       ],
+       [
+        "πού",
+        "where",
+        "Πού μένεις;"
+       ],
+       [
+        "πότε",
+        "when",
+        "Πότε φεύγεις;"
+       ],
+       [
+        "πώς",
+        "how",
+        "Πώς σε λένε;"
+       ],
+       [
+        "γιατί",
+        "why",
+        "Γιατί γελάς;"
+       ],
+       [
+        "πόσος, πόση, πόσο",
+        "how much, how many",
+        "Πόσο κάνει; Πόσα παιδιά έχεις;"
+       ],
+       [
+        "τίνος / ποιανού",
+        "whose",
+        "Τίνος είναι αυτό;"
+       ]
+      ]
+     }
+    },
+    {
+     "p": "**Ποιος** and **πόσος** decline and agree like adjectives: **Ποιον είδες;** \"Whom did you see?\", **Ποιανού είναι το κλειδί;** \"Whose is the key?\" (= **Τίνος είναι;**), **Πόσες μέρες θα μείνεις;** \"How many days will you stay?\" **Τι** never changes: **Τι ώρα είναι; Τι χρώμα θέλεις;**"
+    },
+    {
+     "p": "The question word goes **first**; the subject usually follows the verb: **Πού δουλεύει η Μαρία;**"
+    },
+    {
+     "tip": "**Πού** \"where?\" and **πώς** \"how?\" carry an accent; **που** \"who, that\" and **πως** \"that\" do not."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"How many brothers do you have?\"",
+       "options": [
+        "Πόσο αδέρφια έχεις;",
+        "Πόσα αδέρφια έχεις;",
+        "Πόσους αδέρφια έχεις;"
+       ],
+       "answer": "Πόσα αδέρφια έχεις;",
+       "why": "πόσος agrees with αδέρφια (neuter plural): πόσα."
+      },
+      {
+       "type": "choice",
+       "q": "\"Whom did you meet?\"",
+       "options": [
+        "Ποιος συνάντησες;",
+        "Ποιον συνάντησες;",
+        "Ποιου συνάντησες;"
+       ],
+       "answer": "Ποιον συνάντησες;",
+       "why": "The object takes the accusative: ποιον."
+      },
+      {
+       "type": "order",
+       "q": "\"Where does Maria work?\"",
+       "answer": "Πού δουλεύει η Μαρία;",
+       "accept": [],
+       "why": "Question word, verb, subject."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "el": "Προθέσεις μαζί με την ερώτηση",
+   "title": "Prepositions move with the question word",
+   "body": [
+    {
+     "p": "A preposition always stands **directly before** its question word at the front of the question. English leaves it at the end (\"Who are you waiting for?\"); Greek never does."
+    },
+    {
+     "ex": [
+      {
+       "el": "Για ποιον περιμένεις;",
+       "en": "Who are you waiting for?"
+      },
+      {
+       "el": "Με τι πας στη δουλειά;",
+       "en": "How (by what) do you get to work?"
+      },
+      {
+       "el": "Από πού είστε;",
+       "en": "Where are you from?"
+      },
+      {
+       "el": "Σε ποιον το έδωσες;",
+       "en": "Who did you give it to?"
+      },
+      {
+       "el": "Για τι πράγμα μιλάτε;",
+       "en": "What are you talking about?"
+      },
+      {
+       "el": "Μέχρι πότε θα μείνετε;",
+       "en": "Until when are you staying?"
+      }
+     ]
+    },
+    {
+     "p": "**Πού** means \"where to\" as well as \"where\", so **Πού πας;** \"Where are you going (to)?\" needs no preposition."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"What is this for?\"",
+       "options": [
+        "Τι είναι αυτό για;",
+        "Για τι είναι αυτό;",
+        "Τι για είναι αυτό;"
+       ],
+       "answer": "Για τι είναι αυτό;",
+       "why": "The preposition goes with τι at the front."
+      },
+      {
+       "type": "write",
+       "q": "\"Who are you going with?\" (πας)",
+       "answer": "Με ποιον πας;",
+       "accept": [
+        "Με ποιον θα πας;"
+       ],
+       "why": "με + ποιον at the front."
+      },
+      {
+       "type": "order",
+       "q": "\"Who did you give it to?\"",
+       "answer": "Σε ποιον το έδωσες;",
+       "accept": [],
+       "why": "σε + ποιον first, then the pronoun and the verb."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "A2",
+   "el": "Ερωτήσεις επιλογής και ουρές",
+   "title": "Choice questions and tags",
+   "body": [
+    {
+     "p": "**Ή** offers a choice: **Θέλεις τσάι ή καφέ;** **Έρχεσαι ή όχι;** \"Are you coming or not?\""
+    },
+    {
+     "p": "A **tag** asks for agreement. Greek uses a few fixed tags instead of English \"isn't it, don't you, haven't they\":"
+    },
+    {
+     "table": {
+      "head": [
+       "Tag",
+       "Example",
+       "Feel"
+      ],
+      "rows": [
+       [
+        "ε;",
+        "Ωραία μέρα, ε;",
+        "\"eh?, isn't it?\" (very common)"
+       ],
+       [
+        "έτσι δεν είναι;",
+        "Έχω δίκιο, έτσι δεν είναι;",
+        "\"isn't that so?\""
+       ],
+       [
+        "έτσι;",
+        "Θα έρθεις, έτσι;",
+        "\"right?\""
+       ],
+       [
+        "δεν (το) νομίζεις;",
+        "Είναι ακριβό, δεν νομίζεις;",
+        "\"don't you think?\""
+       ],
+       [
+        "σωστά;",
+        "Στις οκτώ, σωστά;",
+        "\"right?, correct?\""
+       ]
+      ]
+     }
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"It's hot today, isn't it?\"",
+       "options": [
+        "Κάνει ζέστη σήμερα, δεν κάνει;",
+        "Κάνει ζέστη σήμερα, ε;",
+        "Κάνει ζέστη σήμερα, είναι;"
+       ],
+       "answer": "Κάνει ζέστη σήμερα, ε;",
+       "why": "Greek uses fixed tags such as ε; or έτσι δεν είναι;"
+      },
+      {
+       "type": "order",
+       "q": "\"You will come, right?\"",
+       "answer": "Θα έρθεις, έτσι;",
+       "accept": [],
+       "why": "The tag έτσι; at the end."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Μήπως, άραγε, δηλαδή",
+   "title": "Questions with attitude: μήπως, άραγε, δηλαδή",
+   "body": [
+    {
+     "list": [
+      "**Μήπως** \"by any chance, perhaps\": polite or cautious questions, suggestions and worries. **Μήπως είδατε ένα κόκκινο πορτοφόλι;** \"Did you by any chance see a red wallet?\" **Μήπως να φύγουμε;** \"Shall we perhaps leave?\"",
+      "**Άραγε** \"I wonder\": questions you ask yourself. **Τι να κάνει άραγε ο Γιώργος;** \"I wonder what Giorgos is up to.\"",
+      "**Δηλαδή** \"so, that is?\": asking for clarification or showing surprise. **Δηλαδή δεν έρχεσαι;** \"So you're not coming?\"",
+      "**Καλά, ...;** expresses disbelief: **Καλά, δεν το ήξερες;** \"Seriously, you didn't know?\""
+     ]
+    },
+    {
+     "p": "**Τι να + subjunctive** asks \"what should I/we ...?\": **Τι να κάνουμε;** \"What can we do?\", **Πού να πάω;** \"Where should I go?\" The same form is used for rhetorical questions: **Τι να σου πω;** \"What can I tell you?\""
+    },
+    {
+     "ex": [
+      {
+       "el": "Μήπως έχετε ένα στυλό;",
+       "en": "Do you happen to have a pen?"
+      },
+      {
+       "el": "Θα βρέξει άραγε αύριο;",
+       "en": "I wonder if it will rain tomorrow."
+      },
+      {
+       "el": "Δηλαδή πρέπει να ξαναρχίσω;",
+       "en": "So I have to start again?"
+      },
+      {
+       "el": "Τι να πω, δεν ξέρω.",
+       "en": "What can I say, I don't know."
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "You stop a stranger politely: \"Do you happen to know the time?\"",
+       "options": [
+        "Ξέρεις την ώρα;",
+        "Μήπως ξέρετε τι ώρα είναι;",
+        "Άραγε ξέρετε την ώρα;"
+       ],
+       "answer": "Μήπως ξέρετε τι ώρα είναι;",
+       "why": "Μήπως + polite plural is the courteous form."
+      },
+      {
+       "type": "choice",
+       "q": "\"What should I wear?\"",
+       "options": [
+        "Τι θα φορούσα;",
+        "Τι να φορέσω;",
+        "Τι φορώ να;"
+       ],
+       "answer": "Τι να φορέσω;",
+       "why": "Deliberative question: τι να + subjunctive."
+      },
+      {
+       "type": "write",
+       "q": "\"So you're not coming?\" (with δηλαδή)",
+       "answer": "Δηλαδή δεν έρχεσαι;",
+       "accept": [
+        "Δεν έρχεσαι δηλαδή;"
+       ],
+       "why": "δηλαδή asks for confirmation of a surprising conclusion."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B1",
+   "el": "Τα επιφωνήματα: τι, πόσο, να",
+   "title": "Exclamations: τι, πόσο, να",
+   "body": [
+    {
+     "p": "**Τι** + adjective/adverb/noun and **πόσο** + adjective/adverb/verb make exclamations:"
+    },
+    {
+     "ex": [
+      {
+       "el": "Τι ωραία!",
+       "en": "How lovely!"
+      },
+      {
+       "el": "Τι ωραίο σπίτι!",
+       "en": "What a beautiful house!"
+      },
+      {
+       "el": "Τι κρίμα!",
+       "en": "What a pity!"
+      },
+      {
+       "el": "Πόσο μεγάλωσες!",
+       "en": "How you've grown!"
+      },
+      {
+       "el": "Πόσο όμορφη είναι!",
+       "en": "How beautiful she is!"
+      },
+      {
+       "el": "Τι καλά που ήρθες!",
+       "en": "How nice that you came!"
+      },
+      {
+       "el": "Τέτοια ζέστη!",
+       "en": "Such heat!"
+      }
+     ]
+    },
+    {
+     "p": "**Να** + noun points at something with surprise: **Να ο Νίκος!** \"There's Nikos!\" **Να τα μας!** \"Here we go again!\""
+    },
+    {
+     "p": "**Και τι έγινε;** \"So what?\" and **Τι λες!** \"You don't say!\" are fixed exclamatory questions."
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"What a nice surprise!\"",
+       "options": [
+        "Πόσο ωραία έκπληξη!",
+        "Τι ωραία έκπληξη!",
+        "Ποια ωραία έκπληξη!"
+       ],
+       "answer": "Τι ωραία έκπληξη!",
+       "why": "τι + adjective + noun."
+      },
+      {
+       "type": "choice",
+       "q": "\"How tall you've got!\"",
+       "options": [
+        "Ποσό ψήλωσες!",
+        "Πόσο ψήλωσες!",
+        "Ποιος ψήλωσες!"
+       ],
+       "answer": "Πόσο ψήλωσες!",
+       "why": "With a verb, πόσο."
+      },
+      {
+       "type": "order",
+       "q": "\"How nice that you came!\"",
+       "answer": "Τι καλά που ήρθες!",
+       "accept": [],
+       "why": "τι καλά που + indicative."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "el": "Πλάγιες και ρητορικές ερωτήσεις",
+   "title": "Indirect and rhetorical questions",
+   "body": [
+    {
+     "p": "An **indirect question** depends on a verb such as **ρωτάω, ξέρω, αναρωτιέμαι, δεν καταλαβαίνω**. The question word stays and the question mark goes. Yes/no questions take **αν** \"if, whether\" or **μήπως**."
+    },
+    {
+     "ex": [
+      {
+       "el": "Ρώτησε πού μένω.",
+       "en": "(S)he asked where I live."
+      },
+      {
+       "el": "Δεν ξέρω τι να κάνω.",
+       "en": "I don't know what to do."
+      },
+      {
+       "el": "Αναρωτιέμαι αν θα έρθει.",
+       "en": "I wonder whether (s)he'll come."
+      },
+      {
+       "el": "Ρώτα τον μήπως ξέρει.",
+       "en": "Ask him if he happens to know."
+      }
+     ]
+    },
+    {
+     "p": "Note **τι να + subjunctive** for \"what to do\", **πού να** \"where to\", **πώς να** \"how to\": Greek has no infinitive."
+    },
+    {
+     "p": "A **rhetorical question** states the opposite of what it asks: **Ποιος δεν θέλει να είναι ευτυχισμένος;** \"Who doesn't want to be happy?\" (= everybody does). **Τι να κάνουμε;** \"What can we do?\" (= nothing). In essays they open a paragraph or close an argument; use them sparingly."
+    },
+    {
+     "links": [
+      {
+       "href": "#syntax.reported~2",
+       "kind": "Syntax",
+       "el": "Εντολές, παρακλήσεις, προτάσεις",
+       "title": "Commands, requests and suggestions: να"
+      },
+      {
+       "href": "#syntax.complements~3",
+       "kind": "Syntax",
+       "el": "Αν, μήπως και ερωτηματικές λέξεις",
+       "title": "αν, μήπως and question words: indirect questions"
+      }
+     ]
+    },
+    {
+     "check": [
+      {
+       "type": "choice",
+       "q": "\"I don't know where to go.\"",
+       "options": [
+        "Δεν ξέρω πού να πάω.",
+        "Δεν ξέρω να πού πάω.",
+        "Δεν ξέρω πού πηγαίνει;"
+       ],
+       "answer": "Δεν ξέρω πού να πάω.",
+       "why": "Greek has no infinitive: πού να + subjunctive."
+      },
+      {
+       "type": "choice",
+       "q": "\"(S)he asked whether I was coming.\"",
+       "options": [
+        "Ρώτησε πως έρχομαι.",
+        "Ρώτησε αν έρχομαι.",
+        "Ρώτησε έρχομαι;"
+       ],
+       "answer": "Ρώτησε αν έρχομαι.",
+       "why": "Indirect yes/no question: αν."
+      },
+      {
+       "type": "write",
+       "q": "\"I wonder what time it is.\" (αναρωτιέμαι)",
+       "answer": "Αναρωτιέμαι τι ώρα είναι.",
+       "accept": [],
+       "why": "The question word stays, the question mark goes."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "questions",
+ "el": "Ερωτήσεις και επιφωνήματα",
+ "title": "Questions and exclamations",
+ "span": "A1–B2",
+ "blurb": "Yes/no questions by intonation, question words and their order, μήπως and άραγε, tag questions, choice questions, and exclamations with τι, πόσο and να.",
+ "intro": [
+  {
+   "p": "Greek questions are simple in form: there is no \"do\" and no change of order for a yes/no question, only rising intonation and the Greek question mark **;** (it looks like an English semicolon). The question words come first, prepositions travel with them, and a handful of particles (**μήπως, άραγε, δηλαδή, ε**) give a question its attitude. Exclamations reuse the question words **τι** and **πόσο**."
+  },
+  {
+   "links": [
+    {
+     "href": "#a1-negation-questions",
+     "kind": "Lesson",
+     "el": "Άρνηση και ερωτήσεις",
+     "title": "δεν, questions and question words"
+    },
+    {
+     "href": "#pos.pronoun~3",
+     "kind": "Part of speech",
+     "el": "Ερωτηματικές",
+     "title": "Question words: ποιος, τι, πόσος"
+    },
+    {
+     "href": "#pos.particle~8",
+     "kind": "Part of speech",
+     "el": "Μήπως, άραγε, τάχα",
+     "title": "Question and doubt particles: μήπως, άραγε, τάχα, δήθεν"
+    },
+    {
+     "href": "#pos.interjection~4",
+     "kind": "Part of speech",
+     "el": "Η επιφωνηματική πρόταση",
+     "title": "Exclamatory sentences: τι, πόσο, τέτοιος, να"
+    },
+    {
+     "href": "#cards.questions",
+     "kind": "Card",
+     "el": "Ερωτήσεις",
+     "title": "Questions"
+    }
+   ]
+  }
+ ]
+}
