@@ -1369,6 +1369,15 @@
       const j = await E.getJSON(`library/pos/${it.file}`).catch(() => null); if (!j) return;
       j.sections.forEach((s, i) => docs.push({ kind: "Grammar", href: `#pos.${it.id}~${i}`, title: `${s.el} · ${s.title}`, text: flat(s.body) }));
     }));
+    // Word families and false friends (word-families.js): one result per family and per confusable set.
+    for (const [sh, label] of [["families", "Word family"], ["confusables", "False friends"]]) {
+      const ix = await E.getJSON(`library/${sh}/index.json`).catch(() => ({ items: [] }));
+      await Promise.all(ix.items.map(async (it) => {
+        const j = await E.getJSON(`library/${sh}/${it.file}`).catch(() => null); if (!j) return;
+        if (j.groups) for (const g of j.groups) docs.push({ kind: label, href: `#${sh}.${it.id}`, title: `${g.key} · ${g.meaning}`, text: flat([g.members, g.note, g.ex]) });
+        if (j.pairs) for (const p of j.pairs) docs.push({ kind: label, href: `#${sh}.${it.id}`, title: p.words.map((w) => w.el).join(" / "), text: flat([p.trap, p.words, p.note, p.ex]) });
+      }));
+    }
     for (const d of docs) { d.text = d.text.replace(/\*\*|__|`/g, "").replace(/\s+/g, " "); d.bare = bare(d.text); }
     return docs;
   }
@@ -1377,7 +1386,7 @@
     document.title = "Search · Ελληνικά"; E.$("#bar-meta").textContent = "Search";
     E.view.innerHTML = `<p class="crumbs"><a href="#library">← Resources</a></p><h2>Search</h2>
       <form class="answer-row" id="sr-form"><input id="sr-q" lang="el" placeholder="e.g. aorist, γενική, ο οποίος, rent" value="${E.esc(q)}" autocomplete="off"><button class="btn">Search</button></form>
-      <div id="sr-out">${q ? `<p class="loading">Searching…</p>` : `<p class="sub">Searches every lesson, story, news text, classic, workshop task, listening script, grammar guide and the phrasebook, in Greek or English, ignoring accents.</p>`}</div>`;
+      <div id="sr-out">${q ? `<p class="loading">Searching…</p>` : `<p class="sub">Searches every lesson, story, news text, classic, workshop task, listening script, grammar guide, word family, false friend and the phrasebook, in Greek or English, ignoring accents.</p>`}</div>`;
     E.$("#sr-form").onsubmit = (e) => { e.preventDefault(); const v = E.$("#sr-q").value.trim(); if (v) location.hash = "search." + encodeURIComponent(v); };
     if (!q) return E.$("#sr-q").focus();
     searchIdx = searchIdx || (await buildSearch());

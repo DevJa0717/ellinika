@@ -1,0 +1,894 @@
+{
+ "id": "suffix-people",
+ "part": "Γ",
+ "el": "Πρόσωπα: ποιος κάνει τι",
+ "title": "Suffixes for people: doers, trades, origin, women's forms",
+ "level": "A2–B2",
+ "intro": [
+  {
+   "p": "A suffix tells you the word class before you know the meaning. These ones make **people**: the one who does something (-της, -έας), the one who practises a trade (-άς, -άρης, -τζής), the one who comes from somewhere (-αίος, -ιώτης, -ινός), and the women's forms that go with them."
+  }
+ ],
+ "groups": [
+  {
+   "key": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "members": [
+    {
+     "el": "ποιητής",
+     "en": "poet",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "μαθητής",
+     "en": "pupil, schoolchild",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "φοιτητής",
+     "en": "university student",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "καθηγητής",
+     "en": "teacher (secondary); professor",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "θεατής",
+     "en": "spectator, viewer",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "κριτής",
+     "en": "judge (of a contest)",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "ερευνητής",
+     "en": "researcher",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "θεραπευτής",
+     "en": "therapist",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "ελεγκτής",
+     "en": "inspector; auditor",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "παίκτης",
+     "en": "player",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "εργάτης",
+     "en": "worker, labourer",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "κλέφτης",
+     "en": "thief",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "ψεύτης",
+     "en": "liar",
+     "lex": true,
+     "pos": "noun"
+    }
+   ],
+   "note": "Built on the verb's aorist stem: ερευνώ / ερεύνησα → **ερευνητής**, ελέγχω / έλεγξα → **ελεγκτής**, παίζω / έπαιξα → **παίκτης**. Women's forms mostly end in **-τρια**: μαθήτρια, φοιτήτρια, ερευνήτρια, παίκτρια, εργάτρια; a few in **-τρα** (κλέφτρα, ψεύτρα)."
+  },
+  {
+   "key": "-έας",
+   "meaning": "the person who does it (learned)",
+   "members": [
+    {
+     "el": "συγγραφέας",
+     "en": "author, writer",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "γραμματέας",
+     "en": "secretary",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "κουρέας",
+     "en": "barber",
+     "lex": false
+    },
+    {
+     "el": "αλιέας",
+     "en": "fisherman",
+     "lex": false
+    },
+    {
+     "el": "ιερέας",
+     "en": "priest",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "γονέας",
+     "en": "parent",
+     "lex": true,
+     "pos": "noun"
+    }
+   ],
+   "note": "**-έας** nouns of people are common gender in modern usage: **ο/η συγγραφέας**, **ο/η γραμματέας**. Not every -έας is a person: **τομέας** is a *sector*, **ανεμιστήρας** (-ήρας) a *fan*."
+  },
+  {
+   "key": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "members": [
+    {
+     "el": "ψαράς",
+     "en": "fisherman; fishmonger",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "γαλατάς",
+     "en": "milkman",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "σιδεράς",
+     "en": "blacksmith",
+     "lex": false
+    },
+    {
+     "el": "φουρνάρης",
+     "en": "baker",
+     "lex": false
+    },
+    {
+     "el": "βαρκάρης",
+     "en": "boatman",
+     "lex": false
+    },
+    {
+     "el": "παπουτσής",
+     "en": "shoemaker",
+     "lex": false
+    },
+    {
+     "el": "καφετζής",
+     "en": "café owner",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "ταξιτζής",
+     "en": "taxi driver",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "μπογιατζής",
+     "en": "house painter",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "σουβλατζής",
+     "en": "souvlaki cook",
+     "lex": false
+    }
+   ],
+   "note": "The everyday trade suffixes attach to the thing worked with: ψάρι → **ψαράς**, γάλα → **γαλατάς**, φούρνος → **φουρνάρης**, ταξί → **ταξιτζής**. **-τζής** (from Turkish *-ci*) is still productive. Women's forms: ψαρού, ταξιτζού, καφετζού (colloquial), or the same noun with η."
+  },
+  {
+   "key": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "members": [
+    {
+     "el": "Αθηναίος",
+     "en": "Athenian",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "Κερκυραίος",
+     "en": "Corfiot",
+     "lex": false
+    },
+    {
+     "el": "Πειραιώτης",
+     "en": "man from Piraeus",
+     "lex": false
+    },
+    {
+     "el": "Ηπειρώτης",
+     "en": "man from Epirus",
+     "lex": false
+    },
+    {
+     "el": "Μανιάτης",
+     "en": "man from Mani",
+     "lex": false
+    },
+    {
+     "el": "Θεσσαλονικιός",
+     "en": "man from Thessaloniki",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "Πατρινός",
+     "en": "man from Patras",
+     "lex": false
+    },
+    {
+     "el": "Κρητικός",
+     "en": "Cretan",
+     "lex": false
+    },
+    {
+     "el": "νησιώτης",
+     "en": "islander",
+     "lex": false
+    },
+    {
+     "el": "χωριανός",
+     "en": "fellow villager",
+     "lex": false
+    },
+    {
+     "el": "πρωτευουσιάνος",
+     "en": "someone from the capital",
+     "lex": true,
+     "pos": "noun"
+    }
+   ],
+   "note": "Each place has its own form and the women's forms differ too: Αθηναία, Κερκυραία, Πειραιώτισσα, Ηπειρώτισσα, Μανιάτισσα, Θεσσαλονικιά, Πατρινή, Κρητικιά, νησιώτισσα, χωριανή. Demonyms take a capital letter; νησιώτης and χωριανός do not, because they are not tied to one named place."
+  },
+  {
+   "key": "-ισσα / -αινα / -ίδα / -ού",
+   "meaning": "women's forms",
+   "members": [
+    {
+     "el": "βασίλισσα",
+     "en": "queen",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "πριγκίπισσα",
+     "en": "princess",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "γειτόνισσα",
+     "en": "(female) neighbour",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "λύκαινα",
+     "en": "she-wolf",
+     "lex": false
+    },
+    {
+     "el": "ηρωίδα",
+     "en": "heroine",
+     "lex": true,
+     "pos": "noun"
+    },
+    {
+     "el": "παπαδιά",
+     "en": "priest's wife",
+     "lex": false
+    },
+    {
+     "el": "νοικοκυρά",
+     "en": "housewife; landlady",
+     "lex": false
+    }
+   ],
+   "note": "Modern Greek increasingly keeps the masculine noun and changes only the article: **η γιατρός**, **η δικηγόρος**, **η βουλευτής** (the form βουλεύτρια is also used). Forms in -ισσα and -αινα are older and often belong to fixed words."
+  }
+ ],
+ "drill": [
+  {
+   "en": "poet",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "ποιητής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "pupil, schoolchild",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "μαθητής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "university student",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "φοιτητής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "teacher (secondary); professor",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "καθηγητής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "spectator, viewer",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "θεατής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "judge (of a contest)",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "κριτής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "researcher",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "ερευνητής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "therapist",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "θεραπευτής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "inspector; auditor",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "ελεγκτής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "player",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "παίκτης",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "worker, labourer",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "εργάτης",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "thief",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "κλέφτης",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "liar",
+   "hint": "-της / -τής (fem. -τρια)",
+   "meaning": "the person who does it",
+   "answer": "ψεύτης",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "author, writer",
+   "hint": "-έας",
+   "meaning": "the person who does it (learned)",
+   "answer": "συγγραφέας",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "secretary",
+   "hint": "-έας",
+   "meaning": "the person who does it (learned)",
+   "answer": "γραμματέας",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "barber",
+   "hint": "-έας",
+   "meaning": "the person who does it (learned)",
+   "answer": "κουρέας",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "fisherman",
+   "hint": "-έας",
+   "meaning": "the person who does it (learned)",
+   "answer": "αλιέας",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "priest",
+   "hint": "-έας",
+   "meaning": "the person who does it (learned)",
+   "answer": "ιερέας",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "parent",
+   "hint": "-έας",
+   "meaning": "the person who does it (learned)",
+   "answer": "γονέας",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "fisherman; fishmonger",
+   "hint": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "answer": "ψαράς",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "milkman",
+   "hint": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "answer": "γαλατάς",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "blacksmith",
+   "hint": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "answer": "σιδεράς",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "baker",
+   "hint": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "answer": "φουρνάρης",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "boatman",
+   "hint": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "answer": "βαρκάρης",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "shoemaker",
+   "hint": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "answer": "παπουτσής",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "café owner",
+   "hint": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "answer": "καφετζής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "taxi driver",
+   "hint": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "answer": "ταξιτζής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "house painter",
+   "hint": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "answer": "μπογιατζής",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "souvlaki cook",
+   "hint": "-άς / -άρης / -ής / -τζής",
+   "meaning": "trades and habits (everyday)",
+   "answer": "σουβλατζής",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "Athenian",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "Αθηναίος",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "Corfiot",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "Κερκυραίος",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "man from Piraeus",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "Πειραιώτης",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "man from Epirus",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "Ηπειρώτης",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "man from Mani",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "Μανιάτης",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "man from Thessaloniki",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "Θεσσαλονικιός",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "man from Patras",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "Πατρινός",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "Cretan",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "Κρητικός",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "islander",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "νησιώτης",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "fellow villager",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "χωριανός",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "someone from the capital",
+   "hint": "-αίος / -ιώτης / -ινός / -ιός",
+   "meaning": "where someone is from",
+   "answer": "πρωτευουσιάνος",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "queen",
+   "hint": "-ισσα / -αινα / -ίδα / -ού",
+   "meaning": "women's forms",
+   "answer": "βασίλισσα",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "princess",
+   "hint": "-ισσα / -αινα / -ίδα / -ού",
+   "meaning": "women's forms",
+   "answer": "πριγκίπισσα",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "(female) neighbour",
+   "hint": "-ισσα / -αινα / -ίδα / -ού",
+   "meaning": "women's forms",
+   "answer": "γειτόνισσα",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "she-wolf",
+   "hint": "-ισσα / -αινα / -ίδα / -ού",
+   "meaning": "women's forms",
+   "answer": "λύκαινα",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "heroine",
+   "hint": "-ισσα / -αινα / -ίδα / -ού",
+   "meaning": "women's forms",
+   "answer": "ηρωίδα",
+   "accept": [],
+   "lex": true
+  },
+  {
+   "en": "priest's wife",
+   "hint": "-ισσα / -αινα / -ίδα / -ού",
+   "meaning": "women's forms",
+   "answer": "παπαδιά",
+   "accept": [],
+   "lex": false
+  },
+  {
+   "en": "housewife; landlady",
+   "hint": "-ισσα / -αινα / -ίδα / -ού",
+   "meaning": "women's forms",
+   "answer": "νοικοκυρά",
+   "accept": [],
+   "lex": false
+  }
+ ],
+ "gloss": {
+  "χτένα": "χτένα — comb",
+  "επιρρήματα": "επίρρημα — adverb",
+  "ταξιδιωτικό": "ταξιδιωτικός — travel (adj.)",
+  "εξυπηρετικό": "εξυπηρετικός — helpful",
+  "ποιώ": "ποιώ — make, do (in compounds)",
+  "ψύχω": "ψύχω — cool, chill",
+  "αρτώ": "αρτώ — hang (ancient)",
+  "τροφός": "τροφός — wet nurse",
+  "απόστολος": "απόστολος — apostle",
+  "σπορά": "σπορά — sowing",
+  "απόστροφος": "απόστροφος — apostrophe (the mark)",
+  "χήρος": "χήρος — widower",
+  "γέρικο": "γέρικος — old, aged",
+  "σχολάς": "σχολάω — finish (work, school)",
+  "κοσμικά": "κοσμικός — society (pages); worldly",
+  "ἐσκεψάμην": "σκέπτομαι — I considered (ancient aorist)",
+  "δραμεῖν": "τρέχω — to run (ancient aorist infinitive)",
+  "ἔσχον": "έχω — I had, I got (ancient aorist)",
+  "ορώ": "ορώ — see (ancient, learned)",
+  "στέλλω": "στέλνω — send (learned form)",
+  "εμβαίνω": "μπαίνω — go in (old form)",
+  "εκβαίνω": "βγαίνω — go out (old form)",
+  "τίθημι": "τίθημι — place, put (ancient)",
+  "μιμνήσκομαι": "θυμάμαι — remember (ancient form)",
+  "ενθυμούμαι": "θυμάμαι — remember (learned form)",
+  "νέμω": "νέμω — share out (ancient)",
+  "εσθίω": "τρώω — eat (ancient form)",
+  "απαντέχω": "απαντέχω — expect, wait for (old)",
+  "αναπάντεχη": "αναπάντεχος — unexpected",
+  "Κερκυραία": "Κερκυραία — Corfiot woman",
+  "Πειραιώτισσα": "Πειραιώτισσα — woman from Piraeus",
+  "Ηπειρώτισσα": "Ηπειρώτισσα — woman from Epirus",
+  "Μανιάτισσα": "Μανιάτισσα — woman from Mani",
+  "Πατρινή": "Πατρινή — woman from Patras",
+  "νησιώτισσα": "νησιώτισσα — islander (woman)",
+  "χωριανή": "χωριανή — fellow villager (woman)",
+  "παίκτρια": "παίκτρια — player (woman)",
+  "εργάτρια": "εργάτρια — worker (woman)",
+  "βουλεύτρια": "βουλεύτρια — MP (woman)",
+  "ψαρού": "ψαρού — fishmonger (woman)",
+  "ταξιτζού": "ταξιτζού — taxi driver (woman)",
+  "καφετζού": "καφετζού — café owner (woman); fortune-teller",
+  "ρατσιστής": "ρατσιστής — racist",
+  "ρεαλιστής": "ρεαλιστής — realist",
+  "φεμινίστρια": "φεμινίστρια — feminist (woman)",
+  "ρατσιστικός": "ρατσιστικός — racist (adj.)",
+  "απόδημος": "απόδημος — living abroad",
+  "εταίρος": "εταίρος — partner",
+  "κράτημα": "κράτημα — holding",
+  "χαιρετίζω": "χαιρετίζω — greet, hail (formal)",
+  "παθήματα": "πάθημα — misfortune; lesson learned",
+  "χόρεμα": "χόρεμα — dancing",
+  "μούχλα": "μούχλα — mould",
+  "Βράδιασε": "βραδιάζει — it got dark",
+  "δροσιά": "δροσιά — coolness, freshness",
+  "θορυβώδους": "θορυβώδης — noisy",
+  "θορυβώδεις": "θορυβώδης — noisy",
+  "χρυσαφένιος": "χρυσαφένιος — golden",
+  "φοβητσιάρης": "φοβιτσιάρης — scaredy-cat",
+  "αρτοπωλείο": "αρτοπωλείο — bread shop",
+  "ύδρευση": "ύδρευση — water supply",
+  "Ύδρευσης": "ύδρευση — water supply",
+  "Αποχέτευσης": "αποχέτευση — sewerage",
+  "ΕΥΔΑΠ": "ΕΥΔΑΠ — Athens Water Supply and Sewerage Company",
+  "αυτοδιοίκηση": "αυτοδιοίκηση — self-government",
+  "ζωολογία": "ζωολογία — zoology",
+  "βιολόγος": "βιολόγος — biologist",
+  "ανήκουστο": "ανήκουστος — unheard of",
+  "συμπονετικός": "συμπονετικός — sympathetic, compassionate",
+  "συμπονετική": "συμπονετικός — sympathetic, compassionate",
+  "συμπονώ": "συμπονώ — feel compassion for",
+  "αισθηματική": "αισθηματικός — romantic, sentimental",
+  "κατενθουσιασμένος": "κατενθουσιασμένος — thrilled",
+  "Παρακοιμήθηκα": "παρακοιμάμαι — I overslept",
+  "προφέρω": "προφέρω — pronounce",
+  "αμαξίδια": "αμαξίδιο — wheelchair (αναπηρικό αμαξίδιο)",
+  "αναπηρικά": "αναπηρικός — for the disabled",
+  "παρατρώγω": "παρατρώω — overeat",
+  "συρρίκνωση": "συρρίκνωση — shrinkage",
+  "κακοψημένος": "κακοψημένος — badly cooked",
+  "καλοδεχούμενος": "καλοδεχούμενος — welcome",
+  "ξεβάφω": "ξεβάφω — fade; remove make-up",
+  "ξαναδοκιμάζω": "ξαναδοκιμάζω — try again",
+  "επανεκλογή": "επανεκλογή — re-election",
+  "ξανασκεφτώ": "ξανασκέφτομαι — think again",
+  "ημιτελές": "ημιτελής — unfinished",
+  "ψιλοκουρασμένη": "ψιλοκουρασμένος — a bit tired",
+  "αποθηκεύσεις": "αποθηκεύω — save (a file), store",
+  "Αποθήκευσε": "αποθηκεύω — save (a file), store",
+  "αποδείχνω": "αποδεικνύω — prove",
+  "τρόπαιο": "τρόπαιο — trophy",
+  "κλεψιά": "κλεψιά — theft (colloquial)",
+  "συμπλοκή": "συμπλοκή — clash, brawl",
+  "πλεκτό": "πλεκτό — knitted garment",
+  "διασπορά": "διασπορά — diaspora",
+  "ατρόμητος": "ατρόμητος — fearless",
+  "αναστροφή": "αναστροφή — reversal",
+  "νυχτολούλουδο": "νυχτολούλουδο — night-blooming jasmine",
+  "σπιτονοικοκύρης": "σπιτονοικοκύρης — landlord",
+  "αλατοπίπερο": "αλατοπίπερο — salt and pepper",
+  "αγριόγατα": "αγριόγατα — wildcat",
+  "μερόνυχτο": "μερόνυχτο — twenty-four hours",
+  "γλυκοκοιτάζω": "γλυκοκοιτάζω — look at tenderly",
+  "θαλασσοπούλι": "θαλασσοπούλι — seabird",
+  "παρατακτικά": "παρατακτικός — coordinate",
+  "ανθρωποφάγος": "ανθρωποφάγος — cannibal",
+  "αφυδάτωση": "αφυδάτωση — dehydration",
+  "ιχθυοτροφείο": "ιχθυοτροφείο — fish farm",
+  "οινοπνευματώδη": "οινοπνευματώδης — alcoholic (drink)",
+  "όμμα": "όμμα — eye (ancient)",
+  "ομματοϋάλια": "ομματοϋάλια — spectacles (formal)",
+  "ωτορινολαρυγγολόγος": "ωτορινολαρυγγολόγος — ENT doctor",
+  "φαγοπότι": "φαγοπότι — feasting",
+  "αποκρατικοποίηση": "αποκρατικοποίηση — privatisation",
+  "πρόλογος": "πρόλογος — preface, prologue",
+  "επίθημα": "επίθημα — suffix",
+  "Εναλλαγή": "εναλλαγή — alternation",
+  "ντύσιμο": "ντύσιμο — dressing",
+  "Ψευδόφιλοι": "ψευδόφιλος — false friend",
+  "χαμογελαστός": "χαμογελαστός — smiling",
+  "πωλεί": "πωλώ — sell (formal)",
+  "οξυδερκής": "οξυδερκής — astute, sharp-sighted",
+  "δεοντολογία": "δεοντολογία — (professional) ethics",
+  "δεοντολογίας": "δεοντολογία — (professional) ethics",
+  "Οιδίποδα": "Οιδίποδας — Oedipus",
+  "ευγονικός": "ευγονικός — eugenic",
+  "λίβελος": "λίβελος — libel, diatribe",
+  "λίβελο": "λίβελος — libel, diatribe",
+  "φιλιππικός": "φιλιππικός — philippic, tirade",
+  "επιμελήτρια": "επιμελήτρια — editor (woman)",
+  "απαγγέλθηκαν": "απαγγέλλω — bring (charges)",
+  "Αθωώθηκε": "αθωώνομαι — be acquitted",
+  "κατηγοριοποιείς": "κατηγοριοποιώ — categorise",
+  "ένδυμα": "ένδυμα — garment",
+  "εκλογήν": "εκλογή — choice (κατ' εκλογήν by choice)",
+  "ματαιόδοξος": "ματαιόδοξος — vainglorious",
+  "φιλάρεσκους": "φιλάρεσκος — vain",
+  "ανακριτή": "ανακριτής — investigating judge",
+  "Ομόηχες": "ομόηχος — homophone",
+  "Σινικό": "Σινικό Τείχος — Great Wall of China",
+  "Οθωμανοί": "Οθωμανός — Ottoman",
+  "λοιμώξεις": "λοίμωξη — infection",
+  "κασκόλ": "κασκόλ — scarf",
+  "Όλυμπος": "Όλυμπος — Mount Olympus",
+  "ελληνορωμαϊκή": "ελληνορωμαϊκός — Greco-Roman",
+  "Αντάλλαξαν": "ανταλλάσσω — exchange",
+  "κληματαριά": "κληματαριά — vine arbour",
+  "σταφύλια": "σταφύλι — grape",
+  "ζωικό": "ζωικός — animal (adj.)",
+  "Σούνιο": "Σούνιο — Sounion",
+  "παρελθοντικοί": "παρελθοντικός — past (tense)",
+  "μοναστική": "μοναστικός — monastic",
+  "Προμηθέας": "Προμηθέας — Prometheus",
+  "Δεσμώτης": "δεσμώτης — prisoner, bound",
+  "Νεμέα": "Νεμέα — Nemea",
+  "φύλαξης": "φύλαξη — safekeeping, custody",
+  "Άγιον": "Άγιον Όρος — Mount Athos",
+  "σκηνογράφος": "σκηνογράφος — set designer",
+  "Φρανκφούρτης": "Φρανκφούρτη — Frankfurt",
+  "Αττικής": "Αττική — Attica",
+  "Ηρακλείου": "Ηράκλειο — Heraklion",
+  "Ζυγά": "ζυγός — even (number)",
+  "νεόνυμφοι": "νεόνυμφος — newlywed",
+  "αλεύρι": "αλεύρι — flour",
+  "διαδηλωτές": "διαδηλωτής — demonstrator",
+  "συμφωνάω": "συμφωνώ — agree",
+  "αποχωράω": "αποχωρώ — withdraw",
+  "αφαιράω": "αφαιρώ — remove",
+  "διαφωνάω": "διαφωνώ — disagree",
+  "κατηγοράω": "κατηγορώ — accuse",
+  "κατοικάω": "κατοικώ — reside",
+  "παρακολουθάω": "παρακολουθώ — follow",
+  "παρατηράω": "παρατηρώ — observe",
+  "προσπαθάω": "προσπαθώ — try",
+  "αντιπαθάω": "αντιπαθώ — dislike",
+  "αμφισβητάω": "αμφισβητώ — dispute",
+  "οδηγάω": "οδηγώ — drive",
+  "ξαναζάω": "ξαναζώ — relive",
+  "ξεπουλάω": "ξεπουλώ — sell off",
+  "ξαναλέγω": "ξαναλέω — say again",
+  "επιθυμάω": "επιθυμώ — wish",
+  "συγκρατάω": "συγκρατώ — restrain",
+  "επικρατάω": "επικρατώ — prevail",
+  "κουρέας": "κουρέας — barber",
+  "αλιέας": "αλιέας — fisherman",
+  "σιδεράς": "σιδεράς — blacksmith",
+  "φουρνάρης": "φουρνάρης — baker",
+  "βαρκάρης": "βαρκάρης — boatman",
+  "παπουτσής": "παπουτσής — shoemaker",
+  "σουβλατζής": "σουβλατζής — souvlaki cook",
+  "Κερκυραίος": "Κερκυραίος — Corfiot",
+  "Πειραιώτης": "Πειραιώτης — man from Piraeus",
+  "Ηπειρώτης": "Ηπειρώτης — man from Epirus",
+  "Μανιάτης": "Μανιάτης — man from Mani",
+  "Πατρινός": "Πατρινός — man from Patras",
+  "Κρητικός": "Κρητικός — Cretan",
+  "νησιώτης": "νησιώτης — islander",
+  "χωριανός": "χωριανός — fellow villager",
+  "λύκαινα": "λύκαινα — she-wolf",
+  "παπαδιά": "παπαδιά — priest's wife",
+  "νοικοκυρά": "νοικοκυρά — housewife; landlady"
+ }
+}
