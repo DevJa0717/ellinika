@@ -1,0 +1,214 @@
+{
+ "kind": "bilingual",
+ "el": "Η ελληνική μουσική",
+ "title": "Greek music: from Byzantine chant and folk song to rebetiko, éntekhno and today",
+ "intro_el": "Από τη βυζαντινή ψαλτική και το δημοτικό τραγούδι ως το ρεμπέτικο, το έντεχνο, το λαϊκό και τη μουσική σκηνή του σήμερα. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1 και ανεβαίνουν σταδιακά ως το Γ1.",
+ "intro_en": "Greek music from Byzantine chant and the folk songs of the mountains and islands to rebetiko, the art song of Hatzidakis and Theodorakis, laïkó and the scene today: its history, its instruments and dances, the people who made it and the language of its songs. The Greek text starts around B1 and rises gradually to C1; the English parallel carries the fuller detail. Lyrics are quoted only when they are in the public domain, or as short cited excerpts. Each chapter has new-term definitions, grammar notes, listening links, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+ "parts": [
+  {
+   "id": "rizes",
+   "el": "Οι ρίζες",
+   "en": "The roots: chant and folk song",
+   "dates": "αρχαιότητα–20ός αι.",
+   "intro_el": "Από τη λύρα των αρχαίων και τους ύμνους της Εκκλησίας ως το δημοτικό τραγούδι των βουνών και των νησιών. Εδώ βρίσκονται οι ρίζες της ελληνικής μουσικής.",
+   "intro_en": "From the lyre and aulos of antiquity and the chant of the Orthodox Church to the anonymous folk songs of the mainland, the islands, Crete, Pontus, Asia Minor and Epirus: the deep roots on which all later Greek music grows. The Greek is at B1+, simplest in the first chapter."
+  },
+  {
+   "id": "rebetiko",
+   "el": "Το ρεμπέτικο",
+   "en": "Rebetiko",
+   "dates": "1900s–1950s",
+   "intro_el": "Το τραγούδι των λιμανιών, των προσφύγων και των μάγκων: από τα καφέ-αμάν της Σμύρνης και το μπουζούκι του Πειραιά ως τον Τσιτσάνη και τη γλώσσα της πιάτσας.",
+   "intro_en": "The urban song of the ports, the refugees and the mangas: from the cafés-aman of Smyrna and the bouzouki of Piraeus to Tsitsanis, the instruments and dances, and the slang of the street. The Greek is at B2 level; lyrics are quoted in full only when they are in the public domain."
+  },
+  {
+   "id": "entechno",
+   "el": "Έντεχνο και λαϊκό",
+   "en": "Art song and laïkó",
+   "dates": "1949–1980",
+   "intro_el": "Μετά τον πόλεμο δύο νέοι συνθέτες, ο Χατζιδάκις και ο Θεοδωράκης, πάντρεψαν το ρεμπέτικο με την ποίηση και τη λόγια μουσική, ενώ το λαϊκό τραγούδι γέμιζε τα κέντρα και τα ραδιόφωνα. Τα κείμενα αυτού του μέρους είναι στο επίπεδο Β2+.",
+   "intro_en": "After the war two young composers, Manos Hatzidakis and Mikis Theodorakis, married rebetiko to poetry and to concert music, creating the éntekhno ('art') song, while laïkó filled the nightclubs, the cinemas and the radio. This part follows them from Hatzidakis's 1949 lecture on rebetiko to the songs of the dictatorship and the years after 1974: the poets who were set to music, the great laïkó voices, and the New Wave of the 1960s. The Greek is at B2+: longer periods, participles in -οντας, formal connectives."
+  },
+  {
+   "id": "simera",
+   "el": "Η μουσική σήμερα",
+   "en": "Music today",
+   "dates": "1980–σήμερα",
+   "intro_el": "Από το ελληνόφωνο ροκ και το χιπ χοπ ως τις πίστες, τη Γιουροβίζιον και την αναβίωση της παράδοσης: η ελληνική μουσική σκηνή μετά το 1980. Τα κείμενα αυτού του μέρους είναι στο επίπεδο Γ1.",
+   "intro_en": "Greek music after 1980: Greek-language rock and hip hop, the music of the crisis years, the nightlife of the *pista* and the pop-laïkó industry, Eurovision, and the living tradition of folk music, from Domna Samiou's archive to the lyra of Crete and the music schools. The Greek here is at C1: dense, essayistic, with learned vocabulary and katharevousa survivals where an educated writer would naturally use them."
+  }
+ ],
+ "items": [
+  {
+   "id": "archaia",
+   "file": "archaia.json",
+   "el": "Η μουσική των αρχαίων",
+   "title": "The music of the ancient Greeks",
+   "level": "B1",
+   "part": "rizes",
+   "dates": "8ος αι. π.Χ.–2ος αι. μ.Χ."
+  },
+  {
+   "id": "psaltiki",
+   "file": "psaltiki.json",
+   "el": "Βυζαντινή ψαλτική",
+   "title": "Byzantine chant",
+   "level": "B1",
+   "part": "rizes",
+   "dates": "6ος αι.–σήμερα"
+  },
+  {
+   "id": "dimotiko",
+   "file": "dimotiko.json",
+   "el": "Το δημοτικό τραγούδι",
+   "title": "The folk song",
+   "level": "B1",
+   "part": "rizes",
+   "dates": "15ος–20ός αι."
+  },
+  {
+   "id": "nisiotika",
+   "file": "nisiotika.json",
+   "el": "Νησιά και Κρήτη",
+   "title": "The islands and Crete",
+   "level": "B1",
+   "part": "rizes",
+   "dates": "17ος–20ός αι."
+  },
+  {
+   "id": "anatoli",
+   "file": "anatoli.json",
+   "el": "Πόντος, Μικρά Ασία, Ήπειρος",
+   "title": "Pontus, Asia Minor and Epirus",
+   "level": "B1",
+   "part": "rizes",
+   "dates": "19ος–21ος αι."
+  },
+  {
+   "id": "rebetiko-ti-einai",
+   "file": "rebetiko-ti-einai.json",
+   "el": "Τι είναι το ρεμπέτικο",
+   "title": "What rebetiko is",
+   "level": "B2",
+   "part": "rebetiko",
+   "dates": "1900s–1950s"
+  },
+  {
+   "id": "smyrneiko",
+   "file": "smyrneiko.json",
+   "el": "Η σχολή της Σμύρνης και τα καφέ-αμάν",
+   "title": "The Smyrna school and the cafés-aman",
+   "level": "B2",
+   "part": "rebetiko",
+   "dates": "1900–1936"
+  },
+  {
+   "id": "peiraias",
+   "file": "peiraias.json",
+   "el": "Ο Πειραιάς και η «Τετράς»",
+   "title": "Piraeus and the Famous Quartet",
+   "level": "B2",
+   "part": "rebetiko",
+   "dates": "1922–1936"
+  },
+  {
+   "id": "logokrisia",
+   "file": "logokrisia.json",
+   "el": "Λογοκρισία, πόλεμος και η στροφή",
+   "title": "Censorship, war and the turn",
+   "level": "B2",
+   "part": "rebetiko",
+   "dates": "1936–1955"
+  },
+  {
+   "id": "organa-xoroi",
+   "file": "organa-xoroi.json",
+   "el": "Όργανα και χοροί",
+   "title": "Instruments and dances",
+   "level": "B2",
+   "part": "rebetiko",
+   "dates": "1930s–1950s"
+  },
+  {
+   "id": "glossa-rebetikou",
+   "file": "glossa-rebetikou.json",
+   "el": "Η γλώσσα του ρεμπέτικου",
+   "title": "The language of rebetiko",
+   "level": "B2",
+   "part": "rebetiko",
+   "dates": "1900s–1950s"
+  },
+  {
+   "id": "chatzidakis",
+   "file": "chatzidakis.json",
+   "el": "Μάνος Χατζιδάκις",
+   "title": "Manos Hatzidakis",
+   "level": "B2+",
+   "part": "entechno",
+   "dates": "1925–1994"
+  },
+  {
+   "id": "theodorakis",
+   "file": "theodorakis.json",
+   "el": "Μίκης Θεοδωράκης",
+   "title": "Mikis Theodorakis",
+   "level": "B2+",
+   "part": "entechno",
+   "dates": "1925–2021"
+  },
+  {
+   "id": "poiites",
+   "file": "poiites.json",
+   "el": "Οι ποιητές τραγουδιούνται",
+   "title": "The poets in song",
+   "level": "B2+",
+   "part": "entechno",
+   "dates": "1896–1979"
+  },
+  {
+   "id": "laiko",
+   "file": "laiko.json",
+   "el": "Το λαϊκό τραγούδι",
+   "title": "Laïkó: the popular song",
+   "level": "B2+",
+   "part": "entechno",
+   "dates": "1952–1980"
+  },
+  {
+   "id": "neo-kyma",
+   "file": "neo-kyma.json",
+   "el": "Νέο Κύμα και τραγουδοποιοί",
+   "title": "New Wave and singer-songwriters",
+   "level": "B2+",
+   "part": "entechno",
+   "dates": "1960–1982"
+  },
+  {
+   "id": "rock-hiphop",
+   "file": "rock-hiphop.json",
+   "el": "Ροκ, έντεχνο-ροκ και χιπ χοπ",
+   "title": "Rock, art-rock and hip hop",
+   "level": "C1",
+   "part": "simera",
+   "dates": "1972–2020"
+  },
+  {
+   "id": "nyxta",
+   "file": "nyxta.json",
+   "el": "Μπουζούκια, πίστες και Γιουροβίζιον",
+   "title": "Bouzoukia, the pista and Eurovision",
+   "level": "C1",
+   "part": "simera",
+   "dates": "1960–2006"
+  },
+  {
+   "id": "zontani-paradosi",
+   "file": "zontani-paradosi.json",
+   "el": "Η ζωντανή παράδοση",
+   "title": "The living tradition",
+   "level": "C1",
+   "part": "simera",
+   "dates": "1960–σήμερα"
+  }
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "kind": "bilingual",
+ "el": "Θέατρο και κινηματογράφος",
+ "title": "Greek theatre and cinema: from Epidaurus and Karagiozis to the Greek Weird Wave",
+ "intro_el": "Το ελληνικό θέατρο από τη γέννηση του δράματος στην αρχαία Αθήνα ως τον Καραγκιόζη και τη σύγχρονη σκηνή, και ο ελληνικός κινηματογράφος από τους αδελφούς Μανάκη ως σήμερα. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1 και ανεβαίνουν σταδιακά ως το Γ1.",
+ "intro_en": "Greek theatre from the birth of drama in ancient Athens through Cretan Renaissance drama, Karagiozis and the modern stage, and Greek cinema from the Manakis brothers through the golden age of Finos Film, Cacoyannis and Angelopoulos to the Greek Weird Wave and the summer cinemas of today. The Greek text starts around B1 and rises gradually to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+ "parts": [
+  {
+   "id": "archaio",
+   "el": "Το αρχαίο θέατρο",
+   "en": "Ancient theatre",
+   "dates": "6ος–3ος αι. π.Χ.",
+   "intro_el": "Πώς γεννήθηκε το δράμα στην αρχαία Αθήνα, ποιοι ήταν οι μεγάλοι ποιητές της τραγωδίας και της κωμωδίας, πώς ήταν τα θέατρα και πώς ζει το αρχαίο δράμα σήμερα.",
+   "intro_en": "How drama was born at the festivals of Dionysus in Athens, who the great tragic and comic poets were, what the theatres and masks were like, and how ancient drama lives on in modern Greece, from the Epidaurus Festival to everyday expressions. The Greek starts at B1+ and grows a little harder chapter by chapter."
+  },
+  {
+   "id": "neo-theatro",
+   "el": "Το νεοελληνικό θέατρο",
+   "en": "The modern Greek stage",
+   "dates": "16ος–20ός αι.",
+   "intro_el": "Από την Ερωφίλη της βενετικής Κρήτης και τις ομιλίες της Ζακύνθου ως τον Καραγκιόζη, την επιθεώρηση, το Θέατρο Τέχνης και την Επίδαυρο του σήμερα: τέσσερις αιώνες ελληνικής σκηνής.",
+   "intro_en": "Four centuries of the Greek stage: Cretan Renaissance drama under Venice, the folk «omilies» of Zakynthos and the school theatres of Bucharest and Odessa, the shadow puppet Karagiozis, the Athenian komeidyllio and revue, the National Theatre, Karolos Koun's Art Theatre and post-war playwrights, and the festivals, institutions and small stages of today. Greek at B2."
+  },
+  {
+   "id": "kinimatografos",
+   "el": "Ο ελληνικός κινηματογράφος",
+   "en": "Greek cinema",
+   "dates": "1905–2000",
+   "intro_el": "Από τις πρώτες λήψεις των αδελφών Μανάκη ως τον Χρυσό Φοίνικα του Αγγελόπουλου: ένας αιώνας ελληνικού σινεμά, με τα στούντιο, τις κωμωδίες, τους δημιουργούς και τα φεστιβάλ του.",
+   "intro_en": "From the Manakis brothers' first footage to Angelopoulos' Palme d'Or: a century of Greek cinema, its studios, comedies, auteurs and festivals. The Greek is at B2+ (longer periods, -οντας participles, formal connectives); the English carries the fuller detail."
+  },
+  {
+   "id": "simera",
+   "el": "Η οθόνη και η σκηνή σήμερα",
+   "en": "Screen and stage today",
+   "dates": "2000–σήμερα",
+   "intro_el": "Από το «παράξενο κύμα» και τα Όσκαρ του Λάνθιμου ως τα θερινά σινεμά, τα φεστιβάλ και τη γλώσσα που δανείστηκε η καθημερινότητα από τη σκηνή.",
+   "intro_en": "From the Greek Weird Wave and Lanthimos' Oscars to summer cinemas, festivals and institutions, and the theatre words everyday Greek has borrowed. The Greek is at C1: dense, essayistic, with learned vocabulary; the English carries the fuller detail."
+  }
+ ],
+ "items": [
+  {
+   "id": "dionysos",
+   "file": "dionysos.json",
+   "el": "Ο Διόνυσος και η γέννηση του δράματος",
+   "title": "Dionysus and the birth of drama",
+   "level": "B1",
+   "part": "archaio",
+   "dates": "6ος–5ος αι. π.Χ."
+  },
+  {
+   "id": "tragikoi",
+   "file": "tragikoi.json",
+   "el": "Αισχύλος, Σοφοκλής, Ευριπίδης",
+   "title": "Aeschylus, Sophocles, Euripides",
+   "level": "B1+",
+   "part": "archaio",
+   "dates": "525–406 π.Χ."
+  },
+  {
+   "id": "komodia",
+   "file": "komodia.json",
+   "el": "Αριστοφάνης και Μένανδρος",
+   "title": "Aristophanes and Menander",
+   "level": "B1+",
+   "part": "archaio",
+   "dates": "5ος–3ος αι. π.Χ."
+  },
+  {
+   "id": "theatra",
+   "file": "theatra.json",
+   "el": "Το κτίριο και οι μάσκες",
+   "title": "The building and the masks",
+   "level": "B1+",
+   "part": "archaio",
+   "dates": "6ος–2ος αι. π.Χ."
+  },
+  {
+   "id": "archaio-simera",
+   "file": "archaio-simera.json",
+   "el": "Το αρχαίο δράμα σήμερα",
+   "title": "Ancient drama today",
+   "level": "B1+",
+   "part": "archaio",
+   "dates": "1903–σήμερα"
+  },
+  {
+   "id": "kritiko",
+   "file": "kritiko.json",
+   "el": "Το κρητικό θέατρο",
+   "title": "Cretan theatre and its heirs",
+   "level": "B2",
+   "part": "neo-theatro",
+   "dates": "1580–1821"
+  },
+  {
+   "id": "karagkiozis",
+   "file": "karagkiozis.json",
+   "el": "Ο Καραγκιόζης",
+   "title": "Karagiozis, the shadow theatre",
+   "level": "B2",
+   "part": "neo-theatro",
+   "dates": "1809–σήμερα"
+  },
+  {
+   "id": "komeidyllio",
+   "file": "komeidyllio.json",
+   "el": "Κωμειδύλλιο, επιθεώρηση και Εθνικό Θέατρο",
+   "title": "Komeidyllio, revue and the National Theatre",
+   "level": "B2",
+   "part": "neo-theatro",
+   "dates": "1880–1956"
+  },
+  {
+   "id": "koun",
+   "file": "koun.json",
+   "el": "Ο Κάρολος Κουν και η μεταπολεμική σκηνή",
+   "title": "Karolos Koun and the post-war stage",
+   "level": "B2",
+   "part": "neo-theatro",
+   "dates": "1932–1987"
+  },
+  {
+   "id": "theatro-simera",
+   "file": "theatro-simera.json",
+   "el": "Το θέατρο σήμερα",
+   "title": "Greek theatre today",
+   "level": "B2",
+   "part": "neo-theatro",
+   "dates": "1955–σήμερα"
+  },
+  {
+   "id": "manaki",
+   "file": "manaki.json",
+   "el": "Οι αρχές: από τους Μανάκηδες στην Κατοχή",
+   "title": "Beginnings: from the Manakis brothers to the Occupation",
+   "level": "B2",
+   "part": "kinimatografos",
+   "dates": "1896–1944"
+  },
+  {
+   "id": "finos",
+   "file": "finos.json",
+   "el": "Η Φίνος Φιλμ και η χρυσή εποχή",
+   "title": "Finos Film and the golden age",
+   "level": "B2",
+   "part": "kinimatografos",
+   "dates": "1943–1977"
+  },
+  {
+   "id": "kakogiannis",
+   "file": "kakogiannis.json",
+   "el": "Κακογιάννης, Μερκούρη και ο κόσμος",
+   "title": "Cacoyannis, Mercouri and the world",
+   "level": "B2",
+   "part": "kinimatografos",
+   "dates": "1954–1977"
+  },
+  {
+   "id": "angelopoulos",
+   "file": "angelopoulos.json",
+   "el": "Ο Νέος Ελληνικός Κινηματογράφος και ο Αγγελόπουλος",
+   "title": "New Greek Cinema and Angelopoulos",
+   "level": "B2",
+   "part": "kinimatografos",
+   "dates": "1967–2000"
+  },
+  {
+   "id": "weird-wave",
+   "file": "weird-wave.json",
+   "el": "Το «παράξενο κύμα»",
+   "title": "The Greek Weird Wave",
+   "level": "C1",
+   "part": "simera",
+   "dates": "2009–2025"
+  },
+  {
+   "id": "therina-sinema",
+   "file": "therina-sinema.json",
+   "el": "Θερινά σινεμά, φεστιβάλ και θεσμοί",
+   "title": "Summer cinemas, festivals and institutions",
+   "level": "C1",
+   "part": "simera",
+   "dates": "1900–σήμερα"
+  },
+  {
+   "id": "glossa-skinis",
+   "file": "glossa-skinis.json",
+   "el": "Η γλώσσα της σκηνής και της οθόνης",
+   "title": "The language of stage and screen",
+   "level": "C1",
+   "part": "simera",
+   "dates": "αρχαιότητα–σήμερα"
+  }
+ ]
+}

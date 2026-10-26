@@ -1,0 +1,5 @@
+SHELF = dict(
+    el="Ο χρόνος της Ορθοδοξίας",
+    title="The Greek Orthodox year: feasts, fasts and customs",
+    intro_el="Ο εκκλησιαστικός χρόνος στην Ελλάδα, από την αρχή της ινδίκτου τον Σεπτέμβριο ως τον Δεκαπενταύγουστο: οι μεγάλες γιορτές, οι νηστείες, η Μεγάλη Εβδομάδα και το Πάσχα, οι γιορτές των αγίων, τα έθιμα κάθε τόπου και η γλώσσα της Εκκλησίας. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1 και ανεβαίνουν σταδιακά ως το Γ1.",
+    intro_en="The Greek Orthodox year as it is lived in Greece, from the church new year on 1 September to the Dormition in August: the great feasts and their meaning, the fasts and the food that goes with them, Holy Week and Easter, the saints' days and name days, the local customs of each region, and the language of the Church that runs through everyday Greek. It describes beliefs and practices without taking a position on them. The Greek text starts around B1 and rises gradually to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes, a quiz, words to keep and numbered sources; tap any Greek word to look it up.")
