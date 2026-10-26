@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Companion PDF for any bilingual reader shelf (shared format, app/bilingual.js): philosophers, istoria, simera, politeia …
+"""Companion PDF for any bilingual reader shelf (shared format, app/bilingual.js): philosophers, istoria, simera, politeia, kouzina …
+(sections may carry tables and a chapter may carry a recipe card, as in the cookbook)
 
 Usage: python3 build_bilingual.py --shelf <id> [--app <app dir>] [--out <build dir>] [--pdf <final pdf path>]
   writes <out>/<shelf>.html; with --pdf it also renders it (render_pdf.js) and packs it (compress.py) into that path.
@@ -66,6 +67,21 @@ h3.sec .en { font-size: 10pt; font-weight: 400; margin-left: 2mm; }
 .qs .q-opts { font-size: 9pt; color: #3c4658; }
 .vw { font-size: 8.8pt; color: var(--muted); }
 .srcs ol { font-size: 8.2pt; padding-left: 6mm; } .srcs li { margin: 0 0 1mm; overflow-wrap: anywhere; }
+.bl-tbl { margin: 2mm 0 4mm; break-inside: auto; }
+.bl-tbl table { width: 100%; border-collapse: collapse; font-size: 8.8pt; }
+.bl-tbl th { text-align: left; font: 700 8pt "TBSans", sans-serif; color: var(--accent); border-bottom: 1.5px solid var(--accent2); padding: 1mm 1.5mm; }
+.bl-tbl td { border-bottom: 1px solid #e1e6ee; padding: 0.9mm 1.5mm; vertical-align: top; }
+.bl-tbl tr { break-inside: avoid; }
+.recipe { border: 1.5px solid var(--accent2); border-radius: 2.5mm; padding: 3mm 4mm; margin: 4mm 0; background: #fbfaf6; }
+.recipe h4 { font-size: 10.2pt; margin: 2.5mm 0 1mm; color: var(--accent); break-after: avoid; }
+.recipe h4 .en { display: inline; font-weight: 400; font-size: 9pt; color: var(--muted); }
+.recipe .en { display: block; color: var(--muted); font-size: 8.6pt; }
+.rc-meta { font-size: 9.5pt; margin: 0 0 1mm; }
+.rc-ing ul { margin: 0 0 1mm; padding-left: 5mm; columns: 2; column-gap: 6mm; font-size: 9.6pt; }
+.rc-ing li { break-inside: avoid; margin: 0 0 1mm; }
+.rc-steps { padding-left: 6mm; font-size: 10pt; margin: 0; }
+.rc-steps li { margin: 0 0 1.6mm; break-inside: avoid; }
+.rc-tip { border-left: 3px solid #d8a23a; padding-left: 3mm; margin: 2mm 0 0; font-size: 9.4pt; break-inside: avoid; }
 table.cred { font-size: 7.8pt; } table.cred td { padding: 0.8mm 1.4mm; overflow-wrap: anywhere; }
 """
 
@@ -84,6 +100,22 @@ def figure(img):
     cred = " · ".join(x for x in (img.get("credit"), img.get("license")) if x)
     cap = esc(img.get("caption")) + (f" · {esc(img['caption_en'])}" if img.get("caption_en") else "")
     return f'<figure class="pic"><img src="file://{esc(path)}"><figcaption><span lang="el">{cap}</span><br>{esc(cred)}</figcaption></figure>'
+
+def table(t):
+    head = "".join(f'<th>{esc(c["h"])}</th>' for c in t["cols"])
+    rows = "".join("<tr>" + "".join(f'<td{" lang=el" if t["cols"][i]["lang"] == "el" else ""}>{md(v)}</td>' for i, v in enumerate(r)) + "</tr>" for r in t["rows"])
+    cap = f'<div class="box-h"><span lang="el">{esc(t.get("el"))}</span> · {esc(t.get("en"))}</div>' if t.get("el") else ""
+    return f'<div class="bl-tbl">{cap}<table><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>'
+
+def recipe(r):
+    """Recipe card (cookbook shelf): servings and time, ingredient groups, numbered steps, tips; Greek with English below."""
+    meta = f'<p class="rc-meta"><span lang="el">{esc(r.get("serves_el"))} · {esc(r.get("time_el"))}</span><span class="en">{esc(r.get("serves_en"))} · {esc(r.get("time_en"))}</span></p>'
+    groups = "".join(f'<h4><span lang="el">{esc(g["el"])}</span> <span class="en">· {esc(g.get("en"))}</span></h4><ul>'
+                     + "".join(f'<li><span lang="el">{esc(x["el"])}</span><span class="en">{esc(x.get("en"))}</span></li>' for x in g["items"]) + "</ul>" for g in r["groups"])
+    steps = "".join(f'<li><span lang="el">{esc(x["el"])}</span><span class="en">{esc(x.get("en"))}</span></li>' for x in r["steps"])
+    tips = "".join(f'<p class="rc-tip"><span lang="el">{esc(x["el"])}</span><span class="en">{esc(x.get("en"))}</span></p>' for x in r.get("tips", []))
+    return (f'<div class="recipe"><div class="box-h">Η συνταγή · The recipe</div>{meta}<div class="rc-ing">{groups}</div>'
+            f'<h4 class="rc-sh"><span lang="el">Εκτέλεση</span> <span class="en">· Method</span></h4><ol class="rc-steps">{steps}</ol>{tips}</div>')
 
 def main():
     base = f"{APP}/library/{SHELF}"
@@ -125,7 +157,10 @@ def main():
                 h.append(f'<h3 class="sec"><span lang="el">{esc(s["el"])}</span><span class="en">{esc(s.get("en"))}</span></h3>')
                 for para in s.get("paras", []):
                     h.append(f'<div class="bp"><p class="gr" lang="el">{esc(para["el"])}{cite(para)}</p>'
-                             + (f'<p class="tr">{esc(para["en"])}</p>' if para.get("en") else "") + "</div>")
+                             + (f'<p class="tr">{md(para["en"])}</p>' if para.get("en") else "") + "</div>")
+                for t in s.get("tables", []):
+                    h.append(table(t))
+            if c.get("recipe"): h.append(recipe(c["recipe"]))
             if c.get("grammar"):
                 h.append('<div class="gram"><div class="box-h">Γραμματική · Grammar notes</div>' + "".join(
                     f'<div class="g"><h4>{f"<span class=lvl>{esc(g.get("level"))}</span>" if g.get("level") else ""}{esc(g["title"])}</h4>'
@@ -148,6 +183,9 @@ def main():
                     keys.append(f'<strong>{k}.</strong> ({"abcd"[x["options"].index(x["answer"])]}) <span lang="el">{esc(x["answer"])}</span>' + (f' <span class="en">{esc(x["why"])}</span>' if x.get("why") else ""))
                 h.append(q + "</ol></div>")
             if c.get("vocab"): h.append(f'<p class="vw"><strong>Words to keep:</strong> <span lang="el">{esc(" · ".join(c["vocab"]))}</span></p>')
+            if c.get("listen"):
+                h.append('<div class="srcs"><div class="box-h">Ακούστε και δείτε · Listen and watch</div><ul>' + "".join(
+                    f'<li><span lang="el">{esc(l["title"])}</span> {esc(l["url"])}{" · " + esc(l["note"]) if l.get("note") else ""}</li>' for l in c["listen"]) + "</ul></div>")
             if c.get("sources"):
                 h.append('<div class="srcs"><div class="box-h">Πηγές · Sources</div><ol>' + "".join(
                     f'<li value="{s["n"]}">{esc(s["text"])}{" " + esc(s["url"]) if s.get("url") else ""}</li>' for s in c["sources"]) + "</ol></div>")
@@ -160,7 +198,7 @@ def main():
                 f'<table class="cred"><thead><tr><th>Chapter</th><th>Picture</th><th>From</th><th>Licence</th><th>Source</th></tr></thead><tbody>{rows}</tbody></table>'
                 f'<p>The texts were written in modern Greek and English for the Ελληνικά app, for personal, non-commercial study. Each chapter lists the sources its statements were checked against.</p></section>')
     cov = next((c["image"] for c in creds), None)
-    cover = (f'<section class="cover bl" lang="el"><div class="c-top">Ελληνικά · Δίγλωσσο αναγνωστικό</div><div class="c-lvl">{esc(idx.get("el"))}</div>'
+    cover = (f'<section class="cover bl" lang="el"><div class="c-top">Ελληνικά · {esc(idx.get("kicker_el") or "Δίγλωσσο αναγνωστικό")}</div><div class="c-lvl">{esc(idx.get("el"))}</div>'
              f'<p class="c-blurb">{esc(idx.get("intro_el"))} {n} κεφάλαια, {len(keys)} ερωτήσεις (με τις λύσεις στο τέλος).</p>'
              + (f'<img class="c-img" src="file://{esc(os.path.join(APP, cov["file"]))}"><div class="c-cap">{esc(cov.get("caption"))}</div>' if cov else "")
              + f'<div class="c-foot">Έκδοση {el_date()}</div></section>')
