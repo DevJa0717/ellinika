@@ -1,0 +1,489 @@
+{
+ "kind": "bilingual",
+ "id": "simera",
+ "el": "Η Ελλάδα σήμερα",
+ "title": "Greece today",
+ "intro_el": "Ένα δίγλωσσο ανάγνωσμα για τη σύγχρονη Ελλάδα: γεωγραφία, πολιτισμός, κοινωνία, πολιτική, θρησκεία, ανθρώπινα δικαιώματα, παγκοσμιοποίηση και οι περιφέρειες της χώρας. Τα ελληνικά ξεκινούν από το επίπεδο Β2 και γίνονται σταδιακά πιο απαιτητικά.",
+ "intro_en": "A bilingual reader on contemporary Greece: geography, culture, society, politics, religion, human rights, globalisation, a portrait of Greek society, and every region. The Greek starts at B2 and grows gradually harder; the English carries more detail. Every fact is cited, with sources at the end of each chapter.",
+ "parts": [
+  {
+   "id": "geo",
+   "el": "Γεωγραφία",
+   "en": "Geography",
+   "intro_el": "Η χώρα: βουνά, θάλασσες, κλίμα, άνθρωποι.",
+   "intro_en": "The land: mountains, seas, climate and where people live."
+  },
+  {
+   "id": "cul",
+   "el": "Πολιτισμός",
+   "en": "Culture",
+   "intro_el": "Γλώσσα, μουσική, οθόνη, τραπέζι και αθλητισμός.",
+   "intro_en": "Language, music, screen and page, food, sport."
+  },
+  {
+   "id": "soc",
+   "el": "Κοινωνία",
+   "en": "Social issues",
+   "intro_el": "Τα μεγάλα κοινωνικά ζητήματα μετά την κρίση.",
+   "intro_en": "The big social questions after the debt crisis."
+  },
+  {
+   "id": "pol",
+   "el": "Η πολιτική στην καθημερινότητα",
+   "en": "Politics in everyday life",
+   "intro_el": "Πώς ζουν οι Έλληνες την πολιτική κάθε μέρα. Για τους θεσμούς, δείτε το «Πολίτευμα».",
+   "intro_en": "How Greeks live politics day to day. For institutions see the polity reader."
+  },
+  {
+   "id": "rel",
+   "el": "Θρησκεία",
+   "en": "Religion",
+   "intro_el": "Ορθοδοξία, μειονότητες και πίστη στην καθημερινή ζωή.",
+   "intro_en": "Orthodoxy, minorities and faith in daily life."
+  },
+  {
+   "id": "hr",
+   "el": "Ανθρώπινα δικαιώματα",
+   "en": "Human rights",
+   "intro_el": "Δικαιώματα, μετανάστευση, ισότητα και ελευθερία του Τύπου.",
+   "intro_en": "Rights in practice, migration, equality, press freedom."
+  },
+  {
+   "id": "glo",
+   "el": "Παγκοσμιοποίηση",
+   "en": "Globalisation",
+   "intro_el": "Η Ελλάδα μέσα στον κόσμο: Ευρώπη, τουρισμός, θάλασσα, ομογένεια, ενέργεια.",
+   "intro_en": "Greece in the world: Europe, tourism, shipping, diaspora, energy."
+  },
+  {
+   "id": "portrait",
+   "el": "Πορτρέτο της ελληνικής κοινωνίας",
+   "en": "A portrait of Greek society today",
+   "intro_el": "Ένα πορτρέτο της ελληνικής κοινωνίας σήμερα.",
+   "intro_en": "A portrait of Greek society today."
+  },
+  {
+   "id": "reg",
+   "el": "Οι περιφέρειες",
+   "en": "The regions",
+   "intro_el": "Οι δεκατρείς περιφέρειες και το Άγιον Όρος, μία προς μία.",
+   "intro_en": "The thirteen regions and Mount Athos, one by one."
+  }
+ ],
+ "items": [
+  {
+   "id": "geo-relief",
+   "file": "geo-relief.json",
+   "el": "Βουνά, θάλασσες και νησιά",
+   "title": "Mountains, seas and islands",
+   "level": "B2",
+   "part": "geo",
+   "dates": "2026"
+  },
+  {
+   "id": "geo-climate",
+   "file": "geo-climate.json",
+   "el": "Κλίμα και κλιματική κρίση",
+   "title": "Climate and the climate crisis",
+   "level": "B2",
+   "part": "geo",
+   "dates": "2026"
+  },
+  {
+   "id": "geo-population",
+   "file": "geo-population.json",
+   "el": "Πληθυσμός και πόλεις",
+   "title": "Population and cities",
+   "level": "B2",
+   "part": "geo",
+   "dates": "2026"
+  },
+  {
+   "id": "geo-nature",
+   "file": "geo-nature.json",
+   "el": "Νερό, δάση και προστατευόμενες περιοχές",
+   "title": "Water, forests and protected areas",
+   "level": "B2",
+   "part": "geo",
+   "dates": "2026"
+  },
+  {
+   "id": "cul-language",
+   "file": "cul-language.json",
+   "el": "Η ελληνική γλώσσα σήμερα",
+   "title": "The Greek language today",
+   "level": "B2",
+   "part": "cul",
+   "dates": "1976–2026"
+  },
+  {
+   "id": "cul-music",
+   "file": "cul-music.json",
+   "el": "Από το ρεμπέτικο στο τραπ",
+   "title": "From rebetiko to trap",
+   "level": "B2",
+   "part": "cul",
+   "dates": "1922–2026"
+  },
+  {
+   "id": "cul-screen-books",
+   "file": "cul-screen-books.json",
+   "el": "Σινεμά, θέατρο και βιβλίο",
+   "title": "Cinema, theatre and books",
+   "level": "B2",
+   "part": "cul",
+   "dates": "1938–2026"
+  },
+  {
+   "id": "cul-table",
+   "file": "cul-table.json",
+   "el": "Το ελληνικό τραπέζι",
+   "title": "The Greek table",
+   "level": "B2",
+   "part": "cul",
+   "dates": "1957–2026"
+  },
+  {
+   "id": "cul-sport",
+   "file": "cul-sport.json",
+   "el": "Αθλητισμός και πάθος",
+   "title": "Sport and passion",
+   "level": "B2",
+   "part": "cul",
+   "dates": "1896–2026"
+  },
+  {
+   "id": "soc-demography",
+   "file": "soc-demography.json",
+   "el": "Λιγότερες γεννήσεις, περισσότεροι ηλικιωμένοι",
+   "title": "Fewer births, more older people",
+   "level": "B2",
+   "part": "soc",
+   "dates": "2009–2026"
+  },
+  {
+   "id": "soc-crisis",
+   "file": "soc-crisis.json",
+   "el": "Μετά την κρίση χρέους",
+   "title": "After the debt crisis",
+   "level": "B2",
+   "part": "soc",
+   "dates": "2010–2026"
+  },
+  {
+   "id": "soc-braindrain",
+   "file": "soc-braindrain.json",
+   "el": "Φεύγουν και επιστρέφουν",
+   "title": "Leaving and coming back: the brain drain",
+   "level": "B2",
+   "part": "soc",
+   "dates": "2008–2026"
+  },
+  {
+   "id": "soc-housing",
+   "file": "soc-housing.json",
+   "el": "Στέγη και κόστος ζωής",
+   "title": "Housing and the cost of living",
+   "level": "B2",
+   "part": "soc",
+   "dates": "2009–2026"
+  },
+  {
+   "id": "soc-health-edu",
+   "file": "soc-health-edu.json",
+   "el": "Υγεία και παιδεία",
+   "title": "Health and education",
+   "level": "B2",
+   "part": "soc",
+   "dates": "1983–2026"
+  },
+  {
+   "id": "pol-life",
+   "file": "pol-life.json",
+   "el": "Η πολιτική στην καθημερινή ζωή",
+   "title": "Politics in everyday life",
+   "level": "B2",
+   "part": "pol",
+   "dates": "2023–2026"
+  },
+  {
+   "id": "rel-orthodoxy",
+   "file": "rel-orthodoxy.json",
+   "el": "Ορθοδοξία και ελληνική ταυτότητα",
+   "title": "Orthodoxy and Greek identity",
+   "level": "B2",
+   "part": "rel",
+   "dates": "2015–2026"
+  },
+  {
+   "id": "rel-minorities",
+   "file": "rel-minorities.json",
+   "el": "Θρησκευτικές μειονότητες",
+   "title": "Religious minorities",
+   "level": "B2",
+   "part": "rel",
+   "dates": "1923–2026"
+  },
+  {
+   "id": "rel-everyday",
+   "file": "rel-everyday.json",
+   "el": "Η θρησκεία στην καθημερινή ζωή",
+   "title": "Religion in everyday life",
+   "level": "B2",
+   "part": "rel",
+   "dates": "1982–2026"
+  },
+  {
+   "id": "hr-framework",
+   "file": "hr-framework.json",
+   "el": "Δικαιώματα στην πράξη",
+   "title": "Rights in practice",
+   "level": "B2",
+   "part": "hr",
+   "dates": "1974–2026"
+  },
+  {
+   "id": "hr-migration",
+   "file": "hr-migration.json",
+   "el": "Μετανάστευση και άσυλο",
+   "title": "Migration and asylum",
+   "level": "C1",
+   "part": "hr",
+   "dates": "1990–2026"
+  },
+  {
+   "id": "hr-gender",
+   "file": "hr-gender.json",
+   "el": "Ισότητα φύλων και ΛΟΑΤΚΙ+ δικαιώματα",
+   "title": "Gender equality and LGBTQ+ rights",
+   "level": "C1",
+   "part": "hr",
+   "dates": "1930–2026"
+  },
+  {
+   "id": "hr-press",
+   "file": "hr-press.json",
+   "el": "Ελευθερία του Τύπου και κράτος δικαίου",
+   "title": "Press freedom and the rule of law",
+   "level": "C1",
+   "part": "hr",
+   "dates": "2021–2026"
+  },
+  {
+   "id": "glo-europe",
+   "file": "glo-europe.json",
+   "el": "Η Ελλάδα στην Ευρώπη",
+   "title": "Greece in Europe and the eurozone",
+   "level": "C1",
+   "part": "glo",
+   "dates": "1975–2026"
+  },
+  {
+   "id": "glo-tourism",
+   "file": "glo-tourism.json",
+   "el": "Τουρισμός: ευλογία και βάρος",
+   "title": "Tourism: blessing and burden",
+   "level": "C1",
+   "part": "glo",
+   "dates": "2023–2026"
+  },
+  {
+   "id": "glo-shipping",
+   "file": "glo-shipping.json",
+   "el": "Ναυτιλία: η ελληνική θάλασσα στον κόσμο",
+   "title": "Shipping: Greece's sea in the world",
+   "level": "C1",
+   "part": "glo",
+   "dates": "1824–2026"
+  },
+  {
+   "id": "glo-diaspora",
+   "file": "glo-diaspora.json",
+   "el": "Ομογένεια: οι Έλληνες του κόσμου",
+   "title": "The Greeks of the world",
+   "level": "C1",
+   "part": "glo",
+   "dates": "2014–2026"
+  },
+  {
+   "id": "glo-digital-energy",
+   "file": "glo-digital-energy.json",
+   "el": "Ψηφιακή Ελλάδα και ενεργειακή μετάβαση",
+   "title": "Digital Greece and the energy transition",
+   "level": "C1",
+   "part": "glo",
+   "dates": "2019–2026"
+  },
+  {
+   "id": "por-family",
+   "file": "por-family.json",
+   "el": "Η οικογένεια ως δίχτυ ασφαλείας",
+   "title": "The family as a safety net",
+   "level": "C1",
+   "part": "portrait",
+   "dates": "2026"
+  },
+  {
+   "id": "por-day",
+   "file": "por-day.json",
+   "el": "Μια μέρα στην Ελλάδα του 2026",
+   "title": "A day in Greece in 2026",
+   "level": "C1",
+   "part": "portrait",
+   "dates": "2026"
+  },
+  {
+   "id": "por-values",
+   "file": "por-values.json",
+   "el": "Αξίες: φιλότιμο, καχυποψία, αλληλεγγύη",
+   "title": "Values: filotimo, suspicion, solidarity",
+   "level": "C1",
+   "part": "portrait",
+   "dates": "2026"
+  },
+  {
+   "id": "por-youth",
+   "file": "por-youth.json",
+   "el": "Η γενιά της κρίσης",
+   "title": "The crisis generation: young Greeks today",
+   "level": "C1",
+   "part": "portrait",
+   "dates": "2026"
+  },
+  {
+   "id": "por-village",
+   "file": "por-village.json",
+   "el": "Πόλη και χωριό",
+   "title": "City and village: rural Greece",
+   "level": "C1",
+   "part": "portrait",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-attica",
+   "file": "reg-attica.json",
+   "el": "Αττική",
+   "title": "Attica",
+   "level": "B2",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-central-macedonia",
+   "file": "reg-central-macedonia.json",
+   "el": "Κεντρική Μακεδονία",
+   "title": "Central Macedonia",
+   "level": "B2",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-thrace",
+   "file": "reg-thrace.json",
+   "el": "Ανατολική Μακεδονία και Θράκη",
+   "title": "Eastern Macedonia and Thrace",
+   "level": "B2",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-west-macedonia",
+   "file": "reg-west-macedonia.json",
+   "el": "Δυτική Μακεδονία",
+   "title": "Western Macedonia",
+   "level": "B2",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-epirus",
+   "file": "reg-epirus.json",
+   "el": "Ήπειρος",
+   "title": "Epirus",
+   "level": "B2",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-thessaly",
+   "file": "reg-thessaly.json",
+   "el": "Θεσσαλία",
+   "title": "Thessaly",
+   "level": "B2",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-central-greece",
+   "file": "reg-central-greece.json",
+   "el": "Στερεά Ελλάδα",
+   "title": "Central Greece",
+   "level": "B2",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-western-greece",
+   "file": "reg-western-greece.json",
+   "el": "Δυτική Ελλάδα",
+   "title": "Western Greece",
+   "level": "C1",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-peloponnese",
+   "file": "reg-peloponnese.json",
+   "el": "Πελοπόννησος",
+   "title": "Peloponnese",
+   "level": "C1",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-ionian",
+   "file": "reg-ionian.json",
+   "el": "Ιόνια Νησιά",
+   "title": "Ionian Islands",
+   "level": "C1",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-north-aegean",
+   "file": "reg-north-aegean.json",
+   "el": "Βόρειο Αιγαίο",
+   "title": "North Aegean",
+   "level": "C1",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-south-aegean",
+   "file": "reg-south-aegean.json",
+   "el": "Νότιο Αιγαίο",
+   "title": "South Aegean",
+   "level": "C1",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-crete",
+   "file": "reg-crete.json",
+   "el": "Κρήτη",
+   "title": "Crete",
+   "level": "C1",
+   "part": "reg",
+   "dates": "2026"
+  },
+  {
+   "id": "reg-athos",
+   "file": "reg-athos.json",
+   "el": "Άγιον Όρος",
+   "title": "Mount Athos",
+   "level": "C1",
+   "part": "reg",
+   "dates": "2026"
+  }
+ ]
+}
