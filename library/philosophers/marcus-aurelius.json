@@ -1,0 +1,605 @@
+{
+  "id": "marcus-aurelius",
+  "el": "Μάρκος Αυρήλιος",
+  "title": "Marcus Aurelius",
+  "level": "C1",
+  "dates": "121 – 180 μ.Χ.",
+  "image": {
+    "file": "img/philosophers/marcus-aurelius.jpg",
+    "caption": "Προτομή του Μάρκου Αυρήλιου, Γλυπτοθήκη του Μονάχου.",
+    "caption_en": "Bust of Marcus Aurelius, Glyptothek, Munich.",
+    "credit": "Photo: Bibi Saint-Pol",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Glyptothek_Munich.jpg"
+  },
+  "summary_en": "Marcus Aurelius (121–180 AD), Roman emperor from 161 to 180, was the last of the “Five Good Emperors” and the closest Rome came to Plato’s philosopher-king. Adopted into the imperial family as a boy, he was taught rhetoric by Fronto and won over to Stoicism by Junius Rusticus, who lent him the works of **Epictetus**. His reign was overshadowed by wars on the Danube and in the East, by rebellion and by the **Antonine Plague**. In camp, in the last decade of his life, he wrote in Greek a private notebook, later called the **Meditations** or **To Himself**. In it he reminds himself that only virtue is good, that the cosmos is a **city** of which all human beings are fellow-citizens, that he must **act justly** and **welcome whatever happens** as part of the whole, and that death is natural. He repeatedly sets out the alternative **“providence or atoms”** and draws the same moral from both. Never meant for publication, the book survived through Byzantium and has been loved by Frederick the Great, Goethe, John Stuart Mill and millions of modern readers.",
+  "terms": [
+    {
+      "el": "Τα εις εαυτόν",
+      "en": "To Himself (the Meditations)",
+      "def_el": "Ο τίτλος με τον οποίο έγινε γνωστό το ημερολόγιο σκέψεων του Μάρκου Αυρήλιου.",
+      "def_en": "Lit. “the things to himself”, attested in the 10th century; “Meditations” is a modern title."
+    },
+    {
+      "el": "η κοσμόπολη",
+      "en": "cosmopolis, world-city",
+      "def_el": "Η ιδέα ότι όλος ο κόσμος είναι μία πόλη και όλοι οι άνθρωποι πολίτες της.",
+      "def_en": "κόσμος + πόλις. Cf. κοσμοπολίτης, κοσμοπολίτικος."
+    },
+    {
+      "el": "το κοινωνικόν",
+      "en": "the communal faculty",
+      "def_el": "Η φυσική τάση του ανθρώπου να ζει και να δρα για το κοινό καλό.",
+      "def_en": "For Marcus the leading part of the human constitution; modern κοινωνικός “social”."
+    },
+    {
+      "el": "το ηγεμονικόν",
+      "en": "the ruling part (of the soul)",
+      "def_el": "Το κομμάτι της ψυχής που σκέφτεται, κρίνει και αποφασίζει.",
+      "def_en": "Stoic term; modern ηγεμονικός “domineering”, ηγεμονία “hegemony”."
+    },
+    {
+      "el": "η ευσέβεια",
+      "en": "piety",
+      "def_el": "Ο σεβασμός προς τον θεό· για τον Μάρκο, το να δέχεσαι με ευχαρίστηση ό,τι σου συμβαίνει.",
+      "def_en": "Opposite: ασέβεια “impiety”, the charge against Socrates."
+    },
+    {
+      "el": "πρόνοια ή άτομα",
+      "en": "providence or atoms",
+      "def_el": "Το δίλημμα του Μάρκου: ή ο κόσμος κυβερνιέται από λογική ή είναι τυχαίο ανακάτεμα ατόμων.",
+      "def_en": "Stoic or Epicurean physics; Marcus draws the same lesson either way."
+    },
+    {
+      "el": "ο λοιμός",
+      "en": "plague, pestilence",
+      "def_el": "Μεγάλη επιδημία θανατηφόρας αρρώστιας.",
+      "def_en": "Learned; the everyday word is πανούκλα or επιδημία."
+    },
+    {
+      "el": "ο αυτοκράτορας",
+      "en": "emperor",
+      "def_el": "Ο ανώτατος άρχοντας μιας αυτοκρατορίας.",
+      "def_en": "αυτός + κρατώ: “ruling by oneself”; Greek for Latin imperator."
+    },
+    {
+      "el": "η παροδικότητα",
+      "en": "transience",
+      "def_el": "Το ότι όλα περνούν και τίποτα δεν μένει για πάντα.",
+      "def_en": "From πάροδος “passage”; adjective παροδικός “temporary”."
+    },
+    {
+      "el": "η υπεξαίρεση",
+      "en": "reservation (Stoic “with reservation”)",
+      "def_el": "Το να επιδιώκεις κάτι με την επιφύλαξη ότι μπορεί να μην πετύχει.",
+      "def_en": "Careful: modern υπεξαίρεση means “embezzlement”! Say «με επιφύλαξη»."
+    }
+  ],
+  "sections": [
+    {
+      "id": "context",
+      "el": "Ιστορικό πλαίσιο",
+      "en": "Historical context",
+      "paras": [
+        {
+          "el": "Τον δεύτερο αιώνα μ.Χ., η Ρωμαϊκή Αυτοκρατορία βρισκόταν στο απόγειό της. Ήταν η εποχή της «Ρωμαϊκής Ειρήνης», μιας μακριάς περιόδου σχετικής ηρεμίας και σταθερότητας. Ο Μάρκος Αυρήλιος ήταν ο τελευταίος από τους λεγόμενους «πέντε καλούς αυτοκράτορες», που ο καθένας υιοθετούσε τον διάδοχό του.",
+          "en": "In the second century AD the Roman Empire was at its height. It was the age of the Pax Romana, a long period of relative peace and stability. Marcus Aurelius was the last of the rulers later known as the Five Good Emperors of the Nerva–Antonine dynasty, and some scholars regard his death as the end of the Pax Romana.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Ήταν επίσης εποχή μιας νέας άνθισης των ελληνικών γραμμάτων, της λεγόμενης «δεύτερης σοφιστικής». Οι μορφωμένοι Ρωμαίοι μιλούσαν και έγραφαν ελληνικά. Γι’ αυτό ο Λατίνος αυτοκράτορας έγραψε τις πιο προσωπικές του σκέψεις στα ελληνικά.",
+          "en": "It was also the age of the Second Sophistic, a renaissance of Greek letters, and Greek was essential to the Roman aristocracy. That is why, although educated in Rome, Marcus wrote his inmost thoughts in Greek.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Η στωική φιλοσοφία είχε μακριά παράδοση στη ρωμαϊκή αριστοκρατία. Ο Σενέκας είχε υπάρξει σύμβουλος του Νέρωνα, και κάποιοι στωικοί συγκλητικοί είχαν πεθάνει αντιστεκόμενοι στους «κακούς» αυτοκράτορες. Τώρα, για πρώτη φορά, ένας στωικός καθόταν ο ίδιος στον θρόνο.",
+          "en": "Stoicism had a long tradition in the Roman aristocracy. Seneca had advised Nero, and the “Stoic Opposition” had resisted the “bad emperors” of the first century, some at the cost of their lives; Marcus’ teacher Rusticus was the grandson of one of these martyrs. Now a Stoic sat on the throne himself.",
+          "cite": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "el": "Βιογραφία",
+      "en": "Biography",
+      "paras": [
+        {
+          "el": "Ο Μάρκος γεννήθηκε στη Ρώμη στις 26 Απριλίου του 121. Ο πατέρας του πέθανε όταν ήταν τριών χρονών, και τον μεγάλωσαν η μητέρα του και ο παππούς του. Στους «Εις εαυτόν» γράφει ότι από τις αναμνήσεις του πατέρα του έμαθε «τη σεμνότητα και την ανδρεία».",
+          "en": "Marcus was born in Rome on 26 April 121. His father died when he was three, and he was raised by his mother and paternal grandfather. In the Meditations he writes that he learned “modesty and manliness” from the memory and reputation of his father.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Το 138 ο αυτοκράτορας Αδριανός υιοθέτησε ως διάδοχό του τον θείο του Μάρκου, τον Αντωνίνο, με τον όρο να υιοθετήσει κι εκείνος τον Μάρκο και τον μικρότερο Λούκιο. Έτσι ο δεκαεπτάχρονος Μάρκος έγινε ξαφνικά κληρονόμος του θρόνου. Σπούδασε ρητορική με τον Φρόντωνα και τον Ηρώδη τον Αττικό, και το 145 παντρεύτηκε την κόρη του Αντωνίνου, τη Φαυστίνα.",
+          "en": "In 138 Hadrian adopted Marcus’ uncle Antoninus Pius as his heir, and Antoninus in turn adopted Marcus and the younger Lucius. Heir to the throne at seventeen, Marcus studied Greek and Latin with tutors such as Herodes Atticus and Marcus Cornelius Fronto, his lifelong friend and correspondent, and in 145 married Antoninus’ daughter Faustina.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Πιο πολύ από όλους τον επηρέασε ο στωικός Ιούνιος Ρούστικος, που τον «απέσπασε» από τη ρητορική· στο κομμάτι που αφιερώνει στον Ρούστικο, ο Μάρκος αναφέρει τα «Υπομνήματα» του Επίκτητου. Γύρω στα είκοσι πέντε, διαβάζοντας τον στωικό Αρίστωνα, ένιωσε, όπως γράφει στον Φρόντωνα, ταυτόχρονα χαρά και ντροπή για τα ελαττώματά του.",
+          "en": "The strongest influence was the Stoic Quintus Junius Rusticus, whom Fronto saw as having “wooed Marcus away” from oratory, and in the passage of thanks to Rusticus Marcus speaks of reading Epictetus’ “notes” (hypomnēmata, Meditations i.7). In a letter to Fronto of 145–147 he says that reading the Stoic Aristo of Chios filled him with joy and shame at his shortcomings.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Ακόμη και ως αυτοκράτορας συνέχισε να μαθαίνει. Ένας αρχαίος συγγραφέας διηγείται ότι κάποιος τον συνάντησε στον δρόμο και τον ρώτησε πού πάει. «Είναι καλό ακόμη και για έναν γέρο να μαθαίνει», απάντησε· «πηγαίνω στον φιλόσοφο Σέξτο να μάθω όσα δεν ξέρω ακόμη».",
+          "en": "Even as emperor he kept learning. Philostratus tells that Marcus, met on his way and asked where he was going, answered: “It is good even for an old man to learn; I am now on my way to Sextus the philosopher to learn what I do not yet know.” “O Zeus,” said the questioner, “the king of the Romans in his old age takes up his tablets and goes to school.”",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Το 161, μετά τον θάνατο του Αντωνίνου, ανέβηκε στον θρόνο μαζί με τον θετό του αδελφό, τον Λούκιο Βέρο. Η βασιλεία του ήταν γεμάτη δυσκολίες: πόλεμοι με τους Πάρθους στην Ανατολή, γερμανικά φύλα στον Δούναβη, επαναστάσεις, και πάνω απ’ όλα ο «αντωνίνειος λοιμός», που ξέσπασε το 165 ή 166 και σκότωσε πέντε έως δέκα εκατομμύρια ανθρώπους.",
+          "en": "In 161, after Antoninus’ death, he took the throne together with his adoptive brother Lucius Verus. His reign was full of trouble: war with Parthia in the East, the Marcomanni, Quadi and Iazyges on the Danube, rebellions in northern Italy and Egypt, and above all the Antonine Plague, which broke out in 165 or 166 and killed five to ten million people.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Τα τελευταία δέκα χρόνια της ζωής του τα πέρασε κυρίως σε στρατόπεδα στα σύνορα του Δούναβη. Εκεί, τα βράδια, έγραφε στα ελληνικά τις σκέψεις του, όχι για να τις διαβάσει κάποιος άλλος, αλλά για να θυμίζει στον εαυτό του πώς πρέπει να ζει.",
+          "en": "He spent much of his last decade in military camps on the Danube frontier, and it was on campaign, between 170 and 180, that he wrote the Meditations in Greek, as a source for his own guidance and self-improvement.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Πέθανε στις 17 Μαρτίου του 180, σε ηλικία πενήντα οχτώ ετών, στο στρατόπεδό του, στη Βινδοβόνα, τη σημερινή Βιέννη, ή κοντά στο Σίρμιο της Σερβίας. Τον διαδέχτηκε ο γιος του, ο Κόμμοδος. Ο ιστορικός Δίων ο Κάσσιος έγραψε ότι με τον θάνατό του η ιστορία της Ρώμης «κατεβαίνει από ένα βασίλειο χρυσού σε ένα βασίλειο σιδήρου και σκουριάς».",
+          "en": "He died aged 58 on 17 March 180 in his military quarters, at Vindobona (Vienna) or near Sirmium (in modern Serbia). His son Commodus succeeded him, and the historian Cassius Dio wrote that “our history now descends from a kingdom of gold to one of iron and rust”. His column and equestrian statue still stand in Rome.",
+          "cite": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "el": "Κοσμολογία: πρόνοια ή άτομα;",
+      "en": "Cosmology: providence or atoms?",
+      "paras": [
+        {
+          "el": "Ο Μάρκος δεν έγραψε φιλοσοφικό σύστημα. Τα «Εις εαυτόν» είναι σημειώσεις για προσωπική χρήση, με σύντομες, δυνατές φράσεις: «Σβήσε τη φαντασία!», «Μην κάνεις τίποτα στην τύχη!», «Όσοι θάβουν σήμερα, σύντομα θα θαφτούν κι αυτοί!». Γράφοντας, προσπαθούσε να αλλάξει τον εαυτό του.",
+          "en": "Marcus wrote no system. The Meditations are notes for his own use, written to remind himself of the doctrines he wanted to live by, often in slogans: “Erase impressions!”, “Do nothing at random!”, “Those who now bury will soon be buried!” Scholars therefore read each passage for its therapeutic purpose: what attitude is he trying to produce in himself?",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Εννιά φορές στο βιβλίο, ο Μάρκος θέτει το ίδιο δίλημμα: ή ο κόσμος κυβερνιέται από πρόνοια, φύση και λογική, όπως λένε οι στωικοί, ή είναι ένα τυχαίο ανακάτεμα ατόμων, όπως λένε οι επικούρειοι. Και στις δύο περιπτώσεις, λέει, δεν έχει νόημα να γκρινιάζεις.",
+          "en": "Nine times in the Meditations Marcus lays out the alternatives: providence, nature, reason, on the one hand, or atoms on the other (iv.3, vi.24 and elsewhere). Either way, he concludes, it is pointless to grumble; but he repeatedly asserts that the world is in fact governed by an intelligent nature of which he is a functional part.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Για τον Μάρκο, ο κόσμος είναι μια πόλη, η μεγάλη πόλη του Δία, και όλοι οι άνθρωποι είναι συμπολίτες της. Ο άνθρωπος είναι μέλος του όλου όπως το χέρι είναι μέλος του σώματος: χωρίς το σώμα, το χέρι δεν θα ήταν χέρι. Ό,τι δεν βλάπτει την πόλη, δεν βλάπτει ούτε τον πολίτη.",
+          "en": "For Marcus the cosmos is a city and all human beings are its citizens; wherever one lives, one should live as a citizen of the cosmic city (x.15). He compares rational individuals and the community to limbs and body, made to work together (vii.13), and insists that what is not hurtful to the city cannot be hurtful to its citizen (v.22).",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Όλα αλλάζουν και όλα επιστρέφουν. Ο Μάρκος γράφει συχνά για τον χρόνο, τη μοίρα, τον θάνατο και την παροδικότητα όλων των πραγμάτων. Ο στωικός κύκλος του κόσμου, που επαναλαμβάνεται αιώνια, του θυμίζει πόσο ασήμαντα είναι τα θνητά πράγματα.",
+          "en": "Everything changes and returns. Marcus writes again and again about time, fate, death and the cycles of change in the cosmos; he invokes the Stoic doctrine of eternal recurrence to bring to mind the insignificance of mortal things (ix.28).",
+          "cite": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "el": "Θεωρίες: δικαιοσύνη και ευσέβεια",
+      "en": "Theories: justice and piety",
+      "paras": [
+        {
+          "el": "Δύο πράγματα μόνο πρέπει να μας απασχολούν, γράφει ο Μάρκος: να ενεργούμε δίκαια και να αγαπάμε ό,τι μας έχει δοθεί από τη μοίρα. Αυτή είναι όλη η ηθική του σε μία φράση.",
+          "en": "Marcus says that one should be concerned with two things only: acting justly and loving what is allotted to one (x.11, cf. xii.1). The first is justice, the second piety.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Η δικαιοσύνη σημαίνει να δρας για το κοινό καλό. Ο άνθρωπος είναι φτιαγμένος για τους άλλους ανθρώπους, και όποιος δεν συμβάλλει στον κοινό σκοπό είναι σαν στασιαστής. Δεν επιτρέπεται να μισείς ούτε έναν άνθρωπο, γιατί έτσι σκίζεις την κοινότητα. Και ο στωικός δεν δίνει στον πεινασμένο μόνο ένα μάθημα ότι η πείνα είναι «αδιάφορη»· του δίνει φαγητό.",
+          "en": "Justice means acting communally. Human beings came into the world for the sake of each other (xi.18); anyone who does not contribute to the communal goal is acting seditiously (ix.23), and one may not hate even one man, for this rends the community (xi.8). A Stoic will respond to a hungry person with food, not only with a lecture that hunger is an indifferent.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ο θυμός είναι ιδιαίτερα επικίνδυνος για έναν ισχυρό άνθρωπο. Γι’ αυτό ο Μάρκος γράφει στον εαυτό του ολόκληρους καταλόγους με συμβουλές κατά του θυμού, και θυμίζει ότι οι άλλοι, ακόμη κι όταν κάνουν λάθη, είναι αδέλφια του, παιδιά του ίδιου θεού. Προσέχει επίσης να μη γίνει «καισαρισμένος», δηλαδή δικτάτορας.",
+          "en": "Anger is a particularly consequential failing in the powerful, so Marcus writes himself lists of prescriptions against it (xi.18) and reminds himself not to be angry at his associates but to regard them as siblings, offspring of the same God. He warns himself not to become “Caesarified”, a dictator (vi.30), and admires republican opponents of tyranny such as Cato and Brutus (i.14).",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Η ευσέβεια, για τον Μάρκο, είναι να δέχεσαι με ευχαρίστηση ό,τι σου φέρνει η κοινή φύση. Αφού ο κόσμος είναι σχεδιασμένος από την πρόνοια, κάθε μέρος του είναι όσο καλό μπορεί να είναι. Όποιος παραπονιέται για ό,τι του συμβαίνει, κατηγορεί στην ουσία τη φύση.",
+          "en": "Piety means welcoming everything apportioned to one by common nature (viii.7). Since the cosmos as a whole is providentially designed, it is as good as it can be, and so are its parts; our attitude towards every part ought to be acceptance. If we resent what happens, we find fault with nature and so are impious (ix.3).",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Για να το καταφέρει, ο Μάρκος χρησιμοποιεί μια άσκηση: γδύνει τα πράγματα από το κύρος τους και τα περιγράφει όπως πραγματικά είναι. Το ακριβό φαγητό είναι «πτώμα ψαριού ή πουλιού»· το κρασί είναι «ζουμί από τσαμπί σταφύλι»· η πορφυρή αυτοκρατορική ρόμπα είναι «μαλλί προβάτου βαμμένο με αίμα κοχυλιού».",
+          "en": "To get there he uses an exercise: stripping things of their prestige and describing them as they are. Fine food is “the corpse of a fish, and that one of a bird or a pig”; the famous wine is “the little juice of a bunch of grapes”; the purple-edged imperial robe is “sheep’s wool dyed by the blood of a shellfish” (vi.13). This is part of what he means by “erase impressions”.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Και ο θάνατος είναι μέρος της φύσης. Ο Μάρκος γράφει γι’ αυτόν συνεχώς, όχι από φόβο αλλά για να συνηθίσει τη σκέψη του. Η ετοιμότητα για τον θάνατο, γράφει, πρέπει να βγαίνει από προσωπική κρίση, «με σκέψη και αξιοπρέπεια», χωρίς θεατρινισμούς.",
+          "en": "Death too is part of nature. Marcus returns insistently to its imminence, not out of fear but to make the thought familiar. Readiness for death, he writes in the one passage that mentions Christians, “must spring from a man’s inner judgment… associated with deliberation and dignity… with nothing like stage-heroics” (xi.3).",
+          "cite": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "el": "Επίδραση",
+      "en": "Impact",
+      "paras": [
+        {
+          "el": "Δεν ξέρουμε πόσο διαβάστηκε το βιβλίο στην αρχαιότητα. Σώθηκε χάρη στους λόγιους του Βυζαντίου: οι πρώτες αναφορές σε αυτό, με τον τίτλο «Τα εις εαυτόν», βρίσκονται τον δέκατο αιώνα, στον επίσκοπο Αρέθα και στο λεξικό Σούδα. Ο τίτλος «Στοχασμοί» είναι νεότερος.",
+          "en": "It is not known how widely the work circulated after his death. It survived in the scholarly traditions of the Eastern Church: the first known reference to it by name, “the writings to himself”, comes from Arethas of Caesarea in the 10th century and the Byzantine Suda. The title “Meditations” is modern, due to the editor Casaubon.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Ήδη στη ζωή του τον έλεγαν «φιλόσοφο», και έμεινε στην ιστορία ως ο «φιλόσοφος βασιλιάς» που ονειρευόταν ο Πλάτωνας. Ο ιστορικός Ηρωδιανός έγραψε ότι μόνος από τους αυτοκράτορες έδειξε τη μόρφωσή του όχι με λόγια αλλά με τον άψογο χαρακτήρα και τη σώφρονα ζωή του.",
+          "en": "He acquired the reputation of a philosopher king within his lifetime; Cassius Dio and his biographer both call him “the philosopher”. The historian Herodian wrote: “Alone of the emperors, he gave proof of his learning not by mere words or knowledge of philosophical doctrines but by his blameless character and temperate way of life.”",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Το βιβλίο του αγαπήθηκε από βασιλιάδες, ποιητές και φιλοσόφους, όπως ο Φρειδερίκος ο Μέγας, ο Γκαίτε και ο Τζον Στιούαρτ Μιλ. Σήμερα είναι πιο δημοφιλές από ποτέ: το 2019 πουλήθηκαν μόνο στα αγγλικά εκατό χιλιάδες αντίτυπα, και είναι, μαζί με το «Εγχειρίδιο» του Επίκτητου, το βασικό κείμενο του σύγχρονου στωικισμού.",
+          "en": "The Meditations were a favourite of Frederick the Great, John Stuart Mill, Matthew Arnold and Goethe, and many commentators count them among the greatest works of philosophy. Sales rose from 16,000 copies in 2012 to 100,000 in 2019; with Epictetus’ Handbook it is a core text of modern Stoicism.",
+          "cite": [
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "level": "C1",
+      "title": "Ή… ή…: dilemmas and alternatives",
+      "en": "«Ή πρόνοια ή άτομα.» Greek marks a strict alternative with **ή… ή…** (either… or…); its negative is **ούτε… ούτε…**. **Είτε… είτε…** means “whether… or…” and introduces two possibilities that lead to the same result: **είτε πρόνοια υπάρχει είτε άτομα, δεν έχει νόημα να γκρινιάζεις**.",
+      "examples": [
+        {
+          "el": "Ή ο κόσμος έχει τάξη ή είναι ανακάτεμα ατόμων.",
+          "en": "Either the world has order or it is a jumble of atoms."
+        },
+        {
+          "el": "Είτε ζήσω πολύ είτε λίγο, θα κάνω το καθήκον μου.",
+          "en": "Whether I live long or not, I will do my duty."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Writing to oneself: second-person self-address",
+      "en": "Marcus speaks to himself in the second person: **«Σβήσε τη φαντασία!»**, **«θυμήσου»**, **«μην κάνεις τίποτα στην τύχη»**. In Greek diaries and self-help writing this “inner you” is natural. Note the reflexive **ο εαυτός μου / σου / του**: **γράφω στον εαυτό μου**, **«Τα εις εαυτόν»** = the things (written) to himself.",
+      "examples": [
+        {
+          "el": "Λέω στον εαυτό μου: μη θυμώνεις.",
+          "en": "I tell myself: don’t be angry."
+        },
+        {
+          "el": "Ο Μάρκος έγραφε για τον εαυτό του, όχι για εμάς.",
+          "en": "Marcus wrote for himself, not for us."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Numerals and ages: σε ηλικία πενήντα οχτώ ετών",
+      "en": "Formal Greek gives ages with **σε ηλικία + genitive plural ετών**: **σε ηλικία πενήντα οχτώ ετών**; informally **στα πενήντα οχτώ του** or **πενήντα οχτώ χρονών**. Compound adjectives: **δεκαεπτάχρονος, πενηντάχρονος**. Dates: **στις 26 Απριλίου του 121**; centuries: **τον δεύτερο αιώνα μ.Χ.**",
+      "examples": [
+        {
+          "el": "Έγινε κληρονόμος του θρόνου σε ηλικία δεκαεπτά ετών.",
+          "en": "He became heir to the throne at seventeen."
+        },
+        {
+          "el": "Ο δεκαεπτάχρονος Μάρκος σπούδαζε ρητορική.",
+          "en": "Seventeen-year-old Marcus was studying rhetoric."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Past perfect for background: είχε υπάρξει, είχαν πεθάνει",
+      "en": "The **pluperfect** (**είχα + aorist stem form**) sets earlier background in a past narrative: **ο Σενέκας είχε υπάρξει σύμβουλος του Νέρωνα** (had been), **κάποιοι στωικοί είχαν πεθάνει** (had died). It is formed with the invariable **-ει** form: **είχε γράψει, είχαν δει, είχαμε μάθει**.",
+      "examples": [
+        {
+          "el": "Όταν ανέβηκε στον θρόνο, είχε ήδη διαβάσει τον Επίκτητο.",
+          "en": "When he took the throne, he had already read Epictetus."
+        },
+        {
+          "el": "Ο λοιμός είχε σκοτώσει εκατομμύρια ανθρώπους.",
+          "en": "The plague had killed millions of people."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "False friends from Stoic Greek",
+      "en": "Several Stoic words changed meaning: **υπεξαίρεση** (Stoic “reservation”) now means **embezzlement**; **φαντασία** (impression) now **imagination**; **απάθεια** (freedom from passion) now **apathy**; **ηγεμονικός** (ruling part) now **domineering**; **διατριβή** (discourse) now **thesis**. Use the modern meaning in conversation!",
+      "examples": [
+        {
+          "el": "Κατηγορήθηκε για υπεξαίρεση δημοσίου χρήματος.",
+          "en": "He was accused of embezzling public money."
+        },
+        {
+          "el": "Έχει μεγάλη φαντασία.",
+          "en": "She has a vivid imagination."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "Σε ποια γλώσσα έγραψε ο Μάρκος Αυρήλιος τα «Εις εαυτόν»;",
+      "options": [
+        "Στα ελληνικά",
+        "Στα λατινικά",
+        "Στα αραμαϊκά",
+        "Στα αιγυπτιακά"
+      ],
+      "answer": "Στα ελληνικά",
+      "why": "The language of the educated elite."
+    },
+    {
+      "q": "Ποιος στωικός φιλόσοφος τον επηρέασε μέσα από τα βιβλία του;",
+      "options": [
+        "Ο Επίκτητος",
+        "Ο Επίκουρος",
+        "Ο Πύρρων",
+        "Ο Πλωτίνος"
+      ],
+      "answer": "Ο Επίκτητος",
+      "why": "Rusticus lent him Epictetus’ notes."
+    },
+    {
+      "q": "Πού έγραψε κυρίως τις σκέψεις του;",
+      "options": [
+        "Σε στρατόπεδα στον Δούναβη",
+        "Στο παλάτι της Ρώμης",
+        "Στην Αθήνα",
+        "Σε ένα νησί"
+      ],
+      "answer": "Σε στρατόπεδα στον Δούναβη",
+      "why": "On campaign, 170–180."
+    },
+    {
+      "q": "Ποιο είναι το δίλημμα που επαναλαμβάνει ο Μάρκος;",
+      "options": [
+        "Πρόνοια ή άτομα",
+        "Πόλεμος ή ειρήνη",
+        "Ρώμη ή Αθήνα",
+        "Πλούτος ή φτώχεια"
+      ],
+      "answer": "Πρόνοια ή άτομα",
+      "why": "Stoic or Epicurean physics."
+    },
+    {
+      "q": "Με τι συγκρίνει ο Μάρκος τη σχέση ανθρώπου και κοινότητας;",
+      "options": [
+        "Με το μέλος και το σώμα",
+        "Με τον βασιλιά και τον λαό",
+        "Με τον δάσκαλο και τον μαθητή",
+        "Με τον ήλιο και τη σελήνη"
+      ],
+      "answer": "Με το μέλος και το σώμα",
+      "why": "Meditations vii.13."
+    },
+    {
+      "q": "Τι είναι η «ευσέβεια» για τον Μάρκο;",
+      "options": [
+        "Να δέχεσαι με ευχαρίστηση ό,τι σου συμβαίνει",
+        "Να κάνεις θυσίες κάθε μέρα",
+        "Να χτίζεις ναούς",
+        "Να μη μιλάς για τους θεούς"
+      ],
+      "answer": "Να δέχεσαι με ευχαρίστηση ό,τι σου συμβαίνει",
+      "why": "Welcoming what common nature apportions."
+    },
+    {
+      "q": "Συμπληρώστε: «___ ζήσω πολύ ___ λίγο, θα κάνω το καθήκον μου.»",
+      "options": [
+        "Είτε… είτε",
+        "Ούτε… ούτε",
+        "Ή… ούτε",
+        "Και… ή"
+      ],
+      "answer": "Είτε… είτε",
+      "why": "Two possibilities, same result."
+    },
+    {
+      "q": "Τι σημαίνει σήμερα η λέξη «υπεξαίρεση»;",
+      "options": [
+        "Κατάχρηση χρημάτων",
+        "Επιφύλαξη",
+        "Εξαίρεση",
+        "Υπερβολή"
+      ],
+      "answer": "Κατάχρηση χρημάτων",
+      "why": "A false friend: Stoic “reservation”."
+    }
+  ],
+  "vocab": [
+    "απόγειο",
+    "σταθερότητα",
+    "διάδοχος",
+    "άνθιση",
+    "αριστοκρατία",
+    "σύμβουλος",
+    "αντιστέκομαι",
+    "θρόνος",
+    "σεμνότητα",
+    "κληρονόμος",
+    "αποσπώ",
+    "ελάττωμα",
+    "θετός",
+    "φύλο",
+    "επανάσταση",
+    "ξεσπώ",
+    "στρατόπεδο",
+    "σύνορα",
+    "σκουριά",
+    "θάβω",
+    "δίλημμα",
+    "ανακάτεμα",
+    "γκρινιάζω",
+    "συμπολίτης",
+    "ασήμαντος",
+    "συμβάλλω",
+    "στασιαστής",
+    "μισώ",
+    "σκίζω",
+    "κατάλογος",
+    "δικτάτορας",
+    "παραπονιέμαι",
+    "γδύνω",
+    "κύρος",
+    "πτώμα",
+    "τσαμπί",
+    "κοχύλι",
+    "ετοιμότητα",
+    "αξιοπρέπεια",
+    "θεατρινισμός",
+    "λόγιος",
+    "επίσκοπος",
+    "άψογος",
+    "σώφρων",
+    "αντίτυπο"
+  ],
+  "gloss": {
+    "Βιογραφία": "βιογραφία — biography",
+    "Κοσμολογία": "κοσμολογία — cosmology",
+    "μ.Χ.": "μ.Χ. — AD (μετά Χριστόν)",
+    "Πλάτωνας": "Πλάτων — Plato",
+    "Επίκουρος": "Επίκουρος — Epicurus",
+    "Δία": "Δίας — Zeus",
+    "Σέξτο": "Σέξτος — Sextus (Empiricus)",
+    "ασέβεια": "ασέβεια — impiety",
+    "Ρώμη": "Ρώμη — Rome",
+    "Μιλ": "Μιλ — John Stuart Mill",
+    "Επίκτητο": "Επίκτητος — Epictetus",
+    "Πύρρων": "Πύρρων — Pyrrho of Elis",
+    "Σενέκας": "Σενέκας — Seneca",
+    "απάθεια": "απάθεια — impassivity; apathy",
+    "Επίκτητος": "Επίκτητος — Epictetus",
+    "Επίκτητου": "Επίκτητος — Epictetus",
+    "Νέρωνα": "Νέρων — Nero (emperor)",
+    "Αδριανός": "Αδριανός — Hadrian (emperor)",
+    "Αυρήλιος": "Αυρήλιος — Aurelius",
+    "κοσμολογία": "κοσμολογία — cosmology",
+    "Πλάτων": "Πλάτων — Plato",
+    "Δίας": "Δίας — Zeus",
+    "Λατίνος": "Λατίνος — Latin, Roman",
+    "Αντωνίνο": "Αντωνίνος — Antoninus Pius (emperor)",
+    "Αντωνίνου": "Αντωνίνος — Antoninus Pius (emperor)",
+    "Λούκιο": "Λούκιος — Lucius",
+    "Βέρο": "Βέρος — Verus",
+    "Φρόντωνα": "Φρόντων — Fronto (Marcus' tutor)",
+    "Ηρώδη": "Ηρώδης — Herodes",
+    "Αττικό": "Αττικός — Atticus",
+    "Φαυστίνα": "Φαυστίνα — Faustina (Marcus' wife)",
+    "Ρούστικος": "Ρούστικος — Junius Rusticus (Stoic)",
+    "Ρούστικο": "Ρούστικος — Junius Rusticus (Stoic)",
+    "Υπομνήματα": "υπόμνημα — notes, memoranda",
+    "Αρίστωνα": "Αρίστων — Aristo of Chios (Stoic)",
+    "Πάρθους": "Πάρθος — Parthian",
+    "Δούναβη": "Δούναβης — Danube",
+    "Βινδοβόνα": "Βινδοβόνα — Vindobona (Vienna)",
+    "Σίρμιο": "Σίρμιο — Sirmium",
+    "Σερβίας": "Σερβία — Serbia",
+    "Κόμμοδος": "Κόμμοδος — Commodus (emperor)",
+    "Κάσσιος": "Κάσσιος — Cassius",
+    "Αρέθα": "Αρέθας — Arethas (bishop)",
+    "Σούδα": "Σούδα — the Suda (Byzantine lexicon)",
+    "Ηρωδιανός": "Ηρωδιανός — Herodian (historian)",
+    "Φρειδερίκος": "Φρειδερίκος — Frederick",
+    "Γκαίτε": "Γκαίτε — Goethe",
+    "Πλωτίνος": "Πλωτίνος — Plotinus",
+    "Αυρήλιου": "Αυρήλιος — Aurelius",
+    "Μάρκου": "Μάρκος — Marcus",
+    "άνθισης": "άνθιση — flowering, revival",
+    "άνθιση": "άνθιση — flowering, revival",
+    "σοφιστικής": "σοφιστική — sophistic (Second Sophistic)",
+    "αντιστεκόμενοι": "αντιστέκομαι — resist",
+    "σεμνότητα": "σεμνότητα — modesty",
+    "δεκαεπτάχρονος": "δεκαεπτάχρονος — seventeen-year-old",
+    "δεκαεπτά": "δεκαεπτά — seventeen",
+    "αντωνίνειος": "αντωνίνειος — Antonine",
+    "λοιμός": "λοιμός — plague, pestilence",
+    "διαδέχτηκε": "διαδέχομαι — succeed (someone)",
+    "ανακάτεμα": "ανακάτεμα — jumble, mixing",
+    "γκρινιάζεις": "γκρινιάζω — grumble, moan",
+    "γκρινιάζω": "γκρινιάζω — grumble, moan",
+    "παροδικότητα": "παροδικότητα — transience",
+    "ευσέβεια": "ευσέβεια — piety",
+    "στασιαστής": "στασιαστής — rebel, seditionist",
+    "καισαρισμένος": "καισαρισμένος — “Caesarified”, turned into a Caesar",
+    "δικτάτορας": "δικτάτορας — dictator",
+    "γδύνει": "γδύνω — undress, strip",
+    "γδύνω": "γδύνω — undress, strip",
+    "τσαμπί": "τσαμπί — bunch (of grapes)",
+    "πορφυρή": "πορφυρός — purple",
+    "θεατρινισμούς": "θεατρινισμός — theatricality, histrionics",
+    "θεατρινισμός": "θεατρινισμός — theatricality, histrionics",
+    "Στοχασμοί": "στοχασμός — meditation, reflection",
+    "σώφρονα": "σώφρων — temperate, prudent",
+    "αραμαϊκά": "αραμαϊκά — Aramaic",
+    "υπεξαίρεση": "υπεξαίρεση — embezzlement; (Stoic) reservation",
+    "κοσμόπολη": "κοσμόπολη — world-city, cosmopolis",
+    "ηγεμονικόν": "ηγεμονικόν — the ruling part of the soul",
+    "κοινωνικόν": "κοινωνικόν — the communal faculty",
+    "αριστοκρατία": "αριστοκρατία — aristocracy",
+    "συγκλητικοί": "συγκλητικός — senator",
+    "θετό": "θετός — adoptive",
+    "θετός": "θετός — adoptive",
+    "αυτοκρατορική": "αυτοκρατορικός — imperial",
+    "Ηρώδης": "Ηρώδης — Herodes",
+    "Αττικός": "Αττικός — Atticus; Attic"
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "Rachana Kamtekar, “Marcus Aurelius”, Stanford Encyclopedia of Philosophy: life and works, the character of the Meditations, justice and the cosmopolis, piety, providence or atoms, erasing impressions.",
+      "url": "https://plato.stanford.edu/entries/marcus-aurelius/"
+    },
+    {
+      "n": 2,
+      "text": "“Marcus Aurelius”, Wikipedia: birth and adoption, teachers, Sextus anecdote, reign, Antonine Plague, death, Dio and Herodian, Christians, reception of the Meditations.",
+      "url": "https://en.wikipedia.org/wiki/Marcus_Aurelius"
+    },
+    {
+      "n": 3,
+      "text": "Massimo Pigliucci, “Stoicism”, Internet Encyclopedia of Philosophy: Marcus and Epictetus in the modern Stoicism revival.",
+      "url": "https://iep.utm.edu/stoicism/"
+    }
+  ]
+}

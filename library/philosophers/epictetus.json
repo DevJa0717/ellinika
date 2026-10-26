@@ -1,0 +1,633 @@
+{
+  "id": "epictetus",
+  "el": "Επίκτητος",
+  "title": "Epictetus",
+  "level": "C1",
+  "dates": "περ. 50 – 135 μ.Χ.",
+  "image": {
+    "file": "img/philosophers/epictetus.jpg",
+    "caption": "Φανταστικό πορτρέτο του Επίκτητου με το δεκανίκι του, από λατινική έκδοση του «Εγχειριδίου» (Οξφόρδη, 1715).",
+    "caption_en": "Imaginary portrait of Epictetus with his crutch, frontispiece of a Latin verse Encheiridion (Oxford, 1715).",
+    "credit": "Engraving, 1715",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Epicteti_Enchiridion_Latinis_versibus_adumbratum_(Oxford_1715)_frontispiece.jpg"
+  },
+  "summary_en": "Epictetus (c. 50–135 AD) was born a slave at Hierapolis in Phrygia; his name simply means “acquired”. As the slave of Epaphroditus, a powerful freedman at Nero’s court, he studied Stoicism with **Musonius Rufus**, was freed, taught in Rome, and when Domitian expelled the philosophers he founded a school at **Nicopolis** in Epirus. He was lame, according to one story because his master twisted his leg. He wrote nothing: his pupil **Arrian** recorded his lectures in the **Discourses** and condensed them into the **Handbook (Encheiridion)**. His central idea is the distinction between what is **up to us** (our judgements, desires and choices, the faculty he calls **prohairesis**) and what is **not up to us** (body, property, reputation). “What disturbs people is not things, but their judgements about things.” Freedom lies in the will, which nothing external can compel. Marcus Aurelius considered himself his follower; the Handbook was adapted in monasteries, read by Pascal and Descartes, and is a founding text of modern Stoicism and cognitive therapy.",
+  "terms": [
+    {
+      "el": "τα εφ’ ημίν",
+      "en": "what is up to us",
+      "def_el": "Όσα εξαρτώνται από εμάς: οι κρίσεις, οι επιθυμίες, οι αποφάσεις μας.",
+      "def_en": "Ancient ἐφ’ ἡμῖν; modern «ό,τι εξαρτάται από εμάς». Opposite: τα ουκ εφ’ ημίν."
+    },
+    {
+      "el": "η προαίρεση",
+      "en": "volition, moral choice",
+      "def_el": "Η ικανότητα του ανθρώπου να κρίνει και να αποφασίζει μόνος του.",
+      "def_en": "Epictetus’ key term; for him it is the true self. Modern προαίρεση “intention”."
+    },
+    {
+      "el": "η φαντασία",
+      "en": "impression, appearance",
+      "def_el": "Αυτό που εμφανίζεται στον νου μας από ένα πράγμα ή γεγονός.",
+      "def_en": "Stoic term; modern φαντασία “imagination, fantasy”."
+    },
+    {
+      "el": "η χρήση των φαντασιών",
+      "en": "the use of impressions",
+      "def_el": "Το πώς κρίνουμε και χειριζόμαστε όσα εμφανίζονται στον νου μας.",
+      "def_en": "For Epictetus, the one thing wholly in our power."
+    },
+    {
+      "el": "το δόγμα",
+      "en": "judgement, belief",
+      "def_el": "Η γνώμη που σχηματίζουμε για κάτι· σήμερα, το θεμελιώδες δόγμα μιας θρησκείας ή θεωρίας.",
+      "def_en": "«Ταράσσει τους ανθρώπους ου τα πράγματα, αλλά τα περί των πραγμάτων δόγματα» (Handbook 5)."
+    },
+    {
+      "el": "ο απελεύθερος",
+      "en": "freedman",
+      "def_el": "Πρώην δούλος που έγινε ελεύθερος.",
+      "def_en": "From απελευθερώνω “set free”; modern απελευθέρωση “liberation”."
+    },
+    {
+      "el": "το Εγχειρίδιο",
+      "en": "the Handbook (Encheiridion)",
+      "def_el": "Μικρό βιβλίο με τις βασικές διδασκαλίες του Επίκτητου.",
+      "def_en": "εν + χειρ: “in the hand”. Modern εγχειρίδιο “manual, textbook”; also “dagger”."
+    },
+    {
+      "el": "οι Διατριβές",
+      "en": "the Discourses",
+      "def_el": "Οι παραδόσεις του Επίκτητου, όπως τις κατέγραψε ο Αρριανός.",
+      "def_en": "Modern διατριβή “dissertation, thesis”."
+    },
+    {
+      "el": "κουτσός",
+      "en": "lame",
+      "def_el": "Αυτός που περπατάει με δυσκολία επειδή έχει πρόβλημα στο πόδι.",
+      "def_en": "Everyday word; verb κουτσαίνω “limp”."
+    },
+    {
+      "el": "η αυτογνωσία",
+      "en": "self-knowledge",
+      "def_el": "Η γνώση του εαυτού μας, των λαθών και των ορίων μας.",
+      "def_en": "αυτός + γνώση; cf. the Delphic «γνῶθι σαυτόν»."
+    }
+  ],
+  "sections": [
+    {
+      "id": "context",
+      "el": "Ιστορικό πλαίσιο",
+      "en": "Historical context",
+      "paras": [
+        {
+          "el": "Τριακόσια χρόνια μετά τον Ζήνωνα, ο ελληνικός κόσμος ήταν πια μέρος της Ρωμαϊκής Αυτοκρατορίας. Η στωική φιλοσοφία είχε γίνει η πιο δημοφιλής φιλοσοφία ανάμεσα στους μορφωμένους Ρωμαίους. Οι Ρωμαίοι μάθαιναν φιλοσοφία στα ελληνικά, και πολλοί δάσκαλοι ήταν Έλληνες, συχνά πρώην δούλοι.",
+          "en": "Three centuries after Zeno, the Greek world was part of the Roman Empire, and Stoicism had become the most popular philosophy among educated Romans. Romans learned philosophy in Greek, and many teachers were Greeks, often former slaves. Epictetus’ thought derives essentially from the early Stoa of Zeno, Cleanthes and Chrysippus, whom he praises in the highest terms.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Ήταν όμως και εποχή κινδύνου για τους φιλοσόφους. Μερικοί αυτοκράτορες, όπως ο Νέρων και ο Δομιτιανός, έβλεπαν με καχυποψία τους στωικούς συγκλητικούς, που μιλούσαν για ελευθερία και αρετή. Ο Δομιτιανός έδιωξε κάποια στιγμή όλους τους φιλοσόφους από τη Ρώμη και την Ιταλία.",
+          "en": "It was also a dangerous time for philosophers. Some emperors, such as Nero and Domitian, viewed Stoic senators who spoke of freedom and virtue with suspicion. Domitian eventually banished all philosophers from Rome and the Italian peninsula, by an edict usually dated to 89 or around 93.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Η φιλοσοφία του Επίκτητου είναι πάνω απ’ όλα πρακτική. Η γλώσσα του δεν είναι η λογοτεχνική γλώσσα των μορφωμένων, αλλά η κοινή ελληνική της εποχής, η γλώσσα της αγοράς και της Καινής Διαθήκης. Γι’ αυτό το ελληνικό κείμενό του διαβάζεται ακόμη σχετικά εύκολα.",
+          "en": "His philosophy is above all practical. The Discourses are written not in the literary language of the educated but in koinē, the common Greek of the age, the language of the marketplace and of the New Testament; this is one of the reasons scholars believe they preserve Epictetus’ own voice rather than Arrian’s.",
+          "cite": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "el": "Βιογραφία",
+      "en": "Biography",
+      "paras": [
+        {
+          "el": "Ο Επίκτητος γεννήθηκε γύρω στο 50 μ.Χ. στην Ιεράπολη της Φρυγίας, εκεί όπου σήμερα βρίσκεται το Παμούκαλε της Τουρκίας. Δεν ξέρουμε το όνομα που του έδωσαν οι γονείς του. «Επίκτητος» σημαίνει απλώς «αποκτημένος», δηλαδή κάτι που αγόρασε κανείς: ήταν όνομα δούλου.",
+          "en": "Epictetus was born around AD 50 in Hierapolis in Phrygia, today’s Pamukkale in Turkey. His birth name is unknown; epiktētos simply means “gained, acquired”, a word Plato uses for property added to an inheritance: a slave’s name.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Ως παιδί βρέθηκε στη Ρώμη, δούλος του Επαφρόδιτου, ενός πλούσιου απελεύθερου που ήταν γραμματέας του Νέρωνα. Η θέση του ήταν περίεργη: ήταν δούλος, αλλά ζούσε κοντά στην αυτοκρατορική εξουσία. Με την άδεια του αφεντικού του, σπούδασε στωική φιλοσοφία με τον Μουσώνιο Ρούφο, έναν Ρωμαίο συγκλητικό.",
+          "en": "As a boy he came to Rome as the slave of Epaphroditus, a wealthy freedman who had been Nero’s secretary. His position was a strange one, combining the low status of a slave with a personal connection to imperial power. With his master’s permission he studied Stoicism with Musonius Rufus, a Roman senator and Stoic philosopher.",
+          "cite": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Ο Επίκτητος ήταν κουτσός. Ο συγγραφέας Κέλσος διηγείται ότι ο αφέντης του κάποτε του έστριβε το πόδι για να τον βασανίσει. Ο Επίκτητος, ήρεμος, του είπε: «Θα το σπάσεις». Όταν το πόδι έσπασε, είπε μόνο: «Δεν σου είπα ότι θα το σπάσεις;» Ο Σιμπλίκιος όμως γράφει ότι ήταν ανάπηρος από παιδί.",
+          "en": "Epictetus was lame. Celsus, quoted by Origen, tells that his master once twisted his leg to torture him; Epictetus calmly warned him that it would break, and when it broke said only: “There, did I not tell you that it would break?” Simplicius, however, says he had been disabled from childhood, and others blame arthritis.",
+          "cite": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Κάποια στιγμή μετά το 68 μ.Χ. ελευθερώθηκε και άρχισε να διδάσκει φιλοσοφία στη Ρώμη. Όταν ο Δομιτιανός έδιωξε τους φιλοσόφους, πήγε στη Νικόπολη της Ηπείρου, κοντά στη σημερινή Πρέβεζα, ένα σημαντικό λιμάνι και διοικητικό κέντρο. Εκεί ίδρυσε σχολή και δίδαξε ως τον θάνατό του.",
+          "en": "Sometime after AD 68 he was freed and began teaching philosophy in Rome. When Domitian expelled the philosophers he moved to Nicopolis in Epirus, near modern Preveza, an important communications hub and administrative centre on the Adriatic coast, where he founded a school and taught until his death.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Η σχολή του έγινε διάσημη. Νέοι από όλη την αυτοκρατορία έρχονταν να τον ακούσουν, και επισκέπτες από τις ελληνικές πόλεις ζητούσαν να μιλήσουν μαζί του. Ο αυτοκράτορας Αδριανός, λένε, είχε φιλικές σχέσεις μαζί του, ίσως επειδή τον είχε ακούσει στη Νικόπολη.",
+          "en": "His school became famous. Young men came from across the empire to hear him, and notables from the Greek cities sought conversations with him. The emperor Hadrian is said to have been on friendly terms with him, possibly having heard him speak at Nicopolis.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Ένας από τους μαθητές του ήταν ο Αρριανός, που αργότερα έγινε ιστορικός του Μεγάλου Αλεξάνδρου. Ο Αρριανός κατέγραφε, όπως λέει, «λέξη προς λέξη» ό,τι άκουγε από τον δάσκαλό του. Έτσι γεννήθηκαν οι «Διατριβές», από τις οποίες σώζονται τέσσερα από τα οκτώ βιβλία, και το «Εγχειρίδιο», μια σύντομη περίληψή τους.",
+          "en": "One of his pupils, around 108, was Arrian, later the historian of Alexander. Arrian says that “whatever I heard him say I used to write down, word for word, as best I could”. So were born the Discourses, of which four of eight or more books survive, and the Encheiridion or Handbook, a short abridgement.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Ο Επίκτητος ζούσε πολύ απλά, με ελάχιστα πράγματα. Για πολλά χρόνια έζησε μόνος. Στα γεράματα υιοθέτησε το παιδί ενός φίλου, που αλλιώς θα το εγκατέλειπαν να πεθάνει, και το μεγάλωσε με τη βοήθεια μιας γυναίκας. Πέθανε γύρω στο 135 μ.Χ. Ο Λουκιανός λέει ότι ένας θαυμαστής του αγόρασε μετά τον θάνατό του το πήλινο λυχνάρι του για τρεις χιλιάδες δραχμές.",
+          "en": "He lived very simply, with few possessions, and long alone. In old age he adopted the child of a friend, who would otherwise have been left to die, and raised it with the help of a woman. He died around AD 135. Lucian reports that after his death an admirer bought his earthenware lamp for 3,000 drachmas.",
+          "cite": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "el": "Κοσμολογία: ο Δίας και ο άνθρωπος",
+      "en": "Cosmology: Zeus and the human being",
+      "paras": [
+        {
+          "el": "Ο Επίκτητος δεν ασχολήθηκε πολύ με τη φυσική. Δέχτηκε όμως την κοσμολογία των παλαιών στωικών: το σύμπαν είναι απόλυτα λογικό και καλά οργανωμένο, και αυτός που το σχεδιάζει και το διοικεί είναι ο Δίας, ή απλώς «ο θεός». Ο θεός δεν βρίσκεται έξω από τον κόσμο· ταυτίζεται με τη φυσική τάξη.",
+          "en": "Epictetus did not dwell on physics, but he accepted the cosmology of the early Stoics: the universe is maximally rational and orderly, and its designer and administrator is Zeus, or simply “the god”. God is immanent rather than transcendent: he inheres in, and may be identified with, the natural order.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ο θεός είναι απόλυτα καλοπροαίρετος απέναντι στους ανθρώπους. Μας έδωσε το πιο πολύτιμο δώρο, τη λογική, και γι’ αυτό είμαστε συγγενείς του. Ο νους μας, λέει ο Επίκτητος, είναι κυριολεκτικά κομμάτι του νου του Δία, «μέρος και απόσπασμα» του ίδιου του θεού.",
+          "en": "God’s attitude to humankind is one of complete benevolence. He gave us the most precious gift, reason, which makes us his kin. Our minds, says Epictetus, are actually fragments of Zeus’s mind, “parts and offshoots of his own being” (Discourses 1.14.6). When we choose, we exercise the same power that governs the universe.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Το σώμα όμως δεν είναι πραγματικά δικό μας, αφού δεν αποφασίζουμε εμείς τι θα του συμβεί. Ο Επίκτητος το ονομάζει περιφρονητικά «πηλό», «σαρκίδιο» ή «γαϊδουράκι». Όπως όλοι οι στωικοί, πιστεύει ότι και ο νους είναι υλικός, φτιαγμένος από «πνεύμα», μια λεπτή ανάσα.",
+          "en": "The body, however, does not truly belong to us, since we cannot decide what happens to it. Epictetus calls it “cleverly moulded clay”, “pathetic little flesh”, a “little donkey”. Like other Stoics, he holds that even the mind is material, made of pneuma, “breath”, a substance with remarkable powers.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Γι’ αυτό, η σωστή στάση απέναντι στον κόσμο είναι η ευγνωμοσύνη. Αν καταλάβουμε τη λογική του σύμπαντος, θα θέλουμε, λέει, να ψάλλουμε σε κάθε περίσταση έναν «ύμνο» στον θεό. Ο άνθρωπος είναι σαν ηθοποιός σε ένα θεατρικό έργο: δεν διαλέγει εκείνος τον ρόλο, αλλά πρέπει να τον παίξει καλά.",
+          "en": "So the right attitude to the world is gratitude: understanding the universe inspires awe, a “hymn of praise” to be offered on every occasion. “Remember that you are an actor in a play, which is as the author wants it to be… If he wants you to act a poor man, a cripple, a public official, or a private person, see that you act it with skill” (Handbook 17).",
+          "cite": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "el": "Θεωρίες: τι εξαρτάται από εμάς",
+      "en": "Theories: what is up to us",
+      "paras": [
+        {
+          "el": "Το «Εγχειρίδιο» αρχίζει με μια διάσημη φράση: «Άλλα πράγματα εξαρτώνται από εμάς και άλλα όχι». Από εμάς εξαρτώνται οι γνώμες, οι επιθυμίες, οι αποστροφές μας, με μια λέξη, ό,τι είναι δικό μας έργο. Δεν εξαρτώνται από εμάς το σώμα, η περιουσία, η φήμη, τα αξιώματα, με μια λέξη, ό,τι δεν είναι δικό μας έργο.",
+          "en": "The Handbook opens with a famous sentence: “Some things are up to us and some things are not up to us. Our opinions are up to us, and our impulses, desires, aversions, in short, whatever is our own doing. Our bodies are not up to us, nor are our possessions, our reputations, or our public offices” (Handbook 1.1).",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Ό,τι εξαρτάται από εμάς ανήκει στην «προαίρεση», την ικανότητά μας να κρίνουμε και να διαλέγουμε. Η προαίρεση είναι ο πραγματικός μας εαυτός, και κανείς δεν μπορεί να την αναγκάσει. Ένας τύραννος μπορεί να με αλυσοδέσει ή να με σκοτώσει· δεν μπορεί όμως να με κάνει να θεωρήσω κάτι αληθινό. Γι’ αυτό, λέει ο πρώην δούλος, ο άνθρωπος είναι πάντα ελεύθερος.",
+          "en": "What is up to us belongs to prohairesis, our capacity for choice. Volition is “by nature unimpeded” (1.17.21); it is the real person, the true self, and nothing external can compel it. So, for the former slave, freedom is an inalienable characteristic of the human being. Body, possessions, relationships and reputation are “externals”.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "«Δεν ταράζουν τους ανθρώπους τα πράγματα, αλλά οι κρίσεις τους για τα πράγματα», γράφει. Ο θάνατος, για παράδειγμα, δεν είναι φοβερός· φοβερή είναι η ιδέα μας ότι είναι φοβερός. Όταν κάποιος σε θυμώνει, να ξέρεις ότι σε θύμωσε η δική σου σκέψη. Γι’ αυτό, να μην αφήνεις τις εντυπώσεις να σε παρασύρουν: κέρδισε χρόνο, και θα συγκρατηθείς πιο εύκολα.",
+          "en": "“What disturbs men’s minds is not events but their judgements on events” (Handbook 5): death is not terrible, the judgement that it is terrible is. “When any one makes you angry, know that it is your own thought that has angered you… if once you gain time and delay, you will find it easier to control yourself” (Handbook 20). Correct the judgement and the feeling is corrected too.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Αυτό δεν σημαίνει ότι πρέπει να αδιαφορούμε για τα εξωτερικά. Ο Επίκτητος χρησιμοποιεί την εικόνα ενός παιχνιδιού με μπάλα: η μπάλα δεν έχει καμία αξία, αλλά οι παίκτες τρέχουν με όλη τους τη δύναμη για να την πιάσουν, γιατί θέλουν να παίξουν καλά. Έτσι και εμείς: τα εξωτερικά είναι αδιάφορα, αλλά ο τρόπος που τα χρησιμοποιούμε δεν είναι αδιάφορος.",
+          "en": "This does not mean being careless about externals. Epictetus compares us to ball players: the ball has no value in itself, but they exert all their energy to catch it, because they care about playing well. “The materials of action are indifferent, but the use we make of them is not indifferent” (Discourses 2.5.1).",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Ούτε σημαίνει ότι πρέπει να γίνουμε «αναίσθητοι σαν αγάλματα». Πρέπει να αγαπάμε τα παιδιά, τα αδέλφια και τους φίλους μας, αλλά να θυμόμαστε ότι είναι θνητοί, όπως αγαπάμε ένα κρυστάλλινο ποτήρι ξέροντας ότι μπορεί να σπάσει. Και ο γονιός που μένει δίπλα στο άρρωστο παιδί του ενεργεί πιο φυσικά από εκείνον που φεύγει να κλάψει.",
+          "en": "Nor should we be “unfeeling like a statue” (3.2.4). We should love our children, siblings and friends while reminding ourselves of their mortality, as one can be fond of a crystal goblet without being upset when it breaks (3.24). The parent who stays at a sick child’s bedside behaves more naturally than one who runs away to weep (1.11).",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ο μαθητής, λέει ο Επίκτητος, πρέπει να ασκείται σε τρία πεδία: στις επιθυμίες και τις αποστροφές, ώστε να μην αποτυχαίνει ποτέ σε ό,τι επιθυμεί· στις πράξεις, ώστε να εκπληρώνει τα καθήκοντά του ως γιος, πατέρας ή πολίτης· και στη συγκατάθεση, ώστε να μην εξαπατάται. Η φιλοσοφία δεν είναι γνώση βιβλίων αλλά άσκηση για τη ζωή.",
+          "en": "The student must train in three areas (topoi): desire and aversion, so as never to fail to get what he desires nor fall into what he would avoid; impulse to act, so as to fulfil his duties as son, father or citizen; and assent, so as not to be deceived (Discourses 3.2.1–2). Philosophy is not book learning but education for living.",
+          "cite": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "el": "Επίδραση",
+      "en": "Impact",
+      "paras": [
+        {
+          "el": "Ο αυτοκράτορας Μάρκος Αυρήλιος δεν ήταν μαθητής του, αλλά διάβασε τις «Διατριβές» και θεωρούσε τον εαυτό του οπαδό του πρώην δούλου. Ο σοφιστής Ηρώδης ο Αττικός τον ονόμαζε «τον μεγαλύτερο από τους στωικούς». Και ο χριστιανός Ωριγένης έγραφε, τον τρίτο αιώνα, ότι ο Επίκτητος ήταν τόσο δημοφιλής όσο ο Πλάτωνας.",
+          "en": "The emperor Marcus Aurelius was never his pupil, but was so impressed by what he read that he considered himself a follower of the freedman philosopher, and quotes him in the Meditations. Herodes Atticus called him “the greatest of Stoics”, and in the early third century Origen remarked that his popularity rivalled Plato’s.",
+          "cite": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Το «Εγχειρίδιο» ταίριαζε τόσο πολύ με την ασκητική ζωή, ώστε οι χριστιανοί μοναχοί το διασκεύασαν για δική τους χρήση. Τον έκτο αιώνα ο νεοπλατωνικός Σιμπλίκιος έγραψε ένα μεγάλο σχόλιο σε αυτό. Το 1497 ο Πολιτσιάνο το μετέφρασε στα λατινικά, και τους επόμενους δύο αιώνες έγινε εξαιρετικά δημοφιλές στην Ευρώπη.",
+          "en": "The Handbook suited ascetic life so well that it was used in monasteries in lightly Christianised form. In the sixth century the Neoplatonist Simplicius wrote a long commentary on it. Poliziano translated it into Latin in 1497, and over the next two centuries it became exceptionally popular in Europe.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ο Πασκάλ τον θαύμαζε, αλλά θεωρούσε αλαζονεία την ιδέα ότι ο άνθρωπος μπορεί να τελειοποιηθεί μόνος του. Ο Ντεκάρτ υιοθέτησε στην προσωπική του ηθική αξίες πολύ κοντινές σε εκείνες του Επίκτητου, και οι Γάλλοι διαφωτιστές, όπως ο Βολταίρος και ο Ντιντερό, διάβασαν το «Εγχειρίδιο» ως μαθητές.",
+          "en": "Pascal admired him as a moralist but thought it sheer arrogance to believe that the human psyche is part of the divine and can be perfected by its own efforts. Descartes adopted a recognisably Epictetan value system in his personal ethics, and Enlightenment thinkers such as Voltaire, Montesquieu and Diderot read the Handbook as students.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Σήμερα ο Επίκτητος είναι ίσως ο πιο διαβασμένος στωικός, μαζί με τον Μάρκο Αυρήλιο. Η ιδέα ότι δεν μας ταράζουν τα πράγματα αλλά οι κρίσεις μας γι’ αυτά βρίσκεται στη βάση της γνωσιακής θεραπείας και του σύγχρονου κινήματος του στωικισμού.",
+          "en": "Today Epictetus is, with Marcus Aurelius, perhaps the most widely read Stoic. The idea that we are disturbed not by things but by our judgements about them is central to the modern Stoicism movement, which IEP associates with cognitive behavioural therapy; Tom Wolfe’s 1998 novel A Man in Full satirises his impact on contemporary America.",
+          "cite": [
+            1,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "level": "C1",
+      "title": "Άλλα… άλλα…: the opening of the Handbook",
+      "en": "«Άλλα πράγματα εξαρτώνται από εμάς και άλλα όχι» renders Epictetus’ «Τῶν ὄντων τὰ μέν ἐστιν ἐφ’ ἡμῖν, τὰ δὲ οὐκ ἐφ’ ἡμῖν». **εξαρτώμαι από** = depend on; **εξαρτάται από σένα** = it’s up to you. Related: **εξάρτηση** (dependence, addiction), **ανεξάρτητος** (independent), **εξαρτήματα** (accessories, spare parts).",
+      "examples": [
+        {
+          "el": "Το αν θα θυμώσω εξαρτάται από εμένα.",
+          "en": "Whether I get angry is up to me."
+        },
+        {
+          "el": "Η φήμη μας δεν εξαρτάται από εμάς.",
+          "en": "Our reputation is not up to us."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Indirect speech with ότι and the sequence of tenses",
+      "en": "«Δεν σου είπα ότι θα το σπάσεις;» Greek keeps the original tense in reported speech: what was **θα σπάσεις** stays **θα το σπάσεις** even after a past verb, where English shifts to “would”. Likewise **είπε ότι είναι** (he said he was), **έγραψε ότι διαβαζόταν** (only if the original was past/continuous).",
+      "examples": [
+        {
+          "el": "Ο Αρριανός λέει ότι κατέγραφε τα λόγια του λέξη προς λέξη.",
+          "en": "Arrian says he wrote down his words verbatim."
+        },
+        {
+          "el": "Του είπε ότι το πόδι θα σπάσει.",
+          "en": "He told him the leg would break."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Imperatives for advice: να μην αφήνεις, κέρδισε, να ξέρεις",
+      "en": "The Handbook is full of advice. Greek mixes the **imperative** (**κέρδισε χρόνο**, **θυμήσου**) with **να + subjunctive**, which is softer or used for negatives: **να ξέρεις**, **να μην αφήνεις**. Negative imperatives always use **μην + subjunctive**: **μη θυμώνεις**, **μην ξεχνάς**. Continuous aspect (**αφήνεις**) for general rules; perfective (**κέρδισε**) for single acts.",
+      "examples": [
+        {
+          "el": "Μην αφήνεις τις εντυπώσεις να σε παρασύρουν.",
+          "en": "Don’t let impressions carry you away."
+        },
+        {
+          "el": "Θυμήσου ότι είσαι ηθοποιός σε ένα έργο.",
+          "en": "Remember that you are an actor in a play."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Verbs of mental states with σε: με θυμώνει, σε ταράζει",
+      "en": "Many verbs of emotion take the **person affected as object** and the **cause as subject**: **με θυμώνει η συμπεριφορά του**, **τον ταράζει ο θάνατος**, **μας ενοχλεί ο θόρυβος**, **σε στενοχωρεί**. The middle forms express the feeling itself: **θυμώνω, ταράζομαι, ενοχλούμαι, στενοχωριέμαι**.",
+      "examples": [
+        {
+          "el": "Δεν σε θύμωσε εκείνος· σε θύμωσε η σκέψη σου.",
+          "en": "It wasn’t he who angered you; your thought did."
+        },
+        {
+          "el": "Ο σοφός δεν ταράζεται από τα εξωτερικά.",
+          "en": "The wise man is not disturbed by externals."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "The suffix -ίδιο and other diminutives with attitude",
+      "en": "«Σαρκίδιο» (little flesh) uses the learned diminutive **-ίδιο**, often with an ironic or dismissive tone: **σαρκίδιο, κτηρίδιο**, **ζωύφιο** (bug). Everyday diminutives **-άκι, -ούλα, -ίτσα** usually express affection: **γαϊδουράκι, Φοινικάκι, φιλαράκι**, but can also belittle: **ένα δουλειτσάκι**.",
+      "examples": [
+        {
+          "el": "Ο Επίκτητος ονόμαζε το σώμα «γαϊδουράκι».",
+          "en": "Epictetus called the body a “little donkey”."
+        },
+        {
+          "el": "Ένα μικρό σαρκίδιο δεν είναι ο πραγματικός μας εαυτός.",
+          "en": "A bit of flesh is not our real self."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "Τι σημαίνει το όνομα «Επίκτητος»;",
+      "options": [
+        "Αποκτημένος",
+        "Ελεύθερος",
+        "Σοφός",
+        "Κουτσός"
+      ],
+      "answer": "Αποκτημένος",
+      "why": "A slave’s name: “acquired”."
+    },
+    {
+      "q": "Σε ποια πόλη ίδρυσε ο Επίκτητος τη σχολή του;",
+      "options": [
+        "Στη Νικόπολη της Ηπείρου",
+        "Στην Αθήνα",
+        "Στη Ρώμη",
+        "Στην Ιεράπολη"
+      ],
+      "answer": "Στη Νικόπολη της Ηπείρου",
+      "why": "After Domitian expelled the philosophers."
+    },
+    {
+      "q": "Ποιος κατέγραψε τις διδασκαλίες του;",
+      "options": [
+        "Ο Αρριανός",
+        "Ο Μάρκος Αυρήλιος",
+        "Ο Σενέκας",
+        "Ο Πλούταρχος"
+      ],
+      "answer": "Ο Αρριανός",
+      "why": "Discourses and Handbook."
+    },
+    {
+      "q": "Τι από τα παρακάτω εξαρτάται από εμάς, κατά τον Επίκτητο;",
+      "options": [
+        "Οι κρίσεις μας",
+        "Η υγεία μας",
+        "Η φήμη μας",
+        "Η περιουσία μας"
+      ],
+      "answer": "Οι κρίσεις μας",
+      "why": "Handbook 1."
+    },
+    {
+      "q": "Τι ταράζει τους ανθρώπους, κατά το «Εγχειρίδιο»;",
+      "options": [
+        "Οι κρίσεις τους για τα πράγματα",
+        "Τα ίδια τα πράγματα",
+        "Οι θεοί",
+        "Η τύχη"
+      ],
+      "answer": "Οι κρίσεις τους για τα πράγματα",
+      "why": "Handbook 5."
+    },
+    {
+      "q": "Τι δείχνει το παράδειγμα με την μπάλα;",
+      "options": [
+        "Ότι το εξωτερικό είναι αδιάφορο, αλλά η χρήση του όχι",
+        "Ότι ο αθλητισμός είναι κακός",
+        "Ότι πρέπει να κερδίζουμε πάντα",
+        "Ότι η ζωή είναι τυχαία"
+      ],
+      "answer": "Ότι το εξωτερικό είναι αδιάφορο, αλλά η χρήση του όχι",
+      "why": "Discourses 2.5."
+    },
+    {
+      "q": "Συμπληρώστε: «___ αφήνεις τις εντυπώσεις να σε παρασύρουν.»",
+      "options": [
+        "Μην",
+        "Δεν",
+        "Όχι",
+        "Ούτε"
+      ],
+      "answer": "Μην",
+      "why": "Negative advice: μην + subjunctive."
+    },
+    {
+      "q": "Ποιος αυτοκράτορας θεωρούσε τον εαυτό του οπαδό του Επίκτητου;",
+      "options": [
+        "Ο Μάρκος Αυρήλιος",
+        "Ο Νέρων",
+        "Ο Δομιτιανός",
+        "Ο Αύγουστος"
+      ],
+      "answer": "Ο Μάρκος Αυρήλιος",
+      "why": "He quotes him in the Meditations."
+    }
+  ],
+  "vocab": [
+    "δημοφιλής",
+    "μορφωμένος",
+    "καχυποψία",
+    "συγκλητικός",
+    "αποκτημένος",
+    "αφέντης",
+    "αφεντικό",
+    "στρίβω",
+    "βασανίζω",
+    "ανάπηρος",
+    "ελευθερώνομαι",
+    "λιμάνι",
+    "διοικητικός",
+    "καταγράφω",
+    "υιοθετώ",
+    "εγκαταλείπω",
+    "θαυμαστής",
+    "πήλινος",
+    "λυχνάρι",
+    "σχεδιάζω",
+    "διοικώ",
+    "ταυτίζομαι",
+    "καλοπροαίρετος",
+    "κυριολεκτικά",
+    "περιφρονητικά",
+    "πηλός",
+    "ευγνωμοσύνη",
+    "ψάλλω",
+    "περίσταση",
+    "ηθοποιός",
+    "αποστροφή",
+    "περιουσία",
+    "αξίωμα",
+    "αναγκάζω",
+    "αλυσοδένω",
+    "παρασύρω",
+    "συγκρατούμαι",
+    "αναίσθητος",
+    "κρυστάλλινος",
+    "αποτυχαίνω",
+    "εκπληρώνω",
+    "διασκευάζω",
+    "σχόλιο",
+    "αλαζονεία",
+    "τελειοποιούμαι"
+  ],
+  "gloss": {
+    "Βιογραφία": "βιογραφία — biography",
+    "Κοσμολογία": "κοσμολογία — cosmology",
+    "κοσμολογία": "κοσμολογία — cosmology",
+    "σοφιστής": "σοφιστής — sophist",
+    "μ.Χ.": "μ.Χ. — AD (μετά Χριστόν)",
+    "περ.": "περίπου — about, circa",
+    "Πλάτωνας": "Πλάτων — Plato",
+    "Σιμπλίκιος": "Σιμπλίκιος — Simplicius, commentator on Aristotle (6th c. AD)",
+    "Ιταλία": "Ιταλία — Italy",
+    "Δία": "Δίας — Zeus",
+    "Δίας": "Δίας — Zeus",
+    "Ζήνωνα": "Ζήνων — Zeno",
+    "νεοπλατωνικός": "νεοπλατωνικός — Neoplatonist",
+    "Πλούταρχος": "Πλούταρχος — Plutarch",
+    "Ρώμη": "Ρώμη — Rome",
+    "Αλεξάνδρου": "Αλέξανδρος — Alexander",
+    "Επίκτητο": "Επίκτητος — Epictetus",
+    "Αυρήλιο": "Αυρήλιος — Aurelius (Marcus Aurelius)",
+    "Σενέκας": "Σενέκας — Seneca",
+    "Φοινικάκι": "Φοινικάκι — little Phoenician (affectionate)",
+    "Ντεκάρτ": "Ντεκάρτ — Descartes",
+    "Ρωμαίους": "Ρωμαίος — Roman",
+    "Ρωμαίο": "Ρωμαίος — Roman",
+    "Δομιτιανός": "Δομιτιανός — Domitian (emperor)",
+    "Επίκτητος": "Επίκτητος — Epictetus",
+    "Επίκτητου": "Επίκτητος — Epictetus",
+    "Καινής": "Καινή Διαθήκη — New Testament",
+    "Ιεράπολη": "Ιεράπολη — Hierapolis (Phrygia)",
+    "Φρυγίας": "Φρυγία — Phrygia",
+    "Παμούκαλε": "Παμούκαλε — Pamukkale (Turkey)",
+    "Επαφρόδιτου": "Επαφρόδιτος — Epaphroditus (Nero's secretary)",
+    "Νέρωνα": "Νέρων — Nero (emperor)",
+    "Μουσώνιο": "Μουσώνιος — Musonius Rufus",
+    "Ρούφο": "Ρούφος — Rufus",
+    "Κέλσος": "Κέλσος — Celsus (2nd-c. writer)",
+    "Νικόπολη": "Νικόπολη — Nicopolis (Epirus)",
+    "Πρέβεζα": "Πρέβεζα — Preveza",
+    "Αδριανός": "Αδριανός — Hadrian (emperor)",
+    "Αρριανός": "Αρριανός — Arrian (historian)",
+    "Λουκιανός": "Λουκιανός — Lucian (satirist)",
+    "Αυρήλιος": "Αυρήλιος — Aurelius",
+    "Ηρώδης": "Ηρώδης — Herodes",
+    "Αττικός": "Αττικός — Atticus; Attic",
+    "Ωριγένης": "Ωριγένης — Origen",
+    "Πολιτσιάνο": "Πολιτσιάνο — Poliziano",
+    "Πασκάλ": "Πασκάλ — Pascal",
+    "Βολταίρος": "Βολταίρος — Voltaire",
+    "Ντιντερό": "Ντιντερό — Diderot",
+    "απελεύθερου": "απελεύθερος — freedman",
+    "απελεύθερος": "απελεύθερος — freedman",
+    "πήλινο": "πήλινος — earthenware, clay",
+    "πήλινος": "πήλινος — earthenware, clay",
+    "καλοπροαίρετος": "καλοπροαίρετος — well-meaning, benevolent",
+    "περιφρονητικά": "περιφρονητικά — contemptuously",
+    "πηλό": "πηλός — clay",
+    "πηλός": "πηλός — clay",
+    "σαρκίδιο": "σαρκίδιο — bit of flesh (dismissive)",
+    "γαϊδουράκι": "γαϊδουράκι — little donkey",
+    "ψάλλουμε": "ψάλλω — sing, chant",
+    "ύμνο": "ύμνος — hymn",
+    "αξιώματα": "αξίωμα — office, rank",
+    "αξίωμα": "αξίωμα — office, rank",
+    "προαίρεση": "προαίρεση — volition, moral choice",
+    "αλυσοδέσει": "αλυσοδένω — chain up",
+    "αλυσοδένω": "αλυσοδένω — chain up",
+    "παρασύρουν": "παρασύρω — carry away, sweep along",
+    "παρασύρω": "παρασύρω — carry away, sweep along",
+    "συγκρατηθείς": "συγκρατούμαι — restrain oneself",
+    "συγκρατούμαι": "συγκρατούμαι — restrain oneself",
+    "κρυστάλλινο": "κρυστάλλινος — crystal",
+    "κρυστάλλινος": "κρυστάλλινος — crystal",
+    "αποτυχαίνει": "αποτυγχάνω — fail",
+    "εξαπατάται": "εξαπατώ — deceive (be deceived)",
+    "ασκητική": "ασκητικός — ascetic",
+    "διασκεύασαν": "διασκευάζω — adapt",
+    "διασκευάζω": "διασκευάζω — adapt",
+    "αλαζονεία": "αλαζονεία — arrogance",
+    "τελειοποιηθεί": "τελειοποιώ — perfect",
+    "τελειοποιούμαι": "τελειοποιούμαι — be perfected",
+    "διαφωτιστές": "διαφωτιστής — Enlightenment thinker",
+    "γνωσιακής": "γνωσιακός — cognitive",
+    "εφ": "εφ’ ημίν — up to us (ancient phrase)",
+    "ημίν": "εφ’ ημίν — up to us (ancient phrase)",
+    "αυτογνωσία": "αυτογνωσία — self-knowledge",
+    "συγκλητικούς": "συγκλητικός — senator",
+    "συγκλητικό": "συγκλητικός — senator",
+    "συγκλητικός": "συγκλητικός — senator",
+    "αυτοκρατορική": "αυτοκρατορικός — imperial",
+    "υλικός": "υλικός — material",
+    "Πλάτων": "Πλάτων — Plato",
+    "Ζήνων": "Ζήνων — Zeno",
+    "Ρωμαίος": "Ρωμαίος — Roman"
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "Margaret Graver, “Epictetus”, Stanford Encyclopedia of Philosophy: life and works, antecedents, rationality, Zeus, volition, value, emotions, other-concern, mind and body, education, influence.",
+      "url": "https://plato.stanford.edu/entries/epictetus/"
+    },
+    {
+      "n": 2,
+      "text": "Keith H. Seddon, “Epictetus”, Internet Encyclopedia of Philosophy: the leg story, Herodes Atticus, what is in our power, Handbook 1, 5, 17 and 20, the three topoi, metaphors for life.",
+      "url": "https://iep.utm.edu/epictetu/"
+    },
+    {
+      "n": 3,
+      "text": "“Epictetus”, Wikipedia: name, Epaphroditus, freedom and exile, Nicopolis, Arrian, Hadrian, adopted child, Lucian’s lamp anecdote, Marcus Aurelius, Enlightenment readers.",
+      "url": "https://en.wikipedia.org/wiki/Epictetus"
+    },
+    {
+      "n": 4,
+      "text": "Massimo Pigliucci, “Stoicism”, Internet Encyclopedia of Philosophy: the modern Stoicism revival and cognitive behavioural therapy.",
+      "url": "https://iep.utm.edu/stoicism/"
+    }
+  ]
+}
