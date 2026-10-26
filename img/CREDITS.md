@@ -211,3 +211,46 @@ Ten public-domain photographs and Open Access (CC0) artworks from the Library of
 | philosophers/zeno-citium.jpg | Χάλκινη προτομή του Ζήνωνα από τη Βίλα των Παπύρων στο Ηρκουλάνεουμ, αντίγραφο πρωτοτύπου του 3ου αιώνα π.Χ. | Photo: Szilas, 2013 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zeno_-_portrait_for_a_library,_Colosseum.jpg) |
 | philosophers/epictetus.jpg | Φανταστικό πορτρέτο του Επίκτητου με το δεκανίκι του, από λατινική έκδοση του «Εγχειριδίου» (Οξφόρδη, 1715). | Engraving, 1715 | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Epicteti_Enchiridion_Latinis_versibus_adumbratum_(Oxford_1715)_frontispiece.jpg) |
 | philosophers/marcus-aurelius.jpg | Προτομή του Μάρκου Αυρήλιου, Γλυπτοθήκη του Μονάχου. | Photo: Bibi Saint-Pol | Public domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Glyptothek_Munich.jpg) |
+
+
+## Greece today pictures (img/simera/)
+
+CC0 and public-domain photographs (Unsplash uploads on Wikimedia Commons, Flickr public-domain/CC0, rawpixel CC0), resized to at most 1100 px. Each picture is also credited under it in its chapter and in the companion PDF.
+
+| File | Subject | Author | License | Source |
+|---|---|---|---|---|
+| simera/cul-language.jpg | Πινακίδες καταστημάτων στην Καβάλα | Soner Eker sonereker · Wikimedia Commons | CC0 | [Kavala, Greece (Unsplash)](https://commons.wikimedia.org/w/index.php?curid=61756383) |
+| simera/cul-music.jpg | Μπουζούκι, παλιό σχέδιο | Unknown · rawpixel | CC0 | [Bouzouki clipart, musical instrument illustration](https://www.rawpixel.com/image/6438926/vector-vintage-public-domain-black) |
+| simera/cul-screen-books.jpg | Ανάμεσα στα βιβλία ενός βιβλιοπωλείου | Aris Sfakianakis katergaris · Wikimedia Commons | CC0 | [File:Elderly man in a bookstore (Unsplash).jpg](https://commons.wikimedia.org/w/index.php?curid=61824322) |
+| simera/cul-sport.jpg | Το Παναθηναϊκό Στάδιο, Αθήνα | George R_R · Flickr | Public domain (PDM) | [Panathenaic Stadium](https://www.flickr.com/photos/10164673@N02/49197849287) |
+| simera/cul-table.jpg | Χταπόδι στον ήλιο, Ηράκλειο | Milada Vigerova mili_vigerova · Wikimedia Commons | CC0 | [File:Heraklion, Greece (Unsplash).jpg](https://commons.wikimedia.org/w/index.php?curid=62119776) |
+| simera/geo-nature.jpg | Στον Όλυμπο | Ben Dumond bendumond · Wikimedia Commons | CC0 | [File:Mount Olympus, Greece (Unsplash).jpg](https://commons.wikimedia.org/w/index.php?curid=62162090) |
+| simera/geo-population.jpg | Η Αθήνα από την Ακρόπολη, με τον Λυκαβηττό | Daquella manera · Flickr | CC0 | [Atenas dese la Acrópolis](https://www.flickr.com/photos/62518311@N00/195430574) |
+| simera/geo-relief.jpg | Χιονισμένα βουνά κοντά στα Καλάβρυτα | Jason Blackeye jeisblack · Wikimedia Commons | CC0 | [Kalavrita, Greece (Unsplash)](https://commons.wikimedia.org/w/index.php?curid=61702319) |
+| simera/glo-digital-energy.jpg | Φωτοβολταϊκό πάρκο στις Σέρρες | Jason Blackeye jeisblack · Wikimedia Commons | CC0 | [File:Serres, Greece (Unsplash KRWfiWPqbq8).jpg](https://commons.wikimedia.org/w/index.php?curid=62054955) |
+| simera/glo-shipping.jpg | Στο λιμάνι του Πειραιά | brenkee · Flickr | CC0 | [Piraeus Port](https://www.flickr.com/photos/55128416@N05/29727640928) |
+| simera/glo-tourism.jpg | Τρούλος εκκλησίας στα Φηρά της Σαντορίνης | Chris Lawton chrislawton · Wikimedia Commons | CC0 | [Fira, Greece (Unsplash 0PaCPIKmXgs)](https://commons.wikimedia.org/w/index.php?curid=61891788) |
+| simera/hr-framework.jpg | Το ημικύκλιο του Συμβουλίου της Ευρώπης στο Στρασβούργο | Parlamentul Republicii Moldova | Pagina oficială · Flickr | Public domain (PDM) | [Conferința Europeană a Președinților de Parlament, Strasbourg, 24-25 octombrie](https://www.flickr.com/photos/135957213@N07/48952095676) |
+| simera/hr-migration.jpg | Σωσίβια σε ακτή του Αιγαίου, καθώς φτάνει μια βάρκα (2015) | FreedomHouse · Flickr | Public domain (PDM) | [Migrants and refugees arrive by dinghy behind a huge pile of life vests after cr](https://www.flickr.com/photos/69684588@N07/21245377578) |
+| simera/pol-life.jpg | Η πλατεία Συντάγματος και η Βουλή | Gary Lee Todd, Ph.D. · Flickr | CC0 | [Hellenic Parliament of Greece](https://www.flickr.com/photos/101561334@N08/28570479896) |
+| simera/por-day.jpg | Συρμός στο μετρό της Αθήνας | – FelixM – · Flickr | Public domain (PDM) | [Athen metro train](https://www.flickr.com/photos/91875255@N05/17077589915) |
+| simera/por-values.jpg | Ένα παλιό καφέ | pantelispan · Flickr | Public domain (PDM) | [Vintage Cafe](https://www.flickr.com/photos/162706130@N02/49829410692) |
+| simera/por-village.jpg | Πλατεία χωριού στη σκιά ενός πλάτανου | Angelos @ Ottawa · Flickr | Public domain (PDM) | [Village Square Shaded By Platanus (Plane) Tree](https://www.flickr.com/photos/194609185@N08/53025633315) |
+| simera/por-youth.jpg | Νέοι σε έναν λόφο της Αθήνας | Aidan Meyer aidanjjmeyer · Wikimedia Commons | CC0 | [Athens, Greece (Unsplash Q9GlzfhYgGk)](https://commons.wikimedia.org/w/index.php?curid=61705590) |
+| simera/reg-athos.jpg | Η μονή Σίμωνος Πέτρας, Άγιον Όρος | Angelos @ Ottawa · Flickr | Public domain (PDM) | [Simonopetra Monastery, Mount Athos](https://www.flickr.com/photos/194609185@N08/53874839234) |
+| simera/reg-attica.jpg | Η Ακρόπολη από τον Άρειο Πάγο | Gary Lee Todd, Ph.D. · Flickr | CC0 | [Athens Acropolis Viewed from Aeropagus](https://www.flickr.com/photos/101561334@N08/28159955940) |
+| simera/reg-central-greece.jpg | Ο πολυγωνικός τοίχος και ο ναός του Απόλλωνα, Δελφοί | Sofia AtmatzidouEulgem · Flickr | Public domain (PDM) | [The Temple of Apollo, The pollygonal Wall, Delphi, Greece](https://www.flickr.com/photos/62364615@N08/6196596343) |
+| simera/reg-central-macedonia.jpg | Ο Λευκός Πύργος, Θεσσαλονίκη | gio.miho · Flickr | CC0 | [WHITE TOWER THESSALONIKI!](https://www.flickr.com/photos/133265645@N05/49501472258) |
+| simera/reg-crete.jpg | Κληματαριά στη Φαιστό | Milada Vigerova mili_vigerova · Wikimedia Commons | CC0 | [File:Faistos, Greece (Unsplash).jpg](https://commons.wikimedia.org/w/index.php?curid=62051996) |
+| simera/reg-epirus.jpg | Η λίμνη των Ιωαννίνων και το νησάκι | Dimitris Karagiorgos · Flickr | Public domain (PDM) | [Ioannina Lake](https://www.flickr.com/photos/11513361@N03/5990359488) |
+| simera/reg-ionian.jpg | Το Παλαιό Φρούριο της Κέρκυρας | Julien Maury · Flickr | Public domain (PDM) | [Old Fortress of Corfu Town](https://www.flickr.com/photos/95274266@N06/44058183934) |
+| simera/reg-north-aegean.jpg | Προϊόντα με μαστίχα Χίου | Christos Pontikis · Flickr | Public domain (PDM) | [Tasting Anax SuperFood #anax #superfood #thyme #honey #chios #mastic #gojiberrie](https://www.flickr.com/photos/92854661@N07/23479933119) |
+| simera/reg-peloponnese.jpg | Μαγαζί με τοπικά προϊόντα στο Ναύπλιο | Jason Blackeye jeisblack · Wikimedia Commons | CC0 | [File:Nafplion, Greece (Unsplash K1uLEiqTQEA).jpg](https://commons.wikimedia.org/w/index.php?curid=62061267) |
+| simera/reg-south-aegean.jpg | Το λιμάνι της Σύμης | BIG ALBERT · Flickr | CC0 | [The harbour , Symi, Greece](https://www.flickr.com/photos/52948047@N05/37589283536) |
+| simera/reg-thessaly.jpg | Τα Μετέωρα | Organized by Chrysoula Gitsoulis · Flickr | Public domain (PDM) | [Meteora](https://www.flickr.com/photos/158704445@N07/37184707002) |
+| simera/reg-thrace.jpg | Στον Νέστο | Jason Blackeye jeisblack · Wikimedia Commons | CC0 | [File:Nestos, Greece (Unsplash).jpg](https://commons.wikimedia.org/w/index.php?curid=61783186) |
+| simera/reg-western-greece.jpg | Η γέφυρα Ρίου–Αντιρρίου | Jason Blackeye jeisblack · Wikimedia Commons | CC0 | [Great bridge of Rio, Greece (Unsplash)](https://commons.wikimedia.org/w/index.php?curid=62214282) |
+| simera/rel-everyday.jpg | Μεγάλη Παρασκευή: ο στολισμός του Επιταφίου, πίνακας | oriana.italy · Flickr | Public domain (PDM) | [Orthodox Easter ~ Μεγάλη Παρασκευή](https://www.flickr.com/photos/7662015@N05/26113861333) |
+| simera/rel-orthodoxy.jpg | Εκκλησία στην Τήνο | Matthieu MILLION mcube · Wikimedia Commons | CC0 | [Tinos, Greece (Unsplash)](https://commons.wikimedia.org/w/index.php?curid=62090097) |
+| simera/soc-braindrain.jpg | Θέα στην Αθήνα από ψηλά | Aidan Meyer aidanjjmeyer · Wikimedia Commons | CC0 | [File:Athens, Greece (Unsplash 5 C 5aL6ztc).jpg](https://commons.wikimedia.org/w/index.php?curid=62056406) |
+| simera/soc-housing.jpg | Παλιό σπίτι στα Κουντουριώτικα του Πειραιά, 2022 | Αρχείο Baldwin-Edwards · Flickr | CC0 | [Kountouriotika, 2022 (photo 6)](https://www.flickr.com/photos/77434771@N08/52007156777) |
