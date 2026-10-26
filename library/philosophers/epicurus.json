@@ -1,0 +1,706 @@
+{
+  "id": "epicurus",
+  "el": "Επίκουρος",
+  "title": "Epicurus",
+  "level": "C1",
+  "dates": "341 – 270 π.Χ.",
+  "image": {
+    "file": "img/philosophers/epicurus.jpg",
+    "caption": "Προτομή του Επίκουρου, ρωμαϊκό αντίγραφο ελληνιστικού πρωτοτύπου, Βρετανικό Μουσείο.",
+    "caption_en": "Bust of Epicurus, Roman copy of a Hellenistic original, British Museum.",
+    "credit": "Photo: Marie-Lan Nguyen (Jastrow), 2011",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Epikouros_BM_1843.jpg"
+  },
+  "summary_en": "Epicurus (341–270 BC), born on Samos to Athenian settlers, founded in Athens the **Garden**, a philosophical community that admitted women and at least one slave. He took over Democritus’ **atoms and void**, adding a small random **swerve** to leave room for freedom, and used physics as medicine for the soul: if the world runs by natural causes, we need not fear the gods, and if the soul is atoms that scatter at death, then **“death is nothing to us”**. The goal of life is **pleasure**, understood not as luxury but as the absence of bodily pain and mental disturbance (**ataraxia**), reached by a simple life, the limiting of desires, and above all **friendship**. Almost all of his 300 rolls are lost: we know him through three letters and two collections of maxims preserved by Diogenes Laertius, through charred papyri from Herculaneum and an inscription at Oenoanda, and through the Latin poem of **Lucretius**. Reviled by Christian writers, he returned through Gassendi in the 17th century and influenced the utilitarians.",
+  "terms": [
+    {
+      "el": "η ηδονή",
+      "en": "pleasure",
+      "def_el": "Το ευχάριστο συναίσθημα· για τον Επίκουρο, κυρίως η απουσία πόνου.",
+      "def_en": "Hence ηδονισμός “hedonism”. In everyday modern Greek ηδονή often has a sensual tone; ευχαρίστηση is the neutral word."
+    },
+    {
+      "el": "η αταραξία",
+      "en": "tranquillity, freedom from disturbance",
+      "def_el": "Η κατάσταση της ψυχής όταν δεν την ταράζει κανένας φόβος.",
+      "def_en": "α- + ταράζω. The Epicurean and Pyrrhonist goal."
+    },
+    {
+      "el": "η απονία",
+      "en": "absence of bodily pain",
+      "def_el": "Η κατάσταση του σώματος χωρίς πόνο.",
+      "def_en": "α- + πόνος. Paired with ataraxia as the two “static” pleasures."
+    },
+    {
+      "el": "ο Κήπος",
+      "en": "the Garden",
+      "def_el": "Η σχολή του Επίκουρου στην Αθήνα, που ήταν και κοινότητα φίλων.",
+      "def_en": "Like Ακαδημία and Λύκειο, a place name that became the name of a school."
+    },
+    {
+      "el": "το άτομο",
+      "en": "atom",
+      "def_el": "Το πολύ μικρό σωματίδιο που δεν μπορεί να κοπεί.",
+      "def_en": "α- + τέμνω “cut”. In modern Greek άτομο usually means “individual, person”!"
+    },
+    {
+      "el": "το κενό",
+      "en": "void, empty space",
+      "def_el": "Ο άδειος χώρος μέσα στον οποίο κινούνται τα άτομα.",
+      "def_en": "Everyday word: κενό “gap, blank, vacuum”."
+    },
+    {
+      "el": "η παρέγκλιση",
+      "en": "the swerve (clinamen)",
+      "def_el": "Μια μικρή, απρόβλεπτη απόκλιση των ατόμων από την ευθεία κίνηση.",
+      "def_en": "Modern term from παρεκκλίνω “deviate”; Lucretius’ Latin is clinamen."
+    },
+    {
+      "el": "η επιθυμία",
+      "en": "desire",
+      "def_el": "Αυτό που θέλουμε να έχουμε ή να κάνουμε.",
+      "def_en": "Epicurus divides desires into natural and necessary, natural but not necessary, and vain."
+    },
+    {
+      "el": "η φρόνηση",
+      "en": "practical wisdom, prudence",
+      "def_el": "Η ικανότητα να κρίνεις σωστά τι πρέπει να κάνεις στη ζωή.",
+      "def_en": "For Epicurus “more precious even than philosophy”. Cf. φρόνιμος “sensible”."
+    },
+    {
+      "el": "η φιλία",
+      "en": "friendship",
+      "def_el": "Η σχέση αγάπης και εμπιστοσύνης ανάμεσα σε φίλους.",
+      "def_en": "The greatest of the goods that wisdom provides for a happy life."
+    },
+    {
+      "el": "η τετραφάρμακος",
+      "en": "the “fourfold remedy”",
+      "def_el": "Οι τέσσερις πρώτες Κύριες Δόξες: για τους θεούς, τον θάνατο, την ηδονή και τον πόνο.",
+      "def_en": "τέσσερα + φάρμακο. Name given to the first four Principal Doctrines."
+    },
+    {
+      "el": "επικούρειος",
+      "en": "Epicurean",
+      "def_el": "Αυτός που ακολουθεί τη φιλοσοφία του Επίκουρου· στην καθημερινή γλώσσα, αυτός που αγαπά τις απολαύσεις.",
+      "def_en": "The everyday sense “gourmet” is the opposite of Epicurus’ bread-and-water life."
+    }
+  ],
+  "sections": [
+    {
+      "id": "context",
+      "el": "Ιστορικό πλαίσιο",
+      "en": "Historical context",
+      "paras": [
+        {
+          "el": "Ο Επίκουρος γεννήθηκε το 341 π.Χ. στη Σάμο, όπου οι Αθηναίοι είχαν στείλει αποίκους. Ήταν όμως Αθηναίος πολίτης, από τον δήμο του Γαργηττού. Έζησε την εποχή που άρχισε με τον θάνατο του Αλεξάνδρου, το 323 π.Χ., την εποχή που οι ιστορικοί ονομάζουν ελληνιστική.",
+          "en": "Epicurus was born in 341 BC on Samos, where Athens had sent settlers; he was nevertheless an Athenian citizen of the deme Gargettus, the son of Neocles and Chaerestrate. His adult life fell in the age that opened with Alexander’s death in 323 BC, which historians call Hellenistic.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Ήταν εποχή αναταραχής. Οι διάδοχοι του Αλεξάνδρου πολεμούσαν μεταξύ τους, η Αθήνα είχε χάσει την ανεξαρτησία της και οι πόλεις άλλαζαν κυρίαρχους. Όταν ο Περδίκκας έδιωξε τους Αθηναίους αποίκους από τη Σάμο, η οικογένεια του Επίκουρου κατέφυγε στην Κολοφώνα, στη Μικρά Ασία.",
+          "en": "It was a turbulent age. Alexander’s successors fought one another, Athens had lost its independence, and cities changed masters. When Perdiccas expelled the Athenian settlers from Samos, Epicurus’ family took refuge in Colophon on the coast of Asia Minor.",
+          "cite": [
+            1,
+            4
+          ]
+        },
+        {
+          "el": "Σε τέτοιους καιρούς, οι νέες φιλοσοφικές σχολές, οι στωικοί, οι σκεπτικοί και οι επικούρειοι, δεν ρωτούσαν πια πρώτα απ’ όλα ποια είναι η καλύτερη πολιτεία. Ρωτούσαν πώς μπορεί ο καθένας να ζήσει ευτυχισμένος και ήρεμος, ό,τι κι αν συμβαίνει γύρω του.",
+          "en": "In such times the new schools, Stoics, Sceptics and Epicureans, no longer asked first what the best city was. They asked how each person could live happily and calmly whatever happened around them; all three offered a path to tranquillity, and Epicurus made his physics serve that goal.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Ο Επίκουρος αντιπαρατέθηκε έντονα με τον Πλάτωνα. Πάνω από τις μισές από τις σαράντα «Κύριες Δόξες» του, λέει μια σύγχρονη μελέτη, αντικρούουν ευθέως πλατωνικές θέσεις.",
+          "en": "Epicurus set himself firmly against Plato: according to a modern study cited by Wikipedia, over half of his forty Principal Doctrines are flat contradictions of Platonism.",
+          "cite": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "el": "Βιογραφία",
+      "en": "Biography",
+      "paras": [
+        {
+          "el": "Ο ίδιος έλεγε ότι άρχισε να ασχολείται με τη φιλοσοφία στα δεκατέσσερα. Ένας αρχαίος βιογράφος λέει ότι στράφηκε στη φιλοσοφία από αηδία για τους δασκάλους του σχολείου, που δεν μπορούσαν να του εξηγήσουν τι σημαίνει «χάος» στον Ησίοδο. Στη Σάμο άκουσε, λένε, τον πλατωνικό Πάμφιλο.",
+          "en": "He said himself that he first came into contact with philosophy at fourteen. Apollodorus the Epicurean says he turned to it in disgust at schoolmasters who could not explain to him the meaning of “chaos” in Hesiod. On Samos he is said to have heard the Platonist Pamphilus.",
+          "cite": [
+            3
+          ]
+        },
+        {
+          "el": "Στα δεκαοχτώ πήγε στην Αθήνα για τη στρατιωτική του θητεία, την εποχή που δίδασκε στην Ακαδημία ο Ξενοκράτης. Ύστερα πήγε στην οικογένειά του στην Κολοφώνα. Μαθήτευσε επίσης στον Ναυσιφάνη, οπαδό του Δημόκριτου, αν και αργότερα τον έβριζε και έλεγε ότι ήταν αυτοδίδακτος.",
+          "en": "At eighteen he came to Athens for military service, when Xenocrates was lecturing at the Academy, and then joined his family in Colophon (321). He studied with Nausiphanes, a follower of Democritus, though later he abused him and claimed to be self-taught.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Γύρω στο 311 π.Χ., σε ηλικία περίπου τριάντα χρονών, άρχισε να διδάσκει στη Μυτιλήνη της Λέσβου και ύστερα στη Λάμψακο, στον Ελλήσποντο. Εκεί απέκτησε τους πιστότερους μαθητές του: τον Μητρόδωρο, τον Ιδομενέα και τον Έρμαρχο.",
+          "en": "Around 311 BC, aged about thirty, he began teaching at Mytilene on Lesbos and then at Lampsacus on the Hellespont, where he gained his most loyal followers: Metrodorus, Idomeneus and, from Mytilene, Hermarchus.",
+          "cite": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "el": "Το 307/306 π.Χ. γύρισε στην Αθήνα και αγόρασε έναν κήπο για ογδόντα μνες. Ο «Κήπος» έγινε σχολή αλλά και κοινότητα: εκεί ζούσαν φίλοι που έρχονταν από παντού, τα αδέλφια του, ο δούλος του ο Μυς, και γυναίκες όπως η Θεμίστα, η Λεόντιον και η Νικίδιον.",
+          "en": "In 307/306 BC he returned to Athens and bought a garden for eighty minae. The Garden became a school and a community: friends came from everywhere to live there, along with his three brothers, his slave Mys, and many women, among them Themista, Leontion and Nikidion. Hostile writers turned the women into courtesans; DL records and rejects such slanders.",
+          "cite": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "el": "Η ζωή στον Κήπο ήταν απλή. Ο Επίκουρος έγραφε ότι του αρκούσε ψωμί και νερό, και σε έναν φίλο του έγραψε: «Στείλε μου ένα κεσεδάκι τυρί, για να μπορώ να κάνω τραπέζι όποτε θέλω».",
+          "en": "Life in the Garden was frugal. Epicurus wrote that he was content with plain bread and water, and asked a friend: “Send me a little pot of cheese, that, when I like, I may fare sumptuously” (DL X 11).",
+          "cite": [
+            3
+          ]
+        },
+        {
+          "el": "Έγραψε πολύ: περίπου τριακόσιους κυλίνδρους, χωρίς να παραθέτει ποτέ άλλους συγγραφείς. Το σπουδαιότερο έργο του, το «Περί φύσεως», είχε τριάντα επτά βιβλία. Έγραφε επίσης πολλά γράμματα σε φίλους και μαθητές σε όλο τον ελληνικό κόσμο.",
+          "en": "He wrote a great deal: about 300 rolls, without ever quoting another author. His major work, On Nature, ran to thirty-seven books. He also wrote many letters to friends and pupils across the Greek world.",
+          "cite": [
+            3,
+            4
+          ]
+        },
+        {
+          "el": "Πέθανε το 270 π.Χ., στα εβδομήντα ένα του, από πέτρα στα νεφρά, ύστερα από δεκαπέντε μέρες πόνων. Την τελευταία μέρα έγραψε στον Ιδομενέα: «Σου γράφω αυτή την ευτυχισμένη μέρα, που είναι και η τελευταία της ζωής μου». Ο πόνος ήταν φοβερός, έγραφε, αλλά τον αντιστάθμιζε η χαρά της ψυχής του όταν θυμόταν τις συζητήσεις τους.",
+          "en": "He died in 270 BC, aged about seventy-one, of a kidney stone after a fortnight’s illness. On his last day he wrote to Idomeneus: “On this blissful day, which is also the last of my life, I write this to you. My continual sufferings from strangury and dysentery are great, but all are counterbalanced by the joy in my heart at the recollection of my conversations with you” (DL X 22). Hermippus adds that he entered a warm bath, drank unmixed wine and bade his friends remember his doctrines.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Στη διαθήκη του άφησε τον Κήπο στον Έρμαρχο και στη σχολή, όρισε να γιορτάζεται κάθε χρόνο τα γενέθλιά του και κάθε μήνα, την εικοστή μέρα, η μνήμη του ίδιου και του Μητρόδωρου, και ελευθέρωσε τους δούλους του. Το έθιμο της εικοστής κράτησε αιώνες.",
+          "en": "His will, preserved by Diogenes Laertius, left the Garden to Hermarchus and the school, provided for an annual celebration of his birthday and a monthly gathering on the twentieth day in memory of himself and Metrodorus, and freed his slaves Mys, Nicias and Lycon. The “twentieth” custom lasted for centuries.",
+          "cite": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "el": "Κοσμολογία: άτομα, κενό και θεοί",
+      "en": "Cosmology: atoms, void and gods",
+      "paras": [
+        {
+          "el": "Για τον Επίκουρο, η φυσική δεν μελετιέται για χάρη της γνώσης, αλλά για χάρη της ευτυχίας. Αν δεν μας τάραζαν ο φόβος για τα ουράνια φαινόμενα και ο φόβος του θανάτου, δεν θα χρειαζόμασταν καθόλου φυσική επιστήμη.",
+          "en": "For Epicurus physics is studied not for knowledge’s sake but for happiness. Natural science is a remedy: if we were not disturbed by fear of celestial phenomena and of death, we would have no need of it (Principal Doctrine 11).",
+          "cite": [
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Από τον Δημόκριτο, μέσω του Ναυσιφάνη, πήρε την ιδέα ότι ο κόσμος αποτελείται μόνο από άτομα και κενό. Τα άτομα είναι άπειρα, αιώνια και άφθαρτα· διαφέρουν μόνο σε σχήμα, μέγεθος και βάρος. Όλα τα άλλα, χρώματα, γεύσεις, ζωντανά όντα, προκύπτουν από τους συνδυασμούς τους.",
+          "en": "From Democritus, via Nausiphanes, he took the view that the world consists only of atoms and void. Atoms are infinite in number, eternal and indestructible, differing only in shape, size and weight; everything else, colours, tastes, living things, arises from their combinations. Properties such as “being healthy” are real, but belong only to groups of atoms.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Ο Επίκουρος πρόσθεσε κάτι καινούργιο: τα άτομα, που πέφτουν προς τα κάτω μέσα στο κενό, κάποιες στιγμές κάνουν μια πολύ μικρή, απρόβλεπτη παρέκκλιση. Χωρίς αυτήν, λέει ο Λουκρήτιος, θα έπεφταν «σαν σταγόνες βροχής» και δεν θα συγκρούονταν ποτέ. Και χωρίς αυτήν, όλα θα ήταν προκαθορισμένα· η παρέγκλιση «σπάει τα δεσμά της μοίρας» και αφήνει χώρο για την ελευθερία.",
+          "en": "Epicurus added something new: atoms falling through the void occasionally swerve by a minimal, random amount. Without it, says Lucretius, they would “fall downward, like drops of rain, through the deep void” and never collide; and without it everything would be determined. The swerve “breaks the bonds of fate” and preserves human freedom.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Ο κόσμος μας δεν είναι ο μόνος. Επειδή τα άτομα και ο χώρος είναι άπειρα, υπάρχουν άπειροι κόσμοι, που γεννιούνται και χάνονται. Κανένας θεός δεν τους δημιούργησε· όλα εξηγούνται μηχανικά, με φυσικές αιτίες.",
+          "en": "Ours is not the only world: since atoms and space are infinite, there are innumerable worlds that come into being and pass away. No god made them; everything is explained mechanistically, by natural causes, which removes the fear that the gods are behind thunder, earthquakes or eclipses.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Ο Επίκουρος όμως δεν ήταν άθεος. Πίστευε ότι οι θεοί υπάρχουν, αλλά ότι είναι μακάριοι και αθάνατοι και ζουν στα διάκενα ανάμεσα στους κόσμους. Ένα ον τέλεια ευτυχισμένο δεν έχει έγνοιες· άρα οι θεοί δεν ασχολούνται με εμάς, ούτε τιμωρούν ούτε ανταμείβουν.",
+          "en": "Epicurus was not an atheist. The gods exist, but they are blessed and immortal and live in the spaces between the worlds (the intermundia). A perfectly happy being has no troubles, so the gods do not concern themselves with us, neither punishing nor rewarding. The Christian writer Lactantius attributes to Epicurus a famous form of the problem of evil: if god is willing to prevent evil but unable, or able but unwilling, how can he be god?",
+          "cite": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "el": "Θεωρίες: η ηδονή, ο θάνατος, η φιλία",
+      "en": "Theories: pleasure, death, friendship",
+      "paras": [
+        {
+          "el": "«Η ηδονή είναι η αρχή και το τέλος της ευτυχισμένης ζωής», γράφει ο Επίκουρος στον Μενοικέα. Αλλά προσθέτει αμέσως: «Όταν λέμε ότι η ηδονή είναι ο σκοπός, δεν εννοούμε τις ηδονές των ακόλαστων, αλλά το να μην πονάει το σώμα και να μην ταράζεται η ψυχή».",
+          "en": "“We call pleasure the alpha and omega of a blessed life”, he writes to Menoeceus. But at once he adds: by pleasure “we mean the absence of pain in the body and of trouble in the soul. It is not an unbroken succession of drinking-bouts and of revelry… which produce a pleasant life; it is sober reasoning” (DL X 128–132).",
+          "cite": [
+            3
+          ]
+        },
+        {
+          "el": "Ο Επίκουρος ξεχωρίζει δύο είδη ηδονής. Οι «κινητικές» ηδονές είναι αυτές που νιώθουμε όταν ικανοποιούμε μια ανάγκη, όπως όταν τρώμε πεινασμένοι. Οι «στατικές» είναι η κατάσταση που ακολουθεί: η απονία του σώματος και η αταραξία της ψυχής. Αυτές είναι οι ανώτερες.",
+          "en": "He distinguishes kinetic pleasures, felt while satisfying a need (eating when hungry), from static pleasures, the condition that follows: absence of bodily pain (aponia) and of mental disturbance (ataraxia). The static pleasures are the highest; beyond the removal of pain, pleasure can be varied but not increased (Principal Doctrine 18).",
+          "cite": [
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Και οι επιθυμίες δεν είναι όλες ίδιες. Άλλες είναι φυσικές και αναγκαίες, όπως η πείνα και η δίψα· άλλες φυσικές αλλά όχι αναγκαίες, όπως η επιθυμία για ακριβό φαγητό· και άλλες κενές, όπως η επιθυμία για πλούτο, δόξα και εξουσία, που δεν έχουν όριο και δεν ικανοποιούνται ποτέ. «Αν θέλεις να κάνεις τον Πυθοκλή πλούσιο», έγραφε, «μην του δίνεις περισσότερα χρήματα· να μειώνεις τις επιθυμίες του».",
+          "en": "Desires are not all alike. Some are natural and necessary (hunger, thirst); some natural but not necessary (fancy food); and some vain and empty (wealth, fame, power), which have no natural limit and can never be satisfied (Principal Doctrine 29). “If you wish to make Pythocles wealthy, don’t give him more money; rather, reduce his desires.” Bread and water, he says, give the highest pleasure to hungry lips.",
+          "cite": [
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Ο μεγαλύτερος φόβος είναι ο φόβος του θανάτου. Ο Επίκουρος απαντά: «Ο θάνατος δεν είναι τίποτα για μας». Η ψυχή είναι κι αυτή φτιαγμένη από άτομα, που σκορπίζουν όταν πεθαίνουμε. «Όσο υπάρχουμε, ο θάνατος δεν υπάρχει· κι όταν έρθει ο θάνατος, εμείς δεν υπάρχουμε». Δεν θα υπάρχει κανείς για να υποφέρει.",
+          "en": "The greatest fear is fear of death. Epicurus answers: “death is nothing to us” (Principal Doctrine 2). The soul too is made of atoms, which disperse at death; “when we are, death is not come, and when death is come, we are not” (DL X 125). There will be no subject left to be harmed. Lucretius adds the symmetry argument: we were not troubled by the eternity before our birth, so why fear the eternity after death?",
+          "cite": [
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Οι τέσσερις πρώτες «Κύριες Δόξες» ονομάστηκαν αργότερα «τετραφάρμακος», ένα φάρμακο με τέσσερα υλικά για την ψυχή: ο θεός δεν είναι φοβερός· ο θάνατος δεν είναι τίποτα για μας· το καλό αποκτιέται εύκολα· το κακό υποφέρεται εύκολα.",
+          "en": "The first four Principal Doctrines were later called the tetrapharmakos, the “fourfold remedy”, often summarised as: god is not to be feared; death is nothing to us; the good is easy to obtain; the terrible is easy to endure.",
+          "cite": [
+            2,
+            4
+          ]
+        },
+        {
+          "el": "Η δικαιοσύνη δεν είναι κάτι θεϊκό ή αιώνιο. Είναι μια συμφωνία ανάμεσα στους ανθρώπους «να μη βλάπτουν ούτε να βλάπτονται». Δεν πρέπει να αδικούμε, γιατί, ακόμη κι αν δεν μας πιάσουν, θα ζούμε με τον φόβο ότι θα μας πιάσουν, και τότε χάνεται η αταραξία.",
+          "en": "Justice is nothing divine or eternal but an agreement among people “neither to harm nor be harmed”. We should not act unjustly because, even if we escape notice, we would live in fear of being caught, and tranquillity would be lost.",
+          "cite": [
+            2,
+            4
+          ]
+        },
+        {
+          "el": "Πάνω απ’ όλα όμως ο Επίκουρος υμνεί τη φιλία. Από όσα μας δίνει η σοφία για μια ευτυχισμένη ζωή, το μεγαλύτερο είναι η φιλία. «Η φιλία χορεύει γύρω από την οικουμένη», γράφει, «καλώντας μας όλους να ξυπνήσουμε για να μακαρίσουμε τη ζωή μας».",
+          "en": "Above all, Epicurus praises friendship: of all the things wisdom provides for a blessed life, the greatest is friendship (Principal Doctrine 27). “Friendship dances around the world, announcing to all of us that we must wake up to blessedness” (Vatican Saying 52).",
+          "cite": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "el": "Επίδραση",
+      "en": "Impact",
+      "paras": [
+        {
+          "el": "Η σχολή του Επίκουρου κράτησε αιώνες. Τον πρώτο αιώνα π.Χ. ο Ρωμαίος ποιητής Λουκρήτιος έγραψε στα λατινικά ένα μεγάλο ποίημα, το «Για τη φύση των πραγμάτων», που είναι σήμερα η πληρέστερη πηγή μας για την επικούρεια φυσική. Τον δεύτερο αιώνα μ.Χ. ένας επικούρειος, ο Διογένης, χάραξε κείμενα του Επίκουρου σε έναν τοίχο στα Οινόανδα της Λυκίας, για να τα διαβάζουν οι περαστικοί.",
+          "en": "The school lasted for centuries. In the first century BC the Roman poet Lucretius wrote On the Nature of Things, still our fullest source for Epicurean physics. In the second century AD the Epicurean Diogenes of Oenoanda had Epicurean texts, including a letter of Epicurus, inscribed on a portico wall in Lycia (modern Turkey) for passers-by to read.",
+          "cite": [
+            2,
+            4
+          ]
+        },
+        {
+          "el": "Σχεδόν όλα τα έργα του Επίκουρου χάθηκαν. Σώθηκαν τρία γράμματα και δύο συλλογές αποφθεγμάτων, χάρη στον Διογένη τον Λαέρτιο. Κομμάτια από το «Περί φύσεως» βρέθηκαν στους απανθρακωμένους παπύρους του Ηρκουλάνεουμ, που έθαψε ο Βεζούβιος το 79 μ.Χ.",
+          "en": "Almost all of his works are lost. Three letters (to Herodotus on physics, to Pythocles on celestial phenomena, to Menoeceus on ethics) and two collections of maxims survive thanks to Diogenes Laertius. Parts of On Nature have been recovered from the carbonised Herculaneum papyri, buried by Vesuvius in AD 79. Hostile reports by Cicero and Plutarch must be used with caution.",
+          "cite": [
+            2,
+            4
+          ]
+        },
+        {
+          "el": "Οι χριστιανοί συγγραφείς τον πολέμησαν περισσότερο από κάθε άλλον αρχαίο φιλόσοφο, γιατί δίδασκε ότι η ψυχή είναι θνητή, ότι δεν υπάρχει μεταθανάτια ζωή και ότι οι θεοί δεν ανακατεύονται στα ανθρώπινα. Το όνομά του έγινε συνώνυμο της απόλαυσης, και η λέξη «επικούρειος» σημαίνει ακόμη και σήμερα «καλοφαγάς».",
+          "en": "Christian writers opposed him more than any other ancient school, since Epicureans held the soul to be mortal, denied an afterlife and denied that the divine had any active role in human life; this hostility helps explain why so little survives. His name became a byword for indulgence, which is why “epicure” and Greek επικούρειος can mean a gourmet.",
+          "cite": [
+            2,
+            4
+          ]
+        },
+        {
+          "el": "Τον 17ο αιώνα ο Γάλλος καθολικός ιερέας Πιέρ Γκασαντί ξαναζωντάνεψε την ατομική θεωρία του, προσαρμοσμένη στη χριστιανική πίστη, και την έκανε γνωστή στους επιστήμονες της εποχής. Τον 19ο αιώνα, οι Βρετανοί ωφελιμιστές, ο Μπένθαμ, ο Μιλ και ο Σίτζγουικ, στηρίχτηκαν στις ιδέες του για την ηδονή και τον πόνο.",
+          "en": "In the seventeenth century the French Catholic priest Pierre Gassendi revived a modified version of his atomism, with atoms created by God, which spread among English scientists such as Robert Boyle. In nineteenth-century Britain the utilitarians Jeremy Bentham, John Stuart Mill and Henry Sidgwick adapted his psychological hedonism, and thinkers from John Locke to Karl Marx engaged with him.",
+          "cite": [
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "level": "C1",
+      "title": "Passive of reciprocity: να μη βλάπτουν ούτε να βλάπτονται",
+      "en": "Epicurus’ definition of justice turns on the active/passive pair **βλάπτω / βλάπτομαι** (harm / be harmed). Such symmetrical pairs are a hallmark of formal argument: **αδικώ / αδικούμαι**, **αγαπώ / αγαπιέμαι**, **κρίνω / κρίνομαι**. Note the negative series **να μη(ν) … ούτε να …**: after **να** use **μη(ν)**, never **δεν**.",
+      "examples": [
+        {
+          "el": "Συμφωνούμε να μη βλάπτουμε ούτε να βλαπτόμαστε.",
+          "en": "We agree neither to harm nor to be harmed."
+        },
+        {
+          "el": "Είναι προτιμότερο να αδικείσαι παρά να αδικείς, έλεγε ο Σωκράτης.",
+          "en": "It is better to be wronged than to do wrong, said Socrates."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Όσο… / όταν…: temporal clauses in argument",
+      "en": "«Όσο υπάρχουμε, ο θάνατος δεν υπάρχει· κι όταν έρθει ο θάνατος, εμείς δεν υπάρχουμε.» **Όσο** + present = “as long as, while”; **όταν** + **subjunctive (aorist)** = “when (in the future), whenever”: **όταν έρθει**, never *όταν θα έρθει*. The same rule applies to **μόλις, αφού, πριν (να), μέχρι να**.",
+      "examples": [
+        {
+          "el": "Όσο ζούμε, δεν έχουμε εμπειρία του θανάτου.",
+          "en": "As long as we live, we have no experience of death."
+        },
+        {
+          "el": "Όταν πεθάνουμε, τα άτομα της ψυχής θα σκορπίσουν.",
+          "en": "When we die, the atoms of the soul will scatter."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Three-way classification: άλλες… άλλες… και άλλες…",
+      "en": "To divide a whole into kinds, Greek repeats the pronoun **άλλος**: **άλλες επιθυμίες είναι φυσικές, άλλες κενές**. More formal alternatives: **οι μεν… οι δε…**, **ορισμένες… ενώ άλλες…**, **από τη μία… από την άλλη…**. Agreement follows the noun: **άλλοι φίλοι, άλλες ηδονές, άλλα άτομα**.",
+      "examples": [
+        {
+          "el": "Άλλες ηδονές είναι κινητικές και άλλες στατικές.",
+          "en": "Some pleasures are kinetic and others static."
+        },
+        {
+          "el": "Οι στωικοί μιλούσαν για αρετή, ενώ οι επικούρειοι για ηδονή.",
+          "en": "The Stoics spoke of virtue, the Epicureans of pleasure."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Concessive clauses: ακόμη κι αν, έστω κι αν, παρόλο που",
+      "en": "«Ακόμη κι αν δεν μας πιάσουν, θα ζούμε με φόβο.» For a hypothetical concession use **ακόμη κι αν / έστω κι αν** + subjunctive or past; for a fact use **παρόλο που / αν και** + indicative: **αν και τον είχε δάσκαλο, τον έβριζε**. **Όσο κι αν** = however much.",
+      "examples": [
+        {
+          "el": "Αν και πονούσε φοβερά, έγραψε ότι η μέρα ήταν ευτυχισμένη.",
+          "en": "Although he was in terrible pain, he wrote that the day was blissful."
+        },
+        {
+          "el": "Όσο κι αν αποκτήσεις, οι κενές επιθυμίες δεν τελειώνουν.",
+          "en": "However much you acquire, empty desires never end."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Word families with -φάρμακ-, -ηδον-, -ταραχ-",
+      "en": "Learn the families together: **φάρμακο, φαρμακείο, φαρμακοποιός, τετραφάρμακος**; **ηδονή, ηδονικός, ηδονισμός, ηδονιστής**; **ταράζω, ταραχή, αναταραχή, ταραγμένος, αταραξία, ατάραχος**. The adjective **ατάραχος** (“unruffled”) is common in modern journalism: **έμεινε ατάραχος**.",
+      "examples": [
+        {
+          "el": "Ο Επίκουρος έμεινε ατάραχος μπροστά στον θάνατο.",
+          "en": "Epicurus remained unruffled in the face of death."
+        },
+        {
+          "el": "Η εποχή του ήταν εποχή πολιτικής αναταραχής.",
+          "en": "His era was one of political turmoil."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "Πώς λεγόταν η σχολή του Επίκουρου στην Αθήνα;",
+      "options": [
+        "Ο Κήπος",
+        "Η Ακαδημία",
+        "Το Λύκειο",
+        "Η Στοά"
+      ],
+      "answer": "Ο Κήπος",
+      "why": "He bought a garden for eighty minae."
+    },
+    {
+      "q": "Τι ονομάζει ο Επίκουρος ηδονή;",
+      "options": [
+        "Την απουσία πόνου στο σώμα και ταραχής στην ψυχή",
+        "Τα συμπόσια και το κρασί",
+        "Τον πλούτο και τη δόξα",
+        "Τη γνώση των ιδεών"
+      ],
+      "answer": "Την απουσία πόνου στο σώμα και ταραχής στην ψυχή",
+      "why": "Letter to Menoeceus, DL X 131."
+    },
+    {
+      "q": "Γιατί, κατά τον Επίκουρο, δεν πρέπει να φοβόμαστε τον θάνατο;",
+      "options": [
+        "Γιατί όταν υπάρχει ο θάνατος, εμείς δεν υπάρχουμε",
+        "Γιατί η ψυχή είναι αθάνατη",
+        "Γιατί οι θεοί θα μας ανταμείψουν",
+        "Γιατί θα ξαναγεννηθούμε"
+      ],
+      "answer": "Γιατί όταν υπάρχει ο θάνατος, εμείς δεν υπάρχουμε",
+      "why": "The soul’s atoms scatter; no subject is left."
+    },
+    {
+      "q": "Τι προσθέτει ο Επίκουρος στην ατομική θεωρία του Δημόκριτου;",
+      "options": [
+        "Την παρέγκλιση των ατόμων",
+        "Τα τέσσερα στοιχεία",
+        "Τον νου που κινεί τον κόσμο",
+        "Τους αριθμούς"
+      ],
+      "answer": "Την παρέγκλιση των ατόμων",
+      "why": "The swerve allows collisions and freedom."
+    },
+    {
+      "q": "Τι κάνουν οι θεοί, κατά τον Επίκουρο;",
+      "options": [
+        "Ζουν μακάριοι και δεν ασχολούνται με εμάς",
+        "Τιμωρούν τους αδίκους",
+        "Δημιούργησαν τον κόσμο",
+        "Δεν υπάρχουν"
+      ],
+      "answer": "Ζουν μακάριοι και δεν ασχολούνται με εμάς",
+      "why": "They live in the intermundia."
+    },
+    {
+      "q": "Ποιο από τα παρακάτω είναι «κενή» επιθυμία;",
+      "options": [
+        "Η επιθυμία για δόξα",
+        "Η δίψα",
+        "Η πείνα",
+        "Η επιθυμία για ύπνο"
+      ],
+      "answer": "Η επιθυμία για δόξα",
+      "why": "Vain desires have no natural limit."
+    },
+    {
+      "q": "Συμπληρώστε: «Όταν ___ ο θάνατος, εμείς δεν υπάρχουμε.»",
+      "options": [
+        "έρθει",
+        "θα έρθει",
+        "ερχόταν",
+        "ήρθε"
+      ],
+      "answer": "έρθει",
+      "why": "όταν + aorist subjunctive for the future."
+    },
+    {
+      "q": "Ποιος Ρωμαίος ποιητής διέσωσε την επικούρεια φυσική σε ένα μεγάλο ποίημα;",
+      "options": [
+        "Ο Λουκρήτιος",
+        "Ο Βιργίλιος",
+        "Ο Οβίδιος",
+        "Ο Οράτιος"
+      ],
+      "answer": "Ο Λουκρήτιος",
+      "why": "On the Nature of Things."
+    }
+  ],
+  "vocab": [
+    "άποικος",
+    "δήμος",
+    "διάδοχος",
+    "ανεξαρτησία",
+    "καταφεύγω",
+    "αντιπαρατίθεμαι",
+    "αντικρούω",
+    "αηδία",
+    "θητεία",
+    "αυτοδίδακτος",
+    "βρίζω",
+    "κοινότητα",
+    "κεσεδάκι",
+    "κύλινδρος",
+    "παραθέτω",
+    "νεφρό",
+    "αντισταθμίζω",
+    "διαθήκη",
+    "ελευθερώνω",
+    "έθιμο",
+    "άφθαρτος",
+    "συνδυασμός",
+    "απρόβλεπτος",
+    "σταγόνα",
+    "συγκρούομαι",
+    "προκαθορισμένος",
+    "δεσμά",
+    "μοίρα",
+    "μακάριος",
+    "έγνοια",
+    "ανταμείβω",
+    "ακόλαστος",
+    "ικανοποιώ",
+    "σκορπίζω",
+    "υποφέρω",
+    "βλάπτω",
+    "υμνώ",
+    "οικουμένη",
+    "χαράζω",
+    "περαστικός",
+    "απόφθεγμα",
+    "απανθρακωμένος",
+    "πάπυρος",
+    "θνητός",
+    "μεταθανάτιος",
+    "ανακατεύομαι",
+    "καλοφαγάς",
+    "ωφελιμιστής"
+  ],
+  "gloss": {
+    "Βιογραφία": "βιογραφία — biography",
+    "Κοσμολογία": "κοσμολογία — cosmology",
+    "άθεος": "άθεος — atheist; godless",
+    "π.Χ.": "π.Χ. — BC (προ Χριστού)",
+    "μ.Χ.": "μ.Χ. — AD (μετά Χριστόν)",
+    "Πλάτωνα": "Πλάτων — Plato",
+    "Σωκράτης": "Σωκράτης — Socrates",
+    "Λαέρτιο": "Διογένης Λαέρτιος — Diogenes Laertius",
+    "Δημόκριτο": "Δημόκριτος — Democritus",
+    "Επίκουρος": "Επίκουρος — Epicurus",
+    "Επίκουρο": "Επίκουρος — Epicurus",
+    "Ακαδημία": "Ακαδημία — Plato’s Academy",
+    "Λύκειο": "Λύκειο — Aristotle’s Lyceum; (today) upper secondary school",
+    "αρχή": "αρχή — beginning; principle; authority",
+    "Σάμο": "Σάμος — Samos, island",
+    "Ησίοδο": "Ησίοδος — Hesiod, poet (c. 700 BC)",
+    "Διογένη": "Διογένης Λαέρτιος — Diogenes Laertius (or Diogenes the Cynic)",
+    "Διογένης": "Διογένης — Diogenes",
+    "Κολοφώνα": "Κολοφώνα — Colophon, Ionian city",
+    "συμπόσια": "συμπόσιο — symposium, drinking party",
+    "χριστιανική": "χριστιανικός — Christian",
+    "άφθαρτος": "άφθαρτος — imperishable",
+    "Λουκρήτιος": "Λουκρήτιος — Lucretius, Roman poet",
+    "Ελλήσποντο": "Ελλήσποντος — the Hellespont (Dardanelles)",
+    "Αθηναίοι": "Αθηναίος — Athenian",
+    "Λάμψακο": "Λάμψακος — Lampsacus, city on the Hellespont",
+    "Επίκουρου": "Επίκουρος — Epicurus",
+    "Ρωμαίος": "Ρωμαίος — Roman",
+    "Δημόκριτου": "Δημόκριτος — Democritus",
+    "άφθαρτα": "άφθαρτος — imperishable",
+    "Μιλ": "Μιλ — John Stuart Mill",
+    "Αλεξάνδρου": "Αλέξανδρος — Alexander",
+    "αταραξία": "αταραξία — tranquillity, freedom from worry",
+    "Γαργηττού": "Γαργηττός — Gargettus (Attic deme)",
+    "Περδίκκας": "Περδίκκας — Perdiccas (Alexander's general)",
+    "Πάμφιλο": "Πάμφιλος — Pamphilus (Platonist)",
+    "Ξενοκράτης": "Ξενοκράτης — Xenocrates (head of the Academy)",
+    "Ναυσιφάνη": "Ναυσιφάνης — Nausiphanes (Democritean)",
+    "Μυτιλήνη": "Μυτιλήνη — Mytilene",
+    "Λέσβου": "Λέσβος — Lesbos",
+    "Μητρόδωρο": "Μητρόδωρος — Metrodorus (Epicurus' pupil)",
+    "Μητρόδωρου": "Μητρόδωρος — Metrodorus (Epicurus' pupil)",
+    "Ιδομενέα": "Ιδομενεύς — Idomeneus of Lampsacus",
+    "Έρμαρχο": "Έρμαρχος — Hermarchus (Epicurus' successor)",
+    "Θεμίστα": "Θεμίστα — Themista of Lampsacus",
+    "Λεόντιον": "Λεόντιον — Leontion (Epicurean)",
+    "Νικίδιον": "Νικίδιον — Nikidion (Epicurean)",
+    "Μενοικέα": "Μενοικεύς — Menoeceus (addressee of a letter)",
+    "Πυθοκλή": "Πυθοκλής — Pythocles (Epicurus' pupil)",
+    "Οινόανδα": "Οινόανδα — Oenoanda (city in Lycia)",
+    "Λυκίας": "Λυκία — Lycia (region of Asia Minor)",
+    "Ηρκουλάνεουμ": "Ηρκουλάνεουμ — Herculaneum",
+    "Βεζούβιος": "Βεζούβιος — Vesuvius",
+    "Γκασαντί": "Γκασαντί — Pierre Gassendi",
+    "Μπένθαμ": "Μπένθαμ — Jeremy Bentham",
+    "Σίτζγουικ": "Σίτζγουικ — Henry Sidgwick",
+    "Βιργίλιος": "Βιργίλιος — Virgil",
+    "Οβίδιος": "Οβίδιος — Ovid",
+    "Οράτιος": "Οράτιος — Horace",
+    "αποίκους": "άποικος — settler, colonist",
+    "άποικος": "άποικος — settler, colonist",
+    "κατέφυγε": "καταφεύγω — take refuge",
+    "καταφεύγω": "καταφεύγω — take refuge",
+    "σκεπτικοί": "σκεπτικός — sceptic",
+    "αντιπαρατέθηκε": "αντιπαρατίθεμαι — clash with, oppose",
+    "αντιπαρατίθεμαι": "αντιπαρατίθεμαι — clash with, oppose",
+    "βιογράφος": "βιογράφος — biographer",
+    "Μαθήτευσε": "μαθητεύω — study under, be the pupil of",
+    "αυτοδίδακτος": "αυτοδίδακτος — self-taught",
+    "πιστότερους": "πιστός — loyal (most loyal)",
+    "μνες": "μνα — mina (unit of money)",
+    "κεσεδάκι": "κεσεδάκι — little pot, small tub",
+    "αντιστάθμιζε": "αντισταθμίζω — counterbalance",
+    "αντισταθμίζω": "αντισταθμίζω — counterbalance",
+    "εικοστής": "εικοστός — twentieth",
+    "παρέκκλιση": "παρέκκλιση — deviation",
+    "παρέγκλιση": "παρέγκλιση — swerve (of atoms)",
+    "προκαθορισμένα": "προκαθορισμένος — predetermined",
+    "προκαθορισμένος": "προκαθορισμένος — predetermined",
+    "διάκενα": "διάκενο — gap, interspace",
+    "έγνοιες": "έγνοια — worry, care",
+    "έγνοια": "έγνοια — worry, care",
+    "ανταμείβουν": "ανταμείβω — reward",
+    "ανταμείψουν": "ανταμείβω — reward",
+    "ανταμείβω": "ανταμείβω — reward",
+    "ακόλαστων": "ακόλαστος — dissolute, debauched",
+    "ακόλαστος": "ακόλαστος — dissolute, debauched",
+    "στατικές": "στατικός — static",
+    "κινητικές": "κινητικός — kinetic, of motion",
+    "απονία": "απονία — absence of pain",
+    "σκορπίζουν": "σκορπίζω — scatter",
+    "σκορπίσουν": "σκορπίζω — scatter",
+    "σκορπίζω": "σκορπίζω — scatter",
+    "τετραφάρμακος": "τετραφάρμακος — fourfold remedy",
+    "υμνεί": "υμνώ — praise, sing the praises of",
+    "υμνώ": "υμνώ — praise, sing the praises of",
+    "μακαρίσουμε": "μακαρίζω — call blessed, count oneself happy",
+    "μακάριοι": "μακάριος — blessed, blissful",
+    "πληρέστερη": "πλήρης — complete (fullest)",
+    "απανθρακωμένους": "απανθρακωμένος — carbonised, charred",
+    "απανθρακωμένος": "απανθρακωμένος — carbonised, charred",
+    "παπύρους": "πάπυρος — papyrus",
+    "πάπυρος": "πάπυρος — papyrus",
+    "μεταθανάτια": "μεταθανάτιος — after death",
+    "μεταθανάτιος": "μεταθανάτιος — after death",
+    "καλοφαγάς": "καλοφαγάς — gourmet, lover of good food",
+    "ξαναζωντάνεψε": "ξαναζωντανεύω — revive",
+    "ωφελιμιστές": "ωφελιμιστής — utilitarian",
+    "ωφελιμιστής": "ωφελιμιστής — utilitarian",
+    "ξαναγεννηθούμε": "ξαναγεννιέμαι — be reborn",
+    "διέσωσε": "διασώζω — preserve, save",
+    "φρόνηση": "φρόνηση — practical wisdom, prudence",
+    "περαστικοί": "περαστικός — passer-by",
+    "περαστικός": "περαστικός — passer-by",
+    "κοσμολογία": "κοσμολογία — cosmology",
+    "Πλάτων": "Πλάτων — Plato",
+    "Λαέρτιος": "Διογένης Λαέρτιος — Diogenes Laertius, 3rd-century AD biographer of philosophers",
+    "Δημόκριτος": "Δημόκριτος — Democritus of Abdera",
+    "Ησίοδος": "Ησίοδος — Hesiod",
+    "συμπόσιο": "συμπόσιο — symposium, drinking party",
+    "Ελλήσποντος": "Ελλήσποντος — the Hellespont (Dardanelles)"
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "David Konstan, “Epicurus”, Stanford Encyclopedia of Philosophy: life and dates, the Garden, last letter and will.",
+      "url": "https://plato.stanford.edu/entries/epicurus/"
+    },
+    {
+      "n": 2,
+      "text": "Tim O’Keefe, “Epicurus”, Internet Encyclopedia of Philosophy: sources, atomism and the swerve, gods, pleasure and desire, death, justice, friendship.",
+      "url": "https://iep.utm.edu/epicur/"
+    },
+    {
+      "n": 3,
+      "text": "Diogenes Laertius, Lives of the Eminent Philosophers, Book X (Epicurus, with the Letter to Menoeceus and the Principal Doctrines), trans. R. D. Hicks, Wikisource.",
+      "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_X"
+    },
+    {
+      "n": 4,
+      "text": "“Epicurus”, Wikipedia: Samos and Colophon, students of the Garden, tetrapharmakos, Lactantius’ paradox, Oenoanda, Herculaneum papyri, Christian reception, Gassendi, the utilitarians.",
+      "url": "https://en.wikipedia.org/wiki/Epicurus"
+    }
+  ]
+}
