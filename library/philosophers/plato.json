@@ -1,0 +1,673 @@
+{
+  "id": "plato",
+  "el": "Πλάτων",
+  "title": "Plato",
+  "level": "B2+",
+  "dates": "427 – 347 π.Χ.",
+  "image": {
+    "file": "img/philosophers/plato.jpg",
+    "caption": "Ο Πλάτωνας (αριστερά) και ο Αριστοτέλης στη «Σχολή των Αθηνών» του Ραφαήλ. Ο Πλάτωνας δείχνει προς τα πάνω, στις ιδέες.",
+    "caption_en": "Plato (left) and Aristotle in Raphael’s School of Athens (1509–1511). Plato points upward, to the Forms; Aristotle holds his hand level, towards this world.",
+    "credit": "Raphael, The School of Athens, Vatican, detail",
+    "license": "Public domain (PD-Art)",
+    "source": "https://commons.wikimedia.org/wiki/File:Sanzio_01_Plato_Aristotle.jpg"
+  },
+  "summary_en": "Plato of Athens (c. 427–347 BC) came from one of the richest and most political families in Athens, met Socrates as a young man, and after Socrates’ execution turned away from politics to philosophy. He travelled, visited the Pythagoreans of Italy, tried three times to influence the tyrants of Syracuse, and founded the **Academy**, the school that gave us the word “academic”. His thirty-odd dialogues, almost all with Socrates as the main speaker, are the first complete body of philosophical writing to survive from Europe. In them he develops the **theory of Forms** (perfect, unchanging realities known by the mind, of which sensible things are imperfect images), the doctrine that **learning is recollection**, the **tripartite soul** (reason, spirit, appetite) and, in the **Republic**, the ideal city ruled by **philosopher-kings** and the **allegory of the cave**. His late **Timaeus** describes a divine craftsman, the **Demiurge**, who shapes the cosmos after the Forms, with the four elements built from geometrical solids. Whitehead called the whole European philosophical tradition “a series of footnotes to Plato”.",
+  "terms": [
+    {
+      "el": "η ιδέα / το είδος",
+      "en": "Form, Idea",
+      "def_el": "Για τον Πλάτωνα, η τέλεια και αμετάβλητη πραγματικότητα που αντιστοιχεί σε κάθε όνομα (το ίσο, το ωραίο, το δίκαιο).",
+      "def_en": "From ἰδεῖν “to see”: originally “look, shape”. Modern ιδέα means simply “idea”."
+    },
+    {
+      "el": "η ακαδημία",
+      "en": "academy",
+      "def_el": "Η σχολή του Πλάτωνα, που πήρε το όνομά της από το άλσος του ήρωα Ακάδημου.",
+      "def_en": "Hence Ακαδημία Αθηνών, ακαδημαϊκός (academic, university teacher)."
+    },
+    {
+      "el": "η ανάμνηση",
+      "en": "recollection, memory",
+      "def_el": "Για τον Πλάτωνα, η μάθηση είναι ανάμνηση όσων η ψυχή ήξερε πριν γεννηθεί.",
+      "def_en": "ανα + μιμνήσκω. Platonic anamnesis; today simply “memory, reminiscence”."
+    },
+    {
+      "el": "το σπήλαιο",
+      "en": "cave",
+      "def_el": "Μεγάλη σπηλιά. Η αλληγορία του σπηλαίου είναι η πιο γνωστή εικόνα του Πλάτωνα.",
+      "def_en": "Learned word; everyday σπηλιά."
+    },
+    {
+      "el": "η αλληγορία",
+      "en": "allegory",
+      "def_el": "Ιστορία που λέει κάτι, αλλά σημαίνει κάτι άλλο, βαθύτερο.",
+      "def_en": "άλλος + αγορεύω “speak”: “saying something else”."
+    },
+    {
+      "el": "ο Δημιουργός",
+      "en": "the Demiurge, the divine craftsman",
+      "def_el": "Στον «Τίμαιο», ο θεϊκός τεχνίτης που βάζει τάξη στο χάος, μιμούμενος τις ιδέες.",
+      "def_en": "δήμιος “public” + έργον: originally any public craftsman. Today δημιουργός = creator."
+    },
+    {
+      "el": "η δικαιοσύνη",
+      "en": "justice",
+      "def_el": "Η αρετή που δίνει στον καθένα αυτό που του αξίζει· για τον Πλάτωνα, η αρμονία των μερών της ψυχής και της πόλης.",
+      "def_en": "Also “the judiciary” in modern Greek: η ανεξαρτησία της δικαιοσύνης."
+    },
+    {
+      "el": "ο θυμός / το θυμοειδές",
+      "en": "spirit, the spirited part",
+      "def_el": "Το μέρος της ψυχής που αγαπά την τιμή και τη νίκη.",
+      "def_en": "Modern θυμός = anger; θυμοειδές is Plato’s technical term."
+    },
+    {
+      "el": "η επιθυμία",
+      "en": "desire, appetite",
+      "def_el": "Το μέρος της ψυχής που ζητά φαγητό, ποτό και ηδονή.",
+      "def_en": "επιθυμητικό = the appetitive part."
+    },
+    {
+      "el": "ο διάλογος",
+      "en": "dialogue",
+      "def_el": "Συζήτηση ανάμεσα σε δύο ή περισσότερα πρόσωπα· και το λογοτεχνικό είδος του Πλάτωνα.",
+      "def_en": "δια + λέγομαι. Also used for political “dialogue”: κοινωνικός διάλογος."
+    }
+  ],
+  "sections": [
+    {
+      "id": "context",
+      "el": "Ιστορικό πλαίσιο",
+      "en": "Historical context",
+      "paras": [
+        {
+          "el": "Ο Πλάτωνας γεννήθηκε γύρω στο 427 π.Χ., στα πρώτα χρόνια του Πελοποννησιακού Πολέμου, λίγο μετά τον θάνατο του Περικλή. Μεγάλωσε σε μια πόλη που πολεμούσε, έχανε και διχαζόταν. Όταν ήταν περίπου είκοσι τριών χρονών, η Αθήνα νικήθηκε από τη Σπάρτη.",
+          "en": "Plato was born around 428–427 BC, in the early years of the Peloponnesian War, shortly after the death of Pericles (the ancient dates vary, from 431 to 427). He grew up in a city at war, losing and divided; he was in his early twenties when Athens was defeated by Sparta in 404.",
+          "cite": [
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Η οικογένειά του ήταν από τις πιο πλούσιες και πολιτικά ενεργές της Αθήνας. Ο θείος της μητέρας του, ο Κριτίας, ήταν αρχηγός των Τριάκοντα τυράννων, και ο θείος του, ο Χαρμίδης, μέλος τους. Αντίθετα, ο πατριός του, ο Πυριλάμπης, ήταν φίλος του Περικλή, του αρχηγού των δημοκρατικών.",
+          "en": "His family was among the wealthiest and most politically active in Athens. Critias, his mother’s uncle, led the Thirty Tyrants in 404, and his uncle Charmides was one of them. But his stepfather Pyrilampes had been a close associate of Pericles, leader of the democrats.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Στην «Έβδομη Επιστολή», που αποδίδεται στον Πλάτωνα, ο συγγραφέας λέει ότι στα νιάτα του ήθελε να ασχοληθεί με την πολιτική. Όμως οι Τριάκοντα τον απογοήτευσαν, και η δημοκρατία που ακολούθησε εκτέλεσε τον Σωκράτη. Αυτή η απογοήτευση τον έστρεψε στη φιλοσοφία.",
+          "en": "In the Seventh Letter, ascribed to Plato (its authenticity is debated), the author recounts his early hopes of a political career and his disillusionment with the Thirty Tyrants and then with the trial of Socrates under the restored democracy.",
+          "cite": [
+            1,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "el": "Βιογραφία",
+      "en": "Biography",
+      "paras": [
+        {
+          "el": "Οι γονείς του λέγονταν Αρίστων και Περικτιόνη. Είχε δύο μεγαλύτερους αδελφούς, τον Γλαύκωνα και τον Αδείμαντο, που εμφανίζονται ως συνομιλητές στην «Πολιτεία», και μια αδελφή, την Πωτώνη. Το πραγματικό του όνομα ήταν Αριστοκλής, όπως ο παππούς του· το «Πλάτων» ήταν παρατσούκλι, ίσως επειδή ήταν φαρδύς στους ώμους, ίσως επειδή είχε πλατύ μέτωπο ή πλατύ ύφος.",
+          "en": "His parents were Ariston and Perictione. He had two older brothers, Glaucon and Adeimantus, who appear as speakers in the Republic, and a sister, Potone. His real name was Aristocles, after his grandfather; “Plato” began as a nickname from πλατύς “broad”, perhaps given by his wrestling teacher for his physique, or for the breadth of his style or of his forehead (Diogenes Laertius III 4).",
+          "cite": [
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Ο Διογένης ο Λαέρτιος λέει ότι στα νιάτα του ζωγράφιζε και έγραφε ποιήματα και τραγωδίες. Όταν όμως άκουσε τον Σωκράτη, έκαψε τα ποιήματά του και έγινε μαθητής του, γύρω στα είκοσί του. Η ιστορία ίσως δεν είναι αληθινή, αλλά δείχνει κάτι σωστό: ο Πλάτωνας έμεινε ποιητής και μέσα στη φιλοσοφία.",
+          "en": "Diogenes Laertius says that as a young man he painted and wrote poems and tragedies, but when he heard Socrates he burned his poems and became his pupil, at about twenty. The story may not be true, but it captures something real: Plato remained a poet within philosophy, and his dialogues are literary masterpieces.",
+          "cite": [
+            3
+          ]
+        },
+        {
+          "el": "Μετά την εκτέλεση του Σωκράτη, ο Πλάτωνας έφυγε από την Αθήνα. Έμεινε πρώτα στα Μέγαρα και ίσως ταξίδεψε στην Κυρήνη, στην Αίγυπτο και στην Ιταλία, όπου γνώρισε τους Πυθαγορείους. Γύρω στα σαράντα του πήγε στις Συρακούσες, όπου έγινε δάσκαλος του Δίωνα, γυναικάδελφου του τυράννου Διονυσίου Α΄.",
+          "en": "After Socrates’ execution Plato left Athens. He stayed first at Megara and perhaps travelled to Cyrene, Egypt and Italy, where he met Pythagoreans such as Archytas of Tarentum. At about forty (Seventh Letter 324a) he went to Syracuse, where he became the teacher of Dion, brother-in-law of the tyrant Dionysius I.",
+          "cite": [
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Σύμφωνα με μια μεταγενέστερη ιστορία, ο Διονύσιος θύμωσε μαζί του και τον πούλησε ως δούλο στην Αίγινα. Τον εξαγόρασε ένας φιλόσοφος από την Κυρήνη, ο Αννίκερης, και αρνήθηκε να πάρει πίσω τα χρήματα. Οι σύγχρονοι μελετητές θεωρούν την ιστορία αμφίβολη.",
+          "en": "According to later stories, Dionysius grew angry with him (“You talk like an old dotard.” “And you like a tyrant.”) and had him sold as a slave in Aegina; Anniceris of Cyrene ransomed him for twenty or thirty minae and refused to be repaid. Modern scholars regard these stories as doubtful.",
+          "cite": [
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Γυρίζοντας στην Αθήνα, γύρω στο 387 π.Χ., ίδρυσε την Ακαδημία, σε ένα άλσος αφιερωμένο στον ήρωα Ακάδημο, έξω από τα τείχη. Εκεί δίδαξε για σαράντα περίπου χρόνια. Ο πιο γνωστός μαθητής της ήταν ο Αριστοτέλης.",
+          "en": "Returning to Athens, around 387 BC, he founded the Academy in a grove sacred to the hero Academus (or Hecademus), outside the city walls. Except for two more trips to Sicily, it was his base for the rest of his life. Its most famous student was Aristotle.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Δύο φορές ακόμα γύρισε στις Συρακούσες, όταν τον θρόνο πήρε ο νεαρός Διονύσιος Β΄. Ο Δίων ήλπιζε ότι ο Πλάτωνας θα έκανε τον νέο τύραννο φιλόσοφο βασιλιά. Και οι δύο φορές τελείωσαν άσχημα: ο Δίων εξορίστηκε, και ο Πλάτωνας έμεινε ουσιαστικά αιχμάλωτος, ώσπου τον έσωσαν οι φίλοι του από τον Τάραντα.",
+          "en": "Twice more he returned to Syracuse after the young Dionysius II came to the throne, Dion hoping that Plato could turn him into a philosopher-ruler. Both visits ended badly: Dion was exiled, and Plato was effectively kept under house arrest until his Tarentine friends secured his release (Seventh Letter 350a–b). Dion later invaded Syracuse with mercenaries and was assassinated.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Ο Πλάτωνας πέρασε τα τελευταία δεκατρία χρόνια της ζωής του στην Ακαδημία. Πέθανε το 347 π.Χ., σε ηλικία ογδόντα ενός ετών· ο Διογένης λέει ότι πέθανε σε ένα γαμήλιο τραπέζι. Θάφτηκε στην Ακαδημία, αλλά ο τάφος του δεν έχει βρεθεί. Οι «Νόμοι», το τελευταίο του έργο, έμειναν γραμμένοι σε κέρινες πλάκες.",
+          "en": "Plato spent the last thirteen years of his life at the Academy. He died in 348/347 BC aged about eighty or eighty-one; Diogenes says at a wedding feast. He was buried at the Academy, but his grave has not been found. The Laws, his last and unfinished work, was left written on wax tablets.",
+          "cite": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "el": "Κοσμολογία: ο «Τίμαιος»",
+      "en": "Cosmology: the Timaeus",
+      "paras": [
+        {
+          "el": "Η κοσμολογία του Πλάτωνα βρίσκεται στον «Τίμαιο», έναν από τους τελευταίους διαλόγους του. Ο κόσμος, λέει, δεν υπήρχε πάντα όπως είναι. Ένας θεϊκός τεχνίτης, ο Δημιουργός, κοίταξε τις αιώνιες ιδέες και έβαλε τάξη σε μια χαοτική ύλη, φτιάχνοντας τον κόσμο όσο πιο όμορφο και καλό μπορούσε.",
+          "en": "Plato’s cosmology is in the Timaeus, one of his late dialogues. A divine craftsman, the Demiurge, looked to the eternal Forms and brought order to chaotic matter, making the cosmos as beautiful and good as possible. Unlike the God of medieval theology, the Demiurge does not create out of nothing (ex nihilo): he orders what is already there.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Ο κόσμος είναι ζωντανός: έχει σώμα και ψυχή, την ψυχή του κόσμου. Είναι σφαιρικός, γιατί η σφαίρα είναι το πιο τέλειο σχήμα, και κινείται κυκλικά. Ο χρόνος γεννήθηκε μαζί με τον ουρανό, ως «κινητή εικόνα της αιωνιότητας».",
+          "en": "The cosmos is a living being with a body and a soul, the world-soul. It is spherical, the most perfect shape, and moves in a circle. Time came into being together with the heavens, as “a moving image of eternity” (Timaeus 37d).",
+          "cite": [
+            1,
+            4
+          ]
+        },
+        {
+          "el": "Τα τέσσερα στοιχεία του Εμπεδοκλή γίνονται στον «Τίμαιο» γεωμετρικά σχήματα, φτιαγμένα από τρίγωνα. Η φωτιά είναι πυραμίδα (τετράεδρο), ο αέρας οκτάεδρο, το νερό εικοσάεδρο και η γη κύβος, γιατί ο κύβος είναι το πιο σταθερό σχήμα. Γι’ αυτό τα κανονικά στερεά λέγονται ακόμη και σήμερα «πλατωνικά στερεά».",
+          "en": "Empedocles’ four elements become geometrical solids built from triangles: fire is the pyramid (tetrahedron), air the octahedron, water the icosahedron, and earth the cube, “the most stable of them”. That is why the regular solids are still called the “Platonic solids”. Of all his works, the Timaeus gives the most detailed conjectures in what we now call physics, astronomy, chemistry and biology.",
+          "cite": [
+            2,
+            4
+          ]
+        },
+        {
+          "el": "Στον «Τίμαιο» και στη συνέχειά του, τον ημιτελή «Κριτία», ο Πλάτωνας διηγείται και τον μύθο της Ατλαντίδας, ενός ισχυρού νησιού που βυθίστηκε στη θάλασσα. Η Ατλαντίδα είναι φιλοσοφικός μύθος, όχι ιστορία, αλλά από τότε γοητεύει τους ανθρώπους.",
+          "en": "In the Timaeus and its unfinished sequel the Critias Plato also tells the myth of Atlantis, a powerful island that sank beneath the sea. Atlantis is a philosophical myth, not history, but it has fascinated readers ever since.",
+          "cite": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "el": "Θεωρίες: ιδέες, ψυχή, πολιτεία",
+      "en": "Theories: Forms, soul, city",
+      "paras": [
+        {
+          "el": "Στο κέντρο της φιλοσοφίας του Πλάτωνα βρίσκονται οι ιδέες. Δύο ξύλα μπορεί να είναι ίσα, αλλά ποτέ απόλυτα ίσα· ένα πρόσωπο μπορεί να είναι ωραίο, αλλά κάποτε θα γεράσει. Υπάρχει όμως το ίδιο το Ίσο και το ίδιο το Ωραίο: τέλεια, αιώνια, αμετάβλητα. Τα αισθητά πράγματα «μετέχουν» στις ιδέες και είναι σαν εικόνες τους.",
+          "en": "At the centre of Plato’s philosophy are the Forms. Two sticks may be equal, but never perfectly so; a face may be beautiful, but it will age. Yet there is the Equal itself and the Beautiful itself: perfect, eternal, unchanging. Sensible things are equal or beautiful by “participating” in the Forms, as approximate images of them (Phaedo 74a–75d, Symposium 211e).",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Τις ιδέες δεν τις βλέπουμε με τα μάτια· τις καταλαβαίνουμε με τον νου. Πώς τις γνωρίζουμε; Στον «Μένωνα», ο Σωκράτης κάνει ερωτήσεις σε έναν δούλο που δεν έχει μάθει ποτέ γεωμετρία, και ο δούλος βρίσκει μόνος του τη λύση ενός προβλήματος. Συμπέρασμα: η ψυχή υπήρχε πριν γεννηθούμε, και η μάθηση είναι ανάμνηση.",
+          "en": "We do not see the Forms with our eyes but grasp them with the mind. How? In the Meno Socrates questions a slave boy who has never learned geometry, and the boy finds the solution himself (81a–86b). Conclusion: the soul existed before birth, and learning is recollection (anamnesis). The Phaedo adds arguments for the soul’s immortality.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Ο νεότερος Πλάτωνας διαιρεί την ψυχή σε τρία μέρη: το λογιστικό, που αγαπά την αλήθεια, το θυμοειδές, που αγαπά την τιμή, και το επιθυμητικό, που ζητά φαγητό, ποτό και ηδονή. Δικαιοσύνη είναι όταν το κάθε μέρος κάνει τη δική του δουλειά και η λογική κυβερνά. Έτσι, αντίθετα με τον Σωκράτη, ο Πλάτωνας εξηγεί πώς μπορούμε να κάνουμε κάτι που ξέρουμε ότι είναι λάθος.",
+          "en": "The Plato of the middle dialogues divides the soul into three parts: reason, which loves truth; spirit, which loves honour and victory; and appetite, which wants food, drink and sex. Justice is the condition in which each part does its own work and reason rules (Republic IV 435b–445b). Unlike the early Socratic view, this allows for akrasia: appetite can overrule reason’s judgement.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Η «Πολιτεία» χτίζει μια ιδανική πόλη με τρεις τάξεις, που αντιστοιχούν στα τρία μέρη της ψυχής: τους άρχοντες, τους φύλακες-πολεμιστές και τους παραγωγούς. Και καταλήγει στη φράση που σόκαρε: οι πόλεις δεν θα ησυχάσουν από τα κακά τους μέχρι να γίνουν οι φιλόσοφοι βασιλιάδες ή οι βασιλιάδες να φιλοσοφήσουν αληθινά.",
+          "en": "The Republic builds an ideal city with three classes that mirror the three parts of the soul: rulers, guardian-warriors and producers. And it reaches its scandalous conclusion: “Until philosophers are kings, or the kings and princes of this world have the spirit and power of philosophy… cities will never have rest from their evils.”",
+          "cite": [
+            1,
+            5
+          ]
+        },
+        {
+          "el": "Για να εξηγήσει τη διαφορά ανάμεσα στον κόσμο των αισθήσεων και στον κόσμο των ιδεών, ο Πλάτωνας χρησιμοποιεί την αλληγορία του σπηλαίου. Κάποιοι άνθρωποι είναι από παιδιά αλυσοδεμένοι σε ένα υπόγειο σπήλαιο και βλέπουν μόνο σκιές στον τοίχο· νομίζουν ότι αυτές είναι η πραγματικότητα.",
+          "en": "To explain the difference between the world of the senses and the world of the Forms, Plato uses the allegory of the cave. Prisoners have been chained since childhood in an underground den, seeing only the shadows that a fire throws on the wall from objects carried behind them; they take the shadows for reality.",
+          "cite": [
+            5
+          ]
+        },
+        {
+          "el": "Αν κάποιος λυθεί και βγει έξω, στην αρχή τυφλώνεται από το φως· σιγά σιγά βλέπει τις σκιές, τις αντανακλάσεις στο νερό, τα ίδια τα πράγματα και τέλος τον ήλιο, την εικόνα του Αγαθού. Αν γυρίσει πίσω για να ελευθερώσει τους άλλους, εκείνοι θα τον κοροϊδέψουν, και αν μπορέσουν, θα τον σκοτώσουν. Η νύξη για τον Σωκράτη είναι φανερή.",
+          "en": "If one is freed and dragged up into the daylight, he is at first dazzled; gradually he sees shadows, reflections in water, the things themselves, and finally the sun, the image of the Good. If he goes back down to free the others, they will mock him and, “if they can lay hands on him”, put him to death (517a). The allusion to Socrates is plain.",
+          "cite": [
+            5
+          ]
+        },
+        {
+          "el": "Στο όγδοο βιβλίο της «Πολιτείας», ο Πλάτωνας περιγράφει πώς η ιδανική πόλη, η αριστοκρατία των σοφών, φθείρεται σε τιμοκρατία, ολιγαρχία, δημοκρατία και τέλος τυραννία. Στο τελευταίο του έργο, τους «Νόμους», σχεδιάζει μια πιο ρεαλιστική πόλη, που κυβερνάται όχι από φιλοσόφους αλλά από καλούς νόμους.",
+          "en": "In Book VIII of the Republic Plato describes how the ideal city, the rule of the best, degenerates into timocracy, oligarchy, democracy and finally tyranny. In his last work, the Laws, he designs a more practicable city governed not by philosopher-kings but by detailed laws.",
+          "cite": [
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "el": "Επίδραση",
+      "en": "Impact",
+      "paras": [
+        {
+          "el": "Ο Πλάτωνας είναι ο πρώτος φιλόσοφος της Ευρώπης του οποίου όλα τα έργα σώθηκαν: περίπου τριάντα πέντε διάλογοι και μερικές επιστολές. Χάρη σε αυτόν γνωρίζουμε τον Σωκράτη, και μέσα από τους διαλόγους του βλέπουμε τους σοφιστές, τον Παρμενίδη και τον Πρωταγόρα να συζητούν.",
+          "en": "Plato is the first European philosopher whose complete works are believed to have survived: some thirty-five dialogues and a few letters, not all of them genuine. Through him we know Socrates, and in his dialogues we watch the sophists, Parmenides and Protagoras argue.",
+          "cite": [
+            1,
+            6
+          ]
+        },
+        {
+          "el": "Η Ακαδημία λειτούργησε, με διακοπές και αλλαγές, για αιώνες. Ο Αριστοτέλης σπούδασε εκεί πριν ιδρύσει τη δική του σχολή. Αργότερα, ο νεοπλατωνισμός του Πλωτίνου επηρέασε βαθιά τη χριστιανική, την εβραϊκή και την ισλαμική φιλοσοφία.",
+          "en": "The Academy continued, with breaks and changes of direction, for centuries. Aristotle studied there before founding his own school. Later, through Plotinus’ Neoplatonism, Plato influenced Christian, Jewish and Islamic philosophy.",
+          "cite": [
+            2,
+            6
+          ]
+        },
+        {
+          "el": "Στην Αναγέννηση ο Βυζαντινός λόγιος Γεώργιος Γεμιστός Πλήθων έφερε τα πρωτότυπα κείμενα του Πλάτωνα από την Κωνσταντινούπολη στη Φλωρεντία, και η Ευρώπη τον ξαναδιάβασε με ενθουσιασμό. Ο Άλφρεντ Νορθ Γουάιτχεντ έγραψε τον εικοστό αιώνα ότι όλη η ευρωπαϊκή φιλοσοφία είναι «μια σειρά από υποσημειώσεις στον Πλάτωνα».",
+          "en": "In the Renaissance the Byzantine scholar Gemistos Plethon brought Plato’s original writings from Constantinople to Florence, and Europe read him again with enthusiasm. In the twentieth century Alfred North Whitehead wrote that “the safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato”.",
+          "cite": [
+            6
+          ]
+        },
+        {
+          "el": "Πολλές λέξεις μας έρχονται από τον Πλάτωνα: ακαδημία, ιδέα με τη φιλοσοφική σημασία, «πλατωνικός έρωτας», «πλατωνικά στερεά», «σπήλαιο του Πλάτωνα». Και κάθε φορά που ρωτάμε αν η πραγματικότητα είναι αυτό που βλέπουμε, ξαναμπαίνουμε στο σπήλαιό του.",
+          "en": "Many words come to us from Plato: academy, “idea” in its philosophical sense, “Platonic love”, the “Platonic solids”, “Plato’s cave”. And every time we ask whether reality is what we see, we step back into his cave.",
+          "cite": [
+            2,
+            6
+          ]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "level": "B2+",
+      "title": "ο οποίος vs που",
+      "en": "**που** is the everyday, invariable relative: **ο δούλος που ρώτησε ο Σωκράτης**. **ο οποίος, η οποία, το οποίο** (inflected, with the article) is more formal and **obligatory after a preposition** or in the genitive: **το άλσος στο οποίο ίδρυσε την Ακαδημία**, **ο φιλόσοφος του οποίου όλα τα έργα σώθηκαν**. Note the word order in the genitive: **του οποίου** follows the noun it depends on.",
+      "examples": [
+        {
+          "el": "Ο Πλάτωνας είναι ο πρώτος φιλόσοφος του οποίου όλα τα έργα σώθηκαν.",
+          "en": "Plato is the first philosopher all of whose works survived."
+        },
+        {
+          "el": "Οι ιδέες, τις οποίες βλέπει μόνο ο νους, είναι αιώνιες.",
+          "en": "The Forms, which only the mind sees, are eternal."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "μέχρι να / ώσπου να + subjunctive",
+      "en": "“Until” referring to the future or to a general rule takes **μέχρι να / ώσπου να / έως ότου** + subjunctive (usually perfective): **μέχρι να γίνουν οι φιλόσοφοι βασιλιάδες**. For a real past event use **μέχρι που / ώσπου** + indicative: **έμεινε αιχμάλωτος, ώσπου τον έσωσαν οι φίλοι του**.",
+      "examples": [
+        {
+          "el": "Οι πόλεις δεν θα ησυχάσουν μέχρι να κυβερνήσουν οι φιλόσοφοι.",
+          "en": "Cities will have no rest until philosophers rule."
+        },
+        {
+          "el": "Έμεινε στις Συρακούσες ώσπου τον έσωσαν οι φίλοι του.",
+          "en": "He stayed in Syracuse until his friends rescued him."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "Participles: -μένος and -οντας",
+      "en": "The passive perfect participle **-μένος** is an adjective (it agrees): **αλυσοδεμένοι άνθρωποι, φτιαγμένα από τρίγωνα, γραμμένοι σε κέρινες πλάκες**. The active participle **-οντας / -ώντας** is invariable and describes an action of the subject happening at the same time: **κοιτάζοντας τον τοίχο, γυρίζοντας στην Αθήνα, μιμούμενος τις ιδέες** (the last is a learned passive-form present participle).",
+      "examples": [
+        {
+          "el": "Οι αλυσοδεμένοι φυλακισμένοι βλέπουν μόνο σκιές.",
+          "en": "The chained prisoners see only shadows."
+        },
+        {
+          "el": "Γυρίζοντας στην Αθήνα, ίδρυσε την Ακαδημία.",
+          "en": "Returning to Athens, he founded the Academy."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "Constitutions: -κρατία and -αρχία",
+      "en": "Greek names forms of government with **-κρατία** (κράτος “power”) and **-αρχία** (αρχή “rule”): **δημοκρατία** (rule of the people), **αριστοκρατία** (rule of the best), **τιμοκρατία** (rule of honour), **ολιγαρχία** (rule of the few), **μοναρχία**, **αναρχία**, and **τυραννία**. Adjectives: **δημοκρατικός, ολιγαρχικός, τυραννικός**; persons: **ο δημοκράτης, ο ολιγαρχικός, ο τύραννος**.",
+      "examples": [
+        {
+          "el": "Κατά τον Πλάτωνα, η δημοκρατία καταλήγει σε τυραννία.",
+          "en": "According to Plato, democracy ends in tyranny."
+        },
+        {
+          "el": "Ο Κριτίας ήταν αρχηγός μιας ολιγαρχίας.",
+          "en": "Critias was the leader of an oligarchy."
+        }
+      ]
+    },
+    {
+      "level": "B2+",
+      "title": "όσο πιο… τόσο… / όσο πιο… μπορούσε",
+      "en": "**όσο πιο** + adjective/adverb + **μπορώ** means “as … as possible”: **έφτιαξε τον κόσμο όσο πιο όμορφο μπορούσε**. The correlative **όσο πιο… τόσο πιο…** means “the more… the more…”: **όσο πιο ψηλά ανεβαίνει, τόσο πιο πολύ φως βλέπει**. Formal alternative: **κατά το δυνατόν** (as far as possible).",
+      "examples": [
+        {
+          "el": "Ο Δημιουργός έφτιαξε τον κόσμο όσο πιο καλό μπορούσε.",
+          "en": "The Demiurge made the world as good as he could."
+        },
+        {
+          "el": "Όσο πιο ψηλά ανεβαίνει ο φυλακισμένος, τόσο πιο καθαρά βλέπει.",
+          "en": "The higher the prisoner climbs, the more clearly he sees."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "Ποιο ήταν το πραγματικό όνομα του Πλάτωνα, κατά τον Διογένη τον Λαέρτιο;",
+      "options": [
+        "Αριστοκλής",
+        "Αρίστων",
+        "Γλαύκων",
+        "Αριστοτέλης"
+      ],
+      "answer": "Αριστοκλής",
+      "why": "After his grandfather; “Plato” was a nickname from πλατύς."
+    },
+    {
+      "q": "Από πού πήρε το όνομά της η Ακαδημία;",
+      "options": [
+        "Από το άλσος του ήρωα Ακάδημου",
+        "Από έναν μαθητή του Πλάτωνα",
+        "Από μια λέξη που σημαίνει «σχολείο»",
+        "Από τη θεά Αθηνά"
+      ],
+      "answer": "Από το άλσος του ήρωα Ακάδημου",
+      "why": "A grove sacred to Academus (Hecademus) outside the walls."
+    },
+    {
+      "q": "Τι λέει ο «Μένων» για τη μάθηση;",
+      "options": [
+        "Ότι είναι ανάμνηση",
+        "Ότι είναι αδύνατη",
+        "Ότι έρχεται μόνο από τις αισθήσεις",
+        "Ότι τη δίνουν οι σοφιστές"
+      ],
+      "answer": "Ότι είναι ανάμνηση",
+      "why": "The slave boy “recollects” geometry."
+    },
+    {
+      "q": "Ποιο σχήμα έχει η γη στον «Τίμαιο»;",
+      "options": [
+        "Κύβος",
+        "Πυραμίδα",
+        "Οκτάεδρο",
+        "Εικοσάεδρο"
+      ],
+      "answer": "Κύβος",
+      "why": "The cube, the most stable solid."
+    },
+    {
+      "q": "Ποια είναι τα τρία μέρη της ψυχής στην «Πολιτεία»;",
+      "options": [
+        "Λογιστικό, θυμοειδές, επιθυμητικό",
+        "Σώμα, πνεύμα, καρδιά",
+        "Νους, λόγος, μνήμη",
+        "Φωτιά, νερό, αέρας"
+      ],
+      "answer": "Λογιστικό, θυμοειδές, επιθυμητικό",
+      "why": "Reason, spirit, appetite."
+    },
+    {
+      "q": "Τι θα έκαναν οι φυλακισμένοι σε αυτόν που επιστρέφει στο σπήλαιο;",
+      "options": [
+        "Θα τον κορόιδευαν και ίσως θα τον σκότωναν",
+        "Θα τον ακολουθούσαν αμέσως",
+        "Θα τον έκαναν βασιλιά",
+        "Θα τον αγνοούσαν"
+      ],
+      "answer": "Θα τον κορόιδευαν και ίσως θα τον σκότωναν",
+      "why": "Republic 517a, an allusion to Socrates."
+    },
+    {
+      "q": "Συμπληρώστε: «Ο φιλόσοφος ___ όλα τα έργα σώθηκαν.»",
+      "options": [
+        "του οποίου",
+        "ο οποίος",
+        "τον οποίο",
+        "που του"
+      ],
+      "answer": "του οποίου",
+      "why": "Genitive relative: του οποίου after the head noun."
+    },
+    {
+      "q": "Συμπληρώστε: «Δεν θα ησυχάσουμε μέχρι να ___ οι φιλόσοφοι.»",
+      "options": [
+        "κυβερνήσουν",
+        "κυβέρνησαν",
+        "κυβερνούσαν",
+        "κυβερνάνε"
+      ],
+      "answer": "κυβερνήσουν",
+      "why": "μέχρι να + perfective subjunctive for the future."
+    }
+  ],
+  "vocab": [
+    "διχάζομαι",
+    "ενεργός",
+    "πατριός",
+    "επιστολή",
+    "αποδίδω",
+    "παρατσούκλι",
+    "φαρδύς",
+    "μέτωπο",
+    "ύφος",
+    "εξαγοράζω",
+    "άλσος",
+    "τείχος",
+    "θρόνος",
+    "εξορίζω",
+    "αιχμάλωτος",
+    "γαμήλιος",
+    "κέρινος",
+    "τεχνίτης",
+    "χαοτικός",
+    "σφαιρικός",
+    "αιωνιότητα",
+    "τετράεδρο",
+    "κύβος",
+    "σταθερός",
+    "βυθίζομαι",
+    "αμετάβλητος",
+    "μετέχω",
+    "αισθητός",
+    "συμπέρασμα",
+    "ηδονή",
+    "κυβερνώ",
+    "φύλακας",
+    "παραγωγός",
+    "ησυχάζω",
+    "αλυσοδεμένος",
+    "υπόγειος",
+    "τυφλώνομαι",
+    "αντανάκλαση",
+    "κοροϊδεύω",
+    "νύξη",
+    "φθείρομαι",
+    "ρεαλιστικός",
+    "διακοπή",
+    "λόγιος",
+    "πρωτότυπος",
+    "υποσημείωση"
+  ],
+  "gloss": {
+    "Βιογραφία": "βιογραφία — biography",
+    "Κοσμολογία": "κοσμολογία — cosmology",
+    "κοσμολογία": "κοσμολογία — cosmology",
+    "Σπάρτη": "Σπάρτη — Sparta",
+    "πυραμίδα": "πυραμίδα — pyramid",
+    "σοφιστές": "σοφιστής — sophist",
+    "π.Χ.": "π.Χ. — BC (προ Χριστού)",
+    "Αριστοτέλης": "Αριστοτέλης — Aristotle",
+    "Πλάτων": "Πλάτων — Plato",
+    "Πλάτωνα": "Πλάτων — Plato",
+    "Πλάτωνας": "Πλάτων — Plato",
+    "Σωκράτης": "Σωκράτης — Socrates",
+    "Σωκράτη": "Σωκράτης — Socrates",
+    "Λαέρτιος": "Διογένης Λαέρτιος — Diogenes Laertius, 3rd-century AD biographer of philosophers",
+    "Λαέρτιο": "Διογένης Λαέρτιος — Diogenes Laertius",
+    "Παρμενίδη": "Παρμενίδης — Parmenides",
+    "Ακαδημία": "Ακαδημία — Plato’s Academy",
+    "αρχή": "αρχή — beginning; principle; authority",
+    "Ιταλία": "Ιταλία — Italy",
+    "Διογένη": "Διογένης Λαέρτιος — Diogenes Laertius (or Diogenes the Cynic)",
+    "Διογένης": "Διογένης — Diogenes",
+    "Τίμαιο": "Τίμαιος — Timaeus",
+    "Πυθαγορείους": "Πυθαγόρειος — Pythagorean",
+    "Συρακούσες": "Συρακούσες — Syracuse",
+    "χριστιανική": "χριστιανικός — Christian",
+    "μελετητές": "μελετητής — scholar",
+    "Εμπεδοκλή": "Εμπεδοκλής — Empedocles",
+    "ολιγαρχία": "ολιγαρχία — oligarchy",
+    "Τίμαιος": "Τίμαιος — Timaeus (historian or Plato’s dialogue)",
+    "εξορίστηκε": "εξορίζω — to exile",
+    "δημοκράτης": "δημοκράτης — democrat",
+    "Περικλή": "Περικλής — Pericles",
+    "αντανάκλαση": "αντανάκλαση — reflection",
+    "Πρωταγόρα": "Πρωταγόρας — Protagoras",
+    "Μένωνα": "Μένων — Meno (Plato's dialogue)",
+    "Τριάκοντα": "Τριάκοντα — the Thirty (oligarchs of 404 BC)",
+    "Κριτία": "Κριτίας — Critias (leader of the Thirty)",
+    "σοφιστής": "σοφιστής — sophist",
+    "Παρμενίδης": "Παρμενίδης — Parmenides of Elea",
+    "Πυθαγόρειος": "Πυθαγόρειος — Pythagorean",
+    "Εμπεδοκλής": "Εμπεδοκλής — Empedocles",
+    "Περικλής": "Περικλής — Pericles",
+    "Πρωταγόρας": "Πρωταγόρας — Protagoras",
+    "Χαρμίδης": "Χαρμίδης — Charmides (Plato's uncle)",
+    "Πυριλάμπης": "Πυριλάμπης — Pyrilampes (Plato's stepfather)",
+    "Περικτιόνη": "Περικτιόνη — Perictione (Plato's mother)",
+    "Γλαύκωνα": "Γλαύκων — Glaucon (Plato's brother)",
+    "Γλαύκων": "Γλαύκων — Glaucon (Plato's brother)",
+    "Αδείμαντο": "Αδείμαντος — Adeimantus (Plato's brother)",
+    "Πωτώνη": "Πωτώνη — Potone (Plato's sister)",
+    "Αριστοκλής": "Αριστοκλής — Aristocles (Plato's real name)",
+    "Μέγαρα": "Μέγαρα — Megara",
+    "Κυρήνη": "Κυρήνη — Cyrene (Greek city in Libya)",
+    "Δίωνα": "Δίων — Dion of Syracuse",
+    "Διονυσίου": "Διονύσιος — Dionysius (tyrant of Syracuse)",
+    "Αίγινα": "Αίγινα — Aegina",
+    "Αννίκερης": "Αννίκερις — Anniceris of Cyrene",
+    "Ακάδημο": "Ακάδημος — Academus (hero of the Academy grove)",
+    "Ακάδημου": "Ακάδημος — Academus (hero of the Academy grove)",
+    "Τάραντα": "Τάρας — Tarentum (Taranto)",
+    "Ατλαντίδας": "Ατλαντίδα — Atlantis",
+    "Ατλαντίδα": "Ατλαντίδα — Atlantis",
+    "Πλωτίνου": "Πλωτίνος — Plotinus",
+    "Νορθ": "Νορθ — North (Alfred North Whitehead)",
+    "Γουάιτχεντ": "Γουάιτχεντ — Whitehead",
+    "Κριτίας": "Κριτίας — Critias (leader of the Thirty)",
+    "Γεμιστός": "Γεμιστός — Gemistos (Plethon), Byzantine scholar",
+    "Μένων": "Μένων — Meno (Plato's dialogue)",
+    "Έβδομη": "έβδομος — seventh",
+    "πατριός": "πατριός — stepfather",
+    "γυναικάδελφου": "γυναικάδελφος — brother-in-law (wife's brother)",
+    "εξαγόρασε": "εξαγοράζω — to ransom, buy off",
+    "εξαγοράζω": "εξαγοράζω — to ransom, buy off",
+    "εξορίζω": "εξορίζω — to exile",
+    "ήλπιζε": "ελπίζω — to hope",
+    "δεκατρία": "δεκατρία — thirteen",
+    "κέρινες": "κέρινος — made of wax",
+    "κέρινος": "κέρινος — made of wax",
+    "τεχνίτης": "τεχνίτης — craftsman",
+    "χαοτική": "χαοτικός — chaotic",
+    "χαοτικός": "χαοτικός — chaotic",
+    "τετράεδρο": "τετράεδρο — tetrahedron",
+    "οκτάεδρο": "οκτάεδρο — octahedron",
+    "Οκτάεδρο": "οκτάεδρο — octahedron",
+    "εικοσάεδρο": "εικοσάεδρο — icosahedron",
+    "Εικοσάεδρο": "εικοσάεδρο — icosahedron",
+    "ημιτελή": "ημιτελής — unfinished",
+    "θυμοειδές": "θυμοειδές — the spirited part of the soul",
+    "επιθυμητικό": "επιθυμητικό — the appetitive part of the soul",
+    "λογιστικό": "λογιστικό — the rational part of the soul",
+    "Λογιστικό": "λογιστικό — the rational part of the soul",
+    "φιλοσοφήσουν": "φιλοσοφώ — to philosophise",
+    "αλληγορία": "αλληγορία — allegory",
+    "σπηλαίου": "σπήλαιο — cave",
+    "σπήλαιο": "σπήλαιο — cave",
+    "σπήλαιό": "σπήλαιο — cave",
+    "αλυσοδεμένοι": "αλυσοδεμένος — chained",
+    "αλυσοδεμένος": "αλυσοδεμένος — chained",
+    "τυφλώνεται": "τυφλώνομαι — to be blinded, dazzled",
+    "τυφλώνομαι": "τυφλώνομαι — to be blinded, dazzled",
+    "νύξη": "νύξη — hint, allusion",
+    "φθείρεται": "φθείρομαι — to decay, degenerate",
+    "φθείρομαι": "φθείρομαι — to decay, degenerate",
+    "τιμοκρατία": "τιμοκρατία — timocracy, rule of honour",
+    "νεοπλατωνισμός": "νεοπλατωνισμός — Neoplatonism",
+    "εικοστό": "εικοστός — twentieth",
+    "υποσημειώσεις": "υποσημείωση — footnote",
+    "υποσημείωση": "υποσημείωση — footnote",
+    "ολιγαρχίας": "ολιγαρχία — oligarchy",
+    "σφαιρικός": "σφαιρικός — spherical",
+    "κινητή": "κινητός — moving, mobile",
+    "στερεά": "στερεό — solid (geometry)",
+    "αριστοκρατία": "αριστοκρατία — aristocracy, rule of the best"
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "Richard Kraut, “Plato”, Stanford Encyclopedia of Philosophy: Plato’s place in philosophy, the dialogue form, the Seventh Letter, Forms, the Academy.",
+      "url": "https://plato.stanford.edu/entries/plato/"
+    },
+    {
+      "n": 2,
+      "text": "Thomas Brickhouse and Nicholas D. Smith, “Plato”, Internet Encyclopedia of Philosophy: dates, family, name, travels, Academy, Sicilian voyages, death, Forms, recollection, tripartite soul, Atlantis, Timaeus, Laws.",
+      "url": "https://iep.utm.edu/plato/"
+    },
+    {
+      "n": 3,
+      "text": "Diogenes Laertius, Lives of the Eminent Philosophers, Book III (Plato), trans. R. D. Hicks, Wikisource: name, poems burned, birth and death, sale into slavery and Anniceris.",
+      "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_III"
+    },
+    {
+      "n": 4,
+      "text": "Plato, Timaeus, trans. Benjamin Jowett (Project Gutenberg #1572): the Demiurge, the world-soul, time, the elements as regular solids.",
+      "url": "https://www.gutenberg.org/ebooks/1572"
+    },
+    {
+      "n": 5,
+      "text": "Plato, The Republic, trans. Benjamin Jowett (Project Gutenberg #1497): philosopher-kings (473c–d), the cave (514a–517a), the decline of constitutions (Book VIII).",
+      "url": "https://www.gutenberg.org/ebooks/1497"
+    },
+    {
+      "n": 7,
+      "text": "“Seventh Letter”, Wikipedia: authenticity debate; Plato’s account of his early political hopes and disillusionment after the Thirty and the trial of Socrates.",
+      "url": "https://en.wikipedia.org/wiki/Seventh_Letter"
+    },
+    {
+      "n": 6,
+      "text": "“Plato”, Wikipedia: survival of the complete works, Neoplatonism, Gemistos Plethon and the Renaissance, Whitehead’s “footnotes to Plato” (Process and Reality, p. 39).",
+      "url": "https://en.wikipedia.org/wiki/Plato"
+    }
+  ]
+}
