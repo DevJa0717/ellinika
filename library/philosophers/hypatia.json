@@ -1,0 +1,628 @@
+{
+  "id": "hypatia",
+  "el": "Υπατία",
+  "title": "Hypatia",
+  "level": "C1",
+  "dates": "περ. 350/370 – 415 μ.Χ.",
+  "image": {
+    "file": "img/philosophers/hypatia.jpg",
+    "caption": "Φανταστικό πορτρέτο της Υπατίας από τον Ζιλ Μορίς Γκασπάρ (1908). Καμία αρχαία απεικόνισή της δεν σώζεται.",
+    "caption_en": "Fictional portrait of Hypatia by Jules Maurice Gaspard (1908). No ancient depiction of her survives.",
+    "credit": "Jules Maurice Gaspard, 1908",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Hypatia_portrait.png"
+  },
+  "summary_en": "Hypatia of Alexandria (born c. 350–370, killed March 415) was a Neoplatonist philosopher, astronomer and mathematician, daughter of the mathematician **Theon**. She taught the philosophy of Plato and Plotinus to students from all over the Mediterranean, every one of her known students a Christian, among them **Synesius**, later bishop of Ptolemais, whose letters are our main source for her. She edited the text of Book III of Ptolemy’s **Almagest** and wrote commentaries on Diophantus’ **Arithmetica** (perhaps surviving in Arabic) and on Apollonius’ **Conics** (lost). Respected by pagans and Christians alike, she advised the Roman prefect **Orestes** in his feud with the bishop **Cyril**; rumours spread that she prevented their reconciliation, and in Lent 415 a Christian mob led by a lector named Peter dragged her from her carriage and murdered her. She became a “martyr for philosophy”, perhaps a model for Saint Catherine, a symbol for Enlightenment critics of the Church, and a feminist icon. This chapter also separates what the sources say from the many later myths about her.",
+  "terms": [
+    {
+      "el": "ο μαθηματικός / η μαθηματικός",
+      "en": "mathematician",
+      "def_el": "Ο άνθρωπος, άντρας ή γυναίκα, που ασχολείται με τα μαθηματικά.",
+      "def_en": "Common-gender noun: η μαθηματικός for a woman (also μαθηματικός η Υπατία)."
+    },
+    {
+      "el": "ο αστρολάβος",
+      "en": "astrolabe",
+      "def_el": "Όργανο για τον υπολογισμό της ώρας και της θέσης των άστρων.",
+      "def_en": "άστρο + λαμβάνω “take (the stars)”. Hypatia did not invent it."
+    },
+    {
+      "el": "το υπόμνημα",
+      "en": "commentary",
+      "def_el": "Κείμενο που εξηγεί και σχολιάζει ένα άλλο έργο.",
+      "def_en": "Hypatia’s works were commentaries; modern υπόμνημα also “memorandum”."
+    },
+    {
+      "el": "ο έπαρχος",
+      "en": "prefect, governor",
+      "def_el": "Ο Ρωμαίος διοικητής μιας επαρχίας ή μιας μεγάλης πόλης.",
+      "def_en": "Hence επαρχία “province”, now also “the provinces” (outside Athens)."
+    },
+    {
+      "el": "ο ειδωλολάτρης",
+      "en": "pagan",
+      "def_el": "Αυτός που λατρεύει τους παλιούς θεούς και όχι τον χριστιανικό Θεό.",
+      "def_en": "Lit. “idol-worshipper”, a Christian term; scholars also say εθνικός."
+    },
+    {
+      "el": "ο όχλος",
+      "en": "mob",
+      "def_el": "Μεγάλο, ανεξέλεγκτο και συχνά βίαιο πλήθος.",
+      "def_en": "Hence οχλαγωγία “uproar”, οχλοκρατία “mob rule”."
+    },
+    {
+      "el": "ο μάρτυρας",
+      "en": "martyr; witness",
+      "def_el": "Αυτός που πεθαίνει για την πίστη ή τις ιδέες του· επίσης, αυτός που είδε κάτι να συμβαίνει.",
+      "def_en": "Both senses in modern Greek: μάρτυρας στο δικαστήριο “witness in court”."
+    },
+    {
+      "el": "η συκοφαντία",
+      "en": "slander",
+      "def_el": "Ψέματα που λέγονται για να βλάψουν τη φήμη κάποιου.",
+      "def_en": "Verb συκοφαντώ. Its ancient origin is uncertain."
+    },
+    {
+      "el": "η Βιβλιοθήκη της Αλεξάνδρειας",
+      "en": "the Library of Alexandria",
+      "def_el": "Η μεγάλη βιβλιοθήκη των Πτολεμαίων, που είχε πάψει να υπάρχει πριν από την Υπατία.",
+      "def_en": "A common myth links its destruction to Hypatia’s death."
+    },
+    {
+      "el": "η έκδοση",
+      "en": "edition",
+      "def_el": "Μια μορφή ενός κειμένου, συχνά διορθωμένη, που δημοσιεύεται για τους αναγνώστες.",
+      "def_en": "Theon edited Euclid, Hypatia the Almagest. Also “issue” of a newspaper."
+    }
+  ],
+  "sections": [
+    {
+      "id": "context",
+      "el": "Ιστορικό πλαίσιο",
+      "en": "Historical context",
+      "paras": [
+        {
+          "el": "Στα χρόνια της Υπατίας, η Αλεξάνδρεια ήταν μια από τις μεγαλύτερες πόλεις της Ρωμαϊκής Αυτοκρατορίας και, μετά την Αθήνα, η δεύτερη πρωτεύουσα της φιλοσοφίας. Ο χριστιανισμός είχε γίνει πια η επίσημη θρησκεία της αυτοκρατορίας, αλλά πολλοί μορφωμένοι άνθρωποι εξακολουθούσαν να ακολουθούν τους παλιούς θεούς.",
+          "en": "In Hypatia’s day Alexandria was a major city of the Roman Empire and, after Athens, the second capital of philosophy in the Greco-Roman world. Christianity had become the dominant religion, but many educated people still followed the old gods, and paganism and Neoplatonism survived for centuries more.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Στην πόλη διδάσκονταν δύο είδη νεοπλατωνισμού. Στο Σεράπειο, έναν μεγάλο ναό, διδασκόταν ένας ανοιχτά θρησκευτικός, ειδωλολατρικός νεοπλατωνισμός. Ο πατέρας της Υπατίας, ο Θέων, και η ίδια δίδασκαν μια πιο μετριοπαθή μορφή, βασισμένη στον Πλωτίνο.",
+          "en": "Two varieties of Neoplatonism were taught in Alexandria in the late fourth century: an overtly pagan, religious one at the Serapeum, influenced by Iamblichus, and the more moderate, less polemical one of Theon and Hypatia, based on Plotinus.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ήταν όμως και εποχή βίας. Το 391 ο επίσκοπος Θεόφιλος κατέστρεψε το Σεράπειο. Οι συγκρούσεις ανάμεσα σε χριστιανούς, ειδωλολάτρες και Εβραίους, και ανάμεσα στον επίσκοπο και τον Ρωμαίο έπαρχο, ήταν συχνές. Μέσα σε αυτόν τον κόσμο έζησε και πέθανε η Υπατία.",
+          "en": "It was also a violent age. In 391 the bishop Theophilus demolished the Serapeum. Conflicts between Christians, pagans and Jews, and between the bishop and the Roman prefect, were frequent. This is the world in which Hypatia lived and died.",
+          "cite": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "el": "Βιογραφία",
+      "en": "Biography",
+      "paras": [
+        {
+          "el": "Η Υπατία ήταν κόρη του Θέωνα, ενός μαθηματικού που έγινε διάσημος για τη νέα του έκδοση των «Στοιχείων» του Ευκλείδη. Για τη μητέρα της δεν ξέρουμε τίποτα. Ούτε το έτος της γέννησής της είναι βέβαιο: οι μελετητές προτείνουν χρονολογίες από το 350 ως το 370.",
+          "en": "Hypatia was the daughter of the mathematician Theon of Alexandria, whose new edition of Euclid’s Elements became the standard text for centuries. Nothing is known of her mother. Her year of birth is debated: suggestions range from 350 to 370, and some scholars prefer to leave it unspecified.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Δίδασκε φιλοσοφία, μαθηματικά και αστρονομία σε μαθητές που έρχονταν από όλη τη Μεσόγειο. Σχολίαζε τον Πλάτωνα και τον Αριστοτέλη, και, λέει ο Δαμάσκιος, περπατούσε στην πόλη φορώντας τον τρίβωνα, τον μανδύα των φιλοσόφων, και έδινε διαλέξεις στον δρόμο.",
+          "en": "She taught philosophy, mathematics and astronomy to students from all over the Mediterranean. According to Damascius she lectured on Plato and Aristotle and walked through Alexandria in a tribōn, the philosopher’s cloak, giving impromptu public lectures. Hypatia is the first female mathematician whose life is reasonably well recorded.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Αν και η ίδια ήταν ειδωλολάτρισσα, όλοι οι μαθητές της που γνωρίζουμε ήταν χριστιανοί. Ο πιο γνωστός ήταν ο Συνέσιος από την Κυρήνη, που αργότερα έγινε επίσκοπος. Σώζονται επτά γράμματά του προς την Υπατία, γεμάτα θαυμασμό: «ένα πρόσωπο τόσο φημισμένο», γράφει, «που η φήμη της έμοιαζε κυριολεκτικά απίστευτη».",
+          "en": "Although a pagan, every one of her known students was Christian. The best known, Synesius of Cyrene, became bishop of Ptolemais in 410; seven of his letters to her survive (none of hers to him). He calls her “a person so renowned, her reputation seemed literally incredible… she who honorably presides over the mysteries of philosophy”.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Ο χριστιανός ιστορικός Σωκράτης ο Σχολαστικός, σύγχρονός της, γράφει ότι ξεπερνούσε σε γνώσεις όλους τους φιλοσόφους της εποχής της. Χάρη στην παιδεία της είχε τέτοια αυτοπεποίθηση, που εμφανιζόταν συχνά μπροστά στους άρχοντες και δεν ντρεπόταν να μπει σε συγκέντρωση ανδρών. «Όλοι οι άνδρες», γράφει, «τη θαύμαζαν ακόμη περισσότερο για την εξαιρετική της αξιοπρέπεια και αρετή».",
+          "en": "The Christian historian Socrates Scholasticus, her contemporary, writes that she “far surpass[ed] all the philosophers of her own time”; “having succeeded to the school of Plato and Plotinus”, she “not infrequently appeared in public in the presence of the magistrates. Neither did she feel abashed in going to an assembly of men. For all men on account of her extraordinary dignity and virtue admired her the more.”",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Το 412 πέθανε ο επίσκοπος Θεόφιλος και τον διαδέχτηκε ο ανιψιός του, ο Κύριλλος. Ο Κύριλλος ήρθε γρήγορα σε σύγκρουση με τον Ρωμαίο έπαρχο, τον Ορέστη, που ήταν φίλος της Υπατίας και τη συμβουλευόταν συχνά, γιατί την εκτιμούσαν και οι ειδωλολάτρες και οι χριστιανοί.",
+          "en": "In 412 the bishop Theophilus died and was succeeded, after a violent struggle, by his nephew Cyril. Cyril soon came into bitter conflict with the Roman prefect Orestes, a close friend of Hypatia, who frequently consulted her because she was well liked by pagans and Christians alike and had an impeccable reputation as a wise counsellor.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Τότε άρχισαν να κυκλοφορούν φήμες ότι η Υπατία εμπόδιζε τη συμφιλίωση του Ορέστη με τον επίσκοπο. Ένας μεταγενέστερος συγγραφέας την κατηγορεί ακόμη και για μαγεία. Τον Μάρτιο του 415, την περίοδο της Σαρακοστής, ένας όχλος χριστιανών με αρχηγό έναν αναγνώστη της εκκλησίας, τον Πέτρο, σταμάτησε την άμαξά της, την έσυρε σε μια εκκλησία, το Καισάρειο, και τη σκότωσε με όστρακα. Ύστερα έκαψαν το σώμα της.",
+          "en": "Rumours spread that she was preventing Orestes from being reconciled with the bishop; a later chronicler, John of Nikiu, even accuses her of satanic magic. In March 415, during Lent, a Christian mob led by a lector named Peter seized her from her carriage, dragged her into the Kaisarion, a former temple turned church, and murdered her with ostraka (“tiles” or “shards”). They then tore her body apart and burned the remains outside the city.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ο Σωκράτης ο Σχολαστικός, αν και χριστιανός, καταδικάζει τον φόνο χωρίς δισταγμό: «Τίποτα δεν μπορεί να είναι πιο μακριά από το πνεύμα του χριστιανισμού από τις σφαγές και τις συμπλοκές». Ο φόνος συγκλόνισε την αυτοκρατορία. Δεν βρέθηκε ποτέ απόδειξη ότι τον διέταξε ο Κύριλλος, αλλά πολλοί πίστεψαν ότι ήταν υπεύθυνος.",
+          "en": "Socrates Scholasticus, himself a Christian, condemns the murder outright: “Surely nothing can be farther from the spirit of Christianity than the allowance of massacres, fights, and transactions of that sort.” The murder sent shockwaves through the empire. No concrete evidence ever linked Cyril to it directly, but it was widely believed that he had ordered it, and his smear campaign had at least inspired it.",
+          "cite": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "el": "Κοσμολογία: ο ουρανός των αριθμών",
+      "en": "Cosmology: a heaven of numbers",
+      "paras": [
+        {
+          "el": "Ως φιλόσοφος, η Υπατία ακολουθούσε τον Πλωτίνο: πίσω από τον ορατό κόσμο υπάρχει μια ανώτερη, νοητή πραγματικότητα, και τελικά το Εν, που δεν μπορεί να περιγραφεί με λόγια. Δεν σώζεται κανένα φιλοσοφικό της έργο, αλλά ο Συνέσιος λέει ότι τον δίδαξε να επιδιώκει την «απάθεια», την πλήρη απελευθέρωση από τα πάθη.",
+          "en": "As a philosopher Hypatia followed Plotinus, rejecting the more religious teachings of Iamblichus: behind the visible world stands a higher, intelligible reality, and ultimately the One, beyond thought and language. No philosophical work of hers survives, but Synesius preserves her teaching that one should pursue “the philosophical state of apatheia, complete liberation from emotions and affections”.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Στην αρχαιότητα, η αστρονομία θεωρούνταν κλάδος των μαθηματικών. Η Υπατία μελετούσε το σύστημα του Πτολεμαίου, που ήταν γεωκεντρικό: η Γη βρίσκεται στο κέντρο και ο Ήλιος, η Σελήνη και οι πλανήτες γυρίζουν γύρω της. Για τους νεοπλατωνικούς, η τάξη των ουρανών ήταν εικόνα της τάξης του νοητού κόσμου.",
+          "en": "In antiquity astronomy was regarded as essentially mathematical, and no distinction was drawn between astronomy and astrology. Hypatia worked within Ptolemy’s geocentric system, in which the Sun, Moon and planets revolve around the Earth. There is no evidence that she ever studied Aristarchus’ heliocentric model, despite what the film Agora shows.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ο Συνέσιος γράφει ότι η Υπατία τον καθοδήγησε να κατασκευάσει έναν ασημένιο αστρολάβο, ένα όργανο που δείχνει τη θέση των άστρων και υπολογίζει την ώρα. Δεν τον εφηύρε όμως η ίδια· ο επίπεδος αστρολάβος υπήρχε τουλάχιστον πεντακόσια χρόνια πριν από τη γέννησή της.",
+          "en": "Synesius writes that Hypatia guided him in constructing a silver plane astrolabe as a gift for an official. She did not invent it: the plane astrolabe was in use at least 500 years before she was born, and her father Theon had written on it. Similarly, she did not invent the hydrometer that Synesius asked her to build.",
+          "cite": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "el": "Έργα: η δασκάλα και η εκδότρια",
+      "en": "Works: the teacher and editor",
+      "paras": [
+        {
+          "el": "Η Υπατία ήταν πιθανότατα περισσότερο δασκάλα και σχολιάστρια παρά εφευρέτρια νέων θεωριών. Την εποχή της, οι λόγιοι δεν έγραφαν συνήθως πρωτότυπα έργα· διέσωζαν και σχολίαζαν τα κλασικά κείμενα, για να τα κάνουν προσιτά στους μαθητές τους.",
+          "en": "Hypatia was probably more a teacher and commentator than an innovator. In her time scholars preserved classical mathematical works and commented on them rather than publishing original works; the closure of the Mouseion and the destruction of the Serapeum may have encouraged Theon and Hypatia to concentrate on preserving key books for their students.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Σήμερα ξέρουμε ότι διόρθωσε το κείμενο του τρίτου βιβλίου της «Μαθηματικής Σύνταξης» του Πτολεμαίου, γνωστής ως «Αλμαγέστη». Ο ίδιος ο πατέρας της γράφει στον τίτλο ενός σχολίου του: «έκδοση που διόρθωσε η κόρη μου η Υπατία, η φιλόσοφος». Η συμβολή της ήταν, όπως φαίνεται, μια καλύτερη μέθοδος για τις μεγάλες διαιρέσεις των αστρονομικών υπολογισμών.",
+          "en": "She is now known to have edited the text of Book III of Ptolemy’s Almagest. Theon’s own commentary bears the title “edition revised by my daughter Hypatia, the philosopher”; scholars conclude she corrected the Almagest itself. Her contribution seems to have been an improved, tabular method for the long divisions needed in astronomical computation.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Έγραψε επίσης υπόμνημα στα «Αριθμητικά» του Διόφαντου, ένα έργο με πάνω από εκατό αλγεβρικά προβλήματα. Πολλοί μελετητές πιστεύουν ότι κομμάτια του σώζονται μέσα σε μια αραβική μετάφραση του ένατου αιώνα. Το υπόμνημά της στα «Κωνικά» του Απολλώνιου χάθηκε.",
+          "en": "She wrote a commentary on Diophantus’ Arithmetica, a work of more than 100 problems solved by algebra. Many scholars (from Paul Tannery to Alan Cameron) think the additional material in an Arabic translation of around 860 is hers, perhaps a school edition for her students, though Wilbur Knorr disputed this. Her commentary on Apollonius’ Conics is lost.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Για να σχολιάσει κανείς τα «Κωνικά» του Απολλώνιου ή τους αστρονομικούς πίνακες, χρειαζόταν πολύ υψηλό επίπεδο μαθηματικών. Γι’ αυτό οι περισσότεροι μελετητές σήμερα δέχονται ότι η Υπατία ήταν μία από τις κορυφαίες μαθηματικούς της εποχής της.",
+          "en": "Commenting on Apollonius’ advanced mathematics or on astronomical tables required a high degree of mathematical accomplishment, so most scholars today recognise that Hypatia must have been among the leading mathematicians of her day.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Για τη στάση της απέναντι στην πολιτική, ο Συνέσιος γράφει ότι τον είχε διδάξει πως ο φιλόσοφος πρέπει να φέρνει τα υψηλότερα ηθικά πρότυπα στη δημόσια ζωή και να ενεργεί για το καλό των συμπολιτών του. «Έχεις πάντα δύναμη», της γράφει, «και μπορείς να κάνεις το καλό με αυτή τη δύναμη».",
+          "en": "On politics, Synesius reminds her that she had taught him that a Neoplatonic philosopher must introduce the highest moral standards to political life and act for the benefit of fellow citizens. “You always have power,” he writes in 413, asking her to intercede for two victims of the civil strife, “and you can bring about good by using that power.”",
+          "cite": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "el": "Επίδραση: ιστορία και μύθος",
+      "en": "Impact: history and myth",
+      "paras": [
+        {
+          "el": "Ο φόνος της έκανε την Υπατία «μάρτυρα της φιλοσοφίας». Οι μεταγενέστεροι νεοπλατωνικοί, όπως ο Δαμάσκιος, έγιναν πιο εχθρικοί απέναντι στον χριστιανισμό. Η ελπίδα της Υπατίας ότι η φιλοσοφία και ο χριστιανισμός μπορούσαν να ζήσουν ειρηνικά μαζί χάθηκε μαζί της.",
+          "en": "Her murder made Hypatia a “martyr for philosophy” and led later Neoplatonists such as Damascius to become more fervent in their opposition to Christianity. Watts argues that her hope that Neoplatonism and Christianity could coexist peacefully died with her, although Neoplatonism as a whole continued for two more centuries.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Στον Μεσαίωνα, η ιστορία της ενώθηκε με τις ιστορίες των χριστιανών μαρτύρων, και πιθανώς έγινε μία από τις πηγές του θρύλου της Αγίας Αικατερίνης της Αλεξανδρινής, μιας σοφής παρθένας μάρτυρα. Τον 18ο αιώνα, αντίθετα, ο Βολταίρος και ο Γκίμπον την έκαναν σύμβολο της λογικής απέναντι στον φανατισμό της Εκκλησίας, αλλάζοντας συχνά τα γεγονότα.",
+          "en": "In the Middle Ages her story merged with those of Christian martyrs, and scholars believe she was part of the basis for the legend of Saint Catherine of Alexandria, a wise virgin martyr. In the 18th century Toland, Voltaire and Gibbon made her a symbol of reason against Church fanaticism, often distorting or inventing details.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Τον 19ο αιώνα, το μυθιστόρημα «Υπατία» του Τσαρλς Κίνγκσλεϊ (1853) την παρουσίασε ως «την τελευταία των Ελλήνων». Τον 20ό αιώνα έγινε σύμβολο του φεμινισμού: δύο φεμινιστικά περιοδικά, ένα ελληνικό και ένα αμερικανικό, πήραν το όνομά της. Το 2009 η ταινία «Αγορά» έφερε την ιστορία της στη μεγάλη οθόνη.",
+          "en": "In the 19th century Charles Kingsley’s novel Hypatia (1853) romanticised her as “the last of the Hellenes”. In the 20th she became an icon for women’s rights: the Greek journal Hypatia: Feminist Studies (Athens, 1984) and the American Hypatia: A Journal of Feminist Philosophy (1986) bear her name. The 2009 film Agora, with Rachel Weisz, dramatised her last years very freely.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Πολλά από όσα «ξέρουμε» για την Υπατία είναι όμως μύθοι. Δεν εφηύρε τον αστρολάβο. Δεν υπάρχει κανένα αρχαίο πορτρέτο της· η διάσημη εικόνα της είναι ένα σχέδιο του 1908. Και ο φόνος της δεν είχε καμία σχέση με την καταστροφή της Βιβλιοθήκης της Αλεξάνδρειας, που είχε πάψει να υπάρχει αιώνες πριν από τη γέννησή της.",
+          "en": "Much of what people “know” about Hypatia is myth. She did not invent the astrolabe or the hydrometer. No ancient depiction of her survives; the famous portrait is a 1908 drawing for Elbert Hubbard’s largely fictional biography, which also put invented quotations in her mouth. And her death had nothing to do with the destruction of the Library of Alexandria, which had ceased to exist in any recognisable form centuries before she was born.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Η Υπατία παραμένει όμως η πρώτη γυναίκα μαθηματικός της οποίας τη ζωή γνωρίζουμε αρκετά καλά, και μια δασκάλα που τη θαύμαζαν χριστιανοί και ειδωλολάτρες. Το 2015 ένας πλανήτης έξω από το ηλιακό μας σύστημα πήρε το όνομά της.",
+          "en": "Yet she remains the first female mathematician whose life is reasonably well recorded, and a teacher admired by Christians and pagans alike. MacTutor calls her “the first woman to make a substantial contribution to the development of mathematics”. In 2015 the exoplanet Iota Draconis b was named after her.",
+          "cite": [
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "level": "C1",
+      "title": "Feminine forms of professions: φιλόσοφος, μαθηματικός, δασκάλα",
+      "en": "Many professions are **common-gender** in Greek, changing only the article: **η φιλόσοφος, η μαθηματικός, η γιατρός, η δικηγόρος**. Others have feminine forms: **δάσκαλος → δασκάλα**, **σχολιαστής → σχολιάστρια**, **εκδότης → εκδότρια**, **εφευρέτης → εφευρέτρια**, **ειδωλολάτρης → ειδωλολάτρισσα**. Usage is changing, so both **η πρύτανης** and **η πρυτάνισσα** occur.",
+      "examples": [
+        {
+          "el": "Η Υπατία ήταν η πιο γνωστή μαθηματικός της εποχής της.",
+          "en": "Hypatia was the best-known (female) mathematician of her time."
+        },
+        {
+          "el": "Ήταν περισσότερο δασκάλα και σχολιάστρια παρά εφευρέτρια.",
+          "en": "She was more a teacher and commentator than an inventor."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Hedging: πιθανότατα, όπως φαίνεται, λέγεται ότι",
+      "en": "Historical writing must show how certain a claim is. Strong: **είναι βέβαιο ότι, ξέρουμε ότι**. Medium: **πιθανότατα, μάλλον, όπως φαίνεται**. Weak: **ίσως, ενδέχεται να, λέγεται ότι, κατά μία εκδοχή**. Distancing: **υποτίθεται ότι, δήθεν**. Learn to read these signals: they separate history from myth.",
+      "examples": [
+        {
+          "el": "Πιθανότατα ήταν περισσότερο δασκάλα παρά εφευρέτρια.",
+          "en": "She was most probably more a teacher than an inventor."
+        },
+        {
+          "el": "Λέγεται ότι εφηύρε τον αστρολάβο, αλλά αυτό είναι μύθος.",
+          "en": "It is said that she invented the astrolabe, but that is a myth."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Passive and impersonal narration of violence",
+      "en": "News and history often avoid naming agents: **σκοτώθηκε, δολοφονήθηκε, κάηκε, συνελήφθη** (was arrested). Compare active **ένας όχλος τη σκότωσε**. **Ο φόνος διαπράχθηκε** (was committed) is formal. Choosing active or passive is a choice about responsibility: notice it when you read Greek news.",
+      "examples": [
+        {
+          "el": "Η Υπατία δολοφονήθηκε τον Μάρτιο του 415.",
+          "en": "Hypatia was murdered in March 415."
+        },
+        {
+          "el": "Ένας όχλος με αρχηγό τον Πέτρο τη σκότωσε.",
+          "en": "A mob led by Peter killed her."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Concession and contrast: αν και, παρόλο που, ωστόσο, αντίθετα",
+      "en": "«Αν και η ίδια ήταν ειδωλολάτρισσα, όλοι οι μαθητές της ήταν χριστιανοί.» **αν και / παρόλο που / μολονότι** + indicative introduce a concession; **ωστόσο, παρ’ όλα αυτά, εντούτοις** contrast with the previous sentence; **αντίθετα** (on the contrary) and **ενώ** (whereas) set two facts side by side.",
+      "examples": [
+        {
+          "el": "Ο Σωκράτης ο Σχολαστικός, αν και χριστιανός, καταδίκασε τον φόνο.",
+          "en": "Socrates Scholasticus, although a Christian, condemned the murder."
+        },
+        {
+          "el": "Στον Μεσαίωνα έγινε χριστιανή μάρτυρας· τον 18ο αιώνα, αντίθετα, σύμβολο κατά της Εκκλησίας.",
+          "en": "In the Middle Ages she became a Christian martyr; in the 18th century, by contrast, a symbol against the Church."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Past tense of «πάψω»: είχε πάψει να υπάρχει",
+      "en": "**Παύω / σταματώ να** + verb = stop doing; **έπαψε να υπάρχει** (ceased to exist). With the pluperfect it marks something that had already ended: **η Βιβλιοθήκη είχε πάψει να υπάρχει**. Related: **παύση** (pause), **απολύω/παύω από τα καθήκοντα** (dismiss), **ακατάπαυστα** (incessantly).",
+      "examples": [
+        {
+          "el": "Η Βιβλιοθήκη είχε πάψει να υπάρχει πριν από τη γέννησή της.",
+          "en": "The Library had ceased to exist before her birth."
+        },
+        {
+          "el": "Μετά τον φόνο, ο Ορέστης έπαψε να έχει δύναμη.",
+          "en": "After the murder, Orestes ceased to have power."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "Ποιος ήταν ο πατέρας της Υπατίας;",
+      "options": [
+        "Ο μαθηματικός Θέων",
+        "Ο επίσκοπος Κύριλλος",
+        "Ο έπαρχος Ορέστης",
+        "Ο Συνέσιος"
+      ],
+      "answer": "Ο μαθηματικός Θέων",
+      "why": "Editor of Euclid’s Elements."
+    },
+    {
+      "q": "Τι θρησκεία είχαν οι γνωστοί μαθητές της Υπατίας;",
+      "options": [
+        "Ήταν όλοι χριστιανοί",
+        "Ήταν όλοι ειδωλολάτρες",
+        "Ήταν όλοι Εβραίοι",
+        "Δεν ξέρουμε τίποτα"
+      ],
+      "answer": "Ήταν όλοι χριστιανοί",
+      "why": "Among them Synesius, later a bishop."
+    },
+    {
+      "q": "Ποιο έργο του Πτολεμαίου διόρθωσε η Υπατία;",
+      "options": [
+        "Το τρίτο βιβλίο της «Αλμαγέστης»",
+        "Τα «Στοιχεία»",
+        "Την «Πολιτεία»",
+        "Τα «Κωνικά»"
+      ],
+      "answer": "Το τρίτο βιβλίο της «Αλμαγέστης»",
+      "why": "“Revised by my daughter Hypatia, the philosopher.”"
+    },
+    {
+      "q": "Γιατί άρχισαν οι φήμες εναντίον της Υπατίας;",
+      "options": [
+        "Έλεγαν ότι εμπόδιζε τη συμφιλίωση του Ορέστη με τον Κύριλλο",
+        "Έλεγαν ότι έκαψε τη Βιβλιοθήκη",
+        "Έλεγαν ότι ήθελε να γίνει αυτοκράτειρα",
+        "Έλεγαν ότι ήταν χριστιανή"
+      ],
+      "answer": "Έλεγαν ότι εμπόδιζε τη συμφιλίωση του Ορέστη με τον Κύριλλο",
+      "why": "Socrates Scholasticus calls it political jealousy."
+    },
+    {
+      "q": "Εφηύρε η Υπατία τον αστρολάβο;",
+      "options": [
+        "Όχι, υπήρχε αιώνες πριν από αυτήν",
+        "Ναι, το 400 μ.Χ.",
+        "Ναι, μαζί με τον Συνέσιο",
+        "Ναι, για τον Ορέστη"
+      ],
+      "answer": "Όχι, υπήρχε αιώνες πριν από αυτήν",
+      "why": "At least 500 years older."
+    },
+    {
+      "q": "Τι σχέση είχε ο θάνατός της με τη Βιβλιοθήκη της Αλεξάνδρειας;",
+      "options": [
+        "Καμία· η Βιβλιοθήκη δεν υπήρχε πια",
+        "Η Βιβλιοθήκη κάηκε την ίδια μέρα",
+        "Η Υπατία ήταν η διευθύντρια",
+        "Ο όχλος έκαψε τα βιβλία της"
+      ],
+      "answer": "Καμία· η Βιβλιοθήκη δεν υπήρχε πια",
+      "why": "A modern myth."
+    },
+    {
+      "q": "Συμπληρώστε: «Η Υπατία ήταν μία από τις κορυφαίες ___ της εποχής της.»",
+      "options": [
+        "μαθηματικούς",
+        "μαθηματικές",
+        "μαθηματικοί",
+        "μαθηματικών"
+      ],
+      "answer": "μαθηματικούς",
+      "why": "Common-gender noun: οι μαθηματικοί, τις μαθηματικούς."
+    },
+    {
+      "q": "Με ποια αγία ταυτίστηκε η Υπατία στον Μεσαίωνα;",
+      "options": [
+        "Με την Αγία Αικατερίνη",
+        "Με την Αγία Ειρήνη",
+        "Με την Αγία Σοφία",
+        "Με την Αγία Βαρβάρα"
+      ],
+      "answer": "Με την Αγία Αικατερίνη",
+      "why": "A wise virgin martyr of Alexandria."
+    }
+  ],
+  "vocab": [
+    "επίσημος",
+    "εξακολουθώ",
+    "μετριοπαθής",
+    "καταστρέφω",
+    "σύγκρουση",
+    "έκδοση",
+    "μανδύας",
+    "διάλεξη",
+    "θαυμασμός",
+    "φημισμένος",
+    "απίστευτος",
+    "σύγχρονος",
+    "αυτοπεποίθηση",
+    "άρχοντας",
+    "συγκέντρωση",
+    "αξιοπρέπεια",
+    "ανιψιός",
+    "συμβουλεύομαι",
+    "εκτιμώ",
+    "φήμη",
+    "συμφιλίωση",
+    "μαγεία",
+    "Σαρακοστή",
+    "άμαξα",
+    "σέρνω",
+    "όστρακο",
+    "καταδικάζω",
+    "δισταγμός",
+    "σφαγή",
+    "συμπλοκή",
+    "συγκλονίζω",
+    "απόδειξη",
+    "διατάζω",
+    "υπεύθυνος",
+    "απελευθέρωση",
+    "κλάδος",
+    "γεωκεντρικός",
+    "καθοδηγώ",
+    "ασημένιος",
+    "εφευρίσκω",
+    "πρωτότυπος",
+    "προσιτός",
+    "συμβολή",
+    "διαίρεση",
+    "υπολογισμός",
+    "χάνομαι",
+    "κορυφαίος",
+    "πρότυπο",
+    "θρύλος",
+    "παρθένα",
+    "φανατισμός",
+    "μυθιστόρημα",
+    "οθόνη",
+    "πορτρέτο",
+    "πλανήτης"
+  ],
+  "gloss": {
+    "Βιογραφία": "βιογραφία — biography",
+    "Κοσμολογία": "κοσμολογία — cosmology",
+    "αστρονομία": "αστρονομία — astronomy",
+    "μ.Χ.": "μ.Χ. — AD (μετά Χριστόν)",
+    "περ.": "περίπου — about, circa",
+    "Αριστοτέλη": "Αριστοτέλης — Aristotle",
+    "Πλάτωνα": "Πλάτων — Plato",
+    "Σωκράτης": "Σωκράτης — Socrates",
+    "επίπεδος": "επίπεδος — flat, level",
+    "επίπεδο": "επίπεδος — flat; (noun) level, plane",
+    "χρονολογίες": "χρονολογία — date, chronology",
+    "μελετητές": "μελετητής — scholar",
+    "φημισμένος": "φημισμένος — famous",
+    "Αλεξάνδρειας": "Αλεξάνδρεια — Alexandria",
+    "εφευρέτης": "εφευρέτης — inventor",
+    "Ευκλείδη": "Ευκλείδης — Euclid",
+    "Ρωμαίος": "Ρωμαίος — Roman",
+    "Κυρήνη": "Κυρήνη — Cyrene (Greek city in Libya)",
+    "Μεσαίωνα": "Μεσαίωνας — the Middle Ages",
+    "απάθεια": "απάθεια — impassivity; apathy",
+    "Ρωμαίο": "Ρωμαίος — Roman",
+    "Βολταίρος": "Βολταίρος — Voltaire",
+    "Πλωτίνο": "Πλωτίνος — Plotinus",
+    "Υπατία": "Υπατία — Hypatia",
+    "Υπατίας": "Υπατία — Hypatia",
+    "Σεράπειο": "Σεράπειο — the Serapeum (temple in Alexandria)",
+    "Θεόφιλος": "Θεόφιλος — Theophilus (bishop)",
+    "Θέωνα": "Θέων — Theon of Alexandria",
+    "Δαμάσκιος": "Δαμάσκιος — Damascius (Neoplatonist)",
+    "Συνέσιος": "Συνέσιος — Synesius of Cyrene",
+    "Συνέσιο": "Συνέσιος — Synesius of Cyrene",
+    "Σχολαστικός": "Σχολαστικός — Scholasticus",
+    "Κύριλλος": "Κύριλλος — Cyril (bishop of Alexandria)",
+    "Κύριλλο": "Κύριλλος — Cyril (bishop of Alexandria)",
+    "Καισάρειο": "Καισάρειο — the Kaisarion (temple turned church)",
+    "Πτολεμαίου": "Πτολεμαίος — Ptolemy",
+    "Πτολεμαίων": "Πτολεμαίοι — the Ptolemies",
+    "Αλμαγέστη": "Αλμαγέστη — the Almagest",
+    "Αλμαγέστης": "Αλμαγέστη — the Almagest",
+    "Διόφαντου": "Διόφαντος — Diophantus",
+    "Κωνικά": "Κωνικά — the Conics (Apollonius)",
+    "Απολλώνιου": "Απολλώνιος — Apollonius of Perga",
+    "Αικατερίνης": "Αικατερίνη — Catherine",
+    "Αικατερίνη": "Αικατερίνη — Catherine",
+    "Αλεξανδρινής": "Αλεξανδρινός — of Alexandria",
+    "Γκίμπον": "Γκίμπον — Edward Gibbon",
+    "Κίνγκσλεϊ": "Κίνγκσλεϊ — Charles Kingsley",
+    "νεοπλατωνισμού": "νεοπλατωνισμός — Neoplatonism",
+    "νεοπλατωνισμός": "νεοπλατωνισμός — Neoplatonism",
+    "νεοπλατωνικούς": "νεοπλατωνικός — Neoplatonist",
+    "νεοπλατωνικοί": "νεοπλατωνικός — Neoplatonist",
+    "ειδωλολατρικός": "ειδωλολατρικός — pagan",
+    "ειδωλολάτρες": "ειδωλολάτρης — pagan",
+    "ειδωλολάτρης": "ειδωλολάτρης — pagan",
+    "ειδωλολάτρισσα": "ειδωλολάτρισσα — pagan (woman)",
+    "μετριοπαθή": "μετριοπαθής — moderate",
+    "μετριοπαθής": "μετριοπαθής — moderate",
+    "έπαρχο": "έπαρχος — prefect",
+    "έπαρχος": "έπαρχος — prefect",
+    "τρίβωνα": "τρίβων — philosopher's cloak",
+    "μανδύα": "μανδύας — cloak, mantle",
+    "μανδύας": "μανδύας — cloak, mantle",
+    "φημισμένο": "φημισμένος — famous, renowned",
+    "διαδέχτηκε": "διαδέχομαι — succeed (someone)",
+    "συμφιλίωση": "συμφιλίωση — reconciliation",
+    "Σαρακοστής": "Σαρακοστή — Lent",
+    "όχλος": "όχλος — mob",
+    "όστρακα": "όστρακο — shard, tile, shell",
+    "όστρακο": "όστρακο — shard, tile, shell",
+    "δισταγμό": "δισταγμός — hesitation",
+    "δισταγμός": "δισταγμός — hesitation",
+    "συμπλοκές": "συμπλοκή — clash, brawl",
+    "συμπλοκή": "συμπλοκή — clash, brawl",
+    "νοητή": "νοητός — intelligible",
+    "νοητού": "νοητός — intelligible",
+    "γεωκεντρικό": "γεωκεντρικός — geocentric",
+    "γεωκεντρικός": "γεωκεντρικός — geocentric",
+    "αστρολάβο": "αστρολάβος — astrolabe",
+    "αστρολάβος": "αστρολάβος — astrolabe",
+    "σχολιάστρια": "σχολιάστρια — commentator (woman)",
+    "εφευρέτρια": "εφευρέτρια — inventor (woman)",
+    "διέσωζαν": "διασώζω — preserve",
+    "προσιτά": "προσιτός — accessible",
+    "προσιτός": "προσιτός — accessible",
+    "αστρονομικών": "αστρονομικός — astronomical",
+    "αστρονομικούς": "αστρονομικός — astronomical",
+    "υπόμνημα": "υπόμνημα — commentary; memorandum",
+    "υπόμνημά": "υπόμνημα — commentary; memorandum",
+    "αλγεβρικά": "αλγεβρικός — algebraic",
+    "αραβική": "αραβικός — Arabic",
+    "ένατου": "ένατος — ninth",
+    "υψηλότερα": "υψηλός — high (highest)",
+    "φανατισμό": "φανατισμός — fanaticism",
+    "φανατισμός": "φανατισμός — fanaticism",
+    "φεμινισμού": "φεμινισμός — feminism",
+    "φεμινιστικά": "φεμινιστικός — feminist",
+    "αυτοκράτειρα": "αυτοκράτειρα — empress",
+    "συκοφαντία": "συκοφαντία — slander",
+    "χριστιανικό": "χριστιανικός — Christian",
+    "κοσμολογία": "κοσμολογία — cosmology",
+    "Αριστοτέλης": "Αριστοτέλης — Aristotle",
+    "Πλάτων": "Πλάτων — Plato",
+    "νεοπλατωνικός": "νεοπλατωνικός — Neoplatonist",
+    "χρονολογία": "χρονολογία — date, chronology",
+    "Πλωτίνος": "Πλωτίνος — Plotinus",
+    "Ζιλ": "Ζιλ — Jules (French name)",
+    "Γκασπάρ": "Γκασπάρ — Jules Maurice Gaspard (illustrator)",
+    "Μορίς": "Μορίς — Maurice"
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "“Hypatia”, Wikipedia (drawing on Watts, Cameron, Dzielska and the ancient sources: Socrates Scholasticus, Synesius, Damascius, John of Nikiu): life, teaching, death, works, reputed inventions, legacy and myths.",
+      "url": "https://en.wikipedia.org/wiki/Hypatia"
+    },
+    {
+      "n": 2,
+      "text": "J. J. O’Connor and E. F. Robertson, “Hypatia of Alexandria”, MacTutor History of Mathematics: teaching, Synesius, mathematical work.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hypatia/"
+    }
+  ]
+}

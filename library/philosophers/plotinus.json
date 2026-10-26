@@ -1,0 +1,613 @@
+{
+  "id": "plotinus",
+  "el": "Πλωτίνος",
+  "title": "Plotinus",
+  "level": "C1",
+  "dates": "204/5 – 270 μ.Χ.",
+  "image": {
+    "file": "img/philosophers/plotinus.jpg",
+    "caption": "Ρωμαϊκή σαρκοφάγος με φιλόσοφο που διαβάζει ανάμεσα στους μαθητές του· κάποιοι μελετητές τον ταύτισαν με τον Πλωτίνο, αλλά η ταύτιση είναι αβέβαιη. Μουσεία του Βατικανού.",
+    "caption_en": "Roman sarcophagus showing a philosopher reading among his disciples; some scholars identified him as Plotinus, but the identification is speculative. Vatican Museums.",
+    "credit": "Roman sarcophagus, Museo Gregoriano Profano",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Roman_sarcophagus_of_a_reader_identified_to_Plotinus_and_disciples.jpg"
+  },
+  "summary_en": "Plotinus (204/5–270 AD), born in Egypt and Greek in language and education, found his teacher at 28 in the Platonist **Ammonius Saccas** of Alexandria, joined Gordian III’s ill-fated campaign against Persia hoping to learn the wisdom of the Persians and Indians, and from 244 taught in Rome, where senators, doctors and women attended his seminars and the emperor Gallienus listened to his plan for a “city of philosophers”. He began writing only at about fifty; his pupil **Porphyry** arranged the treatises into six groups of nine, the **Enneads**. Plotinus saw himself simply as an interpreter of Plato, but built a new system: all reality flows (“emanates”) from **the One**, which is beyond being and thought, through **Intellect** (Nous), the realm of the Forms, and **Soul**, down to matter, as light flows from the sun without diminishing it. The soul’s task is to turn inward and ascend, through beauty and contemplation, to **union with the One**, which Porphyry says Plotinus achieved four times in his presence. Through Augustine, Pseudo-Dionysius, Islamic and Jewish thinkers, Ficino and the Cambridge Platonists, his “Neoplatonism” shaped the mysticism and theology of three religions.",
+  "terms": [
+    {
+      "el": "το Εν",
+      "en": "the One",
+      "def_el": "Η πρώτη αρχή του Πλωτίνου, απόλυτα απλή, πέρα από το είναι και τη σκέψη.",
+      "def_en": "Ancient τὸ ἕν, neuter of εἷς “one”. Also called the Good."
+    },
+    {
+      "el": "ο Νους",
+      "en": "Intellect, Mind",
+      "def_el": "Η δεύτερη αρχή, που σκέφτεται τον εαυτό της και περιέχει τις Ιδέες.",
+      "def_en": "Modern νους “mind”: βάζω με τον νου μου “imagine”."
+    },
+    {
+      "el": "η Ψυχή",
+      "en": "Soul",
+      "def_el": "Η τρίτη αρχή, που δίνει ζωή και τάξη στον αισθητό κόσμο.",
+      "def_en": "Capitalised for the cosmic principle; ψυχή also “soul, psyche”."
+    },
+    {
+      "el": "η υπόσταση",
+      "en": "hypostasis, level of reality",
+      "def_el": "Καθεμία από τις τρεις βασικές αρχές της πραγματικότητας: Εν, Νους, Ψυχή.",
+      "def_en": "Modern υπόσταση “substance, existence” (χωρίς υπόσταση “unfounded”)."
+    },
+    {
+      "el": "η απόρροια",
+      "en": "emanation, outflow",
+      "def_el": "Η «ροή» της πραγματικότητας από το Εν προς τα κάτω.",
+      "def_en": "από + ρέω “flow”. Modern απόρροια also means “consequence”."
+    },
+    {
+      "el": "η ένωση",
+      "en": "union (henosis)",
+      "def_el": "Η μυστική ένωση της ψυχής με το Εν.",
+      "def_en": "Modern ένωση “union” (Ευρωπαϊκή Ένωση)."
+    },
+    {
+      "el": "η θεωρία",
+      "en": "contemplation",
+      "def_el": "Η εσωτερική θέαση της αλήθειας· για τον Πλωτίνο, δημιουργική δύναμη.",
+      "def_en": "From θεωρώ “behold”; modern θεωρία “theory”."
+    },
+    {
+      "el": "η ύλη",
+      "en": "matter",
+      "def_el": "Το κατώτερο επίπεδο της πραγματικότητας, χωρίς μορφή και καλό.",
+      "def_en": "Originally “wood, timber”; Aristotle made it “matter”."
+    },
+    {
+      "el": "οι Εννεάδες",
+      "en": "the Enneads",
+      "def_el": "Τα έργα του Πλωτίνου, χωρισμένα σε έξι ομάδες των εννέα πραγματειών.",
+      "def_en": "εννεάς “group of nine”. Cf. εννιά, εννεαμελής."
+    },
+    {
+      "el": "ο μυστικισμός",
+      "en": "mysticism",
+      "def_el": "Η αναζήτηση άμεσης εμπειρίας του θείου, πέρα από τη λογική.",
+      "def_en": "From μύστης “initiate” and μυστήριο."
+    }
+  ],
+  "sections": [
+    {
+      "id": "context",
+      "el": "Ιστορικό πλαίσιο",
+      "en": "Historical context",
+      "paras": [
+        {
+          "el": "Ο Πλωτίνος έζησε τον τρίτο αιώνα μ.Χ., μια περίοδο που οι ιστορικοί ονομάζουν «κρίση του τρίτου αιώνα». Οι αυτοκράτορες άλλαζαν συνεχώς, συχνά δολοφονημένοι από τους στρατιώτες τους, τα σύνορα δέχονταν επιθέσεις, και η οικονομία κατέρρεε.",
+          "en": "Plotinus lived in the third century AD, a period often, and not without reason, called the “Third Century Crisis”: emperors succeeded one another rapidly, often murdered by their own troops, the frontiers were under attack and the economy was failing. Porphyry’s Life of Plotinus is a precious witness to this little-known period.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Στη φιλοσοφία, οι μεγάλες σχολές της ελληνιστικής εποχής είχαν χάσει τη δύναμή τους, και ο Πλάτων και ο Αριστοτέλης διαβάζονταν ξανά μέσα από σχόλια και ερμηνείες. Παράλληλα, νέες θρησκευτικές κινήσεις, όπως ο χριστιανισμός και οι γνωστικοί, πρόσφεραν τη σωτηρία της ψυχής.",
+          "en": "In philosophy, Plato and Aristotle were being read again through commentaries, and Plotinus’ seminars began with readings from such commentaries. At the same time new religious movements, Christianity and the Gnostics, promised salvation of the soul. Plotinus engaged with Stoics, Neopythagoreans and Gnostics as well as with Plato and Aristotle.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Ο ίδιος ο Πλωτίνος δεν θεωρούσε τον εαυτό του καινοτόμο. Πίστευε ότι ο Πλάτων είχε ήδη πει τα ουσιώδη, και ότι το έργο του ήταν μόνο να τα ερμηνεύσει σωστά. Ο όρος «νεοπλατωνισμός» είναι πολύ μεταγενέστερος.",
+          "en": "Plotinus did not see himself as an innovator: he regarded his philosophy as complete from the outset, with Plato having already furnished its fundamentals, which needed only to be properly interpreted. The term “Neoplatonism” is a modern label.",
+          "cite": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "el": "Βιογραφία",
+      "en": "Biography",
+      "paras": [
+        {
+          "el": "Ξέρουμε τη ζωή του από τον μαθητή του, τον Πορφύριο, που έζησε μαζί του περίπου πέντε χρόνια. Ο Πλωτίνος γεννήθηκε στην Αίγυπτο το 204 ή 205, ίσως στη Λυκόπολη. Η μητρική του γλώσσα και η παιδεία του ήταν ελληνικές. Ο ίδιος όμως δεν μιλούσε ποτέ για την καταγωγή του, για τα παιδικά του χρόνια ή για τον τόπο όπου γεννήθηκε.",
+          "en": "We know his life from his pupil Porphyry, who lived with him for about five years. Plotinus was born in Egypt in 204/5, perhaps at Lyco (Lycopolis), according to Eunapius. Greek was his language and his education Greek, but he himself never spoke of his ancestry, childhood, birthplace or birthday.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Είχε, λέει ο Πορφύριος, μια βαθιά δυσπιστία προς το σώμα, ακόμη και το δικό του. Όταν οι μαθητές του θέλησαν να ζωγραφίσουν το πορτρέτο του, αρνήθηκε, γιατί η εικόνα του σώματος του φαινόταν κατώτερη από την αληθινή πραγματικότητα.",
+          "en": "He had, Porphyry tells us, a deep distrust of the body, including his own: he once refused to have his portrait painted, presumably because he regarded bodily appearance as an inferior representation of reality.",
+          "cite": [
+            3
+          ]
+        },
+        {
+          "el": "Στα είκοσι οχτώ του πήγε στην Αλεξάνδρεια να σπουδάσει φιλοσοφία. Κανένας δάσκαλος δεν τον ικανοποιούσε, ώσπου ένας φίλος τον πήγε να ακούσει τον Αμμώνιο τον Σακκά. Μόλις τον άκουσε, είπε: «Αυτόν έψαχνα». Έμεινε μαζί του έντεκα χρόνια.",
+          "en": "At twenty-eight he went to Alexandria to study philosophy. No teacher satisfied him, until a friend took him to hear the self-taught Platonist Ammonius Saccas. After the lecture he declared: “This is the man I was looking for.” He stayed with Ammonius for eleven years.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Ύστερα θέλησε να γνωρίσει τη σοφία των Περσών και των Ινδών, και ακολούθησε την εκστρατεία του αυτοκράτορα Γορδιανού του Γ΄ εναντίον της Περσίας. Όταν όμως οι στρατιώτες σκότωσαν τον Γορδιανό, ο Πλωτίνος βρέθηκε μόνος σε εχθρική χώρα και με μεγάλη δυσκολία σώθηκε στην Αντιόχεια.",
+          "en": "Then, wishing to become “acquainted with the wisdom of the Persians and the Indians”, he joined Emperor Gordian III’s expedition against Persia in 242–243. When Gordian was murdered by his troops, Plotinus found himself abandoned in hostile country and only with great difficulty reached safety in Antioch.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Στα σαράντα του, το 244, εγκαταστάθηκε στη Ρώμη, όπου δίδαξε για περισσότερα από είκοσι πέντε χρόνια. Στον κύκλο του ήταν ο Πορφύριος, ο Αμέλιος, ο γιατρός Ευστόχιος, συγκλητικοί και ποιητές, αλλά και γυναίκες, όπως η Γεμίνα, στο σπίτι της οποίας έμενε. Ο αυτοκράτορας Γαλλιηνός και η σύζυγός του Σαλωνίνα τον σέβονταν πολύ.",
+          "en": "At forty, in 244, he settled in Rome and taught there for more than twenty-five years. His circle included Porphyry, Amelius, the doctor Eustochius, senators such as Castricius Firmus, poets and critics, and women such as Gemina, in whose house he lived, and her daughter. The emperor Gallienus and his wife Salonina held him in high regard.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Ο Πλωτίνος πρότεινε στον Γαλλιηνό να ξαναχτίσει μια εγκαταλελειμμένη πόλη στην Καμπανία ως «Πόλη των Φιλοσόφων», όπου οι κάτοικοι θα ζούσαν με τους «Νόμους» του Πλάτωνα. Το σχέδιο όμως δεν πραγματοποιήθηκε ποτέ, για λόγους που ούτε ο Πορφύριος δεν ήξερε.",
+          "en": "Plotinus tried to persuade Gallienus to rebuild an abandoned settlement in Campania as a “City of Philosophers”, whose inhabitants would live under the constitution of Plato’s Laws. The imperial subsidy was never granted, for reasons unknown even to Porphyry.",
+          "cite": [
+            3
+          ]
+        },
+        {
+          "el": "Άρχισε να γράφει μόλις γύρω στο 254, σε ηλικία περίπου πενήντα ετών. Τα κείμενά του ήταν σημειώσεις από τα μαθήματα. Επειδή η όρασή του ήταν αδύναμη, δεν τα ξαναδιάβαζε ποτέ· ο γραφικός του χαρακτήρας ήταν απαίσιος, δεν χώριζε σωστά τις λέξεις και δεν τον ένοιαζε η ορθογραφία. Ο Πορφύριος τα διόρθωσε και τα οργάνωσε σε έξι ομάδες των εννέα, τις «Εννεάδες».",
+          "en": "He began to write only around 254, at about fifty, recording the discussions of his seminars. His eyesight was poor and he never revised; according to Porphyry his handwriting was atrocious, he did not separate his words properly and cared little for spelling. Porphyry edited the treatises and arranged them in six groups of nine, the Enneads, adding a chronological table of their composition.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Στο τέλος της ζωής του, άρρωστος, αποσύρθηκε σε ένα κτήμα στην Καμπανία που του είχε αφήσει ο φίλος του ο Ζήθος. Εκεί πέθανε το 270, σε ηλικία εξήντα έξι ετών. Τα τελευταία του λόγια, κατά τον γιατρό Ευστόχιο, ήταν: «Προσπαθήστε να ανεβάσετε το θείο που είναι μέσα σας στο θείο που είναι στο σύμπαν».",
+          "en": "At the end of his life he retired to an estate in Campania left to him by his friend Zethos, and died there in 270, aged sixty-six. His last words, as reported by the doctor Eustochius, were: “Strive to bring back the god in yourselves to the God in the All” (Life of Plotinus 2). A snake, it was said, crept under his bed and slipped away through a hole in the wall at the moment he died.",
+          "cite": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "el": "Κοσμολογία: το Εν, ο Νους και η Ψυχή",
+      "en": "Cosmology: the One, Intellect and Soul",
+      "paras": [
+        {
+          "el": "Στην κορυφή της πραγματικότητας βρίσκεται το Εν. Είναι απόλυτα απλό, χωρίς κανένα μέρος και καμία διαίρεση. Δεν είναι κάποιο από τα όντα· βρίσκεται «πριν από όλα τα όντα», πέρα από το είναι και το μη είναι. Γι’ αυτό δεν μπορούμε να πούμε τι είναι· μπορούμε μόνο να πούμε τι δεν είναι. Ο Πλωτίνος το ονομάζει επίσης «το Αγαθό».",
+          "en": "At the summit of reality is the One: absolutely simple, without parts, division or multiplicity. It “cannot be any existing thing”, but “is prior to all existents”, beyond being and non-being; so we cannot say what it is, only what it is not. Plotinus also identifies it with the Good and the principle of Beauty. “Once you have uttered ‘The Good’, add no further thought” (III.8.11).",
+          "cite": [
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Από το Εν «πηγάζει» ο Νους, όπως το φως πηγάζει από τον ήλιο χωρίς να τον μειώνει. Ο Νους σκέφτεται τον εαυτό του και περιέχει όλες τις πλατωνικές Ιδέες. Από τον Νου πηγάζει η Ψυχή του κόσμου, που δίνει ζωή και τάξη στον αισθητό κόσμο, και από αυτήν οι ψυχές των ανθρώπων. Αυτές είναι οι τρεις «υποστάσεις» του Πλωτίνου.",
+          "en": "From the One “emanates” Intellect (Nous), as light flows from the sun without diminishing it. Intellect thinks itself and contains all the Platonic Forms. From Intellect proceeds the World Soul, which orders and enlivens the sensible world, and from it individual souls. These are Plotinus’ three hypostases: the One, Intellect and Soul. This is not creation in time, but a constant, eternal process.",
+          "cite": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "el": "Ο Πλωτίνος εξηγεί την απόρροια με μια ιδέα που λέγεται «θεωρία των δύο ενεργειών»: κάθε ον έχει μια εσωτερική ενέργεια, που είναι ο εαυτός του, και μια δεύτερη ενέργεια που βγαίνει από αυτό, όπως η θερμότητα από τη φωτιά. Και, παράξενα, η δημιουργία γίνεται μέσω της θεωρίας: όλα υπάρχουν επειδή κάτι ανώτερο στοχάζεται.",
+          "en": "Plotinus explains emanation through what is usually called the “Theory of the Two Activities”: each being has an internal activity, which is itself, and a secondary activity derived from it, as heat from fire. Strikingly, he raises contemplation to a productive principle: it is by virtue of contemplation that all things exist.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Στο χαμηλότερο σημείο βρίσκεται η ύλη, το πιο ατελές επίπεδο του κόσμου, χωρίς δική της μορφή. Ο αισθητός κόσμος όμως δεν είναι κακός. Είναι η καλύτερη δυνατή εικόνα του νοητού κόσμου, γεμάτος τάξη και ομορφιά. Γι’ αυτό ο Πλωτίνος πολέμησε τους γνωστικούς, που έλεγαν ότι ο κόσμος είναι έργο ενός ανόητου ή κακού δημιουργού.",
+          "en": "At the lowest level is matter, the least perfect level of being, without form of its own. Yet the sensible world is not evil: it is an as-good-as-it-can-become image of its intelligible model, harmoniously arranged and beautiful. This brought Plotinus into direct confrontation with the Gnostics, who held the world to be the work of a foolish or malevolent creator (II.9).",
+          "cite": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "el": "Θεωρίες: η επιστροφή της ψυχής",
+      "en": "Theories: the soul’s return",
+      "paras": [
+        {
+          "el": "Η ψυχή μας κατάγεται από τον Νου. Κατά τον Πλωτίνο, το ανώτερο μέρος της δεν κατεβαίνει ποτέ πραγματικά στο σώμα· όμως η προσοχή μας στρέφεται στις ηδονές και στις ανάγκες του σώματος, και ξεχνάμε ποιοι είμαστε. Ο σκοπός της ζωής είναι να κάνουμε τον αντίστροφο δρόμο: να στραφούμε προς τα μέσα, να καθαριστούμε και να ανέβουμε ξανά προς τον Νου και τελικά προς το Εν.",
+          "en": "Our soul derives from Intellect. Strikingly, Plotinus holds that its higher part remains “undescended”, never actually entering the body but projecting an image of itself upon it; yet pleasure-seeking pursuits can divert the soul from its purpose. The task of life is the return journey: through “cathartic” practices, to turn inward and ascend to Intellect and finally to the One.",
+          "cite": [
+            1
+          ]
+        },
+        {
+          "el": "Ο δρόμος περνά από την ομορφιά. Στην πραγματεία «Περί του καλού» ο Πλωτίνος λέει ότι αναγνωρίζουμε το Εν πρώτα στην ομορφιά των υλικών πραγμάτων, ύστερα στις Ιδέες.",
+          "en": "The path passes through beauty. In the treatise On Beauty (I.6) Plotinus says it is by the Good or through beauty that we recognise the One, first in material things and then in the Forms.",
+          "cite": [
+            3
+          ]
+        },
+        {
+          "el": "Η αληθινή ευτυχία, κατά τον Πλωτίνο, δεν εξαρτάται από το σώμα ή από την τύχη. Ο αληθινός άνθρωπος είναι η ικανότητα της ψυχής να στοχάζεται. Γι’ αυτό ο σοφός μένει ευτυχισμένος ακόμη κι όταν είναι άρρωστος ή υποφέρει. Η ευτυχία βρίσκεται μέσα μας.",
+          "en": "True happiness does not depend on the body or on fortune. The true human being is the soul’s capacity for contemplation, so the wise remain happy even in sickness or suffering; “there exists no single human being that does not either potentially or effectively possess this thing we hold to constitute happiness” (I.4.4). Plotinus is among the first to locate happiness within consciousness.",
+          "cite": [
+            3
+          ]
+        },
+        {
+          "el": "Στο τέλος του δρόμου βρίσκεται η «ένωση» με το Εν. Εκεί, γράφει ο Πλωτίνος, δεν μπορούμε πια να ξεχωρίσουμε αυτόν που βλέπει από αυτό που βλέπει· γινόμαστε ένα. Ο Πορφύριος λέει ότι ο δάσκαλός του έφτασε σε αυτή την ένωση τέσσερις φορές τα χρόνια που ήταν μαζί του.",
+          "en": "At the end of the path is union (henōsis) with the One. There, he writes, “we ought not even to say that he will see, but he will be that which he sees, if indeed it is possible any longer to distinguish between seer and seen”. Porphyry relates that Plotinus attained such union four times during the years he knew him.",
+          "cite": [
+            1,
+            3
+          ]
+        },
+        {
+          "el": "Για να φτάσει εκεί, η ψυχή πρέπει να αφήσει πίσω της κάθε εικόνα. «Γύρισε ολόκληρος μέσα στον εαυτό σου», γράφει, «και ξέχασε ακόμη και τον εαυτό σου». Η διδασκαλία αυτή έγινε η βάση του μυστικισμού σε τρεις θρησκείες.",
+          "en": "To get there the soul must leave every image behind: “set free your soul from all outward things and turn wholly within yourself… and forget even yourself, and so come within sight of that One” (VI.9.7). This teaching became a foundation of mysticism in three religions.",
+          "cite": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "el": "Επίδραση",
+      "en": "Impact",
+      "paras": [
+        {
+          "el": "Οι μαθητές του και οι διάδοχοί τους, ο Πορφύριος, ο Ιάμβλιχος και ο Πρόκλος, συνέχισαν τη σχολή που σήμερα ονομάζουμε νεοπλατωνισμό. Ο αυτοκράτορας Ιουλιανός και η Υπατία της Αλεξάνδρειας, που θα γνωρίσουμε στο επόμενο κεφάλαιο, ήταν κι αυτοί νεοπλατωνικοί.",
+          "en": "His pupils and their successors carried on the school we now call Neoplatonism. The emperor Julian “the Apostate” was deeply influenced by it, and so was Hypatia of Alexandria, whom we meet in the next chapter.",
+          "cite": [
+            3
+          ]
+        },
+        {
+          "el": "Ο νεοπλατωνισμός επηρέασε βαθιά τη χριστιανική θεολογία. Ο Άγιος Αυγουστίνος γνώρισε τον Πλάτωνα μέσα από τον Πλωτίνο, και ο Ψευδο-Διονύσιος ο Αρεοπαγίτης έδωσε στον χριστιανικό μυστικισμό πολλές πλωτινικές ιδέες. Επίσης επηρέασε Μουσουλμάνους και Εβραίους στοχαστές, όπως τον Ιμπν Γκαμπιρόλ και τον Μαϊμονίδη.",
+          "en": "Neoplatonism profoundly influenced Christian theology. Augustine acquired his Platonism through the mediation of Plotinus, and Pseudo-Dionysius the Areopagite was shaped by Neoplatonism; Bertrand Russell judged Plotinus historically important “as an influence in moulding the Christianity of the Middle Ages”. His ideas also reached Islamic philosophers and Jewish thinkers such as Solomon ibn Gabirol and Maimonides.",
+          "cite": [
+            3
+          ]
+        },
+        {
+          "el": "Στην Αναγέννηση, ο Μαρσίλιο Φιτσίνο ίδρυσε στη Φλωρεντία, με την υποστήριξη του Κόσμου των Μεδίκων, μια νέα Ακαδημία, και ο Πλωτίνος ξαναδιαβάστηκε με πάθος. Αργότερα επηρέασε τους πλατωνικούς του Κέιμπριτζ τον 17ο αιώνα και ποιητές όπως ο Κόλριτζ και ο Γέιτς.",
+          "en": "In the Renaissance Marsilio Ficino founded an Academy in Florence under the patronage of Cosimo de’ Medici, of great importance in reconciling Plato with Christianity; his pupil Pico della Mirandola wrote the Oration on the Dignity of Man. In England Plotinus was the cardinal influence on the 17th-century Cambridge Platonists and on writers from Coleridge to W. B. Yeats.",
+          "cite": [
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "level": "C1",
+      "title": "Apophatic language: ούτε… ούτε…, δεν είναι ούτε…",
+      "en": "Because the One is beyond description, Plotinus speaks of it mostly in negations: **δεν είναι ούτε ον ούτε μη ον**. Greek allows multiple negatives that do not cancel: **δεν λέει τίποτα σε κανέναν**. Learned negative prefixes help too: **άρρητος** (ineffable), **απερίγραπτος**, **ακατανόητος**, **αδιαίρετος**.",
+      "examples": [
+        {
+          "el": "Το Εν δεν είναι ούτε σώμα ούτε νους.",
+          "en": "The One is neither body nor mind."
+        },
+        {
+          "el": "Κανείς δεν μπορεί να πει τίποτα για το Εν.",
+          "en": "No one can say anything about the One."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Relative clauses with ο οποίος in formal prose",
+      "en": "«Η Γεμίνα, στο σπίτι της οποίας έμενε.» After a preposition, or to avoid ambiguity, formal Greek uses **ο οποίος, η οποία, το οποίο**, agreeing with the antecedent in gender and number and taking the case required in its own clause: **του οποίου, της οποίας, των οποίων**. In speech **που** is usual: **η Γεμίνα, που έμενε στο σπίτι της**.",
+      "examples": [
+        {
+          "el": "Ο Αμμώνιος, από τον οποίο έμαθε φιλοσοφία, ήταν αυτοδίδακτος.",
+          "en": "Ammonius, from whom he learned philosophy, was self-taught."
+        },
+        {
+          "el": "Η πόλη, τα σχέδια της οποίας δεν πραγματοποιήθηκαν, θα ζούσε με τους νόμους του Πλάτωνα.",
+          "en": "The city, whose plans were never carried out, would have lived by Plato’s laws."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Verbs of flowing and origin: πηγάζω, απορρέω, προέρχομαι",
+      "en": "Emanation vocabulary is useful far beyond philosophy: **πηγάζει από** (springs from), **απορρέει από** (follows from: **οι υποχρεώσεις που απορρέουν από τη σύμβαση**), **προέρχεται από** (comes from), **κατάγεται από** (descends from, comes from a place), **εκπορεύεται** (proceeds, theological).",
+      "examples": [
+        {
+          "el": "Ο Νους πηγάζει από το Εν όπως το φως από τον ήλιο.",
+          "en": "Intellect springs from the One as light from the sun."
+        },
+        {
+          "el": "Τα δικαιώματά σας απορρέουν από τον νόμο.",
+          "en": "Your rights derive from the law."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Infinitive survivals: το είναι, το μη είναι",
+      "en": "Modern Greek has lost the infinitive, but some survive as **neuter nouns**: **το είναι** (being), **το μη είναι**, **το φαίνεσθαι** (appearance), **το γίγνεσθαι** (becoming), **το πράττειν**, **το ευ ζην** (the good life). They belong to learned and philosophical style.",
+      "examples": [
+        {
+          "el": "Το Εν βρίσκεται πέρα από το είναι.",
+          "en": "The One lies beyond being."
+        },
+        {
+          "el": "Για τον Πλωτίνο, το ευ ζην είναι η θεωρία.",
+          "en": "For Plotinus, the good life is contemplation."
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "title": "Reported last words and the subjunctive of exhortation",
+      "en": "«Προσπαθήστε να ανεβάσετε το θείο που είναι μέσα σας…» The plural imperative **προσπαθήστε** + **να** + subjunctive gives an exhortation. First-person exhortations use **ας** + subjunctive: **ας προσπαθήσουμε**, **ας γυρίσουμε μέσα μας**. In reported speech: **τους είπε να προσπαθήσουν**.",
+      "examples": [
+        {
+          "el": "Ας γυρίσουμε μέσα στον εαυτό μας.",
+          "en": "Let us turn within ourselves."
+        },
+        {
+          "el": "Τους είπε να ανεβάσουν το θείο μέσα τους στο θείο του σύμπαντος.",
+          "en": "He told them to raise the divine within them to the divine in the universe."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "Ποιος ήταν ο δάσκαλος του Πλωτίνου στην Αλεξάνδρεια;",
+      "options": [
+        "Ο Αμμώνιος ο Σακκάς",
+        "Ο Πορφύριος",
+        "Ο Επίκτητος",
+        "Ο Πρόκλος"
+      ],
+      "answer": "Ο Αμμώνιος ο Σακκάς",
+      "why": "“This is the man I was looking for.”"
+    },
+    {
+      "q": "Ποιος οργάνωσε τα έργα του Πλωτίνου στις «Εννεάδες»;",
+      "options": [
+        "Ο Πορφύριος",
+        "Ο ίδιος ο Πλωτίνος",
+        "Ο Γαλλιηνός",
+        "Ο Αυγουστίνος"
+      ],
+      "answer": "Ο Πορφύριος",
+      "why": "Six groups of nine treatises."
+    },
+    {
+      "q": "Ποιες είναι οι τρεις υποστάσεις του Πλωτίνου;",
+      "options": [
+        "Το Εν, ο Νους και η Ψυχή",
+        "Η γη, το νερό και η φωτιά",
+        "Ο θεός, ο άνθρωπος και το ζώο",
+        "Η ύλη, η μορφή και ο σκοπός"
+      ],
+      "answer": "Το Εν, ο Νους και η Ψυχή",
+      "why": "The levels of reality."
+    },
+    {
+      "q": "Με τι συγκρίνει ο Πλωτίνος την απόρροια από το Εν;",
+      "options": [
+        "Με το φως που βγαίνει από τον ήλιο",
+        "Με ένα δέντρο που μεγαλώνει",
+        "Με έναν τεχνίτη που φτιάχνει ένα έπιπλο",
+        "Με τη βροχή"
+      ],
+      "answer": "Με το φως που βγαίνει από τον ήλιο",
+      "why": "The source is not diminished."
+    },
+    {
+      "q": "Γιατί ο Πλωτίνος αρνήθηκε να ζωγραφίσουν το πορτρέτο του;",
+      "options": [
+        "Γιατί θεωρούσε το σώμα κατώτερη εικόνα",
+        "Γιατί ήταν ντροπαλός",
+        "Γιατί δεν είχε χρήματα",
+        "Γιατί ήταν τυφλός"
+      ],
+      "answer": "Γιατί θεωρούσε το σώμα κατώτερη εικόνα",
+      "why": "His distrust of the material."
+    },
+    {
+      "q": "Τι ήθελε να χτίσει ο Πλωτίνος στην Καμπανία;",
+      "options": [
+        "Μια «Πόλη των Φιλοσόφων»",
+        "Έναν ναό",
+        "Ένα θέατρο",
+        "Μια βιβλιοθήκη"
+      ],
+      "answer": "Μια «Πόλη των Φιλοσόφων»",
+      "why": "Under Plato’s Laws."
+    },
+    {
+      "q": "Συμπληρώστε: «Η Γεμίνα, στο σπίτι ___ έμενε ο Πλωτίνος.»",
+      "options": [
+        "της οποίας",
+        "του οποίου",
+        "την οποία",
+        "οι οποίες"
+      ],
+      "answer": "της οποίας",
+      "why": "Feminine singular genitive."
+    },
+    {
+      "q": "Ποιος χριστιανός θεολόγος γνώρισε τον Πλάτωνα μέσα από τον Πλωτίνο;",
+      "options": [
+        "Ο Άγιος Αυγουστίνος",
+        "Ο Άγιος Παύλος",
+        "Ο Τερτυλλιανός",
+        "Ο Λούθηρος"
+      ],
+      "answer": "Ο Άγιος Αυγουστίνος",
+      "why": "Through Neoplatonism."
+    }
+  ],
+  "vocab": [
+    "κρίση",
+    "δολοφονώ",
+    "καταρρέω",
+    "σχόλιο",
+    "ερμηνεία",
+    "σωτηρία",
+    "καινοτόμος",
+    "ουσιώδης",
+    "μεταγενέστερος",
+    "μητρικός",
+    "παιδεία",
+    "καταγωγή",
+    "δυσπιστία",
+    "κατώτερος",
+    "ικανοποιώ",
+    "εχθρικός",
+    "εγκαθίσταμαι",
+    "σύζυγος",
+    "εγκαταλελειμμένος",
+    "πραγματοποιούμαι",
+    "όραση",
+    "γραφικός χαρακτήρας",
+    "απαίσιος",
+    "ορθογραφία",
+    "κτήμα",
+    "αποσύρομαι",
+    "κορυφή",
+    "διαίρεση",
+    "πηγάζω",
+    "μειώνω",
+    "αισθητός",
+    "νοητός",
+    "θερμότητα",
+    "στοχάζομαι",
+    "ατελής",
+    "ανόητος",
+    "κατάγομαι",
+    "αντίστροφος",
+    "ξεχωρίζω",
+    "μυστικισμός",
+    "θεολογία",
+    "υποστήριξη"
+  ],
+  "gloss": {
+    "Βιογραφία": "βιογραφία — biography",
+    "Κοσμολογία": "κοσμολογία — cosmology",
+    "μ.Χ.": "μ.Χ. — AD (μετά Χριστόν)",
+    "Αριστοτέλης": "Αριστοτέλης — Aristotle",
+    "Πλάτων": "Πλάτων — Plato",
+    "Πλάτωνα": "Πλάτων — Plato",
+    "Ακαδημία": "Ακαδημία — Plato’s Academy",
+    "αρχή": "αρχή — beginning; principle; authority",
+    "Περσών": "Πέρσης — Persian",
+    "επίπεδο": "επίπεδος — flat; (noun) level, plane",
+    "Πορφύριο": "Πορφύριος — Porphyry, Neoplatonist",
+    "Πορφύριος": "Πορφύριος — Porphyry, Neoplatonist",
+    "Ιάμβλιχος": "Ιάμβλιχος — Iamblichus, Neoplatonist",
+    "χριστιανική": "χριστιανικός — Christian",
+    "Ιδέες": "Ιδέα — Form (Platonic)",
+    "Αλεξάνδρειας": "Αλεξάνδρεια — Alexandria",
+    "στοχαστές": "στοχαστής — thinker",
+    "Πρόκλος": "Πρόκλος — Proclus, Neoplatonist",
+    "Ρώμη": "Ρώμη — Rome",
+    "Πλωτίνου": "Πλωτίνος — Plotinus",
+    "Ιμπν": "Ιμπν — Ibn (Ibn Rushd)",
+    "Ιουλιανός": "Ιουλιανός — Julian (Roman emperor)",
+    "Περσίας": "Περσία — Persia",
+    "Επίκτητος": "Επίκτητος — Epictetus",
+    "Πλωτίνος": "Πλωτίνος — Plotinus",
+    "Λυκόπολη": "Λυκόπολη — Lycopolis (Egypt)",
+    "Αμμώνιο": "Αμμώνιος — Ammonius Saccas",
+    "Αμμώνιος": "Αμμώνιος — Ammonius Saccas",
+    "Σακκά": "Σακκάς — Saccas",
+    "Σακκάς": "Σακκάς — Saccas",
+    "Ινδών": "Ινδός — Indian",
+    "Γορδιανού": "Γορδιανός — Gordian III (emperor)",
+    "Γορδιανό": "Γορδιανός — Gordian III (emperor)",
+    "Αντιόχεια": "Αντιόχεια — Antioch",
+    "Αμέλιος": "Αμέλιος — Amelius (Plotinus' pupil)",
+    "Ευστόχιος": "Ευστόχιος — Eustochius (doctor)",
+    "Ευστόχιο": "Ευστόχιος — Eustochius (doctor)",
+    "Γεμίνα": "Γεμίνα — Gemina",
+    "Γαλλιηνός": "Γαλλιηνός — Gallienus (emperor)",
+    "Γαλλιηνό": "Γαλλιηνός — Gallienus (emperor)",
+    "Σαλωνίνα": "Σαλωνίνα — Salonina (empress)",
+    "Ζήθος": "Ζήθος — Zethos (Plotinus' friend)",
+    "Πλωτίνο": "Πλωτίνος — Plotinus",
+    "Υπατία": "Υπατία — Hypatia",
+    "Αυγουστίνος": "Αυγουστίνος — Augustine",
+    "Αρεοπαγίτης": "Αρεοπαγίτης — the Areopagite",
+    "Ψευδο": "Ψευδο- — Pseudo-",
+    "Γκαμπιρόλ": "Γκαμπιρόλ — ibn Gabirol",
+    "Μαϊμονίδη": "Μαϊμονίδης — Maimonides",
+    "Μαρσίλιο": "Μαρσίλιο — Marsilio",
+    "Φιτσίνο": "Φιτσίνο — Ficino",
+    "Μεδίκων": "Μέδικοι — the Medici",
+    "Κέιμπριτζ": "Κέιμπριτζ — Cambridge",
+    "Κόλριτζ": "Κόλριτζ — Coleridge",
+    "Γέιτς": "Γέιτς — Yeats",
+    "Τερτυλλιανός": "Τερτυλλιανός — Tertullian",
+    "Λούθηρος": "Λούθηρος — Luther",
+    "κοσμολογία": "κοσμολογία — cosmology",
+    "επίπεδος": "επίπεδος — flat, level",
+    "μελετητές": "μελετητής — scholar",
+    "στοχαστής": "στοχαστής — thinker",
+    "Μαϊμονίδης": "Μαϊμονίδης — Maimonides",
+    "Ινδός": "Ινδός — an Indian",
+    "συγκλητικοί": "συγκλητικός — senator",
+    "πραγματεία": "πραγματεία — treatise",
+    "πραγματειών": "πραγματεία — treatise",
+    "χριστιανικό": "χριστιανικός — Christian",
+    "πλωτινικές": "πλωτινικός — Plotinian",
+    "νεοπλατωνισμός": "νεοπλατωνισμός — Neoplatonism",
+    "νεοπλατωνισμό": "νεοπλατωνισμός — Neoplatonism",
+    "νεοπλατωνικοί": "νεοπλατωνικός — Neoplatonist",
+    "κατώτερη": "κατώτερος — inferior, lower",
+    "κατώτερο": "κατώτερος — inferior, lower",
+    "κατώτερος": "κατώτερος — inferior, lower",
+    "ξαναχτίσει": "ξαναχτίζω — rebuild",
+    "Εννεάδες": "Εννεάδες — the Enneads",
+    "υποστάσεις": "υπόσταση — hypostasis, level of reality",
+    "υπόσταση": "υπόσταση — hypostasis; substance",
+    "ατελές": "ατελής — imperfect",
+    "ατελής": "ατελής — imperfect",
+    "νοητού": "νοητός — intelligible",
+    "νοητός": "νοητός — intelligible",
+    "μυστικισμού": "μυστικισμός — mysticism",
+    "μυστικισμό": "μυστικισμός — mysticism",
+    "μυστικισμός": "μυστικισμός — mysticism",
+    "ξαναδιαβάστηκε": "ξαναδιαβάζω — reread",
+    "τεχνίτη": "τεχνίτης — craftsman",
+    "θεολόγος": "θεολόγος — theologian",
+    "αυτοδίδακτος": "αυτοδίδακτος — self-taught",
+    "σαρκοφάγος": "σαρκοφάγος — sarcophagus",
+    "ταύτιση": "ταύτιση — identification",
+    "αβέβαιη": "αβέβαιος — uncertain",
+    "Βατικανού": "Βατικανό — the Vatican"
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "Paul Kalligas, “Plotinus”, Stanford Encyclopedia of Philosophy: life and writings, Porphyry’s Life and edition, the three hypostases, the two activities, cosmos and matter, the Gnostics, union with the One.",
+      "url": "https://plato.stanford.edu/entries/plotinus/"
+    },
+    {
+      "n": 2,
+      "text": "Edward Moore, “Plotinus”, Internet Encyclopedia of Philosophy: the One, Intelligence and Soul, emanation and contemplation, last words.",
+      "url": "https://iep.utm.edu/plotinus/"
+    },
+    {
+      "n": 3,
+      "text": "“Plotinus”, Wikipedia: early life, Ammonius, Persian expedition, Rome and his circle, Gallienus and Platonopolis, the Enneads, death, the One, emanation, happiness, henosis, legacy.",
+      "url": "https://en.wikipedia.org/wiki/Plotinus"
+    }
+  ]
+}
