@@ -36,7 +36,7 @@ for (const f of process.argv.slice(2)) {
     while ((m = re.exec(s))) {
       const a = m[2].toLowerCase(), w = m[3].toLowerCase().normalize("NFC"), hasN = a.endsWith("ν"), needs = keep.test(w);
       if (["την", "στην", "μην", "δεν"].includes(a) && hasN && !needs && !["δεν", "μην"].includes(a)) warn.push(`${where}: "${m[2]} ${m[3]}" → drop ν`);
-      if (["τη", "στη", "μη", "δε"].includes(a) && needs) warn.push(`${where}: "${m[2]} ${m[3]}" → add ν`);
+      if (["τη", "στη", "μη", "δε"].includes(a) && needs && !(a.toLowerCase() === "μη" && /^(ον|όν|όντα|όντος|ανθρώπιν|αντίφασ)/i.test(m[3]))) warn.push(`${where}: "${m[2]} ${m[3]}" → add ν`);
     }
   };
   (c.sections || []).forEach((s, i) => {

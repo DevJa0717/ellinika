@@ -1,0 +1,558 @@
+{
+  "id": "zeno-elea",
+  "el": "Ζήνων ο Ελεάτης",
+  "title": "Zeno of Elea",
+  "level": "B2",
+  "dates": "περ. 490 – 430 π.Χ.",
+  "summary_en": "Zeno of Elea (c. 490 – c. 430 BC), Parmenides’ pupil and friend, defended his master in an unusual way: instead of proving that reality is one and motionless, he showed that the opposite view, that **there are many things and they move**, leads to absurdities. His book contained some **forty arguments**; the most famous, known through Aristotle, are the four paradoxes of motion. **Achilles** can never catch the tortoise; a runner can never finish **the race course**, because he must first cover half of it, and half of that half, without end; **the flying arrow** is at rest at every instant; and in **the stadium** half a time equals double the time. Aristotle called Zeno **the inventor of dialectic**. His puzzles about the infinite were answered properly only with the mathematics of limits in the nineteenth century, and some philosophers think they still are not fully solved.",
+  "terms": [
+    {
+      "el": "το παράδοξο",
+      "en": "paradox",
+      "def_el": "Ένα συμπέρασμα που φαίνεται παράλογο, αλλά βγαίνει από υποθέσεις που φαίνονται σωστές.",
+      "def_en": "παρά “contrary to” + δόξα “opinion”. Plural τα παράδοξα. Adjective παράδοξος “odd”."
+    },
+    {
+      "el": "η διαλεκτική",
+      "en": "dialectic",
+      "def_el": "Η τέχνη της συζήτησης με ερωτήσεις και επιχειρήματα, που εξετάζει τις συνέπειες μιας θέσης.",
+      "def_en": "From διαλέγομαι “to converse”. Aristotle said Zeno invented it."
+    },
+    {
+      "el": "το άπειρο",
+      "en": "the infinite",
+      "def_el": "Αυτό που δεν έχει τέλος ή όριο· στα μαθηματικά, ένα μέγεθος μεγαλύτερο από κάθε αριθμό.",
+      "def_en": "Also Anaximander’s principle (the boundless). Επ’ άπειρον = endlessly, ad infinitum."
+    },
+    {
+      "el": "η διαιρετότητα",
+      "en": "divisibility",
+      "def_el": "Η ιδιότητα ενός πράγματος να μπορεί να χωριστεί σε μικρότερα μέρη.",
+      "def_en": "Verb διαιρώ “to divide”; διαίρεση “division” (also in arithmetic)."
+    },
+    {
+      "el": "η πολλαπλότητα",
+      "en": "plurality",
+      "def_el": "Το να υπάρχουν πολλά πράγματα και όχι ένα.",
+      "def_en": "From πολλαπλός “multiple”. Opposite: ενότητα “unity”."
+    },
+    {
+      "el": "η εις άτοπον απαγωγή",
+      "en": "reductio ad absurdum",
+      "def_el": "Μέθοδος απόδειξης: δέχεσαι για λίγο μια θέση και δείχνεις ότι οδηγεί σε παράλογο συμπέρασμα, άρα είναι λάθος.",
+      "def_en": "Literally “leading away to the out-of-place”. Still the standard Greek name in mathematics."
+    },
+    {
+      "el": "η χελώνα",
+      "en": "tortoise, turtle",
+      "def_el": "Αργό ζώο με σκληρό καβούκι, που ζει στη στεριά ή στη θάλασσα.",
+      "def_en": "Also used of a slow person: είσαι χελώνα!"
+    },
+    {
+      "el": "το βέλος",
+      "en": "arrow",
+      "def_el": "Μυτερό ξύλινο όπλο που ρίχνεται με τόξο· και το σύμβολο → .",
+      "def_en": "Τα βέλη του Έρωτα = Cupid’s arrows."
+    },
+    {
+      "el": "η στιγμή",
+      "en": "instant, moment",
+      "def_el": "Ένα πολύ μικρό σημείο του χρόνου, χωρίς διάρκεια.",
+      "def_en": "Originally “a point, a dot” (στίζω “to prick”). Στιγμιότυπο = snapshot."
+    },
+    {
+      "el": "το όριο",
+      "en": "limit",
+      "def_el": "Το σημείο που δεν περνά κάτι· στα μαθηματικά, η τιμή που πλησιάζει μια σειρά αριθμών χωρίς τέλος.",
+      "def_en": "Also “border, boundary”. Το όριο ταχύτητας = speed limit."
+    }
+  ],
+  "sections": [
+    {
+      "id": "context",
+      "el": "Ιστορικό πλαίσιο",
+      "en": "Historical context",
+      "paras": [
+        {
+          "el": "Ο Ζήνων γεννήθηκε στην Ελέα γύρω στο 490 π.Χ., την εποχή που οι Έλληνες πολεμούσαν τους Πέρσες στον Μαραθώνα. Μεγάλωσε στη μικρή πόλη της νότιας Ιταλίας όπου δίδασκε ο Παρμενίδης, που ήταν περίπου είκοσι πέντε χρόνια μεγαλύτερός του.",
+          "en": "Zeno was born in Elea around 490 BC, the year the Greeks fought the Persians at Marathon. He grew up in the small south Italian city where Parmenides taught, some twenty-five years his senior.",
+          "cite": [
+            2,
+            1
+          ]
+        },
+        {
+          "el": "Οι ιδέες του Παρμενίδη, ότι το ον είναι ένα και ακίνητο και ότι η κίνηση και η αλλαγή είναι ψευδαίσθηση, προκάλεσαν γέλια. Οι αντίπαλοί του έλεγαν: αν όλα είναι ένα, τότε προκύπτουν ένα σωρό γελοία συμπεράσματα. Ο Ζήνων ανέλαβε να του απαντήσει, και το έκανε με ένα νέο, πολύ δυνατό όπλο της σκέψης.",
+          "en": "Parmenides’ ideas, that what is is one and motionless and that motion and change are illusions, provoked laughter. His opponents said: if all is one, a heap of ridiculous conclusions follows. Zeno took it upon himself to answer them, and he did so with a new and very powerful weapon of thought.",
+          "cite": [
+            4,
+            1
+          ]
+        },
+        {
+          "el": "Στα μέσα του πέμπτου αιώνα η Αθήνα ήταν πια το κέντρο του ελληνικού κόσμου, και πολλοί στοχαστές από τη Δύση και την Ανατολή περνούσαν από εκεί. Ο Πλούταρχος γράφει ότι ο Περικλής άκουσε τον Ζήνωνα να μιλά για τη φύση με τον τρόπο του Παρμενίδη, πράγμα που δείχνει ότι ο Ζήνων πιθανότατα επισκέφθηκε την Αθήνα.",
+          "en": "By the mid-fifth century Athens had become the centre of the Greek world, and many thinkers from west and east passed through it. Plutarch writes that Pericles heard Zeno expounding on nature in the manner of Parmenides, which suggests that Zeno very probably visited Athens.",
+          "cite": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio",
+      "el": "Βιογραφία",
+      "en": "Biography",
+      "paras": [
+        {
+          "el": "Κατά τον Απολλόδωρο, που τον παραθέτει ο Διογένης Λαέρτιος, ο Ζήνων ήταν γιος του Τελευταγόρα, αλλά ο Παρμενίδης τον υιοθέτησε. Ήταν μαθητής και στενός φίλος του Παρμενίδη, και ο Πλάτωνας τον περιγράφει ψηλό και όμορφο. Ο Διογένης λέει ακόμη ότι αγαπούσε τόσο την πατρίδα του που δεν θέλησε να εγκατασταθεί στην Αθήνα.",
+          "en": "According to Apollodorus, quoted by Diogenes Laertius, Zeno was the son of Teleutagoras by birth but was adopted by Parmenides. He was Parmenides’ pupil and close friend, and Plato describes him as tall and handsome. Diogenes also says that he loved his native city so much that he did not wish to settle in Athens.",
+          "cite": [
+            3,
+            4
+          ]
+        },
+        {
+          "el": "Στον διάλογο «Παρμενίδης» ο Πλάτωνας φαντάζεται τον Ζήνωνα, σχεδόν σαράντα ετών, να διαβάζει το βιβλίο του σε ένα σπίτι της Αθήνας, και τον νεαρό Σωκράτη να τον ακούει. Εκεί ο Ζήνων εξηγεί ότι έγραψε το βιβλίο όταν ήταν νέος, «από αγάπη για τον δάσκαλό» του, για να υπερασπιστεί τον Παρμενίδη από όσους τον κορόιδευαν· και ότι κάποιος του το έκλεψε και το κυκλοφόρησε χωρίς να τον ρωτήσει.",
+          "en": "In the dialogue Parmenides, Plato imagines Zeno, nearly forty years old, reading his book in an Athenian house while the young Socrates listens. There Zeno explains that he wrote the book in his youth out of “zeal for my master”, to protect Parmenides “against those who make fun of him”, and that someone stole a copy and circulated it without asking him. The scene is fictional, but it is our best evidence about the book’s purpose.",
+          "cite": [
+            4,
+            1
+          ]
+        },
+        {
+          "el": "Το βιβλίο χάθηκε. Ο νεοπλατωνικός Πρόκλος, τον πέμπτο αιώνα μ.Χ., γράφει ότι περιείχε σαράντα επιχειρήματα. Οι πιο γνωστοί από αυτούς, τα τέσσερα παράδοξα της κίνησης, σώθηκαν κυρίως επειδή τα παρουσίασε και προσπάθησε να τα λύσει ο Αριστοτέλης στα «Φυσικά» του.",
+          "en": "The book is lost. The Neoplatonist Proclus, in the fifth century AD, tells us it contained forty arguments. The best known of them, the four paradoxes of motion, survive mainly because Aristotle presented them, and tried to refute them, in his Physics. We do not have Zeno’s own wording for any of them.",
+          "cite": [
+            2,
+            1
+          ]
+        },
+        {
+          "el": "Ο θάνατός του έγινε θρύλος. Ο Ζήνων λέγεται ότι συνωμότησε για να ρίξει τον τύραννο της Ελέας και ότι πιάστηκε. Όταν τον ανέκριναν, πρόδωσε ως συνενόχους τους φίλους του ίδιου του τυράννου. Ύστερα ζήτησε να πει κάτι στο αυτί του τυράννου, και όταν εκείνος έσκυψε, τον δάγκωσε και δεν τον άφησε μέχρι να τον σκοτώσουν. Σε μια άλλη εκδοχή, έκοψε με τα δόντια τη γλώσσα του και την έφτυσε στον τύραννο.",
+          "en": "His death became a legend. Zeno is said to have plotted to overthrow the tyrant of Elea and to have been caught. Under interrogation, he named the tyrant’s own friends as accomplices. Then he asked to say something into the tyrant’s ear, and when the tyrant bent down, Zeno bit him and would not let go until he was stabbed. In another version he bit off his own tongue and spat it at the tyrant, and the citizens, roused, stoned the tyrant to death. The versions conflict, and how much truth they hold cannot be known.",
+          "cite": [
+            3,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmos",
+      "el": "Κοσμολογία: ο κόσμος που δεν κινείται",
+      "en": "Cosmology: a world that does not move",
+      "paras": [
+        {
+          "el": "Ο Ζήνων δεν έγραψε δική του κοσμολογία, όπως οι Μιλήσιοι ή ο Ηράκλειτος. Δεν ήθελε να εξηγήσει από τι είναι φτιαγμένος ο κόσμος, αλλά να δείξει ότι η κοινή μας εικόνα για τον κόσμο, με πολλά πράγματα που κινούνται μέσα στον χώρο και στον χρόνο, δεν στέκει λογικά.",
+          "en": "Zeno did not write a cosmology of his own, like the Milesians or Heraclitus. He did not want to explain what the world is made of, but to show that our common picture of the world — many things moving through space and time — does not hold up logically.",
+          "cite": [
+            1,
+            2
+          ]
+        },
+        {
+          "el": "Τα περισσότερα επιχειρήματά του στηρίζονται σε ένα ερώτημα: μπορεί ο χώρος και ο χρόνος να χωρίζονται σε μικρότερα κομμάτια επ’ άπειρον; Αν ναι, τότε κάθε απόσταση περιέχει άπειρα κομμάτια. Αν όχι, τότε υπάρχουν κάποια ελάχιστα, αδιαίρετα κομμάτια. Ο Ζήνων έδειξε ότι και οι δύο απαντήσεις οδηγούν σε δυσκολίες. Ήταν ο πρώτος που έδειξε ότι η έννοια του απείρου είναι προβληματική.",
+          "en": "Most of his arguments rest on one question: can space and time be divided into smaller pieces without end? If yes, every distance contains infinitely many pieces. If no, there are smallest, indivisible pieces. Zeno showed that both answers lead to difficulties. He was the first to show that the concept of infinity is problematic.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Υπήρχε και ένα παράδοξο για τον τόπο. Αν όλα τα πράγματα βρίσκονται σε έναν τόπο, τότε και ο τόπος πρέπει να βρίσκεται σε έναν τόπο, και αυτός σε άλλον, και ούτω καθεξής. Και ένα για τον ήχο, το «κεχρί»: ένας σάκος κεχρί κάνει θόρυβο όταν πέφτει, ενώ ένας μόνο σπόρος, ή ένα μικρό μέρος του, δεν κάνει κανέναν. Πώς είναι δυνατόν πολλά «τίποτα» να κάνουν «κάτι»;",
+          "en": "There was also a paradox about place. If everything is in a place, then place too must be in a place, and that in another, and so on. And one about sound, the “grain of millet”: a bushel of millet makes a noise when it falls, whereas a single grain, or a tiny part of a grain, makes none. How can many “nothings” add up to “something”?",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Τα επιχειρήματα αυτά έγιναν γρήγορα διάσημα. Σε μια ερυθρόμορφη κύλικα του πέμπτου αιώνα π.Χ., που βρέθηκε στην Ιταλία και φυλάγεται σήμερα στη Ρώμη, ένας ήρωας τρέχει μπροστά από μια μεγάλη χελώνα: ίσως η πρώτη γνωστή «απάντηση» στο παράδοξο του Αχιλλέα.",
+          "en": "These arguments quickly became famous. On a red-figure drinking cup of the mid-fifth century BC, found at Falerii in Italy and now in Rome (Villa Giulia), a hero races nimbly ahead of a large tortoise: perhaps the first known “response” to the Achilles paradox.",
+          "cite": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "el": "Θεωρίες: τα παράδοξα της κίνησης",
+      "en": "Theories: the paradoxes of motion",
+      "paras": [
+        {
+          "el": "Η μέθοδος του Ζήνωνα είναι η εις άτοπον απαγωγή. Δέχεται για λίγο τη θέση των αντιπάλων, για παράδειγμα ότι υπάρχουν πολλά πράγματα ή ότι υπάρχει κίνηση, και δείχνει ότι από αυτή βγαίνουν αντιφατικά ή γελοία συμπεράσματα. Άρα η θέση είναι λάθος. Ο Σωκράτης στον Πλάτωνα το συνοψίζει έτσι: ο Παρμενίδης λέει «όλα είναι ένα», ο Ζήνων λέει «δεν υπάρχουν πολλά».",
+          "en": "Zeno’s method is reductio ad absurdum. He provisionally accepts his opponents’ position — for example, that there are many things, or that there is motion — and shows that contradictory or ridiculous conclusions follow from it. So the position is false. Plato’s Socrates sums it up: Parmenides says “the All is one”, Zeno says “there is no many”.",
+          "cite": [
+            4,
+            1
+          ]
+        },
+        {
+          "el": "Ο Αχιλλέας και η χελώνα. Ο ταχύτερος δρομέας τρέχει πίσω από τη χελώνα, που έχει ένα προβάδισμα. Για να την προλάβει, πρέπει πρώτα να φτάσει εκεί όπου ήταν η χελώνα. Μέχρι να φτάσει, όμως, εκείνη θα έχει προχωρήσει λίγο. Μέχρι να φτάσει στο νέο σημείο, θα έχει προχωρήσει πάλι λίγο. Και έτσι επ’ άπειρον: όσο γρήγορος κι αν είναι, ο Αχιλλέας δεν θα την προλάβει ποτέ.",
+          "en": "Achilles and the tortoise. The fastest runner chases a tortoise that has a head start. To catch it, he must first reach the place where the tortoise was. But by the time he gets there, it will have moved on a little. By the time he reaches that new point, it will have moved on again. And so on without end: however fast he is, Achilles will never catch it.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Η διχοτομία, ή το στάδιο του δρομέα. Για να φτάσει ένας δρομέας στο τέρμα, πρέπει πρώτα να διανύσει το μισό της απόστασης· πριν από αυτό, το μισό του μισού· και πριν από αυτό, το μισό εκείνου. Τα κομμάτια είναι άπειρα, και δεν υπάρχει πρώτο βήμα. Πώς μπορεί κανείς να ολοκληρώσει άπειρα βήματα σε πεπερασμένο χρόνο;",
+          "en": "The dichotomy, or the racecourse. To reach the finish, a runner must first cover half the distance; before that, half of the half; and before that, half of that. The pieces are infinite, and there is no first step. How can anyone complete infinitely many steps in a finite time?",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Το βέλος. Σε κάθε στιγμή της πτήσης του, το βέλος βρίσκεται σε έναν χώρο ίσο με τον εαυτό του, δηλαδή σε ηρεμία. Αν κοιτάξεις μια φωτογραφία του, δεν θα μπορείς να πεις αν κινείται ή όχι. Αλλά ο χρόνος της πτήσης αποτελείται μόνο από τέτοιες στιγμές. Άρα το βέλος που πετά είναι πάντα ακίνητο. Το τέταρτο παράδοξο, το στάδιο, με σειρές σωμάτων που κινούνται αντίθετα, καταλήγει ότι το μισό ενός χρόνου ισούται με το διπλάσιό του.",
+          "en": "The arrow. At every instant of its flight, the arrow occupies a space equal to itself, that is, it is at rest. Look at a snapshot of it and you cannot tell whether it is moving. But the time of its flight consists only of such instants. So the flying arrow is always at rest. The fourth paradox, the stadium (or moving rows), with rows of bodies passing each other in opposite directions, concludes that half a given time is equal to double that time.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Κανείς στην αρχαιότητα δεν αμφέβαλλε ότι ο Αχιλλέας προλαβαίνει τη χελώνα. Όταν κάποιος είπε στον Διογένη τον Κυνικό ότι δεν υπάρχει κίνηση, εκείνος σηκώθηκε και άρχισε να περπατά. Αλλά το να δείξεις ότι κάτι συμβαίνει δεν είναι το ίδιο με το να εξηγήσεις πού κάνει λάθος το επιχείρημα. Αυτό ήταν το πραγματικό πρόβλημα που άφησε ο Ζήνων.",
+          "en": "No one in antiquity doubted that Achilles catches the tortoise. When someone told Diogenes the Cynic that there is no such thing as motion, he got up and walked about. But showing that something happens is not the same as explaining where the argument goes wrong. That was the real problem Zeno left behind.",
+          "cite": [
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "el": "Επίδραση",
+      "en": "Influence and legacy",
+      "paras": [
+        {
+          "el": "Ο Αριστοτέλης ονόμασε τον Ζήνωνα «εφευρέτη της διαλεκτικής» και ο Πλάτωνας τον αποκάλεσε «Παλαμήδη της Ελέας», από τον έξυπνο ήρωα του Τρωικού Πολέμου. Η μέθοδος του Ζήνωνα, να εξετάζεις τις συνέπειες μιας θέσης μέχρι να φανεί η αντίφαση, πέρασε στον Σωκράτη, στους διαλόγους του Πλάτωνα και, μέσω αυτών, σε όλη τη δυτική φιλοσοφία και στα μαθηματικά.",
+          "en": "Aristotle called Zeno “the inventor of dialectic”, and Plato called him “the Eleatic Palamedes”, after the clever hero of the Trojan War. Zeno’s method — follow out the consequences of a thesis until a contradiction appears — passed to Socrates, to Plato’s dialogues and through them to all Western philosophy and mathematics.",
+          "cite": [
+            3,
+            1
+          ]
+        },
+        {
+          "el": "Ο Αριστοτέλης πρότεινε μια λύση: ο χρόνος, όπως και η απόσταση, είναι άπειρος μόνο «δυνάμει», όχι «ενεργεία». Ο δρομέας δεν διανύει πραγματικά άπειρα ξεχωριστά κομμάτια. Η απάντηση αυτή κυριάρχησε για πολλούς αιώνες. Οι ατομικοί, από την άλλη, ίσως απάντησαν στον Ζήνωνα με την ιδέα ότι η διαίρεση σταματά κάπου, στα άτομα.",
+          "en": "Aristotle offered a solution: time, like distance, is infinite only “potentially”, not “actually”. The runner does not really traverse infinitely many separate pieces. This answer dominated for many centuries. The atomists, on the other hand, may have answered Zeno with the idea that division stops somewhere — at atoms.",
+          "cite": [
+            2
+          ]
+        },
+        {
+          "el": "Η σύγχρονη «καθιερωμένη λύση» ήρθε με τον απειροστικό λογισμό και με τα μαθηματικά του δέκατου ένατου αιώνα, του Κωσί, του Βάιερστρας και του Κάντορ. Ένα άθροισμα από άπειρους όρους μπορεί να έχει πεπερασμένο αποτέλεσμα: ½ + ¼ + ⅛ + … = 1. Ο δρομέας λοιπόν φτάνει στο τέρμα. Ωστόσο, ορισμένοι φιλόσοφοι πιστεύουν ότι το ερώτημα αν μπορούμε πραγματικά να ολοκληρώσουμε άπειρες πράξεις δεν έχει απαντηθεί πλήρως ακόμη.",
+          "en": "The modern “Standard Solution” came with the calculus and with nineteenth-century mathematics — Cauchy, Weierstrass and Cantor. A sum of infinitely many terms can have a finite result: ½ + ¼ + ⅛ + … = 1. So the runner does reach the finish. Even so, some philosophers think the question whether we can really complete infinitely many acts (so-called “supertasks”) has still not been fully answered.",
+          "cite": [
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "level": "B2",
+      "title": "Future perfect: «θα έχει προχωρήσει»",
+      "en": "**θα + έχω + aorist stem form (απαρέμφατο)** = will have done: **θα έχει προχωρήσει** (it will have moved on). Used for an action completed before another future point, often with **μέχρι να** / **ώσπου να**.",
+      "examples": [
+        {
+          "el": "Μέχρι να φτάσει, η χελώνα θα έχει προχωρήσει λίγο.",
+          "en": "By the time he arrives, the tortoise will have moved on a little."
+        },
+        {
+          "el": "Ως το τέλος του κεφαλαίου θα έχετε μάθει τέσσερα παράδοξα.",
+          "en": "By the end of the chapter you will have learned four paradoxes."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "«Μέχρι να» + subjunctive",
+      "en": "**μέχρι να / ώσπου να** (until) is followed by the subjunctive, usually aorist: **μέχρι να φτάσει**, **μέχρι να τον σκοτώσουν**. In the past it keeps the same form: **δεν τον άφησε μέχρι να τον σκοτώσουν**.",
+      "examples": [
+        {
+          "el": "Τον δάγκωσε και δεν τον άφησε μέχρι να τον σκοτώσουν.",
+          "en": "He bit him and did not let go until they killed him."
+        },
+        {
+          "el": "Εξετάζει τις συνέπειες μέχρι να φανεί η αντίφαση.",
+          "en": "He examines the consequences until the contradiction shows."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Concession: «όσο… κι αν», «ό,τι κι αν»",
+      "en": "**όσο + adjective/adverb + κι αν + verb** = however…: **όσο γρήγορος κι αν είναι** (however fast he is). Similarly **ό,τι κι αν πεις** (whatever you say), **όπου κι αν πας** (wherever you go).",
+      "examples": [
+        {
+          "el": "Όσο γρήγορος κι αν είναι, δεν θα την προλάβει.",
+          "en": "However fast he is, he won’t catch it."
+        },
+        {
+          "el": "Ό,τι κι αν απαντήσεις, θα βρεις μια δυσκολία.",
+          "en": "Whatever you answer, you will meet a difficulty."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Multiples and fractions: διπλάσιος, μισός",
+      "en": "**διπλάσιος / τριπλάσιος** (double / triple), **το διπλάσιο** (twice as much); **μισός, το μισό** (half); **το μισό του μισού** (half of the half). Note the genitive for “of”: **το μισό της απόστασης**.",
+      "examples": [
+        {
+          "el": "Πρώτα πρέπει να διανύσει το μισό της απόστασης.",
+          "en": "First he must cover half the distance."
+        },
+        {
+          "el": "Το μισό ενός χρόνου ισούται με το διπλάσιό του.",
+          "en": "Half a time equals double that time."
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "title": "Learned phrases: «επ’ άπειρον», «ούτω καθεξής», «δυνάμει»",
+      "en": "Some ancient phrases live on in formal Greek: **επ’ άπειρον** (ad infinitum), **και ούτω καθεξής** (and so on; abbreviated κ.ο.κ.), **δυνάμει** (potentially), **εις άτοπον απαγωγή** (reductio ad absurdum).",
+      "examples": [
+        {
+          "el": "Και έτσι επ’ άπειρον.",
+          "en": "And so on ad infinitum."
+        },
+        {
+          "el": "Ο χρόνος είναι άπειρος μόνο δυνάμει.",
+          "en": "Time is infinite only potentially."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "q": "Ποιον υπερασπιζόταν ο Ζήνων με τα επιχειρήματά του;",
+      "options": [
+        "Τον Παρμενίδη",
+        "Τον Ηράκλειτο",
+        "Τον Πυθαγόρα",
+        "Τον Σωκράτη"
+      ],
+      "answer": "Τον Παρμενίδη",
+      "why": "Plato, Parmenides 128c–d."
+    },
+    {
+      "q": "Πόσα επιχειρήματα περιείχε, κατά τον Πρόκλο, το βιβλίο του;",
+      "options": [
+        "Σαράντα",
+        "Τέσσερα",
+        "Δέκα",
+        "Εκατό"
+      ],
+      "answer": "Σαράντα",
+      "why": "Proclus, confirmed by Elias."
+    },
+    {
+      "q": "Ποια είναι η μέθοδος του Ζήνωνα;",
+      "options": [
+        "Η εις άτοπον απαγωγή",
+        "Το πείραμα",
+        "Η παρατήρηση των άστρων",
+        "Η ερμηνεία των μύθων"
+      ],
+      "answer": "Η εις άτοπον απαγωγή",
+      "why": "Assume the opposing thesis and derive absurdities."
+    },
+    {
+      "q": "Γιατί, κατά το παράδοξο, ο Αχιλλέας δεν προλαβαίνει τη χελώνα;",
+      "options": [
+        "Γιατί κάθε φορά που φτάνει εκεί που ήταν, εκείνη έχει προχωρήσει",
+        "Γιατί είναι κουρασμένος",
+        "Γιατί η χελώνα είναι γρηγορότερη",
+        "Γιατί ο δρόμος είναι κυκλικός"
+      ],
+      "answer": "Γιατί κάθε φορά που φτάνει εκεί που ήταν, εκείνη έχει προχωρήσει",
+      "why": "An endless series of catching-up stages."
+    },
+    {
+      "q": "Τι συμπεραίνει το παράδοξο του βέλους;",
+      "options": [
+        "Ότι το βέλος που πετά είναι πάντα ακίνητο",
+        "Ότι το βέλος δεν φτάνει ποτέ στο έδαφος",
+        "Ότι το βέλος κινείται πάντα",
+        "Ότι το βέλος είναι άπειρο"
+      ],
+      "answer": "Ότι το βέλος που πετά είναι πάντα ακίνητο",
+      "why": "At each instant it occupies a space equal to itself."
+    },
+    {
+      "q": "Τι έκανε ο Διογένης όταν του είπαν ότι δεν υπάρχει κίνηση;",
+      "options": [
+        "Σηκώθηκε και περπάτησε",
+        "Έγραψε ένα βιβλίο",
+        "Γέλασε και κοιμήθηκε",
+        "Πέταξε ένα βέλος"
+      ],
+      "answer": "Σηκώθηκε και περπάτησε",
+      "why": "DL VI.39."
+    },
+    {
+      "q": "Πώς ονόμασε ο Αριστοτέλης τον Ζήνωνα;",
+      "options": [
+        "Εφευρέτη της διαλεκτικής",
+        "Πατέρα της ιστορίας",
+        "Πρώτο φιλόσοφο",
+        "Σκοτεινό"
+      ],
+      "answer": "Εφευρέτη της διαλεκτικής",
+      "why": "DL IX.25."
+    },
+    {
+      "q": "Πόσο κάνει το άθροισμα ½ + ¼ + ⅛ + … ;",
+      "options": [
+        "1",
+        "Άπειρο",
+        "½",
+        "2"
+      ],
+      "answer": "1",
+      "why": "An infinite series with a finite sum: the Standard Solution."
+    }
+  ],
+  "vocab": [
+    "ψευδαίσθηση",
+    "προκαλώ",
+    "αντίπαλος",
+    "σωρός",
+    "γελοίος",
+    "αναλαμβάνω",
+    "υιοθετώ",
+    "εγκαθίσταμαι",
+    "κυκλοφορώ",
+    "συνωμοτώ",
+    "ανακρίνω",
+    "προδίδω",
+    "συνένοχος",
+    "σκύβω",
+    "δαγκώνω",
+    "φτύνω",
+    "στέκω",
+    "κεχρί",
+    "σπόρος",
+    "κύλικα",
+    "προβάδισμα",
+    "προλαβαίνω",
+    "δρομέας",
+    "τέρμα",
+    "διανύω",
+    "πεπερασμένος",
+    "πτήση",
+    "ηρεμία",
+    "αμφιβάλλω",
+    "εφευρέτης",
+    "κυριαρχώ",
+    "άθροισμα",
+    "όρος",
+    "ολοκληρώνω"
+  ],
+  "gloss": {
+    "Βιογραφία": "βιογραφία — biography",
+    "Κοσμολογία": "κοσμολογία — cosmology",
+    "κοσμολογία": "κοσμολογία — cosmology",
+    "π.Χ.": "π.Χ. — BC (προ Χριστού)",
+    "μ.Χ.": "μ.Χ. — AD (μετά Χριστόν)",
+    "περ.": "περίπου — about, circa",
+    "Αριστοτέλης": "Αριστοτέλης — Aristotle",
+    "Πλάτωνα": "Πλάτων — Plato",
+    "Πλάτωνας": "Πλάτων — Plato",
+    "Σωκράτης": "Σωκράτης — Socrates",
+    "Σωκράτη": "Σωκράτης — Socrates",
+    "Λαέρτιος": "Διογένης Λαέρτιος — Diogenes Laertius, 3rd-century AD biographer of philosophers",
+    "Πυθαγόρα": "Πυθαγόρας — Pythagoras",
+    "Ηράκλειτος": "Ηράκλειτος — Heraclitus of Ephesus",
+    "Ηράκλειτο": "Ηράκλειτος — Heraclitus",
+    "Παρμενίδης": "Παρμενίδης — Parmenides of Elea",
+    "Παρμενίδη": "Παρμενίδης — Parmenides",
+    "Ιταλία": "Ιταλία — Italy",
+    "Ιταλίας": "Ιταλία — Italy",
+    "Ελέα": "Ελέα — Elea, Greek city in southern Italy",
+    "Ελέας": "Ελέα — Elea",
+    "Πέρσες": "Πέρσης — Persian",
+    "Διογένη": "Διογένης Λαέρτιος — Diogenes Laertius (or Diogenes the Cynic)",
+    "Διογένης": "Διογένης — Diogenes",
+    "Μιλήσιοι": "Μιλήσιος — Milesian",
+    "στοχαστές": "στοχαστής — thinker",
+    "Ζήνων": "Ζήνων — Zeno",
+    "Ζήνωνα": "Ζήνων — Zeno",
+    "Ελεάτης": "Ελεάτης — of Elea, Eleatic",
+    "νεοπλατωνικός": "νεοπλατωνικός — Neoplatonist",
+    "Πλάτων": "Πλάτων — Plato",
+    "Πυθαγόρας": "Πυθαγόρας — Pythagoras",
+    "στοχαστής": "στοχαστής — thinker",
+    "Μαραθώνα": "Μαραθώνας — Marathon",
+    "Πλούταρχος": "Πλούταρχος — Plutarch",
+    "Απολλόδωρο": "Απολλόδωρος — Apollodorus, chronographer",
+    "Πρόκλος": "Πρόκλος — Proclus, Neoplatonist",
+    "Πρόκλο": "Πρόκλος — Proclus, Neoplatonist",
+    "Αχιλλέα": "Αχιλλέας — Achilles",
+    "Αχιλλέας": "Αχιλλέας — Achilles",
+    "Κυνικό": "Κυνικός — Cynic (philosopher)",
+    "Τρωικού": "Τρωικός — Trojan",
+    "μικρότερα": "μικρός — smaller",
+    "ισούται": "ισούμαι — to equal",
+    "άθροισμα": "άθροισμα — sum",
+    "πεπερασμένο": "πεπερασμένος — finite",
+    "πεπερασμένος": "πεπερασμένος — finite",
+    "διανύσει": "διανύω — to cover (a distance)",
+    "διανύει": "διανύω — to cover (a distance)",
+    "διανύω": "διανύω — to cover (a distance)",
+    "άτοπον": "άτοπος — absurd (εις άτοπον απαγωγή: reductio ad absurdum)",
+    "άπειρον": "άπειρο — infinity (επ’ άπειρον: ad infinitum)",
+    "μεγαλύτερός": "μεγαλύτερος — older; bigger",
+    "διπλάσιό": "διπλάσιος — double",
+    "δρομέας": "δρομέας — runner",
+    "εφευρέτη": "εφευρέτης — inventor",
+    "Εφευρέτη": "εφευρέτης — inventor",
+    "εφευρέτης": "εφευρέτης — inventor",
+    "Τελευταγόρα": "Τελευταγόρας — Teleutagoras, Zeno’s father",
+    "συνενόχους": "συνένοχος — accomplice",
+    "συνένοχος": "συνένοχος — accomplice",
+    "κεχρί": "κεχρί — millet",
+    "ερυθρόμορφη": "ερυθρόμορφος — red-figure (pottery)",
+    "κύλικα": "κύλικα — kylix, drinking cup",
+    "ταχύτερος": "ταχύς — fastest, swifter",
+    "διχοτομία": "διχοτομία — dichotomy, halving",
+    "Παλαμήδη": "Παλαμήδης — Palamedes, clever Greek hero",
+    "απειροστικό": "απειροστικός — infinitesimal (απειροστικός λογισμός: calculus)",
+    "ένατου": "ένατος — ninth",
+    "Κωσί": "Κωσί — Cauchy",
+    "Βάιερστρας": "Βάιερστρας — Weierstrass",
+    "Κάντορ": "Κάντορ — Cantor",
+    "γρηγορότερη": "γρήγορος — faster",
+    "διαιρετότητα": "διαιρετότητα — divisibility",
+    "πολλαπλότητα": "πολλαπλότητα — plurality",
+    "καβούκι": "καβούκι — shell (of a tortoise)"
+  },
+  "sources": [
+    {
+      "n": 1,
+      "text": "John Palmer, “Zeno of Elea”, Stanford Encyclopedia of Philosophy: life, the book, Plutarch on Pericles, the Villa Giulia cup, Aristotle on dialectic.",
+      "url": "https://plato.stanford.edu/entries/zeno-elea/"
+    },
+    {
+      "n": 2,
+      "text": "Bradley Dowden, “Zeno’s Paradoxes”, Internet Encyclopedia of Philosophy: dates, the forty arguments, the ten paradoxes, Aristotle’s treatment, the Standard Solution and supertasks.",
+      "url": "https://iep.utm.edu/zenos-paradoxes/"
+    },
+    {
+      "n": 3,
+      "text": "Diogenes Laertius, Lives of Eminent Philosophers, Book IX, §§25–29 (Zeno of Elea: adoption, the plot against the tyrant, “inventor of dialectic”, “Eleatic Palamedes”), translated by R. D. Hicks, Wikisource.",
+      "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_IX"
+    },
+    {
+      "n": 4,
+      "text": "Plato, Parmenides 127a–128e (Zeno nearly forty, reading his book; its purpose; the stolen copy), translated by B. Jowett, Project Gutenberg.",
+      "url": "https://www.gutenberg.org/ebooks/1687"
+    },
+    {
+      "n": 5,
+      "text": "Diogenes Laertius, Lives of Eminent Philosophers, Book VI, §39 (Diogenes walks to refute a denial of motion), Wikisource.",
+      "url": "https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_VI"
+    }
+  ]
+}
