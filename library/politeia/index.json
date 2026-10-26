@@ -1,0 +1,292 @@
+{
+ "kind": "bilingual",
+ "el": "Το ελληνικό πολίτευμα",
+ "title": "The Greek polity: state, law and politics",
+ "intro_el": "Πώς λειτουργεί το ελληνικό κράτος: το Σύνταγμα, οι θεσμοί, η δικαιοσύνη, η διοίκηση, τα κόμματα, οι σχέσεις κράτους και κοινωνίας, οι επιρροές στη δημόσια πολιτική και η ελληνική πολιτική κουλτούρα. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1 και ανεβαίνουν σταδιακά ως το Γ1.",
+ "intro_en": "How the Greek state works: the Constitution, the institutions, the courts, the administration, the parties, the relations between state and society, the internal and external forces that shape public policy, and the nuances of Greek political culture. The Greek text starts around B1 and rises gradually to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes on the structures it uses, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+ "parts": [
+  {
+   "id": "syntagma",
+   "el": "Το Σύνταγμα",
+   "en": "The Constitution",
+   "intro_el": "Πώς γεννήθηκε το Σύνταγμα του 1975, τι λέει και πώς αλλάζει.",
+   "intro_en": "How the 1975 Constitution came about, what it says, and how it can be changed."
+  },
+  {
+   "id": "thesmoi",
+   "el": "Οι θεσμοί",
+   "en": "The institutions",
+   "intro_el": "Ο Πρόεδρος, η Βουλή, η Κυβέρνηση και οι εκλογές: ποιος κάνει τι.",
+   "intro_en": "The President, Parliament, the Government and elections: who does what."
+  },
+  {
+   "id": "dikaiosyni",
+   "el": "Δίκαιο και δικαιοσύνη",
+   "en": "Law and justice",
+   "intro_el": "Τα δικαστήρια, οι πηγές του δικαίου και οι ανεξάρτητες αρχές.",
+   "intro_en": "The courts, the sources of law, and the independent authorities."
+  },
+  {
+   "id": "dioikisi",
+   "el": "Η διοίκηση",
+   "en": "Administration",
+   "intro_el": "Πώς λειτουργεί το ελληνικό Δημόσιο, από το υπουργείο ως τον δήμο.",
+   "intro_en": "How the Greek public administration works, from the ministry to the municipality."
+  },
+  {
+   "id": "kommata",
+   "el": "Τα κόμματα",
+   "en": "The parties",
+   "intro_el": "Από τον δικομματισμό της Μεταπολίτευσης στον κατακερματισμό της κρίσης και στο σημερινό κομματικό σύστημα.",
+   "intro_en": "From the two-party system of the Metapolitefsi to the fragmentation of the crisis years and today's party landscape."
+  },
+  {
+   "id": "kratos-koinonia",
+   "el": "Κράτος και κοινωνία",
+   "en": "State and society",
+   "intro_el": "Πελατειακές σχέσεις, συνδικάτα και κοινωνία των πολιτών, μέσα ενημέρωσης, Εκκλησία: πώς συναντιούνται το κράτος και οι πολίτες.",
+   "intro_en": "Clientelism, unions and civil society, the media, the Church: where the state and citizens meet."
+  },
+  {
+   "id": "politikes",
+   "el": "Δημόσια πολιτική και επιρροές",
+   "en": "Public policy and its influences",
+   "intro_el": "Η Ευρώπη, τα μνημόνια, η γεωπολιτική και οι εσωτερικές πιέσεις που διαμορφώνουν τη σύγχρονη δημόσια πολιτική.",
+   "intro_en": "Europe, the bailout memoranda, geopolitics and the domestic pressures that shape contemporary public policy."
+  },
+  {
+   "id": "koultoura",
+   "el": "Η πολιτική κουλτούρα",
+   "en": "Political culture",
+   "intro_el": "Εμπιστοσύνη και καχυποψία, μνήμη και διαμαρτυρία, και η θέση της πολιτικής στην καθημερινή ζωή των Ελλήνων.",
+   "intro_en": "Trust and suspicion, memory and protest, and the place of politics in everyday Greek life."
+  }
+ ],
+ "items": [
+  {
+   "id": "syntagma-1975",
+   "file": "syntagma-1975.json",
+   "el": "Το Σύνταγμα του 1975",
+   "title": "The Constitution of 1975",
+   "level": "B1",
+   "part": "syntagma",
+   "dates": "1974–1975"
+  },
+  {
+   "id": "diakrisi",
+   "file": "diakrisi.json",
+   "el": "Η διάκριση των εξουσιών",
+   "title": "The separation of powers",
+   "level": "B1",
+   "part": "syntagma",
+   "dates": "Άρθρα 26–29"
+  },
+  {
+   "id": "anatheorisi",
+   "file": "anatheorisi.json",
+   "el": "Πώς αλλάζει το Σύνταγμα",
+   "title": "How the Constitution is revised",
+   "level": "B2",
+   "part": "syntagma",
+   "dates": "1986, 2001, 2008, 2019"
+  },
+  {
+   "id": "proedros",
+   "file": "proedros.json",
+   "el": "Ο Πρόεδρος της Δημοκρατίας",
+   "title": "The President of the Republic",
+   "level": "B1",
+   "part": "thesmoi",
+   "dates": "Άρθρα 30–50"
+  },
+  {
+   "id": "vouli",
+   "file": "vouli.json",
+   "el": "Η Βουλή των Ελλήνων",
+   "title": "The Hellenic Parliament",
+   "level": "B2",
+   "part": "thesmoi",
+   "dates": "Άρθρα 51–80"
+  },
+  {
+   "id": "kyvernisi",
+   "file": "kyvernisi.json",
+   "el": "Η Κυβέρνηση και ο πρωθυπουργός",
+   "title": "The Government and the Prime Minister",
+   "level": "B2",
+   "part": "thesmoi",
+   "dates": "Άρθρα 81–86"
+  },
+  {
+   "id": "ekloges",
+   "file": "ekloges.json",
+   "el": "Εκλογές και εκλογικοί νόμοι",
+   "title": "Elections and electoral laws",
+   "level": "B2",
+   "part": "thesmoi",
+   "dates": "1974–2024"
+  },
+  {
+   "id": "dikastiria",
+   "file": "dikastiria.json",
+   "el": "Τα δικαστήρια",
+   "title": "The court system",
+   "level": "B2",
+   "part": "dikaiosyni",
+   "dates": "Άρθρα 87–100"
+  },
+  {
+   "id": "nomoi",
+   "file": "nomoi.json",
+   "el": "Από το Σύνταγμα ως την υπουργική απόφαση",
+   "title": "Sources of law: from the Constitution to the ministerial decision",
+   "level": "B2",
+   "part": "dikaiosyni",
+   "dates": "1946–σήμερα"
+  },
+  {
+   "id": "anexartites",
+   "file": "anexartites.json",
+   "el": "Οι ανεξάρτητες αρχές",
+   "title": "The independent authorities",
+   "level": "B2",
+   "part": "dikaiosyni",
+   "dates": "1989–σήμερα"
+  },
+  {
+   "id": "dimosio",
+   "file": "dimosio.json",
+   "el": "Το Δημόσιο",
+   "title": "The public administration",
+   "level": "B2",
+   "part": "dioikisi",
+   "dates": "1994–σήμερα"
+  },
+  {
+   "id": "aftodioikisi",
+   "file": "aftodioikisi.json",
+   "el": "Δήμοι και περιφέρειες",
+   "title": "Local and regional government",
+   "level": "B2",
+   "part": "dioikisi",
+   "dates": "1994–σήμερα"
+  },
+  {
+   "id": "dikommatismos",
+   "file": "dikommatismos.json",
+   "el": "Ο δικομματισμός της Μεταπολίτευσης",
+   "title": "The two-party system of the Metapolitefsi",
+   "level": "B2",
+   "part": "kommata",
+   "dates": "1974–2009"
+  },
+  {
+   "id": "katakermatismos",
+   "file": "katakermatismos.json",
+   "el": "Η κρίση και ο κατακερματισμός",
+   "title": "Crisis and fragmentation",
+   "level": "B2+",
+   "part": "kommata",
+   "dates": "2010–2019"
+  },
+  {
+   "id": "kommatiko-systima",
+   "file": "kommatiko-systima.json",
+   "el": "Το κομματικό σύστημα σήμερα",
+   "title": "The party system today",
+   "level": "B2+",
+   "part": "kommata",
+   "dates": "2023–σήμερα"
+  },
+  {
+   "id": "pelateiakes",
+   "file": "pelateiakes.json",
+   "el": "Ρουσφέτι, μέσον και πελατειακές σχέσεις",
+   "title": "Favours, connections and clientelism",
+   "level": "B2+",
+   "part": "kratos-koinonia",
+   "dates": "19ος αι.–σήμερα"
+  },
+  {
+   "id": "koinonia-politon",
+   "file": "koinonia-politon.json",
+   "el": "Συνδικάτα, κοινωνία των πολιτών και μέσα ενημέρωσης",
+   "title": "Unions, civil society and the media",
+   "level": "B2+",
+   "part": "kratos-koinonia",
+   "dates": "1918–σήμερα"
+  },
+  {
+   "id": "ekklisia-kratos",
+   "file": "ekklisia-kratos.json",
+   "el": "Εκκλησία και κράτος",
+   "title": "Church and State",
+   "level": "B2+",
+   "part": "kratos-koinonia",
+   "dates": "1833–σήμερα"
+  },
+  {
+   "id": "europi",
+   "file": "europi.json",
+   "el": "Η Ελλάδα στην Ευρωπαϊκή Ένωση",
+   "title": "Greece in the European Union",
+   "level": "B2+",
+   "part": "politikes",
+   "dates": "1961–σήμερα"
+  },
+  {
+   "id": "mnimonia",
+   "file": "mnimonia.json",
+   "el": "Η κρίση χρέους και τα μνημόνια",
+   "title": "The debt crisis and the memoranda",
+   "level": "C1",
+   "part": "politikes",
+   "dates": "2010–2022"
+  },
+  {
+   "id": "exoteriki",
+   "file": "exoteriki.json",
+   "el": "Εξωτερική πολιτική και ασφάλεια",
+   "title": "Foreign policy and security",
+   "level": "C1",
+   "part": "politikes",
+   "dates": "1952–σήμερα"
+  },
+  {
+   "id": "esoterikes",
+   "file": "esoterikes.json",
+   "el": "Εσωτερικές πιέσεις: δημογραφικό, φόροι, κλίμα, κράτος",
+   "title": "Domestic pressures: demography, taxes, climate, state capacity",
+   "level": "C1",
+   "part": "politikes",
+   "dates": "2018–σήμερα"
+  },
+  {
+   "id": "empistosyni",
+   "file": "empistosyni.json",
+   "el": "Εμπιστοσύνη και καχυποψία",
+   "title": "Trust and suspicion",
+   "level": "C1",
+   "part": "koultoura",
+   "dates": "σήμερα"
+  },
+  {
+   "id": "mnimi",
+   "file": "mnimi.json",
+   "el": "Μνήμη, πόλωση και διαμαρτυρία",
+   "title": "Memory, polarisation and protest",
+   "level": "C1",
+   "part": "koultoura",
+   "dates": "1946–σήμερα"
+  },
+  {
+   "id": "kathimerini",
+   "file": "kathimerini.json",
+   "el": "Η πολιτική στην καθημερινή ζωή",
+   "title": "Politics in everyday life",
+   "level": "C1",
+   "part": "koultoura",
+   "dates": "σήμερα"
+  }
+ ]
+}

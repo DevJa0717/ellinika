@@ -1,0 +1,150 @@
+PART = dict(id="kommata", el="Τα κόμματα", en="The parties",
+            intro_el="Από τον δικομματισμό της Μεταπολίτευσης στον κατακερματισμό της κρίσης και στο σημερινό κομματικό σύστημα.",
+            intro_en="From the two-party system of the Metapolitefsi to the fragmentation of the crisis years and today's party landscape.")
+
+CHAPTERS = [
+dict(
+ id="dikommatismos", el="Ο δικομματισμός της Μεταπολίτευσης", title="The two-party system of the Metapolitefsi", level="B2", dates="1974–2009",
+ summary_en="For thirty-five years after 1974, two parties dominated Greek politics: the centre-right New Democracy (ND), founded by Konstantinos Karamanlis, and the centre-left PASOK, founded by Andreas Papandreou. Together they routinely won more than three quarters of the vote and alternated in power, building mass organisations that reached into every village, union and university.",
+ sections=[
+  dict(id="idrysi", el="Δύο κόμματα γεννιούνται το 1974", en="Two parties born in 1974", paras=[
+   ("Και τα δύο μεγάλα κόμματα της Μεταπολίτευσης ιδρύθηκαν το φθινόπωρο του 1974. Το ΠΑΣΟΚ, το Πανελλήνιο Σοσιαλιστικό Κίνημα, ιδρύθηκε από τον Ανδρέα Παπανδρέου με τη «Διακήρυξη της 3ης Σεπτέμβρη». Η Νέα Δημοκρατία ιδρύθηκε από τον Κωνσταντίνο Καραμανλή στις 4 Οκτωβρίου. Στις εκλογές του Νοεμβρίου 1974, η ΝΔ κέρδισε θριαμβευτικά, με πάνω από 54%.",
+    "Both great parties of the Metapolitefsi were founded in the autumn of 1974. PASOK, the Panhellenic Socialist Movement, was launched by Andreas Papandreou, economist and son of the former centrist prime minister Georgios Papandreou, with the “Declaration of 3 September”, a radical programme of national independence, popular sovereignty and social liberation. New Democracy was founded by Konstantinos Karamanlis on 4 October 1974 as a modern centre-right party committed to parliamentary democracy and to Greece's entry into the European Community. In the elections of 17 November 1974 ND won a landslide, with 54.4% of the vote and 220 of 300 seats, while PASOK took 13.6%. The Communist Party (KKE), banned since 1947, had been legalised in September 1974.", ["nd", "pasok", "kke", "clogg"]),
+   ("Το ΠΑΣΟΚ μεγάλωσε γρήγορα. Με το σύνθημα «Αλλαγή», κέρδισε τις εκλογές του Οκτωβρίου 1981 με 48% και σχημάτισε την πρώτη σοσιαλιστική κυβέρνηση της χώρας. Η νίκη του θεωρήθηκε το τέλος της κυριαρχίας της Δεξιάς μετά τον Εμφύλιο και η ένταξη στην πολιτική ζωή όσων είχαν μείνει για δεκαετίες στο περιθώριο.",
+    "PASOK grew fast. Under the slogan “Αλλαγή” (Change) it won the election of 18 October 1981 with 48.1% and formed the country's first socialist government, the same year Greece joined the European Community. Its victory was experienced as the end of the right's dominance of the state since the Civil War, and as the integration into political life of those, the defeated left and the centre, who had been marginalised for decades: PASOK recognised the wartime National Resistance, including its communist-led wing, and passed laws on civil marriage, family law and the national health system (ΕΣΥ, 1983).", ["pasok", "clogg", "diamandouros"]),
+  ]),
+  dict(id="enallagi", el="Η εναλλαγή στην εξουσία", en="Alternation in power", paras=[
+   ("Από το 1974 ως το 2009, τα δύο κόμματα εναλλάσσονταν στην εξουσία. Η ΝΔ κυβέρνησε το 1974–1981, το 1990–1993 και το 2004–2009. Το ΠΑΣΟΚ κυβέρνησε το 1981–1989, το 1993–2004 και το 2009–2011. Μαζί έπαιρναν συνήθως πάνω από το 75% των ψήφων, ενώ στη Βουλή έμπαιναν επίσης το ΚΚΕ και ένα μικρότερο κόμμα της ανανεωτικής Αριστεράς.",
+    "From 1974 to 2009 the two parties alternated in power. ND governed in 1974–1981 (Karamanlis, then Georgios Rallis), 1990–1993 (Konstantinos Mitsotakis) and 2004–2009 (Kostas Karamanlis, nephew of the founder); PASOK in 1981–1989 (Andreas Papandreou), 1993–2004 (Papandreou, then from 1996 Kostas Simitis) and 2009–2011 (Georgios A. Papandreou, the founder's son). Together they usually took more than three quarters of the vote, peaking above 85% in 2004. Smaller parties survived on the left, the KKE and a “renewal” left that became Synaspismos and later SYRIZA, and, after 2007, on the nationalist right with LAOS. Political scientists called the system “two-party pluralism” or simply δικομματισμός.", ["nd", "pasok", "dynasties", "handbook"]),
+   ("Τα δύο κόμματα δεν ήταν μόνο εκλογικοί μηχανισμοί. Είχαν οργανώσεις σε κάθε πόλη και χωριό, παρατάξεις στα συνδικάτα, στα πανεπιστήμια και στους επαγγελματικούς συλλόγους. Η κομματική ταυτότητα περνούσε συχνά από γενιά σε γενιά, σαν την ομάδα ποδοσφαίρου. Στα καφενεία των χωριών υπήρχαν ακόμα και «δεξιά» και «αριστερά» καφενεία.",
+    "The two parties were more than electoral machines. They had branches in every town and village and affiliated factions (παρατάξεις) in trade unions, universities, chambers and professional associations, whose internal elections were fought on party lines; ND's youth organisation ONNED and PASOK's student faction PASP were schools of politics for future leaders. Party identity was often inherited, like loyalty to a football club, and in many villages there were “right-wing” and “left-wing” cafés. Scholars link this mass partisanship to the distribution of state resources, the subject of a later chapter.", ["mavrogordatos", "lyrintzis", "handbook"]),
+  ]),
+  dict(id="oikogeneies", el="Πολιτικές οικογένειες", en="Political families", paras=[
+   ("Μια ιδιαιτερότητα της ελληνικής πολιτικής είναι οι πολιτικές «δυναστείες». Τρεις οικογένειες έχουν δώσει τουλάχιστον δύο πρωθυπουργούς η καθεμιά: οι Παπανδρέου, οι Καραμανλήδες και οι Μητσοτάκηδες. Πολλοί βουλευτές είναι παιδιά ή εγγόνια βουλευτών. Για κάποιους, αυτό δείχνει ότι η πολιτική είναι κλειστή· για άλλους, ότι τα ονόματα έχουν ακόμα σημασία για τους ψηφοφόρους.",
+    "A distinctive feature of Greek politics is political “dynasties”. Three families have each produced at least two prime ministers: the Papandreous (Georgios, his son Andreas, and grandson Georgios A.), the Karamanlises (Konstantinos and his nephew Kostas) and the Mitsotakises (Konstantinos and his son Kyriakos, Prime Minister since 2019). Many MPs are the children or grandchildren of MPs, particularly in rural constituencies where a family name carries a network of loyalties. To critics this shows a closed political class; to others, that names still matter to voters in a system of preference votes. Either way, the phrase “τζάκια” (hearths), meaning the old political families, is a staple of political polemic.", ["dynasties", "handbook"]),
+  ]),
+ ],
+ grammar=[
+  dict(level="B2", title="Reciprocal and alternating action: εναλλάσσονταν, συνεργάζονται",
+       el="«Τα δύο κόμματα εναλλάσσονταν στην εξουσία»: πολλά ρήματα σε -ομαι δηλώνουν αμοιβαία ή διαδοχική δράση.",
+       en="Mediopassive verbs often express **reciprocal or alternating** action: *εναλλάσσονται* (take turns), *συνεργάζονται* (cooperate), *ανταγωνίζονται* (compete), *συγκρούονται* (clash). Imperfect 3pl: *εναλλάσσονταν, συνεργάζονταν* (stress on the antepenult, as in the present).",
+       examples=[("Τα δύο κόμματα εναλλάσσονταν στην εξουσία.", "The two parties alternated in power."), ("Οι παρατάξεις ανταγωνίζονται στα συνδικάτα.", "The factions compete in the unions.")]),
+  dict(level="B2", title="Distributives: η καθεμιά, ο καθένας, το καθένα",
+       el="«Τρεις οικογένειες έχουν δώσει δύο πρωθυπουργούς η καθεμιά»: η αντωνυμία συμφωνεί σε γένος με το ουσιαστικό.",
+       en="**ο καθένας / η καθεμιά / το καθένα** “each one” agrees in gender with the noun it refers to and can follow the verb phrase: *τρεις οικογένειες… η καθεμιά* (feminine because *οικογένεια*), *δύο κόμματα… το καθένα*. Before a noun use **κάθε** (invariable): *κάθε κόμμα, κάθε οικογένεια*.",
+       examples=[("Τα δύο κόμματα πήραν πάνω από 30% το καθένα.", "The two parties each took over 30%."), ("Κάθε οικογένεια έχει την ιστορία της.", "Every family has its own story.")]),
+ ],
+ terms=[
+  ("ο δικομματισμός", "two-party system", "Σύστημα όπου δύο μεγάλα κόμματα εναλλάσσονται στην εξουσία.", "A system dominated by two alternating parties."),
+  ("η Διακήρυξη της 3ης Σεπτέμβρη", "Declaration of 3 September", "Το ιδρυτικό κείμενο του ΠΑΣΟΚ (1974).", "PASOK's founding manifesto (1974)."),
+  ("η παράταξη", "faction, political camp", "Ομάδα ενός κόμματος σε συνδικάτο ή σύλλογο, ή γενικά πολιτικός χώρος.", "A party-linked faction in a union or association; also a political camp."),
+  ("η Αλλαγή", "“Change” (PASOK slogan)", "Το σύνθημα του ΠΑΣΟΚ το 1981.", "PASOK's 1981 campaign slogan."),
+  ("τα τζάκια", "the old political families", "Ειρωνική λέξη για τις παλιές πολιτικές οικογένειες.", "Ironic term for long-established political dynasties."),
+  ("η ανανεωτική Αριστερά", "renewal (Eurocommunist) left", "Η Αριστερά που απομακρύνθηκε από το σοβιετικό πρότυπο.", "The left that broke with the Soviet model."),
+ ],
+ questions=[
+  ("Ποιος ίδρυσε τη Νέα Δημοκρατία;", ["Ο Κωνσταντίνος Καραμανλής", "Ο Ανδρέας Παπανδρέου", "Ο Κωνσταντίνος Μητσοτάκης", "Ο Κώστας Σημίτης"], "Ο Κωνσταντίνος Καραμανλής", "Η ΝΔ ιδρύθηκε στις 4 Οκτωβρίου 1974."),
+  ("Πότε σχημάτισε το ΠΑΣΟΚ την πρώτη του κυβέρνηση;", ["Το 1981", "Το 1974", "Το 1989", "Το 1993"], "Το 1981", "Κέρδισε τις εκλογές της 18ης Οκτωβρίου 1981 με 48%."),
+  ("Τι ήταν οι «παρατάξεις»;", ["Κομματικές ομάδες σε συνδικάτα και πανεπιστήμια", "Κυβερνητικά υπουργεία", "Στρατιωτικές μονάδες", "Εκλογικές περιφέρειες"], "Κομματικές ομάδες σε συνδικάτα και πανεπιστήμια", "Τα κόμματα είχαν παρουσία σε κάθε χώρο της κοινωνίας."),
+  ("Ποια οικογένεια ΔΕΝ έχει δώσει δύο πρωθυπουργούς;", ["Οι Σημίτηδες", "Οι Παπανδρέου", "Οι Καραμανλήδες", "Οι Μητσοτάκηδες"], "Οι Σημίτηδες", "Ο Κώστας Σημίτης ήταν ο μόνος πρωθυπουργός της οικογένειάς του."),
+ ],
+ vocab=["το κόμμα", "ιδρύω", "η εξουσία", "κερδίζω", "το σύνθημα", "η εναλλαγή", "η παράταξη", "η οργάνωση", "η ταυτότητα", "η οικογένεια", "ο αρχηγός", "η Δεξιά", "η Αριστερά", "το περιθώριο"],
+),
+
+dict(
+ id="katakermatismos", el="Η κρίση και ο κατακερματισμός", title="Crisis and fragmentation", level="B2+", dates="2010–2019",
+ summary_en="The debt crisis destroyed the two-party system in two years. In May 2012 ND and PASOK together fell to about a third of the vote; SYRIZA rose from the margins to power in January 2015; the neo-Nazi Golden Dawn became the third party; and the July 2015 referendum split the country. By 2019 a new two-pole system had formed, with ND and SYRIZA as its poles.",
+ sections=[
+  dict(id="2012", el="Ο σεισμός του 2012", en="The earthquake of 2012", paras=[
+   ("Το 2009 το ΠΑΣΟΚ κέρδισε τις εκλογές με 44%. Λίγους μήνες αργότερα, η χώρα δεν μπορούσε πια να δανειστεί από τις αγορές και υπέγραψε το πρώτο μνημόνιο, τον Μάιο του 2010. Οι περικοπές σε μισθούς και συντάξεις, η ανεργία και η αίσθηση ταπείνωσης έφεραν μεγάλες διαδηλώσεις, όπως το κίνημα των «Αγανακτισμένων» στο Σύνταγμα το 2011.",
+    "In October 2009 PASOK won the election with 43.9%. Within months the new government revealed that the deficit was far larger than reported, the country lost access to the markets, and in May 2010 it signed the first bailout agreement, the “memorandum” (μνημόνιο), with the EU and the IMF. Cuts to wages and pensions, soaring unemployment and a sense of national humiliation brought huge protests and general strikes, culminating in the movement of the “Indignant” (Αγανακτισμένοι), who occupied Syntagma Square for weeks in the summer of 2011. In November 2011 Georgios Papandreou resigned, and the former central banker Lucas Papademos led a coalition of PASOK, ND and LAOS.", ["crisis", "pasok", "handbook"]),
+   ("Στις εκλογές του Μαΐου 2012, το πολιτικό σύστημα κατέρρευσε. Η ΝΔ πήρε μόλις 18,9% και το ΠΑΣΟΚ 13,2%: μαζί λιγότερο από το ένα τρίτο. Ο ΣΥΡΙΖΑ, που πριν από τρία χρόνια είχε 4,6%, βγήκε δεύτερος. Η νεοναζιστική Χρυσή Αυγή μπήκε στη Βουλή με σχεδόν 7%. Χρειάστηκαν νέες εκλογές τον Ιούνιο, μετά τις οποίες σχηματίστηκε κυβέρνηση ΝΔ, ΠΑΣΟΚ και ΔΗΜΑΡ με πρωθυπουργό τον Αντώνη Σαμαρά.",
+    "In the elections of 6 May 2012 the party system collapsed. ND took just 18.9% and PASOK 13.2%, together less than a third of the vote, compared with 77% in 2009. SYRIZA, a coalition of the radical left that had won 4.6% in 2009, came second with 16.8%. The neo-Nazi Golden Dawn entered Parliament with almost 7%; seven parties won seats. No government could be formed, and after a repeat election on 17 June 2012, in which SYRIZA rose to 26.9%, Antonis Samaras formed a coalition of ND, PASOK and the small Democratic Left (ΔΗΜΑΡ). The near-disappearance of PASOK, which fell to 4.7% in January 2015, gave European political science a new word: “Pasokification”.", ["crisis", "syriza", "xa", "pasok"]),
+  ]),
+  dict(id="2015", el="Το 2015: ΣΥΡΙΖΑ και δημοψήφισμα", en="2015: SYRIZA and the referendum", paras=[
+   ("Τον Ιανουάριο του 2015 ο ΣΥΡΙΖΑ του Αλέξη Τσίπρα κέρδισε τις εκλογές με 36,3% και σχημάτισε κυβέρνηση με τους Ανεξάρτητους Έλληνες, ένα δεξιό κόμμα αντίθετο στα μνημόνια. Οι διαπραγματεύσεις με τους δανειστές ήταν σκληρές. Στις 5 Ιουλίου 2015, σε δημοψήφισμα, το 61% ψήφισε «Όχι» στην πρόταση των δανειστών. Μία εβδομάδα αργότερα, όμως, η κυβέρνηση υπέγραψε νέα συμφωνία, το τρίτο μνημόνιο.",
+    "In January 2015 SYRIZA, led by Alexis Tsipras, won with 36.3% and 149 seats and formed a government with the Independent Greeks (ΑΝΕΛ), a small nationalist right-wing anti-bailout party: an unusual alliance held together by opposition to the memoranda. Negotiations with the creditors, led by finance minister Yanis Varoufakis, were bitter. Banks closed and capital controls were imposed on 29 June. In the referendum of 5 July 2015 61.3% voted “No” (Όχι) to the creditors' proposals. Eight days later, facing the threat of exit from the euro, the government accepted an agreement on a third bailout, approved in August with the votes of the pro-European opposition while part of SYRIZA broke away. Tsipras called early elections in September 2015 and won again, with 35.5%.", ["syriza", "ref2015", "crisis"]),
+   ("Για πολλούς ψηφοφόρους, το «Όχι» που έγινε «Ναι» ήταν μια βαθιά απογοήτευση· για άλλους, μια ρεαλιστική επιλογή που κράτησε τη χώρα στο ευρώ. Η εμπειρία του 2015 σημάδεψε την ελληνική πολιτική κουλτούρα: τη σχέση με την Ευρώπη, την εμπιστοσύνη στις υποσχέσεις των κομμάτων, τη χρήση των δημοψηφισμάτων.",
+    "For many voters the “No” that became a “Yes” was a profound disillusionment; for others, a realistic choice that kept the country in the euro and paid off when Greece exited its final programme in August 2018. The experience of 2015 marked Greek political culture: attitudes to Europe, trust in party promises, and the use of referendums, which, since 1974, Greece has held only twice. The cleavage of the crisis years, “μνημόνιο – αντιμνημόνιο” (pro- versus anti-memorandum), temporarily overlaid the older left–right division.", ["ref2015", "handbook", "pappas"]),
+  ]),
+  dict(id="2019", el="Μια νέα ισορροπία", en="A new equilibrium", paras=[
+   ("Στις εκλογές του Ιουλίου 2019, η ΝΔ με αρχηγό τον Κυριάκο Μητσοτάκη κέρδισε με 39,9% και αυτοδυναμία 158 εδρών. Ο ΣΥΡΙΖΑ έμεινε δεύτερος με 31,5%. Φάνηκε ότι δημιουργήθηκε ένας νέος δικομματισμός, με τον ΣΥΡΙΖΑ στη θέση του ΠΑΣΟΚ. Η Χρυσή Αυγή έμεινε εκτός Βουλής, και το 2020 η ηγεσία της καταδικάστηκε.",
+    "In the election of 7 July 2019 ND under Kyriakos Mitsotakis won 39.9% and an outright majority of 158 seats; SYRIZA came second with 31.5%. A new bipolar system seemed to have emerged, with SYRIZA in PASOK's old place as the main force of the centre-left. Golden Dawn fell below the 3% threshold, and in October 2020 its leadership was convicted of running a criminal organisation. New small parties entered Parliament: the nationalist Greek Solution (Ελληνική Λύση) and Yanis Varoufakis's MeRA25.", ["nd", "syriza", "xa", "dynasties"]),
+   ("Η ισορροπία αυτή δεν κράτησε πολύ. Όπως θα δούμε στο επόμενο κεφάλαιο, οι εκλογές του 2023 έδειξαν μια κυρίαρχη ΝΔ και μια κατακερματισμένη αντιπολίτευση.",
+    "That balance did not last. As the next chapter shows, the 2023 elections produced a dominant ND and a fragmented opposition, with SYRIZA's collapse reopening the question of who leads the centre-left.", ["wiki_jun23"]),
+  ]),
+ ],
+ grammar=[
+  dict(level="B2", title="Pluperfect: είχε πάρει, είχε υποσχεθεί",
+       el="«Ο ΣΥΡΙΖΑ, που πριν από τρία χρόνια είχε 4,6%…»: ο υπερσυντέλικος (είχε + απαρέμφατο) δείχνει κάτι που έγινε πριν από άλλο γεγονός του παρελθόντος.",
+       en="The **pluperfect** = *είχα* + the invariable perfect form (*πάρει, κερδίσει, υποσχεθεί*) places one past event before another: *Το ΠΑΣΟΚ, που **είχε κερδίσει** το 2009, έπεσε στο 13%* “PASOK, which had won in 2009, fell to 13%”. Note that *είχε 4,6%* without a participle is just the imperfect of *έχω* “it had 4.6%”.",
+       examples=[("Η κυβέρνηση είχε υποσχεθεί να σκίσει τα μνημόνια.", "The government had promised to tear up the memoranda."), ("Όταν έγιναν οι εκλογές, οι τράπεζες είχαν ήδη κλείσει.", "When the elections took place, the banks had already closed.")]),
+  dict(level="B2", title="Percentages and decimals: 36,3%, μόλις 18,9%",
+       el="Στα ελληνικά τα δεκαδικά γράφονται με κόμμα: 36,3% («τριάντα έξι κόμμα τρία τοις εκατό»).",
+       en="Greek writes decimals with a **comma** and thousands with a **full stop**: *36,3%*, *1.033 δήμοι*. Read *τοις εκατό* for %: *61,3% = εξήντα ένα κόμμα τρία τοις εκατό*. Useful words: *μόλις* (just, barely), *σχεδόν* (almost), *πάνω από / κάτω από* (over / under), *ποσοστό* (percentage).",
+       examples=[("Η ΝΔ πήρε μόλις 18,9%.", "ND took just 18.9%."), ("Ο ΣΥΡΙΖΑ ανέβηκε στο 26,9%.", "SYRIZA rose to 26.9%.")]),
+ ],
+ terms=[
+  ("το μνημόνιο", "memorandum (bailout agreement)", "Η συμφωνία της Ελλάδας με τους δανειστές για δάνεια με όρους.", "Greece's loan agreement with its creditors, with conditions."),
+  ("οι δανειστές", "the creditors", "Όσοι δάνεισαν χρήματα στη χώρα: ΕΕ, ΕΚΤ, ΔΝΤ.", "The lenders: the EU, ECB and IMF."),
+  ("οι Αγανακτισμένοι", "the Indignant", "Το κίνημα διαμαρτυρίας στο Σύνταγμα το 2011.", "The 2011 protest movement in Syntagma Square."),
+  ("ο κατακερματισμός", "fragmentation", "Η διάσπαση σε πολλά μικρά κομμάτια.", "Breaking into many small pieces."),
+  ("η αυτοδυναμία", "outright majority", "Η πλειοψηφία ενός κόμματος χωρίς ανάγκη συνεργασίας.", "A single party's majority without partners."),
+  ("τα capital controls / οι έλεγχοι κεφαλαίων", "capital controls", "Περιορισμοί στις αναλήψεις και στις μεταφορές χρημάτων.", "Limits on cash withdrawals and money transfers."),
+  ("μνημονιακός / αντιμνημονιακός", "pro- / anti-memorandum", "Υπέρ ή κατά των συμφωνιών με τους δανειστές.", "For or against the bailout agreements."),
+ ],
+ questions=[
+  ("Πόσο πήραν μαζί ΝΔ και ΠΑΣΟΚ τον Μάιο του 2012;", ["Λιγότερο από το ένα τρίτο", "Πάνω από 75%", "Περίπου 50%", "Πάνω από 60%"], "Λιγότερο από το ένα τρίτο", "18,9% και 13,2%, σύνολο 32,1%."),
+  ("Με ποιο κόμμα συνεργάστηκε ο ΣΥΡΙΖΑ το 2015;", ["Τους Ανεξάρτητους Έλληνες", "Το ΠΑΣΟΚ", "Το ΚΚΕ", "Τη ΝΔ"], "Τους Ανεξάρτητους Έλληνες", "Ένα μικρό δεξιό αντιμνημονιακό κόμμα."),
+  ("Τι ψήφισε η πλειοψηφία στο δημοψήφισμα του Ιουλίου 2015;", ["Όχι στην πρόταση των δανειστών", "Ναι στην πρόταση των δανειστών", "Έξοδο από την ΕΕ", "Νέο Σύνταγμα"], "Όχι στην πρόταση των δανειστών", "Το «Όχι» πήρε 61,3%."),
+  ("Τι σημαίνει «Pasokification»;", ["Η κατάρρευση ενός μεγάλου κεντροαριστερού κόμματος", "Η ίδρυση νέου κόμματος", "Η νίκη της Αριστεράς", "Η αλλαγή του εκλογικού νόμου"], "Η κατάρρευση ενός μεγάλου κεντροαριστερού κόμματος", "Το ΠΑΣΟΚ έπεσε από 44% το 2009 σε 4,7% το 2015."),
+  ("Ποιο κόμμα κέρδισε τις εκλογές του 2019 με αυτοδυναμία;", ["Η ΝΔ", "Ο ΣΥΡΙΖΑ", "Το ΠΑΣΟΚ", "Η Ελληνική Λύση"], "Η ΝΔ", "Με 39,9% και 158 έδρες."),
+ ],
+ vocab=["η κρίση", "το χρέος", "το μνημόνιο", "ο δανειστής", "η περικοπή", "η ανεργία", "η διαδήλωση", "καταρρέω", "η διαπραγμάτευση", "η συμφωνία", "η απογοήτευση", "η υπόσχεση", "ο κατακερματισμός", "η αυτοδυναμία"],
+),
+
+dict(
+ id="kommatiko-systima", el="Το κομματικό σύστημα σήμερα", title="The party system today", level="B2+", dates="2023–σήμερα",
+ summary_en="The 2023 elections returned eight parties to Parliament: a dominant New Democracy, a much-weakened SYRIZA, a recovering PASOK, the KKE and four smaller parties, three of them on the nationalist or religious right. This chapter maps the parties as they stood after the June 2023 election, and the main changes since, and explains the left–right axis in Greek terms.",
+ sections=[
+  dict(id="2023", el="Η Βουλή του 2023", en="The 2023 Parliament", paras=[
+   ("Στις εκλογές της 25ης Ιουνίου 2023 μπήκαν στη Βουλή οκτώ κόμματα. Η Νέα Δημοκρατία πήρε 40,6% και 158 έδρες. Ακολούθησαν ο ΣΥΡΙΖΑ με 17,8%, το ΠΑΣΟΚ-ΚΙΝΑΛ με 11,8%, το ΚΚΕ με 7,7%, οι Σπαρτιάτες, η Ελληνική Λύση, η Νίκη και η Πλεύση Ελευθερίας. Ήταν η πρώτη φορά μετά από πολλά χρόνια που τόσα κόμματα βρέθηκαν στη Βουλή.",
+    "The election of 25 June 2023 returned eight parties: New Democracy, 40.6% and 158 seats; SYRIZA–Progressive Alliance, 17.8% and 47; PASOK–Movement for Change (ΠΑΣΟΚ-ΚΙΝΑΛ), 11.8% and 32; the Communist Party (ΚΚΕ), 7.7% and 21; the Spartans (Σπαρτιάτες), a far-right list endorsed from prison by a convicted Golden Dawn leader, 4.7% and 12; Greek Solution (Ελληνική Λύση), nationalist, 4.4% and 12; Victory (Νίκη), a religious conservative party, 3.7% and 10; and Course of Freedom (Πλεύση Ελευθερίας), led by former Speaker Zoe Konstantopoulou, 3.2% and 8. It was the most fragmented Parliament since 2012, with a dominant government and a divided opposition.", ["wiki_jun23", "ypes"]),
+   ("Μετά τις εκλογές, ο ΣΥΡΙΖΑ πέρασε μια περίοδο κρίσης: ο Αλέξης Τσίπρας παραιτήθηκε από την ηγεσία, το κόμμα άλλαξε δύο φορές αρχηγό, και αρκετοί βουλευτές αποχώρησαν και ίδρυσαν νέα κόμματα, όπως τη Νέα Αριστερά. Στα τέλη του 2024, το ΠΑΣΟΚ έγινε η αξιωματική αντιπολίτευση. Στις ευρωεκλογές του Ιουνίου 2024 η ΝΔ πήρε 28,3%, με συμμετοχή κάτω από το 50%.",
+    "After the election SYRIZA entered a long crisis. Alexis Tsipras resigned the leadership in June 2023; the party elected the political newcomer Stefanos Kasselakis in September 2023 and replaced him with Sokratis Famellos in November 2024; and successive groups of MPs left, founding among others the New Left (Νέα Αριστερά) in December 2023. By late 2024 PASOK, led since December 2021 by Nikos Androulakis, had more seats and became the official opposition (αξιωματική αντιπολίτευση). In the European election of June 2024, held with turnout around 41%, ND came first with 28.3%, ahead of SYRIZA (14.9%) and PASOK (12.8%). Party politics have kept moving since; check current figures before relying on any seat count.", ["syriza", "pasok", "nd", "wiki_elect"]),
+  ]),
+  dict(id="axones", el="Δεξιά, Αριστερά και Κέντρο", en="Right, Left and Centre", paras=[
+   ("Στην Ελλάδα οι λέξεις «Δεξιά» και «Αριστερά» έχουν βαθιές ιστορικές ρίζες, που φτάνουν ως τον Εμφύλιο του 1946–1949. Πολλοί ψηφοφόροι τοποθετούν ακόμα τον εαυτό τους με βάση την ιστορία της οικογένειάς τους. Αλλά τα σημερινά διλήμματα αφορούν και άλλα θέματα: την οικονομία, την Ευρώπη, τη μετανάστευση, τα εθνικά θέματα, τη σχέση με την Εκκλησία.",
+    "In Greece the words Δεξιά (Right) and Αριστερά (Left) have deep historical roots reaching back to the Civil War of 1946–1949 and the decades of exclusion of the left that followed. Many voters still place themselves according to family history, and the memory of the Civil War can surface in parliamentary insults. But today's dividing lines also involve other issues: economic policy and the size of the state, attitudes to the EU, migration, “national issues” (εθνικά θέματα) such as relations with Turkey and North Macedonia, and the role of the Orthodox Church. Parties of the nationalist and religious right, such as Greek Solution and Victory, combine positions that do not fit a simple left–right scale.", ["civilwar", "handbook", "pappas"]),
+   ("Ο χώρος του «Κέντρου» είναι επίσης σημαντικός. Στην ελληνική πολιτική ορολογία μιλάμε για «κεντροδεξιά» και «κεντροαριστερά», και τα μεγάλα κόμματα κερδίζουν τις εκλογές όταν πείθουν τους ψηφοφόρους του Κέντρου. Γι' αυτό συχνά λέγεται ότι «οι εκλογές κερδίζονται στο Κέντρο».",
+    "The “Centre” matters too. Greek political vocabulary speaks of κεντροδεξιά (centre-right) and κεντροαριστερά (centre-left), and the big parties win when they persuade centrist voters, hence the commonplace that “elections are won in the Centre”. Historically the word also evokes the Centre Union (Ένωση Κέντρου) of Georgios Papandreou in the 1960s, whose clash with the Palace preceded the dictatorship. Today ND presents itself as a broad centre-right party with liberal and conservative wings, while PASOK, SYRIZA and the New Left compete over the space of the centre-left and the left, and the KKE, Greece's oldest party (founded in 1918), keeps a stable, disciplined electorate of around 5–8%.", ["kke", "nd", "pasok", "clogg"]),
+  ]),
+ ],
+ grammar=[
+  dict(level="B2", title="Party names and agreement: η ΝΔ, ο ΣΥΡΙΖΑ, το ΚΚΕ, το ΠΑΣΟΚ",
+       el="Τα αρκτικόλεξα παίρνουν το γένος της κύριας λέξης: η Νέα Δημοκρατία → η ΝΔ· ο Συνασπισμός → ο ΣΥΡΙΖΑ· το Κομμουνιστικό Κόμμα → το ΚΚΕ· το Κίνημα → το ΠΑΣΟΚ.",
+       en="**Acronyms take the gender of their head noun**: *η ΝΔ* (Δημοκρατία, f.), *ο ΣΥΡΙΖΑ* (Συνασπισμός, m.), *το ΚΚΕ* (Κόμμα, n.), *το ΠΑΣΟΚ* (Κίνημα, n.), *η ΔΗΜΑΡ* (Αριστερά, f.). Most are indeclinable (*του ΚΚΕ*), but *ΣΥΡΙΖΑ* can take a genitive *του ΣΥΡΙΖΑ*. Members are *νεοδημοκράτες, πασόκοι* (colloquial), *συριζαίοι* (colloquial), *κουκουέδες* (colloquial for KKE members).",
+       examples=[("Η ΝΔ κέρδισε τις εκλογές.", "ND won the elections."), ("Ο ΣΥΡΙΖΑ έμεινε δεύτερος.", "SYRIZA came second."), ("Το ΚΚΕ πήρε 7,7%.", "The KKE took 7.7%.")]),
+  dict(level="B2", title="The impersonal passive: λέγεται ότι, θεωρείται, κερδίζονται",
+       el="«Συχνά λέγεται ότι οι εκλογές κερδίζονται στο Κέντρο.» Ο παθητικός ενεστώτας εκφράζει γενικές αλήθειες χωρίς υποκείμενο.",
+       en="To report general opinion: **λέγεται ότι** (it is said that), **θεωρείται** (is considered), **πιστεύεται** (is believed), **φαίνεται ότι** (it seems that). The passive in *-ονται* generalises: *οι εκλογές **κερδίζονται** στο Κέντρο* “elections are won in the Centre”.",
+       examples=[("Λέγεται ότι οι εκλογές κερδίζονται στο Κέντρο.", "It is said that elections are won in the Centre."), ("Το ΚΚΕ θεωρείται το πιο πειθαρχημένο κόμμα.", "The KKE is considered the most disciplined party.")]),
+ ],
+ terms=[
+  ("η αξιωματική αντιπολίτευση", "official opposition", "Το μεγαλύτερο κόμμα που δεν συμμετέχει στην κυβέρνηση.", "The largest party not in government."),
+  ("η κεντροδεξιά", "centre-right", "Ο πολιτικός χώρος ανάμεσα στο Κέντρο και τη Δεξιά.", "The political space between centre and right."),
+  ("η κεντροαριστερά", "centre-left", "Ο πολιτικός χώρος ανάμεσα στο Κέντρο και την Αριστερά.", "The political space between centre and left."),
+  ("τα εθνικά θέματα", "national issues", "Ζητήματα εξωτερικής πολιτικής και κυριαρχίας, π.χ. οι σχέσεις με την Τουρκία.", "Foreign-policy and sovereignty questions."),
+  ("η ευρωεκλογή / οι ευρωεκλογές", "European Parliament election", "Οι εκλογές για το Ευρωπαϊκό Κοινοβούλιο.", "Elections to the European Parliament."),
+  ("το αρκτικόλεξο", "acronym", "Λέξη από τα αρχικά γράμματα άλλων λέξεων, π.χ. ΚΚΕ.", "A word formed from initial letters."),
+ ],
+ questions=[
+  ("Πόσα κόμματα μπήκαν στη Βουλή τον Ιούνιο του 2023;", ["Οκτώ", "Πέντε", "Έξι", "Δέκα"], "Οκτώ", "Ήταν η πιο κατακερματισμένη Βουλή μετά το 2012."),
+  ("Ποιο κόμμα έγινε αξιωματική αντιπολίτευση στα τέλη του 2024;", ["Το ΠΑΣΟΚ", "Ο ΣΥΡΙΖΑ", "Το ΚΚΕ", "Η Νέα Αριστερά"], "Το ΠΑΣΟΚ", "Μετά τις αποχωρήσεις βουλευτών από τον ΣΥΡΙΖΑ."),
+  ("Ποιο είναι το γένος του «ΣΥΡΙΖΑ»;", ["Αρσενικό", "Θηλυκό", "Ουδέτερο", "Δεν έχει γένος"], "Αρσενικό", "Από τη λέξη «Συνασπισμός»."),
+  ("Ποιο είναι το παλαιότερο ελληνικό κόμμα;", ["Το ΚΚΕ", "Η ΝΔ", "Το ΠΑΣΟΚ", "Η Ελληνική Λύση"], "Το ΚΚΕ", "Ιδρύθηκε το 1918."),
+  ("Πού έχουν τις ρίζες τους οι έννοιες «Δεξιά» και «Αριστερά» στην Ελλάδα;", ["Στον Εμφύλιο και στις δεκαετίες μετά από αυτόν", "Στην κρίση του 2010", "Στην ένταξη στην ΕΕ", "Στις ευρωεκλογές"], "Στον Εμφύλιο και στις δεκαετίες μετά από αυτόν", "Η μνήμη του 1946–1949 επηρεάζει ακόμα πολιτικές ταυτότητες."),
+ ],
+ vocab=["η αντιπολίτευση", "αξιωματικός", "η ηγεσία", "παραιτούμαι", "αποχωρώ", "η Δεξιά", "η Αριστερά", "το Κέντρο", "ο ψηφοφόρος", "τοποθετώ", "η ρίζα", "το δίλημμα", "πείθω", "πειθαρχημένος"],
+),
+]
