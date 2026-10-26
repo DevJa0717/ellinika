@@ -10,6 +10,8 @@ in brackets), grammar notes, glossary (the chapter's tap-lookup glosses), questi
 At the back: answer key and picture credits. Needs pikepdf for --pdf (pip install pikepdf).
 """
 import datetime, html, json, os, re, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from covers_el import el_date, el_level
 
 ROOT = "/mnt/project-files"
 arg = lambda k, d=None: sys.argv[sys.argv.index(k) + 1] if k in sys.argv else d
@@ -158,11 +160,10 @@ def main():
                 f'<table class="cred"><thead><tr><th>Chapter</th><th>Picture</th><th>From</th><th>Licence</th><th>Source</th></tr></thead><tbody>{rows}</tbody></table>'
                 f'<p>The texts were written in modern Greek and English for the Ελληνικά app, for personal, non-commercial study. Each chapter lists the sources its statements were checked against.</p></section>')
     cov = next((c["image"] for c in creds), None)
-    cover = (f'<section class="cover bl"><div class="c-top">Ελληνικά · Bilingual reader</div><div class="c-lvl" lang="el">{esc(idx.get("el"))}</div>'
-             f'<div class="c-name">{esc(idx.get("title"))}</div>'
-             f'<p class="c-blurb">{esc(idx.get("intro_en"))} {n} chapters, {len(keys)} questions (answers at the back).</p>'
-             + (f'<img class="c-img" src="file://{esc(os.path.join(APP, cov["file"]))}"><div class="c-cap" lang="el">{esc(cov.get("caption"))}</div>' if cov else "")
-             + f'<div class="c-foot">Built {datetime.date.today().isoformat()} · devja0717.github.io/ellinika/#{esc(SHELF)}</div></section>')
+    cover = (f'<section class="cover bl" lang="el"><div class="c-top">Ελληνικά · Δίγλωσσο αναγνωστικό</div><div class="c-lvl">{esc(idx.get("el"))}</div>'
+             f'<p class="c-blurb">{esc(idx.get("intro_el"))} {n} κεφάλαια, {len(keys)} ερωτήσεις (με τις λύσεις στο τέλος).</p>'
+             + (f'<img class="c-img" src="file://{esc(os.path.join(APP, cov["file"]))}"><div class="c-cap">{esc(cov.get("caption"))}</div>' if cov else "")
+             + f'<div class="c-foot">Έκδοση {el_date()}</div></section>')
     toc_html = f'<section class="toc"><h1>Contents</h1><ol class="toc-l">{"".join(toc)}<li class="toc-p"><a href="#answers">Answer key</a></li><li class="toc-p"><a href="#credits">Pictures</a></li></ol></section>'
     doc = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Ελληνικά · {esc(idx.get("el"))}</title><style>{CSS}{EXTRA_CSS}</style></head>'
            f'<body>{cover}{toc_html}{"".join(body)}</body></html>')

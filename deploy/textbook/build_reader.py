@@ -6,6 +6,8 @@ Then:  node render_pdf.js <dir> <dir> Reader, then compress.py into downloads/te
 Kept separate from build_textbook.py (the level volumes) so the two can change independently.
 """
 import datetime, html, json, os, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from covers_el import el_date, el_level
 
 ROOT = "/mnt/project-files"
 APP = sys.argv[sys.argv.index("--app") + 1] if "--app" in sys.argv else f"{ROOT}/app"
@@ -110,13 +112,14 @@ def main():
                 f'<table class="cred"><thead><tr><th>Text</th><th>Picture</th><th>From</th><th>Licence</th><th>Source</th></tr></thead><tbody>{rows}</tbody></table>'
                 f'<p>The texts were written in modern Greek for the Ελληνικά app, for personal, non-commercial study. Poems and folk songs are given in full from public-domain editions on Βικιθήκη (Greek Wikisource), in monotonic spelling; their sources are named under each text.</p></section>')
     cover_img = next((d["image"] for d in creds if d["image"]["file"].endswith("legacy-parthenon.jpg")), creds[0]["image"] if creds else None)
-    cover = ('<section class="cover rdr"><div class="c-top">Ελληνικά · Companion reader</div><div class="c-lvl" lang="el">Ανθολόγιο</div>'
-             '<div class="c-name">Greek reader: myths, stories, poems and ideas</div>'
-             f'<p class="c-blurb">{n_text} graded texts in modern Greek, A2 to C1: Greek myths retold, famous short stories and fables, poems and folk songs, '
-             'the philosophers, what the ancient Greeks gave politics, science, medicine, architecture and culture, Greek history and cultural musings. '
-             f'Each with notes, a glossary, questions ({len(keys)} in all, answers at the back) and a translation.</p>'
-             + (f'<img class="c-img" src="file://{esc(os.path.join(APP, cover_img["file"]))}"><div class="c-cap" lang="el">{esc(cover_img.get("caption"))}</div>' if cover_img else "")
-             + f'<div class="c-foot">A2–C1 · built {datetime.date.today().isoformat()}</div></section>')
+    cover_cap = (cover_img.get("caption") or "").replace("Frédéric Boissonnas", "Φρεντερίκ Μπουασονά") if cover_img else ""
+    cover = ('<section class="cover rdr" lang="el"><div class="c-top">Ελληνικά · Συνοδευτικό αναγνωστικό</div><div class="c-lvl">Ανθολόγιο</div>'
+             '<div class="c-name">Μύθοι, διηγήματα, ποιήματα και ιδέες</div>'
+             f'<p class="c-blurb">{n_text} διαβαθμισμένα κείμενα στα νέα ελληνικά, από το Α2 ως το Γ1: αρχαίοι μύθοι σε νέα αφήγηση, γνωστά διηγήματα και παραμύθια, ποιήματα και δημοτικά τραγούδια, '
+             'οι φιλόσοφοι, η προσφορά των αρχαίων Ελλήνων στην πολιτική, την επιστήμη, την ιατρική, την αρχιτεκτονική και τον πολιτισμό, η ελληνική ιστορία και στοχασμοί για τον πολιτισμό μας. '
+             f'Κάθε κείμενο έχει σημειώσεις, γλωσσάρι, ερωτήσεις ({len(keys)} συνολικά, με τις λύσεις στο τέλος) και μετάφραση.</p>'
+             + (f'<img class="c-img" src="file://{esc(os.path.join(APP, cover_img["file"]))}"><div class="c-cap">{esc(cover_cap)}</div>' if cover_img else "")
+             + f'<div class="c-foot">Α2–Γ1 · Έκδοση {el_date()}</div></section>')
     toc_html = f'<section class="toc"><h1>Contents</h1><ol class="toc-l">{"".join(toc)}<li class="toc-p"><a href="#answers">Answer key</a></li><li class="toc-p"><a href="#credits">Pictures and sources</a></li></ol></section>'
     doc = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Ελληνικά · Greek reader</title><style>{CSS}{EXTRA_CSS}</style></head>'
            f'<body>{cover}{toc_html}{"".join(body)}</body></html>')

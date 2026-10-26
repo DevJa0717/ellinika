@@ -6,6 +6,8 @@ Writes <out>/<level>.html; render_pdf.js turns them into PDFs.
 Sources: app/lessons (course.json order), app/library, data/grammar, data/lexicon, data/colloquial, data/c1.
 """
 import html, json, os, random, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from covers_el import el_date, el_level
 from collections import OrderedDict
 
 ROOT = "/mnt/project-files"
@@ -302,6 +304,15 @@ LEVEL_INFO = {
     "B1": ("Threshold", "The verb system in depth (aspect, passive, perfect), complex sentences, vocabulary themes, dialogues, readings and news."),
     "B2": ("Vantage", "The full passive system, formal declensions, word building, complex sentences, exam themes and skills, real listening, colloquial and regional Greek."),
     "C1": ("Effective operational proficiency", "Learned morphology, argument and register, idiom and the living tradition, authentic texts, the Γ1 exam and the phrase bank."),
+}
+
+# Greek-only cover text (official names of the Greek certificate levels)
+LEVEL_INFO_EL = {
+    "A1": ("Στοιχειώδης γνώση", "Γραφή και προφορά, ουσιαστικά και άρθρο, τα πρώτα ρήματα, οι πρώτες καθημερινές περιστάσεις και οι πρώτοι διάλογοι."),
+    "A2": ("Βασική γνώση", "Επίθετα, αντωνυμίες, η γενική, παρελθόν και μέλλον, η υποτακτική με το «να», καθημερινές περιστάσεις, διαβαθμισμένα κείμενα και το εργαστήρι της κλίσης."),
+    "B1": ("Μέτρια γνώση", "Το ρηματικό σύστημα σε βάθος (ποιόν ενεργείας, παθητική φωνή, συντελεσμένοι χρόνοι), σύνθετες προτάσεις, θεματικό λεξιλόγιο, διάλογοι, κείμενα και ειδήσεις."),
+    "B2": ("Καλή γνώση", "Η παθητική φωνή στο σύνολό της, λόγιες κλίσεις, παραγωγή και σύνθεση λέξεων, σύνθετες προτάσεις, θέματα και δεξιότητες των εξετάσεων, αυθεντικά ακούσματα, η καθομιλουμένη και οι τοπικές ποικιλίες."),
+    "C1": ("Πολύ καλή γνώση", "Λόγια μορφολογία, επιχειρηματολογία και ύφος, ιδιωματισμοί και η ζωντανή παράδοση, αυθεντικά κείμενα, οι εξετάσεις του Γ1 και η τράπεζα φράσεων."),
 }
 
 # ---------- library ----------
@@ -671,8 +682,9 @@ def build(level):
                "<li>Authentic texts: Greek Wikipedia contributors (CC BY-SA 4.0), Greek Wikisource (public domain), EUR-Lex, and the press excerpts credited beside each text.</li>"
                "<li>Video transcripts: the creators and licences named beside each video.</li>"
                "<li>Word frequency: OpenSubtitles 2018 frequency list and the app’s annotated lexicon.</li></ul></section>")
-    cover = (f'<section class="cover"><div class="c-top">Ελληνικά · Companion textbook</div><div class="c-lvl">{level}</div><div class="c-name">{name}</div>'
-             f'<p class="c-blurb">{esc(blurb)}</p><div class="c-foot">Section {LEVELS.index(level) + 1} of 5 · built {__import__("datetime").date.today().isoformat()}</div></section>')
+    name_el, blurb_el = LEVEL_INFO_EL[level]
+    cover = (f'<section class="cover" lang="el"><div class="c-top">Ελληνικά · Συνοδευτικό εγχειρίδιο</div><div class="c-lvl">{el_level(level)}</div><div class="c-name">{name_el}</div>'
+             f'<p class="c-blurb">{esc(blurb_el)}</p><div class="c-foot">Τόμος {LEVELS.index(level) + 1} από 5 · Έκδοση {el_date()}</div></section>')
     toc_html = f'<section class="toc"><h1>Contents</h1><ol class="toc-l">{"".join(toc)}<li class="toc-p"><a href="#credits">Sources and credits</a></li></ol></section>'
     doc = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Ελληνικά {level} · Companion textbook</title><style>{CSS}</style></head>'
            f'<body>{cover}{toc_html}{"".join(body)}{credits}</body></html>')

@@ -6,6 +6,8 @@ Then:  node render_pdf.js <dir> <dir> "Parts of speech", then compress.py into d
 Kept separate from build_textbook.py (the level volumes) so the two can change independently.
 """
 import datetime, html, json, os, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from covers_el import el_date, el_level
 
 ROOT = "/mnt/project-files"
 POS = f"{ROOT}/app/library/pos"
@@ -79,11 +81,11 @@ def main():
                "<p>Written for the Ελληνικά app, for personal, non-commercial study, drawing on:</p><ul>"
                "<li>D. Holton, P. Mackridge, I. Philippaki-Warburton, V. Spyropoulos, <em>Greek: An Essential Grammar</em> (Routledge), used for personal study only.</li>"
                "<li>Ε. Πουλοπούλου (Poulopoulou), <em>Modern Greek: Grammar Notes for Absolute Beginners</em>, CC BY-NC-SA. Material derived from it is shared under the same licence, non-commercially.</li></ul></section>")
-    cover = ('<section class="cover"><div class="c-top">Ελληνικά · Companion textbook</div><div class="c-lvl" lang="el">Τα μέρη του λόγου</div>'
-             '<div class="c-name">Grammar by part of speech</div>'
-             f'<p class="c-blurb">{len(idx["items"])} parts of speech, each taken from its simplest uses at A1 to the learned forms of C1, '
-             f'with tables, glossed examples and {len(keys)} self-check questions.</p>'
-             f'<div class="c-foot">A1–C1 · built {datetime.date.today().isoformat()}</div></section>')
+    cover = ('<section class="cover" lang="el"><div class="c-top">Ελληνικά · Συνοδευτικό εγχειρίδιο</div><div class="c-lvl">Τα μέρη του λόγου</div>'
+             '<div class="c-name">Η γραμματική ανά μέρος του λόγου</div>'
+             f'<p class="c-blurb">{len(idx["items"])} μέρη του λόγου, το καθένα από τις απλούστερες χρήσεις του στο Α1 ως τους λόγιους τύπους του Γ1, '
+             f'με πίνακες, σχολιασμένα παραδείγματα και {len(keys)} ερωτήσεις αυτοαξιολόγησης.</p>'
+             f'<div class="c-foot">Α1–Γ1 · Έκδοση {el_date()}</div></section>')
     toc_html = f'<section class="toc"><h1>Contents</h1><ol class="toc-l">{"".join(toc)}<li class="toc-p"><a href="#credits">Sources and credits</a></li></ol></section>'
     doc = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Ελληνικά · Grammar by part of speech</title><style>{CSS}{EXTRA_CSS}</style></head>'
            f'<body>{cover}{toc_html}{"".join(body)}{credits}</body></html>')
