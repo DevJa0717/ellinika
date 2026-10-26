@@ -1,0 +1,374 @@
+{
+ "id": "diofantos",
+ "el": "Ήρων, Διόφαντος, Πάππος, Υπατία",
+ "title": "Hero, Diophantus, Pappus, Hypatia",
+ "level": "B2+",
+ "dates": "1ος–5ος αι. μ.Χ.",
+ "part": "mathimatika-b",
+ "image": {
+  "file": "img/mathiatriki/diofantos.jpg",
+  "caption": "Το πρόβλημα ΙΙ.8 των «Αριθμητικών» του Διοφάντου με τη σημείωση του Φερμά (έκδοση του 1670)",
+  "caption_en": "Problem II.8 of Diophantus' Arithmetica with Fermat's note, the origin of “Fermat's Last Theorem” (1670 edition)",
+  "credit": "Diophantus, Arithmetica, Toulouse edition of 1670 with Fermat's notes · Wikimedia Commons",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Diophantus-II-8-Fermat.jpg"
+ },
+ "summary_en": "In the Roman period Alexandria remained the capital of Greek mathematics. Hero wrote practical handbooks on measurement; Diophantus wrote the Arithmetica, the first work to use symbols for unknowns and the origin of “Diophantine” equations, in whose margin Fermat wrote his famous Last Theorem; Pappus collected and preserved the work of his predecessors; and Hypatia, the best-known woman mathematician of antiquity, commented on Diophantus and Apollonius before her murder in 415.",
+ "sections": [
+  {
+   "id": "iron",
+   "el": "Ο Ήρων",
+   "en": "Hero",
+   "paras": [
+    {
+     "el": "Ο Ήρων ο Αλεξανδρεύς έζησε τον 1ο αιώνα μ.Χ. Ήταν μηχανικός και μαθηματικός και έγραψε πρακτικά εγχειρίδια. Στα «Μετρικά» δίνει τύπους για να υπολογίζει κανείς εμβαδά και όγκους. Ο πιο γνωστός είναι ο «τύπος του Ήρωνα», που δίνει το εμβαδόν ενός τριγώνου από τα μήκη των τριών πλευρών του.",
+     "en": "Hero of Alexandria lived in the 1st century AD; an eclipse he describes is identified with that of AD 62. An engineer as well as a mathematician (his automata and steam device are in the Science and technology reader), he wrote practical handbooks. His Metrica gives rules for computing areas and volumes, including the formula now named after him for the area of a triangle from the lengths of its three sides, √[s(s−a)(s−b)(s−c)], where s is half the perimeter; Arabic sources suggest it was already known to Archimedes. Hero also gave an iterative method for approximating square roots, still taught as “Heron's method”.",
+     "cite": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diofantos-algevra",
+   "el": "Ο Διόφαντος και η άλγεβρα",
+   "en": "Diophantus and algebra",
+   "paras": [
+    {
+     "el": "Ο Διόφαντος έζησε στην Αλεξάνδρεια, πιθανότατα τον 3ο αιώνα μ.Χ. Το έργο του, τα «Αριθμητικά», είχε δεκατρία βιβλία· έξι σώζονται στα ελληνικά και τέσσερα ακόμα βρέθηκαν σε αραβική μετάφραση το 1968. Περιέχει εκατοντάδες προβλήματα με εξισώσεις, και ο Διόφαντος ζητά πάντα θετικές ρητές λύσεις.",
+     "en": "Diophantus lived in Alexandria, most likely in the 3rd century AD, although his dates are uncertain within a span of five centuries. His Arithmetica had thirteen books; six survive in Greek, and four more were discovered in an Arabic translation in a library in Mashhad, Iran, in 1968. It contains hundreds of problems leading to equations, for which Diophantus always seeks positive rational solutions, often by ingenious substitutions. Equations to be solved in integers or rationals are still called Diophantine equations in his honour.",
+     "cite": [
+      3,
+      4
+     ]
+    },
+    {
+     "el": "Ο Διόφαντος ήταν από τους πρώτους που χρησιμοποίησαν σύμβολα στην άλγεβρα. Για τον άγνωστο αριθμό έγραφε ένα σύμβολο που μοιάζει με το τελικό σίγμα (ς) και για το τετράγωνό του τη συντομογραφία ΔΥ, από τη λέξη «δύναμις». Γι' αυτό σήμερα λέμε «δύναμη» για το τετράγωνο, τον κύβο κ.λπ. ενός αριθμού.",
+     "en": "Diophantus was among the first to use symbols in algebra, a stage historians call “syncopated” algebra, halfway between words and full symbolism. He wrote the unknown with a sign resembling final sigma (ς), perhaps an abbreviation of ἀριθμός, its square as ΔΥ (from δύναμις, “power”) and its cube as ΚΥ (from κύβος); he had a sign for subtraction and wrote coefficients with Greek numerals. This is why we still call squares and cubes “powers” (δύναμη in modern Greek, potentia in Latin), and why “cube” means the third power.",
+     "cite": [
+      3,
+      5
+     ]
+    },
+    {
+     "el": "Το 1637 ο Γάλλος Πιερ ντε Φερμά, διαβάζοντας μια λατινική έκδοση των «Αριθμητικών», έγραψε στο περιθώριο ότι η εξίσωση xⁿ + yⁿ = zⁿ δεν έχει λύσεις σε θετικούς ακεραίους όταν το n είναι μεγαλύτερο από 2, και ότι είχε «μια θαυμάσια απόδειξη» που δεν χωρούσε στο περιθώριο. Το «Τελευταίο Θεώρημα του Φερμά» αποδείχθηκε μόλις το 1994, από τον Άγγλο Άντριου Γουάιλς.",
+     "en": "Around 1637 the French lawyer and mathematician Pierre de Fermat, reading Bachet's Latin edition of the Arithmetica (1621), wrote in the margin next to a problem on dividing a square into two squares that the equation xⁿ + yⁿ = zⁿ has no solutions in positive integers when n is greater than 2, adding that he had “a truly marvellous proof” which the margin was too narrow to contain. The note became known when his son published an edition with his annotations in 1670. “Fermat's Last Theorem” resisted mathematicians for more than three centuries and was finally proved by the English mathematician Andrew Wiles in 1994, with a crucial step completed with Richard Taylor, published in 1995.",
+     "cite": [
+      6,
+      4
+     ]
+    },
+    {
+     "el": "Για τη ζωή του Διοφάντου ξέρουμε μόνο ένα αίνιγμα από την Παλατινή Ανθολογία: πέρασε το 1/6 της ζωής του ως παιδί, το 1/12 ως νέος, το 1/7 ακόμα πριν παντρευτεί· πέντε χρόνια μετά απέκτησε γιο, που έζησε τη μισή ζωή του πατέρα του· ο πατέρας πέθανε τέσσερα χρόνια μετά τον γιο. Αν λύσετε την εξίσωση, βρίσκετε ότι έζησε 84 χρόνια.",
+     "en": "The only “biography” of Diophantus is a riddle in the Greek (Palatine) Anthology, book XIV: his boyhood lasted 1/6 of his life; his beard grew after 1/12 more; after another 1/7 he married; five years later a son was born; the son lived half as long as his father; and the father died four years after the son. Solving x/6 + x/12 + x/7 + 5 + x/2 + 4 = x gives x = 84. Whether the riddle contains any true information is unknown, but it is a fitting monument to a man who wrote about equations.",
+     "cite": [
+      3,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pappos",
+   "el": "Ο Πάππος και η Υπατία",
+   "en": "Pappus and Hypatia",
+   "paras": [
+    {
+     "el": "Ο Πάππος ο Αλεξανδρεύς έγραψε γύρω στο 320 μ.Χ. τη «Συναγωγή», μια μεγάλη συλλογή από θεωρήματα και μεθόδους παλαιότερων μαθηματικών. Χωρίς αυτήν θα είχαμε χάσει πολλές πληροφορίες για έργα που δεν σώζονται. Ο ίδιος πρόσθεσε δικά του θεωρήματα, μερικά από τα οποία έγιναν βάση της προβολικής γεωμετρίας.",
+     "en": "Pappus of Alexandria wrote, around AD 320, the Synagoge or Collection, a large compilation of theorems and methods of earlier mathematicians with his own commentary and additions. Without it we would know far less about works now lost, including much of the “Treasury of Analysis”, the advanced geometry of Euclid, Apollonius and others. Pappus added theorems of his own; his hexagon theorem became, in the 19th century, one of the foundations of projective geometry, and his problem about lines inspired Descartes' analytic geometry (1637).",
+     "cite": [
+      7,
+      5
+     ]
+    },
+    {
+     "el": "Η Υπατία, κόρη του μαθηματικού Θέωνα, δίδαξε φιλοσοφία και μαθηματικά στην Αλεξάνδρεια. Σύμφωνα με τη βυζαντινή εγκυκλοπαίδεια «Σούδα», έγραψε σχόλια στα «Αριθμητικά» του Διοφάντου και στα «Κωνικά» του Απολλωνίου, και βοήθησε τον πατέρα της στην έκδοση έργων του Ευκλείδη και του Πτολεμαίου. Το 415 μ.Χ. δολοφονήθηκε από χριστιανικό όχλο.",
+     "en": "Hypatia, daughter of the mathematician Theon, taught Neoplatonic philosophy and mathematics in Alexandria and was the leading intellectual of the city (see her chapter in the Philosophers reader). According to the Byzantine encyclopaedia known as the Suda she wrote commentaries on Diophantus' Arithmetica and Apollonius' Conics, and an astronomical table; she also helped her father prepare his edition of Ptolemy's Almagest, and Theon's edition of Euclid became the standard text for 1,500 years. In March 415 she was murdered by a Christian mob during a political conflict between the city's prefect and its bishop; her death has often been taken, with some simplification, as the symbolic end of ancient science.",
+     "cite": [
+      8,
+      5
+     ]
+    }
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "level": "B2+",
+   "title": "Imperative plural in instructions: αν λύσετε…, βρίσκετε",
+   "el": "Σε ασκήσεις χρησιμοποιούμε συχνά τον πληθυντικό ευγενείας: «λύστε», «βρείτε», «αποδείξτε».",
+   "en": "Exercises and textbooks address the reader with the **2nd person plural**, which is also the polite form: *λύστε την εξίσωση* (solve the equation), *βρείτε το x*, *αποδείξτε ότι…* (prove that…), *υπολογίστε* (calculate). In conditions: *αν λύσετε την εξίσωση, βρίσκετε…*.",
+   "examples": [
+    {
+     "el": "Λύστε την εξίσωση.",
+     "en": "Solve the equation."
+    },
+    {
+     "el": "Αποδείξτε ότι το τρίγωνο είναι ισοσκελές.",
+     "en": "Prove that the triangle is isosceles."
+    },
+    {
+     "el": "Αν διαιρέσετε με το 2, βρίσκετε…",
+     "en": "If you divide by 2, you get…"
+    }
+   ]
+  },
+  {
+   "level": "B2+",
+   "title": "Χωρίς + noun / χωρίς να + verb; counterfactual θα είχαμε",
+   "el": "«Χωρίς αυτήν θα είχαμε χάσει…»: αντίθετη προς την πραγματικότητα υπόθεση στο παρελθόν.",
+   "en": "**Χωρίς** + accusative (*χωρίς αυτήν*, without it) or **χωρίς να** + subjunctive (*χωρίς να το ξέρει*, without knowing it). A counterfactual consequence in the past uses **θα είχα** + the invariable form: *χωρίς τη Συναγωγή θα είχαμε χάσει πολλές πληροφορίες* (we would have lost much information).",
+   "examples": [
+    {
+     "el": "Χωρίς αυτόν θα είχαμε χάσει.",
+     "en": "Without him we would have lost."
+    },
+    {
+     "el": "Έφυγε χωρίς να πει τίποτα.",
+     "en": "He left without saying anything."
+    },
+    {
+     "el": "Θα το είχα καταλάβει.",
+     "en": "I would have understood it."
+    }
+   ]
+  },
+  {
+   "level": "B2+",
+   "title": "Δύναμη: power (physics, maths, politics)",
+   "el": "Η «δύναμη» στα μαθηματικά είναι η ύψωση σε εκθέτη: «δύο στη δευτέρα» = 2².",
+   "en": "**Η δύναμη** means physical strength, force (physics), power (politics), and in mathematics a **power**: *το 2 στη δευτέρα δύναμη* or simply *δύο στη δευτέρα* (2²), *δέκα στην έκτη* (10⁶), *ο εκθέτης* (exponent), *η βάση* (base). “Squared” and “cubed” can also be said *στο τετράγωνο, στον κύβο*.",
+   "examples": [
+    {
+     "el": "δύο στη δευτέρα",
+     "en": "two squared"
+    },
+    {
+     "el": "δέκα στην εξηκοστή τρίτη",
+     "en": "ten to the sixty-third"
+    },
+    {
+     "el": "x στον κύβο",
+     "en": "x cubed"
+    }
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "el": "το εγχειρίδιο",
+   "en": "handbook, manual",
+   "def_el": "Βιβλίο με πρακτικές οδηγίες για ένα θέμα.",
+   "def_en": "A book of practical instructions."
+  },
+  {
+   "el": "ο τύπος",
+   "en": "formula; type; the press",
+   "def_el": "Μαθηματική σχέση που δίνει ένα αποτέλεσμα· και ο Τύπος, οι εφημερίδες.",
+   "def_en": "A mathematical rule; also “the press”."
+  },
+  {
+   "el": "η εξίσωση",
+   "en": "equation",
+   "def_el": "Ισότητα με άγνωστο που πρέπει να βρεθεί.",
+   "def_en": "An equality with an unknown to be found."
+  },
+  {
+   "el": "ο άγνωστος",
+   "en": "unknown",
+   "def_el": "Στα μαθηματικά, η ποσότητα που ψάχνουμε (συνήθως x).",
+   "def_en": "In maths, the quantity sought (usually x)."
+  },
+  {
+   "el": "ρητός",
+   "en": "rational",
+   "def_el": "Αριθμός που γράφεται ως κλάσμα δύο ακεραίων.",
+   "def_en": "A number expressible as a fraction of integers."
+  },
+  {
+   "el": "η συντομογραφία",
+   "en": "abbreviation",
+   "def_el": "Σύντομη μορφή μιας λέξης.",
+   "def_en": "A shortened form of a word."
+  },
+  {
+   "el": "το περιθώριο",
+   "en": "margin",
+   "def_el": "Ο λευκός χώρος γύρω από το κείμενο μιας σελίδας· και κοινωνική απομόνωση.",
+   "def_en": "The blank space around a text; also social marginality."
+  },
+  {
+   "el": "το αίνιγμα",
+   "en": "riddle",
+   "def_el": "Ερώτηση ή πρόβλημα που πρέπει να λυθεί με εξυπνάδα.",
+   "def_en": "A puzzle to be solved by wit."
+  }
+ ],
+ "gloss": {
+  "θεωρήματα": "θεώρημα — theorem",
+  "ακεραίων": "ακέραιος — whole, integer",
+  "Ευκλείδη": "Ευκλείδης — Euclid",
+  "κλάσμα": "κλάσμα — fraction",
+  "άλγεβρα": "άλγεβρα — algebra",
+  "ρητός": "ρητός — rational (number); explicit",
+  "Πτολεμαίου": "Πτολεμαίος — Ptolemy",
+  "αραβικά": "αραβικός — Arabic, Arab",
+  "Αρχιμήδης": "Αρχιμήδης — Archimedes",
+  "Θεώρημα": "θεώρημα — theorem",
+  "δεκατρία": "δεκατρία — thirteen",
+  "Δεκατρία": "δεκατρία — thirteen",
+  "Κωνικά": "Κωνικά — the Conics (Apollonius)",
+  "αραβική": "αραβικός — Arabic",
+  "Ήρων": "Ήρων — Hero (of Alexandria)",
+  "Αλεξανδρεύς": "Αλεξανδρινός — (learned) of Alexandria",
+  "Ήρωνα": "Ήρων — Hero (of Alexandria)",
+  "ΔΥ": "ΔΥ.ΠΕ. (ΔΥΠΕ) — Διοίκηση Υγειονομικής Περιφέρειας, regional health authority",
+  "Ανθολογία": "ανθολογία — anthology",
+  "Υπατία": "Υπατία — Hypatia",
+  "Συναγωγή": "συναγωγή — synagogue",
+  "παλαιότερων": "παλαιός — old (comparative: older, earlier)",
+  "Θέωνα": "Θέων — Theon of Alexandria",
+  "εγκυκλοπαίδεια": "εγκυκλοπαίδεια — encyclopedia",
+  "Σούδα": "Σούδα — the Suda (Byzantine lexicon)",
+  "όχλο": "όχλος — mob",
+  "ύψωση": "η ύψωση — raising",
+  "εξηκοστή": "εξηκοστός — sixtieth",
+  "Πάππος": "παππούς — grandfather (older form)",
+  "χριστιανικό": "χριστιανικός — Christian (adj.)",
+  "Διόφαντος": "Διόφαντος — Diophantus of Alexandria (mathematician, 3rd c. AD)",
+  "Διοφάντου": "Διόφαντος — Diophantus of Alexandria (mathematician, 3rd c. AD)",
+  "εξίσωση": "εξίσωση — equation",
+  "Φερμά": "Φερμά — Pierre de Fermat",
+  "Απολλωνίου": "Απολλώνιος — Apollonius of Perga",
+  "συντομογραφία": "συντομογραφία — abbreviation",
+  "δύναμις": "δύναμη (αρχ. δύναμις) — power; (maths) square",
+  "ακεραίους": "ακέραιος — whole; integer",
+  "Γουάιλς": "Γουάιλς — Andrew Wiles",
+  "Παλατινή": "Παλατινός — Palatine (Παλατινή Ανθολογία = Palatine Anthology)",
+  "προβολικής": "προβολικός — projective",
+  "Άρρητες": "άρρητος — irrational",
+  "Μιγαδικές": "μιγαδικός — complex (number)",
+  "ισοσκελές": "ισοσκελής — isosceles",
+  "Μετρικά": "Μετρικά (τα) — Metrica (work by Hero of Alexandria)",
+  "ρητές": "ρητός — rational",
+  "εκθέτη": "εκθέτης — exponent"
+ },
+ "questions": [
+  {
+   "q": "Τι υπολογίζει ο τύπος του Ήρωνα;",
+   "options": [
+    "Το εμβαδόν τριγώνου από τις τρεις πλευρές",
+    "Τον όγκο της σφαίρας",
+    "Τον αριθμό π",
+    "Την περιφέρεια της Γης"
+   ],
+   "answer": "Το εμβαδόν τριγώνου από τις τρεις πλευρές",
+   "why": "Ίσως τον ήξερε ήδη ο Αρχιμήδης."
+  },
+  {
+   "q": "Πόσα βιβλία των «Αριθμητικών» βρέθηκαν στα αραβικά το 1968;",
+   "options": [
+    "Τέσσερα",
+    "Έξι",
+    "Δεκατρία",
+    "Ένα"
+   ],
+   "answer": "Τέσσερα",
+   "why": "Έξι σώζονται στα ελληνικά."
+  },
+  {
+   "q": "Τι λύσεις ζητά πάντα ο Διόφαντος;",
+   "options": [
+    "Θετικές ρητές",
+    "Αρνητικές",
+    "Άρρητες",
+    "Μιγαδικές"
+   ],
+   "answer": "Θετικές ρητές",
+   "why": "Σήμερα μιλάμε για διοφαντικές εξισώσεις."
+  },
+  {
+   "q": "Ποιος απέδειξε το Τελευταίο Θεώρημα του Φερμά;",
+   "options": [
+    "Ο Άντριου Γουάιλς",
+    "Ο Διόφαντος",
+    "Ο Φερμά",
+    "Ο Πάππος"
+   ],
+   "answer": "Ο Άντριου Γουάιλς",
+   "why": "Το 1994, πάνω από 350 χρόνια μετά."
+  },
+  {
+   "q": "Πόσα χρόνια έζησε ο Διόφαντος σύμφωνα με το αίνιγμα;",
+   "options": [
+    "84",
+    "60",
+    "42",
+    "100"
+   ],
+   "answer": "84",
+   "why": "x/6 + x/12 + x/7 + 5 + x/2 + 4 = x."
+  }
+ ],
+ "vocab": [
+  "πρακτικός",
+  "ο τύπος",
+  "η εξίσωση",
+  "η λύση",
+  "θετικός",
+  "το σύμβολο",
+  "ο άγνωστος",
+  "η δύναμη",
+  "το περιθώριο",
+  "θαυμάσιος",
+  "χωράω",
+  "το αίνιγμα",
+  "αποκτώ",
+  "η συλλογή",
+  "η έκδοση",
+  "δολοφονώ"
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "text": "MacTutor, “Heron of Alexandria”",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Heron/"
+  },
+  {
+   "n": 2,
+   "text": "Wikipedia, “Heron's formula”",
+   "url": "https://en.wikipedia.org/wiki/Heron%27s_formula"
+  },
+  {
+   "n": 3,
+   "text": "MacTutor, “Diophantus of Alexandria”",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Diophantus/"
+  },
+  {
+   "n": 4,
+   "text": "Wikipedia, “Arithmetica”",
+   "url": "https://en.wikipedia.org/wiki/Arithmetica"
+  },
+  {
+   "n": 5,
+   "text": "T. L. Heath, A History of Greek Mathematics, 2 vols., Oxford: Clarendon Press, 1921 (Internet Archive)",
+   "url": "https://archive.org/details/historyofgreekma01heat"
+  },
+  {
+   "n": 6,
+   "text": "Wikipedia, “Fermat's Last Theorem”",
+   "url": "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem"
+  },
+  {
+   "n": 7,
+   "text": "MacTutor, “Pappus of Alexandria”",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pappus/"
+  },
+  {
+   "n": 8,
+   "text": "MacTutor, “Hypatia of Alexandria”",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hypatia/"
+  }
+ ]
+}

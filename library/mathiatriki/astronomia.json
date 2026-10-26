@@ -1,0 +1,362 @@
+{
+ "id": "astronomia",
+ "el": "Αρίσταρχος, Ίππαρχος, Πτολεμαίος",
+ "title": "Aristarchus, Hipparchus, Ptolemy",
+ "level": "B2+",
+ "dates": "3ος αι. π.Χ. – 2ος αι. μ.Χ.",
+ "part": "mathimatika-b",
+ "image": {
+  "file": "img/istoria/fixed-stars.jpg",
+  "caption": "Το «Βιβλίο των απλανών αστέρων» του αλ-Σούφι, βασισμένο στον κατάλογο του Πτολεμαίου (χειρόγραφο του 15ου αιώνα)",
+  "caption_en": "Al-Sufi's Book of the Fixed Stars, based on Ptolemy's star catalogue (15th-century manuscript)",
+  "credit": "`Abd al-Rahman al-Sufi, Kitab suwar al-kawakib al-thabita (Book of the Images of the Fixed Stars) of al-Sufi (late 15th century) · The Metropolitan Museum of Art, Rogers Fund",
+  "license": "Public domain (CC0)",
+  "source": "https://www.metmuseum.org/art/collection/search/446297"
+ },
+ "summary_en": "Greek astronomy turned geometry towards the sky. Aristarchus of Samos measured the relative distances of the Sun and Moon and proposed that the Earth goes round the Sun; Hipparchus invented trigonometry, compiled a star catalogue and discovered the precession of the equinoxes; Ptolemy summed up the whole tradition in the Almagest, whose Earth-centred model of epicycles ruled astronomy for fourteen centuries.",
+ "sections": [
+  {
+   "id": "aristarchos",
+   "el": "Ο Αρίσταρχος και ο Ήλιος στο κέντρο",
+   "en": "Aristarchus and the Sun at the centre",
+   "paras": [
+    {
+     "el": "Ο Αρίσταρχος από τη Σάμο (3ος αιώνας π.Χ.) προσπάθησε να μετρήσει γεωμετρικά πόσο απέχουν ο Ήλιος και η Σελήνη από τη Γη. Βρήκε ότι ο Ήλιος είναι 18 με 20 φορές πιο μακριά από τη Σελήνη. Στην πραγματικότητα είναι περίπου 390 φορές, αλλά η μέθοδός του ήταν σωστή· το λάθος ήταν στη μέτρηση μιας γωνίας.",
+     "en": "Aristarchus of Samos (c. 310–230 BC) tried to measure geometrically how far the Sun and the Moon are from the Earth, in the treatise On the Sizes and Distances of the Sun and Moon, his only surviving work. He reasoned that when the Moon is exactly half lit, the Earth–Moon–Sun angle is a right angle, and from the angle between Sun and Moon seen from Earth (which he took as 87°) he concluded that the Sun is 18 to 20 times further away than the Moon. The real figure is about 390; the method was sound, but the angle, actually about 89.85°, was impossible to measure accurately with the instruments of his time. Even so, his result made the Sun much larger than the Earth.",
+     "cite": [
+      1,
+      2
+     ]
+    },
+    {
+     "el": "Ίσως γι' αυτό ο Αρίσταρχος πρότεινε ότι η Γη γυρίζει γύρω από τον Ήλιο, και όχι το αντίθετο. Το ξέρουμε από τον «Ψαμμίτη» του Αρχιμήδη. Η ιδέα του δεν έγινε δεκτή· οι περισσότεροι αστρονόμοι έμειναν στο γεωκεντρικό σύστημα. Όταν ο Κοπέρνικος ξαναπρότεινε το ηλιοκεντρικό σύστημα το 1543, ήξερε για τον Αρίσταρχο.",
+     "en": "Perhaps for this reason Aristarchus proposed that the Earth revolves around the Sun, not the other way round, and rotates on its axis; the fixed stars, he argued, are so far away that the Earth's motion produces no visible shift in their positions. We know this mainly from Archimedes' Sand Reckoner; Plutarch adds that the Stoic Cleanthes thought he should be charged with impiety for “moving the hearth of the universe”. The idea found few followers (Seleucus of Seleucia in the 2nd century BC is the one known supporter), partly because it seemed to contradict physics and observation. When Copernicus revived the heliocentric system in 1543 he knew of Aristarchus, whom he mentioned in a passage of his manuscript that he later struck out.",
+     "cite": [
+      1,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ipparchos",
+   "el": "Ο Ίππαρχος",
+   "en": "Hipparchus",
+   "paras": [
+    {
+     "el": "Ο Ίππαρχος από τη Νίκαια της Βιθυνίας (2ος αιώνας π.Χ.) εργάστηκε κυρίως στη Ρόδο. Θεωρείται ο θεμελιωτής της τριγωνομετρίας: έφτιαξε πίνακες με τα μήκη των χορδών του κύκλου, που επέτρεπαν να υπολογίζει κανείς πλευρές και γωνίες τριγώνων. Κατέγραψε επίσης τις θέσεις και τη λαμπρότητα πολλών αστεριών.",
+     "en": "Hipparchus of Nicaea in Bithynia (c. 190–120 BC) worked mainly on Rhodes and is regarded as the greatest observational astronomer of antiquity. He is considered the founder of trigonometry: he computed a table of chords of a circle (the ancestor of our sine tables), which allowed sides and angles of triangles to be calculated, and used Babylonian observations and the base-60 system. He compiled a catalogue of some 850 stars with their positions, and the scale of stellar “magnitudes”, from first to sixth for the faintest stars visible, which astronomers still use in modified form, is usually traced to him through Ptolemy.",
+     "cite": [
+      4,
+      2
+     ]
+    },
+    {
+     "el": "Συγκρίνοντας τις δικές του παρατηρήσεις με παλαιότερες, ο Ίππαρχος ανακάλυψε ότι τα σημεία των ισημεριών μετακινούνται αργά ανάμεσα στα άστρα: η «μετάπτωση των ισημεριών». Σήμερα ξέρουμε ότι οφείλεται σε μια αργή «ταλάντευση» του άξονα της Γης, που κάνει έναν κύκλο σε περίπου 26.000 χρόνια.",
+     "en": "By comparing his own observations of the star Spica with those made about 150 years earlier by Timocharis, Hipparchus discovered that the equinoctial points slowly shift against the background of the stars: the “precession of the equinoxes”. He estimated it at about one degree per century or a little more; the real value is about one degree in 72 years. Today we know it is caused by a slow wobble of the Earth's axis, which completes a circle in about 26,000 years, and which means that the zodiac signs of astrology no longer coincide with the constellations whose names they bear.",
+     "cite": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ptolemaios",
+   "el": "Ο Πτολεμαίος και η «Αλμαγέστη»",
+   "en": "Ptolemy and the Almagest",
+   "paras": [
+    {
+     "el": "Ο Κλαύδιος Πτολεμαίος έζησε στην Αλεξάνδρεια τον 2ο αιώνα μ.Χ. Το μεγάλο έργο του, η «Μαθηματική Σύνταξις», συνοψίζει όλη την ελληνική αστρονομία. Οι Άραβες το ονόμασαν «al-majisti», από το ελληνικό «μεγίστη», και έτσι στη Δύση έγινε γνωστό ως «Αλμαγέστη». Περιέχει κατάλογο με 1.022 αστέρια σε 48 αστερισμούς.",
+     "en": "Claudius Ptolemy lived in Alexandria in the 2nd century AD (his recorded observations date from 127 to 141). His great work, the Mathematical Syntaxis (Μαθηματική Σύνταξις) in thirteen books, summed up the whole of Greek astronomy. Admirers called it “the greatest” (μεγίστη), and Arabic translators turned this into al-majisṭī, from which, via medieval Latin, comes the name Almagest. It contains a catalogue of 1,022 stars in 48 constellations, almost all of whose names, Greek and Latinised, are still used by the International Astronomical Union, as well as trigonometric tables and the theory of eclipses.",
+     "cite": [
+      5,
+      6
+     ]
+    },
+    {
+     "el": "Στο σύστημα του Πτολεμαίου η Γη είναι ακίνητη στο κέντρο. Για να εξηγήσει την παράξενη κίνηση των πλανητών, που κάποιες φορές μοιάζουν να γυρίζουν πίσω, ο Πτολεμαίος χρησιμοποίησε «επικύκλους»: μικρούς κύκλους που κινούνται πάνω σε μεγαλύτερους. Το σύστημα ήταν λάθος στη βάση του, αλλά προέβλεπε αρκετά καλά τις θέσεις των άστρων, και κυριάρχησε για 1.400 χρόνια.",
+     "en": "In Ptolemy's system the Earth is stationary at the centre. To explain the irregular motion of the planets (πλανήται, “wanderers”), which at times seem to move backwards against the stars, he used epicycles, small circles carried around on larger ones (deferents), together with off-centre circles and a point called the equant, from which the motion appears uniform. The model was wrong at its foundation, but it predicted planetary positions well enough for practical use, and it dominated astronomy in the Islamic world and in Europe for some 1,400 years, until Copernicus, Kepler and Galileo. Ptolemy also wrote a Geography, with coordinates for some 8,000 places, which shaped maps of the world until the 16th century.",
+     "cite": [
+      5,
+      6,
+      7
+     ]
+    }
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "level": "B2+",
+   "title": "Απέχω από: to be at a distance from",
+   "el": "«Απέχω» + απόσταση + «από»: ο Ήλιος απέχει 150 εκατομμύρια χιλιόμετρα από τη Γη.",
+   "en": "**Απέχω** means “to be (a distance) away from”: *πόσο απέχει ο Ήλιος από τη Γη;* (how far is the Sun from the Earth?). The noun is **η απόσταση**. The same verb also means “to abstain”: *απέχω από τις εκλογές* (abstain from voting), noun **η αποχή** (abstention; also a boycott).",
+   "examples": [
+    {
+     "el": "Η Σελήνη απέχει περίπου 384.000 χιλιόμετρα.",
+     "en": "The Moon is about 384,000 km away."
+    },
+    {
+     "el": "Πόσο απέχει η Αθήνα από τη Θεσσαλονίκη;",
+     "en": "How far is Athens from Thessaloniki?"
+    },
+    {
+     "el": "Απείχε από την ψηφοφορία.",
+     "en": "He abstained from the vote."
+    }
+   ]
+  },
+  {
+   "level": "B2+",
+   "title": "Οφείλεται σε: is due to",
+   "el": "«Οφείλεται σε» + αιτιατική = is due to, is caused by.",
+   "en": "**Οφείλεται σε** + accusative explains a cause: *η μετάπτωση οφείλεται σε μια αργή ταλάντευση του άξονα*. The active **οφείλω** means “to owe” (*του οφείλω χρήματα*) or “to be obliged to” (*οφείλω να πω*, I must say). Compare the everyday *χάρη σε* (thanks to) and *εξαιτίας* + gen. (because of).",
+   "examples": [
+    {
+     "el": "Το λάθος οφειλόταν σε μια γωνία.",
+     "en": "The error was due to an angle."
+    },
+    {
+     "el": "Οφείλω να ομολογήσω…",
+     "en": "I must confess…"
+    },
+    {
+     "el": "εξαιτίας της βροχής",
+     "en": "because of the rain"
+    }
+   ]
+  },
+  {
+   "level": "B2+",
+   "title": "Learned nouns in -ις and their modern forms: σύνταξις → σύνταξη",
+   "el": "Πολλά ουσιαστικά της αρχαίας και της καθαρεύουσας σε -ις έγιναν -η: σύνταξις → σύνταξη, ανάλυσις → ανάλυση.",
+   "en": "Ancient and katharevousa feminine nouns in **-ις** (gen. **-εως**) appear in modern Greek with **-η** (gen. **-ης**): *σύνταξις → η σύνταξη* (syntax; also a pension, and composition of a work), *ανάλυσις → ανάλυση*, *κίνησις → κίνηση*. Titles of old works keep the ancient form: *Μαθηματική Σύνταξις*.",
+   "examples": [
+    {
+     "el": "η «Μαθηματική Σύνταξις»",
+     "en": "the “Mathematical Syntaxis” (title)"
+    },
+    {
+     "el": "Παίρνει σύνταξη.",
+     "en": "He receives a pension."
+    },
+    {
+     "el": "η σύνταξη της πρότασης",
+     "en": "the syntax of the sentence"
+    }
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "el": "ηλιοκεντρικός",
+   "en": "heliocentric",
+   "def_el": "Σύστημα όπου ο Ήλιος βρίσκεται στο κέντρο.",
+   "def_en": "A system with the Sun at the centre."
+  },
+  {
+   "el": "γεωκεντρικός",
+   "en": "geocentric",
+   "def_el": "Σύστημα όπου η Γη βρίσκεται στο κέντρο.",
+   "def_en": "A system with the Earth at the centre."
+  },
+  {
+   "el": "η τριγωνομετρία",
+   "en": "trigonometry",
+   "def_el": "Ο κλάδος που μελετά τις σχέσεις πλευρών και γωνιών των τριγώνων.",
+   "def_en": "Study of the relations between sides and angles of triangles."
+  },
+  {
+   "el": "η ισημερία",
+   "en": "equinox",
+   "def_el": "Η μέρα που η μέρα και η νύχτα έχουν την ίδια διάρκεια.",
+   "def_en": "The day when day and night are of equal length."
+  },
+  {
+   "el": "η μετάπτωση",
+   "en": "precession",
+   "def_el": "Η αργή μετακίνηση του άξονα της Γης και των ισημεριών.",
+   "def_en": "The slow shift of the Earth's axis and the equinoxes."
+  },
+  {
+   "el": "ο αστερισμός",
+   "en": "constellation",
+   "def_el": "Ομάδα αστεριών με όνομα.",
+   "def_en": "A named group of stars."
+  },
+  {
+   "el": "ο επίκυκλος",
+   "en": "epicycle",
+   "def_el": "Μικρός κύκλος που κινείται πάνω σε μεγαλύτερο, στο σύστημα του Πτολεμαίου.",
+   "def_en": "A small circle moving on a larger one, in Ptolemy's model."
+  },
+  {
+   "el": "ο πλανήτης",
+   "en": "planet",
+   "def_el": "Ουράνιο σώμα που γυρίζει γύρω από ένα άστρο· αρχικά «περιπλανώμενος».",
+   "def_en": "A body orbiting a star; originally “wanderer”."
+  }
+ ],
+ "gloss": {
+  "αστρονόμοι": "αστρονόμος — astronomer",
+  "Αρχιμήδη": "Αρχιμήδης — Archimedes",
+  "Σάμο": "Σάμος — Samos (island)",
+  "άλγεβρα": "άλγεβρα — algebra",
+  "Αρίσταρχος": "Αρίσταρχος — Aristarchus",
+  "Ψαμμίτη": "Ψαμμίτης — The Sand-Reckoner (Archimedes)",
+  "γεωκεντρικό": "γεωκεντρικός — geocentric",
+  "Κοπέρνικος": "Κοπέρνικος — Copernicus",
+  "θεμελιωτής": "θεμελιωτής — founder",
+  "χορδών": "χορδή — string (of an instrument)",
+  "λαμπρότητα": "η λαμπρότητα — splendour",
+  "παλαιότερες": "παλαιότερος — older, earlier",
+  "Πτολεμαίος": "Πτολεμαίος — Ptolemy",
+  "Αλμαγέστη": "Αλμαγέστη — the Almagest",
+  "Κλαύδιος": "Κλαύδιος — Claudius",
+  "Σύνταξις": "σύνταξη — (learned form) treatise, composition",
+  "αστρονομία": "αστρονομία — astronomy",
+  "Άραβες": "Άραβας — Arab",
+  "Πτολεμαίου": "Πτολεμαίος — Ptolemy",
+  "επικύκλους": "επίκυκλος — epicycle",
+  "Αρίσταρχου": "Αρίσταρχος — Aristarchus",
+  "Κοπέρνικο": "Κοπέρνικος — Copernicus",
+  "Άραβα": "Άραβας — Arab",
+  "εκλείψεις": "έκλειψη — eclipse",
+  "γεωκεντρικός": "γεωκεντρικός — geocentric",
+  "ισημερία": "η ισημερία — equinox",
+  "επίκυκλος": "επίκυκλος — epicycle",
+  "περιπλανώμενος": "περιπλανώμενος — wandering, a wanderer",
+  "Αρχιμήδης": "Αρχιμήδης — Archimedes",
+  "χειρόγραφο": "χειρόγραφο — manuscript",
+  "ξαναπρότεινε": "ξαναπροτείνω — to propose again",
+  "ηλιοκεντρικό": "ηλιοκεντρικός — heliocentric",
+  "ηλιοκεντρική": "ηλιοκεντρικός — heliocentric",
+  "ηλιοκεντρικός": "ηλιοκεντρικός — heliocentric",
+  "Αρίσταρχο": "Αρίσταρχος — Aristarchus of Samos (astronomer, 3rd c. BC)",
+  "Ίππαρχος": "Ίππαρχος — Hipparchus (astronomer, 2nd c. BC)",
+  "Βιθυνίας": "Βιθυνία — Bithynia (region of Asia Minor)",
+  "τριγωνομετρίας": "τριγωνομετρία — trigonometry",
+  "τριγωνομετρία": "τριγωνομετρία — trigonometry",
+  "ισημεριών": "ισημερία — equinox",
+  "μετάπτωση": "μετάπτωση — precession (of the equinoxes)",
+  "ταλάντευση": "ταλάντευση — wobble, oscillation",
+  "αραβικών": "αραβικός — Arabic",
+  "ακανόνιστη": "ακανόνιστος — irregular",
+  "σύνταξις": "σύνταξη (αρχ. σύνταξις) — composition, treatise (Μαθηματική Σύνταξις = the Almagest)",
+  "ανάλυσις": "ανάλυση (αρχ. ανάλυσις) — analysis",
+  "απλανών": "απλανής — fixed (of stars)",
+  "Σούφι": "αλ-Σούφι — al-Sufi, Persian astronomer (903–986)"
+ },
+ "questions": [
+  {
+   "q": "Πόσες φορές πιο μακριά από τη Σελήνη βρήκε ο Αρίσταρχος ότι είναι ο Ήλιος;",
+   "options": [
+    "18–20",
+    "390",
+    "2",
+    "1.000"
+   ],
+   "answer": "18–20",
+   "why": "Η πραγματική τιμή είναι περίπου 390· το λάθος ήταν στη μέτρηση μιας γωνίας."
+  },
+  {
+   "q": "Από ποιο έργο ξέρουμε την ηλιοκεντρική ιδέα του Αρίσταρχου;",
+   "options": [
+    "Από τον «Ψαμμίτη» του Αρχιμήδη",
+    "Από την «Αλμαγέστη»",
+    "Από τα «Στοιχεία»",
+    "Από τον Κοπέρνικο"
+   ],
+   "answer": "Από τον «Ψαμμίτη» του Αρχιμήδη",
+   "why": "Ο Αρχιμήδης αναφέρει την υπόθεσή του."
+  },
+  {
+   "q": "Ποιον κλάδο των μαθηματικών θεμελίωσε ο Ίππαρχος;",
+   "options": [
+    "Την τριγωνομετρία",
+    "Την άλγεβρα",
+    "Τη θεωρία αριθμών",
+    "Τις πιθανότητες"
+   ],
+   "answer": "Την τριγωνομετρία",
+   "why": "Με πίνακες χορδών."
+  },
+  {
+   "q": "Από πού βγαίνει το όνομα «Αλμαγέστη»;",
+   "options": [
+    "Από το ελληνικό «μεγίστη» μέσω των αραβικών",
+    "Από το όνομα ενός Άραβα",
+    "Από τη λέξη «μάγος»",
+    "Από τη Λατινική «magister»"
+   ],
+   "answer": "Από το ελληνικό «μεγίστη» μέσω των αραβικών",
+   "why": "Al-majisti."
+  },
+  {
+   "q": "Γιατί ο Πτολεμαίος χρησιμοποίησε επικύκλους;",
+   "options": [
+    "Για να εξηγήσει την ακανόνιστη κίνηση των πλανητών",
+    "Για να μετρήσει τη Γη",
+    "Για να βρει τον π",
+    "Για να χρονολογήσει τις εκλείψεις"
+   ],
+   "answer": "Για να εξηγήσει την ακανόνιστη κίνηση των πλανητών",
+   "why": "Οι πλανήτες μοιάζουν κάποιες φορές να γυρίζουν πίσω."
+  }
+ ],
+ "vocab": [
+  "απέχω",
+  "η Σελήνη",
+  "ο Ήλιος",
+  "η πραγματικότητα",
+  "σωστός",
+  "το λάθος",
+  "το αντίθετο",
+  "δεκτός",
+  "ο πίνακας",
+  "καταγράφω",
+  "το αστέρι",
+  "συγκρίνω",
+  "η παρατήρηση",
+  "ο άξονας",
+  "ακίνητος",
+  "κυριαρχώ"
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "text": "Wikipedia, “Aristarchus of Samos”",
+   "url": "https://en.wikipedia.org/wiki/Aristarchus_of_Samos"
+  },
+  {
+   "n": 2,
+   "text": "T. L. Heath, A History of Greek Mathematics, 2 vols., Oxford: Clarendon Press, 1921 (Internet Archive)",
+   "url": "https://archive.org/details/historyofgreekma01heat"
+  },
+  {
+   "n": 3,
+   "text": "Wikipedia, “The Sand Reckoner”",
+   "url": "https://en.wikipedia.org/wiki/The_Sand_Reckoner"
+  },
+  {
+   "n": 4,
+   "text": "Wikipedia, “Hipparchus”",
+   "url": "https://en.wikipedia.org/wiki/Hipparchus"
+  },
+  {
+   "n": 5,
+   "text": "Wikipedia, “Almagest”",
+   "url": "https://en.wikipedia.org/wiki/Almagest"
+  },
+  {
+   "n": 6,
+   "text": "MacTutor, “Claudius Ptolemy”",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ptolemy/"
+  },
+  {
+   "n": 7,
+   "text": "Wikipedia, “Conic section” (history; Apollonius' names)",
+   "url": "https://en.wikipedia.org/wiki/Conic_section"
+  }
+ ]
+}

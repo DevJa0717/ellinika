@@ -7,7 +7,7 @@
   "use strict";
   const A = () => window.Ellinika;
   const routes = (window.EllinikaAddons = window.EllinikaAddons || {});
-  const SHELVES = { philosophers: "Philosophers", istoria: "History of the Greeks", simera: "Greece today", politeia: "The Greek polity", kouzina: "The Greek kitchen", mousiki: "Greek music", skini: "Theatre and cinema", eortes: "The Orthodox year" };
+  const SHELVES = { philosophers: "Philosophers", istoria: "History of the Greeks", simera: "Greece today", politeia: "The Greek polity", kouzina: "The Greek kitchen", mousiki: "Greek music", skini: "Theatre and cinema", eortes: "The Orthodox year", athlitismos: "Greek sport", mathiatriki: "Maths and medicine", epistimi: "Science and technology" };
   const MODE_KEY = "ellinika.bilingual.mode";
   const MODES = [["el", "Ελληνικά"], ["both", "Δίγλωσσο"], ["en", "English"]];
 

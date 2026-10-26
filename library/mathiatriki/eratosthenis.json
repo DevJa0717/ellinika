@@ -1,0 +1,334 @@
+{
+ "id": "eratosthenis",
+ "el": "Ο Ερατοσθένης μετρά τη Γη",
+ "title": "Eratosthenes measures the Earth",
+ "level": "B2",
+ "dates": "περ. 276–194 π.Χ.",
+ "part": "mathimatika-b",
+ "image": {
+  "file": "img/mathiatriki/eratosthenis.jpg",
+  "caption": "Ηλιακό ρολόι (περ. 1800): ο Ερατοσθένης μέτρησε τη Γη με τη σκιά ενός γνώμονα",
+  "caption_en": "Sundial, c. 1800: Eratosthenes measured the Earth from the shadow of a gnomon",
+  "credit": "Goldsmith Chandlee, Sundial, ca. 1800 · The Metropolitan Museum of Art",
+  "license": "CC0 (Open Access)",
+  "source": "https://www.metmuseum.org/art/collection/search/8026"
+ },
+ "summary_en": "Eratosthenes of Cyrene, librarian of Alexandria, was a polymath nicknamed “Beta” because he was second-best at everything. With a well, a shadow and a known distance, he calculated the circumference of the Earth, and his result was remarkably close to the truth. He also gave his name to a method for finding prime numbers, coined the word “geography” and drew one of the first maps with lines of latitude and longitude.",
+ "sections": [
+  {
+   "id": "vita",
+   "el": "«Βήτα» και «Πένταθλος»",
+   "en": "“Beta” and “Pentathlete”",
+   "paras": [
+    {
+     "el": "Ο Ερατοσθένης γεννήθηκε στην Κυρήνη, μια ελληνική πόλη στη σημερινή Λιβύη, και σπούδασε στην Αθήνα. Ο βασιλιάς Πτολεμαίος Γ΄ τον κάλεσε στην Αλεξάνδρεια και τον έκανε διευθυντή της Βιβλιοθήκης. Έγραψε για μαθηματικά, αστρονομία, γεωγραφία, χρονολογία, φιλοσοφία και ποίηση.",
+     "en": "Eratosthenes was born around 276 BC in Cyrene, a Greek city in what is now Libya, and studied in Athens. King Ptolemy III invited him to Alexandria, where he became head of the Library and tutor to the king's son. He wrote on mathematics, astronomy, geography, chronology, literary criticism, philosophy and poetry. His contemporaries nicknamed him Βῆτα, “Beta”, because he was second-best in every field, or, more kindly, Πένταθλος, “pentathlete”, an all-rounder who excelled in many events without being first in any. He is said to have starved himself to death in old age after he went blind.",
+     "cite": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "metrisi",
+   "el": "Η μέτρηση",
+   "en": "The measurement",
+   "paras": [
+    {
+     "el": "Ο Ερατοσθένης ήξερε ότι στη Συήνη, στη νότια Αίγυπτο, το μεσημέρι του θερινού ηλιοστασίου ο ήλιος ήταν ακριβώς από πάνω: οι ακτίνες του έφταναν ως τον πάτο ενός πηγαδιού. Την ίδια στιγμή στην Αλεξάνδρεια, βορειότερα, ένας κατακόρυφος στύλος έριχνε μια μικρή σκιά. Η γωνία της σκιάς ήταν περίπου το 1/50 ενός ολόκληρου κύκλου.",
+     "en": "The method is described by the astronomer Cleomedes, writing a few centuries later. Eratosthenes knew that at Syene (modern Aswan) in southern Egypt, at noon on the summer solstice, the sun stood directly overhead: its rays reached the bottom of a deep well, and upright objects cast no shadow. At the same moment in Alexandria, further north, a vertical pointer (gnomon) in a bowl-shaped sundial cast a short shadow, whose angle was about one-fiftieth of a full circle, 7.2° in modern terms. Assuming the sun is so far away that its rays arrive parallel, this angle equals the angle at the Earth's centre between the two cities.",
+     "cite": [
+      3,
+      1,
+      2
+     ]
+    },
+    {
+     "el": "Η απόσταση από τη Συήνη στην Αλεξάνδρεια ήταν περίπου 5.000 στάδια. Άρα η περιφέρεια της Γης ήταν 50 φορές μεγαλύτερη: 250.000 στάδια. Δεν ξέρουμε ακριβώς πόσο ήταν το στάδιο του Ερατοσθένη. Ανάλογα με το μήκος που δεχόμαστε, το αποτέλεσμα είναι από λίγο ως 15% περίπου μεγαλύτερο από το πραγματικό, περίπου 40.000 χιλιόμετρα.",
+     "en": "The distance from Syene to Alexandria was reckoned at about 5,000 stadia, so the circumference of the Earth must be fifty times greater: 250,000 stadia (later sources give 252,000, perhaps rounded to be divisible by 60). We do not know exactly which stadion Eratosthenes used, since its length varied between about 155 and 210 metres; depending on the value assumed, his result is between almost exact and about 15% too large compared with the real figure of some 40,000 km. Even the less favourable reading is a striking achievement, and the method is flawless: a classic of geometric reasoning that schoolchildren repeat today with two sticks in two cities.",
+     "cite": [
+      3,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "koskino",
+   "el": "Το κόσκινο και η γεωγραφία",
+   "en": "The sieve and geography",
+   "paras": [
+    {
+     "el": "Το «κόσκινο του Ερατοσθένη» είναι ένας απλός τρόπος για να βρούμε τους πρώτους αριθμούς. Γράφουμε όλους τους αριθμούς από το 2 ως έναν μεγάλο αριθμό. Κρατάμε το 2 και σβήνουμε όλα τα πολλαπλάσιά του· μετά κρατάμε το 3 και σβήνουμε τα πολλαπλάσιά του, και ούτω καθεξής. Οι αριθμοί που μένουν είναι οι πρώτοι.",
+     "en": "The “sieve of Eratosthenes” is a simple method for finding the prime numbers, described by Nicomachus of Gerasa in the 2nd century AD. Write down all the numbers from 2 up to some limit; keep 2 and strike out all its multiples; keep the next number left, 3, and strike out its multiples; and so on. The numbers that are never struck out are the primes, which fall through the “sieve” while the composite numbers are caught. The method is still used, in refined forms, in computer programs.",
+     "cite": [
+      4,
+      1
+     ]
+    },
+    {
+     "el": "Ο Ερατοσθένης ήταν από τους πρώτους που χρησιμοποίησαν τη λέξη «γεωγραφία». Στα «Γεωγραφικά» του σχεδίασε έναν χάρτη του γνωστού κόσμου με γραμμές που αντιστοιχούν σε γεωγραφικό πλάτος και μήκος. Προσπάθησε επίσης να χρονολογήσει τα γεγονότα της ελληνικής ιστορίας από την άλωση της Τροίας και μετά.",
+     "en": "Eratosthenes is often credited with coining the word geography (γεωγραφία, “description of the Earth”). In his Geographika, known only through later authors such as Strabo, he drew a map of the known world, the oikoumene, with a grid of lines corresponding to what we call latitude and longitude, and estimated the distances between places. He also tried to put Greek history on a scientific chronological footing, dating events from the fall of Troy (which he placed in 1184/3 BC) and the first Olympiad, and worked on the doubling of the cube, for which he designed an instrument, the mesolabe.",
+     "cite": [
+      2,
+      1
+     ]
+    }
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "level": "B2",
+   "title": "Άρα, επομένως, λοιπόν: drawing conclusions",
+   "el": "Για συμπεράσματα: άρα, επομένως, συνεπώς, λοιπόν.",
+   "en": "Conclusions are introduced by **άρα** (so, therefore; very common in maths), **επομένως** and **συνεπώς** (consequently; more formal) and **λοιπόν** (so, well; conversational, usually not first in the sentence): *η γωνία είναι 1/50 του κύκλου· άρα η περιφέρεια είναι 50 φορές η απόσταση*.",
+   "examples": [
+    {
+     "el": "Άρα η περιφέρεια είναι 250.000 στάδια.",
+     "en": "So the circumference is 250,000 stadia."
+    },
+    {
+     "el": "Επομένως ο αριθμός είναι πρώτος.",
+     "en": "Therefore the number is prime."
+    },
+    {
+     "el": "Τι κάνουμε λοιπόν;",
+     "en": "So what do we do?"
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "title": "Comparatives in -ότερα: βορειότερα, νοτιότερα",
+   "el": "Και τα επιρρήματα έχουν συγκριτικό: βόρεια → βορειότερα, μακριά → μακρύτερα.",
+   "en": "Adverbs also form **comparatives**, in **-ότερα / -ύτερα** or with *πιο*: *βόρεια → βορειότερα / πιο βόρεια* (further north), *νότια → νοτιότερα*, *μακριά → μακρύτερα* (further away), *κοντά → κοντύτερα*. For “than” use *από* + acc. or *απ' ό,τι*.",
+   "examples": [
+    {
+     "el": "Η Αλεξάνδρεια είναι βορειότερα από τη Συήνη.",
+     "en": "Alexandria is further north than Syene."
+    },
+    {
+     "el": "Ο ήλιος είναι πολύ μακρύτερα.",
+     "en": "The sun is much further away."
+    },
+    {
+     "el": "πιο κοντά απ' ό,τι νόμιζε",
+     "en": "closer than he thought"
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "title": "Πολλαπλάσιο, διπλάσιο, πενταπλάσιο",
+   "el": "Η κατάληξη -πλάσιος δείχνει «φορές περισσότερο»: διπλάσιος, τριπλάσιος, πεντηκονταπλάσιος.",
+   "en": "Adjectives in **-πλάσιος** mean “-fold”: *διπλάσιος* (double), *τριπλάσιος* (triple), *δεκαπλάσιος* (tenfold); the neuter noun **πολλαπλάσιο** is “multiple” (*τα πολλαπλάσια του 3*). Everyday Greek often prefers *φορές*: *πενήντα φορές μεγαλύτερη*. The opposite is *υποπολλαπλάσιο* (submultiple) or simply *το μισό, το ένα τρίτο*.",
+   "examples": [
+    {
+     "el": "τα πολλαπλάσια του 2",
+     "en": "the multiples of 2"
+    },
+    {
+     "el": "Η περιφέρεια είναι πενήντα φορές μεγαλύτερη.",
+     "en": "The circumference is fifty times greater."
+    },
+    {
+     "el": "Πληρώσαμε τα διπλάσια.",
+     "en": "We paid double."
+    }
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "el": "η περιφέρεια",
+   "en": "circumference; region",
+   "def_el": "Η γραμμή γύρω από έναν κύκλο ή το μήκος της· και διοικητική περιοχή.",
+   "def_en": "The line around a circle or its length; also an administrative region."
+  },
+  {
+   "el": "το ηλιοστάσιο",
+   "en": "solstice",
+   "def_el": "Η μέρα που ο ήλιος φτάνει στο ψηλότερο (ή χαμηλότερο) σημείο του.",
+   "def_en": "The day the sun reaches its highest (or lowest) point."
+  },
+  {
+   "el": "ο γνώμονας",
+   "en": "gnomon; criterion",
+   "def_el": "Ο στύλος ενός ηλιακού ρολογιού· μεταφορικά, κριτήριο.",
+   "def_en": "The pointer of a sundial; figuratively, a guide or criterion."
+  },
+  {
+   "el": "το πηγάδι",
+   "en": "well",
+   "def_el": "Βαθύ άνοιγμα στη γη για να βγάζουμε νερό.",
+   "def_en": "A deep hole in the ground for drawing water."
+  },
+  {
+   "el": "το κόσκινο",
+   "en": "sieve",
+   "def_el": "Σκεύος με τρύπες για να ξεχωρίζουμε τα μικρά από τα μεγάλα κομμάτια.",
+   "def_en": "A utensil with holes for separating small from large."
+  },
+  {
+   "el": "το πολλαπλάσιο",
+   "en": "multiple",
+   "def_el": "Αριθμός που προκύπτει αν πολλαπλασιάσουμε έναν άλλο με ακέραιο.",
+   "def_en": "A number obtained by multiplying another by an integer."
+  },
+  {
+   "el": "το γεωγραφικό πλάτος",
+   "en": "latitude",
+   "def_el": "Η απόσταση ενός τόπου από τον Ισημερινό, σε μοίρες.",
+   "def_en": "A place's distance from the equator, in degrees."
+  },
+  {
+   "el": "το γεωγραφικό μήκος",
+   "en": "longitude",
+   "def_el": "Η θέση ανατολικά ή δυτικά από έναν αρχικό μεσημβρινό, σε μοίρες.",
+   "def_en": "Position east or west of a prime meridian, in degrees."
+  }
+ ],
+ "gloss": {
+  "έκλειψη": "έκλειψη — eclipse",
+  "διπλάσια": "διπλάσιος — double, twice as much",
+  "κλάσμα": "κλάσμα — fraction",
+  "Πτολεμαίος": "Πτολεμαίος — Ptolemy",
+  "αστρονομία": "αστρονομία — astronomy",
+  "Ερατοσθένης": "Ερατοσθένης — Eratosthenes",
+  "Ερατοσθένη": "Ερατοσθένης — Eratosthenes",
+  "Κυρήνη": "Κυρήνη — Cyrene (Libya)",
+  "Λιβύη": "Λιβύη — Libya",
+  "γεωγραφία": "γεωγραφία — geography",
+  "Συήνη": "Συήνη — Syene (Aswan)",
+  "ηλιοστασίου": "ηλιοστάσιο — solstice",
+  "βορειότερα": "βορειότερα — further north",
+  "κόσκινο": "το κόσκινο — sieve",
+  "Γεωγραφικά": "γεωγραφικά — geographically",
+  "γεωγραφικό": "γεωγραφικός — geographical: «γεωγραφικό πλάτος», latitude",
+  "Τροίας": "Τροία — Troy",
+  "Βοιωτία": "Βοιωτία — Boeotia",
+  "πολλαπλάσια": "πολλαπλάσιο — multiple",
+  "επιρρήματα": "επίρρημα — adverb",
+  "ηλιοστάσιο": "ηλιοστάσιο — solstice",
+  "ψηλότερο": "ψηλός — highest (superlative of ψηλός)",
+  "γνώμονας": "γνώμονας — gnomon, pointer of a sundial; guiding rule",
+  "Σκεύος": "το σκεύος — utensil, vessel",
+  "πολλαπλάσιο": "πολλαπλάσιος — many times as large, multiple",
+  "χρονολογία": "χρονολογία — date; chronology",
+  "Πένταθλος": "Πένταθλος — \"Pentathlete\" (nickname of Eratosthenes)",
+  "πολλαπλάσιά": "πολλαπλάσιο — multiple",
+  "άλωση": "άλωση — fall, capture (of a city)",
+  "βιβλιοθηκάριος": "βιβλιοθηκάριος — librarian",
+  "πλάσιος": "-πλάσιος — -fold (suffix)",
+  "διπλάσιος": "διπλάσιος — double, twofold",
+  "τριπλάσιος": "τριπλάσιος — threefold",
+  "πεντηκονταπλάσιος": "πεντηκονταπλάσιος — fiftyfold",
+  "ακέραιο": "ακέραιος — whole; integer",
+  "Ισημερινό": "ισημερινός — equator",
+  "μεσημβρινό": "μεσημβρινός — meridian",
+  "στύλος": "στύλος — pillar, gnomon",
+  "άρτιοι": "άρτιος — even (number)",
+  "περ": "περίπου — about, circa (abbr.)",
+  "γνώμονα": "γνώμονας — gnomon, pointer of a sundial; guiding rule"
+ },
+ "questions": [
+  {
+   "q": "Γιατί έλεγαν τον Ερατοσθένη «Βήτα»;",
+   "options": [
+    "Ήταν δεύτερος σε όλα",
+    "Ήταν ο δεύτερος βιβλιοθηκάριος",
+    "Έγραφε μόνο με το Β",
+    "Ήταν από τη Βοιωτία"
+   ],
+   "answer": "Ήταν δεύτερος σε όλα",
+   "why": "Ή «Πένταθλο», επειδή ήξερε από πολλά."
+  },
+  {
+   "q": "Τι συνέβαινε στη Συήνη το μεσημέρι του θερινού ηλιοστασίου;",
+   "options": [
+    "Ο ήλιος ήταν ακριβώς από πάνω",
+    "Γινόταν έκλειψη",
+    "Ο ήλιος δεν φαινόταν",
+    "Οι σκιές ήταν πολύ μεγάλες"
+   ],
+   "answer": "Ο ήλιος ήταν ακριβώς από πάνω",
+   "why": "Οι ακτίνες έφταναν στον πάτο του πηγαδιού."
+  },
+  {
+   "q": "Ποιο κλάσμα του κύκλου ήταν η γωνία της σκιάς στην Αλεξάνδρεια;",
+   "options": [
+    "1/50",
+    "1/10",
+    "1/360",
+    "1/4"
+   ],
+   "answer": "1/50",
+   "why": "Δηλαδή 7,2 μοίρες."
+  },
+  {
+   "q": "Πόσα στάδια βρήκε ότι είναι η περιφέρεια της Γης;",
+   "options": [
+    "250.000",
+    "5.000",
+    "40.000",
+    "1.000.000"
+   ],
+   "answer": "250.000",
+   "why": "5.000 στάδια × 50."
+  },
+  {
+   "q": "Τι μένει στο «κόσκινο του Ερατοσθένη»;",
+   "options": [
+    "Οι πρώτοι αριθμοί",
+    "Οι άρτιοι αριθμοί",
+    "Τα πολλαπλάσια του 3",
+    "Τα τετράγωνα"
+   ],
+   "answer": "Οι πρώτοι αριθμοί",
+   "why": "Τα πολλαπλάσια σβήνονται."
+  }
+ ],
+ "vocab": [
+  "καλώ",
+  "ο διευθυντής",
+  "η ποίηση",
+  "το μεσημέρι",
+  "ακριβώς",
+  "η ακτίνα",
+  "ο πάτος",
+  "το πηγάδι",
+  "κατακόρυφος",
+  "η απόσταση",
+  "η περιφέρεια",
+  "το αποτέλεσμα",
+  "πραγματικός",
+  "σβήνω",
+  "ο χάρτης",
+  "χρονολογώ"
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "text": "MacTutor, “Eratosthenes of Cyrene”",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/"
+  },
+  {
+   "n": 2,
+   "text": "Wikipedia, “Eratosthenes”",
+   "url": "https://en.wikipedia.org/wiki/Eratosthenes"
+  },
+  {
+   "n": 3,
+   "text": "Κλεομήδης, Κυκλική θεωρία 1.7 · Cleomedes, On the Heavens 1.7, tr. A. C. Bowen & R. B. Todd, University of California Press, 2004",
+   "url": "https://search.worldcat.org/search?q=%CE%9A%CF%85%CE%BA%CE%BB%CE%B9%CE%BA%CE%AE%20%CE%B8%CE%B5%CF%89%CF%81%CE%AF%CE%B1%201.7%20%C2%B7%20Cleomedes"
+  },
+  {
+   "n": 4,
+   "text": "Wikipedia, “Sieve of Eratosthenes”",
+   "url": "https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes"
+  }
+ ]
+}

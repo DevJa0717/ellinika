@@ -1,0 +1,311 @@
+{
+ "id": "psifiaki",
+ "el": "Ο ψηφιακός κόσμος και η τεχνητή νοημοσύνη",
+ "title": "The digital world and artificial intelligence",
+ "level": "C1",
+ "dates": "20ός–21ος αι.",
+ "part": "synchroni",
+ "summary_en": "Digital technology too speaks Greek: cybernetics comes from the Greek for helmsman, and “algorithm” mixes an Arab mathematician's name with the Greek for number. The Greek computer scientist Michael Dertouzos led MIT's Laboratory for Computer Science for 27 years and helped bring the World Wide Web Consortium there. Greeks invented their own way of typing Greek in Latin letters, Greeklish, and in 2024 Greek researchers released Meltemi, the first open large language model for Greek.",
+ "sections": [
+  {
+   "id": "kyvernitiki",
+   "el": "Από τον κυβερνήτη στην κυβερνητική",
+   "en": "From helmsman to cybernetics",
+   "paras": [
+    {
+     "el": "Το 1948 ο Αμερικανός μαθηματικός Νόρμπερτ Βίνερ έδωσε το όνομα «κυβερνητική» στη νέα επιστήμη του ελέγχου και της επικοινωνίας στις μηχανές και στα ζωντανά όντα. Πήρε τη λέξη από τον «κυβερνήτη», αυτόν που κρατά το τιμόνι του πλοίου. Από την ίδια ρίζα έρχονται η «κυβέρνηση» και, μέσω των λατινικών, το αγγλικό govern.",
+     "en": "In 1948 the American mathematician Norbert Wiener named the new science of control and communication in machines and living beings *cybernetics*, from κυβερνήτης, the helmsman who steers a ship; he noted that the word had already been used in a political sense in the 19th century by Ampère. The same root gives Greek *κυβέρνηση* (government) and, through Latin gubernare, English *govern*. From cybernetics came the prefix *cyber-*: *κυβερνοχώρος* (cyberspace), *κυβερνοεπίθεση* (cyber-attack), *κυβερνοασφάλεια* (cybersecurity).",
+     "cite": [
+      1,
+      2
+     ]
+    },
+    {
+     "el": "Ο «αλγόριθμος» έχει πιο περίεργη ιστορία. Η λέξη βγαίνει από το όνομα του Πέρση μαθηματικού αλ-Χουαρίζμι, που έζησε στη Βαγδάτη τον 9ο αιώνα. Στα μεσαιωνικά λατινικά το όνομά του έγινε algorismus, και αργότερα η λέξη επηρεάστηκε από το ελληνικό «αριθμός». Έτσι, ο αλγόριθμος είναι μισός Πέρσης και μισός Έλληνας.",
+     "en": "*Algorithm* has a stranger history. It comes from the name of the Persian mathematician al-Khwarizmi, who worked in Baghdad in the 9th century and whose book on Hindu-Arabic numerals was translated into Latin; his name became algorismus, meaning the art of calculating with those numerals. Later the spelling was influenced by Greek ἀριθμός (number), giving algorithmus and our *algorithm*. So the algorithm is half Persian, half Greek: a fitting emblem for a science that passed from Greece to Baghdad and back to Europe, as the maths reader shows.",
+     "cite": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dertouzos",
+   "el": "Ο Μιχάλης Δερτούζος",
+   "en": "Michael Dertouzos",
+   "paras": [
+    {
+     "el": "Ο Μιχάλης Δερτούζος γεννήθηκε στην Αθήνα το 1936 και σπούδασε στις Ηνωμένες Πολιτείες. Από το 1974 ως τον θάνατό του, το 2001, διηύθυνε το Εργαστήριο Επιστήμης Υπολογιστών του ΜΙΤ, ένα από τα σημαντικότερα κέντρα της πληροφορικής στον κόσμο. Βοήθησε να εγκατασταθεί εκεί η Κοινοπραξία του Παγκόσμιου Ιστού.",
+     "en": "Michael Dertouzos (Μιχάλης Δερτούζος) was born in Athens in 1936, studied in the United States and earned his doctorate at MIT. From 1974 until his death in 2001 he directed MIT's Laboratory for Computer Science, one of the world's leading centres of computing, where pioneering work on time-sharing, networks, cryptography and the internet was done. He was instrumental in creating the World Wide Web Consortium (W3C), founded at the laboratory in 1994 with Tim Berners-Lee as its director. In books such as What Will Be (1997) and The Unfinished Revolution (2001) he argued that computers should serve people rather than the other way round. He is buried in the First Cemetery of Athens.",
+     "cite": [
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "greeklish",
+   "el": "Από τα greeklish στο «Μελτέμι»",
+   "en": "From Greeklish to Meltemi",
+   "paras": [
+    {
+     "el": "Στα πρώτα χρόνια του διαδικτύου και των κινητών, πολλά προγράμματα δεν μπορούσαν να δείξουν ελληνικούς χαρακτήρες. Έτσι οι Έλληνες άρχισαν να γράφουν ελληνικά με λατινικά γράμματα: «kalimera», «ti kaneis?», και το «θ» συχνά ως «8». Αυτά λέγονται «γκρίκλις» (greeklish). Πολλοί φοβήθηκαν ότι θα βλάψουν την ελληνική ορθογραφία, αλλά σήμερα, με τα έξυπνα κινητά, χρησιμοποιούνται πολύ λιγότερο.",
+     "en": "In the early years of email, the internet and mobile phones, many systems could not display Greek characters, so Greeks began writing Greek in Latin letters: *kalimera*, *ti kaneis?*, with θ often typed as *8* or *th*, and ω as *w*. This improvised script is called Greeklish (γκρίκλις). In 2001 the Academy of Athens and many teachers warned that it threatened Greek spelling; others saw it as a harmless technical workaround. With Unicode and smartphones Greeklish has largely declined, though it survives in usernames, quick messages and among the diaspora.",
+     "cite": [
+      6
+     ]
+    },
+    {
+     "el": "Σήμερα η μεγάλη πρόκληση είναι η τεχνητή νοημοσύνη. Τα μεγάλα γλωσσικά μοντέλα μαθαίνουν από τεράστιες ποσότητες κειμένων, και οι μικρές γλώσσες κινδυνεύουν να μείνουν πίσω. Το 2024 Έλληνες ερευνητές δημοσίευσαν το «Μελτέμι», το πρώτο ανοιχτό μεγάλο γλωσσικό μοντέλο για τα ελληνικά. Το όνομά του είναι ο γνωστός καλοκαιρινός άνεμος του Αιγαίου.",
+     "en": "Today the great challenge is artificial intelligence (τεχνητή νοημοσύνη), a term coined for the 1956 Dartmouth workshop. Large language models (μεγάλα γλωσσικά μοντέλα) learn from huge quantities of text, and languages with fewer speakers risk being served less well. In 2024 researchers at the Athena Research Center in Athens released Meltemi, described as the first open large language model for Greek: a 7-billion-parameter model adapted from an existing open model by further training on some 40 billion tokens of Greek text. It is named after the meltemi, the strong dry summer wind of the Aegean. For learners, the irony is pleasant: the newest technology is trained on the same Greek words that this app teaches.",
+     "cite": [
+      7,
+      8
+     ]
+    }
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "level": "C1",
+   "title": "Διηύθυνε: verbs with internal augment",
+   "el": "Μερικά λόγια ρήματα με πρόθεση παίρνουν αύξηση μέσα στη λέξη, και το «ευ» γίνεται «ηυ».",
+   "en": "Learned compound verbs take the **augment inside** the word, after the preposition: *διευθύνω → διηύθυνα* (directed; *ευ* → *ηυ*), *συμμετέχω → συμμετείχα*, *εκλέγω → εξέλεξα*, *υπογράφω → υπέγραψα*, *παρέχω → παρείχα*. The augment appears only where it would be stressed: *διηύθυνε* but *διευθύναμε*. In casual speech some speakers say *διεύθυνε*, but the standard form is *διηύθυνε*.",
+   "examples": [
+    {
+     "el": "Διηύθυνε το εργαστήριο για 27 χρόνια.",
+     "en": "He directed the laboratory for 27 years."
+    },
+    {
+     "el": "Υπέγραψε τη σύμβαση.",
+     "en": "She signed the contract."
+    },
+    {
+     "el": "Εξελέγη πρόεδρος.",
+     "en": "He was elected president."
+    }
+   ]
+  },
+  {
+   "level": "C1",
+   "title": "Κινδυνεύω να: to risk, to be in danger of",
+   "el": "Το «κινδυνεύω να» + υποτακτική σημαίνει ότι υπάρχει πιθανότητα να συμβεί κάτι κακό.",
+   "en": "**κινδυνεύω να** + subjunctive = to be in danger of, to risk: *οι μικρές γλώσσες κινδυνεύουν να μείνουν πίσω*. **κινδυνεύω από** = to be threatened by: *κινδυνεύει από τη φωτιά*. **Υπάρχει κίνδυνος να** is an impersonal alternative. **Επικίνδυνος** = dangerous; **ακίνδυνος** = harmless.",
+   "examples": [
+    {
+     "el": "Κινδυνεύουν να μείνουν πίσω.",
+     "en": "They risk being left behind."
+    },
+    {
+     "el": "Το δάσος κινδυνεύει από τη φωτιά.",
+     "en": "The forest is threatened by fire."
+    },
+    {
+     "el": "Υπάρχει κίνδυνος να χαθούν δεδομένα.",
+     "en": "There is a risk of losing data."
+    }
+   ]
+  },
+  {
+   "level": "C1",
+   "title": "Η ειρωνεία είναι ευχάριστη: evaluative comment",
+   "el": "Για να σχολιάσουμε μια κατάσταση στο τέλος ενός κειμένου, χρησιμοποιούμε εκφράσεις αξιολόγησης.",
+   "en": "Closing an argument with an evaluative comment is a useful C1 skill: **είναι ειρωνικό ότι…** (it is ironic that), **αξίζει να σημειωθεί ότι…** (it is worth noting), **δεν είναι τυχαίο ότι…** (it is no accident that), **το παράδοξο είναι ότι…** (the paradox is that). These help structure exam essays.",
+   "examples": [
+    {
+     "el": "Δεν είναι τυχαίο ότι το λένε «Μελτέμι».",
+     "en": "It is no accident that it's called Meltemi."
+    },
+    {
+     "el": "Αξίζει να σημειωθεί ότι η λέξη είναι ελληνική.",
+     "en": "It is worth noting that the word is Greek."
+    },
+    {
+     "el": "Το παράδοξο είναι ότι γράφαμε ελληνικά με λατινικά.",
+     "en": "The paradox is that we wrote Greek in Latin letters."
+    }
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "el": "η κυβερνητική",
+   "en": "cybernetics",
+   "def_el": "Η επιστήμη του ελέγχου και της επικοινωνίας σε μηχανές και οργανισμούς.",
+   "def_en": "The science of control and communication in machines and organisms."
+  },
+  {
+   "el": "ο αλγόριθμος",
+   "en": "algorithm",
+   "def_el": "Σειρά βημάτων για να λυθεί ένα πρόβλημα.",
+   "def_en": "A series of steps for solving a problem."
+  },
+  {
+   "el": "η πληροφορική",
+   "en": "computer science, informatics",
+   "def_el": "Η επιστήμη των υπολογιστών και της πληροφορίας.",
+   "def_en": "The science of computers and information."
+  },
+  {
+   "el": "η τεχνητή νοημοσύνη",
+   "en": "artificial intelligence",
+   "def_el": "Συστήματα υπολογιστών που κάνουν εργασίες που θέλουν σκέψη.",
+   "def_en": "Computer systems performing tasks that require thinking."
+  },
+  {
+   "el": "το γλωσσικό μοντέλο",
+   "en": "language model",
+   "def_el": "Πρόγραμμα που έχει μάθει τη γλώσσα από κείμενα.",
+   "def_en": "A program that has learned language from texts."
+  },
+  {
+   "el": "η κοινοπραξία",
+   "en": "consortium",
+   "def_el": "Ένωση οργανισμών για κοινό σκοπό.",
+   "def_en": "An association of organisations for a common aim."
+  },
+  {
+   "el": "τα γκρίκλις",
+   "en": "Greeklish",
+   "def_el": "Ελληνικά γραμμένα με λατινικούς χαρακτήρες.",
+   "def_en": "Greek written in Latin characters."
+  },
+  {
+   "el": "το μελτέμι",
+   "en": "meltemi",
+   "def_el": "Δυνατός ξηρός βόρειος άνεμος του Αιγαίου το καλοκαίρι.",
+   "def_en": "A strong dry northerly summer wind of the Aegean."
+  }
+ ],
+ "gloss": {
+  "Χουαρίζμι": "αλ-Χουαρίζμι — al-Khwarizmi (Persian mathematician, 9th c.)",
+  "Βαγδάτη": "Βαγδάτη — Baghdad",
+  "άλγος": "άλγος — pain (ancient, learned)",
+  "Δημόκριτο": "Δημόκριτος — Democritus",
+  "Δερτούζος": "Μιχάλης Δερτούζος — Michael Dertouzos (computer scientist, 1936–2001)",
+  "Νόρμπερτ": "Νόρμπερτ Βίνερ — Norbert Wiener (mathematician)",
+  "Βίνερ": "Νόρμπερτ Βίνερ — Norbert Wiener (mathematician)",
+  "Κοινοπραξία": "κοινοπραξία — consortium",
+  "κοινοπραξία": "κοινοπραξία — consortium",
+  "Πέρση": "Πέρσης — Persian",
+  "ηυ": "ηυ — augmented form of ευ"
+ },
+ "questions": [
+  {
+   "q": "Από ποια λέξη πήρε το όνομά της η «κυβερνητική»;",
+   "options": [
+    "Από τον «κυβερνήτη» του πλοίου",
+    "Από τον «κύβο»",
+    "Από την «κυβέρνηση» μόνο",
+    "Από ένα λατινικό ρήμα"
+   ],
+   "answer": "Από τον «κυβερνήτη» του πλοίου",
+   "why": "Το όνομα το έδωσε ο Βίνερ το 1948."
+  },
+  {
+   "q": "Από πού βγαίνει η λέξη «αλγόριθμος»;",
+   "options": [
+    "Από το όνομα του αλ-Χουαρίζμι, επηρεασμένο από το «αριθμός»",
+    "Μόνο από το ελληνικό «άλγος»",
+    "Από τα κινέζικα",
+    "Από το όνομα ενός υπολογιστή"
+   ],
+   "answer": "Από το όνομα του αλ-Χουαρίζμι, επηρεασμένο από το «αριθμός»",
+   "why": "Είναι μισός Πέρσης και μισός Έλληνας."
+  },
+  {
+   "q": "Ποιο εργαστήριο διηύθυνε ο Δερτούζος;",
+   "options": [
+    "Το Εργαστήριο Επιστήμης Υπολογιστών του ΜΙΤ",
+    "Το CERN",
+    "Τη NASA",
+    "Τον Δημόκριτο"
+   ],
+   "answer": "Το Εργαστήριο Επιστήμης Υπολογιστών του ΜΙΤ",
+   "why": "Από το 1974 ως το 2001."
+  },
+  {
+   "q": "Τι είναι τα «γκρίκλις»;",
+   "options": [
+    "Ελληνικά γραμμένα με λατινικά γράμματα",
+    "Αγγλικά με ελληνικά γράμματα",
+    "Ένα πρόγραμμα",
+    "Μια διάλεκτος"
+   ],
+   "answer": "Ελληνικά γραμμένα με λατινικά γράμματα",
+   "why": "Π.χ. «kalimera»."
+  },
+  {
+   "q": "Τι είναι το «Μελτέμι» του 2024;",
+   "options": [
+    "Το πρώτο ανοιχτό μεγάλο γλωσσικό μοντέλο για τα ελληνικά",
+    "Ένας δορυφόρος",
+    "Ένα κινητό",
+    "Ένα πρόγραμμα για καιρό"
+   ],
+   "answer": "Το πρώτο ανοιχτό μεγάλο γλωσσικό μοντέλο για τα ελληνικά",
+   "why": "Πήρε το όνομά του από τον άνεμο του Αιγαίου."
+  }
+ ],
+ "vocab": [
+  "ο έλεγχος",
+  "η επικοινωνία",
+  "το τιμόνι",
+  "η κυβέρνηση",
+  "ο υπολογιστής",
+  "το πρόγραμμα",
+  "η ασφάλεια",
+  "το κινητό",
+  "το γράμμα",
+  "η ορθογραφία",
+  "η πρόκληση",
+  "το κείμενο",
+  "η γλώσσα",
+  "κινδυνεύω",
+  "ο άνεμος"
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "text": "Wikipedia, “Cybernetics” (etymology)",
+   "url": "https://en.wikipedia.org/wiki/Cybernetics"
+  },
+  {
+   "n": 2,
+   "text": "Γ. Μπαμπινιώτης, Λεξικό της Νέας Ελληνικής Γλώσσας, 5η έκδ., Κέντρο Λεξικολογίας, 2019",
+   "url": "https://search.worldcat.org/search?q=%CE%9B%CE%B5%CE%BE%CE%B9%CE%BA%CF%8C%20%CF%84%CE%B7%CF%82%20%CE%9D%CE%AD%CE%B1%CF%82%20%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE%CF%82%20%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1%CF%82"
+  },
+  {
+   "n": 3,
+   "text": "Wikipedia, “Algorithm” (etymology)",
+   "url": "https://en.wikipedia.org/wiki/Algorithm"
+  },
+  {
+   "n": 4,
+   "text": "Wikipedia, “Michael Dertouzos”",
+   "url": "https://en.wikipedia.org/wiki/Michael_Dertouzos"
+  },
+  {
+   "n": 5,
+   "text": "Wikipedia, “World Wide Web Consortium” (founded at MIT LCS, 1994)",
+   "url": "https://en.wikipedia.org/wiki/World_Wide_Web_Consortium"
+  },
+  {
+   "n": 6,
+   "text": "Wikipedia, “Greeklish”",
+   "url": "https://en.wikipedia.org/wiki/Greeklish"
+  },
+  {
+   "n": 7,
+   "text": "Athena Research Center / ILSP, “Meltemi: the first open large language model for Greek” (2024) and arXiv:2407.20743",
+   "url": "https://arxiv.org/abs/2407.20743"
+  },
+  {
+   "n": 8,
+   "text": "Wikipedia, “Artificial intelligence” and “Dartmouth workshop” (1956)",
+   "url": "https://en.wikipedia.org/wiki/Dartmouth_workshop"
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "kind": "bilingual",
+ "el": "Μαθηματικά και ιατρική των Ελλήνων",
+ "title": "Greek mathematics and medicine: from Thales and Hippocrates to the Pap test",
+ "intro_el": "Πώς οι Έλληνες έμαθαν να αποδεικνύουν, να μετρούν τη Γη και τον ουρανό, να εξετάζουν τον άρρωστο και να γράφουν για το ανθρώπινο σώμα: από τον Θαλή, τον Ευκλείδη και τον Αρχιμήδη ως τον Καραθεοδωρή, και από τον Ιπποκράτη και τον Γαληνό ως τον Παπανικολάου. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1+ και ανεβαίνουν ως το Γ1.",
+ "intro_en": "How the Greeks learned to prove, to measure the Earth and the sky, to examine the sick and to write about the human body: from Thales, Euclid and Archimedes to Carathéodory, and from Hippocrates and Galen to Papanikolaou. Mathematics and medicine are also where Greek words travelled furthest: hypotenuse, parabola, diagnosis and arthritis are all here. The Greek text starts around B1+ and rises to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes on the structures it uses, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+ "parts": [
+  {
+   "id": "mathimatika-a",
+   "el": "Μαθηματικά Ι: από τους αριθμούς στην απόδειξη",
+   "en": "Mathematics I: from numbers to proof",
+   "dates": "6ος–4ος αι. π.Χ.",
+   "intro_el": "Πώς έγραφαν οι Έλληνες τους αριθμούς, πώς ο Θαλής και οι Πυθαγόρειοι έφτιαξαν την ιδέα της απόδειξης, τα τρία μεγάλα προβλήματα της γεωμετρίας και η πρώτη αντιμετώπιση του απείρου.",
+   "intro_en": "How the Greeks wrote numbers, how Thales and the Pythagoreans shaped the idea of proof, the three great construction problems, and the first encounters with the infinite."
+  },
+  {
+   "id": "mathimatika-b",
+   "el": "Μαθηματικά ΙΙ: από την Αλεξάνδρεια ως σήμερα",
+   "en": "Mathematics II: from Alexandria to the present",
+   "dates": "3ος αι. π.Χ. – 21ος αι.",
+   "intro_el": "Ο Ευκλείδης, ο Αρχιμήδης, ο Ερατοσθένης και ο Απολλώνιος, η αστρονομία των Ελλήνων, η άλγεβρα του Διοφάντου, το ταξίδι των χειρογράφων μέσα από το Βυζάντιο και τη Βαγδάτη, και Έλληνες μαθηματικοί των νεότερων χρόνων.",
+   "intro_en": "Euclid, Archimedes, Eratosthenes and Apollonius, Greek astronomy, Diophantus' algebra, the journey of the manuscripts through Byzantium and Baghdad, and Greek mathematicians of modern times."
+  },
+  {
+   "id": "iatriki-a",
+   "el": "Ιατρική Ι: από τον Ασκληπιό στην Αλεξάνδρεια",
+   "en": "Medicine I: from Asclepius to Alexandria",
+   "dates": "5ος–3ος αι. π.Χ.",
+   "intro_el": "Ο θεός Ασκληπιός και τα ιερά του, ο Ιπποκράτης και η ιατρική της παρατήρησης, ο Όρκος, οι πρώτοι ανατόμοι της Αλεξάνδρειας και ο λοιμός της Αθήνας όπως τον περιέγραψε ο Θουκυδίδης.",
+   "intro_en": "The healing god Asclepius and his sanctuaries, Hippocrates and the medicine of observation, the Oath, the first anatomists of Alexandria, and the Plague of Athens as Thucydides described it."
+  },
+  {
+   "id": "iatriki-b",
+   "el": "Ιατρική ΙΙ: από τον Γαληνό στο τεστ Παπανικολάου",
+   "en": "Medicine II: from Galen to the Pap test",
+   "dates": "1ος αι. μ.Χ. – 20ός αι.",
+   "intro_el": "Ο Γαληνός και η κυριαρχία του για χίλια πεντακόσια χρόνια, ο Διοσκουρίδης και τα φαρμακευτικά φυτά, τα βυζαντινά νοσοκομεία, η ελληνική γλώσσα της ιατρικής και ο Γεώργιος Παπανικολάου.",
+   "intro_en": "Galen and his fifteen-hundred-year authority, Dioscorides and medicinal plants, Byzantine hospitals, Greek as the language of medicine, and Georgios Papanikolaou."
+  }
+ ],
+ "items": [
+  {
+   "id": "arithmoi",
+   "file": "arithmoi.json",
+   "el": "Οι ελληνικοί αριθμοί",
+   "title": "Greek numerals",
+   "level": "B1+",
+   "part": "mathimatika-a",
+   "dates": "7ος αι. π.Χ. – σήμερα"
+  },
+  {
+   "id": "thalis",
+   "file": "thalis.json",
+   "el": "Ο Θαλής και η ιδέα της απόδειξης",
+   "title": "Thales and the idea of proof",
+   "level": "B1+",
+   "part": "mathimatika-a",
+   "dates": "περ. 624–546 π.Χ."
+  },
+  {
+   "id": "pythagoreioi",
+   "file": "pythagoreioi.json",
+   "el": "Οι Πυθαγόρειοι: αριθμοί, μουσική και άλογα μεγέθη",
+   "title": "The Pythagoreans: numbers, music and irrational magnitudes",
+   "level": "B1+",
+   "part": "mathimatika-a",
+   "dates": "6ος–5ος αι. π.Χ."
+  },
+  {
+   "id": "tria-provlimata",
+   "file": "tria-provlimata.json",
+   "el": "Τα τρία άλυτα προβλήματα",
+   "title": "The three unsolvable problems",
+   "level": "B2",
+   "part": "mathimatika-a",
+   "dates": "5ος αι. π.Χ. – 1882"
+  },
+  {
+   "id": "apeiro",
+   "file": "apeiro.json",
+   "el": "Το άπειρο: Ζήνων και Εύδοξος",
+   "title": "The infinite: Zeno and Eudoxus",
+   "level": "B2",
+   "part": "mathimatika-a",
+   "dates": "5ος–4ος αι. π.Χ."
+  },
+  {
+   "id": "eukleidis",
+   "file": "eukleidis.json",
+   "el": "Ο Ευκλείδης και τα «Στοιχεία»",
+   "title": "Euclid and the Elements",
+   "level": "B2",
+   "part": "mathimatika-b",
+   "dates": "περ. 300 π.Χ."
+  },
+  {
+   "id": "archimidis",
+   "file": "archimidis.json",
+   "el": "Ο Αρχιμήδης",
+   "title": "Archimedes",
+   "level": "B2",
+   "part": "mathimatika-b",
+   "dates": "περ. 287–212 π.Χ."
+  },
+  {
+   "id": "eratosthenis",
+   "file": "eratosthenis.json",
+   "el": "Ο Ερατοσθένης μετρά τη Γη",
+   "title": "Eratosthenes measures the Earth",
+   "level": "B2",
+   "part": "mathimatika-b",
+   "dates": "περ. 276–194 π.Χ."
+  },
+  {
+   "id": "apollonios",
+   "file": "apollonios.json",
+   "el": "Ο Απολλώνιος και οι κωνικές τομές",
+   "title": "Apollonius and the conic sections",
+   "level": "B2+",
+   "part": "mathimatika-b",
+   "dates": "περ. 240–190 π.Χ."
+  },
+  {
+   "id": "astronomia",
+   "file": "astronomia.json",
+   "el": "Αρίσταρχος, Ίππαρχος, Πτολεμαίος",
+   "title": "Aristarchus, Hipparchus, Ptolemy",
+   "level": "B2+",
+   "part": "mathimatika-b",
+   "dates": "3ος αι. π.Χ. – 2ος αι. μ.Χ."
+  },
+  {
+   "id": "diofantos",
+   "file": "diofantos.json",
+   "el": "Ήρων, Διόφαντος, Πάππος, Υπατία",
+   "title": "Hero, Diophantus, Pappus, Hypatia",
+   "level": "B2+",
+   "part": "mathimatika-b",
+   "dates": "1ος–5ος αι. μ.Χ."
+  },
+  {
+   "id": "metadosi",
+   "file": "metadosi.json",
+   "el": "Από το Βυζάντιο στην Αναγέννηση",
+   "title": "From Byzantium to the Renaissance",
+   "level": "C1",
+   "part": "mathimatika-b",
+   "dates": "9ος–16ος αι."
+  },
+  {
+   "id": "neoteroi",
+   "file": "neoteroi.json",
+   "el": "Νεότεροι Έλληνες μαθηματικοί",
+   "title": "Modern Greek mathematicians",
+   "level": "C1",
+   "part": "mathimatika-b",
+   "dates": "1873–σήμερα"
+  },
+  {
+   "id": "asklipios",
+   "file": "asklipios.json",
+   "el": "Ο Ασκληπιός και τα Ασκληπιεία",
+   "title": "Asclepius and his sanctuaries",
+   "level": "B2",
+   "part": "iatriki-a",
+   "dates": "5ος–4ος αι. π.Χ."
+  },
+  {
+   "id": "ippokratis",
+   "file": "ippokratis.json",
+   "el": "Ο Ιπποκράτης και η ιατρική της παρατήρησης",
+   "title": "Hippocrates and the medicine of observation",
+   "level": "B2",
+   "part": "iatriki-a",
+   "dates": "περ. 460–370 π.Χ."
+  },
+  {
+   "id": "orkos",
+   "file": "orkos.json",
+   "el": "Ο Όρκος του Ιπποκράτη",
+   "title": "The Hippocratic Oath",
+   "level": "B2",
+   "part": "iatriki-a",
+   "dates": "5ος–4ος αι. π.Χ. – σήμερα"
+  },
+  {
+   "id": "alexandreia",
+   "file": "alexandreia.json",
+   "el": "Οι ανατόμοι της Αλεξάνδρειας",
+   "title": "The anatomists of Alexandria",
+   "level": "B2+",
+   "part": "iatriki-a",
+   "dates": "3ος αι. π.Χ."
+  },
+  {
+   "id": "loimos",
+   "file": "loimos.json",
+   "el": "Ο λοιμός της Αθήνας",
+   "title": "The Plague of Athens",
+   "level": "B2+",
+   "part": "iatriki-a",
+   "dates": "430–426 π.Χ."
+  },
+  {
+   "id": "galinos",
+   "file": "galinos.json",
+   "el": "Ο Γαληνός",
+   "title": "Galen",
+   "level": "B2+",
+   "part": "iatriki-b",
+   "dates": "129 – περ. 216 μ.Χ."
+  },
+  {
+   "id": "dioskouridis",
+   "file": "dioskouridis.json",
+   "el": "Ο Διοσκουρίδης και τα φαρμακευτικά φυτά",
+   "title": "Dioscorides and medicinal plants",
+   "level": "B2+",
+   "part": "iatriki-b",
+   "dates": "1ος αι. μ.Χ. – σήμερα"
+  },
+  {
+   "id": "vyzantini-iatriki",
+   "file": "vyzantini-iatriki.json",
+   "el": "Τα νοσοκομεία του Βυζαντίου",
+   "title": "Byzantine hospitals",
+   "level": "C1",
+   "part": "iatriki-b",
+   "dates": "4ος–15ος αι."
+  },
+  {
+   "id": "iatriki-glossa",
+   "file": "iatriki-glossa.json",
+   "el": "Η ελληνική γλώσσα της ιατρικής",
+   "title": "Greek, the language of medicine",
+   "level": "C1",
+   "part": "iatriki-b",
+   "dates": "5ος αι. π.Χ. – σήμερα"
+  },
+  {
+   "id": "papanikolaou",
+   "file": "papanikolaou.json",
+   "el": "Ο Γεώργιος Παπανικολάου και το τεστ Παπ",
+   "title": "Georgios Papanikolaou and the Pap test",
+   "level": "C1",
+   "part": "iatriki-b",
+   "dates": "1883–1962"
+  }
+ ]
+}

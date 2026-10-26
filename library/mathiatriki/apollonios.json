@@ -1,0 +1,336 @@
+{
+ "id": "apollonios",
+ "el": "Ο Απολλώνιος και οι κωνικές τομές",
+ "title": "Apollonius and the conic sections",
+ "level": "B2+",
+ "dates": "περ. 240–190 π.Χ.",
+ "part": "mathimatika-b",
+ "image": {
+  "file": "img/mathiatriki/apollonios.jpg",
+  "caption": "Σελίδες από αραβική μετάφραση των «Κωνικών» του Απολλωνίου",
+  "caption_en": "Pages from an Arabic translation of Apollonius' Conics",
+  "credit": "Apollonius, Conics, Arabic translation, fols. 162b and 164a · Wikimedia Commons",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Conica_of_Apollonius_of_Perga_fol._162b_and_164a.jpg"
+ },
+ "summary_en": "Apollonius of Perga, “the Great Geometer”, wrote the definitive ancient work on the curves obtained by cutting a cone with a plane: the ellipse, the parabola and the hyperbola. He gave them the names they still have, borrowed from an old Pythagorean technique of “applying” areas. Eighteen centuries later Kepler showed that the planets move on ellipses and Galileo that projectiles follow parabolas. In everyday Greek the same three words mean “shortage”, “parable” and “exaggeration”.",
+ "sections": [
+  {
+   "id": "megas",
+   "el": "Ο «Μέγας Γεωμέτρης»",
+   "en": "“The Great Geometer”",
+   "paras": [
+    {
+     "el": "Ο Απολλώνιος γεννήθηκε στην Πέργη της Παμφυλίας, στη νότια Μικρά Ασία, και σπούδασε στην Αλεξάνδρεια με τους μαθητές του Ευκλείδη. Οι αρχαίοι τον ονόμαζαν «Μέγα Γεωμέτρη». Το κύριο έργο του, τα «Κωνικά», είχε οκτώ βιβλία. Τα τέσσερα πρώτα σώζονται στα ελληνικά, τα τρία επόμενα μόνο σε αραβική μετάφραση, και το όγδοο χάθηκε.",
+     "en": "Apollonius was born in Perga in Pamphylia, on the southern coast of Asia Minor, around 240 BC, and studied in Alexandria with the successors of Euclid; he also worked in Pergamon. The ancients called him the Great Geometer. His main work, the Conics, had eight books: the first four survive in Greek, in the edition of Eutocius (6th century AD); books V–VII survive only in a 9th-century Arabic translation made in Baghdad for the Banu Musa brothers; book VIII is lost, though Edmond Halley attempted a reconstruction in 1710. Apollonius also studied the problem of drawing a circle tangent to three given circles, still called “the problem of Apollonius”.",
+     "cite": [
+      1,
+      2,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tomes",
+   "el": "Τρεις καμπύλες από έναν κώνο",
+   "en": "Three curves from one cone",
+   "paras": [
+    {
+     "el": "Αν κόψουμε έναν κώνο με ένα επίπεδο, η τομή μπορεί να είναι κύκλος, έλλειψη, παραβολή ή υπερβολή, ανάλογα με την κλίση του επιπέδου. Οι προηγούμενοι μαθηματικοί έπαιρναν διαφορετικούς κώνους για κάθε καμπύλη. Ο Απολλώνιος έδειξε ότι όλες βγαίνουν από τον ίδιο διπλό κώνο, αν αλλάξουμε απλώς τη γωνία της τομής.",
+     "en": "If a cone is cut by a plane, the section can be a circle, an ellipse, a parabola or a hyperbola, depending on the tilt of the plane: a plane parallel to the base gives a circle; tilted a little, an ellipse; parallel to a side of the cone, a parabola; steeper still, a hyperbola, which needs a double cone to show its two branches. Earlier mathematicians, such as Menaechmus, had obtained each curve from a different kind of cone (acute-, right- and obtuse-angled). Apollonius showed that all of them come from a single double cone simply by varying the angle of the cutting plane, and studied their properties, tangents, diameters and foci, in such depth that little was added until the 17th century.",
+     "cite": [
+      2,
+      1,
+      3
+     ]
+    },
+    {
+     "el": "Ο Απολλώνιος έδωσε στις καμπύλες τα ονόματα που έχουν ακόμα. Τα πήρε από μια παλιά πυθαγόρεια μέθοδο, την «παραβολή των χωρίων»: όταν ένα ορθογώνιο «τοποθετείται δίπλα» σε μια ευθεία και είναι ακριβώς ίσο, έχουμε «παραβολή»· όταν «υπολείπεται», έχουμε «έλλειψη»· όταν «υπερβαίνει», έχουμε «υπερβολή».",
+     "en": "Apollonius gave the curves the names they still bear, taken from an old Pythagorean technique, the “application of areas” (παραβολὴ τῶν χωρίων). In it a rectangle is laid alongside a given line: when it fits exactly, it is “applied” (παραβολή, from παραβάλλω, “to place beside”); when it falls short, there is a “deficit” (ἔλλειψις, from ἐλλείπω, “to fall short”); when it overshoots, an “excess” (ὑπερβολή, from ὑπερβάλλω, “to throw beyond”). For each conic section, Apollonius showed, a certain square is equal to, less than or greater than a certain rectangle, and named the curve accordingly.",
+     "cite": [
+      2,
+      3,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kepler",
+   "el": "Από τον Απολλώνιο στον Κέπλερ",
+   "en": "From Apollonius to Kepler",
+   "paras": [
+    {
+     "el": "Για σχεδόν δύο χιλιάδες χρόνια οι κωνικές τομές ήταν θέμα καθαρής γεωμετρίας. Το 1609 όμως ο Γιοχάνες Κέπλερ ανακάλυψε ότι οι πλανήτες κινούνται γύρω από τον Ήλιο σε ελλείψεις. Λίγο αργότερα ο Γαλιλαίος έδειξε ότι μια πέτρα που πετάμε διαγράφει παραβολή. Η καθαρή θεωρία του Απολλωνίου έγινε η γλώσσα της νέας φυσικής.",
+     "en": "For almost two thousand years the conic sections were a subject of pure geometry. Then in 1609, in his Astronomia nova, Johannes Kepler showed that Mars, and by extension every planet, moves around the Sun on an ellipse with the Sun at one focus. Galileo, in the Two New Sciences of 1638, showed that a thrown stone follows a parabola, and Newton's theory of gravitation (1687) explained why orbits must be conic sections. Apollonius' pure theory had become the language of the new physics; today parabolic shapes are used in satellite dishes, car headlights and the mirror that lights the Olympic flame.",
+     "cite": [
+      2,
+      1
+     ]
+    },
+    {
+     "el": "Στην καθημερινή ελληνική γλώσσα οι ίδιες λέξεις έχουν άλλη σημασία. «Έλλειψη» σημαίνει ότι κάτι λείπει (έλλειψη νερού). «Υπερβολή» σημαίνει ότι λέμε κάτι μεγαλύτερο από την αλήθεια («μην κάνεις υπερβολές!»). «Παραβολή» είναι μια ιστορία με ηθικό δίδαγμα, όπως οι παραβολές του Ευαγγελίου. Και οι τρεις έχουν την ίδια ρίζα με τις γεωμετρικές.",
+     "en": "In everyday Greek the same words carry other meanings, all from the same roots: έλλειψη means a shortage or lack (*έλλειψη νερού*, a water shortage; *έλλειψη σεβασμού*, lack of respect); υπερβολή means exaggeration (*μην κάνεις υπερβολές!*, don't exaggerate!), and in rhetoric the figure of hyperbole; παραβολή is a parable, a story “set beside” a truth, as in the parables of the Gospels. Grammar has its own ellipsis too: leaving out words that the reader can supply. Greek speakers thus hear in the names of the curves a meaning that English speakers lose.",
+     "cite": [
+      4,
+      5
+     ]
+    }
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "level": "B2+",
+   "title": "Ανάλογα με + indirect question; depending on whether",
+   "el": "«Ανάλογα με» + αιτιατική ή + «το αν/το πώς».",
+   "en": "**Ανάλογα με** + accusative means “depending on”: *ανάλογα με την κλίση του επιπέδου*. Before an indirect question Greek nominalises with **το**: *ανάλογα με το αν το επίπεδο είναι παράλληλο* (depending on whether), *ανάλογα με το πώς κόβουμε* (depending on how we cut).",
+   "examples": [
+    {
+     "el": "ανάλογα με τη γωνία",
+     "en": "depending on the angle"
+    },
+    {
+     "el": "ανάλογα με το αν βρέχει",
+     "en": "depending on whether it rains"
+    },
+    {
+     "el": "ανάλογα με το πώς το βλέπεις",
+     "en": "depending on how you look at it"
+    }
+   ]
+  },
+  {
+   "level": "B2+",
+   "title": "Verbs with prepositional prefixes: παρα-, υπερ-, ελ-",
+   "el": "Τα προθήματα αλλάζουν τη σημασία του ρήματος: βάλλω → παραβάλλω, υπερβάλλω, (εν+λείπω →) ελλείπω.",
+   "en": "Ancient verbs with **prepositional prefixes** produce families of nouns: *βάλλω* (throw) → *παρα-βάλλω* (place beside, compare) → *παραβολή*; *υπερ-βάλλω* (throw beyond, exceed) → *υπερβολή*; *εν-λείπω → ελλείπω* (fall short) → *έλλειψη*, *ελλιπής* (deficient). Modern Greek uses the nouns and the adjectives daily: *υπερβολικός* (excessive), *ελλιπής ενημέρωση* (inadequate information).",
+   "examples": [
+    {
+     "el": "Μην είσαι υπερβολικός!",
+     "en": "Don't overdo it!"
+    },
+    {
+     "el": "ελλιπής ενημέρωση",
+     "en": "inadequate information"
+    },
+    {
+     "el": "Η παραβολή του άσωτου υιού",
+     "en": "The parable of the prodigal son"
+    }
+   ]
+  },
+  {
+   "level": "B2+",
+   "title": "Διαγράφω: to describe (a curve) and to delete",
+   "el": "Το «διαγράφω» σημαίνει «σχηματίζω με την κίνησή μου» (μια τροχιά) και «σβήνω».",
+   "en": "**Διαγράφω** has two meanings: in geometry and physics, “to trace, describe” a path (*η πέτρα διαγράφει παραβολή*); in everyday use, “to delete, strike off” (*διέγραψα το μήνυμα*, *διαγράφηκε από το κόμμα*, was expelled from the party). The noun *η διαγραφή* is “deletion, expulsion”.",
+   "examples": [
+    {
+     "el": "Ο πλανήτης διαγράφει έλλειψη.",
+     "en": "The planet traces an ellipse."
+    },
+    {
+     "el": "Διέγραψα τη φωτογραφία.",
+     "en": "I deleted the photo."
+    },
+    {
+     "el": "η διαγραφή του χρέους",
+     "en": "the cancellation of the debt"
+    }
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "el": "οι κωνικές τομές",
+   "en": "conic sections",
+   "def_el": "Οι καμπύλες που βγαίνουν όταν κόβουμε κώνο με επίπεδο.",
+   "def_en": "Curves obtained by cutting a cone with a plane."
+  },
+  {
+   "el": "η έλλειψη",
+   "en": "ellipse; shortage",
+   "def_el": "Κλειστή καμπύλη σαν πεπλατυσμένος κύκλος· και η απουσία κάποιου πράγματος.",
+   "def_en": "A closed oval curve; also a lack."
+  },
+  {
+   "el": "η παραβολή",
+   "en": "parabola; parable",
+   "def_el": "Ανοιχτή καμπύλη· και ιστορία με ηθικό δίδαγμα.",
+   "def_en": "An open curve; also a moral story."
+  },
+  {
+   "el": "η υπερβολή",
+   "en": "hyperbola; exaggeration",
+   "def_el": "Καμπύλη με δύο κλάδους· και το να λες κάτι μεγαλύτερο από την αλήθεια.",
+   "def_en": "A two-branched curve; also exaggeration."
+  },
+  {
+   "el": "το επίπεδο",
+   "en": "plane; level",
+   "def_el": "Επίπεδη επιφάνεια χωρίς πάχος· και επίπεδο δυσκολίας.",
+   "def_en": "A flat surface; also a level."
+  },
+  {
+   "el": "η εστία",
+   "en": "focus; hearth",
+   "def_el": "Ειδικό σημείο μιας κωνικής τομής· και η φωτιά του σπιτιού.",
+   "def_en": "A special point of a conic; also a hearth."
+  },
+  {
+   "el": "η τροχιά",
+   "en": "orbit, trajectory",
+   "def_el": "Ο δρόμος που ακολουθεί ένα σώμα στον χώρο.",
+   "def_en": "The path a body follows in space."
+  },
+  {
+   "el": "το δίδαγμα",
+   "en": "lesson, moral",
+   "def_el": "Αυτό που μαθαίνουμε από μια ιστορία ή εμπειρία.",
+   "def_en": "What one learns from a story or experience."
+  }
+ ],
+ "gloss": {
+  "ορθογώνιο": "ορθογώνιος — right-angled",
+  "Ευκλείδη": "Ευκλείδης — Euclid",
+  "αραβικά": "αραβικός — Arabic, Arab",
+  "καμπύλες": "καμπύλος — curved",
+  "Γαλιλαίος": "Γαλιλαίος — Galileo",
+  "Κωνικά": "Κωνικά — the Conics (Apollonius)",
+  "αραβική": "αραβικός — Arabic",
+  "παραβολή": "η παραβολή — parable",
+  "Κέπλερ": "Κέπλερ — Kepler",
+  "Γιοχάνες": "Γιοχάνες — Johannes",
+  "Παραβολή": "η παραβολή — parable",
+  "έβδομο": "έβδομος — seventh",
+  "Επίπεδη": "επίπεδος — flat",
+  "αραβικές": "αραβικός — Arabic",
+  "Γεωμέτρης": "γεωμέτρης — geometer (Ο Μέγας Γεωμέτρης = the Great Geometer)",
+  "Γεωμέτρη": "γεωμέτρης — geometer",
+  "Απολλώνιος": "Απολλώνιος — Apollonius of Perga (mathematician, c. 240–190 BC)",
+  "Απολλώνιο": "Απολλώνιος — Apollonius of Perga",
+  "Απολλωνίου": "Απολλώνιος — Apollonius of Perga",
+  "Πέργη": "Πέργη — Perga (city in Pamphylia)",
+  "Παμφυλίας": "Παμφυλία — Pamphylia (region of Asia Minor)",
+  "κώνο": "κώνος — cone",
+  "κώνους": "κώνος — cone",
+  "πυθαγόρεια": "πυθαγόρειος — Pythagorean",
+  "υπολείπεται": "υπολείπομαι — to fall short",
+  "κωνικές": "κωνικός — conic",
+  "κωνικής": "κωνικός — conic",
+  "Κωνικών": "κωνικός — conic (τα Κωνικά = the Conics, Apollonius' work)",
+  "καμπυλών": "καμπύλη — curve",
+  "παραβολές": "παραβολή — parabola; parable",
+  "παραβάλλω": "παραβάλλω — to compare, place beside",
+  "ελλείπω": "ελλείπω — to fall short, be lacking",
+  "άσωτου": "άσωτος — prodigal (ο άσωτος υιός = the prodigal son)",
+  "πεπλατυσμένος": "πεπλατυσμένος — flattened",
+  "διαγραφή": "διαγραφή — deletion; trajectory",
+  "πάχος": "πάχος — thickness",
+  "περ": "περίπου — about, circa (abbr.)"
+ },
+ "questions": [
+  {
+   "q": "Ποια βιβλία των «Κωνικών» σώζονται μόνο στα αραβικά;",
+   "options": [
+    "Το πέμπτο ως το έβδομο",
+    "Τα τέσσερα πρώτα",
+    "Το όγδοο",
+    "Κανένα"
+   ],
+   "answer": "Το πέμπτο ως το έβδομο",
+   "why": "Το όγδοο χάθηκε."
+  },
+  {
+   "q": "Τι έδειξε ο Απολλώνιος για τις τρεις καμπύλες;",
+   "options": [
+    "Ότι βγαίνουν από τον ίδιο διπλό κώνο",
+    "Ότι είναι όλες κύκλοι",
+    "Ότι δεν σχεδιάζονται",
+    "Ότι τις ανακάλυψε ο Κέπλερ"
+   ],
+   "answer": "Ότι βγαίνουν από τον ίδιο διπλό κώνο",
+   "why": "Αλλάζοντας μόνο τη γωνία της τομής."
+  },
+  {
+   "q": "Από τι πήρε ο Απολλώνιος τα ονόματα των καμπυλών;",
+   "options": [
+    "Από την «παραβολή των χωρίων»",
+    "Από ονόματα θεών",
+    "Από αραβικές λέξεις",
+    "Από τα σχήματα των άστρων"
+   ],
+   "answer": "Από την «παραβολή των χωρίων»",
+   "why": "Μια πυθαγόρεια μέθοδος με ορθογώνια."
+  },
+  {
+   "q": "Σε ποια καμπύλη κινούνται οι πλανήτες, σύμφωνα με τον Κέπλερ;",
+   "options": [
+    "Σε έλλειψη",
+    "Σε κύκλο",
+    "Σε παραβολή",
+    "Σε υπερβολή"
+   ],
+   "answer": "Σε έλλειψη",
+   "why": "Με τον Ήλιο σε μία από τις εστίες."
+  },
+  {
+   "q": "Τι σημαίνει στην καθημερινή γλώσσα «μην κάνεις υπερβολές»;",
+   "options": [
+    "Μη λες κάτι μεγαλύτερο από την αλήθεια",
+    "Μη σχεδιάζεις καμπύλες",
+    "Μην πετάς πέτρες",
+    "Μη λείπεις"
+   ],
+   "answer": "Μη λες κάτι μεγαλύτερο από την αλήθεια",
+   "why": "Υπερβολή = exaggeration."
+  }
+ ],
+ "vocab": [
+  "κόβω",
+  "το επίπεδο",
+  "η τομή",
+  "η κλίση",
+  "διπλός",
+  "η καμπύλη",
+  "το όνομα",
+  "δίπλα",
+  "λείπω",
+  "υπερβαίνω",
+  "ο πλανήτης",
+  "κινούμαι",
+  "πετάω",
+  "η πέτρα",
+  "η αλήθεια",
+  "η ρίζα"
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "text": "MacTutor, “Apollonius of Perga”",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Apollonius/"
+  },
+  {
+   "n": 2,
+   "text": "Wikipedia, “Conic section” (history; Apollonius' names)",
+   "url": "https://en.wikipedia.org/wiki/Conic_section"
+  },
+  {
+   "n": 3,
+   "text": "T. L. Heath, A History of Greek Mathematics, 2 vols., Oxford: Clarendon Press, 1921 (Internet Archive)",
+   "url": "https://archive.org/details/historyofgreekma01heat"
+  },
+  {
+   "n": 4,
+   "text": "Λεξικό της Κοινής Νεοελληνικής (Ίδρυμα Μανόλη Τριανταφυλλίδη), Πύλη για την ελληνική γλώσσα",
+   "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+  },
+  {
+   "n": 5,
+   "text": "Γ. Μπαμπινιώτης, Λεξικό της Νέας Ελληνικής Γλώσσας, 5η έκδ., Κέντρο Λεξικολογίας, 2019",
+   "url": "https://search.worldcat.org/search?q=%CE%9B%CE%B5%CE%BE%CE%B9%CE%BA%CF%8C%20%CF%84%CE%B7%CF%82%20%CE%9D%CE%AD%CE%B1%CF%82%20%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE%CF%82%20%CE%93%CE%BB%CF%8E%CF%83%CF%83%CE%B1%CF%82"
+  }
+ ]
+}

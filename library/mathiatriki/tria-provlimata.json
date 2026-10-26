@@ -1,0 +1,357 @@
+{
+ "id": "tria-provlimata",
+ "el": "Τα τρία άλυτα προβλήματα",
+ "title": "The three unsolvable problems",
+ "level": "B2",
+ "dates": "5ος αι. π.Χ. – 1882",
+ "part": "mathimatika-a",
+ "image": {
+  "file": "img/mathiatriki/tria-provlimata.jpg",
+  "caption": "Αρχιτέκτονας με διαβήτη στο εργαστήριό του, σχέδιο του Agostino Tassi (17ος αι.)",
+  "caption_en": "Architect in his study holding a compass, drawing by Agostino Tassi, 17th century",
+  "credit": "Agostino Tassi, Architect in His Study Holding a Compass and Conversing with Three Men, 17th century · The Metropolitan Museum of Art",
+  "license": "CC0 (Open Access)",
+  "source": "https://www.metmuseum.org/art/collection/search/340538"
+ },
+ "summary_en": "Three construction problems obsessed Greek geometers: squaring the circle, doubling the cube and trisecting an angle, all with only a straightedge and compasses. The Greeks found ingenious solutions using other curves and tools, but never with straightedge and compasses alone. Only in the 19th century did mathematicians prove that it cannot be done. “Squaring the circle” is still a Greek idiom for an impossible task.",
+ "sections": [
+  {
+   "id": "kanonas",
+   "el": "Κανόνας και διαβήτης",
+   "en": "Straightedge and compasses",
+   "paras": [
+    {
+     "el": "Στα ελληνικά μαθηματικά μια «κατασκευή» σήμαινε να σχεδιάσεις ένα σχήμα με δύο μόνο εργαλεία: τον κανόνα, δηλαδή ένα χάρακα χωρίς υποδιαιρέσεις, και τον διαβήτη. Με αυτά μπορείς να χωρίσεις ένα ευθύγραμμο τμήμα στη μέση, να φέρεις κάθετη ή να κατασκευάσεις ένα ισόπλευρο τρίγωνο. Τρία προβλήματα όμως δεν λύνονταν με κανέναν τρόπο.",
+     "en": "In Greek geometry a “construction” meant drawing a figure with two tools only: the straightedge (κανών), a ruler without markings, and the compasses (διαβήτης). With them one can bisect a segment, draw a perpendicular, construct an equilateral triangle or a regular pentagon, and many more figures; the first proposition of Euclid's Elements is the construction of an equilateral triangle on a given segment. These tools were not a practical necessity but a rule of the game, connected with the postulates of geometry. Three problems, however, resisted every attempt.",
+     "cite": [
+      1,
+      2,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "provlimata",
+   "el": "Τα τρία προβλήματα",
+   "en": "The three problems",
+   "paras": [
+    {
+     "el": "Το πρώτο είναι ο τετραγωνισμός του κύκλου: να κατασκευάσεις ένα τετράγωνο με εμβαδόν ίσο με το εμβαδόν ενός κύκλου. Ήδη το 414 π.Χ. ο Αριστοφάνης κορόιδευε στους «Όρνιθες» τον αστρονόμο Μέτωνα, που υπόσχεται να κάνει «τον κύκλο τετράγωνο». Στα νέα ελληνικά, «τετραγωνισμός του κύκλου» σημαίνει μια αδύνατη προσπάθεια.",
+     "en": "The first is squaring the circle: constructing a square with the same area as a given circle. The problem was famous enough by 414 BC for Aristophanes to mock it in the Birds, where the astronomer Meton promises to make “the circle square” (κύκλος τετράγωνος). Hippocrates of Chios (5th century BC, not the physician) showed that certain moon-shaped figures bounded by circular arcs, his “lunes”, can be squared exactly, which raised false hopes for the circle itself. In modern Greek, as in English, ο τετραγωνισμός του κύκλου is an idiom for an impossible task.",
+     "cite": [
+      1,
+      4,
+      5
+     ]
+    },
+    {
+     "el": "Το δεύτερο είναι ο διπλασιασμός του κύβου, που λέγεται και «Δήλιο πρόβλημα». Σύμφωνα με μια ιστορία, οι κάτοικοι της Δήλου ρώτησαν το μαντείο πώς να σταματήσουν μια επιδημία. Το μαντείο απάντησε να διπλασιάσουν τον βωμό του Απόλλωνα, που είχε σχήμα κύβου. Αν όμως διπλασιάσεις την πλευρά, ο όγκος γίνεται οκτώ φορές μεγαλύτερος.",
+     "en": "The second is doubling the cube, also called the Delian problem. According to a story preserved in a letter attributed to Eratosthenes (quoted by Eutocius) and by Theon of Smyrna, the people of Delos asked the oracle how to end a plague and were told to double the cubic altar of Apollo. Their builders doubled each side, which multiplied the volume by eight, and the plague went on; Plato is said to have told them that the god wanted the Greeks to study geometry. In modern terms the problem asks for a length equal to the cube root of 2 times the side. Hippocrates of Chios reduced it to finding two mean proportionals, and Menaechmus (4th century BC) solved it by intersecting two of the curves later called conic sections.",
+     "cite": [
+      6,
+      2
+     ]
+    },
+    {
+     "el": "Το τρίτο είναι η τριχοτόμηση μιας γωνίας: να τη χωρίσεις σε τρία ίσα μέρη. Τη διχοτόμηση την κάνει εύκολα κανείς με κανόνα και διαβήτη, την τριχοτόμηση όχι. Ο σοφιστής Ιππίας επινόησε μια ειδική καμπύλη, την «τετραγωνίζουσα», που λύνει και την τριχοτόμηση και τον τετραγωνισμό του κύκλου, αλλά δεν σχεδιάζεται με κανόνα και διαβήτη.",
+     "en": "The third is trisecting an angle: dividing any given angle into three equal parts. Bisecting an angle is easy with straightedge and compasses; trisecting it is not (though some special angles, like a right angle, can be trisected). The sophist Hippias of Elis (5th century BC) invented a special curve, later called the quadratrix (τετραγωνίζουσα) because Dinostratus used it to square the circle, which solves both problems. Archimedes gave a solution by a “neusis”, a ruler with two marks slid into position. All such solutions break the rule: they use a tool or a curve beyond straightedge and compasses.",
+     "cite": [
+      7,
+      2,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lysi",
+   "el": "Η απάντηση του 19ου αιώνα",
+   "en": "The 19th-century answer",
+   "paras": [
+    {
+     "el": "Η οριστική απάντηση ήρθε περισσότερα από δύο χιλιάδες χρόνια αργότερα, με την άλγεβρα. Το 1837 ο Γάλλος Πιερ Βαντσέλ απέδειξε ότι ο διπλασιασμός του κύβου και η τριχοτόμηση μιας τυχαίας γωνίας είναι αδύνατα με κανόνα και διαβήτη. Το 1882 ο Γερμανός Φερδινάνδος φον Λίντεμαν απέδειξε ότι ο αριθμός π είναι «υπερβατικός», και έτσι αδύνατος και ο τετραγωνισμός του κύκλου.",
+     "en": "The definitive answer came more than two thousand years later, through algebra. Lengths constructible with straightedge and compasses are exactly those obtainable from the given ones by addition, subtraction, multiplication, division and square roots. In 1837 the French mathematician Pierre Wantzel used this to prove that doubling the cube and trisecting an arbitrary angle are impossible, since they require cube roots. In 1882 Ferdinand von Lindemann proved that π is transcendental, the root of no polynomial equation with integer coefficients, which made squaring the circle impossible too. The Greeks had not failed: they had asked a question that needed new mathematics to answer, and their attempts produced conic sections, special curves and much of the theory of ratios along the way.",
+     "cite": [
+      1,
+      6,
+      7
+     ]
+    }
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "level": "B2",
+   "title": "Nouns of action in -σμός: τετραγωνισμός, διπλασιασμός",
+   "el": "Από ρήματα σε -ίζω/-άζω βγαίνουν ουσιαστικά σε -ισμός/-ασμός που δείχνουν ενέργεια.",
+   "en": "Verbs in **-ίζω / -άζω** form action nouns in **-ισμός / -ασμός** (masculine): *τετραγωνίζω → ο τετραγωνισμός* (squaring), *διπλασιάζω → ο διπλασιασμός* (doubling), *υπολογίζω → ο υπολογισμός* (calculation), *σχηματίζω → ο σχηματισμός* (formation). The genitive of the object follows: *ο τετραγωνισμός του κύκλου*.",
+   "examples": [
+    {
+     "el": "ο διπλασιασμός του κύβου",
+     "en": "the doubling of the cube"
+    },
+    {
+     "el": "ένας γρήγορος υπολογισμός",
+     "en": "a quick calculation"
+    },
+    {
+     "el": "ο τετραγωνισμός του κύκλου",
+     "en": "squaring the circle"
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "title": "Prefixes δι-, τρι-, τετρα-: διχοτόμηση, τριχοτόμηση",
+   "el": "Τα αριθμητικά προθήματα δείχνουν πόσα μέρη ή πόσες φορές.",
+   "en": "Number prefixes show “how many parts”: **δι-/δίχα** (two), **τρι-/τρίχα** (three), **τετρα-** (four), **πεντα-** (five), **πολυ-** (many): *διχοτόμηση* (cutting in two), *τριχοτόμηση* (in three), *τετράγωνο* (four-angled), *πεντάγωνο*, *πολύγωνο*. The second element -τομή/-τομος is from *τέμνω* (cut), as in *ανατομία* and *άτομο* (“uncuttable”).",
+   "examples": [
+    {
+     "el": "η διχοτόμος μιας γωνίας",
+     "en": "the bisector of an angle"
+    },
+    {
+     "el": "ένα κανονικό πεντάγωνο",
+     "en": "a regular pentagon"
+    },
+    {
+     "el": "το άτομο = α + τέμνω",
+     "en": "atom = not + cut"
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "title": "Αν… θα: consequences in explanations",
+   "el": "Σε εξηγήσεις χρησιμοποιούμε συχνά «αν» + ενεστώτα/αόριστο και στην κύρια πρόταση ενεστώτα.",
+   "en": "General truths and explanations use **αν** + present or aorist subjunctive with a **present** main clause: *αν διπλασιάσεις την πλευρά, ο όγκος γίνεται οκτώ φορές μεγαλύτερος*. The second person singular (*αν πάρεις…, βρίσκεις…*) is the usual “generic you” in instructions and maths classes.",
+   "examples": [
+    {
+     "el": "Αν διπλασιάσεις την πλευρά, ο όγκος γίνεται οκταπλάσιος.",
+     "en": "If you double the side, the volume becomes eightfold."
+    },
+    {
+     "el": "Αν φέρεις τη διαγώνιο, βλέπεις δύο τρίγωνα.",
+     "en": "If you draw the diagonal, you see two triangles."
+    },
+    {
+     "el": "Αν θέλεις, δοκίμασε.",
+     "en": "If you like, try it."
+    }
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "el": "η κατασκευή",
+   "en": "construction",
+   "def_el": "Στη γεωμετρία, ο σχεδιασμός ενός σχήματος με συγκεκριμένα εργαλεία.",
+   "def_en": "In geometry, drawing a figure with prescribed tools."
+  },
+  {
+   "el": "ο κανόνας",
+   "en": "straightedge; rule",
+   "def_el": "Χάρακας χωρίς υποδιαιρέσεις· και «κανόνας» με τη γενική σημασία.",
+   "def_en": "A ruler without markings; also a rule."
+  },
+  {
+   "el": "ο διαβήτης",
+   "en": "compasses; diabetes",
+   "def_el": "Όργανο για να σχεδιάζουμε κύκλους· και η ασθένεια διαβήτης.",
+   "def_en": "Instrument for drawing circles; also the disease."
+  },
+  {
+   "el": "το εμβαδόν",
+   "en": "area",
+   "def_el": "Το μέγεθος μιας επιφάνειας.",
+   "def_en": "The size of a surface."
+  },
+  {
+   "el": "ο όγκος",
+   "en": "volume",
+   "def_el": "Ο χώρος που πιάνει ένα στερεό.",
+   "def_en": "The space a solid occupies."
+  },
+  {
+   "el": "η τριχοτόμηση",
+   "en": "trisection",
+   "def_el": "Ο χωρισμός σε τρία ίσα μέρη.",
+   "def_en": "Division into three equal parts."
+  },
+  {
+   "el": "το μαντείο",
+   "en": "oracle",
+   "def_el": "Ιερό όπου οι άνθρωποι ζητούσαν συμβουλές από τους θεούς.",
+   "def_en": "Shrine where people consulted the gods."
+  },
+  {
+   "el": "υπερβατικός",
+   "en": "transcendental",
+   "def_el": "Αριθμός που δεν είναι ρίζα καμίας πολυωνυμικής εξίσωσης με ακέραιους συντελεστές.",
+   "def_en": "A number that is not a root of any integer polynomial."
+  }
+ ],
+ "gloss": {
+  "υποδιαιρέσεις": "υποδιαίρεση — subdivision",
+  "Αριστοφάνης": "Αριστοφάνης — Aristophanes",
+  "Όρνιθες": "οι Όρνιθες — The Birds, comedy by Aristophanes",
+  "διπλασιασμός": "διπλασιασμός — doubling (κλιτικός διπλασιασμός = clitic doubling)",
+  "Δήλιο": "Δήλιο — Delium (battle, 424 BC)",
+  "Δήλου": "Δήλος — Delos (sacred island)",
+  "μαντείο": "μαντείο — oracle (sanctuary)",
+  "βωμό": "βωμός — altar",
+  "Απόλλωνα": "Απόλλωνας — Apollo",
+  "σοφιστής": "σοφιστής — sophist",
+  "Καμπύλες": "καμπύλη — curve",
+  "Ευκλείδης": "Ευκλείδης — Euclid",
+  "τέμνω": "τέμνω — to cut (learned)",
+  "στερεό": "στερεός — solid",
+  "χάρακα": "χάρακας — ruler",
+  "χάρακας": "χάρακας — ruler",
+  "Χάρακας": "χάρακας — ruler",
+  "ευθύγραμμο": "ευθύγραμμος — straight (ευθύγραμμο τμήμα = line segment)",
+  "ισόπλευρο": "ισόπλευρος — equilateral",
+  "τετραγωνισμός": "τετραγωνισμός — squaring (of the circle)",
+  "τετραγωνισμό": "τετραγωνισμός — squaring (of the circle)",
+  "αστρονόμο": "αστρονόμος — astronomer",
+  "Μέτωνα": "Μέτων — Meton (Athenian astronomer, 5th c. BC)",
+  "διπλασιάσουν": "διπλασιάζω — to double",
+  "διπλασιάσεις": "διπλασιάζω — to double",
+  "διπλασιάζω": "διπλασιάζω — to double",
+  "διπλασιάζεται": "διπλασιάζω — to double",
+  "τριχοτόμηση": "τριχοτόμηση — trisection",
+  "διχοτόμηση": "διχοτόμηση — bisection",
+  "διχοτόμος": "διχοτόμος — bisector",
+  "τετραγωνίζουσα": "τετραγωνίζουσα — quadratrix (curve of Hippias)",
+  "άλγεβρα": "άλγεβρα — algebra",
+  "Βαντσέλ": "Βαντσέλ — Pierre Wantzel (French mathematician)",
+  "Φερδινάνδος": "Φερδινάνδος — Ferdinand (name)",
+  "Λίντεμαν": "Λίντεμαν — Ferdinand von Lindemann (German mathematician)",
+  "υπερβατικός": "υπερβατικός — transcendental",
+  "μοιρογνωμόνιο": "μοιρογνωμόνιο — protractor",
+  "άβακας": "άβακας — abacus",
+  "οκταπλάσιος": "οκταπλάσιος — eightfold",
+  "διαγώνιο": "διαγώνιος — diagonal",
+  "πολυωνυμικής": "πολυωνυμικός — polynomial (adj.)",
+  "εξίσωσης": "εξίσωση — equation",
+  "ακέραιους": "ακέραιος — whole; integer",
+  "Ιππίας": "Ιππίας — Hippias of Elis (sophist and mathematician)",
+  "ρητός": "ρητός — rational (number); explicit",
+  "φον": "φον — von (in German names)",
+  "πολύγωνο": "πολύγωνο — polygon"
+ },
+ "questions": [
+  {
+   "q": "Ποια εργαλεία επιτρέπονταν σε μια κλασική γεωμετρική κατασκευή;",
+   "options": [
+    "Κανόνας και διαβήτης",
+    "Χάρακας με υποδιαιρέσεις και μοιρογνωμόνιο",
+    "Μόνο διαβήτης",
+    "Καμπύλες και άβακας"
+   ],
+   "answer": "Κανόνας και διαβήτης",
+   "why": "Ο κανόνας δεν είχε υποδιαιρέσεις."
+  },
+  {
+   "q": "Ποιος κορόιδεψε τον τετραγωνισμό του κύκλου σε μια κωμωδία;",
+   "options": [
+    "Ο Αριστοφάνης",
+    "Ο Πλάτωνας",
+    "Ο Ευκλείδης",
+    "Ο Ιππίας"
+   ],
+   "answer": "Ο Αριστοφάνης",
+   "why": "Στους «Όρνιθες» (414 π.Χ.), με τον αστρονόμο Μέτωνα."
+  },
+  {
+   "q": "Αν διπλασιάσεις την πλευρά ενός κύβου, πόσες φορές μεγαλώνει ο όγκος;",
+   "options": [
+    "Οκτώ",
+    "Δύο",
+    "Τέσσερις",
+    "Έξι"
+   ],
+   "answer": "Οκτώ",
+   "why": "2 × 2 × 2 = 8."
+  },
+  {
+   "q": "Τι απέδειξε ο Λίντεμαν το 1882;",
+   "options": [
+    "Ότι ο π είναι υπερβατικός",
+    "Ότι η τριχοτόμηση είναι δυνατή",
+    "Ότι ο κύβος διπλασιάζεται",
+    "Ότι ο π είναι ρητός"
+   ],
+   "answer": "Ότι ο π είναι υπερβατικός",
+   "why": "Έτσι ο τετραγωνισμός του κύκλου είναι αδύνατος."
+  },
+  {
+   "q": "Τι σημαίνει σήμερα η φράση «τετραγωνισμός του κύκλου»;",
+   "options": [
+    "Μια αδύνατη προσπάθεια",
+    "Μια εύκολη λύση",
+    "Ένα παιχνίδι",
+    "Μια αρχαία γιορτή"
+   ],
+   "answer": "Μια αδύνατη προσπάθεια",
+   "why": "Όπως και στα αγγλικά."
+  }
+ ],
+ "vocab": [
+  "το εργαλείο",
+  "ο χάρακας",
+  "ο διαβήτης",
+  "σχεδιάζω",
+  "κατασκευάζω",
+  "το πρόβλημα",
+  "λύνω",
+  "αδύνατος",
+  "το εμβαδόν",
+  "ο κύβος",
+  "ο όγκος",
+  "διπλασιάζω",
+  "η επιδημία",
+  "η καμπύλη",
+  "οριστικός",
+  "αποδεικνύω"
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "text": "Wikipedia, “Squaring the circle”",
+   "url": "https://en.wikipedia.org/wiki/Squaring_the_circle"
+  },
+  {
+   "n": 2,
+   "text": "T. L. Heath, A History of Greek Mathematics, 2 vols., Oxford: Clarendon Press, 1921 (Internet Archive)",
+   "url": "https://archive.org/details/historyofgreekma01heat"
+  },
+  {
+   "n": 3,
+   "text": "Wikipedia, “Euclid's Elements”",
+   "url": "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+  },
+  {
+   "n": 4,
+   "text": "Αριστοφάνης, Όρνιθες 1001–1005 · Aristophanes, Birds (Meton's scene) (Perseus Digital Library)",
+   "url": "https://www.perseus.tufts.edu/hopper/text?doc=Aristoph.+Birds+992"
+  },
+  {
+   "n": 5,
+   "text": "Wikipedia, “Lune of Hippocrates”",
+   "url": "https://en.wikipedia.org/wiki/Lune_of_Hippocrates"
+  },
+  {
+   "n": 6,
+   "text": "Wikipedia, “Doubling the cube”",
+   "url": "https://en.wikipedia.org/wiki/Doubling_the_cube"
+  },
+  {
+   "n": 7,
+   "text": "Wikipedia, “Angle trisection”",
+   "url": "https://en.wikipedia.org/wiki/Angle_trisection"
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "kind": "bilingual",
+ "el": "Επιστήμη και τεχνολογία",
+ "title": "Science and technology: from the Antikythera mechanism to CERN",
+ "intro_el": "Από τον μηχανισμό των Αντικυθήρων και το τούνελ του Ευπαλίνου ως τους σεισμούς της Σαντορίνης, την κλιματική κρίση, τον Ευρωπαϊκό Οργανισμό Πυρηνικών Ερευνών, το διάστημα και την τεχνητή νοημοσύνη: η επιστήμη και η τεχνολογία με ελληνική ματιά, και η ελληνική γλώσσα που μιλά κάθε επιστήμη. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1+ και ανεβαίνουν ως το Γ1.",
+ "intro_en": "From the Antikythera mechanism and the tunnel of Eupalinos to the earthquakes of Santorini, the climate crisis, CERN, space and artificial intelligence: science and technology seen from Greece, and the Greek that every science speaks. The Greek text starts around B1+ and rises to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes on the structures it uses, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+ "parts": [
+  {
+   "id": "archaia-techni",
+   "el": "Η επιστήμη και η τεχνολογία των αρχαίων",
+   "en": "Ancient science and technology",
+   "dates": "6ος αι. π.Χ. – 1ος αι. μ.Χ.",
+   "intro_el": "Ο μηχανισμός των Αντικυθήρων, το τούνελ του Ευπαλίνου, οι μηχανές της Αλεξάνδρειας, η ιδέα του ατόμου και ο Αριστοτέλης ως βιολόγος.",
+   "intro_en": "The Antikythera mechanism, the tunnel of Eupalinos, the machines of Alexandria, the idea of the atom, and Aristotle as a biologist."
+  },
+  {
+   "id": "gi-ouranos",
+   "el": "Η Γη και ο ουρανός",
+   "en": "The Earth and the sky",
+   "dates": "σήμερα",
+   "intro_el": "Οι σεισμοί και τα ηφαίστεια της Ελλάδας, η κλιματική κρίση, η ενέργεια του ήλιου και του ανέμου, και το διάστημα με ελληνικά ονόματα.",
+   "intro_en": "Greece's earthquakes and volcanoes, the climate crisis, energy from sun and wind, and space with Greek names."
+  },
+  {
+   "id": "synchroni",
+   "el": "Η σύγχρονη επιστήμη και η ελληνική γλώσσα",
+   "en": "Modern science and the Greek language",
+   "dates": "20ός–21ος αι.",
+   "intro_el": "Η ελληνική γλώσσα της επιστήμης, το CERN και τα σωματίδια, ο ψηφιακός κόσμος και η τεχνητή νοημοσύνη, και οι Έλληνες ερευνητές στην Ελλάδα και στον κόσμο.",
+   "intro_en": "The Greek language of science, CERN and its particles, the digital world and artificial intelligence, and Greek researchers at home and abroad."
+  }
+ ],
+ "items": [
+  {
+   "id": "antikythira",
+   "file": "antikythira.json",
+   "el": "Ο μηχανισμός των Αντικυθήρων",
+   "title": "The Antikythera mechanism",
+   "level": "B1+",
+   "part": "archaia-techni",
+   "dates": "2ος αι. π.Χ. – σήμερα"
+  },
+  {
+   "id": "efpalineio",
+   "file": "efpalineio.json",
+   "el": "Το τούνελ του Ευπαλίνου",
+   "title": "The tunnel of Eupalinos",
+   "level": "B1+",
+   "part": "archaia-techni",
+   "dates": "6ος αι. π.Χ."
+  },
+  {
+   "id": "michanes",
+   "file": "michanes.json",
+   "el": "Οι μηχανές της Αλεξάνδρειας",
+   "title": "The machines of Alexandria",
+   "level": "B2",
+   "part": "archaia-techni",
+   "dates": "3ος αι. π.Χ. – 1ος αι. μ.Χ."
+  },
+  {
+   "id": "atomo",
+   "file": "atomo.json",
+   "el": "Από το άτομο του Δημόκριτου στο ηλεκτρόνιο",
+   "title": "From Democritus' atom to the electron",
+   "level": "B2",
+   "part": "archaia-techni",
+   "dates": "5ος αι. π.Χ. – 20ός αι."
+  },
+  {
+   "id": "aristotelis-zoa",
+   "file": "aristotelis-zoa.json",
+   "el": "Ο Αριστοτέλης στη λιμνοθάλασσα",
+   "title": "Aristotle in the lagoon",
+   "level": "B2",
+   "part": "archaia-techni",
+   "dates": "4ος αι. π.Χ."
+  },
+  {
+   "id": "seismoi",
+   "file": "seismoi.json",
+   "el": "Μια χώρα που σείεται",
+   "title": "A country that shakes",
+   "level": "B2",
+   "part": "gi-ouranos",
+   "dates": "σήμερα"
+  },
+  {
+   "id": "santorini",
+   "file": "santorini.json",
+   "el": "Σαντορίνη: το νησί του ηφαιστείου",
+   "title": "Santorini: the volcano island",
+   "level": "B2",
+   "part": "gi-ouranos",
+   "dates": "περ. 1600 π.Χ. – σήμερα"
+  },
+  {
+   "id": "klima",
+   "file": "klima.json",
+   "el": "Η κλιματική κρίση στην Ελλάδα",
+   "title": "The climate crisis in Greece",
+   "level": "B2+",
+   "part": "gi-ouranos",
+   "dates": "21ος αι."
+  },
+  {
+   "id": "energeia",
+   "file": "energeia.json",
+   "el": "Ήλιος, άνεμος και λιγνίτης",
+   "title": "Sun, wind and lignite",
+   "level": "B2+",
+   "part": "gi-ouranos",
+   "dates": "20ός–21ος αι."
+  },
+  {
+   "id": "diastima",
+   "file": "diastima.json",
+   "el": "Το διάστημα με ελληνικά ονόματα",
+   "title": "Space with Greek names",
+   "level": "B2+",
+   "part": "gi-ouranos",
+   "dates": "αρχαιότητα – σήμερα"
+  },
+  {
+   "id": "glossa-epistimis",
+   "file": "glossa-epistimis.json",
+   "el": "Η γλώσσα της επιστήμης",
+   "title": "The language of science",
+   "level": "B2+",
+   "part": "synchroni",
+   "dates": "αρχαιότητα – σήμερα"
+  },
+  {
+   "id": "cern",
+   "file": "cern.json",
+   "el": "Το CERN και τα σωματίδια",
+   "title": "CERN and the particles",
+   "level": "B2+",
+   "part": "synchroni",
+   "dates": "1954 – σήμερα"
+  },
+  {
+   "id": "psifiaki",
+   "file": "psifiaki.json",
+   "el": "Ο ψηφιακός κόσμος και η τεχνητή νοημοσύνη",
+   "title": "The digital world and artificial intelligence",
+   "level": "C1",
+   "part": "synchroni",
+   "dates": "20ός–21ος αι."
+  },
+  {
+   "id": "erevna",
+   "file": "erevna.json",
+   "el": "Έλληνες ερευνητές: φυγή και επιστροφή",
+   "title": "Greek researchers: leaving and returning",
+   "level": "C1",
+   "part": "synchroni",
+   "dates": "20ός–21ος αι."
+  }
+ ]
+}

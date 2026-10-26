@@ -1,0 +1,384 @@
+{
+ "id": "archimidis",
+ "el": "Ο Αρχιμήδης",
+ "title": "Archimedes",
+ "level": "B2",
+ "dates": "περ. 287–212 π.Χ.",
+ "part": "mathimatika-b",
+ "image": {
+  "file": "img/reader/legacy-archimedes.jpg",
+  "caption": "Ο Αρχιμήδης, πίνακας του Domenico Fetti (1620)",
+  "credit": "Domenico Fetti, Archimedes Thoughtful (1620, Gemäldegalerie Alte Meister, Dresden) · Wikimedia Commons",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg"
+ },
+ "summary_en": "Archimedes of Syracuse was the greatest mathematician of antiquity and a famous engineer. He estimated π with remarkable accuracy, found the area and volume of the sphere, counted the grains of sand that would fill the universe, and in a lost-and-found treatise called The Method came close to the ideas of integral calculus. Stories about his bath, his lever and his death have made him a legend, and a 10th-century manuscript of his works, scraped and reused as a prayer book, was recovered only in the 20th century.",
+ "sections": [
+  {
+   "id": "syrakouses",
+   "el": "Ένας μηχανικός από τις Συρακούσες",
+   "en": "An engineer from Syracuse",
+   "paras": [
+    {
+     "el": "Ο Αρχιμήδης γεννήθηκε στις Συρακούσες της Σικελίας γύρω στο 287 π.Χ. Ο πατέρας του, ο Φειδίας, ήταν αστρονόμος. Ίσως σπούδασε στην Αλεξάνδρεια· σίγουρα αλληλογραφούσε με μαθηματικούς εκεί, όπως ο Ερατοσθένης. Ήταν φίλος του βασιλιά Ιέρωνα Β΄ και κατασκεύαζε μηχανές για την πόλη του.",
+     "en": "Archimedes was born in Syracuse, the greatest Greek city of Sicily, around 287 BC; the date comes from a Byzantine report that he died aged 75. He tells us himself, in the Sand Reckoner, that his father Phidias was an astronomer. He may have studied in Alexandria, and he certainly corresponded with mathematicians there, including Eratosthenes, to whom he dedicated The Method. He was a friend, perhaps a relative, of King Hieron II, and built machines for the city: the water-raising screw named after him, compound pulleys, and later war engines.",
+     "cite": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "el": "Η πιο γνωστή ιστορία είναι του Βιτρουβίου: ο βασιλιάς ήθελε να μάθει αν ένα στεφάνι ήταν από καθαρό χρυσάφι. Ο Αρχιμήδης βρήκε τη λύση μπαίνοντας στο λουτρό, όταν είδε το νερό να ανεβαίνει. Πετάχτηκε έξω και έτρεξε γυμνός στους δρόμους φωνάζοντας «Εύρηκα!». Η ιστορία είναι μάλλον μεταγενέστερη, αλλά η λέξη έμεινε σε όλες τις γλώσσες.",
+     "en": "The most famous story is told by the Roman architect Vitruvius two centuries later: King Hieron wanted to know whether a votive crown was pure gold or mixed with silver. Archimedes found the answer on entering a bath, when he saw the water rise as his body sank in: a given weight of silver takes up more volume than the same weight of gold, so the crown would displace more water than an equal weight of gold. He leapt out and ran home naked shouting “Heureka!” (“I have found it!”). Historians doubt the details, and suggest Archimedes would rather have used his own law of buoyancy, set out in On Floating Bodies; but the word εύρηκα has entered every language.",
+     "cite": [
+      4,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mathimatika",
+   "el": "Τα μαθηματικά του",
+   "en": "His mathematics",
+   "paras": [
+    {
+     "el": "Στη «Μέτρηση του κύκλου» ο Αρχιμήδης έβαλε τον κύκλο ανάμεσα σε δύο κανονικά πολύγωνα με 96 πλευρές και βρήκε ότι ο αριθμός π είναι ανάμεσα στο 3 10/71 και στο 3 1/7, δηλαδή περίπου 3,14. Στο έργο «Περί σφαίρας και κυλίνδρου» απέδειξε ότι η σφαίρα έχει τα δύο τρίτα του όγκου και της επιφάνειας του κυλίνδρου που την περιβάλλει.",
+     "en": "In the Measurement of a Circle Archimedes trapped the circle between inscribed and circumscribed regular polygons of 96 sides and proved that π lies between 3 10/71 and 3 1/7 (about 3.1408 and 3.1429), still the source of the school approximation 22/7. In On the Sphere and Cylinder he proved that a sphere has two-thirds of the volume and two-thirds of the surface area of the cylinder that encloses it. He was so proud of this result that he asked for a sphere and cylinder to be carved on his tomb; when Cicero was quaestor in Sicily in 75 BC he found the neglected tomb, overgrown with brambles, by this very carving.",
+     "cite": [
+      1,
+      5,
+      6
+     ]
+    },
+    {
+     "el": "Στον «Ψαμμίτη» ο Αρχιμήδης υπολόγισε πόσοι κόκκοι άμμου θα χωρούσαν σε ολόκληρο το σύμπαν. Για να το κάνει, επινόησε ένα σύστημα για πολύ μεγάλους αριθμούς, πολύ μεγαλύτερους από τη μυριάδα των μυριάδων. Βρήκε ότι οι κόκκοι είναι λιγότεροι από 10⁶³, όπως θα λέγαμε σήμερα. Στο ίδιο έργο αναφέρει και την ηλιοκεντρική θεωρία του Αρίσταρχου.",
+     "en": "In the Sand Reckoner (Ψαμμίτης), addressed to King Gelon, Archimedes calculated how many grains of sand would fill the whole universe, in reply to people who said the number was infinite or could not be named. To do so he invented a system for very large numbers, far beyond the myriad of myriads (100 million), the largest number with a Greek name, by grouping them in “orders” and “periods”. His answer, in modern notation, is fewer than 10⁶³ grains. In passing the work preserves our main evidence for Aristarchus' heliocentric hypothesis (see the chapter on astronomy).",
+     "cite": [
+      7,
+      1
+     ]
+    },
+    {
+     "el": "Ο Αρχιμήδης βρήκε επίσης τον νόμο του μοχλού, και του αποδίδεται η φράση «Δος μοι πα στω και ταν γαν κινάσω»: «Δώσε μου ένα σημείο να σταθώ και θα κινήσω τη Γη». Μελέτησε τα σώματα που επιπλέουν και διατύπωσε την «αρχή του Αρχιμήδη»: ένα σώμα μέσα σε υγρό δέχεται άνωση ίση με το βάρος του υγρού που εκτοπίζει.",
+     "en": "Archimedes also proved the law of the lever (On the Equilibrium of Planes), and Pappus attributes to him the saying, in his Doric dialect, «δός μοι πᾶ στῶ καὶ τὰν γᾶν κινάσω», “give me a place to stand and I will move the Earth”. In On Floating Bodies he formulated what is now called Archimedes' principle: a body immersed in a fluid is buoyed up by a force equal to the weight of the fluid it displaces, the foundation of hydrostatics. He found the area of a segment of a parabola (4/3 of an inscribed triangle) by summing an infinite geometric series, the first known such summation.",
+     "cite": [
+      1,
+      2,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "palimpsisto",
+   "el": "Ο θάνατος και το παλίμψηστο",
+   "en": "Death and the palimpsest",
+   "paras": [
+    {
+     "el": "Το 212 π.Χ. οι Ρωμαίοι κατέλαβαν τις Συρακούσες μετά από μακρά πολιορκία· οι μηχανές του Αρχιμήδη είχαν καθυστερήσει την κατάληψη. Ο Πλούταρχος γράφει ότι ένας Ρωμαίος στρατιώτης τον σκότωσε ενώ μελετούσε ένα γεωμετρικό σχήμα, αν και ο στρατηγός Μάρκελλος είχε δώσει διαταγή να τον αφήσουν ζωντανό. Τα λόγια «Μη μου τους κύκλους τάραττε» αποδίδονται σε αυτόν από μεταγενέστερη παράδοση.",
+     "en": "In 212 BC the Romans captured Syracuse after a long siege, which, according to Polybius and Plutarch, Archimedes' war machines had prolonged: catapults and a “claw” that lifted ships out of the water (the story of burning mirrors is much later and doubtful). Plutarch gives several versions of his death; in the best known, a Roman soldier killed him while he was absorbed in a geometrical diagram, although the general Marcellus had ordered that he be spared. The words «μή μου τοὺς κύκλους τάραττε», “do not disturb my circles”, are attributed to him by later tradition; in modern Greek the phrase is used to mean “leave me alone, I'm concentrating”.",
+     "cite": [
+      2,
+      1
+     ]
+    },
+    {
+     "el": "Το 1906 ο Δανός φιλόλογος Γιόχαν Χάιμπεργκ ανακάλυψε στην Κωνσταντινούπολη ένα βυζαντινό χειρόγραφο του 10ου αιώνα με έργα του Αρχιμήδη. Τον 13ο αιώνα κάποιος είχε ξύσει το κείμενο και είχε γράψει από πάνω προσευχές. Ένα τέτοιο χειρόγραφο λέγεται «παλίμψηστο». Μέσα του βρέθηκε το μόνο αντίγραφο της «Μεθόδου», όπου ο Αρχιμήδης εξηγεί πώς έβρισκε τα αποτελέσματά του.",
+     "en": "In 1906 the Danish philologist Johan Ludvig Heiberg identified in Constantinople a 10th-century Byzantine manuscript of Archimedes' works. In 1229 its parchment had been scraped, cut and reused for a prayer book: such a manuscript is called a palimpsest (παλίμψηστον, “scraped again”). Under the prayers lay the only surviving copy of The Method of Mechanical Theorems, in which Archimedes explains how he discovered his results by imagining figures as made of infinitely many thin slices balanced on a lever, an approach strikingly close to integral calculus, as well as the only Greek text of On Floating Bodies and part of a puzzle, the Stomachion. The manuscript disappeared, resurfaced in poor condition, was sold at auction in 1998, and was studied with multispectral imaging and X-rays at the Walters Art Museum in Baltimore between 1999 and 2008, revealing passages Heiberg could not read.",
+     "cite": [
+      8,
+      3
+     ]
+    }
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "level": "B2",
+   "title": "Αποδίδεται σε: is attributed to",
+   "el": "«Αποδίδω κάτι σε κάποιον» σημαίνει ότι λέω πως είναι δικό του. Παθητικό: «αποδίδεται σε».",
+   "en": "**Αποδίδω** + accusative + **σε** + accusative = “attribute something to someone”; the passive **αποδίδεται / αποδίδονται σε** (is/are attributed to) is common in history writing for sayings and works of uncertain origin: *η φράση αποδίδεται στον Αρχιμήδη*. *Αποδίδω* also means “to render, translate” and “to yield, pay off”.",
+   "examples": [
+    {
+     "el": "Η φράση αποδίδεται στον Αρχιμήδη.",
+     "en": "The phrase is attributed to Archimedes."
+    },
+    {
+     "el": "Του αποδίδουν πολλές εφευρέσεις.",
+     "en": "Many inventions are attributed to him."
+    },
+    {
+     "el": "Η προσπάθεια απέδωσε.",
+     "en": "The effort paid off."
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "title": "Pluperfect passive: είχε ξύσει vs είχε ξυστεί",
+   "el": "Ο υπερσυντέλικος: είχε + απαρέμφατο. Ενεργητικό σε -ει (είχε ξύσει), παθητικό σε -θεί (είχε ξυστεί).",
+   "en": "The pluperfect uses **είχα** + the invariable form: active in **-ει** (*κάποιος είχε ξύσει το κείμενο*, someone had scraped the text), passive in **-θεί / -τεί** (*το κείμενο είχε ξυστεί*, the text had been scraped). Compare *είχε δώσει διαταγή* (had given an order) and *είχε δοθεί διαταγή* (an order had been given).",
+   "examples": [
+    {
+     "el": "Είχε δώσει διαταγή.",
+     "en": "He had given an order."
+    },
+    {
+     "el": "Το κείμενο είχε ξυστεί.",
+     "en": "The text had been scraped off."
+    },
+    {
+     "el": "Είχαν γράψει προσευχές από πάνω.",
+     "en": "They had written prayers on top."
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "title": "Ancient words still alive: εύρηκα, άνωση",
+   "el": "Μερικές αρχαίες μορφές λέγονται ακόμα: «Εύρηκα!» (= το βρήκα!).",
+   "en": "Some **ancient forms** survive intact in modern use: *εύρηκα* (perfect of *εὑρίσκω*, “I have found”; modern *βρήκα*), *άνωση* (buoyancy, from *ἄνω* “up”), *μη μου τους κύκλους τάραττε* (don't disturb my circles). Modern Greek uses them as fixed expressions, not productive grammar.",
+   "examples": [
+    {
+     "el": "Εύρηκα! (= Το βρήκα!)",
+     "en": "Eureka! (= I've found it!)"
+    },
+    {
+     "el": "η αρχή του Αρχιμήδη",
+     "en": "Archimedes' principle"
+    },
+    {
+     "el": "Μη μου τους κύκλους τάραττε!",
+     "en": "Don't disturb my circles!"
+    }
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "el": "ο μηχανικός",
+   "en": "engineer",
+   "def_el": "Αυτός που σχεδιάζει και κατασκευάζει μηχανές, δρόμους, κτίρια.",
+   "def_en": "One who designs and builds machines or structures."
+  },
+  {
+   "el": "ο μοχλός",
+   "en": "lever",
+   "def_el": "Ράβδος που περιστρέφεται γύρω από ένα σημείο και πολλαπλασιάζει τη δύναμη.",
+   "def_en": "A bar pivoting on a point to multiply force."
+  },
+  {
+   "el": "η άνωση",
+   "en": "buoyancy",
+   "def_el": "Η δύναμη που σπρώχνει προς τα πάνω ένα σώμα μέσα σε υγρό.",
+   "def_en": "The upward force on a body in a fluid."
+  },
+  {
+   "el": "εκτοπίζω",
+   "en": "displace",
+   "def_el": "Παίρνω τη θέση κάποιου και τον σπρώχνω έξω.",
+   "def_en": "To take the place of something, pushing it aside."
+  },
+  {
+   "el": "η σφαίρα",
+   "en": "sphere; ball; bullet",
+   "def_el": "Στερεό στο οποίο όλα τα σημεία απέχουν το ίδιο από το κέντρο.",
+   "def_en": "A solid whose points are all equidistant from the centre."
+  },
+  {
+   "el": "η πολιορκία",
+   "en": "siege",
+   "def_el": "Όταν ένας στρατός περικυκλώνει μια πόλη για να την κυριεύσει.",
+   "def_en": "When an army surrounds a city to take it."
+  },
+  {
+   "el": "το παλίμψηστο",
+   "en": "palimpsest",
+   "def_el": "Χειρόγραφο όπου το παλιό κείμενο ξύστηκε και γράφτηκε νέο από πάνω.",
+   "def_en": "A manuscript scraped and rewritten."
+  },
+  {
+   "el": "το χειρόγραφο",
+   "en": "manuscript",
+   "def_el": "Βιβλίο ή κείμενο γραμμένο με το χέρι.",
+   "def_en": "A book or text written by hand."
+  }
+ ],
+ "gloss": {
+  "Αρχιμήδη": "Αρχιμήδης — Archimedes",
+  "Στερεό": "στερεός — solid",
+  "μυριάδα": "μυριάδα — myriad (10,000; countless)",
+  "πολύγωνα": "πολύγωνο — polygon",
+  "θεί": "-θεί — passive subjunctive ending",
+  "Ψαμμίτη": "Ψαμμίτης — The Sand-Reckoner (Archimedes)",
+  "Αρίσταρχου": "Αρίσταρχος — Aristarchus",
+  "κατάληψη": "κατάληψη — capture, occupation",
+  "Συρακούσες": "Συρακούσες — Syracuse",
+  "Αρχιμήδης": "Αρχιμήδης — Archimedes",
+  "Σικελίας": "Σικελία — Sicily",
+  "Φειδίας": "Φειδίας — Phidias, sculptor",
+  "αστρονόμος": "αστρονόμος — astronomer",
+  "αλληλογραφούσε": "αλληλογραφώ — to correspond (by letter)",
+  "Ερατοσθένης": "Ερατοσθένης — Eratosthenes",
+  "κόκκοι": "ο κόκκος — grain, seed",
+  "μοι": "εγώ (αρχ. μοι) — to me",
+  "στω": "ίσταμαι (αρχ. στῶ) — (that) I may stand",
+  "γαν": "γη (δωρ. γᾶν = γῆν) — the earth",
+  "κινάσω": "κινώ (δωρ. κινάσω) — I will move",
+  "άνωση": "άνωση — buoyancy",
+  "εκτοπίζει": "εκτοπίζω — to displace",
+  "πολιορκία": "η πολιορκία — siege",
+  "Πλούταρχος": "Πλούταρχος — Plutarch, writer (c. 46–after 119 AD)",
+  "τάραττε": "τάραττε — disturb (ancient imperative)",
+  "χειρόγραφο": "χειρόγραφο — manuscript",
+  "Χειρόγραφο": "χειρόγραφο — manuscript",
+  "απαρέμφατο": "απαρέμφατο — infinitive",
+  "εκτοπίζω": "εκτοπίζω — to deport, to displace",
+  "περικυκλώνει": "περικυκλώνω — surround, encircle",
+  "αλληλογραφώ": "αλληλογραφώ — to correspond (by letter)",
+  "Εύρηκα": "εύρηκα — I have found it! (ancient perfect of βρίσκω)",
+  "περιβάλλει": "περιβάλλω — to surround",
+  "επιπλέουν": "επιπλέω — to float",
+  "Ράβδος": "ράβδος — rod, bar",
+  "ηλιοκεντρική": "ηλιοκεντρικός — heliocentric",
+  "Ιέρωνα": "Ιέρων — Hiero II (king of Syracuse)",
+  "Βιτρουβίου": "Βιτρούβιος — Vitruvius (Roman architect)",
+  "μυριάδων": "μυριάδα — myriad (10,000)",
+  "παλίμψηστο": "παλίμψηστο — palimpsest",
+  "Μάρκελλος": "Μάρκελλος — Marcellus (Roman general)",
+  "Δανός": "Δανός — Dane, Danish",
+  "Γιόχαν": "Γιόχαν Χάιμπεργκ — Johan Ludvig Heiberg (Danish philologist)",
+  "Χάιμπεργκ": "Γιόχαν Χάιμπεργκ — Johan Ludvig Heiberg (Danish philologist)",
+  "ξαναγράφτηκε": "ξαναγράφω — to rewrite, write over",
+  "πολύγωνο": "πολύγωνο — polygon",
+  "Ψαμμίτης": "Ψαμμίτης — the Sand Reckoner (work by Archimedes)",
+  "εφευρέσεις": "εφεύρεση — invention",
+  "κυριεύσει": "κυριεύω — to capture, conquer",
+  "πετάγομαι": "πετάγομαι — to jump up, spring out",
+  "κόκκος": "κόκκος — grain",
+  "επιπλέω": "επιπλέω — to float",
+  "πα": "πα (δωρ.) — where (Doric for πη)",
+  "ταν": "ο, η, το (δωρ. τάν = τήν) — the",
+  "περ": "περίπου — about, circa (abbr.)"
+ },
+ "questions": [
+  {
+   "q": "Τι προσπαθούσε να μάθει ο βασιλιάς Ιέρων για το στεφάνι;",
+   "options": [
+    "Αν ήταν από καθαρό χρυσάφι",
+    "Πόσο ζύγιζε",
+    "Ποιος το έφτιαξε",
+    "Πόσο κόστιζε"
+   ],
+   "answer": "Αν ήταν από καθαρό χρυσάφι",
+   "why": "Ο Αρχιμήδης βρήκε τη λύση στο λουτρό."
+  },
+  {
+   "q": "Ανάμεσα σε ποιους αριθμούς βρήκε ο Αρχιμήδης ότι είναι ο π;",
+   "options": [
+    "3 10/71 και 3 1/7",
+    "3 και 4",
+    "3,1 και 3,2",
+    "22 και 7"
+   ],
+   "answer": "3 10/71 και 3 1/7",
+   "why": "Με πολύγωνα 96 πλευρών."
+  },
+  {
+   "q": "Τι ήθελε ο Αρχιμήδης να χαραχτεί στον τάφο του;",
+   "options": [
+    "Σφαίρα και κύλινδρος",
+    "Ένας μοχλός",
+    "Ο αριθμός π",
+    "Ένα στεφάνι"
+   ],
+   "answer": "Σφαίρα και κύλινδρος",
+   "why": "Ο Κικέρωνας βρήκε τον τάφο έτσι το 75 π.Χ."
+  },
+  {
+   "q": "Τι είναι ένα παλίμψηστο;",
+   "options": [
+    "Χειρόγραφο που ξύστηκε και ξαναγράφτηκε",
+    "Ένα όργανο μέτρησης",
+    "Ένα πολύγωνο",
+    "Μια μηχανή πολέμου"
+   ],
+   "answer": "Χειρόγραφο που ξύστηκε και ξαναγράφτηκε",
+   "why": "Από το «πάλιν» και «ψάω», ξύνω."
+  },
+  {
+   "q": "Ποιο έργο σώθηκε μόνο στο παλίμψηστο;",
+   "options": [
+    "Η «Μέθοδος»",
+    "Ο «Ψαμμίτης»",
+    "Η «Μέτρηση του κύκλου»",
+    "Τα «Στοιχεία»"
+   ],
+   "answer": "Η «Μέθοδος»",
+   "why": "Εκεί εξηγεί πώς έβρισκε τα αποτελέσματά του."
+  }
+ ],
+ "vocab": [
+  "ο μηχανικός",
+  "η μηχανή",
+  "αλληλογραφώ",
+  "το στεφάνι",
+  "το χρυσάφι",
+  "το λουτρό",
+  "πετάγομαι",
+  "η επιφάνεια",
+  "ο τάφος",
+  "η άμμος",
+  "ο κόκκος",
+  "το σύμπαν",
+  "ο μοχλός",
+  "επιπλέω",
+  "το βάρος",
+  "ξύνω"
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "text": "MacTutor, “Archimedes of Syracuse”",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/"
+  },
+  {
+   "n": 2,
+   "text": "Wikipedia, “Archimedes”",
+   "url": "https://en.wikipedia.org/wiki/Archimedes"
+  },
+  {
+   "n": 3,
+   "text": "R. Netz & W. Noel, The Archimedes Codex, Weidenfeld & Nicolson, 2007",
+   "url": "https://search.worldcat.org/search?q=The%20Archimedes%20Codex"
+  },
+  {
+   "n": 4,
+   "text": "Vitruvius, De architectura 9, preface 9–12 (the “Eureka” story)",
+   "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/9*.html"
+  },
+  {
+   "n": 5,
+   "text": "Cicero, Tusculan Disputations 5.64–66 (discovery of Archimedes' tomb)",
+   "url": "https://www.thelatinlibrary.com/cicero/tusc5.shtml"
+  },
+  {
+   "n": 6,
+   "text": "T. L. Heath, A History of Greek Mathematics, 2 vols., Oxford: Clarendon Press, 1921 (Internet Archive)",
+   "url": "https://archive.org/details/historyofgreekma01heat"
+  },
+  {
+   "n": 7,
+   "text": "Wikipedia, “The Sand Reckoner”",
+   "url": "https://en.wikipedia.org/wiki/The_Sand_Reckoner"
+  },
+  {
+   "n": 8,
+   "text": "Wikipedia, “Archimedes Palimpsest”",
+   "url": "https://en.wikipedia.org/wiki/Archimedes_Palimpsest"
+  }
+ ]
+}

@@ -1,0 +1,317 @@
+{
+ "id": "apeiro",
+ "el": "Το άπειρο: Ζήνων και Εύδοξος",
+ "title": "The infinite: Zeno and Eudoxus",
+ "level": "B2",
+ "dates": "5ος–4ος αι. π.Χ.",
+ "part": "mathimatika-a",
+ "image": {
+  "file": "img/philosophers/zeno-elea.jpg",
+  "caption": "Προτομή του Ζήνωνα, χαρακτικό του Γιαν ντε Μπίσοπ (1666–1671).",
+  "caption_en": "Bust of Zeno, etching by Jan de Bisschop (1666–1671).",
+  "credit": "Jan de Bisschop, Paradigmata graphices, Rijksmuseum RP-P-1907-4495",
+  "license": "CC0 (Rijksmuseum)",
+  "source": "https://commons.wikimedia.org/wiki/File:Portretbuste_van_Zeno_van_Elea_Paradigmata_graphices_variorum_artificum_(serietitel),_RP-P-1907-4495.jpg"
+ },
+ "summary_en": "Zeno of Elea's paradoxes, such as Achilles and the tortoise, challenged the very possibility of motion by dividing distances endlessly. Greek mathematicians answered not by banning the infinite but by taming it: Eudoxus of Cnidus built a theory of ratios that works even for incommensurable magnitudes, and a “method of exhaustion” that proves results about areas and volumes by squeezing them between ever closer approximations. Both ideas anticipate the foundations of modern calculus.",
+ "sections": [
+  {
+   "id": "zinon",
+   "el": "Τα παράδοξα του Ζήνωνα",
+   "en": "Zeno's paradoxes",
+   "paras": [
+    {
+     "el": "Ο Ζήνων ο Ελεάτης, μαθητής του Παρμενίδη, έζησε τον 5ο αιώνα π.Χ. Έγινε γνωστός για τα «παράδοξά» του, επιχειρήματα που φαίνεται να αποδεικνύουν ότι η κίνηση είναι αδύνατη. Το πιο φημισμένο είναι ο Αχιλλέας και η χελώνα: ο γρήγορος Αχιλλέας δεν μπορεί ποτέ να φτάσει μια χελώνα που ξεκίνησε πιο μπροστά.",
+     "en": "Zeno of Elea, a pupil of Parmenides, lived in the 5th century BC (see the Philosophers reader). He became famous for his paradoxes, arguments that seem to prove that motion is impossible, probably meant to defend Parmenides' view that change is an illusion. The best known, preserved by Aristotle in the Physics, is Achilles and the tortoise: swift Achilles can never catch a tortoise that starts ahead of him, because by the time he reaches where it was, it has moved a little further, and so on without end.",
+     "cite": [
+      1,
+      2
+     ]
+    },
+    {
+     "el": "Ένα άλλο παράδοξο, η «διχοτομία», λέει ότι για να διασχίσεις έναν δρόμο πρέπει πρώτα να φτάσεις στη μέση, μετά στη μέση του υπόλοιπου, και ούτω καθεξής: άπειρα βήματα σε πεπερασμένο χρόνο. Σήμερα λέμε ότι το άθροισμα 1/2 + 1/4 + 1/8 + … είναι ίσο με 1. Οι Έλληνες όμως δεν είχαν ακόμα την έννοια του ορίου.",
+     "en": "Another, the Dichotomy, argues that to cross a road you must first reach the halfway point, then half of the remaining distance, and so on: infinitely many steps to complete in a finite time. A third, the Arrow, says that a flying arrow is at rest at every instant, so it never moves. Modern mathematics answers the first two with the idea of a convergent series: the infinite sum 1/2 + 1/4 + 1/8 + … equals 1, so infinitely many ever-shorter steps can take a finite time. The Greeks did not have the concept of a limit in this form, but Aristotle answered with a distinction between the potential infinite (a process that can always go on) and the actual infinite (a completed infinite totality), which he rejected; philosophers still debate whether calculus fully disposes of Zeno.",
+     "cite": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "evdoxos",
+   "el": "Ο Εύδοξος ο Κνίδιος",
+   "en": "Eudoxus of Cnidus",
+   "paras": [
+    {
+     "el": "Ο Εύδοξος από την Κνίδο (4ος αιώνας π.Χ.) ήταν ίσως ο μεγαλύτερος μαθηματικός πριν από τον Αρχιμήδη. Είχε σπουδάσει για λίγο στην Ακαδημία του Πλάτωνα. Έφτιαξε μια θεωρία των αναλογιών που ισχύει και για τα άρρητα μεγέθη. Ο Ευκλείδης την παρουσιάζει στο πέμπτο βιβλίο των «Στοιχείων».",
+     "en": "Eudoxus of Cnidus (4th century BC) was perhaps the greatest mathematician before Archimedes, and also an astronomer, geographer and physician. He studied for a time at Plato's Academy and later founded his own school at Cyzicus. He created a theory of proportion that works for incommensurable magnitudes as well as commensurable ones: two ratios are equal if, for all whole-number multiples, the multiples of the first pair compare in the same way as those of the second. Euclid presents it in Book V of the Elements, and 19th-century mathematicians noticed that Dedekind's definition of the real numbers (1872) closely resembles it.",
+     "cite": [
+      3,
+      4,
+      5
+     ]
+    },
+    {
+     "el": "Ο Εύδοξος επινόησε επίσης τη «μέθοδο της εξάντλησης». Για να βρει το εμβαδόν ενός κύκλου, π.χ., τον γέμιζε με πολύγωνα με όλο και περισσότερες πλευρές, που πλησίαζαν όλο και περισσότερο τον κύκλο. Με αυτόν τον τρόπο απέδειξε ότι ο όγκος του κώνου είναι το ένα τρίτο του κυλίνδρου με την ίδια βάση και το ίδιο ύψος.",
+     "en": "Eudoxus also devised what the 17th century called the method of exhaustion. To study the area of a circle, for example, one inscribes polygons with more and more sides, which “exhaust” the circle, leaving a remainder smaller than any given quantity; a double argument by contradiction then shows the result cannot be larger or smaller than claimed. By this method, Archimedes tells us, Eudoxus first proved that a cone is one-third of the cylinder with the same base and height, and a pyramid one-third of the prism, results that Democritus had stated without rigorous proof. Euclid's Book XII uses the method to prove that circles are to one another as the squares on their diameters. The method avoids infinitely small quantities altogether, and yet it reaches the same results as the integral calculus.",
+     "cite": [
+      6,
+      3,
+      4
+     ]
+    }
+   ]
+  }
+ ],
+ "grammar": [
+  {
+   "level": "B2",
+   "title": "Όλο και + comparative: more and more",
+   "el": "«Όλο και» + συγκριτικός = all the more, increasingly.",
+   "en": "**Όλο και** + comparative expresses a steady increase: *όλο και περισσότερες πλευρές* (more and more sides), *όλο και πιο κοντά* (closer and closer), *όλο και μικρότερο*. With verbs: *όλο και πλησίαζαν τον κύκλο* (they kept getting closer to the circle).",
+   "examples": [
+    {
+     "el": "όλο και περισσότερες πλευρές",
+     "en": "more and more sides"
+    },
+    {
+     "el": "Η απόσταση γίνεται όλο και μικρότερη.",
+     "en": "The distance gets smaller and smaller."
+    },
+    {
+     "el": "Έρχεται όλο και πιο κοντά.",
+     "en": "It is getting closer and closer."
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "title": "Ούτω καθεξής and other learned set phrases",
+   "el": "Η καθημερινή γλώσσα κρατά λόγιες φράσεις: ούτω καθεξής (κ.ο.κ.), π.χ., δηλαδή.",
+   "en": "Everyday Greek keeps several **learned fixed phrases**: *ούτω καθεξής* (and so on, abbr. **κ.ο.κ.**), *παραδείγματος χάριν* (for example, abbr. **π.χ.**), *και τα λοιπά* (etc., **κ.λπ.**), *εν τω μεταξύ* (meanwhile), *κατά συνέπεια* (consequently). They do not decline and are best learned as units.",
+   "examples": [
+    {
+     "el": "1/2, 1/4, 1/8 κ.ο.κ.",
+     "en": "1/2, 1/4, 1/8 and so on"
+    },
+    {
+     "el": "π.χ. ο κύκλος",
+     "en": "e.g. the circle"
+    },
+    {
+     "el": "Εν τω μεταξύ, η χελώνα προχωρεί.",
+     "en": "Meanwhile, the tortoise moves on."
+    }
+   ]
+  },
+  {
+   "level": "B2",
+   "title": "Adjectives in -τος of possibility: πεπερασμένος, άπειρος, αδύνατος",
+   "el": "Πολλά επίθετα με το στερητικό α- σημαίνουν το αντίθετο: πέρας → άπειρος, δυνατός → αδύνατος.",
+   "en": "The **privative prefix α-/αν-** (un-, in-) negates adjectives: *άπειρος* (without limit, infinite; from *πέρας*, end), *αδύνατος* (impossible), *ασύμμετρος* (incommensurable), *άρρητος* (inexpressible). The opposite of *άπειρος* in maths is **πεπερασμένος** (finite, “having reached its end”), a perfect participle of the old verb *περαίνω*.",
+   "examples": [
+    {
+     "el": "άπειρα βήματα",
+     "en": "infinitely many steps"
+    },
+    {
+     "el": "σε πεπερασμένο χρόνο",
+     "en": "in a finite time"
+    },
+    {
+     "el": "Είναι αδύνατον.",
+     "en": "It is impossible."
+    }
+   ]
+  }
+ ],
+ "terms": [
+  {
+   "el": "το παράδοξο",
+   "en": "paradox",
+   "def_el": "Επιχείρημα που οδηγεί σε συμπέρασμα αντίθετο από την κοινή λογική.",
+   "def_en": "An argument leading to a conclusion against common sense."
+  },
+  {
+   "el": "το άπειρο",
+   "en": "the infinite, infinity",
+   "def_el": "Αυτό που δεν έχει τέλος ή όριο.",
+   "def_en": "That which has no end or limit."
+  },
+  {
+   "el": "πεπερασμένος",
+   "en": "finite",
+   "def_el": "Που έχει τέλος ή όριο.",
+   "def_en": "Having an end or limit."
+  },
+  {
+   "el": "το όριο",
+   "en": "limit",
+   "def_el": "Στα μαθηματικά, η τιμή που πλησιάζει απεριόριστα μια ακολουθία.",
+   "def_en": "In maths, the value a sequence approaches indefinitely."
+  },
+  {
+   "el": "η αναλογία",
+   "en": "proportion",
+   "def_el": "Η ισότητα δύο λόγων: α:β = γ:δ.",
+   "def_en": "The equality of two ratios."
+  },
+  {
+   "el": "η μέθοδος της εξάντλησης",
+   "en": "method of exhaustion",
+   "def_el": "Απόδειξη με προσεγγίσεις που πλησιάζουν απεριόριστα ένα σχήμα.",
+   "def_en": "Proof by ever-closer approximations of a figure."
+  },
+  {
+   "el": "ο κώνος",
+   "en": "cone",
+   "def_el": "Στερεό με κυκλική βάση και μια κορυφή.",
+   "def_en": "A solid with a circular base and a single apex."
+  },
+  {
+   "el": "ο κύλινδρος",
+   "en": "cylinder",
+   "def_el": "Στερεό με δύο ίσες κυκλικές βάσεις.",
+   "def_en": "A solid with two equal circular bases."
+  }
+ ],
+ "gloss": {
+  "Ευκλείδης": "Ευκλείδης — Euclid",
+  "Ζήνωνα": "Ζήνων — Zeno",
+  "Ζήνων": "Ζήνων — Zeno",
+  "Ελεάτης": "Ελεάτης — of Elea, Eleatic",
+  "Παρμενίδη": "Παρμενίδης — Parmenides",
+  "φημισμένο": "φημισμένος — famous",
+  "διχοτομία": "διχοτομία — dichotomy, halving",
+  "πεπερασμένο": "πεπερασμένος — finite",
+  "άθροισμα": "άθροισμα — sum",
+  "Αρχιμήδη": "Αρχιμήδης — Archimedes",
+  "άρρητος": "άρρητος — irrational (number); unspeakable",
+  "ένατο": "ένατος — ninth",
+  "πεπερασμένος": "πεπερασμένος — finite",
+  "Στερεό": "στερεός — solid",
+  "διασχίσεις": "διασχίζω — to cross",
+  "Εύδοξος": "Εύδοξος — Eudoxus of Cnidus (mathematician, 4th c. BC)",
+  "Ευδόξου": "Εύδοξος — Eudoxus of Cnidus (mathematician, 4th c. BC)",
+  "Κνίδιος": "Κνίδιος — from Cnidus",
+  "Κνίδο": "Κνίδος — Cnidus (city in Asia Minor)",
+  "άρρητα": "άρρητος — irrational; unspeakable",
+  "εξάντλησης": "εξάντληση — exhaustion",
+  "πολύγωνα": "πολύγωνο — polygon",
+  "κώνου": "κώνος — cone",
+  "κώνος": "κώνος — cone",
+  "αναλογιών": "αναλογία — proportion",
+  "στερητικό": "στερητικός — privative (α- = un-)",
+  "απεριόριστα": "απεριόριστος — unlimited",
+  "χαρακτικό": "χαρακτικό — engraving, print",
+  "Γιαν": "Γιαν — Jan (Dutch name)"
+ },
+ "questions": [
+  {
+   "q": "Τι προσπαθούν να δείξουν τα παράδοξα του Ζήνωνα;",
+   "options": [
+    "Ότι η κίνηση είναι αδύνατη",
+    "Ότι η Γη είναι στρογγυλή",
+    "Ότι ο π είναι άρρητος",
+    "Ότι οι αριθμοί είναι άπειροι"
+   ],
+   "answer": "Ότι η κίνηση είναι αδύνατη",
+   "why": "Πιθανότατα για να υποστηρίξουν τον Παρμενίδη."
+  },
+  {
+   "q": "Πόσο κάνει το άθροισμα 1/2 + 1/4 + 1/8 + …;",
+   "options": [
+    "1",
+    "Άπειρο",
+    "2",
+    "1/2"
+   ],
+   "answer": "1",
+   "why": "Μια συγκλίνουσα σειρά."
+  },
+  {
+   "q": "Ποια έννοια δεν είχαν ακόμα οι Έλληνες;",
+   "options": [
+    "Την έννοια του ορίου",
+    "Την έννοια του κύκλου",
+    "Την έννοια του αριθμού",
+    "Την έννοια της απόδειξης"
+   ],
+   "answer": "Την έννοια του ορίου",
+   "why": "Ο Αριστοτέλης απάντησε με τη διάκριση δυνάμει και ενεργεία απείρου."
+  },
+  {
+   "q": "Σε ποιο βιβλίο των Στοιχείων βρίσκεται η θεωρία των αναλογιών του Ευδόξου;",
+   "options": [
+    "Στο πέμπτο",
+    "Στο πρώτο",
+    "Στο δέκατο τρίτο",
+    "Στο ένατο"
+   ],
+   "answer": "Στο πέμπτο",
+   "why": "Μοιάζει με τον ορισμό των πραγματικών αριθμών του Ντέντεκιντ."
+  },
+  {
+   "q": "Ποιο είναι ο όγκος του κώνου σε σχέση με τον κύλινδρο της ίδιας βάσης και ύψους;",
+   "options": [
+    "Το ένα τρίτο",
+    "Το μισό",
+    "Ίσος",
+    "Τα δύο τρίτα"
+   ],
+   "answer": "Το ένα τρίτο",
+   "why": "Το απέδειξε ο Εύδοξος με τη μέθοδο της εξάντλησης."
+  }
+ ],
+ "vocab": [
+  "το επιχείρημα",
+  "η κίνηση",
+  "η χελώνα",
+  "πλησιάζω",
+  "διασχίζω",
+  "η μέση",
+  "το υπόλοιπο",
+  "το βήμα",
+  "η έννοια",
+  "το όριο",
+  "η θεωρία",
+  "ισχύω",
+  "επινοώ",
+  "γεμίζω",
+  "ο κώνος",
+  "ο κύλινδρος"
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "text": "Wikipedia, “Zeno's paradoxes”",
+   "url": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes"
+  },
+  {
+   "n": 2,
+   "text": "Stanford Encyclopedia of Philosophy, “Zeno's Paradoxes”",
+   "url": "https://plato.stanford.edu/entries/paradox-zeno/"
+  },
+  {
+   "n": 3,
+   "text": "MacTutor, “Eudoxus of Cnidus”",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eudoxus/"
+  },
+  {
+   "n": 4,
+   "text": "T. L. Heath, A History of Greek Mathematics, 2 vols., Oxford: Clarendon Press, 1921 (Internet Archive)",
+   "url": "https://archive.org/details/historyofgreekma01heat"
+  },
+  {
+   "n": 5,
+   "text": "Wikipedia, “Euclid's Elements”",
+   "url": "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+  },
+  {
+   "n": 6,
+   "text": "Wikipedia, “Method of exhaustion”",
+   "url": "https://en.wikipedia.org/wiki/Method_of_exhaustion"
+  }
+ ]
+}
