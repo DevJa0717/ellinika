@@ -1,0 +1,5 @@
+SHELF = "diaspora"
+EL = "Η ελληνική διασπορά"
+TITLE = "The Greek diaspora: a bilingual reader"
+INTRO_EL = "Οι Έλληνες ζουν έξω από τα σημερινά σύνορα της Ελλάδας εδώ και σχεδόν τρεις χιλιετίες: από τις αρχαίες αποικίες και την Αλεξάνδρεια ως τους εμπόρους της Βιέννης και της Οδησσού, τους μετανάστες της Αμερικής, της Αυστραλίας και της Γερμανίας, τους Πόντιους και τους Πολίτες, και τους νέους που φεύγουν σήμερα. Δεκαεπτά κεφάλαια, σε πέντε μέρη, με τα ελληνικά να δυσκολεύουν σταδιακά από το Β1+ ως το Γ1."
+INTRO_EN = "Greeks have lived outside the borders of today's Greece for almost three thousand years: from the ancient colonies and Alexandria to the merchants of Vienna and Odessa, the emigrants to America, Australia and Germany, the Pontic Greeks and the Greeks of Istanbul, and the young people leaving today. Seventeen chapters in five parts, with the Greek rising gradually from B1+ to C1. The English side gives more detail than the Greek; tap any Greek word for its meaning. The overview chapter on the diaspora in «Η Ελλάδα σήμερα» and the pages on Pontic, Cappadocian and Italiot Greek in «Οι διάλεκτοι» go well with this reader."

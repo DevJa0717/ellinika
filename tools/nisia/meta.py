@@ -1,0 +1,5 @@
+SHELF = "nisia"
+EL = "Τα ελληνικά νησιά"
+TITLE = "The Greek islands one by one: a bilingual reader"
+INTRO_EL = "Ένα ταξίδι στα κατοικημένα νησιά της Ελλάδας, νησί προς νησί και αρχιπέλαγος προς αρχιπέλαγος: η ιστορία, οι άνθρωποι, η γλώσσα, οι γιορτές, η φύση και τα σημερινά τους προβλήματα. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1 και ανεβαίνουν σταδιακά ως το Γ1."
+INTRO_EN = "A journey through the inhabited islands of Greece, one island or island group at a time, archipelago by archipelago: their history, people, speech, festivals, landscapes and present-day problems. The regional portraits in «Η Ελλάδα σήμερα» give the overview by administrative region; this reader goes deeper, island by island, and links back to them. The Greek text starts around B1 and rises gradually to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes on structures it uses, a quiz, words to keep and numbered sources; tap any Greek word to look it up."

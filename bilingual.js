@@ -7,7 +7,7 @@
   "use strict";
   const A = () => window.Ellinika;
   const routes = (window.EllinikaAddons = window.EllinikaAddons || {});
-  const SHELVES = { philosophers: "Philosophers", istoria: "History of the Greeks", simera: "Greece today", politeia: "The Greek polity", kouzina: "The Greek kitchen", mousiki: "Greek music", skini: "Theatre and cinema", eortes: "The Orthodox year", athlitismos: "Greek sport", mathiatriki: "Maths and medicine", epistimi: "Science and technology" };
+  const SHELVES = { philosophers: "Philosophers", istoria: "History of the Greeks", simera: "Greece today", politeia: "The Greek polity", kouzina: "The Greek kitchen", mousiki: "Greek music", skini: "Theatre and cinema", eortes: "The Orthodox year", athlitismos: "Greek sport", mathiatriki: "Maths and medicine", epistimi: "Science and technology", nisia: "The Greek islands", diaspora: "The Greek diaspora" };
   const MODE_KEY = "ellinika.bilingual.mode";
   const MODES = [["el", "Ελληνικά"], ["both", "Δίγλωσσο"], ["en", "English"]];
 
@@ -17,6 +17,7 @@
 .bl-hero .bl-intro { margin: 10px 0 0; }
 .bl-intro p { margin: 0 0 8px; }
 .bl-intro .en { color: var(--muted); font-size: .95rem; }
+.bl-see { margin: 0 0 14px; line-height: 1.7; }
 .bl-toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
 .bl-part { margin: 26px 0 8px; }
 .bl-part h3 { margin: 0; font: 600 1.1rem/1.3 var(--f-ui); }
@@ -161,6 +162,7 @@
         <h2 lang="el">${E.esc(ch.el)}</h2><span class="bl-en">${E.esc(ch.title)}</span></div>
       ${img ? `<figure class="bl-fig"><img src="${E.esc(img.file)}" alt="${E.esc(img.caption_en || img.caption || "")}" loading="lazy"><figcaption><span lang="el">${E.esc(img.caption || "")}</span>${img.caption_en ? ` <span class="no-look">· ${E.esc(img.caption_en)}</span>` : ""}<br><span class="no-look">${E.esc(img.credit || "")}${img.license ? " · " + E.esc(img.license) : ""}${img.source ? ` · <a href="${E.esc(img.source)}" target="_blank" rel="noopener">source</a>` : ""}</span></figcaption></figure>` : ""}
       ${ch.summary_en ? `<section class="card bl-brief"><h3>In brief</h3><p>${E.md(ch.summary_en)}</p></section>` : ""}
+      ${ch.see?.length ? `<p class="bl-see sub"><span lang="el">Δείτε επίσης</span> · See also: ${ch.see.map((x) => `<a href="${E.esc(x.href)}"><span lang="el">${E.esc(x.el)}</span></a>`).join(" · ")}</p>` : ""}
       <div class="bl-bar"><div class="bl-seg" role="group" aria-label="Reading mode">${MODES.map(([k, l]) => `<button type="button" data-mode="${k}" aria-pressed="${k === m}">${l}</button>`).join("")}</div>
         <select class="bl-jump" aria-label="Go to section"><option value="">Sections…</option>${(ch.sections || []).map((s) => `<option value="${E.esc(s.id)}">${E.esc(s.el)} · ${E.esc(s.en)}</option>`).join("")}${ch.recipe ? `<option value="recipe">Η συνταγή · The recipe</option>` : ""}${ch.terms?.length ? `<option value="terms">Νέοι όροι · New terms</option>` : ""}${ch.grammar?.length ? `<option value="grammar">Γραμματική · Grammar notes</option>` : ""}${ch.questions?.length ? `<option value="quiz">Ερωτήσεις · Questions</option>` : ""}${ch.sources?.length ? `<option value="sources">Πηγές · Sources</option>` : ""}</select></div>
       ${ch.terms?.length ? `<section class="card bl-sec" id="bl-terms"><h3><span class="el" lang="el">Νέοι όροι</span>New terms in this chapter</h3><dl class="bl-terms">${ch.terms.map((t) => `<div><dt lang="el">${E.esc(t.el)} <span class="sub no-look">· ${E.esc(t.en)}</span></dt><dd>${t.def_el ? `<span lang="el">${E.esc(t.def_el)}</span>` : ""}${t.def_en ? `<span class="en">${E.esc(t.def_en)}</span>` : ""}</dd></div>`).join("")}</dl></section>` : ""}
