@@ -12,13 +12,16 @@ Repo layout (project path -> repo path):
   deploy/ ledger/ plan/ screens/ tools/ .notes/ -> same names
 uploads/ is left out: it holds the original uploaded books (copyrighted), and the repo is public.
 Files in the repo that no longer exist in the project are deleted, except .git, .github, .nojekyll and README.md.
-offline-files.json ("Save every lesson for offline use") is regenerated from the runtime JSON and photos."""
+offline-files.json ("Save every lesson for offline use") is regenerated from the runtime JSON and photos.
+Repo-owned paths (REPO_OWNED): library/digest/ and deploy/news/ are written straight into the repo by the daily news digest task
+(deploy/news/), so this script never copies them from the project or deletes them; the newest 7 issues stay on the offline list."""
 import os, sys, json, shutil, filecmp
 
 ROOT = "/mnt/project-files"
 if len(sys.argv) < 2: sys.exit(__doc__)
 REPO = os.path.abspath(sys.argv[1])
 KEEP = {".git", ".github", ".nojekyll", "README.md"}
+REPO_OWNED = ("library/digest/", "deploy/news/")
 SKIP_NAMES = {"__pycache__", ".DS_Store", "ellinika-netlify.zip", "netlify.toml", "_headers"}
 
 def walk(src, dst_prefix):
@@ -37,6 +40,7 @@ for d in ("data", "downloads", "deploy", "ledger", "plan", "screens", "tools", "
     if os.path.isdir(f"{ROOT}/{d}"):
         for p, rel in walk(f"{ROOT}/{d}", d): plan[rel] = p
 plan.pop("offline-files.json", None)
+plan = {r: p for r, p in plan.items() if not r.startswith(REPO_OWNED)}
 
 # Runtime files the app saves for offline use (same rule as the old desktop build).
 def runtime(rel):
@@ -46,6 +50,11 @@ def runtime(rel):
         return not rel.startswith(("data/lexicon/build/", "data/colloquial/parts/", "data/colloquial/tools/"))
     return not rel.startswith(("tools/", "deploy/", "plan/", "ledger/", "downloads/", "library/classics/src/"))
 offline = sorted(r for r in plan if runtime(r))
+_dg = os.path.join(REPO, "library", "digest", "index.json")
+if os.path.exists(_dg):
+    _iss = json.load(open(_dg, encoding="utf-8")).get("issues", [])
+    offline += ["library/digest/index.json"] + ["library/digest/" + i["file"] for i in _iss[:7]]
+    offline.sort()
 
 bad = []
 for r in offline:
@@ -67,7 +76,7 @@ for dirpath, dirs, files in os.walk(REPO, topdown=True):
     if dirpath == REPO: dirs[:] = [d for d in dirs if d not in KEEP]
     for f in files:
         rel = os.path.relpath(os.path.join(dirpath, f), REPO)
-        if rel in KEEP or rel in wanted: continue
+        if rel in KEEP or rel in wanted or rel.startswith(REPO_OWNED): continue
         os.remove(os.path.join(dirpath, f)); removed += 1
 for dirpath, dirs, files in os.walk(REPO, topdown=False):
     if ".git" not in dirpath.split(os.sep) and dirpath != REPO and not os.listdir(dirpath): os.rmdir(dirpath)
