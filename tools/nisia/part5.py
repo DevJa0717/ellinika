@@ -177,7 +177,7 @@ dict(
     ["wp:Patmos", "wp:Monastery of Saint John the Theologian"]),
    ("Από το 1999 η Χώρα, η μονή και το Σπήλαιο της Αποκάλυψης είναι Μνημείο Παγκόσμιας Κληρονομιάς της UNESCO. Στο νησί λειτουργεί από το 1713 και η Πατμιάδα Σχολή, ένα σημαντικό εκκλησιαστικό σχολείο. Το Πάσχα, και ιδίως η τελετή του Νιπτήρα τη Μεγάλη Πέμπτη, τραβά πολλούς προσκυνητές.",
     "Since 1999 the Chora, the monastery and the Cave of the Apocalypse have been a UNESCO World Heritage Site. The island is also home to the Patmian School, an important church school founded in 1713, where many Greek clergy and scholars of the Ottoman period studied. At Easter, especially for the Washing of the Feet (*Νιπτήρας*) on Holy Thursday, when the abbot re-enacts Christ washing the apostles' feet, the island fills with pilgrims.",
-    ["wp:Patmos", "unesco", "wp:Patmian School"]),
+    ["wp:Patmos", "unesco"]),
   ]),
  ],
  grammar=[
