@@ -33,4 +33,7 @@ SRC = {
  "w_cyanide": ("Wikipedia, “Cyanide poisoning”", W + "Cyanide_poisoning"),
  "w_hypnosis": ("Wikipedia, “Hypnosis”", W + "Hypnosis"),
  "w_psychic": ("Wikipedia, “Psychic”", W + "Psychic"),
+ "w_korydallos": ("Wikipedia, “Korydallos Prison” (Greece's largest prison)", W + "Korydallos_Prison"),
+ "w_juvenile_detention": ("Wikipedia, “Youth detention center”", W + "Youth_detention_center"),
+ "w_prison_education": ("Wikipedia, “Prison education”", W + "Prison_education"),
 }
