@@ -11,7 +11,7 @@ dict(
   dict(id="emporio", el="Ο δρόμος του Δούναβη", en="The Danube road", paras=[
    ("Με τη Συνθήκη του Πασάροβιτς, το 1718, οι υπήκοοι του σουλτάνου μπορούσαν να εμπορεύονται ελεύθερα στα εδάφη των Αψβούργων. Έλληνες, Βλάχοι και άλλοι ορθόδοξοι έμποροι από τη Μακεδονία, την Ήπειρο και τη Θεσσαλία μετέφεραν βαμβάκι, μαλλί, καπνό και δέρματα με καραβάνια ως τη Βιέννη, τη Βουδαπέστη και τη Λειψία. Στη Βιέννη χτίστηκαν δύο ελληνικές εκκλησίες, του Αγίου Γεωργίου και της Αγίας Τριάδας, που λειτουργούν ακόμα.",
     "Under the Treaty of Passarowitz in 1718, the Sultan's subjects could trade freely in the Habsburg lands. Greek, Vlach and other Orthodox merchants from Macedonia, Epirus and Thessaly carried cotton, wool, tobacco and hides by caravan to Vienna, Budapest and Leipzig, and brought back cloth, glass and books. In Vienna the community built two Greek churches, St George's and Holy Trinity, both still in use; the Fleischmarkt quarter is known as the old “Greek quarter”. Some families, such as the Sinas, became bankers of European rank and later funded the Academy of Athens and the Athens Observatory.",
-    ["wp:Greek community of Vienna", "wp:Treaty of Passarowitz", "clogg"]),
+    ["wp:Greeks in Austria", "wp:Treaty of Passarowitz", "clogg"]),
   ]),
   dict(id="rigas", el="Η «Εφημερίς» και ο Ρήγας", en="The Efimeris and Rigas", paras=[
    ("Οι Έλληνες της Βιέννης είχαν τυπογραφεία, όπου τυπώνονταν βιβλία για τους σκλαβωμένους Έλληνες. Στις 31 Δεκεμβρίου 1790 κυκλοφόρησε η «Εφημερίς» των αδελφών Μαρκίδη Πούλιου, η παλαιότερη ελληνική εφημερίδα που έχει σωθεί. Στο ίδιο τυπογραφείο τύπωσε το 1797 ο Ρήγας Βελεστινλής, ή Φεραίος, τα επαναστατικά του κείμενα: τη «Χάρτα», ένα μεγάλο χάρτη της Ελλάδας, και τον «Θούριο», που ξεκινά με τον στίχο «Ως πότε, παλικάρια, θα ζούμε στα στενά;».",
@@ -19,7 +19,7 @@ dict(
     ["wp:Efimeris", "wp:Rigas Feraios"]),
    ("Τον Δεκέμβριο του 1797 οι αυστριακές αρχές συνέλαβαν τον Ρήγα στην Τεργέστη, όπου είχε πάει για να περάσει στην Ελλάδα, και τον παρέδωσαν με τους συντρόφους του στους Οθωμανούς. Στραγγαλίστηκαν στο Βελιγράδι τον Ιούνιο του 1798. Ο Ρήγας έγινε ο πρώτος μάρτυρας της ελληνικής ανεξαρτησίας.",
     "In December 1797 the Austrian authorities arrested Rigas in Trieste, where he had gone to cross to Greece, and handed him and his companions over to the Ottomans. They were strangled in Belgrade in June 1798. Rigas became the first martyr of Greek independence, and his statue stands outside the University of Athens. Trieste itself, a free port since 1719, had a thriving Greek merchant community with its own church of St Nicholas on the waterfront; Livorno, Marseille and Amsterdam had smaller ones.",
-    ["wp:Rigas Feraios", "wp:Greeks in Trieste"]),
+    ["wp:Rigas Feraios", "wp:Greeks in Italy"]),
   ]),
  ],
  grammar=[
@@ -57,7 +57,7 @@ dict(
   dict(id="sitari", el="Το σιτάρι της Μαύρης Θάλασσας", en="The grain of the Black Sea", paras=[
    ("Στα τέλη του 18ου αιώνα η Ρωσία κέρδισε τις βόρειες ακτές της Μαύρης Θάλασσας και ίδρυσε νέα λιμάνια. Το 1794 η αυτοκράτειρα Αικατερίνη η Μεγάλη ίδρυσε την Οδησσό. Οι Ρώσοι ήθελαν να έρθουν εκεί ορθόδοξοι έμποροι και ναυτικοί, και πολλοί Έλληνες εγκαταστάθηκαν στην πόλη. Από το λιμάνι της έφευγε το σιτάρι της Ουκρανίας για τη Μεσόγειο, συχνά με ελληνικά πλοία, και πολλοί Έλληνες έμποροι έγιναν πολύ πλούσιοι.",
     "At the end of the 18th century Russia won the northern coasts of the Black Sea and founded new ports. In 1794 Empress Catherine the Great founded Odessa. The Russians wanted Orthodox merchants and sailors to settle there, and many Greeks did; the very name Odessa was chosen after the ancient Greek colony of Odessos. From its harbour the grain of Ukraine left for the Mediterranean, often on Greek ships, and the treaties that opened the Straits to Russian-flagged shipping allowed Greek captains under the Russian flag to prosper. Several Greek merchant houses, such as the Rodokanakis family from Chios, became very rich.",
-    ["wp:Greeks in Odesa", "wp:Odesa", "clogg"]),
+    ["wp:Greeks in Ukraine", "wp:Odesa", "clogg"]),
   ]),
   dict(id="filiki", el="Η Φιλική Εταιρεία", en="The Filiki Eteria", paras=[
    ("Το 1814 τρεις Έλληνες που ζούσαν στην Οδησσό, ο Νικόλαος Σκουφάς, ο Εμμανουήλ Ξάνθος και ο Αθανάσιος Τσακάλωφ, ίδρυσαν μια μυστική οργάνωση, τη Φιλική Εταιρεία. Σκοπός της ήταν η απελευθέρωση της Ελλάδας με όπλα. Τα μέλη της ορκίζονταν σε μυστική τελετή, χρησιμοποιούσαν κωδικά ονόματα και άφηναν να εννοηθεί ότι πίσω από την Εταιρεία βρισκόταν η Ρωσία, κάτι που δεν ήταν αλήθεια.",
@@ -103,7 +103,7 @@ dict(
   dict(id="diktyo", el="Ένα δίκτυο οικογενειών", en="A network of families", paras=[
    ("Οι πλούσιες εμπορικές οικογένειες της Χίου, όπως οι Ράλλη, οι Ροδοκανάκη, οι Σκαραμαγκά και οι Βλαστού, είχαν γραφεία σε πολλά λιμάνια πριν ακόμα από την Επανάσταση. Μετά τη σφαγή του 1822 πολλοί δεν γύρισαν ποτέ στο νησί. Τα μέλη των οικογενειών ζούσαν σε διαφορετικές πόλεις, στη Μασσαλία, στο Λιβόρνο, στην Οδησσό, στην Κωνσταντινούπολη και στο Λονδίνο, και παντρεύονταν συνήθως μεταξύ τους. Έτσι, οι επιχειρήσεις έμεναν μέσα στην οικογένεια και οι συνεργάτες ήταν άνθρωποι που μπορούσες να εμπιστευτείς.",
     "The wealthy merchant families of Chios, such as the Rallis, Rodokanakis, Scaramangas and Vlastos, had offices in many ports even before the Revolution. After the massacre of 1822 many never returned to the island. Family members lived in different cities, in Marseille, Livorno, Odessa, Constantinople and London, and usually married among themselves. That way business stayed in the family and partners were people you could trust: a credit network built on kinship, which historians have compared to the networks of other diasporas such as the Armenians and Sephardic Jews.",
-    ["wp:Chiot diaspora", "wp:Chios massacre", "clogg"]),
+    ["wp:Chian diaspora", "wp:Chios massacre", "clogg"]),
   ]),
   dict(id="ralli", el="Οι αδελφοί Ράλλη", en="The Ralli Brothers", paras=[
    ("Η εταιρεία των αδελφών Ράλλη, με έδρα το Λονδίνο, εμπορευόταν σιτάρι, βαμβάκι, μετάξι και, αργότερα, γιούτα από την Ινδία, όπου είχε χιλιάδες υπαλλήλους. Στα μέσα του 19ου αιώνα ήταν μία από τις μεγαλύτερες εμπορικές εταιρείες της Βρετανίας. Οι Έλληνες του Λονδίνου έχτισαν το 1877–1879 στο Μπέισγουοτερ τον μεγάλο ορθόδοξο ναό της Αγίας Σοφίας, που έγινε αργότερα μητροπολιτικός ναός. Τον θεμέλιο λίθο έβαλε ένας Ράλλης.",

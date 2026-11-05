@@ -11,7 +11,7 @@ const path = require("path"), fs = require("fs");
     const file = path.join(out, `Ellinika-${L}-textbook.pdf`);
     await page.pdf({ path: file, format: "A4", printBackground: true, outline: true, tagged: true, preferCSSPageSize: true, timeout: 0,
       displayHeaderFooter: true, headerTemplate: "<span></span>",
-      footerTemplate: `<div style="font-family:sans-serif;font-size:7.5pt;color:#7a8396;width:100%;padding:0 16mm;display:flex;justify-content:space-between"><span>Ελληνικά · ${L} companion textbook</span><span class="pageNumber"></span></div>` });
+      footerTemplate: `<div style="font-family:sans-serif;font-size:7.5pt;color:#7a8396;width:100%;padding:0 16mm;display:flex;justify-content:space-between"><span>${/^[ABC][12]$/.test(L) ? `Ελληνικά · ${L} companion textbook` : ""}</span><span class="pageNumber"></span></div>` });
     console.log(L, (fs.statSync(file).size / 1048576).toFixed(1) + " MB");
     await page.close();
   }

@@ -211,6 +211,9 @@ def main():
     if PDF:
         subprocess.run(["node", os.path.join(HERE, "render_pdf.js"), OUT, OUT, SHELF], check=True, cwd=HERE)
         subprocess.run([sys.executable, os.path.join(HERE, "compress.py"), f"{OUT}/Ellinika-{SHELF}-textbook.pdf", PDF, f"Ελληνικά · {idx.get('el')}"], check=True)
+        # Greek-only, footer-free cover (cover rule, 2026-10-26): print page 1 alone and swap it in.
+        subprocess.run(["node", os.path.join(HERE, "render_cover.js"), f"{OUT}/{SHELF}.html", f"{OUT}/cover.pdf"], check=True, cwd=HERE)
+        subprocess.run([sys.executable, os.path.join(HERE, "swap_cover.py"), PDF, f"{OUT}/cover.pdf"], check=True)
         print("PDF:", PDF, f"{os.path.getsize(PDF) / 1048576:.1f} MB")
 
 if __name__ == "__main__":
