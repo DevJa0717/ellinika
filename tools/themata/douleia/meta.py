@@ -1,0 +1,6 @@
+SHELF = dict(
+ el="Δουλειά και χρήμα",
+ title="Work and money: job hunting, contracts, the office, freelancing, strikes, budgets, loans, pensions and starting a business",
+ intro_el="Πώς ψάχνεις δουλειά και πώς περνάς μια συνέντευξη, τι γράφει η σύμβαση και τι είναι τα «δώρα», πώς είναι η ζωή στο γραφείο και η δουλειά από το σπίτι, τι σημαίνει να κόβεις αποδείξεις ως ελεύθερος επαγγελματίας, γιατί γίνονται απεργίες, πώς βγαίνει ο μήνας, τι γίνεται με τα δάνεια, πότε βγαίνεις στη σύνταξη και πώς ανοίγεις μια επιχείρηση. Η δουλειά και τα λεφτά με τις λέξεις που ακούς κάθε μέρα. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1+ και ανεβαίνουν ως το Γ1.",
+ intro_en="How to look for a job and get through an interview, what the contract says and what the “gifts” (bonus salaries) are, office life and working from home, what it means to issue receipts as a freelancer, why strikes happen, how to make the month's money last, what happens with loans, when you retire and how to open a business. Work and money in the words you hear every day. The Greek text starts around B1+ and rises to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes, a quiz, words to keep and numbered sources; tap any Greek word to look it up. Figures are as of late 2025; rules change, so check official sources before acting on them.",
+)
