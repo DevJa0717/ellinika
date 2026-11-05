@@ -1,0 +1,1009 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Κάποιος και κάτι",
+"title": "\"Someone\", \"something\": κάποιος, κάτι",
+"body": [
+{
+"p": "**Κάποιος, κάποια, κάποιο** \"someone, some\" declines like **ποιος**; **κάτι** \"something\" never changes."
+},
+{
+"ex": [
+{
+"el": "Κάποιος χτυπάει την πόρτα.",
+"en": "Someone's knocking at the door."
+},
+{
+"el": "Ήρθε κάποια για σένα.",
+"en": "A woman came for you."
+},
+{
+"el": "Θέλω να σου πω κάτι.",
+"en": "I want to tell you something."
+},
+{
+"el": "Κάποια μέρα θα πάω στην Ιαπωνία.",
+"en": "Some day I'll go to Japan."
+},
+{
+"el": "Έχεις κάτι για πονοκέφαλο;",
+"en": "Do you have something for a headache?"
+},
+{
+"el": "Κάποιοι λένε ότι...",
+"en": "Some people say that..."
+}
+]
+},
+{
+"p": "**Κάτι** before a noun means \"some\" or \"about\": **κάτι φίλοι μου** \"some friends of mine\", **κάτι λίγο** \"a little something\"."
+},
+{
+"solved": [
+{
+"q": "\"Someone called you.\"",
+"a": "Κάποιος σε πήρε τηλέφωνο. | Κάποιος σου τηλεφώνησε.",
+"why": "κάποιος as subject."
+},
+{
+"q": "\"I forgot something.\"",
+"a": "Ξέχασα κάτι.",
+"why": "κάτι never changes."
+},
+{
+"q": "\"some day\"",
+"a": "κάποια μέρα",
+"why": "κάποια agrees with η μέρα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ σε ψάχνει. (Someone)",
+"options": [
+"Κάτι",
+"Κάποιος",
+"Κανείς",
+"Τίποτα"
+],
+"answer": "Κάποιος",
+"why": "Positive sentence: κάποιος.",
+"id": "indefinites-c0e44372"
+},
+{
+"type": "choice",
+"q": "Θέλεις ___ να πιεις; (something)",
+"options": [
+"κάποιο",
+"κάτι",
+"τίποτα δεν",
+"κανένα"
+],
+"answer": "κάτι",
+"why": "κάτι = something.",
+"id": "indefinites-96164ff9"
+},
+{
+"type": "choice",
+"q": "Μίλησα με ___ από το γραφείο. (someone)",
+"options": [
+"κάποιος",
+"κάποιον",
+"κάποιου",
+"κάτι"
+],
+"answer": "κάποιον",
+"why": "After με: accusative κάποιον.",
+"id": "indefinites-89cf9c1b"
+},
+{
+"type": "choice",
+"q": "___ φορά θα σου πω. (Some)",
+"options": [
+"Κάποιο",
+"Κάποια",
+"Κάποιος",
+"Κάτι"
+],
+"answer": "Κάποια",
+"why": "η φορά → κάποια φορά.",
+"id": "indefinites-8fbfdb49"
+},
+{
+"type": "choice",
+"q": "___ λένε ότι θα βρέξει. (Some people)",
+"options": [
+"Κάποιος",
+"Κάποιοι",
+"Κάτι",
+"Κάποια"
+],
+"answer": "Κάποιοι",
+"why": "Plural κάποιοι.",
+"id": "indefinites-5ea5a324"
+},
+{
+"type": "write",
+"q": "Translate: \"Someone is at the door.\"",
+"answer": "Κάποιος είναι στην πόρτα.",
+"accept": [],
+"why": "κάποιος.",
+"id": "indefinites-9bd96218"
+},
+{
+"type": "write",
+"q": "Translate: \"I want to ask you something.\" (informal)",
+"answer": "Θέλω να σε ρωτήσω κάτι.",
+"accept": [],
+"why": "κάτι.",
+"id": "indefinites-f6280367"
+},
+{
+"type": "write",
+"q": "Translate: \"some day\"",
+"answer": "κάποια μέρα",
+"accept": [],
+"why": "Feminine κάποια.",
+"id": "indefinites-9036acf9"
+},
+{
+"type": "write",
+"q": "Translate: \"Do you have something for a cold?\" (το κρύωμα)",
+"answer": "Έχετε κάτι για το κρύωμα;",
+"accept": [
+"Έχεις κάτι για το κρύωμα;"
+],
+"why": "κάτι για.",
+"id": "indefinites-6d1ad074"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Κανείς και τίποτα",
+"title": "\"Nobody\", \"nothing\", \"any\": κανείς, τίποτα",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Masc.",
+"Fem.",
+"Neut."
+],
+"rows": [
+[
+"Nom.",
+"κανείς / κανένας",
+"καμία / καμιά",
+"κανένα"
+],
+[
+"Acc.",
+"κανέναν",
+"καμία / καμιά",
+"κανένα"
+],
+[
+"Gen.",
+"κανενός",
+"καμίας / καμιάς",
+"κανενός"
+]
+]
+}
+},
+{
+"p": "**Κανείς** \"nobody, no, any\" and **τίποτα** \"nothing, anything\" need **δεν / μην** in a sentence with a verb:"
+},
+{
+"ex": [
+{
+"el": "Δεν ήρθε κανείς.",
+"en": "Nobody came."
+},
+{
+"el": "Κανείς δεν ξέρει.",
+"en": "Nobody knows."
+},
+{
+"el": "Δεν θέλω τίποτα.",
+"en": "I don't want anything."
+},
+{
+"el": "Δεν έχω καμία ιδέα.",
+"en": "I have no idea."
+},
+{
+"el": "Μην πεις τίποτα σε κανέναν!",
+"en": "Don't say anything to anyone!"
+}
+]
+},
+{
+"p": "In **questions**, they mean \"any, anything\": **Θέλεις τίποτα;** \"Do you want anything?\", **Έχεις κανένα στιλό;** \"Have you got a pen (any pen)?\", **Ήρθε κανείς;** \"Did anyone come?\""
+},
+{
+"p": "As **one-word answers** they are negative on their own: **Ποιος ήρθε; Κανείς.** **Τι θέλεις; Τίποτα.**"
+},
+{
+"tip": "**Τίποτα** is also the everyday answer to **ευχαριστώ**: **Ευχαριστώ! Τίποτα!** \"Thanks! Not at all!\" (also **παρακαλώ**)."
+},
+{
+"solved": [
+{
+"q": "\"I don't know anyone here.\"",
+"a": "Δεν ξέρω κανέναν εδώ.",
+"why": "Object: κανέναν, with δεν."
+},
+{
+"q": "\"Nothing happened.\"",
+"a": "Δεν έγινε τίποτα. | Τίποτα δεν έγινε.",
+"why": "τίποτα with δεν."
+},
+{
+"q": "\"Is there any bakery around here?\" (ο φούρνος)",
+"a": "Υπάρχει κανένας φούρνος εδώ κοντά;",
+"why": "In questions κανένας = any."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Δεν είδα ___. (anyone)",
+"options": [
+"κάποιον",
+"κανέναν",
+"κανείς",
+"τίποτα"
+],
+"answer": "κανέναν",
+"why": "With δεν: κανέναν (object).",
+"id": "indefinites-53390a90"
+},
+{
+"type": "choice",
+"q": "___ δεν απάντησε. (Nobody)",
+"options": [
+"Κάποιος",
+"Κανείς",
+"Κανέναν",
+"Τίποτα"
+],
+"answer": "Κανείς",
+"why": "Subject: κανείς.",
+"id": "indefinites-1cd9d2b9"
+},
+{
+"type": "choice",
+"q": "Δεν έχω ___ πρόβλημα. (no)",
+"options": [
+"κανέναν",
+"κανένα",
+"καμία",
+"κάποιο"
+],
+"answer": "κανένα",
+"why": "Neuter: κανένα πρόβλημα.",
+"id": "indefinites-b3213da2"
+},
+{
+"type": "choice",
+"q": "Δεν έχω ___ διάθεση. (no)",
+"options": [
+"κανένα",
+"καμία",
+"κανέναν",
+"τίποτα"
+],
+"answer": "καμία",
+"why": "Feminine: καμία διάθεση.",
+"id": "indefinites-7ba20173"
+},
+{
+"type": "choice",
+"q": "Θέλετε ___ άλλο; (anything)",
+"options": [
+"κανένα",
+"τίποτα",
+"κανείς",
+"καθόλου"
+],
+"answer": "τίποτα",
+"why": "In a question, τίποτα = anything.",
+"id": "indefinites-86211c69"
+},
+{
+"type": "choice",
+"q": "Ευχαριστώ πολύ! ___!",
+"options": [
+"Κανείς",
+"Τίποτα",
+"Κάτι",
+"Καθόλου"
+],
+"answer": "Τίποτα",
+"why": "The reply to thanks: Τίποτα!",
+"id": "indefinites-4c988515"
+},
+{
+"type": "choice",
+"q": "Έχεις ___ τσιγάρο; (a / any)",
+"options": [
+"κανέναν",
+"κανένα",
+"καμιά",
+"τίποτα το"
+],
+"answer": "κανένα",
+"why": "Question: κανένα τσιγάρο.",
+"id": "indefinites-c6e7f436"
+},
+{
+"type": "write",
+"q": "Translate: \"Nobody knows.\"",
+"answer": "Κανείς δεν ξέρει.",
+"accept": [
+"Κανένας δεν ξέρει."
+],
+"why": "κανείς + δεν.",
+"id": "indefinites-baf4c417"
+},
+{
+"type": "write",
+"q": "Translate: \"I don't want anything.\"",
+"answer": "Δεν θέλω τίποτα.",
+"accept": [
+"Δε θέλω τίποτα."
+],
+"why": "τίποτα + δεν.",
+"id": "indefinites-33ea9d9a"
+},
+{
+"type": "write",
+"q": "Translate: \"I have no idea.\"",
+"answer": "Δεν έχω ιδέα.",
+"accept": [
+"Δεν έχω καμία ιδέα."
+],
+"why": "καμία with feminine ιδέα.",
+"id": "indefinites-6839450d"
+},
+{
+"type": "write",
+"q": "Translate: \"Don't tell anyone!\" (informal)",
+"answer": "Μην πεις σε κανέναν!",
+"accept": [
+"Μην το πεις σε κανέναν!"
+],
+"why": "μην + κανέναν.",
+"id": "indefinites-b8b82d36"
+},
+{
+"type": "order",
+"q": "\"I didn't see anything.\"",
+"answer": "Δεν είδα τίποτα.",
+"accept": [],
+"why": "τίποτα with δεν.",
+"id": "indefinites-c36abb88"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Κάθε, καθένας, όλος",
+"title": "\"Every\", \"each\", \"all\": κάθε, καθένας, όλος",
+"body": [
+{
+"p": "**Κάθε** \"every, each\" never changes and comes before a noun without an article: **κάθε μέρα, κάθε φορά, κάθε Σάββατο**."
+},
+{
+"p": "**Καθένας, καθεμία, καθένα** \"each one, everyone\" stands alone: **Ο καθένας κάνει ό,τι θέλει.** \"Everyone does what they want.\" **Πέντε ευρώ ο καθένας.** \"Five euros each.\""
+},
+{
+"p": "**Όλος, όλη, όλο** \"all, whole\" goes **before the article**: **όλη τη μέρα** \"all day\", **όλοι οι φίλοι μου** \"all my friends\", **όλο το καλοκαίρι** \"the whole summer\". **Όλοι** \"everybody\" and **όλα** \"everything\" stand alone:"
+},
+{
+"ex": [
+{
+"el": "Κάθε πρωί πίνω καφέ.",
+"en": "Every morning I drink coffee."
+},
+{
+"el": "Ο καθένας με τη σειρά του.",
+"en": "Each one in turn."
+},
+{
+"el": "Δούλευα όλη μέρα.",
+"en": "I worked all day."
+},
+{
+"el": "Όλοι ήρθαν στο πάρτι.",
+"en": "Everybody came to the party."
+},
+{
+"el": "Όλα καλά;",
+"en": "Everything OK?"
+},
+{
+"el": "Τα έφαγε όλα!",
+"en": "He ate it all!"
+}
+]
+},
+{
+"tip": "**Όλος** goes before the article, not after it: **όλη η οικογένεια** \"the whole family\" (not *η όλη οικογένεια* in everyday Greek). **Όλα** as an object is usually doubled: **Τα ξέρω όλα.** \"I know everything.\""
+},
+{
+"solved": [
+{
+"q": "\"every Sunday\"",
+"a": "κάθε Κυριακή",
+"why": "κάθε + noun, no article."
+},
+{
+"q": "\"all my friends\"",
+"a": "όλοι οι φίλοι μου",
+"why": "όλος before the article."
+},
+{
+"q": "\"I ate everything.\"",
+"a": "Τα έφαγα όλα.",
+"why": "Object όλα doubled with τα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ μέρα πάω για τρέξιμο. (Every)",
+"options": [
+"Όλη",
+"Κάθε",
+"Καθένας",
+"Κάθε η"
+],
+"answer": "Κάθε",
+"why": "κάθε + noun.",
+"id": "indefinites-2c16a1d4"
+},
+{
+"type": "choice",
+"q": "Δούλευε ___ μέρα. (all day)",
+"options": [
+"κάθε",
+"όλη",
+"όλος",
+"όλο"
+],
+"answer": "όλη",
+"why": "όλη μέρα / όλη την ημέρα.",
+"id": "indefinites-875deb92"
+},
+{
+"type": "choice",
+"q": "___ ήταν στο πάρτι. (Everybody)",
+"options": [
+"Όλα",
+"Όλοι",
+"Κάθε",
+"Καθένα"
+],
+"answer": "Όλοι",
+"why": "People: όλοι.",
+"id": "indefinites-a7962612"
+},
+{
+"type": "choice",
+"q": "___ καλά; (Everything)",
+"options": [
+"Όλοι",
+"Όλα",
+"Κάθε",
+"Όλη"
+],
+"answer": "Όλα",
+"why": "Things: όλα.",
+"id": "indefinites-9f4115b0"
+},
+{
+"type": "choice",
+"q": "Δέκα ευρώ ___. (each)",
+"options": [
+"κάθε",
+"ο καθένας",
+"όλοι",
+"καθόλου"
+],
+"answer": "ο καθένας",
+"why": "ο καθένας = each.",
+"id": "indefinites-79e8330b"
+},
+{
+"type": "choice",
+"q": "___ η οικογένεια ήρθε. (The whole)",
+"options": [
+"Κάθε",
+"Όλη",
+"Όλη η η",
+"Καθεμία"
+],
+"answer": "Όλη",
+"why": "όλη + article + noun.",
+"id": "indefinites-3d9bd46a"
+},
+{
+"type": "choice",
+"q": "Τα ξέρω ___. (all of it)",
+"options": [
+"όλοι",
+"όλα",
+"όλο",
+"κάθε"
+],
+"answer": "όλα",
+"why": "Neuter plural όλα, doubled by τα.",
+"id": "indefinites-9e86f242"
+},
+{
+"type": "write",
+"q": "Translate: \"every time\"",
+"answer": "κάθε φορά",
+"accept": [],
+"why": "κάθε + φορά.",
+"id": "indefinites-f4ff50d9"
+},
+{
+"type": "write",
+"q": "Translate: \"the whole summer\"",
+"answer": "όλο το καλοκαίρι",
+"accept": [],
+"why": "όλο + article + noun.",
+"id": "indefinites-4c3f2dac"
+},
+{
+"type": "write",
+"q": "Translate: \"Everybody knows.\"",
+"answer": "Όλοι ξέρουν.",
+"accept": [
+"Όλοι το ξέρουν."
+],
+"why": "όλοι.",
+"id": "indefinites-2c44c408"
+},
+{
+"type": "write",
+"q": "Translate: \"Is everything OK?\"",
+"answer": "Όλα καλά;",
+"accept": [
+"Είναι όλα εντάξει;"
+],
+"why": "όλα.",
+"id": "indefinites-3010b63c"
+},
+{
+"type": "order",
+"q": "\"We stayed at the beach all day.\"",
+"answer": "Μείναμε στην παραλία όλη μέρα.",
+"accept": [
+"Όλη μέρα μείναμε στην παραλία."
+],
+"why": "όλη μέρα = all day.",
+"id": "indefinites-9364b487"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Άλλος, μερικοί, κάμποσοι",
+"title": "\"Other\", \"some\", \"quite a few\"",
+"body": [
+{
+"p": "**Άλλος, άλλη, άλλο** \"other, another, else\" agrees with its noun:"
+},
+{
+"ex": [
+{
+"el": "Θέλεις άλλο ένα;",
+"en": "Do you want another one?"
+},
+{
+"el": "Την άλλη εβδομάδα.",
+"en": "Next week."
+},
+{
+"el": "Κάτι άλλο;",
+"en": "Anything else?"
+},
+{
+"el": "Ο ένας... ο άλλος...",
+"en": "One... the other..."
+},
+{
+"el": "Οι άλλοι πού είναι;",
+"en": "Where are the others?"
+}
+]
+},
+{
+"p": "**Μερικοί, μερικές, μερικά** \"some, a few\" (plural only); **κάμποσος, -η, -ο** \"quite a bit, a fair amount\"; **λίγοι** \"few\"; **αρκετοί** \"quite a lot, enough\":"
+},
+{
+"ex": [
+{
+"el": "Μερικοί φίλοι μου μένουν στη Γερμανία.",
+"en": "Some of my friends live in Germany."
+},
+{
+"el": "Πήρα μερικά πράγματα για το σπίτι.",
+"en": "I got a few things for the house."
+},
+{
+"el": "Περιμέναμε κάμποση ώρα.",
+"en": "We waited quite a while."
+},
+{
+"el": "Αρκετοί άνθρωποι ήρθαν.",
+"en": "Quite a lot of people came."
+}
+]
+},
+{
+"tip": "**Άλλο ένα** \"one more\": **Άλλη μία μπίρα, παρακαλώ.** \"Another beer, please.\" **Άλλος** before **ένας / μία** agrees too."
+},
+{
+"solved": [
+{
+"q": "\"Anything else?\"",
+"a": "Κάτι άλλο; | Τίποτε άλλο;",
+"why": "άλλο after κάτι."
+},
+{
+"q": "\"another coffee\"",
+"a": "άλλος ένας καφές | έναν καφέ ακόμα",
+"why": "άλλος agrees with καφές."
+},
+{
+"q": "\"some friends\"",
+"a": "μερικοί φίλοι",
+"why": "Masculine plural."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θέλω ___ μία μπίρα. (another)",
+"options": [
+"άλλο",
+"άλλη",
+"άλλος",
+"άλλα"
+],
+"answer": "άλλη",
+"why": "Feminine: άλλη μία μπίρα.",
+"id": "indefinites-6435c346"
+},
+{
+"type": "choice",
+"q": "Πού είναι οι ___; (the others)",
+"options": [
+"άλλες οι",
+"άλλοι",
+"άλλα",
+"άλλος"
+],
+"answer": "άλλοι",
+"why": "Masculine plural for a mixed group.",
+"id": "indefinites-023233a0"
+},
+{
+"type": "choice",
+"q": "Πήρα ___ φρούτα. (some)",
+"options": [
+"μερικοί",
+"μερικές",
+"μερικά",
+"μερικό"
+],
+"answer": "μερικά",
+"why": "Neuter plural.",
+"id": "indefinites-27ea1c5c"
+},
+{
+"type": "choice",
+"q": "Κάτι ___; (else)",
+"options": [
+"άλλος",
+"άλλο",
+"άλλη",
+"άλλα"
+],
+"answer": "άλλο",
+"why": "Neuter after κάτι.",
+"id": "indefinites-16610434"
+},
+{
+"type": "choice",
+"q": "Περιμέναμε ___ ώρα. (quite a while)",
+"options": [
+"κάμποσο",
+"κάμποση",
+"κάμποσος",
+"κάμποσα"
+],
+"answer": "κάμποση",
+"why": "Feminine: κάμποση ώρα.",
+"id": "indefinites-2f3bf42b"
+},
+{
+"type": "choice",
+"q": "___ μαθητές δεν ήρθαν. (Some)",
+"options": [
+"Μερικά",
+"Μερικοί",
+"Μερικές",
+"Κάποιο"
+],
+"answer": "Μερικοί",
+"why": "Masculine plural.",
+"id": "indefinites-f1dd4cd4"
+},
+{
+"type": "write",
+"q": "Translate: \"next week\"",
+"answer": "την άλλη εβδομάδα",
+"accept": [
+"την επόμενη εβδομάδα"
+],
+"why": "άλλος = next.",
+"id": "indefinites-efeb286d"
+},
+{
+"type": "write",
+"q": "Translate: \"one more\" (το κομμάτι)",
+"answer": "άλλο ένα",
+"accept": [
+"άλλο ένα κομμάτι"
+],
+"why": "Neuter.",
+"id": "indefinites-285cb30c"
+},
+{
+"type": "write",
+"q": "Translate: \"a few days\"",
+"answer": "μερικές μέρες",
+"accept": [],
+"why": "Feminine plural.",
+"id": "indefinites-2aeff2c4"
+},
+{
+"type": "write",
+"q": "Translate: \"Where are the others?\"",
+"answer": "Πού είναι οι άλλοι;",
+"accept": [],
+"why": "οι άλλοι.",
+"id": "indefinites-c57a850c"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Οποιοσδήποτε, οτιδήποτε",
+"title": "\"Anyone at all\", \"anything at all\"",
+"body": [
+{
+"p": "Adding **-δήποτε** gives \"any... at all, whatever, whoever\": **οποιοσδήποτε** \"anyone (at all)\", **οτιδήποτε** \"anything (at all)\", **οπουδήποτε** \"anywhere\", **οποτεδήποτε** \"any time\", **οπωσδήποτε** \"definitely, without fail\"."
+},
+{
+"ex": [
+{
+"el": "Ρώτα οποιονδήποτε.",
+"en": "Ask anyone."
+},
+{
+"el": "Μπορείς να μου πεις οτιδήποτε.",
+"en": "You can tell me anything."
+},
+{
+"el": "Πάρε με οποτεδήποτε.",
+"en": "Call me any time."
+},
+{
+"el": "Θα έρθω οπωσδήποτε.",
+"en": "I'll definitely come."
+}
+]
+},
+{
+"p": "The shorter everyday forms are **όποιος** \"whoever\", **ό,τι** \"whatever\", **όπου** \"wherever\", **όποτε** \"whenever\" (chapter on relative clauses):"
+},
+{
+"ex": [
+{
+"el": "Όποιος θέλει, ας έρθει.",
+"en": "Whoever wants to can come."
+},
+{
+"el": "Κάνε ό,τι θέλεις.",
+"en": "Do whatever you want."
+},
+{
+"el": "Έλα όποτε μπορείς.",
+"en": "Come whenever you can."
+}
+]
+},
+{
+"tip": "**Οπωσδήποτε** does not mean \"anyhow\"; it means \"definitely, by all means\": **Πρέπει οπωσδήποτε να δεις τα Μετέωρα.** \"You absolutely have to see Meteora.\""
+},
+{
+"solved": [
+{
+"q": "\"You can ask me anything.\" (informal)",
+"a": "Μπορείς να με ρωτήσεις οτιδήποτε.",
+"why": "οτιδήποτε = anything at all."
+},
+{
+"q": "\"I'll definitely call you.\" (informal)",
+"a": "Θα σε πάρω οπωσδήποτε. | Θα σου τηλεφωνήσω οπωσδήποτε.",
+"why": "οπωσδήποτε = definitely."
+},
+{
+"q": "\"Do whatever you like.\" (informal)",
+"a": "Κάνε ό,τι θέλεις.",
+"why": "ό,τι = whatever (with comma)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ρώτα ___. (anyone)",
+"options": [
+"οποιοσδήποτε",
+"οποιονδήποτε",
+"οτιδήποτε",
+"κανείς"
+],
+"answer": "οποιονδήποτε",
+"why": "Object: accusative οποιονδήποτε.",
+"id": "indefinites-2cdf22a2"
+},
+{
+"type": "choice",
+"q": "Θα έρθω ___. (definitely)",
+"options": [
+"οποτεδήποτε",
+"οπωσδήποτε",
+"οπουδήποτε",
+"οτιδήποτε"
+],
+"answer": "οπωσδήποτε",
+"why": "οπωσδήποτε = definitely.",
+"id": "indefinites-d4a7e263"
+},
+{
+"type": "choice",
+"q": "Κάνε ___ θέλεις. (whatever)",
+"options": [
+"ότι",
+"ό,τι",
+"όποιος",
+"οτι"
+],
+"answer": "ό,τι",
+"why": "ό,τι with a comma = whatever; ότι = that.",
+"id": "indefinites-3e3bfaa0"
+},
+{
+"type": "choice",
+"q": "___ θέλει, ας έρθει. (Whoever)",
+"options": [
+"Όποιον",
+"Όποιος",
+"Ό,τι",
+"Οποιαδήποτε"
+],
+"answer": "Όποιος",
+"why": "Subject: όποιος.",
+"id": "indefinites-34e85bfa"
+},
+{
+"type": "choice",
+"q": "Πάρε με ___. (any time)",
+"options": [
+"οπουδήποτε",
+"οποτεδήποτε",
+"οπωσδήποτε",
+"οποιοσδήποτε"
+],
+"answer": "οποτεδήποτε",
+"why": "οποτεδήποτε = any time.",
+"id": "indefinites-3ba84f08"
+},
+{
+"type": "write",
+"q": "Translate: \"Call me whenever you want.\" (informal)",
+"answer": "Πάρε με όποτε θέλεις.",
+"accept": [
+"Πάρε με οποτεδήποτε."
+],
+"why": "όποτε / οποτεδήποτε.",
+"id": "indefinites-bed0ee1f"
+},
+{
+"type": "write",
+"q": "Translate: \"anywhere\"",
+"answer": "οπουδήποτε",
+"accept": [],
+"why": "οπουδήποτε.",
+"id": "indefinites-5af31841"
+},
+{
+"type": "write",
+"q": "Translate: \"Eat whatever you want.\" (informal)",
+"answer": "Φάε ό,τι θέλεις.",
+"accept": [],
+"why": "ό,τι.",
+"id": "indefinites-bbd94325"
+},
+{
+"type": "write",
+"q": "Translate: \"You must definitely see it.\" (informal)",
+"answer": "Πρέπει οπωσδήποτε να το δεις.",
+"accept": [
+"Πρέπει να το δεις οπωσδήποτε."
+],
+"why": "οπωσδήποτε = definitely.",
+"id": "indefinites-58d47edd"
+}
+]
+}
+]
+}
+],
+"id": "indefinites",
+"el": "Αόριστες αντωνυμίες και ποσοτικές λέξεις",
+"title": "Someone, nobody, everything: indefinites and quantifiers",
+"span": "A2–B2",
+"blurb": "κάποιος and κάτι, κανείς and τίποτα with δεν, κάθε, καθένας, όλος, άλλος, μερικοί, οποιοσδήποτε and οτιδήποτε.",
+"intro": [
+{
+"p": "\"Someone called\", \"nobody knows\", \"everything's fine\", \"any time you like\": these words are everywhere in daily speech. The key rule is **negative agreement**: **κανείς** \"nobody\" and **τίποτα** \"nothing\" need **δεν** with the verb, so a Greek sentence says \"not nothing\" where English says \"nothing\": **Δεν είδα τίποτα.** \"I saw nothing / I didn't see anything.\""
+},
+{
+"links": [
+{
+"href": "#cards.determiners",
+"kind": "Card",
+"el": "Δεικτικές, ερωτηματικές, αόριστες",
+"title": "This, which, some, no"
+},
+{
+"href": "#pos.pronoun",
+"kind": "Part of speech",
+"el": "Η αντωνυμία",
+"title": "The pronoun"
+}
+]
+}
+],
+"num": 13
+}

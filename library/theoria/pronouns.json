@@ -1,0 +1,1120 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Δικός μου",
+"title": "\"Mine\", \"my own\": δικός μου",
+"body": [
+{
+"p": "The weak genitive after the noun (**το σπίτι μου**) is the ordinary \"my\". For emphasis, for \"mine\" and for \"my own\", use **δικός, δική, δικό** + weak genitive:"
+},
+{
+"table": {
+"head": [
+"",
+"Masc.",
+"Fem.",
+"Neut."
+],
+"rows": [
+[
+"mine",
+"δικός μου",
+"δική μου",
+"δικό μου"
+],
+[
+"yours",
+"δικός σου",
+"δική σου",
+"δικό σου"
+],
+[
+"his / hers",
+"δικός του / της",
+"δική του / της",
+"δικό του / της"
+],
+[
+"ours, yours, theirs",
+"δικός μας / σας / τους",
+"δική μας / σας / τους",
+"δικό μας / σας / τους"
+]
+]
+}
+},
+{
+"p": "**Δικός** agrees with the **thing owned**; the weak pronoun shows the **owner**:"
+},
+{
+"ex": [
+{
+"el": "Αυτό το κινητό είναι δικό σου;",
+"en": "Is this phone yours?"
+},
+{
+"el": "Όχι, είναι δικό της.",
+"en": "No, it's hers."
+},
+{
+"el": "Θέλω ένα δικό μου σπίτι.",
+"en": "I want a house of my own."
+},
+{
+"el": "Το δικό μας αυτοκίνητο είναι το άσπρο.",
+"en": "Ours is the white car."
+},
+{
+"el": "Δεν είναι δική σου δουλειά!",
+"en": "It's none of your business!"
+},
+{
+"el": "Ένας δικός μου άνθρωπος.",
+"en": "One of my people (a friend, someone close)."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Is this bag yours?\" (informal, η τσάντα)",
+"a": "Αυτή η τσάντα είναι δική σου;",
+"why": "δική agrees with τσάντα; σου shows the owner."
+},
+{
+"q": "\"Those keys are mine.\" (τα κλειδιά)",
+"a": "Αυτά τα κλειδιά είναι δικά μου.",
+"why": "Neuter plural δικά."
+},
+{
+"q": "\"a room of her own\"",
+"a": "ένα δικό της δωμάτιο",
+"why": "δικό agrees with δωμάτιο; της = her."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Αυτό το βιβλίο είναι ___. (mine)",
+"options": [
+"δικός μου",
+"δικό μου",
+"δική μου",
+"μου δικό"
+],
+"answer": "δικό μου",
+"why": "Agrees with το βιβλίο: δικό.",
+"id": "pronouns-a419d173"
+},
+{
+"type": "choice",
+"q": "Η ομπρέλα είναι ___; (yours, informal)",
+"options": [
+"δικός σου",
+"δικό σου",
+"δική σου",
+"δικοί σου"
+],
+"answer": "δική σου",
+"why": "Feminine: δική.",
+"id": "pronouns-c0965714"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά είναι ___. (theirs)",
+"options": [
+"δικοί τους",
+"δικά τους",
+"δικές τους",
+"δικό τους"
+],
+"answer": "δικά τους",
+"why": "Neuter plural: δικά.",
+"id": "pronouns-1f47703e"
+},
+{
+"type": "choice",
+"q": "Ο σκύλος είναι ___. (ours)",
+"options": [
+"δική μας",
+"δικό μας",
+"δικός μας",
+"δικά μας"
+],
+"answer": "δικός μας",
+"why": "Masculine: δικός.",
+"id": "pronouns-fd3b5698"
+},
+{
+"type": "choice",
+"q": "Δεν είναι ___ δουλειά! (your, informal)",
+"options": [
+"δικό σου",
+"δική σου",
+"δικιά σου η",
+"σου δική"
+],
+"answer": "δική σου",
+"why": "η δουλειά → δική σου.",
+"id": "pronouns-96f9a38b"
+},
+{
+"type": "choice",
+"q": "Αυτό είναι το ___ αυτοκίνητο. (their)",
+"options": [
+"δικός τους",
+"δικό τους",
+"δικοί τους",
+"δική τους"
+],
+"answer": "δικό τους",
+"why": "Neuter: δικό.",
+"id": "pronouns-d980496a"
+},
+{
+"type": "write",
+"q": "Translate: \"It's mine.\" (το)",
+"answer": "Είναι δικό μου.",
+"accept": [],
+"why": "Neuter δικό.",
+"id": "pronouns-f00376dc"
+},
+{
+"type": "write",
+"q": "Translate: \"Is this yours?\" (polite, η θέση: the seat)",
+"answer": "Είναι δική σας η θέση;",
+"accept": [
+"Αυτή η θέση είναι δική σας;"
+],
+"why": "δική agrees with θέση; σας polite.",
+"id": "pronouns-654a94bf"
+},
+{
+"type": "write",
+"q": "Translate: \"a car of my own\"",
+"answer": "ένα δικό μου αυτοκίνητο",
+"accept": [],
+"why": "δικό + μου.",
+"id": "pronouns-a371caf2"
+},
+{
+"type": "write",
+"q": "Translate: \"Those shoes are hers.\" (τα παπούτσια)",
+"answer": "Αυτά τα παπούτσια είναι δικά της.",
+"accept": [],
+"why": "Neuter plural.",
+"id": "pronouns-5cf01bba"
+},
+{
+"type": "order",
+"q": "\"It's none of your business!\" (informal)",
+"answer": "Δεν είναι δική σου δουλειά!",
+"accept": [],
+"why": "δική agrees with η δουλειά.",
+"id": "pronouns-f5b3a82e"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Αυτός και εκείνος",
+"title": "\"This\" and \"that\": αυτός, εκείνος",
+"body": [
+{
+"p": "**Αυτός, αυτή, αυτό** means \"this\" (or \"that\", for things already mentioned); **εκείνος, εκείνη, εκείνο** means \"that (over there)\". With a noun they keep the **article**:"
+},
+{
+"ex": [
+{
+"el": "αυτός ο άντρας",
+"en": "this man"
+},
+{
+"el": "αυτή η πόλη",
+"en": "this town"
+},
+{
+"el": "αυτό το κρασί",
+"en": "this wine"
+},
+{
+"el": "εκείνο το σπίτι εκεί",
+"en": "that house over there"
+},
+{
+"el": "σε αυτό το μαγαζί / σ' αυτό το μαγαζί",
+"en": "in this shop"
+}
+]
+},
+{
+"table": {
+"head": [
+"",
+"Masc.",
+"Fem.",
+"Neut."
+],
+"rows": [
+[
+"Nom. sg",
+"εκείνος",
+"εκείνη",
+"εκείνο"
+],
+[
+"Acc. sg",
+"εκείνον",
+"εκείνη(ν)",
+"εκείνο"
+],
+[
+"Gen. sg",
+"εκείνου",
+"εκείνης",
+"εκείνου"
+],
+[
+"Nom. pl",
+"εκείνοι",
+"εκείνες",
+"εκείνα"
+],
+[
+"Acc. pl",
+"εκείνους",
+"εκείνες",
+"εκείνα"
+],
+[
+"Gen. pl",
+"εκείνων",
+"εκείνων",
+"εκείνων"
+]
+]
+}
+},
+{
+"p": "**Αυτός** declines the same way. Alone they also mean \"he, she, it\": **Αυτός είναι ο αδερφός μου.** \"This is my brother.\" / \"He is my brother.\""
+},
+{
+"ex": [
+{
+"el": "Θέλω αυτό, όχι εκείνο.",
+"en": "I want this one, not that one."
+},
+{
+"el": "Ποιος είναι αυτός;",
+"en": "Who's that? (Who is he?)"
+},
+{
+"el": "Εκείνη τη μέρα έβρεχε.",
+"en": "That day it was raining."
+},
+{
+"el": "Αυτά είναι δικά σου.",
+"en": "These are yours."
+}
+]
+},
+{
+"tip": "Never drop the article: *αυτός άντρας* is wrong; say **αυτός ο άντρας**. The demonstrative can also follow: **ο άντρας αυτός** (a bit more formal)."
+},
+{
+"solved": [
+{
+"q": "\"this street\" (ο δρόμος)",
+"a": "αυτός ο δρόμος",
+"why": "Demonstrative + article + noun."
+},
+{
+"q": "\"in that shop over there\" (το μαγαζί)",
+"a": "σε εκείνο το μαγαζί | σ' εκείνο το μαγαζί",
+"why": "σε stays separate before εκείνο."
+},
+{
+"q": "\"I want these, not those.\" (neuter)",
+"a": "Θέλω αυτά, όχι εκείνα.",
+"why": "Neuter plural, alone."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ η τσάντα είναι πολύ ακριβή.",
+"options": [
+"Αυτό",
+"Αυτή",
+"Αυτός",
+"Αυτήν"
+],
+"answer": "Αυτή",
+"why": "Feminine: αυτή η τσάντα.",
+"id": "pronouns-7c26a0c5"
+},
+{
+"type": "choice",
+"q": "Θέλω ___ το φόρεμα. (that one over there)",
+"options": [
+"εκείνη",
+"εκείνο",
+"εκείνον",
+"εκείνου"
+],
+"answer": "εκείνο",
+"why": "Neuter: εκείνο.",
+"id": "pronouns-6e9d91da"
+},
+{
+"type": "choice",
+"q": "Πού μένει ___ ο κύριος;",
+"options": [
+"αυτό",
+"αυτός",
+"αυτή",
+"αυτόν"
+],
+"answer": "αυτός",
+"why": "Masculine nominative.",
+"id": "pronouns-1c4db548"
+},
+{
+"type": "choice",
+"q": "Ποιος είναι ___; (that man, pointing)",
+"options": [
+"εκείνο",
+"εκείνος",
+"εκείνον",
+"εκείνου"
+],
+"answer": "εκείνος",
+"why": "Subject after ποιος είναι: nominative.",
+"id": "pronouns-4c53b58f"
+},
+{
+"type": "choice",
+"q": "Θα πάμε σε ___ ταβέρνα που σου είπα. (that)",
+"options": [
+"εκείνο το",
+"εκείνη την",
+"εκείνος ο",
+"εκείνης της"
+],
+"answer": "εκείνη την",
+"why": "Feminine accusative after σε.",
+"id": "pronouns-945a8a73"
+},
+{
+"type": "choice",
+"q": "\"this child\"",
+"options": [
+"αυτό παιδί",
+"αυτό το παιδί",
+"το αυτό παιδί",
+"αυτός το παιδί"
+],
+"answer": "αυτό το παιδί",
+"why": "Demonstrative + article + noun.",
+"id": "pronouns-4f37a965"
+},
+{
+"type": "write",
+"q": "Translate: \"this house\"",
+"answer": "αυτό το σπίτι",
+"accept": [],
+"why": "Keep the article.",
+"id": "pronouns-79018f9f"
+},
+{
+"type": "write",
+"q": "Translate: \"that woman over there\"",
+"answer": "εκείνη η γυναίκα",
+"accept": [],
+"why": "εκείνη + article + noun.",
+"id": "pronouns-c2b047f8"
+},
+{
+"type": "write",
+"q": "Translate: \"I don't like this one.\" (ο καφές)",
+"answer": "Δεν μου αρέσει αυτός.",
+"accept": [
+"Αυτός δεν μου αρέσει."
+],
+"why": "Masculine, alone.",
+"id": "pronouns-d117c056"
+},
+{
+"type": "write",
+"q": "Translate: \"in this town\" (η πόλη)",
+"answer": "σε αυτή την πόλη",
+"accept": [
+"σ' αυτή την πόλη",
+"σε αυτήν την πόλη"
+],
+"why": "σε stays separate before αυτή.",
+"id": "pronouns-1d4bce68"
+},
+{
+"type": "order",
+"q": "\"I want that dress, not this one.\" (το φόρεμα)",
+"answer": "Θέλω εκείνο το φόρεμα, όχι αυτό.",
+"accept": [],
+"why": "Demonstrative + article + noun; then the pronoun alone.",
+"id": "pronouns-2bca557b"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Τέτοιος και τόσος",
+"title": "\"Such\" and \"so much\": τέτοιος, τόσος",
+"body": [
+{
+"p": "**Τέτοιος, τέτοια, τέτοιο** means \"such, like that\"; **τόσος, τόση, τόσο** means \"so much, so many, that much\". Both agree with the noun:"
+},
+{
+"ex": [
+{
+"el": "Δεν έχω δει ποτέ τέτοιο πράγμα!",
+"en": "I've never seen such a thing!"
+},
+{
+"el": "Μη μου μιλάς με τέτοιο ύφος.",
+"en": "Don't talk to me in that tone."
+},
+{
+"el": "Γιατί τόση βιασύνη;",
+"en": "Why such a hurry?"
+},
+{
+"el": "Τόσοι άνθρωποι στην παραλία!",
+"en": "So many people on the beach!"
+},
+{
+"el": "Δεν περίμενα τόσα λεφτά.",
+"en": "I didn't expect so much money."
+}
+]
+},
+{
+"p": "**Τόσο** without a noun is an adverb, \"so\": **Είναι τόσο ωραίο!** \"It's so lovely!\" **Τέτοια** alone means \"things like that\": **Μη λες τέτοια!** \"Don't say things like that!\""
+},
+{
+"solved": [
+{
+"q": "\"such a nice day\" (η μέρα)",
+"a": "τέτοια ωραία μέρα | μια τέτοια ωραία μέρα",
+"why": "τέτοια agrees with μέρα."
+},
+{
+"q": "\"so many questions\" (οι ερωτήσεις)",
+"a": "τόσες ερωτήσεις",
+"why": "Feminine plural."
+},
+{
+"q": "\"Don't say things like that!\" (informal)",
+"a": "Μη λες τέτοια!",
+"why": "Neuter plural τέτοια = such things; μη before λ."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Δεν έχω ξαναδεί ___ καιρό! (such)",
+"options": [
+"τέτοια",
+"τέτοιο",
+"τέτοιος",
+"τόσο"
+],
+"answer": "τέτοιο",
+"why": "ο καιρός: accusative τέτοιο καιρό.",
+"id": "pronouns-1597f22d"
+},
+{
+"type": "choice",
+"q": "Γιατί ___ φασαρία; (so much noise, η φασαρία)",
+"options": [
+"τόσο",
+"τόση",
+"τόσος",
+"τέτοιο"
+],
+"answer": "τόση",
+"why": "Feminine: τόση.",
+"id": "pronouns-7f3f19df"
+},
+{
+"type": "choice",
+"q": "Ήρθαν ___ άνθρωποι! (so many)",
+"options": [
+"τόσα",
+"τόσες",
+"τόσοι",
+"τόσο"
+],
+"answer": "τόσοι",
+"why": "Masculine plural.",
+"id": "pronouns-97b99918"
+},
+{
+"type": "choice",
+"q": "Είναι ___ ωραία εδώ! (so)",
+"options": [
+"τόση",
+"τόσο",
+"τόσα",
+"τέτοια"
+],
+"answer": "τόσο",
+"why": "Before an adverb/adjective: τόσο.",
+"id": "pronouns-5031cc9d"
+},
+{
+"type": "choice",
+"q": "Μη λες ___! (things like that)",
+"options": [
+"τέτοιο",
+"τόσα",
+"τέτοια",
+"τέτοιες"
+],
+"answer": "τέτοια",
+"why": "Neuter plural τέτοια.",
+"id": "pronouns-dbbce44f"
+},
+{
+"type": "write",
+"q": "Translate: \"so much work\" (η δουλειά)",
+"answer": "τόση δουλειά",
+"accept": [],
+"why": "Feminine singular.",
+"id": "pronouns-beaedcf3"
+},
+{
+"type": "write",
+"q": "Translate: \"such people\"",
+"answer": "τέτοιοι άνθρωποι",
+"accept": [],
+"why": "Masculine plural.",
+"id": "pronouns-e9eee0d4"
+},
+{
+"type": "write",
+"q": "Translate: \"It's so beautiful!\" (το νησί)",
+"answer": "Είναι τόσο ωραίο!",
+"accept": [
+"Είναι τόσο όμορφο!"
+],
+"why": "Adverb τόσο.",
+"id": "pronouns-48e6cd40"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Ποιος, τι, πόσος",
+"title": "Question words: who, which, what, how much",
+"body": [
+{
+"p": "**Ποιος, ποια, ποιο** \"who, which\" agrees with the noun or the person; **τι** \"what\" never changes; **πόσος, πόση, πόσο** \"how much, how many\" agrees."
+},
+{
+"table": {
+"head": [
+"",
+"Masc.",
+"Fem.",
+"Neut."
+],
+"rows": [
+[
+"Nom. sg",
+"ποιος",
+"ποια",
+"ποιο"
+],
+[
+"Acc. sg",
+"ποιον",
+"ποια",
+"ποιο"
+],
+[
+"Gen. sg",
+"ποιου / ποιανού",
+"ποιας / ποιανής",
+"ποιου / ποιανού"
+],
+[
+"Nom. pl",
+"ποιοι",
+"ποιες",
+"ποια"
+],
+[
+"Acc. pl",
+"ποιους",
+"ποιες",
+"ποια"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Ποιος είναι;",
+"en": "Who is it?"
+},
+{
+"el": "Ποιον ψάχνεις;",
+"en": "Who are you looking for?"
+},
+{
+"el": "Ποια μπλούζα σου αρέσει;",
+"en": "Which blouse do you like?"
+},
+{
+"el": "Τίνος είναι αυτό; / Ποιανού είναι αυτό;",
+"en": "Whose is this?"
+},
+{
+"el": "Τι θέλεις; Τι ώρα είναι;",
+"en": "What do you want? What time is it?"
+},
+{
+"el": "Πόσο κάνει; Πόσα χρόνια; Πόσες φορές;",
+"en": "How much is it? How many years? How many times?"
+}
+]
+},
+{
+"p": "**Τι** + noun asks \"what kind of\": **Τι δουλειά κάνεις;** \"What job do you do?\", **Τι μουσική ακούς;** \"What music do you listen to?\""
+},
+{
+"p": "\"Whose?\" is **τίνος;** or **ποιανού;** (colloquial), or **ποιου;**."
+},
+{
+"tip": "**Ποιον** (accusative) vs **ποιος** (nominative): **Ποιος σε πήρε;** \"Who called you?\" (subject) but **Ποιον πήρες;** \"Who did you call?\" (object)."
+},
+{
+"solved": [
+{
+"q": "\"Who did you see?\"",
+"a": "Ποιον είδες; | Ποια είδες;",
+"why": "Object: accusative ποιον (ποια for a woman)."
+},
+{
+"q": "\"How many children do you have?\"",
+"a": "Πόσα παιδιά έχεις;",
+"why": "πόσα agrees with neuter παιδιά."
+},
+{
+"q": "\"Whose is this bag?\"",
+"a": "Τίνος είναι αυτή η τσάντα; | Ποιανού είναι αυτή η τσάντα;",
+"why": "τίνος / ποιανού = whose."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ είναι στην πόρτα; (Who)",
+"options": [
+"Ποιον",
+"Ποιος",
+"Τι",
+"Πόσος"
+],
+"answer": "Ποιος",
+"why": "Subject: ποιος.",
+"id": "pronouns-cc6870ab"
+},
+{
+"type": "choice",
+"q": "___ περιμένεις; (Who, a man)",
+"options": [
+"Ποιος",
+"Ποιον",
+"Ποιου",
+"Τίνος"
+],
+"answer": "Ποιον",
+"why": "Object: ποιον.",
+"id": "pronouns-c4fedeac"
+},
+{
+"type": "choice",
+"q": "___ ώρα φεύγει το πλοίο; (What)",
+"options": [
+"Ποια",
+"Τι",
+"Πόση",
+"Ποιο"
+],
+"answer": "Τι",
+"why": "Τι ώρα = what time.",
+"id": "pronouns-edc3061b"
+},
+{
+"type": "choice",
+"q": "___ κοστίζει; (How much)",
+"options": [
+"Πόσα",
+"Πόσο",
+"Πόση",
+"Ποιο"
+],
+"answer": "Πόσο",
+"why": "Πόσο κοστίζει / κάνει;",
+"id": "pronouns-166e2315"
+},
+{
+"type": "choice",
+"q": "___ φορές; (How many)",
+"options": [
+"Πόσα",
+"Πόσοι",
+"Πόσες",
+"Πόσο"
+],
+"answer": "Πόσες",
+"why": "η φορά → πόσες φορές.",
+"id": "pronouns-58893733"
+},
+{
+"type": "choice",
+"q": "___ είναι αυτά τα κλειδιά; (Whose)",
+"options": [
+"Ποιος",
+"Τίνος",
+"Ποιον",
+"Ποια"
+],
+"answer": "Τίνος",
+"why": "Whose = τίνος / ποιανού.",
+"id": "pronouns-9c5113de"
+},
+{
+"type": "choice",
+"q": "___ από τα δύο θέλεις; (Which one, neuter)",
+"options": [
+"Ποιος",
+"Ποιο",
+"Ποια",
+"Τι"
+],
+"answer": "Ποιο",
+"why": "Neuter: ποιο.",
+"id": "pronouns-4912a056"
+},
+{
+"type": "write",
+"q": "Translate: \"Which one do you want?\" (η μπλούζα)",
+"answer": "Ποια θέλεις;",
+"accept": [],
+"why": "Feminine ποια.",
+"id": "pronouns-58e003b8"
+},
+{
+"type": "write",
+"q": "Translate: \"What do you do (for work)?\"",
+"answer": "Τι δουλειά κάνεις;",
+"accept": [
+"Τι δουλεύεις;"
+],
+"why": "τι + noun.",
+"id": "pronouns-44e0a03c"
+},
+{
+"type": "write",
+"q": "Translate: \"How many people?\"",
+"answer": "Πόσοι άνθρωποι;",
+"accept": [
+"Πόσα άτομα;"
+],
+"why": "Masculine plural, or το άτομο \"person\" (neuter).",
+"id": "pronouns-866c7c61"
+},
+{
+"type": "write",
+"q": "Translate: \"Who called you?\"",
+"answer": "Ποιος σε πήρε τηλέφωνο;",
+"accept": [
+"Ποιος σου τηλεφώνησε;"
+],
+"why": "Subject ποιος.",
+"id": "pronouns-a05e2532"
+},
+{
+"type": "write",
+"q": "Translate: \"How much is it?\"",
+"answer": "Πόσο κάνει;",
+"accept": [
+"Πόσο κοστίζει;"
+],
+"why": "πόσο.",
+"id": "pronouns-e9fd9a43"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ο εαυτός μου, ο ίδιος, μόνος μου",
+"title": "\"Myself\", \"the same\", \"by myself\", \"each other\"",
+"body": [
+{
+"p": "**Ο εαυτός μου** \"myself\" is a masculine noun plus a possessive; it is used for all persons and both sexes:"
+},
+{
+"ex": [
+{
+"el": "Πρόσεχε τον εαυτό σου!",
+"en": "Take care of yourself!"
+},
+{
+"el": "Μιλάει στον εαυτό του.",
+"en": "He talks to himself."
+},
+{
+"el": "Η Ελένη αγαπάει τον εαυτό της.",
+"en": "Eleni loves herself."
+},
+{
+"el": "Κοιτάχτηκα στον καθρέφτη.",
+"en": "I looked at myself in the mirror. (a -ομαι verb)"
+}
+]
+},
+{
+"p": "Many \"-self\" ideas are expressed with **-ομαι** verbs instead: **ντύνομαι** \"I get dressed\", **πλένομαι** \"I wash (myself)\", **ξυρίζομαι** \"I shave\"."
+},
+{
+"p": "**Ο ίδιος, η ίδια, το ίδιο** means \"the same\" or, after a noun, \"himself, herself\" (emphatic):"
+},
+{
+"ex": [
+{
+"el": "Έχουμε το ίδιο κινητό.",
+"en": "We have the same phone."
+},
+{
+"el": "Είναι το ίδιο. / Μου είναι το ίδιο.",
+"en": "It's the same. / It's all the same to me."
+},
+{
+"el": "Ο ίδιος ο διευθυντής μού τηλεφώνησε.",
+"en": "The manager himself called me."
+},
+{
+"el": "Το έφτιαξα η ίδια.",
+"en": "I made it myself (a woman speaking)."
+}
+]
+},
+{
+"p": "**Μόνος μου** \"by myself, on my own\" agrees with the subject: **Το έφτιαξα μόνος μου / μόνη μου.** **Μένει μόνη της.** \"She lives alone.\""
+},
+{
+"p": "**Ο ένας τον άλλον** \"each other\" (the first part is nominative, the second takes the case the verb needs): **Αγαπιούνται / Αγαπάνε ο ένας τον άλλον.** \"They love each other.\" **Μιλάμε ο ένας στον άλλον.** \"We talk to each other.\""
+},
+{
+"solved": [
+{
+"q": "\"Take care of yourself!\" (informal)",
+"a": "Πρόσεχε τον εαυτό σου!",
+"why": "ο εαυτός + possessive."
+},
+{
+"q": "\"I did it by myself.\" (a woman)",
+"a": "Το έκανα μόνη μου.",
+"why": "μόνη agrees with the subject."
+},
+{
+"q": "\"We have the same car.\"",
+"a": "Έχουμε το ίδιο αυτοκίνητο.",
+"why": "ίδιος + article = the same."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πρόσεχε ___ σου!",
+"options": [
+"ο εαυτός",
+"τον εαυτό",
+"του εαυτού",
+"τον εαυτός"
+],
+"answer": "τον εαυτό",
+"why": "Object: τον εαυτό σου.",
+"id": "pronouns-13635ada"
+},
+{
+"type": "choice",
+"q": "Η Μαρία μένει ___. (alone)",
+"options": [
+"μόνος της",
+"μόνη της",
+"μόνο της",
+"μόνη μου"
+],
+"answer": "μόνη της",
+"why": "μόνη agrees with Μαρία, της shows the person.",
+"id": "pronouns-0c115b0b"
+},
+{
+"type": "choice",
+"q": "Αυτές οι δύο μπλούζες είναι ___. (the same)",
+"options": [
+"ίδιες οι",
+"ίδιες",
+"τα ίδια",
+"ίδιος"
+],
+"answer": "ίδιες",
+"why": "Plural feminine predicate: ίδιες.",
+"id": "pronouns-2dce3914"
+},
+{
+"type": "choice",
+"q": "Μου τηλεφώνησε ___ ο υπουργός! (himself)",
+"options": [
+"ίδιος",
+"ο ίδιος",
+"το ίδιο",
+"η ίδια"
+],
+"answer": "ο ίδιος",
+"why": "Emphatic: ο ίδιος ο υπουργός.",
+"id": "pronouns-78b50216"
+},
+{
+"type": "choice",
+"q": "Βοηθάμε ___. (each other)",
+"options": [
+"ο ένας τον ένα",
+"ο ένας τον άλλον",
+"τον ένα ο άλλος",
+"ο ένας ο άλλος"
+],
+"answer": "ο ένας τον άλλον",
+"why": "Reciprocal: ο ένας τον άλλον.",
+"id": "pronouns-74954dcd"
+},
+{
+"type": "choice",
+"q": "Το έφτιαξαν ___ τους. (by themselves, men)",
+"options": [
+"μόνες",
+"μόνα",
+"μόνοι",
+"μόνο"
+],
+"answer": "μόνοι",
+"why": "Masculine plural.",
+"id": "pronouns-2b58d2a1"
+},
+{
+"type": "write",
+"q": "Translate: \"He talks to himself.\"",
+"answer": "Μιλάει στον εαυτό του.",
+"accept": [
+"Μιλά στον εαυτό του."
+],
+"why": "σε + τον εαυτό του.",
+"id": "pronouns-5ad907ff"
+},
+{
+"type": "write",
+"q": "Translate: \"It's all the same to me.\"",
+"answer": "Μου είναι το ίδιο.",
+"accept": [
+"Το ίδιο μου κάνει."
+],
+"why": "το ίδιο = the same.",
+"id": "pronouns-62bc5a0f"
+},
+{
+"type": "write",
+"q": "Translate: \"I live alone.\" (a man)",
+"answer": "Μένω μόνος μου.",
+"accept": [],
+"why": "μόνος + μου.",
+"id": "pronouns-f87d161e"
+},
+{
+"type": "write",
+"q": "Translate: \"They help each other.\"",
+"answer": "Βοηθάνε ο ένας τον άλλον.",
+"accept": [
+"Βοηθούν ο ένας τον άλλον."
+],
+"why": "Reciprocal phrase: ο ένας τον άλλον.",
+"id": "pronouns-eae80a8e"
+}
+]
+}
+]
+}
+],
+"id": "pronouns",
+"el": "Κτητικές, δεικτικές, ερωτηματικές και αυτοπαθείς αντωνυμίες",
+"title": "Possessives, demonstratives, question words and \"myself\"",
+"span": "A1–B2",
+"blurb": "δικός μου \"mine\", αυτός and εκείνος with the article, τέτοιος and τόσος, ποιος, τι and πόσος, ο εαυτός μου, ο ίδιος, μόνος μου and ο ένας τον άλλον.",
+"intro": [
+{
+"p": "These pronouns are small words you use in every conversation: \"Is this yours?\", \"Which one?\", \"How much?\", \"that one over there\", \"by myself\". Most of them decline like **-ος, -η, -ο** adjectives and agree with the noun they refer to."
+},
+{
+"links": [
+{
+"href": "#a2-possessives",
+"kind": "Lesson",
+"el": "Κτητικά",
+"title": "Possessives μου, σου, του and δικός μου"
+},
+{
+"href": "#cards.possessive",
+"kind": "Card",
+"el": "Κτητικά και αυτοπαθή",
+"title": "Possessives and reflexives"
+},
+{
+"href": "#cards.determiners",
+"kind": "Card",
+"el": "Δεικτικές, ερωτηματικές, αόριστες",
+"title": "This, which, some, no"
+},
+{
+"href": "#pos.pronoun",
+"kind": "Part of speech",
+"el": "Η αντωνυμία",
+"title": "The pronoun"
+}
+]
+}
+],
+"num": 12
+}

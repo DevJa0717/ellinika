@@ -1,0 +1,1346 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Από το 1 ως το 20",
+"title": "Numbers 1 to 20",
+"body": [
+{
+"table": {
+"head": [
+"",
+"",
+"",
+""
+],
+"rows": [
+[
+"1 ένας, μία, ένα",
+"6 έξι",
+"11 έντεκα",
+"16 δεκαέξι / δεκάξι"
+],
+[
+"2 δύο / δυο",
+"7 επτά / εφτά",
+"12 δώδεκα",
+"17 δεκαεπτά / δεκαεφτά"
+],
+[
+"3 τρεις, τρία",
+"8 οκτώ / οχτώ",
+"13 δεκατρείς, δεκατρία",
+"18 δεκαοκτώ / δεκαοχτώ"
+],
+[
+"4 τέσσερις, τέσσερα",
+"9 εννέα / εννιά",
+"14 δεκατέσσερις, δεκατέσσερα",
+"19 δεκαεννέα / δεκαεννιά"
+],
+[
+"5 πέντε",
+"10 δέκα",
+"15 δεκαπέντε",
+"20 είκοσι"
+]
+]
+}
+},
+{
+"p": "The pairs **επτά / εφτά, οκτώ / οχτώ, εννέα / εννιά** are both correct: the second is more everyday."
+},
+{
+"p": "**Agreement:**"
+},
+{
+"list": [
+"**ένας, μία, ένα** like the indefinite article.",
+"**τρεις** for masculine and feminine, **τρία** for neuter; genitive **τριών**.",
+"**τέσσερις** for masculine and feminine, **τέσσερα** for neuter; genitive **τεσσάρων**."
+]
+},
+{
+"ex": [
+{
+"el": "Τρεις καφέδες και τρία νερά.",
+"en": "Three coffees and three waters."
+},
+{
+"el": "Έχω τέσσερις αδερφές.",
+"en": "I have four sisters."
+},
+{
+"el": "Τέσσερα εισιτήρια για Νάξο.",
+"en": "Four tickets to Naxos."
+},
+{
+"el": "Δεκατρείς μέρες διακοπές.",
+"en": "Thirteen days of holiday."
+},
+{
+"el": "Μία μπίρα κι ένα ούζο.",
+"en": "One beer and one ouzo."
+}
+]
+},
+{
+"p": "When you count (1, 2, 3...) use the neuter: **ένα, δύο, τρία, τέσσερα**."
+},
+{
+"solved": [
+{
+"q": "\"three girls\" (τα κορίτσια)",
+"a": "τρία κορίτσια",
+"why": "Neuter: τρία."
+},
+{
+"q": "\"four days\" (οι μέρες)",
+"a": "τέσσερις μέρες",
+"why": "Feminine: τέσσερις."
+},
+{
+"q": "\"fourteen students\" (οι μαθητές)",
+"a": "δεκατέσσερις μαθητές",
+"why": "Masculine: δεκατέσσερις."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Έχω ___ παιδιά. (3)",
+"options": [
+"τρεις",
+"τρία",
+"τρείς",
+"τριών"
+],
+"answer": "τρία",
+"why": "παιδί is neuter: τρία.",
+"id": "numbers-d90561d0"
+},
+{
+"type": "choice",
+"q": "Θα μείνουμε ___ νύχτες. (4)",
+"options": [
+"τέσσερα",
+"τέσσερις",
+"τέσσερες",
+"τεσσάρων"
+],
+"answer": "τέσσερις",
+"why": "η νύχτα: τέσσερις.",
+"id": "numbers-b03d82ad"
+},
+{
+"type": "choice",
+"q": "___ φίλοι μου είναι εδώ. (3)",
+"options": [
+"Τρία",
+"Τρεις",
+"Τρίοι",
+"Τριών"
+],
+"answer": "Τρεις",
+"why": "Masculine: τρεις.",
+"id": "numbers-c4595f7b"
+},
+{
+"type": "choice",
+"q": "Δώστε μου ___ εισιτήρια. (4)",
+"options": [
+"τέσσερις",
+"τέσσερα",
+"τέσσερεις",
+"τέσσερον"
+],
+"answer": "τέσσερα",
+"why": "Neuter: τέσσερα.",
+"id": "numbers-5a144d75"
+},
+{
+"type": "choice",
+"q": "Θέλω ___ μπίρα. (1)",
+"options": [
+"ένα",
+"μία",
+"ένας",
+"έναν"
+],
+"answer": "μία",
+"why": "Feminine: μία.",
+"id": "numbers-7aa2ba77"
+},
+{
+"type": "choice",
+"q": "Μετράμε: ένα, δύο, ___, τέσσερα.",
+"options": [
+"τρεις",
+"τρία",
+"τρίτο",
+"τριών"
+],
+"answer": "τρία",
+"why": "Counting uses the neuter: τρία.",
+"id": "numbers-93af2989"
+},
+{
+"type": "write",
+"q": "\"four women\"",
+"answer": "τέσσερις γυναίκες",
+"accept": [],
+"why": "Feminine: τέσσερις.",
+"id": "numbers-47bb2d4b"
+},
+{
+"type": "write",
+"q": "\"three coffees\" (ο καφές)",
+"answer": "τρεις καφέδες",
+"accept": [],
+"why": "Masculine: τρεις.",
+"id": "numbers-5e7ab5a3"
+},
+{
+"type": "write",
+"q": "\"one beer and one water\"",
+"answer": "μία μπίρα κι ένα νερό",
+"accept": [
+"μια μπίρα κι ένα νερό",
+"μία μπίρα και ένα νερό"
+],
+"why": "μία (fem.), ένα (neut.).",
+"id": "numbers-4f083fe7"
+},
+{
+"type": "write",
+"q": "\"thirteen euros\" (το ευρώ)",
+"answer": "δεκατρία ευρώ",
+"accept": [],
+"why": "Neuter: δεκατρία.",
+"id": "numbers-965f8b74"
+},
+{
+"type": "write",
+"q": "Write in words: 17",
+"answer": "δεκαεφτά",
+"accept": [
+"δεκαεπτά"
+],
+"why": "Both forms are correct.",
+"id": "numbers-09a27d93"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Δεκάδες, εκατοντάδες, χιλιάδες",
+"title": "Tens, hundreds and thousands",
+"body": [
+{
+"table": {
+"head": [
+"",
+"",
+""
+],
+"rows": [
+[
+"20 είκοσι",
+"60 εξήντα",
+"100 εκατό"
+],
+[
+"30 τριάντα",
+"70 εβδομήντα",
+"101 εκατόν ένα"
+],
+[
+"40 σαράντα",
+"80 ογδόντα",
+"1.000 χίλια"
+],
+[
+"50 πενήντα",
+"90 ενενήντα",
+"2.000 δύο χιλιάδες"
+]
+]
+}
+},
+{
+"p": "Compound numbers are built as in English, and the last part agrees with the noun: **είκοσι ένα παιδιά, είκοσι μία μέρες, είκοσι ένας μαθητές**; **τριάντα τρεις γυναίκες, τριάντα τρία ευρώ**. From 101 to 199 use **εκατόν**: **εκατόν πενήντα**."
+},
+{
+"p": "The hundreds from 200 to 900 and **χίλιοι** agree like adjectives in -οι, -ες, -α:"
+},
+{
+"table": {
+"head": [
+"",
+"Masc.",
+"Fem.",
+"Neut."
+],
+"rows": [
+[
+"200",
+"διακόσιοι",
+"διακόσιες",
+"διακόσια"
+],
+[
+"300",
+"τριακόσιοι",
+"τριακόσιες",
+"τριακόσια"
+],
+[
+"500",
+"πεντακόσιοι",
+"πεντακόσιες",
+"πεντακόσια"
+],
+[
+"1.000",
+"χίλιοι",
+"χίλιες",
+"χίλια"
+]
+]
+}
+},
+{
+"p": "**Χιλιάδες** \"thousands\" is a feminine noun, so the number before it is feminine: **δύο χιλιάδες, τρεις χιλιάδες, τέσσερις χιλιάδες**. A million is **ένα εκατομμύριο**, two million **δύο εκατομμύρια**."
+},
+{
+"ex": [
+{
+"el": "Κοστίζει διακόσια ευρώ.",
+"en": "It costs two hundred euros."
+},
+{
+"el": "Ήρθαν πεντακόσιοι άνθρωποι.",
+"en": "Five hundred people came."
+},
+{
+"el": "Το χωριό έχει τριακόσιους κατοίκους.",
+"en": "The village has three hundred inhabitants."
+},
+{
+"el": "Τρεις χιλιάδες ευρώ το μήνα.",
+"en": "Three thousand euros a month."
+},
+{
+"el": "Χίλια ευχαριστώ!",
+"en": "A thousand thanks!"
+}
+]
+},
+{
+"p": "Greek writes a **full stop** for thousands and a **comma** for decimals: **1.500** \"one thousand five hundred\", **2,5** \"two point five\"."
+},
+{
+"solved": [
+{
+"q": "Write in words: 250 euros",
+"a": "διακόσια πενήντα ευρώ",
+"why": "Neuter: διακόσια (το ευρώ)."
+},
+{
+"q": "Write in words: 300 women",
+"a": "τριακόσιες γυναίκες",
+"why": "Feminine: τριακόσιες."
+},
+{
+"q": "Write in words: 4.000 euros",
+"a": "τέσσερις χιλιάδες ευρώ",
+"why": "χιλιάδες is feminine: τέσσερις."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Το εισιτήριο κοστίζει ___ ευρώ. (200)",
+"options": [
+"διακόσιοι",
+"διακόσιες",
+"διακόσια",
+"διακοσίων"
+],
+"answer": "διακόσια",
+"why": "ευρώ is neuter.",
+"id": "numbers-58370d5a"
+},
+{
+"type": "choice",
+"q": "Στη συναυλία ήταν ___ άτομα. (1.000)",
+"options": [
+"χίλιοι",
+"χίλιες",
+"χίλια",
+"χιλιάδα"
+],
+"answer": "χίλια",
+"why": "το άτομο is neuter: χίλια.",
+"id": "numbers-b67e27b0"
+},
+{
+"type": "choice",
+"q": "Το βιβλίο έχει ___ σελίδες. (300)",
+"options": [
+"τριακόσια",
+"τριακόσιοι",
+"τριακόσιες",
+"τριακοσίων"
+],
+"answer": "τριακόσιες",
+"why": "η σελίδα: τριακόσιες.",
+"id": "numbers-1d56ec3a"
+},
+{
+"type": "choice",
+"q": "Πλήρωσα ___ ευρώ. (3.000)",
+"options": [
+"τρία χιλιάδες",
+"τρεις χιλιάδες",
+"τρεις χιλιάδα",
+"τρία χίλια"
+],
+"answer": "τρεις χιλιάδες",
+"why": "χιλιάδες is feminine: τρεις.",
+"id": "numbers-b678ea05"
+},
+{
+"type": "choice",
+"q": "___ πενήντα ευρώ. (150)",
+"options": [
+"Εκατό",
+"Εκατόν",
+"Εκατοστό",
+"Εκατοντάδα"
+],
+"answer": "Εκατόν",
+"why": "101–199: εκατόν.",
+"id": "numbers-8d89d076"
+},
+{
+"type": "choice",
+"q": "Έχει ___ φίλους στο Facebook. (500)",
+"options": [
+"πεντακόσια",
+"πεντακόσιες",
+"πεντακόσιους",
+"πεντακόσιοι"
+],
+"answer": "πεντακόσιους",
+"why": "Accusative masculine plural: πεντακόσιους.",
+"id": "numbers-5d675e17"
+},
+{
+"type": "write",
+"q": "Write in words: 45",
+"answer": "σαράντα πέντε",
+"accept": [],
+"why": "Tens + units.",
+"id": "numbers-cc738aab"
+},
+{
+"type": "write",
+"q": "Write in words: 21 days (η μέρα)",
+"answer": "είκοσι μία μέρες",
+"accept": [
+"είκοσι μια μέρες"
+],
+"why": "The last part agrees: μία.",
+"id": "numbers-8e21e731"
+},
+{
+"type": "write",
+"q": "Write in words: 600 euros",
+"answer": "εξακόσια ευρώ",
+"accept": [],
+"why": "Neuter.",
+"id": "numbers-2391c28f"
+},
+{
+"type": "write",
+"q": "Write in words: 2.000",
+"answer": "δύο χιλιάδες",
+"accept": [
+"δυο χιλιάδες"
+],
+"why": "Feminine χιλιάδες.",
+"id": "numbers-750c7ad3"
+},
+{
+"type": "write",
+"q": "Write in words: 1.000 people (οι άνθρωποι)",
+"answer": "χίλιοι άνθρωποι",
+"accept": [],
+"why": "Masculine: χίλιοι.",
+"id": "numbers-be805d44"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Τακτικά αριθμητικά",
+"title": "Ordinals: first, second, third",
+"body": [
+{
+"p": "Ordinals are adjectives in **-ος, -η, -ο** and agree with the noun:"
+},
+{
+"table": {
+"head": [
+"",
+"",
+""
+],
+"rows": [
+[
+"1st πρώτος",
+"5th πέμπτος",
+"9th ένατος"
+],
+[
+"2nd δεύτερος",
+"6th έκτος",
+"10th δέκατος"
+],
+[
+"3rd τρίτος",
+"7th έβδομος",
+"11th ενδέκατος / εντέκατος"
+],
+[
+"4th τέταρτος",
+"8th όγδοος",
+"20th εικοστός"
+]
+]
+}
+},
+{
+"p": "Written with figures: **1ος, 1η, 1ο**: **ο 3ος όροφος** \"the 3rd floor\", **η 2η θέση** \"second place\", **ο 21ος αιώνας** (εικοστός πρώτος αιώνας) \"the 21st century\"."
+},
+{
+"ex": [
+{
+"el": "Μένω στον τρίτο όροφο.",
+"en": "I live on the third floor."
+},
+{
+"el": "Είναι η πρώτη φορά που έρχομαι.",
+"en": "It's the first time I've come."
+},
+{
+"el": "Πάρε τον δεύτερο δρόμο δεξιά.",
+"en": "Take the second street on the right."
+},
+{
+"el": "Τερμάτισε πέμπτη.",
+"en": "She finished fifth."
+},
+{
+"el": "Η τέταρτη μέρα ήταν η καλύτερη.",
+"en": "The fourth day was the best."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"the second time\" (η φορά)",
+"a": "η δεύτερη φορά",
+"why": "Feminine: δεύτερη."
+},
+{
+"q": "\"on the fifth floor\" (ο όροφος)",
+"a": "στον πέμπτο όροφο",
+"why": "Masculine accusative after σε."
+},
+{
+"q": "\"the eighth day\"",
+"a": "η όγδοη μέρα",
+"why": "όγδοος, όγδοη, όγδοο."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Είναι η ___ φορά που σε βλέπω. (first)",
+"options": [
+"πρώτος",
+"πρώτη",
+"πρώτο",
+"πρώτα"
+],
+"answer": "πρώτη",
+"why": "Feminine: πρώτη φορά.",
+"id": "numbers-75170ac8"
+},
+{
+"type": "choice",
+"q": "Μένουμε στον ___ όροφο. (fourth)",
+"options": [
+"τέσσερα",
+"τέταρτη",
+"τέταρτο",
+"τεσσάρων"
+],
+"answer": "τέταρτο",
+"why": "Masculine accusative: τέταρτο.",
+"id": "numbers-73956cd9"
+},
+{
+"type": "choice",
+"q": "Πάρε τον ___ δρόμο αριστερά. (second)",
+"options": [
+"δύο",
+"δεύτερο",
+"δεύτερη",
+"δεύτερος"
+],
+"answer": "δεύτερο",
+"why": "Accusative masculine.",
+"id": "numbers-e8525714"
+},
+{
+"type": "choice",
+"q": "Ζούμε στον ___ αιώνα. (21st)",
+"options": [
+"είκοσι ένα",
+"εικοστό πρώτο",
+"εικοστή πρώτη",
+"είκοσι πρώτο"
+],
+"answer": "εικοστό πρώτο",
+"why": "Ordinal, masculine accusative.",
+"id": "numbers-c1fe43e3"
+},
+{
+"type": "choice",
+"q": "Η ___ σελίδα. (tenth)",
+"options": [
+"δέκα",
+"δέκατη",
+"δέκατο",
+"δεκάτη"
+],
+"answer": "δέκατη",
+"why": "Feminine: δέκατη.",
+"id": "numbers-aefd84ac"
+},
+{
+"type": "write",
+"q": "Ordinal: 7th (masculine)",
+"answer": "έβδομος",
+"accept": [],
+"why": "έβδομος, έβδομη, έβδομο.",
+"id": "numbers-08dcbf85"
+},
+{
+"type": "write",
+"q": "Ordinal: 9th (feminine)",
+"answer": "ένατη",
+"accept": [],
+"why": "ένατος, ένατη, ένατο.",
+"id": "numbers-75be2df0"
+},
+{
+"type": "write",
+"q": "Translate: \"the first day\"",
+"answer": "η πρώτη μέρα",
+"accept": [
+"η πρώτη ημέρα"
+],
+"why": "Feminine ordinal.",
+"id": "numbers-85aa3003"
+},
+{
+"type": "write",
+"q": "Translate: \"the third floor\"",
+"answer": "ο τρίτος όροφος",
+"accept": [],
+"why": "Masculine ordinal.",
+"id": "numbers-0e76a154"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Τι ώρα είναι;",
+"title": "Telling the time",
+"body": [
+{
+"p": "Hours are feminine (**η ώρα**): **μία, δύο, τρεις, τέσσερις, πέντε... δώδεκα**. Then:"
+},
+{
+"table": {
+"head": [
+"",
+""
+],
+"rows": [
+[
+"3:00",
+"τρεις (η ώρα)"
+],
+[
+"3:05",
+"τρεις και πέντε"
+],
+[
+"3:15",
+"τρεις και τέταρτο"
+],
+[
+"3:30",
+"τρεις και μισή"
+],
+[
+"3:40",
+"τέσσερις παρά είκοσι"
+],
+[
+"3:45",
+"τέσσερις παρά τέταρτο"
+],
+[
+"1:00",
+"μία (η ώρα)"
+],
+[
+"12:00 noon",
+"δώδεκα το μεσημέρι"
+],
+[
+"00:00",
+"μεσάνυχτα"
+]
+]
+}
+},
+{
+"p": "\"At\" is **στις** (**στη** for one o'clock): **στις πέντε**, **στη μία**, **στις δώδεκα**. Times of day: **το πρωί** morning, **το μεσημέρι** midday, **το απόγευμα** afternoon, **το βράδυ** evening, **τη νύχτα** night; or **π.μ. / μ.μ.** (a.m. / p.m.) in writing."
+},
+{
+"ex": [
+{
+"el": "Τι ώρα είναι; Είναι δύο και μισή.",
+"en": "What time is it? It's half past two."
+},
+{
+"el": "Το μαγαζί ανοίγει στις εννιά.",
+"en": "The shop opens at nine."
+},
+{
+"el": "Θα σε δω στη μία.",
+"en": "I'll see you at one."
+},
+{
+"el": "Η πτήση φεύγει στις έξι παρά τέταρτο το πρωί.",
+"en": "The flight leaves at a quarter to six in the morning."
+},
+{
+"el": "Στις 20:30 (είκοσι και τριάντα).",
+"en": "At 20:30."
+}
+]
+},
+{
+"p": "Timetables and announcements use the 24-hour clock, read as numbers: **18:45** \"δεκαοχτώ και σαράντα πέντε\"."
+},
+{
+"solved": [
+{
+"q": "4:15",
+"a": "τέσσερις και τέταρτο",
+"why": "Feminine τέσσερις."
+},
+{
+"q": "6:50",
+"a": "επτά παρά δέκα | εφτά παρά δέκα",
+"why": "Minutes to the next hour: παρά."
+},
+{
+"q": "\"at one o'clock\"",
+"a": "στη μία",
+"why": "One o'clock: στη μία."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τι ώρα είναι; 3:30",
+"options": [
+"τρία και μισή",
+"τρεις και μισή",
+"τρεις και μισό",
+"τρεις μισή"
+],
+"answer": "τρεις και μισή",
+"why": "Feminine: τρεις και μισή.",
+"id": "numbers-d89300b6"
+},
+{
+"type": "choice",
+"q": "Το τρένο φεύγει ___ οχτώ.",
+"options": [
+"στο",
+"στις",
+"στην",
+"στα"
+],
+"answer": "στις",
+"why": "Clock times: στις.",
+"id": "numbers-816edee4"
+},
+{
+"type": "choice",
+"q": "9:45 (in speech)",
+"options": [
+"εννιά παρά τέταρτο",
+"δέκα παρά τέταρτο",
+"δέκα και τέταρτο",
+"εννιά και μισή"
+],
+"answer": "δέκα παρά τέταρτο",
+"why": "A quarter to the next hour: δέκα παρά τέταρτο.",
+"id": "numbers-cfe0409d"
+},
+{
+"type": "choice",
+"q": "Θα έρθω ___ μία.",
+"options": [
+"στις",
+"στη",
+"στο",
+"στην"
+],
+"answer": "στη",
+"why": "One o'clock: στη μία.",
+"id": "numbers-7c18450f"
+},
+{
+"type": "choice",
+"q": "Είναι ___ και τέταρτο. (4:15)",
+"options": [
+"τέσσερα",
+"τέσσερις",
+"τέταρτη",
+"τεσσάρων"
+],
+"answer": "τέσσερις",
+"why": "Feminine τέσσερις.",
+"id": "numbers-08e7b8b3"
+},
+{
+"type": "choice",
+"q": "Τρώμε ___ μεσημέρι.",
+"options": [
+"στο",
+"το",
+"τη",
+"στις"
+],
+"answer": "το",
+"why": "Time of day: plain accusative, το μεσημέρι.",
+"id": "numbers-3307fb5d"
+},
+{
+"type": "write",
+"q": "2:30",
+"answer": "δύο και μισή",
+"accept": [
+"δυο και μισή"
+],
+"why": "και μισή.",
+"id": "numbers-9d539d37"
+},
+{
+"type": "write",
+"q": "5:40",
+"answer": "έξι παρά είκοσι",
+"accept": [],
+"why": "Minutes to the next hour.",
+"id": "numbers-df0e3d08"
+},
+{
+"type": "write",
+"q": "1:15",
+"answer": "μία και τέταρτο",
+"accept": [
+"μια και τέταρτο"
+],
+"why": "Feminine μία.",
+"id": "numbers-d4942e7b"
+},
+{
+"type": "write",
+"q": "\"at eleven o'clock\"",
+"answer": "στις έντεκα",
+"accept": [],
+"why": "στις + hour.",
+"id": "numbers-2f84f3f3"
+},
+{
+"type": "write",
+"q": "\"in the afternoon\"",
+"answer": "το απόγευμα",
+"accept": [],
+"why": "Plain accusative.",
+"id": "numbers-0dcede80"
+},
+{
+"type": "order",
+"q": "\"The shop opens at nine in the morning.\" (το μαγαζί, ανοίγει)",
+"answer": "Το μαγαζί ανοίγει στις εννιά το πρωί.",
+"accept": [],
+"why": "Time: στις + hour, then το πρωί.",
+"id": "numbers-e2463434"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ημερομηνίες και χρονιές",
+"title": "Dates and years",
+"body": [
+{
+"p": "**Dates** use a cardinal number + the month in the genitive: **τρεις Μαΐου**, **είκοσι πέντε Μαρτίου**, **δεκαπέντε Αυγούστου**. Only the 1st is an ordinal: **η πρώτη Μαΐου**. Because the hidden noun is **η ημέρα**, numbers that agree are feminine: **τρεις, τέσσερις, είκοσι μία**."
+},
+{
+"p": "\"On\" a date is **στις** (**την** for the 1st): **στις δέκα Ιουνίου**, **την πρώτη Ιανουαρίου**."
+},
+{
+"ex": [
+{
+"el": "Τι ημερομηνία έχουμε σήμερα; Δύο Νοεμβρίου.",
+"en": "What's the date today? The second of November."
+},
+{
+"el": "Γεννήθηκα στις είκοσι μία Μαρτίου.",
+"en": "I was born on the twenty-first of March."
+},
+{
+"el": "Η πρώτη Μαΐου είναι αργία.",
+"en": "The first of May is a holiday."
+},
+{
+"el": "Τα Χριστούγεννα είναι στις είκοσι πέντε Δεκεμβρίου.",
+"en": "Christmas is on 25 December."
+}
+]
+},
+{
+"p": "**Years** are read as whole numbers, in the neuter, and \"in\" is simply **το**: **το 2026** (δύο χιλιάδες είκοσι έξι), **το 1821** (χίλια οχτακόσια είκοσι ένα), **το 2004** (δύο χιλιάδες τέσσερα). **Το 2004 έγιναν οι Ολυμπιακοί Αγώνες στην Αθήνα.** \"In 2004 the Olympic Games were held in Athens.\""
+},
+{
+"p": "Decades: **η δεκαετία του '80** \"the eighties\". Weekdays: **η Δευτέρα, η Τρίτη, η Τετάρτη, η Πέμπτη, η Παρασκευή, το Σάββατο, η Κυριακή**."
+},
+{
+"solved": [
+{
+"q": "Read: 3/5 (3 May)",
+"a": "τρεις Μαΐου",
+"why": "Feminine τρεις + genitive month."
+},
+{
+"q": "Read: 1/1 (1 January)",
+"a": "η πρώτη Ιανουαρίου | πρώτη Ιανουαρίου",
+"why": "The 1st is an ordinal."
+},
+{
+"q": "Read the year 1821",
+"a": "χίλια οκτακόσια είκοσι ένα | χίλια οχτακόσια είκοσι ένα",
+"why": "Years are neuter."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Σήμερα είναι ___ Οκτωβρίου. (4)",
+"options": [
+"τέσσερα",
+"τέσσερις",
+"τέταρτη",
+"τεσσάρων"
+],
+"answer": "τέσσερις",
+"why": "Dates: feminine τέσσερις.",
+"id": "numbers-d3f3465a"
+},
+{
+"type": "choice",
+"q": "Γεννήθηκα ___ δώδεκα Απριλίου.",
+"options": [
+"στη",
+"στις",
+"στο",
+"την"
+],
+"answer": "στις",
+"why": "\"On\" a date: στις.",
+"id": "numbers-9be4fdb5"
+},
+{
+"type": "choice",
+"q": "Η ___ Ιανουαρίου είναι αργία. (1st)",
+"options": [
+"μία",
+"πρώτη",
+"ένα",
+"πρώτος"
+],
+"answer": "πρώτη",
+"why": "The 1st of the month is an ordinal.",
+"id": "numbers-3ee1c69d"
+},
+{
+"type": "choice",
+"q": "Γεννήθηκε ___ 1990.",
+"options": [
+"στις",
+"το",
+"τη",
+"του"
+],
+"answer": "το",
+"why": "Years: το + number.",
+"id": "numbers-b762f93f"
+},
+{
+"type": "choice",
+"q": "Η επανάσταση ξεκίνησε στις είκοσι πέντε ___. (March)",
+"options": [
+"Μάρτιο",
+"Μαρτίου",
+"Μάρτη",
+"Μάρτιος"
+],
+"answer": "Μαρτίου",
+"why": "Month in the genitive.",
+"id": "numbers-3f478d63"
+},
+{
+"type": "choice",
+"q": "Read the year: 2015",
+"options": [
+"το είκοσι δεκαπέντε",
+"δύο χιλιάδες δεκαπέντε",
+"δύο χιλιάδα δεκαπέντε",
+"δύο χίλια δεκαπέντε"
+],
+"answer": "δύο χιλιάδες δεκαπέντε",
+"why": "Years are read as whole numbers: δύο χιλιάδες δεκαπέντε.",
+"id": "numbers-2db22935"
+},
+{
+"type": "write",
+"q": "Read: 28/10 (28 October)",
+"answer": "είκοσι οκτώ Οκτωβρίου",
+"accept": [
+"είκοσι οχτώ Οκτωβρίου"
+],
+"why": "Cardinal + genitive month.",
+"id": "numbers-ba5c4502"
+},
+{
+"type": "write",
+"q": "\"on the fifteenth of August\"",
+"answer": "στις δεκαπέντε Αυγούστου",
+"accept": [],
+"why": "στις + date.",
+"id": "numbers-2d8b8500"
+},
+{
+"type": "write",
+"q": "Read: 21/3 (21 March)",
+"answer": "είκοσι μία Μαρτίου",
+"accept": [
+"είκοσι μια Μαρτίου"
+],
+"why": "Feminine μία.",
+"id": "numbers-7cad7230"
+},
+{
+"type": "write",
+"q": "\"in 2004\"",
+"answer": "το 2004",
+"accept": [
+"το δύο χιλιάδες τέσσερα"
+],
+"why": "το + year.",
+"id": "numbers-0f8066b7"
+},
+{
+"type": "write",
+"q": "\"on Saturday\"",
+"answer": "το Σάββατο",
+"accept": [],
+"why": "Days: accusative with article.",
+"id": "numbers-ac6c28fb"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Τιμές, ηλικία, μισά και ποσοστά",
+"title": "Prices, age, halves and percentages",
+"body": [
+{
+"p": "**Prices.** **Πόσο κάνει; / Πόσο κοστίζει; / Πόσο έχει;** \"How much is it?\" The answer is a plain number + **ευρώ** (which never changes): **Κάνει δεκαοχτώ ευρώ.** Cents are **λεπτά**: **δύο ευρώ και πενήντα (λεπτά)**."
+},
+{
+"p": "**Halves.** **Μισός, μισή, μισό** \"half\" agrees: **μισό κιλό**, **μισή ώρα**. \"One and a half\" agrees too: **ενάμισης** (m), **μιάμιση** (f), **ενάμισι** (n): **ενάμισης μήνας, μιάμιση ώρα, ενάμισι κιλό**. From 2.5 up the forms never change: **δυόμισι, τρεισήμισι, τεσσερισήμισι, πεντέμισι, εξίμισι, εφτάμισι, οχτώμισι, εννιάμισι, δεκάμισι**."
+},
+{
+"p": "**Age.** **Πόσων χρονών είσαι;** \"How old are you?\" **Είμαι τριάντα (χρονών).** Numbers that agree go into the genitive before **χρονών**: **ενός έτους** \"one year old\", **τριών χρονών, τεσσάρων χρονών, είκοσι τριών χρονών**. In casual speech you also hear **Είμαι τριάντα τρία.** \"I'm thirty-three.\" and **Έκλεισα τα σαράντα.** \"I've turned forty.\""
+},
+{
+"p": "**Percentages and fractions.** **20% = είκοσι τοις εκατό**; **το ένα τρίτο** \"a third\", **τα δύο τρίτα** \"two thirds\", **το ένα τέταρτο** \"a quarter\"."
+},
+{
+"ex": [
+{
+"el": "Πόσο κάνουν οι ντομάτες; Δυόμισι ευρώ το κιλό.",
+"en": "How much are the tomatoes? Two fifty a kilo."
+},
+{
+"el": "Θα αργήσω μισή ώρα.",
+"en": "I'll be half an hour late."
+},
+{
+"el": "Περίμενα μιάμιση ώρα!",
+"en": "I waited an hour and a half!"
+},
+{
+"el": "Ο γιος μου είναι τεσσάρων χρονών.",
+"en": "My son is four years old."
+},
+{
+"el": "Έκπτωση πενήντα τοις εκατό!",
+"en": "Fifty per cent off!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"an hour and a half\"",
+"a": "μιάμιση ώρα",
+"why": "η ώρα: feminine μιάμιση."
+},
+{
+"q": "\"She's three years old.\"",
+"a": "Είναι τριών χρονών.",
+"why": "Agreeing numbers take the genitive before χρονών."
+},
+{
+"q": "\"half a kilo of cheese\"",
+"a": "μισό κιλό τυρί",
+"why": "μισό agrees with το κιλό."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Περίμενα ___ ώρα. (1.5)",
+"options": [
+"ενάμισι",
+"μιάμιση",
+"ενάμισης",
+"μιάμισι"
+],
+"answer": "μιάμιση",
+"why": "η ώρα: feminine μιάμιση.",
+"id": "numbers-bbdd6c0f"
+},
+{
+"type": "choice",
+"q": "Θέλω ___ κιλό ντομάτες. (half)",
+"options": [
+"μισή",
+"μισό",
+"μισός",
+"μισά"
+],
+"answer": "μισό",
+"why": "το κιλό: μισό.",
+"id": "numbers-dfb52c36"
+},
+{
+"type": "choice",
+"q": "Ο μικρός είναι ___ χρονών. (4)",
+"options": [
+"τέσσερα",
+"τέσσερις",
+"τεσσάρων",
+"τέταρτο"
+],
+"answer": "τεσσάρων",
+"why": "Before χρονών: genitive τεσσάρων.",
+"id": "numbers-b90c95d0"
+},
+{
+"type": "choice",
+"q": "Κάνει ___ ευρώ. (3.50)",
+"options": [
+"τρία και μισή",
+"τρεισήμισι",
+"τρεις και μισό",
+"τριάμισι"
+],
+"answer": "τρεισήμισι",
+"why": "3.5 = τρεισήμισι.",
+"id": "numbers-51c9ca40"
+},
+{
+"type": "choice",
+"q": "Έμεινα στην Αθήνα ___ μήνα. (1.5)",
+"options": [
+"μιάμιση",
+"ενάμισι",
+"ενάμιση",
+"ενάμισης"
+],
+"answer": "ενάμιση",
+"why": "ο μήνας is masculine; accusative ενάμιση (nominative ενάμισης).",
+"id": "numbers-973540e2"
+},
+{
+"type": "choice",
+"q": "Έκπτωση 30%",
+"options": [
+"τριάντα στα εκατό",
+"τριάντα τοις εκατό",
+"τριάντα εκατοστά",
+"τριάντα της εκατό"
+],
+"answer": "τριάντα τοις εκατό",
+"why": "Percent: τοις εκατό.",
+"id": "numbers-ce68edf8"
+},
+{
+"type": "write",
+"q": "\"half an hour\"",
+"answer": "μισή ώρα",
+"accept": [],
+"why": "Feminine μισή.",
+"id": "numbers-9f58b8a3"
+},
+{
+"type": "write",
+"q": "\"two and a half years\"",
+"answer": "δυόμισι χρόνια",
+"accept": [],
+"why": "δυόμισι never changes.",
+"id": "numbers-dbbac8bc"
+},
+{
+"type": "write",
+"q": "\"How much is it?\"",
+"answer": "Πόσο κάνει;",
+"accept": [
+"Πόσο κοστίζει;",
+"Πόσο έχει;"
+],
+"why": "Three everyday ways.",
+"id": "numbers-3929908e"
+},
+{
+"type": "write",
+"q": "\"How old are you?\" (informal)",
+"answer": "Πόσων χρονών είσαι;",
+"accept": [
+"Πόσο χρονών είσαι;"
+],
+"why": "The fixed question.",
+"id": "numbers-309a6c48"
+},
+{
+"type": "write",
+"q": "\"fifty per cent\"",
+"answer": "πενήντα τοις εκατό",
+"accept": [],
+"why": "τοις εκατό.",
+"id": "numbers-9c80f09b"
+}
+]
+}
+]
+}
+],
+"id": "numbers",
+"el": "Αριθμοί, ώρα, ημερομηνίες",
+"title": "Numbers, time, dates and money",
+"span": "A1–B1",
+"blurb": "Cardinal numbers and the ones that agree (1, 3, 4, the hundreds, χίλιοι), ordinals, telling the time, dates and years, prices, ages, halves and percentages.",
+"intro": [
+{
+"p": "Most Greek numbers never change. The exceptions are the ones you use most: **1, 3 and 4** (and any number ending in them, like 21, 33, 44), the **hundreds** from 200 to 900, and **1,000**. They agree in gender with the noun: **τρεις άντρες, τρεις γυναίκες, τρία παιδιά**."
+},
+{
+"p": "Because **η ώρα** is feminine, clock times use feminine numbers: **στη μία, στις τρεις, στις τέσσερις**."
+},
+{
+"links": [
+{
+"href": "#a2-numerals",
+"kind": "Lesson",
+"el": "Αριθμητικά",
+"title": "Numbers, time and dates"
+},
+{
+"href": "#sit-a1-numbers-time",
+"kind": "Lesson",
+"el": "Αριθμοί, ώρα, μέρες, ημερομηνίες",
+"title": "Numbers, time, days and dates"
+},
+{
+"href": "#cards.cardinals",
+"kind": "Card",
+"el": "Απόλυτα αριθμητικά",
+"title": "Counting"
+},
+{
+"href": "#cards.time-dates",
+"kind": "Card",
+"el": "Ώρα, ημερομηνίες, τακτικά",
+"title": "Time, dates and ordinals"
+},
+{
+"href": "#pos.numeral",
+"kind": "Part of speech",
+"el": "Τα αριθμητικά",
+"title": "Numerals"
+}
+]
+}
+],
+"num": 14
+}

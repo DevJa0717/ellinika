@@ -1,0 +1,1364 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Οι δυνατοί τύποι",
+"title": "The strong forms",
+"body": [
+{
+"table": {
+"head": [
+"Person",
+"Nominative",
+"Accusative",
+"Genitive"
+],
+"rows": [
+[
+"I",
+"εγώ",
+"εμένα",
+"(εμένα)"
+],
+[
+"you (sg)",
+"εσύ",
+"εσένα",
+"(εσένα)"
+],
+[
+"he",
+"αυτός",
+"αυτόν",
+"αυτού"
+],
+[
+"she",
+"αυτή",
+"αυτή(ν)",
+"αυτής"
+],
+[
+"it",
+"αυτό",
+"αυτό",
+"αυτού"
+],
+[
+"we",
+"εμείς",
+"εμάς",
+"(εμάς)"
+],
+[
+"you (pl / polite)",
+"εσείς",
+"εσάς",
+"(εσάς)"
+],
+[
+"they (m)",
+"αυτοί",
+"αυτούς",
+"αυτών"
+],
+[
+"they (f)",
+"αυτές",
+"αυτές",
+"αυτών"
+],
+[
+"they (n)",
+"αυτά",
+"αυτά",
+"αυτών"
+]
+]
+}
+},
+{
+"p": "After a preposition the first and second persons often drop their first vowel: **για μένα, με σένα, από μας, σ' εσάς**. Both **για μένα** and **για εμένα** are correct."
+},
+{
+"p": "Use the strong form:"
+},
+{
+"list": [
+"for **contrast**: **Εγώ θα πληρώσω, όχι εσύ.** \"I'll pay, not you.\"",
+"after a **preposition**: **Αυτό είναι για σένα.** \"This is for you.\"",
+"**alone**, as a one-word answer: **Ποιος το είπε; Αυτός!** \"Who said it? Him!\""
+]
+},
+{
+"ex": [
+{
+"el": "Εσύ τι λες;",
+"en": "What do you think?"
+},
+{
+"el": "Έλα μαζί με μένα.",
+"en": "Come with me."
+},
+{
+"el": "Μιλάς σε μένα;",
+"en": "Are you talking to me?"
+},
+{
+"el": "Ποιον θέλεις; Εσένα!",
+"en": "Who do you want? You!"
+},
+{
+"el": "Εμείς φεύγουμε, εσείς μένετε;",
+"en": "We're leaving, are you staying?"
+}
+]
+},
+{
+"tip": "**Εσείς** is also the polite \"you\" for one person: **Εσείς πώς είστε, κυρία Ελένη;** \"And how are you, Mrs Eleni?\""
+},
+{
+"solved": [
+{
+"q": "\"This is for him.\"",
+"a": "Αυτό είναι για αυτόν. | Αυτό είναι γι' αυτόν.",
+"why": "Strong form after a preposition."
+},
+{
+"q": "\"I'm tired, what about you?\" (to a friend)",
+"a": "Εγώ είμαι κουρασμένος, εσύ; | Εγώ είμαι κουρασμένη, εσύ;",
+"why": "Strong subject pronouns for contrast."
+},
+{
+"q": "\"Who called? Me!\"",
+"a": "Ποιος πήρε τηλέφωνο; Εγώ!",
+"why": "A subject answer: nominative εγώ."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Αυτό το δώρο είναι για ___. (you, informal)",
+"options": [
+"εσύ",
+"σένα",
+"σου",
+"σε"
+],
+"answer": "σένα",
+"why": "After a preposition: strong accusative.",
+"id": "personal-83dbf0b6"
+},
+{
+"type": "choice",
+"q": "Ποιον περιμένεις; ___! (Him)",
+"options": [
+"Αυτός",
+"Αυτόν",
+"Του",
+"Τον"
+],
+"answer": "Αυτόν",
+"why": "One-word object answer: strong accusative.",
+"id": "personal-d0b21934"
+},
+{
+"type": "choice",
+"q": "Ποιος έφαγε το γλυκό; ___! (Me)",
+"options": [
+"Εμένα",
+"Εγώ",
+"Μου",
+"Με"
+],
+"answer": "Εγώ",
+"why": "Subject answer: nominative.",
+"id": "personal-5f70cc37"
+},
+{
+"type": "choice",
+"q": "___ πάμε σινεμά, εσείς; (We)",
+"options": [
+"Εμάς",
+"Εμείς",
+"Μας",
+"Εσείς"
+],
+"answer": "Εμείς",
+"why": "Contrastive subject.",
+"id": "personal-78acd2e2"
+},
+{
+"type": "choice",
+"q": "Θα έρθεις μαζί ___; (with us)",
+"options": [
+"με εμείς",
+"με μας",
+"με μου",
+"εμάς με"
+],
+"answer": "με μας",
+"why": "With με: με μας / με εμάς (or μαζί μας).",
+"id": "personal-ff0c0552"
+},
+{
+"type": "choice",
+"q": "Μιλάς ___; (to me)",
+"options": [
+"με",
+"σε μένα",
+"μου σε",
+"σε εγώ"
+],
+"answer": "σε μένα",
+"why": "σε + strong accusative.",
+"id": "personal-1e2bcd51"
+},
+{
+"type": "write",
+"q": "Strong accusative of **εσύ**",
+"answer": "εσένα",
+"accept": [
+"σένα"
+],
+"why": "εσένα, after a preposition often σένα.",
+"id": "personal-210344a3"
+},
+{
+"type": "write",
+"q": "Translate: \"for her\"",
+"answer": "για αυτήν",
+"accept": [
+"γι' αυτήν",
+"για αυτή"
+],
+"why": "Strong pronoun after για.",
+"id": "personal-3d43c142"
+},
+{
+"type": "write",
+"q": "Translate: \"with them\" (men)",
+"answer": "με αυτούς",
+"accept": [
+"μαζί τους"
+],
+"why": "Strong form after με, or μαζί + weak genitive.",
+"id": "personal-7afc59b7"
+},
+{
+"type": "write",
+"q": "Translate: \"I'll pay, not you.\" (informal)",
+"answer": "Εγώ θα πληρώσω, όχι εσύ.",
+"accept": [],
+"why": "Strong forms for contrast.",
+"id": "personal-4ff8c8af"
+},
+{
+"type": "write",
+"q": "Translate: \"And you, how are you?\" (polite)",
+"answer": "Εσείς πώς είστε;",
+"accept": [
+"Κι εσείς πώς είστε;"
+],
+"why": "Polite εσείς.",
+"id": "personal-e7243445"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Οι αδύνατοι τύποι: αιτιατική",
+"title": "Weak object pronouns",
+"body": [
+{
+"table": {
+"head": [
+"Person",
+"Accusative (him, her, it...)"
+],
+"rows": [
+[
+"me",
+"με"
+],
+[
+"you (sg)",
+"σε"
+],
+[
+"him / it (m)",
+"τον"
+],
+[
+"her / it (f)",
+"τη(ν)"
+],
+[
+"it (n)",
+"το"
+],
+[
+"us",
+"μας"
+],
+[
+"you (pl / polite)",
+"σας"
+],
+[
+"them (m)",
+"τους"
+],
+[
+"them (f)",
+"τις (also τες in speech)"
+],
+[
+"them (n)",
+"τα"
+]
+]
+}
+},
+{
+"p": "They replace the direct object and stand **right before the verb**, even before **θα** and **να** forms of the verb, but after **δεν, μην, θα, να**:"
+},
+{
+"ex": [
+{
+"el": "Βλέπεις τον Νίκο; Ναι, τον βλέπω.",
+"en": "Do you see Nikos? Yes, I see him."
+},
+{
+"el": "Πού είναι η τσάντα μου; Δεν τη βλέπω.",
+"en": "Where's my bag? I can't see it."
+},
+{
+"el": "Το κρασί; Θα το φέρω εγώ.",
+"en": "The wine? I'll bring it."
+},
+{
+"el": "Τις ξέρεις αυτές τις κοπέλες;",
+"en": "Do you know those girls?"
+},
+{
+"el": "Σ' αγαπώ.",
+"en": "I love you."
+},
+{
+"el": "Με ακούς;",
+"en": "Can you hear me?"
+}
+]
+},
+{
+"p": "Choose the pronoun by the **grammatical gender** of the noun, not by whether it is a person: **Το κινητό; Το έχω.** **Η πόρτα; Την έκλεισα.** **Ο λογαριασμός; Τον πλήρωσα.**"
+},
+{
+"solved": [
+{
+"q": "Replace the object: \"Θέλω **τον καφέ** σκέτο.\"",
+"a": "Τον θέλω σκέτο.",
+"why": "Masculine object → τον, before the verb."
+},
+{
+"q": "Replace the object: \"Δεν βρίσκω **τα κλειδιά**.\"",
+"a": "Δεν τα βρίσκω.",
+"why": "Neuter plural → τα, after δεν and before the verb."
+},
+{
+"q": "\"Can you hear me?\"",
+"a": "Με ακούς;",
+"why": "με before the verb."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η πόρτα; ___ έκλεισα.",
+"options": [
+"Το",
+"Τον",
+"Την",
+"Της"
+],
+"answer": "Την",
+"why": "Feminine object: την (keep ν before a vowel).",
+"id": "personal-8cbe957d"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά; ___ πήρα από το σχολείο.",
+"options": [
+"Τους",
+"Τα",
+"Τις",
+"Του"
+],
+"answer": "Τα",
+"why": "Neuter plural: τα.",
+"id": "personal-e7051282"
+},
+{
+"type": "choice",
+"q": "Ο λογαριασμός; ___ πλήρωσα.",
+"options": [
+"Το",
+"Τον",
+"Του",
+"Την"
+],
+"answer": "Τον",
+"why": "Masculine: τον.",
+"id": "personal-c090b137"
+},
+{
+"type": "choice",
+"q": "Τις φωτογραφίες; Θα ___ στείλω αύριο.",
+"options": [
+"τους",
+"τις",
+"τα",
+"της"
+],
+"answer": "τις",
+"why": "Feminine plural: τις.",
+"id": "personal-41c06755"
+},
+{
+"type": "choice",
+"q": "Δεν ___ ξέρω αυτόν τον κύριο.",
+"options": [
+"του",
+"τον",
+"το",
+"αυτόν"
+],
+"answer": "τον",
+"why": "Masculine accusative: τον.",
+"id": "personal-518ecd20"
+},
+{
+"type": "choice",
+"q": "___ αγαπώ πολύ. (you, informal)",
+"options": [
+"Σου",
+"Σε",
+"Εσύ",
+"Εσένα"
+],
+"answer": "Σε",
+"why": "Direct object: σε.",
+"id": "personal-01b0d29f"
+},
+{
+"type": "choice",
+"q": "\"Do you see us?\"",
+"options": [
+"Βλέπεις μας;",
+"Μας βλέπεις;",
+"Εμάς βλέπεις μας;",
+"Βλέπεις εμείς;"
+],
+"answer": "Μας βλέπεις;",
+"why": "The weak pronoun goes before the verb.",
+"id": "personal-397cbf89"
+},
+{
+"type": "write",
+"q": "Replace with a pronoun: \"Ξέρω **τη Μαρία**.\"",
+"answer": "Την ξέρω.",
+"accept": [],
+"why": "Feminine → την; keep the ν before ξ.",
+"id": "personal-da967a6e"
+},
+{
+"type": "write",
+"q": "Replace with a pronoun: \"Πήρα **το λεωφορείο**.\"",
+"answer": "Το πήρα.",
+"accept": [],
+"why": "Neuter → το.",
+"id": "personal-b98b1599"
+},
+{
+"type": "write",
+"q": "Replace with a pronoun: \"Περιμένω **τους φίλους μου**.\"",
+"answer": "Τους περιμένω.",
+"accept": [],
+"why": "Masculine plural → τους.",
+"id": "personal-2271debe"
+},
+{
+"type": "write",
+"q": "Translate: \"I love you.\" (informal)",
+"answer": "Σ' αγαπώ.",
+"accept": [
+"Σε αγαπώ."
+],
+"why": "σε elides before α.",
+"id": "personal-8f47f122"
+},
+{
+"type": "write",
+"q": "Translate: \"I'll bring it.\" (το κρασί)",
+"answer": "Θα το φέρω.",
+"accept": [],
+"why": "θα + το + verb.",
+"id": "personal-bb79a505"
+},
+{
+"type": "order",
+"q": "\"I can't find them anywhere.\" (τα κλειδιά)",
+"answer": "Δεν τα βρίσκω πουθενά.",
+"accept": [],
+"why": "δεν, pronoun, verb.",
+"id": "personal-f65174bc"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Οι αδύνατοι τύποι: γενική",
+"title": "Weak genitive pronouns: \"to me\" and \"my\"",
+"body": [
+{
+"table": {
+"head": [
+"Person",
+"Genitive"
+],
+"rows": [
+[
+"me / my",
+"μου"
+],
+[
+"you / your",
+"σου"
+],
+[
+"him, his / it, its",
+"του"
+],
+[
+"her",
+"της"
+],
+[
+"us / our",
+"μας"
+],
+[
+"you / your (pl)",
+"σας"
+],
+[
+"them / their",
+"τους"
+]
+]
+}
+},
+{
+"p": "They have two jobs:"
+},
+{
+"list": [
+"**indirect object** (\"to me, for me\"), before the verb: **Μου έδωσε ένα δώρο.** \"He gave me a present.\"",
+"**possessive** (\"my\"), after the noun: **το σπίτι μου** \"my house\", **η μαμά σου** \"your mum\"."
+]
+},
+{
+"ex": [
+{
+"el": "Πες μου την αλήθεια.",
+"en": "Tell me the truth."
+},
+{
+"el": "Της αρέσει η θάλασσα.",
+"en": "She likes the sea."
+},
+{
+"el": "Σας ευχαριστώ πολύ.",
+"en": "Thank you very much."
+},
+{
+"el": "Πώς σε λένε; Ποιο είναι το όνομά σου;",
+"en": "What's your name?"
+},
+{
+"el": "Τους έστειλα μήνυμα.",
+"en": "I sent them a message."
+}
+]
+},
+{
+"tip": "**Ευχαριστώ** takes the accusative: **Σε ευχαριστώ**, **Σας ευχαριστώ** (σας is both accusative and genitive, so it looks the same). **Μου αρέσει** takes the genitive: the person who likes is the genitive."
+},
+{
+"solved": [
+{
+"q": "\"She likes coffee.\"",
+"a": "Της αρέσει ο καφές.",
+"why": "αρέσω: the person in the genitive."
+},
+{
+"q": "\"Send me the photos.\"",
+"a": "Στείλε μου τις φωτογραφίες.",
+"why": "Imperative + μου after it."
+},
+{
+"q": "\"our house\"",
+"a": "το σπίτι μας",
+"why": "Possessive after the noun."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ αρέσει το ποδόσφαιρο. (He likes)",
+"options": [
+"Τον",
+"Του",
+"Αυτός",
+"Αυτόν"
+],
+"answer": "Του",
+"why": "With αρέσει the person is genitive.",
+"id": "personal-26a3acd0"
+},
+{
+"type": "choice",
+"q": "___ ευχαριστώ πολύ! (you, informal)",
+"options": [
+"Σου",
+"Σε",
+"Εσένα σου",
+"Εσύ"
+],
+"answer": "Σε",
+"why": "ευχαριστώ + accusative: σε.",
+"id": "personal-c16a6b3a"
+},
+{
+"type": "choice",
+"q": "Έδωσα ___ τα κλειδιά. (to her)",
+"options": [
+"την",
+"της",
+"αυτή",
+"τη"
+],
+"answer": "της",
+"why": "Indirect object: της.",
+"id": "personal-e0b478ee"
+},
+{
+"type": "choice",
+"q": "Το αυτοκίνητό ___ είναι καινούργιο. (their)",
+"options": [
+"τις",
+"τους",
+"των",
+"αυτοί"
+],
+"answer": "τους",
+"why": "Possessive: τους.",
+"id": "personal-285f956b"
+},
+{
+"type": "choice",
+"q": "Πες ___ τι έγινε! (to us)",
+"options": [
+"εμάς",
+"μας",
+"μου",
+"σας εμάς"
+],
+"answer": "μας",
+"why": "After the imperative: μας.",
+"id": "personal-f36d69a9"
+},
+{
+"type": "choice",
+"q": "Πώς ___ λένε; (her name)",
+"options": [
+"της",
+"τη",
+"την",
+"αυτή"
+],
+"answer": "τη",
+"why": "με λένε / σε λένε / τη λένε: accusative.",
+"id": "personal-6296781c"
+},
+{
+"type": "write",
+"q": "Translate: \"Tell me.\" (informal)",
+"answer": "Πες μου.",
+"accept": [],
+"why": "Imperative + μου.",
+"id": "personal-2115af23"
+},
+{
+"type": "write",
+"q": "Translate: \"I like this song.\"",
+"answer": "Μου αρέσει αυτό το τραγούδι.",
+"accept": [],
+"why": "μου + αρέσει.",
+"id": "personal-c26d5744"
+},
+{
+"type": "write",
+"q": "Translate: \"your phone\" (informal)",
+"answer": "το κινητό σου",
+"accept": [
+"το τηλέφωνό σου"
+],
+"why": "Possessive after the noun.",
+"id": "personal-8a61ff50"
+},
+{
+"type": "write",
+"q": "Translate: \"What's his name?\"",
+"answer": "Πώς τον λένε;",
+"accept": [
+"Πώς λέγεται;"
+],
+"why": "με λένε uses the accusative.",
+"id": "personal-38cace98"
+},
+{
+"type": "write",
+"q": "Translate: \"They like Greek music.\"",
+"answer": "Τους αρέσει η ελληνική μουσική.",
+"accept": [],
+"why": "τους + αρέσει.",
+"id": "personal-f6419106"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Πού μπαίνει ο αδύνατος τύπος",
+"title": "Where the weak pronoun goes",
+"body": [
+{
+"p": "**Before the verb** in every ordinary sentence, after **δεν, μην, θα, να, ας**:"
+},
+{
+"ex": [
+{
+"el": "Το ξέρω.",
+"en": "I know it."
+},
+{
+"el": "Δεν το ξέρω.",
+"en": "I don't know it."
+},
+{
+"el": "Θα το μάθω.",
+"en": "I'll find out."
+},
+{
+"el": "Θέλω να το δω.",
+"en": "I want to see it."
+},
+{
+"el": "Μην το αγγίζεις!",
+"en": "Don't touch it!"
+},
+{
+"el": "Ας το αφήσουμε.",
+"en": "Let's leave it."
+}
+]
+},
+{
+"p": "**After the verb** only with a **positive imperative** and with the **gerund** (-οντας):"
+},
+{
+"ex": [
+{
+"el": "Πάρ' το!",
+"en": "Take it!"
+},
+{
+"el": "Πες μου!",
+"en": "Tell me!"
+},
+{
+"el": "Φέρε τα εδώ.",
+"en": "Bring them here."
+},
+{
+"el": "Βλέποντάς τον, κατάλαβα.",
+"en": "Seeing him, I understood."
+}
+]
+},
+{
+"p": "In negative commands it goes back before the verb: **Πάρ' το!** but **Μην το πάρεις!**"
+},
+{
+"tip": "With a long imperative stressed on the third-last syllable, add a second accent: **Διάβασέ το**, **Τηλεφώνησέ μου** (chapter 1)."
+},
+{
+"solved": [
+{
+"q": "\"Don't eat it!\"",
+"a": "Μην το φας!",
+"why": "Negative command: μην + pronoun + verb."
+},
+{
+"q": "\"Eat it!\"",
+"a": "Φάε το! | Φά' το!",
+"why": "Positive imperative: pronoun after the verb."
+},
+{
+"q": "\"I want to buy it.\" (το αγοράζω)",
+"a": "Θέλω να το αγοράσω.",
+"why": "να + pronoun + verb."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "\"Leave it!\"",
+"options": [
+"Το άφησε!",
+"Άφησέ το!",
+"Άφησε το!",
+"Το άφησέ!"
+],
+"answer": "Άφησέ το!",
+"why": "Positive imperative: after the verb, with a second accent.",
+"id": "personal-5d2f7e79"
+},
+{
+"type": "choice",
+"q": "\"Don't leave it!\"",
+"options": [
+"Μην άφησέ το!",
+"Μην το αφήσεις!",
+"Μη το αφήσεις!",
+"Μην αφήσεις το!"
+],
+"answer": "Μην το αφήσεις!",
+"why": "Negative: μην + pronoun + verb; keep ν before τ.",
+"id": "personal-5c384463"
+},
+{
+"type": "choice",
+"q": "\"I'll call you.\" (informal)",
+"options": [
+"Θα πάρω σε τηλέφωνο.",
+"Θα σε πάρω τηλέφωνο.",
+"Σε θα πάρω τηλέφωνο.",
+"Θα πάρω τηλέφωνο σε."
+],
+"answer": "Θα σε πάρω τηλέφωνο.",
+"why": "θα + pronoun + verb.",
+"id": "personal-32133721"
+},
+{
+"type": "choice",
+"q": "\"I don't want it.\" (το)",
+"options": [
+"Δεν θέλω το.",
+"Δεν το θέλω.",
+"Το δεν θέλω.",
+"Δεν θέλω αυτό το."
+],
+"answer": "Δεν το θέλω.",
+"why": "δεν + pronoun + verb.",
+"id": "personal-41fa49f2"
+},
+{
+"type": "choice",
+"q": "\"Tell her!\"",
+"options": [
+"Της πες!",
+"Πες της!",
+"Πες τη!",
+"Πες την!"
+],
+"answer": "Πες της!",
+"why": "Imperative + genitive της.",
+"id": "personal-43018965"
+},
+{
+"type": "choice",
+"q": "\"Let's see it.\"",
+"options": [
+"Ας δούμε το.",
+"Ας το δούμε.",
+"Το ας δούμε.",
+"Ας δούμε αυτό το."
+],
+"answer": "Ας το δούμε.",
+"why": "ας + pronoun + verb.",
+"id": "personal-a7748fdf"
+},
+{
+"type": "write",
+"q": "Translate: \"Take it!\" (informal, το)",
+"answer": "Πάρ' το!",
+"accept": [
+"Πάρε το!"
+],
+"why": "Imperative + το.",
+"id": "personal-f56de52c"
+},
+{
+"type": "write",
+"q": "Translate: \"Don't take it!\" (informal)",
+"answer": "Μην το πάρεις!",
+"accept": [],
+"why": "μην + το + subjunctive.",
+"id": "personal-28cd4d9f"
+},
+{
+"type": "write",
+"q": "Translate: \"I can't find it.\" (η τσάντα)",
+"answer": "Δεν τη βρίσκω.",
+"accept": [
+"Δεν την βρίσκω."
+],
+"why": "Feminine τη(ν); drop ν before β.",
+"id": "personal-58508e73"
+},
+{
+"type": "write",
+"q": "Translate: \"I'll tell you tomorrow.\" (informal)",
+"answer": "Θα σου πω αύριο.",
+"accept": [
+"Θα σ' το πω αύριο."
+],
+"why": "θα + σου + verb.",
+"id": "personal-04a1916e"
+},
+{
+"type": "order",
+"q": "\"I want to see it again.\" (ξανά)",
+"answer": "Θέλω να το δω ξανά.",
+"accept": [],
+"why": "να + pronoun + verb.",
+"id": "personal-e0ac169d"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Δύο αντωνυμίες μαζί",
+"title": "Two pronouns together",
+"body": [
+{
+"p": "When there are two weak pronouns, the **genitive** (to whom) comes **first**, then the **accusative** (what):"
+},
+{
+"ex": [
+{
+"el": "Μου το έδωσε.",
+"en": "He gave it to me."
+},
+{
+"el": "Θα σου τα στείλω.",
+"en": "I'll send them to you."
+},
+{
+"el": "Δεν της το είπα.",
+"en": "I didn't tell her (it)."
+}
+]
+},
+{
+"p": "In speech **σου το** often shortens to **σ' το**: **Θα σ' το πω** \"I'll tell you (it)\"."
+},
+{
+"p": "After a positive imperative both orders are heard: **Δώσε μου το** and **Δώσ' το μου** \"Give it to me\". **Φέρ' το μου, Πες το μου, Στείλ' τα μου** are very common in speech."
+},
+{
+"ex": [
+{
+"el": "Δώσ' το μου!",
+"en": "Give it to me!"
+},
+{
+"el": "Πες μου το ξανά.",
+"en": "Tell me (it) again."
+},
+{
+"el": "Μη μου το λες!",
+"en": "Don't tell me (that)!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I'll bring it to you.\" (informal, το)",
+"a": "Θα σου το φέρω. | Θα σ' το φέρω.",
+"why": "Genitive first, then accusative, before the verb."
+},
+{
+"q": "\"She didn't give them to us.\" (τα)",
+"a": "Δεν μας τα έδωσε.",
+"why": "δεν + μας + τα + verb."
+},
+{
+"q": "\"Tell it to me!\" (informal)",
+"a": "Πες μου το! | Πες το μου!",
+"why": "After the imperative both orders are used."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "\"He gave it to me.\"",
+"options": [
+"Το μου έδωσε.",
+"Μου το έδωσε.",
+"Μου έδωσε το.",
+"Έδωσε μου το."
+],
+"answer": "Μου το έδωσε.",
+"why": "Genitive first, then accusative, before the verb.",
+"id": "personal-9ec03e27"
+},
+{
+"type": "choice",
+"q": "\"I'll send them to her.\" (τα)",
+"options": [
+"Θα τα της στείλω.",
+"Θα της τα στείλω.",
+"Θα της στείλω τα.",
+"Της θα τα στείλω."
+],
+"answer": "Θα της τα στείλω.",
+"why": "θα + genitive + accusative + verb.",
+"id": "personal-b01f6f6f"
+},
+{
+"type": "choice",
+"q": "\"Don't tell him!\" (it)",
+"options": [
+"Μην το του πεις!",
+"Μην του το πεις!",
+"Μην πεις του το!",
+"Μη του το πεις!"
+],
+"answer": "Μην του το πεις!",
+"why": "μην + genitive + accusative; keep ν before τ.",
+"id": "personal-ab2a533a"
+},
+{
+"type": "choice",
+"q": "\"Show it to me!\"",
+"options": [
+"Μου το δείξε!",
+"Δείξε μου το!",
+"Δείξε το μου το!",
+"Το δείξε μου!"
+],
+"answer": "Δείξε μου το!",
+"why": "Imperative first, pronouns after.",
+"id": "personal-a5d251c1"
+},
+{
+"type": "choice",
+"q": "\"We didn't tell them.\" (it)",
+"options": [
+"Δεν το τους είπαμε.",
+"Δεν τους το είπαμε.",
+"Δεν είπαμε τους το.",
+"Τους δεν το είπαμε."
+],
+"answer": "Δεν τους το είπαμε.",
+"why": "δεν + τους + το + verb.",
+"id": "personal-1fcf95a9"
+},
+{
+"type": "write",
+"q": "Translate: \"I'll give it to you.\" (informal, το)",
+"answer": "Θα σου το δώσω.",
+"accept": [
+"Θα σ' το δώσω."
+],
+"why": "Genitive before accusative.",
+"id": "personal-c66fdc36"
+},
+{
+"type": "write",
+"q": "Translate: \"He didn't tell me.\" (it)",
+"answer": "Δεν μου το είπε.",
+"accept": [
+"Δε μου το είπε."
+],
+"why": "δεν + μου + το.",
+"id": "personal-63889055"
+},
+{
+"type": "write",
+"q": "Translate: \"Give it to me!\" (informal)",
+"answer": "Δώσ' το μου!",
+"accept": [
+"Δώσε μου το!"
+],
+"why": "Both orders after the imperative.",
+"id": "personal-cf050b47"
+},
+{
+"type": "order",
+"q": "\"I'll send it to you tomorrow.\" (informal)",
+"answer": "Θα σου το στείλω αύριο.",
+"accept": [
+"Αύριο θα σου το στείλω."
+],
+"why": "θα + σου + το + verb.",
+"id": "personal-19f723d2"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Εμένα μου αρέσει",
+"title": "Strong + weak together: doubling",
+"body": [
+{
+"p": "When you put a strong pronoun or a noun **before** the verb as the topic, Greek repeats it with a weak pronoun. This \"doubling\" sounds natural, not redundant:"
+},
+{
+"ex": [
+{
+"el": "Εμένα μου αρέσει, εσένα;",
+"en": "I like it, what about you?"
+},
+{
+"el": "Εσένα σε ξέρω από κάπου.",
+"en": "I know you from somewhere."
+},
+{
+"el": "Τον Γιάννη τον είδα χθες.",
+"en": "Giannis, I saw (him) yesterday."
+},
+{
+"el": "Τη σαλάτα την έφτιαξε η Μαρία.",
+"en": "The salad, Maria made (it)."
+},
+{
+"el": "Τα κλειδιά τα έχεις εσύ.",
+"en": "You've got the keys."
+}
+]
+},
+{
+"p": "The doubling pronoun is required when the object comes first as known information. Without it, **Τη σαλάτα έφτιαξε η Μαρία** means \"It was the SALAD that Maria made\" (contrast)."
+},
+{
+"p": "Strong + weak also appears with **αρέσει, φαίνεται, πονάει** and similar verbs for contrast: **Εμένα μου φαίνεται καλό.** \"To me it looks good.\""
+},
+{
+"solved": [
+{
+"q": "\"I like it, but she doesn't.\"",
+"a": "Εμένα μου αρέσει, σ' αυτήν όμως όχι. | Εμένα μου αρέσει, αλλά σ' αυτήν όχι.",
+"why": "Strong pronoun + weak pronoun for contrast; σ' αυτήν = to her."
+},
+{
+"q": "Make **τον καφέ** the topic: \"Έφτιαξα τον καφέ.\"",
+"a": "Τον καφέ τον έφτιαξα.",
+"why": "Fronted object + doubling pronoun τον."
+},
+{
+"q": "\"To us it seems fine.\"",
+"a": "Εμάς μας φαίνεται εντάξει.",
+"why": "Strong εμάς + weak μας."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ μου αρέσει πολύ αυτό το μέρος.",
+"options": [
+"Εγώ",
+"Εμένα",
+"Μου",
+"Με"
+],
+"answer": "Εμένα",
+"why": "Contrastive \"I like\": εμένα μου αρέσει.",
+"id": "personal-fc001ea6"
+},
+{
+"type": "choice",
+"q": "Τη Μαρία ___ ξέρω από το σχολείο.",
+"options": [
+"της",
+"την",
+"τη",
+"το"
+],
+"answer": "την",
+"why": "Fronted object doubled with την.",
+"id": "personal-c1707147"
+},
+{
+"type": "choice",
+"q": "Τα εισιτήρια ___ έχω εγώ.",
+"options": [
+"τους",
+"τα",
+"τις",
+"το"
+],
+"answer": "τα",
+"why": "Neuter plural object: τα.",
+"id": "personal-d9311883"
+},
+{
+"type": "choice",
+"q": "Αυτό το βιβλίο ___ διάβασα δύο φορές.",
+"options": [
+"του",
+"το",
+"τον",
+"αυτό"
+],
+"answer": "το",
+"why": "Fronted neuter object: το.",
+"id": "personal-3ad9c19a"
+},
+{
+"type": "write",
+"q": "Make **το φαγητό** the topic: \"Έφτιαξε το φαγητό η γιαγιά.\"",
+"answer": "Το φαγητό το έφτιαξε η γιαγιά.",
+"accept": [],
+"why": "Fronted object + το.",
+"id": "personal-f98175a5"
+},
+{
+"type": "write",
+"q": "Translate: \"I don't like it, what about you?\" (informal)",
+"answer": "Εμένα δεν μου αρέσει, σ' εσένα;",
+"accept": [
+"Εμένα δε μου αρέσει, εσένα;"
+],
+"why": "Strong + weak pronoun.",
+"id": "personal-55add771"
+},
+{
+"type": "write",
+"q": "Translate: \"I know you from somewhere.\" (informal)",
+"answer": "Σε ξέρω από κάπου.",
+"accept": [
+"Εσένα σε ξέρω από κάπου."
+],
+"why": "με/σε before the verb.",
+"id": "personal-27d8d604"
+},
+{
+"type": "order",
+"q": "\"Giannis, I saw him yesterday.\"",
+"answer": "Τον Γιάννη τον είδα χθες.",
+"accept": [
+"Τον Γιάννη χθες τον είδα."
+],
+"why": "Fronted object doubled by τον.",
+"id": "personal-2152e8e8"
+}
+]
+}
+]
+}
+],
+"id": "personal",
+"el": "Προσωπικές αντωνυμίες",
+"title": "Personal pronouns",
+"span": "A1–B2",
+"part": "Μέρος Δ΄ | Αντωνυμίες, αριθμητικά, προθέσεις | Pronouns, numbers and prepositions",
+"blurb": "Strong and weak pronouns, where the weak ones go (before the verb, after an imperative), the order of two pronouns, and the doubling that makes Greek sound natural.",
+"intro": [
+{
+"p": "Greek has two sets of personal pronouns:"
+},
+{
+"list": [
+"**strong** forms (**εγώ, εμένα, εσύ, εσένα, αυτός...**) for emphasis, contrast, after prepositions and on their own;",
+"**weak** forms (**με, σε, τον, μου, σου, του...**), short unstressed words that lean on the verb. They are far more frequent."
+]
+},
+{
+"p": "As a subject the pronoun is usually left out, because the verb ending already shows the person: **Πεινάω** \"I'm hungry\". Say **εγώ** only for contrast: **Εγώ πεινάω, εσύ;** \"I'm hungry, what about you?\""
+},
+{
+"links": [
+{
+"href": "#a2-weak-pronouns",
+"kind": "Lesson",
+"el": "Αδύνατες αντωνυμίες",
+"title": "Weak object pronouns and their position"
+},
+{
+"href": "#decl-pronouns",
+"kind": "Lesson",
+"el": "Κλίση αντωνυμιών και προσδιοριστών",
+"title": "Declining pronouns and determiners"
+},
+{
+"href": "#verbs-clitics",
+"kind": "Lesson",
+"el": "Αδύνατες αντωνυμίες σε βάθος",
+"title": "Weak object pronouns: position, order, doubling"
+},
+{
+"href": "#cards.personal",
+"kind": "Card",
+"el": "Προσωπικές αντωνυμίες",
+"title": "Personal pronouns"
+},
+{
+"href": "#cards.clitics",
+"kind": "Card",
+"el": "Θέση των αδύνατων τύπων",
+"title": "Where weak pronouns go"
+},
+{
+"href": "#pos.pronoun",
+"kind": "Part of speech",
+"el": "Η αντωνυμία",
+"title": "The pronoun"
+},
+{
+"href": "#syntax.clitics",
+"kind": "Syntax",
+"el": "Οι αδύνατοι τύποι στην πρόταση",
+"title": "Weak pronouns in the sentence"
+}
+]
+}
+],
+"num": 11
+}
