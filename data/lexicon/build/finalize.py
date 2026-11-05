@@ -2,7 +2,8 @@
 # extends forms-index.json, and recomputes freq_count / freq_rank from the corpus counts of each word's forms.
 # usage: python3 finalize.py [--write]      Idempotent: re-running adds nothing twice.
 import json, glob, sys, collections, unicodedata
-L = '/mnt/project-files/data/lexicon/'; B = L + 'build/'
+import os
+B = os.path.dirname(os.path.abspath(__file__)) + '/'; L = os.path.dirname(B.rstrip('/')) + '/'
 SRC = 'Lesson vocabulary (word found in the app lessons); entry written by Claude'
 def strip(x):  # same-word key: keeps accents (θόλος ≠ θολός, πότε ≠ ποτέ), folds -άω into -ώ (γαμάω = γαμώ)
     k = unicodedata.normalize('NFC', x.lower())
@@ -37,6 +38,21 @@ for f in sorted(glob.glob(B + 'misses/*.out.json')):
 for w, lem in list(unresolved):
     if lem in lemmas: idx[w.lower()].add(lem); unresolved.remove((w, lem)); formmaps += 1
 
+# 10k extension (build/10k/entries.json from merge10k.py): append new entries, index their forms, add names
+if os.path.exists(B + '10k/entries.json'):
+    n10 = 0
+    for r in json.load(open(B + '10k/entries.json')):
+        e = r['entry']
+        if e['lemma'] not in lemmas and strip(e['lemma']) not in skeys:
+            c3.append(e); lemmas.add(e['lemma']); skeys[strip(e['lemma'])] = e['lemma']; n10 += 1
+        tgt = e['lemma'] if e['lemma'] in lemmas else skeys[strip(e['lemma'])]
+        for v in r['forms']: idx[v.strip().lower()].add(tgt)
+    for k, v in json.load(open(B + '10k/names_add.json')).items(): names.setdefault(k, v)
+    if os.path.exists(B + '10k/known_forms_add.json'):
+        for lem, fs in json.load(open(B + '10k/known_forms_add.json')).items():
+            if lem in lemmas:
+                for v in fs: idx[v.strip().lower()].add(lem)
+    print('10k entries appended', n10)
 # spot-check corrections (dotted paths); model changes to null are skipped ("irregular" is a valid model)
 import os
 byl = {e['lemma']: e for e in c1 + c3}

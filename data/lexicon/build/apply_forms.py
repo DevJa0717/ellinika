@@ -2,7 +2,8 @@
 # usage: python3 apply_forms.py WORKDIR [--write]   (WORKDIR has forms/*.out.json)
 import json, glob, sys, collections, unicodedata
 W = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('--') else '/mnt/project-files/data/lexicon/build'
-L = '/mnt/project-files/data/lexicon/'
+import os
+L = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/'
 KEEP = {('τηλεφωνώ', 'verb.conj_group'): 'B1'}  # settled by hand where two passes disagreed
 def strip(x): return ''.join(c for c in unicodedata.normalize('NFD', x.lower()) if unicodedata.category(c) != 'Mn')
 

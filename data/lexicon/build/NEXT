@@ -1,6 +1,7 @@
-State 2026-10-18 19:30 UTC. Lexicon 8,214 entries (core-1000 + core-3000); forms-index 101,246; names.json 1,781; collocations.json 2,000 lemmas. Lesson lookup 99.9%.
+State 2026-11-05 UTC. Lexicon 10,752 entries (core-1000 + core-3000, which now holds every entry after the first 1,000); forms-index 122,708; names.json 3,784; collocations.json 2,000 lemmas. Lookup over all lessons + library: 99.2% of 1.21M tokens (misses 9,801, was 12,126).
+10k extension (2,538 entries, list with ranks in added-10k.json): build/10k/ — kaikki_map.py + rank.py + prep.py make batches, brief_10k.md / brief_unres.md for writers, merge10k.py -> entries.json/names_add.json/known_forms_add.json (hand fixes in fixes10k.json), check10k.py = audit rule checks (needs EL_DIC=el_GR.dic). finalize.py merges them idempotently.
 Running: nothing.
-Merge after any misses/*.out.json or spotcheck*.out.json changes:  python3 /mnt/project-files/data/lexicon/build/finalize.py --write   (idempotent)
+Merge after any misses/*.out.json or spotcheck*.out.json changes:  python3 data/lexicon/build/finalize.py (repo root; script finds its own paths) --write   (idempotent)
 If forms/*.out.json change: apply_forms.py --write first, then finalize.py --write.
 Coverage with the app's sources:  cd /tmp && node /mnt/project-files/data/lexicon/build/misses/cov.js   (writes misses.json in cwd)
 Do NOT rerun merge.py (would undo fixes).
