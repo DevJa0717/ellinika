@@ -1,0 +1,42 @@
+id: references
+el: Βιβλιογραφία και έλεγχος
+title: References and validation
+span: A1–C1
+blurb: The grammars and dictionaries this outline was checked against, what each chapter rests on, and how the content and the drills were validated.
+
+This outline restates the grammar of Standard Modern Greek in its own words, with its own everyday examples. Its rules follow the reference grammars below; its Greek was run through a spelling dictionary, and its drills through the build, lint and cross-check tools described at the end. It is a personal, non-commercial study resource.
+
+@ ref
+
+## Πηγές | Κύριες πηγές | Main references
+
+- **Holton, D., Mackridge, P. & Philippaki-Warburton, I.** *Greek: An Essential Grammar of the Modern Language*, 2nd edition. London: Routledge, 2016. The main reference, already extracted into the app's grammar data (data/grammar/): noun and adjective declension (ch. 3), pronouns (ch. 4), numerals (ch. 5), the verb (ch. 6, including the table of irregular verbs in §6.25), adverbs (ch. 7), prepositions (ch. 8), conjunctions (ch. 9), the sentence and its clauses (ch. 10), word formation (ch. 11) and conversational features (ch. 12). Copyrighted: no text is reproduced; rules are restated and all examples are new.
+- **Πουλοπούλου, Σ. (Poulopoulou, S.)** *Modern Greek: Grammar Notes for Absolute Beginners (A1–A2).* Athens: Σύνδεσμος Ελληνικών Ακαδημαϊκών Βιβλιοθηκών / Kallipos, 2015. Licensed **CC BY-NC-SA 3.0 GR**. Used for the present-tense verb groups (ch. 4 of the notes), the noun phrase and its dependents (ch. 5), pronouns (ch. 6), the aorist (ch. 8), the future and the dependent forms (ch. 9) and the appendix of verbs. Following the licence: credited here, used non-commercially, and derived material shared under the same terms.
+- **Πύλη για την ελληνική γλώσσα** (greek-language.gr, Κέντρο Ελληνικής Γλώσσας), with the *Λεξικό της Κοινής Νεοελληνικής* (Ινστιτούτο Νεοελληνικών Σπουδών, Ίδρυμα Μανόλη Τριανταφυλλίδη, 1998). The app's lexicon, used here to check words and forms, was audited against it on 25 October 2026.
+- **Κέντρο Ελληνικής Γλώσσας.** Πιστοποίηση Επάρκειας της Ελληνομάθειας (Certificate of Attainment in Greek), level descriptions A1–C2. Used to grade each section A1–C1.
+- **Wiktionary (en.wiktionary.org)**, through the **kaikki.org** extract, as used by the app's declension and conjugation drill books.
+- **LibreOffice el_GR spelling dictionary** (github.com/LibreOffice/dictionaries). Every Greek word in the outline was run through it.
+- **This app's own data**: the 8,214-entry annotated lexicon with its forms index, the drill books, the syntax guide and the grammar cards. The "Go deeper" links lead into them.
+
+## Πηγές | Για περισσότερη μελέτη | Further reading
+
+- **Holton, D., Mackridge, P., Philippaki-Warburton, I. & Spyropoulos, V.** *Greek: A Comprehensive Grammar*, 2nd edition. London: Routledge, 2012. The larger companion to the Essential Grammar.
+- **Ίδρυμα Μανόλη Τριανταφυλλίδη.** *Νεοελληνική Γραμματική (της Δημοτικής)*, 1941, reprinted by the Institute in Thessaloniki. The classic school grammar of Demotic.
+- **Κλαίρης, Χ. & Μπαμπινιώτης, Γ.** *Γραμματική της Νέας Ελληνικής: Δομολειτουργική – Επικοινωνιακή.* Athens: Ελληνικά Γράμματα, 2005.
+- **Mackridge, P.** *The Modern Greek Language: A Descriptive Analysis of Standard Modern Greek.* Oxford: Clarendon Press, 1985.
+- **Μπαμπινιώτης, Γ.** *Λεξικό της Νέας Ελληνικής Γλώσσας*, 4th edition. Athens: Κέντρο Λεξικολογίας, 2012.
+
+## Έλεγχος | Πώς ελέγχθηκε | How it was validated
+
+1. **Rules** were written to agree with Holton et al. (2016) and Poulopoulou (2015). Where colloquial and standard usage differ (όταν θα έρθεις / όταν έρθεις, μίλαγα / μιλούσα, ήμουνα, θες, είπανε), the text says which is which.
+2. **Verb forms against Holton**: tools/theoria/crosscheck.py compares the outline's verb tables with Holton's table of irregular verbs (§6.25). 37 aorist, passive aorist and participle forms were compared, with no differences.
+3. **Drills**: every multiple-choice item has exactly one correct option; the build refuses an item with no answer, two answers, duplicate options or a missing explanation. Wrong options were reviewed so that none is a correct alternative (a valid colloquial form, a formal variant, or a different but acceptable tense).
+4. **Typed answers** accept the common correct variants (ακόμα / ακόμη, word order, colloquial endings, both spellings where the dictionaries allow two), and a missing accent or final -ν counts as "almost right" rather than wrong.
+5. **Word-order tiles** only accept alternative orders made of the same words.
+6. **Spelling and accents**: tools/theoria/check.js runs all Greek text through the el_GR dictionary and checks one accent per word (except before enclitics), the final-ν rule for την / στην / δεν / μην, and mixed Latin and Greek letters. Three final-ν slips and one wrong aorist (μοιάζω → έμοιασα) were found this way and corrected. Remaining flags are deliberate: wrong forms quoted inside explanations, stems and endings shown on their own, unaccented words in the stress-mark exercises, and μη before adjectives (μη πραγματικός), which never takes ν.
+7. **Lint**: tools/theoria/lint.py rejects drafting slips, English left inside Greek options and distractors padded with extra words.
+8. **Links**: every "Go deeper" link to a lesson, guide, card or drill book is resolved at build time; a broken link stops the build.
+
+The figures at the time of writing: 37 chapters in seven parts, 186 sections, 560 solved problems and 1,989 drills (1,044 multiple choice, 818 typed answers, 127 word-order), all in spaced review.
+
+! Found a mistake? The source files are in library/theoria/src/ and rebuild with python3 library/theoria/src/build.py.
