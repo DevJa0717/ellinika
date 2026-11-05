@@ -1,4 +1,4 @@
-State 2026-11-05 11:00 UTC. Lexicon 11,808 entries (core-1000 + core-3000, which now holds every entry after the first 1,000); forms-index 132,176; names.json 3,782; collocations.json 11,342 lemmas (merge_colloc.py, clean_colloc.py). Lookup over all lessons + library: 99.2% of 1.21M tokens (misses 9,801, was 12,126).
+State 2026-11-05 ~18:30 UTC. Lexicon 14,261 entries (core-1000 + core-3000); forms-index 166,393; names.json 6,399; collocations.json 12,716 lemmas. Lookup over all lessons + library + readers: 99.8% of 1.38M tokens (misses 2,598, was 12,126 this morning). The wordfreq Greek list is exhausted (every lemma in its 46,808 forms is in, or classified as name/abbr/fragment).
 10k extension (3,595 entries: every non-name lemma ranked ≤ 10,950 by wordfreq that passed review, list with ranks in added-10k.json): build/10k/ — kaikki_map.py + rank.py + prep.py make batches, brief_10k.md / brief_unres.md for writers, merge10k.py -> entries.json/names_add.json/known_forms_add.json (hand fixes in fixes10k.json), check10k.py = audit rule checks (needs EL_DIC=el_GR.dic). finalize.py merges them idempotently.
 Running: nothing.
 Merge after any misses/*.out.json or spotcheck*.out.json changes:  python3 data/lexicon/build/finalize.py (repo root; script finds its own paths) --write   (idempotent)
@@ -6,3 +6,6 @@ If forms/*.out.json change: apply_forms.py --write first, then finalize.py --wri
 Coverage with the app's sources:  cd /tmp && node /mnt/project-files/data/lexicon/build/misses/cov.js   (writes misses.json in cwd)
 Do NOT rerun merge.py (would undo fixes).
 Collocations: done for all lexicon lemmas (11,342; 4 slurs/unverified skipped). Next: optional, wordfreq lemmas above rank 10,950.
+
+Rounds 3-4 (wordfreq unmatched forms): build/10k/in_unres/u05-u22 -> out_unres -> merge10k.py -> finalize.py --write; reviews in build/10k/review/r6-r10 (apply_review.py folds into fixes10k.json; restore pre-round core files before re-merging).
+Lesson misses: build/misses/v*.json (seen 2+ times) and w*.json (once) per brief_misses.md; reviews r11-r15 applied as build/spotcheck5-6.out.json. Remaining misses are mostly drill wrong-answer options, stems and dialect quotes.

@@ -1,0 +1,8 @@
+[
+ {"lemma": "βάτος", "set": {"example": {"el": "Τα χέρια μου γρατζουνίστηκαν από τις βάτους.", "en": "My hands got scratched by the brambles."}}, "why": "entry is feminine (η βάτος) but example used masculine article τους"},
+ {"lemma": "εκδημία", "set": {"example": {"el": "Με βαθιά θλίψη αναγγέλλουμε την εκδημία του πατέρα μας.", "en": "With deep sorrow we announce the passing of our father."}}, "why": "'the church honoured the passing' is unnatural; typical obituary use"},
+ {"lemma": "εκάτερος", "set": {"form_key": "f: εκάτερη, n: εκάτερο", "example": {"el": "Το κτίριο έχει δύο εισόδους, μία σε εκάτερη πλευρά.", "en": "The building has two entrances, one on either side."}}, "why": "three-termination, not m/f; 'κράτησαν εκάτερο τη θέση του' is unidiomatic"},
+ {"lemma": "οσοσδήποτε", "set": {"form_key": "f: οσηδήποτε, n: οσοδήποτε"}, "why": "three-termination: m and f differ, form_key should not say m/f"},
+ {"lemma": "μονάκριβος", "set": {"example": {"el": "Ήταν το μονάκριβο παιδί της οικογένειας.", "en": "He was the family's one and only, much-loved child."}}, "why": "English translation not idiomatic"},
+ {"lemma": "ξαναβαμμένος", "set": {"DROP": true}, "why": "non-lexicalised passive participle of ξαναβάφω, not a dictionary headword"}
+]

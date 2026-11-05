@@ -1,0 +1,158 @@
+[
+{
+"lemma": "μηδείς",
+"set": {
+"form_key": "f: μηδεμία, n: μηδέν"
+},
+"why": "three-termination: form_key wrongly labels μηδεμία as m/f"
+},
+{
+"lemma": "μετεωρολόγος",
+"set": {
+"noun.model": "m-ος-fixed"
+},
+"why": "stress on penult, does not shift: not an antepenult model"
+},
+{
+"lemma": "πασατέμπος",
+"set": {
+"noun.model": "m-ος-fixed"
+},
+"why": "stress on penult (πασατέμπου): not an antepenult model"
+},
+{
+"lemma": "χωματόδρομος",
+"set": {
+"noun.model": "m-ος-antepenult-b"
+},
+"why": "gen χωματόδρομου keeps stress; model antepenult-a would give χωματοδρόμου"
+},
+{
+"lemma": "προλέγω",
+"set": {
+"verb.conj_group": "irregular"
+},
+"why": "suppletive aorist προείπα like λέω/είπα"
+},
+{
+"lemma": "προσθετικός",
+"set": {
+"gloss": "prosthetic; additive; (grammar) copulative (conjunction), non-restrictive (relative clause)"
+},
+"why": "missing main everyday sense 'prosthetic' (προσθετικό μέλος)"
+},
+{
+"lemma": "βερίκοκο",
+"set": {
+"noun.model": "n-ο-b"
+},
+"why": "gen_sg βερίκοκου (no stress shift) matches n-ο-b, not n-ο-a"
+},
+{
+"lemma": "ουρολόγος",
+"set": {
+"noun.model": "m-ος-fixed"
+},
+"why": "penult-stressed, gen ουρολόγου keeps stress: m-ος-fixed, not antepenult-a"
+},
+{
+"lemma": "φωνογράφος",
+"set": {
+"noun.model": "m-ος-fixed"
+},
+"why": "penult-stressed, gen φωνογράφου keeps stress: m-ος-fixed, not antepenult-a"
+},
+{
+"lemma": "συγκυριακός",
+"set": {
+"gloss": "due to temporary circumstances, conjunctural; incidental",
+"example": {
+"el": "Η πτώση των τιμών ήταν συγκυριακή και δεν κράτησε.",
+"en": "The drop in prices was due to temporary circumstances and did not last."
+}
+},
+"why": "'circumstantial' is misleading in English (cf. circumstantial evidence)"
+},
+{
+"lemma": "δουλικός",
+"set": {
+"example": {
+"el": "Η δουλική του στάση απέναντι στο αφεντικό ενοχλούσε όλους.",
+"en": "His servile attitude towards the boss annoyed everyone."
+}
+},
+"why": "example used the adverb δουλικά, not the adjective"
+},
+{
+"lemma": "συγχέω",
+"set": {
+"verb.aorist_passive_1sg": "συγχύθηκα"
+},
+"why": "συγχύστηκα is the aorist of συγχύζομαι (get upset); passive of συγχέω is συγχύθηκα"
+},
+{
+"lemma": "βάτος",
+"set": {
+"example": {
+"el": "Τα χέρια μου γρατζουνίστηκαν από τις βάτους.",
+"en": "My hands got scratched by the brambles."
+}
+},
+"why": "entry is feminine (η βάτος) but example used masculine article τους"
+},
+{
+"lemma": "εκδημία",
+"set": {
+"example": {
+"el": "Με βαθιά θλίψη αναγγέλλουμε την εκδημία του πατέρα μας.",
+"en": "With deep sorrow we announce the passing of our father."
+}
+},
+"why": "'the church honoured the passing' is unnatural; typical obituary use"
+},
+{
+"lemma": "εκάτερος",
+"set": {
+"form_key": "f: εκάτερη, n: εκάτερο",
+"example": {
+"el": "Το κτίριο έχει δύο εισόδους, μία σε εκάτερη πλευρά.",
+"en": "The building has two entrances, one on either side."
+}
+},
+"why": "three-termination, not m/f; 'κράτησαν εκάτερο τη θέση του' is unidiomatic"
+},
+{
+"lemma": "οσοσδήποτε",
+"set": {
+"form_key": "f: οσηδήποτε, n: οσοδήποτε"
+},
+"why": "three-termination: m and f differ, form_key should not say m/f"
+},
+{
+"lemma": "μονάκριβος",
+"set": {
+"example": {
+"el": "Ήταν το μονάκριβο παιδί της οικογένειας.",
+"en": "He was the family's one and only, much-loved child."
+}
+},
+"why": "English translation not idiomatic"
+},
+{
+"lemma": "βαστάζω",
+"set": {
+"verb.aorist_1sg": "βάσταξα",
+"form_key": "Pres: βαστάζω | Aor: βάσταξα",
+"needs_review": false
+},
+"why": "aorist βάσταξα (βάσταξε) is the standard form"
+},
+{
+"lemma": "συγχέω",
+"set": {
+"verb.aorist_1sg": "συνέχεα",
+"needs_review": false
+},
+"why": "learned verb; active aorist συνέχεα is rare but standard (formal)"
+}
+]
