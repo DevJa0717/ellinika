@@ -1,0 +1,832 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Σχηματισμός",
+"title": "Form: έχω + -ει",
+"body": [
+{
+"p": "The fixed form (called **απαρέμφατο**) looks exactly like the **αυτός** form of the dependent: **(να) γράψει → έχω γράψει**. It never changes. Only **έχω** shows person and tense."
+},
+{
+"table": {
+"head": [
+"Verb",
+"Dependent (αυτός)",
+"Perfect"
+],
+"rows": [
+[
+"γράφω",
+"να γράψει",
+"έχω γράψει"
+],
+[
+"διαβάζω",
+"να διαβάσει",
+"έχω διαβάσει"
+],
+[
+"μιλάω",
+"να μιλήσει",
+"έχω μιλήσει"
+],
+[
+"τρώω",
+"να φάει",
+"έχω φάει"
+],
+[
+"λέω",
+"να πει",
+"έχω πει"
+],
+[
+"βλέπω",
+"να δει",
+"έχω δει"
+],
+[
+"έρχομαι",
+"να έρθει",
+"έχω έρθει"
+],
+[
+"πηγαίνω",
+"να πάει",
+"έχω πάει"
+]
+]
+}
+},
+{
+"table": {
+"head": [
+"",
+"Perfect",
+"Pluperfect",
+"Future perfect"
+],
+"rows": [
+[
+"εγώ",
+"έχω δει",
+"είχα δει",
+"θα έχω δει"
+],
+[
+"εσύ",
+"έχεις δει",
+"είχες δει",
+"θα έχεις δει"
+],
+[
+"αυτός",
+"έχει δει",
+"είχε δει",
+"θα έχει δει"
+],
+[
+"εμείς",
+"έχουμε δει",
+"είχαμε δει",
+"θα έχουμε δει"
+],
+[
+"εσείς",
+"έχετε δει",
+"είχατε δει",
+"θα έχετε δει"
+],
+[
+"αυτοί",
+"έχουν δει",
+"είχαν δει",
+"θα έχουν δει"
+]
+]
+}
+},
+{
+"p": "**Negation** and **pronouns** go before έχω: **Δεν το έχω δει.** \"I haven't seen it.\""
+},
+{
+"ex": [
+{
+"el": "Έχω διαβάσει αυτό το βιβλίο.",
+"en": "I've read this book."
+},
+{
+"el": "Δεν έχουμε φάει ακόμα.",
+"en": "We haven't eaten yet."
+},
+{
+"el": "Έχεις πάει ποτέ στη Σαντορίνη;",
+"en": "Have you ever been to Santorini?"
+},
+{
+"el": "Την έχω δει κάπου.",
+"en": "I've seen her somewhere."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Perfect of **πίνω**, \"we\"",
+"a": "έχουμε πιει",
+"why": "Dependent (να) πιει → έχουμε πιει."
+},
+{
+"q": "\"Have you (pl) heard the news?\"",
+"a": "Έχετε ακούσει τα νέα;",
+"why": "ακούω → (να) ακούσει."
+},
+{
+"q": "\"I haven't told him.\"",
+"a": "Δεν του το έχω πει. | Δεν του έχω πει.",
+"why": "Negation and pronouns before έχω."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Έχω ___ αυτή την ταινία τρεις φορές. (seen)",
+"options": [
+"είδα",
+"δει",
+"δω",
+"βλέψει"
+],
+"answer": "δει",
+"why": "έχω + δει.",
+"id": "perfect-79a64701"
+},
+{
+"type": "choice",
+"q": "Δεν ___ φάει ακόμα. (we have)",
+"options": [
+"είμαστε",
+"έχουμε",
+"είχαμε φάει",
+"έχουν"
+],
+"answer": "έχουμε",
+"why": "we: έχουμε.",
+"id": "perfect-ce63b291"
+},
+{
+"type": "choice",
+"q": "Έχεις ___ στην Κρήτη; (been: πάει)",
+"options": [
+"πήγει",
+"πάει",
+"πήγες",
+"πας"
+],
+"answer": "πάει",
+"why": "έχω πάει = have been.",
+"id": "perfect-86ce17b1"
+},
+{
+"type": "choice",
+"q": "Δεν ___ έχω πει. (it to him)",
+"options": [
+"το του",
+"του το",
+"τον το",
+"του τα το"
+],
+"answer": "του το",
+"why": "Pronouns before έχω, indirect first.",
+"id": "perfect-d12dd0d1"
+},
+{
+"type": "choice",
+"q": "Έχουν ___ τα εισιτήρια. (bought)",
+"options": [
+"αγόρασαν",
+"αγοράσει",
+"αγοράσουν",
+"αγοράζει"
+],
+"answer": "αγοράσει",
+"why": "έχω + αγοράσει.",
+"id": "perfect-49892707"
+},
+{
+"type": "choice",
+"q": "Η Μαρία έχει ___ τρεις γλώσσες. (learned)",
+"options": [
+"μάθαινε",
+"μάθει",
+"έμαθε",
+"μάθουν"
+],
+"answer": "μάθει",
+"why": "έχει μάθει.",
+"id": "perfect-e1877a8b"
+},
+{
+"type": "write",
+"q": "Perfect \"I have written\"",
+"answer": "έχω γράψει",
+"accept": [],
+"why": "γράφω.",
+"id": "perfect-cfac63b4"
+},
+{
+"type": "write",
+"q": "Perfect \"we have eaten\"",
+"answer": "έχουμε φάει",
+"accept": [],
+"why": "τρώω.",
+"id": "perfect-074155f8"
+},
+{
+"type": "write",
+"q": "Perfect \"they have seen\"",
+"answer": "έχουν δει",
+"accept": [],
+"why": "βλέπω.",
+"id": "perfect-5c151f54"
+},
+{
+"type": "write",
+"q": "Perfect \"have you (sg) said?\"",
+"answer": "έχεις πει;",
+"accept": [],
+"why": "λέω.",
+"id": "perfect-b8c448e1"
+},
+{
+"type": "write",
+"q": "Perfect \"she has come\"",
+"answer": "έχει έρθει",
+"accept": [],
+"why": "έρχομαι.",
+"id": "perfect-e46b9ded"
+},
+{
+"type": "write",
+"q": "\"I haven't seen it.\"",
+"answer": "Δεν το έχω δει.",
+"accept": [],
+"why": "Negation and pronoun before έχω.",
+"id": "perfect-72b27f0c"
+},
+{
+"type": "order",
+"q": "\"Have you (sg) ever been to Athens?\"",
+"answer": "Έχεις πάει ποτέ στην Αθήνα;",
+"accept": [
+"Έχεις πάει στην Αθήνα ποτέ;"
+],
+"why": "έχω πάει = have been.",
+"id": "perfect-2b33b5dd"
+},
+{
+"type": "order",
+"q": "\"We haven't decided yet.\" (αποφασίζω)",
+"answer": "Δεν έχουμε αποφασίσει ακόμα.",
+"accept": [],
+"why": "δεν έχουμε αποφασίσει.",
+"id": "perfect-95d9e6e7"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Πότε χρησιμοποιείται",
+"title": "When to use the perfect (and when not)",
+"body": [
+{
+"p": "The Greek perfect means \"**at some time up to now, with the result still relevant**\". It is natural with **ποτέ** (ever), **ήδη / κιόλας** (already), **ακόμα** (yet), **πολλές φορές**, **τελευταία** (lately)."
+},
+{
+"p": "Greek does **not** use the perfect where English often does:"
+},
+{
+"table": {
+"head": [
+"English",
+"Greek",
+"Why"
+],
+"rows": [
+[
+"Have you eaten?",
+"Έφαγες;",
+"A simple recent event: aorist."
+],
+[
+"He's just arrived.",
+"Μόλις ήρθε.",
+"μόλις + aorist."
+],
+[
+"I've lived here for 3 years.",
+"Μένω εδώ τρία χρόνια. / Μένω εδώ εδώ και τρία χρόνια.",
+"Still going on: present."
+],
+[
+"How long have you known her?",
+"Πόσο καιρό την ξέρεις;",
+"Present."
+],
+[
+"I've seen him yesterday. ✗",
+"Τον είδα χθες.",
+"A stated past time: aorist only."
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Έχω ακούσει πολλά για σένα.",
+"en": "I've heard a lot about you."
+},
+{
+"el": "Έχουν τελειώσει κιόλας!",
+"en": "They've already finished!"
+},
+{
+"el": "— Έφαγες; — Ναι, έφαγα.",
+"en": "— Have you eaten? — Yes, I have."
+},
+{
+"el": "Μαθαίνω ελληνικά εδώ και δύο χρόνια.",
+"en": "I've been learning Greek for two years."
+}
+]
+},
+{
+"tip": "Never put a definite past time with the perfect: **χθες, πέρσι, το 2010, πριν από δύο μέρες** require the aorist."
+},
+{
+"solved": [
+{
+"q": "\"I've already told you.\" (sg)",
+"a": "Σου το έχω πει ήδη. | Σου το έχω ήδη πει. | Σου το έχω πει κιόλας. | Σου το είπα ήδη.",
+"why": "ήδη: perfect (aorist also common)."
+},
+{
+"q": "\"I've worked here since 2020.\"",
+"a": "Δουλεύω εδώ από το 2020.",
+"why": "Still going on: present."
+},
+{
+"q": "\"I saw her last week.\"",
+"a": "Την είδα την περασμένη εβδομάδα.",
+"why": "A stated past time: aorist."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ ποτέ ελληνικό καφέ; (Have you drunk)",
+"options": [
+"Έχεις πίνει",
+"Έχεις πιει",
+"Είχες πιεις",
+"Έχεις ήπιες"
+],
+"answer": "Έχεις πιει",
+"why": "ποτέ = ever: perfect.",
+"id": "perfect-181b6f9e"
+},
+{
+"type": "choice",
+"q": "Χθες ___ τον Γιάννη. (I saw)",
+"options": [
+"έχω δει",
+"είδα",
+"είχα δω",
+"θα δω"
+],
+"answer": "είδα",
+"why": "A stated past time: aorist.",
+"id": "perfect-22cef1b8"
+},
+{
+"type": "choice",
+"q": "Μένουμε εδώ ___ πέντε χρόνια. (for)",
+"options": [
+"για",
+"εδώ και",
+"σε",
+"πριν"
+],
+"answer": "εδώ και",
+"why": "Still going on: present + εδώ και.",
+"id": "perfect-bbaa7d2a"
+},
+{
+"type": "choice",
+"q": "___ στην Αθήνα από το 2019. (I've been living)",
+"options": [
+"Έχω μείνει",
+"Μένω",
+"Έμεινα",
+"Έχω μένει"
+],
+"answer": "Μένω",
+"why": "Still going on: present.",
+"id": "perfect-99320932"
+},
+{
+"type": "choice",
+"q": "Μόλις ___ ο Νίκος. (has arrived)",
+"options": [
+"φτάξει",
+"έφτασε",
+"φτάνσε",
+"έφταξε"
+],
+"answer": "έφτασε",
+"why": "μόλις + aorist.",
+"id": "perfect-560e6af9"
+},
+{
+"type": "choice",
+"q": "Δεν ___ το βιβλίο ακόμα. (I've finished)",
+"options": [
+"τελείωνα",
+"έχω τελειώσει",
+"τελειώσω",
+"θα τελειώνω"
+],
+"answer": "έχω τελειώσει",
+"why": "ακόμα (yet): perfect.",
+"id": "perfect-fe5df369"
+},
+{
+"type": "write",
+"q": "\"Have you (sg) ever eaten octopus?\"",
+"answer": "Έχεις φάει ποτέ χταπόδι;",
+"accept": [
+"Έχεις φάει χταπόδι ποτέ;"
+],
+"why": "ποτέ: perfect.",
+"id": "perfect-cf095e59"
+},
+{
+"type": "write",
+"q": "\"I've known her for years.\"",
+"answer": "Την ξέρω χρόνια.",
+"accept": [
+"Την ξέρω εδώ και χρόνια."
+],
+"why": "Present.",
+"id": "perfect-48a7a572"
+},
+{
+"type": "write",
+"q": "\"They've just left.\"",
+"answer": "Μόλις έφυγαν.",
+"accept": [
+"Μόλις φύγανε."
+],
+"why": "μόλις + aorist.",
+"id": "perfect-aebf857c"
+},
+{
+"type": "write",
+"q": "\"I lost my keys yesterday.\"",
+"answer": "Έχασα τα κλειδιά μου χθες.",
+"accept": [
+"Χθες έχασα τα κλειδιά μου."
+],
+"why": "Stated past time: aorist.",
+"id": "perfect-bd5d17a5"
+},
+{
+"type": "order",
+"q": "\"We have already decided.\"",
+"answer": "Έχουμε ήδη αποφασίσει.",
+"accept": [
+"Έχουμε αποφασίσει ήδη."
+],
+"why": "ήδη: perfect.",
+"id": "perfect-6adaacc1"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Υπερσυντέλικος",
+"title": "The pluperfect: είχα γράψει",
+"body": [
+{
+"p": "The pluperfect is the \"past of the past\": an action finished **before** another past moment. It is used in Greek much as in English."
+},
+{
+"ex": [
+{
+"el": "Όταν έφτασα στον σταθμό, το τρένο είχε φύγει.",
+"en": "When I got to the station, the train had left."
+},
+{
+"el": "Δεν είχα δει ποτέ τόσο χιόνι.",
+"en": "I had never seen so much snow."
+},
+{
+"el": "Μου είπε ότι είχε τελειώσει.",
+"en": "He told me he had finished."
+},
+{
+"el": "Είχαμε φάει πριν έρθεις.",
+"en": "We had eaten before you came."
+}
+]
+},
+{
+"p": "Compare: **Όταν ήρθε, φύγαμε.** \"When he came, we left.\" (one after the other) and **Όταν ήρθε, είχαμε φύγει.** \"When he came, we had (already) left.\" (we were gone)."
+},
+{
+"solved": [
+{
+"q": "\"When we arrived, the film had started.\"",
+"a": "Όταν φτάσαμε, η ταινία είχε αρχίσει. | Όταν φτάσαμε, είχε αρχίσει η ταινία.",
+"why": "Before another past moment: pluperfect."
+},
+{
+"q": "\"I had forgotten my wallet.\"",
+"a": "Είχα ξεχάσει το πορτοφόλι μου.",
+"why": "ξεχνάω → (να) ξεχάσει."
+},
+{
+"q": "\"She said she had never been to Greece.\"",
+"a": "Είπε ότι δεν είχε πάει ποτέ στην Ελλάδα. | Είπε πως δεν είχε πάει ποτέ στην Ελλάδα.",
+"why": "Reported past of the past."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Όταν φτάσαμε, το λεωφορείο ___. (had left)",
+"options": [
+"έχει φύγει",
+"είχε φύγει",
+"θα φύγει",
+"φύγει είχε"
+],
+"answer": "είχε φύγει",
+"why": "Before another past moment: pluperfect.",
+"id": "perfect-b0effe5c"
+},
+{
+"type": "choice",
+"q": "Δεν ___ ποτέ τόσο ωραία παραλία. (I had seen)",
+"options": [
+"έχω δω",
+"είχα δει",
+"είδα δει",
+"θα είχα δω"
+],
+"answer": "είχα δει",
+"why": "Pluperfect: είχα + δει.",
+"id": "perfect-edfd85b8"
+},
+{
+"type": "choice",
+"q": "Μου είπε ότι ___ ήδη. (he had eaten)",
+"options": [
+"έχει φάγει",
+"είχε φάει",
+"θα φάει",
+"είχε φάγει"
+],
+"answer": "είχε φάει",
+"why": "είχε φάει.",
+"id": "perfect-bc301a2a"
+},
+{
+"type": "choice",
+"q": "Όταν τηλεφώνησες, ___ ήδη. (I had gone out)",
+"options": [
+"έχω βγει",
+"είχα βγει",
+"είχα βγήκει",
+"είχα βγω"
+],
+"answer": "είχα βγει",
+"why": "είχα βγει.",
+"id": "perfect-9206898b"
+},
+{
+"type": "write",
+"q": "Pluperfect \"I had written\"",
+"answer": "είχα γράψει",
+"accept": [],
+"why": "είχα + γράψει.",
+"id": "perfect-f5ae4c33"
+},
+{
+"type": "write",
+"q": "Pluperfect \"we had left\"",
+"answer": "είχαμε φύγει",
+"accept": [],
+"why": "φεύγω.",
+"id": "perfect-0c9347a1"
+},
+{
+"type": "write",
+"q": "\"When I called, they had gone to bed.\" (κοιμάμαι → κοιμηθεί)",
+"answer": "Όταν πήρα τηλέφωνο, είχαν κοιμηθεί.",
+"accept": [
+"Όταν πήρα τηλέφωνο, είχαν πάει για ύπνο.",
+"Όταν τηλεφώνησα, είχαν κοιμηθεί.",
+"Όταν τηλεφώνησα, είχαν πάει για ύπνο."
+],
+"why": "Pluperfect.",
+"id": "perfect-fd92caba"
+},
+{
+"type": "order",
+"q": "\"I had never eaten so much.\"",
+"answer": "Δεν είχα φάει ποτέ τόσο πολύ.",
+"accept": [],
+"why": "Pluperfect.",
+"id": "perfect-ade70ca6"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Συντελεσμένος μέλλοντας",
+"title": "The future perfect: θα έχω γράψει",
+"body": [
+{
+"p": "**Θα έχω + -ει** means \"will have done\" by a future point. Like θα in chapter 21, it also expresses a guess about the past: **θα έχει φύγει** \"she must have left\"."
+},
+{
+"ex": [
+{
+"el": "Μέχρι τις οχτώ θα έχω τελειώσει.",
+"en": "By eight I'll have finished."
+},
+{
+"el": "Ως το καλοκαίρι θα έχουμε μετακομίσει.",
+"en": "By the summer we'll have moved."
+},
+{
+"el": "Θα έχει φτάσει πια.",
+"en": "He must have arrived by now."
+},
+{
+"el": "Δεν απαντάει, θα έχει κλείσει το κινητό.",
+"en": "She's not answering, she must have turned her phone off."
+}
+]
+},
+{
+"p": "**B2: έχω + participle.** In everyday speech the result can also be expressed with **έχω** + a passive participle: **Τα έχω πληρωμένα.** \"I've got them paid (for).\" **Το έχω διαβασμένο.** \"I've read it (and know it).\" This stresses the state you're in now."
+},
+{
+"solved": [
+{
+"q": "\"By tomorrow I'll have read it.\"",
+"a": "Ως αύριο θα το έχω διαβάσει. | Μέχρι αύριο θα το έχω διαβάσει.",
+"why": "θα έχω + -ει."
+},
+{
+"q": "\"They must have forgotten.\"",
+"a": "Θα το έχουν ξεχάσει. | Θα έχουν ξεχάσει. | Θα το ξέχασαν.",
+"why": "Guess about the past."
+},
+{
+"q": "\"I've got the tickets bought.\" (participle)",
+"a": "Τα εισιτήρια τα έχω αγορασμένα. | Έχω αγορασμένα τα εισιτήρια.",
+"why": "έχω + participle: resulting state."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Μέχρι την Παρασκευή ___ τη δουλειά. (I'll have finished)",
+"options": [
+"θα έχω τελειώσω",
+"θα έχω τελειώσει",
+"είχα τελειώσει",
+"θα είχα τελειώνει"
+],
+"answer": "θα έχω τελειώσει",
+"why": "θα έχω + -ει.",
+"id": "perfect-c5eda4fc"
+},
+{
+"type": "choice",
+"q": "Είναι ήδη δέκα, ___. (he must have left)",
+"options": [
+"έχει φεύγει",
+"θα έχει φύγει",
+"είχε φεύγει",
+"θα είχει φύγει"
+],
+"answer": "θα έχει φύγει",
+"why": "Guess about the past.",
+"id": "perfect-9ef80416"
+},
+{
+"type": "choice",
+"q": "Όταν έρθεις, ___ ήδη. (we'll have eaten)",
+"options": [
+"είχαμε φάει",
+"θα έχουμε φάει",
+"θα φάγαμε",
+"έχουμε φάγει"
+],
+"answer": "θα έχουμε φάει",
+"why": "θα έχουμε φάει.",
+"id": "perfect-52cd6803"
+},
+{
+"type": "write",
+"q": "\"By then I'll have left.\"",
+"answer": "Ως τότε θα έχω φύγει.",
+"accept": [
+"Μέχρι τότε θα έχω φύγει."
+],
+"why": "θα έχω + -ει.",
+"id": "perfect-dae69f32"
+},
+{
+"type": "write",
+"q": "\"She must have arrived.\"",
+"answer": "Θα έχει φτάσει.",
+"accept": [
+"Θα έφτασε."
+],
+"why": "Guess.",
+"id": "perfect-b7a354ad"
+},
+{
+"type": "order",
+"q": "\"By June we'll have finished.\"",
+"answer": "Μέχρι τον Ιούνιο θα έχουμε τελειώσει.",
+"accept": [],
+"why": "θα έχουμε τελειώσει.",
+"id": "perfect-88e489b2"
+}
+]
+}
+]
+}
+],
+"id": "perfect",
+"el": "Οι συντελεσμένοι χρόνοι",
+"title": "The perfect tenses: έχω γράψει, είχα γράψει, θα έχω γράψει",
+"span": "B1",
+"blurb": "How to form the perfect, pluperfect and future perfect with έχω + -ει, and when Greek actually uses them: much less than English, which says \"I have eaten\" where Greek simply says έφαγα.",
+"intro": [
+{
+"p": "The perfect tenses are built with **έχω** + a fixed form ending in **-ει** (the old infinitive): **έχω γράψει** \"I have written\", **είχα γράψει** \"I had written\", **θα έχω γράψει** \"I will have written\". The form is easy; the hard part is that Greek uses the present perfect far less than English does."
+},
+{
+"links": [
+{
+"href": "#b1-perfect",
+"kind": "Lesson",
+"el": "Παρακείμενος και υπερσυντέλικος",
+"title": "Perfect tenses with έχω, active and passive"
+},
+{
+"href": "#cards.perfect",
+"kind": "Card",
+"el": "Οι συντελεσμένοι χρόνοι",
+"title": "The perfect tenses"
+},
+{
+"href": "#pos.verb-forms",
+"kind": "Part of speech",
+"el": "Το ρήμα Α΄: οι τύποι",
+"title": "The verb I: forms and conjugations"
+},
+{
+"href": "#cards.aspect",
+"kind": "Card",
+"el": "Ποιο θέμα; Η επιλογή της όψης",
+"title": "Choosing the aspect"
+}
+]
+}
+],
+"num": 24
+}

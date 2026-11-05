@@ -1,0 +1,1163 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Να + ρήμα",
+"title": "Να + verb: the Greek \"to\"",
+"body": [
+{
+"p": "Use **να** + the verb in the right person after verbs of wanting, being able, needing, trying and so on. Most of the time the verb after να is in the **dependent form** (one action)."
+},
+{
+"table": {
+"head": [
+"Main verb",
+"Example",
+"Meaning"
+],
+"rows": [
+[
+"θέλω",
+"Θέλω να φάω.",
+"I want to eat."
+],
+[
+"μπορώ",
+"Μπορείς να έρθεις;",
+"Can you come?"
+],
+[
+"πρέπει",
+"Πρέπει να φύγουμε.",
+"We have to leave."
+],
+[
+"προσπαθώ",
+"Προσπαθώ να καταλάβω.",
+"I'm trying to understand."
+],
+[
+"ελπίζω",
+"Ελπίζω να σε δω.",
+"I hope to see you."
+],
+[
+"ξεχνάω",
+"Ξέχασα να το αγοράσω.",
+"I forgot to buy it."
+]
+]
+}
+},
+{
+"p": "**Πρέπει** never changes: **πρέπει να πάω, πρέπει να πας, έπρεπε να πάμε**. Only the verb after να shows who."
+},
+{
+"p": "When the subject changes, just change the ending after να. There is no \"for me to / you to\" construction:"
+},
+{
+"ex": [
+{
+"el": "Θέλω να φύγω.",
+"en": "I want to leave."
+},
+{
+"el": "Θέλω να φύγεις.",
+"en": "I want you to leave."
+},
+{
+"el": "Η μαμά θέλει να τηλεφωνήσουμε.",
+"en": "Mum wants us to call."
+},
+{
+"el": "Σου είπα να έρθεις νωρίς.",
+"en": "I told you to come early."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Can you (sg) help me?\"",
+"a": "Μπορείς να με βοηθήσεις;",
+"why": "μπορώ + να + dependent."
+},
+{
+"q": "\"I want you (pl) to listen.\"",
+"a": "Θέλω να ακούσετε. | Θέλω να με ακούσετε.",
+"why": "Different subject: change the ending."
+},
+{
+"q": "\"We had to wait.\"",
+"a": "Έπρεπε να περιμένουμε.",
+"why": "πρέπει → έπρεπε; the person is on περιμένουμε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θέλω ___ ένα παγωτό. (to buy)",
+"options": [
+"αγοράσω",
+"να αγοράσω",
+"να αγοράσει",
+"για αγοράσω"
+],
+"answer": "να αγοράσω",
+"why": "θέλω + να + verb.",
+"id": "subjunctive-2224140f"
+},
+{
+"type": "choice",
+"q": "Πρέπει να ___ αμέσως. (we leave)",
+"options": [
+"φύγω",
+"φύγουμε",
+"φεύγαμε",
+"φύγατε"
+],
+"answer": "φύγουμε",
+"why": "The person goes on the verb after να.",
+"id": "subjunctive-9e6bec4f"
+},
+{
+"type": "choice",
+"q": "Ο Νίκος θέλει να ___ μαζί του. (you go, sg)",
+"options": [
+"πάει",
+"πας",
+"πάω",
+"πήγες"
+],
+"answer": "πας",
+"why": "Different subject: να πας.",
+"id": "subjunctive-063ba7e9"
+},
+{
+"type": "choice",
+"q": "Δεν ___ να έρθω. (I can)",
+"options": [
+"πρέπουμε",
+"μπορώ",
+"μπορεί να",
+"μπορούμαι"
+],
+"answer": "μπορώ",
+"why": "I can: μπορώ.",
+"id": "subjunctive-44af114f"
+},
+{
+"type": "choice",
+"q": "Πρέπει ___ τη μαμά σου. (you call: παίρνω τηλέφωνο)",
+"options": [
+"πάρεις",
+"να πάρεις",
+"να πάρει",
+"να έπαιρνες"
+],
+"answer": "να πάρεις",
+"why": "πρέπει να...",
+"id": "subjunctive-81ae3999"
+},
+{
+"type": "choice",
+"q": "Μας είπε να ___ νωρίς. (we come)",
+"options": [
+"έρθει",
+"έρθουμε",
+"ήρθαμε",
+"έρθαμε"
+],
+"answer": "έρθουμε",
+"why": "να έρθουμε.",
+"id": "subjunctive-1306c36e"
+},
+{
+"type": "write",
+"q": "\"I want to sleep.\"",
+"answer": "Θέλω να κοιμηθώ.",
+"accept": [],
+"why": "κοιμάμαι → να κοιμηθώ.",
+"id": "subjunctive-007f0e50"
+},
+{
+"type": "write",
+"q": "\"I want you (sg) to stay.\"",
+"answer": "Θέλω να μείνεις.",
+"accept": [],
+"why": "Different subject.",
+"id": "subjunctive-88182165"
+},
+{
+"type": "write",
+"q": "\"We must hurry.\"",
+"answer": "Πρέπει να βιαστούμε.",
+"accept": [],
+"why": "βιάζομαι → να βιαστούμε.",
+"id": "subjunctive-b8594987"
+},
+{
+"type": "write",
+"q": "\"Can you (pl) wait?\"",
+"answer": "Μπορείτε να περιμένετε;",
+"accept": [],
+"why": "μπορώ + να.",
+"id": "subjunctive-3fcb0a18"
+},
+{
+"type": "write",
+"q": "\"I forgot to tell you.\" (sg)",
+"answer": "Ξέχασα να σου πω.",
+"accept": [
+"Ξέχασα να σου το πω."
+],
+"why": "ξεχνάω + να.",
+"id": "subjunctive-16bee0f7"
+},
+{
+"type": "order",
+"q": "\"I hope to see you soon.\" (sg)",
+"answer": "Ελπίζω να σε δω σύντομα.",
+"accept": [],
+"why": "ελπίζω + να.",
+"id": "subjunctive-e2b2a086"
+},
+{
+"type": "order",
+"q": "\"She told me to wait.\"",
+"answer": "Μου είπε να περιμένω.",
+"accept": [],
+"why": "να περιμένω.",
+"id": "subjunctive-02add0d5"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Να γράφω ή να γράψω;",
+"title": "Aspect after να",
+"body": [
+{
+"p": "Like θα, να can be followed by **either** form, with the same difference of meaning:"
+},
+{
+"table": {
+"head": [
+"να + dependent: να γράψω",
+"να + present: να γράφω"
+],
+"rows": [
+[
+"one action",
+"repeated, habitual or ongoing"
+],
+[
+"Θέλω να σου γράψω. \"I want to write to you.\"",
+"Θέλω να σου γράφω. \"I want to write to you (regularly).\""
+],
+[
+"Πρέπει να φάω. \"I must eat (now).\"",
+"Πρέπει να τρώω λιγότερο. \"I must eat less (in general).\""
+]
+]
+}
+},
+{
+"p": "Some verbs **always** take να + present, because their meaning is ongoing:"
+},
+{
+"table": {
+"head": [
+"Verb",
+"Example"
+],
+"rows": [
+[
+"αρχίζω \"start\"",
+"Άρχισε να βρέχει. \"It started raining.\""
+],
+[
+"σταματάω \"stop\"",
+"Σταμάτα να φωνάζεις! \"Stop shouting!\""
+],
+[
+"συνεχίζω \"keep on\"",
+"Συνέχισε να διαβάζει. \"She kept reading.\""
+],
+[
+"συνηθίζω \"be used to\"",
+"Συνηθίζω να τρώω αργά. \"I usually eat late.\""
+],
+[
+"ξέρω \"know how\"",
+"Ξέρεις να οδηγείς; \"Can you drive?\""
+],
+[
+"μαθαίνω \"learn how\"",
+"Μαθαίνω να κολυμπάω. \"I'm learning to swim.\""
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Πρέπει να διαβάζεις κάθε μέρα.",
+"en": "You need to study every day."
+},
+{
+"el": "Πρέπει να διαβάσεις αυτό το βιβλίο.",
+"en": "You must read this book."
+},
+{
+"el": "Σταμάτησα να καπνίζω.",
+"en": "I stopped smoking."
+},
+{
+"el": "Ξέρει να μαγειρεύει πολύ καλά.",
+"en": "He can cook really well."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"It started to snow.\"",
+"a": "Άρχισε να χιονίζει.",
+"why": "αρχίζω + να + present."
+},
+{
+"q": "\"You (sg) must drink more water (generally).\"",
+"a": "Πρέπει να πίνεις περισσότερο νερό.",
+"why": "Habit: να + present."
+},
+{
+"q": "\"Do you (sg) know how to swim?\"",
+"a": "Ξέρεις να κολυμπάς;",
+"why": "ξέρω (know how) + να + present."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Άρχισε να ___. (it's raining)",
+"options": [
+"βρέξει",
+"βρέχει",
+"έβρεξε",
+"βρέχσει"
+],
+"answer": "βρέχει",
+"why": "αρχίζω + να + present.",
+"id": "subjunctive-476c34bf"
+},
+{
+"type": "choice",
+"q": "Σταμάτα να ___! (talking, sg)",
+"options": [
+"μιλήσεις",
+"μιλάς",
+"μίλησες",
+"μιλήσει"
+],
+"answer": "μιλάς",
+"why": "σταματάω + να + present.",
+"id": "subjunctive-ef313d28"
+},
+{
+"type": "choice",
+"q": "Πρέπει να ___ πιο συχνά. (we meet: βλεπόμαστε)",
+"options": [
+"βλέπουμαστε",
+"βλεπόμαστε",
+"ειδωθήκαμε",
+"βλεπόμασταν"
+],
+"answer": "βλεπόμαστε",
+"why": "Repeated: να + present.",
+"id": "subjunctive-3b99e5aa"
+},
+{
+"type": "choice",
+"q": "Ξέρεις να ___ κιθάρα; (play)",
+"options": [
+"παίξεις",
+"παίζεις",
+"έπαιξες",
+"παίξει"
+],
+"answer": "παίζεις",
+"why": "ξέρω να + present.",
+"id": "subjunctive-dc174fcf"
+},
+{
+"type": "choice",
+"q": "Θέλω να ___ αυτή την ταινία απόψε. (see)",
+"options": [
+"βλέψω",
+"δω",
+"είδα",
+"δούμε"
+],
+"answer": "δω",
+"why": "One action: να δω.",
+"id": "subjunctive-a10260c4"
+},
+{
+"type": "choice",
+"q": "Συνέχισε να ___ σαν να μη συνέβη τίποτα. (he kept working)",
+"options": [
+"δουλέψει",
+"δουλεύει",
+"δούλεψε",
+"δουλέψαμε"
+],
+"answer": "δουλεύει",
+"why": "συνεχίζω + να + present.",
+"id": "subjunctive-3dbbb7eb"
+},
+{
+"type": "write",
+"q": "\"I stopped smoking.\"",
+"answer": "Σταμάτησα να καπνίζω.",
+"accept": [],
+"why": "σταματάω + να + present.",
+"id": "subjunctive-b3c4a710"
+},
+{
+"type": "write",
+"q": "\"It started raining.\"",
+"answer": "Άρχισε να βρέχει.",
+"accept": [],
+"why": "αρχίζω + να + present.",
+"id": "subjunctive-8f1dc163"
+},
+{
+"type": "write",
+"q": "\"You (sg) must sleep more (generally).\"",
+"answer": "Πρέπει να κοιμάσαι περισσότερο.",
+"accept": [],
+"why": "Habit: να + present.",
+"id": "subjunctive-60847d56"
+},
+{
+"type": "write",
+"q": "\"Can you (sg) cook?\" (know how)",
+"answer": "Ξέρεις να μαγειρεύεις;",
+"accept": [],
+"why": "ξέρω να + present.",
+"id": "subjunctive-ba24f9c3"
+},
+{
+"type": "write",
+"q": "\"I'm learning to drive.\"",
+"answer": "Μαθαίνω να οδηγώ.",
+"accept": [],
+"why": "μαθαίνω να + present.",
+"id": "subjunctive-a5ba1b97"
+},
+{
+"type": "order",
+"q": "\"We usually eat at nine.\"",
+"answer": "Συνηθίζουμε να τρώμε στις εννιά.",
+"accept": [],
+"why": "συνηθίζω + να + present.",
+"id": "subjunctive-72e2203f"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Μη(ν)",
+"title": "Negation with να: μη(ν), not δεν",
+"body": [
+{
+"p": "After **να, ας** and in prohibitions, the negative is **μη(ν)**, never δεν."
+},
+{
+"table": {
+"head": [
+"Positive",
+"Negative"
+],
+"rows": [
+[
+"Θέλω να έρθεις.",
+"Θέλω να μην έρθεις."
+],
+[
+"Ας πάμε.",
+"Ας μην πάμε."
+],
+[
+"Φύγε!",
+"Μη φύγεις!"
+],
+[
+"Φώναξε!",
+"Μη φωνάζεις!"
+]
+]
+}
+},
+{
+"p": "**Spelling**: **μην** before a vowel and before **κ, π, τ, ξ, ψ, μπ, ντ, γκ, τσ, τζ**; **μη** before the other consonants. In fast writing many people write μην everywhere; the rule is the standard."
+},
+{
+"p": "**Prohibitions** have no negative imperative: Greek uses **μη(ν) + the subjunctive**."
+},
+{
+"list": [
+"**Μη + present** forbids something going on or general: **Μη μιλάς!** \"Stop talking! / Don't talk!\"",
+"**Μη + dependent** warns about one action: **Μην αργήσεις!** \"Don't be late!\""
+]
+},
+{
+"ex": [
+{
+"el": "Σου είπα να μην το πεις σε κανέναν.",
+"en": "I told you not to tell anyone."
+},
+{
+"el": "Μην ανησυχείς!",
+"en": "Don't worry!"
+},
+{
+"el": "Μη φύγεις ακόμα.",
+"en": "Don't leave yet."
+},
+{
+"el": "Ας μην το συζητήσουμε τώρα.",
+"en": "Let's not discuss it now."
+},
+{
+"el": "Προσπάθησε να μην κάνεις θόρυβο.",
+"en": "Try not to make noise."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I hope it doesn't rain.\"",
+"a": "Ελπίζω να μη βρέξει.",
+"why": "Negation after να: μη (before β)."
+},
+{
+"q": "\"Don't touch it!\" (sg)",
+"a": "Μην το πιάσεις! | Μην το αγγίξεις! | Μην το πιάνεις!",
+"why": "μην before τ (the pronoun το)."
+},
+{
+"q": "\"Why **μην ανησυχείς** but **μη φωνάζεις**?\"",
+"a": "μην before a vowel, μη before φ",
+"why": "The rule follows the next sound."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θέλω να ___ αργήσεις. (not)",
+"options": [
+"δεν",
+"μην",
+"όχι",
+"δε"
+],
+"answer": "μην",
+"why": "After να: μη(ν).",
+"id": "subjunctive-88c2a00c"
+},
+{
+"type": "choice",
+"q": "___ ανησυχείς, όλα θα πάνε καλά. (Don't)",
+"options": [
+"Δεν",
+"Μην",
+"Όχι",
+"Μη να"
+],
+"answer": "Μην",
+"why": "μην before a vowel.",
+"id": "subjunctive-614f9615"
+},
+{
+"type": "choice",
+"q": "Ας ___ πάμε σήμερα. (not)",
+"options": [
+"δεν",
+"μην",
+"όχι",
+"μη να"
+],
+"answer": "μην",
+"why": "Ας μην...",
+"id": "subjunctive-975aaff4"
+},
+{
+"type": "choice",
+"q": "___ φωνάζεις, κοιμάται το μωρό! (Don't)",
+"options": [
+"Δεν",
+"Μη",
+"Μην να",
+"Όχι"
+],
+"answer": "Μη",
+"why": "μη before φ.",
+"id": "subjunctive-7f1f3505"
+},
+{
+"type": "choice",
+"q": "Του είπα να μην ___ τίποτα. (say)",
+"options": [
+"λέξει",
+"πει",
+"είπε",
+"πω"
+],
+"answer": "πει",
+"why": "να μην + dependent.",
+"id": "subjunctive-74419738"
+},
+{
+"type": "choice",
+"q": "___ μου το λες αυτό! (Don't, general)",
+"options": [
+"Δε",
+"Μη",
+"Δεν",
+"Όχι"
+],
+"answer": "Μη",
+"why": "μη before μ.",
+"id": "subjunctive-faa7c41b"
+},
+{
+"type": "write",
+"q": "\"Don't be late!\" (sg)",
+"answer": "Μην αργήσεις!",
+"accept": [
+"Μην αργείς!"
+],
+"why": "μην before a vowel.",
+"id": "subjunctive-459148ea"
+},
+{
+"type": "write",
+"q": "\"Don't worry!\" (sg)",
+"answer": "Μην ανησυχείς!",
+"accept": [],
+"why": "Ongoing: μην + present.",
+"id": "subjunctive-e1d92165"
+},
+{
+"type": "write",
+"q": "\"Let's not go.\"",
+"answer": "Ας μην πάμε.",
+"accept": [],
+"why": "ας μην.",
+"id": "subjunctive-566b25af"
+},
+{
+"type": "write",
+"q": "\"I told him not to come.\"",
+"answer": "Του είπα να μην έρθει.",
+"accept": [],
+"why": "να μην.",
+"id": "subjunctive-87ee25f3"
+},
+{
+"type": "write",
+"q": "\"Don't touch!\" (pl)",
+"answer": "Μην αγγίζετε!",
+"accept": [
+"Μην πιάνετε!"
+],
+"why": "μην before a vowel or π.",
+"id": "subjunctive-f58a398d"
+},
+{
+"type": "order",
+"q": "\"Try not to forget.\" (sg)",
+"answer": "Προσπάθησε να μην ξεχάσεις.",
+"accept": [],
+"why": "να μην.",
+"id": "subjunctive-2b210f91"
+},
+{
+"type": "order",
+"q": "\"Don't leave yet.\" (sg)",
+"answer": "Μη φύγεις ακόμα.",
+"accept": [],
+"why": "μη before φ.",
+"id": "subjunctive-1990dd1e"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Να και ας μόνα τους",
+"title": "Free-standing να and ας",
+"body": [
+{
+"p": "**Να** can stand alone at the start of a sentence for wishes, offers, suggestions and soft orders."
+},
+{
+"table": {
+"head": [
+"Use",
+"Example",
+"Meaning"
+],
+"rows": [
+[
+"offer, \"shall I?\"",
+"Να σε βοηθήσω;",
+"Shall I help you?"
+],
+[
+"suggestion",
+"Να πάμε σινεμά;",
+"Shall we go to the cinema?"
+],
+[
+"wish",
+"Να περάσετε καλά!",
+"Have a good time!"
+],
+[
+"thanks, blessing",
+"Να είσαι καλά!",
+"Thank you! (lit. may you be well)"
+],
+[
+"soft order",
+"Να προσέχεις!",
+"Take care! / Be careful!"
+],
+[
+"\"let me\"",
+"Να σου πω κάτι;",
+"Can I tell you something?"
+]
+]
+}
+},
+{
+"p": "**Ας** means \"let\": **ας πάμε** \"let's go\", **ας περιμένει** \"let him wait\", **ας το κάνει όπως θέλει** \"let her do it her way\"."
+},
+{
+"ex": [
+{
+"el": "— Να ανοίξω το παράθυρο; — Ναι, άνοιξέ το.",
+"en": "— Shall I open the window? — Yes, open it."
+},
+{
+"el": "Να ζήσετε!",
+"en": "Congratulations! (to newlyweds, lit. may you live)"
+},
+{
+"el": "Ας φάμε κάτι πρώτα.",
+"en": "Let's eat something first."
+},
+{
+"el": "Ας πάει όπου θέλει.",
+"en": "Let him go wherever he wants."
+},
+{
+"el": "Να μου τα πεις όλα!",
+"en": "You must tell me everything!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Shall I make coffee?\"",
+"a": "Να φτιάξω καφέ; | Να κάνω καφέ;",
+"why": "Να + dependent = offer."
+},
+{
+"q": "\"Thanks a lot!\" (to a friend)",
+"a": "Να 'σαι καλά! | Να είσαι καλά!",
+"why": "Lit. \"may you be well\"."
+},
+{
+"q": "\"Let's not argue.\"",
+"a": "Ας μη μαλώνουμε. | Ας μη μαλώσουμε.",
+"why": "ας μη(ν) + subjunctive."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ σε βοηθήσω με τις τσάντες; (Shall I)",
+"options": [
+"Θα",
+"Να",
+"Ας",
+"Μη"
+],
+"answer": "Να",
+"why": "Offer: να.",
+"id": "subjunctive-27af41a7"
+},
+{
+"type": "choice",
+"q": "___ πάμε για φαγητό. (Let's)",
+"options": [
+"Θα να",
+"Ας",
+"Μην",
+"Θα ας"
+],
+"answer": "Ας",
+"why": "ας = let's.",
+"id": "subjunctive-f33b1fe4"
+},
+{
+"type": "choice",
+"q": "Καλό ταξίδι! Να ___ καλά! (have a good time, pl)",
+"options": [
+"περνήξετε",
+"περάσετε",
+"περάσατε",
+"περνήσετε"
+],
+"answer": "περάσετε",
+"why": "Wish: να περάσετε καλά.",
+"id": "subjunctive-d3509b37"
+},
+{
+"type": "choice",
+"q": "Ευχαριστώ πολύ! — Να ___ καλά! (be, sg: thanks)",
+"options": [
+"είσουν",
+"είσαι",
+"είναι",
+"ήσουν"
+],
+"answer": "είσαι",
+"why": "Να είσαι καλά.",
+"id": "subjunctive-84fd5781"
+},
+{
+"type": "choice",
+"q": "Ας ___ όσο θέλει. (let him wait)",
+"options": [
+"περιμένω",
+"περιμένει",
+"περίμενε",
+"περιμένουμε"
+],
+"answer": "περιμένει",
+"why": "ας περιμένει.",
+"id": "subjunctive-7f1aa4da"
+},
+{
+"type": "write",
+"q": "\"Shall we go to the beach?\"",
+"answer": "Να πάμε στη θάλασσα;",
+"accept": [
+"Να πάμε στην παραλία;"
+],
+"why": "Suggestion with να.",
+"id": "subjunctive-bb9911c8"
+},
+{
+"type": "write",
+"q": "\"Let's go!\"",
+"answer": "Ας πάμε!",
+"accept": [
+"Πάμε!"
+],
+"why": "ας πάμε (πάμε alone is the everyday form).",
+"id": "subjunctive-7d82d1cd"
+},
+{
+"type": "write",
+"q": "\"Take care!\" (sg)",
+"answer": "Να προσέχεις!",
+"accept": [],
+"why": "Soft order with να + present.",
+"id": "subjunctive-316f9fbf"
+},
+{
+"type": "write",
+"q": "\"Have a good time!\" (pl)",
+"answer": "Να περάσετε καλά!",
+"accept": [],
+"why": "Wish.",
+"id": "subjunctive-15d4e018"
+},
+{
+"type": "order",
+"q": "\"Shall I tell you a secret?\" (sg)",
+"answer": "Να σου πω ένα μυστικό;",
+"accept": [],
+"why": "Να + dependent.",
+"id": "subjunctive-3d40ce52"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Για να, χωρίς να, αντί να",
+"title": "Purpose and manner: για να, χωρίς να, αντί να",
+"body": [
+{
+"p": "Several conjunctions are built on να. All of them follow the same aspect rules."
+},
+{
+"table": {
+"head": [
+"Conjunction",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"για να",
+"in order to",
+"Ήρθα για να σε δω. \"I came to see you.\""
+],
+[
+"χωρίς να",
+"without (doing)",
+"Έφυγε χωρίς να πει τίποτα. \"He left without saying anything.\""
+],
+[
+"αντί να",
+"instead of",
+"Αντί να διαβάζεις, παίζεις. \"Instead of studying, you're playing.\""
+],
+[
+"πριν (να)",
+"before",
+"Πριν (να) φύγεις, κλείσε το φως. \"Before you leave, turn off the light.\""
+],
+[
+"μέχρι να",
+"until",
+"Περίμενε μέχρι να έρθω. \"Wait until I come.\""
+]
+]
+}
+},
+{
+"p": "Note that English \"-ing\" after \"without / instead of / before\" becomes a full verb with a person: **χωρίς να πει** \"without (him) saying\"."
+},
+{
+"ex": [
+{
+"el": "Πάω στο σούπερ μάρκετ για να πάρω γάλα.",
+"en": "I'm going to the supermarket to get milk."
+},
+{
+"el": "Μπήκε χωρίς να χτυπήσει.",
+"en": "He came in without knocking."
+},
+{
+"el": "Αντί να παραπονιέσαι, βοήθησέ με.",
+"en": "Instead of complaining, help me."
+},
+{
+"el": "Δεν θα φύγω μέχρι να μου απαντήσεις.",
+"en": "I won't leave until you answer me."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I'm saving money to buy a car.\"",
+"a": "Μαζεύω λεφτά για να αγοράσω αυτοκίνητο. | Μαζεύω λεφτά για ν' αγοράσω αυτοκίνητο.",
+"why": "για να + dependent."
+},
+{
+"q": "\"She left without saying goodbye.\"",
+"a": "Έφυγε χωρίς να χαιρετήσει. | Έφυγε χωρίς να πει αντίο.",
+"why": "χωρίς να + verb with a person."
+},
+{
+"q": "\"Instead of shouting, explain to me.\" (sg)",
+"a": "Αντί να φωνάζεις, εξήγησέ μου.",
+"why": "αντί να + present (ongoing)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ήρθα ___ σε δω. (to)",
+"options": [
+"για",
+"για να",
+"να για",
+"χωρίς"
+],
+"answer": "για να",
+"why": "Purpose: για να.",
+"id": "subjunctive-6ea6ae4a"
+},
+{
+"type": "choice",
+"q": "Έφυγε ___ πει τίποτα. (without)",
+"options": [
+"χωρίς",
+"χωρίς να",
+"αντί",
+"για να"
+],
+"answer": "χωρίς να",
+"why": "χωρίς να + verb.",
+"id": "subjunctive-3fc208f3"
+},
+{
+"type": "choice",
+"q": "___ διαβάζεις, βλέπεις τηλεόραση. (Instead of)",
+"options": [
+"Αντί",
+"Αντί να",
+"Για να",
+"Χωρίς"
+],
+"answer": "Αντί να",
+"why": "αντί να.",
+"id": "subjunctive-72a3d3c4"
+},
+{
+"type": "choice",
+"q": "Πήγα στον φούρνο για να ___ ψωμί. (buy)",
+"options": [
+"αγόραζα",
+"αγοράσω",
+"αγόρασα",
+"αγοράζει"
+],
+"answer": "αγοράσω",
+"why": "One action: για να αγοράσω.",
+"id": "subjunctive-94e70717"
+},
+{
+"type": "choice",
+"q": "Μπήκε στο δωμάτιο χωρίς να ___. (knock)",
+"options": [
+"χτύπησε",
+"χτυπήσει",
+"χτυπίσει",
+"χτυπήσω"
+],
+"answer": "χτυπήσει",
+"why": "χωρίς να χτυπήσει.",
+"id": "subjunctive-e6af4ca8"
+},
+{
+"type": "write",
+"q": "\"I came to help.\"",
+"answer": "Ήρθα για να βοηθήσω.",
+"accept": [
+"Ήρθα να βοηθήσω."
+],
+"why": "για να + dependent.",
+"id": "subjunctive-59ad350d"
+},
+{
+"type": "write",
+"q": "\"He left without paying.\"",
+"answer": "Έφυγε χωρίς να πληρώσει.",
+"accept": [],
+"why": "χωρίς να + person.",
+"id": "subjunctive-b7deab94"
+},
+{
+"type": "write",
+"q": "\"Wait (sg) until I finish.\"",
+"answer": "Περίμενε μέχρι να τελειώσω.",
+"accept": [],
+"why": "μέχρι να + dependent.",
+"id": "subjunctive-48b00364"
+},
+{
+"type": "order",
+"q": "\"I'm learning Greek to live in Greece.\"",
+"answer": "Μαθαίνω ελληνικά για να ζήσω στην Ελλάδα.",
+"accept": [],
+"why": "για να.",
+"id": "subjunctive-ab90c8ac"
+}
+]
+}
+]
+}
+],
+"id": "subjunctive",
+"el": "Η υποτακτική: να, ας, μη(ν)",
+"title": "The subjunctive: να, ας and μη(ν)",
+"span": "A2–B1",
+"blurb": "Greek has no infinitive: \"I want to go\" is θέλω να πάω. How να works with both aspects, which verbs take να + present, negating with μη(ν), the free-standing να of wishes and offers, ας \"let's\", and για να / χωρίς να / αντί να.",
+"intro": [
+{
+"p": "Modern Greek lost its infinitive. Where English says \"to go\", Greek says **να πάω** \"that I go\", with a full personal ending: **θέλω να πάω** \"I want to go\", **θέλω να πας** \"I want you to go\". This **να** form (the subjunctive) is one of the most used structures in the language."
+},
+{
+"links": [
+{
+"href": "#a2-na",
+"kind": "Lesson",
+"el": "Το να και η υποτακτική",
+"title": "να + verb: wanting, being able, having to"
+},
+{
+"href": "#b1-subjunctive",
+"kind": "Lesson",
+"el": "Υποτακτική: διαρκής και στιγμιαία",
+"title": "Continuous vs simple subjunctive: duration and timeframe"
+},
+{
+"href": "#verbs-na-clauses",
+"kind": "Lesson",
+"el": "Προτάσεις με να",
+"title": "να-clauses in depth"
+},
+{
+"href": "#syntax.subjunctive",
+"kind": "Syntax",
+"el": "Η υποτακτική και οι αλυσίδες με το να",
+"title": "The subjunctive and να-chains"
+},
+{
+"href": "#cards.na-chains",
+"kind": "Card",
+"el": "Αλυσίδες με το να",
+"title": "να-chains and the subjunctive"
+},
+{
+"href": "#cards.mood",
+"kind": "Card",
+"el": "Ότι, να, που, αν",
+"title": "Which \"that\"?"
+}
+]
+}
+],
+"num": 22
+}

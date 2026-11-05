@@ -1,0 +1,1240 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Η απλή προστακτική",
+"title": "The simple imperative: γράψε, γράψτε",
+"body": [
+{
+"p": "The usual imperative uses the **aorist stem** (without augment)."
+},
+{
+"table": {
+"head": [
+"εσύ: aorist stem + -ε",
+"εσείς: aorist stem + -τε"
+],
+"rows": [
+[
+"γράψε",
+"γράψτε"
+],
+[
+"διάβασε",
+"διαβάστε"
+],
+[
+"πλήρωσε",
+"πληρώστε"
+],
+[
+"κλείσε",
+"κλείστε"
+],
+[
+"άνοιξε",
+"ανοίξτε"
+],
+[
+"τηλεφώνησε",
+"τηλεφωνήστε"
+],
+[
+"περίμενε",
+"περιμένετε"
+]
+]
+}
+},
+{
+"p": "**Stress**: the singular is stressed on the **third-last** syllable when it has three or more: **διά-βα-σε, τη-λε-φώ-νη-σε, ά-νοι-ξε**. The plural keeps the stress of the dependent stem: **διαβάστε, ανοίξτε, τηλεφωνήστε**."
+},
+{
+"ex": [
+{
+"el": "Κλείσε την πόρτα, κάνει κρύο.",
+"en": "Close the door, it's cold."
+},
+{
+"el": "Γράψτε το όνομά σας εδώ.",
+"en": "Write your name here."
+},
+{
+"el": "Τηλεφώνησε στη μαμά σου!",
+"en": "Call your mum!"
+},
+{
+"el": "Περιμένετε λίγο, παρακαλώ.",
+"en": "Wait a moment, please."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Imperative of **αγοράζω**, singular and plural",
+"a": "αγόρασε / αγοράστε",
+"why": "Aorist stem αγορασ-; stress on the third-last in the singular."
+},
+{
+"q": "Imperative of **ανοίγω**, singular and plural",
+"a": "άνοιξε / ανοίξτε",
+"why": "Aorist stem ανοιξ-."
+},
+{
+"q": "\"Pay at the till.\" (pl)",
+"a": "Πληρώστε στο ταμείο.",
+"why": "πληρώνω → πληρώστε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ το παράθυρο, ζεσταθήκαμε. (Open, sg)",
+"options": [
+"Ανοίξε",
+"Άνοιξε",
+"Ανοίγσε",
+"Ανοίξτε"
+],
+"answer": "Άνοιξε",
+"why": "Singular: stress on the third-last, ά-νοι-ξε.",
+"id": "imperative-03cbaa3c"
+},
+{
+"type": "choice",
+"q": "___ εδώ, παρακαλώ. (Sign: υπογράφω, pl)",
+"options": [
+"Υπογράψατε",
+"Υπογράψτε",
+"Υπόγραψτε",
+"Υπογράφστε"
+],
+"answer": "Υπογράψτε",
+"why": "Plural: -ψτε.",
+"id": "imperative-870da8d8"
+},
+{
+"type": "choice",
+"q": "___ τον λογαριασμό, σε παρακαλώ. (Pay, sg)",
+"options": [
+"Πληρώσε",
+"Πλήρωσε",
+"Πληρώνσε",
+"Πληρώστε"
+],
+"answer": "Πλήρωσε",
+"why": "Singular: πλήρωσε.",
+"id": "imperative-fc898835"
+},
+{
+"type": "choice",
+"q": "___ λίγο, έρχομαι! (Wait, sg)",
+"options": [
+"Περιμέν",
+"Περίμενε",
+"Περιμένσε",
+"Περιμέψε"
+],
+"answer": "Περίμενε",
+"why": "περιμένω → περίμενε.",
+"id": "imperative-02531627"
+},
+{
+"type": "choice",
+"q": "___ στον γιατρό αύριο. (Call, pl)",
+"options": [
+"Τηλεφώνησε",
+"Τηλεφωνήστε",
+"Τηλεφωνάτε",
+"Τηλεφωνήσατε"
+],
+"answer": "Τηλεφωνήστε",
+"why": "Plural: τηλεφωνήστε.",
+"id": "imperative-f870bfc9"
+},
+{
+"type": "write",
+"q": "Imperative \"close!\" (sg)",
+"answer": "κλείσε",
+"accept": [],
+"why": "κλείνω.",
+"id": "imperative-f37813dd"
+},
+{
+"type": "write",
+"q": "Imperative \"close!\" (pl)",
+"answer": "κλείστε",
+"accept": [],
+"why": "κλείνω.",
+"id": "imperative-f378ff86"
+},
+{
+"type": "write",
+"q": "Imperative \"read!\" (sg)",
+"answer": "διάβασε",
+"accept": [],
+"why": "διαβάζω.",
+"id": "imperative-8112802a"
+},
+{
+"type": "write",
+"q": "Imperative \"buy!\" (pl)",
+"answer": "αγοράστε",
+"accept": [],
+"why": "αγοράζω.",
+"id": "imperative-6cd1e060"
+},
+{
+"type": "write",
+"q": "Imperative \"write!\" (sg)",
+"answer": "γράψε",
+"accept": [],
+"why": "γράφω.",
+"id": "imperative-7685dca0"
+},
+{
+"type": "order",
+"q": "\"Close the window, please.\" (pl)",
+"answer": "Κλείστε το παράθυρο, παρακαλώ.",
+"accept": [],
+"why": "κλείνω → κλείστε.",
+"id": "imperative-3ead2688"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ανώμαλες προστακτικές",
+"title": "Irregular imperatives",
+"body": [
+{
+"p": "The verbs with irregular aorists have short, very frequent imperatives. Learn them as words."
+},
+{
+"table": {
+"head": [
+"Verb",
+"εσύ",
+"εσείς",
+"Meaning"
+],
+"rows": [
+[
+"λέω",
+"πες",
+"πείτε",
+"say, tell"
+],
+[
+"βλέπω",
+"δες",
+"δείτε",
+"look, see"
+],
+[
+"έρχομαι",
+"έλα",
+"ελάτε",
+"come"
+],
+[
+"πηγαίνω",
+"πήγαινε",
+"πηγαίνετε",
+"go"
+],
+[
+"τρώω",
+"φάε",
+"φάτε",
+"eat"
+],
+[
+"πίνω",
+"πιες",
+"πιείτε",
+"drink"
+],
+[
+"παίρνω",
+"πάρε",
+"πάρτε",
+"take"
+],
+[
+"βγαίνω",
+"βγες",
+"βγείτε",
+"go out"
+],
+[
+"μπαίνω",
+"μπες",
+"μπείτε",
+"go in"
+],
+[
+"βρίσκω",
+"βρες",
+"βρείτε",
+"find"
+],
+[
+"ανεβαίνω",
+"ανέβα",
+"ανεβείτε",
+"go up"
+],
+[
+"κατεβαίνω",
+"κατέβα",
+"κατεβείτε",
+"go down"
+],
+[
+"κάθομαι",
+"κάτσε",
+"καθίστε",
+"sit"
+],
+[
+"σηκώνομαι",
+"σήκω",
+"σηκωθείτε",
+"get up"
+],
+[
+"φέρνω",
+"φέρε",
+"φέρτε",
+"bring"
+],
+[
+"αφήνω",
+"άφησε / άσε",
+"αφήστε / άστε",
+"leave, let"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Έλα εδώ!",
+"en": "Come here!"
+},
+{
+"el": "Πες μου την αλήθεια.",
+"en": "Tell me the truth."
+},
+{
+"el": "Φάε, θα κρυώσει!",
+"en": "Eat, it'll get cold!"
+},
+{
+"el": "Καθίστε, παρακαλώ.",
+"en": "Please sit down."
+},
+{
+"el": "Σήκω, άργησες!",
+"en": "Get up, you're late!"
+},
+{
+"el": "Άσε με ήσυχο!",
+"en": "Leave me alone!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Come (pl) with us!\"",
+"a": "Ελάτε μαζί μας!",
+"why": "έρχομαι → ελάτε."
+},
+{
+"q": "\"Take (sg) an umbrella.\"",
+"a": "Πάρε ομπρέλα. | Πάρε μια ομπρέλα.",
+"why": "παίρνω → πάρε."
+},
+{
+"q": "\"Look (pl) at this!\"",
+"a": "Δείτε αυτό! | Κοιτάξτε αυτό!",
+"why": "βλέπω → δείτε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ εδώ, θέλω να σου δείξω κάτι. (Come, sg)",
+"options": [
+"Έρχου",
+"Έλα",
+"Έρθε",
+"Ελάτε"
+],
+"answer": "Έλα",
+"why": "έρχομαι → έλα.",
+"id": "imperative-fff8a4f1"
+},
+{
+"type": "choice",
+"q": "___ μου τι έγινε! (Tell, sg)",
+"options": [
+"Λέξε",
+"Πες",
+"Είπε",
+"Πείτε"
+],
+"answer": "Πες",
+"why": "λέω → πες.",
+"id": "imperative-02cb0b94"
+},
+{
+"type": "choice",
+"q": "___ κάτι, είσαι χλωμός. (Eat, sg)",
+"options": [
+"Τρώσε",
+"Φάε",
+"Φάγε",
+"Φάτε"
+],
+"answer": "Φάε",
+"why": "τρώω → φάε.",
+"id": "imperative-a1898c35"
+},
+{
+"type": "choice",
+"q": "___, παρακαλώ. (Sit, pl)",
+"options": [
+"Κάτσετε",
+"Καθίστε",
+"Καθήστε",
+"Κάθστε"
+],
+"answer": "Καθίστε",
+"why": "κάθομαι → καθίστε.",
+"id": "imperative-e2e2c8d7"
+},
+{
+"type": "choice",
+"q": "___ ένα ποτήρι νερό. (Drink, sg)",
+"options": [
+"Πίνσε",
+"Πιες",
+"Πιε",
+"Πιείτε"
+],
+"answer": "Πιες",
+"why": "πίνω → πιες.",
+"id": "imperative-23c5ab15"
+},
+{
+"type": "choice",
+"q": "___ μου το αλάτι, σε παρακαλώ. (Bring: pass, sg)",
+"options": [
+"Φέρνσε",
+"Φέρε",
+"Φέρτε",
+"Φέρεσε"
+],
+"answer": "Φέρε",
+"why": "φέρνω → φέρε.",
+"id": "imperative-897e73fd"
+},
+{
+"type": "choice",
+"q": "___, θα χάσεις το λεωφορείο! (Get up, sg)",
+"options": [
+"Σηκώνου",
+"Σήκω",
+"Σηκώνε",
+"Σηκωθείτε"
+],
+"answer": "Σήκω",
+"why": "σηκώνομαι → σήκω (also σηκώσου).",
+"id": "imperative-7c768c81"
+},
+{
+"type": "write",
+"q": "Imperative \"come!\" (pl)",
+"answer": "ελάτε",
+"accept": [],
+"why": "έρχομαι.",
+"id": "imperative-72a1ea84"
+},
+{
+"type": "write",
+"q": "Imperative \"tell!\" (pl)",
+"answer": "πείτε",
+"accept": [],
+"why": "λέω.",
+"id": "imperative-9582d1b5"
+},
+{
+"type": "write",
+"q": "Imperative \"take!\" (sg)",
+"answer": "πάρε",
+"accept": [],
+"why": "παίρνω.",
+"id": "imperative-eb253d90"
+},
+{
+"type": "write",
+"q": "Imperative \"sit down!\" (sg)",
+"answer": "κάτσε",
+"accept": [],
+"why": "κάθομαι.",
+"id": "imperative-dd71b85a"
+},
+{
+"type": "write",
+"q": "Imperative \"go up!\" (sg)",
+"answer": "ανέβα",
+"accept": [],
+"why": "ανεβαίνω.",
+"id": "imperative-0a95e57d"
+},
+{
+"type": "write",
+"q": "Imperative \"bring!\" (pl)",
+"answer": "φέρτε",
+"accept": [],
+"why": "φέρνω.",
+"id": "imperative-56579ccd"
+},
+{
+"type": "write",
+"q": "\"Leave me alone!\" (sg)",
+"answer": "Άσε με ήσυχο!",
+"accept": [
+"Άσε με ήσυχη!",
+"Άφησέ με ήσυχο!",
+"Άφησέ με ήσυχη!"
+],
+"why": "αφήνω → άσε / άφησε.",
+"id": "imperative-1751e2d9"
+},
+{
+"type": "order",
+"q": "\"Come in, please.\" (pl)",
+"answer": "Μπείτε, παρακαλώ.",
+"accept": [],
+"why": "μπαίνω → μπείτε.",
+"id": "imperative-a5313e43"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Η εξακολουθητική προστακτική",
+"title": "The continuous imperative: γράφε, μίλα",
+"body": [
+{
+"p": "The **continuous** imperative uses the **present stem**. It is for ongoing, repeated or general instructions: \"keep doing\", \"always do\", \"go on, do it\"."
+},
+{
+"table": {
+"head": [
+"Present",
+"Continuous: εσύ",
+"εσείς"
+],
+"rows": [
+[
+"γράφω",
+"γράφε",
+"γράφετε"
+],
+[
+"διαβάζω",
+"διάβαζε",
+"διαβάζετε"
+],
+[
+"τρέχω",
+"τρέχε",
+"τρέχετε"
+],
+[
+"μιλάω",
+"μίλα",
+"μιλάτε"
+],
+[
+"ρωτάω",
+"ρώτα",
+"ρωτάτε"
+],
+[
+"περπατάω",
+"περπάτα",
+"περπατάτε"
+],
+[
+"κοιτάζω / κοιτάω",
+"κοίτα",
+"κοιτάτε"
+]
+]
+}
+},
+{
+"p": "Verbs in **-ώ** of the μπορώ / οδηγώ type have no singular continuous imperative; use **να + present** instead: **Να οδηγείς προσεκτικά!** \"Drive carefully!\""
+},
+{
+"table": {
+"head": [
+"Simple: one action",
+"Continuous: ongoing or general"
+],
+"rows": [
+[
+"Διάβασε αυτό το άρθρο. \"Read this article.\"",
+"Διάβαζε κάθε μέρα. \"Read every day.\""
+],
+[
+"Γράψε μου όταν φτάσεις. \"Write to me when you arrive.\"",
+"Γράφε μου! \"Keep writing to me!\""
+],
+[
+"Μίλησε στον διευθυντή. \"Speak to the manager.\"",
+"Μίλα πιο σιγά! \"Speak more quietly!\""
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Κοίτα! Χιονίζει!",
+"en": "Look! It's snowing!"
+},
+{
+"el": "Τρέχα, θα χάσουμε το τρένο!",
+"en": "Run, we'll miss the train!"
+},
+{
+"el": "Μιλάτε πιο αργά, παρακαλώ.",
+"en": "Please speak more slowly."
+},
+{
+"el": "Πήγαινε, σε περιμένουν.",
+"en": "Go, they're waiting for you."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Keep studying!\" (sg)",
+"a": "Διάβαζε!",
+"why": "Continuous: present stem."
+},
+{
+"q": "\"Speak (pl) Greek, not English.\"",
+"a": "Μιλάτε ελληνικά, όχι αγγλικά.",
+"why": "μιλάω → μιλάτε (general instruction)."
+},
+{
+"q": "\"Drive (sg) carefully.\"",
+"a": "Να οδηγείς προσεκτικά.",
+"why": "-ώ verbs prefer να + present."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ πιο σιγά, κοιμάται το μωρό. (Speak, sg)",
+"options": [
+"Μιλάσε",
+"Μίλα",
+"Μιλά",
+"Μιλάτε"
+],
+"answer": "Μίλα",
+"why": "Ongoing: μίλα.",
+"id": "imperative-bdde7614"
+},
+{
+"type": "choice",
+"q": "___! Ένα αστέρι πέφτει! (Look, sg)",
+"options": [
+"Κοιτάς",
+"Κοίτα",
+"Κοίταξες",
+"Κοιτάτε"
+],
+"answer": "Κοίτα",
+"why": "κοιτάω → κοίτα.",
+"id": "imperative-ad861215"
+},
+{
+"type": "choice",
+"q": "___ κάθε μέρα για να μάθεις. (Read, sg)",
+"options": [
+"Διάβαστε",
+"Διάβαζε",
+"Διαβάσε",
+"Διάβασες"
+],
+"answer": "Διάβαζε",
+"why": "General advice: continuous.",
+"id": "imperative-ba4dfe92"
+},
+{
+"type": "choice",
+"q": "___, θα χάσουμε το τρένο! (Run, sg)",
+"options": [
+"Τρέξτε",
+"Τρέχα",
+"Τρέξες",
+"Τρέχετε"
+],
+"answer": "Τρέχα",
+"why": "Colloquial continuous: τρέχα (also τρέχε).",
+"id": "imperative-dde106ba"
+},
+{
+"type": "choice",
+"q": "Να ___ προσεκτικά! (drive, sg)",
+"options": [
+"οδήγα",
+"οδηγείς",
+"οδήγησες",
+"οδηγήσατε"
+],
+"answer": "οδηγείς",
+"why": "να + present for -ώ verbs.",
+"id": "imperative-610d7ebb"
+},
+{
+"type": "write",
+"q": "\"Speak (pl) slowly.\"",
+"answer": "Μιλάτε αργά.",
+"accept": [
+"Μιλάτε σιγά."
+],
+"why": "μιλάω → μιλάτε.",
+"id": "imperative-8dbf42f8"
+},
+{
+"type": "write",
+"q": "\"Look!\" (sg)",
+"answer": "Κοίτα!",
+"accept": [],
+"why": "κοιτάω → κοίτα.",
+"id": "imperative-c1a1d732"
+},
+{
+"type": "write",
+"q": "\"Keep writing to me!\" (sg)",
+"answer": "Γράφε μου!",
+"accept": [],
+"why": "Continuous.",
+"id": "imperative-e49d0c18"
+},
+{
+"type": "write",
+"q": "\"Ask (sg) whenever you want.\"",
+"answer": "Ρώτα όποτε θέλεις.",
+"accept": [],
+"why": "ρωτάω → ρώτα.",
+"id": "imperative-a9e4dd18"
+},
+{
+"type": "order",
+"q": "\"Go, they're waiting for you.\" (sg)",
+"answer": "Πήγαινε, σε περιμένουν.",
+"accept": [],
+"why": "πηγαίνω → πήγαινε.",
+"id": "imperative-6593af90"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Προστακτική με αντωνυμίες",
+"title": "Imperative + pronouns: δώσε μου, πες το",
+"body": [
+{
+"p": "Weak pronouns go **after** the imperative (but before a subjunctive: **να μου πεις**, **μη μου πεις**)."
+},
+{
+"list": [
+"**Stress**: if the imperative is stressed on the third-last syllable, the pronoun adds a second stress: **διάβασέ το, άνοιξέ το, τηλεφώνησέ μου**.",
+"**Elision** in speech: **δώσ' μου, φέρ' το, πάρ' το, άσ' το**. Spelling without the apostrophe is also fine: **δώσε μου, φέρε το**.",
+"**Order**: indirect before direct, as elsewhere: **Δώσ' μου το.** \"Give it to me.\" **Πες μου το.** \"Tell me it.\""
+]
+},
+{
+"table": {
+"head": [
+"Plain",
+"+ pronoun"
+],
+"rows": [
+[
+"δώσε",
+"δώσε μου / δώσ' μου"
+],
+[
+"φέρε",
+"φέρε το / φέρ' το"
+],
+[
+"άνοιξε",
+"άνοιξέ το"
+],
+[
+"τηλεφώνησε",
+"τηλεφώνησέ του"
+],
+[
+"πείτε",
+"πείτε μου"
+],
+[
+"στείλτε",
+"στείλτε το"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Δώσ' μου το κινητό σου.",
+"en": "Give me your phone."
+},
+{
+"el": "Πες μου, τι έγινε;",
+"en": "Tell me, what happened?"
+},
+{
+"el": "Άνοιξέ το!",
+"en": "Open it!"
+},
+{
+"el": "Στείλ' το μου με μέιλ.",
+"en": "Send it to me by email."
+},
+{
+"el": "Αφήστε το, θα το κάνω εγώ.",
+"en": "Leave it, I'll do it."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Bring (sg) it here.\"",
+"a": "Φέρ' το εδώ. | Φέρε το εδώ.",
+"why": "Pronoun after the imperative."
+},
+{
+"q": "\"Read (sg) it to me.\"",
+"a": "Διάβασέ μου το. | Διάβασέ το μου.",
+"why": "Third-last stress: extra accent on διάβασέ."
+},
+{
+"q": "\"Tell (pl) him.\"",
+"a": "Πείτε του. | Πείτε του το.",
+"why": "Pronoun after."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ το αλάτι, σε παρακαλώ. (Give me, sg)",
+"options": [
+"Μου δώσε",
+"Δώσε μου",
+"Δώσε με",
+"Δώσμου"
+],
+"answer": "Δώσε μου",
+"why": "Pronoun after the imperative: δώσε μου.",
+"id": "imperative-a98bdcc0"
+},
+{
+"type": "choice",
+"q": "Πάρε ___ τηλέφωνο αύριο. (me)",
+"options": [
+"μου",
+"με",
+"εμένα μου",
+"μένα"
+],
+"answer": "με",
+"why": "παίρνω κάποιον τηλέφωνο: με.",
+"id": "imperative-cd3f8ba5"
+},
+{
+"type": "choice",
+"q": "___! (Open it, sg)",
+"options": [
+"Άνοιξε το",
+"Άνοιξέ το",
+"Το άνοιξε",
+"Ανοιξέ το"
+],
+"answer": "Άνοιξέ το",
+"why": "Extra stress: άνοιξέ το.",
+"id": "imperative-d04e55dc"
+},
+{
+"type": "choice",
+"q": "Μη ___ πεις! (it to him)",
+"options": [
+"του το μου",
+"του το",
+"το του",
+"το λες"
+],
+"answer": "του το",
+"why": "Before a subjunctive: pronouns in front, indirect first.",
+"id": "imperative-e4c4c445"
+},
+{
+"type": "choice",
+"q": "___ αμέσως! (Call him, sg)",
+"options": [
+"Του τηλεφώνησε",
+"Τηλεφώνησέ του",
+"Τηλεφώνησε τον",
+"Τηλεφωνήστου"
+],
+"answer": "Τηλεφώνησέ του",
+"why": "Pronoun after, extra stress.",
+"id": "imperative-2f9d00af"
+},
+{
+"type": "write",
+"q": "\"Give (sg) it to me.\"",
+"answer": "Δώσ' μου το.",
+"accept": [
+"Δώσε μου το."
+],
+"why": "Indirect before direct.",
+"id": "imperative-c1ed5584"
+},
+{
+"type": "write",
+"q": "\"Tell (sg) me!\"",
+"answer": "Πες μου!",
+"accept": [],
+"why": "Pronoun after.",
+"id": "imperative-fce800fe"
+},
+{
+"type": "write",
+"q": "\"Open (sg) it.\" (the window, το παράθυρο)",
+"answer": "Άνοιξέ το.",
+"accept": [],
+"why": "Extra stress.",
+"id": "imperative-5b421ae5"
+},
+{
+"type": "write",
+"q": "\"Leave (pl) it.\"",
+"answer": "Αφήστε το.",
+"accept": [
+"Άστε το."
+],
+"why": "αφήνω → αφήστε.",
+"id": "imperative-4271dbca"
+},
+{
+"type": "write",
+"q": "\"Send (sg) it to me.\"",
+"answer": "Στείλ' το μου.",
+"accept": [
+"Στείλε μου το.",
+"Στείλε το μου."
+],
+"why": "Pronouns after.",
+"id": "imperative-814a937d"
+},
+{
+"type": "order",
+"q": "\"Call (sg) me tomorrow.\"",
+"answer": "Πάρε με τηλέφωνο αύριο.",
+"accept": [
+"Πάρε με αύριο τηλέφωνο."
+],
+"why": "με after πάρε.",
+"id": "imperative-5d4da02b"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ευγένεια και μόρια",
+"title": "Softening and colloquial particles",
+"body": [
+{
+"p": "A bare imperative can sound abrupt to a stranger. Greek softens it in several ways:"
+},
+{
+"table": {
+"head": [
+"Way",
+"Example",
+"Meaning"
+],
+"rows": [
+[
+"plural of politeness",
+"Περάστε!",
+"Come in! (to one person, formal)"
+],
+[
+"σε παρακαλώ / παρακαλώ",
+"Κλείσε την πόρτα, σε παρακαλώ.",
+"Close the door, please."
+],
+[
+"μπορείτε να...;",
+"Μπορείτε να μου πείτε...;",
+"Could you tell me...?"
+],
+[
+"θα μπορούσατε να...;",
+"Θα μπορούσατε να περιμένετε;",
+"Could you possibly wait?"
+],
+[
+"να + present",
+"Να μου γράφεις!",
+"Do write to me!"
+]
+]
+}
+},
+{
+"p": "In familiar speech, short particles colour the imperative:"
+},
+{
+"table": {
+"head": [
+"Particle",
+"Example",
+"Feel"
+],
+"rows": [
+[
+"για",
+"Για έλα εδώ!",
+"\"Come here a sec!\" (mild urgency)"
+],
+[
+"άντε",
+"Άντε, φύγε!",
+"\"Come on, go!\" (impatience or encouragement)"
+],
+[
+"έλα",
+"Έλα, πες μου!",
+"\"Go on, tell me!\""
+],
+[
+"άσε",
+"Άσε, μην το συζητάς!",
+"\"Don't even get me started!\""
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Άντε, καλή επιτυχία!",
+"en": "Go on, good luck!"
+},
+{
+"el": "Για πες, τι κάνεις;",
+"en": "So, tell me, how are you?"
+},
+{
+"el": "Έλα, μη στενοχωριέσαι.",
+"en": "Come on, don't be sad."
+},
+{
+"el": "Ορίστε, πάρτε το.",
+"en": "Here you are, take it."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Ask a stranger politely to repeat.",
+"a": "Μπορείτε να το επαναλάβετε, παρακαλώ; | Μπορείτε να το ξαναπείτε, παρακαλώ;",
+"why": "μπορείτε να + dependent."
+},
+{
+"q": "\"Come on, hurry up!\" (sg, familiar)",
+"a": "Άντε, βιάσου! | Άντε, κάνε γρήγορα!",
+"why": "άντε + imperative."
+},
+{
+"q": "\"So tell me, what's new?\" (sg)",
+"a": "Για πες, τι νέα; | Για πες, τι νέα έχεις;",
+"why": "για πες = \"so, tell me\"."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___, βιάσου, αργήσαμε! (Come on)",
+"options": [
+"Ορίστε",
+"Άντε",
+"Παρακαλώ",
+"Ευχαριστώ"
+],
+"answer": "Άντε",
+"why": "άντε = come on.",
+"id": "imperative-e8f97775"
+},
+{
+"type": "choice",
+"q": "___ μου πείτε πού είναι ο σταθμός; (Could you)",
+"options": [
+"Μπορείς να",
+"Μπορείτε να",
+"Πρέπει να",
+"Θα να"
+],
+"answer": "Μπορείτε να",
+"why": "Polite plural: μπορείτε να.",
+"id": "imperative-b2ba6dec"
+},
+{
+"type": "choice",
+"q": "___ πες, πώς ήταν το ταξίδι; (So)",
+"options": [
+"Να",
+"Για",
+"Ας",
+"Θα"
+],
+"answer": "Για",
+"why": "για πες = so, tell me.",
+"id": "imperative-ccd86ada"
+},
+{
+"type": "choice",
+"q": "___, πάρτε τα ρέστα σας. (Here you are)",
+"options": [
+"Άντε",
+"Ορίστε",
+"Έλα",
+"Άσε"
+],
+"answer": "Ορίστε",
+"why": "ορίστε = here you are.",
+"id": "imperative-2888f392"
+},
+{
+"type": "write",
+"q": "\"Could you (pl) help me?\"",
+"answer": "Μπορείτε να με βοηθήσετε;",
+"accept": [
+"Θα μπορούσατε να με βοηθήσετε;"
+],
+"why": "Polite.",
+"id": "imperative-7fca432e"
+},
+{
+"type": "write",
+"q": "\"Come in!\" (formal)",
+"answer": "Περάστε!",
+"accept": [],
+"why": "Plural of politeness.",
+"id": "imperative-3146ae6a"
+},
+{
+"type": "write",
+"q": "\"Come on, tell me!\" (sg)",
+"answer": "Έλα, πες μου!",
+"accept": [
+"Άντε, πες μου!"
+],
+"why": "έλα / άντε.",
+"id": "imperative-1fab1c48"
+},
+{
+"type": "order",
+"q": "\"Here you are, take it.\" (pl)",
+"answer": "Ορίστε, πάρτε το.",
+"accept": [],
+"why": "ορίστε + πάρτε.",
+"id": "imperative-e3908bb4"
+}
+]
+}
+]
+}
+],
+"id": "imperative",
+"el": "Η προστακτική",
+"title": "The imperative",
+"span": "A2–B1",
+"blurb": "Giving orders, instructions and invitations: γράψε / γράψτε, the continuous γράφε, the irregular ones (πες, έλα, φάε, πάρε, κάτσε), pronouns after the verb (δώσ' μου, πες το), and how to soften it all.",
+"intro": [
+{
+"p": "The imperative is everywhere in daily Greek: **Έλα!** \"Come on!\", **Πες μου!** \"Tell me!\", **Περάστε!** \"Come in!\". It has only two persons, **εσύ** and **εσείς**, and two aspects, like the other forms: one action (**κλείσε την πόρτα** \"close the door\") or a continuous or repeated one (**κλείνε την πόρτα** \"keep the door closed / always close the door\")."
+},
+{
+"links": [
+{
+"href": "#a2-imperative",
+"kind": "Lesson",
+"el": "Προστακτική",
+"title": "Commands and prohibitions"
+},
+{
+"href": "#b1-imperative",
+"kind": "Lesson",
+"el": "Προστακτική και κλιτικά",
+"title": "Continuous and simple imperatives, irregular ones, πες μου, δώσ' το μου"
+},
+{
+"href": "#verbs-aspect-imperative",
+"kind": "Lesson",
+"el": "Προστακτική: διαρκής και στιγμιαία",
+"title": "Imperative aspect: γράφε or γράψε?"
+},
+{
+"href": "#cards.imperative",
+"kind": "Card",
+"el": "Προστακτική",
+"title": "The imperative"
+}
+]
+}
+],
+"num": 23
+}
