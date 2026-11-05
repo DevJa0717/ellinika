@@ -1,0 +1,1162 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Σχηματισμός: έγραφα",
+"title": "Form: verbs in -ω",
+"body": [
+{
+"p": "The imperfect uses the **present stem** (not the aorist stem) with the same past endings as the aorist, and the same augment rule: stress on the third-last syllable, so **έ-** is added only to short forms."
+},
+{
+"table": {
+"head": [
+"",
+"γράφω",
+"διαβάζω",
+"δουλεύω"
+],
+"rows": [
+[
+"εγώ",
+"έγραφα",
+"διάβαζα",
+"δούλευα"
+],
+[
+"εσύ",
+"έγραφες",
+"διάβαζες",
+"δούλευες"
+],
+[
+"αυτός",
+"έγραφε",
+"διάβαζε",
+"δούλευε"
+],
+[
+"εμείς",
+"γράφαμε",
+"διαβάζαμε",
+"δουλεύαμε"
+],
+[
+"εσείς",
+"γράφατε",
+"διαβάζατε",
+"δουλεύατε"
+],
+[
+"αυτοί",
+"έγραφαν / γράφανε",
+"διάβαζαν / διαβάζανε",
+"δούλευαν / δουλεύανε"
+]
+]
+}
+},
+{
+"p": "Compare the two pasts side by side: the only difference is the stem."
+},
+{
+"table": {
+"head": [
+"Present",
+"Imperfect",
+"Aorist"
+],
+"rows": [
+[
+"γράφω",
+"έγραφα",
+"έγραψα"
+],
+[
+"διαβάζω",
+"διάβαζα",
+"διάβασα"
+],
+[
+"πίνω",
+"έπινα",
+"ήπια"
+],
+[
+"μένω",
+"έμενα",
+"έμεινα"
+],
+[
+"τρέχω",
+"έτρεχα",
+"έτρεξα"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Έγραφα ένα μήνυμα.",
+"en": "I was writing a message."
+},
+{
+"el": "Διάβαζε όλο το βράδυ.",
+"en": "She was studying all evening."
+},
+{
+"el": "Μέναμε στη Θεσσαλονίκη τότε.",
+"en": "We were living in Thessaloniki then."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Imperfect of **πίνω**, all persons",
+"a": "έπινα, έπινες, έπινε, πίναμε, πίνατε, έπιναν | έπινα, έπινες, έπινε, πίναμε, πίνατε, πίνανε",
+"why": "Present stem πιν- + past endings."
+},
+{
+"q": "\"We were working.\"",
+"a": "Δουλεύαμε.",
+"why": "δουλεύω, no augment in εμείς."
+},
+{
+"q": "Imperfect vs aorist of **τρέχω**, \"I\"",
+"a": "έτρεχα / έτρεξα",
+"why": "Present stem τρεχ- vs aorist stem τρεξ-."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τότε ___ στην Αθήνα. (we were living: μένω)",
+"options": [
+"έμειναμε",
+"μέναμε",
+"εμέναμε",
+"μείναμε"
+],
+"answer": "μέναμε",
+"why": "Imperfect: present stem μεν-.",
+"id": "imperfect-158247be"
+},
+{
+"type": "choice",
+"q": "Τι ___; (were you writing, sg)",
+"options": [
+"έγραψες",
+"έγραφες",
+"γράφες",
+"εγράφες"
+],
+"answer": "έγραφες",
+"why": "Present stem γραφ- + augment.",
+"id": "imperfect-2a0529e5"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ στο πάρκο. (were running)",
+"options": [
+"έτρεξαν",
+"έτρεχαν",
+"τρέχαν",
+"ετρέχαν"
+],
+"answer": "έτρεχαν",
+"why": "έτρεχαν (or τρέχανε).",
+"id": "imperfect-8a0e29f4"
+},
+{
+"type": "choice",
+"q": "Εσείς ___ πολύ τότε. (were drinking)",
+"options": [
+"ήπιατε",
+"πίνατε",
+"επίνατε",
+"πίνετε"
+],
+"answer": "πίνατε",
+"why": "Imperfect: πίνατε.",
+"id": "imperfect-eaef694a"
+},
+{
+"type": "choice",
+"q": "Η Μαρία ___ ένα βιβλίο. (was reading)",
+"options": [
+"διάβασε",
+"διάβαζε",
+"διαβάζε",
+"διάβαζες"
+],
+"answer": "διάβαζε",
+"why": "διάβαζε.",
+"id": "imperfect-cbc5c21c"
+},
+{
+"type": "write",
+"q": "Imperfect \"I was writing\"",
+"answer": "έγραφα",
+"accept": [],
+"why": "γράφω.",
+"id": "imperfect-78c966ee"
+},
+{
+"type": "write",
+"q": "Imperfect \"we were reading\"",
+"answer": "διαβάζαμε",
+"accept": [],
+"why": "διαβάζω.",
+"id": "imperfect-dd0060c5"
+},
+{
+"type": "write",
+"q": "Imperfect \"they were working\"",
+"answer": "δούλευαν",
+"accept": [
+"δουλεύανε"
+],
+"why": "δουλεύω.",
+"id": "imperfect-342e25c1"
+},
+{
+"type": "write",
+"q": "Imperfect \"you (sg) were drinking\"",
+"answer": "έπινες",
+"accept": [],
+"why": "πίνω.",
+"id": "imperfect-fa7b6ccd"
+},
+{
+"type": "write",
+"q": "Imperfect \"he was staying\"",
+"answer": "έμενε",
+"accept": [],
+"why": "μένω.",
+"id": "imperfect-c1266a38"
+},
+{
+"type": "order",
+"q": "\"I was waiting for the bus.\" (περιμένω)",
+"answer": "Περίμενα το λεωφορείο.",
+"accept": [],
+"why": "περιμένω → περίμενα.",
+"id": "imperfect-c32d0f4e"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ρήματα σε -άω / -ώ: μιλούσα",
+"title": "Verbs in -άω / -ώ: -ούσα",
+"body": [
+{
+"p": "Verbs in **-άω** (μιλάω, ρωτάω) and **-ώ** (μπορώ, οδηγώ, ζω) form the imperfect with **-ούσα**, stressed on the -ού- in every person. No augment is ever needed."
+},
+{
+"table": {
+"head": [
+"",
+"μιλάω",
+"μπορώ",
+"ζω"
+],
+"rows": [
+[
+"εγώ",
+"μιλούσα",
+"μπορούσα",
+"ζούσα"
+],
+[
+"εσύ",
+"μιλούσες",
+"μπορούσες",
+"ζούσες"
+],
+[
+"αυτός",
+"μιλούσε",
+"μπορούσε",
+"ζούσε"
+],
+[
+"εμείς",
+"μιλούσαμε",
+"μπορούσαμε",
+"ζούσαμε"
+],
+[
+"εσείς",
+"μιλούσατε",
+"μπορούσατε",
+"ζούσατε"
+],
+[
+"αυτοί",
+"μιλούσαν / μιλούσανε",
+"μπορούσαν / μπορούσανε",
+"ζούσαν / ζούσανε"
+]
+]
+}
+},
+{
+"tip": "In everyday speech many -άω verbs also have an older imperfect in **-αγα**: **μίλαγα, ρώταγα, περνάγαμε**. It is colloquial and fine in conversation; **-ούσα** is the neutral form."
+},
+{
+"ex": [
+{
+"el": "Μιλούσαμε για σένα!",
+"en": "We were talking about you!"
+},
+{
+"el": "Δεν μπορούσα να κοιμηθώ.",
+"en": "I couldn't sleep."
+},
+{
+"el": "Ζούσαν στο Λονδίνο.",
+"en": "They were living in London."
+},
+{
+"el": "Τι ρωτούσε;",
+"en": "What was he asking?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I was driving.\"",
+"a": "Οδηγούσα.",
+"why": "οδηγώ → οδηγούσα."
+},
+{
+"q": "\"They were asking about you.\"",
+"a": "Ρωτούσαν για σένα. | Ρωτούσανε για σένα.",
+"why": "ρωτάω → ρωτούσαν."
+},
+{
+"q": "Imperfect vs aorist of **μιλάω**, \"we\"",
+"a": "μιλούσαμε / μιλήσαμε",
+"why": "-ούσα (imperfect) vs -ησα (aorist)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Με ποιον ___; (were you talking, sg)",
+"options": [
+"μίλησες",
+"μιλούσες",
+"μιλάσες",
+"εμιλούσες"
+],
+"answer": "μιλούσες",
+"why": "μιλάω → μιλούσες.",
+"id": "imperfect-ec1c71d2"
+},
+{
+"type": "choice",
+"q": "Δεν ___ να έρθω. (I could: imperfect)",
+"options": [
+"μπορούσες",
+"μπορούσα",
+"εμπορούσα",
+"μπορούμουν"
+],
+"answer": "μπορούσα",
+"why": "μπορώ → μπορούσα.",
+"id": "imperfect-3c0993a2"
+},
+{
+"type": "choice",
+"q": "Πού ___ πριν; (did you live, pl)",
+"options": [
+"ζούσετε",
+"ζούσατε",
+"εζούσατε",
+"ζείτε"
+],
+"answer": "ζούσατε",
+"why": "ζω → ζούσατε.",
+"id": "imperfect-a7c8e9b3"
+},
+{
+"type": "choice",
+"q": "Ο Νίκος ___ γρήγορα. (was driving)",
+"options": [
+"οδήγησε",
+"οδηγούσε",
+"οδηγούσα",
+"οδήγαγε"
+],
+"answer": "οδηγούσε",
+"why": "οδηγώ → οδηγούσε.",
+"id": "imperfect-b69207b6"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ κάθε μέρα. (would ask)",
+"options": [
+"ρώτησαν",
+"ρωτούσαν",
+"ρωτάσαν",
+"ρωτήσανε"
+],
+"answer": "ρωτούσαν",
+"why": "Repeated: ρωτούσαν.",
+"id": "imperfect-26655878"
+},
+{
+"type": "write",
+"q": "Imperfect \"I was talking\"",
+"answer": "μιλούσα",
+"accept": [
+"μίλαγα"
+],
+"why": "μιλάω.",
+"id": "imperfect-e1baf4cc"
+},
+{
+"type": "write",
+"q": "Imperfect \"we could\"",
+"answer": "μπορούσαμε",
+"accept": [],
+"why": "μπορώ.",
+"id": "imperfect-ecb2618f"
+},
+{
+"type": "write",
+"q": "Imperfect \"they were living\"",
+"answer": "ζούσαν",
+"accept": [
+"ζούσανε"
+],
+"why": "ζω.",
+"id": "imperfect-c57a166e"
+},
+{
+"type": "write",
+"q": "Imperfect \"you (sg) were asking\"",
+"answer": "ρωτούσες",
+"accept": [
+"ρώταγες"
+],
+"why": "ρωτάω.",
+"id": "imperfect-23f5a665"
+},
+{
+"type": "write",
+"q": "Imperfect \"she was driving\"",
+"answer": "οδηγούσε",
+"accept": [],
+"why": "οδηγώ.",
+"id": "imperfect-93afee4f"
+},
+{
+"type": "order",
+"q": "\"We were talking on the phone.\"",
+"answer": "Μιλούσαμε στο τηλέφωνο.",
+"accept": [],
+"why": "μιλάω → μιλούσαμε.",
+"id": "imperfect-22dd6fa7"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ιδιόρρυθμοι παρατατικοί",
+"title": "Imperfects to learn separately",
+"body": [
+{
+"p": "A few common verbs insert **-γ-** or have a special stem in the imperfect."
+},
+{
+"table": {
+"head": [
+"Present",
+"Imperfect",
+"Aorist"
+],
+"rows": [
+[
+"λέω",
+"έλεγα",
+"είπα"
+],
+[
+"τρώω",
+"έτρωγα",
+"έφαγα"
+],
+[
+"ακούω",
+"άκουγα",
+"άκουσα"
+],
+[
+"κλαίω",
+"έκλαιγα",
+"έκλαψα"
+],
+[
+"πηγαίνω / πάω",
+"πήγαινα",
+"πήγα"
+],
+[
+"θέλω",
+"ήθελα",
+"θέλησα"
+],
+[
+"έρχομαι",
+"ερχόμουν",
+"ήρθα"
+]
+]
+}
+},
+{
+"p": "**Ήθελα** keeps **ή-** where the stress needs it: **ήθελα, ήθελες, ήθελε, θέλαμε, θέλατε, ήθελαν**. **Ερχόμουν** has passive endings: see chapter 26."
+},
+{
+"ex": [
+{
+"el": "Τι έλεγες;",
+"en": "What were you saying?"
+},
+{
+"el": "Τρώγαμε όταν ήρθε.",
+"en": "We were eating when he came."
+},
+{
+"el": "Άκουγα μουσική.",
+"en": "I was listening to music."
+},
+{
+"el": "Πηγαίναμε σχολείο με τα πόδια.",
+"en": "We used to walk to school."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"What were they saying?\"",
+"a": "Τι έλεγαν; | Τι λέγανε;",
+"why": "λέω → έλεγα."
+},
+{
+"q": "\"I wanted to call you.\"",
+"a": "Ήθελα να σε πάρω τηλέφωνο. | Ήθελα να σου τηλεφωνήσω.",
+"why": "θέλω → ήθελα."
+},
+{
+"q": "\"We were listening.\"",
+"a": "Ακούγαμε.",
+"why": "ακούω → άκουγα, ακούγαμε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τι ___; Δεν άκουσα. (were you saying, sg)",
+"options": [
+"λέγεις",
+"έλεγες",
+"λέγες",
+"έλεγε"
+],
+"answer": "έλεγες",
+"why": "λέω → έλεγες.",
+"id": "imperfect-5f4c0a64"
+},
+{
+"type": "choice",
+"q": "Όταν χτύπησε το τηλέφωνο, ___. (we were eating)",
+"options": [
+"φάγαμε",
+"τρώγαμε",
+"τρώαμε",
+"ετρώγαμε"
+],
+"answer": "τρώγαμε",
+"why": "τρώω → τρώγαμε.",
+"id": "imperfect-e123f019"
+},
+{
+"type": "choice",
+"q": "___ ραδιόφωνο στο αυτοκίνητο. (I was listening to)",
+"options": [
+"Άκουζα",
+"Άκουγα",
+"Ακούα",
+"Έκουγα"
+],
+"answer": "Άκουγα",
+"why": "ακούω → άκουγα.",
+"id": "imperfect-688f2bae"
+},
+{
+"type": "choice",
+"q": "Το μωρό ___ όλη νύχτα. (was crying)",
+"options": [
+"έκλαψε",
+"έκλαιγε",
+"κλαίγε",
+"έκλαιε"
+],
+"answer": "έκλαιγε",
+"why": "κλαίω → έκλαιγε.",
+"id": "imperfect-b0e401bd"
+},
+{
+"type": "choice",
+"q": "___ να σου μιλήσω. (I wanted)",
+"options": [
+"Θέλουσα",
+"Ήθελα",
+"Έθελα",
+"Θέλα"
+],
+"answer": "Ήθελα",
+"why": "θέλω → ήθελα.",
+"id": "imperfect-184a40d7"
+},
+{
+"type": "write",
+"q": "Imperfect \"I was saying\"",
+"answer": "έλεγα",
+"accept": [],
+"why": "λέω.",
+"id": "imperfect-59c2d2c4"
+},
+{
+"type": "write",
+"q": "Imperfect \"we were eating\"",
+"answer": "τρώγαμε",
+"accept": [],
+"why": "τρώω.",
+"id": "imperfect-fb30cf90"
+},
+{
+"type": "write",
+"q": "Imperfect \"they used to go\"",
+"answer": "πήγαιναν",
+"accept": [
+"πηγαίνανε"
+],
+"why": "πηγαίνω.",
+"id": "imperfect-63fab514"
+},
+{
+"type": "write",
+"q": "Imperfect \"you (sg) wanted\"",
+"answer": "ήθελες",
+"accept": [],
+"why": "θέλω.",
+"id": "imperfect-5b8bd626"
+},
+{
+"type": "write",
+"q": "Imperfect \"he was listening\"",
+"answer": "άκουγε",
+"accept": [],
+"why": "ακούω.",
+"id": "imperfect-00cf0b6a"
+},
+{
+"type": "order",
+"q": "\"What were you (pl) saying?\"",
+"answer": "Τι λέγατε;",
+"accept": [],
+"why": "λέω → λέγατε.",
+"id": "imperfect-ee40d9c7"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Αόριστος ή παρατατικός;",
+"title": "Aorist or imperfect?",
+"body": [
+{
+"p": "The choice is about **how you see the event**, not about how long it lasted."
+},
+{
+"table": {
+"head": [
+"Imperfect: έγραφα",
+"Aorist: έγραψα"
+],
+"rows": [
+[
+"in progress: \"was writing\"",
+"one completed event: \"wrote\""
+],
+[
+"background scene",
+"the events of the story, in sequence"
+],
+[
+"habit: \"used to / would write\"",
+"a single occasion"
+],
+[
+"interrupted action",
+"the interruption"
+],
+[
+"attempt: \"was trying to\"",
+"result reached"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Διάβαζα όταν ήρθες.",
+"en": "I was studying when you came."
+},
+{
+"el": "Μπήκα, έβγαλα τα παπούτσια μου και κάθισα.",
+"en": "I came in, took off my shoes and sat down."
+},
+{
+"el": "Κάθε καλοκαίρι πηγαίναμε στο χωριό.",
+"en": "Every summer we used to go to the village."
+},
+{
+"el": "Πέρσι πήγαμε στην Κρήτη.",
+"en": "Last year we went to Crete."
+},
+{
+"el": "Έβρεχε, έκανε κρύο, και τότε χτύπησε η πόρτα.",
+"en": "It was raining, it was cold, and then the door knocked."
+}
+]
+},
+{
+"p": "**Signals of the imperfect**: κάθε μέρα/χρόνο, συνήθως, πάντα, συχνά, ενώ, καθώς, όλο. **Signals of the aorist**: χθες, πέρσι, ξαφνικά, μια φορά, αμέσως, μόλις, and lists of events."
+},
+{
+"tip": "With a time span the aorist is normal when you sum up: **Έμεινα δύο χρόνια στο Παρίσι.** \"I stayed two years in Paris.\" The imperfect **έμενα** describes life there: **Έμενα στο Παρίσι όταν γνωριστήκαμε.**"
+},
+{
+"solved": [
+{
+"q": "\"While I was cooking, he was watching TV.\"",
+"a": "Ενώ μαγείρευα, αυτός έβλεπε τηλεόραση.",
+"why": "Two ongoing background actions: both imperfect."
+},
+{
+"q": "\"I was cooking when the lights went out.\"",
+"a": "Μαγείρευα όταν κόπηκε το ρεύμα. | Μαγείρευα όταν έφυγε το ρεύμα.",
+"why": "Ongoing (imperfect) interrupted by an event (aorist)."
+},
+{
+"q": "\"As a child I used to play football.\"",
+"a": "Όταν ήμουν μικρός έπαιζα ποδόσφαιρο. | Όταν ήμουν μικρή έπαιζα ποδόσφαιρο.",
+"why": "Habit: imperfect."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Κάθε πρωί ___ καφέ στο μπαλκόνι. (I used to drink)",
+"options": [
+"ήπια",
+"έπινα",
+"πίνησα",
+"έπια"
+],
+"answer": "έπινα",
+"why": "Habit: imperfect.",
+"id": "imperfect-852f428b"
+},
+{
+"type": "choice",
+"q": "___ τηλεόραση όταν χτύπησε το κουδούνι. (I was watching)",
+"options": [
+"Είδα",
+"Έβλεπα",
+"Βλέψα",
+"Βλέπα"
+],
+"answer": "Έβλεπα",
+"why": "In progress, interrupted.",
+"id": "imperfect-e159a0a7"
+},
+{
+"type": "choice",
+"q": "Ξαφνικά ___ τα φώτα. (went out)",
+"options": [
+"έσβηναν",
+"έσβησαν",
+"σβήνανε",
+"έσβησες"
+],
+"answer": "έσβησαν",
+"why": "Sudden single event: aorist.",
+"id": "imperfect-e0596c24"
+},
+{
+"type": "choice",
+"q": "Μπήκε στο σπίτι, ___ το παλτό του και κάθισε. (took off)",
+"options": [
+"έβγαζε",
+"έβγαλε",
+"βγάλε",
+"έβγαζες"
+],
+"answer": "έβγαλε",
+"why": "A sequence of events: aorist.",
+"id": "imperfect-db45b4b4"
+},
+{
+"type": "choice",
+"q": "Ενώ ___, άκουσα έναν θόρυβο. (I was sleeping, κοιμάμαι)",
+"options": [
+"κοιμήθηκα",
+"κοιμόμουν",
+"κοιμούμαι",
+"κοιμόσουν"
+],
+"answer": "κοιμόμουν",
+"why": "Background with ενώ: imperfect.",
+"id": "imperfect-cd2d4f2e"
+},
+{
+"type": "choice",
+"q": "Όταν ήμασταν φοιτητές, ___ κάθε βράδυ. (we used to go out)",
+"options": [
+"βγαίναμαν",
+"βγαίναμε",
+"βγαίνουμε",
+"εβγαίναμε"
+],
+"answer": "βγαίναμε",
+"why": "Habit: imperfect.",
+"id": "imperfect-173f41da"
+},
+{
+"type": "choice",
+"q": "Χθες ___ ένα ωραίο βιβλίο. (I finished reading: τελειώνω)",
+"options": [
+"τελείωνα",
+"τελείωσα",
+"τελειώνα",
+"τελείωσες"
+],
+"answer": "τελείωσα",
+"why": "Completed: aorist.",
+"id": "imperfect-8e74239f"
+},
+{
+"type": "choice",
+"q": "Πέρσι το καλοκαίρι ___ στη Νάξο. (we went)",
+"options": [
+"πήγαμαν",
+"πήγαμε",
+"πάμε",
+"πήγαιναν"
+],
+"answer": "πήγαμε",
+"why": "One trip: aorist.",
+"id": "imperfect-fdc9c7e3"
+},
+{
+"type": "write",
+"q": "\"I was reading when you called.\"",
+"answer": "Διάβαζα όταν πήρες τηλέφωνο.",
+"accept": [
+"Διάβαζα όταν τηλεφώνησες."
+],
+"why": "Imperfect + aorist.",
+"id": "imperfect-3ab5cf22"
+},
+{
+"type": "write",
+"q": "\"Every Sunday we used to eat at grandma's.\"",
+"answer": "Κάθε Κυριακή τρώγαμε στη γιαγιά.",
+"accept": [
+"Κάθε Κυριακή τρώγαμε στης γιαγιάς."
+],
+"why": "Habit: τρώγαμε.",
+"id": "imperfect-bbf51a57"
+},
+{
+"type": "write",
+"q": "\"Suddenly he left.\"",
+"answer": "Ξαφνικά έφυγε.",
+"accept": [],
+"why": "Single event: aorist.",
+"id": "imperfect-2db96dcc"
+},
+{
+"type": "write",
+"q": "\"While she was talking, I was writing.\"",
+"answer": "Ενώ μιλούσε, έγραφα.",
+"accept": [
+"Ενώ εκείνη μιλούσε, εγώ έγραφα."
+],
+"why": "Two background actions.",
+"id": "imperfect-339e3fd0"
+},
+{
+"type": "write",
+"q": "\"Yesterday I saw Maria.\"",
+"answer": "Χθες είδα τη Μαρία.",
+"accept": [
+"Είδα τη Μαρία χθες."
+],
+"why": "Single event.",
+"id": "imperfect-d622fa24"
+},
+{
+"type": "write",
+"q": "\"It was raining all day.\"",
+"answer": "Έβρεχε όλη μέρα.",
+"accept": [
+"Έβρεχε όλη την ημέρα."
+],
+"why": "Description of a scene.",
+"id": "imperfect-071b3fc6"
+},
+{
+"type": "order",
+"q": "\"We were walking when it started to rain.\"",
+"answer": "Περπατούσαμε όταν άρχισε να βρέχει.",
+"accept": [],
+"why": "Imperfect + aorist.",
+"id": "imperfect-fe921658"
+},
+{
+"type": "order",
+"q": "\"As a child I used to read a lot.\"",
+"answer": "Όταν ήμουν παιδί διάβαζα πολύ.",
+"accept": [],
+"why": "Habit.",
+"id": "imperfect-b1df037a"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ειδικές χρήσεις",
+"title": "Special uses: politeness, attempts, \"would\"",
+"body": [
+{
+"p": "The imperfect has three uses that English translates differently."
+},
+{
+"p": "1. **Politeness**: **ήθελα** softens a request, like English \"I wanted / I was wondering\". 2. **Attempt**: with verbs like πείθω, ανοίγω, the imperfect can mean \"tried to\": **Τον έπειθα, αλλά δεν άκουγε.** \"I was trying to persuade him, but he wouldn't listen.\" 3. **θα + imperfect** is the Greek \"would\": **θα ερχόμουν** \"I would come\", **θα το έκανα** \"I'd do it\". See chapter 33."
+},
+{
+"ex": [
+{
+"el": "Ήθελα να ρωτήσω κάτι.",
+"en": "I wanted to ask something. (polite)"
+},
+{
+"el": "Ήθελα ένα κιλό ντομάτες.",
+"en": "I'd like a kilo of tomatoes. (at the market)"
+},
+{
+"el": "Προσπαθούσα να ανοίξω την πόρτα, αλλά δεν άνοιγε.",
+"en": "I was trying to open the door, but it wouldn't open."
+},
+{
+"el": "Θα ερχόμουν, αλλά είμαι άρρωστη.",
+"en": "I'd come, but I'm ill."
+},
+{
+"el": "Θα σου το έλεγα, αλλά ξέχασα.",
+"en": "I would have told you, but I forgot."
+}
+]
+},
+{
+"p": "**Δεν άνοιγε** = \"it wouldn't open\" (kept refusing). This is the imperfect of resistance, very common with objects that don't work: **Το αυτοκίνητο δεν έπαιρνε μπρος.** \"The car wouldn't start.\""
+},
+{
+"solved": [
+{
+"q": "Polite request at a shop: \"I'd like a coffee.\"",
+"a": "Ήθελα έναν καφέ. | Θα ήθελα έναν καφέ.",
+"why": "Imperfect of politeness (θα ήθελα is even softer)."
+},
+{
+"q": "\"The door wouldn't open.\"",
+"a": "Η πόρτα δεν άνοιγε.",
+"why": "Repeated failure: imperfect."
+},
+{
+"q": "\"I'd buy it, but it's expensive.\"",
+"a": "Θα το αγόραζα, αλλά είναι ακριβό.",
+"why": "θα + imperfect = would."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Καλημέρα, ___ να ρωτήσω κάτι. (I'd like to)",
+"options": [
+"θέλησα",
+"ήθελα",
+"θέλουσα",
+"θέλα"
+],
+"answer": "ήθελα",
+"why": "Polite ήθελα.",
+"id": "imperfect-6d7f9b34"
+},
+{
+"type": "choice",
+"q": "Το αυτοκίνητο δεν ___ μπρος. (wouldn't start)",
+"options": [
+"πάρε",
+"έπαιρνε",
+"παίρνησε",
+"έπαιρνες"
+],
+"answer": "έπαιρνε",
+"why": "Repeated failure: imperfect.",
+"id": "imperfect-13066001"
+},
+{
+"type": "choice",
+"q": "Θα ___ μαζί σας, αλλά δουλεύω. (I would come)",
+"options": [
+"έρθω",
+"ερχόμουν",
+"ήρθα",
+"έρχομαι"
+],
+"answer": "ερχόμουν",
+"why": "θα + imperfect.",
+"id": "imperfect-fef436db"
+},
+{
+"type": "choice",
+"q": "Θα το ___ αν είχα λεφτά. (I'd buy)",
+"options": [
+"αγοράσω",
+"αγόραζα",
+"αγόρασα",
+"αγοράζω"
+],
+"answer": "αγόραζα",
+"why": "θα + imperfect.",
+"id": "imperfect-facd9072"
+},
+{
+"type": "write",
+"q": "\"I'd like a kilo of apples.\" (at the market)",
+"answer": "Ήθελα ένα κιλό μήλα.",
+"accept": [
+"Θα ήθελα ένα κιλό μήλα."
+],
+"why": "Polite imperfect.",
+"id": "imperfect-22737a3d"
+},
+{
+"type": "write",
+"q": "\"The window wouldn't close.\"",
+"answer": "Το παράθυρο δεν έκλεινε.",
+"accept": [],
+"why": "Imperfect of resistance.",
+"id": "imperfect-417b0d7e"
+},
+{
+"type": "write",
+"q": "\"I would go, but I'm tired.\"",
+"answer": "Θα πήγαινα, αλλά είμαι κουρασμένος.",
+"accept": [
+"Θα πήγαινα, αλλά είμαι κουρασμένη."
+],
+"why": "θα + imperfect.",
+"id": "imperfect-5cf2957f"
+},
+{
+"type": "order",
+"q": "\"I wanted to ask you something.\"",
+"answer": "Ήθελα να σε ρωτήσω κάτι.",
+"accept": [],
+"why": "Polite ήθελα.",
+"id": "imperfect-7c91f95f"
+}
+]
+}
+]
+}
+],
+"id": "imperfect",
+"el": "Ο παρατατικός",
+"title": "The imperfect and aspect in the past",
+"span": "A2–B1",
+"blurb": "How to form the imperfect (έγραφα, μιλούσα, έλεγα), and how to choose between \"I was doing / used to do\" and \"I did\": background, habits, interruptions and polite requests.",
+"intro": [
+{
+"p": "Greek has two simple past tenses. The **aorist** (έγραψα) sees an event as one finished whole. The **imperfect** (έγραφα) sees it from inside, as something going on or repeated: \"I was writing\", \"I used to write\", \"I would write (every day)\". English often blurs the two; Greek makes you choose."
+},
+{
+"links": [
+{
+"href": "#a2-imperfect",
+"kind": "Lesson",
+"el": "Παρατατικός",
+"title": "The imperfect"
+},
+{
+"href": "#b1-aspect",
+"kind": "Lesson",
+"el": "Ποιόν ενεργείας",
+"title": "Aspect: imperfective and perfective"
+},
+{
+"href": "#cards.imperfect",
+"kind": "Card",
+"el": "Παρατατικός",
+"title": "The imperfect"
+},
+{
+"href": "#cards.aspect",
+"kind": "Card",
+"el": "Ποιο θέμα; Η επιλογή της όψης",
+"title": "Choosing the aspect"
+},
+{
+"href": "#pos.verb-forms",
+"kind": "Part of speech",
+"el": "Το ρήμα Α΄: οι τύποι",
+"title": "The verb I: forms and conjugations"
+}
+]
+}
+],
+"num": 20
+}

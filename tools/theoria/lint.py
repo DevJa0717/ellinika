@@ -22,6 +22,9 @@ for f in files:
                 pure = sum(1 for x in parts[1:] if not re.search(r"[A-Za-z]", x))
                 if LAT3.search(o.lstrip("*")) and pure >= 2:
                     msg.append("English inside an option: " + o)
+            for o in parts[1:]:
+                if re.search(r"\S\s+(σήμερα|τώρα|χθες|σε μια στιγμή|ξανά|συχνά|συνήθως|σιγά|πριν|μια φορά|ξαφνικά|αμέσως|πάντα|αύριο|απόψε)$", o.lstrip("*")):
+                    msg.append("padded distractor: " + o)
             if not why.strip():
                 msg.append("no explanation")
         if l.startswith(("= ", "S ")) and "=>" not in l:

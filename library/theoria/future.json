@@ -1,0 +1,1142 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Θα + εξαρτημένος τύπος",
+"title": "The simple future: θα γράψω",
+"body": [
+{
+"p": "Take the **aorist stem**, drop the augment, and add the **present endings**."
+},
+{
+"table": {
+"head": [
+"Present",
+"Aorist",
+"Future"
+],
+"rows": [
+[
+"γράφω",
+"έγραψα",
+"θα γράψω"
+],
+[
+"διαβάζω",
+"διάβασα",
+"θα διαβάσω"
+],
+[
+"πληρώνω",
+"πλήρωσα",
+"θα πληρώσω"
+],
+[
+"δουλεύω",
+"δούλεψα",
+"θα δουλέψω"
+],
+[
+"ανοίγω",
+"άνοιξα",
+"θα ανοίξω"
+],
+[
+"φεύγω",
+"έφυγα",
+"θα φύγω"
+]
+]
+}
+},
+{
+"table": {
+"head": [
+"",
+"θα γράψω",
+"θα διαβάσω"
+],
+"rows": [
+[
+"εγώ",
+"θα γράψω",
+"θα διαβάσω"
+],
+[
+"εσύ",
+"θα γράψεις",
+"θα διαβάσεις"
+],
+[
+"αυτός",
+"θα γράψει",
+"θα διαβάσει"
+],
+[
+"εμείς",
+"θα γράψουμε",
+"θα διαβάσουμε"
+],
+[
+"εσείς",
+"θα γράψετε",
+"θα διαβάσετε"
+],
+[
+"αυτοί",
+"θα γράψουν / θα γράψουνε",
+"θα διαβάσουν / θα διαβάσουνε"
+]
+]
+}
+},
+{
+"p": "The stress goes back to the syllable it has in the present stem: **θα διαβάσω** (not *διάβασω*), **θα πληρώσω**."
+},
+{
+"ex": [
+{
+"el": "Θα σου γράψω αύριο.",
+"en": "I'll write to you tomorrow."
+},
+{
+"el": "Πότε θα πληρώσεις;",
+"en": "When will you pay?"
+},
+{
+"el": "Θα φύγουμε στις εννιά.",
+"en": "We'll leave at nine."
+},
+{
+"el": "Δεν θα αργήσω.",
+"en": "I won't be late."
+}
+]
+},
+{
+"p": "**Negation**: **δεν θα** (or **δε θα**). Weak pronouns go between θα and the verb: **Δεν θα το ξεχάσω.** \"I won't forget it.\""
+},
+{
+"solved": [
+{
+"q": "Future of **αγοράζω**, all persons",
+"a": "θα αγοράσω, θα αγοράσεις, θα αγοράσει, θα αγοράσουμε, θα αγοράσετε, θα αγοράσουν | θα αγοράσω, θα αγοράσεις, θα αγοράσει, θα αγοράσουμε, θα αγοράσετε, θα αγοράσουνε",
+"why": "Aorist stem αγορασ- + present endings."
+},
+{
+"q": "\"I won't tell him.\"",
+"a": "Δεν θα του το πω. | Δε θα του το πω. | Δεν θα του πω.",
+"why": "δεν θα + pronouns + verb."
+},
+{
+"q": "Why **θα διαβάσω** and not *θα διάβασω*?",
+"a": "The augment rule applies only to past tenses.",
+"why": "In the future the stress stays where it is in the present: δια-βά-ζω → δια-βά-σω."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Αύριο ___ το βιβλίο. (I'll finish: τελειώνω)",
+"options": [
+"θα τελείωσω",
+"θα τελειώσω",
+"θα τελείωσα",
+"θα τελειώνσω"
+],
+"answer": "θα τελειώσω",
+"why": "Aorist stem τελειωσ-, stress as in the present.",
+"id": "future-9c1f554f"
+},
+{
+"type": "choice",
+"q": "Πότε ___; (will you leave, sg)",
+"options": [
+"θα έφυγες",
+"θα φύγεις",
+"θα φέξεις",
+"θα φύγει"
+],
+"answer": "θα φύγεις",
+"why": "θα φύγεις.",
+"id": "future-503b141b"
+},
+{
+"type": "choice",
+"q": "___ το λογαριασμό. (We'll pay)",
+"options": [
+"Θα πλήρωσουμε",
+"Θα πληρώσουμε",
+"Θα πληρώσαμε",
+"Θα πληρώνσουμε"
+],
+"answer": "Θα πληρώσουμε",
+"why": "θα πληρώσουμε.",
+"id": "future-cc3046b4"
+},
+{
+"type": "choice",
+"q": "Δεν ___. (I'll forget it)",
+"options": [
+"το θα ξεχάσω",
+"θα το ξεχάσω",
+"θα ξεχάσω το",
+"θα το ξέχασω"
+],
+"answer": "θα το ξεχάσω",
+"why": "θα + pronoun + verb.",
+"id": "future-c7b195f4"
+},
+{
+"type": "choice",
+"q": "Θα ___ το παράθυρο; (will you open, pl)",
+"options": [
+"ανοίξατε",
+"ανοίξετε",
+"άνοιξετε",
+"ανοίγσετε"
+],
+"answer": "ανοίξετε",
+"why": "Present endings: -ετε.",
+"id": "future-d297dd6d"
+},
+{
+"type": "choice",
+"q": "Οι φίλοι μας ___ το βράδυ. (will come)",
+"options": [
+"θα ήρθαν",
+"θα έρθουν",
+"θα έρθουμε",
+"θα ερχόντουσαν"
+],
+"answer": "θα έρθουν",
+"why": "θα έρθουν.",
+"id": "future-1d00440c"
+},
+{
+"type": "write",
+"q": "Future \"I'll write\"",
+"answer": "θα γράψω",
+"accept": [],
+"why": "γράφω.",
+"id": "future-d0487d4a"
+},
+{
+"type": "write",
+"q": "Future \"we'll buy\"",
+"answer": "θα αγοράσουμε",
+"accept": [],
+"why": "αγοράζω.",
+"id": "future-42d1ef4b"
+},
+{
+"type": "write",
+"q": "Future \"they'll leave\"",
+"answer": "θα φύγουν",
+"accept": [
+"θα φύγουνε"
+],
+"why": "φεύγω.",
+"id": "future-a5fb156e"
+},
+{
+"type": "write",
+"q": "Future \"you (sg) will pay\"",
+"answer": "θα πληρώσεις",
+"accept": [],
+"why": "πληρώνω.",
+"id": "future-882f6d0f"
+},
+{
+"type": "write",
+"q": "Future \"she'll open\"",
+"answer": "θα ανοίξει",
+"accept": [],
+"why": "ανοίγω.",
+"id": "future-9ac122c2"
+},
+{
+"type": "write",
+"q": "\"I won't be late.\"",
+"answer": "Δεν θα αργήσω.",
+"accept": [
+"Δε θα αργήσω."
+],
+"why": "αργώ → αργήσω.",
+"id": "future-55aad7d4"
+},
+{
+"type": "order",
+"q": "\"I'll call you tomorrow.\" (παίρνω τηλέφωνο)",
+"answer": "Θα σε πάρω τηλέφωνο αύριο.",
+"accept": [
+"Αύριο θα σε πάρω τηλέφωνο."
+],
+"why": "θα + pronoun + πάρω.",
+"id": "future-57c9576d"
+},
+{
+"type": "order",
+"q": "\"We won't forget it.\"",
+"answer": "Δεν θα το ξεχάσουμε.",
+"accept": [],
+"why": "δεν θα το...",
+"id": "future-5bf1a78a"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ρήματα σε -άω / -ώ και ανώμαλα",
+"title": "Verbs in -άω / -ώ and the irregular ones",
+"body": [
+{
+"p": "Verbs in **-άω / -ώ** take their aorist stem in **-ησ-, -ασ-, -εσ-** and stress it: **θα μιλήσω, θα ξεχάσω, θα μπορέσω**."
+},
+{
+"table": {
+"head": [
+"Present",
+"Aorist",
+"Future"
+],
+"rows": [
+[
+"μιλάω",
+"μίλησα",
+"θα μιλήσω"
+],
+[
+"ρωτάω",
+"ρώτησα",
+"θα ρωτήσω"
+],
+[
+"περνάω",
+"πέρασα",
+"θα περάσω"
+],
+[
+"ξεχνάω",
+"ξέχασα",
+"θα ξεχάσω"
+],
+[
+"μπορώ",
+"μπόρεσα",
+"θα μπορέσω"
+],
+[
+"φοράω",
+"φόρεσα",
+"θα φορέσω"
+],
+[
+"οδηγώ",
+"οδήγησα",
+"θα οδηγήσω"
+]
+]
+}
+},
+{
+"p": "The irregular verbs use the short dependent stems from chapter 19: **θα πω, θα δω, θα έρθω, θα πάω, θα βρω, θα φάω, θα πιω, θα πάρω, θα μπω, θα βγω**. Verbs with one past have one future too: **θα είμαι, θα έχω, θα ξέρω**."
+},
+{
+"ex": [
+{
+"el": "Θα του μιλήσω εγώ.",
+"en": "I'll talk to him."
+},
+{
+"el": "Θα περάσω από το σπίτι σου.",
+"en": "I'll drop by your place."
+},
+{
+"el": "Τι θα φας;",
+"en": "What will you eat?"
+},
+{
+"el": "Θα είμαι εκεί στις οχτώ.",
+"en": "I'll be there at eight."
+},
+{
+"el": "Θα έχουμε καλό καιρό.",
+"en": "We'll have good weather."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Will you (sg) be able to come?\"",
+"a": "Θα μπορέσεις να έρθεις;",
+"why": "μπορώ → θα μπορέσω."
+},
+{
+"q": "\"I'll see you on Saturday.\" (sg)",
+"a": "Θα σε δω το Σάββατο.",
+"why": "βλέπω → θα δω."
+},
+{
+"q": "\"Where will you (pl) be?\"",
+"a": "Πού θα είστε; | Πού θα είσαστε;",
+"why": "είμαι has one future: θα είμαι."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θα σε ___ αύριο. (I'll ask)",
+"options": [
+"ρωτάω αύριο",
+"ρωτήσω",
+"ρώτησω",
+"ρωτάσω"
+],
+"answer": "ρωτήσω",
+"why": "ρωτάω → θα ρωτήσω.",
+"id": "future-247c6351"
+},
+{
+"type": "choice",
+"q": "Θα ___ από τον φούρνο. (we'll drop by: περνάω)",
+"options": [
+"περνήσουμε",
+"περάσουμε",
+"πέρασουμε",
+"περνάσουμε"
+],
+"answer": "περάσουμε",
+"why": "περνάω → πέρασα → θα περάσουμε.",
+"id": "future-b2ef8498"
+},
+{
+"type": "choice",
+"q": "Τι θα ___ στον γάμο; (will you wear, sg)",
+"options": [
+"φορήσεις",
+"φορέσεις",
+"φόρεσεις",
+"φοράσεις"
+],
+"answer": "φορέσεις",
+"why": "φοράω → θα φορέσεις.",
+"id": "future-36b99e6b"
+},
+{
+"type": "choice",
+"q": "Θα ___ πολύ δουλειά αύριο. (I'll have)",
+"options": [
+"έχσω",
+"έχω",
+"είχω",
+"σχω"
+],
+"answer": "έχω",
+"why": "έχω has one future: θα έχω.",
+"id": "future-8d9dd022"
+},
+{
+"type": "choice",
+"q": "Δεν θα ___ να έρθω. (I'll be able)",
+"options": [
+"μπορήσω",
+"μπορέσω",
+"μπόρεσω",
+"μπορώσω"
+],
+"answer": "μπορέσω",
+"why": "μπορώ → θα μπορέσω.",
+"id": "future-11eed1a5"
+},
+{
+"type": "choice",
+"q": "Πού θα ___ το βράδυ; (will you be, sg)",
+"options": [
+"είσαστε",
+"είσαι",
+"είσουν",
+"είναι"
+],
+"answer": "είσαι",
+"why": "θα είσαι.",
+"id": "future-fa7a70b3"
+},
+{
+"type": "choice",
+"q": "Θα ___ τον Νίκο στο πάρτι. (we'll see)",
+"options": [
+"βλέψουμε",
+"δούμε",
+"είδαμε",
+"δούνε"
+],
+"answer": "δούμε",
+"why": "βλέπω → θα δούμε.",
+"id": "future-c94e5e0c"
+},
+{
+"type": "write",
+"q": "Future \"I'll talk\"",
+"answer": "θα μιλήσω",
+"accept": [],
+"why": "μιλάω.",
+"id": "future-bc2e1fe2"
+},
+{
+"type": "write",
+"q": "Future \"you (sg) will forget\"",
+"answer": "θα ξεχάσεις",
+"accept": [],
+"why": "ξεχνάω.",
+"id": "future-92b3cadb"
+},
+{
+"type": "write",
+"q": "Future \"we'll be able\"",
+"answer": "θα μπορέσουμε",
+"accept": [],
+"why": "μπορώ.",
+"id": "future-397fbe7a"
+},
+{
+"type": "write",
+"q": "Future \"they'll drive\"",
+"answer": "θα οδηγήσουν",
+"accept": [
+"θα οδηγήσουνε"
+],
+"why": "οδηγώ.",
+"id": "future-c6c54adc"
+},
+{
+"type": "write",
+"q": "\"What will you (sg) drink?\"",
+"answer": "Τι θα πιεις;",
+"accept": [],
+"why": "πίνω → θα πιω.",
+"id": "future-0e64871e"
+},
+{
+"type": "write",
+"q": "\"I'll be at home.\"",
+"answer": "Θα είμαι σπίτι.",
+"accept": [
+"Θα είμαι στο σπίτι."
+],
+"why": "θα είμαι.",
+"id": "future-e69f636a"
+},
+{
+"type": "order",
+"q": "\"I'll tell you later.\" (sg)",
+"answer": "Θα σου πω αργότερα.",
+"accept": [
+"Αργότερα θα σου πω."
+],
+"why": "θα πω.",
+"id": "future-cc850f41"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Θα γράφω ή θα γράψω;",
+"title": "Continuous or simple future?",
+"body": [
+{
+"table": {
+"head": [
+"θα + present: θα γράφω",
+"θα + dependent: θα γράψω"
+],
+"rows": [
+[
+"repeated or habitual: \"I'll write (every week)\"",
+"one event: \"I'll write (tomorrow)\""
+],
+[
+"in progress at a moment: \"I'll be writing\"",
+"result: \"I'll have it written\""
+],
+[
+"a state: \"I'll be waiting\"",
+"a decision or promise"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Θα σου γράφω κάθε εβδομάδα.",
+"en": "I'll write to you every week."
+},
+{
+"el": "Θα σου γράψω μόλις φτάσω.",
+"en": "I'll write to you as soon as I arrive."
+},
+{
+"el": "Αύριο στις δέκα θα δουλεύω.",
+"en": "Tomorrow at ten I'll be working."
+},
+{
+"el": "Θα σε περιμένω.",
+"en": "I'll be waiting for you."
+},
+{
+"el": "Θα σε περιμένω στις οχτώ έξω από το σινεμά.",
+"en": "I'll wait for you at eight outside the cinema."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"From now on I'll exercise every day.\"",
+"a": "Από τώρα και πέρα θα γυμνάζομαι κάθε μέρα. | Από δω και πέρα θα γυμνάζομαι κάθε μέρα.",
+"why": "Habit: θα + present."
+},
+{
+"q": "\"Don't call at nine, I'll be eating.\"",
+"a": "Μην πάρεις στις εννιά, θα τρώω. | Μη με πάρεις στις εννιά, θα τρώω.",
+"why": "In progress at a moment: θα τρώω."
+},
+{
+"q": "\"I'll eat at nine.\"",
+"a": "Θα φάω στις εννιά.",
+"why": "One event: θα φάω."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Από τον Σεπτέμβρη ___ ελληνικά κάθε μέρα. (I'll study)",
+"options": [
+"θα διαβάσω",
+"θα διαβάζω",
+"θα διάβαζα",
+"θα διαβάσει"
+],
+"answer": "θα διαβάζω",
+"why": "Habit: θα + present.",
+"id": "future-69ea4722"
+},
+{
+"type": "choice",
+"q": "Μην έρθεις στις έξι, ___. (I'll be working)",
+"options": [
+"θα δουλέψω",
+"θα δουλεύω",
+"θα δούλευα",
+"θα δουλεύει"
+],
+"answer": "θα δουλεύω",
+"why": "In progress: θα δουλεύω.",
+"id": "future-6136944c"
+},
+{
+"type": "choice",
+"q": "Θα σου ___ μόλις μάθω κάτι. (I'll tell)",
+"options": [
+"λέγω",
+"πω",
+"έλεγα",
+"είπα"
+],
+"answer": "πω",
+"why": "One event: θα πω.",
+"id": "future-af374351"
+},
+{
+"type": "choice",
+"q": "Θα σε ___ κάθε μέρα. (I'll be thinking of: σκέφτομαι)",
+"options": [
+"σκεφτώ",
+"σκέφτομαι",
+"σκέφτηκα",
+"σκεφτόμουν"
+],
+"answer": "σκέφτομαι",
+"why": "Ongoing: θα σε σκέφτομαι.",
+"id": "future-8ea967c5"
+},
+{
+"type": "choice",
+"q": "Αύριο στις οχτώ ___ στο αεροπλάνο. (we'll be: one past and future)",
+"options": [
+"θα ήμασταν",
+"θα είμαστε",
+"θα ήμαστε",
+"θα είμασταν"
+],
+"answer": "θα είμαστε",
+"why": "θα είμαστε.",
+"id": "future-bea10c57"
+},
+{
+"type": "write",
+"q": "\"I'll call you every evening.\" (sg)",
+"answer": "Θα σε παίρνω τηλέφωνο κάθε βράδυ.",
+"accept": [
+"Θα σου τηλεφωνώ κάθε βράδυ."
+],
+"why": "Repeated: θα + present.",
+"id": "future-1920790d"
+},
+{
+"type": "write",
+"q": "\"I'll call you tonight.\" (sg)",
+"answer": "Θα σε πάρω τηλέφωνο απόψε.",
+"accept": [
+"Θα σου τηλεφωνήσω απόψε.",
+"Απόψε θα σε πάρω τηλέφωνο."
+],
+"why": "One event: θα + dependent.",
+"id": "future-22cf5e31"
+},
+{
+"type": "write",
+"q": "\"I'll be waiting for you.\" (sg)",
+"answer": "Θα σε περιμένω.",
+"accept": [],
+"why": "State: θα + present.",
+"id": "future-9eec6ca1"
+},
+{
+"type": "write",
+"q": "\"At five we'll be playing football.\"",
+"answer": "Στις πέντε θα παίζουμε ποδόσφαιρο.",
+"accept": [],
+"why": "In progress: θα παίζουμε.",
+"id": "future-0fb7ea60"
+},
+{
+"type": "order",
+"q": "\"I'll be thinking of you.\" (sg)",
+"answer": "Θα σε σκέφτομαι.",
+"accept": [],
+"why": "Ongoing.",
+"id": "future-6d31fad8"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Χρονικές προτάσεις",
+"title": "The future after όταν, μόλις, αν, πριν",
+"body": [
+{
+"p": "After **όταν, μόλις, αφού, πριν (να), μέχρι να, αν**, a future meaning is expressed with the **dependent form without θα**. Θα goes only in the main clause."
+},
+{
+"table": {
+"head": [
+"English",
+"Greek"
+],
+"rows": [
+[
+"when you come",
+"όταν έρθεις"
+],
+[
+"as soon as I arrive",
+"μόλις φτάσω"
+],
+[
+"if you see him",
+"αν τον δεις"
+],
+[
+"before we leave",
+"πριν φύγουμε"
+],
+[
+"until she finishes",
+"μέχρι να τελειώσει"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Όταν έρθεις, θα φάμε.",
+"en": "When you come, we'll eat."
+},
+{
+"el": "Μόλις φτάσω, θα σου στείλω μήνυμα.",
+"en": "As soon as I arrive, I'll text you."
+},
+{
+"el": "Αν δεις τη Μαρία, πες της χαιρετίσματα.",
+"en": "If you see Maria, say hi to her."
+},
+{
+"el": "Θα περιμένω μέχρι να τελειώσεις.",
+"en": "I'll wait until you finish."
+}
+]
+},
+{
+"tip": "**Όταν θα έρθεις** is heard in speech, but the standard form, and the safer one in writing, is **όταν έρθεις**."
+},
+{
+"solved": [
+{
+"q": "\"When I finish, I'll call you.\" (sg)",
+"a": "Όταν τελειώσω, θα σε πάρω τηλέφωνο. | Όταν τελειώσω, θα σου τηλεφωνήσω.",
+"why": "Dependent without θα after όταν."
+},
+{
+"q": "\"Before you go out, close the window.\" (sg)",
+"a": "Πριν βγεις, κλείσε το παράθυρο. | Πριν να βγεις, κλείσε το παράθυρο.",
+"why": "πριν (να) + dependent."
+},
+{
+"q": "\"If it rains, we'll stay at home.\"",
+"a": "Αν βρέξει, θα μείνουμε σπίτι. | Αν βρέξει, θα μείνουμε στο σπίτι.",
+"why": "αν + dependent, θα in the main clause."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Όταν ___, θα φάμε. (you come, sg)",
+"options": [
+"θα έρθεις",
+"έρθεις",
+"ήρθες",
+"έρθεσαι"
+],
+"answer": "έρθεις",
+"why": "After όταν: dependent without θα.",
+"id": "future-965b6b6b"
+},
+{
+"type": "choice",
+"q": "Μόλις ___ στο σπίτι, θα σου τηλεφωνήσω. (I arrive)",
+"options": [
+"θα φτάσω",
+"φτάσω",
+"έφτασα",
+"φτάξω"
+],
+"answer": "φτάσω",
+"why": "μόλις + dependent.",
+"id": "future-3d5ea871"
+},
+{
+"type": "choice",
+"q": "Αν ___ τον Γιάννη, πες του να με πάρει. (you see)",
+"options": [
+"θα δεις",
+"δεις",
+"είδεις",
+"βλέψεις"
+],
+"answer": "δεις",
+"why": "αν + dependent.",
+"id": "future-14837c03"
+},
+{
+"type": "choice",
+"q": "Θα περιμένουμε μέχρι να ___. (they finish)",
+"options": [
+"θα τελειώσουν",
+"τελειώσουν",
+"τελείωσαν",
+"τελειώνσουν"
+],
+"answer": "τελειώσουν",
+"why": "μέχρι να + dependent.",
+"id": "future-57f7396d"
+},
+{
+"type": "choice",
+"q": "Πριν ___, πάρε τηλέφωνο. (you leave)",
+"options": [
+"θα φύγεις",
+"φύγεις",
+"έφυγες",
+"φύγες"
+],
+"answer": "φύγεις",
+"why": "πριν + dependent.",
+"id": "future-7eea5604"
+},
+{
+"type": "write",
+"q": "\"When you (sg) arrive, call me.\"",
+"answer": "Όταν φτάσεις, πάρε με τηλέφωνο.",
+"accept": [
+"Όταν φτάσεις, τηλεφώνησέ μου."
+],
+"why": "όταν + dependent.",
+"id": "future-035f8d52"
+},
+{
+"type": "write",
+"q": "\"As soon as I hear something, I'll tell you.\" (sg)",
+"answer": "Μόλις μάθω κάτι, θα σου πω.",
+"accept": [
+"Μόλις μάθω κάτι, θα σου το πω."
+],
+"why": "μόλις + dependent.",
+"id": "future-184e668d"
+},
+{
+"type": "write",
+"q": "\"If you (sg) want, we'll go.\"",
+"answer": "Αν θέλεις, θα πάμε.",
+"accept": [
+"Αν θέλεις, πάμε."
+],
+"why": "θέλω has no dependent form: αν θέλεις.",
+"id": "future-17166977"
+},
+{
+"type": "order",
+"q": "\"I'll wait until you come.\" (sg)",
+"answer": "Θα περιμένω μέχρι να έρθεις.",
+"accept": [],
+"why": "μέχρι να + dependent.",
+"id": "future-34ba391e"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Θα για υπόθεση",
+"title": "Θα for guesses, and other futures",
+"body": [
+{
+"p": "**Θα** also expresses a confident guess, like English \"must\" or \"probably\":"
+},
+{
+"table": {
+"head": [
+"Form",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"θα + present",
+"must be / is probably (now)",
+"Θα είναι στο γραφείο. \"He must be at the office.\""
+],
+[
+"θα + aorist",
+"must have (done)",
+"Θα το ξέχασε. \"He must have forgotten.\""
+],
+[
+"θα + perfect",
+"must have (done), result",
+"Θα έχει φύγει. \"She must have left.\""
+]
+]
+}
+},
+{
+"p": "Two other ways to talk about the future:"
+},
+{
+"list": [
+"**πρόκειται να** \"is going to, is scheduled to\": **Πρόκειται να παντρευτούν.** \"They're going to get married.\" **Δεν πρόκειται να το κάνω!** \"No way I'm doing that!\"",
+"**πάει να** \"is about to / nearly\": **Πάει να βρέξει.** \"It's about to rain.\""
+]
+},
+{
+"ex": [
+{
+"el": "— Πού είναι ο Κώστας; — Θα κοιμάται.",
+"en": "— Where's Kostas? — He's probably asleep."
+},
+{
+"el": "Θα είναι καμιά σαρανταριά χρονών.",
+"en": "He must be about forty."
+},
+{
+"el": "Δεν απαντάει. Θα έχει κλείσει το κινητό.",
+"en": "She's not answering. She must have switched off her phone."
+},
+{
+"el": "Δεν πρόκειται να του ξαναμιλήσω.",
+"en": "I'm never going to speak to him again."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"She must be tired.\"",
+"a": "Θα είναι κουρασμένη.",
+"why": "Guess about now: θα + present."
+},
+{
+"q": "\"They must have missed the bus.\"",
+"a": "Θα έχασαν το λεωφορείο. | Θα έχουν χάσει το λεωφορείο.",
+"why": "Guess about the past: θα + aorist or perfect."
+},
+{
+"q": "\"No way I'm going!\"",
+"a": "Δεν πρόκειται να πάω!",
+"why": "δεν πρόκειται να = strong refusal."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "— Πού είναι η Ελένη; — ___ στη δουλειά. (She must be)",
+"options": [
+"Θα είσαι",
+"Θα είναι",
+"Θα έρθει",
+"Είναι θα"
+],
+"answer": "Θα είναι",
+"why": "Guess about now: θα + present.",
+"id": "future-863a5096"
+},
+{
+"type": "choice",
+"q": "Δεν ήρθε. ___ το ξέχασε. (He must have)",
+"options": [
+"Πρέπει θα",
+"Θα",
+"Να",
+"Ας"
+],
+"answer": "Θα",
+"why": "θα + aorist = must have.",
+"id": "future-33e36dcf"
+},
+{
+"type": "choice",
+"q": "Δεν ___ να του δώσω λεφτά! (I'm going to: never)",
+"options": [
+"θα",
+"πρόκειται",
+"πάει",
+"μέλλει θα"
+],
+"answer": "πρόκειται",
+"why": "δεν πρόκειται να.",
+"id": "future-4cef8a55"
+},
+{
+"type": "choice",
+"q": "Κοίτα τα σύννεφα, ___ να βρέξει. (it's about to)",
+"options": [
+"θα",
+"πάει",
+"πρόκειται θα",
+"έρχεται"
+],
+"answer": "πάει",
+"why": "πάει να = is about to.",
+"id": "future-b0b9b343"
+},
+{
+"type": "write",
+"q": "\"He must be at home.\"",
+"answer": "Θα είναι σπίτι.",
+"accept": [
+"Θα είναι στο σπίτι."
+],
+"why": "Guess: θα + present.",
+"id": "future-6b547e3b"
+},
+{
+"type": "write",
+"q": "\"She must have left.\"",
+"answer": "Θα έχει φύγει.",
+"accept": [
+"Θα έφυγε."
+],
+"why": "Guess about the past.",
+"id": "future-28a29550"
+},
+{
+"type": "write",
+"q": "\"No way I'm doing that!\"",
+"answer": "Δεν πρόκειται να το κάνω!",
+"accept": [],
+"why": "δεν πρόκειται να.",
+"id": "future-bc08f93a"
+},
+{
+"type": "order",
+"q": "\"They must be sleeping.\"",
+"answer": "Θα κοιμούνται.",
+"accept": [],
+"why": "θα + present.",
+"id": "future-b9439b94"
+}
+]
+}
+]
+}
+],
+"id": "future",
+"el": "Ο μέλλοντας",
+"title": "The future: θα and its uses",
+"span": "A2–B1",
+"blurb": "The two futures (θα γράψω \"I'll write\" and θα γράφω \"I'll be writing\"), how to form the dependent stem, the future in time clauses (όταν έρθεις, without θα), and θα for guesses: θα είναι κουρασμένος \"he must be tired\".",
+"intro": [
+{
+"p": "The future is the easy tense: the particle **θα** plus a verb form you already know. **Θα γράψω** \"I'll write\" uses the **dependent form** (aorist stem + present endings). **Θα γράφω** \"I'll be writing / I'll write regularly\" uses the plain present. Θα never changes and nothing comes between it and the verb except weak pronouns: **θα το γράψω**."
+},
+{
+"links": [
+{
+"href": "#a2-future",
+"kind": "Lesson",
+"el": "Μέλλοντας",
+"title": "θα: the two futures"
+},
+{
+"href": "#verbs-aspect-future-subj",
+"kind": "Lesson",
+"el": "Ποιόν ενεργείας μετά από θα, να, ας",
+"title": "Aspect after θα, να, ας and conjunctions"
+},
+{
+"href": "#cards.future-subj",
+"kind": "Card",
+"el": "Μέλλοντας και υποτακτική",
+"title": "Future and subjunctive"
+},
+{
+"href": "#pos.verb-forms",
+"kind": "Part of speech",
+"el": "Το ρήμα Α΄: οι τύποι",
+"title": "The verb I: forms and conjugations"
+}
+]
+}
+],
+"num": 21
+}

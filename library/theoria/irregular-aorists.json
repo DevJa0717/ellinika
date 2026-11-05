@@ -1,0 +1,1628 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Είπα, είδα, ήρθα, πήγα",
+"title": "The core six",
+"body": [
+{
+"table": {
+"head": [
+"Present",
+"Aorist",
+"Dependent",
+"Meaning"
+],
+"rows": [
+[
+"λέω",
+"είπα",
+"να πω",
+"say, tell"
+],
+[
+"βλέπω",
+"είδα",
+"να δω",
+"see"
+],
+[
+"έρχομαι",
+"ήρθα",
+"να έρθω",
+"come"
+],
+[
+"πηγαίνω / πάω",
+"πήγα",
+"να πάω",
+"go"
+],
+[
+"βρίσκω",
+"βρήκα",
+"να βρω",
+"find"
+],
+[
+"μπαίνω",
+"μπήκα",
+"να μπω",
+"go in"
+],
+[
+"βγαίνω",
+"βγήκα",
+"να βγω",
+"go out"
+]
+]
+}
+},
+{
+"p": "These keep the same stem in **all six persons**, with no augment to drop: **είπαμε, είδατε, ήρθαν, πήγαμε, βρήκατε, μπήκαμε, βγήκαν**."
+},
+{
+"table": {
+"head": [
+"",
+"λέω",
+"βλέπω",
+"έρχομαι"
+],
+"rows": [
+[
+"εγώ",
+"είπα",
+"είδα",
+"ήρθα"
+],
+[
+"εσύ",
+"είπες",
+"είδες",
+"ήρθες"
+],
+[
+"αυτός",
+"είπε",
+"είδε",
+"ήρθε"
+],
+[
+"εμείς",
+"είπαμε",
+"είδαμε",
+"ήρθαμε"
+],
+[
+"εσείς",
+"είπατε",
+"είδατε",
+"ήρθατε"
+],
+[
+"αυτοί",
+"είπαν / είπανε",
+"είδαν / είδανε",
+"ήρθαν / ήρθανε"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Τι είπε η μαμά σου;",
+"en": "What did your mum say?"
+},
+{
+"el": "Είδες τον αγώνα χθες;",
+"en": "Did you see the match yesterday?"
+},
+{
+"el": "Ήρθαν όλοι στο πάρτι.",
+"en": "Everyone came to the party."
+},
+{
+"el": "Πήγαμε για καφέ.",
+"en": "We went for a coffee."
+},
+{
+"el": "Βρήκα τα κλειδιά μου!",
+"en": "I found my keys!"
+},
+{
+"el": "Βγήκαμε το Σάββατο.",
+"en": "We went out on Saturday."
+}
+]
+},
+{
+"tip": "**Έρχομαι** looks passive but its aorist is active: **ήρθα**, not a -θηκα form. The formal **ήλθα** exists but sounds bookish."
+},
+{
+"solved": [
+{
+"q": "\"Did you (pl) see the film?\"",
+"a": "Είδατε την ταινία;",
+"why": "βλέπω → είδα, keeps ει- in all persons."
+},
+{
+"q": "\"We said it to him.\"",
+"a": "Του το είπαμε.",
+"why": "λέω → είπα → είπαμε."
+},
+{
+"q": "\"They went in without paying.\"",
+"a": "Μπήκαν χωρίς να πληρώσουν. | Μπήκανε χωρίς να πληρώσουν.",
+"why": "μπαίνω → μπήκα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Χθες ___ τον Γιώργο στο μετρό. (I saw)",
+"options": [
+"έβλεψα",
+"είδα",
+"βλέψα",
+"δω"
+],
+"answer": "είδα",
+"why": "βλέπω → είδα.",
+"id": "irregular-aorists-4cfffce3"
+},
+{
+"type": "choice",
+"q": "Τι ___ ο γιατρός; (did he say)",
+"options": [
+"έλεγε",
+"είπε",
+"έλεξε",
+"πει"
+],
+"answer": "είπε",
+"why": "λέω → είπε.",
+"id": "irregular-aorists-32af3400"
+},
+{
+"type": "choice",
+"q": "Πότε ___; (did you come, sg)",
+"options": [
+"έρχεσαι",
+"ήρθες",
+"έρθες",
+"ερχόσουν"
+],
+"answer": "ήρθες",
+"why": "έρχομαι → ήρθες.",
+"id": "irregular-aorists-10aaa0b0"
+},
+{
+"type": "choice",
+"q": "___ στη θάλασσα το Σαββατοκύριακο. (We went)",
+"options": [
+"Πάγαμε",
+"Πήγαμε",
+"Επήγαμε",
+"Πηγαίναμε"
+],
+"answer": "Πήγαμε",
+"why": "πηγαίνω → πήγαμε.",
+"id": "irregular-aorists-f42a9889"
+},
+{
+"type": "choice",
+"q": "___ το πορτοφόλι σου; (Did you find)",
+"options": [
+"Βρίσκες",
+"Βρήκες",
+"Έβρισες",
+"Βρεις"
+],
+"answer": "Βρήκες",
+"why": "βρίσκω → βρήκες.",
+"id": "irregular-aorists-c019291a"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ στην τάξη. (went in)",
+"options": [
+"έμπηκαν",
+"μπήκαν",
+"μπαίναν",
+"μπήξαν"
+],
+"answer": "μπήκαν",
+"why": "μπαίνω → μπήκαν.",
+"id": "irregular-aorists-c6389310"
+},
+{
+"type": "choice",
+"q": "___ για ποτό χθες βράδυ; (Did you go out, pl)",
+"options": [
+"Βγάλατε",
+"Βγήκατε",
+"Βγαίνατε",
+"Βγείτε"
+],
+"answer": "Βγήκατε",
+"why": "βγαίνω → βγήκατε.",
+"id": "irregular-aorists-2846e0b4"
+},
+{
+"type": "choice",
+"q": "Εμείς δεν ___ τίποτα. (saw)",
+"options": [
+"είδησαμε",
+"είδαμε",
+"δούμε",
+"βλέψαμε"
+],
+"answer": "είδαμε",
+"why": "είδα → είδαμε.",
+"id": "irregular-aorists-3d7248a6"
+},
+{
+"type": "write",
+"q": "Aorist \"I said\"",
+"answer": "είπα",
+"accept": [],
+"why": "λέω → είπα.",
+"id": "irregular-aorists-3bb698c2"
+},
+{
+"type": "write",
+"q": "Aorist \"we came\"",
+"answer": "ήρθαμε",
+"accept": [],
+"why": "έρχομαι → ήρθαμε.",
+"id": "irregular-aorists-6b98c3ae"
+},
+{
+"type": "write",
+"q": "Aorist \"they saw\"",
+"answer": "είδαν",
+"accept": [
+"είδανε"
+],
+"why": "βλέπω → είδαν.",
+"id": "irregular-aorists-1ee8d26d"
+},
+{
+"type": "write",
+"q": "Aorist \"you (sg) went\"",
+"answer": "πήγες",
+"accept": [],
+"why": "πηγαίνω → πήγες.",
+"id": "irregular-aorists-24758aa6"
+},
+{
+"type": "write",
+"q": "Aorist \"we found\"",
+"answer": "βρήκαμε",
+"accept": [],
+"why": "βρίσκω → βρήκαμε.",
+"id": "irregular-aorists-36074f15"
+},
+{
+"type": "write",
+"q": "Aorist \"he went out\"",
+"answer": "βγήκε",
+"accept": [],
+"why": "βγαίνω → βγήκε.",
+"id": "irregular-aorists-9f380691"
+},
+{
+"type": "write",
+"q": "\"Who said that?\"",
+"answer": "Ποιος το είπε;",
+"accept": [],
+"why": "λέω → είπε.",
+"id": "irregular-aorists-d31a4d9e"
+},
+{
+"type": "order",
+"q": "\"Did you see Maria?\"",
+"answer": "Είδες τη Μαρία;",
+"accept": [],
+"why": "βλέπω → είδες.",
+"id": "irregular-aorists-c119d37e"
+},
+{
+"type": "order",
+"q": "\"They came late.\"",
+"answer": "Ήρθαν αργά.",
+"accept": [],
+"why": "έρχομαι → ήρθαν.",
+"id": "irregular-aorists-5133ec12"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Έφαγα, ήπια, πήρα, έδωσα",
+"title": "Changed stems that do drop the augment",
+"body": [
+{
+"p": "A second group changes the stem but behaves like a normal aorist: the **augment έ-** appears only when the stress needs it."
+},
+{
+"table": {
+"head": [
+"Present",
+"Aorist",
+"εμείς",
+"Dependent",
+"Meaning"
+],
+"rows": [
+[
+"τρώω",
+"έφαγα",
+"φάγαμε",
+"να φάω",
+"eat"
+],
+[
+"πίνω",
+"ήπια",
+"ήπιαμε",
+"να πιω",
+"drink"
+],
+[
+"παίρνω",
+"πήρα",
+"πήραμε",
+"να πάρω",
+"take, get"
+],
+[
+"δίνω",
+"έδωσα",
+"δώσαμε",
+"να δώσω",
+"give"
+],
+[
+"μαθαίνω",
+"έμαθα",
+"μάθαμε",
+"να μάθω",
+"learn, hear (news)"
+],
+[
+"φεύγω",
+"έφυγα",
+"φύγαμε",
+"να φύγω",
+"leave"
+],
+[
+"βάζω",
+"έβαλα",
+"βάλαμε",
+"να βάλω",
+"put"
+],
+[
+"βγάζω",
+"έβγαλα",
+"βγάλαμε",
+"να βγάλω",
+"take off, take out"
+],
+[
+"μένω",
+"έμεινα",
+"μείναμε",
+"να μείνω",
+"stay, live"
+],
+[
+"πέφτω",
+"έπεσα",
+"πέσαμε",
+"να πέσω",
+"fall"
+],
+[
+"στέλνω",
+"έστειλα",
+"στείλαμε",
+"να στείλω",
+"send"
+],
+[
+"φέρνω",
+"έφερα",
+"φέραμε",
+"να φέρω",
+"bring"
+],
+[
+"ανεβαίνω",
+"ανέβηκα",
+"ανεβήκαμε",
+"να ανέβω",
+"go up"
+],
+[
+"κατεβαίνω",
+"κατέβηκα",
+"κατεβήκαμε",
+"να κατέβω",
+"go down"
+],
+[
+"καταλαβαίνω",
+"κατάλαβα",
+"καταλάβαμε",
+"να καταλάβω",
+"understand"
+],
+[
+"πεθαίνω",
+"πέθανα",
+"πεθάναμε",
+"να πεθάνω",
+"die"
+]
+]
+}
+},
+{
+"p": "**Ήπια** and **πήρα** keep their first letter in all persons: **ήπιαμε, πήραμε**. The others lose **έ-** in εμείς / εσείς: **φάγαμε, δώσατε, φύγαμε**."
+},
+{
+"ex": [
+{
+"el": "Έφαγα πολύ, δεν μπορώ να κουνηθώ.",
+"en": "I ate too much, I can't move."
+},
+{
+"el": "Τι ήπιατε;",
+"en": "What did you drink?"
+},
+{
+"el": "Πήρα το λεωφορείο.",
+"en": "I took the bus."
+},
+{
+"el": "Μου έδωσε το τηλέφωνό της.",
+"en": "She gave me her number."
+},
+{
+"el": "Έμαθες τα νέα;",
+"en": "Have you heard the news?"
+},
+{
+"el": "Φύγαμε νωρίς.",
+"en": "We left early."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Aorist of **τρώω**, all persons",
+"a": "έφαγα, έφαγες, έφαγε, φάγαμε, φάγατε, έφαγαν | έφαγα, έφαγες, έφαγε, φάγαμε, φάγατε, φάγανε",
+"why": "Augment only on the short forms."
+},
+{
+"q": "\"We drank a lot of wine.\"",
+"a": "Ήπιαμε πολύ κρασί.",
+"why": "πίνω → ήπια keeps ή- throughout."
+},
+{
+"q": "\"I understood nothing.\"",
+"a": "Δεν κατάλαβα τίποτα.",
+"why": "καταλαβαίνω → κατάλαβα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τι ___ για μεσημεριανό; (did you eat, sg)",
+"options": [
+"έτρωσες",
+"έφαγες",
+"φάγες",
+"τρώγες"
+],
+"answer": "έφαγες",
+"why": "τρώω → έφαγες.",
+"id": "irregular-aorists-837c9441"
+},
+{
+"type": "choice",
+"q": "Χθες ___ πολύ καφέ. (I drank)",
+"options": [
+"έπια",
+"ήπια",
+"έπιασα",
+"πίνησα"
+],
+"answer": "ήπια",
+"why": "πίνω → ήπια.",
+"id": "irregular-aorists-de353cd8"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ ταξί. (took)",
+"options": [
+"επήραμε",
+"πήραμε",
+"πάραμε",
+"πάρσαμε"
+],
+"answer": "πήραμε",
+"why": "παίρνω → πήραμε.",
+"id": "irregular-aorists-0712808e"
+},
+{
+"type": "choice",
+"q": "Της ___ ένα δώρο. (we gave)",
+"options": [
+"εδώσαμε",
+"δώσαμε",
+"δόσαμε",
+"δίνσαμε"
+],
+"answer": "δώσαμε",
+"why": "δίνω → δώσαμε.",
+"id": "irregular-aorists-73aed404"
+},
+{
+"type": "choice",
+"q": "Πότε ___ ελληνικά; (did you learn, sg)",
+"options": [
+"μάθες",
+"έμαθες",
+"μαθήσες",
+"μαθαίνσες"
+],
+"answer": "έμαθες",
+"why": "μαθαίνω → έμαθες.",
+"id": "irregular-aorists-3daa53e5"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ από το δέντρο. (fell)",
+"options": [
+"πέφτισαν",
+"έπεσαν",
+"πέφτησαν",
+"έπεψαν"
+],
+"answer": "έπεσαν",
+"why": "πέφτω → έπεσα.",
+"id": "irregular-aorists-fc4a9dea"
+},
+{
+"type": "choice",
+"q": "Ποιος ___ το κρασί; (brought)",
+"options": [
+"φέρνησε",
+"έφερε",
+"φέρε",
+"φέρασε"
+],
+"answer": "έφερε",
+"why": "φέρνω → έφερα.",
+"id": "irregular-aorists-7e8df342"
+},
+{
+"type": "choice",
+"q": "___ στον τρίτο όροφο με τα πόδια. (We went up)",
+"options": [
+"Ανέβαμε",
+"Ανεβήκαμε",
+"Ανέβηκαμε",
+"Ανεβαίσαμε"
+],
+"answer": "Ανεβήκαμε",
+"why": "ανεβαίνω → ανεβήκαμε.",
+"id": "irregular-aorists-b7518d00"
+},
+{
+"type": "choice",
+"q": "Πού ___ τα γυαλιά μου; (did you put, sg)",
+"options": [
+"έβαζσες",
+"έβαλες",
+"βάλες",
+"έβαξες"
+],
+"answer": "έβαλες",
+"why": "βάζω → έβαλες.",
+"id": "irregular-aorists-3aca61d6"
+},
+{
+"type": "choice",
+"q": "Δεν ___ τι είπε. (we understood)",
+"options": [
+"κατάλαβαμε",
+"καταλάβαμε",
+"καταλαβαίσαμε",
+"εκαταλάβαμε"
+],
+"answer": "καταλάβαμε",
+"why": "κατάλαβα → καταλάβαμε.",
+"id": "irregular-aorists-92c60065"
+},
+{
+"type": "write",
+"q": "Aorist \"I ate\"",
+"answer": "έφαγα",
+"accept": [],
+"why": "τρώω → έφαγα.",
+"id": "irregular-aorists-c8f7b608"
+},
+{
+"type": "write",
+"q": "Aorist \"we ate\"",
+"answer": "φάγαμε",
+"accept": [],
+"why": "No augment.",
+"id": "irregular-aorists-d6af094a"
+},
+{
+"type": "write",
+"q": "Aorist \"they drank\"",
+"answer": "ήπιαν",
+"accept": [
+"ήπιανε"
+],
+"why": "πίνω → ήπια.",
+"id": "irregular-aorists-6d9ab56e"
+},
+{
+"type": "write",
+"q": "Aorist \"I took\"",
+"answer": "πήρα",
+"accept": [],
+"why": "παίρνω → πήρα.",
+"id": "irregular-aorists-effe3aec"
+},
+{
+"type": "write",
+"q": "Aorist \"you (pl) gave\"",
+"answer": "δώσατε",
+"accept": [],
+"why": "δίνω → δώσατε.",
+"id": "irregular-aorists-65c0e0f9"
+},
+{
+"type": "write",
+"q": "Aorist \"he left\"",
+"answer": "έφυγε",
+"accept": [],
+"why": "φεύγω → έφυγε.",
+"id": "irregular-aorists-307c7575"
+},
+{
+"type": "write",
+"q": "Aorist \"we stayed\"",
+"answer": "μείναμε",
+"accept": [],
+"why": "μένω → μείναμε.",
+"id": "irregular-aorists-04be477e"
+},
+{
+"type": "write",
+"q": "Aorist \"I sent\"",
+"answer": "έστειλα",
+"accept": [],
+"why": "στέλνω → έστειλα.",
+"id": "irregular-aorists-c0fce270"
+},
+{
+"type": "write",
+"q": "Aorist \"she went down\"",
+"answer": "κατέβηκε",
+"accept": [],
+"why": "κατεβαίνω → κατέβηκε.",
+"id": "irregular-aorists-518d03e7"
+},
+{
+"type": "write",
+"q": "Aorist \"he died\"",
+"answer": "πέθανε",
+"accept": [],
+"why": "πεθαίνω → πέθανε.",
+"id": "irregular-aorists-b312a96e"
+},
+{
+"type": "order",
+"q": "\"I took off my jacket.\" (το μπουφάν)",
+"answer": "Έβγαλα το μπουφάν μου.",
+"accept": [],
+"why": "βγάζω → έβγαλα.",
+"id": "irregular-aorists-870fd241"
+},
+{
+"type": "order",
+"q": "\"We stayed at home.\"",
+"answer": "Μείναμε στο σπίτι.",
+"accept": [],
+"why": "μένω → μείναμε.",
+"id": "irregular-aorists-e6d50a52"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ρήματα με ένα μόνο παρελθόν",
+"title": "Verbs with only one past",
+"body": [
+{
+"p": "Three of the most frequent verbs have **no aorist** at all. Their one past form does the work of both past tenses: **ήμουν** is \"I was\" for a moment or for years."
+},
+{
+"table": {
+"head": [
+"Present",
+"Past",
+"Meaning"
+],
+"rows": [
+[
+"είμαι",
+"ήμουν",
+"I am → I was"
+],
+[
+"έχω",
+"είχα",
+"I have → I had"
+],
+[
+"ξέρω",
+"ήξερα",
+"I know → I knew"
+]
+]
+}
+},
+{
+"table": {
+"head": [
+"",
+"είμαι",
+"έχω",
+"ξέρω"
+],
+"rows": [
+[
+"εγώ",
+"ήμουν",
+"είχα",
+"ήξερα"
+],
+[
+"εσύ",
+"ήσουν",
+"είχες",
+"ήξερες"
+],
+[
+"αυτός",
+"ήταν",
+"είχε",
+"ήξερε"
+],
+[
+"εμείς",
+"ήμασταν",
+"είχαμε",
+"ξέραμε"
+],
+[
+"εσείς",
+"ήσασταν",
+"είχατε",
+"ξέρατε"
+],
+[
+"αυτοί",
+"ήταν",
+"είχαν / είχανε",
+"ήξεραν / ξέρανε"
+]
+]
+}
+},
+{
+"tip": "In speech you also hear **ήμουνα, ήσουνα, ήτανε, ήμαστε, ήσαστε**: all fine in conversation."
+},
+{
+"p": "To express a single event with these meanings, Greek uses another verb: **έμαθα** \"I found out\" (not *ήξερα*), **πήρα / απέκτησα** \"I got\", **έγινα** \"I became\"."
+},
+{
+"ex": [
+{
+"el": "Ήμουν άρρωστος όλη την εβδομάδα.",
+"en": "I was ill all week."
+},
+{
+"el": "Είχαμε πολλή δουλειά.",
+"en": "We had a lot of work."
+},
+{
+"el": "Δεν το ήξερα!",
+"en": "I didn't know that!"
+},
+{
+"el": "Πότε το έμαθες;",
+"en": "When did you find out?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Where were you (sg)?\"",
+"a": "Πού ήσουν; | Πού ήσουνα;",
+"why": "είμαι → ήσουν."
+},
+{
+"q": "\"We didn't know.\"",
+"a": "Δεν ξέραμε.",
+"why": "ξέρω → ξέραμε (no augment in εμείς)."
+},
+{
+"q": "\"I found out yesterday.\"",
+"a": "Το έμαθα χθες.",
+"why": "A single event: μαθαίνω, not ξέρω."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πού ___ χθες; (were you, sg)",
+"options": [
+"είσουν",
+"ήσουν",
+"ήταν",
+"ήσασταν"
+],
+"answer": "ήσουν",
+"why": "είμαι → ήσουν.",
+"id": "irregular-aorists-79be5466"
+},
+{
+"type": "choice",
+"q": "Δεν ___ λεφτά. (we had)",
+"options": [
+"έχαμε",
+"είχαμε",
+"είχαν",
+"εχήσαμε"
+],
+"answer": "είχαμε",
+"why": "έχω → είχαμε.",
+"id": "irregular-aorists-d7a45d3e"
+},
+{
+"type": "choice",
+"q": "Δεν το ___. (I knew)",
+"options": [
+"ξέρησα",
+"ήξερα",
+"ξέρα",
+"είξερα"
+],
+"answer": "ήξερα",
+"why": "ξέρω → ήξερα.",
+"id": "irregular-aorists-5c059f76"
+},
+{
+"type": "choice",
+"q": "Εσείς ___ στο πάρτι; (were)",
+"options": [
+"είσαστε",
+"ήσασταν",
+"ήμασταν",
+"ήταν"
+],
+"answer": "ήσασταν",
+"why": "είμαι → ήσασταν.",
+"id": "irregular-aorists-f190c092"
+},
+{
+"type": "choice",
+"q": "Πότε ___ ότι παντρεύεται; (did you find out)",
+"options": [
+"ήξερες",
+"έμαθες",
+"ξέρισες",
+"μάθες"
+],
+"answer": "έμαθες",
+"why": "A single event: έμαθες.",
+"id": "irregular-aorists-9e11d9b9"
+},
+{
+"type": "write",
+"q": "\"I was tired.\" (male speaker)",
+"answer": "Ήμουν κουρασμένος.",
+"accept": [
+"Ήμουνα κουρασμένος."
+],
+"why": "είμαι → ήμουν.",
+"id": "irregular-aorists-aae3318d"
+},
+{
+"type": "write",
+"q": "\"They had a dog.\"",
+"answer": "Είχαν σκύλο.",
+"accept": [
+"Είχανε σκύλο.",
+"Είχαν ένα σκύλο."
+],
+"why": "έχω → είχαν.",
+"id": "irregular-aorists-e4a1504d"
+},
+{
+"type": "write",
+"q": "\"Did you (sg) know?\"",
+"answer": "Το ήξερες;",
+"accept": [
+"Ήξερες;"
+],
+"why": "ξέρω → ήξερες.",
+"id": "irregular-aorists-b302a65e"
+},
+{
+"type": "write",
+"q": "\"We were at home.\"",
+"answer": "Ήμασταν στο σπίτι.",
+"accept": [
+"Ήμαστε στο σπίτι."
+],
+"why": "είμαι → ήμασταν.",
+"id": "irregular-aorists-b1ae624a"
+},
+{
+"type": "order",
+"q": "\"It was very late.\"",
+"answer": "Ήταν πολύ αργά.",
+"accept": [],
+"why": "είμαι → ήταν.",
+"id": "irregular-aorists-8ab1a622"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Εξαρτημένοι τύποι",
+"title": "The dependent forms: να πω, να δω, να έρθω",
+"body": [
+{
+"p": "After **να, θα, ας, για να, πριν να**, these verbs use a short **dependent** stem with present endings. It is the same stem as the aorist, but without the past look."
+},
+{
+"table": {
+"head": [
+"Aorist",
+"Dependent",
+"θα + dependent",
+"Imperative"
+],
+"rows": [
+[
+"είπα",
+"να πω",
+"θα πω",
+"πες / πείτε"
+],
+[
+"είδα",
+"να δω",
+"θα δω",
+"δες / δείτε"
+],
+[
+"ήρθα",
+"να έρθω",
+"θα έρθω",
+"έλα / ελάτε"
+],
+[
+"πήγα",
+"να πάω",
+"θα πάω",
+"πήγαινε / πηγαίνετε"
+],
+[
+"βρήκα",
+"να βρω",
+"θα βρω",
+"βρες / βρείτε"
+],
+[
+"μπήκα",
+"να μπω",
+"θα μπω",
+"μπες / μπείτε"
+],
+[
+"βγήκα",
+"να βγω",
+"θα βγω",
+"βγες / βγείτε"
+],
+[
+"έφαγα",
+"να φάω",
+"θα φάω",
+"φάε / φάτε"
+],
+[
+"ήπια",
+"να πιω",
+"θα πιω",
+"πιες / πιείτε"
+],
+[
+"πήρα",
+"να πάρω",
+"θα πάρω",
+"πάρε / πάρτε"
+]
+]
+}
+},
+{
+"p": "The short ones conjugate like **λέω / πάω**:"
+},
+{
+"table": {
+"head": [
+"",
+"να πω",
+"να δω",
+"να φάω"
+],
+"rows": [
+[
+"εγώ",
+"πω",
+"δω",
+"φάω"
+],
+[
+"εσύ",
+"πεις",
+"δεις",
+"φας"
+],
+[
+"αυτός",
+"πει",
+"δει",
+"φάει"
+],
+[
+"εμείς",
+"πούμε",
+"δούμε",
+"φάμε"
+],
+[
+"εσείς",
+"πείτε",
+"δείτε",
+"φάτε"
+],
+[
+"αυτοί",
+"πουν / πούνε",
+"δουν / δούνε",
+"φάνε"
+]
+]
+}
+},
+{
+"tip": "**Να έρθω** is often pronounced and written **να 'ρθω**; **θα έρθεις** becomes **θα 'ρθεις**. Both spellings are fine."
+},
+{
+"ex": [
+{
+"el": "Θέλω να σου πω κάτι.",
+"en": "I want to tell you something."
+},
+{
+"el": "Πάμε να δούμε μια ταινία;",
+"en": "Shall we go and see a film?"
+},
+{
+"el": "Θα έρθεις αύριο;",
+"en": "Will you come tomorrow?"
+},
+{
+"el": "Πρέπει να βρω δουλειά.",
+"en": "I need to find a job."
+},
+{
+"el": "Τι θα πιείτε;",
+"en": "What will you have to drink?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I want to see it.\"",
+"a": "Θέλω να το δω.",
+"why": "βλέπω → να δω."
+},
+{
+"q": "\"Will you (pl) come with us?\"",
+"a": "Θα έρθετε μαζί μας; | Θα 'ρθετε μαζί μας;",
+"why": "έρχομαι → θα έρθετε."
+},
+{
+"q": "\"Let's eat something.\"",
+"a": "Ας φάμε κάτι. | Πάμε να φάμε κάτι.",
+"why": "τρώω → να φάμε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θέλω να σου ___ ένα μυστικό. (tell)",
+"options": [
+"λέω",
+"πω",
+"είπω",
+"πεις"
+],
+"answer": "πω",
+"why": "After να: πω.",
+"id": "irregular-aorists-a42f468b"
+},
+{
+"type": "choice",
+"q": "Πάμε να ___ τη θάλασσα; (see)",
+"options": [
+"βλέπουμε",
+"δούμε",
+"είδαμε",
+"δείτε"
+],
+"answer": "δούμε",
+"why": "να δούμε.",
+"id": "irregular-aorists-ffd9788c"
+},
+{
+"type": "choice",
+"q": "Θα ___ στο πάρτι; (come, sg)",
+"options": [
+"έρχεσαι",
+"έρθεις",
+"ήρθες",
+"έρθει"
+],
+"answer": "έρθεις",
+"why": "θα έρθεις.",
+"id": "irregular-aorists-a1e0d084"
+},
+{
+"type": "choice",
+"q": "Τι θα ___; (you pl will drink)",
+"options": [
+"πίνατε",
+"πιείτε",
+"ήπιατε",
+"πιουν"
+],
+"answer": "πιείτε",
+"why": "θα πιείτε.",
+"id": "irregular-aorists-80c29080"
+},
+{
+"type": "choice",
+"q": "Πρέπει να ___ τα κλειδιά. (I find)",
+"options": [
+"βρήσω",
+"βρω",
+"βρήκω",
+"βρει"
+],
+"answer": "βρω",
+"why": "να βρω.",
+"id": "irregular-aorists-4258e882"
+},
+{
+"type": "choice",
+"q": "Δεν θέλω να ___ τίποτα. (eat)",
+"options": [
+"τρώσω",
+"φάω",
+"έφαγα",
+"φάγω"
+],
+"answer": "φάω",
+"why": "να φάω.",
+"id": "irregular-aorists-337ad51a"
+},
+{
+"type": "choice",
+"q": "Πότε θα ___ από το γραφείο; (will you go out, sg)",
+"options": [
+"βγήσεις",
+"βγεις",
+"βγήκες",
+"βγάλεις"
+],
+"answer": "βγεις",
+"why": "θα βγεις.",
+"id": "irregular-aorists-3c8c8a7c"
+},
+{
+"type": "choice",
+"q": "Ας ___ ταξί. (we take)",
+"options": [
+"πήραμε",
+"πάρουμε",
+"παίρνομε",
+"πάρτε"
+],
+"answer": "πάρουμε",
+"why": "ας πάρουμε.",
+"id": "irregular-aorists-8081cd64"
+},
+{
+"type": "write",
+"q": "\"I'll tell you tomorrow.\"",
+"answer": "Θα σου πω αύριο.",
+"accept": [
+"Θα σου το πω αύριο."
+],
+"why": "θα πω.",
+"id": "irregular-aorists-c889e0bc"
+},
+{
+"type": "write",
+"q": "\"I want to see you.\" (sg)",
+"answer": "Θέλω να σε δω.",
+"accept": [],
+"why": "να δω.",
+"id": "irregular-aorists-eb0fad54"
+},
+{
+"type": "write",
+"q": "\"We'll come at eight.\"",
+"answer": "Θα έρθουμε στις οχτώ.",
+"accept": [
+"Θα 'ρθουμε στις οχτώ.",
+"Θα έρθουμε στις οκτώ."
+],
+"why": "θα έρθουμε.",
+"id": "irregular-aorists-38955fba"
+},
+{
+"type": "write",
+"q": "\"What will you (sg) eat?\"",
+"answer": "Τι θα φας;",
+"accept": [],
+"why": "θα φας.",
+"id": "irregular-aorists-3da0696c"
+},
+{
+"type": "write",
+"q": "\"I must go.\"",
+"answer": "Πρέπει να πάω.",
+"accept": [
+"Πρέπει να φύγω."
+],
+"why": "να πάω.",
+"id": "irregular-aorists-cc529601"
+},
+{
+"type": "write",
+"q": "\"Will you (sg) take the car?\"",
+"answer": "Θα πάρεις το αυτοκίνητο;",
+"accept": [],
+"why": "θα πάρεις.",
+"id": "irregular-aorists-51ba72cd"
+},
+{
+"type": "order",
+"q": "\"I want to say something.\"",
+"answer": "Θέλω να πω κάτι.",
+"accept": [],
+"why": "να πω.",
+"id": "irregular-aorists-d596e427"
+},
+{
+"type": "order",
+"q": "\"Shall we go and drink a coffee?\"",
+"answer": "Πάμε να πιούμε έναν καφέ;",
+"accept": [],
+"why": "να πιούμε.",
+"id": "irregular-aorists-05c1bf42"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ιδιωματισμοί",
+"title": "Everyday idioms with irregular aorists",
+"body": [
+{
+"p": "These past forms turn up in fixed expressions you hear every day."
+},
+{
+"table": {
+"head": [
+"Expression",
+"Literally",
+"Meaning"
+],
+"rows": [
+[
+"Τα είπαμε.",
+"We said them.",
+"We've talked it over / we agreed."
+],
+[
+"Είπαμε!",
+"We said!",
+"We agreed, didn't we? (reminder)"
+],
+[
+"Είδες;",
+"Did you see?",
+"You see? / Told you."
+],
+[
+"Ήρθε η ώρα.",
+"The time came.",
+"It's time."
+],
+[
+"Μου ήρθε μια ιδέα.",
+"An idea came to me.",
+"I had an idea."
+],
+[
+"Έφαγα πόρτα.",
+"I ate door.",
+"I was turned away (at a club, or by someone)."
+],
+[
+"Την έπαθα.",
+"I suffered it.",
+"I fell for it / it happened to me."
+],
+[
+"Έμεινα κόκαλο.",
+"I stayed bone.",
+"I was stunned."
+],
+[
+"Πήγε καλά;",
+"Did it go well?",
+"How did it go?"
+],
+[
+"Μου βγήκε η ψυχή.",
+"My soul came out.",
+"It wore me out."
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "— Πώς πήγε η συνέντευξη; — Πήγε καλά!",
+"en": "— How did the interview go? — It went well!"
+},
+{
+"el": "Είδες; Σου το είπα!",
+"en": "You see? I told you!"
+},
+{
+"el": "Είπαμε, στις οχτώ, μην αργήσεις.",
+"en": "Like we said, eight o'clock, don't be late."
+},
+{
+"el": "Πήγα στο κλαμπ, αλλά έφαγα πόρτα.",
+"en": "I went to the club but got turned away."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"It's time to go.\"",
+"a": "Ήρθε η ώρα να φύγουμε.",
+"why": "έρχομαι → ήρθε."
+},
+{
+"q": "\"You see? I was right.\"",
+"a": "Είδες; Είχα δίκιο.",
+"why": "Είδες; = \"you see?\", είχα: έχω has one past."
+},
+{
+"q": "\"How did the exam go?\"",
+"a": "Πώς πήγε η εξέταση; | Πώς πήγε το διαγώνισμα;",
+"why": "πάω → πήγε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πώς ___ το ταξίδι; (did it go)",
+"options": [
+"πήγησε",
+"πήγε",
+"πάγε",
+"πήγαμε"
+],
+"answer": "πήγε",
+"why": "Πώς πήγε...;",
+"id": "irregular-aorists-4ff8f6b2"
+},
+{
+"type": "choice",
+"q": "Μου ___ μια ιδέα. (came)",
+"options": [
+"έρθηκε",
+"ήρθε",
+"ήρθα",
+"έρθει"
+],
+"answer": "ήρθε",
+"why": "Μου ήρθε μια ιδέα.",
+"id": "irregular-aorists-51f7f793"
+},
+{
+"type": "choice",
+"q": "Πήγα στο κλαμπ αλλά ___ πόρτα. (I got turned away)",
+"options": [
+"ήπια",
+"έφαγα",
+"είδα",
+"πήρα"
+],
+"answer": "έφαγα",
+"why": "τρώω πόρτα → έφαγα πόρτα.",
+"id": "irregular-aorists-733316f9"
+},
+{
+"type": "choice",
+"q": "Όταν το άκουσα, ___ κόκαλο. (I was stunned)",
+"options": [
+"πήγα",
+"έμεινα",
+"έπεσα",
+"βγήκα"
+],
+"answer": "έμεινα",
+"why": "μένω κόκαλο → έμεινα κόκαλο.",
+"id": "irregular-aorists-ff22d04d"
+},
+{
+"type": "choice",
+"q": "___; Σου το είπα! (You see?)",
+"options": [
+"Είδησες",
+"Είδες",
+"Βλέψες",
+"Δεις"
+],
+"answer": "Είδες",
+"why": "Είδες; = Told you.",
+"id": "irregular-aorists-4241d5be"
+},
+{
+"type": "write",
+"q": "\"We've talked it over.\"",
+"answer": "Τα είπαμε.",
+"accept": [],
+"why": "Fixed expression.",
+"id": "irregular-aorists-228c556b"
+},
+{
+"type": "write",
+"q": "\"I had an idea.\"",
+"answer": "Μου ήρθε μια ιδέα.",
+"accept": [],
+"why": "έρχομαι → ήρθε.",
+"id": "irregular-aorists-62aa4973"
+},
+{
+"type": "write",
+"q": "\"How did it go?\"",
+"answer": "Πώς πήγε;",
+"accept": [],
+"why": "πάω → πήγε.",
+"id": "irregular-aorists-ffba3ad1"
+},
+{
+"type": "write",
+"q": "\"I was stunned.\"",
+"answer": "Έμεινα κόκαλο.",
+"accept": [],
+"why": "μένω → έμεινα.",
+"id": "irregular-aorists-be4d1e15"
+},
+{
+"type": "order",
+"q": "\"It went well.\"",
+"answer": "Πήγε καλά.",
+"accept": [],
+"why": "πάω → πήγε.",
+"id": "irregular-aorists-fa13d685"
+}
+]
+}
+]
+}
+],
+"id": "irregular-aorists",
+"el": "Ανώμαλοι αόριστοι",
+"title": "Irregular aorists",
+"span": "A2–B1",
+"blurb": "The twenty or so everyday verbs whose past you simply learn by heart (είπα, είδα, ήρθα, πήγα, έφαγα, ήπια, πήρα...), with their dependent forms (να πω, να δω, να έρθω) and the idioms built on them.",
+"intro": [
+{
+"p": "A handful of very common verbs do not follow the -σα / -ψα / -ξα patterns. They are the verbs you use most, so they come up in almost every sentence about yesterday: **Τι είπες;** \"What did you say?\", **Ήρθε ο Νίκος.** \"Nikos came.\", **Πού πήγατε;** \"Where did you go?\". Learn each one as a set of three: present, aorist, dependent form."
+},
+{
+"links": [
+{
+"href": "#a2-irregular",
+"kind": "Lesson",
+"el": "Ανώμαλα ρήματα",
+"title": "The everyday irregular verbs"
+},
+{
+"href": "#verbs-aorist-irregular",
+"kind": "Lesson",
+"el": "Ανώμαλοι αόριστοι",
+"title": "Irregular perfectives: the strong verbs"
+},
+{
+"href": "#cards.irregular-aorists",
+"kind": "Card",
+"el": "Ανώμαλοι αόριστοι",
+"title": "Irregular aorists"
+},
+{
+"href": "#klisi",
+"kind": "Drill books",
+"el": "Τετράδια κλίσης",
+"title": "Declension and conjugation drill books"
+}
+]
+}
+],
+"num": 19
+}
