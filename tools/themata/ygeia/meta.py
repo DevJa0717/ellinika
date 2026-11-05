@@ -1,0 +1,6 @@
+SHELF = dict(
+ el="Υγεία, σώμα και ψυχή",
+ title="Health, body and mind: the body, illness, doctors, pharmacies, hospitals and well-being",
+ intro_el="Πώς λες πού πονάς, τι κάνεις με ένα κρύωμα, πώς κλείνεις ραντεβού με γιατρό, τι σου λέει ο φαρμακοποιός, τι γίνεται στα επείγοντα του νοσοκομείου, πώς είναι να περιμένεις παιδί στην Ελλάδα, πώς μιλάμε για το άγχος και την κατάθλιψη, και πώς φροντίζουμε το σώμα και τους ηλικιωμένους. Η υγεία με τις λέξεις της καθημερινής ζωής, από το «με πονάει η μέση μου» ως το εξιτήριο. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1+ και ανεβαίνουν ως το Γ1.",
+ intro_en="How to say where it hurts, what to do with a cold, how to book a doctor, what the pharmacist tells you, what happens in a hospital emergency department, what it is like to be expecting a child in Greece, how people talk about anxiety and depression, and how they look after their bodies and their elderly. Health in the words of everyday life, from “my lower back hurts” to the discharge note. The Greek text starts around B1+ and rises to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes, a quiz, words to keep and numbered sources; tap any Greek word to look it up. This reader explains how things work; it is not medical advice.",
+)

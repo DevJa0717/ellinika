@@ -1,0 +1,6 @@
+SHELF = dict(
+ el="Η καθημερινή ζωή στην Ελλάδα",
+ title="Everyday life in Greece: home, paperwork, money, shopping and getting around",
+ intro_el="Πώς βρίσκεις σπίτι, τι είναι τα κοινόχρηστα, πού βγάζεις ΑΦΜ και ΑΜΚΑ, πώς στέλνεις χρήματα με το κινητό, τι παίρνεις στη λαϊκή, πώς κάνεις παράπονο σε ένα κατάστημα και πώς κινείσαι με μετρό, ΚΤΕΛ και πλοίο. Η καθημερινή ζωή στην Ελλάδα, με τα λόγια που ακούς κάθε μέρα: διάλογοι, εκφράσεις και όλο το λεξιλόγιο του σπιτιού, των χαρτιών και του δρόμου. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1+ και ανεβαίνουν ως το Γ1.",
+ intro_en="How to find a flat, what the 'koinochrista' are, where to get a tax number and a social security number, how to pay with IRIS, what to buy at the street market, how to complain in a shop, and how to get around by metro, coach and ferry. Everyday life in Greece in the words you hear every day: dialogues, set phrases and the whole vocabulary of home, paperwork and the street. The Greek text starts around B1+ and rises to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes on the structures it uses, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+)

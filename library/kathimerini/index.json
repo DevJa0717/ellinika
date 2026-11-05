@@ -1,0 +1,165 @@
+{
+ "kind": "bilingual",
+ "el": "Η καθημερινή ζωή στην Ελλάδα",
+ "title": "Everyday life in Greece: home, paperwork, money, shopping and getting around",
+ "intro_el": "Πώς βρίσκεις σπίτι, τι είναι τα κοινόχρηστα, πού βγάζεις ΑΦΜ και ΑΜΚΑ, πώς στέλνεις χρήματα με το κινητό, τι παίρνεις στη λαϊκή, πώς κάνεις παράπονο σε ένα κατάστημα και πώς κινείσαι με μετρό, ΚΤΕΛ και πλοίο. Η καθημερινή ζωή στην Ελλάδα, με τα λόγια που ακούς κάθε μέρα: διάλογοι, εκφράσεις και όλο το λεξιλόγιο του σπιτιού, των χαρτιών και του δρόμου. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1+ και ανεβαίνουν ως το Γ1.",
+ "intro_en": "How to find a flat, what the 'koinochrista' are, where to get a tax number and a social security number, how to pay with IRIS, what to buy at the street market, how to complain in a shop, and how to get around by metro, coach and ferry. Everyday life in Greece in the words you hear every day: dialogues, set phrases and the whole vocabulary of home, paperwork and the street. The Greek text starts around B1+ and rises to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes on the structures it uses, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+ "parts": [
+  {
+   "id": "spiti",
+   "el": "Το σπίτι",
+   "en": "Home",
+   "intro_el": "Ψάχνουμε σπίτι, υπογράφουμε συμβόλαιο, μαθαίνουμε να ζούμε σε πολυκατοικία, πληρώνουμε λογαριασμούς και φωνάζουμε τον μάστορα.",
+   "intro_en": "Looking for a flat, signing a lease, learning to live in an apartment block, paying the bills and calling the repairman."
+  },
+  {
+   "id": "chartia",
+   "el": "Χαρτιά και χρήματα",
+   "en": "Paperwork and money",
+   "intro_el": "ΑΦΜ, ΑΜΚΑ και κωδικοί, ΚΕΠ και gov.gr, εφορία και φόροι, τράπεζες, κάρτες και IRIS: οι λέξεις της γραφειοκρατίας και του πορτοφολιού.",
+   "intro_en": "Tax and social security numbers and passwords, citizens' service centres and gov.gr, the tax office and taxes, banks, cards and IRIS: the words of bureaucracy and the wallet."
+  },
+  {
+   "id": "psonia",
+   "el": "Ψώνια",
+   "en": "Shopping",
+   "intro_el": "Η λαϊκή και το σούπερ μάρκετ, οι εκπτώσεις, οι επιστροφές και τα παράπονα, το ταχυδρομείο και οι αγορές από το ίντερνετ.",
+   "intro_en": "The street market and the supermarket, sales, returns and complaints, the post office and online shopping."
+  },
+  {
+   "id": "metakiniseis",
+   "el": "Μετακινήσεις",
+   "en": "Getting around",
+   "intro_el": "Μετρό και λεωφορεία στην πόλη, το αυτοκίνητο με το ΚΤΕΟ και το παρκάρισμα, και τα ΚΤΕΛ, τα τρένα, τα πλοία και τα ταξί για πιο μακριά.",
+   "intro_en": "Metro and buses in town, the car with its roadworthiness test and parking, and coaches, trains, ferries and taxis further afield."
+  }
+ ],
+ "items": [
+  {
+   "id": "noiki",
+   "file": "noiki.json",
+   "el": "Ψάχνοντας σπίτι για νοίκι",
+   "title": "Looking for a flat to rent",
+   "level": "B1+",
+   "part": "spiti",
+   "dates": ""
+  },
+  {
+   "id": "polykatoikia",
+   "file": "polykatoikia.json",
+   "el": "Η ζωή στην πολυκατοικία",
+   "title": "Life in the apartment block",
+   "level": "B1+",
+   "part": "spiti",
+   "dates": ""
+  },
+  {
+   "id": "logariasmoi",
+   "file": "logariasmoi.json",
+   "el": "Λογαριασμοί: ρεύμα, νερό, ίντερνετ",
+   "title": "Bills: electricity, water, internet",
+   "level": "B2",
+   "part": "spiti",
+   "dates": ""
+  },
+  {
+   "id": "mastores",
+   "file": "mastores.json",
+   "el": "Μάστορες και βλάβες",
+   "title": "Repairmen and breakdowns",
+   "level": "B2",
+   "part": "spiti",
+   "dates": ""
+  },
+  {
+   "id": "afm-amka",
+   "file": "afm-amka.json",
+   "el": "ΑΦΜ, ΑΜΚΑ και κωδικοί",
+   "title": "Tax number, social security number and passwords",
+   "level": "B1+",
+   "part": "chartia",
+   "dates": ""
+  },
+  {
+   "id": "kep-govgr",
+   "file": "kep-govgr.json",
+   "el": "ΚΕΠ, gov.gr και ουρές",
+   "title": "Citizens' service centres, gov.gr and queues",
+   "level": "B2",
+   "part": "chartia",
+   "dates": ""
+  },
+  {
+   "id": "eforia",
+   "file": "eforia.json",
+   "el": "Η εφορία και οι φόροι",
+   "title": "The tax office and taxes",
+   "level": "B2",
+   "part": "chartia",
+   "dates": ""
+  },
+  {
+   "id": "trapezes",
+   "file": "trapezes.json",
+   "el": "Τράπεζες, κάρτες και IRIS",
+   "title": "Banks, cards and IRIS",
+   "level": "B2",
+   "part": "chartia",
+   "dates": ""
+  },
+  {
+   "id": "laiki",
+   "file": "laiki.json",
+   "el": "Στη λαϊκή και στο σούπερ μάρκετ",
+   "title": "At the street market and the supermarket",
+   "level": "B1+",
+   "part": "psonia",
+   "dates": ""
+  },
+  {
+   "id": "parapona",
+   "file": "parapona.json",
+   "el": "Εκπτώσεις, επιστροφές και παράπονα",
+   "title": "Sales, returns and complaints",
+   "level": "B2",
+   "part": "psonia",
+   "dates": ""
+  },
+  {
+   "id": "tachydromeio",
+   "file": "tachydromeio.json",
+   "el": "Ταχυδρομείο, κούριερ και αγορές από το ίντερνετ",
+   "title": "Post, couriers and online shopping",
+   "level": "B2",
+   "part": "psonia",
+   "dates": ""
+  },
+  {
+   "id": "mmm",
+   "file": "mmm.json",
+   "el": "Με τα μέσα μαζικής μεταφοράς",
+   "title": "By public transport",
+   "level": "B1+",
+   "part": "metakiniseis",
+   "dates": ""
+  },
+  {
+   "id": "aftokinito",
+   "file": "aftokinito.json",
+   "el": "Το αυτοκίνητο",
+   "title": "The car",
+   "level": "B2",
+   "part": "metakiniseis",
+   "dates": ""
+  },
+  {
+   "id": "taxidi",
+   "file": "taxidi.json",
+   "el": "ΚΤΕΛ, τρένα, πλοία και ταξί",
+   "title": "Coaches, trains, ferries and taxis",
+   "level": "B2",
+   "part": "metakiniseis",
+   "dates": ""
+  }
+ ]
+}
