@@ -82,7 +82,7 @@ function checkString(file, jp, s0, ctx, lenient) {
   if (greekShare > 0.6) {
     for (const m of s.matchAll(/([^.!;:\n"“”()?]*)\?/g)) if (GR.test(m[1]) && !/[A-Za-z]/.test(m[1]) && !/https?:/.test(s)) { add(file, jp, "latin-question-mark", !lenient, m[1].trim().slice(-40) + "?", s); break; }
     for (const m of s.matchAll(/(^|[\s«(])([Ͱ-Ͽἀ-῿]{2,})\s+\2(?=[\s.,;!·»)]|$)/g)) if (!["πολύ", "σιγά", "λίγο", "κάτω", "πάνω", "ένα", "δυο", "γρήγορα", "όλο", "μέρα", "μόνο", "ναι", "όχι", "ώρα", "τώρα", "έλα", "αργά", "χέρι", "πότε", "άλλο", "ένας", "μια", "κοντά", "στάλα", "πέρα", "σπίτι", "πόρτα", "λέξη", "κομμάτι", "βήμα"].includes(m[2].toLowerCase())) add(file, jp, "doubled-word", !lenient && HARD_DOUBLE.has(m[2].toLowerCase()), m[2], s);
-    if (/[Ͱ-Ͽἀ-῿] [,.;:!·](?![.\d])/.test(s) && !/ \.\.\./.test(s)) add(file, jp, "space-before-punct", false, "", s);
+    if (/[Ͱ-Ͽἀ-῿] [,.;:!·](?![.\d]|(?<=·) )/.test(s) && !/ \.\.\./.test(s)) add(file, jp, "space-before-punct", false, "", s);
     const op = (s.match(/«/g) || []).length, cl = (s.match(/»/g) || []).length;
     if (op !== cl && s.length < 2000) add(file, jp, "unbalanced-quotes", false, `«${op} »${cl}`, s);
   }

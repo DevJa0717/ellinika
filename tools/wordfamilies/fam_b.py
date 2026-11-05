@@ -369,7 +369,7 @@ dict(id="prefix-4", part="Β", el="Άρνηση, αξιολόγηση, επαν�
  ]),
 
 dict(id="prefix-5", part="Β", el="Ποσότητα, ένταση, εαυτός", title="Quantity, intensity and self: πολυ-, μονο-, ημι-/μισο-, αυτο-, αρχι-, θεο-, ολο-, ψιλο-", level="B1–C1",
- intro=[{"p": "The first part of these compounds is an adjective or adverb: πολύς, μόνος, μισός, αυτός, ολος. Colloquial Greek adds a set of intensifiers (θεο-, κατα-, ολο-, πεντα-, τρισ-) and one softener, **ψιλο-** *a bit*."}],
+ intro=[{"p": "The first part of these compounds is an adjective or adverb: πολύς, μόνος, μισός, αυτός, όλος. Colloquial Greek adds a set of intensifiers (θεο-, κατα-, ολο-, πεντα-, τρισ-) and one softener, **ψιλο-** *a bit*."}],
  groups=[
   G("πολυ- / ολιγο- / μονο-", "many / few / one", m="""
 πολυκατοικία|apartment block

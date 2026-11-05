@@ -45,3 +45,6 @@ Run `node tools/audit/links.js --web | grep -E " 404| 410"` to list the files th
 - Drill books re-extract (341890f): answers.js 0 unknown words in answer keys.
 - Theoria ch. 45 and the 7 "Towards B2" cards (f7f9f5b): clean.
 - links.js: a `file` with an online `url` fallback is no longer reported missing (the 35 MB C1 listening mp3 is deliberately not in the repo).
+- `lessons/videos-c1.json`, `data/c1/videos/videos-c1.json`: στο Τέξας ; → στο Τέξας; (space before ; in subtitles)
+- `lessons/videos-c1.json`, `data/c1/videos/videos-c1.json`: στο Κολούμπια ; → στο Κολούμπια; (space before ; in subtitles)
+- `library/families/prefix-5.json`, `tools/wordfamilies/fam_b.py`: αυτός, ολος. → αυτός, όλος. (missing accent)
