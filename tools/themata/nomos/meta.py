@@ -1,0 +1,6 @@
+SHELF = dict(
+ el="Νόμος, αστυνομία και δικαιοσύνη",
+ title="Law, police and justice: reporting a crime, traffic fines, scams, the courts, a criminal trial, prisons and corruption",
+ intro_el="Τι κάνεις όταν σου κλέψουν το πορτοφόλι, πώς κάνεις καταγγελία και τι είναι η μήνυση, τι γράφει ο νέος Κώδικας Οδικής Κυκλοφορίας, πώς καταλαβαίνεις μια τηλεφωνική απάτη, πώς οργανώνονται τα δικαστήρια, τι γίνεται σε μια ποινική δίκη, πώς είναι οι φυλακές και γιατί η διαφθορά είναι ακόμα πρόβλημα. Η γλώσσα του νόμου, από το αστυνομικό τμήμα ως τον Άρειο Πάγο. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1+ και ανεβαίνουν ως το Γ1.",
+ intro_en="What to do when your wallet is stolen, how to report it and what a μήνυση (criminal complaint) is, what the new Road Traffic Code says, how to spot a phone scam, how the courts are organised, what happens in a criminal trial, what prisons are like and why corruption is still a problem. The language of the law, from the police station to the Supreme Court. The Greek text starts around B1+ and rises to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes, a quiz, words to keep and numbered sources; tap any Greek word to look it up. This reader explains how things work; it is not legal advice.",
+)
