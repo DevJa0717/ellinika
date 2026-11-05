@@ -1186,6 +1186,160 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: είμαι, έχω and impersonal verbs",
+"body": [
+{
+"p": "**Είμαι** and **έχω** have only one past (**ήμουν, είχα**) and one future (**θα είμαι, θα έχω**). Greek uses **έχω** where English uses \"be\" for some states: **έχω δίκιο** \"I'm right\", **έχω κέφια** \"I'm in a good mood\", **έχει κρύο** \"it's cold\". Impersonal verbs come in the third singular: **πρέπει, μπορεί, χρειάζεται, αξίζει, πειράζει, φαίνεται, κάνει ζέστη, βρέχει**."
+},
+{
+"solved": [
+{
+"q": "\"You (sg) were right.\"",
+"a": "Είχες δίκιο.",
+"why": "έχω δίκιο = be right."
+},
+{
+"q": "\"It's very hot today.\"",
+"a": "Κάνει πολλή ζέστη σήμερα. | Σήμερα κάνει πολλή ζέστη. | Έχει πολλή ζέστη σήμερα.",
+"why": "Weather: κάνει / έχει + noun."
+},
+{
+"q": "\"It's worth seeing.\"",
+"a": "Αξίζει να το δεις. | Αξίζει να το δείτε. | Αξίζει να το δει κανείς.",
+"why": "αξίζει + να."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Δεν ___ χρόνο αύριο. (I'll have)",
+"options": [
+"θα είχα",
+"θα έχω",
+"έχω θα",
+"θα έξω"
+],
+"answer": "θα έχω",
+"why": "θα έχω.",
+"id": "eimai-echo-d0833fe9"
+},
+{
+"type": "choice",
+"q": "___ να φύγουμε τώρα. (we must)",
+"options": [
+"Πρέπουμε",
+"Πρέπει",
+"Πρέπουν",
+"Πρέπαμε"
+],
+"answer": "Πρέπει",
+"why": "πρέπει never changes.",
+"id": "eimai-echo-82b6fa7a"
+},
+{
+"type": "choice",
+"q": "___ αν ανοίξω το παράθυρο; (does it bother you)",
+"options": [
+"Πειράζεις",
+"Σε πειράζει",
+"Πειράζεσαι",
+"Σου πειράζει"
+],
+"answer": "Σε πειράζει",
+"why": "Impersonal πειράζει + accusative σε.",
+"id": "eimai-echo-9ea3985e"
+},
+{
+"type": "choice",
+"q": "Σήμερα ___ πολύ αέρα.",
+"options": [
+"είναι",
+"έχει",
+"κάνει να",
+"έχουν"
+],
+"answer": "έχει",
+"why": "Weather: έχει αέρα (also φυσάει).",
+"id": "eimai-echo-ba858c09"
+},
+{
+"type": "choice",
+"q": "___ ότι θα βρέξει. (it seems)",
+"options": [
+"Φαίνομαι",
+"Φαίνεται",
+"Φαίνονται",
+"Φάνηκα"
+],
+"answer": "Φαίνεται",
+"why": "Impersonal φαίνεται.",
+"id": "eimai-echo-46e562de"
+},
+{
+"type": "write",
+"q": "\"We were tired.\"",
+"answer": "Ήμασταν κουρασμένοι.",
+"accept": [
+"Ήμαστε κουρασμένοι.",
+"Ήμασταν κουρασμένες."
+],
+"why": "εμείς: ήμασταν.",
+"id": "eimai-echo-ee729f02"
+},
+{
+"type": "write",
+"q": "\"I'm hungry.\"",
+"answer": "Πεινάω.",
+"accept": [
+"Πεινάω!"
+],
+"why": "Greek uses a verb: πεινάω.",
+"id": "eimai-echo-4e66bd04"
+},
+{
+"type": "write",
+"q": "\"It doesn't matter.\"",
+"answer": "Δεν πειράζει.",
+"accept": [],
+"why": "Impersonal.",
+"id": "eimai-echo-13280c79"
+},
+{
+"type": "write",
+"q": "\"There is a problem.\"",
+"answer": "Υπάρχει ένα πρόβλημα.",
+"accept": [
+"Έχει ένα πρόβλημα.",
+"Υπάρχει πρόβλημα."
+],
+"why": "υπάρχει = there is.",
+"id": "eimai-echo-8e46c9fa"
+},
+{
+"type": "order",
+"q": "\"You (pl) will be fine.\"",
+"answer": "Θα είστε καλά.",
+"accept": [],
+"why": "θα είστε.",
+"id": "eimai-echo-6033a4df"
+},
+{
+"type": "order",
+"q": "\"It might rain.\"",
+"answer": "Μπορεί να βρέξει.",
+"accept": [],
+"why": "μπορεί να = may.",
+"id": "eimai-echo-82ab7a23"
+}
+]
+}
+]
 }
 ],
 "id": "eimai-echo",

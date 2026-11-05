@@ -1098,6 +1098,167 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: θα + present or θα + dependent?",
+"body": [
+{
+"p": "**Θα + dependent** is the everyday future for one action: **Θα σου γράψω αύριο.** **Θα + present** is for something ongoing or repeated: **Θα σου γράφω κάθε μέρα.** With **θα** the verb never takes an augment or a past ending. **Θα** + imperfect means \"would\": **Θα ήθελα ένα νερό.**"
+},
+{
+"solved": [
+{
+"q": "\"I'll call you (sg) tonight.\"",
+"a": "Θα σε πάρω τηλέφωνο απόψε. | Θα σου τηλεφωνήσω απόψε. | Απόψε θα σε πάρω τηλέφωνο.",
+"why": "One action: θα + dependent."
+},
+{
+"q": "\"From now on I'll go to bed early.\"",
+"a": "Από τώρα και στο εξής θα πηγαίνω για ύπνο νωρίς. | Από δω και πέρα θα κοιμάμαι νωρίς. | Από τώρα θα πηγαίνω για ύπνο νωρίς.",
+"why": "A new habit: θα + present."
+},
+{
+"q": "\"I would like a coffee, please.\"",
+"a": "Θα ήθελα έναν καφέ, παρακαλώ.",
+"why": "θα + imperfect = would."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Αύριο ___ τη γιαγιά μου. (I'll visit)",
+"options": [
+"θα επισκέπτομαι",
+"θα επισκεφτώ",
+"θα επισκέφτηκα",
+"επισκεφτώ θα"
+],
+"answer": "θα επισκεφτώ",
+"why": "One visit: θα + dependent.",
+"id": "future-26b0fc55"
+},
+{
+"type": "choice",
+"q": "Όταν μένω στο χωριό, ___ κάθε πρωί. (I'll swim)",
+"options": [
+"θα κολυμπήσω",
+"θα κολυμπάω",
+"θα κολύμπησα",
+"κολυμπήσω"
+],
+"answer": "θα κολυμπάω",
+"why": "Every morning: θα + present.",
+"id": "future-8f9f819b"
+},
+{
+"type": "choice",
+"q": "Τι ___ απόψε; (will you do)",
+"options": [
+"θα κάνες",
+"θα κάνεις",
+"θα έκανες κάνει",
+"θα έκανεις"
+],
+"answer": "θα κάνεις",
+"why": "One-off plan; κάνω has the same stem in both: θα κάνεις.",
+"id": "future-def1515b"
+},
+{
+"type": "choice",
+"q": "Θα ___ στις πέντε. (we'll leave)",
+"options": [
+"φύγαμε",
+"φύγουμε",
+"φεύγαμε",
+"φευγούμε"
+],
+"answer": "φύγουμε",
+"why": "θα + dependent, no past ending.",
+"id": "future-274c1c1d"
+},
+{
+"type": "choice",
+"q": "Μην ανησυχείς, θα σου τα ___. (I'll explain)",
+"options": [
+"εξηγήσα",
+"εξηγήσω",
+"εξήγησα",
+"εξηγάω θα"
+],
+"answer": "εξηγήσω",
+"why": "θα + dependent.",
+"id": "future-43870bf0"
+},
+{
+"type": "choice",
+"q": "___ να σας ρωτήσω κάτι. (I would like)",
+"options": [
+"Θα θέλω",
+"Θα ήθελα",
+"Θέλησα",
+"Θα θελήσω"
+],
+"answer": "Θα ήθελα",
+"why": "Polite: θα + imperfect.",
+"id": "future-5569891a"
+},
+{
+"type": "write",
+"q": "Future of one action, \"we'll see\"",
+"answer": "θα δούμε",
+"accept": [],
+"why": "βλέπω → δω.",
+"id": "future-164ecad3"
+},
+{
+"type": "write",
+"q": "Future of one action, \"you (pl) will eat\"",
+"answer": "θα φάτε",
+"accept": [],
+"why": "τρώω → φάω.",
+"id": "future-69743b0c"
+},
+{
+"type": "write",
+"q": "Future of one action, \"she will come\"",
+"answer": "θα έρθει",
+"accept": [
+"θα 'ρθει"
+],
+"why": "έρχομαι → έρθω.",
+"id": "future-8455267b"
+},
+{
+"type": "write",
+"q": "\"I'll be waiting for you (sg).\"",
+"answer": "Θα σε περιμένω.",
+"accept": [],
+"why": "Ongoing: θα + present.",
+"id": "future-b002175b"
+},
+{
+"type": "order",
+"q": "\"Will you (sg) help me?\"",
+"answer": "Θα με βοηθήσεις;",
+"accept": [],
+"why": "One action.",
+"id": "future-b63dd3bc"
+},
+{
+"type": "order",
+"q": "\"We'll be in touch.\"",
+"answer": "Θα τα πούμε.",
+"accept": [],
+"why": "Fixed phrase θα τα πούμε.",
+"id": "future-c9993a33"
+}
+]
+}
+]
 }
 ],
 "id": "future",

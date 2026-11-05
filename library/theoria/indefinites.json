@@ -977,6 +977,169 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: some-, any-, no-, every-",
+"body": [
+{
+"p": "**Κάποιος, κάτι, κάπου, κάποτε** = some-. **Κανείς (κανένας), τίποτα, πουθενά, ποτέ** = \"no-\" with δεν and \"any-\" in questions. **Όλοι, όλα, καθένας, κάθε, παντού, πάντα** = every-. **Κάθε** never changes: **κάθε μέρα, κάθε φορά**. **Όλος** takes the article: **όλη η μέρα** \"the whole day\"."
+},
+{
+"solved": [
+{
+"q": "\"Nobody called.\"",
+"a": "Δεν πήρε κανείς τηλέφωνο. | Κανείς δεν πήρε τηλέφωνο. | Δεν τηλεφώνησε κανείς.",
+"why": "κανείς with δεν."
+},
+{
+"q": "\"Did anyone call?\"",
+"a": "Πήρε κανείς τηλέφωνο; | Τηλεφώνησε κανείς;",
+"why": "In a question κανείς = anyone."
+},
+{
+"q": "\"I've looked everywhere.\"",
+"a": "Έψαξα παντού. | Έχω ψάξει παντού.",
+"why": "παντού = everywhere."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θα ήθελα ___ γλυκό. (something)",
+"options": [
+"κανένας",
+"κάτι",
+"κάποιος",
+"πουθενά"
+],
+"answer": "κάτι",
+"why": "Some-: κάτι.",
+"id": "indefinites-4eaec1b9"
+},
+{
+"type": "choice",
+"q": "Δεν είδα ___. (anything)",
+"options": [
+"κάτι",
+"τίποτα",
+"κανένας τίποτα",
+"πουθενά"
+],
+"answer": "τίποτα",
+"why": "With δεν: τίποτα.",
+"id": "indefinites-a6a10a8b"
+},
+{
+"type": "choice",
+"q": "Δεν πάμε ___ φέτος. (anywhere)",
+"options": [
+"κάπου",
+"πουθενά",
+"παντού",
+"ποτέ"
+],
+"answer": "πουθενά",
+"why": "With δεν: πουθενά.",
+"id": "indefinites-b6e88233"
+},
+{
+"type": "choice",
+"q": "Πηγαίνω στο γυμναστήριο ___ μέρα. (every)",
+"options": [
+"όλη",
+"κάθε",
+"κάθε μία η",
+"καθένα"
+],
+"answer": "κάθε",
+"why": "κάθε never changes.",
+"id": "indefinites-f811ca69"
+},
+{
+"type": "choice",
+"q": "Έβρεχε ___ τη μέρα. (all)",
+"options": [
+"κάθε",
+"όλη",
+"όλο",
+"όλη η"
+],
+"answer": "όλη",
+"why": "όλη + article: όλη τη μέρα.",
+"id": "indefinites-8fee1cc9"
+},
+{
+"type": "choice",
+"q": "___ έχει τη γνώμη του. (everyone)",
+"options": [
+"Κάθε",
+"Καθένας",
+"Όλοι έχει",
+"Κανένας"
+],
+"answer": "Καθένας",
+"why": "καθένας + singular verb.",
+"id": "indefinites-189e0797"
+},
+{
+"type": "write",
+"q": "\"somewhere in the centre\"",
+"answer": "κάπου στο κέντρο",
+"accept": [],
+"why": "κάπου = somewhere.",
+"id": "indefinites-e85396dd"
+},
+{
+"type": "write",
+"q": "\"I never drink coffee.\"",
+"answer": "Δεν πίνω ποτέ καφέ.",
+"accept": [
+"Ποτέ δεν πίνω καφέ."
+],
+"why": "ποτέ with δεν.",
+"id": "indefinites-76dde40b"
+},
+{
+"type": "write",
+"q": "\"all the children\"",
+"answer": "όλα τα παιδιά",
+"accept": [],
+"why": "όλος + article.",
+"id": "indefinites-31622725"
+},
+{
+"type": "write",
+"q": "\"Someone is at the door.\"",
+"answer": "Κάποιος είναι στην πόρτα.",
+"accept": [
+"Είναι κάποιος στην πόρτα."
+],
+"why": "κάποιος = someone.",
+"id": "indefinites-92b74bd7"
+},
+{
+"type": "order",
+"q": "\"Have you (sg) ever been to Rhodes?\"",
+"answer": "Έχεις πάει ποτέ στη Ρόδο;",
+"accept": [],
+"why": "In a question ποτέ = ever.",
+"id": "indefinites-d63d0785"
+},
+{
+"type": "order",
+"q": "\"There is no milk at all.\"",
+"answer": "Δεν υπάρχει καθόλου γάλα.",
+"accept": [],
+"why": "καθόλου = at all.",
+"id": "indefinites-da413178"
+}
+]
+}
+]
 }
 ],
 "id": "indefinites",

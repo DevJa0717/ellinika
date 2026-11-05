@@ -1215,6 +1215,152 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: the passive past and future",
+"body": [
+{
+"p": "The passive aorist ends in **-θηκα** or **-τηκα** (**γράφτηκα, ντύθηκα, χάθηκα**) and the passive dependent in **-θώ / -τώ** (**να γραφτώ, θα χαθώ**), stressed on the ending. The passive imperfect ends in **-όμουν**: **γραφόμουν**. Many common verbs are deponent in the past too: **ήρθα** (έρχομαι), **κοιμήθηκα** (κοιμάμαι), **θυμήθηκα** (θυμάμαι)."
+},
+{
+"solved": [
+{
+"q": "\"The house was built in 1950.\"",
+"a": "Το σπίτι χτίστηκε το 1950. | Το σπίτι κτίστηκε το 1950.",
+"why": "χτίζω → χτίστηκε."
+},
+{
+"q": "\"We got lost in the old town.\"",
+"a": "Χαθήκαμε στην παλιά πόλη.",
+"why": "χάνομαι → χάθηκα; εμείς: χαθήκαμε, the stress moves."
+},
+{
+"q": "\"You'll (sg) get tired.\"",
+"a": "Θα κουραστείς.",
+"why": "Passive dependent: κουραστώ, κουραστείς."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Χθες ___ πολύ αργά. (I fell asleep)",
+"options": [
+"κοιμόμουν",
+"κοιμήθηκα",
+"κοιμηθώ",
+"κοιμήθηκε"
+],
+"answer": "κοιμήθηκα",
+"why": "One event: aorist.",
+"id": "passive-past-fbeac7cd"
+},
+{
+"type": "choice",
+"q": "Το παιδί ___ πέρσι. (was born)",
+"options": [
+"γεννιέται",
+"γεννήθηκε",
+"γεννήθηκα",
+"γεννηθεί"
+],
+"answer": "γεννήθηκε",
+"why": "αυτό: -ηκε.",
+"id": "passive-past-0b32745f"
+},
+{
+"type": "choice",
+"q": "Θα ___ στις οχτώ. (we'll meet)",
+"options": [
+"συναντηθήκαμε",
+"συναντηθούμε",
+"συναντιόμαστε θα",
+"συναντούμε"
+],
+"answer": "συναντηθούμε",
+"why": "Passive dependent: -θούμε.",
+"id": "passive-past-42cf51c1"
+},
+{
+"type": "choice",
+"q": "Τα εισιτήρια ___ σε μία ώρα. (were sold)",
+"options": [
+"πουλιόντουσαν",
+"πουλήθηκαν",
+"πουληθούν",
+"πούλησαν"
+],
+"answer": "πουλήθηκαν",
+"why": "Passive aorist, αυτά: -ηκαν.",
+"id": "passive-past-5f5b8ab1"
+},
+{
+"type": "choice",
+"q": "Μην ___! (get angry, sg)",
+"options": [
+"θυμώσεις θα",
+"θυμώσεις",
+"θύμωσες",
+"θυμώνεσαι"
+],
+"answer": "θυμώσεις",
+"why": "θυμώνω: μην + dependent.",
+"id": "passive-past-56853dea"
+},
+{
+"type": "write",
+"q": "Passive aorist of **πληρώνω**, εγώ",
+"answer": "πληρώθηκα",
+"accept": [],
+"why": "\"I got paid.\"",
+"id": "passive-past-dd95d714"
+},
+{
+"type": "write",
+"q": "Passive aorist of **ντύνω**, εμείς",
+"answer": "ντυθήκαμε",
+"accept": [],
+"why": "Stress moves in 1st/2nd plural.",
+"id": "passive-past-d860451c"
+},
+{
+"type": "write",
+"q": "Passive dependent of **βρίσκω**, αυτός",
+"answer": "βρεθεί",
+"accept": [],
+"why": "βρίσκομαι → βρέθηκα, βρεθώ.",
+"id": "passive-past-9ceccfa2"
+},
+{
+"type": "write",
+"q": "\"I remembered.\"",
+"answer": "Θυμήθηκα.",
+"accept": [],
+"why": "θυμάμαι → θυμήθηκα.",
+"id": "passive-past-b6172c7a"
+},
+{
+"type": "order",
+"q": "\"The meeting was cancelled.\"",
+"answer": "Η συνάντηση ακυρώθηκε.",
+"accept": [],
+"why": "ακυρώνω → ακυρώθηκε.",
+"id": "passive-past-6c12cbb0"
+},
+{
+"type": "order",
+"q": "\"When will we see each other?\"",
+"answer": "Πότε θα βρεθούμε;",
+"accept": [],
+"why": "βρίσκομαι → θα βρεθούμε.",
+"id": "passive-past-480eaf1e"
+}
+]
+}
+]
 }
 ],
 "id": "passive-past",

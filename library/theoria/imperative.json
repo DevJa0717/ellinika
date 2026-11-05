@@ -1196,6 +1196,157 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: giving instructions",
+"body": [
+{
+"p": "Use the **perfective** imperative for one action (**Κλείσε την πόρτα!**) and the **imperfective** for a general rule or a repeated action (**Κλείνε την πόρτα όταν βγαίνεις.**). For \"don't\", Greek has no negative imperative: use **μην + dependent** (one time) or **μην + present** (in general): **Μην αργήσεις! Μην αργείς!** Polite forms use the plural: **Περάστε! Καθίστε!**"
+},
+{
+"solved": [
+{
+"q": "\"Sit down (pl), please.\"",
+"a": "Καθίστε, παρακαλώ. | Καθίστε παρακαλώ.",
+"why": "καθίζω/κάθομαι → καθίστε."
+},
+{
+"q": "\"Don't forget (sg) your keys!\"",
+"a": "Μην ξεχάσεις τα κλειδιά σου! | Μην ξεχάσεις τα κλειδιά σου.",
+"why": "One-time negative: μην + dependent."
+},
+{
+"q": "\"Give (sg) it to me.\"",
+"a": "Δώσ' μου το. | Δώσε μου το.",
+"why": "Pronouns after the imperative, genitive first."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ την πόρτα, κάνει κρύο! (close, sg)",
+"options": [
+"Κλείνεις",
+"Κλείσε",
+"Κλείσεις",
+"Να κλείσεις θα"
+],
+"answer": "Κλείσε",
+"why": "One action: perfective imperative.",
+"id": "imperative-a59ba97a"
+},
+{
+"type": "choice",
+"q": "Μην ___ τόσο γρήγορα! (talk, in general)",
+"options": [
+"μιλήσεις",
+"μιλάς",
+"μίλα",
+"μιλήσε"
+],
+"answer": "μιλάς",
+"why": "In general: μην + present.",
+"id": "imperative-34e76070"
+},
+{
+"type": "choice",
+"q": "___ μου το αλάτι, σε παρακαλώ. (pass, sg)",
+"options": [
+"Δίνεις",
+"Δώσε",
+"Δώσεις",
+"Δόσε"
+],
+"answer": "Δώσε",
+"why": "δίνω → δώσε.",
+"id": "imperative-81ecefd4"
+},
+{
+"type": "choice",
+"q": "___ μέσα, παρακαλώ. (come in, pl)",
+"options": [
+"Περάσετε",
+"Περάστε",
+"Περνάτε μην",
+"Πέρασε"
+],
+"answer": "Περάστε",
+"why": "Polite plural.",
+"id": "imperative-82794d94"
+},
+{
+"type": "choice",
+"q": "Μην ___ τίποτα στη μαμά. (say, sg, this time)",
+"options": [
+"λες",
+"πεις",
+"πες",
+"λέγε"
+],
+"answer": "πεις",
+"why": "One time: μην + dependent.",
+"id": "imperative-21d63d9a"
+},
+{
+"type": "write",
+"q": "Imperative of **έρχομαι**, sg",
+"answer": "έλα",
+"accept": [],
+"why": "Irregular.",
+"id": "imperative-3a715ecf"
+},
+{
+"type": "write",
+"q": "Imperative of **έρχομαι**, pl",
+"answer": "ελάτε",
+"accept": [],
+"why": "Irregular.",
+"id": "imperative-6931c05b"
+},
+{
+"type": "write",
+"q": "Imperative of **ανεβαίνω**, sg (one time)",
+"answer": "ανέβα",
+"accept": [],
+"why": "Irregular.",
+"id": "imperative-a3080a36"
+},
+{
+"type": "write",
+"q": "\"Don't worry (sg)!\"",
+"answer": "Μην ανησυχείς!",
+"accept": [
+"Μην ανησυχείς.",
+"Μη στεναχωριέσαι!"
+],
+"why": "In general: μην + present.",
+"id": "imperative-309325bb"
+},
+{
+"type": "order",
+"q": "\"Wait (pl) here a moment.\"",
+"answer": "Περιμένετε εδώ λίγο.",
+"accept": [
+"Περιμένετε λίγο εδώ."
+],
+"why": "περιμένω has one imperative form.",
+"id": "imperative-c327fa37"
+},
+{
+"type": "order",
+"q": "\"Write (sg) to me when you arrive.\"",
+"answer": "Γράψε μου όταν φτάσεις.",
+"accept": [],
+"why": "Perfective + όταν + dependent.",
+"id": "imperative-7ac439db"
+}
+]
+}
+]
 }
 ],
 "id": "imperative",

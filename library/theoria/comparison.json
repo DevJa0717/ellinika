@@ -1043,6 +1043,162 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: more, most, as... as",
+"body": [
+{
+"p": "The comparative is **πιο + adjective** (**πιο ακριβός**) or the one-word form in **-ότερος** (**ακριβότερος**). \"Than\" is **από** + accusative, or **παρά** before a clause or a non-noun. The superlative is the article + comparative: **ο πιο ακριβός / ο ακριβότερος**. Irregular: **καλός → καλύτερος, κακός → χειρότερος, μεγάλος → μεγαλύτερος, πολύς → περισσότερος**. \"As... as\" is **τόσο... όσο**."
+},
+{
+"solved": [
+{
+"q": "\"My brother is older than me.\"",
+"a": "Ο αδελφός μου είναι μεγαλύτερος από μένα. | Ο αδερφός μου είναι μεγαλύτερος από μένα. | Ο αδελφός μου είναι πιο μεγάλος από μένα.",
+"why": "μεγάλος → μεγαλύτερος; από + strong pronoun μένα."
+},
+{
+"q": "\"the best restaurant in town\"",
+"a": "το καλύτερο εστιατόριο της πόλης | το πιο καλό εστιατόριο της πόλης",
+"why": "Article + comparative; \"in\" = genitive της πόλης."
+},
+{
+"q": "\"It's better to go now than to wait.\"",
+"a": "Είναι καλύτερα να πάμε τώρα παρά να περιμένουμε. | Καλύτερα να πάμε τώρα παρά να περιμένουμε.",
+"why": "Before να: παρά."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η Αθήνα είναι ___ από τη Θεσσαλονίκη. (bigger)",
+"options": [
+"πιο μεγαλύτερη",
+"μεγαλύτερη",
+"μεγαλύτερος",
+"πολύ μεγάλη από"
+],
+"answer": "μεγαλύτερη",
+"why": "Never πιο + -ότερος together.",
+"id": "comparison-d307fd51"
+},
+{
+"type": "choice",
+"q": "Σήμερα κάνει ___ κρύο από χθες. (more)",
+"options": [
+"περισσότερο πολύ",
+"πιο πολύ",
+"πιο πολύς",
+"πολλότερο"
+],
+"answer": "πιο πολύ",
+"why": "πιο πολύ (also περισσότερο).",
+"id": "comparison-b40c60a6"
+},
+{
+"type": "choice",
+"q": "Είναι ο ___ μαθητής της τάξης. (worst)",
+"options": [
+"πιο χειρότερος",
+"χειρότερος",
+"κακότερος",
+"πιο κακότερος"
+],
+"answer": "χειρότερος",
+"why": "κακός → χειρότερος.",
+"id": "comparison-a53ff4e9"
+},
+{
+"type": "choice",
+"q": "Δεν είναι τόσο δύσκολο ___ νομίζεις.",
+"options": [
+"από",
+"όσο",
+"παρά",
+"ότι"
+],
+"answer": "όσο",
+"why": "τόσο... όσο.",
+"id": "comparison-b34543cb"
+},
+{
+"type": "choice",
+"q": "Ο Γιάννης τρέχει ___ γρήγορα από μένα.",
+"options": [
+"πιο πολύ",
+"πιο",
+"περισσότερο πιο",
+"τόσο"
+],
+"answer": "πιο",
+"why": "Adverb comparative: πιο γρήγορα.",
+"id": "comparison-8feaa2e4"
+},
+{
+"type": "write",
+"q": "One-word comparative of **ωραίος**",
+"answer": "ωραιότερος",
+"accept": [],
+"why": "-ος → -ότερος.",
+"id": "comparison-f3abebd2"
+},
+{
+"type": "write",
+"q": "Comparative of **καλός**",
+"answer": "καλύτερος",
+"accept": [
+"πιο καλός"
+],
+"why": "Irregular.",
+"id": "comparison-4de4130b"
+},
+{
+"type": "write",
+"q": "\"the most beautiful island\"",
+"answer": "το πιο όμορφο νησί",
+"accept": [
+"το ομορφότερο νησί",
+"το ωραιότερο νησί",
+"το πιο ωραίο νησί"
+],
+"why": "Article + comparative.",
+"id": "comparison-cfbb11f0"
+},
+{
+"type": "write",
+"q": "\"cheaper than the other\"",
+"answer": "πιο φτηνό από το άλλο",
+"accept": [
+"φτηνότερο από το άλλο",
+"φθηνότερο από το άλλο",
+"πιο φθηνό από το άλλο"
+],
+"why": "από + accusative.",
+"id": "comparison-6b50f670"
+},
+{
+"type": "order",
+"q": "\"She is as tall as her mother.\"",
+"answer": "Είναι τόσο ψηλή όσο η μητέρα της.",
+"accept": [],
+"why": "τόσο... όσο.",
+"id": "comparison-9b32f04b"
+},
+{
+"type": "order",
+"q": "\"The sooner, the better.\"",
+"answer": "Όσο πιο γρήγορα τόσο καλύτερα.",
+"accept": [],
+"why": "όσο... τόσο.",
+"id": "comparison-f247ed68"
+}
+]
+}
+]
 }
 ],
 "id": "comparison",

@@ -1152,6 +1152,169 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: δεν, μην, όχι and questions",
+"body": [
+{
+"p": "**Δεν** negates a statement or a θα-future (**Δεν ξέρω, Δεν θα έρθω**). **Μην** goes with να, ας and orders (**να μην πας, Μην πας!**) and in fears (**Φοβάμαι μην αργήσει**). **Όχι** is \"no\", or negates a single word (**όχι εγώ, όχι σήμερα**). Questions keep statement word order and rise in pitch; **μήπως** softens one: **Μήπως ξέρετε...;**"
+},
+{
+"solved": [
+{
+"q": "\"Don't touch (sg)!\"",
+"a": "Μην αγγίζεις! | Μην το αγγίζεις! | Μην αγγίξεις!",
+"why": "Order: μην, never δεν."
+},
+{
+"q": "\"Not today, tomorrow.\"",
+"a": "Όχι σήμερα, αύριο.",
+"why": "A single word: όχι."
+},
+{
+"q": "\"Do you happen to know where the station is?\"",
+"a": "Μήπως ξέρετε πού είναι ο σταθμός; | Μήπως ξέρεις πού είναι ο σταθμός;",
+"why": "μήπως = by any chance."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ θα έρθω απόψε. (I won't)",
+"options": [
+"Μην",
+"Δεν",
+"Όχι",
+"Μη θα"
+],
+"answer": "Δεν",
+"why": "θα-future: δεν.",
+"id": "negation-questions-7ea314fa"
+},
+{
+"type": "choice",
+"q": "Είναι καλύτερα να ___ πεις τίποτα.",
+"options": [
+"δεν",
+"μην",
+"όχι",
+"ούτε δεν"
+],
+"answer": "μην",
+"why": "να μην.",
+"id": "negation-questions-babe2f7a"
+},
+{
+"type": "choice",
+"q": "«Θέλεις καφέ;» «___, ευχαριστώ.»",
+"options": [
+"Δεν",
+"Όχι",
+"Μην",
+"Ούτε"
+],
+"answer": "Όχι",
+"why": "The answer word: όχι.",
+"id": "negation-questions-6f9b1c43"
+},
+{
+"type": "choice",
+"q": "___ είδες τα γυαλιά μου; (by any chance)",
+"options": [
+"Μην",
+"Μήπως",
+"Δεν",
+"Αν"
+],
+"answer": "Μήπως",
+"why": "μήπως in a question.",
+"id": "negation-questions-45983896"
+},
+{
+"type": "choice",
+"q": "Δεν ήρθε ___ ο Κώστας ___ η Μαρία.",
+"options": [
+"ή / ή",
+"ούτε / ούτε",
+"όχι / όχι",
+"μήτε / ή"
+],
+"answer": "ούτε / ούτε",
+"why": "ούτε... ούτε = neither... nor.",
+"id": "negation-questions-ec65b6f4"
+},
+{
+"type": "choice",
+"q": "Φοβάμαι ___ χάσουμε το τρένο.",
+"options": [
+"δεν",
+"μην",
+"όχι",
+"ότι δεν"
+],
+"answer": "μην",
+"why": "Fear: μην (or ότι θα).",
+"id": "negation-questions-6341c4af"
+},
+{
+"type": "write",
+"q": "\"I don't understand anything.\"",
+"answer": "Δεν καταλαβαίνω τίποτα.",
+"accept": [],
+"why": "δεν + τίποτα.",
+"id": "negation-questions-987d9eb1"
+},
+{
+"type": "write",
+"q": "\"Let's not go.\"",
+"answer": "Ας μην πάμε.",
+"accept": [
+"Να μην πάμε."
+],
+"why": "ας μην.",
+"id": "negation-questions-566b25af"
+},
+{
+"type": "write",
+"q": "\"Isn't it true?\"",
+"answer": "Δεν είναι αλήθεια;",
+"accept": [
+"Έτσι δεν είναι;"
+],
+"why": "A negative question with δεν.",
+"id": "negation-questions-3de150db"
+},
+{
+"type": "write",
+"q": "\"Why not?\"",
+"answer": "Γιατί όχι;",
+"accept": [],
+"why": "όχι alone.",
+"id": "negation-questions-eb06f80e"
+},
+{
+"type": "order",
+"q": "\"Don't (pl) be late!\"",
+"answer": "Μην αργήσετε!",
+"accept": [],
+"why": "μην + dependent or present.",
+"id": "negation-questions-766af5f2"
+},
+{
+"type": "order",
+"q": "\"I'm not going, and neither is he.\"",
+"answer": "Δεν πάω, ούτε αυτός.",
+"accept": [],
+"why": "ούτε = nor.",
+"id": "negation-questions-36a81c60"
+}
+]
+}
+]
 }
 ],
 "id": "negation-questions",

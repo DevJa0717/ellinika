@@ -1076,6 +1076,169 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: this, that, my, own, each other",
+"body": [
+{
+"p": "**Αυτός** \"this / he\" and **εκείνος** \"that\" take the article with a noun: **αυτό το βιβλίο**. Possession is a weak genitive after the noun: **το σπίτι μου**; **δικός μου** stresses \"my own / mine\": **Το σπίτι είναι δικό μου.** **Ο ίδιος** means \"the same\" or \"himself\": **ο ίδιος άνθρωπος, το είπε ο ίδιος**. **Ο ένας τον άλλο** is \"each other\"."
+},
+{
+"solved": [
+{
+"q": "\"This car is mine.\"",
+"a": "Αυτό το αυτοκίνητο είναι δικό μου.",
+"why": "δικός agrees with αυτοκίνητο (neuter)."
+},
+{
+"q": "\"I'll do it myself.\"",
+"a": "Θα το κάνω μόνος μου. | Θα το κάνω ο ίδιος. | Θα το κάνω μόνη μου. | Θα το κάνω η ίδια.",
+"why": "μόνος μου = by myself; ο ίδιος = myself in person."
+},
+{
+"q": "\"They love each other.\"",
+"a": "Αγαπιούνται. | Αγαπάει ο ένας τον άλλο. | Αγαπιούνται μεταξύ τους.",
+"why": "Reciprocal passive, or ο ένας τον άλλο."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ το φόρεμα μου αρέσει πολύ. (that)",
+"options": [
+"Εκείνη",
+"Εκείνο",
+"Εκείνος",
+"Εκείνου"
+],
+"answer": "Εκείνο",
+"why": "Neuter to agree with φόρεμα.",
+"id": "pronouns-ccb66243"
+},
+{
+"type": "choice",
+"q": "Αυτή η τσάντα είναι ___; (yours, sg)",
+"options": [
+"δική σας",
+"δική σου",
+"δικός σου",
+"δικό σου"
+],
+"answer": "δική σου",
+"why": "Feminine δική; εσύ → σου.",
+"id": "pronouns-11b96e06"
+},
+{
+"type": "choice",
+"q": "Μένουμε στο ___ σπίτι εδώ και δέκα χρόνια. (same)",
+"options": [
+"ίδιος",
+"ίδιο",
+"ίδια",
+"ιδίου"
+],
+"answer": "ίδιο",
+"why": "Neuter ίδιο.",
+"id": "pronouns-2814fdb9"
+},
+{
+"type": "choice",
+"q": "Οι γονείς ___ ζουν στην Κρήτη. (her)",
+"options": [
+"του",
+"της",
+"τους",
+"την"
+],
+"answer": "της",
+"why": "Her: της.",
+"id": "pronouns-1e1ae2da"
+},
+{
+"type": "choice",
+"q": "Έχει ___ γραφείο. (her own)",
+"options": [
+"δικό της το",
+"δικό της",
+"δική της",
+"δικός της"
+],
+"answer": "δικό της",
+"why": "δικό της agrees with γραφείο.",
+"id": "pronouns-d420c457"
+},
+{
+"type": "choice",
+"q": "Βοηθάμε ___. (each other)",
+"options": [
+"ο ένας τον ένα",
+"ο ένας τον άλλο",
+"ο άλλος τον άλλο",
+"ένας άλλον"
+],
+"answer": "ο ένας τον άλλο",
+"why": "Fixed: ο ένας τον άλλο.",
+"id": "pronouns-1ec397e5"
+},
+{
+"type": "write",
+"q": "\"my friends\"",
+"answer": "οι φίλοι μου",
+"accept": [],
+"why": "Weak genitive after the noun.",
+"id": "pronouns-91cbe773"
+},
+{
+"type": "write",
+"q": "\"this house\"",
+"answer": "αυτό το σπίτι",
+"accept": [],
+"why": "αυτό + article + noun.",
+"id": "pronouns-48a43bba"
+},
+{
+"type": "write",
+"q": "\"Is it yours (pl)?\"",
+"answer": "Είναι δικό σας;",
+"accept": [
+"Δικό σας είναι;"
+],
+"why": "δικός + weak genitive.",
+"id": "pronouns-92b24c8f"
+},
+{
+"type": "write",
+"q": "\"the same thing\"",
+"answer": "το ίδιο πράγμα",
+"accept": [
+"το ίδιο"
+],
+"why": "ο ίδιος = the same.",
+"id": "pronouns-ccaa0c1c"
+},
+{
+"type": "order",
+"q": "\"I'm going with my own car.\"",
+"answer": "Πηγαίνω με το δικό μου αυτοκίνητο.",
+"accept": [],
+"why": "το δικό μου.",
+"id": "pronouns-51b32055"
+},
+{
+"type": "order",
+"q": "\"That man is my uncle.\"",
+"answer": "Εκείνος ο άντρας είναι θείος μου.",
+"accept": [],
+"why": "εκείνος + article.",
+"id": "pronouns-64d38b45"
+}
+]
+}
+]
 }
 ],
 "id": "pronouns",

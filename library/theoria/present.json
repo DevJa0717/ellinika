@@ -1038,6 +1038,171 @@
 ]
 }
 ]
+},
+{
+"level": "A1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: which present pattern?",
+"body": [
+{
+"p": "Look at the dictionary form. **-ω, stressed before the end** (γράφω, δουλεύω): -εις, -ει, -ουμε, -ετε, -ουν. **-άω / -ώ with -άς** (μιλάω, αγαπάω): -άς, -άει, -άμε, -άτε, -άνε. **-ώ with -είς** (μπορώ, οδηγώ, θεωρώ): -είς, -εί, -ούμε, -είτε, -ούν. **-ομαι, -άμαι, -ούμαι** are the deponent and passive patterns (έρχομαι, θυμάμαι, ασχολούμαι)."
+},
+{
+"solved": [
+{
+"q": "\"Do you (sg) speak Greek?\"",
+"a": "Μιλάς ελληνικά;",
+"why": "μιλάω → μιλάς."
+},
+{
+"q": "\"We can't come.\"",
+"a": "Δεν μπορούμε να έρθουμε.",
+"why": "μπορώ → μπορούμε."
+},
+{
+"q": "\"They live in Larissa.\"",
+"a": "Μένουν στη Λάρισα. | Μένουνε στη Λάρισα.",
+"why": "μένω → μένουν."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πού ___ ο Νίκος; (works)",
+"options": [
+"δουλεύεις",
+"δουλεύει",
+"δουλεύουν",
+"δουλεύω"
+],
+"answer": "δουλεύει",
+"why": "αυτός: -ει.",
+"id": "present-fa63b06c"
+},
+{
+"type": "choice",
+"q": "Εσείς τι ___; (are you looking for)",
+"options": [
+"ψάχνουμε",
+"ψάχνετε",
+"ψάχνεις",
+"ψάχνουν"
+],
+"answer": "ψάχνετε",
+"why": "εσείς: -ετε.",
+"id": "present-0c8639f9"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ στον κήπο. (are playing)",
+"options": [
+"παίζει",
+"παίζουν",
+"παίζουμε",
+"παίζεις"
+],
+"answer": "παίζουν",
+"why": "αυτοί: -ουν.",
+"id": "present-3e339372"
+},
+{
+"type": "choice",
+"q": "Εσύ ___ αυτοκίνητο; (do you drive)",
+"options": [
+"οδηγάς",
+"οδηγείς",
+"οδηγεί",
+"οδηγούς"
+],
+"answer": "οδηγείς",
+"why": "-ώ, -είς pattern: οδηγείς (οδηγάς is also heard).",
+"id": "present-0ef63b85"
+},
+{
+"type": "choice",
+"q": "Πόσο ___ αυτό; (costs)",
+"options": [
+"κοστίζεις",
+"κοστίζει",
+"κοστίζουν",
+"κοστίζω"
+],
+"answer": "κοστίζει",
+"why": "αυτό: -ει.",
+"id": "present-512fab12"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ πολύ καφέ. (drink)",
+"options": [
+"πίνουν",
+"πίνουμε",
+"πίνετε",
+"πίνομε"
+],
+"answer": "πίνουμε",
+"why": "εμείς: -ουμε.",
+"id": "present-0959c4d2"
+},
+{
+"type": "write",
+"q": "εσύ form of **αγαπάω**",
+"answer": "αγαπάς",
+"accept": [],
+"why": "-άς.",
+"id": "present-72069c65"
+},
+{
+"type": "write",
+"q": "αυτοί form of **θεωρώ**",
+"answer": "θεωρούν",
+"accept": [
+"θεωρούνε"
+],
+"why": "-ούν.",
+"id": "present-e7a05238"
+},
+{
+"type": "write",
+"q": "εμείς form of **έρχομαι**",
+"answer": "ερχόμαστε",
+"accept": [],
+"why": "-όμαστε.",
+"id": "present-2c251d00"
+},
+{
+"type": "write",
+"q": "εσείς form of **θυμάμαι**",
+"answer": "θυμάστε",
+"accept": [
+"θυμόσαστε"
+],
+"why": "-άστε.",
+"id": "present-2eef9fab"
+},
+{
+"type": "order",
+"q": "\"I don't understand.\"",
+"answer": "Δεν καταλαβαίνω.",
+"accept": [
+"Δεν καταλαβαίνω!"
+],
+"why": "-ω pattern.",
+"id": "present-55fe9ffe"
+},
+{
+"type": "order",
+"q": "\"What time do the shops close?\"",
+"answer": "Τι ώρα κλείνουν τα μαγαζιά;",
+"accept": [],
+"why": "αυτοί: -ουν.",
+"id": "present-fef95219"
+}
+]
+}
+]
 }
 ],
 "id": "present",

@@ -1107,6 +1107,160 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: να + dependent or να + present?",
+"body": [
+{
+"p": "**Να** is followed by a verb, never by an infinitive (Greek has none). One action, a single goal or a wish: **να + dependent** (**Θέλω να φύγω**). A repeated action, an ongoing state or a general ability: **να + present** (**Θέλω να τρώω υγιεινά**, **Ξέρει να κολυμπάει**). Negation is **να μην**."
+},
+{
+"solved": [
+{
+"q": "\"I want to learn to swim.\"",
+"a": "Θέλω να μάθω να κολυμπάω. | Θέλω να μάθω κολύμπι.",
+"why": "One goal (μάθω); swimming as an ability (κολυμπάω)."
+},
+{
+"q": "\"Try (sg) not to be late.\"",
+"a": "Προσπάθησε να μην αργήσεις.",
+"why": "να μην + dependent."
+},
+{
+"q": "\"I like to walk by the sea.\"",
+"a": "Μου αρέσει να περπατάω δίπλα στη θάλασσα. | Μου αρέσει να περπατάω στη θάλασσα.",
+"why": "A general liking: present."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πρέπει ___ αμέσως. (to leave, once)",
+"options": [
+"να φεύγω",
+"να φύγω",
+"να έφυγα",
+"να θα φύγω"
+],
+"answer": "να φύγω",
+"why": "One action: να + dependent.",
+"id": "subjunctive-6f09e6cf"
+},
+{
+"type": "choice",
+"q": "Άρχισε ___. (to rain)",
+"options": [
+"να βρέξει",
+"να βρέχει",
+"να έβρεξε",
+"βρέχει να"
+],
+"answer": "να βρέχει",
+"why": "αρχίζω + να + present.",
+"id": "subjunctive-0ef05124"
+},
+{
+"type": "choice",
+"q": "Σταμάτησα ___ πέρσι. (smoking)",
+"options": [
+"να καπνίσω",
+"να καπνίζω",
+"να κάπνισα",
+"καπνίζοντας να"
+],
+"answer": "να καπνίζω",
+"why": "σταματάω + να + present.",
+"id": "subjunctive-9fbb297f"
+},
+{
+"type": "choice",
+"q": "Ελπίζω ___ σύντομα. (to see you)",
+"options": [
+"να σε βλέπω",
+"να σε δω",
+"να σε είδα",
+"σε να δω"
+],
+"answer": "να σε δω",
+"why": "One meeting: να + dependent.",
+"id": "subjunctive-0dd2c039"
+},
+{
+"type": "choice",
+"q": "Του είπα ___ τίποτα. (not to say)",
+"options": [
+"να δεν πει",
+"να μην πει",
+"μην να πει",
+"να όχι πει"
+],
+"answer": "να μην πει",
+"why": "να μην.",
+"id": "subjunctive-ad9112ca"
+},
+{
+"type": "write",
+"q": "\"Can I come in?\"",
+"answer": "Μπορώ να μπω;",
+"accept": [
+"Να μπω;"
+],
+"why": "μπαίνω → μπω.",
+"id": "subjunctive-a5443ed1"
+},
+{
+"type": "write",
+"q": "\"I prefer to stay home.\"",
+"answer": "Προτιμώ να μείνω σπίτι.",
+"accept": [
+"Προτιμώ να μείνω στο σπίτι."
+],
+"why": "μένω → μείνω.",
+"id": "subjunctive-1df65aa8"
+},
+{
+"type": "write",
+"q": "\"She knows how to cook.\"",
+"answer": "Ξέρει να μαγειρεύει.",
+"accept": [],
+"why": "A skill: present.",
+"id": "subjunctive-908a3290"
+},
+{
+"type": "write",
+"q": "\"Let's go!\"",
+"answer": "Πάμε!",
+"accept": [
+"Ας πάμε!"
+],
+"why": "πάμε / ας + dependent.",
+"id": "subjunctive-7924dce0"
+},
+{
+"type": "order",
+"q": "\"I have to work tomorrow.\"",
+"answer": "Πρέπει να δουλέψω αύριο.",
+"accept": [
+"Αύριο πρέπει να δουλέψω."
+],
+"why": "One day's work: dependent.",
+"id": "subjunctive-ae38f160"
+},
+{
+"type": "order",
+"q": "\"Should I open the window?\"",
+"answer": "Να ανοίξω το παράθυρο;",
+"accept": [],
+"why": "να + dependent as a suggestion.",
+"id": "subjunctive-a62fdf86"
+}
+]
+}
+]
 }
 ],
 "id": "subjunctive",
