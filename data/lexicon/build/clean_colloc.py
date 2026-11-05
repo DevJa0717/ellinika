@@ -5,7 +5,8 @@ Usage: python3 clean_colloc.py [--write]"""
 import json, os, re, sys
 B = os.path.dirname(os.path.abspath(__file__)); L = os.path.dirname(B)
 DROP = set('μετακινήσιμος επιπεδότητα ανέγγραφος απορρητοποίηση ανθρωπογένεια οργανισμικός αρχιδεσμοφύλακας κορμικός '
-           'ανελκυστικός καταλογογράφηση βρύχιος πειρασμικός οικοδεσποτικός ροϊκός'.split())
+           'ανελκυστικός καταλογογράφηση βρύχιος πειρασμικός οικοδεσποτικός ροϊκός ψιλόλιγνος εμφυλιοπολεμικός εφικτότητα '
+           'σεμιναριακός λωρίδιο ρηγματώνω ρηγμάτωση απορρησία υπολήψιμος αμφοτερόπλευρη καταμαχώ τρακάρισα ξυνός'.split())
 C = json.load(open(f'{L}/collocations.json')); n = 0
 def bad(s): return any(w in DROP for w in re.findall(r'[Ͱ-Ͽ]+', s))
 for l, e in C['entries'].items():
