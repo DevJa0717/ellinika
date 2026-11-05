@@ -1,0 +1,62 @@
+[
+ {
+  "lemma": "σεκ",
+  "set": {
+   "example": {
+    "el": "Με το ψάρι προτιμώ ένα λευκό κρασί σεκ.",
+    "en": "With fish I prefer a dry white wine."
+   }
+  },
+  "why": "dry wine 'with dessert' is semantically odd"
+ },
+ {
+  "lemma": "επανεκλέγω",
+  "set": {
+   "verb.aorist_passive_1sg": "επανεκλέχτηκα"
+  },
+  "why": "passive aorist is επανεκλέχτηκα (cf. εκλέχτηκα), not *επανεκλέγηκα"
+ },
+ {
+  "lemma": "υπέρμαχος",
+  "set": {
+   "noun.gen_sg": "υπερμάχου",
+   "form_key": "Gen: υπερμάχου | common (2nd decl)"
+  },
+  "why": "learned noun shifts stress: υπερμάχου (matches model m-ος-antepenult-a)"
+ },
+ {
+  "lemma": "ποστάλ",
+  "set": {
+   "DROP": true
+  },
+  "why": "fragment of καρτ ποστάλ; not a standalone headword"
+ },
+ {
+  "lemma": "εκδικητής",
+  "set": {
+   "example": {
+    "el": "Στο μυθιστόρημα ο ήρωας επιστρέφει ως εκδικητής της οικογένειάς του.",
+    "en": "In the novel the hero returns as the avenger of his family."
+   }
+  },
+  "why": "example only showed a film title (proper name), not the common noun"
+ },
+ {
+  "lemma": "πουλ",
+  "set": {
+   "gloss": "pool (shared group or resource, esp. press pool; of staff, players, funds)",
+   "example": {
+    "el": "Μόνο το πουλ των δημοσιογράφων είχε πρόσβαση στη συνάντηση.",
+    "en": "Only the press pool had access to the meeting."
+   }
+  },
+  "why": "'πουλ αυτοκινήτων' (car pool) is unnatural; main Greek use is press/staff pool"
+ },
+ {
+  "lemma": "εγένετο",
+  "set": {
+   "DROP": true
+  },
+  "why": "inflected (ancient aorist) form of γίγνομαι used only in frozen phrases; not a headword"
+ }
+]
