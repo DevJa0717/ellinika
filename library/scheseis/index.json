@@ -1,0 +1,97 @@
+{
+ "kind": "bilingual",
+ "el": "Σχέσεις και συναισθήματα",
+ "title": "Relationships and feelings: dating, weddings, family, divorce, friendship, emotions, arguments and grief",
+ "intro_el": "Πώς γνωρίζεις κάποιον και πώς τον φλερτάρεις, πώς γίνεται ένας ελληνικός γάμος και τι κάνει ο κουμπάρος, γιατί οι νέοι μένουν με τους γονείς τους μέχρι τα τριάντα, πώς χωρίζει ένα ζευγάρι και τι γίνεται με τα παιδιά, τι σημαίνει παρέα, πώς μιλάμε για τη ζήλια, την ντροπή και το φιλότιμο, πώς τσακωνόμαστε και πώς τα ξαναβρίσκουμε, και πώς αποχαιρετάμε τους νεκρούς μας. Οι ανθρώπινες σχέσεις με τις λέξεις της καθημερινής ζωής. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1+ και ανεβαίνουν ως το Γ1.",
+ "intro_en": "How you meet someone and flirt, how a Greek wedding works and what the koumbaros does, why young people live with their parents until thirty, how a couple separates and what happens to the children, what a παρέα is, how people talk about jealousy, shame and φιλότιμο, how they argue and make up, and how they say goodbye to their dead. Human relationships in the words of everyday life. The Greek text starts around B1+ and rises to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+ "parts": [
+  {
+   "id": "zevgari",
+   "el": "Ζευγάρι και οικογένεια",
+   "en": "Couples and family",
+   "intro_el": "Η γνωριμία και το φλερτ, ο γάμος και ο κουμπάρος, η οικογένεια και το σπίτι των γονιών, ο χωρισμός και τα παιδιά.",
+   "intro_en": "Meeting and flirting, the wedding and the koumbaros, family and the parental home, separation and the children."
+  },
+  {
+   "id": "synaisthimata",
+   "el": "Φιλία και συναισθήματα",
+   "en": "Friendship and feelings",
+   "intro_el": "Η παρέα και η φιλία, οι λέξεις των συναισθημάτων, ο καβγάς και η συμφιλίωση, το πένθος και ο αποχαιρετισμός.",
+   "intro_en": "The παρέα and friendship, the words of feeling, arguing and making up, grief and farewell."
+  }
+ ],
+ "items": [
+  {
+   "id": "gnorimia",
+   "file": "gnorimia.json",
+   "el": "Γνωριμία και φλερτ",
+   "title": "Meeting and flirting",
+   "level": "B1+",
+   "part": "zevgari",
+   "dates": ""
+  },
+  {
+   "id": "gamos",
+   "file": "gamos.json",
+   "el": "Ο γάμος",
+   "title": "The wedding",
+   "level": "B2",
+   "part": "zevgari",
+   "dates": ""
+  },
+  {
+   "id": "oikogeneia",
+   "file": "oikogeneia.json",
+   "el": "Οικογένεια και σπίτι των γονιών",
+   "title": "Family and the parental home",
+   "level": "B2",
+   "part": "zevgari",
+   "dates": ""
+  },
+  {
+   "id": "chorismos",
+   "file": "chorismos.json",
+   "el": "Χωρισμός και διαζύγιο",
+   "title": "Separation and divorce",
+   "level": "B2+",
+   "part": "zevgari",
+   "dates": ""
+  },
+  {
+   "id": "parea",
+   "file": "parea.json",
+   "el": "Παρέα και φιλία",
+   "title": "The παρέα and friendship",
+   "level": "B2",
+   "part": "synaisthimata",
+   "dates": ""
+  },
+  {
+   "id": "aisthimata",
+   "file": "aisthimata.json",
+   "el": "Οι λέξεις των συναισθημάτων",
+   "title": "The words of feeling",
+   "level": "B2+",
+   "part": "synaisthimata",
+   "dates": ""
+  },
+  {
+   "id": "kavgas",
+   "file": "kavgas.json",
+   "el": "Καβγάς και συμφιλίωση",
+   "title": "Arguing and making up",
+   "level": "B2+",
+   "part": "synaisthimata",
+   "dates": ""
+  },
+  {
+   "id": "penthos",
+   "file": "penthos.json",
+   "el": "Πένθος και αποχαιρετισμός",
+   "title": "Grief and farewell",
+   "level": "C1",
+   "part": "synaisthimata",
+   "dates": ""
+  }
+ ]
+}

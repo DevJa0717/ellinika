@@ -1,0 +1,6 @@
+SHELF = dict(
+ el="Σχέσεις και συναισθήματα",
+ title="Relationships and feelings: dating, weddings, family, divorce, friendship, emotions, arguments and grief",
+ intro_el="Πώς γνωρίζεις κάποιον και πώς τον φλερτάρεις, πώς γίνεται ένας ελληνικός γάμος και τι κάνει ο κουμπάρος, γιατί οι νέοι μένουν με τους γονείς τους μέχρι τα τριάντα, πώς χωρίζει ένα ζευγάρι και τι γίνεται με τα παιδιά, τι σημαίνει παρέα, πώς μιλάμε για τη ζήλια, την ντροπή και το φιλότιμο, πώς τσακωνόμαστε και πώς τα ξαναβρίσκουμε, και πώς αποχαιρετάμε τους νεκρούς μας. Οι ανθρώπινες σχέσεις με τις λέξεις της καθημερινής ζωής. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1+ και ανεβαίνουν ως το Γ1.",
+ intro_en="How you meet someone and flirt, how a Greek wedding works and what the koumbaros does, why young people live with their parents until thirty, how a couple separates and what happens to the children, what a παρέα is, how people talk about jealousy, shame and φιλότιμο, how they argue and make up, and how they say goodbye to their dead. Human relationships in the words of everyday life. The Greek text starts around B1+ and rises to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+)
