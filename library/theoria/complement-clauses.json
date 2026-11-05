@@ -1,0 +1,870 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Ότι και πως",
+"title": "Ότι and πως: facts and thoughts",
+"body": [
+{
+"p": "After verbs of **saying, thinking, knowing, believing, hearing**, use **ότι** or **πως** (identical in meaning; πως is a little more colloquial) + an **ordinary verb** (indicative or θα). The negative inside is **δεν**."
+},
+{
+"table": {
+"head": [
+"Verb",
+"Example"
+],
+"rows": [
+[
+"λέω",
+"Λέει ότι είναι άρρωστος. \"He says he's ill.\""
+],
+[
+"νομίζω",
+"Νομίζω πως έχεις δίκιο. \"I think you're right.\""
+],
+[
+"πιστεύω",
+"Πιστεύω ότι θα κερδίσουμε. \"I believe we'll win.\""
+],
+[
+"ξέρω",
+"Ξέρω ότι δεν σου αρέσει. \"I know you don't like it.\""
+],
+[
+"ακούω",
+"Άκουσα πως παντρεύεσαι! \"I heard you're getting married!\""
+],
+[
+"μου φαίνεται",
+"Μου φαίνεται ότι βρέχει. \"I think it's raining.\""
+]
+]
+}
+},
+{
+"p": "English often drops \"that\"; Greek doesn't: **Νομίζω ότι...** not *Νομίζω έχεις δίκιο*. (In fast speech it is sometimes dropped, but keep it.)"
+},
+{
+"p": "**Spelling traps**: **πως** \"that\" vs **πώς** \"how\"; **ότι** \"that\" vs **ό,τι** \"whatever\": **Κάνε ό,τι θέλεις.** \"Do whatever you want.\""
+},
+{
+"ex": [
+{
+"el": "Μου είπε ότι θα αργήσει.",
+"en": "He told me he'd be late."
+},
+{
+"el": "Δεν νομίζω πως είναι καλή ιδέα.",
+"en": "I don't think it's a good idea."
+},
+{
+"el": "Είμαι σίγουρη ότι θα σου αρέσει.",
+"en": "I'm sure you'll like it."
+},
+{
+"el": "Ό,τι πεις εσύ.",
+"en": "Whatever you say."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I think he's right.\"",
+"a": "Νομίζω ότι έχει δίκιο. | Νομίζω πως έχει δίκιο.",
+"why": "ότι / πως + indicative."
+},
+{
+"q": "\"She said she wouldn't come.\"",
+"a": "Είπε ότι δεν θα έρθει. | Είπε πως δεν θα έρθει. | Είπε ότι δεν θα ερχόταν.",
+"why": "Negation inside: δεν."
+},
+{
+"q": "**Ότι** or **ό,τι**: \"Do (sg) whatever you like.\"",
+"a": "Κάνε ό,τι θέλεις.",
+"why": "ό,τι = whatever."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Νομίζω ___ θα βρέξει. (that)",
+"options": [
+"να",
+"ότι",
+"που",
+"αν"
+],
+"answer": "ότι",
+"why": "Thinking: ότι.",
+"id": "complement-clauses-7282544a"
+},
+{
+"type": "choice",
+"q": "Μου είπε ___ είναι κουρασμένη. (that)",
+"options": [
+"να",
+"πως",
+"πώς",
+"αν να"
+],
+"answer": "πως",
+"why": "Reporting: πως (= ότι).",
+"id": "complement-clauses-8a3246a6"
+},
+{
+"type": "choice",
+"q": "Πιστεύω ότι ___ έχεις δίκιο. (not)",
+"options": [
+"μην",
+"δεν",
+"όχι",
+"μη"
+],
+"answer": "δεν",
+"why": "After ότι: δεν.",
+"id": "complement-clauses-aaca8a4d"
+},
+{
+"type": "choice",
+"q": "Κάνε ___ θέλεις. (whatever)",
+"options": [
+"ότι",
+"ό,τι",
+"πως",
+"που να"
+],
+"answer": "ό,τι",
+"why": "ό,τι = whatever.",
+"id": "complement-clauses-3e3bfaa0"
+},
+{
+"type": "choice",
+"q": "Άκουσα ___ μετακομίζεις. (that)",
+"options": [
+"να",
+"ότι",
+"αν",
+"ό,τι"
+],
+"answer": "ότι",
+"why": "ακούω + ότι.",
+"id": "complement-clauses-ea2f6791"
+},
+{
+"type": "choice",
+"q": "___ τον λένε; Δεν θυμάμαι. (How)",
+"options": [
+"Πως",
+"Πώς",
+"Ότι",
+"Ό,τι"
+],
+"answer": "Πώς",
+"why": "πώς = how (accent).",
+"id": "complement-clauses-cc733274"
+},
+{
+"type": "write",
+"q": "\"I think you're (sg) right.\"",
+"answer": "Νομίζω ότι έχεις δίκιο.",
+"accept": [
+"Νομίζω πως έχεις δίκιο."
+],
+"why": "ότι / πως.",
+"id": "complement-clauses-b8868e69"
+},
+{
+"type": "write",
+"q": "\"I know he doesn't like it.\"",
+"answer": "Ξέρω ότι δεν του αρέσει.",
+"accept": [
+"Ξέρω πως δεν του αρέσει."
+],
+"why": "δεν inside.",
+"id": "complement-clauses-48f7ddd9"
+},
+{
+"type": "write",
+"q": "\"He told me he'd be late.\"",
+"answer": "Μου είπε ότι θα αργήσει.",
+"accept": [
+"Μου είπε πως θα αργήσει.",
+"Μου είπε ότι θα αργούσε."
+],
+"why": "ότι + θα.",
+"id": "complement-clauses-2c6a7e37"
+},
+{
+"type": "write",
+"q": "\"Whatever you (sg) say.\"",
+"answer": "Ό,τι πεις.",
+"accept": [
+"Ό,τι πεις εσύ."
+],
+"why": "ό,τι.",
+"id": "complement-clauses-d3966202"
+},
+{
+"type": "order",
+"q": "\"I don't think it's true.\"",
+"answer": "Δεν νομίζω ότι είναι αλήθεια.",
+"accept": [],
+"why": "ότι / πως.",
+"id": "complement-clauses-d569bf59"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ότι ή να;",
+"title": "Ότι or να? Same verb, different meaning",
+"body": [
+{
+"p": "**Να** clauses express something wanted, ordered, possible or not yet real. Several verbs take either, with a change of meaning:"
+},
+{
+"table": {
+"head": [
+"ότι / πως (a fact)",
+"να (an action wanted / to do)"
+],
+"rows": [
+[
+"Μου είπε ότι έρχεται. \"He told me he's coming.\"",
+"Μου είπε να έρθω. \"He told me to come.\""
+],
+[
+"Θυμάμαι ότι το έκλεισα. \"I remember closing it.\"",
+"Θυμήσου να το κλείσεις. \"Remember to close it.\""
+],
+[
+"Ξέρω ότι οδηγεί. \"I know she drives.\"",
+"Ξέρω να οδηγώ. \"I know how to drive.\""
+],
+[
+"Ελπίζω ότι θα έρθεις. \"I hope you'll come.\"",
+"Ελπίζω να έρθεις. \"I hope you'll come.\" (same: both fine)"
+],
+[
+"Ξέχασα ότι είχε γενέθλια. \"I forgot it was her birthday.\"",
+"Ξέχασα να της ευχηθώ. \"I forgot to wish her happy birthday.\""
+]
+]
+}
+},
+{
+"p": "The negative follows the clause type: **ότι δεν**, but **να μην**."
+},
+{
+"ex": [
+{
+"el": "Σου είπα να μην αγγίζεις τίποτα!",
+"en": "I told you not to touch anything!"
+},
+{
+"el": "Μου είπε ότι δεν έχει χρόνο.",
+"en": "He told me he doesn't have time."
+},
+{
+"el": "Θυμάμαι ότι ήταν Κυριακή.",
+"en": "I remember it was Sunday."
+},
+{
+"el": "Μην ξεχάσεις να πάρεις ψωμί.",
+"en": "Don't forget to get bread."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"She told me to wait.\"",
+"a": "Μου είπε να περιμένω.",
+"why": "Order: να."
+},
+{
+"q": "\"She told me she was waiting.\"",
+"a": "Μου είπε ότι περίμενε. | Μου είπε πως περίμενε.",
+"why": "Fact: ότι."
+},
+{
+"q": "\"Remember (sg) to call your mother.\"",
+"a": "Θυμήσου να πάρεις τηλέφωνο τη μητέρα σου. | Θυμήσου να τηλεφωνήσεις στη μητέρα σου. | Θυμήσου να πάρεις τη μαμά σου.",
+"why": "Action to do: να."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Μου είπε ___ έρθω νωρίς. (to)",
+"options": [
+"ότι",
+"να",
+"πως",
+"που"
+],
+"answer": "να",
+"why": "Order: να.",
+"id": "complement-clauses-14157270"
+},
+{
+"type": "choice",
+"q": "Μου είπε ___ θα έρθει νωρίς. (that)",
+"options": [
+"να",
+"ότι",
+"να μη",
+"αν να"
+],
+"answer": "ότι",
+"why": "Fact: ότι.",
+"id": "complement-clauses-508bbc33"
+},
+{
+"type": "choice",
+"q": "Ξέχασα ___ κλειδώσω την πόρτα. (to)",
+"options": [
+"ότι",
+"να",
+"που",
+"πως"
+],
+"answer": "να",
+"why": "Action not done: να.",
+"id": "complement-clauses-e0bb228a"
+},
+{
+"type": "choice",
+"q": "Θυμάμαι ___ ήταν πολύ ζεστό καλοκαίρι. (that)",
+"options": [
+"να",
+"ότι",
+"να μην",
+"αν να"
+],
+"answer": "ότι",
+"why": "Fact remembered: ότι.",
+"id": "complement-clauses-974f3abd"
+},
+{
+"type": "choice",
+"q": "Σου είπα να ___ αγγίξεις! (not)",
+"options": [
+"δεν",
+"μην",
+"όχι",
+"δε"
+],
+"answer": "μην",
+"why": "να + μη(ν).",
+"id": "complement-clauses-ac1bd8b4"
+},
+{
+"type": "choice",
+"q": "Ξέρει ___ μαγειρεύει πολύ καλά. (how to)",
+"options": [
+"ότι",
+"να",
+"πως",
+"που"
+],
+"answer": "να",
+"why": "Ability: ξέρω να.",
+"id": "complement-clauses-4eabb1e5"
+},
+{
+"type": "write",
+"q": "\"He told me to wait.\"",
+"answer": "Μου είπε να περιμένω.",
+"accept": [],
+"why": "να = order.",
+"id": "complement-clauses-46e4e4ae"
+},
+{
+"type": "write",
+"q": "\"He told me he was tired.\"",
+"answer": "Μου είπε ότι ήταν κουρασμένος.",
+"accept": [
+"Μου είπε πως ήταν κουρασμένος.",
+"Μου είπε ότι είναι κουρασμένος."
+],
+"why": "ότι = fact.",
+"id": "complement-clauses-0554b87c"
+},
+{
+"type": "write",
+"q": "\"Don't forget (sg) to buy milk.\"",
+"answer": "Μην ξεχάσεις να αγοράσεις γάλα.",
+"accept": [
+"Μην ξεχάσεις να πάρεις γάλα."
+],
+"why": "να = action to do.",
+"id": "complement-clauses-8b38a7a7"
+},
+{
+"type": "write",
+"q": "\"I told you (sg) not to go.\"",
+"answer": "Σου είπα να μην πας.",
+"accept": [],
+"why": "να μην.",
+"id": "complement-clauses-48c6d6fe"
+},
+{
+"type": "order",
+"q": "\"I remember that it was raining.\"",
+"answer": "Θυμάμαι ότι έβρεχε.",
+"accept": [],
+"why": "Fact: ότι.",
+"id": "complement-clauses-076daccd"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Που μετά από συναισθήματα",
+"title": "Που after feelings and perceptions",
+"body": [
+{
+"p": "After verbs and phrases of **emotion** (glad, sorry, angry, proud...), \"that\" is **που**, because the fact is already known and you react to it:"
+},
+{
+"table": {
+"head": [
+"Phrase",
+"Example"
+],
+"rows": [
+[
+"χαίρομαι",
+"Χαίρομαι που ήρθες. \"I'm glad you came.\""
+],
+[
+"λυπάμαι",
+"Λυπάμαι που δεν μπορώ να βοηθήσω. \"I'm sorry I can't help.\""
+],
+[
+"θυμώνω",
+"Θύμωσε που άργησα. \"He got angry that I was late.\""
+],
+[
+"είμαι περήφανος",
+"Είμαι περήφανη που σε έχω φίλη. \"I'm proud to have you as a friend.\""
+],
+[
+"καλά που / καλά έκανες που",
+"Καλά έκανες που μου το είπες. \"You did right to tell me.\""
+],
+[
+"ευτυχώς που",
+"Ευτυχώς που ήσουν εκεί! \"Luckily you were there!\""
+]
+]
+}
+},
+{
+"p": "After verbs of **perception** (see, hear, find), you can use **να** + present or **που**: **Τον είδα να φεύγει / Τον είδα που έφευγε.** \"I saw him leaving.\""
+},
+{
+"ex": [
+{
+"el": "Χαίρομαι πολύ που σε ξαναβλέπω.",
+"en": "I'm really glad to see you again."
+},
+{
+"el": "Συγγνώμη που άργησα.",
+"en": "Sorry I'm late."
+},
+{
+"el": "Μου άρεσε που ήρθατε όλοι.",
+"en": "I loved that you all came."
+},
+{
+"el": "Τον βρήκα που κοιμόταν στον καναπέ.",
+"en": "I found him asleep on the sofa."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I'm glad you're (sg) here.\"",
+"a": "Χαίρομαι που είσαι εδώ.",
+"why": "Emotion: που."
+},
+{
+"q": "\"Sorry for disturbing you.\" (pl)",
+"a": "Συγγνώμη που σας ενοχλώ. | Συγγνώμη που σας ενόχλησα.",
+"why": "συγγνώμη που."
+},
+{
+"q": "\"Luckily we didn't miss the plane.\"",
+"a": "Ευτυχώς που δεν χάσαμε το αεροπλάνο. | Ευτυχώς δεν χάσαμε το αεροπλάνο.",
+"why": "ευτυχώς που."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Χαίρομαι ___ σε γνώρισα. (that)",
+"options": [
+"ότι να",
+"που",
+"να",
+"αν"
+],
+"answer": "που",
+"why": "Emotion: που.",
+"id": "complement-clauses-562fa9d3"
+},
+{
+"type": "choice",
+"q": "Συγγνώμη ___ άργησα. (that)",
+"options": [
+"ότι",
+"που",
+"να",
+"πως"
+],
+"answer": "που",
+"why": "συγγνώμη που.",
+"id": "complement-clauses-72841308"
+},
+{
+"type": "choice",
+"q": "Καλά έκανες ___ ήρθες. (to)",
+"options": [
+"να",
+"που",
+"ότι να",
+"αν"
+],
+"answer": "που",
+"why": "καλά έκανες που.",
+"id": "complement-clauses-ea3aa21d"
+},
+{
+"type": "choice",
+"q": "Θύμωσε ___ δεν του τηλεφώνησα. (because)",
+"options": [
+"να",
+"που",
+"να μη",
+"αν"
+],
+"answer": "που",
+"why": "Emotion: που.",
+"id": "complement-clauses-37db367c"
+},
+{
+"type": "choice",
+"q": "Τον είδα ___ στο μπαλκόνι. (smoking)",
+"options": [
+"να καπνίσει",
+"να καπνίζει",
+"καπνίζοντας τον",
+"ότι καπνίσει"
+],
+"answer": "να καπνίζει",
+"why": "Perception: να + present.",
+"id": "complement-clauses-21e70c70"
+},
+{
+"type": "write",
+"q": "\"I'm glad you (pl) came.\"",
+"answer": "Χαίρομαι που ήρθατε.",
+"accept": [],
+"why": "που.",
+"id": "complement-clauses-a5ba0b2f"
+},
+{
+"type": "write",
+"q": "\"Sorry I'm late.\"",
+"answer": "Συγγνώμη που άργησα.",
+"accept": [],
+"why": "συγγνώμη που.",
+"id": "complement-clauses-eb81276f"
+},
+{
+"type": "write",
+"q": "\"I'm sorry I can't come.\"",
+"answer": "Λυπάμαι που δεν μπορώ να έρθω.",
+"accept": [
+"Λυπάμαι που δε μπορώ να έρθω."
+],
+"why": "λυπάμαι που.",
+"id": "complement-clauses-e94ead3f"
+},
+{
+"type": "write",
+"q": "\"Luckily you (sg) were there!\"",
+"answer": "Ευτυχώς που ήσουν εκεί!",
+"accept": [
+"Ευτυχώς ήσουν εκεί!"
+],
+"why": "ευτυχώς που.",
+"id": "complement-clauses-c03898ed"
+},
+{
+"type": "order",
+"q": "\"I'm glad to see you (sg).\"",
+"answer": "Χαίρομαι που σε βλέπω.",
+"accept": [],
+"why": "Emotion: που.",
+"id": "complement-clauses-4a724494"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Πλάγιες ερωτήσεις",
+"title": "Indirect questions: αν, τι, πού, ποιος",
+"body": [
+{
+"p": "An indirect question keeps the question word and the ordinary word order. \"Whether / if\" is **αν** (or more colloquially **μήπως** with fear or doubt)."
+},
+{
+"table": {
+"head": [
+"Direct",
+"Indirect"
+],
+"rows": [
+[
+"Θα έρθει;",
+"Δεν ξέρω αν θα έρθει. \"I don't know if he'll come.\""
+],
+[
+"Τι ώρα είναι;",
+"Ξέρεις τι ώρα είναι; \"Do you know what time it is?\""
+],
+[
+"Πού μένει;",
+"Με ρώτησε πού μένω. \"He asked me where I live.\""
+],
+[
+"Ποιος ήρθε;",
+"Δεν είδα ποιος ήρθε. \"I didn't see who came.\""
+],
+[
+"Πόσο κάνει;",
+"Ρώτα πόσο κάνει. \"Ask how much it is.\""
+]
+]
+}
+},
+{
+"p": "Keep the accent on question words: **Δεν ξέρω πού είναι** \"where it is\" vs **Το μέρος που είναι...** \"the place that is...\"."
+},
+{
+"ex": [
+{
+"el": "Ρώτησέ τον αν θέλει να έρθει.",
+"en": "Ask him if he wants to come."
+},
+{
+"el": "Δεν θυμάμαι πού άφησα το κινητό.",
+"en": "I don't remember where I left my phone."
+},
+{
+"el": "Ξέρεις ποιος είναι αυτός;",
+"en": "Do you know who that is?"
+},
+{
+"el": "Αναρωτιέμαι τι να κάνει τώρα.",
+"en": "I wonder what he's doing now."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I don't know if she's coming.\"",
+"a": "Δεν ξέρω αν έρχεται. | Δεν ξέρω αν θα έρθει.",
+"why": "αν = whether."
+},
+{
+"q": "\"Ask (sg) him where the station is.\"",
+"a": "Ρώτα τον πού είναι ο σταθμός. | Ρώτησέ τον πού είναι ο σταθμός.",
+"why": "Question word kept, with accent."
+},
+{
+"q": "\"Do you (pl) know what time the shop opens?\"",
+"a": "Ξέρετε τι ώρα ανοίγει το μαγαζί;",
+"why": "Indirect question: normal order."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Δεν ξέρω ___ θα έρθει. (if)",
+"options": [
+"ότι",
+"αν",
+"να",
+"που"
+],
+"answer": "αν",
+"why": "whether = αν.",
+"id": "complement-clauses-5a3ef0da"
+},
+{
+"type": "choice",
+"q": "Με ρώτησε ___ μένω. (where)",
+"options": [
+"που",
+"πού",
+"ότι",
+"πως"
+],
+"answer": "πού",
+"why": "Question word: πού (accent).",
+"id": "complement-clauses-9e1bfd65"
+},
+{
+"type": "choice",
+"q": "Ξέρεις ___ είναι αυτή η κοπέλα; (who)",
+"options": [
+"που",
+"ποια",
+"ποιος",
+"τι να"
+],
+"answer": "ποια",
+"why": "ποια agrees with κοπέλα.",
+"id": "complement-clauses-4378bddb"
+},
+{
+"type": "choice",
+"q": "Ρώτα ___ κοστίζει. (how much)",
+"options": [
+"πόσος",
+"πόσο",
+"τι πόσο",
+"πώς"
+],
+"answer": "πόσο",
+"why": "πόσο.",
+"id": "complement-clauses-6f6f147c"
+},
+{
+"type": "choice",
+"q": "Δεν θυμάμαι ___ το έβαλα. (where)",
+"options": [
+"που",
+"πού",
+"ποιο",
+"ότι"
+],
+"answer": "πού",
+"why": "πού = where.",
+"id": "complement-clauses-bafb1324"
+},
+{
+"type": "write",
+"q": "\"I don't know if he'll come.\"",
+"answer": "Δεν ξέρω αν θα έρθει.",
+"accept": [
+"Δεν ξέρω αν θα 'ρθει."
+],
+"why": "αν.",
+"id": "complement-clauses-d65a4288"
+},
+{
+"type": "write",
+"q": "\"Do you (sg) know what time it is?\"",
+"answer": "Ξέρεις τι ώρα είναι;",
+"accept": [],
+"why": "Indirect question.",
+"id": "complement-clauses-687b57ae"
+},
+{
+"type": "write",
+"q": "\"He asked me where I live.\"",
+"answer": "Με ρώτησε πού μένω.",
+"accept": [],
+"why": "πού.",
+"id": "complement-clauses-8f8f56b8"
+},
+{
+"type": "write",
+"q": "\"I wonder who it is.\"",
+"answer": "Αναρωτιέμαι ποιος είναι.",
+"accept": [],
+"why": "ποιος.",
+"id": "complement-clauses-fe61d00b"
+},
+{
+"type": "order",
+"q": "\"Ask (sg) him if he wants coffee.\"",
+"answer": "Ρώτα τον αν θέλει καφέ.",
+"accept": [],
+"why": "αν.",
+"id": "complement-clauses-5ea2f1b8"
+}
+]
+}
+]
+}
+],
+"id": "complement-clauses",
+"el": "Συμπληρωματικές προτάσεις: ότι, πως, που, να, αν",
+"title": "\"That\", \"to\" and \"whether\": ότι, πως, που, να, αν",
+"span": "B1",
+"blurb": "The four ways to say \"that\" (ότι, πως, που, να) and when each one is right, verbs that change meaning with ότι or να (λέω ότι / λέω να), που after feelings (χαίρομαι που ήρθες), and indirect questions with αν, τι, πού, ποιος.",
+"intro": [
+{
+"p": "English \"that\" clauses come in four Greek varieties. **Ότι / πως** report facts and thoughts: **Νομίζω ότι έχεις δίκιο.** **Να** expresses wishes, orders, possibilities: **Θέλω να έρθεις.** **Που** follows feelings: **Χαίρομαι που ήρθες.** And **αν** introduces \"whether\": **Δεν ξέρω αν θα έρθει.**"
+},
+{
+"links": [
+{
+"href": "#b1-complement",
+"kind": "Lesson",
+"el": "Ότι, πως, να, που",
+"title": "Complement clauses"
+},
+{
+"href": "#verbs-na-clauses",
+"kind": "Lesson",
+"el": "Προτάσεις με να",
+"title": "να-clauses in depth"
+},
+{
+"href": "#syntax.complements",
+"kind": "Syntax",
+"el": "Ότι, πως, που, να, αν: οι συμπληρωματικές προτάσεις",
+"title": "That-clauses: ότι, πως, που, να, αν"
+},
+{
+"href": "#cards.clauses",
+"kind": "Card",
+"el": "Χρόνος, αιτία, σκοπός, αποτέλεσμα, εναντίωση",
+"title": "Time, cause, purpose, result, concession"
+},
+{
+"href": "#cards.mood",
+"kind": "Card",
+"el": "Ότι, να, που, αν",
+"title": "Which \"that\"?"
+}
+]
+}
+],
+"num": 30
+}

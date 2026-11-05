@@ -1,0 +1,1209 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Δεν, μη, όχι",
+"title": "Δεν, μη, όχι: which \"not\"?",
+"body": [
+{
+"table": {
+"head": [
+"Word",
+"Where",
+"Example"
+],
+"rows": [
+[
+"**δεν**",
+"before an ordinary verb (indicative, θα)",
+"Δεν ξέρω. Δεν θα έρθω."
+],
+[
+"**μη(ν)**",
+"after να, ας; prohibitions; gerund",
+"Να μην αργήσεις. Μη φωνάζεις!"
+],
+[
+"**όχι**",
+"\"no\"; not + noun, adjective, adverb",
+"Όχι, ευχαριστώ. Όχι σήμερα."
+]
+]
+}
+},
+{
+"p": "**Spelling**: like μη(ν), the full form **δεν** is used before vowels and **κ, π, τ, ξ, ψ, μπ, ντ, γκ, τσ, τζ**; **δε** is allowed before other consonants (**δε θέλω, δε μου αρέσει**). Writing **δεν** everywhere is also accepted."
+},
+{
+"p": "**Όχι** also negates a part of the sentence and closes \"or not\" questions:"
+},
+{
+"ex": [
+{
+"el": "Όχι εγώ, η Μαρία!",
+"en": "Not me, Maria!"
+},
+{
+"el": "Θα έρθεις ή όχι;",
+"en": "Are you coming or not?"
+},
+{
+"el": "Είναι όχι μόνο έξυπνη αλλά και αστεία.",
+"en": "She's not only clever but funny too."
+},
+{
+"el": "Ελπίζω πως όχι.",
+"en": "I hope not."
+},
+{
+"el": "Μη!",
+"en": "Don't!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I don't understand.\"",
+"a": "Δεν καταλαβαίνω.",
+"why": "Ordinary verb: δεν."
+},
+{
+"q": "\"No, not today.\"",
+"a": "Όχι, όχι σήμερα. | Όχι σήμερα.",
+"why": "Not + adverb: όχι."
+},
+{
+"q": "\"I told you not to touch it.\" (sg)",
+"a": "Σου είπα να μην το πιάσεις. | Σου είπα να μην το αγγίξεις.",
+"why": "After να: μην."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ ξέρω τι να κάνω. (I don't)",
+"options": [
+"Μην",
+"Δεν",
+"Όχι",
+"Ούτε"
+],
+"answer": "Δεν",
+"why": "Ordinary verb: δεν.",
+"id": "negation-questions-b0ab7c78"
+},
+{
+"type": "choice",
+"q": "Θέλεις κι άλλο; — ___, ευχαριστώ. (No)",
+"options": [
+"Δεν",
+"Όχι",
+"Μη",
+"Ούτε"
+],
+"answer": "Όχι",
+"why": "\"No\" = όχι.",
+"id": "negation-questions-c57de76f"
+},
+{
+"type": "choice",
+"q": "Θα έρθεις ή ___; (not)",
+"options": [
+"δεν",
+"όχι",
+"μη",
+"ούτε"
+],
+"answer": "όχι",
+"why": "\"or not\" = ή όχι.",
+"id": "negation-questions-6e40a26c"
+},
+{
+"type": "choice",
+"q": "Προσπάθησε να ___ αργήσεις. (not)",
+"options": [
+"δεν",
+"μην",
+"όχι",
+"ούτε"
+],
+"answer": "μην",
+"why": "After να: μη(ν).",
+"id": "negation-questions-8142a645"
+},
+{
+"type": "choice",
+"q": "___ εγώ, ο αδερφός μου το έσπασε! (Not)",
+"options": [
+"Δεν",
+"Όχι",
+"Μην",
+"Ούτε να"
+],
+"answer": "Όχι",
+"why": "Not + pronoun: όχι.",
+"id": "negation-questions-0b27871e"
+},
+{
+"type": "choice",
+"q": "___ θα σου πω τίποτα. (I won't)",
+"options": [
+"Μην",
+"Δεν",
+"Όχι",
+"Μη να"
+],
+"answer": "Δεν",
+"why": "θα + verb: δεν.",
+"id": "negation-questions-fc7b145c"
+},
+{
+"type": "write",
+"q": "\"I don't know.\"",
+"answer": "Δεν ξέρω.",
+"accept": [],
+"why": "δεν before a verb (always δεν before ξ).",
+"id": "negation-questions-cbbdec5a"
+},
+{
+"type": "write",
+"q": "\"Not now!\"",
+"answer": "Όχι τώρα!",
+"accept": [],
+"why": "όχι + adverb.",
+"id": "negation-questions-1f1c71d4"
+},
+{
+"type": "write",
+"q": "\"I hope not.\"",
+"answer": "Ελπίζω πως όχι.",
+"accept": [
+"Ελπίζω ότι όχι."
+],
+"why": "όχι replaces the clause.",
+"id": "negation-questions-e2cdb914"
+},
+{
+"type": "write",
+"q": "\"Don't shout!\" (sg)",
+"answer": "Μη φωνάζεις!",
+"accept": [],
+"why": "Prohibition: μη.",
+"id": "negation-questions-0e7aaf9a"
+},
+{
+"type": "order",
+"q": "\"We won't come tomorrow.\"",
+"answer": "Δεν θα έρθουμε αύριο.",
+"accept": [
+"Αύριο δεν θα έρθουμε."
+],
+"why": "δεν θα.",
+"id": "negation-questions-2f1c4baa"
+},
+{
+"type": "order",
+"q": "\"Not only he but she too.\"",
+"answer": "Όχι μόνο αυτός αλλά κι αυτή.",
+"accept": [],
+"why": "όχι μόνο... αλλά και.",
+"id": "negation-questions-b1d1d3f4"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Διπλή άρνηση",
+"title": "Double negation: δεν... τίποτα, κανείς, ποτέ",
+"body": [
+{
+"p": "Greek negative words need **δεν** (or μη) with the verb, unlike standard English:"
+},
+{
+"table": {
+"head": [
+"Word",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"τίποτα",
+"nothing, anything",
+"Δεν θέλω τίποτα. \"I don't want anything.\""
+],
+[
+"κανείς / κανένας, καμία, κανένα",
+"nobody, no, any",
+"Δεν ήρθε κανείς. \"Nobody came.\""
+],
+[
+"ποτέ",
+"never, ever",
+"Δεν έχω πάει ποτέ. \"I've never been.\""
+],
+[
+"πουθενά",
+"nowhere, anywhere",
+"Δεν το βρίσκω πουθενά. \"I can't find it anywhere.\""
+],
+[
+"ούτε... ούτε",
+"neither... nor",
+"Δεν πίνει ούτε καφέ ούτε τσάι. \"He drinks neither coffee nor tea.\""
+],
+[
+"ούτε καν",
+"not even",
+"Δεν μου είπε ούτε καν ευχαριστώ. \"He didn't even say thanks.\""
+]
+]
+}
+},
+{
+"p": "**δεν stays even when the negative word comes first**: **Κανείς δεν ήρθε. Τίποτα δεν άλλαξε.** Alone, as an answer, the word means \"no-\": **— Τι θέλεις; — Τίποτα.** \"— What do you want? — Nothing.\""
+},
+{
+"p": "**Ούτε εγώ** = \"Me neither.\" **Κι εγώ** = \"Me too.\""
+},
+{
+"ex": [
+{
+"el": "Δεν είπα τίποτα σε κανέναν.",
+"en": "I didn't say anything to anyone."
+},
+{
+"el": "Δεν θα σε ξεχάσω ποτέ.",
+"en": "I'll never forget you."
+},
+{
+"el": "— Δεν μου αρέσει το ούζο. — Ούτε εμένα.",
+"en": "— I don't like ouzo. — Me neither."
+},
+{
+"el": "— Ποιος ήρθε; — Κανείς.",
+"en": "— Who came? — Nobody."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Nobody knows.\"",
+"a": "Κανείς δεν ξέρει. | Κανένας δεν ξέρει. | Δεν ξέρει κανείς.",
+"why": "δεν stays even after κανείς."
+},
+{
+"q": "\"I never eat meat.\"",
+"a": "Δεν τρώω ποτέ κρέας. | Ποτέ δεν τρώω κρέας.",
+"why": "ποτέ + δεν."
+},
+{
+"q": "\"— I'm not hungry. — Me neither.\"",
+"a": "— Δεν πεινάω. — Ούτε εγώ.",
+"why": "ούτε εγώ = me neither."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Δεν είδα ___. (anything)",
+"options": [
+"κάτι",
+"τίποτα",
+"κανένα",
+"ποτέ"
+],
+"answer": "τίποτα",
+"why": "δεν + τίποτα.",
+"id": "negation-questions-a6a10a8b"
+},
+{
+"type": "choice",
+"q": "___ δεν ήρθε στο πάρτι. (Nobody)",
+"options": [
+"Κάποιος",
+"Κανείς",
+"Τίποτα",
+"Ποτέ"
+],
+"answer": "Κανείς",
+"why": "Κανείς + δεν.",
+"id": "negation-questions-b3f2e708"
+},
+{
+"type": "choice",
+"q": "Δεν έχω πάει ___ στην Κύπρο. (ever)",
+"options": [
+"πάντα",
+"ποτέ",
+"τίποτα",
+"κάποτε"
+],
+"answer": "ποτέ",
+"why": "δεν + ποτέ.",
+"id": "negation-questions-58de8718"
+},
+{
+"type": "choice",
+"q": "Δεν πίνω ___ κρασί ___ μπίρα. (neither... nor)",
+"options": [
+"ή... ή",
+"ούτε... ούτε",
+"όχι... όχι",
+"και... και"
+],
+"answer": "ούτε... ούτε",
+"why": "ούτε... ούτε.",
+"id": "negation-questions-0d739314"
+},
+{
+"type": "choice",
+"q": "— Δεν μου αρέσει το ποδόσφαιρο. — ___ εμένα. (Me neither)",
+"options": [
+"Κι",
+"Ούτε",
+"Όχι",
+"Δεν"
+],
+"answer": "Ούτε",
+"why": "Ούτε εμένα.",
+"id": "negation-questions-442497bc"
+},
+{
+"type": "choice",
+"q": "Δεν μου είπε ___ καλημέρα. (not even)",
+"options": [
+"ούτε ποτέ",
+"ούτε καν",
+"όχι καν",
+"καν όχι"
+],
+"answer": "ούτε καν",
+"why": "ούτε καν.",
+"id": "negation-questions-a3a40337"
+},
+{
+"type": "choice",
+"q": "— Τι έγινε; — ___. (Nothing)",
+"options": [
+"Δεν τίποτα",
+"Τίποτα",
+"Κάτι",
+"Κανένα"
+],
+"answer": "Τίποτα",
+"why": "Alone: τίποτα = nothing.",
+"id": "negation-questions-ffc42ff5"
+},
+{
+"type": "write",
+"q": "\"I don't want anything.\"",
+"answer": "Δεν θέλω τίποτα.",
+"accept": [
+"Δε θέλω τίποτα."
+],
+"why": "δεν + τίποτα.",
+"id": "negation-questions-94235d6d"
+},
+{
+"type": "write",
+"q": "\"Nobody called.\"",
+"answer": "Κανείς δεν τηλεφώνησε.",
+"accept": [
+"Δεν τηλεφώνησε κανείς.",
+"Κανένας δεν τηλεφώνησε.",
+"Δεν πήρε κανείς τηλέφωνο."
+],
+"why": "κανείς + δεν.",
+"id": "negation-questions-87206ef1"
+},
+{
+"type": "write",
+"q": "\"I'll never forget it.\"",
+"answer": "Δεν θα το ξεχάσω ποτέ.",
+"accept": [
+"Ποτέ δεν θα το ξεχάσω."
+],
+"why": "δεν + ποτέ.",
+"id": "negation-questions-26621f0d"
+},
+{
+"type": "write",
+"q": "\"Me neither.\"",
+"answer": "Ούτε εγώ.",
+"accept": [],
+"why": "ούτε εγώ.",
+"id": "negation-questions-db47d90b"
+},
+{
+"type": "write",
+"q": "\"I can't find it anywhere.\"",
+"answer": "Δεν το βρίσκω πουθενά.",
+"accept": [],
+"why": "δεν + πουθενά.",
+"id": "negation-questions-a10ee9d2"
+},
+{
+"type": "order",
+"q": "\"I didn't say anything to anybody.\"",
+"answer": "Δεν είπα τίποτα σε κανέναν.",
+"accept": [],
+"why": "Double negation.",
+"id": "negation-questions-da286e14"
+},
+{
+"type": "order",
+"q": "\"Nothing changed.\"",
+"answer": "Τίποτα δεν άλλαξε.",
+"accept": [
+"Δεν άλλαξε τίποτα."
+],
+"why": "τίποτα + δεν.",
+"id": "negation-questions-26baafbf"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Ερωτηματικές λέξεις",
+"title": "Question words",
+"body": [
+{
+"table": {
+"head": [
+"Word",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"τι",
+"what",
+"Τι κάνεις;"
+],
+[
+"ποιος, ποια, ποιο",
+"who, which",
+"Ποιος είναι; Ποια θέλεις;"
+],
+[
+"πού",
+"where",
+"Πού μένεις;"
+],
+[
+"πότε",
+"when",
+"Πότε φεύγεις;"
+],
+[
+"πώς",
+"how",
+"Πώς σε λένε;"
+],
+[
+"γιατί",
+"why",
+"Γιατί γελάς;"
+],
+[
+"πόσος, -η, -ο",
+"how much / many",
+"Πόσα χρόνια; Πόση ζάχαρη;"
+],
+[
+"πόσο",
+"how much (price, degree)",
+"Πόσο κάνει;"
+],
+[
+"τίνος / ποιανού",
+"whose",
+"Τίνος είναι αυτό;"
+],
+[
+"τι ώρα",
+"what time",
+"Τι ώρα είναι;"
+]
+]
+}
+},
+{
+"p": "**Ποιος** and **πόσος** agree with the noun they stand for: **Ποιο βιβλίο; Ποια τσάντα; Πόσοι άνθρωποι; Πόσες μέρες;** A preposition goes **before** the question word, never at the end: **Από πού είσαι;** \"Where are you from?\" **Με ποιον μιλάς;** \"Who are you talking to?\""
+},
+{
+"p": "**Πού** (where) and **πώς** (how) carry an accent; **που** (that, who) and **πως** (that) don't."
+},
+{
+"ex": [
+{
+"el": "Ποια είναι η γυναίκα με το κόκκινο φόρεμα;",
+"en": "Who's the woman in the red dress?"
+},
+{
+"el": "Πόσων χρονών είσαι;",
+"en": "How old are you?"
+},
+{
+"el": "Για ποιο λόγο το έκανες;",
+"en": "What did you do it for?"
+},
+{
+"el": "Τίνος είναι το αυτοκίνητο;",
+"en": "Whose is the car?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Who are you (sg) going with?\"",
+"a": "Με ποιον πας; | Με ποιον θα πας;",
+"why": "Preposition before the question word."
+},
+{
+"q": "\"How many days are you (pl) staying?\"",
+"a": "Πόσες μέρες θα μείνετε; | Πόσες μέρες μένετε;",
+"why": "πόσες agrees with μέρες."
+},
+{
+"q": "\"Which car is yours (sg)?\"",
+"a": "Ποιο αυτοκίνητο είναι το δικό σου; | Ποιο είναι το αυτοκίνητό σου;",
+"why": "ποιο agrees with αυτοκίνητο."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ είναι η Μαρία; Η ψηλή; (Which one)",
+"options": [
+"Ποιος",
+"Ποια",
+"Ποιο",
+"Τι"
+],
+"answer": "Ποια",
+"why": "Feminine: ποια.",
+"id": "negation-questions-4ed3c7bc"
+},
+{
+"type": "choice",
+"q": "___ μέρες θα μείνεις; (How many)",
+"options": [
+"Πόσοι",
+"Πόσες",
+"Πόσα",
+"Πόση"
+],
+"answer": "Πόσες",
+"why": "μέρες is feminine plural: πόσες.",
+"id": "negation-questions-e6d94252"
+},
+{
+"type": "choice",
+"q": "___ πού είσαι; (Where... from)",
+"options": [
+"Πού από",
+"Από",
+"Σε",
+"Για"
+],
+"answer": "Από",
+"why": "Preposition first: Από πού...;",
+"id": "negation-questions-f94eec1a"
+},
+{
+"type": "choice",
+"q": "___ είναι αυτή η τσάντα; (Whose)",
+"options": [
+"Ποιος",
+"Τίνος",
+"Ποιον",
+"Πόσο"
+],
+"answer": "Τίνος",
+"why": "τίνος = whose.",
+"id": "negation-questions-ec9157f6"
+},
+{
+"type": "choice",
+"q": "___ ζάχαρη θέλεις; (How much)",
+"options": [
+"Πόσος",
+"Πόση",
+"Πόσο",
+"Πόσα"
+],
+"answer": "Πόση",
+"why": "ζάχαρη is feminine: πόση.",
+"id": "negation-questions-7c4abea7"
+},
+{
+"type": "choice",
+"q": "Με ___ μιλούσες; (who)",
+"options": [
+"ποιος",
+"ποιον",
+"ποιου",
+"τίνος"
+],
+"answer": "ποιον",
+"why": "After με: accusative ποιον.",
+"id": "negation-questions-33f31ce0"
+},
+{
+"type": "write",
+"q": "\"Where are you (sg) from?\"",
+"answer": "Από πού είσαι;",
+"accept": [],
+"why": "Preposition first.",
+"id": "negation-questions-1b24bda8"
+},
+{
+"type": "write",
+"q": "\"How much is it?\"",
+"answer": "Πόσο κάνει;",
+"accept": [
+"Πόσο έχει;",
+"Πόσο κοστίζει;"
+],
+"why": "πόσο.",
+"id": "negation-questions-3929908e"
+},
+{
+"type": "write",
+"q": "\"Who is it?\"",
+"answer": "Ποιος είναι;",
+"accept": [],
+"why": "ποιος.",
+"id": "negation-questions-32749d28"
+},
+{
+"type": "write",
+"q": "\"Whose is this?\"",
+"answer": "Τίνος είναι αυτό;",
+"accept": [
+"Ποιανού είναι αυτό;"
+],
+"why": "τίνος / ποιανού.",
+"id": "negation-questions-fdd09bbf"
+},
+{
+"type": "write",
+"q": "\"How old are you (sg)?\"",
+"answer": "Πόσων χρονών είσαι;",
+"accept": [
+"Πόσο χρονών είσαι;"
+],
+"why": "Fixed question.",
+"id": "negation-questions-3c58f7d3"
+},
+{
+"type": "order",
+"q": "\"Who are you (sg) talking to?\"",
+"answer": "Με ποιον μιλάς;",
+"accept": [],
+"why": "Preposition before the question word.",
+"id": "negation-questions-c0312a79"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ερωτήσεις ναι/όχι, μήπως, άραγε",
+"title": "Yes/no questions, tags, μήπως, άραγε",
+"body": [
+{
+"p": "Yes/no questions have the same word order as statements; only the voice rises at the end. Common ways to ask more softly:"
+},
+{
+"table": {
+"head": [
+"Form",
+"Example",
+"Meaning"
+],
+"rows": [
+[
+"tag έτσι δεν είναι; / έτσι;",
+"Είναι ωραία, έτσι δεν είναι;",
+"It's nice, isn't it?"
+],
+[
+"tag ε;",
+"Ωραία μέρα, ε;",
+"Nice day, eh?"
+],
+[
+"negative question",
+"Δεν θέλεις λίγο ακόμα;",
+"Won't you have a little more?"
+],
+[
+"δε μου λες",
+"Δε μου λες, πού είναι ο σταθμός;",
+"Tell me, where's the station?"
+],
+[
+"μήπως",
+"Μήπως έχεις αναπτήρα;",
+"You wouldn't have a lighter, would you?"
+],
+[
+"άραγε",
+"Θα έρθει άραγε;",
+"I wonder if he'll come."
+]
+]
+}
+},
+{
+"p": "**Μήπως** \"by any chance, perhaps\" softens a question or a suggestion: **Μήπως να φύγουμε;** \"Maybe we should leave?\" After verbs of fear it means \"that... might\": **Φοβάμαι μήπως αργήσουμε.** \"I'm afraid we might be late.\" (also **φοβάμαι μην αργήσουμε**)."
+},
+{
+"p": "**Answering a negative question**: repeat the verb to avoid confusion. **— Δεν ήρθε; — Όχι, δεν ήρθε.** / **— Ήρθε, ήρθε!**"
+},
+{
+"ex": [
+{
+"el": "Μήπως ξέρετε τι ώρα είναι;",
+"en": "Do you happen to know the time?"
+},
+{
+"el": "Δεν είναι υπέροχο;",
+"en": "Isn't it wonderful?"
+},
+{
+"el": "Πού να είναι άραγε τα κλειδιά μου;",
+"en": "Where could my keys be, I wonder?"
+},
+{
+"el": "— Δεν σου άρεσε; — Μου άρεσε, μου άρεσε!",
+"en": "— Didn't you like it? — I did, I did!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Do you (pl) happen to have change?\"",
+"a": "Μήπως έχετε ψιλά;",
+"why": "μήπως softens the request."
+},
+{
+"q": "\"I'm afraid it might rain.\"",
+"a": "Φοβάμαι μήπως βρέξει. | Φοβάμαι μη βρέξει.",
+"why": "After φοβάμαι: μήπως / μη(ν) + dependent."
+},
+{
+"q": "\"It's hot, isn't it?\"",
+"a": "Κάνει ζέστη, έτσι δεν είναι; | Κάνει ζέστη, ε; | Κάνει ζέστη, έτσι;",
+"why": "Tag question."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ έχεις ένα στιλό; (by any chance)",
+"options": [
+"Μην",
+"Μήπως",
+"Άραγε μη",
+"Τάχα"
+],
+"answer": "Μήπως",
+"why": "μήπως = by any chance.",
+"id": "negation-questions-a6bb3d18"
+},
+{
+"type": "choice",
+"q": "Φοβάμαι ___ χάσουμε το τρένο. (that we might)",
+"options": [
+"ότι μη",
+"μήπως",
+"δεν",
+"πως να"
+],
+"answer": "μήπως",
+"why": "φοβάμαι μήπως + dependent.",
+"id": "negation-questions-40c4b22a"
+},
+{
+"type": "choice",
+"q": "Θα τα καταφέρει ___; (I wonder)",
+"options": [
+"μήπως να",
+"άραγε",
+"ποτέ",
+"ούτε"
+],
+"answer": "άραγε",
+"why": "άραγε = I wonder.",
+"id": "negation-questions-fd656bbb"
+},
+{
+"type": "choice",
+"q": "Ωραίο φαγητό, ___; (isn't it)",
+"options": [
+"όχι δεν",
+"έτσι δεν είναι",
+"δεν έτσι",
+"είναι όχι"
+],
+"answer": "έτσι δεν είναι",
+"why": "Tag: έτσι δεν είναι;",
+"id": "negation-questions-42023905"
+},
+{
+"type": "choice",
+"q": "___ μου λες, πού είναι η τράπεζα; (Tell me)",
+"options": [
+"Μη",
+"Δε",
+"Όχι",
+"Να μη"
+],
+"answer": "Δε",
+"why": "Fixed: δε μου λες...",
+"id": "negation-questions-e1ae7971"
+},
+{
+"type": "write",
+"q": "\"Do you (sg) happen to know?\"",
+"answer": "Μήπως ξέρεις;",
+"accept": [],
+"why": "μήπως.",
+"id": "negation-questions-a45658ef"
+},
+{
+"type": "write",
+"q": "\"Isn't it beautiful?\"",
+"answer": "Δεν είναι ωραίο;",
+"accept": [
+"Δεν είναι όμορφο;"
+],
+"why": "Negative question.",
+"id": "negation-questions-4dea600a"
+},
+{
+"type": "write",
+"q": "\"I wonder where he is.\"",
+"answer": "Πού να είναι άραγε;",
+"accept": [
+"Πού είναι άραγε;",
+"Άραγε πού είναι;"
+],
+"why": "άραγε.",
+"id": "negation-questions-dbeb67d4"
+},
+{
+"type": "order",
+"q": "\"I'm afraid we might be late.\"",
+"answer": "Φοβάμαι μήπως αργήσουμε.",
+"accept": [],
+"why": "φοβάμαι μήπως.",
+"id": "negation-questions-e976b684"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Μικρά μόρια",
+"title": "Small particles: πια, ακόμα, κιόλας, καν, ντε, δα, ρε",
+"body": [
+{
+"table": {
+"head": [
+"Particle",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"πια",
+"anymore (with δεν); finally, now",
+"Δεν καπνίζω πια. \"I don't smoke anymore.\" / Έλα πια! \"Come on, already!\""
+],
+[
+"ακόμα / ακόμη",
+"still; yet (with δεν); even (more)",
+"Είναι ακόμα εδώ. / Δεν ήρθε ακόμα. / ακόμα καλύτερα"
+],
+[
+"κιόλας",
+"already; and on top of that",
+"Έφυγε κιόλας; \"Has he left already?\""
+],
+[
+"καν",
+"even (with ούτε, δεν)",
+"Ούτε καν με κοίταξε. \"He didn't even look at me.\""
+],
+[
+"ντε",
+"insistence",
+"Έλα ντε! \"Come on, will you!\""
+],
+[
+"δα",
+"emphasis, irony",
+"Όχι δα! \"Oh, come on! / Really not!\""
+],
+[
+"ρε / βρε",
+"familiar address, \"hey, mate\"",
+"Τι κάνεις, ρε; Βρε παιδί μου..."
+],
+[
+"μωρέ",
+"familiar, softening",
+"Άσ' το, μωρέ! \"Forget it!\""
+]
+]
+}
+},
+{
+"tip": "**Ρε** is very common among friends but rude to strangers or elders. **Βρε** is softer and used by older people too."
+},
+{
+"ex": [
+{
+"el": "Δεν μένω πια εκεί.",
+"en": "I don't live there anymore."
+},
+{
+"el": "Είσαι ακόμα στο γραφείο;",
+"en": "Are you still at the office?"
+},
+{
+"el": "Δεν έχω τελειώσει ακόμα.",
+"en": "I haven't finished yet."
+},
+{
+"el": "Ήρθες κιόλας;",
+"en": "You're here already?"
+},
+{
+"el": "Πάμε ντε, θα αργήσουμε!",
+"en": "Come on, let's go, we'll be late!"
+},
+{
+"el": "Έλα ρε, σοβαρά;",
+"en": "Come on, seriously?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"She doesn't work here anymore.\"",
+"a": "Δεν δουλεύει πια εδώ. | Δε δουλεύει πια εδώ. | Δεν δουλεύει εδώ πια.",
+"why": "δεν... πια."
+},
+{
+"q": "\"I haven't eaten yet.\"",
+"a": "Δεν έχω φάει ακόμα. | Δεν έφαγα ακόμα. | Δεν έχω φάει ακόμη.",
+"why": "δεν... ακόμα."
+},
+{
+"q": "\"You've finished already?\" (sg)",
+"a": "Τελείωσες κιόλας; | Τελείωσες ήδη;",
+"why": "κιόλας = already."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Δεν μένω ___ στην Αθήνα. (anymore)",
+"options": [
+"ακόμα",
+"πια",
+"κιόλας",
+"καν"
+],
+"answer": "πια",
+"why": "δεν... πια.",
+"id": "negation-questions-afb0d56a"
+},
+{
+"type": "choice",
+"q": "Είσαι ___ ξύπνιος; (still)",
+"options": [
+"πια",
+"ακόμα",
+"κιόλας",
+"καν"
+],
+"answer": "ακόμα",
+"why": "ακόμα = still.",
+"id": "negation-questions-935ad4c8"
+},
+{
+"type": "choice",
+"q": "Έφυγαν ___; Μόλις ήρθαν! (already)",
+"options": [
+"πια",
+"κιόλας",
+"ακόμα",
+"καν"
+],
+"answer": "κιόλας",
+"why": "κιόλας = already.",
+"id": "negation-questions-c23d6d90"
+},
+{
+"type": "choice",
+"q": "Ούτε ___ μου είπε ευχαριστώ. (even)",
+"options": [
+"πια",
+"καν",
+"κιόλας",
+"ακόμα"
+],
+"answer": "καν",
+"why": "ούτε καν.",
+"id": "negation-questions-9d197b59"
+},
+{
+"type": "choice",
+"q": "Έλα ___, άργησες! (already: impatience)",
+"options": [
+"ακόμα",
+"πια",
+"καν",
+"δα"
+],
+"answer": "πια",
+"why": "Έλα πια!",
+"id": "negation-questions-d67e7747"
+},
+{
+"type": "write",
+"q": "\"I don't smoke anymore.\"",
+"answer": "Δεν καπνίζω πια.",
+"accept": [
+"Δεν καπνίζω πλέον."
+],
+"why": "δεν... πια.",
+"id": "negation-questions-a0c67b3c"
+},
+{
+"type": "write",
+"q": "\"He hasn't come yet.\"",
+"answer": "Δεν ήρθε ακόμα.",
+"accept": [
+"Δεν έχει έρθει ακόμα.",
+"Δεν ήρθε ακόμη.",
+"Δεν έχει έρθει ακόμη."
+],
+"why": "δεν... ακόμα.",
+"id": "negation-questions-d544a3a5"
+},
+{
+"type": "write",
+"q": "\"Are you (sg) still here?\"",
+"answer": "Είσαι ακόμα εδώ;",
+"accept": [
+"Είσαι ακόμη εδώ;"
+],
+"why": "ακόμα = still.",
+"id": "negation-questions-112c1d3a"
+},
+{
+"type": "write",
+"q": "\"He didn't even look at me.\"",
+"answer": "Ούτε καν με κοίταξε.",
+"accept": [
+"Δεν με κοίταξε καν.",
+"Ούτε με κοίταξε καν."
+],
+"why": "ούτε καν / δεν... καν.",
+"id": "negation-questions-cb9c9f48"
+},
+{
+"type": "order",
+"q": "\"Are you (sg) still at work?\"",
+"answer": "Είσαι ακόμα στη δουλειά;",
+"accept": [],
+"why": "ακόμα.",
+"id": "negation-questions-f073aab0"
+}
+]
+}
+]
+}
+],
+"id": "negation-questions",
+"el": "Άρνηση, ερώτηση, μόρια",
+"title": "Negation, questions and particles",
+"span": "A1–B1",
+"part": "Μέρος ΣΤ΄ | Σύνταξη | Syntax",
+"blurb": "Which \"not\" to use (δεν, μη, όχι), double negatives (δεν είδα τίποτα), ούτε, the question words and tag questions, μήπως and άραγε, and the small particles that give speech its colour: πια, ακόμα, κιόλας, καν, ντε, δα, ρε.",
+"intro": [
+{
+"p": "Greek has three words for \"not\": **δεν** with ordinary verbs, **μη(ν)** after να / ας and in prohibitions, and **όχι** for everything that isn't a verb. Negative words like **τίποτα, κανείς, ποτέ** need a δεν as well: **Δεν είδα τίποτα.** \"I didn't see anything.\" Questions are made with intonation alone: **Θέλεις καφέ;** \"Do you want coffee?\""
+},
+{
+"links": [
+{
+"href": "#a1-negation-questions",
+"kind": "Lesson",
+"el": "Άρνηση και ερωτήσεις",
+"title": "δεν, questions and question words"
+},
+{
+"href": "#syntax.negation",
+"kind": "Syntax",
+"el": "Η άρνηση",
+"title": "Negation"
+},
+{
+"href": "#syntax.questions",
+"kind": "Syntax",
+"el": "Ερωτήσεις και επιφωνήματα",
+"title": "Questions and exclamations"
+},
+{
+"href": "#cards.negation",
+"kind": "Card",
+"el": "Άρνηση",
+"title": "Negation"
+},
+{
+"href": "#cards.questions",
+"kind": "Card",
+"el": "Ερωτήσεις",
+"title": "Questions"
+},
+{
+"href": "#cards.particles",
+"kind": "Card",
+"el": "Μόρια",
+"title": "Particles: θα, να, ας, δεν, μη"
+}
+]
+}
+],
+"num": 29
+}
