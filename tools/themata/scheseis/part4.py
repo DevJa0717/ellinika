@@ -1,0 +1,66 @@
+PART = dict(id="charaktires", el="Χαρακτήρες", en="Characters",
+            intro_el="Πώς περιγράφουμε τους ανθρώπους γύρω μας: τον καλό και τον κακό χαρακτήρα, τα νεύρα, τα καπρίτσια και τις προκαταλήψεις.",
+            intro_en="How we describe the people around us: good and bad character, tempers, whims and prejudices.")
+
+CHAPTERS = [
+dict(
+ id="charaktires", el="Ποιος είναι ποιος στο γραφείο", title="Who's who in the office", level="B2+",
+ summary_en="Character words in action: a small Athens design studio and its people, from the loving boss and the short-tempered accountant to the brilliant left-handed intern and the office Casanova. Then a quarrel, a slap that never happens, a reconciliation, and a short note on how psychologists group personality traits.",
+ sections=[
+  dict(id="anthropoi", el="Οι άνθρωποι", en="The people", paras=[
+   ("Στο μικρό γραφείο γραφιστικής της Αμαλίας, στο Κουκάκι, δουλεύουν έξι άνθρωποι, και ο καθένας είναι ένας ολόκληρος χαρακτήρας. Η ίδια η Αμαλία είναι στοργική και ανοιχτόμυαλη: ακούει όλες τις ιδέες, ακόμα και τις πιο τρελές, και δεν είναι ποτέ επικριτική χωρίς λόγο. Ο λογιστής, ο κύριος Παύλος, είναι το αντίθετο: οξύθυμος, ευέξαπτος και λίγο παλιομοδίτικος. Θυμώνει με το παραμικρό προβληματάκι και θεωρεί κάθε καινούργιο πρόγραμμα στον υπολογιστή «καπρίτσιο της νεολαίας».",
+    "In Amalia's little graphic design studio in Koukaki six people work, and each one is quite a character. Amalia herself is loving and open-minded: she listens to every idea, even the craziest, and is never critical without reason. The accountant, Mr Pavlos, is the opposite: short-tempered, irritable and a bit old-fashioned. He gets angry at the slightest little problem and considers every new computer program 'a whim of the young'.", ["w_personality"]),
+   ("Η Ζωή, η ασκούμενη, είναι αριστερόχειρας και μια μικρή μεγαλοφυΐα του σχεδίου. Οι άλλοι την πειράζουν και τη λένε «σπασικλάκι», γιατί διαβάζει ακόμα και στο διάλειμμα. Ο Ηλίας, ο φωτογράφος, είναι ο καζανόβας του γραφείου: κάθε εβδομάδα έχει μια καινούργια θαυμάστρια και θεωρεί τον εαυτό του κουκλάρα. Ο Στάθης, ο νεότερος, είναι λίγο απρόσεκτος και άπραγος: χαραμίζει τις ώρες του στο κινητό και ξεχνά τα μισά. «Κολεγιόπαιδο», λέει ο κύριος Παύλος με σαρκασμό, «που δεν έχει δουλέψει ποτέ στη ζωή του».",
+    "Zoi, the intern, is left-handed and a little drawing genius. The others tease her and call her 'little nerd', because she reads even during the break. Ilias, the photographer, is the office Casanova: every week he has a new admirer and considers himself a stunner. Stathis, the youngest, is a bit careless and idle: he wastes his hours on his phone and forgets half of everything. 'A college kid,' says Mr Pavlos sarcastically, 'who's never worked a day in his life.'", ["w_personality"]),
+   ("Υπάρχει και η κυρία Λένα, η καθαρίστρια, μια γριούλα με ατελείωτη υπομονή, που φέρνει κάθε Παρασκευή γλυκό και λέει όλους «πιτσουνάκι μου». Και ο Μάριος, ο πελάτης που όλοι φοβούνται: ιδιότροπος, προκατειλημμένος απέναντι σε κάθε νέο γραφίστα, με έναν τρόπο σχεδόν γλοιώδη όταν θέλει κάτι και απόμακρο όταν πρέπει να πληρώσει.",
+    "There is also Mrs Lena, the cleaner, a little old lady with endless patience who brings a cake every Friday and calls everyone 'my little pigeon'. And Marios, the client everyone dreads: capricious, prejudiced against every new designer, almost slimy in manner when he wants something, and aloof when it is time to pay.", ["w_personality"]),
+  ]),
+  dict(id="kavgas", el="Ο καβγάς", en="The quarrel", paras=[
+   ("Ένα πρωί ο Μάριος έρχεται με τη χαρτούρα της καινούργιας καμπάνιας και κάνει τέτοιο σαματά, που ακούγεται σε όλη την πολυκατοικία. Λέει ότι τα σχέδια της Ζωής είναι «παιδιάστικα» και «κοριτσίστικα», ότι η ομάδα είναι ανάξια και ότι τόσες μέρες πήγαν στράφι. Η Ζωή κοκκινίζει. Ο κύριος Παύλος, που ως τότε την έβρισκε ανιαρή, σηκώνεται από την καρέκλα του έξαλλος. «Είστε άδικος και βάναυσος», του λέει. «Αυτό που κάνετε είναι ασυγχώρητο».",
+    "One morning Marios arrives with the paperwork for the new campaign and makes such a racket that the whole block of flats can hear it. He says Zoi's designs are 'childish' and 'girly', that the team is incompetent and that all those days have gone to waste. Zoi blushes. Mr Pavlos, who until then found her dull, gets up from his chair furious. 'You are unfair and brutal,' he tells him. 'What you are doing is unforgivable.'", ["w_personality"]),
+   ("Για μια στιγμή όλοι διαισθάνονται ότι ο Παύλος θα τον χαστουκίσει. Δεν το κάνει. Η Αμαλία πιάνει τον Μάριο από το μπράτσο και τον πηγαίνει στο γραφείο της. Εκεί, με ήρεμη φωνή, του εξηγεί ότι, αν συνεχίσει, θα βρει άλλο γραφείο. Τον ζορίζει λίγο, αλλά στο τέλος καταφέρνει να τον μεταπείσει. Ο Μάριος λογικεύεται, ζητάει συγγνώμη και φεύγει με την καμπάνια όπως ήταν. «Αν παραπάει ξανά, πατσίσαμε», λέει η Αμαλία.",
+    "For a moment everyone senses that Pavlos is going to slap him. He doesn't. Amalia takes Marios by the arm and leads him to her office. There, in a calm voice, she explains that if he carries on he will be looking for another studio. She pushes him a little, but in the end she manages to change his mind. Marios comes to his senses, apologises and leaves with the campaign as it was. 'If he goes too far again, we're quits,' says Amalia.", ["w_personality"]),
+   ("Το απόγευμα η Ζωή αφήνει ένα σημείωμα στο γραφείο του κυρίου Παύλου: «Ευχαριστώ». Εκείνος το διαβάζει, το βάζει στο συρτάρι και δεν λέει τίποτα. Την επόμενη μέρα όμως της φέρνει έναν καφέ. Όλοι το εκλαμβάνουν ως ειρήνη. Ο Στάθης, που είχε σκαρφιστεί ήδη δέκα αστεία για τον καβγά, αποφασίζει να μην πει κανένα.",
+    "In the afternoon Zoi leaves a note on Mr Pavlos's desk: 'Thank you.' He reads it, puts it in the drawer and says nothing. The next day, though, he brings her a coffee. Everyone takes it as a peace treaty. Stathis, who had already dreamed up ten jokes about the quarrel, decides not to tell any of them.", ["w_personality"]),
+  ]),
+  dict(id="psychologia", el="Τι λένε οι ψυχολόγοι", en="What psychologists say", paras=[
+   ("Οι ψυχολόγοι χρησιμοποιούν συχνά ένα μοντέλο με πέντε μεγάλους παράγοντες της προσωπικότητας: την ανοιχτότητα στην εμπειρία, την ευσυνειδησία, την εξωστρέφεια, τη συνεργατικότητα και τη νευρωτικότητα. Με αυτούς τους όρους, η Αμαλία έχει υψηλή ανοιχτότητα και συνεργατικότητα, ο κύριος Παύλος υψηλή νευρωτικότητα αλλά και μεγάλη ευσυνειδησία, ενώ ο Στάθης χρειάζεται λίγη ακόμα ευσυνειδησία. Κανένας χαρακτήρας δεν είναι μόνο καλός ή μόνο κακός, και ο άκαρδος της πρώτης εντύπωσης μπορεί να είναι ο πιο στοργικός στην πράξη.",
+    "Psychologists often use a model with five broad personality factors (the 'Big Five'): openness to experience, conscientiousness, extraversion, agreeableness and neuroticism. In these terms Amalia scores high on openness and agreeableness, Mr Pavlos high on neuroticism but also on conscientiousness, while Stathis could use a little more conscientiousness. No character is only good or only bad, and the person who seems heartless at first sight can turn out to be the most caring in practice.", ["w_big_five"]),
+  ]),
+ ],
+ grammar=[
+  dict(level="B2+", title="Επίθετα σε -ης, -ης, -ες and -ώδης: ευέξαπτος vs γλοιώδης",
+       el="Επίθετα του χαρακτήρα και η κλίση τους.",
+       en="Most character adjectives are regular -ος, -η, -ο: **στοργικός, επικριτικός, ανιαρός, απρόσεκτος, οξύθυμος, ευέξαπτος** (feminine ευέξαπτη). A few learned ones are in **-ης, -ης, -ες**: **γλοιώδης, ανιδιοτελής, ειλικρινής** (plural *γλοιώδεις*, neuter *γλοιώδη*). **ανοιχτόμυαλος** and **κουφιοκέφαλος** are compounds with -μυαλος, -κέφαλος.",
+       examples=[("Είναι μια στοργική μητέρα.", "She is a loving mother."), ("Τι γλοιώδεις τρόποι!", "What slimy manners!"), ("Μην είσαι τόσο επικριτική.", "Don't be so critical.")]),
+  dict(level="B2", title="Εκλαμβάνω ως, θεωρώ: taking something as",
+       el="Το «εκλαμβάνω» και το «θεωρώ» με κατηγορούμενο.",
+       en="**εκλαμβάνω κάτι ως** = take/interpret something as: *το εκλαμβάνουν ως ειρήνη*. **θεωρώ** + accusative + predicate in accusative: *θεωρεί τον εαυτό του κουκλάρα* (he thinks himself a stunner), *τη θεωρούσε ανιαρή*. Also **τον έχω για** (colloquial): *τον έχω για έξυπνο*.",
+       examples=[("Μην το εκλάβεις ως προσβολή.", "Don't take it as an insult."), ("Τον θεωρούν ιδιοφυΐα.", "They consider him a genius."), ("Την είχα για πιο σοβαρή.", "I took her for more serious.")]),
+  dict(level="B2+", title="Παραπάω, πατσίζω, στράφι: everyday expressions",
+       el="Καθημερινές εκφράσεις για όρια και λογαριασμούς.",
+       en="**παραπάω** = go too far (*αυτό παραπάει!* that's too much!). **πατσίζω / πατσίσαμε** = get even, be quits (also after a debt or a game). **πάω στράφι** = go to waste: *πήγαν στράφι τόσοι κόποι*. **χαραμίζω** = waste something valuable: *χαραμίζεις το ταλέντο σου*.",
+       examples=[("Αυτό πια παραπάει!", "Now that's going too far!"), ("Σου έδωσα δέκα ευρώ, πατσίσαμε.", "I gave you ten euros, we're quits."), ("Μη χαραμίζεις τη νιότη σου.", "Don't waste your youth.")]),
+ ],
+ terms=[
+  ("στοργικός", "loving, affectionate", "Που δείχνει τρυφερότητα και φροντίδα.", "Showing tenderness and care."),
+  ("ανοιχτόμυαλος", "open-minded", "Που δέχεται νέες ιδέες χωρίς προκατάληψη.", "Accepting new ideas without prejudice."),
+  ("ευέξαπτος", "hot-tempered", "Που θυμώνει πολύ εύκολα.", "Who gets angry very easily."),
+  ("ο αριστερόχειρας", "left-handed person", "Αυτός που γράφει με το αριστερό χέρι.", "Someone who writes with the left hand."),
+  ("ο καζανόβας", "womaniser", "Άντρας με πολλές ερωτικές κατακτήσεις.", "A man with many romantic conquests."),
+  ("ιδιότροπος", "capricious, fussy", "Που έχει παράξενες απαιτήσεις και αλλάζει γνώμη.", "Having odd demands and changing their mind."),
+  ("προκατειλημμένος", "prejudiced", "Που κρίνει πριν γνωρίσει.", "Who judges before getting to know."),
+  ("ο σαματάς", "racket, fuss", "Θόρυβος και φασαρία.", "Noise and commotion."),
+  ("ασυγχώρητος", "unforgivable", "Που δεν μπορεί να συγχωρεθεί.", "That cannot be forgiven."),
+  ("μεταπείθω", "to make someone change their mind", "Πείθω κάποιον να αλλάξει γνώμη.", "To persuade someone to change their mind."),
+ ],
+ questions=[
+  ("Πώς είναι η Αμαλία;", ["Στοργική και ανοιχτόμυαλη", "Οξύθυμη και ευέξαπτη", "Απρόσεκτη και άπραγη", "Ιδιότροπη"], "Στοργική και ανοιχτόμυαλη", "Ακούει όλες τις ιδέες."),
+  ("Γιατί λένε τη Ζωή «σπασικλάκι»;", ["Γιατί διαβάζει ακόμα και στο διάλειμμα", "Γιατί είναι αριστερόχειρας", "Γιατί φοράει γυαλιά", "Γιατί αργεί"], "Γιατί διαβάζει ακόμα και στο διάλειμμα", "Είναι μικρή μεγαλοφυΐα του σχεδίου."),
+  ("Ποιος υπερασπίζεται τη Ζωή στον καβγά;", ["Ο κύριος Παύλος", "Ο Ηλίας", "Ο Στάθης", "Η κυρία Λένα"], "Ο κύριος Παύλος", "Παρόλο που την έβρισκε ανιαρή."),
+  ("Πώς εκλαμβάνουν όλοι τον καφέ του κυρίου Παύλου;", ["Ως ειρήνη", "Ως προσβολή", "Ως αστείο", "Ως δωροδοκία"], "Ως ειρήνη", "Μετά το σημείωμα της Ζωής."),
+  ("Τι σημαίνει «πήγαν στράφι»;", ["Πήγαν χαμένες", "Πήγαν στραβά", "Πήγαν καλά", "Πήγαν γρήγορα"], "Πήγαν χαμένες", "Χωρίς αποτέλεσμα."),
+ ],
+ vocab=["στοργικός", "ανοιχτόμυαλος", "επικριτικός", "οξύθυμος", "ευέξαπτος", "παλιομοδίτικος", "ο αριστερόχειρας", "η μεγαλοφυΐα", "ο καζανόβας", "απρόσεκτος", "χαραμίζω", "ιδιότροπος", "προκατειλημμένος", "ο σαματάς", "ασυγχώρητος", "μεταπείθω"],
+),
+]

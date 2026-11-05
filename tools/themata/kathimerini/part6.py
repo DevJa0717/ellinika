@@ -1,0 +1,66 @@
+PART = dict(id="taxidi", el="Ταξίδι στο βουνό", en="A trip to the mountains",
+            intro_el="Χριστούγεννα σε ένα ορεινό χωριό, με ένα παλιό βανάκι, χιόνι, ζώα και ένα ξενοδοχείο που δεν περίμενε κανέναν.",
+            intro_en="Christmas in a mountain village, with an old van, snow, animals and a hotel that wasn't expecting anyone.")
+
+CHAPTERS = [
+dict(
+ id="vouno", el="Χριστούγεννα στο βουνό", title="Christmas in the mountains", level="B2+",
+ summary_en="Four friends drive an old van to a mountain village in the Peloponnese for Christmas. The van breaks down, one of them hitchhikes for help, the guesthouse has lost their booking, and the village turns out to be more welcoming than any hotel: a snowman, horses and hunting dogs, a karaoke night, and a bill paid off in the end.",
+ sections=[
+  dict(id="dromos", el="Στον δρόμο", en="On the road", paras=[
+   ("Η Νεφέλη, ο Τάσος, η Κατερίνα και ο Γιώργης αποφάσισαν να περάσουν τα Χριστούγεννα σε ένα ορεινό χωριό της Αρκαδίας. Πήραν το βανάκι του Τάσου, ένα σαράβαλο είκοσι χρονών, γέμισαν το ντεπόζιτο και ξεκίνησαν νυχτιάτικα, για να αποφύγουν την κίνηση. Στο πορτμπαγκάζ είχαν λαστιχένιες μπότες, αλυσίδες για το χιόνι, ένα ταψί με μπράουνι και καναδυό μπουκάλια κρασί.",
+    "Nefeli, Tasos, Katerina and Giorgis decided to spend Christmas in a mountain village in Arcadia. They took Tasos's little van, a twenty-year-old wreck, filled the tank and set off in the middle of the night to avoid the traffic. In the boot they had rubber boots, snow chains, a tray of brownies and a couple of bottles of wine.", ["w_arcadia"]),
+   ("Σαράντα χιλιόμετρα πριν από το χωριό, το βανάκι σταμάτησε σε μια ανηφόρα. «Γρουσουζιά!» φώναξε ο Τάσος και κλώτσησε το λάστιχο. Δεν υπήρχε σήμα στο κινητό. Ο Γιώργης βγήκε στον δρόμο και έκανε οτοστόπ. Μετά από μισή ώρα σταμάτησε ένας αγρότης με ένα τρακτέρ. «Έλα, παλικάρι, ανέβα», του είπε. «Ο ανιψιός μου είναι μηχανικός, θα σας ξεμπλέξει». Ο αγρότης ήταν ένας πραγματικός καλός Σαμαρείτης.",
+    "Forty kilometres before the village the van stopped on an uphill stretch. 'Jinxed!' shouted Tasos, and kicked the tyre. There was no signal on the phone. Giorgis went out onto the road and hitchhiked. After half an hour a farmer stopped with a tractor. 'Come on, lad, get in,' he said. 'My nephew is a mechanic, he'll get you out of this.' The farmer was a real Good Samaritan, the man in Jesus's parable who stops to help a stranger.", ["w_hitchhiking", "w_good_samaritan"]),
+  ]),
+  dict(id="xenonas", el="Στον ξενώνα", en="At the guesthouse", paras=[
+   ("Όταν έφτασαν επιτέλους στον ξενώνα, η ρεσεψιονίστ τους κοίταξε έκπληκτη. Η κράτησή τους είχε χαθεί, και όλα τα δωμάτια ήταν πιασμένα. Ύστερα από πολλή χαρτούρα και τηλέφωνα, βρέθηκε μια λύση: ένα δωμάτιο με κουκέτες στη σοφίτα. «Σαν στρατόπεδο», γκρίνιαξε η Κατερίνα. Η Νεφέλη όμως χάρηκε: «Θα είμαστε όλοι αντάμα, όπως τότε στις κατασκηνώσεις».",
+    "When they finally reached the guesthouse, the receptionist looked at them in surprise. Their booking had been lost and all the rooms were taken. After a lot of paperwork and phone calls a solution was found: a room with bunk beds in the attic. 'Like an army camp,' grumbled Katerina. Nefeli, though, was delighted: 'We'll all be together, like back at summer camp.' (αντάμα is a rural, old-fashioned word for μαζί.)", ["w_arcadia"]),
+   ("Το πρωί το χωριό ήταν κάτασπρο. Τα παιδιά της γειτονιάς έφτιαχναν έναν χιονάνθρωπο με ένα καρότο για μύτη και ένα παλιό καπέλο. Στο μαγαζί της πλατείας πουλούσαν μπιχλιμπίδια για το δέντρο: αστεράκια, καμπανούλες και έναν ξύλινο τάρανδο με κόκκινη μύτη. Ένας γέρος βοσκός περνούσε με τα γελάδια του, και ξοπίσω του έτρεχαν δύο λαγωνικά. «Κυνηγόσκυλα», εξήγησε. «Κυνηγάμε λαγούς τον χειμώνα».",
+    "In the morning the village was white all over. The neighbourhood children were making a snowman with a carrot for a nose and an old hat. The shop on the square was selling trinkets for the tree: little stars, little bells and a wooden reindeer with a red nose. An old herdsman passed with his cows, and two hounds ran right behind him. 'Hunting dogs,' he explained. 'We hunt hares in the winter.'", ["w_snowman", "w_reindeer"]),
+   ("Το απόγευμα η Κατερίνα, που είχε πάρει μαθήματα ιππασίας στην Αθήνα, ίππευσε για πρώτη φορά στο χιόνι ένα μαύρο άτι από τον στάβλο του χωριού. Ο ιδιοκτήτης, ένας γεροδεμένος άντρας με ατσάλινα χέρια, της έδωσε συμβουλές. «Μη ζορίζεις το άλογο, άσ’ το να βρει τον δρόμο του». Οι άλλοι την κοίταζαν από τον φράχτη, χωρίς να τολμάνε να ανέβουν.",
+    "In the afternoon Katerina, who had taken riding lessons in Athens, rode a black steed from the village stable in the snow for the first time. The owner, a sturdy man with hands of steel, gave her advice. 'Don't push the horse, let it find its own way.' The others watched her from the fence, not daring to get on. (άτι is a poetic, folk-song word for a horse.)", ["w_arcadia"]),
+  ]),
+  dict(id="glenti", el="Το γλέντι και ο λογαριασμός", en="The party and the bill", paras=[
+   ("Την παραμονή των Χριστουγέννων δείπνησαν στην ταβέρνα του χωριού: χοιρινό με σέλινο, πίκλες, χωριάτικο ψωμί και τα μπράουνι τους για επιδόρπιο. Μετά, ο ταβερνιάρης έβγαλε ένα μηχάνημα για καραόκε, και όλο το χωριό τραγούδησε, από τα παιδιά μέχρι τις γιαγιάδες. Ο Τάσος, που συνήθως είναι πολύ σοβαρός, τραγούδησε ένα παλιό λαϊκό και χειροκροτήθηκε περισσότερο απ’ όλους.",
+    "On Christmas Eve they dined at the village taverna: pork with celery, pickles, village bread and their own brownies for dessert. Afterwards the taverna owner brought out a karaoke machine and the whole village sang, from the children to the grandmothers. Tasos, who is usually very serious, sang an old popular song and got the biggest applause of all.", ["w_christmas_greece"]),
+   ("Την επόμενη μέρα ήρθε ο ανιψιός με το βανάκι επισκευασμένο. Το πρόβλημα ήταν ένα «πραγματάκι», όπως είπε, ένα σπασμένο λάστιχο στο σύστημα ψύξης. Ο Τάσος ήθελε να τον ξοφλήσει αμέσως, αλλά εκείνος πήρε μόνο τα ανταλλακτικά. «Τα υπόλοιπα, του χρόνου να ξανάρθετε», είπε. Γύρισαν στην Αθήνα με το βανάκι να βογκάει στις ανηφόρες και με την υπόσχεση ότι του χρόνου θα ξαναπάνε, αυτή τη φορά με κράτηση σε χαρτί.",
+    "The next day the nephew turned up with the van repaired. The problem was 'a little thing', as he put it, a split hose in the cooling system. Tasos wanted to pay him off at once, but he took only the cost of the parts. 'As for the rest, come back next year,' he said. They drove back to Athens with the van groaning on the climbs, promising to return next year, this time with the booking on paper.", ["w_christmas_greece"]),
+  ]),
+ ],
+ grammar=[
+  dict(level="B2", title="Ξοπίσω, αντάμα, νυχτιάτικα: rural and colloquial adverbs",
+       el="Λαϊκά και προφορικά επιρρήματα.",
+       en="Spoken and rural Greek keeps some vivid adverbs: **ξοπίσω** (right behind, = ακριβώς πίσω), **αντάμα** (together, = μαζί), **νυχτιάτικα** (in the middle of the night), **μεσημεριάτικα** (at midday, at siesta time), **καναδυό** (one or two, a couple). They give a narrative a homely, oral tone.",
+       examples=[("Τι θες νυχτιάτικα στον δρόμο;", "What are you doing out in the middle of the night?"), ("Μεσημεριάτικα μη χτυπάς κουδούνια.", "Don't ring doorbells at siesta time."), ("Πάρε καναδυό πορτοκάλια.", "Take a couple of oranges.")]),
+  dict(level="B2+", title="Ξεμπλέκω, ξοφλώ: getting out and paying off",
+       el="Ρήματα για λύσεις και λογαριασμούς.",
+       en="**ξεμπλέκω** = disentangle, get (someone) out of a mess: *θα σας ξεμπλέξει*. **ξοφλώ** = pay off, settle (a debt, a person): *τον ξόφλησα*, *ξόφλησα το δάνειο*. Figuratively **είμαι ξοφλημένος** = I'm finished, washed-up. **κλείνω τον λογαριασμό** = settle the bill.",
+       examples=[("Ξόφλησα επιτέλους το δάνειο.", "I've finally paid off the loan."), ("Ποιος θα μας ξεμπλέξει τώρα;", "Who's going to get us out of this now?"), ("Τον θεωρούν ξοφλημένο.", "They think he's washed-up.")]),
+  dict(level="B2", title="Ιππεύω and δειπνώ: formal verbs for everyday actions",
+       el="Λόγια ρήματα για καθημερινές πράξεις.",
+       en="Some everyday actions have a learned verb next to the everyday phrase: **ιππεύω** = κάνω ιππασία / καβαλάω άλογο; **δειπνώ** = τρώω βραδινό; **γευματίζω** = τρώω μεσημεριανό; **αφυπνίζομαι** = ξυπνάω. The learned verb gives a story an ironic or elevated touch: *δείπνησαν στην ταβέρνα*.",
+       examples=[("Δειπνήσαμε με θέα την Ακρόπολη.", "We dined with a view of the Acropolis."), ("Ιππεύει από παιδί.", "She has ridden since she was a child."), ("Γευματίσαμε στο πλοίο.", "We had lunch on the ship.")]),
+ ],
+ terms=[
+  ("το βανάκι", "small van", "Μικρό φορτηγάκι ή αυτοκίνητο τύπου βαν.", "A small van."),
+  ("το σαράβαλο", "old banger, wreck", "Πολύ παλιό, χαλασμένο όχημα ή πράγμα.", "A very old, broken-down vehicle or thing."),
+  ("το ντεπόζιτο", "fuel tank", "Το δοχείο για τα καύσιμα ή το νερό.", "The container for fuel or water."),
+  ("το οτοστόπ", "hitchhiking", "Ταξίδι με αυτοκίνητα που σταματούν για να σε πάρουν.", "Travelling by getting lifts from passing cars."),
+  ("η γρουσουζιά", "bad luck, jinx", "Κακή τύχη, ατυχία.", "Bad luck, misfortune."),
+  ("η κουκέτα", "bunk bed, berth", "Κρεβάτι το ένα πάνω από το άλλο.", "A bed stacked above another."),
+  ("το μπιχλιμπίδι", "trinket", "Μικρό, φτηνό διακοσμητικό αντικείμενο.", "A small, cheap decorative object."),
+  ("το λαγωνικό", "hound", "Κυνηγετικός σκύλος για λαγούς.", "A hunting dog for hares."),
+  ("το άτι", "steed", "Άλογο, στη λαϊκή και ποιητική γλώσσα.", "A horse, in folk and poetic language."),
+  ("ξοφλώ", "to pay off", "Πληρώνω ολόκληρο ένα χρέος.", "To pay a debt in full."),
+ ],
+ questions=[
+  ("Γιατί ξεκίνησαν νυχτιάτικα;", ["Για να αποφύγουν την κίνηση", "Γιατί χιόνιζε", "Για να δουν τα αστέρια", "Γιατί άργησαν"], "Για να αποφύγουν την κίνηση", "Με το βανάκι του Τάσου."),
+  ("Πώς βρήκε βοήθεια ο Γιώργης;", ["Έκανε οτοστόπ", "Τηλεφώνησε", "Περπάτησε ως το χωριό", "Πήρε λεωφορείο"], "Έκανε οτοστόπ", "Δεν υπήρχε σήμα στο κινητό."),
+  ("Πού κοιμήθηκαν στον ξενώνα;", ["Σε κουκέτες στη σοφίτα", "Σε σουίτα", "Στο βανάκι", "Στην ταβέρνα"], "Σε κουκέτες στη σοφίτα", "Η κράτησή τους είχε χαθεί."),
+  ("Τι κυνηγούν με τα λαγωνικά;", ["Λαγούς", "Αγριογούρουνα", "Πουλιά", "Λύκους"], "Λαγούς", "Τον χειμώνα."),
+  ("Τι πήρε ο μηχανικός για την επισκευή;", ["Μόνο τα ανταλλακτικά", "Τίποτα", "Πολλά λεφτά", "Ένα μπράουνι"], "Μόνο τα ανταλλακτικά", "«Τα υπόλοιπα, του χρόνου να ξανάρθετε»."),
+ ],
+ vocab=["το βανάκι", "το σαράβαλο", "το ντεπόζιτο", "νυχτιάτικα", "η γρουσουζιά", "κλωτσάω", "το οτοστόπ", "ο Σαμαρείτης", "η ρεσεψιονίστ", "η κουκέτα", "αντάμα", "ο χιονάνθρωπος", "το μπιχλιμπίδι", "το λαγωνικό", "ιππεύω", "ξοφλώ"],
+),
+]

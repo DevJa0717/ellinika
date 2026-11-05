@@ -61,4 +61,12 @@ SRC = {
  "w_loutraki": ("Wikipedia, “Loutraki” (springs and therapeutic spas)", W + "Loutraki"),
  "w_drowning": ("Wikipedia, “Drowning”", W + "Drowning"),
  "w_hair_gel": ("Wikipedia, “Hair gel”", W + "Hair_gel"),
+ "w_emergency_department": ("Wikipedia, “Emergency department”", W + "Emergency_department"),
+ "w_full_moon_er": ("Wikipedia, “Lunar effect” (no reliable link between the full moon and hospital admissions)", W + "Lunar_effect"),
+ "w_epinephrine": ("Wikipedia, “Epinephrine (medication)”", W + "Epinephrine_(medication)"),
+ "w_anaphylaxis": ("Wikipedia, “Anaphylaxis”", W + "Anaphylaxis"),
+ "w_dvt": ("Wikipedia, “Deep vein thrombosis” (long-haul travel as a risk factor)", W + "Deep_vein_thrombosis"),
+ "w_pe": ("Wikipedia, “Pulmonary embolism”", W + "Pulmonary_embolism"),
+ "w_methamphetamine": ("Wikipedia, “Methamphetamine”", W + "Methamphetamine"),
+ "w_methadone": ("Wikipedia, “Methadone”", W + "Methadone"),
 }

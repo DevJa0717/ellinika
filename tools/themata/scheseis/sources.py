@@ -40,4 +40,6 @@ SRC = {
  "w_dowry": ("Wikipedia, “Dowry” (removed from Greek family law in 1983)", W + "Dowry"),
  "w_family_law_1983": ("Wikipedia, “Women in Greece” (1983 family-law reform)", W + "Women_in_Greece"),
  "w_ioannina": ("Wikipedia, “Ioannina”", W + "Ioannina"),
+ "w_personality": ("Wikipedia, “Personality”", W + "Personality"),
+ "w_big_five": ("Wikipedia, “Big Five personality traits”", W + "Big_Five_personality_traits"),
 }

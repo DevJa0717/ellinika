@@ -77,4 +77,10 @@ SRC = {
  "w_souvlaki": ("Wikipedia, “Souvlaki”", W + "Souvlaki"),
  "w_truffle": ("Wikipedia, “Truffle”", W + "Truffle"),
  "w_avocado": ("Wikipedia, “Avocado”", W + "Avocado"),
+ "w_arcadia": ("Wikipedia, “Arcadia (region)”", W + "Arcadia_(region)"),
+ "w_hitchhiking": ("Wikipedia, “Hitchhiking”", W + "Hitchhiking"),
+ "w_good_samaritan": ("Wikipedia, “Parable of the Good Samaritan”", W + "Parable_of_the_Good_Samaritan"),
+ "w_snowman": ("Wikipedia, “Snowman”", W + "Snowman"),
+ "w_reindeer": ("Wikipedia, “Reindeer”", W + "Reindeer"),
+ "w_christmas_greece": ("Wikipedia (Greek), “Χριστούγεννα” (customs in Greece)", E + "Χριστούγεννα"),
 }
