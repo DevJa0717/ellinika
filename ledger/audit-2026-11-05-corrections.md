@@ -85,3 +85,6 @@ All 24 dead or unreachable outside sources were replaced (`git show` this commit
 - Theoria mixed-practice sections (e96fb7b, 26fdc7b): audit.js and answers.js clean (flags are deliberate spelling drills, ό,τι, surnames, elisions).
 - Drill books (761414d): answers.js 0 unknown words.
 - links.js: 0 internal problems in 1,047 files.
+
+## Final re-check, 2026-11-05 ~19:20 UTC
+New since 84b0465: readers #douleia (9 ch), #scheseis (8), #nomos (6), #eleftheros (5), #eidiseis (7), 9 added chapters in #kathimerini/#ygeia, theoria learned prefixes/suffixes, drill-book irregular tables, lexicon to 14,261 entries. audit.js: 0 hard findings (flags are enclitic accents such as κίνδυνός τους, φιλότιμό σου, τηλεφωνήματός μας, which are correct, plus καρέτα καρέτα, ordinals, glosses). facts.py: 47 chapters, 0 real mismatches. answers.js: only names, ό,τι, ordinals and deliberate drills. links.js: 0 internal problems in 1,096 files; --web 0 dead of 4,126 (the one timeout, dovaluegreece.gr, answers 200 on retry). pdfs.js: all 39 PDFs have Greek-only covers and are listed. No fixes needed.
