@@ -1,0 +1,985 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Έκθλιψη και συναίρεση",
+"title": "Elision: θα 'ρθω, σ' αγαπώ, μου 'πε",
+"body": [
+{
+"p": "In speech, vowels that meet at a word boundary merge or drop. In writing an **apostrophe** marks the lost vowel."
+},
+{
+"table": {
+"head": [
+"Full",
+"Spoken",
+"Meaning"
+],
+"rows": [
+[
+"θα έρθω",
+"θα 'ρθω",
+"I'll come"
+],
+[
+"να είσαι",
+"να 'σαι",
+"(may you) be"
+],
+[
+"μου είπε",
+"μου 'πε",
+"he told me"
+],
+[
+"σε αγαπώ",
+"σ' αγαπώ",
+"I love you"
+],
+[
+"από το",
+"απ' το",
+"from the"
+],
+[
+"το έχω",
+"το 'χω",
+"I have it"
+],
+[
+"τα είπαμε",
+"τα 'παμε",
+"we talked"
+],
+[
+"πού είναι",
+"πού 'ναι",
+"where is it"
+],
+[
+"μη(ν) ακούς",
+"μην ακούς",
+"don't listen"
+]
+]
+}
+},
+{
+"p": "**σε + article** always contracts, in writing too: **στο, στη(ν), στον, στους, στις, στα**: **στο σπίτι, στην Αθήνα**."
+},
+{
+"ex": [
+{
+"el": "Θα 'ρθω κατά τις εννιά.",
+"en": "I'll come around nine."
+},
+{
+"el": "Σ' αγαπώ.",
+"en": "I love you."
+},
+{
+"el": "Μου 'πε να περιμένω.",
+"en": "He told me to wait."
+},
+{
+"el": "Να 'σαι καλά!",
+"en": "Thank you! / Take care!"
+},
+{
+"el": "Πού 'ναι τα κλειδιά μου;",
+"en": "Where are my keys?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "Full form of **θα 'χουμε**",
+"a": "θα έχουμε",
+"why": "The initial vowel of έχουμε is dropped."
+},
+{
+"q": "Spoken form of **σε ευχαριστώ**",
+"a": "σ' ευχαριστώ",
+"why": "The ε of σε drops before a vowel."
+},
+{
+"q": "Full form of **μου 'δωσε**",
+"a": "μου έδωσε",
+"why": "The augment έ- drops after μου."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θα ___ αύριο. (I'll come: spoken)",
+"options": [
+"'ρθει",
+"'ρθω",
+"ερθ'",
+"'ρθες"
+],
+"answer": "'ρθω",
+"why": "θα έρθω → θα 'ρθω.",
+"id": "spoken-grammar-02c5e0b9"
+},
+{
+"type": "choice",
+"q": "___ αγαπώ. (I love you: spoken)",
+"options": [
+"Σου",
+"Σ'",
+"Σε'",
+"Σο"
+],
+"answer": "Σ'",
+"why": "σε αγαπώ → σ' αγαπώ.",
+"id": "spoken-grammar-224d5938"
+},
+{
+"type": "choice",
+"q": "Μου ___ να περιμένω. (he told me: spoken)",
+"options": [
+"'πες",
+"'πε",
+"πε'",
+"'πω"
+],
+"answer": "'πε",
+"why": "μου είπε → μου 'πε.",
+"id": "spoken-grammar-dbaa9ff4"
+},
+{
+"type": "choice",
+"q": "Πού ___ το πορτοφόλι μου; (is: spoken)",
+"options": [
+"'μαι",
+"'ναι",
+"'σαι",
+"νά"
+],
+"answer": "'ναι",
+"why": "είναι → 'ναι.",
+"id": "spoken-grammar-5c508d13"
+},
+{
+"type": "choice",
+"q": "Να ___ καλά! (be, sg: spoken)",
+"options": [
+"'ναι",
+"'σαι",
+"'μαι",
+"σαι'"
+],
+"answer": "'σαι",
+"why": "να είσαι → να 'σαι.",
+"id": "spoken-grammar-fe7b642f"
+},
+{
+"type": "write",
+"q": "Full form of \"θα 'ρθεις\"",
+"answer": "θα έρθεις",
+"accept": [],
+"why": "Initial vowel dropped.",
+"id": "spoken-grammar-e1de8b86"
+},
+{
+"type": "write",
+"q": "Full form of \"να 'σαι\"",
+"answer": "να είσαι",
+"accept": [],
+"why": "Initial vowel dropped.",
+"id": "spoken-grammar-5b1c6147"
+},
+{
+"type": "write",
+"q": "Full form of \"σ' αγαπώ\"",
+"answer": "σε αγαπώ",
+"accept": [],
+"why": "ε of σε dropped.",
+"id": "spoken-grammar-6e0a0c1b"
+},
+{
+"type": "write",
+"q": "Full form of \"απ' το σπίτι\"",
+"answer": "από το σπίτι",
+"accept": [],
+"why": "ο of από dropped.",
+"id": "spoken-grammar-816a3660"
+},
+{
+"type": "write",
+"q": "Full form of \"μου 'πε\"",
+"answer": "μου είπε",
+"accept": [],
+"why": "ει dropped.",
+"id": "spoken-grammar-f7b68ea1"
+},
+{
+"type": "order",
+"q": "\"I'll come tomorrow.\" (spoken)",
+"answer": "Θα 'ρθω αύριο.",
+"accept": [
+"Αύριο θα 'ρθω."
+],
+"why": "θα 'ρθω.",
+"id": "spoken-grammar-e3162686"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Προφορικοί τύποι",
+"title": "Colloquial forms of verbs and pronouns",
+"body": [
+{
+"p": "Many verbs have short or extended colloquial forms. You will hear these all the time:"
+},
+{
+"table": {
+"head": [
+"Standard",
+"Colloquial",
+"Meaning"
+],
+"rows": [
+[
+"θέλεις, θέλει",
+"θες, θέλει",
+"you want"
+],
+[
+"λένε, κάνουν",
+"λένε, κάνουνε",
+"they say, they do"
+],
+[
+"είπαν, έκαναν",
+"είπανε, κάνανε",
+"they said, did"
+],
+[
+"ήμουν, ήταν",
+"ήμουνα, ήτανε",
+"I was, he was"
+],
+[
+"μιλούσαμε",
+"μιλάγαμε",
+"we were talking"
+],
+[
+"εμένα, εσένα",
+"μένα, σένα (after prepositions)",
+"me, you"
+],
+[
+"για εμένα",
+"για μένα",
+"for me"
+]
+]
+}
+},
+{
+"p": "The **-ουνε, -ανε** endings are standard enough to appear in songs, novels and the news when people are quoted. **Θες** is the normal spoken form of θέλεις: **Θες καφέ;**"
+},
+{
+"ex": [
+{
+"el": "Τι θες να φας;",
+"en": "What do you want to eat?"
+},
+{
+"el": "Τι λένε στις ειδήσεις;",
+"en": "What are they saying on the news?"
+},
+{
+"el": "Ήμουνα στη δουλειά όταν πήρες.",
+"en": "I was at work when you called."
+},
+{
+"el": "Το 'φτιαξα για σένα.",
+"en": "I made it for you."
+},
+{
+"el": "Τι κάνανε χθες;",
+"en": "What did they do yesterday?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "Colloquial form of **θέλεις**",
+"a": "θες",
+"why": "Short spoken form."
+},
+{
+"q": "\"They told me.\" (with the -ανε ending)",
+"a": "Μου το είπανε. | Μου είπανε.",
+"why": "είπαν → είπανε."
+},
+{
+"q": "\"For me\" (spoken)",
+"a": "για μένα",
+"why": "εμένα → μένα after a preposition."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τι ___ να πιεις; (do you want: spoken)",
+"options": [
+"θέμε",
+"θες",
+"θέλω",
+"θελς"
+],
+"answer": "θες",
+"why": "θέλεις → θες.",
+"id": "spoken-grammar-8382689c"
+},
+{
+"type": "choice",
+"q": "Τι ___ χθες το βράδυ; (did they do: colloquial)",
+"options": [
+"κάνατε",
+"κάνανε",
+"κάναμε",
+"κάνει"
+],
+"answer": "κάνανε",
+"why": "έκαναν → κάνανε.",
+"id": "spoken-grammar-af97c910"
+},
+{
+"type": "choice",
+"q": "___ στο σπίτι όλη μέρα. (I was: colloquial)",
+"options": [
+"Ήτανε",
+"Ήμουνα",
+"Ήσουνα",
+"Είμαι"
+],
+"answer": "Ήμουνα",
+"why": "ήμουν → ήμουνα.",
+"id": "spoken-grammar-88a88018"
+},
+{
+"type": "choice",
+"q": "Αυτό είναι για ___. (you, sg: spoken)",
+"options": [
+"σου",
+"σένα",
+"σε",
+"εσύ"
+],
+"answer": "σένα",
+"why": "για + σένα.",
+"id": "spoken-grammar-20788e9c"
+},
+{
+"type": "choice",
+"q": "Τι ___ οι γονείς σου; (do they say: colloquial)",
+"options": [
+"λέμε",
+"λένε",
+"λες",
+"λέτε"
+],
+"answer": "λένε",
+"why": "λένε.",
+"id": "spoken-grammar-f65f45ca"
+},
+{
+"type": "write",
+"q": "\"Do you (sg) want coffee?\" (spoken)",
+"answer": "Θες καφέ;",
+"accept": [
+"Θέλεις καφέ;"
+],
+"why": "θες.",
+"id": "spoken-grammar-61d205d0"
+},
+{
+"type": "write",
+"q": "\"They said it.\" (colloquial)",
+"answer": "Το είπανε.",
+"accept": [
+"Το είπαν."
+],
+"why": "-ανε.",
+"id": "spoken-grammar-fe95f7f0"
+},
+{
+"type": "write",
+"q": "\"I was tired.\" (colloquial, man)",
+"answer": "Ήμουνα κουρασμένος.",
+"accept": [
+"Ήμουν κουρασμένος."
+],
+"why": "ήμουνα.",
+"id": "spoken-grammar-6d018f4c"
+},
+{
+"type": "write",
+"q": "\"It's for you (sg).\"",
+"answer": "Είναι για σένα.",
+"accept": [
+"Είναι για εσένα."
+],
+"why": "για σένα.",
+"id": "spoken-grammar-75a19875"
+},
+{
+"type": "order",
+"q": "\"What do you (sg) want to eat?\" (spoken)",
+"answer": "Τι θες να φας;",
+"accept": [],
+"why": "θες.",
+"id": "spoken-grammar-29d69e0d"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Δείκτες συνομιλίας",
+"title": "Discourse markers: λοιπόν, δηλαδή, βασικά",
+"body": [
+{
+"p": "These small words manage a conversation: they start, explain, hesitate, sum up. Use a few and you immediately sound more natural."
+},
+{
+"table": {
+"head": [
+"Marker",
+"Function",
+"Example"
+],
+"rows": [
+[
+"λοιπόν",
+"so, well (starting, summing up)",
+"Λοιπόν, τι θα κάνουμε;"
+],
+[
+"δηλαδή",
+"that is, I mean; so?",
+"Δηλαδή δεν έρχεσαι; \"So you're not coming?\""
+],
+[
+"βασικά",
+"basically, actually",
+"Βασικά, δεν έχω χρόνο."
+],
+[
+"ας πούμε",
+"let's say, for example",
+"Πάμε κάπου, στη Νάξο ας πούμε."
+],
+[
+"ξέρεις / ξέρετε",
+"you know",
+"Είναι, ξέρεις, λίγο δύσκολο."
+],
+[
+"κοίτα / κοίτα να δεις",
+"look, listen",
+"Κοίτα, δεν είναι έτσι."
+],
+[
+"που λες",
+"so, as I was saying (storytelling)",
+"Πάω, που λες, στο μαγαζί..."
+],
+[
+"έτσι κι αλλιώς",
+"anyway, in any case",
+"Έτσι κι αλλιώς, δεν ήθελα να πάω."
+],
+[
+"τελικά",
+"in the end, after all",
+"Τελικά ήρθε;"
+],
+[
+"πάντως",
+"anyway, still",
+"Πάντως, εμένα μου άρεσε."
+],
+[
+"εντάξει",
+"OK; fine (agreeing, closing)",
+"Εντάξει, τα λέμε!"
+],
+[
+"αμέ",
+"sure, of course",
+"— Θα έρθεις; — Αμέ!"
+]
+]
+}
+},
+{
+"p": "**Phone talk**: answer with **Ναι; / Παρακαλώ; / Έλα!** (to someone you know). Close with **Τα λέμε!** \"Talk soon!\" or **Γεια σου / Γεια σας**."
+},
+{
+"ex": [
+{
+"el": "Λοιπόν, πάμε;",
+"en": "So, shall we go?"
+},
+{
+"el": "Δηλαδή, τι θες να πεις;",
+"en": "I mean, what are you trying to say?"
+},
+{
+"el": "Βασικά, έχεις δίκιο.",
+"en": "Actually, you're right."
+},
+{
+"el": "Πάω, που λες, στην τράπεζα, και τι να δω;",
+"en": "So I go to the bank, and what do I see?"
+},
+{
+"el": "Τελικά δεν ήρθε κανείς.",
+"en": "In the end, nobody came."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Start a conversation that sums up a plan: \"So, what are we doing tonight?\"",
+"a": "Λοιπόν, τι κάνουμε απόψε; | Λοιπόν, τι θα κάνουμε απόψε;",
+"why": "λοιπόν starts and sums up."
+},
+{
+"q": "\"So you're (sg) not coming?\" (checking)",
+"a": "Δηλαδή δεν έρχεσαι; | Δηλαδή δε θα έρθεις; | Δηλαδή δεν θα έρθεις;",
+"why": "δηλαδή = so, I mean."
+},
+{
+"q": "\"Anyway, I didn't want to go.\"",
+"a": "Έτσι κι αλλιώς, δεν ήθελα να πάω. | Έτσι κι αλλιώς δεν ήθελα να πάω.",
+"why": "έτσι κι αλλιώς = anyway."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___, τι θα φάμε; (So: starting)",
+"options": [
+"Δηλαδή όχι",
+"Λοιπόν",
+"Αμέ",
+"Τελικά όχι"
+],
+"answer": "Λοιπόν",
+"why": "λοιπόν starts a topic.",
+"id": "spoken-grammar-afe01d39"
+},
+{
+"type": "choice",
+"q": "___ δεν σου αρέσει; (So, you mean)",
+"options": [
+"Λοιπόν",
+"Δηλαδή",
+"Αμέ",
+"Πάντως"
+],
+"answer": "Δηλαδή",
+"why": "δηλαδή = so, you mean.",
+"id": "spoken-grammar-2bf964e6"
+},
+{
+"type": "choice",
+"q": "— Θα έρθεις στο πάρτι; — ___! (Sure)",
+"options": [
+"Δηλαδή",
+"Αμέ",
+"Λοιπόν",
+"Ας πούμε"
+],
+"answer": "Αμέ",
+"why": "αμέ = sure.",
+"id": "spoken-grammar-22e0387d"
+},
+{
+"type": "choice",
+"q": "___ ήρθε η Μαρία; (In the end)",
+"options": [
+"Βασικά",
+"Τελικά",
+"Αμέ",
+"Ξέρεις"
+],
+"answer": "Τελικά",
+"why": "τελικά = in the end.",
+"id": "spoken-grammar-626ae08a"
+},
+{
+"type": "choice",
+"q": "Πάω, ___, στο περίπτερο και βλέπω τον Νίκο. (so: storytelling)",
+"options": [
+"λοιπόν να",
+"που λες",
+"αμέ",
+"δηλαδή όχι"
+],
+"answer": "που λες",
+"why": "που λες = as I was saying.",
+"id": "spoken-grammar-cb197379"
+},
+{
+"type": "write",
+"q": "\"So, shall we go?\"",
+"answer": "Λοιπόν, πάμε;",
+"accept": [],
+"why": "λοιπόν.",
+"id": "spoken-grammar-6b135909"
+},
+{
+"type": "write",
+"q": "\"Actually, I don't have time.\"",
+"answer": "Βασικά, δεν έχω χρόνο.",
+"accept": [
+"Βασικά δεν έχω χρόνο."
+],
+"why": "βασικά.",
+"id": "spoken-grammar-2daed69c"
+},
+{
+"type": "write",
+"q": "\"Talk soon!\" (closing a call)",
+"answer": "Τα λέμε!",
+"accept": [
+"Τα λέμε."
+],
+"why": "Fixed closing.",
+"id": "spoken-grammar-a31bd62e"
+},
+{
+"type": "write",
+"q": "\"In the end nobody came.\"",
+"answer": "Τελικά δεν ήρθε κανείς.",
+"accept": [
+"Τελικά κανείς δεν ήρθε."
+],
+"why": "τελικά.",
+"id": "spoken-grammar-5e642d38"
+},
+{
+"type": "order",
+"q": "\"Anyway, I liked it.\"",
+"answer": "Πάντως, εμένα μου άρεσε.",
+"accept": [],
+"why": "πάντως.",
+"id": "spoken-grammar-d7c5d6eb"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Αντιδράσεις και ελλειπτικός λόγος",
+"title": "Reactions and fragments",
+"body": [
+{
+"p": "Speech is full of short reactions and sentences without a verb. Knowing the stock ones gives you instant fluency."
+},
+{
+"table": {
+"head": [
+"Reaction",
+"Meaning"
+],
+"rows": [
+[
+"Τι λες! / Σοβαρά;",
+"You don't say! / Really?"
+],
+[
+"Έλα!",
+"No way! / Come on!"
+],
+[
+"Μπα. / Μπα, δεν νομίζω.",
+"Nah. / Nah, I don't think so."
+],
+[
+"Ορίστε;",
+"Pardon? / Sorry?"
+],
+[
+"Κρίμα!",
+"What a pity!"
+],
+[
+"Ωχ! / Ουφ!",
+"Ouch! / Phew!"
+],
+[
+"Μπράβο! / Μπράβο σου!",
+"Well done!"
+],
+[
+"Καλά να πάθει!",
+"Serves him right!"
+],
+[
+"Άντε γεια!",
+"Oh, get lost! / Give me a break!"
+],
+[
+"Δεν βαριέσαι.",
+"Never mind. / Whatever."
+],
+[
+"Και τι έγινε;",
+"So what?"
+],
+[
+"Πού να σου τα λέω!",
+"You wouldn't believe it!"
+]
+]
+}
+},
+{
+"p": "**Fragments**: whole exchanges without a full sentence are normal: **— Καφέ; — Ναι, σκέτο. — Ζάχαρη; — Όχι, ευχαριστώ.** The missing parts are understood from the situation."
+},
+{
+"p": "**Exclamations** with **τι** and **πόσο**: **Τι ωραία μέρα!** \"What a lovely day!\" **Πόσο μεγάλωσες!** \"How you've grown!\" **Τι καλά!** \"How great!\""
+},
+{
+"ex": [
+{
+"el": "— Πήρα δουλειά! — Τι λες! Μπράβο σου!",
+"en": "— I got a job! — No way! Well done!"
+},
+{
+"el": "— Θα βρέξει; — Μπα.",
+"en": "— Will it rain? — Nah."
+},
+{
+"el": "— Έχασε το τρένο. — Καλά να πάθει!",
+"en": "— He missed the train. — Serves him right!"
+},
+{
+"el": "Τι ωραίο φαγητό!",
+"en": "What lovely food!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "React to good news: \"I passed the exam!\"",
+"a": "Μπράβο σου! | Μπράβο! | Τι λες! Μπράβο σου!",
+"why": "Stock reactions."
+},
+{
+"q": "You didn't hear: ask politely to repeat.",
+"a": "Ορίστε; | Συγγνώμη; | Ορίστε, δεν άκουσα.",
+"why": "ορίστε; = pardon?"
+},
+{
+"q": "\"How you've (sg) grown!\"",
+"a": "Πόσο μεγάλωσες!",
+"why": "πόσο + verb = exclamation."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "— Θα κερδίσει η ομάδα σου; — ___, δεν νομίζω. (Nah)",
+"options": [
+"Αμέ",
+"Μπα",
+"Μπράβο",
+"Ορίστε"
+],
+"answer": "Μπα",
+"why": "μπα = nah.",
+"id": "spoken-grammar-05d9199c"
+},
+{
+"type": "choice",
+"q": "___; Δεν σε άκουσα. (Pardon)",
+"options": [
+"Μπα",
+"Ορίστε",
+"Κρίμα",
+"Έλα να"
+],
+"answer": "Ορίστε",
+"why": "ορίστε; = pardon?",
+"id": "spoken-grammar-76d08374"
+},
+{
+"type": "choice",
+"q": "— Δεν μπορώ να έρθω. — ___! (What a pity)",
+"options": [
+"Μπράβο",
+"Κρίμα",
+"Αμέ",
+"Καλά να πάθει"
+],
+"answer": "Κρίμα",
+"why": "κρίμα = pity.",
+"id": "spoken-grammar-b6770ff2"
+},
+{
+"type": "choice",
+"q": "___ ωραία θάλασσα! (What a)",
+"options": [
+"Πόσο",
+"Τι",
+"Ποια",
+"Πώς"
+],
+"answer": "Τι",
+"why": "Τι + adjective + noun!",
+"id": "spoken-grammar-5a623fcb"
+},
+{
+"type": "choice",
+"q": "— Παντρεύομαι! — ___ Σοβαρά; (No way)",
+"options": [
+"Μπα!",
+"Έλα!",
+"Κρίμα!",
+"Ορίστε;"
+],
+"answer": "Έλα!",
+"why": "έλα! = no way!",
+"id": "spoken-grammar-667375ae"
+},
+{
+"type": "write",
+"q": "\"What a pity!\"",
+"answer": "Κρίμα!",
+"accept": [
+"Τι κρίμα!"
+],
+"why": "κρίμα.",
+"id": "spoken-grammar-12495c2e"
+},
+{
+"type": "write",
+"q": "\"Well done!\" (to a friend)",
+"answer": "Μπράβο σου!",
+"accept": [
+"Μπράβο!"
+],
+"why": "μπράβο σου.",
+"id": "spoken-grammar-45a23b4f"
+},
+{
+"type": "write",
+"q": "\"Serves him right!\"",
+"answer": "Καλά να πάθει!",
+"accept": [],
+"why": "Fixed reaction.",
+"id": "spoken-grammar-4528f71f"
+},
+{
+"type": "write",
+"q": "\"What a lovely day!\"",
+"answer": "Τι ωραία μέρα!",
+"accept": [
+"Τι όμορφη μέρα!"
+],
+"why": "τι + adjective + noun.",
+"id": "spoken-grammar-222a5530"
+},
+{
+"type": "write",
+"q": "\"So what?\"",
+"answer": "Και τι έγινε;",
+"accept": [
+"Και λοιπόν;"
+],
+"why": "Fixed reaction.",
+"id": "spoken-grammar-829c4fe7"
+},
+{
+"type": "order",
+"q": "\"How you've (sg) grown!\"",
+"answer": "Πόσο μεγάλωσες!",
+"accept": [],
+"why": "πόσο exclamation.",
+"id": "spoken-grammar-c1f884eb"
+}
+]
+}
+]
+}
+],
+"id": "spoken-grammar",
+"el": "Η γραμματική του προφορικού λόγου",
+"title": "The grammar of spoken Greek",
+"span": "B1–B2",
+"blurb": "What changes when Greeks talk rather than write: elision (θα 'ρθω, σ' αγαπώ, μου 'πε), the colloquial forms (θες, λένε, ήμουνα, κάνανε), the discourse markers that hold a conversation together (λοιπόν, δηλαδή, βασικά, που λες), and reactions and fragments (Τι λες! Μπα. Καφέ; Σκέτο.).",
+"intro": [
+{
+"p": "The chapters before this one describe the standard language. Real conversation adds a layer of shortcuts, fillers and set reactions. None of it is \"wrong\": it is the normal grammar of speech, and recognising it is what makes films, songs and friends understandable. Use it with friends; in formal writing stick to the full forms."
+},
+{
+"links": [
+{
+"href": "#slang-discourse",
+"kind": "Lesson",
+"el": "Ρε, μωρέ, άντε: τα μόρια του προφορικού λόγου",
+"title": "Particles, interjections and fillers of spoken Greek"
+},
+{
+"href": "#slang-everyday",
+"kind": "Lesson",
+"el": "Φράγκα, φάση, πλάκα: η καθημερινή αργκό",
+"title": "Everyday colloquial vocabulary"
+},
+{
+"href": "#b2-discourse",
+"kind": "Lesson",
+"el": "Οργάνωση κειμένου",
+"title": "Argument structure: αρχικά, εκ πρώτης όψεως, εντούτοις, εν κατακλείδι"
+},
+{
+"href": "#b2-particles",
+"kind": "Lesson",
+"el": "Μόρια",
+"title": "Particles: μη, για, να (deictic), ας"
+},
+{
+"href": "#syntax.discourse",
+"kind": "Syntax",
+"el": "Η οργάνωση του λόγου",
+"title": "Discourse: linking, referring and structuring a text"
+},
+{
+"href": "#cards.discourse",
+"kind": "Card",
+"el": "Σύνδεση και οργάνωση του λόγου",
+"title": "Linking a text"
+}
+]
+}
+],
+"num": 37
+}

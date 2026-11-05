@@ -1,0 +1,1204 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Υποκοριστικά και μεγεθυντικά",
+"title": "Diminutives and augmentatives",
+"body": [
+{
+"p": "Greeks use **diminutives** constantly, for small things but also for affection, politeness and to soften a request: **ένα καφεδάκι** \"a little coffee\", **ένα λεπτάκι** \"just a minute\"."
+},
+{
+"table": {
+"head": [
+"Suffix",
+"Gender",
+"Examples"
+],
+"rows": []
+}
+},
+{
+"p": "**-άκι** always makes a neuter noun: **ο καφές → το καφεδάκι, η κούκλα → το κουκλάκι**."
+},
+{
+"p": "**Augmentatives** (big, often with admiration or mockery) end in **-άρα** (fem.) and **-αρος** (masc.): **φωνή → φωνάρα** \"a great voice\", **αυτοκίνητο → αυτοκινητάρα** \"a fantastic car\", **κοιλιά → κοιλάρα** \"a big belly\"."
+},
+{
+"ex": [
+{
+"el": "Θα πάρω ένα καφεδάκι.",
+"en": "I'll have a (little) coffee."
+},
+{
+"el": "Ένα λεπτάκι, έρχομαι!",
+"en": "Just a minute, I'm coming!"
+},
+{
+"el": "Τι ωραίο σπιτάκι!",
+"en": "What a lovely little house!"
+},
+{
+"el": "Έχει μια φωνάρα!",
+"en": "She has an amazing voice!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "Diminutive of **ψάρι**, **κρασί**, **ούζο**",
+"a": "ψαράκι, κρασάκι, ουζάκι",
+"why": "-άκι, neuter."
+},
+{
+"q": "\"A small beer\" (diminutive)",
+"a": "μια μπυρίτσα | μια μπυρούλα",
+"why": "-ίτσα / -ούλα keep the feminine."
+},
+{
+"q": "Gender of **το καφεδάκι** and why",
+"a": "Neuter: -άκι always makes a neuter noun",
+"why": "Even though ο καφές is masculine."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θα πάρω ένα ___. (little coffee)",
+"options": [
+"καφεδούλα",
+"καφεδάκι",
+"καφεδίτσα",
+"καφεδάκης"
+],
+"answer": "καφεδάκι",
+"why": "-άκι.",
+"id": "word-formation-db5e3252"
+},
+{
+"type": "choice",
+"q": "Τι γλυκιά ___! (little cat)",
+"options": [
+"γατάκης",
+"γατούλα",
+"γατίτσης",
+"γατούλι"
+],
+"answer": "γατούλα",
+"why": "-ούλα (feminine).",
+"id": "word-formation-2baec469"
+},
+{
+"type": "choice",
+"q": "Ένα ___, σε παρακαλώ! (just a minute)",
+"options": [
+"λεπτούλα",
+"λεπτάκι",
+"λεπτίτσα",
+"λεπτάκης"
+],
+"answer": "λεπτάκι",
+"why": "λεπτό → λεπτάκι.",
+"id": "word-formation-bd671a2c"
+},
+{
+"type": "choice",
+"q": "___ σπιτάκι! (What a lovely: neuter)",
+"options": [
+"Τι ωραία",
+"Τι ωραίο",
+"Τι ωραίος",
+"Τι ωραίες"
+],
+"answer": "Τι ωραίο",
+"why": "-άκι is neuter: ωραίο.",
+"id": "word-formation-f6e551f1"
+},
+{
+"type": "choice",
+"q": "Έχει μια ___! Τραγουδάει υπέροχα. (great voice)",
+"options": [
+"φωνάκι",
+"φωνάρα",
+"φωνίτσα",
+"φωνούλης"
+],
+"answer": "φωνάρα",
+"why": "Augmentative: φωνάρα.",
+"id": "word-formation-7fdc0211"
+},
+{
+"type": "write",
+"q": "Diminutive of \"σπίτι\"",
+"answer": "σπιτάκι",
+"accept": [],
+"why": "-άκι.",
+"id": "word-formation-71fc7e69"
+},
+{
+"type": "write",
+"q": "Diminutive of \"ψωμί\"",
+"answer": "ψωμάκι",
+"accept": [],
+"why": "-άκι.",
+"id": "word-formation-6fcfd83d"
+},
+{
+"type": "write",
+"q": "Diminutive of \"μπύρα\"",
+"answer": "μπυρίτσα",
+"accept": [
+"μπυρούλα"
+],
+"why": "-ίτσα / -ούλα.",
+"id": "word-formation-0efa452c"
+},
+{
+"type": "write",
+"q": "Diminutive of \"μικρός\" (masculine)",
+"answer": "μικρούλης",
+"accept": [],
+"why": "-ούλης.",
+"id": "word-formation-90e73d30"
+},
+{
+"type": "write",
+"q": "\"A little ouzo\"",
+"answer": "ένα ουζάκι",
+"accept": [],
+"why": "-άκι.",
+"id": "word-formation-7b65fab8"
+},
+{
+"type": "order",
+"q": "\"Just a minute, please.\"",
+"answer": "Ένα λεπτάκι, παρακαλώ.",
+"accept": [],
+"why": "λεπτάκι.",
+"id": "word-formation-03860c55"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ουσιαστικά από ρήματα",
+"title": "Nouns from verbs: διάβασμα, τρέξιμο, λύση",
+"body": [
+{
+"table": {
+"head": [
+"Suffix",
+"Meaning",
+"Examples"
+],
+"rows": []
+}
+},
+{
+"p": "The **-μα** and **-ιμο** nouns are neuter and very colloquial: **Έχω πολύ διάβασμα.** \"I have a lot of studying.\" **Το τρέξιμο μού κάνει καλό.** \"Running does me good.\""
+},
+{
+"ex": [
+{
+"el": "Το πλύσιμο των πιάτων είναι δική σου δουλειά.",
+"en": "Doing the dishes is your job."
+},
+{
+"el": "Πήρες απόφαση;",
+"en": "Have you made a decision?"
+},
+{
+"el": "Δεν υπάρχει λύση.",
+"en": "There's no solution."
+},
+{
+"el": "Τι ωραίο ξεκίνημα!",
+"en": "What a great start!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "Noun from **μαγειρεύω**",
+"a": "μαγείρεμα (το)",
+"why": "-εύω → -εμα."
+},
+{
+"q": "Noun from **ψήνω**",
+"a": "ψήσιμο (το)",
+"why": "-ιμο."
+},
+{
+"q": "\"I have a lot of studying today.\"",
+"a": "Έχω πολύ διάβασμα σήμερα. | Σήμερα έχω πολύ διάβασμα.",
+"why": "διάβασμα = studying."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Έχω πολύ ___ απόψε. (studying)",
+"options": [
+"διαβασμός",
+"διάβασμα",
+"διάβαση",
+"διαβάσιμο"
+],
+"answer": "διάβασμα",
+"why": "διαβάζω → διάβασμα.",
+"id": "word-formation-ca836a0f"
+},
+{
+"type": "choice",
+"q": "Το ___ μου κάνει καλό. (running)",
+"options": [
+"τρεχμός",
+"τρέξιμο",
+"τρέξη",
+"τρέχμα"
+],
+"answer": "τρέξιμο",
+"why": "τρέχω → τρέξιμο.",
+"id": "word-formation-e2efb268"
+},
+{
+"type": "choice",
+"q": "Πήρες ___; (a decision)",
+"options": [
+"αποφασισμό",
+"απόφαση",
+"αποφάσιμο",
+"απόφασμα"
+],
+"answer": "απόφαση",
+"why": "αποφασίζω → απόφαση.",
+"id": "word-formation-bd6b4aa5"
+},
+{
+"type": "choice",
+"q": "Δεν βρήκαμε ___ στο πρόβλημα. (a solution)",
+"options": [
+"λύσιμο",
+"λύση",
+"λυσμό",
+"λύμα"
+],
+"answer": "λύση",
+"why": "λύνω → λύση.",
+"id": "word-formation-25e4f79d"
+},
+{
+"type": "choice",
+"q": "Η ___ έγινε με κάρτα. (payment)",
+"options": [
+"πλήρωμα",
+"πληρωμή",
+"πλήρωση",
+"πληρωσμός"
+],
+"answer": "πληρωμή",
+"why": "πληρώνω → πληρωμή.",
+"id": "word-formation-0dc8ba87"
+},
+{
+"type": "write",
+"q": "Noun from \"διαβάζω\" (studying)",
+"answer": "διάβασμα",
+"accept": [
+"το διάβασμα"
+],
+"why": "-μα.",
+"id": "word-formation-f34443f7"
+},
+{
+"type": "write",
+"q": "Noun from \"πλένω\" (washing)",
+"answer": "πλύσιμο",
+"accept": [
+"το πλύσιμο"
+],
+"why": "-ιμο.",
+"id": "word-formation-efa75bad"
+},
+{
+"type": "write",
+"q": "Noun from \"αλλάζω\"",
+"answer": "αλλαγή",
+"accept": [
+"η αλλαγή"
+],
+"why": "-ή.",
+"id": "word-formation-d1be25b2"
+},
+{
+"type": "write",
+"q": "Noun from \"σκέφτομαι\"",
+"answer": "σκέψη",
+"accept": [
+"η σκέψη"
+],
+"why": "-ψη.",
+"id": "word-formation-ef8fffc2"
+},
+{
+"type": "write",
+"q": "Noun from \"ξεκινάω\"",
+"answer": "ξεκίνημα",
+"accept": [
+"το ξεκίνημα"
+],
+"why": "-ημα.",
+"id": "word-formation-4a10c42c"
+},
+{
+"type": "order",
+"q": "\"Running does me good.\"",
+"answer": "Το τρέξιμο μού κάνει καλό.",
+"accept": [],
+"why": "τρέξιμο.",
+"id": "word-formation-a8fd4dd8"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Πρόσωπα, εργαλεία, μαγαζιά",
+"title": "People, tools and shops",
+"body": [
+{
+"table": {
+"head": [
+"Suffix",
+"Meaning",
+"Examples (masc. / fem.)"
+],
+"rows": []
+}
+},
+{
+"ex": [
+{
+"el": "Ο ταξιτζής ήξερε έναν συντομότερο δρόμο.",
+"en": "The taxi driver knew a shorter way."
+},
+{
+"el": "Έχεις ανοιχτήρι;",
+"en": "Have you got a bottle opener?"
+},
+{
+"el": "Πάω στο ψαράδικο.",
+"en": "I'm going to the fishmonger's."
+},
+{
+"el": "Η αδερφή μου είναι τραγουδίστρια.",
+"en": "My sister is a singer."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Feminine of **χορευτής**",
+"a": "χορεύτρια",
+"why": "-τής → -τρια."
+},
+{
+"q": "\"Wake-up device\" from ξυπνάω",
+"a": "ξυπνητήρι (το)",
+"why": "-τήρι = device."
+},
+{
+"q": "Shop where a **χασάπης** works",
+"a": "χασάπικο (το)",
+"why": "-ικο = shop."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ο ___ μας πήγε στο αεροδρόμιο. (taxi driver)",
+"options": [
+"ταξιστής",
+"ταξιτζής",
+"ταξάς",
+"ταξιτής"
+],
+"answer": "ταξιτζής",
+"why": "-τζής.",
+"id": "word-formation-e8c66a2e"
+},
+{
+"type": "choice",
+"q": "Έχεις ___; Θέλω να ανοίξω το κρασί. (corkscrew, opener)",
+"options": [
+"ανοιχτής",
+"ανοιχτήρι",
+"ανοιγμός",
+"άνοιγμα"
+],
+"answer": "ανοιχτήρι",
+"why": "-τήρι = device.",
+"id": "word-formation-29588096"
+},
+{
+"type": "choice",
+"q": "Η Ελένη είναι ___. (a player)",
+"options": [
+"παίκτης",
+"παίκτρια",
+"παίχτισσα",
+"παικτού"
+],
+"answer": "παίκτρια",
+"why": "-τρια.",
+"id": "word-formation-7aeaa16d"
+},
+{
+"type": "choice",
+"q": "Αγοράζω ψάρια από το ___. (fishmonger's)",
+"options": [
+"ψαρείο",
+"ψαράδικο",
+"ψαράς",
+"ψάρεμα"
+],
+"answer": "ψαράδικο",
+"why": "-άδικο = shop.",
+"id": "word-formation-8d17e215"
+},
+{
+"type": "choice",
+"q": "Χάλασε ο ___, κάνει ζέστη. (fan)",
+"options": [
+"ανέμισμα",
+"ανεμιστήρας",
+"ανεμιστής",
+"ανεμιστήρι"
+],
+"answer": "ανεμιστήρας",
+"why": "-τήρας.",
+"id": "word-formation-28ace370"
+},
+{
+"type": "write",
+"q": "Feminine of \"τραγουδιστής\"",
+"answer": "τραγουδίστρια",
+"accept": [
+"η τραγουδίστρια"
+],
+"why": "-τρια.",
+"id": "word-formation-8167ade4"
+},
+{
+"type": "write",
+"q": "The person who runs a café",
+"answer": "καφετζής",
+"accept": [
+"ο καφετζής",
+"καφετζού",
+"η καφετζού"
+],
+"why": "-τζής / -τζού.",
+"id": "word-formation-f3047d21"
+},
+{
+"type": "write",
+"q": "\"Lighter\"",
+"answer": "αναπτήρας",
+"accept": [
+"ο αναπτήρας"
+],
+"why": "-τήρας.",
+"id": "word-formation-313d95fe"
+},
+{
+"type": "write",
+"q": "\"Gym\"",
+"answer": "γυμναστήριο",
+"accept": [
+"το γυμναστήριο"
+],
+"why": "-τήριο.",
+"id": "word-formation-32d53a9f"
+},
+{
+"type": "order",
+"q": "\"I'm going to the butcher's.\"",
+"answer": "Πάω στο χασάπικο.",
+"accept": [],
+"why": "-ικο.",
+"id": "word-formation-7979f0e8"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Επίθετα",
+"title": "Adjective endings: σημερινός, ξύλινος, ζηλιάρης",
+"body": [
+{
+"table": {
+"head": [
+"Suffix",
+"Meaning",
+"Examples"
+],
+"rows": [
+[
+"α- / αν-",
+"not, un-",
+"άγνωστος, αδιάβαστος, ανήσυχος"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Πού είναι η σημερινή εφημερίδα;",
+"en": "Where's today's paper?"
+},
+{
+"el": "Τα σπιτικά γλυκά είναι τα καλύτερα.",
+"en": "Homemade sweets are the best."
+},
+{
+"el": "Μην είσαι γκρινιάρα!",
+"en": "Don't be grumpy!"
+},
+{
+"el": "Το νερό δεν είναι πόσιμο.",
+"en": "The water isn't drinkable."
+},
+{
+"el": "Ήμουν αδιάβαστος στο τεστ.",
+"en": "I hadn't studied for the test."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Yesterday's news\"",
+"a": "τα χθεσινά νέα | οι χθεσινές ειδήσεις",
+"why": "-ινός = of that time."
+},
+{
+"q": "\"Wooden table\"",
+"a": "ξύλινο τραπέζι",
+"why": "-ινος = made of."
+},
+{
+"q": "\"A jealous woman\"",
+"a": "μια ζηλιάρα | μια ζηλιάρα γυναίκα",
+"why": "-ιάρης, feminine -ιάρα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Διάβασες τη ___ εφημερίδα; (today's)",
+"options": [
+"σημερνή",
+"σημερινή",
+"σημερικιά",
+"σημερινός"
+],
+"answer": "σημερινή",
+"why": "σήμερα → σημερινός.",
+"id": "word-formation-97eb035f"
+},
+{
+"type": "choice",
+"q": "Θέλω ένα ___ κουτάλι. (wooden)",
+"options": [
+"ξυλικό",
+"ξύλινο",
+"ξυλάρι",
+"ξυλωπό"
+],
+"answer": "ξύλινο",
+"why": "-ινος = made of.",
+"id": "word-formation-8e02a26e"
+},
+{
+"type": "choice",
+"q": "Είναι πολύ ___, ζηλεύει τα πάντα. (jealous, he)",
+"options": [
+"ζηλευτικός",
+"ζηλιάρης",
+"ζηλωπός",
+"ζηλάρα"
+],
+"answer": "ζηλιάρης",
+"why": "-ιάρης.",
+"id": "word-formation-fc313631"
+},
+{
+"type": "choice",
+"q": "Αυτό το νερό δεν είναι ___. (drinkable)",
+"options": [
+"πιόσιμο",
+"πόσιμο",
+"πινωτό",
+"ποτικό"
+],
+"answer": "πόσιμο",
+"why": "-σιμος = can be.",
+"id": "word-formation-b9ab380b"
+},
+{
+"type": "choice",
+"q": "Αγοράσαμε ___ ψωμί. (homemade)",
+"options": [
+"σπιτινό",
+"σπιτικό",
+"σπιτιάτικο",
+"σπιτάρικο"
+],
+"answer": "σπιτικό",
+"why": "-ικός.",
+"id": "word-formation-9f9ee703"
+},
+{
+"type": "write",
+"q": "\"Today's newspaper\"",
+"answer": "η σημερινή εφημερίδα",
+"accept": [
+"σημερινή εφημερίδα"
+],
+"why": "-ινός.",
+"id": "word-formation-d51a9a32"
+},
+{
+"type": "write",
+"q": "\"Summer clothes\"",
+"answer": "καλοκαιρινά ρούχα",
+"accept": [
+"τα καλοκαιρινά ρούχα"
+],
+"why": "-ινός.",
+"id": "word-formation-0c29fb94"
+},
+{
+"type": "write",
+"q": "\"A grumpy old man\"",
+"answer": "ένας γκρινιάρης γέρος",
+"accept": [
+"ένας γκρινιάρης παππούς"
+],
+"why": "-ιάρης.",
+"id": "word-formation-c1a77089"
+},
+{
+"type": "write",
+"q": "\"Unknown\" (masc.)",
+"answer": "άγνωστος",
+"accept": [],
+"why": "α- = un-.",
+"id": "word-formation-668d3d99"
+},
+{
+"type": "order",
+"q": "\"Homemade sweets are the best.\"",
+"answer": "Τα σπιτικά γλυκά είναι τα καλύτερα.",
+"accept": [],
+"why": "-ικός.",
+"id": "word-formation-b465ff49"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Προθήματα",
+"title": "Prefixes: ξανα-, ξε-, παρα-, κατα-, μισο-",
+"body": [
+{
+"table": {
+"head": [
+"Prefix",
+"Meaning",
+"Examples"
+],
+"rows": [
+[
+"ξανα-",
+"again",
+"ξαναλέω, ξαναβλέπω, ξαναρχίζω"
+],
+[
+"ξε-",
+"undo; out; completely",
+"ξεκλειδώνω \"unlock\", ξεντύνομαι \"undress\", ξεκουράζομαι \"rest\""
+],
+[
+"παρα-",
+"over, too much",
+"παρατρώω \"overeat\", παρακοιμάμαι \"oversleep\", παραλέω \"exaggerate\""
+],
+[
+"κατα-",
+"very (intensive)",
+"κατακόκκινος \"bright red\", κατάμαυρος \"jet black\""
+],
+[
+"ολο-",
+"wholly, all",
+"ολοκαίνουργιος \"brand new\", ολόσωμος \"full-length\""
+],
+[
+"μισο-",
+"half",
+"μισάνοιχτος \"half-open\", μισοτελειωμένος \"half-finished\""
+],
+[
+"καλο- / κακο-",
+"well / badly",
+"καλοψημένος \"well cooked\", κακομαθημένος \"spoilt\""
+],
+[
+"συν- / συμ-",
+"co-, together",
+"συνάδελφος \"colleague\", συμμαθητής \"classmate\""
+],
+[
+"αντι-",
+"anti-, opposite",
+"αντιπαθητικός \"unpleasant\", αντίθετος \"opposite\""
+]
+]
+}
+},
+{
+"p": "**Ξανα-** works with almost any verb: **Ξαναπές το!** \"Say it again!\" **Δεν θα το ξανακάνω.** \"I won't do it again.\""
+},
+{
+"ex": [
+{
+"el": "Ξαναπέρασε αύριο.",
+"en": "Come by again tomorrow."
+},
+{
+"el": "Παρακοιμήθηκα και έχασα το λεωφορείο.",
+"en": "I overslept and missed the bus."
+},
+{
+"el": "Έγινε κατακόκκινη από ντροπή.",
+"en": "She turned bright red with embarrassment."
+},
+{
+"el": "Το παιδί είναι πολύ κακομαθημένο.",
+"en": "The child is very spoilt."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I won't do it again.\"",
+"a": "Δεν θα το ξανακάνω. | Δε θα το ξανακάνω.",
+"why": "ξανα- = again."
+},
+{
+"q": "\"Unlock (sg) the door.\"",
+"a": "Ξεκλείδωσε την πόρτα.",
+"why": "ξε- = undo."
+},
+{
+"q": "\"Brand-new car\"",
+"a": "ολοκαίνουργιο αυτοκίνητο | ολοκαίνουριο αυτοκίνητο",
+"why": "ολο- = wholly."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ το, δεν άκουσα! (Say again, sg)",
+"options": [
+"Παραπές",
+"Ξαναπές",
+"Ξεπές",
+"Καταπές"
+],
+"answer": "Ξαναπές",
+"why": "ξανα- = again.",
+"id": "word-formation-721b9838"
+},
+{
+"type": "choice",
+"q": "___ την πόρτα, έχω το κλειδί. (Unlock, sg)",
+"options": [
+"Ξανακλείδωσε",
+"Ξεκλείδωσε",
+"Παρακλείδωσε",
+"Ανακλείδωσε"
+],
+"answer": "Ξεκλείδωσε",
+"why": "ξε- = undo.",
+"id": "word-formation-edba6a3c"
+},
+{
+"type": "choice",
+"q": "___ και άργησα στη δουλειά. (I overslept)",
+"options": [
+"Ξανακοιμήθηκα",
+"Παρακοιμήθηκα",
+"Ξεκοιμήθηκα",
+"Κατακοιμήθηκα"
+],
+"answer": "Παρακοιμήθηκα",
+"why": "παρα- = over.",
+"id": "word-formation-dcaceb8f"
+},
+{
+"type": "choice",
+"q": "Η μπλούζα είναι ___. (bright red)",
+"options": [
+"ξανακόκκινη",
+"κατακόκκινη",
+"παρακόκκινη",
+"ολοκοκκινωπή"
+],
+"answer": "κατακόκκινη",
+"why": "κατα- = very.",
+"id": "word-formation-df390cfa"
+},
+{
+"type": "choice",
+"q": "Είναι ο ___ μου από το σχολείο. (classmate)",
+"options": [
+"αντιμαθητής",
+"συμμαθητής",
+"ξαναμαθητής",
+"παραμαθητής"
+],
+"answer": "συμμαθητής",
+"why": "συμ- = together.",
+"id": "word-formation-027a90bc"
+},
+{
+"type": "write",
+"q": "\"Say (sg) it again.\"",
+"answer": "Ξαναπές το.",
+"accept": [
+"Πες το ξανά."
+],
+"why": "ξανα-.",
+"id": "word-formation-19b3bc42"
+},
+{
+"type": "write",
+"q": "\"I overate.\"",
+"answer": "Παράφαγα.",
+"accept": [
+"Έφαγα πάρα πολύ."
+],
+"why": "παρα- (παρατρώω → παράφαγα).",
+"id": "word-formation-257b4b13"
+},
+{
+"type": "write",
+"q": "\"Half-open\" (neuter)",
+"answer": "μισάνοιχτο",
+"accept": [],
+"why": "μισο- (o drops before a vowel).",
+"id": "word-formation-7e489eb6"
+},
+{
+"type": "write",
+"q": "\"Spoilt\" (masc.)",
+"answer": "κακομαθημένος",
+"accept": [],
+"why": "κακο-.",
+"id": "word-formation-81e350ad"
+},
+{
+"type": "order",
+"q": "\"I won't do it again.\"",
+"answer": "Δεν θα το ξανακάνω.",
+"accept": [],
+"why": "ξανα-.",
+"id": "word-formation-9f6d6e80"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Σύνθετα",
+"title": "Compounds: τυρόπιτα, αλατοπίπερο",
+"body": [
+{
+"p": "Two stems join with a **linking -ο-**; the stress usually falls on the **third-last syllable**, and the gender comes from the last stem."
+},
+{
+"table": {
+"head": [
+"Compound",
+"Parts",
+"Meaning"
+],
+"rows": [
+[
+"τυρόπιτα",
+"τυρί + πίτα",
+"cheese pie"
+],
+[
+"σπανακόπιτα",
+"σπανάκι + πίτα",
+"spinach pie"
+],
+[
+"κοτόσουπα",
+"κότα + σούπα",
+"chicken soup"
+],
+[
+"ψαρόβαρκα",
+"ψάρι + βάρκα",
+"fishing boat"
+],
+[
+"αλατοπίπερο",
+"αλάτι + πιπέρι",
+"salt and pepper"
+],
+[
+"μαχαιροπίρουνα",
+"μαχαίρι + πιρούνι",
+"cutlery"
+],
+[
+"γυναικόπαιδα",
+"γυναίκες + παιδιά",
+"women and children"
+],
+[
+"νυχτοπούλι",
+"νύχτα + πουλί",
+"night owl (person)"
+],
+[
+"καλημέρα",
+"καλή + μέρα",
+"good morning"
+]
+]
+}
+},
+{
+"p": "Pairs like **αλατοπίπερο, μαχαιροπίρουνα, γυναικόπαιδα** mean \"X and Y\" and are usually neuter."
+},
+{
+"ex": [
+{
+"el": "Μια τυρόπιτα και έναν φρέντο, παρακαλώ.",
+"en": "A cheese pie and a freddo, please."
+},
+{
+"el": "Φέρε τα μαχαιροπίρουνα.",
+"en": "Bring the cutlery."
+},
+{
+"el": "Είμαι νυχτοπούλι, δεν κοιμάμαι πριν τις τρεις.",
+"en": "I'm a night owl, I don't sleep before three."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Compound of **χόρτα** + **πίτα**",
+"a": "χορτόπιτα (η)",
+"why": "Linking -ο-, stress on the third-last syllable."
+},
+{
+"q": "Compound of **ψάρι** + **σούπα**",
+"a": "ψαρόσουπα (η)",
+"why": "Gender from the last stem."
+},
+{
+"q": "\"Salt and pepper\" in one word",
+"a": "αλατοπίπερο (το)",
+"why": "\"X and Y\" compound, neuter."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θα πάρω μια ___. (cheese pie)",
+"options": [
+"τυρίπιτα",
+"τυρόπιτα",
+"τυροπίτα",
+"πιτότυρο"
+],
+"answer": "τυρόπιτα",
+"why": "Linking -ο-, stress τυ-ρό-πι-τα.",
+"id": "word-formation-33d159be"
+},
+{
+"type": "choice",
+"q": "Έβαλες ___ στη σαλάτα; (salt and pepper)",
+"options": [
+"αλατιπιπέρι",
+"αλατοπίπερο",
+"αλατοπιπέρι",
+"πιπεραλάτι"
+],
+"answer": "αλατοπίπερο",
+"why": "αλατοπίπερο.",
+"id": "word-formation-36431994"
+},
+{
+"type": "choice",
+"q": "Φέρε τα ___. (cutlery)",
+"options": [
+"μαχαιροπιρούνια",
+"μαχαιροπίρουνα",
+"πιρουνομάχαιρα",
+"μαχαιρόπιρουνα"
+],
+"answer": "μαχαιροπίρουνα",
+"why": "μαχαιροπίρουνα.",
+"id": "word-formation-ad5296ad"
+},
+{
+"type": "choice",
+"q": "Η γιαγιά φτιάχνει ___ όταν είμαστε άρρωστοι. (chicken soup)",
+"options": [
+"κοτασούπα",
+"κοτόσουπα",
+"σουπόκοτα",
+"κοτοσούπα"
+],
+"answer": "κοτόσουπα",
+"why": "κοτόσουπα.",
+"id": "word-formation-4ee261ea"
+},
+{
+"type": "write",
+"q": "\"Spinach pie\"",
+"answer": "σπανακόπιτα",
+"accept": [
+"η σπανακόπιτα"
+],
+"why": "σπανάκι + πίτα.",
+"id": "word-formation-29583311"
+},
+{
+"type": "write",
+"q": "\"Fish soup\"",
+"answer": "ψαρόσουπα",
+"accept": [
+"η ψαρόσουπα"
+],
+"why": "ψάρι + σούπα.",
+"id": "word-formation-3da5d6ae"
+},
+{
+"type": "write",
+"q": "\"Night owl\" (a person)",
+"answer": "νυχτοπούλι",
+"accept": [
+"ένα νυχτοπούλι"
+],
+"why": "νύχτα + πουλί.",
+"id": "word-formation-a315a055"
+},
+{
+"type": "order",
+"q": "\"A spinach pie, please.\"",
+"answer": "Μια σπανακόπιτα, παρακαλώ.",
+"accept": [],
+"why": "Compound.",
+"id": "word-formation-b3e5ff5e"
+}
+]
+}
+]
+}
+],
+"id": "word-formation",
+"el": "Παραγωγή και σύνθεση λέξεων",
+"title": "Word formation: suffixes, prefixes, compounds",
+"span": "A2–B2",
+"part": "Μέρος Ζ΄ | Λέξεις και προφορικός λόγος | Words and spoken Greek",
+"blurb": "How Greek builds words, so one root gives you ten: diminutives (καφεδάκι, γατούλα), verbal nouns (διάβασμα, τρέξιμο, λύση), people, tools and shops (ταξιτζής, ανοιχτήρι, ψαράδικο), adjective endings (σημερινός, ζηλιάρης), prefixes (ξανα-, ξε-, παρα-, κατα-) and compounds (τυρόπιτα, αλατοπίπερο).",
+"intro": [
+{
+"p": "A learner who knows the main suffixes and prefixes can understand and coin hundreds of words. **Διαβάζω** \"read\" gives **διάβασμα** \"studying\", **αδιάβαστος** \"unprepared (for a test)\", **ξαναδιαβάζω** \"reread\". This chapter collects the patterns of everyday Greek; the learned (ancient-based) ones are in the B2/C1 lessons linked below."
+},
+{
+"links": [
+{
+"href": "#b2-suffixes",
+"kind": "Lesson",
+"el": "Παραγωγή",
+"title": "Suffixes: nouns, adjectives and verbs from one root"
+},
+{
+"href": "#b2-prefixes",
+"kind": "Lesson",
+"el": "Προθήματα και σύνθετα",
+"title": "Prefixes and compounds: γράφω → συγγραφέας, εγγραφή, διαγραφή, υπογραφή"
+},
+{
+"href": "#words-families",
+"kind": "Lesson",
+"el": "Εργαστήριο λέξεων IV: οικογένειες λέξεων",
+"title": "Word-building IV: word families and exam-style gap texts"
+},
+{
+"href": "#words-nouns",
+"kind": "Lesson",
+"el": "Εργαστήριο λέξεων I: ουσιαστικά",
+"title": "Word-building I: abstract nouns, people and diminutives, with their declension"
+},
+{
+"href": "#words-adjectives",
+"kind": "Lesson",
+"el": "Εργαστήριο λέξεων II: επίθετα",
+"title": "Word-building II: adjectives from nouns and verbs, negatives, participles"
+},
+{
+"href": "#words-verbs",
+"kind": "Lesson",
+"el": "Εργαστήριο λέξεων III: ρήματα",
+"title": "Word-building III: verbs from nouns and adjectives, prefixes and the augment"
+},
+{
+"href": "#pos.noun",
+"kind": "Part of speech",
+"el": "Το ουσιαστικό",
+"title": "The noun"
+}
+]
+}
+],
+"num": 36
+}
