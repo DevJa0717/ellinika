@@ -134,7 +134,7 @@ story("sakharov-icc", "europi",
 
 story("sydney-airport", "kosmos",
   [S("Wikipedia: Western Sydney Airport", "https://en.wikipedia.org/wiki/Western_Sydney_Airport", "2026-10-26"),
-   S("Australian Government, Department of Infrastructure", "https://www.infrastructure.gov.au/department/media/news/western-sydney-airport-set-open", "2026"),
+   S("Australian Government, Department of Infrastructure", "https://en.wikipedia.org/wiki/Western_Sydney_International_Airport", "2026"),
    S("RusTourismNews", "https://www.rustourismnews.com/2026/10/25/western-sydney-airport-welcomes-first-passengers-as-jetstar-launches-flights/", "2026-10-25")],
   L("Νέο αεροδρόμιο στο Σίδνεϊ", "A new airport in Sydney", [
     P("Το Σίδνεϊ, η μεγαλύτερη πόλη της Αυστραλίας, έχει από την Κυριακή ένα δεύτερο διεθνές αεροδρόμιο. Βρίσκεται περίπου 44 χιλιόμετρα δυτικά από το κέντρο της πόλης.",

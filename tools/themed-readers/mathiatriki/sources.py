@@ -67,7 +67,7 @@ SRC = {
  "w_cara": ("Wikipedia, “Constantin Carathéodory”", W + "Constantin_Carath%C3%A9odory"),
  "w_ionian_univ": ("Wikipedia, “Ionian University of Smyrna”", W + "Ionian_University_of_Smyrna"),
  "w_christodoulou": ("Wikipedia, “Demetrios Christodoulou”", W + "Demetrios_Christodoulou"),
- "shaw2011": ("The Shaw Prize, Mathematical Sciences 2011: Demetrios Christodoulou and Richard S. Hamilton", "https://www.shawprize.org/laureates/2011-mathematical-sciences/"),
+ "shaw2011": ("The Shaw Prize, Mathematical Sciences 2011: Demetrios Christodoulou and Richard S. Hamilton", "https://web.archive.org/web/20250823002315/https://www.shawprize.org/laureates/2011-mathematical-sciences/"),
  "w_apery": ("Wikipedia, “Roger Apéry” and “Apéry's theorem”", W + "Roger_Ap%C3%A9ry"),
  # medicine
  "nutton": ("V. Nutton, Ancient Medicine, 2nd ed., Routledge, 2013", None),
@@ -99,7 +99,7 @@ SRC = {
  "w_viennadios": ("Wikipedia, “Vienna Dioscurides” (UNESCO Memory of the World, 1997)", W + "Vienna_Dioscurides"),
  "w_byzmed": ("Wikipedia, “Byzantine medicine”", W + "Byzantine_medicine"),
  "w_basileias": ("Wikipedia, “Basil of Caesarea” (the Basileias)", W + "Basil_of_Caesarea"),
- "pantokrator_typ": ("Typikon of Emperor John II Komnenos for the Monastery of Christ Pantokrator (1136), tr. R. Jordan, in J. Thomas & A. C. Hero (eds.), Byzantine Monastic Foundation Documents, Dumbarton Oaks, 2000, pp. 725–781", "https://www.doaks.org/resources/publications/books/byzantine-monastic-foundation-documents"),
+ "pantokrator_typ": ("Typikon of Emperor John II Komnenos for the Monastery of Christ Pantokrator (1136), tr. R. Jordan, in J. Thomas & A. C. Hero (eds.), Byzantine Monastic Foundation Documents, Dumbarton Oaks, 2000, pp. 725–781", "https://en.wikipedia.org/wiki/Pantokrator_Monastery"),
  "miller_hosp": ("T. S. Miller, The Birth of the Hospital in the Byzantine Empire, 2nd ed., Johns Hopkins University Press, 1997", None),
  "hektoen": ("Hektoen International, “Byzantium: origin of the modern hospital” (2017)", "https://hekint.org/2017/02/22/byzantium-origin-of-the-modern-hospital/"),
  "w_paul": ("Wikipedia, “Paul of Aegina”", W + "Paul_of_Aegina"),

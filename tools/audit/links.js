@@ -67,7 +67,10 @@ if (WEB) {
   const cacheF = path.join(__dirname, ".url-cache.json");
   const cache = fs.existsSync(cacheF) ? JSON.parse(fs.readFileSync(cacheF)) : {};
   const todo = [...urls.keys()].filter((u) => !(u in cache) || cache[u] === 0);
-  const get = (u) => new Promise((res) => cp.execFile("curl", ["-s", "-o", "/dev/null", "-L", "-m", "20", "-A", "Mozilla/5.0 (ellinika link check)", "-w", "%{http_code}", u], (e, out) => res(parseInt(out) || 0)));
+  const plain = (u) => new Promise((res) => cp.execFile("curl", ["-s", "-o", "/dev/null", "-L", "-m", "20", "-A", "Mozilla/5.0 (ellinika link check)", "-w", "%{http_code}", u], (e, out) => res(parseInt(out) || 0)));
+  // Wayback copies: web.archive.org itself may be unreachable from a sandbox, so ask the availability API whether the snapshot exists.
+  const wayback = (u) => new Promise((res) => { const m = u.match(/^https?:\/\/web\.archive\.org\/web\/(\d+)\/(.+)$/); cp.execFile("curl", ["-s", "-m", "40", "-G", "https://archive.org/wayback/available", "--data-urlencode", "url=" + m[2], "--data-urlencode", "timestamp=" + m[1]], (e, out) => { try { const c = JSON.parse(out).archived_snapshots.closest; if (c && c.available) return res(200); } catch {} cp.execFile("curl", ["-s", "-m", "40", "-G", "https://archive.org/wayback/available", "--data-urlencode", "url=" + m[2]], (e2, out2) => { try { const c = JSON.parse(out2).archived_snapshots.closest; res(c && c.available ? 200 : 404); } catch { res(0); } }); }); }); // the API is flaky with a timestamp, so retry without one
+  const get = (u) => (/^https?:\/\/web\.archive\.org\/web\/\d+\//.test(u) ? wayback(u) : plain(u));
   (async () => {
     let i = 0; const N = 12;
     await Promise.all(Array.from({ length: N }, async () => { while (i < todo.length) { const u = todo[i++]; cache[u] = await get(u); if (i % 200 === 0) { fs.writeFileSync(cacheF, JSON.stringify(cache)); process.stderr.write(`${i}/${todo.length}\n`); } } }));

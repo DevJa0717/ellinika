@@ -37,7 +37,7 @@ SRC.update({
     "babiniotis": ("Γ. Μπαμπινιώτης, Λεξικό της Νέας Ελληνικής Γλώσσας, 5η έκδ., Κέντρο Λεξικολογίας, 2019", None),
     "triantafyllidis": ("Λεξικό της Κοινής Νεοελληνικής (Ίδρυμα Μανόλη Τριανταφυλλίδη), Πύλη για την ελληνική γλώσσα", "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"),
     "parian_chronicle": ("Ashmolean Museum, Oxford, “The Parian Marble” (Marmor Parium), AN1667.14", "https://www.ashmolean.org/"),
-    "hozoviotissa": ("Ιερά Μονή Παναγίας Χοζοβιώτισσας, Ιερά Μητρόπολις Θήρας, Αμοργού και Νήσων · Monastery of Hozoviotissa", "https://www.imthira.gr/"),
+    "hozoviotissa": ("Ιερά Μονή Παναγίας Χοζοβιώτισσας, Ιερά Μητρόπολις Θήρας, Αμοργού και Νήσων · Monastery of Hozoviotissa", "https://en.wikipedia.org/wiki/Amorgos"),
 })
 
 SRC.update({

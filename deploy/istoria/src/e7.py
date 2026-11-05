@@ -253,7 +253,7 @@ CH.append(dict(id="e7-science", theme="science", el="Υγρό πυρ, νοσοκ
     SRC("Theophanes the Confessor, Chronographia AM 6165 (Kallinikos) and AM 6209 (717–718), trans. Mango, C., & Scott, R. (1997). Oxford: Clarendon Press."),
     SRC("Haldon, J., & Byrne, M. (1977). A possible solution to the problem of Greek fire. Byzantinische Zeitschrift 70: 91–99; Pryor, J. H., & Jeffreys, E. M. (2006). The Age of the ΔΡΟΜΩΝ. Leiden: Brill, 607–631."),
     SRC("Constantine VII Porphyrogennetos, De administrando imperio 13.73–84, ed. Moravcsik, G., & Jenkins, R. J. H. (1967). Washington, DC: Dumbarton Oaks."),
-    SRC("Gautier, P. (1974). Le typikon du Christ Sauveur Pantocrator. Revue des études byzantines 32: 1–145; trans. Jordan, R. in Thomas, J., & Hero, A. C. (eds) (2000). Byzantine Monastic Foundation Documents. Washington, DC: Dumbarton Oaks.", "https://www.doaks.org/resources/publications/books/byzantine-monastic-foundation-documents"),
+    SRC("Gautier, P. (1974). Le typikon du Christ Sauveur Pantocrator. Revue des études byzantines 32: 1–145; trans. Jordan, R. in Thomas, J., & Hero, A. C. (eds) (2000). Byzantine Monastic Foundation Documents. Washington, DC: Dumbarton Oaks.", "https://en.wikipedia.org/wiki/Pantokrator_Monastery"),
     SRC("Miller, T. S. (1997). The Birth of the Hospital in the Byzantine Empire. 2nd ed. Baltimore: Johns Hopkins University Press."),
     SRC("Photios, Bibliotheca, ed. Henry, R. (1959–1977). Paris: Les Belles Lettres; Treadgold, W. T. (1980). The Nature of the Bibliotheca of Photius. Washington, DC: Dumbarton Oaks."),
     SRC("Kaldellis, A. (2007). Hellenism in Byzantium. Cambridge University Press, ch. 4 (Psellos)."),
