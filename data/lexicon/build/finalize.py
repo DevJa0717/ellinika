@@ -65,6 +65,14 @@ for sf in sorted(glob.glob(B + 'spotcheck*.out.json')):
             h, _, k = path.partition('.')
             if not k: e[h] = val
             elif isinstance(e.get(h), dict): e[h][k] = val
+# form_key labels (audit 2026-10-25 convention): adjectives "f: X, n: Y" unless two-termination (m = f) "m/f: X, n: Y";
+# nouns with no genitive singular in use show "Gen: —"
+import re as _re
+for e in c1 + c3:
+    a = e.get('adjective') or {}
+    if e['pos'] == 'adjective' and a.get('f') and a.get('n') and a.get('model') != 'indecl' and _re.match(r'(m/f|f): ', e.get('form_key', '')):
+        e['form_key'] = f"{'m/f' if a.get('m') == a['f'] else 'f'}: {a['f']}, n: {a['n']}"
+    if e.get('form_key', '').startswith('Gen: None'): e['form_key'] = 'Gen: —' + e['form_key'][9:]
 # transliteration from the rule set (loanwords marked indecl keep their spelled-out form)
 sys.path.insert(0, B); from translit import translit
 for e in c1 + c3:
