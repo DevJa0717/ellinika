@@ -818,6 +818,195 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: ότι, πως, που, να, αν",
+"body": [
+{
+"p": "Choose the word by what follows the verb. A **fact** you state or believe takes **ότι** or **πως** (**Ξέρω ότι ήρθε**). A feeling about a fact takes **που** (**Χαίρομαι που ήρθες**). A wish, plan, ability or order takes **να** (**Θέλω να έρθεις**). A yes/no question inside the sentence takes **αν** (**Δεν ξέρω αν ήρθε**); other questions keep their question word (**πού, πότε, γιατί**)."
+},
+{
+"solved": [
+{
+"q": "\"I'm sorry that I'm late.\"",
+"a": "Λυπάμαι που άργησα. | Συγγνώμη που άργησα.",
+"why": "A feeling about a fact: που."
+},
+{
+"q": "\"I don't know if he'll come.\"",
+"a": "Δεν ξέρω αν θα έρθει. | Δεν ξέρω αν έρχεται.",
+"why": "Yes/no question inside the sentence: αν."
+},
+{
+"q": "\"They told me to wait.\"",
+"a": "Μου είπαν να περιμένω.",
+"why": "λέω + να = tell someone to do something; λέω + ότι = say that."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Νομίζω ___ έχεις δίκιο.",
+"options": [
+"να",
+"ότι",
+"που",
+"αν"
+],
+"answer": "ότι",
+"why": "A belief: ότι.",
+"id": "complement-clauses-c2658b8f"
+},
+{
+"type": "choice",
+"q": "Χαίρομαι ___ σε βλέπω.",
+"options": [
+"ότι",
+"που",
+"να",
+"αν"
+],
+"answer": "που",
+"why": "A feeling about a fact: που.",
+"id": "complement-clauses-09b8ef70"
+},
+{
+"type": "choice",
+"q": "Θέλω ___ μάθω ελληνικά.",
+"options": [
+"ότι",
+"να",
+"που",
+"πως"
+],
+"answer": "να",
+"why": "A wish: να.",
+"id": "complement-clauses-3b06a807"
+},
+{
+"type": "choice",
+"q": "Ρώτησέ τον ___ θέλει καφέ.",
+"options": [
+"ότι",
+"αν",
+"που",
+"να"
+],
+"answer": "αν",
+"why": "A yes/no question: αν.",
+"id": "complement-clauses-8dbae968"
+},
+{
+"type": "choice",
+"q": "Μου είπε ___ ήταν άρρωστος. (that he was)",
+"options": [
+"να",
+"ότι",
+"που",
+"αν"
+],
+"answer": "ότι",
+"why": "Reporting a fact: ότι.",
+"id": "complement-clauses-9f721d95"
+},
+{
+"type": "choice",
+"q": "Μου είπε ___ φύγω. (to leave)",
+"options": [
+"ότι",
+"να",
+"που",
+"αν"
+],
+"answer": "να",
+"why": "An order: να.",
+"id": "complement-clauses-6c153642"
+},
+{
+"type": "choice",
+"q": "Ελπίζω ___ τα πας καλά.",
+"options": [
+"ότι",
+"να",
+"που",
+"αν"
+],
+"answer": "να",
+"why": "ελπίζω + να for a hope about the future (also ελπίζω ότι θα).",
+"id": "complement-clauses-539700aa"
+},
+{
+"type": "choice",
+"q": "Δεν θυμάμαι ___ έβαλα τα κλειδιά. (where)",
+"options": [
+"που",
+"πού",
+"ότι",
+"να"
+],
+"answer": "πού",
+"why": "A question word keeps its accent: πού.",
+"id": "complement-clauses-64c7ee2c"
+},
+{
+"type": "write",
+"q": "\"I know that you're (sg) tired.\"",
+"answer": "Ξέρω ότι είσαι κουρασμένος.",
+"accept": [
+"Ξέρω πως είσαι κουρασμένος.",
+"Ξέρω ότι είσαι κουρασμένη.",
+"Ξέρω πως είσαι κουρασμένη."
+],
+"why": "ότι or πως.",
+"id": "complement-clauses-a02b93c2"
+},
+{
+"type": "write",
+"q": "\"We were glad that you (pl) came.\"",
+"answer": "Χαρήκαμε που ήρθατε.",
+"accept": [],
+"why": "Feeling about a fact: που.",
+"id": "complement-clauses-a12adf71"
+},
+{
+"type": "write",
+"q": "\"Can you (sg) help me?\"",
+"answer": "Μπορείς να με βοηθήσεις;",
+"accept": [],
+"why": "μπορώ + να.",
+"id": "complement-clauses-77c1fbfb"
+},
+{
+"type": "write",
+"q": "\"I wonder why she left.\"",
+"answer": "Αναρωτιέμαι γιατί έφυγε.",
+"accept": [],
+"why": "The question word stays: γιατί.",
+"id": "complement-clauses-7719bbf7"
+},
+{
+"type": "order",
+"q": "\"It's important that you (sg) rest.\"",
+"answer": "Είναι σημαντικό να ξεκουραστείς.",
+"accept": [],
+"why": "Impersonal phrase + να.",
+"id": "complement-clauses-ee9f33e4"
+},
+{
+"type": "order",
+"q": "\"I forgot to call him.\"",
+"answer": "Ξέχασα να του τηλεφωνήσω.",
+"accept": [],
+"why": "ξεχνάω + να.",
+"id": "complement-clauses-78e49000"
+}
+]
+}
+]
 }
 ],
 "id": "complement-clauses",

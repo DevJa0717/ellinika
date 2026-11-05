@@ -1029,6 +1029,172 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: nouns that break the pattern",
+"body": [
+{
+"p": "Five traps catch learners most often. **Common-gender nouns** take the article of the person: **ο/η γιατρός, ο/η δικηγόρος**. **Plural-only nouns**: **τα λεφτά, τα γενέθλια, τα Χριστούγεννα, οι διακοπές**. **Two plurals with two meanings**: **οι χρόνοι** (tenses, times) / **τα χρόνια** (years). **Women's surnames** are the genitive of the man's: **Παπαδόπουλος → Παπαδοπούλου**. **Masculine -ος nouns ending in -ος but feminine**: **η οδός, η μέθοδος, η είσοδος, η έξοδος**."
+},
+{
+"solved": [
+{
+"q": "\"My (female) doctor is very good.\"",
+"a": "Η γιατρός μου είναι πολύ καλή. | Η γιατρίνα μου είναι πολύ καλή.",
+"why": "Common gender: η γιατρός, and the adjective is feminine. Γιατρίνα is colloquial."
+},
+{
+"q": "Wife's surname: **κύριος Νικολαΐδης**",
+"a": "κυρία Νικολαΐδου",
+"why": "-ης → -ου."
+},
+{
+"q": "\"Happy birthday! How old are you (sg)?\"",
+"a": "Χρόνια πολλά! Πόσων χρονών είσαι; | Χρόνια πολλά! Πόσο χρονών είσαι; | Χρόνια πολλά! Πόσα χρόνια έχεις;",
+"why": "τα χρόνια = years (age); χρονών is the genitive used for age."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πού είναι ___ έξοδος;",
+"options": [
+"ο",
+"η",
+"το",
+"οι"
+],
+"answer": "η",
+"why": "έξοδος is feminine despite -ος.",
+"id": "noun-traps-25538215"
+},
+{
+"type": "choice",
+"q": "___ δικηγόρος μου, η κυρία Σταύρου, είναι πολύ έξυπνη.",
+"options": [
+"Ο",
+"Η",
+"Το",
+"Τη"
+],
+"answer": "Η",
+"why": "Common gender: the article follows the person.",
+"id": "noun-traps-8ed490e5"
+},
+{
+"type": "choice",
+"q": "Πόσα ___ έχεις; (money)",
+"options": [
+"λεφτό",
+"λεφτά",
+"λεφτές",
+"λεφτοί"
+],
+"answer": "λεφτά",
+"why": "Plural only: τα λεφτά.",
+"id": "noun-traps-1624f796"
+},
+{
+"type": "choice",
+"q": "Πού θα κάνεις ___ φέτος; (holidays)",
+"options": [
+"τη διακοπή",
+"τις διακοπές",
+"το διακοπή",
+"τους διακοπές"
+],
+"answer": "τις διακοπές",
+"why": "Holidays: plural οι διακοπές.",
+"id": "noun-traps-19546cc9"
+},
+{
+"type": "choice",
+"q": "Οι ___ των ρημάτων είναι δύσκολοι. (tenses)",
+"options": [
+"χρόνια",
+"χρόνοι",
+"χρονιές",
+"χρονών"
+],
+"answer": "χρόνοι",
+"why": "Tenses: οι χρόνοι.",
+"id": "noun-traps-284cb882"
+},
+{
+"type": "choice",
+"q": "Η ___ είναι πολύ καλή. (method)",
+"options": [
+"μέθοδο",
+"μέθοδος",
+"μεθόδος",
+"μέθοδοι"
+],
+"answer": "μέθοδος",
+"why": "Feminine -ος, nominative singular.",
+"id": "noun-traps-8588e4b5"
+},
+{
+"type": "write",
+"q": "Plural of **ο χρόνος** meaning \"years\"",
+"answer": "τα χρόνια",
+"accept": [
+"χρόνια"
+],
+"why": "The years plural is neuter.",
+"id": "noun-traps-e36918d7"
+},
+{
+"type": "write",
+"q": "Wife's or daughter's surname from **Παπαδόπουλος**",
+"answer": "Παπαδοπούλου",
+"accept": [],
+"why": "Genitive -ου, stress moves.",
+"id": "noun-traps-90f1e2a3"
+},
+{
+"type": "write",
+"q": "\"on the main road\" (η οδός)",
+"answer": "στην κεντρική οδό",
+"accept": [
+"στον κεντρικό δρόμο"
+],
+"why": "Feminine: κεντρική οδό.",
+"id": "noun-traps-79e19d7f"
+},
+{
+"type": "write",
+"q": "\"for Christmas\"",
+"answer": "τα Χριστούγεννα",
+"accept": [
+"για τα Χριστούγεννα",
+"στα Χριστούγεννα"
+],
+"why": "Plural only.",
+"id": "noun-traps-5113f2a7"
+},
+{
+"type": "order",
+"q": "\"The entrance is on the left.\"",
+"answer": "Η είσοδος είναι αριστερά.",
+"accept": [],
+"why": "Feminine -ος.",
+"id": "noun-traps-20db96a2"
+},
+{
+"type": "order",
+"q": "\"The new (female) teacher is from Patras.\"",
+"answer": "Η καινούργια δασκάλα είναι από την Πάτρα.",
+"accept": [],
+"why": "δάσκαλος → δασκάλα.",
+"id": "noun-traps-4b0aeb91"
+}
+]
+}
+]
 }
 ],
 "id": "noun-traps",

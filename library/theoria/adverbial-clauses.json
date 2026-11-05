@@ -866,6 +866,198 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: time, reason, purpose, contrast",
+"body": [
+{
+"p": "Each kind of clause has its conjunction. **Time**: όταν, μόλις, πριν (να), αφού, ενώ, μέχρι να, από τότε που. **Reason**: γιατί, επειδή, αφού (since). **Purpose**: για να. **Result**: έτσι που, τόσο... που. **Contrast**: αν και, παρόλο που, ενώ. Future time after όταν, μόλις, πριν, μέχρι takes the **dependent**, not θα: **Όταν έρθεις, θα φάμε.**"
+},
+{
+"solved": [
+{
+"q": "\"When you (sg) arrive, call me.\"",
+"a": "Όταν φτάσεις, πάρε με τηλέφωνο. | Όταν φτάσεις, τηλεφώνησέ μου.",
+"why": "Future time after όταν: dependent φτάσεις, no θα."
+},
+{
+"q": "\"I'll wait until you (sg) finish.\"",
+"a": "Θα περιμένω μέχρι να τελειώσεις. | Θα περιμένω ώσπου να τελειώσεις.",
+"why": "μέχρι να + dependent."
+},
+{
+"q": "\"Although it was raining, we went out.\"",
+"a": "Αν και έβρεχε, βγήκαμε. | Παρόλο που έβρεχε, βγήκαμε.",
+"why": "Contrast: αν και / παρόλο που."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θα σου τηλεφωνήσω μόλις ___. (I arrive)",
+"options": [
+"θα φτάσω",
+"φτάσω",
+"φτάνω",
+"έφτασα"
+],
+"answer": "φτάσω",
+"why": "Future time after μόλις: dependent.",
+"id": "adverbial-clauses-15b19a31"
+},
+{
+"type": "choice",
+"q": "Πλύνε τα χέρια σου πριν ___. (you eat)",
+"options": [
+"τρως",
+"φας",
+"θα φας",
+"έφαγες"
+],
+"answer": "φας",
+"why": "πριν (να) + dependent.",
+"id": "adverbial-clauses-875ce6dc"
+},
+{
+"type": "choice",
+"q": "Πήγα στο φαρμακείο ___ αγοράσω ασπιρίνες.",
+"options": [
+"γιατί",
+"για να",
+"ενώ",
+"αφού"
+],
+"answer": "για να",
+"why": "Purpose: για να.",
+"id": "adverbial-clauses-0b90a8cc"
+},
+{
+"type": "choice",
+"q": "Δεν ήρθε ___ ήταν άρρωστος.",
+"options": [
+"για να",
+"επειδή",
+"μέχρι",
+"πριν"
+],
+"answer": "επειδή",
+"why": "Reason: επειδή.",
+"id": "adverbial-clauses-d4844a37"
+},
+{
+"type": "choice",
+"q": "___ μαγείρευα, άκουγα ραδιόφωνο.",
+"options": [
+"Αφού",
+"Ενώ",
+"Μόλις",
+"Για να"
+],
+"answer": "Ενώ",
+"why": "Two things at the same time: ενώ + imperfect.",
+"id": "adverbial-clauses-c6e3226c"
+},
+{
+"type": "choice",
+"q": "Ήταν τόσο κουρασμένος ___ αποκοιμήθηκε αμέσως.",
+"options": [
+"ότι",
+"που",
+"για να",
+"ενώ"
+],
+"answer": "που",
+"why": "τόσο... που = so... that.",
+"id": "adverbial-clauses-9e079d38"
+},
+{
+"type": "choice",
+"q": "___ τελείωσε τη δουλειά, πήγε σπίτι.",
+"options": [
+"Πριν",
+"Αφού",
+"Ενώ",
+"Μέχρι"
+],
+"answer": "Αφού",
+"why": "αφού = after (here with the aorist).",
+"id": "adverbial-clauses-2c87966c"
+},
+{
+"type": "choice",
+"q": "Μένω εδώ ___ ήμουν παιδί.",
+"options": [
+"όταν",
+"από τότε που",
+"μόλις",
+"ενώ"
+],
+"answer": "από τότε που",
+"why": "από τότε που = since (a time).",
+"id": "adverbial-clauses-513e9aba"
+},
+{
+"type": "write",
+"q": "\"When I was young, I lived in Thessaloniki.\"",
+"answer": "Όταν ήμουν μικρός, έμενα στη Θεσσαλονίκη.",
+"accept": [
+"Όταν ήμουν μικρή, έμενα στη Θεσσαλονίκη."
+],
+"why": "Past habit: imperfect.",
+"id": "adverbial-clauses-5463c99c"
+},
+{
+"type": "write",
+"q": "\"Turn (sg) off the light before you leave.\"",
+"answer": "Σβήσε το φως πριν φύγεις.",
+"accept": [
+"Κλείσε το φως πριν φύγεις.",
+"Σβήσε το φως πριν να φύγεις."
+],
+"why": "πριν + dependent.",
+"id": "adverbial-clauses-0e294438"
+},
+{
+"type": "write",
+"q": "\"Since you (sg) are here, help me.\"",
+"answer": "Αφού είσαι εδώ, βοήθησέ με.",
+"accept": [],
+"why": "αφού = since (reason).",
+"id": "adverbial-clauses-cbb39d45"
+},
+{
+"type": "write",
+"q": "\"I'm saving money in order to travel.\"",
+"answer": "Μαζεύω λεφτά για να ταξιδέψω.",
+"accept": [
+"Μαζεύω χρήματα για να ταξιδέψω."
+],
+"why": "για να + dependent.",
+"id": "adverbial-clauses-9f5ae5fa"
+},
+{
+"type": "order",
+"q": "\"As soon as I heard the news, I called you.\"",
+"answer": "Μόλις άκουσα τα νέα, σου τηλεφώνησα.",
+"accept": [],
+"why": "μόλις + aorist for the past.",
+"id": "adverbial-clauses-bea0802a"
+},
+{
+"type": "order",
+"q": "\"Even though he's rich, he lives simply.\"",
+"answer": "Αν και είναι πλούσιος, ζει απλά.",
+"accept": [],
+"why": "Contrast.",
+"id": "adverbial-clauses-ff4324df"
+}
+]
+}
+]
 }
 ],
 "id": "adverbial-clauses",

@@ -640,16 +640,16 @@
 "check": [
 {
 "type": "choice",
-"q": "Είναι ένα πολύ ___ βιβλίο. (interesting)",
+"q": "Ήταν μια πολύ ___ συζήτηση. (interesting)",
 "options": [
 "ενδιαφέρων",
-"ενδιαφέρον",
 "ενδιαφέρουσα",
-"ενδιαφερόμενο"
+"ενδιαφέρον",
+"ενδιαφερόμενη"
 ],
-"answer": "ενδιαφέρον",
-"why": "Neuter: ενδιαφέρον.",
-"id": "participles-9a5b2d1f"
+"answer": "ενδιαφέρουσα",
+"why": "Feminine of ενδιαφέρων: ενδιαφέρουσα, to agree with συζήτηση.",
+"id": "participles-6f36bb65"
 },
 {
 "type": "choice",
@@ -726,6 +726,198 @@
 "accept": [],
 "why": "Feminine.",
 "id": "participles-08d389e9"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: the four participles",
+"body": [
+{
+"p": "Sort a participle by its ending. **-οντας / -ώντας** never changes and means \"while / by doing\" (**τρέχοντας**, **μιλώντας**). **-μένος** is a passive result, like English \"-ed\" (**κλεισμένος**, **χαμένος**). **-όμενος / -ούμενος** is a learned passive \"being done\" (**ερχόμενος**, **ενδιαφερόμενος**). **-ων, -ουσα, -ον** is a learned active \"-ing\" adjective (**ενδιαφέρων**, **επείγων**)."
+},
+{
+"solved": [
+{
+"q": "Make the -οντας form of **περπατάω**",
+"a": "περπατώντας",
+"why": "-άω verbs take -ώντας."
+},
+{
+"q": "Make the -μένος participle of **κλείνω**",
+"a": "κλεισμένος",
+"why": "Aorist stem έκλεισα → κλεισ- + -μένος. Το μαγαζί είναι κλεισμένο. (also κλειστό)"
+},
+{
+"q": "\"the forgotten keys\"",
+"a": "τα ξεχασμένα κλειδιά",
+"why": "ξεχνάω → ξεχασμένος; neuter plural -α to agree with κλειδιά."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Έμαθα ελληνικά ___ τραγούδια. (by listening to)",
+"options": [
+"ακούγοντα",
+"ακούγοντας",
+"ακουσμένα",
+"ακούοντες"
+],
+"answer": "ακούγοντας",
+"why": "-οντας never changes.",
+"id": "participles-ac8f7e9d"
+},
+{
+"type": "choice",
+"q": "Η πόρτα ήταν ___. (locked)",
+"options": [
+"κλειδώνοντας",
+"κλειδωμένη",
+"κλειδωμένος",
+"κλειδώνουσα"
+],
+"answer": "κλειδωμένη",
+"why": "Feminine to agree with πόρτα.",
+"id": "participles-802aea02"
+},
+{
+"type": "choice",
+"q": "Βρήκα το πορτοφόλι ___ κάτω από τον καναπέ. (lost)",
+"options": [
+"χάνοντας",
+"χαμένο",
+"χαμένος",
+"χαμένη"
+],
+"answer": "χαμένο",
+"why": "Neuter to agree with πορτοφόλι.",
+"id": "participles-cc8e02bf"
+},
+{
+"type": "choice",
+"q": "Είναι ένα πολύ ___ βιβλίο. (interesting)",
+"options": [
+"ενδιαφέρων",
+"ενδιαφέρον",
+"ενδιαφέρουσα",
+"ενδιαφέροντας"
+],
+"answer": "ενδιαφέρον",
+"why": "Neuter of ενδιαφέρων is ενδιαφέρον, the same spelling as the noun \"interest\".",
+"id": "participles-9a5b2d1f"
+},
+{
+"type": "choice",
+"q": "Μίλησε ___ για το ταξίδι. (smiling)",
+"options": [
+"χαμογελασμένα",
+"χαμογελώντας",
+"χαμογελώντα",
+"χαμογελούσε"
+],
+"answer": "χαμογελώντας",
+"why": "-άω → -ώντας.",
+"id": "participles-c90d0629"
+},
+{
+"type": "choice",
+"q": "Οι ___ μπορούν να κάνουν αίτηση. (those interested)",
+"options": [
+"ενδιαφέροντας",
+"ενδιαφερόμενοι",
+"ενδιαφερμένοι",
+"ενδιαφέροντες"
+],
+"answer": "ενδιαφερόμενοι",
+"why": "-όμενος used as a noun.",
+"id": "participles-6765318d"
+},
+{
+"type": "choice",
+"q": "Έχω τα εισιτήρια ___. (booked)",
+"options": [
+"κλείνοντας",
+"κλεισμένα",
+"κλεισμένοι",
+"κλεισμένες"
+],
+"answer": "κλεισμένα",
+"why": "έχω + participle agreeing with τα εισιτήρια.",
+"id": "participles-d9988510"
+},
+{
+"type": "write",
+"q": "-οντας form of **δουλεύω**",
+"answer": "δουλεύοντας",
+"accept": [],
+"why": "-ω verbs: -οντας.",
+"id": "participles-9955a054"
+},
+{
+"type": "write",
+"q": "-οντας form of **ρωτάω**",
+"answer": "ρωτώντας",
+"accept": [],
+"why": "\"Ρωτώντας πας στην Πόλη.\" (proverb)",
+"id": "participles-aa627d66"
+},
+{
+"type": "write",
+"q": "-μένος participle of **γράφω** (neuter singular)",
+"answer": "γραμμένο",
+"accept": [],
+"why": "γράφω → γραμμένος.",
+"id": "participles-bb7c1f90"
+},
+{
+"type": "write",
+"q": "-μένος participle of **κουράζω** (feminine)",
+"answer": "κουρασμένη",
+"accept": [],
+"why": "κουράζω → κουρασμένος.",
+"id": "participles-aaedfcc0"
+},
+{
+"type": "write",
+"q": "\"a broken glass\"",
+"answer": "ένα σπασμένο ποτήρι",
+"accept": [],
+"why": "σπάω → σπασμένος.",
+"id": "participles-2b05bdbd"
+},
+{
+"type": "write",
+"q": "\"She came in running.\"",
+"answer": "Μπήκε τρέχοντας.",
+"accept": [
+"Μπήκε μέσα τρέχοντας."
+],
+"why": "-οντας of manner.",
+"id": "participles-86161cdc"
+},
+{
+"type": "order",
+"q": "\"Leaving the house, I locked the door.\"",
+"answer": "Φεύγοντας από το σπίτι, κλείδωσα την πόρτα.",
+"accept": [
+"Φεύγοντας από το σπίτι κλείδωσα την πόρτα."
+],
+"why": "-οντας of time.",
+"id": "participles-db549075"
+},
+{
+"type": "order",
+"q": "\"The tired children fell asleep.\"",
+"answer": "Τα κουρασμένα παιδιά αποκοιμήθηκαν.",
+"accept": [],
+"why": "-μένος agrees with παιδιά.",
+"id": "participles-40b82c27"
 }
 ]
 }

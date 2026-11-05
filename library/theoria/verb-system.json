@@ -1019,6 +1019,175 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: finding your way round a verb",
+"body": [
+{
+"p": "Every verb has two stems: the **imperfective** stem (present, imperfect, θα + present for repeated future) and the **perfective** stem (aorist, θα/να + dependent for one-off future and wishes). Learn a new verb with three forms, **present, aorist, dependent**: **γράφω, έγραψα, (να) γράψω**. From these you can build almost everything else."
+},
+{
+"solved": [
+{
+"q": "Principal parts of **διαβάζω**",
+"a": "διαβάζω, διάβασα, (να) διαβάσω | διαβάζω, διάβασα, να διαβάσω",
+"why": "-ζω → -σα, -σω."
+},
+{
+"q": "Which stem? \"I'll write to you (sg) every day.\"",
+"a": "Θα σου γράφω κάθε μέρα.",
+"why": "Repeated: imperfective stem (θα γράφω)."
+},
+{
+"q": "Which stem? \"I'll write to you (sg) tomorrow.\"",
+"a": "Θα σου γράψω αύριο.",
+"why": "One-off: perfective stem (θα γράψω)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θα ___ κάθε πρωί. (I'll run, regularly)",
+"options": [
+"τρέξω",
+"τρέχω",
+"έτρεξα",
+"τρέξει"
+],
+"answer": "τρέχω",
+"why": "Repeated future: θα + present.",
+"id": "verb-system-70f89735"
+},
+{
+"type": "choice",
+"q": "Θέλω να ___ ένα βιβλίο απόψε. (to read, once)",
+"options": [
+"διαβάζω",
+"διαβάσω",
+"διάβασα",
+"διαβάζει"
+],
+"answer": "διαβάσω",
+"why": "One-off wish: να + dependent.",
+"id": "verb-system-2a11e595"
+},
+{
+"type": "choice",
+"q": "Χθες ___ ένα γράμμα. (I wrote)",
+"options": [
+"γράφω",
+"έγραψα",
+"έγραφα",
+"γράψω"
+],
+"answer": "έγραψα",
+"why": "One completed action: aorist.",
+"id": "verb-system-98fb776f"
+},
+{
+"type": "choice",
+"q": "Όταν ήμουν παιδί, ___ πολύ. (I used to read)",
+"options": [
+"διάβασα",
+"διάβαζα",
+"διαβάσω",
+"θα διαβάσω"
+],
+"answer": "διάβαζα",
+"why": "Habit in the past: imperfect.",
+"id": "verb-system-e3ce4a67"
+},
+{
+"type": "choice",
+"q": "Ποια είναι η σωστή σειρά;",
+"options": [
+"γράφω, έγραφα, γράψω",
+"γράφω, έγραψα, γράψω",
+"γράψω, έγραψα, γράφω",
+"έγραψα, γράφω, γράψω"
+],
+"answer": "γράφω, έγραψα, γράψω",
+"why": "Present, aorist, dependent.",
+"id": "verb-system-46134621"
+},
+{
+"type": "choice",
+"q": "Το ρήμα **έρχομαι** είναι",
+"options": [
+"ενεργητικό",
+"αποθετικό",
+"απρόσωπο",
+"ανώμαλο ενεργητικό"
+],
+"answer": "αποθετικό",
+"why": "-ομαι form with active meaning: deponent.",
+"id": "verb-system-004584e1"
+},
+{
+"type": "write",
+"q": "Principal parts of **αγοράζω** (present, aorist, dependent)",
+"answer": "αγοράζω, αγόρασα, αγοράσω",
+"accept": [
+"αγοράζω, αγόρασα, να αγοράσω"
+],
+"why": "-ζω → -σα.",
+"id": "verb-system-cb6f3062"
+},
+{
+"type": "write",
+"q": "Principal parts of **κλείνω**",
+"answer": "κλείνω, έκλεισα, κλείσω",
+"accept": [
+"κλείνω, έκλεισα, να κλείσω"
+],
+"why": "-ίνω → -εισα.",
+"id": "verb-system-43ae5588"
+},
+{
+"type": "write",
+"q": "Principal parts of **μιλάω**",
+"answer": "μιλάω, μίλησα, μιλήσω",
+"accept": [
+"μιλάω, μίλησα, να μιλήσω",
+"μιλώ, μίλησα, μιλήσω"
+],
+"why": "-άω → -ησα.",
+"id": "verb-system-16516b73"
+},
+{
+"type": "write",
+"q": "\"I'll call you (sg) often.\"",
+"answer": "Θα σε παίρνω συχνά τηλέφωνο.",
+"accept": [
+"Θα σου τηλεφωνώ συχνά.",
+"Θα σε παίρνω τηλέφωνο συχνά."
+],
+"why": "Repeated: imperfective.",
+"id": "verb-system-3d132ae1"
+},
+{
+"type": "order",
+"q": "\"I want to learn Greek.\"",
+"answer": "Θέλω να μάθω ελληνικά.",
+"accept": [],
+"why": "να + dependent (μάθω).",
+"id": "verb-system-beb046e3"
+},
+{
+"type": "order",
+"q": "\"Every summer we used to go to the islands.\"",
+"answer": "Κάθε καλοκαίρι πηγαίναμε στα νησιά.",
+"accept": [],
+"why": "Habit: imperfect.",
+"id": "verb-system-0c60cae0"
+}
+]
+}
+]
 }
 ],
 "id": "verb-system",

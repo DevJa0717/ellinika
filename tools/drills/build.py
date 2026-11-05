@@ -423,6 +423,190 @@ def build_verbs(lex, wk, report):
     out.sort(key=lambda x: (LV.index(x["lv"]) if x["lv"] in LV else 9, x["r"]))
     return out
 
+# ---------------- rule-built verb paradigms (verbs Wiktionary has no usable table for) ----------------
+# Each cell is built from the conjugation classes in data/grammar (verbs-present-groups.json, verbs-past-future.json):
+# the stem plus the class endings, written without accents. A cell keeps only the forms that the word list's
+# forms index (data/lexicon/forms-index.json, written independently per word) also has, and it takes the accent
+# from there. So every form shown is backed by two sources, and hunspell checks it a third time afterwards.
+AUG = [("αμφι", "αμφε"), ("υπερ", "υπερε"), ("περι", "περιε"), ("κατα", "κατε"), ("δια", "διε"), ("απο", "απε"), ("παρα", "παρε"),
+       ("μετα", "μετε"), ("ανα", "ανε"), ("επι", "επε"), ("υπο", "υπε"), ("αντι", "αντε"), ("προ", "προε"),
+       ("εισ", "εισε"), ("συν", "συνε"), ("συγ", "συνε"), ("συμ", "συνε"), ("συλ", "συνε"), ("συρ", "συνε"),
+       ("συ", "συνε"), ("εκ", "εξε"), ("εξ", "εξε"), ("εν", "ενε"), ("εμ", "ενε"), ("εγ", "ενε"), ("ελ", "ενε"),
+       ("κατ", "κατε"), ("δι", "διε"), ("απ", "απε"), ("παρ", "παρε"), ("μετ", "μετε"), ("αν", "ανε"),
+       ("επ", "επε"), ("υπ", "υπε"), ("αντ", "αντε"), ("αφ", "αφε"), ("εφ", "εφε"), ("καθ", "καθε")]
+
+def aug_variants(s):
+    """The stem itself, with the syllabic augment, and with the internal augments of learned compounds."""
+    out = [s, "ε" + s]
+    for pre, rep in AUG:
+        if s.startswith(pre) and len(s) > len(pre) + 1: out.append(rep + s[len(pre):])
+    for i, c in enumerate(s):
+        if c == "ε" and s[i:i + 2] not in ("ει", "ευ"): out.append(s[:i] + "ει" + s[i + 1:])
+        if c == "α" and i == 0: out.append("η" + s[1:])
+    seen = []
+    for x in out:
+        if x not in seen: seen.append(x)
+    return seen
+
+PLAININV = {}
+
+def hits(lemma, plains, end=None):
+    """Accented forms in the forms index for each unaccented candidate, main answer first.
+    end: the endings of a class stressed on the ending (αγαπ-άς, μιμ-ούμαι, μιμηθ-ώ): the accent must fall inside it,
+    so that the imperative κούνα is not taken for the present κουνά."""
+    idx = PLAININV.get(lemma, {})
+    out = []
+    for p in plains:
+        n = 0
+        if end:
+            e = next((x for x in sorted(end, key=len, reverse=True) if p.endswith(x)), "")
+            n = len(nuclei(e)) or 1
+        for f in sorted(idx.get(p, []), key=lambda w: -accent_pos(w)):  # earlier accent first: μιμήθηκαν before μιμηθήκαν
+            if end and accent_pos(f) > n: continue
+            if stress_ok(f) and f not in out: out.append(f)
+    return "|".join(out)
+
+def row(lemma, stems, ends, end=False):
+    """ends: per person a list of endings. Stems are tried in order; the stem that gives the 1st person is preferred."""
+    cells = []
+    order = list(stems)
+    for k, alts in enumerate(ends):
+        cells.append(hits(lemma, [s + e for s in order for e in alts], alts if end else None))
+        if k == 0 and cells[0]:
+            first = strip(cells[0].split("|")[0])
+            pref = [s for s in order if any(first == s + e for e in alts)]
+            order = pref + [s for s in order if s not in pref]
+    return cells
+
+A_PRES = [["ω"], ["εις"], ["ει"], ["ουμε"], ["ετε"], ["ουν", "ουνε"]]
+A_PAST = [["α"], ["ες"], ["ε"], ["αμε"], ["ατε"], ["αν", "ανε"]]
+B1_PRES = [["αω", "ω"], ["ας"], ["αει", "α"], ["αμε", "ουμε"], ["ατε"], ["ανε", "αν", "ουν", "ουνε"]]
+B2_PRES = [["ω", "αω"], ["εις", "ας"], ["ει", "αει"], ["ουμε", "αμε"], ["ειτε", "ατε"], ["ουν", "ουνε", "ανε", "αν"]]
+B_IMPF = [["ουσα"], ["ουσες"], ["ουσε"], ["ουσαμε"], ["ουσατε"], ["ουσαν", "ουσανε"]]
+P_ENDS = {  # passive and deponent presents, after Holton's classes
+    "ομαι": [["ομαι"], ["εσαι"], ["εται"], ["ομαστε"], ["εστε", "οσαστε"], ["ονται"]],
+    "αμαι": [["αμαι", "ουμαι"], ["ασαι"], ["αται"], ["ομαστε", "ουμαστε"], ["αστε", "οσαστε"], ["ουνται", "ονται", "ανται"]],
+    "ιεμαι": [["ιεμαι"], ["ιεσαι"], ["ιεται"], ["ιομαστε"], ["ιεστε", "ιοσαστε"], ["ιουνται", "ιονται"]],
+    "ουμαι": [["ουμαι"], ["εισαι", "ιεσαι"], ["ειται", "ιεται"], ["ουμαστε"], ["ειστε"], ["ουνται"]],
+}
+P_IMPF = {
+    "ομαι": [["ομουν", "ομουνα"], ["οσουν", "οσουνα"], ["οταν", "οτανε"], ["ομασταν", "ομαστε"], ["οσασταν", "οσαστε"], ["ονταν", "οντουσαν"]],
+    "αμαι": [["ομουν", "ομουνα"], ["οσουν", "οσουνα"], ["οταν", "οτανε"], ["ομασταν"], ["οσασταν"], ["ονταν", "οντουσαν", "ουνταν"]],
+    "ιεμαι": [["ιομουν", "ιομουνα"], ["ιοσουν", "ιοσουνα"], ["ιοταν", "ιοτανε"], ["ιομασταν"], ["ιοσασταν"], ["ιονταν", "ιουνταν", "ιοντουσαν"]],
+    "ουμαι": [["ουμουν"], ["ουσουν"], ["ουνταν", "ουταν"], ["ουμασταν"], ["ουσασταν"], ["ουνταν", "ουντουσαν"]],
+}
+PA_AOR = [["ηκα"], ["ηκες"], ["ηκε"], ["ηκαμε"], ["ηκατε"], ["ηκαν", "ηκανε"]]
+PA_DEP = [["ω"], ["εις"], ["ει"], ["ουμε"], ["ειτε"], ["ουν", "ουνε"]]
+
+def dep_stem(lemma, P, a1):
+    """The perfective stem (γράψ-ω, διαθέσ-ω): a -ω form in the forms index whose stem ends like the aorist's."""
+    best, score = None, 0
+    A = strip(a1)[:-1]
+    for p in PLAININV.get(lemma, {}):
+        if not p.endswith("ω") or p.endswith(("ουμαι", "θω")): continue
+        s = p[:-1]
+        if not s or s[:2] != P[:2]: continue
+        if not (p + "" in PLAININV[lemma] and (s + "εις") in PLAININV[lemma]): continue
+        k = 0
+        while k < min(len(s), len(A)) and s[-1 - k] == A[-1 - k]: k += 1
+        if k < 2: continue
+        sc = k * 2 + (0 if p == P else 1)
+        if sc > score: best, score = s, sc
+    return best
+
+def passive_rule(lemma, pstem, ptype, apas):
+    """Passive or deponent voice from a present stem + class, and the passive aorist."""
+    e = ptype in ("ιεμαι", "ουμαι")
+    V = {"pres": row(lemma, [pstem], P_ENDS[ptype], e), "impf": row(lemma, [pstem], P_IMPF[ptype], e),
+         "aor": ["", "", "", "", "", ""], "dep": ["", "", "", "", "", ""], "impP": ["", ""], "impI": ["", ""], "inf": "", "ptc": ""}
+    V["impI"][1] = V["pres"][4].split("|")[0] if V["pres"][4] else ""
+    if apas and strip(apas).endswith("ηκα"):
+        T = strip(apas)[:-3]
+        V["aor"] = row(lemma, [T], PA_AOR)
+        V["dep"] = row(lemma, [T], PA_DEP, True)
+        if T.endswith("θ"): sg = [T[:-1] + "σου"]
+        elif T.endswith("στ"): sg = [T[:-1] + "ου"]
+        else: sg = []
+        V["impP"] = [hits(lemma, sg), hits(lemma, [T + "ειτε"])]
+        V["inf"] = hits(lemma, [T + "ει"]).split("|")[0]
+        ptc = [f for p, fs in PLAININV.get(lemma, {}).items() for f in fs
+               if p.endswith("μενος") and not p.endswith(("ομενος", "ουμενος", "ωμενος", "ιομενος", "αμενος"))]
+        V["ptc"] = ptc[0] if len(ptc) == 1 else ""
+    return V
+
+def build_rule_verbs(lex, have, report):
+    for form, lemmas in FI.items():
+        for l in lemmas: PLAININV.setdefault(l, {}).setdefault(strip(form), []).append(form)
+    out = []
+    for e in lex:
+        if e["pos"] != "verb" or e["lemma"] in have or " " in e["lemma"]: continue
+        lemma, v = e["lemma"], e.get("verb") or {}
+        grp, a1, apas = v.get("conj_group") or "", v.get("aorist_1sg"), v.get("aorist_passive_1sg")
+        P = strip(lemma)
+        if lemma not in INV: report["rverb_skip_noforms"] += 1; continue
+        item = {"l": lemma, "lv": e.get("cefr_est") or "B2", "en": short_gloss(e["gloss"]), "r": e.get("freq_rank") or 99999,
+                "grp": grp, "dep": False, "src": "rule"}
+        ptype = next((t for t in ("ιεμαι", "ουμαι", "αμαι", "ομαι") if P.endswith(t)), None)
+        if ptype:  # deponent: present class from the ending, aorist from the word list
+            if ptype == "ιεμαι": ptype = "ομαι" if P.endswith("ιομαι") else "ιεμαι"
+            A = passive_rule(lemma, P[:-len(ptype)], ptype, a1)
+            item["dep"] = True
+        elif P.endswith("ω"):
+            s = P[:-2] if P.endswith("αω") and grp in ("B1", "") else P[:-1]  # κουνάω: stem κουν-, like αγαπώ
+            if grp == "B1" or P.endswith("αω") or (grp != "B2" and lemma.endswith("ώ") and (s + "ας") in PLAININV[lemma]):
+                pres, impf, kind = row(lemma, [s], B1_PRES, True), row(lemma, [s], B_IMPF, True), "B1"
+            elif lemma.endswith("ώ"):
+                pres, impf, kind = row(lemma, [s], B2_PRES, True), row(lemma, [s], B_IMPF, True), "B2"
+            else:
+                pres, impf, kind = row(lemma, [s], A_PRES), row(lemma, aug_variants(s), A_PAST), "A"
+            A = {"pres": pres, "impf": impf, "aor": [""] * 6, "dep": [""] * 6, "impP": ["", ""], "impI": ["", ""], "inf": "", "ptc": ""}
+            ds = dep_stem(lemma, P, a1) if a1 else None
+            if a1 and ds:
+                Aa = strip(a1)[:-1]
+                stems = [Aa] + [x for x in aug_variants(ds) if x != Aa]
+                # Singular and 3rd plural keep the augment; the bare stem would give the imperative (διάθεσε), not έ-/διέθεσε.
+                sg = [Aa] + [x for x in aug_variants(ds) if x not in (Aa, ds)]
+                if Aa == ds: sg = [ds]
+                A["aor"] = row(lemma, sg, A_PAST[:5] + [["αν"]])
+                A["aor"][5] = "|".join(x for x in (A["aor"][5].split("|") + hits(lemma, [ds + "αν", ds + "ανε"]).split("|")) if x)
+                A["aor"][5] = "|".join(dict.fromkeys(A["aor"][5].split("|"))) if A["aor"][5] else ""
+                # 1st/2nd plural drop the syllabic augment: γράψαμε, not *έγραψαμε
+                A["aor"][3] = hits(lemma, [ds + "αμε"] + [x + "αμε" for x in stems if x != "ε" + ds])
+                A["aor"][4] = hits(lemma, [ds + "ατε"] + [x + "ατε" for x in stems if x != "ε" + ds])
+                A["dep"] = row(lemma, [ds], A_PRES)
+                colloq = kind == "B1" and "άω" in pres[0]  # αγάπα, but no *αντικαθιστά
+                A["impP"] = [hits(lemma, [ds + "ε"] + ([s + "α"] if colloq else [])),
+                             hits(lemma, [ds + "τε", ds + "ετε"])]
+                A["inf"] = A["dep"][2].split("|")[0] if A["dep"][2] else ""
+            elif a1 and a1 == hits(lemma, [s + "α"]).split("|")[0] or (not a1 and any(impf)):
+                A["aor"], A["one_past"] = list(impf), True
+                A["dep"] = list(pres)
+            if kind == "A": A["impI"] = [hits(lemma, [s + "ε"]), pres[4].split("|")[0] if pres[4] else ""]
+            elif kind == "B1": A["impI"] = [hits(lemma, [s + "α"]) if "άω" in pres[0] else "", hits(lemma, [s + "ατε"])]
+            else: A["impI"] = ["", pres[4].split("|")[0] if pres[4] else ""]
+            if apas and not item["dep"]:
+                pt = {"A": "ομαι", "B1": "ιεμαι", "B2": "ουμαι"}[kind]
+                Pv = passive_rule(lemma, s, pt, apas)
+                if kind == "B1" and not Pv["pres"][0]:  # learned -ώ verbs: αντικαθίσταμαι, εξαρτώμαι
+                    Pv2 = passive_rule(lemma, s, "αμαι", apas)
+                    if sum(1 for c in Pv2["pres"] if c) > sum(1 for c in Pv["pres"] if c): Pv = Pv2
+                if sum(1 for k in ("pres", "aor", "dep") for c in Pv[k] if c) >= 15 and apas in Pv["aor"][0].split("|"):
+                    item["P"] = Pv; report["rverbs_passive"] += 1
+        else:
+            report["rverb_skip_shape"] += 1; continue
+        # Principal parts must agree with the word list: the 1st singular present is the lemma, the aorist is the word list's.
+        if A["pres"][0].split("|")[0] != lemma: report["rverb_skip_present"] += 1; continue
+        if a1 and not A.get("one_past"):
+            ao = A["aor"][0].split("|") if A["aor"][0] else []
+            if a1 not in ao: report["rverb_skip_aorist"] += 1; report["rverb_aorist_examples"].append(lemma); continue
+            A["aor"][0] = "|".join([a1] + [x for x in ao if x != a1])
+        if sum(1 for k in ("pres", "impf", "aor", "dep") for c in A[k] if c) < 18:
+            report["rverb_skip_thin"] += 1; report["rverb_thin_examples"].append(lemma); continue
+        item["A"] = A
+        out.append(item)
+        report["rverbs"] += 1
+    return out
+
 # ---------------- pronouns and articles ----------------
 HAND = {  # singular-only pronouns that decline like ένας (Wiktionary has no table for them)
     "κανένας": ["κανένας|κανείς", "καμία|καμιά", "κανένα", "κανενός", "καμίας|καμιάς", "κανενός", "κανέναν|κανένα", "καμία|καμιά", "κανένα"],
@@ -593,7 +777,7 @@ def hun_pass(nouns, adjs, verbs, report):
 
 def main():
     report = collections.Counter(); report.update({})
-    for k in ("noun_mismatch_examples", "adj_mismatch_examples", "verb_mismatch_examples", "pron_missing"): report[k] = []
+    for k in ("noun_mismatch_examples", "adj_mismatch_examples", "verb_mismatch_examples", "pron_missing", "rverb_aorist_examples", "rverb_thin_examples"): report[k] = []
     lex, wk = load_lex(), load_wikt()
     fi = json.load(open(os.path.join(ROOT, "data", "lexicon", "forms-index.json")))["forms"]
     FI.update(fi)
@@ -602,6 +786,8 @@ def main():
     nouns = build_nouns(lex, wk, report)
     adjs = build_adjs(lex, wk, report)
     verbs = build_verbs(lex, wk, report)
+    verbs += build_rule_verbs(lex, {w["l"] for w in verbs}, report)
+    verbs.sort(key=lambda x: (LV.index(x["lv"]) if x["lv"] in LV else 9, x["r"]))
     load_hunspell(); hun_pass(nouns, adjs, verbs, report)
     prons = build_pronouns(wk, report)
     phrases = build_phrases(lex, nouns, adjs, report)
@@ -612,7 +798,7 @@ def main():
     src = "Paradigms: Wiktionary inflection tables (via kaikki.org, CC BY-SA 4.0), kept only where they agree with the app's word list."
     dump("nouns.json", {"source": src, "notes": NOUN_NOTES, "words": nouns})
     dump("adjectives.json", {"source": src, "notes": ADJ_NOTES, "words": adjs})
-    dump("verbs.json", {"source": src, "words": verbs})
+    dump("verbs.json", {"source": src + " Verbs marked src=rule (no usable Wiktionary table) are built from the conjugation classes in data/grammar and kept only where every form is also in the word list's forms index.", "words": verbs})
     dump("pronouns.json", {"source": src + " Article and pronoun tables after data/grammar/declensions.json.", "tables": prons, "phrases": phrases})
     dump("context.json", {"source": "Sentences: the word list's example sentences (data/lexicon).", "items": cloze})
     for k, v in sorted(report.items()):

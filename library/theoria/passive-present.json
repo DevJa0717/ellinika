@@ -934,6 +934,200 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: active or passive present?",
+"body": [
+{
+"p": "The passive present has four endings to choose from, and the active verb tells you which: **-ω → -ομαι** (γράφω → γράφομαι), **-άω → -ιέμαι** (αγαπάω → αγαπιέμαι), **-ώ, -είς → -ούμαι** (θεωρώ → θεωρούμαι), and a few learned **-ώ → -ώμαι / -άμαι** (εξαρτώμαι, αντικαθίσταμαι). Many -ομαι verbs are reflexive or reciprocal rather than passive: **ντύνομαι** \"I get dressed\", **βλεπόμαστε** \"we see each other\"."
+},
+{
+"solved": [
+{
+"q": "Passive present, αυτός: **πληρώνω**",
+"a": "πληρώνεται",
+"why": "-ω → -εται. Ο λογαριασμός πληρώνεται στο ταμείο."
+},
+{
+"q": "Passive present, αυτοί: **ρωτάω**",
+"a": "ρωτιούνται | ρωτιόνται",
+"why": "-άω → -ιούνται (also -ιόνται)."
+},
+{
+"q": "\"The museum is visited by thousands of tourists.\"",
+"a": "Το μουσείο το επισκέπτονται χιλιάδες τουρίστες. | Το μουσείο επισκέπτονται χιλιάδες τουρίστες.",
+"why": "επισκέπτομαι is deponent (active meaning), so the sentence is active with the object first. The passive with από is not possible here."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Το σπίτι ___ τώρα. (is being painted)",
+"options": [
+"βάφει",
+"βάφεται",
+"βάφτηκε",
+"βάφουνε"
+],
+"answer": "βάφεται",
+"why": "-ω → -εται.",
+"id": "passive-present-854e1819"
+},
+{
+"type": "choice",
+"q": "Αυτή η λέξη δεν ___ πια. (is used)",
+"options": [
+"χρησιμοποιεί",
+"χρησιμοποιείται",
+"χρησιμοποιιέται",
+"χρησιμοποιάται"
+],
+"answer": "χρησιμοποιείται",
+"why": "-ώ, -είς → -είται.",
+"id": "passive-present-9ae83c83"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ πολύ στο σχολείο. (are tired)",
+"options": [
+"κουράζουν",
+"κουράζονται",
+"κουράστηκαν",
+"κουραζόμαστε"
+],
+"answer": "κουράζονται",
+"why": "αυτοί: -ονται.",
+"id": "passive-present-397b6756"
+},
+{
+"type": "choice",
+"q": "Πώς ___ αυτό στα ελληνικά; (is it said)",
+"options": [
+"λέει",
+"λέγεται",
+"λέγει",
+"λέγομαι"
+],
+"answer": "λέγεται",
+"why": "λέω → λέγομαι, λέγεται.",
+"id": "passive-present-513310e1"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ κάθε Σάββατο. (see each other)",
+"options": [
+"βλέπουμε",
+"βλεπόμαστε",
+"βλέπονται",
+"βλεπόσαστε"
+],
+"answer": "βλεπόμαστε",
+"why": "Reciprocal -όμαστε.",
+"id": "passive-present-b7a539e6"
+},
+{
+"type": "choice",
+"q": "Η Μαρία ___ από όλους. (is loved)",
+"options": [
+"αγαπάται",
+"αγαπιέται",
+"αγαπάει",
+"αγαπιόταν"
+],
+"answer": "αγαπιέται",
+"why": "-άω → -ιέται.",
+"id": "passive-present-5ed75f1e"
+},
+{
+"type": "choice",
+"q": "Η τιμή ___ από τον καιρό. (depends)",
+"options": [
+"εξαρτά",
+"εξαρτάται",
+"εξαρτιέται",
+"εξαρτούν"
+],
+"answer": "εξαρτάται",
+"why": "Learned εξαρτώμαι: εξαρτάται.",
+"id": "passive-present-df4085d2"
+},
+{
+"type": "write",
+"q": "Passive present, εγώ: **γεννάω**",
+"answer": "γεννιέμαι",
+"accept": [],
+"why": "-άω → -ιέμαι.",
+"id": "passive-present-16b77e3c"
+},
+{
+"type": "write",
+"q": "Passive present, εσύ: **ντύνω**",
+"answer": "ντύνεσαι",
+"accept": [],
+"why": "\"you get dressed\".",
+"id": "passive-present-837032ce"
+},
+{
+"type": "write",
+"q": "Passive present, εμείς: **θεωρώ**",
+"answer": "θεωρούμαστε",
+"accept": [],
+"why": "-ώ, -είς → -ούμαστε.",
+"id": "passive-present-f6b10827"
+},
+{
+"type": "write",
+"q": "Passive present, εσείς: **ξεχνάω**",
+"answer": "ξεχνιέστε",
+"accept": [
+"ξεχνιόσαστε"
+],
+"why": "-ιέστε or -ιόσαστε.",
+"id": "passive-present-8d115108"
+},
+{
+"type": "write",
+"q": "\"The shops open at nine.\" (ανοίγω)",
+"answer": "Τα μαγαζιά ανοίγουν στις εννιά.",
+"accept": [
+"Τα καταστήματα ανοίγουν στις εννιά."
+],
+"why": "Intransitive ανοίγω is active in Greek.",
+"id": "passive-present-35f064b7"
+},
+{
+"type": "write",
+"q": "\"I'm interested in history.\"",
+"answer": "Ενδιαφέρομαι για την ιστορία.",
+"accept": [],
+"why": "ενδιαφέρομαι + για.",
+"id": "passive-present-679db9c7"
+},
+{
+"type": "order",
+"q": "\"Where is the ticket bought?\"",
+"answer": "Πού αγοράζεται το εισιτήριο;",
+"accept": [
+"Το εισιτήριο πού αγοράζεται;"
+],
+"why": "αγοράζω → αγοράζεται.",
+"id": "passive-present-a6871b30"
+},
+{
+"type": "order",
+"q": "\"We're worried about the exams.\"",
+"answer": "Ανησυχούμε για τις εξετάσεις.",
+"accept": [],
+"why": "ανησυχώ is active in Greek.",
+"id": "passive-present-78adb096"
+}
+]
+}
+]
 }
 ],
 "id": "passive-present",

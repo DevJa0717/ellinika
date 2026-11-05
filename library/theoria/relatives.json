@@ -790,6 +790,187 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: που, ο οποίος, όποιος, ό,τι",
+"body": [
+{
+"p": "**Που** is the everyday relative for people and things, and it never changes. **Ο οποίος** changes for gender, number and case and is used after prepositions and in writing: **το σπίτι στο οποίο μένω**. **Όποιος** means \"whoever\", **ό,τι** \"whatever\", **όπου** \"wherever\", **όταν/όποτε** \"when/whenever\". A genitive pronoun after που shows \"whose\": **ο φίλος που του έκλεψαν το αυτοκίνητο**."
+},
+{
+"solved": [
+{
+"q": "\"The woman who lives next door is a doctor.\"",
+"a": "Η γυναίκα που μένει δίπλα είναι γιατρός. | Η κυρία που μένει δίπλα είναι γιατρός.",
+"why": "που for people."
+},
+{
+"q": "\"the town in which I was born\"",
+"a": "η πόλη στην οποία γεννήθηκα | η πόλη όπου γεννήθηκα | η πόλη που γεννήθηκα",
+"why": "After a preposition: στην οποία (feminine, to agree with πόλη)."
+},
+{
+"q": "\"Take (sg) whatever you want.\"",
+"a": "Πάρε ό,τι θέλεις.",
+"why": "ό,τι = whatever; the comma keeps it apart from ότι \"that\"."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ο φίλος ___ σου μίλησα έρχεται απόψε.",
+"options": [
+"ποιος",
+"για τον οποίο",
+"που τον οποίο",
+"ο οποίος για"
+],
+"answer": "για τον οποίο",
+"why": "Preposition + ο οποίος in the accusative.",
+"id": "relatives-bbf3cdf2"
+},
+{
+"type": "choice",
+"q": "Η ταινία ___ είδαμε ήταν βαρετή.",
+"options": [
+"ποια",
+"που",
+"ότι",
+"όποια"
+],
+"answer": "που",
+"why": "Everyday relative: που.",
+"id": "relatives-2351ee46"
+},
+{
+"type": "choice",
+"q": "___ θέλει, μπορεί να έρθει.",
+"options": [
+"Ποιος",
+"Όποιος",
+"Που",
+"Ο οποίος"
+],
+"answer": "Όποιος",
+"why": "Whoever: όποιος.",
+"id": "relatives-0297993c"
+},
+{
+"type": "choice",
+"q": "Κάνε ___ σου λέω.",
+"options": [
+"ότι",
+"ό,τι",
+"που",
+"όποιος"
+],
+"answer": "ό,τι",
+"why": "Whatever: ό,τι.",
+"id": "relatives-79dafd02"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά, ___ γονείς δουλεύουν, μένουν στο σχολείο ως τις τέσσερις.",
+"options": [
+"που",
+"των οποίων οι",
+"οι οποίοι",
+"ποιων οι"
+],
+"answer": "των οποίων οι",
+"why": "Whose: των οποίων.",
+"id": "relatives-99feb3a0"
+},
+{
+"type": "choice",
+"q": "Θα πάμε ___ θέλεις.",
+"options": [
+"που",
+"όπου",
+"ποιο",
+"ό,τι"
+],
+"answer": "όπου",
+"why": "Wherever: όπου.",
+"id": "relatives-52d4ef74"
+},
+{
+"type": "choice",
+"q": "Η εταιρεία ___ δουλεύω είναι γερμανική.",
+"options": [
+"που σε",
+"στην οποία",
+"την οποία",
+"η οποία"
+],
+"answer": "στην οποία",
+"why": "δουλεύω σε → στην οποία.",
+"id": "relatives-1a55dd90"
+},
+{
+"type": "write",
+"q": "\"the book that I'm reading\"",
+"answer": "το βιβλίο που διαβάζω",
+"accept": [
+"το βιβλίο το οποίο διαβάζω"
+],
+"why": "που.",
+"id": "relatives-8a018c06"
+},
+{
+"type": "write",
+"q": "\"the man whose car was stolen\"",
+"answer": "ο άντρας που του έκλεψαν το αυτοκίνητο",
+"accept": [
+"ο άντρας του οποίου το αυτοκίνητο κλάπηκε",
+"ο άντρας του οποίου έκλεψαν το αυτοκίνητο"
+],
+"why": "που + genitive pronoun, or του οποίου.",
+"id": "relatives-5dd34f11"
+},
+{
+"type": "write",
+"q": "\"Whoever comes first wins.\"",
+"answer": "Όποιος έρθει πρώτος κερδίζει.",
+"accept": [
+"Όποιος έρθει πρώτος θα κερδίσει."
+],
+"why": "όποιος + dependent.",
+"id": "relatives-ed06f9d7"
+},
+{
+"type": "write",
+"q": "\"Call (sg) me whenever you want.\"",
+"answer": "Πάρε με όποτε θέλεις.",
+"accept": [
+"Τηλεφώνησέ μου όποτε θέλεις."
+],
+"why": "όποτε = whenever.",
+"id": "relatives-5a59562d"
+},
+{
+"type": "order",
+"q": "\"This is the reason why I left.\"",
+"answer": "Αυτός είναι ο λόγος που έφυγα.",
+"accept": [],
+"why": "ο λόγος που.",
+"id": "relatives-57faccd9"
+},
+{
+"type": "order",
+"q": "\"Everything you (sg) said is true.\"",
+"answer": "Όλα όσα είπες είναι αλήθεια.",
+"accept": [],
+"why": "όλα όσα / ό,τι.",
+"id": "relatives-734dcd85"
+}
+]
+}
+]
 }
 ],
 "id": "relatives",

@@ -799,6 +799,186 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: the three kinds of condition",
+"body": [
+{
+"p": "Match the two halves. **Real** (likely): **αν + dependent / present → θα + verb or imperative**: **Αν βρέξει, θα μείνουμε μέσα.** **Unreal now** (imagined): **αν + imperfect → θα + imperfect**: **Αν είχα λεφτά, θα αγόραζα σπίτι.** **Unreal past** (too late): **αν + pluperfect → θα + pluperfect**, or the imperfect in speech: **Αν το ήξερα, θα σου το είχα πει.**"
+},
+{
+"solved": [
+{
+"q": "\"If you (sg) see Nikos, tell him to call me.\"",
+"a": "Αν δεις τον Νίκο, πες του να με πάρει τηλέφωνο. | Αν δεις τον Νίκο, πες του να μου τηλεφωνήσει.",
+"why": "Real condition: αν + dependent, imperative."
+},
+{
+"q": "\"If I were you, I wouldn't go.\"",
+"a": "Αν ήμουν στη θέση σου, δεν θα πήγαινα. | Στη θέση σου δεν θα πήγαινα.",
+"why": "Unreal now: imperfect in both halves."
+},
+{
+"q": "\"If we had left earlier, we would have caught the train.\"",
+"a": "Αν είχαμε φύγει νωρίτερα, θα είχαμε προλάβει το τρένο. | Αν φεύγαμε νωρίτερα, θα προλαβαίναμε το τρένο.",
+"why": "Unreal past: pluperfect (or imperfect in speech)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Αν ___ αύριο, θα πάμε για μπάνιο. (it's sunny)",
+"options": [
+"θα έχει ήλιο",
+"έχει ήλιο",
+"είχε ήλιο",
+"είχε έχει ήλιο"
+],
+"answer": "έχει ήλιο",
+"why": "Real condition: present after αν, no θα.",
+"id": "conditionals-6f0244a9"
+},
+{
+"type": "choice",
+"q": "Αν ___ χρόνο, θα ερχόμουν. (I had)",
+"options": [
+"έχω",
+"είχα",
+"θα είχα",
+"έχω έχει"
+],
+"answer": "είχα",
+"why": "Unreal now: αν + imperfect.",
+"id": "conditionals-58cc2a5c"
+},
+{
+"type": "choice",
+"q": "Αν το ήξερα, θα σου το ___. (I would have told)",
+"options": [
+"πω",
+"είχα πει",
+"έχω πει",
+"πει"
+],
+"answer": "είχα πει",
+"why": "θα + pluperfect.",
+"id": "conditionals-59f4c524"
+},
+{
+"type": "choice",
+"q": "Αν ___ νωρίς, πάρε με τηλέφωνο. (you finish)",
+"options": [
+"θα τελειώσεις",
+"τελειώσεις",
+"τελείωνες",
+"είχες τελειώσει"
+],
+"answer": "τελειώσεις",
+"why": "Real: αν + dependent.",
+"id": "conditionals-6cc8aca9"
+},
+{
+"type": "choice",
+"q": "___ βρέξει, δεν θα βγούμε.",
+"options": [
+"Μήπως",
+"Αν",
+"Όταν θα",
+"Ενώ"
+],
+"answer": "Αν",
+"why": "A condition: αν.",
+"id": "conditionals-db7b2025"
+},
+{
+"type": "choice",
+"q": "Θα σε βοηθούσα, αν ___. (I could)",
+"options": [
+"μπορώ",
+"μπορούσα",
+"θα μπορούσα",
+"μπορέσω"
+],
+"answer": "μπορούσα",
+"why": "Unreal now: imperfect.",
+"id": "conditionals-cbcd326b"
+},
+{
+"type": "choice",
+"q": "Μακάρι ___ εδώ! (you were)",
+"options": [
+"είσαι",
+"να ήσουν",
+"θα ήσουν",
+"ήσουνα να"
+],
+"answer": "να ήσουν",
+"why": "μακάρι να + imperfect for an unreal wish.",
+"id": "conditionals-b7ecd55e"
+},
+{
+"type": "write",
+"q": "\"If you (sg) want, we can go.\"",
+"answer": "Αν θέλεις, μπορούμε να πάμε.",
+"accept": [
+"Άμα θέλεις, μπορούμε να πάμε."
+],
+"why": "Real condition.",
+"id": "conditionals-dbea69d7"
+},
+{
+"type": "write",
+"q": "\"If I had money, I would travel.\"",
+"answer": "Αν είχα λεφτά, θα ταξίδευα.",
+"accept": [
+"Αν είχα χρήματα, θα ταξίδευα."
+],
+"why": "Unreal now.",
+"id": "conditionals-a99eb481"
+},
+{
+"type": "write",
+"q": "\"If it hadn't rained, we would have gone out.\"",
+"answer": "Αν δεν είχε βρέξει, θα είχαμε βγει.",
+"accept": [
+"Αν δεν έβρεχε, θα βγαίναμε."
+],
+"why": "Unreal past.",
+"id": "conditionals-87938684"
+},
+{
+"type": "write",
+"q": "\"Unless you (sg) hurry, you'll be late.\"",
+"answer": "Αν δεν βιαστείς, θα αργήσεις.",
+"accept": [
+"Εκτός αν βιαστείς, θα αργήσεις."
+],
+"why": "αν δεν / εκτός αν.",
+"id": "conditionals-9ee72197"
+},
+{
+"type": "order",
+"q": "\"If you (sg) need anything, tell me.\"",
+"answer": "Αν χρειαστείς κάτι, πες μου.",
+"accept": [],
+"why": "Real condition + imperative.",
+"id": "conditionals-53a559c3"
+},
+{
+"type": "order",
+"q": "\"I would buy it if it were cheaper.\"",
+"answer": "Θα το αγόραζα αν ήταν φτηνότερο.",
+"accept": [],
+"why": "Unreal now.",
+"id": "conditionals-3781d108"
+}
+]
+}
+]
 }
 ],
 "id": "conditionals",

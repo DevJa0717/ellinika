@@ -788,6 +788,215 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: perfect, aorist or present?",
+"body": [
+{
+"p": "Three questions settle the tense. Is the action still going on? Use the **present** (with **εδώ και**, **από**). Is there a stated past time (**χθες**, **πέρσι**, **το 2019**)? Use the **aorist**. Is it a past action seen from now, with **ποτέ**, **ήδη**, **ακόμα**, **πολλές φορές**? Use the **perfect**."
+},
+{
+"solved": [
+{
+"q": "\"Have you (sg) ever been to Crete?\"",
+"a": "Έχεις πάει ποτέ στην Κρήτη; | Έχεις πάει στην Κρήτη ποτέ;",
+"why": "ποτέ = ever: perfect. πηγαίνω → (να) πάει."
+},
+{
+"q": "\"We moved to Athens in 2018 and we've been living here since then.\"",
+"a": "Μετακομίσαμε στην Αθήνα το 2018 και από τότε μένουμε εδώ. | Μετακομίσαμε στην Αθήνα το 2018 και μένουμε εδώ από τότε.",
+"why": "A stated year: aorist. Still true: present."
+},
+{
+"q": "\"I've told you (sg) a thousand times!\"",
+"a": "Σου το έχω πει χίλιες φορές! | Σου το έχω πει χίλιες φορές.",
+"why": "How many times, up to now: perfect. λέω → (να) πει."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πέρσι ___ στο Παρίσι. (we went)",
+"options": [
+"έχουμε πάει",
+"πήγαμε",
+"πηγαίναμε",
+"είχαμε πάει"
+],
+"answer": "πήγαμε",
+"why": "πέρσι is a stated past time: aorist.",
+"id": "perfect-cf50f193"
+},
+{
+"type": "choice",
+"q": "Δεν ___ ακόμα τα αποτελέσματα. (we have received)",
+"options": [
+"πήραμε",
+"έχουμε πάρει",
+"παίρνουμε",
+"θα πάρουμε"
+],
+"answer": "έχουμε πάρει",
+"why": "ακόμα (yet): perfect.",
+"id": "perfect-d8af178c"
+},
+{
+"type": "choice",
+"q": "___ εδώ και τρία χρόνια. (I've been working)",
+"options": [
+"Έχω δουλέψει",
+"Δουλεύω",
+"Δούλεψα",
+"Είχα δουλέψει"
+],
+"answer": "Δουλεύω",
+"why": "Still going on: present + εδώ και.",
+"id": "perfect-162edcd3"
+},
+{
+"type": "choice",
+"q": "___ πολλές φορές αυτή την ταινία. (I've seen)",
+"options": [
+"Βλέπω",
+"Έχω δει",
+"Είχα δω",
+"Θα δω"
+],
+"answer": "Έχω δει",
+"why": "πολλές φορές up to now: perfect.",
+"id": "perfect-9f974147"
+},
+{
+"type": "choice",
+"q": "Μόλις ___ το μήνυμά σου. (I got)",
+"options": [
+"έχω πάρει",
+"πήρα",
+"παίρνω",
+"είχα πάρω"
+],
+"answer": "πήρα",
+"why": "μόλις = just: aorist.",
+"id": "perfect-3490a86c"
+},
+{
+"type": "choice",
+"q": "Το έχω ___ ήδη. (paid)",
+"options": [
+"πληρώσω",
+"πληρώσει",
+"πλήρωσα",
+"πληρώνει"
+],
+"answer": "πληρώσει",
+"why": "έχω + the -ει form: έχω πληρώσει.",
+"id": "perfect-bbc7e575"
+},
+{
+"type": "choice",
+"q": "Η Άννα ___ στο γραφείο από τις οχτώ. (has been)",
+"options": [
+"έχει είναι",
+"είναι",
+"ήταν",
+"έχει γίνει"
+],
+"answer": "είναι",
+"why": "Still true: present. είμαι has no perfect.",
+"id": "perfect-46b652ed"
+},
+{
+"type": "choice",
+"q": "Όταν ήρθε η αστυνομία, ο κλέφτης ___. (had escaped)",
+"options": [
+"έχει ξεφύγει",
+"είχε ξεφύγει",
+"ξέφυγε είχε",
+"θα ξεφύγει"
+],
+"answer": "είχε ξεφύγει",
+"why": "Before another past moment: pluperfect.",
+"id": "perfect-97d927be"
+},
+{
+"type": "write",
+"q": "Perfect, \"you (pl) have understood\"",
+"answer": "έχετε καταλάβει",
+"accept": [],
+"why": "καταλαβαίνω → (να) καταλάβει.",
+"id": "perfect-3f1b3cab"
+},
+{
+"type": "write",
+"q": "Perfect, \"they have learned\"",
+"answer": "έχουν μάθει",
+"accept": [],
+"why": "μαθαίνω → (να) μάθει.",
+"id": "perfect-1848d495"
+},
+{
+"type": "write",
+"q": "Pluperfect, \"she had left\"",
+"answer": "είχε φύγει",
+"accept": [],
+"why": "φεύγω → (να) φύγει.",
+"id": "perfect-a24ebf2b"
+},
+{
+"type": "write",
+"q": "Future perfect, \"we will have finished\"",
+"answer": "θα έχουμε τελειώσει",
+"accept": [],
+"why": "θα έχουμε + τελειώσει.",
+"id": "perfect-030b9470"
+},
+{
+"type": "write",
+"q": "\"I haven't eaten all day.\"",
+"answer": "Δεν έχω φάει όλη μέρα.",
+"accept": [
+"Δεν έχω φάει όλη την ημέρα.",
+"Δεν έχω φάει όλη τη μέρα."
+],
+"why": "Up to now: perfect.",
+"id": "perfect-1b695327"
+},
+{
+"type": "write",
+"q": "\"I've never seen him before.\"",
+"answer": "Δεν τον έχω ξαναδεί.",
+"accept": [
+"Δεν τον έχω δει ποτέ.",
+"Δεν τον έχω δει ποτέ πριν."
+],
+"why": "ποτέ: perfect.",
+"id": "perfect-1f3a47a1"
+},
+{
+"type": "order",
+"q": "\"Have you (sg) heard the news?\"",
+"answer": "Έχεις ακούσει τα νέα;",
+"accept": [],
+"why": "Both are used: the perfect stresses \"by now\".",
+"id": "perfect-be4dee37"
+},
+{
+"type": "order",
+"q": "\"We had already ordered when they arrived.\"",
+"answer": "Είχαμε ήδη παραγγείλει όταν έφτασαν.",
+"accept": [
+"Όταν έφτασαν, είχαμε ήδη παραγγείλει."
+],
+"why": "Pluperfect before a past moment.",
+"id": "perfect-c30dbb08"
+}
+]
+}
+]
 }
 ],
 "id": "perfect",

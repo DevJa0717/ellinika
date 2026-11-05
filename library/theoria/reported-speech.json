@@ -840,6 +840,172 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: reporting what was said",
+"body": [
+{
+"p": "Greek keeps the **tense of the original words** after είπε ότι: what was \"θα έρθω\" stays **θα έρθει**; \"είμαι κουρασμένος\" stays **είναι κουρασμένος** (the imperfect **ήταν** is also fine). What changes is the **person** (εγώ → αυτός) and words of place and time (**εδώ → εκεί, αύριο → την επόμενη μέρα**). Commands become **να**: \"Έλα!\" → **Μου είπε να πάω**. Questions use **αν** or the question word."
+},
+{
+"solved": [
+{
+"q": "Report: Η Μαρία: «Θα έρθω αύριο.»",
+"a": "Η Μαρία είπε ότι θα έρθει την επόμενη μέρα. | Η Μαρία είπε ότι θα ερχόταν την επόμενη μέρα. | Η Μαρία είπε πως θα έρθει την επόμενη μέρα.",
+"why": "The future stays; αύριο becomes την επόμενη μέρα."
+},
+{
+"q": "Report: Ο γιατρός μού είπε: «Μην τρως αλάτι.»",
+"a": "Ο γιατρός μού είπε να μην τρώω αλάτι.",
+"why": "A negative command: να μην + present."
+},
+{
+"q": "Report: Με ρώτησε: «Πού μένεις;»",
+"a": "Με ρώτησε πού μένω.",
+"why": "Question word kept; the person changes (μένεις → μένω)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "«Είμαι πεινασμένος», είπε. → Είπε ότι ___ πεινασμένος.",
+"options": [
+"είμαι",
+"είναι",
+"θα είναι",
+"να είναι"
+],
+"answer": "είναι",
+"why": "Third person; the tense can stay.",
+"id": "reported-speech-f73210ea"
+},
+{
+"type": "choice",
+"q": "«Κλείσε την πόρτα!» → Μου είπε ___ την πόρτα.",
+"options": [
+"ότι κλείνω",
+"να κλείσω",
+"ότι έκλεισα",
+"αν κλείσω"
+],
+"answer": "να κλείσω",
+"why": "A command: να + dependent.",
+"id": "reported-speech-8a8fa5bb"
+},
+{
+"type": "choice",
+"q": "«Θέλεις καφέ;» → Με ρώτησε ___ θέλω καφέ.",
+"options": [
+"ότι",
+"αν",
+"να",
+"που"
+],
+"answer": "αν",
+"why": "A yes/no question: αν.",
+"id": "reported-speech-49062009"
+},
+{
+"type": "choice",
+"q": "«Έχασα το κλειδί.» → Είπε ότι ___ το κλειδί.",
+"options": [
+"έχασα",
+"έχασε",
+"χάσει",
+"θα χάσει"
+],
+"answer": "έχασε",
+"why": "The person changes: έχασε.",
+"id": "reported-speech-7d70f4f3"
+},
+{
+"type": "choice",
+"q": "«Πότε φεύγει το τρένο;» → Ρώτησε ___ φεύγει το τρένο.",
+"options": [
+"ότι",
+"πότε",
+"αν πότε",
+"που"
+],
+"answer": "πότε",
+"why": "Question word kept: πότε.",
+"id": "reported-speech-4d6f0805"
+},
+{
+"type": "choice",
+"q": "«Μην αργήσεις!» → Μου είπε ___ αργήσω.",
+"options": [
+"να μη θα",
+"να μην",
+"ότι δεν",
+"μην να"
+],
+"answer": "να μην",
+"why": "να μην + dependent.",
+"id": "reported-speech-b1547945"
+},
+{
+"type": "write",
+"q": "Report: «Δεν ξέρω.» (ο Γιώργος)",
+"answer": "Ο Γιώργος είπε ότι δεν ξέρει.",
+"accept": [
+"Ο Γιώργος είπε πως δεν ξέρει."
+],
+"why": "ότι + present.",
+"id": "reported-speech-76bf9a9b"
+},
+{
+"type": "write",
+"q": "Report: «Πάρε με τηλέφωνο.» (μου είπε)",
+"answer": "Μου είπε να τον πάρω τηλέφωνο.",
+"accept": [
+"Μου είπε να τον πάρω.",
+"Μου είπε να του τηλεφωνήσω."
+],
+"why": "Command → να; με → τον.",
+"id": "reported-speech-89b1b336"
+},
+{
+"type": "write",
+"q": "Report: «Έχεις παιδιά;» (με ρώτησε)",
+"answer": "Με ρώτησε αν έχω παιδιά.",
+"accept": [],
+"why": "αν; έχεις → έχω.",
+"id": "reported-speech-d4a87f9f"
+},
+{
+"type": "write",
+"q": "Report: «Θα σε βοηθήσω.» (μου υποσχέθηκε)",
+"answer": "Μου υποσχέθηκε ότι θα με βοηθήσει.",
+"accept": [
+"Μου υποσχέθηκε να με βοηθήσει."
+],
+"why": "σε → με.",
+"id": "reported-speech-979a08ab"
+},
+{
+"type": "order",
+"q": "\"She asked me why I was laughing.\"",
+"answer": "Με ρώτησε γιατί γελάω.",
+"accept": [],
+"why": "Question word kept.",
+"id": "reported-speech-231366de"
+},
+{
+"type": "order",
+"q": "\"He told us not to wait for him.\"",
+"answer": "Μας είπε να μην τον περιμένουμε.",
+"accept": [],
+"why": "Negative command: να μην.",
+"id": "reported-speech-1cb08790"
+}
+]
+}
+]
 }
 ],
 "id": "reported-speech",

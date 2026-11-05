@@ -169,7 +169,7 @@
 ],
 "answer": "άνευ",
 "why": "άνευ όρων = unconditional.",
-"id": "learned-syntax-077750b5"
+"id": "learned-syntax-dc84aafb"
 },
 {
 "type": "choice",
@@ -991,6 +991,173 @@
 "accept": [],
 "why": "εν ολίγοις.",
 "id": "learned-syntax-f77600d2"
+}
+]
+}
+]
+},
+{
+"level": "C1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: recognising the formal layer",
+"body": [
+{
+"p": "At C1 you mostly need to **recognise** these forms in news, law and academic Greek, and use a handful in formal writing. Learned prepositions take the **genitive** or **dative**-like fixed forms (**επί του θέματος, εν τω μεταξύ, εκ μέρους**). **Ως** marks a role (**ως πρόεδρος**) or a limit (**ως τις πέντε**). Formal conjunctions replace everyday ones: **διότι** (γιατί), **εφόσον** (αφού, αν), **προκειμένου να** (για να), **ενώ** (whereas)."
+},
+{
+"solved": [
+{
+"q": "Everyday equivalent of **προκειμένου να**",
+"a": "για να",
+"why": "Formal purpose."
+},
+{
+"q": "\"on behalf of the company\"",
+"a": "εκ μέρους της εταιρείας | εκ μέρους της επιχείρησης",
+"why": "εκ μέρους + genitive."
+},
+{
+"q": "\"As a teacher, I disagree.\"",
+"a": "Ως εκπαιδευτικός, διαφωνώ. | Ως δάσκαλος, διαφωνώ. | Ως δασκάλα, διαφωνώ.",
+"why": "ως = in the role of; the noun stays in the nominative."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η συνεδρίαση αναβλήθηκε ___ απεργίας. (because of)",
+"options": [
+"εν",
+"λόγω",
+"επί",
+"ως"
+],
+"answer": "λόγω",
+"why": "λόγω + genitive.",
+"id": "learned-syntax-ec68058b"
+},
+{
+"type": "choice",
+"q": "Η απόφαση ελήφθη ___. (by majority)",
+"options": [
+"ως πλειοψηφία",
+"κατά πλειοψηφία",
+"εν πλειοψηφία",
+"δια πλειοψηφία"
+],
+"answer": "κατά πλειοψηφία",
+"why": "Fixed phrase: κατά πλειοψηφία.",
+"id": "learned-syntax-28ed9ca3"
+},
+{
+"type": "choice",
+"q": "___ τούτου, η πρόταση απορρίφθηκε. (as a result of this)",
+"options": [
+"Εν",
+"Ως εκ",
+"Επί",
+"Υπό"
+],
+"answer": "Ως εκ",
+"why": "ως εκ τούτου = therefore.",
+"id": "learned-syntax-f2935454"
+},
+{
+"type": "choice",
+"q": "Θα συμμετάσχω, ___ με προσκαλέσουν. (provided that)",
+"options": [
+"διότι",
+"εφόσον",
+"ενώ",
+"ώστε"
+],
+"answer": "εφόσον",
+"why": "εφόσον = provided that, as long as.",
+"id": "learned-syntax-e2739bf8"
+},
+{
+"type": "choice",
+"q": "Το θέμα βρίσκεται ___ εξέταση. (under)",
+"options": [
+"επί",
+"υπό",
+"περί",
+"εκ"
+],
+"answer": "υπό",
+"why": "υπό + accusative in fixed phrases: υπό εξέταση.",
+"id": "learned-syntax-939a7e8b"
+},
+{
+"type": "choice",
+"q": "Μιλήσαμε ___ του θέματος. (on, about)",
+"options": [
+"υπό",
+"επί",
+"ως",
+"εν"
+],
+"answer": "επί",
+"why": "επί + genitive: on the subject of.",
+"id": "learned-syntax-ffecdca3"
+},
+{
+"type": "write",
+"q": "Everyday equivalent of **διότι**",
+"answer": "γιατί",
+"accept": [
+"επειδή"
+],
+"why": "Formal \"because\".",
+"id": "learned-syntax-19f604af"
+},
+{
+"type": "write",
+"q": "\"in the meantime\" (learned)",
+"answer": "εν τω μεταξύ",
+"accept": [
+"στο μεταξύ"
+],
+"why": "A frozen dative.",
+"id": "learned-syntax-f5e658f6"
+},
+{
+"type": "write",
+"q": "\"without exception\" (learned)",
+"answer": "άνευ εξαιρέσεως",
+"accept": [
+"χωρίς εξαίρεση"
+],
+"why": "άνευ + genitive.",
+"id": "learned-syntax-ca2ed7c6"
+},
+{
+"type": "write",
+"q": "\"in general\" (learned)",
+"answer": "εν γένει",
+"accept": [
+"γενικά"
+],
+"why": "Frozen phrase.",
+"id": "learned-syntax-7b8f7f8b"
+},
+{
+"type": "order",
+"q": "\"The meeting was postponed due to the strike.\"",
+"answer": "Η συνεδρίαση αναβλήθηκε λόγω της απεργίας.",
+"accept": [],
+"why": "λόγω + genitive.",
+"id": "learned-syntax-fe93fb62"
+},
+{
+"type": "order",
+"q": "\"In order to apply, a form is required.\"",
+"answer": "Προκειμένου να κάνετε αίτηση, απαιτείται έντυπο.",
+"accept": [],
+"why": "Formal purpose.",
+"id": "learned-syntax-b2b62a50"
 }
 ]
 }

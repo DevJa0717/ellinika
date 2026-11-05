@@ -4,7 +4,7 @@
    Content is data: library/theoria/<id>.json, index.json, drills.json and references.json, built from
    library/theoria/src/*.txt by build.py. Progress is per profile in localStorage "ellinika.theoria.v1".
    Routes: #theoria (contents and review), #theoria.<chapter>[~section], #theoria.review, #theoria.drill~<chapter>,
-   #theoria.weak, #theoria.refs. The interface switches between English and Greek (button at the top). */
+   #theoria.weak, #theoria.refs, #theoria.path (graded cumulative review) and #theoria.path~<stage>. The interface switches between English and Greek (button at the top). */
 (function () {
   "use strict";
   const A = () => window.Ellinika;
@@ -31,6 +31,10 @@
       days: (n) => n === 0 ? "today" : n === 1 ? "tomorrow" : `in ${n} days`, deeper: "Go deeper in the app", lang: "Ελληνικά",
       problem: "Problem", sessionEmpty: "No drills to practise here yet.", reset: "Reset this chapter's progress", resetQ: "Forget your answers for this chapter? Its drills will start again as new.",
       progress: (s, n) => `${s} of ${n} drills practised`, weakEmpty: "No weak spots yet: answer some drills first.",
+      path: "Graded review path", pathSub: "Short mixed tests that follow the outline from chapter 1 to the end. Each stage tests a few chapters and brings back earlier ones, so what you learned first is not forgotten. Score 80% to open the next stage; every answer also joins your review schedule.",
+      stage: "Stage", checkpoint: "Checkpoint", final: "Final review", chs: "Chapters", plusEarlier: "with earlier chapters", best: "best", start: "Start", retry: "Try again", locked: "Pass the stage before to open this one.",
+      passed: (p) => `Passed with ${p}%. The next stage is open.`, notYet: (p) => `${p}%. 80% opens the next stage: the misses are in your review schedule, so try again after a look at their chapters.`,
+      nextStage: "Next stage", pathProg: (a, n) => `${a} of ${n} stages passed`, pathAll: "Back to the path",
     },
     el: {
       head: "Γραμματική σε θεωρία και ασκήσεις", res: "← Βοηθήματα", sub: "Μια γραμματική της νέας ελληνικής σε στιλ Schaum: κάθε κεφάλαιο δίνει τον κανόνα σε λίγες γραμμές, καθημερινά παραδείγματα, λυμένες ασκήσεις με τη λύση τους και μετά ασκήσεις εξάσκησης. Κάθε άσκηση που απαντάτε μπαίνει στο πρόγραμμα επαναλήψεων, έτσι ό,τι χάνετε επιστρέφει ώσπου να το μάθετε.",
@@ -46,6 +50,10 @@
       days: (n) => n === 0 ? "σήμερα" : n === 1 ? "αύριο" : `σε ${n} μέρες`, deeper: "Περισσότερα στην εφαρμογή", lang: "English",
       problem: "Άσκηση", sessionEmpty: "Δεν υπάρχουν ακόμα ασκήσεις εδώ.", reset: "Μηδενισμός προόδου κεφαλαίου", resetQ: "Να ξεχαστούν οι απαντήσεις σας σε αυτό το κεφάλαιο; Οι ασκήσεις του θα ξεκινήσουν πάλι ως νέες.",
       progress: (s, n) => `${s} από ${n} ασκήσεις`, weakEmpty: "Δεν υπάρχουν ακόμα αδύνατα σημεία: κάντε πρώτα μερικές ασκήσεις.",
+      path: "Διαβαθμισμένη πορεία επανάληψης", pathSub: "Σύντομα μικτά τεστ που ακολουθούν τον οδηγό από το πρώτο κεφάλαιο ως το τέλος. Κάθε στάδιο εξετάζει λίγα κεφάλαια και φέρνει πίσω και προηγούμενα, για να μην ξεχνιούνται όσα μάθατε πρώτα. Με 80% ανοίγει το επόμενο στάδιο· κάθε απάντηση μπαίνει και στο πρόγραμμα επαναλήψεων.",
+      stage: "Στάδιο", checkpoint: "Έλεγχος ενότητας", final: "Τελική επανάληψη", chs: "Κεφάλαια", plusEarlier: "και προηγούμενα κεφάλαια", best: "καλύτερο", start: "Έναρξη", retry: "Ξανά", locked: "Περάστε πρώτα το προηγούμενο στάδιο.",
+      passed: (p) => `Περάσατε με ${p}%. Το επόμενο στάδιο άνοιξε.`, notYet: (p) => `${p}%. Με 80% ανοίγει το επόμενο στάδιο: τα λάθη μπήκαν στο πρόγραμμα επαναλήψεων, δείτε τα κεφάλαιά τους και δοκιμάστε ξανά.`,
+      nextStage: "Επόμενο στάδιο", pathProg: (a, n) => `${a} από ${n} στάδια`, pathAll: "Πίσω στην πορεία",
     },
   };
 
@@ -79,6 +87,17 @@
 .th-hero .ex-en { display: block; margin-top: 2px; }
 .th-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
 .th-lang { min-height: 36px; }
+.th-pathcard { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.th-pathcard b { display: block; font: 600 1rem/1.3 var(--f-ui); }
+.th-path { list-style: none; padding: 0; margin: 14px 0; display: grid; gap: 8px; }
+.th-ppart { font: 600 .8rem/1.3 var(--f-ui); color: var(--muted); margin-top: 10px; text-transform: none; }
+.th-stg { display: grid; grid-template-columns: 2.2rem 1fr auto; gap: 10px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+.th-stg.lock { opacity: .55; }
+.th-stg .th-sn { font: 400 1.3rem/1 var(--f-display); color: var(--terra); text-align: center; font-variant-numeric: tabular-nums; }
+.th-stg.ok .th-sn { color: var(--olive, #5a7d3a); }
+.th-stg .th-sb { min-width: 0; }
+.th-stg .th-sb b { font: 600 .95rem/1.3 var(--f-ui); margin-right: 6px; }
+.th-stg .ex-en { display: block; }
 .th-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 14px 0; }
 .th-stat { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 6px; text-align: center; }
 .th-stat b { display: block; font: 400 1.6rem/1.1 var(--f-display); font-variant-numeric: tabular-nums; }
@@ -169,6 +188,57 @@ table.th-tbl th[scope="row"] { text-transform: none; letter-spacing: 0; font-siz
   const shuffle = (a, seed) => { const r = a.slice(); let x = seed || 7; for (let i = r.length - 1; i > 0; i--) { x = (x * 9301 + 49297) % 233280; const j = Math.floor((x / 233280) * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; };
   const rshuffle = (a) => { const r = a.slice(); for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; };
   const hash = (s) => { let h = 7; for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 100003; return h; };
+
+  /* ---------- graded review path: stages of up to three chapters in book order, a checkpoint at the end of every part,
+     then a final review. Each test mixes the stage's chapters (14 drills) with earlier chapters (6), favouring what is
+     new or was missed. 80% opens the next stage; the best score per stage is kept in state.path. ---------- */
+  const PASS = 0.8;
+  function stages(idx) {
+    const parts = [];
+    idx.items.forEach((x) => { if (x.part || !parts.length) parts.push({ part: x.part, chs: [] }); parts[parts.length - 1].chs.push(x); });
+    const out = [];
+    parts.forEach((pt) => {
+      const n = Math.ceil(pt.chs.length / 3);
+      for (let i = 0; i < n; i++) {
+        const lo = Math.round((i * pt.chs.length) / n), hi = Math.round(((i + 1) * pt.chs.length) / n);
+        out.push({ kind: "stage", chs: pt.chs.slice(lo, hi), part: pt.part });
+      }
+      if (n > 1) out.push({ kind: "check", chs: pt.chs, part: pt.part });
+    });
+    out.push({ kind: "final", chs: idx.items, part: null });
+    out.forEach((st, i) => {
+      st.key = st.kind + ":" + st.chs.map((c) => c.id).join(",");
+      st.n = i + 1;
+      const first = idx.items.indexOf(st.chs[0]);
+      st.earlier = st.kind === "final" ? [] : idx.items.slice(0, first);
+      const lv = st.chs.map((c) => c.span || "").join(" ").match(/[ABC][12]/g) || [];
+      st.span = lv.length ? (lv.sort()[0] === lv.sort()[lv.length - 1] ? lv[0] : lv.sort()[0] + "–" + lv.sort()[lv.length - 1]) : "";
+    });
+    return out;
+  }
+  function pick(ids, n, s) {
+    // new and missed first, then the weakest boxes; random within each group
+    const w = (id) => { const r = s.it[id]; return !r ? 0 : r[3] > r[2] ? 1 : 2 + r[0]; };
+    const groups = {};
+    rshuffle(ids).forEach((id) => (groups[w(id)] = groups[w(id)] || []).push(id));
+    return Object.keys(groups).sort((a, b) => a - b).flatMap((k) => groups[k]).slice(0, n);
+  }
+  function stageIds(st, B, s) {
+    const per = (chs, n) => {
+      // spread over the chapters: an even share from each, the rest from the pool
+      const pools = chs.map((c) => c.ids.filter((id) => B[id]));
+      const share = Math.max(1, Math.floor(n / Math.max(1, chs.length)));
+      let got = pools.flatMap((p) => pick(p, share, s));
+      if (got.length > n) got = rshuffle(got).slice(0, n);
+      if (got.length < n) got = got.concat(pick(pools.flat().filter((id) => !got.includes(id)), n - got.length, s));
+      return got;
+    };
+    if (st.kind === "final") return rshuffle(per(st.chs, 30));
+    const own = per(st.chs, 14), old = st.earlier.length ? pick(st.earlier.flatMap((c) => c.ids.filter((id) => B[id])), 6, s) : [];
+    return rshuffle(own.concat(old));
+  }
+  const stageOpen = (all, i, s) => i === 0 || all.slice(0, i).every((x) => (s.path || {})[x.key] >= PASS * 100);
+  const stageName = (L, st) => st.kind === "check" ? `${L.checkpoint}: ${st.part ? st.part[1] : ""}` : st.kind === "final" ? L.final : `${L.stage} ${st.n}`;
 
   /* ---------- rendering ---------- */
   const linksHTML = (E, b) => !b.links.length ? "" : `<nav class="th-links"><span class="th-h">${t().deeper}</span><ul>${b.links.map((l) =>
@@ -278,6 +348,7 @@ table.th-tbl th[scope="row"] { text-transform: none; letter-spacing: 0; font-siz
       <p class="sub">${L.sub} ${idx.items.length} ${L.chapters} · ${tot[0]} ${L.solved} · ${tot[1]} ${L.drills}.</p>
       <div class="th-stats"><div class="th-stat"><b>${seen}</b><span>${L.practised}</span></div><div class="th-stat"><b>${due}</b><span>${L.due}</span></div><div class="th-stat"><b>${mast}</b><span>${L.mastered}</span></div></div>
       ${due ? `<section class="card th-due"><span>${L.reviewN(due)}</span><a class="btn small" href="#theoria.review">${L.review}</a></section>` : ""}
+      <section class="card th-pathcard"><div><b>${L.path}</b><span class="ex-en">${L.pathProg(stages(idx).filter((x) => (s.path || {})[x.key] >= PASS * 100).length, stages(idx).length)}</span></div><a class="btn small" href="#theoria.path">${L.start}</a></section>
       <div class="th-acts">${seen ? `<a class="btn ghost small" href="#theoria.weak">${L.weak}</a>` : ""}<a class="btn ghost small" href="#theoria.refs">${L.refs}</a><a class="btn ghost small" href="${PDF}" target="_blank" rel="noopener">${L.pdf}</a></div>`;
     let open = false;
     idx.items.forEach((x) => {
@@ -345,7 +416,13 @@ table.th-tbl th[scope="row"] { text-transform: none; letter-spacing: 0; font-siz
     E.setGloss(await gloss(E));
     const title = (c) => (idx.items.find((x) => x.id === c) || {});
     let ids;
-    if (mode === "review") ids = rshuffle(Object.keys(s.it).filter((id) => B[id] && isDue(s.it[id]))).slice(0, 40);
+    let st = null;
+    if (mode === "path") {
+      const all = stages(idx), i = all.findIndex((x) => String(x.n) === String(chId));
+      st = all[i];
+      if (!st || !stageOpen(all, i, s)) { location.hash = "theoria.path"; return; }
+      ids = stageIds(st, B, s);
+    } else if (mode === "review") ids = rshuffle(Object.keys(s.it).filter((id) => B[id] && isDue(s.it[id]))).slice(0, 40);
     else if (mode === "weak") {
       ids = Object.keys(s.it).filter((id) => B[id] && s.it[id][3] > 0).sort((a, b) => (s.it[b][3] - s.it[b][2] / 2) - (s.it[a][3] - s.it[a][2] / 2)).slice(0, 25);
       ids = rshuffle(ids);
@@ -356,8 +433,8 @@ table.th-tbl th[scope="row"] { text-transform: none; letter-spacing: 0; font-siz
       const rest = all.filter((id) => s.it[id] && !isDue(s.it[id])).sort((a, b) => s.it[a][0] - s.it[b][0]);
       ids = [...rshuffle(due), ...fresh, ...rest].slice(0, 15);
     }
-    const back = mode === "drill" ? `#theoria.${chId}` : "#theoria";
-    const head = mode === "review" ? L.review : mode === "weak" ? L.weak : `${title(chId).num}. ${title(chId).el}`;
+    const back = mode === "drill" ? `#theoria.${chId}` : mode === "path" ? "#theoria.path" : "#theoria";
+    const head = mode === "path" ? stageName(L, st) : mode === "review" ? L.review : mode === "weak" ? L.weak : `${title(chId).num}. ${title(chId).el}`;
     document.title = head + " · " + L.head;
     if (!ids.length) {
       E.view.innerHTML = `<p class="crumbs"><a href="${back}">← ${L.back}</a></p><section class="card"><p>${mode === "review" ? L.nothingDue : mode === "weak" ? L.weakEmpty : L.sessionEmpty}</p><p><a class="btn small" href="#theoria">${L.all}</a></p></section>`;
@@ -366,6 +443,16 @@ table.th-tbl th[scope="row"] { text-transform: none; letter-spacing: 0; font-siz
     const queue = ids.slice(), retried = new Set();
     let k = 0, right = 0, firstTotal = ids.length;
     const draw = () => {
+      if (k >= queue.length && mode === "path") {
+        const pct = Math.round((right / firstTotal) * 100), sv = load();
+        sv.path = sv.path || {}; sv.path[st.key] = Math.max(sv.path[st.key] || 0, pct); save();
+        const ok = pct >= PASS * 100, all = stages(idx), nx = all[st.n];
+        E.view.innerHTML = `<p class="crumbs"><a href="${back}">← ${L.pathAll}</a></p>
+          <section class="card th-sess"><h3>${E.esc(stageName(L, st))}</h3><p><b>${right}</b> ${L.of} ${firstTotal} ${L.right}.</p><p class="sub">${ok ? L.passed(pct) : L.notYet(pct)}</p>
+          <div class="th-btns">${ok && nx ? `<a class="btn" href="#theoria.path~${nx.n}">${L.nextStage}</a>` : `<button class="btn" id="th-more">${L.retry}</button>`}<a class="btn ghost" href="${back}">${L.pathAll}</a></div></section>`;
+        const m = E.$("#th-more"); if (m) m.onclick = () => session(E, mode, chId);
+        return window.scrollTo(0, 0);
+      }
       if (k >= queue.length) {
         E.view.innerHTML = `<p class="crumbs"><a href="${back}">← ${L.back}</a></p>
           <section class="card th-sess"><h3 lang="${load().ui === "el" ? "el" : "en"}">${L.sessionDone}</h3><p><b>${right}</b> ${L.of} ${firstTotal} ${L.right}.</p><p class="sub">${L.again}</p>
@@ -392,6 +479,31 @@ table.th-tbl th[scope="row"] { text-transform: none; letter-spacing: 0; font-siz
     draw();
   }
 
+  async function pathPage(E) {
+    const L = t(), idx = await index(E), s = load(), all = stages(idx);
+    document.title = L.path + " · " + L.head;
+    const done = all.filter((x) => (s.path || {})[x.key] >= PASS * 100).length;
+    let html = `<div class="th-top"><p class="crumbs"><a href="#theoria">← ${L.head}</a></p>${langBtn()}</div>
+      <div class="story-head"><h2>${L.path}</h2><span class="ex-en">${L.pathProg(done, all.length)}</span></div>
+      <p class="sub">${L.pathSub}</p><div class="th-bar"><i style="width:${Math.round((done / all.length) * 100)}%"></i></div><ol class="th-path">`;
+    let lastPart = null;
+    all.forEach((st, i) => {
+      if (st.part && st.part !== lastPart && st.kind === "stage") { html += `<li class="th-ppart"><span class="th-pn">${E.esc(st.part[0])}</span> <span lang="el">${E.esc(st.part[1])}</span></li>`; lastPart = st.part; }
+      const best = (s.path || {})[st.key], open = stageOpen(all, i, s), ok = best >= PASS * 100;
+      const chs = st.kind === "stage" ? st.chs.map((c) => `${c.num}. <span lang="el">${E.esc(c.el)}</span>`).join(" · ")
+        : `${L.chs} ${st.chs[0].num}–${st.chs[st.chs.length - 1].num}`;
+      html += `<li class="th-stg${ok ? " ok" : ""}${open ? "" : " lock"}"><span class="th-sn">${ok ? "✓" : st.n}</span><span class="th-sb">
+        <b>${E.esc(stageName(L, st))}</b> ${st.span ? `<span class="chip">${E.esc(st.span)}</span>` : ""}
+        <span class="ex-en">${chs}${st.earlier.length ? ` · ${L.plusEarlier}` : ""}</span>
+        ${best != null ? `<span class="ex-en">${L.best}: ${best}%</span>` : ""}</span>
+        ${open ? `<a class="btn small${ok ? " ghost" : ""}" href="#theoria.path~${st.n}">${best != null ? L.retry : L.start}</a>` : `<span class="th-lock" title="${E.esc(L.locked)}">🔒</span>`}</li>`;
+    });
+    html += `</ol>`;
+    E.view.innerHTML = html;
+    wireLang(() => pathPage(E));
+    window.scrollTo(0, 0);
+  }
+
   async function refs(E) {
     const L = t();
     document.title = L.refs + " · " + L.head;
@@ -414,6 +526,8 @@ table.th-tbl th[scope="row"] { text-transform: none; letter-spacing: 0; font-siz
     if (sub === "review") return session(E, "review");
     if (sub === "weak") return session(E, "weak");
     if (sub === "refs") return refs(E);
+    if (sub === "path") return pathPage(E);
+    if (sub.startsWith("path~")) return session(E, "path", sub.slice(5));
     if (sub.startsWith("drill~")) return session(E, "drill", sub.slice(6));
     const [id, sec] = sub.split("~");
     return chapter(E, id, sec);

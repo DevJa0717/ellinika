@@ -929,6 +929,177 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: everyday spoken Greek",
+"body": [
+{
+"p": "Spoken Greek shortens and softens. Final vowels drop before another vowel (**σ' αγαπώ, πάρ' το, μ' αρέσει**), **-ουν** becomes **-ουνε** and **-αν** **-ανε** (**λένε, φάγανε**), and small words carry a lot of meaning: **ρε** (familiar address), **βρε** (surprise or mild reproach), **μωρέ**, **δα**, **καλά** \"fine / really?\", **έλα** \"come on / hello / no way\". **Να** with the accusative points: **Να τος!** \"There he is!\""
+},
+{
+"solved": [
+{
+"q": "Write the spoken form of **σε αγαπώ**",
+"a": "σ' αγαπώ",
+"why": "The vowel of σε drops before α."
+},
+{
+"q": "\"There she is!\"",
+"a": "Να τη! | Νάτη!",
+"why": "να + accusative pronoun points."
+},
+{
+"q": "What does **Έλα!** mean when you answer the phone?",
+"a": "Hello!",
+"why": "Έλα on the phone is a familiar \"hello\"; it also means \"come\", \"come on\" and \"no way!\"."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ ρε, τι κάνεις; (familiar greeting)",
+"options": [
+"Γεια σας",
+"Γεια σου",
+"Χαίρετε",
+"Καλησπέρα σας"
+],
+"answer": "Γεια σου",
+"why": "ρε is familiar, so the familiar γεια σου.",
+"id": "spoken-grammar-f1df330e"
+},
+{
+"type": "choice",
+"q": "Τι ___; (what are they saying, spoken)",
+"options": [
+"λέγουν",
+"λένε",
+"λένουν",
+"λέουν"
+],
+"answer": "λένε",
+"why": "λέω → λένε.",
+"id": "spoken-grammar-af4e6ca8"
+},
+{
+"type": "choice",
+"q": "Πού είναι ο Γιάννης; – ___! (there he is)",
+"options": [
+"Να αυτόν",
+"Να τος",
+"Να του",
+"Να ο"
+],
+"answer": "Να τος",
+"why": "να + nominative τος in speech.",
+"id": "spoken-grammar-3484771e"
+},
+{
+"type": "choice",
+"q": "«Θα έρθεις;» «___!» (of course)",
+"options": [
+"Μήπως",
+"Εννοείται",
+"Ίσως όχι",
+"Καθόλου"
+],
+"answer": "Εννοείται",
+"why": "εννοείται = it goes without saying.",
+"id": "spoken-grammar-6cf0fa97"
+},
+{
+"type": "choice",
+"q": "«Πέρασα τις εξετάσεις!» «___!» (well done)",
+"options": [
+"Περαστικά",
+"Μπράβο",
+"Επίσης",
+"Καλή όρεξη"
+],
+"answer": "Μπράβο",
+"why": "μπράβο = well done.",
+"id": "spoken-grammar-6d9cfd15"
+},
+{
+"type": "choice",
+"q": "Δεν ___ αρέσει. (spoken, to me)",
+"options": [
+"με",
+"μ'",
+"μου'",
+"εμ"
+],
+"answer": "μ'",
+"why": "μου shortens to μ' before a vowel.",
+"id": "spoken-grammar-b6cf938f"
+},
+{
+"type": "write",
+"q": "\"No way!\" (disbelief, spoken)",
+"answer": "Έλα!",
+"accept": [
+"Έλα ρε!",
+"Σοβαρά;",
+"Μη μου πεις!"
+],
+"why": "Έλα / Μη μου πεις.",
+"id": "spoken-grammar-c51d787e"
+},
+{
+"type": "write",
+"q": "\"Come on, hurry up (sg)!\"",
+"answer": "Έλα, βιάσου!",
+"accept": [
+"Άντε, βιάσου!",
+"Άντε, κουνήσου!"
+],
+"why": "έλα / άντε = come on.",
+"id": "spoken-grammar-b8b30bbb"
+},
+{
+"type": "write",
+"q": "\"It doesn't matter.\"",
+"answer": "Δεν πειράζει.",
+"accept": [
+"Δεν πειράζει!"
+],
+"why": "Fixed phrase.",
+"id": "spoken-grammar-13280c79"
+},
+{
+"type": "write",
+"q": "\"Really?\"",
+"answer": "Αλήθεια;",
+"accept": [
+"Σοβαρά;",
+"Αλήθεια λες;"
+],
+"why": "Fixed questions.",
+"id": "spoken-grammar-fdf0ca9f"
+},
+{
+"type": "order",
+"q": "\"Leave (sg) it, it's not worth it.\"",
+"answer": "Άσ' το, δεν αξίζει.",
+"accept": [],
+"why": "Spoken άσ' το.",
+"id": "spoken-grammar-24ee3e76"
+},
+{
+"type": "order",
+"q": "\"What's up, man?\"",
+"answer": "Τι λέει ρε;",
+"accept": [],
+"why": "Familiar greeting.",
+"id": "spoken-grammar-a2199bf5"
+}
+]
+}
+]
 }
 ],
 "id": "spoken-grammar",

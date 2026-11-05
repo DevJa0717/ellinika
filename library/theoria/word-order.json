@@ -766,6 +766,156 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: weak pronouns and order",
+"body": [
+{
+"p": "Weak pronouns go **before** the verb (**Το βλέπω, Θα το πάρω, Να το πάρεις**) and **after** an imperative or a -οντας form (**Πάρ' το, Δώσε μου το, Βλέποντάς τον**). With two, the **genitive comes first**: **Σου το είπα. Δώσ' μου το.** Negation and θα/να come before the pronouns: **Δεν θα σου το πω.** A fronted object is usually doubled by a pronoun: **Τον καφέ τον πίνω σκέτο.**"
+},
+{
+"solved": [
+{
+"q": "\"I'll give it (the book) to you (sg) tomorrow.\"",
+"a": "Θα σου το δώσω αύριο. | Αύριο θα σου το δώσω.",
+"why": "θα + genitive + accusative + verb."
+},
+{
+"q": "\"Don't tell (sg) him!\"",
+"a": "Μην του το πεις! | Μην του το πεις.",
+"why": "With μην the pronouns go before the verb."
+},
+{
+"q": "\"Coffee, I drink it without sugar.\"",
+"a": "Τον καφέ τον πίνω σκέτο. | Τον καφέ τον πίνω χωρίς ζάχαρη.",
+"why": "The fronted object is doubled by τον."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ αύριο. (I'll call you, sg)",
+"options": [
+"Θα τηλεφωνήσω σου",
+"Θα σου τηλεφωνήσω",
+"Σου θα τηλεφωνήσω",
+"Θα τηλεφωνήσω εσύ"
+],
+"answer": "Θα σου τηλεφωνήσω",
+"why": "θα + pronoun + verb.",
+"id": "word-order-ededb3e0"
+},
+{
+"type": "choice",
+"q": "___! (give it to me)",
+"options": [
+"Μου το δώσε",
+"Δώσε μου το",
+"Το μου δώσε",
+"Δώσε εμένα το"
+],
+"answer": "Δώσε μου το",
+"why": "After an imperative: genitive first, then accusative.",
+"id": "word-order-0f6d2912"
+},
+{
+"type": "choice",
+"q": "Δεν ___ είπα. (to him, it)",
+"options": [
+"το του",
+"του το",
+"τον το",
+"του τον"
+],
+"answer": "του το",
+"why": "Genitive before accusative.",
+"id": "word-order-ee023cf8"
+},
+{
+"type": "choice",
+"q": "Τη Μαρία ___ ξέρω από παιδί.",
+"options": [
+"τη",
+"την",
+"της",
+"τον"
+],
+"answer": "την",
+"why": "Fronted object doubled; the -ν stays before ξ (also before vowels and κ, π, τ, μπ, ντ, γκ, τσ, τζ, ψ).",
+"id": "word-order-63b36c90"
+},
+{
+"type": "choice",
+"q": "Θέλω ___. (to see you, sg)",
+"options": [
+"να δω σε",
+"να σε δω",
+"σε να δω",
+"να σου δω"
+],
+"answer": "να σε δω",
+"why": "να + pronoun + verb.",
+"id": "word-order-94fcd9b8"
+},
+{
+"type": "write",
+"q": "\"I know her.\"",
+"answer": "Την ξέρω.",
+"accept": [],
+"why": "Pronoun before the verb.",
+"id": "word-order-be8112e7"
+},
+{
+"type": "write",
+"q": "\"Tell (sg) me.\"",
+"answer": "Πες μου.",
+"accept": [],
+"why": "After the imperative.",
+"id": "word-order-91aeb130"
+},
+{
+"type": "write",
+"q": "\"We haven't seen them (masc.).\"",
+"answer": "Δεν τους έχουμε δει.",
+"accept": [
+"Δεν τους είδαμε."
+],
+"why": "δεν + pronoun + έχω.",
+"id": "word-order-1ddaff3a"
+},
+{
+"type": "write",
+"q": "\"Bring (pl) it (neut.) to us.\"",
+"answer": "Φέρτε μας το.",
+"accept": [],
+"why": "After the imperative: genitive first.",
+"id": "word-order-0481cb30"
+},
+{
+"type": "order",
+"q": "\"I'll send it to you (pl) tomorrow.\"",
+"answer": "Θα σας το στείλω αύριο.",
+"accept": [
+"Αύριο θα σας το στείλω."
+],
+"why": "Two weak pronouns: σας το.",
+"id": "word-order-cd5b1938"
+},
+{
+"type": "order",
+"q": "\"Why didn't you (sg) tell me?\"",
+"answer": "Γιατί δεν μου το είπες;",
+"accept": [],
+"why": "δεν + μου το + verb.",
+"id": "word-order-1a8b6923"
+}
+]
+}
+]
 }
 ],
 "id": "word-order",
