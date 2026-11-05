@@ -29,3 +29,7 @@ Thread "Validate all content end to end". Scope: everything added since the 2026
    "url": "https://en.wikipedia.org/wiki/Football_hooliganism_in_Greece" → "Wikipedia, “Football hooliganism”",
    "url": "https://en.wikipedia.org/wiki/Football_hooliganism" (cited page does not exist (404))
 - `library/athlitismos/kerkida.json`, `tools/themed-readers/athlitismos/sources.py`: source [5] "Football hooliganism in Greece" (page does not exist) → "Murder of Michalis Katsouris" (the 2023 events the paragraph cites)
+- `library/exam/b2-tasks.json`: μη μπορούν → μην μπορούν (final ν before μπ)
+- `library/exam/b2-tasks-3.json`: με την λίγη υπομονή → με λίγη υπομονή (no article with λίγη here)
+- `library/exam/c1-tasks.json`: με τη ψηφιακή → με την ψηφιακή (final ν before ψ)
+- `library/skini/angelopoulos.json`, `tools/arts/skini/part3.py`: παίζοντας τη «Γκόλφω» → την «Γκόλφω», quiz option/answer Τη Γκόλφω → Την Γκόλφω (final ν before γκ; the quoted source sentence left as printed)
