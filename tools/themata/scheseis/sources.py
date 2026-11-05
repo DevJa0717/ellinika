@@ -32,4 +32,12 @@ SRC = {
  "crem_2019": ("Greek Reporter, “First crematorium opens in Greece” (Ritsona, 2019; cremation legal since 2006)", "https://greekreporter.com/2019/10/11/first-crematorium-opens-in-greece/"),
  "theworld_crem": ("The World, “Greece's first and only crematorium opens despite pushback from the church”", "https://theworld.org/stories/2019-12-27/greeces-first-and-only-crematorium-opens-despite-pushback-church"),
  "w_grief": ("Wikipedia, “Grief”", W + "Grief"),
+ "wk_telos": ("Wiktionary, “τέλος πάντων”", "https://en.wiktionary.org/wiki/τέλος_πάντων"),
+ "wk_skasila": ("Βικιλεξικό, «σκασίλα»", "https://el.wiktionary.org/wiki/σκασίλα"),
+ "wk_kelepouri": ("Βικιλεξικό, «κελεπούρι»", "https://el.wiktionary.org/wiki/κελεπούρι"),
+ "wk_fiteli": ("Wiktionary, “-άκι” (Greek diminutive suffix)", "https://en.wiktionary.org/wiki/-άκι"),
+ "w_mgg": ("Wikipedia, “Modern Greek grammar”", W + "Modern_Greek_grammar"),
+ "w_dowry": ("Wikipedia, “Dowry” (removed from Greek family law in 1983)", W + "Dowry"),
+ "w_family_law_1983": ("Wikipedia, “Women in Greece” (1983 family-law reform)", W + "Women_in_Greece"),
+ "w_ioannina": ("Wikipedia, “Ioannina”", W + "Ioannina"),
 }

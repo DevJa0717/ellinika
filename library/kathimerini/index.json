@@ -32,6 +32,13 @@
    "en": "Getting around",
    "intro_el": "Μετρό και λεωφορεία στην πόλη, το αυτοκίνητο με το ΚΤΕΟ και το παρκάρισμα, και τα ΚΤΕΛ, τα τρένα, τα πλοία και τα ταξί για πιο μακριά.",
    "intro_en": "Metro and buses in town, the car with its roadworthiness test and parking, and coaches, trains, ferries and taxis further afield."
+  },
+  {
+   "id": "perissotera",
+   "el": "Σπίτι, δρόμος και τραπέζι",
+   "en": "Home, road and table",
+   "intro_el": "Μια ανακαίνιση στην πολυκατοικία, ένα ταξίδι με το αυτοκίνητο και το κάμπινγκ, και το φαγητό έξω, από τον μπουφέ ως το φαστ φουντ.",
+   "intro_en": "Renovating a flat, a road trip and camping, and eating out, from the buffet to fast food."
   }
  ],
  "items": [
@@ -159,6 +166,33 @@
    "title": "Coaches, trains, ferries and taxis",
    "level": "B2",
    "part": "metakiniseis",
+   "dates": ""
+  },
+  {
+   "id": "anakainisi",
+   "file": "anakainisi.json",
+   "el": "Ανακαίνιση στο διαμέρισμα",
+   "title": "Renovating the flat",
+   "level": "B2",
+   "part": "perissotera",
+   "dates": ""
+  },
+  {
+   "id": "me-to-aftokinito",
+   "file": "me-to-aftokinito.json",
+   "el": "Με το αυτοκίνητο στον δρόμο",
+   "title": "On the road by car",
+   "level": "B2",
+   "part": "perissotera",
+   "dates": ""
+  },
+  {
+   "id": "fagito-exo",
+   "file": "fagito-exo.json",
+   "el": "Τρώμε έξω: από τον μπουφέ ως το φαστ φουντ",
+   "title": "Eating out: from buffet to fast food",
+   "level": "B2",
+   "part": "perissotera",
    "dates": ""
   }
  ]

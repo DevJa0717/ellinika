@@ -1,0 +1,95 @@
+{
+ "kind": "bilingual",
+ "el": "Η γλώσσα των ειδήσεων",
+ "title": "The language of the news: politics, Cyprus and the world, war and memory, the economy, the courts, sport and culture",
+ "intro_el": "Οι εφημερίδες και τα δελτία ειδήσεων έχουν τη δική τους γλώσσα: σύντομους τίτλους, λόγιες λέξεις, μεταφορές από τον πόλεμο και τον αθλητισμό. Σε αυτό το βιβλίο διαβάζουμε πώς γράφονται οι ειδήσεις για την πολιτική, την Κύπρο, την ιστορία, την οικονομία, τα δικαστήρια, τον αθλητισμό και τον πολιτισμό, και μαθαίνουμε να καταλαβαίνουμε έναν τίτλο με μια ματιά. Τα ελληνικά κείμενα είναι σε επίπεδο Β2+ ως Γ1.",
+ "intro_en": "Newspapers and news bulletins have a language of their own: terse headlines, learned words, metaphors from war and sport. This book shows how news is written about politics, Cyprus, history, the economy, the courts, sport and culture, and teaches you to decode a headline at a glance. Example headlines are typical constructions written for this book, not quotations of real reports. The Greek is B2+ to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+ "parts": [
+  {
+   "id": "politiki",
+   "el": "Πολιτική, κόσμος και μνήμη",
+   "en": "Politics, the world and memory",
+   "intro_el": "Η γλώσσα της πολιτικής ειδησεογραφίας, το Κυπριακό και τα διεθνή, και πώς γράφουμε για τον πόλεμο και την Κατοχή.",
+   "intro_en": "The language of political reporting, the Cyprus question and world news, and how Greek writes about war and the Occupation."
+  },
+  {
+   "id": "oikonomia-dikaiosyni",
+   "el": "Οικονομία και δικαστικό ρεπορτάζ",
+   "en": "Economy and court reporting",
+   "intro_el": "Οι λέξεις της οικονομικής είδησης, από την κρίση χρέους ως τον προϋπολογισμό, και η γλώσσα του δικαστικού και αστυνομικού ρεπορτάζ.",
+   "intro_en": "The words of economic news, from the debt crisis to the budget, and the language of court and crime reporting."
+  },
+  {
+   "id": "athlitismos-politismos",
+   "el": "Αθλητισμός, πολιτισμός και θρησκεία",
+   "en": "Sport, culture and religion",
+   "intro_el": "Η γλώσσα του αθλητικού ρεπορτάζ, οι σελίδες του πολιτισμού και του lifestyle, και οι ειδήσεις από την Εκκλησία.",
+   "intro_en": "The language of sports reporting, the culture and lifestyle pages, and church news."
+  }
+ ],
+ "items": [
+  {
+   "id": "politiki",
+   "file": "politiki.json",
+   "el": "Πώς διαβάζουμε την πολιτική είδηση",
+   "title": "Reading a political story",
+   "level": "C1",
+   "part": "politiki",
+   "dates": ""
+  },
+  {
+   "id": "kypros",
+   "file": "kypros.json",
+   "el": "Το Κυπριακό και τα διεθνή",
+   "title": "Cyprus and world news",
+   "level": "C1",
+   "part": "politiki",
+   "dates": ""
+  },
+  {
+   "id": "polemos",
+   "file": "polemos.json",
+   "el": "Ο πόλεμος στις σελίδες της ιστορίας",
+   "title": "War in the pages of history",
+   "level": "C1",
+   "part": "politiki",
+   "dates": ""
+  },
+  {
+   "id": "oikonomia",
+   "file": "oikonomia.json",
+   "el": "Η οικονομική είδηση",
+   "title": "Economic news",
+   "level": "C1",
+   "part": "oikonomia-dikaiosyni",
+   "dates": ""
+  },
+  {
+   "id": "dikastiko",
+   "file": "dikastiko.json",
+   "el": "Δικαστικό και αστυνομικό ρεπορτάζ",
+   "title": "Court and crime reporting",
+   "level": "C1",
+   "part": "oikonomia-dikaiosyni",
+   "dates": ""
+  },
+  {
+   "id": "athlitiko",
+   "file": "athlitiko.json",
+   "el": "Το αθλητικό ρεπορτάζ",
+   "title": "Sports reporting",
+   "level": "B2",
+   "part": "athlitismos-politismos",
+   "dates": ""
+  },
+  {
+   "id": "politistiko",
+   "file": "politistiko.json",
+   "el": "Πολιτισμός, lifestyle και Εκκλησία",
+   "title": "Culture, lifestyle and the Church",
+   "level": "C1",
+   "part": "athlitismos-politismos",
+   "dates": ""
+  }
+ ]
+}
