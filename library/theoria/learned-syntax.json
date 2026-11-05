@@ -997,6 +997,257 @@
 ]
 },
 {
+"level": "B2",
+"el": "Η καθαρεύουσα στην καθημερινή γλώσσα",
+"title": "Katharevousa in everyday speech",
+"body": [
+{
+"p": "Until 1976 the official language was **καθαρεύουσα**, a learned Greek modelled on the ancient language. It is gone as a system, but hundreds of its forms live on in everyday speech, often frozen in a single phrase. You hear them from taxi drivers as much as from lawyers. **Dative** remnants: **εν τάξει** (now written **εντάξει**), **εν πάση περιπτώσει** \"anyway\", **εν μέρει** \"partly\", **τοις μετρητοίς** \"in cash\", **επί τόπου** \"on the spot\". **Old genitives**: **της πόλεως** (in names: **Αγίας Παρασκευής**), **του γάλακτος**, **του έτους**. **Adverbs in -ως**: **βεβαίως, ευτυχώς, αμέσως, ακριβώς, απολύτως**. **Ancient sayings**: **Μηδέν άγαν** \"nothing in excess\", **Ουκ εν τω πολλώ το ευ** \"quality, not quantity\"."
+},
+{
+"table": {
+"head": [
+"Frozen phrase",
+"Meaning",
+"Everyday equivalent"
+],
+"rows": [
+[
+"εν πάση περιπτώσει",
+"anyway, in any case",
+"τέλος πάντων, πάντως"
+],
+[
+"κατά λάθος",
+"by mistake",
+"χωρίς να το θέλω"
+],
+[
+"εξ αιτίας",
+"because of",
+"λόγω, από"
+],
+[
+"εκ των υστέρων",
+"with hindsight",
+"μετά"
+],
+[
+"κατ' αρχάς / κατ' αρχήν",
+"first of all / in principle",
+"πρώτα πρώτα / γενικά"
+],
+[
+"εν ανάγκη",
+"if need be",
+"αν χρειαστεί"
+],
+[
+"επί τέλους",
+"at last",
+"τελικά"
+],
+[
+"εξ ορισμού",
+"by definition",
+""
+],
+[
+"τοις εκατό",
+"per cent",
+""
+],
+[
+"ούτως ή άλλως",
+"anyway, regardless",
+"έτσι κι αλλιώς"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Εν πάση περιπτώσει, θα τα πούμε αύριο.",
+"en": "Anyway, we'll talk tomorrow."
+},
+{
+"el": "Πληρώνετε τοις μετρητοίς ή με κάρτα;",
+"en": "Are you paying in cash or by card?"
+},
+{
+"el": "Επιτέλους ήρθες!",
+"en": "At last you've come!"
+},
+{
+"el": "Ούτως ή άλλως δεν θα προλαβαίναμε.",
+"en": "We wouldn't have made it anyway."
+}
+]
+},
+{
+"tip": "These phrases are fixed: do not decline their parts or swap in new words. Say **εν πάση περιπτώσει**, never *σε πάση περίπτωση*. In normal sentences use the modern forms: **στην πόλη**, not *εν τη πόλει*."
+},
+{
+"solved": [
+{
+"q": "\"Thank God it didn't rain.\" (fortunately)",
+"a": "Ευτυχώς δεν έβρεξε.",
+"why": "-ως adverb, everyday."
+},
+{
+"q": "Everyday equivalent of **εν πάση περιπτώσει**",
+"a": "τέλος πάντων | πάντως | έτσι κι αλλιώς",
+"why": "Spoken equivalents."
+},
+{
+"q": "\"Fifty per cent\"",
+"a": "πενήντα τοις εκατό | 50%",
+"why": "τοις εκατό is a frozen dative."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___, δεν πειράζει. (anyway)",
+"options": [
+"Σε πάση περίπτωση",
+"Εν πάση περιπτώσει",
+"Εν πάσα περίπτωση",
+"Σε πάσης περιπτώσεως"
+],
+"answer": "Εν πάση περιπτώσει",
+"why": "The fixed form only.",
+"id": "learned-syntax-3d767450"
+},
+{
+"type": "choice",
+"q": "Το έσπασα ___. (by mistake)",
+"options": [
+"εκ λάθους",
+"κατά λάθος",
+"με λάθος",
+"εν λάθει"
+],
+"answer": "κατά λάθος",
+"why": "Fixed: κατά λάθος.",
+"id": "learned-syntax-ab89137f"
+},
+{
+"type": "choice",
+"q": "Πληρώνω ___. (in cash)",
+"options": [
+"σε μετρητοίς",
+"τοις μετρητοίς",
+"με μετρητοίς",
+"τους μετρητούς"
+],
+"answer": "τοις μετρητοίς",
+"why": "Frozen dative.",
+"id": "learned-syntax-adf39dba"
+},
+{
+"type": "choice",
+"q": "___ είχες δίκιο. (with hindsight)",
+"options": [
+"Εκ των υστέρου",
+"Εκ των υστέρων",
+"Από τους υστέρους",
+"Εξ υστέρων"
+],
+"answer": "Εκ των υστέρων",
+"why": "Fixed phrase.",
+"id": "learned-syntax-90c1df59"
+},
+{
+"type": "choice",
+"q": "Η εξέταση ___ ήταν εύκολη. (partly)",
+"options": [
+"σε μέρος",
+"εν μέρει",
+"κατά μέρος",
+"εκ μέρους"
+],
+"answer": "εν μέρει",
+"why": "εν μέρει = partly; εκ μέρους = on behalf of.",
+"id": "learned-syntax-51f19d8a"
+},
+{
+"type": "choice",
+"q": "___ ήρθε το λεωφορείο! (at last)",
+"options": [
+"Τελικώς",
+"Επιτέλους",
+"Εν τέλει",
+"Κατά τέλος"
+],
+"answer": "Επιτέλους",
+"why": "επιτέλους = at last (impatience).",
+"id": "learned-syntax-937855d1"
+},
+{
+"type": "write",
+"q": "Everyday equivalent of **ούτως ή άλλως**",
+"answer": "έτσι κι αλλιώς",
+"accept": [
+"έτσι και αλλιώς"
+],
+"why": "Spoken.",
+"id": "learned-syntax-b5b8c03e"
+},
+{
+"type": "write",
+"q": "\"first of all\" (learned)",
+"answer": "κατ' αρχάς",
+"accept": [
+"καταρχάς",
+"κατ' αρχήν",
+"καταρχήν"
+],
+"why": "Both spellings are found.",
+"id": "learned-syntax-88a01887"
+},
+{
+"type": "write",
+"q": "\"if need be\" (learned)",
+"answer": "εν ανάγκη",
+"accept": [],
+"why": "Frozen dative.",
+"id": "learned-syntax-f757ee37"
+},
+{
+"type": "write",
+"q": "\"on the spot\"",
+"answer": "επί τόπου",
+"accept": [
+"επιτόπου"
+],
+"why": "Frozen phrase.",
+"id": "learned-syntax-53f2045e"
+},
+{
+"type": "order",
+"q": "\"Anyway, it doesn't matter.\"",
+"answer": "Εν πάση περιπτώσει, δεν πειράζει.",
+"accept": [],
+"why": "Frozen or spoken.",
+"id": "learned-syntax-8735c788"
+},
+{
+"type": "order",
+"q": "\"Fortunately I found my keys.\"",
+"answer": "Ευτυχώς βρήκα τα κλειδιά μου.",
+"accept": [],
+"why": "-ως adverb.",
+"id": "learned-syntax-826871cc"
+}
+]
+}
+]
+},
+{
 "level": "C1",
 "el": "Μικτή εξάσκηση",
 "title": "Mixed practice: recognising the formal layer",

@@ -1145,6 +1145,351 @@
 ]
 },
 {
+"level": "B2",
+"el": "Λόγια προθήματα",
+"title": "Learned prefixes: προ-, συν-, αντι-, υπερ-, υπο-, δια-, απο-, επι-",
+"body": [
+{
+"p": "The prefixes of educated vocabulary come from ancient Greek, and knowing a dozen of them unlocks thousands of words. **προ-** before (**προπληρώνω, προϊστορία**); **συν- / συμ- / συγ- / συλ-** with, together (**συνεργάζομαι, συμμετέχω, συγκεντρώνω, συλλέγω**); **αντι-** against, instead (**αντιδρώ, αντικαθιστώ**); **υπερ-** over, too much (**υπερβολή, υπερτιμώ**); **υπο-** under, less (**υποτιμώ, υπόγειος**); **δια-** through, apart (**διασχίζω, διαφωνώ**); **απο-** away, off (**απομακρύνω, αποσύρω**); **επι-** on, again (**επιβάλλω, επιστρέφω**); **εκ- / εξ-** out (**εκπέμπω, εξάγω**); **εισ-** in (**εισάγω**); **μετα-** after, change (**μεταφέρω, μεταπολεμικός**); **ανα-** up, again (**αναβάλλω, αναδημοσιεύω**)."
+},
+{
+"table": {
+"head": [
+"Prefix",
+"Meaning",
+"Pair"
+],
+"rows": [
+[
+"εισ- / εξ-",
+"in / out",
+"εισαγωγή / εξαγωγή (import / export)"
+],
+[
+"υπερ- / υπο-",
+"over / under",
+"υπερτιμώ / υποτιμώ (overrate / underrate)"
+],
+[
+"προ- / μετα-",
+"before / after",
+"προπολεμικός / μεταπολεμικός"
+],
+[
+"συν- / δια-",
+"together / apart",
+"συμφωνώ / διαφωνώ (agree / disagree)"
+],
+[
+"α- / αν-",
+"not",
+"δυνατός → αδύνατος, ίσος → άνισος"
+]
+]
+}
+},
+{
+"p": "**συν-** changes before the next sound: **συμ-** before π, β, φ, μ, ψ (**συμπαθώ, συμβουλεύω**); **συγ-** before κ, γ, χ, ξ (**συγκρίνω, συγχωρώ**); **συλ-** before λ (**συλλαμβάνω**); **συ-** before σ + consonant (**σύστημα**)."
+},
+{
+"solved": [
+{
+"q": "Meaning of **προπληρώνω**",
+"a": "to pay in advance | pay in advance",
+"why": "προ- = before + πληρώνω."
+},
+{
+"q": "Opposite of **εισαγωγή**",
+"a": "εξαγωγή | η εξαγωγή",
+"why": "εισ- (in) vs εξ- (out)."
+},
+{
+"q": "Form **συν-** + **φωνώ**",
+"a": "συμφωνώ",
+"why": "συν- becomes συμ- before φ."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η χώρα ___ λάδι στη Γερμανία. (exports)",
+"options": [
+"εισάγει",
+"εξάγει",
+"υπάγει",
+"διάγει"
+],
+"answer": "εξάγει",
+"why": "εξ- = out.",
+"id": "word-formation-b70c6b9d"
+},
+{
+"type": "choice",
+"q": "Μην ___ τις δυνατότητές σου. (underestimate)",
+"options": [
+"υπερτιμάς",
+"υποτιμάς",
+"αντιτιμάς",
+"προτιμάς"
+],
+"answer": "υποτιμάς",
+"why": "υπο- = under.",
+"id": "word-formation-ea48540b"
+},
+{
+"type": "choice",
+"q": "Τα ___ κτίρια της Αθήνας είναι ψηλότερα. (post-war)",
+"options": [
+"προπολεμικά",
+"μεταπολεμικά",
+"αντιπολεμικά",
+"υπερπολεμικά"
+],
+"answer": "μεταπολεμικά",
+"why": "μετα- = after.",
+"id": "word-formation-648048d2"
+},
+{
+"type": "choice",
+"q": "Ο ___ του αγώνα ήταν δίκαιος. (opponent)",
+"options": [
+"συναγωνιστής",
+"ανταγωνιστής",
+"υπεραγωνιστής",
+"προαγωνιστής"
+],
+"answer": "ανταγωνιστής",
+"why": "αντι- = against.",
+"id": "word-formation-ad56147d"
+},
+{
+"type": "choice",
+"q": "Δεν ___ μαζί σου. (I agree)",
+"options": [
+"διαφωνώ",
+"συμφωνώ",
+"συνφωνώ",
+"αντιφωνώ"
+],
+"answer": "συμφωνώ",
+"why": "συν- → συμ- before φ.",
+"id": "word-formation-65e90529"
+},
+{
+"type": "write",
+"q": "Meaning of **διασχίζω**",
+"answer": "to cross",
+"accept": [
+"cross",
+"go through"
+],
+"why": "δια- = through.",
+"id": "word-formation-774a462a"
+},
+{
+"type": "write",
+"q": "Form **συν-** + **κρίνω**",
+"answer": "συγκρίνω",
+"accept": [],
+"why": "συν- → συγ- before κ.",
+"id": "word-formation-36903536"
+},
+{
+"type": "write",
+"q": "Form **συν-** + **λέγω** (noun: collection)",
+"answer": "συλλογή",
+"accept": [
+"η συλλογή"
+],
+"why": "συν- → συλ- before λ.",
+"id": "word-formation-e067426d"
+},
+{
+"type": "order",
+"q": "\"The government imposed new taxes.\"",
+"answer": "Η κυβέρνηση επέβαλε νέους φόρους.",
+"accept": [],
+"why": "επιβάλλω, aorist επέβαλα with internal augment.",
+"id": "word-formation-673edd1d"
+},
+{
+"type": "order",
+"q": "\"We postponed the trip.\"",
+"answer": "Αναβάλαμε το ταξίδι.",
+"accept": [],
+"why": "αναβάλλω → αναβάλαμε.",
+"id": "word-formation-7ce62004"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Λόγιες καταλήξεις",
+"title": "Learned suffixes: -ισμός, -ιστής, -ότητα, -ικός, -ιμος",
+"body": [
+{
+"p": "Abstract and technical words use a small set of suffixes. **-ισμός** an -ism or process (**ρατσισμός, τουρισμός, εκσυγχρονισμός**); **-ιστής, -ίστρια** (some words **-ίστας**) a follower or professional (**σοσιαλιστής, κιθαρίστας, τουρίστας**); **-ότητα** a quality (**ισότητα, ταχύτητα, ικανότητα**); **-σύνη** a quality (**καλοσύνη, δικαιοσύνη**); **-ικός / -τικός** related to (**πολιτικός, οικονομικός, δημιουργικός**); **-ιμος** able to be (**πόσιμος, χρήσιμος, διαθέσιμος**); **-ώδης** having the nature of (**ουσιώδης, θεμελιώδης**)."
+},
+{
+"solved": [
+{
+"q": "Abstract noun from **ίσος**",
+"a": "ισότητα | η ισότητα",
+"why": "-ότητα."
+},
+{
+"q": "Adjective \"drinkable\" from **πίνω** (πόσ-)",
+"a": "πόσιμος | πόσιμο",
+"why": "-ιμος = able to be."
+},
+{
+"q": "Noun from **εκσυγχρονίζω**",
+"a": "εκσυγχρονισμός | ο εκσυγχρονισμός",
+"why": "-ίζω → -ισμός."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η ___ των φύλων είναι συνταγματικό δικαίωμα. (equality)",
+"options": [
+"ισοτισμός",
+"ισότητα",
+"ισοσύνη",
+"ισοτική"
+],
+"answer": "ισότητα",
+"why": "-ότητα.",
+"id": "word-formation-24bdc4fe"
+},
+{
+"type": "choice",
+"q": "Το νερό δεν είναι ___. (drinkable)",
+"options": [
+"ποτικό",
+"πόσιμο",
+"πιόσιμο",
+"ποτίσιμο"
+],
+"answer": "πόσιμο",
+"why": "-ιμος.",
+"id": "word-formation-a7fca812"
+},
+{
+"type": "choice",
+"q": "Η ___ είναι αρετή. (kindness)",
+"options": [
+"καλότητα",
+"καλοσύνη",
+"καλισμός",
+"καλικότητα"
+],
+"answer": "καλοσύνη",
+"why": "-σύνη.",
+"id": "word-formation-50ba0bfa"
+},
+{
+"type": "choice",
+"q": "Ο ___ φέρνει πολλά χρήματα στα νησιά. (tourism)",
+"options": [
+"τουριστικός",
+"τουρισμός",
+"τουρίστας",
+"τουριστότητα"
+],
+"answer": "τουρισμός",
+"why": "-ισμός.",
+"id": "word-formation-1ba21e95"
+},
+{
+"type": "choice",
+"q": "Είναι πολύ ___ άνθρωπος. (creative)",
+"options": [
+"δημιουργισμός",
+"δημιουργικός",
+"δημιουργότητα",
+"δημιουργήσιμος"
+],
+"answer": "δημιουργικός",
+"why": "-ικός.",
+"id": "word-formation-faa35cdd"
+},
+{
+"type": "choice",
+"q": "Η ___ του αυτοκινήτου ήταν 200 χιλιόμετρα την ώρα. (speed)",
+"options": [
+"ταχισμός",
+"ταχύτητα",
+"ταχυσύνη",
+"ταχικότητα"
+],
+"answer": "ταχύτητα",
+"why": "-ότητα (ταχύς → ταχύτητα).",
+"id": "word-formation-088b1be5"
+},
+{
+"type": "write",
+"q": "Noun from **ικανός**",
+"answer": "ικανότητα",
+"accept": [
+"η ικανότητα"
+],
+"why": "-ότητα.",
+"id": "word-formation-4c0f9016"
+},
+{
+"type": "write",
+"q": "Adjective from **η οικονομία**",
+"answer": "οικονομικός",
+"accept": [],
+"why": "-ικός.",
+"id": "word-formation-f19a2631"
+},
+{
+"type": "write",
+"q": "Noun from **δίκαιος** (quality, -σύνη)",
+"answer": "δικαιοσύνη",
+"accept": [
+"η δικαιοσύνη"
+],
+"why": "-σύνη.",
+"id": "word-formation-ce225c01"
+},
+{
+"type": "write",
+"q": "Adjective \"available\" from **διαθέτω**",
+"answer": "διαθέσιμος",
+"accept": [],
+"why": "-ιμος.",
+"id": "word-formation-7cc9b996"
+},
+{
+"type": "order",
+"q": "\"Freedom of speech is important.\"",
+"answer": "Η ελευθερία του λόγου είναι σημαντική.",
+"accept": [],
+"why": "ελεύθερος → ελευθερία.",
+"id": "word-formation-d4a2f835"
+},
+{
+"type": "order",
+"q": "\"Racism has no place here.\"",
+"answer": "Ο ρατσισμός δεν έχει θέση εδώ.",
+"accept": [],
+"why": "-ισμός.",
+"id": "word-formation-ea0bfbc1"
+}
+]
+}
+]
+},
+{
 "level": "B1",
 "el": "Μικτή εξάσκηση",
 "title": "Mixed practice: building words from words",

@@ -595,7 +595,9 @@ def build_rule_verbs(lex, have, report):
         else:
             report["rverb_skip_shape"] += 1; continue
         # Principal parts must agree with the word list: the 1st singular present is the lemma, the aorist is the word list's.
-        if A["pres"][0].split("|")[0] != lemma: report["rverb_skip_present"] += 1; continue
+        p0 = A["pres"][0].split("|") if A["pres"][0] else []
+        if lemma not in p0: report["rverb_skip_present"] += 1; report["rverb_present_examples"].append(lemma); continue
+        A["pres"][0] = "|".join([lemma] + [x for x in p0 if x != lemma])  # the word list's headword first (υποτιμώ, not υποτιμάω)
         if a1 and not A.get("one_past"):
             ao = A["aor"][0].split("|") if A["aor"][0] else []
             if a1 not in ao: report["rverb_skip_aorist"] += 1; report["rverb_aorist_examples"].append(lemma); continue
@@ -605,6 +607,47 @@ def build_rule_verbs(lex, have, report):
         item["A"] = A
         out.append(item)
         report["rverbs"] += 1
+    return out
+
+# ---------------- verbs written out by hand (tools/drills/manual-verbs.txt) ----------------
+MANUAL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "manual-verbs.txt")
+
+def build_manual_verbs(lex, have, report):
+    """Hand-written tables for the verbs left over (suppletive compounds, learned verbs, impersonals).
+    A form stays only if the forms index or the el_GR word list also has it; the rest are reported."""
+    if not os.path.exists(MANUAL): return []
+    if not HUN: load_hunspell()
+    by = {e["lemma"]: e for e in lex if e["pos"] == "verb"}
+    blocks, cur = [], None
+    for line in open(MANUAL, encoding="utf-8"):
+        line = line.strip()
+        if not line or line.startswith("#"): continue
+        if line.startswith("@"):
+            w = line[1:].split(); cur = {"l": w[0], "flags": set(w[1:]), "t": {}}; blocks.append(cur); continue
+        k, _, v = line.partition(":")
+        cur["t"][k.strip()] = [c.strip() for c in v.split(",")]
+    out = []
+    for b in blocks:
+        lemma = b["l"]
+        if lemma in have or lemma not in by: report["mverb_skip"] += 1; continue
+        e, known = by[lemma], INV.get(lemma, set())
+        def ok(f): return f in known or all(t in HUN for t in f.split())
+        def cell(c):
+            if c in ("", "-"): return ""
+            fs = [nfc(x) for x in c.split("/")]
+            keep = [f for f in fs if ok(f)]
+            for f in fs:
+                if f not in keep: report["mverb_dropped"].append(lemma + ":" + f)
+            return "|".join(keep)
+        A = {t: [cell(c) for c in (b["t"].get(t) or ["-"] * n)] for t, n in (("pres", 6), ("impf", 6), ("aor", 6), ("dep", 6), ("impP", 2), ("impI", 2))}
+        A["inf"] = cell(b["t"].get("inf", ["-"])[0]).split("|")[0]
+        A["ptc"] = ""
+        if "one_past" in b["flags"]:
+            A["aor"], A["one_past"] = list(A["impf"]), True
+            if not any(A["dep"]): A["dep"] = list(A["pres"])
+        out.append({"l": lemma, "lv": e.get("cefr_est") or "B2", "en": short_gloss(e["gloss"]), "r": e.get("freq_rank") or 99999,
+                    "grp": (e.get("verb") or {}).get("conj_group") or "", "dep": "dep" in b["flags"], "src": "manual", "A": A})
+        report["mverbs"] += 1
     return out
 
 # ---------------- pronouns and articles ----------------
@@ -777,7 +820,7 @@ def hun_pass(nouns, adjs, verbs, report):
 
 def main():
     report = collections.Counter(); report.update({})
-    for k in ("noun_mismatch_examples", "adj_mismatch_examples", "verb_mismatch_examples", "pron_missing", "rverb_aorist_examples", "rverb_thin_examples"): report[k] = []
+    for k in ("noun_mismatch_examples", "adj_mismatch_examples", "verb_mismatch_examples", "pron_missing", "rverb_aorist_examples", "rverb_thin_examples", "rverb_present_examples", "mverb_dropped"): report[k] = []
     lex, wk = load_lex(), load_wikt()
     fi = json.load(open(os.path.join(ROOT, "data", "lexicon", "forms-index.json")))["forms"]
     FI.update(fi)
@@ -787,8 +830,10 @@ def main():
     adjs = build_adjs(lex, wk, report)
     verbs = build_verbs(lex, wk, report)
     verbs += build_rule_verbs(lex, {w["l"] for w in verbs}, report)
+    verbs += build_manual_verbs(lex, {w["l"] for w in verbs}, report)
     verbs.sort(key=lambda x: (LV.index(x["lv"]) if x["lv"] in LV else 9, x["r"]))
-    load_hunspell(); hun_pass(nouns, adjs, verbs, report)
+    if not HUN: load_hunspell()
+    hun_pass(nouns, adjs, verbs, report)
     prons = build_pronouns(wk, report)
     phrases = build_phrases(lex, nouns, adjs, report)
     cloze = build_cloze(lex, nouns, adjs, verbs, report)
@@ -798,7 +843,7 @@ def main():
     src = "Paradigms: Wiktionary inflection tables (via kaikki.org, CC BY-SA 4.0), kept only where they agree with the app's word list."
     dump("nouns.json", {"source": src, "notes": NOUN_NOTES, "words": nouns})
     dump("adjectives.json", {"source": src, "notes": ADJ_NOTES, "words": adjs})
-    dump("verbs.json", {"source": src + " Verbs marked src=rule (no usable Wiktionary table) are built from the conjugation classes in data/grammar and kept only where every form is also in the word list's forms index.", "words": verbs})
+    dump("verbs.json", {"source": src + " Verbs marked src=manual are written out by hand after Holton and Triantafyllidis, each form confirmed by the forms index or the el_GR word list. Verbs marked src=rule (no usable Wiktionary table) are built from the conjugation classes in data/grammar and kept only where every form is also in the word list's forms index.", "words": verbs})
     dump("pronouns.json", {"source": src + " Article and pronoun tables after data/grammar/declensions.json.", "tables": prons, "phrases": phrases})
     dump("context.json", {"source": "Sentences: the word list's example sentences (data/lexicon).", "items": cloze})
     for k, v in sorted(report.items()):
