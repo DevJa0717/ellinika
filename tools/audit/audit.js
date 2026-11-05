@@ -55,7 +55,7 @@ const strip = (w) => w.normalize("NFD").replace(/[̀-ͯ]/g, "").normalize("NFC")
 const syll = (w) => { const s = strip(w.toLowerCase()).replace(/αι|ει|οι|ου|υι|αυ|ευ|ηυ/g, "a"); return (s.match(/[αεηιουωa]/g) || []).length; };
 const ENCL = new Set(["με", "σε", "μου", "σου", "του", "της", "μας", "σας", "τους", "τον", "την", "το", "τα", "τις", "τη", "τες"]);
 // never accented in monotonic (μού/μάς/σού… are left alone: the distinctive accent, Ο διευθυντής μού τηλεφώνησε, is correct)
-const CLITIC_ACC = new Set(["τό", "τά", "τόν", "τήν", "τίς", "τής", "μέ", "σέ", "νά", "θά", "καί", "γιά", "δέν", "μήν", "ό", "ή·"]);
+const CLITIC_ACC = new Set(["τό", "τά", "τόν", "τίς", "μέ", "σέ", "νά", "θά", "καί", "γιά", "δέν", "μήν"]);
 const SKIP_KEYS = new Set(["en", "url", "href", "credit", "license", "licence", "source", "file", "img", "src", "id", "slug", "audio", "video", "youtube", "author_en", "title_en", "summary_en", "note_en", "def_en", "why_en", "license_url", "listen"]);
 const skipKey = (k) => SKIP_KEYS.has(k) || /_en$|^en_|url$/i.test(k);
 // dialect, ancient, Katharevousa and deliberate-error material: no spelling/accent/final-ν verdicts, only hard checks
@@ -76,7 +76,7 @@ function checkString(file, jp, s0, ctx, lenient) {
   for (const m of s.matchAll(/\S*(?:[A-Za-z][Ͱ-Ͽἀ-῿]|[Ͱ-Ͽἀ-῿][A-Za-z])\S*/g)) {
     const w = m[0];
     if (/^(https?:|[a-z]+\.[a-z])/.test(w) || /[=<>{}]/.test(w)) continue;
-    const ipa = /^\[|\]\W*$/.test(w) || /ipa|pronounc|translit/i.test(jp) || /^[a-zéə]/.test(w) && /[a-zé]/.test(w.replace(/[Ͱ-Ͽ]/g, "").slice(0, 3));
+    const ipa = /^\[|\]\W*$/.test(w) || /ipa|pronounc|translit|cluster/i.test(jp) || /^[a-zéə]/.test(w) && /[a-zé]/.test(w.replace(/[Ͱ-Ͽ]/g, "").slice(0, 3));
     add(file, jp, "mixed-script", !lenient && !ipa, w, s);
   }
   if (greekShare > 0.6) {
@@ -93,7 +93,7 @@ function checkString(file, jp, s0, ctx, lenient) {
     const before = s[at - 1] || "", after = s[at + w0.length] || "";
     if (/[-‐‑–/]/.test(before) || /[-‐‑–]/.test(after) || before === "*" && after === "*" && w.length < 4) return; // stems, endings, syllables (αυ-το-κί-νη-το, -ησα)
     if (/ς./.test(w)) add(file, jp, "final-sigma", !lenient, w, s);
-    if (/σ$/.test(w) && !apos && w.length > 1 && after !== "." && after !== "*" && !/^[τπ]?[τπσ]σ$|^τσ$/.test(w)) add(file, jp, "final-sigma", !lenient, w, s);
+    if (/σ$/.test(w) && !apos && w.length > 1 && !/[.*_]/.test(after) && !/^(.)\1+$/i.test(w.toLowerCase().replace(/ς/g, "σ")) && !/^[τπ]?[τπσ]σ$|^τσ$/.test(w)) add(file, jp, "final-sigma", !lenient, w, s);
     if (polytonic || lenient) return;
     const na = (w.match(ACC) || []).length, ns = syll(w);
     const next = ((toks[i + 1] || {}).w || "").replace(/['’]$/, "").toLowerCase();
