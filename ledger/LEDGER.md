@@ -924,3 +924,13 @@ Add-ons live in a Library section of the app (`#library`), built as a separate m
 - LIVE (main c862b08): #kathimerini "Η καθημερινή ζωή στην Ελλάδα" (14 ch, 4 parts, 70 questions) and #ygeia "Υγεία, σώμα και ψυχή" (10 ch, 3 parts, 50 questions), B1+→C1, every paragraph cited, sources link-checked (tools/themata/check_sources.py), tap lookup 0 misses, tools/audit audit/answers/facts/links clean. PDFs Ellinika-Everyday-life.pdf (65 pp) and Ellinika-Health.pdf (47 pp), Greek-only covers.
 - Source: tools/themata/<shelf>/ (meta, sources, part*.py, gloss.txt); build `python3 tools/themata/build.py <shelf> library/<shelf>`; check `python3 tools/themata/glossfill.py <shelf>`; wiring `python3 tools/themata/patch_shared.py /home/user/ellinika` (idempotent: SHELVES, library/index.json, offline-files, bilingual.js?v, sw cache); PDF `bash` recipe in tools/themata/README (mkpdf).
 - No pictures yet in these readers (Openverse results poor); queued.
+
+## 2026-11-05 ~15:00 UTC — Themes and 10k coverage: four more readers (thread "Expand resources: themes and 10k words") — six readers live
+- LIVE on main (each B1+→C1, every paragraph cited and link-checked, grammar notes + terms + 5 questions per chapter, tap lookup 0 misses, Greek-only PDF cover, audit/answers/facts clean, iPhone viewport checked):
+  - #douleia "Δουλειά και χρήματα": 9 ch, Ellinika-Work-and-money.pdf (42 pp)
+  - #scheseis "Σχέσεις και συναισθήματα": 8 ch, Ellinika-Relationships.pdf (34 pp)
+  - #nomos "Νόμος, αστυνομία και δικαιοσύνη": 6 ch, Ellinika-Law-and-justice.pdf (30 pp)
+  - #eleftheros "Ελεύθερος χρόνος, τεχνολογία και ζώα": 5 ch (going out/θερινό σινεμά, screens and social media, clothes/hairdresser, pets/strays/ν. 4830/2021, wildlife: bears, monk seal, Zakynthos turtles, viper), Ellinika-Free-time.pdf (26 pp)
+- Coverage rerun (tools/themata/coverage.py, against the lexicon as it now stands at 11,808 words): top-1000 missing 0, top-3000 2, top-5000 21, top-8000 194, top-10,000 587 lemmas still used nowhere in running text (was 1,384 of the earlier top-10k this morning).
+- Removed rather than kept as unverified: card-terminal obligation (replaced with the 30% e-spending rule), BAC figure, "first Orthodox-majority country" (replaced with the first same-sex wedding, 2 March 2024), wolf/jackal numbers, exact abandonment fine.
+- Tomorrow (paste-able): "Themata thread: (1) add public-domain pictures to #kathimerini #ygeia #douleia #scheseis #nomos #eleftheros (none yet; try Commons category search, credit in img/CREDITS.md); (2) run tools/themata/coverage.py, take the 587 unused top-10k lemmas and write 6–8 more chapters into the existing themata shelves weaving them in (same pipeline, tools/themata/README.md); (3) rebuild PDFs with mkpdf.sh after each shelf."
