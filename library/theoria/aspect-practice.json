@@ -1,0 +1,1189 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Μετά το να",
+"title": "After να: one go or a habit?",
+"body": [
+{
+"table": {
+"head": [
+"Ongoing (present stem)",
+"One-off (dependent stem)"
+],
+"rows": [
+[
+"Θέλω να μαθαίνω κάτι καινούργιο κάθε μέρα. (habit)",
+"Θέλω να μάθω ελληνικά. (achieve it)"
+],
+[
+"Πρέπει να τρως πιο υγιεινά. (in general)",
+"Πρέπει να φας κάτι. (now, once)"
+],
+[
+"Μπορείς να μου γράφεις; (keep writing to me)",
+"Μπορείς να μου γράψεις; (write me one message)"
+],
+[
+"Άρχισε να βρέχει. (start/stop/keep + ongoing)",
+"Κατάφερα να τελειώσω. (manage to: one-off)"
+]
+]
+}
+},
+{
+"tip": "After **αρχίζω, συνεχίζω, σταματάω, εξακολουθώ, συνηθίζω** the verb is always **ongoing**. After **καταφέρνω, προλαβαίνω, ξεχνάω (to do something)**, a single result is meant, so it is usually **one-off**."
+},
+{
+"ex": [
+{
+"el": "Θέλω να σε βλέπω πιο συχνά.",
+"en": "I want to see you more often."
+},
+{
+"el": "Θέλω να σε δω αύριο.",
+"en": "I want to see you tomorrow."
+},
+{
+"el": "Προσπάθησε να μην αργείς.",
+"en": "Try not to be late (in general)."
+},
+{
+"el": "Προσπάθησε να μην αργήσεις.",
+"en": "Try not to be late (this time)."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"You must eat something.\" (now)",
+"a": "Πρέπει να φας κάτι.",
+"why": "One-off: φας."
+},
+{
+"q": "\"You must eat more vegetables.\" (in general)",
+"a": "Πρέπει να τρως περισσότερα λαχανικά. | Πρέπει να τρως πιο πολλά λαχανικά.",
+"why": "Habit: τρως."
+},
+{
+"q": "\"I managed to finish.\"",
+"a": "Κατάφερα να τελειώσω.",
+"why": "καταφέρνω + one-off."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θέλω να ___ ελληνικά μέχρι τον Μάιο. (learn, achieve it)",
+"options": [
+"μαθαίνω",
+"μάθω",
+"έμαθα",
+"μάθαινα"
+],
+"answer": "μάθω",
+"why": "One result: μάθω.",
+"id": "aspect-practice-e4baa762"
+},
+{
+"type": "choice",
+"q": "Πρέπει να ___ κάθε μέρα. (exercise)",
+"options": [
+"γυμναστώ",
+"γυμνάζομαι",
+"γυμνάστηκα",
+"γυμναζόμουν"
+],
+"answer": "γυμνάζομαι",
+"why": "Habit: present.",
+"id": "aspect-practice-40d9fdbe"
+},
+{
+"type": "choice",
+"q": "Σταμάτησε να ___ πριν από δύο χρόνια. (smoke)",
+"options": [
+"καπνίσει",
+"καπνίζει",
+"κάπνισε",
+"καπνίζοντας"
+],
+"answer": "καπνίζει",
+"why": "After σταματάω: ongoing.",
+"id": "aspect-practice-275b5064"
+},
+{
+"type": "choice",
+"q": "Δεν πρόλαβα να ___. (eat)",
+"options": [
+"τρώω",
+"φάω",
+"έφαγα",
+"έτρωγα"
+],
+"answer": "φάω",
+"why": "προλαβαίνω + one-off.",
+"id": "aspect-practice-2ef416d4"
+},
+{
+"type": "choice",
+"q": "Μπορείς να μου ___ τηλέφωνο απόψε; (call, once)",
+"options": [
+"παίρνεις",
+"πάρεις",
+"πήρες",
+"έπαιρνες"
+],
+"answer": "πάρεις",
+"why": "One call tonight: πάρεις.",
+"id": "aspect-practice-7b9867a0"
+},
+{
+"type": "choice",
+"q": "Συνήθισα να ___ νωρίς. (get up)",
+"options": [
+"ξυπνήσω",
+"ξυπνάω",
+"ξύπνησα",
+"ξυπνούσα"
+],
+"answer": "ξυπνάω",
+"why": "συνηθίζω + ongoing.",
+"id": "aspect-practice-cc549d37"
+},
+{
+"type": "choice",
+"q": "Ξέχασα να ___ το φως. (turn off)",
+"options": [
+"κλείνω",
+"κλείσω",
+"έκλεισα",
+"έκλεινα"
+],
+"answer": "κλείσω",
+"why": "A single action forgotten: κλείσω.",
+"id": "aspect-practice-3a489ff6"
+},
+{
+"type": "choice",
+"q": "Θέλω να σε ___ πιο συχνά. (see)",
+"options": [
+"δω",
+"βλέπω",
+"είδα",
+"έβλεπα"
+],
+"answer": "βλέπω",
+"why": "\"More often\" = repeated: βλέπω.",
+"id": "aspect-practice-3c6f3429"
+},
+{
+"type": "write",
+"q": "\"I want to see you (sg) tomorrow.\"",
+"answer": "Θέλω να σε δω αύριο.",
+"accept": [],
+"why": "One meeting: δω.",
+"id": "aspect-practice-5d62ad11"
+},
+{
+"type": "write",
+"q": "\"Try (sg) not to be late (this time).\"",
+"answer": "Προσπάθησε να μην αργήσεις.",
+"accept": [],
+"why": "One-off, μην.",
+"id": "aspect-practice-78b84e34"
+},
+{
+"type": "write",
+"q": "\"He kept talking.\"",
+"answer": "Συνέχισε να μιλάει.",
+"accept": [
+"Συνέχισε να μιλά."
+],
+"why": "After συνεχίζω: ongoing.",
+"id": "aspect-practice-f1796bb7"
+},
+{
+"type": "write",
+"q": "\"Can you (sg) write to me every week?\"",
+"answer": "Μπορείς να μου γράφεις κάθε εβδομάδα;",
+"accept": [
+"Μπορείς να μου γράφεις κάθε βδομάδα;"
+],
+"why": "Repeated: γράφεις.",
+"id": "aspect-practice-f02fb5d6"
+},
+{
+"type": "write",
+"q": "\"I didn't manage to sleep.\"",
+"answer": "Δεν κατάφερα να κοιμηθώ.",
+"accept": [],
+"why": "One-off: κοιμηθώ.",
+"id": "aspect-practice-5e9c2357"
+},
+{
+"type": "order",
+"q": "\"I want to learn Greek.\"",
+"answer": "Θέλω να μάθω ελληνικά.",
+"accept": [],
+"why": "Goal: one-off.",
+"id": "aspect-practice-beb046e3"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Με το θα",
+"title": "Future: θα τρώω or θα φάω?",
+"body": [
+{
+"table": {
+"head": [
+"Ongoing future",
+"Simple future"
+],
+"rows": [
+[
+"Θα τρώω εδώ κάθε μέρα. (regularly)",
+"Θα φάω εδώ σήμερα. (once)"
+],
+[
+"Αύριο τέτοια ώρα θα ταξιδεύω. (in progress)",
+"Αύριο θα ταξιδέψω. (the trip as a whole)"
+],
+[
+"Θα σου γράφω. (keep writing)",
+"Θα σου γράψω. (write once)"
+],
+[
+"Θα είναι στο σπίτι τώρα. (guess)",
+"Θα έφυγε ήδη. (guess about the past)"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Από τη Δευτέρα θα πηγαίνω με το ποδήλατο στη δουλειά.",
+"en": "From Monday I'll be cycling to work."
+},
+{
+"el": "Θα πάω με το ποδήλατο σήμερα.",
+"en": "I'll go by bike today."
+},
+{
+"el": "Μη με πάρεις στις οχτώ, θα οδηγώ.",
+"en": "Don't call me at eight, I'll be driving."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I'll call you (sg) tomorrow.\"",
+"a": "Θα σε πάρω αύριο. | Θα σε πάρω τηλέφωνο αύριο. | Θα σου τηλεφωνήσω αύριο.",
+"why": "Once: πάρω."
+},
+{
+"q": "\"From now on I'll get up at seven.\"",
+"a": "Από τώρα και πέρα θα ξυπνάω στις εφτά. | Από τώρα θα ξυπνάω στις επτά. | Από τώρα και στο εξής θα ξυπνάω στις εφτά.",
+"why": "Habit: ξυπνάω."
+},
+{
+"q": "\"At nine I'll be working.\"",
+"a": "Στις εννιά θα δουλεύω. | Στις εννέα θα δουλεύω.",
+"why": "In progress: δουλεύω."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Αύριο ___ την έκθεση. (I'll visit, once)",
+"options": [
+"θα επισκέπτομαι",
+"θα επισκεφτώ",
+"επισκέφτηκα",
+"θα επισκεπτόμουν"
+],
+"answer": "θα επισκεφτώ",
+"why": "Once: dependent.",
+"id": "aspect-practice-e8189661"
+},
+{
+"type": "choice",
+"q": "Από τον Σεπτέμβριο ___ στο γυμναστήριο. (I'll be going, regularly)",
+"options": [
+"πήγαινα",
+"θα πηγαίνω",
+"πήγα",
+"πάω να"
+],
+"answer": "θα πηγαίνω",
+"why": "Regular: ongoing future.",
+"id": "aspect-practice-b2053765"
+},
+{
+"type": "choice",
+"q": "Μην τηλεφωνήσεις στις οχτώ, ___. (I'll be driving)",
+"options": [
+"θα οδηγήσω",
+"θα οδηγώ",
+"οδήγησα",
+"οδηγήσω"
+],
+"answer": "θα οδηγώ",
+"why": "In progress: ongoing.",
+"id": "aspect-practice-a780659a"
+},
+{
+"type": "choice",
+"q": "Θα σου ___ μόλις φτάσω. (I'll write, once)",
+"options": [
+"γράφω",
+"γράψω",
+"έγραψα",
+"έγραφα"
+],
+"answer": "γράψω",
+"why": "Once: γράψω.",
+"id": "aspect-practice-d35da09a"
+},
+{
+"type": "choice",
+"q": "Πού είναι ο Νίκος; — ___ στη δουλειά. (He'll be, guess)",
+"options": [
+"Θα πάει",
+"Θα είναι",
+"Θα ήταν να",
+"Ήταν"
+],
+"answer": "Θα είναι",
+"why": "Guess about now: θα είναι.",
+"id": "aspect-practice-ba3989fc"
+},
+{
+"type": "choice",
+"q": "Το καλοκαίρι ___ κάθε μέρα στη θάλασσα. (we'll go)",
+"options": [
+"θα πήγαμε",
+"θα πηγαίνουμε",
+"πήγαμε",
+"πάμε να"
+],
+"answer": "θα πηγαίνουμε",
+"why": "Every day: ongoing.",
+"id": "aspect-practice-beb923b3"
+},
+{
+"type": "write",
+"q": "\"I'll eat here today.\"",
+"answer": "Θα φάω εδώ σήμερα.",
+"accept": [],
+"why": "Once: φάω.",
+"id": "aspect-practice-d869aab4"
+},
+{
+"type": "write",
+"q": "\"I'll eat here every day.\"",
+"answer": "Θα τρώω εδώ κάθε μέρα.",
+"accept": [
+"Θα τρώω εδώ καθημερινά."
+],
+"why": "Habit: τρώω.",
+"id": "aspect-practice-87332b2e"
+},
+{
+"type": "write",
+"q": "\"I'll keep writing to you (sg).\"",
+"answer": "Θα σου γράφω.",
+"accept": [],
+"why": "Ongoing promise.",
+"id": "aspect-practice-512be40f"
+},
+{
+"type": "write",
+"q": "\"Tomorrow at this time I'll be travelling.\"",
+"answer": "Αύριο τέτοια ώρα θα ταξιδεύω.",
+"accept": [
+"Αύριο τέτοια ώρα θα ταξιδεύω ήδη."
+],
+"why": "In progress.",
+"id": "aspect-practice-09114a91"
+},
+{
+"type": "write",
+"q": "\"He'll have left already.\" (guess)",
+"answer": "Θα έχει φύγει ήδη.",
+"accept": [
+"Θα έφυγε ήδη.",
+"Θα έχει ήδη φύγει."
+],
+"why": "Guess about the past.",
+"id": "aspect-practice-8c9ce016"
+},
+{
+"type": "order",
+"q": "\"From Monday I'll be cycling to work.\"",
+"answer": "Από τη Δευτέρα θα πηγαίνω με το ποδήλατο στη δουλειά.",
+"accept": [],
+"why": "Habit: ongoing.",
+"id": "aspect-practice-9be3456e"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Στο παρελθόν",
+"title": "Past: imperfect or aorist?",
+"body": [
+{
+"table": {
+"head": [
+"Imperfect (ongoing past)",
+"Aorist (one-off past)"
+],
+"rows": [
+[
+"background, scene-setting: Έβρεχε.",
+"events, the story line: Ξαφνικά χτύπησε το τηλέφωνο."
+],
+[
+"habits: Κάθε καλοκαίρι πηγαίναμε στο χωριό.",
+"a single occasion: Πέρσι πήγαμε στην Κρήτη."
+],
+[
+"in progress when something happened: Μαγείρευα όταν...",
+"a completed stretch, even a long one: Έμεινα στο Λονδίνο πέντε χρόνια."
+],
+[
+"repeated: Μου τηλεφωνούσε κάθε μέρα.",
+"counted: Μου τηλεφώνησε τρεις φορές."
+]
+]
+}
+},
+{
+"tip": "A long but **finished and measured** period takes the **aorist**: **Δούλεψα εκεί δέκα χρόνια.** The imperfect would describe the period from inside: **Όταν δούλευα εκεί, έμενα στο κέντρο.**"
+},
+{
+"ex": [
+{
+"el": "Διάβαζα ένα βιβλίο όταν κόπηκε το ρεύμα.",
+"en": "I was reading a book when the power went off."
+},
+{
+"el": "Όταν ήμασταν παιδιά, παίζαμε στον δρόμο ως αργά.",
+"en": "When we were children, we used to play in the street till late."
+},
+{
+"el": "Του τηλεφώνησα δύο φορές, αλλά δεν απάντησε.",
+"en": "I phoned him twice, but he didn't answer."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I was cooking when the doorbell rang.\"",
+"a": "Μαγείρευα όταν χτύπησε το κουδούνι.",
+"why": "Background imperfect, event aorist."
+},
+{
+"q": "\"I lived in Berlin for three years.\"",
+"a": "Έμεινα στο Βερολίνο τρία χρόνια. | Έζησα στο Βερολίνο τρία χρόνια. | Έμεινα στο Βερολίνο για τρία χρόνια. | Έζησα στο Βερολίνο για τρία χρόνια.",
+"why": "Finished, measured: aorist."
+},
+{
+"q": "\"She used to call me every day.\"",
+"a": "Μου τηλεφωνούσε κάθε μέρα. | Με έπαιρνε τηλέφωνο κάθε μέρα. | Με έπαιρνε κάθε μέρα.",
+"why": "Repeated: imperfect."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ όταν χτύπησε το τηλέφωνο. (I was sleeping)",
+"options": [
+"Κοιμήθηκα",
+"Κοιμόμουν",
+"Θα κοιμηθώ",
+"Κοιμηθώ"
+],
+"answer": "Κοιμόμουν",
+"why": "In progress: imperfect.",
+"id": "aspect-practice-d216b3dc"
+},
+{
+"type": "choice",
+"q": "Ξαφνικά ___ τα φώτα. (went out)",
+"options": [
+"έσβηναν",
+"έσβησαν",
+"σβήσουν",
+"σβήνουν"
+],
+"answer": "έσβησαν",
+"why": "Sudden event: aorist.",
+"id": "aspect-practice-e0596c24"
+},
+{
+"type": "choice",
+"q": "Κάθε Κυριακή ___ στη γιαγιά. (we used to go)",
+"options": [
+"πήγαμε",
+"πηγαίναμε",
+"πάμε",
+"θα πάμε"
+],
+"answer": "πηγαίναμε",
+"why": "Habit: imperfect.",
+"id": "aspect-practice-3e230277"
+},
+{
+"type": "choice",
+"q": "Μου ___ τρεις φορές χθες. (she called)",
+"options": [
+"τηλεφωνούσε",
+"τηλεφώνησε",
+"τηλεφωνεί",
+"τηλεφωνήσει"
+],
+"answer": "τηλεφώνησε",
+"why": "Counted: aorist.",
+"id": "aspect-practice-a428a0bd"
+},
+{
+"type": "choice",
+"q": "___ σε εκείνη την εταιρεία είκοσι χρόνια. (He worked, finished)",
+"options": [
+"Δούλευε",
+"Δούλεψε",
+"Δουλεύει",
+"Δουλέψει"
+],
+"answer": "Δούλεψε",
+"why": "Finished, measured: aorist.",
+"id": "aspect-practice-cf82f6fe"
+},
+{
+"type": "choice",
+"q": "Ενώ ___, άκουγα ραδιόφωνο. (I was driving)",
+"options": [
+"οδήγησα",
+"οδηγούσα",
+"οδηγήσω",
+"θα οδηγήσω"
+],
+"answer": "οδηγούσα",
+"why": "ενώ + imperfect.",
+"id": "aspect-practice-79605aae"
+},
+{
+"type": "choice",
+"q": "Πέρσι ___ στην Κρήτη για διακοπές. (we went, once)",
+"options": [
+"πηγαίναμε",
+"πήγαμε",
+"πάμε",
+"θα πάμε"
+],
+"answer": "πήγαμε",
+"why": "Single occasion: aorist.",
+"id": "aspect-practice-a0b5fa7a"
+},
+{
+"type": "choice",
+"q": "Έξω ___ και φυσούσε. (it was raining)",
+"options": [
+"έβρεξε",
+"έβρεχε",
+"βρέξει",
+"θα βρέξει"
+],
+"answer": "έβρεχε",
+"why": "Scene-setting: imperfect.",
+"id": "aspect-practice-d1e0b4be"
+},
+{
+"type": "write",
+"q": "\"I was reading when the power went off.\"",
+"answer": "Διάβαζα όταν κόπηκε το ρεύμα.",
+"accept": [
+"Διάβαζα όταν έκοψε το ρεύμα."
+],
+"why": "Imperfect + aorist.",
+"id": "aspect-practice-c2a04260"
+},
+{
+"type": "write",
+"q": "\"We used to play in the street.\"",
+"answer": "Παίζαμε στον δρόμο.",
+"accept": [
+"Παίζαμε στο δρόμο."
+],
+"why": "Habit: imperfect.",
+"id": "aspect-practice-0d3982bb"
+},
+{
+"type": "write",
+"q": "\"I phoned him twice.\"",
+"answer": "Του τηλεφώνησα δύο φορές.",
+"accept": [
+"Τον πήρα τηλέφωνο δύο φορές.",
+"Τον πήρα δύο φορές."
+],
+"why": "Counted: aorist.",
+"id": "aspect-practice-fd50f056"
+},
+{
+"type": "write",
+"q": "\"Suddenly the door opened.\"",
+"answer": "Ξαφνικά άνοιξε η πόρτα.",
+"accept": [
+"Ξαφνικά η πόρτα άνοιξε."
+],
+"why": "Event: aorist.",
+"id": "aspect-practice-55342f63"
+},
+{
+"type": "write",
+"q": "\"It was cold and it was snowing.\"",
+"answer": "Έκανε κρύο και χιόνιζε.",
+"accept": [],
+"why": "Background: imperfect.",
+"id": "aspect-practice-e68dae2c"
+},
+{
+"type": "order",
+"q": "\"I was cooking when the doorbell rang.\"",
+"answer": "Μαγείρευα όταν χτύπησε το κουδούνι.",
+"accept": [],
+"why": "Imperfect + aorist.",
+"id": "aspect-practice-f7ffafd8"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Προστακτική και απαγόρευση",
+"title": "Commands and prohibitions",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Ongoing",
+"One-off"
+],
+"rows": [
+[
+"command",
+"Γράφε κάθε μέρα. (keep doing)",
+"Γράψε μου. (do it now, once)"
+],
+[
+"",
+"Τρώγε σιγά. (while you eat)",
+"Φάε το φαγητό σου."
+],
+[
+"prohibition",
+"Μην τρως γλυκά. (stop doing it / in general)",
+"Μη φας το γλυκό! (don't, this time)"
+],
+[
+"",
+"Μη μιλάς! (stop talking)",
+"Μη μου μιλήσεις ποτέ ξανά!"
+],
+[
+"polite",
+"Περιμένετε, παρακαλώ.",
+"Περιμένετε ένα λεπτό. (one stem only)"
+]
+]
+}
+},
+{
+"tip": "**Μη + present** stops something going on, or forbids it in general: **Μη φωνάζεις!** \"Stop shouting!\". **Μη + dependent** warns against one action: **Μη φωνάξεις, κοιμάται το μωρό!** \"Don't shout (now), the baby's asleep!\"."
+},
+{
+"ex": [
+{
+"el": "Κλείσε την πόρτα, σε παρακαλώ.",
+"en": "Close the door, please."
+},
+{
+"el": "Κλείνε την πόρτα όταν βγαίνεις.",
+"en": "Close the door (every time) when you go out."
+},
+{
+"el": "Μην ανησυχείς, όλα θα πάνε καλά.",
+"en": "Don't worry, everything will be fine."
+},
+{
+"el": "Μην το πεις σε κανέναν!",
+"en": "Don't tell anyone!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Don't tell (sg) anyone!\"",
+"a": "Μην το πεις σε κανέναν! | Μην το πεις σε κανένα! | Μην πεις τίποτα σε κανέναν!",
+"why": "One-off warning: dependent."
+},
+{
+"q": "\"Stop shouting!\" (sg)",
+"a": "Μη φωνάζεις! | Σταμάτα να φωνάζεις!",
+"why": "Stop an ongoing action: present."
+},
+{
+"q": "\"Read (sg) a little every day.\"",
+"a": "Διάβαζε λίγο κάθε μέρα.",
+"why": "Repeated: continuous imperative."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ την πόρτα, σε παρακαλώ. (Close, now)",
+"options": [
+"Κλείνε",
+"Κλείσε",
+"Κλείσεις",
+"Κλείνεις"
+],
+"answer": "Κλείσε",
+"why": "One-off: κλείσε.",
+"id": "aspect-practice-0e5e184b"
+},
+{
+"type": "choice",
+"q": "___ την πόρτα όταν βγαίνεις. (Close, every time)",
+"options": [
+"Κλείσεις",
+"Κλείνε",
+"Κλείνεις",
+"Κλειστή"
+],
+"answer": "Κλείνε",
+"why": "Every time: continuous κλείνε.",
+"id": "aspect-practice-0a62faf8"
+},
+{
+"type": "choice",
+"q": "Μην ___! Όλα θα πάνε καλά. (worry)",
+"options": [
+"ανησύχα",
+"ανησυχείς",
+"ανησύχησες",
+"ανησύχησε"
+],
+"answer": "ανησυχείς",
+"why": "General reassurance: present.",
+"id": "aspect-practice-6fcd6f7f"
+},
+{
+"type": "choice",
+"q": "Μην το ___ σε κανέναν! (tell)",
+"options": [
+"είπα",
+"πεις",
+"είπες",
+"πες"
+],
+"answer": "πεις",
+"why": "One-off warning: μην + πεις.",
+"id": "aspect-practice-849048d8"
+},
+{
+"type": "choice",
+"q": "Μη ___! Κοιμάται το μωρό. (shout, now)",
+"options": [
+"φώναξε",
+"φωνάξεις",
+"φωνάζοντας",
+"φωνάξει"
+],
+"answer": "φωνάξεις",
+"why": "Warning about one action: dependent.",
+"id": "aspect-practice-b3f9dbee"
+},
+{
+"type": "choice",
+"q": "___ λίγο κάθε μέρα. (Read)",
+"options": [
+"Διάβασες",
+"Διάβαζε",
+"Διαβάσεις",
+"Διαβάζεις"
+],
+"answer": "Διάβαζε",
+"why": "Repeated: continuous.",
+"id": "aspect-practice-f239ada7"
+},
+{
+"type": "choice",
+"q": "Μη ___ τόσα γλυκά! (eat, in general)",
+"options": [
+"φάγε",
+"τρως",
+"φάε",
+"έφαγες"
+],
+"answer": "τρως",
+"why": "General: μη + present.",
+"id": "aspect-practice-6b9e50d2"
+},
+{
+"type": "write",
+"q": "\"Don't (sg) worry.\"",
+"answer": "Μην ανησυχείς.",
+"accept": [],
+"why": "General: present.",
+"id": "aspect-practice-04902295"
+},
+{
+"type": "write",
+"q": "\"Wait (polite) a moment.\"",
+"answer": "Περιμένετε ένα λεπτό.",
+"accept": [
+"Περιμένετε λίγο.",
+"Μισό λεπτό, παρακαλώ."
+],
+"why": "περιμένω has one stem.",
+"id": "aspect-practice-ce6a690d"
+},
+{
+"type": "write",
+"q": "\"Eat (sg) your food.\"",
+"answer": "Φάε το φαγητό σου.",
+"accept": [],
+"why": "One-off: φάε.",
+"id": "aspect-practice-0fcd377d"
+},
+{
+"type": "write",
+"q": "\"Don't eat (sg) the cake!\" (a warning, now)",
+"answer": "Μη φας το γλυκό!",
+"accept": [
+"Μη φας την τούρτα!",
+"Μη φας το κέικ!"
+],
+"why": "One-off warning.",
+"id": "aspect-practice-9b1b8c4c"
+},
+{
+"type": "write",
+"q": "\"Write (sg) to me when you arrive.\"",
+"answer": "Γράψε μου όταν φτάσεις.",
+"accept": [
+"Στείλε μου όταν φτάσεις.",
+"Γράψε μου μόλις φτάσεις."
+],
+"why": "One-off.",
+"id": "aspect-practice-7ac439db"
+},
+{
+"type": "order",
+"q": "\"Don't tell anyone!\"",
+"answer": "Μην το πεις σε κανέναν!",
+"accept": [],
+"why": "μην + dependent.",
+"id": "aspect-practice-a20d963f"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Λέξεις που δείχνουν το ποιόν",
+"title": "Time words that point to the stem",
+"body": [
+{
+"p": "Some time words almost always choose the stem for you."
+},
+{
+"table": {
+"head": [
+"Ongoing stem",
+"One-off stem"
+],
+"rows": [
+[
+"πάντα, συνήθως, συχνά, κάθε μέρα",
+"ξαφνικά, αμέσως, μια φορά, τρεις φορές"
+],
+[
+"όλη μέρα, για ώρες, ώρα πολλή",
+"σε δέκα λεπτά, μέσα σε μια ώρα"
+],
+[
+"ενώ, όσο, καθώς",
+"μόλις (= as soon as), αφού (= after)"
+],
+[
+"όλο, ακόμα (still)",
+"επιτέλους, τελικά"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Συνήθως πίνω καφέ το πρωί, αλλά σήμερα ήπια τσάι.",
+"en": "I usually drink coffee in the morning, but today I had tea."
+},
+{
+"el": "Όλη μέρα διάβαζε· το βράδυ τελικά βγήκε.",
+"en": "She studied all day; in the evening she finally went out."
+},
+{
+"el": "Μόλις τελείωσε, έφυγε.",
+"en": "As soon as he finished, he left."
+}
+]
+},
+{
+"tip": "These words show a tendency, not a law: **Μια φορά πήγαινα στη δουλειά και...** \"Once, I was going to work and...\" uses the imperfect for the scene, then the aorist for what happened."
+},
+{
+"solved": [
+{
+"q": "\"I usually drink coffee, but today I drank tea.\"",
+"a": "Συνήθως πίνω καφέ, αλλά σήμερα ήπια τσάι.",
+"why": "Habit vs one-off."
+},
+{
+"q": "\"She studied all day.\"",
+"a": "Διάβαζε όλη μέρα. | Διάβαζε όλη την ημέρα. | Μελετούσε όλη μέρα. | Διάβασε όλη μέρα.",
+"why": "Seen from inside: imperfect (the aorist sums it up as one finished block)."
+},
+{
+"q": "\"As soon as he finished, he left.\"",
+"a": "Μόλις τελείωσε, έφυγε.",
+"why": "μόλις + aorist."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Συνήθως ___ καφέ το πρωί. (I drink)",
+"options": [
+"ήπια",
+"πίνω",
+"πιω",
+"θα πιω"
+],
+"answer": "πίνω",
+"why": "συνήθως: ongoing.",
+"id": "aspect-practice-50a9c63d"
+},
+{
+"type": "choice",
+"q": "Σήμερα ___ τσάι. (I drank)",
+"options": [
+"έπινα",
+"ήπια",
+"πίνω",
+"πιω"
+],
+"answer": "ήπια",
+"why": "Today, once: aorist.",
+"id": "aspect-practice-521a3a49"
+},
+{
+"type": "choice",
+"q": "Ξαφνικά ___ ένας θόρυβος. (was heard)",
+"options": [
+"ακουγόταν",
+"ακούστηκε",
+"ακούγεται",
+"ακουστεί"
+],
+"answer": "ακούστηκε",
+"why": "ξαφνικά: one-off.",
+"id": "aspect-practice-4d9f4010"
+},
+{
+"type": "choice",
+"q": "Μόλις ___, θα σε πάρω. (I finish)",
+"options": [
+"τελειώνω",
+"τελειώσω",
+"τελείωσα",
+"τελείωνα"
+],
+"answer": "τελειώσω",
+"why": "μόλις + dependent for the future.",
+"id": "aspect-practice-96744fb8"
+},
+{
+"type": "choice",
+"q": "Πάντα ___ αργά. (he arrives)",
+"options": [
+"φτάσει",
+"φτάνει",
+"έφτασε",
+"φτάσω"
+],
+"answer": "φτάνει",
+"why": "πάντα: ongoing.",
+"id": "aspect-practice-1822ef7e"
+},
+{
+"type": "choice",
+"q": "Τελικά ___ να έρθει. (she decided)",
+"options": [
+"αποφάσιζε",
+"αποφάσισε",
+"αποφασίσει",
+"αποφασίζει να"
+],
+"answer": "αποφάσισε",
+"why": "τελικά: one-off.",
+"id": "aspect-practice-b1b88169"
+},
+{
+"type": "write",
+"q": "\"He always arrives late.\"",
+"answer": "Πάντα φτάνει αργά.",
+"accept": [
+"Φτάνει πάντα αργά."
+],
+"why": "πάντα + present.",
+"id": "aspect-practice-09de1d52"
+},
+{
+"type": "write",
+"q": "\"Suddenly a noise was heard.\"",
+"answer": "Ξαφνικά ακούστηκε ένας θόρυβος.",
+"accept": [
+"Ξαφνικά ακούστηκε θόρυβος."
+],
+"why": "One-off passive aorist.",
+"id": "aspect-practice-4c28c3b3"
+},
+{
+"type": "write",
+"q": "\"In the end we didn't go.\"",
+"answer": "Τελικά δεν πήγαμε.",
+"accept": [],
+"why": "One-off.",
+"id": "aspect-practice-325bb726"
+},
+{
+"type": "write",
+"q": "\"While I was waiting, I read the paper.\"",
+"answer": "Όσο περίμενα, διάβασα την εφημερίδα.",
+"accept": [
+"Ενώ περίμενα, διάβασα την εφημερίδα.",
+"Ενώ περίμενα, διάβαζα την εφημερίδα.",
+"Όσο περίμενα, διάβαζα την εφημερίδα."
+],
+"why": "ενώ / όσο + imperfect.",
+"id": "aspect-practice-fd52f413"
+},
+{
+"type": "write",
+"q": "\"I'll be there in ten minutes.\"",
+"answer": "Θα είμαι εκεί σε δέκα λεπτά.",
+"accept": [
+"Θα έρθω σε δέκα λεπτά.",
+"Θα φτάσω σε δέκα λεπτά."
+],
+"why": "σε + time, future.",
+"id": "aspect-practice-a2467087"
+},
+{
+"type": "order",
+"q": "\"I usually drink coffee in the morning.\"",
+"answer": "Συνήθως πίνω καφέ το πρωί.",
+"accept": [],
+"why": "Habit.",
+"id": "aspect-practice-a86860ae"
+}
+]
+}
+]
+}
+],
+"id": "aspect-practice",
+"el": "Το ποιόν ενεργείας στην πράξη",
+"title": "Aspect in practice: choosing the right stem",
+"span": "B1–B2",
+"blurb": "One decision runs through every Greek verb: the ongoing stem (γράφ-) or the one-off stem (γράψ-). This chapter drills the choice everywhere it appears: after να and θα, past narration (imperfect or aorist), commands and prohibitions, with time words (πάντα, ξαφνικά, για δύο ώρες), and in the minimal pairs where the meaning changes (θα τρώω / θα φάω, μην τρως / μη φας).",
+"intro": [
+{
+"p": "Chapter 16 introduced aspect, and chapters 17–23 apply it tense by tense. In real speech you meet it all at once. Each section below is a set of **minimal pairs**: two sentences that differ only in the stem, with the difference in meaning spelled out, followed by drills that mix the cases. Ask yourself one question each time: **is the action seen as a whole, done once (one-off stem), or as ongoing, repeated or habitual (ongoing stem)**?"
+},
+{
+"links": [
+{
+"href": "#b1-aspect",
+"kind": "Lesson",
+"el": "Ποιόν ενεργείας",
+"title": "Aspect: imperfective and perfective"
+},
+{
+"href": "#verbs-aspect-future-subj",
+"kind": "Lesson",
+"el": "Ποιόν ενεργείας μετά από θα, να, ας",
+"title": "Aspect after θα, να, ας and conjunctions"
+},
+{
+"href": "#verbs-aspect-imperative",
+"kind": "Lesson",
+"el": "Προστακτική: διαρκής και στιγμιαία",
+"title": "Imperative aspect: γράφε or γράψε?"
+},
+{
+"href": "#theoria.verb-system",
+"kind": "Chapter",
+"el": "Το ρηματικό σύστημα",
+"title": "How the Greek verb works"
+},
+{
+"href": "#theoria.subjunctive",
+"kind": "Chapter",
+"el": "Η υποτακτική: να, ας, μη(ν)",
+"title": "The subjunctive: να, ας and μη(ν)"
+},
+{
+"href": "#theoria.imperative",
+"kind": "Chapter",
+"el": "Η προστακτική",
+"title": "The imperative"
+},
+{
+"href": "#cards.aspect",
+"kind": "Card",
+"el": "Ποιο θέμα; Η επιλογή της όψης",
+"title": "Choosing the aspect"
+}
+]
+}
+],
+"num": 46
+}
