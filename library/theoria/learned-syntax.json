@@ -1,0 +1,1069 @@
+{
+"sections": [
+{
+"level": "C1",
+"el": "Λόγιες προθέσεις",
+"title": "Learned prepositions: υπό, επί, περί, εκ, άνευ, προ, διά, εν",
+"body": [
+{
+"table": {
+"head": [
+"Preposition",
+"Phrases",
+"Everyday meaning"
+],
+"rows": [
+[
+"υπό + accusative",
+"υπό κατασκευή, υπό έλεγχο, υπό την αιγίδα, υπό τον όρο ότι",
+"under"
+],
+[
+"επί + genitive",
+"επί του παρόντος, επί της ουσίας, επί του θέματος",
+"at present; on the substance; on the subject"
+],
+[
+"επί + accusative",
+"επί δέκα χρόνια, επί πληρωμή, επί τρία (×)",
+"for (a period); paid; times"
+],
+[
+"περί + genitive",
+"περί τίνος πρόκειται;",
+"what is it about?"
+],
+[
+"περί + accusative",
+"περί τα εκατό άτομα, περί τις πέντε",
+"about, around"
+],
+[
+"εκ / εξ + genitive",
+"εκ πείρας, εξ ορισμού, εξ αρχής, εκ νέου",
+"from experience; by definition; from the start; anew"
+],
+[
+"άνευ + genitive",
+"άνευ όρων, άνευ προηγουμένου, άνευ αποδοχών",
+"without"
+],
+[
+"μετά + genitive",
+"μετά χαράς, μετά βεβαιότητας",
+"with"
+],
+[
+"προ + genitive",
+"προ ημερών, προ του πολέμου, προ των πυλών",
+"ago; before; at the gates"
+],
+[
+"διά + genitive",
+"διά ζώσης, διά της βίας, διά νόμου",
+"in person (live); by force; by law"
+],
+[
+"εν + dative",
+"εν ενεργεία, εν αγνοία μου, εν γνώσει, εν συντομία, εν όψει + genitive",
+"active, serving; without my knowledge; knowingly; briefly; in view of"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Ο δρόμος είναι υπό κατασκευή.",
+"en": "The road is under construction."
+},
+{
+"el": "Επί του παρόντος δεν υπάρχουν θέσεις.",
+"en": "At present there are no vacancies."
+},
+{
+"el": "Η ομιλία θα γίνει διά ζώσης.",
+"en": "The talk will be given in person."
+},
+{
+"el": "Το αποφάσισαν εν αγνοία μου.",
+"en": "They decided it without my knowledge."
+},
+{
+"el": "Μετά χαράς!",
+"en": "With pleasure!"
+}
+]
+},
+{
+"tip": "**Επί** + a number in a period means \"for\": **Κυβέρνησε επί οκτώ χρόνια.** In maths **επί** is \"times\": **τρία επί τέσσερα**. **Περί** + accusative before a number is \"about\": **περί τους πενήντα**."
+},
+{
+"solved": [
+{
+"q": "\"The building is under construction.\"",
+"a": "Το κτίριο είναι υπό κατασκευή.",
+"why": "υπό + accusative, no article."
+},
+{
+"q": "\"At present, no.\"",
+"a": "Επί του παρόντος, όχι. | Προς το παρόν, όχι.",
+"why": "επί του παρόντος = for now."
+},
+{
+"q": "\"With pleasure!\" (formal)",
+"a": "Μετά χαράς!",
+"why": "μετά + genitive."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Το έργο είναι ___ κατασκευή.",
+"options": [
+"επί",
+"υπό",
+"περί",
+"άνευ"
+],
+"answer": "υπό",
+"why": "υπό κατασκευή.",
+"id": "learned-syntax-1ecb60df"
+},
+{
+"type": "choice",
+"q": "___ του παρόντος δεν σχολιάζουμε.",
+"options": [
+"Υπό",
+"Επί",
+"Περί",
+"Διά"
+],
+"answer": "Επί",
+"why": "επί του παρόντος.",
+"id": "learned-syntax-4f325039"
+},
+{
+"type": "choice",
+"q": "___ τίνος πρόκειται;",
+"options": [
+"Επί",
+"Περί",
+"Υπό",
+"Μετά"
+],
+"answer": "Περί",
+"why": "περί τίνος = about what.",
+"id": "learned-syntax-ccb10d3a"
+},
+{
+"type": "choice",
+"q": "Απεργία ___ όρων.",
+"options": [
+"μετά",
+"άνευ",
+"περί",
+"υπό"
+],
+"answer": "άνευ",
+"why": "άνευ όρων = unconditional.",
+"id": "learned-syntax-077750b5"
+},
+{
+"type": "choice",
+"q": "Το ξέρω ___ πείρας.",
+"options": [
+"από της",
+"εκ",
+"εν",
+"επί"
+],
+"answer": "εκ",
+"why": "εκ πείρας.",
+"id": "learned-syntax-993a1700"
+},
+{
+"type": "choice",
+"q": "Η συνέντευξη θα γίνει ___ ζώσης.",
+"options": [
+"εν",
+"διά",
+"εκ",
+"υπό"
+],
+"answer": "διά",
+"why": "διά ζώσης = in person.",
+"id": "learned-syntax-de1bbe72"
+},
+{
+"type": "choice",
+"q": "Η ανακοίνωση έγινε ___ ημερών.",
+"options": [
+"επί",
+"προ",
+"μετά",
+"άνευ"
+],
+"answer": "προ",
+"why": "προ ημερών = a few days ago.",
+"id": "learned-syntax-f804abe9"
+},
+{
+"type": "choice",
+"q": "Κυβέρνησε ___ δέκα χρόνια. (for)",
+"options": [
+"περί",
+"επί",
+"υπό",
+"προ"
+],
+"answer": "επί",
+"why": "επί + period = for.",
+"id": "learned-syntax-92a9daee"
+},
+{
+"type": "write",
+"q": "\"in person\" (formal)",
+"answer": "διά ζώσης",
+"accept": [
+"δια ζώσης"
+],
+"why": "διά + genitive.",
+"id": "learned-syntax-28f175ff"
+},
+{
+"type": "write",
+"q": "\"by definition\"",
+"answer": "εξ ορισμού",
+"accept": [],
+"why": "εκ → εξ before a vowel.",
+"id": "learned-syntax-61bbe7e8"
+},
+{
+"type": "write",
+"q": "\"unprecedented\" (adverbial phrase: without precedent)",
+"answer": "άνευ προηγουμένου",
+"accept": [],
+"why": "άνευ + genitive.",
+"id": "learned-syntax-9fa1e158"
+},
+{
+"type": "write",
+"q": "\"without my knowledge\"",
+"answer": "εν αγνοία μου",
+"accept": [],
+"why": "εν + dative.",
+"id": "learned-syntax-e7445f8e"
+},
+{
+"type": "write",
+"q": "\"a few days ago\" (formal)",
+"answer": "προ ημερών",
+"accept": [
+"πριν από λίγες μέρες"
+],
+"why": "προ + genitive.",
+"id": "learned-syntax-0e766139"
+},
+{
+"type": "order",
+"q": "\"The road is under construction.\"",
+"answer": "Ο δρόμος είναι υπό κατασκευή.",
+"accept": [],
+"why": "υπό + accusative.",
+"id": "learned-syntax-ff41de64"
+}
+]
+}
+]
+},
+{
+"level": "C1",
+"el": "Οι χρήσεις του «ως»",
+"title": "The many uses of ως",
+"body": [
+{
+"table": {
+"head": [
+"Use",
+"Example",
+"Meaning"
+],
+"rows": [
+[
+"role, capacity",
+"Μιλώ ως γιατρός.",
+"as a doctor"
+],
+[
+"until (= μέχρι)",
+"ως το πρωί, ως τις δέκα",
+"until"
+],
+[
+"fixed: as follows",
+"Το πρόγραμμα έχει ως εξής:",
+"is as follows"
+],
+[
+"fixed: as is known",
+"Ως γνωστόν, ...",
+"as is well known"
+],
+[
+"fixed: mostly",
+"ως επί το πλείστον",
+"for the most part"
+],
+[
+"fixed: miraculously",
+"ως εκ θαύματος",
+"as if by a miracle"
+],
+[
+"fixed: consequently",
+"ως εκ τούτου",
+"as a result"
+],
+[
+"fixed: as usual",
+"ως συνήθως, ως είθισται",
+"as usual, as is customary"
+],
+[
+"fixed: as it stands",
+"Η πρόταση εγκρίθηκε ως έχει.",
+"as it is, unchanged"
+],
+[
+"with superlative sense",
+"ως το καλύτερο δυνατό",
+"as well as possible"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Ως γνωστόν, η Ελλάδα έχει πάνω από έξι χιλιάδες νησιά.",
+"en": "As is well known, Greece has over six thousand islands."
+},
+{
+"el": "Οι επισκέπτες είναι ως επί το πλείστον νέοι.",
+"en": "The visitors are mostly young people."
+},
+{
+"el": "Ο οδηγός σώθηκε ως εκ θαύματος.",
+"en": "The driver survived as if by a miracle."
+},
+{
+"el": "Η διαδικασία έχει ως εξής.",
+"en": "The procedure is as follows."
+}
+]
+},
+{
+"tip": "**Ως** introduces a **role** (what someone really is or acts as); **σαν** a **comparison** (chapter 39). **Ως** = \"until\" is everyday too: **Θα μείνω ως την Κυριακή.**"
+},
+{
+"solved": [
+{
+"q": "\"As is well known, ...\"",
+"a": "Ως γνωστόν | Όπως είναι γνωστό",
+"why": "Fixed learned phrase."
+},
+{
+"q": "\"The procedure is as follows:\"",
+"a": "Η διαδικασία έχει ως εξής: | Η διαδικασία είναι η εξής: | Η διαδικασία έχει ως εξής",
+"why": "ως εξής."
+},
+{
+"q": "\"I'm speaking as a parent.\"",
+"a": "Μιλάω ως γονιός. | Μιλάω ως γονέας. | Μιλώ ως γονιός. | Μιλώ ως γονέας.",
+"why": "ως = in the role of."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τα μέλη είναι ___ νέοι. (mostly)",
+"options": [
+"ως εκ τούτου",
+"ως επί το πλείστον",
+"ως εξής",
+"ως έχει"
+],
+"answer": "ως επί το πλείστον",
+"why": "ως επί το πλείστον.",
+"id": "learned-syntax-2bca2745"
+},
+{
+"type": "choice",
+"q": "Το κείμενο εγκρίθηκε ___. (as it stands)",
+"options": [
+"ως εξής",
+"ως έχει",
+"ως γνωστόν",
+"ως εκ θαύματος"
+],
+"answer": "ως έχει",
+"why": "ως έχει = unchanged.",
+"id": "learned-syntax-43ccae34"
+},
+{
+"type": "choice",
+"q": "Σώθηκε ___. (miraculously)",
+"options": [
+"ως εξής",
+"ως εκ θαύματος",
+"ως εκ τούτου",
+"ως έχει"
+],
+"answer": "ως εκ θαύματος",
+"why": "ως εκ θαύματος.",
+"id": "learned-syntax-c3f75237"
+},
+{
+"type": "choice",
+"q": "Το πρόγραμμα έχει ___: (as follows)",
+"options": [
+"ως έχει",
+"ως εξής",
+"ως γνωστόν",
+"ως επί"
+],
+"answer": "ως εξής",
+"why": "ως εξής.",
+"id": "learned-syntax-5bfb6c33"
+},
+{
+"type": "choice",
+"q": "Η γιορτή έγινε τον Αύγουστο, ___. (as is customary)",
+"options": [
+"ως εξής",
+"ως είθισται",
+"ως έχει",
+"ως εκ θαύματος"
+],
+"answer": "ως είθισται",
+"why": "ως είθισται = as is customary.",
+"id": "learned-syntax-7c41c61e"
+},
+{
+"type": "choice",
+"q": "Εργάζεται ___ μεταφράστρια. (as, her job)",
+"options": [
+"σαν να",
+"ως",
+"λες και",
+"όπως να"
+],
+"answer": "ως",
+"why": "Role: ως.",
+"id": "learned-syntax-25926e10"
+},
+{
+"type": "write",
+"q": "\"as usual\"",
+"answer": "ως συνήθως",
+"accept": [
+"όπως συνήθως"
+],
+"why": "ως συνήθως.",
+"id": "learned-syntax-f5bce590"
+},
+{
+"type": "write",
+"q": "\"for the most part\"",
+"answer": "ως επί το πλείστον",
+"accept": [
+"κατά κύριο λόγο",
+"κυρίως"
+],
+"why": "Fixed phrase.",
+"id": "learned-syntax-0f406138"
+},
+{
+"type": "write",
+"q": "\"consequently\"",
+"answer": "ως εκ τούτου",
+"accept": [
+"επομένως",
+"συνεπώς"
+],
+"why": "Formal connective.",
+"id": "learned-syntax-4e41559b"
+},
+{
+"type": "write",
+"q": "\"until Sunday\"",
+"answer": "ως την Κυριακή",
+"accept": [
+"μέχρι την Κυριακή"
+],
+"why": "ως = until.",
+"id": "learned-syntax-851ab15d"
+},
+{
+"type": "order",
+"q": "\"As is well known, Greece has thousands of islands.\"",
+"answer": "Ως γνωστόν, η Ελλάδα έχει χιλιάδες νησιά.",
+"accept": [],
+"why": "Fixed opener.",
+"id": "learned-syntax-722ed18d"
+}
+]
+}
+]
+},
+{
+"level": "C1",
+"el": "Λόγιοι σύνδεσμοι",
+"title": "Formal conjunctions",
+"body": [
+{
+"table": {
+"head": [
+"Formal",
+"Everyday",
+"Meaning"
+],
+"rows": [
+[
+"εφόσον",
+"αν, αφού",
+"provided that; since"
+],
+[
+"δεδομένου ότι",
+"αφού, μια και",
+"given that"
+],
+[
+"καθότι / διότι",
+"γιατί",
+"because"
+],
+[
+"μολονότι / παρά το γεγονός ότι",
+"αν και, παρόλο που",
+"although, despite the fact that"
+],
+[
+"ούτως ώστε / έτσι ώστε",
+"για να",
+"so that"
+],
+[
+"προκειμένου να",
+"για να",
+"in order to"
+],
+[
+"εάν",
+"αν",
+"if"
+],
+[
+"ενόσω",
+"όσο, ενώ",
+"while, as long as"
+],
+[
+"ήτοι",
+"δηλαδή",
+"that is, namely"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Εφόσον συμφωνείτε, θα προχωρήσουμε.",
+"en": "Provided you agree, we will proceed."
+},
+{
+"el": "Δεδομένου ότι ο χρόνος πιέζει, θα είμαι σύντομος.",
+"en": "Given that time is short, I'll be brief."
+},
+{
+"el": "Μολονότι οι συνθήκες ήταν δύσκολες, το έργο ολοκληρώθηκε.",
+"en": "Although conditions were difficult, the project was completed."
+},
+{
+"el": "Πρέπει να οργανωθούμε, ούτως ώστε να μη χάσουμε την προθεσμία.",
+"en": "We must get organised so that we don't miss the deadline."
+}
+]
+},
+{
+"tip": "**Εφόσον** can be conditional (\"provided that\") or causal (\"since\"): context decides. **Ενόσω** is formal and old-fashioned; **όσο** is the everyday word."
+},
+{
+"solved": [
+{
+"q": "\"Given that time is short, ...\"",
+"a": "Δεδομένου ότι ο χρόνος πιέζει | Δεδομένου ότι ο χρόνος είναι λίγος",
+"why": "δεδομένου ότι."
+},
+{
+"q": "\"Although conditions were difficult, ...\" (formal)",
+"a": "Μολονότι οι συνθήκες ήταν δύσκολες | Παρά το γεγονός ότι οι συνθήκες ήταν δύσκολες | Παρόλο που οι συνθήκες ήταν δύσκολες",
+"why": "μολονότι."
+},
+{
+"q": "\"Provided you agree, we'll proceed.\"",
+"a": "Εφόσον συμφωνείτε, θα προχωρήσουμε. | Εάν συμφωνείτε, θα προχωρήσουμε.",
+"why": "εφόσον."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ συμφωνείτε, υπογράψτε εδώ. (Provided that)",
+"options": [
+"Μολονότι",
+"Εφόσον",
+"Ήτοι",
+"Ενόσω"
+],
+"answer": "Εφόσον",
+"why": "εφόσον = provided that.",
+"id": "learned-syntax-46c1836b"
+},
+{
+"type": "choice",
+"q": "___ ότι η προθεσμία λήγει αύριο, πρέπει να βιαστούμε. (Given)",
+"options": [
+"Εφόσον",
+"Δεδομένου",
+"Καθότι",
+"Μολονότι"
+],
+"answer": "Δεδομένου",
+"why": "δεδομένου ότι.",
+"id": "learned-syntax-b05f1414"
+},
+{
+"type": "choice",
+"q": "___ ήταν άρρωστος, ήρθε στη συνεδρίαση. (Although)",
+"options": [
+"Εφόσον",
+"Μολονότι",
+"Δεδομένου",
+"Καθότι"
+],
+"answer": "Μολονότι",
+"why": "μολονότι = although.",
+"id": "learned-syntax-79ae5753"
+},
+{
+"type": "choice",
+"q": "Δουλέψαμε σκληρά, ___ ώστε να τελειώσουμε έγκαιρα. (so)",
+"options": [
+"ήτοι",
+"ούτως",
+"ενόσω",
+"καθότι"
+],
+"answer": "ούτως",
+"why": "ούτως ώστε.",
+"id": "learned-syntax-98750c5d"
+},
+{
+"type": "choice",
+"q": "Δεν εγκρίθηκε, ___ δεν πληρούσε τις προϋποθέσεις. (because)",
+"options": [
+"μολονότι",
+"καθότι",
+"εφόσον να",
+"ήτοι"
+],
+"answer": "καθότι",
+"why": "καθότι = because.",
+"id": "learned-syntax-b09ce64c"
+},
+{
+"type": "choice",
+"q": "Τρεις χώρες, ___ η Ελλάδα, η Κύπρος και η Μάλτα. (namely)",
+"options": [
+"καθότι",
+"ήτοι",
+"εφόσον",
+"μολονότι"
+],
+"answer": "ήτοι",
+"why": "ήτοι = namely.",
+"id": "learned-syntax-968d17ef"
+},
+{
+"type": "write",
+"q": "Everyday for **μολονότι**",
+"answer": "αν και",
+"accept": [
+"παρόλο που"
+],
+"why": "Concession.",
+"id": "learned-syntax-49d356a1"
+},
+{
+"type": "write",
+"q": "Everyday for **δεδομένου ότι**",
+"answer": "αφού",
+"accept": [
+"μια και",
+"μιας και"
+],
+"why": "Known reason.",
+"id": "learned-syntax-c5c59e73"
+},
+{
+"type": "write",
+"q": "Everyday for **ήτοι**",
+"answer": "δηλαδή",
+"accept": [],
+"why": "that is.",
+"id": "learned-syntax-a22d830d"
+},
+{
+"type": "write",
+"q": "Everyday for **ενόσω**",
+"answer": "όσο",
+"accept": [
+"ενώ"
+],
+"why": "while.",
+"id": "learned-syntax-d4fe697b"
+},
+{
+"type": "order",
+"q": "\"Provided you agree, we will proceed.\"",
+"answer": "Εφόσον συμφωνείτε, θα προχωρήσουμε.",
+"accept": [],
+"why": "εφόσον.",
+"id": "learned-syntax-8c74316b"
+}
+]
+}
+]
+},
+{
+"level": "C1",
+"el": "Παγιωμένοι λόγιοι τύποι",
+"title": "Frozen forms of official Greek",
+"body": [
+{
+"table": {
+"head": [
+"Form",
+"Origin",
+"Use",
+"Meaning"
+],
+"rows": [
+[
+"έστω",
+"let it be",
+"Έστω και αργά, ήρθε.",
+"even if late; granted"
+],
+[
+"δέον",
+"what is needed",
+"τα δέοντα, το δέον γενέσθαι",
+"what must be done"
+],
+[
+"ουδείς, ουδεμία, ουδέν",
+"no one, nothing",
+"Ουδέν σχόλιο. Ουδεμία σχέση.",
+"no, none"
+],
+[
+"εκάστοτε",
+"each time",
+"ο εκάστοτε υπουργός",
+"the minister of the day"
+],
+[
+"άπαξ",
+"once",
+"άπαξ και αποφασίσεις",
+"once (you decide)"
+],
+[
+"ενίοτε",
+"sometimes",
+"",
+"sometimes (formal)"
+],
+[
+"εν ολίγοις",
+"in a few (words)",
+"Εν ολίγοις, απέτυχε.",
+"in short"
+],
+[
+"ούτως ή άλλως",
+"this way or that",
+"Ούτως ή άλλως, θα πάω.",
+"anyway"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Έστω και την τελευταία στιγμή, η συμφωνία υπογράφηκε.",
+"en": "Even at the last moment, the agreement was signed."
+},
+{
+"el": "Ουδέν σχόλιο.",
+"en": "No comment."
+},
+{
+"el": "Ο εκάστοτε υπουργός αλλάζει το σύστημα.",
+"en": "Each successive minister changes the system."
+},
+{
+"el": "Ούτως ή άλλως, δεν είχα χρόνο.",
+"en": "In any case, I didn't have time."
+}
+]
+},
+{
+"tip": "These forms do not decline in normal use (**έστω, δέον, άπαξ**), or decline only in the old way (**ουδείς, ουδεμία, ουδέν**; genitive **ουδενός**). Use them in formal writing or for a deliberately formal, sometimes ironic, effect in speech: **Ουδέν σχόλιο!**"
+},
+{
+"solved": [
+{
+"q": "\"No comment.\"",
+"a": "Ουδέν σχόλιο. | Κανένα σχόλιο.",
+"why": "ουδέν = κανένα (formal)."
+},
+{
+"q": "\"In short, it failed.\"",
+"a": "Εν ολίγοις, απέτυχε. | Με λίγα λόγια, απέτυχε.",
+"why": "εν ολίγοις = in short."
+},
+{
+"q": "\"Anyway, I'll go.\"",
+"a": "Ούτως ή άλλως, θα πάω. | Έτσι κι αλλιώς, θα πάω. | Ούτως ή άλλως θα πάω.",
+"why": "ούτως ή άλλως = anyway."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ και αργά, ήρθε. (Even if)",
+"options": [
+"Δέον",
+"Έστω",
+"Άπαξ",
+"Ουδέν"
+],
+"answer": "Έστω",
+"why": "έστω και = even if.",
+"id": "learned-syntax-3238ab1c"
+},
+{
+"type": "choice",
+"q": "___ σχόλιο. (No)",
+"options": [
+"Έστω",
+"Ουδέν",
+"Δέον",
+"Ενίοτε"
+],
+"answer": "Ουδέν",
+"why": "ουδέν σχόλιο.",
+"id": "learned-syntax-98948a18"
+},
+{
+"type": "choice",
+"q": "___, δεν είχα χρόνο. (In any case)",
+"options": [
+"Εν ολίγοις όμως",
+"Ούτως ή άλλως",
+"Έστω",
+"Άπαξ"
+],
+"answer": "Ούτως ή άλλως",
+"why": "ούτως ή άλλως.",
+"id": "learned-syntax-f834c1b3"
+},
+{
+"type": "choice",
+"q": "ο ___ υπουργός (the minister of the day)",
+"options": [
+"άπαξ",
+"εκάστοτε",
+"ενίοτε",
+"έστω"
+],
+"answer": "εκάστοτε",
+"why": "εκάστοτε.",
+"id": "learned-syntax-f083dc03"
+},
+{
+"type": "choice",
+"q": "___ και αποφασίσεις, μην αλλάξεις γνώμη. (Once)",
+"options": [
+"Έστω",
+"Άπαξ",
+"Ενίοτε",
+"Δέον"
+],
+"answer": "Άπαξ",
+"why": "άπαξ και = once.",
+"id": "learned-syntax-55facfe0"
+},
+{
+"type": "choice",
+"q": "Θα κάνουμε τα ___. (what must be done)",
+"options": [
+"έστω",
+"δέοντα",
+"ουδέν",
+"άπαξ"
+],
+"answer": "δέοντα",
+"why": "τα δέοντα.",
+"id": "learned-syntax-67927f3a"
+},
+{
+"type": "write",
+"q": "Everyday for **ούτως ή άλλως**",
+"answer": "έτσι κι αλλιώς",
+"accept": [
+"έτσι και αλλιώς",
+"ούτως ή άλλως"
+],
+"why": "anyway.",
+"id": "learned-syntax-340f205b"
+},
+{
+"type": "write",
+"q": "Everyday for **ενίοτε**",
+"answer": "μερικές φορές",
+"accept": [
+"καμιά φορά",
+"κάποιες φορές"
+],
+"why": "sometimes.",
+"id": "learned-syntax-cf7434c3"
+},
+{
+"type": "write",
+"q": "Everyday for **εν ολίγοις**",
+"answer": "με λίγα λόγια",
+"accept": [
+"δηλαδή"
+],
+"why": "in short.",
+"id": "learned-syntax-f5b524b5"
+},
+{
+"type": "write",
+"q": "Everyday for **ουδεμία σχέση**",
+"answer": "καμία σχέση",
+"accept": [
+"καμιά σχέση"
+],
+"why": "no connection.",
+"id": "learned-syntax-e3f78c3d"
+},
+{
+"type": "order",
+"q": "\"In short, the plan failed.\"",
+"answer": "Εν ολίγοις, το σχέδιο απέτυχε.",
+"accept": [],
+"why": "εν ολίγοις.",
+"id": "learned-syntax-f77600d2"
+}
+]
+}
+]
+}
+],
+"id": "learned-syntax",
+"el": "Λόγια σύνταξη",
+"title": "Learned syntax: the formal layer at C1",
+"span": "B2–C1",
+"blurb": "The older constructions that survive in formal Greek: learned prepositions with other cases (υπό, επί, περί, εκ/εξ, άνευ, μετά + genitive, προ, διά, εν + dative), the many uses of ως (ως εξής, ως γνωστόν, ως επί το πλείστον), formal conjunctions (εφόσον, δεδομένου ότι, μολονότι, ούτως ώστε, καθότι), and the frozen verb forms of official texts (έστω, δέον, ουδείς, ως έχει).",
+"intro": [
+{
+"p": "Chapter 40 covered the formal forms you need for a B2 letter. At C1 the reading texts (law, press, essays, speeches) use a further layer of learned syntax. Much of it lives in **fixed phrases**: you do not build new ones, you recognise and reuse them. Each section gives the phrases with their everyday equivalents, so you can move between registers in both directions."
+},
+{
+"links": [
+{
+"href": "#c1-learned-phrases",
+"kind": "Lesson",
+"el": "Λόγιες προθέσεις και δοτική",
+"title": "Learned prepositions and frozen datives: εν τω μεταξύ, εκ των υστέρων, άνευ όρων"
+},
+{
+"href": "#c1-bank-learned-phrases-1",
+"kind": "Lesson",
+"el": "Λόγιες φράσεις (1)",
+"title": "Learned-phrase bank 1: εν ευθέτω χρόνω, εν περιλήψει, εν πρώτοις"
+},
+{
+"href": "#c1-bank-learned-phrases-2",
+"kind": "Lesson",
+"el": "Λόγιες φράσεις (2)",
+"title": "Learned-phrase bank 2: εκ βάθρων, εκ γενετής, εκ του μηδενός"
+},
+{
+"href": "#c1-register",
+"kind": "Lesson",
+"el": "Αλλαγή ύφους",
+"title": "Register shifting: φτιάχνω → συντάσσω, βγάζω → εκδίδω, είναι → αποτελεί"
+},
+{
+"href": "#c1-read-law",
+"kind": "Lesson",
+"el": "Η γλώσσα του νόμου: Σύνταγμα και Χάρτης Δικαιωμάτων",
+"title": "Legal Greek: the Constitution and the EU Charter"
+},
+{
+"href": "#c1-read-press",
+"kind": "Lesson",
+"el": "Η φωνή του αρθρογράφου: δοκιμιακός και δημοσιογραφικός λόγος",
+"title": "Opinion pieces: how Greek columnists argue"
+},
+{
+"href": "#theoria.written-style",
+"kind": "Chapter",
+"el": "Η γραμματική του γραπτού λόγου",
+"title": "The grammar of written Greek"
+},
+{
+"href": "#cards.set-phrases",
+"kind": "Card",
+"el": "Λόγιες φράσεις",
+"title": "Learned set phrases"
+},
+{
+"href": "#cards.register",
+"kind": "Card",
+"el": "Γραπτός λόγος",
+"title": "Formal written Greek"
+}
+]
+}
+],
+"num": 47
+}
