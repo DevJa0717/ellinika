@@ -83,4 +83,8 @@ SRC = {
  "w_snowman": ("Wikipedia, “Snowman”", W + "Snowman"),
  "w_reindeer": ("Wikipedia, “Reindeer”", W + "Reindeer"),
  "w_christmas_greece": ("Wikipedia (Greek), “Χριστούγεννα” (customs in Greece)", E + "Χριστούγεννα"),
+ "w_baby_talk": ("Wikipedia, “Baby talk”", W + "Baby_talk"),
+ "w_playground": ("Wikipedia, “Playground”", W + "Playground"),
+ "w_tantrum": ("Wikipedia, “Tantrum”", W + "Tantrum"),
+ "w_bedtime_story": ("Wikipedia, “Bedtime story”", W + "Bedtime_story"),
 }
