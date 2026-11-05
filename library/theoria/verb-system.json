@@ -1,0 +1,1073 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Πρόσωπα και καταλήξεις",
+"title": "Persons and endings",
+"body": [
+{
+"table": {
+"head": [
+"Person",
+"Ending",
+"γράφω \"write\""
+],
+"rows": [
+[
+"εγώ (I)",
+"-ω",
+"γράφω"
+],
+[
+"εσύ (you)",
+"-εις",
+"γράφεις"
+],
+[
+"αυτός, αυτή, αυτό (he, she, it)",
+"-ει",
+"γράφει"
+],
+[
+"εμείς (we)",
+"-ουμε",
+"γράφουμε"
+],
+[
+"εσείς (you pl. / polite)",
+"-ετε",
+"γράφετε"
+],
+[
+"αυτοί, αυτές, αυτά (they)",
+"-ουν(ε)",
+"γράφουν / γράφουνε"
+]
+]
+}
+},
+{
+"p": "The ending shows the person, so the pronoun is left out: **Γράφω** \"I write\", **Γράφουμε** \"we write\". **-ουνε** for **-ουν** is common in speech: **Πού μένουνε;** \"Where do they live?\""
+},
+{
+"p": "The **dictionary form** is the first person singular, **γράφω**, not an infinitive. Greek has no infinitive like English \"to write\"; it uses **να** + verb instead (chapter 22): **Θέλω να γράψω** \"I want to write\"."
+},
+{
+"ex": [
+{
+"el": "Τι κάνεις; Δουλεύω.",
+"en": "What are you doing? I'm working."
+},
+{
+"el": "Πού μένετε; Μένουμε στο Παγκράτι.",
+"en": "Where do you live? We live in Pangrati."
+},
+{
+"el": "Τα παιδιά παίζουν έξω.",
+"en": "The kids are playing outside."
+},
+{
+"el": "Η Μαρία διαβάζει πολύ.",
+"en": "Maria reads a lot."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Conjugate **μένω** \"I live, stay\"",
+"a": "μένω, μένεις, μένει, μένουμε, μένετε, μένουν | μένω, μένεις, μένει, μένουμε, μένετε, μένουνε",
+"why": "-ω, -εις, -ει, -ουμε, -ετε, -ουν(ε)."
+},
+{
+"q": "\"We work.\" (δουλεύω)",
+"a": "Δουλεύουμε.",
+"why": "-ουμε; no pronoun needed."
+},
+{
+"q": "\"Where do they live?\"",
+"a": "Πού μένουν; | Πού μένουνε;",
+"why": "-ουν or -ουνε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Εσύ πού ___; (μένω)",
+"options": [
+"μένω",
+"μένεις",
+"μένει",
+"μένετε"
+],
+"answer": "μένεις",
+"why": "εσύ: -εις.",
+"id": "verb-system-675bddb6"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ στην Αθήνα. (δουλεύω)",
+"options": [
+"δουλεύετε",
+"δουλεύουμε",
+"δουλεύουν",
+"δουλεύει"
+],
+"answer": "δουλεύουμε",
+"why": "εμείς: -ουμε.",
+"id": "verb-system-4f36ee7a"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ μπάλα. (παίζω)",
+"options": [
+"παίζει",
+"παίζετε",
+"παίζουν",
+"παίζουμε"
+],
+"answer": "παίζουν",
+"why": "They: -ουν.",
+"id": "verb-system-414d0350"
+},
+{
+"type": "choice",
+"q": "Η Ελένη ___ ελληνικά. (διδάσκω)",
+"options": [
+"διδάσκω",
+"διδάσκει",
+"διδάσκεις",
+"διδάσκουν"
+],
+"answer": "διδάσκει",
+"why": "He/she: -ει.",
+"id": "verb-system-87ee921d"
+},
+{
+"type": "choice",
+"q": "Εσείς τι ___; (πίνω)",
+"options": [
+"πίνεις",
+"πίνετε",
+"πίνουμε",
+"πίνουν"
+],
+"answer": "πίνετε",
+"why": "εσείς: -ετε.",
+"id": "verb-system-27fe65fa"
+},
+{
+"type": "choice",
+"q": "The dictionary form of \"write\" is:",
+"options": [
+"γράφειν",
+"γράφω",
+"να γράφω",
+"γράψει"
+],
+"answer": "γράφω",
+"why": "Greek dictionaries list the first person singular.",
+"id": "verb-system-70b043b1"
+},
+{
+"type": "write",
+"q": "\"you write\" (informal)",
+"answer": "γράφεις",
+"accept": [],
+"why": "-εις.",
+"id": "verb-system-a2482a69"
+},
+{
+"type": "write",
+"q": "\"they read\" (διαβάζω)",
+"answer": "διαβάζουν",
+"accept": [
+"διαβάζουνε"
+],
+"why": "-ουν(ε).",
+"id": "verb-system-7d5471af"
+},
+{
+"type": "write",
+"q": "\"we live\" (μένω)",
+"answer": "μένουμε",
+"accept": [],
+"why": "-ουμε.",
+"id": "verb-system-15a93b86"
+},
+{
+"type": "write",
+"q": "\"she works\" (δουλεύω)",
+"answer": "δουλεύει",
+"accept": [],
+"why": "-ει.",
+"id": "verb-system-2ae3d76b"
+},
+{
+"type": "write",
+"q": "\"you (pl.) drink\" (πίνω)",
+"answer": "πίνετε",
+"accept": [],
+"why": "-ετε.",
+"id": "verb-system-cf0d0093"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Δύο θέματα",
+"title": "The two stems of every verb",
+"body": [
+{
+"p": "Every verb has a **present stem** and an **aorist stem**. The aorist stem usually adds **-σ-** or changes the last consonant:"
+},
+{
+"table": {
+"head": [
+"Present",
+"Aorist (past)",
+"Aorist stem",
+"Meaning"
+],
+"rows": [
+[
+"γράφω",
+"έγραψα",
+"γραψ-",
+"write"
+],
+[
+"αγοράζω",
+"αγόρασα",
+"αγορασ-",
+"buy"
+],
+[
+"διαβάζω",
+"διάβασα",
+"διαβασ-",
+"read, study"
+],
+[
+"ανοίγω",
+"άνοιξα",
+"ανοιξ-",
+"open"
+],
+[
+"κλείνω",
+"έκλεισα",
+"κλεισ-",
+"close"
+],
+[
+"δουλεύω",
+"δούλεψα",
+"δουλεψ-",
+"work"
+],
+[
+"αγαπάω",
+"αγάπησα",
+"αγαπησ-",
+"love"
+],
+[
+"πίνω",
+"ήπια",
+"πι-",
+"drink"
+]
+]
+}
+},
+{
+"p": "The **aorist stem** is used for the simple past, the simple future (**θα γράψω**), the subjunctive (**να γράψω**) and the imperative (**γράψε**). The **present stem** for the present, the imperfect (**έγραφα**), the continuous future (**θα γράφω**) and the continuous subjunctive (**να γράφω**)."
+},
+{
+"ex": [
+{
+"el": "Γράφω ένα μήνυμα. / Θα σου γράψω αύριο.",
+"en": "I'm writing a message. / I'll write to you tomorrow."
+},
+{
+"el": "Αγοράζω ψωμί κάθε μέρα. / Αγόρασα ψωμί.",
+"en": "I buy bread every day. / I bought bread."
+},
+{
+"el": "Ανοίγει στις εννιά. / Μπορείς να ανοίξεις το παράθυρο;",
+"en": "It opens at nine. / Can you open the window?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "Give the aorist stem of **αγοράζω**",
+"a": "αγορασ-",
+"why": "-ζω verbs usually take -σ-."
+},
+{
+"q": "Give the aorist stem of **γράφω**",
+"a": "γραψ-",
+"why": "φ + σ = ψ."
+},
+{
+"q": "Give the aorist stem of **ανοίγω**",
+"a": "ανοιξ-",
+"why": "γ + σ = ξ."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Aorist stem of **διαβάζω**",
+"options": [
+"διαβαζ-",
+"διαβασ-",
+"διαβαξ-",
+"διαβαψ-"
+],
+"answer": "διαβασ-",
+"why": "-άζω → -ασ-.",
+"id": "verb-system-d81df753"
+},
+{
+"type": "choice",
+"q": "Aorist stem of **δουλεύω**",
+"options": [
+"δουλευσ-",
+"δουλεψ-",
+"δουλεξ-",
+"δουλευ-"
+],
+"answer": "δουλεψ-",
+"why": "-εύω → -εψ-.",
+"id": "verb-system-932c9e05"
+},
+{
+"type": "choice",
+"q": "Aorist stem of **κλείνω**",
+"options": [
+"κλειν-",
+"κλεισ-",
+"κλειξ-",
+"κλειψ-"
+],
+"answer": "κλεισ-",
+"why": "-είνω → -εισ-.",
+"id": "verb-system-6df6f837"
+},
+{
+"type": "choice",
+"q": "Θα σου ___ αύριο. (simple future of γράφω)",
+"options": [
+"γράφω",
+"γράψω",
+"έγραψα",
+"γράψει"
+],
+"answer": "γράψω",
+"why": "The simple future uses the aorist stem.",
+"id": "verb-system-450c23bc"
+},
+{
+"type": "choice",
+"q": "Κάθε μέρα ___ ψωμί. (αγοράζω, habit)",
+"options": [
+"αγοράσω",
+"αγοράζω",
+"αγόρασα",
+"αγοράσει"
+],
+"answer": "αγοράζω",
+"why": "A habit: present stem.",
+"id": "verb-system-8bf57197"
+},
+{
+"type": "write",
+"q": "Aorist stem of **ανοίγω**",
+"answer": "ανοιξ-",
+"accept": [],
+"why": "γ + σ = ξ.",
+"id": "verb-system-9b538088"
+},
+{
+"type": "write",
+"q": "Aorist stem of **αγαπάω**",
+"answer": "αγαπησ-",
+"accept": [],
+"why": "-άω → -ησ-.",
+"id": "verb-system-9fbd5bf6"
+},
+{
+"type": "write",
+"q": "Aorist stem of **κόβω** \"cut\"",
+"answer": "κοψ-",
+"accept": [],
+"why": "β + σ = ψ.",
+"id": "verb-system-e3cc51e2"
+},
+{
+"type": "write",
+"q": "Aorist stem of **ψάχνω** \"look for\"",
+"answer": "ψαξ-",
+"accept": [],
+"why": "χν + σ = ξ.",
+"id": "verb-system-75f90e5c"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Οι οκτώ τύποι",
+"title": "The eight forms in one table",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Continuous (present stem)",
+"Perfective (aorist stem)"
+],
+"rows": [
+[
+"Present",
+"γράφω I write, I'm writing",
+""
+],
+[
+"Past",
+"έγραφα I was writing, I used to write",
+"έγραψα I wrote"
+],
+[
+"Future",
+"θα γράφω I'll be writing, I'll write (regularly)",
+"θα γράψω I'll write (once)"
+],
+[
+"Subjunctive",
+"να γράφω (to) write (regularly)",
+"να γράψω (to) write (once)"
+],
+[
+"Imperative",
+"γράφε! keep writing!",
+"γράψε! write!"
+]
+]
+}
+},
+{
+"p": "Add the **perfect** tenses, built with **έχω** + the invariable form **γράψει** (chapter 25): **έχω γράψει** \"I have written\", **είχα γράψει** \"I had written\", **θα έχω γράψει** \"I will have written\"."
+},
+{
+"p": "The **past tenses** stress the third-last syllable. When the stem is too short for that, an **augment έ-** is added in front and carries the stress: **έγραφα, έγραψα**. When the word is long enough, there is no augment: **γράψαμε, γράφαμε** (chapter 19)."
+},
+{
+"ex": [
+{
+"el": "Έγραφα όταν χτύπησε το τηλέφωνο.",
+"en": "I was writing when the phone rang."
+},
+{
+"el": "Θα σου γράφω κάθε εβδομάδα.",
+"en": "I'll write to you every week."
+},
+{
+"el": "Θα σου γράψω μόλις φτάσω.",
+"en": "I'll write to you as soon as I arrive."
+},
+{
+"el": "Θέλω να του γράψω.",
+"en": "I want to write to him."
+},
+{
+"el": "Γράψε μου!",
+"en": "Write to me!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I was reading when you called.\" (διαβάζω, παίρνω τηλέφωνο: πήρες)",
+"a": "Διάβαζα όταν πήρες τηλέφωνο.",
+"why": "Ongoing past action: imperfect; the interruption: aorist."
+},
+{
+"q": "\"I'll call you tomorrow.\" (παίρνω τηλέφωνο, aorist stem πάρ-)",
+"a": "Θα σε πάρω τηλέφωνο αύριο.",
+"why": "One action in the future: θα + aorist stem."
+},
+{
+"q": "Give the 8 forms of **αγοράζω** in the first person",
+"a": "αγοράζω, αγόραζα, αγόρασα, θα αγοράζω, θα αγοράσω, να αγοράζω, να αγοράσω, αγόραζε/αγόρασε",
+"why": "Present stem αγοραζ-, aorist stem αγορασ-."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Χθες ___ ένα ωραίο βιβλίο. (I bought, once)",
+"options": [
+"αγόραζα",
+"αγόρασα",
+"θα αγοράσω",
+"αγοράζω"
+],
+"answer": "αγόρασα",
+"why": "A single completed past event: aorist.",
+"id": "verb-system-0565fbe9"
+},
+{
+"type": "choice",
+"q": "Όταν ήμουν παιδί, ___ πολλά κόμικς. (I used to read)",
+"options": [
+"διάβασα",
+"διάβαζα",
+"θα διαβάσω",
+"διαβάσω"
+],
+"answer": "διάβαζα",
+"why": "Habit in the past: imperfect.",
+"id": "verb-system-b4927ba1"
+},
+{
+"type": "choice",
+"q": "Αύριο θα ___ στη γιαγιά. (I'll write, once)",
+"options": [
+"γράφω",
+"γράψω",
+"έγραψα",
+"γράψει"
+],
+"answer": "γράψω",
+"why": "Single future action: θα + aorist stem.",
+"id": "verb-system-5a0c2bcf"
+},
+{
+"type": "choice",
+"q": "Από τώρα και στο εξής θα ___ κάθε μέρα. (I'll exercise: γυμνάζομαι)",
+"options": [
+"γυμναστώ",
+"γυμνάζομαι",
+"γυμνάστηκα",
+"γυμναζόμουν"
+],
+"answer": "γυμνάζομαι",
+"why": "Repeated future action: θα + present stem.",
+"id": "verb-system-7813d642"
+},
+{
+"type": "choice",
+"q": "Θέλω να ___ το παράθυρο. (open, once)",
+"options": [
+"ανοίγω",
+"ανοίξω",
+"άνοιξα",
+"ανοίξει"
+],
+"answer": "ανοίξω",
+"why": "να + aorist stem for a single action.",
+"id": "verb-system-5747110a"
+},
+{
+"type": "choice",
+"q": "___ μου! (Write to me, once)",
+"options": [
+"Γράφε",
+"Γράψε",
+"Έγραψε",
+"Γράφω"
+],
+"answer": "Γράψε",
+"why": "Imperative of a single action: aorist stem.",
+"id": "verb-system-bcd2e7b2"
+},
+{
+"type": "write",
+"q": "\"I used to work in a bank.\" (δουλεύω)",
+"answer": "Δούλευα σε μια τράπεζα.",
+"accept": [
+"Δούλευα σε τράπεζα."
+],
+"why": "Imperfect for a past state or habit.",
+"id": "verb-system-6cae7293"
+},
+{
+"type": "write",
+"q": "\"I'll buy it tomorrow.\" (το)",
+"answer": "Θα το αγοράσω αύριο.",
+"accept": [],
+"why": "θα + aorist stem.",
+"id": "verb-system-4c35d910"
+},
+{
+"type": "write",
+"q": "\"I want to read it.\" (το)",
+"answer": "Θέλω να το διαβάσω.",
+"accept": [],
+"why": "να + aorist stem.",
+"id": "verb-system-830f4e76"
+},
+{
+"type": "write",
+"q": "\"Read it!\" (informal)",
+"answer": "Διάβασέ το!",
+"accept": [],
+"why": "Imperative, aorist stem; second accent before το.",
+"id": "verb-system-4051a791"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Η όψη",
+"title": "Aspect: the key to the Greek verb",
+"body": [
+{
+"p": "The choice between the two stems is **aspect**: how you **view** the action, not when it happens."
+},
+{
+"list": [
+"**Continuous** (present stem): the action is ongoing, repeated, habitual, or seen from the inside, without its end.",
+"**Perfective** (aorist stem): the action is one complete event, seen as a whole, often with a result."
+]
+},
+{
+"table": {
+"head": [
+"Continuous",
+"Perfective"
+],
+"rows": [
+[
+"Έτρωγα όταν ήρθες. I was eating when you came.",
+"Έφαγα και βγήκα. I ate and went out."
+],
+[
+"Κάθε μέρα θα τρέχω. I'll run every day.",
+"Αύριο θα τρέξω πέντε χιλιόμετρα. Tomorrow I'll run five km."
+],
+[
+"Πρέπει να διαβάζεις κάθε μέρα. You must study every day.",
+"Πρέπει να διαβάσεις αυτό το βιβλίο. You must read this book."
+],
+[
+"Μην τρως γλυκά! Don't eat sweets (as a habit)!",
+"Μη φας το γλυκό! Don't eat the cake (that particular one)!"
+]
+]
+}
+},
+{
+"p": "Words that point to the continuous: **κάθε μέρα, συνήθως, πάντα, συχνά, όλη μέρα, ενώ, την ώρα που**. Words that point to the perfective: **μία φορά, χθες το βράδυ** (for a single event), **αμέσως, μόλις, ξαφνικά**."
+},
+{
+"solved": [
+{
+"q": "\"Don't drink so much coffee!\" (a habit, πίνω)",
+"a": "Μην πίνεις τόσο πολύ καφέ!",
+"why": "Habit: present stem, να/μην + present."
+},
+{
+"q": "\"Don't drink that coffee, it's cold!\" (once, πιω)",
+"a": "Μην πιεις αυτόν τον καφέ, είναι κρύος!",
+"why": "One occasion: aorist stem πι-."
+},
+{
+"q": "\"While I was cooking, the phone rang.\" (μαγειρεύω, χτυπάω)",
+"a": "Ενώ μαγείρευα, χτύπησε το τηλέφωνο.",
+"why": "Background: continuous; event: perfective."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πρέπει να ___ κάθε μέρα. (exercise: γυμνάζομαι)",
+"options": [
+"γυμναστείς",
+"γυμνάζεσαι",
+"γυμνάστηκες",
+"γυμναζόσουν"
+],
+"answer": "γυμνάζεσαι",
+"why": "κάθε μέρα: continuous.",
+"id": "verb-system-9e4c7401"
+},
+{
+"type": "choice",
+"q": "Μπορείς να μου ___ το αλάτι; (pass: δίνω, once)",
+"options": [
+"δίνεις",
+"δώσεις",
+"έδωσες",
+"δίνες"
+],
+"answer": "δώσεις",
+"why": "One action: aorist stem δωσ-.",
+"id": "verb-system-ede5ce7b"
+},
+{
+"type": "choice",
+"q": "Ενώ ___, άρχισε να βρέχει. (we were walking: περπατάω)",
+"options": [
+"περπατήσαμε",
+"περπατούσαμε",
+"θα περπατήσουμε",
+"περπατήσουμε"
+],
+"answer": "περπατούσαμε",
+"why": "Background with ενώ: imperfect.",
+"id": "verb-system-a81ebbb8"
+},
+{
+"type": "choice",
+"q": "Ξαφνικά ___ τα φώτα. (went out: σβήνω)",
+"options": [
+"έσβηναν",
+"έσβησαν",
+"σβήνουν",
+"θα σβήνουν"
+],
+"answer": "έσβησαν",
+"why": "Sudden single event: aorist.",
+"id": "verb-system-2bb39f30"
+},
+{
+"type": "choice",
+"q": "Μη ___ τόσα γλυκά! (habit: τρώω)",
+"options": [
+"φας",
+"τρως",
+"έφαγες",
+"φάγε"
+],
+"answer": "τρως",
+"why": "Habit: μην + present stem.",
+"id": "verb-system-be2a4a1e"
+},
+{
+"type": "choice",
+"q": "Όλο το καλοκαίρι ___ στη θάλασσα. (we swam, again and again)",
+"options": [
+"κολυμπήσαμε μία φορά",
+"κολυμπούσαμε",
+"θα κολυμπήσουμε",
+"κολυμπήσουμε"
+],
+"answer": "κολυμπούσαμε",
+"why": "Repeated action over a period: imperfect.",
+"id": "verb-system-b6a27b42"
+},
+{
+"type": "write",
+"q": "\"While I was sleeping, someone called.\" (κοιμάμαι: κοιμόμουν)",
+"answer": "Ενώ κοιμόμουν, κάποιος πήρε τηλέφωνο.",
+"accept": [
+"Ενώ κοιμόμουν, τηλεφώνησε κάποιος."
+],
+"why": "Background imperfect + event aorist.",
+"id": "verb-system-5d3dc322"
+},
+{
+"type": "write",
+"q": "\"I'll call you every day.\" (informal)",
+"answer": "Θα σε παίρνω τηλέφωνο κάθε μέρα.",
+"accept": [
+"Θα σου τηλεφωνώ κάθε μέρα."
+],
+"why": "Repeated future: θα + present stem.",
+"id": "verb-system-81fcb2f3"
+},
+{
+"type": "write",
+"q": "\"Don't eat the cake!\" (one specific cake, informal)",
+"answer": "Μη φας το γλυκό!",
+"accept": [
+"Μην φας το γλυκό!"
+],
+"why": "One occasion: μη(ν) + aorist stem φα-.",
+"id": "verb-system-c4963ea5"
+},
+{
+"type": "order",
+"q": "\"I was reading when the light went out.\" (διάβαζα, έσβησε)",
+"answer": "Διάβαζα όταν έσβησε το φως.",
+"accept": [
+"Όταν έσβησε το φως, διάβαζα."
+],
+"why": "Imperfect background, aorist event.",
+"id": "verb-system-edeb82ee"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Φωνή και βασικοί τύποι",
+"title": "Voice and the principal parts",
+"body": [
+{
+"p": "Verbs come in two voices:"
+},
+{
+"list": [
+"**active** in **-ω**: **πλένω** \"I wash (something)\", **χάνω** \"I lose (something)\";",
+"**passive / middle** in **-ομαι**: **πλένομαι** \"I wash (myself)\", **χάνομαι** \"I get lost\"."
+]
+},
+{
+"p": "Many common verbs exist only in **-ομαι** with an active meaning: **έρχομαι** \"I come\", **κάθομαι** \"I sit\", **θυμάμαι** \"I remember\", **φοβάμαι** \"I'm afraid\", **χρειάζομαι** \"I need\" (chapters 26–27)."
+},
+{
+"p": "To use a verb fully you need its **principal parts**: present, aorist, passive aorist and past participle."
+},
+{
+"table": {
+"head": [
+"Present",
+"Aorist",
+"Passive aorist",
+"Participle"
+],
+"rows": [
+[
+"γράφω",
+"έγραψα",
+"γράφτηκα",
+"γραμμένος"
+],
+[
+"πλένω",
+"έπλυνα",
+"πλύθηκα",
+"πλυμένος"
+],
+[
+"ανοίγω",
+"άνοιξα",
+"ανοίχτηκα",
+"ανοιγμένος / ανοιχτός"
+],
+[
+"κλείνω",
+"έκλεισα",
+"κλείστηκα",
+"κλεισμένος"
+],
+[
+"χάνω",
+"έχασα",
+"χάθηκα",
+"χαμένος"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Πλένω τα πιάτα. / Πλένομαι και φεύγω.",
+"en": "I'm washing the dishes. / I'll have a wash and go."
+},
+{
+"el": "Έχασα τα κλειδιά μου. / Χάθηκα στην Πλάκα.",
+"en": "I lost my keys. / I got lost in Plaka."
+},
+{
+"el": "Το μαγαζί είναι κλεισμένο; Όχι, κλειστό.",
+"en": "Is the shop closed? (shut up) No, closed (for the day)."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Passive of **χάνω** with its meaning",
+"a": "χάνομαι: I get lost",
+"why": "-ομαι form, a middle meaning."
+},
+{
+"q": "Principal parts of **κλείνω**",
+"a": "κλείνω, έκλεισα, κλείστηκα, κλεισμένος",
+"why": "Present, aorist, passive aorist, participle."
+},
+{
+"q": "\"I got lost.\" (χάνομαι)",
+"a": "Χάθηκα.",
+"why": "Passive aorist of χάνω."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "\"I'm coming!\"",
+"options": [
+"Έρχω!",
+"Έρχομαι!",
+"Ερχόμουν!",
+"Ήρθα έρχομαι!"
+],
+"answer": "Έρχομαι!",
+"why": "έρχομαι exists only in -ομαι.",
+"id": "verb-system-228d0bdf"
+},
+{
+"type": "choice",
+"q": "\"I wash (myself) and go.\"",
+"options": [
+"Πλένω και φεύγω.",
+"Πλένομαι και φεύγω.",
+"Έπλυνα και φεύγω.",
+"Πλύθηκα και φεύγω."
+],
+"answer": "Πλένομαι και φεύγω.",
+"why": "Washing yourself: πλένομαι (Πλύθηκα would be \"I had a wash\", past).",
+"id": "verb-system-5b7b2e09"
+},
+{
+"type": "choice",
+"q": "Participle of **γράφω**",
+"options": [
+"γραφτός",
+"γραμμένος",
+"γράφοντας",
+"γραψμένος"
+],
+"answer": "γραμμένος",
+"why": "γραμμένος = written.",
+"id": "verb-system-5805293a"
+},
+{
+"type": "choice",
+"q": "Passive aorist of **χάνω**",
+"options": [
+"χάσθηκα",
+"χάθηκα",
+"χάνθηκα",
+"έχασα"
+],
+"answer": "χάθηκα",
+"why": "χάθηκα = I got lost.",
+"id": "verb-system-0ebd867d"
+},
+{
+"type": "choice",
+"q": "Η πόρτα είναι ___. (closed)",
+"options": [
+"κλείνει",
+"κλειστή",
+"κλείσει",
+"έκλεισε"
+],
+"answer": "κλειστή",
+"why": "Adjective / participle: κλειστή (or κλεισμένη).",
+"id": "verb-system-4fa9bdbf"
+},
+{
+"type": "write",
+"q": "\"I remember.\"",
+"answer": "Θυμάμαι.",
+"accept": [],
+"why": "Deponent in -άμαι.",
+"id": "verb-system-05116d62"
+},
+{
+"type": "write",
+"q": "\"I need help.\" (η βοήθεια)",
+"answer": "Χρειάζομαι βοήθεια.",
+"accept": [],
+"why": "χρειάζομαι + accusative.",
+"id": "verb-system-d6f850d0"
+},
+{
+"type": "write",
+"q": "Participle of **χάνω**",
+"answer": "χαμένος",
+"accept": [],
+"why": "χαμένος = lost.",
+"id": "verb-system-01519909"
+},
+{
+"type": "write",
+"q": "\"I'm afraid.\"",
+"answer": "Φοβάμαι.",
+"accept": [],
+"why": "Deponent in -άμαι.",
+"id": "verb-system-804ae239"
+}
+]
+}
+]
+}
+],
+"id": "verb-system",
+"el": "Το ρηματικό σύστημα",
+"title": "How the Greek verb works",
+"span": "A1–B1",
+"part": "Μέρος Ε΄ | Το ρήμα | The verb",
+"blurb": "Persons and endings, the two stems of every verb (present and aorist), the eight forms built from them, aspect explained with everyday examples, and the principal parts to learn.",
+"intro": [
+{
+"p": "The Greek verb looks big, but it is built from a small kit: **two stems** and **two sets of endings**. Every verb has a **present stem** (**γράφ-**) for actions seen as ongoing or repeated, and an **aorist stem** (**γράψ-**) for actions seen as single, complete events. Put **θα**, **να** or an augment in front, add the endings, and you have all the tenses."
+},
+{
+"p": "Learn each new verb with its **aorist**: **γράφω – έγραψα**, **αγοράζω – αγόρασα**, **πίνω – ήπια**. Once you know the two stems, the rest is automatic."
+},
+{
+"links": [
+{
+"href": "#b1-aspect",
+"kind": "Lesson",
+"el": "Ποιόν ενεργείας",
+"title": "Aspect: imperfective and perfective"
+},
+{
+"href": "#cards.verb-map",
+"kind": "Card",
+"el": "Ο χάρτης του ρήματος",
+"title": "The verb map"
+},
+{
+"href": "#cards.aspect",
+"kind": "Card",
+"el": "Ποιο θέμα; Η επιλογή της όψης",
+"title": "Choosing the aspect"
+},
+{
+"href": "#pos.verb-forms",
+"kind": "Part of speech",
+"el": "Το ρήμα Α΄: οι τύποι",
+"title": "The verb I: forms and conjugations"
+},
+{
+"href": "#syntax.subjunctive",
+"kind": "Syntax",
+"el": "Η υποτακτική και οι αλυσίδες με το να",
+"title": "The subjunctive and να-chains"
+}
+]
+}
+],
+"num": 16
+}

@@ -1,0 +1,1237 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Καταλήξεις και αύξηση",
+"title": "Endings and the augment",
+"body": [
+{
+"table": {
+"head": [
+"",
+"γράφω → έγραψα",
+"αγοράζω → αγόρασα"
+],
+"rows": [
+[
+"εγώ",
+"έγραψα",
+"αγόρασα"
+],
+[
+"εσύ",
+"έγραψες",
+"αγόρασες"
+],
+[
+"αυτός",
+"έγραψε",
+"αγόρασε"
+],
+[
+"εμείς",
+"γράψαμε",
+"αγοράσαμε"
+],
+[
+"εσείς",
+"γράψατε",
+"αγοράσατε"
+],
+[
+"αυτοί",
+"έγραψαν / γράψανε",
+"αγόρασαν / αγοράσανε"
+]
+]
+}
+},
+{
+"p": "**The stress rule**: in the past tenses the stress falls on the **third-last syllable**. **Γράψ-α** has only two syllables, so an **augment έ-** is added to carry the stress: **έ-γρα-ψα**. In **γρά-ψα-με** there are already three syllables, so no augment."
+},
+{
+"p": "Verbs that start with a vowel or are long enough never need it: **αγόρασα, άνοιξα, διάβασα, τηλεφώνησα**."
+},
+{
+"ex": [
+{
+"el": "Έγραψα στη μαμά μου χθες.",
+"en": "I wrote to my mum yesterday."
+},
+{
+"el": "Τι αγοράσατε;",
+"en": "What did you buy?"
+},
+{
+"el": "Γράψαμε το τεστ.",
+"en": "We took (wrote) the test."
+},
+{
+"el": "Έγραψαν / Γράψανε ένα τραγούδι.",
+"en": "They wrote a song."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Aorist of **κόβω** (stem κοψ-), all persons",
+"a": "έκοψα, έκοψες, έκοψε, κόψαμε, κόψατε, έκοψαν | έκοψα, έκοψες, έκοψε, κόψαμε, κόψατε, κόψανε",
+"why": "Augment only where the stress needs it."
+},
+{
+"q": "\"We read the book.\" (διαβάζω, stem διαβασ-)",
+"a": "Διαβάσαμε το βιβλίο.",
+"why": "No augment: the verb is long enough."
+},
+{
+"q": "Why no augment in **κόψαμε**?",
+"a": "Three syllables already: κό-ψα-με",
+"why": "The stress falls on the third-last syllable without help."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Χθες ___ ένα γράμμα. (γράφω, I)",
+"options": [
+"γράψα",
+"έγραψα",
+"γράψαμε",
+"έγραφα"
+],
+"answer": "έγραψα",
+"why": "One-syllable stem: augment έ-.",
+"id": "aorist-003ea9ab"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ ψωμί. (αγοράζω)",
+"options": [
+"αγόρασαν",
+"αγοράσαμε",
+"αγόρασα",
+"αγοράζαμε"
+],
+"answer": "αγοράσαμε",
+"why": "-αμε, stress on the third-last syllable.",
+"id": "aorist-1047558e"
+},
+{
+"type": "choice",
+"q": "Πού ___ το αυτοκίνητο; (you left it: αφήνω, stem αφησ-)",
+"options": [
+"αφήσες",
+"άφησες",
+"έφησες",
+"αφήνες"
+],
+"answer": "άφησες",
+"why": "Third-last stress: ά-φη-σες.",
+"id": "aorist-84e499ab"
+},
+{
+"type": "choice",
+"q": "Οι φίλοι μου ___ νωρίς. (έφυγαν / φύγανε: they left)",
+"options": [
+"φύγαν",
+"έφυγαν",
+"εφύγανε",
+"φεύγαν"
+],
+"answer": "έφυγαν",
+"why": "έφυγαν (or φύγανε).",
+"id": "aorist-e9c816e6"
+},
+{
+"type": "choice",
+"q": "Εσείς τι ___; (κάνω, aorist έκανα)",
+"options": [
+"έκανατε",
+"κάνατε",
+"εκάνατε",
+"κάνετε"
+],
+"answer": "κάνατε",
+"why": "Long enough, no augment: κάνατε.",
+"id": "aorist-9f8147dd"
+},
+{
+"type": "choice",
+"q": "Αυτή ___ την πόρτα. (κλείνω, stem κλεισ-)",
+"options": [
+"κλείσε",
+"έκλεισε",
+"κλείσαμε",
+"έκλεισα"
+],
+"answer": "έκλεισε",
+"why": "he/she: έκλεισε.",
+"id": "aorist-3d1a69dc"
+},
+{
+"type": "write",
+"q": "Aorist \"I cut\" (κόβω)",
+"answer": "έκοψα",
+"accept": [],
+"why": "Augment + κοψ- + α.",
+"id": "aorist-3816cfef"
+},
+{
+"type": "write",
+"q": "Aorist \"we wrote\"",
+"answer": "γράψαμε",
+"accept": [],
+"why": "No augment.",
+"id": "aorist-6d6db1c8"
+},
+{
+"type": "write",
+"q": "Aorist \"they bought\"",
+"answer": "αγόρασαν",
+"accept": [
+"αγοράσανε"
+],
+"why": "-αν / -ανε.",
+"id": "aorist-80fbfb32"
+},
+{
+"type": "write",
+"q": "Aorist \"you (sg) wrote\"",
+"answer": "έγραψες",
+"accept": [],
+"why": "Augment.",
+"id": "aorist-22d73eed"
+},
+{
+"type": "write",
+"q": "Aorist \"you (pl) closed\" (κλείνω)",
+"answer": "κλείσατε",
+"accept": [],
+"why": "No augment.",
+"id": "aorist-5224c5a6"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Αόριστος σε -σα",
+"title": "Aorists in -σα: -ζω, -νω, -ώνω",
+"body": [
+{
+"table": {
+"head": [
+"Present",
+"Aorist",
+"Meaning"
+],
+"rows": [
+[
+"αγοράζω",
+"αγόρασα",
+"buy"
+],
+[
+"διαβάζω",
+"διάβασα",
+"read, study"
+],
+[
+"ετοιμάζω",
+"ετοίμασα",
+"prepare"
+],
+[
+"κλείνω",
+"έκλεισα",
+"close"
+],
+[
+"φτάνω",
+"έφτασα",
+"arrive"
+],
+[
+"πιάνω",
+"έπιασα",
+"catch, grab"
+],
+[
+"χάνω",
+"έχασα",
+"lose"
+],
+[
+"πληρώνω",
+"πλήρωσα",
+"pay"
+],
+[
+"τελειώνω",
+"τελείωσα",
+"finish"
+],
+[
+"ξεκινάω",
+"ξεκίνησα",
+"start (B1, see below)"
+]
+]
+}
+},
+{
+"p": "Some **-ζω** verbs take **-ξα** instead: **παίζω → έπαιξα** play, **φωνάζω → φώναξα** shout, **αλλάζω → άλλαξα** change, **κοιτάζω → κοίταξα** look, **σφυρίζω → σφύριξα** whistle. Learn them with the aorist."
+},
+{
+"ex": [
+{
+"el": "Πλήρωσες τον λογαριασμό;",
+"en": "Did you pay the bill?"
+},
+{
+"el": "Φτάσαμε!",
+"en": "We're here! (lit. we arrived)"
+},
+{
+"el": "Έχασα το λεωφορείο.",
+"en": "I missed the bus."
+},
+{
+"el": "Τελείωσα τη δουλειά νωρίς.",
+"en": "I finished work early."
+},
+{
+"el": "Παίξαμε τάβλι όλο το απόγευμα.",
+"en": "We played backgammon all afternoon."
+},
+{
+"el": "Άλλαξες κούρεμα!",
+"en": "You've had a new haircut!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "Aorist of **ετοιμάζω** (I)",
+"a": "ετοίμασα",
+"why": "-άζω → -ασα."
+},
+{
+"q": "Aorist of **πληρώνω** (we)",
+"a": "πληρώσαμε",
+"why": "-ώνω → -ωσα; no augment."
+},
+{
+"q": "Aorist of **παίζω** (I)",
+"a": "έπαιξα",
+"why": "παίζω takes -ξα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ το λεωφορείο! (I missed: χάνω)",
+"options": [
+"Χάνησα",
+"Έχασα",
+"Έχανα",
+"Χάσα"
+],
+"answer": "Έχασα",
+"why": "χάνω → έχασα.",
+"id": "aorist-475003fe"
+},
+{
+"type": "choice",
+"q": "Πότε ___; (you arrived: φτάνω)",
+"options": [
+"φτάσες",
+"έφτασες",
+"έφτανες",
+"φτάνεις"
+],
+"answer": "έφτασες",
+"why": "Augment: έφτασες.",
+"id": "aorist-07596332"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ στον κήπο. (played)",
+"options": [
+"έπαιζσαν",
+"έπαιξαν",
+"παίσαν",
+"έπαισαν"
+],
+"answer": "έπαιξαν",
+"why": "παίζω → έπαιξα.",
+"id": "aorist-e5ebef8d"
+},
+{
+"type": "choice",
+"q": "___ τη δουλειά σου; (Did you finish: τελειώνω)",
+"options": [
+"Τελείωνες",
+"Τελείωσες",
+"Τελειώσες",
+"Τέλειωσες"
+],
+"answer": "Τελείωσες",
+"why": "Third-last stress: τε-λεί-ω-σες.",
+"id": "aorist-7465ecc4"
+},
+{
+"type": "choice",
+"q": "Ποιος ___ τον λογαριασμό; (paid)",
+"options": [
+"πλήρωνε",
+"πλήρωσε",
+"πληρώσε",
+"πλήρωσαν"
+],
+"answer": "πλήρωσε",
+"why": "he/she: πλήρωσε.",
+"id": "aorist-c427050c"
+},
+{
+"type": "choice",
+"q": "___ τα σεντόνια. (We changed: αλλάζω)",
+"options": [
+"Αλλάσαμε",
+"Αλλάξαμε",
+"Άλλαξαμε",
+"Αλλάζαμε"
+],
+"answer": "Αλλάξαμε",
+"why": "αλλάζω → άλλαξα, αλλάξαμε.",
+"id": "aorist-5a730189"
+},
+{
+"type": "write",
+"q": "Aorist \"I prepared\" (ετοιμάζω)",
+"answer": "ετοίμασα",
+"accept": [],
+"why": "-ασα.",
+"id": "aorist-3d53877a"
+},
+{
+"type": "write",
+"q": "Aorist \"we arrived\" (φτάνω)",
+"answer": "φτάσαμε",
+"accept": [],
+"why": "-σαμε.",
+"id": "aorist-cf73c567"
+},
+{
+"type": "write",
+"q": "Aorist \"I shouted\" (φωνάζω)",
+"answer": "φώναξα",
+"accept": [],
+"why": "-ξα.",
+"id": "aorist-2513b94a"
+},
+{
+"type": "write",
+"q": "Aorist \"you (sg) looked\" (κοιτάζω)",
+"answer": "κοίταξες",
+"accept": [],
+"why": "-ξες.",
+"id": "aorist-03764095"
+},
+{
+"type": "write",
+"q": "\"Did you pay?\" (informal)",
+"answer": "Πλήρωσες;",
+"accept": [],
+"why": "πληρώνω → πλήρωσα.",
+"id": "aorist-e6883792"
+},
+{
+"type": "order",
+"q": "\"We missed the boat.\" (το πλοίο)",
+"answer": "Χάσαμε το πλοίο.",
+"accept": [],
+"why": "χάνω → χάσαμε.",
+"id": "aorist-5d5d6033"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Αόριστος σε -ψα και -ξα",
+"title": "Aorists in -ψα and -ξα",
+"body": [
+{
+"p": "**-ψα** comes from stems in **β, π, φ, πτ, φτ** and from **-εύω**:"
+},
+{
+"table": {
+"head": [
+"Present",
+"Aorist",
+"Meaning"
+],
+"rows": [
+[
+"γράφω",
+"έγραψα",
+"write"
+],
+[
+"κόβω",
+"έκοψα",
+"cut"
+],
+[
+"ανάβω",
+"άναψα",
+"light, switch on"
+],
+[
+"λείπω",
+"έλειψα",
+"be away, be missing"
+],
+[
+"δουλεύω",
+"δούλεψα",
+"work"
+],
+[
+"μαγειρεύω",
+"μαγείρεψα",
+"cook"
+],
+[
+"χορεύω",
+"χόρεψα",
+"dance"
+],
+[
+"πιστεύω",
+"πίστεψα",
+"believe"
+]
+]
+}
+},
+{
+"p": "**-ξα** comes from stems in **γ, κ, χ, χν, σκ** and some **-ζω**:"
+},
+{
+"table": {
+"head": [
+"Present",
+"Aorist",
+"Meaning"
+],
+"rows": [
+[
+"ανοίγω",
+"άνοιξα",
+"open"
+],
+[
+"τρέχω",
+"έτρεξα",
+"run"
+],
+[
+"ψάχνω",
+"έψαξα",
+"look for"
+],
+[
+"διώχνω",
+"έδιωξα",
+"chase away"
+],
+[
+"διδάσκω",
+"δίδαξα",
+"teach"
+],
+[
+"δείχνω",
+"έδειξα",
+"show"
+],
+[
+"μοιάζω",
+"έμοιαξα",
+"look like"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Χορέψαμε μέχρι το πρωί.",
+"en": "We danced till morning."
+},
+{
+"el": "Άναψες το φως;",
+"en": "Did you switch on the light?"
+},
+{
+"el": "Μαγείρεψα μουσακά.",
+"en": "I cooked moussaka."
+},
+{
+"el": "Σε έψαξα παντού!",
+"en": "I looked for you everywhere!"
+},
+{
+"el": "Μου έδειξε τη γειτονιά.",
+"en": "She showed me the neighbourhood."
+},
+{
+"el": "Έτρεξα να προλάβω το τρένο.",
+"en": "I ran to catch the train."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Aorist of **χορεύω** (we)",
+"a": "χορέψαμε",
+"why": "-εύω → -εψα."
+},
+{
+"q": "Aorist of **ψάχνω** (I)",
+"a": "έψαξα",
+"why": "-χνω → -ξα."
+},
+{
+"q": "Aorist of **ανάβω** (she)",
+"a": "άναψε",
+"why": "-βω → -ψα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ποιος ___ το φαγητό; (cooked)",
+"options": [
+"μαγείρευσε",
+"μαγείρεψε",
+"μαγείρεξε",
+"μαγειρέψε"
+],
+"answer": "μαγείρεψε",
+"why": "-εύω → -εψα.",
+"id": "aorist-f49b9ce7"
+},
+{
+"type": "choice",
+"q": "___ το παράθυρο. (I opened)",
+"options": [
+"Άνοιψα",
+"Άνοιξα",
+"Άνοισα",
+"Ανοίξα"
+],
+"answer": "Άνοιξα",
+"why": "-γω → -ξα.",
+"id": "aorist-44f8629a"
+},
+{
+"type": "choice",
+"q": "Σου ___ τις φωτογραφίες; (I showed you)",
+"options": [
+"έδειψα",
+"έδειξα",
+"έδειχνα",
+"δείξα"
+],
+"answer": "έδειξα",
+"why": "δείχνω → έδειξα.",
+"id": "aorist-4059eb75"
+},
+{
+"type": "choice",
+"q": "Ο σκύλος ___ πίσω από τη γάτα. (ran)",
+"options": [
+"έτρεψε",
+"έτρεξε",
+"έτρεσε",
+"τρέξε"
+],
+"answer": "έτρεξε",
+"why": "τρέχω → έτρεξα.",
+"id": "aorist-bad0b171"
+},
+{
+"type": "choice",
+"q": "Δεν σε ___. (I believed)",
+"options": [
+"πίστευσα",
+"πίστεψα",
+"πίστεξα",
+"πιστέψα"
+],
+"answer": "πίστεψα",
+"why": "-εύω → -εψα.",
+"id": "aorist-b89f4e8e"
+},
+{
+"type": "choice",
+"q": "Μας ___ μαθηματικά. (taught: διδάσκω)",
+"options": [
+"δίδασε",
+"δίδαξε",
+"δίδαψε",
+"διδάσκησε"
+],
+"answer": "δίδαξε",
+"why": "-σκω → -ξα.",
+"id": "aorist-1a3135d7"
+},
+{
+"type": "write",
+"q": "Aorist \"I worked\" (δουλεύω)",
+"answer": "δούλεψα",
+"accept": [],
+"why": "-εψα.",
+"id": "aorist-2b69077d"
+},
+{
+"type": "write",
+"q": "Aorist \"we ran\" (τρέχω)",
+"answer": "τρέξαμε",
+"accept": [],
+"why": "-ξαμε.",
+"id": "aorist-020f4241"
+},
+{
+"type": "write",
+"q": "Aorist \"they danced\" (χορεύω)",
+"answer": "χόρεψαν",
+"accept": [
+"χορέψανε"
+],
+"why": "-εψαν.",
+"id": "aorist-f555ccb4"
+},
+{
+"type": "write",
+"q": "Aorist \"you (sg) cut\" (κόβω)",
+"answer": "έκοψες",
+"accept": [],
+"why": "-ψες.",
+"id": "aorist-333c12ce"
+},
+{
+"type": "write",
+"q": "\"I looked for you everywhere.\" (informal)",
+"answer": "Σε έψαξα παντού.",
+"accept": [
+"Σ' έψαξα παντού."
+],
+"why": "ψάχνω → έψαξα.",
+"id": "aorist-af577710"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Αόριστος των ρημάτων σε -άω και -ώ",
+"title": "Aorists of -άω and -ώ verbs: -ησα, -ασα, -εσα",
+"body": [
+{
+"p": "Most B1 and B2 verbs take **-ησα**:"
+},
+{
+"table": {
+"head": [
+"Present",
+"Aorist",
+"Meaning"
+],
+"rows": [
+[
+"μιλάω",
+"μίλησα",
+"speak"
+],
+[
+"ρωτάω",
+"ρώτησα",
+"ask"
+],
+[
+"αγαπάω",
+"αγάπησα",
+"love"
+],
+[
+"ξυπνάω",
+"ξύπνησα",
+"wake up"
+],
+[
+"τηλεφωνώ",
+"τηλεφώνησα",
+"phone"
+],
+[
+"οδηγώ",
+"οδήγησα",
+"drive"
+],
+[
+"ζω",
+"έζησα",
+"live"
+],
+[
+"βοηθάω / βοηθώ",
+"βοήθησα",
+"help"
+]
+]
+}
+},
+{
+"p": "A smaller group takes **-ασα**: **γελάω → γέλασα**, **ξεχνάω → ξέχασα**, **περνάω → πέρασα**, **πεινάω → πείνασα**, **διψάω → δίψασα**, **χαλάω → χάλασα** \"break down\", **κρεμάω → κρέμασα**."
+},
+{
+"p": "And a few take **-εσα**: **μπορώ → μπόρεσα**, **φοράω → φόρεσα**, **καλώ → κάλεσα**, **παρακαλώ → παρακάλεσα**, **πονάω → πόνεσα**, **αρκώ → άρκεσα**."
+},
+{
+"ex": [
+{
+"el": "Μίλησες με τον Γιώργο;",
+"en": "Did you talk to Giorgos?"
+},
+{
+"el": "Ξέχασα το πορτοφόλι μου!",
+"en": "I forgot my wallet!"
+},
+{
+"el": "Περάσαμε τέλεια!",
+"en": "We had a great time!"
+},
+{
+"el": "Χάλασε το ψυγείο.",
+"en": "The fridge has broken down."
+},
+{
+"el": "Δεν μπόρεσα να έρθω.",
+"en": "I couldn't come."
+},
+{
+"el": "Τι φόρεσες στον γάμο;",
+"en": "What did you wear to the wedding?"
+},
+{
+"el": "Ζήσαμε δέκα χρόνια στη Γερμανία.",
+"en": "We lived in Germany for ten years."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Aorist of **ρωτάω** (I)",
+"a": "ρώτησα",
+"why": "-άω → -ησα."
+},
+{
+"q": "Aorist of **ξεχνάω** (I)",
+"a": "ξέχασα",
+"why": "One of the -ασα group."
+},
+{
+"q": "Aorist of **μπορώ** (I, negative: I couldn't)",
+"a": "δεν μπόρεσα",
+"why": "-εσα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ με τη μαμά σου; (Did you talk)",
+"options": [
+"Μίλασες",
+"Μίλησες",
+"Μίλεσες",
+"Μιλήσες"
+],
+"answer": "Μίλησες",
+"why": "μιλάω → μίλησα.",
+"id": "aorist-653a1d21"
+},
+{
+"type": "choice",
+"q": "___ τα κλειδιά μου! (I forgot)",
+"options": [
+"Ξέχνησα",
+"Ξέχασα",
+"Ξεχάσα",
+"Ξέχνασα"
+],
+"answer": "Ξέχασα",
+"why": "ξεχνάω → ξέχασα.",
+"id": "aorist-fcf7663b"
+},
+{
+"type": "choice",
+"q": "Δεν ___ να κοιμηθώ. (I couldn't)",
+"options": [
+"μπόρησα",
+"μπόρεσα",
+"μπόρασα",
+"μπορέσα"
+],
+"answer": "μπόρεσα",
+"why": "μπορώ → μπόρεσα.",
+"id": "aorist-fa20b1f9"
+},
+{
+"type": "choice",
+"q": "___ πολύ καλά στις διακοπές. (We had a time: περνάω)",
+"options": [
+"Περνήσαμε",
+"Περάσαμε",
+"Περάσαμαν",
+"Πέρασαμε"
+],
+"answer": "Περάσαμε",
+"why": "περνάω → πέρασα.",
+"id": "aorist-b80b2b10"
+},
+{
+"type": "choice",
+"q": "Τι ___ στο πάρτι; (did you wear: φοράω)",
+"options": [
+"φόρησες",
+"φόρεσες",
+"φόρασες",
+"φορέσες"
+],
+"answer": "φόρεσες",
+"why": "φοράω → φόρεσα.",
+"id": "aorist-3b7b5d02"
+},
+{
+"type": "choice",
+"q": "Το αυτοκίνητο ___ στον δρόμο. (broke down: χαλάω)",
+"options": [
+"χάλησε",
+"χάλασε",
+"χάλεσε",
+"χαλάσε"
+],
+"answer": "χάλασε",
+"why": "χαλάω → χάλασα.",
+"id": "aorist-58a561f7"
+},
+{
+"type": "choice",
+"q": "___ στη Γαλλία πέντε χρόνια. (We lived: ζω)",
+"options": [
+"Ζάσαμε",
+"Ζήσαμε",
+"Έζησαμε",
+"Ζέσαμε"
+],
+"answer": "Ζήσαμε",
+"why": "ζω → έζησα, ζήσαμε.",
+"id": "aorist-4c6099ca"
+},
+{
+"type": "write",
+"q": "Aorist \"I phoned\" (τηλεφωνώ)",
+"answer": "τηλεφώνησα",
+"accept": [],
+"why": "-ησα.",
+"id": "aorist-380a7465"
+},
+{
+"type": "write",
+"q": "Aorist \"we laughed\" (γελάω)",
+"answer": "γελάσαμε",
+"accept": [],
+"why": "-ασα group.",
+"id": "aorist-dfdea38f"
+},
+{
+"type": "write",
+"q": "Aorist \"I invited\" (καλώ)",
+"answer": "κάλεσα",
+"accept": [],
+"why": "-εσα.",
+"id": "aorist-04ad51f7"
+},
+{
+"type": "write",
+"q": "Aorist \"you (sg) woke up\" (ξυπνάω)",
+"answer": "ξύπνησες",
+"accept": [],
+"why": "-ησα.",
+"id": "aorist-e7c1816a"
+},
+{
+"type": "write",
+"q": "Aorist \"it hurt\" (πονάω)",
+"answer": "πόνεσε",
+"accept": [],
+"why": "-εσα.",
+"id": "aorist-f04910e2"
+},
+{
+"type": "order",
+"q": "\"I forgot my wallet at home.\" (το πορτοφόλι)",
+"answer": "Ξέχασα το πορτοφόλι μου στο σπίτι.",
+"accept": [],
+"why": "ξεχνάω → ξέχασα.",
+"id": "aorist-c66be36d"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Πότε χρησιμοποιούμε τον αόριστο",
+"title": "When to use the aorist",
+"body": [
+{
+"p": "Use the aorist for a **completed** action in the past, seen as a whole: **Χθες έφαγα ψάρι.** It goes with **χθες, πέρσι, πριν από, την περασμένη εβδομάδα, μόλις, ξαφνικά, μια φορά**."
+},
+{
+"p": "Greek also uses the aorist for many English **present perfects** (\"have done\"), especially in questions and when the result is what matters:"
+},
+{
+"ex": [
+{
+"el": "Έφαγες;",
+"en": "Have you eaten?"
+},
+{
+"el": "Τελείωσες;",
+"en": "Have you finished?"
+},
+{
+"el": "Ήρθε ο Νίκος;",
+"en": "Has Nikos arrived?"
+},
+{
+"el": "Το είδες αυτό;",
+"en": "Have you seen this?"
+},
+{
+"el": "Μόλις έφτασα.",
+"en": "I've just arrived."
+},
+{
+"el": "Πήρες τα εισιτήρια;",
+"en": "Have you got the tickets?"
+}
+]
+},
+{
+"p": "The perfect (**έχω φάει**) exists too, for experience and results counted up to now (chapter 25); the aorist is far more common in speech."
+},
+{
+"tip": "**Μόλις** + aorist = \"just\": **Μόλις τελείωσα** \"I've just finished\". With a future it means \"as soon as\": **Μόλις τελειώσω, θα σε πάρω** \"As soon as I finish, I'll call you\"."
+},
+{
+"solved": [
+{
+"q": "\"Have you eaten?\" (informal)",
+"a": "Έφαγες; | Έχεις φάει;",
+"why": "The aorist is the everyday choice."
+},
+{
+"q": "\"I've just arrived.\"",
+"a": "Μόλις έφτασα.",
+"why": "μόλις + aorist."
+},
+{
+"q": "\"Has the bus come?\"",
+"a": "Ήρθε το λεωφορείο; | Έχει έρθει το λεωφορείο;",
+"why": "Aorist for a recent event."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "\"Have you finished?\" (informal, everyday)",
+"options": [
+"Τελειώνεις;",
+"Τελείωσες;",
+"Θα τελειώσεις;",
+"Τελείωνες;"
+],
+"answer": "Τελείωσες;",
+"why": "Everyday Greek uses the aorist.",
+"id": "aorist-d22f7617"
+},
+{
+"type": "choice",
+"q": "\"I've just seen him.\"",
+"options": [
+"Μόλις τον βλέπω.",
+"Μόλις τον είδα.",
+"Μόλις θα τον δω.",
+"Μόλις τον έβλεπα."
+],
+"answer": "Μόλις τον είδα.",
+"why": "μόλις + aorist = just.",
+"id": "aorist-d658caf0"
+},
+{
+"type": "choice",
+"q": "Χθες το βράδυ ___ μια ωραία ταινία. (we watched)",
+"options": [
+"βλέπαμε συνέχεια",
+"είδαμε",
+"θα δούμε",
+"βλέπουμε"
+],
+"answer": "είδαμε",
+"why": "A completed event yesterday: aorist.",
+"id": "aorist-287b12b8"
+},
+{
+"type": "choice",
+"q": "Πέρσι ___ στην Κρήτη. (we went, once)",
+"options": [
+"πηγαίναμε",
+"πήγαμε",
+"πάμε",
+"θα πάμε"
+],
+"answer": "πήγαμε",
+"why": "πέρσι + one trip: aorist.",
+"id": "aorist-f3be752f"
+},
+{
+"type": "choice",
+"q": "\"Did you get the tickets?\" (informal)",
+"options": [
+"Παίρνεις τα εισιτήρια;",
+"Πήρες τα εισιτήρια;",
+"Θα πάρεις τα εισιτήρια;",
+"Έπαιρνες τα εισιτήρια;"
+],
+"answer": "Πήρες τα εισιτήρια;",
+"why": "Aorist of παίρνω: πήρα.",
+"id": "aorist-b72347b3"
+},
+{
+"type": "write",
+"q": "\"Have you seen this?\" (informal)",
+"answer": "Το είδες αυτό;",
+"accept": [
+"Είδες αυτό;"
+],
+"why": "Aorist for \"have you seen\".",
+"id": "aorist-8a0cd8b5"
+},
+{
+"type": "write",
+"q": "\"I've just finished.\"",
+"answer": "Μόλις τελείωσα.",
+"accept": [],
+"why": "μόλις + aorist.",
+"id": "aorist-4ea8d019"
+},
+{
+"type": "write",
+"q": "\"Last year we bought a house.\"",
+"answer": "Πέρσι αγοράσαμε ένα σπίτι.",
+"accept": [
+"Πέρσι αγοράσαμε σπίτι."
+],
+"why": "Completed: aorist.",
+"id": "aorist-d41b8b07"
+},
+{
+"type": "write",
+"q": "\"Yesterday I worked until late.\" (μέχρι αργά)",
+"answer": "Χθες δούλεψα μέχρι αργά.",
+"accept": [],
+"why": "One completed day: aorist.",
+"id": "aorist-1fc573af"
+},
+{
+"type": "order",
+"q": "\"Have you finished your coffee?\" (informal)",
+"answer": "Τελείωσες τον καφέ σου;",
+"accept": [],
+"why": "Aorist for \"have you finished\".",
+"id": "aorist-7f85d83d"
+}
+]
+}
+]
+}
+],
+"id": "aorist",
+"el": "Ο αόριστος",
+"title": "The simple past (aorist)",
+"span": "A2–B1",
+"blurb": "The past endings and the augment, how to form the aorist stem from the present (-σα, -ψα, -ξα, -ησα, -ασα, -εσα), and when Greek uses the aorist where English says \"have done\".",
+"intro": [
+{
+"p": "The aorist is the Greek simple past: **έφαγα** \"I ate\", **πήγαμε** \"we went\", **είδες;** \"did you see?\". It is the most frequent past tense, used for every completed event. It is formed from the **aorist stem** plus the past endings, with an **augment έ-** when the word would otherwise be too short to carry the stress."
+},
+{
+"links": [
+{
+"href": "#a2-aorist",
+"kind": "Lesson",
+"el": "Αόριστος",
+"title": "The simple past and the augment"
+},
+{
+"href": "#verbs-aorist-stems",
+"kind": "Lesson",
+"el": "Το συνοπτικό θέμα",
+"title": "Forming the perfective stem"
+},
+{
+"href": "#cards.aorist",
+"kind": "Card",
+"el": "Αόριστος: σχηματισμός",
+"title": "The aorist: forming the perfective stem"
+},
+{
+"href": "#pos.verb-forms",
+"kind": "Part of speech",
+"el": "Το ρήμα Α΄: οι τύποι",
+"title": "The verb I: forms and conjugations"
+},
+{
+"href": "#klisi",
+"kind": "Drill books",
+"el": "Τετράδια κλίσης",
+"title": "Declension and conjugation drill books"
+}
+]
+}
+],
+"num": 18
+}

@@ -1,0 +1,1092 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Ομάδα Α: γράφω",
+"title": "Group A: γράφω",
+"body": [
+{
+"table": {
+"head": [
+"",
+""
+],
+"rows": [
+[
+"γράφω",
+"γράφουμε"
+],
+[
+"γράφεις",
+"γράφετε"
+],
+[
+"γράφει",
+"γράφουν(ε)"
+]
+]
+}
+},
+{
+"p": "Most verbs belong here: **δουλεύω** work, **μένω** live, **πίνω** drink, **διαβάζω** read, **ξέρω** know, **θέλω** want, **έχω** have, **κάνω** do, **παίρνω** take, **φεύγω** leave, **καταλαβαίνω** understand, **περιμένω** wait."
+},
+{
+"ex": [
+{
+"el": "Τι κάνεις απόψε;",
+"en": "What are you doing tonight?"
+},
+{
+"el": "Δεν καταλαβαίνω. Μπορείτε να το πείτε ξανά;",
+"en": "I don't understand. Could you say it again?"
+},
+{
+"el": "Περιμένουμε το λεωφορείο.",
+"en": "We're waiting for the bus."
+},
+{
+"el": "Τι θέλετε να πιείτε;",
+"en": "What would you like to drink?"
+},
+{
+"el": "Φεύγουν αύριο.",
+"en": "They're leaving tomorrow."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Conjugate **ξέρω**",
+"a": "ξέρω, ξέρεις, ξέρει, ξέρουμε, ξέρετε, ξέρουν | ξέρω, ξέρεις, ξέρει, ξέρουμε, ξέρετε, ξέρουνε",
+"why": "Group A endings."
+},
+{
+"q": "\"Do you understand?\" (informal)",
+"a": "Καταλαβαίνεις;",
+"why": "-εις."
+},
+{
+"q": "\"We're leaving now.\"",
+"a": "Φεύγουμε τώρα.",
+"why": "-ουμε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Εσύ τι ___; (θέλω)",
+"options": [
+"θέλει",
+"θέλεις",
+"θέλετε",
+"θέλω"
+],
+"answer": "θέλεις",
+"why": "εσύ: -εις.",
+"id": "present-be99bf49"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ στη Θεσσαλονίκη. (μένω)",
+"options": [
+"μένετε",
+"μένουμε",
+"μένουν",
+"μένει"
+],
+"answer": "μένουμε",
+"why": "εμείς: -ουμε.",
+"id": "present-a6187c5c"
+},
+{
+"type": "choice",
+"q": "Ο Νίκος ___ σε τράπεζα. (δουλεύω)",
+"options": [
+"δουλεύεις",
+"δουλεύει",
+"δουλεύουν",
+"δουλεύετε"
+],
+"answer": "δουλεύει",
+"why": "He: -ει.",
+"id": "present-7a1aadfe"
+},
+{
+"type": "choice",
+"q": "Εσείς ___ ελληνικά; (καταλαβαίνω)",
+"options": [
+"καταλαβαίνεις",
+"καταλαβαίνετε",
+"καταλαβαίνουν",
+"καταλαβαίνουμε"
+],
+"answer": "καταλαβαίνετε",
+"why": "εσείς: -ετε.",
+"id": "present-03bb8d80"
+},
+{
+"type": "choice",
+"q": "Οι φίλοι μου ___ μπίρα. (πίνω)",
+"options": [
+"πίνει",
+"πίνετε",
+"πίνουν",
+"πίνουμε"
+],
+"answer": "πίνουν",
+"why": "They: -ουν.",
+"id": "present-f8b8c7c3"
+},
+{
+"type": "choice",
+"q": "Δεν ___. (ξέρω, I)",
+"options": [
+"ξέρει",
+"ξέρω",
+"ξέρεις",
+"ξέρουμε"
+],
+"answer": "ξέρω",
+"why": "I: -ω.",
+"id": "present-435036d5"
+},
+{
+"type": "write",
+"q": "\"she knows\" (ξέρω)",
+"answer": "ξέρει",
+"accept": [],
+"why": "-ει.",
+"id": "present-88ddf871"
+},
+{
+"type": "write",
+"q": "\"you (pl.) are waiting\" (περιμένω)",
+"answer": "περιμένετε",
+"accept": [],
+"why": "-ετε.",
+"id": "present-92132970"
+},
+{
+"type": "write",
+"q": "\"they take\" (παίρνω)",
+"answer": "παίρνουν",
+"accept": [
+"παίρνουνε"
+],
+"why": "-ουν(ε).",
+"id": "present-0e6c56ac"
+},
+{
+"type": "write",
+"q": "\"Do you have a pen?\" (informal, στιλό)",
+"answer": "Έχεις στιλό;",
+"accept": [
+"Έχεις ένα στιλό;"
+],
+"why": "έχω: -εις.",
+"id": "present-c687be70"
+},
+{
+"type": "write",
+"q": "\"We don't understand.\"",
+"answer": "Δεν καταλαβαίνουμε.",
+"accept": [],
+"why": "δεν + -ουμε; keep ν before κ.",
+"id": "present-2a1d249f"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Ομάδα Β1: αγαπάω",
+"title": "Group B1: αγαπάω / αγαπώ",
+"body": [
+{
+"table": {
+"head": [
+"Everyday",
+"Also"
+],
+"rows": [
+[
+"αγαπάω",
+"αγαπώ"
+],
+[
+"αγαπάς",
+""
+],
+[
+"αγαπάει",
+"αγαπά"
+],
+[
+"αγαπάμε",
+"αγαπούμε"
+],
+[
+"αγαπάτε",
+""
+],
+[
+"αγαπάνε",
+"αγαπούν(ε)"
+]
+]
+}
+},
+{
+"p": "The forms in the left column are the everyday ones; the right column is a bit more formal or written. Both are correct."
+},
+{
+"p": "Common B1 verbs: **μιλάω** speak, **ρωτάω** ask, **απαντάω** answer, **ξυπνάω** wake up, **πεινάω** be hungry, **διψάω** be thirsty, **περπατάω** walk, **ξεχνάω** forget, **γελάω** laugh, **πουλάω** sell, **κρατάω** hold, keep, **χτυπάω** hit, ring, **φοράω** wear, **σταματάω** stop, **περνάω** pass, spend time."
+},
+{
+"ex": [
+{
+"el": "Μιλάς ελληνικά;",
+"en": "Do you speak Greek?"
+},
+{
+"el": "Πεινάω! Πάμε να φάμε;",
+"en": "I'm hungry! Shall we go and eat?"
+},
+{
+"el": "Πού πουλάνε εισιτήρια;",
+"en": "Where do they sell tickets?"
+},
+{
+"el": "Ξυπνάμε στις εφτά.",
+"en": "We wake up at seven."
+},
+{
+"el": "Πώς περνάς;",
+"en": "How are you getting on?"
+},
+{
+"el": "Σταματάει εδώ το λεωφορείο;",
+"en": "Does the bus stop here?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "Conjugate **μιλάω** (everyday forms)",
+"a": "μιλάω, μιλάς, μιλάει, μιλάμε, μιλάτε, μιλάνε",
+"why": "B1 endings."
+},
+{
+"q": "\"Are you hungry?\" (informal)",
+"a": "Πεινάς;",
+"why": "-άς."
+},
+{
+"q": "\"They sell fruit.\" (τα φρούτα)",
+"a": "Πουλάνε φρούτα. | Πουλούν φρούτα.",
+"why": "-άνε / -ούν."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Εσύ ___ ελληνικά; (μιλάω)",
+"options": [
+"μιλείς",
+"μιλάς",
+"μιλάει",
+"μιλάτε"
+],
+"answer": "μιλάς",
+"why": "B1: -άς.",
+"id": "present-186ed498"
+},
+{
+"type": "choice",
+"q": "Το μωρό ___ κάθε βράδυ στις τρεις. (ξυπνάω)",
+"options": [
+"ξυπνεί",
+"ξυπνάει",
+"ξυπνάς",
+"ξυπνάμε"
+],
+"answer": "ξυπνάει",
+"why": "B1: -άει (or -ά).",
+"id": "present-c35849d8"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ πολύ. (γελάω)",
+"options": [
+"γελάτε",
+"γελάμε",
+"γελάνε",
+"γελάς"
+],
+"answer": "γελάμε",
+"why": "we: -άμε (also γελούμε).",
+"id": "present-d642b5be"
+},
+{
+"type": "choice",
+"q": "Πού ___ εισιτήρια; (they sell: πουλάω)",
+"options": [
+"πουλάει",
+"πουλάνε",
+"πουλάμε",
+"πουλάτε"
+],
+"answer": "πουλάνε",
+"why": "they: -άνε (also πουλούν).",
+"id": "present-8794734d"
+},
+{
+"type": "choice",
+"q": "Τι ___ απόψε; (you wear: φοράω, informal)",
+"options": [
+"φορείς",
+"φοράς",
+"φοράει",
+"φοράτε"
+],
+"answer": "φοράς",
+"why": "B1: -άς.",
+"id": "present-f501c695"
+},
+{
+"type": "choice",
+"q": "___ το κλειδί σου. (I always forget: ξεχνάω)",
+"options": [
+"Πάντα ξεχνάει",
+"Πάντα ξεχνάω",
+"Πάντα ξεχνάς",
+"Πάντα ξεχνάτε"
+],
+"answer": "Πάντα ξεχνάω",
+"why": "I: -άω.",
+"id": "present-d2a350f0"
+},
+{
+"type": "write",
+"q": "\"she asks\" (ρωτάω)",
+"answer": "ρωτάει",
+"accept": [
+"ρωτά"
+],
+"why": "-άει or -ά.",
+"id": "present-29053539"
+},
+{
+"type": "write",
+"q": "\"you (pl.) walk\" (περπατάω)",
+"answer": "περπατάτε",
+"accept": [],
+"why": "-άτε.",
+"id": "present-7299039d"
+},
+{
+"type": "write",
+"q": "\"I'm thirsty.\"",
+"answer": "Διψάω.",
+"accept": [
+"Διψώ."
+],
+"why": "B1: -άω or -ώ.",
+"id": "present-a96504ee"
+},
+{
+"type": "write",
+"q": "\"Does the bus stop here?\"",
+"answer": "Σταματάει εδώ το λεωφορείο;",
+"accept": [
+"Σταματά εδώ το λεωφορείο;"
+],
+"why": "-άει / -ά.",
+"id": "present-d242759b"
+},
+{
+"type": "write",
+"q": "\"They're laughing.\"",
+"answer": "Γελάνε.",
+"accept": [
+"Γελούν."
+],
+"why": "-άνε / -ούν.",
+"id": "present-e237115c"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ομάδα Β2: μπορώ",
+"title": "Group B2: μπορώ",
+"body": [
+{
+"table": {
+"head": [
+"",
+""
+],
+"rows": [
+[
+"μπορώ",
+"μπορούμε"
+],
+[
+"μπορείς",
+"μπορείτε"
+],
+[
+"μπορεί",
+"μπορούν(ε)"
+]
+]
+}
+},
+{
+"p": "Common B2 verbs: **μπορώ** can, **τηλεφωνώ** phone, **οδηγώ** drive, **ζω** live (ζεις, ζει, ζούμε, ζείτε, ζουν), **προσπαθώ** try, **ευχαριστώ** thank, **εξηγώ** explain, **παρακαλώ** ask, please, **αργώ** be late, **θεωρώ** consider, **χρησιμοποιώ** use, **συμφωνώ** agree, **βοηθώ** help (also **βοηθάω**), **ζητώ** ask for (also **ζητάω**)."
+},
+{
+"ex": [
+{
+"el": "Μπορείς να με βοηθήσεις;",
+"en": "Can you help me?"
+},
+{
+"el": "Οδηγείς εσύ ή εγώ;",
+"en": "Are you driving or am I?"
+},
+{
+"el": "Ζουν στο Λονδίνο εδώ και χρόνια.",
+"en": "They've been living in London for years."
+},
+{
+"el": "Συμφωνώ μαζί σου.",
+"en": "I agree with you."
+},
+{
+"el": "Αργείς πάντα!",
+"en": "You're always late!"
+},
+{
+"el": "Τι ώρα τηλεφωνεί συνήθως;",
+"en": "What time does he usually call?"
+}
+]
+},
+{
+"tip": "Some verbs have both B1 and B2 forms: **βοηθάω / βοηθώ** (βοηθάς / βοηθείς), **ζητάω / ζητώ** (ζητάς / ζητείς). For **μπορώ, οδηγώ, τηλεφωνώ, ζω** only the B2 forms exist."
+},
+{
+"solved": [
+{
+"q": "Conjugate **οδηγώ**",
+"a": "οδηγώ, οδηγείς, οδηγεί, οδηγούμε, οδηγείτε, οδηγούν | οδηγώ, οδηγείς, οδηγεί, οδηγούμε, οδηγείτε, οδηγούνε",
+"why": "B2 endings."
+},
+{
+"q": "\"Can you (pl.) come?\"",
+"a": "Μπορείτε να έρθετε;",
+"why": "-είτε."
+},
+{
+"q": "\"We agree.\"",
+"a": "Συμφωνούμε.",
+"why": "-ούμε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ να μου πεις την ώρα; (Can you, informal)",
+"options": [
+"Μποράς",
+"Μπορείς",
+"Μπορεί",
+"Μπορείτε"
+],
+"answer": "Μπορείς",
+"why": "B2: -είς.",
+"id": "present-de207501"
+},
+{
+"type": "choice",
+"q": "Πού ___ οι γονείς σου; (live: ζω)",
+"options": [
+"ζεις",
+"ζουν",
+"ζει",
+"ζούμε"
+],
+"answer": "ζουν",
+"why": "they: ζουν.",
+"id": "present-e1daeb36"
+},
+{
+"type": "choice",
+"q": "Ο πατέρας μου ___ ταξί. (οδηγώ)",
+"options": [
+"οδηγάει",
+"οδηγεί",
+"οδηγείς",
+"οδηγούν"
+],
+"answer": "οδηγεί",
+"why": "B2: -εί.",
+"id": "present-55924f34"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ μαζί σας. (συμφωνώ)",
+"options": [
+"συμφωνάμε",
+"συμφωνούμε",
+"συμφωνείτε",
+"συμφωνούν"
+],
+"answer": "συμφωνούμε",
+"why": "B2: -ούμε.",
+"id": "present-8f9467ef"
+},
+{
+"type": "choice",
+"q": "Εσείς ___ πάντα! (αργώ)",
+"options": [
+"αργάτε",
+"αργείτε",
+"αργούν",
+"αργείς"
+],
+"answer": "αργείτε",
+"why": "B2: -είτε.",
+"id": "present-3182a94a"
+},
+{
+"type": "choice",
+"q": "Τι ___ αυτή η λέξη; (σημαίνω: Group A)",
+"options": [
+"σημαινεί",
+"σημαίνει",
+"σημαίνεις",
+"σημαίνουν"
+],
+"answer": "σημαίνει",
+"why": "σημαίνω is Group A: σημαίνει.",
+"id": "present-366c5a2f"
+},
+{
+"type": "write",
+"q": "\"you can\" (informal)",
+"answer": "μπορείς",
+"accept": [],
+"why": "-είς.",
+"id": "present-12a95aef"
+},
+{
+"type": "write",
+"q": "\"she lives\" (ζω)",
+"answer": "ζει",
+"accept": [],
+"why": "ζει.",
+"id": "present-269ba277"
+},
+{
+"type": "write",
+"q": "\"They're trying.\" (προσπαθώ)",
+"answer": "Προσπαθούν.",
+"accept": [
+"Προσπαθούνε."
+],
+"why": "-ούν(ε).",
+"id": "present-186ec4ad"
+},
+{
+"type": "write",
+"q": "\"I'll explain.\" (present: I explain)",
+"answer": "Εξηγώ.",
+"accept": [],
+"why": "B2 first person.",
+"id": "present-d9994a22"
+},
+{
+"type": "write",
+"q": "\"Thank you (pl./polite).\"",
+"answer": "Σας ευχαριστώ.",
+"accept": [],
+"why": "ευχαριστώ + σας.",
+"id": "present-3bff4b46"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Λέω, τρώω, ακούω, πάω",
+"title": "Irregular presents: λέω, τρώω, ακούω, πάω",
+"body": [
+{
+"p": "Four of the most frequent verbs contract their endings:"
+},
+{
+"table": {
+"head": [
+"λέω say",
+"τρώω eat",
+"ακούω hear",
+"πάω go"
+],
+"rows": [
+[
+"λέω",
+"τρώω",
+"ακούω",
+"πάω"
+],
+[
+"λες",
+"τρως",
+"ακούς",
+"πας"
+],
+[
+"λέει",
+"τρώει",
+"ακούει",
+"πάει"
+],
+[
+"λέμε",
+"τρώμε",
+"ακούμε",
+"πάμε"
+],
+[
+"λέτε",
+"τρώτε",
+"ακούτε",
+"πάτε"
+],
+[
+"λένε",
+"τρώνε",
+"ακούνε / ακούν",
+"πάνε"
+]
+]
+}
+},
+{
+"p": "Same pattern: **κλαίω** cry (κλαις, κλαίει), **καίω** burn (καις, καίει), **φταίω** be to blame (φταις, φταίει)."
+},
+{
+"ex": [
+{
+"el": "Τι λες;",
+"en": "What are you saying? / What do you think?"
+},
+{
+"el": "Τι τρώμε απόψε;",
+"en": "What are we eating tonight?"
+},
+{
+"el": "Με ακούς;",
+"en": "Can you hear me?"
+},
+{
+"el": "Πού πας; Πάω σπίτι.",
+"en": "Where are you going? I'm going home."
+},
+{
+"el": "Πάμε!",
+"en": "Let's go!"
+},
+{
+"el": "Δε φταις εσύ.",
+"en": "It's not your fault."
+}
+]
+},
+{
+"p": "**Πάω** has a formal twin, **πηγαίνω** (Group A): **Πηγαίνω στη δουλειά με το μετρό.** Both are correct; **πάω** is more everyday."
+},
+{
+"solved": [
+{
+"q": "Conjugate **τρώω**",
+"a": "τρώω, τρως, τρώει, τρώμε, τρώτε, τρώνε",
+"why": "Contracted endings."
+},
+{
+"q": "\"What do you think?\" (informal)",
+"a": "Τι λες;",
+"why": "λέω: λες."
+},
+{
+"q": "\"Let's go!\"",
+"a": "Πάμε!",
+"why": "πάω: πάμε = we go / let's go."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τι ___; Δεν ακούω καλά. (you say, informal)",
+"options": [
+"λέεις",
+"λες",
+"λέει",
+"λέτε"
+],
+"answer": "λες",
+"why": "λες.",
+"id": "present-9842585c"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ πολλά γλυκά. (eat)",
+"options": [
+"τρώουν",
+"τρώνε",
+"τρώει",
+"τρώμε"
+],
+"answer": "τρώνε",
+"why": "they: τρώνε.",
+"id": "present-31c00e36"
+},
+{
+"type": "choice",
+"q": "___ μουσική όταν δουλεύω. (I listen)",
+"options": [
+"Ακούς",
+"Ακούω",
+"Ακούει",
+"Ακούμε"
+],
+"answer": "Ακούω",
+"why": "I: ακούω.",
+"id": "present-2011a783"
+},
+{
+"type": "choice",
+"q": "Πού ___ οι φίλοι σου; (are going)",
+"options": [
+"πάει",
+"πάνε",
+"πάτε",
+"πας"
+],
+"answer": "πάνε",
+"why": "they: πάνε.",
+"id": "present-2ec7929a"
+},
+{
+"type": "choice",
+"q": "Δεν ___ εγώ! (It's not my fault: φταίω)",
+"options": [
+"φταις",
+"φταίω",
+"φταίει",
+"φταίμε"
+],
+"answer": "φταίω",
+"why": "I: φταίω.",
+"id": "present-bf6856c1"
+},
+{
+"type": "choice",
+"q": "Το μωρό ___ όλη νύχτα. (κλαίω)",
+"options": [
+"κλαιει",
+"κλαίει",
+"κλαις",
+"κλαίνε"
+],
+"answer": "κλαίει",
+"why": "he/she/it: κλαίει.",
+"id": "present-0db52607"
+},
+{
+"type": "write",
+"q": "\"we eat\"",
+"answer": "τρώμε",
+"accept": [],
+"why": "Contracted.",
+"id": "present-ae7d74db"
+},
+{
+"type": "write",
+"q": "\"they say\"",
+"answer": "λένε",
+"accept": [],
+"why": "Contracted.",
+"id": "present-76b8fc6f"
+},
+{
+"type": "write",
+"q": "\"Where are you going?\" (informal)",
+"answer": "Πού πας;",
+"accept": [],
+"why": "πάω: πας.",
+"id": "present-5ffc6a01"
+},
+{
+"type": "write",
+"q": "\"Can you hear me?\" (informal)",
+"answer": "Με ακούς;",
+"accept": [],
+"why": "ακούω: ακούς.",
+"id": "present-df2e7625"
+},
+{
+"type": "write",
+"q": "\"It's not your fault.\" (informal)",
+"answer": "Δε φταις εσύ.",
+"accept": [
+"Δεν φταις εσύ.",
+"Δε φταις."
+],
+"why": "φταίω: φταις.",
+"id": "present-6b3de3e6"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Πότε χρησιμοποιούμε τον ενεστώτα",
+"title": "What the present is used for",
+"body": [
+{
+"p": "The Greek present covers more than the English present simple:"
+},
+{
+"list": [
+"**now, in progress** (English \"I am doing\"): **Τι κάνεις; Μαγειρεύω.** \"What are you doing? I'm cooking.\"",
+"**habits and general truths**: **Πίνω καφέ κάθε πρωί.** **Το νερό βράζει στους εκατό βαθμούς.**",
+"**planned near future**: **Αύριο φεύγω για Κρήτη.** \"Tomorrow I'm leaving for Crete.\"",
+"**\"I've been doing ... for / since\"** with **εδώ και** \"for\" or **από** \"since\": **Μαθαίνω ελληνικά εδώ και ένα χρόνο.** \"I've been learning Greek for a year.\" **Μένω στην Αθήνα από το 2024.** \"I've been living in Athens since 2024.\"",
+"**lively storytelling** in the past: **Χθες μπαίνω στο λεωφορείο και ποιον βλέπω; Τον Κώστα!** \"Yesterday I get on the bus and who do I see? Kostas!\""
+]
+},
+{
+"ex": [
+{
+"el": "Τι κάνεις εκεί; Σε περιμένω.",
+"en": "What are you doing there? I'm waiting for you."
+},
+{
+"el": "Το Σάββατο παντρεύεται η αδερφή μου.",
+"en": "My sister's getting married on Saturday."
+},
+{
+"el": "Δουλεύω εδώ από τον Ιανουάριο.",
+"en": "I've been working here since January."
+},
+{
+"el": "Πόσο καιρό μαθαίνεις ελληνικά;",
+"en": "How long have you been learning Greek?"
+}
+]
+},
+{
+"tip": "English \"I have been living here for two years\" is a Greek **present**, not a perfect: **Μένω εδώ δύο χρόνια.** Saying **Έχω μείνει εδώ δύο χρόνια** means the stay is over or counted up to now as a finished period."
+},
+{
+"solved": [
+{
+"q": "\"I've been learning Greek for two years.\"",
+"a": "Μαθαίνω ελληνικά εδώ και δύο χρόνια. | Μαθαίνω ελληνικά δύο χρόνια.",
+"why": "Ongoing up to now: present + εδώ και."
+},
+{
+"q": "\"Tomorrow I'm leaving for Paros.\"",
+"a": "Αύριο φεύγω για Πάρο. | Φεύγω αύριο για Πάρο.",
+"why": "Planned near future: present."
+},
+{
+"q": "\"How long have you been living here?\" (informal)",
+"a": "Πόσο καιρό μένεις εδώ; | Από πότε μένεις εδώ;",
+"why": "Present tense with πόσο καιρό / από πότε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Μένω στη Θεσσαλονίκη ___ τρία χρόνια. (for)",
+"options": [
+"από",
+"εδώ και",
+"για πριν",
+"μετά"
+],
+"answer": "εδώ και",
+"why": "εδώ και = for (up to now).",
+"id": "present-c24a54e4"
+},
+{
+"type": "choice",
+"q": "Δουλεύει εδώ ___ τον Μάιο. (since)",
+"options": [
+"εδώ και",
+"από",
+"για",
+"σε"
+],
+"answer": "από",
+"why": "από = since.",
+"id": "present-2febf566"
+},
+{
+"type": "choice",
+"q": "\"I've been waiting for an hour!\"",
+"options": [
+"Έχω περιμένει μία ώρα!",
+"Περιμένω μία ώρα!",
+"Περίμενα μία ώρα!",
+"Θα περιμένω μία ώρα!"
+],
+"answer": "Περιμένω μία ώρα!",
+"why": "Still waiting: present.",
+"id": "present-f21e7c99"
+},
+{
+"type": "choice",
+"q": "\"What are you doing right now?\" (informal)",
+"options": [
+"Τι έκανες τώρα;",
+"Τι κάνεις τώρα;",
+"Τι θα κάνεις τώρα;",
+"Τι κάνατε τώρα;"
+],
+"answer": "Τι κάνεις τώρα;",
+"why": "In progress now: present.",
+"id": "present-8f62e385"
+},
+{
+"type": "choice",
+"q": "\"On Saturday we're going to the island.\"",
+"options": [
+"Το Σάββατο πήγαμε στο νησί.",
+"Το Σάββατο πάμε στο νησί.",
+"Το Σάββατο πηγαίναμε στο νησί.",
+"Το Σάββατο έχουμε πάει στο νησί."
+],
+"answer": "Το Σάββατο πάμε στο νησί.",
+"why": "Planned near future: present.",
+"id": "present-77f9c07e"
+},
+{
+"type": "write",
+"q": "\"I'm cooking.\"",
+"answer": "Μαγειρεύω.",
+"accept": [],
+"why": "In progress: present.",
+"id": "present-854600f4"
+},
+{
+"type": "write",
+"q": "\"I've been working here since January.\"",
+"answer": "Δουλεύω εδώ από τον Ιανουάριο.",
+"accept": [],
+"why": "από + present.",
+"id": "present-6e7d9605"
+},
+{
+"type": "write",
+"q": "\"Water boils at 100 degrees.\" (βράζω, βαθμούς)",
+"answer": "Το νερό βράζει στους εκατό βαθμούς.",
+"accept": [],
+"why": "General truth: present.",
+"id": "present-a7867790"
+},
+{
+"type": "write",
+"q": "\"We're leaving tomorrow.\"",
+"answer": "Φεύγουμε αύριο.",
+"accept": [],
+"why": "Near future: present.",
+"id": "present-687819a4"
+},
+{
+"type": "order",
+"q": "\"I've been learning Greek for a year.\" (εδώ και, ένα χρόνο)",
+"answer": "Μαθαίνω ελληνικά εδώ και ένα χρόνο.",
+"accept": [
+"Εδώ και ένα χρόνο μαθαίνω ελληνικά."
+],
+"why": "Present + εδώ και.",
+"id": "present-f36e7b3a"
+}
+]
+}
+]
+}
+],
+"id": "present",
+"el": "Ο ενεστώτας",
+"title": "The present tense",
+"span": "A1–B1",
+"blurb": "The three conjugations (γράφω, αγαπάω, μπορώ), the irregular everyday presents λέω, τρώω, ακούω, πάω, and what the present is used for, including \"I've been living here for two years\".",
+"intro": [
+{
+"p": "Greek has three present-tense patterns. Which one a verb follows depends on **where the stress falls** in the first person:"
+},
+{
+"list": [
+"**Group A**: stress on the stem: **γράφω, δουλεύω, μένω**.",
+"**Group B1**: stress on the ending **-άω** (or **-ώ**): **αγαπάω / αγαπώ, μιλάω, ρωτάω**.",
+"**Group B2**: stress on the ending **-ώ**, with **-είς** in the second person: **μπορώ, τηλεφωνώ, οδηγώ**."
+]
+},
+{
+"p": "B1 and B2 both have a first person in **-ώ**, so learn the second person too: **αγαπάς** (B1), **μπορείς** (B2)."
+},
+{
+"links": [
+{
+"href": "#a1-present-1",
+"kind": "Lesson",
+"el": "Ενεστώτας: πρώτη συζυγία",
+"title": "Present tense, first conjugation"
+},
+{
+"href": "#a1-present-2",
+"kind": "Lesson",
+"el": "Ενεστώτας: δεύτερη συζυγία",
+"title": "Present tense, verbs in -ώ (αγαπώ, θεωρώ)"
+},
+{
+"href": "#cards.present",
+"kind": "Card",
+"el": "Ενεστώτας: οι συζυγίες",
+"title": "The present: conjugations"
+},
+{
+"href": "#pos.verb-forms",
+"kind": "Part of speech",
+"el": "Το ρήμα Α΄: οι τύποι",
+"title": "The verb I: forms and conjugations"
+}
+]
+}
+],
+"num": 17
+}

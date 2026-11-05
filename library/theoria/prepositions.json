@@ -729,8 +729,8 @@
 "en": "I'm not going without you."
 },
 {
-"el": "Τα λέμε μέχρι το βράδυ.",
-"en": "See you by this evening."
+"el": "Θα είμαι εδώ μέχρι το βράδυ.",
+"en": "I'll be here until the evening."
 },
 {
 "el": "Προς τα πού είναι η θάλασσα;",
@@ -799,13 +799,13 @@
 "type": "choice",
 "q": "Θα σε πάρω ___ τις πέντε. (around)",
 "options": [
-"προς",
+"για",
 "κατά",
 "παρά",
 "αντί"
 ],
 "answer": "κατά",
-"why": "Approximate time: κατά.",
+"why": "Approximate time: κατά (or γύρω στις).",
 "id": "prepositions-499c2c63"
 },
 {
@@ -852,13 +852,13 @@
 "q": "Ήρθε ___ τα μεσάνυχτα. (after)",
 "options": [
 "πριν από",
-"μετά τα",
+"μετά από",
 "προς",
 "μέχρι"
 ],
-"answer": "μετά τα",
+"answer": "μετά από",
 "why": "μετά (από) + accusative.",
-"id": "prepositions-78b9f0bd"
+"id": "prepositions-2efe6912"
 },
 {
 "type": "choice",
@@ -1074,7 +1074,7 @@
 "κατά",
 "γύρω",
 "περίπου σε",
-"κοντά"
+"πάνω"
 ],
 "answer": "γύρω",
 "why": "γύρω στις + time.",
