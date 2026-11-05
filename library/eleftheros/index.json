@@ -1,0 +1,70 @@
+{
+ "kind": "bilingual",
+ "el": "Ελεύθερος χρόνος, τεχνολογία και ζώα",
+ "title": "Free time, technology and animals: going out, screens and social media, clothes, beauty, pets and wildlife",
+ "intro_el": "Το θερινό σινεμά και η νυχτερινή έξοδος, το κινητό και τα μέσα κοινωνικής δικτύωσης, τα ψώνια για ρούχα και οι εκπτώσεις, το κομμωτήριο και το κουρείο, οι σκύλοι και οι γάτες του σπιτιού και του δρόμου, οι αρκούδες, οι φώκιες και οι χελώνες της ελληνικής φύσης. Οι λέξεις της ξεκούρασης και της καθημερινής ευχαρίστησης. Τα ελληνικά κείμενα ξεκινούν γύρω στο Β1+ και ανεβαίνουν ως το Γ1.",
+ "intro_en": "The open-air cinema and a night out, the mobile phone and social media, clothes shopping and the sales, the hairdresser and the barber, dogs and cats at home and on the street, and the bears, seals and turtles of Greek nature. The words of leisure and everyday pleasure. The Greek text starts around B1+ and rises to C1; the English parallel carries the fuller detail. Each chapter has new-term definitions, grammar notes, a quiz, words to keep and numbered sources; tap any Greek word to look it up.",
+ "parts": [
+  {
+   "id": "elefthero",
+   "el": "Ελεύθερος χρόνος",
+   "en": "Free time",
+   "intro_el": "Η έξοδος και το θερινό σινεμά, οι οθόνες και τα μέσα κοινωνικής δικτύωσης, τα ρούχα, το κομμωτήριο και το κουρείο.",
+   "intro_en": "Going out and the open-air cinema, screens and social media, clothes, the hairdresser and the barber."
+  },
+  {
+   "id": "zoa",
+   "el": "Ζώα και φύση",
+   "en": "Animals and nature",
+   "intro_el": "Τα κατοικίδια, τα αδέσποτα και ο νόμος για τα ζώα συντροφιάς· οι αρκούδες, η μεσογειακή φώκια, οι θαλάσσιες χελώνες και τα φίδια της ελληνικής φύσης.",
+   "intro_en": "Pets, strays and the companion-animal law; bears, the Mediterranean monk seal, sea turtles and the snakes of the Greek countryside."
+  }
+ ],
+ "items": [
+  {
+   "id": "exodos",
+   "file": "exodos.json",
+   "el": "Έξοδος και θερινό σινεμά",
+   "title": "Going out and the open-air cinema",
+   "level": "B1+",
+   "part": "elefthero",
+   "dates": ""
+  },
+  {
+   "id": "othones",
+   "file": "othones.json",
+   "el": "Οθόνες και μέσα κοινωνικής δικτύωσης",
+   "title": "Screens and social media",
+   "level": "B2+",
+   "part": "elefthero",
+   "dates": ""
+  },
+  {
+   "id": "rouxa-omorfia",
+   "file": "rouxa-omorfia.json",
+   "el": "Ρούχα, κομμωτήριο και κουρείο",
+   "title": "Clothes, the hairdresser and the barber",
+   "level": "B2",
+   "part": "elefthero",
+   "dates": ""
+  },
+  {
+   "id": "katoikidia",
+   "file": "katoikidia.json",
+   "el": "Κατοικίδια και αδέσποτα",
+   "title": "Pets and strays",
+   "level": "B2",
+   "part": "zoa",
+   "dates": ""
+  },
+  {
+   "id": "fysi",
+   "file": "fysi.json",
+   "el": "Η άγρια φύση της Ελλάδας",
+   "title": "Greece's wildlife",
+   "level": "C1",
+   "part": "zoa",
+   "dates": ""
+  }
+ ]
+}
