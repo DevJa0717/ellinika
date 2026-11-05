@@ -1,0 +1,1288 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Η ονομαστική",
+"title": "The nominative: subject and predicate",
+"body": [
+{
+"p": "The subject is in the nominative: **Ο Νίκος δουλεύει.** \"Nikos works.\" So is a noun or adjective that describes the subject after **είμαι, γίνομαι, λέγομαι, φαίνομαι, μένω** \"remain\":"
+},
+{
+"ex": [
+{
+"el": "Ο αδερφός μου είναι μάγειρας.",
+"en": "My brother is a cook."
+},
+{
+"el": "Η Άννα έγινε δασκάλα.",
+"en": "Anna became a teacher."
+},
+{
+"el": "Λέγομαι Ελένη.",
+"en": "My name is Eleni."
+},
+{
+"el": "Ο καιρός φαίνεται καλός.",
+"en": "The weather looks good."
+},
+{
+"el": "Έμεινε μόνος του.",
+"en": "He was left on his own."
+}
+]
+},
+{
+"p": "The subject often comes **after** the verb: **Ήρθε ο ταχυδρόμος.** \"The postman has come.\" The ending, not the position, tells you it is the subject."
+},
+{
+"tip": "After **είμαι** use the nominative, not the accusative: **Είναι ο Γιάννης** \"It's Giannis\" (on the phone or at the door), not *Είναι τον Γιάννη*."
+},
+{
+"solved": [
+{
+"q": "\"My sister is a doctor.\"",
+"a": "Η αδερφή μου είναι γιατρός.",
+"why": "Both subject and predicate in the nominative."
+},
+{
+"q": "Find the subject: **Μου αρέσει η μουσική.**",
+"a": "η μουσική",
+"why": "With αρέσει the thing liked is the subject."
+},
+{
+"q": "\"The cheese is excellent.\" (το τυρί, εξαιρετικό)",
+"a": "Το τυρί είναι εξαιρετικό.",
+"why": "Neuter nominative subject and predicate."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ποιος είναι; ___. (it's Kostas)",
+"options": [
+"Τον Κώστα.",
+"Ο Κώστας.",
+"Του Κώστα.",
+"Κώστα."
+],
+"answer": "Ο Κώστας.",
+"why": "After είμαι: nominative.",
+"id": "cases-420df062"
+},
+{
+"type": "choice",
+"q": "Μου αρέσει ___. (the sea)",
+"options": [
+"τη θάλασσα",
+"η θάλασσα",
+"της θάλασσας",
+"στη θάλασσα"
+],
+"answer": "η θάλασσα",
+"why": "The thing liked is the subject.",
+"id": "cases-93d0c4c2"
+},
+{
+"type": "choice",
+"q": "Ο Πέτρος έγινε ___. (a lawyer)",
+"options": [
+"δικηγόρο",
+"δικηγόρος",
+"δικηγόρου",
+"τον δικηγόρο"
+],
+"answer": "δικηγόρος",
+"why": "After γίνομαι: nominative.",
+"id": "cases-ad0aad3e"
+},
+{
+"type": "choice",
+"q": "Χτύπησε ___. (the phone)",
+"options": [
+"το τηλεφώνου",
+"το τηλέφωνο",
+"του τηλεφώνου",
+"στο τηλέφωνο"
+],
+"answer": "το τηλέφωνο",
+"why": "Subject after the verb, nominative (= accusative for neuters).",
+"id": "cases-4daf7575"
+},
+{
+"type": "choice",
+"q": "Πονάει ___ μου. (my head)",
+"options": [
+"του κεφαλιού",
+"το κεφάλι",
+"στο κεφάλι",
+"κεφάλι"
+],
+"answer": "το κεφάλι",
+"why": "With πονάει, what hurts is the subject.",
+"id": "cases-58ab2795"
+},
+{
+"type": "choice",
+"q": "Φαίνεσαι ___ σήμερα. (tired, to a man)",
+"options": [
+"κουρασμένο",
+"κουρασμένος",
+"κουρασμένου",
+"κουρασμένη"
+],
+"answer": "κουρασμένος",
+"why": "After φαίνομαι: nominative agreeing with the subject.",
+"id": "cases-91eb3fd9"
+},
+{
+"type": "write",
+"q": "Translate: \"My name is Petros.\"",
+"answer": "Λέγομαι Πέτρος.",
+"accept": [
+"Με λένε Πέτρο."
+],
+"why": "With λέγομαι the name is nominative; with με λένε it is accusative.",
+"id": "cases-52a9dce8"
+},
+{
+"type": "write",
+"q": "Translate: \"The coffee is cold.\"",
+"answer": "Ο καφές είναι κρύος.",
+"accept": [],
+"why": "Nominative subject and predicate.",
+"id": "cases-64e3dc28"
+},
+{
+"type": "write",
+"q": "Translate: \"My leg hurts.\" (το πόδι)",
+"answer": "Πονάει το πόδι μου.",
+"accept": [
+"Το πόδι μου πονάει."
+],
+"why": "What hurts is the subject.",
+"id": "cases-87453370"
+},
+{
+"type": "order",
+"q": "\"The postman has come.\"",
+"answer": "Ήρθε ο ταχυδρόμος.",
+"accept": [
+"Ο ταχυδρόμος ήρθε."
+],
+"why": "The subject often follows verbs of arriving.",
+"id": "cases-68d1b951"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Η αιτιατική",
+"title": "The accusative: objects and prepositions",
+"body": [
+{
+"p": "The **direct object** is in the accusative: **Βλέπω τον Νίκο.** \"I see Nikos.\" **Θέλω έναν καφέ.** \"I want a coffee.\""
+},
+{
+"p": "Almost every preposition takes the accusative: **σε, από, για, με, χωρίς, μέχρι, ως, προς, κατά, παρά, αντί για, μετά από, πριν από**."
+},
+{
+"ex": [
+{
+"el": "Περιμένω τον φίλο μου.",
+"en": "I'm waiting for my friend."
+},
+{
+"el": "Ήρθε από την Πάτρα.",
+"en": "She came from Patras."
+},
+{
+"el": "Ένας καφές για τον κύριο.",
+"en": "A coffee for the gentleman."
+},
+{
+"el": "Πάω με τον αδερφό μου.",
+"en": "I'm going with my brother."
+},
+{
+"el": "Καφέ χωρίς ζάχαρη.",
+"en": "Coffee without sugar."
+},
+{
+"el": "Μετά από τη δουλειά πάμε για μπίρα.",
+"en": "After work we go for a beer."
+}
+]
+},
+{
+"tip": "Some verbs take a direct object in Greek where English uses a preposition: **περιμένω κάποιον** \"wait **for** someone\", **ακούω μουσική** \"listen **to** music\", **ψάχνω κάτι** \"look **for** something\", **κοιτάζω κάτι** \"look **at** something\", **πληρώνω τον καφέ** \"pay **for** the coffee\"."
+},
+{
+"solved": [
+{
+"q": "\"I'm looking for my keys.\"",
+"a": "Ψάχνω τα κλειδιά μου.",
+"why": "ψάχνω takes a direct object: no preposition."
+},
+{
+"q": "\"I'll pay for the coffees.\"",
+"a": "Θα πληρώσω τους καφέδες.",
+"why": "πληρώνω + accusative = pay for."
+},
+{
+"q": "\"with my mother\"",
+"a": "με τη μητέρα μου",
+"why": "με + accusative; drop ν before μ."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Περιμένω ___. (the bus)",
+"options": [
+"στο λεωφορείο",
+"το λεωφορείο",
+"για το λεωφορείο",
+"του λεωφορείου"
+],
+"answer": "το λεωφορείο",
+"why": "περιμένω takes a direct object.",
+"id": "cases-c14877de"
+},
+{
+"type": "choice",
+"q": "Ακούω ___. (the radio)",
+"options": [
+"στο ραδιόφωνο",
+"ραδιόφωνο",
+"του ραδιοφώνου",
+"με ραδιόφωνο"
+],
+"answer": "ραδιόφωνο",
+"why": "ακούω + accusative, no preposition.",
+"id": "cases-6a5af0a2"
+},
+{
+"type": "choice",
+"q": "Ήρθα με ___. (my father)",
+"options": [
+"ο πατέρας μου",
+"τον πατέρα μου",
+"του πατέρα μου",
+"πατέρα μου"
+],
+"answer": "τον πατέρα μου",
+"why": "με + accusative.",
+"id": "cases-33a77d00"
+},
+{
+"type": "choice",
+"q": "Αυτό είναι για ___. (you, strong form)",
+"options": [
+"εσύ",
+"εσένα",
+"σου",
+"σε"
+],
+"answer": "εσένα",
+"why": "για + strong accusative pronoun: για σένα / για εσένα.",
+"id": "cases-94d4c8cf"
+},
+{
+"type": "choice",
+"q": "Ψάχνω ___. (a pharmacy)",
+"options": [
+"με φαρμακείο",
+"φαρμακείο",
+"στο φαρμακείο",
+"του φαρμακείου"
+],
+"answer": "φαρμακείο",
+"why": "ψάχνω + accusative.",
+"id": "cases-9f726524"
+},
+{
+"type": "choice",
+"q": "Κοίτα ___! (the sea)",
+"options": [
+"στη θάλασσα",
+"τη θάλασσα",
+"της θάλασσας",
+"η θάλασσα"
+],
+"answer": "τη θάλασσα",
+"why": "κοιτάζω + accusative.",
+"id": "cases-745e98d7"
+},
+{
+"type": "choice",
+"q": "Πήγε στο σχολείο χωρίς ___. (his bag)",
+"options": [
+"η τσάντα του",
+"την τσάντα του",
+"της τσάντας του",
+"στην τσάντα του"
+],
+"answer": "την τσάντα του",
+"why": "χωρίς + accusative.",
+"id": "cases-ae3780f4"
+},
+{
+"type": "write",
+"q": "Translate: \"I'm waiting for Maria.\"",
+"answer": "Περιμένω τη Μαρία.",
+"accept": [],
+"why": "Direct object, no preposition.",
+"id": "cases-dd3437e1"
+},
+{
+"type": "write",
+"q": "Translate: \"a coffee without sugar\"",
+"answer": "ένας καφές χωρίς ζάχαρη",
+"accept": [
+"καφές χωρίς ζάχαρη"
+],
+"why": "χωρίς + accusative (ζάχαρη, no article).",
+"id": "cases-004f423e"
+},
+{
+"type": "write",
+"q": "Translate: \"from Athens\"",
+"answer": "από την Αθήνα",
+"accept": [],
+"why": "από + accusative.",
+"id": "cases-49559984"
+},
+{
+"type": "write",
+"q": "Translate: \"Listen to this song.\" (το τραγούδι)",
+"answer": "Άκου αυτό το τραγούδι.",
+"accept": [
+"Άκουσε αυτό το τραγούδι."
+],
+"why": "ακούω + accusative.",
+"id": "cases-a16b2c8b"
+},
+{
+"type": "order",
+"q": "\"I'm looking for a cheap hotel.\" (φτηνό)",
+"answer": "Ψάχνω ένα φτηνό ξενοδοχείο.",
+"accept": [],
+"why": "ψάχνω + accusative object.",
+"id": "cases-aa56b1ee"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Η αιτιατική του χρόνου",
+"title": "Time and measure in the accusative",
+"body": [
+{
+"p": "Greek puts most time phrases in the plain accusative, with no preposition, where English uses \"on\", \"in\", \"at\" or \"for\":"
+},
+{
+"table": {
+"head": [
+"English",
+"Greek"
+],
+"rows": [
+[
+"on Monday",
+"τη Δευτέρα"
+],
+[
+"in the morning",
+"το πρωί"
+],
+[
+"in summer",
+"το καλοκαίρι"
+],
+[
+"in May",
+"τον Μάιο / τον Μάη"
+],
+[
+"every day",
+"κάθε μέρα"
+],
+[
+"all day",
+"όλη μέρα / όλη την ημέρα"
+],
+[
+"for three hours",
+"τρεις ώρες"
+],
+[
+"next week",
+"την άλλη εβδομάδα / την επόμενη εβδομάδα"
+],
+[
+"last month",
+"τον προηγούμενο μήνα / τον περασμένο μήνα"
+],
+[
+"twice a week",
+"δύο φορές την εβδομάδα"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Την Κυριακή κοιμάμαι μέχρι αργά.",
+"en": "On Sundays I sleep in."
+},
+{
+"el": "Δουλεύω οχτώ ώρες τη μέρα.",
+"en": "I work eight hours a day."
+},
+{
+"el": "Το καλοκαίρι πάμε στο χωριό.",
+"en": "In summer we go to the village."
+},
+{
+"el": "Περίμενα μισή ώρα.",
+"en": "I waited half an hour."
+},
+{
+"el": "Πάω γυμναστήριο τρεις φορές την εβδομάδα.",
+"en": "I go to the gym three times a week."
+}
+]
+},
+{
+"p": "Measure is also accusative: **Το κουτί ζυγίζει δύο κιλά.** \"The box weighs two kilos.\" **Κάνει δέκα ευρώ.** \"It costs ten euros.\""
+},
+{
+"tip": "Do not add **σε**: *στη Δευτέρα* is wrong for \"on Monday\". Use **στις** only with clock times and dates: **στις πέντε** \"at five\", **στις 3 Μαΐου** \"on 3 May\"."
+},
+{
+"solved": [
+{
+"q": "\"on Saturday\"",
+"a": "το Σάββατο",
+"why": "Days: accusative with article, no preposition."
+},
+{
+"q": "\"I waited for two hours.\"",
+"a": "Περίμενα δύο ώρες. | Περίμενα δυο ώρες.",
+"why": "Duration: plain accusative."
+},
+{
+"q": "\"at nine o'clock\"",
+"a": "στις εννιά | στις εννέα",
+"why": "Clock times take στις (σε + τις ώρες)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ πάμε για ψώνια. (on Saturday)",
+"options": [
+"Στο Σάββατο",
+"Το Σάββατο",
+"Του Σαββάτου",
+"Σάββατο το"
+],
+"answer": "Το Σάββατο",
+"why": "Days: accusative with article.",
+"id": "cases-be3ff96c"
+},
+{
+"type": "choice",
+"q": "Έμεινα στην Κρήτη ___. (for a week)",
+"options": [
+"στη μία εβδομάδα",
+"μία εβδομάδα",
+"μιας εβδομάδας",
+"της εβδομάδας"
+],
+"answer": "μία εβδομάδα",
+"why": "Duration: plain accusative (για μία εβδομάδα also works).",
+"id": "cases-c8aef955"
+},
+{
+"type": "choice",
+"q": "Τρώμε ___. (at eight)",
+"options": [
+"στο οχτώ",
+"στις οχτώ",
+"τις οχτώ",
+"οχτώ η ώρα στις"
+],
+"answer": "στις οχτώ",
+"why": "Clock time: στις + number.",
+"id": "cases-eedb7893"
+},
+{
+"type": "choice",
+"q": "Πάω για τρέξιμο ___. (every morning)",
+"options": [
+"σε κάθε πρωί",
+"κάθε πρωί",
+"κάθε πρωινού",
+"στο κάθε πρωί"
+],
+"answer": "κάθε πρωί",
+"why": "κάθε + accusative, no preposition.",
+"id": "cases-7166325c"
+},
+{
+"type": "choice",
+"q": "Ο καφές κάνει ___. (two euros)",
+"options": [
+"δύο ευρώς",
+"δύο ευρώ",
+"δύο ευρών",
+"στα δύο ευρώ"
+],
+"answer": "δύο ευρώ",
+"why": "Price: accusative; ευρώ does not change.",
+"id": "cases-ade1f529"
+},
+{
+"type": "choice",
+"q": "Θα έρθω ___. (next week)",
+"options": [
+"στην άλλη εβδομάδα",
+"την άλλη εβδομάδα",
+"της άλλης εβδομάδας",
+"άλλη εβδομάδα στην"
+],
+"answer": "την άλλη εβδομάδα",
+"why": "Time phrase in the accusative.",
+"id": "cases-83167b72"
+},
+{
+"type": "write",
+"q": "Translate: \"in the evening\"",
+"answer": "το βράδυ",
+"accept": [],
+"why": "Accusative with article.",
+"id": "cases-db74b842"
+},
+{
+"type": "write",
+"q": "Translate: \"every day\"",
+"answer": "κάθε μέρα",
+"accept": [
+"κάθε ημέρα"
+],
+"why": "κάθε + accusative.",
+"id": "cases-dba4d9e3"
+},
+{
+"type": "write",
+"q": "Translate: \"on Friday\"",
+"answer": "την Παρασκευή",
+"accept": [],
+"why": "Keep ν before π.",
+"id": "cases-6a30520a"
+},
+{
+"type": "write",
+"q": "Translate: \"twice a week\"",
+"answer": "δύο φορές την εβδομάδα",
+"accept": [
+"δυο φορές την εβδομάδα",
+"δύο φορές τη βδομάδα"
+],
+"why": "\"a week\" = την εβδομάδα.",
+"id": "cases-60cef740"
+},
+{
+"type": "write",
+"q": "Translate: \"in winter\"",
+"answer": "τον χειμώνα",
+"accept": [],
+"why": "Seasons: accusative with article.",
+"id": "cases-3469c172"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Η γενική της κτήσης",
+"title": "The genitive: possession and description",
+"body": [
+{
+"p": "The genitive follows the noun it belongs to, where English uses \"'s\" or \"of\":"
+},
+{
+"ex": [
+{
+"el": "το σπίτι του Νίκου",
+"en": "Nikos's house"
+},
+{
+"el": "η μητέρα της Ελένης",
+"en": "Eleni's mother"
+},
+{
+"el": "το κέντρο της πόλης",
+"en": "the city centre"
+},
+{
+"el": "η ώρα του φαγητού",
+"en": "mealtime"
+},
+{
+"el": "το τέλος της ταινίας",
+"en": "the end of the film"
+},
+{
+"el": "ένα παιδί δέκα χρονών",
+"en": "a ten-year-old child"
+}
+]
+},
+{
+"p": "The weak pronouns **μου, σου, του, της, μας, σας, τους** are genitives too and mean \"my, your, his...\": **το σπίτι μου** \"my house\"."
+},
+{
+"p": "In everyday speech the genitive is often replaced by **από** + accusative when \"of\" means \"out of\" or \"from\": **ένα κομμάτι από την τούρτα** \"a piece of the cake\", **κάποιος από τους φίλους μου** \"one of my friends\"."
+},
+{
+"tip": "The genitive comes **after** the noun: **το αυτοκίνητο του πατέρα μου** \"my father's car\". Putting it first (*του πατέρα μου το αυτοκίνητο*) is possible only for emphasis."
+},
+{
+"solved": [
+{
+"q": "\"Maria's phone\"",
+"a": "το κινητό της Μαρίας | το τηλέφωνο της Μαρίας",
+"why": "Genitive after the noun."
+},
+{
+"q": "\"the children's room\"",
+"a": "το δωμάτιο των παιδιών",
+"why": "Genitive plural των."
+},
+{
+"q": "\"one of my friends\"",
+"a": "ένας από τους φίλους μου",
+"why": "από + accusative replaces the partitive genitive in speech."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Αυτό είναι το αυτοκίνητο ___. (my father)",
+"options": [
+"ο πατέρας μου",
+"του πατέρα μου",
+"τον πατέρα μου",
+"στον πατέρα μου"
+],
+"answer": "του πατέρα μου",
+"why": "Possession: genitive after the noun.",
+"id": "cases-ddde935d"
+},
+{
+"type": "choice",
+"q": "Η πόρτα ___ είναι κλειστή. (the shop)",
+"options": [
+"το μαγαζί",
+"του μαγαζιού",
+"στο μαγαζί",
+"τα μαγαζιά"
+],
+"answer": "του μαγαζιού",
+"why": "Genitive: του μαγαζιού.",
+"id": "cases-896d7ce9"
+},
+{
+"type": "choice",
+"q": "Το τέλος ___ ήταν τέλειο. (the film)",
+"options": [
+"η ταινία",
+"της ταινίας",
+"την ταινία",
+"στην ταινία"
+],
+"answer": "της ταινίας",
+"why": "Feminine genitive.",
+"id": "cases-ce1e0271"
+},
+{
+"type": "choice",
+"q": "Ένας ___ ήρθε. (of my friends)",
+"options": [
+"των φίλων μου",
+"από τους φίλους μου",
+"τους φίλους μου",
+"στους φίλους μου"
+],
+"answer": "από τους φίλους μου",
+"why": "Everyday partitive: από + accusative.",
+"id": "cases-7dbd1dbd"
+},
+{
+"type": "choice",
+"q": "Έχει μια κόρη πέντε ___. (years old)",
+"options": [
+"χρόνια",
+"χρονών",
+"χρόνων",
+"χρονιά"
+],
+"answer": "χρονών",
+"why": "Age description: genitive plural χρονών.",
+"id": "cases-6a9f128e"
+},
+{
+"type": "choice",
+"q": "Πού είναι το γραφείο ___; (the manager, ο διευθυντής)",
+"options": [
+"ο διευθυντής",
+"του διευθυντή",
+"τον διευθυντή",
+"στον διευθυντή"
+],
+"answer": "του διευθυντή",
+"why": "Genitive of -ής: του διευθυντή.",
+"id": "cases-6d1d8784"
+},
+{
+"type": "write",
+"q": "Translate: \"my brother's wife\"",
+"answer": "η γυναίκα του αδερφού μου",
+"accept": [],
+"why": "Genitive of ο αδερφός.",
+"id": "cases-6f1dfa0e"
+},
+{
+"type": "write",
+"q": "Translate: \"the end of the summer\"",
+"answer": "το τέλος του καλοκαιριού",
+"accept": [],
+"why": "Genitive of το καλοκαίρι.",
+"id": "cases-49cdb5c2"
+},
+{
+"type": "write",
+"q": "Translate: \"a piece of the pie\" (η πίτα)",
+"answer": "ένα κομμάτι από την πίτα",
+"accept": [
+"ένα κομμάτι της πίτας"
+],
+"why": "Everyday: από + accusative.",
+"id": "cases-d60097d3"
+},
+{
+"type": "write",
+"q": "Translate: \"a six-year-old boy\"",
+"answer": "ένα αγόρι έξι χρονών",
+"accept": [],
+"why": "Age description in the genitive.",
+"id": "cases-198cb24e"
+},
+{
+"type": "order",
+"q": "\"This is my sister's house.\"",
+"answer": "Αυτό είναι το σπίτι της αδερφής μου.",
+"accept": [],
+"why": "Possessor in the genitive, after the noun.",
+"id": "cases-06be77dc"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Το έμμεσο αντικείμενο",
+"title": "The indirect object: σε + accusative or a genitive pronoun",
+"body": [
+{
+"p": "\"To whom?\" is expressed in two ways:"
+},
+{
+"list": [
+"with a noun or a strong pronoun: **σε + accusative**: **Έδωσα το βιβλίο στη Μαρία.** \"I gave the book to Maria.\"",
+"with a weak pronoun: the **genitive**: **Της έδωσα το βιβλίο.** \"I gave her the book.\""
+]
+},
+{
+"ex": [
+{
+"el": "Δώσε μου το αλάτι.",
+"en": "Pass me the salt."
+},
+{
+"el": "Τηλεφώνησα στη μαμά μου.",
+"en": "I called my mum."
+},
+{
+"el": "Του είπα την αλήθεια.",
+"en": "I told him the truth."
+},
+{
+"el": "Στείλε μου μήνυμα.",
+"en": "Send me a message."
+},
+{
+"el": "Θα το πω στον Γιάννη.",
+"en": "I'll tell Giannis."
+}
+]
+},
+{
+"p": "Verbs that take an indirect object: **δίνω** give, **λέω** tell, **στέλνω** send, **δείχνω** show, **φέρνω** bring, **γράφω** write, **τηλεφωνώ** call, **εξηγώ** explain, **χρωστάω** owe, **αρέσει** please."
+},
+{
+"p": "Formal and older Greek can use the genitive with nouns too: **Έδωσα του Νίκου το κλειδί.** You will hear it from older speakers; the everyday standard is **στον Νίκο**."
+},
+{
+"tip": "In northern Greece many people say **σε είπα** or **με είπε** (accusative). The standard is **σου είπα, μου είπε**."
+},
+{
+"solved": [
+{
+"q": "\"I sent my friend a message.\"",
+"a": "Έστειλα μήνυμα στον φίλο μου.",
+"why": "Noun indirect object: σε + accusative."
+},
+{
+"q": "Replace with a pronoun: \"Έστειλα μήνυμα **στον φίλο μου**.\"",
+"a": "Του έστειλα μήνυμα.",
+"why": "Weak genitive pronoun before the verb."
+},
+{
+"q": "\"Show me the photos.\"",
+"a": "Δείξε μου τις φωτογραφίες.",
+"why": "Imperative + genitive pronoun after it."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ είπα να έρθει. (to him)",
+"options": [
+"Τον",
+"Του",
+"Στον",
+"Αυτόν"
+],
+"answer": "Του",
+"why": "Indirect object as a weak pronoun: genitive του.",
+"id": "cases-418d10c3"
+},
+{
+"type": "choice",
+"q": "Έδωσα τα κλειδιά ___. (to the neighbour)",
+"options": [
+"τον γείτονα",
+"στον γείτονα",
+"ο γείτονας",
+"με τον γείτονα"
+],
+"answer": "στον γείτονα",
+"why": "Everyday: σε + accusative (older speakers also say του γείτονα).",
+"id": "cases-439f6c97"
+},
+{
+"type": "choice",
+"q": "Φέρε ___ ένα ποτήρι νερό. (me)",
+"options": [
+"με",
+"μου",
+"εμένα",
+"εγώ"
+],
+"answer": "μου",
+"why": "Indirect object after the imperative: μου.",
+"id": "cases-7a998798"
+},
+{
+"type": "choice",
+"q": "Τηλεφώνησε ___. (to your mother)",
+"options": [
+"τη μητέρα σου",
+"στη μητέρα σου",
+"της μητέρας σου",
+"η μητέρα σου"
+],
+"answer": "στη μητέρα σου",
+"why": "τηλεφωνώ σε κάποιον.",
+"id": "cases-40f8dc06"
+},
+{
+"type": "choice",
+"q": "Θα ___ πω την αλήθεια. (to you, informal)",
+"options": [
+"σε",
+"σου",
+"σένα",
+"εσύ"
+],
+"answer": "σου",
+"why": "Indirect object: σου.",
+"id": "cases-0ee28155"
+},
+{
+"type": "choice",
+"q": "___ αρέσει η μουσική. (they like)",
+"options": [
+"Αυτούς",
+"Τους",
+"Στους",
+"Οι"
+],
+"answer": "Τους",
+"why": "With αρέσει, the person who likes is a genitive: τους.",
+"id": "cases-db135be1"
+},
+{
+"type": "write",
+"q": "Translate: \"Tell me.\" (informal)",
+"answer": "Πες μου.",
+"accept": [],
+"why": "Imperative + genitive μου.",
+"id": "cases-2115af23"
+},
+{
+"type": "write",
+"q": "Translate: \"I gave her a present.\" (ένα δώρο)",
+"answer": "Της έδωσα ένα δώρο.",
+"accept": [],
+"why": "Genitive pronoun της.",
+"id": "cases-d87e3bb4"
+},
+{
+"type": "write",
+"q": "Translate: \"I'll call my brother.\"",
+"answer": "Θα τηλεφωνήσω στον αδερφό μου.",
+"accept": [
+"Θα πάρω τηλέφωνο τον αδερφό μου."
+],
+"why": "τηλεφωνώ σε + accusative, or παίρνω τηλέφωνο + accusative.",
+"id": "cases-f64568aa"
+},
+{
+"type": "write",
+"q": "Replace with a pronoun: \"Είπα την αλήθεια **στη Μαρία**.\"",
+"answer": "Της είπα την αλήθεια.",
+"accept": [],
+"why": "σε + feminine noun → της.",
+"id": "cases-a18c3da5"
+},
+{
+"type": "order",
+"q": "\"Send me a message tonight.\" (απόψε)",
+"answer": "Στείλε μου μήνυμα απόψε.",
+"accept": [
+"Στείλε μου απόψε μήνυμα."
+],
+"why": "Imperative, weak pronoun right after it.",
+"id": "cases-9680c74a"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ένα ποτήρι νερό",
+"title": "Quantities, and adverbs with a genitive pronoun",
+"body": [
+{
+"p": "**Quantities** do not take a genitive: the noun simply follows, in the same case as the measure."
+},
+{
+"ex": [
+{
+"el": "ένα ποτήρι νερό",
+"en": "a glass of water"
+},
+{
+"el": "ένα κιλό ντομάτες",
+"en": "a kilo of tomatoes"
+},
+{
+"el": "ένα μπουκάλι κρασί",
+"en": "a bottle of wine"
+},
+{
+"el": "δύο φέτες ψωμί",
+"en": "two slices of bread"
+},
+{
+"el": "λίγο τυρί, πολλή ζάχαρη",
+"en": "a little cheese, a lot of sugar"
+}
+]
+},
+{
+"p": "**Adverbs of place** take **από** + noun or a genitive weak pronoun: **μπροστά από το σπίτι** \"in front of the house\" but **μπροστά μου** \"in front of me\"; **δίπλα στο περίπτερο** \"next to the kiosk\" but **δίπλα της** \"next to her\"."
+},
+{
+"table": {
+"head": [
+"With a noun",
+"With a pronoun"
+],
+"rows": [
+[
+"μπροστά από το σχολείο",
+"μπροστά μας"
+],
+[
+"πίσω από την πόρτα",
+"πίσω της"
+],
+[
+"δίπλα στον σταθμό",
+"δίπλα του"
+],
+[
+"πάνω από το τραπέζι",
+"πάνω σου"
+],
+[
+"κοντά στη θάλασσα",
+"κοντά μου"
+],
+[
+"μαζί με τον Νίκο",
+"μαζί του"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Κάθισε δίπλα μου.",
+"en": "Sit next to me."
+},
+{
+"el": "Έλα μαζί μας!",
+"en": "Come with us!"
+},
+{
+"el": "Το φαρμακείο είναι απέναντι από την τράπεζα.",
+"en": "The pharmacy is opposite the bank."
+},
+{
+"el": "Μην πας μακριά μου.",
+"en": "Don't go far from me."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"a kilo of oranges\"",
+"a": "ένα κιλό πορτοκάλια",
+"why": "No genitive: the noun follows the measure."
+},
+{
+"q": "\"behind the door\"",
+"a": "πίσω από την πόρτα",
+"why": "πίσω από + accusative."
+},
+{
+"q": "\"with them\" (μαζί)",
+"a": "μαζί τους",
+"why": "Adverb + genitive weak pronoun."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ένα ποτήρι ___, παρακαλώ. (wine)",
+"options": [
+"κρασιού",
+"κρασί",
+"του κρασιού",
+"από κρασί"
+],
+"answer": "κρασί",
+"why": "Quantity + noun, no genitive.",
+"id": "cases-7a6b015d"
+},
+{
+"type": "choice",
+"q": "Θέλω δύο κιλά ___. (potatoes, η πατάτα)",
+"options": [
+"πατατών",
+"πατάτες",
+"των πατατών",
+"πατάτας"
+],
+"answer": "πατάτες",
+"why": "Quantity + noun in the same case.",
+"id": "cases-d32fe8f7"
+},
+{
+"type": "choice",
+"q": "Κάθισε ___. (next to me)",
+"options": [
+"δίπλα με",
+"δίπλα μου",
+"δίπλα εμένα",
+"δίπλα σε μου"
+],
+"answer": "δίπλα μου",
+"why": "Adverb + genitive pronoun.",
+"id": "cases-5ce8c11e"
+},
+{
+"type": "choice",
+"q": "Το περίπτερο είναι ___ την εκκλησία. (opposite)",
+"options": [
+"απέναντι στης",
+"απέναντι από",
+"απέναντι της",
+"απέναντι με"
+],
+"answer": "απέναντι από",
+"why": "Adverb + από + accusative.",
+"id": "cases-4f213933"
+},
+{
+"type": "choice",
+"q": "Έλα ___! (with me)",
+"options": [
+"μαζί με",
+"μαζί εμένα",
+"μαζί μου",
+"με μαζί"
+],
+"answer": "μαζί μου",
+"why": "μαζί + genitive pronoun.",
+"id": "cases-661b0510"
+},
+{
+"type": "choice",
+"q": "Είναι πίσω ___. (behind you)",
+"options": [
+"από σου",
+"σου",
+"σε",
+"εσένα"
+],
+"answer": "σου",
+"why": "πίσω + genitive pronoun.",
+"id": "cases-e3909aab"
+},
+{
+"type": "write",
+"q": "Translate: \"a bottle of water\"",
+"answer": "ένα μπουκάλι νερό",
+"accept": [],
+"why": "No genitive.",
+"id": "cases-482a018d"
+},
+{
+"type": "write",
+"q": "Translate: \"in front of the house\"",
+"answer": "μπροστά από το σπίτι",
+"accept": [
+"μπροστά στο σπίτι"
+],
+"why": "μπροστά από / σε + accusative.",
+"id": "cases-c7212584"
+},
+{
+"type": "write",
+"q": "Translate: \"near me\"",
+"answer": "κοντά μου",
+"accept": [],
+"why": "Adverb + genitive pronoun.",
+"id": "cases-a3d64e2a"
+},
+{
+"type": "write",
+"q": "Translate: \"Come with us!\"",
+"answer": "Έλα μαζί μας!",
+"accept": [
+"Ελάτε μαζί μας!"
+],
+"why": "μαζί + μας.",
+"id": "cases-5e56c0c5"
+},
+{
+"type": "write",
+"q": "Translate: \"half a kilo of cheese\"",
+"answer": "μισό κιλό τυρί",
+"accept": [],
+"why": "No genitive.",
+"id": "cases-6a37f25e"
+}
+]
+}
+]
+}
+],
+"id": "cases",
+"el": "Οι πτώσεις στην πράξη",
+"title": "Using the cases",
+"span": "A1–B2",
+"blurb": "What the nominative, accusative and genitive do: subjects and predicates, objects and prepositions, time phrases, possession, indirect objects, and why \"a glass of water\" needs no genitive.",
+"intro": [
+{
+"p": "Greek has four cases. You already know their forms; this chapter is about **when** to use each one. The short version:"
+},
+{
+"list": [
+"**Nominative**: the subject, and whatever comes after **είμαι** \"be\", **γίνομαι** \"become\", **λέγομαι** \"be called\".",
+"**Accusative**: the object, almost everything after a preposition, and most time phrases.",
+"**Genitive**: possession (\"of\", \"'s\"), the indirect object when it is a weak pronoun (**μου, σου, του**), and a few prepositions.",
+"**Vocative**: calling someone (chapter 3)."
+]
+},
+{
+"links": [
+{
+"href": "#a1-cases",
+"kind": "Lesson",
+"el": "Οι πτώσεις",
+"title": "The four cases"
+},
+{
+"href": "#decl2-case-government",
+"kind": "Lesson",
+"el": "Ποια πτώση μετά από τι;",
+"title": "Case government: what takes which case"
+},
+{
+"href": "#cards.cases",
+"kind": "Card",
+"el": "Οι πτώσεις με μια ματιά",
+"title": "The cases at a glance"
+},
+{
+"href": "#pos.noun",
+"kind": "Part of speech",
+"el": "Το ουσιαστικό",
+"title": "The noun"
+}
+]
+}
+],
+"num": 7
+}

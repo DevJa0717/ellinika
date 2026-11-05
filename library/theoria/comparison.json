@@ -1,0 +1,1081 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Πιο + επίθετο",
+"title": "The comparative with πιο",
+"body": [
+{
+"p": "Put **πιο** before any adjective. The adjective agrees as usual, and \"than\" is **από** + accusative:"
+},
+{
+"ex": [
+{
+"el": "Η Αθήνα είναι πιο μεγάλη από τη Θεσσαλονίκη.",
+"en": "Athens is bigger than Thessaloniki."
+},
+{
+"el": "Αυτό το κρασί είναι πιο φτηνό.",
+"en": "This wine is cheaper."
+},
+{
+"el": "Είσαι πιο ψηλός από μένα.",
+"en": "You're taller than me."
+},
+{
+"el": "Ο καφές εδώ είναι πιο καλός από εκεί.",
+"en": "The coffee here is better than there."
+},
+{
+"el": "Θέλω κάτι πιο ελαφρύ.",
+"en": "I want something lighter."
+}
+]
+},
+{
+"p": "With a pronoun, use the strong form after **από**: **από μένα / από εμένα, από σένα / από εσένα, από αυτόν, από μας, από σας, από αυτούς**."
+},
+{
+"p": "Strengthen it with **πολύ** \"much\", **λίγο** \"a bit\", **ακόμα** \"even\":"
+},
+{
+"ex": [
+{
+"el": "πολύ πιο ακριβό",
+"en": "much more expensive"
+},
+{
+"el": "λίγο πιο αργά",
+"en": "a bit slower"
+},
+{
+"el": "ακόμα πιο ωραίο",
+"en": "even nicer"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"My brother is older than me.\" (μεγάλος)",
+"a": "Ο αδερφός μου είναι πιο μεγάλος από μένα. | Ο αδερφός μου είναι πιο μεγάλος από εμένα.",
+"why": "πιο + adjective, από + strong pronoun."
+},
+{
+"q": "\"This room is quieter.\" (ήσυχος)",
+"a": "Αυτό το δωμάτιο είναι πιο ήσυχο.",
+"why": "Neuter agreement."
+},
+{
+"q": "\"much colder\" (κρύος, the weather: ο καιρός)",
+"a": "πολύ πιο κρύος",
+"why": "πολύ strengthens πιο."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η Κρήτη είναι πιο μεγάλη ___ τη Ρόδο.",
+"options": [
+"παρά",
+"από",
+"σαν",
+"με"
+],
+"answer": "από",
+"why": "\"Than\" + noun: από + accusative.",
+"id": "comparison-8933db1e"
+},
+{
+"type": "choice",
+"q": "Είναι πιο έξυπνη από ___. (me)",
+"options": [
+"εγώ",
+"μένα",
+"μου",
+"με"
+],
+"answer": "μένα",
+"why": "από + strong accusative: από μένα / εμένα.",
+"id": "comparison-559c8502"
+},
+{
+"type": "choice",
+"q": "Αυτή η μπλούζα είναι πιο ___. (cheap)",
+"options": [
+"φτηνός",
+"φτηνή",
+"φτηνό",
+"φτηνού"
+],
+"answer": "φτηνή",
+"why": "Agrees with η μπλούζα.",
+"id": "comparison-6ed43211"
+},
+{
+"type": "choice",
+"q": "Ο Νίκος είναι ___ από τον Πέτρο. (a bit taller)",
+"options": [
+"πιο λίγο ψηλός",
+"λίγο πιο ψηλός",
+"ψηλός λίγο πιο",
+"πιο ψηλός λίγο από"
+],
+"answer": "λίγο πιο ψηλός",
+"why": "λίγο πιο + adjective.",
+"id": "comparison-fc1b3e4b"
+},
+{
+"type": "choice",
+"q": "Σήμερα κάνει ___ ζέστη από χθες. (more)",
+"options": [
+"πολύτερη",
+"περισσότερη",
+"περισσότερος",
+"πιο περισσότερη"
+],
+"answer": "περισσότερη",
+"why": "With a noun: περισσότερη ζέστη (or πιο πολλή ζέστη).",
+"id": "comparison-038d1636"
+},
+{
+"type": "choice",
+"q": "Αυτό το εστιατόριο είναι ___ ακριβό. (even more)",
+"options": [
+"πιο ακόμα",
+"ακόμα πιο",
+"πολύ ακόμα",
+"πιο πιο"
+],
+"answer": "ακόμα πιο",
+"why": "ακόμα πιο = even more.",
+"id": "comparison-b72c8014"
+},
+{
+"type": "write",
+"q": "Translate: \"Rhodes is smaller than Crete.\"",
+"answer": "Η Ρόδος είναι πιο μικρή από την Κρήτη.",
+"accept": [
+"Η Ρόδος είναι μικρότερη από την Κρήτη."
+],
+"why": "πιο + adjective or -ότερη; από + accusative.",
+"id": "comparison-7f6970d6"
+},
+{
+"type": "write",
+"q": "Translate: \"You're faster than him.\" (γρήγορος, to a man)",
+"answer": "Είσαι πιο γρήγορος από αυτόν.",
+"accept": [
+"Είσαι πιο γρήγορος από εκείνον."
+],
+"why": "Strong pronoun after από.",
+"id": "comparison-938dbaa3"
+},
+{
+"type": "write",
+"q": "Translate: \"a bit cheaper\" (το δωμάτιο)",
+"answer": "λίγο πιο φτηνό",
+"accept": [
+"λίγο φτηνότερο"
+],
+"why": "λίγο πιο.",
+"id": "comparison-f0ded353"
+},
+{
+"type": "write",
+"q": "Translate: \"much better\" (το φαγητό)",
+"answer": "πολύ πιο καλό",
+"accept": [
+"πολύ καλύτερο"
+],
+"why": "πολύ πιο or πολύ + -ότερο.",
+"id": "comparison-6af19c76"
+},
+{
+"type": "order",
+"q": "\"This beach is nicer than the other one.\" (η παραλία, ωραίος, την άλλη)",
+"answer": "Αυτή η παραλία είναι πιο ωραία από την άλλη.",
+"accept": [],
+"why": "πιο + adjective + από.",
+"id": "comparison-888177b4"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Μεγαλύτερος, καλύτερος",
+"title": "One-word comparatives in -ότερος and the irregular ones",
+"body": [
+{
+"p": "Add **-ότερος, -η, -ο** to the stem: **φτηνός → φτηνότερος**, **ακριβός → ακριβότερος**, **ωραίος → ωραιότερος**. Adjectives in -ύς take **-ύτερος**: **βαθύς → βαθύτερος**, **μακρύς → μακρύτερος**."
+},
+{
+"p": "The most common ones are **irregular**, and you hear them more than the πιο forms:"
+},
+{
+"table": {
+"head": [
+"Adjective",
+"Comparative",
+"Meaning"
+],
+"rows": [
+[
+"καλός",
+"καλύτερος",
+"better"
+],
+[
+"κακός",
+"χειρότερος",
+"worse"
+],
+[
+"μεγάλος",
+"μεγαλύτερος",
+"bigger, older"
+],
+[
+"μικρός",
+"μικρότερος",
+"smaller, younger"
+],
+[
+"πολύς",
+"περισσότερος",
+"more"
+],
+[
+"λίγος",
+"λιγότερος",
+"less, fewer"
+],
+[
+"απλός",
+"απλούστερος (or πιο απλός)",
+"simpler"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Αύριο θα είναι καλύτερα.",
+"en": "Tomorrow will be better."
+},
+{
+"el": "Η κίνηση σήμερα είναι χειρότερη.",
+"en": "The traffic is worse today."
+},
+{
+"el": "Η μεγαλύτερη αδερφή μου.",
+"en": "My older sister."
+},
+{
+"el": "Θέλω περισσότερο χρόνο.",
+"en": "I want more time."
+},
+{
+"el": "Τρώω λιγότερη ζάχαρη τώρα.",
+"en": "I eat less sugar now."
+}
+]
+},
+{
+"tip": "Never combine the two: *πιο καλύτερος* is a common error (like English \"more better\"). Say **καλύτερος** or **πιο καλός**."
+},
+{
+"solved": [
+{
+"q": "Comparative of **φτηνός** (one word)",
+"a": "φτηνότερος",
+"why": "-ότερος."
+},
+{
+"q": "Comparative of **καλός**",
+"a": "καλύτερος | πιο καλός",
+"why": "Irregular."
+},
+{
+"q": "\"less time\" (ο χρόνος)",
+"a": "λιγότερος χρόνος",
+"why": "Agrees with the noun."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ο καιρός σήμερα είναι ___ από χθες. (better)",
+"options": [
+"πιο καλύτερος",
+"καλύτερος",
+"καλότερος",
+"καλύτερα"
+],
+"answer": "καλύτερος",
+"why": "Irregular καλύτερος; never πιο καλύτερος.",
+"id": "comparison-9fcd3ddb"
+},
+{
+"type": "choice",
+"q": "Έχει ___ κίνηση τώρα. (less)",
+"options": [
+"λιγότερης",
+"λιγότερη",
+"λιγότερο",
+"λιγότερος"
+],
+"answer": "λιγότερη",
+"why": "Feminine singular: λιγότερη (πιο λίγη means the same).",
+"id": "comparison-38df795c"
+},
+{
+"type": "choice",
+"q": "Η κατάσταση είναι ___. (worse)",
+"options": [
+"κακότερη",
+"χειρότερη",
+"πιο χειρότερη",
+"χειρότερος"
+],
+"answer": "χειρότερη",
+"why": "κακός → χειρότερος.",
+"id": "comparison-a5e8cc67"
+},
+{
+"type": "choice",
+"q": "Ο ___ μου αδερφός. (younger)",
+"options": [
+"μικρός",
+"μικρότερος",
+"πιο μικρότερος",
+"μικρότατος"
+],
+"answer": "μικρότερος",
+"why": "μικρότερος = younger.",
+"id": "comparison-48b46a3c"
+},
+{
+"type": "choice",
+"q": "Θέλω ___ λεφτά. (more)",
+"options": [
+"πιο πολλή",
+"περισσότερα",
+"περισσότερο",
+"πολλότερα"
+],
+"answer": "περισσότερα",
+"why": "Neuter plural: περισσότερα (or πιο πολλά).",
+"id": "comparison-d2e4ece7"
+},
+{
+"type": "choice",
+"q": "Αυτή η λίμνη είναι ___. (deeper)",
+"options": [
+"βαθιότερη",
+"βαθύτερη",
+"πιο βαθύτερη",
+"βαθύτερο"
+],
+"answer": "βαθύτερη",
+"why": "-ύς → -ύτερος.",
+"id": "comparison-280f130d"
+},
+{
+"type": "write",
+"q": "Comparative of **ακριβός**",
+"answer": "ακριβότερος",
+"accept": [],
+"why": "-ότερος.",
+"id": "comparison-20336e1d"
+},
+{
+"type": "write",
+"q": "Comparative of **κακός**",
+"answer": "χειρότερος",
+"accept": [],
+"why": "Irregular.",
+"id": "comparison-685f2760"
+},
+{
+"type": "write",
+"q": "Comparative of **μακρύς**",
+"answer": "μακρύτερος",
+"accept": [],
+"why": "-ύτερος.",
+"id": "comparison-21cc2b02"
+},
+{
+"type": "write",
+"q": "Translate: \"more people\" (ο κόσμος)",
+"answer": "περισσότερος κόσμος",
+"accept": [],
+"why": "Masculine singular.",
+"id": "comparison-36d46c96"
+},
+{
+"type": "write",
+"q": "Translate: \"my older brother\"",
+"answer": "ο μεγαλύτερος αδερφός μου",
+"accept": [
+"ο μεγάλος αδερφός μου"
+],
+"why": "μεγαλύτερος = older.",
+"id": "comparison-284aab11"
+},
+{
+"type": "write",
+"q": "Translate: \"fewer mistakes\" (τα λάθη)",
+"answer": "λιγότερα λάθη",
+"accept": [],
+"why": "Neuter plural.",
+"id": "comparison-eab8f865"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ο καλύτερος, ο πιο ωραίος",
+"title": "The superlative",
+"body": [
+{
+"p": "The superlative (\"the best, the most beautiful\") is just the comparative **with the article**:"
+},
+{
+"table": {
+"head": [
+"Comparative",
+"Superlative"
+],
+"rows": [
+[
+"πιο ωραίος",
+"ο πιο ωραίος"
+],
+[
+"καλύτερος",
+"ο καλύτερος"
+],
+[
+"μεγαλύτερη",
+"η μεγαλύτερη"
+],
+[
+"περισσότερα",
+"τα περισσότερα"
+]
+]
+}
+},
+{
+"p": "\"In / of\" after a superlative is **από** + accusative, or a genitive:"
+},
+{
+"ex": [
+{
+"el": "Είναι η καλύτερη ταβέρνα του νησιού.",
+"en": "It's the best taverna on the island."
+},
+{
+"el": "Ο πιο ψηλός από όλους.",
+"en": "The tallest of all."
+},
+{
+"el": "Αυτό είναι το πιο ωραίο μέρος που έχω δει.",
+"en": "This is the most beautiful place I've seen."
+},
+{
+"el": "Οι περισσότεροι Έλληνες πίνουν καφέ κάθε μέρα.",
+"en": "Most Greeks drink coffee every day."
+},
+{
+"el": "Τα περισσότερα μαγαζιά κλείνουν την Κυριακή.",
+"en": "Most shops close on Sundays."
+}
+]
+},
+{
+"tip": "**Οι περισσότεροι / τα περισσότερα** means \"most (of)\": **οι περισσότεροι φίλοι μου** \"most of my friends\"."
+},
+{
+"solved": [
+{
+"q": "\"the cheapest hotel\"",
+"a": "το πιο φτηνό ξενοδοχείο | το φτηνότερο ξενοδοχείο",
+"why": "Article + comparative."
+},
+{
+"q": "\"the best of all\" (a woman)",
+"a": "η καλύτερη από όλες | η καλύτερη απ' όλες",
+"why": "από + accusative."
+},
+{
+"q": "\"most children\"",
+"a": "τα περισσότερα παιδιά",
+"why": "τα περισσότερα = most."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Είναι ___ μπαρ της πόλης. (the best)",
+"options": [
+"καλύτερο",
+"το καλύτερο",
+"πιο καλύτερο",
+"το καλύτατο"
+],
+"answer": "το καλύτερο",
+"why": "Superlative: article + comparative.",
+"id": "comparison-d8a07c01"
+},
+{
+"type": "choice",
+"q": "Η Κρήτη είναι το ___ νησί. (largest)",
+"options": [
+"πιο μεγαλύτερο",
+"μεγαλύτερο",
+"μεγαλύτατο",
+"πολύ μεγάλο"
+],
+"answer": "μεγαλύτερο",
+"why": "Article + μεγαλύτερο.",
+"id": "comparison-663293f6"
+},
+{
+"type": "choice",
+"q": "___ φίλοι μου μένουν στην Αθήνα. (Most)",
+"options": [
+"Πολλοί περισσότεροι",
+"Οι περισσότεροι",
+"Τα περισσότερα",
+"Περισσότεροι"
+],
+"answer": "Οι περισσότεροι",
+"why": "οι περισσότεροι = most (masculine).",
+"id": "comparison-061a411e"
+},
+{
+"type": "choice",
+"q": "Ποιο είναι ___ τραγούδι; (the most beautiful)",
+"options": [
+"πιο ωραίο",
+"το πιο ωραίο",
+"το ωραίο πιο",
+"ωραιότερο"
+],
+"answer": "το πιο ωραίο",
+"why": "Article + πιο + adjective.",
+"id": "comparison-d608b92f"
+},
+{
+"type": "choice",
+"q": "Ήταν η πιο δύσκολη μέρα ___ ζωής μου.",
+"options": [
+"από τη",
+"της",
+"στη",
+"με τη"
+],
+"answer": "της",
+"why": "Superlative + genitive: της ζωής μου.",
+"id": "comparison-37fdde63"
+},
+{
+"type": "write",
+"q": "Translate: \"the biggest problem\"",
+"answer": "το μεγαλύτερο πρόβλημα",
+"accept": [
+"το πιο μεγάλο πρόβλημα"
+],
+"why": "Article + comparative.",
+"id": "comparison-e56b8fb0"
+},
+{
+"type": "write",
+"q": "Translate: \"the worst day\"",
+"answer": "η χειρότερη μέρα",
+"accept": [
+"η πιο κακή μέρα"
+],
+"why": "Article + comparative.",
+"id": "comparison-d1778769"
+},
+{
+"type": "write",
+"q": "Translate: \"most shops\"",
+"answer": "τα περισσότερα μαγαζιά",
+"accept": [],
+"why": "τα περισσότερα + neuter plural.",
+"id": "comparison-5390dbdd"
+},
+{
+"type": "order",
+"q": "\"It's the best taverna on the island.\" (ταβέρνα, νησιού)",
+"answer": "Είναι η καλύτερη ταβέρνα του νησιού.",
+"accept": [],
+"why": "Superlative + genitive.",
+"id": "comparison-9f955c12"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ωραιότατος, πάρα πολύ καλός",
+"title": "\"Very\": -ότατος and everyday intensifiers",
+"body": [
+{
+"p": "To say \"very\" or \"extremely\" Greek has:"
+},
+{
+"list": [
+"**πολύ** / **πάρα πολύ** + adjective: **πολύ καλός** \"very good\", **πάρα πολύ καλός** \"extremely good\".",
+"the one-word form in **-ότατος**, a bit formal or emphatic: **ωραιότατος** \"really lovely\", **καλύτατος** \"excellent\", **ελάχιστος** \"minimal\", **μέγιστος** \"maximum\", **άριστος** \"excellent\" (also the top school grade).",
+"the prefixes **κατα-** and **ολο-** with colours and a few other adjectives: **κατακόκκινος** \"bright red\", **κατάμαυρος** \"pitch black\", **ολοκαίνουργιος** \"brand new\", **ολόφρεσκος** \"really fresh\".",
+"repetition in speech: **μικρό μικρό** \"tiny\", **σιγά σιγά** \"slowly, little by little\".",
+"colloquial **πολύ πολύ**, **υπερβολικά** \"too\", **τρομερά** \"terribly\", **απίστευτα** \"incredibly\"."
+]
+},
+{
+"ex": [
+{
+"el": "Ήταν ωραιότατη η βραδιά!",
+"en": "It was a really lovely evening!"
+},
+{
+"el": "Έχω ολοκαίνουργιο κινητό.",
+"en": "I've got a brand new phone."
+},
+{
+"el": "Έγινε κατακόκκινη από ντροπή.",
+"en": "She went bright red with embarrassment."
+},
+{
+"el": "Τα ψάρια είναι ολόφρεσκα.",
+"en": "The fish is really fresh."
+},
+{
+"el": "Είναι απίστευτα ακριβό.",
+"en": "It's incredibly expensive."
+},
+{
+"el": "Πήρε άριστα στις εξετάσεις.",
+"en": "She got top marks in the exams."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"brand new shoes\"",
+"a": "ολοκαίνουργια παπούτσια",
+"why": "ολο- + adjective."
+},
+{
+"q": "\"really lovely\" (one word, η μέρα)",
+"a": "ωραιότατη",
+"why": "-ότατη."
+},
+{
+"q": "\"pitch black\" (τα μαλλιά)",
+"a": "κατάμαυρα",
+"why": "κατα- + colour."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η θάλασσα ήταν ___. (really clear: καθαρός)",
+"options": [
+"πιο καθαρότατη",
+"πεντακάθαρη",
+"καθαρότερη",
+"το πιο καθαρό"
+],
+"answer": "πεντακάθαρη",
+"why": "πεντα- also intensifies: πεντακάθαρος \"spotless, crystal clear\".",
+"id": "comparison-c97d7fdc"
+},
+{
+"type": "choice",
+"q": "Πήρα ένα ___ αυτοκίνητο. (brand new)",
+"options": [
+"πολυκαινούργιο",
+"ολοκαίνουργιο",
+"καινουργιότερο",
+"πολύ καινούργιο πολύ"
+],
+"answer": "ολοκαίνουργιο",
+"why": "ολο- = brand.",
+"id": "comparison-5721222d"
+},
+{
+"type": "choice",
+"q": "Η ντομάτα είναι ___. (bright red)",
+"options": [
+"πολύ κοκκινότερη",
+"κατακόκκινη",
+"κοκκινέστατη",
+"πιο κόκκινη"
+],
+"answer": "κατακόκκινη",
+"why": "κατα- + colour.",
+"id": "comparison-6ee7c77c"
+},
+{
+"type": "choice",
+"q": "Το φαγητό ήταν ___ καλό! (extremely)",
+"options": [
+"πολύ πάρα",
+"πάρα πολύ",
+"πάρα",
+"πολλά"
+],
+"answer": "πάρα πολύ",
+"why": "πάρα πολύ = extremely.",
+"id": "comparison-49e4cfdf"
+},
+{
+"type": "choice",
+"q": "Η διαφορά είναι ___. (minimal)",
+"options": [
+"λιγότατη",
+"ελάχιστη",
+"πιο λίγη",
+"μικρότατη πολύ"
+],
+"answer": "ελάχιστη",
+"why": "ελάχιστος = minimal.",
+"id": "comparison-80c62e59"
+},
+{
+"type": "write",
+"q": "Translate: \"very cheap\" (το κρασί)",
+"answer": "πολύ φτηνό",
+"accept": [
+"φτηνότατο"
+],
+"why": "πολύ + adjective, or -ότατο.",
+"id": "comparison-b3400204"
+},
+{
+"type": "write",
+"q": "Translate: \"really fresh fish\" (τα ψάρια)",
+"answer": "ολόφρεσκα ψάρια",
+"accept": [],
+"why": "ολο- + adjective.",
+"id": "comparison-c7b26110"
+},
+{
+"type": "write",
+"q": "Translate: \"little by little\"",
+"answer": "σιγά σιγά",
+"accept": [],
+"why": "Repetition.",
+"id": "comparison-a177ce41"
+},
+{
+"type": "write",
+"q": "Translate: \"incredibly expensive\" (το εστιατόριο)",
+"answer": "απίστευτα ακριβό",
+"accept": [],
+"why": "Adverb + adjective.",
+"id": "comparison-43335846"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Τόσο... όσο, σαν, παρά",
+"title": "Equality, comparing actions, and \"than\" with παρά",
+"body": [
+{
+"p": "**Equality:** **τόσο + adjective + όσο** \"as ... as\", **σαν** \"like\", **ίδιος με** \"the same as\":"
+},
+{
+"ex": [
+{
+"el": "Είναι τόσο ψηλός όσο ο πατέρας του.",
+"en": "He's as tall as his father."
+},
+{
+"el": "Δεν είναι τόσο δύσκολο όσο νομίζεις.",
+"en": "It's not as hard as you think."
+},
+{
+"el": "Τρως σαν πουλάκι.",
+"en": "You eat like a little bird."
+},
+{
+"el": "Η τσάντα μου είναι ίδια με τη δική σου.",
+"en": "My bag is the same as yours."
+}
+]
+},
+{
+"p": "**Comparing actions (adverbs):** **πιο καλά / καλύτερα**, **πιο πολύ / περισσότερο**, **πιο λίγο / λιγότερο**, **πιο γρήγορα / γρηγορότερα**, **χειρότερα**:"
+},
+{
+"ex": [
+{
+"el": "Μαγειρεύεις καλύτερα από μένα.",
+"en": "You cook better than me."
+},
+{
+"el": "Δουλεύει περισσότερο από όλους.",
+"en": "She works more than anyone."
+},
+{
+"el": "Μίλα πιο σιγά, σε παρακαλώ.",
+"en": "Speak more slowly, please."
+}
+]
+},
+{
+"p": "**Than + something other than a noun:** use **παρά** with adjectives, adverbs, phrases and **να**-clauses:"
+},
+{
+"ex": [
+{
+"el": "Καλύτερα αργά παρά ποτέ.",
+"en": "Better late than never."
+},
+{
+"el": "Προτιμώ να μείνω σπίτι παρά να βγω.",
+"en": "I'd rather stay in than go out."
+},
+{
+"el": "Είναι πιο έξυπνος παρά εργατικός.",
+"en": "He's more clever than hard-working."
+}
+]
+},
+{
+"p": "**Parallel change:** **όσο πιο... τόσο πιο** \"the more... the more\", **όλο και πιο** \"more and more\":"
+},
+{
+"ex": [
+{
+"el": "Όσο πιο νωρίς, τόσο πιο καλά.",
+"en": "The sooner, the better."
+},
+{
+"el": "Η ζωή γίνεται όλο και πιο ακριβή.",
+"en": "Life is getting more and more expensive."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I'm not as tired as yesterday.\"",
+"a": "Δεν είμαι τόσο κουρασμένος όσο χθες. | Δεν είμαι τόσο κουρασμένη όσο χθες.",
+"why": "τόσο ... όσο."
+},
+{
+"q": "\"I'd rather walk than take the bus.\" (περπατάω, παίρνω)",
+"a": "Προτιμώ να περπατήσω παρά να πάρω το λεωφορείο.",
+"why": "παρά before a να-clause."
+},
+{
+"q": "\"The more you practise, the better you get.\" (εξασκείσαι, γίνεσαι)",
+"a": "Όσο πιο πολύ εξασκείσαι, τόσο πιο καλός γίνεσαι. | Όσο περισσότερο εξασκείσαι, τόσο καλύτερος γίνεσαι.",
+"why": "όσο πιο ... τόσο πιο."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Δεν είναι ___ ακριβό όσο νομίζεις.",
+"options": [
+"πιο",
+"τόσο",
+"όσο",
+"πολύ"
+],
+"answer": "τόσο",
+"why": "τόσο ... όσο.",
+"id": "comparison-f0e219b6"
+},
+{
+"type": "choice",
+"q": "Καλύτερα αργά ___ ποτέ.",
+"options": [
+"από",
+"παρά",
+"σαν",
+"όσο"
+],
+"answer": "παρά",
+"why": "Before an adverb: παρά.",
+"id": "comparison-ff43dc90"
+},
+{
+"type": "choice",
+"q": "Τραγουδάει ___ αηδόνι.",
+"options": [
+"όσο",
+"σαν",
+"από",
+"παρά"
+],
+"answer": "σαν",
+"why": "σαν = like.",
+"id": "comparison-71db16d4"
+},
+{
+"type": "choice",
+"q": "Μιλάει ελληνικά ___ από μένα. (better)",
+"options": [
+"καλύτερος",
+"καλύτερα",
+"πιο καλύτερα",
+"καλότερα"
+],
+"answer": "καλύτερα",
+"why": "Adverb: καλύτερα.",
+"id": "comparison-55806cb6"
+},
+{
+"type": "choice",
+"q": "Οι τιμές ανεβαίνουν ___. (more and more)",
+"options": [
+"πιο και πιο",
+"όλο και πιο ψηλά",
+"όλο πιο",
+"πολύ πολύ πιο"
+],
+"answer": "όλο και πιο ψηλά",
+"why": "όλο και πιο = more and more.",
+"id": "comparison-b38e8b6e"
+},
+{
+"type": "choice",
+"q": "Προτιμώ να μαγειρέψω ___ να φάω έξω.",
+"options": [
+"από",
+"παρά",
+"όσο",
+"σαν"
+],
+"answer": "παρά",
+"why": "Before a να-clause: παρά.",
+"id": "comparison-054a9c9d"
+},
+{
+"type": "choice",
+"q": "Η μπλούζα σου είναι ίδια ___ τη δική μου.",
+"options": [
+"από",
+"με",
+"σαν",
+"όσο"
+],
+"answer": "με",
+"why": "ίδιος με = the same as.",
+"id": "comparison-2b74c8a9"
+},
+{
+"type": "write",
+"q": "Translate: \"Better late than never.\"",
+"answer": "Καλύτερα αργά παρά ποτέ.",
+"accept": [],
+"why": "Proverb with παρά.",
+"id": "comparison-cb9b99b4"
+},
+{
+"type": "write",
+"q": "Translate: \"It's as cold as yesterday.\" (κάνει κρύο)",
+"answer": "Κάνει τόσο κρύο όσο χθες.",
+"accept": [
+"Κάνει τόσο κρύο όσο και χθες."
+],
+"why": "τόσο ... όσο.",
+"id": "comparison-8e8509e8"
+},
+{
+"type": "write",
+"q": "Translate: \"Speak more slowly.\" (informal)",
+"answer": "Μίλα πιο σιγά.",
+"accept": [
+"Μίλα πιο αργά."
+],
+"why": "πιο + adverb.",
+"id": "comparison-a0735a57"
+},
+{
+"type": "write",
+"q": "Translate: \"The sooner, the better.\"",
+"answer": "Όσο πιο νωρίς, τόσο πιο καλά.",
+"accept": [
+"Όσο πιο νωρίς τόσο το καλύτερο."
+],
+"why": "όσο πιο ... τόσο πιο.",
+"id": "comparison-1fbca455"
+},
+{
+"type": "order",
+"q": "\"Life is getting more and more expensive.\" (η ζωή, γίνεται, ακριβή)",
+"answer": "Η ζωή γίνεται όλο και πιο ακριβή.",
+"accept": [],
+"why": "όλο και πιο + adjective.",
+"id": "comparison-4de7bc96"
+}
+]
+}
+]
+}
+],
+"id": "comparison",
+"el": "Παραθετικά",
+"title": "Comparison: bigger, the biggest, very big",
+"span": "A2–B2",
+"blurb": "The comparative with πιο and with -ότερος, the irregular forms, \"than\" with από and παρά, the superlative, the -ότατος form and the everyday intensifiers.",
+"intro": [
+{
+"p": "Greek compares in two ways, and both are correct: with **πιο** + adjective (**πιο μεγάλος** \"bigger\"), which works with every adjective and is the everyday choice, or with a one-word form in **-ότερος** (**μεγαλύτερος**), which is shorter and slightly more polished. \"Than\" is **από** + accusative."
+},
+{
+"links": [
+{
+"href": "#b1-comparison",
+"kind": "Lesson",
+"el": "Σύγκριση",
+"title": "Comparatives and superlatives"
+},
+{
+"href": "#cards.comparison",
+"kind": "Card",
+"el": "Συγκριτικός και υπερθετικός",
+"title": "Comparison"
+},
+{
+"href": "#pos.adjective",
+"kind": "Part of speech",
+"el": "Το επίθετο",
+"title": "The adjective"
+}
+]
+}
+],
+"num": 9
+}

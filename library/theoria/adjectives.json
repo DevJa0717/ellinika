@@ -1,0 +1,1469 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Επίθετα σε -ος, -η, -ο",
+"title": "Adjectives in -ος, -η, -ο",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Masculine",
+"Feminine",
+"Neuter"
+],
+"rows": [
+[
+"Nom. sg",
+"καλός",
+"καλή",
+"καλό"
+],
+[
+"Acc. sg",
+"καλό",
+"καλή",
+"καλό"
+],
+[
+"Gen. sg",
+"καλού",
+"καλής",
+"καλού"
+],
+[
+"Voc. sg",
+"καλέ",
+"καλή",
+"καλό"
+],
+[
+"Nom. pl",
+"καλοί",
+"καλές",
+"καλά"
+],
+[
+"Acc. pl",
+"καλούς",
+"καλές",
+"καλά"
+],
+[
+"Gen. pl",
+"καλών",
+"καλών",
+"καλών"
+]
+]
+}
+},
+{
+"p": "The masculine follows **ο φίλος**, the feminine **η αδερφή**, the neuter **το βιβλίο**. Most adjectives are like this: **μεγάλος** big, **μικρός** small, **ακριβός** expensive, **φτηνός** cheap, **ζεστός** hot, **έτοιμος** ready, **κουρασμένος** tired, **ελληνικός** Greek."
+},
+{
+"ex": [
+{
+"el": "Ένας μεγάλος καφές κι ένα μικρό νερό.",
+"en": "A large coffee and a small water."
+},
+{
+"el": "Η σούπα είναι ζεστή.",
+"en": "The soup is hot."
+},
+{
+"el": "Οι καλοί φίλοι είναι σπάνιοι.",
+"en": "Good friends are rare."
+},
+{
+"el": "Τα ελληνικά νησιά είναι υπέροχα.",
+"en": "The Greek islands are wonderful."
+},
+{
+"el": "Είμαστε έτοιμοι!",
+"en": "We're ready!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "Agree **μικρός** with **η κουζίνα**",
+"a": "η μικρή κουζίνα",
+"why": "Feminine: -ή."
+},
+{
+"q": "Agree **ακριβός** with **τα παπούτσια**",
+"a": "τα ακριβά παπούτσια",
+"why": "Neuter plural: -ά."
+},
+{
+"q": "\"a tired child\"",
+"a": "ένα κουρασμένο παιδί",
+"why": "Neuter singular: -ο."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Το σπίτι είναι πολύ ___.",
+"options": [
+"μεγάλος",
+"μεγάλη",
+"μεγάλο",
+"μεγάλου"
+],
+"answer": "μεγάλο",
+"why": "σπίτι is neuter.",
+"id": "adjectives-f5666d58"
+},
+{
+"type": "choice",
+"q": "Θέλω μια ___ μπίρα.",
+"options": [
+"κρύος",
+"κρύο",
+"κρύα",
+"κρύοι"
+],
+"answer": "κρύα",
+"why": "κρύος is the -ος/-α/-ο type: feminine κρύα.",
+"id": "adjectives-97485a72"
+},
+{
+"type": "choice",
+"q": "Οι φίλοι μου είναι ___.",
+"options": [
+"κουρασμένα",
+"κουρασμένες",
+"κουρασμένοι",
+"κουρασμένους"
+],
+"answer": "κουρασμένοι",
+"why": "Masculine plural nominative: -οι.",
+"id": "adjectives-961be483"
+},
+{
+"type": "choice",
+"q": "Ξέρεις ένα ___ εστιατόριο;",
+"options": [
+"φτηνός",
+"φτηνό",
+"φτηνή",
+"φτηνού"
+],
+"answer": "φτηνό",
+"why": "εστιατόριο is neuter.",
+"id": "adjectives-87d3cf72"
+},
+{
+"type": "choice",
+"q": "Η τιμή του ___ αυτοκινήτου.",
+"options": [
+"καινούργιο",
+"καινούργιου",
+"καινούργιος",
+"καινούργιων"
+],
+"answer": "καινούργιου",
+"why": "Genitive singular neuter: -ου.",
+"id": "adjectives-0c856816"
+},
+{
+"type": "choice",
+"q": "Πήρα δύο ___ φορέματα.",
+"options": [
+"ακριβούς",
+"ακριβές",
+"ακριβά",
+"ακριβοί"
+],
+"answer": "ακριβά",
+"why": "φόρεμα is neuter: plural -ά.",
+"id": "adjectives-a4095f1c"
+},
+{
+"type": "choice",
+"q": "Βλέπω τους ___ φίλους μου.",
+"options": [
+"παλιοί",
+"παλιούς",
+"παλιές",
+"παλιά"
+],
+"answer": "παλιούς",
+"why": "Masculine accusative plural: -ούς.",
+"id": "adjectives-d743d833"
+},
+{
+"type": "choice",
+"q": "Η σούπα δεν είναι ___.",
+"options": [
+"ζεστός",
+"ζεστή",
+"ζεστό",
+"ζεστές"
+],
+"answer": "ζεστή",
+"why": "Feminine singular.",
+"id": "adjectives-90669ef9"
+},
+{
+"type": "write",
+"q": "Agree **μεγάλος** with **η πόλη**",
+"answer": "η μεγάλη πόλη",
+"accept": [],
+"why": "Feminine -η.",
+"id": "adjectives-be64f65b"
+},
+{
+"type": "write",
+"q": "Agree **ελληνικός** with **τα τραγούδια**",
+"answer": "τα ελληνικά τραγούδια",
+"accept": [],
+"why": "Neuter plural -ά.",
+"id": "adjectives-3472b7dd"
+},
+{
+"type": "write",
+"q": "Agree **καλός** (vocative) with **φίλε**",
+"answer": "καλέ μου φίλε",
+"accept": [
+"καλέ φίλε"
+],
+"why": "Vocative -ε, like the noun.",
+"id": "adjectives-3993ff0b"
+},
+{
+"type": "write",
+"q": "Agree **φτηνός** with **οι μπίρες**",
+"answer": "οι φτηνές μπίρες",
+"accept": [],
+"why": "Feminine plural -ές.",
+"id": "adjectives-8a3bf431"
+},
+{
+"type": "write",
+"q": "Translate: \"The coffee is ready.\"",
+"answer": "Ο καφές είναι έτοιμος.",
+"accept": [],
+"why": "Masculine predicate.",
+"id": "adjectives-9bbdf414"
+},
+{
+"type": "write",
+"q": "Translate: \"We're tired.\" (a group of women)",
+"answer": "Είμαστε κουρασμένες.",
+"accept": [],
+"why": "Feminine plural.",
+"id": "adjectives-b460396c"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Επίθετα σε -ος, -α, -ο και -ος, -ια, -ο",
+"title": "Adjectives with a feminine in -α or -ια",
+"body": [
+{
+"p": "When the ending follows a **stressed vowel**, the feminine is **-α** instead of **-η**:"
+},
+{
+"table": {
+"head": [
+"Masculine",
+"Feminine",
+"Neuter",
+"Meaning"
+],
+"rows": [
+[
+"ωραίος",
+"ωραία",
+"ωραίο",
+"lovely, nice"
+],
+[
+"νέος",
+"νέα",
+"νέο",
+"young, new"
+],
+[
+"κρύος",
+"κρύα",
+"κρύο",
+"cold"
+],
+[
+"αρχαίος",
+"αρχαία",
+"αρχαίο",
+"ancient"
+],
+[
+"αστείος",
+"αστεία",
+"αστείο",
+"funny"
+]
+]
+}
+},
+{
+"p": "A second group has **-ια** (often after κ, χ, θ, or in words like παλιός):"
+},
+{
+"table": {
+"head": [
+"Masculine",
+"Feminine",
+"Neuter",
+"Meaning"
+],
+"rows": [
+[
+"γλυκός",
+"γλυκιά",
+"γλυκό",
+"sweet"
+],
+[
+"φρέσκος",
+"φρέσκια",
+"φρέσκο",
+"fresh"
+],
+[
+"ξανθός",
+"ξανθιά",
+"ξανθό",
+"blond"
+],
+[
+"παλιός",
+"παλιά",
+"παλιό",
+"old (things)"
+],
+[
+"καινούργιος",
+"καινούργια",
+"καινούργιο",
+"new"
+]
+]
+}
+},
+{
+"p": "The feminine plural is regular: **ωραίες, γλυκές, φρέσκιες, παλιές**. The genitive feminine adds -ς: **της ωραίας, της γλυκιάς**."
+},
+{
+"ex": [
+{
+"el": "Τι ωραία μέρα!",
+"en": "What a lovely day!"
+},
+{
+"el": "Η καινούργια μου δουλειά είναι κοντά.",
+"en": "My new job is close by."
+},
+{
+"el": "Μια κρύα μπίρα, παρακαλώ.",
+"en": "A cold beer, please."
+},
+{
+"el": "Φρέσκια σαλάτα με φρέσκα λαχανικά.",
+"en": "A fresh salad with fresh vegetables."
+},
+{
+"el": "Η αρχαία Αγορά.",
+"en": "The Ancient Agora."
+}
+]
+},
+{
+"tip": "**Νέος** means \"young\" for people and \"new\" for things: **ένας νέος άνθρωπος** \"a young person\", **νέα μοντέλα** \"new models\". **Καινούργιος** means only \"new\"; **παλιός** \"old\" is for things, **γέρος / ηλικιωμένος** for people."
+},
+{
+"solved": [
+{
+"q": "Feminine of **ωραίος**",
+"a": "ωραία",
+"why": "After a stressed vowel: -α."
+},
+{
+"q": "Feminine of **γλυκός**",
+"a": "γλυκιά",
+"why": "-ος, -ια, -ο."
+},
+{
+"q": "\"an old (former) friend of mine\" (η φίλη)",
+"a": "μια παλιά μου φίλη | μια παλιά φίλη μου",
+"why": "παλιός for old acquaintances and things."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τι ___ θάλασσα!",
+"options": [
+"ωραίη",
+"ωραία",
+"ωραίο",
+"ωραίος"
+],
+"answer": "ωραία",
+"why": "After a stressed vowel the feminine is -α.",
+"id": "adjectives-1220e451"
+},
+{
+"type": "choice",
+"q": "Θέλω μια ___ πορτοκαλάδα. (cold)",
+"options": [
+"κρύη",
+"κρύα",
+"κρύο",
+"κρύας"
+],
+"answer": "κρύα",
+"why": "κρύος, κρύα, κρύο.",
+"id": "adjectives-8f922f6b"
+},
+{
+"type": "choice",
+"q": "Η πίτα είναι πολύ ___.",
+"options": [
+"γλυκή",
+"γλυκιά",
+"γλυκό",
+"γλυκέ"
+],
+"answer": "γλυκιά",
+"why": "γλυκός, γλυκιά, γλυκό.",
+"id": "adjectives-6591679e"
+},
+{
+"type": "choice",
+"q": "Πήρα ___ ντομάτες. (fresh)",
+"options": [
+"φρέσκοι",
+"φρέσκιες",
+"φρέσκια",
+"φρέσκους"
+],
+"answer": "φρέσκιες",
+"why": "Feminine plural.",
+"id": "adjectives-896c7509"
+},
+{
+"type": "choice",
+"q": "Η ___ πόλη της Ρόδου. (old)",
+"options": [
+"παλιή",
+"παλιά",
+"παλιό",
+"παλιός"
+],
+"answer": "παλιά",
+"why": "παλιός, παλιά, παλιό.",
+"id": "adjectives-eb3e689f"
+},
+{
+"type": "choice",
+"q": "Αγόρασα δύο ___ βιβλία. (new)",
+"options": [
+"καινούργιες",
+"καινούργια",
+"καινούργιο",
+"καινούργιοι"
+],
+"answer": "καινούργια",
+"why": "βιβλία is neuter plural: καινούργια.",
+"id": "adjectives-6865441e"
+},
+{
+"type": "choice",
+"q": "Είναι μια ___ ιστορία. (funny)",
+"options": [
+"αστείη",
+"αστεία",
+"αστείο",
+"αστείος"
+],
+"answer": "αστεία",
+"why": "After a stressed vowel: -α.",
+"id": "adjectives-e1b5ad5e"
+},
+{
+"type": "write",
+"q": "Feminine of **νέος**",
+"answer": "νέα",
+"accept": [],
+"why": "-α.",
+"id": "adjectives-98d46c54"
+},
+{
+"type": "write",
+"q": "Feminine of **ξανθός**",
+"answer": "ξανθιά",
+"accept": [],
+"why": "-ια.",
+"id": "adjectives-488870b1"
+},
+{
+"type": "write",
+"q": "Agree **αρχαίος** with **η Ολυμπία**",
+"answer": "η αρχαία Ολυμπία",
+"accept": [
+"αρχαία Ολυμπία"
+],
+"why": "-α.",
+"id": "adjectives-5bd37f1d"
+},
+{
+"type": "write",
+"q": "Agree **καινούργιος** with **τα παπούτσια**",
+"answer": "τα καινούργια παπούτσια",
+"accept": [],
+"why": "Neuter plural.",
+"id": "adjectives-55f91639"
+},
+{
+"type": "write",
+"q": "Translate: \"a cold beer\"",
+"answer": "μια κρύα μπίρα",
+"accept": [],
+"why": "Feminine -α.",
+"id": "adjectives-242744f1"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Συμφωνία και θέση",
+"title": "Agreement and position",
+"body": [
+{
+"p": "An adjective agrees with its noun in every form, wherever it stands:"
+},
+{
+"list": [
+"**before the noun** (most common): **το κόκκινο φόρεμα** \"the red dress\"",
+"**after the noun with the article repeated** (emphatic, \"the red one\"): **το φόρεμα το κόκκινο**",
+"**after είμαι, γίνομαι, φαίνομαι** (predicate): **Το φόρεμα είναι κόκκινο.**"
+]
+},
+{
+"ex": [
+{
+"el": "Θέλω το κόκκινο, όχι το μαύρο.",
+"en": "I want the red one, not the black one."
+},
+{
+"el": "Πάρε την μπλούζα την άσπρη.",
+"en": "Take the white blouse."
+},
+{
+"el": "Η πόλη είναι ήσυχη τον χειμώνα.",
+"en": "The town is quiet in winter."
+}
+]
+},
+{
+"p": "**Mixed genders.** For people, a mixed group takes the **masculine** plural: **Ο Νίκος και η Μαρία είναι κουρασμένοι.** For things of different genders the **neuter** plural is usual: **Το τραπέζι και η καρέκλα είναι καινούργια.**"
+},
+{
+"p": "**The adjective alone** with the article stands for the noun: **Ποιο θέλεις; Το μεγάλο.** \"Which one do you want? The big one.\""
+},
+{
+"solved": [
+{
+"q": "\"The rooms are clean.\" (καθαρός)",
+"a": "Τα δωμάτια είναι καθαρά.",
+"why": "Predicate: neuter plural."
+},
+{
+"q": "\"Kostas and Eleni are happy.\" (χαρούμενος)",
+"a": "Ο Κώστας και η Ελένη είναι χαρούμενοι.",
+"why": "Mixed group: masculine plural."
+},
+{
+"q": "\"Which shirt? The blue one.\" (το πουκάμισο, μπλε)",
+"a": "Ποιο πουκάμισο; Το μπλε.",
+"why": "Article + adjective stands for the noun."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η μητέρα και ο πατέρας μου είναι ___. (tired)",
+"options": [
+"κουρασμένες",
+"κουρασμένοι",
+"κουρασμένα",
+"κουρασμένη"
+],
+"answer": "κουρασμένοι",
+"why": "Mixed people: masculine plural.",
+"id": "adjectives-a0b71025"
+},
+{
+"type": "choice",
+"q": "Η πόρτα και το παράθυρο είναι ___. (open)",
+"options": [
+"ανοιχτές",
+"ανοιχτοί",
+"ανοιχτά",
+"ανοιχτή"
+],
+"answer": "ανοιχτά",
+"why": "Mixed things: neuter plural.",
+"id": "adjectives-948b1902"
+},
+{
+"type": "choice",
+"q": "Ποια μπλούζα θέλεις; ___. (the white one)",
+"options": [
+"Το άσπρο",
+"Την άσπρη",
+"Τον άσπρο",
+"Η άσπρη"
+],
+"answer": "Την άσπρη",
+"why": "Feminine accusative: την άσπρη.",
+"id": "adjectives-6e5c43bd"
+},
+{
+"type": "choice",
+"q": "Οι πατάτες είναι ___. (ready)",
+"options": [
+"έτοιμοι",
+"έτοιμες",
+"έτοιμα",
+"έτοιμη"
+],
+"answer": "έτοιμες",
+"why": "Feminine plural predicate.",
+"id": "adjectives-c2be3805"
+},
+{
+"type": "choice",
+"q": "Θέλω το φόρεμα ___. (the red one, emphatic)",
+"options": [
+"κόκκινο",
+"το κόκκινο",
+"του κόκκινου",
+"τον κόκκινο"
+],
+"answer": "το κόκκινο",
+"why": "After the noun, repeat the article.",
+"id": "adjectives-8d4611d0"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά είναι ___. (hungry)",
+"options": [
+"πεινασμένοι",
+"πεινασμένα",
+"πεινασμένες",
+"πεινασμένου"
+],
+"answer": "πεινασμένα",
+"why": "παιδιά is neuter: -α.",
+"id": "adjectives-191e758d"
+},
+{
+"type": "write",
+"q": "Translate: \"The soup is cold.\"",
+"answer": "Η σούπα είναι κρύα.",
+"accept": [],
+"why": "κρύος, κρύα, κρύο.",
+"id": "adjectives-443e611c"
+},
+{
+"type": "write",
+"q": "Translate: \"Maria and Nikos are ready.\"",
+"answer": "Η Μαρία και ο Νίκος είναι έτοιμοι.",
+"accept": [],
+"why": "Mixed: masculine plural.",
+"id": "adjectives-6576540b"
+},
+{
+"type": "write",
+"q": "Translate: \"I want the big one.\" (ο καφές)",
+"answer": "Θέλω τον μεγάλο.",
+"accept": [],
+"why": "Masculine accusative: τον μεγάλο.",
+"id": "adjectives-3f11c624"
+},
+{
+"type": "order",
+"q": "\"I like the old houses of the village.\"",
+"answer": "Μου αρέσουν τα παλιά σπίτια του χωριού.",
+"accept": [],
+"why": "Adjective before the noun, genitive after.",
+"id": "adjectives-1797104b"
+},
+{
+"type": "order",
+"q": "\"The new restaurant is very expensive.\"",
+"answer": "Το καινούργιο εστιατόριο είναι πολύ ακριβό.",
+"accept": [],
+"why": "Attributive and predicative adjectives.",
+"id": "adjectives-c9e9c1ba"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Επίθετα σε -ύς, -ιά, -ύ και το πολύς",
+"title": "Adjectives in -ύς, -ιά, -ύ, and πολύς",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Masculine",
+"Feminine",
+"Neuter"
+],
+"rows": [
+[
+"Nom. sg",
+"βαθύς",
+"βαθιά",
+"βαθύ"
+],
+[
+"Acc. sg",
+"βαθύ",
+"βαθιά",
+"βαθύ"
+],
+[
+"Gen. sg",
+"βαθιού",
+"βαθιάς",
+"βαθιού"
+],
+[
+"Nom. pl",
+"βαθιοί",
+"βαθιές",
+"βαθιά"
+],
+[
+"Acc. pl",
+"βαθιούς",
+"βαθιές",
+"βαθιά"
+]
+]
+}
+},
+{
+"p": "Others: **φαρδύς** wide, **μακρύς** long, **πλατύς** broad, **βαρύς** heavy, **ελαφρύς** light, **παχύς** thick, fat."
+},
+{
+"p": "**Πολύς** \"much, many\" is the most frequent adjective of all and is slightly irregular:"
+},
+{
+"table": {
+"head": [
+"",
+"Masculine",
+"Feminine",
+"Neuter"
+],
+"rows": [
+[
+"Nom. sg",
+"πολύς",
+"πολλή",
+"πολύ"
+],
+[
+"Acc. sg",
+"πολύ",
+"πολλή",
+"πολύ"
+],
+[
+"Nom. pl",
+"πολλοί",
+"πολλές",
+"πολλά"
+],
+[
+"Acc. pl",
+"πολλούς",
+"πολλές",
+"πολλά"
+],
+[
+"Gen. pl",
+"πολλών",
+"πολλών",
+"πολλών"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Η θάλασσα είναι βαθιά εδώ.",
+"en": "The sea is deep here."
+},
+{
+"el": "Φοράει ένα μακρύ φόρεμα.",
+"en": "She's wearing a long dress."
+},
+{
+"el": "Έχω πολλή δουλειά.",
+"en": "I have a lot of work."
+},
+{
+"el": "Ήρθε πολύς κόσμος.",
+"en": "A lot of people came."
+},
+{
+"el": "Πολλά φιλιά!",
+"en": "Lots of kisses! (end of a message)"
+},
+{
+"el": "Ευχαριστώ πολύ.",
+"en": "Thanks a lot."
+}
+]
+},
+{
+"tip": "**Πολλή** (feminine, two λ) and **πολύ** (neuter adjective, or the adverb \"very, much\") sound almost the same. **Πολλή ζάχαρη** \"a lot of sugar\" (η ζάχαρη), **πολύ νερό** \"a lot of water\" (το νερό), **πολύ καλός** \"very good\" (adverb)."
+},
+{
+"solved": [
+{
+"q": "Feminine of **βαρύς**",
+"a": "βαριά",
+"why": "-ύς, -ιά, -ύ."
+},
+{
+"q": "\"a lot of sugar\" (η ζάχαρη)",
+"a": "πολλή ζάχαρη",
+"why": "Feminine singular: πολλή."
+},
+{
+"q": "\"many people\" (οι άνθρωποι)",
+"a": "πολλοί άνθρωποι",
+"why": "Masculine plural: πολλοί."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η βαλίτσα είναι πολύ ___. (heavy)",
+"options": [
+"βαρύ",
+"βαριά",
+"βαρή",
+"βαρύς"
+],
+"answer": "βαριά",
+"why": "Feminine: βαριά.",
+"id": "adjectives-9322f8af"
+},
+{
+"type": "choice",
+"q": "Έχει ___ κίνηση σήμερα. (a lot of traffic, η κίνηση)",
+"options": [
+"πολύ",
+"πολλή",
+"πολλά",
+"πολύς"
+],
+"answer": "πολλή",
+"why": "Feminine singular: πολλή.",
+"id": "adjectives-885b59bc"
+},
+{
+"type": "choice",
+"q": "Πίνω ___ νερό.",
+"options": [
+"πολλή",
+"πολύ",
+"πολλά",
+"πολύς"
+],
+"answer": "πολύ",
+"why": "Neuter singular: πολύ.",
+"id": "adjectives-8ae872b5"
+},
+{
+"type": "choice",
+"q": "Ήρθαν ___ φίλοι.",
+"options": [
+"πολλές",
+"πολλοί",
+"πολλά",
+"πολύ"
+],
+"answer": "πολλοί",
+"why": "Masculine plural: πολλοί.",
+"id": "adjectives-69091ced"
+},
+{
+"type": "choice",
+"q": "Είναι ένας ___ δρόμος. (long)",
+"options": [
+"μακριά",
+"μακρύς",
+"μακρύ",
+"μακριός"
+],
+"answer": "μακρύς",
+"why": "Masculine nominative: μακρύς.",
+"id": "adjectives-a68fd6b7"
+},
+{
+"type": "choice",
+"q": "Φοράει ___ παντελόνια. (wide)",
+"options": [
+"φαρδιές",
+"φαρδιοί",
+"φαρδιά",
+"φαρδύ"
+],
+"answer": "φαρδιά",
+"why": "Neuter plural: φαρδιά.",
+"id": "adjectives-64bb9da7"
+},
+{
+"type": "choice",
+"q": "Ευχαριστώ ___.",
+"options": [
+"πολλή",
+"πολύ",
+"πολλά",
+"πολύς"
+],
+"answer": "πολύ",
+"why": "Adverb \"a lot\": πολύ.",
+"id": "adjectives-2134054c"
+},
+{
+"type": "write",
+"q": "Feminine of **μακρύς**",
+"answer": "μακριά",
+"accept": [],
+"why": "-ιά.",
+"id": "adjectives-329862b4"
+},
+{
+"type": "write",
+"q": "Neuter plural of **βαθύς**",
+"answer": "βαθιά",
+"accept": [],
+"why": "-ιά.",
+"id": "adjectives-a785784a"
+},
+{
+"type": "write",
+"q": "Translate: \"a lot of people\" (ο κόσμος)",
+"answer": "πολύς κόσμος",
+"accept": [],
+"why": "Masculine singular: πολύς.",
+"id": "adjectives-20a1b623"
+},
+{
+"type": "write",
+"q": "Translate: \"many questions\" (οι ερωτήσεις)",
+"answer": "πολλές ερωτήσεις",
+"accept": [],
+"why": "Feminine plural.",
+"id": "adjectives-942a7d0c"
+},
+{
+"type": "write",
+"q": "Translate: \"a lot of work\" (η δουλειά)",
+"answer": "πολλή δουλειά",
+"accept": [],
+"why": "Feminine singular.",
+"id": "adjectives-5ba3ec0b"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Επίθετα σε -ής, -ές",
+"title": "Learned adjectives in -ής, -ές",
+"body": [
+{
+"p": "These come from older Greek; they are common in news, work and polite language. Masculine and feminine are the same:"
+},
+{
+"table": {
+"head": [
+"",
+"Masc. / Fem.",
+"Neuter"
+],
+"rows": [
+[
+"Nom. sg",
+"συνεχής",
+"συνεχές"
+],
+[
+"Acc. sg",
+"συνεχή",
+"συνεχές"
+],
+[
+"Gen. sg",
+"συνεχούς",
+"συνεχούς"
+],
+[
+"Nom. / Acc. pl",
+"συνεχείς",
+"συνεχή"
+],
+[
+"Gen. pl",
+"συνεχών",
+"συνεχών"
+]
+]
+}
+},
+{
+"p": "Others: **ακριβής** exact, **ειλικρινής** sincere, **υγιής** healthy, **διεθνής** international, **συγγενής** related, **αγενής** rude, **ευγενής** polite."
+},
+{
+"ex": [
+{
+"el": "Είναι ένας πολύ ειλικρινής άνθρωπος.",
+"en": "He's a very sincere person."
+},
+{
+"el": "Η ώρα δεν είναι ακριβής.",
+"en": "The time isn't exact."
+},
+{
+"el": "Διεθνείς πτήσεις.",
+"en": "International flights."
+},
+{
+"el": "Ήταν πολύ αγενής μαζί μου.",
+"en": "She was very rude to me."
+}
+]
+},
+{
+"tip": "These have the same form in the masculine and feminine: **ένας ειλικρινής φίλος, μια ειλικρινής φίλη**. The accusative singular drops the -ς: **τον / την ειλικρινή**."
+},
+{
+"solved": [
+{
+"q": "Neuter singular of **ακριβής**",
+"a": "ακριβές",
+"why": "-ής → -ές."
+},
+{
+"q": "Plural (masc./fem.) of **διεθνής**",
+"a": "διεθνείς",
+"why": "-ής → -είς."
+},
+{
+"q": "\"a sincere answer\" (η απάντηση)",
+"a": "μια ειλικρινής απάντηση",
+"why": "Feminine uses the masculine form."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Χρειάζομαι την ___ διεύθυνση. (exact)",
+"options": [
+"ακριβής",
+"ακριβή",
+"ακριβές",
+"ακριβούς"
+],
+"answer": "ακριβή",
+"why": "Accusative singular: drop -ς.",
+"id": "adjectives-74eb8b12"
+},
+{
+"type": "choice",
+"q": "Αφίξεις ___ πτήσεων. (international)",
+"options": [
+"διεθνής",
+"διεθνείς",
+"διεθνών",
+"διεθνές"
+],
+"answer": "διεθνών",
+"why": "Genitive plural: -ών.",
+"id": "adjectives-eb8e6568"
+},
+{
+"type": "choice",
+"q": "Ήταν μια ___ συζήτηση. (sincere)",
+"options": [
+"ειλικρινή",
+"ειλικρινής",
+"ειλικρινές",
+"ειλικρινία"
+],
+"answer": "ειλικρινής",
+"why": "Feminine nominative = masculine: -ής.",
+"id": "adjectives-9e466182"
+},
+{
+"type": "choice",
+"q": "Ένα ___ παιδί. (healthy)",
+"options": [
+"υγιής",
+"υγιές",
+"υγιή",
+"υγιείς"
+],
+"answer": "υγιές",
+"why": "Neuter singular: -ές.",
+"id": "adjectives-565ec4cd"
+},
+{
+"type": "choice",
+"q": "Είναι πολύ ___ με τους πελάτες. (polite, they: men)",
+"options": [
+"ευγενής",
+"ευγενείς",
+"ευγενή",
+"ευγενές"
+],
+"answer": "ευγενείς",
+"why": "Plural: -είς.",
+"id": "adjectives-def7e497"
+},
+{
+"type": "write",
+"q": "Neuter singular of **συνεχής**",
+"answer": "συνεχές",
+"accept": [],
+"why": "-ές.",
+"id": "adjectives-b12a42b0"
+},
+{
+"type": "write",
+"q": "Accusative singular (masc.) of **ειλικρινής**",
+"answer": "ειλικρινή",
+"accept": [],
+"why": "Drop -ς.",
+"id": "adjectives-12441170"
+},
+{
+"type": "write",
+"q": "Translate: \"international news\" (οι ειδήσεις)",
+"answer": "διεθνείς ειδήσεις",
+"accept": [],
+"why": "Feminine plural: -είς.",
+"id": "adjectives-641a1386"
+},
+{
+"type": "write",
+"q": "Translate: \"exact time\" (η ώρα)",
+"answer": "ακριβής ώρα",
+"accept": [
+"η ακριβής ώρα"
+],
+"why": "Feminine = masculine form.",
+"id": "adjectives-635932a1"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Τεμπέλης, τεμπέλα, τεμπέλικο, και τα άκλιτα χρώματα",
+"title": "Adjectives in -ης, -α, -ικο, and colours that never change",
+"body": [
+{
+"p": "Colloquial adjectives for character and looks often go **-ης, -α, -ικο**:"
+},
+{
+"table": {
+"head": [
+"Masculine",
+"Feminine",
+"Neuter",
+"Meaning"
+],
+"rows": [
+[
+"τεμπέλης",
+"τεμπέλα",
+"τεμπέλικο",
+"lazy"
+],
+[
+"ζηλιάρης",
+"ζηλιάρα",
+"ζηλιάρικο",
+"jealous"
+],
+[
+"γκρινιάρης",
+"γκρινιάρα",
+"γκρινιάρικο",
+"grumpy, moaning"
+],
+[
+"πεισματάρης",
+"πεισματάρα",
+"πεισματάρικο",
+"stubborn"
+]
+]
+}
+},
+{
+"p": "Their plurals: **τεμπέληδες, τεμπέλες, τεμπέλικα**."
+},
+{
+"p": "**Colours.** The basic colours decline like **-ος** adjectives: **άσπρος, μαύρος, κόκκινος, πράσινος, κίτρινος, γαλάζιος** (fem. **γαλάζια**). Colours borrowed from other languages **never change**: **μπλε, γκρι, ροζ, μωβ, καφέ, μπεζ, λιλά**."
+},
+{
+"ex": [
+{
+"el": "Μη γίνεσαι γκρινιάρα!",
+"en": "Don't be such a moaner! (to a girl or woman)"
+},
+{
+"el": "Ο σκύλος μας είναι τεμπέλης.",
+"en": "Our dog is lazy."
+},
+{
+"el": "Τα παιδιά είναι ζηλιάρικα με τα παιχνίδια τους.",
+"en": "The kids are jealous over their toys."
+},
+{
+"el": "Μια μπλε μπλούζα και δύο μπλε παντελόνια.",
+"en": "A blue blouse and two pairs of blue trousers."
+},
+{
+"el": "Μια κόκκινη μπλούζα και δύο κόκκινα παντελόνια.",
+"en": "A red blouse and two pairs of red trousers."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Feminine of **πεισματάρης**",
+"a": "πεισματάρα",
+"why": "-ης, -α, -ικο."
+},
+{
+"q": "Neuter of **ζηλιάρης**",
+"a": "ζηλιάρικο",
+"why": "-ικο."
+},
+{
+"q": "\"two grey cars\"",
+"a": "δύο γκρι αυτοκίνητα | δυο γκρι αυτοκίνητα",
+"why": "Loan colours do not change."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η κόρη μου είναι πολύ ___. (stubborn)",
+"options": [
+"πεισματάρης",
+"πεισματάρα",
+"πεισματάρικο",
+"πεισματάρισσα"
+],
+"answer": "πεισματάρα",
+"why": "Feminine -α.",
+"id": "adjectives-d7c2a123"
+},
+{
+"type": "choice",
+"q": "Το παιδί είναι ___. (grumpy)",
+"options": [
+"γκρινιάρης",
+"γκρινιάρα",
+"γκρινιάρικο",
+"γκρινιάρο"
+],
+"answer": "γκρινιάρικο",
+"why": "Neuter -ικο.",
+"id": "adjectives-13f87dde"
+},
+{
+"type": "choice",
+"q": "Θέλω τα ___ παπούτσια. (pink)",
+"options": [
+"ροζά",
+"ροζιά",
+"ροζ",
+"ροζές"
+],
+"answer": "ροζ",
+"why": "Loan colours never change.",
+"id": "adjectives-668adbbc"
+},
+{
+"type": "choice",
+"q": "Οι άντρες της οικογένειας είναι ___. (lazy)",
+"options": [
+"τεμπέλοι",
+"τεμπέληδες",
+"τεμπέλες",
+"τεμπέλικοι"
+],
+"answer": "τεμπέληδες",
+"why": "Masculine plural: -ηδες.",
+"id": "adjectives-89cfdbaf"
+},
+{
+"type": "choice",
+"q": "Μια ___ φούστα. (black)",
+"options": [
+"μαύρο",
+"μαύρη",
+"μαύρος",
+"μαύρα"
+],
+"answer": "μαύρη",
+"why": "Native colours decline: μαύρη.",
+"id": "adjectives-02ed3f25"
+},
+{
+"type": "choice",
+"q": "Τα μάτια της είναι ___. (light blue)",
+"options": [
+"γαλάζιες",
+"γαλάζια",
+"γαλάζιοι",
+"γαλάζιο"
+],
+"answer": "γαλάζια",
+"why": "Neuter plural: γαλάζια.",
+"id": "adjectives-2aea1d9d"
+},
+{
+"type": "write",
+"q": "Feminine of **τεμπέλης**",
+"answer": "τεμπέλα",
+"accept": [],
+"why": "-α.",
+"id": "adjectives-b6774f97"
+},
+{
+"type": "write",
+"q": "Translate: \"a brown bag\" (η τσάντα)",
+"answer": "μια καφέ τσάντα",
+"accept": [],
+"why": "καφέ does not change.",
+"id": "adjectives-7da62955"
+},
+{
+"type": "write",
+"q": "Translate: \"white shoes\" (τα παπούτσια)",
+"answer": "άσπρα παπούτσια",
+"accept": [],
+"why": "Neuter plural of άσπρος.",
+"id": "adjectives-79521c04"
+},
+{
+"type": "write",
+"q": "Translate: \"a red car\"",
+"answer": "ένα κόκκινο αυτοκίνητο",
+"accept": [],
+"why": "Neuter of κόκκινος.",
+"id": "adjectives-93b8c286"
+}
+]
+}
+]
+}
+],
+"id": "adjectives",
+"el": "Τα επίθετα",
+"title": "Adjectives and agreement",
+"span": "A1–B2",
+"part": "Μέρος Γ΄ | Επίθετο και επίρρημα | Adjectives and adverbs",
+"blurb": "The adjective types -ος/-η/-ο, -ος/-α/-ο, -ύς/-ιά/-ύ, -ής/-ές and -ης/-α/-ικο, πολύς, colours that never change, and agreement in gender, number and case.",
+"intro": [
+{
+"p": "A Greek adjective agrees with its noun in **gender, number and case**. In practice the adjective usually takes the same ending as the article: **ο καλός φίλος, η καλή φίλη, το καλό παιδί**. Learn the adjective in three forms (masculine, feminine, neuter), as dictionaries give it: **καλός, -ή, -ό**."
+},
+{
+"links": [
+{
+"href": "#a2-adjectives",
+"kind": "Lesson",
+"el": "Επίθετα και συμφωνία",
+"title": "Adjectives and agreement"
+},
+{
+"href": "#decl-adjectives-2",
+"kind": "Lesson",
+"el": "Επίθετα ΙΙ: όλοι οι άλλοι τύποι",
+"title": "Adjectives II: every pattern beyond -ος, -η, -ο"
+},
+{
+"href": "#cards.adj-os",
+"kind": "Card",
+"el": "Επίθετα σε -ος, -η/-α, -ο",
+"title": "Adjectives in -ος"
+},
+{
+"href": "#cards.adj-other",
+"kind": "Card",
+"el": "Τα άλλα επίθετα",
+"title": "Other adjective patterns"
+},
+{
+"href": "#pos.adjective",
+"kind": "Part of speech",
+"el": "Το επίθετο",
+"title": "The adjective"
+},
+{
+"href": "#klisi",
+"kind": "Drill books",
+"el": "Τετράδια κλίσης",
+"title": "Declension and conjugation drill books"
+}
+]
+}
+],
+"num": 8
+}

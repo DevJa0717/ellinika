@@ -1,0 +1,1139 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Το οριστικό άρθρο",
+"title": "The definite article: ο, η, το",
+"body": [
+{
+"table": {
+"head": [
+"Case",
+"Masc. sg",
+"Fem. sg",
+"Neut. sg",
+"Masc. pl",
+"Fem. pl",
+"Neut. pl"
+],
+"rows": [
+[
+"Nominative",
+"ο",
+"η",
+"το",
+"οι",
+"οι",
+"τα"
+],
+[
+"Accusative",
+"τον",
+"τη(ν)",
+"το",
+"τους",
+"τις",
+"τα"
+],
+[
+"Genitive",
+"του",
+"της",
+"του",
+"των",
+"των",
+"των"
+]
+]
+}
+},
+{
+"p": "There is no vocative article: **Γιάννη!** \"Giannis!\", **Κυρία Παπαδάκη!** \"Mrs Papadaki!\""
+},
+{
+"p": "Three things make the table easy:"
+},
+{
+"list": [
+"Neuter **το/τα** never change between nominative and accusative.",
+"The genitive plural is **των** for all genders.",
+"Masculine and feminine plural nominative are both **οι**."
+]
+},
+{
+"ex": [
+{
+"el": "Ο καφές είναι κρύος.",
+"en": "The coffee is cold."
+},
+{
+"el": "Πίνω τον καφέ μου σκέτο.",
+"en": "I drink my coffee black (no sugar)."
+},
+{
+"el": "Το χρώμα του καφέ.",
+"en": "The colour of the coffee."
+},
+{
+"el": "Οι φίλοι μου έρχονται απόψε.",
+"en": "My friends are coming tonight."
+},
+{
+"el": "Πού είναι τα κλειδιά;",
+"en": "Where are the keys?"
+},
+{
+"el": "Το σπίτι της γιαγιάς.",
+"en": "Grandma's house."
+}
+]
+},
+{
+"tip": "**τους** is both the masculine accusative plural article (**τους φίλους** \"the friends\") and the weak pronoun \"them / their\" (**τους βλέπω** \"I see them\", **το σπίτι τους** \"their house\"). The position tells you which: the article comes before a noun."
+},
+{
+"solved": [
+{
+"q": "Give the article: ___ θάλασσα (nominative singular)",
+"a": "η θάλασσα",
+"why": "Feminine noun in -α: η."
+},
+{
+"q": "Give the article: Βλέπω ___ ήλιο (accusative singular, masculine)",
+"a": "τον ήλιο",
+"why": "Masculine accusative singular: τον."
+},
+{
+"q": "Give the article: Το χρώμα ___ θάλασσας (genitive singular)",
+"a": "της θάλασσας",
+"why": "Feminine genitive singular: της."
+},
+{
+"q": "Give the article: ___ παιδιά παίζουν (nominative plural, neuter)",
+"a": "τα παιδιά",
+"why": "Neuter plural nominative: τα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ καφές είναι έτοιμος.",
+"options": [
+"Η",
+"Ο",
+"Το",
+"Τον"
+],
+"answer": "Ο",
+"why": "καφές is masculine; nominative singular article ο.",
+"id": "article-03eb425c"
+},
+{
+"type": "choice",
+"q": "Θέλω ___ λογαριασμό, παρακαλώ.",
+"options": [
+"ο",
+"τον",
+"το",
+"του"
+],
+"answer": "τον",
+"why": "Object of θέλω: accusative masculine τον.",
+"id": "article-65a1cdc7"
+},
+{
+"type": "choice",
+"q": "Πού είναι ___ τουαλέτα;",
+"options": [
+"ο",
+"η",
+"το",
+"τη"
+],
+"answer": "η",
+"why": "τουαλέτα is feminine; subject: η.",
+"id": "article-e6944a43"
+},
+{
+"type": "choice",
+"q": "Το κινητό ___ Μαρίας.",
+"options": [
+"τη",
+"του",
+"της",
+"την"
+],
+"answer": "της",
+"why": "Feminine genitive singular: της.",
+"id": "article-c9c18159"
+},
+{
+"type": "choice",
+"q": "Το κέντρο ___ πόλης.",
+"options": [
+"του",
+"της",
+"των",
+"την"
+],
+"answer": "της",
+"why": "πόλη is feminine: της πόλης.",
+"id": "article-e49cbd09"
+},
+{
+"type": "choice",
+"q": "___ φίλοι μου είναι εδώ.",
+"options": [
+"Τους",
+"Τα",
+"Οι",
+"Των"
+],
+"answer": "Οι",
+"why": "Masculine plural nominative: οι.",
+"id": "article-ca7d302a"
+},
+{
+"type": "choice",
+"q": "Πήρα ___ εισιτήρια.",
+"options": [
+"τους",
+"τα",
+"τις",
+"οι"
+],
+"answer": "τα",
+"why": "εισιτήριο is neuter: τα εισιτήρια.",
+"id": "article-6fbd5d3f"
+},
+{
+"type": "choice",
+"q": "Ξέχασα ___ ομπρέλες μας.",
+"options": [
+"τους",
+"τα",
+"τις",
+"οι"
+],
+"answer": "τις",
+"why": "Feminine plural accusative: τις.",
+"id": "article-077d8a9d"
+},
+{
+"type": "choice",
+"q": "Η γνώμη ___ γονιών μου.",
+"options": [
+"τους",
+"του",
+"των",
+"τις"
+],
+"answer": "των",
+"why": "Genitive plural, any gender: των.",
+"id": "article-abf62928"
+},
+{
+"type": "choice",
+"q": "Δε βρίσκω ___ κλειδί.",
+"options": [
+"τον",
+"το",
+"τη",
+"του"
+],
+"answer": "το",
+"why": "κλειδί is neuter: το (nominative and accusative are the same).",
+"id": "article-912e25a1"
+},
+{
+"type": "write",
+"q": "Article: ___ μέρα (nominative)",
+"answer": "η",
+"accept": [],
+"why": "Feminine: η μέρα.",
+"id": "article-264d11d9"
+},
+{
+"type": "write",
+"q": "Article: Για ___ φίλο μου (accusative)",
+"answer": "τον",
+"accept": [],
+"why": "Masculine accusative: τον φίλο.",
+"id": "article-b5afd1bb"
+},
+{
+"type": "write",
+"q": "Article: Το όνομα ___ σκύλου (genitive)",
+"answer": "του",
+"accept": [],
+"why": "Masculine genitive: του σκύλου.",
+"id": "article-2414bbf7"
+},
+{
+"type": "write",
+"q": "Article: Ξέρεις ___ γυναίκες; (accusative plural)",
+"answer": "τις",
+"accept": [],
+"why": "Feminine accusative plural: τις.",
+"id": "article-7fb1eb19"
+},
+{
+"type": "write",
+"q": "Article: Αγαπώ ___ βιβλία. (accusative plural)",
+"answer": "τα",
+"accept": [],
+"why": "Neuter plural: τα.",
+"id": "article-b8a579b0"
+},
+{
+"type": "write",
+"q": "Article: Η ώρα ___ μαθημάτων. (genitive plural)",
+"answer": "των",
+"accept": [],
+"why": "Genitive plural: των.",
+"id": "article-aeed59a3"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Το αόριστο άρθρο",
+"title": "The indefinite article: ένας, μία, ένα",
+"body": [
+{
+"table": {
+"head": [
+"Case",
+"Masc.",
+"Fem.",
+"Neut."
+],
+"rows": [
+[
+"Nominative",
+"ένας",
+"μία / μια",
+"ένα"
+],
+[
+"Accusative",
+"έναν / ένα",
+"μία / μια",
+"ένα"
+],
+[
+"Genitive",
+"ενός",
+"μίας / μιας",
+"ενός"
+]
+]
+}
+},
+{
+"p": "It has no plural: **ένα βιβλίο** \"a book\" but **βιβλία** \"books\", or **μερικά βιβλία** \"some books\". It is also the number \"one\"."
+},
+{
+"p": "Greek uses the indefinite article less than English. Leave it out:"
+},
+{
+"list": [
+"after **είμαι / γίνομαι** with jobs and nationalities: **Είναι γιατρός** \"She's a doctor\", **Είμαι Αμερικανός** \"I'm an American\";",
+"after **έχω** / **ψάχνω** when the number does not matter: **Έχεις αυτοκίνητο;** \"Do you have a car?\", **Ψάχνω δουλειά** \"I'm looking for a job\";",
+"in exclamations with **τι**: **Τι ωραία μέρα!** \"What a lovely day!\""
+]
+},
+{
+"ex": [
+{
+"el": "Ένας φίλος μου μένει στην Κρήτη.",
+"en": "A friend of mine lives in Crete."
+},
+{
+"el": "Θέλω έναν φραπέ, παρακαλώ.",
+"en": "I'd like a frappé, please."
+},
+{
+"el": "Μια φορά κι έναν καιρό...",
+"en": "Once upon a time..."
+},
+{
+"el": "Είναι δασκάλα.",
+"en": "She's a teacher."
+},
+{
+"el": "Έχεις στιλό;",
+"en": "Have you got a pen?"
+}
+]
+},
+{
+"tip": "**Μία** and **μια** are the same word. Use **μία** when you mean the number \"one\" and **μια** for \"a\": **Θέλω μία, όχι δύο** \"I want one, not two\"; **μια φορά** \"once\"."
+},
+{
+"solved": [
+{
+"q": "Translate: \"He's an engineer.\"",
+"a": "Είναι μηχανικός.",
+"why": "No article with jobs after είμαι."
+},
+{
+"q": "Give the indefinite article: Θέλω ___ καφέ.",
+"a": "έναν | ένα",
+"why": "καφές is masculine; accusative έναν (ένα is also heard before consonants)."
+},
+{
+"q": "Translate: \"What a nice house!\"",
+"a": "Τι ωραίο σπίτι!",
+"why": "Exclamations with τι take no indefinite article."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θέλω ___ μπίρα.",
+"options": [
+"ένας",
+"ένα",
+"μια",
+"έναν"
+],
+"answer": "μια",
+"why": "μπίρα is feminine: μια μπίρα.",
+"id": "article-c6f09bb9"
+},
+{
+"type": "choice",
+"q": "Έχω ___ αδερφό και μία αδερφή.",
+"options": [
+"ένας",
+"έναν",
+"ενός",
+"μια"
+],
+"answer": "έναν",
+"why": "Masculine accusative: έναν αδερφό.",
+"id": "article-3192d4b0"
+},
+{
+"type": "choice",
+"q": "\"She's a nurse.\"",
+"options": [
+"Είναι μια νοσοκόμα.",
+"Είναι νοσοκόμα.",
+"Είναι η νοσοκόμα.",
+"Είναι ένα νοσοκόμα."
+],
+"answer": "Είναι νοσοκόμα.",
+"why": "No article with a job after είμαι.",
+"id": "article-fb98b62d"
+},
+{
+"type": "choice",
+"q": "\"Do you have a car?\" (do you own one at all?)",
+"options": [
+"Έχεις το αυτοκίνητο;",
+"Έχεις αυτοκίνητο;",
+"Έχεις αυτοκινήτου;",
+"Έχεις τα αυτοκίνητο;"
+],
+"answer": "Έχεις αυτοκίνητο;",
+"why": "After έχω in questions about having something at all, no article.",
+"id": "article-f6895ff7"
+},
+{
+"type": "choice",
+"q": "___ φίλος μου είναι σεφ.",
+"options": [
+"Έναν",
+"Ένας",
+"Ενός",
+"Ένα"
+],
+"answer": "Ένας",
+"why": "Masculine nominative: ένας.",
+"id": "article-eeca17b5"
+},
+{
+"type": "choice",
+"q": "Η μητέρα ___ φίλου μου.",
+"options": [
+"ένας",
+"έναν",
+"ενός",
+"μιας"
+],
+"answer": "ενός",
+"why": "Masculine genitive: ενός.",
+"id": "article-8efdb574"
+},
+{
+"type": "choice",
+"q": "\"What a day!\"",
+"options": [
+"Τι μια μέρα!",
+"Τι μέρα!",
+"Τι η μέρα!",
+"Τι ένα μέρα!"
+],
+"answer": "Τι μέρα!",
+"why": "Exclamations with τι take no article.",
+"id": "article-a053fdf0"
+},
+{
+"type": "write",
+"q": "Indefinite article: ___ σπίτι",
+"answer": "ένα",
+"accept": [],
+"why": "Neuter: ένα σπίτι.",
+"id": "article-c47d1435"
+},
+{
+"type": "write",
+"q": "Indefinite article: ___ ώρα",
+"answer": "μια",
+"accept": [
+"μία"
+],
+"why": "Feminine: μια ώρα.",
+"id": "article-c9dc047e"
+},
+{
+"type": "write",
+"q": "Indefinite article (nominative): ___ άντρας",
+"answer": "ένας",
+"accept": [],
+"why": "Masculine nominative: ένας.",
+"id": "article-bf8993b7"
+},
+{
+"type": "write",
+"q": "Translate: \"I'm looking for a job.\"",
+"answer": "Ψάχνω δουλειά.",
+"accept": [],
+"why": "No article with ψάχνω when any job will do.",
+"id": "article-befe7c2b"
+},
+{
+"type": "write",
+"q": "Translate: \"She's a teacher.\" (δασκάλα)",
+"answer": "Είναι δασκάλα.",
+"accept": [],
+"why": "No article with jobs after είναι.",
+"id": "article-5f4732d1"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Σε + άρθρο: στο, στη, στον",
+"title": "σε + article: στο, στη, στον",
+"body": [
+{
+"p": "The preposition **σε** \"to, in, at, on\" joins the definite article into one word. It never stands before a definite article on its own."
+},
+{
+"table": {
+"head": [
+"",
+"Masc.",
+"Fem.",
+"Neut."
+],
+"rows": [
+[
+"Singular",
+"στον",
+"στη(ν)",
+"στο"
+],
+[
+"Plural",
+"στους",
+"στις",
+"στα"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Πάω στο σούπερ μάρκετ.",
+"en": "I'm going to the supermarket."
+},
+{
+"el": "Μένω στην Αθήνα.",
+"en": "I live in Athens."
+},
+{
+"el": "Είμαστε στον δρόμο.",
+"en": "We're on our way (on the road)."
+},
+{
+"el": "Το κλειδί είναι στο τραπέζι.",
+"en": "The key is on the table."
+},
+{
+"el": "Τα παιδιά είναι στις κούνιες.",
+"en": "The kids are on the swings."
+}
+]
+},
+{
+"p": "Before a word without an article, **σε** stays: **σε μια ώρα** \"in an hour\", **σε ένα λεπτό** \"in a minute\", **σε εμένα** \"to me\". Before a vowel it may become **σ'**: **σ' ένα λεπτό**."
+},
+{
+"tip": "στη(ν) follows the final -ν rule: **στην Ελλάδα, στην Κρήτη, στην Πάτρα** but **στη Θεσσαλονίκη, στη Ρόδο, στη δουλειά**."
+},
+{
+"solved": [
+{
+"q": "\"I'm going to the beach.\" (η παραλία)",
+"a": "Πάω στην παραλία.",
+"why": "σε + την = στην; keep ν before π."
+},
+{
+"q": "\"We'll meet at the square.\" (η πλατεία)",
+"a": "Θα βρεθούμε στην πλατεία.",
+"why": "Keep ν before π."
+},
+{
+"q": "\"She is at work.\" (η δουλειά)",
+"a": "Είναι στη δουλειά.",
+"why": "Drop ν before δ."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πάω ___ σινεμά.",
+"options": [
+"σε το",
+"στο",
+"στον",
+"στη"
+],
+"answer": "στο",
+"why": "σινεμά is neuter: στο.",
+"id": "article-ecb6a85f"
+},
+{
+"type": "choice",
+"q": "Μένουμε ___ Βόλο.",
+"options": [
+"στο",
+"στον",
+"στη",
+"σε"
+],
+"answer": "στον",
+"why": "Βόλος is masculine: στον Βόλο.",
+"id": "article-10df6311"
+},
+{
+"type": "choice",
+"q": "Είναι ___ κουζίνα.",
+"options": [
+"στο",
+"στην",
+"στη",
+"στον"
+],
+"answer": "στην",
+"why": "κουζίνα is feminine; keep ν before κ: στην κουζίνα.",
+"id": "article-16fdc2a9"
+},
+{
+"type": "choice",
+"q": "Δουλεύω ___ τράπεζα.",
+"options": [
+"στη",
+"σε μια",
+"στο",
+"στους"
+],
+"answer": "σε μια",
+"why": "\"in a bank\": σε μια τράπεζα; with no definite article σε stays.",
+"id": "article-55bd1ede"
+},
+{
+"type": "choice",
+"q": "Πάμε ___ Πειραιά;",
+"options": [
+"στο",
+"στον",
+"στην",
+"στους"
+],
+"answer": "στον",
+"why": "ο Πειραιάς is masculine: στον Πειραιά.",
+"id": "article-90799e14"
+},
+{
+"type": "choice",
+"q": "Τα δώρα είναι ___ σακούλες.",
+"options": [
+"στους",
+"στις",
+"στα",
+"στη"
+],
+"answer": "στις",
+"why": "σακούλα is feminine plural: στις.",
+"id": "article-e68cb197"
+},
+{
+"type": "choice",
+"q": "Πάμε ___ βουνά.",
+"options": [
+"στις",
+"στους",
+"στα",
+"στο"
+],
+"answer": "στα",
+"why": "βουνό is neuter: στα βουνά.",
+"id": "article-3ef35348"
+},
+{
+"type": "write",
+"q": "σε + **το** γραφείο",
+"answer": "στο γραφείο",
+"accept": [],
+"why": "σε joins the article: στο.",
+"id": "article-f42ce9a7"
+},
+{
+"type": "write",
+"q": "σε + **την** Ιταλία",
+"answer": "στην Ιταλία",
+"accept": [],
+"why": "Keep ν before a vowel.",
+"id": "article-ac289c76"
+},
+{
+"type": "write",
+"q": "σε + **τη** Λάρισα",
+"answer": "στη Λάρισα",
+"accept": [],
+"why": "Drop ν before λ.",
+"id": "article-cd4b091f"
+},
+{
+"type": "write",
+"q": "σε + **τους** φίλους μου",
+"answer": "στους φίλους μου",
+"accept": [],
+"why": "στους for masculine plural.",
+"id": "article-ca3b09ef"
+},
+{
+"type": "write",
+"q": "Translate: \"in an hour\"",
+"answer": "σε μια ώρα",
+"accept": [
+"σε μία ώρα"
+],
+"why": "No definite article, so σε stays a separate word.",
+"id": "article-7a9210b6"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Πού βάζουμε άρθρο",
+"title": "Where Greek uses the article and English does not",
+"body": [
+{
+"p": "Greek puts the definite article before:"
+},
+{
+"list": [
+"**names of people**: **Ο Γιώργος** ήρθε. \"Giorgos came.\" **Μίλησα με τη Μαρία.** \"I spoke to Maria.\" (but not when you address them: **Γιώργο, έλα!**)",
+"**countries, cities, islands**: **η Ελλάδα**, **η Αθήνα**, **η Κρήτη**, **η Γερμανία**",
+"**abstract and general nouns**: **Η ζωή είναι ωραία.** \"Life is beautiful.\" **Μου αρέσει η μουσική.** \"I like music.\" **Το γάλα κάνει καλό.** \"Milk is good for you.\"",
+"**possessives**: **το σπίτι μου** \"my house\", **η μητέρα του** \"his mother\"",
+"**days, months with prepositions**: **την Κυριακή** \"on Sunday\", **τον Αύγουστο** \"in August\"",
+"**languages after μιλάω** usually without: **Μιλάω ελληνικά** \"I speak Greek\", but **Τα ελληνικά είναι δύσκολα** \"Greek is difficult\" (as a subject)."
+]
+},
+{
+"ex": [
+{
+"el": "Η Άννα είναι από την Ιταλία.",
+"en": "Anna is from Italy."
+},
+{
+"el": "Μου αρέσει πολύ ο καφές.",
+"en": "I really like coffee."
+},
+{
+"el": "Την Κυριακή πάμε στη θάλασσα.",
+"en": "On Sunday we're going to the seaside."
+},
+{
+"el": "Ο χρόνος είναι χρήμα.",
+"en": "Time is money."
+},
+{
+"el": "Θα έρθω τον Σεπτέμβριο.",
+"en": "I'll come in September."
+}
+]
+},
+{
+"p": "Leave the article out after **σαν** \"like\", in many set phrases (**με τα πόδια** keeps it, but **με αυτοκίνητο** \"by car\"), and after **είμαι** with jobs: **Ο Κώστας είναι μάγειρας.**"
+},
+{
+"tip": "**Μου αρέσει καφές** is wrong. With **αρέσει** the thing you like is the subject and takes the article: **Μου αρέσει ο καφές**, **Μου αρέσουν τα γλυκά**."
+},
+{
+"solved": [
+{
+"q": "Translate: \"Maria is from Greece.\"",
+"a": "Η Μαρία είναι από την Ελλάδα.",
+"why": "Article with the name and with the country."
+},
+{
+"q": "Translate: \"I like music.\"",
+"a": "Μου αρέσει η μουσική.",
+"why": "The thing liked is the subject and takes the article."
+},
+{
+"q": "Translate: \"I'm leaving on Friday.\"",
+"a": "Φεύγω την Παρασκευή.",
+"why": "Days take the accusative article: on Friday = την Παρασκευή."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "\"Nikos is here.\"",
+"options": [
+"Νίκος είναι εδώ.",
+"Ο Νίκος είναι εδώ.",
+"Τον Νίκο είναι εδώ.",
+"Νίκο είναι εδώ."
+],
+"answer": "Ο Νίκος είναι εδώ.",
+"why": "Names take the article as subjects: ο Νίκος.",
+"id": "article-1ff070ac"
+},
+{
+"type": "choice",
+"q": "\"I like wine.\"",
+"options": [
+"Μου αρέσει κρασί.",
+"Μου αρέσει το κρασί.",
+"Μου αρέσω το κρασί.",
+"Μου αρέσουν το κρασί."
+],
+"answer": "Μου αρέσει το κρασί.",
+"why": "With αρέσει the thing liked is the subject, with its article.",
+"id": "article-5f8493d6"
+},
+{
+"type": "choice",
+"q": "\"Life is short.\"",
+"options": [
+"Ζωή είναι μικρή.",
+"Η ζωή είναι μικρή.",
+"Μια ζωή είναι μικρή.",
+"Τη ζωή είναι μικρή."
+],
+"answer": "Η ζωή είναι μικρή.",
+"why": "Abstract nouns used generally take the article.",
+"id": "article-21ac54e6"
+},
+{
+"type": "choice",
+"q": "\"Sofia, come here!\"",
+"options": [
+"Η Σοφία, έλα εδώ!",
+"Σοφία, έλα εδώ!",
+"Τη Σοφία, έλα εδώ!",
+"Της Σοφίας, έλα εδώ!"
+],
+"answer": "Σοφία, έλα εδώ!",
+"why": "No article when you call someone (vocative).",
+"id": "article-ae786687"
+},
+{
+"type": "choice",
+"q": "\"In August we go to the island.\"",
+"options": [
+"Στον Αύγουστο πάμε στο νησί.",
+"Τον Αύγουστο πάμε στο νησί.",
+"Ο Αύγουστος πάμε στο νησί.",
+"Αύγουστο πάμε νησί."
+],
+"answer": "Τον Αύγουστο πάμε στο νησί.",
+"why": "Time expressions: accusative with article, no preposition.",
+"id": "article-0c8bff64"
+},
+{
+"type": "choice",
+"q": "\"We came by car.\"",
+"options": [
+"Ήρθαμε με τον αυτοκίνητο.",
+"Ήρθαμε με αυτοκίνητο.",
+"Ήρθαμε στο αυτοκίνητο.",
+"Ήρθαμε σε αυτοκίνητο."
+],
+"answer": "Ήρθαμε με αυτοκίνητο.",
+"why": "Means of transport: με + noun without article.",
+"id": "article-6479db59"
+},
+{
+"type": "choice",
+"q": "\"I speak Greek.\"",
+"options": [
+"Μιλάω τα ελληνικά.",
+"Μιλάω ελληνικά.",
+"Μιλάω ελληνική.",
+"Μιλάω την ελληνικά."
+],
+"answer": "Μιλάω ελληνικά.",
+"why": "With μιλάω, no article.",
+"id": "article-b03384fd"
+},
+{
+"type": "write",
+"q": "Translate: \"I love Crete.\"",
+"answer": "Αγαπώ την Κρήτη.",
+"accept": [
+"Λατρεύω την Κρήτη."
+],
+"why": "Islands take the article; keep ν before κ.",
+"id": "article-dce4e0a8"
+},
+{
+"type": "write",
+"q": "Translate: \"Kostas is a cook.\" (μάγειρας)",
+"answer": "Ο Κώστας είναι μάγειρας.",
+"accept": [],
+"why": "Article with the name, none with the job.",
+"id": "article-7a02fd00"
+},
+{
+"type": "write",
+"q": "Translate: \"on Monday\"",
+"answer": "τη Δευτέρα",
+"accept": [],
+"why": "Accusative article; drop ν before δ.",
+"id": "article-53936b90"
+},
+{
+"type": "write",
+"q": "Translate: \"Coffee is ready.\" (ο καφές, έτοιμος)",
+"answer": "Ο καφές είναι έτοιμος.",
+"accept": [],
+"why": "Article with the subject.",
+"id": "article-a2d0635d"
+},
+{
+"type": "write",
+"q": "Translate: \"I like sweets.\" (τα γλυκά)",
+"answer": "Μου αρέσουν τα γλυκά.",
+"accept": [],
+"why": "Plural subject: αρέσουν, with article.",
+"id": "article-e021b9ee"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Το άρθρο που φτιάχνει ουσιαστικά",
+"title": "The article that makes nouns",
+"body": [
+{
+"p": "Put **το** before almost anything and it becomes a noun: a verb clause, an adverb, a quotation, a letter. This is common in speech and the press."
+},
+{
+"ex": [
+{
+"el": "Το να μαγειρεύεις κάθε μέρα είναι κουραστικό.",
+"en": "Cooking every day is tiring."
+},
+{
+"el": "Το ότι δεν ήρθε με ενόχλησε.",
+"en": "The fact that he didn't come annoyed me."
+},
+{
+"el": "Το αύριο δεν το ξέρει κανείς.",
+"en": "No one knows what tomorrow brings."
+},
+{
+"el": "Τα πολλά λόγια είναι φτώχεια.",
+"en": "Too much talk is poverty. (proverb: talk less)"
+},
+{
+"el": "Το «ευχαριστώ» δεν κοστίζει τίποτα.",
+"en": "\"Thank you\" costs nothing."
+},
+{
+"el": "Οι πλούσιοι και οι φτωχοί.",
+"en": "The rich and the poor."
+}
+]
+},
+{
+"p": "An adjective with the article stands for people or things: **οι νέοι** \"young people\", **ο μικρός** \"the little one / the kid\", **η μεγάλη** \"the elder (daughter)\", **τα καλά** \"the good things\"."
+},
+{
+"solved": [
+{
+"q": "Make a noun of the clause: \"Waking up early is hard.\" (ξυπνάω νωρίς)",
+"a": "Το να ξυπνάς νωρίς είναι δύσκολο.",
+"why": "το να + verb works like an English -ing subject."
+},
+{
+"q": "Translate: \"The fact that you called made me happy.\" (χαίρομαι)",
+"a": "Το ότι πήρες τηλέφωνο με χαροποίησε. | Χάρηκα που πήρες τηλέφωνο.",
+"why": "το ότι turns a clause into a subject; everyday speech often prefers χάρηκα που..."
+},
+{
+"q": "Translate: \"the young (people)\"",
+"a": "οι νέοι",
+"why": "Adjective with the article = people of that kind."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "\"Smoking (to smoke) is forbidden here.\"",
+"options": [
+"Το να καπνίζεις απαγορεύεται εδώ.",
+"Να το καπνίζεις απαγορεύεται εδώ.",
+"Ο να καπνίζεις απαγορεύεται εδώ.",
+"Τα να καπνίζεις απαγορεύεται εδώ."
+],
+"answer": "Το να καπνίζεις απαγορεύεται εδώ.",
+"why": "το να + verb works as a noun, always neuter singular.",
+"id": "article-762e8faf"
+},
+{
+"type": "choice",
+"q": "\"The old (people) remember.\"",
+"options": [
+"Ο παλιός θυμάται.",
+"Οι παλιοί θυμούνται.",
+"Τα παλιά θυμούνται.",
+"Η παλιά θυμάται."
+],
+"answer": "Οι παλιοί θυμούνται.",
+"why": "οι παλιοί = old-timers, people of the past.",
+"id": "article-24adef20"
+},
+{
+"type": "choice",
+"q": "\"Tomorrow is another day.\"",
+"options": [
+"Το αύριο είναι μια άλλη μέρα.",
+"Ο αύριο είναι μια άλλη μέρα.",
+"Η αύριο είναι μια άλλη μέρα.",
+"Αύριο το είναι μια άλλη μέρα."
+],
+"answer": "Το αύριο είναι μια άλλη μέρα.",
+"why": "An adverb made into a noun takes neuter το.",
+"id": "article-def220b4"
+},
+{
+"type": "choice",
+"q": "\"Our little boy has started school.\"",
+"options": [
+"Η μικρή μας άρχισε σχολείο.",
+"Ο μικρός μας άρχισε σχολείο.",
+"Το μικρός μας άρχισε σχολείο.",
+"Τον μικρό μας άρχισε σχολείο."
+],
+"answer": "Ο μικρός μας άρχισε σχολείο.",
+"why": "Adjective + article: ο μικρός = the little boy, η μικρή = the little girl.",
+"id": "article-2dcdebf7"
+},
+{
+"type": "write",
+"q": "Translate: \"The fact that he's late doesn't surprise me.\" (αργεί, μου κάνει εντύπωση)",
+"answer": "Το ότι αργεί δε μου κάνει εντύπωση.",
+"accept": [
+"Το ότι αργεί δεν μου κάνει εντύπωση."
+],
+"why": "το ότι + clause as the subject.",
+"id": "article-cf0727ef"
+},
+{
+"type": "write",
+"q": "Translate: \"Learning Greek is fun.\" (μαθαίνω, διασκεδαστικό)",
+"answer": "Το να μαθαίνεις ελληνικά είναι διασκεδαστικό.",
+"accept": [],
+"why": "το να + second person singular: the general \"you\".",
+"id": "article-74ce52b4"
+}
+]
+}
+]
+}
+],
+"id": "article",
+"el": "Το άρθρο",
+"title": "The article",
+"span": "A1–B1",
+"part": "Μέρος Β΄ | Άρθρο και ουσιαστικό | The article and the noun",
+"blurb": "The definite and indefinite article in every case, the contractions στο/στη/στον, and where Greek uses an article when English does not.",
+"intro": [
+{
+"p": "The article is the most useful word in Greek: it tells you the **gender**, **number** and **case** of the noun after it, even when you do not know the noun. If you hear **της**, you know a feminine genitive is coming; if you hear **τους**, a masculine accusative plural (or a genitive plural)."
+},
+{
+"p": "Greek uses the definite article much more than English: with names (**ο Νίκος**), with abstract nouns (**η αγάπη**), with countries and cities (**η Ελλάδα**, **η Αθήνα**) and with possessives (**το σπίτι μου**)."
+},
+{
+"links": [
+{
+"href": "#a1-gender",
+"kind": "Lesson",
+"el": "Το γένος και το άρθρο",
+"title": "Gender and the article"
+},
+{
+"href": "#a1-cases",
+"kind": "Lesson",
+"el": "Οι πτώσεις",
+"title": "The four cases"
+},
+{
+"href": "#cards.article",
+"kind": "Card",
+"el": "Το άρθρο",
+"title": "The article"
+},
+{
+"href": "#pos.article",
+"kind": "Part of speech",
+"el": "Το άρθρο",
+"title": "The article"
+}
+]
+}
+],
+"num": 2
+}

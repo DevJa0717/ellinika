@@ -1,0 +1,1323 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Τα αρσενικά σε -ος",
+"title": "Nouns in -ος",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Singular",
+"Plural"
+],
+"rows": [
+[
+"Nominative",
+"ο φίλος",
+"οι φίλοι"
+],
+[
+"Accusative",
+"τον φίλο",
+"τους φίλους"
+],
+[
+"Genitive",
+"του φίλου",
+"των φίλων"
+],
+[
+"Vocative",
+"φίλε!",
+"φίλοι!"
+]
+]
+}
+},
+{
+"p": "This is the biggest group: **ο δρόμος** street, **ο ουρανός** sky, **ο γιατρός** doctor, **ο ύπνος** sleep, **ο λογαριασμός** bill, **ο καιρός** weather, **ο χρόνος** time / year."
+},
+{
+"ex": [
+{
+"el": "Ο γιατρός λέει να ξεκουραστώ.",
+"en": "The doctor says I should rest."
+},
+{
+"el": "Πάρε τον δρόμο για το κέντρο.",
+"en": "Take the road to the centre."
+},
+{
+"el": "Η γυναίκα του γείτονα.",
+"en": "The neighbour's wife."
+},
+{
+"el": "Τους φίλους μου τους ξέρεις.",
+"en": "You know my friends."
+},
+{
+"el": "Τι καιρό κάνει εκεί;",
+"en": "What's the weather like there?"
+}
+]
+},
+{
+"p": "**Stress shift.** Nouns stressed on the third-last syllable move the stress one place forward in the genitive singular and in the genitive and accusative plural:"
+},
+{
+"table": {
+"head": [
+"",
+"Singular",
+"Plural"
+],
+"rows": [
+[
+"Nominative",
+"ο **ά**νθρωπος",
+"οι **ά**νθρωποι"
+],
+[
+"Accusative",
+"τον **ά**νθρωπο",
+"τους ανθρ**ώ**πους"
+],
+[
+"Genitive",
+"του ανθρ**ώ**που",
+"των ανθρ**ώ**πων"
+]
+]
+}
+},
+{
+"p": "Same pattern: **ο δάσκαλος** (του δασκάλου), **ο κίνδυνος** (του κινδύνου), **ο πρόεδρος** (του προέδρου), **ο σύλλογος** (του συλλόγου). In everyday speech some common nouns keep the stress: **του δάσκαλου** and **του δασκάλου** are both heard."
+},
+{
+"tip": "The accusative singular drops the final -ς: **τον φίλο, τον γιατρό, τον δρόμο**. Writing **τον φίλος** is the most common beginner slip."
+},
+{
+"solved": [
+{
+"q": "Decline **ο δρόμος** in the singular (nom., acc., gen.)",
+"a": "ο δρόμος, τον δρόμο, του δρόμου",
+"why": "Two syllables with stress on the second-last: no shift."
+},
+{
+"q": "Give the genitive singular of **ο κίνδυνος**",
+"a": "του κινδύνου",
+"why": "Third-last stress shifts forward when the ending grows."
+},
+{
+"q": "Give the accusative plural of **ο άνθρωπος**",
+"a": "τους ανθρώπους",
+"why": "-ους is long, so the stress moves to the second-last syllable."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Βλέπω ___. (ο ουρανός)",
+"options": [
+"τον ουρανός",
+"τον ουρανό",
+"του ουρανού",
+"οι ουρανοί"
+],
+"answer": "τον ουρανό",
+"why": "Accusative singular drops the -ς.",
+"id": "masculine-3ebc96fd"
+},
+{
+"type": "choice",
+"q": "Τηλεφώνησε ___. (ο γιατρός, plural)",
+"options": [
+"στις γιατρούς",
+"στους γιατρούς",
+"στα γιατρά",
+"στους γιατροί"
+],
+"answer": "στους γιατρούς",
+"why": "Accusative plural -ους.",
+"id": "masculine-0edb483f"
+},
+{
+"type": "choice",
+"q": "Το όνομα ___. (ο σκύλος)",
+"options": [
+"του σκύλος",
+"του σκύλου",
+"τον σκύλο",
+"των σκύλο"
+],
+"answer": "του σκύλου",
+"why": "Genitive singular -ου.",
+"id": "masculine-e84c285a"
+},
+{
+"type": "choice",
+"q": "Πόσοι ___ ήρθαν; (ο άνθρωπος)",
+"options": [
+"ανθρώπους",
+"άνθρωποι",
+"ανθρώποι",
+"ανθρώπων"
+],
+"answer": "άνθρωποι",
+"why": "Nominative plural -οι; stress stays.",
+"id": "masculine-f52c2eae"
+},
+{
+"type": "choice",
+"q": "Μίλησα με τους ___. (ο δάσκαλος)",
+"options": [
+"δάσκαλοι",
+"δάσκαλους",
+"δασκάλους",
+"δασκάλοι"
+],
+"answer": "δασκάλους",
+"why": "Accusative plural with stress shift.",
+"id": "masculine-13db9163"
+},
+{
+"type": "choice",
+"q": "Το σπίτι ___ μου. (ο θείος)",
+"options": [
+"τον θείο",
+"του θείου",
+"του θείος",
+"των θείου"
+],
+"answer": "του θείου",
+"why": "Genitive singular -ου.",
+"id": "masculine-b41c9dbc"
+},
+{
+"type": "choice",
+"q": "Ο ___ είναι ωραίος σήμερα. (καιρός)",
+"options": [
+"καιρό",
+"καιρός",
+"καιρού",
+"καιροί"
+],
+"answer": "καιρός",
+"why": "Subject: nominative.",
+"id": "masculine-6d270871"
+},
+{
+"type": "choice",
+"q": "Πλήρωσα ___. (ο λογαριασμός)",
+"options": [
+"τον λογαριασμός",
+"τον λογαριασμό",
+"του λογαριασμού",
+"τους λογαριασμοί"
+],
+"answer": "τον λογαριασμό",
+"why": "Object: accusative.",
+"id": "masculine-877ab88a"
+},
+{
+"type": "write",
+"q": "Accusative singular of **ο ύπνος**",
+"answer": "τον ύπνο",
+"accept": [],
+"why": "Drop the -ς.",
+"id": "masculine-c4827e2c"
+},
+{
+"type": "write",
+"q": "Genitive singular of **ο άνθρωπος**",
+"answer": "του ανθρώπου",
+"accept": [],
+"why": "The stress moves forward.",
+"id": "masculine-ee28650b"
+},
+{
+"type": "write",
+"q": "Nominative plural of **ο φίλος**",
+"answer": "οι φίλοι",
+"accept": [],
+"why": "-οι.",
+"id": "masculine-0b1fef60"
+},
+{
+"type": "write",
+"q": "Genitive plural of **ο δρόμος**",
+"answer": "των δρόμων",
+"accept": [],
+"why": "-ων.",
+"id": "masculine-38e03733"
+},
+{
+"type": "write",
+"q": "Accusative plural of **ο κίνδυνος**",
+"answer": "τους κινδύνους",
+"accept": [],
+"why": "-ους with stress shift.",
+"id": "masculine-ce8764f0"
+},
+{
+"type": "write",
+"q": "Translate: \"the doctor's office\" (το ιατρείο)",
+"answer": "το ιατρείο του γιατρού",
+"accept": [],
+"why": "Genitive after the noun: του γιατρού.",
+"id": "masculine-f2cb3873"
+},
+{
+"type": "order",
+"q": "\"I'm waiting for my friends.\"",
+"answer": "Περιμένω τους φίλους μου.",
+"accept": [],
+"why": "Verb, object with article, possessive after the noun.",
+"id": "masculine-8fc81748"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Τα αρσενικά σε -ας",
+"title": "Nouns in -ας",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Singular",
+"Plural"
+],
+"rows": [
+[
+"Nominative",
+"ο άντρας",
+"οι άντρες"
+],
+[
+"Accusative",
+"τον άντρα",
+"τους άντρες"
+],
+[
+"Genitive",
+"του άντρα",
+"των αντρών"
+],
+[
+"Vocative",
+"άντρα!",
+"άντρες!"
+]
+]
+}
+},
+{
+"p": "In the singular, drop the **-ς** for every case except the nominative. In the plural, nominative and accusative are the same (**-ες**), and the genitive plural is usually stressed on the ending: **-ών**."
+},
+{
+"p": "More nouns: **ο πατέρας** father, **ο μήνας** month, **ο χειμώνας** winter, **ο φύλακας** guard, **ο ταμίας** cashier, and names such as **ο Λουκάς, ο Ηλίας, ο Ανδρέας, ο Κώστας**."
+},
+{
+"ex": [
+{
+"el": "Ο πατέρας μου είναι ψαράς.",
+"en": "My father is a fisherman."
+},
+{
+"el": "Του χρόνου τον χειμώνα θα πάμε για σκι.",
+"en": "Next year in winter we'll go skiing."
+},
+{
+"el": "Οι άντρες στην κουζίνα, οι γυναίκες στο σαλόνι; Όχι πια!",
+"en": "Men in the kitchen, women in the living room? Not any more!"
+},
+{
+"el": "Πλήρωσα το νοίκι του μήνα.",
+"en": "I paid the month's rent."
+}
+]
+},
+{
+"p": "Genitive plural: **των αντρών, των μηνών, των χειμώνων**, but **των πατέρων** (the stress stays). If you are unsure, **των** + nominative singular stress is never wildly wrong; the usual pattern is **-ών**."
+},
+{
+"solved": [
+{
+"q": "Decline **ο μήνας** in the plural",
+"a": "οι μήνες, τους μήνες, των μηνών",
+"why": "Nominative = accusative -ες; genitive -ών."
+},
+{
+"q": "Give the accusative singular of **ο χειμώνας**",
+"a": "τον χειμώνα",
+"why": "Drop the -ς."
+},
+{
+"q": "Translate: \"my father's car\"",
+"a": "το αυτοκίνητο του πατέρα μου",
+"why": "Genitive singular: του πατέρα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ξέρεις ___; (ο άντρας της)",
+"options": [
+"τον άντρας της",
+"τον άντρα της",
+"του άντρα της",
+"οι άντρες της"
+],
+"answer": "τον άντρα της",
+"why": "Accusative singular drops -ς.",
+"id": "masculine-e9fe0b7f"
+},
+{
+"type": "choice",
+"q": "Το πρώτο Σάββατο ___. (ο μήνας)",
+"options": [
+"του μήνας",
+"του μήνα",
+"των μήνα",
+"τον μήνας"
+],
+"answer": "του μήνα",
+"why": "Genitive singular = accusative singular: -α.",
+"id": "masculine-5206b524"
+},
+{
+"type": "choice",
+"q": "Οι ___ είναι κρύοι εδώ. (ο χειμώνας)",
+"options": [
+"χειμώνας",
+"χειμώνες",
+"χειμώνοι",
+"χειμώνων"
+],
+"answer": "χειμώνες",
+"why": "Plural -ες.",
+"id": "masculine-34248a42"
+},
+{
+"type": "choice",
+"q": "Η γνώμη των ___ (ο πατέρας)",
+"options": [
+"πατερών",
+"πατέρων",
+"πατέρες",
+"πατέρα"
+],
+"answer": "πατέρων",
+"why": "Exception: των πατέρων keeps the stress.",
+"id": "masculine-47e9ca02"
+},
+{
+"type": "choice",
+"q": "Πληρώνω στον ___. (ο ταμίας)",
+"options": [
+"ταμίας",
+"ταμία",
+"ταμίου",
+"ταμίες"
+],
+"answer": "ταμία",
+"why": "Accusative after σε: τον ταμία.",
+"id": "masculine-d57f02aa"
+},
+{
+"type": "choice",
+"q": "Έλα εδώ, ___! (Λουκάς)",
+"options": [
+"Λουκάς",
+"Λουκά",
+"Λουκάν",
+"Λουκέ"
+],
+"answer": "Λουκά",
+"why": "Vocative: drop the -ς.",
+"id": "masculine-f12f433d"
+},
+{
+"type": "write",
+"q": "Accusative singular of **ο πατέρας**",
+"answer": "τον πατέρα",
+"accept": [],
+"why": "Drop -ς.",
+"id": "masculine-1f63d3d7"
+},
+{
+"type": "write",
+"q": "Nominative plural of **ο άντρας**",
+"answer": "οι άντρες",
+"accept": [],
+"why": "-ες.",
+"id": "masculine-dd6ddf65"
+},
+{
+"type": "write",
+"q": "Genitive plural of **ο μήνας**",
+"answer": "των μηνών",
+"accept": [],
+"why": "-ών.",
+"id": "masculine-c62a974c"
+},
+{
+"type": "write",
+"q": "Translate: \"every month\" (κάθε)",
+"answer": "κάθε μήνα",
+"accept": [],
+"why": "Time phrase in the accusative: κάθε μήνα.",
+"id": "masculine-27d39b92"
+},
+{
+"type": "write",
+"q": "Vocative of **Ηλίας**",
+"answer": "Ηλία",
+"accept": [],
+"why": "Drop the -ς.",
+"id": "masculine-873cd3b5"
+},
+{
+"type": "order",
+"q": "\"My father works at the port.\" (λιμάνι)",
+"answer": "Ο πατέρας μου δουλεύει στο λιμάνι.",
+"accept": [],
+"why": "Subject with possessive, verb, place.",
+"id": "masculine-62ae93d9"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Τα αρσενικά σε -ης",
+"title": "Nouns in -ης",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Singular",
+"Plural"
+],
+"rows": [
+[
+"Nominative",
+"ο μαθητής",
+"οι μαθητές"
+],
+[
+"Accusative",
+"τον μαθητή",
+"τους μαθητές"
+],
+[
+"Genitive",
+"του μαθητή",
+"των μαθητών"
+],
+[
+"Vocative",
+"μαθητή!",
+"μαθητές!"
+]
+]
+}
+},
+{
+"p": "Same logic as -ας: drop the **-ς** in the singular, **-ες** for nominative and accusative plural, **-ών** for the genitive plural. More nouns: **ο φοιτητής** student, **ο επιβάτης** passenger, **ο πελάτης** customer, **ο εργάτης** worker, **ο κλέφτης** thief, **ο Γιάννης** (name)."
+},
+{
+"ex": [
+{
+"el": "Ο πελάτης έχει πάντα δίκιο.",
+"en": "The customer is always right."
+},
+{
+"el": "Οι επιβάτες για Ρόδο στην έξοδο 5.",
+"en": "Passengers for Rhodes to gate 5."
+},
+{
+"el": "Η τσάντα του φοιτητή.",
+"en": "The student's bag."
+},
+{
+"el": "Γιάννη, πού είσαι;",
+"en": "Giannis, where are you?"
+}
+]
+},
+{
+"p": "The genitive plural is stressed on the ending: **των πελατών, των επιβατών, των φοιτητών**."
+},
+{
+"tip": "The feminine of these nouns usually ends in **-τρια** or **-ισσα**: **η μαθήτρια, η φοιτήτρια, η εργάτρια, η πελάτισσα**. Learn each one with its article."
+},
+{
+"solved": [
+{
+"q": "Decline **ο πελάτης** in the plural",
+"a": "οι πελάτες, τους πελάτες, των πελατών",
+"why": "-ες, -ες, -ών."
+},
+{
+"q": "Give the genitive singular of **ο Γιάννης**",
+"a": "του Γιάννη",
+"why": "Drop -ς."
+},
+{
+"q": "Translate: \"the passengers' luggage\" (οι αποσκευές)",
+"a": "οι αποσκευές των επιβατών",
+"why": "Genitive plural -ών."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ρώτα ___. (ο φοιτητής)",
+"options": [
+"τον φοιτητής",
+"τον φοιτητή",
+"το φοιτητή",
+"του φοιτητές"
+],
+"answer": "τον φοιτητή",
+"why": "Accusative singular: τον φοιτητή.",
+"id": "masculine-76a09e3b"
+},
+{
+"type": "choice",
+"q": "Το κινητό ___ (ο Γιάννης)",
+"options": [
+"του Γιάννης",
+"του Γιάννη",
+"τον Γιάννη",
+"του Γιάννου"
+],
+"answer": "του Γιάννη",
+"why": "Genitive: drop -ς.",
+"id": "masculine-88a3c10c"
+},
+{
+"type": "choice",
+"q": "Οι ___ περιμένουν. (ο πελάτης)",
+"options": [
+"πελάτοι",
+"πελάτες",
+"πελάτης",
+"πελατών"
+],
+"answer": "πελάτες",
+"why": "Plural -ες.",
+"id": "masculine-667f1fb8"
+},
+{
+"type": "choice",
+"q": "Η γνώμη των ___ (ο εργάτης)",
+"options": [
+"εργάτες",
+"εργάτων",
+"εργατών",
+"εργάτη"
+],
+"answer": "εργατών",
+"why": "Genitive plural -ών, stressed.",
+"id": "masculine-e1448bae"
+},
+{
+"type": "choice",
+"q": "Τα εισιτήρια των ___ (ο επιβάτης)",
+"options": [
+"επιβατών",
+"επιβάτων",
+"επιβάτες",
+"επιβάτη"
+],
+"answer": "επιβατών",
+"why": "Genitive plural -ών.",
+"id": "masculine-0743dbd7"
+},
+{
+"type": "choice",
+"q": "Έπιασαν ___. (ο κλέφτης)",
+"options": [
+"τον κλέφτης",
+"τον κλέφτη",
+"το κλέφτη",
+"του κλέφτες"
+],
+"answer": "τον κλέφτη",
+"why": "Accusative singular.",
+"id": "masculine-a4eb268a"
+},
+{
+"type": "write",
+"q": "Accusative singular of **ο επιβάτης**",
+"answer": "τον επιβάτη",
+"accept": [],
+"why": "Drop -ς.",
+"id": "masculine-a1d374f0"
+},
+{
+"type": "write",
+"q": "Nominative plural of **ο μαθητής**",
+"answer": "οι μαθητές",
+"accept": [],
+"why": "-ές.",
+"id": "masculine-43bf8b21"
+},
+{
+"type": "write",
+"q": "Genitive plural of **ο πελάτης**",
+"answer": "των πελατών",
+"accept": [],
+"why": "-ών.",
+"id": "masculine-964c04d8"
+},
+{
+"type": "write",
+"q": "Vocative of **ο Γιάννης**",
+"answer": "Γιάννη",
+"accept": [],
+"why": "Drop -ς.",
+"id": "masculine-54293332"
+},
+{
+"type": "write",
+"q": "Translate: \"the student's room\" (ο φοιτητής, το δωμάτιο)",
+"answer": "το δωμάτιο του φοιτητή",
+"accept": [],
+"why": "Genitive after the noun.",
+"id": "masculine-a546282e"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Πληθυντικός σε -δες",
+"title": "Plurals in -δες: καφές, παππούς, ψαράς, μανάβης",
+"body": [
+{
+"p": "A group of everyday masculine nouns, many of them Turkish or Italian loans or trades, form the plural with **-δες**:"
+},
+{
+"table": {
+"head": [
+"Singular",
+"Genitive sg",
+"Plural",
+"Genitive pl"
+],
+"rows": [
+[
+"ο καφές coffee",
+"του καφέ",
+"οι καφέδες",
+"των καφέδων"
+],
+[
+"ο παππούς grandfather",
+"του παππού",
+"οι παππούδες",
+"των παππούδων"
+],
+[
+"ο ψαράς fisherman",
+"του ψαρά",
+"οι ψαράδες",
+"των ψαράδων"
+],
+[
+"ο μανάβης greengrocer",
+"του μανάβη",
+"οι μανάβηδες",
+"των μανάβηδων"
+],
+[
+"ο μπαμπάς dad",
+"του μπαμπά",
+"οι μπαμπάδες",
+"των μπαμπάδων"
+],
+[
+"ο φούρναρης baker",
+"του φούρναρη",
+"οι φούρναρηδες",
+"των φούρναρηδων"
+]
+]
+}
+},
+{
+"p": "The stress never moves: it stays where it is in the singular. The accusative plural is the same as the nominative plural: **τους καφέδες, τους παππούδες**."
+},
+{
+"ex": [
+{
+"el": "Δύο καφέδες, ένας σκέτος κι ένας γλυκός.",
+"en": "Two coffees, one without sugar and one sweet."
+},
+{
+"el": "Οι παππούδες μου ζουν στο χωριό.",
+"en": "My grandparents live in the village."
+},
+{
+"el": "Πάρε φρούτα από τον μανάβη.",
+"en": "Get some fruit from the greengrocer."
+},
+{
+"el": "Οι ψαράδες γύρισαν με γεμάτα δίχτυα.",
+"en": "The fishermen came back with full nets."
+}
+]
+},
+{
+"tip": "**Οι παππούδες** means \"grandfathers\" or \"grandparents\" (grandpa and grandma together)."
+},
+{
+"solved": [
+{
+"q": "Plural of **ο καφές**",
+"a": "οι καφέδες",
+"why": "Coffee forms its plural in -δες."
+},
+{
+"q": "Genitive singular of **ο ψαράς**",
+"a": "του ψαρά",
+"why": "Drop -ς; stress stays."
+},
+{
+"q": "Plural of **ο μανάβης**",
+"a": "οι μανάβηδες",
+"why": "Some -ης nouns take -ηδες; the stress stays on the same syllable."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τρεις ___, παρακαλώ. (ο καφές)",
+"options": [
+"καφές",
+"καφέες",
+"καφέδες",
+"καφέδων"
+],
+"answer": "καφέδες",
+"why": "Plural in -δες.",
+"id": "masculine-c1f6ed1d"
+},
+{
+"type": "choice",
+"q": "Οι ___ μου είναι από την Κρήτη. (ο παππούς)",
+"options": [
+"παππούς",
+"παππούδες",
+"παππούες",
+"παππούδων"
+],
+"answer": "παππούδες",
+"why": "Plural in -δες.",
+"id": "masculine-a131daf6"
+},
+{
+"type": "choice",
+"q": "Το καΐκι ___ (ο ψαράς)",
+"options": [
+"του ψαράς",
+"του ψαρά",
+"του ψαράδες",
+"των ψαρά"
+],
+"answer": "του ψαρά",
+"why": "Genitive singular: drop -ς.",
+"id": "masculine-3e03504c"
+},
+{
+"type": "choice",
+"q": "Αγόρασα ψωμί από τον ___. (ο φούρναρης)",
+"options": [
+"φούρναρης",
+"φούρναρη",
+"φουρνάρη",
+"φούρναρο"
+],
+"answer": "φούρναρη",
+"why": "Accusative singular: drop -ς.",
+"id": "masculine-25162846"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά των ___ (ο ψαράς)",
+"options": [
+"ψαρών",
+"ψαράδων",
+"ψαράδες",
+"ψαρά"
+],
+"answer": "ψαράδων",
+"why": "Genitive plural -δων.",
+"id": "masculine-9038cc94"
+},
+{
+"type": "choice",
+"q": "Οι ___ ήρθαν στη γιορτή. (ο μπαμπάς)",
+"options": [
+"μπαμπάς",
+"μπαμπάοι",
+"μπαμπάδες",
+"μπαμπών"
+],
+"answer": "μπαμπάδες",
+"why": "Plural in -δες.",
+"id": "masculine-5d2a5e6f"
+},
+{
+"type": "write",
+"q": "Plural of **ο παππούς**",
+"answer": "οι παππούδες",
+"accept": [],
+"why": "-δες.",
+"id": "masculine-64c54ec0"
+},
+{
+"type": "write",
+"q": "Genitive plural of **ο καφές**",
+"answer": "των καφέδων",
+"accept": [],
+"why": "-δων.",
+"id": "masculine-45878dc5"
+},
+{
+"type": "write",
+"q": "Accusative singular of **ο μανάβης**",
+"answer": "τον μανάβη",
+"accept": [],
+"why": "Drop -ς.",
+"id": "masculine-05b69187"
+},
+{
+"type": "write",
+"q": "Plural of **ο ψαράς**",
+"answer": "οι ψαράδες",
+"accept": [],
+"why": "-δες.",
+"id": "masculine-3c38b0d0"
+},
+{
+"type": "write",
+"q": "Translate: \"two coffees\"",
+"answer": "δύο καφέδες",
+"accept": [
+"δυο καφέδες"
+],
+"why": "Plural in -δες.",
+"id": "masculine-8bb782c8"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Η κλητική",
+"title": "Calling someone: the vocative",
+"body": [
+{
+"p": "You use the vocative to call or address someone. It has no article."
+},
+{
+"table": {
+"head": [
+"Ending",
+"Vocative",
+"Examples"
+],
+"rows": []
+}
+},
+{
+"ex": [
+{
+"el": "Καλημέρα, κύριε Παπαδόπουλε!",
+"en": "Good morning, Mr Papadopoulos!"
+},
+{
+"el": "Έλα, ρε φίλε!",
+"en": "Come on, mate!"
+},
+{
+"el": "Γιατρέ, πονάει το κεφάλι μου.",
+"en": "Doctor, I have a headache."
+},
+{
+"el": "Νίκο, έρχεσαι;",
+"en": "Nikos, are you coming?"
+},
+{
+"el": "Μπαμπά, πεινάω!",
+"en": "Dad, I'm hungry!"
+}
+]
+},
+{
+"p": "Surnames in **-ος** take **-ε**: **κύριε Παπαδόπουλε**, **κύριε Αθανασίου** (genitive-form surnames never change)."
+},
+{
+"tip": "In casual speech **φίλε** and **ρε φίλε** are used like English \"mate\" or \"dude\". **Κύριε** \"sir\" and **κυρία** \"madam\" are polite."
+},
+{
+"solved": [
+{
+"q": "Call **ο Γιώργος**",
+"a": "Γιώργο!",
+"why": "Two-syllable names in -ος: vocative -ο."
+},
+{
+"q": "Address **ο κύριος Παπαδόπουλος**",
+"a": "Κύριε Παπαδόπουλε!",
+"why": "Both κύριος and the -ος surname take -ε."
+},
+{
+"q": "Call **ο παππούς**",
+"a": "Παππού!",
+"why": "Drop the -ς."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "\"Thank you, doctor!\"",
+"options": [
+"Ευχαριστώ, γιατρός!",
+"Ευχαριστώ, γιατρέ!",
+"Ευχαριστώ, γιατρό!",
+"Ευχαριστώ, ο γιατρός!"
+],
+"answer": "Ευχαριστώ, γιατρέ!",
+"why": "Common nouns in -ος: vocative -ε.",
+"id": "masculine-a3daf2a7"
+},
+{
+"type": "choice",
+"q": "\"Petros, wait!\"",
+"options": [
+"Πέτρε, περίμενε!",
+"Πέτρο, περίμενε!",
+"Πέτρος, περίμενε!",
+"Ο Πέτρος, περίμενε!"
+],
+"answer": "Πέτρο, περίμενε!",
+"why": "Two-syllable names in -ος: -ο.",
+"id": "masculine-9dd43c9e"
+},
+{
+"type": "choice",
+"q": "\"Good evening, Mr Georgiou!\"",
+"options": [
+"Καλησπέρα, κύριε Γεωργίε!",
+"Καλησπέρα, κύριε Γεωργίου!",
+"Καλησπέρα, κύριος Γεωργίου!",
+"Καλησπέρα, κυρίου Γεωργίου!"
+],
+"answer": "Καλησπέρα, κύριε Γεωργίου!",
+"why": "Surnames in -ου never change; κύριος becomes κύριε.",
+"id": "masculine-43bfb942"
+},
+{
+"type": "choice",
+"q": "\"Kostas, are you coming?\"",
+"options": [
+"Κώστας, έρχεσαι;",
+"Κώστα, έρχεσαι;",
+"Κώστε, έρχεσαι;",
+"Κώστο, έρχεσαι;"
+],
+"answer": "Κώστα, έρχεσαι;",
+"why": "Names in -ας: drop -ς.",
+"id": "masculine-ea981079"
+},
+{
+"type": "choice",
+"q": "\"Hey, waiter!\" (ο σερβιτόρος)",
+"options": [
+"Σερβιτόρος!",
+"Σερβιτόρε!",
+"Σερβιτόρο!",
+"Ο σερβιτόρος!"
+],
+"answer": "Σερβιτόρε!",
+"why": "Common noun in -ος: -ε.",
+"id": "masculine-8a300958"
+},
+{
+"type": "write",
+"q": "Vocative of **ο Νίκος**",
+"answer": "Νίκο",
+"accept": [],
+"why": "Two-syllable name: -ο.",
+"id": "masculine-6ddf1211"
+},
+{
+"type": "write",
+"q": "Vocative of **ο δάσκαλος**",
+"answer": "δάσκαλε",
+"accept": [],
+"why": "Common noun: -ε.",
+"id": "masculine-313f1413"
+},
+{
+"type": "write",
+"q": "Vocative of **ο Μιχάλης**",
+"answer": "Μιχάλη",
+"accept": [],
+"why": "Drop -ς.",
+"id": "masculine-f78bcb80"
+},
+{
+"type": "write",
+"q": "Vocative of **ο κύριος**",
+"answer": "κύριε",
+"accept": [],
+"why": "-ε.",
+"id": "masculine-0f885829"
+},
+{
+"type": "write",
+"q": "Vocative of **ο Αλέξανδρος**",
+"answer": "Αλέξανδρε",
+"accept": [],
+"why": "Longer names: -ε.",
+"id": "masculine-48192eaf"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Τα αρσενικά σε -έας",
+"title": "Nouns in -έας and other learned types",
+"body": [
+{
+"p": "A small group of learned nouns ends in **-έας**. Their plural comes from older Greek:"
+},
+{
+"table": {
+"head": [
+"",
+"Singular",
+"Plural"
+],
+"rows": [
+[
+"Nominative",
+"ο συγγραφέας",
+"οι συγγραφείς"
+],
+[
+"Accusative",
+"τον συγγραφέα",
+"τους συγγραφείς"
+],
+[
+"Genitive",
+"του συγγραφέα",
+"των συγγραφέων"
+]
+]
+}
+},
+{
+"p": "Same pattern: **ο γραμματέας** secretary, **ο κουρέας** barber, **ο ιερέας** priest, **ο γονέας** parent."
+},
+{
+"ex": [
+{
+"el": "Ο αγαπημένος μου συγγραφέας είναι ο Καζαντζάκης.",
+"en": "My favourite writer is Kazantzakis."
+},
+{
+"el": "Οι γονείς μου έρχονται την Κυριακή.",
+"en": "My parents are coming on Sunday."
+},
+{
+"el": "Η συνάντηση των γονέων είναι στις έξι.",
+"en": "The parents' meeting is at six."
+}
+]
+},
+{
+"p": "The plural **οι γονείς** \"parents\" is very common; the singular **ο γονέας / ο γονιός** is rarer."
+},
+{
+"solved": [
+{
+"q": "Plural of **ο συγγραφέας**",
+"a": "οι συγγραφείς",
+"why": "-έας → -είς."
+},
+{
+"q": "Genitive plural of **ο γονέας**",
+"a": "των γονέων",
+"why": "-έων."
+},
+{
+"q": "Accusative singular of **ο ιερέας**",
+"a": "τον ιερέα",
+"why": "Drop -ς."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Οι ___ μου μένουν στη Λάρισα.",
+"options": [
+"γονέας",
+"γονέες",
+"γονείς",
+"γονέων"
+],
+"answer": "γονείς",
+"why": "Plural -είς.",
+"id": "masculine-1e585de9"
+},
+{
+"type": "choice",
+"q": "Μίλησα με τον ___. (ο κουρέας)",
+"options": [
+"κουρέας",
+"κουρέα",
+"κουρείς",
+"κουρέων"
+],
+"answer": "κουρέα",
+"why": "Accusative singular: drop -ς.",
+"id": "masculine-5f13b232"
+},
+{
+"type": "choice",
+"q": "Τα βιβλία των ___ (οι συγγραφείς)",
+"options": [
+"συγγραφείς",
+"συγγραφέων",
+"συγγραφεών",
+"συγγραφέα"
+],
+"answer": "συγγραφέων",
+"why": "Genitive plural -έων.",
+"id": "masculine-37ce0f57"
+},
+{
+"type": "choice",
+"q": "Ξέρεις τους ___ της; (ο γονέας)",
+"options": [
+"γονέας",
+"γονείς",
+"γονιούς",
+"γονέα"
+],
+"answer": "γονείς",
+"why": "Accusative plural = nominative plural: γονείς.",
+"id": "masculine-c51e4183"
+},
+{
+"type": "write",
+"q": "Plural of **ο γραμματέας**",
+"answer": "οι γραμματείς",
+"accept": [],
+"why": "-είς.",
+"id": "masculine-f622877e"
+},
+{
+"type": "write",
+"q": "Genitive singular of **ο συγγραφέας**",
+"answer": "του συγγραφέα",
+"accept": [],
+"why": "Drop -ς.",
+"id": "masculine-fe74daef"
+},
+{
+"type": "write",
+"q": "Translate: \"my parents' house\"",
+"answer": "το σπίτι των γονιών μου",
+"accept": [
+"το σπίτι των γονέων μου"
+],
+"why": "Both genitives are used; των γονιών μου is everyday.",
+"id": "masculine-75c0d622"
+}
+]
+}
+]
+}
+],
+"id": "masculine",
+"el": "Αρσενικά ουσιαστικά",
+"title": "Masculine nouns",
+"span": "A1–B1",
+"blurb": "The masculine nouns in -ος, -ας, -ης and -ής/-άς/-ούς/-ές, with their stress shifts, their -δες plurals and their vocatives.",
+"intro": [
+{
+"p": "Masculine nouns end in **-ος, -ας, -ης** or, in a smaller group, **-ής, -άς, -ούς, -ές, -έας**. The ending of the nominative singular predicts all the other forms, and the article confirms them."
+},
+{
+"p": "A quick test: in the singular, masculine nouns drop the final **-ς** in the genitive (for -ας/-ης) or accusative (for all). That is why you hear **τον άντρα, του άντρα** but **ο άντρας**."
+},
+{
+"links": [
+{
+"href": "#a1-masc-os",
+"kind": "Lesson",
+"el": "Αρσενικά σε -ος",
+"title": "Masculine nouns in -ος"
+},
+{
+"href": "#decl-masculine",
+"kind": "Lesson",
+"el": "Τα αρσενικά ουσιαστικά",
+"title": "Masculine nouns in full"
+},
+{
+"href": "#cards.masculine",
+"kind": "Card",
+"el": "Αρσενικά ουσιαστικά",
+"title": "Masculine nouns"
+},
+{
+"href": "#pos.noun",
+"kind": "Part of speech",
+"el": "Το ουσιαστικό",
+"title": "The noun"
+},
+{
+"href": "#klisi",
+"kind": "Drill books",
+"el": "Τετράδια κλίσης",
+"title": "Declension and conjugation drill books"
+}
+]
+}
+],
+"num": 3
+}

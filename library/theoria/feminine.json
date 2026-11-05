@@ -1,0 +1,1213 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Τα θηλυκά σε -α",
+"title": "Nouns in -α",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Singular",
+"Plural"
+],
+"rows": [
+[
+"Nominative",
+"η ώρα",
+"οι ώρες"
+],
+[
+"Accusative",
+"την ώρα",
+"τις ώρες"
+],
+[
+"Genitive",
+"της ώρας",
+"των ωρών"
+],
+[
+"Vocative",
+"ώρα",
+"ώρες"
+]
+]
+}
+},
+{
+"p": "The singular has one change only: the genitive adds **-ς**. The plural has **-ες** for nominative, accusative and vocative, and **-ών** (stressed) for most genitives."
+},
+{
+"p": "More nouns: **η μέρα** day, **η χώρα** country, **η καρέκλα** chair, **η πόρτα** door, **η θάλασσα** sea, **η γλώσσα** language, **η δουλειά** work, **η καρδιά** heart, **η ιδέα** idea, **η μητέρα** mother."
+},
+{
+"ex": [
+{
+"el": "Τι ώρα είναι;",
+"en": "What time is it?"
+},
+{
+"el": "Η πόρτα της κουζίνας δεν κλείνει.",
+"en": "The kitchen door won't close."
+},
+{
+"el": "Μιλάει τρεις γλώσσες.",
+"en": "She speaks three languages."
+},
+{
+"el": "Έχω πολλή δουλειά σήμερα.",
+"en": "I've got a lot of work today."
+},
+{
+"el": "Το χρώμα της θάλασσας είναι απίστευτο.",
+"en": "The colour of the sea is unbelievable."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Decline **η καρέκλα** in the singular",
+"a": "η καρέκλα, την καρέκλα, της καρέκλας",
+"why": "Only the genitive changes: it adds -ς."
+},
+{
+"q": "Decline **η χώρα** in the plural",
+"a": "οι χώρες, τις χώρες, των χωρών",
+"why": "-ες, -ες, -ών."
+},
+{
+"q": "Give the genitive singular of **η θάλασσα**",
+"a": "της θάλασσας",
+"why": "Add -ς; the stress stays."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Άνοιξε ___. (η πόρτα)",
+"options": [
+"τη πόρτα",
+"την πόρτα",
+"της πόρτας",
+"τις πόρτα"
+],
+"answer": "την πόρτα",
+"why": "Accusative; keep ν before π.",
+"id": "feminine-b5ac14ed"
+},
+{
+"type": "choice",
+"q": "Το κλειδί ___ (η πόρτα)",
+"options": [
+"της πόρτα",
+"της πόρτας",
+"την πόρτας",
+"των πόρτα"
+],
+"answer": "της πόρτας",
+"why": "Genitive singular adds -ς.",
+"id": "feminine-2574a32e"
+},
+{
+"type": "choice",
+"q": "Πόσες ___ μιλάς; (η γλώσσα)",
+"options": [
+"γλώσσας",
+"γλώσσες",
+"γλωσσών",
+"γλώσσοι"
+],
+"answer": "γλώσσες",
+"why": "Accusative plural -ες.",
+"id": "feminine-b1a1c98d"
+},
+{
+"type": "choice",
+"q": "Οι σημαίες των ___ (η χώρα)",
+"options": [
+"χώρες",
+"χωρών",
+"χώρων",
+"χώρας"
+],
+"answer": "χωρών",
+"why": "Genitive plural -ών.",
+"id": "feminine-245be8ea"
+},
+{
+"type": "choice",
+"q": "Έχω μια ___. (η ιδέα)",
+"options": [
+"ιδέας",
+"ιδέα",
+"ιδέες",
+"ιδεών"
+],
+"answer": "ιδέα",
+"why": "Accusative singular = nominative.",
+"id": "feminine-90a0a773"
+},
+{
+"type": "choice",
+"q": "Πάω για ___. (η δουλειά)",
+"options": [
+"δουλειά",
+"δουλειάς",
+"δουλειές",
+"δουλειών"
+],
+"answer": "δουλειά",
+"why": "After για: accusative.",
+"id": "feminine-f459d104"
+},
+{
+"type": "choice",
+"q": "Το ταξίδι κράτησε δύο ___. (η μέρα)",
+"options": [
+"μέρας",
+"μέρες",
+"μερών",
+"μέροι"
+],
+"answer": "μέρες",
+"why": "Plural -ες.",
+"id": "feminine-1faa7aee"
+},
+{
+"type": "write",
+"q": "Genitive singular of **η ώρα**",
+"answer": "της ώρας",
+"accept": [],
+"why": "Add -ς.",
+"id": "feminine-de561137"
+},
+{
+"type": "write",
+"q": "Nominative plural of **η καρδιά**",
+"answer": "οι καρδιές",
+"accept": [],
+"why": "-ές.",
+"id": "feminine-1b5fc011"
+},
+{
+"type": "write",
+"q": "Genitive plural of **η γλώσσα**",
+"answer": "των γλωσσών",
+"accept": [],
+"why": "-ών, stressed.",
+"id": "feminine-19d0f710"
+},
+{
+"type": "write",
+"q": "Accusative plural of **η καρέκλα**",
+"answer": "τις καρέκλες",
+"accept": [],
+"why": "-ες.",
+"id": "feminine-e9d8487b"
+},
+{
+"type": "write",
+"q": "Translate: \"the colour of the door\" (το χρώμα)",
+"answer": "το χρώμα της πόρτας",
+"accept": [],
+"why": "Genitive after the noun.",
+"id": "feminine-87b90fbb"
+},
+{
+"type": "order",
+"q": "\"The kitchen door is open.\"",
+"answer": "Η πόρτα της κουζίνας είναι ανοιχτή.",
+"accept": [],
+"why": "Noun + genitive, then the verb.",
+"id": "feminine-33aac4c4"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Τα θηλυκά σε -η",
+"title": "Nouns in -η",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Singular",
+"Plural"
+],
+"rows": [
+[
+"Nominative",
+"η αδερφή",
+"οι αδερφές"
+],
+[
+"Accusative",
+"την αδερφή",
+"τις αδερφές"
+],
+[
+"Genitive",
+"της αδερφής",
+"των αδερφών"
+],
+[
+"Vocative",
+"αδερφή",
+"αδερφές"
+]
+]
+}
+},
+{
+"p": "Same logic as -α. More nouns: **η φωνή** voice, **η ζωή** life, **η αρχή** beginning, **η νίκη** victory, **η κόρη** daughter, **η ψυχή** soul, **η Κυριακή** Sunday, **η Ελένη** (name)."
+},
+{
+"ex": [
+{
+"el": "Η αδερφή μου είναι δικηγόρος.",
+"en": "My sister is a lawyer."
+},
+{
+"el": "Αυτή είναι η ζωή!",
+"en": "That's the life!"
+},
+{
+"el": "Τα ρούχα της κόρης μου.",
+"en": "My daughter's clothes."
+},
+{
+"el": "Οι Κυριακές στο χωριό είναι ήσυχες.",
+"en": "Sundays in the village are quiet."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Decline **η φωνή** in the plural",
+"a": "οι φωνές, τις φωνές, των φωνών",
+"why": "-ές, -ές, -ών."
+},
+{
+"q": "Give the genitive singular of **η κόρη**",
+"a": "της κόρης",
+"why": "Add -ς."
+},
+{
+"q": "Translate: \"from the beginning\" (η αρχή)",
+"a": "από την αρχή",
+"why": "Accusative after από; keep ν before a vowel."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ξέρεις ___ μου; (η αδερφή)",
+"options": [
+"τη αδερφή",
+"την αδερφή",
+"της αδερφής",
+"τις αδερφή"
+],
+"answer": "την αδερφή",
+"why": "Keep ν before a vowel.",
+"id": "feminine-1dc90074"
+},
+{
+"type": "choice",
+"q": "Το όνομα ___ (η κόρη)",
+"options": [
+"της κόρη",
+"της κόρης",
+"την κόρης",
+"των κόρη"
+],
+"answer": "της κόρης",
+"why": "Genitive adds -ς.",
+"id": "feminine-fb42d00a"
+},
+{
+"type": "choice",
+"q": "Άκουσα ___ στο διάδρομο. (φωνή, plural)",
+"options": [
+"φωνής",
+"φωνές",
+"φωνών",
+"φωνοί"
+],
+"answer": "φωνές",
+"why": "Plural -ές.",
+"id": "feminine-81c02def"
+},
+{
+"type": "choice",
+"q": "Όλες οι ___ είναι ίδιες. (η Κυριακή)",
+"options": [
+"Κυριακής",
+"Κυριακές",
+"Κυριακών",
+"Κυριακοί"
+],
+"answer": "Κυριακές",
+"why": "Plural -ές.",
+"id": "feminine-342a6ceb"
+},
+{
+"type": "choice",
+"q": "Έτσι είναι ___. (η ζωή)",
+"options": [
+"της ζωής",
+"η ζωή",
+"τη ζωή",
+"οι ζωές"
+],
+"answer": "η ζωή",
+"why": "Subject with article.",
+"id": "feminine-3700b211"
+},
+{
+"type": "write",
+"q": "Accusative singular of **η ψυχή**",
+"answer": "την ψυχή",
+"accept": [],
+"why": "Keep ν before ψ.",
+"id": "feminine-dd82692d"
+},
+{
+"type": "write",
+"q": "Genitive plural of **η αδερφή**",
+"answer": "των αδερφών",
+"accept": [],
+"why": "-ών.",
+"id": "feminine-1c361944"
+},
+{
+"type": "write",
+"q": "Nominative plural of **η νίκη**",
+"answer": "οι νίκες",
+"accept": [],
+"why": "-ες.",
+"id": "feminine-59db0b10"
+},
+{
+"type": "write",
+"q": "Translate: \"Eleni's phone\" (το κινητό)",
+"answer": "το κινητό της Ελένης",
+"accept": [],
+"why": "Genitive of names: της Ελένης.",
+"id": "feminine-2b0c78d8"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Η πόλη, οι πόλεις",
+"title": "The learned type: η πόλη, οι πόλεις",
+"body": [
+{
+"p": "Hundreds of feminine nouns in **-η**, many of them abstract and ending in **-ση, -ξη, -ψη**, have a plural in **-εις** from older Greek:"
+},
+{
+"table": {
+"head": [
+"",
+"Singular",
+"Plural"
+],
+"rows": [
+[
+"Nominative",
+"η πόλη",
+"οι πόλεις"
+],
+[
+"Accusative",
+"την πόλη",
+"τις πόλεις"
+],
+[
+"Genitive",
+"της πόλης (πόλεως)",
+"των πόλεων"
+]
+]
+}
+},
+{
+"p": "More nouns: **η λέξη** word, **η τάξη** class, **η άσκηση** exercise, **η απάντηση** answer, **η ερώτηση** question, **η κατάσταση** situation, **η σκέψη** thought, **η γνώση** knowledge, **η δύναμη** strength, **η εξήγηση** explanation."
+},
+{
+"ex": [
+{
+"el": "Θέλω μια εξήγηση!",
+"en": "I want an explanation!"
+},
+{
+"el": "Οι ερωτήσεις ήταν εύκολες.",
+"en": "The questions were easy."
+},
+{
+"el": "Δεν ξέρω τη σημασία αυτής της λέξης.",
+"en": "I don't know the meaning of this word."
+},
+{
+"el": "Μένω στο κέντρο της πόλης.",
+"en": "I live in the city centre."
+},
+{
+"el": "Η κατάσταση είναι δύσκολη.",
+"en": "The situation is difficult."
+}
+]
+},
+{
+"p": "The genitive plural **-εων** keeps the stress on the third-last syllable: **των πόλεων, των λέξεων, των ασκήσεων, των απαντήσεων** (the stress moves forward only if the word was stressed further back: **η δύναμη → των δυνάμεων**)."
+},
+{
+"p": "The old genitive singular **-εως** survives in formal style and set phrases: **της πόλεως** in official names, **λόγω της καταστάσεως** \"because of the situation\" (formal), **εν πάση περιπτώσει** \"in any case\". In everyday Greek use **-ης**: **της κατάστασης**."
+},
+{
+"tip": "Do not mix the two plurals: **οι λέξεις** (not *οι λέξες*), **οι τάξεις** (not *οι τάξες*). But plain -η nouns like **η αδερφή** take -ες: **οι αδερφές**."
+},
+{
+"solved": [
+{
+"q": "Decline **η λέξη** in the plural",
+"a": "οι λέξεις, τις λέξεις, των λέξεων",
+"why": "-εις, -εις, -εων."
+},
+{
+"q": "Give the plural of **η απάντηση**",
+"a": "οι απαντήσεις",
+"why": "The stress moves to keep within three syllables: α-πα-ντή-σεις."
+},
+{
+"q": "Give the genitive plural of **η δύναμη**",
+"a": "των δυνάμεων",
+"why": "The stress moves forward to the third-last syllable."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Έχεις ___; (η ερώτηση, plural)",
+"options": [
+"ερωτήσες",
+"ερωτήσεις",
+"ερωτήσεων",
+"ερώτησεις"
+],
+"answer": "ερωτήσεις",
+"why": "Plural -εις; the stress moves to -τή-.",
+"id": "feminine-f879dc9c"
+},
+{
+"type": "choice",
+"q": "Ζω στο κέντρο ___. (η πόλη)",
+"options": [
+"της πόλη",
+"της πόλης",
+"των πόλης",
+"τις πόλεις"
+],
+"answer": "της πόλης",
+"why": "Genitive singular -ης.",
+"id": "feminine-48df8cf4"
+},
+{
+"type": "choice",
+"q": "Πόσες ___ έχει το κείμενο; (η λέξη)",
+"options": [
+"λέξες",
+"λέξεις",
+"λέξεων",
+"λέξης"
+],
+"answer": "λέξεις",
+"why": "Plural -εις.",
+"id": "feminine-39cc9fdc"
+},
+{
+"type": "choice",
+"q": "Η σημασία των ___ (η λέξη)",
+"options": [
+"λέξεις",
+"λέξεων",
+"λεξών",
+"λέξων"
+],
+"answer": "λέξεων",
+"why": "Genitive plural -εων.",
+"id": "feminine-f0fe2a57"
+},
+{
+"type": "choice",
+"q": "Οι ___ είναι στο τέλος του βιβλίου. (η άσκηση)",
+"options": [
+"άσκησεις",
+"ασκήσεις",
+"ασκήσες",
+"ασκήσεων"
+],
+"answer": "ασκήσεις",
+"why": "α-σκή-σεις: the stress moves forward.",
+"id": "feminine-774a2841"
+},
+{
+"type": "choice",
+"q": "Η ___ είναι σοβαρή. (κατάσταση)",
+"options": [
+"κατάστασης",
+"κατάσταση",
+"καταστάσεις",
+"καταστάσεων"
+],
+"answer": "κατάσταση",
+"why": "Subject, nominative singular.",
+"id": "feminine-880f9136"
+},
+{
+"type": "choice",
+"q": "Δε μου έδωσε καμία ___. (η εξήγηση)",
+"options": [
+"εξηγήσεις",
+"εξήγηση",
+"εξήγησης",
+"εξηγήσεων"
+],
+"answer": "εξήγηση",
+"why": "Accusative singular.",
+"id": "feminine-da3852b1"
+},
+{
+"type": "write",
+"q": "Plural of **η τάξη**",
+"answer": "οι τάξεις",
+"accept": [],
+"why": "-εις.",
+"id": "feminine-f0ffce4f"
+},
+{
+"type": "write",
+"q": "Genitive plural of **η πόλη**",
+"answer": "των πόλεων",
+"accept": [],
+"why": "-εων.",
+"id": "feminine-70eca69e"
+},
+{
+"type": "write",
+"q": "Plural of **η σκέψη**",
+"answer": "οι σκέψεις",
+"accept": [],
+"why": "-εις.",
+"id": "feminine-1082d04c"
+},
+{
+"type": "write",
+"q": "Accusative plural of **η απάντηση**",
+"answer": "τις απαντήσεις",
+"accept": [],
+"why": "-εις, stress moved forward.",
+"id": "feminine-55ebb3d0"
+},
+{
+"type": "write",
+"q": "Translate: \"the answers to the questions\"",
+"answer": "οι απαντήσεις των ερωτήσεων",
+"accept": [
+"οι απαντήσεις στις ερωτήσεις"
+],
+"why": "Genitive plural -εων, or σε + accusative.",
+"id": "feminine-161c0d8e"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Θηλυκά σε -ος",
+"title": "Feminine nouns in -ος",
+"body": [
+{
+"p": "A small but common group of nouns in **-ος** are feminine. They decline exactly like masculine **-ος** nouns but take feminine articles:"
+},
+{
+"table": {
+"head": [
+"",
+"Singular",
+"Plural"
+],
+"rows": [
+[
+"Nominative",
+"η είσοδος",
+"οι είσοδοι"
+],
+[
+"Accusative",
+"την είσοδο",
+"τις εισόδους"
+],
+[
+"Genitive",
+"της εισόδου",
+"των εισόδων"
+]
+]
+}
+},
+{
+"p": "The common ones: **η οδός** street (in addresses), **η είσοδος** entrance, **η έξοδος** exit, **η μέθοδος** method, **η περίοδος** period, **η διάμετρος** diameter, **η λεωφόρος** avenue, **η Κύπρος, η Ρόδος, η Κως, η Σάμος** (islands)."
+},
+{
+"ex": [
+{
+"el": "Οδός Ερμού 12.",
+"en": "12 Ermou Street."
+},
+{
+"el": "Η έξοδος κινδύνου είναι εκεί.",
+"en": "The emergency exit is over there."
+},
+{
+"el": "Περιμένω στην είσοδο.",
+"en": "I'm waiting at the entrance."
+},
+{
+"el": "Πάμε στη Ρόδο το καλοκαίρι.",
+"en": "We're going to Rhodes in the summer."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Give the article and accusative: \"at the exit\"",
+"a": "στην έξοδο",
+"why": "Feminine: σε + την = στην; -ος → -ο."
+},
+{
+"q": "Give the genitive singular of **η περίοδος**",
+"a": "της περιόδου",
+"why": "Like masculine -ος, with stress shift."
+},
+{
+"q": "Translate: \"on Rhodes\"",
+"a": "στη Ρόδο",
+"why": "Feminine island: στη; drop ν before ρ."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Περίμενε στ___ είσοδο.",
+"options": [
+"ον",
+"ην",
+"ο",
+"ις"
+],
+"answer": "ην",
+"why": "η είσοδος is feminine: στην είσοδο.",
+"id": "feminine-efdce563"
+},
+{
+"type": "choice",
+"q": "Μένει στ___ Κύπρο.",
+"options": [
+"ον",
+"ην",
+"ο",
+"η"
+],
+"answer": "ην",
+"why": "η Κύπρος is feminine; keep ν before κ.",
+"id": "feminine-640e5967"
+},
+{
+"type": "choice",
+"q": "Αυτή είναι ___ καλύτερη μέθοδος.",
+"options": [
+"ο",
+"η",
+"το",
+"τη"
+],
+"answer": "η",
+"why": "Feminine: η μέθοδος.",
+"id": "feminine-0f432462"
+},
+{
+"type": "choice",
+"q": "Οι ___ είναι κλειστές. (η έξοδος, plural)",
+"options": [
+"έξοδες",
+"έξοδοι",
+"εξόδους",
+"εξόδων"
+],
+"answer": "έξοδοι",
+"why": "Nominative plural -οι, with feminine article οι.",
+"id": "feminine-59a6a4e9"
+},
+{
+"type": "choice",
+"q": "Τα σήματα της ___ (η έξοδος)",
+"options": [
+"έξοδος",
+"εξόδους",
+"εξόδου",
+"έξοδο"
+],
+"answer": "εξόδου",
+"why": "Genitive singular -ου.",
+"id": "feminine-64075734"
+},
+{
+"type": "write",
+"q": "Article for **λεωφόρος** (nominative)",
+"answer": "η",
+"accept": [],
+"why": "Feminine noun in -ος.",
+"id": "feminine-d139a4a9"
+},
+{
+"type": "write",
+"q": "Accusative singular of **η είσοδος**",
+"answer": "την είσοδο",
+"accept": [],
+"why": "Keep ν before a vowel; -ος → -ο.",
+"id": "feminine-3eeee785"
+},
+{
+"type": "write",
+"q": "Translate: \"the emergency exit\" (κινδύνου)",
+"answer": "η έξοδος κινδύνου",
+"accept": [],
+"why": "Feminine -ος noun + genitive.",
+"id": "feminine-7a18b4de"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Γιαγιάδες και αλεπούδες",
+"title": "Feminines in -ά and -ού with -δες plurals",
+"body": [
+{
+"p": "Some everyday feminines, stressed on the last syllable, take **-δες** in the plural, like their masculine counterparts:"
+},
+{
+"table": {
+"head": [
+"Singular",
+"Genitive sg",
+"Plural",
+"Genitive pl"
+],
+"rows": [
+[
+"η γιαγιά grandma",
+"της γιαγιάς",
+"οι γιαγιάδες",
+"των γιαγιάδων"
+],
+[
+"η μαμά mum",
+"της μαμάς",
+"οι μαμάδες",
+"των μαμάδων"
+],
+[
+"η αλεπού fox",
+"της αλεπούς",
+"οι αλεπούδες",
+"των αλεπούδων"
+],
+[
+"η μαϊμού monkey",
+"της μαϊμούς",
+"οι μαϊμούδες",
+"των μαϊμούδων"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Οι γιαγιάδες ξέρουν τα καλύτερα φάρμακα.",
+"en": "Grandmas know the best remedies."
+},
+{
+"el": "Τα παιδιά της γιαγιάς μου.",
+"en": "My grandmother's children."
+},
+{
+"el": "Η αλεπού και τα σταφύλια.",
+"en": "The fox and the grapes."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Plural of **η γιαγιά**",
+"a": "οι γιαγιάδες",
+"why": "-δες."
+},
+{
+"q": "Genitive singular of **η αλεπού**",
+"a": "της αλεπούς",
+"why": "Add -ς."
+},
+{
+"q": "Genitive plural of **η μαμά**",
+"a": "των μαμάδων",
+"why": "-δων."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Οι ___ μου μαγειρεύουν υπέροχα. (η γιαγιά)",
+"options": [
+"γιαγιές",
+"γιαγιάδες",
+"γιαγιάς",
+"γιαγιών"
+],
+"answer": "γιαγιάδες",
+"why": "Plural -δες.",
+"id": "feminine-707dffd1"
+},
+{
+"type": "choice",
+"q": "Η ουρά της ___ (η αλεπού)",
+"options": [
+"αλεπού",
+"αλεπούς",
+"αλεπούδες",
+"αλεπούδας"
+],
+"answer": "αλεπούς",
+"why": "Genitive singular adds -ς.",
+"id": "feminine-efabdb81"
+},
+{
+"type": "choice",
+"q": "Στο πάρκο είδαμε δύο ___. (η μαϊμού)",
+"options": [
+"μαϊμούς",
+"μαϊμούδες",
+"μαϊμούδων",
+"μαϊμούες"
+],
+"answer": "μαϊμούδες",
+"why": "Plural -δες.",
+"id": "feminine-3da97fd9"
+},
+{
+"type": "write",
+"q": "Plural of **η μαμά**",
+"answer": "οι μαμάδες",
+"accept": [],
+"why": "-δες.",
+"id": "feminine-4850cecd"
+},
+{
+"type": "write",
+"q": "Genitive singular of **η γιαγιά**",
+"answer": "της γιαγιάς",
+"accept": [],
+"why": "Add -ς.",
+"id": "feminine-0e8452f3"
+},
+{
+"type": "write",
+"q": "Translate: \"grandma's food\" (το φαγητό)",
+"answer": "το φαγητό της γιαγιάς",
+"accept": [],
+"why": "Genitive singular.",
+"id": "feminine-b42ae7a5"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Η γενική πληθυντικού",
+"title": "The feminine genitive plural",
+"body": [
+{
+"p": "Most feminine nouns in **-α** and **-η** have the genitive plural stressed on the ending, **-ών**:"
+},
+{
+"p": "**η ώρα → των ωρών, η θάλασσα → των θαλασσών, η γλώσσα → των γλωσσών, η αδερφή → των αδερφών, η καρδιά → των καρδιών.**"
+},
+{
+"p": "Nouns that **keep** the stress where it is:"
+},
+{
+"list": [
+"nouns in **-άδα** and **-ίδα**: **η εβδομάδα → των εβδομάδων**, **η εφημερίδα → των εφημερίδων**, **η σελίδα → των σελίδων**, **η ελπίδα → των ελπίδων**",
+"one very common exception: **η μητέρα → των μητέρων**.",
+"Note that **η γυναίκα** follows the main rule: **των γυναικών**.",
+"the **-δες** plurals: **των γιαγιάδων**."
+]
+},
+{
+"p": "Many nouns are simply avoided in the genitive plural in speech: instead of **των καρεκλών**, people say **από τις καρέκλες** or **για τις καρέκλες**."
+},
+{
+"table": {
+"head": [
+"Noun",
+"Genitive plural",
+"Pattern"
+],
+"rows": [
+[
+"η ώρα",
+"των ωρών",
+"moves to -ών"
+],
+[
+"η λέξη",
+"των λέξεων",
+"-εων, stays"
+],
+[
+"η εβδομάδα",
+"των εβδομάδων",
+"-άδα, stays"
+],
+[
+"η σελίδα",
+"των σελίδων",
+"-ίδα, stays"
+],
+[
+"η μητέρα",
+"των μητέρων",
+"stays"
+],
+[
+"η γυναίκα",
+"των γυναικών",
+"moves to -ών"
+],
+[
+"η γιαγιά",
+"των γιαγιάδων",
+"-δων"
+]
+]
+}
+},
+{
+"solved": [
+{
+"q": "Genitive plural of **η εβδομάδα**",
+"a": "των εβδομάδων",
+"why": "Nouns in -άδα keep the stress."
+},
+{
+"q": "Genitive plural of **η θάλασσα**",
+"a": "των θαλασσών",
+"why": "Most -α nouns: -ών."
+},
+{
+"q": "Genitive plural of **η εφημερίδα**",
+"a": "των εφημερίδων",
+"why": "-ίδα nouns keep the stress."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Το τέλος των ___ (η διακοπή, plural)",
+"options": [
+"διακοπές",
+"διακοπών",
+"διακόπων",
+"διακοπής"
+],
+"answer": "διακοπών",
+"why": "-ών.",
+"id": "feminine-a9f5f528"
+},
+{
+"type": "choice",
+"q": "Ο αριθμός των ___ του χρόνου (η εβδομάδα)",
+"options": [
+"εβδομαδών",
+"εβδομάδων",
+"εβδομάδες",
+"εβδομάδας"
+],
+"answer": "εβδομάδων",
+"why": "Nouns in -άδα keep the stress: των εβδομάδων.",
+"id": "feminine-75efe269"
+},
+{
+"type": "choice",
+"q": "Οι τίτλοι των ___ (η εφημερίδα)",
+"options": [
+"εφημεριδών",
+"εφημερίδων",
+"εφημερίδες",
+"εφημερίδας"
+],
+"answer": "εφημερίδων",
+"why": "-ίδα nouns keep the stress.",
+"id": "feminine-9042ddd6"
+},
+{
+"type": "choice",
+"q": "Η γιορτή των ___ (η μητέρα)",
+"options": [
+"μητερών",
+"μητέρων",
+"μητέρες",
+"μητέρας"
+],
+"answer": "μητέρων",
+"why": "Exception: keeps the stress.",
+"id": "feminine-c2f7f777"
+},
+{
+"type": "choice",
+"q": "Τα δικαιώματα των ___ (η γυναίκα)",
+"options": [
+"γυναίκων",
+"γυναικών",
+"γυναίκες",
+"γυναίκας"
+],
+"answer": "γυναικών",
+"why": "-ών, stressed.",
+"id": "feminine-fecddaeb"
+},
+{
+"type": "choice",
+"q": "Ο αριθμός των ___ (η σελίδα)",
+"options": [
+"σελιδών",
+"σελίδων",
+"σελίδες",
+"σελίδας"
+],
+"answer": "σελίδων",
+"why": "-ίδα: keeps the stress.",
+"id": "feminine-2a7d9785"
+},
+{
+"type": "write",
+"q": "Genitive plural of **η ελπίδα**",
+"answer": "των ελπίδων",
+"accept": [],
+"why": "-ίδα: stress stays.",
+"id": "feminine-43d20af6"
+},
+{
+"type": "write",
+"q": "Genitive plural of **η χώρα**",
+"answer": "των χωρών",
+"accept": [],
+"why": "-ών.",
+"id": "feminine-828cc588"
+},
+{
+"type": "write",
+"q": "Genitive plural of **η γυναίκα**",
+"answer": "των γυναικών",
+"accept": [],
+"why": "Moves to -ών.",
+"id": "feminine-e0130feb"
+},
+{
+"type": "write",
+"q": "Genitive plural of **η καρδιά**",
+"answer": "των καρδιών",
+"accept": [],
+"why": "-ών.",
+"id": "feminine-b63a92cc"
+}
+]
+}
+]
+}
+],
+"id": "feminine",
+"el": "Θηλυκά ουσιαστικά",
+"title": "Feminine nouns",
+"span": "A1–B2",
+"blurb": "Feminine nouns in -α and -η, the learned type η πόλη / οι πόλεις, feminines in -ος, the -δες plurals of γιαγιά and αλεπού, and the tricky genitive plural.",
+"intro": [
+{
+"p": "Feminine nouns are the easiest Greek nouns: most end in **-α** or **-η**, they keep that vowel through the singular, add **-ς** only in the genitive, and take **-ες** in the plural. The only real trap is the genitive plural, where the stress often jumps to the end."
+},
+{
+"links": [
+{
+"href": "#a1-fem-neut",
+"kind": "Lesson",
+"el": "Θηλυκά και ουδέτερα",
+"title": "Feminines in -α/-η, neuters in -ο/-ι/-μα"
+},
+{
+"href": "#decl-feminine",
+"kind": "Lesson",
+"el": "Τα θηλυκά ουσιαστικά",
+"title": "Feminine nouns in full"
+},
+{
+"href": "#cards.feminine",
+"kind": "Card",
+"el": "Θηλυκά ουσιαστικά",
+"title": "Feminine nouns"
+},
+{
+"href": "#pos.noun",
+"kind": "Part of speech",
+"el": "Το ουσιαστικό",
+"title": "The noun"
+},
+{
+"href": "#klisi",
+"kind": "Drill books",
+"el": "Τετράδια κλίσης",
+"title": "Declension and conjugation drill books"
+}
+]
+}
+],
+"num": 4
+}

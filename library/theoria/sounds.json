@@ -1,0 +1,1288 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Το αλφάβητο",
+"title": "The alphabet and its sounds",
+"body": [
+{
+"p": "Greek has 24 letters. Most consonants sound as you expect; the surprises are **β** [v], **γ** (a throaty [ɣ], or [j] before e and i sounds), **δ** [ð] as in *this*, **θ** [θ] as in *think*, **χ** (like the *ch* in Scottish *loch*), **ρ** (tapped, as in Spanish)."
+},
+{
+"table": {
+"head": [
+"Letter",
+"Name",
+"Sound",
+"Everyday word"
+],
+"rows": [
+[
+"Α α",
+"άλφα",
+"a (father)",
+"**α**μάξι car"
+],
+[
+"Β β",
+"βήτα",
+"v",
+"**β**ράδυ evening"
+],
+[
+"Γ γ",
+"γάμα",
+"ɣ; y before ε, ι",
+"**γ**άλα milk, **γ**ειά hi"
+],
+[
+"Δ δ",
+"δέλτα",
+"th (this)",
+"**δ**ουλειά work"
+],
+[
+"Ε ε",
+"έψιλον",
+"e (pet)",
+"**ε**ντάξει OK"
+],
+[
+"Ζ ζ",
+"ζήτα",
+"z",
+"**ζ**έστη heat"
+],
+[
+"Η η",
+"ήτα",
+"i",
+"**η**μέρα day"
+],
+[
+"Θ θ",
+"θήτα",
+"th (think)",
+"**θ**άλασσα sea"
+],
+[
+"Ι ι",
+"γιώτα",
+"i",
+"**ι**δέα idea"
+],
+[
+"Κ κ",
+"κάπα",
+"k",
+"**κ**αφές coffee"
+],
+[
+"Λ λ",
+"λάμδα",
+"l",
+"**λ**εφτά money"
+],
+[
+"Μ μ",
+"μι",
+"m",
+"**μ**ωρό baby"
+],
+[
+"Ν ν",
+"νι",
+"n",
+"**ν**ερό water"
+],
+[
+"Ξ ξ",
+"ξι",
+"ks",
+"**ξ**έρω I know"
+],
+[
+"Ο ο",
+"όμικρον",
+"o (lot)",
+"**ο**δός street"
+],
+[
+"Π π",
+"πι",
+"p",
+"**π**αρέα company"
+],
+[
+"Ρ ρ",
+"ρο",
+"tapped r",
+"**ρ**ε! hey!"
+],
+[
+"Σ σ ς",
+"σίγμα",
+"s (z before β, γ, δ, μ, ν, ρ)",
+"**σ**πίτι house"
+],
+[
+"Τ τ",
+"ταυ",
+"t",
+"**τ**ώρα now"
+],
+[
+"Υ υ",
+"ύψιλον",
+"i",
+"**ύ**πνος sleep"
+],
+[
+"Φ φ",
+"φι",
+"f",
+"**φ**ίλος friend"
+],
+[
+"Χ χ",
+"χι",
+"kh (loch)",
+"**χ**ρόνια years"
+],
+[
+"Ψ ψ",
+"ψι",
+"ps",
+"**ψ**ωμί bread"
+],
+[
+"Ω ω",
+"ωμέγα",
+"o",
+"**ώ**ρα hour"
+]
+]
+}
+},
+{
+"tip": "Sigma is written **ς** at the end of a word and **σ** everywhere else: **σεισμός** \"earthquake\". Η, Ι, Υ (and the pairs ΕΙ, ΟΙ, ΥΙ) all sound [i]; Ο and Ω both sound [o]. Spelling tells you about grammar and history, not sound."
+},
+{
+"solved": [
+{
+"q": "Read aloud and transliterate: **καφές, θάλασσα, χρόνια**",
+"a": "kaFES, THAlasa, HROnia",
+"why": "κ = k, φ = f, θ = th (think), double σσ is one [s], χ = kh, ι before a vowel glides into a y sound."
+},
+{
+"q": "Why is **σ** written differently in **σεισμός**?",
+"a": "The last sigma is final: σεισμό**ς**",
+"why": "Use ς only at the very end of a word; the first two sigmas are inside the word."
+},
+{
+"q": "How is the σ in **κόσμος** pronounced?",
+"a": "[z]: [ˈkozmos]",
+"why": "Before β, γ, δ, μ, ν, ρ the letter σ is voiced: κόσμος, Σμύρνη, σβήνω."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Which letter sounds like *th* in English *this*?",
+"options": [
+"θ",
+"δ",
+"τ",
+"ζ"
+],
+"answer": "δ",
+"why": "δ is the soft *th* of *this*; θ is the hard *th* of *think*.",
+"id": "sounds-d79ba103"
+},
+{
+"type": "choice",
+"q": "Which spelling does NOT sound [i]?",
+"options": [
+"η",
+"υ",
+"οι",
+"ε"
+],
+"answer": "ε",
+"why": "ε sounds [e]; η, ι, υ, ει, οι and υι all sound [i].",
+"id": "sounds-dee25a9f"
+},
+{
+"type": "choice",
+"q": "Which word ends with the correct sigma?",
+"options": [
+"σπίτισ",
+"καφές",
+"λεφτάσ",
+"ςπίτι"
+],
+"answer": "καφές",
+"why": "Final sigma is ς; at the start or inside a word use σ.",
+"id": "sounds-66f1ff2f"
+},
+{
+"type": "choice",
+"q": "How does **γ** sound in **γεια**?",
+"options": [
+"like *g* in *go*",
+"like *y* in *yes*",
+"like *ch* in *loch*",
+"silent"
+],
+"answer": "like *y* in *yes*",
+"why": "Before e and i sounds (ε, αι, η, ι, υ, ει, οι) γ sounds like y.",
+"id": "sounds-ce599e0a"
+},
+{
+"type": "choice",
+"q": "Which letter sounds [ps]?",
+"options": [
+"ξ",
+"ψ",
+"φ",
+"σ"
+],
+"answer": "ψ",
+"why": "ψ = ps (ψωμί), ξ = ks (ξέρω).",
+"id": "sounds-1bc6d86e"
+},
+{
+"type": "choice",
+"q": "Which pair makes the same sound?",
+"options": [
+"β, μπ",
+"ο, ω",
+"ε, η",
+"δ, θ"
+],
+"answer": "ο, ω",
+"why": "Ο and ω are both [o].",
+"id": "sounds-34d3dfdf"
+},
+{
+"type": "write",
+"q": "Write the Greek letter for the sound **ks**",
+"answer": "ξ",
+"accept": [
+"Ξ"
+],
+"why": "ξ as in ξέρω \"I know\", ταξί \"taxi\".",
+"id": "sounds-394f239f"
+},
+{
+"type": "write",
+"q": "Write the Greek letter for the sound **f**",
+"answer": "φ",
+"accept": [
+"Φ"
+],
+"why": "φ as in φίλος \"friend\".",
+"id": "sounds-0a0e0a73"
+},
+{
+"type": "write",
+"q": "Write the lower-case final form of sigma",
+"answer": "ς",
+"accept": [],
+"why": "Used only at the end of a word: καλός.",
+"id": "sounds-7bb768b7"
+},
+{
+"type": "write",
+"q": "Write the word for \"bread\" (ψ-ω-μ-ί)",
+"answer": "ψωμί",
+"accept": [],
+"why": "ψ = ps, ω = o, μ = m, ί = i with the stress mark.",
+"id": "sounds-d68268f5"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Δίψηφα: δύο γράμματα, ένας ήχος",
+"title": "Letter pairs that make one sound",
+"body": [
+{
+"p": "Some pairs of letters are read as a single sound. Learn this table and you can read anything."
+},
+{
+"table": {
+"head": [
+"Pair",
+"Sound",
+"Example"
+],
+"rows": [
+[
+"αι",
+"e (like ε)",
+"και and, **αί**μα blood"
+],
+[
+"ει, οι, υι",
+"i",
+"**εί**μαι I am, **οι**κογένεια family"
+],
+[
+"ου",
+"u",
+"**ου**ρανός sky, π**ού** where"
+],
+[
+"αυ",
+"av / af",
+"**αυ**τοκίνητο car (af), **αύ**ριο tomorrow (av)"
+],
+[
+"ευ",
+"ev / ef",
+"**ευ**χαριστώ thank you (ef), **Ευ**ρώπη (ev)"
+],
+[
+"μπ",
+"b (start), mb (middle)",
+"**μπ**ύρα beer, ο**μπ**ρέλα umbrella"
+],
+[
+"ντ",
+"d (start), nd (middle)",
+"**ντ**ομάτα tomato, κο**ντ**ά near"
+],
+[
+"γκ, γγ",
+"g (start), ng (middle)",
+"**γκ**αράζ garage, Α**γγ**λία England"
+],
+[
+"τσ",
+"ts",
+"**τσ**άι tea"
+],
+[
+"τζ",
+"dz",
+"**τζ**άμι window pane"
+]
+]
+}
+},
+{
+"p": "**αυ** and **ευ** sound **af/ef** before the voiceless sounds θ, κ, ξ, π, σ, τ, φ, χ, ψ, and **av/ev** before vowels and all other consonants: **αυ**τός [af-], **αύ**ριο [av-], **ευ**χαριστώ [ef-], **Ευ**ρώπη [ev-]."
+},
+{
+"p": "A diaeresis (two dots, διαλυτικά) breaks a pair: **κορο**ϊ**δεύω** [ko-ro-i-] \"I tease\", **τσάι** [tsa-i] \"tea\" (here the stress mark already separates α and ι, so no dots are needed), **Μάιος** \"May\"."
+},
+{
+"tip": "In **μπ, ντ, γκ** the nasal (m, n, ng) is often barely heard in fast speech, even in the middle of a word: many speakers say [kodá] for κοντά. Both are correct."
+},
+{
+"solved": [
+{
+"q": "Read **αυτός, αύριο, ευχαριστώ**",
+"a": "afTOS, AVrio, efharisTO",
+"why": "αυ/ευ = af/ef before voiceless τ, χ; av/ev before ρ and vowels."
+},
+{
+"q": "Read **μπαμπάς** and **ντομάτα**",
+"a": "baBAS, doMAta",
+"why": "μπ at the start = b, ντ at the start = d."
+},
+{
+"q": "Why does **τσάι** have no diaeresis but **κοροϊδεύω** does?",
+"a": "In τσάι the stress mark on ά already shows that α and ι are separate",
+"why": "The dots are needed only when the first vowel is unstressed: κορο-ϊ-δεύω, but τσά-ι, Μά-ι-ος."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "How is **αι** pronounced in **και**?",
+"options": [
+"ai",
+"e",
+"i",
+"a"
+],
+"answer": "e",
+"why": "αι = e: και [ke], είμαι [ime].",
+"id": "sounds-9c2f78aa"
+},
+{
+"type": "choice",
+"q": "How is **ευ** pronounced in **ευχαριστώ**?",
+"options": [
+"ev",
+"ef",
+"eu",
+"iu"
+],
+"answer": "ef",
+"why": "Before the voiceless χ, ευ = ef.",
+"id": "sounds-0533c68d"
+},
+{
+"type": "choice",
+"q": "How is **αυ** pronounced in **αύριο**?",
+"options": [
+"af",
+"av",
+"au",
+"o"
+],
+"answer": "av",
+"why": "Before ρ, αυ = av.",
+"id": "sounds-d4f63345"
+},
+{
+"type": "choice",
+"q": "Which word starts with a [b] sound?",
+"options": [
+"βάρκα",
+"μπύρα",
+"πόρτα",
+"φίλος"
+],
+"answer": "μπύρα",
+"why": "μπ at the start = b; β is [v].",
+"id": "sounds-52c72954"
+},
+{
+"type": "choice",
+"q": "What does the diaeresis in **κοροϊδεύω** tell you?",
+"options": [
+"the ι is stressed",
+"ο and ι are read separately",
+"the ι is silent",
+"the word is foreign"
+],
+"answer": "ο and ι are read separately",
+"why": "Without the dots οι would be read [i].",
+"id": "sounds-b496cc7d"
+},
+{
+"type": "choice",
+"q": "Which pair sounds [u]?",
+"options": [
+"οι",
+"ου",
+"υι",
+"ευ"
+],
+"answer": "ου",
+"why": "ου = u (ουρανός, πού).",
+"id": "sounds-df0444c0"
+},
+{
+"type": "write",
+"q": "Write the pair that spells the sound **ts**",
+"answer": "τσ",
+"accept": [],
+"why": "τσάι \"tea\", τσάντα \"bag\".",
+"id": "sounds-5ac4bf41"
+},
+{
+"type": "write",
+"q": "Write the pair that spells the sound **u**",
+"answer": "ου",
+"accept": [],
+"why": "ουρανός, μου, πού.",
+"id": "sounds-f6d0ac9a"
+},
+{
+"type": "write",
+"q": "Write the pair that spells **d** at the start of a word",
+"answer": "ντ",
+"accept": [],
+"why": "ντομάτα, ντους, ντροπή.",
+"id": "sounds-2a9ac596"
+},
+{
+"type": "write",
+"q": "Write the pair that spells **g** at the start of a word",
+"answer": "γκ",
+"accept": [],
+"why": "γκαράζ, γκρίζος.",
+"id": "sounds-4a6fb21e"
+}
+]
+}
+]
+},
+{
+"level": "A1",
+"el": "Ο τόνος",
+"title": "The stress mark",
+"body": [
+{
+"p": "Every word of two or more syllables carries a stress mark (΄) on the stressed vowel: **ώρα, καφές, θάλασσα**. One-syllable words normally have none: **και, να, θα, το, μου**. The stress can fall only on one of the **last three** syllables."
+},
+{
+"table": {
+"head": [
+"Last syllable",
+"Second-last",
+"Third-last"
+],
+"rows": [
+[
+"καφ**έ**ς coffee",
+"σπ**ί**τι house",
+"θ**ά**λασσα sea"
+],
+[
+"νερ**ό** water",
+"**ώ**ρα hour",
+"**ά**νθρωπος person"
+],
+[
+"ευχαριστ**ώ** thank you",
+"φ**ί**λος friend",
+"τηλ**έ**φωνο phone"
+]
+]
+}
+},
+{
+"p": "The mark goes on the vowel, never on a consonant. On a pair it goes on the **second** letter: **είμαι, ούτε, αύριο, εύκολο** \"easy\". On a capital it goes before the letter: **Άννα, Έλα!** On words written all in capitals it is left out: **ΕΞΟΔΟΣ** \"EXIT\"."
+},
+{
+"p": "The stress changes meaning, so never leave it out:"
+},
+{
+"ex": [
+{
+"el": "πότε; / ποτέ",
+"en": "when? / never"
+},
+{
+"el": "γέρος / γερός",
+"en": "old man / strong"
+},
+{
+"el": "νόμος / νομός",
+"en": "law / prefecture"
+},
+{
+"el": "άλλα / αλλά",
+"en": "other things / but"
+}
+]
+},
+{
+"tip": "Exceptions with a stress mark on one syllable: **πού** and **πώς** (questions \"where? how?\") versus **που** and **πως** (\"that, who\" and \"that\"); **ή** \"or\" versus **η** \"the\"; and a weak pronoun after a stressed word that needs a second accent (see next section)."
+},
+{
+"solved": [
+{
+"q": "Put the stress mark on **θαλασσα** (stress on the first syllable)",
+"a": "θάλασσα",
+"why": "Third-last syllable; the mark goes on the vowel α."
+},
+{
+"q": "Correct the stress mark in **ευκολο** (stress on ευ)",
+"a": "εύκολο",
+"why": "On a vowel pair the mark goes on the second letter: ε**ύ**."
+},
+{
+"q": "Why do **που** and **πού** differ?",
+"a": "πού; = where?; που = who, which, that",
+"why": "The accent marks the question word, though both are one syllable."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Which word is correctly marked?",
+"options": [
+"Ευρωπη",
+"Ευρώπη",
+"Εύρωπη",
+"Ευρωπή"
+],
+"answer": "Ευρώπη",
+"why": "Stress on the second-last syllable: Ευ-ρώ-πη.",
+"id": "sounds-f75e4322"
+},
+{
+"type": "choice",
+"q": "Where can the stress fall in a Greek word?",
+"options": [
+"anywhere",
+"only on one of the last three syllables",
+"only on the last syllable",
+"only on the first syllable"
+],
+"answer": "only on one of the last three syllables",
+"why": "Greek stress is limited to the last three syllables.",
+"id": "sounds-721d018f"
+},
+{
+"type": "choice",
+"q": "Which one means \"never\"?",
+"options": [
+"πότε",
+"ποτέ",
+"πότε;",
+"ποτε"
+],
+"answer": "ποτέ",
+"why": "ποτέ = never; πότε; = when?",
+"id": "sounds-3f2ceb1e"
+},
+{
+"type": "choice",
+"q": "Which is the question \"Where are you?\"",
+"options": [
+"Που είσαι;",
+"Πού είσαι;",
+"Πού είσαι.",
+"Που είσαι"
+],
+"answer": "Πού είσαι;",
+"why": "The question word πού takes an accent and the question mark is ;.",
+"id": "sounds-d88612ae"
+},
+{
+"type": "choice",
+"q": "Which is correct for \"or\"?",
+"options": [
+"η",
+"ή",
+"ἤ",
+"οι"
+],
+"answer": "ή",
+"why": "ή \"or\" is accented; η is the feminine article.",
+"id": "sounds-c4b6d072"
+},
+{
+"type": "choice",
+"q": "\"Αννα\" with the stress on the first syllable is written:",
+"options": [
+"Αννά",
+"Άννα",
+"´Αννα",
+"Αννα"
+],
+"answer": "Άννα",
+"why": "On a capital the mark goes before and above the letter: Ά.",
+"id": "sounds-5c451924"
+},
+{
+"type": "write",
+"q": "Add the stress mark: **τηλεφωνο** (stress on -λε-)",
+"answer": "τηλέφωνο",
+"accept": [],
+"why": "Third-last syllable: τη-λέ-φω-νο.",
+"id": "sounds-ae9f77ae"
+},
+{
+"type": "write",
+"q": "Add the stress mark: **ανθρωπος** (stress on the first syllable)",
+"answer": "άνθρωπος",
+"accept": [],
+"why": "Third-last syllable.",
+"id": "sounds-765398c5"
+},
+{
+"type": "write",
+"q": "Add the stress mark: **ευχαριστω** (stress on the last syllable)",
+"answer": "ευχαριστώ",
+"accept": [],
+"why": "Last syllable: ευ-χα-ρι-στώ.",
+"id": "sounds-fb4d8e64"
+},
+{
+"type": "write",
+"q": "Add the stress mark: **ουτε** (stress on the first syllable)",
+"answer": "ούτε",
+"accept": [],
+"why": "On the pair ου the mark goes on υ.",
+"id": "sounds-d1456947"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ο τόνος που μετακινείται",
+"title": "Stress that moves, and the double accent",
+"body": [
+{
+"p": "When a word gets longer at the end, the stress may have to move forward to stay within the last three syllables:"
+},
+{
+"ex": [
+{
+"el": "ο άνθρωπος → του ανθρώπου",
+"en": "the person → of the person"
+},
+{
+"el": "το τηλέφωνο → τα τηλέφωνα → των τηλεφώνων",
+"en": "phone → phones → of the phones"
+},
+{
+"el": "το πρόβλημα → τα προβλήματα",
+"en": "problem → problems"
+},
+{
+"el": "η θάλασσα → των θαλασσών",
+"en": "sea → of the seas"
+}
+]
+},
+{
+"p": "The second rule is the **double accent**. A weak pronoun (μου, σου, του, της, το, μας, σας, τους...) after a word stressed on the third-last syllable makes four syllables after the stress, which Greek does not allow. So the word gets a second accent on its last syllable:"
+},
+{
+"ex": [
+{
+"el": "το αυτοκίνητό μου",
+"en": "my car"
+},
+{
+"el": "ο δάσκαλός μας",
+"en": "our teacher"
+},
+{
+"el": "Διάβασέ το!",
+"en": "Read it!"
+},
+{
+"el": "Τηλεφώνησέ μου.",
+"en": "Call me."
+}
+]
+},
+{
+"p": "If the word is stressed on the second-last syllable, nothing changes: **το σπίτι μου, η μητέρα σου, Πες μου.**"
+},
+{
+"solved": [
+{
+"q": "Put a weak pronoun after **το πρόσωπο** \"face\": \"his face\"",
+"a": "το πρόσωπό του",
+"why": "πρόσωπο is stressed on the third-last syllable, so it takes a second accent before του."
+},
+{
+"q": "Make the genitive singular of **ο άνθρωπος**",
+"a": "του ανθρώπου",
+"why": "The ending -ου lengthens the word; the stress moves to the second-last syllable."
+},
+{
+"q": "Does **το όνομα** + **σου** take a second accent?",
+"a": "Yes: το όνομά σου",
+"why": "ό-νο-μα is stressed on the third-last syllable."
+},
+{
+"q": "Does **η μητέρα** + **μου** take a second accent?",
+"a": "No: η μητέρα μου",
+"why": "μη-τέ-ρα is stressed on the second-last syllable."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "\"your phone\" (informal)",
+"options": [
+"το τηλέφωνο σου",
+"το τηλέφωνό σου",
+"το τηλεφωνό σου",
+"το τηλέφωνο σού"
+],
+"answer": "το τηλέφωνό σου",
+"why": "τη-λέ-φω-νο + σου needs a second accent on the last syllable.",
+"id": "sounds-c8f52d3b"
+},
+{
+"type": "choice",
+"q": "\"my house\"",
+"options": [
+"το σπίτι μου",
+"το σπίτί μου",
+"το σπιτί μου",
+"το σπίτι μού"
+],
+"answer": "το σπίτι μου",
+"why": "σπί-τι is stressed on the second-last syllable: no second accent.",
+"id": "sounds-0104ce36"
+},
+{
+"type": "choice",
+"q": "Genitive plural of **το τηλέφωνο**",
+"options": [
+"των τηλέφωνων",
+"των τηλεφώνων",
+"των τηλεφωνών",
+"των τηλεφώνον"
+],
+"answer": "των τηλεφώνων",
+"why": "The stress moves to the second-last syllable: τη-λε-φώ-νων.",
+"id": "sounds-e53af55b"
+},
+{
+"type": "choice",
+"q": "\"Read it!\"",
+"options": [
+"Διάβασε το!",
+"Διάβασέ το!",
+"Διαβάσε το!",
+"Διάβασε τό!"
+],
+"answer": "Διάβασέ το!",
+"why": "Δι-ά-βα-σε is stressed on the third-last syllable, so it takes a second accent before το.",
+"id": "sounds-caf6a71d"
+},
+{
+"type": "choice",
+"q": "\"our teacher\" (male)",
+"options": [
+"ο δάσκαλος μας",
+"ο δάσκαλός μας",
+"ο δασκάλος μας",
+"ο δάσκαλος μάς"
+],
+"answer": "ο δάσκαλός μας",
+"why": "Third-last stress + μας: second accent on the last syllable.",
+"id": "sounds-4570a9d2"
+},
+{
+"type": "write",
+"q": "\"my car\" (το αυτοκίνητο)",
+"answer": "το αυτοκίνητό μου",
+"accept": [],
+"why": "αυ-το-κί-νη-το + μου: second accent on -τό.",
+"id": "sounds-20c7438f"
+},
+{
+"type": "write",
+"q": "\"your name\" (informal, το όνομα)",
+"answer": "το όνομά σου",
+"accept": [],
+"why": "Third-last stress: όνομά σου.",
+"id": "sounds-fccf718e"
+},
+{
+"type": "write",
+"q": "Genitive singular of **ο άνθρωπος**",
+"answer": "του ανθρώπου",
+"accept": [],
+"why": "The stress moves forward when the ending grows.",
+"id": "sounds-ee28650b"
+},
+{
+"type": "write",
+"q": "\"Call me!\" (informal, τηλεφώνησε)",
+"answer": "Τηλεφώνησέ μου!",
+"accept": [
+"Τηλεφώνησέ μου"
+],
+"why": "Τη-λε-φώ-νη-σε is stressed on the third-last syllable: Τηλεφώνησέ μου.",
+"id": "sounds-77a41058"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Το τελικό -ν",
+"title": "When to keep the final -ν",
+"body": [
+{
+"p": "The words **την, στην, τον, στον, δεν, μην** and **έναν** (and **αυτήν** in the accusative) can lose their final **-ν**. The rule for **τη(ν), στη(ν), δε(ν), μη(ν)**:"
+},
+{
+"list": [
+"**Keep the ν** before a vowel and before **κ, π, τ, ξ, ψ, γκ, μπ, ντ, τσ, τζ**.",
+"**Drop it** before all other consonants: β, γ, δ, ζ, θ, λ, μ, ν, ρ, σ, φ, χ."
+]
+},
+{
+"ex": [
+{
+"el": "την Αθήνα, την κόρη, την πόρτα",
+"en": "Athens, the daughter, the door (keep)"
+},
+{
+"el": "τη Μαρία, τη θάλασσα, τη ζωή",
+"en": "Maria, the sea, life (drop)"
+},
+{
+"el": "Δεν ξέρω. / Δε θέλω.",
+"en": "I don't know. / I don't want to."
+},
+{
+"el": "Μην τρέχεις! / Μη φωνάζεις!",
+"en": "Don't run! / Don't shout!"
+}
+]
+},
+{
+"p": "The masculine **τον** and **στον** keep their **-ν** always in careful writing (**τον φίλο μου**), so you never confuse them with the neuter **το**. **Δεν** is so often written in full that **δεν θέλω** is also accepted; the official school grammar gives **δε θέλω**."
+},
+{
+"tip": "A common slip: **τη μπλούζα** and **τη ντομάτα** look natural but are wrong. Before μπ and ντ keep the ν: **την μπλούζα**, **την ντομάτα**."
+},
+{
+"solved": [
+{
+"q": "**τη(ν) θάλασσα**: keep or drop?",
+"a": "τη θάλασσα",
+"why": "θ is not on the keep list."
+},
+{
+"q": "**δε(ν) καταλαβαίνω**: keep or drop?",
+"a": "δεν καταλαβαίνω",
+"why": "Keep the ν before κ."
+},
+{
+"q": "**στη(ν) Ελλάδα**: keep or drop?",
+"a": "στην Ελλάδα",
+"why": "Keep the ν before a vowel."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "\"I'm going to Thessaloniki.\"",
+"options": [
+"Πάω στην Θεσσαλονίκη.",
+"Πάω στη Θεσσαλονίκη.",
+"Πάω στο Θεσσαλονίκη.",
+"Πάω σε Θεσσαλονίκη."
+],
+"answer": "Πάω στη Θεσσαλονίκη.",
+"why": "θ is not on the keep list: στη Θεσσαλονίκη.",
+"id": "sounds-12f41115"
+},
+{
+"type": "choice",
+"q": "\"I don't understand.\"",
+"options": [
+"Δε καταλαβαίνω.",
+"Δεν καταλαβαίνω.",
+"Μην καταλαβαίνω.",
+"Δεν καταλαβαίνω;"
+],
+"answer": "Δεν καταλαβαίνω.",
+"why": "Keep ν before κ.",
+"id": "sounds-55fe9ffe"
+},
+{
+"type": "choice",
+"q": "\"Don't touch it!\"",
+"options": [
+"Μην το πιάνεις!",
+"Μη το πιάνεις!",
+"Δεν το πιάνεις!",
+"Μη το πιάνεις."
+],
+"answer": "Μην το πιάνεις!",
+"why": "Keep ν before τ.",
+"id": "sounds-99d29b21"
+},
+{
+"type": "choice",
+"q": "\"I saw Maria.\"",
+"options": [
+"Είδα την Μαρία.",
+"Είδα τη Μαρία.",
+"Είδα το Μαρία.",
+"Είδα τον Μαρία."
+],
+"answer": "Είδα τη Μαρία.",
+"why": "μ is not on the keep list.",
+"id": "sounds-32646d77"
+},
+{
+"type": "choice",
+"q": "\"Close the door.\"",
+"options": [
+"Κλείσε τη πόρτα.",
+"Κλείσε την πόρτα.",
+"Κλείσε το πόρτα.",
+"Κλείσε στην πόρτα."
+],
+"answer": "Κλείσε την πόρτα.",
+"why": "Keep ν before π.",
+"id": "sounds-24fd4768"
+},
+{
+"type": "choice",
+"q": "\"the blouse\" (accusative)",
+"options": [
+"τη μπλούζα",
+"την μπλούζα",
+"το μπλούζα",
+"τι μπλούζα"
+],
+"answer": "την μπλούζα",
+"why": "Keep ν before μπ.",
+"id": "sounds-a8c3af5e"
+},
+{
+"type": "write",
+"q": "Article + noun: τη(ν) + **ώρα**",
+"answer": "την ώρα",
+"accept": [],
+"why": "Keep before a vowel.",
+"id": "sounds-83779dab"
+},
+{
+"type": "write",
+"q": "Article + noun: τη(ν) + **νύχτα**",
+"answer": "τη νύχτα",
+"accept": [],
+"why": "ν is not on the keep list.",
+"id": "sounds-ebe2c9b0"
+},
+{
+"type": "write",
+"q": "Article + noun: τη(ν) + **ταβέρνα**",
+"answer": "την ταβέρνα",
+"accept": [],
+"why": "Keep before τ.",
+"id": "sounds-b8b3a68b"
+},
+{
+"type": "write",
+"q": "Negative: δε(ν) + **ξέρω**",
+"answer": "δεν ξέρω",
+"accept": [],
+"why": "Keep before ξ.",
+"id": "sounds-52546330"
+},
+{
+"type": "write",
+"q": "Negative: μη(ν) + **ανησυχείς**",
+"answer": "μην ανησυχείς",
+"accept": [],
+"why": "Keep before a vowel.",
+"id": "sounds-5171991c"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Απόστροφος και συναίρεση",
+"title": "The apostrophe and dropped vowels in speech",
+"body": [
+{
+"p": "In everyday speech, when two vowels meet, one may drop. Writing shows it with an apostrophe (΄) where the vowel was lost:"
+},
+{
+"ex": [
+{
+"el": "το έχω → τ' έχω",
+"en": "I have it"
+},
+{
+"el": "σε αγαπώ → σ' αγαπώ",
+"en": "I love you"
+},
+{
+"el": "μου είπε → μου 'πε",
+"en": "he told me"
+},
+{
+"el": "θα έρθω → θα 'ρθω",
+"en": "I'll come"
+},
+{
+"el": "από εδώ → απ' εδώ",
+"en": "from here"
+},
+{
+"el": "πες το → πες το (no change)",
+"en": "say it"
+}
+]
+},
+{
+"p": "Common fixed forms: **σ' αγαπώ**, **τ' όνομά σου**, **μ' αρέσει** (from **μου αρέσει** \"I like it\"), **απ' όλα** \"of everything\", **γι' αυτό** \"that's why\". **Γι'** before a vowel stands for **για**: **γι' αυτό, γι' εσένα**."
+},
+{
+"p": "If the dropped vowel carried the stress, what is left is usually one syllable and takes no accent: **θα 'ρθω**, **μου 'πες** \"you told me\"."
+},
+{
+"tip": "These forms are informal but perfectly normal in messages, songs and dialogue. In formal writing prefer the full forms: **το έχω, θα έρθω, μου είπε**. Γι' αυτό and σ' αγαπώ are fine everywhere."
+},
+{
+"solved": [
+{
+"q": "Write the spoken form of **θα έρθω**",
+"a": "θα 'ρθω",
+"why": "The initial έ of έρθω drops; the apostrophe marks it."
+},
+{
+"q": "Write the full form of **γι' αυτό**",
+"a": "για αυτό",
+"why": "γι' is the elided form of για before a vowel; γι' αυτό \"that's why\" is standard."
+},
+{
+"q": "Write the full form of **μ' αρέσει**",
+"a": "μου αρέσει",
+"why": "In speech μου loses its vowel before α."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Which is the elided form of **σε αγαπώ**?",
+"options": [
+"σε 'γαπώ",
+"σ' αγαπώ",
+"σ'αγαπώ'",
+"σεαγαπώ"
+],
+"answer": "σ' αγαπώ",
+"why": "The ε of σε drops before the vowel α: σ' αγαπώ.",
+"id": "sounds-c1650ad4"
+},
+{
+"type": "choice",
+"q": "\"That's why I came.\"",
+"options": [
+"Γι' αυτό ήρθα.",
+"Γιαυτό ήρθα.",
+"Γι αυτό ήρθα.",
+"Γι' αυτό' ήρθα."
+],
+"answer": "Γι' αυτό ήρθα.",
+"why": "Γι' αυτό is the standard spelling.",
+"id": "sounds-35b5e40b"
+},
+{
+"type": "choice",
+"q": "\"He told me.\" (spoken)",
+"options": [
+"Μου 'πε.",
+"Μου πε.",
+"Μ' είπε.",
+"Μου 'πέ."
+],
+"answer": "Μου 'πε.",
+"why": "The ει of είπε drops and the apostrophe goes before the remaining syllables.",
+"id": "sounds-6664136d"
+},
+{
+"type": "choice",
+"q": "Which is the full form of **τ' όνομά σου**?",
+"options": [
+"το όνομα σου",
+"το όνομά σου",
+"τα όνομά σου",
+"τ' όνομα σου"
+],
+"answer": "το όνομά σου",
+"why": "The article το elides before ό; the double accent stays.",
+"id": "sounds-915692da"
+},
+{
+"type": "write",
+"q": "Full form of **θα 'ρθεις**",
+"answer": "θα έρθεις",
+"accept": [],
+"why": "The dropped vowel is έ.",
+"id": "sounds-16178c64"
+},
+{
+"type": "write",
+"q": "Full form of **απ' εδώ**",
+"answer": "από εδώ",
+"accept": [],
+"why": "από loses its ο before ε.",
+"id": "sounds-be9839a3"
+},
+{
+"type": "write",
+"q": "Spoken form of **το έχω** (with apostrophe)",
+"answer": "τ' έχω",
+"accept": [],
+"why": "The ο of το drops before έ.",
+"id": "sounds-29f53a6d"
+}
+]
+}
+]
+}
+],
+"id": "sounds",
+"el": "Γράμματα, ήχοι και τόνος",
+"title": "Letters, sounds and stress",
+"span": "A1–B1",
+"part": "Μέρος Α΄ | Γράμματα και ήχοι | Letters and sounds",
+"blurb": "The 24 letters, the letter pairs that make one sound, where the stress falls and the spelling rules that change a word's look but not its sound.",
+"intro": [
+{
+"p": "Greek spelling looks hard because one sound can be written several ways (the sound [i] has six spellings), but reading is easy: almost every letter or letter pair has one pronunciation. Learn the pairs once and you can read any sign, menu or text message aloud."
+},
+{
+"p": "This chapter gives the sounds, the letter pairs, the rules of the stress mark (τόνος) and the small spelling changes you meet every day: the final -ν, the apostrophe, and the stress that moves when a word gets longer."
+},
+{
+"links": [
+{
+"href": "#a1-alphabet",
+"kind": "Lesson",
+"el": "Το αλφάβητο",
+"title": "The alphabet"
+},
+{
+"href": "#a1-digraphs",
+"kind": "Lesson",
+"el": "Δίψηφα και φωνήεντα",
+"title": "Vowels and letter pairs"
+},
+{
+"href": "#a1-stress",
+"kind": "Lesson",
+"el": "Ο τόνος",
+"title": "Stress and the accent mark"
+},
+{
+"href": "#cards.alphabet",
+"kind": "Card",
+"el": "Το αλφάβητο",
+"title": "The alphabet"
+},
+{
+"href": "#cards.digraphs",
+"kind": "Card",
+"el": "Δίψηφα και συνδυασμοί",
+"title": "Letter pairs"
+},
+{
+"href": "#cards.stress",
+"kind": "Card",
+"el": "Ο τόνος",
+"title": "Stress and the accent mark"
+}
+]
+}
+],
+"num": 1
+}

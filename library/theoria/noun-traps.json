@@ -1,0 +1,1067 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Ο ή η γιατρός",
+"title": "Nouns that are both masculine and feminine",
+"body": [
+{
+"p": "Many nouns for jobs and roles keep one form for both sexes. The **article** (and any adjective) tells you whether you mean a man or a woman:"
+},
+{
+"table": {
+"head": [
+"Man",
+"Woman",
+"Meaning"
+],
+"rows": [
+[
+"ο γιατρός",
+"η γιατρός",
+"doctor"
+],
+[
+"ο δικηγόρος",
+"η δικηγόρος",
+"lawyer"
+],
+[
+"ο συνάδελφος",
+"η συνάδελφος",
+"colleague"
+],
+[
+"ο πρόεδρος",
+"η πρόεδρος",
+"president, chair"
+],
+[
+"ο σύζυγος",
+"η σύζυγος",
+"spouse (formal)"
+],
+[
+"ο φύλακας",
+"η φύλακας",
+"guard"
+],
+[
+"ο ηθοποιός",
+"η ηθοποιός",
+"actor"
+]
+]
+}
+},
+{
+"p": "The feminine keeps the masculine endings, with feminine articles and adjectives: **η γιατρός, της γιατρού, την γιατρό**; **μια καλή δικηγόρος**."
+},
+{
+"ex": [
+{
+"el": "Η γιατρός μου είναι πολύ καλή.",
+"en": "My doctor (a woman) is very good."
+},
+{
+"el": "Μίλησα με τη δικηγόρο μας.",
+"en": "I spoke to our lawyer (a woman)."
+},
+{
+"el": "Ο συνάδελφός μου κι η συνάδελφός μου.",
+"en": "My colleague (m) and my colleague (f)."
+},
+{
+"el": "Η πρόεδρος της Δημοκρατίας.",
+"en": "The President of the Republic (a woman)."
+}
+]
+},
+{
+"p": "In everyday speech some feminine forms also exist: **η γιατρίνα** (colloquial), **η δασκάλα** (from ο δάσκαλος), **η μαγείρισσα**, **η φοιτήτρια**."
+},
+{
+"solved": [
+{
+"q": "\"My lawyer (a woman) is excellent.\"",
+"a": "Η δικηγόρος μου είναι εξαιρετική.",
+"why": "Feminine article and adjective; the noun keeps its -ος form."
+},
+{
+"q": "Genitive singular of **η γιατρός**",
+"a": "της γιατρού",
+"why": "Masculine endings with the feminine article."
+},
+{
+"q": "\"I called the doctor (a woman).\"",
+"a": "Πήρα τηλέφωνο τη γιατρό. | Τηλεφώνησα στη γιατρό.",
+"why": "Accusative τη(ν) γιατρό; drop ν before γ."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ γιατρός μου είναι γυναίκα.",
+"options": [
+"Ο",
+"Η",
+"Το",
+"Τη"
+],
+"answer": "Η",
+"why": "The article shows the sex: η γιατρός.",
+"id": "noun-traps-ea33f4e8"
+},
+{
+"type": "choice",
+"q": "Η συνάδελφός μου είναι πολύ ___.",
+"options": [
+"καλός",
+"καλή",
+"καλό",
+"καλού"
+],
+"answer": "καλή",
+"why": "The adjective agrees with the feminine article.",
+"id": "noun-traps-80b0cfcb"
+},
+{
+"type": "choice",
+"q": "Το γραφείο ___ δικηγόρου. (a woman)",
+"options": [
+"του",
+"της",
+"τη",
+"των"
+],
+"answer": "της",
+"why": "Feminine genitive article with the masculine ending: της δικηγόρου.",
+"id": "noun-traps-01254f76"
+},
+{
+"type": "choice",
+"q": "Ψηφίσαμε ___ πρόεδρο. (a woman)",
+"options": [
+"τον",
+"την",
+"το",
+"της"
+],
+"answer": "την",
+"why": "Feminine accusative: την πρόεδρο; keep ν before π.",
+"id": "noun-traps-f3da6a20"
+},
+{
+"type": "choice",
+"q": "Ο ηθοποιός και η ___",
+"options": [
+"ηθοποιά",
+"ηθοποιός",
+"ηθοποιίνα",
+"ηθοποιή"
+],
+"answer": "ηθοποιός",
+"why": "Same form for both: η ηθοποιός.",
+"id": "noun-traps-97dc5877"
+},
+{
+"type": "write",
+"q": "Feminine article for **συνάδελφος** (nominative)",
+"answer": "η",
+"accept": [],
+"why": "One form, two genders.",
+"id": "noun-traps-b81649a6"
+},
+{
+"type": "write",
+"q": "Translate: \"a good lawyer (a woman)\"",
+"answer": "μια καλή δικηγόρος",
+"accept": [],
+"why": "Feminine article and adjective.",
+"id": "noun-traps-66b5d5c1"
+},
+{
+"type": "write",
+"q": "Translate: \"the actress's husband\" (ο άντρας)",
+"answer": "ο άντρας της ηθοποιού",
+"accept": [],
+"why": "Genitive της ηθοποιού.",
+"id": "noun-traps-7e476cf3"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Μόνο στον πληθυντικό",
+"title": "Nouns used in the plural",
+"body": [
+{
+"p": "Some everyday things are plural in Greek, even when English uses the singular:"
+},
+{
+"table": {
+"head": [
+"Greek (plural)",
+"English"
+],
+"rows": [
+[
+"τα λεφτά",
+"money"
+],
+[
+"τα ρέστα",
+"change (money back)"
+],
+[
+"τα γυαλιά",
+"glasses"
+],
+[
+"τα γενέθλια",
+"birthday"
+],
+[
+"τα Χριστούγεννα",
+"Christmas"
+],
+[
+"οι διακοπές",
+"holidays, vacation"
+],
+[
+"τα γένια",
+"beard"
+],
+[
+"τα νεύρα",
+"nerves, a bad mood"
+],
+[
+"οι εκλογές",
+"elections"
+],
+[
+"τα εγκαίνια",
+"opening ceremony"
+]
+]
+}
+},
+{
+"p": "The verb and the adjectives go in the plural:"
+},
+{
+"ex": [
+{
+"el": "Τα λεφτά δεν φέρνουν την ευτυχία.",
+"en": "Money doesn't bring happiness."
+},
+{
+"el": "Πού είναι τα γυαλιά μου;",
+"en": "Where are my glasses?"
+},
+{
+"el": "Χρόνια πολλά για τα γενέθλιά σου!",
+"en": "Happy birthday!"
+},
+{
+"el": "Οι διακοπές μας ήταν τέλειες.",
+"en": "Our holidays were perfect."
+},
+{
+"el": "Κράτα τα ρέστα.",
+"en": "Keep the change."
+},
+{
+"el": "Έχω τα νεύρα μου σήμερα.",
+"en": "I'm in a bad mood today."
+}
+]
+},
+{
+"tip": "**Τα λεφτά** is plural: **Δεν έχω λεφτά** \"I have no money\", **Πόσα λεφτά;** \"How much money?\" (never *πόσο λεφτά*). The singular **το λεπτό** means \"minute\" or \"cent\"."
+},
+{
+"solved": [
+{
+"q": "\"Where is my money?\"",
+"a": "Πού είναι τα λεφτά μου;",
+"why": "λεφτά is plural: plural verb είναι (3rd plural is the same form) and τα."
+},
+{
+"q": "\"How much money do you need?\"",
+"a": "Πόσα λεφτά χρειάζεσαι;",
+"why": "Plural: πόσα."
+},
+{
+"q": "\"Our holidays were short.\"",
+"a": "Οι διακοπές μας ήταν σύντομες.",
+"why": "Plural noun, plural adjective."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πού είναι τα ___ μου;",
+"options": [
+"γυαλί",
+"γυαλιά",
+"γυαλιού",
+"γυαλιών"
+],
+"answer": "γυαλιά",
+"why": "Glasses = τα γυαλιά (plural).",
+"id": "noun-traps-42007236"
+},
+{
+"type": "choice",
+"q": "___ λεφτά έχεις;",
+"options": [
+"Πόσο",
+"Πόσα",
+"Πόσος",
+"Πόση"
+],
+"answer": "Πόσα",
+"why": "λεφτά is neuter plural: πόσα.",
+"id": "noun-traps-96ba7a6d"
+},
+{
+"type": "choice",
+"q": "Οι διακοπές ήταν ___.",
+"options": [
+"ωραία",
+"ωραίες",
+"ωραίος",
+"ωραίο"
+],
+"answer": "ωραίες",
+"why": "Feminine plural adjective: ωραίες.",
+"id": "noun-traps-eda6e07e"
+},
+{
+"type": "choice",
+"q": "Πού θα κάνετε ___; (Christmas)",
+"options": [
+"το Χριστούγεννο",
+"Χριστούγεννα",
+"τη Χριστούγεννα",
+"τον Χριστούγεννα"
+],
+"answer": "Χριστούγεννα",
+"why": "Τα Χριστούγεννα is plural; after κάνω no article is needed.",
+"id": "noun-traps-862ef9bf"
+},
+{
+"type": "choice",
+"q": "Κράτα ___. (the change)",
+"options": [
+"το ρέστο",
+"τα ρέστα",
+"τη ρέστα",
+"τις ρέστες"
+],
+"answer": "τα ρέστα",
+"why": "Always plural.",
+"id": "noun-traps-08d1770b"
+},
+{
+"type": "choice",
+"q": "Τα ___ του είναι μεγάλα. (beard)",
+"options": [
+"γένι",
+"γένια",
+"γενιού",
+"γενών"
+],
+"answer": "γένια",
+"why": "Τα γένια.",
+"id": "noun-traps-00cc324f"
+},
+{
+"type": "write",
+"q": "Translate: \"I don't have money.\"",
+"answer": "Δεν έχω λεφτά.",
+"accept": [],
+"why": "Plural, no article.",
+"id": "noun-traps-b6d749d9"
+},
+{
+"type": "write",
+"q": "Translate: \"Happy birthday!\"",
+"answer": "Χρόνια πολλά!",
+"accept": [
+"Χρόνια πολλά για τα γενέθλιά σου!"
+],
+"why": "The everyday wish is Χρόνια πολλά.",
+"id": "noun-traps-e40b2df8"
+},
+{
+"type": "write",
+"q": "Translate: \"Where are my glasses?\"",
+"answer": "Πού είναι τα γυαλιά μου;",
+"accept": [],
+"why": "Plural τα γυαλιά.",
+"id": "noun-traps-f175aac9"
+},
+{
+"type": "write",
+"q": "Translate: \"Keep the change.\"",
+"answer": "Κράτα τα ρέστα.",
+"accept": [
+"Κρατήστε τα ρέστα."
+],
+"why": "Informal and polite.",
+"id": "noun-traps-71b64119"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Χρόνοι και χρόνια",
+"title": "Nouns that change in the plural",
+"body": [
+{
+"p": "A few masculine nouns have **two plurals**: a regular masculine one and a neuter one with a different meaning."
+},
+{
+"table": {
+"head": [
+"Singular",
+"Masc. plural",
+"Neut. plural"
+],
+"rows": [
+[
+"ο χρόνος time; year",
+"οι χρόνοι (times, tenses)",
+"τα χρόνια (years)"
+],
+[
+"ο λόγος reason; speech",
+"οι λόγοι (reasons, speeches)",
+"τα λόγια (words, what someone says)"
+],
+[
+"ο βράχος rock",
+"οι βράχοι",
+"τα βράχια (the rocks, the cliffs)"
+],
+[
+"ο πλούτος wealth",
+"",
+"τα πλούτη (riches)"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Πόσα χρόνια μένεις στην Ελλάδα;",
+"en": "How many years have you lived in Greece?"
+},
+{
+"el": "Χρόνια πολλά!",
+"en": "Many happy returns! (lit. many years)"
+},
+{
+"el": "Οι χρόνοι των ρημάτων.",
+"en": "The verb tenses."
+},
+{
+"el": "Για πολλούς λόγους δεν ήρθα.",
+"en": "I didn't come for many reasons."
+},
+{
+"el": "Λόγια, λόγια, λόγια!",
+"en": "Words, words, words! (all talk)"
+},
+{
+"el": "Βουτάμε από τα βράχια.",
+"en": "We dive off the rocks."
+}
+]
+},
+{
+"tip": "\"Year\" in the singular is usually **ο χρόνος** in speech (**του χρόνου** \"next year\", **πέρσι** \"last year\", **κάθε χρόνο** \"every year\") and **το έτος** in official language; in the plural use **τα χρόνια**."
+},
+{
+"solved": [
+{
+"q": "\"I've lived here for five years.\"",
+"a": "Μένω εδώ πέντε χρόνια. | Μένω εδώ και πέντε χρόνια.",
+"why": "Years in the plural: τα χρόνια."
+},
+{
+"q": "\"for personal reasons\"",
+"a": "για προσωπικούς λόγους",
+"why": "Reasons: οι λόγοι (acc. τους λόγους)."
+},
+{
+"q": "\"Those were nice words.\"",
+"a": "Ήταν ωραία λόγια.",
+"why": "Words someone says: τα λόγια."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πόσων ___ είσαι; (asking someone's age)",
+"options": [
+"χρόνους",
+"χρονών",
+"χρόνια",
+"χρονιάς"
+],
+"answer": "χρονών",
+"why": "The fixed question is Πόσων χρονών είσαι; (casually also Πόσο χρονών είσαι;).",
+"id": "noun-traps-c5f874e6"
+},
+{
+"type": "choice",
+"q": "Έζησα δέκα ___ στο Λονδίνο.",
+"options": [
+"χρόνους",
+"χρόνια",
+"χρόνοι",
+"χρονιά"
+],
+"answer": "χρόνια",
+"why": "Years: τα χρόνια.",
+"id": "noun-traps-949d52fd"
+},
+{
+"type": "choice",
+"q": "Μάθαμε τους ___ των ρημάτων.",
+"options": [
+"χρόνια",
+"χρόνους",
+"χρονιές",
+"χρόνος"
+],
+"answer": "χρόνους",
+"why": "Grammatical tenses: οι χρόνοι.",
+"id": "noun-traps-c60720ea"
+},
+{
+"type": "choice",
+"q": "Δεν ήρθε για προσωπικούς ___.",
+"options": [
+"λόγια",
+"λόγους",
+"λογίους",
+"λόγων"
+],
+"answer": "λόγους",
+"why": "Reasons: τους λόγους.",
+"id": "noun-traps-dc024d69"
+},
+{
+"type": "choice",
+"q": "Ωραία τα ___ σου, αλλά θέλω πράξεις.",
+"options": [
+"λόγους",
+"λόγια",
+"λόγοι",
+"λόγο"
+],
+"answer": "λόγια",
+"why": "What someone says: τα λόγια.",
+"id": "noun-traps-22495423"
+},
+{
+"type": "choice",
+"q": "Θα τα πούμε ___ χρόνου!",
+"options": [
+"τον",
+"του",
+"το",
+"των"
+],
+"answer": "του",
+"why": "Next year: του χρόνου (genitive).",
+"id": "noun-traps-d65691f0"
+},
+{
+"type": "write",
+"q": "Translate: \"Many happy returns!\"",
+"answer": "Χρόνια πολλά!",
+"accept": [],
+"why": "Lit. \"many years\".",
+"id": "noun-traps-947f3f0b"
+},
+{
+"type": "write",
+"q": "Translate: \"next year\"",
+"answer": "του χρόνου",
+"accept": [],
+"why": "Genitive of ο χρόνος.",
+"id": "noun-traps-2140ed96"
+},
+{
+"type": "write",
+"q": "Translate: \"every year\"",
+"answer": "κάθε χρόνο",
+"accept": [],
+"why": "Accusative of time.",
+"id": "noun-traps-8d27aa83"
+},
+{
+"type": "write",
+"q": "Translate: \"for that reason\"",
+"answer": "γι' αυτόν τον λόγο",
+"accept": [
+"για αυτόν τον λόγο"
+],
+"why": "ο λόγος = reason.",
+"id": "noun-traps-90287047"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Επώνυμα και ονόματα",
+"title": "Surnames and first names",
+"body": [
+{
+"p": "A woman's surname is the **genitive** of the family's masculine surname, and it does not decline:"
+},
+{
+"table": {
+"head": [
+"Man",
+"Woman",
+"The family"
+],
+"rows": [
+[
+"Παπαδόπουλος",
+"Παπαδοπούλου",
+"οι Παπαδόπουλοι"
+],
+[
+"Παπαδάκης",
+"Παπαδάκη",
+"οι Παπαδάκηδες"
+],
+[
+"Μαυρίδης",
+"Μαυρίδου",
+"οι Μαυρίδηδες"
+],
+[
+"Παππάς",
+"Παππά",
+"οι Παππάδες"
+],
+[
+"Γεωργίου",
+"Γεωργίου",
+"οι Γεωργίου"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Η κυρία Παπαδοπούλου είναι η καθηγήτριά μου.",
+"en": "Mrs Papadopoulou is my teacher."
+},
+{
+"el": "Μίλησα με την κυρία Παπαδάκη.",
+"en": "I spoke to Mrs Papadaki."
+},
+{
+"el": "Το σπίτι των Παπαδόπουλων.",
+"en": "The Papadopouloses' house."
+},
+{
+"el": "Ο κύριος Γεωργίου είναι εδώ.",
+"en": "Mr Georgiou is here."
+}
+]
+},
+{
+"p": "Surnames that already look like a genitive (in **-ου**, **-άκη**, from a father's name) are the same for men and women: **ο Γεωργίου, η Γεωργίου**."
+},
+{
+"p": "Men's surnames decline like normal nouns: **του κυρίου Παπαδόπουλου**, **τον κύριο Παπαδάκη**, **κύριε Παπαδάκη!** Women's first names decline like feminine nouns: **η Μαρία, της Μαρίας, τη Μαρία**."
+},
+{
+"solved": [
+{
+"q": "Mrs ___ (the wife of κύριος Αντωνόπουλος)",
+"a": "κυρία Αντωνοπούλου",
+"why": "-ος surname: woman's form is the genitive -ου."
+},
+{
+"q": "Mrs ___ (the wife of κύριος Μανωλάκης)",
+"a": "κυρία Μανωλάκη",
+"why": "-ης surname: woman's form drops -ς."
+},
+{
+"q": "\"I saw Mr Papadakis.\"",
+"a": "Είδα τον κύριο Παπαδάκη.",
+"why": "Men's surnames decline: accusative drops -ς."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η σύζυγος του κυρίου Νικολαΐδη είναι η κυρία ___.",
+"options": [
+"Νικολαΐδη",
+"Νικολαΐδου",
+"Νικολαΐδα",
+"Νικολαΐδης"
+],
+"answer": "Νικολαΐδου",
+"why": "-ίδης → -ίδου.",
+"id": "noun-traps-beb42219"
+},
+{
+"type": "choice",
+"q": "Η κυρία Καραγιάννη; Μίλησα με την κυρία ___.",
+"options": [
+"Καραγιάννης",
+"Καραγιάννη",
+"Καραγιάννου",
+"Καραγιάννα"
+],
+"answer": "Καραγιάννη",
+"why": "Women's surnames do not decline.",
+"id": "noun-traps-4f52b64a"
+},
+{
+"type": "choice",
+"q": "Το γραφείο του κυρίου ___. (Οικονόμου)",
+"options": [
+"Οικονόμος",
+"Οικονόμου",
+"Οικονόμου του",
+"Οικονομίου"
+],
+"answer": "Οικονόμου",
+"why": "-ου surnames never change.",
+"id": "noun-traps-a9b3b087"
+},
+{
+"type": "choice",
+"q": "\"Mr Papadopoulos!\" (calling him)",
+"options": [
+"Κύριος Παπαδόπουλος!",
+"Κύριε Παπαδόπουλε!",
+"Κυρίου Παπαδόπουλου!",
+"Κύριε Παπαδόπουλος!"
+],
+"answer": "Κύριε Παπαδόπουλε!",
+"why": "Vocative: κύριε + surname in -ε.",
+"id": "noun-traps-c4643323"
+},
+{
+"type": "choice",
+"q": "Οι ___ μένουν δίπλα. (the Papadakis family)",
+"options": [
+"Παπαδάκη",
+"Παπαδάκηδες",
+"Παπαδάκοι",
+"Παπαδάκηδων"
+],
+"answer": "Παπαδάκηδες",
+"why": "Family plural: -ηδες.",
+"id": "noun-traps-9de76d46"
+},
+{
+"type": "write",
+"q": "Woman's surname from **Δημητρόπουλος**",
+"answer": "Δημητροπούλου",
+"accept": [],
+"why": "Genitive -ου with stress shift.",
+"id": "noun-traps-2314973a"
+},
+{
+"type": "write",
+"q": "Woman's surname from **Βλαχάκης**",
+"answer": "Βλαχάκη",
+"accept": [],
+"why": "Drop -ς.",
+"id": "noun-traps-f0d7e9aa"
+},
+{
+"type": "write",
+"q": "Genitive of **η Κατερίνα**",
+"answer": "της Κατερίνας",
+"accept": [],
+"why": "Like any feminine in -α.",
+"id": "noun-traps-248ca787"
+},
+{
+"type": "write",
+"q": "Translate: \"Mr Vlachakis's car\"",
+"answer": "το αυτοκίνητο του κυρίου Βλαχάκη",
+"accept": [],
+"why": "Genitive: του κυρίου Βλαχάκη.",
+"id": "noun-traps-2762a4de"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Διπλοί τύποι",
+"title": "Double forms: spoken and written",
+"body": [
+{
+"p": "Many everyday nouns have a **spoken** form and a **written** or formal form. Both are correct; choose by situation."
+},
+{
+"table": {
+"head": [
+"Everyday",
+"Formal / written",
+"Meaning"
+],
+"rows": [
+[
+"η μέρα",
+"η ημέρα",
+"day"
+],
+[
+"η βδομάδα",
+"η εβδομάδα",
+"week"
+],
+[
+"ο Μάης, ο Γενάρης",
+"ο Μάιος, ο Ιανουάριος",
+"May, January"
+],
+[
+"το νοίκι",
+"το ενοίκιο",
+"rent"
+],
+[
+"η φωτιά",
+"η πυρκαγιά (a big fire)",
+"fire"
+],
+[
+"το σπίτι",
+"η οικία",
+"house, residence"
+],
+[
+"το γιατρικό",
+"το φάρμακο",
+"remedy, medicine"
+]
+]
+}
+},
+{
+"p": "The months have a learned form in **-ιος** and a folk form in **-ης**: **Ιανουάριος / Γενάρης, Φεβρουάριος / Φλεβάρης, Μάρτιος / Μάρτης, Απρίλιος / Απρίλης, Μάιος / Μάης, Ιούνιος / Ιούνης, Ιούλιος / Ιούλης, Σεπτέμβριος / Σεπτέμβρης, Οκτώβριος / Οκτώβρης, Νοέμβριος / Νοέμβρης, Δεκέμβριος / Δεκέμβρης**. **Ο Αύγουστος** has one form."
+},
+{
+"ex": [
+{
+"el": "Τον Μάη πάμε στο νησί.",
+"en": "In May we're going to the island."
+},
+{
+"el": "Ημερομηνία: 3 Μαΐου 2026",
+"en": "Date: 3 May 2026"
+},
+{
+"el": "Πλήρωσες το νοίκι;",
+"en": "Did you pay the rent?"
+},
+{
+"el": "Αίτηση για επίδομα ενοικίου.",
+"en": "Application for a rent allowance."
+}
+]
+},
+{
+"tip": "On forms and in dates the month is in the **genitive** of the learned form: **5 Ιανουαρίου, 25 Μαρτίου, 15 Αυγούστου, 28 Οκτωβρίου**."
+},
+{
+"solved": [
+{
+"q": "Formal date: \"on 1 May\"",
+"a": "την 1η Μαΐου",
+"why": "Dates: genitive of the learned month."
+},
+{
+"q": "Everyday: \"in January\"",
+"a": "τον Γενάρη | τον Ιανουάριο",
+"why": "Folk or learned form, accusative."
+},
+{
+"q": "Formal version of **το νοίκι**",
+"a": "το ενοίκιο",
+"why": "Learned form, used in contracts."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Σήμερα είναι 25 ___. (March, in a date)",
+"options": [
+"Μάρτης",
+"Μάρτιος",
+"Μαρτίου",
+"Μάρτη"
+],
+"answer": "Μαρτίου",
+"why": "Dates use the genitive: 25 Μαρτίου.",
+"id": "noun-traps-4943774c"
+},
+{
+"type": "choice",
+"q": "Ο ___ είναι ο πιο ζεστός μήνας. (August)",
+"options": [
+"Αυγούστου",
+"Αύγουστος",
+"Αυγουστής",
+"Αυγούστης"
+],
+"answer": "Αύγουστος",
+"why": "Subject: nominative; August has one form.",
+"id": "noun-traps-7730a2f8"
+},
+{
+"type": "choice",
+"q": "Πόσο είναι το ___; (rent, everyday)",
+"options": [
+"ενοικίου",
+"νοίκι",
+"νοικιού",
+"νοίκιο"
+],
+"answer": "νοίκι",
+"why": "Everyday: το νοίκι.",
+"id": "noun-traps-ece513f3"
+},
+{
+"type": "choice",
+"q": "Έρχομαι σε δύο ___. (weeks, everyday)",
+"options": [
+"βδομάδων",
+"βδομάδες",
+"βδομάδα",
+"βδομαδών"
+],
+"answer": "βδομάδες",
+"why": "Accusative plural after σε: βδομάδες.",
+"id": "noun-traps-1b6bbf7c"
+},
+{
+"type": "choice",
+"q": "Γεννήθηκα στις 9 ___. (November, in a date)",
+"options": [
+"Νοέμβρης",
+"Νοεμβρίου",
+"Νοέμβριο",
+"Νοέμβρη"
+],
+"answer": "Νοεμβρίου",
+"why": "Genitive of the learned form.",
+"id": "noun-traps-27eddbe4"
+},
+{
+"type": "write",
+"q": "Folk form of **ο Φεβρουάριος**",
+"answer": "ο Φλεβάρης",
+"accept": [
+"Φλεβάρης"
+],
+"why": "Folk month names end in -ης.",
+"id": "noun-traps-39bc2d6b"
+},
+{
+"type": "write",
+"q": "Date: \"on 28 October\"",
+"answer": "στις 28 Οκτωβρίου",
+"accept": [],
+"why": "Genitive of the learned form.",
+"id": "noun-traps-a18c4896"
+},
+{
+"type": "write",
+"q": "Learned form of **η βδομάδα**",
+"answer": "η εβδομάδα",
+"accept": [
+"εβδομάδα"
+],
+"why": "Formal written form.",
+"id": "noun-traps-5e88edab"
+},
+{
+"type": "write",
+"q": "Translate: \"in June\" (folk form)",
+"answer": "τον Ιούνη",
+"accept": [],
+"why": "Accusative of the folk form.",
+"id": "noun-traps-b563ef12"
+}
+]
+}
+]
+}
+],
+"id": "noun-traps",
+"el": "Ιδιαιτερότητες των ουσιαστικών",
+"title": "Nouns: special cases",
+"span": "A2–B2",
+"blurb": "Nouns that are both masculine and feminine, nouns used only in the plural, nouns that change in the plural, surnames and the double forms of everyday words.",
+"intro": [
+{
+"p": "After the three genders, a handful of special cases cause most of the remaining mistakes. They are all frequent in daily life: the doctor who is a woman, the money you never have, the years that become **χρόνια**, Mrs Papadopoulou, and the month you call **Μάης** in speech and **Μάιος** on a form."
+},
+{
+"links": [
+{
+"href": "#decl2-irregular",
+"kind": "Lesson",
+"el": "Ακανόνιστα και μικτά ουσιαστικά",
+"title": "Irregular and mixed nouns, awkward adjectives"
+},
+{
+"href": "#cards.noun-traps",
+"kind": "Card",
+"el": "Παγίδες στην κλίση",
+"title": "Declension traps"
+},
+{
+"href": "#pos.noun",
+"kind": "Part of speech",
+"el": "Το ουσιαστικό",
+"title": "The noun"
+}
+]
+}
+],
+"num": 6
+}
