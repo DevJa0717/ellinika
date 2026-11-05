@@ -26,6 +26,16 @@ def wikt(lem):
     if lem not in wf and M: wf[lem] = sorted(inv.get(lem, ()))
     return wf.get(lem, [])
 
+# Wiktionary tables carry stray cells (table labels like όταν/είτε, gender counterparts like θεός under θεά,
+# base-word forms under compounds); keep a form only if it shares the lemma's start (allowing augments, εκ-/εξ-)
+# and is not the headword of a different word.
+OTHER_HEADS = {e['lemma'].lower() for e in lex}
+def wikt_ok(f, lem):
+    b, L = bare(f), bare(lem)
+    if f != lem.lower() and f in OTHER_HEADS: return False
+    if b[:2] == L[:2] or b[1:3] == L[:2] or b[:2] == L[1:3]: return True
+    if L.startswith('εκ') and b.startswith('εξ'): return True
+    return b[:1] == L[:1] and b[2:3] == L[1:2] and b[1:2] in 'ιη'
 POS = {'noun', 'verb', 'adjective', 'adverb', 'pronoun', 'preposition', 'conjunction', 'particle', 'numeral', 'article', 'other'}
 entries = {}; skips = collections.Counter(); problems = []; order = []
 for fo in sorted(glob.glob(f'{H}/out/*.out.json')):
@@ -43,7 +53,7 @@ for fo in sorted(glob.glob(f'{H}/out/*.out.json')):
         if k in known: skips['known'] += 1; continue
         forms = {nfc(f.strip().lower()) for f in (x.get('forms') or []) if isinstance(f, str) and f.strip() and ' ' not in f.strip()}
         src = 'agent' if forms else 'wikt'
-        forms |= {f for f in wikt(e['lemma']) if ' ' not in f}
+        forms |= {f for f in wikt(e['lemma']) if ' ' not in f and wikt_ok(f, e['lemma'])}
         if c.get('lemma') and c['lemma'] != e['lemma'] and not x.get('forms'):
             forms |= set(c.get('corpus_forms', []))            # agent renamed the lemma without giving forms
         forms.add(e['lemma'].lower())
@@ -71,7 +81,7 @@ for fo in sorted(glob.glob(f'{H}/out_unres/*.out.json')):
             forms = {nfc(f.strip().lower()) for f in (x.get('forms') or []) if isinstance(f, str) and f.strip() and ' ' not in f.strip()} | {w, e['lemma'].lower()}
             if k in known: extra_forms[next(l for l in lexlem if skey(l) == k)] |= forms; skips['known'] += 1; continue
             if k in entries: entries[k]['_forms'] |= forms; skips['dup'] += 1; continue
-            e['_forms'] = forms | set(wikt(e['lemma'])); e['_rank'] = rank_of(pmw.get(x.get('w'), 0)); e['_fsrc'] = 'agent'
+            e['_forms'] = forms | {f for f in wikt(e['lemma']) if wikt_ok(f, e['lemma'])}; e['_rank'] = rank_of(pmw.get(x.get('w'), 0)); e['_fsrc'] = 'agent'
             entries[k] = e; order.append(k)
         elif t == 'form' and x.get('lemma'):
             extra_forms[nfc(x['lemma'])].add(w)
