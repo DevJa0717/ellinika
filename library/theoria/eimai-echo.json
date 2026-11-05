@@ -1,0 +1,1230 @@
+{
+"sections": [
+{
+"level": "A1",
+"el": "Είμαι",
+"title": "Είμαι: forms and uses",
+"body": [
+{
+"table": {
+"head": [
+"",
+"Present",
+"Past",
+"Future"
+],
+"rows": [
+[
+"εγώ",
+"είμαι",
+"ήμουν",
+"θα είμαι"
+],
+[
+"εσύ",
+"είσαι",
+"ήσουν",
+"θα είσαι"
+],
+[
+"αυτός",
+"είναι",
+"ήταν",
+"θα είναι"
+],
+[
+"εμείς",
+"είμαστε",
+"ήμασταν",
+"θα είμαστε"
+],
+[
+"εσείς",
+"είστε / είσαστε",
+"ήσασταν",
+"θα είστε"
+],
+[
+"αυτοί",
+"είναι",
+"ήταν",
+"θα είναι"
+]
+]
+}
+},
+{
+"p": "Είμαι has **no aorist and no dependent form**: **να είμαι, θα είμαι, ας είναι**. The adjective after it **agrees** with the subject: **Ο Νίκος είναι κουρασμένος. Η Μαρία είναι κουρασμένη. Τα παιδιά είναι κουρασμένα.**"
+},
+{
+"p": "\"It's\" + adjective uses the **neuter plural** in many set phrases: **Είναι ωραία!** \"It's lovely!\", **Ήταν τέλεια.** \"It was perfect.\", **Είναι κρίμα.** \"It's a pity.\" (noun)."
+},
+{
+"ex": [
+{
+"el": "Από πού είσαι;",
+"en": "Where are you from?"
+},
+{
+"el": "Είμαστε έτοιμοι.",
+"en": "We're ready."
+},
+{
+"el": "Είναι αργά.",
+"en": "It's late."
+},
+{
+"el": "Πώς ήταν οι διακοπές; — Ήταν υπέροχα!",
+"en": "How was the holiday? — It was great!"
+},
+{
+"el": "Ας είναι.",
+"en": "Never mind. / So be it."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"We are from Thessaloniki.\"",
+"a": "Είμαστε από τη Θεσσαλονίκη.",
+"why": "είμαι → είμαστε."
+},
+{
+"q": "\"The girls are tired.\"",
+"a": "Τα κορίτσια είναι κουρασμένα.",
+"why": "Neuter plural subject → κουρασμένα."
+},
+{
+"q": "\"It was wonderful!\"",
+"a": "Ήταν υπέροχα! | Ήταν υπέροχο! | Ήταν τέλεια!",
+"why": "Set phrase with the neuter."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Από πού ___; (are you, sg)",
+"options": [
+"είσται",
+"είσαι",
+"είναι",
+"είσουν"
+],
+"answer": "είσαι",
+"why": "εσύ είσαι.",
+"id": "eimai-echo-ad1aadb6"
+},
+{
+"type": "choice",
+"q": "Η Ελένη είναι ___. (tired)",
+"options": [
+"κουρασμένος",
+"κουρασμένη",
+"κουρασμένα",
+"κουρασμένοι"
+],
+"answer": "κουρασμένη",
+"why": "Agreement: feminine.",
+"id": "eimai-echo-2f6ff23d"
+},
+{
+"type": "choice",
+"q": "Πώς ήταν η ταινία; — ___! (Great)",
+"options": [
+"Τέλειος",
+"Τέλεια",
+"Τέλειες",
+"Τέλειοι"
+],
+"answer": "Τέλεια",
+"why": "\"It was...\" uses the neuter: τέλεια.",
+"id": "eimai-echo-b1c04869"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ έτοιμοι. (are)",
+"options": [
+"είναι",
+"είμαστε",
+"είστε",
+"είμαστα"
+],
+"answer": "είμαστε",
+"why": "εμείς είμαστε.",
+"id": "eimai-echo-4be18a26"
+},
+{
+"type": "choice",
+"q": "Ο καιρός ___ καλός χθες. (was)",
+"options": [
+"είναι ήταν",
+"ήταν",
+"ήσουν",
+"ήμουν"
+],
+"answer": "ήταν",
+"why": "ήταν.",
+"id": "eimai-echo-87cc240d"
+},
+{
+"type": "write",
+"q": "\"Where are you (pl) from?\"",
+"answer": "Από πού είστε;",
+"accept": [
+"Από πού είσαστε;"
+],
+"why": "είμαι → είστε.",
+"id": "eimai-echo-3feb5a82"
+},
+{
+"type": "write",
+"q": "\"It's late.\"",
+"answer": "Είναι αργά.",
+"accept": [],
+"why": "Adverb after είναι.",
+"id": "eimai-echo-fedbd070"
+},
+{
+"type": "write",
+"q": "\"They were at home.\"",
+"answer": "Ήταν στο σπίτι.",
+"accept": [
+"Ήταν σπίτι.",
+"Ήτανε σπίτι."
+],
+"why": "είμαι → ήταν.",
+"id": "eimai-echo-f16b869d"
+},
+{
+"type": "write",
+"q": "\"I'll be ready.\" (male)",
+"answer": "Θα είμαι έτοιμος.",
+"accept": [],
+"why": "Agreement.",
+"id": "eimai-echo-2b1dc712"
+},
+{
+"type": "write",
+"q": "\"Never mind.\"",
+"answer": "Ας είναι.",
+"accept": [
+"Δεν πειράζει."
+],
+"why": "Set phrase.",
+"id": "eimai-echo-3ff6da8a"
+},
+{
+"type": "order",
+"q": "\"We were very tired.\" (men or mixed)",
+"answer": "Ήμασταν πολύ κουρασμένοι.",
+"accept": [],
+"why": "Agreement: masculine plural.",
+"id": "eimai-echo-a64d2275"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Έχω και «υπάρχει»",
+"title": "Έχω idioms and \"there is\"",
+"body": [
+{
+"p": "**Έχω** builds many fixed expressions where English uses \"be\":"
+},
+{
+"table": {
+"head": [
+"Greek",
+"English"
+],
+"rows": [
+[
+"έχω δίκιο / άδικο",
+"I'm right / wrong"
+],
+[
+"έχω κέφι / κέφια",
+"I'm in a good mood"
+],
+[
+"έχω γενέθλια",
+"it's my birthday"
+],
+[
+"έχω δουλειά",
+"I'm busy"
+],
+[
+"έχω πυρετό",
+"I have a temperature"
+],
+[
+"έχω όρεξη (για)",
+"I feel like"
+],
+[
+"έχω ανάγκη",
+"I need"
+],
+[
+"έχω την εντύπωση ότι",
+"I have the feeling that"
+],
+[
+"Πόσο έχει;",
+"How much is it? (shop)"
+]
+]
+}
+},
+{
+"p": "**\"There is / there are\"**: **υπάρχει / υπάρχουν** (agrees with the noun). In speech, **έχει** (never plural) is very common: **Έχει κόσμο σήμερα.** \"It's crowded today.\" **Έχει ψάρι;** \"Is there any fish?\" (in a taverna)."
+},
+{
+"ex": [
+{
+"el": "Έχεις δίκιο, συγγνώμη.",
+"en": "You're right, sorry."
+},
+{
+"el": "Δεν έχω κέφια σήμερα.",
+"en": "I'm not in the mood today."
+},
+{
+"el": "Αύριο έχω γενέθλια!",
+"en": "Tomorrow is my birthday!"
+},
+{
+"el": "Υπάρχει φαρμακείο εδώ κοντά;",
+"en": "Is there a chemist's near here?"
+},
+{
+"el": "Υπάρχουν πολλά προβλήματα.",
+"en": "There are many problems."
+},
+{
+"el": "Έχει πολλή κίνηση στον δρόμο.",
+"en": "There's a lot of traffic on the road."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Is there a bank near here?\"",
+"a": "Υπάρχει τράπεζα εδώ κοντά; | Έχει τράπεζα εδώ κοντά;",
+"why": "υπάρχει (or colloquial έχει)."
+},
+{
+"q": "\"There are two problems.\"",
+"a": "Υπάρχουν δύο προβλήματα. | Υπάρχουν δυο προβλήματα.",
+"why": "Plural noun: υπάρχουν."
+},
+{
+"q": "\"I'm busy tonight.\"",
+"a": "Έχω δουλειά απόψε. | Απόψε έχω δουλειά.",
+"why": "έχω δουλειά = I'm busy."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Έχεις ___, συγγνώμη. (You're right)",
+"options": [
+"σωστό",
+"δίκιο",
+"αλήθεια",
+"δίκαιος"
+],
+"answer": "δίκιο",
+"why": "έχω δίκιο.",
+"id": "eimai-echo-d09e4661"
+},
+{
+"type": "choice",
+"q": "___ πολλά μαγαζιά στο κέντρο. (There are)",
+"options": [
+"Υπάρχει",
+"Υπάρχουν",
+"Είναι υπάρχει",
+"Υπάρχουμε"
+],
+"answer": "Υπάρχουν",
+"why": "Plural: υπάρχουν.",
+"id": "eimai-echo-4dff05eb"
+},
+{
+"type": "choice",
+"q": "Αύριο ___ γενέθλια. (it's my birthday)",
+"options": [
+"είμαι",
+"έχω",
+"υπάρχω",
+"γίνομαι"
+],
+"answer": "έχω",
+"why": "έχω γενέθλια.",
+"id": "eimai-echo-e035a36a"
+},
+{
+"type": "choice",
+"q": "Πόσο ___ τα πορτοκάλια; (are, at the market)",
+"options": [
+"είναι έχει",
+"έχουν",
+"έχει τα",
+"είναι έχουν"
+],
+"answer": "έχουν",
+"why": "Πόσο έχουν; (or πόσο κάνουν;)",
+"id": "eimai-echo-ed85d9e3"
+},
+{
+"type": "choice",
+"q": "Δεν έχω ___ για δουλειά σήμερα. (I don't feel like)",
+"options": [
+"θέλω",
+"όρεξη",
+"κέφι να",
+"ανάγκη να"
+],
+"answer": "όρεξη",
+"why": "έχω όρεξη για.",
+"id": "eimai-echo-6aa24d23"
+},
+{
+"type": "write",
+"q": "\"You're wrong.\" (sg)",
+"answer": "Έχεις άδικο.",
+"accept": [],
+"why": "έχω άδικο.",
+"id": "eimai-echo-51097a2f"
+},
+{
+"type": "write",
+"q": "\"Is there a pharmacy near here?\"",
+"answer": "Υπάρχει φαρμακείο εδώ κοντά;",
+"accept": [
+"Έχει φαρμακείο εδώ κοντά;"
+],
+"why": "υπάρχει / έχει.",
+"id": "eimai-echo-f46e26a3"
+},
+{
+"type": "write",
+"q": "\"It's crowded today.\"",
+"answer": "Έχει κόσμο σήμερα.",
+"accept": [
+"Έχει πολύ κόσμο σήμερα."
+],
+"why": "Colloquial έχει.",
+"id": "eimai-echo-03a8be37"
+},
+{
+"type": "write",
+"q": "\"I have a temperature.\"",
+"answer": "Έχω πυρετό.",
+"accept": [],
+"why": "έχω πυρετό.",
+"id": "eimai-echo-2e11b761"
+},
+{
+"type": "write",
+"q": "\"How much is it?\" (shop)",
+"answer": "Πόσο έχει;",
+"accept": [
+"Πόσο κάνει;"
+],
+"why": "Colloquial.",
+"id": "eimai-echo-38c44878"
+},
+{
+"type": "write",
+"q": "\"There are many tourists.\"",
+"answer": "Υπάρχουν πολλοί τουρίστες.",
+"accept": [
+"Έχει πολλούς τουρίστες."
+],
+"why": "υπάρχουν + nominative; έχει + accusative.",
+"id": "eimai-echo-d76daaae"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Ο καιρός",
+"title": "Weather and time expressions",
+"body": [
+{
+"p": "Weather verbs have no subject:"
+},
+{
+"table": {
+"head": [
+"Greek",
+"English"
+],
+"rows": [
+[
+"Βρέχει.",
+"It's raining."
+],
+[
+"Χιονίζει.",
+"It's snowing."
+],
+[
+"Φυσάει.",
+"It's windy."
+],
+[
+"Κάνει κρύο / ζέστη.",
+"It's cold / hot."
+],
+[
+"Κάνει καλό / άσχημο καιρό.",
+"The weather is good / bad."
+],
+[
+"Έχει ήλιο / λιακάδα.",
+"It's sunny."
+],
+[
+"Έχει συννεφιά.",
+"It's cloudy."
+],
+[
+"Αστράφτει / βροντάει.",
+"There's lightning / thunder."
+],
+[
+"Νυχτώνει / ξημερώνει.",
+"It's getting dark / light."
+]
+]
+}
+},
+{
+"p": "Past: **έβρεχε / έβρεξε, έκανε κρύο, χιόνισε, φυσούσε**. Future: **θα βρέξει, θα κάνει ζέστη**."
+},
+{
+"ex": [
+{
+"el": "Τι καιρό κάνει;",
+"en": "What's the weather like?"
+},
+{
+"el": "Κάνει ψόφο!",
+"en": "It's freezing! (lit. it makes death)"
+},
+{
+"el": "Έβρεχε όλη μέρα.",
+"en": "It rained all day."
+},
+{
+"el": "Αύριο θα έχει ήλιο.",
+"en": "Tomorrow it'll be sunny."
+},
+{
+"el": "Νυχτώνει νωρίς τον χειμώνα.",
+"en": "It gets dark early in winter."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"It's very hot today.\"",
+"a": "Κάνει πολλή ζέστη σήμερα. | Σήμερα κάνει πολλή ζέστη.",
+"why": "κάνω + ζέστη (πολλή: feminine noun)."
+},
+{
+"q": "\"Yesterday it snowed.\"",
+"a": "Χθες χιόνισε. | Χιόνισε χθες.",
+"why": "χιονίζω → χιόνισε."
+},
+{
+"q": "\"What will the weather be like tomorrow?\"",
+"a": "Τι καιρό θα κάνει αύριο; | Τι καιρό θα έχει αύριο;",
+"why": "θα κάνει."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Σήμερα ___ πολύ κρύο. (it's)",
+"options": [
+"είναι κάνει",
+"κάνει",
+"έχει κάνει",
+"είναι"
+],
+"answer": "κάνει",
+"why": "κάνει κρύο.",
+"id": "eimai-echo-78168623"
+},
+{
+"type": "choice",
+"q": "Πάρε ομπρέλα, ___. (it's raining)",
+"options": [
+"βρέχεται",
+"βρέχει",
+"είναι βροχή",
+"κάνει βρέχει"
+],
+"answer": "βρέχει",
+"why": "Βρέχει.",
+"id": "eimai-echo-ec2a828d"
+},
+{
+"type": "choice",
+"q": "Αύριο θα ___ ήλιο. (be: have)",
+"options": [
+"κάνει ήλιο",
+"έχει",
+"είναι",
+"υπάρχει"
+],
+"answer": "έχει",
+"why": "έχει ήλιο.",
+"id": "eimai-echo-3c8b5d19"
+},
+{
+"type": "choice",
+"q": "Κάνει πολλή ___. (heat)",
+"options": [
+"ζεστός",
+"ζέστη",
+"ζεστό",
+"ζεστά"
+],
+"answer": "ζέστη",
+"why": "κάνει ζέστη (noun).",
+"id": "eimai-echo-85b2834c"
+},
+{
+"type": "choice",
+"q": "Χθες ___ όλη νύχτα. (it was snowing)",
+"options": [
+"χιονίζε",
+"χιόνιζε",
+"χιονίσει",
+"χιονίστηκε"
+],
+"answer": "χιόνιζε",
+"why": "Imperfect: χιόνιζε.",
+"id": "eimai-echo-30b3fc31"
+},
+{
+"type": "write",
+"q": "\"It's windy.\"",
+"answer": "Φυσάει.",
+"accept": [],
+"why": "φυσάω.",
+"id": "eimai-echo-19db7145"
+},
+{
+"type": "write",
+"q": "\"It's cold.\"",
+"answer": "Κάνει κρύο.",
+"accept": [],
+"why": "κάνω κρύο.",
+"id": "eimai-echo-b7b1f166"
+},
+{
+"type": "write",
+"q": "\"It's cloudy.\"",
+"answer": "Έχει συννεφιά.",
+"accept": [],
+"why": "έχω + συννεφιά.",
+"id": "eimai-echo-5a6f97e0"
+},
+{
+"type": "write",
+"q": "\"What's the weather like?\"",
+"answer": "Τι καιρό κάνει;",
+"accept": [],
+"why": "Fixed question.",
+"id": "eimai-echo-b1986bc4"
+},
+{
+"type": "write",
+"q": "\"It will rain tomorrow.\"",
+"answer": "Θα βρέξει αύριο.",
+"accept": [
+"Αύριο θα βρέξει."
+],
+"why": "βρέχω → θα βρέξει.",
+"id": "eimai-echo-1cd466aa"
+},
+{
+"type": "order",
+"q": "\"It gets dark early.\"",
+"answer": "Νυχτώνει νωρίς.",
+"accept": [],
+"why": "νυχτώνει.",
+"id": "eimai-echo-958d4140"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Αρέσει, λείπει, πονάει",
+"title": "Reversed verbs: αρέσει, λείπει, πονάει",
+"body": [
+{
+"p": "With these verbs the **thing** is the subject and the **person** is a weak pronoun. The verb agrees with the **thing**."
+},
+{
+"table": {
+"head": [
+"Greek",
+"Literally",
+"English"
+],
+"rows": [
+[
+"Μου αρέσει ο καφές.",
+"Coffee pleases me.",
+"I like coffee."
+],
+[
+"Μου αρέσουν τα σύκα.",
+"Figs please me.",
+"I like figs."
+],
+[
+"Σου αρέσω;",
+"Do I please you?",
+"Do you like me?"
+],
+[
+"Μου λείπεις.",
+"You are missing to me.",
+"I miss you."
+],
+[
+"Μου λείπει η Ελλάδα.",
+"Greece is missing to me.",
+"I miss Greece."
+],
+[
+"Με πονάει το κεφάλι.",
+"The head hurts me.",
+"I have a headache."
+],
+[
+"Πονάνε τα πόδια μου.",
+"My feet hurt.",
+"My feet hurt."
+]
+]
+}
+},
+{
+"p": "**Αρέσει** and **λείπει** take the **genitive** pronoun (**μου, σου, του, μας**); **πονάει** takes the **accusative** (**με, σε, τον**) or a possessive: **Με πονάει το δόντι** or **Πονάει το δόντι μου**. To name the person with a noun: **Στη Μαρία αρέσει η θάλασσα.** \"Maria likes the sea.\" (σε + accusative, plus usually a doubling pronoun: **Στη Μαρία της αρέσει...**)."
+},
+{
+"ex": [
+{
+"el": "Σου αρέσει το φαγητό;",
+"en": "Do you like the food?"
+},
+{
+"el": "Δεν μου αρέσουν τα θρίλερ.",
+"en": "I don't like thrillers."
+},
+{
+"el": "Μας λείψατε!",
+"en": "We missed you!"
+},
+{
+"el": "Τι σε πονάει;",
+"en": "What hurts? (doctor)"
+},
+{
+"el": "Στον Νίκο του αρέσει να μαγειρεύει.",
+"en": "Nikos likes cooking."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Do you (sg) like Greek music?\"",
+"a": "Σου αρέσει η ελληνική μουσική;",
+"why": "The thing (μουσική) is the subject."
+},
+{
+"q": "\"I miss my parents.\"",
+"a": "Μου λείπουν οι γονείς μου.",
+"why": "Plural subject: λείπουν."
+},
+{
+"q": "\"My back hurts.\"",
+"a": "Με πονάει η πλάτη μου. | Πονάει η πλάτη μου. | Με πονάει η μέση μου.",
+"why": "πονάει + accusative pronoun or possessive."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Μου ___ οι ντομάτες. (I like)",
+"options": [
+"αρέσει",
+"αρέσουν",
+"αρέσω",
+"αρέσουμε"
+],
+"answer": "αρέσουν",
+"why": "Plural subject: αρέσουν.",
+"id": "eimai-echo-15259089"
+},
+{
+"type": "choice",
+"q": "___ αρέσει το κρασί; (Do you, sg)",
+"options": [
+"Σε",
+"Σου",
+"Εσύ",
+"Σένα"
+],
+"answer": "Σου",
+"why": "αρέσει + genitive: σου.",
+"id": "eimai-echo-de5efe24"
+},
+{
+"type": "choice",
+"q": "Μου ___ πολύ! (I miss you, sg)",
+"options": [
+"λείπω",
+"λείπεις",
+"λείπει",
+"λείψεις"
+],
+"answer": "λείπεις",
+"why": "\"You are missing to me\": λείπεις.",
+"id": "eimai-echo-dff46341"
+},
+{
+"type": "choice",
+"q": "___ πονάει το κεφάλι. (I have a headache)",
+"options": [
+"Μου θα",
+"Με",
+"Εγώ",
+"Μένα"
+],
+"answer": "Με",
+"why": "πονάει + accusative: με.",
+"id": "eimai-echo-ddc098f9"
+},
+{
+"type": "choice",
+"q": "Στη Μαρία ___ αρέσει να χορεύει. (her)",
+"options": [
+"τη",
+"της",
+"την",
+"του"
+],
+"answer": "της",
+"why": "Doubling with genitive: της.",
+"id": "eimai-echo-0d7ebe67"
+},
+{
+"type": "choice",
+"q": "Σου ___ η ταινία χθες; (did you like)",
+"options": [
+"αρέσσε",
+"άρεσε",
+"αρέσαν",
+"αρεσε"
+],
+"answer": "άρεσε",
+"why": "Past: άρεσε.",
+"id": "eimai-echo-9839d720"
+},
+{
+"type": "write",
+"q": "\"I like coffee.\"",
+"answer": "Μου αρέσει ο καφές.",
+"accept": [],
+"why": "Thing = subject.",
+"id": "eimai-echo-7c2ac993"
+},
+{
+"type": "write",
+"q": "\"We like the islands.\"",
+"answer": "Μας αρέσουν τα νησιά.",
+"accept": [],
+"why": "Plural: αρέσουν.",
+"id": "eimai-echo-20a2b178"
+},
+{
+"type": "write",
+"q": "\"I miss you.\" (sg)",
+"answer": "Μου λείπεις.",
+"accept": [],
+"why": "λείπω.",
+"id": "eimai-echo-e716aa37"
+},
+{
+"type": "write",
+"q": "\"My head hurts.\"",
+"answer": "Με πονάει το κεφάλι.",
+"accept": [
+"Με πονάει το κεφάλι μου.",
+"Πονάει το κεφάλι μου."
+],
+"why": "πονάει.",
+"id": "eimai-echo-5b7db5c8"
+},
+{
+"type": "write",
+"q": "\"Did you (pl) like it?\"",
+"answer": "Σας άρεσε;",
+"accept": [],
+"why": "Past άρεσε.",
+"id": "eimai-echo-c9407964"
+},
+{
+"type": "write",
+"q": "\"Nikos likes the sea.\"",
+"answer": "Στον Νίκο αρέσει η θάλασσα.",
+"accept": [
+"Στον Νίκο του αρέσει η θάλασσα."
+],
+"why": "σε + noun.",
+"id": "eimai-echo-289cb45e"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Απρόσωπα",
+"title": "Impersonal verbs: πρέπει, μπορεί, αξίζει, φαίνεται...",
+"body": [
+{
+"p": "These verbs appear in the third person singular, followed by **να** (an action) or **ότι / πως** (a fact). The person concerned, if any, is a pronoun."
+},
+{
+"table": {
+"head": [
+"Verb",
+"Example",
+"Meaning"
+],
+"rows": [
+[
+"πρέπει να",
+"Πρέπει να φύγω.",
+"I must leave."
+],
+[
+"μπορεί να",
+"Μπορεί να βρέξει.",
+"It might rain. / Maybe it'll rain."
+],
+[
+"χρειάζεται να",
+"Δεν χρειάζεται να έρθεις.",
+"You don't need to come."
+],
+[
+"αξίζει να",
+"Αξίζει να το δεις.",
+"It's worth seeing."
+],
+[
+"φαίνεται ότι",
+"Φαίνεται ότι έχει δίκιο.",
+"It seems he's right."
+],
+[
+"μου φαίνεται",
+"Μου φαίνεται περίεργο.",
+"It seems strange to me."
+],
+[
+"πειράζει",
+"Σε πειράζει αν καπνίσω;",
+"Do you mind if I smoke?"
+],
+[
+"δεν πειράζει",
+"Δεν πειράζει!",
+"Never mind! / No problem!"
+],
+[
+"με νοιάζει",
+"Δεν με νοιάζει.",
+"I don't care."
+],
+[
+"δεν κάνει να",
+"Δεν κάνει να μιλάς έτσι.",
+"You shouldn't talk like that."
+],
+[
+"φτάνει",
+"Φτάνει!",
+"That's enough!"
+]
+]
+}
+},
+{
+"p": "**Μπορεί** has two uses: personal **μπορώ / μπορείς** \"can\" and impersonal **μπορεί (να)** \"maybe\": **Μπορεί να έρθω.** \"I might come.\" Alone, **Μπορεί.** = \"Maybe.\""
+},
+{
+"ex": [
+{
+"el": "Πρέπει να ξυπνήσουμε νωρίς.",
+"en": "We have to get up early."
+},
+{
+"el": "Μπορεί να έχεις δίκιο.",
+"en": "You may be right."
+},
+{
+"el": "Αξίζει τον κόπο.",
+"en": "It's worth the trouble."
+},
+{
+"el": "Φαίνεται κουρασμένη.",
+"en": "She looks tired."
+},
+{
+"el": "Δεν με νοιάζει τι λένε.",
+"en": "I don't care what they say."
+},
+{
+"el": "Θα σε πείραζε να κλείσεις το παράθυρο;",
+"en": "Would you mind closing the window?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"It might snow tomorrow.\"",
+"a": "Μπορεί να χιονίσει αύριο. | Αύριο μπορεί να χιονίσει.",
+"why": "Impersonal μπορεί να = might."
+},
+{
+"q": "\"You (sg) don't need to pay.\"",
+"a": "Δεν χρειάζεται να πληρώσεις. | Δε χρειάζεται να πληρώσεις.",
+"why": "χρειάζεται να."
+},
+{
+"q": "\"Do you (pl) mind if I open the window?\"",
+"a": "Σας πειράζει αν ανοίξω το παράθυρο;",
+"why": "πειράζει + accusative pronoun."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ να βρέξει αύριο. (It might)",
+"options": [
+"Μπορώ",
+"Μπορεί",
+"Πρέπει",
+"Φαίνομαι"
+],
+"answer": "Μπορεί",
+"why": "Impersonal μπορεί = might.",
+"id": "eimai-echo-1889d711"
+},
+{
+"type": "choice",
+"q": "Δεν ___ να έρθεις αν δεν θέλεις. (you need)",
+"options": [
+"χρειάζεσαι",
+"χρειάζεται",
+"πρέπεις",
+"αξίζει"
+],
+"answer": "χρειάζεται",
+"why": "Impersonal χρειάζεται.",
+"id": "eimai-echo-d8d33462"
+},
+{
+"type": "choice",
+"q": "___ να δεις αυτή την ταινία. (It's worth)",
+"options": [
+"Αξίζεις",
+"Αξίζει",
+"Μπορείς",
+"Πειράζει"
+],
+"answer": "Αξίζει",
+"why": "αξίζει να.",
+"id": "eimai-echo-295b76a0"
+},
+{
+"type": "choice",
+"q": "Σε ___ αν καθίσω εδώ; (do you mind)",
+"options": [
+"λείπει",
+"πειράζει",
+"αρέσει",
+"φαίνεται"
+],
+"answer": "πειράζει",
+"why": "πειράζει = mind.",
+"id": "eimai-echo-40d45d3b"
+},
+{
+"type": "choice",
+"q": "Δεν ___ νοιάζει! (I don't care)",
+"options": [
+"μου",
+"με",
+"εγώ",
+"μένα"
+],
+"answer": "με",
+"why": "νοιάζει + accusative: με.",
+"id": "eimai-echo-65044cb1"
+},
+{
+"type": "choice",
+"q": "Πρέπει να ___ τώρα. (you leave, pl)",
+"options": [
+"φύγει",
+"φύγετε",
+"φύγατε",
+"φύγουμε"
+],
+"answer": "φύγετε",
+"why": "πρέπει never changes; the person is on the verb.",
+"id": "eimai-echo-e990a564"
+},
+{
+"type": "write",
+"q": "\"We must leave.\"",
+"answer": "Πρέπει να φύγουμε.",
+"accept": [],
+"why": "Impersonal πρέπει.",
+"id": "eimai-echo-047461bd"
+},
+{
+"type": "write",
+"q": "\"Maybe I'll come.\"",
+"answer": "Μπορεί να έρθω.",
+"accept": [
+"Μπορεί να 'ρθω."
+],
+"why": "μπορεί να = maybe.",
+"id": "eimai-echo-0bac9b4c"
+},
+{
+"type": "write",
+"q": "\"It's not worth it.\"",
+"answer": "Δεν αξίζει.",
+"accept": [
+"Δεν αξίζει τον κόπο."
+],
+"why": "αξίζει.",
+"id": "eimai-echo-5e43c457"
+},
+{
+"type": "write",
+"q": "\"I don't care.\"",
+"answer": "Δεν με νοιάζει.",
+"accept": [
+"Δε με νοιάζει."
+],
+"why": "νοιάζει + με.",
+"id": "eimai-echo-95cd544b"
+},
+{
+"type": "write",
+"q": "\"Never mind!\"",
+"answer": "Δεν πειράζει!",
+"accept": [],
+"why": "Fixed expression.",
+"id": "eimai-echo-733733ce"
+},
+{
+"type": "write",
+"q": "\"She looks tired.\"",
+"answer": "Φαίνεται κουρασμένη.",
+"accept": [],
+"why": "φαίνομαι + adjective.",
+"id": "eimai-echo-b0faa06c"
+},
+{
+"type": "order",
+"q": "\"It seems that you are right.\" (sg)",
+"answer": "Φαίνεται ότι έχεις δίκιο.",
+"accept": [],
+"why": "φαίνεται ότι.",
+"id": "eimai-echo-4ceda05d"
+}
+]
+}
+]
+}
+],
+"id": "eimai-echo",
+"el": "Είμαι, έχω και απρόσωπα",
+"title": "Είμαι, έχω, \"like\" verbs and impersonals",
+"span": "A1–B1",
+"blurb": "The two most useful verbs and their idioms (έχω δίκιο, έχει κόσμο), \"there is\" (υπάρχει / έχει), the weather, the reversed verbs αρέσει, λείπει, πονάει, and the impersonals πρέπει, μπορεί, χρειάζεται, αξίζει, φαίνεται, πειράζει, νοιάζει.",
+"intro": [
+{
+"p": "**Είμαι** \"I am\" and **έχω** \"I have\" are irregular but short, and they carry a huge number of idioms. Around them sits a group of verbs used mostly in the third person, with the person who feels or experiences shown by a pronoun: **μου αρέσει** \"I like it\" (lit. \"it pleases me\"), **με πονάει** \"it hurts me\", **πρέπει να φύγω** \"I must go\"."
+},
+{
+"links": [
+{
+"href": "#a1-eimai",
+"kind": "Lesson",
+"el": "Είμαι",
+"title": "To be, and the personal pronouns"
+},
+{
+"href": "#cards.verb-map",
+"kind": "Card",
+"el": "Ο χάρτης του ρήματος",
+"title": "The verb map"
+},
+{
+"href": "#syntax.agreement",
+"kind": "Syntax",
+"el": "Συμφωνία και πτώσεις στην πρόταση",
+"title": "Agreement and case in the sentence"
+},
+{
+"href": "#pos.verb-meaning",
+"kind": "Part of speech",
+"el": "Το ρήμα Β΄: χρόνοι, όψη, εγκλίσεις",
+"title": "The verb II: tense, aspect and mood"
+}
+]
+}
+],
+"num": 25
+}

@@ -144,10 +144,9 @@ def blocks_of(blk, path):
                     parts = [p.strip() for p in body.split(" | ")]
                     if len(parts) < 2:
                         sys.exit(f"{path}: order item needs a cue and a sentence: {l}")
-                    for alt in parts[2:]:
-                        if sorted(words(alt)) != sorted(words(parts[1])):
-                            sys.exit(f"{path}: accepted order uses other words than the first: {alt}")
-                    q = {"type": "order", "q": parts[0], "answer": parts[1], "accept": parts[2:], "why": why}
+                    # tiles come from the first sentence, so only alternatives with the same words can be built
+                    alts = [a for a in parts[2:] if sorted(words(a)) == sorted(words(parts[1]))]
+                    q = {"type": "order", "q": parts[0], "answer": parts[1], "accept": alts, "why": why}
                 else:
                     prompt, arrow, ans = body.partition("=>")
                     if not arrow:

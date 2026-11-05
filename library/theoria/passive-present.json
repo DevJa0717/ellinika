@@ -1,0 +1,984 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Ενεστώτας σε -ομαι",
+"title": "Present in -ομαι",
+"body": [
+{
+"table": {
+"head": [
+"",
+"έρχομαι",
+"σκέφτομαι"
+],
+"rows": [
+[
+"εγώ",
+"έρχομαι",
+"σκέφτομαι"
+],
+[
+"εσύ",
+"έρχεσαι",
+"σκέφτεσαι"
+],
+[
+"αυτός",
+"έρχεται",
+"σκέφτεται"
+],
+[
+"εμείς",
+"ερχόμαστε",
+"σκεφτόμαστε"
+],
+[
+"εσείς",
+"έρχεστε / ερχόσαστε",
+"σκέφτεστε / σκεφτόσαστε"
+],
+[
+"αυτοί",
+"έρχονται",
+"σκέφτονται"
+]
+]
+}
+},
+{
+"p": "Note the stress shift in **εμείς: ερχόμαστε, σκεφτόμαστε** (stress on -όμ-)."
+},
+{
+"p": "Common -ομαι verbs: **γίνομαι** become, happen; **κάθομαι** sit, stay; **χρειάζομαι** need; **εργάζομαι** work (formal); **αισθάνομαι** feel; **βρίσκομαι** be (located); **ντύνομαι** get dressed; **πλένομαι** wash; **ετοιμάζομαι** get ready; **παντρεύομαι** get married; **ντρέπομαι** be shy, ashamed."
+},
+{
+"ex": [
+{
+"el": "Έρχεσαι μαζί μας;",
+"en": "Are you coming with us?"
+},
+{
+"el": "Τι σκέφτεσαι;",
+"en": "What are you thinking about?"
+},
+{
+"el": "Χρειαζόμαστε ψωμί.",
+"en": "We need bread."
+},
+{
+"el": "Πού βρίσκεται η Ακρόπολη;",
+"en": "Where is the Acropolis?"
+},
+{
+"el": "Ντύνομαι και έρχομαι!",
+"en": "I'm getting dressed and coming!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "Present of **χρειάζομαι**, all persons",
+"a": "χρειάζομαι, χρειάζεσαι, χρειάζεται, χρειαζόμαστε, χρειάζεστε, χρειάζονται | χρειάζομαι, χρειάζεσαι, χρειάζεται, χρειαζόμαστε, χρειαζόσαστε, χρειάζονται",
+"why": "-ομαι pattern; stress moves in εμείς."
+},
+{
+"q": "\"We're getting ready.\"",
+"a": "Ετοιμαζόμαστε.",
+"why": "ετοιμάζομαι → ετοιμαζόμαστε."
+},
+{
+"q": "\"What happens?\" / \"What's up?\"",
+"a": "Τι γίνεται;",
+"why": "γίνομαι → γίνεται."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πότε ___; (are you coming, sg)",
+"options": [
+"έρχεις",
+"έρχεσαι",
+"έρχομαι",
+"έρχεται"
+],
+"answer": "έρχεσαι",
+"why": "εσύ: -εσαι.",
+"id": "passive-present-396d90a9"
+},
+{
+"type": "choice",
+"q": "Τι ___ για το πάρτι; (do we need)",
+"options": [
+"χρειάζουμε",
+"χρειαζόμαστε",
+"χρειάζομαστε",
+"χρειάζονται"
+],
+"answer": "χρειαζόμαστε",
+"why": "εμείς: -όμαστε.",
+"id": "passive-present-3bc9f2b7"
+},
+{
+"type": "choice",
+"q": "Πού ___ το μουσείο; (is located)",
+"options": [
+"βρίσκει",
+"βρίσκεται",
+"βρίσκομαι",
+"βρίσκεσαι"
+],
+"answer": "βρίσκεται",
+"why": "βρίσκεται = is (located).",
+"id": "passive-present-6a0cce9d"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ στο σχολείο. (get dressed for)",
+"options": [
+"ντύνουν",
+"ντύνονται",
+"ντύνεται",
+"ντυνόμαστε"
+],
+"answer": "ντύνονται",
+"why": "αυτοί: -ονται.",
+"id": "passive-present-5dc01b8e"
+},
+{
+"type": "choice",
+"q": "Πώς ___ σήμερα; (do you feel, pl)",
+"options": [
+"αισθάνεσαι",
+"αισθάνεστε",
+"αισθάνονται",
+"αισθάνουμε"
+],
+"answer": "αισθάνεστε",
+"why": "εσείς: -εστε.",
+"id": "passive-present-9ed5c959"
+},
+{
+"type": "choice",
+"q": "Τι ___; (is happening)",
+"options": [
+"γίνει",
+"γίνεται",
+"γίνομαι",
+"κάνεται"
+],
+"answer": "γίνεται",
+"why": "Τι γίνεται;",
+"id": "passive-present-9016adc3"
+},
+{
+"type": "write",
+"q": "\"I'm coming!\"",
+"answer": "Έρχομαι!",
+"accept": [],
+"why": "έρχομαι.",
+"id": "passive-present-228d0bdf"
+},
+{
+"type": "write",
+"q": "\"What are you (sg) thinking?\"",
+"answer": "Τι σκέφτεσαι;",
+"accept": [],
+"why": "σκέφτομαι.",
+"id": "passive-present-636608b5"
+},
+{
+"type": "write",
+"q": "\"We need help.\"",
+"answer": "Χρειαζόμαστε βοήθεια.",
+"accept": [],
+"why": "χρειάζομαι.",
+"id": "passive-present-392c8feb"
+},
+{
+"type": "write",
+"q": "\"They're getting married.\"",
+"answer": "Παντρεύονται.",
+"accept": [],
+"why": "παντρεύομαι.",
+"id": "passive-present-dda3b855"
+},
+{
+"type": "write",
+"q": "\"Where is the station?\"",
+"answer": "Πού βρίσκεται ο σταθμός;",
+"accept": [
+"Πού είναι ο σταθμός;"
+],
+"why": "βρίσκομαι.",
+"id": "passive-present-7252a004"
+},
+{
+"type": "order",
+"q": "\"Are you (pl) coming with us?\"",
+"answer": "Έρχεστε μαζί μας;",
+"accept": [],
+"why": "έρχομαι → έρχεστε.",
+"id": "passive-present-b12266f7"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "-άμαι, -ιέμαι, -ούμαι",
+"title": "The other three patterns",
+"body": [
+{
+"table": {
+"head": [
+"",
+"θυμάμαι (remember)",
+"στενοχωριέμαι (get upset)",
+"ασχολούμαι (deal with)"
+],
+"rows": [
+[
+"εγώ",
+"θυμάμαι",
+"στενοχωριέμαι",
+"ασχολούμαι"
+],
+[
+"εσύ",
+"θυμάσαι",
+"στενοχωριέσαι",
+"ασχολείσαι"
+],
+[
+"αυτός",
+"θυμάται",
+"στενοχωριέται",
+"ασχολείται"
+],
+[
+"εμείς",
+"θυμόμαστε",
+"στενοχωριόμαστε",
+"ασχολούμαστε"
+],
+[
+"εσείς",
+"θυμάστε",
+"στενοχωριέστε",
+"ασχολείστε"
+],
+[
+"αυτοί",
+"θυμούνται",
+"στενοχωριούνται",
+"ασχολούνται"
+]
+]
+}
+},
+{
+"list": [
+"**-άμαι**: θυμάμαι, φοβάμαι (be afraid), κοιμάμαι (sleep), λυπάμαι (be sorry).",
+"**-ιέμαι**: στενοχωριέμαι, γεννιέμαι (be born), παραπονιέμαι (complain), φιλιέμαι (kiss each other), ξεχνιέμαι (lose track of time).",
+"**-ούμαι** (mostly learned verbs): ασχολούμαι, θεωρούμαι (be considered), αρνούμαι (refuse), εξαρτώμαι (depend, with -ώμαι in the first person: **εξαρτάται** \"it depends\")."
+]
+},
+{
+"ex": [
+{
+"el": "Θυμάσαι τι μου είπες;",
+"en": "Do you remember what you told me?"
+},
+{
+"el": "Φοβάμαι τα σκυλιά.",
+"en": "I'm afraid of dogs."
+},
+{
+"el": "Λυπάμαι, δεν ξέρω.",
+"en": "I'm sorry, I don't know."
+},
+{
+"el": "Μη στενοχωριέσαι!",
+"en": "Don't be upset!"
+},
+{
+"el": "Με τι ασχολείσαι;",
+"en": "What do you do (for a living)?"
+},
+{
+"el": "— Θα έρθεις; — Εξαρτάται.",
+"en": "— Will you come? — It depends."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Present of **κοιμάμαι**, all persons",
+"a": "κοιμάμαι, κοιμάσαι, κοιμάται, κοιμόμαστε, κοιμάστε, κοιμούνται",
+"why": "-άμαι pattern."
+},
+{
+"q": "\"They complain all the time.\"",
+"a": "Παραπονιούνται συνέχεια. | Παραπονιούνται όλη την ώρα.",
+"why": "-ιέμαι → -ιούνται."
+},
+{
+"q": "\"Are you (pl) afraid?\"",
+"a": "Φοβάστε;",
+"why": "φοβάμαι → φοβάστε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ τον αριθμό του; (Do you remember, sg)",
+"options": [
+"Θυμείσαι",
+"Θυμάσαι",
+"Θυμιέσαι",
+"Θυμάται"
+],
+"answer": "Θυμάσαι",
+"why": "-άμαι: θυμάσαι.",
+"id": "passive-present-cfe3d2c7"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά ___ νωρίς. (sleep)",
+"options": [
+"κοιμιένται",
+"κοιμούνται",
+"κοιμιούνται",
+"κοιμώνται"
+],
+"answer": "κοιμούνται",
+"why": "-άμαι → -ούνται.",
+"id": "passive-present-175e5427"
+},
+{
+"type": "choice",
+"q": "Μη ___, όλα θα πάνε καλά. (get upset, sg)",
+"options": [
+"στενοχωράσαι",
+"στενοχωριέσαι",
+"στενοχωρείσαι",
+"στενοχωριόσαι"
+],
+"answer": "στενοχωριέσαι",
+"why": "-ιέμαι: -ιέσαι.",
+"id": "passive-present-590c96ee"
+},
+{
+"type": "choice",
+"q": "Με τι ___; (do you do, sg: ασχολούμαι)",
+"options": [
+"ασχολιέσαι",
+"ασχολείσαι",
+"ασχολάσαι",
+"ασχολούσαι"
+],
+"answer": "ασχολείσαι",
+"why": "-ούμαι: -είσαι.",
+"id": "passive-present-c34eed01"
+},
+{
+"type": "choice",
+"q": "Εμείς δεν ___ τίποτα. (are afraid of)",
+"options": [
+"φοβάμαστε",
+"φοβόμαστε",
+"φοβείμαστε",
+"φοβιόμαστε"
+],
+"answer": "φοβόμαστε",
+"why": "-άμαι: εμείς -όμαστε.",
+"id": "passive-present-70f9ab81"
+},
+{
+"type": "choice",
+"q": "Πολλά μωρά ___ με μπλε μάτια. (are born)",
+"options": [
+"γεννάνται",
+"γεννιούνται",
+"γεννιένται",
+"γεννιόνται"
+],
+"answer": "γεννιούνται",
+"why": "-ιέμαι: γεννιούνται.",
+"id": "passive-present-b5bed923"
+},
+{
+"type": "write",
+"q": "\"I'm sorry.\"",
+"answer": "Λυπάμαι.",
+"accept": [],
+"why": "λυπάμαι.",
+"id": "passive-present-1528f275"
+},
+{
+"type": "write",
+"q": "\"We remember.\"",
+"answer": "Θυμόμαστε.",
+"accept": [],
+"why": "θυμάμαι.",
+"id": "passive-present-4c44f66b"
+},
+{
+"type": "write",
+"q": "\"It depends.\"",
+"answer": "Εξαρτάται.",
+"accept": [],
+"why": "εξαρτώμαι.",
+"id": "passive-present-bb06df31"
+},
+{
+"type": "write",
+"q": "\"Don't be afraid!\" (sg)",
+"answer": "Μη φοβάσαι!",
+"accept": [],
+"why": "φοβάμαι.",
+"id": "passive-present-709ba8c8"
+},
+{
+"type": "write",
+"q": "\"They are considered experts.\"",
+"answer": "Θεωρούνται ειδικοί.",
+"accept": [],
+"why": "θεωρούμαι.",
+"id": "passive-present-0ba9b08d"
+},
+{
+"type": "order",
+"q": "\"I don't remember his name.\"",
+"answer": "Δεν θυμάμαι το όνομά του.",
+"accept": [],
+"why": "θυμάμαι.",
+"id": "passive-present-4efd0aeb"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Παρατατικός σε -όμουν",
+"title": "The imperfect: -όμουν",
+"body": [
+{
+"table": {
+"head": [
+"",
+"-ομαι: ερχόμουν",
+"-άμαι: θυμόμουν",
+"-ιέμαι: στενοχωριόμουν",
+"-ούμαι: ασχολούμουν"
+],
+"rows": [
+[
+"εγώ",
+"ερχόμουν",
+"θυμόμουν",
+"στενοχωριόμουν",
+"ασχολούμουν"
+],
+[
+"εσύ",
+"ερχόσουν",
+"θυμόσουν",
+"στενοχωριόσουν",
+"ασχολούσουν"
+],
+[
+"αυτός",
+"ερχόταν",
+"θυμόταν",
+"στενοχωριόταν",
+"ασχολούνταν"
+],
+[
+"εμείς",
+"ερχόμασταν",
+"θυμόμασταν",
+"στενοχωριόμασταν",
+"ασχολούμασταν"
+],
+[
+"εσείς",
+"ερχόσασταν",
+"θυμόσασταν",
+"στενοχωριόσασταν",
+"ασχολούσασταν"
+],
+[
+"αυτοί",
+"έρχονταν / ερχόντουσαν",
+"θυμούνταν / θυμόντουσαν",
+"στενοχωριούνταν / στενοχωριόντουσαν",
+"ασχολούνταν"
+]
+]
+}
+},
+{
+"p": "Colloquial variants with a final **-α** are very common: **ερχόμουνα, θυμόσουνα, ερχότανε**."
+},
+{
+"ex": [
+{
+"el": "Τι έκανες; — Κοιμόμουν.",
+"en": "What were you doing? — I was sleeping."
+},
+{
+"el": "Πού βρισκόσουν;",
+"en": "Where were you?"
+},
+{
+"el": "Θυμόταν τα πάντα.",
+"en": "He remembered everything."
+},
+{
+"el": "Ερχόμασταν κάθε καλοκαίρι.",
+"en": "We used to come every summer."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I was getting ready when you called.\" (sg)",
+"a": "Ετοιμαζόμουν όταν πήρες τηλέφωνο. | Ετοιμαζόμουν όταν τηλεφώνησες.",
+"why": "Imperfect: -όμουν."
+},
+{
+"q": "\"They used to be afraid of the sea.\"",
+"a": "Φοβούνταν τη θάλασσα. | Φοβόντουσαν τη θάλασσα.",
+"why": "-άμαι → φοβούνταν."
+},
+{
+"q": "\"What were you (pl) thinking?\"",
+"a": "Τι σκεφτόσασταν;",
+"why": "-όσασταν."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τι έκανες χθες στις δέκα; — ___. (I was sleeping)",
+"options": [
+"Κοιμήθηκα",
+"Κοιμόμουν",
+"Κοιμάμαι",
+"Κοιμόσουν"
+],
+"answer": "Κοιμόμουν",
+"why": "Imperfect, εγώ: κοιμόμουν.",
+"id": "passive-present-6a69cf08"
+},
+{
+"type": "choice",
+"q": "Πού ___ τόσες μέρες; (were you, sg: βρίσκομαι)",
+"options": [
+"βρισκόμουν",
+"βρισκόσουν",
+"βρισκόταν",
+"βρίσκεσαι"
+],
+"answer": "βρισκόσουν",
+"why": "εσύ: -όσουν.",
+"id": "passive-present-b9344371"
+},
+{
+"type": "choice",
+"q": "Η γιαγιά ___ τα πάντα. (used to remember)",
+"options": [
+"θυμάται",
+"θυμόταν",
+"θυμούνταν",
+"θυμόμουν"
+],
+"answer": "θυμόταν",
+"why": "αυτή: -όταν.",
+"id": "passive-present-a4c1f6d5"
+},
+{
+"type": "choice",
+"q": "Οι φίλοι μου ___ κάθε Κυριακή. (used to come)",
+"options": [
+"ερχόταν",
+"έρχονταν",
+"ερχόμασταν",
+"έρχονται"
+],
+"answer": "έρχονταν",
+"why": "αυτοί: έρχονταν (or ερχόντουσαν).",
+"id": "passive-present-418133a8"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ πολύ τότε. (were worried: στενοχωριέμαι)",
+"options": [
+"στενοχωριόμαστε",
+"στενοχωριόμασταν",
+"στενοχωριούνταν",
+"στενοχωριόμαστα"
+],
+"answer": "στενοχωριόμασταν",
+"why": "εμείς: -όμασταν.",
+"id": "passive-present-2b5878a7"
+},
+{
+"type": "write",
+"q": "Imperfect \"I was coming\"",
+"answer": "ερχόμουν",
+"accept": [
+"ερχόμουνα"
+],
+"why": "έρχομαι.",
+"id": "passive-present-3c4db607"
+},
+{
+"type": "write",
+"q": "Imperfect \"you (sg) were sleeping\"",
+"answer": "κοιμόσουν",
+"accept": [
+"κοιμόσουνα"
+],
+"why": "κοιμάμαι.",
+"id": "passive-present-e3313901"
+},
+{
+"type": "write",
+"q": "Imperfect \"she remembered\"",
+"answer": "θυμόταν",
+"accept": [
+"θυμότανε"
+],
+"why": "θυμάμαι.",
+"id": "passive-present-436fb5a5"
+},
+{
+"type": "write",
+"q": "Imperfect \"we needed\"",
+"answer": "χρειαζόμασταν",
+"accept": [],
+"why": "χρειάζομαι.",
+"id": "passive-present-3f7ad17a"
+},
+{
+"type": "write",
+"q": "Imperfect \"they were afraid\"",
+"answer": "φοβούνταν",
+"accept": [
+"φοβόντουσαν"
+],
+"why": "φοβάμαι.",
+"id": "passive-present-53e1f560"
+},
+{
+"type": "order",
+"q": "\"I was thinking about you.\" (sg)",
+"answer": "Σε σκεφτόμουν.",
+"accept": [],
+"why": "σκέφτομαι → σκεφτόμουν.",
+"id": "passive-present-c23c90af"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Τι σημαίνει το -μαι",
+"title": "What -μαι means: four uses",
+"body": [
+{
+"table": {
+"head": [
+"Use",
+"Example",
+"Meaning"
+],
+"rows": [
+[
+"**passive**",
+"Το σπίτι χτίζεται.",
+"The house is being built."
+],
+[
+"**reflexive** (to oneself)",
+"Πλένομαι, ντύνομαι, ξυρίζομαι.",
+"I wash, dress, shave (myself)."
+],
+[
+"**reciprocal** (each other)",
+"Βλεπόμαστε συχνά. Φιλιούνται.",
+"We see each other often. They kiss."
+],
+[
+"**deponent** (no active)",
+"Έρχομαι, σκέφτομαι, κοιμάμαι.",
+"I come, think, sleep."
+]
+]
+}
+},
+{
+"p": "Many verbs have an active and a -μαι partner with a related meaning:"
+},
+{
+"table": {
+"head": [
+"Active",
+"-μαι"
+],
+"rows": [
+[
+"βρίσκω \"find\"",
+"βρίσκομαι \"be (located)\""
+],
+[
+"χάνω \"lose\"",
+"χάνομαι \"get lost; disappear\""
+],
+[
+"ετοιμάζω \"prepare\"",
+"ετοιμάζομαι \"get ready\""
+],
+[
+"λέω \"say\"",
+"λέγομαι \"be called\""
+],
+[
+"κουράζω \"tire\"",
+"κουράζομαι \"get tired\""
+],
+[
+"βλέπω \"see\"",
+"βλέπομαι \"meet up\" (each other)"
+],
+[
+"παντρεύω \"marry off\"",
+"παντρεύομαι \"get married\""
+]
+]
+}
+},
+{
+"p": "**Agent** (by whom): **από** + accusative: **Το εστιατόριο διευθύνεται από την κόρη του.** \"The restaurant is run by his daughter.\""
+},
+{
+"ex": [
+{
+"el": "Πώς λέγεσαι; — Λέγομαι Νίκος.",
+"en": "What's your name? — My name is Nikos."
+},
+{
+"el": "Χάθηκα! Πού είμαστε;",
+"en": "I'm lost! Where are we?"
+},
+{
+"el": "Πότε θα βρεθούμε;",
+"en": "When shall we meet?"
+},
+{
+"el": "Χάσου!",
+"en": "Get lost! (rude)"
+},
+{
+"el": "Τα εισιτήρια πουλιούνται στο περίπτερο.",
+"en": "Tickets are sold at the kiosk."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"What's your (sg) name?\" (with λέγομαι)",
+"a": "Πώς λέγεσαι;",
+"why": "λέγομαι = be called."
+},
+{
+"q": "\"We meet up every week.\"",
+"a": "Βλεπόμαστε κάθε εβδομάδα.",
+"why": "Reciprocal: βλέπομαι."
+},
+{
+"q": "\"The museum is visited by thousands of tourists.\"",
+"a": "Το μουσείο επισκέπτονται χιλιάδες τουρίστες. | Το μουσείο το επισκέπτονται χιλιάδες τουρίστες.",
+"why": "επισκέπτομαι is deponent (= visit, active meaning), so Greek turns the sentence round."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πώς ___; (is your name, sg)",
+"options": [
+"λες",
+"λέγεσαι",
+"λέγεται",
+"λέει"
+],
+"answer": "λέγεσαι",
+"why": "λέγομαι = be called.",
+"id": "passive-present-0df1379f"
+},
+{
+"type": "choice",
+"q": "___ κάθε μέρα και πάμε για καφέ. (We see each other)",
+"options": [
+"Βλέπουμε",
+"Βλεπόμαστε",
+"Βλέπομαι",
+"Βλεπόμουν"
+],
+"answer": "Βλεπόμαστε",
+"why": "Reciprocal: βλεπόμαστε.",
+"id": "passive-present-9536e611"
+},
+{
+"type": "choice",
+"q": "Το πρωί ___ γρήγορα και φεύγω. (I get dressed)",
+"options": [
+"ντύνω",
+"ντύνομαι",
+"ντύνεται",
+"ντυνόμαστε"
+],
+"answer": "ντύνομαι",
+"why": "Reflexive: ντύνομαι.",
+"id": "passive-present-ab1d917a"
+},
+{
+"type": "choice",
+"q": "Η εκκλησία ___ τώρα. (is being built)",
+"options": [
+"χτίζει",
+"χτίζεται",
+"χτίζομαι",
+"χτίζουν"
+],
+"answer": "χτίζεται",
+"why": "Passive: χτίζεται.",
+"id": "passive-present-5daf3f5e"
+},
+{
+"type": "choice",
+"q": "Το βιβλίο γράφτηκε ___ έναν δημοσιογράφο. (by)",
+"options": [
+"με",
+"από",
+"για",
+"σε"
+],
+"answer": "από",
+"why": "Agent: από + accusative.",
+"id": "passive-present-198fc220"
+},
+{
+"type": "write",
+"q": "\"My name is Maria.\"",
+"answer": "Λέγομαι Μαρία.",
+"accept": [
+"Με λένε Μαρία."
+],
+"why": "λέγομαι.",
+"id": "passive-present-325e5068"
+},
+{
+"type": "write",
+"q": "\"We see each other often.\"",
+"answer": "Βλεπόμαστε συχνά.",
+"accept": [],
+"why": "Reciprocal.",
+"id": "passive-present-740d0667"
+},
+{
+"type": "write",
+"q": "\"I'm getting ready.\"",
+"answer": "Ετοιμάζομαι.",
+"accept": [],
+"why": "ετοιμάζομαι.",
+"id": "passive-present-71e8d7bf"
+},
+{
+"type": "write",
+"q": "\"Tickets are sold here.\"",
+"answer": "Τα εισιτήρια πουλιούνται εδώ.",
+"accept": [
+"Εισιτήρια πουλιούνται εδώ."
+],
+"why": "πουλάω → πουλιέμαι.",
+"id": "passive-present-f431cc89"
+},
+{
+"type": "order",
+"q": "\"The shop is run by his wife.\"",
+"answer": "Το μαγαζί διευθύνεται από τη γυναίκα του.",
+"accept": [],
+"why": "Agent: από.",
+"id": "passive-present-be9bf6c0"
+}
+]
+}
+]
+}
+],
+"id": "passive-present",
+"el": "Παθητικά ρήματα Ι: -ομαι, -άμαι, -ιέμαι, -ούμαι",
+"title": "Passive and middle verbs I: present and imperfect",
+"span": "A2–B1",
+"blurb": "The verbs ending in -μαι: their four present patterns (έρχομαι, θυμάμαι, στενοχωριέμαι, ασχολούμαι), the imperfect in -όμουν, and the four things -μαι can mean: passive, reflexive, reciprocal, or just an ordinary verb (deponent).",
+"intro": [
+{
+"p": "Every Greek verb ending in **-μαι** uses the \"passive\" set of endings. But not all of them are passive in meaning. **Έρχομαι** \"I come\", **σκέφτομαι** \"I think\", **κοιμάμαι** \"I sleep\" are perfectly ordinary verbs that simply have these endings. Many very common verbs belong here, so the endings are a must from A2 on."
+},
+{
+"links": [
+{
+"href": "#b1-passive-present",
+"kind": "Lesson",
+"el": "Παθητική φωνή: ενεστώτας",
+"title": "Passive verbs in the present and imperfect"
+},
+{
+"href": "#verbs-passive-continuous",
+"kind": "Lesson",
+"el": "Παθητική φωνή: ενεστώτας και παρατατικός",
+"title": "Passive and middle imperfective in full"
+},
+{
+"href": "#verbs-passive-stems",
+"kind": "Lesson",
+"el": "Παθητικά θέματα αορίστου",
+"title": "Passive perfective stems by class"
+},
+{
+"href": "#cards.present-passive",
+"kind": "Card",
+"el": "Παθητικός ενεστώτας και παρατατικός",
+"title": "Passive present and imperfect"
+},
+{
+"href": "#pos.verb-voice",
+"kind": "Part of speech",
+"el": "Το ρήμα Γ΄: φωνή και σύνταξη",
+"title": "The verb III: voice, objects and verb types"
+}
+]
+}
+],
+"num": 26
+}

@@ -1,0 +1,1265 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Αόριστος σε -θηκα",
+"title": "The aorist in -θηκα",
+"body": [
+{
+"table": {
+"head": [
+"",
+"κοιμήθηκα",
+"σηκώθηκα",
+"κουράστηκα"
+],
+"rows": [
+[
+"εγώ",
+"κοιμήθηκα",
+"σηκώθηκα",
+"κουράστηκα"
+],
+[
+"εσύ",
+"κοιμήθηκες",
+"σηκώθηκες",
+"κουράστηκες"
+],
+[
+"αυτός",
+"κοιμήθηκε",
+"σηκώθηκε",
+"κουράστηκε"
+],
+[
+"εμείς",
+"κοιμηθήκαμε",
+"σηκωθήκαμε",
+"κουραστήκαμε"
+],
+[
+"εσείς",
+"κοιμηθήκατε",
+"σηκωθήκατε",
+"κουραστήκατε"
+],
+[
+"αυτοί",
+"κοιμήθηκαν / κοιμηθήκανε",
+"σηκώθηκαν / σηκωθήκανε",
+"κουράστηκαν / κουραστήκανε"
+]
+]
+}
+},
+{
+"p": "The stress is on the syllable before **-θηκ-**, except in **εμείς / εσείς**, where it moves onto **-θήκ-**. There is never an augment."
+},
+{
+"p": "The everyday -μαι verbs and their aorists:"
+},
+{
+"table": {
+"head": [
+"Present",
+"Aorist",
+"Present",
+"Aorist"
+],
+"rows": [
+[
+"θυμάμαι",
+"θυμήθηκα",
+"σκέφτομαι",
+"σκέφτηκα"
+],
+[
+"φοβάμαι",
+"φοβήθηκα",
+"χρειάζομαι",
+"χρειάστηκα"
+],
+[
+"λυπάμαι",
+"λυπήθηκα",
+"βιάζομαι",
+"βιάστηκα"
+],
+[
+"γεννιέμαι",
+"γεννήθηκα",
+"ετοιμάζομαι",
+"ετοιμάστηκα"
+],
+[
+"στενοχωριέμαι",
+"στενοχωρήθηκα",
+"παντρεύομαι",
+"παντρεύτηκα"
+],
+[
+"βρίσκομαι",
+"βρέθηκα",
+"ντύνομαι",
+"ντύθηκα"
+],
+[
+"χάνομαι",
+"χάθηκα",
+"πλένομαι",
+"πλύθηκα"
+],
+[
+"φαίνομαι",
+"φάνηκα",
+"χαίρομαι",
+"χάρηκα"
+],
+[
+"ντρέπομαι",
+"ντράπηκα",
+"ασχολούμαι",
+"ασχολήθηκα"
+]
+]
+}
+},
+{
+"tip": "Three common -μαι verbs have **active** aorists: **έρχομαι → ήρθα, γίνομαι → έγινα, κάθομαι → κάθισα**."
+},
+{
+"ex": [
+{
+"el": "Πού γεννήθηκες;",
+"en": "Where were you born?"
+},
+{
+"el": "Χάρηκα!",
+"en": "Nice to meet you! (lit. I was glad)"
+},
+{
+"el": "Κουράστηκα πολύ σήμερα.",
+"en": "I got really tired today."
+},
+{
+"el": "Παντρευτήκαμε πέρσι.",
+"en": "We got married last year."
+},
+{
+"el": "Τι έγινε;",
+"en": "What happened?"
+},
+{
+"el": "Ξέχασα, δεν θυμήθηκα.",
+"en": "I forgot, it didn't come to mind."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Aorist of **ετοιμάζομαι**, all persons",
+"a": "ετοιμάστηκα, ετοιμάστηκες, ετοιμάστηκε, ετοιμαστήκαμε, ετοιμαστήκατε, ετοιμάστηκαν | ετοιμάστηκα, ετοιμάστηκες, ετοιμάστηκε, ετοιμαστήκαμε, ετοιμαστήκατε, ετοιμαστήκανε",
+"why": "Stress moves onto -θήκ- / -στήκ- in εμείς and εσείς."
+},
+{
+"q": "\"When were you (pl) born?\"",
+"a": "Πότε γεννηθήκατε;",
+"why": "γεννιέμαι → γεννήθηκα."
+},
+{
+"q": "\"I was afraid.\"",
+"a": "Φοβήθηκα.",
+"why": "φοβάμαι → φοβήθηκα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πού ___; (were you born, sg)",
+"options": [
+"γεννιόσουν",
+"γεννήθηκες",
+"γεννηθήκες",
+"γέννησες"
+],
+"answer": "γεννήθηκες",
+"why": "γεννιέμαι → γεννήθηκες.",
+"id": "passive-past-4f3c4bbf"
+},
+{
+"type": "choice",
+"q": "___ πολύ που σε γνώρισα! (I was glad)",
+"options": [
+"Χαιρήθηκα",
+"Χάρηκα",
+"Χαίρησα",
+"Χαρήκα"
+],
+"answer": "Χάρηκα",
+"why": "χαίρομαι → χάρηκα.",
+"id": "passive-past-09ea2a33"
+},
+{
+"type": "choice",
+"q": "Εμείς ___ το 2015. (got married)",
+"options": [
+"παντρευτήκαν",
+"παντρευτήκαμε",
+"παντρεύτηκαμε",
+"παντρέψαμε"
+],
+"answer": "παντρευτήκαμε",
+"why": "Stress on -τήκ- in εμείς.",
+"id": "passive-past-97ae68ed"
+},
+{
+"type": "choice",
+"q": "Χθες ___ στις δέκα. (I went to sleep)",
+"options": [
+"κοιμόμουν",
+"κοιμήθηκα",
+"κοίμησα",
+"κοιμηθήκα"
+],
+"answer": "κοιμήθηκα",
+"why": "κοιμάμαι → κοιμήθηκα.",
+"id": "passive-past-6f22204b"
+},
+{
+"type": "choice",
+"q": "Τι ___; (happened)",
+"options": [
+"γίνηκε",
+"έγινε",
+"γένηκε",
+"γίνθηκε"
+],
+"answer": "έγινε",
+"why": "γίνομαι → έγινε (active aorist).",
+"id": "passive-past-0383c8b5"
+},
+{
+"type": "choice",
+"q": "Γιατί ___; Δεν σου είπα τίποτα κακό. (did you get upset, sg)",
+"options": [
+"στενοχωριόσουν",
+"στενοχωρήθηκες",
+"στενοχωριέσαι",
+"στενοχώρησες"
+],
+"answer": "στενοχωρήθηκες",
+"why": "-ιέμαι → -ήθηκα.",
+"id": "passive-past-f9a44793"
+},
+{
+"type": "choice",
+"q": "___ κι εγώ στην ταβέρνα. (I sat down)",
+"options": [
+"Καθήθηκα",
+"Κάθισα",
+"Καθίστηκα",
+"Κάθησου"
+],
+"answer": "Κάθισα",
+"why": "κάθομαι → κάθισα.",
+"id": "passive-past-b955bf3f"
+},
+{
+"type": "write",
+"q": "Aorist \"I got tired\"",
+"answer": "κουράστηκα",
+"accept": [],
+"why": "κουράζομαι.",
+"id": "passive-past-d69a0fca"
+},
+{
+"type": "write",
+"q": "Aorist \"we remembered\"",
+"answer": "θυμηθήκαμε",
+"accept": [],
+"why": "θυμάμαι.",
+"id": "passive-past-b4d4c8e6"
+},
+{
+"type": "write",
+"q": "Aorist \"they got lost\"",
+"answer": "χάθηκαν",
+"accept": [
+"χαθήκανε"
+],
+"why": "χάνομαι.",
+"id": "passive-past-7d9b08bf"
+},
+{
+"type": "write",
+"q": "Aorist \"you (sg) were afraid\"",
+"answer": "φοβήθηκες",
+"accept": [],
+"why": "φοβάμαι.",
+"id": "passive-past-a54d45d0"
+},
+{
+"type": "write",
+"q": "Aorist \"she got dressed\"",
+"answer": "ντύθηκε",
+"accept": [],
+"why": "ντύνομαι.",
+"id": "passive-past-8dc5f99c"
+},
+{
+"type": "write",
+"q": "\"Nice to meet you!\"",
+"answer": "Χάρηκα!",
+"accept": [
+"Χάρηκα πολύ!"
+],
+"why": "χαίρομαι → χάρηκα.",
+"id": "passive-past-a52ebc56"
+},
+{
+"type": "write",
+"q": "\"What happened?\"",
+"answer": "Τι έγινε;",
+"accept": [],
+"why": "γίνομαι → έγινε.",
+"id": "passive-past-27afb3f5"
+},
+{
+"type": "order",
+"q": "\"Where were you (sg) born?\"",
+"answer": "Πού γεννήθηκες;",
+"accept": [],
+"why": "γεννιέμαι.",
+"id": "passive-past-6b2d849d"
+},
+{
+"type": "order",
+"q": "\"We got very tired.\"",
+"answer": "Κουραστήκαμε πολύ.",
+"accept": [],
+"why": "κουράζομαι.",
+"id": "passive-past-d46b760c"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Από τον ενεργητικό στον παθητικό αόριστο",
+"title": "From active to passive aorist",
+"body": [
+{
+"p": "For verbs that have both voices, the passive aorist is predictable from the active one:"
+},
+{
+"table": {
+"head": [
+"Active aorist",
+"Passive aorist",
+"Example"
+],
+"rows": []
+}
+},
+{
+"p": "Some are irregular and worth memorising: **κόβω → κόπηκα, πλένω → πλύθηκα, βλέπω → ειδώθηκα** (\"we met\": **ειδωθήκαμε**), **λέω → ειπώθηκε** (\"it was said\"), **παίρνω → πάρθηκε, στέλνω → στάλθηκε, χαλάω → χάλασε** (intransitive active)."
+},
+{
+"ex": [
+{
+"el": "Το βιβλίο γράφτηκε το 1950.",
+"en": "The book was written in 1950."
+},
+{
+"el": "Ο λογαριασμός πληρώθηκε.",
+"en": "The bill has been paid."
+},
+{
+"el": "Αλλάχτηκα και βγήκα.",
+"en": "I got changed and went out."
+},
+{
+"el": "Κόπηκα με το μαχαίρι.",
+"en": "I cut myself with the knife."
+},
+{
+"el": "Τα γράμματα στάλθηκαν χθες.",
+"en": "The letters were sent yesterday."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Passive aorist of **κλείνω** (έκλεισα)",
+"a": "κλείστηκα (αυτό: κλείστηκε)",
+"why": "-σα → -στηκα."
+},
+{
+"q": "\"The film was shot in Crete.\" (γυρίζω, γύρισα)",
+"a": "Η ταινία γυρίστηκε στην Κρήτη.",
+"why": "-σα → -στηκε."
+},
+{
+"q": "\"Many things were said.\"",
+"a": "Ειπώθηκαν πολλά. | Πολλά ειπώθηκαν.",
+"why": "λέω → ειπώθηκε (irregular)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Το σπίτι ___ το 1900. (was built: χτίζω, έχτισα)",
+"options": [
+"χτίζτηκε",
+"χτίστηκε",
+"χτίσηκε",
+"έχτισε"
+],
+"answer": "χτίστηκε",
+"why": "-σα → -στηκε.",
+"id": "passive-past-db288526"
+},
+{
+"type": "choice",
+"q": "Ο λογαριασμός ___. (was paid)",
+"options": [
+"πλήρωσε",
+"πληρώθηκε",
+"πληρώστηκε",
+"πληρώνθηκε"
+],
+"answer": "πληρώθηκε",
+"why": "-ώνω → -ώθηκε.",
+"id": "passive-past-29a74b80"
+},
+{
+"type": "choice",
+"q": "Η ταινία ___ σε πολλές γλώσσες. (was translated: μεταφράζω)",
+"options": [
+"μεταφράσηκε",
+"μεταφράστηκε",
+"μεταφράχτηκε",
+"μετέφρασε"
+],
+"answer": "μεταφράστηκε",
+"why": "-σα → -στηκε.",
+"id": "passive-past-9d5373b8"
+},
+{
+"type": "choice",
+"q": "___ με το χαρτί. (I cut myself)",
+"options": [
+"Κόφτηκα",
+"Κόπηκα",
+"Κόψηκα",
+"Κόβτηκα"
+],
+"answer": "Κόπηκα",
+"why": "κόβω → κόπηκα (irregular).",
+"id": "passive-past-526b342b"
+},
+{
+"type": "choice",
+"q": "Το γράμμα ___ χθες. (was sent)",
+"options": [
+"στείλθηκε",
+"στάλθηκε",
+"στάλτηκε",
+"έστειλε"
+],
+"answer": "στάλθηκε",
+"why": "στέλνω → στάλθηκε.",
+"id": "passive-past-83b66dfa"
+},
+{
+"type": "write",
+"q": "Passive aorist \"it was written\"",
+"answer": "γράφτηκε",
+"accept": [],
+"why": "γράφω.",
+"id": "passive-past-969868d4"
+},
+{
+"type": "write",
+"q": "Passive aorist \"it was paid\"",
+"answer": "πληρώθηκε",
+"accept": [],
+"why": "πληρώνω.",
+"id": "passive-past-5b61678e"
+},
+{
+"type": "write",
+"q": "Passive aorist \"they were sold\" (πουλάω, πούλησα)",
+"answer": "πουλήθηκαν",
+"accept": [
+"πουληθήκανε"
+],
+"why": "-ησα → -ήθηκα.",
+"id": "passive-past-7eedad5c"
+},
+{
+"type": "write",
+"q": "Passive aorist \"I got changed\"",
+"answer": "αλλάχτηκα",
+"accept": [],
+"why": "αλλάζω.",
+"id": "passive-past-0a40b977"
+},
+{
+"type": "write",
+"q": "\"The house was sold.\"",
+"answer": "Το σπίτι πουλήθηκε.",
+"accept": [],
+"why": "πουλάω → πουλήθηκε.",
+"id": "passive-past-2d96bad8"
+},
+{
+"type": "order",
+"q": "\"The letters were sent yesterday.\"",
+"answer": "Τα γράμματα στάλθηκαν χθες.",
+"accept": [],
+"why": "στέλνω → στάλθηκαν.",
+"id": "passive-past-e683b28c"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Να -θώ, θα -θώ",
+"title": "The dependent: θα κοιμηθώ, να βιαστούμε",
+"body": [
+{
+"p": "Drop **-ηκα** from the aorist and add the endings **-ώ, -είς, -εί, -ούμε, -είτε, -ούν**: **κοιμήθ-ηκα → (να) κοιμηθώ**."
+},
+{
+"table": {
+"head": [
+"",
+"κοιμηθώ",
+"σηκωθώ",
+"χαρώ"
+],
+"rows": [
+[
+"εγώ",
+"να κοιμηθώ",
+"να σηκωθώ",
+"να χαρώ"
+],
+[
+"εσύ",
+"να κοιμηθείς",
+"να σηκωθείς",
+"να χαρείς"
+],
+[
+"αυτός",
+"να κοιμηθεί",
+"να σηκωθεί",
+"να χαρεί"
+],
+[
+"εμείς",
+"να κοιμηθούμε",
+"να σηκωθούμε",
+"να χαρούμε"
+],
+[
+"εσείς",
+"να κοιμηθείτε",
+"να σηκωθείτε",
+"να χαρείτε"
+],
+[
+"αυτοί",
+"να κοιμηθούν",
+"να σηκωθούν",
+"να χαρούν"
+]
+]
+}
+},
+{
+"p": "The **perfect** uses the **-θεί** form: **έχω κουραστεί, έχει γίνει, έχουμε παντρευτεί**."
+},
+{
+"ex": [
+{
+"el": "Πρέπει να κοιμηθώ νωρίς.",
+"en": "I have to go to sleep early."
+},
+{
+"el": "Θα παντρευτούν τον Ιούνιο.",
+"en": "They're getting married in June."
+},
+{
+"el": "Πρέπει να βιαστούμε.",
+"en": "We need to hurry."
+},
+{
+"el": "Πότε θα βρεθούμε;",
+"en": "When shall we meet?"
+},
+{
+"el": "Τι έχει γίνει εδώ;",
+"en": "What's happened here?"
+},
+{
+"el": "Να χαίρεσαι τα παιδιά σου!",
+"en": "May you enjoy your children! (a blessing; continuous form)"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I want to sit down.\"",
+"a": "Θέλω να καθίσω. | Θέλω να κάτσω.",
+"why": "κάθομαι has active dependent forms: να καθίσω / να κάτσω."
+},
+{
+"q": "\"Will you (sg) remember?\"",
+"a": "Θα θυμηθείς;",
+"why": "θυμήθηκα → θα θυμηθείς."
+},
+{
+"q": "\"I've got tired.\"",
+"a": "Έχω κουραστεί.",
+"why": "Perfect: έχω + -θεί / -στεί."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πρέπει να ___ νωρίς αύριο. (get up)",
+"options": [
+"σηκώνω",
+"σηκωθώ",
+"σηκώθηκα",
+"σηκωθεί"
+],
+"answer": "σηκωθώ",
+"why": "να σηκωθώ.",
+"id": "passive-past-d6eaa167"
+},
+{
+"type": "choice",
+"q": "Πότε θα ___; (will you get married, pl)",
+"options": [
+"παντρευτήκατε",
+"παντρευτείτε",
+"παντρευτούμε",
+"παντρευτήτε"
+],
+"answer": "παντρευτείτε",
+"why": "θα παντρευτείτε.",
+"id": "passive-past-5ee8f2c3"
+},
+{
+"type": "choice",
+"q": "Πρέπει να ___, αργήσαμε! (we hurry)",
+"options": [
+"βιαζόμασταν",
+"βιαστούμε",
+"βιαστήκαμε",
+"βιάσουμε"
+],
+"answer": "βιαστούμε",
+"why": "να βιαστούμε.",
+"id": "passive-past-29446512"
+},
+{
+"type": "choice",
+"q": "Έχω ___ πολύ. (got tired)",
+"options": [
+"κουράσει",
+"κουραστεί",
+"κουράστηκα",
+"κουραστώ"
+],
+"answer": "κουραστεί",
+"why": "Perfect: έχω κουραστεί.",
+"id": "passive-past-7507f328"
+},
+{
+"type": "choice",
+"q": "Δεν θέλω να ___ τίποτα. (to remember)",
+"options": [
+"θυμήσει",
+"θυμηθώ",
+"θυμήθηκα",
+"θυμήσω"
+],
+"answer": "θυμηθώ",
+"why": "να θυμηθώ.",
+"id": "passive-past-476de847"
+},
+{
+"type": "choice",
+"q": "Τι έχει ___; (happened)",
+"options": [
+"γινεί",
+"γίνει",
+"γίνεται",
+"έγινε"
+],
+"answer": "γίνει",
+"why": "έχει γίνει.",
+"id": "passive-past-52d17715"
+},
+{
+"type": "write",
+"q": "\"I want to sleep.\"",
+"answer": "Θέλω να κοιμηθώ.",
+"accept": [],
+"why": "κοιμάμαι.",
+"id": "passive-past-007f0e50"
+},
+{
+"type": "write",
+"q": "\"We'll meet tomorrow.\"",
+"answer": "Θα βρεθούμε αύριο.",
+"accept": [
+"Αύριο θα βρεθούμε."
+],
+"why": "βρίσκομαι → θα βρεθούμε.",
+"id": "passive-past-40afbe47"
+},
+{
+"type": "write",
+"q": "\"You (sg) must hurry.\"",
+"answer": "Πρέπει να βιαστείς.",
+"accept": [],
+"why": "βιάζομαι.",
+"id": "passive-past-916b3f30"
+},
+{
+"type": "write",
+"q": "\"I'm tired (I've got tired).\"",
+"answer": "Έχω κουραστεί.",
+"accept": [
+"Είμαι κουρασμένος.",
+"Είμαι κουρασμένη."
+],
+"why": "Perfect or participle.",
+"id": "passive-past-e60537dc"
+},
+{
+"type": "write",
+"q": "\"What has happened?\"",
+"answer": "Τι έχει γίνει;",
+"accept": [],
+"why": "γίνομαι → έχει γίνει.",
+"id": "passive-past-3571b615"
+},
+{
+"type": "order",
+"q": "\"When shall we meet?\"",
+"answer": "Πότε θα βρεθούμε;",
+"accept": [],
+"why": "βρίσκομαι.",
+"id": "passive-past-94401772"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Προστακτική: -σου, -θείτε",
+"title": "The imperative: σήκω, βιάσου, καθίστε",
+"body": [
+{
+"table": {
+"head": [
+"Present",
+"εσύ",
+"εσείς"
+],
+"rows": [
+[
+"κοιμάμαι",
+"κοιμήσου",
+"κοιμηθείτε"
+],
+[
+"σηκώνομαι",
+"σήκω / σηκώσου",
+"σηκωθείτε"
+],
+[
+"βιάζομαι",
+"βιάσου",
+"βιαστείτε"
+],
+[
+"ετοιμάζομαι",
+"ετοιμάσου",
+"ετοιμαστείτε"
+],
+[
+"ντύνομαι",
+"ντύσου",
+"ντυθείτε"
+],
+[
+"θυμάμαι",
+"θυμήσου",
+"θυμηθείτε"
+],
+[
+"κάθομαι",
+"κάτσε / κάθισε",
+"καθίστε"
+],
+[
+"έρχομαι",
+"έλα",
+"ελάτε"
+]
+]
+}
+},
+{
+"p": "The plural is simply the dependent form: **(να) βιαστείτε → βιαστείτε!** For prohibitions use **μη(ν)** + dependent or present: **Μη φοβηθείς! / Μη φοβάσαι!**"
+},
+{
+"ex": [
+{
+"el": "Βιάσου, θα χάσουμε το πλοίο!",
+"en": "Hurry up, we'll miss the boat!"
+},
+{
+"el": "Ντύσου ζεστά.",
+"en": "Dress warmly."
+},
+{
+"el": "Καθίστε, παρακαλώ.",
+"en": "Please sit down."
+},
+{
+"el": "Θυμήσου τι σου είπα.",
+"en": "Remember what I told you."
+},
+{
+"el": "Μη στενοχωριέσαι!",
+"en": "Don't be upset!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Get ready (sg), we're leaving!\"",
+"a": "Ετοιμάσου, φεύγουμε!",
+"why": "ετοιμάζομαι → ετοιμάσου."
+},
+{
+"q": "\"Hurry up (pl)!\"",
+"a": "Βιαστείτε!",
+"why": "Plural = dependent form."
+},
+{
+"q": "\"Go to sleep (sg)!\"",
+"a": "Κοιμήσου!",
+"why": "κοιμάμαι → κοιμήσου."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___, αργήσαμε! (Hurry up, sg)",
+"options": [
+"Βιάζου",
+"Βιάσου",
+"Βιαστείς",
+"Βιάσε"
+],
+"answer": "Βιάσου",
+"why": "βιάζομαι → βιάσου.",
+"id": "passive-past-ac8d8e0c"
+},
+{
+"type": "choice",
+"q": "___ ζεστά, κάνει κρύο. (Dress, pl)",
+"options": [
+"Ντυθήτε",
+"Ντυθείτε",
+"Ντύστε",
+"Ντυθήστε"
+],
+"answer": "Ντυθείτε",
+"why": "Plural: ντυθείτε.",
+"id": "passive-past-5cc400df"
+},
+{
+"type": "choice",
+"q": "___, είναι αργά! (Go to sleep, sg)",
+"options": [
+"Κοιμήθου",
+"Κοιμήσου",
+"Κοιμάσου",
+"Κοιμήσε"
+],
+"answer": "Κοιμήσου",
+"why": "κοιμάμαι → κοιμήσου.",
+"id": "passive-past-93cbaaf8"
+},
+{
+"type": "choice",
+"q": "Μη ___! (be afraid, sg)",
+"options": [
+"φοβήσου",
+"φοβάσαι",
+"φοβάσου",
+"φοβήθηκες"
+],
+"answer": "φοβάσαι",
+"why": "Prohibition: μη + subjunctive.",
+"id": "passive-past-f0462889"
+},
+{
+"type": "write",
+"q": "Imperative \"hurry!\" (sg)",
+"answer": "βιάσου",
+"accept": [],
+"why": "βιάζομαι.",
+"id": "passive-past-1be680c1"
+},
+{
+"type": "write",
+"q": "Imperative \"sit down!\" (pl)",
+"answer": "καθίστε",
+"accept": [],
+"why": "κάθομαι.",
+"id": "passive-past-302d3270"
+},
+{
+"type": "write",
+"q": "Imperative \"get up!\" (sg)",
+"answer": "σήκω",
+"accept": [
+"σηκώσου"
+],
+"why": "σηκώνομαι.",
+"id": "passive-past-e8837edd"
+},
+{
+"type": "write",
+"q": "Imperative \"remember!\" (pl)",
+"answer": "θυμηθείτε",
+"accept": [],
+"why": "θυμάμαι.",
+"id": "passive-past-c33f71af"
+},
+{
+"type": "order",
+"q": "\"Dress (sg) warmly, it's cold.\"",
+"answer": "Ντύσου ζεστά, κάνει κρύο.",
+"accept": [],
+"why": "ντύνομαι → ντύσου.",
+"id": "passive-past-c79115de"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Μετοχή σε -μένος",
+"title": "The participle in -μένος",
+"body": [
+{
+"p": "The passive participle ends in **-μένος, -μένη, -μένο** and declines like an adjective. It describes a **state** resulting from an action: **κλειστός / κλεισμένος** \"closed\", **κουρασμένος** \"tired\"."
+},
+{
+"table": {
+"head": [
+"Verb",
+"Participle",
+"Meaning"
+],
+"rows": [
+[
+"κουράζω",
+"κουρασμένος",
+"tired"
+],
+[
+"παντρεύω",
+"παντρεμένος",
+"married"
+],
+[
+"αγαπάω",
+"αγαπημένος",
+"favourite, beloved"
+],
+[
+"χαλάω",
+"χαλασμένος",
+"broken, gone off"
+],
+[
+"σπάω",
+"σπασμένος",
+"broken"
+],
+[
+"ψήνω",
+"ψημένος",
+"roasted, baked"
+],
+[
+"γράφω",
+"γραμμένος",
+"written"
+],
+[
+"κόβω",
+"κομμένος",
+"cut"
+],
+[
+"χάνω",
+"χαμένος",
+"lost"
+],
+[
+"φτιάχνω",
+"φτιαγμένος",
+"made"
+]
+]
+}
+},
+{
+"p": "Stems in **-φ-, -β-, -π-** double the μ: **γραμμένος, κομμένος, ραμμένος** (ράβω \"sew\")."
+},
+{
+"ex": [
+{
+"el": "Είμαι πολύ κουρασμένη.",
+"en": "I'm very tired."
+},
+{
+"el": "Είσαι παντρεμένος;",
+"en": "Are you married?"
+},
+{
+"el": "Ποιο είναι το αγαπημένο σου φαγητό;",
+"en": "What's your favourite food?"
+},
+{
+"el": "Το γάλα είναι χαλασμένο.",
+"en": "The milk has gone off."
+},
+{
+"el": "Το μαγαζί ήταν κλεισμένο από μέσα.",
+"en": "The shop was locked from inside."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"The windows are broken.\"",
+"a": "Τα παράθυρα είναι σπασμένα.",
+"why": "Neuter plural: -μένα."
+},
+{
+"q": "\"My favourite song\"",
+"a": "Το αγαπημένο μου τραγούδι",
+"why": "αγαπημένος before the noun."
+},
+{
+"q": "\"Is it written in Greek?\"",
+"a": "Είναι γραμμένο στα ελληνικά;",
+"why": "γράφω → γραμμένος (double μ)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Είμαστε πολύ ___. (tired, women)",
+"options": [
+"κουρασμένοι",
+"κουρασμένες",
+"κουρασμένα",
+"κουρασμένη"
+],
+"answer": "κουρασμένες",
+"why": "Feminine plural: -μένες.",
+"id": "passive-past-8a88f78b"
+},
+{
+"type": "choice",
+"q": "Είσαι ___; (married, to a man)",
+"options": [
+"παντρευμένος",
+"παντρεμένος",
+"παντρευτός",
+"πάντρεμένος"
+],
+"answer": "παντρεμένος",
+"why": "παντρεύω → παντρεμένος.",
+"id": "passive-past-a6632ad9"
+},
+{
+"type": "choice",
+"q": "Το γράμμα είναι ___ με μολύβι. (written)",
+"options": [
+"γραμένο",
+"γραμμένο",
+"γραμμένος",
+"γραψμένο"
+],
+"answer": "γραμμένο",
+"why": "Double μ: γραμμένο.",
+"id": "passive-past-58ff3f3d"
+},
+{
+"type": "choice",
+"q": "Το ψάρι είναι καλά ___. (cooked: ψήνω)",
+"options": [
+"ψησμένο",
+"ψημένο",
+"ψημμένο",
+"ψητός"
+],
+"answer": "ψημένο",
+"why": "ψήνω → ψημένο.",
+"id": "passive-past-317faed3"
+},
+{
+"type": "choice",
+"q": "Η τηλεόραση είναι ___. (broken: χαλάω)",
+"options": [
+"χαλωμένη",
+"χαλασμένη",
+"χαλασμένος",
+"χαλάμενη"
+],
+"answer": "χαλασμένη",
+"why": "χαλάω → χαλασμένη.",
+"id": "passive-past-18226bfc"
+},
+{
+"type": "write",
+"q": "\"I'm tired.\" (woman)",
+"answer": "Είμαι κουρασμένη.",
+"accept": [],
+"why": "-μένη.",
+"id": "passive-past-bb9af85c"
+},
+{
+"type": "write",
+"q": "\"Are you (sg) married?\" (to a woman)",
+"answer": "Είσαι παντρεμένη;",
+"accept": [],
+"why": "-μένη.",
+"id": "passive-past-1da45fae"
+},
+{
+"type": "write",
+"q": "\"My favourite film\"",
+"answer": "Η αγαπημένη μου ταινία",
+"accept": [],
+"why": "Feminine noun.",
+"id": "passive-past-a02e5f95"
+},
+{
+"type": "write",
+"q": "\"The milk has gone off.\"",
+"answer": "Το γάλα είναι χαλασμένο.",
+"accept": [
+"Το γάλα χάλασε."
+],
+"why": "χαλασμένο.",
+"id": "passive-past-a600569f"
+},
+{
+"type": "write",
+"q": "\"The door is closed.\"",
+"answer": "Η πόρτα είναι κλειστή.",
+"accept": [
+"Η πόρτα είναι κλεισμένη."
+],
+"why": "Adjective κλειστός or participle κλεισμένος.",
+"id": "passive-past-de264ff0"
+},
+{
+"type": "order",
+"q": "\"The cups are broken.\"",
+"answer": "Τα φλιτζάνια είναι σπασμένα.",
+"accept": [],
+"why": "Neuter plural.",
+"id": "passive-past-ca434b06"
+}
+]
+}
+]
+}
+],
+"id": "passive-past",
+"el": "Παθητικά ρήματα ΙΙ: -θηκα, να -θώ, -μένος",
+"title": "Passive and middle verbs II: aorist, future, imperative, participle",
+"span": "B1",
+"blurb": "The perfective forms of -μαι verbs: the aorist in -θηκα (κοιμήθηκα, χάρηκα, σηκώθηκα), the dependent in -θώ (θα κοιμηθώ, να βιαστούμε), the imperative in -σου / -θείτε (σήκω, βιάσου, καθίστε), the perfect (έχω κουραστεί) and the participle in -μένος.",
+"intro": [
+{
+"p": "The -μαι verbs of chapter 26 have their own perfective stem, marked by **-θ-** (often hidden in -στ-, -φτ-, -χτ-). Once you know the aorist **κοιμήθηκα** \"I slept\", you get everything else from it: **θα κοιμηθώ, να κοιμηθείς, κοιμήσου, έχω κοιμηθεί**."
+},
+{
+"links": [
+{
+"href": "#b1-passive-past",
+"kind": "Lesson",
+"el": "Παθητικός αόριστος",
+"title": "Passive simple past, dependent and future"
+},
+{
+"href": "#verbs-passive-stems",
+"kind": "Lesson",
+"el": "Παθητικά θέματα αορίστου",
+"title": "Passive perfective stems by class"
+},
+{
+"href": "#cards.passive-past",
+"kind": "Card",
+"el": "Παθητικός αόριστος",
+"title": "The passive aorist"
+},
+{
+"href": "#b2-passive-irregular",
+"kind": "Lesson",
+"el": "Ανώμαλα παθητικά",
+"title": "Tricky passive forms across all tenses"
+},
+{
+"href": "#b2-deponents",
+"kind": "Lesson",
+"el": "Αποθετικά",
+"title": "Deponents: αισθάνομαι, εργάζομαι, έρχομαι, κάθομαι"
+}
+]
+}
+],
+"num": 27
+}

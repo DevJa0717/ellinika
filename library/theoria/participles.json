@@ -1,0 +1,780 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Σχηματισμός: -οντας, -ώντας",
+"title": "Form: -οντας, -ώντας",
+"body": [
+{
+"p": "The gerund is built on the **present stem** and never changes for person, gender or number."
+},
+{
+"table": {
+"head": [
+"Verb type",
+"Ending",
+"Examples"
+],
+"rows": [
+[
+"with -γ-",
+"-γοντας",
+"λέω → λέγοντας, τρώω → τρώγοντας, ακούω → ακούγοντας, κλαίω → κλαίγοντας"
+],
+[
+"irregular",
+"",
+"είμαι → όντας, έχω → έχοντας, πηγαίνω → πηγαίνοντας"
+]
+]
+}
+},
+{
+"p": "-μαι verbs have no gerund in everyday Greek: you use a clause instead: **ενώ κοιμόταν** \"while (he was) sleeping\"."
+},
+{
+"p": "The **perfect gerund** is **έχοντας** + -ει: **έχοντας τελειώσει** \"having finished\". Negation is **μη(ν)**: **μην ξέροντας τι να κάνει** \"not knowing what to do\"."
+},
+{
+"ex": [
+{
+"el": "Περπατώντας στην παραλία, βρήκα ένα κοχύλι.",
+"en": "Walking on the beach, I found a shell."
+},
+{
+"el": "Έφυγε κλαίγοντας.",
+"en": "She left in tears."
+},
+{
+"el": "Μαθαίνεις γλώσσες μιλώντας.",
+"en": "You learn languages by speaking."
+},
+{
+"el": "Έχοντας τελειώσει τη δουλειά, πήγε για ύπνο.",
+"en": "Having finished work, he went to bed."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Gerund of **διαβάζω**, **περπατάω**, **τρώω**",
+"a": "διαβάζοντας, περπατώντας, τρώγοντας",
+"why": "Stem stress → -οντας; -άω → -ώντας; τρώω inserts -γ-."
+},
+{
+"q": "\"He came in shouting.\"",
+"a": "Μπήκε φωνάζοντας.",
+"why": "φωνάζω → φωνάζοντας."
+},
+{
+"q": "\"Not knowing the way, we got lost.\"",
+"a": "Μην ξέροντας τον δρόμο, χαθήκαμε. | Μη ξέροντας τον δρόμο, χαθήκαμε.",
+"why": "Negation μην / μη (the μην spelling is usual here)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Μπήκε στο δωμάτιο ___. (running)",
+"options": [
+"τρέχων",
+"τρέχοντας",
+"τρεχόντας",
+"τρέχοντα"
+],
+"answer": "τρέχοντας",
+"why": "τρέχω → τρέχοντας.",
+"id": "participles-accd3306"
+},
+{
+"type": "choice",
+"q": "Έμαθα ελληνικά ___ με φίλους. (talking)",
+"options": [
+"μιλόντας",
+"μιλώντας",
+"μιλάοντας",
+"μιλούντας"
+],
+"answer": "μιλώντας",
+"why": "-άω → -ώντας.",
+"id": "participles-1a485653"
+},
+{
+"type": "choice",
+"q": "Έφυγε ___. (crying)",
+"options": [
+"κλαίοντας",
+"κλαίγοντας",
+"κλαίγωντας",
+"κλάψοντας"
+],
+"answer": "κλαίγοντας",
+"why": "κλαίω → κλαίγοντας.",
+"id": "participles-aa0e785f"
+},
+{
+"type": "choice",
+"q": "___ τηλεόραση, αποκοιμήθηκε. (Watching)",
+"options": [
+"Βλέπωντας",
+"Βλέποντας",
+"Βλεπόντας",
+"Δοντας"
+],
+"answer": "Βλέποντας",
+"why": "βλέπω → βλέποντας.",
+"id": "participles-4b9523df"
+},
+{
+"type": "choice",
+"q": "___ τελειώσει, έφυγε. (Having)",
+"options": [
+"Έχων",
+"Έχοντας",
+"Είχοντας",
+"Έχωντας"
+],
+"answer": "Έχοντας",
+"why": "Perfect gerund: έχοντας + -ει.",
+"id": "participles-fdebd180"
+},
+{
+"type": "choice",
+"q": "Ο Νίκος, ___ γιατρός, ήξερε τι να κάνει. (being)",
+"options": [
+"είμαιοντας",
+"όντας",
+"ήμουνταν",
+"είναι"
+],
+"answer": "όντας",
+"why": "είμαι → όντας.",
+"id": "participles-24c7993f"
+},
+{
+"type": "write",
+"q": "Gerund of \"κάνω\"",
+"answer": "κάνοντας",
+"accept": [],
+"why": "-οντας.",
+"id": "participles-1f75096a"
+},
+{
+"type": "write",
+"q": "Gerund of \"ρωτάω\"",
+"answer": "ρωτώντας",
+"accept": [],
+"why": "-ώντας.",
+"id": "participles-2c040619"
+},
+{
+"type": "write",
+"q": "Gerund of \"λέω\"",
+"answer": "λέγοντας",
+"accept": [],
+"why": "With -γ-.",
+"id": "participles-153aa3e0"
+},
+{
+"type": "write",
+"q": "Gerund of \"έχω\"",
+"answer": "έχοντας",
+"accept": [],
+"why": "έχω → έχοντας.",
+"id": "participles-b5466cf3"
+},
+{
+"type": "write",
+"q": "\"He left running.\"",
+"answer": "Έφυγε τρέχοντας.",
+"accept": [],
+"why": "τρέχοντας.",
+"id": "participles-45ac47b8"
+},
+{
+"type": "write",
+"q": "\"Having eaten, we went out.\"",
+"answer": "Έχοντας φάει, βγήκαμε.",
+"accept": [],
+"why": "Perfect gerund.",
+"id": "participles-ec948634"
+},
+{
+"type": "order",
+"q": "\"I learn by listening.\"",
+"answer": "Μαθαίνω ακούγοντας.",
+"accept": [],
+"why": "ακούω → ακούγοντας.",
+"id": "participles-6743a35f"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Χρήση και το ίδιο υποκείμενο",
+"title": "Uses, and the same-subject rule",
+"body": [
+{
+"p": "The gerund adds a circumstance to the main verb: **how, while, because, if, by**. It must have the **same subject** as the main verb."
+},
+{
+"table": {
+"head": [
+"Meaning",
+"Example",
+"English"
+],
+"rows": [
+[
+"manner",
+"Ήρθε τρέχοντας.",
+"He came running."
+],
+[
+"time",
+"Βγαίνοντας, κλείσε την πόρτα.",
+"On your way out, close the door."
+],
+[
+"means",
+"Κέρδισε δουλεύοντας σκληρά.",
+"She won by working hard."
+],
+[
+"cause",
+"Μη θέλοντας να τον ενοχλήσω, έφυγα.",
+"Not wanting to disturb him, I left."
+],
+[
+"condition",
+"Διαβάζοντας λίγο κάθε μέρα, θα τα καταφέρεις.",
+"(If you) study a little each day, you'll make it."
+]
+]
+}
+},
+{
+"tip": "**Same subject only.** \"I saw him running\" cannot be *τον είδα τρέχοντας* if he is the one running; say **Τον είδα να τρέχει.** (να + present after verbs of perception)."
+},
+{
+"ex": [
+{
+"el": "Μιλάει στο κινητό οδηγώντας.",
+"en": "He talks on the phone while driving."
+},
+{
+"el": "Τον άκουσα να τραγουδάει.",
+"en": "I heard him singing."
+},
+{
+"el": "Γυρίζοντας σπίτι, πέρασα από τον φούρνο.",
+"en": "On the way home, I stopped at the bakery."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"While driving, I listen to the radio.\"",
+"a": "Οδηγώντας ακούω ραδιόφωνο. | Όταν οδηγώ ακούω ραδιόφωνο.",
+"why": "Same subject: gerund."
+},
+{
+"q": "\"I saw the children playing.\"",
+"a": "Είδα τα παιδιά να παίζουν.",
+"why": "Different subject: να + present."
+},
+{
+"q": "\"She makes money by teaching.\"",
+"a": "Βγάζει λεφτά κάνοντας μαθήματα. | Βγάζει λεφτά διδάσκοντας.",
+"why": "Means: gerund."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Είδα τη Μαρία ___ στο πάρκο. (running)",
+"options": [
+"τρέχοντας",
+"να τρέχει",
+"τρέχει",
+"να τρέξει"
+],
+"answer": "να τρέχει",
+"why": "Different subject: να + present.",
+"id": "participles-bc1fe1b5"
+},
+{
+"type": "choice",
+"q": "___ σπίτι, θυμήθηκα ότι ξέχασα το ψωμί. (Going back)",
+"options": [
+"Γυρίζων",
+"Γυρίζοντας",
+"Γυρίσοντας",
+"Να γυρίζει"
+],
+"answer": "Γυρίζοντας",
+"why": "Same subject: gerund.",
+"id": "participles-2595ec7c"
+},
+{
+"type": "choice",
+"q": "Μαθαίνεις να κολυμπάς ___. (by swimming)",
+"options": [
+"κολυμπόντας",
+"κολυμπώντας",
+"κολυμπάοντας",
+"να κολυμπήσεις"
+],
+"answer": "κολυμπώντας",
+"why": "-άω → -ώντας.",
+"id": "participles-356157c7"
+},
+{
+"type": "choice",
+"q": "Άκουσα τον Νίκο ___. (singing)",
+"options": [
+"τραγουδώντας",
+"να τραγουδάει",
+"τραγουδάει",
+"να τραγουδήσει"
+],
+"answer": "να τραγουδάει",
+"why": "Different subject: να + present.",
+"id": "participles-e75daa4a"
+},
+{
+"type": "write",
+"q": "\"I saw him leaving.\"",
+"answer": "Τον είδα να φεύγει.",
+"accept": [],
+"why": "Different subject: να + present.",
+"id": "participles-c30c3473"
+},
+{
+"type": "write",
+"q": "\"He works while listening to music.\"",
+"answer": "Δουλεύει ακούγοντας μουσική.",
+"accept": [],
+"why": "Same subject.",
+"id": "participles-fabaa65c"
+},
+{
+"type": "write",
+"q": "\"I heard them laughing.\"",
+"answer": "Τους άκουσα να γελάνε.",
+"accept": [
+"Τους άκουσα να γελούν."
+],
+"why": "να + present.",
+"id": "participles-af6c3109"
+},
+{
+"type": "order",
+"q": "\"On the way out, close the door.\" (sg)",
+"answer": "Βγαίνοντας, κλείσε την πόρτα.",
+"accept": [],
+"why": "Same subject (you).",
+"id": "participles-5b8a57b2"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "-μένος ή -τός;",
+"title": "-μένος or -τός?",
+"body": [
+{
+"p": "Many verbs have, besides the -μένος participle, an adjective in **-τός** (often **-στός, -χτός, -φτός**). The **-τός** adjective names a **kind or permanent quality**; **-μένος** names a **state resulting from an action**."
+},
+{
+"table": {
+"head": [
+"Verb",
+"-τός (quality)",
+"-μένος (result)"
+],
+"rows": [
+[
+"ανοίγω",
+"ανοιχτός \"open\"",
+"ανοιγμένος \"opened\""
+],
+[
+"κλείνω",
+"κλειστός \"closed\"",
+"κλεισμένος \"shut (in), booked\""
+],
+[
+"ψήνω",
+"ψητός \"grilled, roast\"",
+"ψημένος \"cooked (enough)\""
+],
+[
+"βράζω",
+"βραστός \"boiled\"",
+"βρασμένος \"boiled (done)\""
+],
+[
+"τηγανίζω",
+"τηγανητός \"fried\"",
+"τηγανισμένος \"fried (done)\""
+],
+[
+"γράφω",
+"γραπτός \"written (exam)\"",
+"γραμμένος \"written (down)\""
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Το μαγαζί είναι ανοιχτό μέχρι τις εννιά.",
+"en": "The shop is open until nine."
+},
+{
+"el": "Θέλω ένα ψητό κοτόπουλο.",
+"en": "I'd like a roast chicken."
+},
+{
+"el": "Το κοτόπουλο είναι καλά ψημένο;",
+"en": "Is the chicken well cooked?"
+},
+{
+"el": "Έχουμε γραπτή εξέταση αύριο.",
+"en": "We have a written exam tomorrow."
+},
+{
+"el": "Το δωμάτιο είναι κλεισμένο για δύο νύχτες.",
+"en": "The room is booked for two nights."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Fried potatoes\"",
+"a": "τηγανητές πατάτες",
+"why": "A kind of dish: -τός."
+},
+{
+"q": "\"The door is open.\"",
+"a": "Η πόρτα είναι ανοιχτή.",
+"why": "A state described as a quality: ανοιχτός."
+},
+{
+"q": "\"The meat isn't cooked enough.\"",
+"a": "Το κρέας δεν είναι καλά ψημένο. | Το κρέας δεν είναι αρκετά ψημένο.",
+"why": "Result of cooking: -μένος."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Το φαρμακείο είναι ___ την Κυριακή. (closed)",
+"options": [
+"κλεισμένος",
+"κλειστό",
+"κλειστός",
+"κλείσμενο"
+],
+"answer": "κλειστό",
+"why": "A shop's opening state: κλειστό (neuter).",
+"id": "participles-5186f4d1"
+},
+{
+"type": "choice",
+"q": "Θα πάρω ___ πατάτες. (fried)",
+"options": [
+"τηγανισμένος",
+"τηγανητές",
+"τηγανητά",
+"τηγανητοί"
+],
+"answer": "τηγανητές",
+"why": "A kind of dish: τηγανητές.",
+"id": "participles-8961e765"
+},
+{
+"type": "choice",
+"q": "Αύριο έχουμε ___ τεστ. (written)",
+"options": [
+"γραμμένο",
+"γραπτό",
+"γραφτό",
+"γραπτός"
+],
+"answer": "γραπτό",
+"why": "A kind of test: γραπτό.",
+"id": "participles-2f3f3876"
+},
+{
+"type": "choice",
+"q": "Το ψάρι δεν είναι καλά ___. (cooked)",
+"options": [
+"ψητός",
+"ψημένο",
+"ψημένος",
+"ψηστό"
+],
+"answer": "ψημένο",
+"why": "Result: ψημένο.",
+"id": "participles-8dc02bf5"
+},
+{
+"type": "write",
+"q": "\"Boiled eggs\"",
+"answer": "βραστά αυγά",
+"accept": [
+"αυγά βραστά"
+],
+"why": "A kind of dish.",
+"id": "participles-5d854ca0"
+},
+{
+"type": "write",
+"q": "\"The window is open.\"",
+"answer": "Το παράθυρο είναι ανοιχτό.",
+"accept": [],
+"why": "ανοιχτός.",
+"id": "participles-2f5dd197"
+},
+{
+"type": "write",
+"q": "\"The room is booked.\"",
+"answer": "Το δωμάτιο είναι κλεισμένο.",
+"accept": [],
+"why": "Result: κλεισμένο.",
+"id": "participles-7c09a10a"
+},
+{
+"type": "order",
+"q": "\"I want roast lamb.\"",
+"answer": "Θέλω ψητό αρνί.",
+"accept": [],
+"why": "A kind of dish.",
+"id": "participles-1734d8ba"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Λόγιες μετοχές",
+"title": "Learned participles: -όμενος, -ούμενος, -ων",
+"body": [
+{
+"p": "In the news, in official notices and in set phrases you meet participles inherited from learned Greek. Most are now used as nouns or adjectives."
+},
+{
+"table": {
+"head": [
+"Ending",
+"Examples",
+"Meaning"
+],
+"rows": []
+}
+},
+{
+"p": "**Ενδιαφέρων** \"interesting\" is the one you need in conversation: **ένα ενδιαφέρον βιβλίο, μια ενδιαφέρουσα ιδέα, ένας ενδιαφέρων άνθρωπος**."
+},
+{
+"ex": [
+{
+"el": "Θα τα πούμε την ερχόμενη εβδομάδα.",
+"en": "We'll talk next week."
+},
+{
+"el": "Οι εργαζόμενοι κάνουν απεργία.",
+"en": "The employees are on strike."
+},
+{
+"el": "Είναι πολύ ενδιαφέρον!",
+"en": "It's very interesting!"
+},
+{
+"el": "Οι ενδιαφερόμενοι μπορούν να τηλεφωνήσουν.",
+"en": "Those interested can call."
+},
+{
+"el": "Τα παιδιά βλέπουν κινούμενα σχέδια.",
+"en": "The kids are watching cartoons."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"An interesting woman\"",
+"a": "μια ενδιαφέρουσα γυναίκα",
+"why": "ενδιαφέρων, feminine -ουσα."
+},
+{
+"q": "\"The participants\"",
+"a": "οι συμμετέχοντες",
+"why": "Plural of ο συμμετέχων."
+},
+{
+"q": "\"Current affairs\" (the news section)",
+"a": "τα τρέχοντα | Τα τρέχοντα",
+"why": "Neuter plural of τρέχων used as a noun."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Είναι ένα πολύ ___ βιβλίο. (interesting)",
+"options": [
+"ενδιαφέρων",
+"ενδιαφέρον",
+"ενδιαφέρουσα",
+"ενδιαφερόμενο"
+],
+"answer": "ενδιαφέρον",
+"why": "Neuter: ενδιαφέρον.",
+"id": "participles-9a5b2d1f"
+},
+{
+"type": "choice",
+"q": "Μια ___ ιδέα. (interesting)",
+"options": [
+"ενδιαφέρον",
+"ενδιαφέρουσα",
+"ενδιαφέρουσης",
+"ενδιαφέρων"
+],
+"answer": "ενδιαφέρουσα",
+"why": "Feminine: ενδιαφέρουσα.",
+"id": "participles-3eed5fdb"
+},
+{
+"type": "choice",
+"q": "Οι ___ απεργούν σήμερα. (employees)",
+"options": [
+"εργαζόντες",
+"εργαζόμενοι",
+"εργαζόμενους",
+"εργασμένοι"
+],
+"answer": "εργαζόμενοι",
+"why": "οι εργαζόμενοι.",
+"id": "participles-2e03d0c4"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά βλέπουν κινούμενα ___. (cartoons)",
+"options": [
+"εικόνες",
+"σχέδια",
+"ταινία",
+"ζωγραφιές"
+],
+"answer": "σχέδια",
+"why": "κινούμενα σχέδια.",
+"id": "participles-7dfeebf0"
+},
+{
+"type": "write",
+"q": "\"An interesting man\"",
+"answer": "ένας ενδιαφέρων άνθρωπος",
+"accept": [
+"ένας ενδιαφέρων άντρας"
+],
+"why": "Masculine -ων.",
+"id": "participles-8ee72189"
+},
+{
+"type": "write",
+"q": "\"Next week\"",
+"answer": "την επόμενη εβδομάδα",
+"accept": [
+"την ερχόμενη εβδομάδα",
+"την άλλη εβδομάδα"
+],
+"why": "-όμενος as adjective.",
+"id": "participles-b0750908"
+},
+{
+"type": "write",
+"q": "\"Those interested\"",
+"answer": "οι ενδιαφερόμενοι",
+"accept": [],
+"why": "Participle as a noun.",
+"id": "participles-4c51cd5d"
+},
+{
+"type": "order",
+"q": "\"It's a very interesting idea.\"",
+"answer": "Είναι μια πολύ ενδιαφέρουσα ιδέα.",
+"accept": [],
+"why": "Feminine.",
+"id": "participles-08d389e9"
+}
+]
+}
+]
+}
+],
+"id": "participles",
+"el": "Μετοχές και γερούνδιο",
+"title": "Participles and the gerund",
+"span": "B1–B2",
+"blurb": "The -οντας / -ώντας form (κάνοντας, μιλώντας) and the rule that it shares the subject of the main verb; -μένος versus -τός adjectives (κλεισμένος / κλειστός, ψημένος / ψητός); the learned participles in -όμενος, -ούμενος and -ων that fill the news and official Greek.",
+"intro": [
+{
+"p": "Greek has fewer participles than English, and uses them more narrowly. The only active one in everyday speech is the indeclinable **-οντας / -ώντας** form (often called the gerund): **Μπήκε τρέχοντας.** \"He came in running.\" The passive **-μένος** is an ordinary adjective (chapter 27). The rest are learned forms you mainly need to recognise when reading."
+},
+{
+"links": [
+{
+"href": "#b2-participles",
+"kind": "Lesson",
+"el": "Μετοχές σε -μένος",
+"title": "Passive perfect participles -μένος, -μένη, -μένο, and the gerund"
+},
+{
+"href": "#c1-active-participles",
+"kind": "Lesson",
+"el": "Ενεργητικές μετοχές σε -ων",
+"title": "Active participles: ο ενδιαφέρων, η ισχύουσα, το περιβάλλον"
+},
+{
+"href": "#c1-present-participles",
+"kind": "Lesson",
+"el": "Μετοχές σε -όμενος, -ούμενος",
+"title": "Present passive participles: οι εργαζόμενοι, το ζητούμενο"
+},
+{
+"href": "#cards.participles",
+"kind": "Card",
+"el": "Μετοχές και γερούνδιο",
+"title": "Participles and gerund"
+},
+{
+"href": "#pos.participle",
+"kind": "Part of speech",
+"el": "Η μετοχή",
+"title": "The participle and the gerund"
+}
+]
+}
+],
+"num": 28
+}
