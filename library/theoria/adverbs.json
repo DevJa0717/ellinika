@@ -1213,6 +1213,170 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: adverbs of manner, time and place",
+"body": [
+{
+"p": "Most adverbs of manner come from the neuter plural of the adjective: **καλός → καλά, γρήγορος → γρήγορα, ωραίος → ωραία**. Learned adjectives in **-ής** give **-ώς**: **σαφής → σαφώς, ακριβής → ακριβώς**. Adverbs of time and place have their own forms: **τώρα, μετά, ήδη, ακόμα, πια, νωρίς, αργά; εδώ, εκεί, πάνω, κάτω, μέσα, έξω, μπροστά, πίσω**. With a noun the place adverb takes **από** or **σε**: **πίσω από το σπίτι, μέσα στο σπίτι**."
+},
+{
+"solved": [
+{
+"q": "\"She speaks Greek very well.\"",
+"a": "Μιλάει πολύ καλά ελληνικά. | Μιλάει ελληνικά πολύ καλά.",
+"why": "καλός → καλά."
+},
+{
+"q": "\"behind the church\"",
+"a": "πίσω από την εκκλησία",
+"why": "πίσω + από."
+},
+{
+"q": "\"It's exactly five o'clock.\"",
+"a": "Είναι ακριβώς πέντε. | Είναι πέντε ακριβώς.",
+"why": "ακριβής → ακριβώς."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Οδηγείς πολύ ___. (fast)",
+"options": [
+"γρήγορος",
+"γρήγορα",
+"γρηγορώς",
+"γρήγορο"
+],
+"answer": "γρήγορα",
+"why": "Neuter plural form.",
+"id": "adverbs-ed64fa7a"
+},
+{
+"type": "choice",
+"q": "Δεν μένω εδώ ___. (any more)",
+"options": [
+"πιο",
+"πια",
+"ακόμα",
+"ήδη"
+],
+"answer": "πια",
+"why": "πια = any more.",
+"id": "adverbs-a42e3c40"
+},
+{
+"type": "choice",
+"q": "Το κλειδί είναι ___ στην τσάντα. (inside)",
+"options": [
+"έξω",
+"μέσα",
+"πάνω από",
+"κάτω"
+],
+"answer": "μέσα",
+"why": "μέσα σε.",
+"id": "adverbs-916d5570"
+},
+{
+"type": "choice",
+"q": "Ήρθες πολύ ___! (early)",
+"options": [
+"νωρίτερος",
+"νωρίς",
+"νωρή",
+"νωρά"
+],
+"answer": "νωρίς",
+"why": "Fixed adverb νωρίς.",
+"id": "adverbs-7bd19f56"
+},
+{
+"type": "choice",
+"q": "___ συμφωνώ μαζί σου. (absolutely)",
+"options": [
+"Απόλυτο",
+"Απόλυτα",
+"Απολύτου",
+"Απόλυτος"
+],
+"answer": "Απόλυτα",
+"why": "απόλυτος → απόλυτα (also απολύτως).",
+"id": "adverbs-88f2c554"
+},
+{
+"type": "choice",
+"q": "Η στάση είναι ακριβώς ___ από το σχολείο. (opposite)",
+"options": [
+"απέναντι σε",
+"απέναντι",
+"πάνω",
+"μέσα"
+],
+"answer": "απέναντι",
+"why": "απέναντι από.",
+"id": "adverbs-a32c688b"
+},
+{
+"type": "write",
+"q": "Adverb from **ήσυχος**",
+"answer": "ήσυχα",
+"accept": [],
+"why": "-ος → -α.",
+"id": "adverbs-35830583"
+},
+{
+"type": "write",
+"q": "Adverb from **σίγουρος**",
+"answer": "σίγουρα",
+"accept": [],
+"why": "\"surely\".",
+"id": "adverbs-3b761fcc"
+},
+{
+"type": "write",
+"q": "\"upstairs\"",
+"answer": "πάνω",
+"accept": [
+"επάνω",
+"στον επάνω όροφο"
+],
+"why": "πάνω.",
+"id": "adverbs-c61a0532"
+},
+{
+"type": "write",
+"q": "\"Not yet.\"",
+"answer": "Όχι ακόμα.",
+"accept": [
+"Ακόμα όχι."
+],
+"why": "ακόμα = yet, still.",
+"id": "adverbs-060ac4c9"
+},
+{
+"type": "order",
+"q": "\"Speak (sg) slowly, please.\"",
+"answer": "Μίλα αργά, σε παρακαλώ.",
+"accept": [],
+"why": "αργά / σιγά.",
+"id": "adverbs-80cbb1f4"
+},
+{
+"type": "order",
+"q": "\"The car is in front of the house.\"",
+"answer": "Το αυτοκίνητο είναι μπροστά από το σπίτι.",
+"accept": [],
+"why": "μπροστά από / σε.",
+"id": "adverbs-bbb9f69f"
+}
+]
+}
+]
 }
 ],
 "id": "adverbs",

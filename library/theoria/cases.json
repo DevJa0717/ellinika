@@ -1236,6 +1236,156 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: which case?",
+"body": [
+{
+"p": "The **nominative** is the subject and follows είμαι/γίνομαι (**Ο Νίκος είναι γιατρός**). The **accusative** is the object and follows almost every preposition (**σε, από, για, με, χωρίς**) and expressions of time (**την Κυριακή, όλη τη νύχτα**). The **genitive** shows possession (**το σπίτι του Νίκου**) and the indirect object (**Του έδωσα**). The **vocative** is used to call someone (**Νίκο! Κύριε Παπαδόπουλε!**)."
+},
+{
+"solved": [
+{
+"q": "\"I gave the book to Maria.\"",
+"a": "Έδωσα το βιβλίο στη Μαρία. | Έδωσα στη Μαρία το βιβλίο.",
+"why": "Indirect object: σε + accusative (or the genitive της Μαρίας in writing)."
+},
+{
+"q": "\"Good morning, Mr Georgiou!\"",
+"a": "Καλημέρα, κύριε Γεωργίου! | Καλημέρα κύριε Γεωργίου!",
+"why": "Vocative κύριε; a surname in -ου does not change."
+},
+{
+"q": "\"We'll go on Sunday.\"",
+"a": "Θα πάμε την Κυριακή.",
+"why": "Time: accusative, no preposition."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Είναι η μητέρα ___. (of Giorgos)",
+"options": [
+"ο Γιώργος",
+"του Γιώργου",
+"τον Γιώργο",
+"Γιώργο"
+],
+"answer": "του Γιώργου",
+"why": "Possession: genitive.",
+"id": "cases-73d00877"
+},
+{
+"type": "choice",
+"q": "Μιλάω ___ πατέρα μου. (with)",
+"options": [
+"με ο",
+"με τον",
+"με του",
+"μετά τον"
+],
+"answer": "με τον",
+"why": "με + accusative.",
+"id": "cases-856a86b3"
+},
+{
+"type": "choice",
+"q": "___, έλα εδώ! (Petros)",
+"options": [
+"Πέτρος",
+"Πέτρο",
+"Πέτρου",
+"Πέτρε"
+],
+"answer": "Πέτρο",
+"why": "Vocative of 2-syllable -ος names: -ο.",
+"id": "cases-a11d6287"
+},
+{
+"type": "choice",
+"q": "Ο αδελφός μου είναι ___. (a teacher)",
+"options": [
+"δάσκαλο",
+"δάσκαλος",
+"δασκάλου",
+"του δασκάλου"
+],
+"answer": "δάσκαλος",
+"why": "After είμαι: nominative.",
+"id": "cases-284fbced"
+},
+{
+"type": "choice",
+"q": "Το δωμάτιο ___ είναι μικρό. (the children's)",
+"options": [
+"τα παιδιά",
+"των παιδιών",
+"στα παιδιά",
+"των παιδιά"
+],
+"answer": "των παιδιών",
+"why": "Plural genitive -ών.",
+"id": "cases-d3a6aecb"
+},
+{
+"type": "write",
+"q": "Vocative of **ο κύριος Παπαδόπουλος**",
+"answer": "κύριε Παπαδόπουλε",
+"accept": [],
+"why": "Long -ος names: -ε.",
+"id": "cases-b0638841"
+},
+{
+"type": "write",
+"q": "\"for my mother\"",
+"answer": "για τη μητέρα μου",
+"accept": [
+"για τη μαμά μου"
+],
+"why": "για + accusative.",
+"id": "cases-337494be"
+},
+{
+"type": "write",
+"q": "\"the end of the film\"",
+"answer": "το τέλος της ταινίας",
+"accept": [],
+"why": "Genitive.",
+"id": "cases-5c9b718d"
+},
+{
+"type": "write",
+"q": "\"all night\"",
+"answer": "όλη τη νύχτα",
+"accept": [
+"όλη νύχτα"
+],
+"why": "Time: accusative.",
+"id": "cases-5b3e1b4c"
+},
+{
+"type": "order",
+"q": "\"I'm waiting for the bus.\"",
+"answer": "Περιμένω το λεωφορείο.",
+"accept": [],
+"why": "περιμένω + accusative, no preposition.",
+"id": "cases-68eb21b3"
+},
+{
+"type": "order",
+"q": "\"This is my friend's house.\"",
+"answer": "Αυτό είναι το σπίτι του φίλου μου.",
+"accept": [],
+"why": "Genitive of possession.",
+"id": "cases-ff0ee046"
+}
+]
+}
+]
 }
 ],
 "id": "cases",

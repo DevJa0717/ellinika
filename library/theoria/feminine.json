@@ -1163,6 +1163,165 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: feminine nouns in -α, -η, -ος",
+"body": [
+{
+"p": "**-α** and **-η** nouns share their plural: **οι ώρες, οι αδελφές, οι φωνές**. The genitive singular adds **-ς**: **της ώρας, της αδελφής**. The genitive plural ends in **-ών**, usually stressed on the end (**των ωρών, των θαλασσών**), except many -α nouns stressed on the second last: **των ελπίδων, των εβδομάδων**. A smaller group of **-η** nouns (learned, often from ancient Greek) has a plural in **-εις**: **η πόλη → οι πόλεις, η λέξη → οι λέξεις**."
+},
+{
+"solved": [
+{
+"q": "Plural of **η πόλη**",
+"a": "οι πόλεις",
+"why": "-η → -εις."
+},
+{
+"q": "Genitive singular of **η θάλασσα**",
+"a": "της θάλασσας",
+"why": "Add -ς."
+},
+{
+"q": "\"different opinions\"",
+"a": "διαφορετικές απόψεις",
+"why": "η άποψη → οι απόψεις; the adjective is feminine plural."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πόσες ___ ξέρεις; (words)",
+"options": [
+"λέξες",
+"λέξεις",
+"λέξης",
+"λέξη"
+],
+"answer": "λέξεις",
+"why": "-η → -εις.",
+"id": "feminine-bc58065d"
+},
+{
+"type": "choice",
+"q": "Η μητέρα ___ είναι γιατρός. (of Eleni)",
+"options": [
+"η Ελένη",
+"της Ελένης",
+"την Ελένη",
+"Ελένης η"
+],
+"answer": "της Ελένης",
+"why": "Genitive -ς.",
+"id": "feminine-b1d6af2d"
+},
+{
+"type": "choice",
+"q": "Έχω δύο ___. (sisters)",
+"options": [
+"αδελφής",
+"αδελφές",
+"αδελφούς",
+"αδέλφια οι"
+],
+"answer": "αδελφές",
+"why": "Plural -ές.",
+"id": "feminine-ad824726"
+},
+{
+"type": "choice",
+"q": "Η ___ είναι κλειστή. (the exit)",
+"options": [
+"έξοδο",
+"έξοδος",
+"εξόδου",
+"έξοδοι"
+],
+"answer": "έξοδος",
+"why": "Feminine -ος.",
+"id": "feminine-6038a223"
+},
+{
+"type": "choice",
+"q": "Δεν έχουμε ___. (ideas)",
+"options": [
+"ιδέας",
+"ιδέες",
+"ιδέεις",
+"ιδεών"
+],
+"answer": "ιδέες",
+"why": "Plural -ες.",
+"id": "feminine-5c2ba0b2"
+},
+{
+"type": "choice",
+"q": "Η τιμή ___ ανέβηκε. (of the petrol)",
+"options": [
+"η βενζίνη",
+"της βενζίνης",
+"τη βενζίνη",
+"της βενζίνη"
+],
+"answer": "της βενζίνης",
+"why": "Genitive -ης.",
+"id": "feminine-2ac65ec9"
+},
+{
+"type": "write",
+"q": "Genitive plural of **η ώρα**",
+"answer": "των ωρών",
+"accept": [],
+"why": "Stress on the end.",
+"id": "feminine-066bca69"
+},
+{
+"type": "write",
+"q": "Genitive plural of **η εβδομάδα**",
+"answer": "των εβδομάδων",
+"accept": [],
+"why": "Stress stays on the second last.",
+"id": "feminine-c318154d"
+},
+{
+"type": "write",
+"q": "Accusative plural of **η τάξη**",
+"answer": "τις τάξεις",
+"accept": [],
+"why": "-η → -εις.",
+"id": "feminine-cb93fae5"
+},
+{
+"type": "write",
+"q": "Nominative plural of **η γυναίκα**",
+"answer": "οι γυναίκες",
+"accept": [],
+"why": "-α → -ες.",
+"id": "feminine-0c778cb6"
+},
+{
+"type": "order",
+"q": "\"The shops close at nine at night.\"",
+"answer": "Τα μαγαζιά κλείνουν στις εννιά το βράδυ.",
+"accept": [],
+"why": "Clock times are feminine: στις εννιά (ώρες).",
+"id": "feminine-dd5638fc"
+},
+{
+"type": "order",
+"q": "\"The streets of the city are narrow.\"",
+"answer": "Οι δρόμοι της πόλης είναι στενοί.",
+"accept": [],
+"why": "Genitive of πόλη: της πόλης.",
+"id": "feminine-d57de54f"
+}
+]
+}
+]
 }
 ],
 "id": "feminine",

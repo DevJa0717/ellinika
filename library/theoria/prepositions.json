@@ -1377,6 +1377,171 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: σε, από, με, για and the rest",
+"body": [
+{
+"p": "**Σε** joins the article: **στον, στη(ν), στο, στους, στις, στα**. It means \"in, at, to, on\": **στο σπίτι, στην Αθήνα, στις πέντε, στο τραπέζι**. **Από** is \"from, since, by, than\": **από την Κρήτη, από το πρωί, γραμμένο από τον Καζαντζάκη**. **Με** is \"with, by (transport)\": **με το λεωφορείο**. **Για** is \"for, about, to (a destination)\": **για σένα, για την ιστορία, για Θεσσαλονίκη**. All take the **accusative**."
+},
+{
+"solved": [
+{
+"q": "\"I'm going to Thessaloniki by train.\"",
+"a": "Πάω στη Θεσσαλονίκη με το τρένο. | Πηγαίνω στη Θεσσαλονίκη με το τρένο. | Πάω Θεσσαλονίκη με το τρένο.",
+"why": "σε + article; με for transport."
+},
+{
+"q": "\"a book about Greek history\"",
+"a": "ένα βιβλίο για την ελληνική ιστορία",
+"why": "για = about."
+},
+{
+"q": "\"I've been waiting since the morning.\"",
+"a": "Περιμένω από το πρωί.",
+"why": "από = since; still going on: present."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Μένω ___ Πάτρα.",
+"options": [
+"σε η",
+"στην",
+"στον",
+"από τη"
+],
+"answer": "στην",
+"why": "σε + την → στην.",
+"id": "prepositions-67668c5e"
+},
+{
+"type": "choice",
+"q": "Είμαι ___ Αμερική. (from)",
+"options": [
+"σε",
+"από την",
+"για την",
+"με την"
+],
+"answer": "από την",
+"why": "από = from.",
+"id": "prepositions-4ef5f8c3"
+},
+{
+"type": "choice",
+"q": "Θα σε δω ___ οχτώ. (at)",
+"options": [
+"στο",
+"στις",
+"στους",
+"στην"
+],
+"answer": "στις",
+"why": "Clock time: στις (ώρες).",
+"id": "prepositions-075c0e50"
+},
+{
+"type": "choice",
+"q": "Πήγαμε ___ ταξί. (by)",
+"options": [
+"στο",
+"με",
+"από",
+"για"
+],
+"answer": "με",
+"why": "Transport: με.",
+"id": "prepositions-ee940810"
+},
+{
+"type": "choice",
+"q": "Αυτό το δώρο είναι ___. (for you, sg)",
+"options": [
+"για εσύ",
+"για σένα",
+"σε σένα για",
+"για σου"
+],
+"answer": "για σένα",
+"why": "για + strong form.",
+"id": "prepositions-b4d2a555"
+},
+{
+"type": "choice",
+"q": "Το τρένο ___ Λάρισα φεύγει στις δέκα. (for, to)",
+"options": [
+"από",
+"για",
+"με",
+"στο"
+],
+"answer": "για",
+"why": "Destination of a vehicle: για.",
+"id": "prepositions-cffc08f1"
+},
+{
+"type": "write",
+"q": "\"in the summer\"",
+"answer": "το καλοκαίρι",
+"accept": [
+"στο καλοκαίρι"
+],
+"why": "Seasons: accusative, usually no preposition.",
+"id": "prepositions-92ba30ae"
+},
+{
+"type": "write",
+"q": "\"on the table\"",
+"answer": "στο τραπέζι",
+"accept": [
+"πάνω στο τραπέζι"
+],
+"why": "σε + το.",
+"id": "prepositions-52309e4a"
+},
+{
+"type": "write",
+"q": "\"with my friends\"",
+"answer": "με τους φίλους μου",
+"accept": [
+"με τις φίλες μου"
+],
+"why": "με + accusative.",
+"id": "prepositions-5f59e64d"
+},
+{
+"type": "write",
+"q": "\"without sugar\"",
+"answer": "χωρίς ζάχαρη",
+"accept": [],
+"why": "χωρίς + accusative.",
+"id": "prepositions-9dc33501"
+},
+{
+"type": "order",
+"q": "\"We're going to the beach.\"",
+"answer": "Πάμε στην παραλία.",
+"accept": [],
+"why": "σε + την.",
+"id": "prepositions-b979d815"
+},
+{
+"type": "order",
+"q": "\"It was written by a woman.\"",
+"answer": "Γράφτηκε από μια γυναίκα.",
+"accept": [],
+"why": "Agent: από.",
+"id": "prepositions-d1aa8007"
+}
+]
+}
+]
 }
 ],
 "id": "prepositions",

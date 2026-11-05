@@ -1143,6 +1143,169 @@
 ]
 }
 ]
+},
+{
+"level": "B1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: building words from words",
+"body": [
+{
+"p": "Greek words come in families, and a few endings do most of the work. **Nouns from verbs**: **-ση / -ξη / -ψη** (λύνω → λύση, ανοίγω → άνοιξη, βλέπω → (ό)ψη), **-μός** (χωρίζω → χωρισμός), **-μα** (γράφω → γράμμα). **People**: **-της, -τρια** (παίκτης, παίκτρια), **-τής** (μαθητής), **-άς** (ψαράς). **Adjectives**: **-ικός** (ιστορία → ιστορικός), **-ινός** (καλοκαίρι → καλοκαιρινός). **Opposites**: **α-/αν-** (δυνατός → αδύνατος, ανήσυχος). **Small and big**: **-άκι, -ούλα; -άρα, -ούκλα** (σπιτάκι, γατούλα, φωνάρα)."
+},
+{
+"solved": [
+{
+"q": "Noun from **αλλάζω**",
+"a": "η αλλαγή | αλλαγή",
+"why": "Not every verb takes -ση: αλλάζω → αλλαγή."
+},
+{
+"q": "Adjective from **η Ελλάδα**",
+"a": "ελληνικός",
+"why": "-ικός."
+},
+{
+"q": "Small form of **το σπίτι**",
+"a": "το σπιτάκι | σπιτάκι",
+"why": "-άκι."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η ___ του προβλήματος δεν ήταν εύκολη. (solution)",
+"options": [
+"λύσιμο",
+"λύση",
+"λυσμός",
+"λύμα"
+],
+"answer": "λύση",
+"why": "λύνω → λύση.",
+"id": "word-formation-d6b6308b"
+},
+{
+"type": "choice",
+"q": "Ο ___ του Ολυμπιακού έπαιξε καλά. (player)",
+"options": [
+"παίχτρια",
+"παίκτης",
+"παιχνίδι",
+"παίκτη ο"
+],
+"answer": "παίκτης",
+"why": "-της for a man.",
+"id": "word-formation-108de671"
+},
+{
+"type": "choice",
+"q": "Η ταινία ήταν ___. (boring)",
+"options": [
+"βαρετικός",
+"βαρετή",
+"βαριεστημένη",
+"βαρυντική"
+],
+"answer": "βαρετή",
+"why": "βαριέμαι → βαρετός.",
+"id": "word-formation-4921f692"
+},
+{
+"type": "choice",
+"q": "Είναι ___ να τελειώσουμε σήμερα. (impossible)",
+"options": [
+"ανδυνατό",
+"αδύνατο",
+"αδυνατικό",
+"ξεδύνατο"
+],
+"answer": "αδύνατο",
+"why": "α- + δυνατό.",
+"id": "word-formation-5e152ef6"
+},
+{
+"type": "choice",
+"q": "Θέλω ένα ___. (small coffee, affectionate)",
+"options": [
+"καφεδάκια",
+"καφεδάκι",
+"καφεδούλα",
+"καφέκι"
+],
+"answer": "καφεδάκι",
+"why": "ο καφές → το καφεδάκι.",
+"id": "word-formation-66f06865"
+},
+{
+"type": "choice",
+"q": "Ο ___ των γονιών του τον στενοχώρησε. (separation)",
+"options": [
+"χωρισιά",
+"χωρισμός",
+"χώρισμα",
+"χωρισμένος"
+],
+"answer": "χωρισμός",
+"why": "χωρίζω → χωρισμός.",
+"id": "word-formation-6a3f5efb"
+},
+{
+"type": "write",
+"q": "Noun from **διαβάζω**",
+"answer": "το διάβασμα",
+"accept": [
+"διάβασμα"
+],
+"why": "-μα.",
+"id": "word-formation-04d34450"
+},
+{
+"type": "write",
+"q": "Feminine of **ο φοιτητής**",
+"answer": "η φοιτήτρια",
+"accept": [
+"φοιτήτρια"
+],
+"why": "-τής → -τρια.",
+"id": "word-formation-078e1cac"
+},
+{
+"type": "write",
+"q": "Opposite of **χρήσιμος**",
+"answer": "άχρηστος",
+"accept": [],
+"why": "α- + stem.",
+"id": "word-formation-5888e1f6"
+},
+{
+"type": "write",
+"q": "Adjective from **το καλοκαίρι**",
+"answer": "καλοκαιρινός",
+"accept": [],
+"why": "-ινός.",
+"id": "word-formation-09224eca"
+},
+{
+"type": "order",
+"q": "\"The winter months are cold.\"",
+"answer": "Οι χειμωνιάτικοι μήνες είναι κρύοι.",
+"accept": [],
+"why": "χειμώνας → χειμωνιάτικος / χειμερινός.",
+"id": "word-formation-6ad6c0c4"
+},
+{
+"type": "order",
+"q": "\"What a voice!\" (augmentative)",
+"answer": "Τι φωνάρα!",
+"accept": [],
+"why": "-άρα = big, impressive.",
+"id": "word-formation-fc66c8cc"
+}
+]
+}
+]
 }
 ],
 "id": "word-formation",

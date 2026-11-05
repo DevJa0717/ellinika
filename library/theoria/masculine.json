@@ -1270,6 +1270,165 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: masculine nouns in -ος, -ας, -ης",
+"body": [
+{
+"p": "Three endings, three patterns. **-ος**: ο φίλος, του φίλου, τον φίλο, φίλε! / οι φίλοι, των φίλων, τους φίλους. **-ας**: ο πατέρας, του πατέρα, τον πατέρα / οι πατέρες, των πατέρων. **-ης**: ο μαθητής, του μαθητή, τον μαθητή / οι μαθητές, των μαθητών. Watch the stress in **-ος** words of three syllables: **ο άνθρωπος → του ανθρώπου, των ανθρώπων**."
+},
+{
+"solved": [
+{
+"q": "Genitive singular of **ο άνθρωπος**",
+"a": "του ανθρώπου",
+"why": "The stress moves to the second last syllable."
+},
+{
+"q": "Accusative plural of **ο μήνας**",
+"a": "τους μήνες",
+"why": "-ας → -ες."
+},
+{
+"q": "\"the students' books\"",
+"a": "τα βιβλία των μαθητών | τα βιβλία των φοιτητών",
+"why": "Genitive plural -ών."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πού είναι ___; (the waiter)",
+"options": [
+"ο σερβιτόρο",
+"ο σερβιτόρος",
+"τον σερβιτόρος",
+"του σερβιτόρο"
+],
+"answer": "ο σερβιτόρος",
+"why": "Subject: nominative.",
+"id": "masculine-9011766d"
+},
+{
+"type": "choice",
+"q": "Μίλησα με ___. (the neighbour)",
+"options": [
+"τον γείτονας",
+"τον γείτονα",
+"του γείτονα",
+"ο γείτονας"
+],
+"answer": "τον γείτονα",
+"why": "Accusative -α.",
+"id": "masculine-8cf87c4b"
+},
+{
+"type": "choice",
+"q": "___ είναι ανοιχτοί. (the shops, masc.)",
+"options": [
+"Οι φούρνος",
+"Οι φούρνοι",
+"Τους φούρνους",
+"Οι φούρνες"
+],
+"answer": "Οι φούρνοι",
+"why": "Nominative plural -οι.",
+"id": "masculine-bc2fdab6"
+},
+{
+"type": "choice",
+"q": "Το χρώμα ___ μου αρέσει. (of the sky)",
+"options": [
+"του ουρανό",
+"του ουρανού",
+"τον ουρανό",
+"ο ουρανός"
+],
+"answer": "του ουρανού",
+"why": "Genitive -ού (stressed ending stays).",
+"id": "masculine-8d920979"
+},
+{
+"type": "choice",
+"q": "Γιάννη, πού είναι ___ σου; (your brothers)",
+"options": [
+"οι αδελφούς",
+"οι αδελφοί",
+"τα αδέλφια οι",
+"οι αδελφές"
+],
+"answer": "οι αδελφοί",
+"why": "Nominative plural.",
+"id": "masculine-17899a7b"
+},
+{
+"type": "choice",
+"q": "___! (Mr Nikos, calling him)",
+"options": [
+"Κύριος Νίκος",
+"Κύριε Νίκο",
+"Κυρίου Νίκου",
+"Κύριο Νίκο"
+],
+"answer": "Κύριε Νίκο",
+"why": "Vocative.",
+"id": "masculine-7a847005"
+},
+{
+"type": "write",
+"q": "Vocative of **ο γιατρός**",
+"answer": "γιατρέ",
+"accept": [],
+"why": "Stressed -ός: -έ.",
+"id": "masculine-b13658c4"
+},
+{
+"type": "write",
+"q": "Genitive plural of **ο χρόνος** (years, neuter plural)",
+"answer": "των χρόνων",
+"accept": [],
+"why": "τα χρόνια, των χρόνων.",
+"id": "masculine-5df4912a"
+},
+{
+"type": "write",
+"q": "Accusative singular of **ο καφές**",
+"answer": "τον καφέ",
+"accept": [],
+"why": "-ές → -έ.",
+"id": "masculine-b088ee90"
+},
+{
+"type": "write",
+"q": "Nominative plural of **ο ταξιτζής**",
+"answer": "οι ταξιτζήδες",
+"accept": [],
+"why": "-ής → -ήδες.",
+"id": "masculine-aaa0edfb"
+},
+{
+"type": "order",
+"q": "\"My father's car is new.\"",
+"answer": "Το αυτοκίνητο του πατέρα μου είναι καινούργιο.",
+"accept": [],
+"why": "Genitive -α.",
+"id": "masculine-4a861147"
+},
+{
+"type": "order",
+"q": "\"I have many friends.\"",
+"answer": "Έχω πολλούς φίλους.",
+"accept": [],
+"why": "Accusative plural -ους.",
+"id": "masculine-b93a1996"
+}
+]
+}
+]
 }
 ],
 "id": "masculine",

@@ -1290,6 +1290,157 @@
 ]
 }
 ]
+},
+{
+"level": "A1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: strong or weak pronoun?",
+"body": [
+{
+"p": "The **weak** forms (**με, σε, τον, την, το, μας, σας, τους; μου, σου, του, της**) stand next to the verb and carry no stress: **Σε βλέπω.** The **strong** forms (**εμένα, εσένα, αυτόν, αυτήν, εμάς, εσάς, αυτούς**) are for emphasis, contrast, after prepositions and alone: **Εσένα βλέπω, όχι αυτόν. Για μένα. — Ποιον; — Εσένα.**"
+},
+{
+"solved": [
+{
+"q": "\"This is for you (sg).\"",
+"a": "Αυτό είναι για σένα. | Αυτό είναι για εσένα.",
+"why": "After a preposition: strong form."
+},
+{
+"q": "\"I like it.\"",
+"a": "Μου αρέσει.",
+"why": "Weak genitive μου + αρέσει."
+},
+{
+"q": "\"It's me you want, not him.\"",
+"a": "Εμένα θέλεις, όχι αυτόν. | Εμένα θες, όχι αυτόν.",
+"why": "Contrast: strong forms."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ αγαπάω. (you, sg)",
+"options": [
+"Εσένα σε",
+"Σε",
+"Σου",
+"Εσύ"
+],
+"answer": "Σε",
+"why": "Unstressed object: weak σε.",
+"id": "personal-e9afa6b2"
+},
+{
+"type": "choice",
+"q": "Ποιον ψάχνεις; – ___. (you, sg)",
+"options": [
+"Σε",
+"Εσένα",
+"Εσύ",
+"Σου"
+],
+"answer": "Εσένα",
+"why": "Alone: strong form.",
+"id": "personal-8e62c272"
+},
+{
+"type": "choice",
+"q": "___ αρέσουν τα γλυκά. (she likes)",
+"options": [
+"Την",
+"Της",
+"Αυτή",
+"Τη"
+],
+"answer": "Της",
+"why": "αρέσει takes the genitive: της.",
+"id": "personal-2c6636dc"
+},
+{
+"type": "choice",
+"q": "Το δώρο είναι από ___. (them)",
+"options": [
+"τους",
+"αυτούς",
+"αυτοί",
+"τις"
+],
+"answer": "αυτούς",
+"why": "After από: strong form.",
+"id": "personal-31e83bd7"
+},
+{
+"type": "choice",
+"q": "Πες ___ την αλήθεια. (to him)",
+"options": [
+"τον",
+"του",
+"αυτός",
+"αυτόν"
+],
+"answer": "του",
+"why": "Indirect object: weak genitive.",
+"id": "personal-1f53674f"
+},
+{
+"type": "write",
+"q": "\"I know them (masc.).\"",
+"answer": "Τους ξέρω.",
+"accept": [],
+"why": "Weak accusative.",
+"id": "personal-1dad6670"
+},
+{
+"type": "write",
+"q": "\"Without me.\"",
+"answer": "Χωρίς εμένα.",
+"accept": [
+"Χωρίς μένα."
+],
+"why": "Strong form.",
+"id": "personal-13248950"
+},
+{
+"type": "write",
+"q": "\"Call (sg) us.\"",
+"answer": "Πάρε μας τηλέφωνο.",
+"accept": [
+"Τηλεφώνησέ μας.",
+"Πάρε μας."
+],
+"why": "After the imperative.",
+"id": "personal-82db0f44"
+},
+{
+"type": "write",
+"q": "\"Do you (pl) like it?\"",
+"answer": "Σας αρέσει;",
+"accept": [],
+"why": "Weak genitive.",
+"id": "personal-4777b136"
+},
+{
+"type": "order",
+"q": "\"I'll wait for you (sg).\"",
+"answer": "Θα σε περιμένω.",
+"accept": [],
+"why": "Weak accusative.",
+"id": "personal-cffd3778"
+},
+{
+"type": "order",
+"q": "\"And what about you (pl)?\"",
+"answer": "Κι εσείς;",
+"accept": [],
+"why": "Alone: strong nominative.",
+"id": "personal-05fa9c63"
+}
+]
+}
+]
 }
 ],
 "id": "personal",

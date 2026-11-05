@@ -1584,6 +1584,170 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: the irregular aorists in use",
+"body": [
+{
+"p": "The most frequent verbs have irregular aorists, and you need them every day. **Βλέπω → είδα (δω)**, **λέω → είπα (πω)**, **τρώω → έφαγα (φάω)**, **πίνω → ήπια (πιω)**, **έρχομαι → ήρθα (έρθω)**, **πηγαίνω/πάω → πήγα (πάω)**, **βρίσκω → βρήκα (βρω)**, **μπαίνω → μπήκα (μπω)**, **βγαίνω → βγήκα (βγω)**, **παίρνω → πήρα (πάρω)**, **δίνω → έδωσα (δώσω)**, **κάνω → έκανα (κάνω)**, **μαθαίνω → έμαθα (μάθω)**, **φεύγω → έφυγα (φύγω)**."
+},
+{
+"solved": [
+{
+"q": "\"We saw a good film last night.\"",
+"a": "Είδαμε μια καλή ταινία χθες το βράδυ. | Χθες το βράδυ είδαμε μια καλή ταινία. | Είδαμε μια ωραία ταινία χθες το βράδυ.",
+"why": "βλέπω → είδα."
+},
+{
+"q": "\"What did you (sg) say?\"",
+"a": "Τι είπες;",
+"why": "λέω → είπα."
+},
+{
+"q": "\"I'll find it.\"",
+"a": "Θα το βρω.",
+"why": "βρίσκω → βρω."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Χθες ___ πολύ. (we ate)",
+"options": [
+"τρώγαμε",
+"φάγαμε",
+"φάμε",
+"τρώσαμε"
+],
+"answer": "φάγαμε",
+"why": "τρώω → έφαγα, φάγαμε.",
+"id": "irregular-aorists-896427c6"
+},
+{
+"type": "choice",
+"q": "Πότε ___ στην Ελλάδα; (did you come, sg)",
+"options": [
+"ερχόσουν",
+"ήρθες",
+"έρθεις",
+"ήρθε"
+],
+"answer": "ήρθες",
+"why": "έρχομαι → ήρθα.",
+"id": "irregular-aorists-d52367bf"
+},
+{
+"type": "choice",
+"q": "Δεν ___ τίποτα. (I drank)",
+"options": [
+"έπινα",
+"ήπια",
+"πιω",
+"έπια"
+],
+"answer": "ήπια",
+"why": "πίνω → ήπια.",
+"id": "irregular-aorists-a81d386b"
+},
+{
+"type": "choice",
+"q": "___ από το σπίτι στις οχτώ. (I went out)",
+"options": [
+"Βγάλα",
+"Βγήκα",
+"Βγω",
+"Έβγαινα"
+],
+"answer": "Βγήκα",
+"why": "βγαίνω → βγήκα.",
+"id": "irregular-aorists-f53944f7"
+},
+{
+"type": "choice",
+"q": "Ποιος ___ τα κλειδιά μου; (took)",
+"options": [
+"πάρει",
+"πήρε",
+"έπαιρνε",
+"πήραν"
+],
+"answer": "πήρε",
+"why": "παίρνω → πήρε.",
+"id": "irregular-aorists-96d14a37"
+},
+{
+"type": "choice",
+"q": "Θέλω να σου ___ κάτι. (to say)",
+"options": [
+"είπω",
+"πω",
+"πεις",
+"λέγω"
+],
+"answer": "πω",
+"why": "λέω → (να) πω.",
+"id": "irregular-aorists-8ab617f9"
+},
+{
+"type": "write",
+"q": "Aorist of **μαθαίνω**, εσύ",
+"answer": "έμαθες",
+"accept": [],
+"why": "έμαθα.",
+"id": "irregular-aorists-55557d53"
+},
+{
+"type": "write",
+"q": "Aorist of **μπαίνω**, αυτοί",
+"answer": "μπήκαν",
+"accept": [
+"μπήκανε"
+],
+"why": "μπήκα.",
+"id": "irregular-aorists-58da8eec"
+},
+{
+"type": "write",
+"q": "Dependent of **βλέπω**, εμείς (θα ___)",
+"answer": "δούμε",
+"accept": [],
+"why": "δω, δεις, δει, δούμε.",
+"id": "irregular-aorists-ec6ab72e"
+},
+{
+"type": "write",
+"q": "Dependent of **έρχομαι**, εσύ (να ___)",
+"answer": "έρθεις",
+"accept": [
+"'ρθεις",
+"έλθεις"
+],
+"why": "έρθω.",
+"id": "irregular-aorists-6eff96a8"
+},
+{
+"type": "order",
+"q": "\"We left early.\"",
+"answer": "Φύγαμε νωρίς.",
+"accept": [],
+"why": "φεύγω → έφυγα.",
+"id": "irregular-aorists-4fe848eb"
+},
+{
+"type": "order",
+"q": "\"Did you (pl) find a hotel?\"",
+"answer": "Βρήκατε ξενοδοχείο;",
+"accept": [],
+"why": "βρίσκω → βρήκα.",
+"id": "irregular-aorists-fea0542e"
+}
+]
+}
+]
 }
 ],
 "id": "irregular-aorists",

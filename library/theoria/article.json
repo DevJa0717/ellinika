@@ -1091,6 +1091,171 @@
 ]
 }
 ]
+},
+{
+"level": "A1",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: ο, η, το and ένας, μια, ένα",
+"body": [
+{
+"p": "The article agrees with the noun: **ο** (masculine), **η** (feminine), **το** (neuter); plural **οι, οι, τα**. In the accusative: **τον, τη(ν), το; τους, τις, τα**. Keep the final **-ν** of **την, τον** before a vowel and before κ, π, τ, μπ, ντ, γκ, τσ, τζ, ξ, ψ (**την πόλη, τη μέρα**). Greek uses the article with names and in general statements: **Ο Νίκος, Η ζωή είναι ωραία.**"
+},
+{
+"solved": [
+{
+"q": "\"Maria is here.\"",
+"a": "Η Μαρία είναι εδώ.",
+"why": "Names take the article."
+},
+{
+"q": "\"I see the city.\"",
+"a": "Βλέπω την πόλη.",
+"why": "-ν kept before π."
+},
+{
+"q": "\"I'm drinking a coffee.\"",
+"a": "Πίνω έναν καφέ. | Πίνω ένα καφέ. | Πίνω καφέ.",
+"why": "Masculine accusative: έναν (ένα before a consonant is also used)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ σπίτι είναι μεγάλο.",
+"options": [
+"Ο",
+"Το",
+"Η",
+"Τα"
+],
+"answer": "Το",
+"why": "Neuter: το.",
+"id": "article-93f108e4"
+},
+{
+"type": "choice",
+"q": "Βλέπω ___ θάλασσα.",
+"options": [
+"την",
+"τη",
+"το",
+"της"
+],
+"answer": "τη",
+"why": "-ν drops before θ.",
+"id": "article-f7dcc695"
+},
+{
+"type": "choice",
+"q": "Έχω ___ αδελφή.",
+"options": [
+"ένα",
+"μια",
+"έναν",
+"ενός"
+],
+"answer": "μια",
+"why": "Feminine: μια (μία).",
+"id": "article-ca3582ef"
+},
+{
+"type": "choice",
+"q": "___ φίλοι μου έρχονται.",
+"options": [
+"Τα",
+"Οι",
+"Ο",
+"Τους"
+],
+"answer": "Οι",
+"why": "Masculine plural nominative: οι.",
+"id": "article-9978ba5f"
+},
+{
+"type": "choice",
+"q": "Ξέρω ___ Κώστα.",
+"options": [
+"ο",
+"τον",
+"του",
+"το"
+],
+"answer": "τον",
+"why": "Masculine accusative: τον.",
+"id": "article-2507cb3e"
+},
+{
+"type": "choice",
+"q": "Αγόρασα ___ βιβλία.",
+"options": [
+"τους",
+"τα",
+"τις",
+"οι"
+],
+"answer": "τα",
+"why": "Neuter plural: τα.",
+"id": "article-e72c28eb"
+},
+{
+"type": "write",
+"q": "Article with **ώρα** (accusative)",
+"answer": "την ώρα",
+"accept": [
+"την"
+],
+"why": "-ν before a vowel.",
+"id": "article-54f4f8e7"
+},
+{
+"type": "write",
+"q": "Article with **παιδιά** (nominative)",
+"answer": "τα παιδιά",
+"accept": [
+"τα"
+],
+"why": "Neuter plural.",
+"id": "article-6194bc94"
+},
+{
+"type": "write",
+"q": "\"the children's toys\"",
+"answer": "τα παιχνίδια των παιδιών",
+"accept": [],
+"why": "Genitive plural των.",
+"id": "article-38fc9b5e"
+},
+{
+"type": "write",
+"q": "Indefinite article with **πρόβλημα**",
+"answer": "ένα πρόβλημα",
+"accept": [
+"ένα"
+],
+"why": "Neuter.",
+"id": "article-e9819203"
+},
+{
+"type": "order",
+"q": "\"Life is beautiful.\"",
+"answer": "Η ζωή είναι ωραία.",
+"accept": [],
+"why": "General statement: with the article.",
+"id": "article-01abc109"
+},
+{
+"type": "order",
+"q": "\"I'm waiting for the doctor.\"",
+"answer": "Περιμένω τον γιατρό.",
+"accept": [],
+"why": "τον γιατρό.",
+"id": "article-f2e381fd"
+}
+]
+}
+]
 }
 ],
 "id": "article",

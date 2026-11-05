@@ -1293,6 +1293,172 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: numbers that agree",
+"body": [
+{
+"p": "Only a few numbers change with the noun: **ένας, μία, ένα**; **τρεις / τρία**; **τέσσερις / τέσσερα**; the hundreds from 200 (**διακόσιοι, διακόσιες, διακόσια**); and **χίλιοι, χίλιες, χίλια**. The rest never change: **πέντε σπίτια, πέντε γυναίκες**. Clock times are feminine (**στη μία, στις τρεις**), and ages and prices use the neuter or the noun's gender: **τρία ευρώ, τριών χρονών**."
+},
+{
+"solved": [
+{
+"q": "\"three women and four men\"",
+"a": "τρεις γυναίκες και τέσσερις άντρες | τρεις γυναίκες και τέσσερις άνδρες",
+"why": "Masculine/feminine: τρεις, τέσσερις."
+},
+{
+"q": "\"It costs three hundred euros.\"",
+"a": "Κοστίζει τριακόσια ευρώ.",
+"why": "ευρώ is neuter: τριακόσια."
+},
+{
+"q": "\"at one o'clock\"",
+"a": "στη μία",
+"why": "Clock times are feminine."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Έχω ___ παιδιά. (three)",
+"options": [
+"τρεις",
+"τρία",
+"τρίων",
+"τρίτα"
+],
+"answer": "τρία",
+"why": "Neuter: τρία.",
+"id": "numbers-98a5120c"
+},
+{
+"type": "choice",
+"q": "Η συναυλία αρχίζει στις ___. (four)",
+"options": [
+"τέσσερα",
+"τέσσερις",
+"τέσσερεις",
+"τεσσάρων"
+],
+"answer": "τέσσερις",
+"why": "Feminine (ώρες): τέσσερις.",
+"id": "numbers-96ae7012"
+},
+{
+"type": "choice",
+"q": "Στην τάξη είναι ___ μαθήτριες. (two hundred)",
+"options": [
+"διακόσια",
+"διακόσιες",
+"διακόσιοι",
+"διακοσίων"
+],
+"answer": "διακόσιες",
+"why": "Feminine plural.",
+"id": "numbers-a8465170"
+},
+{
+"type": "choice",
+"q": "Ο παππούς μου είναι ___ χρονών. (eighty)",
+"options": [
+"ογδοντα",
+"ογδόντα",
+"ογδοήκοντα",
+"ογδόντων"
+],
+"answer": "ογδόντα",
+"why": "ογδόντα never changes.",
+"id": "numbers-151913d4"
+},
+{
+"type": "choice",
+"q": "Πήρα ___ μήλο. (one)",
+"options": [
+"μια",
+"ένα",
+"έναν",
+"ενός"
+],
+"answer": "ένα",
+"why": "Neuter: ένα.",
+"id": "numbers-771fc931"
+},
+{
+"type": "choice",
+"q": "Το βιβλίο έχει ___ σελίδες. (one thousand)",
+"options": [
+"χίλια",
+"χίλιες",
+"χίλιοι",
+"χιλιάδες"
+],
+"answer": "χίλιες",
+"why": "Feminine: χίλιες.",
+"id": "numbers-7382af0b"
+},
+{
+"type": "write",
+"q": "\"four euros\"",
+"answer": "τέσσερα ευρώ",
+"accept": [],
+"why": "Neuter.",
+"id": "numbers-9e3ee38f"
+},
+{
+"type": "write",
+"q": "\"the first day\"",
+"answer": "η πρώτη μέρα",
+"accept": [
+"την πρώτη μέρα",
+"η πρώτη ημέρα"
+],
+"why": "Ordinals agree like adjectives.",
+"id": "numbers-96d181de"
+},
+{
+"type": "write",
+"q": "\"thirteen\"",
+"answer": "δεκατρία",
+"accept": [
+"δεκατρείς"
+],
+"why": "Neuter δεκατρία; masc./fem. δεκατρείς.",
+"id": "numbers-78f17d7e"
+},
+{
+"type": "write",
+"q": "\"two thousand\"",
+"answer": "δύο χιλιάδες",
+"accept": [
+"δυο χιλιάδες"
+],
+"why": "From 2,000: χιλιάδες.",
+"id": "numbers-65221a81"
+},
+{
+"type": "order",
+"q": "\"The train leaves at three.\"",
+"answer": "Το τρένο φεύγει στις τρεις.",
+"accept": [],
+"why": "Feminine τρεις.",
+"id": "numbers-1a4780d5"
+},
+{
+"type": "order",
+"q": "\"I'm thirty-four years old.\"",
+"answer": "Είμαι τριάντα τεσσάρων χρονών.",
+"accept": [],
+"why": "Ages: genitive τεσσάρων (or τέσσερα in speech).",
+"id": "numbers-af889e6f"
+}
+]
+}
+]
 }
 ],
 "id": "numbers",

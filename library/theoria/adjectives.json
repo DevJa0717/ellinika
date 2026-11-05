@@ -1412,6 +1412,173 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: making adjectives agree",
+"body": [
+{
+"p": "An adjective agrees with its noun in **gender, number and case**, even when the endings look different: **ο καλός πατέρας, η καλή μητέρα, το καλό παιδί, τους καλούς πατέρες**. Learn the three patterns: **-ος, -η, -ο** (καλός), **-ος, -α, -ο** after a vowel (ωραίος, ωραία), and **-ύς, -ιά, -ύ** (βαθύς, βαθιά). **Πολύς** has two stems: **πολύς, πολλή, πολύ / πολλοί, πολλές, πολλά**."
+},
+{
+"solved": [
+{
+"q": "\"a beautiful old house\"",
+"a": "ένα ωραίο παλιό σπίτι | ένα όμορφο παλιό σπίτι",
+"why": "Neuter -ο for both."
+},
+{
+"q": "\"with good friends\"",
+"a": "με καλούς φίλους | με καλές φίλες",
+"why": "με + accusative plural."
+},
+{
+"q": "\"There's a lot of traffic.\"",
+"a": "Έχει πολλή κίνηση. | Υπάρχει πολλή κίνηση.",
+"why": "Feminine πολλή (with double λ)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η θάλασσα είναι ___ σήμερα. (calm)",
+"options": [
+"ήρεμος",
+"ήρεμη",
+"ήρεμο",
+"ήρεμοι"
+],
+"answer": "ήρεμη",
+"why": "Feminine.",
+"id": "adjectives-ea8b14b8"
+},
+{
+"type": "choice",
+"q": "Ήπια ___ νερό. (a lot of)",
+"options": [
+"πολλή",
+"πολύ",
+"πολλά",
+"πολύς"
+],
+"answer": "πολύ",
+"why": "Neuter singular πολύ.",
+"id": "adjectives-6beb2025"
+},
+{
+"type": "choice",
+"q": "Οι ___ μαθητές έφυγαν. (new)",
+"options": [
+"καινούργια",
+"καινούργιοι",
+"καινούργιους",
+"καινούργιες"
+],
+"answer": "καινούργιοι",
+"why": "Masculine plural nominative.",
+"id": "adjectives-042530a7"
+},
+{
+"type": "choice",
+"q": "Αγόρασα ___ παπούτσια. (red)",
+"options": [
+"κόκκινους",
+"κόκκινα",
+"κόκκινες",
+"κόκκινο"
+],
+"answer": "κόκκινα",
+"why": "Neuter plural.",
+"id": "adjectives-25d8d566"
+},
+{
+"type": "choice",
+"q": "Η ζωή είναι ___. (expensive)",
+"options": [
+"ακριβός",
+"ακριβή",
+"ακριβό",
+"ακριβά"
+],
+"answer": "ακριβή",
+"why": "Feminine.",
+"id": "adjectives-2a45c1d5"
+},
+{
+"type": "choice",
+"q": "Το ποτάμι είναι ___. (deep)",
+"options": [
+"βαθιά",
+"βαθύ",
+"βαθύς",
+"βαθιό"
+],
+"answer": "βαθύ",
+"why": "-ύς, -ιά, -ύ: neuter βαθύ.",
+"id": "adjectives-34b4bfc2"
+},
+{
+"type": "write",
+"q": "Feminine of **ωραίος**",
+"answer": "ωραία",
+"accept": [],
+"why": "After a vowel: -α.",
+"id": "adjectives-4f9bc4e1"
+},
+{
+"type": "write",
+"q": "\"many people\"",
+"answer": "πολλοί άνθρωποι",
+"accept": [
+"πολύς κόσμος",
+"πολλά άτομα"
+],
+"why": "πολλοί (double λ).",
+"id": "adjectives-dfb11012"
+},
+{
+"type": "write",
+"q": "\"the young woman\"",
+"answer": "η νέα γυναίκα",
+"accept": [
+"η νεαρή γυναίκα"
+],
+"why": "νέος → νέα.",
+"id": "adjectives-c247541a"
+},
+{
+"type": "write",
+"q": "\"a long day\"",
+"answer": "μια μεγάλη μέρα",
+"accept": [
+"μια μακριά μέρα",
+"μια μεγάλη ημέρα"
+],
+"why": "Feminine.",
+"id": "adjectives-872fe82a"
+},
+{
+"type": "order",
+"q": "\"The rooms are very clean.\"",
+"answer": "Τα δωμάτια είναι πολύ καθαρά.",
+"accept": [],
+"why": "Neuter plural.",
+"id": "adjectives-dea19afd"
+},
+{
+"type": "order",
+"q": "\"I have a lot of work.\"",
+"answer": "Έχω πολλή δουλειά.",
+"accept": [],
+"why": "Feminine πολλή.",
+"id": "adjectives-c483c4a1"
+}
+]
+}
+]
 }
 ],
 "id": "adjectives",

@@ -1363,6 +1363,152 @@
 ]
 }
 ]
+},
+{
+"level": "A2",
+"el": "Μικτή εξάσκηση",
+"title": "Mixed practice: neuter nouns in -ο, -ι, -μα, -ος",
+"body": [
+{
+"p": "Four neuter patterns. **-ο**: το βιβλίο, του βιβλίου, τα βιβλία. **-ι**: το παιδί, του παιδιού, τα παιδιά (the ι becomes a glide before the ending). **-μα**: το πρόβλημα, του προβλήματος, τα προβλήματα, των προβλημάτων. **-ος**: το λάθος, του λάθους, τα λάθη. Nominative and accusative are always the same in the neuter."
+},
+{
+"solved": [
+{
+"q": "Plural of **το μάθημα**",
+"a": "τα μαθήματα",
+"why": "-μα → -ματα."
+},
+{
+"q": "Genitive singular of **το σπίτι**",
+"a": "του σπιτιού",
+"why": "-ι → -ιού."
+},
+{
+"q": "\"I made many mistakes.\"",
+"a": "Έκανα πολλά λάθη.",
+"why": "-ος → -η."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πού είναι ___ μου; (my keys)",
+"options": [
+"τα κλειδί",
+"τα κλειδιά",
+"τους κλειδιά",
+"το κλειδιά"
+],
+"answer": "τα κλειδιά",
+"why": "-ί → -ιά.",
+"id": "neuter-f9bb4013"
+},
+{
+"type": "choice",
+"q": "Το χρώμα ___ είναι ωραίο. (of the car)",
+"options": [
+"το αυτοκίνητο",
+"του αυτοκινήτου",
+"του αυτοκίνητου",
+"των αυτοκίνητο"
+],
+"answer": "του αυτοκινήτου",
+"why": "-ο → -ου, the stress moves.",
+"id": "neuter-f6df7caa"
+},
+{
+"type": "choice",
+"q": "Δεν έχω ___. (problems)",
+"options": [
+"πρόβληματα",
+"προβλήματα",
+"προβλήματος",
+"προβλημάτων"
+],
+"answer": "προβλήματα",
+"why": "Plural -ματα, stress moves.",
+"id": "neuter-19950e40"
+},
+{
+"type": "choice",
+"q": "Τα ___ παίζουν έξω. (children)",
+"options": [
+"παιδί",
+"παιδιά",
+"παιδιού",
+"παιδιών"
+],
+"answer": "παιδιά",
+"why": "-ί → -ιά.",
+"id": "neuter-6e0e52fe"
+},
+{
+"type": "choice",
+"q": "Διαβάζω δύο ___ την εβδομάδα. (books)",
+"options": [
+"βιβλίο",
+"βιβλία",
+"βιβλίου",
+"βιβλίων"
+],
+"answer": "βιβλία",
+"why": "-ο → -α.",
+"id": "neuter-2877ec3c"
+},
+{
+"type": "write",
+"q": "Genitive plural of **το όνομα**",
+"answer": "των ονομάτων",
+"accept": [],
+"why": "-μα → -μάτων.",
+"id": "neuter-f2df1ae5"
+},
+{
+"type": "write",
+"q": "Plural of **το έδαφος**",
+"answer": "τα εδάφη",
+"accept": [],
+"why": "-ος → -η, the stress moves to the second last.",
+"id": "neuter-e4d8280d"
+},
+{
+"type": "write",
+"q": "Genitive singular of **το νερό**",
+"answer": "του νερού",
+"accept": [],
+"why": "Stressed -ό → -ού.",
+"id": "neuter-1360a06f"
+},
+{
+"type": "write",
+"q": "Plural of **το τραπέζι**",
+"answer": "τα τραπέζια",
+"accept": [],
+"why": "-ι → -ια.",
+"id": "neuter-ba3e371a"
+},
+{
+"type": "order",
+"q": "\"The children's rooms are upstairs.\"",
+"answer": "Τα δωμάτια των παιδιών είναι πάνω.",
+"accept": [],
+"why": "Genitive plural των παιδιών.",
+"id": "neuter-654ff4bc"
+},
+{
+"type": "order",
+"q": "\"What's your (sg) name?\"",
+"answer": "Πώς σε λένε;",
+"accept": [],
+"why": "το όνομα.",
+"id": "neuter-7cda4782"
+}
+]
+}
+]
 }
 ],
 "id": "neuter",
