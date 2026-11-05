@@ -48,8 +48,9 @@ if os.path.exists(B + '10k/entries.json'):
         tgt = e['lemma'] if e['lemma'] in lemmas else skeys[strip(e['lemma'])]
         for v in r['forms']: idx[v.strip().lower()].add(tgt)
     for k, v in json.load(open(B + '10k/names_add.json')).items(): names.setdefault(k, v)
-    if os.path.exists(B + '10k/known_forms_add.json'):
-        for lem, fs in json.load(open(B + '10k/known_forms_add.json')).items():
+    for kf in ('10k/known_forms_add.json', '10k/known_forms_manual.json'):
+      if os.path.exists(B + kf):
+        for lem, fs in json.load(open(B + kf)).items():
             if lem in lemmas:
                 for v in fs: idx[v.strip().lower()].add(lem)
     print('10k entries appended', n10)
