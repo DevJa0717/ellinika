@@ -1,0 +1,884 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Δηλώσεις",
+"title": "Statements: είπε ότι...",
+"body": [
+{
+"p": "Report a statement with **λέω / είπα + ότι / πως**. The tense can stay as it was spoken; backshifting is optional and common in narrative."
+},
+{
+"table": {
+"head": [
+"Direct",
+"Reported"
+],
+"rows": [
+[
+"«Είμαι κουρασμένη.»",
+"Είπε ότι είναι / ήταν κουρασμένη."
+],
+[
+"«Θα έρθω αύριο.»",
+"Είπε ότι θα έρθει / θα ερχόταν την επόμενη μέρα."
+],
+[
+"«Έχασα τα κλειδιά μου.»",
+"Είπε ότι έχασε / είχε χάσει τα κλειδιά του."
+],
+[
+"«Δεν μου αρέσει.»",
+"Είπε ότι δεν του αρέσει / άρεσε."
+]
+]
+}
+},
+{
+"p": "**Words that change** when the time or place is different:"
+},
+{
+"table": {
+"head": [
+"Direct",
+"Reported"
+],
+"rows": [
+[
+"εδώ",
+"εκεί"
+],
+[
+"τώρα",
+"τότε"
+],
+[
+"σήμερα",
+"εκείνη τη μέρα"
+],
+[
+"χθες",
+"την προηγούμενη μέρα"
+],
+[
+"αύριο",
+"την επόμενη / την άλλη μέρα"
+],
+[
+"αυτός εδώ",
+"εκείνος"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "«Μένω στη Λάρισα», μου είπε. → Μου είπε ότι μένει στη Λάρισα.",
+"en": "\"I live in Larissa,\" he told me. → He told me he lives in Larissa."
+},
+{
+"el": "Είπαν πως θα αργήσουν λίγο.",
+"en": "They said they'd be a bit late."
+},
+{
+"el": "Μου είπε ότι με αγαπάει!",
+"en": "He told me he loves me!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "«Δεν έχω χρόνο.» (Nikos)",
+"a": "Ο Νίκος είπε ότι δεν έχει χρόνο. | Ο Νίκος είπε πως δεν έχει χρόνο. | Ο Νίκος είπε ότι δεν είχε χρόνο.",
+"why": "ότι + same or backshifted tense; person changes."
+},
+{
+"q": "«Θα σε πάρω τηλέφωνο αύριο.» (Maria to me, last week)",
+"a": "Η Μαρία μου είπε ότι θα με έπαιρνε τηλέφωνο την επόμενη μέρα. | Η Μαρία μου είπε ότι θα με πάρει τηλέφωνο την επόμενη μέρα. | Η Μαρία μου είπε ότι θα με έπαιρνε τηλέφωνο την άλλη μέρα.",
+"why": "σε → με; αύριο → την επόμενη μέρα."
+},
+{
+"q": "«Είμαστε εδώ.» (they, yesterday)",
+"a": "Είπαν ότι ήταν εκεί. | Είπαν ότι είναι εκεί.",
+"why": "εδώ → εκεί."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "«Είμαι άρρωστος.» → Είπε ότι ___ άρρωστος. (is)",
+"options": [
+"είμαι",
+"είναι",
+"είσαι",
+"να είναι"
+],
+"answer": "είναι",
+"why": "Person changes: εγώ → αυτός.",
+"id": "reported-speech-68e5b7eb"
+},
+{
+"type": "choice",
+"q": "«Θα έρθω.» → Είπε ότι ___. (she'd come)",
+"options": [
+"θα έρθω",
+"θα έρθει",
+"να έρθει",
+"ήρθε θα"
+],
+"answer": "θα έρθει",
+"why": "θα έρθει (or θα ερχόταν).",
+"id": "reported-speech-64ae8e49"
+},
+{
+"type": "choice",
+"q": "«Σε αγαπάω.» → Μου είπε ότι ___ αγαπάει. (me)",
+"options": [
+"σε",
+"με",
+"τον",
+"του"
+],
+"answer": "με",
+"why": "σε → με.",
+"id": "reported-speech-98643128"
+},
+{
+"type": "choice",
+"q": "«Θα φύγω αύριο.» (said last month) → Είπε ότι θα έφευγε ___. (the next day)",
+"options": [
+"αύριο",
+"την επόμενη μέρα",
+"χθες",
+"σήμερα"
+],
+"answer": "την επόμενη μέρα",
+"why": "αύριο → την επόμενη μέρα.",
+"id": "reported-speech-3572057f"
+},
+{
+"type": "choice",
+"q": "«Μένουμε εδώ.» (said in another town) → Είπαν ότι μένουν ___. (there)",
+"options": [
+"εδώ",
+"εκεί",
+"πού",
+"τώρα"
+],
+"answer": "εκεί",
+"why": "εδώ → εκεί.",
+"id": "reported-speech-c54ebcc6"
+},
+{
+"type": "write",
+"q": "«Είμαι κουρασμένη.» (Eleni)",
+"answer": "Η Ελένη είπε ότι είναι κουρασμένη.",
+"accept": [
+"Η Ελένη είπε πως είναι κουρασμένη.",
+"Η Ελένη είπε ότι ήταν κουρασμένη."
+],
+"why": "ότι + verb.",
+"id": "reported-speech-c6b76ed2"
+},
+{
+"type": "write",
+"q": "«Δεν ξέρω.» (he)",
+"answer": "Είπε ότι δεν ξέρει.",
+"accept": [
+"Είπε πως δεν ξέρει.",
+"Είπε ότι δεν ήξερε."
+],
+"why": "Person changes.",
+"id": "reported-speech-35846099"
+},
+{
+"type": "write",
+"q": "«Θα έρθουμε.» (they)",
+"answer": "Είπαν ότι θα έρθουν.",
+"accept": [
+"Είπαν πως θα έρθουν.",
+"Είπαν ότι θα έρχονταν."
+],
+"why": "θα + 3rd person plural.",
+"id": "reported-speech-19d1a219"
+},
+{
+"type": "write",
+"q": "«Σε περιμένω.» (Kostas to me)",
+"answer": "Ο Κώστας μου είπε ότι με περιμένει.",
+"accept": [
+"Ο Κώστας μου είπε πως με περιμένει.",
+"Ο Κώστας μου είπε ότι με περίμενε."
+],
+"why": "σε → με.",
+"id": "reported-speech-43909316"
+},
+{
+"type": "order",
+"q": "\"She said she lives in Patras.\"",
+"answer": "Είπε ότι μένει στην Πάτρα.",
+"accept": [],
+"why": "Tense can stay.",
+"id": "reported-speech-2a145232"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ερωτήσεις",
+"title": "Questions: ρώτησε αν / πού / τι...",
+"body": [
+{
+"p": "Yes/no questions become **αν** + clause; question words stay (with their accent). The word order is ordinary and the question mark goes."
+},
+{
+"table": {
+"head": [
+"Direct",
+"Reported"
+],
+"rows": [
+[
+"«Θέλεις καφέ;»",
+"Με ρώτησε αν θέλω καφέ."
+],
+[
+"«Πού μένεις;»",
+"Με ρώτησε πού μένω."
+],
+[
+"«Τι ώρα είναι;»",
+"Ρώτησε τι ώρα είναι / ήταν."
+],
+[
+"«Ποιος το έκανε;»",
+"Ρώτησε ποιος το έκανε / είχε κάνει."
+],
+[
+"«Θα έρθεις;»",
+"Με ρώτησε αν θα έρθω."
+]
+]
+}
+},
+{
+"p": "**Ρωτάω** takes the person in the **accusative**: **ρώτησα τον Νίκο**, **με ρώτησε**."
+},
+{
+"ex": [
+{
+"el": "Με ρώτησε αν είμαι παντρεμένη.",
+"en": "He asked me if I'm married."
+},
+{
+"el": "Ρώτησέ τον πόσο κάνει.",
+"en": "Ask him how much it is."
+},
+{
+"el": "Δεν μου είπε γιατί έφυγε.",
+"en": "He didn't tell me why he left."
+}
+]
+},
+{
+"solved": [
+{
+"q": "«Μιλάς ελληνικά;» (she asked me)",
+"a": "Με ρώτησε αν μιλάω ελληνικά. | Με ρώτησε αν μιλούσα ελληνικά.",
+"why": "Yes/no → αν."
+},
+{
+"q": "«Πότε φεύγετε;» (he asked us)",
+"a": "Μας ρώτησε πότε φεύγουμε. | Μας ρώτησε πότε φεύγαμε.",
+"why": "Question word kept; εσείς → εμείς."
+},
+{
+"q": "«Ποιος είναι αυτός;» (she asked)",
+"a": "Ρώτησε ποιος είναι εκείνος. | Ρώτησε ποιος ήταν εκείνος. | Ρώτησε ποιος είναι αυτός.",
+"why": "Question word kept."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "«Είσαι καλά;» → Με ρώτησε ___ είμαι καλά. (if)",
+"options": [
+"ότι",
+"αν",
+"να",
+"πού"
+],
+"answer": "αν",
+"why": "Yes/no → αν.",
+"id": "reported-speech-48ef609d"
+},
+{
+"type": "choice",
+"q": "«Πού πας;» → Με ρώτησε ___ πάω. (where)",
+"options": [
+"αν",
+"πού",
+"που",
+"ότι"
+],
+"answer": "πού",
+"why": "Question word kept, with accent.",
+"id": "reported-speech-b9676dcc"
+},
+{
+"type": "choice",
+"q": "«Τι θέλετε;» → Μας ρώτησε τι ___. (we want)",
+"options": [
+"θέλετε",
+"θέλουμε",
+"θέλουν",
+"να θέλουμε"
+],
+"answer": "θέλουμε",
+"why": "εσείς → εμείς.",
+"id": "reported-speech-8f654b1b"
+},
+{
+"type": "choice",
+"q": "Ρώτησα ___ αν θα έρθει. (Nikos)",
+"options": [
+"του Νίκου",
+"τον Νίκο",
+"στον Νίκο αν",
+"ο Νίκος"
+],
+"answer": "τον Νίκο",
+"why": "ρωτάω + accusative.",
+"id": "reported-speech-c8a39a12"
+},
+{
+"type": "choice",
+"q": "«Θα έρθεις στο πάρτι;» → Με ρώτησε αν ___ στο πάρτι. (I'd come)",
+"options": [
+"θα έρθεις",
+"θα έρθω",
+"να έρθω",
+"θα έρθει"
+],
+"answer": "θα έρθω",
+"why": "εσύ → εγώ.",
+"id": "reported-speech-632caac3"
+},
+{
+"type": "write",
+"q": "«Θέλεις κρασί;» (he asked me)",
+"answer": "Με ρώτησε αν θέλω κρασί.",
+"accept": [
+"Με ρώτησε αν ήθελα κρασί."
+],
+"why": "αν.",
+"id": "reported-speech-864eb9b7"
+},
+{
+"type": "write",
+"q": "«Πού είναι ο σταθμός;» (I asked)",
+"answer": "Ρώτησα πού είναι ο σταθμός.",
+"accept": [
+"Ρώτησα πού ήταν ο σταθμός."
+],
+"why": "πού.",
+"id": "reported-speech-c029e71e"
+},
+{
+"type": "write",
+"q": "«Γιατί αργήσατε;» (she asked us)",
+"answer": "Μας ρώτησε γιατί αργήσαμε.",
+"accept": [
+"Μας ρώτησε γιατί είχαμε αργήσει."
+],
+"why": "γιατί; εσείς → εμείς.",
+"id": "reported-speech-e5646488"
+},
+{
+"type": "write",
+"q": "«Ποιος θα έρθει;» (they asked)",
+"answer": "Ρώτησαν ποιος θα έρθει.",
+"accept": [
+"Ρώτησαν ποιος θα ερχόταν."
+],
+"why": "ποιος.",
+"id": "reported-speech-cedf4ad4"
+},
+{
+"type": "order",
+"q": "\"He asked me if I was hungry.\"",
+"answer": "Με ρώτησε αν πεινάω.",
+"accept": [],
+"why": "αν.",
+"id": "reported-speech-a369dd26"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Εντολές και παρακλήσεις",
+"title": "Orders and requests: μου είπε να...",
+"body": [
+{
+"p": "Imperatives and requests become **να** + subjunctive after **λέω, ζητάω, παρακαλάω, συμβουλεύω**. Negative orders become **να μη(ν)**."
+},
+{
+"table": {
+"head": [
+"Direct",
+"Reported"
+],
+"rows": [
+[
+"«Περίμενε!»",
+"Μου είπε να περιμένω."
+],
+[
+"«Μην αργήσεις!»",
+"Μου είπε να μην αργήσω."
+],
+[
+"«Μπορείς να με βοηθήσεις;»",
+"Μου ζήτησε να τον βοηθήσω."
+],
+[
+"«Κλείστε τα κινητά.»",
+"Μας είπε να κλείσουμε τα κινητά."
+],
+[
+"«Πήγαινε στον γιατρό.»",
+"Με συμβούλεψε να πάω στον γιατρό."
+]
+]
+}
+},
+{
+"p": "**Ζητάω** + **από** + person + **να**: **Ζήτησα από τον Νίκο να έρθει.** \"I asked Nikos to come.\" With a pronoun: **του ζήτησα να έρθει**."
+},
+{
+"ex": [
+{
+"el": "Η μαμά μου μού είπε να μην ανησυχώ.",
+"en": "My mum told me not to worry."
+},
+{
+"el": "Μας ζήτησαν να περιμένουμε έξω.",
+"en": "They asked us to wait outside."
+},
+{
+"el": "Ο γιατρός με συμβούλεψε να κόψω τη ζάχαρη.",
+"en": "The doctor advised me to cut out sugar."
+}
+]
+},
+{
+"solved": [
+{
+"q": "«Κάτσε!» (he to me)",
+"a": "Μου είπε να κάτσω. | Μου είπε να καθίσω.",
+"why": "Imperative → να + subjunctive."
+},
+{
+"q": "«Μη φωνάζετε!» (the teacher to us)",
+"a": "Ο δάσκαλος μάς είπε να μη φωνάζουμε. | Η δασκάλα μάς είπε να μη φωνάζουμε. | Μας είπε να μη φωνάζουμε.",
+"why": "Negative → να μη. The accent in μάς keeps it from reading as \"our teacher\"."
+},
+{
+"q": "«Μπορείς να μου δανείσεις το αυτοκίνητο;» (Maria to me)",
+"a": "Η Μαρία μου ζήτησε να της δανείσω το αυτοκίνητο. | Η Μαρία ζήτησε από μένα να της δανείσω το αυτοκίνητο.",
+"why": "ζητάω (από) + να."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "«Περίμενε εδώ!» → Μου είπε ___ περιμένω εκεί. (to)",
+"options": [
+"ότι",
+"να",
+"αν",
+"που"
+],
+"answer": "να",
+"why": "Order → να.",
+"id": "reported-speech-7b99d2a8"
+},
+{
+"type": "choice",
+"q": "«Μην το πεις σε κανέναν!» → Μου είπε να ___ το πω σε κανέναν. (not)",
+"options": [
+"δεν",
+"μην",
+"όχι",
+"μη να"
+],
+"answer": "μην",
+"why": "να μη(ν).",
+"id": "reported-speech-a2b959b5"
+},
+{
+"type": "choice",
+"q": "Ζήτησα ___ τη Μαρία να με βοηθήσει. (from)",
+"options": [
+"της",
+"από",
+"με",
+"για"
+],
+"answer": "από",
+"why": "ζητάω από + accusative.",
+"id": "reported-speech-9e3bc4db"
+},
+{
+"type": "choice",
+"q": "«Ελάτε νωρίς!» → Μας είπε να ___ νωρίς. (we come)",
+"options": [
+"ελάτε",
+"έρθουμε",
+"έρθετε",
+"ήρθαμε"
+],
+"answer": "έρθουμε",
+"why": "εσείς → εμείς.",
+"id": "reported-speech-68d550f8"
+},
+{
+"type": "choice",
+"q": "«Κόψε το τσιγάρο.» → Ο γιατρός με συμβούλεψε να ___ το τσιγάρο. (cut out)",
+"options": [
+"κόψε",
+"κόψω",
+"κόψει",
+"έκοψα"
+],
+"answer": "κόψω",
+"why": "να κόψω.",
+"id": "reported-speech-bc48ae37"
+},
+{
+"type": "write",
+"q": "«Περίμενε!» (she to me)",
+"answer": "Μου είπε να περιμένω.",
+"accept": [],
+"why": "να.",
+"id": "reported-speech-544cface"
+},
+{
+"type": "write",
+"q": "«Μη φύγεις!» (he to me)",
+"answer": "Μου είπε να μη φύγω.",
+"accept": [
+"Μου ζήτησε να μη φύγω."
+],
+"why": "να μη.",
+"id": "reported-speech-1b0913c1"
+},
+{
+"type": "write",
+"q": "«Βοήθησέ με!» (Nikos to me)",
+"answer": "Ο Νίκος μου ζήτησε να τον βοηθήσω.",
+"accept": [
+"Ο Νίκος μου είπε να τον βοηθήσω."
+],
+"why": "με → τον.",
+"id": "reported-speech-5f6b386e"
+},
+{
+"type": "write",
+"q": "«Κλείστε την πόρτα.» (to us)",
+"answer": "Μας είπε να κλείσουμε την πόρτα.",
+"accept": [
+"Μας ζήτησε να κλείσουμε την πόρτα."
+],
+"why": "εσείς → εμείς.",
+"id": "reported-speech-c72744e9"
+},
+{
+"type": "order",
+"q": "\"They asked us to wait outside.\"",
+"answer": "Μας ζήτησαν να περιμένουμε έξω.",
+"accept": [],
+"why": "ζητάω + να.",
+"id": "reported-speech-4af13117"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Ρήματα αναφοράς",
+"title": "Reporting verbs beyond λέω",
+"body": [
+{
+"p": "Varying the reporting verb makes narrative and B2 writing more precise. Note which link each one takes."
+},
+{
+"table": {
+"head": [
+"Verb",
+"Link",
+"Example"
+],
+"rows": [
+[
+"εξηγώ",
+"ότι / γιατί",
+"Εξήγησε ότι το τρένο είχε καθυστέρηση."
+],
+[
+"παραδέχομαι",
+"ότι",
+"Παραδέχτηκε ότι έκανε λάθος. \"He admitted he was wrong.\""
+],
+[
+"ισχυρίζομαι",
+"ότι",
+"Ισχυρίζεται ότι δεν ήταν εκεί. \"He claims he wasn't there.\""
+],
+[
+"υπόσχομαι",
+"να / ότι θα",
+"Υποσχέθηκε να έρθει. \"She promised to come.\""
+],
+[
+"προτείνω",
+"να",
+"Πρότεινε να πάμε σινεμά. \"He suggested going to the cinema.\""
+],
+[
+"αρνούμαι",
+"να / ότι",
+"Αρνήθηκε να απαντήσει. \"She refused to answer.\""
+],
+[
+"προειδοποιώ",
+"ότι / να μη(ν)",
+"Μας προειδοποίησε να μην κολυμπήσουμε. \"He warned us not to swim.\""
+],
+[
+"παραπονιέμαι",
+"ότι",
+"Παραπονέθηκε ότι κάνει κρύο. \"She complained it was cold.\""
+],
+[
+"απαντάω",
+"ότι",
+"Απάντησε ότι δεν ξέρει."
+],
+[
+"επιμένω",
+"να / ότι",
+"Επέμενε να πληρώσει αυτός. \"He insisted on paying.\""
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Ο υπουργός ισχυρίστηκε ότι η οικονομία βελτιώνεται.",
+"en": "The minister claimed the economy is improving."
+},
+{
+"el": "Μου υποσχέθηκες ότι θα έρθεις!",
+"en": "You promised me you'd come!"
+},
+{
+"el": "Η Ελένη πρότεινε να φάμε έξω.",
+"en": "Eleni suggested we eat out."
+}
+]
+},
+{
+"solved": [
+{
+"q": "«Εντάξει, έκανα λάθος.» (he)",
+"a": "Παραδέχτηκε ότι έκανε λάθος. | Παραδέχτηκε πως έκανε λάθος. | Παραδέχτηκε ότι είχε κάνει λάθος.",
+"why": "παραδέχομαι + ότι."
+},
+{
+"q": "«Πάμε για φαγητό;» (Eleni)",
+"a": "Η Ελένη πρότεινε να πάμε για φαγητό.",
+"why": "προτείνω + να."
+},
+{
+"q": "«Θα σε βοηθήσω, το υπόσχομαι.» (Nikos to me)",
+"a": "Ο Νίκος υποσχέθηκε να με βοηθήσει. | Ο Νίκος μου υποσχέθηκε ότι θα με βοηθήσει. | Ο Νίκος μου υποσχέθηκε να με βοηθήσει.",
+"why": "υπόσχομαι να / ότι θα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πρότεινε ___ πάμε στη θάλασσα. (that we)",
+"options": [
+"ότι",
+"να",
+"αν",
+"πως"
+],
+"answer": "να",
+"why": "προτείνω + να.",
+"id": "reported-speech-95477e00"
+},
+{
+"type": "choice",
+"q": "Παραδέχτηκε ___ είχε άδικο. (that)",
+"options": [
+"να",
+"ότι",
+"αν",
+"να μη"
+],
+"answer": "ότι",
+"why": "παραδέχομαι + ότι.",
+"id": "reported-speech-27b9a96d"
+},
+{
+"type": "choice",
+"q": "Αρνήθηκε ___ πληρώσει. (to)",
+"options": [
+"ότι",
+"να",
+"αν",
+"για"
+],
+"answer": "να",
+"why": "αρνούμαι + να.",
+"id": "reported-speech-461f306b"
+},
+{
+"type": "choice",
+"q": "Ο ύποπτος ___ ότι ήταν σπίτι του. (claims)",
+"options": [
+"υπόσχεται",
+"ισχυρίζεται",
+"προτείνει",
+"ζητάει"
+],
+"answer": "ισχυρίζεται",
+"why": "ισχυρίζομαι = claim.",
+"id": "reported-speech-8e20a70a"
+},
+{
+"type": "choice",
+"q": "Μας προειδοποίησε να ___ κολυμπήσουμε. (not)",
+"options": [
+"δεν",
+"μην",
+"όχι",
+"ούτε"
+],
+"answer": "μην",
+"why": "να μην.",
+"id": "reported-speech-e64eaaab"
+},
+{
+"type": "write",
+"q": "«Δεν θα απαντήσω.» (she)",
+"answer": "Αρνήθηκε να απαντήσει.",
+"accept": [],
+"why": "αρνούμαι + να.",
+"id": "reported-speech-f5ce6315"
+},
+{
+"type": "write",
+"q": "«Ας πάμε σινεμά!» (he)",
+"answer": "Πρότεινε να πάμε σινεμά.",
+"accept": [
+"Πρότεινε να πάμε στον κινηματογράφο.",
+"Πρότεινε να πάμε στο σινεμά."
+],
+"why": "προτείνω + να.",
+"id": "reported-speech-93589ecf"
+},
+{
+"type": "write",
+"q": "\"She promised to call.\"",
+"answer": "Υποσχέθηκε να πάρει τηλέφωνο.",
+"accept": [
+"Υποσχέθηκε ότι θα πάρει τηλέφωνο.",
+"Υποσχέθηκε να τηλεφωνήσει.",
+"Υποσχέθηκε ότι θα τηλεφωνήσει."
+],
+"why": "υπόσχομαι.",
+"id": "reported-speech-56d972b2"
+},
+{
+"type": "write",
+"q": "\"He claims he wasn't there.\"",
+"answer": "Ισχυρίζεται ότι δεν ήταν εκεί.",
+"accept": [
+"Ισχυρίζεται πως δεν ήταν εκεί."
+],
+"why": "ισχυρίζομαι + ότι.",
+"id": "reported-speech-0331f797"
+},
+{
+"type": "order",
+"q": "\"He insisted on paying.\"",
+"answer": "Επέμενε να πληρώσει αυτός.",
+"accept": [],
+"why": "επιμένω + να.",
+"id": "reported-speech-766c502f"
+}
+]
+}
+]
+}
+],
+"id": "reported-speech",
+"el": "Πλάγιος λόγος",
+"title": "Reported speech",
+"span": "B1–B2",
+"blurb": "Turning what people said into reported statements (είπε ότι...), questions (ρώτησε αν / πού...) and orders (μου είπε να...), why Greek doesn't need to shift tenses back, how pronouns and time words change, and the reporting verbs that lift your writing: υπόσχομαι, προτείνω, ζητάω, παραδέχομαι, ισχυρίζομαι.",
+"intro": [
+{
+"p": "Reporting speech in Greek is easier than in English: you **don't have to shift the tense back**. **Είπε ότι είναι κουρασμένη** \"She said she's (was) tired\" is perfectly correct. What changes is the **person** (εγώ → αυτός), **here/now words** (εδώ → εκεί, αύριο → την επόμενη μέρα) and the **link word**: ότι for statements, αν or a question word for questions, να for orders."
+},
+{
+"links": [
+{
+"href": "#clauses-reported",
+"kind": "Lesson",
+"el": "Πλάγιος λόγος σε βάθος",
+"title": "Reported speech in depth: statements, questions, commands, shifts"
+},
+{
+"href": "#b2-indirect",
+"kind": "Lesson",
+"el": "Πλάγιος λόγος",
+"title": "Reported statements, questions and commands"
+},
+{
+"href": "#syntax.reported",
+"kind": "Syntax",
+"el": "Ο πλάγιος λόγος",
+"title": "Reported speech"
+},
+{
+"href": "#cards.reported",
+"kind": "Card",
+"el": "Πλάγιος λόγος",
+"title": "Reported speech"
+}
+]
+}
+],
+"num": 34
+}

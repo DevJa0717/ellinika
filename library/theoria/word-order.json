@@ -1,0 +1,822 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Ουδέτερη σειρά",
+"title": "Neutral order and the dropped subject",
+"body": [
+{
+"p": "The verb ending already shows the person, so **subject pronouns are dropped** unless they are emphatic or contrastive:"
+},
+{
+"table": {
+"head": [
+"Neutral",
+"Emphatic / contrastive"
+],
+"rows": [
+[
+"Πληρώνω εγώ. / Θα πληρώσω.",
+"**Εγώ** θα πληρώσω! \"I'll pay!\""
+],
+[
+"Μένω στην Αθήνα.",
+"**Εγώ** μένω στην Αθήνα, **αυτή** στη Θεσσαλονίκη."
+],
+[
+"Τι κάνεις;",
+"**Εσύ** τι κάνεις; \"And how are you?\""
+]
+]
+}
+},
+{
+"p": "**Verb before subject** is normal when the whole sentence is new information, especially with verbs of arriving, happening, appearing:"
+},
+{
+"ex": [
+{
+"el": "Ήρθε ο Νίκος.",
+"en": "Nikos has come. (news)"
+},
+{
+"el": "Χτυπάει το τηλέφωνο.",
+"en": "The phone's ringing."
+},
+{
+"el": "Έφυγε το λεωφορείο!",
+"en": "The bus has gone!"
+},
+{
+"el": "Ο Νίκος ήρθε, η Μαρία όχι.",
+"en": "Nikos came, Maria didn't. (contrast: subject first)"
+}
+]
+},
+{
+"p": "In **questions** the verb comes right after the question word: **Πού μένει η Μαρία;** (not *πού η Μαρία μένει*)."
+},
+{
+"solved": [
+{
+"q": "\"And you (sg), what do you want?\"",
+"a": "Εσύ τι θέλεις;",
+"why": "The pronoun is kept for contrast."
+},
+{
+"q": "\"The postman has come.\" (news)",
+"a": "Ήρθε ο ταχυδρόμος.",
+"why": "New information: verb first."
+},
+{
+"q": "\"Where does your brother work?\" (sg)",
+"a": "Πού δουλεύει ο αδερφός σου;",
+"why": "Question word + verb + subject."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τι ___; (does Maria want)",
+"options": [
+"η Μαρία θέλει τι",
+"θέλει η Μαρία",
+"Μαρία θέλει",
+"θέλει Μαρία η"
+],
+"answer": "θέλει η Μαρία",
+"why": "Question word + verb + subject.",
+"id": "word-order-2e55159b"
+},
+{
+"type": "choice",
+"q": "— Ποιος θα πληρώσει; — ___ θα πληρώσω! (I)",
+"options": [
+"Με",
+"Εγώ",
+"Μου",
+"Εμένα μου"
+],
+"answer": "Εγώ",
+"why": "Emphasis: εγώ.",
+"id": "word-order-b3ac0fff"
+},
+{
+"type": "choice",
+"q": "Μένω στην Αθήνα. ___ πού μένεις; (And you)",
+"options": [
+"Σε",
+"Εσύ",
+"Σου",
+"Εσένα"
+],
+"answer": "Εσύ",
+"why": "Contrast: εσύ.",
+"id": "word-order-f1743818"
+},
+{
+"type": "choice",
+"q": "___ ο Γιώργος! Άνοιξε την πόρτα. (Giorgos has come)",
+"options": [
+"Ο Γιώργος ήρθε μόλις",
+"Ήρθε",
+"Έρχεσαι",
+"Ήρθαν"
+],
+"answer": "Ήρθε",
+"why": "News: verb first.",
+"id": "word-order-adf3bb58"
+},
+{
+"type": "write",
+"q": "\"Where does Maria live?\"",
+"answer": "Πού μένει η Μαρία;",
+"accept": [],
+"why": "Verb right after the question word.",
+"id": "word-order-0f43225f"
+},
+{
+"type": "write",
+"q": "\"I'll pay!\" (emphatic)",
+"answer": "Εγώ θα πληρώσω!",
+"accept": [
+"Θα πληρώσω εγώ!",
+"Πληρώνω εγώ!"
+],
+"why": "Pronoun for emphasis.",
+"id": "word-order-b0b8a02f"
+},
+{
+"type": "write",
+"q": "\"The phone's ringing.\"",
+"answer": "Χτυπάει το τηλέφωνο.",
+"accept": [
+"Χτυπάει το κινητό."
+],
+"why": "Verb first.",
+"id": "word-order-bc354f29"
+},
+{
+"type": "order",
+"q": "\"And how are you (sg)?\"",
+"answer": "Εσύ τι κάνεις;",
+"accept": [],
+"why": "Contrastive εσύ.",
+"id": "word-order-5a850ccf"
+},
+{
+"type": "order",
+"q": "\"When does the train leave?\"",
+"answer": "Πότε φεύγει το τρένο;",
+"accept": [],
+"why": "Question word + verb + subject.",
+"id": "word-order-70d368cb"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Θέμα και διπλασιασμός",
+"title": "Topics and the doubling pronoun",
+"body": [
+{
+"p": "When an **object is put first** because it is the topic (\"as for X...\"), Greek repeats it with a **weak pronoun** before the verb. This is called **clitic doubling**, and it is completely normal in speech and writing."
+},
+{
+"table": {
+"head": [
+"Topic first + pronoun",
+"Meaning"
+],
+"rows": [
+[
+"Τον καφέ τον πίνω σκέτο.",
+"Coffee, I drink it black."
+],
+[
+"Τη Μαρία την ξέρω από το σχολείο.",
+"Maria, I know her from school."
+],
+[
+"Τα κλειδιά τα έχεις;",
+"Have you got the keys?"
+],
+[
+"Στον Νίκο του αρέσει το ψάρι.",
+"Nikos likes fish."
+]
+]
+}
+},
+{
+"p": "The object can also come **after** the verb with the pronoun already in front (an afterthought): **Το είδες το έργο;** \"Did you see it, the play?\" **Την ξέρω τη Μαρία.**"
+},
+{
+"ex": [
+{
+"el": "Το βιβλίο το διάβασα σε δύο μέρες.",
+"en": "I read the book in two days."
+},
+{
+"el": "Τους φίλους μου τους βλέπω κάθε Σάββατο.",
+"en": "I see my friends every Saturday."
+},
+{
+"el": "Το έφαγες το φαγητό σου;",
+"en": "Have you eaten your food?"
+},
+{
+"el": "Αυτό δεν το ήξερα!",
+"en": "I didn't know that!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"The car, I sold it.\"",
+"a": "Το αυτοκίνητο το πούλησα.",
+"why": "Topic first + pronoun το."
+},
+{
+"q": "\"Did you (sg) bring the bread?\" (topic first)",
+"a": "Το ψωμί το έφερες; | Το έφερες το ψωμί;",
+"why": "Doubling pronoun το."
+},
+{
+"q": "\"I didn't know that!\"",
+"a": "Αυτό δεν το ήξερα! | Δεν το ήξερα αυτό!",
+"why": "αυτό first, doubled by το."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Τον καφέ ___ πίνω με γάλα. (it)",
+"options": [
+"το",
+"τον",
+"τη",
+"του"
+],
+"answer": "τον",
+"why": "Masculine accusative: τον.",
+"id": "word-order-b3e39813"
+},
+{
+"type": "choice",
+"q": "Τη Μαρία ___ ξέρω χρόνια. (her)",
+"options": [
+"της",
+"την",
+"τον",
+"τη να"
+],
+"answer": "την",
+"why": "Feminine accusative: την.",
+"id": "word-order-77d99168"
+},
+{
+"type": "choice",
+"q": "Τα κλειδιά ___ έχεις εσύ; (them)",
+"options": [
+"το",
+"τα",
+"τους",
+"τις"
+],
+"answer": "τα",
+"why": "Neuter plural: τα.",
+"id": "word-order-6788d76c"
+},
+{
+"type": "choice",
+"q": "Αυτό δεν ___ ήξερα. (it)",
+"options": [
+"τα",
+"το",
+"τον",
+"του"
+],
+"answer": "το",
+"why": "αυτό doubled by το.",
+"id": "word-order-3a737e97"
+},
+{
+"type": "choice",
+"q": "___ είδες την ταινία; (it, doubling after)",
+"options": [
+"Τη",
+"Την",
+"Το",
+"Της"
+],
+"answer": "Την",
+"why": "Feminine accusative before a vowel: την.",
+"id": "word-order-66072249"
+},
+{
+"type": "write",
+"q": "\"Coffee, I drink it black.\"",
+"answer": "Τον καφέ τον πίνω σκέτο.",
+"accept": [],
+"why": "Doubling.",
+"id": "word-order-7e857921"
+},
+{
+"type": "write",
+"q": "\"The book, I read it in a day.\"",
+"answer": "Το βιβλίο το διάβασα σε μια μέρα.",
+"accept": [
+"Το βιβλίο το διάβασα σε μία μέρα."
+],
+"why": "Doubling.",
+"id": "word-order-d6985e0a"
+},
+{
+"type": "write",
+"q": "\"Did you (sg) see the film?\" (with doubling)",
+"answer": "Την είδες την ταινία;",
+"accept": [
+"Την ταινία την είδες;"
+],
+"why": "Doubling with την.",
+"id": "word-order-2e8cc0a6"
+},
+{
+"type": "write",
+"q": "\"I know Maria.\" (with doubling)",
+"answer": "Την ξέρω τη Μαρία.",
+"accept": [
+"Τη Μαρία την ξέρω."
+],
+"why": "Doubling.",
+"id": "word-order-285aee09"
+},
+{
+"type": "order",
+"q": "\"My friends, I see them every Sunday.\"",
+"answer": "Τους φίλους μου τους βλέπω κάθε Κυριακή.",
+"accept": [],
+"why": "Doubling with τους.",
+"id": "word-order-6eb48a04"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Η σειρά στη φράση",
+"title": "Order inside the noun phrase",
+"body": [
+{
+"table": {
+"head": [
+"Pattern",
+"Example",
+"Note"
+],
+"rows": [
+[
+"article + adjective + noun",
+"το μεγάλο σπίτι",
+"neutral"
+],
+[
+"article + noun + article + adjective",
+"το σπίτι το μεγάλο",
+"emphasis on the adjective; \"the big house (not the small one)\""
+],
+[
+"noun + possessive",
+"το σπίτι μου",
+"possessive after the noun"
+],
+[
+"adjective + possessive + noun",
+"το μεγάλο μου σπίτι",
+"possessive can follow the adjective"
+],
+[
+"demonstrative + article + noun",
+"αυτό το σπίτι / το σπίτι αυτό",
+"both orders; the article is always there"
+],
+[
+"όλος + article + noun",
+"όλη η μέρα / όλη τη μέρα",
+"όλος takes the article"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Θέλω το κόκκινο φόρεμα.",
+"en": "I want the red dress."
+},
+{
+"el": "Θέλω το φόρεμα το κόκκινο, όχι το μαύρο.",
+"en": "I want the red dress, not the black one."
+},
+{
+"el": "Πού είναι το καινούργιο σου κινητό;",
+"en": "Where's your new phone?"
+},
+{
+"el": "Αυτή η ταινία είναι υπέροχη.",
+"en": "This film is great."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Your (sg) new car\" (two orders)",
+"a": "το καινούργιο σου αυτοκίνητο | το καινούργιο αυτοκίνητό σου",
+"why": "Possessive after the adjective or after the noun."
+},
+{
+"q": "\"This woman\"",
+"a": "αυτή η γυναίκα | η γυναίκα αυτή",
+"why": "The article stays with a demonstrative."
+},
+{
+"q": "\"The small one, not the big one\" (το δωμάτιο)",
+"a": "το δωμάτιο το μικρό, όχι το μεγάλο | το μικρό δωμάτιο, όχι το μεγάλο",
+"why": "Repeated article for contrast."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θέλω ___ σπίτι. (this)",
+"options": [
+"αυτό",
+"αυτό το",
+"το αυτό",
+"αυτό τα"
+],
+"answer": "αυτό το",
+"why": "Demonstrative + article.",
+"id": "word-order-326eb882"
+},
+{
+"type": "choice",
+"q": "Πού είναι το ___ κινητό; (your new)",
+"options": [
+"σου καινούργιο σου",
+"καινούργιο σου",
+"σου το καινούργιο",
+"καινούργιο το σου"
+],
+"answer": "καινούργιο σου",
+"why": "Possessive after the adjective.",
+"id": "word-order-dd9239ad"
+},
+{
+"type": "choice",
+"q": "Θέλω το φόρεμα ___ κόκκινο. (the)",
+"options": [
+"τα",
+"το",
+"ένα",
+"του"
+],
+"answer": "το",
+"why": "Repeated article for emphasis.",
+"id": "word-order-62c2fba7"
+},
+{
+"type": "choice",
+"q": "___ η μέρα πέρασε ήσυχα. (All)",
+"options": [
+"Όλο",
+"Όλη",
+"Όλες",
+"Όλος"
+],
+"answer": "Όλη",
+"why": "όλη agrees with μέρα.",
+"id": "word-order-7f4a4b75"
+},
+{
+"type": "write",
+"q": "\"This book\"",
+"answer": "αυτό το βιβλίο",
+"accept": [
+"το βιβλίο αυτό"
+],
+"why": "Demonstrative + article.",
+"id": "word-order-dd175c40"
+},
+{
+"type": "write",
+"q": "\"My old car\"",
+"answer": "το παλιό μου αυτοκίνητο",
+"accept": [
+"το παλιό αυτοκίνητό μου"
+],
+"why": "Possessive position.",
+"id": "word-order-fc562819"
+},
+{
+"type": "write",
+"q": "\"All day\" (time, accusative)",
+"answer": "όλη τη μέρα",
+"accept": [
+"όλη την ημέρα",
+"όλη μέρα"
+],
+"why": "όλος + article.",
+"id": "word-order-457d2b90"
+},
+{
+"type": "order",
+"q": "\"I want the white shirt, not the blue one.\"",
+"answer": "Θέλω το πουκάμισο το άσπρο, όχι το μπλε.",
+"accept": [],
+"why": "Repeated article for contrast.",
+"id": "word-order-e45f3ef3"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Εστίαση και έμφαση",
+"title": "Focus, contrast and cleft sentences",
+"body": [
+{
+"p": "A **contrasted** word can move to the front **without** a doubling pronoun; it is stressed in speech:"
+},
+{
+"ex": [
+{
+"el": "ΤΗ ΜΑΡΙΑ είδα, όχι την Ελένη.",
+"en": "It was Maria I saw, not Eleni."
+},
+{
+"el": "ΧΘΕΣ ήρθε, όχι σήμερα.",
+"en": "He came yesterday, not today."
+},
+{
+"el": "ΚΑΦΕ θέλω, όχι τσάι.",
+"en": "It's coffee I want, not tea."
+}
+]
+},
+{
+"p": "Compare: **Τη Μαρία την είδα** (topic: \"Maria? Yes, I saw her\") vs **ΤΗ ΜΑΡΙΑ είδα** (focus: \"it was Maria I saw\")."
+},
+{
+"p": "**Cleft sentences** highlight one part:"
+},
+{
+"table": {
+"head": [
+"Pattern",
+"Example"
+],
+"rows": [
+[
+"αυτό που... είναι",
+"Αυτό που θέλω είναι λίγη ησυχία. \"What I want is a bit of peace.\""
+],
+[
+"... είναι που",
+"Εσύ είσαι που άργησες! \"It's you who was late!\""
+],
+[
+"εκείνο που",
+"Εκείνο που με ενοχλεί είναι το ψέμα. \"What bothers me is the lying.\""
+],
+[
+"ο λόγος που",
+"Ο λόγος που ήρθα είναι... \"The reason I came is...\""
+]
+]
+}
+},
+{
+"p": "**Emphasis words**: **μόνο** only, **και / ακόμα και** even, **ο ίδιος** himself, **κιόλας** on top of that, **πάντως** anyway."
+},
+{
+"ex": [
+{
+"el": "Ακόμα και ο Νίκος ήρθε!",
+"en": "Even Nikos came!"
+},
+{
+"el": "Το έφτιαξα μόνη μου.",
+"en": "I made it myself."
+},
+{
+"el": "Ο ίδιος ο διευθυντής μού το είπε.",
+"en": "The director himself told me."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"It's coffee I want, not tea.\"",
+"a": "Καφέ θέλω, όχι τσάι.",
+"why": "Focus first, no doubling pronoun."
+},
+{
+"q": "\"What I need is sleep.\"",
+"a": "Αυτό που χρειάζομαι είναι ύπνος. | Αυτό που χρειάζομαι είναι να κοιμηθώ.",
+"why": "Cleft: αυτό που... είναι."
+},
+{
+"q": "\"Even my grandmother uses a smartphone.\"",
+"a": "Ακόμα και η γιαγιά μου έχει κινητό με ίντερνετ. | Ακόμα και η γιαγιά μου χρησιμοποιεί έξυπνο κινητό.",
+"why": "ακόμα και = even."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ θέλω, όχι τσάι. (Coffee: focus)",
+"options": [
+"Τον καφέ το",
+"Καφέ",
+"Καφέ τον",
+"Ο καφές"
+],
+"answer": "Καφέ",
+"why": "Focus: no doubling pronoun.",
+"id": "word-order-64fdf779"
+},
+{
+"type": "choice",
+"q": "Αυτό ___ θέλω είναι λίγη ησυχία. (that)",
+"options": [
+"ότι",
+"που",
+"πως",
+"το οποίο να"
+],
+"answer": "που",
+"why": "Cleft: αυτό που.",
+"id": "word-order-3f12e540"
+},
+{
+"type": "choice",
+"q": "___ και ο Νίκος ήρθε στο πάρτι! (Even)",
+"options": [
+"Μόνο",
+"Ακόμα",
+"Κιόλας",
+"Πάντως"
+],
+"answer": "Ακόμα",
+"why": "ακόμα και = even.",
+"id": "word-order-c02846e5"
+},
+{
+"type": "choice",
+"q": "Εσύ είσαι ___ άργησες, όχι εγώ! (who)",
+"options": [
+"πού",
+"που",
+"ποιος",
+"ότι"
+],
+"answer": "που",
+"why": "Cleft: είσαι που.",
+"id": "word-order-caa20e30"
+},
+{
+"type": "choice",
+"q": "Ο ___ ο υπουργός το είπε. (himself)",
+"options": [
+"μόνος",
+"ίδιος",
+"εαυτός",
+"αυτός μόνος"
+],
+"answer": "ίδιος",
+"why": "ο ίδιος = himself.",
+"id": "word-order-ae229a9a"
+},
+{
+"type": "write",
+"q": "\"What I want is to sleep.\"",
+"answer": "Αυτό που θέλω είναι να κοιμηθώ.",
+"accept": [
+"Εκείνο που θέλω είναι να κοιμηθώ."
+],
+"why": "Cleft.",
+"id": "word-order-b5fe885e"
+},
+{
+"type": "write",
+"q": "\"Even Maria knew.\"",
+"answer": "Ακόμα και η Μαρία το ήξερε.",
+"accept": [
+"Ακόμη και η Μαρία το ήξερε.",
+"Και η Μαρία το ήξερε."
+],
+"why": "ακόμα και.",
+"id": "word-order-9f9aceb3"
+},
+{
+"type": "write",
+"q": "\"It's you (sg) who's wrong!\"",
+"answer": "Εσύ είσαι που κάνεις λάθος!",
+"accept": [
+"Εσύ έχεις άδικο!"
+],
+"why": "Cleft.",
+"id": "word-order-6683bfd0"
+},
+{
+"type": "write",
+"q": "\"The reason I came is to see you (sg).\"",
+"answer": "Ο λόγος που ήρθα είναι για να σε δω.",
+"accept": [
+"Ο λόγος που ήρθα είναι να σε δω."
+],
+"why": "ο λόγος που.",
+"id": "word-order-c5a5bba5"
+},
+{
+"type": "order",
+"q": "\"It was Maria I saw, not Eleni.\"",
+"answer": "Τη Μαρία είδα, όχι την Ελένη.",
+"accept": [],
+"why": "Focus: no doubling.",
+"id": "word-order-b70309c6"
+}
+]
+}
+]
+}
+],
+"id": "word-order",
+"el": "Σειρά των λέξεων και έμφαση",
+"title": "Word order and emphasis",
+"span": "A2–B2",
+"blurb": "How free Greek word order really is: the dropped subject, verb-first sentences for news (ήρθε ο Νίκος), topics with a doubling pronoun (τον καφέ τον πίνω σκέτο), contrastive focus, noun-phrase order (το σπίτι το μεγάλο), and cleft sentences (αυτό που θέλω είναι...).",
+"intro": [
+{
+"p": "Case endings show who does what, so Greek can move words around to show what is **new**, what is the **topic**, and what is **contrasted**. The rules below cover the patterns you hear every day. Ordinary, neutral order is **subject - verb - object**, but the subject is usually left out."
+},
+{
+"links": [
+{
+"href": "#b2-word-order",
+"kind": "Lesson",
+"el": "Σειρά των λέξεων",
+"title": "Word order, topic and focus"
+},
+{
+"href": "#verbs-clitics",
+"kind": "Lesson",
+"el": "Αδύνατες αντωνυμίες σε βάθος",
+"title": "Weak object pronouns: position, order, doubling"
+},
+{
+"href": "#syntax.word-order",
+"kind": "Syntax",
+"el": "Η σειρά των λέξεων",
+"title": "Word order, topic and focus"
+},
+{
+"href": "#syntax.clitics",
+"kind": "Syntax",
+"el": "Οι αδύνατοι τύποι στην πρόταση",
+"title": "Weak pronouns in the sentence"
+},
+{
+"href": "#cards.word-order",
+"kind": "Card",
+"el": "Σειρά των λέξεων",
+"title": "Word order, topic and focus"
+},
+{
+"href": "#cards.clitics",
+"kind": "Card",
+"el": "Θέση των αδύνατων τύπων",
+"title": "Where weak pronouns go"
+}
+]
+}
+],
+"num": 35
+}

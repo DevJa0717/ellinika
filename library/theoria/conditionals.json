@@ -1,0 +1,851 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Πραγματικές υποθέσεις",
+"title": "Real conditions: αν βρέξει, θα μείνουμε",
+"body": [
+{
+"table": {
+"head": [
+"If-clause (αν + ...)",
+"Main clause",
+"Meaning"
+],
+"rows": [
+[
+"dependent: αν βρέξει",
+"θα + verb",
+"a possible future event"
+],
+[
+"present: αν θέλεις",
+"present / imperative",
+"a present or general condition"
+],
+[
+"past: αν το είπε",
+"past / present",
+"if it's true that..."
+]
+]
+}
+},
+{
+"p": "The negative inside **αν** is **δεν**: **Αν δεν έρθεις, θα στενοχωρηθώ.** No θα after αν when the meaning is future."
+},
+{
+"ex": [
+{
+"el": "Αν βρέξει, θα μείνουμε σπίτι.",
+"en": "If it rains, we'll stay at home."
+},
+{
+"el": "Αν θέλεις, έλα μαζί μας.",
+"en": "If you want, come with us."
+},
+{
+"el": "Αν ζεσταίνεις το νερό στους εκατό βαθμούς, βράζει.",
+"en": "If you heat water to 100 degrees, it boils."
+},
+{
+"el": "Αν το είπε αυτό, έκανε λάθος.",
+"en": "If he said that, he was wrong."
+},
+{
+"el": "Αν δεν βιαστείς, θα χάσεις το λεωφορείο.",
+"en": "If you don't hurry, you'll miss the bus."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"If you (sg) see Maria, tell her to call me.\"",
+"a": "Αν δεις τη Μαρία, πες της να με πάρει τηλέφωνο. | Αν δεις τη Μαρία, πες της να μου τηλεφωνήσει.",
+"why": "αν + dependent; imperative in the main clause."
+},
+{
+"q": "\"If I have time, I'll come.\"",
+"a": "Αν έχω χρόνο, θα έρθω. | Αν έχω χρόνο, θα 'ρθω.",
+"why": "έχω has one form: αν έχω."
+},
+{
+"q": "\"If you (sg) don't eat, you'll get hungry.\"",
+"a": "Αν δεν φας, θα πεινάσεις. | Αν δε φας, θα πεινάσεις.",
+"why": "Negation after αν: δεν."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Αν ___ αύριο, θα πάμε στη θάλασσα. (it's nice: κάνει καλό καιρό)",
+"options": [
+"θα κάνει",
+"κάνει",
+"έκανε",
+"κάνε"
+],
+"answer": "κάνει",
+"why": "αν + present or dependent, no θα.",
+"id": "conditionals-7071ed98"
+},
+{
+"type": "choice",
+"q": "Αν δεις τον Νίκο, ___ του χαιρετίσματα. (say, sg)",
+"options": [
+"θα λες",
+"πες",
+"είπες",
+"λέξε"
+],
+"answer": "πες",
+"why": "Imperative in the main clause.",
+"id": "conditionals-1e125842"
+},
+{
+"type": "choice",
+"q": "Αν ___ βιαστείς, θα αργήσεις. (don't)",
+"options": [
+"μην",
+"δεν",
+"όχι",
+"μη να"
+],
+"answer": "δεν",
+"why": "After αν: δεν.",
+"id": "conditionals-57e50162"
+},
+{
+"type": "choice",
+"q": "Αν ___ χρόνο, θα σε βοηθήσω. (I have)",
+"options": [
+"θα έχω",
+"έχω",
+"είχα",
+"έχσω"
+],
+"answer": "έχω",
+"why": "αν + present.",
+"id": "conditionals-cd248f3c"
+},
+{
+"type": "choice",
+"q": "Αν πάρεις το τρένο, ___ στις δέκα. (you'll arrive)",
+"options": [
+"φτάσεις",
+"θα φτάσεις",
+"θα έφτανες",
+"έφτασες"
+],
+"answer": "θα φτάσεις",
+"why": "Main clause: θα + dependent.",
+"id": "conditionals-007f734b"
+},
+{
+"type": "write",
+"q": "\"If it rains, we'll stay at home.\"",
+"answer": "Αν βρέξει, θα μείνουμε σπίτι.",
+"accept": [
+"Αν βρέξει, θα μείνουμε στο σπίτι."
+],
+"why": "αν + dependent / θα.",
+"id": "conditionals-77bbee88"
+},
+{
+"type": "write",
+"q": "\"If you (sg) want, come.\"",
+"answer": "Αν θέλεις, έλα.",
+"accept": [
+"Έλα, αν θέλεις."
+],
+"why": "αν + present / imperative.",
+"id": "conditionals-d7a9a80d"
+},
+{
+"type": "write",
+"q": "\"If you (sg) don't hurry, you'll be late.\"",
+"answer": "Αν δεν βιαστείς, θα αργήσεις.",
+"accept": [
+"Αν δε βιαστείς, θα αργήσεις."
+],
+"why": "αν δεν.",
+"id": "conditionals-49297c70"
+},
+{
+"type": "write",
+"q": "\"If I find it, I'll tell you.\" (sg)",
+"answer": "Αν το βρω, θα σου πω.",
+"accept": [
+"Αν το βρω, θα σου το πω."
+],
+"why": "αν + dependent.",
+"id": "conditionals-9d1474d3"
+},
+{
+"type": "order",
+"q": "\"If you (sg) see him, call me.\"",
+"answer": "Αν τον δεις, πάρε με τηλέφωνο.",
+"accept": [],
+"why": "αν + dependent.",
+"id": "conditionals-6ddf26be"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Μη πραγματικές τώρα",
+"title": "Unreal now: αν είχα, θα αγόραζα",
+"body": [
+{
+"p": "To imagine something contrary to the present (\"if I were, if I had\"), use the **imperfect** in both halves: **αν + imperfect, θα + imperfect**."
+},
+{
+"table": {
+"head": [
+"English",
+"Greek"
+],
+"rows": [
+[
+"If I had money, I'd buy a boat.",
+"Αν είχα λεφτά, θα αγόραζα βάρκα."
+],
+[
+"If I were you, I wouldn't go.",
+"Αν ήμουν στη θέση σου, δεν θα πήγαινα."
+],
+[
+"If she knew, she'd be angry.",
+"Αν το ήξερε, θα θύμωνε."
+],
+[
+"If we lived by the sea, we'd swim every day.",
+"Αν μέναμε δίπλα στη θάλασσα, θα κολυμπούσαμε κάθε μέρα."
+]
+]
+}
+},
+{
+"p": "**Θα + imperfect** alone is the Greek \"would\": **Θα ήθελα έναν καφέ.** \"I'd like a coffee.\" **Θα σε βοηθούσα, αλλά...** \"I'd help you, but...\""
+},
+{
+"ex": [
+{
+"el": "Αν ήξερα ελληνικά, θα μιλούσα με τη γιαγιά μου.",
+"en": "If I knew Greek, I'd talk to my grandmother."
+},
+{
+"el": "Αν δεν έβρεχε, θα βγαίναμε.",
+"en": "If it weren't raining, we'd go out."
+},
+{
+"el": "Στη θέση σου θα του τηλεφωνούσα.",
+"en": "In your place, I'd call him."
+},
+{
+"el": "Τι θα έκανες αν κέρδιζες το λαχείο;",
+"en": "What would you do if you won the lottery?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"If I were rich, I'd travel.\"",
+"a": "Αν ήμουν πλούσιος, θα ταξίδευα. | Αν ήμουν πλούσια, θα ταξίδευα.",
+"why": "αν + imperfect, θα + imperfect."
+},
+{
+"q": "\"If I were you, I'd tell him.\"",
+"a": "Αν ήμουν στη θέση σου, θα του το έλεγα. | Στη θέση σου, θα του το έλεγα.",
+"why": "\"If I were you\" = αν ήμουν στη θέση σου."
+},
+{
+"q": "\"What would you (sg) do?\"",
+"a": "Τι θα έκανες;",
+"why": "θα + imperfect."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Αν ___ λεφτά, θα αγόραζα αυτοκίνητο. (I had)",
+"options": [
+"έχω",
+"είχα",
+"θα είχα",
+"έχα"
+],
+"answer": "είχα",
+"why": "Unreal now: imperfect.",
+"id": "conditionals-019e1fd5"
+},
+{
+"type": "choice",
+"q": "Αν ήμουν στη θέση σου, δεν θα ___. (go)",
+"options": [
+"πάω",
+"πήγαινα",
+"πήγα",
+"πας"
+],
+"answer": "πήγαινα",
+"why": "θα + imperfect.",
+"id": "conditionals-f6a64bd5"
+},
+{
+"type": "choice",
+"q": "Τι θα ___ αν κέρδιζες το λαχείο; (would you do)",
+"options": [
+"κάνεις",
+"έκανες",
+"κάνει",
+"κάνατε"
+],
+"answer": "έκανες",
+"why": "θα + imperfect.",
+"id": "conditionals-1d605dbc"
+},
+{
+"type": "choice",
+"q": "Αν δεν ___, θα πηγαίναμε βόλτα. (it weren't raining)",
+"options": [
+"βρέξει",
+"έβρεχε",
+"βρέχει",
+"θα έβρεχε"
+],
+"answer": "έβρεχε",
+"why": "Unreal now: imperfect.",
+"id": "conditionals-d416d6c0"
+},
+{
+"type": "choice",
+"q": "___ έναν φρέντο, παρακαλώ. (I'd like)",
+"options": [
+"Θα θέλω",
+"Θα ήθελα",
+"Ήθελα να",
+"Θέλω θα"
+],
+"answer": "Θα ήθελα",
+"why": "θα ήθελα = I'd like.",
+"id": "conditionals-2c675008"
+},
+{
+"type": "choice",
+"q": "Αν ήξερε, θα ___. (she'd be angry)",
+"options": [
+"θυμώσει",
+"θύμωνε",
+"θυμώνει",
+"θύμωσε"
+],
+"answer": "θύμωνε",
+"why": "θα + imperfect.",
+"id": "conditionals-b0318e9e"
+},
+{
+"type": "write",
+"q": "\"If I had time, I'd learn the guitar.\"",
+"answer": "Αν είχα χρόνο, θα μάθαινα κιθάρα.",
+"accept": [],
+"why": "αν + imperfect / θα + imperfect.",
+"id": "conditionals-3fc084ca"
+},
+{
+"type": "write",
+"q": "\"If I were you, I wouldn't go.\"",
+"answer": "Αν ήμουν στη θέση σου, δεν θα πήγαινα.",
+"accept": [
+"Στη θέση σου, δεν θα πήγαινα."
+],
+"why": "Unreal now.",
+"id": "conditionals-16c3f6a5"
+},
+{
+"type": "write",
+"q": "\"I would help you (sg), but I can't.\"",
+"answer": "Θα σε βοηθούσα, αλλά δεν μπορώ.",
+"accept": [
+"Θα σε βοηθούσα, αλλά δε μπορώ."
+],
+"why": "θα + imperfect.",
+"id": "conditionals-ba08e041"
+},
+{
+"type": "write",
+"q": "\"What would you (pl) do?\"",
+"answer": "Τι θα κάνατε;",
+"accept": [],
+"why": "θα + imperfect.",
+"id": "conditionals-4375acc1"
+},
+{
+"type": "write",
+"q": "\"I'd like a coffee.\"",
+"answer": "Θα ήθελα έναν καφέ.",
+"accept": [
+"Θα ήθελα ένα καφέ."
+],
+"why": "Polite θα ήθελα.",
+"id": "conditionals-2f87ab70"
+},
+{
+"type": "order",
+"q": "\"If it weren't raining, we would go out.\"",
+"answer": "Αν δεν έβρεχε, θα βγαίναμε.",
+"accept": [],
+"why": "Imperfect in both halves.",
+"id": "conditionals-f2c43487"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Μη πραγματικές στο παρελθόν",
+"title": "Unreal past: αν είχα ξέρει, θα σου είχα πει",
+"body": [
+{
+"p": "For a past that didn't happen (\"if I had known, I would have told you\"), use the **pluperfect** in both halves. In speech, the **imperfect** often does the same job; context tells you it is past."
+},
+{
+"table": {
+"head": [
+"Pluperfect (clear)",
+"Imperfect (colloquial)"
+],
+"rows": [
+[
+"Αν το είχα ξέρει, θα σου το είχα πει.",
+"Αν το ήξερα, θα σου το έλεγα."
+],
+[
+"Αν είχες έρθει, θα είχες περάσει τέλεια.",
+"Αν ερχόσουν, θα περνούσες τέλεια."
+],
+[
+"Αν δεν είχαμε χάσει το τρένο, θα είχαμε φτάσει.",
+"Αν δεν χάναμε το τρένο, θα φτάναμε."
+]
+]
+}
+},
+{
+"p": "**Θα + pluperfect** alone: \"would have\": **Θα το είχα κάνει.** \"I would have done it.\" Also **έπρεπε να** \"should have\": **Έπρεπε να μου το πεις!** \"You should have told me!\""
+},
+{
+"ex": [
+{
+"el": "Αν είχα ξυπνήσει νωρίτερα, δεν θα είχα αργήσει.",
+"en": "If I'd got up earlier, I wouldn't have been late."
+},
+{
+"el": "Θα ερχόμουν, αλλά κανείς δεν μου είπε!",
+"en": "I'd have come, but nobody told me!"
+},
+{
+"el": "Έπρεπε να με πάρεις τηλέφωνο.",
+"en": "You should have called me."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"If you (sg) had told me, I would have come.\"",
+"a": "Αν μου το είχες πει, θα είχα έρθει. | Αν μου το έλεγες, θα ερχόμουν. | Αν μου είχες πει, θα είχα έρθει.",
+"why": "Pluperfect (or colloquial imperfect) in both halves."
+},
+{
+"q": "\"I would have done it.\"",
+"a": "Θα το είχα κάνει. | Θα το έκανα.",
+"why": "θα + pluperfect."
+},
+{
+"q": "\"You (sg) should have told me!\"",
+"a": "Έπρεπε να μου το πεις! | Έπρεπε να μου το είχες πει!",
+"why": "έπρεπε να = should have."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Αν το ___ ξέρει, θα σου το είχα πει. (I had)",
+"options": [
+"έχω",
+"είχα",
+"θα είχα",
+"είχε"
+],
+"answer": "είχα",
+"why": "Pluperfect: είχα + ξέρει.",
+"id": "conditionals-fea788fa"
+},
+{
+"type": "choice",
+"q": "Αν είχες έρθει, θα ___ περάσει καλά. (you would have)",
+"options": [
+"έχεις",
+"είχες",
+"είχε",
+"θα είχες"
+],
+"answer": "είχες",
+"why": "θα + pluperfect.",
+"id": "conditionals-53f3ae95"
+},
+{
+"type": "choice",
+"q": "___ να μου το πεις! (You should have)",
+"options": [
+"Πρέπαμε",
+"Έπρεπε",
+"Θα πρέπει",
+"Πρέπεις"
+],
+"answer": "Έπρεπε",
+"why": "έπρεπε να = should have.",
+"id": "conditionals-a8d0d69b"
+},
+{
+"type": "choice",
+"q": "Αν δεν ___ το τρένο, θα είχαμε φτάσει. (we hadn't missed)",
+"options": [
+"χάσουμε",
+"είχαμε χάσει",
+"έχουμε χάσει",
+"θα χάναμε"
+],
+"answer": "είχαμε χάσει",
+"why": "Pluperfect.",
+"id": "conditionals-dc09023e"
+},
+{
+"type": "write",
+"q": "\"If I had known, I would have told you.\" (sg)",
+"answer": "Αν το είχα ξέρει, θα σου το είχα πει.",
+"accept": [
+"Αν το ήξερα, θα σου το έλεγα.",
+"Αν ήξερα, θα σου το είχα πει."
+],
+"why": "Pluperfect or imperfect.",
+"id": "conditionals-d388824f"
+},
+{
+"type": "write",
+"q": "\"I would have come.\"",
+"answer": "Θα είχα έρθει.",
+"accept": [
+"Θα ερχόμουν."
+],
+"why": "θα + pluperfect / imperfect.",
+"id": "conditionals-c67437cf"
+},
+{
+"type": "write",
+"q": "\"We should have left earlier.\"",
+"answer": "Έπρεπε να είχαμε φύγει νωρίτερα.",
+"accept": [
+"Έπρεπε να φύγουμε νωρίτερα."
+],
+"why": "έπρεπε να.",
+"id": "conditionals-efc8fa1b"
+},
+{
+"type": "order",
+"q": "\"If we had left earlier, we would have arrived.\"",
+"answer": "Αν είχαμε φύγει νωρίτερα, θα είχαμε φτάσει.",
+"accept": [],
+"why": "Pluperfect in both halves.",
+"id": "conditionals-c5e35996"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Άμα, εκτός αν, μακάρι",
+"title": "Other ways to say \"if\", \"unless\" and wishes",
+"body": [
+{
+"table": {
+"head": [
+"Word",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"εάν",
+"if (formal)",
+"Εάν έχετε απορίες, ρωτήστε."
+],
+[
+"άμα",
+"if, when (colloquial)",
+"Άμα θες, έλα."
+],
+[
+"εκτός αν / εκτός κι αν",
+"unless",
+"Θα πάμε, εκτός αν βρέξει."
+],
+[
+"σε περίπτωση που",
+"in case",
+"Σε περίπτωση που αργήσω, ξεκινήστε."
+],
+[
+"φτάνει να / αρκεί να",
+"as long as, provided",
+"Φτάνει να είσαι καλά."
+],
+[
+"αλλιώς",
+"otherwise",
+"Βιάσου, αλλιώς θα το χάσουμε."
+],
+[
+"να + imperfect",
+"if only, if (colloquial)",
+"Να 'ξερες τι έγινε! \"If only you knew what happened!\""
+],
+[
+"μακάρι (να)",
+"I wish, hopefully",
+"Μακάρι να ήσουν εδώ."
+]
+]
+}
+},
+{
+"p": "**Μακάρι** follows the conditional logic: **μακάρι να** + dependent for a hope (**Μακάρι να περάσεις!** \"I hope you pass!\"), + imperfect for an unreal wish now (**Μακάρι να ήμουν πλούσιος.** \"I wish I were rich.\"), + pluperfect for a past regret (**Μακάρι να το είχα ξέρει.** \"I wish I'd known.\")."
+},
+{
+"ex": [
+{
+"el": "Άμα πεινάσεις, έχει φαγητό στο ψυγείο.",
+"en": "If you get hungry, there's food in the fridge."
+},
+{
+"el": "Δεν θα πάω, εκτός αν έρθεις κι εσύ.",
+"en": "I won't go unless you come too."
+},
+{
+"el": "Πάρε ομπρέλα, σε περίπτωση που βρέξει.",
+"en": "Take an umbrella in case it rains."
+},
+{
+"el": "Μακάρι να μην είχα πει τίποτα.",
+"en": "I wish I hadn't said anything."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I'll come unless I'm ill.\"",
+"a": "Θα έρθω, εκτός αν είμαι άρρωστος. | Θα έρθω, εκτός κι αν είμαι άρρωστος. | Θα έρθω, εκτός αν είμαι άρρωστη.",
+"why": "εκτός αν."
+},
+{
+"q": "\"I hope you (sg) get better!\"",
+"a": "Μακάρι να γίνεις καλά! | Περαστικά!",
+"why": "μακάρι να + dependent."
+},
+{
+"q": "\"I wish it were summer.\"",
+"a": "Μακάρι να ήταν καλοκαίρι.",
+"why": "μακάρι να + imperfect = unreal now."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θα πάμε στην παραλία, ___ βρέξει. (unless)",
+"options": [
+"αν και",
+"εκτός αν",
+"επειδή",
+"ενώ"
+],
+"answer": "εκτός αν",
+"why": "εκτός αν = unless.",
+"id": "conditionals-1bcfc637"
+},
+{
+"type": "choice",
+"q": "Πάρε ζακέτα, ___ κάνει κρύο. (in case)",
+"options": [
+"γιατί",
+"σε περίπτωση που",
+"αλλιώς",
+"εκτός"
+],
+"answer": "σε περίπτωση που",
+"why": "σε περίπτωση που.",
+"id": "conditionals-c3d2a5cb"
+},
+{
+"type": "choice",
+"q": "___ να ήσουν εδώ! (I wish)",
+"options": [
+"Ας",
+"Μακάρι",
+"Αν",
+"Άμα"
+],
+"answer": "Μακάρι",
+"why": "μακάρι να.",
+"id": "conditionals-4a67b427"
+},
+{
+"type": "choice",
+"q": "Βιάσου, ___ θα χάσουμε το πλοίο. (otherwise)",
+"options": [
+"επειδή",
+"αλλιώς",
+"αν",
+"άμα"
+],
+"answer": "αλλιώς",
+"why": "αλλιώς.",
+"id": "conditionals-9c7c211b"
+},
+{
+"type": "choice",
+"q": "Μακάρι να ___ πλούσιος. (I were)",
+"options": [
+"είμαι",
+"ήμουν",
+"θα ήμουν",
+"ήμουνα θα"
+],
+"answer": "ήμουν",
+"why": "Unreal now: imperfect.",
+"id": "conditionals-edd81b8a"
+},
+{
+"type": "write",
+"q": "\"I wish you (sg) were here.\"",
+"answer": "Μακάρι να ήσουν εδώ.",
+"accept": [],
+"why": "μακάρι να + imperfect.",
+"id": "conditionals-4cfbafdd"
+},
+{
+"type": "write",
+"q": "\"Unless you (sg) come too\"",
+"answer": "εκτός αν έρθεις κι εσύ",
+"accept": [
+"εκτός κι αν έρθεις κι εσύ",
+"εκτός αν έρθεις και εσύ"
+],
+"why": "εκτός αν + dependent.",
+"id": "conditionals-483b5975"
+},
+{
+"type": "write",
+"q": "\"Take (sg) an umbrella in case it rains.\"",
+"answer": "Πάρε ομπρέλα σε περίπτωση που βρέξει.",
+"accept": [
+"Πάρε ομπρέλα, σε περίπτωση που βρέξει.",
+"Πάρε μια ομπρέλα σε περίπτωση που βρέξει."
+],
+"why": "σε περίπτωση που.",
+"id": "conditionals-8905d743"
+},
+{
+"type": "write",
+"q": "\"If you (sg) want, come.\" (colloquial)",
+"answer": "Άμα θες, έλα.",
+"accept": [
+"Άμα θέλεις, έλα."
+],
+"why": "άμα = if.",
+"id": "conditionals-e7ed22cf"
+},
+{
+"type": "write",
+"q": "\"I wish I had known.\"",
+"answer": "Μακάρι να το είχα ξέρει.",
+"accept": [
+"Μακάρι να το ήξερα."
+],
+"why": "μακάρι + pluperfect.",
+"id": "conditionals-0bcd133a"
+},
+{
+"type": "order",
+"q": "\"I won't go unless you (sg) come.\"",
+"answer": "Δεν θα πάω εκτός αν έρθεις.",
+"accept": [],
+"why": "εκτός αν.",
+"id": "conditionals-a4afc594"
+}
+]
+}
+]
+}
+],
+"id": "conditionals",
+"el": "Υποθετικοί λόγοι",
+"title": "Conditionals: αν, άμα, εκτός αν, μακάρι",
+"span": "B1–B2",
+"blurb": "The three kinds of \"if\" sentence (real: αν βρέξει, θα μείνουμε; unreal now: αν είχα λεφτά, θα αγόραζα; unreal past: αν το είχα ξέρει, θα σου το είχα πει), colloquial άμα and να, \"unless\", \"in case\", and wishes with μακάρι.",
+"intro": [
+{
+"p": "Greek conditionals follow one simple logic: **the tense signals how real the condition is**. A present or dependent verb means a real possibility; an imperfect means an unreal one (\"if I had\"); a pluperfect pushes it into the past (\"if I had had\"). The main clause mirrors it with **θα**."
+},
+{
+"links": [
+{
+"href": "#b1-conditionals",
+"kind": "Lesson",
+"el": "Υποθετικοί λόγοι",
+"title": "Factual conditionals with αν"
+},
+{
+"href": "#b2-counterfactual",
+"kind": "Lesson",
+"el": "Υποθέσεις του μη πραγματικού",
+"title": "Unreal conditions: αν είχα χρόνο, θα ερχόμουν"
+},
+{
+"href": "#clauses-conditional",
+"kind": "Lesson",
+"el": "Υποθετικοί λόγοι σε βάθος",
+"title": "Conditionals in depth: every tense, unless, provided, in case, mixed"
+},
+{
+"href": "#syntax.conditionals",
+"kind": "Syntax",
+"el": "Οι υποθετικοί λόγοι",
+"title": "Conditional sentences"
+},
+{
+"href": "#cards.conditionals",
+"kind": "Card",
+"el": "Υποθετικοί λόγοι",
+"title": "Conditionals"
+}
+]
+}
+],
+"num": 33
+}

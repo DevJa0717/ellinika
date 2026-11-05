@@ -1,0 +1,934 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Χρονικές",
+"title": "Time: όταν, ενώ, μόλις, αφού, πριν, μέχρι",
+"body": [
+{
+"table": {
+"head": [
+"Conjunction",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"όταν",
+"when",
+"Όταν ήμουν μικρός, ζούσαμε στην Πάτρα."
+],
+[
+"ενώ / καθώς",
+"while, as",
+"Ενώ μαγείρευα, χτύπησε το τηλέφωνο."
+],
+[
+"μόλις",
+"as soon as",
+"Μόλις φτάσεις, πάρε με."
+],
+[
+"αφού",
+"after (+ aorist)",
+"Αφού φάγαμε, βγήκαμε βόλτα."
+],
+[
+"πριν (να)",
+"before",
+"Πριν φύγεις, κλείσε τα φώτα."
+],
+[
+"μέχρι να / ώσπου να",
+"until",
+"Περίμενε μέχρι να έρθω."
+],
+[
+"από τότε που",
+"(ever) since",
+"Από τότε που μετακόμισε, δεν τον βλέπω."
+],
+[
+"κάθε φορά που / όποτε",
+"every time, whenever",
+"Κάθε φορά που έρχεται, φέρνει γλυκά."
+],
+[
+"όσο",
+"as long as, while",
+"Όσο είσαι εδώ, μείνε σε μας."
+]
+]
+}
+},
+{
+"p": "**Future meaning** after όταν, μόλις, αφού, πριν, μέχρι να, όποτε: **dependent, no θα**: **Όταν τελειώσω, θα σε πάρω.**"
+},
+{
+"ex": [
+{
+"el": "Μόλις άνοιξα την πόρτα, το σκυλί πετάχτηκε έξω.",
+"en": "As soon as I opened the door, the dog shot out."
+},
+{
+"el": "Αφού τελείωσε τα μαθήματα, έπιασε δουλειά.",
+"en": "After she finished her studies, she found a job."
+},
+{
+"el": "Από τότε που έκοψα το τσιγάρο, νιώθω καλύτερα.",
+"en": "Since I quit smoking, I feel better."
+},
+{
+"el": "Όποτε θέλεις, έλα.",
+"en": "Come whenever you like."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Before you (sg) go to bed, lock the door.\"",
+"a": "Πριν πας για ύπνο, κλείδωσε την πόρτα. | Πριν κοιμηθείς, κλείδωσε την πόρτα.",
+"why": "πριν + dependent."
+},
+{
+"q": "\"After we had eaten, we went for a walk.\"",
+"a": "Αφού φάγαμε, πήγαμε βόλτα. | Αφού φάγαμε, βγήκαμε βόλτα.",
+"why": "αφού + aorist = after."
+},
+{
+"q": "\"Since we met, everything has changed.\"",
+"a": "Από τότε που γνωριστήκαμε, όλα άλλαξαν.",
+"why": "από τότε που = ever since."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ φτάσεις, στείλε μου μήνυμα. (As soon as)",
+"options": [
+"Ενώ",
+"Μόλις",
+"Αφού να",
+"Όσο"
+],
+"answer": "Μόλις",
+"why": "μόλις = as soon as.",
+"id": "adverbial-clauses-11e6045f"
+},
+{
+"type": "choice",
+"q": "___ μαγείρευα, άκουγα ραδιόφωνο. (While)",
+"options": [
+"Μόλις",
+"Ενώ",
+"Αφού",
+"Μέχρι"
+],
+"answer": "Ενώ",
+"why": "ενώ = while.",
+"id": "adverbial-clauses-c238b357"
+},
+{
+"type": "choice",
+"q": "Θα περιμένω ___ τελειώσεις. (until)",
+"options": [
+"όταν",
+"μέχρι να",
+"ενώ",
+"αφού να"
+],
+"answer": "μέχρι να",
+"why": "μέχρι να + dependent.",
+"id": "adverbial-clauses-83534292"
+},
+{
+"type": "choice",
+"q": "___ φάγαμε, πήγαμε για καφέ. (After)",
+"options": [
+"Πριν",
+"Αφού",
+"Ενώ",
+"Μέχρι"
+],
+"answer": "Αφού",
+"why": "αφού + aorist = after.",
+"id": "adverbial-clauses-f485b843"
+},
+{
+"type": "choice",
+"q": "___ μετακόμισε, δεν τον έχω δει. (Since)",
+"options": [
+"Όταν",
+"Από τότε που",
+"Ενώ",
+"Μόλις να"
+],
+"answer": "Από τότε που",
+"why": "από τότε που.",
+"id": "adverbial-clauses-b3e82cef"
+},
+{
+"type": "choice",
+"q": "Όταν ___ σπίτι, θα σε πάρω τηλέφωνο. (I get)",
+"options": [
+"θα φτάσω",
+"φτάσω",
+"έφτασα",
+"φτάξω"
+],
+"answer": "φτάσω",
+"why": "Future meaning: dependent without θα.",
+"id": "adverbial-clauses-b251a096"
+},
+{
+"type": "write",
+"q": "\"As soon as you (sg) arrive, call me.\"",
+"answer": "Μόλις φτάσεις, πάρε με τηλέφωνο.",
+"accept": [
+"Μόλις φτάσεις, πάρε με.",
+"Μόλις φτάσεις, τηλεφώνησέ μου."
+],
+"why": "μόλις + dependent.",
+"id": "adverbial-clauses-45f8146d"
+},
+{
+"type": "write",
+"q": "\"While I was cooking, the phone rang.\"",
+"answer": "Ενώ μαγείρευα, χτύπησε το τηλέφωνο.",
+"accept": [
+"Καθώς μαγείρευα, χτύπησε το τηλέφωνο."
+],
+"why": "ενώ + imperfect.",
+"id": "adverbial-clauses-abe577f9"
+},
+{
+"type": "write",
+"q": "\"Before you (sg) leave, turn off the lights.\"",
+"answer": "Πριν φύγεις, κλείσε τα φώτα.",
+"accept": [
+"Πριν να φύγεις, κλείσε τα φώτα.",
+"Πριν φύγεις, σβήσε τα φώτα."
+],
+"why": "πριν + dependent.",
+"id": "adverbial-clauses-d578adb9"
+},
+{
+"type": "write",
+"q": "\"Come (sg) whenever you want.\"",
+"answer": "Έλα όποτε θέλεις.",
+"accept": [
+"Όποτε θέλεις, έλα."
+],
+"why": "όποτε.",
+"id": "adverbial-clauses-72abeb1d"
+},
+{
+"type": "order",
+"q": "\"Wait (sg) until I come back.\"",
+"answer": "Περίμενε μέχρι να γυρίσω.",
+"accept": [],
+"why": "μέχρι να + dependent.",
+"id": "adverbial-clauses-8e1f29a4"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Αιτιολογικές",
+"title": "Cause: γιατί, επειδή, αφού, μια και",
+"body": [
+{
+"table": {
+"head": [
+"Conjunction",
+"Use",
+"Example"
+],
+"rows": [
+[
+"γιατί",
+"because (after the main clause)",
+"Δεν ήρθα γιατί ήμουν άρρωστος."
+],
+[
+"επειδή",
+"because (anywhere, also first)",
+"Επειδή βρέχει, θα μείνουμε σπίτι."
+],
+[
+"αφού",
+"since, given that (known reason)",
+"Αφού δεν θέλεις, δεν πάμε."
+],
+[
+"μια και / μιας και",
+"since, seeing that",
+"Μια και είσαι εδώ, βοήθησέ με."
+],
+[
+"καθώς",
+"as (formal, written)",
+"Καθώς ήταν αργά, φύγαμε."
+],
+[
+"λόγω + genitive",
+"because of",
+"Λόγω της βροχής, ο αγώνας αναβλήθηκε."
+],
+[
+"εξαιτίας + genitive",
+"because of (often negative)",
+"Εξαιτίας σου άργησα!"
+]
+]
+}
+},
+{
+"tip": "**Γιατί** at the start of a sentence is the question \"why\". To start with \"because\", use **επειδή**: **Επειδή ήμουν κουρασμένη, κοιμήθηκα νωρίς.**"
+},
+{
+"ex": [
+{
+"el": "— Γιατί δεν έφαγες; — Γιατί δεν πεινούσα.",
+"en": "— Why didn't you eat? — Because I wasn't hungry."
+},
+{
+"el": "Αφού το ξέρεις, γιατί ρωτάς;",
+"en": "If you know, why are you asking?"
+},
+{
+"el": "Μιας και μιλάμε για φαγητό, πεινάω!",
+"en": "Speaking of food, I'm hungry!"
+},
+{
+"el": "Η πτήση ακυρώθηκε λόγω κακοκαιρίας.",
+"en": "The flight was cancelled due to bad weather."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Because it was late, we took a taxi.\"",
+"a": "Επειδή ήταν αργά, πήραμε ταξί.",
+"why": "At the start: επειδή."
+},
+{
+"q": "\"Since you're (sg) here, stay for dinner.\"",
+"a": "Αφού είσαι εδώ, μείνε για φαγητό. | Μια και είσαι εδώ, μείνε για φαγητό.",
+"why": "Known reason: αφού / μια και."
+},
+{
+"q": "\"The match was postponed because of the rain.\"",
+"a": "Ο αγώνας αναβλήθηκε λόγω της βροχής. | Ο αγώνας αναβλήθηκε εξαιτίας της βροχής.",
+"why": "λόγω + genitive."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ ήμουν άρρωστη, δεν πήγα στη δουλειά. (Because, at the start)",
+"options": [
+"Γιατί",
+"Επειδή",
+"Λόγω",
+"Ενώ"
+],
+"answer": "Επειδή",
+"why": "At the start: επειδή.",
+"id": "adverbial-clauses-8b58bd30"
+},
+{
+"type": "choice",
+"q": "___ δεν σου αρέσει, μην το φας. (Since)",
+"options": [
+"Πριν",
+"Αφού",
+"Μέχρι",
+"Ενώ να"
+],
+"answer": "Αφού",
+"why": "αφού = since (known reason).",
+"id": "adverbial-clauses-5079f5c1"
+},
+{
+"type": "choice",
+"q": "Ο αγώνας αναβλήθηκε ___ της βροχής. (because of)",
+"options": [
+"γιατί",
+"λόγω",
+"επειδή",
+"αφού"
+],
+"answer": "λόγω",
+"why": "λόγω + genitive.",
+"id": "adverbial-clauses-5e276417"
+},
+{
+"type": "choice",
+"q": "Δεν ήρθε ___ είχε δουλειά. (because)",
+"options": [
+"αν και",
+"γιατί",
+"ενώ",
+"για να"
+],
+"answer": "γιατί",
+"why": "γιατί = because.",
+"id": "adverbial-clauses-299a7fa8"
+},
+{
+"type": "choice",
+"q": "___ είσαι στο σούπερ μάρκετ, πάρε και γάλα. (Since, seeing that)",
+"options": [
+"Παρόλο που",
+"Μια και",
+"Μέχρι να",
+"Πριν"
+],
+"answer": "Μια και",
+"why": "μια και.",
+"id": "adverbial-clauses-7f0f9943"
+},
+{
+"type": "write",
+"q": "\"I didn't come because I was ill.\" (man)",
+"answer": "Δεν ήρθα γιατί ήμουν άρρωστος.",
+"accept": [
+"Δεν ήρθα επειδή ήμουν άρρωστος."
+],
+"why": "γιατί / επειδή.",
+"id": "adverbial-clauses-d3ae3e86"
+},
+{
+"type": "write",
+"q": "\"Because it's raining, we'll stay at home.\"",
+"answer": "Επειδή βρέχει, θα μείνουμε σπίτι.",
+"accept": [
+"Επειδή βρέχει, θα μείνουμε στο σπίτι."
+],
+"why": "επειδή first.",
+"id": "adverbial-clauses-bd22fc3b"
+},
+{
+"type": "write",
+"q": "\"Since you (sg) know, tell me.\"",
+"answer": "Αφού ξέρεις, πες μου.",
+"accept": [
+"Αφού το ξέρεις, πες μου.",
+"Μια και ξέρεις, πες μου."
+],
+"why": "αφού / μια και.",
+"id": "adverbial-clauses-ed5a08c6"
+},
+{
+"type": "write",
+"q": "\"Because of you (sg) I was late!\"",
+"answer": "Εξαιτίας σου άργησα!",
+"accept": [
+"Άργησα εξαιτίας σου!"
+],
+"why": "εξαιτίας + genitive.",
+"id": "adverbial-clauses-b0e30e80"
+},
+{
+"type": "order",
+"q": "\"Because it was late, we left.\"",
+"answer": "Επειδή ήταν αργά, φύγαμε.",
+"accept": [],
+"why": "επειδή.",
+"id": "adverbial-clauses-025ca3a5"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Τελικές και αποτελεσματικές",
+"title": "Purpose and result: για να, ώστε, τόσο... που",
+"body": [
+{
+"p": "**Purpose**: **για να** (or just **να** after verbs of motion) + subjunctive; **ώστε να** is more formal. **Result**: **τόσο... που / ώστε** \"so... that\", **έτσι ώστε** \"so that\", **γι' αυτό** \"that's why\", **επομένως** \"therefore\"."
+},
+{
+"table": {
+"head": [
+"Pattern",
+"Example",
+"Meaning"
+],
+"rows": [
+[
+"για να",
+"Ήρθα για να σε δω.",
+"I came to see you."
+],
+[
+"πάω να",
+"Πάω να πάρω ψωμί.",
+"I'm going to get bread."
+],
+[
+"ώστε να",
+"Μίλα δυνατά ώστε να σε ακούνε όλοι.",
+"Speak up so everyone can hear you."
+],
+[
+"τόσο... που",
+"Ήταν τόσο κουρασμένος που αποκοιμήθηκε.",
+"He was so tired he fell asleep."
+],
+[
+"τόσος... που",
+"Είχε τόση κίνηση που αργήσαμε.",
+"There was so much traffic we were late."
+],
+[
+"γι' αυτό",
+"Έβρεχε, γι' αυτό δεν βγήκαμε.",
+"It was raining, so we didn't go out."
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Κλείσε την πόρτα για να μην μπαίνει κρύο.",
+"en": "Close the door so the cold doesn't get in."
+},
+{
+"el": "Έφαγα τόσο πολύ που δεν μπορώ να κουνηθώ.",
+"en": "I ate so much I can't move."
+},
+{
+"el": "Δεν είχα λεφτά, γι' αυτό δεν το αγόρασα.",
+"en": "I had no money, that's why I didn't buy it."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I'm saving so we can go on holiday.\"",
+"a": "Μαζεύω λεφτά για να πάμε διακοπές. | Μαζεύω λεφτά για να πάμε για διακοπές.",
+"why": "για να + subjunctive."
+},
+{
+"q": "\"It was so hot that we stayed inside.\"",
+"a": "Έκανε τόση ζέστη που μείναμε μέσα. | Έκανε τόση ζέστη ώστε μείναμε μέσα.",
+"why": "τόση agrees with ζέστη."
+},
+{
+"q": "\"I was tired, so I went to bed.\"",
+"a": "Ήμουν κουρασμένος, γι' αυτό πήγα για ύπνο. | Ήμουν κουρασμένη, γι' αυτό πήγα για ύπνο.",
+"why": "γι' αυτό = that's why."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πήγα στο φαρμακείο ___ πάρω ασπιρίνες. (to)",
+"options": [
+"ότι",
+"για να",
+"γιατί",
+"που να"
+],
+"answer": "για να",
+"why": "Purpose: για να.",
+"id": "adverbial-clauses-77a38517"
+},
+{
+"type": "choice",
+"q": "Ήταν ___ ωραίο που δεν ήθελα να φύγω. (so)",
+"options": [
+"πολύ",
+"τόσο",
+"τόσος",
+"έτσι να"
+],
+"answer": "τόσο",
+"why": "τόσο... που.",
+"id": "adverbial-clauses-39eaec10"
+},
+{
+"type": "choice",
+"q": "Είχε ___ κόσμο που δεν βρήκαμε τραπέζι. (so many)",
+"options": [
+"τόσο πολύ που",
+"τόσο",
+"τόσα",
+"τόσες"
+],
+"answer": "τόσο",
+"why": "κόσμο is masculine: τόσο κόσμο.",
+"id": "adverbial-clauses-e804ca6b"
+},
+{
+"type": "choice",
+"q": "Έβρεχε, ___ μείναμε σπίτι. (so)",
+"options": [
+"γιατί",
+"γι' αυτό",
+"επειδή",
+"για να"
+],
+"answer": "γι' αυτό",
+"why": "γι' αυτό = that's why.",
+"id": "adverbial-clauses-cc5dc3f6"
+},
+{
+"type": "choice",
+"q": "Μίλα πιο δυνατά ___ σε ακούνε όλοι. (so that)",
+"options": [
+"ώστε",
+"ώστε να",
+"ότι",
+"που"
+],
+"answer": "ώστε να",
+"why": "ώστε να + subjunctive.",
+"id": "adverbial-clauses-991b3970"
+},
+{
+"type": "write",
+"q": "\"I came to help you (sg).\"",
+"answer": "Ήρθα για να σε βοηθήσω.",
+"accept": [
+"Ήρθα να σε βοηθήσω."
+],
+"why": "για να.",
+"id": "adverbial-clauses-a9b23c2f"
+},
+{
+"type": "write",
+"q": "\"I'm going to get bread.\"",
+"answer": "Πάω να πάρω ψωμί.",
+"accept": [
+"Πάω να αγοράσω ψωμί."
+],
+"why": "πάω να.",
+"id": "adverbial-clauses-967e5965"
+},
+{
+"type": "write",
+"q": "\"He was so tired that he fell asleep.\"",
+"answer": "Ήταν τόσο κουρασμένος που αποκοιμήθηκε.",
+"accept": [
+"Ήταν τόσο κουρασμένος ώστε αποκοιμήθηκε.",
+"Ήταν τόσο κουρασμένος που τον πήρε ο ύπνος."
+],
+"why": "τόσο... που.",
+"id": "adverbial-clauses-f664111d"
+},
+{
+"type": "write",
+"q": "\"It was raining, so we didn't go out.\"",
+"answer": "Έβρεχε, γι' αυτό δεν βγήκαμε.",
+"accept": [],
+"why": "γι' αυτό.",
+"id": "adverbial-clauses-397b57db"
+},
+{
+"type": "order",
+"q": "\"I ate so much that I can't move.\"",
+"answer": "Έφαγα τόσο πολύ που δεν μπορώ να κουνηθώ.",
+"accept": [],
+"why": "τόσο... που.",
+"id": "adverbial-clauses-12e97579"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Εναντιωματικές",
+"title": "Concession and contrast: αν και, παρόλο που, ακόμα κι αν",
+"body": [
+{
+"table": {
+"head": [
+"Conjunction",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"αν και",
+"although",
+"Αν και ήταν αργά, δεν κοιμόταν."
+],
+[
+"παρόλο που",
+"even though",
+"Παρόλο που βρέχει, θα πάμε."
+],
+[
+"μολονότι (formal)",
+"although",
+"Μολονότι ήταν άρρωστος, ήρθε."
+],
+[
+"ακόμα κι αν / και να",
+"even if",
+"Ακόμα κι αν βρέξει, θα πάμε. / Και να βρέξει, θα πάμε."
+],
+[
+"ενώ",
+"whereas, although",
+"Εγώ μιλάω πολύ, ενώ αυτός είναι σιωπηλός."
+],
+[
+"παρά + accusative",
+"despite",
+"Παρά τη βροχή, βγήκαμε."
+],
+[
+"όμως / αλλά / ωστόσο",
+"but, however",
+"Ήταν ακριβό, όμως το πήρα."
+]
+]
+}
+},
+{
+"p": "**Όμως** can move inside the clause: **Το ήξερε, δεν είπε όμως τίποτα.** **Αλλά** stays first."
+},
+{
+"ex": [
+{
+"el": "Αν και ήμουν κουρασμένη, βγήκα.",
+"en": "Although I was tired, I went out."
+},
+{
+"el": "Παρόλο που τον αγαπάει, τον άφησε.",
+"en": "Even though she loves him, she left him."
+},
+{
+"el": "Και να μου το ζητήσεις, δεν θα το κάνω.",
+"en": "Even if you ask me, I won't do it."
+},
+{
+"el": "Παρά τις δυσκολίες, τα καταφέραμε.",
+"en": "Despite the difficulties, we made it."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Although it was raining, we went to the beach.\"",
+"a": "Αν και έβρεχε, πήγαμε στη θάλασσα. | Παρόλο που έβρεχε, πήγαμε στη θάλασσα.",
+"why": "αν και / παρόλο που."
+},
+{
+"q": "\"Even if you (sg) don't believe me, it's true.\"",
+"a": "Ακόμα κι αν δεν με πιστεύεις, είναι αλήθεια. | Και να μη με πιστεύεις, είναι αλήθεια.",
+"why": "ακόμα κι αν / και να."
+},
+{
+"q": "\"Despite the rain, the match went on.\"",
+"a": "Παρά τη βροχή, ο αγώνας συνεχίστηκε. | Παρά τη βροχή, ο αγώνας έγινε κανονικά.",
+"why": "παρά + accusative."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ ήταν ακριβό, το αγόρασα. (Although)",
+"options": [
+"Επειδή",
+"Αν και",
+"Αφού",
+"Για να"
+],
+"answer": "Αν και",
+"why": "αν και = although.",
+"id": "adverbial-clauses-ce56c528"
+},
+{
+"type": "choice",
+"q": "___ βρέξει, θα πάμε εκδρομή. (Even if)",
+"options": [
+"Αν και",
+"Ακόμα κι αν",
+"Παρόλο",
+"Επειδή"
+],
+"answer": "Ακόμα κι αν",
+"why": "ακόμα κι αν = even if.",
+"id": "adverbial-clauses-66b57c04"
+},
+{
+"type": "choice",
+"q": "___ τη βροχή, βγήκαμε βόλτα. (Despite)",
+"options": [
+"Παρόλο που",
+"Παρά",
+"Αν και",
+"Λόγω"
+],
+"answer": "Παρά",
+"why": "παρά + accusative.",
+"id": "adverbial-clauses-8baf933a"
+},
+{
+"type": "choice",
+"q": "Εγώ λατρεύω τη θάλασσα, ___ ο άντρας μου προτιμάει το βουνό. (whereas)",
+"options": [
+"αφού",
+"ενώ",
+"γιατί",
+"για να"
+],
+"answer": "ενώ",
+"why": "ενώ = whereas.",
+"id": "adverbial-clauses-43f834fe"
+},
+{
+"type": "choice",
+"q": "___ που ήταν άρρωστος, ήρθε στη δουλειά. (Even though)",
+"options": [
+"Αν και",
+"Παρόλο",
+"Ακόμα",
+"Παρά"
+],
+"answer": "Παρόλο",
+"why": "παρόλο που.",
+"id": "adverbial-clauses-eb2b163b"
+},
+{
+"type": "write",
+"q": "\"Although I was tired, I went out.\" (woman)",
+"answer": "Αν και ήμουν κουρασμένη, βγήκα.",
+"accept": [
+"Παρόλο που ήμουν κουρασμένη, βγήκα."
+],
+"why": "αν και / παρόλο που.",
+"id": "adverbial-clauses-15398ed2"
+},
+{
+"type": "write",
+"q": "\"Even if it rains, we'll go.\"",
+"answer": "Ακόμα κι αν βρέξει, θα πάμε.",
+"accept": [
+"Και να βρέξει, θα πάμε.",
+"Ακόμη κι αν βρέξει, θα πάμε."
+],
+"why": "ακόμα κι αν.",
+"id": "adverbial-clauses-b39c33b8"
+},
+{
+"type": "write",
+"q": "\"Despite the difficulties\"",
+"answer": "Παρά τις δυσκολίες",
+"accept": [
+"παρά τις δυσκολίες"
+],
+"why": "παρά + accusative.",
+"id": "adverbial-clauses-b384c77b"
+},
+{
+"type": "write",
+"q": "\"It was expensive, but I bought it.\"",
+"answer": "Ήταν ακριβό, αλλά το αγόρασα.",
+"accept": [
+"Ήταν ακριβό, όμως το αγόρασα.",
+"Ήταν ακριβό, αλλά το πήρα.",
+"Ήταν ακριβό, όμως το πήρα."
+],
+"why": "αλλά / όμως.",
+"id": "adverbial-clauses-dabbb73e"
+},
+{
+"type": "order",
+"q": "\"Even though it was late, we stayed.\"",
+"answer": "Παρόλο που ήταν αργά, μείναμε.",
+"accept": [],
+"why": "παρόλο που.",
+"id": "adverbial-clauses-aa8856d3"
+}
+]
+}
+]
+}
+],
+"id": "adverbial-clauses",
+"el": "Επιρρηματικές προτάσεις",
+"title": "Time, cause, purpose, result and concession clauses",
+"span": "B1–B2",
+"blurb": "Joining ideas like a native speaker: time (όταν, ενώ, μόλις, αφού, πριν, μέχρι να, από τότε που), cause (γιατί, επειδή, αφού, μια και), purpose and result (για να, ώστε, τόσο... που), concession (αν και, παρόλο που, ακόμα κι αν).",
+"intro": [
+{
+"p": "The conjunctions in this chapter are the glue of conversation and of the B2 writing paper. Most take an ordinary verb; those that look to the future (όταν, μόλις, πριν, μέχρι να) take the dependent form **without θα** when the meaning is future (chapter 21). Purpose clauses use **να**."
+},
+{
+"links": [
+{
+"href": "#b1-temporal",
+"kind": "Lesson",
+"el": "Χρονικές προτάσεις",
+"title": "όταν, πριν, μόλις, ενώ"
+},
+{
+"href": "#b1-causal",
+"kind": "Lesson",
+"el": "Αιτιολογικές προτάσεις",
+"title": "Cause: επειδή, γιατί, δεδομένου ότι, μια και"
+},
+{
+"href": "#b2-concession",
+"kind": "Lesson",
+"el": "Παραχωρητικές προτάσεις",
+"title": "Concession: παρόλο που, αν και, παρ' όλα αυτά"
+},
+{
+"href": "#b2-result-purpose",
+"kind": "Lesson",
+"el": "Αποτέλεσμα και σκοπός",
+"title": "Result and purpose: ώστε να, με αποτέλεσμα να, για να"
+},
+{
+"href": "#clauses-time-cause",
+"kind": "Lesson",
+"el": "Χρόνος και αιτία σε βάθος",
+"title": "Time and cause clauses in depth: aspect choice and double meanings"
+},
+{
+"href": "#syntax.adverbial",
+"kind": "Syntax",
+"el": "Χρονικές, αιτιολογικές, τελικές, αποτελεσματικές και παραχωρητικές",
+"title": "Clauses of time, cause, purpose, result and concession"
+},
+{
+"href": "#cards.conjunctions",
+"kind": "Card",
+"el": "Σύνδεσμοι και τι ακολουθεί",
+"title": "Conjunctions and the mood that follows"
+},
+{
+"href": "#cards.clauses",
+"kind": "Card",
+"el": "Χρόνος, αιτία, σκοπός, αποτέλεσμα, εναντίωση",
+"title": "Time, cause, purpose, result, concession"
+}
+]
+}
+],
+"num": 31
+}

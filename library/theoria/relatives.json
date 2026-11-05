@@ -1,0 +1,834 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Που",
+"title": "The all-purpose που",
+"body": [
+{
+"p": "**Που** introduces a relative clause for people and things, subjects and objects, and even places and times. It is never left out, unlike English \"that\"."
+},
+{
+"table": {
+"head": [
+"Greek",
+"English"
+],
+"rows": [
+[
+"ο φίλος που με βοήθησε",
+"the friend who helped me"
+],
+[
+"η ταινία που είδαμε",
+"the film (that) we saw"
+],
+[
+"τα παιδιά που παίζουν",
+"the children who are playing"
+],
+[
+"το μέρος που μένω",
+"the place where I live"
+],
+[
+"τη μέρα που γνωριστήκαμε",
+"the day (when) we met"
+]
+]
+}
+},
+{
+"p": "**Που** \"who, that\" has **no accent**; **πού** \"where?\" has one."
+},
+{
+"ex": [
+{
+"el": "Πώς λέγεται η κοπέλα που μιλούσες;",
+"en": "What's the name of the girl you were talking to?"
+},
+{
+"el": "Αυτό είναι το σπίτι που μεγάλωσα.",
+"en": "This is the house where I grew up."
+},
+{
+"el": "Θυμάσαι το καλοκαίρι που πήγαμε στη Νάξο;",
+"en": "Do you remember the summer we went to Naxos?"
+},
+{
+"el": "Δεν βρίσκω το βιβλίο που μου έδωσες.",
+"en": "I can't find the book you gave me."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"The man who called is my uncle.\"",
+"a": "Ο άντρας που τηλεφώνησε είναι ο θείος μου. | Ο κύριος που τηλεφώνησε είναι ο θείος μου.",
+"why": "που = who."
+},
+{
+"q": "\"The cake (that) you (sg) made was delicious.\"",
+"a": "Το γλυκό που έφτιαξες ήταν πεντανόστιμο. | Η τούρτα που έφτιαξες ήταν πεντανόστιμη.",
+"why": "που is never left out."
+},
+{
+"q": "\"The day I was born\"",
+"a": "Η μέρα που γεννήθηκα | Τη μέρα που γεννήθηκα",
+"why": "που also = when."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η κοπέλα ___ μένει δίπλα είναι γιατρός. (who)",
+"options": [
+"πού",
+"που",
+"ποια",
+"τι"
+],
+"answer": "που",
+"why": "Relative: που (no accent).",
+"id": "relatives-636457b9"
+},
+{
+"type": "choice",
+"q": "Το βιβλίο ___ διαβάζω είναι πολύ καλό. (that)",
+"options": [
+"ότι",
+"που",
+"ποιο",
+"πως"
+],
+"answer": "που",
+"why": "Relative: που (never omitted).",
+"id": "relatives-f7a0db9b"
+},
+{
+"type": "choice",
+"q": "Αυτό είναι το χωριό ___ γεννήθηκε ο παππούς μου. (where)",
+"options": [
+"πού",
+"που",
+"ποιο",
+"πως"
+],
+"answer": "που",
+"why": "Place: που (or όπου).",
+"id": "relatives-59cb0511"
+},
+{
+"type": "choice",
+"q": "___ μένεις; (Where)",
+"options": [
+"Που",
+"Πού",
+"Όπου",
+"Ποιο"
+],
+"answer": "Πού",
+"why": "Question: πού (accent).",
+"id": "relatives-4f1f8cb7"
+},
+{
+"type": "choice",
+"q": "Θυμάσαι τη μέρα ___ γνωριστήκαμε; (when)",
+"options": [
+"πότε",
+"που",
+"ότι",
+"πώς"
+],
+"answer": "που",
+"why": "Time: που.",
+"id": "relatives-698c9f17"
+},
+{
+"type": "write",
+"q": "\"The friend who helped me\"",
+"answer": "ο φίλος που με βοήθησε",
+"accept": [
+"η φίλη που με βοήθησε"
+],
+"why": "που.",
+"id": "relatives-bed2a9be"
+},
+{
+"type": "write",
+"q": "\"The film we saw\"",
+"answer": "η ταινία που είδαμε",
+"accept": [],
+"why": "που, never omitted.",
+"id": "relatives-cda92eed"
+},
+{
+"type": "write",
+"q": "\"The house where I grew up\"",
+"answer": "το σπίτι που μεγάλωσα",
+"accept": [
+"το σπίτι όπου μεγάλωσα"
+],
+"why": "που / όπου.",
+"id": "relatives-ff1b9913"
+},
+{
+"type": "write",
+"q": "\"The people who live here\"",
+"answer": "οι άνθρωποι που μένουν εδώ",
+"accept": [
+"ο κόσμος που μένει εδώ"
+],
+"why": "που.",
+"id": "relatives-1a9756ed"
+},
+{
+"type": "order",
+"q": "\"The girl who called you (sg) is my sister.\"",
+"answer": "Η κοπέλα που σε πήρε τηλέφωνο είναι η αδερφή μου.",
+"accept": [],
+"why": "που.",
+"id": "relatives-029765a4"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ο οποίος",
+"title": "Ο οποίος: formal style and after prepositions",
+"body": [
+{
+"p": "**Ο οποίος, η οποία, το οποίο** agrees in **gender and number** with the noun it refers to; its **case** depends on its role in the clause. It always carries the article."
+},
+{
+"table": {
+"head": [
+"",
+"Masculine",
+"Feminine",
+"Neuter"
+],
+"rows": [
+[
+"Nom. sg",
+"ο οποίος",
+"η οποία",
+"το οποίο"
+],
+[
+"Acc. sg",
+"τον οποίο",
+"την οποία",
+"το οποίο"
+],
+[
+"Gen. sg",
+"του οποίου",
+"της οποίας",
+"του οποίου"
+],
+[
+"Nom. pl",
+"οι οποίοι",
+"οι οποίες",
+"τα οποία"
+],
+[
+"Acc. pl",
+"τους οποίους",
+"τις οποίες",
+"τα οποία"
+],
+[
+"Gen. pl",
+"των οποίων",
+"των οποίων",
+"των οποίων"
+]
+]
+}
+},
+{
+"p": "It is needed after a **preposition** (\"with whom\", \"for which\"), where που cannot follow directly, and gives \"**whose**\" in the genitive:"
+},
+{
+"ex": [
+{
+"el": "Ο φίλος με τον οποίο μένω είναι Κύπριος.",
+"en": "The friend I live with is Cypriot."
+},
+{
+"el": "Η εταιρεία για την οποία δουλεύω είναι γαλλική.",
+"en": "The company I work for is French."
+},
+{
+"el": "Ο συγγραφέας, του οποίου το βιβλίο διάβασα, μένει στη Θεσσαλονίκη.",
+"en": "The writer whose book I read lives in Thessaloniki."
+},
+{
+"el": "Τα θέματα, τα οποία συζητήθηκαν, ήταν σοβαρά.",
+"en": "The issues that were discussed were serious."
+}
+]
+},
+{
+"tip": "**σε + ο οποίος** contracts: **στον οποίο, στην οποία, στο οποίο**: **η πόλη στην οποία ζω** \"the city I live in\"."
+},
+{
+"solved": [
+{
+"q": "\"The friend I went with\"",
+"a": "ο φίλος με τον οποίο πήγα | η φίλη με την οποία πήγα",
+"why": "Preposition + τον οποίο (accusative)."
+},
+{
+"q": "\"The house in which I live\"",
+"a": "το σπίτι στο οποίο μένω",
+"why": "σε + το οποίο → στο οποίο."
+},
+{
+"q": "\"The woman whose son I know\"",
+"a": "η γυναίκα της οποίας τον γιο ξέρω | η γυναίκα της οποίας το γιο ξέρω",
+"why": "Genitive της οποίας = whose."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η φίλη με ___ πήγα διακοπές. (whom)",
+"options": [
+"η οποία",
+"την οποία",
+"της οποίας",
+"τον οποίο"
+],
+"answer": "την οποία",
+"why": "After με: accusative, feminine.",
+"id": "relatives-12dbf721"
+},
+{
+"type": "choice",
+"q": "Το ξενοδοχείο ___ μείναμε ήταν φτηνό. (in which)",
+"options": [
+"στον οποίο",
+"στο οποίο",
+"που στο",
+"το οποίο"
+],
+"answer": "στο οποίο",
+"why": "Neuter: στο οποίο.",
+"id": "relatives-7ff078b0"
+},
+{
+"type": "choice",
+"q": "Ο καθηγητής, ___ το βιβλίο διάβασα, ήρθε. (whose)",
+"options": [
+"ο οποίος",
+"του οποίου",
+"τον οποίο",
+"της οποίας"
+],
+"answer": "του οποίου",
+"why": "Genitive, masculine: του οποίου.",
+"id": "relatives-18a83738"
+},
+{
+"type": "choice",
+"q": "Οι φίλοι ___ μιλήσαμε ήταν ευγενικοί. (to whom)",
+"options": [
+"στους οποίες",
+"στους οποίους",
+"οι οποίοι",
+"στις οποίες"
+],
+"answer": "στους οποίους",
+"why": "Masculine plural: στους οποίους.",
+"id": "relatives-3c568904"
+},
+{
+"type": "choice",
+"q": "Η εταιρεία για ___ δουλεύω. (which)",
+"options": [
+"τον οποίο",
+"την οποία",
+"η οποία",
+"το οποίο"
+],
+"answer": "την οποία",
+"why": "Feminine accusative: την οποία.",
+"id": "relatives-3a39e697"
+},
+{
+"type": "write",
+"q": "\"The friend I live with\" (male)",
+"answer": "ο φίλος με τον οποίο μένω",
+"accept": [],
+"why": "με τον οποίο.",
+"id": "relatives-f498f03f"
+},
+{
+"type": "write",
+"q": "\"The city I live in\"",
+"answer": "η πόλη στην οποία μένω",
+"accept": [
+"η πόλη στην οποία ζω",
+"η πόλη όπου μένω",
+"η πόλη που μένω"
+],
+"why": "στην οποία.",
+"id": "relatives-9420d37d"
+},
+{
+"type": "write",
+"q": "\"The writer whose book I read\"",
+"answer": "ο συγγραφέας του οποίου το βιβλίο διάβασα",
+"accept": [
+"ο συγγραφέας, του οποίου το βιβλίο διάβασα"
+],
+"why": "του οποίου.",
+"id": "relatives-8c5d9139"
+},
+{
+"type": "write",
+"q": "\"The company I work for\"",
+"answer": "η εταιρεία για την οποία δουλεύω",
+"accept": [],
+"why": "για την οποία.",
+"id": "relatives-45755f2b"
+},
+{
+"type": "order",
+"q": "\"The reasons for which he left\"",
+"answer": "Οι λόγοι για τους οποίους έφυγε",
+"accept": [],
+"why": "Masculine plural accusative.",
+"id": "relatives-a464065e"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Που + αντωνυμία",
+"title": "Spoken style: που + a pronoun",
+"body": [
+{
+"p": "In conversation, people avoid ο οποίος by using **που** plus a **weak pronoun** inside the clause that shows the case. It is called the **resumptive pronoun**. It is required for indirect objects and possessives:"
+},
+{
+"table": {
+"head": [
+"Formal",
+"Spoken"
+],
+"rows": [
+[
+"η κοπέλα στην οποία έδωσα το βιβλίο",
+"η κοπέλα που της έδωσα το βιβλίο"
+],
+[
+"ο φίλος του οποίου ο πατέρας είναι γιατρός",
+"ο φίλος που ο πατέρας του είναι γιατρός"
+],
+[
+"ο άνθρωπος με τον οποίο μίλησα",
+"ο άνθρωπος που μίλησα μαζί του"
+],
+[
+"το παιδί για το οποίο σου είπα",
+"το παιδί που σου είπα γι' αυτό"
+]
+]
+}
+},
+{
+"p": "With direct objects the pronoun is optional and adds emphasis: **ο άνθρωπος που (τον) είδα**."
+},
+{
+"ex": [
+{
+"el": "Ο τύπος που του χρωστάω λεφτά με ψάχνει.",
+"en": "The guy I owe money to is looking for me."
+},
+{
+"el": "Έχω μια φίλη που ο άντρας της είναι Ιταλός.",
+"en": "I have a friend whose husband is Italian."
+},
+{
+"el": "Είναι ο γιατρός που σου μίλησα γι' αυτόν.",
+"en": "He's the doctor I told you about."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"The man I gave the keys to\" (spoken)",
+"a": "ο άντρας που του έδωσα τα κλειδιά",
+"why": "Resumptive genitive: του."
+},
+{
+"q": "\"A friend whose father is a lawyer\" (spoken)",
+"a": "ένας φίλος που ο πατέρας του είναι δικηγόρος | μια φίλη που ο πατέρας της είναι δικηγόρος",
+"why": "που + possessive του / της."
+},
+{
+"q": "\"The girl I told you (sg) about\" (spoken)",
+"a": "η κοπέλα που σου είπα γι' αυτήν | η κοπέλα που σου μίλησα γι' αυτήν",
+"why": "που + για + pronoun."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η γυναίκα που ___ έδωσα το κλειδί. (to her)",
+"options": [
+"την",
+"της",
+"του",
+"τη"
+],
+"answer": "της",
+"why": "Indirect object: της.",
+"id": "relatives-871c75bd"
+},
+{
+"type": "choice",
+"q": "Ο φίλος μου που ο αδερφός ___ είναι ηθοποιός. (his)",
+"options": [
+"της",
+"του",
+"τον",
+"τους"
+],
+"answer": "του",
+"why": "Possessive: του.",
+"id": "relatives-b21f1de3"
+},
+{
+"type": "choice",
+"q": "Τα παιδιά που ___ πήρα δώρα. (for them)",
+"options": [
+"τα",
+"τους",
+"του",
+"τις"
+],
+"answer": "τους",
+"why": "Indirect object, plural: τους.",
+"id": "relatives-581ff8a9"
+},
+{
+"type": "choice",
+"q": "Ο τύπος που σου μίλησα γι' ___. (him)",
+"options": [
+"αυτό",
+"αυτόν",
+"αυτού",
+"αυτή"
+],
+"answer": "αυτόν",
+"why": "για + accusative: αυτόν.",
+"id": "relatives-3682b307"
+},
+{
+"type": "write",
+"q": "\"The guy I owe money to\" (spoken)",
+"answer": "ο τύπος που του χρωστάω λεφτά",
+"accept": [
+"ο τύπος που του χρωστάω χρήματα"
+],
+"why": "που + του.",
+"id": "relatives-f76b266d"
+},
+{
+"type": "write",
+"q": "\"I have a friend whose wife is a doctor.\" (spoken)",
+"answer": "Έχω έναν φίλο που η γυναίκα του είναι γιατρός.",
+"accept": [
+"Έχω ένα φίλο που η γυναίκα του είναι γιατρός.",
+"Έχω έναν φίλο που η γυναίκα του είναι γιατρίνα."
+],
+"why": "που + του.",
+"id": "relatives-9722d991"
+},
+{
+"type": "write",
+"q": "\"The girl I gave the book to\" (spoken)",
+"answer": "η κοπέλα που της έδωσα το βιβλίο",
+"accept": [],
+"why": "που + της.",
+"id": "relatives-6fd7f1b2"
+},
+{
+"type": "order",
+"q": "\"He's the friend I told you (sg) about.\"",
+"answer": "Είναι ο φίλος που σου είπα γι' αυτόν.",
+"accept": [],
+"why": "που + για + pronoun.",
+"id": "relatives-c0c2384f"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Όποιος, ό,τι, όπου, όσος",
+"title": "Free relatives: whoever, whatever, wherever",
+"body": [
+{
+"p": "These relatives have no noun before them; they mean \"the one who, the thing that, the place where\"."
+},
+{
+"table": {
+"head": [
+"Word",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"όποιος, -α, -ο",
+"whoever, the one who",
+"Όποιος θέλει, ας έρθει."
+],
+[
+"ό,τι",
+"whatever, all that",
+"Πάρε ό,τι θέλεις."
+],
+[
+"όπου",
+"wherever, where",
+"Πήγαινε όπου θέλεις."
+],
+[
+"όποτε",
+"whenever",
+"Έλα όποτε μπορείς."
+],
+[
+"όπως",
+"as, the way",
+"Κάν' το όπως σου είπα."
+],
+[
+"όσος, -η, -ο",
+"as much / many as, all that",
+"Φάε όσο θέλεις. Όσοι ήρθαν, έφαγαν."
+]
+]
+}
+},
+{
+"p": "**Όποιος** declines like ποιος and agrees: **Δώσ' το σε όποιον θέλεις.** \"Give it to whoever you like.\" Proverbs love it: **Όποιος βιάζεται, σκοντάφτει.** \"Who hurries, stumbles.\""
+},
+{
+"p": "Remember the comma in **ό,τι** \"whatever\", to tell it from **ότι** \"that\"."
+},
+{
+"ex": [
+{
+"el": "Ό,τι θέλεις εσύ.",
+"en": "Whatever you want."
+},
+{
+"el": "Όσοι θέλουν, μπορούν να μείνουν.",
+"en": "Those who want to can stay."
+},
+{
+"el": "Κάθισε όπου βρεις θέση.",
+"en": "Sit wherever you find a seat."
+},
+{
+"el": "Όπως θέλετε.",
+"en": "As you wish."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Whoever wants to can come.\"",
+"a": "Όποιος θέλει μπορεί να έρθει. | Όποιος θέλει, ας έρθει.",
+"why": "όποιος."
+},
+{
+"q": "\"Eat (sg) as much as you like.\"",
+"a": "Φάε όσο θέλεις.",
+"why": "όσο = as much as."
+},
+{
+"q": "\"Give (sg) it to whoever you want.\"",
+"a": "Δώσ' το σε όποιον θέλεις. | Δώσε το σε όποιον θέλεις.",
+"why": "σε + accusative όποιον."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ θέλει, μπορεί να φύγει. (Whoever)",
+"options": [
+"Ποιος",
+"Όποιος",
+"Που",
+"Ό,τι"
+],
+"answer": "Όποιος",
+"why": "όποιος = whoever.",
+"id": "relatives-8863936b"
+},
+{
+"type": "choice",
+"q": "Πάρε ___ θέλεις από το ψυγείο. (whatever)",
+"options": [
+"ότι",
+"ό,τι",
+"όποιος",
+"που"
+],
+"answer": "ό,τι",
+"why": "ό,τι = whatever (comma).",
+"id": "relatives-2172f150"
+},
+{
+"type": "choice",
+"q": "Μπορείς να κάτσεις ___ θέλεις. (wherever)",
+"options": [
+"πού",
+"όπου",
+"ό,τι",
+"όποιος"
+],
+"answer": "όπου",
+"why": "όπου = wherever.",
+"id": "relatives-fd207d13"
+},
+{
+"type": "choice",
+"q": "___ ήρθαν, έφυγαν ευχαριστημένοι. (All those who)",
+"options": [
+"Όποιος",
+"Όσοι",
+"Ποιοι",
+"Που"
+],
+"answer": "Όσοι",
+"why": "όσοι = all those who.",
+"id": "relatives-918693db"
+},
+{
+"type": "choice",
+"q": "Κάν' το ___ σου είπα. (the way)",
+"options": [
+"πώς",
+"όπως",
+"όπου",
+"ό,τι"
+],
+"answer": "όπως",
+"why": "όπως = the way.",
+"id": "relatives-83c9f8a6"
+},
+{
+"type": "write",
+"q": "\"Whatever you (sg) want.\"",
+"answer": "Ό,τι θέλεις.",
+"accept": [
+"Ό,τι θέλεις εσύ."
+],
+"why": "ό,τι.",
+"id": "relatives-96c43c2e"
+},
+{
+"type": "write",
+"q": "\"Sit (sg) wherever you like.\"",
+"answer": "Κάτσε όπου θέλεις.",
+"accept": [
+"Κάθισε όπου θέλεις."
+],
+"why": "όπου.",
+"id": "relatives-5046760f"
+},
+{
+"type": "write",
+"q": "\"Come (sg) whenever you can.\"",
+"answer": "Έλα όποτε μπορείς.",
+"accept": [],
+"why": "όποτε.",
+"id": "relatives-d25d8ab8"
+},
+{
+"type": "write",
+"q": "\"As you (pl) wish.\"",
+"answer": "Όπως θέλετε.",
+"accept": [],
+"why": "όπως.",
+"id": "relatives-6ce64ec1"
+},
+{
+"type": "order",
+"q": "\"Whoever hurries stumbles.\"",
+"answer": "Όποιος βιάζεται σκοντάφτει.",
+"accept": [],
+"why": "Proverb with όποιος.",
+"id": "relatives-7154360f"
+}
+]
+}
+]
+}
+],
+"id": "relatives",
+"el": "Αναφορικές προτάσεις",
+"title": "Relative clauses: που, ο οποίος, όποιος, ό,τι",
+"span": "B1–B2",
+"blurb": "\"The man who...\", \"the house where...\", \"whoever...\": the all-purpose που, the formal ο οποίος (needed after prepositions), \"whose\", the resumptive pronoun of spoken Greek (η κοπέλα που της μίλησα), and the free relatives όποιος, ό,τι, όπου, όσος.",
+"intro": [
+{
+"p": "English has who, whom, which, that, where, whose. Everyday Greek gets by with one word: **που** (no accent), which never changes: **ο άντρας που ήρθε** \"the man who came\", **το βιβλίο που διαβάζω** \"the book (that) I'm reading\", **το χωριό που γεννήθηκα** \"the village where I was born\". Formal Greek and phrases with prepositions use **ο οποίος**, which agrees like an adjective."
+},
+{
+"links": [
+{
+"href": "#b1-relatives",
+"kind": "Lesson",
+"el": "Αναφορικές προτάσεις",
+"title": "Relative clauses with που and ο οποίος"
+},
+{
+"href": "#clauses-relative",
+"kind": "Lesson",
+"el": "Αναφορικές σε βάθος: που, ο οποίος, όποιος",
+"title": "Relative clauses in depth: every case, whose, free relatives"
+},
+{
+"href": "#syntax.relatives",
+"kind": "Syntax",
+"el": "Οι αναφορικές προτάσεις",
+"title": "Relative clauses"
+},
+{
+"href": "#cards.relative-pron",
+"kind": "Card",
+"el": "Αναφορικές αντωνυμίες",
+"title": "Relative pronouns"
+}
+]
+}
+],
+"num": 32
+}
