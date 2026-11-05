@@ -941,3 +941,9 @@ Add-ons live in a Library section of the app (`#library`), built as a separate m
 - All seven theme PDFs rebuilt with pictures (main 034d5fa), Greek-only covers checked (0 Latin letters).
 - Coverage (tools/themata/coverage.py, lexicon now 14,261): top-10k lemmas unused in running text 237 (was 587 this afternoon, 1,384 this morning); about 23 of those are multi-word lemmas the tokenizer cannot match.
 - Lesson learned: check_sources.py is slow under Wikipedia 429s; use tools/themata/quickcheck.py <shelf> <keys…> for just the new keys (batched titles, retries).
+
+## 2026-11-05 ~19:45 UTC — Themes and 10k coverage, round 3 (thread "Expand resources: themes and 10k words")
+- 5 new chapters live (main f799a85): #douleia «Στη Διεθνή Έκθεση Θεσσαλονίκης» (ΔΕΘ since 1926, an e-bike maker's stand and factory); #eleftheros «Μουσική και μόδα» and «Οικολογία» (Axios Delta); #eidiseis «Ανακοινώσεις» (Kallikratis, a faculty notice, Civil Protection alerts); #nomos «Ο τιμωρός του λιμανιού» (original C1 crime story in Piraeus, Markaris/Haritos context). New sources link-checked, glosses complete, audits clean, iPhone viewport checked.
+- PDFs rebuilt, Greek-only covers (0 Latin letters): Free-time 46 pp, Work-and-money 47, News-language 39, Law-and-justice 35; sizes updated in downloads/textbook/index.html; copies in /mnt/project-files/downloads/textbook/.
+- Coverage note: the vocabulary thread re-ranked the lexicon (14,898 entries, subtitle words added), so the top 10,000 now holds new spoken words. coverage.py now reports 553 of the top 10k unused in running text (top 5k: 37, top 8k: 303); the earlier 237 was against the 14,261-word lexicon.
+- Tomorrow (themes): run `python3 tools/themata/coverage.py`, take the unused top-8k list and write chapters around it (spoken/subtitle words suit dialogue chapters in #scheseis and #kathimerini); about 25 chapters still lack pictures (tools/themata/commons_pd.py search, CC0/PD only, credit in img/CREDITS.md).
