@@ -29,7 +29,7 @@ const bad = [], urls = new Map();
 const note = (f, msg) => bad.push(`${path.relative(ROOT, f)}: ${msg}`);
 for (const f of files) {
   let o; try { o = JSON.parse(fs.readFileSync(f, "utf8")); } catch (e) { note(f, "INVALID JSON " + e.message); continue; }
-  const walk = (x, k) => {
+  const walk = (x, k, par) => {
     if (typeof x === "string") {
       const found = /^https?:\/\/\S+$/.test(x) ? [x] : [...x.matchAll(/https?:\/\/(?:[^\s"'<>()\]]|\([^\s()]*\))+/g)].map((m) => m[0].replace(/[.,;:]+$/, ""));
       for (const u of found) { if (!urls.has(u)) urls.set(u, new Set()); urls.get(u).add(path.relative(ROOT, f)); }
@@ -37,14 +37,14 @@ for (const f of files) {
       if (/^#[a-z]/.test(x) && !/\s/.test(x) && !/^#[0-9a-f]{3,8}$/i.test(x)) routes.push(x);
       for (const m of x.matchAll(/\]\((#[a-z][^)\s]*)\)/g)) routes.push(m[1]);
       for (const r of routes) if (!routeOK(r)) note(f, `broken route ${r}`);
-      if (/^(file|img|image|src|picture|thumb)$/.test(k) && !/^(https?:|data:)/.test(x) && /\.(jpe?g|png|svg|webp|gif|mp3|m4a|ogg|pdf)$/i.test(x) && !exists(x)) note(f, `missing file ${x}`);
-    } else if (Array.isArray(x)) x.forEach((y) => walk(y, k));
+      if (/^(file|img|image|src|picture|thumb)$/.test(k) && !/^(https?:|data:)/.test(x) && /\.(jpe?g|png|svg|webp|gif|mp3|m4a|ogg|pdf)$/i.test(x) && !exists(x) && !(par && /^https?:/.test(par.url || ""))) note(f, `missing file ${x}`); // a file with an online url fallback (e.g. 35 MB exam audio kept out of the repo) is fine
+    } else if (Array.isArray(x)) x.forEach((y) => walk(y, k, par));
     else if (x && typeof x === "object") {
       if (Array.isArray(x.options) && x.options.length > 1 && typeof x.answer === "string" && !/^[α-δa-d]$|\//.test(x.answer) && x.options.every((o) => typeof o === "string")) {
         if (!x.options.includes(x.answer)) note(f, `answer not among options: ${x.answer.slice(0, 60)}`);
         if (new Set(x.options).size !== x.options.length) note(f, `duplicate options: ${x.options.join(" | ").slice(0, 90)}`);
       }
-      for (const [kk, v] of Object.entries(x)) walk(v, kk);
+      for (const [kk, v] of Object.entries(x)) walk(v, kk, x);
     }
   };
   walk(o, "");

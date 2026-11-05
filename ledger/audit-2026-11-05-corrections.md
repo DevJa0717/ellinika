@@ -33,3 +33,15 @@ Thread "Validate all content end to end". Scope: everything added since the 2026
 - `library/exam/b2-tasks-3.json`: με την λίγη υπομονή → με λίγη υπομονή (no article with λίγη here)
 - `library/exam/c1-tasks.json`: με τη ψηφιακή → με την ψηφιακή (final ν before ψ)
 - `library/skini/angelopoulos.json`, `tools/arts/skini/part3.py`: παίζοντας τη «Γκόλφω» → την «Γκόλφω», quiz option/answer Τη Γκόλφω → Την Γκόλφω (final ν before γκ; the quoted source sentence left as printed)
+
+## Follow-up: external links not fixed (2026-11-05)
+Found by `node tools/audit/links.js --web`. Wikipedia dead links were all repointed above. These remain:
+- No answer (timeouts or bot blocks, probably alive): olympics.com, uefa.com, Biblioteca Marciana, Istituto Ellenico (Venice), imthira, elsyn, espa.gr, 70.coe.int, opennieuwsbank.
+- 404 (need a new URL or a replacement source): DAI Olympia page, Tsakonian archives, Landesmuseum, PECOB, National Archaeological Museum (Antikythera page), IPCC fact sheet, Dumbarton Oaks, Shaw Prize 2011, Cleveland Museum of Art 1959.82.
+Run `node tools/audit/links.js --web | grep -E " 404| 410"` to list the files that cite them.
+
+## Re-checks of new content (2026-11-05)
+- Lexicon ranks 9,100–10,950 (ba9d3a6, 1,057 new lemmas): all 3,595 added lemmas checked against el_GR; the 78 it lacks are genuine loanwords, neologisms and colloquialisms (φωτό, κορονοϊός, τσουνάμι, χατ τρικ, φραπές…). Clean.
+- Drill books re-extract (341890f): answers.js 0 unknown words in answer keys.
+- Theoria ch. 45 and the 7 "Towards B2" cards (f7f9f5b): clean.
+- links.js: a `file` with an online `url` fallback is no longer reported missing (the 35 MB C1 listening mp3 is deliberately not in the repo).
