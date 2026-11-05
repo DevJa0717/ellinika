@@ -55,6 +55,10 @@ def main():
             links["syntax." + d["id"]] = {"href": "#syntax." + d["id"], "kind": "Syntax", "el": d["el"], "title": d["title"]}
             for i, s in enumerate(d["sections"]):
                 links[f"syntax.{d['id']}~{i}"] = {"href": f"#syntax.{d['id']}~{i}", "kind": "Syntax", "el": s["el"], "title": s["title"]}
+    tdir = os.path.join(APP, "library/theoria")
+    if os.path.exists(os.path.join(tdir, "index.json")):
+        for it in json.load(open(os.path.join(tdir, "index.json"), encoding="utf-8"))["items"]:
+            links["theoria." + it["id"]] = {"href": "#theoria." + it["id"], "kind": "Outline", "el": it["el"], "title": it["title"]}
     groups = [parse(os.path.join(HERE, f)) for f in sorted(os.listdir(HERE)) if f.endswith(".txt")]
     ids = [c["id"] for g in groups for c in g["cards"]]
     if len(ids) != len(set(ids)):
