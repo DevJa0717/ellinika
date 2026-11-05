@@ -1,0 +1,44 @@
+[
+ {
+  "lemma": "καμβάς",
+  "set": {
+   "noun.model": "m-imparisyllabic-final"
+  },
+  "why": "plural καμβάδες: imparisyllabic in -άς, like γαλατάς"
+ },
+ {
+  "lemma": "δεκατρία",
+  "set": {
+   "adjective.m": "δεκατρείς"
+  },
+  "why": "masculine form is δεκατρείς, not δεκατρία"
+ },
+ {
+  "lemma": "χαρτάκι",
+  "set": {
+   "noun.gen_sg": "χαρτακιού",
+   "form_key": "Gen: χαρτακιού | n (2nd decl)"
+  },
+  "why": "gen_sg was null and form_key read 'Gen: None'"
+ },
+ {
+  "lemma": "παράσημο",
+  "set": {
+   "example": {
+    "el": "Ο Πρόεδρος τού απένειμε παράσημο για την προσφορά του.",
+    "en": "The President awarded him a decoration for his service."
+   }
+  },
+  "why": "clitic needs accent (τού) or it reads as 'the President's'"
+ },
+ {
+  "lemma": "ανάρρωση",
+  "set": {
+   "example": {
+    "el": "Μετά την επέμβαση, του ευχόμαστε ταχεία ανάρρωση.",
+    "en": "After the operation, we wish him a speedy recovery."
+   }
+  },
+  "why": "without a comma/accent 'του' reads as genitive of επέμβαση"
+ }
+]

@@ -136,6 +136,8 @@ if R and M:
             if not GREEK.match(f) or bare(f) in common: continue
             fc = f[0].upper() + f[1:] if not lem.isupper() else f.upper()
             names[fc] = f'{lem}|{short(g)}'
+for l, f in (json.load(open(f'{H}/fixes10k.json')) if os.path.exists(f'{H}/fixes10k.json') else {}).items():
+    if f.get('NAME'): names[l[0].upper() + l[1:]] = f['NAME']
 json.dump(names, open(f'{H}/names_add.json', 'w'), ensure_ascii=False, indent=0)
 
 # tidy: drop null optional verb fields; indeclinable adjectives get model indecl; hand fixes from fixes10k.json

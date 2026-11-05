@@ -1,0 +1,86 @@
+[
+ {
+  "lemma": "ακρωτήρι",
+  "set": {
+   "noun.gen_sg": "ακρωτηριού",
+   "form_key": "Gen: ακρωτηριού | n (2nd decl)"
+  },
+  "why": "n-ι model: gen. is ακρωτηριού (ακρωτηρίου belongs to ακρωτήριο)"
+ },
+ {
+  "lemma": "θριαμβευτικός",
+  "set": {
+   "example": {
+    "el": "Η ομάδα είχε θριαμβευτική υποδοχή στην πόλη μετά τη νίκη.",
+    "en": "The team got a triumphant welcome in the city after the win."
+   }
+  },
+  "why": "example used the adverb θριαμβευτικά, not the headword"
+ },
+ {
+  "lemma": "βραχυπρόθεσμος",
+  "set": {
+   "example": {
+    "el": "Η κυβέρνηση πήρε βραχυπρόθεσμα μέτρα για την ακρίβεια.",
+    "en": "The government took short-term measures against the rising cost of living."
+   }
+  },
+  "why": "example used the adverb βραχυπρόθεσμα, not the adjective"
+ },
+ {
+  "lemma": "αντιτρομοκρατικός",
+  "set": {
+   "example": {
+    "el": "Η Αντιτρομοκρατική έκανε δύο συλλήψεις στα Εξάρχεια.",
+    "en": "Counter-terrorism police made two arrests in Exarchia."
+   }
+  },
+  "why": "the police unit name is capitalised (Αντιτρομοκρατική)"
+ },
+ {
+  "lemma": "εσπρέσο",
+  "set": {
+   "noun.gender": "n"
+  },
+  "why": "usually neuter (το εσπρέσο), and the example has ένα διπλό εσπρέσο, which is neuter"
+ },
+ {
+  "lemma": "στέκω",
+  "set": {
+   "verb.aorist_1sg": "στάθηκα",
+   "form_key": "Pres: στέκω | Aor: στάθηκα"
+  },
+  "why": "στέκω borrows its aorist from στέκομαι, στάθηκα (as in ΛΚΝ), so the field should not be null"
+ },
+ {
+  "lemma": "ολόψυχος",
+  "set": {
+   "example": {
+    "el": "Έχετε την ολόψυχη στήριξή μας σε αυτή την προσπάθεια.",
+    "en": "You have our wholehearted support in this effort."
+   }
+  },
+  "why": "example used the adverb ολόψυχα, not the adjective"
+ },
+ {
+  "lemma": "άφοβος",
+  "set": {
+   "example": {
+    "el": "Ήταν ένα άφοβο παιδί που σκαρφάλωνε παντού.",
+    "en": "He was a fearless child who climbed everywhere."
+   }
+  },
+  "why": "example used the adverb άφοβα, not the adjective"
+ },
+ {
+  "lemma": "τιτάνιος",
+  "set": {
+   "gloss": "titanic, colossal, herculean (τιτάνια προσπάθεια: a herculean effort)",
+   "example": {
+    "el": "Οι πυροσβέστες έδωσαν τιτάνια μάχη με τις φλόγες όλη τη νύχτα.",
+    "en": "The firefighters fought a titanic battle against the flames all night."
+   }
+  },
+  "why": "mixed up the adjective with the noun τιτάνιο (titanium, a separate entry). The example was a copy of the τιτάνιο one"
+ }
+]
