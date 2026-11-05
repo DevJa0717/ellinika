@@ -1,0 +1,1697 @@
+{
+"sections": [
+{
+"level": "B2",
+"el": "Η εσωτερική αύξηση",
+"title": "The internal augment: υπέγραψα, συνέβη, επέστρεψα",
+"body": [
+{
+"p": "Verbs with a learned **prefix** (υπο-, παρα-, συν-, ανα-, επι-, εκ-, εμ-, περι-, προ-...) put the past-tense augment **inside**, between the prefix and the stem. As with the ordinary augment, it appears **only when stressed**."
+},
+{
+"table": {
+"head": [
+"Present",
+"Past (stressed augment)",
+"We (augment unstressed, gone)"
+],
+"rows": [
+[
+"υπογράφω sign",
+"υπέγραψα",
+"υπογράψαμε"
+],
+[
+"παραγγέλνω order",
+"παρήγγειλα",
+"παραγγείλαμε"
+],
+[
+"επιστρέφω return",
+"επέστρεψα",
+"επιστρέψαμε"
+],
+[
+"αναβάλλω postpone",
+"ανέβαλα",
+"αναβάλαμε"
+],
+[
+"παραλαμβάνω collect",
+"παρέλαβα",
+"παραλάβαμε"
+],
+[
+"περιγράφω describe",
+"περιέγραψα",
+"περιγράψαμε"
+],
+[
+"υποφέρω suffer",
+"υπέφερα",
+"υποφέραμε"
+],
+[
+"εκλέγω elect",
+"εξέλεξα",
+"εκλέξαμε"
+],
+[
+"συλλαμβάνω arrest",
+"συνέλαβα",
+"συλλάβαμε"
+],
+[
+"προβλέπω foresee",
+"προέβλεψα",
+"προβλέψαμε"
+],
+[
+"συμβαίνει happen",
+"συνέβη (3sg)",
+"συνέβησαν (3pl)"
+]
+]
+}
+},
+{
+"tip": "The **3rd person singular** is where you meet them most: **Τι συνέβη;** \"What happened?\", **Η αστυνομία συνέλαβε δύο άτομα**, **Ο υπουργός επέστρεψε χθες**."
+},
+{
+"ex": [
+{
+"el": "Τι συνέβη; Γιατί κλαις;",
+"en": "What happened? Why are you crying?"
+},
+{
+"el": "Υπέγραψα το συμβόλαιο.",
+"en": "I signed the contract."
+},
+{
+"el": "Παρήγγειλα πίτσα.",
+"en": "I ordered pizza."
+},
+{
+"el": "Ο αγώνας αναβλήθηκε λόγω βροχής.",
+"en": "The match was postponed because of rain."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I signed the contract.\"",
+"a": "Υπέγραψα το συμβόλαιο.",
+"why": "υπογράφω → υπέγραψα: stressed internal augment."
+},
+{
+"q": "\"We signed the contract.\"",
+"a": "Υπογράψαμε το συμβόλαιο.",
+"why": "Stress moves off the augment: no augment."
+},
+{
+"q": "\"What happened?\"",
+"a": "Τι συνέβη; | Τι έγινε;",
+"why": "συνέβη, the learned 3sg; τι έγινε is everyday."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Χθες ___ το συμβόλαιο. (I signed)",
+"options": [
+"υπόγραψα",
+"υπέγραψα",
+"υπογράψα",
+"επέγραψα"
+],
+"answer": "υπέγραψα",
+"why": "Internal augment under stress: υπέγραψα.",
+"id": "written-style-cc02aa0c"
+},
+{
+"type": "choice",
+"q": "Χθες ___ το συμβόλαιο. (we signed)",
+"options": [
+"υπεγράψαμε",
+"υπογράψαμε",
+"υπέγραψαμε",
+"υπογράφαμε"
+],
+"answer": "υπογράψαμε",
+"why": "Unstressed: no augment.",
+"id": "written-style-09e10b5e"
+},
+{
+"type": "choice",
+"q": "Τι ___; (happened)",
+"options": [
+"σύμβηκε",
+"συνέβη",
+"συνέβει",
+"συμβαίνε"
+],
+"answer": "συνέβη",
+"why": "συνέβη.",
+"id": "written-style-a766186d"
+},
+{
+"type": "choice",
+"q": "Ο Γιώργος ___ από το ταξίδι. (returned)",
+"options": [
+"επίστρεψε",
+"επέστρεψε",
+"επιστρέψε",
+"επέστρεφε να"
+],
+"answer": "επέστρεψε",
+"why": "επέστρεψε.",
+"id": "written-style-2d34c18f"
+},
+{
+"type": "choice",
+"q": "Η αστυνομία ___ τον ύποπτο. (arrested)",
+"options": [
+"συλλάβε",
+"συνέλαβε",
+"συνέλαβαν",
+"σύλλαβε"
+],
+"answer": "συνέλαβε",
+"why": "3sg συνέλαβε.",
+"id": "written-style-c1c7436b"
+},
+{
+"type": "choice",
+"q": "___ δύο πίτσες. (I ordered)",
+"options": [
+"Παραγγείλα",
+"Παρήγγειλα",
+"Παράγγελνα",
+"Παρέγγειλα"
+],
+"answer": "Παρήγγειλα",
+"why": "παρήγγειλα.",
+"id": "written-style-8b33712d"
+},
+{
+"type": "choice",
+"q": "Ο λαός ___ νέο πρόεδρο. (elected)",
+"options": [
+"εκλέξε",
+"εξέλεξε",
+"έκλεξε",
+"εξελέξε"
+],
+"answer": "εξέλεξε",
+"why": "εκλέγω → εξέλεξε.",
+"id": "written-style-d164a17e"
+},
+{
+"type": "write",
+"q": "Past (I) of **περιγράφω**",
+"answer": "περιέγραψα",
+"accept": [],
+"why": "Internal augment -ε-.",
+"id": "written-style-77e30228"
+},
+{
+"type": "write",
+"q": "Past (we) of **επιστρέφω**",
+"answer": "επιστρέψαμε",
+"accept": [],
+"why": "Unstressed: no augment.",
+"id": "written-style-12a69949"
+},
+{
+"type": "write",
+"q": "Past (I) of **αναβάλλω**",
+"answer": "ανέβαλα",
+"accept": [],
+"why": "ανα- + ε → ανέ-.",
+"id": "written-style-a8cadd9d"
+},
+{
+"type": "write",
+"q": "Past (they) of **υπογράφω**",
+"answer": "υπέγραψαν",
+"accept": [
+"υπογράψανε"
+],
+"why": "Stress on the third-last syllable: υπέγραψαν.",
+"id": "written-style-27fb6ece"
+},
+{
+"type": "write",
+"q": "\"The police arrested two people.\"",
+"answer": "Η αστυνομία συνέλαβε δύο άτομα.",
+"accept": [
+"Η αστυνομία συνέλαβε δυο άτομα."
+],
+"why": "συλλαμβάνω → συνέλαβε.",
+"id": "written-style-1020ce37"
+},
+{
+"type": "order",
+"q": "\"What happened yesterday?\"",
+"answer": "Τι συνέβη χθες;",
+"accept": [],
+"why": "συνέβη.",
+"id": "written-style-621b11bf"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Λόγια ρήματα σε -ούμαι και -ώμαι",
+"title": "Learned passives: θεωρείται, εξαρτάται, απαιτείται",
+"body": [
+{
+"p": "Learned -μαι verbs come in two contracted types. You meet them mostly in the **3rd person**."
+},
+{
+"table": {
+"head": [
+"",
+"-ούμαι (θεωρούμαι be considered)",
+"-ώμαι (εξαρτώμαι depend)"
+],
+"rows": [
+[
+"εγώ",
+"θεωρούμαι",
+"εξαρτώμαι"
+],
+[
+"εσύ",
+"θεωρείσαι",
+"εξαρτάσαι"
+],
+[
+"αυτός",
+"θεωρείται",
+"εξαρτάται"
+],
+[
+"εμείς",
+"θεωρούμαστε",
+"εξαρτόμαστε"
+],
+[
+"εσείς",
+"θεωρείστε",
+"εξαρτάστε"
+],
+[
+"αυτοί",
+"θεωρούνται",
+"εξαρτώνται"
+],
+[
+"past (aorist)",
+"θεωρήθηκα",
+"εξαρτήθηκα"
+]
+]
+}
+},
+{
+"p": "Like **θεωρούμαι**: **απαιτείται** \"is required\", **αποτελείται** \"consists\", **κινείται** \"moves\", **απασχολούνται** \"are employed\". Like **εξαρτώμαι**: **εγγυάται** \"guarantees\", **ερωτώνται** \"are asked\". (**Προβλέπεται** \"is foreseen\" is an ordinary -ομαι verb.)"
+},
+{
+"p": "**News forms.** Newspapers also keep some old single-word passive aorists in the 3rd person. Recognise them; the everyday form is in brackets:"
+},
+{
+"table": {
+"head": [
+"News form",
+"Everyday",
+"Meaning"
+],
+"rows": [
+[
+"εξελέγη",
+"εκλέχτηκε",
+"was elected"
+],
+[
+"συνελήφθη",
+"συλλήφθηκε",
+"was arrested"
+],
+[
+"ελήφθη",
+"λήφθηκε, πάρθηκε",
+"was taken (a decision)"
+],
+[
+"ετέθη",
+"τέθηκε",
+"was put, raised"
+],
+[
+"διεξήχθη",
+"διεξάχθηκε, έγινε",
+"was held, conducted"
+],
+[
+"κατέστη",
+"έγινε",
+"became"
+],
+[
+"απεβίωσε",
+"πέθανε",
+"died (active)"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Η Ακρόπολη θεωρείται σύμβολο της Ελλάδας.",
+"en": "The Acropolis is considered a symbol of Greece."
+},
+{
+"el": "Για την εγγραφή απαιτείται ταυτότητα.",
+"en": "An ID card is required for registration."
+},
+{
+"el": "Εξελέγη δήμαρχος με 54%.",
+"en": "He was elected mayor with 54%."
+},
+{
+"el": "Η απόφαση ελήφθη ομόφωνα.",
+"en": "The decision was taken unanimously."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"It is considered the best restaurant in town.\"",
+"a": "Θεωρείται το καλύτερο εστιατόριο της πόλης.",
+"why": "-ούμαι: θεωρείται."
+},
+{
+"q": "\"The price depends on the season.\"",
+"a": "Η τιμή εξαρτάται από την εποχή.",
+"why": "-ώμαι: εξαρτάται."
+},
+{
+"q": "\"was elected\" (news form, 3sg)",
+"a": "εξελέγη",
+"why": "Everyday εκλέχτηκε."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Η Σαντορίνη ___ ένα από τα ωραιότερα νησιά. (is considered)",
+"options": [
+"θεωρεί",
+"θεωρείται",
+"θεωρούνται",
+"θεωρείσαι"
+],
+"answer": "θεωρείται",
+"why": "3sg passive: θεωρείται.",
+"id": "written-style-49dc4c5b"
+},
+{
+"type": "choice",
+"q": "Οι τιμές ___ από τη ζήτηση. (depend)",
+"options": [
+"εξαρτάται",
+"εξαρτώνται",
+"εξαρτούνται",
+"εξαρτάνε από"
+],
+"answer": "εξαρτώνται",
+"why": "Plural of -ώμαι: εξαρτώνται.",
+"id": "written-style-075b5a27"
+},
+{
+"type": "choice",
+"q": "Για τη θέση ___ πτυχίο. (is required)",
+"options": [
+"απαιτεί",
+"απαιτείται",
+"απαιτούνται",
+"απαιτήθηκε να"
+],
+"answer": "απαιτείται",
+"why": "απαιτείται.",
+"id": "written-style-53c359ae"
+},
+{
+"type": "choice",
+"q": "Η ομάδα ___ από δώδεκα άτομα. (consists)",
+"options": [
+"αποτελεί",
+"αποτελείται",
+"αποτελούνται",
+"αποτελώ"
+],
+"answer": "αποτελείται",
+"why": "αποτελείται από.",
+"id": "written-style-b399108e"
+},
+{
+"type": "choice",
+"q": "Ο ύποπτος ___ χθες το βράδυ. (was arrested, news)",
+"options": [
+"συνέλαβε",
+"συνελήφθη",
+"συλλαμβάνει",
+"συλλάβει"
+],
+"answer": "συνελήφθη",
+"why": "News form συνελήφθη.",
+"id": "written-style-db352be9"
+},
+{
+"type": "choice",
+"q": "Η συνάντηση ___ στην Αθήνα. (was held, news)",
+"options": [
+"διεξήγαγε",
+"διεξήχθη",
+"διεξάγει",
+"διεξάγεται να"
+],
+"answer": "διεξήχθη",
+"why": "διεξήχθη.",
+"id": "written-style-4db1abdb"
+},
+{
+"type": "choice",
+"q": "Οι εργαζόμενοι ___ σε τρεις βάρδιες. (are employed)",
+"options": [
+"απασχολεί",
+"απασχολούνται",
+"απασχολείται",
+"απασχολώ"
+],
+"answer": "απασχολούνται",
+"why": "-ούμαι plural: απασχολούνται.",
+"id": "written-style-961dfd43"
+},
+{
+"type": "write",
+"q": "\"It depends.\"",
+"answer": "Εξαρτάται.",
+"accept": [],
+"why": "3sg of εξαρτώμαι.",
+"id": "written-style-bb06df31"
+},
+{
+"type": "write",
+"q": "\"They are considered experts.\"",
+"answer": "Θεωρούνται ειδικοί.",
+"accept": [],
+"why": "3pl θεωρούνται.",
+"id": "written-style-0ba9b08d"
+},
+{
+"type": "write",
+"q": "Everyday form of **εξελέγη**",
+"answer": "εκλέχτηκε",
+"accept": [],
+"why": "News form → everyday aorist.",
+"id": "written-style-613da1b5"
+},
+{
+"type": "write",
+"q": "Everyday form of **απεβίωσε**",
+"answer": "πέθανε",
+"accept": [],
+"why": "απεβίωσε = died (formal).",
+"id": "written-style-1389ea78"
+},
+{
+"type": "write",
+"q": "\"The decision was taken yesterday.\" (everyday form)",
+"answer": "Η απόφαση πάρθηκε χθες.",
+"accept": [
+"Η απόφαση λήφθηκε χθες.",
+"Η απόφαση ελήφθη χθες."
+],
+"why": "λήφθηκε / πάρθηκε; formal ελήφθη.",
+"id": "written-style-9ae8ccf3"
+},
+{
+"type": "order",
+"q": "\"An ID card is required.\"",
+"answer": "Απαιτείται ταυτότητα.",
+"accept": [],
+"why": "Impersonal passive first.",
+"id": "written-style-6770c157"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Λόγιες στερεότυπες φράσεις",
+"title": "Fixed learned phrases",
+"body": [
+{
+"p": "Old datives and genitives survive in **fixed phrases**. They don't change, so learn them whole."
+},
+{
+"table": {
+"head": [
+"Phrase",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"εν λόγω",
+"in question, the said",
+"Το εν λόγω σπίτι πουλήθηκε."
+],
+[
+"εν μέρει",
+"partly",
+"Έχεις εν μέρει δίκιο."
+],
+[
+"εν τω μεταξύ",
+"in the meantime",
+"Εν τω μεταξύ, άρχισε να βρέχει."
+],
+[
+"εν πάση περιπτώσει",
+"in any case",
+"Εν πάση περιπτώσει, θα τα πούμε."
+],
+[
+"εν ανάγκη",
+"if need be",
+"Εν ανάγκη, πάρε με τηλέφωνο."
+],
+[
+"εκ των προτέρων",
+"in advance",
+"Ευχαριστώ εκ των προτέρων."
+],
+[
+"εκ των υστέρων",
+"in hindsight",
+"Εκ των υστέρων, ήταν λάθος."
+],
+[
+"εκ μέρους",
+"on behalf of",
+"Σας χαιρετώ εκ μέρους όλων."
+],
+[
+"επί τόπου",
+"on the spot",
+"Η αστυνομία έφτασε επί τόπου."
+],
+[
+"κατά κανόνα",
+"as a rule",
+"Κατά κανόνα, ξυπνάω νωρίς."
+],
+[
+"κατά λάθος",
+"by mistake",
+"Το έσβησα κατά λάθος."
+],
+[
+"κατά τύχη",
+"by chance",
+"Τον συνάντησα κατά τύχη."
+],
+[
+"ως εκ τούτου",
+"consequently",
+"Ως εκ τούτου, η συνάντηση ακυρώνεται."
+],
+[
+"τοις μετρητοίς",
+"in cash",
+"Πληρωμή τοις μετρητοίς."
+],
+[
+"υπό την προϋπόθεση ότι",
+"provided that",
+"Θα έρθω, υπό την προϋπόθεση ότι θα τελειώσω."
+]
+]
+}
+},
+{
+"tip": "**Εντάξει** \"OK\" is itself one of these: **εν τάξει** \"in order\". Some are everyday (κατά λάθος, εν τω μεταξύ, εντάξει); others are only for formal writing (ως εκ τούτου, εκ μέρους)."
+},
+{
+"ex": [
+{
+"el": "Ευχαριστώ εκ των προτέρων για τη βοήθεια.",
+"en": "Thanks in advance for the help."
+},
+{
+"el": "Πάτησα κατά λάθος «διαγραφή».",
+"en": "I pressed \"delete\" by mistake."
+},
+{
+"el": "Δέχεστε κάρτα ή μόνο τοις μετρητοίς;",
+"en": "Do you take cards or only cash?"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Thank you in advance.\"",
+"a": "Ευχαριστώ εκ των προτέρων. | Σας ευχαριστώ εκ των προτέρων.",
+"why": "εκ των προτέρων."
+},
+{
+"q": "\"I deleted it by mistake.\"",
+"a": "Το έσβησα κατά λάθος. | Το διέγραψα κατά λάθος.",
+"why": "κατά λάθος."
+},
+{
+"q": "\"You're (sg) partly right.\"",
+"a": "Έχεις εν μέρει δίκιο. | Εν μέρει έχεις δίκιο.",
+"why": "εν μέρει."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Ευχαριστώ ___ για τη συνεργασία. (in advance)",
+"options": [
+"εκ των υστέρων",
+"εκ των προτέρων",
+"εν μέρει",
+"επί τόπου"
+],
+"answer": "εκ των προτέρων",
+"why": "εκ των προτέρων.",
+"id": "written-style-2fda01da"
+},
+{
+"type": "choice",
+"q": "___, ήταν λάθος να φύγουμε. (In hindsight)",
+"options": [
+"Εκ των προτέρων",
+"Εκ των υστέρων",
+"Εν ανάγκη",
+"Κατά τύχη"
+],
+"answer": "Εκ των υστέρων",
+"why": "εκ των υστέρων.",
+"id": "written-style-d85b2c79"
+},
+{
+"type": "choice",
+"q": "Το ___ βιβλίο κυκλοφόρησε το 2020. (in question)",
+"options": [
+"επί τόπου",
+"εν λόγω",
+"εν μέρει",
+"κατά λάθος"
+],
+"answer": "εν λόγω",
+"why": "το εν λόγω βιβλίο.",
+"id": "written-style-b6790159"
+},
+{
+"type": "choice",
+"q": "Τον συνάντησα ___ στο μετρό. (by chance)",
+"options": [
+"κατά λάθος",
+"κατά τύχη",
+"κατά κανόνα",
+"εν ανάγκη"
+],
+"answer": "κατά τύχη",
+"why": "κατά τύχη.",
+"id": "written-style-44836e24"
+},
+{
+"type": "choice",
+"q": "___, άρχισε να βρέχει. (In the meantime)",
+"options": [
+"Εν ανάγκη",
+"Εν τω μεταξύ",
+"Εκ μέρους",
+"Εν λόγω"
+],
+"answer": "Εν τω μεταξύ",
+"why": "Εν τω μεταξύ.",
+"id": "written-style-1599344e"
+},
+{
+"type": "choice",
+"q": "Οι γιατροί έφτασαν ___. (on the spot)",
+"options": [
+"κατά τύχη",
+"επί τόπου",
+"εν μέρει",
+"εκ των προτέρων"
+],
+"answer": "επί τόπου",
+"why": "επί τόπου.",
+"id": "written-style-ffd8ad7f"
+},
+{
+"type": "choice",
+"q": "Σας χαιρετώ ___ όλης της ομάδας. (on behalf of)",
+"options": [
+"εκ των",
+"εκ μέρους",
+"εν λόγω",
+"κατά"
+],
+"answer": "εκ μέρους",
+"why": "εκ μέρους + genitive.",
+"id": "written-style-ec572306"
+},
+{
+"type": "write",
+"q": "\"in any case\"",
+"answer": "εν πάση περιπτώσει",
+"accept": [
+"σε κάθε περίπτωση"
+],
+"why": "Fixed learned phrase.",
+"id": "written-style-a96f3f5a"
+},
+{
+"type": "write",
+"q": "\"as a rule\"",
+"answer": "κατά κανόνα",
+"accept": [],
+"why": "Fixed phrase.",
+"id": "written-style-f684c39a"
+},
+{
+"type": "write",
+"q": "\"if need be\"",
+"answer": "εν ανάγκη",
+"accept": [
+"αν χρειαστεί"
+],
+"why": "Fixed phrase.",
+"id": "written-style-a480b7dc"
+},
+{
+"type": "write",
+"q": "\"in cash\"",
+"answer": "τοις μετρητοίς",
+"accept": [
+"μετρητά"
+],
+"why": "Old dative plural.",
+"id": "written-style-445560c3"
+},
+{
+"type": "write",
+"q": "\"consequently\" (formal)",
+"answer": "ως εκ τούτου",
+"accept": [
+"επομένως",
+"συνεπώς"
+],
+"why": "Formal connective.",
+"id": "written-style-8ba18132"
+},
+{
+"type": "order",
+"q": "\"I pressed it by mistake.\"",
+"answer": "Το πάτησα κατά λάθος.",
+"accept": [],
+"why": "κατά λάθος.",
+"id": "written-style-34537cde"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Ονοματοποίηση",
+"title": "Turning verbs into nouns: η αύξηση των τιμών",
+"body": [
+{
+"p": "Formal Greek prefers **nouns** where speech uses **verbs**. The subject or object of the verb becomes a **genitive** after the noun."
+},
+{
+"table": {
+"head": [
+"Verb",
+"Noun"
+],
+"rows": [
+[
+"αυξάνω increase",
+"η αύξηση"
+],
+[
+"μειώνω reduce",
+"η μείωση"
+],
+[
+"αλλάζω change",
+"η αλλαγή"
+],
+[
+"αναπτύσσω develop",
+"η ανάπτυξη"
+],
+[
+"βελτιώνω improve",
+"η βελτίωση"
+],
+[
+"χρησιμοποιώ use",
+"η χρήση"
+],
+[
+"αποφασίζω decide",
+"η απόφαση"
+],
+[
+"συμμετέχω take part",
+"η συμμετοχή"
+],
+[
+"προστατεύω protect",
+"η προστασία"
+],
+[
+"καταναλώνω consume",
+"η κατανάλωση"
+],
+[
+"εφαρμόζω apply",
+"η εφαρμογή"
+],
+[
+"μολύνω pollute",
+"η μόλυνση"
+]
+]
+}
+},
+{
+"table": {
+"head": [
+"Spoken (verb)",
+"Written (noun)"
+],
+"rows": [
+[
+"Αυξήθηκαν οι τιμές.",
+"η αύξηση των τιμών"
+],
+[
+"Η κυβέρνηση αποφάσισε...",
+"η απόφαση της κυβέρνησης"
+],
+[
+"Πρέπει να προστατέψουμε το περιβάλλον.",
+"η προστασία του περιβάλλοντος"
+],
+[
+"Οι νέοι χρησιμοποιούν πολύ το ίντερνετ.",
+"η εκτεταμένη χρήση του διαδικτύου από τους νέους"
+]
+]
+}
+},
+{
+"tip": "In a nominal phrase the **doer** often follows with **από**: **η χρήση του διαδικτύου από τους νέους** \"young people's use of the internet\". Don't stack more than two genitives in a row: **η αύξηση των τιμών των τροφίμων** is the limit of good style."
+},
+{
+"ex": [
+{
+"el": "Η μείωση της ανεργίας είναι ο βασικός στόχος.",
+"en": "Reducing unemployment is the main aim."
+},
+{
+"el": "Η συμμετοχή των πολιτών ήταν μεγάλη.",
+"en": "Citizen participation was high."
+},
+{
+"el": "Η μόλυνση του περιβάλλοντος αφορά όλους.",
+"en": "Environmental pollution concerns everyone."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Turn into a noun phrase: \"Οι τιμές αυξήθηκαν.\"",
+"a": "η αύξηση των τιμών",
+"why": "Subject → genitive."
+},
+{
+"q": "Turn into a noun phrase: \"Προστατεύουμε τη φύση.\"",
+"a": "η προστασία της φύσης",
+"why": "Object → genitive."
+},
+{
+"q": "Turn into a noun phrase: \"Οι πολίτες συμμετείχαν.\"",
+"a": "η συμμετοχή των πολιτών",
+"why": "συμμετέχω → η συμμετοχή."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Noun of **μειώνω**",
+"options": [
+"η μείωμα",
+"η μείωση",
+"το μειώσιμο",
+"η μειωσιά"
+],
+"answer": "η μείωση",
+"why": "-ώνω → -ωση.",
+"id": "written-style-609008cb"
+},
+{
+"type": "choice",
+"q": "Noun of **αλλάζω**",
+"options": [
+"η άλλαξη",
+"η αλλαγή",
+"το άλλαγμα",
+"η αλλαξιά"
+],
+"answer": "η αλλαγή",
+"why": "αλλάζω → η αλλαγή.",
+"id": "written-style-5ce68374"
+},
+{
+"type": "choice",
+"q": "Noun of **χρησιμοποιώ**",
+"options": [
+"η χρησιμότης",
+"η χρήση",
+"το χρησίμο",
+"η χρησιά"
+],
+"answer": "η χρήση",
+"why": "Usual noun: η χρήση.",
+"id": "written-style-7a9bfe24"
+},
+{
+"type": "choice",
+"q": "η αύξηση ___ τιμών (of the)",
+"options": [
+"τις",
+"των",
+"στις",
+"από τις"
+],
+"answer": "των",
+"why": "Genitive plural: των τιμών.",
+"id": "written-style-d7611e4f"
+},
+{
+"type": "choice",
+"q": "η προστασία ___ περιβάλλοντος (of the)",
+"options": [
+"το",
+"του",
+"στο",
+"με το"
+],
+"answer": "του",
+"why": "Genitive: του περιβάλλοντος.",
+"id": "written-style-9f848c29"
+},
+{
+"type": "choice",
+"q": "Noun of **αναπτύσσω**",
+"options": [
+"η αναπτυξία",
+"η ανάπτυξη",
+"το ανάπτυγμα",
+"η αναπτυξιά"
+],
+"answer": "η ανάπτυξη",
+"why": "αναπτύσσω → η ανάπτυξη.",
+"id": "written-style-24fc9563"
+},
+{
+"type": "write",
+"q": "Noun of **βελτιώνω**",
+"answer": "η βελτίωση",
+"accept": [
+"βελτίωση"
+],
+"why": "-ώνω → -ωση.",
+"id": "written-style-5fd1d698"
+},
+{
+"type": "write",
+"q": "Noun of **αποφασίζω**",
+"answer": "η απόφαση",
+"accept": [
+"απόφαση"
+],
+"why": "αποφασίζω → απόφαση.",
+"id": "written-style-512ccc6a"
+},
+{
+"type": "write",
+"q": "Noun of **καταναλώνω**",
+"answer": "η κατανάλωση",
+"accept": [
+"κατανάλωση"
+],
+"why": "-ώνω → -ωση.",
+"id": "written-style-b366c000"
+},
+{
+"type": "write",
+"q": "Turn into a noun phrase: \"Η ανεργία μειώθηκε.\"",
+"answer": "η μείωση της ανεργίας",
+"accept": [],
+"why": "Subject → genitive.",
+"id": "written-style-3caf30a0"
+},
+{
+"type": "write",
+"q": "Turn into a noun phrase: \"Εφαρμόζουμε τον νόμο.\"",
+"answer": "η εφαρμογή του νόμου",
+"accept": [],
+"why": "Object → genitive.",
+"id": "written-style-f059b235"
+},
+{
+"type": "order",
+"q": "\"Reducing unemployment is the main aim.\"",
+"answer": "Η μείωση της ανεργίας είναι ο βασικός στόχος.",
+"accept": [],
+"why": "Noun + genitive.",
+"id": "written-style-e74502e5"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Απρόσωπη σύνταξη",
+"title": "Impersonal passives: θεωρείται ότι, αναμένεται να",
+"body": [
+{
+"p": "Formal texts avoid \"I\", \"we\" and \"they\" by using **impersonal passives** and **είναι + adjective**."
+},
+{
+"table": {
+"head": [
+"Phrase",
+"Meaning"
+],
+"rows": [
+[
+"θεωρείται ότι / πως",
+"it is considered that"
+],
+[
+"λέγεται ότι",
+"it is said that"
+],
+[
+"εκτιμάται ότι",
+"it is estimated that"
+],
+[
+"είναι γνωστό ότι",
+"it is well known that"
+],
+[
+"είναι γεγονός ότι",
+"it is a fact that"
+],
+[
+"αναμένεται να",
+"is expected to"
+],
+[
+"προβλέπεται να",
+"is planned to, is due to"
+],
+[
+"πρέπει να ληφθούν μέτρα",
+"measures must be taken"
+],
+[
+"επισημαίνεται ότι",
+"it should be noted that"
+],
+[
+"είναι αναγκαίο να",
+"it is necessary to"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Εκτιμάται ότι πάνω από ένα εκατομμύριο τουρίστες επισκέφτηκαν το νησί.",
+"en": "It is estimated that over a million tourists visited the island."
+},
+{
+"el": "Η νέα γραμμή του μετρό αναμένεται να λειτουργήσει το 2027.",
+"en": "The new metro line is expected to open in 2027."
+},
+{
+"el": "Είναι γνωστό ότι η άσκηση βοηθά.",
+"en": "It is well known that exercise helps."
+},
+{
+"el": "Πρέπει να ληφθούν άμεσα μέτρα.",
+"en": "Measures must be taken immediately."
+}
+]
+},
+{
+"tip": "The everyday equivalent is the **3rd person plural** with no subject: **Λένε ότι θα βρέξει** \"They say it'll rain\" = **Λέγεται ότι...** in writing."
+},
+{
+"solved": [
+{
+"q": "\"It is estimated that...\"",
+"a": "Εκτιμάται ότι | Εκτιμάται πως",
+"why": "Impersonal passive."
+},
+{
+"q": "\"The museum is expected to open in May.\"",
+"a": "Το μουσείο αναμένεται να ανοίξει τον Μάιο.",
+"why": "αναμένεται να + dependent."
+},
+{
+"q": "\"Measures must be taken.\"",
+"a": "Πρέπει να ληφθούν μέτρα. | Πρέπει να παρθούν μέτρα.",
+"why": "Passive dependent ληφθούν."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ ότι ο πληθυσμός μειώνεται. (It is estimated)",
+"options": [
+"Εκτιμά",
+"Εκτιμάται",
+"Εκτιμούν να",
+"Εκτιμήθηκαν"
+],
+"answer": "Εκτιμάται",
+"why": "Impersonal passive.",
+"id": "written-style-111312b5"
+},
+{
+"type": "choice",
+"q": "Η γέφυρα ___ να ολοκληρωθεί το 2028. (is expected)",
+"options": [
+"αναμένει",
+"αναμένεται",
+"αναμένονται ότι",
+"περιμένει"
+],
+"answer": "αναμένεται",
+"why": "αναμένεται να.",
+"id": "written-style-46425a8e"
+},
+{
+"type": "choice",
+"q": "Είναι ___ ότι η άσκηση κάνει καλό. (well known)",
+"options": [
+"γνωστή",
+"γνωστό",
+"γνωστός",
+"γνωστά να"
+],
+"answer": "γνωστό",
+"why": "Impersonal: neuter γνωστό.",
+"id": "written-style-01b1050e"
+},
+{
+"type": "choice",
+"q": "Πρέπει να ___ μέτρα. (be taken)",
+"options": [
+"λάβουν",
+"ληφθούν",
+"λαμβάνονται να",
+"ληφθεί"
+],
+"answer": "ληφθούν",
+"why": "Passive dependent plural: ληφθούν.",
+"id": "written-style-f4f92dd7"
+},
+{
+"type": "choice",
+"q": "___ ότι ο συγγραφέας έζησε στην Κρήτη. (It is said)",
+"options": [
+"Λέει",
+"Λέγεται",
+"Λέγονται",
+"Λέγομαι"
+],
+"answer": "Λέγεται",
+"why": "Impersonal λέγεται.",
+"id": "written-style-5859adff"
+},
+{
+"type": "choice",
+"q": "Everyday version of **Λέγεται ότι θα κλείσει.**",
+"options": [
+"Λέει ότι θα κλείσει.",
+"Λένε ότι θα κλείσει.",
+"Λέμε να κλείσει.",
+"Λέγεσαι ότι θα κλείσει."
+],
+"answer": "Λένε ότι θα κλείσει.",
+"why": "3pl with no subject: λένε.",
+"id": "written-style-d7d6e97f"
+},
+{
+"type": "write",
+"q": "\"It is a fact that...\"",
+"answer": "Είναι γεγονός ότι",
+"accept": [
+"Είναι γεγονός πως"
+],
+"why": "Impersonal.",
+"id": "written-style-80b5ea90"
+},
+{
+"type": "write",
+"q": "\"It is considered that...\"",
+"answer": "Θεωρείται ότι",
+"accept": [
+"Θεωρείται πως"
+],
+"why": "Impersonal passive.",
+"id": "written-style-7cce4a77"
+},
+{
+"type": "write",
+"q": "\"It is necessary to act.\"",
+"answer": "Είναι αναγκαίο να δράσουμε.",
+"accept": [
+"Είναι απαραίτητο να δράσουμε.",
+"Είναι ανάγκη να δράσουμε."
+],
+"why": "είναι + neuter adjective + να.",
+"id": "written-style-05acd0cd"
+},
+{
+"type": "write",
+"q": "\"They say it will rain.\" (everyday)",
+"answer": "Λένε ότι θα βρέξει.",
+"accept": [
+"Λένε πως θα βρέξει."
+],
+"why": "3pl, no subject.",
+"id": "written-style-b0006b25"
+},
+{
+"type": "order",
+"q": "\"The new line is expected to open next year.\"",
+"answer": "Η νέα γραμμή αναμένεται να λειτουργήσει του χρόνου.",
+"accept": [],
+"why": "αναμένεται να.",
+"id": "written-style-64eca77d"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Αλλαγή ύφους",
+"title": "Switching register: spoken and written pairs",
+"body": [
+{
+"p": "The same idea has an everyday word and a formal one. A formal letter or essay uses the right-hand column."
+},
+{
+"table": {
+"head": [
+"Everyday",
+"Formal",
+"Meaning"
+],
+"rows": [
+[
+"γιατί",
+"διότι, καθώς",
+"because"
+],
+[
+"αν",
+"εάν, εφόσον",
+"if, provided"
+],
+[
+"για να",
+"προκειμένου να",
+"in order to"
+],
+[
+"μέχρι",
+"έως",
+"until, up to"
+],
+[
+"μετά από",
+"έπειτα από, κατόπιν",
+"after"
+],
+[
+"κάνω",
+"πραγματοποιώ, διεξάγω",
+"carry out"
+],
+[
+"δίνω",
+"παρέχω",
+"provide"
+],
+[
+"παίρνω",
+"λαμβάνω",
+"receive, take"
+],
+[
+"βάζω",
+"θέτω",
+"put, set"
+],
+[
+"βοηθάω",
+"συμβάλλω (σε)",
+"contribute to"
+],
+[
+"δείχνω",
+"αποδεικνύω",
+"show, prove"
+],
+[
+"λέω",
+"δηλώνω, αναφέρω",
+"state, mention"
+],
+[
+"ψάχνω",
+"αναζητώ",
+"seek"
+],
+[
+"φτιάχνω",
+"δημιουργώ, κατασκευάζω",
+"create, build"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Έλαβα το μήνυμά σας.",
+"en": "I have received your message. (formal: έλαβα; everyday: πήρα)"
+},
+{
+"el": "Προκειμένου να εγγραφείτε, πρέπει να συμπληρώσετε την αίτηση.",
+"en": "In order to register, you must fill in the form."
+},
+{
+"el": "Η έρευνα πραγματοποιήθηκε το 2024.",
+"en": "The research was carried out in 2024."
+},
+{
+"el": "Το πρόγραμμα παρέχει δωρεάν μαθήματα.",
+"en": "The programme provides free lessons."
+}
+]
+},
+{
+"tip": "Don't mix registers in one sentence: **Προκειμένου να πάρω τα λεφτά** sounds odd; write **Προκειμένου να λάβω το ποσό** or say **Για να πάρω τα λεφτά**."
+},
+{
+"solved": [
+{
+"q": "Formal for \"Πήρα το γράμμα σας.\"",
+"a": "Έλαβα την επιστολή σας. | Έλαβα το γράμμα σας.",
+"why": "παίρνω → λαμβάνω, γράμμα → επιστολή."
+},
+{
+"q": "Formal for \"για να\"",
+"a": "προκειμένου να",
+"why": "Purpose, formal."
+},
+{
+"q": "Formal for \"Η έρευνα έγινε το 2024.\"",
+"a": "Η έρευνα πραγματοποιήθηκε το 2024. | Η έρευνα διεξήχθη το 2024.",
+"why": "γίνομαι → πραγματοποιούμαι."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Formal \"because\"",
+"options": [
+"γιατί",
+"διότι",
+"αφού",
+"μια και"
+],
+"answer": "διότι",
+"why": "διότι.",
+"id": "written-style-5734f2b3"
+},
+{
+"type": "choice",
+"q": "Formal \"provide\"",
+"options": [
+"δίνω",
+"παρέχω",
+"φέρνω",
+"βάζω"
+],
+"answer": "παρέχω",
+"why": "παρέχω.",
+"id": "written-style-e3fecd52"
+},
+{
+"type": "choice",
+"q": "___ να ολοκληρωθεί η αίτηση, απαιτείται ταυτότητα. (In order to, formal)",
+"options": [
+"Για",
+"Προκειμένου",
+"Αντί",
+"Παρά"
+],
+"answer": "Προκειμένου",
+"why": "προκειμένου να.",
+"id": "written-style-fb7b7614"
+},
+{
+"type": "choice",
+"q": "Formal \"receive\"",
+"options": [
+"παίρνω",
+"λαμβάνω",
+"πιάνω",
+"βγάζω"
+],
+"answer": "λαμβάνω",
+"why": "λαμβάνω.",
+"id": "written-style-72e85947"
+},
+{
+"type": "choice",
+"q": "Η έρευνα ___ το 2023. (was carried out, formal)",
+"options": [
+"έγινε",
+"πραγματοποιήθηκε",
+"έκανε",
+"πραγματοποίησε"
+],
+"answer": "πραγματοποιήθηκε",
+"why": "Formal passive.",
+"id": "written-style-8b3c7649"
+},
+{
+"type": "choice",
+"q": "Formal \"contribute to\"",
+"options": [
+"βοηθάω σε",
+"συμβάλλω σε",
+"δίνω σε",
+"κάνω για"
+],
+"answer": "συμβάλλω σε",
+"why": "συμβάλλω σε.",
+"id": "written-style-0ae0698f"
+},
+{
+"type": "write",
+"q": "Formal for \"μέχρι\"",
+"answer": "έως",
+"accept": [],
+"why": "μέχρι → έως.",
+"id": "written-style-03fd86e0"
+},
+{
+"type": "write",
+"q": "Formal for \"αν\"",
+"answer": "εάν",
+"accept": [
+"εφόσον"
+],
+"why": "αν → εάν.",
+"id": "written-style-879b52c4"
+},
+{
+"type": "write",
+"q": "Formal for \"ψάχνω\"",
+"answer": "αναζητώ",
+"accept": [],
+"why": "ψάχνω → αναζητώ.",
+"id": "written-style-08859b6b"
+},
+{
+"type": "write",
+"q": "Formal for \"λέω\"",
+"answer": "δηλώνω",
+"accept": [
+"αναφέρω"
+],
+"why": "λέω → δηλώνω.",
+"id": "written-style-06ff343f"
+},
+{
+"type": "write",
+"q": "\"I received your message.\" (formal)",
+"answer": "Έλαβα το μήνυμά σας.",
+"accept": [],
+"why": "λαμβάνω → έλαβα.",
+"id": "written-style-b688656b"
+},
+{
+"type": "order",
+"q": "\"The programme provides free lessons.\"",
+"answer": "Το πρόγραμμα παρέχει δωρεάν μαθήματα.",
+"accept": [],
+"why": "παρέχω.",
+"id": "written-style-4a349525"
+}
+]
+}
+]
+}
+],
+"id": "written-style",
+"el": "Η γραμματική του γραπτού λόγου",
+"title": "The grammar of written Greek",
+"span": "B2–C1",
+"blurb": "What changes when Greek is written formally: the internal augment (υπέγραψα, συνέβη, επέστρεψε), learned passives in -ούμαι and -ώμαι (θεωρείται, εξαρτάται), news forms like εξελέγη and ελήφθη, fixed learned phrases (εν λόγω, εκ των υστέρων), turning verbs into nouns (η αύξηση των τιμών), impersonal passives (θεωρείται ότι, αναμένεται να), and switching register (διότι, προκειμένου να, λαμβάνω).",
+"intro": [
+{
+"p": "Newspapers, official letters, university texts and the B2 reading and writing papers use a layer of Greek that you rarely hear at a kafeneio. It is the same language with **learned** (λόγια) forms inherited from the old written standard, more **nouns** where speech uses verbs, and more **impersonal** constructions. You need to recognise all of it and to produce some of it in a formal letter or essay."
+},
+{
+"links": [
+{
+"href": "#b2-learned",
+"kind": "Lesson",
+"el": "Λόγια στοιχεία",
+"title": "-ως adverbs, learned pasts in -ην, set phrases with the genitive"
+},
+{
+"href": "#b2-nouns-formal",
+"kind": "Lesson",
+"el": "Λόγια ουσιαστικά",
+"title": "κυβέρνηση/κυβέρνησης/κυβερνήσεις, -ος feminines, -ον neuters"
+},
+{
+"href": "#c1-internal-augment",
+"kind": "Lesson",
+"el": "Εσωτερική αύξηση",
+"title": "Internal augment: υπέβαλε, εξέλεξε, συνέβη"
+},
+{
+"href": "#c1-learned-verbs",
+"kind": "Lesson",
+"el": "Λόγια ρήματα",
+"title": "Learned verbs: τίθεται, κατέστη, υπέστη, πρόκειται, εναπόκειται"
+},
+{
+"href": "#c1-learned-phrases",
+"kind": "Lesson",
+"el": "Λόγιες προθέσεις και δοτική",
+"title": "Learned prepositions and frozen datives: εν τω μεταξύ, εκ των υστέρων, άνευ όρων"
+},
+{
+"href": "#c1-nominal-style",
+"kind": "Lesson",
+"el": "Ονοματοποίηση",
+"title": "Nominal style: from «επειδή αυξήθηκαν οι τιμές» to «η αύξηση των τιμών»"
+},
+{
+"href": "#c1-register",
+"kind": "Lesson",
+"el": "Αλλαγή ύφους",
+"title": "Register shifting: φτιάχνω → συντάσσω, βγάζω → εκδίδω, είναι → αποτελεί"
+},
+{
+"href": "#exam-writing-formal",
+"kind": "Lesson",
+"el": "Επίσημη επιστολή",
+"title": "Exam writing 2: formal letters, complaints, applications, letters to the editor"
+},
+{
+"href": "#cards.learned-verbs",
+"kind": "Card",
+"el": "Λόγια ρήματα",
+"title": "Learned verb forms"
+},
+{
+"href": "#cards.set-phrases",
+"kind": "Card",
+"el": "Λόγιες φράσεις",
+"title": "Learned set phrases"
+},
+{
+"href": "#cards.nominal-style",
+"kind": "Card",
+"el": "Ονοματικό ύφος",
+"title": "Nominal style and register"
+}
+]
+}
+],
+"num": 40
+}

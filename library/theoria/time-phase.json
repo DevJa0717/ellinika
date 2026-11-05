@@ -1,0 +1,1138 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Πριν από, εδώ και, σε, μέσα σε",
+"title": "Ago, for, since, in, within, by",
+"body": [
+{
+"table": {
+"head": [
+"English",
+"Greek",
+"Example"
+],
+"rows": [
+[
+"two years **ago**",
+"πριν (από) δύο χρόνια",
+"Ήρθα πριν από δύο χρόνια."
+],
+[
+"**for** two years (still true)",
+"εδώ και δύο χρόνια + present",
+"Μένω στην Αθήνα εδώ και δύο χρόνια."
+],
+[
+"**for** two years (finished)",
+"(για) δύο χρόνια + past",
+"Έμεινα στο Λονδίνο δύο χρόνια."
+],
+[
+"**since** 2020",
+"από το 2020 + present",
+"Δουλεύω εδώ από το 2020."
+],
+[
+"**in** an hour (from now)",
+"σε μία ώρα",
+"Θα γυρίσω σε μία ώρα."
+],
+[
+"**within** an hour, **in** an hour (taking)",
+"μέσα σε μία ώρα (also σε μία ώρα)",
+"Το τελείωσα μέσα σε μία ώρα."
+],
+[
+"**by** Friday",
+"μέχρι (την) Παρασκευή",
+"Πρέπει να το παραδώσω μέχρι την Παρασκευή."
+],
+[
+"**during** the summer",
+"κατά τη διάρκεια / στη διάρκεια του καλοκαιριού",
+""
+],
+[
+"**after** two days",
+"μετά από δύο μέρες",
+"Μετά από δύο μέρες, γύρισε."
+]
+]
+}
+},
+{
+"tip": "For a situation that **started in the past and still continues**, Greek uses the **present**, not the perfect: **Σε περιμένω εδώ και μισή ώρα!** \"I've been waiting for you for half an hour!\" (**Σε έχω περιμένει** would be wrong here.)"
+},
+{
+"ex": [
+{
+"el": "Πόσο καιρό μαθαίνεις ελληνικά; — Εδώ και έναν χρόνο.",
+"en": "How long have you been learning Greek? — For a year."
+},
+{
+"el": "Τον γνώρισα πριν από πέντε χρόνια.",
+"en": "I met him five years ago."
+},
+{
+"el": "Το τρένο φεύγει σε δέκα λεπτά.",
+"en": "The train leaves in ten minutes."
+},
+{
+"el": "Μέσα σε μία βδομάδα έμαθα το αλφάβητο.",
+"en": "I learnt the alphabet in a week."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I've been living here for three years.\"",
+"a": "Μένω εδώ και τρία χρόνια. | Μένω εδώ τρία χρόνια. | Ζω εδώ και τρία χρόνια.",
+"why": "Still true: present + εδώ και."
+},
+{
+"q": "\"I'll call you (sg) in an hour.\"",
+"a": "Θα σε πάρω σε μία ώρα. | Θα σε πάρω σε μια ώρα. | Θα σου τηλεφωνήσω σε μία ώρα. | Θα σου τηλεφωνήσω σε μια ώρα. | Θα σε πάρω τηλέφωνο σε μια ώρα.",
+"why": "σε = in (from now)."
+},
+{
+"q": "\"We met ten years ago.\"",
+"a": "Γνωριστήκαμε πριν από δέκα χρόνια. | Γνωριστήκαμε πριν δέκα χρόνια.",
+"why": "πριν (από) = ago."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Σε περιμένω ___ μισή ώρα! (for)",
+"options": [
+"πριν από",
+"εδώ και",
+"σε",
+"μέσα σε"
+],
+"answer": "εδώ και",
+"why": "Still waiting: εδώ και + present.",
+"id": "time-phase-9389a506"
+},
+{
+"type": "choice",
+"q": "Σε περιμένω εδώ και μισή ώρα! The verb is",
+"options": [
+"aorist",
+"present",
+"perfect",
+"future"
+],
+"answer": "present",
+"why": "Ongoing situation: present.",
+"id": "time-phase-bc0a5405"
+},
+{
+"type": "choice",
+"q": "Ήρθα στην Ελλάδα ___ τρία χρόνια. (ago)",
+"options": [
+"εδώ και",
+"πριν από",
+"σε",
+"μέσα σε"
+],
+"answer": "πριν από",
+"why": "πριν από = ago.",
+"id": "time-phase-24b3b8dc"
+},
+{
+"type": "choice",
+"q": "Θα είμαι εκεί ___ δέκα λεπτά. (in)",
+"options": [
+"πριν",
+"σε",
+"εδώ και",
+"κατά"
+],
+"answer": "σε",
+"why": "σε = in (from now).",
+"id": "time-phase-4ed57a79"
+},
+{
+"type": "choice",
+"q": "Το έγραψα ___ δύο ώρες. (in, taking two hours)",
+"options": [
+"κατά",
+"μέσα σε",
+"εδώ και",
+"πριν από"
+],
+"answer": "μέσα σε",
+"why": "μέσα σε = within (plain σε is also heard here).",
+"id": "time-phase-80e11c8d"
+},
+{
+"type": "choice",
+"q": "Πρέπει να τελειώσω ___ τη Δευτέρα. (by)",
+"options": [
+"πριν από να",
+"μέχρι",
+"εδώ και",
+"μέσα"
+],
+"answer": "μέχρι",
+"why": "μέχρι = by, until.",
+"id": "time-phase-a782de29"
+},
+{
+"type": "choice",
+"q": "Δουλεύω εδώ ___ το 2019. (since)",
+"options": [
+"πριν",
+"από",
+"εδώ",
+"μέσα"
+],
+"answer": "από",
+"why": "από + year.",
+"id": "time-phase-680fa7e6"
+},
+{
+"type": "choice",
+"q": "___ του ταξιδιού διάβασα δύο βιβλία. (During)",
+"options": [
+"Εδώ και",
+"Κατά τη διάρκεια",
+"Μέσα",
+"Πριν"
+],
+"answer": "Κατά τη διάρκεια",
+"why": "κατά τη διάρκεια + genitive.",
+"id": "time-phase-386baf02"
+},
+{
+"type": "write",
+"q": "\"two days ago\"",
+"answer": "πριν από δύο μέρες",
+"accept": [
+"πριν δύο μέρες",
+"πριν από δυο μέρες",
+"πριν δυο μέρες"
+],
+"why": "πριν (από).",
+"id": "time-phase-25b1b9a0"
+},
+{
+"type": "write",
+"q": "\"How long have you (sg) been learning Greek?\"",
+"answer": "Πόσο καιρό μαθαίνεις ελληνικά;",
+"accept": [
+"Από πότε μαθαίνεις ελληνικά;"
+],
+"why": "Present tense.",
+"id": "time-phase-7f49f5e9"
+},
+{
+"type": "write",
+"q": "\"The train leaves in five minutes.\"",
+"answer": "Το τρένο φεύγει σε πέντε λεπτά.",
+"accept": [
+"Το τρένο φεύγει σε πέντε λεπτά από τώρα."
+],
+"why": "σε.",
+"id": "time-phase-c3df99b8"
+},
+{
+"type": "write",
+"q": "\"by Friday\"",
+"answer": "μέχρι την Παρασκευή",
+"accept": [
+"μέχρι την Παρασκευή το αργότερο",
+"ως την Παρασκευή"
+],
+"why": "μέχρι.",
+"id": "time-phase-b05e5e5b"
+},
+{
+"type": "write",
+"q": "\"I lived in Paris for two years.\"",
+"answer": "Έζησα στο Παρίσι δύο χρόνια.",
+"accept": [
+"Έζησα στο Παρίσι για δύο χρόνια.",
+"Έμεινα στο Παρίσι δύο χρόνια.",
+"Έμεινα στο Παρίσι για δύο χρόνια."
+],
+"why": "Finished: past, (για).",
+"id": "time-phase-e69065b6"
+},
+{
+"type": "write",
+"q": "\"after three days\"",
+"answer": "μετά από τρεις μέρες",
+"accept": [
+"ύστερα από τρεις μέρες",
+"έπειτα από τρεις μέρες"
+],
+"why": "μετά από.",
+"id": "time-phase-1462eea8"
+},
+{
+"type": "order",
+"q": "\"I've been waiting for you (sg) for an hour!\"",
+"answer": "Σε περιμένω εδώ και μία ώρα!",
+"accept": [],
+"why": "εδώ και + present.",
+"id": "time-phase-839a831e"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ήδη, ακόμα, μόλις, πια",
+"title": "Already, still, not yet, just, no longer",
+"body": [
+{
+"table": {
+"head": [
+"Word",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"ήδη / κιόλας",
+"already",
+"Έφυγε κιόλας; / Έχω ήδη φάει."
+],
+[
+"ακόμα / ακόμη",
+"still",
+"Κοιμάται ακόμα."
+],
+[
+"(δεν...) ακόμα",
+"not yet",
+"Δεν έχει έρθει ακόμα. / Ακόμα δεν ήρθε."
+],
+[
+"μόλις + past",
+"just (a moment ago)",
+"Μόλις έφτασα."
+],
+[
+"(δεν...) πια",
+"no longer, not any more",
+"Δεν μένει πια εδώ."
+],
+[
+"πια (positive)",
+"now, by now, finally",
+"Είσαι μεγάλος πια!"
+],
+[
+"επιτέλους",
+"at last",
+"Επιτέλους, ήρθες!"
+],
+[
+"τελικά",
+"in the end, after all",
+"Τελικά δεν πήγαμε."
+],
+[
+"ξανά / πάλι",
+"again",
+"Πες το ξανά. / Πάλι άργησες!"
+]
+]
+}
+},
+{
+"tip": "**Μόλις** has two jobs: with a **past** verb it means \"just\": **Μόλις τελείωσα.** At the start of a clause it means \"as soon as\": **Μόλις τελειώσω, θα σε πάρω.** (chapter 31)."
+},
+{
+"ex": [
+{
+"el": "— Έφαγες; — Όχι ακόμα.",
+"en": "— Have you eaten? — Not yet."
+},
+{
+"el": "Μόλις μου το είπε.",
+"en": "He's just told me."
+},
+{
+"el": "Δεν καπνίζω πια.",
+"en": "I don't smoke any more."
+},
+{
+"el": "Είναι ακόμα στη δουλειά.",
+"en": "She's still at work."
+},
+{
+"el": "Έφυγαν κιόλας; Νόμιζα ότι θα έμεναν.",
+"en": "Have they left already? I thought they'd stay."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I've just arrived.\"",
+"a": "Μόλις έφτασα. | Μόλις ήρθα.",
+"why": "μόλις + aorist."
+},
+{
+"q": "\"She hasn't come yet.\"",
+"a": "Δεν έχει έρθει ακόμα. | Δεν ήρθε ακόμα. | Ακόμα δεν ήρθε. | Δεν έχει έρθει ακόμη.",
+"why": "δεν... ακόμα."
+},
+{
+"q": "\"He doesn't live here any more.\"",
+"a": "Δεν μένει πια εδώ. | Δεν μένει εδώ πια.",
+"why": "δεν... πια."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ έφτασα. (I've just)",
+"options": [
+"Ακόμα",
+"Μόλις",
+"Πια",
+"Ήδη να"
+],
+"answer": "Μόλις",
+"why": "μόλις + past = just.",
+"id": "time-phase-517e1fd4"
+},
+{
+"type": "choice",
+"q": "Δεν έχει τελειώσει ___. (yet)",
+"options": [
+"πια",
+"ακόμα",
+"μόλις",
+"κιόλας"
+],
+"answer": "ακόμα",
+"why": "δεν... ακόμα = not yet.",
+"id": "time-phase-59e15b9c"
+},
+{
+"type": "choice",
+"q": "Δεν δουλεύω εκεί ___. (any more)",
+"options": [
+"ακόμα",
+"πια",
+"μόλις",
+"ήδη"
+],
+"answer": "πια",
+"why": "δεν... πια.",
+"id": "time-phase-da14b472"
+},
+{
+"type": "choice",
+"q": "Έφυγες ___; (already)",
+"options": [
+"ακόμα",
+"κιόλας",
+"πια",
+"μόλις"
+],
+"answer": "κιόλας",
+"why": "κιόλας = already.",
+"id": "time-phase-44982019"
+},
+{
+"type": "choice",
+"q": "Κοιμάται ___. (still)",
+"options": [
+"πια",
+"ακόμα",
+"κιόλας",
+"μόλις"
+],
+"answer": "ακόμα",
+"why": "ακόμα = still.",
+"id": "time-phase-5f1c15ed"
+},
+{
+"type": "choice",
+"q": "___, ήρθες! (At last)",
+"options": [
+"Τελικά",
+"Επιτέλους",
+"Ακόμα",
+"Πια"
+],
+"answer": "Επιτέλους",
+"why": "επιτέλους.",
+"id": "time-phase-fd8ac72c"
+},
+{
+"type": "choice",
+"q": "___ δεν πήγαμε στο πάρτι. (In the end)",
+"options": [
+"Επιτέλους",
+"Τελικά",
+"Μόλις",
+"Κιόλας"
+],
+"answer": "Τελικά",
+"why": "τελικά.",
+"id": "time-phase-af878002"
+},
+{
+"type": "write",
+"q": "\"Not yet.\"",
+"answer": "Όχι ακόμα.",
+"accept": [
+"Ακόμα όχι."
+],
+"why": "όχι ακόμα.",
+"id": "time-phase-060ac4c9"
+},
+{
+"type": "write",
+"q": "\"I don't smoke any more.\"",
+"answer": "Δεν καπνίζω πια.",
+"accept": [],
+"why": "πια.",
+"id": "time-phase-bc508eb5"
+},
+{
+"type": "write",
+"q": "\"She's still at work.\"",
+"answer": "Είναι ακόμα στη δουλειά.",
+"accept": [
+"Είναι ακόμη στη δουλειά."
+],
+"why": "ακόμα.",
+"id": "time-phase-de5e550e"
+},
+{
+"type": "write",
+"q": "\"Late again!\" (to a friend: you're late again)",
+"answer": "Πάλι άργησες!",
+"accept": [
+"Άργησες πάλι!",
+"Άργησες ξανά!"
+],
+"why": "πάλι.",
+"id": "time-phase-121f5a85"
+},
+{
+"type": "write",
+"q": "\"I've already eaten.\"",
+"answer": "Έχω ήδη φάει.",
+"accept": [
+"Έφαγα ήδη.",
+"Έχω φάει κιόλας.",
+"Έφαγα κιόλας."
+],
+"why": "ήδη / κιόλας.",
+"id": "time-phase-8fe489da"
+},
+{
+"type": "order",
+"q": "\"He has just told me.\"",
+"answer": "Μόλις μου το είπε.",
+"accept": [],
+"why": "μόλις + aorist.",
+"id": "time-phase-3ddad67d"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Συνήθιζα, παραλίγο, ήμουν έτοιμος",
+"title": "Used to, nearly, about to",
+"body": [
+{
+"p": "**Used to** = the **imperfect**, or **συνήθιζα να** + present:"
+},
+{
+"ex": [
+{
+"el": "Όταν ήμουν μικρή, πηγαίναμε κάθε καλοκαίρι στο χωριό.",
+"en": "When I was little, we used to go to the village every summer."
+},
+{
+"el": "Συνήθιζε να διαβάζει πριν κοιμηθεί.",
+"en": "She used to read before she went to sleep."
+}
+]
+},
+{
+"p": "**Nearly** (it almost happened, but didn't):"
+},
+{
+"table": {
+"head": [
+"Form",
+"Example"
+],
+"rows": [
+[
+"παραλίγο να + dependent",
+"Παραλίγο να πέσω!"
+],
+[
+"λίγο έλειψε να + dependent",
+"Λίγο έλειψε να χάσουμε το τρένο."
+],
+[
+"κόντεψα να + dependent",
+"Κόντεψα να το ξεχάσω."
+],
+[
+"σχεδόν + past",
+"Σχεδόν τελείωσα."
+]
+]
+}
+},
+{
+"p": "**About to**:"
+},
+{
+"table": {
+"head": [
+"Form",
+"Example"
+],
+"rows": [
+[
+"ήμουν έτοιμος να",
+"Ήμουν έτοιμος να φύγω όταν χτύπησε το τηλέφωνο."
+],
+[
+"πήγα να (= started to, tried)",
+"Πήγα να του το πω, αλλά με διέκοψε."
+],
+[
+"είναι να + present / dependent",
+"Το τρένο είναι να φύγει."
+],
+[
+"κοντεύω να + verb (close to)",
+"Κοντεύω να τελειώσω."
+]
+]
+}
+},
+{
+"p": "**Get used to**: **συνηθίζω (σε)** + noun or **να**: **Συνήθισα τη ζέστη. Συνήθισα να ξυπνάω νωρίς.**"
+},
+{
+"ex": [
+{
+"el": "Παραλίγο να με χτυπήσει ένα αυτοκίνητο!",
+"en": "A car nearly hit me!"
+},
+{
+"el": "Κοντεύει μεσάνυχτα.",
+"en": "It's nearly midnight."
+},
+{
+"el": "Δεν έχω συνηθίσει ακόμα το κρύο.",
+"en": "I haven't got used to the cold yet."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I nearly fell!\"",
+"a": "Παραλίγο να πέσω! | Λίγο έλειψε να πέσω! | Κόντεψα να πέσω!",
+"why": "παραλίγο να + dependent."
+},
+{
+"q": "\"We used to go to the beach every day.\"",
+"a": "Πηγαίναμε στην παραλία κάθε μέρα. | Πηγαίναμε στη θάλασσα κάθε μέρα. | Συνηθίζαμε να πηγαίνουμε στην παραλία κάθε μέρα.",
+"why": "Habit: imperfect."
+},
+{
+"q": "\"I was about to leave.\"",
+"a": "Ήμουν έτοιμος να φύγω. | Ήμουν έτοιμη να φύγω. | Ετοιμαζόμουν να φύγω.",
+"why": "ήμουν έτοιμος να."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Όταν ήμουν παιδί, ___ ποδόσφαιρο κάθε μέρα. (I used to play)",
+"options": [
+"έπαιξα",
+"έπαιζα",
+"θα παίξω",
+"παίξω"
+],
+"answer": "έπαιζα",
+"why": "Habit: imperfect.",
+"id": "time-phase-9263f39d"
+},
+{
+"type": "choice",
+"q": "___ να χάσω το λεωφορείο! (I nearly)",
+"options": [
+"Σχεδόν",
+"Παραλίγο",
+"Πριν",
+"Μόλις"
+],
+"answer": "Παραλίγο",
+"why": "παραλίγο να.",
+"id": "time-phase-62968bdc"
+},
+{
+"type": "choice",
+"q": "Ήμουν ___ να φύγω όταν ήρθε. (about to)",
+"options": [
+"έτοιμη από",
+"έτοιμη",
+"ετοιμάζω",
+"έτοιμα"
+],
+"answer": "έτοιμη",
+"why": "ήμουν έτοιμη να.",
+"id": "time-phase-7a0d8b20"
+},
+{
+"type": "choice",
+"q": "Συνήθισα ___ ζέστη. (the)",
+"options": [
+"στο",
+"τη",
+"της",
+"με τη"
+],
+"answer": "τη",
+"why": "συνηθίζω + accusative.",
+"id": "time-phase-1c245769"
+},
+{
+"type": "choice",
+"q": "Κόντεψα να το ___. (forget)",
+"options": [
+"ξεχάσει",
+"ξεχάσω",
+"ξέχασα",
+"ξεχνούσα"
+],
+"answer": "ξεχάσω",
+"why": "κόντεψα να + dependent, same person.",
+"id": "time-phase-65ca255f"
+},
+{
+"type": "choice",
+"q": "___ μεσάνυχτα. (It's nearly)",
+"options": [
+"Κόντεψε να",
+"Κοντεύει",
+"Παραλίγο",
+"Σχεδόν να"
+],
+"answer": "Κοντεύει",
+"why": "Κοντεύει + time.",
+"id": "time-phase-7d3732f3"
+},
+{
+"type": "choice",
+"q": "Συνήθιζε να ___ πριν κοιμηθεί. (read)",
+"options": [
+"διαβάσει",
+"διαβάζει",
+"διάβασε",
+"διάβαζε"
+],
+"answer": "διαβάζει",
+"why": "συνήθιζα να + present (habit).",
+"id": "time-phase-088209a5"
+},
+{
+"type": "write",
+"q": "\"A car nearly hit me!\"",
+"answer": "Παραλίγο να με χτυπήσει ένα αυτοκίνητο!",
+"accept": [
+"Λίγο έλειψε να με χτυπήσει ένα αυτοκίνητο!",
+"Παραλίγο να με χτυπήσει αυτοκίνητο!"
+],
+"why": "παραλίγο να.",
+"id": "time-phase-cc00c232"
+},
+{
+"type": "write",
+"q": "\"I've got used to it.\"",
+"answer": "Το συνήθισα.",
+"accept": [
+"Το έχω συνηθίσει.",
+"Έχω συνηθίσει.",
+"Συνήθισα."
+],
+"why": "συνηθίζω.",
+"id": "time-phase-22892486"
+},
+{
+"type": "write",
+"q": "\"I'm nearly finished.\"",
+"answer": "Κοντεύω να τελειώσω.",
+"accept": [
+"Σχεδόν τελείωσα.",
+"Σε λίγο τελειώνω."
+],
+"why": "κοντεύω να.",
+"id": "time-phase-e8220f4e"
+},
+{
+"type": "write",
+"q": "\"When I was young, I used to swim a lot.\"",
+"answer": "Όταν ήμουν νέος, κολυμπούσα πολύ.",
+"accept": [
+"Όταν ήμουν νέα, κολυμπούσα πολύ.",
+"Όταν ήμουν μικρός, κολυμπούσα πολύ.",
+"Όταν ήμουν μικρή, κολυμπούσα πολύ."
+],
+"why": "Imperfect for habit.",
+"id": "time-phase-3a035335"
+},
+{
+"type": "write",
+"q": "\"I tried to tell him, but he interrupted me.\"",
+"answer": "Πήγα να του το πω, αλλά με διέκοψε.",
+"accept": [
+"Πήγα να του πω, αλλά με διέκοψε.",
+"Προσπάθησα να του το πω, αλλά με διέκοψε."
+],
+"why": "πήγα να = tried, started to.",
+"id": "time-phase-77963b0e"
+},
+{
+"type": "order",
+"q": "\"We nearly missed the train.\"",
+"answer": "Λίγο έλειψε να χάσουμε το τρένο.",
+"accept": [],
+"why": "λίγο έλειψε να.",
+"id": "time-phase-d1a04e7f"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Αρχίζω, συνεχίζω, σταματάω, ξανα-",
+"title": "Starting, continuing, stopping, repeating",
+"body": [
+{
+"p": "Verbs of **starting, continuing and stopping** take **να + present** (the action is seen as ongoing):"
+},
+{
+"table": {
+"head": [
+"Verb",
+"Example"
+],
+"rows": [
+[
+"αρχίζω / ξεκινάω να",
+"Άρχισε να βρέχει."
+],
+[
+"συνεχίζω / εξακολουθώ να",
+"Συνέχισε να μιλάει."
+],
+[
+"σταματάω / παύω να",
+"Σταμάτησα να καπνίζω."
+],
+[
+"κόβω + noun (quit)",
+"Έκοψα το τσιγάρο / τη ζάχαρη."
+],
+[
+"τελειώνω + noun / να",
+"Τελείωσα το βιβλίο."
+]
+]
+}
+},
+{
+"p": "**Όλο** + present means \"keep on (annoyingly)\": **Όλο παραπονιέσαι!** \"You're always complaining!\", **Όλο και** + comparative \"more and more\": **Όλο και περισσότεροι νέοι φεύγουν.**"
+},
+{
+"p": "**Ξανα-** in front of a verb means \"again\" and is very common: **ξαναπάω, ξαναρχίζω, ξαναδιαβάζω, ξαναγράφω**. In speech two vowels often merge: **ξαναήρθε → ξανάρθε**."
+},
+{
+"ex": [
+{
+"el": "Μόλις άρχισε να μιλάει, όλοι σώπασαν.",
+"en": "As soon as she started speaking, everyone went quiet."
+},
+{
+"el": "Εξακολουθεί να μένει με τους γονείς του.",
+"en": "He still lives with his parents."
+},
+{
+"el": "Το έκοψα το τσιγάρο πριν από τρία χρόνια.",
+"en": "I quit smoking three years ago."
+},
+{
+"el": "Όλο και πιο ακριβά γίνονται τα σπίτια.",
+"en": "Houses are getting more and more expensive."
+},
+{
+"el": "Θέλω να το ξαναδώ.",
+"en": "I want to see it again."
+}
+]
+},
+{
+"tip": "After **σταματάω** the action comes with **να**: **Σταμάτησα να τρώω κρέας** \"I stopped eating meat\". \"I stopped **to** eat\" is a purpose: **Σταμάτησα για να φάω.**"
+},
+{
+"solved": [
+{
+"q": "\"It started to rain.\"",
+"a": "Άρχισε να βρέχει. | Άρχισε και βρέχει. | Ξεκίνησε να βρέχει.",
+"why": "αρχίζω να + present."
+},
+{
+"q": "\"I stopped smoking.\"",
+"a": "Σταμάτησα να καπνίζω. | Έκοψα το κάπνισμα. | Έκοψα το τσιγάρο.",
+"why": "σταματάω να / κόβω."
+},
+{
+"q": "\"More and more young people are leaving.\"",
+"a": "Όλο και περισσότεροι νέοι φεύγουν. | Όλο και πιο πολλοί νέοι φεύγουν.",
+"why": "όλο και + comparative."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Άρχισε να ___. (rain)",
+"options": [
+"βρέξει",
+"βρέχει",
+"έβρεξε",
+"βρέχε"
+],
+"answer": "βρέχει",
+"why": "αρχίζω να + present.",
+"id": "time-phase-ea384d6b"
+},
+{
+"type": "choice",
+"q": "Σταμάτησα να ___ κρέας. (eat)",
+"options": [
+"φάω",
+"τρώω",
+"έφαγα",
+"τρώγοντας"
+],
+"answer": "τρώω",
+"why": "σταματάω να + present.",
+"id": "time-phase-d3e7f09c"
+},
+{
+"type": "choice",
+"q": "Σταμάτησα ___ φάω. (to eat, purpose)",
+"options": [
+"να",
+"για να",
+"και να",
+"ότι"
+],
+"answer": "για να",
+"why": "Purpose: για να.",
+"id": "time-phase-9b513604"
+},
+{
+"type": "choice",
+"q": "___ παραπονιέσαι! (You keep)",
+"options": [
+"Όλος",
+"Όλο",
+"Ξανά να",
+"Πάντα να"
+],
+"answer": "Όλο",
+"why": "όλο + present.",
+"id": "time-phase-c2a9c8e2"
+},
+{
+"type": "choice",
+"q": "___ περισσότεροι τουρίστες έρχονται. (More and more)",
+"options": [
+"Όλο",
+"Όλο και",
+"Πιο και",
+"Ακόμα και"
+],
+"answer": "Όλο και",
+"why": "όλο και + comparative.",
+"id": "time-phase-b4f072c6"
+},
+{
+"type": "choice",
+"q": "Θέλω να το ___. (see again)",
+"options": [
+"ξαναδών",
+"ξαναδώ",
+"ξαναείδα",
+"ξαναβλέπει"
+],
+"answer": "ξαναδώ",
+"why": "ξανα- + dependent, 1sg.",
+"id": "time-phase-4d62f754"
+},
+{
+"type": "choice",
+"q": "___ το τσιγάρο πέρσι. (I quit)",
+"options": [
+"Σταμάτησα να",
+"Έκοψα",
+"Τελείωσα να",
+"Άφησα να"
+],
+"answer": "Έκοψα",
+"why": "κόβω + noun.",
+"id": "time-phase-280990fa"
+},
+{
+"type": "write",
+"q": "\"He keeps talking.\"",
+"answer": "Συνεχίζει να μιλάει.",
+"accept": [
+"Εξακολουθεί να μιλάει.",
+"Όλο μιλάει."
+],
+"why": "συνεχίζω να + present.",
+"id": "time-phase-38ca07c0"
+},
+{
+"type": "write",
+"q": "\"I want to read it again.\"",
+"answer": "Θέλω να το ξαναδιαβάσω.",
+"accept": [
+"Θέλω να το διαβάσω ξανά."
+],
+"why": "ξανα-.",
+"id": "time-phase-d6f9dc83"
+},
+{
+"type": "write",
+"q": "\"She still lives with her parents.\" (εξακολουθώ)",
+"answer": "Εξακολουθεί να μένει με τους γονείς της.",
+"accept": [],
+"why": "εξακολουθώ να.",
+"id": "time-phase-4c72be4d"
+},
+{
+"type": "write",
+"q": "\"I quit sugar.\"",
+"answer": "Έκοψα τη ζάχαρη.",
+"accept": [],
+"why": "κόβω = quit.",
+"id": "time-phase-ef3d2e94"
+},
+{
+"type": "write",
+"q": "\"Houses are getting more and more expensive.\"",
+"answer": "Τα σπίτια γίνονται όλο και πιο ακριβά.",
+"accept": [
+"Όλο και πιο ακριβά γίνονται τα σπίτια.",
+"Τα σπίτια γίνονται όλο και ακριβότερα."
+],
+"why": "όλο και.",
+"id": "time-phase-569ddf4d"
+},
+{
+"type": "order",
+"q": "\"As soon as she started speaking, everyone went quiet.\"",
+"answer": "Μόλις άρχισε να μιλάει, όλοι σώπασαν.",
+"accept": [],
+"why": "αρχίζω να + present.",
+"id": "time-phase-acfcbf84"
+}
+]
+}
+]
+}
+],
+"id": "time-phase",
+"el": "Χρόνος, διάρκεια και φάσεις της πράξης",
+"title": "Time in use: ago, for, already, nearly, keep doing",
+"span": "B1–B2",
+"blurb": "The time words English speakers mix up: πριν από / εδώ και / σε / μέσα σε / μέχρι / κατά τη διάρκεια; already, still, yet, just, no longer (ήδη, ακόμα, μόλις, πια); used to, about to and nearly (πήγαινα, ήμουν έτοιμος να, παραλίγο να, κόντεψα να); and the verbs of starting, continuing and stopping (αρχίζω να, συνεχίζω να, σταματάω να, κόβω, όλο, ξανα-).",
+"intro": [
+{
+"p": "Tenses tell you **how** an action unfolds; this chapter is about the small words and verbs that place it in time. Many of them don't match English one to one: \"I've lived here **for** two years\" is **Μένω εδώ και δύο χρόνια** with a **present** verb; \"I'll be back **in** an hour\" is **σε μία ώρα**, but \"I finished it **in** an hour\" is **μέσα σε μία ώρα**."
+},
+{
+"links": [
+{
+"href": "#b1-aspect",
+"kind": "Lesson",
+"el": "Ποιόν ενεργείας",
+"title": "Aspect: imperfective and perfective"
+},
+{
+"href": "#a2-prepositions",
+"kind": "Lesson",
+"el": "Προθέσεις",
+"title": "σε, από, με, για and the accusative"
+},
+{
+"href": "#verbs-aspect-future-subj",
+"kind": "Lesson",
+"el": "Ποιόν ενεργείας μετά από θα, να, ας",
+"title": "Aspect after θα, να, ας and conjunctions"
+},
+{
+"href": "#theoria.present",
+"kind": "Chapter",
+"el": "Ο ενεστώτας",
+"title": "The present tense"
+},
+{
+"href": "#theoria.perfect",
+"kind": "Chapter",
+"el": "Οι συντελεσμένοι χρόνοι",
+"title": "The perfect tenses: έχω γράψει, είχα γράψει, θα έχω γράψει"
+},
+{
+"href": "#syntax.adverbial",
+"kind": "Syntax",
+"el": "Χρονικές, αιτιολογικές, τελικές, αποτελεσματικές και παραχωρητικές",
+"title": "Clauses of time, cause, purpose, result and concession"
+},
+{
+"href": "#pos.adverb",
+"kind": "Part of speech",
+"el": "Το επίρρημα",
+"title": "The adverb"
+},
+{
+"href": "#cards.aspect",
+"kind": "Card",
+"el": "Ποιο θέμα; Η επιλογή της όψης",
+"title": "Choosing the aspect"
+}
+]
+}
+],
+"num": 44
+}

@@ -1,0 +1,1493 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Και, ή, ούτε, είτε",
+"title": "And, or, neither... nor, whether... or",
+"body": [
+{
+"table": {
+"head": [
+"Conjunction",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"και (κι before a vowel)",
+"and",
+"Ήρθε κι έφυγε."
+],
+[
+"ή... ή",
+"either... or",
+"Ή τώρα ή ποτέ."
+],
+[
+"είτε... είτε",
+"whether... or; either... or",
+"Είτε έρθεις είτε όχι, εγώ θα πάω."
+],
+[
+"ούτε... ούτε",
+"neither... nor",
+"Δεν τρώει ούτε κρέας ούτε ψάρι."
+],
+[
+"ούτε (καν)",
+"not even",
+"Δεν μου είπε ούτε καλημέρα."
+],
+[
+"όχι μόνο... αλλά και",
+"not only... but also",
+"Είναι όχι μόνο φτηνό αλλά και καλό."
+]
+]
+}
+},
+{
+"p": "**Ούτε** counts as a negative word. After the verb it needs **δεν**: **Δεν ήρθε ούτε ο Νίκος.** When **ούτε... ούτε** comes first, **δεν** is usually left out: **Ούτε έφαγα ούτε ήπια.**"
+},
+{
+"p": "**Και** can stand for other conjunctions in speech: **Άρχισε και βρέχει** \"It started to rain\" (= να), **Τον είδα και έκλαιγε** \"I saw him crying\" (= να / που), **Πες το και θα δεις!** \"Say it and you'll see!\" (= if)."
+},
+{
+"ex": [
+{
+"el": "Θες τσάι ή καφέ;",
+"en": "Do you want tea or coffee?"
+},
+{
+"el": "Είτε με τρένο είτε με αυτοκίνητο, θα φτάσουμε το απόγευμα.",
+"en": "Whether by train or by car, we'll arrive in the afternoon."
+},
+{
+"el": "Ούτε που το σκέφτηκα.",
+"en": "It didn't even cross my mind."
+},
+{
+"el": "Ούτε εγώ!",
+"en": "Me neither!"
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"He neither phoned nor wrote.\"",
+"a": "Ούτε τηλεφώνησε ούτε έγραψε. | Δεν τηλεφώνησε ούτε έγραψε.",
+"why": "ούτε... ούτε first: no δεν."
+},
+{
+"q": "\"Whether you (sg) like it or not.\"",
+"a": "Είτε σου αρέσει είτε όχι. | Είτε σ' αρέσει είτε όχι.",
+"why": "είτε... είτε."
+},
+{
+"q": "\"She didn't even say thank you.\"",
+"a": "Δεν είπε ούτε ευχαριστώ. | Δεν είπε καν ευχαριστώ. | Ούτε ευχαριστώ δεν είπε.",
+"why": "ούτε / καν = not even."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Δεν θέλω ___ τσάι ___ καφέ. (neither... nor)",
+"options": [
+"ή... ή",
+"ούτε... ούτε",
+"είτε... είτε",
+"και... και"
+],
+"answer": "ούτε... ούτε",
+"why": "With δεν: ούτε... ούτε.",
+"id": "connecting-179d4704"
+},
+{
+"type": "choice",
+"q": "___ έρθεις ___ όχι, εμείς θα φύγουμε. (Whether... or)",
+"options": [
+"Ούτε... ούτε",
+"Είτε... είτε",
+"Ή... και",
+"Αν... ή αν"
+],
+"answer": "Είτε... είτε",
+"why": "είτε... είτε = whether... or.",
+"id": "connecting-3402682e"
+},
+{
+"type": "choice",
+"q": "— Δεν μου αρέσει. — ___ εμένα. (Me neither)",
+"options": [
+"Είτε",
+"Ούτε",
+"Ή",
+"Αλλά"
+],
+"answer": "Ούτε",
+"why": "Ούτε εμένα: with αρέσει the strong form is εμένα.",
+"id": "connecting-b560cb65"
+},
+{
+"type": "choice",
+"q": "Ήρθε ___ έφυγε αμέσως. (and)",
+"options": [
+"και",
+"κι",
+"ή",
+"ούτε"
+],
+"answer": "κι",
+"why": "Before a vowel: κι.",
+"id": "connecting-765dce56"
+},
+{
+"type": "choice",
+"q": "Δεν μου είπε ___ καλημέρα. (not even)",
+"options": [
+"και",
+"ούτε",
+"είτε",
+"όχι μόνο"
+],
+"answer": "ούτε",
+"why": "ούτε = not even.",
+"id": "connecting-55e70aef"
+},
+{
+"type": "choice",
+"q": "Το εστιατόριο είναι όχι μόνο φτηνό ___ νόστιμο. (but also)",
+"options": [
+"και όμως",
+"αλλά και",
+"ούτε",
+"είτε"
+],
+"answer": "αλλά και",
+"why": "όχι μόνο... αλλά και.",
+"id": "connecting-4defda42"
+},
+{
+"type": "write",
+"q": "\"Either now or never.\"",
+"answer": "Ή τώρα ή ποτέ.",
+"accept": [],
+"why": "ή... ή.",
+"id": "connecting-4a429ca0"
+},
+{
+"type": "write",
+"q": "\"Me neither.\" (with ξέρω: I don't know either)",
+"answer": "Ούτε εγώ.",
+"accept": [
+"Ούτε κι εγώ."
+],
+"why": "ούτε + nominative εγώ.",
+"id": "connecting-1c37939f"
+},
+{
+"type": "write",
+"q": "\"I didn't eat anything, nor drink anything.\"",
+"answer": "Δεν έφαγα ούτε ήπια τίποτα.",
+"accept": [
+"Ούτε έφαγα ούτε ήπια τίποτα."
+],
+"why": "ούτε... ούτε.",
+"id": "connecting-e2a40765"
+},
+{
+"type": "write",
+"q": "\"It started to rain.\" (colloquial, with και)",
+"answer": "Άρχισε και βρέχει.",
+"accept": [
+"Άρχισε να βρέχει."
+],
+"why": "και for να after αρχίζω.",
+"id": "connecting-de1a652c"
+},
+{
+"type": "write",
+"q": "\"not only in Athens but also in Thessaloniki\"",
+"answer": "όχι μόνο στην Αθήνα αλλά και στη Θεσσαλονίκη",
+"accept": [],
+"why": "όχι μόνο... αλλά και.",
+"id": "connecting-c1e1e1ee"
+},
+{
+"type": "order",
+"q": "\"It didn't even cross my mind.\"",
+"answer": "Ούτε που το σκέφτηκα.",
+"accept": [],
+"why": "Ούτε που = not even.",
+"id": "connecting-75781c0c"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Αντίθεση",
+"title": "But, however, although, whereas",
+"body": [
+{
+"table": {
+"head": [
+"Connective",
+"Register",
+"Note"
+],
+"rows": [
+[
+"αλλά",
+"all",
+"the standard \"but\""
+],
+[
+"μα",
+"spoken",
+"Μα τι λες; \"But what are you saying?\""
+],
+[
+"όμως",
+"all",
+"can go first, or after the first word: **Εγώ όμως...**"
+],
+[
+"ωστόσο",
+"written, careful speech",
+"\"however, nevertheless\""
+],
+[
+"παρ' όλα αυτά / παρόλα αυτά",
+"all",
+"\"even so, nevertheless\""
+],
+[
+"εντούτοις",
+"formal",
+"\"nonetheless\""
+],
+[
+"ενώ",
+"all",
+"\"whereas\" (contrast), also \"while\" (time)"
+],
+[
+"αντίθετα / αντιθέτως",
+"written",
+"\"on the contrary, by contrast\""
+],
+[
+"αντί για + noun, αντί να + verb",
+"all",
+"\"instead of\""
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Είναι ακριβό, αλλά αξίζει.",
+"en": "It's expensive but it's worth it."
+},
+{
+"el": "Εγώ όμως δεν συμφωνώ.",
+"en": "I, however, don't agree."
+},
+{
+"el": "Έβρεχε. Παρ' όλα αυτά, βγήκαμε.",
+"en": "It was raining. Even so, we went out."
+},
+{
+"el": "Ο Νίκος είναι ήσυχος, ενώ ο αδερφός του δεν σταματά να μιλάει.",
+"en": "Nikos is quiet, whereas his brother never stops talking."
+},
+{
+"el": "Αντί να διαβάζεις, παίζεις στο κινητό!",
+"en": "Instead of studying, you're playing on your phone!"
+}
+]
+},
+{
+"tip": "**Αν και / παρόλο που** \"although\" make a dependent clause (chapter 31); **ωστόσο / παρ' όλα αυτά** start a new sentence that answers the previous one: **Αν και έβρεχε, βγήκαμε. = Έβρεχε. Ωστόσο, βγήκαμε.**"
+},
+{
+"solved": [
+{
+"q": "\"It was raining. Even so, we went out.\"",
+"a": "Έβρεχε. Παρ' όλα αυτά, βγήκαμε. | Έβρεχε. Παρόλα αυτά, βγήκαμε. | Έβρεχε. Ωστόσο, βγήκαμε.",
+"why": "A new sentence answering the first."
+},
+{
+"q": "\"Instead of a taxi, take (sg) the metro.\"",
+"a": "Αντί για ταξί, πάρε το μετρό.",
+"why": "αντί για + noun."
+},
+{
+"q": "\"I like the sea, whereas my wife prefers the mountains.\"",
+"a": "Μου αρέσει η θάλασσα, ενώ η γυναίκα μου προτιμά το βουνό. | Μου αρέσει η θάλασσα, ενώ η γυναίκα μου προτιμάει το βουνό.",
+"why": "ενώ = whereas."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Είναι λίγο ακριβό, ___ αξίζει. (but)",
+"options": [
+"ούτε",
+"αλλά",
+"ενώ να",
+"είτε"
+],
+"answer": "αλλά",
+"why": "αλλά.",
+"id": "connecting-d7528f68"
+},
+{
+"type": "choice",
+"q": "Μελέτησε πολύ. ___, δεν πέρασε. (Nevertheless)",
+"options": [
+"Επομένως",
+"Ωστόσο",
+"Επιπλέον",
+"Δηλαδή"
+],
+"answer": "Ωστόσο",
+"why": "Contrast: ωστόσο.",
+"id": "connecting-15a30bda"
+},
+{
+"type": "choice",
+"q": "___ να μαγειρέψεις, παράγγειλε πίτσα. (Instead of)",
+"options": [
+"Αντί για",
+"Αντί",
+"Ενώ",
+"Παρά για"
+],
+"answer": "Αντί",
+"why": "αντί να + verb.",
+"id": "connecting-817ca641"
+},
+{
+"type": "choice",
+"q": "___ ταξί, πήραμε το λεωφορείο. (Instead of)",
+"options": [
+"Αντί να",
+"Αντί για",
+"Ενώ",
+"Αλλά"
+],
+"answer": "Αντί για",
+"why": "αντί για + noun.",
+"id": "connecting-1501e5e1"
+},
+{
+"type": "choice",
+"q": "Η Άννα μιλάει πολύ, ___ ο Πέτρος είναι σιωπηλός. (whereas)",
+"options": [
+"αφού",
+"ενώ",
+"επειδή",
+"για να"
+],
+"answer": "ενώ",
+"why": "ενώ = whereas.",
+"id": "connecting-71464b4b"
+},
+{
+"type": "choice",
+"q": "___ τι λες; Δεν είναι αλήθεια! (But, spoken)",
+"options": [
+"Όμως",
+"Μα",
+"Ωστόσο",
+"Εντούτοις"
+],
+"answer": "Μα",
+"why": "Spoken μα.",
+"id": "connecting-8f607ad7"
+},
+{
+"type": "write",
+"q": "\"It's expensive, but it's worth it.\"",
+"answer": "Είναι ακριβό, αλλά αξίζει.",
+"accept": [
+"Είναι ακριβό, αλλά αξίζει τον κόπο.",
+"Είναι ακριβό, όμως αξίζει."
+],
+"why": "αλλά / όμως.",
+"id": "connecting-ceea0a4c"
+},
+{
+"type": "write",
+"q": "\"Instead of studying, he watches TV.\"",
+"answer": "Αντί να διαβάζει, βλέπει τηλεόραση.",
+"accept": [
+"Αντί να μελετάει, βλέπει τηλεόραση."
+],
+"why": "αντί να + verb.",
+"id": "connecting-ea9b2507"
+},
+{
+"type": "write",
+"q": "\"I, however, don't agree.\"",
+"answer": "Εγώ όμως δεν συμφωνώ.",
+"accept": [
+"Όμως εγώ δεν συμφωνώ."
+],
+"why": "όμως after the first word or first.",
+"id": "connecting-8942e74d"
+},
+{
+"type": "write",
+"q": "\"She is tall, whereas her sister is short.\"",
+"answer": "Είναι ψηλή, ενώ η αδερφή της είναι κοντή.",
+"accept": [],
+"why": "ενώ.",
+"id": "connecting-c9d857c2"
+},
+{
+"type": "order",
+"q": "\"Even so, we went out.\"",
+"answer": "Παρ' όλα αυτά, βγήκαμε.",
+"accept": [],
+"why": "Sentence-initial connective.",
+"id": "connecting-5476fa3e"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Συμπέρασμα και προσθήκη",
+"title": "So, therefore, besides, moreover",
+"body": [
+{
+"p": "**Concluding:**"
+},
+{
+"table": {
+"head": [
+"Connective",
+"Register",
+"Example"
+],
+"rows": [
+[
+"οπότε",
+"spoken",
+"Έχει κίνηση, οπότε θα αργήσω."
+],
+[
+"λοιπόν",
+"all",
+"Λοιπόν, τι αποφασίσαμε;"
+],
+[
+"άρα",
+"all",
+"Δεν απαντάει, άρα κοιμάται."
+],
+[
+"επομένως",
+"written",
+"Τα στοιχεία είναι ελλιπή· επομένως, δεν μπορούμε να αποφασίσουμε."
+],
+[
+"συνεπώς",
+"formal",
+"Συνεπώς, η πρόταση απορρίπτεται."
+],
+[
+"γι' αυτό (τον λόγο)",
+"all",
+"Ήμουν άρρωστη, γι' αυτό δεν ήρθα."
+]
+]
+}
+},
+{
+"p": "**Adding:**"
+},
+{
+"table": {
+"head": [
+"Connective",
+"Register",
+"Note"
+],
+"rows": [
+[
+"επίσης",
+"all",
+"also, as well"
+],
+[
+"ακόμα / ακόμη",
+"all",
+"also, furthermore"
+],
+[
+"επιπλέον / επιπροσθέτως",
+"written",
+"moreover, in addition"
+],
+[
+"εξάλλου / άλλωστε",
+"all",
+"besides, after all"
+],
+[
+"αφενός... αφετέρου",
+"written",
+"on the one hand... on the other"
+],
+[
+"τόσο... όσο και",
+"written",
+"both... and"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Δεν πεινάω· εξάλλου, έφαγα πριν από μία ώρα.",
+"en": "I'm not hungry; besides, I ate an hour ago."
+},
+{
+"el": "Αφενός η δουλειά είναι ενδιαφέρουσα, αφετέρου ο μισθός είναι χαμηλός.",
+"en": "On the one hand the job is interesting, on the other the pay is low."
+},
+{
+"el": "Το πρόβλημα αφορά τόσο τους νέους όσο και τους ηλικιωμένους.",
+"en": "The problem concerns both the young and the old."
+}
+]
+},
+{
+"tip": "**Άλλωστε / εξάλλου** add a reason that **supports** what you just said (\"after all, besides\"). **Επιπλέον** just adds another point."
+},
+{
+"solved": [
+{
+"q": "\"There's traffic, so I'll be late.\" (spoken)",
+"a": "Έχει κίνηση, οπότε θα αργήσω. | Έχει κίνηση, άρα θα αργήσω. | Έχει κίνηση, γι' αυτό θα αργήσω.",
+"why": "οπότε = so."
+},
+{
+"q": "\"on the one hand... on the other\"",
+"a": "αφενός... αφετέρου",
+"why": "Paired written connective."
+},
+{
+"q": "\"It concerns both pupils and teachers.\"",
+"a": "Αφορά τόσο τους μαθητές όσο και τους καθηγητές. | Αφορά τόσο τους μαθητές όσο και τους δασκάλους.",
+"why": "τόσο... όσο και."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Δεν σήκωσε το τηλέφωνο, ___ μάλλον κοιμάται. (so)",
+"options": [
+"ωστόσο",
+"άρα",
+"ενώ",
+"εξάλλου όμως"
+],
+"answer": "άρα",
+"why": "Conclusion: άρα.",
+"id": "connecting-eb550bab"
+},
+{
+"type": "choice",
+"q": "Ο μισθός είναι καλός. ___, η δουλειά είναι κοντά στο σπίτι. (Moreover)",
+"options": [
+"Επομένως",
+"Επιπλέον",
+"Ωστόσο",
+"Αντίθετα"
+],
+"answer": "Επιπλέον",
+"why": "Adding a point: επιπλέον.",
+"id": "connecting-03997d87"
+},
+{
+"type": "choice",
+"q": "___ το σχέδιο είναι οικονομικό, αφετέρου είναι γρήγορο. (On the one hand)",
+"options": [
+"Επιπλέον",
+"Αφενός",
+"Όμως",
+"Ενώ"
+],
+"answer": "Αφενός",
+"why": "αφενός... αφετέρου.",
+"id": "connecting-b703ba14"
+},
+{
+"type": "choice",
+"q": "Δεν θα έρθω· ___ δεν με κάλεσαν. (besides, after all)",
+"options": [
+"επομένως",
+"άλλωστε",
+"ενώ",
+"αντίθετα"
+],
+"answer": "άλλωστε",
+"why": "A supporting reason: άλλωστε.",
+"id": "connecting-00e681ae"
+},
+{
+"type": "choice",
+"q": "Ήμουν κουρασμένος, ___ έμεινα σπίτι. (that's why)",
+"options": [
+"ωστόσο",
+"γι' αυτό",
+"αφενός",
+"επιπλέον"
+],
+"answer": "γι' αυτό",
+"why": "Result: γι' αυτό.",
+"id": "connecting-9dc1fa21"
+},
+{
+"type": "choice",
+"q": "Αφορά ___ τους γονείς όσο και τα παιδιά. (both)",
+"options": [
+"και",
+"τόσο",
+"όσο",
+"αφενός"
+],
+"answer": "τόσο",
+"why": "τόσο... όσο και.",
+"id": "connecting-e251b954"
+},
+{
+"type": "choice",
+"q": "Τα στοιχεία δεν επαρκούν· ___, δεν μπορούμε να αποφασίσουμε. (therefore, formal)",
+"options": [
+"εξάλλου",
+"επομένως",
+"ωστόσο",
+"επίσης"
+],
+"answer": "επομένως",
+"why": "Written conclusion: επομένως.",
+"id": "connecting-e45eb4f8"
+},
+{
+"type": "write",
+"q": "\"I was ill, that's why I didn't come.\" (woman)",
+"answer": "Ήμουν άρρωστη, γι' αυτό δεν ήρθα.",
+"accept": [
+"Ήμουν άρρωστη, οπότε δεν ήρθα."
+],
+"why": "γι' αυτό / οπότε.",
+"id": "connecting-df81d157"
+},
+{
+"type": "write",
+"q": "\"I'm not hungry; besides, I've just eaten.\"",
+"answer": "Δεν πεινάω· εξάλλου, μόλις έφαγα.",
+"accept": [
+"Δεν πεινάω, εξάλλου μόλις έφαγα.",
+"Δεν πεινάω· άλλωστε, μόλις έφαγα.",
+"Δεν πεινάω, άλλωστε μόλις έφαγα."
+],
+"why": "εξάλλου / άλλωστε.",
+"id": "connecting-43683789"
+},
+{
+"type": "write",
+"q": "\"Well, what did we decide?\"",
+"answer": "Λοιπόν, τι αποφασίσαμε;",
+"accept": [],
+"why": "λοιπόν opens a turn.",
+"id": "connecting-1527d4b6"
+},
+{
+"type": "write",
+"q": "\"It's late, so let's go.\" (spoken)",
+"answer": "Είναι αργά, οπότε πάμε.",
+"accept": [
+"Είναι αργά, άρα πάμε.",
+"Είναι αργά, οπότε ας φύγουμε."
+],
+"why": "οπότε.",
+"id": "connecting-e3f3d42b"
+},
+{
+"type": "order",
+"q": "\"On the one hand it's cheap, on the other it's far.\"",
+"answer": "Αφενός είναι φτηνό, αφετέρου είναι μακριά.",
+"accept": [],
+"why": "αφενός... αφετέρου.",
+"id": "connecting-18a71e15"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Τρόπος: σαν, όπως, ως, λες και",
+"title": "Manner: like, as, as if",
+"body": [
+{
+"table": {
+"head": [
+"Word",
+"Use",
+"Example"
+],
+"rows": [
+[
+"σαν + accusative (definite)",
+"like (comparison)",
+"Τρώει σαν τον πατέρα του."
+],
+[
+"σαν + nominative (indefinite)",
+"like a...",
+"Γελάει σαν χαζός."
+],
+[
+"όπως + nominative",
+"like, as",
+"Είναι τεμπέλης όπως εσύ."
+],
+[
+"όπως + clause",
+"as, the way",
+"Κάν' το όπως σου είπα."
+],
+[
+"ως",
+"as, in the role of",
+"Δουλεύει ως σερβιτόρα."
+],
+[
+"σαν να / λες και + verb",
+"as if",
+"Μιλάει λες και τα ξέρει όλα."
+],
+[
+"όπως και να 'χει / όπως κι αν",
+"however, in any case",
+"Όπως και να 'χει, θα έρθω."
+]
+]
+}
+},
+{
+"tip": "**Σαν** compares; **ως** gives a role. **Δουλεύει σαν σκλάβος** \"He works like a slave\" (he isn't one) but **Δουλεύει ως οδηγός** \"He works as a driver\" (that is his job)."
+},
+{
+"ex": [
+{
+"el": "Κοιμήθηκα σαν πουλάκι.",
+"en": "I slept like a baby (lit. like a little bird)."
+},
+{
+"el": "Κάνε όπως νομίζεις.",
+"en": "Do as you see fit."
+},
+{
+"el": "Με κοιτάζει σαν να μη με ξέρει.",
+"en": "He's looking at me as if he doesn't know me."
+},
+{
+"el": "Φέρεται λες και είναι το αφεντικό.",
+"en": "He behaves as if he were the boss."
+},
+{
+"el": "Όπως και να 'χει, ευχαριστώ.",
+"en": "Anyway, thanks."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"He talks as if he knows everything.\"",
+"a": "Μιλάει λες και τα ξέρει όλα. | Μιλάει σαν να τα ξέρει όλα. | Μιλάει λες και ξέρει τα πάντα. | Μιλάει σαν να ξέρει τα πάντα.",
+"why": "λες και / σαν να + indicative."
+},
+{
+"q": "\"She works as a nurse.\" (η νοσηλεύτρια)",
+"a": "Δουλεύει ως νοσηλεύτρια. | Δουλεύει σαν νοσηλεύτρια.",
+"why": "Role: ως (colloquially also σαν)."
+},
+{
+"q": "\"Do (sg) it the way I told you.\"",
+"a": "Κάν' το όπως σου είπα. | Κάνε το όπως σου είπα.",
+"why": "όπως + clause."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Κοιμήθηκα ___ πουλάκι. (like a)",
+"options": [
+"ως",
+"σαν",
+"όπως να",
+"λες και"
+],
+"answer": "σαν",
+"why": "Comparison: σαν.",
+"id": "connecting-0e58740d"
+},
+{
+"type": "choice",
+"q": "Κάνε ___ θέλεις. (as)",
+"options": [
+"σαν",
+"όπως",
+"ως",
+"λες"
+],
+"answer": "όπως",
+"why": "όπως + clause.",
+"id": "connecting-3ed210fc"
+},
+{
+"type": "choice",
+"q": "Μου μιλάει ___ είμαι παιδί. (as if)",
+"options": [
+"όπως",
+"λες και",
+"ως",
+"σαν τον"
+],
+"answer": "λες και",
+"why": "λες και + indicative.",
+"id": "connecting-18b7a221"
+},
+{
+"type": "choice",
+"q": "Είναι ψηλός ___ τον πατέρα του. (like)",
+"options": [
+"όπως",
+"σαν",
+"ως",
+"λες και"
+],
+"answer": "σαν",
+"why": "σαν + accusative for a definite noun.",
+"id": "connecting-fac42ec8"
+},
+{
+"type": "choice",
+"q": "Μίλησε ___ εκπρόσωπος της εταιρείας. (as, in the role of)",
+"options": [
+"σαν να",
+"ως",
+"λες και",
+"όπως να"
+],
+"answer": "ως",
+"why": "Role: ως.",
+"id": "connecting-e9a24067"
+},
+{
+"type": "choice",
+"q": "___ και να 'χει, θα έρθω. (However it is)",
+"options": [
+"Σαν",
+"Όπως",
+"Ως",
+"Λες"
+],
+"answer": "Όπως",
+"why": "Όπως και να 'χει.",
+"id": "connecting-fc25079a"
+},
+{
+"type": "write",
+"q": "\"I slept like a log.\" (use ξύλο)",
+"answer": "Κοιμήθηκα σαν ξύλο.",
+"accept": [],
+"why": "σαν + nominative, indefinite.",
+"id": "connecting-54d7ce92"
+},
+{
+"type": "write",
+"q": "\"He behaves as if he were the boss.\"",
+"answer": "Φέρεται λες και είναι το αφεντικό.",
+"accept": [
+"Φέρεται σαν να είναι το αφεντικό.",
+"Συμπεριφέρεται λες και είναι το αφεντικό.",
+"Συμπεριφέρεται σαν να είναι το αφεντικό."
+],
+"why": "λες και / σαν να.",
+"id": "connecting-ab8e4dee"
+},
+{
+"type": "write",
+"q": "\"Do (sg) as you like.\"",
+"answer": "Κάνε όπως θέλεις.",
+"accept": [
+"Κάνε ό,τι θέλεις.",
+"Κάνε όπως νομίζεις."
+],
+"why": "όπως.",
+"id": "connecting-bb2c9fe5"
+},
+{
+"type": "write",
+"q": "\"Anyway, thank you.\"",
+"answer": "Όπως και να 'χει, ευχαριστώ.",
+"accept": [
+"Όπως και να 'χει, σε ευχαριστώ.",
+"Τέλος πάντων, ευχαριστώ."
+],
+"why": "Fixed phrase.",
+"id": "connecting-dfde88aa"
+},
+{
+"type": "write",
+"q": "\"She works as a teacher.\" (η δασκάλα)",
+"answer": "Δουλεύει ως δασκάλα.",
+"accept": [
+"Εργάζεται ως δασκάλα.",
+"Δουλεύει σαν δασκάλα."
+],
+"why": "Role: ως.",
+"id": "connecting-7a8e86ca"
+},
+{
+"type": "order",
+"q": "\"He looks at me as if he doesn't know me.\"",
+"answer": "Με κοιτάζει σαν να μη με ξέρει.",
+"accept": [],
+"why": "σαν να + μη(ν).",
+"id": "connecting-fbfe28ee"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Όσο... τόσο, απ' ό,τι",
+"title": "The more... the more; than + clause; as... as",
+"body": [
+{
+"p": "**Όσο... τόσο** links two growing (or shrinking) quantities:"
+},
+{
+"ex": [
+{
+"el": "Όσο περισσότερο διαβάζεις, τόσο καλύτερα γράφεις.",
+"en": "The more you read, the better you write."
+},
+{
+"el": "Όσο πιο νωρίς φύγουμε, τόσο το καλύτερο.",
+"en": "The earlier we leave, the better."
+},
+{
+"el": "Όσο μεγαλώνω, τόσο λιγότερο με νοιάζει.",
+"en": "The older I get, the less I care."
+}
+]
+},
+{
+"p": "**Τόσο... όσο** \"as... as\", and in the negative \"not as... as\":"
+},
+{
+"ex": [
+{
+"el": "Δεν είναι τόσο δύσκολο όσο λένε.",
+"en": "It's not as hard as they say."
+},
+{
+"el": "Δεν είναι σοβαρή όσο εσύ.",
+"en": "She's not as serious as you."
+}
+]
+},
+{
+"p": "**Than + a clause**: **απ' ό,τι** (from **από ό,τι**). **Than + a phrase other than a noun**: **παρά**."
+},
+{
+"ex": [
+{
+"el": "Είναι πιο ακριβό απ' ό,τι νόμιζα.",
+"en": "It's more expensive than I thought."
+},
+{
+"el": "Ήρθαν περισσότεροι απ' ό,τι περιμέναμε.",
+"en": "More came than we expected."
+},
+{
+"el": "Δουλεύω καλύτερα το πρωί παρά το βράδυ.",
+"en": "I work better in the morning than in the evening."
+},
+{
+"el": "Προτιμώ να περπατήσω παρά να περιμένω.",
+"en": "I'd rather walk than wait."
+}
+]
+},
+{
+"tip": "After a comparative, a **noun or pronoun** takes **από**: **πιο ψηλός από μένα**. A **whole clause** takes **απ' ό,τι**: **πιο ψηλός απ' ό,τι νόμιζα**. Don't use **από** directly before a verb."
+},
+{
+"solved": [
+{
+"q": "\"The more you (sg) practise, the easier it gets.\"",
+"a": "Όσο περισσότερο εξασκείσαι, τόσο πιο εύκολο γίνεται. | Όσο πιο πολύ εξασκείσαι, τόσο πιο εύκολο γίνεται. | Όσο περισσότερο εξασκείσαι, τόσο ευκολότερο γίνεται.",
+"why": "όσο... τόσο."
+},
+{
+"q": "\"It was better than I expected.\"",
+"a": "Ήταν καλύτερο απ' ό,τι περίμενα. | Ήταν καλύτερα απ' ό,τι περίμενα.",
+"why": "απ' ό,τι + clause."
+},
+{
+"q": "\"I'd rather stay than leave.\"",
+"a": "Προτιμώ να μείνω παρά να φύγω.",
+"why": "παρά να."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Όσο πιο πολύ τρως, ___ πιο πολύ παχαίνεις. (the more)",
+"options": [
+"όσο",
+"τόσο",
+"πολύ",
+"ακόμα"
+],
+"answer": "τόσο",
+"why": "όσο... τόσο.",
+"id": "connecting-72bc4e5e"
+},
+{
+"type": "choice",
+"q": "Ήταν πιο εύκολο ___ νόμιζα. (than)",
+"options": [
+"από",
+"απ' ό,τι",
+"παρά από",
+"σαν"
+],
+"answer": "απ' ό,τι",
+"why": "Than + clause: απ' ό,τι.",
+"id": "connecting-bfe02e17"
+},
+{
+"type": "choice",
+"q": "Είναι πιο ψηλός ___ μένα. (than)",
+"options": [
+"απ' ό,τι",
+"από",
+"παρά να",
+"σαν"
+],
+"answer": "από",
+"why": "Than + pronoun: από.",
+"id": "connecting-b2e5312e"
+},
+{
+"type": "choice",
+"q": "Δεν είναι τόσο ακριβό ___ λένε. (as)",
+"options": [
+"από",
+"όσο",
+"τόσο",
+"σαν να"
+],
+"answer": "όσο",
+"why": "τόσο... όσο.",
+"id": "connecting-39bc9ca0"
+},
+{
+"type": "choice",
+"q": "Προτιμώ να μαγειρέψω ___ να φάω έξω. (rather than)",
+"options": [
+"από",
+"παρά",
+"απ' ό,τι",
+"όσο"
+],
+"answer": "παρά",
+"why": "παρά να.",
+"id": "connecting-7ef8bca2"
+},
+{
+"type": "choice",
+"q": "___ μεγαλώνει, τόσο ομορφαίνει. (The older she gets)",
+"options": [
+"Τόσο",
+"Όσο",
+"Όταν τόσο",
+"Πιο"
+],
+"answer": "Όσο",
+"why": "όσο... τόσο.",
+"id": "connecting-5dc33b1b"
+},
+{
+"type": "write",
+"q": "\"The sooner, the better.\"",
+"answer": "Όσο πιο γρήγορα, τόσο το καλύτερο.",
+"accept": [
+"Όσο πιο νωρίς, τόσο το καλύτερο.",
+"Όσο πιο σύντομα, τόσο το καλύτερο."
+],
+"why": "Fixed: τόσο το καλύτερο.",
+"id": "connecting-e3aea7e3"
+},
+{
+"type": "write",
+"q": "\"It's not as hard as it looks.\"",
+"answer": "Δεν είναι τόσο δύσκολο όσο φαίνεται.",
+"accept": [],
+"why": "τόσο... όσο.",
+"id": "connecting-1b854293"
+},
+{
+"type": "write",
+"q": "\"More people came than we expected.\"",
+"answer": "Ήρθε περισσότερος κόσμος απ' ό,τι περιμέναμε.",
+"accept": [
+"Ήρθαν περισσότεροι απ' ό,τι περιμέναμε."
+],
+"why": "απ' ό,τι.",
+"id": "connecting-6a243659"
+},
+{
+"type": "write",
+"q": "\"I work better at home than at the office.\"",
+"answer": "Δουλεύω καλύτερα στο σπίτι παρά στο γραφείο.",
+"accept": [
+"Δουλεύω καλύτερα σπίτι παρά στο γραφείο."
+],
+"why": "παρά before a phrase.",
+"id": "connecting-24d05201"
+},
+{
+"type": "order",
+"q": "\"The more you read, the better you write.\"",
+"answer": "Όσο περισσότερο διαβάζεις, τόσο καλύτερα γράφεις.",
+"accept": [],
+"why": "όσο... τόσο.",
+"id": "connecting-1f0503f2"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Οργάνωση κειμένου",
+"title": "Signposts for essays and talks",
+"body": [
+{
+"p": "A B2 essay is judged on how clearly it is organised. These signposts are safe in any formal text."
+},
+{
+"table": {
+"head": [
+"Job",
+"Signposts"
+],
+"rows": [
+[
+"Opening",
+"Κατ' αρχάς / Καταρχάς, Πρώτα απ' όλα, Αρχικά"
+],
+[
+"Sequence",
+"Στη συνέχεια, Έπειτα, Επιπλέον, Τέλος"
+],
+[
+"Example",
+"Για παράδειγμα, Λόγου χάρη (λ.χ.), όπως"
+],
+[
+"Explaining",
+"Δηλαδή, Με άλλα λόγια, Πιο συγκεκριμένα, Ειδικότερα"
+],
+[
+"Emphasis",
+"Κυρίως, Ιδίως, Ιδιαίτερα, Πάνω απ' όλα"
+],
+[
+"Generalising",
+"Γενικά, Σε γενικές γραμμές, Κατά κανόνα"
+],
+[
+"Opinion",
+"Κατά τη γνώμη μου, Πιστεύω ότι, Από τη μία... από την άλλη"
+],
+[
+"Concluding",
+"Συμπερασματικά, Συνοψίζοντας, Εν κατακλείδι, Τελικά"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Κατ' αρχάς, πρέπει να ορίσουμε το πρόβλημα.",
+"en": "First of all, we must define the problem."
+},
+{
+"el": "Πολλοί νέοι, για παράδειγμα, μένουν με τους γονείς τους μέχρι τα τριάντα.",
+"en": "Many young people, for example, live with their parents until thirty."
+},
+{
+"el": "Με άλλα λόγια, η λύση δεν είναι απλή.",
+"en": "In other words, the solution is not simple."
+},
+{
+"el": "Συνοψίζοντας, θα έλεγα ότι τα οφέλη είναι περισσότερα από τα μειονεκτήματα.",
+"en": "To sum up, I would say the benefits outweigh the drawbacks."
+}
+]
+},
+{
+"tip": "**Από τη μία (πλευρά)... από την άλλη** is the everyday version of **αφενός... αφετέρου**. Don't mix the two halves."
+},
+{
+"solved": [
+{
+"q": "\"In other words\"",
+"a": "Με άλλα λόγια | Δηλαδή",
+"why": "Explaining."
+},
+{
+"q": "\"To sum up\"",
+"a": "Συνοψίζοντας | Συμπερασματικά | Εν κατακλείδι",
+"why": "Concluding."
+},
+{
+"q": "\"On the one hand... on the other\" (everyday)",
+"a": "Από τη μία... από την άλλη",
+"why": "Spoken pair."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___, θα ήθελα να ευχαριστήσω όλους σας. (First of all)",
+"options": [
+"Τέλος",
+"Πρώτα απ' όλα",
+"Επομένως",
+"Ωστόσο"
+],
+"answer": "Πρώτα απ' όλα",
+"why": "Opening.",
+"id": "connecting-c3201b74"
+},
+{
+"type": "choice",
+"q": "___, η κατάσταση είναι σοβαρή. (In other words)",
+"options": [
+"Για παράδειγμα",
+"Με άλλα λόγια",
+"Από την άλλη",
+"Καταρχάς"
+],
+"answer": "Με άλλα λόγια",
+"why": "Explaining.",
+"id": "connecting-5a2885bd"
+},
+{
+"type": "choice",
+"q": "Από τη μία είναι φτηνό, από ___ είναι μακριά. (the other)",
+"options": [
+"αφετέρου",
+"την άλλη",
+"τη δεύτερη",
+"άλλη"
+],
+"answer": "την άλλη",
+"why": "Από τη μία... από την άλλη.",
+"id": "connecting-c8fbbd0d"
+},
+{
+"type": "choice",
+"q": "___, τα πλεονεκτήματα είναι περισσότερα. (To sum up)",
+"options": [
+"Αρχικά",
+"Συνοψίζοντας",
+"Για παράδειγμα",
+"Ειδικότερα"
+],
+"answer": "Συνοψίζοντας",
+"why": "Concluding.",
+"id": "connecting-88d24426"
+},
+{
+"type": "choice",
+"q": "Πολλές χώρες, ___ η Ιταλία, έχουν το ίδιο πρόβλημα. (for example)",
+"options": [
+"δηλαδή όμως",
+"όπως",
+"ωστόσο",
+"εξάλλου"
+],
+"answer": "όπως",
+"why": "Example: όπως.",
+"id": "connecting-662088c2"
+},
+{
+"type": "choice",
+"q": "Μου αρέσουν τα φρούτα, ___ τα σύκα. (especially)",
+"options": [
+"γενικά",
+"ιδίως",
+"τέλος",
+"αρχικά"
+],
+"answer": "ιδίως",
+"why": "Emphasis: ιδίως.",
+"id": "connecting-fdd2e287"
+},
+{
+"type": "write",
+"q": "\"For example\"",
+"answer": "Για παράδειγμα",
+"accept": [
+"Λόγου χάρη"
+],
+"why": "Example.",
+"id": "connecting-ef4d9074"
+},
+{
+"type": "write",
+"q": "\"In my opinion\"",
+"answer": "Κατά τη γνώμη μου",
+"accept": [
+"Κατά την άποψή μου"
+],
+"why": "Opinion.",
+"id": "connecting-83affcb3"
+},
+{
+"type": "write",
+"q": "\"More specifically\"",
+"answer": "Πιο συγκεκριμένα",
+"accept": [
+"Ειδικότερα"
+],
+"why": "Explaining.",
+"id": "connecting-bbda7b12"
+},
+{
+"type": "write",
+"q": "\"Generally speaking\"",
+"answer": "Γενικά",
+"accept": [
+"Σε γενικές γραμμές",
+"Γενικά μιλώντας"
+],
+"why": "Generalising.",
+"id": "connecting-946dbfaa"
+},
+{
+"type": "order",
+"q": "\"First of all, we must define the problem.\"",
+"answer": "Κατ' αρχάς, πρέπει να ορίσουμε το πρόβλημα.",
+"accept": [],
+"why": "Opening signpost.",
+"id": "connecting-0073cd33"
+}
+]
+}
+]
+}
+],
+"id": "connecting",
+"el": "Σύνδεση προτάσεων και ιδεών",
+"title": "Linking ideas: and, but, so, like, the more",
+"span": "B1–B2",
+"blurb": "The words that join clauses and organise a text: και, ή, είτε... είτε, ούτε... ούτε; αλλά, όμως, ωστόσο, παρ' όλα αυτά; άρα, επομένως, οπότε, επιπλέον, εξάλλου, αφενός... αφετέρου; σαν, όπως, ως, σαν να, λες και; όσο... τόσο and απ' ό,τι; and the signposts of a B2 essay.",
+"intro": [
+{
+"p": "Greek joins ideas with a small set of conjunctions in speech and a larger set of connectives in writing. The spoken ones (**και, αλλά, μα, οπότε, λοιπόν**) are enough for a conversation. The written ones (**ωστόσο, επομένως, εξάλλου, αφενός... αφετέρου**) are what the B2 writing paper rewards. This chapter sorts them by job: adding, contrasting, concluding, comparing and describing manner."
+},
+{
+"links": [
+{
+"href": "#b2-discourse",
+"kind": "Lesson",
+"el": "Οργάνωση κειμένου",
+"title": "Argument structure: αρχικά, εκ πρώτης όψεως, εντούτοις, εν κατακλείδι"
+},
+{
+"href": "#c1-connectors",
+"kind": "Lesson",
+"el": "Συνδετικά του επιχειρήματος",
+"title": "Connectors for argument: αφενός… αφετέρου, μεν… δε, ως εκ τούτου, άλλωστε"
+},
+{
+"href": "#c1-bank-connectors-1",
+"kind": "Lesson",
+"el": "Συνδετικά (1)",
+"title": "Connector bank 1: επιπλέον, επιπροσθέτως, εξάλλου"
+},
+{
+"href": "#c1-bank-connectors-2",
+"kind": "Lesson",
+"el": "Συνδετικά (2)",
+"title": "Connector bank 2: προφανώς, μάλιστα, πράγματι"
+},
+{
+"href": "#exam-writing-essay",
+"kind": "Lesson",
+"el": "Κείμενο γνώμης και επιχειρηματολογία",
+"title": "Exam writing 3: opinion and argument texts"
+},
+{
+"href": "#syntax.discourse",
+"kind": "Syntax",
+"el": "Η οργάνωση του λόγου",
+"title": "Discourse: linking, referring and structuring a text"
+},
+{
+"href": "#pos.conjunction",
+"kind": "Part of speech",
+"el": "Ο σύνδεσμος",
+"title": "The conjunction"
+},
+{
+"href": "#cards.conjunctions",
+"kind": "Card",
+"el": "Σύνδεσμοι και τι ακολουθεί",
+"title": "Conjunctions and the mood that follows"
+}
+]
+}
+],
+"num": 39
+}

@@ -1,0 +1,1647 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Περίπου: κάνα δυο, καμιά δεκαριά",
+"title": "Roughly: a couple, about ten, around forty",
+"body": [
+{
+"table": {
+"head": [
+"Expression",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"κάνα δυο (καμιά δυο, κανά δυο)",
+"a couple, one or two",
+"Θα μείνω κάνα δυο μέρες."
+],
+[
+"καμιά δεκαριά",
+"about ten",
+"Ήρθαν καμιά δεκαριά άτομα."
+],
+[
+"καμιά εικοσαριά, τριανταριά...",
+"about twenty, thirty...",
+"Θέλει καμιά εικοσαριά λεπτά."
+],
+[
+"γύρω στα / στους / στις + number",
+"around",
+"Ήρθαν γύρω στους πενήντα."
+],
+[
+"περίπου",
+"approximately",
+"Κοστίζει περίπου εκατό ευρώ."
+],
+[
+"πάνω από / κάτω από",
+"over / under",
+"Πάνω από χίλιοι θεατές."
+],
+[
+"σχεδόν",
+"almost",
+"Είναι σχεδόν δέκα."
+],
+[
+"το πολύ / τουλάχιστον",
+"at most / at least",
+"Θα πάρει το πολύ μία ώρα."
+]
+]
+}
+},
+{
+"p": "**Age**: **στα τριάντα του** \"in his thirties / at thirty\", **γύρω στα σαράντα** \"around forty\". A person in their twenties, thirties... is **εικοσάρης / εικοσάρα, τριαντάρης / τριαντάρα, σαραντάρης / σαραντάρα**."
+},
+{
+"p": "**Κάνα** (from **κανένα**) and **καμιά** mean \"some, about\" in questions and approximations: **Έχεις κάνα τσιγάρο;** \"Got a cigarette?\""
+},
+{
+"ex": [
+{
+"el": "Θα είμαι εκεί σε κάνα δυο λεπτά.",
+"en": "I'll be there in a couple of minutes."
+},
+{
+"el": "Ήταν καμιά πενηνταριά άτομα στο πάρτι.",
+"en": "There were about fifty people at the party."
+},
+{
+"el": "Είναι γύρω στα σαράντα.",
+"en": "He's around forty."
+},
+{
+"el": "Θα κάνουμε το πολύ μισή ώρα.",
+"en": "We'll take half an hour at most."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"a couple of days\"",
+"a": "κάνα δυο μέρες | καμιά δυο μέρες | κανά δυο μέρες",
+"why": "κάνα δυο."
+},
+{
+"q": "\"about ten people\"",
+"a": "καμιά δεκαριά άτομα | περίπου δέκα άτομα | γύρω στα δέκα άτομα",
+"why": "καμιά δεκαριά."
+},
+{
+"q": "\"She's in her thirties.\"",
+"a": "Είναι τριαντάρα. | Είναι γύρω στα τριάντα.",
+"why": "-άρης / -άρα for decades of age."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θα μείνω ___ μέρες. (a couple of)",
+"options": [
+"κάθε δύο",
+"κάνα δυο",
+"δυάρι",
+"δυο-δυο"
+],
+"answer": "κάνα δυο",
+"why": "κάνα δυο.",
+"id": "numbers-data-8f42f302"
+},
+{
+"type": "choice",
+"q": "Ήρθαν ___ άτομα. (about twenty)",
+"options": [
+"είκοσι κάτι",
+"καμιά εικοσαριά",
+"είκοσι πολύ",
+"εικοστά"
+],
+"answer": "καμιά εικοσαριά",
+"why": "καμιά εικοσαριά.",
+"id": "numbers-data-fa4273ec"
+},
+{
+"type": "choice",
+"q": "Είναι ___ πενήντα. (around)",
+"options": [
+"γύρω από",
+"γύρω στα",
+"περίπου των",
+"κάτω στα"
+],
+"answer": "γύρω στα",
+"why": "γύρω στα + number.",
+"id": "numbers-data-cb561e30"
+},
+{
+"type": "choice",
+"q": "Θα πάρει ___ μια ώρα. (at most)",
+"options": [
+"τουλάχιστον",
+"το πολύ",
+"πάνω από",
+"σχεδόν να"
+],
+"answer": "το πολύ",
+"why": "το πολύ.",
+"id": "numbers-data-e66d5ac1"
+},
+{
+"type": "choice",
+"q": "Ήρθαν ___ χίλιοι θεατές. (over)",
+"options": [
+"πάνω σε",
+"πάνω από",
+"πιο από",
+"περισσότερο"
+],
+"answer": "πάνω από",
+"why": "πάνω από.",
+"id": "numbers-data-c2258e95"
+},
+{
+"type": "choice",
+"q": "Ο Νίκος είναι ___. (in his forties)",
+"options": [
+"σαρανταριά",
+"σαραντάρης",
+"σαραντάρα",
+"σαράντος"
+],
+"answer": "σαραντάρης",
+"why": "Man: σαραντάρης.",
+"id": "numbers-data-c162d85e"
+},
+{
+"type": "write",
+"q": "\"about thirty euros\"",
+"answer": "καμιά τριανταριά ευρώ",
+"accept": [
+"περίπου τριάντα ευρώ",
+"γύρω στα τριάντα ευρώ"
+],
+"why": "Approximation.",
+"id": "numbers-data-ce0dd86c"
+},
+{
+"type": "write",
+"q": "\"at least two hours\"",
+"answer": "τουλάχιστον δύο ώρες",
+"accept": [
+"τουλάχιστον δυο ώρες"
+],
+"why": "τουλάχιστον.",
+"id": "numbers-data-e06ef450"
+},
+{
+"type": "write",
+"q": "\"Got (sg) a cigarette?\"",
+"answer": "Έχεις κάνα τσιγάρο;",
+"accept": [
+"Έχεις κανένα τσιγάρο;"
+],
+"why": "κάνα = some, any.",
+"id": "numbers-data-94774920"
+},
+{
+"type": "write",
+"q": "\"almost midnight\"",
+"answer": "σχεδόν μεσάνυχτα",
+"accept": [],
+"why": "σχεδόν.",
+"id": "numbers-data-35183557"
+},
+{
+"type": "write",
+"q": "\"in a couple of minutes\"",
+"answer": "σε κάνα δυο λεπτά",
+"accept": [
+"σε καμιά δυο λεπτά",
+"σε δυο λεπτά"
+],
+"why": "κάνα δυο.",
+"id": "numbers-data-edf8194d"
+},
+{
+"type": "order",
+"q": "\"There were about fifty people.\"",
+"answer": "Ήταν καμιά πενηνταριά άτομα.",
+"accept": [],
+"why": "καμιά + -αριά.",
+"id": "numbers-data-cbdac17c"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ομάδες και πολλαπλάσια",
+"title": "Groups and multiples: δεκάδα, διπλός, διπλάσιος",
+"body": [
+{
+"p": "**Group nouns** (feminine, in **-άδα**) count things in bundles. They are followed by the counted noun in the same case, or by **από**:"
+},
+{
+"table": {
+"head": [
+"Noun",
+"Meaning"
+],
+"rows": [
+[
+"η δεκάδα",
+"ten, a group of ten"
+],
+[
+"η δωδεκάδα / η ντουζίνα",
+"a dozen"
+],
+[
+"η εικοσάδα",
+"a score, about twenty"
+],
+[
+"η εκατοντάδα",
+"a hundred"
+],
+[
+"η χιλιάδα",
+"a thousand"
+],
+[
+"εκατοντάδες, χιλιάδες",
+"hundreds, thousands"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Χιλιάδες άνθρωποι βγήκαν στους δρόμους.",
+"en": "Thousands of people took to the streets."
+},
+{
+"el": "Πήρα μια ντουζίνα αυγά.",
+"en": "I bought a dozen eggs."
+},
+{
+"el": "Εκατοντάδες τουρίστες περίμεναν στην ουρά.",
+"en": "Hundreds of tourists were waiting in the queue."
+}
+]
+},
+{
+"p": "**Multiples**: **διπλός, τριπλός** \"double, triple\" (a kind of thing: διπλό κρεβάτι, τριπλό σάντουιτς); **διπλάσιος, τριπλάσιος, τετραπλάσιος** \"twice / three / four times as much\" (comparison, often with **από**):"
+},
+{
+"ex": [
+{
+"el": "Θέλω ένα διπλό δωμάτιο.",
+"en": "I'd like a double room."
+},
+{
+"el": "Το νοίκι είναι διπλάσιο από πέρσι.",
+"en": "The rent is double what it was last year."
+},
+{
+"el": "Η Αθήνα έχει τριπλάσιο πληθυσμό από τη Θεσσαλονίκη.",
+"en": "Athens has three times the population of Thessaloniki."
+}
+]
+},
+{
+"p": "**Times**: **μία φορά, δύο φορές, τρεις φορές** (φορά is feminine): **δύο φορές τη βδομάδα** \"twice a week\"; **τρεις φορές πιο ακριβό** \"three times as expensive\"."
+},
+{
+"tip": "**Διπλός** describes the thing (a double room); **διπλάσιος** compares amounts (twice as much). **Διπλάσιο κρεβάτι** would mean \"a bed twice as big\"."
+},
+{
+"solved": [
+{
+"q": "\"a double room\"",
+"a": "ένα δίκλινο δωμάτιο | ένα διπλό δωμάτιο | δίκλινο δωμάτιο | διπλό δωμάτιο",
+"why": "In hotels δίκλινο is the usual word; διπλό is understood."
+},
+{
+"q": "\"The price is double.\"",
+"a": "Η τιμή είναι διπλάσια. | Η τιμή είναι διπλή.",
+"why": "διπλάσια agrees with η τιμή."
+},
+{
+"q": "\"twice a week\"",
+"a": "δύο φορές τη βδομάδα | δυο φορές την εβδομάδα | δύο φορές την εβδομάδα | δυο φορές τη βδομάδα",
+"why": "φορές + accusative of time."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ άνθρωποι διαδήλωσαν. (Thousands of)",
+"options": [
+"Χιλιάδων",
+"Χιλιάδες",
+"Χίλιοι από",
+"Χιλιάδα"
+],
+"answer": "Χιλιάδες",
+"why": "χιλιάδες + same case.",
+"id": "numbers-data-8d1a7b6c"
+},
+{
+"type": "choice",
+"q": "Πήρα μια ___ αυγά. (dozen)",
+"options": [
+"δωδεκάρα",
+"ντουζίνα",
+"δεκάδα από",
+"δώδεκο"
+],
+"answer": "ντουζίνα",
+"why": "ντουζίνα / δωδεκάδα.",
+"id": "numbers-data-3c4fc9a9"
+},
+{
+"type": "choice",
+"q": "Το νοίκι είναι ___ από πέρσι. (twice as much)",
+"options": [
+"διπλό",
+"διπλάσιο",
+"δύο φορά",
+"δεύτερο"
+],
+"answer": "διπλάσιο",
+"why": "Comparison: διπλάσιο.",
+"id": "numbers-data-6e631dc1"
+},
+{
+"type": "choice",
+"q": "Θέλω ένα ___ ουίσκι. (double)",
+"options": [
+"διπλάσιο",
+"διπλό",
+"δυάρι",
+"δύο φορές"
+],
+"answer": "διπλό",
+"why": "The kind of thing: διπλό.",
+"id": "numbers-data-3a5fc42d"
+},
+{
+"type": "choice",
+"q": "Πάω γυμναστήριο τρεις ___ τη βδομάδα. (times)",
+"options": [
+"φορά",
+"φορές",
+"φορών",
+"φορείς"
+],
+"answer": "φορές",
+"why": "φορά → φορές.",
+"id": "numbers-data-81afa35a"
+},
+{
+"type": "choice",
+"q": "Είναι τρεις φορές πιο ___. (expensive)",
+"options": [
+"ακριβότερο από",
+"ακριβό",
+"ακριβά",
+"ακριβότατο"
+],
+"answer": "ακριβό",
+"why": "πιο + adjective.",
+"id": "numbers-data-e94b2f9c"
+},
+{
+"type": "choice",
+"q": "___ τουρίστες επισκέπτονται το νησί. (Hundreds of)",
+"options": [
+"Εκατό από",
+"Εκατοντάδες",
+"Εκατοστοί",
+"Εκατοντάδα"
+],
+"answer": "Εκατοντάδες",
+"why": "εκατοντάδες.",
+"id": "numbers-data-3d9e982e"
+},
+{
+"type": "write",
+"q": "\"thousands of people\"",
+"answer": "χιλιάδες άνθρωποι",
+"accept": [
+"χιλιάδες άτομα"
+],
+"why": "χιλιάδες + noun.",
+"id": "numbers-data-aab4b2f4"
+},
+{
+"type": "write",
+"q": "\"three times a day\"",
+"answer": "τρεις φορές τη μέρα",
+"accept": [
+"τρεις φορές την ημέρα"
+],
+"why": "φορές.",
+"id": "numbers-data-e9e2c718"
+},
+{
+"type": "write",
+"q": "\"half price\"",
+"answer": "μισή τιμή",
+"accept": [
+"η μισή τιμή",
+"στη μισή τιμή"
+],
+"why": "μισή agrees with η τιμή.",
+"id": "numbers-data-1fe71b75"
+},
+{
+"type": "write",
+"q": "\"three times as big\"",
+"answer": "τρεις φορές μεγαλύτερο",
+"accept": [
+"τριπλάσιο",
+"τρεις φορές πιο μεγάλο"
+],
+"why": "τριπλάσιος.",
+"id": "numbers-data-4be6e00c"
+},
+{
+"type": "write",
+"q": "\"a dozen roses\"",
+"answer": "μια ντουζίνα τριαντάφυλλα",
+"accept": [
+"μία ντουζίνα τριαντάφυλλα",
+"μια δωδεκάδα τριαντάφυλλα"
+],
+"why": "ντουζίνα.",
+"id": "numbers-data-ba1fb05c"
+},
+{
+"type": "order",
+"q": "\"The rent is double what it was last year.\"",
+"answer": "Το νοίκι είναι διπλάσιο από πέρσι.",
+"accept": [],
+"why": "διπλάσιο από.",
+"id": "numbers-data-1989b8d8"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Κλάσματα, δεκαδικά, πράξεις",
+"title": "Fractions, decimals and sums",
+"body": [
+{
+"p": "**Fractions** use the ordinal as a neuter noun:"
+},
+{
+"table": {
+"head": [
+"Figure",
+"Greek"
+],
+"rows": [
+[
+"½",
+"το μισό, ένα δεύτερο"
+],
+[
+"⅓",
+"το ένα τρίτο"
+],
+[
+"⅔",
+"τα δύο τρίτα"
+],
+[
+"¼",
+"το ένα τέταρτο"
+],
+[
+"¾",
+"τα τρία τέταρτα"
+],
+[
+"⅒",
+"το ένα δέκατο"
+]
+]
+}
+},
+{
+"p": "**Decimals** use a comma, read **κόμμα**: **0,5** μηδέν κόμμα πέντε; **2,75** δύο κόμμα εβδομήντα πέντε. **Halves** have their own forms (chapter 14): **ενάμισης / μιάμιση / ενάμισι**, **δυόμισι**, **τρεισήμισι** (m/f) / **τριάμισι** (n)."
+},
+{
+"p": "**Arithmetic aloud:**"
+},
+{
+"table": {
+"head": [
+"Sign",
+"Word",
+"Example"
+],
+"rows": [
+[
+"+",
+"συν (also και)",
+"Δύο συν δύο ίσον τέσσερα. / Δύο και δύο κάνουν τέσσερα."
+],
+[
+"−",
+"πλην (also μείον)",
+"Δέκα πλην τρία ίσον επτά."
+],
+[
+"×",
+"επί",
+"Τρία επί τέσσερα ίσον δώδεκα."
+],
+[
+"÷",
+"διά",
+"Δώδεκα διά τρία ίσον τέσσερα."
+],
+[
+"=",
+"ίσον / κάνει",
+""
+],
+[
+"x²",
+"στο τετράγωνο",
+"Πέντε στο τετράγωνο κάνει είκοσι πέντε."
+]
+]
+}
+},
+{
+"p": "Numbers in sums are read in the **neuter**: **τρία επί τέσσερα**, not *τρεις*."
+},
+{
+"ex": [
+{
+"el": "Τα δύο τρίτα των φοιτητών είναι γυναίκες.",
+"en": "Two thirds of the students are women."
+},
+{
+"el": "Ο πληθωρισμός έφτασε το 2,4%.",
+"en": "Inflation reached 2.4%."
+},
+{
+"el": "Πόσο κάνει εφτά επί οχτώ; — Πενήντα έξι.",
+"en": "What's seven times eight? — Fifty-six."
+},
+{
+"el": "Μένουν τριάμισι χρόνια μέχρι τη σύνταξη.",
+"en": "Three and a half years remain until retirement."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Read aloud: **¾**",
+"a": "τα τρία τέταρτα | τρία τέταρτα",
+"why": "Ordinal as neuter noun."
+},
+{
+"q": "Read aloud: **0,25**",
+"a": "μηδέν κόμμα είκοσι πέντε",
+"why": "Decimal comma: κόμμα."
+},
+{
+"q": "Read aloud: **6 × 7 = 42**",
+"a": "έξι επί εφτά ίσον σαράντα δύο | έξι επί επτά ίσον σαράντα δύο | έξι επί εφτά κάνει σαράντα δύο | έξι επί επτά κάνει σαράντα δύο",
+"why": "επί, ίσον."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "**⅓**",
+"options": [
+"ο ένας τρίτος",
+"το ένα τρίτο",
+"η μία τρίτη",
+"ένα τρία"
+],
+"answer": "το ένα τρίτο",
+"why": "Neuter: το ένα τρίτο.",
+"id": "numbers-data-eca29da9"
+},
+{
+"type": "choice",
+"q": "**⅔** των Ελλήνων",
+"options": [
+"το δύο τρίτο",
+"τα δύο τρίτα",
+"οι δύο τρίτες",
+"δύο τρίτου"
+],
+"answer": "τα δύο τρίτα",
+"why": "Plural: τα δύο τρίτα.",
+"id": "numbers-data-25edd0b4"
+},
+{
+"type": "choice",
+"q": "**8 ÷ 2**",
+"options": [
+"οκτώ επί δύο",
+"οκτώ διά δύο",
+"οκτώ πλην δύο",
+"οκτώ συν δύο"
+],
+"answer": "οκτώ διά δύο",
+"why": "÷ = διά.",
+"id": "numbers-data-a0daeeaa"
+},
+{
+"type": "choice",
+"q": "**3 × 3**",
+"options": [
+"τρεις επί τρεις",
+"τρία επί τρία",
+"τρίτο επί τρίτο",
+"τρεις φορές τρεις"
+],
+"answer": "τρία επί τρία",
+"why": "Sums use the neuter: τρία.",
+"id": "numbers-data-b9c8efe5"
+},
+{
+"type": "choice",
+"q": "**1,5** (reading the figure)",
+"options": [
+"ένα πέντε",
+"ένα κόμμα πέντε",
+"ένα τελεία πέντε",
+"δεκαπέντε"
+],
+"answer": "ένα κόμμα πέντε",
+"why": "Decimal comma: κόμμα.",
+"id": "numbers-data-a9b352d6"
+},
+{
+"type": "choice",
+"q": "___ χρόνια (3.5)",
+"options": [
+"τρεισήμισι",
+"τριάμισι",
+"τρεις και μισή",
+"τρία μισά"
+],
+"answer": "τριάμισι",
+"why": "Neuter (τα χρόνια): τριάμισι.",
+"id": "numbers-data-fd96d596"
+},
+{
+"type": "choice",
+"q": "___ ώρες (3.5)",
+"options": [
+"τριάμισι",
+"τρεισήμισι",
+"τρία και μισό",
+"τρεις μισές"
+],
+"answer": "τρεισήμισι",
+"why": "Feminine (οι ώρες): τρεισήμισι.",
+"id": "numbers-data-a1dc6fea"
+},
+{
+"type": "write",
+"q": "Read aloud: **10 − 4 = 6**",
+"answer": "δέκα πλην τέσσερα ίσον έξι",
+"accept": [
+"δέκα μείον τέσσερα ίσον έξι",
+"δέκα πλην τέσσερα κάνει έξι",
+"δέκα μείον τέσσερα κάνει έξι"
+],
+"why": "πλην / μείον.",
+"id": "numbers-data-83231f9f"
+},
+{
+"type": "write",
+"q": "Read aloud: **¼**",
+"answer": "το ένα τέταρτο",
+"accept": [
+"ένα τέταρτο"
+],
+"why": "Neuter.",
+"id": "numbers-data-6f3a0160"
+},
+{
+"type": "write",
+"q": "Read aloud: **2 + 2 = 4**",
+"answer": "δύο συν δύο ίσον τέσσερα",
+"accept": [
+"δύο και δύο κάνουν τέσσερα",
+"δυο και δυο κάνουν τέσσερα",
+"δύο συν δύο κάνει τέσσερα"
+],
+"why": "συν / και.",
+"id": "numbers-data-b8ff4bba"
+},
+{
+"type": "write",
+"q": "\"two thirds of the population\"",
+"answer": "τα δύο τρίτα του πληθυσμού",
+"accept": [],
+"why": "Genitive after the fraction.",
+"id": "numbers-data-1d9ea09c"
+},
+{
+"type": "write",
+"q": "Read aloud: **5²**",
+"answer": "πέντε στο τετράγωνο",
+"accept": [],
+"why": "στο τετράγωνο.",
+"id": "numbers-data-1713ee41"
+},
+{
+"type": "order",
+"q": "\"Two thirds of the students are women.\"",
+"answer": "Τα δύο τρίτα των φοιτητών είναι γυναίκες.",
+"accept": [],
+"why": "Fraction + genitive.",
+"id": "numbers-data-ab6b1844"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Μετρήσεις",
+"title": "Measurements: size, weight, temperature, distance",
+"body": [
+{
+"table": {
+"head": [
+"Measure",
+"Greek",
+"Example"
+],
+"rows": [
+[
+"m²",
+"τετραγωνικά (μέτρα), τ.μ.",
+"Ένα διαμέρισμα ογδόντα τετραγωνικών. / Το σπίτι είναι ογδόντα τετραγωνικά."
+],
+[
+"km",
+"χιλιόμετρα, χλμ.",
+"Απέχει τριάντα χιλιόμετρα."
+],
+[
+"cm",
+"εκατοστά",
+"Είναι ένα κι ογδόντα (1,80 μ.)."
+],
+[
+"kg / g",
+"κιλά / γραμμάρια",
+"δύο κιλά πατάτες, διακόσια γραμμάρια τυρί"
+],
+[
+"l",
+"λίτρα",
+"ενάμισι λίτρο νερό"
+],
+[
+"°C",
+"βαθμοί (Κελσίου)",
+"Έχει τριάντα πέντε βαθμούς."
+],
+[
+"km/h",
+"χιλιόμετρα την ώρα",
+"Πήγαινε με εκατό την ώρα."
+]
+]
+}
+},
+{
+"p": "**Dimensions and distance:**"
+},
+{
+"list": [
+"**Πόσο απέχει;** \"How far is it?\" — **Απέχει δέκα λεπτά με τα πόδια.**",
+"**Πόσο ύψος έχεις; / Τι ύψος έχεις;** — **Είμαι ένα κι εβδομήντα.**",
+"**Πόσο ζυγίζεις;** — **Ζυγίζω εβδομήντα κιλά.**",
+"**Έχει μήκος / πλάτος / βάθος δύο μέτρα.** \"It is two metres long / wide / deep.\"",
+"Temperature below zero: **μείον πέντε (βαθμοί)**, **πέντε υπό το μηδέν**."
+]
+},
+{
+"ex": [
+{
+"el": "Νοικιάζεται διαμέρισμα 65 τ.μ., 2ος όροφος.",
+"en": "Flat for rent, 65 m², 2nd floor."
+},
+{
+"el": "Αύριο η θερμοκρασία θα φτάσει τους σαράντα βαθμούς.",
+"en": "Tomorrow the temperature will reach forty degrees."
+},
+{
+"el": "Η παραλία απέχει πέντε λεπτά από το ξενοδοχείο.",
+"en": "The beach is five minutes from the hotel."
+}
+]
+},
+{
+"tip": "Quantities take the measured noun **without** a preposition or genitive: **ένα κιλό ντομάτες**, **δύο λίτρα γάλα**, **μισό κιλό κιμά** (not *ένα κιλό από ντομάτες*)."
+},
+{
+"solved": [
+{
+"q": "\"a kilo of tomatoes\"",
+"a": "ένα κιλό ντομάτες",
+"why": "No preposition after the measure."
+},
+{
+"q": "\"How far is the station?\"",
+"a": "Πόσο απέχει ο σταθμός; | Πόσο μακριά είναι ο σταθμός;",
+"why": "απέχω = be away."
+},
+{
+"q": "\"It's 38 degrees.\"",
+"a": "Έχει τριάντα οχτώ βαθμούς. | Κάνει τριάντα οχτώ βαθμούς. | Έχει τριάντα οκτώ βαθμούς. | Η θερμοκρασία είναι τριάντα οχτώ βαθμοί.",
+"why": "έχει / κάνει + accusative."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θέλω δύο κιλά ___. (potatoes)",
+"options": [
+"από πατάτες",
+"πατάτες",
+"πατατών",
+"με πατάτες"
+],
+"answer": "πατάτες",
+"why": "No preposition after the measure.",
+"id": "numbers-data-f0e19741"
+},
+{
+"type": "choice",
+"q": "Πόσο ___ το χωριό; (is it away)",
+"options": [
+"απέχεις",
+"απέχει",
+"απέχουν",
+"απέχω"
+],
+"answer": "απέχει",
+"why": "The village is the subject: απέχει.",
+"id": "numbers-data-28546e90"
+},
+{
+"type": "choice",
+"q": "Έχει σαράντα ___ σήμερα. (degrees)",
+"options": [
+"βαθμοί",
+"βαθμούς",
+"βαθμών",
+"βαθμό"
+],
+"answer": "βαθμούς",
+"why": "έχει + accusative: βαθμούς.",
+"id": "numbers-data-b727854c"
+},
+{
+"type": "choice",
+"q": "Το σπίτι είναι ογδόντα ___. (m²)",
+"options": [
+"τετραγωνικών",
+"τετραγωνικά",
+"τετράγωνα",
+"τετραγωνικούς"
+],
+"answer": "τετραγωνικά",
+"why": "Neuter plural: (μέτρα) τετραγωνικά.",
+"id": "numbers-data-d786e8a5"
+},
+{
+"type": "choice",
+"q": "Είμαι ένα ___ ογδόντα. (1.80 m)",
+"options": [
+"και μισό",
+"κι",
+"σε",
+"με"
+],
+"answer": "κι",
+"why": "ένα κι ογδόντα.",
+"id": "numbers-data-dcdd186c"
+},
+{
+"type": "choice",
+"q": "Η θερμοκρασία έπεσε στους μείον ___. (5)",
+"options": [
+"πέμπτο",
+"πέντε",
+"πέντες",
+"πεντέ"
+],
+"answer": "πέντε",
+"why": "Numbers after μείον don't change.",
+"id": "numbers-data-396e54b9"
+},
+{
+"type": "write",
+"q": "\"half a kilo of mince\"",
+"answer": "μισό κιλό κιμά",
+"accept": [],
+"why": "Measure + noun.",
+"id": "numbers-data-058d384a"
+},
+{
+"type": "write",
+"q": "\"How much do you (sg) weigh?\"",
+"answer": "Πόσο ζυγίζεις;",
+"accept": [],
+"why": "ζυγίζω.",
+"id": "numbers-data-49468056"
+},
+{
+"type": "write",
+"q": "\"two litres of milk\"",
+"answer": "δύο λίτρα γάλα",
+"accept": [
+"δυο λίτρα γάλα"
+],
+"why": "No preposition.",
+"id": "numbers-data-868ab93b"
+},
+{
+"type": "write",
+"q": "\"minus five degrees\"",
+"answer": "μείον πέντε βαθμοί",
+"accept": [
+"πέντε βαθμοί υπό το μηδέν",
+"μείον πέντε"
+],
+"why": "μείον.",
+"id": "numbers-data-de8c12c9"
+},
+{
+"type": "write",
+"q": "\"It's ten minutes on foot.\"",
+"answer": "Είναι δέκα λεπτά με τα πόδια.",
+"accept": [
+"Απέχει δέκα λεπτά με τα πόδια."
+],
+"why": "με τα πόδια.",
+"id": "numbers-data-281cc08f"
+},
+{
+"type": "order",
+"q": "\"The beach is five minutes from the hotel.\"",
+"answer": "Η παραλία απέχει πέντε λεπτά από το ξενοδοχείο.",
+"accept": [],
+"why": "απέχω από.",
+"id": "numbers-data-8368a0cd"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Κατανομή και συχνότητα",
+"title": "One in three, two each, every other day",
+"body": [
+{
+"table": {
+"head": [
+"Expression",
+"Meaning",
+"Example"
+],
+"rows": [
+[
+"ένας στους τρεις / μία στις τρεις",
+"one in three",
+"Ένας στους τρεις Έλληνες καπνίζει."
+],
+[
+"ο καθένας / η καθεμία",
+"each (one)",
+"Κοστίζουν δέκα ευρώ το καθένα."
+],
+[
+"από + number",
+"... each",
+"Πήραν από δύο γλυκά."
+],
+[
+"δυο-δυο, ένας-ένας",
+"two by two, one by one",
+"Μπείτε ένας-ένας."
+],
+[
+"ανά + accusative",
+"per",
+"120 χιλιόμετρα ανά ώρα, ανά άτομο"
+],
+[
+"το + time unit",
+"per, a",
+"δέκα ευρώ το κιλό, δύο φορές τον μήνα"
+],
+[
+"κάθε δεύτερη μέρα / μέρα παρά μέρα",
+"every other day",
+"Παίρνει το χάπι μέρα παρά μέρα."
+],
+[
+"κάθε τρεις μέρες",
+"every three days",
+"Ποτίζω κάθε τρεις μέρες."
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Ένας στους πέντε νέους δεν έχει δουλειά.",
+"en": "One in five young people has no job."
+},
+{
+"el": "Τα δωμάτια κοστίζουν εβδομήντα ευρώ ανά άτομο.",
+"en": "The rooms cost seventy euros per person."
+},
+{
+"el": "Η γιαγιά έδωσε στα εγγόνια από πενήντα ευρώ.",
+"en": "Grandma gave the grandchildren fifty euros each."
+},
+{
+"el": "Το λεωφορείο περνάει κάθε είκοσι λεπτά.",
+"en": "The bus comes every twenty minutes."
+}
+]
+},
+{
+"tip": "In **ένας στους τρεις** the first number agrees with the noun and the verb is **singular**: **Μία στις τέσσερις γυναίκες εργάζεται από το σπίτι.**"
+},
+{
+"solved": [
+{
+"q": "\"one in four Greeks\"",
+"a": "ένας στους τέσσερις Έλληνες",
+"why": "Masculine ένας ... στους τέσσερις."
+},
+{
+"q": "\"ten euros a kilo\"",
+"a": "δέκα ευρώ το κιλό",
+"why": "το + unit = per."
+},
+{
+"q": "\"every other day\"",
+"a": "μέρα παρά μέρα | κάθε δεύτερη μέρα | κάθε δύο μέρες",
+"why": "Fixed expressions."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ στους τρεις νέους μένει με τους γονείς του. (One)",
+"options": [
+"Μία",
+"Ένας",
+"Ένα",
+"Έναν"
+],
+"answer": "Ένας",
+"why": "Masculine νέους: ένας.",
+"id": "numbers-data-aff9c5ed"
+},
+{
+"type": "choice",
+"q": "___ στις πέντε γυναίκες εργάζεται. (One)",
+"options": [
+"Ένας",
+"Μία",
+"Ένα",
+"Μίας"
+],
+"answer": "Μία",
+"why": "Feminine: μία.",
+"id": "numbers-data-360daba7"
+},
+{
+"type": "choice",
+"q": "Κοστίζει πέντε ευρώ ___ κιλό. (a)",
+"options": [
+"στο",
+"το",
+"ανά το",
+"του"
+],
+"answer": "το",
+"why": "το κιλό = per kilo.",
+"id": "numbers-data-c22b2fa8"
+},
+{
+"type": "choice",
+"q": "Πήραν ___ δύο σοκολάτες. (each)",
+"options": [
+"ανά της",
+"από",
+"κάθε",
+"με"
+],
+"answer": "από",
+"why": "από + number = each.",
+"id": "numbers-data-6923b4ba"
+},
+{
+"type": "choice",
+"q": "Το λεωφορείο περνάει ___ μισή ώρα. (every)",
+"options": [
+"κάθε μια",
+"κάθε",
+"όλη",
+"σε"
+],
+"answer": "κάθε",
+"why": "κάθε + time.",
+"id": "numbers-data-4a0cd697"
+},
+{
+"type": "choice",
+"q": "Μπείτε ___! (one by one)",
+"options": [
+"ένας στους ένας",
+"ένας-ένας",
+"ανά ένας",
+"ένα το ένα"
+],
+"answer": "ένας-ένας",
+"why": "ένας-ένας.",
+"id": "numbers-data-22a2bf74"
+},
+{
+"type": "choice",
+"q": "Ένας στους τρεις Έλληνες ___. (smokes)",
+"options": [
+"καπνίζουν",
+"καπνίζει",
+"κάπνιζε",
+"καπνίσει"
+],
+"answer": "καπνίζει",
+"why": "Singular verb with ένας.",
+"id": "numbers-data-800840cc"
+},
+{
+"type": "write",
+"q": "\"per person\"",
+"answer": "ανά άτομο",
+"accept": [
+"το άτομο"
+],
+"why": "ανά.",
+"id": "numbers-data-d956e66a"
+},
+{
+"type": "write",
+"q": "\"every twenty minutes\"",
+"answer": "κάθε είκοσι λεπτά",
+"accept": [],
+"why": "κάθε + number.",
+"id": "numbers-data-9ae43989"
+},
+{
+"type": "write",
+"q": "\"twice a month\"",
+"answer": "δύο φορές τον μήνα",
+"accept": [
+"δυο φορές τον μήνα",
+"δύο φορές το μήνα",
+"δυο φορές το μήνα"
+],
+"why": "το / τον + unit.",
+"id": "numbers-data-8b0006b2"
+},
+{
+"type": "write",
+"q": "\"one in ten students\" (male)",
+"answer": "ένας στους δέκα μαθητές",
+"accept": [
+"ένας στους δέκα φοιτητές"
+],
+"why": "ένας στους.",
+"id": "numbers-data-e60f20c4"
+},
+{
+"type": "write",
+"q": "\"They cost ten euros each.\" (τα εισιτήρια)",
+"answer": "Κοστίζουν δέκα ευρώ το καθένα.",
+"accept": [
+"Κάνουν δέκα ευρώ το καθένα.",
+"Κοστίζουν από δέκα ευρώ."
+],
+"why": "το καθένα.",
+"id": "numbers-data-c3f28ec1"
+},
+{
+"type": "order",
+"q": "\"One in five young people has no job.\"",
+"answer": "Ένας στους πέντε νέους δεν έχει δουλειά.",
+"accept": [],
+"why": "Singular verb.",
+"id": "numbers-data-1dd0c5d3"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Περιγραφή στατιστικών",
+"title": "Describing figures and charts",
+"body": [
+{
+"table": {
+"head": [
+"Verb",
+"Meaning",
+"+ κατά (by) / σε (to)"
+],
+"rows": [
+[
+"αυξάνομαι / ανεβαίνω",
+"rise",
+"αυξήθηκε κατά 5% / στο 15%"
+],
+[
+"μειώνομαι / πέφτω",
+"fall",
+"μειώθηκε κατά το ήμισυ / έπεσε στο 8%"
+],
+[
+"διπλασιάζομαι",
+"double",
+"Οι τιμές διπλασιάστηκαν."
+],
+[
+"παραμένω σταθερός",
+"remain stable",
+"Η ανεργία παρέμεινε σταθερή."
+],
+[
+"κυμαίνομαι",
+"range, fluctuate",
+"Οι τιμές κυμαίνονται από 2 έως 5 ευρώ."
+],
+[
+"φτάνω / αγγίζω",
+"reach / approach",
+"Η ανεργία άγγιξε το 20%."
+],
+[
+"ξεπερνώ",
+"exceed",
+"Οι επισκέπτες ξεπέρασαν τα 30 εκατομμύρια."
+]
+]
+}
+},
+{
+"p": "**Κατά** gives the size of the change; **σε / στο** gives the new level: **Η ανεργία αυξήθηκε κατά δύο μονάδες, στο 12%.**"
+},
+{
+"table": {
+"head": [
+"Noun phrase",
+"Meaning"
+],
+"rows": [
+[
+"το 30% των νέων",
+"30% of young people"
+],
+[
+"η πλειονότητα / η πλειοψηφία",
+"the majority"
+],
+[
+"η μειονότητα / η μειοψηφία",
+"the minority"
+],
+[
+"οι μισοί / οι περισσότεροι",
+"half / most (people)"
+],
+[
+"μια ελαφρά / σημαντική / ραγδαία αύξηση",
+"a slight / significant / sharp rise"
+],
+[
+"σε σύγκριση με / σε σχέση με",
+"compared with"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Ο αριθμός των τουριστών αυξήθηκε κατά 10% σε σχέση με πέρσι.",
+"en": "The number of tourists rose by 10% compared with last year."
+},
+{
+"el": "Το 60% των ερωτηθέντων δήλωσε ότι διαβάζει ειδήσεις στο κινητό.",
+"en": "60% of respondents said they read the news on their phone."
+},
+{
+"el": "Οι περισσότεροι προτιμούν το αυτοκίνητο.",
+"en": "Most people prefer the car."
+},
+{
+"el": "Παρατηρείται σημαντική μείωση των γεννήσεων.",
+"en": "A significant fall in births is observed."
+}
+]
+},
+{
+"tip": "With **το + %** the verb is usually **singular** in careful writing (**Το 60% δήλωσε**), but the plural is common when a plural noun follows (**Το 60% των Ελλήνων δηλώνουν**). **Οι περισσότεροι** \"most people\" takes a plural verb."
+},
+{
+"solved": [
+{
+"q": "\"Unemployment fell by 2%.\"",
+"a": "Η ανεργία μειώθηκε κατά 2%. | Η ανεργία μειώθηκε κατά δύο τοις εκατό. | Η ανεργία έπεσε κατά 2%.",
+"why": "κατά = by."
+},
+{
+"q": "\"Unemployment fell to 10%.\"",
+"a": "Η ανεργία μειώθηκε στο 10%. | Η ανεργία έπεσε στο 10%. | Η ανεργία μειώθηκε στο δέκα τοις εκατό.",
+"why": "σε = to."
+},
+{
+"q": "\"Prices range from 3 to 5 euros.\"",
+"a": "Οι τιμές κυμαίνονται από 3 έως 5 ευρώ. | Οι τιμές κυμαίνονται από τρία έως πέντε ευρώ. | Οι τιμές κυμαίνονται από 3 μέχρι 5 ευρώ.",
+"why": "κυμαίνομαι από... έως."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Οι τιμές αυξήθηκαν ___ 5%. (by)",
+"options": [
+"στο",
+"κατά",
+"από το",
+"με το"
+],
+"answer": "κατά",
+"why": "κατά = by.",
+"id": "numbers-data-97c8047a"
+},
+{
+"type": "choice",
+"q": "Η ανεργία έπεσε ___ 9%. (to)",
+"options": [
+"κατά",
+"στο",
+"από",
+"με"
+],
+"answer": "στο",
+"why": "σε = to.",
+"id": "numbers-data-6e46b053"
+},
+{
+"type": "choice",
+"q": "Οι τιμές ___. (doubled)",
+"options": [
+"διπλασίασαν",
+"διπλασιάστηκαν",
+"διπλώθηκαν",
+"διπλάσιασαν"
+],
+"answer": "διπλασιάστηκαν",
+"why": "Passive: διπλασιάστηκαν.",
+"id": "numbers-data-d990569d"
+},
+{
+"type": "choice",
+"q": "Οι θερμοκρασίες ___ από 20 έως 25 βαθμούς. (range)",
+"options": [
+"κυμαίνει",
+"κυμαίνονται",
+"κυμαίνονταν να",
+"κυμάζουν"
+],
+"answer": "κυμαίνονται",
+"why": "κυμαίνονται.",
+"id": "numbers-data-2979f6bb"
+},
+{
+"type": "choice",
+"q": "___ των Ελλήνων ζει σε πόλεις. (The majority)",
+"options": [
+"Η μειονότητα",
+"Η πλειονότητα",
+"Ο πλείστος",
+"Το πλείστο"
+],
+"answer": "Η πλειονότητα",
+"why": "πλειονότητα = majority.",
+"id": "numbers-data-b3855004"
+},
+{
+"type": "choice",
+"q": "Οι επισκέπτες ___ τα 30 εκατομμύρια. (exceeded)",
+"options": [
+"ξεπέρασε",
+"ξεπέρασαν",
+"ξεπερνάει",
+"ξεπεράστηκαν"
+],
+"answer": "ξεπέρασαν",
+"why": "Plural subject: ξεπέρασαν.",
+"id": "numbers-data-164e4a5d"
+},
+{
+"type": "choice",
+"q": "Η ανεργία ___ σταθερή. (remained)",
+"options": [
+"έμεινε σταθερά",
+"παρέμεινε",
+"παρέμειναν",
+"παραμένουν"
+],
+"answer": "παρέμεινε",
+"why": "παρέμεινε σταθερή.",
+"id": "numbers-data-64f48228"
+},
+{
+"type": "choice",
+"q": "Οι ___ προτιμούν το αυτοκίνητο. (most people)",
+"options": [
+"πιο πολλοί από",
+"περισσότεροι",
+"πλειονότητες",
+"πλείστη"
+],
+"answer": "περισσότεροι",
+"why": "Οι περισσότεροι.",
+"id": "numbers-data-27b7929e"
+},
+{
+"type": "write",
+"q": "\"a sharp rise\"",
+"answer": "μια ραγδαία αύξηση",
+"accept": [
+"ραγδαία αύξηση",
+"μια απότομη αύξηση",
+"απότομη αύξηση"
+],
+"why": "ραγδαία αύξηση.",
+"id": "numbers-data-35927753"
+},
+{
+"type": "write",
+"q": "\"compared with last year\"",
+"answer": "σε σχέση με πέρσι",
+"accept": [
+"σε σύγκριση με πέρσι",
+"σε σχέση με την προηγούμενη χρονιά",
+"σε σύγκριση με την προηγούμενη χρονιά"
+],
+"why": "σε σχέση με.",
+"id": "numbers-data-3acfbf18"
+},
+{
+"type": "write",
+"q": "\"30% of young people\"",
+"answer": "το 30% των νέων",
+"accept": [
+"το τριάντα τοις εκατό των νέων"
+],
+"why": "το + % + genitive.",
+"id": "numbers-data-de588362"
+},
+{
+"type": "write",
+"q": "\"Prices rose by 10%.\"",
+"answer": "Οι τιμές αυξήθηκαν κατά 10%.",
+"accept": [
+"Οι τιμές ανέβηκαν κατά 10%.",
+"Οι τιμές αυξήθηκαν κατά δέκα τοις εκατό."
+],
+"why": "κατά.",
+"id": "numbers-data-1aaf35a5"
+},
+{
+"type": "write",
+"q": "\"The visitors exceeded two million.\"",
+"answer": "Οι επισκέπτες ξεπέρασαν τα δύο εκατομμύρια.",
+"accept": [
+"Οι επισκέπτες ξεπέρασαν τα δυο εκατομμύρια."
+],
+"why": "ξεπερνώ + accusative.",
+"id": "numbers-data-e676957e"
+},
+{
+"type": "order",
+"q": "\"Unemployment rose to 12%.\"",
+"answer": "Η ανεργία αυξήθηκε στο 12%.",
+"accept": [],
+"why": "σε = to.",
+"id": "numbers-data-80bb4dbe"
+}
+]
+}
+]
+}
+],
+"id": "numbers-data",
+"el": "Αριθμοί, ποσότητες και στατιστικά",
+"title": "Numbers in use: amounts, maths and statistics",
+"span": "B1–B2",
+"blurb": "Numbers beyond counting: approximate amounts (κάνα δυο, καμιά δεκαριά, γύρω στα σαράντα), groups (δεκάδα, ντουζίνα, εκατοντάδες), double and triple (διπλός, διπλάσιος), fractions and decimals (τα δύο τρίτα, μηδέν κόμμα πέντε), arithmetic (συν, πλην, επί, διά), measurements (τετραγωνικά, βαθμοί), \"one in three\" and \"every other day\", and the language of rising and falling figures (αυξήθηκε κατά 5%, έπεσε στο 10%) that the B2 papers use for charts.",
+"intro": [
+{
+"p": "Chapter 14 covers counting, ordinals, the time, dates, prices and ages. This chapter is about **using** numbers: saying roughly how many, comparing amounts, doing sums aloud, and describing statistics. The last two sections are what the B2 exam expects when you describe a chart or summarise a report."
+},
+{
+"links": [
+{
+"href": "#a2-numerals",
+"kind": "Lesson",
+"el": "Αριθμητικά",
+"title": "Numbers, time and dates"
+},
+{
+"href": "#sit-a1-numbers-time",
+"kind": "Lesson",
+"el": "Αριθμοί, ώρα, μέρες, ημερομηνίες",
+"title": "Numbers, time, days and dates"
+},
+{
+"href": "#theme-economy",
+"kind": "Lesson",
+"el": "Οικονομία, κόστος ζωής και κατανάλωση",
+"title": "Theme: economy, cost of living and consumption"
+},
+{
+"href": "#exam-writing-essay",
+"kind": "Lesson",
+"el": "Κείμενο γνώμης και επιχειρηματολογία",
+"title": "Exam writing 3: opinion and argument texts"
+},
+{
+"href": "#pos.numeral",
+"kind": "Part of speech",
+"el": "Τα αριθμητικά",
+"title": "Numerals"
+},
+{
+"href": "#cards.cardinals",
+"kind": "Card",
+"el": "Απόλυτα αριθμητικά",
+"title": "Counting"
+},
+{
+"href": "#theoria.numbers",
+"kind": "Chapter",
+"el": "Αριθμοί, ώρα, ημερομηνίες",
+"title": "Numbers, time, dates and money"
+}
+]
+}
+],
+"num": 43
+}

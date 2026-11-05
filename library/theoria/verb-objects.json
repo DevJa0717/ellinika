@@ -1,0 +1,1856 @@
+{
+"sections": [
+{
+"level": "B1",
+"el": "Αιτιατική χωρίς πρόθεση",
+"title": "Straight to the accusative: no preposition",
+"body": [
+{
+"p": "Many verbs that need a preposition in English take a **plain accusative** in Greek. The object comes straight after the verb, and as a pronoun it is the weak accusative (**με, σε, τον, την, το...**)."
+},
+{
+"table": {
+"head": [
+"Greek",
+"English",
+"Example"
+],
+"rows": [
+[
+"περιμένω κάποιον",
+"wait for",
+"Σε περιμένω στη στάση."
+],
+[
+"ψάχνω κάτι",
+"look for",
+"Ψάχνω τα κλειδιά μου."
+],
+[
+"κοιτάζω / κοιτάω κάτι",
+"look at",
+"Κοίτα αυτό!"
+],
+[
+"ακούω κάτι",
+"listen to",
+"Ακούω μουσική."
+],
+[
+"ζητάω κάτι",
+"ask for",
+"Ζήτησα τον λογαριασμό."
+],
+[
+"πληρώνω κάτι",
+"pay for",
+"Πλήρωσα τα εισιτήρια."
+],
+[
+"βοηθάω κάποιον",
+"help",
+"Βοήθησέ με λίγο."
+],
+[
+"ρωτάω κάποιον",
+"ask (a question)",
+"Ρώτα τον σερβιτόρο."
+],
+[
+"εμπιστεύομαι κάποιον",
+"trust",
+"Δεν τον εμπιστεύομαι."
+],
+[
+"θυμάμαι κάτι",
+"remember",
+"Θυμάσαι τη Μαρία;"
+],
+[
+"φοβάμαι κάτι",
+"be afraid of",
+"Φοβάμαι τα σκυλιά."
+],
+[
+"ευχαριστώ κάποιον (για κάτι)",
+"thank",
+"Σε ευχαριστώ για όλα."
+]
+]
+}
+},
+{
+"tip": "**Βοηθάω** and **ρωτάω** take the **accusative**: **Τον βοήθησα. Τη ρώτησα.** Forms like *του ρώτησα* or *της βοήθησα* are wrong in standard Greek. (In parts of northern Greece people say *σε λέω* for **σου λέω**: that is regional, not standard.)"
+},
+{
+"ex": [
+{
+"el": "Τι ψάχνεις; — Τα γυαλιά μου.",
+"en": "What are you looking for? — My glasses."
+},
+{
+"el": "Περίμενέ με, έρχομαι!",
+"en": "Wait for me, I'm coming!"
+},
+{
+"el": "Πόσο πλήρωσες το σπίτι;",
+"en": "How much did you pay for the house?"
+},
+{
+"el": "Ευχαριστώ πολύ για τη βοήθεια.",
+"en": "Thanks a lot for the help."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I'm waiting for the bus.\"",
+"a": "Περιμένω το λεωφορείο.",
+"why": "No preposition: περιμένω + accusative."
+},
+{
+"q": "\"Help (sg) me!\"",
+"a": "Βοήθησέ με! | Βοήθα με!",
+"why": "βοηθάω + accusative pronoun με."
+},
+{
+"q": "\"I asked her the time.\"",
+"a": "Τη ρώτησα την ώρα. | Τη ρώτησα τι ώρα είναι.",
+"why": "ρωτάω + accusative of the person."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Σε ___ στο καφέ. (I'm waiting for)",
+"options": [
+"περιμένω για",
+"περιμένω",
+"περιμένω σε",
+"περιμένω από"
+],
+"answer": "περιμένω",
+"why": "περιμένω + accusative, no preposition.",
+"id": "verb-objects-9c01a56b"
+},
+{
+"type": "choice",
+"q": "___ ρώτησα αλλά δεν ήξερε. (I asked him)",
+"options": [
+"Του",
+"Τον",
+"Τους",
+"Το"
+],
+"answer": "Τον",
+"why": "ρωτάω takes the accusative: τον.",
+"id": "verb-objects-cf9c73fb"
+},
+{
+"type": "choice",
+"q": "Μπορείς να ___ λίγο; (help me)",
+"options": [
+"μου βοηθήσεις",
+"με βοηθήσεις",
+"βοηθήσεις μου",
+"βοηθήσεις σε μένα"
+],
+"answer": "με βοηθήσεις",
+"why": "βοηθάω + accusative.",
+"id": "verb-objects-62ab111d"
+},
+{
+"type": "choice",
+"q": "Ψάχνω ___. (my phone)",
+"options": [
+"για το κινητό μου",
+"το κινητό μου",
+"στο κινητό μου",
+"από το κινητό μου"
+],
+"answer": "το κινητό μου",
+"why": "ψάχνω + accusative.",
+"id": "verb-objects-9a97347a"
+},
+{
+"type": "choice",
+"q": "Ποιος ___ τα εισιτήρια; (paid for)",
+"options": [
+"πλήρωσε για",
+"πλήρωσε",
+"πλήρωσε σε",
+"πλήρωσε με"
+],
+"answer": "πλήρωσε",
+"why": "πληρώνω + accusative.",
+"id": "verb-objects-025628ce"
+},
+{
+"type": "choice",
+"q": "Σε ευχαριστώ ___ το δώρο. (for)",
+"options": [
+"σε",
+"για",
+"από",
+"με"
+],
+"answer": "για",
+"why": "ευχαριστώ κάποιον για κάτι.",
+"id": "verb-objects-ba62cd07"
+},
+{
+"type": "write",
+"q": "\"Look (sg) at this!\"",
+"answer": "Κοίτα αυτό!",
+"accept": [
+"Κοίταξε αυτό!",
+"Κοίτα το!"
+],
+"why": "κοιτάζω + accusative.",
+"id": "verb-objects-f6354f29"
+},
+{
+"type": "write",
+"q": "\"We're looking for a flat.\"",
+"answer": "Ψάχνουμε διαμέρισμα.",
+"accept": [
+"Ψάχνουμε ένα διαμέρισμα."
+],
+"why": "No preposition.",
+"id": "verb-objects-95ff3ed7"
+},
+{
+"type": "write",
+"q": "\"I don't trust him.\"",
+"answer": "Δεν τον εμπιστεύομαι.",
+"accept": [],
+"why": "εμπιστεύομαι + accusative.",
+"id": "verb-objects-c1d639c1"
+},
+{
+"type": "write",
+"q": "\"Ask (sg) the waiter.\"",
+"answer": "Ρώτα τον σερβιτόρο.",
+"accept": [
+"Ρώτησε τον σερβιτόρο."
+],
+"why": "ρωτάω + accusative.",
+"id": "verb-objects-66a4fd68"
+},
+{
+"type": "write",
+"q": "\"I asked for the bill.\"",
+"answer": "Ζήτησα τον λογαριασμό.",
+"accept": [],
+"why": "ζητάω = ask for.",
+"id": "verb-objects-3e25af37"
+},
+{
+"type": "write",
+"q": "\"Are you (sg) afraid of dogs?\"",
+"answer": "Φοβάσαι τα σκυλιά;",
+"accept": [],
+"why": "φοβάμαι + accusative.",
+"id": "verb-objects-e7a0b6d5"
+},
+{
+"type": "order",
+"q": "\"Wait (sg) for me at the stop.\"",
+"answer": "Περίμενέ με στη στάση.",
+"accept": [],
+"why": "Imperative + weak pronoun after it.",
+"id": "verb-objects-516e00cb"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ρήματα με «σε» και «από»",
+"title": "Verbs with σε and από",
+"body": [
+{
+"table": {
+"head": [
+"Greek",
+"English",
+"Example"
+],
+"rows": [
+[
+"απαντάω σε",
+"answer, reply to",
+"Απάντησε στο μήνυμά μου."
+],
+[
+"τηλεφωνώ σε",
+"phone",
+"Τηλεφώνησα στη γιαγιά."
+],
+[
+"ανήκω σε",
+"belong to",
+"Σε ποιον ανήκει αυτό;"
+],
+[
+"συμμετέχω σε",
+"take part in",
+"Συμμετείχα σε ένα σεμινάριο."
+],
+[
+"επιμένω σε",
+"insist on",
+"Επιμένει στην άποψή του."
+],
+[
+"χρωστάω σε",
+"owe",
+"Χρωστάω λεφτά στην τράπεζα."
+],
+[
+"οφείλεται σε",
+"be due to",
+"Η καθυστέρηση οφείλεται στην κίνηση."
+],
+[
+"εξαρτάται από",
+"depend on",
+"Εξαρτάται από τον καιρό."
+],
+[
+"αποτελείται από",
+"consist of",
+"Η ομάδα αποτελείται από δέκα άτομα."
+],
+[
+"παραιτούμαι από",
+"resign from",
+"Παραιτήθηκε από τη δουλειά."
+],
+[
+"κρύβω από",
+"hide from",
+"Μου κρύβεις κάτι; / Κρύφτηκε από τον σκύλο."
+],
+[
+"ξεχωρίζω από",
+"stand out from, tell apart",
+"Ξεχωρίζει από τους άλλους."
+]
+]
+}
+},
+{
+"p": "With a **pronoun**, σε + person is usually the **weak genitive** before the verb: **απάντησε στη Μαρία → της απάντησε; τηλεφώνησα στον Νίκο → του τηλεφώνησα; χρωστάω στον Γιάννη → του χρωστάω.** With από, use the strong form: **από μένα, από σένα, από αυτόν.**"
+},
+{
+"tip": "\"Phone someone\" has two everyday patterns: **τηλεφωνώ σε κάποιον / του τηλεφωνώ** and **παίρνω κάποιον τηλέφωνο** (accusative): **Πάρε με τηλέφωνο. Θα σε πάρω αύριο.**"
+},
+{
+"ex": [
+{
+"el": "Δεν μου απάντησε ακόμα.",
+"en": "He hasn't answered me yet."
+},
+{
+"el": "Πόσα σου χρωστάω;",
+"en": "How much do I owe you?"
+},
+{
+"el": "— Θα έρθεις; — Εξαρτάται.",
+"en": "— Will you come? — It depends."
+},
+{
+"el": "Όλα εξαρτώνται από σένα.",
+"en": "Everything depends on you."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"It depends on the price.\"",
+"a": "Εξαρτάται από την τιμή.",
+"why": "εξαρτάται από + accusative."
+},
+{
+"q": "\"I owe you (sg) a coffee.\"",
+"a": "Σου χρωστάω έναν καφέ. | Σου χρωστάω ένα καφέ.",
+"why": "Weak genitive σου for the person."
+},
+{
+"q": "\"Call (sg) me tomorrow.\"",
+"a": "Πάρε με τηλέφωνο αύριο. | Τηλεφώνησέ μου αύριο. | Πάρε με αύριο.",
+"why": "παίρνω + accusative, or τηλεφωνώ + genitive pronoun."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Δεν ___ στο μήνυμά μου. (she answered)",
+"options": [
+"απάντησε από",
+"απάντησε",
+"απάντησε για",
+"απάντησε με"
+],
+"answer": "απάντησε",
+"why": "απαντάω σε: απάντησε στο μήνυμα.",
+"id": "verb-objects-e788867c"
+},
+{
+"type": "choice",
+"q": "Εξαρτάται ___ σένα. (on)",
+"options": [
+"σε",
+"από",
+"για",
+"με"
+],
+"answer": "από",
+"why": "εξαρτάται από.",
+"id": "verb-objects-a82fdea5"
+},
+{
+"type": "choice",
+"q": "Σε ποιον ___ αυτή η τσάντα; (belongs)",
+"options": [
+"ανήκεις",
+"ανήκει",
+"ανήκουν",
+"ανήκω"
+],
+"answer": "ανήκει",
+"why": "ανήκω σε; the bag is the subject: ανήκει.",
+"id": "verb-objects-15858a4c"
+},
+{
+"type": "choice",
+"q": "Η ομάδα αποτελείται ___ οκτώ παίκτες. (of)",
+"options": [
+"σε",
+"από",
+"με",
+"για"
+],
+"answer": "από",
+"why": "αποτελούμαι από.",
+"id": "verb-objects-6b84d89a"
+},
+{
+"type": "choice",
+"q": "Θα ___ πάρω τηλέφωνο το βράδυ. (you, sg)",
+"options": [
+"σου",
+"σε",
+"εσύ",
+"σένα"
+],
+"answer": "σε",
+"why": "παίρνω κάποιον τηλέφωνο: accusative σε.",
+"id": "verb-objects-7bca0f1a"
+},
+{
+"type": "choice",
+"q": "___ τηλεφώνησα χθες. (I phoned him)",
+"options": [
+"Τον",
+"Του",
+"Αυτόν",
+"Αυτού"
+],
+"answer": "Του",
+"why": "τηλεφωνώ σε κάποιον → weak genitive του.",
+"id": "verb-objects-3a0a3991"
+},
+{
+"type": "choice",
+"q": "Η καθυστέρηση οφείλεται ___ απεργία. (to the)",
+"options": [
+"από την",
+"στην",
+"για την",
+"με την"
+],
+"answer": "στην",
+"why": "οφείλεται σε.",
+"id": "verb-objects-747e8186"
+},
+{
+"type": "write",
+"q": "\"It depends on you (sg).\"",
+"answer": "Εξαρτάται από σένα.",
+"accept": [
+"Εξαρτάται από εσένα."
+],
+"why": "από + strong pronoun.",
+"id": "verb-objects-74679a53"
+},
+{
+"type": "write",
+"q": "\"He resigned from his job.\"",
+"answer": "Παραιτήθηκε από τη δουλειά του.",
+"accept": [],
+"why": "παραιτούμαι από.",
+"id": "verb-objects-52d83b59"
+},
+{
+"type": "write",
+"q": "\"How much do I owe you (polite)?\"",
+"answer": "Πόσα σας χρωστάω;",
+"accept": [
+"Τι σας χρωστάω;"
+],
+"why": "Weak genitive σας.",
+"id": "verb-objects-a9c84787"
+},
+{
+"type": "write",
+"q": "\"She didn't answer me.\"",
+"answer": "Δεν μου απάντησε.",
+"accept": [],
+"why": "απαντάω + genitive pronoun.",
+"id": "verb-objects-b15fa2ea"
+},
+{
+"type": "write",
+"q": "\"I took part in a competition.\" (ο διαγωνισμός)",
+"answer": "Συμμετείχα σε έναν διαγωνισμό.",
+"accept": [
+"Συμμετείχα σε ένα διαγωνισμό.",
+"Πήρα μέρος σε έναν διαγωνισμό.",
+"Πήρα μέρος σε ένα διαγωνισμό."
+],
+"why": "συμμετέχω σε, past συμμετείχα.",
+"id": "verb-objects-0d058711"
+},
+{
+"type": "order",
+"q": "\"Everything depends on you (sg).\"",
+"answer": "Όλα εξαρτώνται από σένα.",
+"accept": [],
+"why": "Plural subject → εξαρτώνται.",
+"id": "verb-objects-dff35888"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ρήματα με «με» και «για»",
+"title": "Verbs with με and για",
+"body": [
+{
+"table": {
+"head": [
+"Greek",
+"English",
+"Example"
+],
+"rows": [
+[
+"συμφωνώ με",
+"agree with",
+"Συμφωνώ μαζί σου."
+],
+[
+"ασχολούμαι με",
+"deal with, be into",
+"Με τι ασχολείσαι;"
+],
+[
+"μαλώνω / τσακώνομαι με",
+"argue, quarrel with",
+"Τσακώθηκε με τον αδερφό του."
+],
+[
+"γελάω με",
+"laugh at",
+"Γελάσαμε με την ιστορία του."
+],
+[
+"μοιάζω με",
+"look like, resemble",
+"Μοιάζεις με τη μητέρα σου."
+],
+[
+"παντρεύομαι (κάποιον / με κάποιον)",
+"marry",
+"Παντρεύτηκε τον Νίκο."
+],
+[
+"ενδιαφέρομαι για",
+"be interested in",
+"Ενδιαφέρομαι για την ιστορία."
+],
+[
+"μιλάω για",
+"talk about",
+"Για τι μιλάτε;"
+],
+[
+"ανησυχώ για",
+"worry about",
+"Μην ανησυχείς για μένα."
+],
+[
+"ντρέπομαι για",
+"be ashamed of",
+"Ντρέπομαι γι' αυτό που είπα."
+],
+[
+"ψηφίζω (κάποιον) / ψηφίζω για",
+"vote (for)",
+"Ποιον θα ψηφίσεις;"
+]
+]
+}
+},
+{
+"p": "With a pronoun, **με** + person is usually **μαζί + weak genitive**: **μαζί μου, μαζί σου, μαζί του**. **Με εμένα / με σένα** is also fine, especially for contrast."
+},
+{
+"tip": "**Με τι ασχολείσαι;** is the everyday \"What do you do?\" (job or hobby). **Μοιάζω** also takes a genitive pronoun: **Μου μοιάζει** \"He looks like me\", and in speech **μοιάζει στη μάνα του**."
+},
+{
+"ex": [
+{
+"el": "— Με τι ασχολείσαι; — Είμαι μηχανικός.",
+"en": "— What do you do? — I'm an engineer."
+},
+{
+"el": "Δεν συμφωνώ καθόλου μαζί του.",
+"en": "I don't agree with him at all."
+},
+{
+"el": "Μη γελάς μαζί μου!",
+"en": "Don't laugh at me!"
+},
+{
+"el": "Ανησυχώ για τις εξετάσεις.",
+"en": "I'm worried about the exams."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"I agree with you (sg).\"",
+"a": "Συμφωνώ μαζί σου. | Συμφωνώ με σένα. | Συμφωνώ με εσένα.",
+"why": "με + person → μαζί σου."
+},
+{
+"q": "\"What are you (sg) interested in?\"",
+"a": "Για τι ενδιαφέρεσαι; | Τι σε ενδιαφέρει;",
+"why": "ενδιαφέρομαι για, or ενδιαφέρει + accusative."
+},
+{
+"q": "\"She looks like her father.\"",
+"a": "Μοιάζει με τον πατέρα της. | Μοιάζει στον πατέρα της.",
+"why": "μοιάζω με (speech also σε)."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Συμφωνώ ___. (with you, sg)",
+"options": [
+"σου",
+"μαζί σου",
+"με σου",
+"για σένα"
+],
+"answer": "μαζί σου",
+"why": "μαζί + weak genitive.",
+"id": "verb-objects-d0186997"
+},
+{
+"type": "choice",
+"q": "Με τι ___; (do you do, sg)",
+"options": [
+"ασχολείς",
+"ασχολείσαι",
+"ασχολείται",
+"ασχολούσαι"
+],
+"answer": "ασχολείσαι",
+"why": "Passive-form verb: ασχολείσαι.",
+"id": "verb-objects-0832c37b"
+},
+{
+"type": "choice",
+"q": "Ενδιαφέρομαι ___ την αρχαία ιστορία. (in)",
+"options": [
+"σε",
+"για",
+"με",
+"από"
+],
+"answer": "για",
+"why": "ενδιαφέρομαι για.",
+"id": "verb-objects-0d8cc051"
+},
+{
+"type": "choice",
+"q": "Μην ανησυχείς ___ μένα. (about)",
+"options": [
+"από",
+"για",
+"σε",
+"με"
+],
+"answer": "για",
+"why": "ανησυχώ για.",
+"id": "verb-objects-22d55293"
+},
+{
+"type": "choice",
+"q": "Γελάσαμε πολύ ___ τα αστεία του. (at)",
+"options": [
+"για",
+"με",
+"σε",
+"από"
+],
+"answer": "με",
+"why": "γελάω με.",
+"id": "verb-objects-535ab1ee"
+},
+{
+"type": "choice",
+"q": "Τσακώθηκα ___ τον αδερφό μου. (with)",
+"options": [
+"για",
+"με",
+"σε",
+"από"
+],
+"answer": "με",
+"why": "τσακώνομαι με.",
+"id": "verb-objects-f258b804"
+},
+{
+"type": "write",
+"q": "\"I don't agree with him.\"",
+"answer": "Δεν συμφωνώ μαζί του.",
+"accept": [
+"Δεν συμφωνώ με αυτόν."
+],
+"why": "μαζί του.",
+"id": "verb-objects-0d8fa46a"
+},
+{
+"type": "write",
+"q": "\"What are you (pl) talking about?\"",
+"answer": "Για τι μιλάτε;",
+"accept": [
+"Τι λέτε;"
+],
+"why": "μιλάω για.",
+"id": "verb-objects-cf100385"
+},
+{
+"type": "write",
+"q": "\"Don't (sg) worry about me.\"",
+"answer": "Μην ανησυχείς για μένα.",
+"accept": [
+"Μην ανησυχείς για εμένα."
+],
+"why": "μην + present for a general \"don't\".",
+"id": "verb-objects-fd57060e"
+},
+{
+"type": "write",
+"q": "\"You (sg) look like your mother.\"",
+"answer": "Μοιάζεις με τη μητέρα σου.",
+"accept": [
+"Μοιάζεις με τη μάνα σου.",
+"Μοιάζεις της μητέρας σου."
+],
+"why": "μοιάζω με.",
+"id": "verb-objects-5b205481"
+},
+{
+"type": "write",
+"q": "\"We argued about money.\"",
+"answer": "Μαλώσαμε για λεφτά.",
+"accept": [
+"Τσακωθήκαμε για λεφτά.",
+"Μαλώσαμε για τα λεφτά.",
+"Τσακωθήκαμε για τα λεφτά."
+],
+"why": "για = about.",
+"id": "verb-objects-7eae5e68"
+},
+{
+"type": "order",
+"q": "\"I'm interested in history.\"",
+"answer": "Ενδιαφέρομαι για την ιστορία.",
+"accept": [],
+"why": "ενδιαφέρομαι για.",
+"id": "verb-objects-679db9c7"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Δύο αντικείμενα",
+"title": "Two objects, and the genitive pronoun \"on me\"",
+"body": [
+{
+"p": "Some verbs take **two objects**: the thing and the person."
+},
+{
+"table": {
+"head": [
+"Pattern",
+"Example"
+],
+"rows": [
+[
+"δίνω, στέλνω, φέρνω, λέω κάτι σε κάποιον",
+"Έδωσα το βιβλίο στη Μαρία. → Της το έδωσα."
+],
+[
+"ρωτάω κάποιον κάτι (two accusatives)",
+"Με ρώτησε το όνομά μου."
+],
+[
+"κερνάω κάποιον κάτι (two accusatives)",
+"Σε κερνάω έναν καφέ."
+],
+[
+"μαθαίνω / διδάσκω σε κάποιον κάτι",
+"Μου έμαθε να οδηγώ."
+],
+[
+"χρεώνω κάποιον κάτι",
+"Μας χρέωσαν δέκα ευρώ."
+]
+]
+}
+},
+{
+"p": "The **weak genitive** also marks the person who **gains or loses** by the action, where English uses \"on me\", \"for me\" or a possessive:"
+},
+{
+"ex": [
+{
+"el": "Μου έκλεψαν το πορτοφόλι!",
+"en": "My wallet was stolen! (lit. they stole the wallet on me)"
+},
+{
+"el": "Μου χάλασε το αυτοκίνητο.",
+"en": "My car broke down (on me)."
+},
+{
+"el": "Θα σου κρατήσω μια θέση.",
+"en": "I'll keep a seat for you."
+},
+{
+"el": "Μου κόπηκε το ρεύμα.",
+"en": "My electricity got cut off."
+},
+{
+"el": "Μη μου κλαις τώρα!",
+"en": "Don't go crying on me now!"
+}
+]
+},
+{
+"p": "The last one is the **ethic genitive**: it adds feeling, not information, and is very common in speech: **Μου μεγάλωσες!** \"Look how you've grown!\""
+},
+{
+"tip": "Two weak pronouns: **genitive first, accusative second**: **μου το, σου τα, της τον**. **Δώσε μου το → Δώσ' μου το**, and before the verb **Θα σου το φέρω**."
+},
+{
+"solved": [
+{
+"q": "\"They charged us twenty euros.\"",
+"a": "Μας χρέωσαν είκοσι ευρώ.",
+"why": "χρεώνω + accusative μας."
+},
+{
+"q": "\"My phone was stolen.\"",
+"a": "Μου έκλεψαν το κινητό. | Μου έκλεψαν το τηλέφωνο.",
+"why": "Genitive of the person who loses."
+},
+{
+"q": "\"I'll tell you (sg) it tomorrow.\"",
+"a": "Θα σου το πω αύριο.",
+"why": "Genitive before accusative."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ ρώτησε το όνομά μου. (He asked me)",
+"options": [
+"Μου",
+"Με",
+"Μένα",
+"Εμένα"
+],
+"answer": "Με",
+"why": "ρωτάω + accusative: με.",
+"id": "verb-objects-ec52a4a0"
+},
+{
+"type": "choice",
+"q": "Σε κερνάω ___ καφέ. (a)",
+"options": [
+"ενός",
+"έναν",
+"ένας",
+"ένα του"
+],
+"answer": "έναν",
+"why": "κερνάω + two accusatives: έναν καφέ.",
+"id": "verb-objects-5a305a60"
+},
+{
+"type": "choice",
+"q": "___ έκλεψαν την τσάντα! (they stole... on her)",
+"options": [
+"Την",
+"Της",
+"Αυτή",
+"Αυτήν"
+],
+"answer": "Της",
+"why": "Genitive of the person who loses: της.",
+"id": "verb-objects-ec5ae4f6"
+},
+{
+"type": "choice",
+"q": "Θα ___ φέρω αύριο. (it, to you, sg)",
+"options": [
+"το σου",
+"σου το",
+"σε το",
+"σου τον"
+],
+"answer": "σου το",
+"why": "Genitive first, then accusative: σου το.",
+"id": "verb-objects-6b5e656c"
+},
+{
+"type": "choice",
+"q": "Δώσ' ___! (it to me)",
+"options": [
+"το μου",
+"μου το",
+"με το",
+"εμένα το"
+],
+"answer": "μου το",
+"why": "Genitive first: μου το.",
+"id": "verb-objects-ecf3f23c"
+},
+{
+"type": "choice",
+"q": "___ χάλασε το πλυντήριο. (on me)",
+"options": [
+"Με",
+"Μου",
+"Εμένα",
+"Μένα"
+],
+"answer": "Μου",
+"why": "Genitive of the person affected.",
+"id": "verb-objects-e67d1406"
+},
+{
+"type": "write",
+"q": "\"Give (sg) it to me.\" (το)",
+"answer": "Δώσε μου το.",
+"accept": [
+"Δώσ' μου το.",
+"Δώσ' το μου."
+],
+"why": "Genitive then accusative after the imperative.",
+"id": "verb-objects-93c32fae"
+},
+{
+"type": "write",
+"q": "\"Who taught you (sg) Greek?\"",
+"answer": "Ποιος σου έμαθε ελληνικά;",
+"accept": [
+"Ποιος σε έμαθε ελληνικά;",
+"Ποιος σου δίδαξε ελληνικά;"
+],
+"why": "μαθαίνω σε κάποιον κάτι.",
+"id": "verb-objects-0f41b36a"
+},
+{
+"type": "write",
+"q": "\"I'll keep a seat for you (sg).\"",
+"answer": "Θα σου κρατήσω μια θέση.",
+"accept": [
+"Θα σου κρατήσω θέση."
+],
+"why": "Genitive = for you.",
+"id": "verb-objects-f4e33976"
+},
+{
+"type": "write",
+"q": "\"Let me buy you (sg) a coffee.\"",
+"answer": "Να σε κεράσω έναν καφέ.",
+"accept": [
+"Να σε κεράσω ένα καφέ.",
+"Σε κερνάω έναν καφέ.",
+"Σε κερνάω ένα καφέ."
+],
+"why": "κερνάω + two accusatives.",
+"id": "verb-objects-aa36d8ef"
+},
+{
+"type": "write",
+"q": "\"My car broke down.\"",
+"answer": "Μου χάλασε το αυτοκίνητο.",
+"accept": [
+"Μου χάλασε το αμάξι.",
+"Χάλασε το αυτοκίνητό μου."
+],
+"why": "Genitive of the person affected.",
+"id": "verb-objects-8a601ed7"
+},
+{
+"type": "order",
+"q": "\"I'll send it to you (sg) tonight.\"",
+"answer": "Θα σου το στείλω απόψε.",
+"accept": [],
+"why": "θα + genitive + accusative + verb.",
+"id": "verb-objects-e4f88a31"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Ρήματα συνδετικά και κατηγορούμενο",
+"title": "Linking verbs and predicates",
+"body": [
+{
+"p": "After **είμαι, γίνομαι** \"become\", **φαίνομαι** \"seem\", **μένω** \"remain\", **λέγομαι / ονομάζομαι** \"be called\", **θεωρούμαι** \"be considered\", **εκλέγομαι** \"be elected\", **διορίζομαι** \"be appointed\", the noun or adjective describes the **subject**, so it is in the **nominative** and agrees with it."
+},
+{
+"ex": [
+{
+"el": "Θέλει να γίνει γιατρός.",
+"en": "She wants to become a doctor."
+},
+{
+"el": "Φαίνεσαι κουρασμένος.",
+"en": "You look tired."
+},
+{
+"el": "Έμεινε ανύπαντρη.",
+"en": "She stayed single."
+},
+{
+"el": "Θεωρείται ο καλύτερος παίκτης.",
+"en": "He is considered the best player."
+}
+]
+},
+{
+"p": "With active verbs like **κάνω** \"make\", **θεωρώ** \"consider\", **λέω** \"call\", **βρίσκω** \"find\", **εκλέγω** \"elect\", the description refers to the **object**, so it is in the **accusative**:"
+},
+{
+"ex": [
+{
+"el": "Τον έκαναν διευθυντή.",
+"en": "They made him director."
+},
+{
+"el": "Τη θεωρώ πολύ έξυπνη.",
+"en": "I consider her very clever."
+},
+{
+"el": "Με είπε ψεύτη!",
+"en": "He called me a liar!"
+},
+{
+"el": "Βρήκα το σπίτι άδειο.",
+"en": "I found the house empty."
+}
+]
+},
+{
+"tip": "Compare **Εξελέγη δήμαρχος** \"He was elected mayor\" (nominative, passive) with **Τον εξέλεξαν δήμαρχο** \"They elected him mayor\" (accusative, active)."
+},
+{
+"solved": [
+{
+"q": "\"You (sg, to a woman) look tired.\"",
+"a": "Φαίνεσαι κουρασμένη.",
+"why": "Nominative, agrees with the subject."
+},
+{
+"q": "\"They made him captain.\" (ο αρχηγός)",
+"a": "Τον έκαναν αρχηγό.",
+"why": "Accusative: describes the object."
+},
+{
+"q": "\"He was elected mayor.\"",
+"a": "Εξελέγη δήμαρχος. | Εκλέχτηκε δήμαρχος.",
+"why": "Passive: nominative."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Θέλω να γίνω ___. (a teacher, male)",
+"options": [
+"δάσκαλο",
+"δάσκαλος",
+"δασκάλου",
+"δάσκαλε"
+],
+"answer": "δάσκαλος",
+"why": "After γίνομαι: nominative.",
+"id": "verb-objects-b2ad3e0e"
+},
+{
+"type": "choice",
+"q": "Τον θεωρούν ___. (a genius)",
+"options": [
+"ιδιοφυΐα του",
+"ιδιοφυΐα",
+"ιδιοφυΐας",
+"στην ιδιοφυΐα"
+],
+"answer": "ιδιοφυΐα",
+"why": "Object description: accusative ιδιοφυΐα.",
+"id": "verb-objects-96a97183"
+},
+{
+"type": "choice",
+"q": "Φαίνονται ___. (happy, the children)",
+"options": [
+"χαρούμενους",
+"χαρούμενα",
+"χαρούμενο",
+"χαρούμενη"
+],
+"answer": "χαρούμενα",
+"why": "Agrees with τα παιδιά: neuter plural.",
+"id": "verb-objects-036f5dd7"
+},
+{
+"type": "choice",
+"q": "Τον έκαναν ___. (manager)",
+"options": [
+"διευθυντής",
+"διευθυντή",
+"διευθυντού",
+"διευθυντές"
+],
+"answer": "διευθυντή",
+"why": "κάνω + object + accusative.",
+"id": "verb-objects-4e31b737"
+},
+{
+"type": "choice",
+"q": "Η πόρτα έμεινε ___. (open)",
+"options": [
+"ανοιχτό",
+"ανοιχτή",
+"ανοιχτός",
+"ανοιχτά"
+],
+"answer": "ανοιχτή",
+"why": "Agrees with η πόρτα.",
+"id": "verb-objects-7df64f12"
+},
+{
+"type": "choice",
+"q": "Με είπε ___! (a liar)",
+"options": [
+"ψεύτης",
+"ψεύτη",
+"ψεύτικο",
+"ψεύτες"
+],
+"answer": "ψεύτη",
+"why": "Describes the object με: accusative.",
+"id": "verb-objects-4dd0a034"
+},
+{
+"type": "write",
+"q": "\"She became a lawyer.\"",
+"answer": "Έγινε δικηγόρος.",
+"accept": [],
+"why": "Nominative after γίνομαι.",
+"id": "verb-objects-4d0f8477"
+},
+{
+"type": "write",
+"q": "\"I found the door open.\"",
+"answer": "Βρήκα την πόρτα ανοιχτή.",
+"accept": [
+"Βρήκα την πόρτα ανοικτή."
+],
+"why": "Accusative, agrees with the object.",
+"id": "verb-objects-7232ca34"
+},
+{
+"type": "write",
+"q": "\"He seems a good person.\"",
+"answer": "Φαίνεται καλός άνθρωπος.",
+"accept": [],
+"why": "Nominative after φαίνομαι.",
+"id": "verb-objects-af90ef3a"
+},
+{
+"type": "write",
+"q": "\"I consider him my best friend.\"",
+"answer": "Τον θεωρώ τον καλύτερό μου φίλο.",
+"accept": [
+"Τον θεωρώ τον καλύτερο φίλο μου."
+],
+"why": "Accusative after θεωρώ.",
+"id": "verb-objects-da9e66a6"
+},
+{
+"type": "order",
+"q": "\"She is considered the best doctor in the city.\"",
+"answer": "Θεωρείται η καλύτερη γιατρός της πόλης.",
+"accept": [],
+"why": "Passive θεωρείται + nominative.",
+"id": "verb-objects-92cb793b"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Πολυσήμαντα ρήματα",
+"title": "One verb, many meanings: παίρνω, περνάω, βγάζω, κάνω, πιάνω",
+"body": [
+{
+"p": "The commonest verbs carry dozens of meanings, and the object decides which one. Learn them as phrases."
+},
+{
+"table": {
+"head": [
+"Verb",
+"Phrase",
+"Meaning"
+],
+"rows": [
+[
+"παίρνω",
+"παίρνω τηλέφωνο",
+"call (on the phone)"
+],
+[
+"",
+"παίρνω το λεωφορείο",
+"take the bus"
+],
+[
+"",
+"Με πήρε ο ύπνος.",
+"I fell asleep."
+],
+[
+"",
+"Δεν με παίρνει.",
+"I can't afford it / I've no time."
+],
+[
+"περνάω",
+"περνάω τον δρόμο",
+"cross the road"
+],
+[
+"",
+"περνάω καλά / ωραία",
+"have a good time"
+],
+[
+"",
+"Πέρασα στο πανεπιστήμιο.",
+"I got into university."
+],
+[
+"",
+"Θα περάσει.",
+"It will pass."
+],
+[
+"βγάζω",
+"βγάζω τα παπούτσια",
+"take off (shoes)"
+],
+[
+"",
+"βγάζω λεφτά",
+"earn money"
+],
+[
+"",
+"βγάζω φωτογραφία",
+"take a photo"
+],
+[
+"",
+"Δεν βγάζω άκρη.",
+"I can't make head or tail of it."
+],
+[
+"κάνω",
+"Πόσο κάνει;",
+"How much is it?"
+],
+[
+"",
+"Κάνει κρύο.",
+"It's cold."
+],
+[
+"",
+"κάνω μπάνιο",
+"have a bath / a swim"
+],
+[
+"",
+"Δεν κάνει.",
+"It's not done / not allowed."
+],
+[
+"πιάνω",
+"πιάνω δουλειά",
+"start a job"
+],
+[
+"",
+"Πιάνει βροχή.",
+"It's starting to rain."
+],
+[
+"",
+"πιάνω κουβέντα",
+"strike up a conversation"
+],
+[
+"",
+"Σε έπιασα!",
+"Gotcha!"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Πώς περάσατε στις διακοπές;",
+"en": "How was your holiday?"
+},
+{
+"el": "Με πήρε ο ύπνος στον καναπέ.",
+"en": "I fell asleep on the sofa."
+},
+{
+"el": "Βγάλε μας μια φωτογραφία, σε παρακαλώ.",
+"en": "Take a photo of us, please."
+},
+{
+"el": "Δεν κάνει να μιλάς έτσι στη μητέρα σου.",
+"en": "You mustn't talk like that to your mother."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"We had a great time.\"",
+"a": "Περάσαμε τέλεια. | Περάσαμε πολύ ωραία. | Περάσαμε πολύ καλά.",
+"why": "περνάω + adverb."
+},
+{
+"q": "\"I fell asleep.\"",
+"a": "Με πήρε ο ύπνος. | Αποκοιμήθηκα.",
+"why": "Lit. \"sleep took me\": ο ύπνος is the subject."
+},
+{
+"q": "\"Take (sg) off your shoes.\"",
+"a": "Βγάλε τα παπούτσια σου.",
+"why": "βγάζω = take off."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Πώς ___ στο πάρτι; (did you have a time, pl)",
+"options": [
+"πήρατε",
+"περάσατε",
+"βγάλατε",
+"κάνατε"
+],
+"answer": "περάσατε",
+"why": "περνάω καλά = have a good time.",
+"id": "verb-objects-efa3cdc0"
+},
+{
+"type": "choice",
+"q": "___ κρύο σήμερα. (It's)",
+"options": [
+"Είναι",
+"Κάνει",
+"Έχει να",
+"Παίρνει"
+],
+"answer": "Κάνει",
+"why": "Weather: κάνει κρύο.",
+"id": "verb-objects-7064c85d"
+},
+{
+"type": "choice",
+"q": "Με ___ ο ύπνος στο λεωφορείο. (took)",
+"options": [
+"πέρασε",
+"πήρε",
+"έπιασε να",
+"έβγαλε"
+],
+"answer": "πήρε",
+"why": "Με πήρε ο ύπνος = I fell asleep.",
+"id": "verb-objects-dcd31258"
+},
+{
+"type": "choice",
+"q": "Πόσα ___ τον μήνα; (does she earn)",
+"options": [
+"παίρνει έξω",
+"βγάζει",
+"περνάει",
+"πιάνει να"
+],
+"answer": "βγάζει",
+"why": "βγάζω λεφτά = earn.",
+"id": "verb-objects-6d169fb1"
+},
+{
+"type": "choice",
+"q": "___ δουλειά σε ένα ξενοδοχείο. (She started)",
+"options": [
+"Πήρε να",
+"Έπιασε",
+"Πέρασε",
+"Έβγαλε"
+],
+"answer": "Έπιασε",
+"why": "πιάνω δουλειά = start a job.",
+"id": "verb-objects-2ef9b694"
+},
+{
+"type": "choice",
+"q": "Δεν ___ να καπνίζεις εδώ. (it's not allowed)",
+"options": [
+"είναι",
+"κάνει",
+"παίρνει",
+"περνάει"
+],
+"answer": "κάνει",
+"why": "Δεν κάνει να = it's not allowed.",
+"id": "verb-objects-c51ef07d"
+},
+{
+"type": "write",
+"q": "\"How much is it?\"",
+"answer": "Πόσο κάνει;",
+"accept": [
+"Πόσο κοστίζει;"
+],
+"why": "κάνει = costs.",
+"id": "verb-objects-3929908e"
+},
+{
+"type": "write",
+"q": "\"Take (sg) a photo of us.\"",
+"answer": "Βγάλε μας μια φωτογραφία.",
+"accept": [
+"Βγάλε μας φωτογραφία."
+],
+"why": "βγάζω φωτογραφία.",
+"id": "verb-objects-654f1e98"
+},
+{
+"type": "write",
+"q": "\"She got into university.\"",
+"answer": "Πέρασε στο πανεπιστήμιο.",
+"accept": [],
+"why": "περνάω = pass the entrance exams.",
+"id": "verb-objects-ed96f20b"
+},
+{
+"type": "write",
+"q": "\"It's starting to rain.\"",
+"answer": "Πιάνει βροχή.",
+"accept": [
+"Αρχίζει να βρέχει."
+],
+"why": "Everyday πιάνει βροχή.",
+"id": "verb-objects-82124333"
+},
+{
+"type": "write",
+"q": "\"I can't afford it.\"",
+"answer": "Δεν με παίρνει.",
+"accept": [
+"Δεν έχω τα λεφτά.",
+"Δεν μου φτάνουν τα λεφτά."
+],
+"why": "Colloquial Δεν με παίρνει.",
+"id": "verb-objects-481913cf"
+},
+{
+"type": "order",
+"q": "\"It will pass, don't worry.\"",
+"answer": "Θα περάσει, μην ανησυχείς.",
+"accept": [],
+"why": "θα + περάσει.",
+"id": "verb-objects-f00a9cba"
+}
+]
+}
+]
+},
+{
+"level": "B2",
+"el": "Ρήμα και ουσιαστικό",
+"title": "Verb + noun pairs",
+"body": [
+{
+"p": "Greek often says with **verb + noun** what English says with one verb. These pairs are fixed: you cannot swap the verb."
+},
+{
+"table": {
+"head": [
+"Pair",
+"Meaning"
+],
+"rows": [
+[
+"κάνω λάθος",
+"make a mistake, be wrong"
+],
+[
+"κάνω υπομονή",
+"be patient"
+],
+[
+"κάνω πλάκα",
+"joke, kid"
+],
+[
+"κάνω παρέα με",
+"hang out with"
+],
+[
+"παίρνω απόφαση",
+"make a decision"
+],
+[
+"παίρνω μέρος",
+"take part"
+],
+[
+"παίρνω τα πάνω μου",
+"recover, perk up"
+],
+[
+"δίνω σημασία",
+"pay attention, care about"
+],
+[
+"δίνω εξετάσεις",
+"sit exams"
+],
+[
+"ρίχνω μια ματιά",
+"have a look"
+],
+[
+"βάζω τα δυνατά μου",
+"do my best"
+],
+[
+"βάζω τα γέλια",
+"burst out laughing"
+],
+[
+"χάνω την υπομονή μου",
+"lose patience"
+],
+[
+"έχω υπόψη μου",
+"bear in mind"
+]
+]
+}
+},
+{
+"ex": [
+{
+"el": "Κάνε λίγη υπομονή, φτάνουμε.",
+"en": "Be a bit patient, we're nearly there."
+},
+{
+"el": "Πλάκα μου κάνεις;",
+"en": "Are you kidding me?"
+},
+{
+"el": "Μη δίνεις σημασία, έτσι είναι αυτός.",
+"en": "Don't pay attention, that's just how he is."
+},
+{
+"el": "Θα βάλω τα δυνατά μου.",
+"en": "I'll do my best."
+},
+{
+"el": "Ρίξε μια ματιά σε αυτό.",
+"en": "Have a look at this."
+}
+]
+},
+{
+"tip": "**Δίνω εξετάσεις** means **sit** (take) exams; \"pass\" is **περνάω**: **Έδωσα εξετάσεις και πέρασα.**"
+},
+{
+"solved": [
+{
+"q": "\"Are you (sg) kidding me?\"",
+"a": "Πλάκα μου κάνεις; | Μου κάνεις πλάκα;",
+"why": "κάνω πλάκα σε κάποιον."
+},
+{
+"q": "\"I'll do my best.\"",
+"a": "Θα βάλω τα δυνατά μου. | Θα κάνω ό,τι μπορώ.",
+"why": "Fixed: βάζω τα δυνατά μου."
+},
+{
+"q": "\"She sat the exams in June.\"",
+"a": "Έδωσε εξετάσεις τον Ιούνιο.",
+"why": "δίνω εξετάσεις = sit exams."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ λάθος, συγγνώμη. (I made)",
+"options": [
+"Έδωσα",
+"Έκανα",
+"Πήρα",
+"Έβαλα"
+],
+"answer": "Έκανα",
+"why": "κάνω λάθος.",
+"id": "verb-objects-12234926"
+},
+{
+"type": "choice",
+"q": "Μη ___ σημασία. (pay, sg)",
+"options": [
+"κάνεις",
+"δίνεις",
+"παίρνεις",
+"βάζεις"
+],
+"answer": "δίνεις",
+"why": "δίνω σημασία.",
+"id": "verb-objects-bdfb695d"
+},
+{
+"type": "choice",
+"q": "Πρέπει να ___ μια απόφαση. (we make)",
+"options": [
+"κάνουμε τη",
+"πάρουμε",
+"δώσουμε",
+"βάλουμε"
+],
+"answer": "πάρουμε",
+"why": "παίρνω απόφαση.",
+"id": "verb-objects-04c3b2c3"
+},
+{
+"type": "choice",
+"q": "___ μια ματιά στο κείμενο. (Have, sg)",
+"options": [
+"Δώσε",
+"Ρίξε",
+"Κάνε",
+"Βάλε"
+],
+"answer": "Ρίξε",
+"why": "ρίχνω μια ματιά.",
+"id": "verb-objects-582c8a36"
+},
+{
+"type": "choice",
+"q": "Με ποιον ___ παρέα; (do you hang out, sg)",
+"options": [
+"παίρνεις",
+"κάνεις",
+"δίνεις",
+"έχεις να"
+],
+"answer": "κάνεις",
+"why": "κάνω παρέα με.",
+"id": "verb-objects-70184fd0"
+},
+{
+"type": "choice",
+"q": "Αύριο ___ εξετάσεις. (I'm sitting)",
+"options": [
+"κάνω",
+"δίνω",
+"παίρνω",
+"περνάω από"
+],
+"answer": "δίνω",
+"why": "δίνω εξετάσεις = sit exams.",
+"id": "verb-objects-d794914d"
+},
+{
+"type": "write",
+"q": "\"Be (sg) patient.\"",
+"answer": "Κάνε υπομονή.",
+"accept": [
+"Κάνε λίγη υπομονή."
+],
+"why": "κάνω υπομονή.",
+"id": "verb-objects-3f193960"
+},
+{
+"type": "write",
+"q": "\"I'm just kidding.\"",
+"answer": "Πλάκα κάνω.",
+"accept": [
+"Κάνω πλάκα.",
+"Αστειεύομαι."
+],
+"why": "κάνω πλάκα.",
+"id": "verb-objects-2e6c2291"
+},
+{
+"type": "write",
+"q": "\"She took part in the race.\" (ο αγώνας)",
+"answer": "Πήρε μέρος στον αγώνα.",
+"accept": [
+"Συμμετείχε στον αγώνα."
+],
+"why": "παίρνω μέρος σε.",
+"id": "verb-objects-a0ea9834"
+},
+{
+"type": "write",
+"q": "\"Bear (sg) it in mind.\"",
+"answer": "Να το έχεις υπόψη σου.",
+"accept": [
+"Έχε το υπόψη σου.",
+"Έχε το υπόψη."
+],
+"why": "έχω υπόψη.",
+"id": "verb-objects-bc7cad66"
+},
+{
+"type": "order",
+"q": "\"We burst out laughing.\"",
+"answer": "Βάλαμε τα γέλια.",
+"accept": [],
+"why": "Fixed pair βάζω τα γέλια.",
+"id": "verb-objects-ea1b88ed"
+}
+]
+}
+]
+}
+],
+"id": "verb-objects",
+"el": "Τα ρήματα και τα συμπληρώματά τους",
+"title": "Verbs and what follows them",
+"span": "B1–B2",
+"blurb": "Which case or preposition each everyday verb takes (περιμένω τη Μαρία, συμφωνώ μαζί σου, εξαρτάται από σένα), verbs with two objects (σε κερνάω έναν καφέ), the genitive pronoun \"for me\" and \"on me\" (μου έκλεψαν το κινητό), linking verbs (γίνομαι, φαίνομαι, θεωρούμαι), the many meanings of παίρνω, περνάω, βγάζω, and verb + noun pairs (κάνω υπομονή, δίνω σημασία).",
+"part": "Μέρος Η΄ | Προς το Β2 | Towards B2",
+"intro": [
+{
+"p": "English speakers get Greek verbs wrong less in their endings than in **what comes after them**. \"Wait **for** Maria\" is **περιμένω τη Μαρία** with no preposition; \"agree **with** you\" is **συμφωνώ μαζί σου**; \"it depends **on** you\" is **εξαρτάται από σένα**. This chapter collects the verbs you use every day with the case, preposition or construction each one needs, then the verbs with two objects, the linking verbs, and the verbs whose meaning changes with what follows them."
+},
+{
+"links": [
+{
+"href": "#decl2-case-government",
+"kind": "Lesson",
+"el": "Ποια πτώση μετά από τι;",
+"title": "Case government: what takes which case"
+},
+{
+"href": "#a2-prepositions",
+"kind": "Lesson",
+"el": "Προθέσεις",
+"title": "σε, από, με, για and the accusative"
+},
+{
+"href": "#verbs-clitics",
+"kind": "Lesson",
+"el": "Αδύνατες αντωνυμίες σε βάθος",
+"title": "Weak object pronouns: position, order, doubling"
+},
+{
+"href": "#c1-collocations",
+"kind": "Lesson",
+"el": "Λόγιες συνάψεις",
+"title": "Formal collocations: λαμβάνω μέτρα, ασκώ κριτική, καταβάλλω προσπάθεια"
+},
+{
+"href": "#pos.verb-meaning",
+"kind": "Part of speech",
+"el": "Το ρήμα Β΄: χρόνοι, όψη, εγκλίσεις",
+"title": "The verb II: tense, aspect and mood"
+},
+{
+"href": "#syntax.agreement",
+"kind": "Syntax",
+"el": "Συμφωνία και πτώσεις στην πρόταση",
+"title": "Agreement and case in the sentence"
+},
+{
+"href": "#cards.prepositions",
+"kind": "Card",
+"el": "Προθέσεις",
+"title": "Prepositions"
+}
+]
+}
+],
+"num": 38
+}

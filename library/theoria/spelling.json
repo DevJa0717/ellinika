@@ -1,0 +1,1625 @@
+{
+"sections": [
+{
+"level": "A2",
+"el": "Η γραμματική δείχνει την ορθογραφία",
+"title": "Endings spell the word for you",
+"body": [
+{
+"p": "**Verbs:**"
+},
+{
+"table": {
+"head": [
+"Person",
+"Ending",
+"Example"
+],
+"rows": [
+[
+"εσύ",
+"-εις / -άς / -είς",
+"γράφεις, μιλάς, μπορείς"
+],
+[
+"αυτός",
+"-ει / -άει / -εί",
+"γράφει, μιλάει, μπορεί"
+],
+[
+"εμείς",
+"-ουμε / -άμε",
+"γράφουμε, μιλάμε"
+],
+[
+"εσείς",
+"-ετε / -άτε / -είτε",
+"γράφετε, μιλάτε, μπορείτε"
+],
+[
+"passive past",
+"-ηκα / -θηκα",
+"χάρηκα, γράφτηκα"
+]
+]
+}
+},
+{
+"p": "The **dependent** after να, θα, ας has the **same endings** as the present: **να γράψεις, θα γράψει, ας γράψουμε.**"
+},
+{
+"p": "**Nouns and adjectives:**"
+},
+{
+"table": {
+"head": [
+"Ending",
+"Spelling",
+"Example"
+],
+"rows": [
+[
+"feminine singular",
+"-η",
+"η καλή φίλη, η λύση"
+],
+[
+"neuter singular",
+"-ι",
+"το παιδί, το σπίτι"
+],
+[
+"masculine plural",
+"-οι",
+"οι καλοί φίλοι"
+],
+[
+"feminine plural",
+"-ες",
+"οι καλές φίλες"
+],
+[
+"genitive singular masc./neut.",
+"-ου",
+"του φίλου, του παιδιού"
+]
+]
+}
+},
+{
+"tip": "**Noun or verb.** The sound **i** at the end is **-η** in a feminine noun but **-ει** in a verb: **η λύση** \"the solution\" but **θα λύσει** \"he'll solve\"; **η κίνηση** \"the traffic\" but **να κινήσει** \"to move\". The article or the particle tells you which."
+},
+{
+"ex": [
+{
+"el": "Η λύση είναι απλή· θα το λύσει μόνος του.",
+"en": "The solution is simple; he'll solve it himself."
+},
+{
+"el": "Οι καλοί φίλοι είναι λίγοι.",
+"en": "Good friends are few."
+},
+{
+"el": "Ήρθε η καλή μου φίλη.",
+"en": "My good friend (woman) came."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Spell the ending: \"θα γράψ_ (he)\"",
+"a": "θα γράψει",
+"why": "3sg verb: -ει."
+},
+{
+"q": "Spell the ending: \"η απάντησ_\"",
+"a": "η απάντηση",
+"why": "Feminine noun: -η."
+},
+{
+"q": "Spell the ending: \"οι μεγάλ_ δρόμ_\"",
+"a": "οι μεγάλοι δρόμοι",
+"why": "Masculine plural: -οι."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "θα ___ αύριο. (he'll decide)",
+"options": [
+"αποφασίση",
+"αποφασίσει",
+"αποφασίσοι",
+"αποφασίσι"
+],
+"answer": "αποφασίσει",
+"why": "Verb, 3sg: -ει.",
+"id": "spelling-4f7ac6c6"
+},
+{
+"type": "choice",
+"q": "Πήρε μια σωστή ___. (decision)",
+"options": [
+"απόφασει",
+"απόφαση",
+"απόφασοι",
+"απόφασι"
+],
+"answer": "απόφαση",
+"why": "Feminine noun: -η.",
+"id": "spelling-a9a4d2ce"
+},
+{
+"type": "choice",
+"q": "Οι ___ μου ήρθαν. (friends, men)",
+"options": [
+"φίλει",
+"φίλοι",
+"φίλη",
+"φίλι"
+],
+"answer": "φίλοι",
+"why": "Masculine plural: -οι.",
+"id": "spelling-17aa9227"
+},
+{
+"type": "choice",
+"q": "Εσύ τι ___; (are you saying)",
+"options": [
+"λέις",
+"λες",
+"λεεις",
+"λέης"
+],
+"answer": "λες",
+"why": "λέω → λες.",
+"id": "spelling-4e1954de"
+},
+{
+"type": "choice",
+"q": "Η Μαρία ___ αύριο. (is coming)",
+"options": [
+"έρχετε",
+"έρχεται",
+"έρχητε",
+"έρχεσαι"
+],
+"answer": "έρχεται",
+"why": "3sg of -μαι: -εται.",
+"id": "spelling-f62f68a7"
+},
+{
+"type": "choice",
+"q": "Εσείς πότε ___; (are coming)",
+"options": [
+"έρχεσται",
+"έρχεστε",
+"έρχεται",
+"έρχεσθε"
+],
+"answer": "έρχεστε",
+"why": "2pl of -μαι: -εστε.",
+"id": "spelling-a4439072"
+},
+{
+"type": "choice",
+"q": "Τι ___ να κάνω; (can, I)",
+"options": [
+"μπορό",
+"μπορώ",
+"μπορόω",
+"μπορεί"
+],
+"answer": "μπορώ",
+"why": "1sg: -ώ.",
+"id": "spelling-aefde400"
+},
+{
+"type": "choice",
+"q": "Χάρ___ πολύ! (I was glad)",
+"options": [
+"Χάρικα",
+"Χάρηκα",
+"Χάρεικα",
+"Χάροικα"
+],
+"answer": "Χάρηκα",
+"why": "Passive past -ηκα.",
+"id": "spelling-e2296366"
+},
+{
+"type": "write",
+"q": "Spell: \"the solution\"",
+"answer": "η λύση",
+"accept": [],
+"why": "Feminine noun: -η.",
+"id": "spelling-844867b1"
+},
+{
+"type": "write",
+"q": "Spell: \"he'll solve it\"",
+"answer": "θα το λύσει",
+"accept": [],
+"why": "Verb, 3sg: -ει.",
+"id": "spelling-66aafe3c"
+},
+{
+"type": "write",
+"q": "Spell: \"the good friends\" (men)",
+"answer": "οι καλοί φίλοι",
+"accept": [],
+"why": "Masculine plural: -οι.",
+"id": "spelling-57c3e7a4"
+},
+{
+"type": "write",
+"q": "Spell: \"you (pl) can\"",
+"answer": "μπορείτε",
+"accept": [],
+"why": "-είτε.",
+"id": "spelling-e48a561f"
+},
+{
+"type": "write",
+"q": "Spell: \"we'll write\"",
+"answer": "θα γράψουμε",
+"accept": [
+"θα γράψομε"
+],
+"why": "-ουμε.",
+"id": "spelling-e5751bd1"
+},
+{
+"type": "order",
+"q": "\"The solution is simple.\"",
+"answer": "Η λύση είναι απλή.",
+"accept": [],
+"why": "Feminine -η.",
+"id": "spelling-d48f6bbf"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Λέξεις που ακούγονται ίδια",
+"title": "Sound-alikes: πως/πώς, που/πού, η/οι/ή, ότι/ό,τι",
+"body": [
+{
+"table": {
+"head": [
+"Pair",
+"Difference",
+"Example"
+],
+"rows": [
+[
+"**πώς** / **πως**",
+"πώς = how (question); πως = that",
+"Πώς είσαι; / Λέει πως θα έρθει."
+],
+[
+"**πού** / **που**",
+"πού = where (question); που = who, which, that",
+"Πού μένεις; / Ο φίλος που μένει εδώ."
+],
+[
+"**ή** / **η** / **οι**",
+"ή = or; η = the (fem. sg); οι = the (plural)",
+"Τσάι ή καφέ; / η μέρα / οι μέρες"
+],
+[
+"**ό,τι** / **ότι**",
+"ό,τι = whatever; ότι = that",
+"Κάνε ό,τι θέλεις. / Ξέρω ότι ήρθε."
+],
+[
+"**πια** / **πιο**",
+"πια = any more, now; πιο = more",
+"Δεν καπνίζω πια. / πιο ωραίο"
+],
+[
+"**όλη** / **όλοι**",
+"όλη = all (fem. sg); όλοι = everyone",
+"όλη μέρα / Ήρθαν όλοι."
+],
+[
+"**καλή** / **καλοί**",
+"fem. sg / masc. pl",
+"καλή τύχη / καλοί άνθρωποι"
+]
+]
+}
+},
+{
+"p": "**Πού, πώς, ή** are the only common one-syllable words with a stress mark. The mark exists **only** to separate them from **που, πως, η**."
+},
+{
+"ex": [
+{
+"el": "Πού είναι το βιβλίο που σου έδωσα;",
+"en": "Where is the book (that) I gave you?"
+},
+{
+"el": "Πώς ήξερες πως θα έρθω;",
+"en": "How did you know (that) I'd come?"
+},
+{
+"el": "Θα πιεις τσάι ή καφέ;",
+"en": "Will you have tea or coffee?"
+},
+{
+"el": "Ό,τι και να πεις, ξέρω ότι έχω δίκιο.",
+"en": "Whatever you say, I know (that) I'm right."
+}
+]
+},
+{
+"solved": [
+{
+"q": "\"Where is the shop (that) you told me about?\"",
+"a": "Πού είναι το μαγαζί που μου είπες;",
+"why": "πού = where; που = that."
+},
+{
+"q": "\"Whatever you (sg) want.\"",
+"a": "Ό,τι θέλεις. | Ό,τι θες.",
+"why": "ό,τι = whatever."
+},
+{
+"q": "\"I don't live there any more.\"",
+"a": "Δεν μένω πια εκεί. | Δεν μένω εκεί πια.",
+"why": "πια = any more."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "___ μένεις; (Where)",
+"options": [
+"Που",
+"Πού",
+"Πω",
+"Ποῦ"
+],
+"answer": "Πού",
+"why": "Question: πού.",
+"id": "spelling-4f1f8cb7"
+},
+{
+"type": "choice",
+"q": "Η γυναίκα ___ μου μίλησε. (who)",
+"options": [
+"πού",
+"που",
+"ποιο",
+"πω"
+],
+"answer": "που",
+"why": "Relative: που.",
+"id": "spelling-6223f83f"
+},
+{
+"type": "choice",
+"q": "___ τον λένε; (What's his name, lit. How)",
+"options": [
+"Πως",
+"Πώς",
+"Πω",
+"Ποιός"
+],
+"answer": "Πώς",
+"why": "Question: πώς.",
+"id": "spelling-02e1dadc"
+},
+{
+"type": "choice",
+"q": "Είπε ___ θα αργήσει. (that)",
+"options": [
+"πώς",
+"πως",
+"ποιος",
+"πού"
+],
+"answer": "πως",
+"why": "πως = that.",
+"id": "spelling-397ddb65"
+},
+{
+"type": "choice",
+"q": "Θες νερό ___ κρασί; (or)",
+"options": [
+"η",
+"ή",
+"οι",
+"ει"
+],
+"answer": "ή",
+"why": "ή = or.",
+"id": "spelling-779c3da4"
+},
+{
+"type": "choice",
+"q": "Κάνε ___ θέλεις. (whatever)",
+"options": [
+"ότι",
+"ό,τι",
+"οτί",
+"ό τι"
+],
+"answer": "ό,τι",
+"why": "ό,τι = whatever.",
+"id": "spelling-3e3bfaa0"
+},
+{
+"type": "choice",
+"q": "Ξέρω ___ έχεις δίκιο. (that)",
+"options": [
+"ό,τι",
+"ότι",
+"ο,τι",
+"ό τι"
+],
+"answer": "ότι",
+"why": "ότι = that.",
+"id": "spelling-f729437c"
+},
+{
+"type": "choice",
+"q": "Δεν δουλεύω εκεί ___. (any more)",
+"options": [
+"πιο",
+"πια",
+"πιά",
+"πιό"
+],
+"answer": "πια",
+"why": "πια = any more (no stress mark).",
+"id": "spelling-da14b472"
+},
+{
+"type": "choice",
+"q": "Αυτό είναι ___ ωραίο. (more)",
+"options": [
+"πια",
+"πιο",
+"πιό",
+"πιά"
+],
+"answer": "πιο",
+"why": "πιο = more.",
+"id": "spelling-f1066c42"
+},
+{
+"type": "write",
+"q": "\"How are you (sg)?\"",
+"answer": "Πώς είσαι;",
+"accept": [],
+"why": "Question: πώς.",
+"id": "spelling-566ed79e"
+},
+{
+"type": "write",
+"q": "\"Where are you (pl) going?\"",
+"answer": "Πού πάτε;",
+"accept": [],
+"why": "Question: πού.",
+"id": "spelling-049e4477"
+},
+{
+"type": "write",
+"q": "\"Whatever you (sg) say.\"",
+"answer": "Ό,τι πεις.",
+"accept": [
+"Ό,τι και να πεις."
+],
+"why": "ό,τι.",
+"id": "spelling-d3966202"
+},
+{
+"type": "write",
+"q": "\"the women\"",
+"answer": "οι γυναίκες",
+"accept": [],
+"why": "Plural article οι.",
+"id": "spelling-c054eb11"
+},
+{
+"type": "write",
+"q": "\"Everyone came.\"",
+"answer": "Ήρθαν όλοι.",
+"accept": [
+"Όλοι ήρθαν."
+],
+"why": "όλοι = everyone.",
+"id": "spelling-e87dccd7"
+},
+{
+"type": "order",
+"q": "\"Where is the book that I gave you?\"",
+"answer": "Πού είναι το βιβλίο που σου έδωσα;",
+"accept": [],
+"why": "πού / που.",
+"id": "spelling-61741938"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Καταλήξεις με σταθερή ορθογραφία",
+"title": "Suffixes with a fixed spelling",
+"body": [
+{
+"table": {
+"head": [
+"Suffix",
+"Always",
+"Examples"
+],
+"rows": [
+[
+"verbs in -ώνω",
+"ω",
+"πληρώνω, κλειδώνω, τελειώνω"
+],
+[
+"verbs in -εύω",
+"ευ",
+"δουλεύω, χορεύω, ταξιδεύω"
+],
+[
+"verbs in -αίνω",
+"αι",
+"πηγαίνω, μαθαίνω, παχαίνω"
+],
+[
+"verbs in -ίζω (most)",
+"ι",
+"αρχίζω, γεμίζω, χτενίζω"
+],
+[
+"adjectives in -ικός",
+"ι, ο",
+"ελληνικός, πρακτικός"
+],
+[
+"adjectives in -ινός (time, place)",
+"ι",
+"σημερινός, βραδινός, καλοκαιρινός"
+],
+[
+"adjectives in -ένιος (material)",
+"ε",
+"χρυσαφένιος, μεταξένιος"
+],
+[
+"nouns in -ση, -ξη, -ψη",
+"η",
+"λύση, έκπληξη, άποψη"
+],
+[
+"nouns in -τητα",
+"η",
+"ταυτότητα, ποιότητα"
+],
+[
+"nouns from -ής adjectives",
+"-εια",
+"αλήθεια (αληθής), ακρίβεια (ακριβής)"
+],
+[
+"feminine of -τής",
+"-τρια",
+"φοιτητής → φοιτήτρια, καθηγητής → καθηγήτρια"
+],
+[
+"participles in -μένος",
+"ε",
+"κουρασμένος, δεμένος"
+]
+]
+}
+},
+{
+"tip": "The **-ίζω** rule has a few exceptions with other spellings: **δανείζω** \"lend\", **αθροίζω** \"add up\", **αναβλύζω** \"gush\". Learn them as you meet them."
+},
+{
+"ex": [
+{
+"el": "Πότε τελειώνεις;",
+"en": "When do you finish?"
+},
+{
+"el": "Η σημερινή εφημερίδα.",
+"en": "Today's paper."
+},
+{
+"el": "Είναι θέμα ποιότητας.",
+"en": "It's a question of quality."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Spell: \"I travel\"",
+"a": "ταξιδεύω",
+"why": "-εύω always ευ."
+},
+{
+"q": "Spell: \"the truth\"",
+"a": "η αλήθεια",
+"why": "From αληθής: -εια."
+},
+{
+"q": "Spell: \"the identity card\"",
+"a": "η ταυτότητα",
+"why": "-τητα."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Spell \"I finish\"",
+"options": [
+"τελιόνω",
+"τελειώνω",
+"τελειόνω",
+"τελιώνω"
+],
+"answer": "τελειώνω",
+"why": "-ώνω always ω; τελει- from τέλειος.",
+"id": "spelling-d16a4098"
+},
+{
+"type": "choice",
+"q": "Spell \"I dance\"",
+"options": [
+"χορέβω",
+"χορεύω",
+"χωρεύω",
+"χορέυω"
+],
+"answer": "χορεύω",
+"why": "-εύω.",
+"id": "spelling-882479d8"
+},
+{
+"type": "choice",
+"q": "Spell \"I learn\"",
+"options": [
+"μαθένω",
+"μαθαίνω",
+"μαθαίνο",
+"μαθέινω"
+],
+"answer": "μαθαίνω",
+"why": "-αίνω.",
+"id": "spelling-c0ec358a"
+},
+{
+"type": "choice",
+"q": "Spell \"today's\" (masc.)",
+"options": [
+"σημερηνός",
+"σημερινός",
+"σημερεινός",
+"σημερυνός"
+],
+"answer": "σημερινός",
+"why": "-ινός for time words.",
+"id": "spelling-5019306f"
+},
+{
+"type": "choice",
+"q": "Spell \"Greek\" (adjective, masc.)",
+"options": [
+"ελληνηκός",
+"ελληνικός",
+"ελλινικός",
+"ελληνικώς"
+],
+"answer": "ελληνικός",
+"why": "-ικός.",
+"id": "spelling-21b3041d"
+},
+{
+"type": "choice",
+"q": "Spell \"the opinion\"",
+"options": [
+"η άποψι",
+"η άποψη",
+"η άποψει",
+"η άπωψη"
+],
+"answer": "η άποψη",
+"why": "-ψη.",
+"id": "spelling-cf85aab7"
+},
+{
+"type": "choice",
+"q": "Spell \"quality\"",
+"options": [
+"ποιώτητα",
+"ποιότητα",
+"ποιότιτα",
+"πιότητα"
+],
+"answer": "ποιότητα",
+"why": "-τητα.",
+"id": "spelling-f1c3ad06"
+},
+{
+"type": "write",
+"q": "Spell: \"I pay\"",
+"answer": "πληρώνω",
+"accept": [],
+"why": "-ώνω.",
+"id": "spelling-2063fdea"
+},
+{
+"type": "write",
+"q": "Spell: \"I start\"",
+"answer": "αρχίζω",
+"accept": [],
+"why": "-ίζω.",
+"id": "spelling-33e5b6be"
+},
+{
+"type": "write",
+"q": "Spell: \"tired\" (masc.)",
+"answer": "κουρασμένος",
+"accept": [],
+"why": "-μένος.",
+"id": "spelling-8520b0c9"
+},
+{
+"type": "write",
+"q": "Spell: \"the surprise\"",
+"answer": "η έκπληξη",
+"accept": [],
+"why": "-ξη.",
+"id": "spelling-c9981f90"
+},
+{
+"type": "write",
+"q": "Feminine of **φοιτητής**",
+"answer": "φοιτήτρια",
+"accept": [
+"η φοιτήτρια"
+],
+"why": "-τής → -τρια.",
+"id": "spelling-f214950c"
+},
+{
+"type": "order",
+"q": "\"When do you (sg) finish work?\"",
+"answer": "Πότε τελειώνεις τη δουλειά;",
+"accept": [],
+"why": "-ώνω.",
+"id": "spelling-e09b864a"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Τόνος, κεφαλαία, διαλυτικά",
+"title": "Stress marks, capitals and the diaeresis",
+"body": [
+{
+"p": "**Stress mark (τόνος):**"
+},
+{
+"list": [
+"Every word of **two or more syllables** has one: **καλημέρα, σπίτι**.",
+"**One-syllable words** have none: **και, να, θα, μου, φως**. Exceptions: **ή, πού, πώς** (see above).",
+"A word in **all capitals** has **no** stress marks: **ΑΘΗΝΑ, ΕΞΟΔΟΣ**.",
+"A **capital at the start** carries the mark before it: **Άννα, Έλα, Όλα καλά**."
+]
+},
+{
+"p": "**Diaeresis (διαλυτικά ¨):** two dots show that **αι, οι, ει, ου** are **two** vowels, not one sound."
+},
+{
+"table": {
+"head": [
+"Without",
+"With diaeresis"
+],
+"rows": [
+[
+"παιδάκι (pe-)",
+"κοροϊδεύω (ko-ro-i-)"
+],
+[
+"",
+"Μάιος → του Μαΐου"
+],
+[
+"",
+"προϊόν, καΐκι, μαϊμού"
+]
+]
+}
+},
+{
+"p": "If the **first** vowel is stressed, the stress mark already does the job and no diaeresis is needed: **τσάι, ρολόι, Μάιος**."
+},
+{
+"p": "**Capital letters** in Greek go on: names, **nationalities** (**ο Έλληνας, η Ιταλίδα**), **days, months and feasts** (**Δευτέρα, Ιανουάριος, Πάσχα**). **Languages and adjectives** stay lower case: **μιλάω ελληνικά, η ελληνική κουζίνα**."
+},
+{
+"ex": [
+{
+"el": "Θα τα πούμε τη Δευτέρα.",
+"en": "See you on Monday."
+},
+{
+"el": "Είναι Ισπανός, αλλά μιλάει άπταιστα ελληνικά.",
+"en": "He's Spanish but speaks perfect Greek."
+},
+{
+"el": "Αγόρασα ένα καινούργιο ρολόι.",
+"en": "I bought a new watch."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Write with stress: \"ΚΑΛΗΜΕΡΑ\" in ordinary letters",
+"a": "Καλημέρα",
+"why": "Capitals had no mark; restore it."
+},
+{
+"q": "Add the marks: \"τσαι\" (tea)",
+"a": "τσάι",
+"why": "Stressed first vowel: no diaeresis needed."
+},
+{
+"q": "Add the marks: \"κοροιδευω\" (I mock)",
+"a": "κοροϊδεύω",
+"why": "ο-ϊ split: diaeresis; stress on -δεύ-."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "Which is correct?",
+"options": [
+"Ἀννα",
+"Άννα",
+"Αννα",
+"Άννά"
+],
+"answer": "Άννα",
+"why": "Initial capital takes the mark before it.",
+"id": "spelling-768517dd"
+},
+{
+"type": "choice",
+"q": "Which is correct on a sign in capitals?",
+"options": [
+"ΈΞΟΔΟΣ",
+"ΕΞΟΔΟΣ",
+"ΕΞΌΔΟΣ",
+"ΈΞΟΔΌΣ"
+],
+"answer": "ΕΞΟΔΟΣ",
+"why": "All capitals: no stress marks.",
+"id": "spelling-8a383018"
+},
+{
+"type": "choice",
+"q": "Which needs a stress mark?",
+"options": [
+"και",
+"πού (where)",
+"να",
+"θα"
+],
+"answer": "πού (where)",
+"why": "πού (question) is marked.",
+"id": "spelling-4cdb1db0"
+},
+{
+"type": "choice",
+"q": "Spell \"of May\"",
+"options": [
+"του Μαίου",
+"του Μαΐου",
+"του Μάιου",
+"του Μαιού"
+],
+"answer": "του Μαΐου",
+"why": "Split vowels, stress on ι: ΐ.",
+"id": "spelling-b5b7728e"
+},
+{
+"type": "choice",
+"q": "Spell \"tea\"",
+"options": [
+"τσαΐ",
+"τσάι",
+"τσαί",
+"τσάϊ"
+],
+"answer": "τσάι",
+"why": "Stressed α: no diaeresis.",
+"id": "spelling-b96d009e"
+},
+{
+"type": "choice",
+"q": "Which is correct?",
+"options": [
+"μιλάω Ελληνικά",
+"μιλάω ελληνικά",
+"Μιλάω Ελληνικά να",
+"μιλάω ΕΛΛΗΝΙΚΆ"
+],
+"answer": "μιλάω ελληνικά",
+"why": "Languages are lower case.",
+"id": "spelling-a82d66d4"
+},
+{
+"type": "choice",
+"q": "Which is correct?",
+"options": [
+"τη δευτέρα",
+"τη Δευτέρα",
+"τη ΔΕΥΤΈΡΑ",
+"τη Δέυτερα"
+],
+"answer": "τη Δευτέρα",
+"why": "Days have a capital.",
+"id": "spelling-ff4feccd"
+},
+{
+"type": "write",
+"q": "Add the marks: \"προιον\" (product)",
+"answer": "προϊόν",
+"accept": [],
+"why": "ο-ϊ split, stress on -όν.",
+"id": "spelling-710bd931"
+},
+{
+"type": "write",
+"q": "Add the marks: \"ρολοι\" (watch)",
+"answer": "ρολόι",
+"accept": [],
+"why": "Stressed ό before ι: no diaeresis.",
+"id": "spelling-a16f29b7"
+},
+{
+"type": "write",
+"q": "Write \"Monday\"",
+"answer": "Δευτέρα",
+"accept": [],
+"why": "Days take a capital.",
+"id": "spelling-806e00ec"
+},
+{
+"type": "write",
+"q": "Write \"a Greek man\"",
+"answer": "ένας Έλληνας",
+"accept": [
+"Έλληνας"
+],
+"why": "Nationalities take a capital.",
+"id": "spelling-8eed6e1a"
+},
+{
+"type": "write",
+"q": "Write \"in January\"",
+"answer": "τον Ιανουάριο",
+"accept": [
+"τον Γενάρη"
+],
+"why": "Months take a capital.",
+"id": "spelling-9d786fc8"
+},
+{
+"type": "order",
+"q": "\"See you (pl) on Monday.\"",
+"answer": "Θα τα πούμε τη Δευτέρα.",
+"accept": [],
+"why": "Capital for the day.",
+"id": "spelling-1bf333eb"
+}
+]
+}
+]
+},
+{
+"level": "A2",
+"el": "Τα σημεία στίξης",
+"title": "Punctuation: ; · « » —",
+"body": [
+{
+"table": {
+"head": [
+"Mark",
+"Name",
+"Use"
+],
+"rows": [
+[
+";",
+"ερωτηματικό",
+"question mark (looks like an English semicolon)"
+],
+[
+"·",
+"άνω τελεία",
+"the Greek semicolon (raised dot)"
+],
+[
+",",
+"κόμμα",
+"comma"
+],
+[
+"« »",
+"εισαγωγικά",
+"quotation marks"
+],
+[
+"— / –",
+"παύλα",
+"dialogue dash, aside"
+],
+[
+"!",
+"θαυμαστικό",
+"exclamation mark"
+],
+[
+"'",
+"απόστροφος",
+"elision: σ' αγαπώ, θα 'ρθω"
+]
+]
+}
+},
+{
+"p": "**Commas:**"
+},
+{
+"list": [
+"**No comma** before **ότι, πως, να** and before **που** when it identifies (restrictive): **Ξέρω ότι ήρθε. Θέλω να φύγω. Ο φίλος που σου είπα.**",
+"**Comma** after a subordinate clause that comes first: **Όταν έρθεις, θα φάμε. Αν θέλεις, πάμε.**",
+"**Commas** around an aside or a non-identifying **που / ο οποίος**: **Ο Νίκος, που είναι γιατρός, θα μας βοηθήσει.**",
+"Before **αλλά** a comma is normal: **Είναι ακριβό, αλλά αξίζει.**"
+]
+},
+{
+"ex": [
+{
+"el": "Τι ώρα είναι;",
+"en": "What time is it?"
+},
+{
+"el": "Δεν ήρθε· ήταν άρρωστος.",
+"en": "He didn't come; he was ill."
+},
+{
+"el": "— Θα έρθεις; — Ίσως.",
+"en": "\"Are you coming?\" \"Maybe.\""
+},
+{
+"el": "Μου είπε: «Θα σε περιμένω».",
+"en": "He told me: \"I'll wait for you.\""
+}
+]
+},
+{
+"solved": [
+{
+"q": "Punctuate: \"τι κάνεις\" (question)",
+"a": "Τι κάνεις;",
+"why": "Greek question mark: ;"
+},
+{
+"q": "Punctuate: \"όταν τελειώσω θα σε πάρω\"",
+"a": "Όταν τελειώσω, θα σε πάρω.",
+"why": "Comma after the time clause."
+},
+{
+"q": "Punctuate: \"ξέρω ότι έχεις δίκιο\"",
+"a": "Ξέρω ότι έχεις δίκιο.",
+"why": "No comma before ότι."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "The Greek question mark is",
+"options": [
+"?",
+";",
+"·",
+":"
+],
+"answer": ";",
+"why": "ερωτηματικό: ;",
+"id": "spelling-3482fe14"
+},
+{
+"type": "choice",
+"q": "The raised dot · works like the English",
+"options": [
+"full stop",
+"semicolon",
+"comma",
+"question mark"
+],
+"answer": "semicolon",
+"why": "άνω τελεία = semicolon.",
+"id": "spelling-17dfc1e9"
+},
+{
+"type": "choice",
+"q": "Which is correct?",
+"options": [
+"Ξέρω, ότι ήρθε.",
+"Ξέρω ότι ήρθε.",
+"Ξέρω ότι, ήρθε.",
+"Ξέρω· ότι ήρθε."
+],
+"answer": "Ξέρω ότι ήρθε.",
+"why": "No comma before ότι.",
+"id": "spelling-ebbf0542"
+},
+{
+"type": "choice",
+"q": "Which is correct?",
+"options": [
+"Αν θέλεις πάμε, σινεμά.",
+"Αν θέλεις, πάμε σινεμά.",
+"Αν, θέλεις πάμε σινεμά.",
+"Αν θέλεις πάμε· σινεμά."
+],
+"answer": "Αν θέλεις, πάμε σινεμά.",
+"why": "Comma after the αν-clause.",
+"id": "spelling-22d22c77"
+},
+{
+"type": "choice",
+"q": "Which is correct?",
+"options": [
+"Θέλω, να φύγω.",
+"Θέλω να φύγω.",
+"Θέλω να, φύγω.",
+"Θέλω· να φύγω."
+],
+"answer": "Θέλω να φύγω.",
+"why": "No comma before να.",
+"id": "spelling-0deedcab"
+},
+{
+"type": "choice",
+"q": "Greek quotation marks are",
+"options": [
+"\"...\"",
+"«...»",
+"‹...›",
+"„...“"
+],
+"answer": "«...»",
+"why": "εισαγωγικά: « ».",
+"id": "spelling-b6c323bc"
+},
+{
+"type": "write",
+"q": "Punctuate: \"πού πας\" (question)",
+"answer": "Πού πας;",
+"accept": [],
+"why": ";",
+"id": "spelling-403e4b5d"
+},
+{
+"type": "write",
+"q": "Punctuate: \"αν βρέξει θα μείνουμε μέσα\"",
+"answer": "Αν βρέξει, θα μείνουμε μέσα.",
+"accept": [],
+"why": "Comma after the αν-clause.",
+"id": "spelling-639def15"
+},
+{
+"type": "write",
+"q": "Punctuate: \"θέλω να έρθεις\"",
+"answer": "Θέλω να έρθεις.",
+"accept": [],
+"why": "No comma before να.",
+"id": "spelling-da3c79be"
+},
+{
+"type": "write",
+"q": "Punctuate: \"η Μαρία που είναι γιατρός θα έρθει\" (aside: Maria, who is a doctor)",
+"answer": "Η Μαρία, που είναι γιατρός, θα έρθει.",
+"accept": [
+"Η Μαρία, η οποία είναι γιατρός, θα έρθει."
+],
+"why": "Commas around the aside.",
+"id": "spelling-e2537d7c"
+},
+{
+"type": "order",
+"q": "\"When you (sg) come, we'll eat.\"",
+"answer": "Όταν έρθεις, θα φάμε.",
+"accept": [],
+"why": "Comma after the time clause.",
+"id": "spelling-29642254"
+}
+]
+}
+]
+},
+{
+"level": "B1",
+"el": "Συντομογραφίες και αριθμοί",
+"title": "Abbreviations and numbers in writing",
+"body": [
+{
+"table": {
+"head": [
+"Abbreviation",
+"Full form",
+"Meaning"
+],
+"rows": [
+[
+"π.χ.",
+"παραδείγματος χάρη",
+"e.g."
+],
+[
+"κ.λπ. / κλπ.",
+"και λοιπά",
+"etc."
+],
+[
+"κ.ά.",
+"και άλλα",
+"and others"
+],
+[
+"κ.ο.κ.",
+"και ούτω καθεξής",
+"and so on"
+],
+[
+"δηλ.",
+"δηλαδή",
+"i.e."
+],
+[
+"βλ.",
+"βλέπε",
+"see"
+],
+[
+"κ. / κα",
+"κύριος / κυρία",
+"Mr / Mrs, Ms"
+],
+[
+"π.Χ. / μ.Χ.",
+"προ Χριστού / μετά Χριστόν",
+"BC / AD"
+],
+[
+"π.μ. / μ.μ.",
+"προ μεσημβρίας / μετά μεσημβρίας",
+"a.m. / p.m."
+],
+[
+"τηλ.",
+"τηλέφωνο",
+"tel."
+],
+[
+"οδ.",
+"οδός",
+"street"
+],
+[
+"αρ.",
+"αριθμός",
+"no."
+],
+[
+"σελ.",
+"σελίδα",
+"p."
+],
+[
+"χλμ.",
+"χιλιόμετρα",
+"km"
+],
+[
+"εκατ. / δισ.",
+"εκατομμύρια / δισεκατομμύρια",
+"million / billion"
+],
+[
+"ΗΠΑ, ΕΕ",
+"Ηνωμένες Πολιτείες Αμερικής, Ευρωπαϊκή Ένωση",
+"USA, EU"
+]
+]
+}
+},
+{
+"p": "**Numbers in writing:**"
+},
+{
+"list": [
+"**Decimal comma**, **thousands point**: **2,5%** (δυόμισι τοις εκατό), **1.500 ευρώ**.",
+"**Ordinals**: **1ος, 1η, 1ο** (πρώτος, πρώτη, πρώτο), **3ος όροφος**, **ο 20ός αιώνας**.",
+"**Dates**: **25/3/1821** or **25 Μαρτίου 1821** (genitive of the month).",
+"**Old letter numerals** for chapters, classes and kings: **Α΄, Β΄, Γ΄** (πρώτη, δεύτερη, τρίτη τάξη), **Κωνσταντίνος ΙΑ΄**."
+]
+},
+{
+"ex": [
+{
+"el": "Αγόρασα φρούτα, π.χ. μήλα, πορτοκάλια κ.λπ.",
+"en": "I bought fruit, e.g. apples, oranges etc."
+},
+{
+"el": "Η συνάντηση είναι στις 10 π.μ.",
+"en": "The meeting is at 10 a.m."
+},
+{
+"el": "Ο Παρθενώνας χτίστηκε τον 5ο αιώνα π.Χ.",
+"en": "The Parthenon was built in the 5th century BC."
+},
+{
+"el": "Το παιδί πάει στη Β΄ Δημοτικού.",
+"en": "The child is in the 2nd year of primary school."
+}
+]
+},
+{
+"solved": [
+{
+"q": "Read aloud: \"2,5 χλμ.\"",
+"a": "δυόμισι χιλιόμετρα | δύο κόμμα πέντε χιλιόμετρα",
+"why": "Decimal comma."
+},
+{
+"q": "Write the date in words: \"28/10/1940\"",
+"a": "28 Οκτωβρίου 1940 | εικοσιοκτώ Οκτωβρίου χίλια εννιακόσια σαράντα",
+"why": "Month in the genitive."
+},
+{
+"q": "What does **κ.λπ.** stand for?",
+"a": "και λοιπά",
+"why": "= etc."
+}
+]
+},
+{
+"check": [
+{
+"type": "choice",
+"q": "**π.χ.** means",
+"options": [
+"i.e.",
+"e.g.",
+"etc.",
+"see"
+],
+"answer": "e.g.",
+"why": "παραδείγματος χάρη.",
+"id": "spelling-7c0ea15d"
+},
+{
+"type": "choice",
+"q": "**δηλ.** means",
+"options": [
+"e.g.",
+"i.e.",
+"etc.",
+"p.m."
+],
+"answer": "i.e.",
+"why": "δηλαδή.",
+"id": "spelling-7a1031e8"
+},
+{
+"type": "choice",
+"q": "**μ.Χ.** means",
+"options": [
+"BC",
+"AD",
+"a.m.",
+"p.m."
+],
+"answer": "AD",
+"why": "μετά Χριστόν.",
+"id": "spelling-f2daacf9"
+},
+{
+"type": "choice",
+"q": "In Greek, **1.500** means",
+"options": [
+"one and a half",
+"one thousand five hundred",
+"fifteen",
+"one point five"
+],
+"answer": "one thousand five hundred",
+"why": "The point separates thousands.",
+"id": "spelling-cd5f5d6f"
+},
+{
+"type": "choice",
+"q": "In Greek, **2,5** means",
+"options": [
+"twenty-five",
+"two and a half",
+"two thousand five hundred",
+"2 or 5"
+],
+"answer": "two and a half",
+"why": "Decimal comma.",
+"id": "spelling-236de101"
+},
+{
+"type": "choice",
+"q": "\"the 3rd floor\"",
+"options": [
+"ο 3η όροφος",
+"ο 3ος όροφος",
+"ο 3ο όροφος",
+"ο 3ων όροφος"
+],
+"answer": "ο 3ος όροφος",
+"why": "Masculine ordinal: 3ος.",
+"id": "spelling-cfc8642e"
+},
+{
+"type": "choice",
+"q": "**κα Παππά** means",
+"options": [
+"Mr Pappas",
+"Mrs Pappa",
+"Miss Pappas",
+"the company Pappas"
+],
+"answer": "Mrs Pappa",
+"why": "κα = κυρία.",
+"id": "spelling-2178c540"
+},
+{
+"type": "write",
+"q": "What does **κ.ά.** stand for?",
+"answer": "και άλλα",
+"accept": [],
+"why": "= and others.",
+"id": "spelling-49e043d0"
+},
+{
+"type": "write",
+"q": "What does **π.μ.** stand for?",
+"answer": "προ μεσημβρίας",
+"accept": [],
+"why": "= a.m.",
+"id": "spelling-ed5fb869"
+},
+{
+"type": "write",
+"q": "Write the abbreviation for **σελίδα**",
+"answer": "σελ.",
+"accept": [],
+"why": "page.",
+"id": "spelling-2aa7f720"
+},
+{
+"type": "write",
+"q": "Write \"the 20th century\" with a figure",
+"answer": "ο 20ός αιώνας",
+"accept": [
+"ο 20ος αιώνας"
+],
+"why": "Masculine ordinal.",
+"id": "spelling-bba066ab"
+},
+{
+"type": "write",
+"q": "Write the abbreviation for **κύριος**",
+"answer": "κ.",
+"accept": [],
+"why": "Mr.",
+"id": "spelling-2858de73"
+},
+{
+"type": "order",
+"q": "\"The meeting is at 10 a.m.\"",
+"answer": "Η συνάντηση είναι στις 10 π.μ.",
+"accept": [],
+"why": "π.μ. after the figure.",
+"id": "spelling-f9f22f92"
+}
+]
+}
+]
+}
+],
+"id": "spelling",
+"el": "Ορθογραφία και στίξη",
+"title": "Spelling, punctuation and abbreviations",
+"span": "A2–B2",
+"blurb": "How grammar decides spelling (θα λύσει but η λύση, οι καλοί but η καλή), the sound-alikes πως/πώς, που/πού, η/οι/ή, ότι/ό,τι, πια/πιο, the spelling of common endings (-ώνω, -εύω, -ίζω, -ικός, -εια), stress marks on capitals and the diaeresis, Greek punctuation (; · « » —), capital letters, and the abbreviations and number formats of everyday texts.",
+"intro": [
+{
+"p": "Greek has six ways to write the sound **i** (ι, η, υ, ει, οι, υι) and two for **o** (ο, ω). That looks frightening, but most of the time **grammar** tells you which one to use: the ending of a verb, a noun or an adjective has a fixed spelling. Learn the endings and you can spell words you have only heard. The B2 writing paper takes marks off for spelling and punctuation, so this chapter is worth the time."
+},
+{
+"links": [
+{
+"href": "#a1-alphabet",
+"kind": "Lesson",
+"el": "Το αλφάβητο",
+"title": "The alphabet"
+},
+{
+"href": "#a1-digraphs",
+"kind": "Lesson",
+"el": "Δίψηφα και φωνήεντα",
+"title": "Vowels and letter pairs"
+},
+{
+"href": "#a1-stress",
+"kind": "Lesson",
+"el": "Ο τόνος",
+"title": "Stress and the accent mark"
+},
+{
+"href": "#exam-writing-formal",
+"kind": "Lesson",
+"el": "Επίσημη επιστολή",
+"title": "Exam writing 2: formal letters, complaints, applications, letters to the editor"
+},
+{
+"href": "#cards.alphabet",
+"kind": "Card",
+"el": "Το αλφάβητο",
+"title": "The alphabet"
+},
+{
+"href": "#cards.stress",
+"kind": "Card",
+"el": "Ο τόνος",
+"title": "Stress and the accent mark"
+},
+{
+"href": "#pos.verb-forms",
+"kind": "Part of speech",
+"el": "Το ρήμα Α΄: οι τύποι",
+"title": "The verb I: forms and conjugations"
+}
+]
+}
+],
+"num": 41
+}
