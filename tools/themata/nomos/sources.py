@@ -27,4 +27,10 @@ SRC = {
  "gct_cpi25": ("Greek City Times, “Greece climbs in global corruption rankings” (CPI 2025: 50/100, 56th)", "https://greekcitytimes.com/2026/02/12/greece-corruption-perceptions-index-2025"),
  "w_fakelaki": ("Wikipedia, “Fakelaki”", W + "Fakelaki"),
  "w_cpi": ("Wikipedia, “Corruption Perceptions Index”", W + "Corruption_Perceptions_Index"),
+ "w_crime_fiction": ("Wikipedia, “Crime fiction”", W + "Crime_fiction"),
+ "w_markaris": ("Wikipedia, “Petros Markaris” (Inspector Charitos novels)", W + "Petros_Markaris"),
+ "w_piraeus_port": ("Wikipedia, “Port of Piraeus”", W + "Port_of_Piraeus"),
+ "w_cyanide": ("Wikipedia, “Cyanide poisoning”", W + "Cyanide_poisoning"),
+ "w_hypnosis": ("Wikipedia, “Hypnosis”", W + "Hypnosis"),
+ "w_psychic": ("Wikipedia, “Psychic”", W + "Psychic"),
 }

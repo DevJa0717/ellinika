@@ -25,6 +25,13 @@
    "en": "Games and gadgets",
    "intro_el": "Το τάβλι, τα επιτραπέζια, το στοίχημα και τα κόμικς· από το τρανζίστορ και το κασετόφωνο ως το Zoom.",
    "intro_en": "Tavli, board games, betting and comics; from the transistor radio and the cassette player to Zoom."
+  },
+  {
+   "id": "mousiki-zoa",
+   "el": "Μουσική, μόδα και ζωντανή φύση",
+   "en": "Music, fashion and living nature",
+   "intro_el": "Ένα συγκρότημα που κάνει πρόβα, τα ρούχα και η κομψότητα, οι ράτσες των σκύλων και τα ζώα του κόσμου, και η τροφική αλυσίδα σε ένα ελληνικό δέλτα.",
+   "intro_en": "A band rehearsing, clothes and elegance, dog breeds and the world's animals, and the food chain in a Greek river delta."
   }
  ],
  "items": [
@@ -89,6 +96,24 @@
    "title": "From the transistor radio to Zoom",
    "level": "B2",
    "part": "paixnidia",
+   "dates": ""
+  },
+  {
+   "id": "mousiki-moda",
+   "file": "mousiki-moda.json",
+   "el": "Μουσική και μόδα",
+   "title": "Music and fashion",
+   "level": "B2",
+   "part": "mousiki-zoa",
+   "dates": ""
+  },
+  {
+   "id": "oikologia",
+   "file": "oikologia.json",
+   "el": "Από το σαλόνι στο δέλτα",
+   "title": "From the living room to the delta",
+   "level": "C1",
+   "part": "mousiki-zoa",
    "dates": ""
   }
  ]

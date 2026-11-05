@@ -40,4 +40,10 @@ SRC = {
  "w_conclave_2025": ("Wikipedia, “2025 papal conclave”", W + "2025_papal_conclave"),
  "w_church_greece": ("Wikipedia, “Church of Greece”", W + "Church_of_Greece"),
  "w_astrology": ("Wikipedia, “Astrology” (no scientific validity)", W + "Astrology"),
+ "w_kallikratis": ("Wikipedia, “Kallikratis Programme” (2010–2011 local-government reform)", W + "Kallikratis_Programme"),
+ "w_civil_protection": ("Wikipedia, “Civil defense”", W + "Civil_defense"),
+ "w_education_greece": ("Wikipedia, “Education in Greece”", W + "Education_in_Greece"),
+ "w_officialese": ("Wikipedia, “Officialese”", W + "Officialese"),
+ "w_press_release": ("Wikipedia, “Press release”", W + "Press_release"),
+ "w_weather_warning": ("Wikipedia, “Severe weather”", W + "Severe_weather"),
 }

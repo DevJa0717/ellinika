@@ -43,4 +43,13 @@ SRC = {
  "w_telework": ("Wikipedia, “Remote work”", W + "Remote_work"),
  "w_burnout": ("Wikipedia, “Occupational burnout”", W + "Occupational_burnout"),
  "taxrev_30": ("taxrevenue.gr, «Δαπάνες με ηλεκτρονικά μέσα πληρωμής (ηλεκτρονικές αποδείξεις): πρόσθετος φόρος 22%» (άρθρο 15 ΚΦΕ)", "https://taxrevenue.gr/ilektronikes-apodeixeis-extra-foros/"),
+ "w_tif": ("Wikipedia, “Thessaloniki International Fair” (first week of September since 1926; PM's programmatic speech)", W + "Thessaloniki_International_Fair"),
+ "w_trade_fair": ("Wikipedia, “Trade fair”", W + "Trade_fair"),
+ "w_serial_number": ("Wikipedia, “Serial number”", W + "Serial_number"),
+ "w_chassis": ("Wikipedia, “Chassis”", W + "Chassis"),
+ "w_machining": ("Wikipedia, “Machining”", W + "Machining"),
+ "w_multimedia": ("Wikipedia, “Multimedia”", W + "Multimedia"),
+ "w_security_guard": ("Wikipedia, “Security guard”", W + "Security_guard"),
+ "w_business_magnate": ("Wikipedia, “Business magnate”", W + "Business_magnate"),
+ "w_capitalism": ("Wikipedia, “Capitalism”", W + "Capitalism"),
 }
