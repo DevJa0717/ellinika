@@ -4,7 +4,8 @@ Corpus: lessons/, library/ (all shelves), data/c1, data/colloquial (JSON/txt/htm
 Lemmas: data/lexicon/core-1000.json + core-3000.json (ranked by the OpenSubtitles 2018 frequency
 list, hermitdave/FrequencyWords, CC BY-SA 4.0) plus data/lexicon/build/added-10k.json when present.
 Forms -> lemma through data/lexicon/forms-index.json (plus the lemma itself).
-Usage: python3 tools/themes/coverage.py [--exclude library/themata] [--out file.json]"""
+Multi-word lemmas are matched as phrases (space or hyphen between parts).
+Usage: python3 tools/themata/coverage.py [--exclude library/themata] [--out file.json]"""
 import json, os, re, sys, glob, unicodedata, collections
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 args = sys.argv[1:]
@@ -21,6 +22,10 @@ if os.path.exists(add):
     lex += a
 forms = json.load(open(os.path.join(R, "data/lexicon/forms-index.json"), encoding="utf-8"))["forms"]
 tok = collections.Counter()
+# multi-word lemmas (τοις εκατό, σιγά-σιγά, πορτ-μπαγκάζ): matched as phrases, space or hyphen between the parts
+MW = {e["lemma"]: re.compile(r"(?<![Ͱ-Ͽἀ-῿])" + r"[\s\-‐–]+".join(map(re.escape, re.split(r"[\s\-]+", e["lemma"].lower()))) + r"(?![Ͱ-Ͽἀ-῿])")
+      for e in lex if e.get("lemma") and re.search(r"[\s\-]", e["lemma"].strip())}
+mwseen = collections.Counter()
 files = []
 for d in ("lessons", "library", "data/c1", "data/colloquial"):
     for p in glob.glob(os.path.join(R, d, "**", "*"), recursive=True):
@@ -28,9 +33,14 @@ for d in ("lessons", "library", "data/c1", "data/colloquial"):
         rel = os.path.relpath(p, R)
         if any(rel.startswith(e) for e in excl) or "/src/" in rel and rel.endswith(".py"): continue
         files.append(rel)
-        for t in GR.findall(open(p, encoding="utf-8", errors="ignore").read()):
+        txt = open(p, encoding="utf-8", errors="ignore").read()
+        for t in GR.findall(txt):
             tok[t.lower()] += 1
-seen = collections.Counter()
+        if MW:
+            low = txt.lower()
+            for l, rx in MW.items():
+                if rx.search(low): mwseen[l] += len(rx.findall(low))
+seen = collections.Counter(mwseen)
 for t, n in tok.items():
     for l in forms.get(t, [t]): seen[l] += n
     if t not in forms:

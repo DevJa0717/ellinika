@@ -92,7 +92,7 @@ function checkString(file, jp, s0, ctx, lenient) {
     if (/[\u0300-\u036f]/.test(w)) return; // phonetic/dialect spellings with combining marks (τσ̌ερί)
     const before = s[at - 1] || "", after = s[at + w0.length] || "";
     if (/[-‐‑–/]/.test(before) || /[-‐‑–]/.test(after) || before === "*" && after === "*" && w.length < 4) return; // stems, endings, syllables (αυ-το-κί-νη-το, -ησα)
-    if (/ς./.test(w)) add(file, jp, "final-sigma", !lenient, w, s);
+    if (/ς(?![;\u037e]$)./.test(w)) add(file, jp, "final-sigma", !lenient, w, s);
     if (/σ$/.test(w) && !apos && w.length > 1 && !/[.*_]/.test(after) && !/^(.)\1+$/i.test(w.toLowerCase().replace(/ς/g, "σ")) && !/^[τπ]?[τπσ]σ$|^τσ$/.test(w)) add(file, jp, "final-sigma", !lenient, w, s);
     if (polytonic || lenient) return;
     const na = (w.match(ACC) || []).length, ns = syll(w);

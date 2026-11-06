@@ -33,7 +33,11 @@ def rec(e):
     ex = e.get("example") or {}
     cs = [[c["el"], c["en"]] for c in (col.get(e["lemma"], {}).get("collocations") or [])[:3]]
     alt = [l for l in by_gloss[e["gloss"].strip().lower()] if l != e["lemma"]][:4]
-    alt += [v.strip() for v in re.split(r"\s*/\s*", e["lemma"]) if v.strip() and v.strip() != e["lemma"]]
+    parts = [v.strip() for v in re.split(r"\s*/\s*", e["lemma"]) if v.strip()]
+    if len(parts) > 1:
+        for v in parts[1:]:  # "αυτοί/ές": a bare ending replaces the same-length tail of the first form
+            if len(v) <= 3 and len(parts[0]) > len(v) + 1 and v[0] not in "οητ": parts[parts.index(v)] = parts[0][:-len(v)] + v
+        alt += [v for v in parts if v != e["lemma"]]
     r = {"r": e["freq_rank"], "l": e["lemma"], "a": art, "p": e["pos"], "g": e["gloss"], "h": e.get("form_key") or ""}
     if ex.get("el"): r["x"] = [ex["el"], ex.get("en", "")]
     if cs: r["c"] = cs
