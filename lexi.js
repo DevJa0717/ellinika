@@ -1,5 +1,5 @@
 /* Ελληνικά frequency-ranked vocabulary course (#lexi).
-   #lexi             all 38 bands of 500 words (every word of the lexicon, most frequent first), totals, due reviews
+   #lexi             all bands of 500 words (every word of the lexicon, most frequent first), totals, due reviews
    #lexi.<n>         one band: progress, study session, recognition quiz, word list
    #lexi.review      every production review that is due, from all bands
    Data in library/lexi/ (built by tools/lexi/build.py from data/lexicon/). Progress is shared with the lessons' word

@@ -1,4 +1,4 @@
-STATE 2026-11-06 05:30 UTC: 18,876 entries; example + grammar-header pass complete (995 examples replaced, 28 grammar fixes); forms 222,423; collocations 18,351 (+ function-word frames colloc_55-58 in progress).
+STATE 2026-11-06 07:40 UTC: 19,350 entries (+474 from words in #lexi examples/collocations: in_unres/out_unres u69–u80, collocations colloc_59–66); forms 227,347; collocations 19,347. CAUTION: merge10k.py run without its MAP/rank args drops the Wiktionary-derived names; names_add.json now holds the union, keep it.
 10k extension (3,595 entries: every non-name lemma ranked ≤ 10,950 by wordfreq that passed review, list with ranks in added-10k.json): build/10k/ — kaikki_map.py + rank.py + prep.py make batches, brief_10k.md / brief_unres.md for writers, merge10k.py -> entries.json/names_add.json/known_forms_add.json (hand fixes in fixes10k.json), check10k.py = audit rule checks (needs EL_DIC=el_GR.dic). finalize.py merges them idempotently.
 Running: nothing.
 Merge after any misses/*.out.json or spotcheck*.out.json changes:  python3 data/lexicon/build/finalize.py (repo root; script finds its own paths) --write   (idempotent)
