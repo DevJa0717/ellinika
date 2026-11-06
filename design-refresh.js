@@ -49,6 +49,8 @@
     if (h === 'practicehub' || /^(sheets|drill|exam|mock|writing|listening|expr|mistakes|register|speaking|diagnostic|speakinglab|writingcoach|tetradio)$/.test(h)) return 'practice';
     if (/^(library|stories|classics|news|opinion|ref|search|phrases|argue|pos|syntax|cards)$/.test(h)) return 'library';
     if (h === 'focus' || h === 'backup') return 'progress';
+    // every other add-on route (readers, shelves, #lexi, #klisi ...) is opened from the Library; lesson ids stay under Course
+    if (h && h !== 'profiles' && h !== 'videos' && h !== 'credits' && (window.EllinikaAddons || {})[h]) return 'library';
     return 'course';
   };
   const updateActive = () => {
@@ -59,6 +61,7 @@
     });
   };
   window.addEventListener('hashchange', updateActive);
+  window.addEventListener('load', updateActive); // add-on scripts register after this one
   updateActive();
 
   const sections = [
