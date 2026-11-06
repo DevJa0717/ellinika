@@ -1,0 +1,41 @@
+[
+ {
+  "lemma": "μετάγω",
+  "set": {
+   "verb.aorist_passive_1sg": "μετάχθηκα"
+  },
+  "why": "μετήχθην is the archaic 1sg; modern passive aorist is μετάχθηκα (3sg μετάχθηκε/μετήχθη)"
+ },
+ {
+  "lemma": "προπορεύομαι",
+  "set": {
+   "verb.aorist_1sg": "προπορεύτηκα",
+   "form_key": "Pres: προπορεύομαι | Aor: προπορεύτηκα"
+  },
+  "why": "aorist προπορεύτηκα is in use (e.g. προπορεύτηκε με 2-0); fill missing aorist"
+ },
+ {
+  "lemma": "φερέφωνο",
+  "set": {
+   "noun.model": "n-ο-b"
+  },
+  "why": "gen φερέφωνου keeps stress on the antepenult, so n-ο-b (σύννεφο type), not n-ο-a"
+ },
+ {
+  "lemma": "περίσσευμα",
+  "set": {
+   "example": {
+    "el": "Το περίσσευμα της παραγωγής θα διατεθεί σε ευπαθείς ομάδες.",
+    "en": "The production surplus will be distributed to vulnerable groups."
+   }
+  },
+  "why": "fiscal 'primary surplus' is πρωτογενές πλεόνασμα, not περίσσευμα; example replaced with a natural use"
+ },
+ {
+  "lemma": "αχαϊκός",
+  "set": {
+   "DROP": true
+  },
+  "why": "regional adjective from a proper name (Achaia), used mainly in the journalistic cliché 'αχαϊκή πρωτεύουσα'; low-value name derivative"
+ }
+]

@@ -1,0 +1,11 @@
+[
+ {"lemma": "αντίδωρο", "set": {"DROP": true}, "why": "liturgical/church term, not news vocabulary"},
+ {"lemma": "αεί", "set": {"DROP": true}, "why": "archaic Ancient Greek adverb surviving only in frozen phrases"},
+ {"lemma": "αυτοκινητικός", "set": {"gloss": "automotive, car (αυτοκινητική βιομηχανία = car industry)", "example": {"el": "Η ευρωπαϊκή αυτοκινητική βιομηχανία περνά κρίση λόγω των δασμών.", "en": "The European car industry is going through a crisis because of the tariffs."}}, "why": "'car accident' in news is αυτοκινητιστικό δυστύχημα; αυτοκινητικός = automotive (industry)"},
+ {"lemma": "εξευρίσκω", "set": {"verb.aorist_1sg": "εξεύρα", "form_key": "Pres: εξευρίσκω | Aor: εξεύρα"}, "why": "active aorist εξεύρα is in use (η κυβέρνηση εξεύρε λύση); fill missing aorist"},
+ {"lemma": "έμπροσθεν", "set": {"gloss": "in front (of) (+ gen.: έμπροσθεν του κτιρίου); before", "example": {"el": "Οι διαδηλωτές συγκεντρώθηκαν έμπροσθεν του δημαρχείου.", "en": "The protesters gathered in front of the town hall."}}, "why": "εκ των έμπροσθεν means 'from the front', not 'head-on'; example was unidiomatic"},
+ {"lemma": "οπιοειδή", "set": {"noun.model": "irregular"}, "why": "neuter of adjective in -ής/-ές (οπιοειδές, -ούς), not n-ο-a"},
+ {"lemma": "οστρακοειδή", "set": {"noun.model": "irregular"}, "why": "neuter of adjective in -ής/-ές (οστρακοειδές, -ούς), not n-ο-a"},
+ {"lemma": "σκωπτικός", "set": {"example": {"el": "Ο βουλευτής έκανε ένα σκωπτικό σχόλιο για τη δήλωση του υπουργού.", "en": "The MP made a mocking comment about the minister's statement."}}, "why": "example used the adverb σκωπτικά, not the headword"},
+ {"lemma": "αποκεφαλισμός", "set": {"example": {"el": "Η κυβέρνηση προχώρησε σε αποκεφαλισμό της ηγεσίας της αστυνομίας.", "en": "The government went ahead and removed the entire police leadership."}}, "why": "original sentence (η διοίκηση οδηγήθηκε σε) was awkward and mistranslated"}
+]
