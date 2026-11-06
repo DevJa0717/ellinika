@@ -1,4 +1,4 @@
-State 2026-11-05 ~19:55 UTC. Lexicon 15,676 entries (core-1000 + core-3000); forms-index 181,004; names.json 6,625; collocations.json 15,153 lemmas. Lookup over all lessons + library + readers: 99.8% of 1.39M tokens (misses 2,609). The wordfreq Greek list is exhausted; OpenSubtitles el_50k is used down to 0.8 per million (about 1,570 unknown forms left below that).
+State 2026-11-06 ~00:20 UTC. Lexicon 17,579 entries (core-1000 + core-3000); forms-index 206,525; names.json 6,634; collocations.json 17,055 lemmas. Lookup 99.8% of 1.40M app tokens. Sources: wordfreq (exhausted), OpenSubtitles el_50k (to 0.8/million), B2/C1 exam topic lists (build/topics/), Leipzig news 2022 (build/news/, top 2,400 unknown forms done; ~2,500 more above 0.5/million in news_unknown.json).
 10k extension (3,595 entries: every non-name lemma ranked ≤ 10,950 by wordfreq that passed review, list with ranks in added-10k.json): build/10k/ — kaikki_map.py + rank.py + prep.py make batches, brief_10k.md / brief_unres.md for writers, merge10k.py -> entries.json/names_add.json/known_forms_add.json (hand fixes in fixes10k.json), check10k.py = audit rule checks (needs EL_DIC=el_GR.dic). finalize.py merges them idempotently.
 Running: nothing.
 Merge after any misses/*.out.json or spotcheck*.out.json changes:  python3 data/lexicon/build/finalize.py (repo root; script finds its own paths) --write   (idempotent)
@@ -12,3 +12,7 @@ Lesson misses: build/misses/v*.json (seen 2+ times) and w*.json (once) per brief
 Round 5 (OpenSubtitles el_50k unknown forms, build/10k/in_unres/u23-u32): +637 everyday spoken words; character names classed as fragments; reviews r16-r18.
 
 Round 6 (el_50k forms u33-u42, 2,400 more): +778 reviewed spoken words (reviews r19-r22); collocations colloc_37-39. Backups of pre-round state in /tmp/claude-0/bk_r6 (session-local).
+
+B2/C1 topics: build/topics/ (brief_topics.md, t01-t10 lists + drafts/, filter.py -> missing.json; 692 entries via u43-u49, reviews r23-r26; entries carry themes).
+News: build/news/news_unknown.json (Leipzig ell_news_2022_1M, CC BY 4.0); u50-u59 classified, reviews r27-r34; dropped feminines/participles had their forms routed to the base lemma (known_forms_manual.json / FORMS).
+Quality pass: build/quality/ (brief_quality.md, q00-q11, apply_quality.py: gloss/example -> spotcheck7.out.json applied by finalize; collocation lists edited in collocations.json).
