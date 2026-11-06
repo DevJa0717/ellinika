@@ -1,0 +1,2663 @@
+[
+ {
+  "lemma": "να",
+  "pos": "particle",
+  "gloss": "to (marks subjunctive); here is",
+  "form_key": "indecl",
+  "example": {
+   "el": "Θέλω να πάω σπίτι.",
+   "en": "I want to go home."
+  }
+ },
+ {
+  "lemma": "είμαι",
+  "pos": "verb",
+  "gloss": "to be",
+  "form_key": "Pres: είμαι | irreg (no aor)",
+  "example": {
+   "el": "Είμαι κουρασμένος σήμερα.",
+   "en": "I am tired today."
+  },
+  "verb": {
+   "present_1sg": "είμαι",
+   "aorist_1sg": null,
+   "conj_group": "irregular",
+   "note": "Pres: είμαι | irreg (no aor)"
+  }
+ },
+ {
+  "lemma": "τον/την/το",
+  "pos": "pronoun",
+  "gloss": "him/her/it",
+  "form_key": "3sg acc (weak)",
+  "example": {
+   "el": "Την αγαπώ πολύ.",
+   "en": "I love her very much."
+  }
+ },
+ {
+  "lemma": "δεν",
+  "pos": "particle",
+  "gloss": "not (negates indicative verbs)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Δεν ξέρω τι να πω.",
+   "en": "I don't know what to say."
+  }
+ },
+ {
+  "lemma": "ο",
+  "pos": "article",
+  "gloss": "the (m)",
+  "form_key": "m.sg.nom",
+  "example": {
+   "el": "Ο άντρας τρέχει.",
+   "en": "The man runs."
+  }
+ },
+ {
+  "lemma": "η",
+  "pos": "article",
+  "gloss": "the (f)",
+  "form_key": "f.sg.nom",
+  "example": {
+   "el": "Η γυναίκα διαβάζει.",
+   "en": "The woman reads."
+  }
+ },
+ {
+  "lemma": "σε",
+  "pos": "preposition",
+  "gloss": "in; at; to; on",
+  "form_key": "indecl (+ acc)",
+  "example": {
+   "el": "Πηγαίνω σε ένα εστιατόριο.",
+   "en": "I'm going to a restaurant."
+  }
+ },
+ {
+  "lemma": "το",
+  "pos": "article",
+  "gloss": "the (n)",
+  "form_key": "n.sg.nom/acc",
+  "example": {
+   "el": "Το παιδί παίζει.",
+   "en": "The child plays."
+  }
+ },
+ {
+  "lemma": "θα",
+  "pos": "particle",
+  "gloss": "will; would (future/conditional marker)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Θα σε δω αύριο.",
+   "en": "I'll see you tomorrow."
+  }
+ },
+ {
+  "lemma": "εγώ",
+  "pos": "pronoun",
+  "gloss": "I",
+  "form_key": "1sg nom",
+  "example": {
+   "el": "Εγώ μιλώ ελληνικά.",
+   "en": "I speak Greek."
+  }
+ },
+ {
+  "lemma": "ένας",
+  "pos": "numeral",
+  "gloss": "one",
+  "form_key": "m; f: μία/μια, n: ένα",
+  "example": {
+   "el": "Έχω έναν αδερφό.",
+   "en": "I have one brother."
+  }
+ },
+ {
+  "lemma": "και",
+  "pos": "conjunction",
+  "gloss": "and; also",
+  "form_key": "indecl",
+  "example": {
+   "el": "Θέλω έναν καφέ και ένα κομμάτι κέικ.",
+   "en": "I want a coffee and a piece of cake."
+  }
+ },
+ {
+  "lemma": "έχω",
+  "pos": "verb",
+  "gloss": "to have",
+  "form_key": "Pres: έχω | Impf: είχα (no aor)",
+  "example": {
+   "el": "Έχω δύο αδέρφια.",
+   "en": "I have two siblings."
+  },
+  "verb": {
+   "present_1sg": "έχω",
+   "aorist_1sg": null,
+   "conj_group": "A",
+   "note": "no aorist; past: είχα (imperfect only)",
+   "imperfect_1sg": "είχα"
+  }
+ },
+ {
+  "lemma": "για",
+  "pos": "preposition",
+  "gloss": "for; about",
+  "form_key": "indecl (+ acc)",
+  "example": {
+   "el": "Αυτό το δώρο είναι για σένα.",
+   "en": "This gift is for you."
+  }
+ },
+ {
+  "lemma": "εσύ",
+  "pos": "pronoun",
+  "gloss": "you (sg)",
+  "form_key": "2sg nom",
+  "example": {
+   "el": "Εσύ είσαι έξυπνος.",
+   "en": "You are smart."
+  }
+ },
+ {
+  "lemma": "μου",
+  "pos": "pronoun",
+  "gloss": "my; me (obj)",
+  "form_key": "1sg gen/acc (weak)",
+  "example": {
+   "el": "Δώσε μου το βιβλίο.",
+   "en": "Give me the book."
+  }
+ },
+ {
+  "lemma": "που",
+  "pos": "pronoun",
+  "gloss": "that, which, who (relative); where (relative); that (after verbs of feeling)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Ο φίλος που σου σύστησα χθες είναι γιατρός.",
+   "en": "The friend I introduced you to yesterday is a doctor."
+  }
+ },
+ {
+  "lemma": "ενάμισης",
+  "pos": "numeral",
+  "gloss": "one and a half",
+  "form_key": "f: μιάμιση, n: ενάμισι",
+  "example": {
+   "el": "Περίμενα μιάμιση ώρα στο αεροδρόμιο.",
+   "en": "I waited an hour and a half at the airport."
+  },
+  "adjective": {
+   "m": "ενάμισης",
+   "f": "μιάμιση",
+   "n": "ενάμισι",
+   "model": "irregular"
+  }
+ },
+ {
+  "lemma": "λέω",
+  "pos": "verb",
+  "gloss": "to say; to tell",
+  "form_key": "Pres: λέω | Aor: είπα",
+  "example": {
+   "el": "Τι λες; Σοβαρά;",
+   "en": "What are you saying? Seriously?"
+  },
+  "verb": {
+   "present_1sg": "λέω",
+   "aorist_1sg": "είπα",
+   "aorist_passive_1sg": "ειπώθηκα",
+   "participle": "ειπωμένος",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "τι",
+  "pos": "pronoun",
+  "gloss": "what; how (exclamatory)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Τι θέλεις να φας;",
+   "en": "What do you want to eat?"
+  }
+ },
+ {
+  "lemma": "κάνω",
+  "pos": "verb",
+  "gloss": "to do; to make",
+  "form_key": "Pres: κάνω | Aor: έκανα",
+  "example": {
+   "el": "Τι κάνεις τώρα;",
+   "en": "What are you doing now?"
+  },
+  "verb": {
+   "present_1sg": "κάνω",
+   "aorist_1sg": "έκανα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "αυτός",
+  "pos": "pronoun",
+  "gloss": "he; this/that",
+  "form_key": "m.sg; f: αυτή, n: αυτό",
+  "example": {
+   "el": "Αυτός είναι ο αδερφός μου.",
+   "en": "He is my brother."
+  }
+ },
+ {
+  "lemma": "ότι",
+  "pos": "conjunction",
+  "gloss": "that (introducing a clause)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Νομίζω ότι έχεις δίκιο.",
+   "en": "I think that you are right."
+  }
+ },
+ {
+  "lemma": "σου",
+  "pos": "pronoun",
+  "gloss": "your; you (obj)",
+  "form_key": "2sg gen/acc (weak)",
+  "example": {
+   "el": "Πώς είναι η μητέρα σου;",
+   "en": "How is your mother?"
+  }
+ },
+ {
+  "lemma": "από",
+  "pos": "preposition",
+  "gloss": "from; by; since",
+  "form_key": "indecl (+ acc)",
+  "example": {
+   "el": "Είμαι από τον Καναδά.",
+   "en": "I am from Canada."
+  }
+ },
+ {
+  "lemma": "θέλω",
+  "pos": "verb",
+  "gloss": "to want",
+  "form_key": "Pres: θέλω | Aor: θέλησα (impf: ήθελα)",
+  "example": {
+   "el": "Θέλω έναν καφέ, παρακαλώ.",
+   "en": "I want a coffee, please."
+  },
+  "verb": {
+   "present_1sg": "θέλω",
+   "aorist_1sg": "θέλησα",
+   "conj_group": "A",
+   "note": "past usually imperfect ήθελα"
+  }
+ },
+ {
+  "lemma": "ξέρω",
+  "pos": "verb",
+  "gloss": "to know",
+  "form_key": "Pres: ξέρω | Impf: ήξερα (no aor)",
+  "example": {
+   "el": "Ξέρεις πού είναι η στάση του λεωφορείου;",
+   "en": "Do you know where the bus stop is?"
+  },
+  "verb": {
+   "present_1sg": "ξέρω",
+   "aorist_1sg": null,
+   "conj_group": "A",
+   "note": "no aorist; past: ήξερα (imperfect only)"
+  }
+ },
+ {
+  "lemma": "την",
+  "pos": "article",
+  "gloss": "the (f.acc)",
+  "form_key": "f.sg.acc",
+  "example": {
+   "el": "Αγαπώ την Ελλάδα.",
+   "en": "I love Greece."
+  }
+ },
+ {
+  "lemma": "αυτό",
+  "pos": "pronoun",
+  "gloss": "it; this/that (n)",
+  "form_key": "n.sg",
+  "example": {
+   "el": "Αυτό είναι ωραίο.",
+   "en": "This is nice."
+  }
+ },
+ {
+  "lemma": "όχι",
+  "pos": "adverb",
+  "gloss": "no; not",
+  "form_key": "indecl",
+  "example": {
+   "el": "Όχι, δεν θέλω καφέ.",
+   "en": "No, I don't want coffee."
+  }
+ },
+ {
+  "lemma": "ναι",
+  "pos": "adverb",
+  "gloss": "yes",
+  "form_key": "indecl",
+  "example": {
+   "el": "Ναι, θα έρθω κι εγώ.",
+   "en": "Yes, I'll come too."
+  }
+ },
+ {
+  "lemma": "πρέπει",
+  "pos": "verb",
+  "gloss": "must; should (impers.)",
+  "form_key": "3sg impers; past έπρεπε; no aor",
+  "example": {
+   "el": "Πρέπει να φύγω τώρα.",
+   "en": "I must leave now."
+  },
+  "verb": {
+   "present_1sg": "πρέπει",
+   "aorist_1sg": null,
+   "conj_group": "irregular",
+   "note": "3sg impers; no aor"
+  }
+ },
+ {
+  "lemma": "αν",
+  "pos": "conjunction",
+  "gloss": "if",
+  "form_key": "indecl",
+  "example": {
+   "el": "Αν βρέξει, θα μείνω σπίτι.",
+   "en": "If it rains, I'll stay home."
+  }
+ },
+ {
+  "lemma": "τους",
+  "pos": "pronoun",
+  "gloss": "their; them",
+  "form_key": "3pl gen/acc (weak)",
+  "example": {
+   "el": "Τους είδα στην πλατεία.",
+   "en": "I saw them in the square."
+  }
+ },
+ {
+  "lemma": "αλλά",
+  "pos": "conjunction",
+  "gloss": "but",
+  "form_key": "indecl",
+  "example": {
+   "el": "Θέλω να κοιμηθώ αλλά δεν μπορώ.",
+   "en": "I want to sleep but I can't."
+  }
+ },
+ {
+  "lemma": "εδώ",
+  "pos": "adverb",
+  "gloss": "here",
+  "form_key": "indecl",
+  "example": {
+   "el": "Έλα εδώ να δεις κάτι!",
+   "en": "Come here and see something!"
+  }
+ },
+ {
+  "lemma": "όλος",
+  "pos": "adjective",
+  "gloss": "all; whole; entire",
+  "form_key": "f: όλη, n: όλο",
+  "example": {
+   "el": "Έφαγα όλο το φαγητό.",
+   "en": "I ate all the food."
+  },
+  "adjective": {
+   "m": "όλος",
+   "f": "όλη",
+   "n": "όλο",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "βλέπω",
+  "pos": "verb",
+  "gloss": "to see; to watch",
+  "form_key": "Pres: βλέπω | Aor: είδα",
+  "example": {
+   "el": "Βλέπω τηλεόραση το βράδυ.",
+   "en": "I watch TV in the evening."
+  },
+  "verb": {
+   "present_1sg": "βλέπω",
+   "aorist_1sg": "είδα",
+   "aorist_passive_1sg": "ειδώθηκα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "με",
+  "pos": "preposition",
+  "gloss": "with",
+  "form_key": "indecl (+ acc)",
+  "example": {
+   "el": "Έρχομαι μαζί με σένα.",
+   "en": "I'm coming with you."
+  }
+ },
+ {
+  "lemma": "έρχομαι",
+  "pos": "verb",
+  "gloss": "to come",
+  "form_key": "Pres: έρχομαι | Aor: ήρθα",
+  "example": {
+   "el": "Έρχομαι σε πέντε λεπτά.",
+   "en": "I'm coming in five minutes."
+  },
+  "verb": {
+   "present_1sg": "έρχομαι",
+   "aorist_1sg": "ήρθα",
+   "conj_group": "deponent"
+  }
+ },
+ {
+  "lemma": "καλός",
+  "pos": "adjective",
+  "gloss": "good; nice",
+  "form_key": "f: καλή, n: καλό",
+  "example": {
+   "el": "Είναι πολύ καλός φίλος.",
+   "en": "He is a very good friend."
+  },
+  "adjective": {
+   "m": "καλός",
+   "f": "καλή",
+   "n": "καλό",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "μπορώ",
+  "pos": "verb",
+  "gloss": "to be able to; can",
+  "form_key": "Pres: μπορώ | Aor: μπόρεσα",
+  "example": {
+   "el": "Μπορείς να με βοηθήσεις;",
+   "en": "Can you help me?"
+  },
+  "verb": {
+   "present_1sg": "μπορώ",
+   "aorist_1sg": "μπόρεσα",
+   "conj_group": "B2"
+  }
+ },
+ {
+  "lemma": "μπορεί",
+  "pos": "verb",
+  "gloss": "maybe; it may be that (impers. of μπορώ)",
+  "form_key": "3sg impers of μπορώ | Aor: μπόρεσε",
+  "example": {
+   "el": "Μπορεί να βρέξει.",
+   "en": "It might rain."
+  },
+  "verb": {
+   "present_1sg": "μπορώ",
+   "aorist_1sg": null,
+   "conj_group": "B2",
+   "note": "3sg impers of μπορώ (past: μπορούσε); personal aorist μπόρεσα under μπορώ"
+  }
+ },
+ {
+  "lemma": "γιατί",
+  "pos": "adverb",
+  "gloss": "why; because",
+  "form_key": "indecl",
+  "example": {
+   "el": "Γιατί δεν ήρθες;",
+   "en": "Why didn't you come?"
+  }
+ },
+ {
+  "lemma": "τον",
+  "pos": "article",
+  "gloss": "the (m.acc)",
+  "form_key": "m.sg.acc",
+  "example": {
+   "el": "Βλέπω τον φίλο μου.",
+   "en": "I see my friend."
+  }
+ },
+ {
+  "lemma": "παίρνω",
+  "pos": "verb",
+  "gloss": "to take; to get",
+  "form_key": "Pres: παίρνω | Aor: πήρα",
+  "example": {
+   "el": "Παίρνω το λεωφορείο.",
+   "en": "I take the bus."
+  },
+  "verb": {
+   "present_1sg": "παίρνω",
+   "aorist_1sg": "πήρα",
+   "aorist_passive_1sg": "πάρθηκα",
+   "participle": "παρμένος",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "πολύς",
+  "pos": "adjective",
+  "gloss": "much; many; a lot of",
+  "form_key": "f: πολλή, n: πολύ",
+  "example": {
+   "el": "Έχω πολλή δουλειά σήμερα.",
+   "en": "I have a lot of work today."
+  },
+  "adjective": {
+   "m": "πολύς",
+   "f": "πολλή",
+   "n": "πολύ",
+   "model": "adj-πολύς"
+  }
+ },
+ {
+  "lemma": "μην",
+  "pos": "particle",
+  "gloss": "don't; not (negates subjunctive and imperative); lest",
+  "form_key": "indecl",
+  "example": {
+   "el": "Μην ανησυχείς, όλα θα πάνε καλά.",
+   "en": "Don't worry, everything will be fine."
+  }
+ },
+ {
+  "lemma": "πως",
+  "pos": "conjunction",
+  "gloss": "that (introducing a clause, after verbs of saying/thinking)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Μου είπε πως θα αργήσει λίγο απόψε.",
+   "en": "He told me that he'd be a little late tonight."
+  }
+ },
+ {
+  "lemma": "τώρα",
+  "pos": "adverb",
+  "gloss": "now",
+  "form_key": "indecl",
+  "example": {
+   "el": "Τι κάνεις τώρα;",
+   "en": "What are you doing now?"
+  }
+ },
+ {
+  "lemma": "του",
+  "pos": "article",
+  "gloss": "the (m/n.gen); his/its",
+  "form_key": "m/n.sg.gen / poss.pron",
+  "example": {
+   "el": "Το αυτοκίνητο του Γιώργου είναι καινούριο.",
+   "en": "George's car is new."
+  }
+ },
+ {
+  "lemma": "εσείς",
+  "pos": "pronoun",
+  "gloss": "you (pl / formal)",
+  "form_key": "2pl nom (also formal sg)",
+  "example": {
+   "el": "Εσείς τι θέλετε;",
+   "en": "What do you want?"
+  }
+ },
+ {
+  "lemma": "εμείς",
+  "pos": "pronoun",
+  "gloss": "we",
+  "form_key": "1pl nom",
+  "example": {
+   "el": "Εμείς πηγαίνουμε μαζί.",
+   "en": "We go together."
+  }
+ },
+ {
+  "lemma": "κάτι",
+  "pos": "pronoun",
+  "gloss": "something",
+  "form_key": "indecl",
+  "example": {
+   "el": "Θέλω να σου πω κάτι.",
+   "en": "I want to tell you something."
+  }
+ },
+ {
+  "lemma": "τα",
+  "pos": "article",
+  "gloss": "the (n.pl)",
+  "form_key": "n.pl.nom/acc",
+  "example": {
+   "el": "Τα βιβλία είναι εδώ.",
+   "en": "The books are here."
+  }
+ },
+ {
+  "lemma": "της",
+  "pos": "article",
+  "gloss": "the (f.gen); her",
+  "form_key": "f.sg.gen / poss.pron",
+  "example": {
+   "el": "Το σπίτι της γιαγιάς μου είναι μεγάλο.",
+   "en": "My grandmother's house is big."
+  }
+ },
+ {
+  "lemma": "πηγαίνω",
+  "pos": "verb",
+  "gloss": "to go; to take (someone somewhere)",
+  "form_key": "Pres: πηγαίνω | Aor: πήγα",
+  "example": {
+   "el": "Πηγαίνω στη δουλειά με το λεωφορείο.",
+   "en": "I go to work by bus."
+  },
+  "verb": {
+   "present_1sg": "πηγαίνω",
+   "aorist_1sg": "πήγα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "άλλος",
+  "pos": "adjective",
+  "gloss": "other; another",
+  "form_key": "f: άλλη, n: άλλο",
+  "example": {
+   "el": "Θέλω μια άλλη επιλογή.",
+   "en": "I want another option."
+  },
+  "adjective": {
+   "m": "άλλος",
+   "f": "άλλη",
+   "n": "άλλο",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "ποιος",
+  "pos": "pronoun",
+  "gloss": "who; which",
+  "form_key": "f: ποια, n: ποιο",
+  "example": {
+   "el": "Ποιος είναι στην πόρτα;",
+   "en": "Who is at the door?"
+  },
+  "adjective": {
+   "m": "ποιος",
+   "f": "ποια",
+   "n": "ποιο",
+   "model": "adj-ος-α-ο"
+  }
+ },
+ {
+  "lemma": "κάποιος",
+  "pos": "adjective",
+  "gloss": "someone, somebody; some; a certain",
+  "form_key": "f: κάποια, n: κάποιο",
+  "example": {
+   "el": "Κάποια μέρα θα πάμε.",
+   "en": "Some day we'll go."
+  },
+  "adjective": {
+   "m": "κάποιος",
+   "f": "κάποια",
+   "n": "κάποιο",
+   "model": "adj-ος-α-ο"
+  }
+ },
+ {
+  "lemma": "βρίσκω",
+  "pos": "verb",
+  "gloss": "to find",
+  "form_key": "Pres: βρίσκω | Aor: βρήκα",
+  "example": {
+   "el": "Βρήκα το κλειδί μου.",
+   "en": "I found my key."
+  },
+  "verb": {
+   "present_1sg": "βρίσκω",
+   "aorist_1sg": "βρήκα",
+   "aorist_passive_1sg": "βρέθηκα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "πάω",
+  "pos": "verb",
+  "gloss": "to go",
+  "form_key": "Pres: πάω | Aor: πήγα",
+  "example": {
+   "el": "Πάω στη δουλειά κάθε μέρα.",
+   "en": "I go to work every day."
+  },
+  "verb": {
+   "present_1sg": "πάω",
+   "aorist_1sg": "πήγα",
+   "conj_group": "irregular"
+  }
+ },
+ {
+  "lemma": "σας",
+  "pos": "pronoun",
+  "gloss": "your (pl); you",
+  "form_key": "2pl gen/acc (weak)",
+  "example": {
+   "el": "Σας ευχαριστώ πολύ.",
+   "en": "Thank you very much."
+  }
+ },
+ {
+  "lemma": "γίνομαι",
+  "pos": "verb",
+  "gloss": "to become; to happen; to be done",
+  "form_key": "Pres: γίνομαι | Aor: έγινα",
+  "example": {
+   "el": "Τι έγινε χθες το βράδυ;",
+   "en": "What happened last night?"
+  },
+  "verb": {
+   "present_1sg": "γίνομαι",
+   "aorist_1sg": "έγινα",
+   "conj_group": "deponent"
+  }
+ },
+ {
+  "lemma": "έτσι",
+  "pos": "adverb",
+  "gloss": "so; like this; this way",
+  "form_key": "indecl",
+  "example": {
+   "el": "Γιατί μου μιλάς έτσι;",
+   "en": "Why are you talking to me like this?"
+  }
+ },
+ {
+  "lemma": "νομίζω",
+  "pos": "verb",
+  "gloss": "to think; to believe; to suppose",
+  "form_key": "Pres: νομίζω | Aor: νόμισα",
+  "example": {
+   "el": "Νομίζω ότι θα βρέξει σήμερα.",
+   "en": "I think it will rain today."
+  },
+  "verb": {
+   "present_1sg": "νομίζω",
+   "aorist_1sg": "νόμισα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "υπάρχω",
+  "pos": "verb",
+  "gloss": "to exist; there is",
+  "form_key": "Pres: υπάρχω | Aor: υπήρξα",
+  "example": {
+   "el": "Υπάρχει ένα πρόβλημα.",
+   "en": "There is a problem."
+  },
+  "verb": {
+   "present_1sg": "υπάρχω",
+   "aorist_1sg": "υπήρξα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "μας",
+  "pos": "pronoun",
+  "gloss": "our; us",
+  "form_key": "1pl gen/acc (weak)",
+  "example": {
+   "el": "Το σπίτι μας είναι κοντά.",
+   "en": "Our house is close."
+  }
+ },
+ {
+  "lemma": "πολύ",
+  "pos": "adverb",
+  "gloss": "very; much; a lot",
+  "form_key": "indecl",
+  "example": {
+   "el": "Είμαι πολύ χαρούμενος.",
+   "en": "I am very happy."
+  }
+ },
+ {
+  "lemma": "όταν",
+  "pos": "conjunction",
+  "gloss": "when (temporal)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Όταν φτάσεις, τηλεφώνησέ μου.",
+   "en": "When you arrive, call me."
+  }
+ },
+ {
+  "lemma": "φεύγω",
+  "pos": "verb",
+  "gloss": "to leave; to go",
+  "form_key": "Pres: φεύγω | Aor: έφυγα",
+  "example": {
+   "el": "Φεύγω για Θεσσαλονίκη.",
+   "en": "I'm leaving for Thessaloniki."
+  },
+  "verb": {
+   "present_1sg": "φεύγω",
+   "aorist_1sg": "έφυγα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "μιλώ",
+  "pos": "verb",
+  "gloss": "to speak; to talk",
+  "form_key": "Pres: μιλώ | Aor: μίλησα",
+  "example": {
+   "el": "Μιλάμε για ώρες.",
+   "en": "We talk for hours."
+  },
+  "verb": {
+   "present_1sg": "μιλώ",
+   "aorist_1sg": "μίλησα",
+   "conj_group": "B1"
+  }
+ },
+ {
+  "lemma": "ευχαριστώ",
+  "pos": "verb",
+  "gloss": "thank you; to thank",
+  "form_key": "Pres: ευχαριστώ | Aor: ευχαρίστησα",
+  "example": {
+   "el": "Σε ευχαριστώ πολύ για τη βοήθεια.",
+   "en": "Thank you very much for the help."
+  },
+  "verb": {
+   "present_1sg": "ευχαριστώ",
+   "aorist_1sg": "ευχαρίστησα",
+   "conj_group": "B2",
+   "aorist_passive_1sg": "ευχαριστήθηκα",
+   "participle": "ευχαριστημένος"
+  }
+ },
+ {
+  "lemma": "κανείς",
+  "pos": "pronoun",
+  "gloss": "nobody; anyone",
+  "form_key": "m.sg; f: καμία/καμιά",
+  "example": {
+   "el": "Δεν ήρθε κανείς.",
+   "en": "Nobody came."
+  }
+ },
+ {
+  "lemma": "δίνω",
+  "pos": "verb",
+  "gloss": "to give",
+  "form_key": "Pres: δίνω | Aor: έδωσα",
+  "example": {
+   "el": "Δώσε μου λίγο νερό.",
+   "en": "Give me some water."
+  },
+  "verb": {
+   "present_1sg": "δίνω",
+   "aorist_1sg": "έδωσα",
+   "aorist_passive_1sg": "δόθηκα",
+   "participle": "δοσμένος",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "μαζί",
+  "pos": "adverb",
+  "gloss": "together; with",
+  "form_key": "indecl",
+  "example": {
+   "el": "Πάμε μαζί στη θάλασσα το Σάββατο;",
+   "en": "Shall we go to the beach together on Saturday?"
+  }
+ },
+ {
+  "lemma": "εκεί",
+  "pos": "adverb",
+  "gloss": "there",
+  "form_key": "indecl",
+  "example": {
+   "el": "Πήγα εκεί χθες.",
+   "en": "I went there yesterday."
+  }
+ },
+ {
+  "lemma": "σαν",
+  "pos": "preposition",
+  "gloss": "like; as; as if; when",
+  "form_key": "indecl",
+  "example": {
+   "el": "Μιλάει σαν τον πατέρα του.",
+   "en": "He talks like his father."
+  }
+ },
+ {
+  "lemma": "τίποτα",
+  "pos": "pronoun",
+  "gloss": "nothing; anything",
+  "form_key": "indecl",
+  "example": {
+   "el": "Δεν θέλω τίποτα.",
+   "en": "I don't want anything."
+  }
+ },
+ {
+  "lemma": "κύριος",
+  "pos": "noun",
+  "gloss": "Mr; sir; gentleman; (adj.) main",
+  "form_key": "Gen: κυρίου | m (2nd decl)",
+  "example": {
+   "el": "Ο κύριος Παπαδόπουλος είναι γιατρός.",
+   "en": "Mr Papadopoulos is a doctor."
+  },
+  "noun": {
+   "gen_sg": "κυρίου",
+   "gender": "m",
+   "declension": 2,
+   "model": "m-ος-antepenult-a"
+  }
+ },
+ {
+  "lemma": "μόνος",
+  "pos": "adjective",
+  "gloss": "alone; only",
+  "form_key": "f: μόνη, n: μόνο",
+  "example": {
+   "el": "Έμεινε μόνος του όλο το καλοκαίρι.",
+   "en": "He stayed on his own all summer."
+  },
+  "adjective": {
+   "m": "μόνος",
+   "f": "μόνη",
+   "n": "μόνο",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "ακούω",
+  "pos": "verb",
+  "gloss": "to hear; to listen",
+  "form_key": "Pres: ακούω | Aor: άκουσα",
+  "example": {
+   "el": "Κάθε πρωί ακούω ειδήσεις στο ραδιόφωνο.",
+   "en": "Every morning I listen to the news on the radio."
+  },
+  "verb": {
+   "present_1sg": "ακούω",
+   "aorist_1sg": "άκουσα",
+   "aorist_passive_1sg": "ακούστηκα",
+   "participle": "ακουσμένος",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "ή",
+  "pos": "conjunction",
+  "gloss": "or",
+  "form_key": "indecl",
+  "example": {
+   "el": "Θέλεις καφέ ή τσάι;",
+   "en": "Do you want coffee or tea?"
+  }
+ },
+ {
+  "lemma": "πώς",
+  "pos": "adverb",
+  "gloss": "how (question)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Πώς σε λένε;",
+   "en": "What's your name? (lit: How do they call you?)"
+  }
+ },
+ {
+  "lemma": "χρειάζομαι",
+  "pos": "verb",
+  "gloss": "to need",
+  "form_key": "Pres: χρειάζομαι | Aor: χρειάστηκα",
+  "example": {
+   "el": "Χρειάζομαι λίγο χρόνο για να σκεφτώ.",
+   "en": "I need a little time to think."
+  },
+  "verb": {
+   "present_1sg": "χρειάζομαι",
+   "aorist_1sg": "χρειάστηκα",
+   "conj_group": "deponent"
+  }
+ },
+ {
+  "lemma": "δύο",
+  "pos": "numeral",
+  "gloss": "two",
+  "form_key": "indecl",
+  "example": {
+   "el": "Έχω δύο παιδιά.",
+   "en": "I have two children."
+  }
+ },
+ {
+  "lemma": "οι",
+  "pos": "article",
+  "gloss": "the (pl)",
+  "form_key": "m/f.pl.nom",
+  "example": {
+   "el": "Οι φίλοι ήρθαν.",
+   "en": "The friends came."
+  }
+ },
+ {
+  "lemma": "εντάξει",
+  "pos": "adverb",
+  "gloss": "OK; all right; fine",
+  "form_key": "indecl",
+  "example": {
+   "el": "Εντάξει, τα λέμε αύριο.",
+   "en": "OK, see you tomorrow."
+  }
+ },
+ {
+  "lemma": "εντάσσω",
+  "pos": "verb",
+  "gloss": "to include, integrate; (εντάσσομαι) to join, become part of",
+  "form_key": "Pres: εντάσσω | Aor: ενέταξα",
+  "example": {
+   "el": "Η Ελλάδα εντάχθηκε στην ΕΟΚ το 1981.",
+   "en": "Greece joined the EEC in 1981."
+  },
+  "verb": {
+   "present_1sg": "εντάσσω",
+   "aorist_1sg": "ενέταξα",
+   "aorist_passive_1sg": "εντάχθηκα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "αφήνω",
+  "pos": "verb",
+  "gloss": "to leave; to let; to put down",
+  "form_key": "Pres: αφήνω | Aor: άφησα",
+  "example": {
+   "el": "Άφησα τα κλειδιά στο τραπέζι.",
+   "en": "I left the keys on the table."
+  },
+  "verb": {
+   "present_1sg": "αφήνω",
+   "aorist_1sg": "άφησα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "παιδί",
+  "pos": "noun",
+  "gloss": "child; kid",
+  "form_key": "Gen: παιδιού | n (2nd decl)",
+  "example": {
+   "el": "Το παιδί κλαίει.",
+   "en": "The child is crying."
+  },
+  "noun": {
+   "gen_sg": "παιδιού",
+   "gender": "n",
+   "declension": 2,
+   "model": "n-ί"
+  }
+ },
+ {
+  "lemma": "ποτέ",
+  "pos": "adverb",
+  "gloss": "never; ever",
+  "form_key": "indecl",
+  "example": {
+   "el": "Δεν πήγα ποτέ εκεί.",
+   "en": "I never went there."
+  }
+ },
+ {
+  "lemma": "πιστεύω",
+  "pos": "verb",
+  "gloss": "to believe; to think",
+  "form_key": "Pres: πιστεύω | Aor: πίστεψα",
+  "example": {
+   "el": "Πιστεύω ότι έχεις δίκιο.",
+   "en": "I believe you are right."
+  },
+  "verb": {
+   "present_1sg": "πιστεύω",
+   "aorist_1sg": "πίστεψα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "περιμένω",
+  "pos": "verb",
+  "gloss": "to wait; to expect",
+  "form_key": "Pres: περιμένω | Aor: περίμενα",
+  "example": {
+   "el": "Σε περιμένω έξω.",
+   "en": "I'll wait for you outside."
+  },
+  "verb": {
+   "present_1sg": "περιμένω",
+   "aorist_1sg": "περίμενα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "αυτή",
+  "pos": "pronoun",
+  "gloss": "she; this/that (f)",
+  "form_key": "f.sg",
+  "example": {
+   "el": "Αυτή δουλεύει σκληρά.",
+   "en": "She works hard."
+  }
+ },
+ {
+  "lemma": "σπίτι",
+  "pos": "noun",
+  "gloss": "house; home",
+  "form_key": "Gen: σπιτιού | n (2nd decl)",
+  "example": {
+   "el": "Απόψε θα μείνουμε σπίτι και θα δούμε ταινία.",
+   "en": "Tonight we'll stay home and watch a film."
+  },
+  "noun": {
+   "gen_sg": "σπιτιού",
+   "gender": "n",
+   "declension": 2,
+   "model": "n-ι"
+  }
+ },
+ {
+  "lemma": "λοιπόν",
+  "pos": "adverb",
+  "gloss": "so; well; then",
+  "form_key": "indecl",
+  "example": {
+   "el": "Λοιπόν, τι κάνουμε τώρα;",
+   "en": "So, what do we do now?"
+  }
+ },
+ {
+  "lemma": "φίλος",
+  "pos": "noun",
+  "gloss": "friend",
+  "form_key": "Gen: φίλου | m (2nd decl); f: φίλη",
+  "example": {
+   "el": "Ο φίλος μου έφτασε.",
+   "en": "My friend arrived."
+  },
+  "noun": {
+   "gen_sg": "φίλου",
+   "gender": "m",
+   "declension": 2,
+   "model": "m-ος-fixed"
+  }
+ },
+ {
+  "lemma": "πράγμα",
+  "pos": "noun",
+  "gloss": "thing; matter",
+  "form_key": "Gen: πράγματος | n (3rd decl)",
+  "example": {
+   "el": "Αυτό είναι άλλο πράγμα.",
+   "en": "That's a different matter."
+  },
+  "noun": {
+   "gen_sg": "πράγματος",
+   "gender": "n",
+   "declension": 3,
+   "model": "n-μα"
+  }
+ },
+ {
+  "lemma": "δικός",
+  "pos": "adjective",
+  "gloss": "own; (one's) own; ours/yours etc.",
+  "form_key": "f: δική, n: δικό",
+  "example": {
+   "el": "Αυτό το σπίτι είναι δικό μας.",
+   "en": "This house is our own."
+  },
+  "adjective": {
+   "m": "δικός",
+   "f": "δική",
+   "n": "δικό",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "δε",
+  "pos": "conjunction",
+  "gloss": "and, while; but (formal; often in μεν… δε)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Ο ένας γιος είναι γιατρός, ο δε άλλος δικηγόρος.",
+   "en": "One son is a doctor, while the other is a lawyer."
+  }
+ },
+ {
+  "lemma": "συμβαίνω",
+  "pos": "verb",
+  "gloss": "to happen",
+  "form_key": "Pres: συμβαίνει (3sg) | Aor: συνέβη",
+  "example": {
+   "el": "Τι συνέβη χθες το βράδυ στο πάρτι;",
+   "en": "What happened at the party last night?"
+  },
+  "verb": {
+   "present_1sg": "συμβαίνω",
+   "aorist_1sg": null,
+   "conj_group": "A",
+   "note": "used in 3rd person: συμβαίνει, aor. συνέβη"
+  }
+ },
+ {
+  "lemma": "τότε",
+  "pos": "adverb",
+  "gloss": "then; at that time",
+  "form_key": "indecl",
+  "example": {
+   "el": "Τότε ήμουν ακόμα παιδί.",
+   "en": "Back then I was still a child."
+  }
+ },
+ {
+  "lemma": "πιο",
+  "pos": "adverb",
+  "gloss": "more (forms comparatives)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Μίλα πιο σιγά, σε παρακαλώ.",
+   "en": "Speak more quietly, please."
+  }
+ },
+ {
+  "lemma": "παρακαλώ",
+  "pos": "verb",
+  "gloss": "please; you're welcome; to ask, beg",
+  "form_key": "Pres: παρακαλώ | Aor: παρακάλεσα",
+  "example": {
+   "el": "Ένα νερό, παρακαλώ.",
+   "en": "A water, please."
+  },
+  "verb": {
+   "present_1sg": "παρακαλώ",
+   "aorist_1sg": "παρακάλεσα",
+   "conj_group": "B2"
+  }
+ },
+ {
+  "lemma": "ίσως",
+  "pos": "adverb",
+  "gloss": "maybe; perhaps",
+  "form_key": "indecl",
+  "example": {
+   "el": "Ίσως έρθω λίγο αργότερα.",
+   "en": "Maybe I'll come a bit later."
+  }
+ },
+ {
+  "lemma": "σκοτώνω",
+  "pos": "verb",
+  "gloss": "to kill",
+  "form_key": "Pres: σκοτώνω | Aor: σκότωσα",
+  "example": {
+   "el": "Η ζέστη με σκοτώνει σήμερα.",
+   "en": "The heat is killing me today."
+  },
+  "verb": {
+   "present_1sg": "σκοτώνω",
+   "aorist_1sg": "σκότωσα",
+   "conj_group": "A",
+   "aorist_passive_1sg": "σκοτώθηκα"
+  }
+ },
+ {
+  "lemma": "πού",
+  "pos": "adverb",
+  "gloss": "where (question)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Πού είναι ο σταθμός;",
+   "en": "Where is the station?"
+  }
+ },
+ {
+  "lemma": "μένω",
+  "pos": "verb",
+  "gloss": "to stay; to live",
+  "form_key": "Pres: μένω | Aor: έμεινα",
+  "example": {
+   "el": "Μένω στην Αθήνα.",
+   "en": "I live in Athens."
+  },
+  "verb": {
+   "present_1sg": "μένω",
+   "aorist_1sg": "έμεινα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "χρόνος",
+  "pos": "noun",
+  "gloss": "year; time",
+  "form_key": "Gen: χρόνου | m (2nd decl)",
+  "example": {
+   "el": "Δεν έχω χρόνο για καφέ σήμερα.",
+   "en": "I don't have time for coffee today."
+  },
+  "noun": {
+   "gen_sg": "χρόνου",
+   "gender": "m",
+   "declension": 2,
+   "model": "m-ος-fixed"
+  }
+ },
+ {
+  "lemma": "πριν",
+  "pos": "preposition",
+  "gloss": "before",
+  "form_key": "indecl (+ acc or subj)",
+  "example": {
+   "el": "Πριν κοιμηθώ, διαβάζω λίγο.",
+   "en": "Before I go to sleep, I read a little."
+  }
+ },
+ {
+  "lemma": "άνθρωπος",
+  "pos": "noun",
+  "gloss": "person; human being",
+  "form_key": "Gen: ανθρώπου | m (2nd decl)",
+  "example": {
+   "el": "Κάθε άνθρωπος έχει δικαιώματα.",
+   "en": "Every person has rights."
+  },
+  "noun": {
+   "gen_sg": "ανθρώπου",
+   "gender": "m",
+   "declension": 2,
+   "model": "m-ος-antepenult-a"
+  }
+ },
+ {
+  "lemma": "μετά",
+  "pos": "preposition",
+  "gloss": "after; then",
+  "form_key": "indecl (+ acc)",
+  "example": {
+   "el": "Μετά τη δουλειά πηγαίνω σπίτι.",
+   "en": "After work I go home."
+  }
+ },
+ {
+  "lemma": "καταλαβαίνω",
+  "pos": "verb",
+  "gloss": "to understand",
+  "form_key": "Pres: καταλαβαίνω | Aor: κατάλαβα",
+  "example": {
+   "el": "Δεν καταλαβαίνω αυτή τη λέξη.",
+   "en": "I don't understand this word."
+  },
+  "verb": {
+   "present_1sg": "καταλαβαίνω",
+   "aorist_1sg": "κατάλαβα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "δουλειά",
+  "pos": "noun",
+  "gloss": "work; job",
+  "form_key": "Gen: δουλειάς | f (1st decl)",
+  "example": {
+   "el": "Έχω πολλή δουλειά σήμερα.",
+   "en": "I have a lot of work today."
+  },
+  "noun": {
+   "gen_sg": "δουλειάς",
+   "gender": "f",
+   "declension": 1,
+   "model": "f-α-b"
+  }
+ },
+ {
+  "lemma": "πίσω",
+  "pos": "adverb",
+  "gloss": "behind; back",
+  "form_key": "indecl (+σε/από)",
+  "example": {
+   "el": "Τα παιδιά κάθονται πίσω στο αυτοκίνητο.",
+   "en": "The children sit in the back of the car."
+  }
+ },
+ {
+  "lemma": "γεια",
+  "pos": "other",
+  "gloss": "hi; bye; (lit.) health",
+  "form_key": "indecl",
+  "example": {
+   "el": "Γεια σου, τι κάνεις;",
+   "en": "Hi, how are you?"
+  }
+ },
+ {
+  "lemma": "ζωή",
+  "pos": "noun",
+  "gloss": "life",
+  "form_key": "Gen: ζωής | f (1st decl)",
+  "example": {
+   "el": "Η ζωή είναι ωραία.",
+   "en": "Life is beautiful."
+  },
+  "noun": {
+   "gen_sg": "ζωής",
+   "gender": "f",
+   "declension": 1,
+   "model": "f-η-ες"
+  }
+ },
+ {
+  "lemma": "σκέφτομαι",
+  "pos": "verb",
+  "gloss": "to think; to consider",
+  "form_key": "Pres: σκέφτομαι | Aor: σκέφτηκα",
+  "example": {
+   "el": "Σκέφτομαι να φύγω.",
+   "en": "I'm thinking of leaving."
+  },
+  "verb": {
+   "present_1sg": "σκέφτομαι",
+   "aorist_1sg": "σκέφτηκα",
+   "conj_group": "deponent"
+  }
+ },
+ {
+  "lemma": "όπως",
+  "pos": "conjunction",
+  "gloss": "as; like; such as",
+  "form_key": "indecl",
+  "example": {
+   "el": "Κάν' το όπως σου είπα.",
+   "en": "Do it as I told you."
+  }
+ },
+ {
+  "lemma": "ακόμη",
+  "pos": "adverb",
+  "gloss": "still; yet; more",
+  "form_key": "indecl",
+  "example": {
+   "el": "Δουλεύω ακόμη στην ίδια εταιρεία.",
+   "en": "I am still working at the same company."
+  }
+ },
+ {
+  "lemma": "θεός",
+  "pos": "noun",
+  "gloss": "god; God",
+  "form_key": "Gen: θεού | m (2nd decl)",
+  "example": {
+   "el": "Θεέ μου, τι ώρα είναι;",
+   "en": "My God, what time is it?"
+  },
+  "noun": {
+   "gen_sg": "θεού",
+   "gender": "m",
+   "declension": 2,
+   "model": "m-ος-fixed"
+  }
+ },
+ {
+  "lemma": "σταματώ",
+  "pos": "verb",
+  "gloss": "to stop",
+  "form_key": "Pres: σταματώ | Aor: σταμάτησα",
+  "example": {
+   "el": "Το λεωφορείο σταματάει μπροστά στο σχολείο.",
+   "en": "The bus stops in front of the school."
+  },
+  "verb": {
+   "present_1sg": "σταματώ",
+   "aorist_1sg": "σταμάτησα",
+   "conj_group": "B1"
+  }
+ },
+ {
+  "lemma": "ώρα",
+  "pos": "noun",
+  "gloss": "hour; time",
+  "form_key": "Gen: ώρας | f (1st decl)",
+  "example": {
+   "el": "Περίμενα μια ώρα.",
+   "en": "I waited for an hour."
+  },
+  "noun": {
+   "gen_sg": "ώρας",
+   "gender": "f",
+   "declension": 1,
+   "model": "f-α-b"
+  }
+ },
+ {
+  "lemma": "ωραίος",
+  "pos": "adjective",
+  "gloss": "beautiful; nice",
+  "form_key": "f: ωραία, n: ωραίο",
+  "example": {
+   "el": "Τι ωραίος καιρός!",
+   "en": "What beautiful weather!"
+  },
+  "adjective": {
+   "m": "ωραίος",
+   "f": "ωραία",
+   "n": "ωραίο",
+   "model": "adj-ος-α-ο"
+  }
+ },
+ {
+  "lemma": "αλήθεια",
+  "pos": "adverb",
+  "gloss": "really; truth (also noun)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Αλήθεια; Δεν το ήξερα!",
+   "en": "Really? I didn't know that!"
+  }
+ },
+ {
+  "lemma": "μέρα",
+  "pos": "noun",
+  "gloss": "day",
+  "form_key": "Gen: μέρας | f (1st decl)",
+  "example": {
+   "el": "Καλημέρα! Τι ωραία μέρα!",
+   "en": "Good morning! What a nice day!"
+  },
+  "noun": {
+   "gen_sg": "μέρας",
+   "gender": "f",
+   "declension": 1,
+   "model": "f-α-b"
+  }
+ },
+ {
+  "lemma": "βοηθώ",
+  "pos": "verb",
+  "gloss": "to help",
+  "form_key": "Pres: βοηθώ | Aor: βοήθησα",
+  "example": {
+   "el": "Μπορείς να με βοηθήσεις;",
+   "en": "Can you help me?"
+  },
+  "verb": {
+   "present_1sg": "βοηθώ",
+   "aorist_1sg": "βοήθησα",
+   "aorist_passive_1sg": "βοηθήθηκα",
+   "conj_group": "B1"
+  }
+ },
+ {
+  "lemma": "περνώ",
+  "pos": "verb",
+  "gloss": "to pass; to spend (time)",
+  "form_key": "Pres: περνώ | Aor: πέρασα",
+  "example": {
+   "el": "Πέρασα ωραία χθες.",
+   "en": "I had a great time yesterday."
+  },
+  "verb": {
+   "present_1sg": "περνώ",
+   "aorist_1sg": "πέρασα",
+   "participle": "περασμένος",
+   "conj_group": "B1"
+  }
+ },
+ {
+  "lemma": "αρέσω",
+  "pos": "verb",
+  "gloss": "to please; (μου αρέσει) to like",
+  "form_key": "Pres: αρέσω | Aor: άρεσα",
+  "example": {
+   "el": "Μου αρέσει ο καφές.",
+   "en": "I like coffee."
+  },
+  "verb": {
+   "present_1sg": "αρέσω",
+   "aorist_1sg": "άρεσα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "συγγνώμη",
+  "pos": "noun",
+  "gloss": "sorry; excuse me; apology",
+  "form_key": "Gen: συγγνώμης | f (1st decl)",
+  "example": {
+   "el": "Συγγνώμη, πού είναι ο σταθμός;",
+   "en": "Excuse me, where is the station?"
+  },
+  "noun": {
+   "gen_sg": "συγγνώμης",
+   "gender": "f",
+   "declension": 1,
+   "model": "f-η-ες"
+  }
+ },
+ {
+  "lemma": "τόσος",
+  "pos": "pronoun",
+  "gloss": "so much, so many; such; (n. τόσο as adv.) so",
+  "form_key": "f: τόση, n: τόσο",
+  "example": {
+   "el": "Γιατί έχεις τόσα ρούχα;",
+   "en": "Why do you have so many clothes?"
+  },
+  "adjective": {
+   "m": "τόσος",
+   "f": "τόση",
+   "n": "τόσο",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "πρώτος",
+  "pos": "other",
+  "gloss": "first",
+  "form_key": "f: πρώτη, n: πρώτο",
+  "example": {
+   "el": "Είναι ο πρώτος στην τάξη.",
+   "en": "He is first in the class."
+  },
+  "adjective": {
+   "m": "πρώτος",
+   "f": "πρώτη",
+   "n": "πρώτο",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "σίγουρος",
+  "pos": "adjective",
+  "gloss": "sure; certain; safe; (adv. σίγουρα) surely",
+  "form_key": "f: σίγουρη, n: σίγουρο",
+  "example": {
+   "el": "Είσαι σίγουρος ότι κλείδωσες;",
+   "en": "Are you sure you locked up?"
+  },
+  "adjective": {
+   "m": "σίγουρος",
+   "f": "σίγουρη",
+   "n": "σίγουρο",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "γυναίκα",
+  "pos": "noun",
+  "gloss": "woman; wife",
+  "form_key": "Gen: γυναίκας | f (1st decl)",
+  "example": {
+   "el": "Η γυναίκα μου είναι γιατρός.",
+   "en": "My wife is a doctor."
+  },
+  "noun": {
+   "gen_sg": "γυναίκας",
+   "gender": "f",
+   "declension": 1,
+   "model": "f-α-b"
+  }
+ },
+ {
+  "lemma": "προσπαθώ",
+  "pos": "verb",
+  "gloss": "to try",
+  "form_key": "Pres: προσπαθώ | Aor: προσπάθησα",
+  "example": {
+   "el": "Προσπαθώ να μάθω ελληνικά.",
+   "en": "I'm trying to learn Greek."
+  },
+  "verb": {
+   "present_1sg": "προσπαθώ",
+   "aorist_1sg": "προσπάθησα",
+   "conj_group": "B2"
+  }
+ },
+ {
+  "lemma": "καλύτερος",
+  "pos": "adjective",
+  "gloss": "better; (ο καλύτερος) the best",
+  "form_key": "f: καλύτερη, n: καλύτερο",
+  "example": {
+   "el": "Είσαι ο καλύτερος φίλος μου.",
+   "en": "You are my best friend."
+  },
+  "adjective": {
+   "m": "καλύτερος",
+   "f": "καλύτερη",
+   "n": "καλύτερο",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "ας",
+  "pos": "particle",
+  "gloss": "let (us); may (hortative)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Ας πάμε για έναν καφέ.",
+   "en": "Let's go for a coffee."
+  }
+ },
+ {
+  "lemma": "λίγος",
+  "pos": "adjective",
+  "gloss": "a little; few",
+  "form_key": "f: λίγη, n: λίγο",
+  "example": {
+   "el": "Θέλεις λίγη ζάχαρη στον καφέ σου;",
+   "en": "Do you want a little sugar in your coffee?"
+  },
+  "adjective": {
+   "m": "λίγος",
+   "f": "λίγη",
+   "n": "λίγο",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "μόνο",
+  "pos": "adverb",
+  "gloss": "only; just",
+  "form_key": "indecl",
+  "example": {
+   "el": "Θέλω μόνο λίγο νερό.",
+   "en": "I only want a little water."
+  }
+ },
+ {
+  "lemma": "πας",
+  "pos": "adjective",
+  "gloss": "all, every (learned; in set phrases: πάση θυσία, παντός είδους)",
+  "form_key": "f: πάσα, n: παν",
+  "example": {
+   "el": "Πουλάει εργαλεία παντός είδους.",
+   "en": "He sells tools of every kind."
+  },
+  "adjective": {
+   "m": "πας",
+   "f": "πάσα",
+   "n": "παν",
+   "model": "irregular"
+  }
+ },
+ {
+  "lemma": "μαθαίνω",
+  "pos": "verb",
+  "gloss": "to learn; to find out",
+  "form_key": "Pres: μαθαίνω | Aor: έμαθα",
+  "example": {
+   "el": "Μαθαίνω ελληνικά εδώ και έξι μήνες.",
+   "en": "I've been learning Greek for six months."
+  },
+  "verb": {
+   "present_1sg": "μαθαίνω",
+   "aorist_1sg": "έμαθα",
+   "participle": "μαθημένος",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "πεθαίνω",
+  "pos": "verb",
+  "gloss": "to die",
+  "form_key": "Pres: πεθαίνω | Aor: πέθανα",
+  "example": {
+   "el": "Ο παππούς του πέθανε πέρσι.",
+   "en": "His grandfather died last year."
+  },
+  "verb": {
+   "present_1sg": "πεθαίνω",
+   "aorist_1sg": "πέθανα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "ίδιος",
+  "pos": "adjective",
+  "gloss": "same; own",
+  "form_key": "f: ίδια, n: ίδιο",
+  "example": {
+   "el": "Κάνουμε το ίδιο λάθος.",
+   "en": "We make the same mistake."
+  },
+  "adjective": {
+   "m": "ίδιος",
+   "f": "ίδια",
+   "n": "ίδιο",
+   "model": "adj-ος-α-ο"
+  }
+ },
+ {
+  "lemma": "απλός",
+  "pos": "adjective",
+  "gloss": "simple; plain",
+  "form_key": "f: απλή, n: απλό",
+  "example": {
+   "el": "Θέλω μια απλή εξήγηση.",
+   "en": "I want a simple explanation."
+  },
+  "adjective": {
+   "m": "απλός",
+   "f": "απλή",
+   "n": "απλό",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "πατέρας",
+  "pos": "noun",
+  "gloss": "father",
+  "form_key": "Gen: πατέρα | m (1st decl)",
+  "example": {
+   "el": "Ο πατέρας μου είναι συνταξιούχος.",
+   "en": "My father is retired."
+  },
+  "noun": {
+   "gen_sg": "πατέρα",
+   "gender": "m",
+   "declension": 1,
+   "model": "m-ας-a"
+  }
+ },
+ {
+  "lemma": "νέος",
+  "pos": "adjective",
+  "gloss": "new; young",
+  "form_key": "f: νέα, n: νέο",
+  "example": {
+   "el": "Αγόρασα νέο τηλέφωνο.",
+   "en": "I bought a new phone."
+  },
+  "adjective": {
+   "m": "νέος",
+   "f": "νέα",
+   "n": "νέο",
+   "model": "adj-ος-α-ο"
+  }
+ },
+ {
+  "lemma": "εκείνος",
+  "pos": "pronoun",
+  "gloss": "that; that one; he/she/it",
+  "form_key": "f: εκείνη, n: εκείνο",
+  "example": {
+   "el": "Εκείνη η μέρα ήταν υπέροχη.",
+   "en": "That day was wonderful."
+  },
+  "adjective": {
+   "m": "εκείνος",
+   "f": "εκείνη",
+   "n": "εκείνο"
+  }
+ },
+ {
+  "lemma": "φορά",
+  "pos": "noun",
+  "gloss": "time (occasion); direction",
+  "form_key": "Gen: φοράς | f (1st decl)",
+  "example": {
+   "el": "Ήταν η πρώτη φορά που την είδα.",
+   "en": "It was the first time I saw her."
+  },
+  "noun": {
+   "gen_sg": "φοράς",
+   "gender": "f",
+   "declension": 1,
+   "model": "f-α-b"
+  }
+ },
+ {
+  "lemma": "έξω",
+  "pos": "adverb",
+  "gloss": "outside; out",
+  "form_key": "indecl (+από)",
+  "example": {
+   "el": "Απόψε θα φάμε έξω σε μια ταβέρνα.",
+   "en": "Tonight we'll eat out at a taverna."
+  }
+ },
+ {
+  "lemma": "γνωρίζω",
+  "pos": "verb",
+  "gloss": "to know; to meet; to get to know",
+  "form_key": "Pres: γνωρίζω | Aor: γνώρισα",
+  "example": {
+   "el": "Πού τον γνώρισες;",
+   "en": "Where did you meet him?"
+  },
+  "verb": {
+   "present_1sg": "γνωρίζω",
+   "aorist_1sg": "γνώρισα",
+   "aorist_passive_1sg": "γνωρίστηκα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "επειδή",
+  "pos": "conjunction",
+  "gloss": "because",
+  "form_key": "indecl",
+  "example": {
+   "el": "Έμεινα σπίτι επειδή ήμουν άρρωστος.",
+   "en": "I stayed home because I was sick."
+  }
+ },
+ {
+  "lemma": "άντρας",
+  "pos": "noun",
+  "gloss": "man; husband",
+  "form_key": "Gen: άντρα | m (1st decl)",
+  "example": {
+   "el": "Ο άντρας της δουλεύει εκεί.",
+   "en": "Her husband works there."
+  },
+  "noun": {
+   "gen_sg": "άντρα",
+   "gender": "m",
+   "declension": 1,
+   "model": "m-ας-b"
+  }
+ },
+ {
+  "lemma": "μικρός",
+  "pos": "adjective",
+  "gloss": "small; little",
+  "form_key": "f: μικρή, n: μικρό",
+  "example": {
+   "el": "Έχουμε έναν μικρό σκύλο στο σπίτι.",
+   "en": "We have a small dog at home."
+  },
+  "adjective": {
+   "m": "μικρός",
+   "f": "μικρή",
+   "n": "μικρό",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "χάνω",
+  "pos": "verb",
+  "gloss": "to lose; to miss",
+  "form_key": "Pres: χάνω | Aor: έχασα",
+  "example": {
+   "el": "Έχασα το λεωφορείο.",
+   "en": "I missed the bus."
+  },
+  "verb": {
+   "present_1sg": "χάνω",
+   "aorist_1sg": "έχασα",
+   "aorist_passive_1sg": "χάθηκα",
+   "participle": "χαμένος",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "μέχρι",
+  "pos": "preposition",
+  "gloss": "until; up to; as far as",
+  "form_key": "indecl",
+  "example": {
+   "el": "Δουλεύω μέχρι τις πέντε.",
+   "en": "I work until five."
+  }
+ },
+ {
+  "lemma": "πάνω",
+  "pos": "adverb",
+  "gloss": "on; above; upstairs",
+  "form_key": "indecl (+σε/από)",
+  "example": {
+   "el": "Το βιβλίο είναι πάνω στο τραπέζι.",
+   "en": "The book is on the table."
+  }
+ },
+ {
+  "lemma": "αγαπώ",
+  "pos": "verb",
+  "gloss": "to love",
+  "form_key": "Pres: αγαπώ | Aor: αγάπησα",
+  "example": {
+   "el": "Αγαπώ την οικογένειά μου.",
+   "en": "I love my family."
+  },
+  "verb": {
+   "present_1sg": "αγαπώ",
+   "aorist_1sg": "αγάπησα",
+   "aorist_passive_1sg": "αγαπήθηκα",
+   "participle": "αγαπημένος",
+   "conj_group": "B1"
+  }
+ },
+ {
+  "lemma": "τόσο",
+  "pos": "adverb",
+  "gloss": "so; so much; that much",
+  "form_key": "indecl",
+  "example": {
+   "el": "Γιατί αργείς τόσο πολύ;",
+   "en": "Why are you so late?"
+  }
+ },
+ {
+  "lemma": "εννοώ",
+  "pos": "verb",
+  "gloss": "to mean; to intend",
+  "form_key": "Pres: εννοώ | Aor: εννόησα",
+  "example": {
+   "el": "Δεν εννοούσα αυτό που είπα.",
+   "en": "I didn't mean what I said."
+  },
+  "verb": {
+   "present_1sg": "εννοώ",
+   "aorist_1sg": "εννόησα",
+   "conj_group": "B2"
+  }
+ },
+ {
+  "lemma": "μεγάλος",
+  "pos": "adjective",
+  "gloss": "big; large; great",
+  "form_key": "f: μεγάλη, n: μεγάλο",
+  "example": {
+   "el": "Θέλω ένα μεγάλο ποτήρι νερό, παρακαλώ.",
+   "en": "I would like a large glass of water, please."
+  },
+  "adjective": {
+   "m": "μεγάλος",
+   "f": "μεγάλη",
+   "n": "μεγάλο",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "κοιτάζω",
+  "pos": "verb",
+  "gloss": "to look (at); to check, to look into",
+  "form_key": "Pres: κοιτάζω | Aor: κοίταξα",
+  "example": {
+   "el": "Κοίτα έξω από το παράθυρο!",
+   "en": "Look out of the window!"
+  },
+  "verb": {
+   "present_1sg": "κοιτάζω",
+   "aorist_1sg": "κοίταξα",
+   "conj_group": "A",
+   "aorist_passive_1sg": "κοιτάχτηκα"
+  }
+ },
+ {
+  "lemma": "κρατάω",
+  "pos": "verb",
+  "gloss": "to hold; to keep; to last",
+  "form_key": "Pres: κρατάω | Aor: κράτησα",
+  "example": {
+   "el": "Κράτα την τσάντα μου για λίγο, σε παρακαλώ.",
+   "en": "Hold my bag for a moment, please."
+  },
+  "verb": {
+   "present_1sg": "κρατάω",
+   "aorist_1sg": "κράτησα",
+   "conj_group": "B1",
+   "aorist_passive_1sg": "κρατήθηκα",
+   "participle": "κρατημένος"
+  }
+ },
+ {
+  "lemma": "βγαίνω",
+  "pos": "verb",
+  "gloss": "to go out; to exit",
+  "form_key": "Pres: βγαίνω | Aor: βγήκα",
+  "example": {
+   "el": "Βγαίνω με φίλους.",
+   "en": "I'm going out with friends."
+  },
+  "verb": {
+   "present_1sg": "βγαίνω",
+   "aorist_1sg": "βγήκα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "ούτε",
+  "pos": "conjunction",
+  "gloss": "neither; nor; not even",
+  "form_key": "indecl",
+  "example": {
+   "el": "Δεν ξέρω ούτε το όνομά του.",
+   "en": "I don't even know his name."
+  }
+ },
+ {
+  "lemma": "όμως",
+  "pos": "conjunction",
+  "gloss": "but; however",
+  "form_key": "indecl",
+  "example": {
+   "el": "Θέλω να έρθω, όμως δεν μπορώ.",
+   "en": "I want to come, but I can't."
+  }
+ },
+ {
+  "lemma": "μα",
+  "pos": "conjunction",
+  "gloss": "but; (in oaths) by (μα την αλήθεια)",
+  "form_key": "indecl",
+  "example": {
+   "el": "Ήθελα να έρθω, μα δεν είχα χρόνο.",
+   "en": "I wanted to come, but I didn't have time."
+  }
+ },
+ {
+  "lemma": "γυρίζω",
+  "pos": "verb",
+  "gloss": "to return; to turn",
+  "form_key": "Pres: γυρίζω | Aor: γύρισα",
+  "example": {
+   "el": "Πότε γυρίζεις σπίτι;",
+   "en": "When are you coming home?"
+  },
+  "verb": {
+   "present_1sg": "γυρίζω",
+   "aorist_1sg": "γύρισα",
+   "aorist_passive_1sg": "γυρίστηκα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "θυμάμαι",
+  "pos": "verb",
+  "gloss": "to remember",
+  "form_key": "Pres: θυμάμαι | Aor: θυμήθηκα",
+  "example": {
+   "el": "Θυμάσαι το όνομά μου;",
+   "en": "Do you remember my name?"
+  },
+  "verb": {
+   "present_1sg": "θυμάμαι",
+   "aorist_1sg": "θυμήθηκα",
+   "conj_group": "deponent"
+  }
+ },
+ {
+  "lemma": "κάθε",
+  "pos": "adjective",
+  "gloss": "each; every",
+  "form_key": "indecl",
+  "example": {
+   "el": "Κάθε μέρα κάνω περίπατο.",
+   "en": "I take a walk every day."
+  },
+  "adjective": {
+   "m": "κάθε",
+   "f": "κάθε",
+   "n": "κάθε",
+   "model": "indecl"
+  }
+ },
+ {
+  "lemma": "μέρος",
+  "pos": "noun",
+  "gloss": "place; part; side",
+  "form_key": "Gen: μέρους | n (3rd decl)",
+  "example": {
+   "el": "Αυτό το μέρος είναι πολύ ήσυχο.",
+   "en": "This place is very quiet."
+  },
+  "noun": {
+   "gen_sg": "μέρους",
+   "gender": "n",
+   "declension": 3,
+   "model": "n-ος-2syl"
+  }
+ },
+ {
+  "lemma": "απλά",
+  "pos": "adverb",
+  "gloss": "simply; just",
+  "form_key": "indecl",
+  "example": {
+   "el": "Απλά ήθελα να σου πω καληνύχτα.",
+   "en": "I just wanted to say goodnight to you."
+  }
+ },
+ {
+  "lemma": "τελειώνω",
+  "pos": "verb",
+  "gloss": "to finish; to end",
+  "form_key": "Pres: τελειώνω | Aor: τελείωσα",
+  "example": {
+   "el": "Τελείωσα το βιβλίο χθες.",
+   "en": "I finished the book yesterday."
+  },
+  "verb": {
+   "present_1sg": "τελειώνω",
+   "aorist_1sg": "τελείωσα",
+   "participle": "τελειωμένος",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "κόσμος",
+  "pos": "noun",
+  "gloss": "world; people",
+  "form_key": "Gen: κόσμου | m (2nd decl)",
+  "example": {
+   "el": "Όλος ο κόσμος το ξέρει.",
+   "en": "Everyone knows it."
+  },
+  "noun": {
+   "gen_sg": "κόσμου",
+   "gender": "m",
+   "declension": 2,
+   "model": "m-ος-fixed"
+  }
+ },
+ {
+  "lemma": "μαμά",
+  "pos": "noun",
+  "gloss": "mum; mom",
+  "form_key": "Gen: μαμάς | f (1st decl)",
+  "example": {
+   "el": "Η μαμά μου μαγειρεύει πολύ ωραία.",
+   "en": "My mum cooks very well."
+  },
+  "noun": {
+   "gen_sg": "μαμάς",
+   "gender": "f",
+   "declension": 1,
+   "model": "f-imparisyllabic-ά"
+  }
+ },
+ {
+  "lemma": "χωρίς",
+  "pos": "preposition",
+  "gloss": "without",
+  "form_key": "indecl (+ acc)",
+  "example": {
+   "el": "Πίνω τον καφέ μου χωρίς ζάχαρη.",
+   "en": "I drink my coffee without sugar."
+  }
+ },
+ {
+  "lemma": "κάτω",
+  "pos": "adverb",
+  "gloss": "under; below; downstairs",
+  "form_key": "indecl (+σε/από)",
+  "example": {
+   "el": "Η γάτα κοιμάται κάτω από το τραπέζι.",
+   "en": "The cat is sleeping under the table."
+  }
+ },
+ {
+  "lemma": "βγάζω",
+  "pos": "verb",
+  "gloss": "to take out; to earn",
+  "form_key": "Pres: βγάζω | Aor: έβγαλα",
+  "example": {
+   "el": "Βγάζει καλό μισθό.",
+   "en": "He earns a good salary."
+  },
+  "verb": {
+   "present_1sg": "βγάζω",
+   "aorist_1sg": "έβγαλα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "δουλεύω",
+  "pos": "verb",
+  "gloss": "to work",
+  "form_key": "Pres: δουλεύω | Aor: δούλεψα",
+  "example": {
+   "el": "Δουλεύω σε νοσοκομείο.",
+   "en": "I work in a hospital."
+  },
+  "verb": {
+   "present_1sg": "δουλεύω",
+   "aorist_1sg": "δούλεψα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "μόλις",
+  "pos": "conjunction",
+  "gloss": "as soon as; just",
+  "form_key": "indecl",
+  "example": {
+   "el": "Μόλις έφτασε σπίτι.",
+   "en": "He just arrived home."
+  }
+ },
+ {
+  "lemma": "μπαίνω",
+  "pos": "verb",
+  "gloss": "to enter; to get in",
+  "form_key": "Pres: μπαίνω | Aor: μπήκα",
+  "example": {
+   "el": "Μπήκα στο σπίτι.",
+   "en": "I entered the house."
+  },
+  "verb": {
+   "present_1sg": "μπαίνω",
+   "aorist_1sg": "μπήκα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "νιώθω",
+  "pos": "verb",
+  "gloss": "to feel",
+  "form_key": "Pres: νιώθω | Aor: ένιωσα",
+  "example": {
+   "el": "Νιώθω πολύ καλά σήμερα.",
+   "en": "I feel very good today."
+  },
+  "verb": {
+   "present_1sg": "νιώθω",
+   "aorist_1sg": "ένιωσα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "μπαμπάς",
+  "pos": "noun",
+  "gloss": "dad",
+  "form_key": "Gen: μπαμπά | m (1st decl)",
+  "example": {
+   "el": "Ο μπαμπάς μου δουλεύει στην τράπεζα.",
+   "en": "My dad works at the bank."
+  },
+  "noun": {
+   "gen_sg": "μπαμπά",
+   "gender": "m",
+   "declension": 1,
+   "model": "m-imparisyllabic-final"
+  }
+ },
+ {
+  "lemma": "βάζω",
+  "pos": "verb",
+  "gloss": "to put; to place",
+  "form_key": "Pres: βάζω | Aor: έβαλα",
+  "example": {
+   "el": "Βάλε τα πράγματά σου εδώ.",
+   "en": "Put your things here."
+  },
+  "verb": {
+   "present_1sg": "βάζω",
+   "aorist_1sg": "έβαλα",
+   "participle": "βαλμένος",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "ακόμα",
+  "pos": "adverb",
+  "gloss": "still; yet; even",
+  "form_key": "indecl",
+  "example": {
+   "el": "Ο Νίκος δεν ήρθε ακόμα.",
+   "en": "Nikos hasn't come yet."
+  }
+ },
+ {
+  "lemma": "φορώ",
+  "pos": "verb",
+  "gloss": "to wear",
+  "form_key": "Pres: φορώ | Aor: φόρεσα",
+  "example": {
+   "el": "Τι θα φορέσεις στον γάμο το Σάββατο;",
+   "en": "What will you wear to the wedding on Saturday?"
+  },
+  "verb": {
+   "present_1sg": "φορώ",
+   "aorist_1sg": "φόρεσα",
+   "participle": "φορεμένος",
+   "conj_group": "B1"
+  }
+ },
+ {
+  "lemma": "λυπάμαι",
+  "pos": "verb",
+  "gloss": "to be sorry; to feel sorry for",
+  "form_key": "Pres: λυπάμαι | Aor: λυπήθηκα",
+  "example": {
+   "el": "Λυπάμαι, δεν μπορώ να έρθω.",
+   "en": "I'm sorry, I can't come."
+  },
+  "verb": {
+   "present_1sg": "λυπάμαι",
+   "aorist_1sg": "λυπήθηκα",
+   "conj_group": "deponent"
+  }
+ },
+ {
+  "lemma": "ζητώ",
+  "pos": "verb",
+  "gloss": "to ask for; to request; to seek",
+  "form_key": "Pres: ζητώ | Aor: ζήτησα",
+  "example": {
+   "el": "Του ζήτησα συγγνώμη για το λάθος.",
+   "en": "I apologised to him for the mistake."
+  },
+  "verb": {
+   "present_1sg": "ζητώ",
+   "aorist_1sg": "ζήτησα",
+   "aorist_passive_1sg": "ζητήθηκα",
+   "conj_group": "B1"
+  }
+ },
+ {
+  "lemma": "κοιτώ",
+  "pos": "verb",
+  "gloss": "to look; to watch",
+  "form_key": "Pres: κοιτώ | Aor: κοίταξα",
+  "example": {
+   "el": "Κοίταξε τον ουρανό.",
+   "en": "Look at the sky."
+  },
+  "verb": {
+   "present_1sg": "κοιτώ",
+   "aorist_1sg": "κοίταξα",
+   "conj_group": "B1"
+  }
+ },
+ {
+  "lemma": "σήμερα",
+  "pos": "adverb",
+  "gloss": "today",
+  "form_key": "indecl",
+  "example": {
+   "el": "Σήμερα έχω πολλή δουλειά.",
+   "en": "Today I have a lot of work."
+  }
+ },
+ {
+  "lemma": "πρόβλημα",
+  "pos": "noun",
+  "gloss": "problem",
+  "form_key": "Gen: προβλήματος | n (3rd decl)",
+  "example": {
+   "el": "Έχω ένα πρόβλημα.",
+   "en": "I have a problem."
+  },
+  "noun": {
+   "gen_sg": "προβλήματος",
+   "gender": "n",
+   "declension": 3,
+   "model": "n-μα"
+  }
+ },
+ {
+  "lemma": "πιάνω",
+  "pos": "verb",
+  "gloss": "to catch; to grab, to hold; to touch",
+  "form_key": "Pres: πιάνω | Aor: έπιασα",
+  "example": {
+   "el": "Έπιασα την μπάλα με το ένα χέρι.",
+   "en": "I caught the ball with one hand."
+  },
+  "verb": {
+   "present_1sg": "πιάνω",
+   "aorist_1sg": "έπιασα",
+   "conj_group": "A",
+   "aorist_passive_1sg": "πιάστηκα",
+   "participle": "πιασμένος"
+  }
+ },
+ {
+  "lemma": "σωστός",
+  "pos": "adjective",
+  "gloss": "correct; right",
+  "form_key": "f: σωστή, n: σωστό",
+  "example": {
+   "el": "Η απάντηση είναι σωστή.",
+   "en": "The answer is correct."
+  },
+  "adjective": {
+   "m": "σωστός",
+   "f": "σωστή",
+   "n": "σωστό",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "τέτοιος",
+  "pos": "pronoun",
+  "gloss": "such; like this; of this kind",
+  "form_key": "f: τέτοια, n: τέτοιο",
+  "example": {
+   "el": "Δεν έχω δει ποτέ τέτοιο πράγμα.",
+   "en": "I have never seen such a thing."
+  },
+  "adjective": {
+   "m": "τέτοιος",
+   "f": "τέτοια",
+   "n": "τέτοιο",
+   "model": "adj-ος-α-ο"
+  }
+ },
+ {
+  "lemma": "παίζω",
+  "pos": "verb",
+  "gloss": "to play",
+  "form_key": "Pres: παίζω | Aor: έπαιξα",
+  "example": {
+   "el": "Τα παιδιά παίζουν ποδόσφαιρο στην αυλή.",
+   "en": "The children are playing football in the yard."
+  },
+  "verb": {
+   "present_1sg": "παίζω",
+   "aorist_1sg": "έπαιξα",
+   "aorist_passive_1sg": "παίχτηκα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "στιγμή",
+  "pos": "noun",
+  "gloss": "moment; instant",
+  "form_key": "Gen: στιγμής | f (1st decl)",
+  "example": {
+   "el": "Περίμενε μια στιγμή, έρχομαι.",
+   "en": "Wait a moment, I'm coming."
+  },
+  "noun": {
+   "gen_sg": "στιγμής",
+   "gender": "f",
+   "declension": 1,
+   "model": "f-η-ες"
+  }
+ },
+ {
+  "lemma": "δείχνω",
+  "pos": "verb",
+  "gloss": "to show; to point; to seem, to look",
+  "form_key": "Pres: δείχνω | Aor: έδειξα",
+  "example": {
+   "el": "Μπορείς να μου δείξεις τον δρόμο;",
+   "en": "Can you show me the way?"
+  },
+  "verb": {
+   "present_1sg": "δείχνω",
+   "aorist_1sg": "έδειξα",
+   "conj_group": "A"
+  }
+ },
+ {
+  "lemma": "τελευταίος",
+  "pos": "adjective",
+  "gloss": "last; latest",
+  "form_key": "f: τελευταία, n: τελευταίο",
+  "example": {
+   "el": "Είναι η τελευταία ευκαιρία.",
+   "en": "It is the last chance."
+  },
+  "adjective": {
+   "m": "τελευταίος",
+   "f": "τελευταία",
+   "n": "τελευταίο",
+   "model": "adj-ος-α-ο"
+  }
+ },
+ {
+  "lemma": "πόσος",
+  "pos": "pronoun",
+  "gloss": "how much; how many (pl.)",
+  "form_key": "f: πόση, n: πόσο",
+  "example": {
+   "el": "Πόση ζάχαρη θέλεις στον καφέ σου;",
+   "en": "How much sugar do you want in your coffee?"
+  },
+  "adjective": {
+   "m": "πόσος",
+   "f": "πόση",
+   "n": "πόσο",
+   "model": "adj-ος-η-ο"
+  }
+ },
+ {
+  "lemma": "τρόπος",
+  "pos": "noun",
+  "gloss": "way; manner",
+  "form_key": "Gen: τρόπου | m (2nd decl)",
+  "example": {
+   "el": "Βρες έναν τρόπο.",
+   "en": "Find a way."
+  },
+  "noun": {
+   "gen_sg": "τρόπου",
+   "gender": "m",
+   "declension": 2,
+   "model": "m-ος-fixed"
+  }
+ }
+]
