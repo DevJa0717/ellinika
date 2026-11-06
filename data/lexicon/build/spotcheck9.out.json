@@ -5083,5 +5083,675 @@
    }
   },
   "why": "example/grammar pass: Example used only the proper noun 'Bigfoot', not the adjective 'big-footed'."
+ },
+ {
+  "lemma": "σύναξη",
+  "set": {
+   "example": {
+    "el": "Η ετήσια σύναξη των μελών του συλλόγου έγινε την Κυριακή.",
+    "en": "The club's annual gathering of members took place on Sunday."
+   }
+  },
+  "why": "example/grammar pass: Example showed the sports 'squad call-up' sense, not the first sense 'gathering, assembly'."
+ },
+ {
+  "lemma": "συγκρατημένος",
+  "set": {
+   "example": {
+    "el": "Ο υπουργός ήταν πολύ συγκρατημένος στις δηλώσεις του.",
+    "en": "The minister was very restrained in his statements."
+   }
+  },
+  "why": "example/grammar pass: Example used the adverb συγκρατημένα, not the adjective in its first sense 'restrained, reserved'."
+ },
+ {
+  "lemma": "γηρατειά",
+  "set": {
+   "form_key": "Gen pl: γηρατειών | n pl (2nd decl)"
+  },
+  "why": "example/grammar pass: Plural-only noun: γηρατειών is a genitive plural, not gen_sg; header aligned with other pl-only entries."
+ },
+ {
+  "lemma": "ξυπνητούρια",
+  "set": {
+   "form_key": "n pl (2nd decl)"
+  },
+  "why": "example/grammar pass: gen_sg repeated the nominative plural; no genitive singular exists for this plural-only word."
+ },
+ {
+  "lemma": "παραθυράκι",
+  "set": {
+   "example": {
+    "el": "Άνοιξε το παραθυράκι του μπάνιου να φύγει η υγρασία.",
+    "en": "Open the little bathroom window to let the damp out."
+   }
+  },
+  "why": "example/grammar pass: Example showed the figurative 'loophole' sense, not the first sense 'small window'."
+ },
+ {
+  "lemma": "καζάνι",
+  "set": {
+   "example": {
+    "el": "Στο πανηγύρι μαγείρεψαν φασολάδα σε τεράστια καζάνια.",
+    "en": "At the village festival they cooked bean soup in huge cauldrons."
+   }
+  },
+  "why": "example/grammar pass: Example showed only the idiom το κεφάλι μου καζάνι, not the first sense 'cauldron, large pot'."
+ },
+ {
+  "lemma": "μάντισσα",
+  "set": {
+   "example": {
+    "el": "Η μάντισσα τής είπε ότι θα παντρευτεί μέσα στη χρονιά.",
+    "en": "The fortune-teller told her she would marry within the year."
+   }
+  },
+  "why": "example/grammar pass: Clitic needs the disambiguating accent (τής) after the noun, otherwise it reads as 'her fortune-teller'."
+ },
+ {
+  "lemma": "κηφήνας",
+  "set": {
+   "example": {
+    "el": "Στην κυψέλη οι κηφήνες δεν μαζεύουν μέλι.",
+    "en": "In the hive the drones don't collect honey."
+   }
+  },
+  "why": "example/grammar pass: Example showed the figurative 'freeloader' sense, not the first sense 'drone (male bee)'."
+ },
+ {
+  "lemma": "κερασάκι",
+  "set": {
+   "example": {
+    "el": "Στόλισε την τούρτα με σαντιγί και κερασάκια.",
+    "en": "She decorated the cake with whipped cream and little cherries."
+   }
+  },
+  "why": "example/grammar pass: Example showed only the idiom κερασάκι στην τούρτα, not the first sense 'little cherry'."
+ },
+ {
+  "lemma": "κοντρόλ",
+  "set": {
+   "example": {
+    "el": "Μην ανησυχείς, τα έχω όλα υπό κοντρόλ.",
+    "en": "Don't worry, I've got everything under control."
+   }
+  },
+  "why": "example/grammar pass: Example showed the football 'ball control' sense, not the first sense 'control'."
+ },
+ {
+  "lemma": "προϊστορία",
+  "set": {
+   "example": {
+    "el": "Το μουσείο έχει ευρήματα από την προϊστορία του νησιού.",
+    "en": "The museum has finds from the island's prehistory."
+   }
+  },
+  "why": "example/grammar pass: Example showed the 'background of an issue' sense, not the first sense 'prehistory'."
+ },
+ {
+  "lemma": "κεφάλα",
+  "set": {
+   "example": {
+    "el": "Ο σκύλος τους είναι μικρός, αλλά έχει μια τεράστια κεφάλα.",
+    "en": "Their dog is small, but it has an enormous head."
+   }
+  },
+  "why": "example/grammar pass: Example showed the colloquial 'brainbox' sense, not the first sense 'big head'."
+ },
+ {
+  "lemma": "φωνακλάς",
+  "set": {
+   "example": {
+    "el": "Ο φωνακλάς γείτονας ξύπνησε πάλι όλη την πολυκατοικία.",
+    "en": "The loudmouthed neighbour woke the whole block of flats again."
+   }
+  },
+  "why": "example/grammar pass: Example used the word as a noun ('loudmouth'), not as the adjective in its first sense."
+ },
+ {
+  "lemma": "αποσυμπίεση",
+  "set": {
+   "example": {
+    "el": "Οι δύτες κάνουν στάσεις αποσυμπίεσης καθώς ανεβαίνουν στην επιφάνεια.",
+    "en": "Divers make decompression stops as they rise to the surface."
+   }
+  },
+  "why": "example/grammar pass: example shows figurative sense (decongesting prisons), not literal decompression"
+ },
+ {
+  "lemma": "λιανός",
+  "set": {
+   "example": {
+    "el": "Ήταν ένα ψηλό, λιανό παιδί με μαύρα μάτια.",
+    "en": "He was a tall, slender boy with dark eyes."
+   }
+  },
+  "why": "example/grammar pass: example shows the idiom κάνω λιανά, not 'thin, slender'"
+ },
+ {
+  "lemma": "κυβικός",
+  "set": {
+   "example": {
+    "el": "Η πισίνα χωράει πενήντα κυβικά μέτρα νερό.",
+    "en": "The pool holds fifty cubic metres of water."
+   }
+  },
+  "why": "example/grammar pass: example shows 'cc' sense, not 'cubic'"
+ },
+ {
+  "lemma": "τσιπάκι",
+  "set": {
+   "example": {
+    "el": "Η νέα κάρτα έχει ένα τσιπάκι με τα στοιχεία σου.",
+    "en": "The new card has a small chip with your details."
+   }
+  },
+  "why": "example/grammar pass: example shows 'crisps' sense, not 'small chip, microchip'"
+ },
+ {
+  "lemma": "στείρος",
+  "set": {
+   "example": {
+    "el": "Οι γιατροί του είπαν ότι είναι στείρος και δεν μπορεί να κάνει παιδιά.",
+    "en": "The doctors told him he is sterile and cannot have children."
+   }
+  },
+  "why": "example/grammar pass: example shows figurative 'fruitless', not 'sterile'"
+ },
+ {
+  "lemma": "δακτύλιος",
+  "set": {
+   "example": {
+    "el": "Ο Κρόνος είναι γνωστός για τους εντυπωσιακούς δακτυλίους του.",
+    "en": "Saturn is known for its spectacular rings."
+   }
+  },
+  "why": "example/grammar pass: example shows Athens traffic-zone sense, not 'ring (shape)'"
+ },
+ {
+  "lemma": "υπογείως",
+  "set": {
+   "example": {
+    "el": "Τα καλώδια του ρεύματος θα περάσουν υπογείως.",
+    "en": "The power cables will run underground."
+   }
+  },
+  "why": "example/grammar pass: example shows figurative 'behind the scenes', not 'underground'"
+ },
+ {
+  "lemma": "σώας τας φρένας",
+  "set": {
+   "example": {
+    "el": "Ο παππούς ήταν σώας τας φρένας όταν υπέγραψε τη διαθήκη.",
+    "en": "Grandpa was of sound mind when he signed the will."
+   }
+  },
+  "why": "example/grammar pass: phrase needs a verb (ήταν/έχοντας); bare adverbial use is unnatural"
+ },
+ {
+  "lemma": "σκήπτρο",
+  "set": {
+   "example": {
+    "el": "Ο βασιλιάς κρατούσε στο χέρι του ένα χρυσό σκήπτρο.",
+    "en": "The king held a golden sceptre in his hand."
+   }
+  },
+  "why": "example/grammar pass: example shows sporting 'title' sense, not 'sceptre'"
+ },
+ {
+  "lemma": "κούφιος",
+  "set": {
+   "example": {
+    "el": "Ο κορμός του γέρικου πλάτανου είναι κούφιος από μέσα.",
+    "en": "The trunk of the old plane tree is hollow inside."
+   }
+  },
+  "why": "example/grammar pass: example shows figurative 'empty promises', not 'hollow'"
+ },
+ {
+  "lemma": "σιλουέτα",
+  "set": {
+   "example": {
+    "el": "Στο σκοτάδι διέκρινα τη σιλουέτα ενός άντρα.",
+    "en": "In the dark I could make out the silhouette of a man."
+   }
+  },
+  "why": "example/grammar pass: example shows 'figure' sense, not 'silhouette'"
+ },
+ {
+  "lemma": "καβούκι",
+  "set": {
+   "example": {
+    "el": "Η χελώνα έκρυψε το κεφάλι της μέσα στο καβούκι της.",
+    "en": "The tortoise hid its head inside its shell."
+   }
+  },
+  "why": "example/grammar pass: example shows figurative 'withdraw into one's shell', not literal shell"
+ },
+ {
+  "lemma": "ναρκοπέδιο",
+  "set": {
+   "example": {
+    "el": "Δύο στρατιώτες τραυματίστηκαν σε ναρκοπέδιο κοντά στα σύνορα.",
+    "en": "Two soldiers were injured in a minefield near the border."
+   }
+  },
+  "why": "example/grammar pass: example uses only the figurative sense; gloss is literal minefield"
+ },
+ {
+  "lemma": "χνάρι",
+  "set": {
+   "example": {
+    "el": "Τα χνάρια του λύκου φαίνονταν καθαρά στο χιόνι.",
+    "en": "The wolf's tracks were clearly visible in the snow."
+   }
+  },
+  "why": "example/grammar pass: example shows figurative 'footsteps', not 'footprint, track'"
+ },
+ {
+  "lemma": "κλέψιμο",
+  "set": {
+   "example": {
+    "el": "Τον έπιασαν πάνω στο κλέψιμο στο σούπερ μάρκετ.",
+    "en": "They caught him in the act of stealing at the supermarket."
+   }
+  },
+  "why": "example/grammar pass: example shows sporting 'robbery by the referee' sense, not 'stealing'"
+ },
+ {
+  "lemma": "ακέραιος",
+  "set": {
+   "example": {
+    "el": "Το αρχαίο άγαλμα βρέθηκε σχεδόν ακέραιο στον βυθό.",
+    "en": "The ancient statue was found almost intact on the seabed."
+   }
+  },
+  "why": "example/grammar pass: example shows 'of integrity' sense, not 'whole, intact'"
+ },
+ {
+  "lemma": "αναισθητικό",
+  "set": {
+   "example": {
+    "el": "Ο οδοντίατρος μού έκανε τοπικό αναισθητικό πριν το σφράγισμα.",
+    "en": "The dentist gave me a local anaesthetic before the filling."
+   }
+  },
+  "why": "example/grammar pass: clitic needs accent (μού) so it is not read as 'my dentist'"
+ },
+ {
+  "lemma": "μπλακάουτ",
+  "set": {
+   "example": {
+    "el": "Μετά την καταιγίδα έγινε μπλακάουτ σε όλη την πόλη.",
+    "en": "After the storm there was a blackout across the whole city."
+   }
+  },
+  "why": "example/grammar pass: example showed the memory-loss sense, not the first sense (power cut)"
+ },
+ {
+  "lemma": "σχιζοφρενής",
+  "set": {
+   "example": {
+    "el": "Ο ψυχίατρος παρακολουθεί έναν σχιζοφρενή ασθενή εδώ και χρόνια.",
+    "en": "The psychiatrist has been treating a schizophrenic patient for years."
+   }
+  },
+  "why": "example/grammar pass: example showed only the figurative sense"
+ },
+ {
+  "lemma": "κουτσαίνω",
+  "set": {
+   "example": {
+    "el": "Από τότε που έπεσε, ο σκύλος κουτσαίνει λίγο.",
+    "en": "Since he fell, the dog has been limping a little."
+   }
+  },
+  "why": "example/grammar pass: English tense was ungrammatical"
+ },
+ {
+  "lemma": "κλάννω",
+  "set": {
+   "example": {
+    "el": "Ποιος έκλασε μέσα στο αμάξι; Ανοίξτε τα παράθυρα!",
+    "en": "Who farted in the car? Open the windows!"
+   }
+  },
+  "why": "example/grammar pass: example showed only the idiom, not the first sense"
+ },
+ {
+  "lemma": "αδικώ",
+  "set": {
+   "example": {
+    "el": "Ο διαιτητής αδίκησε την ομάδα μας με εκείνο το πέναλτι.",
+    "en": "The referee treated our team unfairly with that penalty."
+   }
+  },
+  "why": "example/grammar pass: example showed the secondary 'don't blame' sense"
+ },
+ {
+  "lemma": "κουφάρι",
+  "set": {
+   "example": {
+    "el": "Βρήκαν το κουφάρι ενός σκύλου στην άκρη του δρόμου.",
+    "en": "They found a dog's carcass at the side of the road."
+   }
+  },
+  "why": "example/grammar pass: example showed the secondary 'hulk' sense"
+ },
+ {
+  "lemma": "υπηρεσιακός",
+  "set": {
+   "example": {
+    "el": "Χρησιμοποίησε το υπηρεσιακό αυτοκίνητο για προσωπικές δουλειές.",
+    "en": "He used the official car for personal errands."
+   }
+  },
+  "why": "example/grammar pass: example showed the secondary 'caretaker' sense"
+ },
+ {
+  "lemma": "ενίσταμαι",
+  "set": {
+   "verb.aorist_1sg": "ενστάθηκα",
+   "form_key": "Pres: ενίσταμαι | Aor: ενστάθηκα"
+  },
+  "why": "example/grammar pass: aorist ενστάθηκα is in use (legal register)"
+ },
+ {
+  "lemma": "φημολογείται",
+  "set": {
+   "verb.aorist_1sg": "φημολογήθηκε",
+   "form_key": "3sg impers.; Aor: φημολογήθηκε"
+  },
+  "why": "example/grammar pass: aorist φημολογήθηκε is in common use"
+ },
+ {
+  "lemma": "στόρι",
+  "set": {
+   "example": {
+    "el": "Κατέβασε το στόρι, μπαίνει πολύς ήλιος.",
+    "en": "Pull down the blind, a lot of sun is coming in."
+   }
+  },
+  "why": "example/grammar pass: example showed the minor social-media sense; στόρι (blind) declines (στοριού, στόρια)"
+ },
+ {
+  "lemma": "προστάζω",
+  "set": {
+   "example": {
+    "el": "Ο αξιωματικός πρόσταξε τους στρατιώτες να σταματήσουν.",
+    "en": "The officer ordered the soldiers to stop."
+   }
+  },
+  "why": "example/grammar pass: example showed the secondary 'dictate' sense"
+ },
+ {
+  "lemma": "τυφλοπόντικας",
+  "set": {
+   "example": {
+    "el": "Ο τυφλοπόντικας άνοιξε στοές σε όλο τον κήπο μας.",
+    "en": "The mole dug tunnels all over our garden."
+   }
+  },
+  "why": "example/grammar pass: Example showed only the figurative 'spy' sense; first sense is the animal."
+ },
+ {
+  "lemma": "δικαιωματικός",
+  "set": {
+   "example": {
+    "el": "Ο μεγάλος γιος είναι ο δικαιωματικός κληρονόμος της περιουσίας.",
+    "en": "The eldest son is the rightful heir to the estate."
+   }
+  },
+  "why": "example/grammar pass: Example used the adverb δικαιωματικά, not the adjective headword."
+ },
+ {
+  "lemma": "αντιληπτός",
+  "set": {
+   "example": {
+    "el": "Η διαφορά είναι μόλις αντιληπτή με γυμνό μάτι.",
+    "en": "The difference is barely perceptible to the naked eye."
+   }
+  },
+  "why": "example/grammar pass: Example showed only the set phrase γίνεται αντιληπτό, not the first sense 'perceptible'."
+ },
+ {
+  "lemma": "βάθρο",
+  "set": {
+   "example": {
+    "el": "Το άγαλμα στέκεται πάνω σε ένα μαρμάρινο βάθρο.",
+    "en": "The statue stands on a marble pedestal."
+   }
+  },
+  "why": "example/grammar pass: Example showed 'podium'; first gloss sense is 'pedestal, base'."
+ },
+ {
+  "lemma": "υπερθέρμανση",
+  "set": {
+   "example": {
+    "el": "Ο υπολογιστής μου σβήνει συνέχεια λόγω υπερθέρμανσης.",
+    "en": "My computer keeps shutting down because of overheating."
+   }
+  },
+  "why": "example/grammar pass: Example showed 'global warming'; first sense is 'overheating'."
+ },
+ {
+  "lemma": "αναλώσιμος",
+  "set": {
+   "example": {
+    "el": "Το νοσοκομείο έχει ελλείψεις σε αναλώσιμο υγειονομικό υλικό.",
+    "en": "The hospital is short of consumable medical supplies."
+   }
+  },
+  "why": "example/grammar pass: Example used the substantivised n. pl. noun, not the adjective in its first sense."
+ },
+ {
+  "lemma": "λουκέτο",
+  "set": {
+   "example": {
+    "el": "Δένει πάντα το ποδήλατό του με αλυσίδα και λουκέτο.",
+    "en": "He always locks his bike with a chain and padlock."
+   }
+  },
+  "why": "example/grammar pass: Example showed only the figurative 'closure' sense; first sense is 'padlock'."
+ },
+ {
+  "lemma": "παθολογικός",
+  "set": {
+   "example": {
+    "el": "Η ζήλια του έχει πια γίνει παθολογική.",
+    "en": "His jealousy has now become pathological."
+   }
+  },
+  "why": "example/grammar pass: Example showed the 'internal medicine' sense; first sense is 'pathological'."
+ },
+ {
+  "lemma": "επετηρίδα",
+  "set": {
+   "example": {
+    "el": "Η επιστημονική επετηρίδα της σχολής κυκλοφορεί κάθε χρόνο.",
+    "en": "The faculty's academic yearbook is published every year."
+   }
+  },
+  "why": "example/grammar pass: Example showed the 'seniority list' sense; first sense is 'yearbook, annual'."
+ },
+ {
+  "lemma": "μαντίλι",
+  "set": {
+   "example": {
+    "el": "Έβγαλε ένα μαντίλι από την τσέπη και σκούπισε τα μάτια της.",
+    "en": "She took a handkerchief out of her pocket and wiped her eyes."
+   }
+  },
+  "why": "example/grammar pass: Example showed 'headscarf'; first sense is 'handkerchief'."
+ },
+ {
+  "lemma": "φατσούλα",
+  "set": {
+   "example": {
+    "el": "Το μωρό έχει μια γλυκιά, στρογγυλή φατσούλα.",
+    "en": "The baby has a sweet, round little face."
+   }
+  },
+  "why": "example/grammar pass: Example showed 'smiley'; first sense is 'little face'."
+ },
+ {
+  "lemma": "λαμπάκι",
+  "set": {
+   "example": {
+    "el": "Στο ταμπλό άναψε ένα κόκκινο λαμπάκι.",
+    "en": "A little red light came on on the dashboard."
+   }
+  },
+  "why": "example/grammar pass: Example used only the idiom (μου ανάβουν τα λαμπάκια), not the first sense 'small light'."
+ },
+ {
+  "lemma": "ολίγος",
+  "set": {
+   "example": {
+    "el": "Σε ολίγα λεπτά ξεκινά η ομιλία του πρωθυπουργού.",
+    "en": "The prime minister's speech begins in a few minutes."
+   }
+  },
+  "why": "example/grammar pass: Example used only the fixed phrase εν ολίγοις, not the first sense 'few/little'."
+ },
+ {
+  "lemma": "δυσφορία",
+  "set": {
+   "example": {
+    "el": "Ο ασθενής ένιωθε έντονη δυσφορία στο στήθος.",
+    "en": "The patient felt severe discomfort in his chest."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the second sense (resentment), not 'discomfort'."
+ },
+ {
+  "lemma": "προμελέτη",
+  "set": {
+   "example": {
+    "el": "Ο κατηγορούμενος δικάζεται για ανθρωποκτονία εκ προμελέτης.",
+    "en": "The defendant is on trial for premeditated murder."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the second sense (preliminary study), not 'premeditation'."
+ },
+ {
+  "lemma": "ρυθμιστής",
+  "set": {
+   "example": {
+    "el": "Ο υδραυλικός άλλαξε τον ρυθμιστή πίεσης του νερού.",
+    "en": "The plumber replaced the water pressure regulator."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the second sense (arbiter), not 'regulator'."
+ },
+ {
+  "lemma": "νεκρικός",
+  "set": {
+   "example": {
+    "el": "Η νεκρική πομπή πέρασε σιωπηλά από την κεντρική πλατεία.",
+    "en": "The funeral procession passed silently through the main square."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the secondary sense (deathly), not 'funeral'."
+ },
+ {
+  "lemma": "ζευγαρώνω",
+  "set": {
+   "example": {
+    "el": "Ζευγάρωσε τις κάλτσες και βάλ' τες στο συρτάρι.",
+    "en": "Pair up the socks and put them in the drawer."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the second sense (animals mating), not 'pair up, match'."
+ },
+ {
+  "lemma": "αντιτρομοκρατικός",
+  "set": {
+   "example": {
+    "el": "Η Βουλή ψήφισε νέο αντιτρομοκρατικό νόμο.",
+    "en": "Parliament passed a new anti-terrorism law."
+   }
+  },
+  "why": "example/grammar pass: Example used the noun η Αντιτρομοκρατική (police), not the adjective sense 'anti-terrorist'."
+ },
+ {
+  "lemma": "πρεσβύτερος",
+  "set": {
+   "example": {
+    "el": "Τα πρεσβύτερα μέλη της οικογένειας θυμούνται ακόμα τον πόλεμο.",
+    "en": "The older members of the family still remember the war."
+   }
+  },
+  "why": "example/grammar pass: Example used the church noun (presbyter), not the first sense 'elder, senior'."
+ },
+ {
+  "lemma": "ράχη",
+  "set": {
+   "example": {
+    "el": "Η γάτα καμπούριασε τη ράχη της μόλις είδε τον σκύλο.",
+    "en": "The cat arched its back as soon as it saw the dog."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated 'ridge', not the first sense 'back'."
+ },
+ {
+  "lemma": "γλείψιμο",
+  "set": {
+   "example": {
+    "el": "Ο σκύλος πήδηξε πάνω μου και με γέμισε γλειψίματα.",
+    "en": "The dog jumped up on me and covered me in licks."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the colloquial sense (sucking up), not the first sense 'licking'."
+ },
+ {
+  "lemma": "υπόκλιση",
+  "set": {
+   "example": {
+    "el": "Οι ηθοποιοί έκαναν υπόκλιση στο κοινό που χειροκροτούσε.",
+    "en": "The actors bowed to the applauding audience."
+   }
+  },
+  "why": "example/grammar pass: χειροκροτούμενο means 'being applauded', not 'applauding'"
+ },
+ {
+  "lemma": "γεωμετρία",
+  "set": {
+   "example": {
+    "el": "Ήμουν πάντα καλύτερος στη γεωμετρία παρά στην άλγεβρα.",
+    "en": "I was always better at geometry than at algebra."
+   }
+  },
+  "why": "example/grammar pass: 'καλύτερος από την άλγεβρα' compares the person to algebra"
+ },
+ {
+  "lemma": "πλείστος",
+  "set": {
+   "example": {
+    "el": "Η απόφαση επικρίθηκε από πλείστους όσους ειδικούς.",
+    "en": "The decision was criticised by a great many experts."
+   }
+  },
+  "why": "example/grammar pass: example duplicated the fixed phrase entry; now shows the adjective itself"
+ },
+ {
+  "lemma": "κουρεύω",
+  "set": {
+   "example": {
+    "el": "Ο κουρέας με κούρεψε πολύ κοντά αυτή τη φορά.",
+    "en": "The barber cut my hair very short this time."
+   }
+  },
+  "why": "example/grammar pass: example showed only the passive κουρεύομαι, not the first (active) sense"
+ },
+ {
+  "lemma": "διαστροφή",
+  "set": {
+   "example": {
+    "el": "Το να βασανίζεις ζώα είναι διαστροφή.",
+    "en": "Torturing animals is a perversion."
+   }
+  },
+  "why": "example/grammar pass: 'άνθρωπος με διαστροφή' is unnatural (one says διεστραμμένος)"
  }
 ]
