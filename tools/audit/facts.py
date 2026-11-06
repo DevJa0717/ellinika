@@ -24,6 +24,8 @@ def en_words(s):
     return re.sub(r"\b(" + "|".join(W) + r")\b", lambda m: str(W[m.group(1).lower()]), s, flags=re.I)
 def nums(s, greek):
     s = re.sub(r"\[\d+\]", " ", s)
+    if greek: s = re.sub(r"(?:του\s+)?[’'΄]([2-9]0)\b", r"19\1", s)   # δεκαετία του ’60 = 1960s
+    else: s = re.sub(r"\b(twent|thirt|fort|fift|sixt|sevent|eight|ninet)ies\b", lambda m: "19" + str({"twent":2,"thirt":3,"fort":4,"fift":5,"sixt":6,"sevent":7,"eight":8,"ninet":9}[m.group(1).lower()]) + "0", s, flags=re.I)
     if not greek: s = en_words(s)
     out = set()
     for m in re.finditer(r"\d[\d.,]*\d|\d", s):
