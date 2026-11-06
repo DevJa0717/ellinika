@@ -8861,5 +8861,442 @@
    }
   },
   "why": "example/grammar pass: Example illustrated only the secondary sense (non-native species); now shows the first sense 'foreign'."
+ },
+ {
+  "lemma": "αναλώνω",
+  "set": {
+   "example": {
+    "el": "Δεν αξίζει να αναλώνεις τον χρόνο σου σε τέτοιες συζητήσεις.",
+    "en": "It's not worth spending your time on discussions like these."
+   }
+  },
+  "why": "example/grammar pass: Example showed only the passive sense; first sense is active 'spend, use up'."
+ },
+ {
+  "lemma": "κραυγαλέος",
+  "set": {
+   "example": {
+    "el": "Πρόκειται για κραυγαλέα παραβίαση του νόμου.",
+    "en": "This is a blatant violation of the law."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the minor 'sensationalist' sense, not the first sense 'glaring, blatant'."
+ },
+ {
+  "lemma": "τσουχτερός",
+  "set": {
+   "example": {
+    "el": "Έξω φυσάει ένας τσουχτερός βοριάς.",
+    "en": "A biting north wind is blowing outside."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the colloquial 'pricey' sense, not the first sense 'biting (cold)'."
+ },
+ {
+  "lemma": "διοφαντικός",
+  "set": {
+   "example": {
+    "el": "Στις διοφαντικές εξισώσεις αναζητούμε μόνο ακέραιες λύσεις.",
+    "en": "In Diophantine equations we look only for integer solutions."
+   }
+  },
+  "why": "example/grammar pass: Original was factually wrong: a Diophantine equation is one whose integer solutions are sought, not one that has only integer solutions."
+ },
+ {
+  "lemma": "μαραζώνω",
+  "set": {
+   "example": {
+    "el": "Από τότε που έφυγαν τα παιδιά του, ο παππούς μαράζωσε.",
+    "en": "Since his children left, grandpa has been pining away."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the minor 'wither' (plant) sense, not the first sense 'waste away, pine'."
+ },
+ {
+  "lemma": "πύκνωση",
+  "set": {
+   "example": {
+    "el": "Η πύκνωση των υδρατμών σχηματίζει τα σύννεφα.",
+    "en": "The condensation of water vapour forms clouds."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the minor 'increased frequency' sense, not the first sense 'condensation'."
+ },
+ {
+  "lemma": "ομοιοτέλευτο",
+  "set": {
+   "example": {
+    "el": "Τα συνθήματα έχουν συχνά ομοιοτέλευτο για να τα θυμόμαστε εύκολα.",
+    "en": "Slogans often have rhyming endings so that we remember them easily."
+   }
+  },
+  "why": "example/grammar pass: Grammar error: 'για να θυμούνται' made the slogans the ones remembering; it needs an object pronoun and a person subject."
+ },
+ {
+  "lemma": "ξαναψηφίζω",
+  "set": {
+   "example": {
+    "el": "Αν δεν βγει κυβέρνηση, θα ξαναψηφίσουμε τον Ιούνιο.",
+    "en": "If no government is formed, we'll vote again in June."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the minor 'pass a bill again' sense, not the first sense 'vote again'."
+ },
+ {
+  "lemma": "οσοσδήποτε",
+  "set": {
+   "example": {
+    "el": "Οσαδήποτε χρήματα κι αν σου προσφέρουν, μην το πουλήσεις.",
+    "en": "However much money they offer you, don't sell it."
+   }
+  },
+  "why": "example/grammar pass: Example showed only the secondary adverbial use; replaced with the pronoun use (first sense)."
+ },
+ {
+  "lemma": "επίκοινος",
+  "set": {
+   "example": {
+    "el": "Η λέξη «χελώνα» είναι επίκοινο ουσιαστικό.",
+    "en": "The word \"χελώνα\" (turtle) is an epicene noun."
+   }
+  },
+  "why": "example/grammar pass: Wrong term: «γιατρός» is κοινού γένους (ο/η); επίκοινα have one gender for both sexes (η χελώνα, ο σκίουρος)."
+ },
+ {
+  "lemma": "φιλοτιμώ",
+  "set": {
+   "example": {
+    "el": "Προσπάθησε να τον φιλοτιμήσει για να βοηθήσει κι αυτός.",
+    "en": "She tried to appeal to his sense of honour so that he would help too."
+   }
+  },
+  "why": "example/grammar pass: Example showed only the passive φιλοτιμούμαι; first sense is active 'appeal to someone's sense of honour'."
+ },
+ {
+  "lemma": "πένθιμος",
+  "set": {
+   "example": {
+    "el": "Η ατμόσφαιρα στο χωριό ήταν πένθιμη μετά το δυστύχημα.",
+    "en": "The atmosphere in the village was mournful after the accident."
+   }
+  },
+  "why": "example/grammar pass: Example used the adverb πένθιμα, not the adjective headword."
+ },
+ {
+  "lemma": "κλέφτικος",
+  "set": {
+   "example": {
+    "el": "Τα κλέφτικα τραγούδια υμνούν τη ζωή των κλεφτών στα βουνά.",
+    "en": "Klephtic songs celebrate the life of the klephts in the mountains."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated only the secondary sense (kleftiko dish), not 'of the klephts'."
+ },
+ {
+  "lemma": "υποτάσσω",
+  "set": {
+   "example": {
+    "el": "Οι Ρωμαίοι υπέταξαν την Ελλάδα το 146 π.Χ.",
+    "en": "The Romans subjugated Greece in 146 BC."
+   }
+  },
+  "why": "example/grammar pass: Example showed only the passive 'submit' sense, not the first sense 'subjugate'."
+ },
+ {
+  "lemma": "αντιτάσσω",
+  "set": {
+   "example": {
+    "el": "Ο υπουργός αντέταξε ότι τα στοιχεία δείχνουν το αντίθετο.",
+    "en": "The minister countered that the figures show the opposite."
+   }
+  },
+  "why": "example/grammar pass: Example showed only αντιτάσσομαι 'oppose', not the first sense 'counter (with arguments)'."
+ },
+ {
+  "lemma": "ακριτικός",
+  "set": {
+   "example": {
+    "el": "Οι κάτοικοι των ακριτικών νησιών ζητούν καλύτερη συγκοινωνία.",
+    "en": "Residents of the border islands are asking for better transport links."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the Akritic-songs sense, not the first sense 'frontier, border'."
+ },
+ {
+  "lemma": "ικαριώτικος",
+  "set": {
+   "example": {
+    "el": "Τα ικαριώτικα πανηγύρια κρατούν συχνά μέχρι το πρωί.",
+    "en": "Ikarian festivals often go on until the morning."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated only the dance noun sense, not the first sense 'Ikarian'."
+ },
+ {
+  "lemma": "αντιθετικός",
+  "set": {
+   "example": {
+    "el": "Ο συγγραφέας χρησιμοποιεί αντιθετικές εικόνες, όπως το φως και το σκοτάδι.",
+    "en": "The author uses contrasting images, such as light and darkness."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated only the grammar sense 'adversative', not the first sense 'contrasting'."
+ },
+ {
+  "lemma": "ανελίσσομαι",
+  "set": {
+   "example": {
+    "el": "Ακόμη και σήμερα λίγες γυναίκες ανελίσσονται σε διευθυντικές θέσεις.",
+    "en": "Even today, few women rise to management positions."
+   }
+  },
+  "why": "example/grammar pass: Awkward placement of ακόμη and ambiguous English ('few women still rise')."
+ },
+ {
+  "lemma": "επαγγέλλομαι",
+  "set": {
+   "example": {
+    "el": "«Τι επαγγέλλεστε;» «Είμαι νοσηλεύτρια σε δημόσιο νοσοκομείο.»",
+    "en": "\"What do you do for a living?\" \"I'm a nurse at a public hospital.\""
+   }
+  },
+  "why": "example/grammar pass: Example illustrated only the formal 'promise' sense, not the first sense 'practise a profession'."
+ },
+ {
+  "lemma": "αποδοκιμάζω",
+  "set": {
+   "example": {
+    "el": "Οι περισσότεροι πολίτες αποδοκιμάζουν τη βία στις διαδηλώσεις.",
+    "en": "Most citizens condemn violence at demonstrations."
+   }
+  },
+  "why": "example/grammar pass: old example's English used the minor sense 'boo'; new one shows the first sense, disapprove of/condemn"
+ },
+ {
+  "lemma": "αποπροσανατολισμός",
+  "set": {
+   "example": {
+    "el": "Η αντιπολίτευση κάνει λόγο για προσπάθεια αποπροσανατολισμού της κοινής γνώμης.",
+    "en": "The opposition speaks of an attempt to distract public opinion."
+   }
+  },
+  "why": "example/grammar pass: Example illustrated the secondary sense (disorientation), not the first gloss sense (diversion of public opinion)."
+ },
+ {
+  "lemma": "καρκινογόνος",
+  "set": {
+   "example": {
+    "el": "Ο καπνός του τσιγάρου περιέχει δεκάδες καρκινογόνα χημικά.",
+    "en": "Cigarette smoke contains dozens of carcinogenic chemicals."
+   }
+  },
+  "why": "example/grammar pass: Example used feminine καρκινογόνες, contradicting the two-termination header (m/f καρκινογόνος); neuter example avoids the clash."
+ },
+ {
+  "lemma": "κερδοσκοπώ",
+  "set": {
+   "example": {
+    "el": "Πολλοί επενδυτές κερδοσκοπούν στην αγορά των κρυπτονομισμάτων.",
+    "en": "Many investors speculate on the cryptocurrency market."
+   }
+  },
+  "why": "example/grammar pass: example showed the secondary sense (profiteer), not the first (speculate)"
+ },
+ {
+  "lemma": "μεσιτεία",
+  "set": {
+   "example": {
+    "el": "Ασχολείται με τη μεσιτεία ακινήτων εδώ και είκοσι χρόνια.",
+    "en": "He has worked in real estate brokerage for twenty years."
+   }
+  },
+  "why": "example/grammar pass: example showed the minor sense (agent's commission), not the first (brokerage)"
+ },
+ {
+  "lemma": "εκτροχιασμός",
+  "set": {
+   "example": {
+    "el": "Δύο επιβάτες τραυματίστηκαν ελαφρά στον εκτροχιασμό του τρένου.",
+    "en": "Two passengers were slightly injured in the train derailment."
+   }
+  },
+  "why": "example/grammar pass: example showed only the figurative sense, not the first (derailment)"
+ },
+ {
+  "lemma": "μουσικόφιλος",
+  "set": {
+   "example": {
+    "el": "Η Θεσσαλονίκη έχει ένα ιδιαίτερα μουσικόφιλο κοινό.",
+    "en": "Thessaloniki has a particularly music-loving audience."
+   }
+  },
+  "why": "example/grammar pass: example used the noun sense; first sense is the adjective"
+ },
+ {
+  "lemma": "κυανόλευκος",
+  "set": {
+   "example": {
+    "el": "Χιλιάδες κυανόλευκες σημαίες κυμάτιζαν στην παρέλαση.",
+    "en": "Thousands of blue-and-white flags were waving at the parade."
+   }
+  },
+  "why": "example/grammar pass: example showed only the sports nickname, not the first sense (blue and white)"
+ },
+ {
+  "lemma": "κυανέρυθρος",
+  "set": {
+   "example": {
+    "el": "Οι οπαδοί γέμισαν το γήπεδο με κυανέρυθρες σημαίες.",
+    "en": "The fans filled the stadium with blue-and-red flags."
+   }
+  },
+  "why": "example/grammar pass: example showed only the sports nickname, not the first sense (blue and red)"
+ },
+ {
+  "lemma": "εντολέας",
+  "set": {
+   "example": {
+    "el": "Ο δικηγόρος οφείλει να ενεργεί προς το συμφέρον του εντολέα του.",
+    "en": "A lawyer must act in the interest of his client."
+   }
+  },
+  "why": "example/grammar pass: example showed the secondary sense (instigator), not the first (principal, client)"
+ },
+ {
+  "lemma": "επιτελικός",
+  "set": {
+   "example": {
+    "el": "Ο υπουργός συναντήθηκε με επιτελικούς αξιωματικούς του Γενικού Επιτελείου.",
+    "en": "The minister met staff officers of the General Staff."
+   }
+  },
+  "why": "example/grammar pass: example showed the second sense (επιτελικό κράτος), not the first (military staff)"
+ },
+ {
+  "lemma": "προσάγω",
+  "set": {
+   "verb.aorist_passive_1sg": "προσάχθηκα"
+  },
+  "why": "example/grammar pass: προσήχθην is a katharevousa form; standard Modern Greek 1sg aorist passive is προσάχθηκα (3sg προσήχθη/προσάχθηκε both used); form_key shows active aorist only, so unchanged"
+ },
+ {
+  "lemma": "αμετάκλητος",
+  "set": {
+   "example": {
+    "el": "Η απόφαση του δικαστηρίου είναι πλέον αμετάκλητη.",
+    "en": "The court's decision is now final."
+   }
+  },
+  "why": "example/grammar pass: example used only the adverb αμετάκλητα; replaced with the adjective"
+ },
+ {
+  "lemma": "ροκανίζω",
+  "set": {
+   "example": {
+    "el": "Ο σκύλος ροκάνιζε ένα κόκαλο κάτω από το τραπέζι.",
+    "en": "The dog was gnawing on a bone under the table."
+   }
+  },
+  "why": "example/grammar pass: example showed only the figurative sense; replaced with first sense 'gnaw'"
+ },
+ {
+  "lemma": "στεγανός",
+  "set": {
+   "example": {
+    "el": "Το ρολόι είναι στεγανό μέχρι τα 50 μέτρα βάθος.",
+    "en": "The watch is waterproof to a depth of 50 metres."
+   }
+  },
+  "why": "example/grammar pass: example showed only the minor sense τα στεγανά; replaced with 'watertight, waterproof'"
+ },
+ {
+  "lemma": "βαρύτιμος",
+  "set": {
+   "example": {
+    "el": "Οι διαρρήκτες άρπαξαν βαρύτιμα κοσμήματα από το σπίτι.",
+    "en": "The burglars grabbed valuable jewellery from the house."
+   }
+  },
+  "why": "example/grammar pass: example showed only the figurative sense 'prestigious'; replaced with first sense 'precious, valuable'"
+ },
+ {
+  "lemma": "φινίρισμα",
+  "set": {
+   "example": {
+    "el": "Το τραπέζι χρειάζεται ένα τελευταίο φινίρισμα με βερνίκι.",
+    "en": "The table needs a final finish with varnish."
+   }
+  },
+  "why": "example/grammar pass: example showed only the sports sense; replaced with first sense 'finish of a surface'"
+ },
+ {
+  "lemma": "συνηγορώ",
+  "set": {
+   "example": {
+    "el": "Ο υπουργός συνηγόρησε υπέρ της αύξησης του κατώτατου μισθού.",
+    "en": "The minister argued in favour of raising the minimum wage."
+   }
+  },
+  "why": "example/grammar pass: example showed the secondary sense 'point to (of evidence)'; replaced with first sense 'argue in favour of'"
+ },
+ {
+  "lemma": "σωρευτικός",
+  "set": {
+   "example": {
+    "el": "Η σωρευτική αύξηση των τιμών έφτασε το 15% σε δύο χρόνια.",
+    "en": "The cumulative price increase reached 15% over two years."
+   }
+  },
+  "why": "example/grammar pass: example used only the adverb σωρευτικά; replaced with the adjective"
+ },
+ {
+  "lemma": "ευλαβικός",
+  "set": {
+   "example": {
+    "el": "Οι πιστοί παρακολουθούσαν τη λειτουργία με ευλαβική σιωπή.",
+    "en": "The faithful followed the service in reverent silence."
+   }
+  },
+  "why": "example/grammar pass: example used only the adverb in the minor sense 'religiously'; replaced with first sense 'reverent'"
+ },
+ {
+  "lemma": "αγκυροβολώ",
+  "set": {
+   "example": {
+    "el": "Το πλοίο αγκυροβόλησε στον κόλπο λόγω της κακοκαιρίας.",
+    "en": "The ship dropped anchor in the bay because of the bad weather."
+   }
+  },
+  "why": "example/grammar pass: example used only the participle; replaced with a finite form in the first sense"
+ },
+ {
+  "lemma": "αντιπολιτεύομαι",
+  "set": {
+   "example": {
+    "el": "Το κόμμα αντιπολιτεύεται σκληρά την κυβέρνηση στο θέμα της ακρίβειας.",
+    "en": "The party is fiercely opposing the government on the cost of living."
+   }
+  },
+  "why": "example/grammar pass: example used only the participle as adjective (minor sense); replaced with first sense 'oppose'"
+ },
+ {
+  "lemma": "ασυμβίβαστος",
+  "set": {
+   "example": {
+    "el": "Ο νέος πρόεδρος είναι γνωστός για την ασυμβίβαστη στάση του.",
+    "en": "The new president is known for his uncompromising stance."
+   }
+  },
+  "why": "example/grammar pass: example showed only the noun το ασυμβίβαστο (minor sense); replaced with first sense 'uncompromising'"
+ },
+ {
+  "lemma": "ευθυγραμμίζω",
+  "set": {
+   "example": {
+    "el": "Η κυβέρνηση ευθυγραμμίζει την πολιτική της με τις αποφάσεις της ΕΕ.",
+    "en": "The government is aligning its policy with EU decisions."
+   }
+  },
+  "why": "example/grammar pass: example showed only the passive 'fall into line'; replaced with active first sense 'align'"
  }
 ]
