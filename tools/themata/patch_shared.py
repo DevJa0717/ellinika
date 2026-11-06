@@ -12,6 +12,7 @@ ALL = [
  ("scheseis", "Relationships and feelings", "Σχέσεις και συναισθήματα", "Relationships and feelings: bilingual reader on emotions, character, friendship, dating, couples, weddings and baptisms, family, arguments and making up (B1+–C1)"),
  ("nomos", "Law, police and justice", "Νόμος, αστυνομία και δικαιοσύνη", "Law, police and justice: bilingual reader on calling the police, theft and fraud, accidents, courts and trials, lawyers, prisons, crime news and crime fiction (B2–C1)"),
  ("eleftheros", "Free time", "Ελεύθερος χρόνος", "Free time: bilingual reader on going out, TV and series, phones and social media, clothes and looks, pets and animals, holidays and camping, hobbies and games (B1+–C1)"),
+ ("geitonia", "A year at 14 Aiginis Street", "Μια χρονιά στην Αιγίνης 14", "A year at 14 Aiginis Street: serial novel in an Athens apartment block, 30 episodes that use almost 900 common words found nowhere else in the app, from football and the courts to the hospital, the kitchen and street slang (B1–B2)"),
  ("eidiseis", "The language of the news", "Η γλώσσα των ειδήσεων", "The language of the news: bilingual reader on reading Greek news in politics, Cyprus and the world, war and history, the economy, the courts, sport and culture (C1)"),
 ]
 SH = [s for s in ALL if os.path.exists(os.path.join(root, "library", s[0], "index.json"))]

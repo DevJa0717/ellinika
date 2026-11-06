@@ -66,6 +66,6 @@ for path in sorted(glob.glob(os.path.join(D, "part*.py")), key=lambda p: int(re.
         items.append({"id": c["id"], "file": fn, "el": c["el"], "title": c["title"], "level": c["level"], "part": m.PART["id"], "dates": c.get("dates", "")})
 
 idx = {"kind": "bilingual", "el": META["el"], "title": META["title"], "intro_el": META["intro_el"], "intro_en": META["intro_en"],
-       "parts": [{k: p[k] for k in ("id", "el", "en", "dates", "intro_el", "intro_en") if k in p} for p in parts], "items": items}
+       **({"cover_chapter": META["cover_chapter"]} if "cover_chapter" in META else {}), "parts": [{k: p[k] for k in ("id", "el", "en", "dates", "intro_el", "intro_en") if k in p} for p in parts], "items": items}
 json.dump(idx, open(os.path.join(OUT, "index.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"{SHELF}: {len(items)} chapters, {nq} questions in {len(parts)} parts → {OUT}")

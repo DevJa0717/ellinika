@@ -197,7 +197,7 @@ def main():
                 f'<p>Every picture is in the public domain, released under CC0 by its museum, or used under the free licence named beside it.</p>'
                 f'<table class="cred"><thead><tr><th>Chapter</th><th>Picture</th><th>From</th><th>Licence</th><th>Source</th></tr></thead><tbody>{rows}</tbody></table>'
                 f'<p>The texts were written in modern Greek and English for the Ελληνικά app, for personal, non-commercial study. Each chapter lists the sources its statements were checked against.</p></section>')
-    cov = next((c["image"] for c in creds), None)
+    cov = next((c["image"] for c in creds if c.get("id") == idx.get("cover_chapter")), None) or next((c["image"] for c in creds), None)
     cover = (f'<section class="cover bl" lang="el"><div class="c-top">Ελληνικά · {esc(idx.get("kicker_el") or "Δίγλωσσο αναγνωστικό")}</div><div class="c-lvl">{esc(idx.get("el"))}</div>'
              f'<p class="c-blurb">{esc(idx.get("intro_el"))} {n} κεφάλαια, {len(keys)} ερωτήσεις (με τις λύσεις στο τέλος).</p>'
              + (f'<img class="c-img" src="file://{esc(os.path.join(APP, cov["file"]))}"><div class="c-cap">{esc(cov.get("caption"))}</div>' if cov else "")

@@ -7,7 +7,7 @@
   "use strict";
   const A = () => window.Ellinika;
   const routes = (window.EllinikaAddons = window.EllinikaAddons || {});
-  const SHELVES = { philosophers: "Philosophers", istoria: "History of the Greeks", simera: "Greece today", politeia: "The Greek polity", kouzina: "The Greek kitchen", mousiki: "Greek music", skini: "Theatre and cinema", eortes: "The Orthodox year", athlitismos: "Greek sport", mathiatriki: "Maths and medicine", epistimi: "Science and technology", nisia: "The Greek islands", diaspora: "The Greek diaspora", kathimerini: "Everyday life", ygeia: "Health and the body", douleia: "Work and money", scheseis: "Relationships and feelings", nomos: "Law, police and justice", eleftheros: "Free time", eidiseis: "The language of the news" };
+  const SHELVES = { philosophers: "Philosophers", istoria: "History of the Greeks", simera: "Greece today", politeia: "The Greek polity", kouzina: "The Greek kitchen", mousiki: "Greek music", skini: "Theatre and cinema", eortes: "The Orthodox year", athlitismos: "Greek sport", mathiatriki: "Maths and medicine", epistimi: "Science and technology", nisia: "The Greek islands", diaspora: "The Greek diaspora", kathimerini: "Everyday life", ygeia: "Health and the body", douleia: "Work and money", scheseis: "Relationships and feelings", nomos: "Law, police and justice", eleftheros: "Free time", eidiseis: "The language of the news", geitonia: "A year at 14 Aiginis Street" };
   const MODE_KEY = "ellinika.bilingual.mode";
   const MODES = [["el", "Ελληνικά"], ["both", "Δίγλωσσο"], ["en", "English"]];
 
