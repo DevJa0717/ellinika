@@ -1,0 +1,756 @@
+[
+ {
+  "lemma": "λέξη",
+  "synonyms": [
+   "όρος"
+  ],
+  "why": "λόγος is not a near-synonym of 'word'"
+ },
+ {
+  "lemma": "χώρα",
+  "synonyms": [
+   "κράτος",
+   "έθνος"
+  ],
+  "why": "πατρίδα means homeland, not country"
+ },
+ {
+  "lemma": "χειρότερος",
+  "synonyms": [],
+  "why": "κατώτερος means inferior, not worse"
+ },
+ {
+  "lemma": "γύρω",
+  "collocations": [
+   {
+    "el": "γύρω από",
+    "en": "around"
+   },
+   {
+    "el": "γύρω στους εκατό",
+    "en": "about a hundred"
+   },
+   {
+    "el": "γύρω γύρω",
+    "en": "all around"
+   },
+   {
+    "el": "εδώ γύρω",
+    "en": "around here"
+   }
+  ],
+  "why": "'κάνω τον γύρο' uses the noun γύρος, not this adverb"
+ },
+ {
+  "lemma": "φαντάζομαι",
+  "gloss": "to imagine; to suppose, guess",
+  "why": "very common main use 'I suppose/guess' was missing"
+ },
+ {
+  "lemma": "δολοφόνος",
+  "antonyms": [],
+  "why": "θύμα is not a true antonym"
+ },
+ {
+  "lemma": "μήνυμα",
+  "synonyms": [],
+  "why": "είδηση (news) and ειδοποίηση (notification) are not near-synonyms"
+ },
+ {
+  "lemma": "παρατάω",
+  "family": [
+   "παρατημένος"
+  ],
+  "why": "παράτημα is doubtful/rare"
+ },
+ {
+  "lemma": "ποτό",
+  "collocations": [
+   {
+    "el": "πάμε για ποτό;",
+    "en": "shall we go for a drink?"
+   },
+   {
+    "el": "κερνάω ποτό",
+    "en": "I buy a drink (for someone)"
+   },
+   {
+    "el": "δυνατό ποτό",
+    "en": "a strong drink"
+   },
+   {
+    "el": "παραγγέλνω ένα ποτό",
+    "en": "I order a drink"
+   }
+  ],
+  "why": "'ποτό στον πάγο' is not idiomatic (Greek says 'με πάγο')"
+ },
+ {
+  "lemma": "παρακολουθώ",
+  "gloss": "to watch, follow; to attend (classes); to monitor",
+  "why": "watch/follow is the most frequent sense today; attend second; monitor added"
+ },
+ {
+  "lemma": "προχωρώ",
+  "family": [
+   "προχωρημένος"
+  ],
+  "why": "πρόοδος is from οδός, not the same root"
+ },
+ {
+  "lemma": "αρχηγός",
+  "synonyms": [
+   "ηγέτης",
+   "επικεφαλής"
+  ],
+  "why": "αφεντικό (boss) is not a near-synonym"
+ },
+ {
+  "lemma": "τύχη",
+  "synonyms": [
+   "μοίρα (fate)",
+   "ριζικό (literary)"
+  ],
+  "why": "σύμπτωση (coincidence) is not a near-synonym of luck"
+ },
+ {
+  "lemma": "θεωρώ",
+  "family": [
+   "θεωρία",
+   "θεωρητικός",
+   "θεώρηση"
+  ],
+  "why": "θεατής is not from the same root"
+ },
+ {
+  "lemma": "συζητώ",
+  "synonyms": [
+   "κουβεντιάζω (everyday)"
+  ],
+  "why": "διαπραγματεύομαι means negotiate"
+ },
+ {
+  "lemma": "ανήκω",
+  "family": [],
+  "why": "ανήκων is not a real independent family word"
+ },
+ {
+  "lemma": "κυνηγώ",
+  "collocations": [
+   {
+    "el": "κυνηγώ τα όνειρά μου",
+    "en": "I chase my dreams"
+   },
+   {
+    "el": "κυνηγώ λαγούς",
+    "en": "I hunt hares"
+   },
+   {
+    "el": "με κυνηγάει η αστυνομία",
+    "en": "the police are after me"
+   }
+  ],
+  "synonyms": [
+   "καταδιώκω (formal)"
+  ],
+  "why": "'κυνηγώ τη δουλειά' is unidiomatic; ακολουθώ is not a near-synonym"
+ },
+ {
+  "lemma": "πιθανός",
+  "synonyms": [
+   "ενδεχόμενος",
+   "πιθανολογούμενος (formal)"
+  ],
+  "why": "πιστευτός means believable, not likely"
+ },
+ {
+  "lemma": "περιοχή",
+  "family": [
+   "περιέχω",
+   "περιεχόμενο"
+  ],
+  "why": "περιφέρεια is not from the same root (περιοχή < περιέχω)"
+ },
+ {
+  "lemma": "κοντά",
+  "family": [
+   "κοντινός",
+   "κοντός"
+  ],
+  "why": "πλησιάζω is not from the same root"
+ },
+ {
+  "lemma": "συμφωνία",
+  "synonyms": [
+   "σύμβαση",
+   "συμβόλαιο"
+  ],
+  "why": "ομοφωνία means unanimity, not agreement/deal"
+ },
+ {
+  "lemma": "μαζεύω",
+  "family": [
+   "μάζα",
+   "μάζεμα",
+   "μαζεμένος"
+  ],
+  "why": "μαζί is not from the root of μάζα/μαζεύω"
+ },
+ {
+  "lemma": "συλλαμβάνω",
+  "synonyms": [
+   "πιάνω (everyday)"
+  ],
+  "why": "κρατώ is not a near-synonym of arrest"
+ },
+ {
+  "lemma": "καίω",
+  "collocations": [
+   {
+    "el": "καίω ξύλα",
+    "en": "I burn wood"
+   },
+   {
+    "el": "καίγομαι",
+    "en": "I'm burning (with fever)"
+   },
+   {
+    "el": "καίγεται το σπίτι",
+    "en": "the house is on fire"
+   },
+   {
+    "el": "με καίει ο ήλιος",
+    "en": "the sun is burning me"
+   }
+  ],
+  "why": "natural form is 'με καίει ο ήλιος', not 'μου καίει'"
+ },
+ {
+  "lemma": "ενδιαφέρων",
+  "collocations": [
+   {
+    "el": "ενδιαφέρουσα ιδέα",
+    "en": "an interesting idea"
+   },
+   {
+    "el": "ενδιαφέρον βιβλίο",
+    "en": "an interesting book"
+   },
+   {
+    "el": "πολύ ενδιαφέρων άνθρωπος",
+    "en": "a very interesting person"
+   }
+  ],
+  "synonyms": [
+   "συναρπαστικός"
+  ],
+  "why": "two collocations used the noun ενδιαφέρον, not the adjective; ελκυστικός means attractive"
+ },
+ {
+  "lemma": "έρευνα",
+  "synonyms": [
+   "μελέτη",
+   "διερεύνηση"
+  ],
+  "why": "ανάκριση means interrogation"
+ },
+ {
+  "lemma": "κλειδί",
+  "synonyms": [],
+  "why": "λύση is not a near-synonym of key"
+ },
+ {
+  "lemma": "ανακαλύπτω",
+  "antonyms": [],
+  "why": "κρύβω is not a true opposite"
+ },
+ {
+  "lemma": "δώρο",
+  "synonyms": [
+   "χάρισμα"
+  ],
+  "why": "ανταμοιβή means reward"
+ },
+ {
+  "lemma": "ταξίδι",
+  "synonyms": [
+   "εκδρομή",
+   "περιήγηση"
+  ],
+  "why": "διαδρομή means route"
+ },
+ {
+  "lemma": "καθαρίζω",
+  "collocations": [
+   {
+    "el": "καθαρίζω το σπίτι",
+    "en": "I clean the house"
+   },
+   {
+    "el": "καθαρίζω πατάτες",
+    "en": "I peel potatoes"
+   },
+   {
+    "el": "καθαρίζω τα τζάμια",
+    "en": "I clean the windows"
+   }
+  ],
+  "why": "teeth are 'πλένω', not 'καθαρίζω'; 'καθαρίζω τα χρέη μου' is not idiomatic"
+ },
+ {
+  "lemma": "αριθμός",
+  "synonyms": [
+   "νούμερο (everyday)"
+  ],
+  "why": "ψηφίο means digit"
+ },
+ {
+  "lemma": "αντέχω",
+  "family": [
+   "αντοχή",
+   "ανθεκτικός"
+  ],
+  "why": "αβάσταχτος is from βαστώ, not the same root"
+ },
+ {
+  "lemma": "προτιμώ",
+  "synonyms": [],
+  "why": "διαλέγω/επιλέγω mean choose, not prefer"
+ },
+ {
+  "lemma": "θείος",
+  "antonyms": [],
+  "why": "θεία is not an antonym"
+ },
+ {
+  "lemma": "δίπλα",
+  "collocations": [
+   {
+    "el": "δίπλα στο σπίτι",
+    "en": "next to the house"
+   },
+   {
+    "el": "ακριβώς δίπλα",
+    "en": "right next door"
+   },
+   {
+    "el": "δίπλα μου",
+    "en": "next to me"
+   },
+   {
+    "el": "στέκομαι δίπλα σε κάποιον",
+    "en": "stand by someone"
+   }
+  ],
+  "why": "collocations mixed διπλανός and had mismatched English"
+ },
+ {
+  "lemma": "ψηλός",
+  "synonyms": [
+   "υψηλός (formal)"
+  ],
+  "why": "λεβέντης is not a near-synonym"
+ },
+ {
+  "lemma": "λιγότερος",
+  "collocations": [
+   {
+    "el": "λιγότερος χρόνος",
+    "en": "less time"
+   },
+   {
+    "el": "όλο και λιγότεροι",
+    "en": "fewer and fewer"
+   },
+   {
+    "el": "λιγότερο από...",
+    "en": "less than..."
+   },
+   {
+    "el": "το λιγότερο",
+    "en": "at the very least"
+   }
+  ],
+  "family": [
+   "λίγος",
+   "λιγότερο"
+  ],
+  "why": "merged collocation cleaned; ελάχιστος is a different root"
+ },
+ {
+  "lemma": "διαλέγω",
+  "collocations": [
+   {
+    "el": "διαλέγω ανάμεσα σε...",
+    "en": "choose between..."
+   },
+   {
+    "el": "διάλεξε ό,τι θέλεις",
+    "en": "pick whatever you want"
+   },
+   {
+    "el": "διαλέγω προσεκτικά",
+    "en": "choose carefully"
+   }
+  ],
+  "synonyms": [
+   "επιλέγω (formal)"
+  ],
+  "why": "προτιμώ is not a near-synonym; 'δεν έχω να διαλέξω' is doubtful"
+ },
+ {
+  "lemma": "αποστολή",
+  "synonyms": [
+   "καθήκον (task)"
+  ],
+  "why": "διανομή (distribution) is not a near-synonym"
+ },
+ {
+  "lemma": "πλησιάζω",
+  "family": [
+   "πλησίον (learned)",
+   "πλησίασμα"
+  ],
+  "why": "κοντά is not from the same root"
+ },
+ {
+  "lemma": "ευτυχισμένος",
+  "collocations": [
+   {
+    "el": "ευτυχισμένο το νέο έτος!",
+    "en": "happy new year!"
+   },
+   {
+    "el": "ευτυχισμένος γάμος",
+    "en": "happy marriage"
+   },
+   {
+    "el": "νιώθω ευτυχισμένος",
+    "en": "feel happy"
+   },
+   {
+    "el": "ευτυχισμένη οικογένεια",
+    "en": "happy family"
+   }
+  ],
+  "why": "the fairy-tale formula is 'ζήσαν αυτοί καλά κι εμείς καλύτερα', no ευτυχισμένοι"
+ },
+ {
+  "lemma": "ξεφεύγω",
+  "family": [
+   "φεύγω",
+   "διαφεύγω (formal)"
+  ],
+  "why": "ξέφευγμα is doubtful"
+ },
+ {
+  "lemma": "πηδάω",
+  "gloss": "to jump; to skip; (vulgar) to have sex with",
+  "why": "frequent vulgar sense missing"
+ },
+ {
+  "lemma": "επίθεση",
+  "collocations": [
+   {
+    "el": "δέχομαι επίθεση",
+    "en": "come under attack"
+   },
+   {
+    "el": "τρομοκρατική επίθεση",
+    "en": "terrorist attack"
+   },
+   {
+    "el": "εξαπολύω επίθεση",
+    "en": "launch an attack"
+   },
+   {
+    "el": "περνάω στην επίθεση",
+    "en": "go on the offensive"
+   }
+  ],
+  "synonyms": [
+   "έφοδος (formal)"
+  ],
+  "why": "heart attack is 'καρδιακή προσβολή' and panic attack 'κρίση πανικού'; προσβολή is not a near-synonym"
+ },
+ {
+  "lemma": "γεγονός",
+  "synonyms": [
+   "συμβάν (event)",
+   "περιστατικό"
+  ],
+  "family": [
+   "γίνομαι"
+  ],
+  "why": "'γεγονότα' is just the plural; πραγματικότητα not a near-synonym"
+ },
+ {
+  "lemma": "νωρίς",
+  "synonyms": [],
+  "why": "πρόωρα (prematurely) and έγκαιρα (in time) are not near-synonyms"
+ },
+ {
+  "lemma": "ανάγκη",
+  "synonyms": [
+   "χρεία (learned)"
+  ],
+  "why": "απαίτηση means demand"
+ },
+ {
+  "lemma": "χωρίζω",
+  "synonyms": [
+   "διαχωρίζω"
+  ],
+  "why": "διαζεύγνυμαι is not Modern Greek usage"
+ },
+ {
+  "lemma": "μετρώ",
+  "gloss": "to count; to measure; to matter",
+  "why": "counting is the most frequent sense; 'to matter' added (see 'μετράει η γνώμη σου')"
+ },
+ {
+  "lemma": "ανεβαίνω",
+  "family": [
+   "ανέβασμα",
+   "ανεβάζω"
+  ],
+  "why": "ανηφόρα is a different root"
+ },
+ {
+  "lemma": "επάνω",
+  "collocations": [
+   {
+    "el": "επάνω στο τραπέζι",
+    "en": "on the table"
+   },
+   {
+    "el": "ανεβαίνω επάνω",
+    "en": "go upstairs"
+   },
+   {
+    "el": "εκεί επάνω",
+    "en": "up there"
+   }
+  ],
+  "family": [
+   "πάνω"
+  ],
+  "why": "'επάνω όροφος' is not a family word; two collocations used πάνω, not the lemma"
+ },
+ {
+  "lemma": "ειλικρινής",
+  "antonyms": [
+   "ανειλικρινής",
+   "υποκριτικός"
+  ],
+  "why": "antonyms must be adjectives that are true opposites"
+ },
+ {
+  "lemma": "περπατώ",
+  "antonyms": [],
+  "family": [
+   "περπάτημα",
+   "περίπατος"
+  ],
+  "why": "τρέχω is not an opposite; πεζός is a different root"
+ },
+ {
+  "lemma": "γράμμα",
+  "synonyms": [
+   "επιστολή (formal)"
+  ],
+  "why": "ψηφίο means digit"
+ },
+ {
+  "lemma": "φωνή",
+  "gloss": "voice; (pl. φωνές) shouting",
+  "synonyms": [
+   "κραυγή (shout)"
+  ],
+  "why": "second sense should be the frequent (pl.) shouting; τόνος is not a near-synonym"
+ },
+ {
+  "lemma": "στρατός",
+  "collocations": [
+   {
+    "el": "πάω στον στρατό",
+    "en": "do military service"
+   },
+   {
+    "el": "υπηρετώ στον στρατό",
+    "en": "serve in the army"
+   },
+   {
+    "el": "ο στρατός ξηράς",
+    "en": "the Army (land forces)"
+   },
+   {
+    "el": "ένας στρατός από...",
+    "en": "an army of..."
+   }
+  ],
+  "why": "'land army' is wrong English for στρατός ξηράς"
+ },
+ {
+  "lemma": "πετυχαίνω",
+  "gloss": "to succeed; to achieve; to run into (someone); to hit (a target)",
+  "why": "frequent sense 'run into' (used in collocations) missing"
+ },
+ {
+  "lemma": "δικαίωμα",
+  "synonyms": [],
+  "why": "εξουσία means authority"
+ },
+ {
+  "lemma": "αντιμετωπίζω",
+  "family": [
+   "αντιμετώπιση",
+   "μέτωπο"
+  ],
+  "why": "απέναντι is a different root"
+ },
+ {
+  "lemma": "αγγίζω",
+  "family": [
+   "άγγιγμα",
+   "ανέγγιχτος"
+  ],
+  "why": "άθικτος is from θιγ-, not the same root"
+ },
+ {
+  "lemma": "ντετέκτιβ",
+  "family": [],
+  "why": "αστυνομικός is not a family word"
+ },
+ {
+  "lemma": "άλογο",
+  "collocations": [
+   {
+    "el": "καβαλάω άλογο",
+    "en": "ride a horse"
+   },
+   {
+    "el": "πέφτω από το άλογο",
+    "en": "fall off the horse"
+   },
+   {
+    "el": "δυνατός σαν άλογο",
+    "en": "strong as a horse"
+   },
+   {
+    "el": "άλογο κούρσας",
+    "en": "racehorse"
+   }
+  ],
+  "synonyms": [
+   "ίππος (learned)"
+  ],
+  "family": [
+   "αλογάκι"
+  ],
+  "why": "φοράδα (mare) is not a synonym; ιππ- words are a different root; mixed collocation"
+ },
+ {
+  "lemma": "λίστα",
+  "family": [
+   "λιστάρω (colloq)"
+  ],
+  "why": "καταλογίζω belongs to κατάλογος, not λίστα"
+ },
+ {
+  "lemma": "χορεύω",
+  "collocations": [
+   {
+    "el": "χορεύω ζεϊμπέκικο",
+    "en": "dance a zeibekiko"
+   },
+   {
+    "el": "χορεύω με κάποιον",
+    "en": "dance with someone"
+   },
+   {
+    "el": "πάμε να χορέψουμε",
+    "en": "let's go dancing"
+   },
+   {
+    "el": "χορεύω στον ρυθμό",
+    "en": "dance to the rhythm"
+   }
+  ],
+  "synonyms": [],
+  "why": "merged collocation cleaned; λικνίζομαι is not a near-synonym"
+ },
+ {
+  "lemma": "εναντίον",
+  "family": [
+   "ενάντιος"
+  ],
+  "why": "αντίθετος is not the same root"
+ },
+ {
+  "lemma": "ζώο",
+  "synonyms": [],
+  "why": "θηρίο/κτήνος mean beast, not near-synonyms"
+ },
+ {
+  "lemma": "μάθημα",
+  "synonyms": [],
+  "why": "τάξη is not a near-synonym"
+ },
+ {
+  "lemma": "απόφαση",
+  "collocations": [
+   {
+    "el": "παίρνω απόφαση",
+    "en": "make a decision"
+   },
+   {
+    "el": "οριστική απόφαση",
+    "en": "final decision"
+   },
+   {
+    "el": "απόφαση του δικαστηρίου",
+    "en": "court ruling"
+   },
+   {
+    "el": "το πήρα απόφαση",
+    "en": "I've made up my mind"
+   }
+  ],
+  "synonyms": [],
+  "why": "merged collocation cleaned; επιλογή/κρίση are not near-synonyms"
+ },
+ {
+  "lemma": "σπουδαίος",
+  "collocations": [
+   {
+    "el": "σπουδαίος καλλιτέχνης",
+    "en": "great artist"
+   },
+   {
+    "el": "σπουδαία ευκαιρία",
+    "en": "great opportunity"
+   },
+   {
+    "el": "δεν είναι και τόσο σπουδαίο",
+    "en": "it's no big deal"
+   },
+   {
+    "el": "παίζω σπουδαίο ρόλο",
+    "en": "play an important role"
+   }
+  ],
+  "synonyms": [
+   "σημαντικός",
+   "μεγάλος"
+  ],
+  "why": "collocation needs a verb for the accusative; superlative is not a synonym"
+ },
+ {
+  "lemma": "στρατιώτης",
+  "synonyms": [
+   "φαντάρος (colloq, conscript)"
+  ],
+  "why": "πολεμιστής means warrior"
+ }
+]
