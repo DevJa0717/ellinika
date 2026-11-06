@@ -3,5 +3,7 @@
 {"lemma":"κάρβουνο","set":{"noun.model":"n-ο-b"},"why":"consistency check: genitive κάρβουνου keeps the stress, so n-ο-b"},
 {"lemma":"βάσανο","set":{"noun.model":"n-ο-b"},"why":"consistency check: genitive βάσανου keeps the stress, so n-ο-b"},
 {"lemma":"φιλότιμο","set":{"noun.model":"n-ο-b"},"why":"consistency check: genitive φιλότιμου keeps the stress, so n-ο-b"},
-{"lemma":"εικοστός","set":{"form_key":"f: εικοστή, n: εικοστό"},"why":"consistency check: ordinal form_key labelled the feminine as m/f"}
+{"lemma":"εικοστός","set":{"form_key":"f: εικοστή, n: εικοστό"},"why":"consistency check: ordinal form_key labelled the feminine as m/f"},
+{"lemma":"φτύσιμο","set":{"noun.declension":3,"form_key":"Gen: φτυσίματος | n (3rd decl)"},"why":"consistency check: all other -ιμο neuters are labelled 3rd declension"},
+{"lemma":"δρώμενο","set":{"form_key":"Gen: δρωμένου | Pl: δρώμενα | n (2nd decl)"},"why":"consistency check: form_key genitive now matches gen_sg"}
 ]
