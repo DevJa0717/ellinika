@@ -195,6 +195,31 @@ def gen_adj(lemma, model):
         for E in (M, F, N): cells.append(st + E[k])
     return cells
 
+def gen_adj2(lemma, model, a):
+    """Class rules for the learned and colloquial adjective types (cells in gen_adj's order); None if the lemma
+    does not fit. build_adjs keeps only attested cells of these tables."""
+    f, n = a.get("f") or "", a.get("n") or ""
+    rows = None
+    if model == "adj-ής-ές-fixed" and lemma.endswith("ής") and f == lemma and n == lemma[:-2] + "ές":
+        s = lemma[:-2]
+        rows = [(s+"ής", s+"ής", s+"ές"), (s+"ούς",)*3, (s+"ή", s+"ή", s+"ές"), (s+"ή", s+"ή", s+"ές"),
+                (s+"είς", s+"είς", s+"ή"), (s+"ών",)*3, (s+"είς", s+"είς", s+"ή"), (s+"είς", s+"είς", s+"ή")]
+    elif model in ("adj-ης-ες-shift", "adj-ής-ές-fixed") and lemma.endswith("ης") and f == lemma and n.endswith("ες") and accent_pos(lemma) == 2:
+        s = lemma[:-2]
+        gp = strip(s) + "ών" if lemma.endswith("ώδης") else s + "ων"  # των ογκωδών, but των συνήθων, αυθάδων
+        rows = [(lemma, lemma, n), (s+"ους",)*3, (s+"η", s+"η", n), (s+"η", s+"η", n),
+                (s+"εις", s+"εις", s+"η"), (gp,)*3, (s+"εις", s+"εις", s+"η"), (s+"εις", s+"εις", s+"η")]
+    elif model == "adj-ης-α-ικο" and lemma.endswith("ης") and f == lemma[:-2] + "α" and n == lemma[:-2] + "ικο":
+        s = lemma[:-2]
+        rows = [(lemma, s+"α", s+"ικο"), (s+"η", s+"ας", s+"ικου"), (s+"η", s+"α", s+"ικο"), (s+"η", s+"α", s+"ικο"),
+                (s+"ηδες", s+"ες", s+"ικα"), (s+"ηδων", "", s+"ικων"), (s+"ηδες", s+"ες", s+"ικα"), (s+"ηδες", s+"ες", s+"ικα")]
+    elif model == "adj-ων-ουσα-ον" and lemma.endswith("ων") and f == lemma[:-2] + "ουσα" and n == lemma[:-2] + "ον" and accent_pos(lemma) >= 2:
+        s = lemma[:-2]; p = strip(s)
+        rows = [(lemma, s+"ουσα", n), (s+"οντος", s+"ουσας", s+"οντος"), (s+"οντα", s+"ουσα", n), ("", "", ""),
+                (s+"οντες", s+"ουσες", s+"οντα"), (p+"όντων", p+"ουσών", p+"όντων"), (s+"οντες", s+"ουσες", s+"οντα"), ("", "", "")]
+    if not rows: return None
+    return [c for r in rows for c in r]
+
 def forms_agree(gen, idx_forms):
     """Every generated form must be in the word list's forms index (lower-cased, so Δευτέρα matches δευτέρας).
     Extra index forms are variants (κόκαλο beside κόκκαλο, learned διώξεως) and no longer block the table."""
@@ -344,6 +369,17 @@ def build_adjs(lex, wk, report):
                             "r": e.get("freq_rank") or 99999, "f": g, "src": "rule"})
                 report["adjs"] += 1; report["adjs_rule"] += 1
                 continue
+            g = gen_adj2(lemma, model, a) or (gen_adj(lemma, model) if g and g[1] == a.get("f") and g[2] == a.get("n") else None)
+            if g:  # partial table: keep the attested cells, provided the three nominative singulars are attested
+                if not HUN: load_hunspell()
+                known = {x.lower() for x in INV.get(lemma, set())}
+                ok = lambda x: x and (x.lower() in known or x in HUN or x.lower() in HUN)
+                cells = [x if ok(x) else "" for x in g]
+                if all(cells[:3]) and sum(1 for c in cells if c) >= 12:
+                    out.append({"l": lemma, "m": model, "lv": e.get("cefr_est") or "B2", "en": short_gloss(e["gloss"]),
+                                "r": e.get("freq_rank") or 99999, "f": cells, "src": "rule"})
+                    report["adjs"] += 1; report["adjs_rule_partial"] += 1
+                    continue
         if not w:
             report["adj_skip_nomatch" if cands else "adj_skip_nowikt"] += 1
             if cands: report["adj_mismatch_examples"].append(lemma)
