@@ -252,7 +252,7 @@
     if (k === "n") {
       const N = await data("nouns"), w = N.words.find((x) => x.l === a); if (!w) return null;
       const i = +b, num = i >> 2, ci = i & 3, forms = alts(w.f[i]);
-      const ar = art(w.g, num, ci), lemmaArt = w.g === "c" ? "ο/η" : ART[w.g][0][0];
+      const ar = art(w.g, num, ci), lemmaArt = w.g === "c" ? "ο/η" : !w.f[0] && w.f[4] ? art(w.g, 1, 0) : ART[w.g][0][0]; // plural-only: οι διακοπές
       let answers = ci === 3 ? forms : withArt(ar, forms);
       if (w.g === "c" && ci !== 3) answers = [...answers, ...withArt(ART.f[num][ci], forms)];
       const others = [];

@@ -642,6 +642,30 @@ def build_rule_verbs(lex, have, report):
         report["rverbs"] += 1
     return out
 
+# ---------------- nouns written out by hand (tools/drills/manual-nouns.txt) ----------------
+def build_manual_nouns(lex, have, report):
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "manual-nouns.txt")
+    if not os.path.exists(path): return []
+    if not HUN: load_hunspell()
+    by = {e["lemma"]: e for e in lex if e["pos"] == "noun"}
+    out = []
+    for line in open(path, encoding="utf-8"):
+        line = line.strip()
+        if not line or line.startswith("#"): continue
+        lemma, g, forms = [x.strip() for x in line.split("|")]
+        if lemma in have or lemma not in by: report["mnoun_skip"] += 1; continue
+        e, known = by[lemma], {x.lower() for x in INV.get(lemma, set())}
+        cells = []
+        for c in [x.strip() for x in forms.split(",")]:
+            keep = [f for f in c.split("/") if f not in ("", "-") and (f.lower() in known or f in HUN or f.lower() in HUN)]
+            cells.append("|".join(keep))
+        if not any(cells): report["mnoun_empty"] += 1; continue
+        n = e.get("noun") or {}
+        out.append({"l": lemma, "g": g, "m": n.get("model") or "irregular", "lv": e.get("cefr_est") or "B2", "en": short_gloss(e["gloss"]),
+                    "r": e.get("freq_rank") or 99999, "f": cells, "src": "manual"})
+        report["mnouns"] += 1
+    return out
+
 # ---------------- verbs written out by hand (tools/drills/manual-verbs.txt) ----------------
 MANUAL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "manual-verbs.txt")
 
@@ -860,6 +884,8 @@ def main():
     for form, lemmas in fi.items():
         for l in lemmas: INV.setdefault(l, set()).add(form)
     nouns = build_nouns(lex, wk, report)
+    nouns += build_manual_nouns(lex, {w["l"] for w in nouns}, report)
+    nouns.sort(key=lambda x: (LV.index(x["lv"]) if x["lv"] in LV else 9, x["r"]))
     adjs = build_adjs(lex, wk, report)
     verbs = build_verbs(lex, wk, report)
     verbs += build_manual_verbs(lex, {w["l"] for w in verbs}, report)  # hand-written tables win over rule-built ones
