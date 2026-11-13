@@ -117,6 +117,21 @@ def gen_noun(lemma, model):
         if ult: return [st + e for e in ["ός", "ού", "ό", "έ", "οί", "ών", "ούς", "οί"]]
         if accent_pos(L) != 2: return None
         return keep(st, ["ος", "ου", "ο", "ε", "οι", "ων", "ους", "οι"])
+    if model in ("m-ος-antepenult-a", "m-ος-antepenult-b"):  # άνθρωπος, ανθρώπου · πονοκέφαλος, πονοκέφαλου
+        st = stem(2)
+        if accent_pos(L) != 3: return None
+        f = keep(st, ["ος", "ου", "ο", "ε", "οι", "ων", "ους", "οι"])
+        if model.endswith("-a"):
+            for i in (1, 5, 6): f[i] = put_accent(f[i], 2)
+        return f
+    if model == "n-ο-b":  # κόκκαλο, κόκκαλου: the stress stays put
+        st = stem(1)
+        if ult: return None
+        return keep(st, ["ο", "ου", "ο", "ο", "α", "ων", "α", "α"])
+    if model == "n-ιμο":  # δέσιμο, δεσίματος, δεσίματα, δεσιμάτων
+        if not L.endswith("ιμο") or accent_pos(L) != 3: return None
+        st = strip(L[:-1])
+        return [L, put_accent(st + "ατος", 3), L, L, put_accent(st + "ατα", 3), put_accent(st + "ατων", 2), put_accent(st + "ατα", 3), put_accent(st + "ατα", 3)]
     if model == "m-ης":
         st = stem(2)
         if ult: return [st + e for e in ["ής", "ή", "ή", "ή", "ές", "ών", "ές", "ές"]]
@@ -256,6 +271,15 @@ def build_nouns(lex, wk, report):
                 out.append({"l": lemma, "g": gender, "m": model, "lv": e.get("cefr_est") or "B2", "en": short_gloss(e["gloss"]),
                             "r": e.get("freq_rank") or 99999, "f": g, "src": "rule"})
                 report["nouns"] += 1; report["nouns_rule"] += 1
+                continue
+            # Singular-heavy words (months, Παναγία, σωτηρία): the plural is rare, so the index lacks it. Keep the table when
+            # nominative, genitive and accusative singular are all attested, and leave unattested cells empty.
+            idx = {x.lower() for x in INV.get(lemma, set())}
+            if g and None not in g and (not n.get("gen_sg") or g[1] == n["gen_sg"]) and all(g[i].lower() in idx for i in (0, 1, 2)):
+                part = [x if x and x.lower() in idx else "" for x in g]
+                out.append({"l": lemma, "g": gender, "m": model, "lv": e.get("cefr_est") or "B2", "en": short_gloss(e["gloss"]),
+                            "r": e.get("freq_rank") or 99999, "f": part, "src": "rule"})
+                report["nouns"] += 1; report["nouns_rule_partial"] += 1
                 continue
         if not w:
             report["noun_skip_nomatch" if cands else "noun_skip_nowikt"] += 1
