@@ -181,10 +181,11 @@ def gen_adj(lemma, model):
     return cells
 
 def forms_agree(gen, idx_forms):
-    g = set(x for x in gen if x)
-    if None in gen or not g: return False
-    extra = idx_forms - g
-    return g <= idx_forms and all(x.endswith("ν") and x[:-1] in g for x in extra)
+    """Every generated form must be in the word list's forms index (lower-cased, so Δευτέρα matches δευτέρας).
+    Extra index forms are variants (κόκαλο beside κόκκαλο, learned διώξεως) and no longer block the table."""
+    if None in gen: return False
+    g = set(x.lower() for x in gen if x)
+    return bool(g) and g <= {x.lower() for x in idx_forms}
 
 # ---------------- nouns ----------------
 NOUN_NOTES = {
@@ -226,6 +227,8 @@ def pick_entry(entries, test):
         if test(e): return e
     return None
 
+RULE_NOUN_SKIP = {"τρίο"}  # forms index ties it to the numeral τρία; the plural is disputed (τα τρίο / τα τρία)
+
 def build_nouns(lex, wk, report):
     out = []
     for e in lex:
@@ -246,7 +249,7 @@ def build_nouns(lex, wk, report):
                 if not gs or n["gen_sg"] not in gs: return False
             return True
         w = pick_entry(cands, fits)
-        if not w and not cands and not pl_only:
+        if not w and not pl_only and lemma not in RULE_NOUN_SKIP:  # no Wiktionary table, or none that agrees with the word list: try the class rule (gated on the forms index)
             g = gen_noun(lemma, model)
             if g and (not n.get("gen_sg") or g[1] == n["gen_sg"]) and forms_agree(g, INV.get(lemma, set())):
                 if model.startswith("m-ος") and g[3] not in INV.get(lemma, set()): g[3] = ""
@@ -310,7 +313,7 @@ def build_adjs(lex, wk, report):
             ns = cell_forms(w, {"nominative", "singular", "neuter"}, NB)
             return bool(ms and lemma in ms and fs and a.get("f") in fs and ns and a.get("n") in ns)
         w = pick_entry(cands, fits)
-        if not w and not cands:
+        if not w:  # also when Wiktionary disagrees with the word list
             g = gen_adj(lemma, model)
             if g and g[1] == a.get("f") and g[2] == a.get("n") and forms_agree(g, INV.get(lemma, set())):
                 out.append({"l": lemma, "m": model, "lv": e.get("cefr_est") or "B2", "en": short_gloss(e["gloss"]),
