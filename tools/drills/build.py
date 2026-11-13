@@ -546,6 +546,7 @@ def build_rule_verbs(lex, have, report):
         if lemma not in INV: report["rverb_skip_noforms"] += 1; continue
         item = {"l": lemma, "lv": e.get("cefr_est") or "B2", "en": short_gloss(e["gloss"]), "r": e.get("freq_rank") or 99999,
                 "grp": grp, "dep": False, "src": "rule"}
+        kind_a, s = False, ""
         ptype = next((t for t in ("ιεμαι", "ουμαι", "αμαι", "ομαι") if P.endswith(t)), None)
         if ptype:  # deponent: present class from the ending, aorist from the word list
             if ptype == "ιεμαι": ptype = "ομαι" if P.endswith("ιομαι") else "ιεμαι"
@@ -559,6 +560,7 @@ def build_rule_verbs(lex, have, report):
                 pres, impf, kind = row(lemma, [s], B2_PRES, True), row(lemma, [s], B_IMPF, True), "B2"
             else:
                 pres, impf, kind = row(lemma, [s], A_PRES), row(lemma, aug_variants(s), A_PAST), "A"
+                kind_a = True
             A = {"pres": pres, "impf": impf, "aor": [""] * 6, "dep": [""] * 6, "impP": ["", ""], "impI": ["", ""], "inf": "", "ptc": ""}
             ds = dep_stem(lemma, P, a1) if a1 else None
             if a1 and ds:
@@ -602,6 +604,10 @@ def build_rule_verbs(lex, have, report):
             ao = A["aor"][0].split("|") if A["aor"][0] else []
             if a1 not in ao: report["rverb_skip_aorist"] += 1; report["rverb_aorist_examples"].append(lemma); continue
             A["aor"][0] = "|".join([a1] + [x for x in ao if x != a1])
+        if kind_a and not A.get("one_past"):  # the ε→ει augment candidate (διαμειν-) can pick up aorist forms (διαμείναμε): keep those out of the imperfect
+            aorset = {x for k in ("aor", "impP") for c in A[k] for x in c.split("|") if x}
+            eiv = [x for x in aug_variants(s) if "ει" in x and "ει" not in s]
+            A["impf"] = ["|".join(x for x in c.split("|") if x and not (x in aorset and any(strip(x).startswith(v) for v in eiv))) for c in A["impf"]]
         if sum(1 for k in ("pres", "impf", "aor", "dep") for c in A[k] if c) < 18:
             report["rverb_skip_thin"] += 1; report["rverb_thin_examples"].append(lemma); continue
         item["A"] = A
@@ -829,8 +835,22 @@ def main():
     nouns = build_nouns(lex, wk, report)
     adjs = build_adjs(lex, wk, report)
     verbs = build_verbs(lex, wk, report)
+    verbs += build_manual_verbs(lex, {w["l"] for w in verbs}, report)  # hand-written tables win over rule-built ones
     verbs += build_rule_verbs(lex, {w["l"] for w in verbs}, report)
-    verbs += build_manual_verbs(lex, {w["l"] for w in verbs}, report)
+    # Wiktionary entries come and go between kaikki.org dumps; a paradigm that passed the gate in an earlier build is kept
+    # while its word is still in the word list with the same part of speech and principal parts.
+    lexpos = {(e["lemma"], e["pos"]): e for e in lex}
+    for name, lst, pos in (("nouns.json", nouns, "noun"), ("adjectives.json", adjs, "adjective"), ("verbs.json", verbs, "verb")):
+        prev_path = os.path.join(OUT, name)
+        if not os.path.exists(prev_path): continue
+        have = {w["l"] for w in lst}
+        for w in json.load(open(prev_path))["words"]:
+            e = lexpos.get((w["l"], pos))
+            if w["l"] in have or not e: continue
+            if pos == "verb":
+                a1 = (e.get("verb") or {}).get("aorist_1sg")
+                if a1 and not w["A"].get("one_past") and a1 not in (w["A"]["aor"][0] or "").split("|"): continue
+            w["r"] = e.get("freq_rank") or w.get("r"); lst.append(w); report["kept_from_previous_" + pos] += 1
     verbs.sort(key=lambda x: (LV.index(x["lv"]) if x["lv"] in LV else 9, x["r"]))
     if not HUN: load_hunspell()
     hun_pass(nouns, adjs, verbs, report)
