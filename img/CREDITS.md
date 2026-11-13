@@ -458,7 +458,7 @@ CC0 and public-domain photographs (Unsplash uploads on Wikimedia Commons, Flickr
 | kouzina/sofrito.jpg | Δρόμος στην παλιά πόλη της Κέρκυρας. | GinoOnassis · Wikimedia Commons | CC0 | [https://commons.wikimedia.org/w/index.php?curid=178969046](https://commons.wikimedia.org/w/index.php?curid=178969046) |
 
 ## Everyday-theme readers (img/themata/), added 2026-11-05
-Pictures for #kathimerini, #ygeia, #douleia, #scheseis, #nomos, #eleftheros and #eidiseis. All CC0 or public domain on Wikimedia Commons; the credit also appears under each picture.
+Pictures for #kathimerini, #ygeia, #douleia, #scheseis, #nomos, #eleftheros and #eidiseis. All CC0 or public domain (Wikimedia Commons, and since 2026-11-13 also Flickr and rawpixel public-domain/CC0 uploads found through Openverse); the credit also appears under each picture.
 
 | File | Caption | Creator · Source | Licence | Original |
 |---|---|---|---|---|
@@ -504,3 +504,37 @@ Pictures for #kathimerini, #ygeia, #douleia, #scheseis, #nomos, #eleftheros and 
 | themata/eidiseis/kypros.jpg | Η σημαία των κατεχομένων στον Πενταδάκτυλο, όπως φαίνεται από τη Λευκωσία | Liilia Moroz · Wikimedia Commons | CC0 | [Cyprus - Turkey border in Niсosia.jpg](https://commons.wikimedia.org/wiki/File:Cyprus_-_Turkey_border_in_Ni%D1%81osia.jpg) |
 | themata/eidiseis/athlitiko.jpg | Το Παναθηναϊκό Στάδιο στην Αθήνα | athenswalk · Wikimedia Commons | CC0 | [Panathenaic Stadium of Athens.jpg](https://commons.wikimedia.org/wiki/File:Panathenaic_Stadium_of_Athens.jpg) |
 | themata/eidiseis/politistiko.jpg | Στο αρχαίο θέατρο της Επιδαύρου | George E. Koronaios · Wikimedia Commons | CC0 | [At the Great Theatre of Epidaurus on 23 May 2019.jpg](https://commons.wikimedia.org/wiki/File:At_the_Great_Theatre_of_Epidaurus_on_23_May_2019.jpg) |
+| themata/kathimerini/me-to-aftokinito.jpg | Κίνηση σε μεγάλο δρόμο της πόλης | FelixM · Flickr | Public domain | [Colourful street](https://www.flickr.com/photos/91875255@N05/16940073429) |
+| themata/ygeia/giatros.jpg | Μέτρηση της πίεσης στο ιατρείο | agilemktg1 · Flickr | Public domain | [Blood pressure measuring. Doctor and patient. Health care.](https://www.flickr.com/photos/68716695@N06/29095583293) |
+| themata/ygeia/protes-voitheies.jpg | Μάθημα πρώτων βοηθειών: εξάσκηση στην ΚΑΡΠΑ | usfs_Eastern_Region · Flickr | Public domain | [NOLS Wilderness First Aid training opportunity at YMCA’s Camp Nissokone](https://www.flickr.com/photos/38880169@N03/51686271226) |
+| themata/douleia/symvasi.jpg | Υπογραφή σύμβασης | Unknown photographer · rawpixel | CC0 | [Man signing contract](https://www.rawpixel.com/image/5904897/photo-image-public-domain-hand-person) |
+| themata/scheseis/charaktires.jpg | Υπάλληλοι σε ένα μεγάλο γραφείο, σε παλιά φωτογραφία | Queensland State Archives · Flickr | Public domain | [Office workers in Executive Building Room No. 123 prior to alterations, Brisbane](https://www.flickr.com/photos/60455048@N02/39004831180) |
+| themata/scheseis/penthos.jpg | Το Προτεσταντικό Νεκροταφείο της Αθήνας από τον Ιλισό, γύρω στο 1865 | Αρχείο Baldwin-Edwards · Flickr | CC0 | [The Protestant Cemetery and Building of the Olympians, viewed from the Ilissos, ca. 1865](https://www.flickr.com/photos/77434771@N08/52191896094) |
+| themata/nomos/apati.jpg | Προειδοποίηση για απάτη στην οθόνη ενός κινητού | Alachua County · Flickr | Public domain | [2218507020](https://www.flickr.com/photos/66143513@N03/55457118369) |
+| themata/nomos/desmofylakas.jpg | Διάδρομος με κελιά σε μια παλιά φυλακή | Carol M. Highsmith · rawpixel | CC0 | [Cellblock corridor old (1836) Missouri](https://www.rawpixel.com/image/8071196/photo-image-public-domain-city-united-states) |
+| themata/eleftheros/kataskopos.jpg | Κινηματογραφική μηχανή προβολής του 1925 | meganqualls · Flickr | Public domain | [1925- Film Projector](https://www.flickr.com/photos/151282803@N06/36164745991) |
+| themata/eidiseis/dikastiko.jpg | Αστυνομική κορδέλα γύρω από ένα σημείο | Daquella manera · Flickr | CC0 | [Police Line](https://www.flickr.com/photos/62518311@N00/35877036291) |
+| themata/kathimerini/aftokinito.jpg | Σταθμευμένο αυτοκίνητο σε δρόμο της πόλης | crash71100 · Flickr | CC0 | [Mercedes S-Class Belgium Old diplomatic plate (Greece)](https://www.flickr.com/photos/152930510@N02/30620432688) |
+| themata/kathimerini/anakainisi.jpg | Δωμάτιο φρεσκοβαμμένο: κουβάδες και ρολό μπογιάς | Foto Miki Digital · Flickr | Public domain | [Freshly painted green room](https://www.flickr.com/photos/96511847@N04/9200925065) |
+| themata/kathimerini/laiki.jpg | Πάγκος με πατάτες και λαχανικά σε υπαίθρια αγορά | USDAgov · Flickr | Public domain | [20120708-OSEC-LSC-0041](https://www.flickr.com/photos/41284017@N08/7532091734) |
+| themata/kathimerini/tachydromeio.jpg | Διανομέας δεμάτων με το φορτηγάκι του, αρχές του 20ού αιώνα | Unknown photographer · Museums Victoria | Public domain | [Digital Photograph - Man in Parcel Delivery Van with Local Children, Fitzroy, 1919](https://collections.museumsvictoria.com.au/items/1689254) |
+| themata/kathimerini/vouno.jpg | Χιονισμένα βουνά και έλατα | davidgsteadman · Flickr | Public domain | [Sunshine Village](https://www.flickr.com/photos/90949166@N00/4587826900) |
+| themata/ygeia/epeigonta.jpg | Γιατροί και νοσηλευτές σε χειρουργείο | DoD News Photos · Flickr | Public domain | [150420-F-QP401-077](https://www.flickr.com/photos/127934495@N07/16624671133) |
+| themata/ygeia/farmakeio.jpg | Παλιά πινακίδα φαρμακείου | w_lemay · Flickr | CC0 | [Tellis Pharmacy Sign, French Quarter, Charleston, SC](https://www.flickr.com/photos/59081381@N03/49432161111) |
+| themata/ygeia/gymnastiki.jpg | Τρέξιμο στο πάρκο | Bernard Spragg · Flickr | CC0 | [The Jogger.](https://www.flickr.com/photos/88123769@N02/23249930794) |
+| themata/ygeia/ilikiomenoi.jpg | Ένα ηλικιωμένο ζευγάρι σε ένα παγκάκι | Kojotisko · Flickr | CC0 | [Praktica MTL 5 + Pentacon Electric 4/200 MC - Elderly Couple on the Bench](https://www.flickr.com/photos/98796230@N03/13879112213) |
+| themata/ygeia/nosokomeio.jpg | Διάδρομος νοσοκομείου | Kojotisko · Flickr | CC0 | [Hospital Corridor](https://www.flickr.com/photos/98796230@N03/13112032804) |
+| themata/ygeia/ponos.jpg | Ο γιατρός εξετάζει έναν ασθενή | USDAgov · Flickr | Public domain | [20110712-RD-LSC-0410](https://www.flickr.com/photos/41284017@N08/6003263091) |
+| themata/douleia/deth.jpg | Ο Λευκός Πύργος και η παραλία της Θεσσαλονίκης | gio.miho · Flickr | CC0 | [WHITE TOWER THESSALONIKI!](https://www.flickr.com/photos/133265645@N05/49501472258) |
+| themata/douleia/epicheirisi.jpg | Εσπρέσο από τη μηχανή ενός καφέ | tapecode · Flickr | Public domain | [Coffee Shop Cafeteria Restaurant Service Concept](https://www.flickr.com/photos/148019735@N08/31813073584) |
+| themata/scheseis/gamos.jpg | Βέρες | Kim Siever · Flickr | Public domain | [Wedding rings](https://www.flickr.com/photos/57873306@N00/7641281766) |
+| themata/scheseis/parea.jpg | Φίλοι γύρω από το τραπέζι | cogdogblog · Flickr | CC0 | [Dinner with New Tassie Friends](https://www.flickr.com/photos/37996646802@N01/1576694961) |
+| themata/nomos/dikastiria.jpg | Το σφυρί του δικαστή | Joe Gratz · Flickr | CC0 | [Courtroom One Gavel](https://www.flickr.com/photos/63126465@N00/117048243) |
+| themata/nomos/fylakes-diafthora.jpg | Κελί σε παλιά φυλακή | Unknown photographer · rawpixel | CC0 | [Prison cell (rawpixel)](https://www.rawpixel.com/image/5962587/free-public-domain-cc0-photo) |
+| themata/eleftheros/fysi.jpg | Καφέ αρκούδα: το είδος ζει και στα βουνά της Πίνδου | KatmaiNPS · Flickr | Public domain | [KATM Subadult Naknek Lake June 8, 2018 NPS Russ Taylor](https://www.flickr.com/photos/99350217@N03/42005246804) |
+| themata/eleftheros/mousiki-moda.jpg | Δίσκος βινυλίου στο πικάπ | Skitter Photo · stocksnap | CC0 | [Vinyl Record](https://stocksnap.io/photo/vinyl-record-0NOS06CDVI) |
+| themata/eleftheros/oikologia.jpg | Φλαμίνγκο | Wildlife Terry · Flickr | CC0 | [Photo-bombed Flamingo](https://www.flickr.com/photos/44510888@N05/46565246752) |
+| themata/eleftheros/teras.jpg | Ο βρυκόλακας στην ταινία «Νοσφεράτου» (1922) | www.brevestoriadelcinema.org · Flickr | Public domain | [Nosferatu](https://www.flickr.com/photos/116153022@N02/12296062963) |
+| themata/eleftheros/ypotitloi.jpg | Ταινία στον καναπέ με ποπ κορν | JESHOOTS.com · stocksnap | CC0 | [Woman Eating](https://stocksnap.io/photo/woman-eating-PUIGGSEQJD) |
+| themata/eidiseis/anakoinoseis.jpg | Δημοσιογράφοι σε συνέντευξη Τύπου | USDAgov · Flickr | Public domain | [20130326-OSEC-LSC-0203](https://www.flickr.com/photos/41284017@N08/8593771224) |
+| themata/eidiseis/oikonomia.jpg | Κέρματα του ευρώ | kbrumann · Flickr | Public domain | [Euro coins IITM_SY__115919_HDR](https://www.flickr.com/photos/19678502@N00/18489557034) |
