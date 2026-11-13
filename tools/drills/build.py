@@ -875,9 +875,44 @@ def hun_pass(nouns, adjs, verbs, report):
             for t in ("pres", "impf", "aor", "dep", "impP", "impI"):
                 w[v][t] = [hun_cell(c, t.startswith("imp"), report, "imp") for c in w[v][t]]
 
+def stress_pass(nouns, adjs, verbs, report):
+    """Greek stress never falls before the third syllable from the end (*σαμποτάρισαμε), and an aorist subjunctive
+    ending in -ω is stressed on one of its last two syllables (*σαμποτάρισω). Variants that break this are dropped."""
+    def apos(t):
+        # Count an unstressed ι/ει/οι/υ standing right before another vowel as a glide (ή-πια-με, τέ-λειω-να).
+        nu, s0 = nuclei(t), strip(t)
+        merged = []
+        for i, (a, b) in enumerate(nu):
+            prev = t[merged[-1][0]:merged[-1][1]] if merged else ""
+            glide = merged and merged[-1][1] == a and (
+                (s0[merged[-1][0]:merged[-1][1]] in ("ι", "ει", "οι", "υ") and not any(c in "άέήίόύώ" for c in prev))
+                or (s0[a:b] == "η" and t[a:b] == "η" and any(c in "άό" for c in prev)))  # κελάη-δη-σα
+            if glide:
+                merged[-1] = (merged[-1][0], b)
+            else: merged.append((a, b))
+        for i, (a, b) in enumerate(merged):
+            if any(c in "άέήίόύώ" for c in t[a:b]): return len(merged) - i
+        return 0
+    def ok(f, mx):
+        return all(apos(t) <= mx for t in f.split())
+    def clean(c, mx, tag):
+        if not c: return c
+        keep = [f for f in c.split("|") if ok(f, mx)]
+        for f in c.split("|"):
+            if f not in keep: report["stress_dropped"].append(tag + ":" + f)
+        return "|".join(keep)
+    for w in verbs:
+        for v in ("A", "P"):
+            if v not in w: continue
+            pres = {x for c in w[v].get("pres", []) for x in (c or "").split("|")}
+            for t in ("pres", "impf", "aor", "dep", "impP", "impI"):
+                # Verbs with no perfective stem reuse the present as the dependent form (θα κείτομαι).
+                w[v][t] = [c if t == "dep" and c in pres else clean(c, 2 if t == "dep" and i == 0 else 3, w["l"])
+                           for i, c in enumerate(w[v][t])]
+
 def main():
     report = collections.Counter(); report.update({})
-    for k in ("noun_mismatch_examples", "adj_mismatch_examples", "verb_mismatch_examples", "pron_missing", "rverb_aorist_examples", "rverb_thin_examples", "rverb_present_examples", "mverb_dropped"): report[k] = []
+    for k in ("noun_mismatch_examples", "adj_mismatch_examples", "verb_mismatch_examples", "pron_missing", "rverb_aorist_examples", "rverb_thin_examples", "rverb_present_examples", "mverb_dropped", "stress_dropped"): report[k] = []
     lex, wk = load_lex(), load_wikt()
     fi = json.load(open(os.path.join(ROOT, "data", "lexicon", "forms-index.json")))["forms"]
     FI.update(fi)
@@ -888,7 +923,8 @@ def main():
     nouns.sort(key=lambda x: (LV.index(x["lv"]) if x["lv"] in LV else 9, x["r"]))
     adjs = build_adjs(lex, wk, report)
     verbs = build_verbs(lex, wk, report)
-    verbs += build_manual_verbs(lex, {w["l"] for w in verbs}, report)  # hand-written tables win over rule-built ones
+    manual = build_manual_verbs(lex, set(), report)  # hand-written tables win over Wiktionary and rule-built ones
+    verbs = [w for w in verbs if w["l"] not in {m["l"] for m in manual}] + manual
     verbs += build_rule_verbs(lex, {w["l"] for w in verbs}, report)
     # Wiktionary entries come and go between kaikki.org dumps; a paradigm that passed the gate in an earlier build is kept
     # while its word is still in the word list with the same part of speech and principal parts.
@@ -907,6 +943,7 @@ def main():
     verbs.sort(key=lambda x: (LV.index(x["lv"]) if x["lv"] in LV else 9, x["r"]))
     if not HUN: load_hunspell()
     hun_pass(nouns, adjs, verbs, report)
+    stress_pass(nouns, adjs, verbs, report)
     prons = build_pronouns(wk, report)
     phrases = build_phrases(lex, nouns, adjs, report)
     cloze = build_cloze(lex, nouns, adjs, verbs, report)
