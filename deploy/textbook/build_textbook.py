@@ -566,7 +566,8 @@ def build(level):
             add("listen", "Video transcripts", f'<section class="lesson" id="{lid}">{video_html(v)}</section>', v.get("title"), lid)
     # exam, writing, speaking, register, phrases
     if level in ("B2", "C1"):
-        files = ["b2-tasks.json", "b2-tasks-2.json", "b2-tasks-3.json", "b2-tasks-4.json"] if level == "B2" else ["c1-tasks.json"]
+        pre = "b2-tasks" if level == "B2" else "c1-tasks"  # every practice set: b2-tasks.json, b2-tasks-2.json, …
+        files = sorted((os.path.basename(f) for f in glob.glob(f"{LIB}/exam/{pre}*.json")), key=lambda f: int(re.sub(r"\D", "", f) or 1))
         for fn in files:
             for t in J(f"{LIB}/exam/{fn}")["tasks"]:
                 lid = anchor("exam-" + t["id"])

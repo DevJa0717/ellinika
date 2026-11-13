@@ -609,7 +609,7 @@
   };
 
   /* ---------- exam practice: official sample tasks (data/c1/syllabus/reading-tasks.json), timed and scored ---------- */
-  const EXAM_FILES = ["b2-tasks.json", "b2-tasks-2.json", "b2-tasks-3.json", "b2-tasks-4.json", "c1-tasks.json"], LISTEN_FILES = ["listening.json", "listening-2.json", "listening-3.json", "listening-4.json", "listening-5.json", "listening-6.json", "listening-7.json", "listening-8.json", "listening-9.json", "listening-10.json"];
+  const EXAM_FILES = ["b2-tasks.json", "b2-tasks-2.json", "b2-tasks-3.json", "b2-tasks-4.json", "b2-tasks-5.json", "c1-tasks.json"], LISTEN_FILES = ["listening.json", "listening-2.json", "listening-3.json", "listening-4.json", "listening-5.json", "listening-6.json", "listening-7.json", "listening-8.json", "listening-9.json", "listening-10.json"];
   const SERIES = [["b2-s", "Β2 · Επίσημο δείγμα"], ["b2-p1", "Β2 · Πρακτική 1"], ["b2-p2", "Β2 · Πρακτική 2"], ["b2-p3", "Β2 · Πρακτική 3"], ["b2-p4", "Β2 · Πρακτική 4"], ["b2-p5", "Β2 · Πρακτική 5"], ["b2-p6", "Β2 · Πρακτική 6"], ["b2-p7", "Β2 · Πρακτική 7"], ["b2-p8", "Β2 · Πρακτική 8"], ["b2-p9", "Β2 · Πρακτική 9"], ["b2-p10", "Β2 · Πρακτική 10"], ["b2-p11", "Β2 · Πρακτική 11"], ["b2-p12", "Β2 · Πρακτική 12"], ["b2-p", "Β2 · Πρακτική"],
     ["c1-s1", "Γ1 · Δείγμα 1"], ["c1-s2", "Γ1 · Δείγμα 2"], ["c1-guide", "Γ1 · Οδηγός 2022"], ["c1-p1", "Γ1 · Πρακτική 1"], ["c1-p2", "Γ1 · Πρακτική 2"], ["c1-p3", "Γ1 · Πρακτική 3"]];
   const optLetter = (o) => (o.match(/^([α-δΑ-Δ])\s/) || [])[1];
@@ -1063,7 +1063,7 @@
 
   /* ---------- mock exam: one B2 paper assembled from the exam, listening and workshop shelves ---------- */
   // progress.library.mock[set] = {start, parts:{listening:[ids], writing:id}, history:[{at, total, mins, parts}]}. Parts are done on their own pages; scores come from progress.
-  const MOCK_SETS = [["b2-s1", "Official sample"], ["b2-p1", "Practice 1"], ["b2-p2", "Practice 2"], ["b2-p3", "Practice 3"], ["b2-p4", "Practice 4"], ["b2-p5", "Practice 5"], ["b2-p6", "Practice 6"], ["b2-p7", "Practice 7"], ["b2-p8", "Practice 8"], ["b2-p9", "Practice 9"], ["b2-p10", "Practice 10"], ["b2-p11", "Practice 11"], ["b2-p12", "Practice 12"]];
+  const MOCK_SETS = [["b2-s1", "Official sample"], ["b2-p1", "Practice 1"], ["b2-p2", "Practice 2"], ["b2-p3", "Practice 3"], ["b2-p4", "Practice 4"], ["b2-p5", "Practice 5"], ["b2-p6", "Practice 6"], ["b2-p7", "Practice 7"], ["b2-p8", "Practice 8"], ["b2-p9", "Practice 9"], ["b2-p10", "Practice 10"], ["b2-p11", "Practice 11"], ["b2-p12", "Practice 12"], ["b2-p13", "Practice 13"]];
   routes.mock = async (arg) => {
     const E = A(), p = E.progress; p.library = p.library || {}; const mk = (p.library.mock = p.library.mock || {});
     document.title = "Mock exam · Ελληνικά"; E.$("#bar-meta").textContent = "Mock exam";
