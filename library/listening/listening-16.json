@@ -1,0 +1,794 @@
+{
+ "items": [
+  {
+   "id": "l16-ann-ploio",
+   "title": "Καλώς ήρθατε στο πλοίο",
+   "title_en": "Welcome aboard the ferry",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα ενός πλοίου, λίγο μετά την αναχώρηση από τον Πειραιά.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Κυρίες και κύριοι, ο πλοίαρχος και το πλήρωμα σας καλωσορίζουν στο πλοίο. Η άφιξή μας στη Νάξο προβλέπεται στις δύο και μισή το μεσημέρι, με ενδιάμεσους σταθμούς τη Σύρο και την Πάρο.",
+     "en": "Ladies and gentlemen, the captain and crew welcome you aboard. Our arrival in Naxos is expected at half past two in the afternoon, with intermediate stops at Syros and Paros."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Λόγω των ισχυρών ανέμων, παρακαλούνται οι επιβάτες να μην παραμένουν στο ανοιχτό κατάστρωμα της πλώρης και να κρατούν τα παιδιά κοντά τους. Το εστιατόριο και το κυλικείο βρίσκονται στο πέμπτο κατάστρωμα και λειτουργούν σε όλη τη διάρκεια του ταξιδιού.",
+     "en": "Because of the strong winds, passengers are asked not to remain on the open bow deck and to keep children close to them. The restaurant and snack bar are on deck five and are open throughout the voyage."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Οι επιβάτες με αυτοκίνητο παρακαλούνται να μην κατεβαίνουν στο γκαράζ πριν από την ανακοίνωση για την αποβίβαση. Οι κάτοχοι καμπίνας μπορούν να παραλάβουν το κλειδί τους από τη ρεσεψιόν, στο έκτο κατάστρωμα. Σας ευχόμαστε καλό ταξίδι.",
+     "en": "Passengers with cars are asked not to go down to the garage before the disembarkation announcement. Cabin holders can collect their key from reception, on deck six. We wish you a pleasant voyage."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Σε ποια νησιά θα σταματήσει το πλοίο πριν από τη Νάξο;",
+     "options": [
+      "Στη Μύκονο και στην Τήνο",
+      "Πουθενά, πηγαίνει κατευθείαν",
+      "Στη Σύρο και στην Πάρο",
+      "Στην Πάρο και στην Αντίπαρο"
+     ],
+     "answer": "Στη Σύρο και στην Πάρο",
+     "why": "με ενδιάμεσους σταθμούς τη Σύρο και την Πάρο"
+    },
+    {
+     "q": "Γιατί δεν πρέπει να μένουν οι επιβάτες στο κατάστρωμα της πλώρης;",
+     "options": [
+      "Γιατί βρέχει",
+      "Γιατί γίνονται εργασίες",
+      "Λόγω των ισχυρών ανέμων",
+      "Γιατί είναι μόνο για το πλήρωμα"
+     ],
+     "answer": "Λόγω των ισχυρών ανέμων",
+     "why": "Λόγω των ισχυρών ανέμων"
+    },
+    {
+     "q": "Πού παραλαμβάνουν οι επιβάτες το κλειδί της καμπίνας;",
+     "options": [
+      "Στη ρεσεψιόν, στο έκτο κατάστρωμα",
+      "Στο κυλικείο",
+      "Στο γκαράζ",
+      "Από τον πλοίαρχο"
+     ],
+     "answer": "Στη ρεσεψιόν, στο έκτο κατάστρωμα",
+     "why": "από τη ρεσεψιόν, στο έκτο κατάστρωμα"
+    }
+   ],
+   "gloss": {
+    "μεγάφωνα": "μεγάφωνο — loudspeaker",
+    "αναχώρηση": "αναχώρηση — departure",
+    "πλοίαρχος": "πλοίαρχος — captain",
+    "πλήρωμα": "πλήρωμα — crew",
+    "ενδιάμεσους σταθμούς": "ενδιάμεσος σταθμός — intermediate stop",
+    "ισχυρών ανέμων": "ισχυρός άνεμος — strong wind",
+    "κατάστρωμα": "κατάστρωμα — deck",
+    "πλώρης": "πλώρη — bow (of a ship)",
+    "κυλικείο": "κυλικείο — snack bar",
+    "αποβίβαση": "αποβίβαση — disembarkation",
+    "καμπίνας": "καμπίνα — cabin"
+   }
+  },
+  {
+   "id": "l16-vm-paidikos",
+   "title": "Θέση στον παιδικό σταθμό",
+   "title_en": "A place at the nursery",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα από έναν δημοτικό παιδικό σταθμό προς έναν πατέρα.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλημέρα, κύριε Νικολάου, σας καλούμε από τον δεύτερο δημοτικό παιδικό σταθμό. Σας ενημερώνουμε ότι η αίτησή σας εγκρίθηκε και η κόρη σας, η Ελπίδα, μπορεί να ξεκινήσει από την πρώτη Δεκεμβρίου.",
+     "en": "Good morning, Mr Nikolaou, we're calling from the second municipal nursery. We're letting you know that your application has been approved and your daughter, Elpida, can start from the first of December."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Για να ολοκληρωθεί η εγγραφή, θα πρέπει να μας φέρετε ως την Παρασκευή το βιβλιάριο υγείας της με τα εμβόλια και μια βεβαίωση από τον παιδίατρο ότι μπορεί να παρακολουθήσει ομαδικό χώρο. Χωρίς αυτά τα δύο, δυστυχώς, η θέση θα δοθεί στο επόμενο παιδί της λίστας.",
+     "en": "To complete the registration, you'll need to bring us by Friday her health booklet with her vaccinations and a certificate from the paediatrician that she can attend a group setting. Without these two, unfortunately, the place will go to the next child on the list."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Τις πρώτες μέρες προτείνουμε η μικρή να μένει μόνο δύο ώρες, για να προσαρμοστεί σιγά σιγά. Αν έχετε απορίες, είμαστε εδώ καθημερινά από τις επτά το πρωί ως τις τέσσερις.",
+     "en": "For the first few days we suggest the little one stays only two hours, so she can adjust gradually. If you have any questions, we're here every day from seven in the morning until four."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είναι το καλό νέο του μηνύματος;",
+     "options": [
+      "Ότι ο σταθμός θα είναι δωρεάν",
+      "Ότι άλλαξε το ωράριο",
+      "Ότι η αίτηση εγκρίθηκε",
+      "Ότι ο σταθμός μετακομίζει"
+     ],
+     "answer": "Ότι η αίτηση εγκρίθηκε",
+     "why": "η αίτησή σας εγκρίθηκε"
+    },
+    {
+     "q": "Τι θα συμβεί αν ο πατέρας δεν φέρει τα έγγραφα ως την Παρασκευή;",
+     "options": [
+      "Θα πρέπει να κάνει νέα αίτηση τον Ιανουάριο",
+      "Η κόρη του θα ξεκινήσει αργότερα",
+      "Η θέση θα δοθεί σε άλλο παιδί",
+      "Θα πληρώσει πρόστιμο"
+     ],
+     "answer": "Η θέση θα δοθεί σε άλλο παιδί",
+     "why": "η θέση θα δοθεί στο επόμενο παιδί της λίστας"
+    },
+    {
+     "q": "Τι προτείνει ο σταθμός για τις πρώτες μέρες;",
+     "options": [
+      "Να μένει το παιδί μόνο δύο ώρες",
+      "Να έρθει και ο πατέρας στην τάξη",
+      "Να μη φάει εκεί το μεσημεριανό",
+      "Να φέρει το παιδί ένα παιχνίδι από το σπίτι"
+     ],
+     "answer": "Να μένει το παιδί μόνο δύο ώρες",
+     "why": "η μικρή να μένει μόνο δύο ώρες"
+    }
+   ],
+   "gloss": {
+    "παιδικό σταθμό": "παιδικός σταθμός — nursery, day care",
+    "εγκρίθηκε": "εγκρίνομαι — to be approved",
+    "να ολοκληρωθεί": "ολοκληρώνομαι — to be completed",
+    "εγγραφή": "εγγραφή — registration, enrolment",
+    "βιβλιάριο υγείας": "βιβλιάριο υγείας — (child's) health booklet",
+    "εμβόλια": "εμβόλιο — vaccine, vaccination",
+    "παιδίατρο": "παιδίατρος — paediatrician",
+    "ομαδικό χώρο": "ομαδικός χώρος — group setting",
+    "να προσαρμοστεί": "προσαρμόζομαι — to adjust, settle in",
+    "απορίες": "απορία — question, query"
+   }
+  },
+  {
+   "id": "l16-dia-kommotirio",
+   "title": "Στο κομμωτήριο",
+   "title_en": "At the hairdresser's",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συζήτηση σε ένα κομμωτήριο ανάμεσα σε μια πελάτισσα και τον κομμωτή.",
+   "script": [
+    {
+     "speaker": "Κομμωτής",
+     "voice": "m",
+     "el": "Καλώς την! Τι θα κάνουμε σήμερα; Το ίδιο κούρεμα με την προηγούμενη φορά;",
+     "en": "Welcome! What are we doing today? The same cut as last time?"
+    },
+    {
+     "speaker": "Ρούλα",
+     "voice": "f",
+     "el": "Όχι, θέλω μια αλλαγή. Σκεφτόμουν να τα κόψω αρκετά κοντά, ως τον σβέρκο, και να κάνω και λίγες ανταύγειες, γιατί έχουν αρχίσει να φαίνονται τα άσπρα.",
+     "en": "No, I want a change. I was thinking of cutting it quite short, to the nape, and having some highlights too, because the grey hairs are starting to show."
+    },
+    {
+     "speaker": "Κομμωτής",
+     "voice": "m",
+     "el": "Καλή ιδέα. Με το σχήμα του προσώπου σου, ένα κοντό κούρεμα θα σου πάει πολύ. Μόνο να ξέρεις ότι οι ανταύγειες θέλουν περίπου δύο ώρες, και θα χρειαστεί να τις ανανεώνεις κάθε δύο μήνες.",
+     "en": "Good idea. With the shape of your face, a short cut will really suit you. Just so you know, highlights take about two hours, and you'll need to touch them up every two months."
+    },
+    {
+     "speaker": "Ρούλα",
+     "voice": "f",
+     "el": "Δύο ώρες; Στις έξι πρέπει να πάρω το παιδί από το φροντιστήριο. Ας κάνουμε σήμερα μόνο το κούρεμα, και κλείνουμε ραντεβού για τις ανταύγειες το Σάββατο το πρωί.",
+     "en": "Two hours? At six I have to pick up my child from the tutoring school. Let's just do the cut today, and we'll book an appointment for the highlights on Saturday morning."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θέλει αρχικά η Ρούλα;",
+     "options": [
+      "Κοντό κούρεμα και ανταύγειες",
+      "Να βάψει όλα τα μαλλιά της μαύρα",
+      "Το ίδιο κούρεμα με την προηγούμενη φορά",
+      "Μόνο χτένισμα"
+     ],
+     "answer": "Κοντό κούρεμα και ανταύγειες",
+     "why": "να τα κόψω αρκετά κοντά, ως τον σβέρκο, και να κάνω και λίγες ανταύγειες"
+    },
+    {
+     "q": "Τι λέει ο κομμωτής για τις ανταύγειες;",
+     "options": [
+      "Ότι θέλουν δύο ώρες και ανανέωση κάθε δύο μήνες",
+      "Ότι πρέπει να τις κάνει πριν από το κούρεμα",
+      "Ότι δεν της ταιριάζουν",
+      "Ότι είναι πολύ ακριβές"
+     ],
+     "answer": "Ότι θέλουν δύο ώρες και ανανέωση κάθε δύο μήνες",
+     "why": "οι ανταύγειες θέλουν περίπου δύο ώρες"
+    },
+    {
+     "q": "Γιατί αναβάλλει η Ρούλα τις ανταύγειες;",
+     "options": [
+      "Γιατί άλλαξε γνώμη",
+      "Γιατί ο κομμωτής δεν έχει χρόνο",
+      "Γιατί πρέπει να πάρει το παιδί της στις έξι",
+      "Γιατί δεν έχει χρήματα"
+     ],
+     "answer": "Γιατί πρέπει να πάρει το παιδί της στις έξι",
+     "why": "Στις έξι πρέπει να πάρω το παιδί από το φροντιστήριο"
+    }
+   ],
+   "gloss": {
+    "κομμωτήριο": "κομμωτήριο — hairdresser's",
+    "κομμωτή": "κομμωτής — hairdresser",
+    "κούρεμα": "κούρεμα — haircut",
+    "σβέρκο": "σβέρκος — nape of the neck",
+    "ανταύγειες": "ανταύγειες — highlights (hair)",
+    "τα άσπρα": "τα άσπρα — grey (white) hairs",
+    "σχήμα του προσώπου": "σχήμα του προσώπου — face shape",
+    "θα σου πάει": "μου πάει — it suits me",
+    "να τις ανανεώνεις": "ανανεώνω — to renew, touch up",
+    "φροντιστήριο": "φροντιστήριο — tutoring school (after-school classes)"
+   }
+  },
+  {
+   "id": "l16-dia-eisitirio",
+   "title": "Εισιτήριο με αυτοκίνητο",
+   "title_en": "A ferry ticket with a car",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συζήτηση σε ένα πρακτορείο ακτοπλοϊκών εισιτηρίων.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Καλημέρα. Θα ήθελα δύο εισιτήρια για Χανιά, για την Παρασκευή το βράδυ, με αυτοκίνητο. Υπάρχει διαθεσιμότητα σε καμπίνα;",
+     "en": "Good morning. I'd like two tickets to Chania, for Friday night, with a car. Is there availability in a cabin?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Για την Παρασκευή οι δίκλινες καμπίνες έχουν τελειώσει, γιατί είναι τριήμερο. Μου έχουν μείνει μόνο τετράκλινες, που είναι αρκετά ακριβότερες, ή αεροπορικά καθίσματα. Αν μπορείτε να φύγετε την Πέμπτη, υπάρχουν ακόμη δίκλινες.",
+     "en": "For Friday the twin cabins are sold out, because it's a long weekend. I only have four-berth cabins left, which are quite a bit more expensive, or airline-style seats. If you can leave on Thursday, there are still twin cabins."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Την Πέμπτη δεν γίνεται, δουλεύουμε και οι δύο. Πόσο κοστίζει η τετράκλινη; Και το αυτοκίνητο χρεώνεται ανάλογα με το μήκος;",
+     "en": "Thursday's not possible, we both work. How much is the four-berth cabin? And is the car charged according to its length?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Ναι, μέχρι τέσσερα και πέντε μέτρα είναι η κανονική τιμή. Η τετράκλινη για δύο άτομα βγαίνει περίπου εκατό ευρώ πιο ακριβά από τη δίκλινη. Αν κλείσετε και την επιστροφή τώρα, έχετε έκπτωση είκοσι τοις εκατό στο αυτοκίνητο.",
+     "en": "Yes, up to four and a half metres it's the standard price. The four-berth cabin for two people comes to about a hundred euros more than the twin. If you book the return now as well, you get twenty per cent off the car."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν υπάρχουν δίκλινες καμπίνες την Παρασκευή;",
+     "options": [
+      "Γιατί το πλοίο δεν έχει καμπίνες",
+      "Γιατί είναι τριήμερο",
+      "Γιατί το πλοίο είναι μικρό",
+      "Γιατί υπάρχει απεργία"
+     ],
+     "answer": "Γιατί είναι τριήμερο",
+     "why": "γιατί είναι τριήμερο"
+    },
+    {
+     "q": "Γιατί δεν μπορεί ο πελάτης να ταξιδέψει την Πέμπτη;",
+     "options": [
+      "Γιατί δεν υπάρχουν εισιτήρια",
+      "Γιατί είναι ακριβότερα",
+      "Γιατί δουλεύουν και οι δύο",
+      "Γιατί το αυτοκίνητο είναι στο συνεργείο"
+     ],
+     "answer": "Γιατί δουλεύουν και οι δύο",
+     "why": "δουλεύουμε και οι δύο"
+    },
+    {
+     "q": "Πώς μπορεί να πάρει έκπτωση;",
+     "options": [
+      "Αν είναι φοιτητής",
+      "Αν ταξιδέψει χωρίς αυτοκίνητο",
+      "Αν κλείσει και την επιστροφή τώρα",
+      "Αν πληρώσει μετρητά"
+     ],
+     "answer": "Αν κλείσει και την επιστροφή τώρα",
+     "why": "Αν κλείσετε και την επιστροφή τώρα, έχετε έκπτωση"
+    }
+   ],
+   "gloss": {
+    "πρακτορείο": "πρακτορείο — (travel) agency",
+    "ακτοπλοϊκών": "ακτοπλοϊκός — ferry (coastal shipping)",
+    "διαθεσιμότητα": "διαθεσιμότητα — availability",
+    "δίκλινες": "δίκλινος — twin, two-berth",
+    "τριήμερο": "τριήμερο — long (three-day) weekend",
+    "τετράκλινες": "τετράκλινος — four-berth",
+    "αεροπορικά καθίσματα": "αεροπορικό κάθισμα — airline-style seat (on a ferry)",
+    "χρεώνεται": "χρεώνομαι — to be charged",
+    "μήκος": "μήκος — length",
+    "επιστροφή": "επιστροφή — return (trip)"
+   }
+  },
+  {
+   "id": "l16-mon-prosfyges",
+   "title": "Μαθήματα ελληνικών για πρόσφυγες",
+   "title_en": "Greek lessons for refugees",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια εθελόντρια να μιλάει για τα μαθήματα ελληνικών που κάνει σε πρόσφυγες.",
+   "script": [
+    {
+     "speaker": "Ευαγγελία",
+     "voice": "f",
+     "el": "Εδώ και τρία χρόνια διδάσκω εθελοντικά ελληνικά σε ενήλικες πρόσφυγες, σε μια μη κυβερνητική οργάνωση στο κέντρο της Αθήνας. Οι μαθητές μου έρχονται από το Αφγανιστάν, τη Συρία, το Κονγκό, και μιλούν πολύ διαφορετικές γλώσσες.",
+     "en": "For three years I've been teaching Greek as a volunteer to adult refugees, at a non-governmental organisation in the centre of Athens. My students come from Afghanistan, Syria, the Congo, and speak very different languages."
+    },
+    {
+     "speaker": "Ευαγγελία",
+     "voice": "f",
+     "el": "Το πιο δύσκολο στην αρχή είναι το αλφάβητο. Κάποιοι δεν έχουν πάει ποτέ σχολείο, ούτε στη δική τους γλώσσα, οπότε μαθαίνουν να γράφουν για πρώτη φορά. Άλλοι είναι μηχανικοί ή δάσκαλοι και προχωρούν πολύ γρήγορα. Γι' αυτό χωρίζουμε την τάξη σε μικρές ομάδες.",
+     "en": "The hardest thing at first is the alphabet. Some have never been to school, not even in their own language, so they are learning to write for the first time. Others are engineers or teachers and progress very quickly. That's why we split the class into small groups."
+    },
+    {
+     "speaker": "Ευαγγελία",
+     "voice": "f",
+     "el": "Δεν διδάσκουμε μόνο γραμματική. Μαθαίνουμε πώς να κλείνουν ραντεβού στο νοσοκομείο, πώς να μιλούν στον εργοδότη, πώς να διαβάζουν έναν λογαριασμό. Η μεγαλύτερη χαρά μου ήταν όταν μια μαθήτρια, που στην αρχή δεν ήξερε ούτε να γράψει το όνομά της, μου έστειλε ένα μήνυμα στα ελληνικά για να μου πει ότι βρήκε δουλειά.",
+     "en": "We don't only teach grammar. We learn how to book appointments at the hospital, how to talk to an employer, how to read a bill. My greatest joy was when a student, who at first couldn't even write her name, sent me a message in Greek to tell me she had found a job."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού διδάσκει η Ευαγγελία;",
+     "options": [
+      "Σε μια μη κυβερνητική οργάνωση",
+      "Σε ένα δημόσιο σχολείο",
+      "Στο πανεπιστήμιο",
+      "Στο σπίτι της"
+     ],
+     "answer": "Σε μια μη κυβερνητική οργάνωση",
+     "why": "σε μια μη κυβερνητική οργάνωση στο κέντρο της Αθήνας"
+    },
+    {
+     "q": "Γιατί χωρίζουν την τάξη σε μικρές ομάδες;",
+     "options": [
+      "Γιατί οι μαθητές έχουν πολύ διαφορετικό επίπεδο",
+      "Γιατί η αίθουσα είναι μικρή",
+      "Γιατί έρχονται σε διαφορετικές ώρες",
+      "Γιατί μιλούν διαφορετικές γλώσσες"
+     ],
+     "answer": "Γιατί οι μαθητές έχουν πολύ διαφορετικό επίπεδο",
+     "why": "Γι' αυτό χωρίζουμε την τάξη σε μικρές ομάδες"
+    },
+    {
+     "q": "Ποια ήταν η μεγαλύτερη χαρά της Ευαγγελίας;",
+     "options": [
+      "Όταν μια μαθήτρια της έγραψε στα ελληνικά ότι βρήκε δουλειά",
+      "Όταν η οργάνωση πήρε βραβείο",
+      "Όταν πήρε μισθό",
+      "Όταν οι μαθητές πέρασαν τις εξετάσεις"
+     ],
+     "answer": "Όταν μια μαθήτρια της έγραψε στα ελληνικά ότι βρήκε δουλειά",
+     "why": "μου έστειλε ένα μήνυμα στα ελληνικά για να μου πει ότι βρήκε δουλειά"
+    }
+   ],
+   "gloss": {
+    "εθελόντρια": "εθελόντρια — (female) volunteer",
+    "πρόσφυγες": "πρόσφυγας — refugee",
+    "εθελοντικά": "εθελοντικά — as a volunteer",
+    "μη κυβερνητική οργάνωση": "μη κυβερνητική οργάνωση — non-governmental organisation (NGO)",
+    "αλφάβητο": "αλφάβητο — alphabet",
+    "μηχανικοί": "μηχανικός — engineer",
+    "προχωρούν": "προχωρώ — to progress, move on",
+    "χωρίζουμε": "χωρίζω — to split, divide",
+    "εργοδότη": "εργοδότης — employer",
+    "λογαριασμό": "λογαριασμός — bill"
+   }
+  },
+  {
+   "id": "l16-rep-monemvasia",
+   "title": "Μονεμβασιά, η πόλη στον βράχο",
+   "title_en": "Monemvasia, the town on the rock",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ταξιδιωτικό ρεπορτάζ από τη Μονεμβασιά, στη Λακωνία.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Από τη στεριά βλέπεις μόνο έναν τεράστιο βράχο μέσα στη θάλασσα. Η καστροπολιτεία κρύβεται στη νότια πλευρά του, και τη φτάνεις περνώντας μια στενή λωρίδα γης και μια μικρή γέφυρα. Από αυτή τη μοναδική είσοδο πήρε και το όνομά της: «μόνη εμβασία», δηλαδή μία μόνο είσοδος.",
+     "en": "From the mainland you see only a huge rock in the sea. The castle town is hidden on its southern side, and you reach it by crossing a narrow strip of land and a small bridge. It got its name from this single entrance: 'moni emvasia', meaning a single way in."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Στα βυζαντινά χρόνια η Μονεμβασιά ήταν ένα από τα σημαντικότερα λιμάνια του Μοριά και εξήγαγε σε όλη την Ευρώπη ένα γλυκό κρασί, τη μαλβαζία. Μέσα στα τείχη δεν κυκλοφορούν αυτοκίνητα· τα υλικά για τις επισκευές μεταφέρονται ακόμη με γαϊδουράκια μέσα από τα λιθόστρωτα σοκάκια.",
+     "en": "In Byzantine times Monemvasia was one of the most important ports of the Morea and exported a sweet wine, malmsey, all over Europe. No cars circulate within the walls; materials for repairs are still carried by donkeys through the cobbled alleys."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Στη Μονεμβασιά γεννήθηκε το 1909 ο ποιητής Γιάννης Ρίτσος, και το σπίτι του βρίσκεται στην είσοδο της παλιάς πόλης. Οι κάτοικοι λένε ότι τον χειμώνα, όταν φεύγουν οι τουρίστες, μένουν μέσα στα τείχη λιγότερα από είκοσι άτομα.",
+     "en": "The poet Yannis Ritsos was born in Monemvasia in 1909, and his house is at the entrance to the old town. Residents say that in winter, when the tourists leave, fewer than twenty people stay within the walls."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από πού πήρε το όνομά της η Μονεμβασιά;",
+     "options": [
+      "Από έναν άγιο",
+      "Από τη μοναδική της είσοδο",
+      "Από έναν βυζαντινό αυτοκράτορα",
+      "Από το κρασί της"
+     ],
+     "answer": "Από τη μοναδική της είσοδο",
+     "why": "Από αυτή τη μοναδική είσοδο πήρε και το όνομά της"
+    },
+    {
+     "q": "Πώς μεταφέρονται τα υλικά για τις επισκευές μέσα στα τείχη;",
+     "options": [
+      "Με μικρά φορτηγά",
+      "Με γαϊδουράκια",
+      "Με ελικόπτερο",
+      "Με βάρκες"
+     ],
+     "answer": "Με γαϊδουράκια",
+     "why": "μεταφέρονται ακόμη με γαϊδουράκια"
+    },
+    {
+     "q": "Τι ισχύει τον χειμώνα, σύμφωνα με τους κατοίκους;",
+     "options": [
+      "Η πόλη κλείνει εντελώς",
+      "Γίνεται φεστιβάλ ποίησης",
+      "Μένουν μέσα στα τείχη λιγότερα από είκοσι άτομα",
+      "Έρχονται περισσότεροι τουρίστες"
+     ],
+     "answer": "Μένουν μέσα στα τείχη λιγότερα από είκοσι άτομα",
+     "why": "μένουν μέσα στα τείχη λιγότερα από είκοσι άτομα"
+    }
+   ],
+   "gloss": {
+    "στεριά": "στεριά — mainland, dry land",
+    "βράχο": "βράχος — rock",
+    "καστροπολιτεία": "καστροπολιτεία — fortified (castle) town",
+    "λωρίδα γης": "λωρίδα γης — strip of land",
+    "εμβασία": "εμβασία — (old) entrance, way in",
+    "Μοριά": "Μοριάς — the Morea (Peloponnese)",
+    "εξήγαγε": "εξάγω — to export",
+    "μαλβαζία": "μαλβαζία — malmsey (sweet wine)",
+    "τείχη": "τείχος — (city) wall",
+    "επισκευές": "επισκευή — repair",
+    "γαϊδουράκια": "γαϊδουράκι — little donkey",
+    "λιθόστρωτα σοκάκια": "λιθόστρωτο σοκάκι — cobbled alley"
+   }
+  },
+  {
+   "id": "l16-rep-anadasosi",
+   "title": "Μετά τη φωτιά",
+   "title_en": "After the fire",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για μια εθελοντική δράση σε ένα δάσος που κάηκε.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Δύο χρόνια μετά την πυρκαγιά, η πλαγιά είναι ακόμη γεμάτη μαυρισμένους κορμούς. Σήμερα το πρωί, όμως, περισσότεροι από εκατό εθελοντές, ανάμεσά τους πολλές οικογένειες με παιδιά, ήρθαν να βοηθήσουν τη δασική υπηρεσία.",
+     "en": "Two years after the fire, the slope is still full of blackened trunks. This morning, however, more than a hundred volunteers, among them many families with children, came to help the forest service."
+    },
+    {
+     "speaker": "Δασολόγος",
+     "voice": "f",
+     "el": "Δεν φυτεύουμε όπου να 'ναι. Σε πολλά σημεία το δάσος αναγεννιέται μόνο του, γιατί τα κουκουνάρια της χαλεπίου πεύκης ανοίγουν με τη ζέστη και ρίχνουν σπόρους. Εκεί η καλύτερη βοήθεια είναι να προστατέψουμε την περιοχή από τη βόσκηση και την οικοδόμηση.",
+     "en": "We don't plant just anywhere. In many places the forest regenerates by itself, because the cones of the Aleppo pine open with the heat and drop seeds. There the best help is to protect the area from grazing and building."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Οι εθελοντές φύτεψαν σήμερα βελανιδιές, κουμαριές και χαρουπιές, είδη που αντέχουν στην ξηρασία και καίγονται δυσκολότερα. Η δασική υπηρεσία θα ποτίζει τα δενδρύλλια όλο το πρώτο καλοκαίρι, την πιο κρίσιμη περίοδο για την επιβίωσή τους.",
+     "en": "Today the volunteers planted oaks, strawberry trees and carob trees, species that withstand drought and burn less easily. The forest service will water the saplings throughout the first summer, the most critical period for their survival."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιοι ήρθαν να βοηθήσουν τη δασική υπηρεσία;",
+     "options": [
+      "Μαθητές ενός σχολείου",
+      "Πάνω από εκατό εθελοντές, ανάμεσά τους οικογένειες",
+      "Οι πυροσβέστες της περιοχής",
+      "Μόνο στρατιώτες"
+     ],
+     "answer": "Πάνω από εκατό εθελοντές, ανάμεσά τους οικογένειες",
+     "why": "περισσότεροι από εκατό εθελοντές, ανάμεσά τους πολλές οικογένειες με παιδιά"
+    },
+    {
+     "q": "Γιατί σε πολλά σημεία δεν χρειάζεται φύτευση;",
+     "options": [
+      "Γιατί δεν υπάρχει νερό",
+      "Γιατί θα χτιστούν σπίτια",
+      "Γιατί το δάσος αναγεννιέται μόνο του",
+      "Γιατί το έδαφος είναι άγονο"
+     ],
+     "answer": "Γιατί το δάσος αναγεννιέται μόνο του",
+     "why": "Σε πολλά σημεία το δάσος αναγεννιέται μόνο του"
+    },
+    {
+     "q": "Γιατί διάλεξαν βελανιδιές, κουμαριές και χαρουπιές;",
+     "options": [
+      "Γιατί είναι φθηνές",
+      "Γιατί δίνουν φρούτα",
+      "Γιατί αντέχουν στην ξηρασία και καίγονται δυσκολότερα",
+      "Γιατί μεγαλώνουν πολύ γρήγορα"
+     ],
+     "answer": "Γιατί αντέχουν στην ξηρασία και καίγονται δυσκολότερα",
+     "why": "είδη που αντέχουν στην ξηρασία και καίγονται δυσκολότερα"
+    }
+   ],
+   "gloss": {
+    "εθελοντική δράση": "εθελοντική δράση — volunteer action",
+    "πλαγιά": "πλαγιά — slope, hillside",
+    "μαυρισμένους": "μαυρισμένος — blackened",
+    "δασική υπηρεσία": "δασική υπηρεσία — forest service",
+    "όπου να 'ναι": "όπου να 'ναι — just anywhere",
+    "αναγεννιέται": "αναγεννιέμαι — to regenerate",
+    "κουκουνάρια": "κουκουνάρι — pine cone",
+    "χαλεπίου πεύκης": "χαλέπιος πεύκη — Aleppo pine",
+    "βόσκηση": "βόσκηση — grazing",
+    "οικοδόμηση": "οικοδόμηση — building, construction",
+    "βελανιδιές": "βελανιδιά — oak",
+    "κουμαριές": "κουμαριά — strawberry tree",
+    "χαρουπιές": "χαρουπιά — carob tree",
+    "ξηρασία": "ξηρασία — drought",
+    "δενδρύλλια": "δενδρύλλιο — sapling",
+    "επιβίωσή": "επιβίωση — survival"
+   }
+  },
+  {
+   "id": "l16-int-karavomarangos",
+   "title": "Η καραβομαραγκός",
+   "title_en": "The boat builder",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια νέα γυναίκα που φτιάχνει ξύλινα καΐκια σε ένα καρνάγιο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Δεν είναι συνηθισμένο να βλέπει κανείς μια γυναίκα σε καρνάγιο. Πώς έφτασες εδώ;",
+     "en": "It's not usual to see a woman in a boatyard. How did you end up here?"
+    },
+    {
+     "speaker": "Ιωάννα",
+     "voice": "f",
+     "el": "Ο πατέρας μου ήταν καραβομαραγκός, όπως και ο παππούς μου. Μικρή περνούσα τα απογεύματα στο καρνάγιο, μάζευα πριονίδια και τον έβλεπα να δουλεύει. Όταν τελείωσα τη σχολή καλών τεχνών, κατάλαβα ότι αυτό που ήθελα να φτιάχνω δεν ήταν γλυπτά, αλλά καΐκια.",
+     "en": "My father was a boat builder, like my grandfather. As a child I spent afternoons at the boatyard, collecting sawdust and watching him work. When I finished art school, I realised that what I wanted to make wasn't sculptures, but caiques."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Λένε ότι η τέχνη αυτή πεθαίνει.",
+     "en": "They say this craft is dying."
+    },
+    {
+     "speaker": "Ιωάννα",
+     "voice": "f",
+     "el": "Κινδυνεύει, αυτό είναι αλήθεια. Για χρόνια οι ψαράδες έπαιρναν επιδότηση για να διαλύσουν τα ξύλινα σκάφη τους, και χάθηκαν χιλιάδες καΐκια. Σήμερα, όμως, υπάρχει ξανά ενδιαφέρον, κυρίως για επισκευές παλιών σκαφών. Κάθε καΐκι έχει τη δική του ιστορία, και όταν το ξαναρίχνουμε στη θάλασσα, νιώθω ότι σώζουμε ένα κομμάτι της μνήμης του νησιού.",
+     "en": "It's in danger, that's true. For years fishermen received subsidies to break up their wooden boats, and thousands of caiques were lost. Today, though, there is interest again, mainly in repairing old boats. Every caique has its own story, and when we put it back in the sea, I feel we're saving a piece of the island's memory."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς γνώρισε η Ιωάννα τη δουλειά του καραβομαραγκού;",
+     "options": [
+      "Από τον πατέρα της, στο καρνάγιο",
+      "Από ένα βιβλίο",
+      "Σε μια σχολή ναυπηγικής",
+      "Από ένα ντοκιμαντέρ"
+     ],
+     "answer": "Από τον πατέρα της, στο καρνάγιο",
+     "why": "Ο πατέρας μου ήταν καραβομαραγκός"
+    },
+    {
+     "q": "Τι σπούδασε η Ιωάννα;",
+     "options": [
+      "Καλές τέχνες",
+      "Ναυπηγική",
+      "Αρχιτεκτονική",
+      "Ιστορία"
+     ],
+     "answer": "Καλές τέχνες",
+     "why": "Όταν τελείωσα τη σχολή καλών τεχνών"
+    },
+    {
+     "q": "Γιατί χάθηκαν χιλιάδες καΐκια;",
+     "options": [
+      "Από μια μεγάλη καταιγίδα",
+      "Από πυρκαγιές",
+      "Γιατί πουλήθηκαν στο εξωτερικό",
+      "Γιατί οι ψαράδες έπαιρναν επιδότηση για να τα διαλύσουν"
+     ],
+     "answer": "Γιατί οι ψαράδες έπαιρναν επιδότηση για να τα διαλύσουν",
+     "why": "οι ψαράδες έπαιρναν επιδότηση για να διαλύσουν τα ξύλινα σκάφη τους"
+    }
+   ],
+   "gloss": {
+    "καΐκια": "καΐκι — caique (traditional wooden boat)",
+    "καρνάγιο": "καρνάγιο — boatyard",
+    "καραβομαραγκός": "καραβομαραγκός — boat builder, shipwright",
+    "πριονίδια": "πριονίδι — sawdust",
+    "σχολή καλών τεχνών": "σχολή καλών τεχνών — art school",
+    "γλυπτά": "γλυπτό — sculpture",
+    "Κινδυνεύει": "κινδυνεύω — to be in danger",
+    "επιδότηση": "επιδότηση — subsidy",
+    "να διαλύσουν": "διαλύω — to break up, dismantle",
+    "σκάφη": "σκάφος — boat, vessel",
+    "το ξαναρίχνουμε στη θάλασσα": "ρίχνω στη θάλασσα — to launch (a boat)"
+   }
+  },
+  {
+   "id": "l16-mon-kavafis",
+   "title": "Ο Καβάφης και η Αλεξάνδρεια",
+   "title_en": "Cavafy and Alexandria",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από μια ραδιοφωνική εκπομπή για τον ποιητή Κωνσταντίνο Καβάφη.",
+   "script": [
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Ο Κωνσταντίνος Καβάφης γεννήθηκε το 1863 στην Αλεξάνδρεια, σε μια ακμάζουσα ελληνική παροικία, και πέθανε εκεί το 1933, ανήμερα των γενεθλίων του. Για περίπου τριάντα χρόνια εργάστηκε ως υπάλληλος στην Υπηρεσία Αρδεύσεων, μια δουλειά που, όπως έλεγε ο ίδιος, του άφηνε χρόνο για την ποίηση.",
+     "en": "Constantine Cavafy was born in 1863 in Alexandria, in a thriving Greek community, and died there in 1933, on his birthday. For about thirty years he worked as a clerk at the Irrigation Service, a job which, as he himself said, left him time for poetry."
+    },
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Παράξενο για έναν ποιητή που σήμερα μεταφράζεται σε όλο τον κόσμο: ο Καβάφης δεν εξέδωσε ποτέ βιβλίο με τα ποιήματά του στο εμπόριο. Τα τύπωνε σε φυλλάδια και τα μοίραζε σε φίλους, διορθώνοντάς τα ξανά και ξανά. Ο «κανόνας» του, όπως τον ονομάζουμε, περιλαμβάνει εκατόν πενήντα τέσσερα ποιήματα.",
+     "en": "Strange for a poet who is now translated all over the world: Cavafy never published a book of his poems commercially. He printed them in leaflets and handed them out to friends, correcting them again and again. His 'canon', as we call it, comprises one hundred and fifty-four poems."
+    },
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Η Αλεξάνδρεια είναι παρούσα σχεδόν σε όλο του το έργο, όχι όμως η σύγχρονη πόλη, αλλά η ελληνιστική πρωτεύουσα των Πτολεμαίων. Ο Καβάφης δεν τη γράφει με νοσταλγία· βλέπει τους ήρωές του με ειρωνεία και συμπόνια, την ώρα που χάνουν, που κάνουν λάθη, που συμβιβάζονται. Ίσως γι' αυτό μας μοιάζει τόσο σύγχρονος.",
+     "en": "Alexandria is present in almost all his work, not the modern city, however, but the Hellenistic capital of the Ptolemies. Cavafy doesn't write it with nostalgia; he sees his heroes with irony and compassion, at the moment they lose, make mistakes, compromise. Perhaps that is why he seems so modern to us."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λέει ο παρουσιαστής για τη δουλειά του Καβάφη στην Υπηρεσία Αρδεύσεων;",
+     "options": [
+      "Ότι τον έκανε πλούσιο",
+      "Ότι τη μισούσε",
+      "Ότι του άφηνε χρόνο για την ποίηση",
+      "Ότι την άφησε γρήγορα"
+     ],
+     "answer": "Ότι του άφηνε χρόνο για την ποίηση",
+     "why": "μια δουλειά που, όπως έλεγε ο ίδιος, του άφηνε χρόνο για την ποίηση"
+    },
+    {
+     "q": "Πώς κυκλοφορούσαν τα ποιήματα του Καβάφη όσο ζούσε;",
+     "options": [
+      "Μόνο σε μεταφράσεις",
+      "Σε εφημερίδες της Αθήνας",
+      "Σε φυλλάδια που μοίραζε σε φίλους",
+      "Σε βιβλία στα βιβλιοπωλεία"
+     ],
+     "answer": "Σε φυλλάδια που μοίραζε σε φίλους",
+     "why": "Τα τύπωνε σε φυλλάδια και τα μοίραζε σε φίλους"
+    },
+    {
+     "q": "Πώς βλέπει ο Καβάφης τους ήρωές του, σύμφωνα με τον ομιλητή;",
+     "options": [
+      "Με αδιαφορία",
+      "Με θαυμασμό για τις νίκες τους",
+      "Με ειρωνεία και συμπόνια",
+      "Με νοσταλγία"
+     ],
+     "answer": "Με ειρωνεία και συμπόνια",
+     "why": "βλέπει τους ήρωές του με ειρωνεία και συμπόνια"
+    }
+   ],
+   "gloss": {
+    "ακμάζουσα": "ακμάζων — thriving, flourishing",
+    "παροικία": "παροικία — (expatriate) community",
+    "ανήμερα": "ανήμερα — on the very day",
+    "Υπηρεσία Αρδεύσεων": "Υπηρεσία Αρδεύσεων — Irrigation Service",
+    "μεταφράζεται": "μεταφράζομαι — to be translated",
+    "εξέδωσε": "εκδίδω — to publish",
+    "στο εμπόριο": "στο εμπόριο — commercially, on sale",
+    "φυλλάδια": "φυλλάδιο — leaflet, pamphlet",
+    "κανόνας": "κανόνας — canon (of works); rule",
+    "ελληνιστική": "ελληνιστικός — Hellenistic",
+    "Πτολεμαίων": "Πτολεμαίοι — the Ptolemies",
+    "νοσταλγία": "νοσταλγία — nostalgia",
+    "ειρωνεία": "ειρωνεία — irony",
+    "συμπόνια": "συμπόνια — compassion",
+    "συμβιβάζονται": "συμβιβάζομαι — to compromise"
+   }
+  },
+  {
+   "id": "l16-int-anglismoi",
+   "title": "Αγγλικές λέξεις στα ελληνικά",
+   "title_en": "English words in Greek",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με έναν γλωσσολόγο για τις αγγλικές λέξεις στην ελληνική γλώσσα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κύριε Μαργαρίτη, πολλοί ανησυχούν ότι τα ελληνικά «γεμίζουν» αγγλικές λέξεις: μίτινγκ, ντεντλάιν, φιντμπάκ. Κινδυνεύει η γλώσσα μας;",
+     "en": "Mr Margaritis, many people worry that Greek is 'filling up' with English words: meeting, deadline, feedback. Is our language in danger?"
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "m",
+     "el": "Όχι, και θα σας πω γιατί. Ο δανεισμός λέξεων είναι φυσιολογικό φαινόμενο σε όλες τις γλώσσες. Τα ελληνικά έχουν δανειστεί από τα λατινικά, τα ιταλικά, τα τουρκικά, τα γαλλικά, και παρέμειναν ελληνικά. Οι περισσότερες αγγλικές λέξεις, εξάλλου, χρησιμοποιούνται σε συγκεκριμένα περιβάλλοντα, όπως οι εταιρείες ή η τεχνολογία, και πολλές εξαφανίζονται μέσα σε λίγα χρόνια.",
+     "en": "No, and I'll tell you why. Borrowing words is a normal phenomenon in all languages. Greek has borrowed from Latin, Italian, Turkish, French, and has remained Greek. Most English words, moreover, are used in specific settings, such as companies or technology, and many disappear within a few years."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Δηλαδή δεν πρέπει να κάνουμε τίποτα;",
+     "en": "So we shouldn't do anything?"
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "m",
+     "el": "Δεν είπα αυτό. Το πρόβλημα δεν είναι οι δάνειες λέξεις, αλλά όταν τις χρησιμοποιούμε επειδή ακούγονται πιο «σοβαρές», ενώ υπάρχει απλή ελληνική λέξη που όλοι καταλαβαίνουν. Ένα ανακοινωθέν που μιλάει για «τάργκετ γκρουπ» αποκλείει όσους δεν ξέρουν αγγλικά. Και να θυμόμαστε ότι ο δανεισμός πάει και αντίστροφα: τα αγγλικά είναι γεμάτα ελληνικές λέξεις, από τη δημοκρατία ως την τηλεφωνία.",
+     "en": "I didn't say that. The problem isn't loanwords, but when we use them because they sound more 'serious', while there is a simple Greek word everyone understands. A press release that talks about a 'target group' excludes those who don't know English. And let's remember that borrowing goes the other way too: English is full of Greek words, from democracy to telephony."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί πιστεύει ο γλωσσολόγος ότι τα ελληνικά δεν κινδυνεύουν;",
+     "options": [
+      "Γιατί ο νόμος απαγορεύει τις ξένες λέξεις",
+      "Γιατί οι Έλληνες δεν μιλούν αγγλικά",
+      "Γιατί οι αγγλικές λέξεις είναι λίγες",
+      "Γιατί ο δανεισμός είναι φυσιολογικός και η γλώσσα έχει δανειστεί και στο παρελθόν"
+     ],
+     "answer": "Γιατί ο δανεισμός είναι φυσιολογικός και η γλώσσα έχει δανειστεί και στο παρελθόν",
+     "why": "Ο δανεισμός λέξεων είναι φυσιολογικό φαινόμενο σε όλες τις γλώσσες"
+    },
+    {
+     "q": "Ποιο είναι, κατά τον γλωσσολόγο, το πραγματικό πρόβλημα;",
+     "options": [
+      "Η χρήση ξένων λέξεων για να ακουστεί κάτι πιο «σοβαρό», ενώ υπάρχει απλή ελληνική λέξη",
+      "Η διδασκαλία των αγγλικών στα σχολεία",
+      "Η τεχνολογία",
+      "Οι δάνειες λέξεις γενικά"
+     ],
+     "answer": "Η χρήση ξένων λέξεων για να ακουστεί κάτι πιο «σοβαρό», ενώ υπάρχει απλή ελληνική λέξη",
+     "why": "όταν τις χρησιμοποιούμε επειδή ακούγονται πιο «σοβαρές»"
+    },
+    {
+     "q": "Τι θέλει να δείξει με το παράδειγμα της δημοκρατίας και της τηλεφωνίας;",
+     "options": [
+      "Ότι οι λέξεις αυτές είναι αγγλικές",
+      "Ότι η πολιτική επηρεάζει τη γλώσσα",
+      "Ότι ο δανεισμός πάει και αντίστροφα",
+      "Ότι τα αγγλικά είναι δύσκολη γλώσσα"
+     ],
+     "answer": "Ότι ο δανεισμός πάει και αντίστροφα",
+     "why": "ο δανεισμός πάει και αντίστροφα"
+    }
+   ],
+   "gloss": {
+    "γλωσσολόγο": "γλωσσολόγος — linguist",
+    "δανεισμός": "δανεισμός — borrowing",
+    "φυσιολογικό φαινόμενο": "φυσιολογικό φαινόμενο — normal phenomenon",
+    "έχουν δανειστεί": "δανείζομαι — to borrow",
+    "παρέμειναν": "παραμένω — to remain",
+    "περιβάλλοντα": "περιβάλλον — setting, environment",
+    "εξαφανίζονται": "εξαφανίζομαι — to disappear",
+    "δάνειες λέξεις": "δάνεια λέξη — loanword",
+    "ανακοινωθέν": "ανακοινωθέν — press release, communiqué",
+    "αποκλείει": "αποκλείω — to exclude",
+    "αντίστροφα": "αντίστροφα — the other way round"
+   }
+  }
+ ]
+}
