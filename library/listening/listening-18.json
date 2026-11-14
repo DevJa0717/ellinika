@@ -1,0 +1,790 @@
+{
+ "items": [
+  {
+   "id": "l18-ann-nosokomeio",
+   "title": "Αλλαγές στα εξωτερικά ιατρεία",
+   "title_en": "Changes at the outpatient clinics",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ηχογραφημένη ανακοίνωση στο τηλεφωνικό κέντρο ενός νοσοκομείου.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Καλέσατε το Γενικό Νοσοκομείο. Σας ενημερώνουμε ότι από τη Δευτέρα τα ραντεβού για τα εξωτερικά ιατρεία κλείνονται μόνο ηλεκτρονικά ή στον αριθμό ένα τέσσερα πέντε τρία τρία, και όχι πια στο ταμείο του νοσοκομείου.",
+     "en": "You have called the General Hospital. We inform you that from Monday, appointments for the outpatient clinics can only be booked online or on 14533, and no longer at the hospital cashier's desk."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Το καρδιολογικό ιατρείο μεταφέρεται προσωρινά στο ισόγειο του νέου κτιρίου, λόγω εργασιών ανακαίνισης. Οι ασθενείς που έχουν ήδη ραντεβού δεν χρειάζεται να κάνουν τίποτα· θα εξεταστούν κανονικά στη νέα θέση.",
+     "en": "The cardiology clinic is moving temporarily to the ground floor of the new building, due to renovation work. Patients who already have an appointment don't need to do anything; they will be examined as normal in the new location."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Παρακαλούμε να προσέρχεστε δεκαπέντε λεπτά νωρίτερα, με την αστυνομική σας ταυτότητα και το παραπεμπτικό του γιατρού σας. Για επείγοντα περιστατικά, απευθυνθείτε απευθείας στο τμήμα επειγόντων.",
+     "en": "Please arrive fifteen minutes early, with your identity card and your doctor's referral. For emergencies, go directly to the emergency department."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς κλείνονται τα ραντεβού από τη Δευτέρα;",
+     "options": [
+      "Μόνο μέσω του οικογενειακού γιατρού",
+      "Χωρίς ραντεβού",
+      "Μόνο στο ταμείο",
+      "Μόνο ηλεκτρονικά ή τηλεφωνικά"
+     ],
+     "answer": "Μόνο ηλεκτρονικά ή τηλεφωνικά",
+     "why": "κλείνονται μόνο ηλεκτρονικά ή στον αριθμό"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν όσοι έχουν ήδη ραντεβού στο καρδιολογικό;",
+     "options": [
+      "Τίποτα, θα εξεταστούν στη νέα θέση",
+      "Να τηλεφωνήσουν για επιβεβαίωση",
+      "Να κλείσουν νέο ραντεβού",
+      "Να πάνε σε άλλο νοσοκομείο"
+     ],
+     "answer": "Τίποτα, θα εξεταστούν στη νέα θέση",
+     "why": "δεν χρειάζεται να κάνουν τίποτα"
+    },
+    {
+     "q": "Τι πρέπει να φέρουν οι ασθενείς;",
+     "options": [
+      "Τις παλιές εξετάσεις τους",
+      "Την ταυτότητα και το παραπεμπτικό",
+      "Χρήματα σε μετρητά",
+      "Το βιβλιάριο εμβολίων"
+     ],
+     "answer": "Την ταυτότητα και το παραπεμπτικό",
+     "why": "με την αστυνομική σας ταυτότητα και το παραπεμπτικό του γιατρού σας"
+    }
+   ],
+   "gloss": {
+    "τηλεφωνικό κέντρο": "τηλεφωνικό κέντρο — switchboard, call centre",
+    "εξωτερικά ιατρεία": "εξωτερικά ιατρεία — outpatient clinics",
+    "κλείνονται": "κλείνομαι — to be booked",
+    "καρδιολογικό ιατρείο": "καρδιολογικό ιατρείο — cardiology clinic",
+    "μεταφέρεται": "μεταφέρομαι — to be moved",
+    "ισόγειο": "ισόγειο — ground floor",
+    "θα εξεταστούν": "εξετάζομαι — to be examined",
+    "να προσέρχεστε": "προσέρχομαι — to arrive, attend",
+    "παραπεμπτικό": "παραπεμπτικό — (doctor's) referral",
+    "επείγοντα περιστατικά": "επείγον περιστατικό — emergency case",
+    "τμήμα επειγόντων": "τμήμα επειγόντων — emergency department"
+   }
+  },
+  {
+   "id": "l18-vm-anelkystiras",
+   "title": "Ο ανελκυστήρας της πολυκατοικίας",
+   "title_en": "The building's lift",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα από τη διαχειρίστρια μιας πολυκατοικίας προς έναν ένοικο.",
+   "script": [
+    {
+     "speaker": "Διαχειρίστρια",
+     "voice": "f",
+     "el": "Γεια σας, κύριε Ανδρέου, η Βούλα είμαι, η διαχειρίστρια. Σας τηλεφωνώ για τον ανελκυστήρα. Ο τεχνικός ήρθε σήμερα και είπε ότι το μοτέρ είναι πολύ παλιό και πρέπει να αλλαχτεί, αλλιώς δεν θα περάσει τον ετήσιο έλεγχο ασφαλείας.",
+     "en": "Hello, Mr Andreou, it's Voula, the building manager. I'm calling about the lift. The technician came today and said the motor is very old and must be replaced, otherwise it won't pass the annual safety inspection."
+    },
+    {
+     "speaker": "Διαχειρίστρια",
+     "voice": "f",
+     "el": "Η δαπάνη είναι περίπου τέσσερις χιλιάδες ευρώ, και θα μοιραστεί στα διαμερίσματα ανάλογα με τα χιλιοστά. Για εσάς, στον τέταρτο όροφο, βγαίνει γύρω στα τριακόσια πενήντα ευρώ. Αν θέλετε, μπορείτε να το πληρώσετε σε τρεις δόσεις.",
+     "en": "The cost is about four thousand euros, and it will be split among the flats according to their shares. For you, on the fourth floor, it comes to around three hundred and fifty euros. If you like, you can pay in three instalments."
+    },
+    {
+     "speaker": "Διαχειρίστρια",
+     "voice": "f",
+     "el": "Θα κάνουμε γενική συνέλευση την Τετάρτη στις οχτώ το βράδυ, στην είσοδο, για να το εγκρίνουμε. Αν δεν μπορείτε να έρθετε, μπορείτε να δώσετε εξουσιοδότηση σε κάποιον γείτονα. Καλό βράδυ!",
+     "en": "We'll hold a general meeting on Wednesday at eight in the evening, in the entrance hall, to approve it. If you can't come, you can authorise a neighbour to vote for you. Good evening!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί πρέπει να αλλαχτεί το μοτέρ;",
+     "options": [
+      "Γιατί κάνει θόρυβο",
+      "Γιατί χάλασε χθες",
+      "Γιατί το ζήτησαν οι ένοικοι",
+      "Γιατί είναι παλιό και δεν θα περάσει τον έλεγχο ασφαλείας"
+     ],
+     "answer": "Γιατί είναι παλιό και δεν θα περάσει τον έλεγχο ασφαλείας",
+     "why": "δεν θα περάσει τον ετήσιο έλεγχο ασφαλείας"
+    },
+    {
+     "q": "Πώς θα μοιραστεί η δαπάνη;",
+     "options": [
+      "Μόνο στους πάνω ορόφους",
+      "Εξίσου σε όλους",
+      "Ανάλογα με τα χιλιοστά κάθε διαμερίσματος",
+      "Θα την πληρώσει ο ιδιοκτήτης"
+     ],
+     "answer": "Ανάλογα με τα χιλιοστά κάθε διαμερίσματος",
+     "why": "θα μοιραστεί στα διαμερίσματα ανάλογα με τα χιλιοστά"
+    },
+    {
+     "q": "Τι μπορεί να κάνει ο κύριος Ανδρέου αν δεν έρθει στη συνέλευση;",
+     "options": [
+      "Να δώσει εξουσιοδότηση σε έναν γείτονα",
+      "Να στείλει email",
+      "Τίποτα",
+      "Να ψηφίσει τηλεφωνικά"
+     ],
+     "answer": "Να δώσει εξουσιοδότηση σε έναν γείτονα",
+     "why": "μπορείτε να δώσετε εξουσιοδότηση σε κάποιον γείτονα"
+    }
+   ],
+   "gloss": {
+    "διαχειρίστρια": "διαχειρίστρια — (female) building manager",
+    "ένοικο": "ένοικος — tenant, resident",
+    "ανελκυστήρα": "ανελκυστήρας — lift, elevator",
+    "μοτέρ": "μοτέρ — motor",
+    "να αλλαχτεί": "αλλάζομαι — to be replaced",
+    "ετήσιο έλεγχο ασφαλείας": "ετήσιος έλεγχος ασφαλείας — annual safety inspection",
+    "δαπάνη": "δαπάνη — cost, expense",
+    "χιλιοστά": "χιλιοστά — shares (each flat's portion of building costs)",
+    "δόσεις": "δόση — instalment",
+    "γενική συνέλευση": "γενική συνέλευση — general meeting",
+    "εξουσιοδότηση": "εξουσιοδότηση — authorisation, proxy"
+   }
+  },
+  {
+   "id": "l18-dia-kreopoleio",
+   "title": "Στον χασάπη",
+   "title_en": "At the butcher's",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συζήτηση σε ένα κρεοπωλείο λίγες μέρες πριν από το Πάσχα.",
+   "script": [
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Καλημέρα, κυρ Θανάση. Θέλω να παραγγείλω αρνί για το Πάσχα. Θα είμαστε δεκαπέντε άτομα και θα το ψήσουμε στη σούβλα, στο χωριό.",
+     "en": "Good morning, Mr Thanasis. I'd like to order lamb for Easter. We'll be fifteen people and we'll roast it on the spit, in the village."
+    },
+    {
+     "speaker": "Χασάπης",
+     "voice": "m",
+     "el": "Για δεκαπέντε άτομα, με τα συνοδευτικά, ένα αρνί δεκατεσσάρων με δεκαπέντε κιλά φτάνει. Είναι ντόπιο, από βοσκό της περιοχής. Θέλετε να σας κρατήσω και τα εντόσθια για τη μαγειρίτσα;",
+     "en": "For fifteen people, with side dishes, a lamb of fourteen to fifteen kilos is enough. It's local, from a shepherd in the area. Do you want me to keep the offal for you for the magiritsa?"
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Ναι, βέβαια, τη μαγειρίτσα τη φτιάχνει η πεθερά μου το Μεγάλο Σάββατο. Και θα ήθελα κι ένα κοκορέτσι έτοιμο, αν γίνεται.",
+     "en": "Yes, of course, my mother-in-law makes the magiritsa on Holy Saturday. And I'd also like a ready kokoretsi, if possible."
+    },
+    {
+     "speaker": "Χασάπης",
+     "voice": "m",
+     "el": "Γίνεται. Περάστε να τα πάρετε τη Μεγάλη Πέμπτη μετά τις πέντε, γιατί το Σάββατο θα έχει πολύ κόσμο. Θα χρειαστώ μια προκαταβολή πενήντα ευρώ για να κλείσει η παραγγελία.",
+     "en": "That's fine. Come and pick them up on Holy Thursday after five, because on Saturday it'll be very busy. I'll need a fifty-euro deposit to confirm the order."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς θα μαγειρέψει η οικογένεια το αρνί;",
+     "options": [
+      "Στη σούβλα",
+      "Στον φούρνο",
+      "Στην κατσαρόλα",
+      "Στη σχάρα"
+     ],
+     "answer": "Στη σούβλα",
+     "why": "θα το ψήσουμε στη σούβλα"
+    },
+    {
+     "q": "Ποιος φτιάχνει τη μαγειρίτσα;",
+     "options": [
+      "Η μητέρα της",
+      "Η πεθερά της πελάτισσας",
+      "Ο χασάπης",
+      "Η πελάτισσα"
+     ],
+     "answer": "Η πεθερά της πελάτισσας",
+     "why": "τη μαγειρίτσα τη φτιάχνει η πεθερά μου"
+    },
+    {
+     "q": "Γιατί προτείνει ο χασάπης να περάσει την Πέμπτη;",
+     "options": [
+      "Γιατί το Σάββατο θα είναι κλειστά",
+      "Γιατί η Πέμπτη είναι φθηνότερη",
+      "Γιατί το αρνί θα είναι πιο φρέσκο",
+      "Γιατί το Σάββατο θα έχει πολύ κόσμο"
+     ],
+     "answer": "Γιατί το Σάββατο θα έχει πολύ κόσμο",
+     "why": "γιατί το Σάββατο θα έχει πολύ κόσμο"
+    }
+   ],
+   "gloss": {
+    "κρεοπωλείο": "κρεοπωλείο — butcher's shop",
+    "να παραγγείλω": "παραγγέλνω — to order",
+    "σούβλα": "σούβλα — spit",
+    "συνοδευτικά": "συνοδευτικό — side dish",
+    "ντόπιο": "ντόπιος — local",
+    "εντόσθια": "εντόσθια — offal",
+    "μαγειρίτσα": "μαγειρίτσα — magiritsa (Easter soup)",
+    "πεθερά": "πεθερά — mother-in-law",
+    "Μεγάλο Σάββατο": "Μεγάλο Σάββατο — Holy Saturday",
+    "κοκορέτσι": "κοκορέτσι — kokoretsi (spit-roasted offal)",
+    "Μεγάλη Πέμπτη": "Μεγάλη Πέμπτη — Holy Thursday",
+    "παραγγελία": "παραγγελία — order"
+   }
+  },
+  {
+   "id": "l18-dia-ergasia",
+   "title": "Συνέντευξη για πρακτική άσκηση",
+   "title_en": "An internship interview",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη για πρακτική άσκηση σε ένα γραφείο αρχιτεκτόνων.",
+   "script": [
+    {
+     "speaker": "Αρχιτέκτονας",
+     "voice": "f",
+     "el": "Λοιπόν, Μάρκο, είδα το πορτφόλιό σου και μου άρεσαν πολύ οι μακέτες σου. Γιατί θέλεις να κάνεις την πρακτική σου σε ένα μικρό γραφείο σαν το δικό μας;",
+     "en": "So, Markos, I saw your portfolio and I really liked your models. Why do you want to do your internship at a small office like ours?"
+    },
+    {
+     "speaker": "Μάρκος",
+     "voice": "m",
+     "el": "Γιατί σε ένα μεγάλο γραφείο ο ασκούμενος συνήθως κάνει μόνο σχέδια στον υπολογιστή. Εδώ πιστεύω ότι θα μπορώ να δω ένα έργο από την αρχή ως το τέλος, να πηγαίνω στα εργοτάξια και να μάθω πώς μιλάμε με τους πελάτες.",
+     "en": "Because in a big office the intern usually only does drawings on the computer. Here I believe I'll be able to see a project from start to finish, go to building sites and learn how we talk to clients."
+    },
+    {
+     "speaker": "Αρχιτέκτονας",
+     "voice": "f",
+     "el": "Σωστά. Να ξέρεις όμως ότι ασχολούμαστε κυρίως με αναπαλαιώσεις παλιών σπιτιών, που έχουν πολλές απρόβλεπτες δυσκολίες. Η πρακτική διαρκεί έξι μήνες, πέντε μέρες την εβδομάδα, με αμοιβή που καλύπτει το πρόγραμμα του πανεπιστημίου.",
+     "en": "Right. But you should know that we mainly work on restorations of old houses, which have many unexpected difficulties. The internship lasts six months, five days a week, with pay covered by the university's programme."
+    },
+    {
+     "speaker": "Μάρκος",
+     "voice": "m",
+     "el": "Αυτό ακριβώς με ενδιαφέρει. Η διπλωματική μου εργασία είναι για τα παραδοσιακά σπίτια του Πηλίου, οπότε θα ήταν μεγάλη ευκαιρία για μένα.",
+     "en": "That's exactly what interests me. My thesis is on the traditional houses of Pelion, so it would be a great opportunity for me."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί προτιμά ο Μάρκος ένα μικρό γραφείο;",
+     "options": [
+      "Γιατί πληρώνει καλύτερα",
+      "Γιατί δεν δουλεύει με υπολογιστές",
+      "Γιατί είναι κοντά στο σπίτι του",
+      "Γιατί θα μπορεί να δει ένα έργο από την αρχή ως το τέλος"
+     ],
+     "answer": "Γιατί θα μπορεί να δει ένα έργο από την αρχή ως το τέλος",
+     "why": "θα μπορώ να δω ένα έργο από την αρχή ως το τέλος"
+    },
+    {
+     "q": "Με τι ασχολείται κυρίως το γραφείο;",
+     "options": [
+      "Με νέες πολυκατοικίες",
+      "Με δημόσια κτίρια",
+      "Με εσωτερική διακόσμηση",
+      "Με αναπαλαιώσεις παλιών σπιτιών"
+     ],
+     "answer": "Με αναπαλαιώσεις παλιών σπιτιών",
+     "why": "ασχολούμαστε κυρίως με αναπαλαιώσεις παλιών σπιτιών"
+    },
+    {
+     "q": "Για ποιο θέμα είναι η διπλωματική του Μάρκου;",
+     "options": [
+      "Για τους ουρανοξύστες",
+      "Για τις μακέτες",
+      "Για τα παραδοσιακά σπίτια του Πηλίου",
+      "Για τα εργοτάξια"
+     ],
+     "answer": "Για τα παραδοσιακά σπίτια του Πηλίου",
+     "why": "Η διπλωματική μου εργασία είναι για τα παραδοσιακά σπίτια του Πηλίου"
+    }
+   ],
+   "gloss": {
+    "πρακτική άσκηση": "πρακτική άσκηση — internship, work placement",
+    "πορτφόλιό": "πορτφόλιο — portfolio",
+    "μακέτες": "μακέτα — (architectural) model",
+    "ασκούμενος": "ασκούμενος — intern, trainee",
+    "εργοτάξια": "εργοτάξιο — building site",
+    "αναπαλαιώσεις": "αναπαλαίωση — restoration (of old buildings)",
+    "απρόβλεπτες": "απρόβλεπτος — unexpected",
+    "διαρκεί": "διαρκώ — to last",
+    "αμοιβή": "αμοιβή — pay, fee",
+    "διπλωματική μου εργασία": "διπλωματική εργασία — (degree) thesis"
+   }
+  },
+  {
+   "id": "l18-mon-kolymvisi",
+   "title": "Κολύμπι τον χειμώνα",
+   "title_en": "Winter swimming",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν άντρα να μιλάει για τη συνήθειά του να κολυμπά στη θάλασσα όλο τον χρόνο.",
+   "script": [
+    {
+     "speaker": "Παύλος",
+     "voice": "m",
+     "el": "Κολυμπώ στη θάλασσα κάθε πρωί, χειμώνα καλοκαίρι, εδώ και δεκαπέντε χρόνια. Οι φίλοι μου νομίζουν ότι είμαι τρελός, αλλά στην παραλία της γειτονιάς μας είμαστε μια ολόκληρη παρέα, οι λεγόμενοι «χειμερινοί κολυμβητές».",
+     "en": "I swim in the sea every morning, winter and summer, and have done for fifteen years. My friends think I'm mad, but at our local beach we're a whole group, the so-called 'winter swimmers'."
+    },
+    {
+     "speaker": "Παύλος",
+     "voice": "m",
+     "el": "Τον Ιανουάριο το νερό πέφτει στους δεκατέσσερις βαθμούς. Τα πρώτα δευτερόλεπτα είναι σοκ, η ανάσα σου κόβεται. Γι' αυτό μπαίνουμε σιγά σιγά, δεν βουτάμε απότομα, και δεν μένουμε μέσα περισσότερο από δέκα λεπτά. Και ποτέ μόνοι.",
+     "en": "In January the water drops to fourteen degrees. The first seconds are a shock, your breath catches. That's why we go in slowly, we don't dive in abruptly, and we don't stay in for more than ten minutes. And never alone."
+    },
+    {
+     "speaker": "Παύλος",
+     "voice": "m",
+     "el": "Όταν βγαίνεις, νιώθεις μια ενέργεια που δεν περιγράφεται. Από τότε που ξεκίνησα, σχεδόν δεν αρρωσταίνω, αν και ο γιατρός μου λέει ότι αυτό δεν έχει αποδειχθεί επιστημονικά. Το σίγουρο είναι ότι μετά από ένα τέτοιο πρωινό, κανένα πρόβλημα της δουλειάς δεν μου φαίνεται μεγάλο.",
+     "en": "When you come out, you feel an energy that can't be described. Since I started, I hardly ever get ill, although my doctor says this hasn't been scientifically proven. What's certain is that after a morning like that, no problem at work seems big to me."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιοι είναι οι «χειμερινοί κολυμβητές»;",
+     "options": [
+      "Ναυαγοσώστες",
+      "Μια παρέα που κολυμπά στη θάλασσα όλο τον χρόνο",
+      "Επαγγελματίες αθλητές",
+      "Μια ομάδα που κολυμπά σε πισίνα"
+     ],
+     "answer": "Μια παρέα που κολυμπά στη θάλασσα όλο τον χρόνο",
+     "why": "είμαστε μια ολόκληρη παρέα, οι λεγόμενοι «χειμερινοί κολυμβητές»"
+    },
+    {
+     "q": "Ποιον κανόνα ακολουθούν;",
+     "options": [
+      "Βουτούν απότομα",
+      "Μένουν μέσα μία ώρα",
+      "Κολυμπούν μόνο το καλοκαίρι",
+      "Δεν κολυμπούν ποτέ μόνοι"
+     ],
+     "answer": "Δεν κολυμπούν ποτέ μόνοι",
+     "why": "Και ποτέ μόνοι"
+    },
+    {
+     "q": "Τι λέει ο γιατρός του Παύλου;",
+     "options": [
+      "Ότι πρέπει να σταματήσει",
+      "Ότι το όφελος για την υγεία δεν έχει αποδειχθεί επιστημονικά",
+      "Ότι είναι τρελός",
+      "Ότι κολυμπά πολύ λίγο"
+     ],
+     "answer": "Ότι το όφελος για την υγεία δεν έχει αποδειχθεί επιστημονικά",
+     "why": "αυτό δεν έχει αποδειχθεί επιστημονικά"
+    }
+   ],
+   "gloss": {
+    "χειμερινοί κολυμβητές": "χειμερινός κολυμβητής — winter swimmer",
+    "δευτερόλεπτα": "δευτερόλεπτο — second",
+    "η ανάσα σου κόβεται": "μου κόβεται η ανάσα — to lose one's breath",
+    "βουτάμε": "βουτάω — to dive, plunge",
+    "απότομα": "απότομα — abruptly",
+    "δεν περιγράφεται": "δεν περιγράφεται — is indescribable",
+    "αρρωσταίνω": "αρρωσταίνω — to fall ill",
+    "έχει αποδειχθεί": "αποδεικνύομαι — to be proven"
+   }
+  },
+  {
+   "id": "l18-rep-vikos",
+   "title": "Το φαράγγι του Βίκου",
+   "title_en": "The Vikos Gorge",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ταξιδιωτικό ρεπορτάζ από το Ζαγόρι, στην Ήπειρο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Βρισκόμαστε στο Ζαγόρι, μια περιοχή με σαράντα έξι πέτρινα χωριά στις πλαγιές της Πίνδου. Το 2023 το πολιτιστικό τοπίο του Ζαγορίου ανακηρύχθηκε μνημείο παγκόσμιας κληρονομιάς της UNESCO.",
+     "en": "We are in Zagori, an area with forty-six stone villages on the slopes of the Pindus. In 2023 the cultural landscape of Zagori was declared a UNESCO World Heritage Site."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Το πιο γνωστό του αξιοθέατο είναι το φαράγγι του Βίκου, με απόκρημνα τοιχώματα που σε ορισμένα σημεία ξεπερνούν τα εννιακόσια μέτρα. Η διάσχισή του, από το Μονοδένδρι ως το Βίκο, διαρκεί περίπου έξι ώρες και απαιτεί καλή φυσική κατάσταση.",
+     "en": "Its best-known attraction is the Vikos Gorge, with sheer walls that in places exceed nine hundred metres. Crossing it, from Monodendri to Vikos, takes about six hours and requires good fitness."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τα χωριά συνδέονται με λιθόστρωτα μονοπάτια και τοξωτά πέτρινα γεφύρια, που χτίστηκαν κυρίως τον δέκατο όγδοο και τον δέκατο ένατο αιώνα με χρήματα ντόπιων εμπόρων. Οι κάτοικοι λένε ότι ο καλύτερος τρόπος για να γνωρίσεις το Ζαγόρι είναι με τα πόδια.",
+     "en": "The villages are linked by cobbled paths and arched stone bridges, built mainly in the eighteenth and nineteenth centuries with money from local merchants. Residents say the best way to get to know Zagori is on foot."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έγινε το 2023;",
+     "options": [
+      "Έκλεισε το φαράγγι",
+      "Χτίστηκε νέο γεφύρι",
+      "Το Ζαγόρι ανακηρύχθηκε μνημείο παγκόσμιας κληρονομιάς",
+      "Άνοιξε νέος δρόμος"
+     ],
+     "answer": "Το Ζαγόρι ανακηρύχθηκε μνημείο παγκόσμιας κληρονομιάς",
+     "why": "ανακηρύχθηκε μνημείο παγκόσμιας κληρονομιάς της UNESCO"
+    },
+    {
+     "q": "Πόσο διαρκεί η διάσχιση του φαραγγιού;",
+     "options": [
+      "Δύο μέρες",
+      "Μία ώρα",
+      "Μισή μέρα με αυτοκίνητο",
+      "Περίπου έξι ώρες"
+     ],
+     "answer": "Περίπου έξι ώρες",
+     "why": "διαρκεί περίπου έξι ώρες"
+    },
+    {
+     "q": "Με τι χρήματα χτίστηκαν τα πέτρινα γεφύρια;",
+     "options": [
+      "Με ευρωπαϊκά προγράμματα",
+      "Με χρήματα της εκκλησίας",
+      "Με χρήματα του κράτους",
+      "Με χρήματα ντόπιων εμπόρων"
+     ],
+     "answer": "Με χρήματα ντόπιων εμπόρων",
+     "why": "με χρήματα ντόπιων εμπόρων"
+    }
+   ],
+   "gloss": {
+    "πέτρινα": "πέτρινος — (made of) stone",
+    "πλαγιές": "πλαγιά — slope",
+    "πολιτιστικό τοπίο": "πολιτιστικό τοπίο — cultural landscape",
+    "ανακηρύχθηκε": "ανακηρύσσομαι — to be declared",
+    "αξιοθέατο": "αξιοθέατο — sight, attraction",
+    "απόκρημνα": "απόκρημνος — sheer, precipitous",
+    "τοιχώματα": "τοίχωμα — wall (of a gorge)",
+    "διάσχισή": "διάσχιση — crossing",
+    "λιθόστρωτα": "λιθόστρωτος — cobbled",
+    "τοξωτά": "τοξωτός — arched",
+    "γεφύρια": "γεφύρι — (stone) bridge",
+    "εμπόρων": "έμπορος — merchant"
+   }
+  },
+  {
+   "id": "l18-rep-trena",
+   "title": "Το τρενάκι του Πηλίου",
+   "title_en": "The little train of Pelion",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για ένα ιστορικό τρένο στο Πήλιο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Κάθε Σαββατοκύριακο, από την άνοιξη ως το φθινόπωρο, ένα μικρό ατμοκίνητο τρένο ξεκινά από τις Άνω Λεχώνιες και ανεβαίνει αργά ως τις Μηλιές, μέσα από ελαιώνες και πυκνά δάση από πλατάνια.",
+     "en": "Every weekend, from spring to autumn, a small steam train sets off from Ano Lechonia and climbs slowly to Milies, through olive groves and dense plane-tree forests."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Η γραμμή έχει πλάτος μόλις εξήντα εκατοστά και κατασκευάστηκε στις αρχές του εικοστού αιώνα. Στη διαδρομή το τρένο περνά πάνω από μια περίφημη πέτρινη γέφυρα, που σχεδίασε, σύμφωνα με την παράδοση, ο Ιταλός μηχανικός Εβαρίστο ντε Κίρικο, πατέρας του ζωγράφου Τζόρτζιο ντε Κίρικο.",
+     "en": "The track is only sixty centimetres wide and was built at the beginning of the twentieth century. Along the way the train crosses a famous stone bridge designed, according to tradition, by the Italian engineer Evaristo de Chirico, father of the painter Giorgio de Chirico."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Η διαδρομή κρατά περίπου μιάμιση ώρα, με μια στάση στο χωριό Άνω Γατζέα για νερό. Τα εισιτήρια εξαντλούνται συχνά, γι' αυτό καλό είναι να κλείνετε θέση από πριν, ιδίως τον Αύγουστο.",
+     "en": "The journey takes about an hour and a half, with a stop at the village of Ano Gatzea for water. Tickets often sell out, so it's a good idea to book a seat in advance, especially in August."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε λειτουργεί το τρενάκι;",
+     "options": [
+      "Κάθε μέρα όλο τον χρόνο",
+      "Μόνο τον χειμώνα",
+      "Μόνο τον Αύγουστο",
+      "Τα Σαββατοκύριακα από την άνοιξη ως το φθινόπωρο"
+     ],
+     "answer": "Τα Σαββατοκύριακα από την άνοιξη ως το φθινόπωρο",
+     "why": "Κάθε Σαββατοκύριακο, από την άνοιξη ως το φθινόπωρο"
+    },
+    {
+     "q": "Ποιος σχεδίασε, σύμφωνα με την παράδοση, την πέτρινη γέφυρα;",
+     "options": [
+      "Ο πατέρας του, Εβαρίστο ντε Κίρικο",
+      "Ένας Γάλλος αρχιτέκτονας",
+      "Ένας ντόπιος μάστορας",
+      "Ο ζωγράφος Τζόρτζιο ντε Κίρικο"
+     ],
+     "answer": "Ο πατέρας του, Εβαρίστο ντε Κίρικο",
+     "why": "ο Ιταλός μηχανικός Εβαρίστο ντε Κίρικο, πατέρας του ζωγράφου"
+    },
+    {
+     "q": "Τι συμβουλεύει ο δημοσιογράφος;",
+     "options": [
+      "Να πάτε μόνο τον Αύγουστο",
+      "Να κλείνετε θέση από πριν",
+      "Να πάτε με αυτοκίνητο",
+      "Να αγοράσετε εισιτήριο στο τρένο"
+     ],
+     "answer": "Να κλείνετε θέση από πριν",
+     "why": "καλό είναι να κλείνετε θέση από πριν"
+    }
+   ],
+   "gloss": {
+    "ατμοκίνητο": "ατμοκίνητος — steam-powered",
+    "ελαιώνες": "ελαιώνας — olive grove",
+    "πυκνά": "πυκνός — dense",
+    "πλατάνια": "πλάτανος — plane tree",
+    "γραμμή": "γραμμή — (railway) track, line",
+    "πλάτος": "πλάτος — width",
+    "κατασκευάστηκε": "κατασκευάζομαι — to be built",
+    "περίφημη": "περίφημος — famous",
+    "εξαντλούνται": "εξαντλούμαι — to sell out, run out"
+   }
+  },
+  {
+   "id": "l18-int-gelioto",
+   "title": "Η γελωτοποιός του νοσοκομείου",
+   "title_en": "The hospital clown",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια γυναίκα που επισκέπτεται παιδιά στο νοσοκομείο ως κλόουν. Η ίδια αυτοαποκαλείται «γελωτοποιός».",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Κυρία Λιάπη, τι κάνει ένας κλόουν σε ένα παιδιατρικό νοσοκομείο;",
+     "en": "Ms Liapi, what does a clown do in a children's hospital?"
+    },
+    {
+     "speaker": "Κλόουν",
+     "voice": "f",
+     "el": "Πάνω απ' όλα, δίνει στο παιδί την αίσθηση ότι έχει ξανά τον έλεγχο. Στο νοσοκομείο όλοι του λένε τι να κάνει: να πάρει το φάρμακο, να ξαπλώσει, να μην κουνηθεί. Εμείς ρωτάμε: «Θέλεις να μπω;» Αν πει όχι, φεύγουμε. Αυτό από μόνο του είναι θεραπευτικό.",
+     "en": "Above all, it gives the child the feeling of being in control again. In hospital everyone tells them what to do: take the medicine, lie down, don't move. We ask: 'Do you want me to come in?' If they say no, we leave. That in itself is therapeutic."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Χρειάζεται ειδική εκπαίδευση;",
+     "en": "Is special training needed?"
+    },
+    {
+     "speaker": "Κλόουν",
+     "voice": "f",
+     "el": "Βέβαια. Δεν αρκεί να είσαι αστείος. Μαθαίνουμε αυτοσχεδιασμό, αλλά και κανόνες υγιεινής, και συνεργαζόμαστε στενά με τις νοσηλεύτριες, που μας λένε ποιο παιδί έχει μια δύσκολη μέρα. Μερικές φορές το πιο σημαντικό που κάνουμε δεν είναι να κάνουμε το παιδί να γελάσει, αλλά να κάνουμε τους γονείς να χαμογελάσουν για λίγα λεπτά.",
+     "en": "Of course. It's not enough to be funny. We learn improvisation, but also hygiene rules, and we work closely with the nurses, who tell us which child is having a hard day. Sometimes the most important thing we do isn't making the child laugh, but making the parents smile for a few minutes."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι δίνει ο κλόουν στο παιδί, πάνω απ' όλα;",
+     "options": [
+      "Φάρμακα",
+      "Την αίσθηση ότι έχει ξανά τον έλεγχο",
+      "Δώρα",
+      "Πληροφορίες για την αρρώστια του"
+     ],
+     "answer": "Την αίσθηση ότι έχει ξανά τον έλεγχο",
+     "why": "δίνει στο παιδί την αίσθηση ότι έχει ξανά τον έλεγχο"
+    },
+    {
+     "q": "Τι κάνουν οι κλόουν αν το παιδί δεν θέλει να μπουν;",
+     "options": [
+      "Ρωτούν τους γονείς",
+      "Μπαίνουν έτσι κι αλλιώς",
+      "Περιμένουν έξω από την πόρτα",
+      "Φεύγουν"
+     ],
+     "answer": "Φεύγουν",
+     "why": "Αν πει όχι, φεύγουμε"
+    },
+    {
+     "q": "Με ποιους συνεργάζονται στενά;",
+     "options": [
+      "Με τις νοσηλεύτριες",
+      "Με τους δασκάλους",
+      "Με τους γιατρούς μόνο",
+      "Με άλλους ηθοποιούς"
+     ],
+     "answer": "Με τις νοσηλεύτριες",
+     "why": "συνεργαζόμαστε στενά με τις νοσηλεύτριες"
+    }
+   ],
+   "gloss": {
+    "γελωτοποιός": "γελωτοποιός — clown, jester",
+    "παιδιατρικό νοσοκομείο": "παιδιατρικό νοσοκομείο — children's hospital",
+    "αίσθηση": "αίσθηση — feeling, sense",
+    "να μην κουνηθεί": "κουνιέμαι — to move",
+    "θεραπευτικό": "θεραπευτικός — therapeutic",
+    "εκπαίδευση": "εκπαίδευση — training",
+    "αυτοσχεδιασμό": "αυτοσχεδιασμός — improvisation",
+    "κανόνες υγιεινής": "κανόνες υγιεινής — hygiene rules",
+    "νοσηλεύτριες": "νοσηλεύτρια — (female) nurse"
+   }
+  },
+  {
+   "id": "l18-mon-dimokratia",
+   "title": "Η κλήρωση στην αρχαία Αθήνα",
+   "title_en": "Selection by lot in ancient Athens",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από μια διάλεξη για τον θεσμό της κλήρωσης στην αθηναϊκή δημοκρατία.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Όταν σκεφτόμαστε τη δημοκρατία, σκεφτόμαστε εκλογές. Οι αρχαίοι Αθηναίοι, όμως, θεωρούσαν τις εκλογές μάλλον αριστοκρατικό θεσμό, γιατί ευνοούν όσους είναι γνωστοί, πλούσιοι ή καλοί ρήτορες. Το κατεξοχήν δημοκρατικό εργαλείο ήταν η κλήρωση.",
+     "en": "When we think of democracy, we think of elections. The ancient Athenians, however, considered elections a rather aristocratic institution, because they favour those who are well known, wealthy or good speakers. The quintessentially democratic tool was selection by lot."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Με κλήρωση επιλέγονταν τα περισσότερα αξιώματα, τα μέλη της Βουλής των Πεντακοσίων και οι δικαστές των λαϊκών δικαστηρίων. Για τον σκοπό αυτό χρησιμοποιούσαν μια ειδική πέτρινη μηχανή, το κληρωτήριο, όπου τοποθετούσαν τα ονόματα των πολιτών και τα ανακάτευαν με λευκούς και μαύρους κύβους. Η θητεία ήταν συνήθως ετήσια, και τα περισσότερα αξιώματα δεν μπορούσε κανείς να τα κατέχει δεύτερη φορά.",
+     "en": "Most offices, the members of the Council of Five Hundred and the jurors of the popular courts were chosen by lot. For this purpose they used a special stone machine, the kleroterion, where they placed the citizens' names and mixed them with white and black cubes. Terms were usually annual, and most offices could not be held a second time."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Υπήρχαν, βέβαια, εξαιρέσεις: οι στρατηγοί, για παράδειγμα, εκλέγονταν, γιατί για τον πόλεμο χρειαζόταν ικανότητα και όχι τύχη. Και δεν πρέπει να ξεχνάμε ότι «πολίτες» ήταν μόνο οι ενήλικοι άντρες· οι γυναίκες, οι δούλοι και οι μέτοικοι ήταν αποκλεισμένοι. Παρ' όλα αυτά, η ιδέα ότι κάθε πολίτης είναι ικανός να κυβερνήσει επανέρχεται σήμερα, με τις λεγόμενες «συνελεύσεις πολιτών» που επιλέγονται με κλήρωση.",
+     "en": "There were, of course, exceptions: generals, for example, were elected, because war required ability and not luck. And we mustn't forget that 'citizens' were only adult men; women, slaves and resident foreigners were excluded. Nevertheless, the idea that every citizen is capable of governing is returning today, with the so-called 'citizens' assemblies' chosen by lot."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί οι Αθηναίοι θεωρούσαν τις εκλογές μάλλον αριστοκρατικό θεσμό;",
+     "options": [
+      "Γιατί ψήφιζαν μόνο οι γυναίκες",
+      "Γιατί ευνοούν τους γνωστούς, τους πλούσιους και τους καλούς ρήτορες",
+      "Γιατί τις είχαν εφεύρει οι Σπαρτιάτες",
+      "Γιατί ήταν ακριβές"
+     ],
+     "answer": "Γιατί ευνοούν τους γνωστούς, τους πλούσιους και τους καλούς ρήτορες",
+     "why": "γιατί ευνοούν όσους είναι γνωστοί, πλούσιοι ή καλοί ρήτορες"
+    },
+    {
+     "q": "Γιατί οι στρατηγοί εκλέγονταν και δεν κληρώνονταν;",
+     "options": [
+      "Γιατί ήταν λίγοι",
+      "Γιατί το ζητούσαν οι θεοί",
+      "Γιατί ήταν πλούσιοι",
+      "Γιατί για τον πόλεμο χρειαζόταν ικανότητα και όχι τύχη"
+     ],
+     "answer": "Γιατί για τον πόλεμο χρειαζόταν ικανότητα και όχι τύχη",
+     "why": "για τον πόλεμο χρειαζόταν ικανότητα και όχι τύχη"
+    },
+    {
+     "q": "Πού επανέρχεται σήμερα η ιδέα της κλήρωσης;",
+     "options": [
+      "Στις συνελεύσεις πολιτών",
+      "Στα δικαστήρια",
+      "Στον στρατό",
+      "Στις εθνικές εκλογές"
+     ],
+     "answer": "Στις συνελεύσεις πολιτών",
+     "why": "με τις λεγόμενες «συνελεύσεις πολιτών» που επιλέγονται με κλήρωση"
+    }
+   ],
+   "gloss": {
+    "θεσμό": "θεσμός — institution",
+    "κλήρωσης": "κλήρωση — selection by lot, draw",
+    "αριστοκρατικό": "αριστοκρατικός — aristocratic",
+    "ευνοούν": "ευνοώ — to favour",
+    "ρήτορες": "ρήτορας — orator",
+    "κατεξοχήν": "κατεξοχήν — par excellence",
+    "αξιώματα": "αξίωμα — office, post",
+    "Βουλής των Πεντακοσίων": "Βουλή των Πεντακοσίων — Council of Five Hundred",
+    "λαϊκών δικαστηρίων": "λαϊκό δικαστήριο — popular court",
+    "κληρωτήριο": "κληρωτήριο — kleroterion (allotment machine)",
+    "θητεία": "θητεία — term of office",
+    "να τα κατέχει": "κατέχω — to hold",
+    "στρατηγοί": "στρατηγός — general",
+    "μέτοικοι": "μέτοικος — resident foreigner (metic)",
+    "αποκλεισμένοι": "αποκλεισμένος — excluded",
+    "επανέρχεται": "επανέρχομαι — to return, come back"
+   }
+  },
+  {
+   "id": "l18-int-ypnos-psifiaki",
+   "title": "Η ψηφιακή αποτοξίνωση",
+   "title_en": "Digital detox",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με έναν ψυχολόγο για τη σχέση μας με τα κινητά τηλέφωνα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κύριε Καραλής, μιλάμε πολύ για «εθισμό» στο κινητό. Είναι σωστός ο όρος;",
+     "en": "Mr Karalis, we talk a lot about 'addiction' to the mobile phone. Is the term correct?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "m",
+     "el": "Πρέπει να είμαστε προσεκτικοί. Οι περισσότεροι άνθρωποι δεν έχουν εθισμό με την κλινική έννοια· έχουν όμως μια συνήθεια που έχει σχεδιαστεί σκόπιμα για να είναι δύσκολο να την κόψουν. Οι ειδοποιήσεις, η ατελείωτη κύλιση, τα «μου αρέσει» λειτουργούν σαν μικρές ανταμοιβές που μας κάνουν να επιστρέφουμε ξανά και ξανά.",
+     "en": "We must be careful. Most people don't have an addiction in the clinical sense; they do, however, have a habit that has been deliberately designed to be hard to break. Notifications, endless scrolling, 'likes' work like small rewards that make us come back again and again."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τι συμβουλεύετε, λοιπόν; Να πετάξουμε τα κινητά;",
+     "en": "What do you advise, then? Should we throw our phones away?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "m",
+     "el": "Όχι, αυτό δεν είναι ούτε ρεαλιστικό ούτε επιθυμητό. Προτείνω μικρές, συγκεκριμένες αλλαγές: να απενεργοποιήσουμε τις ειδοποιήσεις που δεν είναι απαραίτητες, να μην έχουμε το κινητό στο υπνοδωμάτιο, να ορίσουμε ώρες χωρίς οθόνη, για παράδειγμα στο οικογενειακό τραπέζι. Η λεγόμενη «ψηφιακή αποτοξίνωση» για ένα Σαββατοκύριακο είναι ευχάριστη, αλλά αν μετά επιστρέψουμε στις ίδιες συνήθειες, δεν αλλάζει τίποτα. Το ζητούμενο είναι η μόνιμη, ήπια αλλαγή.",
+     "en": "No, that's neither realistic nor desirable. I suggest small, specific changes: turning off notifications that aren't necessary, not keeping the phone in the bedroom, setting screen-free times, for example at the family table. A so-called 'digital detox' for a weekend is pleasant, but if afterwards we return to the same habits, nothing changes. What we're after is permanent, gentle change."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λέει ο ψυχολόγος για τον όρο «εθισμός»;",
+     "options": [
+      "Ότι ισχύει για όλους",
+      "Ότι είναι ιατρικός όρος για τα παιδιά",
+      "Ότι οι περισσότεροι έχουν μια συνήθεια σχεδιασμένη να είναι δύσκολο να κοπεί, όχι κλινικό εθισμό",
+      "Ότι δεν υπάρχει πρόβλημα"
+     ],
+     "answer": "Ότι οι περισσότεροι έχουν μια συνήθεια σχεδιασμένη να είναι δύσκολο να κοπεί, όχι κλινικό εθισμό",
+     "why": "Οι περισσότεροι άνθρωποι δεν έχουν εθισμό με την κλινική έννοια"
+    },
+    {
+     "q": "Με τι παρομοιάζει τις ειδοποιήσεις και τα «μου αρέσει»;",
+     "options": [
+      "Με μικρές ανταμοιβές",
+      "Με φάρμακα",
+      "Με παιχνίδια",
+      "Με τιμωρίες"
+     ],
+     "answer": "Με μικρές ανταμοιβές",
+     "why": "λειτουργούν σαν μικρές ανταμοιβές"
+    },
+    {
+     "q": "Ποια είναι η άποψή του για την «ψηφιακή αποτοξίνωση» ενός Σαββατοκύριακου;",
+     "options": [
+      "Ότι λύνει το πρόβλημα",
+      "Ότι είναι επικίνδυνη",
+      "Ότι πρέπει να κρατά έναν μήνα",
+      "Ότι είναι ευχάριστη, αλλά δεν αλλάζει τίποτα αν επιστρέψουμε στις ίδιες συνήθειες"
+     ],
+     "answer": "Ότι είναι ευχάριστη, αλλά δεν αλλάζει τίποτα αν επιστρέψουμε στις ίδιες συνήθειες",
+     "why": "αν μετά επιστρέψουμε στις ίδιες συνήθειες, δεν αλλάζει τίποτα"
+    }
+   ],
+   "gloss": {
+    "ψυχολόγο": "ψυχολόγος — psychologist",
+    "εθισμό": "εθισμός — addiction",
+    "όρος": "όρος — term",
+    "κλινική έννοια": "κλινική έννοια — clinical sense",
+    "σκόπιμα": "σκόπιμα — deliberately",
+    "να την κόψουν": "κόβω (μια συνήθεια) — to break (a habit)",
+    "ειδοποιήσεις": "ειδοποίηση — notification",
+    "ατελείωτη κύλιση": "ατελείωτη κύλιση — endless scrolling",
+    "ανταμοιβές": "ανταμοιβή — reward",
+    "επιθυμητό": "επιθυμητός — desirable",
+    "να απενεργοποιήσουμε": "απενεργοποιώ — to turn off, disable",
+    "υπνοδωμάτιο": "υπνοδωμάτιο — bedroom",
+    "ψηφιακή αποτοξίνωση": "ψηφιακή αποτοξίνωση — digital detox",
+    "ήπια": "ήπιος — gentle, mild"
+   }
+  }
+ ]
+}
