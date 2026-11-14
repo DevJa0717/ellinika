@@ -1,0 +1,857 @@
+{
+ "items": [
+  {
+   "id": "l13-ann-marathonios",
+   "title": "Κλειστοί δρόμοι για τον Μαραθώνιο",
+   "title_en": "Roads closed for the Marathon",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση της Τροχαίας στο ραδιόφωνο.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Η Τροχαία Αττικής ενημερώνει ότι, λόγω της διεξαγωγής του Αυθεντικού Μαραθωνίου της Αθήνας, την Κυριακή θα ισχύσουν εκτεταμένες κυκλοφοριακές ρυθμίσεις. Από τις πέντε το πρωί θα διακοπεί η κυκλοφορία στη λεωφόρο Μαραθώνος και στη Μεσογείων, καθώς και στους δρόμους γύρω από το Παναθηναϊκό Στάδιο.",
+     "en": "Attica Traffic Police announce that, because the Athens Authentic Marathon is taking place, extensive traffic arrangements will apply on Sunday. From five in the morning traffic will be stopped on Marathonos Avenue and on Mesogeion, as well as on the streets around the Panathenaic Stadium."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Οι δρόμοι θα ανοίγουν σταδιακά, μόλις περάσει και ο τελευταίος δρομέας, οπότε η κυκλοφορία στο κέντρο αναμένεται να αποκατασταθεί πλήρως μετά τις τέσσερις το απόγευμα. Οι οδηγοί παρακαλούνται να μη σταθμεύουν τα οχήματά τους κατά μήκος της διαδρομής από το Σάββατο το βράδυ· όσα αυτοκίνητα βρεθούν σταθμευμένα θα απομακρυνθούν με γερανό.",
+     "en": "The roads will reopen gradually, as soon as the last runner has passed, so traffic in the centre is expected to be fully restored after four in the afternoon. Drivers are asked not to park their vehicles along the route from Saturday evening; any cars found parked will be towed away."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Το μετρό θα λειτουργεί κανονικά και με πυκνότερα δρομολόγια, και το κοινό ενθαρρύνεται να το προτιμήσει για τις μετακινήσεις του.",
+     "en": "The metro will run normally and with more frequent services, and the public is encouraged to use it for their journeys."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε αναμένεται να αποκατασταθεί πλήρως η κυκλοφορία στο κέντρο;",
+     "options": [
+      "Τη Δευτέρα το πρωί",
+      "Στις πέντε το πρωί",
+      "Το μεσημέρι",
+      "Μετά τις τέσσερις το απόγευμα"
+     ],
+     "answer": "Μετά τις τέσσερις το απόγευμα",
+     "why": "μετά τις τέσσερις το απόγευμα"
+    },
+    {
+     "q": "Τι θα συμβεί στα αυτοκίνητα που θα είναι παρκαρισμένα στη διαδρομή;",
+     "options": [
+      "Θα μετακινηθούν από τους ιδιοκτήτες",
+      "Θα πάρουν κλήση",
+      "Θα μείνουν εκεί μέχρι το βράδυ",
+      "Θα απομακρυνθούν με γερανό"
+     ],
+     "answer": "Θα απομακρυνθούν με γερανό",
+     "why": "όσα αυτοκίνητα βρεθούν σταθμευμένα θα απομακρυνθούν με γερανό"
+    },
+    {
+     "q": "Τι συνιστάται στο κοινό;",
+     "options": [
+      "Να παρκάρει κοντά στο Στάδιο",
+      "Να μείνει στο σπίτι",
+      "Να μετακινηθεί με ταξί",
+      "Να χρησιμοποιήσει το μετρό"
+     ],
+     "answer": "Να χρησιμοποιήσει το μετρό",
+     "why": "το κοινό ενθαρρύνεται να το προτιμήσει για τις μετακινήσεις του"
+    }
+   ],
+   "gloss": {
+    "Τροχαία": "Τροχαία — traffic police",
+    "διεξαγωγής": "διεξαγωγή — holding, conduct (of an event)",
+    "εκτεταμένες": "εκτεταμένος — extensive",
+    "κυκλοφοριακές ρυθμίσεις": "κυκλοφοριακές ρυθμίσεις — traffic arrangements",
+    "θα διακοπεί": "διακόπτομαι — to be interrupted, stopped",
+    "σταδιακά": "σταδιακά — gradually",
+    "δρομέας": "δρομέας — runner",
+    "να αποκατασταθεί": "αποκαθίσταμαι — to be restored",
+    "να μη σταθμεύουν": "σταθμεύω — to park (formal)",
+    "κατά μήκος": "κατά μήκος — along",
+    "γερανό": "γερανός — tow truck; crane",
+    "πυκνότερα δρομολόγια": "πυκνά δρομολόγια — frequent services"
+   }
+  },
+  {
+   "id": "l13-ann-laiki",
+   "title": "Η λαϊκή αλλάζει δρόμο",
+   "title_en": "The street market is moving",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση του δήμου από ένα αυτοκίνητο με μεγάφωνο.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Ο Δήμος ενημερώνει τους κατοίκους ότι, λόγω των έργων αντικατάστασης του αγωγού ύδρευσης στην οδό Αγίου Νικολάου, η λαϊκή αγορά της Παρασκευής θα μεταφερθεί προσωρινά στην οδό Κύπρου, από την πλατεία έως το γυμναστήριο.",
+     "en": "The Municipality informs residents that, because of the works to replace the water main on Agiou Nikolaou Street, the Friday street market will be moved temporarily to Kyprou Street, from the square to the gym."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Η μεταφορά θα ισχύσει από την επόμενη Παρασκευή και για τουλάχιστον έξι εβδομάδες. Οι κάτοικοι της οδού Κύπρου παρακαλούνται να μη σταθμεύουν τα αυτοκίνητά τους εκεί από τις πέντε το πρωί της Παρασκευής έως τις τρεις το απόγευμα.",
+     "en": "The move will apply from next Friday and for at least six weeks. Residents of Kyprou Street are asked not to park their cars there from five in the morning on Friday until three in the afternoon."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Για τη διευκόλυνση των ηλικιωμένων, θα λειτουργεί δωρεάν δημοτικό λεωφορείο από το ΚΑΠΗ προς τη λαϊκή, κάθε μισή ώρα. Ο Δήμος ζητά την κατανόηση όλων για την προσωρινή ταλαιπωρία.",
+     "en": "To help elderly people, a free municipal bus will run from the senior citizens' centre to the market every half hour. The Municipality asks for everyone's understanding for the temporary inconvenience."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί μεταφέρεται η λαϊκή αγορά;",
+     "options": [
+      "Γιατί αυξήθηκαν οι πάγκοι",
+      "Γιατί η πλατεία ανακαινίζεται",
+      "Λόγω παραπόνων των κατοίκων",
+      "Λόγω έργων στον αγωγό ύδρευσης"
+     ],
+     "answer": "Λόγω έργων στον αγωγό ύδρευσης",
+     "why": "λόγω των έργων αντικατάστασης του αγωγού ύδρευσης"
+    },
+    {
+     "q": "Τι ζητείται από τους κατοίκους της οδού Κύπρου;",
+     "options": [
+      "Να πληρώσουν ένα τέλος",
+      "Να βοηθήσουν τους πωλητές",
+      "Να μη σταθμεύουν στον δρόμο την Παρασκευή",
+      "Να κλείνουν τα παράθυρα"
+     ],
+     "answer": "Να μη σταθμεύουν στον δρόμο την Παρασκευή",
+     "why": "παρακαλούνται να μη σταθμεύουν τα αυτοκίνητά τους εκεί"
+    },
+    {
+     "q": "Τι θα προσφέρει ο Δήμος στους ηλικιωμένους;",
+     "options": [
+      "Έκπτωση στους πάγκους",
+      "Δωρεάν φρούτα",
+      "Παράδοση των ψωνιών στο σπίτι",
+      "Δωρεάν λεωφορείο προς τη λαϊκή"
+     ],
+     "answer": "Δωρεάν λεωφορείο προς τη λαϊκή",
+     "why": "θα λειτουργεί δωρεάν δημοτικό λεωφορείο από το ΚΑΠΗ προς τη λαϊκή"
+    }
+   ],
+   "gloss": {
+    "μεγάφωνο": "μεγάφωνο — loudspeaker",
+    "αντικατάστασης": "αντικατάσταση — replacement",
+    "αγωγού ύδρευσης": "αγωγός ύδρευσης — water main",
+    "λαϊκή αγορά": "λαϊκή (αγορά) — weekly street market",
+    "θα μεταφερθεί": "μεταφέρομαι — to be moved",
+    "προσωρινά": "προσωρινά — temporarily",
+    "σταθμεύουν": "σταθμεύω — to park (formal)",
+    "διευκόλυνση": "διευκόλυνση — assistance, making easier",
+    "ΚΑΠΗ": "ΚΑΠΗ — municipal day centre for older people",
+    "κατανόηση": "κατανόηση — understanding",
+    "ταλαιπωρία": "ταλαιπωρία — inconvenience, hassle"
+   }
+  },
+  {
+   "id": "l13-vm-sxoleio",
+   "title": "Τηλεφώνημα από το σχολείο",
+   "title_en": "A call from school",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα από τη διευθύντρια ενός δημοτικού σχολείου προς έναν πατέρα.",
+   "script": [
+    {
+     "speaker": "Διευθύντρια",
+     "voice": "f",
+     "el": "Καλημέρα, κύριε Παπαδάκη, από το Τρίτο Δημοτικό σας παίρνω, είμαι η διευθύντρια, η κυρία Λιάπη. Μην ανησυχείτε, δεν είναι κάτι σοβαρό. Ο Γιαννάκης ανέβασε λίγο πυρετό στο δεύτερο διάλειμμα και λέει ότι πονάει ο λαιμός του.",
+     "en": "Good morning, Mr Papadakis, I'm calling from the Third Primary School, I'm the head teacher, Mrs Liapi. Don't worry, it's nothing serious. Giannakis developed a slight temperature in the second break and says his throat hurts."
+    },
+    {
+     "speaker": "Διευθύντρια",
+     "voice": "f",
+     "el": "Τον έχουμε στο γραφείο μου, ξαπλωμένο, και του δώσαμε νερό. Σύμφωνα με τον κανονισμό, όμως, δεν μπορεί να μείνει στην τάξη με πυρετό, οπότε θα πρέπει κάποιος να έρθει να τον πάρει όσο το δυνατόν συντομότερα.",
+     "en": "We have him in my office, lying down, and we've given him water. According to the rules, though, he can't stay in class with a temperature, so someone will need to come and collect him as soon as possible."
+    },
+    {
+     "speaker": "Διευθύντρια",
+     "voice": "f",
+     "el": "Δοκίμασα και στο κινητό της μητέρας του, αλλά δεν απαντάει. Αν δεν μπορείτε να έρθετε εσείς, πείτε μας ποιος θα έρθει, γιατί το παιδί το παραδίδουμε μόνο σε άτομα που έχετε δηλώσει στη φόρμα της αρχής της χρονιάς.",
+     "en": "I also tried his mother's mobile, but she isn't answering. If you can't come yourself, tell us who will come, because we only hand the child over to people you listed on the form at the start of the year."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι συμβαίνει στον Γιαννάκη;",
+     "options": [
+      "Έχει λίγο πυρετό και πονάει ο λαιμός του",
+      "Ξέχασε το φαγητό του",
+      "Χτύπησε στο διάλειμμα",
+      "Τσακώθηκε με έναν συμμαθητή"
+     ],
+     "answer": "Έχει λίγο πυρετό και πονάει ο λαιμός του",
+     "why": "ανέβασε λίγο πυρετό ... πονάει ο λαιμός του"
+    },
+    {
+     "q": "Γιατί πρέπει να φύγει από το σχολείο;",
+     "options": [
+      "Γιατί το ζήτησε ο ίδιος",
+      "Γιατί πρέπει να πάει στο νοσοκομείο",
+      "Γιατί ο κανονισμός δεν επιτρέπει να μείνει στην τάξη με πυρετό",
+      "Γιατί τελείωσαν τα μαθήματα"
+     ],
+     "answer": "Γιατί ο κανονισμός δεν επιτρέπει να μείνει στην τάξη με πυρετό",
+     "why": "Σύμφωνα με τον κανονισμό ... δεν μπορεί να μείνει στην τάξη με πυρετό"
+    },
+    {
+     "q": "Σε ποιον μπορεί να παραδοθεί το παιδί;",
+     "options": [
+      "Σε οποιονδήποτε συγγενή",
+      "Σε άτομα που έχουν δηλωθεί στη φόρμα του σχολείου",
+      "Σε έναν δάσκαλο",
+      "Μόνο στη μητέρα"
+     ],
+     "answer": "Σε άτομα που έχουν δηλωθεί στη φόρμα του σχολείου",
+     "why": "μόνο σε άτομα που έχετε δηλώσει στη φόρμα της αρχής της χρονιάς"
+    }
+   ],
+   "gloss": {
+    "διευθύντρια": "διευθύντρια — head teacher (f.)",
+    "Δημοτικό": "δημοτικό (σχολείο) — primary school",
+    "ανέβασε λίγο πυρετό": "ανεβάζω πυρετό — to run a temperature",
+    "διάλειμμα": "διάλειμμα — break, recess",
+    "πονάει ο λαιμός του": "με πονάει ο λαιμός — I have a sore throat",
+    "ξαπλωμένο": "ξαπλωμένος — lying down",
+    "κανονισμό": "κανονισμός — regulation, rules",
+    "όσο το δυνατόν συντομότερα": "όσο το δυνατόν συντομότερα — as soon as possible",
+    "παραδίδουμε": "παραδίδω — to hand over",
+    "φόρμα": "φόρμα — form (document); tracksuit"
+   }
+  },
+  {
+   "id": "l13-dia-metaxeirismeno",
+   "title": "Ένα μεταχειρισμένο αυτοκίνητο",
+   "title_en": "A used car",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συζήτηση ανάμεσα σε έναν αγοραστή και μια πωλήτρια μεταχειρισμένων αυτοκινήτων.",
+   "script": [
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Αυτό εδώ είναι από τα καλύτερα που έχουμε. Δώδεκα χρονών, αλλά μόνο ενενήντα χιλιάδες χιλιόμετρα. Ένας ιδιοκτήτης, πάντα σε σέρβις.",
+     "en": "This one is one of the best we have. Twelve years old, but only ninety thousand kilometres. One owner, always serviced."
+    },
+    {
+     "speaker": "Τάσος",
+     "voice": "m",
+     "el": "Ωραίο φαίνεται. Έχετε το βιβλίο του σέρβις; Θα ήθελα να δω πότε άλλαξε τελευταία φορά ο ιμάντας.",
+     "en": "It looks nice. Do you have the service book? I'd like to see when the timing belt was last changed."
+    },
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Βεβαίως. Πριν από δύο χρόνια, μαζί με τα λάστιχα. Θέλετε να το οδηγήσετε λίγο;",
+     "en": "Of course. Two years ago, together with the tyres. Would you like to drive it a bit?"
+    },
+    {
+     "speaker": "Τάσος",
+     "voice": "m",
+     "el": "Ναι, αλλά πρώτα θα ήθελα να το δει και ένας μηχανικός της εμπιστοσύνης μου. Έχω ακούσει πολλές ιστορίες για χιλιόμετρα που «γυρίζουν πίσω».",
+     "en": "Yes, but first I'd like a mechanic I trust to look at it too. I've heard a lot of stories about kilometres that get \"turned back\"."
+    },
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Κανένα πρόβλημα, φέρτε όποιον θέλετε. Για την τιμή, τα τέσσερα χιλιάρικα είναι τελική τιμή, αλλά σας κάνουμε δώρο τη μεταβίβαση και τα τέλη κυκλοφορίας του επόμενου χρόνου.",
+     "en": "No problem, bring whoever you like. As for the price, four thousand is the final price, but we'll cover the transfer of ownership and next year's road tax for you."
+    },
+    {
+     "speaker": "Τάσος",
+     "voice": "m",
+     "el": "Εντάξει. Θα έρθω το Σάββατο με τον μηχανικό, και αν όλα είναι εντάξει, κλείνουμε.",
+     "en": "OK. I'll come on Saturday with the mechanic, and if everything is fine, we have a deal."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θέλει να ελέγξει ο Τάσος στο βιβλίο του σέρβις;",
+     "options": [
+      "Πόσους ιδιοκτήτες είχε το αυτοκίνητο",
+      "Αν το αυτοκίνητο έχει τρακάρει",
+      "Την κατανάλωση καυσίμου",
+      "Πότε άλλαξε τελευταία φορά ο ιμάντας"
+     ],
+     "answer": "Πότε άλλαξε τελευταία φορά ο ιμάντας",
+     "why": "Θα ήθελα να δω πότε άλλαξε τελευταία φορά ο ιμάντας."
+    },
+    {
+     "q": "Γιατί θέλει να φέρει μηχανικό;",
+     "options": [
+      "Γιατί δεν ξέρει να οδηγεί",
+      "Γιατί το αυτοκίνητο δεν παίρνει μπροστά",
+      "Γιατί φοβάται ότι τα χιλιόμετρα μπορεί να έχουν αλλοιωθεί",
+      "Γιατί το ζήτησε η πωλήτρια"
+     ],
+     "answer": "Γιατί φοβάται ότι τα χιλιόμετρα μπορεί να έχουν αλλοιωθεί",
+     "why": "Έχω ακούσει πολλές ιστορίες για χιλιόμετρα που «γυρίζουν πίσω»."
+    },
+    {
+     "q": "Τι προσφέρει η πωλήτρια;",
+     "options": [
+      "Δωρεάν σέρβις για δύο χρόνια",
+      "Καινούργια λάστιχα",
+      "Τη μεταβίβαση και τα τέλη κυκλοφορίας του επόμενου χρόνου",
+      "Έκπτωση πεντακοσίων ευρώ"
+     ],
+     "answer": "Τη μεταβίβαση και τα τέλη κυκλοφορίας του επόμενου χρόνου",
+     "why": "σας κάνουμε δώρο τη μεταβίβαση και τα τέλη κυκλοφορίας του επόμενου χρόνου"
+    }
+   ],
+   "gloss": {
+    "μεταχειρισμένων": "μεταχειρισμένος — used, second-hand",
+    "σέρβις": "σέρβις — service (of a car)",
+    "ιμάντας": "ιμάντας — (timing) belt",
+    "λάστιχα": "λάστιχο — tyre; rubber",
+    "της εμπιστοσύνης μου": "της εμπιστοσύνης μου — whom I trust",
+    "γυρίζουν πίσω": "γυρίζω πίσω τα χιλιόμετρα — to roll back the odometer",
+    "χιλιάρικα": "χιλιάρικο — a thousand euros (colloquial)",
+    "τελική τιμή": "τελική τιμή — final price",
+    "μεταβίβαση": "μεταβίβαση — transfer of ownership",
+    "τέλη κυκλοφορίας": "τέλη κυκλοφορίας — road tax",
+    "κλείνουμε": "κλείνω (μια συμφωνία) — to close a deal"
+   }
+  },
+  {
+   "id": "l13-dia-giorti",
+   "title": "Η γιορτή του Γιώργου",
+   "title_en": "Giorgos's name day",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συζήτηση ανάμεσα σε δύο φίλες για μια ονομαστική γιορτή.",
+   "script": [
+    {
+     "speaker": "Σοφία",
+     "voice": "f",
+     "el": "Μαρίνα, ξέρεις ότι την Πέμπτη είναι του Αγίου Γεωργίου; Γιορτάζει ο Γιώργος. Θα ανοίξει το σπίτι του;",
+     "en": "Marina, do you know that Thursday is St George's Day? Giorgos is celebrating his name day. Will he have an open house?"
+    },
+    {
+     "speaker": "Μαρίνα",
+     "voice": "f",
+     "el": "Μου είπε ότι φέτος δεν θα κάνει τραπέζι, γιατί έχει πολλή δουλειά. Αλλά ξέρεις πώς είναι: θα πει «δεν γιορτάζω» και το βράδυ θα έχει σαράντα άτομα στο σπίτι.",
+     "en": "He told me he won't host a meal this year because he has a lot of work. But you know how it is: he'll say \"I'm not celebrating\" and in the evening he'll have forty people at home."
+    },
+    {
+     "speaker": "Σοφία",
+     "voice": "f",
+     "el": "Χα! Σωστό. Τι λες να του πάρουμε; Πέρσι του πήραμε κρασί και έμεινε στο ντουλάπι μέχρι σήμερα.",
+     "en": "Ha! True. What do you say we get him? Last year we got him wine and it's still in the cupboard."
+    },
+    {
+     "speaker": "Μαρίνα",
+     "voice": "f",
+     "el": "Σκεφτόμουν ένα βιβλίο. Είχε πει ότι θέλει να διαβάσει το καινούργιο μυθιστόρημα του Μάρκαρη. Ή να μαζευτούμε όλοι και να του κάνουμε δώρο ένα μάθημα καταδύσεων, που λέει χρόνια ότι θα κάνει.",
+     "en": "I was thinking of a book. He'd said he wants to read Markaris's new novel. Or we could all chip in and give him a diving lesson, which he's been saying for years he'll do."
+    },
+    {
+     "speaker": "Σοφία",
+     "voice": "f",
+     "el": "Το μάθημα είναι τέλεια ιδέα! Θα στείλω μήνυμα στην παρέα να μαζέψουμε από είκοσι ευρώ. Και την Πέμπτη περνάμε το απόγευμα, έστω για λίγο, να του πούμε χρόνια πολλά.",
+     "en": "The lesson is a perfect idea! I'll message the group so we each put in twenty euros. And on Thursday we'll drop by in the afternoon, even just for a bit, to wish him many happy returns."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πιστεύει η Μαρίνα ότι θα γίνει τελικά;",
+     "options": [
+      "Ο Γιώργος θα έχει πολύ κόσμο στο σπίτι, παρόλο που λέει ότι δεν γιορτάζει",
+      "Ο Γιώργος θα φύγει ταξίδι",
+      "Ο Γιώργος θα δουλεύει όλο το βράδυ",
+      "Ο Γιώργος θα γιορτάσει σε ταβέρνα"
+     ],
+     "answer": "Ο Γιώργος θα έχει πολύ κόσμο στο σπίτι, παρόλο που λέει ότι δεν γιορτάζει",
+     "why": "θα πει «δεν γιορτάζω» και το βράδυ θα έχει σαράντα άτομα στο σπίτι"
+    },
+    {
+     "q": "Γιατί δεν θέλουν να του πάρουν ξανά κρασί;",
+     "options": [
+      "Γιατί δεν πίνει καθόλου",
+      "Γιατί το περσινό κρασί δεν το άνοιξε ποτέ",
+      "Γιατί είναι πολύ ακριβό",
+      "Γιατί του πήραν ήδη άλλοι"
+     ],
+     "answer": "Γιατί το περσινό κρασί δεν το άνοιξε ποτέ",
+     "why": "Πέρσι του πήραμε κρασί και έμεινε στο ντουλάπι μέχρι σήμερα."
+    },
+    {
+     "q": "Τι αποφασίζουν τελικά;",
+     "options": [
+      "Να του οργανώσουν πάρτι έκπληξη",
+      "Να του πάρουν ένα βιβλίο",
+      "Να μην του πάρουν τίποτα",
+      "Να του κάνουν όλοι μαζί δώρο ένα μάθημα καταδύσεων"
+     ],
+     "answer": "Να του κάνουν όλοι μαζί δώρο ένα μάθημα καταδύσεων",
+     "why": "Το μάθημα είναι τέλεια ιδέα!"
+    }
+   ],
+   "gloss": {
+    "ονομαστική γιορτή": "ονομαστική γιορτή — name day",
+    "του Αγίου Γεωργίου": "του Αγίου Γεωργίου — St George's day (genitive: the feast of)",
+    "Γιορτάζει": "γιορτάζω — to celebrate one's name day",
+    "Θα ανοίξει το σπίτι του": "ανοίγω το σπίτι μου — to have an open house",
+    "θα κάνει τραπέζι": "κάνω τραπέζι — to host a meal",
+    "ντουλάπι": "ντουλάπι — cupboard",
+    "να μαζευτούμε": "μαζεύομαι — to get together; (here) to chip in together",
+    "καταδύσεων": "κατάδυση — dive, diving",
+    "να μαζέψουμε από είκοσι ευρώ": "μαζεύω από … ευρώ — to collect … euros each",
+    "έστω για λίγο": "έστω — even if only",
+    "χρόνια πολλά": "χρόνια πολλά — many happy returns"
+   }
+  },
+  {
+   "id": "l13-mon-xorio",
+   "title": "Από την Αθήνα στα Σφακιά",
+   "title_en": "From Athens to Sfakia",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν προγραμματιστή να μιλά για τη μετακόμισή του σε ένα χωριό της Κρήτης.",
+   "script": [
+    {
+     "speaker": "Κωστής",
+     "voice": "m",
+     "el": "Πριν από τρία χρόνια ζούσα σε ένα δυάρι στα Πατήσια και δούλευα για μια εταιρεία λογισμικού. Όταν η εταιρεία μάς είπε ότι μπορούμε να δουλεύουμε μόνιμα από το σπίτι, σκέφτηκα: αφού δεν χρειάζεται να είμαι στην Αθήνα, γιατί να μένω εδώ;",
+     "en": "Three years ago I was living in a two-room flat in Patissia and working for a software company. When the company told us we could work from home permanently, I thought: since I don't need to be in Athens, why stay here?"
+    },
+    {
+     "speaker": "Κωστής",
+     "voice": "m",
+     "el": "Νοίκιασα ένα πέτρινο σπίτι σε ένα χωριό στα Σφακιά, όπου έμενε η γιαγιά μου. Το ενοίκιο είναι το ένα τρίτο από ό,τι πλήρωνα στην Αθήνα. Το πρώτο πρόβλημα ήταν το ίντερνετ: τους πρώτους μήνες έκοβε κάθε φορά που φυσούσε, και ανέβαινα στην πλατεία για να κάνω τις τηλεδιασκέψεις μου.",
+     "en": "I rented a stone house in a village in Sfakia, where my grandmother used to live. The rent is a third of what I paid in Athens. The first problem was the internet: for the first months it cut out every time the wind blew, and I would go up to the square to do my video calls."
+    },
+    {
+     "speaker": "Κωστής",
+     "voice": "m",
+     "el": "Η ζωή εδώ δεν είναι ειδυλλιακή, όπως τη φαντάζονται κάποιοι. Τον χειμώνα το χωριό έχει τριάντα κατοίκους και το πιο κοντινό σούπερ μάρκετ είναι μισή ώρα μακριά. Αλλά το απόγευμα, όταν κλείνω τον υπολογιστή, κατεβαίνω στη θάλασσα ή βοηθάω τον γείτονα με τις ελιές. Αυτό δεν το αλλάζω με τίποτα.",
+     "en": "Life here is not idyllic, as some imagine it. In winter the village has thirty inhabitants and the nearest supermarket is half an hour away. But in the afternoon, when I close my computer, I go down to the sea or help my neighbour with the olives. I wouldn't trade that for anything."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε δυνατή τη μετακόμιση του Κωστή;",
+     "options": [
+      "Μια μετάθεση από την εταιρεία",
+      "Μια καινούργια δουλειά στην Κρήτη",
+      "Μια κληρονομιά",
+      "Η δυνατότητα να δουλεύει μόνιμα από το σπίτι"
+     ],
+     "answer": "Η δυνατότητα να δουλεύει μόνιμα από το σπίτι",
+     "why": "η εταιρεία μάς είπε ότι μπορούμε να δουλεύουμε μόνιμα από το σπίτι"
+    },
+    {
+     "q": "Ποιο ήταν το πρώτο πρόβλημα στο χωριό;",
+     "options": [
+      "Το ακριβό ενοίκιο",
+      "Η έλλειψη νερού",
+      "Η κακή σύνδεση στο ίντερνετ",
+      "Οι γείτονες"
+     ],
+     "answer": "Η κακή σύνδεση στο ίντερνετ",
+     "why": "Το πρώτο πρόβλημα ήταν το ίντερνετ"
+    },
+    {
+     "q": "Πώς περιγράφει ο Κωστής τη ζωή στο χωριό;",
+     "options": [
+      "Τέλεια και χωρίς δυσκολίες",
+      "Δύσκολη, αλλά με απολαύσεις που δεν θα άλλαζε",
+      "Πολύ ακριβή",
+      "Βαρετή και μοναχική"
+     ],
+     "answer": "Δύσκολη, αλλά με απολαύσεις που δεν θα άλλαζε",
+     "why": "Η ζωή εδώ δεν είναι ειδυλλιακή ... Αυτό δεν το αλλάζω με τίποτα."
+    }
+   ],
+   "gloss": {
+    "προγραμματιστή": "προγραμματιστής — programmer",
+    "δυάρι": "δυάρι — two-room flat",
+    "εταιρεία λογισμικού": "εταιρεία λογισμικού — software company",
+    "μόνιμα": "μόνιμα — permanently",
+    "πέτρινο": "πέτρινος — made of stone",
+    "το ένα τρίτο": "το ένα τρίτο — one third",
+    "έκοβε": "κόβει (το ίντερνετ) — (the internet) cuts out",
+    "τηλεδιασκέψεις": "τηλεδιάσκεψη — video conference",
+    "ειδυλλιακή": "ειδυλλιακός — idyllic",
+    "κοντινό": "κοντινός — nearby",
+    "δεν το αλλάζω με τίποτα": "δεν το αλλάζω με τίποτα — I wouldn't trade it for anything"
+   }
+  },
+  {
+   "id": "l13-rep-karetta",
+   "title": "Οι χελώνες της Ζακύνθου",
+   "title_en": "The turtles of Zakynthos",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για την προστασία της θαλάσσιας χελώνας καρέτα καρέτα στη Ζάκυνθο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κάθε καλοκαίρι, τις νύχτες, οι θηλυκές χελώνες καρέτα καρέτα βγαίνουν στις αμμουδιές του κόλπου του Λαγανά για να γεννήσουν τα αυγά τους. Η Ζάκυνθος είναι μία από τις σημαντικότερες περιοχές ωοτοκίας τους σε όλη τη Μεσόγειο.",
+     "en": "Every summer, at night, female loggerhead turtles come out onto the sandy beaches of Laganas Bay to lay their eggs. Zakynthos is one of their most important nesting areas in the whole Mediterranean."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Για να προστατευτούν οι φωλιές, το Εθνικό Θαλάσσιο Πάρκο Ζακύνθου έχει θεσπίσει αυστηρούς κανόνες: οι παραλίες κλείνουν μετά τη δύση του ήλιου, οι ομπρέλες επιτρέπονται μόνο σε συγκεκριμένα σημεία και τα σκάφη πρέπει να κινούνται αργά στον κόλπο. Εθελοντές από όλο τον κόσμο σημαδεύουν τις φωλιές και ενημερώνουν τους λουόμενους.",
+     "en": "To protect the nests, the National Marine Park of Zakynthos has laid down strict rules: the beaches close after sunset, umbrellas are only allowed in specific places and boats must move slowly in the bay. Volunteers from all over the world mark the nests and inform swimmers."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Η συνύπαρξη με τον τουρισμό δεν είναι πάντα εύκολη. Τα φώτα των ξενοδοχείων αποπροσανατολίζουν τα χελωνάκια, που μόλις βγουν από το αυγό πρέπει να βρουν τον δρόμο προς τη θάλασσα ακολουθώντας τη λάμψη του ορίζοντα. Γι' αυτό οι επιστήμονες ζητούν από τις επιχειρήσεις να χαμηλώνουν τα φώτα τους τη νύχτα.",
+     "en": "Coexistence with tourism is not always easy. The lights of hotels disorient the hatchlings, which as soon as they leave the egg must find their way to the sea by following the glow of the horizon. That is why scientists ask businesses to dim their lights at night."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί βγαίνουν οι χελώνες στις παραλίες της Ζακύνθου;",
+     "options": [
+      "Για να ξεκουραστούν από τη ζέστη",
+      "Για να γεννήσουν τα αυγά τους",
+      "Για να βρουν τροφή",
+      "Για να αποφύγουν τα σκάφη"
+     ],
+     "answer": "Για να γεννήσουν τα αυγά τους",
+     "why": "για να γεννήσουν τα αυγά τους"
+    },
+    {
+     "q": "Ποιος από τους παρακάτω κανόνες αναφέρεται;",
+     "options": [
+      "Οι τουρίστες πρέπει να πληρώνουν εισιτήριο",
+      "Απαγορεύεται το κολύμπι",
+      "Τα σκάφη απαγορεύονται εντελώς",
+      "Οι παραλίες κλείνουν μετά τη δύση του ήλιου"
+     ],
+     "answer": "Οι παραλίες κλείνουν μετά τη δύση του ήλιου",
+     "why": "οι παραλίες κλείνουν μετά τη δύση του ήλιου"
+    },
+    {
+     "q": "Ποιο πρόβλημα προκαλούν τα φώτα των ξενοδοχείων;",
+     "options": [
+      "Ζεσταίνουν την άμμο",
+      "Ενοχλούν τους εθελοντές",
+      "Τρομάζουν τα ψάρια",
+      "Αποπροσανατολίζουν τα μικρά χελωνάκια"
+     ],
+     "answer": "Αποπροσανατολίζουν τα μικρά χελωνάκια",
+     "why": "Τα φώτα των ξενοδοχείων αποπροσανατολίζουν τα χελωνάκια"
+    }
+   ],
+   "gloss": {
+    "χελώνας": "χελώνα — turtle, tortoise",
+    "θηλυκές": "θηλυκός — female",
+    "αμμουδιές": "αμμουδιά — sandy beach",
+    "κόλπου": "κόλπος — bay, gulf",
+    "ωοτοκίας": "ωοτοκία — egg-laying, nesting",
+    "έχει θεσπίσει": "θεσπίζω — to lay down, enact (rules)",
+    "δύση του ήλιου": "δύση του ήλιου — sunset",
+    "σημαδεύουν": "σημαδεύω — to mark",
+    "λουόμενους": "λουόμενος — swimmer, bather",
+    "συνύπαρξη": "συνύπαρξη — coexistence",
+    "αποπροσανατολίζουν": "αποπροσανατολίζω — to disorient",
+    "χελωνάκια": "χελωνάκι — baby turtle, hatchling",
+    "λάμψη": "λάμψη — glow, brightness"
+   }
+  },
+  {
+   "id": "l13-int-organopoios",
+   "title": "Ο οργανοποιός",
+   "title_en": "The instrument maker",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με έναν οργανοποιό, κατασκευαστή μπουζουκιών, στον Πειραιά.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πόσος χρόνος χρειάζεται για να φτιάξετε ένα μπουζούκι;",
+     "en": "How long does it take you to make a bouzouki?"
+    },
+    {
+     "speaker": "Λευτέρης",
+     "voice": "m",
+     "el": "Περίπου ενάμιση μήνα, αν δουλεύω μόνο σε αυτό. Το σκάφος, δηλαδή το πίσω μέρος, φτιάχνεται από είκοσι ή και περισσότερες λεπτές λωρίδες ξύλου, τις «ντούγιες», που τις λυγίζω μία μία με ζέστη. Αυτό θέλει υπομονή· αν βιαστείς, το ξύλο σπάει.",
+     "en": "About a month and a half, if I work only on that. The bowl, that is the back, is made from twenty or more thin strips of wood, the \"staves\", which I bend one by one with heat. That takes patience; if you rush, the wood breaks."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιοι είναι οι πελάτες σας;",
+     "en": "Who are your customers?"
+    },
+    {
+     "speaker": "Λευτέρης",
+     "voice": "m",
+     "el": "Επαγγελματίες μουσικοί, φυσικά, αλλά όλο και περισσότερο νέοι που μαθαίνουν ρεμπέτικο, και πολλοί ξένοι. Πέρσι έστειλα όργανα στην Ιαπωνία και στη Βραζιλία. Κάθε όργανο το φτιάχνω για τον συγκεκριμένο μουσικό: κοιτάζω πώς παίζει, πόσο μεγάλα είναι τα χέρια του, τι ήχο ψάχνει.",
+     "en": "Professional musicians, of course, but more and more young people learning rebetiko, and many foreigners. Last year I sent instruments to Japan and Brazil. I make each instrument for the specific musician: I watch how they play, how big their hands are, what sound they're looking for."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Υπάρχουν νέοι που θέλουν να μάθουν την τέχνη;",
+     "en": "Are there young people who want to learn the craft?"
+    },
+    {
+     "speaker": "Λευτέρης",
+     "voice": "m",
+     "el": "Έχω δύο μαθητές τώρα. Τους λέω πάντα ότι τα πρώτα πέντε όργανα θα είναι κακά, και ότι αυτό είναι φυσιολογικό. Η τέχνη αυτή μαθαίνεται με τα χέρια, όχι από βίντεο.",
+     "en": "I have two apprentices now. I always tell them that the first five instruments will be bad, and that this is normal. This craft is learned with the hands, not from videos."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί χρειάζεται υπομονή η κατασκευή του σκάφους;",
+     "options": [
+      "Γιατί πρέπει να στεγνώσει η κόλλα",
+      "Γιατί το ξύλο έρχεται από το εξωτερικό",
+      "Γιατί το ξύλο είναι ακριβό",
+      "Γιατί οι λωρίδες λυγίζουν μία μία με ζέστη και σπάνε αν βιαστείς"
+     ],
+     "answer": "Γιατί οι λωρίδες λυγίζουν μία μία με ζέστη και σπάνε αν βιαστείς",
+     "why": "τις λυγίζω μία μία με ζέστη ... αν βιαστείς, το ξύλο σπάει"
+    },
+    {
+     "q": "Πώς προσαρμόζει ο Λευτέρης κάθε όργανο;",
+     "options": [
+      "Ανάλογα με τη χώρα του πελάτη",
+      "Ανάλογα με την τιμή",
+      "Ανάλογα με το πώς παίζει ο μουσικός και τι ήχο θέλει",
+      "Δεν το προσαρμόζει, όλα είναι ίδια"
+     ],
+     "answer": "Ανάλογα με το πώς παίζει ο μουσικός και τι ήχο θέλει",
+     "why": "κοιτάζω πώς παίζει, πόσο μεγάλα είναι τα χέρια του, τι ήχο ψάχνει"
+    },
+    {
+     "q": "Τι λέει στους μαθητές του;",
+     "options": [
+      "Ότι τα πρώτα όργανα θα είναι κακά και αυτό είναι φυσιολογικό",
+      "Να μάθουν από βίντεο",
+      "Ότι θα γίνουν πλούσιοι",
+      "Να σπουδάσουν πρώτα μουσική"
+     ],
+     "answer": "Ότι τα πρώτα όργανα θα είναι κακά και αυτό είναι φυσιολογικό",
+     "why": "τα πρώτα πέντε όργανα θα είναι κακά, και ... αυτό είναι φυσιολογικό"
+    }
+   ],
+   "gloss": {
+    "οργανοποιό": "οργανοποιός — instrument maker",
+    "ενάμιση μήνα": "ενάμισης μήνας — a month and a half",
+    "σκάφος": "σκάφος — (of a bouzouki) bowl; (usually) boat, hull",
+    "λωρίδες": "λωρίδα — strip",
+    "ντούγιες": "ντούγια — stave (of a bowl or barrel)",
+    "λυγίζω": "λυγίζω — to bend",
+    "αν βιαστείς": "βιάζομαι — to be in a hurry",
+    "συγκεκριμένο": "συγκεκριμένος — specific",
+    "τέχνη": "τέχνη — craft; art",
+    "φυσιολογικό": "φυσιολογικός — normal"
+   }
+  },
+  {
+   "id": "l13-mon-vyzantio",
+   "title": "Το Βυζάντιο και εμείς",
+   "title_en": "Byzantium and us",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε έναν ιστορικό να μιλά σε μια διάλεξη για τη θέση του Βυζαντίου στη νεοελληνική ταυτότητα.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Όταν το νεοσύστατο ελληνικό κράτος αναζητούσε την ταυτότητά του, τον δέκατο ένατο αιώνα, το βλέμμα του στράφηκε κυρίως προς την κλασική αρχαιότητα. Το Βυζάντιο, αντίθετα, αντιμετωπιζόταν με καχυποψία· πολλοί λόγιοι, επηρεασμένοι από τον ευρωπαϊκό Διαφωτισμό, το έβλεπαν ως μια μακρά περίοδο σκοταδισμού και παρακμής.",
+     "en": "When the newly founded Greek state was seeking its identity, in the nineteenth century, its gaze turned mainly towards classical antiquity. Byzantium, by contrast, was regarded with suspicion; many scholars, influenced by the European Enlightenment, saw it as a long period of obscurantism and decline."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Η στάση αυτή άλλαξε σταδιακά, κυρίως χάρη στον ιστορικό Κωνσταντίνο Παπαρρηγόπουλο, ο οποίος διατύπωσε την ιδέα μιας αδιάσπαστης συνέχειας του ελληνισμού από την αρχαιότητα, μέσω του Βυζαντίου, έως τη σύγχρονη εποχή. Το σχήμα αυτό είχε τεράστια επιρροή και διαμόρφωσε για πάνω από έναν αιώνα τη σχολική ιστορία.",
+     "en": "This attitude changed gradually, mainly thanks to the historian Konstantinos Paparrigopoulos, who formulated the idea of an unbroken continuity of Hellenism from antiquity, through Byzantium, to the modern era. This scheme had enormous influence and shaped school history for more than a century."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Σήμερα οι ιστορικοί είναι πιο επιφυλακτικοί απέναντι σε κάθε αφήγημα αδιάσπαστης συνέχειας. Υπογραμμίζουν ότι το Βυζάντιο ήταν μια πολυεθνική αυτοκρατορία, της οποίας οι κάτοικοι αυτοαποκαλούνταν «Ρωμαίοι», και ότι η ελληνική εθνική ταυτότητα, με τη σύγχρονη έννοια, διαμορφώθηκε πολύ αργότερα.",
+     "en": "Today historians are more cautious towards any narrative of unbroken continuity. They stress that Byzantium was a multi-ethnic empire whose inhabitants called themselves \"Romans\", and that Greek national identity, in the modern sense, was formed much later."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Αυτό δεν μειώνει τη βυζαντινή κληρονομιά, που είναι ορατή παντού: στη γλώσσα, στη θρησκευτική ζωή, στη μουσική, ακόμη και σε εκφράσεις της καθημερινότητας. Σημαίνει απλώς ότι οφείλουμε να την κατανοήσουμε με τους δικούς της όρους, και όχι ως ένα απλό ενδιάμεσο κεφάλαιο ανάμεσα στον Περικλή και στο 1821.",
+     "en": "This does not diminish the Byzantine heritage, which is visible everywhere: in the language, in religious life, in music, even in everyday expressions. It simply means that we must understand it on its own terms, and not as a mere intermediate chapter between Pericles and 1821."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς έβλεπαν πολλοί λόγιοι του 19ου αιώνα το Βυζάντιο;",
+     "options": [
+      "Ως πρότυπο για το νέο κράτος",
+      "Ως τη χρυσή εποχή του ελληνισμού",
+      "Με αδιαφορία",
+      "Ως περίοδο σκοταδισμού και παρακμής"
+     ],
+     "answer": "Ως περίοδο σκοταδισμού και παρακμής",
+     "why": "το έβλεπαν ως μια μακρά περίοδο σκοταδισμού και παρακμής"
+    },
+    {
+     "q": "Ποια ιδέα διατύπωσε ο Παπαρρηγόπουλος;",
+     "options": [
+      "Ότι η ιστορία πρέπει να διδάσκεται χωρίς το Βυζάντιο",
+      "Ότι ο ελληνισμός έχει αδιάσπαστη συνέχεια από την αρχαιότητα ως σήμερα, μέσω του Βυζαντίου",
+      "Ότι οι νέοι Έλληνες δεν έχουν σχέση με τους αρχαίους",
+      "Ότι το Βυζάντιο ήταν ξένη κατάκτηση"
+     ],
+     "answer": "Ότι ο ελληνισμός έχει αδιάσπαστη συνέχεια από την αρχαιότητα ως σήμερα, μέσω του Βυζαντίου",
+     "why": "την ιδέα μιας αδιάσπαστης συνέχειας του ελληνισμού από την αρχαιότητα, μέσω του Βυζαντίου, έως τη σύγχρονη εποχή"
+    },
+    {
+     "q": "Τι υπογραμμίζουν οι σημερινοί ιστορικοί;",
+     "options": [
+      "Ότι η συνέχεια είναι αποδεδειγμένη",
+      "Ότι το Βυζάντιο ήταν αμιγώς ελληνικό κράτος",
+      "Ότι το Βυζάντιο ήταν πολυεθνική αυτοκρατορία και η εθνική ταυτότητα διαμορφώθηκε αργότερα",
+      "Ότι οι Βυζαντινοί αυτοαποκαλούνταν Έλληνες"
+     ],
+     "answer": "Ότι το Βυζάντιο ήταν πολυεθνική αυτοκρατορία και η εθνική ταυτότητα διαμορφώθηκε αργότερα",
+     "why": "το Βυζάντιο ήταν μια πολυεθνική αυτοκρατορία ... η ελληνική εθνική ταυτότητα ... διαμορφώθηκε πολύ αργότερα"
+    },
+    {
+     "q": "Ποιο είναι το συμπέρασμα του ομιλητή;",
+     "options": [
+      "Το Βυζάντιο πρέπει να κατανοηθεί με τους δικούς του όρους",
+      "Η βυζαντινή κληρονομιά είναι ασήμαντη",
+      "Πρέπει να επιστρέψουμε στο σχήμα του Παπαρρηγόπουλου",
+      "Το 1821 δεν έχει σχέση με το Βυζάντιο"
+     ],
+     "answer": "Το Βυζάντιο πρέπει να κατανοηθεί με τους δικούς του όρους",
+     "why": "οφείλουμε να την κατανοήσουμε με τους δικούς της όρους"
+    }
+   ],
+   "gloss": {
+    "νεοσύστατο": "νεοσύστατος — newly founded",
+    "στράφηκε": "στρέφομαι — to turn (towards)",
+    "καχυποψία": "καχυποψία — suspicion",
+    "λόγιοι": "λόγιος — scholar, man of letters",
+    "Διαφωτισμό": "Διαφωτισμός — the Enlightenment",
+    "σκοταδισμού": "σκοταδισμός — obscurantism",
+    "παρακμής": "παρακμή — decline",
+    "διατύπωσε": "διατυπώνω — to formulate",
+    "αδιάσπαστης": "αδιάσπαστος — unbroken",
+    "επιφυλακτικοί": "επιφυλακτικός — cautious, reserved",
+    "αφήγημα": "αφήγημα — narrative",
+    "πολυεθνική αυτοκρατορία": "πολυεθνική αυτοκρατορία — multi-ethnic empire",
+    "αυτοαποκαλούνταν": "αυτοαποκαλούμαι — to call oneself",
+    "κληρονομιά": "κληρονομιά — heritage",
+    "με τους δικούς της όρους": "με τους δικούς του όρους — on its own terms"
+   }
+  },
+  {
+   "id": "l13-int-klima",
+   "title": "Η Μεσόγειος ζεσταίνεται",
+   "title_en": "The Mediterranean is warming",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με μια κλιματολόγο για τις επιπτώσεις της κλιματικής αλλαγής στην Ελλάδα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Συχνά ακούμε ότι η Μεσόγειος είναι «θερμό σημείο» της κλιματικής αλλαγής. Τι σημαίνει αυτό;",
+     "en": "We often hear that the Mediterranean is a \"hotspot\" of climate change. What does that mean?"
+    },
+    {
+     "speaker": "Κλιματολόγος",
+     "voice": "f",
+     "el": "Σημαίνει ότι η περιοχή μας θερμαίνεται ταχύτερα από τον παγκόσμιο μέσο όρο. Ταυτόχρονα, οι περισσότερες κλιματικές προβολές δείχνουν μείωση των βροχοπτώσεων, ιδίως στη νότια και ανατολική Ελλάδα. Ο συνδυασμός αυτός σημαίνει μακρύτερα και θερμότερα καλοκαίρια και αυξημένο κίνδυνο ξηρασίας και πυρκαγιών.",
+     "en": "It means that our region is warming faster than the global average. At the same time, most climate projections show a decrease in rainfall, especially in southern and eastern Greece. This combination means longer and hotter summers and an increased risk of drought and wildfires."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Κι όμως, τα τελευταία χρόνια είχαμε και καταστροφικές πλημμύρες. Δεν είναι αντίφαση;",
+     "en": "And yet, in recent years we have also had catastrophic floods. Isn't that a contradiction?"
+    },
+    {
+     "speaker": "Κλιματολόγος",
+     "voice": "f",
+     "el": "Φαινομενικά μόνο. Μια θερμότερη ατμόσφαιρα συγκρατεί περισσότερους υδρατμούς, οπότε, όταν βρέχει, οι βροχοπτώσεις μπορεί να είναι πιο έντονες. Μπορεί δηλαδή να έχουμε λιγότερη βροχή συνολικά μέσα στον χρόνο, αλλά πιο ακραία επεισόδια. Η θέρμανση της θάλασσας, επιπλέον, τροφοδοτεί με ενέργεια ορισμένα ισχυρά καιρικά συστήματα.",
+     "en": "Only on the surface. A warmer atmosphere holds more water vapour, so when it rains, rainfall can be more intense. In other words, we may have less rain overall during the year, but more extreme episodes. The warming of the sea, moreover, feeds energy into certain powerful weather systems."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι πρέπει να γίνει;",
+     "en": "What needs to be done?"
+    },
+    {
+     "speaker": "Κλιματολόγος",
+     "voice": "f",
+     "el": "Δύο πράγματα παράλληλα. Πρώτον, μείωση των εκπομπών, που είναι παγκόσμια ευθύνη. Δεύτερον, προσαρμογή: πόλεις με περισσότερο πράσινο και σκιά, καλύτερη διαχείριση του νερού, αντιπλημμυρικά έργα, και χωροταξικό σχεδιασμό που να μην επιτρέπει τη δόμηση σε κοίτες ποταμών. Η προσαρμογή δεν είναι πολυτέλεια· είναι ζήτημα ασφάλειας.",
+     "en": "Two things in parallel. First, cutting emissions, which is a global responsibility. Second, adaptation: cities with more greenery and shade, better water management, flood-protection works, and spatial planning that does not allow building in riverbeds. Adaptation is not a luxury; it is a matter of safety."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι σημαίνει ότι η Μεσόγειος είναι «θερμό σημείο»;",
+     "options": [
+      "Ότι έχει τις υψηλότερες θερμοκρασίες στον κόσμο",
+      "Ότι προσελκύει πολλούς τουρίστες",
+      "Ότι έχει πολλά ηφαίστεια",
+      "Ότι θερμαίνεται ταχύτερα από τον παγκόσμιο μέσο όρο"
+     ],
+     "answer": "Ότι θερμαίνεται ταχύτερα από τον παγκόσμιο μέσο όρο",
+     "why": "η περιοχή μας θερμαίνεται ταχύτερα από τον παγκόσμιο μέσο όρο"
+    },
+    {
+     "q": "Πώς εξηγεί η κλιματολόγος τις πλημμύρες, παρά τη μείωση των βροχοπτώσεων;",
+     "options": [
+      "Η βροχή στην πραγματικότητα αυξάνεται συνολικά",
+      "Είναι τυχαία γεγονότα χωρίς σχέση με το κλίμα",
+      "Οφείλονται μόνο σε κακή συντήρηση των δρόμων",
+      "Μια θερμότερη ατμόσφαιρα συγκρατεί περισσότερους υδρατμούς και προκαλεί πιο έντονες βροχές"
+     ],
+     "answer": "Μια θερμότερη ατμόσφαιρα συγκρατεί περισσότερους υδρατμούς και προκαλεί πιο έντονες βροχές",
+     "why": "Μια θερμότερη ατμόσφαιρα συγκρατεί περισσότερους υδρατμούς ... πιο έντονες"
+    },
+    {
+     "q": "Ποιο από τα παρακάτω ΔΕΝ αναφέρεται ως μέτρο προσαρμογής;",
+     "options": [
+      "Κατασκευή νέων αεροδρομίων",
+      "Απαγόρευση δόμησης σε κοίτες ποταμών",
+      "Καλύτερη διαχείριση του νερού",
+      "Περισσότερο πράσινο στις πόλεις"
+     ],
+     "answer": "Κατασκευή νέων αεροδρομίων",
+     "why": "Αναφέρει πράσινο, νερό, αντιπλημμυρικά και χωροταξία· όχι αεροδρόμια."
+    }
+   ],
+   "gloss": {
+    "κλιματολόγο": "κλιματολόγος — climatologist",
+    "θερμό σημείο": "θερμό σημείο — hotspot",
+    "θερμαίνεται": "θερμαίνομαι — to warm up",
+    "μέσο όρο": "μέσος όρος — average",
+    "κλιματικές προβολές": "κλιματική προβολή — climate projection",
+    "βροχοπτώσεων": "βροχόπτωση — rainfall",
+    "αντίφαση": "αντίφαση — contradiction",
+    "Φαινομενικά": "φαινομενικά — seemingly, on the surface",
+    "υδρατμούς": "υδρατμός — water vapour",
+    "τροφοδοτεί": "τροφοδοτώ — to feed, supply",
+    "εκπομπών": "εκπομπή — emission; broadcast",
+    "προσαρμογή": "προσαρμογή — adaptation",
+    "αντιπλημμυρικά έργα": "αντιπλημμυρικά έργα — flood-protection works",
+    "χωροταξικό σχεδιασμό": "χωροταξικός σχεδιασμός — spatial planning",
+    "κοίτες ποταμών": "κοίτη ποταμού — riverbed",
+    "πολυτέλεια": "πολυτέλεια — luxury"
+   }
+  }
+ ]
+}
