@@ -143,32 +143,33 @@ T.append({"id": "c1-p38-use-2", "paper": P + "Χρήση γλώσσας, Ερώ�
 # ---------- Use 3 ----------
 T.append({"id": "c1-p38-use-3", "paper": P + "Χρήση γλώσσας, Ερώτημα 3 (5 μονάδες)",
  "task_type": "word formation: derivatives/compounds of given stems (5 + example)",
- "instructions_el": "Διαβάζετε ένα κείμενο σχετικά με τους αρχαίους Φιλίππους. Οι λέξεις που λείπουν είναι παράγωγα ή/και σύνθετα των λέξεων του πίνακα. Σημειώστε μόνο ΜΙΑ λέξη για κάθε κενό.",
- "title": "Φίλιπποι (α΄ μέρος)",
- "text_el": "Οι Φίλιπποι βρίσκονται κοντά στην Καβάλα και είναι ένας από τους πιο [0] αρχαιολογικούς χώρους της βόρειας Ελλάδας. Η πόλη [1] το 356 π.Χ. από τον Φίλιππο Β΄, πατέρα του Μεγάλου Αλεξάνδρου, ο οποίος της έδωσε το όνομά του. Το 42 π.Χ. έγινε εδώ η περίφημη μάχη ανάμεσα στους [2] του Ιουλίου Καίσαρα και τον Οκταβιανό με τον Αντώνιο. Μετά τη μάχη, η πόλη έγινε ρωμαϊκή [3]. Γύρω στο 49 μ.Χ. την επισκέφθηκε ο απόστολος Παύλος, ο οποίος ίδρυσε εδώ την πρώτη χριστιανική [4] στην Ευρώπη. Το 2016 ο χώρος [5] μνημείο παγκόσμιας κληρονομιάς της UNESCO.",
- "text_source": SRC, "example": {"stem": "σημασία", "answer": "σημαντικούς"},
+ "instructions_el": "Διαβάζετε ένα κείμενο σχετικά με την αρχαία Γόρτυνα. Οι λέξεις που λείπουν είναι παράγωγα ή/και σύνθετα των λέξεων του πίνακα. Σημειώστε μόνο ΜΙΑ λέξη για κάθε κενό.",
+ "title": "Γόρτυνα (α΄ μέρος)",
+ "text_el": "Η Γόρτυνα, στην πεδιάδα της Μεσαράς, ήταν μία από τις πιο [0] πόλεις της αρχαίας Κρήτης. Σύμφωνα με τον μύθο, εδώ, κάτω από έναν πλάτανο που μένει [1] όλο τον χρόνο, ο Δίας ενώθηκε με την Ευρώπη. Η πόλη, όμως, είναι γνωστή κυρίως για τον Κώδικα της Γόρτυνας, την πιο ολοκληρωμένη αρχαία ελληνική [2] που έχει σωθεί. Ο Κώδικας, που χρονολογείται στον 5ο αιώνα π.Χ., είναι [3] σε πέτρινες πλάκες και ρυθμίζει θέματα όπως ο γάμος, το διαζύγιο, η [4] και η κληρονομιά. Στα ρωμαϊκά χρόνια η Γόρτυνα έγινε [5] της επαρχίας Κρήτης και Κυρηναϊκής.",
+ "text_source": SRC, "example": {"stem": "ισχύς", "answer": "ισχυρές"},
  "questions": [
-  {"prompt": "Κενό [1] — λέξη-βάση: ίδρυση", "options": [], "answer": "ιδρύθηκε", "answer_note": "ίδρυση → ιδρύω; passive aorist, singular subject «Η πόλη»: ιδρύθηκε (was founded)."},
-  {"prompt": "Κενό [2] — λέξη-βάση: φόνος", "options": [], "answer": "δολοφόνους", "answer_note": "δόλος + φόνος → ο δολοφόνος (assassin); accusative plural after «στους»."},
-  {"prompt": "Κενό [3] — λέξη-βάση: οίκος", "options": [], "answer": "αποικία", "answer_note": "από + οίκος → η αποικία (colony); feminine with «ρωμαϊκή»."},
-  {"prompt": "Κενό [4] — λέξη-βάση: κοινός", "options": [], "answer": "κοινότητα", "answer_note": "κοινός → η κοινότητα (community); feminine accusative with «την πρώτη χριστιανική»."},
-  {"prompt": "Κενό [5] — λέξη-βάση: κηρύσσω", "options": [], "answer": "ανακηρύχθηκε", "answer_note": "κηρύσσω → ανακηρύσσω (to proclaim); passive aorist: ανακηρύχθηκε (was declared)."},
+  {"prompt": "Κενό [1] — λέξη-βάση: πράσινος", "options": [], "answer": "καταπράσινος", "answer_note": "κατα- + πράσινος → καταπράσινος (lush green); masculine, agreeing with «πλάτανο» as the subject of «μένει»."},
+  {"prompt": "Κενό [2] — λέξη-βάση: νόμος", "options": [], "answer": "νομοθεσία", "answer_note": "νόμος + θέτω → η νομοθεσία (legislation); feminine after «την … αρχαία ελληνική»."},
+  {"prompt": "Κενό [3] — λέξη-βάση: χάραξη", "options": [], "answer": "χαραγμένος", "answer_note": "χάραξη → χαράζω → χαραγμένος (inscribed); masculine, agreeing with «Ο Κώδικας»."},
+  {"prompt": "Κενό [4] — λέξη-βάση: υιός", "options": [], "answer": "υιοθεσία", "answer_note": "υιός + θέτω → η υιοθεσία (adoption)."},
+  {"prompt": "Κενό [5] — λέξη-βάση: πρώτος", "options": [], "answer": "πρωτεύουσα", "answer_note": "πρώτος → πρωτεύω → η πρωτεύουσα (capital)."},
  ], "source_url": ""})
 
 # ---------- Use 4 ----------
 T.append({"id": "c1-p38-use-4", "paper": P + "Χρήση γλώσσας, Ερώτημα 4 (5 μονάδες)",
  "task_type": "find in the text the word matching a synonym/definition (5 + example)",
  "instructions_el": "Διαβάζετε τη συνέχεια του προηγούμενου κειμένου, αλλά δεν καταλαβαίνετε κάποιες λέξεις. Στον πίνακα περιέχονται συνώνυμα και ορισμοί των λέξεων αυτών. Βρείτε και γράψτε τις λέξεις, όπως εμφανίζονται στο κείμενο.",
- "title": "Φίλιπποι (β΄ μέρος)",
- "text_el": "Ο επισκέπτης μπορεί να δει σήμερα το αρχαίο θέατρο, όπου κάθε καλοκαίρι διοργανώνεται φεστιβάλ, τη ρωμαϊκή αγορά και τα επιβλητικά ερείπια των παλαιοχριστιανικών εκκλησιών.\nΑπό την ακρόπολη η θέα στον εύφορο κάμπο είναι μαγευτική.\nΛίγο έξω από τον χώρο, δίπλα σε ένα ρέμα, βρίσκεται το βαπτιστήριο της Λυδίας, που κατά την παράδοση βαπτίστηκε εκεί πρώτη χριστιανή της Ευρώπης.",
- "text_source": SRC, "example": {"definition": "πολύ εντυπωσιακά, κυρίως λόγω μεγέθους", "answer": "επιβλητικά"},
+ "title": "Γόρτυνα (β΄ μέρος)",
+ "text_el": "Στον αρχαιολογικό χώρο ο επισκέπτης βλέπει ακόμη τα ερείπια της βασιλικής του Αγίου Τίτου, του πρώτου επισκόπου της Κρήτης.\nΚοντά βρίσκεται το ωδείο, στους τοίχους του οποίου εντοιχίστηκαν οι πλάκες με τον Κώδικα, που ανακαλύφθηκαν τυχαία τον 19ο αιώνα.\nΓύρω από τον χώρο εκτείνονται απέραντοι ελαιώνες, ανάμεσα στους οποίους είναι σκορπισμένα αμέτρητα θραύσματα κιόνων και αγαλμάτων.",
+ "text_source": SRC, "example": {"definition": "ό,τι απομένει από ένα κατεστραμμένο κτίριο", "answer": "ερείπια"},
  "questions": [
-  {"prompt": "Συνώνυμο/ορισμός: οργανώνεται, πραγματοποιείται", "options": [], "answer": "διοργανώνεται", "answer_note": "διοργανώνομαι = to be organised, held."},
-  {"prompt": "Συνώνυμο/ορισμός: (για έδαφος) που δίνει πλούσια σοδειά", "options": [], "answer": "εύφορο", "answer_note": "εύφορος = fertile."},
-  {"prompt": "Συνώνυμο/ορισμός: πεδιάδα, επίπεδη έκταση γης", "options": [], "answer": "κάμπο", "answer_note": "ο κάμπος = plain."},
-  {"prompt": "Συνώνυμο/ορισμός: μικρό ποτάμι", "options": [], "answer": "ρέμα", "answer_note": "το ρέμα = stream."},
-  {"prompt": "Συνώνυμο/ορισμός: δέχτηκε το μυστήριο του βαπτίσματος", "options": [], "answer": "βαπτίστηκε", "answer_note": "βαπτίζομαι = to be baptised."},
+  {"prompt": "Συνώνυμο/ορισμός: ο ανώτερος κληρικός μιας περιοχής (γενική)", "options": [], "answer": "επισκόπου", "answer_note": "ο επίσκοπος = bishop; genitive επισκόπου."},
+  {"prompt": "Συνώνυμο/ορισμός: τοποθετήθηκαν μέσα σε τοίχο", "options": [], "answer": "εντοιχίστηκαν", "answer_note": "εντοιχίζομαι = to be built into a wall."},
+  {"prompt": "Συνώνυμο/ορισμός: κατά τύχη, χωρίς να το επιδιώξει κανείς", "options": [], "answer": "τυχαία", "answer_note": "τυχαία = by chance."},
+  {"prompt": "Συνώνυμο/ορισμός: κτήματα φυτεμένα με ελιές", "options": [], "answer": "ελαιώνες", "answer_note": "ο ελαιώνας = olive grove."},
+  {"prompt": "Συνώνυμο/ορισμός: κομμάτια από κάτι που έσπασε", "options": [], "answer": "θραύσματα", "answer_note": "το θραύσμα = fragment."},
  ], "source_url": ""})
+
 # ---------- checks + write ----------
 for t in T:
     ex = t.get("example", {})
@@ -186,7 +187,7 @@ for t in T:
     if t["id"].endswith("use-4"):
         for w in [ex["answer"]] + [q["answer"] for q in t["questions"]]:
             assert w in t["text_el"], w
-out = {"description": "Γ1 exam practice, set 38 (Πιστοποίηση Ελληνομάθειας Γ1, ΚΕΓ format), same schema as the c1-p3-* tasks in c1-tasks.json: an article on volunteering in Greece, a literary extract about letters from a seafaring father, the Antikythera mechanism, the composer Vasilis Tsitsanis, ancient Philippi.",
+out = {"description": "Γ1 exam practice, set 38 (Πιστοποίηση Ελληνομάθειας Γ1, ΚΕΓ format), same schema as the c1-p3-* tasks in c1-tasks.json: an article on volunteering in Greece, a literary extract about letters from a seafaring father, the Antikythera mechanism, the composer Vasilis Tsitsanis, ancient Gortyn.",
        "rights": "Tasks c1-p38-*: original texts and items written for this learner (personal study use).", "tasks": T}
 p = os.path.join(os.path.dirname(__file__), "..", "..", "library", "exam", "c1-tasks-36.json")
 with open(p, "w", encoding="utf-8") as fh:
