@@ -1,0 +1,828 @@
+{
+ "items": [
+  {
+   "id": "l44-ann-episkeptirio",
+   "title": "Ώρες επισκεπτηρίου",
+   "title_en": "Hospital visiting hours",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα ενός νοσοκομείου.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Αγαπητοί επισκέπτες, σας ενημερώνουμε ότι από τη Δευτέρα αλλάζει το ωράριο του επισκεπτηρίου. Οι επισκέψεις θα επιτρέπονται καθημερινά από τις έξι έως τις οχτώ το απόγευμα, ενώ τα Σαββατοκύριακα και από τις έντεκα έως τη μία το μεσημέρι.",
+     "en": "Dear visitors, we inform you that from Monday the visiting hours are changing. Visits will be allowed daily from six to eight in the evening, and at weekends also from eleven to one at midday."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Για την προστασία των ασθενών, σε κάθε θάλαμο επιτρέπεται ένας μόνο επισκέπτης ανά ασθενή. Παιδιά κάτω των δώδεκα ετών δεν επιτρέπεται να μπαίνουν στις κλινικές. Στη Μονάδα Εντατικής Θεραπείας οι επισκέψεις γίνονται μόνο ύστερα από συνεννόηση με τους γιατρούς.",
+     "en": "To protect patients, only one visitor per patient is allowed in each ward. Children under twelve are not allowed into the clinics. In the Intensive Care Unit, visits take place only by arrangement with the doctors."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Παρακαλούμε να μη φέρνετε λουλούδια στους θαλάμους και να πλένετε τα χέρια σας με το αντισηπτικό στην είσοδο κάθε κλινικής. Για πληροφορίες σχετικά με την κατάσταση των ασθενών, απευθυνθείτε στο γραφείο νοσηλευτών του κάθε ορόφου. Σας ευχαριστούμε για τη συνεργασία.",
+     "en": "Please do not bring flowers into the wards, and wash your hands with the sanitiser at the entrance of each clinic. For information about patients' condition, please ask at the nurses' office on each floor. Thank you for your cooperation."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε θα επιτρέπονται οι επισκέψεις τις καθημερινές;",
+     "options": [
+      "Από τις έξι έως τις οχτώ το απόγευμα",
+      "Από τις έντεκα έως τη μία",
+      "Όλη μέρα",
+      "Μόνο το πρωί"
+     ],
+     "answer": "Από τις έξι έως τις οχτώ το απόγευμα",
+     "why": "Οι επισκέψεις θα επιτρέπονται καθημερινά από τις έξι έως τις οχτώ το απόγευμα"
+    },
+    {
+     "q": "Πόσοι επισκέπτες επιτρέπονται ανά ασθενή;",
+     "options": [
+      "Όσοι θέλουν",
+      "Δύο",
+      "Κανένας",
+      "Ένας μόνο"
+     ],
+     "answer": "Ένας μόνο",
+     "why": "σε κάθε θάλαμο επιτρέπεται ένας μόνο επισκέπτης ανά ασθενή"
+    },
+    {
+     "q": "Πού πρέπει να απευθυνθούν οι επισκέπτες για πληροφορίες για την κατάσταση των ασθενών;",
+     "options": [
+      "Στο γραφείο νοσηλευτών του κάθε ορόφου",
+      "Τηλεφωνικά στο κέντρο",
+      "Στη ρεσεψιόν της εισόδου",
+      "Στον διευθυντή του νοσοκομείου"
+     ],
+     "answer": "Στο γραφείο νοσηλευτών του κάθε ορόφου",
+     "why": "απευθυνθείτε στο γραφείο νοσηλευτών του κάθε ορόφου"
+    }
+   ],
+   "gloss": {
+    "επισκεπτηρίου": "επισκεπτήριο — visiting hours",
+    "ωράριο": "ωράριο — schedule, hours",
+    "θάλαμο": "θάλαμος — (hospital) ward",
+    "ασθενή": "ασθενής — patient",
+    "κλινικές": "κλινική — clinic, hospital department",
+    "Μονάδα Εντατικής Θεραπείας": "Μονάδα Εντατικής Θεραπείας — Intensive Care Unit",
+    "συνεννόηση": "συνεννόηση — arrangement, agreement",
+    "αντισηπτικό": "αντισηπτικό — sanitiser, antiseptic",
+    "απευθυνθείτε": "απευθύνομαι — to apply to, ask",
+    "νοσηλευτών": "νοσηλευτής — nurse"
+   }
+  },
+  {
+   "id": "l44-vm-estiatorio",
+   "title": "Επιβεβαίωση κράτησης",
+   "title_en": "A booking confirmation",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα από ένα εστιατόριο στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλησπέρα σας, κυρία Μαυρίδου, από το εστιατόριο «Η Αυλή» σας τηλεφωνώ. Θέλουμε να επιβεβαιώσουμε την κράτησή σας για το Σάββατο στις εννέα το βράδυ, για δώδεκα άτομα, για τα γενέθλια της μητέρας σας.",
+     "en": "Good evening, Mrs Mavridou, I'm calling from \"I Avli\" restaurant. We'd like to confirm your booking for Saturday at nine in the evening, for twelve people, for your mother's birthday."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Επειδή είστε μεγάλη παρέα, σας έχουμε κρατήσει το τραπέζι στην αυλή, κάτω από την κληματαριά. Αν όμως ο καιρός χαλάσει, θα σας βάλουμε στη σάλα του πρώτου ορόφου. Θα θέλαμε επίσης να μας πείτε αν κάποιος από τους καλεσμένους έχει αλλεργίες ή ακολουθεί ειδική διατροφή, ώστε να ενημερώσουμε τον σεφ.",
+     "en": "Because you're a large group, we've reserved the table in the courtyard for you, under the vine arbour. But if the weather turns bad, we'll put you in the first-floor dining room. We'd also like you to tell us whether any of the guests has allergies or follows a special diet, so that we can let the chef know."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Για την τούρτα που θα φέρετε, δεν υπάρχει πρόβλημα· θα τη φυλάξουμε στο ψυγείο και θα τη σερβίρουμε με κεριά στο τέλος. Παρακαλώ επιβεβαιώστε μας μέχρι την Πέμπτη, γιατί για παρέες άνω των δέκα ατόμων ζητάμε προκαταβολή πενήντα ευρώ. Ευχαριστώ, καλό βράδυ.",
+     "en": "As for the cake you'll be bringing, there's no problem; we'll keep it in the fridge and serve it with candles at the end. Please confirm with us by Thursday, because for groups of more than ten people we ask for a fifty-euro deposit. Thank you, good evening."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού θα κάτσει η παρέα, αν χαλάσει ο καιρός;",
+     "options": [
+      "Στη σάλα του πρώτου ορόφου",
+      "Στο μπαρ",
+      "Σε άλλο εστιατόριο",
+      "Στην αυλή κάτω από ομπρέλες"
+     ],
+     "answer": "Στη σάλα του πρώτου ορόφου",
+     "why": "Αν όμως ο καιρός χαλάσει, θα σας βάλουμε στη σάλα του πρώτου ορόφου"
+    },
+    {
+     "q": "Γιατί ρωτάει η υπάλληλος για αλλεργίες;",
+     "options": [
+      "Επειδή το απαιτεί ο νόμος",
+      "Για να ενημερώσει τον σεφ",
+      "Για να αλλάξει το τραπέζι",
+      "Για να υπολογίσει τον λογαριασμό"
+     ],
+     "answer": "Για να ενημερώσει τον σεφ",
+     "why": "ώστε να ενημερώσουμε τον σεφ"
+    },
+    {
+     "q": "Γιατί πρέπει η κυρία Μαυρίδου να επιβεβαιώσει μέχρι την Πέμπτη;",
+     "options": [
+      "Επειδή το εστιατόριο κλείνει την Παρασκευή",
+      "Επειδή για παρέες άνω των δέκα ατόμων ζητούν προκαταβολή",
+      "Επειδή αλλιώς δεν θα έχουν τούρτα",
+      "Επειδή ο σεφ λείπει"
+     ],
+     "answer": "Επειδή για παρέες άνω των δέκα ατόμων ζητούν προκαταβολή",
+     "why": "για παρέες άνω των δέκα ατόμων ζητάμε προκαταβολή πενήντα ευρώ"
+    }
+   ],
+   "gloss": {
+    "εστιατόριο": "εστιατόριο — restaurant",
+    "να επιβεβαιώσουμε": "επιβεβαιώνω — to confirm",
+    "κράτησή": "κράτηση — booking",
+    "παρέα": "παρέα — group (of friends), company",
+    "αυλή": "αυλή — courtyard",
+    "κληματαριά": "κληματαριά — vine arbour",
+    "σάλα": "σάλα — dining room, hall",
+    "καλεσμένους": "καλεσμένος — guest",
+    "ειδική διατροφή": "ειδική διατροφή — special diet",
+    "προκαταβολή": "προκαταβολή — deposit"
+   }
+  },
+  {
+   "id": "l44-dia-exochiko",
+   "title": "Ένα σπίτι για τις διακοπές",
+   "title_en": "A holiday house",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν άντρα που τηλεφωνεί σε μια ιδιοκτήτρια για να νοικιάσει ένα εξοχικό σπίτι στη Χαλκιδική.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Καλημέρα σας. Είδα την αγγελία σας για το σπίτι στη Σιθωνία. Θα θέλαμε να το νοικιάσουμε για δέκα μέρες, από τις δεκαπέντε Ιουλίου. Είμαστε δύο οικογένειες, τέσσερις ενήλικες και τρία παιδιά. Χωράμε;",
+     "en": "Good morning. I saw your ad for the house in Sithonia. We'd like to rent it for ten days, from the fifteenth of July. We're two families, four adults and three children. Is there room for us?"
+    },
+    {
+     "speaker": "Ιδιοκτήτρια",
+     "voice": "f",
+     "el": "Χωράτε άνετα. Το σπίτι έχει τρία υπνοδωμάτια, δύο μπάνια και μεγάλη βεράντα με θέα στη θάλασσα. Η παραλία είναι πέντε λεπτά με τα πόδια. Τον Ιούλιο η τιμή είναι εκατόν πενήντα ευρώ τη βραδιά, και ζητάω προκαταβολή το τριάντα τοις εκατό για να κλείσει η κράτηση.",
+     "en": "There's plenty of room. The house has three bedrooms, two bathrooms and a big veranda with a sea view. The beach is five minutes on foot. In July the price is a hundred and fifty euros a night, and I ask for a thirty per cent deposit to secure the booking."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Μάλιστα. Έχουμε και έναν σκύλο, μικρόσωμο και πολύ ήσυχο. Επιτρέπονται τα κατοικίδια; Και υπάρχει κλιματισμός;",
+     "en": "I see. We also have a dog, small and very quiet. Are pets allowed? And is there air conditioning?"
+    },
+    {
+     "speaker": "Ιδιοκτήτρια",
+     "voice": "f",
+     "el": "Κλιματιστικά υπάρχουν σε όλα τα δωμάτια. Τα κατοικίδια τα δεχόμαστε, αλλά με δύο όρους: ο σκύλος δεν ανεβαίνει στα κρεβάτια και στους καναπέδες, και χρεώνουμε τριάντα ευρώ επιπλέον για τον καθαρισμό στο τέλος. Αν συμφωνείτε, σας στέλνω τα στοιχεία του λογαριασμού για την προκαταβολή.",
+     "en": "There are air conditioners in all the rooms. We accept pets, but on two conditions: the dog doesn't get on the beds and sofas, and we charge thirty euros extra for the cleaning at the end. If you agree, I'll send you the account details for the deposit."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο απέχει η παραλία από το σπίτι;",
+     "options": [
+      "Μισή ώρα με τα πόδια",
+      "Δέκα λεπτά με το αυτοκίνητο",
+      "Πέντε λεπτά με τα πόδια",
+      "Είναι ακριβώς μπροστά στο σπίτι"
+     ],
+     "answer": "Πέντε λεπτά με τα πόδια",
+     "why": "Η παραλία είναι πέντε λεπτά με τα πόδια"
+    },
+    {
+     "q": "Τι χρειάζεται για να κλείσει η κράτηση;",
+     "options": [
+      "Ένα συμβόλαιο στον συμβολαιογράφο",
+      "Μια φωτοτυπία της ταυτότητας",
+      "Προκαταβολή το τριάντα τοις εκατό",
+      "Ολόκληρο το ποσό από πριν"
+     ],
+     "answer": "Προκαταβολή το τριάντα τοις εκατό",
+     "why": "ζητάω προκαταβολή το τριάντα τοις εκατό για να κλείσει η κράτηση"
+    },
+    {
+     "q": "Με ποιους όρους δέχεται η ιδιοκτήτρια τον σκύλο;",
+     "options": [
+      "Να μην ανεβαίνει σε κρεβάτια και καναπέδες και να πληρώσουν τριάντα ευρώ για καθαρισμό",
+      "Δεν δέχεται κανέναν σκύλο",
+      "Μόνο αν είναι εμβολιασμένος",
+      "Μόνο αν μένει στη βεράντα"
+     ],
+     "answer": "Να μην ανεβαίνει σε κρεβάτια και καναπέδες και να πληρώσουν τριάντα ευρώ για καθαρισμό",
+     "why": "ο σκύλος δεν ανεβαίνει στα κρεβάτια και στους καναπέδες, και χρεώνουμε τριάντα ευρώ επιπλέον για τον καθαρισμό"
+    }
+   ],
+   "gloss": {
+    "εξοχικό": "εξοχικό — holiday home, country house",
+    "αγγελία": "αγγελία — (classified) ad",
+    "ενήλικες": "ενήλικας — adult",
+    "Χωράμε": "χωράω — to fit, have room",
+    "υπνοδωμάτια": "υπνοδωμάτιο — bedroom",
+    "βεράντα": "βεράντα — veranda",
+    "μικρόσωμο": "μικρόσωμος — small (of body size)",
+    "κατοικίδια": "κατοικίδιο — pet",
+    "χρεώνουμε": "χρεώνω — to charge",
+    "στοιχεία του λογαριασμού": "στοιχεία λογαριασμού — account details"
+   }
+  },
+  {
+   "id": "l44-dia-thermokrasia",
+   "title": "Η θερμοκρασία στο γραφείο",
+   "title_en": "The temperature in the office",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε δύο συναδέλφους που διαφωνούν για τη θερμοκρασία του κλιματιστικού στο γραφείο τους.",
+   "script": [
+    {
+     "speaker": "Σοφία",
+     "voice": "f",
+     "el": "Κώστα, συγγνώμη, μπορούμε να ανεβάσουμε λίγο τη θερμοκρασία; Το κλιματιστικό είναι στους δεκαεννιά βαθμούς και έχω παγώσει. Φοράω ζακέτα μέσα στον Ιούλιο!",
+     "en": "Kostas, sorry, can we turn the temperature up a bit? The air conditioning is at nineteen degrees and I'm frozen. I'm wearing a cardigan in July!"
+    },
+    {
+     "speaker": "Κώστας",
+     "voice": "m",
+     "el": "Σε καταλαβαίνω, αλλά εγώ κάθομαι δίπλα στο παράθυρο, και ο ήλιος με χτυπάει όλο το απόγευμα. Αν το ανεβάσουμε, θα λιώσω. Επιπλέον, φοράω πουκάμισο και γραβάτα, γιατί έχω συναντήσεις με πελάτες.",
+     "en": "I understand, but I sit next to the window, and the sun beats down on me all afternoon. If we turn it up, I'll melt. Besides, I'm wearing a shirt and tie, because I have meetings with clients."
+    },
+    {
+     "speaker": "Σοφία",
+     "voice": "f",
+     "el": "Ξέρεις ότι η εταιρεία έστειλε email και ζήτησε να είναι τα κλιματιστικά στους είκοσι έξι, για να εξοικονομούμε ενέργεια; Και πέρα από αυτό, η διαφορά με τη θερμοκρασία έξω είναι τόσο μεγάλη, που κάθε φορά που βγαίνω κρυώνω.",
+     "en": "Do you know the company sent an email asking for the air conditioners to be at twenty-six, to save energy? And apart from that, the difference from the temperature outside is so big that every time I go out I catch a chill."
+    },
+    {
+     "speaker": "Κώστας",
+     "voice": "m",
+     "el": "Εντάξει, έχεις δίκιο. Ας κάνουμε έναν συμβιβασμό: το βάζουμε στους είκοσι τέσσερις, εγώ κατεβάζω τα στόρια το απόγευμα, και ρωτάμε τον υπεύθυνο αν μπορώ να αλλάξω θέση, να κάτσω πιο μέσα, μακριά από το παράθυρο.",
+     "en": "OK, you're right. Let's make a compromise: we set it to twenty-four, I lower the blinds in the afternoon, and we ask the manager whether I can change desks and sit further in, away from the window."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο Κώστας δεν θέλει να ανεβεί η θερμοκρασία;",
+     "options": [
+      "Επειδή το κλιματιστικό είναι χαλασμένο",
+      "Επειδή του το είπε ο υπεύθυνος",
+      "Επειδή κάθεται δίπλα στο παράθυρο και τον χτυπάει ο ήλιος",
+      "Επειδή είναι άρρωστος"
+     ],
+     "answer": "Επειδή κάθεται δίπλα στο παράθυρο και τον χτυπάει ο ήλιος",
+     "why": "κάθομαι δίπλα στο παράθυρο, και ο ήλιος με χτυπάει όλο το απόγευμα"
+    },
+    {
+     "q": "Τι ζήτησε η εταιρεία με email;",
+     "options": [
+      "Να δουλεύουν από το σπίτι τον Ιούλιο",
+      "Να είναι τα κλιματιστικά στους είκοσι έξι βαθμούς",
+      "Να φορούν όλοι γραβάτα",
+      "Να κλείνουν τα παράθυρα"
+     ],
+     "answer": "Να είναι τα κλιματιστικά στους είκοσι έξι βαθμούς",
+     "why": "ζήτησε να είναι τα κλιματιστικά στους είκοσι έξι, για να εξοικονομούμε ενέργεια"
+    },
+    {
+     "q": "Ποιος είναι ο συμβιβασμός που προτείνει ο Κώστας;",
+     "options": [
+      "Να δουλεύουν σε διαφορετικές ώρες",
+      "Να αγοράσει η Σοφία θερμάστρα",
+      "Είκοσι τέσσερις βαθμοί, στόρια το απόγευμα και αλλαγή θέσης",
+      "Να κλείσουν το κλιματιστικό"
+     ],
+     "answer": "Είκοσι τέσσερις βαθμοί, στόρια το απόγευμα και αλλαγή θέσης",
+     "why": "το βάζουμε στους είκοσι τέσσερις, εγώ κατεβάζω τα στόρια το απόγευμα"
+    }
+   ],
+   "gloss": {
+    "θερμοκρασία": "θερμοκρασία — temperature",
+    "κλιματιστικό": "κλιματιστικό — air conditioner",
+    "έχω παγώσει": "παγώνω — to freeze",
+    "ζακέτα": "ζακέτα — cardigan",
+    "θα λιώσω": "λιώνω — to melt",
+    "γραβάτα": "γραβάτα — tie",
+    "να εξοικονομούμε": "εξοικονομώ — to save (energy, money)",
+    "συμβιβασμό": "συμβιβασμός — compromise",
+    "στόρια": "στόρι — blind",
+    "υπεύθυνο": "υπεύθυνος — manager, person in charge"
+   }
+  },
+  {
+   "id": "l44-mono-mpouzouki",
+   "title": "Μπουζούκι στα εξήντα",
+   "title_en": "Bouzouki at sixty",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν συνταξιούχο που μιλάει σε μια ραδιοφωνική εκπομπή για το πώς έμαθε μπουζούκι.",
+   "script": [
+    {
+     "speaker": "Παναγιώτης",
+     "voice": "m",
+     "el": "Όλη μου τη ζωή ήθελα να παίζω μπουζούκι. Όταν ήμουν παιδί, ο πατέρας μου έλεγε ότι η μουσική δεν είναι δουλειά, και έπρεπε να βοηθάω στο μαγαζί. Μετά ήρθαν η δουλειά στην τράπεζα, τα παιδιά, οι υποχρεώσεις. Πάντα έλεγα «του χρόνου».",
+     "en": "All my life I wanted to play the bouzouki. When I was a child, my father said music isn't a job, and I had to help in the shop. Then came the job at the bank, the children, the obligations. I always said 'next year'."
+    },
+    {
+     "speaker": "Παναγιώτης",
+     "voice": "m",
+     "el": "Όταν βγήκα στη σύνταξη, στα εξήντα, η κόρη μου μού έκανε δώρο ένα μπουζούκι και μια κάρτα με τρεις μήνες μαθήματα σε ένα ωδείο. Την πρώτη μέρα ντράπηκα πολύ. Οι άλλοι μαθητές ήταν δεκαπέντε χρονών και τα δάχτυλά τους έτρεχαν πάνω στις χορδές, ενώ τα δικά μου ήταν σκληρά σαν ξύλο.",
+     "en": "When I retired, at sixty, my daughter gave me a bouzouki as a present and a card for three months of lessons at a music school. The first day I was very embarrassed. The other students were fifteen and their fingers ran over the strings, while mine were stiff as wood."
+    },
+    {
+     "speaker": "Παναγιώτης",
+     "voice": "m",
+     "el": "Ο δάσκαλός μου, όμως, μου είπε κάτι που δεν θα ξεχάσω: «Τα παιδιά έχουν γρήγορα δάχτυλα, εσύ έχεις κάτι που δεν διδάσκεται: έχεις ακούσει αυτά τα τραγούδια μια ζωή». Μελετούσα κάθε μέρα μία ώρα. Σήμερα, τέσσερα χρόνια μετά, παίζω με μια μικρή κομπανία σε πανηγύρια και σε γάμους. Ο πατέρας μου δεν πρόλαβε να με ακούσει, αλλά τα εγγόνια μου χορεύουν όταν παίζω.",
+     "en": "But my teacher told me something I won't forget: 'The kids have fast fingers; you have something that can't be taught: you've been listening to these songs all your life.' I practised an hour every day. Today, four years later, I play with a small band at village festivals and weddings. My father didn't live to hear me, but my grandchildren dance when I play."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο Παναγιώτης δεν έμαθε μπουζούκι ως παιδί;",
+     "options": [
+      "Επειδή δεν τον ενδιέφερε",
+      "Επειδή δεν υπήρχε ωδείο",
+      "Επειδή ο πατέρας του έλεγε ότι η μουσική δεν είναι δουλειά",
+      "Επειδή δεν είχε χρήματα για μπουζούκι"
+     ],
+     "answer": "Επειδή ο πατέρας του έλεγε ότι η μουσική δεν είναι δουλειά",
+     "why": "ο πατέρας μου έλεγε ότι η μουσική δεν είναι δουλειά"
+    },
+    {
+     "q": "Γιατί ντράπηκε την πρώτη μέρα στο ωδείο;",
+     "options": [
+      "Επειδή ο δάσκαλος τον μάλωσε",
+      "Επειδή ξέχασε το μπουζούκι",
+      "Επειδή άργησε",
+      "Επειδή οι άλλοι μαθητές ήταν πολύ νεότεροι και πιο γρήγοροι"
+     ],
+     "answer": "Επειδή οι άλλοι μαθητές ήταν πολύ νεότεροι και πιο γρήγοροι",
+     "why": "Οι άλλοι μαθητές ήταν δεκαπέντε χρονών και τα δάχτυλά τους έτρεχαν πάνω στις χορδές"
+    },
+    {
+     "q": "Τι κάνει σήμερα ο Παναγιώτης;",
+     "options": [
+      "Παίζει με μια κομπανία σε πανηγύρια και γάμους",
+      "Διδάσκει μπουζούκι σε παιδιά",
+      "Παίζει μόνο στο σπίτι",
+      "Έχει σταματήσει να παίζει"
+     ],
+     "answer": "Παίζει με μια κομπανία σε πανηγύρια και γάμους",
+     "why": "παίζω με μια μικρή κομπανία σε πανηγύρια και σε γάμους"
+    }
+   ],
+   "gloss": {
+    "μπουζούκι": "μπουζούκι — bouzouki",
+    "συνταξιούχο": "συνταξιούχος — pensioner, retiree",
+    "υποχρεώσεις": "υποχρέωση — obligation",
+    "βγήκα στη σύνταξη": "βγαίνω στη σύνταξη — to retire",
+    "ωδείο": "ωδείο — music school, conservatory",
+    "ντράπηκα": "ντρέπομαι — to be embarrassed, shy",
+    "χορδές": "χορδή — string",
+    "δεν διδάσκεται": "διδάσκομαι — to be taught",
+    "κομπανία": "κομπανία — (folk) band",
+    "πανηγύρια": "πανηγύρι — village festival"
+   }
+  },
+  {
+   "id": "l44-rep-epistrofi-mpoukalion",
+   "title": "Επιστροφή για τα μπουκάλια",
+   "title_en": "Money back for bottles",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για ένα πιλοτικό πρόγραμμα επιστροφής πλαστικών μπουκαλιών σε σούπερ μάρκετ.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Στην είσοδο ενός σούπερ μάρκετ στο Περιστέρι, μια μεγάλη πράσινη μηχανή «καταπίνει» πλαστικά μπουκάλια και αλουμινένια κουτάκια. Για κάθε συσκευασία που επιστρέφει ο καταναλωτής, η μηχανή τυπώνει ένα κουπόνι αξίας δέκα λεπτών, που μπορεί να χρησιμοποιηθεί στο ταμείο.",
+     "en": "At the entrance of a supermarket in Peristeri, a big green machine 'swallows' plastic bottles and aluminium cans. For each container the customer returns, the machine prints a voucher worth ten cents, which can be used at the till."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Η ιδέα δεν είναι καινούργια. Σε χώρες όπως η Γερμανία και η Νορβηγία, συστήματα επιστροφής εγγύησης λειτουργούν εδώ και χρόνια, και πάνω από το ενενήντα τοις εκατό των μπουκαλιών επιστρέφεται. Στην Ελλάδα, αντίθετα, πολλά πλαστικά μπουκάλια καταλήγουν ακόμα σε χωματερές ή στη θάλασσα.",
+     "en": "The idea isn't new. In countries such as Germany and Norway, deposit-return systems have been working for years, and over ninety per cent of bottles are returned. In Greece, by contrast, many plastic bottles still end up in landfills or in the sea."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Οι πελάτες με τους οποίους μιλήσαμε δείχνουν ενθουσιασμένοι. «Μαζεύω τα μπουκάλια όλης της πολυκατοικίας», μας λέει μια συνταξιούχος, «και με τα κουπόνια αγοράζω τον καφέ του μήνα». Κάποιοι, πάντως, παραπονιούνται ότι η μηχανή δεν δέχεται τσαλακωμένα μπουκάλια, γιατί πρέπει να διαβάσει το barcode. Αν το πρόγραμμα πετύχει, θα επεκταθεί σε όλη τη χώρα.",
+     "en": "The customers we spoke to seem enthusiastic. 'I collect the bottles of the whole building,' a pensioner tells us, 'and with the vouchers I buy my coffee for the month.' Some, however, complain that the machine won't accept crushed bottles, because it has to read the barcode. If the programme succeeds, it will be extended to the whole country."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι παίρνει ο καταναλωτής για κάθε συσκευασία που επιστρέφει;",
+     "options": [
+      "Πόντους σε μια εφαρμογή",
+      "Ένα κουπόνι δέκα λεπτών",
+      "Ένα ευρώ σε μετρητά",
+      "Ένα δωρεάν μπουκάλι νερό"
+     ],
+     "answer": "Ένα κουπόνι δέκα λεπτών",
+     "why": "η μηχανή τυπώνει ένα κουπόνι αξίας δέκα λεπτών"
+    },
+    {
+     "q": "Τι ισχύει σε χώρες όπως η Γερμανία και η Νορβηγία;",
+     "options": [
+      "Το πρόγραμμα σταμάτησε",
+      "Επιστρέφεται πάνω από το ενενήντα τοις εκατό των μπουκαλιών",
+      "Τα μπουκάλια καίγονται",
+      "Δεν υπάρχουν πλαστικά μπουκάλια"
+     ],
+     "answer": "Επιστρέφεται πάνω από το ενενήντα τοις εκατό των μπουκαλιών",
+     "why": "πάνω από το ενενήντα τοις εκατό των μπουκαλιών επιστρέφεται"
+    },
+    {
+     "q": "Για ποιο πράγμα παραπονιούνται κάποιοι πελάτες;",
+     "options": [
+      "Ότι το κουπόνι αξίζει πολύ λίγο",
+      "Ότι η ουρά είναι μεγάλη",
+      "Ότι η μηχανή δεν δέχεται τσαλακωμένα μπουκάλια",
+      "Ότι η μηχανή είναι πάντα χαλασμένη"
+     ],
+     "answer": "Ότι η μηχανή δεν δέχεται τσαλακωμένα μπουκάλια",
+     "why": "η μηχανή δεν δέχεται τσαλακωμένα μπουκάλια, γιατί πρέπει να διαβάσει το barcode"
+    }
+   ],
+   "gloss": {
+    "πιλοτικό": "πιλοτικός — pilot (adj.)",
+    "αλουμινένια": "αλουμινένιος — aluminium (adj.)",
+    "κουτάκια": "κουτάκι — can",
+    "συσκευασία": "συσκευασία — package, container",
+    "κουπόνι": "κουπόνι — voucher",
+    "ταμείο": "ταμείο — till, checkout",
+    "επιστροφής εγγύησης": "σύστημα επιστροφής εγγύησης — deposit-return system",
+    "χωματερές": "χωματερή — landfill",
+    "τσαλακωμένα": "τσαλακωμένος — crushed, crumpled",
+    "θα επεκταθεί": "επεκτείνομαι — to be extended"
+   }
+  },
+  {
+   "id": "l44-rep-askisi-seismou",
+   "title": "Άσκηση σεισμού στο σχολείο",
+   "title_en": "An earthquake drill at school",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από μια άσκηση σεισμού σε ένα δημοτικό σχολείο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Δέκα και μισή το πρωί σε ένα δημοτικό σχολείο της Πάτρας. Ξαφνικά ακούγεται ένα δυνατό κουδούνι, που χτυπάει διακεκομμένα. Μέσα σε λίγα δευτερόλεπτα, τα παιδιά έχουν μπει κάτω από τα θρανία και κρατούν σφιχτά τα πόδια τους, όπως έχουν μάθει.",
+     "en": "Half past ten in the morning at a primary school in Patras. Suddenly a loud bell is heard, ringing intermittently. Within a few seconds, the children have got under their desks and are holding the legs tightly, as they've learned."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Όταν το κουδούνι σταματά, οι δάσκαλοι οδηγούν τις τάξεις, με ήρεμο ρυθμό και χωρίς να τρέχουν, στο προαύλιο, μακριά από το κτίριο και από τις κολόνες του ρεύματος. Εκεί η διευθύντρια μετράει τα παιδιά κάθε τάξης με βάση έναν κατάλογο. Όλη η εκκένωση ολοκληρώθηκε σε λιγότερο από τρία λεπτά.",
+     "en": "When the bell stops, the teachers lead the classes, at a calm pace and without running, into the playground, away from the building and the electricity poles. There the head teacher counts the children of each class against a list. The whole evacuation was completed in less than three minutes."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τέτοιες ασκήσεις γίνονται υποχρεωτικά δύο φορές τον χρόνο σε όλα τα σχολεία της χώρας. «Η Ελλάδα είναι από τις πιο σεισμογενείς χώρες της Ευρώπης», εξηγεί η διευθύντρια. «Θέλουμε τα παιδιά να ξέρουν τι να κάνουν χωρίς να το σκεφτούν, ώστε να μην πανικοβληθούν σε έναν πραγματικό σεισμό. Και πολλά από αυτά γυρίζουν σπίτι και μαθαίνουν τους γονείς τους τι πρέπει να κάνουν.»",
+     "en": "Such drills are compulsory twice a year in all the country's schools. 'Greece is one of the most earthquake-prone countries in Europe,' the head teacher explains. 'We want the children to know what to do without thinking, so that they don't panic in a real earthquake. And many of them go home and teach their parents what to do.'"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι κάνουν τα παιδιά όταν ακούν το κουδούνι;",
+     "options": [
+      "Στέκονται δίπλα στα παράθυρα",
+      "Τηλεφωνούν στους γονείς τους",
+      "Τρέχουν αμέσως έξω",
+      "Μπαίνουν κάτω από τα θρανία και κρατούν τα πόδια τους"
+     ],
+     "answer": "Μπαίνουν κάτω από τα θρανία και κρατούν τα πόδια τους",
+     "why": "τα παιδιά έχουν μπει κάτω από τα θρανία και κρατούν σφιχτά τα πόδια τους"
+    },
+    {
+     "q": "Πόσο κράτησε η εκκένωση;",
+     "options": [
+      "Δέκα λεπτά",
+      "Λιγότερο από τρία λεπτά",
+      "Μισή ώρα",
+      "Ένα λεπτό ακριβώς"
+     ],
+     "answer": "Λιγότερο από τρία λεπτά",
+     "why": "Όλη η εκκένωση ολοκληρώθηκε σε λιγότερο από τρία λεπτά"
+    },
+    {
+     "q": "Γιατί, κατά τη διευθύντρια, γίνονται αυτές οι ασκήσεις;",
+     "options": [
+      "Επειδή το ζήτησαν οι γονείς",
+      "Επειδή το σχολείο είναι παλιό",
+      "Για να ξέρουν τα παιδιά τι να κάνουν χωρίς να πανικοβληθούν",
+      "Για να χάνουν τα παιδιά μάθημα"
+     ],
+     "answer": "Για να ξέρουν τα παιδιά τι να κάνουν χωρίς να πανικοβληθούν",
+     "why": "Θέλουμε τα παιδιά να ξέρουν τι να κάνουν χωρίς να το σκεφτούν, ώστε να μην πανικοβληθούν"
+    }
+   ],
+   "gloss": {
+    "άσκηση σεισμού": "άσκηση σεισμού — earthquake drill",
+    "διακεκομμένα": "διακεκομμένα — intermittently",
+    "θρανία": "θρανίο — school desk",
+    "σφιχτά": "σφιχτά — tightly",
+    "προαύλιο": "προαύλιο — school yard",
+    "κολόνες του ρεύματος": "κολόνα του ρεύματος — electricity pole",
+    "κατάλογο": "κατάλογος — list",
+    "εκκένωση": "εκκένωση — evacuation",
+    "σεισμογενείς": "σεισμογενής — earthquake-prone",
+    "πανικοβληθούν": "πανικοβάλλομαι — to panic"
+   }
+  },
+  {
+   "id": "l44-int-somelie",
+   "title": "Μια νεαρή σομελιέ",
+   "title_en": "A young sommelier",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια σομελιέ που δουλεύει σε ένα εστιατόριο της Αθήνας.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πώς αποφασίσατε να γίνετε σομελιέ; Δεν είναι συνηθισμένο επάγγελμα για μια γυναίκα είκοσι επτά χρονών.",
+     "en": "How did you decide to become a sommelier? It's not a common profession for a woman of twenty-seven."
+    },
+    {
+     "speaker": "Σομελιέ",
+     "voice": "f",
+     "el": "Η οικογένειά μου έχει αμπέλια στη Νεμέα, οπότε μεγάλωσα ανάμεσα σε βαρέλια. Σπούδασα όμως οικονομικά και δούλευα σε μια τράπεζα. Κάποια στιγμή κατάλαβα ότι μου έλειπε η μυρωδιά του τρύγου. Έκανα ένα πρόγραμμα σπουδών για σομελιέ στη Θεσσαλονίκη και μετά δούλεψα δύο χρόνια σε εστιατόρια στη Γαλλία.",
+     "en": "My family has vineyards in Nemea, so I grew up among barrels. But I studied economics and worked at a bank. At some point I realised I missed the smell of the grape harvest. I did a sommelier course in Thessaloniki and then worked for two years in restaurants in France."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πολλοί πελάτες φοβούνται τον κατάλογο των κρασιών. Τι τους συμβουλεύετε;",
+     "en": "Many customers are afraid of the wine list. What do you advise them?"
+    },
+    {
+     "speaker": "Σομελιέ",
+     "voice": "f",
+     "el": "Να μη ντρέπονται να ρωτήσουν. Η δουλειά μου δεν είναι να τους πουλήσω το πιο ακριβό κρασί, αλλά να βρω αυτό που ταιριάζει στο φαγητό και στο γούστο τους. Συχνά προτείνω ελληνικές ποικιλίες που δεν ξέρουν, όπως το ασύρτικο ή το ξινόμαυρο. Και πάντα λέω ότι το καλύτερο κρασί είναι αυτό που πίνεις με καλή παρέα.",
+     "en": "Not to be shy about asking. My job isn't to sell them the most expensive wine, but to find the one that suits their food and their taste. I often suggest Greek varieties they don't know, like assyrtiko or xinomavro. And I always say the best wine is the one you drink in good company."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε η σομελιέ πριν ασχοληθεί με το κρασί επαγγελματικά;",
+     "options": [
+      "Δούλευε σε μια τράπεζα",
+      "Ήταν φοιτήτρια στη Γαλλία",
+      "Δούλευε στα αμπέλια της οικογένειας",
+      "Ήταν μαγείρισσα"
+     ],
+     "answer": "Δούλευε σε μια τράπεζα",
+     "why": "Σπούδασα όμως οικονομικά και δούλευα σε μια τράπεζα"
+    },
+    {
+     "q": "Τι θεωρεί δουλειά της;",
+     "options": [
+      "Να γράφει τον κατάλογο",
+      "Να πουλάει το πιο ακριβό κρασί",
+      "Να βρίσκει το κρασί που ταιριάζει στο φαγητό και στο γούστο του πελάτη",
+      "Να σερβίρει μόνο γαλλικά κρασιά"
+     ],
+     "answer": "Να βρίσκει το κρασί που ταιριάζει στο φαγητό και στο γούστο του πελάτη",
+     "why": "να βρω αυτό που ταιριάζει στο φαγητό και στο γούστο τους"
+    },
+    {
+     "q": "Ποιο είναι, κατά τη σομελιέ, το καλύτερο κρασί;",
+     "options": [
+      "Το ασύρτικο",
+      "Αυτό που πίνεις με καλή παρέα",
+      "Το πιο παλιό",
+      "Το πιο ακριβό"
+     ],
+     "answer": "Αυτό που πίνεις με καλή παρέα",
+     "why": "το καλύτερο κρασί είναι αυτό που πίνεις με καλή παρέα"
+    }
+   ],
+   "gloss": {
+    "σομελιέ": "σομελιέ — sommelier",
+    "επάγγελμα": "επάγγελμα — profession",
+    "αμπέλια": "αμπέλι — vineyard",
+    "βαρέλια": "βαρέλι — barrel",
+    "τρύγου": "τρύγος — grape harvest",
+    "κατάλογο των κρασιών": "κατάλογος κρασιών — wine list",
+    "ντρέπονται": "ντρέπομαι — to be shy, embarrassed",
+    "γούστο": "γούστο — taste",
+    "ποικιλίες": "ποικιλία — (grape) variety",
+    "ασύρτικο": "ασύρτικο — assyrtiko (white grape)"
+   }
+  },
+  {
+   "id": "l44-mono-neuromythoi",
+   "title": "Μύθοι για τον εγκέφαλο",
+   "title_en": "Myths about the brain",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια νευροεπιστήμονα που μιλάει σε μια εκδήλωση για εκπαιδευτικούς σχετικά με διαδεδομένους μύθους για τον εγκέφαλο.",
+   "script": [
+    {
+     "speaker": "Νευροεπιστήμονας",
+     "voice": "f",
+     "el": "Ας ξεκινήσουμε με μια ερώτηση: πόσοι από εσάς έχετε ακούσει ότι χρησιμοποιούμε μόνο το δέκα τοις εκατό του εγκεφάλου μας; Οι περισσότεροι, βλέπω. Πρόκειται για έναν από τους πιο ανθεκτικούς μύθους, παρότι δεν έχει καμία επιστημονική βάση. Οι απεικονιστικές μέθοδοι δείχνουν ότι, μέσα σε μια μέρα, ενεργοποιούνται σχεδόν όλες οι περιοχές του εγκεφάλου, ακόμα και στον ύπνο.",
+     "en": "Let's start with a question: how many of you have heard that we use only ten per cent of our brain? Most of you, I see. It's one of the most persistent myths, even though it has no scientific basis at all. Imaging methods show that, over a day, almost all regions of the brain are activated, even during sleep."
+    },
+    {
+     "speaker": "Νευροεπιστήμονας",
+     "voice": "f",
+     "el": "Ένας δεύτερος μύθος, ιδιαίτερα δημοφιλής στον χώρο της εκπαίδευσης, είναι ότι οι άνθρωποι χωρίζονται σε «αριστεροεγκεφαλικούς», λογικούς και αναλυτικούς, και «δεξιοεγκεφαλικούς», δημιουργικούς και διαισθητικούς. Είναι αλήθεια ότι ορισμένες λειτουργίες, όπως μεγάλο μέρος της γλώσσας, εντοπίζονται κυρίως στο ένα ημισφαίριο. Δεν υπάρχει όμως καμία ένδειξη ότι κάποιοι άνθρωποι χρησιμοποιούν συστηματικά περισσότερο το ένα ημισφαίριο από το άλλο.",
+     "en": "A second myth, especially popular in education, is that people are divided into 'left-brained', logical and analytical, and 'right-brained', creative and intuitive. It's true that certain functions, such as a large part of language, are located mainly in one hemisphere. But there is no evidence whatsoever that some people systematically use one hemisphere more than the other."
+    },
+    {
+     "speaker": "Νευροεπιστήμονας",
+     "voice": "f",
+     "el": "Ο τρίτος μύθος σάς αφορά άμεσα: ότι κάθε μαθητής έχει ένα «μαθησιακό στυλ», οπτικό, ακουστικό ή κιναισθητικό, και μαθαίνει καλύτερα όταν η διδασκαλία προσαρμόζεται σε αυτό. Οι μαθητές πράγματι έχουν προτιμήσεις. Όμως οι προσεκτικά σχεδιασμένες μελέτες δεν έχουν δείξει ότι η προσαρμογή της διδασκαλίας σε αυτές τις προτιμήσεις βελτιώνει τη μάθηση.",
+     "en": "The third myth concerns you directly: that each student has a 'learning style', visual, auditory or kinaesthetic, and learns better when teaching is adapted to it. Students do have preferences. But carefully designed studies have not shown that adapting teaching to these preferences improves learning."
+    },
+    {
+     "speaker": "Νευροεπιστήμονας",
+     "voice": "f",
+     "el": "Γιατί επιβιώνουν αυτοί οι μύθοι; Εν μέρει επειδή είναι απλοί και κολακευτικοί: μας υπόσχονται ανεκμετάλλευτες δυνάμεις ή μας βεβαιώνουν ότι είμαστε μοναδικοί. Το πρόβλημα είναι ότι στρέφουν χρόνο και χρήματα μακριά από πρακτικές που πράγματι λειτουργούν, όπως η κατανεμημένη επανάληψη, η ανάκληση από μνήμης και ο επαρκής ύπνος.",
+     "en": "Why do these myths survive? Partly because they are simple and flattering: they promise us untapped powers or reassure us that we are unique. The problem is that they divert time and money away from practices that really work, such as spaced repetition, retrieval practice and enough sleep."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι δείχνουν οι απεικονιστικές μέθοδοι για τον μύθο του δέκα τοις εκατό;",
+     "options": [
+      "Ότι μέσα σε μια μέρα ενεργοποιούνται σχεδόν όλες οι περιοχές του εγκεφάλου",
+      "Ότι ο εγκέφαλος σταματά στον ύπνο",
+      "Ότι ισχύει μόνο για τους ενήλικες",
+      "Ότι χρησιμοποιούμε το πενήντα τοις εκατό"
+     ],
+     "answer": "Ότι μέσα σε μια μέρα ενεργοποιούνται σχεδόν όλες οι περιοχές του εγκεφάλου",
+     "why": "μέσα σε μια μέρα, ενεργοποιούνται σχεδόν όλες οι περιοχές του εγκεφάλου, ακόμα και στον ύπνο"
+    },
+    {
+     "q": "Τι ισχύει, κατά την ομιλήτρια, για τα δύο ημισφαίρια;",
+     "options": [
+      "Λειτουργούν εντελώς ανεξάρτητα",
+      "Η γλώσσα βρίσκεται και στα δύο εξίσου",
+      "Ορισμένες λειτουργίες εντοπίζονται κυρίως στο ένα, αλλά κανείς δεν χρησιμοποιεί συστηματικά περισσότερο το ένα",
+      "Οι δημιουργικοί άνθρωποι χρησιμοποιούν το δεξί"
+     ],
+     "answer": "Ορισμένες λειτουργίες εντοπίζονται κυρίως στο ένα, αλλά κανείς δεν χρησιμοποιεί συστηματικά περισσότερο το ένα",
+     "why": "Δεν υπάρχει όμως καμία ένδειξη ότι κάποιοι άνθρωποι χρησιμοποιούν συστηματικά περισσότερο το ένα ημισφαίριο από το άλλο"
+    },
+    {
+     "q": "Τι έχουν δείξει οι μελέτες για τα «μαθησιακά στυλ»;",
+     "options": [
+      "Ότι η προσαρμογή της διδασκαλίας σε αυτά δεν βελτιώνει τη μάθηση",
+      "Ότι οι οπτικοί μαθητές μαθαίνουν πιο γρήγορα",
+      "Ότι οι μαθητές δεν έχουν καμία προτίμηση",
+      "Ότι ισχύουν μόνο για τα μικρά παιδιά"
+     ],
+     "answer": "Ότι η προσαρμογή της διδασκαλίας σε αυτά δεν βελτιώνει τη μάθηση",
+     "why": "δεν έχουν δείξει ότι η προσαρμογή της διδασκαλίας σε αυτές τις προτιμήσεις βελτιώνει τη μάθηση"
+    },
+    {
+     "q": "Ποιο είναι, κατά την ομιλήτρια, το πρόβλημα με αυτούς τους μύθους;",
+     "options": [
+      "Ότι τους πιστεύουν μόνο οι γονείς",
+      "Ότι προσβάλλουν τους μαθητές",
+      "Ότι είναι πολύ περίπλοκοι",
+      "Ότι στρέφουν χρόνο και χρήματα μακριά από πρακτικές που λειτουργούν"
+     ],
+     "answer": "Ότι στρέφουν χρόνο και χρήματα μακριά από πρακτικές που λειτουργούν",
+     "why": "στρέφουν χρόνο και χρήματα μακριά από πρακτικές που πράγματι λειτουργούν"
+    }
+   ],
+   "gloss": {
+    "νευροεπιστήμονα": "νευροεπιστήμονας — neuroscientist",
+    "εκπαιδευτικούς": "εκπαιδευτικός — teacher, educator",
+    "ανθεκτικούς": "ανθεκτικός — persistent, resilient",
+    "απεικονιστικές": "απεικονιστικός — imaging (adj.)",
+    "αριστεροεγκεφαλικούς": "αριστεροεγκεφαλικός — left-brained",
+    "διαισθητικούς": "διαισθητικός — intuitive",
+    "εντοπίζονται": "εντοπίζομαι — to be located",
+    "ημισφαίριο": "ημισφαίριο — hemisphere",
+    "μαθησιακό": "μαθησιακός — learning (adj.)",
+    "κιναισθητικό": "κιναισθητικός — kinaesthetic",
+    "κολακευτικοί": "κολακευτικός — flattering",
+    "ανεκμετάλλευτες": "ανεκμετάλλευτος — untapped",
+    "κατανεμημένη επανάληψη": "κατανεμημένη επανάληψη — spaced repetition",
+    "ανάκληση από μνήμης": "ανάκληση από μνήμης — retrieval practice",
+    "επαρκής": "επαρκής — sufficient"
+   }
+  },
+  {
+   "id": "l44-int-dikaioma-lithis",
+   "title": "Το δικαίωμα στη λήθη",
+   "title_en": "The right to be forgotten",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια νομικό που ειδικεύεται στην προστασία των προσωπικών δεδομένων.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι ακριβώς είναι το λεγόμενο «δικαίωμα στη λήθη»;",
+     "en": "What exactly is the so-called 'right to be forgotten'?"
+    },
+    {
+     "speaker": "Νομικός",
+     "voice": "f",
+     "el": "Είναι το δικαίωμα ενός ανθρώπου να ζητήσει να διαγραφούν προσωπικές του πληροφορίες από το διαδίκτυο, ή τουλάχιστον να μην εμφανίζονται στα αποτελέσματα των μηχανών αναζήτησης, όταν αυτές οι πληροφορίες είναι παλιές, ανακριβείς ή δεν εξυπηρετούν πια κανέναν θεμιτό σκοπό. Στην Ευρώπη αναγνωρίστηκε με μια απόφαση του Δικαστηρίου της Ευρωπαϊκής Ένωσης το 2014 και στη συνέχεια κατοχυρώθηκε στον Γενικό Κανονισμό για την Προστασία Δεδομένων.",
+     "en": "It is a person's right to ask for personal information about them to be deleted from the internet, or at least not to appear in search engine results, when that information is old, inaccurate or no longer serves any legitimate purpose. In Europe it was recognised by a ruling of the Court of Justice of the European Union in 2014 and was then enshrined in the General Data Protection Regulation."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Δεν υπάρχει κίνδυνος να χρησιμοποιηθεί για να «σβηστούν» ενοχλητικές αλήθειες, για παράδειγμα από πολιτικούς;",
+     "en": "Isn't there a risk of it being used to 'erase' inconvenient truths, by politicians for example?"
+    },
+    {
+     "speaker": "Νομικός",
+     "voice": "f",
+     "el": "Ο κίνδυνος υπάρχει, και γι' αυτό το δικαίωμα δεν είναι απόλυτο. Κάθε αίτημα σταθμίζεται απέναντι στο δημόσιο συμφέρον και στην ελευθερία της πληροφόρησης. Ένας ιδιώτης που πριν από δεκαπέντε χρόνια χρεοκόπησε έχει ισχυρά επιχειρήματα για να ζητήσει να μην εμφανίζεται το όνομά του σε κάθε αναζήτηση. Ένας υπουργός που κατηγορήθηκε για διαφθορά, αντίθετα, δύσκολα θα δικαιωθεί, γιατί η πληροφορία αφορά τη δημόσια δράση του.",
+     "en": "The risk exists, and that's why the right is not absolute. Each request is weighed against the public interest and freedom of information. A private individual who went bankrupt fifteen years ago has strong arguments for asking that his name not appear in every search. A minister who was accused of corruption, by contrast, will hardly win, because the information concerns his public conduct."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και στην πράξη; Μπορεί πράγματι κάτι να ξεχαστεί στο διαδίκτυο;",
+     "en": "And in practice? Can something really be forgotten on the internet?"
+    },
+    {
+     "speaker": "Νομικός",
+     "voice": "f",
+     "el": "Εδώ βρίσκεται το παράδοξο. Η διαγραφή από τις ευρωπαϊκές εκδόσεις μιας μηχανής αναζήτησης δεν σημαίνει ότι η πληροφορία εξαφανίζεται· μπορεί να υπάρχει σε αρχεία, σε άλλες χώρες ή σε στιγμιότυπα οθόνης που έχουν ήδη κυκλοφορήσει. Το δικαίωμα στη λήθη δεν υπόσχεται, λοιπόν, πραγματική λήθη, αλλά κάτι πιο ταπεινό: να γίνει μια πληροφορία πιο δυσεύρετη, ώστε να μην καθορίζει για πάντα πώς μας βλέπουν οι άλλοι.",
+     "en": "Here lies the paradox. Removal from the European versions of a search engine doesn't mean the information disappears; it may exist in archives, in other countries or in screenshots that have already circulated. So the right to be forgotten does not promise real forgetting, but something more modest: to make a piece of information harder to find, so that it doesn't determine forever how others see us."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε μπορεί κάποιος να ζητήσει να διαγραφούν πληροφορίες για τον ίδιο;",
+     "options": [
+      "Όταν είναι παλιές, ανακριβείς ή δεν εξυπηρετούν πια θεμιτό σκοπό",
+      "Όποτε θέλει, χωρίς προϋποθέσεις",
+      "Μόνο αν η πληροφορία είναι ψεύτικη",
+      "Μόνο αν είναι πολιτικός"
+     ],
+     "answer": "Όταν είναι παλιές, ανακριβείς ή δεν εξυπηρετούν πια θεμιτό σκοπό",
+     "why": "όταν αυτές οι πληροφορίες είναι παλιές, ανακριβείς ή δεν εξυπηρετούν πια κανέναν θεμιτό σκοπό"
+    },
+    {
+     "q": "Πώς αναγνωρίστηκε το δικαίωμα στην Ευρώπη;",
+     "options": [
+      "Με απόφαση του Δικαστηρίου της Ευρωπαϊκής Ένωσης το 2014",
+      "Με συμφωνία των μηχανών αναζήτησης",
+      "Με δημοψήφισμα",
+      "Με έναν ελληνικό νόμο"
+     ],
+     "answer": "Με απόφαση του Δικαστηρίου της Ευρωπαϊκής Ένωσης το 2014",
+     "why": "αναγνωρίστηκε με μια απόφαση του Δικαστηρίου της Ευρωπαϊκής Ένωσης το 2014"
+    },
+    {
+     "q": "Γιατί ένας υπουργός που κατηγορήθηκε για διαφθορά δύσκολα θα δικαιωθεί;",
+     "options": [
+      "Επειδή το αίτημα κοστίζει πολύ",
+      "Επειδή δεν έχει δικηγόρο",
+      "Επειδή η πληροφορία αφορά τη δημόσια δράση του",
+      "Επειδή οι υπουργοί δεν έχουν προσωπικά δεδομένα"
+     ],
+     "answer": "Επειδή η πληροφορία αφορά τη δημόσια δράση του",
+     "why": "η πληροφορία αφορά τη δημόσια δράση του"
+    },
+    {
+     "q": "Τι υπόσχεται τελικά, κατά τη νομικό, το δικαίωμα στη λήθη;",
+     "options": [
+      "Την τιμωρία όσων δημοσίευσαν την πληροφορία",
+      "Αποζημίωση για τον ενδιαφερόμενο",
+      "Την οριστική εξαφάνιση κάθε πληροφορίας",
+      "Να γίνει μια πληροφορία πιο δυσεύρετη"
+     ],
+     "answer": "Να γίνει μια πληροφορία πιο δυσεύρετη",
+     "why": "να γίνει μια πληροφορία πιο δυσεύρετη, ώστε να μην καθορίζει για πάντα πώς μας βλέπουν οι άλλοι"
+    }
+   ],
+   "gloss": {
+    "νομικό": "νομικός — lawyer, legal expert",
+    "προσωπικών δεδομένων": "προσωπικά δεδομένα — personal data",
+    "λήθη": "λήθη — oblivion, forgetting",
+    "να διαγραφούν": "διαγράφομαι — to be deleted",
+    "μηχανών αναζήτησης": "μηχανή αναζήτησης — search engine",
+    "ανακριβείς": "ανακριβής — inaccurate",
+    "θεμιτό": "θεμιτός — legitimate",
+    "κατοχυρώθηκε": "κατοχυρώνομαι — to be enshrined, secured",
+    "σταθμίζεται": "σταθμίζομαι — to be weighed",
+    "δημόσιο συμφέρον": "δημόσιο συμφέρον — public interest",
+    "χρεοκόπησε": "χρεοκοπώ — to go bankrupt",
+    "διαφθορά": "διαφθορά — corruption",
+    "δικαιωθεί": "δικαιώνομαι — to be vindicated, win one's case",
+    "στιγμιότυπα οθόνης": "στιγμιότυπο οθόνης — screenshot",
+    "δυσεύρετη": "δυσεύρετος — hard to find"
+   }
+  }
+ ]
+}
