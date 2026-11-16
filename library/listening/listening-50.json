@@ -1,0 +1,862 @@
+{
+ "items": [
+  {
+   "id": "l50-ann-allagi-limaniou",
+   "title": "Αλλαγή λιμανιού αναχώρησης",
+   "title_en": "A change of departure port",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Περιμένετε στο λιμάνι του Πειραιά να πάρετε το πλοίο για τη Νάξο. Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα.",
+   "script": [
+    {
+     "speaker": "Ανακοίνωση",
+     "voice": "m",
+     "el": "Προσοχή, παρακαλώ. Ενημερώνουμε τους επιβάτες του πλοίου «Αιγαίον» με προορισμό Πάρο και Νάξο ότι, λόγω βλάβης στον καταπέλτη του πλοίου, η σημερινή αναχώρηση δεν θα γίνει από τον Πειραιά αλλά από το λιμάνι της Ραφήνας. Η ώρα αναχώρησης μεταφέρεται από τις επτά και μισή στις δέκα το πρωί.",
+     "en": "Attention, please. Passengers on the ship Aegaeon bound for Paros and Naxos are informed that, due to a fault in the ship's loading ramp, today's departure will not be from Piraeus but from the port of Rafina. The departure time is moved from half past seven to ten in the morning."
+    },
+    {
+     "speaker": "Ανακοίνωση",
+     "voice": "m",
+     "el": "Για τη μεταφορά των επιβατών, η εταιρεία έχει διαθέσει δωρεάν λεωφορεία, που θα αναχωρούν από την πύλη Ε7 κάθε μισή ώρα, από τις επτά μέχρι τις οχτώ και μισή. Η διαδρομή διαρκεί περίπου μία ώρα. Οι επιβάτες με αυτοκίνητο παρακαλούνται να κατευθυνθούν οι ίδιοι στη Ραφήνα.",
+     "en": "To transport passengers, the company has laid on free buses, which will leave from gate E7 every half hour, from seven until half past eight. The journey takes about an hour. Passengers with cars are asked to make their own way to Rafina."
+    },
+    {
+     "speaker": "Ανακοίνωση",
+     "voice": "m",
+     "el": "Τα εισιτήρια ισχύουν κανονικά και δεν χρειάζεται να αλλαχτούν. Όσοι επιβάτες δεν επιθυμούν να ταξιδέψουν μπορούν να ζητήσουν πλήρη επιστροφή του ποσού από τα εκδοτήρια της εταιρείας. Ζητούμε συγγνώμη για την ταλαιπωρία.",
+     "en": "Tickets remain valid and do not need to be changed. Passengers who do not wish to travel can ask for a full refund at the company's ticket offices. We apologise for the inconvenience."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί αλλάζει το λιμάνι αναχώρησης;",
+     "options": [
+      "Λόγω απεργίας",
+      "Λόγω ισχυρών ανέμων",
+      "Λόγω βλάβης στον καταπέλτη του πλοίου",
+      "Λόγω έργων στο λιμάνι"
+     ],
+     "answer": "Λόγω βλάβης στον καταπέλτη του πλοίου",
+     "why": "λόγω βλάβης στον καταπέλτη του πλοίου"
+    },
+    {
+     "q": "Πώς θα πάνε στη Ραφήνα οι επιβάτες χωρίς αυτοκίνητο;",
+     "options": [
+      "Με ταξί που θα πληρώσει η εταιρεία",
+      "Με άλλο πλοίο",
+      "Με το μετρό",
+      "Με δωρεάν λεωφορεία από την πύλη Ε7"
+     ],
+     "answer": "Με δωρεάν λεωφορεία από την πύλη Ε7",
+     "why": "η εταιρεία έχει διαθέσει δωρεάν λεωφορεία, που θα αναχωρούν από την πύλη Ε7"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν όσοι δεν θέλουν πια να ταξιδέψουν;",
+     "options": [
+      "Να περιμένουν το επόμενο πλοίο",
+      "Να ζητήσουν επιστροφή χρημάτων από τα εκδοτήρια",
+      "Να αλλάξουν το εισιτήριό τους για αύριο",
+      "Να τηλεφωνήσουν στην εταιρεία"
+     ],
+     "answer": "Να ζητήσουν επιστροφή χρημάτων από τα εκδοτήρια",
+     "why": "μπορούν να ζητήσουν πλήρη επιστροφή του ποσού από τα εκδοτήρια"
+    }
+   ],
+   "gloss": {
+    "μεγάφωνα": "μεγάφωνο — loudspeaker",
+    "προορισμό": "προορισμός — destination",
+    "βλάβης": "βλάβη — fault, breakdown",
+    "καταπέλτη": "καταπέλτης — loading ramp (of a ferry)",
+    "μεταφέρεται": "μεταφέρομαι — to be moved, transferred",
+    "έχει διαθέσει": "διαθέτω — to make available",
+    "να κατευθυνθούν": "κατευθύνομαι — to head for",
+    "να αλλαχτούν": "αλλάζομαι — to be changed",
+    "επιθυμούν": "επιθυμώ — to wish",
+    "εκδοτήρια": "εκδοτήριο — ticket office",
+    "ταλαιπωρία": "ταλαιπωρία — inconvenience"
+   }
+  },
+  {
+   "id": "l50-vm-kteo",
+   "title": "Ραντεβού στο ΚΤΕΟ",
+   "title_en": "An appointment for the vehicle inspection",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Είχατε κλείσει ραντεβού για τον τεχνικό έλεγχο του αυτοκινήτου σας. Θα ακούσετε ένα μήνυμα από το ΚΤΕΟ στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλημέρα σας, από το ιδιωτικό ΚΤΕΟ «Ασφάλεια» σας τηλεφωνούμε, για τον κύριο Σπύρο Αναστασίου. Είχατε ραντεβού για τον τεχνικό έλεγχο του αυτοκινήτου σας την Πέμπτη στις έντεκα. Δυστυχώς, εκείνη τη μέρα θα γίνει συντήρηση στα μηχανήματά μας και το κέντρο θα μείνει κλειστό.",
+     "en": "Good morning, we're calling from the Asfaleia private vehicle inspection centre, for Mr Spyros Anastasiou. You had an appointment for your car's roadworthiness test on Thursday at eleven. Unfortunately, on that day our machines will be serviced and the centre will be closed."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Μπορούμε να σας εξυπηρετήσουμε την Παρασκευή στις εννιά ή τη Δευτέρα στις δώδεκα. Επειδή το πιστοποιητικό σας λήγει στο τέλος του μήνα, σας συνιστούμε να μην αφήσετε τον έλεγχο για αργότερα, γιατί αν κυκλοφορείτε με ληγμένο πιστοποιητικό, κινδυνεύετε με πρόστιμο.",
+     "en": "We can see you on Friday at nine or on Monday at twelve. Because your certificate expires at the end of the month, we advise you not to put the test off, because if you drive with an expired certificate you risk a fine."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Μην ξεχάσετε να φέρετε την άδεια κυκλοφορίας και την απόδειξη πληρωμής των τελών κυκλοφορίας. Και, αν μπορείτε, ελέγξτε πριν τα φώτα και τα λάστιχα, γιατί είναι οι πιο συχνές αιτίες αποτυχίας. Παρακαλούμε επιβεβαιώστε το νέο ραντεβού στο ίδιο τηλέφωνο. Ευχαριστούμε.",
+     "en": "Don't forget to bring the vehicle registration document and the receipt for the road tax. And, if you can, check the lights and the tyres beforehand, because they are the most common reasons for failing. Please confirm the new appointment on the same number. Thank you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ακυρώνεται το ραντεβού της Πέμπτης;",
+     "options": [
+      "Επειδή ο κύριος Αναστασίου άργησε",
+      "Επειδή απεργούν οι υπάλληλοι",
+      "Επειδή είναι αργία",
+      "Επειδή θα γίνει συντήρηση στα μηχανήματα"
+     ],
+     "answer": "Επειδή θα γίνει συντήρηση στα μηχανήματα",
+     "why": "εκείνη τη μέρα θα γίνει συντήρηση στα μηχανήματά μας"
+    },
+    {
+     "q": "Γιατί δεν πρέπει να καθυστερήσει τον έλεγχο;",
+     "options": [
+      "Επειδή φεύγει ταξίδι",
+      "Επειδή θα ακριβύνει",
+      "Επειδή το ΚΤΕΟ κλείνει για καλοκαίρι",
+      "Επειδή το πιστοποιητικό του λήγει στο τέλος του μήνα"
+     ],
+     "answer": "Επειδή το πιστοποιητικό του λήγει στο τέλος του μήνα",
+     "why": "Επειδή το πιστοποιητικό σας λήγει στο τέλος του μήνα"
+    },
+    {
+     "q": "Ποιες είναι οι πιο συχνές αιτίες αποτυχίας στον έλεγχο;",
+     "options": [
+      "Η εξάτμιση και η μπαταρία",
+      "Τα φρένα και η μηχανή",
+      "Τα φώτα και τα λάστιχα",
+      "Τα καθίσματα και οι ζώνες"
+     ],
+     "answer": "Τα φώτα και τα λάστιχα",
+     "why": "ελέγξτε πριν τα φώτα και τα λάστιχα, γιατί είναι οι πιο συχνές αιτίες αποτυχίας"
+    }
+   ],
+   "gloss": {
+    "ΚΤΕΟ": "ΚΤΕΟ — vehicle inspection centre (roadworthiness test)",
+    "τεχνικό έλεγχο": "τεχνικός έλεγχος — roadworthiness test",
+    "συντήρηση": "συντήρηση — maintenance, servicing",
+    "μηχανήματά": "μηχάνημα — machine",
+    "να σας εξυπηρετήσουμε": "εξυπηρετώ — to serve, attend to",
+    "πιστοποιητικό": "πιστοποιητικό — certificate",
+    "λήγει": "λήγω — to expire",
+    "ληγμένο": "ληγμένος — expired",
+    "πρόστιμο": "πρόστιμο — fine",
+    "άδεια κυκλοφορίας": "άδεια κυκλοφορίας — vehicle registration document",
+    "τελών κυκλοφορίας": "τέλη κυκλοφορίας — road tax",
+    "αποτυχίας": "αποτυχία — failure",
+    "επιβεβαιώστε": "επιβεβαιώνω — to confirm"
+   }
+  },
+  {
+   "id": "l50-dia-onoma-moro",
+   "title": "Ένα όνομα για το μωρό",
+   "title_en": "A name for the baby",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ζευγάρι που περιμένει το πρώτο του παιδί να συζητάει για το όνομα του μωρού.",
+   "script": [
+    {
+     "speaker": "Ειρήνη",
+     "voice": "f",
+     "el": "Γιάννη, πρέπει να αποφασίσουμε για το όνομα. Η μητέρα σου με ρώτησε πάλι σήμερα αν θα τη βγάλουμε Ευανθία, σαν τη γιαγιά σου. Της είπα ότι το σκεφτόμαστε ακόμα.",
+     "en": "Giannis, we have to decide about the name. Your mother asked me again today whether we'll call her Evanthia, like your grandmother. I told her we're still thinking about it."
+    },
+    {
+     "speaker": "Γιάννης",
+     "voice": "m",
+     "el": "Ξέρω ότι το περιμένει, είναι η παράδοση στην οικογένειά μας. Το πρώτο παιδί παίρνει το όνομα της γιαγιάς από τη μεριά του πατέρα. Αλλά δεν θέλω να το κάνουμε μόνο από υποχρέωση. Εσύ τι λες;",
+     "en": "I know she expects it; it's the tradition in our family. The first child takes the name of the grandmother on the father's side. But I don't want us to do it just out of obligation. What do you think?"
+    },
+    {
+     "speaker": "Ειρήνη",
+     "voice": "f",
+     "el": "Το όνομα μου αρέσει, είναι παλιό αλλά όμορφο. Το πρόβλημα είναι ότι η δική μου μητέρα θα στενοχωρηθεί, γιατί το όνομά της δεν θα το πάρει κανένα εγγόνι για χρόνια. Μήπως να της δώσουμε δύο ονόματα, Ευανθία-Μαρία;",
+     "en": "I like the name; it's old but beautiful. The problem is that my mother will be upset, because none of her grandchildren will get her name for years. What if we give her two names, Evanthia-Maria?"
+    },
+    {
+     "speaker": "Γιάννης",
+     "voice": "m",
+     "el": "Δύο ονόματα είναι λίγο βαριά για ένα μωρό. Ας την ονομάσουμε Ευανθία, και τη φωνάζουμε Εύα για συντομία. Και αν κάνουμε δεύτερο παιδί, παίρνει το όνομα της δικής σου μητέρας. Έτσι δεν θα παρεξηγηθεί κανείς.",
+     "en": "Two names are a bit heavy for a baby. Let's name her Evanthia and call her Eva for short. And if we have a second child, it gets your mother's name. That way nobody will take offence."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια είναι η παράδοση στην οικογένεια του Γιάννη;",
+     "options": [
+      "Τα παιδιά παίρνουν όνομα αγίου",
+      "Το πρώτο παιδί παίρνει το όνομα της μητέρας",
+      "Το πρώτο παιδί παίρνει το όνομα του νονού",
+      "Το πρώτο παιδί παίρνει το όνομα της γιαγιάς από τη μεριά του πατέρα"
+     ],
+     "answer": "Το πρώτο παιδί παίρνει το όνομα της γιαγιάς από τη μεριά του πατέρα",
+     "why": "Το πρώτο παιδί παίρνει το όνομα της γιαγιάς από τη μεριά του πατέρα"
+    },
+    {
+     "q": "Γιατί ανησυχεί η Ειρήνη;",
+     "options": [
+      "Επειδή η μητέρα της θα στενοχωρηθεί",
+      "Επειδή δεν της αρέσει το όνομα Ευανθία",
+      "Επειδή το όνομα είναι πολύ μεγάλο",
+      "Επειδή ο Γιάννης δεν θέλει παιδί"
+     ],
+     "answer": "Επειδή η μητέρα της θα στενοχωρηθεί",
+     "why": "η δική μου μητέρα θα στενοχωρηθεί"
+    },
+    {
+     "q": "Τι προτείνει τελικά ο Γιάννης;",
+     "options": [
+      "Να αποφασίσουν οι γιαγιάδες",
+      "Να την ονομάσουν Ευανθία και να τη φωνάζουν Εύα",
+      "Να διαλέξουν ένα καινούργιο όνομα",
+      "Να δώσουν δύο ονόματα"
+     ],
+     "answer": "Να την ονομάσουν Ευανθία και να τη φωνάζουν Εύα",
+     "why": "Ας την ονομάσουμε Ευανθία, και τη φωνάζουμε Εύα για συντομία"
+    }
+   ],
+   "gloss": {
+    "θα τη βγάλουμε": "βγάζω (όνομα) — to name (a child)",
+    "παράδοση": "παράδοση — tradition",
+    "μεριά": "μεριά — side",
+    "υποχρέωση": "υποχρέωση — obligation",
+    "θα στενοχωρηθεί": "στενοχωριέμαι — to be upset",
+    "εγγόνι": "εγγόνι — grandchild",
+    "βαριά": "βαρύς — heavy",
+    "Ας την ονομάσουμε": "ονομάζω — to name",
+    "για συντομία": "για συντομία — for short",
+    "δεν θα παρεξηγηθεί": "παρεξηγούμαι — to take offence"
+   }
+  },
+  {
+   "id": "l50-dia-skini",
+   "title": "Σαββατοκύριακο στη σκηνή",
+   "title_en": "A weekend in a tent",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε δύο φίλους να οργανώνουν ένα Σαββατοκύριακο με σκηνή στην παραλία.",
+   "script": [
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Λοιπόν, για το Σαββατοκύριακο σκέφτηκα να πάμε με σκηνή σε εκείνη την παραλία στην Εύβοια που μας είχε πει ο Άρης. Δεν έχει τίποτα, ούτε ταβέρνα ούτε ντους. Μόνο θάλασσα και πεύκα.",
+     "en": "So, for the weekend I thought we'd go camping on that beach in Evia that Aris told us about. There's nothing there, no taverna, no shower. Just sea and pine trees."
+    },
+    {
+     "speaker": "Λένα",
+     "voice": "f",
+     "el": "Ακούγεται υπέροχο, αλλά ξέρεις ότι το ελεύθερο κάμπινγκ απαγορεύεται; Αν έρθει το λιμενικό, μπορεί να μας βάλει πρόστιμο. Δεν θα ήταν καλύτερα να πάμε σε ένα οργανωμένο κάμπινγκ;",
+     "en": "Sounds wonderful, but you know free camping is forbidden? If the coastguard comes, they might fine us. Wouldn't it be better to go to an organised campsite?"
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Έχεις δίκιο. Υπάρχει ένα μικρό κάμπινγκ δέκα λεπτά από εκεί, με σκιά και καθαρές τουαλέτες. Κοστίζει οχτώ ευρώ το άτομο τη νύχτα. Και το πρωί μπορούμε να περπατήσουμε μέχρι την ερημική παραλία.",
+     "en": "You're right. There's a small campsite ten minutes from there, with shade and clean toilets. It costs eight euros per person per night. And in the morning we can walk to the deserted beach."
+    },
+    {
+     "speaker": "Λένα",
+     "voice": "f",
+     "el": "Τέλεια. Εγώ θα φέρω τη σκηνή και το γκαζάκι για τον καφέ. Εσύ φέρε τα υπνόσακα και κάνε τα ψώνια. Και θυμήσου να βάλεις αντικουνουπικό, γιατί την περασμένη φορά μας έφαγαν τα κουνούπια!",
+     "en": "Perfect. I'll bring the tent and the little gas stove for coffee. You bring the sleeping bags and do the shopping. And remember to pack mosquito repellent, because last time the mosquitoes ate us alive!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί η Λένα δεν θέλει να μείνουν στην ερημική παραλία;",
+     "options": [
+      "Επειδή το ελεύθερο κάμπινγκ απαγορεύεται",
+      "Επειδή είναι πολύ μακριά",
+      "Επειδή δεν έχει σκιά",
+      "Επειδή έχει πολύ κόσμο"
+     ],
+     "answer": "Επειδή το ελεύθερο κάμπινγκ απαγορεύεται",
+     "why": "ξέρεις ότι το ελεύθερο κάμπινγκ απαγορεύεται;"
+    },
+    {
+     "q": "Πόσο κοστίζει το κάμπινγκ;",
+     "options": [
+      "Πέντε ευρώ τη νύχτα για δύο άτομα",
+      "Είναι δωρεάν",
+      "Οχτώ ευρώ το άτομο τη νύχτα",
+      "Δέκα ευρώ τη μέρα"
+     ],
+     "answer": "Οχτώ ευρώ το άτομο τη νύχτα",
+     "why": "Κοστίζει οχτώ ευρώ το άτομο τη νύχτα"
+    },
+    {
+     "q": "Τι θα φέρει η Λένα;",
+     "options": [
+      "Το αντικουνουπικό",
+      "Τη σκηνή και το γκαζάκι",
+      "Το φαγητό",
+      "Τα υπνόσακα και τα ψώνια"
+     ],
+     "answer": "Τη σκηνή και το γκαζάκι",
+     "why": "Εγώ θα φέρω τη σκηνή και το γκαζάκι για τον καφέ"
+    }
+   ],
+   "gloss": {
+    "σκηνή": "σκηνή — tent; stage",
+    "πεύκα": "πεύκο — pine tree",
+    "ελεύθερο κάμπινγκ": "ελεύθερο κάμπινγκ — wild camping",
+    "λιμενικό": "λιμενικό — coastguard",
+    "πρόστιμο": "πρόστιμο — fine",
+    "οργανωμένο κάμπινγκ": "οργανωμένο κάμπινγκ — organised campsite",
+    "ερημική": "ερημικός — deserted, remote",
+    "γκαζάκι": "γκαζάκι — small camping gas stove",
+    "υπνόσακα": "υπνόσακος — sleeping bag",
+    "αντικουνουπικό": "αντικουνουπικό — mosquito repellent",
+    "κουνούπια": "κουνούπι — mosquito"
+   }
+  },
+  {
+   "id": "l50-int-violi",
+   "title": "Το βιολί των πανηγυριών",
+   "title_en": "The festival fiddle",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με έναν νέο βιολιστή που παίζει παραδοσιακή μουσική σε πανηγύρια.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Λευτέρη, είσαι μόλις είκοσι τεσσάρων χρονών και παίζεις κάθε καλοκαίρι σε δεκάδες πανηγύρια. Πώς ξεκίνησες;",
+     "en": "Lefteris, you're only twenty-four and you play at dozens of village festivals every summer. How did you start?"
+    },
+    {
+     "speaker": "Λευτέρης",
+     "voice": "m",
+     "el": "Ο παππούς μου έπαιζε βιολί στα χωριά της Ηπείρου. Όταν ήμουν μικρός, τον ακολουθούσα στα πανηγύρια και κοιμόμουν κάτω από τα τραπέζια. Στα δέκα μου μού χάρισε το πρώτο μου βιολί. Μετά σπούδασα κλασικό βιολί στο ωδείο, αλλά η καρδιά μου ήταν πάντα στα δημοτικά.",
+     "en": "My grandfather played the fiddle in the villages of Epirus. When I was little I followed him to festivals and slept under the tables. At ten he gave me my first violin. Later I studied classical violin at the conservatory, but my heart was always in folk music."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τι διαφορά έχει να παίζεις σε ένα πανηγύρι από το να παίζεις σε μια αίθουσα συναυλιών;",
+     "en": "What's the difference between playing at a festival and playing in a concert hall?"
+    },
+    {
+     "speaker": "Λευτέρης",
+     "voice": "m",
+     "el": "Στη συναυλία ο κόσμος κάθεται και ακούει. Στο πανηγύρι ο κόσμος χορεύει, και εσύ πρέπει να τον ακολουθείς. Αν ο πρώτος χορευτής θέλει να αργήσεις, αργείς. Είναι ένας διάλογος. Και συχνά παίζουμε από τις δέκα το βράδυ μέχρι τις έξι το πρωί, χωρίς διάλειμμα.",
+     "en": "At a concert people sit and listen. At a festival people dance, and you have to follow them. If the leading dancer wants you to slow down, you slow down. It's a dialogue. And we often play from ten at night until six in the morning, without a break."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Βλέπεις ενδιαφέρον από τους νέους;",
+     "en": "Do you see interest from young people?"
+    },
+    {
+     "speaker": "Λευτέρης",
+     "voice": "m",
+     "el": "Πάρα πολύ. Πριν από δέκα χρόνια, στα πανηγύρια χόρευαν κυρίως μεγάλοι. Τώρα η πίστα γεμίζει παιδιά είκοσι χρονών, που ξέρουν όλα τα βήματα. Νομίζω ότι, σε μια εποχή που όλα είναι ψηφιακά, οι νέοι ψάχνουν κάτι αληθινό, κάτι που τους δένει με τον τόπο τους.",
+     "en": "Very much. Ten years ago, it was mainly older people who danced at festivals. Now the dance floor fills with twenty-year-olds who know all the steps. I think that, at a time when everything is digital, young people are looking for something real, something that ties them to their place."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς γνώρισε ο Λευτέρης την παραδοσιακή μουσική;",
+     "options": [
+      "Από το ραδιόφωνο",
+      "Ακολουθώντας τον παππού του στα πανηγύρια",
+      "Από τον πατέρα του στην Αθήνα",
+      "Στο σχολείο"
+     ],
+     "answer": "Ακολουθώντας τον παππού του στα πανηγύρια",
+     "why": "τον ακολουθούσα στα πανηγύρια και κοιμόμουν κάτω από τα τραπέζια"
+    },
+    {
+     "q": "Τι λέει για το παίξιμο στο πανηγύρι;",
+     "options": [
+      "Ότι ο κόσμος κάθεται και ακούει",
+      "Ότι είναι πιο εύκολο από τη συναυλία",
+      "Ότι παίζουν μόνο δύο ώρες",
+      "Ότι ο μουσικός πρέπει να ακολουθεί τους χορευτές"
+     ],
+     "answer": "Ότι ο μουσικός πρέπει να ακολουθεί τους χορευτές",
+     "why": "Στο πανηγύρι ο κόσμος χορεύει, και εσύ πρέπει να τον ακολουθείς"
+    },
+    {
+     "q": "Πώς εξηγεί το ενδιαφέρον των νέων;",
+     "options": [
+      "Τα πανηγύρια είναι φτηνά",
+      "Τους αναγκάζουν οι γονείς τους",
+      "Οι νέοι ψάχνουν κάτι αληθινό που τους δένει με τον τόπο τους",
+      "Είναι μια μόδα που θα περάσει"
+     ],
+     "answer": "Οι νέοι ψάχνουν κάτι αληθινό που τους δένει με τον τόπο τους",
+     "why": "οι νέοι ψάχνουν κάτι αληθινό, κάτι που τους δένει με τον τόπο τους"
+    }
+   ],
+   "gloss": {
+    "βιολιστή": "βιολιστής — violinist, fiddler",
+    "πανηγύρια": "πανηγύρι — village festival",
+    "μού χάρισε": "χαρίζω — to give as a gift",
+    "ωδείο": "ωδείο — conservatory, music school",
+    "δημοτικά": "δημοτικά (τραγούδια) — folk songs",
+    "αίθουσα συναυλιών": "αίθουσα συναυλιών — concert hall",
+    "πρώτος χορευτής": "πρώτος χορευτής — leading dancer (at the head of the line)",
+    "διάλειμμα": "διάλειμμα — break",
+    "πίστα": "πίστα — dance floor",
+    "βήματα": "βήμα — step",
+    "τους δένει": "δένω — to tie, bind"
+   }
+  },
+  {
+   "id": "l50-rep-lykoi",
+   "title": "Λύκοι κοντά στα χωριά",
+   "title_en": "Wolves near the villages",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από ένα ραδιοφωνικό δελτίο ειδήσεων για την παρουσία λύκων σε ορεινές περιοχές.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Τους τελευταίους μήνες, κάτοικοι χωριών στη Φωκίδα και την Ευρυτανία αναφέρουν ότι βλέπουν λύκους όλο και πιο κοντά στα σπίτια τους. Σε ορισμένες περιπτώσεις, λύκοι επιτέθηκαν σε κοπάδια και σκότωσαν πρόβατα και κατσίκες, προκαλώντας την οργή των κτηνοτρόφων.",
+     "en": "In recent months, residents of villages in Phocis and Evrytania report seeing wolves closer and closer to their homes. In some cases wolves have attacked flocks and killed sheep and goats, angering the livestock farmers."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι επιστήμονες εξηγούν ότι ο πληθυσμός του λύκου στην Ελλάδα έχει αυξηθεί, επειδή το είδος προστατεύεται από τον νόμο και επειδή πολλά ορεινά χωριά έχουν ερημώσει. Τονίζουν, όμως, ότι ο λύκος σπάνια επιτίθεται σε ανθρώπους και ότι συνήθως αποφεύγει την επαφή μαζί τους.",
+     "en": "Scientists explain that the wolf population in Greece has grown, because the species is protected by law and because many mountain villages have been abandoned. They stress, however, that wolves rarely attack people and usually avoid contact with them."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Περιβαλλοντικές οργανώσεις προτείνουν στους κτηνοτρόφους να χρησιμοποιούν ηλεκτρικούς φράχτες και ποιμενικά σκυλιά, που αποδεικνύονται ιδιαίτερα αποτελεσματικά. Το υπουργείο, από την πλευρά του, εξετάζει να αυξήσει τις αποζημιώσεις για όσους χάνουν ζώα, οι οποίες σήμερα καθυστερούν συχνά πάνω από έναν χρόνο.",
+     "en": "Environmental organisations suggest that farmers use electric fences and sheepdogs, which are proving particularly effective. The ministry, for its part, is considering raising the compensation for those who lose animals, which today is often delayed by more than a year."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί είναι θυμωμένοι οι κτηνοτρόφοι;",
+     "options": [
+      "Επειδή αυξήθηκαν οι φόροι",
+      "Επειδή έκλεισαν οι δρόμοι",
+      "Επειδή λύκοι σκότωσαν πρόβατα και κατσίκες",
+      "Επειδή δεν βρίσκουν εργάτες"
+     ],
+     "answer": "Επειδή λύκοι σκότωσαν πρόβατα και κατσίκες",
+     "why": "λύκοι επιτέθηκαν σε κοπάδια και σκότωσαν πρόβατα και κατσίκες"
+    },
+    {
+     "q": "Γιατί, κατά τους επιστήμονες, αυξήθηκε ο πληθυσμός του λύκου;",
+     "options": [
+      "Επειδή ήρθαν λύκοι από άλλες χώρες",
+      "Επειδή προστατεύεται από τον νόμο και έχουν ερημώσει πολλά χωριά",
+      "Επειδή αυξήθηκαν τα πρόβατα",
+      "Επειδή ο χειμώνας ήταν ήπιος"
+     ],
+     "answer": "Επειδή προστατεύεται από τον νόμο και έχουν ερημώσει πολλά χωριά",
+     "why": "επειδή το είδος προστατεύεται από τον νόμο και επειδή πολλά ορεινά χωριά έχουν ερημώσει"
+    },
+    {
+     "q": "Ποιο πρόβλημα υπάρχει με τις αποζημιώσεις;",
+     "options": [
+      "Δίνονται μόνο για πρόβατα",
+      "Είναι πολύ υψηλές",
+      "Καθυστερούν συχνά πάνω από έναν χρόνο",
+      "Δεν δίνονται καθόλου"
+     ],
+     "answer": "Καθυστερούν συχνά πάνω από έναν χρόνο",
+     "why": "οι οποίες σήμερα καθυστερούν συχνά πάνω από έναν χρόνο"
+    }
+   ],
+   "gloss": {
+    "λύκων": "λύκος — wolf",
+    "λύκους": "λύκος — wolf",
+    "επιτέθηκαν": "επιτίθεμαι — to attack",
+    "κοπάδια": "κοπάδι — flock, herd",
+    "οργή": "οργή — anger, fury",
+    "κτηνοτρόφων": "κτηνοτρόφος — livestock farmer",
+    "πληθυσμός": "πληθυσμός — population",
+    "έχουν ερημώσει": "ερημώνω — to become deserted",
+    "Τονίζουν": "τονίζω — to stress",
+    "ηλεκτρικούς φράχτες": "ηλεκτρικός φράχτης — electric fence",
+    "ποιμενικά σκυλιά": "ποιμενικό σκυλί — sheepdog",
+    "αποζημιώσεις": "αποζημίωση — compensation"
+   }
+  },
+  {
+   "id": "l50-dia-douleies-spitiou",
+   "title": "Οι δουλειές του σπιτιού",
+   "title_en": "The household chores",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε τρεις φοιτητές που μένουν μαζί να συζητούν πώς θα μοιράσουν τις δουλειές του σπιτιού.",
+   "script": [
+    {
+     "speaker": "Μυρτώ",
+     "voice": "f",
+     "el": "Παιδιά, πρέπει να μιλήσουμε. Τα πιάτα μένουν άπλυτα για μέρες, και το μπάνιο το καθάρισα εγώ τρεις φορές συνέχεια. Δεν γίνεται έτσι.",
+     "en": "Guys, we need to talk. The dishes stay unwashed for days, and I've cleaned the bathroom three times in a row. It can't go on like this."
+    },
+    {
+     "speaker": "Κώστας",
+     "voice": "m",
+     "el": "Έχεις δίκιο, συγγνώμη. Αυτή την εβδομάδα είχα εξεταστική και δεν πρόλαβα τίποτα. Τι λέτε να φτιάξουμε ένα πρόγραμμα και να το κολλήσουμε στο ψυγείο; Κάθε εβδομάδα ο καθένας θα έχει διαφορετική δουλειά.",
+     "en": "You're right, sorry. This week I had exams and didn't get round to anything. What do you say we make a rota and stick it on the fridge? Each week everyone will have a different job."
+    },
+    {
+     "speaker": "Νίκος",
+     "voice": "m",
+     "el": "Συμφωνώ. Εγώ όμως προτείνω τα πιάτα να τα πλένει ο καθένας αμέσως μόλις φάει. Δεν είναι δίκαιο να πλένει ένας τα πιάτα των άλλων. Και τα ψώνια για τα κοινά, χαρτί υγείας, απορρυπαντικά, να τα πληρώνουμε από ένα κοινό ταμείο.",
+     "en": "I agree. But I suggest everyone washes their own dishes right after eating. It's not fair for one person to wash everyone else's. And the shared shopping, toilet paper, detergents, we should pay for from a common kitty."
+    },
+    {
+     "speaker": "Μυρτώ",
+     "voice": "f",
+     "el": "Ωραία. Τότε βάζουμε από δέκα ευρώ τον μήνα στο κουτί πάνω στο ράφι. Και όποιος δεν κάνει τη δουλειά του, κερνάει πίτσα την Παρασκευή. Έγινε;",
+     "en": "Great. Then we each put ten euros a month into the box on the shelf. And whoever doesn't do their job buys pizza on Friday. Deal?"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί παραπονιέται η Μυρτώ;",
+     "options": [
+      "Επειδή δεν πληρώθηκε το ενοίκιο",
+      "Επειδή χάλασε το ψυγείο",
+      "Επειδή καθάρισε μόνη της το μπάνιο τρεις φορές",
+      "Επειδή οι άλλοι κάνουν θόρυβο"
+     ],
+     "answer": "Επειδή καθάρισε μόνη της το μπάνιο τρεις φορές",
+     "why": "το μπάνιο το καθάρισα εγώ τρεις φορές συνέχεια"
+    },
+    {
+     "q": "Τι προτείνει ο Νίκος για τα πιάτα;",
+     "options": [
+      "Να αγοράσουν πλυντήριο πιάτων",
+      "Να τα πλένει η Μυρτώ",
+      "Να πλένει ο καθένας τα δικά του αμέσως μόλις φάει",
+      "Να τα πλένουν μία φορά την εβδομάδα"
+     ],
+     "answer": "Να πλένει ο καθένας τα δικά του αμέσως μόλις φάει",
+     "why": "προτείνω τα πιάτα να τα πλένει ο καθένας αμέσως μόλις φάει"
+    },
+    {
+     "q": "Τι θα γίνεται με όποιον δεν κάνει τη δουλειά του;",
+     "options": [
+      "Θα καθαρίζει μόνος του όλο το σπίτι",
+      "Θα πληρώνει πρόστιμο δέκα ευρώ",
+      "Θα φύγει από το σπίτι",
+      "Θα κερνάει πίτσα την Παρασκευή"
+     ],
+     "answer": "Θα κερνάει πίτσα την Παρασκευή",
+     "why": "όποιος δεν κάνει τη δουλειά του, κερνάει πίτσα την Παρασκευή"
+    }
+   ],
+   "gloss": {
+    "άπλυτα": "άπλυτος — unwashed",
+    "συνέχεια": "συνέχεια — in a row, continuously",
+    "εξεταστική": "εξεταστική — exam period",
+    "δεν πρόλαβα": "προλαβαίνω — to manage (in time)",
+    "πρόγραμμα": "πρόγραμμα — schedule, rota",
+    "να το κολλήσουμε": "κολλάω — to stick",
+    "δίκαιο": "δίκαιος — fair",
+    "απορρυπαντικά": "απορρυπαντικό — detergent",
+    "κοινό ταμείο": "κοινό ταμείο — common fund, kitty",
+    "ράφι": "ράφι — shelf",
+    "κερνάει": "κερνάω — to treat (someone to something)"
+   }
+  },
+  {
+   "id": "l50-mono-kompostopoiisi",
+   "title": "Ο κάδος κομποστοποίησης",
+   "title_en": "The compost bin",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια υπάλληλο του δήμου να εξηγεί σε μια συνάντηση κατοίκων πώς χρησιμοποιείται ο κάδος κομποστοποίησης που μοιράζει ο δήμος.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλησπέρα σας. Από τον επόμενο μήνα, ο δήμος μας θα μοιράσει δωρεάν κάδους κομποστοποίησης σε όσα νοικοκυριά έχουν κήπο ή αυλή. Το κομπόστ είναι ένα φυσικό λίπασμα που φτιάχνεται από τα οργανικά απορρίμματα του σπιτιού. Σχεδόν το ένα τρίτο των σκουπιδιών μας μπορεί να γίνει κομπόστ αντί να καταλήξει στη χωματερή.",
+     "en": "Good evening. From next month, our municipality will hand out free compost bins to households with a garden or yard. Compost is a natural fertiliser made from the household's organic waste. Almost a third of our rubbish can become compost instead of ending up in the landfill."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Στον κάδο βάζετε φλούδες από φρούτα και λαχανικά, υπολείμματα καφέ, τσόφλια αυγών, ξερά φύλλα και κομμένο γρασίδι. Δεν βάζετε κρέας, ψάρι, γαλακτοκομικά ή λάδι, γιατί μυρίζουν και τραβάνε ζώα. Το σημαντικό είναι να υπάρχει ισορροπία ανάμεσα στα πράσινα υλικά, που είναι υγρά, και στα καφέ, που είναι ξερά.",
+     "en": "In the bin you put fruit and vegetable peel, coffee grounds, eggshells, dry leaves and grass cuttings. You don't put in meat, fish, dairy or oil, because they smell and attract animals. The important thing is to have a balance between green materials, which are wet, and brown ones, which are dry."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Μία φορά την εβδομάδα ανακατεύετε το περιεχόμενο με ένα φτυάρι, για να μπαίνει αέρας. Αν το κομπόστ μυρίζει άσχημα, σημαίνει ότι είναι πολύ υγρό, και πρέπει να προσθέσετε ξερά φύλλα. Μετά από τέσσερις με έξι μήνες θα έχετε ένα σκούρο, αφράτο χώμα, ιδανικό για τις γλάστρες και τον κήπο σας.",
+     "en": "Once a week you mix the contents with a spade, to let air in. If the compost smells bad, it means it's too wet, and you need to add dry leaves. After four to six months you'll have dark, crumbly soil, ideal for your pots and garden."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Σε ποιους θα μοιραστούν οι κάδοι;",
+     "options": [
+      "Σε όλα τα σχολεία",
+      "Μόνο σε αγρότες",
+      "Σε όσους πληρώσουν",
+      "Σε νοικοκυριά με κήπο ή αυλή"
+     ],
+     "answer": "Σε νοικοκυριά με κήπο ή αυλή",
+     "why": "σε όσα νοικοκυριά έχουν κήπο ή αυλή"
+    },
+    {
+     "q": "Γιατί δεν βάζουμε κρέας και ψάρι στον κάδο;",
+     "options": [
+      "Επειδή απαγορεύεται από τον νόμο",
+      "Επειδή δεν σαπίζουν",
+      "Επειδή χαλάνε τον κάδο",
+      "Επειδή μυρίζουν και τραβάνε ζώα"
+     ],
+     "answer": "Επειδή μυρίζουν και τραβάνε ζώα",
+     "why": "γιατί μυρίζουν και τραβάνε ζώα"
+    },
+    {
+     "q": "Τι πρέπει να κάνουμε αν το κομπόστ μυρίζει άσχημα;",
+     "options": [
+      "Να προσθέσουμε ξερά φύλλα",
+      "Να το πετάξουμε",
+      "Να το σκεπάσουμε με πλαστικό",
+      "Να ρίξουμε νερό"
+     ],
+     "answer": "Να προσθέσουμε ξερά φύλλα",
+     "why": "είναι πολύ υγρό, και πρέπει να προσθέσετε ξερά φύλλα"
+    }
+   ],
+   "gloss": {
+    "κάδος κομποστοποίησης": "κάδος κομποστοποίησης — compost bin",
+    "κάδους κομποστοποίησης": "κάδος κομποστοποίησης — compost bin",
+    "νοικοκυριά": "νοικοκυριό — household",
+    "λίπασμα": "λίπασμα — fertiliser",
+    "οργανικά απορρίμματα": "οργανικά απορρίμματα — organic waste",
+    "χωματερή": "χωματερή — landfill, rubbish tip",
+    "φλούδες": "φλούδα — peel",
+    "τσόφλια": "τσόφλι — shell (of an egg)",
+    "γρασίδι": "γρασίδι — grass, lawn",
+    "γαλακτοκομικά": "γαλακτοκομικά — dairy products",
+    "ανακατεύετε": "ανακατεύω — to mix, stir",
+    "φτυάρι": "φτυάρι — spade, shovel",
+    "αφράτο": "αφράτος — fluffy, crumbly"
+   }
+  },
+  {
+   "id": "l50-c1-gkrafiti",
+   "title": "Γκράφιτι: τέχνη ή βανδαλισμός;",
+   "title_en": "Graffiti: art or vandalism?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συζήτηση με έναν κοινωνιολόγο που μελετά την τέχνη του δρόμου στην Αθήνα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κύριε Μαργαρίτη, η Αθήνα έχει γίνει, σύμφωνα με ξένα μέσα, μία από τις «πρωτεύουσες του γκράφιτι» στην Ευρώπη. Είναι αυτό λόγος περηφάνιας ή ντροπής;",
+     "en": "Mr Margaritis, according to foreign media, Athens has become one of Europe's 'graffiti capitals'. Is that a reason for pride or shame?"
+    },
+    {
+     "speaker": "Κοινωνιολόγος",
+     "voice": "m",
+     "el": "Και τα δύο, και γι' αυτό η συζήτηση είναι τόσο φορτισμένη. Πρέπει, πρώτα απ' όλα, να διακρίνουμε τα φαινόμενα. Το τάγκινγκ, δηλαδή οι υπογραφές που καλύπτουν προσόψεις και μνημεία, είναι κατά κανόνα πράξη ιδιοποίησης του χώρου, όχι αισθητικής δημιουργίας. Οι μεγάλες τοιχογραφίες, αντίθετα, είναι συχνά έργα με καλλιτεχνική πρόθεση, ορισμένες φορές και με την άδεια του ιδιοκτήτη.",
+     "en": "Both, and that's why the debate is so charged. First of all, we have to distinguish between the phenomena. Tagging, that is the signatures that cover facades and monuments, is as a rule an act of appropriating space, not of aesthetic creation. Large murals, on the other hand, are often works with artistic intent, sometimes even with the owner's permission."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Γιατί εξαπλώθηκε τόσο το φαινόμενο στην Αθήνα;",
+     "en": "Why did the phenomenon spread so much in Athens?"
+    },
+    {
+     "speaker": "Κοινωνιολόγος",
+     "voice": "m",
+     "el": "Η οικονομική κρίση έπαιξε καθοριστικό ρόλο. Κλειστά καταστήματα, εγκαταλελειμμένα κτίρια και μια γενικευμένη αίσθηση οργής δημιούργησαν ταυτόχρονα τον καμβά και το κίνητρο. Πολλά από τα έργα εκείνης της περιόδου είναι βαθιά πολιτικά: σχολιάζουν τη λιτότητα, τη μετανάστευση, την ανεργία των νέων. Από αυτή την άποψη, λειτουργούν ως ένα είδος ανεπίσημου χρονικού της εποχής.",
+     "en": "The economic crisis played a decisive role. Closed shops, abandoned buildings and a widespread sense of anger created both the canvas and the motive at the same time. Many works from that period are deeply political: they comment on austerity, migration, youth unemployment. In that sense, they function as a kind of unofficial chronicle of the era."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και ποια θα ήταν μια λογική πολιτική για τον δήμο;",
+     "en": "And what would be a sensible policy for the municipality?"
+    },
+    {
+     "speaker": "Κοινωνιολόγος",
+     "voice": "m",
+     "el": "Η απόλυτη καταστολή έχει αποδειχθεί αναποτελεσματική: ό,τι σβήνεται το πρωί, ξαναγράφεται το βράδυ. Αυτό που φαίνεται να αποδίδει είναι ένας συνδυασμός: αυστηρή προστασία των μνημείων και των ιστορικών κτιρίων, και παράλληλα νόμιμοι χώροι, όπου οι καλλιτέχνες μπορούν να δημιουργούν ελεύθερα. Όταν ένας τοίχος φιλοξενεί μια αξιόλογη τοιχογραφία, σπάνια τον αγγίζουν άλλοι.",
+     "en": "Absolute repression has proved ineffective: whatever is erased in the morning is rewritten at night. What seems to work is a combination: strict protection of monuments and historic buildings, and alongside that legal spaces where artists can create freely. When a wall hosts a worthwhile mural, others rarely touch it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς χαρακτηρίζει ο κοινωνιολόγος το τάγκινγκ;",
+     "options": [
+      "Ως μορφή υψηλής τέχνης",
+      "Ως πράξη ιδιοποίησης του χώρου",
+      "Ως παιδικό παιχνίδι",
+      "Ως νόμιμη διαφήμιση"
+     ],
+     "answer": "Ως πράξη ιδιοποίησης του χώρου",
+     "why": "είναι κατά κανόνα πράξη ιδιοποίησης του χώρου, όχι αισθητικής δημιουργίας"
+    },
+    {
+     "q": "Ποιον ρόλο έπαιξε η οικονομική κρίση;",
+     "options": [
+      "Κανέναν",
+      "Δημιούργησε ταυτόχρονα τον «καμβά» και το κίνητρο",
+      "Μείωσε τα γκράφιτι",
+      "Έφερε ξένους καλλιτέχνες"
+     ],
+     "answer": "Δημιούργησε ταυτόχρονα τον «καμβά» και το κίνητρο",
+     "why": "δημιούργησαν ταυτόχρονα τον καμβά και το κίνητρο"
+    },
+    {
+     "q": "Γιατί λέει ότι τα έργα εκείνης της περιόδου είναι «ανεπίσημο χρονικό»;",
+     "options": [
+      "Επειδή φτιάχτηκαν από δημοσιογράφους",
+      "Επειδή έχουν ημερομηνίες",
+      "Επειδή σχολιάζουν τα προβλήματα της εποχής",
+      "Επειδή βρίσκονται σε μουσεία"
+     ],
+     "answer": "Επειδή σχολιάζουν τα προβλήματα της εποχής",
+     "why": "σχολιάζουν τη λιτότητα, τη μετανάστευση, την ανεργία των νέων"
+    },
+    {
+     "q": "Ποια πολιτική θεωρεί αποτελεσματική;",
+     "options": [
+      "Να σβήνονται όλα τα γκράφιτι κάθε πρωί",
+      "Προστασία των μνημείων και ταυτόχρονα νόμιμους χώρους για τους καλλιτέχνες",
+      "Την απόλυτη καταστολή",
+      "Να μην κάνει τίποτα ο δήμος"
+     ],
+     "answer": "Προστασία των μνημείων και ταυτόχρονα νόμιμους χώρους για τους καλλιτέχνες",
+     "why": "αυστηρή προστασία των μνημείων ... και παράλληλα νόμιμοι χώροι"
+    }
+   ],
+   "gloss": {
+    "κοινωνιολόγο": "κοινωνιολόγος — sociologist",
+    "περηφάνιας": "περηφάνια — pride",
+    "φορτισμένη": "φορτισμένος — charged (emotionally)",
+    "να διακρίνουμε": "διακρίνω — to distinguish",
+    "προσόψεις": "πρόσοψη — facade",
+    "ιδιοποίησης": "ιδιοποίηση — appropriation",
+    "πρόθεση": "πρόθεση — intention",
+    "εξαπλώθηκε": "εξαπλώνομαι — to spread",
+    "εγκαταλελειμμένα": "εγκαταλελειμμένος — abandoned",
+    "καμβά": "καμβάς — canvas",
+    "κίνητρο": "κίνητρο — motive, incentive",
+    "λιτότητα": "λιτότητα — austerity",
+    "χρονικού": "χρονικό — chronicle",
+    "καταστολή": "καταστολή — repression, suppression",
+    "να αποδίδει": "αποδίδω — to pay off, be effective",
+    "αξιόλογη": "αξιόλογος — worthwhile, notable"
+   }
+  },
+  {
+   "id": "l50-c1-mikrasiatiki-logotechnia",
+   "title": "Η Μικρασιατική Καταστροφή στη λογοτεχνία",
+   "title_en": "The Asia Minor Catastrophe in literature",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από μια διάλεξη για το πώς αποτυπώθηκε η Μικρασιατική Καταστροφή του 1922 στην ελληνική λογοτεχνία.",
+   "script": [
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Η Μικρασιατική Καταστροφή του 1922 δεν ήταν μόνο ένα στρατιωτικό και πολιτικό γεγονός. Ήταν ένα τραύμα που σημάδεψε γενιές, καθώς πάνω από ένα εκατομμύριο πρόσφυγες ξεριζώθηκαν από τις πατρίδες τους. Δεν είναι παράξενο ότι η λογοτεχνία επέστρεφε σε αυτό ξανά και ξανά, σαν να προσπαθούσε να το επεξεργαστεί.",
+     "en": "The Asia Minor Catastrophe of 1922 was not only a military and political event. It was a trauma that marked generations, as more than a million refugees were uprooted from their homelands. It is no wonder that literature returned to it again and again, as if trying to process it."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Ένα από τα πρώτα και πιο συγκλονιστικά κείμενα είναι «Το νούμερο 31328» του Ηλία Βενέζη. Ο Βενέζης, γεννημένος στο Αϊβαλί, αιχμαλωτίστηκε το 1922 και στάλθηκε στα τάγματα εργασίας. Ο τίτλος είναι ο αριθμός που του είχε δοθεί ως αιχμαλώτου. Το βιβλίο, γραμμένο με λιτή, σχεδόν ξερή γλώσσα, αρνείται τον μελοδραματισμό· η φρίκη αφήνεται να μιλήσει μόνη της.",
+     "en": "One of the first and most harrowing texts is 'Number 31328' by Ilias Venezis. Venezis, born in Ayvalik, was taken prisoner in 1922 and sent to the labour battalions. The title is the number he had been given as a prisoner. The book, written in sparse, almost dry language, refuses melodrama; the horror is left to speak for itself."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Τέσσερις δεκαετίες αργότερα, το 1962, η Διδώ Σωτηρίου δημοσίευσε τα «Ματωμένα χώματα». Η αφήγηση γίνεται από έναν απλό αγρότη, τον Μανώλη Αξιώτη, και αυτό που κάνει το βιβλίο ξεχωριστό είναι ότι δείχνει τη συμβίωση Ελλήνων και Τούρκων πριν από τον πόλεμο. Οι εχθροί δεν είναι οι λαοί, αλλά ο εθνικισμός και τα συμφέροντα που τους έστρεψαν τον έναν εναντίον του άλλου.",
+     "en": "Four decades later, in 1962, Dido Sotiriou published 'Farewell Anatolia' (literally 'Blood-soaked earth'). The narrator is a simple farmer, Manolis Axiotis, and what makes the book distinctive is that it shows Greeks and Turks living together before the war. The enemies are not the peoples, but nationalism and the interests that turned them against each other."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Τέλος, ένα χρόνο μετά, ο Κοσμάς Πολίτης έγραψε το «Στου Χατζηφράγκου», ένα μυθιστόρημα για μια γειτονιά της Σμύρνης πριν από την καταστροφή. Εδώ δεν κυριαρχεί η τραγωδία, αλλά η νοσταλγία για έναν πολυπολιτισμικό κόσμο που χάθηκε για πάντα. Αν τα τρία αυτά βιβλία διαβαστούν μαζί, συνθέτουν μια εικόνα του 1922 όχι ως αφηρημένου εθνικού γεγονότος, αλλά ως ανθρώπινης εμπειρίας.",
+     "en": "Finally, a year later, Kosmas Politis wrote 'At Hatzifrangou's', a novel about a neighbourhood of Smyrna before the catastrophe. Here tragedy does not dominate, but nostalgia for a multicultural world lost forever. If these three books are read together, they compose a picture of 1922 not as an abstract national event but as a human experience."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί, κατά τον ομιλητή, η λογοτεχνία επέστρεφε συνεχώς στην Καταστροφή;",
+     "options": [
+      "Επειδή ήταν ένα τραύμα που προσπαθούσε να επεξεργαστεί",
+      "Επειδή ήταν της μόδας",
+      "Επειδή το επέβαλλε το κράτος",
+      "Επειδή το ζητούσαν οι εκδότες"
+     ],
+     "answer": "Επειδή ήταν ένα τραύμα που προσπαθούσε να επεξεργαστεί",
+     "why": "σαν να προσπαθούσε να το επεξεργαστεί"
+    },
+    {
+     "q": "Τι σημαίνει ο τίτλος «Το νούμερο 31328»;",
+     "options": [
+      "Είναι ο αριθμός που είχε δοθεί στον Βενέζη ως αιχμάλωτο",
+      "Είναι η χρονιά της έκδοσης",
+      "Είναι ο αριθμός του σπιτιού του",
+      "Είναι ο αριθμός των προσφύγων"
+     ],
+     "answer": "Είναι ο αριθμός που είχε δοθεί στον Βενέζη ως αιχμάλωτο",
+     "why": "Ο τίτλος είναι ο αριθμός που του είχε δοθεί ως αιχμαλώτου"
+    },
+    {
+     "q": "Τι κάνει ξεχωριστά τα «Ματωμένα χώματα»;",
+     "options": [
+      "Ότι γράφτηκαν από στρατηγό",
+      "Ότι δεν αναφέρουν τον πόλεμο",
+      "Ότι δείχνουν τη συμβίωση Ελλήνων και Τούρκων πριν από τον πόλεμο",
+      "Ότι γράφτηκαν στα τουρκικά"
+     ],
+     "answer": "Ότι δείχνουν τη συμβίωση Ελλήνων και Τούρκων πριν από τον πόλεμο",
+     "why": "δείχνει τη συμβίωση Ελλήνων και Τούρκων πριν από τον πόλεμο"
+    },
+    {
+     "q": "Τι κυριαρχεί στο «Στου Χατζηφράγκου»;",
+     "options": [
+      "Η πολιτική ανάλυση",
+      "Η νοσταλγία για έναν πολυπολιτισμικό κόσμο που χάθηκε",
+      "Η περιγραφή των μαχών",
+      "Το χιούμορ"
+     ],
+     "answer": "Η νοσταλγία για έναν πολυπολιτισμικό κόσμο που χάθηκε",
+     "why": "δεν κυριαρχεί η τραγωδία, αλλά η νοσταλγία για έναν πολυπολιτισμικό κόσμο"
+    }
+   ],
+   "gloss": {
+    "αποτυπώθηκε": "αποτυπώνομαι — to be depicted, recorded",
+    "τραύμα": "τραύμα — trauma, wound",
+    "σημάδεψε": "σημαδεύω — to mark",
+    "ξεριζώθηκαν": "ξεριζώνομαι — to be uprooted",
+    "να το επεξεργαστεί": "επεξεργάζομαι — to process, work through",
+    "συγκλονιστικά": "συγκλονιστικός — harrowing, shattering",
+    "αιχμαλωτίστηκε": "αιχμαλωτίζομαι — to be taken prisoner",
+    "τάγματα εργασίας": "τάγματα εργασίας — labour battalions",
+    "αιχμαλώτου": "αιχμάλωτος — prisoner of war",
+    "λιτή": "λιτός — sparse, plain",
+    "μελοδραματισμό": "μελοδραματισμός — melodrama",
+    "φρίκη": "φρίκη — horror",
+    "αφήγηση": "αφήγηση — narration",
+    "συμβίωση": "συμβίωση — living together, coexistence",
+    "εθνικισμός": "εθνικισμός — nationalism",
+    "νοσταλγία": "νοσταλγία — nostalgia",
+    "πολυπολιτισμικό": "πολυπολιτισμικός — multicultural",
+    "αφηρημένου": "αφηρημένος — abstract"
+   }
+  }
+ ]
+}
