@@ -1,0 +1,849 @@
+{
+ "items": [
+  {
+   "id": "l26-ann-souper",
+   "title": "Ένα παιδί ψάχνει τους γονείς του",
+   "title_en": "A child is looking for their parents",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα ενός μεγάλου σούπερ μάρκετ.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Αγαπητοί πελάτες, σας παρακαλούμε για λίγη προσοχή. Στο γραφείο εξυπηρέτησης πελατών, δίπλα στην κεντρική είσοδο, βρίσκεται ένα κοριτσάκι περίπου πέντε ετών, που λέγεται Δανάη. Φοράει κόκκινο φόρεμα και κρατάει ένα λούτρινο λαγουδάκι.",
+     "en": "Dear customers, may we have your attention for a moment. At the customer service desk, next to the main entrance, there is a little girl of about five, called Danai. She is wearing a red dress and holding a soft toy rabbit."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Η μικρή μάς είπε ότι ήρθε με τη γιαγιά της και ότι χάθηκαν κοντά στα ψυγεία με τα γαλακτοκομικά. Παρακαλείται η συνοδός της να προσέλθει αμέσως στο γραφείο εξυπηρέτησης. Η Δανάη είναι ασφαλής και την προσέχει μια υπάλληλός μας.",
+     "en": "The little one told us that she came with her grandmother and that they lost each other near the dairy fridges. Her companion is asked to come to the customer service desk immediately. Danai is safe and one of our staff is looking after her."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Υπενθυμίζουμε επίσης ότι, για λόγους ασφαλείας, οι έξοδοι του καταστήματος παρακολουθούνται από το προσωπικό μας μέχρι να βρεθεί η συνοδός. Ευχαριστούμε για την κατανόηση.",
+     "en": "We would also remind you that, for safety reasons, the store's exits are being watched by our staff until the companion is found. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού βρίσκεται τώρα το παιδί;",
+     "options": [
+      "Στο πάρκινγκ",
+      "Στο ταμείο",
+      "Στα ψυγεία με τα γαλακτοκομικά",
+      "Στο γραφείο εξυπηρέτησης πελατών"
+     ],
+     "answer": "Στο γραφείο εξυπηρέτησης πελατών",
+     "why": "Στο γραφείο εξυπηρέτησης πελατών, δίπλα στην κεντρική είσοδο"
+    },
+    {
+     "q": "Με ποιον είχε έρθει η Δανάη;",
+     "options": [
+      "Με τη γιαγιά της",
+      "Με τη μητέρα της",
+      "Με τον πατέρα της",
+      "Με τη δασκάλα της"
+     ],
+     "answer": "Με τη γιαγιά της",
+     "why": "ήρθε με τη γιαγιά της"
+    },
+    {
+     "q": "Τι κάνει το προσωπικό μέχρι να βρεθεί η συνοδός;",
+     "options": [
+      "Καλεί την αστυνομία",
+      "Κλείνει το κατάστημα",
+      "Ψάχνει στους διαδρόμους με το παιδί",
+      "Παρακολουθεί τις εξόδους"
+     ],
+     "answer": "Παρακολουθεί τις εξόδους",
+     "why": "οι έξοδοι του καταστήματος παρακολουθούνται από το προσωπικό μας"
+    }
+   ],
+   "gloss": {
+    "μεγάφωνα": "μεγάφωνο — loudspeaker",
+    "γραφείο εξυπηρέτησης πελατών": "γραφείο εξυπηρέτησης πελατών — customer service desk",
+    "λούτρινο": "λούτρινος — plush, soft (toy)",
+    "γαλακτοκομικά": "γαλακτοκομικά — dairy products",
+    "συνοδός": "συνοδός — companion, escort",
+    "να προσέλθει": "προσέρχομαι — to come forward, present oneself",
+    "ασφαλής": "ασφαλής — safe",
+    "παρακολουθούνται": "παρακολουθούμαι — to be watched, monitored",
+    "κατανόηση": "κατανόηση — understanding"
+   }
+  },
+  {
+   "id": "l26-vm-gymnastis",
+   "title": "Μήνυμα από τον γυμναστή",
+   "title_en": "A message from the personal trainer",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από τον προσωπικό σας γυμναστή.",
+   "script": [
+    {
+     "speaker": "Γυμναστής",
+     "voice": "m",
+     "el": "Γεια σου, Ελπίδα, ο Στέλιος είμαι, από το γυμναστήριο. Σε παίρνω για την αυριανή προπόνηση. Δυστυχώς έχω ένα πρόβλημα με τον αστράγαλο, τον στραμπούληξα στο ποδόσφαιρο, και ο γιατρός μού είπε να μην πατάω για μερικές μέρες.",
+     "en": "Hi Elpida, it's Stelios, from the gym. I'm calling about tomorrow's training session. Unfortunately I have a problem with my ankle, I sprained it playing football, and the doctor told me not to put weight on it for a few days."
+    },
+    {
+     "speaker": "Γυμναστής",
+     "voice": "m",
+     "el": "Δεν θέλω όμως να χάσεις τον ρυθμό σου, τώρα που πας τόσο καλά. Η συνάδελφός μου, η Ναταλία, μπορεί να σε δει αύριο στην ίδια ώρα. Της έχω ήδη στείλει το πρόγραμμά σου, οπότε ξέρει ακριβώς τι ασκήσεις κάνουμε και πού έχουμε μείνει.",
+     "en": "But I don't want you to lose your rhythm, now that you're doing so well. My colleague Natalia can see you tomorrow at the same time. I've already sent her your programme, so she knows exactly which exercises we do and where we've got to."
+    },
+    {
+     "speaker": "Γυμναστής",
+     "voice": "m",
+     "el": "Αν προτιμάς να περιμένεις εμένα, κανένα πρόβλημα· θα αναπληρώσουμε τη χαμένη προπόνηση την άλλη εβδομάδα, χωρίς χρέωση. Στείλε μου μόνο ένα μήνυμα μέχρι απόψε να ξέρω τι να πω στη Ναταλία.",
+     "en": "If you'd rather wait for me, no problem; we'll make up the missed session next week, free of charge. Just send me a message by tonight so I know what to tell Natalia."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν μπορεί να κάνει την προπόνηση ο Στέλιος;",
+     "options": [
+      "Γιατί έχει γρίπη",
+      "Γιατί το γυμναστήριο κλείνει",
+      "Γιατί έχει άλλο ραντεβού",
+      "Γιατί στραμπούληξε τον αστράγαλό του"
+     ],
+     "answer": "Γιατί στραμπούληξε τον αστράγαλό του",
+     "why": "τον στραμπούληξα στο ποδόσφαιρο"
+    },
+    {
+     "q": "Τι ξέρει ήδη η Ναταλία;",
+     "options": [
+      "Το τηλέφωνο της Ελπίδας",
+      "Τίποτα",
+      "Ότι η Ελπίδα θα ακυρώσει",
+      "Το πρόγραμμα των ασκήσεων της Ελπίδας"
+     ],
+     "answer": "Το πρόγραμμα των ασκήσεων της Ελπίδας",
+     "why": "Της έχω ήδη στείλει το πρόγραμμά σου"
+    },
+    {
+     "q": "Τι θα γίνει αν η Ελπίδα προτιμήσει να περιμένει τον Στέλιο;",
+     "options": [
+      "Θα αλλάξει γυμναστήριο",
+      "Θα πληρώσει κανονικά την προπόνηση",
+      "Θα χάσει την προπόνηση",
+      "Θα κάνουν την προπόνηση την άλλη εβδομάδα χωρίς χρέωση"
+     ],
+     "answer": "Θα κάνουν την προπόνηση την άλλη εβδομάδα χωρίς χρέωση",
+     "why": "θα αναπληρώσουμε τη χαμένη προπόνηση την άλλη εβδομάδα, χωρίς χρέωση"
+    }
+   ],
+   "gloss": {
+    "γυμναστή": "γυμναστής — (personal) trainer",
+    "προπόνηση": "προπόνηση — training session",
+    "αστράγαλο": "αστράγαλος — ankle",
+    "τον στραμπούληξα": "στραμπουλάω — to sprain",
+    "να μην πατάω": "πατάω — to step, put weight on",
+    "ρυθμό": "ρυθμός — rhythm, pace",
+    "ασκήσεις": "άσκηση — exercise",
+    "θα αναπληρώσουμε": "αναπληρώνω — to make up (for)",
+    "χρέωση": "χρέωση — charge"
+   }
+  },
+  {
+   "id": "l26-dia-tourta",
+   "title": "Μια τούρτα για τα γενέθλια",
+   "title_en": "A birthday cake",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα ζαχαροπλαστείο.",
+   "script": [
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Καλημέρα. Θα ήθελα να παραγγείλω μια τούρτα για τα γενέθλια του γιου μου, το Σάββατο. Κλείνει τα οχτώ και θα έχουμε περίπου είκοσι παιδιά.",
+     "en": "Good morning. I'd like to order a cake for my son's birthday, on Saturday. He's turning eight and we'll have about twenty children."
+    },
+    {
+     "speaker": "Ζαχαροπλάστης",
+     "voice": "m",
+     "el": "Για είκοσι παιδιά, και μερικούς γονείς φαντάζομαι, σας προτείνω μια τούρτα δύο κιλών. Τι γεύση προτιμάτε; Η σοκολάτα με φράουλα είναι η πιο δημοφιλής στα παιδικά πάρτι.",
+     "en": "For twenty children, and some parents I imagine, I'd suggest a two-kilo cake. Which flavour do you prefer? Chocolate with strawberry is the most popular at children's parties."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Σοκολάτα, ναι, αλλά χωρίς ξηρούς καρπούς, γιατί ένα από τα παιδιά έχει σοβαρή αλλεργία. Μπορείτε να μου εγγυηθείτε ότι δεν θα υπάρχουν ίχνη;",
+     "en": "Chocolate, yes, but without nuts, because one of the children has a serious allergy. Can you guarantee there won't be any traces?"
+    },
+    {
+     "speaker": "Ζαχαροπλάστης",
+     "voice": "m",
+     "el": "Θα σας πω ειλικρινά: στο εργαστήριο δουλεύουμε και με αμύγδαλα και με φουντούκια, οπότε εγγύηση εκατό τοις εκατό δεν μπορώ να δώσω. Για το παιδί με την αλλεργία, θα σας πρότεινα να φέρετε κάτι ξεχωριστό από ένα κατάστημα που ειδικεύεται σε τέτοια προϊόντα.",
+     "en": "I'll be honest with you: in the workshop we work with both almonds and hazelnuts, so I can't give a hundred per cent guarantee. For the child with the allergy, I'd suggest you bring something separate from a shop that specialises in such products."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Σας ευχαριστώ για την ειλικρίνεια. Εντάξει, κλείνουμε τη σοκολατένια. Μπορείτε να γράψετε πάνω «Χρόνια πολλά, Άρη» και να την έχω έτοιμη στις δώδεκα;",
+     "en": "Thank you for your honesty. All right, we'll go for the chocolate one. Can you write «Happy birthday, Aris» on it and have it ready for me at twelve?"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο μεγάλη τούρτα προτείνει ο ζαχαροπλάστης;",
+     "options": [
+      "Μισού κιλού",
+      "Τριών κιλών",
+      "Ενός κιλού",
+      "Δύο κιλών"
+     ],
+     "answer": "Δύο κιλών",
+     "why": "σας προτείνω μια τούρτα δύο κιλών"
+    },
+    {
+     "q": "Γιατί δεν μπορεί να εγγυηθεί ότι η τούρτα δεν θα έχει ίχνη ξηρών καρπών;",
+     "options": [
+      "Γιατί δεν ξέρει τη συνταγή",
+      "Γιατί δεν έχει χρόνο",
+      "Γιατί η σοκολάτα περιέχει πάντα ξηρούς καρπούς",
+      "Γιατί στο εργαστήριο χρησιμοποιούν αμύγδαλα και φουντούκια"
+     ],
+     "answer": "Γιατί στο εργαστήριο χρησιμοποιούν αμύγδαλα και φουντούκια",
+     "why": "στο εργαστήριο δουλεύουμε και με αμύγδαλα και με φουντούκια"
+    },
+    {
+     "q": "Τι προτείνει για το παιδί με την αλλεργία;",
+     "options": [
+      "Να φάει μόνο φράουλες",
+      "Να μη φάει τίποτα",
+      "Να φέρουν κάτι από ένα εξειδικευμένο κατάστημα",
+      "Να φτιάξει μια μικρή τούρτα χωρίς σοκολάτα"
+     ],
+     "answer": "Να φέρουν κάτι από ένα εξειδικευμένο κατάστημα",
+     "why": "να φέρετε κάτι ξεχωριστό από ένα κατάστημα που ειδικεύεται σε τέτοια προϊόντα"
+    }
+   ],
+   "gloss": {
+    "ζαχαροπλαστείο": "ζαχαροπλαστείο — patisserie",
+    "να παραγγείλω": "παραγγέλνω — to order",
+    "δημοφιλής": "δημοφιλής — popular",
+    "ξηρούς καρπούς": "ξηροί καρποί — nuts",
+    "αλλεργία": "αλλεργία — allergy",
+    "να μου εγγυηθείτε": "εγγυώμαι — to guarantee",
+    "ίχνη": "ίχνος — trace",
+    "αμύγδαλα": "αμύγδαλο — almond",
+    "φουντούκια": "φουντούκι — hazelnut",
+    "ειδικεύεται": "ειδικεύομαι — to specialise",
+    "ειλικρίνεια": "ειλικρίνεια — honesty, frankness"
+   }
+  },
+  {
+   "id": "l26-dia-varka",
+   "title": "Νοικιάζοντας βάρκα",
+   "title_en": "Renting a boat",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα γραφείο ενοικίασης σκαφών σε ένα νησί.",
+   "script": [
+    {
+     "speaker": "Τουρίστας",
+     "voice": "m",
+     "el": "Γεια σας. Θέλουμε να νοικιάσουμε μια βάρκα για αύριο, για να πάμε στις παραλίες της νότιας πλευράς. Δεν έχουμε δίπλωμα σκάφους. Γίνεται;",
+     "en": "Hello. We'd like to rent a boat for tomorrow, to go to the beaches on the south side. We don't have a boat licence. Is that possible?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Βεβαίως. Οι μικρές βάρκες με μηχανή μέχρι τριάντα ίππους δεν χρειάζονται δίπλωμα. Χωράνε πέντε άτομα και κοστίζουν ενενήντα ευρώ τη μέρα, με τα καύσιμα να πληρώνονται χωριστά.",
+     "en": "Of course. Small boats with engines up to thirty horsepower don't need a licence. They take five people and cost ninety euros a day, with fuel paid separately."
+    },
+    {
+     "speaker": "Τουρίστας",
+     "voice": "m",
+     "el": "Δεν έχουμε οδηγήσει ποτέ βάρκα. Είναι δύσκολο;",
+     "en": "We've never driven a boat. Is it difficult?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καθόλου. Πριν ξεκινήσετε, ο συνάδελφός μου θα σας κάνει μια σύντομη εκπαίδευση, θα σας δείξει τον χάρτη και τα σημεία όπου δεν επιτρέπεται να πλησιάσετε. Το σημαντικότερο είναι ο καιρός: αν φυσάει πάνω από πέντε μποφόρ, δεν βγαίνει καμία βάρκα, και σας επιστρέφουμε τα χρήματα.",
+     "en": "Not at all. Before you set off, my colleague will give you a short training session and show you the map and the spots you're not allowed to approach. The most important thing is the weather: if the wind is above five Beaufort, no boat goes out, and we give you your money back."
+    },
+    {
+     "speaker": "Τουρίστας",
+     "voice": "m",
+     "el": "Τέλεια. Και τι ώρα πρέπει να την επιστρέψουμε;",
+     "en": "Perfect. And what time do we have to bring it back?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Μέχρι τις επτά το απόγευμα, πριν πέσει ο ήλιος. Θα σας ζητήσω επίσης μια εγγύηση διακοσίων ευρώ, που θα σας επιστραφεί αν η βάρκα γυρίσει χωρίς ζημιές.",
+     "en": "By seven in the evening, before the sun goes down. I'll also ask you for a two-hundred-euro deposit, which will be returned if the boat comes back without damage."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιες βάρκες μπορεί να οδηγήσει κάποιος χωρίς δίπλωμα;",
+     "options": [
+      "Μόνο βάρκες με κουπιά",
+      "Βάρκες με μηχανή μέχρι τριάντα ίππους",
+      "Καμία",
+      "Όλες τις βάρκες"
+     ],
+     "answer": "Βάρκες με μηχανή μέχρι τριάντα ίππους",
+     "why": "Οι μικρές βάρκες με μηχανή μέχρι τριάντα ίππους δεν χρειάζονται δίπλωμα"
+    },
+    {
+     "q": "Τι θα γίνει αν φυσάει πάνω από πέντε μποφόρ;",
+     "options": [
+      "Δεν θα βγει η βάρκα και θα πάρουν πίσω τα χρήματα",
+      "Θα τους συνοδεύσει ένας υπάλληλος",
+      "Θα πληρώσουν επιπλέον",
+      "Θα πάνε μόνο σε κοντινές παραλίες"
+     ],
+     "answer": "Δεν θα βγει η βάρκα και θα πάρουν πίσω τα χρήματα",
+     "why": "δεν βγαίνει καμία βάρκα, και σας επιστρέφουμε τα χρήματα"
+    },
+    {
+     "q": "Πότε θα πάρουν πίσω την εγγύηση;",
+     "options": [
+      "Ποτέ",
+      "Στο τέλος της εβδομάδας",
+      "Αν η βάρκα γυρίσει χωρίς ζημιές",
+      "Αμέσως"
+     ],
+     "answer": "Αν η βάρκα γυρίσει χωρίς ζημιές",
+     "why": "θα σας επιστραφεί αν η βάρκα γυρίσει χωρίς ζημιές"
+    }
+   ],
+   "gloss": {
+    "ενοικίασης": "ενοικίαση — rental",
+    "σκαφών": "σκάφος — boat, vessel",
+    "δίπλωμα": "δίπλωμα — licence",
+    "ίππους": "ίππος — horsepower (lit. horse)",
+    "καύσιμα": "καύσιμα — fuel",
+    "εκπαίδευση": "εκπαίδευση — training",
+    "μποφόρ": "μποφόρ — Beaufort (wind force)",
+    "εγγύηση": "εγγύηση — deposit, guarantee",
+    "ζημιές": "ζημιά — damage"
+   }
+  },
+  {
+   "id": "l26-mon-istioforo",
+   "title": "Το σπίτι μου είναι ένα ιστιοφόρο",
+   "title_en": "My home is a sailing boat",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια γυναίκα να μιλά για τη ζωή της σε ένα ιστιοφόρο.",
+   "script": [
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Πριν από έξι χρόνια, ο άντρας μου κι εγώ πουλήσαμε το διαμέρισμά μας στην Αθήνα και αγοράσαμε ένα μεταχειρισμένο ιστιοφόρο δώδεκα μέτρων. Οι φίλοι μας νόμιζαν ότι είχαμε τρελαθεί. Εμείς απλώς είχαμε κουραστεί να περνάμε δύο ώρες τη μέρα στην κίνηση.",
+     "en": "Six years ago, my husband and I sold our flat in Athens and bought a second-hand twelve-metre sailing boat. Our friends thought we'd gone mad. We were simply tired of spending two hours a day in traffic."
+    },
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Η ζωή στο σκάφος δεν είναι τόσο ρομαντική όσο φαίνεται στις φωτογραφίες. Ο χώρος είναι ελάχιστος, το νερό το μετράμε με το λίτρο, και κάθε τόσο κάτι χαλάει: μια αντλία, ένα πανί, η μηχανή. Έχω μάθει να επισκευάζω πράγματα που πριν ούτε ήξερα ότι υπάρχουν.",
+     "en": "Life on board isn't as romantic as it looks in photos. Space is minimal, we measure water by the litre, and every so often something breaks: a pump, a sail, the engine. I've learned to repair things I didn't even know existed before."
+    },
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Δουλεύουμε και οι δύο εξ αποστάσεως, εγώ ως μεταφράστρια κι εκείνος ως προγραμματιστής, οπότε το πιο σημαντικό εργαλείο μας είναι μια καλή σύνδεση στο διαδίκτυο. Τον χειμώνα μένουμε σε μια μαρίνα στη Λέρο· το καλοκαίρι ταξιδεύουμε στο Αιγαίο.",
+     "en": "We both work remotely, me as a translator and him as a programmer, so our most important tool is a good internet connection. In winter we stay in a marina on Leros; in summer we sail around the Aegean."
+    },
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Αυτό που κέρδισα δεν είναι η θάλασσα, είναι ο χρόνος. Όταν έχεις τόσο λίγα πράγματα, καταλαβαίνεις πόσο λίγα χρειάζεσαι πραγματικά.",
+     "en": "What I've gained isn't the sea, it's time. When you have so few things, you realise how little you really need."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί αποφάσισαν να ζήσουν σε ιστιοφόρο;",
+     "options": [
+      "Γιατί κληρονόμησαν ένα σκάφος",
+      "Γιατί είχαν κουραστεί από την κίνηση και τον τρόπο ζωής στην πόλη",
+      "Γιατί ήθελαν να γίνουν ψαράδες",
+      "Γιατί έχασαν τη δουλειά τους"
+     ],
+     "answer": "Γιατί είχαν κουραστεί από την κίνηση και τον τρόπο ζωής στην πόλη",
+     "why": "είχαμε κουραστεί να περνάμε δύο ώρες τη μέρα στην κίνηση"
+    },
+    {
+     "q": "Ποια δυσκολία της ζωής στο σκάφος αναφέρει;",
+     "options": [
+      "Τον ελάχιστο χώρο και τις συχνές βλάβες",
+      "Τη μοναξιά",
+      "Τη ναυτία",
+      "Το υψηλό κόστος της μαρίνας"
+     ],
+     "answer": "Τον ελάχιστο χώρο και τις συχνές βλάβες",
+     "why": "Ο χώρος είναι ελάχιστος, το νερό το μετράμε με το λίτρο, και κάθε τόσο κάτι χαλάει"
+    },
+    {
+     "q": "Πώς βγάζουν τα προς το ζην;",
+     "options": [
+      "Ψαρεύουν",
+      "Ζουν από τα λεφτά του διαμερίσματος",
+      "Δουλεύουν εξ αποστάσεως",
+      "Νοικιάζουν το σκάφος σε τουρίστες"
+     ],
+     "answer": "Δουλεύουν εξ αποστάσεως",
+     "why": "Δουλεύουμε και οι δύο εξ αποστάσεως"
+    }
+   ],
+   "gloss": {
+    "ιστιοφόρο": "ιστιοφόρο — sailing boat",
+    "μεταχειρισμένο": "μεταχειρισμένος — second-hand",
+    "είχαμε τρελαθεί": "τρελαίνομαι — to go mad",
+    "ελάχιστος": "ελάχιστος — minimal",
+    "αντλία": "αντλία — pump",
+    "πανί": "πανί — sail",
+    "εξ αποστάσεως": "εξ αποστάσεως — remotely",
+    "μεταφράστρια": "μεταφράστρια — translator (female)",
+    "προγραμματιστής": "προγραμματιστής — programmer",
+    "μαρίνα": "μαρίνα — marina"
+   }
+  },
+  {
+   "id": "l26-rep-ikaria",
+   "title": "Η Ικαρία",
+   "title_en": "Ikaria",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ραδιοφωνικό ρεπορτάζ από την Ικαρία.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Το νησί πήρε, σύμφωνα με τον μύθο, το όνομά του από τον Ίκαρο, που έπεσε στη θάλασσα εδώ κοντά, όταν πέταξε πολύ κοντά στον ήλιο και έλιωσε το κερί στα φτερά του. Σήμερα, όμως, η Ικαρία είναι γνωστή σε όλο τον κόσμο για κάτι πολύ πιο γήινο: τη μακροζωία των κατοίκων της.",
+     "en": "According to myth, the island took its name from Icarus, who fell into the sea nearby when he flew too close to the sun and the wax on his wings melted. Today, though, Ikaria is known around the world for something much more down to earth: the longevity of its inhabitants."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Οι ερευνητές έχουν κατατάξει την Ικαρία στις λεγόμενες «γαλάζιες ζώνες», περιοχές όπου ένα ασυνήθιστα μεγάλο ποσοστό ανθρώπων ξεπερνά τα ενενήντα. Οι εξηγήσεις που δίνονται είναι πολλές: η απλή διατροφή με λαχανικά, όσπρια και λάδι, το περπάτημα στα ορεινά χωριά, ο ύπνος το μεσημέρι και, κυρίως, οι στενοί κοινωνικοί δεσμοί.",
+     "en": "Researchers have classed Ikaria among the so-called «blue zones», areas where an unusually large share of people live past ninety. Many explanations are given: a simple diet of vegetables, pulses and oil, walking in the mountain villages, the midday nap and, above all, close social ties."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Οι δεσμοί αυτοί φαίνονται καλύτερα στα περίφημα πανηγύρια του καλοκαιριού, όπου νέοι και ηλικιωμένοι χορεύουν μαζί τον ικαριώτικο χορό μέχρι το πρωί. «Εδώ κανείς δεν βιάζεται», μου είπε ένας ογδοντάχρονος βοσκός. «Το ρολόι το έχουμε για στολίδι.»",
+     "en": "These ties are best seen at the famous summer festivals, where young and old dance the Ikarian dance together until morning. «Nobody hurries here», an eighty-year-old shepherd told me. «We keep the clock as an ornament.»"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από πού πήρε το όνομά της η Ικαρία σύμφωνα με τον μύθο;",
+     "options": [
+      "Από ένα ποτάμι",
+      "Από έναν βασιλιά",
+      "Από τον Ίκαρο, που έπεσε στη θάλασσα κοντά στο νησί",
+      "Από έναν θεό του κρασιού"
+     ],
+     "answer": "Από τον Ίκαρο, που έπεσε στη θάλασσα κοντά στο νησί",
+     "why": "πήρε, σύμφωνα με τον μύθο, το όνομά του από τον Ίκαρο"
+    },
+    {
+     "q": "Τι είναι οι «γαλάζιες ζώνες»;",
+     "options": [
+      "Περιοχές όπου πολλοί άνθρωποι ξεπερνούν τα ενενήντα",
+      "Παραλίες με γαλάζια σημαία",
+      "Ζώνες χωρίς αυτοκίνητα",
+      "Προστατευμένες θαλάσσιες περιοχές"
+     ],
+     "answer": "Περιοχές όπου πολλοί άνθρωποι ξεπερνούν τα ενενήντα",
+     "why": "περιοχές όπου ένα ασυνήθιστα μεγάλο ποσοστό ανθρώπων ξεπερνά τα ενενήντα"
+    },
+    {
+     "q": "Τι εννοεί ο βοσκός με τη φράση «Το ρολόι το έχουμε για στολίδι»;",
+     "options": [
+      "Ότι το ρολόι του είναι χαλασμένο",
+      "Ότι τα ρολόγια είναι ακριβά",
+      "Ότι του αρέσουν τα κοσμήματα",
+      "Ότι στο νησί δεν ζουν με το άγχος του χρόνου"
+     ],
+     "answer": "Ότι στο νησί δεν ζουν με το άγχος του χρόνου",
+     "why": "«Εδώ κανείς δεν βιάζεται»"
+    }
+   ],
+   "gloss": {
+    "μύθο": "μύθος — myth",
+    "έλιωσε": "λιώνω — to melt",
+    "κερί": "κερί — wax",
+    "γήινο": "γήινος — earthly, down to earth",
+    "μακροζωία": "μακροζωία — longevity",
+    "έχουν κατατάξει": "κατατάσσω — to classify, rank",
+    "όσπρια": "όσπρια — pulses",
+    "δεσμοί": "δεσμός — tie, bond",
+    "πανηγύρια": "πανηγύρι — village festival",
+    "βοσκός": "βοσκός — shepherd",
+    "στολίδι": "στολίδι — ornament"
+   }
+  },
+  {
+   "id": "l26-rep-samaria",
+   "title": "Το φαράγγι της Σαμαριάς",
+   "title_en": "The Samaria Gorge",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από το φαράγγι της Σαμαριάς, στη δυτική Κρήτη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Είναι έξι το πρωί στο Ξυλόσκαλο, στο οροπέδιο του Ομαλού, και εκατοντάδες πεζοπόροι ετοιμάζονται να κατέβουν στο φαράγγι της Σαμαριάς, ένα από τα μεγαλύτερα της Ευρώπης. Η διαδρομή, περίπου δεκαέξι χιλιόμετρα, ξεκινά από τα Λευκά Όρη και καταλήγει στην Αγία Ρουμέλη, στο Λιβυκό πέλαγος.",
+     "en": "It's six in the morning at Xyloskalo, on the Omalos plateau, and hundreds of hikers are getting ready to go down into the Samaria Gorge, one of the largest in Europe. The route, about sixteen kilometres long, starts in the White Mountains and ends at Agia Roumeli, on the Libyan Sea."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Το φαράγγι είναι εθνικός δρυμός από το 1962 και ανοίγει για το κοινό μόνο από την άνοιξη ως το φθινόπωρο, όταν δεν υπάρχει κίνδυνος από τα νερά του χειμώνα. Το πιο εντυπωσιακό σημείο είναι οι Σιδερόπορτες, όπου τα βράχια υψώνονται εκατοντάδες μέτρα και το πέρασμα στενεύει τόσο, που σχεδόν αγγίζεις και τις δύο πλευρές.",
+     "en": "The gorge has been a national park since 1962 and is open to the public only from spring to autumn, when there is no danger from the winter waters. The most impressive spot is the Iron Gates, where the rocks rise hundreds of metres and the passage narrows so much that you can almost touch both sides."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Με λίγη τύχη, ο επισκέπτης μπορεί να δει και τον κρητικό αγριόγιδο, το κρι-κρι, που βρήκε εδώ καταφύγιο. Οι δασοφύλακες υπενθυμίζουν ότι η διαδρομή είναι απαιτητική: χρειάζονται καλά παπούτσια, νερό και πέντε με επτά ώρες περπάτημα. Από την Αγία Ρουμέλη, που δεν έχει δρόμο, η επιστροφή γίνεται με πλοίο.",
+     "en": "With a bit of luck, visitors may also see the Cretan wild goat, the kri-kri, which found refuge here. The forest rangers remind people that the route is demanding: you need good shoes, water and five to seven hours of walking. From Agia Roumeli, which has no road, the return is by boat."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού τελειώνει η διαδρομή;",
+     "options": [
+      "Στα Χανιά",
+      "Στο οροπέδιο του Ομαλού",
+      "Στην Αγία Ρουμέλη, στη θάλασσα",
+      "Στο Ξυλόσκαλο"
+     ],
+     "answer": "Στην Αγία Ρουμέλη, στη θάλασσα",
+     "why": "καταλήγει στην Αγία Ρουμέλη, στο Λιβυκό πέλαγος"
+    },
+    {
+     "q": "Γιατί το φαράγγι είναι κλειστό τον χειμώνα;",
+     "options": [
+      "Γιατί υπάρχει κίνδυνος από τα νερά",
+      "Γιατί κάνει πολύ κρύο",
+      "Γιατί δεν υπάρχουν πλοία",
+      "Γιατί προστατεύονται τα ζώα"
+     ],
+     "answer": "Γιατί υπάρχει κίνδυνος από τα νερά",
+     "why": "όταν δεν υπάρχει κίνδυνος από τα νερά του χειμώνα"
+    },
+    {
+     "q": "Πώς επιστρέφουν οι πεζοπόροι από την Αγία Ρουμέλη;",
+     "options": [
+      "Με ταξί",
+      "Με πλοίο",
+      "Με λεωφορείο",
+      "Με τα πόδια"
+     ],
+     "answer": "Με πλοίο",
+     "why": "η επιστροφή γίνεται με πλοίο"
+    }
+   ],
+   "gloss": {
+    "φαράγγι": "φαράγγι — gorge",
+    "οροπέδιο": "οροπέδιο — plateau",
+    "πεζοπόροι": "πεζοπόρος — hiker",
+    "καταλήγει": "καταλήγω — to end up, finish",
+    "εθνικός δρυμός": "εθνικός δρυμός — national park",
+    "υψώνονται": "υψώνομαι — to rise",
+    "στενεύει": "στενεύω — to narrow",
+    "αγριόγιδο": "αγριόγιδο — wild goat",
+    "δασοφύλακες": "δασοφύλακας — forest ranger",
+    "απαιτητική": "απαιτητικός — demanding"
+   }
+  },
+  {
+   "id": "l26-int-logotherapeftria",
+   "title": "Λογοθεραπεύτρια",
+   "title_en": "A speech therapist",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια λογοθεραπεύτρια.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Με ποιους ανθρώπους δουλεύει ένας λογοθεραπευτής;",
+     "en": "Who does a speech therapist work with?"
+    },
+    {
+     "speaker": "Λογοθεραπεύτρια",
+     "voice": "f",
+     "el": "Οι περισσότεροι πιστεύουν ότι δουλεύουμε μόνο με παιδιά που αργούν να μιλήσουν ή δεν προφέρουν σωστά κάποιους ήχους. Αυτό είναι ένα μεγάλο μέρος της δουλειάς μας, αλλά βοηθάμε και ενήλικες: ανθρώπους που έπαθαν εγκεφαλικό και έχασαν τον λόγο τους, ανθρώπους που τραυλίζουν, ακόμη και δασκάλους που κουράζουν τη φωνή τους.",
+     "en": "Most people think we only work with children who are late to talk or don't pronounce some sounds correctly. That's a big part of our work, but we also help adults: people who've had a stroke and lost their speech, people who stammer, even teachers who strain their voice."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πότε πρέπει να ανησυχήσουν οι γονείς;",
+     "en": "When should parents worry?"
+    },
+    {
+     "speaker": "Λογοθεραπεύτρια",
+     "voice": "f",
+     "el": "Κάθε παιδί έχει τον δικό του ρυθμό, γι' αυτό δεν θέλω να τρομάξω κανέναν. Αν όμως ένα παιδί στα δύο του χρόνια δεν λέει σχεδόν καθόλου λέξεις, ή αν στα τέσσερα δεν το καταλαβαίνουν οι άνθρωποι εκτός οικογένειας, καλό είναι να γίνει μια αξιολόγηση. Όσο νωρίτερα ξεκινήσουμε, τόσο πιο γρήγορα έρχονται τα αποτελέσματα.",
+     "en": "Every child has its own pace, so I don't want to frighten anyone. But if a child at two says hardly any words, or if at four people outside the family can't understand them, it's a good idea to have an assessment. The earlier we start, the faster the results come."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι είναι αυτό που σας δίνει τη μεγαλύτερη χαρά;",
+     "en": "What gives you the greatest joy?"
+    },
+    {
+     "speaker": "Λογοθεραπεύτρια",
+     "voice": "f",
+     "el": "Θυμάμαι έναν κύριο εβδομήντα χρονών, που μετά από ένα εγκεφαλικό δεν μπορούσε να πει ούτε το όνομά του. Δουλέψαμε μαζί έναν ολόκληρο χρόνο. Την ημέρα που κατάφερε να πει «καλημέρα» στην εγγονή του, κλάψαμε και οι δύο.",
+     "en": "I remember a man of seventy who, after a stroke, couldn't even say his name. We worked together for a whole year. The day he managed to say «good morning» to his granddaughter, we both cried."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια λανθασμένη αντίληψη υπάρχει για τους λογοθεραπευτές;",
+     "options": [
+      "Ότι διδάσκουν ξένες γλώσσες",
+      "Ότι δουλεύουν μόνο σε νοσοκομεία",
+      "Ότι δουλεύουν μόνο με παιδιά",
+      "Ότι είναι γιατροί"
+     ],
+     "answer": "Ότι δουλεύουν μόνο με παιδιά",
+     "why": "Οι περισσότεροι πιστεύουν ότι δουλεύουμε μόνο με παιδιά"
+    },
+    {
+     "q": "Πότε συμβουλεύει μια αξιολόγηση;",
+     "options": [
+      "Αν το παιδί μιλάει πολύ",
+      "Αν στα δύο δεν λέει σχεδόν καθόλου λέξεις ή στα τέσσερα δεν το καταλαβαίνουν οι ξένοι",
+      "Σε κάθε παιδί στα τρία",
+      "Αν το παιδί δεν διαβάζει στα πέντε"
+     ],
+     "answer": "Αν στα δύο δεν λέει σχεδόν καθόλου λέξεις ή στα τέσσερα δεν το καταλαβαίνουν οι ξένοι",
+     "why": "Αν όμως ένα παιδί στα δύο του χρόνια δεν λέει σχεδόν καθόλου λέξεις"
+    },
+    {
+     "q": "Γιατί έκλαψαν η λογοθεραπεύτρια και ο ηλικιωμένος κύριος;",
+     "options": [
+      "Γιατί εκείνος κατάφερε να πει «καλημέρα» στην εγγονή του",
+      "Γιατί εκείνη άλλαζε δουλειά",
+      "Γιατί τελείωσαν τα χρήματα",
+      "Γιατί η θεραπεία απέτυχε"
+     ],
+     "answer": "Γιατί εκείνος κατάφερε να πει «καλημέρα» στην εγγονή του",
+     "why": "Την ημέρα που κατάφερε να πει «καλημέρα» στην εγγονή του"
+    }
+   ],
+   "gloss": {
+    "λογοθεραπεύτρια": "λογοθεραπεύτρια — speech therapist (female)",
+    "προφέρουν": "προφέρω — to pronounce",
+    "έπαθαν εγκεφαλικό": "παθαίνω εγκεφαλικό — to have a stroke",
+    "λόγο": "λόγος — speech",
+    "τραυλίζουν": "τραυλίζω — to stammer",
+    "να ανησυχήσουν": "ανησυχώ — to worry",
+    "ρυθμό": "ρυθμός — pace",
+    "να τρομάξω": "τρομάζω — to frighten",
+    "αξιολόγηση": "αξιολόγηση — assessment"
+   }
+  },
+  {
+   "id": "l26-mon-rigas",
+   "title": "Ρήγας Βελεστινλής",
+   "title_en": "Rigas Velestinlis",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από μια ραδιοφωνική εκπομπή ιστορίας για τον Ρήγα Βελεστινλή, γνωστό και ως Ρήγα Φεραίο.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Ο Ρήγας γεννήθηκε γύρω στο 1757 στο Βελεστίνο της Θεσσαλίας, κοντά στις αρχαίες Φερές, από όπου πήρε και το προσωνύμιο Φεραίος, αν και ο ίδιος υπέγραφε Βελεστινλής. Νέος ακόμη έφυγε για την Κωνσταντινούπολη και αργότερα για τη Βλαχία, όπου υπηρέτησε ως γραμματέας Φαναριωτών ηγεμόνων και ήρθε σε επαφή με τις ιδέες του Διαφωτισμού.",
+     "en": "Rigas was born around 1757 in Velestino in Thessaly, near ancient Pherae, from which he got the epithet Feraios, although he himself signed as Velestinlis. While still young he left for Constantinople and later for Wallachia, where he served as secretary to Phanariot princes and came into contact with the ideas of the Enlightenment."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Στη Βιέννη, το 1797, τύπωσε τα σημαντικότερα έργα του: τη μεγάλη Χάρτα της Ελλάδος, ένα πολιτικό σχέδιο με τίτλο «Νέα Πολιτική Διοίκησις» και τον «Θούριο», το πολεμικό τραγούδι που αρχίζει με τον στίχο «Ως πότε, παλικάρια, θα ζούμε στα στενά». Αυτό που κάνει το σχέδιό του πρωτοποριακό είναι ότι δεν οραματιζόταν ένα κράτος μόνο για τους Έλληνες, αλλά μια δημοκρατία για όλους τους λαούς των Βαλκανίων, χριστιανούς και μουσουλμάνους, με ίσα δικαιώματα.",
+     "en": "In Vienna, in 1797, he printed his most important works: the great Charter of Greece, a political plan entitled «New Political Constitution», and the «Thourios», the war song that begins with the line «How long, brave lads, shall we live in the narrow passes». What makes his plan pioneering is that he did not envision a state only for the Greeks, but a republic for all the peoples of the Balkans, Christians and Muslims, with equal rights."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Τον Δεκέμβριο του 1797 συνελήφθη στην Τεργέστη από τις αυστριακές αρχές, που τον παρέδωσαν, μαζί με επτά συντρόφους του, στους Οθωμανούς. Τον Ιούνιο του 1798 στραγγαλίστηκαν στο Βελιγράδι, και τα σώματά τους ρίχτηκαν στον Δούναβη.",
+     "en": "In December 1797 he was arrested in Trieste by the Austrian authorities, who handed him over, together with seven of his companions, to the Ottomans. In June 1798 they were strangled in Belgrade, and their bodies were thrown into the Danube."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Ο Ρήγας δεν είδε ποτέ την Επανάσταση, αλλά τη γενιά που την έκανε τη μεγάλωσε ο «Θούριός» του. Ίσως αυτή είναι η πιο μεγάλη ειρωνεία της ιστορίας του: οι αρχές που ήθελαν να σβήσουν τη φωνή του την έκαναν, με τον θάνατό του, ακόμη πιο δυνατή.",
+     "en": "Rigas never saw the Revolution, but the generation that made it was raised on his «Thourios». Perhaps this is the greatest irony of his story: the authorities who wanted to silence his voice made it, through his death, even stronger."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από πού πήρε ο Ρήγας το προσωνύμιο «Φεραίος»;",
+     "options": [
+      "Από ένα ποίημά του",
+      "Από τις αρχαίες Φερές, κοντά στο Βελεστίνο",
+      "Από τη Βλαχία",
+      "Από το επώνυμο του πατέρα του"
+     ],
+     "answer": "Από τις αρχαίες Φερές, κοντά στο Βελεστίνο",
+     "why": "κοντά στις αρχαίες Φερές, από όπου πήρε και το προσωνύμιο Φεραίος"
+    },
+    {
+     "q": "Τι έκανε πρωτοποριακό το πολιτικό του σχέδιο;",
+     "options": [
+      "Ότι πρότεινε μια μοναρχία",
+      "Ότι οραματιζόταν μια δημοκρατία για όλους τους λαούς των Βαλκανίων με ίσα δικαιώματα",
+      "Ότι ήταν γραμμένο στα γαλλικά",
+      "Ότι αφορούσε μόνο την Πελοπόννησο"
+     ],
+     "answer": "Ότι οραματιζόταν μια δημοκρατία για όλους τους λαούς των Βαλκανίων με ίσα δικαιώματα",
+     "why": "μια δημοκρατία για όλους τους λαούς των Βαλκανίων, χριστιανούς και μουσουλμάνους, με ίσα δικαιώματα"
+    },
+    {
+     "q": "Τι έκαναν οι αυστριακές αρχές μετά τη σύλληψή του;",
+     "options": [
+      "Τον άφησαν ελεύθερο",
+      "Τον παρέδωσαν στους Οθωμανούς",
+      "Τον δίκασαν στη Βιέννη",
+      "Τον έστειλαν εξορία στη Ρωσία"
+     ],
+     "answer": "Τον παρέδωσαν στους Οθωμανούς",
+     "why": "τον παρέδωσαν, μαζί με επτά συντρόφους του, στους Οθωμανούς"
+    },
+    {
+     "q": "Ποια «ειρωνεία» επισημαίνει ο ιστορικός;",
+     "options": [
+      "Ότι ο θάνατός του έκανε τη φωνή του πιο δυνατή",
+      "Ότι ο Ρήγας έγινε Αυστριακός πολίτης",
+      "Ότι κανείς δεν διάβασε τα έργα του",
+      "Ότι ο «Θούριος» απαγορεύτηκε στην Ελλάδα"
+     ],
+     "answer": "Ότι ο θάνατός του έκανε τη φωνή του πιο δυνατή",
+     "why": "οι αρχές που ήθελαν να σβήσουν τη φωνή του την έκαναν, με τον θάνατό του, ακόμη πιο δυνατή"
+    }
+   ],
+   "gloss": {
+    "προσωνύμιο": "προσωνύμιο — epithet, byname",
+    "υπέγραφε": "υπογράφω — to sign",
+    "υπηρέτησε": "υπηρετώ — to serve",
+    "ηγεμόνων": "ηγεμόνας — prince, ruler",
+    "Διαφωτισμού": "Διαφωτισμός — the Enlightenment",
+    "τύπωσε": "τυπώνω — to print",
+    "πρωτοποριακό": "πρωτοποριακός — pioneering",
+    "οραματιζόταν": "οραματίζομαι — to envision",
+    "συνελήφθη": "συλλαμβάνομαι — to be arrested",
+    "στραγγαλίστηκαν": "στραγγαλίζομαι — to be strangled",
+    "ειρωνεία": "ειρωνεία — irony"
+   }
+  },
+  {
+   "id": "l26-int-trofima",
+   "title": "Τα τρόφιμα του μέλλοντος",
+   "title_en": "The food of the future",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με έναν επιστήμονα τροφίμων για τις νέες πηγές πρωτεΐνης.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ακούμε όλο και συχνότερα για έντομα στο πιάτο και για κρέας από το εργαστήριο. Γιατί ψάχνουμε νέες πηγές πρωτεΐνης;",
+     "en": "We hear more and more often about insects on our plates and meat from the lab. Why are we looking for new sources of protein?"
+    },
+    {
+     "speaker": "Επιστήμονας",
+     "voice": "m",
+     "el": "Επειδή η κτηνοτροφία, όπως την ασκούμε σήμερα, έχει τεράστιο περιβαλλοντικό αποτύπωμα: χρειάζεται τεράστιες εκτάσεις γης, πολύ νερό και ευθύνεται για ένα σημαντικό μέρος των εκπομπών αερίων του θερμοκηπίου. Αν ο πληθυσμός της γης συνεχίσει να αυξάνεται και να καταναλώνει κρέας με τους σημερινούς ρυθμούς, το σύστημα απλώς δεν θα αντέξει.",
+     "en": "Because livestock farming, as we practise it today, has a huge environmental footprint: it needs vast areas of land and a lot of water, and it is responsible for a significant share of greenhouse gas emissions. If the world's population keeps growing and eating meat at today's rates, the system simply won't cope."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και τα έντομα είναι η λύση;",
+     "en": "And are insects the solution?"
+    },
+    {
+     "speaker": "Επιστήμονας",
+     "voice": "m",
+     "el": "Είναι μία από τις λύσεις. Τα έντομα μετατρέπουν την τροφή τους σε πρωτεΐνη πολύ πιο αποδοτικά από τα ζώα εκτροφής, και στην Ευρωπαϊκή Ένωση ορισμένα είδη έχουν ήδη εγκριθεί ως τρόφιμα, συνήθως σε μορφή αλευριού. Το εμπόδιο δεν είναι επιστημονικό αλλά πολιτισμικό: η αποστροφή που νιώθουμε. Ας μην ξεχνάμε όμως ότι και τα θαλασσινά κάποτε θεωρούνταν φαγητό της ανάγκης.",
+     "en": "It's one of the solutions. Insects convert their food into protein far more efficiently than farm animals, and in the European Union some species have already been approved as food, usually in the form of flour. The obstacle isn't scientific but cultural: the disgust we feel. Let's not forget, though, that seafood too was once considered food of necessity."
+    },
+    {
+     "speaker": "Επιστήμονας",
+     "voice": "m",
+     "el": "Όσο για το κρέας από καλλιεργημένα κύτταρα, η τεχνολογία υπάρχει, αλλά το κόστος παραμένει υψηλό, και οι κυβερνήσεις αντιδρούν διαφορετικά: η Σιγκαπούρη το ενέκρινε πρώτη, ενώ η Ιταλία το απαγόρευσε. Προσωπικά πιστεύω ότι το μέλλον δεν θα ανήκει σε ένα μόνο τρόφιμο, αλλά σε μια πιο ισορροπημένη διατροφή, με περισσότερα φυτά και λιγότερο, αλλά καλύτερο, κρέας.",
+     "en": "As for meat from cultivated cells, the technology exists, but the cost remains high, and governments react differently: Singapore approved it first, while Italy banned it. Personally I believe the future won't belong to a single food, but to a more balanced diet, with more plants and less, but better, meat."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί, σύμφωνα με τον επιστήμονα, χρειαζόμαστε νέες πηγές πρωτεΐνης;",
+     "options": [
+      "Γιατί η σημερινή κτηνοτροφία έχει τεράστιο περιβαλλοντικό αποτύπωμα",
+      "Γιατί τα ζώα εκτροφής εξαφανίζονται",
+      "Γιατί οι νέοι δεν τρώνε κρέας",
+      "Γιατί το κρέας είναι ανθυγιεινό"
+     ],
+     "answer": "Γιατί η σημερινή κτηνοτροφία έχει τεράστιο περιβαλλοντικό αποτύπωμα",
+     "why": "η κτηνοτροφία, όπως την ασκούμε σήμερα, έχει τεράστιο περιβαλλοντικό αποτύπωμα"
+    },
+    {
+     "q": "Ποιο είναι το κύριο εμπόδιο για τα έντομα ως τροφή;",
+     "options": [
+      "Η υψηλή τιμή",
+      "Η πολιτισμική αποστροφή",
+      "Η απαγόρευση στην Ευρώπη",
+      "Η έλλειψη επιστημονικών στοιχείων"
+     ],
+     "answer": "Η πολιτισμική αποστροφή",
+     "why": "Το εμπόδιο δεν είναι επιστημονικό αλλά πολιτισμικό"
+    },
+    {
+     "q": "Γιατί αναφέρει τα θαλασσινά;",
+     "options": [
+      "Για να δείξει ότι οι διατροφικές συνήθειες αλλάζουν με τον καιρό",
+      "Γιατί είναι πιο ακριβά από το κρέας",
+      "Γιατί περιέχουν έντομα",
+      "Για να δείξει ότι και αυτά είναι επικίνδυνα"
+     ],
+     "answer": "Για να δείξει ότι οι διατροφικές συνήθειες αλλάζουν με τον καιρό",
+     "why": "και τα θαλασσινά κάποτε θεωρούνταν φαγητό της ανάγκης"
+    },
+    {
+     "q": "Ποια είναι η προσωπική του άποψη για το μέλλον;",
+     "options": [
+      "Ότι θα επικρατήσει μια πιο ισορροπημένη διατροφή με περισσότερα φυτά",
+      "Ότι τίποτα δεν θα αλλάξει",
+      "Ότι το εργαστηριακό κρέας θα αντικαταστήσει το κανονικό",
+      "Ότι θα τρώμε μόνο έντομα"
+     ],
+     "answer": "Ότι θα επικρατήσει μια πιο ισορροπημένη διατροφή με περισσότερα φυτά",
+     "why": "σε μια πιο ισορροπημένη διατροφή, με περισσότερα φυτά και λιγότερο, αλλά καλύτερο, κρέας"
+    }
+   ],
+   "gloss": {
+    "πρωτεΐνης": "πρωτεΐνη — protein",
+    "έντομα": "έντομο — insect",
+    "κτηνοτροφία": "κτηνοτροφία — livestock farming",
+    "αποτύπωμα": "αποτύπωμα — footprint",
+    "εκτάσεις": "έκταση — area, expanse",
+    "εκπομπών": "εκπομπή — emission",
+    "θερμοκηπίου": "θερμοκήπιο — greenhouse",
+    "αποδοτικά": "αποδοτικά — efficiently",
+    "εκτροφής": "εκτροφή — rearing, farming",
+    "αποστροφή": "αποστροφή — aversion, disgust",
+    "κύτταρα": "κύτταρο — cell",
+    "ισορροπημένη": "ισορροπημένος — balanced"
+   }
+  }
+ ]
+}
