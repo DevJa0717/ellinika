@@ -1,0 +1,795 @@
+{
+ "items": [
+  {
+   "id": "l68-ann-proastiakos",
+   "title": "Αλλαγή αποβάθρας στον Προαστιακό",
+   "title_en": "Platform change on the suburban railway",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Περιμένετε τον Προαστιακό σε έναν σταθμό της Αθήνας. Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Προσοχή, παρακαλώ. Ο συρμός των δέκα και είκοσι προς το αεροδρόμιο δεν θα αναχωρήσει από την αποβάθρα δύο, όπως αναγράφεται στους πίνακες, αλλά από την αποβάθρα τέσσερα. Οι επιβάτες παρακαλούνται να χρησιμοποιήσουν την υπόγεια διάβαση.",
+     "en": "Attention, please. The ten-twenty train to the airport will not depart from platform two, as shown on the boards, but from platform four. Passengers are asked to use the underpass."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Λόγω εργασιών στη γραμμή, ο συρμός θα έχει καθυστέρηση περίπου δέκα λεπτών. Οι κυλιόμενες σκάλες προς την αποβάθρα τέσσερα δεν λειτουργούν· επιβάτες με αμαξίδια ή βαριές αποσκευές μπορούν να χρησιμοποιήσουν τον ανελκυστήρα στην άκρη του διαδρόμου.",
+     "en": "Because of works on the line, the train will be about ten minutes late. The escalators to platform four are not working; passengers with wheelchairs or heavy luggage can use the lift at the end of the corridor."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Υπενθυμίζουμε ότι το εισιτήριο για το αεροδρόμιο πρέπει να επικυρωθεί πριν από την επιβίβαση. Ζητούμε συγγνώμη για την ταλαιπωρία.",
+     "en": "We remind you that the airport ticket must be validated before boarding. We apologise for the inconvenience."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από ποια αποβάθρα θα αναχωρήσει τελικά ο συρμός;",
+     "options": [
+      "Από την αποβάθρα τέσσερα",
+      "Από την αποβάθρα δύο",
+      "Από την αποβάθρα ένα",
+      "Δεν έχει αποφασιστεί ακόμη"
+     ],
+     "answer": "Από την αποβάθρα τέσσερα",
+     "why": "από την αποβάθρα τέσσερα"
+    },
+    {
+     "q": "Γιατί θα έχει καθυστέρηση ο συρμός;",
+     "options": [
+      "Λόγω απεργίας",
+      "Λόγω εργασιών στη γραμμή",
+      "Λόγω κακοκαιρίας",
+      "Λόγω βλάβης στον συρμό"
+     ],
+     "answer": "Λόγω εργασιών στη γραμμή",
+     "why": "Λόγω εργασιών στη γραμμή"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν όσοι έχουν βαριές αποσκευές;",
+     "options": [
+      "Να χρησιμοποιήσουν τον ανελκυστήρα",
+      "Να περιμένουν τον επόμενο συρμό",
+      "Να πάνε στην αποβάθρα δύο",
+      "Να ζητήσουν βοήθεια από το προσωπικό"
+     ],
+     "answer": "Να χρησιμοποιήσουν τον ανελκυστήρα",
+     "why": "μπορούν να χρησιμοποιήσουν τον ανελκυστήρα"
+    }
+   ],
+   "gloss": {
+    "συρμός": "συρμός — train",
+    "αποβάθρα": "αποβάθρα — platform",
+    "αναγράφεται": "αναγράφομαι — to be shown, written",
+    "υπόγεια διάβαση": "υπόγεια διάβαση — underpass",
+    "κυλιόμενες σκάλες": "κυλιόμενη σκάλα — escalator",
+    "αμαξίδια": "αμαξίδιο — wheelchair",
+    "ανελκυστήρα": "ανελκυστήρας — lift, elevator",
+    "επικυρωθεί": "επικυρώνομαι — to be validated",
+    "επιβίβαση": "επιβίβαση — boarding"
+   }
+  },
+  {
+   "id": "l68-vm-nero-pigadiou",
+   "title": "Τα αποτελέσματα για το νερό του πηγαδιού",
+   "title_en": "The results for the well water",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Στείλατε ένα δείγμα από το νερό του πηγαδιού στο εξοχικό σας για ανάλυση. Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Χημικός",
+     "voice": "m",
+     "el": "Καλησπέρα σας, από το χημείο «Ανάλυσις» σας παίρνω, για το δείγμα νερού που μας φέρατε την Τρίτη. Βγήκαν τα αποτελέσματα. Μικρόβια δεν βρήκαμε, αλλά τα νιτρικά είναι πάνω από το επιτρεπτό όριο για πόσιμο νερό.",
+     "en": "Good evening, I'm calling from the Analysis laboratory about the water sample you brought us on Tuesday. The results are out. We didn't find any bacteria, but the nitrates are above the permitted limit for drinking water."
+    },
+    {
+     "speaker": "Χημικός",
+     "voice": "m",
+     "el": "Αυτό συμβαίνει συχνά σε περιοχές με καλλιέργειες, λόγω των λιπασμάτων. Σας συμβουλεύω να μην το πίνετε και να μη μαγειρεύετε με αυτό. Για πότισμα, όμως, και για το πλύσιμο της αυλής μπορείτε να το χρησιμοποιείτε κανονικά.",
+     "en": "This often happens in areas with crops, because of fertilisers. I advise you not to drink it or cook with it. For watering, though, and for washing the yard you can use it as normal."
+    },
+    {
+     "speaker": "Χημικός",
+     "voice": "m",
+     "el": "Αν θέλετε, μπορούμε να σας προτείνουμε ένα σύστημα φιλτραρίσματος. Τη γραπτή έκθεση θα σας τη στείλουμε με ηλεκτρονικό ταχυδρομείο μέχρι την Παρασκευή. Καλή συνέχεια.",
+     "en": "If you like, we can suggest a filtering system. We will send you the written report by email by Friday. Have a good evening."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πρόβλημα βρέθηκε στο νερό;",
+     "options": [
+      "Μικρόβια",
+      "Πολύ αλάτι",
+      "Νιτρικά πάνω από το επιτρεπτό όριο",
+      "Σκουριά"
+     ],
+     "answer": "Νιτρικά πάνω από το επιτρεπτό όριο",
+     "why": "τα νιτρικά είναι πάνω από το επιτρεπτό όριο"
+    },
+    {
+     "q": "Πού οφείλεται συνήθως το πρόβλημα αυτό;",
+     "options": [
+      "Στην ξηρασία",
+      "Στα λιπάσματα των καλλιεργειών",
+      "Στη θάλασσα",
+      "Στους παλιούς σωλήνες"
+     ],
+     "answer": "Στα λιπάσματα των καλλιεργειών",
+     "why": "λόγω των λιπασμάτων"
+    },
+    {
+     "q": "Για τι μπορεί να χρησιμοποιηθεί το νερό;",
+     "options": [
+      "Για τον καφέ",
+      "Για πότισμα",
+      "Για πόσιμο",
+      "Για μαγείρεμα"
+     ],
+     "answer": "Για πότισμα",
+     "why": "Για πότισμα"
+    }
+   ],
+   "gloss": {
+    "πηγαδιού": "πηγάδι — well",
+    "δείγμα": "δείγμα — sample",
+    "χημείο": "χημείο — (chemical) laboratory",
+    "Μικρόβια": "μικρόβιο — germ, bacterium",
+    "νιτρικά": "νιτρικά — nitrates",
+    "επιτρεπτό όριο": "επιτρεπτό όριο — permitted limit",
+    "πόσιμο": "πόσιμος — drinkable",
+    "λιπασμάτων": "λίπασμα — fertiliser",
+    "πότισμα": "πότισμα — watering",
+    "φιλτραρίσματος": "φιλτράρισμα — filtering",
+    "έκθεση": "έκθεση — report"
+   }
+  },
+  {
+   "id": "l68-dia-vapsimo-saloniou",
+   "title": "Τι χρώμα θα βάψουμε το σαλόνι;",
+   "title_en": "What colour shall we paint the living room?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ένα ζευγάρι συζητά πώς θα βάψει το σαλόνι του.",
+   "script": [
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Λοιπόν, πήρα δείγματα από το χρωματοπωλείο. Εμένα μου αρέσει πολύ αυτό το σκούρο πράσινο. Θα δώσει χαρακτήρα στο σαλόνι.",
+     "en": "So, I got samples from the paint shop. I really like this dark green. It will give the living room character."
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Είναι ωραίο, αλλά το σαλόνι μας βλέπει βόρεια και έχει λίγο φως. Με σκούρο χρώμα θα μοιάζει με σπηλιά. Τι λες για το σκούρο πράσινο μόνο στον τοίχο πίσω από τον καναπέ, και τους άλλους τρεις σε ένα ζεστό λευκό;",
+     "en": "It's nice, but our living room faces north and gets little light. With a dark colour it will look like a cave. What about the dark green only on the wall behind the sofa, and the other three in a warm white?"
+    },
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Ναι, αυτό μου αρέσει. Και να το κάνουμε μόνοι μας. Ο μάστορας ζήτησε τετρακόσια ευρώ. Με αυτά τα λεφτά παίρνουμε και καινούργιες κουρτίνες.",
+     "en": "Yes, I like that. And let's do it ourselves. The decorator asked for four hundred euros. With that money we can buy new curtains too."
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Εντάξει, αλλά πρώτα πρέπει να στοκάρουμε τις ρωγμές πάνω από την πόρτα. Το Σάββατο σκεπάζουμε τα έπιπλα με νάιλον και ξεκινάμε.",
+     "en": "Fine, but first we need to fill the cracks above the door. On Saturday we cover the furniture with plastic sheeting and get started."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο Στέλιος δεν θέλει όλο το σαλόνι σκούρο πράσινο;",
+     "options": [
+      "Γιατί η μπογιά είναι ακριβή",
+      "Γιατί δεν ταιριάζει με τον καναπέ",
+      "Γιατί το σαλόνι έχει λίγο φως",
+      "Γιατί δεν του αρέσει το πράσινο"
+     ],
+     "answer": "Γιατί το σαλόνι έχει λίγο φως",
+     "why": "έχει λίγο φως"
+    },
+    {
+     "q": "Τι αποφασίζουν τελικά για τα χρώματα;",
+     "options": [
+      "Όλους τους τοίχους πράσινους",
+      "Να ρωτήσουν τον μάστορα",
+      "Έναν τοίχο πράσινο και τους άλλους λευκούς",
+      "Όλους τους τοίχους λευκούς"
+     ],
+     "answer": "Έναν τοίχο πράσινο και τους άλλους λευκούς",
+     "why": "τους άλλους τρεις σε ένα ζεστό λευκό"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν πριν βάψουν;",
+     "options": [
+      "Να καλέσουν τον μάστορα",
+      "Να μετακινήσουν τον καναπέ",
+      "Να αγοράσουν κουρτίνες",
+      "Να στοκάρουν τις ρωγμές"
+     ],
+     "answer": "Να στοκάρουν τις ρωγμές",
+     "why": "πρέπει να στοκάρουμε τις ρωγμές"
+    }
+   ],
+   "gloss": {
+    "χρωματοπωλείο": "χρωματοπωλείο — paint shop",
+    "βλέπει βόρεια": "βλέπω βόρεια — to face north",
+    "σπηλιά": "σπηλιά — cave",
+    "μάστορας": "μάστορας — tradesman, decorator",
+    "στοκάρουμε": "στοκάρω — to fill (with filler)",
+    "ρωγμές": "ρωγμή — crack",
+    "σκεπάζουμε": "σκεπάζω — to cover",
+    "νάιλον": "νάιλον — plastic sheeting"
+   }
+  },
+  {
+   "id": "l68-dia-taxidi-gavdo",
+   "title": "Πώς θα πάμε στη Γαύδο;",
+   "title_en": "How shall we get to Gavdos?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Δύο φίλοι οργανώνουν διακοπές στη Γαύδο, νότια της Κρήτης.",
+   "script": [
+    {
+     "speaker": "Φώτης",
+     "voice": "m",
+     "el": "Κοίταξα τα δρομολόγια. Το καράβι για τη Γαύδο φεύγει από τη Χώρα Σφακίων, αλλά τον Ιούνιο δεν έχει κάθε μέρα. Αν φυσάει πολύ, ακυρώνεται κιόλας.",
+     "en": "I looked at the timetables. The boat to Gavdos leaves from Chora Sfakion, but in June it doesn't go every day. If it's very windy, it's even cancelled."
+    },
+    {
+     "speaker": "Μυρτώ",
+     "voice": "f",
+     "el": "Τότε ας μην κλείσουμε πτήση επιστροφής την ίδια μέρα που φεύγουμε από το νησί. Αν κολλήσουμε εκεί, θα χάσουμε το αεροπλάνο. Καλύτερα να μείνουμε ένα βράδυ στα Χανιά πριν πετάξουμε.",
+     "en": "Then let's not book a return flight on the same day we leave the island. If we get stuck there, we'll miss the plane. Better to stay a night in Chania before we fly."
+    },
+    {
+     "speaker": "Φώτης",
+     "voice": "m",
+     "el": "Σωστό. Και να πάρουμε μετρητά. Μου είπαν ότι στο νησί δεν υπάρχει ΑΤΜ και πολλά μαγαζιά δεν δέχονται κάρτες.",
+     "en": "Right. And let's take cash. I was told there's no cash machine on the island and many shops don't accept cards."
+    },
+    {
+     "speaker": "Μυρτώ",
+     "voice": "f",
+     "el": "Και φακό! Το βράδυ στις παραλίες δεν έχει καθόλου φωτισμό. Γι’ αυτό, λένε, ο έναστρος ουρανός είναι απίστευτος.",
+     "en": "And a torch! At night there's no lighting at all on the beaches. That's why, they say, the starry sky is incredible."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ισχύει για το καράβι προς τη Γαύδο τον Ιούνιο;",
+     "options": [
+      "Φεύγει τρεις φορές τη μέρα",
+      "Φεύγει από τα Χανιά",
+      "Δεν φεύγει κάθε μέρα και μπορεί να ακυρωθεί λόγω αέρα",
+      "Δεν υπάρχει καράβι τον Ιούνιο"
+     ],
+     "answer": "Δεν φεύγει κάθε μέρα και μπορεί να ακυρωθεί λόγω αέρα",
+     "why": "τον Ιούνιο δεν έχει κάθε μέρα. Αν φυσάει πολύ, ακυρώνεται κιόλας"
+    },
+    {
+     "q": "Γιατί η Μυρτώ θέλει να μείνουν ένα βράδυ στα Χανιά;",
+     "options": [
+      "Για να πάρουν μετρητά",
+      "Για να δουν την πόλη",
+      "Γιατί το ξενοδοχείο είναι φθηνότερο",
+      "Για να μη χάσουν την πτήση, αν κολλήσουν στο νησί"
+     ],
+     "answer": "Για να μη χάσουν την πτήση, αν κολλήσουν στο νησί",
+     "why": "Αν κολλήσουμε εκεί, θα χάσουμε το αεροπλάνο"
+    },
+    {
+     "q": "Γιατί πρέπει να πάρουν μετρητά;",
+     "options": [
+      "Γιατί στο νησί δεν υπάρχει ΑΤΜ",
+      "Γιατί έχασαν τις κάρτες τους",
+      "Γιατί είναι φθηνότερα",
+      "Γιατί το καράβι δέχεται μόνο μετρητά"
+     ],
+     "answer": "Γιατί στο νησί δεν υπάρχει ΑΤΜ",
+     "why": "στο νησί δεν υπάρχει ΑΤΜ"
+    }
+   ],
+   "gloss": {
+    "δρομολόγια": "δρομολόγιο — timetable, route",
+    "ακυρώνεται": "ακυρώνομαι — to be cancelled",
+    "κολλήσουμε": "κολλάω — to get stuck",
+    "μετρητά": "μετρητά — cash",
+    "φακό": "φακός — torch, flashlight",
+    "φωτισμό": "φωτισμός — lighting",
+    "έναστρος": "έναστρος — starry"
+   }
+  },
+  {
+   "id": "l68-int-archeionomos",
+   "title": "Μια αρχειονόμος",
+   "title_en": "An archivist",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια αρχειονόμο που εργάζεται στα Γενικά Αρχεία του Κράτους.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι ακριβώς κάνει ένας αρχειονόμος;",
+     "en": "What exactly does an archivist do?"
+    },
+    {
+     "speaker": "Αρχειονόμος",
+     "voice": "f",
+     "el": "Φροντίζουμε έγγραφα που έχουν ιστορική αξία: τα ταξινομούμε, τα συντηρούμε και τα κάνουμε διαθέσιμα στο κοινό. Τα τελευταία χρόνια ψηφιοποιούμε πολλά από αυτά, γιατί το χαρτί είναι εύθραυστο και κάθε φορά που κάποιος το πιάνει, φθείρεται λίγο.",
+     "en": "We look after documents of historical value: we classify them, conserve them and make them available to the public. In recent years we've been digitising many of them, because paper is fragile and every time someone handles it, it wears a little."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιοι έρχονται στα Αρχεία;",
+     "en": "Who comes to the Archives?"
+    },
+    {
+     "speaker": "Αρχειονόμος",
+     "voice": "f",
+     "el": "Ιστορικοί και φοιτητές, φυσικά. Όμως όλο και περισσότεροι είναι απλοί πολίτες που ψάχνουν την ιστορία της οικογένειάς τους: ένα μητρώο του στρατού με το όνομα του προπάππου τους, ένα συμβόλαιο για το πατρικό σπίτι. Κάποιοι συγκινούνται τόσο, που κλαίνε μπροστά μου.",
+     "en": "Historians and students, of course. But more and more are ordinary citizens looking into their family history: an army register with their great-grandfather's name, a contract for the family home. Some are so moved that they cry in front of me."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ψηφιοποιούν τα έγγραφα;",
+     "options": [
+      "Γιατί το ζήτησε η κυβέρνηση",
+      "Γιατί δεν έχουν χώρο",
+      "Για να τα πουλήσουν",
+      "Γιατί το χαρτί είναι εύθραυστο και φθείρεται"
+     ],
+     "answer": "Γιατί το χαρτί είναι εύθραυστο και φθείρεται",
+     "why": "γιατί το χαρτί είναι εύθραυστο"
+    },
+    {
+     "q": "Ποιοι έρχονται όλο και συχνότερα στα Αρχεία;",
+     "options": [
+      "Τουρίστες",
+      "Απλοί πολίτες που ψάχνουν την ιστορία της οικογένειάς τους",
+      "Δημοσιογράφοι",
+      "Δικηγόροι"
+     ],
+     "answer": "Απλοί πολίτες που ψάχνουν την ιστορία της οικογένειάς τους",
+     "why": "απλοί πολίτες που ψάχνουν την ιστορία της οικογένειάς τους"
+    },
+    {
+     "q": "Τι συμβαίνει μερικές φορές με τους επισκέπτες;",
+     "options": [
+      "Φεύγουν απογοητευμένοι",
+      "Συγκινούνται και κλαίνε",
+      "Χάνουν τα έγγραφα",
+      "Θυμώνουν"
+     ],
+     "answer": "Συγκινούνται και κλαίνε",
+     "why": "Κάποιοι συγκινούνται τόσο, που κλαίνε μπροστά μου"
+    }
+   ],
+   "gloss": {
+    "αρχειονόμος": "αρχειονόμος — archivist",
+    "έγγραφα": "έγγραφο — document",
+    "ταξινομούμε": "ταξινομώ — to classify, sort",
+    "συντηρούμε": "συντηρώ — to conserve, maintain",
+    "ψηφιοποιούμε": "ψηφιοποιώ — to digitise",
+    "εύθραυστο": "εύθραυστος — fragile",
+    "φθείρεται": "φθείρομαι — to wear, deteriorate",
+    "μητρώο": "μητρώο — register",
+    "προπάππου": "προπάππους — great-grandfather",
+    "συμβόλαιο": "συμβόλαιο — contract"
+   }
+  },
+  {
+   "id": "l68-rep-elia-vouvon",
+   "title": "Η ελιά των Βουβών",
+   "title_en": "The olive tree of Vouves",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ραδιοφωνικό ρεπορτάζ από ένα χωριό των Χανίων στην Κρήτη.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Βρίσκομαι στις Άνω Βούβες, ένα μικρό χωριό κοντά στα Χανιά, μπροστά σε μια ελιά που θεωρείται από τις αρχαιότερες στον κόσμο. Οι επιστήμονες δεν συμφωνούν για την ακριβή ηλικία της· οι εκτιμήσεις φτάνουν τις τρεις χιλιάδες χρόνια και ακόμη περισσότερο.",
+     "en": "I'm in Ano Vouves, a small village near Chania, in front of an olive tree that is considered one of the oldest in the world. Scientists don't agree on its exact age; estimates reach three thousand years and even more."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Ο κορμός της είναι τόσο φαρδύς, που χρειάζονται αρκετοί άνθρωποι πιασμένοι χέρι χέρι για να τον αγκαλιάσουν. Κι όμως, το δέντρο δίνει ακόμη ελιές. Το 1997 ανακηρύχθηκε διατηρητέο μνημείο της φύσης.",
+     "en": "Its trunk is so wide that it takes several people holding hands to encircle it. And yet the tree still bears olives. In 1997 it was declared a protected natural monument."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Το 2004, κλαδιά από αυτή την ελιά χρησιμοποιήθηκαν για τα στεφάνια των νικητών του μαραθωνίου στους Ολυμπιακούς Αγώνες της Αθήνας. Δίπλα στο δέντρο λειτουργεί σήμερα ένα μικρό μουσείο της ελιάς, που δέχεται χιλιάδες επισκέπτες κάθε χρόνο.",
+     "en": "In 2004, branches from this olive tree were used for the wreaths of the marathon winners at the Athens Olympic Games. Next to the tree there is now a small olive museum, which receives thousands of visitors every year."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ισχύει για την ηλικία της ελιάς;",
+     "options": [
+      "Είναι ακριβώς δύο χιλιάδων ετών",
+      "Φυτεύτηκε τον 19ο αιώνα",
+      "Οι επιστήμονες δεν συμφωνούν για την ακριβή ηλικία της",
+      "Είναι η αρχαιότερη ελιά της Ευρώπης σίγουρα"
+     ],
+     "answer": "Οι επιστήμονες δεν συμφωνούν για την ακριβή ηλικία της",
+     "why": "Οι επιστήμονες δεν συμφωνούν για την ακριβή ηλικία της"
+    },
+    {
+     "q": "Τι ισχύει για το δέντρο σήμερα;",
+     "options": [
+      "Κόπηκε μετά το 2004",
+      "Δίνει ακόμη ελιές",
+      "Μεταφέρθηκε σε μουσείο",
+      "Έχει ξεραθεί"
+     ],
+     "answer": "Δίνει ακόμη ελιές",
+     "why": "το δέντρο δίνει ακόμη ελιές"
+    },
+    {
+     "q": "Για τι χρησιμοποιήθηκαν κλαδιά του το 2004;",
+     "options": [
+      "Για τα στεφάνια των νικητών του μαραθωνίου",
+      "Για τη διακόσμηση του σταδίου",
+      "Για τη φλόγα των Αγώνων",
+      "Για ένα γραμματόσημο"
+     ],
+     "answer": "Για τα στεφάνια των νικητών του μαραθωνίου",
+     "why": "για τα στεφάνια των νικητών του μαραθωνίου"
+    }
+   ],
+   "gloss": {
+    "αρχαιότερες": "αρχαιότερος — oldest",
+    "εκτιμήσεις": "εκτίμηση — estimate",
+    "κορμός": "κορμός — trunk",
+    "φαρδύς": "φαρδύς — wide",
+    "αγκαλιάσουν": "αγκαλιάζω — to embrace, encircle",
+    "ανακηρύχθηκε": "ανακηρύσσομαι — to be declared",
+    "διατηρητέο μνημείο": "διατηρητέο μνημείο — protected monument",
+    "κλαδιά": "κλαδί — branch",
+    "στεφάνια": "στεφάνι — wreath"
+   }
+  },
+  {
+   "id": "l68-mono-scholikos-trochonomos",
+   "title": "Σχολικός τροχονόμος στα εβδομήντα",
+   "title_en": "A school crossing volunteer at seventy",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ένας συνταξιούχος μιλά για την εθελοντική του δουλειά ως σχολικός τροχονόμος έξω από ένα δημοτικό σχολείο.",
+   "script": [
+    {
+     "speaker": "Θανάσης",
+     "voice": "m",
+     "el": "Όταν βγήκα στη σύνταξη, τα πρώτα μου πρωινά ήταν άδεια. Ένας φίλος μού είπε ότι ο δήμος ζητούσε εθελοντές για να βοηθούν τα παιδιά να περνούν τον δρόμο έξω από τα σχολεία. Έκανα μια σύντομη εκπαίδευση, μου έδωσαν ένα πορτοκαλί γιλέκο και μια πινακίδα «Στοπ», και ξεκίνησα.",
+     "en": "When I retired, my first mornings were empty. A friend told me the municipality was looking for volunteers to help children cross the road outside schools. I did a short training course, they gave me an orange vest and a 'Stop' sign, and I started."
+    },
+    {
+     "speaker": "Θανάσης",
+     "voice": "m",
+     "el": "Κάθε πρωί από τις οχτώ παρά τέταρτο μέχρι τις οχτώ και τέταρτο στέκομαι στη διάβαση. Οι περισσότεροι οδηγοί σταματούν πρόθυμα, αλλά υπάρχουν και κάποιοι βιαστικοί που κορνάρουν. Δεν θυμώνω· τους χαμογελάω και περιμένω να περάσει και το τελευταίο παιδί.",
+     "en": "Every morning from a quarter to eight until a quarter past eight I stand at the crossing. Most drivers stop willingly, but there are also some people in a hurry who honk. I don't get angry; I smile at them and wait for the last child to cross."
+    },
+    {
+     "speaker": "Θανάσης",
+     "voice": "m",
+     "el": "Τα παιδιά με λένε «κύριο Στοπ». Τα Χριστούγεννα μού έφεραν μια κάρτα με εκατό υπογραφές. Την έχω κορνιζάρει. Δεν πληρώνομαι, αλλά δεν έχω κάνει πιο ικανοποιητική δουλειά στη ζωή μου.",
+     "en": "The children call me 'Mr Stop'. At Christmas they brought me a card with a hundred signatures. I've had it framed. I don't get paid, but I've never done a more satisfying job in my life."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ξεκίνησε ο Θανάσης αυτή τη δουλειά;",
+     "options": [
+      "Το εγγόνι του τον παρακάλεσε",
+      "Ήταν παλιός τροχονόμος",
+      "Ένας φίλος του είπε ότι ο δήμος ζητούσε εθελοντές",
+      "Τον προσέλαβε το σχολείο"
+     ],
+     "answer": "Ένας φίλος του είπε ότι ο δήμος ζητούσε εθελοντές",
+     "why": "Ένας φίλος μού είπε ότι ο δήμος ζητούσε εθελοντές"
+    },
+    {
+     "q": "Πώς αντιδρά στους οδηγούς που κορνάρουν;",
+     "options": [
+      "Καλεί την αστυνομία",
+      "Τους χαμογελάει και περιμένει",
+      "Τους φωνάζει",
+      "Γράφει τον αριθμό τους"
+     ],
+     "answer": "Τους χαμογελάει και περιμένει",
+     "why": "τους χαμογελάω και περιμένω"
+    },
+    {
+     "q": "Τι του έφεραν τα παιδιά τα Χριστούγεννα;",
+     "options": [
+      "Ένα γιλέκο",
+      "Μια κάρτα με εκατό υπογραφές",
+      "Μια καινούργια πινακίδα",
+      "Ένα κουτί γλυκά"
+     ],
+     "answer": "Μια κάρτα με εκατό υπογραφές",
+     "why": "μια κάρτα με εκατό υπογραφές"
+    }
+   ],
+   "gloss": {
+    "τροχονόμος": "τροχονόμος — traffic warden",
+    "σύνταξη": "σύνταξη — pension, retirement",
+    "εθελοντές": "εθελοντής — volunteer",
+    "γιλέκο": "γιλέκο — vest",
+    "πινακίδα": "πινακίδα — sign",
+    "διάβαση": "διάβαση — (pedestrian) crossing",
+    "πρόθυμα": "πρόθυμα — willingly",
+    "κορνάρουν": "κορνάρω — to honk",
+    "κορνιζάρει": "κορνιζάρω — to frame",
+    "ικανοποιητική": "ικανοποιητικός — satisfying"
+   }
+  },
+  {
+   "id": "l68-mono-stathero-tilefono",
+   "title": "Γιατί κράτησα το σταθερό τηλέφωνο",
+   "title_en": "Why I kept my landline",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Μια γυναίκα εξηγεί γιατί δεν κατάργησε το σταθερό της τηλέφωνο.",
+   "script": [
+    {
+     "speaker": "Αλεξάνδρα",
+     "voice": "f",
+     "el": "Όλοι οι φίλοι μου έχουν καταργήσει το σταθερό. «Τι το θες;» με ρωτούν. «Πληρώνεις άδικα.» Κι όμως, εγώ το κράτησα, και δεν είναι από νοσταλγία.",
+     "en": "All my friends have got rid of their landlines. 'What do you need it for?' they ask me. 'You're paying for nothing.' And yet I kept it, and it's not out of nostalgia."
+    },
+    {
+     "speaker": "Αλεξάνδρα",
+     "voice": "f",
+     "el": "Πρώτα απ’ όλα, ο αριθμός είναι ο ίδιος εδώ και τριάντα χρόνια. Τον ξέρουν απέξω η μητέρα μου, οι θείες μου, ο γιατρός μου. Όταν έχασα το κινητό μου πέρσι, ήταν ο μόνος τρόπος να με βρουν. Επιπλέον, στο σπίτι το κινητό μου πιάνει άσχημα, ενώ με το σταθερό ακούω καθαρά.",
+     "en": "First of all, the number has been the same for thirty years. My mother, my aunts and my doctor know it by heart. When I lost my mobile last year, it was the only way they could reach me. Besides, my mobile gets poor reception at home, while on the landline I hear clearly."
+    },
+    {
+     "speaker": "Αλεξάνδρα",
+     "voice": "f",
+     "el": "Αλλά ο πιο σημαντικός λόγος είναι άλλος: όταν μιλάω στο σταθερό, κάθομαι στην πολυθρόνα και δεν κάνω τίποτε άλλο. Δεν κοιτάζω μηνύματα, δεν ανοίγω εφαρμογές. Απλώς ακούω. Οι φίλοι μου λένε ότι στο σταθερό είμαι πιο καλή ακροάτρια.",
+     "en": "But the most important reason is another: when I talk on the landline, I sit in the armchair and do nothing else. I don't look at messages, I don't open apps. I just listen. My friends say I'm a better listener on the landline."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λένε οι φίλοι της για το σταθερό;",
+     "options": [
+      "Ότι πληρώνει άδικα",
+      "Ότι είναι πιο φθηνό",
+      "Ότι είναι πιο ασφαλές",
+      "Ότι θέλουν κι αυτοί ένα"
+     ],
+     "answer": "Ότι πληρώνει άδικα",
+     "why": "Πληρώνεις άδικα"
+    },
+    {
+     "q": "Τι έγινε πέρσι;",
+     "options": [
+      "Έχασε το κινητό της",
+      "Μετακόμισε",
+      "Άλλαξε αριθμό",
+      "Χάλασε το σταθερό"
+     ],
+     "answer": "Έχασε το κινητό της",
+     "why": "Όταν έχασα το κινητό μου πέρσι"
+    },
+    {
+     "q": "Ποιος είναι ο πιο σημαντικός λόγος για την Αλεξάνδρα;",
+     "options": [
+      "Η νοσταλγία",
+      "Το χαμηλό κόστος",
+      "Ότι στο σταθερό συγκεντρώνεται και απλώς ακούει",
+      "Ότι η μητέρα της δεν έχει κινητό"
+     ],
+     "answer": "Ότι στο σταθερό συγκεντρώνεται και απλώς ακούει",
+     "why": "Απλώς ακούω"
+    }
+   ],
+   "gloss": {
+    "σταθερό": "σταθερό (τηλέφωνο) — landline",
+    "καταργήσει": "καταργώ — to abolish, get rid of",
+    "άδικα": "άδικα — for nothing, in vain",
+    "νοσταλγία": "νοσταλγία — nostalgia",
+    "απέξω": "απέξω — by heart",
+    "πιάνει άσχημα": "πιάνω άσχημα — to get poor reception",
+    "πολυθρόνα": "πολυθρόνα — armchair",
+    "ακροάτρια": "ακροάτρια — listener (f.)"
+   }
+  },
+  {
+   "id": "l68-c1-thermikes-nisides",
+   "title": "Οι πόλεις που ψήνονται",
+   "title_en": "Cities that bake",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια πολεοδόμο για το φαινόμενο της θερμικής νησίδας στις πόλεις.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι είναι αυτό που οι επιστήμονες ονομάζουν «αστική θερμική νησίδα»;",
+     "en": "What is it that scientists call an 'urban heat island'?"
+    },
+    {
+     "speaker": "Πολεοδόμος",
+     "voice": "f",
+     "el": "Είναι το φαινόμενο κατά το οποίο το κέντρο μιας πόλης είναι αισθητά θερμότερο από τις γύρω περιοχές, κυρίως τη νύχτα. Η άσφαλτος και το σκυρόδεμα απορροφούν τη θερμότητα όλη μέρα και την αποδίδουν σιγά σιγά μετά τη δύση του ηλίου. Προσθέστε τα κλιματιστικά, που αποβάλλουν ζεστό αέρα στον δρόμο, και την έλλειψη πρασίνου, και έχετε μια πόλη που δεν δροσίζει ποτέ.",
+     "en": "It's the phenomenon whereby the centre of a city is noticeably hotter than the surrounding areas, mainly at night. Asphalt and concrete absorb heat all day and release it slowly after sunset. Add the air conditioners, which expel hot air into the street, and the lack of greenery, and you have a city that never cools down."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και ποιες είναι οι συνέπειες;",
+     "en": "And what are the consequences?"
+    },
+    {
+     "speaker": "Πολεοδόμος",
+     "voice": "f",
+     "el": "Οι νύχτες χωρίς δροσιά είναι επικίνδυνες, ιδίως για τους ηλικιωμένους, γιατί ο οργανισμός δεν προλαβαίνει να ανακάμψει. Γι’ αυτό η Αθήνα ήταν το 2021 η πρώτη ευρωπαϊκή πόλη που όρισε υπεύθυνη για τη διαχείριση του καύσωνα. Οι λύσεις υπάρχουν: δέντρα, που σκιάζουν και δροσίζουν με την εξάτμιση, πράσινες ταράτσες, ανοιχτόχρωμα υλικά που αντανακλούν το φως αντί να το απορροφούν. Το δύσκολο δεν είναι η τεχνολογία, αλλά η βούληση και ο χρόνος, γιατί ένα δέντρο θέλει χρόνια για να μεγαλώσει.",
+     "en": "Nights without cool air are dangerous, especially for the elderly, because the body doesn't have time to recover. That's why in 2021 Athens became the first European city to appoint an officer responsible for managing heatwaves. The solutions exist: trees, which give shade and cool through evaporation, green roofs, light-coloured materials that reflect light instead of absorbing it. The hard part isn't the technology but the will and the time, because a tree takes years to grow."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε είναι πιο έντονη η διαφορά θερμοκρασίας;",
+     "options": [
+      "Το μεσημέρι",
+      "Κυρίως τη νύχτα",
+      "Τον χειμώνα",
+      "Το πρωί"
+     ],
+     "answer": "Κυρίως τη νύχτα",
+     "why": "κυρίως τη νύχτα"
+    },
+    {
+     "q": "Τι κάνουν η άσφαλτος και το σκυρόδεμα;",
+     "options": [
+      "Απορροφούν τη θερμότητα και την αποδίδουν μετά τη δύση του ηλίου",
+      "Δροσίζουν τον αέρα",
+      "Εμποδίζουν τον αέρα",
+      "Αντανακλούν τη θερμότητα"
+     ],
+     "answer": "Απορροφούν τη θερμότητα και την αποδίδουν μετά τη δύση του ηλίου",
+     "why": "απορροφούν τη θερμότητα όλη μέρα και την αποδίδουν σιγά σιγά μετά τη δύση του ηλίου"
+    },
+    {
+     "q": "Τι έκανε η Αθήνα το 2021;",
+     "options": [
+      "Όρισε υπεύθυνη για τη διαχείριση του καύσωνα",
+      "Απαγόρευσε τα κλιματιστικά",
+      "Φύτεψε ένα εκατομμύριο δέντρα",
+      "Έβαψε όλους τους δρόμους λευκούς"
+     ],
+     "answer": "Όρισε υπεύθυνη για τη διαχείριση του καύσωνα",
+     "why": "όρισε υπεύθυνη για τη διαχείριση του καύσωνα"
+    },
+    {
+     "q": "Ποιο είναι, κατά την πολεοδόμο, το δυσκολότερο;",
+     "options": [
+      "Η τεχνολογία",
+      "Η βούληση και ο χρόνος",
+      "Η αντίδραση των κατοίκων",
+      "Το κόστος των υλικών"
+     ],
+     "answer": "Η βούληση και ο χρόνος",
+     "why": "Το δύσκολο δεν είναι η τεχνολογία, αλλά η βούληση και ο χρόνος"
+    }
+   ],
+   "gloss": {
+    "πολεοδόμο": "πολεοδόμος — urban planner",
+    "θερμικής νησίδας": "θερμική νησίδα — heat island",
+    "αισθητά": "αισθητά — noticeably",
+    "σκυρόδεμα": "σκυρόδεμα — concrete",
+    "αποδίδουν": "αποδίδω — to give back, release",
+    "αποβάλλουν": "αποβάλλω — to expel",
+    "ανακάμψει": "ανακάμπτω — to recover",
+    "καύσωνα": "καύσωνας — heatwave",
+    "εξάτμιση": "εξάτμιση — evaporation",
+    "αντανακλούν": "αντανακλώ — to reflect",
+    "βούληση": "βούληση — will"
+   }
+  },
+  {
+   "id": "l68-c1-glossiko-zitima",
+   "title": "Το γλωσσικό ζήτημα",
+   "title_en": "The Greek language question",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από διάλεξη γλωσσολόγου για τη διαμάχη ανάμεσα στην καθαρεύουσα και τη δημοτική.",
+   "script": [
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "m",
+     "el": "Για σχεδόν δύο αιώνες, οι Έλληνες διαφωνούσαν έντονα για το ποια μορφή της γλώσσας τους έπρεπε να γράφουν. Από τη μία πλευρά ήταν η καθαρεύουσα, μια λόγια γλώσσα που προσπαθούσε να πλησιάσει τα αρχαία ελληνικά· από την άλλη η δημοτική, η γλώσσα που μιλούσε ο λαός. Ήδη στις αρχές του 19ου αιώνα ο Αδαμάντιος Κοραής είχε προτείνει μια «μέση οδό»: να «διορθωθεί» η ομιλούμενη γλώσσα, χωρίς να επιβληθεί η αρχαία.",
+     "en": "For almost two centuries, Greeks argued fiercely about which form of their language they should write. On one side was katharevousa, a learned language that tried to come close to ancient Greek; on the other demotic, the language the people spoke. Already at the beginning of the 19th century Adamantios Korais had proposed a 'middle way': to 'correct' the spoken language without imposing the ancient one."
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "m",
+     "el": "Το 1888 ο Γιάννης Ψυχάρης δημοσίευσε «Το ταξίδι μου», ένα βιβλίο γραμμένο σε δημοτική, που έγινε το μανιφέστο του δημοτικισμού. Η διαμάχη όμως δεν έμεινε στα βιβλία. Το 1901 η μετάφραση των Ευαγγελίων στη δημοτική προκάλεσε αιματηρές ταραχές στην Αθήνα, τα λεγόμενα «Ευαγγελικά». Η γλώσσα είχε γίνει ζήτημα πολιτικό και ιδεολογικό.",
+     "en": "In 1888 Yannis Psycharis published 'My Journey', a book written in demotic which became the manifesto of demoticism. But the dispute did not stay in books. In 1901 the translation of the Gospels into demotic caused bloody riots in Athens, the so-called 'Gospel riots'. Language had become a political and ideological issue."
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "m",
+     "el": "Το ζήτημα έκλεισε επίσημα μόλις το 1976, όταν η δημοτική καθιερώθηκε ως γλώσσα της εκπαίδευσης και της διοίκησης. Λίγα χρόνια αργότερα, το 1982, ήρθε και το μονοτονικό σύστημα. Η σημερινή κοινή νεοελληνική, ωστόσο, δεν είναι η «καθαρή» δημοτική του Ψυχάρη· έχει κρατήσει πλήθος λόγιων λέξεων και εκφράσεων. Θα μπορούσε κανείς να πει ότι, κατά κάποιον τρόπο, επικράτησε η μέση οδός.",
+     "en": "The question was officially closed only in 1976, when demotic was established as the language of education and administration. A few years later, in 1982, came the monotonic system. Today's standard Modern Greek, however, is not Psycharis's 'pure' demotic; it has kept a host of learned words and expressions. One could say that, in a way, the middle way prevailed."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πρότεινε ο Κοραής;",
+     "options": [
+      "Μια «μέση οδό» ανάμεσα στην ομιλούμενη και την αρχαία γλώσσα",
+      "Να επιστρέψουν στα αρχαία ελληνικά",
+      "Να υιοθετηθεί το λατινικό αλφάβητο",
+      "Να γράφουν μόνο στη δημοτική"
+     ],
+     "answer": "Μια «μέση οδό» ανάμεσα στην ομιλούμενη και την αρχαία γλώσσα",
+     "why": "Αδαμάντιος Κοραής είχε προτείνει μια «μέση οδό»"
+    },
+    {
+     "q": "Τι ήταν «Το ταξίδι μου» του Ψυχάρη;",
+     "options": [
+      "Μια μετάφραση των Ευαγγελίων",
+      "Το μανιφέστο του δημοτικισμού",
+      "Ένα βιβλίο γραμματικής της καθαρεύουσας",
+      "Έναν ταξιδιωτικό οδηγό"
+     ],
+     "answer": "Το μανιφέστο του δημοτικισμού",
+     "why": "έγινε το μανιφέστο του δημοτικισμού"
+    },
+    {
+     "q": "Τι προκάλεσε τα «Ευαγγελικά» το 1901;",
+     "options": [
+      "Η καθιέρωση του μονοτονικού",
+      "Η μετάφραση των Ευαγγελίων στη δημοτική",
+      "Μια διάλεξη του Κοραή",
+      "Ένας νέος νόμος για την εκπαίδευση"
+     ],
+     "answer": "Η μετάφραση των Ευαγγελίων στη δημοτική",
+     "why": "η μετάφραση των Ευαγγελίων στη δημοτική προκάλεσε αιματηρές ταραχές"
+    },
+    {
+     "q": "Πώς χαρακτηρίζει ο ομιλητής τη σημερινή κοινή νεοελληνική;",
+     "options": [
+      "Ως γλώσσα που δεν έχει αλλάξει από τον 19ο αιώνα",
+      "Ως μια μορφή καθαρεύουσας",
+      "Ως την «καθαρή» δημοτική του Ψυχάρη",
+      "Ως γλώσσα που έχει κρατήσει πλήθος λόγιων λέξεων, σαν να επικράτησε η μέση οδός"
+     ],
+     "answer": "Ως γλώσσα που έχει κρατήσει πλήθος λόγιων λέξεων, σαν να επικράτησε η μέση οδός",
+     "why": "έχει κρατήσει πλήθος λόγιων λέξεων και εκφράσεων"
+    }
+   ],
+   "gloss": {
+    "καθαρεύουσα": "καθαρεύουσα — katharevousa (learned Greek)",
+    "δημοτική": "δημοτική — demotic Greek",
+    "λόγια": "λόγιος — learned, scholarly",
+    "μέση οδό": "μέση οδός — middle way",
+    "επιβληθεί": "επιβάλλομαι — to be imposed",
+    "μανιφέστο": "μανιφέστο — manifesto",
+    "δημοτικισμού": "δημοτικισμός — demoticism",
+    "αιματηρές": "αιματηρός — bloody",
+    "ταραχές": "ταραχή — riot, unrest",
+    "καθιερώθηκε": "καθιερώνομαι — to be established",
+    "μονοτονικό": "μονοτονικό σύστημα — monotonic accent system",
+    "επικράτησε": "επικρατώ — to prevail"
+   }
+  }
+ ]
+}
