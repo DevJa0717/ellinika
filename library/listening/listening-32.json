@@ -1,0 +1,845 @@
+{
+ "items": [
+  {
+   "id": "l32-ann-xionodromiko",
+   "title": "Ανακοίνωση στο χιονοδρομικό κέντρο",
+   "title_en": "An announcement at the ski centre",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα του χιονοδρομικού κέντρου του Παρνασσού.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Προσοχή, παρακαλώ. Λόγω των ισχυρών ανέμων που πνέουν στις ψηλότερες πίστες, οι αναβατήρες των Κελλαριών θα παραμείνουν κλειστοί σήμερα μέχρι νεωτέρας. Σε λειτουργία βρίσκονται μόνο οι αναβατήρες της Φτερόλακκας και η πίστα για αρχάριους.",
+     "en": "Attention, please. Because of the strong winds blowing on the higher slopes, the lifts at Kellaria will remain closed today until further notice. Only the Fterolakka lifts and the beginners' slope are in operation."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Όσοι έχετε αγοράσει ημερήσιο εισιτήριο για όλο το χιονοδρομικό μπορείτε να ζητήσετε επιστροφή του μισού ποσού από τα ταμεία μέχρι τις δώδεκα. Τα μαθήματα σκι για παιδιά γίνονται κανονικά, αλλά μεταφέρονται στη Φτερόλακκα.",
+     "en": "Those of you who have bought a day pass for the whole ski centre can ask for half the amount back at the ticket desks until twelve. Children's ski lessons are going ahead as normal but are moving to Fterolakka."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Υπενθυμίζουμε ότι στον δρόμο από την Αράχωβα οι αλυσίδες είναι υποχρεωτικές από το απόγευμα, καθώς αναμένεται χιονόπτωση. Σας ευχαριστούμε για την κατανόηση.",
+     "en": "We remind you that on the road from Arachova chains are compulsory from the afternoon, as snowfall is expected. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί είναι κλειστοί οι αναβατήρες των Κελλαριών;",
+     "options": [
+      "Λόγω ισχυρών ανέμων",
+      "Γιατί δεν έχει χιόνι",
+      "Λόγω απεργίας",
+      "Λόγω βλάβης"
+     ],
+     "answer": "Λόγω ισχυρών ανέμων",
+     "why": "Λόγω των ισχυρών ανέμων που πνέουν στις ψηλότερες πίστες"
+    },
+    {
+     "q": "Τι μπορούν να κάνουν όσοι έχουν ημερήσιο εισιτήριο;",
+     "options": [
+      "Να ζητήσουν επιστροφή του μισού ποσού μέχρι τις δώδεκα",
+      "Να το χρησιμοποιήσουν αύριο",
+      "Να πάρουν πίσω όλο το ποσό",
+      "Να πάρουν δωρεάν μάθημα"
+     ],
+     "answer": "Να ζητήσουν επιστροφή του μισού ποσού μέχρι τις δώδεκα",
+     "why": "μπορείτε να ζητήσετε επιστροφή του μισού ποσού από τα ταμεία μέχρι τις δώδεκα"
+    },
+    {
+     "q": "Τι ισχύει για τον δρόμο από την Αράχωβα;",
+     "options": [
+      "Οι αλυσίδες είναι υποχρεωτικές από το απόγευμα",
+      "Περνούν μόνο λεωφορεία",
+      "Είναι κλειστός",
+      "Έχει έργα"
+     ],
+     "answer": "Οι αλυσίδες είναι υποχρεωτικές από το απόγευμα",
+     "why": "οι αλυσίδες είναι υποχρεωτικές από το απόγευμα"
+    }
+   ],
+   "gloss": {
+    "χιονοδρομικού κέντρου": "χιονοδρομικό κέντρο — ski centre",
+    "πνέουν": "πνέω — to blow (of wind)",
+    "πίστες": "πίστα — (ski) slope",
+    "αναβατήρες": "αναβατήρας — ski lift",
+    "μέχρι νεωτέρας": "μέχρι νεωτέρας — until further notice",
+    "αρχάριους": "αρχάριος — beginner",
+    "ημερήσιο εισιτήριο": "ημερήσιο εισιτήριο — day pass",
+    "ταμεία": "ταμείο — ticket desk, till",
+    "αλυσίδες": "αλυσίδα — (snow) chain",
+    "χιονόπτωση": "χιονόπτωση — snowfall"
+   }
+  },
+  {
+   "id": "l32-vm-mpaleto",
+   "title": "Μήνυμα από τη σχολή μπαλέτου",
+   "title_en": "A message from the ballet school",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από τη σχολή μπαλέτου της κόρης σας.",
+   "script": [
+    {
+     "speaker": "Δασκάλα",
+     "voice": "f",
+     "el": "Καλησπέρα σας, είμαι η Ελένη από τη σχολή μπαλέτου «Πιρουέτα». Σας τηλεφωνώ για την ετήσια παράσταση των παιδιών. Επειδή το Δημοτικό Θέατρο δεν είναι διαθέσιμο το Σάββατο, η παράσταση μεταφέρεται την Κυριακή στις έξι το απόγευμα.",
+     "en": "Good evening, this is Eleni from the «Pirouette» ballet school. I'm calling about the children's annual performance. Because the Municipal Theatre isn't available on Saturday, the performance is moving to Sunday at six in the evening."
+    },
+    {
+     "speaker": "Δασκάλα",
+     "voice": "f",
+     "el": "Η γενική πρόβα θα γίνει την Παρασκευή στις έξι, στο θέατρο και όχι στη σχολή. Είναι πολύ σημαντικό να έρθουν όλα τα παιδιά, γιατί θα δοκιμάσουμε και τα κοστούμια με τα φώτα της σκηνής.",
+     "en": "The dress rehearsal will take place on Friday at six, at the theatre and not at the school. It's very important that all the children come, because we'll also try out the costumes under the stage lights."
+    },
+    {
+     "speaker": "Δασκάλα",
+     "voice": "f",
+     "el": "Η μικρή χρειάζεται λευκό καλσόν και τα μαλλιά της πρέπει να είναι πιασμένα κότσο. Τα εισιτήρια για τους γονείς κοστίζουν οχτώ ευρώ και τα έσοδα θα διατεθούν στον Σύλλογο Φίλων του Παιδιού. Αν έχετε απορίες, καλέστε με στο κινητό.",
+     "en": "Your little girl needs white tights and her hair must be tied up in a bun. Tickets for parents cost eight euros and the proceeds will go to the Friends of the Child Association. If you have questions, call me on my mobile."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί αλλάζει η μέρα της παράστασης;",
+     "options": [
+      "Λόγω καιρού",
+      "Γιατί δεν είναι έτοιμα τα κοστούμια",
+      "Γιατί το θέατρο δεν είναι διαθέσιμο το Σάββατο",
+      "Γιατί αρρώστησε η δασκάλα"
+     ],
+     "answer": "Γιατί το θέατρο δεν είναι διαθέσιμο το Σάββατο",
+     "why": "το Δημοτικό Θέατρο δεν είναι διαθέσιμο το Σάββατο"
+    },
+    {
+     "q": "Πού θα γίνει η γενική πρόβα;",
+     "options": [
+      "Στο σχολείο της κόρης",
+      "Στο θέατρο",
+      "Σε ένα γυμναστήριο",
+      "Στη σχολή"
+     ],
+     "answer": "Στο θέατρο",
+     "why": "στο θέατρο και όχι στη σχολή"
+    },
+    {
+     "q": "Πού θα πάνε τα έσοδα από τα εισιτήρια;",
+     "options": [
+      "Σε έναν σύλλογο για τα παιδιά",
+      "Στη σχολή για νέα κοστούμια",
+      "Στο θέατρο",
+      "Στον δήμο"
+     ],
+     "answer": "Σε έναν σύλλογο για τα παιδιά",
+     "why": "τα έσοδα θα διατεθούν στον Σύλλογο Φίλων του Παιδιού"
+    }
+   ],
+   "gloss": {
+    "μπαλέτου": "μπαλέτο — ballet",
+    "ετήσια": "ετήσιος — annual",
+    "παράσταση": "παράσταση — performance, show",
+    "γενική πρόβα": "γενική πρόβα — dress rehearsal",
+    "κοστούμια": "κοστούμι — costume",
+    "σκηνής": "σκηνή — stage",
+    "καλσόν": "καλσόν — tights",
+    "πιασμένα": "πιάνω (τα μαλλιά) — to tie up (hair)",
+    "κότσο": "κότσος — bun (hair)",
+    "έσοδα": "έσοδα — proceeds, income",
+    "θα διατεθούν": "διατίθεμαι — to be allocated, given"
+   }
+  },
+  {
+   "id": "l32-dia-stroma",
+   "title": "Ψάχνοντας καινούργιο στρώμα",
+   "title_en": "Looking for a new mattress",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα κατάστημα με στρώματα.",
+   "script": [
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Καλημέρα. Ψάχνω ένα καινούργιο στρώμα για διπλό κρεβάτι. Τον τελευταίο καιρό ξυπνάω με πόνους στη μέση, και ο γιατρός μού είπε ότι ίσως φταίει το στρώμα, που είναι πάνω από δεκαπέντε χρονών.",
+     "en": "Good morning. I'm looking for a new mattress for a double bed. Lately I've been waking up with lower back pain, and the doctor told me the mattress might be to blame; it's over fifteen years old."
+    },
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Δεκαπέντε χρόνια είναι πολλά· ένα στρώμα καλό είναι να αλλάζει κάθε οχτώ με δέκα χρόνια. Για τη μέση δεν προτείνουμε πια τα πολύ σκληρά στρώματα, όπως παλιά, αλλά τα μέτρια, που στηρίζουν τη σπονδυλική στήλη χωρίς να πιέζουν τους ώμους. Ξαπλώστε σε αυτό να δείτε πώς σας φαίνεται.",
+     "en": "Fifteen years is a lot; it's best to change a mattress every eight to ten years. For the back we no longer recommend very firm mattresses, as in the past, but medium ones, which support the spine without pressing on the shoulders. Lie down on this one and see how it feels."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Είναι πολύ άνετο. Αλλά πώς θα ξέρω αν μου κάνει πραγματικά, αν δεν κοιμηθώ πάνω του;",
+     "en": "It's very comfortable. But how will I know if it really suits me if I don't sleep on it?"
+    },
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Γι' αυτό έχουμε δοκιμαστική περίοδο εκατό νυχτών: αν δεν σας ικανοποιεί, το αλλάζουμε. Η παράδοση είναι δωρεάν, και με είκοσι ευρώ παίρνουμε και το παλιό σας στρώμα για ανακύκλωση.",
+     "en": "That's why we have a trial period of a hundred nights: if it doesn't satisfy you, we exchange it. Delivery is free, and for twenty euros we also take your old mattress for recycling."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θέλει η πελάτισσα να αλλάξει το στρώμα της;",
+     "options": [
+      "Γιατί σκίστηκε",
+      "Γιατί μετακόμισε",
+      "Γιατί αγόρασε νέο κρεβάτι",
+      "Γιατί ξυπνάει με πόνους στη μέση"
+     ],
+     "answer": "Γιατί ξυπνάει με πόνους στη μέση",
+     "why": "ξυπνάω με πόνους στη μέση"
+    },
+    {
+     "q": "Τι στρώμα προτείνει ο πωλητής για τη μέση;",
+     "options": [
+      "Ένα μέτριο",
+      "Ένα πολύ σκληρό",
+      "Ένα πολύ μαλακό",
+      "Ένα με ελατήρια"
+     ],
+     "answer": "Ένα μέτριο",
+     "why": "τα μέτρια, που στηρίζουν τη σπονδυλική στήλη"
+    },
+    {
+     "q": "Τι γίνεται αν το στρώμα δεν την ικανοποιεί;",
+     "options": [
+      "Της δίνουν ένα μαξιλάρι",
+      "Το αλλάζουν μέσα σε εκατό νύχτες",
+      "Χάνει τα χρήματά της",
+      "Πληρώνει είκοσι ευρώ"
+     ],
+     "answer": "Το αλλάζουν μέσα σε εκατό νύχτες",
+     "why": "δοκιμαστική περίοδο εκατό νυχτών: αν δεν σας ικανοποιεί, το αλλάζουμε"
+    }
+   ],
+   "gloss": {
+    "στρώμα": "στρώμα — mattress",
+    "μέση": "μέση — lower back, waist",
+    "φταίει": "φταίω — to be to blame",
+    "σκληρά": "σκληρός — hard, firm",
+    "στηρίζουν": "στηρίζω — to support",
+    "σπονδυλική στήλη": "σπονδυλική στήλη — spine",
+    "Ξαπλώστε": "ξαπλώνω — to lie down",
+    "άνετο": "άνετος — comfortable",
+    "δοκιμαστική περίοδο": "δοκιμαστική περίοδος — trial period",
+    "παράδοση": "παράδοση — delivery",
+    "ανακύκλωση": "ανακύκλωση — recycling"
+   }
+  },
+  {
+   "id": "l32-dia-portofoli",
+   "title": "Δήλωση απώλειας στο αστυνομικό τμήμα",
+   "title_en": "Reporting a loss at the police station",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα αστυνομικό τμήμα της Αθήνας.",
+   "script": [
+    {
+     "speaker": "Πολίτης",
+     "voice": "m",
+     "el": "Καλημέρα. Θέλω να δηλώσω την απώλεια του πορτοφολιού μου. Νομίζω ότι μου έπεσε χθες το βράδυ στο λεωφορείο, ανάμεσα στο Σύνταγμα και την Κηφισιά. Μέσα είχα την ταυτότητα, το δίπλωμα οδήγησης και δύο κάρτες.",
+     "en": "Good morning. I'd like to report the loss of my wallet. I think it fell out last night on the bus, between Syntagma and Kifisia. Inside I had my ID card, my driving licence and two cards."
+    },
+    {
+     "speaker": "Αστυνομικός",
+     "voice": "f",
+     "el": "Μάλιστα. Τις κάρτες τις έχετε ακυρώσει; Αυτό πρέπει να γίνει αμέσως, πριν από οτιδήποτε άλλο, για να μην τις χρησιμοποιήσει κάποιος άλλος.",
+     "en": "I see. Have you cancelled the cards? That has to be done immediately, before anything else, so that no one else can use them."
+    },
+    {
+     "speaker": "Πολίτης",
+     "voice": "m",
+     "el": "Ναι, πήρα την τράπεζα από χθες. Τι χρειάζομαι για να βγάλω καινούργια ταυτότητα;",
+     "en": "Yes, I called the bank last night. What do I need to get a new ID card?"
+    },
+    {
+     "speaker": "Αστυνομικός",
+     "voice": "f",
+     "el": "Θα σας δώσω μια βεβαίωση απώλειας, την οποία θα προσκομίσετε μαζί με φωτογραφίες στο τμήμα ταυτοτήτων. Σας συμβουλεύω επίσης να ρωτήσετε σε λίγες μέρες στο γραφείο απολεσθέντων αντικειμένων του ΟΑΣΑ· πολλά πορτοφόλια βρίσκονται από τους οδηγούς.",
+     "en": "I'll give you a certificate of loss, which you'll present with photographs at the ID card office. I also advise you to ask in a few days at the OASA lost property office; many wallets are found by the drivers."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού πιστεύει ο πολίτης ότι έχασε το πορτοφόλι;",
+     "options": [
+      "Στο μετρό",
+      "Σε μια καφετέρια",
+      "Στο λεωφορείο",
+      "Σε ένα ταξί"
+     ],
+     "answer": "Στο λεωφορείο",
+     "why": "μου έπεσε χθες το βράδυ στο λεωφορείο"
+    },
+    {
+     "q": "Τι λέει η αστυνομικός ότι πρέπει να γίνει πρώτα;",
+     "options": [
+      "Να ακυρώσει τις κάρτες",
+      "Να πάει στον ΟΑΣΑ",
+      "Να βγάλει φωτογραφίες",
+      "Να βγάλει νέα ταυτότητα"
+     ],
+     "answer": "Να ακυρώσει τις κάρτες",
+     "why": "πρέπει να γίνει αμέσως, πριν από οτιδήποτε άλλο"
+    },
+    {
+     "q": "Γιατί τον συμβουλεύει να ρωτήσει στο γραφείο απολεσθέντων;",
+     "options": [
+      "Γιατί εκεί πληρώνει το πρόστιμο",
+      "Γιατί εκεί βγαίνουν ταυτότητες",
+      "Γιατί εκεί είναι η τράπεζα",
+      "Γιατί πολλά πορτοφόλια βρίσκονται από τους οδηγούς"
+     ],
+     "answer": "Γιατί πολλά πορτοφόλια βρίσκονται από τους οδηγούς",
+     "why": "πολλά πορτοφόλια βρίσκονται από τους οδηγούς"
+    }
+   ],
+   "gloss": {
+    "αστυνομικό τμήμα": "αστυνομικό τμήμα — police station",
+    "να δηλώσω": "δηλώνω — to report, declare",
+    "απώλεια": "απώλεια — loss",
+    "πορτοφολιού": "πορτοφόλι — wallet",
+    "ταυτότητα": "ταυτότητα — ID card",
+    "δίπλωμα οδήγησης": "δίπλωμα οδήγησης — driving licence",
+    "ακυρώσει": "ακυρώνω — to cancel",
+    "βεβαίωση": "βεβαίωση — certificate",
+    "θα προσκομίσετε": "προσκομίζω — to present, submit (documents)",
+    "απολεσθέντων αντικειμένων": "απολεσθέντα αντικείμενα — lost property"
+   }
+  },
+  {
+   "id": "l32-mono-mpouzouki",
+   "title": "Μπουζούκι στα σαράντα",
+   "title_en": "Bouzouki at forty",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια γυναίκα να μιλάει για το πώς έμαθε μπουζούκι.",
+   "script": [
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Όταν έκλεισα τα σαράντα, ο άντρας μου μού έκανε δώρο ένα μπουζούκι. Από μικρή ήθελα να παίξω, αλλά στο σπίτι μας έλεγαν ότι το μπουζούκι είναι όργανο για άντρες και για ταβέρνες. Έτσι, πήγα σε ωδείο και έμαθα πιάνο, χωρίς ποτέ να το αγαπήσω πραγματικά.",
+     "en": "When I turned forty, my husband gave me a bouzouki as a present. Since I was little I'd wanted to play, but at home they said the bouzouki was an instrument for men and for tavernas. So I went to a conservatory and learned piano, without ever really loving it."
+    },
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Οι πρώτοι μήνες ήταν απογοητευτικοί. Τα δάχτυλά μου πονούσαν από τις μεταλλικές χορδές και η πένα μού έφευγε συνέχεια από το χέρι. Ο δάσκαλός μου, ένας ηλικιωμένος μουσικός, μου είπε κάτι που δεν θα ξεχάσω: «Το μπουζούκι δεν το παίζεις με τα δάχτυλα, το παίζεις με την υπομονή.»",
+     "en": "The first months were discouraging. My fingers hurt from the metal strings and the plectrum kept slipping out of my hand. My teacher, an elderly musician, told me something I'll never forget: «You don't play the bouzouki with your fingers, you play it with patience.»"
+    },
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Σήμερα, τρία χρόνια μετά, παίζω με μια μικρή κομπανία σε γιορτές της γειτονιάς. Δεν είμαι βιρτουόζος, αλλά όταν παίζω ένα ταξίμι και ο κόσμος σωπαίνει, νιώθω ότι ξαναβρήκα κάτι που είχα χάσει από παιδί.",
+     "en": "Today, three years later, I play with a small band at neighbourhood festivals. I'm no virtuoso, but when I play a taximi and people fall silent, I feel I've found again something I'd lost since childhood."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν έμαθε μπουζούκι όταν ήταν μικρή;",
+     "options": [
+      "Γιατί στο σπίτι έλεγαν ότι είναι όργανο για άντρες",
+      "Γιατί δεν υπήρχε δάσκαλος",
+      "Γιατί δεν είχαν χρήματα",
+      "Γιατί προτιμούσε το πιάνο"
+     ],
+     "answer": "Γιατί στο σπίτι έλεγαν ότι είναι όργανο για άντρες",
+     "why": "έλεγαν ότι το μπουζούκι είναι όργανο για άντρες και για ταβέρνες"
+    },
+    {
+     "q": "Τι δυσκολίες είχε στην αρχή;",
+     "options": [
+      "Πονούσαν τα δάχτυλά της και της έφευγε η πένα",
+      "Ενοχλούνταν οι γείτονες",
+      "Δεν μπορούσε να διαβάσει νότες",
+      "Δεν είχε χρόνο"
+     ],
+     "answer": "Πονούσαν τα δάχτυλά της και της έφευγε η πένα",
+     "why": "Τα δάχτυλά μου πονούσαν από τις μεταλλικές χορδές"
+    },
+    {
+     "q": "Πού παίζει σήμερα;",
+     "options": [
+      "Σε ένα ωδείο",
+      "Σε μια μεγάλη ορχήστρα",
+      "Με μια μικρή κομπανία σε γιορτές της γειτονιάς",
+      "Μόνο στο σπίτι"
+     ],
+     "answer": "Με μια μικρή κομπανία σε γιορτές της γειτονιάς",
+     "why": "παίζω με μια μικρή κομπανία σε γιορτές της γειτονιάς"
+    }
+   ],
+   "gloss": {
+    "όργανο": "όργανο — (musical) instrument",
+    "ωδείο": "ωδείο — conservatory, music school",
+    "απογοητευτικοί": "απογοητευτικός — discouraging",
+    "μεταλλικές": "μεταλλικός — metal",
+    "χορδές": "χορδή — string",
+    "πένα": "πένα — plectrum, pick",
+    "υπομονή": "υπομονή — patience",
+    "κομπανία": "κομπανία — small band",
+    "βιρτουόζος": "βιρτουόζος — virtuoso",
+    "ταξίμι": "ταξίμι — taximi (improvised prelude)",
+    "σωπαίνει": "σωπαίνω — to fall silent"
+   }
+  },
+  {
+   "id": "l32-rep-gefyria",
+   "title": "Τα πέτρινα γεφύρια της Ηπείρου",
+   "title_en": "The stone bridges of Epirus",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ραδιοφωνικό ρεπορτάζ για τα πέτρινα γεφύρια της Ηπείρου.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Στα βουνά της Ηπείρου σώζονται εκατοντάδες πέτρινα γεφύρια, τα περισσότερα χτισμένα τον 18ο και τον 19ο αιώνα. Τα έφτιαχναν περιπλανώμενοι μάστορες από τα χωριά της περιοχής, οι οποίοι ταξίδευαν σε συντροφιές και μιλούσαν μεταξύ τους μια μυστική γλώσσα, τα κουδαρίτικα, για να μην τους καταλαβαίνουν οι ξένοι.",
+     "en": "In the mountains of Epirus hundreds of stone bridges survive, most built in the 18th and 19th centuries. They were made by itinerant master builders from the villages of the region, who travelled in companies and spoke a secret language among themselves, koudaritika, so that outsiders couldn't understand them."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Τα γεφύρια χρηματοδοτούνταν συχνά από πλούσιους ευεργέτες ή από τις ίδιες τις κοινότητες, γιατί χωρίς αυτά τα χωριά έμεναν αποκομμένα τον χειμώνα, όταν φούσκωναν τα ποτάμια. Γύρω τους γεννήθηκαν πολλοί θρύλοι, όπως το γνωστό τραγούδι για το γεφύρι της Άρτας.",
+     "en": "The bridges were often funded by wealthy benefactors or by the communities themselves, because without them the villages were cut off in winter, when the rivers swelled. Many legends grew up around them, such as the well-known song about the bridge of Arta."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Το πιο συγκινητικό παράδειγμα είναι το γεφύρι της Πλάκας, πάνω από τον Άραχθο, το μεγαλύτερο μονότοξο γεφύρι των Βαλκανίων. Το 2015 κατέρρευσε σε μια πλημμύρα, και πολλοί πίστεψαν ότι χάθηκε για πάντα. Χάρη όμως σε μια μεγάλη προσπάθεια επιστημόνων και τεχνιτών, αναστηλώθηκε με τα ίδια του τα υλικά και άνοιξε ξανά το 2020.",
+     "en": "The most moving example is the Plaka bridge over the Arachthos, the largest single-arch bridge in the Balkans. In 2015 it collapsed in a flood, and many believed it was lost forever. But thanks to a great effort by scientists and craftsmen, it was restored with its own materials and reopened in 2020."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί οι μάστορες μιλούσαν μια μυστική γλώσσα;",
+     "options": [
+      "Για να προσεύχονται",
+      "Για να τραγουδούν",
+      "Γιατί ήταν ξένοι",
+      "Για να μην τους καταλαβαίνουν οι ξένοι"
+     ],
+     "answer": "Για να μην τους καταλαβαίνουν οι ξένοι",
+     "why": "για να μην τους καταλαβαίνουν οι ξένοι"
+    },
+    {
+     "q": "Γιατί ήταν τόσο σημαντικά τα γεφύρια για τα χωριά;",
+     "options": [
+      "Για να μαζεύουν νερό",
+      "Χωρίς αυτά έμεναν αποκομμένα τον χειμώνα",
+      "Για τη στρατιωτική άμυνα",
+      "Για το εμπόριο με την Ιταλία"
+     ],
+     "answer": "Χωρίς αυτά έμεναν αποκομμένα τον χειμώνα",
+     "why": "χωρίς αυτά τα χωριά έμεναν αποκομμένα τον χειμώνα"
+    },
+    {
+     "q": "Τι έγινε με το γεφύρι της Πλάκας;",
+     "options": [
+      "Αντικαταστάθηκε από ένα νέο",
+      "Μεταφέρθηκε σε μουσείο",
+      "Είναι ακόμη χαλασμένο",
+      "Κατέρρευσε το 2015 και αναστηλώθηκε"
+     ],
+     "answer": "Κατέρρευσε το 2015 και αναστηλώθηκε",
+     "why": "Το 2015 κατέρρευσε σε μια πλημμύρα"
+    }
+   ],
+   "gloss": {
+    "γεφύρια": "γεφύρι — (stone) bridge",
+    "περιπλανώμενοι": "περιπλανώμενος — itinerant, wandering",
+    "μάστορες": "μάστορας — master builder, craftsman",
+    "συντροφιές": "συντροφιά — company, group",
+    "ευεργέτες": "ευεργέτης — benefactor",
+    "αποκομμένα": "αποκομμένος — cut off",
+    "φούσκωναν": "φουσκώνω — to swell",
+    "θρύλοι": "θρύλος — legend",
+    "μονότοξο": "μονότοξος — single-arch",
+    "κατέρρευσε": "καταρρέω — to collapse",
+    "αναστηλώθηκε": "αναστηλώνω — to restore (a monument)"
+   }
+  },
+  {
+   "id": "l32-rep-tilos",
+   "title": "Η Τήλος, ένα μικρό νησί με μεγάλες ιδέες",
+   "title_en": "Tilos, a small island with big ideas",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για την Τήλο, ένα μικρό νησί των Δωδεκανήσων.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η Τήλος έχει λιγότερους από χίλιους μόνιμους κατοίκους, όμως τα τελευταία χρόνια έχει γίνει παράδειγμα για όλη την Ευρώπη. Ήταν από τα πρώτα ελληνικά νησιά που απαγόρευσαν το κυνήγι, ήδη από τη δεκαετία του '90, και σήμερα φιλοξενεί σπάνια πουλιά που δύσκολα βλέπει κανείς αλλού.",
+     "en": "Tilos has fewer than a thousand permanent residents, yet in recent years it has become an example for the whole of Europe. It was among the first Greek islands to ban hunting, back in the 1990s, and today it is home to rare birds that are hard to see elsewhere."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Στο νησί λειτουργεί ένα υβριδικό σύστημα με ανεμογεννήτρια, φωτοβολταϊκά και μεγάλες μπαταρίες, που καλύπτει μεγάλο μέρος των αναγκών του σε ηλεκτρισμό. Το 2021, μάλιστα, η Τήλος έγινε το πρώτο νησί στην Ελλάδα χωρίς χωματερή: τα απορρίμματα διαλέγονται από πόρτα σε πόρτα και σχεδόν όλα ανακυκλώνονται ή γίνονται λίπασμα.",
+     "en": "The island runs a hybrid system with a wind turbine, solar panels and large batteries, which covers a large part of its electricity needs. In 2021, what's more, Tilos became the first island in Greece without a landfill: rubbish is sorted door to door and almost all of it is recycled or turned into compost."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η Τήλος έχει και ένα ακόμη μυστικό: σε ένα σπήλαιο του νησιού βρέθηκαν απολιθώματα από νάνους ελέφαντες, ύψους μόλις ενάμισι μέτρου, που επέζησαν εδώ πολύ περισσότερο απ' ό,τι στην υπόλοιπη Ευρώπη. Μια μικρή έκθεση στο χωριό Μεγάλο Χωριό τα παρουσιάζει στους επισκέπτες.",
+     "en": "Tilos has one more secret: in a cave on the island fossils were found of dwarf elephants, just one and a half metres tall, which survived here much longer than in the rest of Europe. A small exhibition in the village of Megalo Chorio presents them to visitors."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι απαγόρευσε η Τήλος από τη δεκαετία του '90;",
+     "options": [
+      "Το ψάρεμα",
+      "Το κυνήγι",
+      "Την οικοδομή",
+      "Τα αυτοκίνητα"
+     ],
+     "answer": "Το κυνήγι",
+     "why": "απαγόρευσαν το κυνήγι"
+    },
+    {
+     "q": "Τι έγινε το 2021;",
+     "options": [
+      "Χτίστηκε νέο λιμάνι",
+      "Άνοιξε αεροδρόμιο",
+      "Η Τήλος έγινε το πρώτο νησί χωρίς χωματερή",
+      "Έκλεισε το σπήλαιο"
+     ],
+     "answer": "Η Τήλος έγινε το πρώτο νησί χωρίς χωματερή",
+     "why": "η Τήλος έγινε το πρώτο νησί στην Ελλάδα χωρίς χωματερή"
+    },
+    {
+     "q": "Τι βρέθηκε σε ένα σπήλαιο του νησιού;",
+     "options": [
+      "Απολιθώματα από νάνους ελέφαντες",
+      "Βυζαντινές τοιχογραφίες",
+      "Αρχαία νομίσματα",
+      "Ένα ναυάγιο"
+     ],
+     "answer": "Απολιθώματα από νάνους ελέφαντες",
+     "why": "βρέθηκαν απολιθώματα από νάνους ελέφαντες"
+    }
+   ],
+   "gloss": {
+    "μόνιμους": "μόνιμος — permanent",
+    "απαγόρευσαν": "απαγορεύω — to ban",
+    "κυνήγι": "κυνήγι — hunting",
+    "υβριδικό": "υβριδικός — hybrid",
+    "ανεμογεννήτρια": "ανεμογεννήτρια — wind turbine",
+    "φωτοβολταϊκά": "φωτοβολταϊκά — solar panels",
+    "χωματερή": "χωματερή — landfill",
+    "απορρίμματα": "απορρίμματα — rubbish, waste",
+    "λίπασμα": "λίπασμα — fertiliser, compost",
+    "απολιθώματα": "απολίθωμα — fossil",
+    "νάνους": "νάνος — dwarf",
+    "επέζησαν": "επιζώ — to survive"
+   }
+  },
+  {
+   "id": "l32-int-lyra",
+   "title": "Ο κατασκευαστής λύρας",
+   "title_en": "The lyre-maker",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με έναν κατασκευαστή κρητικής λύρας από το Ρέθυμνο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πόσο καιρό χρειάζεστε για να φτιάξετε μια λύρα;",
+     "en": "How long do you need to make a lyre?"
+    },
+    {
+     "speaker": "Μανόλης",
+     "voice": "m",
+     "el": "Για μια καλή λύρα, περίπου ένα μήνα δουλειάς. Το πιο σημαντικό όμως γίνεται πριν: το ξύλο πρέπει να ξεραθεί σωστά, πολλές φορές για χρόνια. Για το σώμα χρησιμοποιώ συνήθως μουριά ή καρυδιά, ενώ για το καπάκι, που δίνει τον ήχο, προτιμώ κέδρο.",
+     "en": "For a good lyre, about a month's work. But the most important part happens before: the wood has to be dried properly, often for years. For the body I usually use mulberry or walnut, while for the soundboard, which gives the sound, I prefer cedar."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και το δοξάρι με τα κουδουνάκια;",
+     "en": "And the bow with the little bells?"
+    },
+    {
+     "speaker": "Μανόλης",
+     "voice": "m",
+     "el": "Τα γερακοκούδουνα είναι μια παλιά παράδοση. Τα κρεμάμε στο δοξάρι και ακούγονται με κάθε κίνηση του χεριού, σαν να συνοδεύουν τον ρυθμό. Οι νεότεροι λυράρηδες δεν τα θέλουν πάντα, γιατί λένε ότι καλύπτουν τον ήχο, αλλά για μένα είναι η ψυχή της λύρας.",
+     "en": "The hawk bells are an old tradition. We hang them on the bow and they sound with every movement of the hand, as if they accompany the rhythm. Younger lyre players don't always want them, because they say they cover the sound, but for me they are the soul of the lyre."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Έχετε μαθητές;",
+     "en": "Do you have apprentices?"
+    },
+    {
+     "speaker": "Μανόλης",
+     "voice": "m",
+     "el": "Έχω δύο, και το ένα είναι κορίτσι. Πριν από τριάντα χρόνια θα ήταν αδιανόητο. Τώρα πια πολλές κοπέλες παίζουν λύρα στα γλέντια, και αυτό με κάνει να πιστεύω ότι η παράδοση δεν πεθαίνει· απλώς αλλάζει.",
+     "en": "I have two, and one is a girl. Thirty years ago it would have been unthinkable. Now many young women play the lyre at festivities, and that makes me believe the tradition isn't dying; it's just changing."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είναι το πιο σημαντικό πριν αρχίσει η κατασκευή;",
+     "options": [
+      "Να ξεραθεί σωστά το ξύλο",
+      "Να κουρδίσει τις χορδές",
+      "Να βρει πελάτη",
+      "Να βάψει το σώμα"
+     ],
+     "answer": "Να ξεραθεί σωστά το ξύλο",
+     "why": "το ξύλο πρέπει να ξεραθεί σωστά"
+    },
+    {
+     "q": "Γιατί κάποιοι νέοι λυράρηδες δεν θέλουν τα γερακοκούδουνα;",
+     "options": [
+      "Γιατί είναι βαριά",
+      "Γιατί λένε ότι καλύπτουν τον ήχο",
+      "Γιατί σπάνε εύκολα",
+      "Γιατί είναι ακριβά"
+     ],
+     "answer": "Γιατί λένε ότι καλύπτουν τον ήχο",
+     "why": "λένε ότι καλύπτουν τον ήχο"
+    },
+    {
+     "q": "Τι συμπεραίνει ο Μανόλης για την παράδοση;",
+     "options": [
+      "Ότι πρέπει να μείνει ίδια",
+      "Ότι δεν πεθαίνει, απλώς αλλάζει",
+      "Ότι ανήκει μόνο στους άντρες",
+      "Ότι θα χαθεί σύντομα"
+     ],
+     "answer": "Ότι δεν πεθαίνει, απλώς αλλάζει",
+     "why": "η παράδοση δεν πεθαίνει· απλώς αλλάζει"
+    }
+   ],
+   "gloss": {
+    "κατασκευαστή": "κατασκευαστής — maker",
+    "λύρας": "λύρα — (Cretan) lyre",
+    "να ξεραθεί": "ξεραίνομαι — to dry",
+    "μουριά": "μουριά — mulberry tree",
+    "καρυδιά": "καρυδιά — walnut tree",
+    "καπάκι": "καπάκι — lid; soundboard",
+    "κέδρο": "κέδρος — cedar",
+    "δοξάρι": "δοξάρι — bow",
+    "γερακοκούδουνα": "γερακοκούδουνο — hawk bell",
+    "λυράρηδες": "λυράρης — lyre player",
+    "αδιανόητο": "αδιανόητος — unthinkable",
+    "γλέντια": "γλέντι — festivity, party"
+   }
+  },
+  {
+   "id": "l32-mono-ygro-pyr",
+   "title": "Το υγρό πυρ των Βυζαντινών",
+   "title_en": "The liquid fire of the Byzantines",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ιστορικό να μιλάει σε μια διάλεξη για το «υγρό πυρ».",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Το 672, σύμφωνα με τους Βυζαντινούς χρονογράφους, ένας αρχιτέκτονας ονόματι Καλλίνικος, πρόσφυγας από τη Συρία, έφτασε στην Κωνσταντινούπολη φέρνοντας μαζί του ένα μυστικό που έμελλε να αλλάξει την ιστορία: ένα εμπρηστικό υγρό που καιγόταν ακόμη και πάνω στο νερό.",
+     "en": "In 672, according to the Byzantine chroniclers, an architect named Kallinikos, a refugee from Syria, arrived in Constantinople bringing with him a secret that was to change history: an incendiary liquid that burned even on water."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Οι Βυζαντινοί το εκτόξευαν με σίφωνες από την πλώρη των πολεμικών τους πλοίων, των δρομώνων, και το χρησιμοποίησαν με καταστροφικά αποτελέσματα κατά των αραβικών στόλων που πολιόρκησαν την Πόλη. Οι εχθροί του έδωσαν το όνομα «ελληνικό πυρ», ενώ οι ίδιοι οι Βυζαντινοί το ονόμαζαν «υγρό» ή «θαλάσσιο πυρ».",
+     "en": "The Byzantines projected it with siphons from the prows of their warships, the dromons, and used it with devastating results against the Arab fleets that besieged the City. Their enemies gave it the name «Greek fire», while the Byzantines themselves called it «liquid» or «sea fire»."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Το πιο εκπληκτικό, ωστόσο, είναι ότι η σύνθεσή του χάθηκε. Ήταν κρατικό μυστικό τόσο αυστηρά φυλαγμένο, ώστε ο αυτοκράτορας Κωνσταντίνος Πορφυρογέννητος συμβούλευε τον γιο του να μην το παραδώσει ποτέ σε ξένους, λέγοντας ότι είχε δοθεί από άγγελο στον Μέγα Κωνσταντίνο. Η γνώση μοιραζόταν σε λίγους, και κανείς δεν ήξερε ολόκληρη τη διαδικασία.",
+     "en": "Most astonishing, however, is that its composition was lost. It was a state secret guarded so strictly that the emperor Constantine Porphyrogennetos advised his son never to hand it over to foreigners, saying that it had been given by an angel to Constantine the Great. The knowledge was shared among a few, and no one knew the entire process."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Οι σύγχρονοι ερευνητές υποθέτουν ότι η βάση του ήταν πετρέλαιο από τις ακτές της Μαύρης Θάλασσας, ίσως αναμεμειγμένο με ρητίνες. Αλλά καμία ανασύνθεση δεν έχει αναπαραγάγει με βεβαιότητα το αρχικό. Το υγρό πυρ μάς θυμίζει πόσο εύθραυστη είναι η γνώση όταν κρατιέται μυστική: η ίδια η μυστικότητα που το προστάτευε ήταν εκείνη που τελικά το εξαφάνισε.",
+     "en": "Modern researchers suppose that its base was petroleum from the shores of the Black Sea, perhaps mixed with resins. But no reconstruction has reproduced the original with certainty. Liquid fire reminds us how fragile knowledge is when it is kept secret: the very secrecy that protected it was what finally made it vanish."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ήταν ιδιαίτερο στο υγρό που έφερε ο Καλλίνικος;",
+     "options": [
+      "Ήταν αόρατο",
+      "Ήταν δηλητηριώδες",
+      "Έσβηνε τις φωτιές",
+      "Καιγόταν ακόμη και πάνω στο νερό"
+     ],
+     "answer": "Καιγόταν ακόμη και πάνω στο νερό",
+     "why": "ένα εμπρηστικό υγρό που καιγόταν ακόμη και πάνω στο νερό"
+    },
+    {
+     "q": "Πώς ονόμαζαν οι ίδιοι οι Βυζαντινοί το όπλο;",
+     "options": [
+      "Συριακό πυρ",
+      "Ελληνικό πυρ",
+      "Αγγελικό πυρ",
+      "Υγρό ή θαλάσσιο πυρ"
+     ],
+     "answer": "Υγρό ή θαλάσσιο πυρ",
+     "why": "οι ίδιοι οι Βυζαντινοί το ονόμαζαν «υγρό» ή «θαλάσσιο πυρ»"
+    },
+    {
+     "q": "Γιατί χάθηκε η σύνθεσή του;",
+     "options": [
+      "Γιατί το έκλεψαν οι Άραβες",
+      "Γιατί ήταν αυστηρό μυστικό και κανείς δεν ήξερε όλη τη διαδικασία",
+      "Γιατί κάηκαν τα αρχεία",
+      "Γιατί εξαντλήθηκαν τα υλικά"
+     ],
+     "answer": "Γιατί ήταν αυστηρό μυστικό και κανείς δεν ήξερε όλη τη διαδικασία",
+     "why": "κανείς δεν ήξερε ολόκληρη τη διαδικασία"
+    },
+    {
+     "q": "Ποιο είναι το συμπέρασμα της ομιλήτριας;",
+     "options": [
+      "Η μυστικότητα προστατεύει πάντα τη γνώση",
+      "Το όπλο δεν ήταν ποτέ αποτελεσματικό",
+      "Η μυστικότητα που το προστάτευε τελικά το εξαφάνισε",
+      "Οι σύγχρονοι επιστήμονες το αναπαρήγαγαν"
+     ],
+     "answer": "Η μυστικότητα που το προστάτευε τελικά το εξαφάνισε",
+     "why": "η ίδια η μυστικότητα που το προστάτευε ήταν εκείνη που τελικά το εξαφάνισε"
+    }
+   ],
+   "gloss": {
+    "υγρό πυρ": "υγρό πυρ — liquid fire (Greek fire)",
+    "χρονογράφους": "χρονογράφος — chronicler",
+    "πρόσφυγας": "πρόσφυγας — refugee",
+    "έμελλε": "μέλλω (έμελλε να) — was destined to",
+    "εμπρηστικό": "εμπρηστικός — incendiary",
+    "εκτόξευαν": "εκτοξεύω — to launch, project",
+    "σίφωνες": "σίφωνας — siphon",
+    "πλώρη": "πλώρη — prow, bow",
+    "πολιόρκησαν": "πολιορκώ — to besiege",
+    "σύνθεσή": "σύνθεση — composition",
+    "ρητίνες": "ρητίνη — resin",
+    "ανασύνθεση": "ανασύνθεση — reconstruction",
+    "εύθραυστη": "εύθραυστος — fragile",
+    "μυστικότητα": "μυστικότητα — secrecy"
+   }
+  },
+  {
+   "id": "l32-int-tetraimero",
+   "title": "Τέσσερις μέρες δουλειά την εβδομάδα;",
+   "title_en": "A four-day working week?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια οικονομολόγο για την εβδομάδα εργασίας τεσσάρων ημερών.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Σε πολλές χώρες συζητιέται η εβδομάδα εργασίας τεσσάρων ημερών. Τι δείχνουν τα πειράματα που έχουν γίνει;",
+     "en": "In many countries a four-day working week is being discussed. What do the experiments carried out so far show?"
+    },
+    {
+     "speaker": "Οικονομολόγος",
+     "voice": "f",
+     "el": "Τα αποτελέσματα είναι ενθαρρυντικά, αλλά θέλουν προσεκτική ανάγνωση. Στη Βρετανία, το 2022, εξήντα περίπου εταιρείες δοκίμασαν το μοντέλο για έξι μήνες χωρίς μείωση μισθών, και οι περισσότερες αποφάσισαν να το διατηρήσουν. Οι εργαζόμενοι ανέφεραν λιγότερη εξουθένωση, ενώ η παραγωγικότητα, κατά μέσο όρο, δεν μειώθηκε.",
+     "en": "The results are encouraging, but they need careful reading. In Britain, in 2022, around sixty companies tried the model for six months without pay cuts, and most decided to keep it. Employees reported less burnout, while productivity, on average, did not fall."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Γιατί λέτε ότι θέλουν προσεκτική ανάγνωση;",
+     "en": "Why do you say they need careful reading?"
+    },
+    {
+     "speaker": "Οικονομολόγος",
+     "voice": "f",
+     "el": "Γιατί οι εταιρείες που συμμετείχαν ήταν εθελοντικές· ήταν, δηλαδή, ήδη πρόθυμες να αλλάξουν. Επιπλέον, το μοντέλο ταιριάζει σε γραφειακές δουλειές πολύ περισσότερο απ' ό,τι σε ένα νοσοκομείο ή ένα εργοστάσιο συνεχούς λειτουργίας, όπου κάποιος πρέπει να είναι εκεί κάθε ώρα.",
+     "en": "Because the participating companies were volunteers; that is, they were already willing to change. Moreover, the model suits office jobs much more than a hospital or a factory in continuous operation, where someone has to be there every hour."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και η Ελλάδα; Εδώ πρόσφατα επιτράπηκε σε ορισμένους κλάδους ακόμη και έκτη μέρα εργασίας.",
+     "en": "And Greece? Here a sixth working day was recently even permitted in certain sectors."
+    },
+    {
+     "speaker": "Οικονομολόγος",
+     "voice": "f",
+     "el": "Ακριβώς, και αυτό δείχνει πόσο διαφορετικές είναι οι αφετηρίες. Οι Έλληνες εργάζονται από τις περισσότερες ώρες στην Ευρώπη, αλλά η παραγωγικότητα ανά ώρα παραμένει χαμηλή. Το πρόβλημα, λοιπόν, δεν είναι πόσες ώρες δουλεύουμε, αλλά πώς τις αξιοποιούμε. Χωρίς επενδύσεις σε τεχνολογία και οργάνωση, η μείωση του χρόνου εργασίας μπορεί να μείνει ευχολόγιο.",
+     "en": "Exactly, and that shows how different the starting points are. Greeks work some of the longest hours in Europe, but productivity per hour remains low. So the problem isn't how many hours we work, but how we use them. Without investment in technology and organisation, reducing working time may remain wishful thinking."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έδειξε το βρετανικό πείραμα του 2022;",
+     "options": [
+      "Οι περισσότερες εταιρείες εγκατέλειψαν το μοντέλο",
+      "Η παραγωγικότητα έπεσε πολύ",
+      "Οι μισθοί μειώθηκαν",
+      "Οι περισσότερες εταιρείες αποφάσισαν να το διατηρήσουν"
+     ],
+     "answer": "Οι περισσότερες εταιρείες αποφάσισαν να το διατηρήσουν",
+     "why": "οι περισσότερες αποφάσισαν να το διατηρήσουν"
+    },
+    {
+     "q": "Γιατί τα αποτελέσματα χρειάζονται προσεκτική ανάγνωση;",
+     "options": [
+      "Γιατί δεν μετρήθηκε η παραγωγικότητα",
+      "Γιατί ήταν όλες εργοστάσια",
+      "Γιατί κράτησαν μόνο μία εβδομάδα",
+      "Γιατί οι εταιρείες ήταν εθελοντικές και ήδη πρόθυμες να αλλάξουν"
+     ],
+     "answer": "Γιατί οι εταιρείες ήταν εθελοντικές και ήδη πρόθυμες να αλλάξουν",
+     "why": "οι εταιρείες που συμμετείχαν ήταν εθελοντικές"
+    },
+    {
+     "q": "Σε ποιες δουλειές ταιριάζει λιγότερο το μοντέλο;",
+     "options": [
+      "Στις γραφειακές",
+      "Σε θέσεις συνεχούς λειτουργίας, όπως νοσοκομεία",
+      "Στην εκπαίδευση",
+      "Στην πληροφορική"
+     ],
+     "answer": "Σε θέσεις συνεχούς λειτουργίας, όπως νοσοκομεία",
+     "why": "ένα νοσοκομείο ή ένα εργοστάσιο συνεχούς λειτουργίας"
+    },
+    {
+     "q": "Ποιο είναι, κατά την οικονομολόγο, το πραγματικό πρόβλημα στην Ελλάδα;",
+     "options": [
+      "Η έλλειψη εργαζομένων",
+      "Οι λίγες ώρες εργασίας",
+      "Οι υψηλοί μισθοί",
+      "Το πώς αξιοποιούνται οι ώρες εργασίας"
+     ],
+     "answer": "Το πώς αξιοποιούνται οι ώρες εργασίας",
+     "why": "το πρόβλημα, λοιπόν, δεν είναι πόσες ώρες δουλεύουμε, αλλά πώς τις αξιοποιούμε"
+    }
+   ],
+   "gloss": {
+    "οικονομολόγο": "οικονομολόγος — economist",
+    "ενθαρρυντικά": "ενθαρρυντικός — encouraging",
+    "μείωση": "μείωση — reduction",
+    "μισθών": "μισθός — salary, pay",
+    "εξουθένωση": "εξουθένωση — burnout, exhaustion",
+    "παραγωγικότητα": "παραγωγικότητα — productivity",
+    "πρόθυμες": "πρόθυμος — willing",
+    "γραφειακές": "γραφειακός — office (adj.)",
+    "κλάδους": "κλάδος — sector, branch",
+    "αφετηρίες": "αφετηρία — starting point",
+    "αξιοποιούμε": "αξιοποιώ — to make good use of",
+    "επενδύσεις": "επένδυση — investment",
+    "ευχολόγιο": "ευχολόγιο — wish list, wishful thinking"
+   }
+  }
+ ]
+}
