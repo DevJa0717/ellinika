@@ -1,0 +1,860 @@
+{
+ "items": [
+  {
+   "id": "l46-ann-diakopi-nerou",
+   "title": "Διακοπή νερού",
+   "title_en": "Water supply interruption",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση της δημοτικής επιχείρησης ύδρευσης σε έναν τοπικό ραδιοφωνικό σταθμό.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Η Δημοτική Επιχείρηση Ύδρευσης ενημερώνει τους κατοίκους ότι την Πέμπτη θα γίνει διακοπή νερού σε όλη την περιοχή του Αγίου Νικολάου, από τις οκτώ το πρωί έως τις έξι το απόγευμα. Η διακοπή οφείλεται σε εργασίες αντικατάστασης του κεντρικού αγωγού, ο οποίος είναι πάνω από σαράντα χρόνια παλιός και παρουσιάζει συχνά βλάβες.",
+     "en": "The Municipal Water Company informs residents that on Thursday the water will be cut off in the whole Agios Nikolaos area, from eight in the morning until six in the evening. The interruption is due to work replacing the main pipe, which is over forty years old and often breaks down."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Παρακαλούμε τους κατοίκους να αποθηκεύσουν από την προηγούμενη μέρα όσο νερό χρειάζονται για πόσιμο και για μαγείρεμα. Για όσους δεν μπορούν να το κάνουν, ένα βυτιοφόρο θα βρίσκεται στην πλατεία της εκκλησίας από τις δέκα έως τις δύο, και οι κάτοικοι μπορούν να γεμίζουν δοχεία δωρεάν.",
+     "en": "We ask residents to store, from the day before, as much water as they need for drinking and cooking. For those who can't, a water tanker will be in the church square from ten until two, and residents can fill containers free of charge."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Όταν αποκατασταθεί η υδροδότηση, το νερό μπορεί για λίγα λεπτά να είναι θολό. Αφήστε τη βρύση ανοιχτή μέχρι να καθαρίσει και μην βάλετε αμέσως πλυντήριο. Για ηλικιωμένους ή άτομα με κινητικά προβλήματα, η επιχείρηση μπορεί να φέρει νερό στο σπίτι, κατόπιν τηλεφωνικής επικοινωνίας στο 15 400.",
+     "en": "When the supply is restored, the water may be cloudy for a few minutes. Leave the tap running until it clears and don't run the washing machine straight away. For elderly people or those with mobility problems, the company can bring water to the house if you phone 15 400."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θα γίνει η διακοπή νερού;",
+     "options": [
+      "Επειδή θα καθαριστεί η δεξαμενή",
+      "Επειδή χάλασε μια αντλία",
+      "Επειδή θα αντικατασταθεί ο παλιός κεντρικός αγωγός",
+      "Επειδή υπάρχει λειψυδρία"
+     ],
+     "answer": "Επειδή θα αντικατασταθεί ο παλιός κεντρικός αγωγός",
+     "why": "Η διακοπή οφείλεται σε εργασίες αντικατάστασης του κεντρικού αγωγού"
+    },
+    {
+     "q": "Πού μπορούν οι κάτοικοι να πάρουν νερό την Πέμπτη;",
+     "options": [
+      "Από το σχολείο της περιοχής",
+      "Από το δημαρχείο",
+      "Από τα σούπερ μάρκετ, δωρεάν",
+      "Από ένα βυτιοφόρο στην πλατεία της εκκλησίας"
+     ],
+     "answer": "Από ένα βυτιοφόρο στην πλατεία της εκκλησίας",
+     "why": "ένα βυτιοφόρο θα βρίσκεται στην πλατεία της εκκλησίας"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν οι κάτοικοι όταν ξαναέρθει το νερό;",
+     "options": [
+      "Να αφήσουν τη βρύση ανοιχτή μέχρι να καθαρίσει το νερό",
+      "Να βράσουν το νερό για μία ώρα",
+      "Να τηλεφωνήσουν στην επιχείρηση",
+      "Να βάλουν αμέσως πλυντήριο"
+     ],
+     "answer": "Να αφήσουν τη βρύση ανοιχτή μέχρι να καθαρίσει το νερό",
+     "why": "Αφήστε τη βρύση ανοιχτή μέχρι να καθαρίσει"
+    }
+   ],
+   "gloss": {
+    "ύδρευσης": "ύδρευση — water supply",
+    "Ύδρευσης": "ύδρευση — water supply",
+    "αντικατάστασης": "αντικατάσταση — replacement",
+    "αγωγού": "αγωγός — pipe, main",
+    "βλάβες": "βλάβη — fault, breakdown",
+    "πόσιμο": "πόσιμος — drinkable",
+    "βυτιοφόρο": "βυτιοφόρο — tanker truck",
+    "δοχεία": "δοχείο — container",
+    "αποκατασταθεί": "αποκαθίσταμαι — to be restored",
+    "υδροδότηση": "υδροδότηση — water supply",
+    "θολό": "θολός — cloudy",
+    "κινητικά προβλήματα": "κινητικά προβλήματα — mobility problems"
+   }
+  },
+  {
+   "id": "l46-vm-scholi-odigon",
+   "title": "Μήνυμα από τη σχολή οδηγών",
+   "title_en": "A message from the driving school",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα από τον εκπαιδευτή σας στη σχολή οδηγών στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Εκπαιδευτής",
+     "voice": "m",
+     "el": "Γεια σου, Μυρτώ, ο Στέλιος είμαι από τη σχολή οδηγών. Έχω καλά νέα: βγήκε η ημερομηνία για την εξέτασή σου. Είναι την Τετάρτη, δεκαεννιά του μήνα, στις οκτώ και μισή το πρωί, στο εξεταστικό κέντρο της Καλαμαριάς.",
+     "en": "Hi Myrto, it's Stelios from the driving school. I've got good news: the date for your test is out. It's on Wednesday the nineteenth, at half past eight in the morning, at the Kalamaria test centre."
+    },
+    {
+     "speaker": "Εκπαιδευτής",
+     "voice": "m",
+     "el": "Πριν από την εξέταση, θα ήθελα να κάνουμε δύο ακόμα μαθήματα, γιατί στο τελευταίο είχες ακόμα δυσκολία με το παρκάρισμα ανάμεσα σε δύο αυτοκίνητα. Μπορώ τη Δευτέρα στις πέντε και την Τρίτη στις επτά το πρωί. Το πρωινό μάθημα είναι καλό, γιατί θα συνηθίσεις την κίνηση την ώρα της εξέτασης.",
+     "en": "Before the test, I'd like us to do two more lessons, because in the last one you still had trouble parking between two cars. I can do Monday at five and Tuesday at seven in the morning. The early lesson is good, because you'll get used to the traffic at the time of the test."
+    },
+    {
+     "speaker": "Εκπαιδευτής",
+     "voice": "m",
+     "el": "Την ημέρα της εξέτασης να φέρεις οπωσδήποτε την ταυτότητά σου, αλλιώς δεν θα σε αφήσουν να εξεταστείς. Και μην αγχώνεσαι: οδηγείς πολύ καλά. Πάρε με τηλέφωνο να μου πεις αν σου κάνουν οι ώρες.",
+     "en": "On the day of the test, make sure you bring your ID card, otherwise they won't let you sit the test. And don't stress: you drive very well. Give me a call to tell me if the times suit you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε θα γίνει η εξέταση της Μυρτώς;",
+     "options": [
+      "Την Τετάρτη στις οκτώ και μισή το πρωί",
+      "Τη Δευτέρα στις πέντε",
+      "Την Τετάρτη το απόγευμα",
+      "Την Τρίτη στις επτά το πρωί"
+     ],
+     "answer": "Την Τετάρτη στις οκτώ και μισή το πρωί",
+     "why": "Είναι την Τετάρτη, δεκαεννιά του μήνα, στις οκτώ και μισή το πρωί"
+    },
+    {
+     "q": "Γιατί θέλει ο εκπαιδευτής δύο ακόμα μαθήματα;",
+     "options": [
+      "Επειδή άλλαξε η διαδρομή της εξέτασης",
+      "Επειδή η Μυρτώ δυσκολεύεται ακόμα με το παρκάρισμα",
+      "Επειδή η Μυρτώ δεν έχει οδηγήσει τη νύχτα",
+      "Επειδή η Μυρτώ οδηγεί πολύ γρήγορα"
+     ],
+     "answer": "Επειδή η Μυρτώ δυσκολεύεται ακόμα με το παρκάρισμα",
+     "why": "είχες ακόμα δυσκολία με το παρκάρισμα ανάμεσα σε δύο αυτοκίνητα"
+    },
+    {
+     "q": "Τι πρέπει οπωσδήποτε να φέρει η Μυρτώ την ημέρα της εξέτασης;",
+     "options": [
+      "Την ταυτότητά της",
+      "Το βιβλίο του Κώδικα",
+      "Τα χρήματα για τα μαθήματα",
+      "Ένα πιστοποιητικό υγείας"
+     ],
+     "answer": "Την ταυτότητά της",
+     "why": "να φέρεις οπωσδήποτε την ταυτότητά σου"
+    }
+   ],
+   "gloss": {
+    "εκπαιδευτή": "εκπαιδευτής — instructor",
+    "σχολή οδηγών": "σχολή οδηγών — driving school",
+    "εξέτασή": "εξέταση — test, exam",
+    "εξεταστικό κέντρο": "εξεταστικό κέντρο — test centre",
+    "παρκάρισμα": "παρκάρισμα — parking",
+    "θα συνηθίσεις": "συνηθίζω — to get used to",
+    "κίνηση": "κίνηση — traffic",
+    "οπωσδήποτε": "οπωσδήποτε — without fail",
+    "ταυτότητά": "ταυτότητα — identity card",
+    "να εξεταστείς": "εξετάζομαι — to be examined, to sit a test",
+    "μην αγχώνεσαι": "αγχώνομαι — to get stressed",
+    "σου κάνουν": "μου κάνει — it suits me"
+   }
+  },
+  {
+   "id": "l46-dia-gata-diakopes",
+   "title": "Ποιος θα ταΐζει τη γάτα;",
+   "title_en": "Who will feed the cat?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια γυναίκα να ζητά από τον γείτονά της να φροντίσει τη γάτα της όσο θα λείπει σε διακοπές.",
+   "script": [
+    {
+     "speaker": "Δήμητρα",
+     "voice": "f",
+     "el": "Κύριε Παύλο, μπορώ να σας ζητήσω μια χάρη; Φεύγω αύριο για δέκα μέρες στην αδελφή μου στη Γερμανία και δεν έχω κανέναν να ταΐζει τη Λίλη, τη γάτα μου. Θα μπορούσατε να περνάτε μία φορά τη μέρα;",
+     "en": "Mr Pavlos, can I ask you a favour? I'm leaving tomorrow for ten days to stay with my sister in Germany, and I have nobody to feed Lili, my cat. Could you drop by once a day?"
+    },
+    {
+     "speaker": "Παύλος",
+     "voice": "m",
+     "el": "Ευχαρίστως, κυρία Δήμητρα, αφού είμαι και συνταξιούχος, χρόνο έχω. Μόνο πείτε μου τι ακριβώς πρέπει να κάνω. Εγώ σκύλο είχα μια ζωή, με τις γάτες δεν έχω πολλή εμπειρία.",
+     "en": "With pleasure, Mrs Dimitra, I'm retired, so I've got time. Just tell me exactly what I need to do. I had dogs my whole life; I don't have much experience with cats."
+    },
+    {
+     "speaker": "Δήμητρα",
+     "voice": "f",
+     "el": "Είναι εύκολο. Ένα φακελάκι υγρή τροφή το πρωί και ξηρή τροφή στο μπολ της για όλη τη μέρα. Το νερό να το αλλάζετε κάθε μέρα. Και την άμμο να την καθαρίζετε μέρα παρά μέρα. Α, και προσοχή με την μπαλκονόπορτα: αν τη βρει ανοιχτή, πηδάει στο μπαλκόνι του γείτονα.",
+     "en": "It's easy. A sachet of wet food in the morning and dry food in her bowl for the whole day. Change the water every day. And clean the litter every other day. Oh, and careful with the balcony door: if she finds it open, she jumps onto the neighbour's balcony."
+    },
+    {
+     "speaker": "Παύλος",
+     "voice": "m",
+     "el": "Εντάξει, θα τα γράψω για να μην τα ξεχάσω. Αφήστε μου τα κλειδιά και το τηλέφωνο του κτηνιάτρου, για καλό και για κακό. Και μη σκέφτεστε τίποτα· θα σας στέλνω και καμιά φωτογραφία στο κινητό, να βλέπετε ότι είναι καλά.",
+     "en": "Fine, I'll write it down so I don't forget. Leave me the keys and the vet's phone number, just in case. And don't worry about a thing; I'll send you the odd photo on your phone so you can see she's fine."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο κύριος Παύλος δέχεται εύκολα;",
+     "options": [
+      "Επειδή έχει κι αυτός γάτα",
+      "Επειδή είναι συνταξιούχος και έχει χρόνο",
+      "Επειδή η Δήμητρα θα τον πληρώσει",
+      "Επειδή μένει στο ίδιο διαμέρισμα"
+     ],
+     "answer": "Επειδή είναι συνταξιούχος και έχει χρόνο",
+     "why": "αφού είμαι και συνταξιούχος, χρόνο έχω"
+    },
+    {
+     "q": "Κάθε πόσο πρέπει να καθαρίζει την άμμο;",
+     "options": [
+      "Όταν γυρίσει η Δήμητρα",
+      "Μέρα παρά μέρα",
+      "Κάθε μέρα",
+      "Μία φορά την εβδομάδα"
+     ],
+     "answer": "Μέρα παρά μέρα",
+     "why": "την άμμο να την καθαρίζετε μέρα παρά μέρα"
+    },
+    {
+     "q": "Τι ζητάει ο Παύλος από τη Δήμητρα;",
+     "options": [
+      "Να του φέρει δώρο από τη Γερμανία",
+      "Τα κλειδιά και το τηλέφωνο του κτηνιάτρου",
+      "Λεφτά για την τροφή",
+      "Να του τηλεφωνεί κάθε βράδυ"
+     ],
+     "answer": "Τα κλειδιά και το τηλέφωνο του κτηνιάτρου",
+     "why": "Αφήστε μου τα κλειδιά και το τηλέφωνο του κτηνιάτρου"
+    }
+   ],
+   "gloss": {
+    "ταΐζει": "ταΐζω — to feed",
+    "μια χάρη": "χάρη — favour",
+    "Ευχαρίστως": "ευχαρίστως — with pleasure",
+    "συνταξιούχος": "συνταξιούχος — pensioner, retired",
+    "φακελάκι": "φακελάκι — sachet",
+    "υγρή τροφή": "υγρή τροφή — wet food",
+    "ξηρή τροφή": "ξηρή τροφή — dry food",
+    "μπολ": "μπολ — bowl",
+    "άμμο": "άμμος — (cat) litter, sand",
+    "μέρα παρά μέρα": "μέρα παρά μέρα — every other day",
+    "πηδάει": "πηδάω — to jump",
+    "για καλό και για κακό": "για καλό και για κακό — just in case"
+   }
+  },
+  {
+   "id": "l46-dia-doro-syntaxi",
+   "title": "Δώρο για τη συνταξιοδότηση",
+   "title_en": "A retirement present",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε δύο συναδέλφους να συζητούν τι δώρο θα κάνουν σε μια συνάδελφό τους που βγαίνει στη σύνταξη.",
+   "script": [
+    {
+     "speaker": "Άρης",
+     "voice": "m",
+     "el": "Λοιπόν, Νατάσα, η κυρία Ευτυχία φεύγει στο τέλος του μήνα, μετά από τριάντα πέντε χρόνια στο λογιστήριο. Πρέπει να της κάνουμε κάτι ωραίο. Έχουμε μαζέψει τετρακόσια ευρώ από όλο το τμήμα. Σκέφτηκα ένα ακριβό ρολόι.",
+     "en": "So, Natasa, Mrs Eftychia is leaving at the end of the month, after thirty-five years in accounts. We have to do something nice for her. We've collected four hundred euros from the whole department. I thought of an expensive watch."
+    },
+    {
+     "speaker": "Νατάσα",
+     "voice": "f",
+     "el": "Ρολόι; Άρη, η γυναίκα βγαίνει στη σύνταξη, δεν θα χρειάζεται πια να κοιτάζει την ώρα! Εγώ θα προτιμούσα κάτι που να έχει σχέση με αυτά που θα κάνει τώρα. Μου έχει πει πολλές φορές ότι ονειρεύεται να μάθει ζωγραφική.",
+     "en": "A watch? Aris, the woman is retiring, she won't need to check the time any more! I'd prefer something connected with what she'll be doing now. She's told me many times she dreams of learning to paint."
+    },
+    {
+     "speaker": "Άρης",
+     "voice": "m",
+     "el": "Α, δεν το ήξερα αυτό. Δηλαδή να της πάρουμε μπογιές και καμβάδες; Μου φαίνεται λίγο φτωχό για τέτοια περίσταση.",
+     "en": "Oh, I didn't know that. So, buy her paints and canvases? It seems a bit meagre for such an occasion."
+    },
+    {
+     "speaker": "Νατάσα",
+     "voice": "f",
+     "el": "Όχι μόνο αυτό. Υπάρχει ένα εργαστήρι ζωγραφικής κοντά στο σπίτι της που κάνει μαθήματα για ενήλικες. Με τα λεφτά που έχουμε, της πληρώνουμε έναν χρόνο μαθήματα και της παίρνουμε κι ένα καβαλέτο. Και στο πάρτι, της δίνουμε κι ένα άλμπουμ με φωτογραφίες και ευχές από όλους μας.",
+     "en": "Not just that. There's a painting studio near her house that does classes for adults. With the money we have, we pay for a year of lessons and also buy her an easel. And at the party, we give her an album with photos and wishes from all of us."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί η Νατάσα δεν συμφωνεί με το ρολόι;",
+     "options": [
+      "Επειδή η κυρία Ευτυχία έχει ήδη ρολόι",
+      "Επειδή δεν της αρέσουν τα κοσμήματα",
+      "Επειδή στη σύνταξη η κυρία Ευτυχία δεν θα χρειάζεται να κοιτάζει την ώρα",
+      "Επειδή είναι πολύ ακριβό"
+     ],
+     "answer": "Επειδή στη σύνταξη η κυρία Ευτυχία δεν θα χρειάζεται να κοιτάζει την ώρα",
+     "why": "δεν θα χρειάζεται πια να κοιτάζει την ώρα"
+    },
+    {
+     "q": "Τι ονειρεύεται να κάνει η κυρία Ευτυχία;",
+     "options": [
+      "Να ταξιδέψει",
+      "Να μάθει ζωγραφική",
+      "Να μάθει πιάνο",
+      "Να γράψει ένα βιβλίο"
+     ],
+     "answer": "Να μάθει ζωγραφική",
+     "why": "ονειρεύεται να μάθει ζωγραφική"
+    },
+    {
+     "q": "Ποιο είναι τελικά το σχέδιο της Νατάσας;",
+     "options": [
+      "Ένας χρόνος μαθήματα ζωγραφικής, ένα καβαλέτο και ένα άλμπουμ με ευχές",
+      "Ένα δείπνο σε ακριβό εστιατόριο",
+      "Μπογιές και καμβάδες μόνο",
+      "Ένα ταξίδι στο Παρίσι"
+     ],
+     "answer": "Ένας χρόνος μαθήματα ζωγραφικής, ένα καβαλέτο και ένα άλμπουμ με ευχές",
+     "why": "της πληρώνουμε έναν χρόνο μαθήματα και της παίρνουμε κι ένα καβαλέτο"
+    }
+   ],
+   "gloss": {
+    "συναδέλφους": "συνάδελφος — colleague",
+    "σύνταξη": "σύνταξη — pension, retirement",
+    "λογιστήριο": "λογιστήριο — accounts department",
+    "τμήμα": "τμήμα — department",
+    "ζωγραφική": "ζωγραφική — painting",
+    "μπογιές": "μπογιά — paint",
+    "καμβάδες": "καμβάς — canvas",
+    "περίσταση": "περίσταση — occasion",
+    "εργαστήρι": "εργαστήρι — studio, workshop",
+    "ενήλικες": "ενήλικας — adult",
+    "καβαλέτο": "καβαλέτο — easel",
+    "ευχές": "ευχή — wish"
+   }
+  },
+  {
+   "id": "l46-mono-kolympi",
+   "title": "Έμαθα κολύμπι στα σαράντα",
+   "title_en": "I learned to swim at forty",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν άντρα να μιλάει σε ένα podcast για το πώς έμαθε κολύμπι σε μεγάλη ηλικία.",
+   "script": [
+    {
+     "speaker": "Γιάννης",
+     "voice": "m",
+     "el": "Μεγάλωσα στη Λάρισα, μακριά από τη θάλασσα, και στην οικογένειά μου κανείς δεν ήξερε κολύμπι. Στις διακοπές καθόμουν πάντα στα ρηχά, με το νερό μέχρι τη μέση, και έλεγα στους φίλους μου ότι δεν μου αρέσει να βρέχω τα μαλλιά μου. Η αλήθεια ήταν ότι ντρεπόμουν και φοβόμουν.",
+     "en": "I grew up in Larissa, far from the sea, and nobody in my family could swim. On holiday I always stayed in the shallows, with the water up to my waist, and I told my friends I didn't like getting my hair wet. The truth was that I was embarrassed and scared."
+    },
+    {
+     "speaker": "Γιάννης",
+     "voice": "m",
+     "el": "Όταν η κόρη μου έγινε έξι χρονών, τη γράψαμε σε μαθήματα κολύμβησης. Ένα απόγευμα με ρώτησε: «Μπαμπά, γιατί εσύ δεν μπαίνεις ποτέ στα βαθιά;» Δεν ήξερα τι να της απαντήσω. Την επόμενη εβδομάδα γράφτηκα κι εγώ σε ένα τμήμα για ενήλικες στο δημοτικό κολυμβητήριο.",
+     "en": "When my daughter turned six, we enrolled her in swimming lessons. One afternoon she asked me: 'Dad, why do you never go into the deep end?' I didn't know what to answer. The next week I signed up for an adult class at the municipal pool too."
+    },
+    {
+     "speaker": "Γιάννης",
+     "voice": "m",
+     "el": "Τους πρώτους δύο μήνες έμαθα απλώς να αναπνέω μέσα στο νερό και να επιπλέω. Ήταν πιο δύσκολο από όσο φανταζόμουν. Μετά από έναν χρόνο, όμως, κολύμπησα για πρώτη φορά πεντακόσια μέτρα χωρίς να σταματήσω. Το περασμένο καλοκαίρι, η κόρη μου κι εγώ κολυμπήσαμε μαζί μέχρι τη σημαδούρα. Ήταν η πιο περήφανη στιγμή της ζωής μου.",
+     "en": "For the first two months I simply learned to breathe in the water and to float. It was harder than I'd imagined. After a year, though, I swam five hundred metres without stopping for the first time. Last summer, my daughter and I swam together to the buoy. It was the proudest moment of my life."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο Γιάννης έμενε πάντα στα ρηχά;",
+     "options": [
+      "Επειδή πρόσεχε την κόρη του",
+      "Επειδή δεν ήξερε κολύμπι, ντρεπόταν και φοβόταν",
+      "Επειδή δεν του άρεσε να βρέχει τα μαλλιά του",
+      "Επειδή το νερό ήταν κρύο"
+     ],
+     "answer": "Επειδή δεν ήξερε κολύμπι, ντρεπόταν και φοβόταν",
+     "why": "Η αλήθεια ήταν ότι ντρεπόμουν και φοβόμουν"
+    },
+    {
+     "q": "Τι τον έκανε να αποφασίσει να μάθει κολύμπι;",
+     "options": [
+      "Ένα ατύχημα στη θάλασσα",
+      "Μια συμβουλή του γιατρού",
+      "Μια ερώτηση της κόρης του",
+      "Ένα στοίχημα με τους φίλους του"
+     ],
+     "answer": "Μια ερώτηση της κόρης του",
+     "why": "«Μπαμπά, γιατί εσύ δεν μπαίνεις ποτέ στα βαθιά;»"
+    },
+    {
+     "q": "Τι έκανε το περασμένο καλοκαίρι;",
+     "options": [
+      "Κολύμπησε δέκα χιλιόμετρα",
+      "Έγινε προπονητής κολύμβησης",
+      "Κολύμπησε με την κόρη του μέχρι τη σημαδούρα",
+      "Πήρε μέρος σε αγώνες"
+     ],
+     "answer": "Κολύμπησε με την κόρη του μέχρι τη σημαδούρα",
+     "why": "η κόρη μου κι εγώ κολυμπήσαμε μαζί μέχρι τη σημαδούρα"
+    }
+   ],
+   "gloss": {
+    "κολύμπι": "κολύμπι — swimming",
+    "ρηχά": "τα ρηχά — the shallows",
+    "μέχρι τη μέση": "μέχρι τη μέση — up to the waist",
+    "να βρέχω": "βρέχω — to wet",
+    "ντρεπόμουν": "ντρέπομαι — to be embarrassed",
+    "κολύμβησης": "κολύμβηση — swimming",
+    "στα βαθιά": "τα βαθιά — the deep end, deep water",
+    "κολυμβητήριο": "κολυμβητήριο — swimming pool (facility)",
+    "να αναπνέω": "αναπνέω — to breathe",
+    "να επιπλέω": "επιπλέω — to float",
+    "σημαδούρα": "σημαδούρα — buoy",
+    "περήφανη": "περήφανος — proud"
+   }
+  },
+  {
+   "id": "l46-rep-leipsydria",
+   "title": "Λειψυδρία στα νησιά",
+   "title_en": "Water shortage on the islands",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ σε ειδησεογραφική εκπομπή για το πρόβλημα του νερού στα νησιά του Αιγαίου.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Μετά από δύο χειμώνες με πολύ λίγες βροχές, αρκετά νησιά των Κυκλάδων και των Δωδεκανήσων αντιμετωπίζουν σοβαρή λειψυδρία. Οι γεωτρήσεις δίνουν όλο και λιγότερο νερό, και σε κάποιες περιοχές το νερό της βρύσης έχει γίνει αλμυρό, επειδή το θαλασσινό νερό μπαίνει στον υπόγειο υδροφόρο ορίζοντα.",
+     "en": "After two winters with very little rain, several islands in the Cyclades and the Dodecanese are facing a serious water shortage. Boreholes are yielding less and less water, and in some areas the tap water has turned salty because seawater is getting into the underground aquifer."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Το πρόβλημα γίνεται πιο έντονο το καλοκαίρι, όταν ο πληθυσμός πολλών νησιών πενταπλασιάζεται λόγω του τουρισμού. Ένα ξενοδοχείο με πισίνα μπορεί να καταναλώνει όσο νερό ένα ολόκληρο χωριό. Σε ορισμένα νησιά, το νερό μεταφέρεται ακόμα με υδροφόρα πλοία από τον Πειραιά, με πολύ μεγάλο κόστος.",
+     "en": "The problem gets worse in summer, when the population of many islands increases fivefold because of tourism. A hotel with a pool can consume as much water as a whole village. On some islands, water is still brought by water-carrier ships from Piraeus, at very high cost."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η κύρια λύση που προτείνεται είναι οι μονάδες αφαλάτωσης, που μετατρέπουν το θαλασσινό νερό σε πόσιμο. Οι μονάδες αυτές, όμως, καταναλώνουν πολλή ενέργεια, γι' αυτό οι ειδικοί ζητούν να λειτουργούν με ηλιακή ή αιολική ενέργεια. Παράλληλα, οι δήμοι ζητούν από κατοίκους και επισκέπτες να κάνουν σύντομα ντους και να μην ποτίζουν τους κήπους τις ζεστές ώρες.",
+     "en": "The main solution proposed is desalination plants, which turn seawater into drinking water. These plants, however, use a lot of energy, so experts want them to run on solar or wind power. At the same time, municipalities are asking residents and visitors to take short showers and not to water gardens in the hot hours."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί σε κάποιες περιοχές το νερό της βρύσης έγινε αλμυρό;",
+     "options": [
+      "Επειδή οι μονάδες αφαλάτωσης δεν δουλεύουν καλά",
+      "Επειδή το νερό έρχεται με πλοία",
+      "Επειδή χάλασαν οι σωλήνες",
+      "Επειδή το θαλασσινό νερό μπαίνει στον υπόγειο υδροφόρο ορίζοντα"
+     ],
+     "answer": "Επειδή το θαλασσινό νερό μπαίνει στον υπόγειο υδροφόρο ορίζοντα",
+     "why": "το θαλασσινό νερό μπαίνει στον υπόγειο υδροφόρο ορίζοντα"
+    },
+    {
+     "q": "Γιατί το πρόβλημα είναι χειρότερο το καλοκαίρι;",
+     "options": [
+      "Επειδή τα πλοία δεν ταξιδεύουν",
+      "Επειδή ο πληθυσμός πενταπλασιάζεται λόγω του τουρισμού",
+      "Επειδή δεν βρέχει ποτέ",
+      "Επειδή οι κάτοικοι ποτίζουν περισσότερο"
+     ],
+     "answer": "Επειδή ο πληθυσμός πενταπλασιάζεται λόγω του τουρισμού",
+     "why": "ο πληθυσμός πολλών νησιών πενταπλασιάζεται λόγω του τουρισμού"
+    },
+    {
+     "q": "Ποιο είναι το μειονέκτημα των μονάδων αφαλάτωσης;",
+     "options": [
+      "Χρειάζονται πολλούς εργαζόμενους",
+      "Λειτουργούν μόνο τον χειμώνα",
+      "Καταναλώνουν πολλή ενέργεια",
+      "Το νερό τους δεν πίνεται"
+     ],
+     "answer": "Καταναλώνουν πολλή ενέργεια",
+     "why": "Οι μονάδες αυτές, όμως, καταναλώνουν πολλή ενέργεια"
+    }
+   ],
+   "gloss": {
+    "λειψυδρία": "λειψυδρία — water shortage",
+    "γεωτρήσεις": "γεώτρηση — borehole",
+    "αλμυρό": "αλμυρός — salty",
+    "υδροφόρο ορίζοντα": "υδροφόρος ορίζοντας — aquifer",
+    "πενταπλασιάζεται": "πενταπλασιάζομαι — to increase fivefold",
+    "καταναλώνει": "καταναλώνω — to consume",
+    "υδροφόρα πλοία": "υδροφόρο πλοίο — water-carrier ship",
+    "αφαλάτωσης": "αφαλάτωση — desalination",
+    "πόσιμο": "πόσιμος — drinkable",
+    "αιολική ενέργεια": "αιολική ενέργεια — wind power",
+    "να μην ποτίζουν": "ποτίζω — to water"
+   }
+  },
+  {
+   "id": "l46-rep-mini-dasos",
+   "title": "Ένα μίνι δάσος στην αυλή του σχολείου",
+   "title_en": "A mini forest in the schoolyard",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από ένα δημοτικό σχολείο της Αθήνας, όπου οι μαθητές φύτεψαν ένα μικρό δάσος.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Σε μια γωνιά της τσιμεντένιας αυλής του δημοτικού σχολείου, στην Κυψέλη, όπου μέχρι πέρσι υπήρχε μόνο ένα πάρκινγκ, μεγαλώνει σήμερα ένα μικρό δάσος. Σε έκταση διακοσίων τετραγωνικών μέτρων, οι μαθητές, οι γονείς και οι δάσκαλοι φύτεψαν πάνω από εξακόσια δενδρύλλια, όπως πουρνάρια, κουμαριές, σχίνους και βελανιδιές.",
+     "en": "In a corner of the concrete yard of the primary school in Kypseli, where until last year there was only a car park, a small forest is growing today. On an area of two hundred square metres, pupils, parents and teachers planted more than six hundred saplings, such as kermes oaks, strawberry trees, mastic shrubs and oaks."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η μέθοδος που χρησιμοποίησαν έχει αναπτυχθεί από έναν Ιάπωνα βοτανολόγο, τον Ακίρα Μιγιαγουάκι. Τα δέντρα φυτεύονται πολύ πυκνά, τρία ή τέσσερα σε κάθε τετραγωνικό μέτρο, και είναι μόνο είδη που φυτρώνουν φυσικά στην περιοχή. Έτσι μεγαλώνουν γρήγορα, ανταγωνίζονται για το φως και, μετά από δύο ή τρία χρόνια, δεν χρειάζονται πια πότισμα.",
+     "en": "The method they used was developed by a Japanese botanist, Akira Miyawaki. The trees are planted very densely, three or four per square metre, and only species that grow naturally in the area are used. That way they grow fast, compete for light and, after two or three years, no longer need watering."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι μαθητές έχουν αναλάβει να ποτίζουν και να καταγράφουν πόσο ψηλώνει κάθε δέντρο. «Το καλοκαίρι η αυλή ήταν πιο δροσερή», λέει η διευθύντρια, «και ήρθαν πουλιά που δεν είχαμε ξαναδεί.» Ο δήμος σχεδιάζει να φυτέψει παρόμοια δάση σε άλλα δεκαπέντε σχολεία της πόλης μέσα στα επόμενα δύο χρόνια.",
+     "en": "The pupils have taken on watering and recording how tall each tree grows. 'In the summer the yard was cooler,' says the head teacher, 'and birds came that we'd never seen before.' The municipality plans to plant similar forests at fifteen more schools in the city over the next two years."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι υπήρχε πριν στο σημείο όπου είναι τώρα το δάσος;",
+     "options": [
+      "Ένα πάρκινγκ",
+      "Ένα γήπεδο μπάσκετ",
+      "Μια παιδική χαρά",
+      "Ένας λαχανόκηπος"
+     ],
+     "answer": "Ένα πάρκινγκ",
+     "why": "όπου μέχρι πέρσι υπήρχε μόνο ένα πάρκινγκ"
+    },
+    {
+     "q": "Ποιο είναι ένα χαρακτηριστικό της μεθόδου Μιγιαγουάκι;",
+     "options": [
+      "Χρησιμοποιούνται μόνο ιαπωνικά δέντρα",
+      "Τα δέντρα ποτίζονται για δέκα χρόνια",
+      "Τα δέντρα φυτεύονται μακριά το ένα από το άλλο",
+      "Τα δέντρα φυτεύονται πολύ πυκνά και είναι ντόπια είδη"
+     ],
+     "answer": "Τα δέντρα φυτεύονται πολύ πυκνά και είναι ντόπια είδη",
+     "why": "Τα δέντρα φυτεύονται πολύ πυκνά ... είναι μόνο είδη που φυτρώνουν φυσικά στην περιοχή"
+    },
+    {
+     "q": "Τι σχεδιάζει ο δήμος;",
+     "options": [
+      "Να πουλήσει τα δέντρα",
+      "Να φυτέψει παρόμοια δάση σε άλλα δεκαπέντε σχολεία",
+      "Να φτιάξει πάρκινγκ σε άλλο σημείο",
+      "Να κλείσει το σχολείο"
+     ],
+     "answer": "Να φυτέψει παρόμοια δάση σε άλλα δεκαπέντε σχολεία",
+     "why": "Ο δήμος σχεδιάζει να φυτέψει παρόμοια δάση σε άλλα δεκαπέντε σχολεία"
+    }
+   ],
+   "gloss": {
+    "τσιμεντένιας": "τσιμεντένιος — concrete",
+    "έκταση": "έκταση — area",
+    "δενδρύλλια": "δενδρύλλιο — sapling",
+    "πουρνάρια": "πουρνάρι — kermes oak",
+    "κουμαριές": "κουμαριά — strawberry tree",
+    "σχίνους": "σχίνος — mastic shrub",
+    "βελανιδιές": "βελανιδιά — oak",
+    "βοτανολόγο": "βοτανολόγος — botanist",
+    "πυκνά": "πυκνά — densely",
+    "φυτρώνουν": "φυτρώνω — to grow, sprout",
+    "ανταγωνίζονται": "ανταγωνίζομαι — to compete",
+    "πότισμα": "πότισμα — watering",
+    "ψηλώνει": "ψηλώνω — to grow taller"
+   }
+  },
+  {
+   "id": "l46-int-odigos-taxi",
+   "title": "Μια γυναίκα στο τιμόνι του ταξί",
+   "title_en": "A woman at the wheel of a taxi",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη σε ραδιοφωνική εκπομπή με μια γυναίκα οδηγό ταξί στη Θεσσαλονίκη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Κυρία Αναστασία, πόσα χρόνια οδηγείτε ταξί και πώς ξεκινήσατε;",
+     "en": "Mrs Anastasia, how many years have you been driving a taxi, and how did you start?"
+    },
+    {
+     "speaker": "Αναστασία",
+     "voice": "f",
+     "el": "Δώδεκα χρόνια. Το ταξί ήταν του άντρα μου. Όταν εκείνος αρρώστησε, έπρεπε κάποιος να το δουλέψει, αλλιώς θα το πουλούσαμε. Έβγαλα επαγγελματικό δίπλωμα στα σαράντα τρία και βγήκα στον δρόμο. Τις πρώτες μέρες έτρεμα, γιατί δεν ήξερα καλά τους δρόμους της πόλης.",
+     "en": "Twelve years. The taxi was my husband's. When he fell ill, someone had to work it, otherwise we'd have sold it. I got a professional licence at forty-three and went out on the road. The first days I was shaking, because I didn't know the city's streets well."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πώς αντιδρούν οι πελάτες όταν βλέπουν γυναίκα στο τιμόνι;",
+     "en": "How do customers react when they see a woman at the wheel?"
+    },
+    {
+     "speaker": "Αναστασία",
+     "voice": "f",
+     "el": "Οι περισσότεροι ευχαριστιούνται. Πολλές γυναίκες μού λένε ότι νιώθουν πιο ασφαλείς, ειδικά τη νύχτα, και κάποιες με καλούν πια μόνο εμένα. Υπάρχουν και κάποιοι ηλικιωμένοι κύριοι που με ρωτούν αν ξέρω να αλλάζω λάστιχο. Τους απαντώ ότι ξέρω, και ότι τους συμβουλεύω να μάθουν κι αυτοί.",
+     "en": "Most are pleased. Many women tell me they feel safer, especially at night, and some now call only me. There are also some elderly gentlemen who ask if I know how to change a tyre. I tell them I do, and I advise them to learn too."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιο είναι το πιο δύσκολο κομμάτι της δουλειάς;",
+     "en": "What's the hardest part of the job?"
+    },
+    {
+     "speaker": "Αναστασία",
+     "voice": "f",
+     "el": "Οι ώρες. Δουλεύω δέκα ώρες τη μέρα, και το μεγαλύτερο πρόβλημα είναι η κίνηση και το πάρκινγκ. Αλλά δεν θα το άλλαζα με τίποτα. Κάθε πελάτης είναι μια μικρή ιστορία. Κάποτε μετέφερα μια έγκυο στο μαιευτήριο, και το μωρό σχεδόν γεννήθηκε στο πίσω κάθισμα!",
+     "en": "The hours. I work ten hours a day, and the biggest problem is traffic and parking. But I wouldn't change it for anything. Every customer is a little story. Once I took a pregnant woman to the maternity hospital, and the baby was almost born on the back seat!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί άρχισε η Αναστασία να οδηγεί ταξί;",
+     "options": [
+      "Επειδή το πρότεινε μια φίλη της",
+      "Επειδή έχασε την προηγούμενη δουλειά της",
+      "Επειδή της άρεσε πάντα η οδήγηση",
+      "Επειδή αρρώστησε ο άντρας της, που είχε το ταξί"
+     ],
+     "answer": "Επειδή αρρώστησε ο άντρας της, που είχε το ταξί",
+     "why": "Το ταξί ήταν του άντρα μου. Όταν εκείνος αρρώστησε, έπρεπε κάποιος να το δουλέψει"
+    },
+    {
+     "q": "Τι λένε πολλές γυναίκες πελάτισσες;",
+     "options": [
+      "Ότι οδηγεί πολύ γρήγορα",
+      "Ότι οι τιμές της είναι χαμηλές",
+      "Ότι το ταξί της είναι καθαρό",
+      "Ότι νιώθουν πιο ασφαλείς, ειδικά τη νύχτα"
+     ],
+     "answer": "Ότι νιώθουν πιο ασφαλείς, ειδικά τη νύχτα",
+     "why": "Πολλές γυναίκες μού λένε ότι νιώθουν πιο ασφαλείς, ειδικά τη νύχτα"
+    },
+    {
+     "q": "Ποιο είναι για εκείνη το πιο δύσκολο κομμάτι της δουλειάς;",
+     "options": [
+      "Οι πολλές ώρες, η κίνηση και το πάρκινγκ",
+      "Οι νυχτερινές βάρδιες μόνο",
+      "Οι βλάβες του αυτοκινήτου",
+      "Οι αγενείς πελάτες"
+     ],
+     "answer": "Οι πολλές ώρες, η κίνηση και το πάρκινγκ",
+     "why": "Οι ώρες. Δουλεύω δέκα ώρες τη μέρα, και το μεγαλύτερο πρόβλημα είναι η κίνηση και το πάρκινγκ"
+    }
+   ],
+   "gloss": {
+    "τιμόνι": "τιμόνι — steering wheel",
+    "επαγγελματικό δίπλωμα": "επαγγελματικό δίπλωμα — professional driving licence",
+    "έτρεμα": "τρέμω — to tremble",
+    "ευχαριστιούνται": "ευχαριστιέμαι — to be pleased",
+    "ασφαλείς": "ασφαλής — safe",
+    "λάστιχο": "λάστιχο — tyre",
+    "κίνηση": "κίνηση — traffic",
+    "έγκυο": "έγκυος — pregnant (woman)",
+    "μαιευτήριο": "μαιευτήριο — maternity hospital",
+    "κάθισμα": "κάθισμα — seat"
+   }
+  },
+  {
+   "id": "l46-c1-kampyli-lithis",
+   "title": "Η καμπύλη της λήθης",
+   "title_en": "The forgetting curve",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε απόσπασμα από διάλεξη μιας γνωστικής ψυχολόγου για τη μνήμη και τη μάθηση.",
+   "script": [
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Στα τέλη του δέκατου ένατου αιώνα, ο Γερμανός ψυχολόγος Χέρμαν Έμπινγκχαους έκανε ένα πείραμα με τον πιο απλό συμμετέχοντα που μπορούσε να βρει: τον εαυτό του. Απομνημόνευε σειρές από συλλαβές χωρίς νόημα και μετρούσε πόσες θυμόταν μετά από λίγα λεπτά, ώρες ή μέρες. Το αποτέλεσμα ήταν αυτό που σήμερα ονομάζουμε καμπύλη της λήθης: ξεχνάμε το μεγαλύτερο μέρος όσων μαθαίνουμε μέσα στις πρώτες είκοσι τέσσερις ώρες, και μετά η απώλεια επιβραδύνεται.",
+     "en": "At the end of the nineteenth century, the German psychologist Hermann Ebbinghaus did an experiment with the simplest participant he could find: himself. He memorised series of meaningless syllables and measured how many he remembered after a few minutes, hours or days. The result was what we now call the forgetting curve: we forget most of what we learn within the first twenty-four hours, and then the loss slows down."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Το πιο ενδιαφέρον εύρημά του, όμως, δεν ήταν η λήθη αλλά η επανάληψη. Κάθε φορά που επαναλάμβανε το υλικό, η καμπύλη γινόταν πιο ομαλή: το ξεχνούσε πιο αργά. Αυτή είναι η βάση της λεγόμενης επανάληψης σε αραιά διαστήματα. Αντί να διαβάζουμε κάτι δέκα φορές σε ένα βράδυ, είναι πολύ αποτελεσματικότερο να το επαναλάβουμε την επόμενη μέρα, μετά από τρεις μέρες, μετά από μία εβδομάδα και ούτω καθεξής.",
+     "en": "His most interesting finding, however, was not forgetting but repetition. Every time he went over the material again, the curve became flatter: he forgot it more slowly. This is the basis of so-called spaced repetition. Instead of studying something ten times in one evening, it is far more effective to review it the next day, after three days, after a week, and so on."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Μεταγενέστερες έρευνες πρόσθεσαν κάτι ακόμα: η ανάκληση είναι ισχυρότερη από την απλή ανάγνωση. Όταν προσπαθούμε να θυμηθούμε μια λέξη πριν δούμε την απάντηση, ακόμα κι αν αποτύχουμε, η μνήμη μας ενισχύεται περισσότερο απ' ό,τι αν απλώς ξαναδιαβάσουμε τη λέξη. Η δυσκολία, με άλλα λόγια, δεν είναι εμπόδιο στη μάθηση· είναι μέρος της.",
+     "en": "Later research added something else: retrieval is more powerful than simple reading. When we try to remember a word before we see the answer, even if we fail, our memory is strengthened more than if we simply reread the word. Difficulty, in other words, is not an obstacle to learning; it is part of it."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Υπάρχει, βέβαια, και μια παγίδα. Η αίσθηση ότι κάτι το ξέρουμε, επειδή μας φαίνεται οικείο όταν το ξαναβλέπουμε, είναι συχνά απατηλή. Αναγνωρίζω μια λέξη δεν σημαίνει ότι μπορώ να την παράγω. Γι' αυτό η καλύτερη δοκιμασία δεν είναι να ρωτήσουμε «την αναγνωρίζω;» αλλά «μπορώ να τη χρησιμοποιήσω χωρίς βοήθεια;».",
+     "en": "There is, of course, also a trap. The feeling that we know something, because it seems familiar when we see it again, is often deceptive. Recognising a word does not mean I can produce it. That's why the best test is not to ask 'do I recognise it?' but 'can I use it without help?'."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιος ήταν ο συμμετέχων στο πείραμα του Έμπινγκχαους;",
+     "options": [
+      "Παιδιά δημοτικού",
+      "Άνθρωποι με προβλήματα μνήμης",
+      "Μια ομάδα φοιτητών",
+      "Ο ίδιος ο Έμπινγκχαους"
+     ],
+     "answer": "Ο ίδιος ο Έμπινγκχαους",
+     "why": "με τον πιο απλό συμμετέχοντα που μπορούσε να βρει: τον εαυτό του"
+    },
+    {
+     "q": "Τι δείχνει η καμπύλη της λήθης;",
+     "options": [
+      "Ότι δεν ξεχνάμε τίποτα αν κοιμηθούμε καλά",
+      "Ότι ξεχνάμε το μεγαλύτερο μέρος μέσα στις πρώτες είκοσι τέσσερις ώρες και μετά η απώλεια επιβραδύνεται",
+      "Ότι οι συλλαβές χωρίς νόημα δεν ξεχνιούνται",
+      "Ότι ξεχνάμε με σταθερό ρυθμό για πολλές εβδομάδες"
+     ],
+     "answer": "Ότι ξεχνάμε το μεγαλύτερο μέρος μέσα στις πρώτες είκοσι τέσσερις ώρες και μετά η απώλεια επιβραδύνεται",
+     "why": "ξεχνάμε το μεγαλύτερο μέρος όσων μαθαίνουμε μέσα στις πρώτες είκοσι τέσσερις ώρες, και μετά η απώλεια επιβραδύνεται"
+    },
+    {
+     "q": "Γιατί, κατά την ομιλήτρια, η προσπάθεια ανάκλησης είναι χρήσιμη ακόμα κι όταν αποτυγχάνουμε;",
+     "options": [
+      "Επειδή ενισχύει τη μνήμη περισσότερο από το απλό ξαναδιάβασμα",
+      "Επειδή μας κάνει να διαβάζουμε περισσότερο",
+      "Επειδή μας δείχνει ποιες λέξεις να σβήσουμε",
+      "Επειδή μειώνει το άγχος των εξετάσεων"
+     ],
+     "answer": "Επειδή ενισχύει τη μνήμη περισσότερο από το απλό ξαναδιάβασμα",
+     "why": "ακόμα κι αν αποτύχουμε, η μνήμη μας ενισχύεται περισσότερο απ' ό,τι αν απλώς ξαναδιαβάσουμε τη λέξη"
+    },
+    {
+     "q": "Ποια είναι η παγίδα που αναφέρει στο τέλος;",
+     "options": [
+      "Ότι η επανάληψη κουράζει τον εγκέφαλο",
+      "Ότι οι εφαρμογές στο κινητό δεν λειτουργούν",
+      "Ότι ξεχνάμε πιο γρήγορα όσο μεγαλώνουμε",
+      "Ότι το να αναγνωρίζουμε μια λέξη δεν σημαίνει ότι μπορούμε να την παράγουμε"
+     ],
+     "answer": "Ότι το να αναγνωρίζουμε μια λέξη δεν σημαίνει ότι μπορούμε να την παράγουμε",
+     "why": "Αναγνωρίζω μια λέξη δεν σημαίνει ότι μπορώ να την παράγω"
+    }
+   ],
+   "gloss": {
+    "γνωστικής": "γνωστικός — cognitive",
+    "συμμετέχοντα": "συμμετέχων — participant",
+    "Απομνημόνευε": "απομνημονεύω — to memorise",
+    "συλλαβές": "συλλαβή — syllable",
+    "καμπύλη της λήθης": "καμπύλη της λήθης — forgetting curve",
+    "απώλεια": "απώλεια — loss",
+    "επιβραδύνεται": "επιβραδύνομαι — to slow down",
+    "εύρημά": "εύρημα — finding",
+    "ομαλή": "ομαλός — smooth, gentle",
+    "αραιά διαστήματα": "αραιά διαστήματα — spaced intervals",
+    "ούτω καθεξής": "ούτω καθεξής — and so on",
+    "Μεταγενέστερες": "μεταγενέστερος — later, subsequent",
+    "ανάκληση": "ανάκληση — retrieval, recall",
+    "ενισχύεται": "ενισχύομαι — to be strengthened",
+    "οικείο": "οικείος — familiar",
+    "απατηλή": "απατηλός — deceptive",
+    "να την παράγω": "παράγω — to produce"
+   }
+  },
+  {
+   "id": "l46-c1-akrotiri",
+   "title": "Ακρωτήρι, μια πόλη κάτω από τη στάχτη",
+   "title_en": "Akrotiri, a town beneath the ash",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια συνέντευξη με έναν αρχαιολόγο για τον προϊστορικό οικισμό του Ακρωτηρίου στη Σαντορίνη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Το Ακρωτήρι συχνά αποκαλείται «η Πομπηία του Αιγαίου». Είναι δίκαιη αυτή η σύγκριση;",
+     "en": "Akrotiri is often called 'the Pompeii of the Aegean'. Is that a fair comparison?"
+    },
+    {
+     "speaker": "Αρχαιολόγος",
+     "voice": "m",
+     "el": "Εν μέρει. Όπως και η Πομπηία, ο οικισμός θάφτηκε κάτω από ηφαιστειακή τέφρα, και γι' αυτό διατηρήθηκε εξαιρετικά: σώζονται κτίρια δύο και τριών ορόφων, σκάλες, αποχετευτικοί αγωγοί, ακόμα και έπιπλα, των οποίων το σχήμα μπορέσαμε να αναπαραγάγουμε χύνοντας γύψο στα κενά που άφησε το ξύλο. Η μεγάλη διαφορά είναι ότι η Πομπηία είναι ρωμαϊκή, ενώ το Ακρωτήρι καταστράφηκε περίπου χίλια επτακόσια χρόνια νωρίτερα, στην Εποχή του Χαλκού.",
+     "en": "Partly. Like Pompeii, the settlement was buried under volcanic ash, and so it was exceptionally well preserved: buildings of two and three storeys survive, staircases, drainage pipes, even furniture, whose shape we were able to reproduce by pouring plaster into the cavities left by the wood. The big difference is that Pompeii is Roman, whereas Akrotiri was destroyed roughly seventeen hundred years earlier, in the Bronze Age."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και δεν βρέθηκαν θύματα, σε αντίθεση με την Πομπηία.",
+     "en": "And no victims were found, unlike in Pompeii."
+    },
+    {
+     "speaker": "Αρχαιολόγος",
+     "voice": "m",
+     "el": "Ακριβώς, και αυτό είναι ίσως το πιο συναρπαστικό αίνιγμα. Δεν έχουν βρεθεί ούτε ανθρώπινα λείψανα ούτε πολύτιμα αντικείμενα, πράγμα που υποδηλώνει ότι οι κάτοικοι είχαν προειδοποιηθεί, πιθανότατα από σεισμούς που προηγήθηκαν της έκρηξης, και πρόλαβαν να φύγουν παίρνοντας μαζί τους ό,τι είχε αξία. Αν σώθηκαν τελικά, δεν το γνωρίζουμε.",
+     "en": "Exactly, and that is perhaps the most fascinating puzzle. Neither human remains nor valuables have been found, which suggests that the inhabitants had been warned, most likely by earthquakes that preceded the eruption, and managed to leave, taking whatever was valuable with them. Whether they ultimately survived, we don't know."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τι είναι αυτό που κάνει το Ακρωτήρι μοναδικό για την ιστορία της τέχνης;",
+     "en": "What makes Akrotiri unique for the history of art?"
+    },
+    {
+     "speaker": "Αρχαιολόγος",
+     "voice": "m",
+     "el": "Οι τοιχογραφίες του. Ο ψαράς με τα ψάρια, τα χελιδόνια ανάμεσα στους κρίνους, οι μαζώχτρες του κρόκου: πρόκειται για τις πιο καλοδιατηρημένες τοιχογραφίες της προϊστορικής Ευρώπης. Και μας αποκαλύπτουν μια κοινωνία που ζούσε από το θαλάσσιο εμπόριο, είχε στενούς δεσμούς με τη μινωική Κρήτη και αγαπούσε, προφανώς, τη φύση. Θα πρόσθετα και κάτι ακόμα: οι ανασκαφές συνεχίζονται, και μόνο ένα μικρό μέρος της πόλης έχει αποκαλυφθεί.",
+     "en": "Its wall paintings. The fisherman with his fish, the swallows among the lilies, the saffron gatherers: these are the best-preserved wall paintings of prehistoric Europe. And they reveal a society that lived from sea trade, had close ties with Minoan Crete and evidently loved nature. I'd add one more thing: excavations are continuing, and only a small part of the town has been uncovered."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια είναι, κατά τον αρχαιολόγο, η μεγάλη διαφορά από την Πομπηία;",
+     "options": [
+      "Στο Ακρωτήρι δεν σώθηκαν κτίρια",
+      "Το Ακρωτήρι καταστράφηκε από σεισμό, όχι από ηφαίστειο",
+      "Το Ακρωτήρι καταστράφηκε περίπου χίλια επτακόσια χρόνια νωρίτερα, στην Εποχή του Χαλκού",
+      "Η Πομπηία ήταν πολύ μικρότερη"
+     ],
+     "answer": "Το Ακρωτήρι καταστράφηκε περίπου χίλια επτακόσια χρόνια νωρίτερα, στην Εποχή του Χαλκού",
+     "why": "το Ακρωτήρι καταστράφηκε περίπου χίλια επτακόσια χρόνια νωρίτερα, στην Εποχή του Χαλκού"
+    },
+    {
+     "q": "Πώς ξέρουμε το σχήμα των επίπλων;",
+     "options": [
+      "Από σχέδια στις τοιχογραφίες",
+      "Χύνοντας γύψο στα κενά που άφησε το ξύλο",
+      "Από αρχαία κείμενα",
+      "Επειδή το ξύλο σώθηκε άθικτο"
+     ],
+     "answer": "Χύνοντας γύψο στα κενά που άφησε το ξύλο",
+     "why": "χύνοντας γύψο στα κενά που άφησε το ξύλο"
+    },
+    {
+     "q": "Τι υποδηλώνει η απουσία θυμάτων και πολύτιμων αντικειμένων;",
+     "options": [
+      "Ότι οι αρχαιοκάπηλοι τα έκλεψαν",
+      "Ότι οι κάτοικοι είχαν προειδοποιηθεί και πρόλαβαν να φύγουν",
+      "Ότι ο οικισμός είχε εγκαταλειφθεί αιώνες πριν",
+      "Ότι οι κάτοικοι ήταν πολύ φτωχοί"
+     ],
+     "answer": "Ότι οι κάτοικοι είχαν προειδοποιηθεί και πρόλαβαν να φύγουν",
+     "why": "οι κάτοικοι είχαν προειδοποιηθεί ... και πρόλαβαν να φύγουν"
+    },
+    {
+     "q": "Τι μας αποκαλύπτουν οι τοιχογραφίες για την κοινωνία του Ακρωτηρίου;",
+     "options": [
+      "Ότι ζούσε από το θαλάσσιο εμπόριο και είχε στενούς δεσμούς με τη μινωική Κρήτη",
+      "Ότι δεν είχε επαφή με άλλους λαούς",
+      "Ότι ζούσε μόνο από την κτηνοτροφία",
+      "Ότι ήταν κυρίως κοινωνία πολεμιστών"
+     ],
+     "answer": "Ότι ζούσε από το θαλάσσιο εμπόριο και είχε στενούς δεσμούς με τη μινωική Κρήτη",
+     "why": "μια κοινωνία που ζούσε από το θαλάσσιο εμπόριο, είχε στενούς δεσμούς με τη μινωική Κρήτη"
+    }
+   ],
+   "gloss": {
+    "προϊστορικό": "προϊστορικός — prehistoric",
+    "οικισμό": "οικισμός — settlement",
+    "θάφτηκε": "θάβομαι — to be buried",
+    "ηφαιστειακή τέφρα": "ηφαιστειακή τέφρα — volcanic ash",
+    "αποχετευτικοί αγωγοί": "αποχετευτικός αγωγός — drainage pipe",
+    "αναπαραγάγουμε": "αναπαράγω — to reproduce",
+    "γύψο": "γύψος — plaster",
+    "Εποχή του Χαλκού": "Εποχή του Χαλκού — Bronze Age",
+    "αίνιγμα": "αίνιγμα — riddle, puzzle",
+    "λείψανα": "λείψανα — remains",
+    "υποδηλώνει": "υποδηλώνω — to suggest, indicate",
+    "είχαν προειδοποιηθεί": "προειδοποιούμαι — to be warned",
+    "έκρηξης": "έκρηξη — eruption",
+    "τοιχογραφίες": "τοιχογραφία — wall painting, fresco",
+    "χελιδόνια": "χελιδόνι — swallow",
+    "κρίνους": "κρίνος — lily",
+    "μαζώχτρες του κρόκου": "μαζώχτρα του κρόκου — saffron gatherer",
+    "δεσμούς": "δεσμός — tie, bond",
+    "ανασκαφές": "ανασκαφή — excavation"
+   }
+  }
+ ]
+}
