@@ -1,0 +1,855 @@
+{
+ "items": [
+  {
+   "id": "l29-ann-anaklisi",
+   "title": "Ανάκληση προϊόντος",
+   "title_en": "A product recall",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα ενός σούπερ μάρκετ.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Αγαπητοί πελάτες, σας ενημερώνουμε ότι, ύστερα από οδηγία του Ενιαίου Φορέα Ελέγχου Τροφίμων, ανακαλείται από την αγορά το τυρί κρέμα σε συσκευασία των διακοσίων γραμμαρίων, με ημερομηνία λήξης δώδεκα Δεκεμβρίου. Σε ορισμένες συσκευασίες εντοπίστηκε βακτήριο που μπορεί να προκαλέσει τροφική δηλητηρίαση.",
+     "en": "Dear customers, we inform you that, following an instruction from the Hellenic Food Authority, the cream cheese in 200-gram packs with a use-by date of 12 December is being recalled from the market. A bacterium that can cause food poisoning was found in some packs."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Αν έχετε αγοράσει το συγκεκριμένο προϊόν, παρακαλούμε να μην το καταναλώσετε. Μπορείτε να το επιστρέψετε στο ταμείο εξυπηρέτησης πελατών και θα σας επιστραφούν τα χρήματα, ακόμη κι αν δεν έχετε την απόδειξη. Η επιστροφή μπορεί να γίνει σε οποιοδήποτε κατάστημα της αλυσίδας μας.",
+     "en": "If you have bought this product, please do not eat it. You can return it to the customer service desk and you will get your money back, even if you don't have the receipt. The return can be made at any store in our chain."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Οι υπόλοιπες συσκευασίες της ίδιας εταιρείας, καθώς και το ίδιο τυρί με άλλη ημερομηνία λήξης, είναι απολύτως ασφαλή. Ζητούμε συγγνώμη για την ταλαιπωρία.",
+     "en": "The company's other packs, as well as the same cheese with a different use-by date, are completely safe. We apologise for the inconvenience."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ανακαλείται το τυρί;",
+     "options": [
+      "Γιατί η συσκευασία ήταν σπασμένη",
+      "Γιατί είχε λήξει",
+      "Γιατί σε ορισμένες συσκευασίες βρέθηκε επικίνδυνο βακτήριο",
+      "Γιατί είχε λάθος τιμή"
+     ],
+     "answer": "Γιατί σε ορισμένες συσκευασίες βρέθηκε επικίνδυνο βακτήριο",
+     "why": "Σε ορισμένες συσκευασίες εντοπίστηκε βακτήριο που μπορεί να προκαλέσει τροφική δηλητηρίαση"
+    },
+    {
+     "q": "Τι ισχύει για την επιστροφή;",
+     "options": [
+      "Δεν επιστρέφονται χρήματα",
+      "Γίνεται χωρίς απόδειξη, σε οποιοδήποτε κατάστημα της αλυσίδας",
+      "Γίνεται μόνο στο κατάστημα της αγοράς",
+      "Χρειάζεται απαραίτητα απόδειξη"
+     ],
+     "answer": "Γίνεται χωρίς απόδειξη, σε οποιοδήποτε κατάστημα της αλυσίδας",
+     "why": "ακόμη κι αν δεν έχετε την απόδειξη … σε οποιοδήποτε κατάστημα της αλυσίδας μας"
+    },
+    {
+     "q": "Ποια προϊόντα είναι ασφαλή;",
+     "options": [
+      "Μόνο τα τυριά των διακοσίων γραμμαρίων",
+      "Κανένα προϊόν της εταιρείας",
+      "Το ίδιο τυρί με άλλη ημερομηνία λήξης",
+      "Μόνο τα γαλακτοκομικά"
+     ],
+     "answer": "Το ίδιο τυρί με άλλη ημερομηνία λήξης",
+     "why": "το ίδιο τυρί με άλλη ημερομηνία λήξης, είναι απολύτως ασφαλή"
+    }
+   ],
+   "gloss": {
+    "ανακαλείται": "ανακαλώ — to recall",
+    "Φορέα": "φορέας — body, authority",
+    "συσκευασία": "συσκευασία — pack, packaging",
+    "ημερομηνία λήξης": "ημερομηνία λήξης — use-by date",
+    "εντοπίστηκε": "εντοπίζω — to detect, locate",
+    "βακτήριο": "βακτήριο — bacterium",
+    "δηλητηρίαση": "δηλητηρίαση — poisoning",
+    "να μην το καταναλώσετε": "καταναλώνω — to consume",
+    "εξυπηρέτησης πελατών": "εξυπηρέτηση πελατών — customer service",
+    "αλυσίδας": "αλυσίδα — chain",
+    "ταλαιπωρία": "ταλαιπωρία — inconvenience"
+   }
+  },
+  {
+   "id": "l29-vm-ilektrologos",
+   "title": "Μήνυμα από τον ηλεκτρολόγο",
+   "title_en": "A message from the electrician",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από τον ηλεκτρολόγο που ήρθε να δει το σπίτι σας.",
+   "script": [
+    {
+     "speaker": "Ηλεκτρολόγος",
+     "voice": "m",
+     "el": "Καλησπέρα, κυρία Ραφαηλίδου, ο Θανάσης είμαι, ο ηλεκτρολόγος. Σας τηλεφωνώ για την προσφορά που μου ζητήσατε για την ανακαίνιση της κουζίνας. Το κόστος για τις καινούργιες πρίζες και τον φωτισμό θα είναι γύρω στα τετρακόσια ευρώ, μαζί με τα υλικά.",
+     "en": "Good evening, Mrs Rafailidou, it's Thanasis, the electrician. I'm calling about the quote you asked me for the kitchen renovation. The cost of the new sockets and the lighting will be about four hundred euros, including materials."
+    },
+    {
+     "speaker": "Ηλεκτρολόγος",
+     "voice": "m",
+     "el": "Πρέπει όμως να σας πω κάτι πιο σοβαρό. Όταν άνοιξα τον πίνακα, είδα ότι δεν έχετε διακόπτη διαρροής, το λεγόμενο «ρελέ». Είναι ο διακόπτης που κόβει αμέσως το ρεύμα αν κάποιος πάθει ηλεκτροπληξία. Σε ένα σπίτι με μικρά παιδιά, αυτό δεν πρέπει να περιμένει.",
+     "en": "But I have to tell you something more serious. When I opened the fuse box, I saw that you don't have a residual-current device, the so-called 'relay'. It's the switch that cuts the power immediately if someone gets an electric shock. In a house with small children, that shouldn't wait."
+    },
+    {
+     "speaker": "Ηλεκτρολόγος",
+     "voice": "m",
+     "el": "Η τοποθέτηση κοστίζει περίπου ογδόντα ευρώ και κρατάει μία ώρα. Θα μπορούσα να έρθω ακόμη και αύριο το πρωί. Πάρτε με όταν μπορέσετε, ακόμη και αργά το βράδυ.",
+     "en": "Fitting it costs about eighty euros and takes an hour. I could come as early as tomorrow morning. Call me when you can, even late in the evening."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Για ποια δουλειά ζήτησε προσφορά η κυρία Ραφαηλίδου;",
+     "options": [
+      "Για τον κλιματισμό",
+      "Για την ανακαίνιση της κουζίνας",
+      "Για την πρόσοψη του σπιτιού",
+      "Για το μπάνιο"
+     ],
+     "answer": "Για την ανακαίνιση της κουζίνας",
+     "why": "την προσφορά που μου ζητήσατε για την ανακαίνιση της κουζίνας"
+    },
+    {
+     "q": "Τι σοβαρό πρόβλημα βρήκε ο ηλεκτρολόγος;",
+     "options": [
+      "Ο πίνακας ήταν βρεγμένος",
+      "Τα καλώδια είχαν καεί",
+      "Το ρεύμα κόβεται συχνά",
+      "Δεν υπάρχει διακόπτης διαρροής"
+     ],
+     "answer": "Δεν υπάρχει διακόπτης διαρροής",
+     "why": "δεν έχετε διακόπτη διαρροής"
+    },
+    {
+     "q": "Γιατί, κατά τον ηλεκτρολόγο, η δουλειά δεν πρέπει να περιμένει;",
+     "options": [
+      "Γιατί θα αυξηθούν οι τιμές",
+      "Γιατί φεύγει για διακοπές",
+      "Γιατί στο σπίτι μένουν μικρά παιδιά",
+      "Γιατί το απαιτεί ο νόμος από αύριο"
+     ],
+     "answer": "Γιατί στο σπίτι μένουν μικρά παιδιά",
+     "why": "Σε ένα σπίτι με μικρά παιδιά, αυτό δεν πρέπει να περιμένει"
+    }
+   ],
+   "gloss": {
+    "ηλεκτρολόγο": "ηλεκτρολόγος — electrician",
+    "προσφορά": "προσφορά — quote, offer",
+    "ανακαίνιση": "ανακαίνιση — renovation",
+    "πρίζες": "πρίζα — socket",
+    "φωτισμό": "φωτισμός — lighting",
+    "υλικά": "υλικό — material",
+    "πίνακα": "(ηλεκτρικός) πίνακας — fuse box",
+    "διακόπτη διαρροής": "διακόπτης διαρροής — residual-current device (RCD)",
+    "ηλεκτροπληξία": "ηλεκτροπληξία — electric shock",
+    "τοποθέτηση": "τοποθέτηση — fitting, installation"
+   }
+  },
+  {
+   "id": "l29-dia-afm",
+   "title": "Στην εφορία",
+   "title_en": "At the tax office",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε μια εφορία, όπου ένας ξένος ζητά αριθμό φορολογικού μητρώου.",
+   "script": [
+    {
+     "speaker": "Πολίτης",
+     "voice": "m",
+     "el": "Καλημέρα. Είμαι Ιταλός, μετακόμισα στην Ελλάδα για δουλειά και μου είπαν ότι χρειάζομαι ΑΦΜ. Τι ακριβώς είναι και πώς τον βγάζω;",
+     "en": "Good morning. I'm Italian, I moved to Greece for work and I was told I need a tax number. What exactly is it and how do I get it?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Ο ΑΦΜ είναι ο αριθμός φορολογικού μητρώου. Θα τον χρειαστείτε σχεδόν για τα πάντα: για να σας πληρώσει ο εργοδότης σας, για να νοικιάσετε σπίτι, για να ανοίξετε λογαριασμό στην τράπεζα ή για να συνδέσετε ρεύμα. Φέρατε το διαβατήριο ή την ταυτότητά σας;",
+     "en": "The tax number is your tax registration number. You'll need it for almost everything: for your employer to pay you, to rent a flat, to open a bank account or to get the electricity connected. Did you bring your passport or identity card?"
+    },
+    {
+     "speaker": "Πολίτης",
+     "voice": "m",
+     "el": "Ναι, την ιταλική μου ταυτότητα. Έχω και το συμφωνητικό του διαμερίσματος.",
+     "en": "Yes, my Italian identity card. I also have the lease for the flat."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Τέλεια, το συμφωνητικό αποδεικνύει τη διεύθυνσή σας. Ως πολίτης της Ευρωπαϊκής Ένωσης δεν χρειάζεστε άδεια διαμονής για τον ΑΦΜ. Θα συμπληρώσουμε μαζί μια αίτηση και θα τον έχετε σε δέκα λεπτά. Μετά, σας συμβουλεύω να ζητήσετε και κωδικούς για την ηλεκτρονική πλατφόρμα, ώστε να μη χρειάζεται να έρχεστε εδώ για κάθε βεβαίωση.",
+     "en": "Great, the lease proves your address. As an EU citizen you don't need a residence permit for the tax number. We'll fill in an application together and you'll have it in ten minutes. Afterwards, I'd advise you to also ask for passwords for the online platform, so you don't have to come here for every certificate."
+    },
+    {
+     "speaker": "Πολίτης",
+     "voice": "m",
+     "el": "Δέκα λεπτά; Στην Ιταλία μού είχαν πει να κάνω υπομονή με τη γραφειοκρατία!",
+     "en": "Ten minutes? In Italy they'd told me to be patient with the bureaucracy!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Για ποιο από τα παρακάτω, σύμφωνα με την υπάλληλο, χρειάζεται ο ΑΦΜ;",
+     "options": [
+      "Για να ταξιδέψει στο εξωτερικό",
+      "Για να βγάλει δίπλωμα οδήγησης",
+      "Για να γραφτεί σε γυμναστήριο",
+      "Για να νοικιάσει σπίτι"
+     ],
+     "answer": "Για να νοικιάσει σπίτι",
+     "why": "για να νοικιάσετε σπίτι"
+    },
+    {
+     "q": "Τι αποδεικνύει το συμφωνητικό του διαμερίσματος;",
+     "options": [
+      "Την ιθαγένειά του",
+      "Τον μισθό του",
+      "Την ηλικία του",
+      "Τη διεύθυνσή του"
+     ],
+     "answer": "Τη διεύθυνσή του",
+     "why": "το συμφωνητικό αποδεικνύει τη διεύθυνσή σας"
+    },
+    {
+     "q": "Γιατί η υπάλληλος τον συμβουλεύει να ζητήσει κωδικούς;",
+     "options": [
+      "Για να πληρώνει λιγότερους φόρους",
+      "Γιατί είναι υποχρεωτικό",
+      "Για να βρει δουλειά",
+      "Για να μη χρειάζεται να έρχεται στην εφορία για κάθε βεβαίωση"
+     ],
+     "answer": "Για να μη χρειάζεται να έρχεται στην εφορία για κάθε βεβαίωση",
+     "why": "ώστε να μη χρειάζεται να έρχεστε εδώ για κάθε βεβαίωση"
+    }
+   ],
+   "gloss": {
+    "εφορία": "εφορία — tax office",
+    "φορολογικού μητρώου": "φορολογικό μητρώο — tax register",
+    "ΑΦΜ": "ΑΦΜ (αριθμός φορολογικού μητρώου) — tax number",
+    "εργοδότης": "εργοδότης — employer",
+    "να συνδέσετε": "συνδέω — to connect",
+    "συμφωνητικό": "συμφωνητικό — agreement, lease",
+    "αποδεικνύει": "αποδεικνύω — to prove",
+    "άδεια διαμονής": "άδεια διαμονής — residence permit",
+    "πλατφόρμα": "πλατφόρμα — platform",
+    "βεβαίωση": "βεβαίωση — certificate",
+    "γραφειοκρατία": "γραφειοκρατία — bureaucracy"
+   }
+  },
+  {
+   "id": "l29-dia-koinochrista",
+   "title": "Τα κοινόχρηστα",
+   "title_en": "The building's shared costs",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο ανάμεσα σε δύο γείτονες σε μια πολυκατοικία.",
+   "script": [
+    {
+     "speaker": "Γειτόνισσα",
+     "voice": "f",
+     "el": "Καλημέρα, κύριε Σωτήρη. Είδατε το χαρτί με τα κοινόχρηστα στην είσοδο; Φέτος τον Ιανουάριο πληρώνουμε σχεδόν διπλάσια από πέρσι!",
+     "en": "Good morning, Mr Sotiris. Did you see the notice with the shared costs in the entrance? This January we're paying almost double last year!"
+    },
+    {
+     "speaker": "Γείτονας",
+     "voice": "m",
+     "el": "Το είδα, κυρία Λένα. Ο διαχειριστής λέει ότι φταίει κυρίως το πετρέλαιο θέρμανσης, που ακρίβυνε πολύ. Και φέτος ο καυστήρας δούλευε πιο πολλές ώρες, γιατί κάποιοι ζήτησαν να ανάβει και το απόγευμα.",
+     "en": "I saw it, Mrs Lena. The building manager says it's mainly the heating oil, which has become much more expensive. And this year the boiler ran for more hours, because some people asked for it to come on in the afternoon too."
+    },
+    {
+     "speaker": "Γειτόνισσα",
+     "voice": "f",
+     "el": "Εγώ όμως λείπω όλη μέρα στη δουλειά! Δεν είναι δίκαιο να πληρώνω για ζέστη που δεν χρησιμοποιώ.",
+     "en": "But I'm out at work all day! It's not fair for me to pay for heat I don't use."
+    },
+    {
+     "speaker": "Γείτονας",
+     "voice": "m",
+     "el": "Έχετε δίκιο. Γι' αυτό στη γενική συνέλευση τον Μάρτιο θα προτείνω να βάλουμε θερμιδομετρητές σε κάθε διαμέρισμα. Έτσι ο καθένας θα πληρώνει ανάλογα με την κατανάλωσή του. Το κόστος της εγκατάστασης θα αποσβεστεί σε δύο με τρία χρόνια.",
+     "en": "You're right. That's why at the general meeting in March I'll propose that we put heat meters in every flat. That way everyone will pay according to their consumption. The cost of installation will pay for itself in two to three years."
+    },
+    {
+     "speaker": "Γειτόνισσα",
+     "voice": "f",
+     "el": "Θα σας υποστηρίξω. Και ας ελέγξουμε και τα παράθυρα της σκάλας· το χειμώνα μένουν συνέχεια ανοιχτά!",
+     "en": "I'll support you. And let's check the stairwell windows too; in winter they're always left open!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί, σύμφωνα με τον διαχειριστή, αυξήθηκαν τα κοινόχρηστα;",
+     "options": [
+      "Λόγω νέων φόρων",
+      "Λόγω επισκευής του ανελκυστήρα",
+      "Κυρίως λόγω του ακριβότερου πετρελαίου θέρμανσης",
+      "Γιατί προσλήφθηκε καθαρίστρια"
+     ],
+     "answer": "Κυρίως λόγω του ακριβότερου πετρελαίου θέρμανσης",
+     "why": "φταίει κυρίως το πετρέλαιο θέρμανσης, που ακρίβυνε πολύ"
+    },
+    {
+     "q": "Γιατί διαμαρτύρεται η κυρία Λένα;",
+     "options": [
+      "Γιατί δεν την ενημέρωσαν",
+      "Γιατί δεν ζεσταίνεται το σπίτι της",
+      "Γιατί πληρώνει για θέρμανση που δεν χρησιμοποιεί",
+      "Γιατί ο καυστήρας κάνει θόρυβο"
+     ],
+     "answer": "Γιατί πληρώνει για θέρμανση που δεν χρησιμοποιεί",
+     "why": "Δεν είναι δίκαιο να πληρώνω για ζέστη που δεν χρησιμοποιώ"
+    },
+    {
+     "q": "Τι θα προτείνει ο κύριος Σωτήρης στη συνέλευση;",
+     "options": [
+      "Να κλείσει ο καυστήρας",
+      "Να μπει φυσικό αέριο",
+      "Να μπουν θερμιδομετρητές σε κάθε διαμέρισμα",
+      "Να αλλάξει διαχειριστής"
+     ],
+     "answer": "Να μπουν θερμιδομετρητές σε κάθε διαμέρισμα",
+     "why": "θα προτείνω να βάλουμε θερμιδομετρητές σε κάθε διαμέρισμα"
+    }
+   ],
+   "gloss": {
+    "κοινόχρηστα": "κοινόχρηστα — shared building costs",
+    "διπλάσια": "διπλάσιος — double",
+    "διαχειριστής": "διαχειριστής — building manager",
+    "πετρέλαιο θέρμανσης": "πετρέλαιο θέρμανσης — heating oil",
+    "ακρίβυνε": "ακριβαίνω — to become more expensive",
+    "καυστήρας": "καυστήρας — boiler",
+    "δίκαιο": "δίκαιος — fair",
+    "συνέλευση": "συνέλευση — meeting, assembly",
+    "θερμιδομετρητές": "θερμιδομετρητής — heat meter",
+    "κατανάλωσή": "κατανάλωση — consumption",
+    "θα αποσβεστεί": "αποσβένομαι — to pay for itself, be written off"
+   }
+  },
+  {
+   "id": "l29-mon-kolymbi",
+   "title": "Κολύμπι στα πενήντα",
+   "title_en": "Swimming at fifty",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια γυναίκα να μιλάει σε μια ραδιοφωνική εκπομπή για το πώς έμαθε κολύμπι.",
+   "script": [
+    {
+     "speaker": "Αλεξάνδρα",
+     "voice": "f",
+     "el": "Μεγάλωσα στη Λάρισα, μακριά από τη θάλασσα, και οι γονείς μου δεν ήξεραν κολύμπι. Έτσι, ούτε εγώ έμαθα ποτέ. Στις διακοπές καθόμουν στην ακτή και έλεγα σε όλους ότι προτιμώ τον ήλιο. Η αλήθεια ήταν ότι ντρεπόμουν και φοβόμουν το νερό.",
+     "en": "I grew up in Larissa, far from the sea, and my parents couldn't swim. So I never learned either. On holiday I sat on the shore and told everyone I preferred the sun. The truth was that I was embarrassed and afraid of the water."
+    },
+    {
+     "speaker": "Αλεξάνδρα",
+     "voice": "f",
+     "el": "Πριν από δύο χρόνια, όταν έκλεισα τα πενήντα, η εγγονή μου με ρώτησε γιατί δεν μπαίνω ποτέ στη θάλασσα μαζί της. Εκείνο το βράδυ γράφτηκα σε ένα κολυμβητήριο, σε ένα τμήμα για ενήλικες αρχάριους. Ήμασταν οκτώ, όλοι πάνω από σαράντα, και όλοι με την ίδια ντροπή.",
+     "en": "Two years ago, when I turned fifty, my granddaughter asked me why I never go into the sea with her. That evening I signed up at a swimming pool, in a class for adult beginners. There were eight of us, all over forty, and all with the same embarrassment."
+    },
+    {
+     "speaker": "Αλεξάνδρα",
+     "voice": "f",
+     "el": "Τους πρώτους δύο μήνες απλώς μαθαίναμε να βάζουμε το πρόσωπο στο νερό και να αναπνέουμε. Ο προπονητής μας έλεγε ότι οι ενήλικες δεν μαθαίνουν πιο αργά από τα παιδιά, απλώς φοβούνται περισσότερο. Πέρσι το καλοκαίρι κολύμπησα για πρώτη φορά στα βαθιά, με την εγγονή μου δίπλα μου. Ήταν από τις πιο ευτυχισμένες στιγμές της ζωής μου.",
+     "en": "For the first two months we just learned to put our faces in the water and breathe. Our coach told us that adults don't learn more slowly than children, they're just more afraid. Last summer I swam out of my depth for the first time, with my granddaughter beside me. It was one of the happiest moments of my life."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί η Αλεξάνδρα δεν έμαθε κολύμπι ως παιδί;",
+     "options": [
+      "Γιατί μεγάλωσε μακριά από τη θάλασσα και οι γονείς της δεν ήξεραν κολύμπι",
+      "Γιατί ήταν άρρωστη",
+      "Γιατί δεν της άρεσε ο ήλιος",
+      "Γιατί δεν υπήρχε κολυμβητήριο στη Λάρισα"
+     ],
+     "answer": "Γιατί μεγάλωσε μακριά από τη θάλασσα και οι γονείς της δεν ήξεραν κολύμπι",
+     "why": "Μεγάλωσα στη Λάρισα, μακριά από τη θάλασσα, και οι γονείς μου δεν ήξεραν κολύμπι"
+    },
+    {
+     "q": "Τι την έκανε να γραφτεί σε κολυμβητήριο;",
+     "options": [
+      "Μια προσφορά του κολυμβητηρίου",
+      "Η ερώτηση της εγγονής της",
+      "Μια συμβουλή του γιατρού",
+      "Ένα ατύχημα στη θάλασσα"
+     ],
+     "answer": "Η ερώτηση της εγγονής της",
+     "why": "η εγγονή μου με ρώτησε γιατί δεν μπαίνω ποτέ στη θάλασσα μαζί της"
+    },
+    {
+     "q": "Τι έλεγε ο προπονητής για τους ενήλικες;",
+     "options": [
+      "Ότι μαθαίνουν πιο αργά από τα παιδιά",
+      "Ότι δεν πρέπει να κολυμπούν στα βαθιά",
+      "Ότι πρέπει να κάνουν ιδιαίτερα μαθήματα",
+      "Ότι δεν μαθαίνουν πιο αργά, απλώς φοβούνται περισσότερο"
+     ],
+     "answer": "Ότι δεν μαθαίνουν πιο αργά, απλώς φοβούνται περισσότερο",
+     "why": "οι ενήλικες δεν μαθαίνουν πιο αργά από τα παιδιά, απλώς φοβούνται περισσότερο"
+    }
+   ],
+   "gloss": {
+    "ακτή": "ακτή — shore",
+    "ντρεπόμουν": "ντρέπομαι — to be embarrassed, ashamed",
+    "έκλεισα τα πενήντα": "κλείνω τα πενήντα — to turn fifty",
+    "εγγονή": "εγγονή — granddaughter",
+    "κολυμβητήριο": "κολυμβητήριο — swimming pool",
+    "ενήλικες": "ενήλικας — adult",
+    "αρχάριους": "αρχάριος — beginner",
+    "ντροπή": "ντροπή — shame, embarrassment",
+    "να αναπνέουμε": "αναπνέω — to breathe",
+    "προπονητής": "προπονητής — coach",
+    "στα βαθιά": "στα βαθιά — out of one's depth, in deep water"
+   }
+  },
+  {
+   "id": "l29-rep-dimitsana",
+   "title": "Η δύναμη του νερού στη Δημητσάνα",
+   "title_en": "Water power in Dimitsana",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από τη Δημητσάνα, ένα ορεινό χωριό της Αρκαδίας.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η Δημητσάνα είναι χτισμένη σαν αμφιθέατρο πάνω από το φαράγγι του Λούσιου. Το ποτάμι, με τα άφθονα νερά του, ήταν για αιώνες η μεγαλύτερη περιουσία του τόπου. Εδώ λειτουργούσαν νερόμυλοι, νεροτριβές για τα υφάσματα και εργαστήρια που κατεργάζονταν δέρματα.",
+     "en": "Dimitsana is built like an amphitheatre above the Lousios gorge. The river, with its abundant water, was for centuries the area's greatest asset. Watermills operated here, fulling mills for cloth and workshops that processed hides."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η πιο γνωστή, όμως, δραστηριότητα ήταν τα μπαρουτόμυλα. Στα χρόνια της Επανάστασης του 1821, η μπαρούτη που παραγόταν εδώ τροφοδοτούσε τους αγωνιστές, γι' αυτό η Δημητσάνα έμεινε στην ιστορία ως ένα από τα σημαντικότερα κέντρα του Αγώνα.",
+     "en": "The best-known activity, however, was the gunpowder mills. In the years of the 1821 Revolution, the gunpowder produced here supplied the fighters, which is why Dimitsana went down in history as one of the most important centres of the struggle."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Σήμερα, στο Υπαίθριο Μουσείο Υδροκίνησης, οι επισκέπτες μπορούν να δουν πώς δούλευαν αυτές οι εγκαταστάσεις, που έχουν αποκατασταθεί και λειτουργούν ξανά. Από εδώ ξεκινά και ένα από τα πιο όμορφα μονοπάτια της Πελοποννήσου, που ακολουθεί το ποτάμι και περνά από μοναστήρια χτισμένα στους βράχους.",
+     "en": "Today, at the Open-Air Water Power Museum, visitors can see how these installations worked; they have been restored and operate again. One of the most beautiful paths in the Peloponnese also starts here, following the river and passing monasteries built into the rocks."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ήταν για αιώνες η μεγαλύτερη περιουσία της Δημητσάνας;",
+     "options": [
+      "Τα μοναστήρια",
+      "Το ποτάμι με τα άφθονα νερά του",
+      "Τα πρόβατα",
+      "Τα δάση"
+     ],
+     "answer": "Το ποτάμι με τα άφθονα νερά του",
+     "why": "Το ποτάμι, με τα άφθονα νερά του, ήταν για αιώνες η μεγαλύτερη περιουσία του τόπου"
+    },
+    {
+     "q": "Γιατί η Δημητσάνα είναι σημαντική για την Επανάσταση του 1821;",
+     "options": [
+      "Γιατί εκεί υπογράφηκε η ανεξαρτησία",
+      "Γιατί γεννήθηκε εκεί ο Κολοκοτρώνης",
+      "Γιατί εκεί έγινε η πρώτη μάχη",
+      "Γιατί η μπαρούτη της τροφοδοτούσε τους αγωνιστές"
+     ],
+     "answer": "Γιατί η μπαρούτη της τροφοδοτούσε τους αγωνιστές",
+     "why": "η μπαρούτη που παραγόταν εδώ τροφοδοτούσε τους αγωνιστές"
+    },
+    {
+     "q": "Τι μπορούν να δουν σήμερα οι επισκέπτες στο μουσείο;",
+     "options": [
+      "Μια συλλογή από υφάσματα",
+      "Όπλα της Επανάστασης",
+      "Πώς δούλευαν οι εγκαταστάσεις, που λειτουργούν ξανά",
+      "Ένα αρχαίο θέατρο"
+     ],
+     "answer": "Πώς δούλευαν οι εγκαταστάσεις, που λειτουργούν ξανά",
+     "why": "μπορούν να δουν πώς δούλευαν αυτές οι εγκαταστάσεις, που έχουν αποκατασταθεί και λειτουργούν ξανά"
+    }
+   ],
+   "gloss": {
+    "αμφιθέατρο": "αμφιθέατρο — amphitheatre",
+    "φαράγγι": "φαράγγι — gorge",
+    "άφθονα": "άφθονος — abundant",
+    "περιουσία": "περιουσία — wealth, asset",
+    "νερόμυλοι": "νερόμυλος — watermill",
+    "νεροτριβές": "νεροτριβή — fulling mill (water-driven cloth washer)",
+    "κατεργάζονταν": "κατεργάζομαι — to process, work",
+    "μπαρουτόμυλα": "μπαρουτόμυλος — gunpowder mill",
+    "τροφοδοτούσε": "τροφοδοτώ — to supply",
+    "αγωνιστές": "αγωνιστής — fighter (in the 1821 war)",
+    "Υδροκίνησης": "υδροκίνηση — water power",
+    "έχουν αποκατασταθεί": "αποκαθίσταμαι — to be restored"
+   }
+  },
+  {
+   "id": "l29-rep-dirou",
+   "title": "Τα σπήλαια του Διρού",
+   "title_en": "The Diros caves",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από τα σπήλαια του Διρού, στη Μάνη.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η βάρκα προχωρά αθόρυβα σε ένα υπόγειο ποτάμι. Ο βαρκάρης σπρώχνει με ένα κοντάρι, και γύρω μας οι σταλακτίτες κρέμονται από την οροφή σαν κρύσταλλα. Βρισκόμαστε στη Βλυχάδα, ένα από τα σπήλαια του Διρού, στη δυτική ακτή της Μάνης.",
+     "en": "The boat moves silently along an underground river. The boatman pushes with a pole, and around us the stalactites hang from the ceiling like crystals. We are in Vlychada, one of the Diros caves, on the west coast of the Mani."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η διαδρομή με τη βάρκα έχει μήκος περίπου ενάμισι χιλιομέτρου, και τελειώνει με ένα σύντομο κομμάτι με τα πόδια. Το νερό, μισό αλμυρό και μισό γλυκό, έχει σε ορισμένα σημεία βάθος πάνω από είκοσι μέτρα. Οι εξερευνητές έχουν χαρτογραφήσει μέχρι σήμερα πολλά χιλιόμετρα διαδρόμων, και πιστεύεται ότι το σπήλαιο συνεχίζεται ακόμη πιο βαθιά.",
+     "en": "The boat route is about one and a half kilometres long, and ends with a short stretch on foot. The water, half salt and half fresh, is more than twenty metres deep in places. Explorers have so far mapped many kilometres of passages, and the cave is believed to go even deeper."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Λίγα μέτρα πιο πέρα βρίσκεται η Αλεπότρυπα, ένα σπήλαιο που κατοικήθηκε στη Νεολιθική εποχή. Εκεί οι αρχαιολόγοι βρήκαν εργαλεία, αγγεία και ταφές, που μας δείχνουν ότι άνθρωποι ζούσαν σε αυτή την περιοχή πριν από χιλιάδες χρόνια. Συμβουλή για τους επισκέπτες: πάρτε μια ζακέτα, γιατί μέσα η θερμοκρασία μένει σταθερή, γύρω στους δεκαοκτώ βαθμούς, ακόμη και τον Αύγουστο.",
+     "en": "A few metres further on is Alepotrypa, a cave that was inhabited in the Neolithic period. There archaeologists found tools, pots and burials, which show us that people lived in this area thousands of years ago. A tip for visitors: take a cardigan, because inside the temperature stays constant, around eighteen degrees, even in August."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς κινείται η βάρκα μέσα στο σπήλαιο;",
+     "options": [
+      "Ο βαρκάρης τη σπρώχνει με ένα κοντάρι",
+      "Με μηχανή",
+      "Τη σέρνει ένα σχοινί",
+      "Με κουπιά που κάνουν οι επισκέπτες"
+     ],
+     "answer": "Ο βαρκάρης τη σπρώχνει με ένα κοντάρι",
+     "why": "Ο βαρκάρης σπρώχνει με ένα κοντάρι"
+    },
+    {
+     "q": "Τι βρήκαν οι αρχαιολόγοι στην Αλεπότρυπα;",
+     "options": [
+      "Εργαλεία, αγγεία και ταφές",
+      "Οστά δεινοσαύρων",
+      "Νομίσματα και κοσμήματα",
+      "Ένα αρχαίο ναό"
+     ],
+     "answer": "Εργαλεία, αγγεία και ταφές",
+     "why": "βρήκαν εργαλεία, αγγεία και ταφές"
+    },
+    {
+     "q": "Γιατί ο ρεπόρτερ συμβουλεύει τους επισκέπτες να πάρουν ζακέτα;",
+     "options": [
+      "Γιατί βρέχονται στη βάρκα",
+      "Γιατί φυσάει πολύ",
+      "Γιατί μέσα η θερμοκρασία μένει γύρω στους δεκαοκτώ βαθμούς",
+      "Γιατί το σπήλαιο είναι ανοιχτό μόνο τον χειμώνα"
+     ],
+     "answer": "Γιατί μέσα η θερμοκρασία μένει γύρω στους δεκαοκτώ βαθμούς",
+     "why": "μέσα η θερμοκρασία μένει σταθερή, γύρω στους δεκαοκτώ βαθμούς"
+    }
+   ],
+   "gloss": {
+    "σπήλαια": "σπήλαιο — cave",
+    "αθόρυβα": "αθόρυβα — silently",
+    "υπόγειο": "υπόγειος — underground",
+    "βαρκάρης": "βαρκάρης — boatman",
+    "κοντάρι": "κοντάρι — pole",
+    "σταλακτίτες": "σταλακτίτης — stalactite",
+    "οροφή": "οροφή — ceiling, roof",
+    "κρύσταλλα": "κρύσταλλο — crystal",
+    "εξερευνητές": "εξερευνητής — explorer",
+    "χαρτογραφήσει": "χαρτογραφώ — to map",
+    "διαδρόμων": "διάδρομος — passage, corridor",
+    "κατοικήθηκε": "κατοικούμαι — to be inhabited",
+    "αγγεία": "αγγείο — pot, vessel",
+    "ταφές": "ταφή — burial",
+    "ζακέτα": "ζακέτα — cardigan"
+   }
+  },
+  {
+   "id": "l29-int-kolymvitis",
+   "title": "Ένας παραολυμπιονίκης",
+   "title_en": "A Paralympic champion",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με έναν κολυμβητή που έχει κερδίσει μετάλλια στους Παραολυμπιακούς Αγώνες.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Χάσατε το πόδι σας σε τροχαίο στα δεκαεννιά σας. Πώς φτάσατε από εκεί στα Παραολυμπιακά μετάλλια;",
+     "en": "You lost your leg in a road accident at nineteen. How did you get from there to Paralympic medals?"
+    },
+    {
+     "speaker": "Κολυμβητής",
+     "voice": "m",
+     "el": "Ο πρώτος χρόνος ήταν πολύ σκοτεινός. Δεν ήθελα να βγαίνω από το σπίτι. Ο φυσικοθεραπευτής μου μού πρότεινε να κολυμπάω για την αποκατάσταση, γιατί στο νερό το σώμα δεν έχει βάρος. Εκεί ένιωσα για πρώτη φορά ξανά ελεύθερος. Ένας προπονητής με είδε να κολυμπάω και με ρώτησε αν θα ήθελα να αγωνιστώ.",
+     "en": "The first year was very dark. I didn't want to leave the house. My physiotherapist suggested I swim for rehabilitation, because in water the body has no weight. There I felt free again for the first time. A coach saw me swimming and asked if I'd like to compete."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πώς είναι μια μέρα της προπόνησής σας;",
+     "en": "What's a day of your training like?"
+    },
+    {
+     "speaker": "Κολυμβητής",
+     "voice": "m",
+     "el": "Ξυπνάω στις πέντε και μισή, και στις έξι είμαι στην πισίνα. Κολυμπάω περίπου έξι χιλιόμετρα το πρωί και άλλα τόσα το απόγευμα, και ενδιάμεσα κάνω γυμναστήριο. Το πιο δύσκολο, όμως, δεν είναι η κούραση. Είναι ότι για χρόνια οι πισίνες δεν είχαν ράμπες ή ανελκυστήρες, και έπρεπε να ζητάω βοήθεια για τα πιο απλά πράγματα.",
+     "en": "I wake up at half past five, and at six I'm in the pool. I swim about six kilometres in the morning and the same again in the afternoon, and in between I do the gym. The hardest thing, though, isn't the tiredness. It's that for years the pools had no ramps or lifts, and I had to ask for help with the simplest things."
+    },
+    {
+     "speaker": "Κολυμβητής",
+     "voice": "m",
+     "el": "Τα πράγματα έχουν βελτιωθεί, αλλά η προσβασιμότητα δεν είναι χάρη· είναι δικαίωμα. Αν τα μετάλλιά μου βοηθήσουν ένα παιδί με αναπηρία να μπει σε μια πισίνα χωρίς να ντρέπεται, αυτό θα είναι η μεγαλύτερη νίκη μου.",
+     "en": "Things have improved, but accessibility isn't a favour; it's a right. If my medals help a child with a disability to get into a pool without feeling embarrassed, that will be my greatest victory."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί άρχισε να κολυμπάει;",
+     "options": [
+      "Για να χάσει βάρος",
+      "Για την αποκατάστασή του, με πρόταση του φυσικοθεραπευτή",
+      "Γιατί ήταν κολυμβητής από παιδί",
+      "Γιατί του το ζήτησαν οι φίλοι του"
+     ],
+     "answer": "Για την αποκατάστασή του, με πρόταση του φυσικοθεραπευτή",
+     "why": "Ο φυσικοθεραπευτής μου μού πρότεινε να κολυμπάω για την αποκατάσταση"
+    },
+    {
+     "q": "Τι θεωρεί το πιο δύσκολο ο κολυμβητής;",
+     "options": [
+      "Την έλλειψη πρόσβασης στις πισίνες για χρόνια",
+      "Το πρωινό ξύπνημα",
+      "Τα ταξίδια",
+      "Την κούραση"
+     ],
+     "answer": "Την έλλειψη πρόσβασης στις πισίνες για χρόνια",
+     "why": "για χρόνια οι πισίνες δεν είχαν ράμπες ή ανελκυστήρες"
+    },
+    {
+     "q": "Ποια θα ήταν, κατά τον ίδιο, η μεγαλύτερη νίκη του;",
+     "options": [
+      "Να βοηθήσει ένα παιδί με αναπηρία να μπει σε πισίνα χωρίς ντροπή",
+      "Να γίνει προπονητής",
+      "Ένα χρυσό μετάλλιο",
+      "Ένα παγκόσμιο ρεκόρ"
+     ],
+     "answer": "Να βοηθήσει ένα παιδί με αναπηρία να μπει σε πισίνα χωρίς ντροπή",
+     "why": "Αν τα μετάλλιά μου βοηθήσουν ένα παιδί με αναπηρία να μπει σε μια πισίνα χωρίς να ντρέπεται"
+    }
+   ],
+   "gloss": {
+    "κολυμβητή": "κολυμβητής — swimmer",
+    "μετάλλια": "μετάλλιο — medal",
+    "Παραολυμπιακούς Αγώνες": "Παραολυμπιακοί Αγώνες — Paralympic Games",
+    "τροχαίο": "τροχαίο — road accident",
+    "σκοτεινός": "σκοτεινός — dark",
+    "φυσικοθεραπευτής": "φυσικοθεραπευτής — physiotherapist",
+    "αποκατάσταση": "αποκατάσταση — rehabilitation",
+    "να αγωνιστώ": "αγωνίζομαι — to compete",
+    "ράμπες": "ράμπα — ramp",
+    "ανελκυστήρες": "ανελκυστήρας — lift, elevator",
+    "προσβασιμότητα": "προσβασιμότητα — accessibility",
+    "χάρη": "χάρη — favour",
+    "αναπηρία": "αναπηρία — disability"
+   }
+  },
+  {
+   "id": "l29-mon-alosi",
+   "title": "Η Άλωση της Πόλης",
+   "title_en": "The Fall of Constantinople",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από μια διάλεξη για την Άλωση της Κωνσταντινούπολης το 1453.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Την άνοιξη του 1453, η Κωνσταντινούπολη ήταν η σκιά του παλιού της εαυτού. Η άλλοτε κραταιά αυτοκρατορία είχε περιοριστεί σχεδόν στην ίδια την Πόλη και σε λίγα εδάφη στην Πελοπόννησο, ενώ ο πληθυσμός της πρωτεύουσας, που κάποτε ξεπερνούσε τις τετρακόσιες χιλιάδες, είχε πέσει κατά πολλούς υπολογισμούς κάτω από τις πενήντα χιλιάδες.",
+     "en": "In the spring of 1453, Constantinople was a shadow of its former self. The once mighty empire had been reduced almost to the City itself and a few territories in the Peloponnese, while the population of the capital, which had once exceeded four hundred thousand, had fallen by many estimates below fifty thousand."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Απέναντι σε αυτούς, ο νεαρός σουλτάνος Μωάμεθ ο Β΄ είχε συγκεντρώσει έναν στρατό πολλαπλάσιο και, κυρίως, ένα νέο όπλο: τεράστια κανόνια, ικανά να γκρεμίσουν τα θεοδοσιανά τείχη, που επί χίλια χρόνια θεωρούνταν απόρθητα. Η πολιορκία κράτησε περίπου επτά εβδομάδες, και οι υπερασπιστές, με επικεφαλής τον αυτοκράτορα Κωνσταντίνο ΙΑ΄ Παλαιολόγο, αντιστάθηκαν με μια επιμονή που εντυπωσίασε ακόμη και τους εχθρούς τους.",
+     "en": "Facing them, the young sultan Mehmed II had assembled an army many times larger and, above all, a new weapon: huge cannons, capable of bringing down the Theodosian walls, which for a thousand years had been considered impregnable. The siege lasted about seven weeks, and the defenders, led by the emperor Constantine XI Palaiologos, resisted with a tenacity that impressed even their enemies."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Στις είκοσι εννιά Μαΐου η Πόλη έπεσε. Ο αυτοκράτορας σκοτώθηκε μαχόμενος, και το σώμα του δεν αναγνωρίστηκε ποτέ με βεβαιότητα. Από αυτή την αβεβαιότητα γεννήθηκε ο θρύλος του «Μαρμαρωμένου Βασιλιά», που κοιμάται σε μια σπηλιά και θα ξυπνήσει κάποτε για να πάρει πίσω την Πόλη.",
+     "en": "On the twenty-ninth of May the City fell. The emperor was killed fighting, and his body was never identified with certainty. From this uncertainty was born the legend of the 'Marble Emperor', who sleeps in a cave and will one day wake to take back the City."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Οι συνέπειες ξεπέρασαν κατά πολύ τα όρια της Ανατολής. Πολλοί λόγιοι είχαν ήδη καταφύγει, ή κατέφυγαν τότε, στην Ιταλία, φέρνοντας μαζί τους χειρόγραφα αρχαίων συγγραφέων. Αν και η σημασία τους συχνά υπερβάλλεται, συνέβαλαν αναμφίβολα στην αναβίωση των ελληνικών σπουδών στη Δύση, την εποχή της Αναγέννησης.",
+     "en": "The consequences went far beyond the borders of the East. Many scholars had already fled, or fled then, to Italy, bringing with them manuscripts of ancient authors. Although their importance is often exaggerated, they undoubtedly contributed to the revival of Greek studies in the West, in the age of the Renaissance."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Σε τι κατάσταση βρισκόταν η Κωνσταντινούπολη την άνοιξη του 1453;",
+     "options": [
+      "Ήταν η σκιά του παλιού της εαυτού, με πολύ μικρότερο πληθυσμό",
+      "Είχε μόλις κερδίσει έναν πόλεμο",
+      "Ήταν ήδη υπό οθωμανική κατοχή",
+      "Ήταν στο απόγειο της δύναμής της"
+     ],
+     "answer": "Ήταν η σκιά του παλιού της εαυτού, με πολύ μικρότερο πληθυσμό",
+     "why": "η Κωνσταντινούπολη ήταν η σκιά του παλιού της εαυτού"
+    },
+    {
+     "q": "Ποιο ήταν το νέο όπλο του Μωάμεθ;",
+     "options": [
+      "Το υγρό πυρ",
+      "Ιππικό από την Ασία",
+      "Πολεμικά πλοία",
+      "Τεράστια κανόνια, ικανά να γκρεμίσουν τα τείχη"
+     ],
+     "answer": "Τεράστια κανόνια, ικανά να γκρεμίσουν τα τείχη",
+     "why": "τεράστια κανόνια, ικανά να γκρεμίσουν τα θεοδοσιανά τείχη"
+    },
+    {
+     "q": "Από τι γεννήθηκε ο θρύλος του «Μαρμαρωμένου Βασιλιά»;",
+     "options": [
+      "Από το ότι το σώμα του αυτοκράτορα δεν αναγνωρίστηκε ποτέ με βεβαιότητα",
+      "Από μια επιγραφή στα τείχη",
+      "Από ένα άγαλμα του αυτοκράτορα",
+      "Από ένα όνειρο του σουλτάνου"
+     ],
+     "answer": "Από το ότι το σώμα του αυτοκράτορα δεν αναγνωρίστηκε ποτέ με βεβαιότητα",
+     "why": "το σώμα του δεν αναγνωρίστηκε ποτέ με βεβαιότητα. Από αυτή την αβεβαιότητα γεννήθηκε ο θρύλος"
+    },
+    {
+     "q": "Πώς κρίνει η ομιλήτρια τον ρόλο των λογίων που κατέφυγαν στην Ιταλία;",
+     "options": [
+      "Θεωρεί ότι συχνά υπερβάλλεται, αλλά ότι συνέβαλαν αναμφίβολα στην αναβίωση των ελληνικών σπουδών",
+      "Δεν αναφέρεται σε αυτόν",
+      "Θεωρεί ότι αυτοί προκάλεσαν μόνοι τους την Αναγέννηση",
+      "Τον θεωρεί ασήμαντο"
+     ],
+     "answer": "Θεωρεί ότι συχνά υπερβάλλεται, αλλά ότι συνέβαλαν αναμφίβολα στην αναβίωση των ελληνικών σπουδών",
+     "why": "Αν και η σημασία τους συχνά υπερβάλλεται, συνέβαλαν αναμφίβολα στην αναβίωση των ελληνικών σπουδών"
+    }
+   ],
+   "gloss": {
+    "Άλωση": "άλωση — fall, capture (of a city)",
+    "κραταιά": "κραταιός — mighty",
+    "είχε περιοριστεί": "περιορίζομαι — to be reduced, confined",
+    "υπολογισμούς": "υπολογισμός — estimate, calculation",
+    "πολλαπλάσιο": "πολλαπλάσιος — many times larger",
+    "κανόνια": "κανόνι — cannon",
+    "απόρθητα": "απόρθητος — impregnable",
+    "πολιορκία": "πολιορκία — siege",
+    "υπερασπιστές": "υπερασπιστής — defender",
+    "επιμονή": "επιμονή — persistence, tenacity",
+    "Μαρμαρωμένου": "μαρμαρωμένος — turned to marble",
+    "λόγιοι": "λόγιος — scholar",
+    "χειρόγραφα": "χειρόγραφο — manuscript",
+    "υπερβάλλεται": "υπερβάλλω — to exaggerate",
+    "αναβίωση": "αναβίωση — revival",
+    "Αναγέννησης": "Αναγέννηση — Renaissance"
+   }
+  },
+  {
+   "id": "l29-int-nostalgia",
+   "title": "Τι είναι η νοσταλγία;",
+   "title_en": "What is nostalgia?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με έναν ψυχολόγο για τη νοσταλγία.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Η λέξη «νοσταλγία» ακούγεται πολύ ελληνική, κι όμως δεν τη χρησιμοποιούσαν οι αρχαίοι. Από πού προέρχεται;",
+     "en": "The word 'nostalgia' sounds very Greek, and yet the ancients didn't use it. Where does it come from?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "m",
+     "el": "Πράγματι, τη δημιούργησε το 1688 ένας Ελβετός φοιτητής ιατρικής, ο Γιοχάνες Χόφερ, από τις ελληνικές λέξεις «νόστος», δηλαδή επιστροφή στην πατρίδα, και «άλγος», πόνος. Με αυτήν περιέγραφε μια ασθένεια που παρατηρούσε σε Ελβετούς μισθοφόρους μακριά από το σπίτι τους: μελαγχολία, αϋπνία, ακόμη και πυρετό. Για δύο αιώνες, η νοσταλγία θεωρούνταν πάθηση που μπορούσε να αποβεί και θανατηφόρα.",
+     "en": "Indeed, it was coined in 1688 by a Swiss medical student, Johannes Hofer, from the Greek words 'nostos', that is, return home, and 'algos', pain. With it he described an illness he observed in Swiss mercenaries far from home: melancholy, insomnia, even fever. For two centuries, nostalgia was considered a condition that could even prove fatal."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και σήμερα; Είναι κάτι κακό να νοσταλγούμε;",
+     "en": "And today? Is it a bad thing to feel nostalgic?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "m",
+     "el": "Οι σύγχρονες έρευνες δείχνουν μάλλον το αντίθετο. Η νοσταλγία είναι ένα γλυκόπικρο συναίσθημα, αλλά στις περισσότερες περιπτώσεις έχει θετικά αποτελέσματα: ενισχύει την αίσθηση ότι η ζωή μας έχει νόημα και συνέχεια, μας κάνει να νιώθουμε πιο συνδεδεμένοι με τους άλλους και μας βοηθά να αντιμετωπίσουμε τη μοναξιά. Είναι χαρακτηριστικό ότι οι άνθρωποι νοσταλγούν περισσότερο σε περιόδους αβεβαιότητας ή όταν κάνει κρύο.",
+     "en": "Modern research suggests rather the opposite. Nostalgia is a bittersweet emotion, but in most cases it has positive effects: it strengthens the sense that our life has meaning and continuity, makes us feel more connected to others and helps us cope with loneliness. Tellingly, people feel more nostalgic in times of uncertainty or when it's cold."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "m",
+     "el": "Υπάρχει βέβαια και μια παγίδα: όταν η νοσταλγία γίνεται εξιδανίκευση. Όταν πιστεύουμε ότι «παλιά όλα ήταν καλύτερα», ξεχνάμε τις δυσκολίες του παρελθόντος και απαξιώνουμε το παρόν. Η υγιής νοσταλγία κοιτάζει πίσω για να πάρει δύναμη, όχι για να μείνει εκεί.",
+     "en": "There is of course also a trap: when nostalgia becomes idealisation. When we believe that 'everything was better in the old days', we forget the difficulties of the past and devalue the present. Healthy nostalgia looks back to draw strength, not to stay there."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιος δημιούργησε τη λέξη «νοσταλγία»;",
+     "options": [
+      "Ένας Γάλλος φιλόσοφος",
+      "Ο Όμηρος",
+      "Ένας Ελβετός φοιτητής ιατρικής το 1688",
+      "Ένας Έλληνας ποιητής του 19ου αιώνα"
+     ],
+     "answer": "Ένας Ελβετός φοιτητής ιατρικής το 1688",
+     "why": "τη δημιούργησε το 1688 ένας Ελβετός φοιτητής ιατρικής"
+    },
+    {
+     "q": "Πώς θεωρούνταν αρχικά η νοσταλγία;",
+     "options": [
+      "Ως αρετή των στρατιωτών",
+      "Ως ποιητική έμπνευση",
+      "Ως ένα ευχάριστο συναίσθημα",
+      "Ως πάθηση που μπορούσε να αποβεί και θανατηφόρα"
+     ],
+     "answer": "Ως πάθηση που μπορούσε να αποβεί και θανατηφόρα",
+     "why": "η νοσταλγία θεωρούνταν πάθηση που μπορούσε να αποβεί και θανατηφόρα"
+    },
+    {
+     "q": "Ποιο από τα παρακάτω είναι, κατά τον ψυχολόγο, θετικό αποτέλεσμα της νοσταλγίας;",
+     "options": [
+      "Μας προστατεύει από το κρύο",
+      "Μας κάνει πιο ανταγωνιστικούς",
+      "Μας κάνει να ξεχνάμε το παρελθόν",
+      "Μας βοηθά να αντιμετωπίσουμε τη μοναξιά"
+     ],
+     "answer": "Μας βοηθά να αντιμετωπίσουμε τη μοναξιά",
+     "why": "μας βοηθά να αντιμετωπίσουμε τη μοναξιά"
+    },
+    {
+     "q": "Ποια είναι η «παγίδα» της νοσταλγίας;",
+     "options": [
+      "Ότι μας απομονώνει από την οικογένεια",
+      "Ότι προκαλεί πυρετό",
+      "Ότι κρατάει πολύ λίγο",
+      "Η εξιδανίκευση του παρελθόντος και η απαξίωση του παρόντος"
+     ],
+     "answer": "Η εξιδανίκευση του παρελθόντος και η απαξίωση του παρόντος",
+     "why": "όταν η νοσταλγία γίνεται εξιδανίκευση … ξεχνάμε τις δυσκολίες του παρελθόντος και απαξιώνουμε το παρόν"
+    }
+   ],
+   "gloss": {
+    "ψυχολόγο": "ψυχολόγος — psychologist",
+    "νόστος": "νόστος — homecoming (Homeric)",
+    "άλγος": "άλγος — pain (learned)",
+    "μισθοφόρους": "μισθοφόρος — mercenary",
+    "μελαγχολία": "μελαγχολία — melancholy",
+    "αϋπνία": "αϋπνία — insomnia",
+    "πάθηση": "πάθηση — condition, disorder",
+    "να αποβεί": "αποβαίνω — to prove, turn out",
+    "θανατηφόρα": "θανατηφόρος — fatal",
+    "γλυκόπικρο": "γλυκόπικρος — bittersweet",
+    "ενισχύει": "ενισχύω — to strengthen",
+    "αβεβαιότητας": "αβεβαιότητα — uncertainty",
+    "παγίδα": "παγίδα — trap",
+    "εξιδανίκευση": "εξιδανίκευση — idealisation",
+    "απαξιώνουμε": "απαξιώνω — to devalue, disparage"
+   }
+  }
+ ]
+}
