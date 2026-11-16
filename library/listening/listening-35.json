@@ -1,0 +1,831 @@
+{
+ "items": [
+  {
+   "id": "l35-ann-lykavittos",
+   "title": "Αλλαγή στη συναυλία του Λυκαβηττού",
+   "title_en": "A change to the Lycabettus concert",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση πριν από μια συναυλία στο θέατρο του Λυκαβηττού.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Καλησπέρα σας και καλώς ήρθατε. Λόγω των ισχυρών ανέμων που πνέουν απόψε στην κορυφή του λόφου, η έναρξη της συναυλίας καθυστερεί κατά σαράντα πέντε λεπτά. Οι τεχνικοί μας ελέγχουν αυτή τη στιγμή τη σκηνή και τα φωτιστικά, για να είναι όλα απολύτως ασφαλή.",
+     "en": "Good evening and welcome. Because of the strong winds blowing tonight at the top of the hill, the start of the concert is delayed by forty-five minutes. Our technicians are checking the stage and the lighting right now, so that everything is completely safe."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Παρακαλούμε να παραμείνετε στις θέσεις σας ή στον χώρο του κυλικείου και να μην κατεβαίνετε προς την είσοδο, γιατί τα σκαλιά είναι στενά. Τα εισιτήρια ισχύουν κανονικά· δεν χρειάζεται να τα σκανάρετε ξανά.",
+     "en": "Please remain in your seats or in the snack-bar area and do not go down towards the entrance, because the steps are narrow. Tickets remain valid; there is no need to scan them again."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Αν ο άνεμος δεν κοπάσει μέχρι τις δέκα, η συναυλία θα αναβληθεί για την Πέμπτη, και τα εισιτήρια θα ισχύουν για τη νέα ημερομηνία. Όσοι δεν μπορούν να έρθουν την Πέμπτη θα πάρουν πίσω τα χρήματά τους από το σημείο όπου τα αγόρασαν. Σας ευχαριστούμε για την υπομονή σας.",
+     "en": "If the wind doesn't die down by ten, the concert will be postponed to Thursday, and the tickets will be valid for the new date. Those who can't come on Thursday will get their money back from the place where they bought them. Thank you for your patience."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί καθυστερεί η συναυλία;",
+     "options": [
+      "Γιατί άργησαν οι θεατές",
+      "Λόγω ισχυρών ανέμων",
+      "Γιατί αρρώστησε ο τραγουδιστής",
+      "Γιατί χάλασε το ηχητικό"
+     ],
+     "answer": "Λόγω ισχυρών ανέμων",
+     "why": "Λόγω των ισχυρών ανέμων που πνέουν απόψε"
+    },
+    {
+     "q": "Τι ζητείται από το κοινό;",
+     "options": [
+      "Να φύγει προσωρινά από το θέατρο",
+      "Να σκανάρει ξανά τα εισιτήρια",
+      "Να μετακινηθεί στις μπροστινές σειρές",
+      "Να μείνει στις θέσεις του ή στο κυλικείο"
+     ],
+     "answer": "Να μείνει στις θέσεις του ή στο κυλικείο",
+     "why": "να παραμείνετε στις θέσεις σας ή στον χώρο του κυλικείου"
+    },
+    {
+     "q": "Τι θα γίνει αν ο άνεμος δεν κοπάσει μέχρι τις δέκα;",
+     "options": [
+      "Θα αναβληθεί για την Πέμπτη",
+      "Η συναυλία θα γίνει σε κλειστό χώρο",
+      "Θα γίνει μόνο το πρώτο μέρος",
+      "Θα ακυρωθεί χωρίς επιστροφή χρημάτων"
+     ],
+     "answer": "Θα αναβληθεί για την Πέμπτη",
+     "why": "η συναυλία θα αναβληθεί για την Πέμπτη"
+    }
+   ],
+   "gloss": {
+    "ανέμων": "άνεμος — wind",
+    "πνέουν": "πνέω — to blow",
+    "έναρξη": "έναρξη — start, opening",
+    "φωτιστικά": "φωτιστικό — light fitting",
+    "να παραμείνετε": "παραμένω — to remain",
+    "κυλικείου": "κυλικείο — snack bar",
+    "σκαλιά": "σκαλί — step",
+    "ισχύουν": "ισχύω — to be valid",
+    "κοπάσει": "κοπάζω — to die down, abate",
+    "θα αναβληθεί": "αναβάλλομαι — to be postponed",
+    "υπομονή": "υπομονή — patience"
+   }
+  },
+  {
+   "id": "l35-vm-logotherapeftria",
+   "title": "Μήνυμα από τη λογοθεραπεύτρια",
+   "title_en": "A message from the speech therapist",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από τη λογοθεραπεύτρια του παιδιού σας.",
+   "script": [
+    {
+     "speaker": "Λογοθεραπεύτρια",
+     "voice": "f",
+     "el": "Καλημέρα σας, η Ελένη Μαργαρίτη είμαι, η λογοθεραπεύτρια του Νικόλα. Ήθελα να σας πω ότι είμαι πολύ ικανοποιημένη από την πρόοδό του. Το «ρο» το λέει πια σωστά σχεδόν σε όλες τις λέξεις, και στο σχολείο η δασκάλα του λέει ότι συμμετέχει πολύ περισσότερο.",
+     "en": "Good morning, it's Eleni Margariti, Nikolas's speech therapist. I wanted to tell you that I'm very pleased with his progress. He now says the 'r' correctly in almost all words, and at school his teacher says he takes part much more."
+    },
+    {
+     "speaker": "Λογοθεραπεύτρια",
+     "voice": "f",
+     "el": "Γι' αυτό σκέφτομαι από τον επόμενο μήνα να κάνουμε μία συνεδρία την εβδομάδα αντί για δύο. Θα κρατήσουμε την Τρίτη στις πέντε, αν σας βολεύει ακόμη, και την Παρασκευή θα την αφήσουμε ελεύθερη.",
+     "en": "So I'm thinking that from next month we'll do one session a week instead of two. We'll keep Tuesday at five, if it still suits you, and leave Friday free."
+    },
+    {
+     "speaker": "Λογοθεραπεύτρια",
+     "voice": "f",
+     "el": "Είναι σημαντικό όμως να συνεχίσετε τις ασκήσεις στο σπίτι, δέκα λεπτά κάθε μέρα, με το τετράδιο που σας έδωσα. Μέσα στον Μάιο θα κάνουμε μια νέα αξιολόγηση και θα αποφασίσουμε μαζί αν χρειάζεται να συνεχίσουμε. Καλή σας μέρα.",
+     "en": "But it's important that you continue the exercises at home, ten minutes every day, with the workbook I gave you. During May we'll do a new assessment and decide together whether we need to continue. Have a good day."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λέει η λογοθεραπεύτρια για τον Νικόλα;",
+     "options": [
+      "Ότι χρειάζεται περισσότερες συνεδρίες",
+      "Ότι έχει προοδεύσει πολύ",
+      "Ότι πρέπει να αλλάξει θεραπεύτρια",
+      "Ότι δυσκολεύεται στο σχολείο"
+     ],
+     "answer": "Ότι έχει προοδεύσει πολύ",
+     "why": "είμαι πολύ ικανοποιημένη από την πρόοδό του"
+    },
+    {
+     "q": "Τι προτείνει για τον επόμενο μήνα;",
+     "options": [
+      "Να σταματήσουν τις συνεδρίες",
+      "Συνεδρίες μέσω υπολογιστή",
+      "Μία συνεδρία την εβδομάδα αντί για δύο",
+      "Δύο συνεδρίες την Παρασκευή"
+     ],
+     "answer": "Μία συνεδρία την εβδομάδα αντί για δύο",
+     "why": "μία συνεδρία την εβδομάδα αντί για δύο"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν οι γονείς;",
+     "options": [
+      "Να αγοράσουν νέο τετράδιο",
+      "Να συνεχίσουν τις ασκήσεις στο σπίτι κάθε μέρα",
+      "Να κλείσουν ραντεβού για τον Μάιο",
+      "Να μιλήσουν με τη δασκάλα"
+     ],
+     "answer": "Να συνεχίσουν τις ασκήσεις στο σπίτι κάθε μέρα",
+     "why": "να συνεχίσετε τις ασκήσεις στο σπίτι, δέκα λεπτά κάθε μέρα"
+    }
+   ],
+   "gloss": {
+    "λογοθεραπεύτρια": "λογοθεραπεύτρια — speech therapist",
+    "ικανοποιημένη": "ικανοποιημένος — satisfied, pleased",
+    "πρόοδό": "πρόοδος — progress",
+    "συμμετέχει": "συμμετέχω — to take part",
+    "συνεδρία": "συνεδρία — session",
+    "σας βολεύει": "βολεύει — it suits",
+    "ασκήσεις": "άσκηση — exercise",
+    "αξιολόγηση": "αξιολόγηση — assessment"
+   }
+  },
+  {
+   "id": "l35-dia-keramiki",
+   "title": "Μαθήματα κεραμικής",
+   "title_en": "Pottery classes",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα εργαστήριο κεραμικής.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Καλησπέρα. Είδα την αφίσα σας για τα μαθήματα κεραμικής. Δεν έχω πιάσει ποτέ πηλό στα χέρια μου· είναι για αρχάριους;",
+     "en": "Good evening. I saw your poster about the pottery classes. I've never held clay in my hands; are they for beginners?"
+    },
+    {
+     "speaker": "Κεραμίστρια",
+     "voice": "f",
+     "el": "Βεβαίως. Το τμήμα της Τετάρτης είναι για αρχάριους. Τον πρώτο μήνα δουλεύουμε μόνο με τα χέρια, φτιάχνουμε μπολ και μικρά βάζα με τη μέθοδο των κορδονιών. Στον τροχό περνάμε αργότερα, όταν έχετε καταλάβει πώς συμπεριφέρεται ο πηλός.",
+     "en": "Of course. The Wednesday group is for beginners. In the first month we work only with our hands, making bowls and small vases with the coil method. We move on to the wheel later, once you've understood how the clay behaves."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Κι αυτά που φτιάχνουμε, τα παίρνουμε σπίτι;",
+     "en": "And the things we make, do we take them home?"
+    },
+    {
+     "speaker": "Κεραμίστρια",
+     "voice": "f",
+     "el": "Ναι, αλλά όχι αμέσως. Πρέπει πρώτα να στεγνώσουν καλά, μετά τα ψήνουμε στον φούρνο, τα σμαλτώνετε εσείς και ακολουθεί δεύτερο ψήσιμο. Συνολικά παίρνει περίπου τρεις εβδομάδες. Το κόστος είναι ογδόντα ευρώ τον μήνα, και τα υλικά και τα ψησίματα περιλαμβάνονται. Φέρτε μόνο ρούχα που δεν σας πειράζει να λερωθούν.",
+     "en": "Yes, but not right away. First they must dry well, then we fire them in the kiln, you glaze them yourself and there's a second firing. Altogether it takes about three weeks. The cost is eighty euros a month, and materials and firings are included. Just bring clothes you don't mind getting dirty."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι κάνουν οι αρχάριοι τον πρώτο μήνα;",
+     "options": [
+      "Δουλεύουν μόνο με τα χέρια",
+      "Δουλεύουν αμέσως στον τροχό",
+      "Παρακολουθούν θεωρία",
+      "Ζωγραφίζουν έτοιμα αντικείμενα"
+     ],
+     "answer": "Δουλεύουν μόνο με τα χέρια",
+     "why": "Τον πρώτο μήνα δουλεύουμε μόνο με τα χέρια"
+    },
+    {
+     "q": "Γιατί δεν παίρνουν αμέσως σπίτι τα έργα τους;",
+     "options": [
+      "Γιατί μένουν για έκθεση",
+      "Γιατί πρέπει να στεγνώσουν και να ψηθούν δύο φορές",
+      "Γιατί τα κρατάει η δασκάλα για βαθμολογία",
+      "Γιατί πρέπει πρώτα να πληρώσουν"
+     ],
+     "answer": "Γιατί πρέπει να στεγνώσουν και να ψηθούν δύο φορές",
+     "why": "Πρέπει πρώτα να στεγνώσουν καλά, μετά τα ψήνουμε"
+    },
+    {
+     "q": "Τι περιλαμβάνει το μηνιαίο κόστος;",
+     "options": [
+      "Τα υλικά και τα ψησίματα",
+      "Μια ποδιά εργασίας",
+      "Έναν δικό σας τροχό",
+      "Μόνο τα μαθήματα"
+     ],
+     "answer": "Τα υλικά και τα ψησίματα",
+     "why": "τα υλικά και τα ψησίματα περιλαμβάνονται"
+    }
+   ],
+   "gloss": {
+    "κεραμικής": "κεραμική — pottery, ceramics",
+    "πηλό": "πηλός — clay",
+    "αρχάριους": "αρχάριος — beginner",
+    "μπολ": "μπολ — bowl",
+    "κορδονιών": "κορδόνι — cord, coil",
+    "τροχό": "τροχός — (potter's) wheel",
+    "συμπεριφέρεται": "συμπεριφέρομαι — to behave",
+    "να στεγνώσουν": "στεγνώνω — to dry",
+    "φούρνο": "φούρνος — oven, kiln",
+    "σμαλτώνετε": "σμαλτώνω — to glaze",
+    "ψήσιμο": "ψήσιμο — firing, baking",
+    "να λερωθούν": "λερώνομαι — to get dirty"
+   }
+  },
+  {
+   "id": "l35-dia-oinopoieio",
+   "title": "Σε ένα οινοποιείο της Νεμέας",
+   "title_en": "At a winery in Nemea",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο ανάμεσα σε μια επισκέπτρια και έναν οινοποιό σε ένα οινοποιείο της Νεμέας.",
+   "script": [
+    {
+     "speaker": "Επισκέπτρια",
+     "voice": "f",
+     "el": "Ευχαριστούμε για την ξενάγηση. Μου έκανε εντύπωση ότι όλα τα κόκκινα κρασιά σας είναι από ένα μόνο σταφύλι.",
+     "en": "Thank you for the tour. I was struck that all your red wines are from a single grape."
+    },
+    {
+     "speaker": "Οινοποιός",
+     "voice": "m",
+     "el": "Ναι, το Αγιωργίτικο, η ποικιλία της Νεμέας. Το ενδιαφέρον είναι ότι από το ίδιο σταφύλι βγαίνουν πολύ διαφορετικά κρασιά, ανάλογα με το υψόμετρο. Τα αμπέλια στον κάμπο δίνουν κρασί πιο φρουτώδες, για να το πιείτε νέο, ενώ από τις πλαγιές, στα εξακόσια, οκτακόσια μέτρα, βγάζουμε κρασιά που αντέχουν χρόνια στο βαρέλι.",
+     "en": "Yes, Agiorgitiko, the Nemea variety. The interesting thing is that very different wines come from the same grape, depending on the altitude. The vineyards on the plain give a fruitier wine, to drink young, while from the slopes, at six or eight hundred metres, we make wines that can age for years in the barrel."
+    },
+    {
+     "speaker": "Επισκέπτρια",
+     "voice": "f",
+     "el": "Και ο τρύγος πότε γίνεται; Θα ήθελα πολύ να έρθω να βοηθήσω.",
+     "en": "And when is the harvest? I'd really like to come and help."
+    },
+    {
+     "speaker": "Οινοποιός",
+     "voice": "m",
+     "el": "Συνήθως από τα τέλη Αυγούστου ως τα μέσα Σεπτεμβρίου, αλλά τα τελευταία χρόνια, με τη ζέστη, αρχίζουμε όλο και νωρίτερα. Κάθε Σεπτέμβριο κάνουμε ένα Σαββατοκύριακο ανοιχτού τρύγου· μαζεύετε το πρωί, και το μεσημέρι τρώμε όλοι μαζί κάτω από τις ελιές. Αφήστε μας το τηλέφωνό σας και θα σας ειδοποιήσουμε.",
+     "en": "Usually from the end of August to mid-September, but in recent years, with the heat, we start earlier and earlier. Every September we hold an open-harvest weekend; you pick in the morning, and at midday we all eat together under the olive trees. Leave us your phone number and we'll let you know."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε εντύπωση στην επισκέπτρια;",
+     "options": [
+      "Ότι όλα τα κόκκινα κρασιά είναι από ένα σταφύλι",
+      "Ότι δεν φτιάχνουν λευκό κρασί",
+      "Η τιμή των κρασιών",
+      "Το μέγεθος του οινοποιείου"
+     ],
+     "answer": "Ότι όλα τα κόκκινα κρασιά είναι από ένα σταφύλι",
+     "why": "όλα τα κόκκινα κρασιά σας είναι από ένα μόνο σταφύλι"
+    },
+    {
+     "q": "Από τι εξαρτάται, κατά τον οινοποιό, ο χαρακτήρας του κρασιού;",
+     "options": [
+      "Από το υψόμετρο του αμπελιού",
+      "Από τον μήνα της εμφιάλωσης",
+      "Από το είδος του βαρελιού",
+      "Από την ηλικία του οινοποιού"
+     ],
+     "answer": "Από το υψόμετρο του αμπελιού",
+     "why": "ανάλογα με το υψόμετρο"
+    },
+    {
+     "q": "Τι έχει αλλάξει τα τελευταία χρόνια;",
+     "options": [
+      "Δεν επιτρέπονται πια επισκέπτες",
+      "Ο τρύγος γίνεται με μηχανήματα",
+      "Ο τρύγος αρχίζει νωρίτερα λόγω ζέστης",
+      "Φυτεύουν ξένες ποικιλίες"
+     ],
+     "answer": "Ο τρύγος αρχίζει νωρίτερα λόγω ζέστης",
+     "why": "με τη ζέστη, αρχίζουμε όλο και νωρίτερα"
+    }
+   ],
+   "gloss": {
+    "οινοποιείο": "οινοποιείο — winery",
+    "οινοποιό": "οινοποιός — winemaker",
+    "ξενάγηση": "ξενάγηση — guided tour",
+    "σταφύλι": "σταφύλι — grape",
+    "ποικιλία": "ποικιλία — variety",
+    "υψόμετρο": "υψόμετρο — altitude",
+    "αμπέλια": "αμπέλι — vineyard",
+    "φρουτώδες": "φρουτώδης — fruity",
+    "πλαγιές": "πλαγιά — slope",
+    "βαρέλι": "βαρέλι — barrel",
+    "τρύγος": "τρύγος — grape harvest",
+    "θα σας ειδοποιήσουμε": "ειδοποιώ — to notify"
+   }
+  },
+  {
+   "id": "l35-mono-chania",
+   "title": "Ένα βιβλιοπωλείο στα Χανιά",
+   "title_en": "A bookshop in Chania",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια γυναίκα να μιλάει για τη ζωή της στα Χανιά.",
+   "script": [
+    {
+     "speaker": "Αριάδνη",
+     "voice": "f",
+     "el": "Ήρθα στα Χανιά πριν από δώδεκα χρόνια για ένα καλοκαίρι, για να δουλέψω σε ένα ξενοδοχείο. Στο τέλος του Σεπτεμβρίου δεν μπορούσα να φανταστώ τον εαυτό μου πίσω στην Αθήνα, και έτσι έμεινα. Δύο χρόνια αργότερα άνοιξα ένα μικρό βιβλιοπωλείο σε ένα στενό της παλιάς πόλης, κοντά στο ενετικό λιμάνι.",
+     "en": "I came to Chania twelve years ago for one summer, to work in a hotel. At the end of September I couldn't imagine myself back in Athens, and so I stayed. Two years later I opened a small bookshop in a narrow street of the old town, near the Venetian harbour."
+    },
+    {
+     "speaker": "Αριάδνη",
+     "voice": "f",
+     "el": "Όλοι μου έλεγαν ότι θα κλείσω σε έναν χρόνο. Τα καλοκαίρια, βέβαια, ζω από τους τουρίστες, που αγοράζουν οδηγούς και μυθιστορήματα στα αγγλικά και στα γερμανικά. Αλλά αυτό που με κράτησε είναι οι ντόπιοι. Κάθε Πέμπτη το βράδυ μαζευόμαστε μια λέσχη ανάγνωσης, δεκαπέντε άτομα, από φοιτητές του Πολυτεχνείου μέχρι συνταξιούχους.",
+     "en": "Everyone told me I'd close within a year. In the summers, of course, I live off the tourists, who buy guidebooks and novels in English and German. But what kept me going is the locals. Every Thursday evening a reading club gathers, fifteen people, from Polytechnic students to pensioners."
+    },
+    {
+     "speaker": "Αριάδνη",
+     "voice": "f",
+     "el": "Το δυσκολότερο είναι το ενοίκιο. Με τις βραχυχρόνιες μισθώσεις, οι τιμές στην παλιά πόλη έχουν ανέβει τόσο, που πολλά μαγαζάκια σαν το δικό μου έχουν κλείσει. Αν χρειαστεί, θα μετακομίσω σε μια γειτονιά πιο έξω. Το βιβλιοπωλείο δεν είναι οι τοίχοι· είναι οι άνθρωποι που έρχονται.",
+     "en": "The hardest thing is the rent. With short-term lets, prices in the old town have risen so much that many little shops like mine have closed. If necessary, I'll move to a neighbourhood further out. The bookshop isn't the walls; it's the people who come."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ήρθε αρχικά η Αριάδνη στα Χανιά;",
+     "options": [
+      "Για να δουλέψει ένα καλοκαίρι σε ξενοδοχείο",
+      "Για να ζήσει με την οικογένειά της",
+      "Για να σπουδάσει",
+      "Για να ανοίξει βιβλιοπωλείο"
+     ],
+     "answer": "Για να δουλέψει ένα καλοκαίρι σε ξενοδοχείο",
+     "why": "για ένα καλοκαίρι, για να δουλέψω σε ένα ξενοδοχείο"
+    },
+    {
+     "q": "Τι λέει ότι κράτησε ανοιχτό το βιβλιοπωλείο;",
+     "options": [
+      "Οι τουρίστες του καλοκαιριού",
+      "Οι διαδικτυακές πωλήσεις",
+      "Μια κρατική επιδότηση",
+      "Οι ντόπιοι πελάτες και η λέσχη ανάγνωσης"
+     ],
+     "answer": "Οι ντόπιοι πελάτες και η λέσχη ανάγνωσης",
+     "why": "αυτό που με κράτησε είναι οι ντόπιοι"
+    },
+    {
+     "q": "Ποιο είναι το μεγαλύτερο πρόβλημά της σήμερα;",
+     "options": [
+      "Ο ανταγωνισμός από μεγάλα βιβλιοπωλεία",
+      "Η έλλειψη πελατών τον χειμώνα",
+      "Το ψηλό ενοίκιο λόγω βραχυχρόνιων μισθώσεων",
+      "Η κούραση"
+     ],
+     "answer": "Το ψηλό ενοίκιο λόγω βραχυχρόνιων μισθώσεων",
+     "why": "Το δυσκολότερο είναι το ενοίκιο"
+    }
+   ],
+   "gloss": {
+    "βιβλιοπωλείο": "βιβλιοπωλείο — bookshop",
+    "ενετικό": "ενετικός — Venetian",
+    "οδηγούς": "οδηγός — guidebook",
+    "μυθιστορήματα": "μυθιστόρημα — novel",
+    "ντόπιοι": "ντόπιος — local",
+    "λέσχη ανάγνωσης": "λέσχη ανάγνωσης — reading club",
+    "συνταξιούχους": "συνταξιούχος — pensioner",
+    "ενοίκιο": "ενοίκιο — rent",
+    "βραχυχρόνιες μισθώσεις": "βραχυχρόνια μίσθωση — short-term let",
+    "θα μετακομίσω": "μετακομίζω — to move house"
+   }
+  },
+  {
+   "id": "l35-rep-kazania",
+   "title": "Τα καζάνια του τσίπουρου",
+   "title_en": "The tsipouro stills",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από ένα χωριό της Θεσσαλίας την εποχή της απόσταξης.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Είναι Νοέμβριος, και στα χωριά γύρω από τον Τύρναβο η μυρωδιά από τα καζάνια γεμίζει τους δρόμους. Μετά τον τρύγο και το κρασί, έρχεται η σειρά των στέμφυλων, δηλαδή των φλουδών και των κουκουτσιών του σταφυλιού, που αποστάζονται για να γίνουν τσίπουρο.",
+     "en": "It is November, and in the villages around Tyrnavos the smell from the stills fills the streets. After the harvest and the wine, it's the turn of the pomace, that is the skins and seeds of the grape, which are distilled to become tsipouro."
+    },
+    {
+     "speaker": "Καζανάρης",
+     "voice": "m",
+     "el": "Το καζάνι είναι δικό μου, αλλά έρχονται εδώ οι αμπελουργοί του χωριού, ο καθένας με τα δικά του στέμφυλα, και βγάζουν το τσίπουρο της χρονιάς τους. Παίρνουν άδεια για συγκεκριμένες μέρες και πληρώνουν φόρο για κάθε λίτρο. Το πρώτο που τρέχει από τον λουλά είναι πολύ δυνατό, δεν πίνεται· το μαζεύουμε χωριστά.",
+     "en": "The still is mine, but the village winegrowers come here, each with his own pomace, and make their tsipouro for the year. They get a licence for specific days and pay tax on every litre. The first that runs from the spout is very strong and can't be drunk; we collect it separately."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τα καζανέματα όμως δεν είναι μόνο δουλειά. Γύρω από τη φωτιά στήνονται τραπέζια, ψήνονται κάστανα και λουκάνικα, και η απόσταξη, που κρατάει όλη τη νύχτα, γίνεται γιορτή για όλο το χωριό. Τα τελευταία χρόνια μάλιστα έρχονται και επισκέπτες από τις πόλεις, για να ζήσουν από κοντά μια παράδοση αιώνων.",
+     "en": "But the distilling sessions aren't only work. Tables are set up around the fire, chestnuts and sausages are roasted, and the distillation, which lasts all night, becomes a celebration for the whole village. In recent years visitors even come from the cities, to experience at first hand a centuries-old tradition."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από τι φτιάχνεται το τσίπουρο, σύμφωνα με το ρεπορτάζ;",
+     "options": [
+      "Από σύκα και κάστανα",
+      "Από τα στέμφυλα, δηλαδή φλούδες και κουκούτσια",
+      "Από φρέσκο χυμό σταφυλιού",
+      "Από παλιό κρασί"
+     ],
+     "answer": "Από τα στέμφυλα, δηλαδή φλούδες και κουκούτσια",
+     "why": "των φλουδών και των κουκουτσιών του σταφυλιού"
+    },
+    {
+     "q": "Τι ισχύει για τους αμπελουργούς που φέρνουν τα στέμφυλα;",
+     "options": [
+      "Παίρνουν άδεια για συγκεκριμένες μέρες και πληρώνουν φόρο",
+      "Πουλάνε τα στέμφυλα στον καζανάρη",
+      "Αποστάζουν χωρίς κανέναν έλεγχο",
+      "Χρησιμοποιούν όλοι το ίδιο καζάνι μία μέρα τον χρόνο"
+     ],
+     "answer": "Παίρνουν άδεια για συγκεκριμένες μέρες και πληρώνουν φόρο",
+     "why": "Παίρνουν άδεια για συγκεκριμένες μέρες και πληρώνουν φόρο"
+    },
+    {
+     "q": "Πώς περιγράφονται τα καζανέματα;",
+     "options": [
+      "Ως τουριστική παράσταση",
+      "Ως γιορτή για όλο το χωριό",
+      "Ως παράδοση που χάνεται",
+      "Ως μια μοναχική, κουραστική δουλειά"
+     ],
+     "answer": "Ως γιορτή για όλο το χωριό",
+     "why": "γίνεται γιορτή για όλο το χωριό"
+    }
+   ],
+   "gloss": {
+    "καζάνια": "καζάνι — still, cauldron",
+    "Τύρναβο": "Τύρναβος — Tyrnavos (town in Thessaly)",
+    "στέμφυλων": "στέμφυλα — grape pomace",
+    "φλουδών": "φλούδα — skin, peel",
+    "κουκουτσιών": "κουκούτσι — seed, pip",
+    "αποστάζονται": "αποστάζομαι — to be distilled",
+    "αμπελουργοί": "αμπελουργός — winegrower",
+    "λουλά": "λουλάς — spout of a still",
+    "καζανέματα": "καζάνεμα — distilling session",
+    "κάστανα": "κάστανο — chestnut",
+    "απόσταξη": "απόσταξη — distillation"
+   }
+  },
+  {
+   "id": "l35-rep-pansilinos",
+   "title": "Αρχαιολογικοί χώροι στο φως της πανσελήνου",
+   "title_en": "Archaeological sites by the light of the full moon",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από την αυγουστιάτικη πανσέληνο σε έναν αρχαιολογικό χώρο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Απόψε είναι η πανσέληνος του Αυγούστου, και, όπως κάθε χρόνο, δεκάδες αρχαιολογικοί χώροι και μουσεία σε όλη τη χώρα μένουν ανοιχτά ως αργά το βράδυ, με ελεύθερη είσοδο. Εδώ, στο Σούνιο, η ουρά για τον ναό του Ποσειδώνα άρχισε να σχηματίζεται από τις επτά.",
+     "en": "Tonight is the August full moon, and, as every year, dozens of archaeological sites and museums all over the country stay open until late in the evening, with free entry. Here at Sounion, the queue for the temple of Poseidon started forming at seven."
+    },
+    {
+     "speaker": "Επισκέπτρια",
+     "voice": "f",
+     "el": "Έχω δει το Σούνιο πολλές φορές το μεσημέρι, με τον ήλιο να καίει. Τώρα, με το φεγγάρι να ανεβαίνει πάνω από τη θάλασσα, είναι σαν άλλος τόπος. Έφερα και τα παιδιά μου· είναι η πρώτη φορά που βλέπουν αρχαίο ναό, και νομίζω ότι δεν θα το ξεχάσουν.",
+     "en": "I've seen Sounion many times at midday, with the sun burning. Now, with the moon rising over the sea, it's like another place. I brought my children too; it's the first time they've seen an ancient temple, and I don't think they'll forget it."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Σε πολλούς χώρους το πρόγραμμα περιλαμβάνει και συναυλίες ή απαγγελίες ποίησης. Οι αρχαιοφύλακες πάντως ζητούν από το κοινό να μένει στα μονοπάτια και να μην αγγίζει τα μνημεία, και θυμίζουν ότι η είσοδος σταματά μία ώρα πριν κλείσει ο χώρος.",
+     "en": "At many sites the programme also includes concerts or poetry readings. The site guards, however, ask the public to stay on the paths and not to touch the monuments, and remind people that entry stops an hour before the site closes."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι γίνεται κάθε χρόνο την πανσέληνο του Αυγούστου;",
+     "options": [
+      "Πολλοί χώροι μένουν ανοιχτοί ως αργά με ελεύθερη είσοδο",
+      "Γίνεται μόνο μία συναυλία στο Σούνιο",
+      "Κλείνουν οι αρχαιολογικοί χώροι νωρίς",
+      "Ανοίγουν νέα μουσεία"
+     ],
+     "answer": "Πολλοί χώροι μένουν ανοιχτοί ως αργά με ελεύθερη είσοδο",
+     "why": "μένουν ανοιχτά ως αργά το βράδυ, με ελεύθερη είσοδο"
+    },
+    {
+     "q": "Τι νιώθει η επισκέπτρια απόψε στο Σούνιο;",
+     "options": [
+      "Ότι προτιμά το Σούνιο το μεσημέρι",
+      "Ότι είναι πολύ κόσμος για να το χαρεί",
+      "Ότι ο τόπος μοιάζει διαφορετικός με το φεγγάρι",
+      "Ότι τα παιδιά βαριούνται"
+     ],
+     "answer": "Ότι ο τόπος μοιάζει διαφορετικός με το φεγγάρι",
+     "why": "είναι σαν άλλος τόπος"
+    },
+    {
+     "q": "Τι ζητούν οι αρχαιοφύλακες;",
+     "options": [
+      "Να φύγουν όλοι πριν βγει το φεγγάρι",
+      "Να μη βγάζουν φωτογραφίες",
+      "Να μένει το κοινό στα μονοπάτια και να μην αγγίζει τα μνημεία",
+      "Να κλείνουν θέση από πριν"
+     ],
+     "answer": "Να μένει το κοινό στα μονοπάτια και να μην αγγίζει τα μνημεία",
+     "why": "να μένει στα μονοπάτια και να μην αγγίζει τα μνημεία"
+    }
+   ],
+   "gloss": {
+    "πανσέληνο": "πανσέληνος — full moon",
+    "αρχαιολογικό χώρο": "αρχαιολογικός χώρος — archaeological site",
+    "ελεύθερη είσοδο": "ελεύθερη είσοδος — free entry",
+    "ουρά": "ουρά — queue",
+    "να σχηματίζεται": "σχηματίζομαι — to form",
+    "καίει": "καίω — to burn",
+    "απαγγελίες": "απαγγελία — recitation",
+    "αρχαιοφύλακες": "αρχαιοφύλακας — site guard",
+    "μονοπάτια": "μονοπάτι — path",
+    "να μην αγγίζει": "αγγίζω — to touch",
+    "μνημεία": "μνημείο — monument"
+   }
+  },
+  {
+   "id": "l35-int-kapetanissa",
+   "title": "Μια καπετάνισσα στις Μικρές Κυκλάδες",
+   "title_en": "A woman captain in the Small Cyclades",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια γυναίκα που είναι καπετάνισσα σε ένα μικρό πλοίο των Μικρών Κυκλάδων.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πόσο συνηθισμένο είναι να βλέπει κανείς γυναίκα στη γέφυρα ενός πλοίου;",
+     "en": "How common is it to see a woman on the bridge of a ship?"
+    },
+    {
+     "speaker": "Καπετάνισσα",
+     "voice": "f",
+     "el": "Λιγότερο απ' όσο θα έπρεπε, αλλά περισσότερο απ' ό,τι πριν από είκοσι χρόνια. Όταν ξεκίνησα ως δόκιμη, κάποιοι επιβάτες ζητούσαν να μιλήσουν «με τον καπετάνιο». Τώρα στα νησιά με ξέρουν όλοι. Στην Ηρακλειά και στο Κουφονήσι οι γιαγιάδες μού φέρνουν γλυκά του κουταλιού.",
+     "en": "Less than it should be, but more than twenty years ago. When I started as a cadet, some passengers asked to speak 'to the captain'. Now on the islands everyone knows me. On Irakleia and Koufonisi the grannies bring me spoon sweets."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιο είναι το δυσκολότερο κομμάτι της δουλειάς;",
+     "en": "What's the hardest part of the job?"
+    },
+    {
+     "speaker": "Καπετάνισσα",
+     "voice": "f",
+     "el": "Ο χειμώνας. Το καλοκαίρι μεταφέρουμε τουρίστες, αλλά τον χειμώνα είμαστε η μόνη σύνδεση των νησιών με τη Νάξο. Φέρνουμε το ψωμί, τα φάρμακα, τον γιατρό, τα παιδιά που πηγαίνουν στο λύκειο. Όταν φυσάει εννιά μποφόρ και πρέπει να αποφασίσω αν θα βγούμε ή όχι, ξέρω ότι από μένα εξαρτάται αν ένα νησί θα μείνει αποκομμένο. Αυτή η ευθύνη δεν σε αφήνει να κοιμηθείς.",
+     "en": "Winter. In summer we carry tourists, but in winter we are the islands' only link with Naxos. We bring the bread, the medicines, the doctor, the children who go to the upper secondary school. When it's blowing force nine and I have to decide whether we go out or not, I know that it depends on me whether an island will be cut off. That responsibility doesn't let you sleep."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς έχει αλλάξει η στάση των επιβατών απέναντί της;",
+     "options": [
+      "Παλιά ζητούσαν «τον καπετάνιο», τώρα την ξέρουν όλοι",
+      "Δεν έχει αλλάξει καθόλου",
+      "Οι επιβάτες παραπονιούνται συχνά",
+      "Παλιά την ήξεραν όλοι, τώρα όχι"
+     ],
+     "answer": "Παλιά ζητούσαν «τον καπετάνιο», τώρα την ξέρουν όλοι",
+     "why": "Τώρα στα νησιά με ξέρουν όλοι"
+    },
+    {
+     "q": "Τι ρόλο παίζει το πλοίο τον χειμώνα;",
+     "options": [
+      "Κάνει μόνο ταξίδια για ψάρεμα",
+      "Μεταφέρει κυρίως τουρίστες",
+      "Δεν ταξιδεύει καθόλου",
+      "Είναι η μόνη σύνδεση των νησιών με τη Νάξο"
+     ],
+     "answer": "Είναι η μόνη σύνδεση των νησιών με τη Νάξο",
+     "why": "τον χειμώνα είμαστε η μόνη σύνδεση των νησιών με τη Νάξο"
+    },
+    {
+     "q": "Τι της προκαλεί τη μεγαλύτερη ανησυχία;",
+     "options": [
+      "Η απόφαση αν θα ταξιδέψουν με κακοκαιρία",
+      "Η συντήρηση του πλοίου",
+      "Οι απαιτητικοί τουρίστες",
+      "Η χαμηλή αμοιβή"
+     ],
+     "answer": "Η απόφαση αν θα ταξιδέψουν με κακοκαιρία",
+     "why": "πρέπει να αποφασίσω αν θα βγούμε ή όχι"
+    }
+   ],
+   "gloss": {
+    "καπετάνισσα": "καπετάνισσα — woman captain",
+    "γέφυρα": "γέφυρα — bridge (of a ship)",
+    "δόκιμη": "δόκιμος — cadet",
+    "επιβάτες": "επιβάτης — passenger",
+    "γλυκά του κουταλιού": "γλυκό του κουταλιού — spoon sweet",
+    "σύνδεση": "σύνδεση — link, connection",
+    "λύκειο": "λύκειο — upper secondary school",
+    "μποφόρ": "μποφόρ — Beaufort (wind force)",
+    "αποκομμένο": "αποκομμένος — cut off",
+    "ευθύνη": "ευθύνη — responsibility"
+   }
+  },
+  {
+   "id": "l35-mono-algorithmoi",
+   "title": "Οι αλγόριθμοι και η ενημέρωσή μας",
+   "title_en": "Algorithms and how we get our news",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε έναν καθηγητή επικοινωνίας να μιλάει σε μια διάλεξη για τα μέσα κοινωνικής δικτύωσης και την ενημέρωση.",
+   "script": [
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Για τους περισσότερους νέους σήμερα, η πρώτη επαφή με την επικαιρότητα δεν είναι μια εφημερίδα ούτε ένα δελτίο ειδήσεων, αλλά η ροή μιας εφαρμογής στο κινητό. Και η ροή αυτή δεν είναι ουδέτερη. Την καθορίζουν αλγόριθμοι, σχεδιασμένοι με έναν βασικό στόχο: να μας κρατούν όσο το δυνατόν περισσότερη ώρα μπροστά στην οθόνη.",
+     "en": "For most young people today, the first contact with current affairs is not a newspaper or a news bulletin, but the feed of an app on their phone. And that feed is not neutral. It is determined by algorithms designed with one basic aim: to keep us in front of the screen for as long as possible."
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Επειδή το περιεχόμενο που προκαλεί θυμό ή φόβο κρατάει την προσοχή μας περισσότερο από το ψύχραιμο και τεκμηριωμένο, οι αλγόριθμοι τείνουν, χωρίς κανείς να το έχει αποφασίσει ρητά, να το προβάλλουν περισσότερο. Έχει γίνει πολύς λόγος για τις λεγόμενες «φούσκες φίλτρων», δηλαδή για το ότι βλέπουμε μόνο απόψεις που επιβεβαιώνουν τις δικές μας.",
+     "en": "Because content that provokes anger or fear holds our attention more than calm, well-documented content, algorithms tend, without anyone having explicitly decided it, to promote it more. There has been much talk of so-called 'filter bubbles', that is, that we see only opinions that confirm our own."
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Οφείλω πάντως να σας πω ότι η έρευνα εδώ είναι λιγότερο ξεκάθαρη απ' όσο υποθέτει ο δημόσιος διάλογος. Αρκετές μελέτες δείχνουν ότι οι χρήστες των μέσων κοινωνικής δικτύωσης έρχονται σε επαφή με περισσότερες, όχι λιγότερες, αντίθετες απόψεις από όσους δεν τα χρησιμοποιούν. Το πρόβλημα, ίσως, δεν είναι ότι δεν βλέπουμε την άλλη πλευρά, αλλά ότι τη βλέπουμε σχεδόν πάντα στην πιο ακραία και προκλητική εκδοχή της.",
+     "en": "I must tell you, however, that the research here is less clear-cut than public debate assumes. Several studies show that social media users come into contact with more, not fewer, opposing views than those who don't use them. The problem, perhaps, is not that we don't see the other side, but that we almost always see it in its most extreme and provocative version."
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Τι μπορούμε λοιπόν να κάνουμε; Η απάντηση δεν είναι να πετάξουμε τα κινητά μας. Είναι να αποκτήσουμε αυτό που ονομάζουμε ψηφιακό γραμματισμό: να ρωτάμε ποιος παρήγαγε μια είδηση, γιατί μας εμφανίζεται εκείνη τη στιγμή και τι συναίσθημα προσπαθεί να μας προκαλέσει.",
+     "en": "So what can we do? The answer is not to throw away our phones. It is to acquire what we call digital literacy: to ask who produced a piece of news, why it appears to us at that moment, and what emotion it is trying to provoke in us."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιος είναι, κατά τον ομιλητή, ο βασικός στόχος των αλγορίθμων;",
+     "options": [
+      "Να μας κρατούν όσο περισσότερη ώρα γίνεται στην οθόνη",
+      "Να προωθούν συγκεκριμένα κόμματα",
+      "Να περιορίζουν τις ψευδείς ειδήσεις",
+      "Να μας ενημερώνουν αντικειμενικά"
+     ],
+     "answer": "Να μας κρατούν όσο περισσότερη ώρα γίνεται στην οθόνη",
+     "why": "να μας κρατούν όσο το δυνατόν περισσότερη ώρα μπροστά στην οθόνη"
+    },
+    {
+     "q": "Γιατί προβάλλεται περισσότερο το περιεχόμενο που προκαλεί θυμό ή φόβο;",
+     "options": [
+      "Γιατί είναι πιο φθηνό στην παραγωγή",
+      "Γιατί κρατάει την προσοχή μας περισσότερο",
+      "Γιατί το απαιτεί ο νόμος",
+      "Γιατί το επιλέγουν σκόπιμα οι δημοσιογράφοι"
+     ],
+     "answer": "Γιατί κρατάει την προσοχή μας περισσότερο",
+     "why": "κρατάει την προσοχή μας περισσότερο από το ψύχραιμο και τεκμηριωμένο"
+    },
+    {
+     "q": "Τι λέει ο ομιλητής για τις «φούσκες φίλτρων»;",
+     "options": [
+      "Ότι δεν έχουν μελετηθεί καθόλου",
+      "Ότι η έρευνα είναι λιγότερο ξεκάθαρη απ' όσο πιστεύεται",
+      "Ότι αφορούν μόνο τους ηλικιωμένους",
+      "Ότι έχουν αποδειχθεί πέρα από κάθε αμφιβολία"
+     ],
+     "answer": "Ότι η έρευνα είναι λιγότερο ξεκάθαρη απ' όσο πιστεύεται",
+     "why": "η έρευνα εδώ είναι λιγότερο ξεκάθαρη απ' όσο υποθέτει ο δημόσιος διάλογος"
+    },
+    {
+     "q": "Ποια λύση προτείνει;",
+     "options": [
+      "Να σταματήσουμε να χρησιμοποιούμε κινητά",
+      "Να διαβάζουμε μόνο έντυπες εφημερίδες",
+      "Να απαγορευτούν οι αλγόριθμοι",
+      "Να αποκτήσουμε ψηφιακό γραμματισμό"
+     ],
+     "answer": "Να αποκτήσουμε ψηφιακό γραμματισμό",
+     "why": "Είναι να αποκτήσουμε αυτό που ονομάζουμε ψηφιακό γραμματισμό"
+    }
+   ],
+   "gloss": {
+    "επικαιρότητα": "επικαιρότητα — current affairs",
+    "δελτίο ειδήσεων": "δελτίο ειδήσεων — news bulletin",
+    "ροή": "ροή — feed, flow",
+    "ουδέτερη": "ουδέτερος — neutral",
+    "Την καθορίζουν": "καθορίζω — to determine",
+    "ψύχραιμο": "ψύχραιμος — calm",
+    "τεκμηριωμένο": "τεκμηριωμένος — well-documented",
+    "ρητά": "ρητά — explicitly",
+    "να το προβάλλουν": "προβάλλω — to promote, display",
+    "φούσκες φίλτρων": "φούσκα φίλτρων — filter bubble",
+    "επιβεβαιώνουν": "επιβεβαιώνω — to confirm",
+    "προκλητική": "προκλητικός — provocative",
+    "εκδοχή": "εκδοχή — version",
+    "ψηφιακό γραμματισμό": "ψηφιακός γραμματισμός — digital literacy"
+   }
+  },
+  {
+   "id": "l35-int-leipsydria",
+   "title": "Το νερό της Αθήνας",
+   "title_en": "Athens' water",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια συνέντευξη με έναν υδρολόγο για το πρόβλημα της λειψυδρίας στην Αττική.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τα τελευταία χρόνια ακούμε όλο και συχνότερα ότι τα αποθέματα νερού της Αθήνας μειώνονται ανησυχητικά. Πόσο σοβαρή είναι η κατάσταση;",
+     "en": "In recent years we hear more and more often that Athens' water reserves are falling alarmingly. How serious is the situation?"
+    },
+    {
+     "speaker": "Υδρολόγος",
+     "voice": "m",
+     "el": "Σοβαρή, αλλά όχι απρόβλεπτη. Η Αθήνα υδροδοτείται κυρίως από τους ταμιευτήρες του Μόρνου και του Ευήνου, που βρίσκονται πολύ μακριά, στη Στερεά Ελλάδα, καθώς και από την Υλίκη και τον Μαραθώνα. Μετά από αρκετούς χειμώνες με λίγες βροχές και χιόνια, η στάθμη τους έπεσε σε επίπεδα που είχαμε να δούμε από τις αρχές της δεκαετίας του ενενήντα.",
+     "en": "Serious, but not unforeseeable. Athens is supplied mainly by the Mornos and Evinos reservoirs, which are very far away, in Central Greece, as well as by Yliki and Marathon. After several winters with little rain and snow, their level fell to levels we hadn't seen since the early nineties."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τι μπορεί να γίνει; Συζητείται η μεταφορά νερού από άλλα ποτάμια, αλλά και η αφαλάτωση.",
+     "en": "What can be done? Transferring water from other rivers is being discussed, as well as desalination."
+    },
+    {
+     "speaker": "Υδρολόγος",
+     "voice": "m",
+     "el": "Τα μεγάλα έργα είναι πιθανότατα αναγκαία, όμως χρειάζονται χρόνια και έχουν περιβαλλοντικό κόστος για τις περιοχές από τις οποίες παίρνουμε το νερό. Η αφαλάτωση είναι λύση για τα νησιά, αλλά για μια πόλη τεσσάρων εκατομμυρίων απαιτεί τεράστια ποσά ενέργειας. Θα έλεγα ότι το φθηνότερο νερό είναι αυτό που δεν χάνουμε. Ένα σημαντικό ποσοστό χάνεται από διαρροές σε παλιούς αγωγούς, ενώ τα επεξεργασμένα λύματα, που θα μπορούσαν να ποτίζουν πάρκα και καλλιέργειες, καταλήγουν στη θάλασσα.",
+     "en": "Major projects are probably necessary, but they take years and carry an environmental cost for the areas we take the water from. Desalination is a solution for the islands, but for a city of four million it requires huge amounts of energy. I would say the cheapest water is the water we don't lose. A significant share is lost through leaks in old pipes, while treated wastewater, which could water parks and crops, ends up in the sea."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και ο απλός πολίτης;",
+     "en": "And the ordinary citizen?"
+    },
+    {
+     "speaker": "Υδρολόγος",
+     "voice": "m",
+     "el": "Ο πολίτης μπορεί να βοηθήσει, και πρέπει, αλλά δεν θα ήθελα να μεταθέσουμε την ευθύνη στα ντους των νοικοκυριών. Η γεωργία καταναλώνει στη χώρα μας το μεγαλύτερο μέρος του νερού. Χωρίς σύγχρονα αρδευτικά συστήματα, όσο κι αν κλείνουμε τη βρύση όταν βουρτσίζουμε τα δόντια μας, το πρόβλημα δεν θα λυθεί.",
+     "en": "Citizens can help, and must, but I wouldn't want us to shift the responsibility onto households' showers. Agriculture consumes the largest share of water in our country. Without modern irrigation systems, however much we turn off the tap when we brush our teeth, the problem won't be solved."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς χαρακτηρίζει ο υδρολόγος την κατάσταση;",
+     "options": [
+      "Ως απρόβλεπτη καταστροφή",
+      "Ως σοβαρή, αλλά όχι απρόβλεπτη",
+      "Ως υπερβολή των μέσων ενημέρωσης",
+      "Ως πρόβλημα που έχει ήδη λυθεί"
+     ],
+     "answer": "Ως σοβαρή, αλλά όχι απρόβλεπτη",
+     "why": "Σοβαρή, αλλά όχι απρόβλεπτη"
+    },
+    {
+     "q": "Ποιο είναι το βασικό μειονέκτημα της αφαλάτωσης για την Αθήνα;",
+     "options": [
+      "Ότι η Αθήνα δεν έχει θάλασσα",
+      "Ότι απαιτεί τεράστια ποσά ενέργειας",
+      "Ότι απαγορεύεται από την ΕΕ",
+      "Ότι το νερό δεν πίνεται"
+     ],
+     "answer": "Ότι απαιτεί τεράστια ποσά ενέργειας",
+     "why": "απαιτεί τεράστια ποσά ενέργειας"
+    },
+    {
+     "q": "Τι εννοεί λέγοντας «το φθηνότερο νερό είναι αυτό που δεν χάνουμε»;",
+     "options": [
+      "Ότι πρέπει να περιοριστούν οι διαρροές και να αξιοποιηθούν τα λύματα",
+      "Ότι πρέπει να αυξηθεί η τιμή του νερού",
+      "Ότι το εμφιαλωμένο νερό είναι ακριβό",
+      "Ότι πρέπει να χτιστούν νέοι ταμιευτήρες"
+     ],
+     "answer": "Ότι πρέπει να περιοριστούν οι διαρροές και να αξιοποιηθούν τα λύματα",
+     "why": "Ένα σημαντικό ποσοστό χάνεται από διαρροές σε παλιούς αγωγούς"
+    },
+    {
+     "q": "Γιατί δεν θέλει να επικεντρωθεί η ευθύνη στα νοικοκυριά;",
+     "options": [
+      "Γιατί τα νοικοκυριά δεν πληρώνουν νερό",
+      "Γιατί η γεωργία καταναλώνει το μεγαλύτερο μέρος του νερού",
+      "Γιατί τα ντους δεν καταναλώνουν νερό",
+      "Γιατί οι πολίτες κάνουν ήδη ό,τι μπορούν"
+     ],
+     "answer": "Γιατί η γεωργία καταναλώνει το μεγαλύτερο μέρος του νερού",
+     "why": "Η γεωργία καταναλώνει στη χώρα μας το μεγαλύτερο μέρος του νερού"
+    }
+   ],
+   "gloss": {
+    "υδρολόγο": "υδρολόγος — hydrologist",
+    "λειψυδρίας": "λειψυδρία — water shortage",
+    "αποθέματα": "απόθεμα — reserve, stock",
+    "ανησυχητικά": "ανησυχητικά — alarmingly",
+    "απρόβλεπτη": "απρόβλεπτος — unforeseeable",
+    "υδροδοτείται": "υδροδοτούμαι — to be supplied with water",
+    "ταμιευτήρες": "ταμιευτήρας — reservoir",
+    "στάθμη": "στάθμη — level",
+    "αφαλάτωση": "αφαλάτωση — desalination",
+    "διαρροές": "διαρροή — leak",
+    "αγωγούς": "αγωγός — pipe",
+    "επεξεργασμένα λύματα": "επεξεργασμένα λύματα — treated wastewater",
+    "να μεταθέσουμε": "μεταθέτω — to shift",
+    "αρδευτικά": "αρδευτικός — irrigation (adj.)"
+   }
+  }
+ ]
+}
