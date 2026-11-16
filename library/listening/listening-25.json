@@ -1,0 +1,835 @@
+{
+ "items": [
+  {
+   "id": "l25-ann-paralia",
+   "title": "Καθαρίζουμε την παραλία",
+   "title_en": "Let's clean the beach",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση του δήμου στο τοπικό ραδιόφωνο.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ο δήμος, σε συνεργασία με περιβαλλοντικούς συλλόγους, οργανώνει την Κυριακή εθελοντικό καθαρισμό της παραλίας του Αγίου Νικολάου. Η συνάντηση θα γίνει στις εννιά το πρωί στο αναψυκτήριο, και η δράση θα διαρκέσει περίπου τρεις ώρες.",
+     "en": "The council, together with environmental associations, is organising a volunteer beach clean-up at Agios Nikolaos beach on Sunday. The meeting point is the snack bar at nine in the morning, and the activity will last about three hours."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Γάντια, σακούλες και νερό θα δοθούν στους συμμετέχοντες. Παρακαλούνται να φορούν καπέλο και αντηλιακό και να φέρουν, αν θέλουν, το δικό τους μπουκάλι, ώστε να μειωθούν τα πλαστικά. Τα παιδιά μπορούν να συμμετέχουν μόνο με τη συνοδεία ενήλικα.",
+     "en": "Gloves, bags and water will be given to participants. They are asked to wear a hat and sunscreen and to bring, if they wish, their own bottle, so as to reduce plastic. Children may take part only accompanied by an adult."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Τα απορρίμματα θα διαχωριστούν επί τόπου για ανακύκλωση, και οι επιστήμονες του συλλόγου θα καταγράψουν τα είδη τους για μια ευρωπαϊκή έρευνα για τη ρύπανση των θαλασσών. Στο τέλος θα ακολουθήσει κέρασμα για όλους.",
+     "en": "The rubbish will be sorted on the spot for recycling, and the association's scientists will record the types for a European study on marine pollution. At the end there will be refreshments for everyone."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού θα συναντηθούν οι εθελοντές;",
+     "options": [
+      "Στο αναψυκτήριο της παραλίας",
+      "Στο λιμάνι",
+      "Στο δημαρχείο",
+      "Στην πλατεία"
+     ],
+     "answer": "Στο αναψυκτήριο της παραλίας",
+     "why": "Η συνάντηση θα γίνει στις εννιά το πρωί στο αναψυκτήριο"
+    },
+    {
+     "q": "Γιατί προτείνεται να φέρουν δικό τους μπουκάλι;",
+     "options": [
+      "Γιατί δεν θα δοθεί νερό",
+      "Για να μειωθούν τα πλαστικά",
+      "Για να το γεμίσουν με άμμο",
+      "Γιατί θα κάνει ζέστη"
+     ],
+     "answer": "Για να μειωθούν τα πλαστικά",
+     "why": "ώστε να μειωθούν τα πλαστικά"
+    },
+    {
+     "q": "Τι θα γίνει με τα απορρίμματα;",
+     "options": [
+      "Θα καούν",
+      "Θα σταλούν στο εξωτερικό",
+      "Θα διαχωριστούν για ανακύκλωση και θα καταγραφούν για μια έρευνα",
+      "Θα πεταχτούν σε χωματερή"
+     ],
+     "answer": "Θα διαχωριστούν για ανακύκλωση και θα καταγραφούν για μια έρευνα",
+     "why": "θα διαχωριστούν επί τόπου για ανακύκλωση, και οι επιστήμονες του συλλόγου θα καταγράψουν τα είδη τους"
+    }
+   ],
+   "gloss": {
+    "περιβαλλοντικούς": "περιβαλλοντικός — environmental",
+    "εθελοντικό": "εθελοντικός — volunteer",
+    "αναψυκτήριο": "αναψυκτήριο — snack bar, kiosk",
+    "δράση": "δράση — activity, action",
+    "αντηλιακό": "αντηλιακό — sunscreen",
+    "συνοδεία": "συνοδεία — company, escort",
+    "απορρίμματα": "απόρριμμα — waste, rubbish",
+    "θα διαχωριστούν": "διαχωρίζομαι — to be separated, sorted",
+    "επί τόπου": "επί τόπου — on the spot",
+    "ρύπανση": "ρύπανση — pollution",
+    "κέρασμα": "κέρασμα — treat, refreshments"
+   }
+  },
+  {
+   "id": "l25-vm-courier",
+   "title": "Ένα δέμα που δεν παραδόθηκε",
+   "title_en": "A parcel that wasn't delivered",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από μια εταιρεία ταχυμεταφορών.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Καλημέρα σας, από την εταιρεία ταχυμεταφορών σάς καλούμε σχετικά με ένα δέμα στο όνομά σας. Ο διανομέας μας πέρασε σήμερα το πρωί από τη διεύθυνσή σας, αλλά δεν απάντησε κανείς στο κουδούνι, και το δέμα χρειάζεται υπογραφή παραλήπτη.",
+     "en": "Good morning, we're calling from the courier company about a parcel in your name. Our courier came by your address this morning, but nobody answered the bell, and the parcel needs the recipient's signature."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Έχετε δύο επιλογές. Μπορείτε να το παραλάβετε από το κατάστημά μας στην οδό Πατησίων, από Δευτέρα έως Παρασκευή, οχτώ με οχτώ, με την αστυνομική σας ταυτότητα. Ή μπορείτε να κλείσετε νέα ημερομηνία παράδοσης από την ιστοσελίδα μας, με τον αριθμό αποστολής που σας στείλαμε με μήνυμα.",
+     "en": "You have two options. You can collect it from our shop on Patision Street, Monday to Friday, eight to eight, with your ID card. Or you can book a new delivery date on our website, with the tracking number we sent you by text."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Σας ενημερώνουμε ότι το δέμα θα παραμείνει στο κατάστημα για δέκα ημέρες. Μετά από αυτό το διάστημα θα επιστραφεί στον αποστολέα.",
+     "en": "Please note that the parcel will remain at the shop for ten days. After that period it will be returned to the sender."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν παραδόθηκε το δέμα;",
+     "options": [
+      "Γιατί η διεύθυνση ήταν λάθος",
+      "Γιατί δεν απάντησε κανείς και χρειάζεται υπογραφή",
+      "Γιατί δεν είχε πληρωθεί",
+      "Γιατί είχε χαλάσει"
+     ],
+     "answer": "Γιατί δεν απάντησε κανείς και χρειάζεται υπογραφή",
+     "why": "δεν απάντησε κανείς στο κουδούνι, και το δέμα χρειάζεται υπογραφή παραλήπτη"
+    },
+    {
+     "q": "Τι πρέπει να έχει μαζί του για να το παραλάβει από το κατάστημα;",
+     "options": [
+      "Την αστυνομική του ταυτότητα",
+      "Ένα εξουσιοδοτημένο πρόσωπο",
+      "Το διαβατήριο",
+      "Την απόδειξη αγοράς"
+     ],
+     "answer": "Την αστυνομική του ταυτότητα",
+     "why": "με την αστυνομική σας ταυτότητα"
+    },
+    {
+     "q": "Τι θα συμβεί αν δεν το παραλάβει μέσα σε δέκα ημέρες;",
+     "options": [
+      "Θα πληρώσει πρόστιμο",
+      "Θα του σταλεί ξανά",
+      "Θα καταστραφεί",
+      "Θα επιστραφεί στον αποστολέα"
+     ],
+     "answer": "Θα επιστραφεί στον αποστολέα",
+     "why": "θα επιστραφεί στον αποστολέα"
+    }
+   ],
+   "gloss": {
+    "ταχυμεταφορών": "ταχυμεταφορές — courier services",
+    "διανομέας": "διανομέας — courier, delivery person",
+    "κουδούνι": "κουδούνι — doorbell",
+    "υπογραφή": "υπογραφή — signature",
+    "παραλήπτη": "παραλήπτης — recipient",
+    "να το παραλάβετε": "παραλαμβάνω — to collect, receive",
+    "αριθμό αποστολής": "αριθμός αποστολής — tracking number",
+    "θα παραμείνει": "παραμένω — to remain",
+    "διάστημα": "διάστημα — period",
+    "αποστολέα": "αποστολέας — sender"
+   }
+  },
+  {
+   "id": "l25-dia-apolesthenta",
+   "title": "Στο γραφείο απολεσθέντων",
+   "title_en": "At the lost property office",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συζήτηση στο γραφείο απολεσθέντων αντικειμένων ενός σιδηροδρομικού σταθμού.",
+   "script": [
+    {
+     "speaker": "Επιβάτισσα",
+     "voice": "f",
+     "el": "Καλησπέρα. Ξέχασα το σακίδιό μου στο τρένο από τη Θεσσαλονίκη, που έφτασε στις τρεις. Το κατάλαβα μόνο όταν είχα βγει από τον σταθμό.",
+     "en": "Good afternoon. I left my backpack on the train from Thessaloniki that arrived at three. I only realised once I'd left the station."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Θα το ελέγξω. Οι συνοδοί συνήθως φέρνουν εδώ ό,τι βρίσκουν μετά τον καθαρισμό των βαγονιών. Μπορείτε να μου το περιγράψετε; Και σε ποιο βαγόνι καθόσασταν;",
+     "en": "I'll check. The conductors usually bring here whatever they find after the carriages are cleaned. Can you describe it? And which carriage were you sitting in?"
+    },
+    {
+     "speaker": "Επιβάτισσα",
+     "voice": "f",
+     "el": "Στο βαγόνι πέντε, θέση σαράντα δύο. Είναι ένα μαύρο σακίδιο με ένα κόκκινο μπρελόκ σε σχήμα αστεριού. Μέσα έχει τον φορητό μου υπολογιστή και ένα βιβλίο.",
+     "en": "Carriage five, seat forty-two. It's a black backpack with a red star-shaped keyring. Inside there's my laptop and a book."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Έχετε τύχη· ήρθε πριν από μισή ώρα. Για να σας το δώσω, όμως, πρέπει να μου πείτε τι βιβλίο είναι, για να βεβαιωθώ ότι είναι δικό σας, και να υπογράψετε εδώ. Χρειάζομαι και την ταυτότητά σας.",
+     "en": "You're in luck; it came in half an hour ago. But to give it to you, you need to tell me what book it is, so I can be sure it's yours, and sign here. I also need your ID."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε κατάλαβε η επιβάτισσα ότι είχε ξεχάσει το σακίδιο;",
+     "options": [
+      "Μέσα στο τρένο",
+      "Στη Θεσσαλονίκη",
+      "Το επόμενο πρωί",
+      "Όταν είχε βγει από τον σταθμό"
+     ],
+     "answer": "Όταν είχε βγει από τον σταθμό",
+     "why": "Το κατάλαβα μόνο όταν είχα βγει από τον σταθμό"
+    },
+    {
+     "q": "Πώς φτάνουν τα ξεχασμένα αντικείμενα στο γραφείο;",
+     "options": [
+      "Τα φέρνουν οι συνοδοί μετά τον καθαρισμό των βαγονιών",
+      "Τα φέρνουν οι επιβάτες",
+      "Τα φέρνει η αστυνομία",
+      "Τα στέλνει ο σταθμός της Θεσσαλονίκης"
+     ],
+     "answer": "Τα φέρνουν οι συνοδοί μετά τον καθαρισμό των βαγονιών",
+     "why": "Οι συνοδοί συνήθως φέρνουν εδώ ό,τι βρίσκουν μετά τον καθαρισμό των βαγονιών"
+    },
+    {
+     "q": "Τι της ζητά ο υπάλληλος για να βεβαιωθεί ότι το σακίδιο είναι δικό της;",
+     "options": [
+      "Μια φωτογραφία του σακιδίου",
+      "Να του πει τι βιβλίο έχει μέσα",
+      "Το εισιτήριο",
+      "Τον κωδικό του υπολογιστή"
+     ],
+     "answer": "Να του πει τι βιβλίο έχει μέσα",
+     "why": "πρέπει να μου πείτε τι βιβλίο είναι, για να βεβαιωθώ ότι είναι δικό σας"
+    }
+   ],
+   "gloss": {
+    "απολεσθέντων": "απολεσθέντα (αντικείμενα) — lost property",
+    "σιδηροδρομικού": "σιδηροδρομικός — railway (adj.)",
+    "σακίδιό": "σακίδιο — backpack",
+    "συνοδοί": "συνοδός — (train) conductor, attendant",
+    "βαγονιών": "βαγόνι — carriage",
+    "περιγράψετε": "περιγράφω — to describe",
+    "μπρελόκ": "μπρελόκ — keyring",
+    "σχήμα": "σχήμα — shape",
+    "φορητό μου υπολογιστή": "φορητός υπολογιστής — laptop",
+    "να βεβαιωθώ": "βεβαιώνομαι — to make sure"
+   }
+  },
+  {
+   "id": "l25-dia-odeio",
+   "title": "Μαθήματα κιθάρας",
+   "title_en": "Guitar lessons",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συζήτηση στη γραμματεία ενός ωδείου.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Γεια σας. Θα ήθελα να γραφτώ σε μαθήματα κιθάρας. Είμαι σαράντα πέντε χρονών και δεν έχω πιάσει ποτέ όργανο στα χέρια μου. Μήπως είναι αργά;",
+     "en": "Hello. I'd like to sign up for guitar lessons. I'm forty-five and I've never held an instrument in my hands. Is it too late?"
+    },
+    {
+     "speaker": "Γραμματέας",
+     "voice": "f",
+     "el": "Καθόλου! Έχουμε πολλούς ενήλικες μαθητές, ο μεγαλύτερος είναι εβδομήντα δύο. Για αρχάριους προτείνουμε ατομικά μαθήματα μισής ώρας, μία φορά την εβδομάδα, τουλάχιστον τους πρώτους μήνες. Υπάρχει και ομαδικό τμήμα για ενήλικες, την Τετάρτη το βράδυ, που κοστίζει λιγότερο.",
+     "en": "Not at all! We have many adult students; the oldest is seventy-two. For beginners we suggest individual half-hour lessons once a week, at least for the first few months. There's also a group class for adults on Wednesday evening, which costs less."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Το ομαδικό μου ακούγεται καλύτερο· νομίζω ότι θα ντρεπόμουν λιγότερο. Χρειάζεται να έχω δική μου κιθάρα από την αρχή;",
+     "en": "The group class sounds better to me; I think I'd be less embarrassed. Do I need to have my own guitar from the start?"
+    },
+    {
+     "speaker": "Γραμματέας",
+     "voice": "f",
+     "el": "Για τον πρώτο μήνα μπορούμε να σας δανείσουμε μία από το ωδείο. Σας συμβουλεύω να μην αγοράσετε ακριβή κιθάρα πριν δείτε αν σας αρέσει. Η πρώτη ομαδική συνάντηση είναι δωρεάν, ώστε να δείτε πώς είναι πριν πληρώσετε.",
+     "en": "For the first month we can lend you one from the conservatory. I advise you not to buy an expensive guitar before you see whether you like it. The first group session is free, so you can see what it's like before you pay."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ανησυχεί τον πελάτη;",
+     "options": [
+      "Το ωράριο",
+      "Το κόστος",
+      "Μήπως είναι πολύ μεγάλος για να ξεκινήσει",
+      "Η απόσταση από το σπίτι του"
+     ],
+     "answer": "Μήπως είναι πολύ μεγάλος για να ξεκινήσει",
+     "why": "Μήπως είναι αργά;"
+    },
+    {
+     "q": "Γιατί προτιμά το ομαδικό τμήμα;",
+     "options": [
+      "Γιατί είναι πιο κοντά",
+      "Γιατί είναι το πρωί",
+      "Γιατί έχει φίλους εκεί",
+      "Γιατί νομίζει ότι θα ντρέπεται λιγότερο"
+     ],
+     "answer": "Γιατί νομίζει ότι θα ντρέπεται λιγότερο",
+     "why": "νομίζω ότι θα ντρεπόμουν λιγότερο"
+    },
+    {
+     "q": "Τι του προτείνει η γραμματέας για την κιθάρα;",
+     "options": [
+      "Να νοικιάσει μία από ένα κατάστημα",
+      "Να δανειστεί μία από το ωδείο τον πρώτο μήνα",
+      "Να χρησιμοποιεί την κιθάρα του δασκάλου",
+      "Να αγοράσει αμέσως μια καλή κιθάρα"
+     ],
+     "answer": "Να δανειστεί μία από το ωδείο τον πρώτο μήνα",
+     "why": "Για τον πρώτο μήνα μπορούμε να σας δανείσουμε μία από το ωδείο"
+    }
+   ],
+   "gloss": {
+    "ωδείου": "ωδείο — conservatory, music school",
+    "να γραφτώ": "γράφομαι — to sign up",
+    "όργανο": "όργανο — (musical) instrument",
+    "αρχάριους": "αρχάριος — beginner",
+    "ατομικά": "ατομικός — individual",
+    "ομαδικό τμήμα": "ομαδικό τμήμα — group class",
+    "θα ντρεπόμουν": "ντρέπομαι — to be shy, embarrassed",
+    "να σας δανείσουμε": "δανείζω — to lend",
+    "συνάντηση": "συνάντηση — session, meeting"
+   }
+  },
+  {
+   "id": "l25-mon-xylourgos",
+   "title": "Από την τράπεζα στο ξυλουργείο",
+   "title_en": "From the bank to the carpenter's workshop",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν άντρα να μιλάει για την αλλαγή της καριέρας του.",
+   "script": [
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Για δεκαπέντε χρόνια δούλευα σε μια τράπεζα, στο τμήμα δανείων. Είχα καλό μισθό και σταθερό ωράριο, αλλά κάθε Κυριακή βράδυ ένιωθα ένα βάρος στο στομάχι. Το μόνο που με χαλάρωνε ήταν να φτιάχνω μικρά έπιπλα στην αποθήκη της πολυκατοικίας μας.",
+     "en": "For fifteen years I worked at a bank, in the loans department. I had a good salary and regular hours, but every Sunday evening I felt a weight in my stomach. The only thing that relaxed me was making small pieces of furniture in our building's storeroom."
+    },
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Στα σαράντα, όταν η τράπεζα πρότεινε εθελουσία έξοδο, το αποφάσισα. Η γυναίκα μου με στήριξε, αν και φοβόταν. Δούλεψα δύο χρόνια ως βοηθός σε έναν παλιό ξυλουργό, ο οποίος μου έμαθε όσα δεν διδάσκονται σε κανένα σεμινάριο: πώς να διαβάζω τα νερά του ξύλου, πώς να ακούω το πριόνι.",
+     "en": "At forty, when the bank offered voluntary redundancy, I made up my mind. My wife supported me, although she was afraid. I worked for two years as assistant to an old carpenter, who taught me what isn't taught in any seminar: how to read the grain of the wood, how to listen to the saw."
+    },
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Σήμερα έχω δικό μου μικρό εργαστήριο. Βγάζω λιγότερα χρήματα, και οι πρώτοι δύο χρόνοι ήταν πραγματικά δύσκολοι. Όμως όταν παραδίδω ένα τραπέζι σε μια οικογένεια και ξέρω ότι θα τρώνε σε αυτό για τριάντα χρόνια, νιώθω κάτι που δεν ένιωσα ποτέ εγκρίνοντας ένα δάνειο.",
+     "en": "Today I have my own small workshop. I earn less money, and the first two years were really hard. But when I deliver a table to a family and know they'll eat at it for thirty years, I feel something I never felt approving a loan."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι τον χαλάρωνε όταν δούλευε στην τράπεζα;",
+     "options": [
+      "Να φτιάχνει μικρά έπιπλα",
+      "Τα ταξίδια",
+      "Η μουσική",
+      "Το τρέξιμο"
+     ],
+     "answer": "Να φτιάχνει μικρά έπιπλα",
+     "why": "Το μόνο που με χαλάρωνε ήταν να φτιάχνω μικρά έπιπλα"
+    },
+    {
+     "q": "Πώς έμαθε την τέχνη;",
+     "options": [
+      "Δουλεύοντας δύο χρόνια ως βοηθός ενός παλιού ξυλουργού",
+      "Από τον πατέρα του",
+      "Από βίντεο στο διαδίκτυο",
+      "Σε μια σχολή ξυλουργικής"
+     ],
+     "answer": "Δουλεύοντας δύο χρόνια ως βοηθός ενός παλιού ξυλουργού",
+     "why": "Δούλεψα δύο χρόνια ως βοηθός σε έναν παλιό ξυλουργό"
+    },
+    {
+     "q": "Τι νιώθει σήμερα για τη δουλειά του;",
+     "options": [
+      "Μια ικανοποίηση που δεν ένιωθε στην τράπεζα",
+      "Ότι κουράζεται πολύ",
+      "Ότι μετάνιωσε",
+      "Ότι βγάζει περισσότερα χρήματα"
+     ],
+     "answer": "Μια ικανοποίηση που δεν ένιωθε στην τράπεζα",
+     "why": "νιώθω κάτι που δεν ένιωσα ποτέ εγκρίνοντας ένα δάνειο"
+    }
+   ],
+   "gloss": {
+    "δανείων": "δάνειο — loan",
+    "βάρος": "βάρος — weight",
+    "με χαλάρωνε": "χαλαρώνω — to relax",
+    "έπιπλα": "έπιπλο — piece of furniture",
+    "εθελουσία έξοδο": "εθελουσία έξοδος — voluntary redundancy",
+    "με στήριξε": "στηρίζω — to support",
+    "ξυλουργό": "ξυλουργός — carpenter",
+    "νερά του ξύλου": "τα νερά του ξύλου — the grain of the wood",
+    "πριόνι": "πριόνι — saw",
+    "εγκρίνοντας": "εγκρίνω — to approve"
+   }
+  },
+  {
+   "id": "l25-rep-aigina",
+   "title": "Η Αίγινα",
+   "title_en": "Aegina",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για την Αίγινα σε μια ταξιδιωτική εκπομπή.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Μόλις μία ώρα με το πλοίο από τον Πειραιά, η Αίγινα είναι ο αγαπημένος προορισμός πολλών Αθηναίων για ένα Σαββατοκύριακο. Το πρώτο που βλέπει κανείς στο λιμάνι είναι οι πάγκοι με τα φιστίκια, που έκαναν το νησί γνωστό σε όλη την Ελλάδα και έχουν πάρει την πιστοποίηση προϊόντος προστατευόμενης ονομασίας προέλευσης.",
+     "en": "Just an hour by boat from Piraeus, Aegina is the favourite weekend destination of many Athenians. The first thing you see in the harbour are the stalls with pistachios, which made the island known all over Greece and have been certified as a product with protected designation of origin."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Λίγοι γνωρίζουν ότι η Αίγινα υπήρξε για λίγο έδρα της πρώτης ελληνικής κυβέρνησης, μετά την άφιξη του Καποδίστρια το 1828. Εδώ κόπηκε και το πρώτο νόμισμα του νέου κράτους, ο φοίνικας.",
+     "en": "Few know that Aegina was briefly the seat of the first Greek government, after Kapodistrias arrived in 1828. The first coin of the new state, the phoenix, was also minted here."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Στην κορυφή ενός λόφου, μέσα στα πεύκα, στέκεται ο ναός της Αφαίας, ένας από τους καλύτερα σωσμένους αρχαίους ναούς της χώρας. Σύμφωνα με μια δημοφιλή άποψη, ο ναός της Αφαίας, ο Παρθενώνας και ο ναός του Ποσειδώνα στο Σούνιο σχηματίζουν ένα ισόπλευρο τρίγωνο, αν και οι αρχαιολόγοι το θεωρούν μάλλον σύμπτωση.",
+     "en": "On top of a hill, among the pines, stands the temple of Aphaia, one of the best-preserved ancient temples in the country. According to a popular view, the temple of Aphaia, the Parthenon and the temple of Poseidon at Sounion form an equilateral triangle, although archaeologists consider this more likely a coincidence."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Για ποιο προϊόν είναι γνωστή η Αίγινα;",
+     "options": [
+      "Για το μέλι",
+      "Για τα φιστίκια",
+      "Για το κρασί",
+      "Για το λάδι"
+     ],
+     "answer": "Για τα φιστίκια",
+     "why": "οι πάγκοι με τα φιστίκια, που έκαναν το νησί γνωστό σε όλη την Ελλάδα"
+    },
+    {
+     "q": "Τι έγινε στην Αίγινα μετά το 1828;",
+     "options": [
+      "Χτίστηκε ο ναός της Αφαίας",
+      "Ιδρύθηκε το πρώτο πανεπιστήμιο",
+      "Έγινε για λίγο έδρα της κυβέρνησης και κόπηκε το πρώτο νόμισμα",
+      "Έγινε η πρώτη πρωτεύουσα για δεκαετίες"
+     ],
+     "answer": "Έγινε για λίγο έδρα της κυβέρνησης και κόπηκε το πρώτο νόμισμα",
+     "why": "υπήρξε για λίγο έδρα της πρώτης ελληνικής κυβέρνησης ... Εδώ κόπηκε και το πρώτο νόμισμα"
+    },
+    {
+     "q": "Τι πιστεύουν οι αρχαιολόγοι για το «ιερό τρίγωνο»;",
+     "options": [
+      "Ότι είναι ένας μύθος του 19ου αιώνα",
+      "Ότι είναι μάλλον σύμπτωση",
+      "Ότι σχεδιάστηκε σκόπιμα",
+      "Ότι αποδεικνύει μια αρχαία θρησκεία"
+     ],
+     "answer": "Ότι είναι μάλλον σύμπτωση",
+     "why": "οι αρχαιολόγοι το θεωρούν μάλλον σύμπτωση"
+    }
+   ],
+   "gloss": {
+    "προορισμός": "προορισμός — destination",
+    "πάγκοι": "πάγκος — stall",
+    "φιστίκια": "φιστίκι — pistachio",
+    "πιστοποίηση": "πιστοποίηση — certification",
+    "προστατευόμενης ονομασίας προέλευσης": "ΠΟΠ — protected designation of origin",
+    "έδρα": "έδρα — seat",
+    "άφιξη": "άφιξη — arrival",
+    "κόπηκε": "κόβομαι — to be minted (of coins); to be cut",
+    "νόμισμα": "νόμισμα — coin, currency",
+    "πεύκα": "πεύκο — pine",
+    "σωσμένους": "σωσμένος — preserved",
+    "ισόπλευρο": "ισόπλευρος — equilateral",
+    "σύμπτωση": "σύμπτωση — coincidence"
+   }
+  },
+  {
+   "id": "l25-rep-olympos",
+   "title": "Ο Όλυμπος",
+   "title_en": "Mount Olympus",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από τον Όλυμπο.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Βρισκόμαστε στο Λιτόχωρο, στους πρόποδες του Ολύμπου, του ψηλότερου βουνού της Ελλάδας. Η ψηλότερη κορυφή του, ο Μύτικας, φτάνει τα δύο χιλιάδες εννιακόσια δεκαεπτά μέτρα. Για τους αρχαίους, εδώ ζούσαν οι δώδεκα θεοί, κρυμμένοι πίσω από τα σύννεφα.",
+     "en": "We are in Litochoro, at the foot of Olympus, Greece's highest mountain. Its highest peak, Mytikas, reaches two thousand nine hundred and seventeen metres. For the ancients, this is where the twelve gods lived, hidden behind the clouds."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Παρά τη φήμη του, ο Μύτικας κατακτήθηκε πολύ αργά: το 1913, από δύο Ελβετούς και έναν ντόπιο κυνηγό, τον Χρήστο Κάκαλο, ο οποίος τους οδήγησε ως την κορυφή. Το 1938 ο Όλυμπος έγινε ο πρώτος εθνικός δρυμός της Ελλάδας.",
+     "en": "Despite its fame, Mytikas was conquered very late: in 1913, by two Swiss and a local hunter, Christos Kakkalos, who guided them to the summit. In 1938 Olympus became Greece's first national park."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Σήμερα χιλιάδες ορειβάτες ανεβαίνουν κάθε καλοκαίρι, συνήθως διανυκτερεύοντας σε ένα από τα καταφύγια. Οι διασώστες, όμως, προειδοποιούν: ο καιρός στο βουνό αλλάζει απότομα, και η τελευταία ανάβαση προς την κορυφή απαιτεί εμπειρία και κατάλληλο εξοπλισμό.",
+     "en": "Today thousands of climbers go up every summer, usually staying overnight in one of the refuges. Rescuers, however, warn: the weather on the mountain changes suddenly, and the final climb to the summit requires experience and proper equipment."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια ήταν η σημασία του Ολύμπου για τους αρχαίους;",
+     "options": [
+      "Εκεί πίστευαν ότι ζούσαν οι δώδεκα θεοί",
+      "Εκεί έκαναν θυσίες στον Ποσειδώνα",
+      "Ήταν τόπος αγώνων",
+      "Ήταν σύνορο με τη Θράκη"
+     ],
+     "answer": "Εκεί πίστευαν ότι ζούσαν οι δώδεκα θεοί",
+     "why": "Για τους αρχαίους, εδώ ζούσαν οι δώδεκα θεοί"
+    },
+    {
+     "q": "Ποιος οδήγησε τους πρώτους ορειβάτες στην κορυφή το 1913;",
+     "options": [
+      "Ένας Ελβετός οδηγός",
+      "Ένας Γερμανός αρχαιολόγος",
+      "Ένας ντόπιος κυνηγός, ο Χρήστος Κάκαλος",
+      "Ένας μοναχός"
+     ],
+     "answer": "Ένας ντόπιος κυνηγός, ο Χρήστος Κάκαλος",
+     "why": "έναν ντόπιο κυνηγό, τον Χρήστο Κάκαλο, ο οποίος τους οδήγησε ως την κορυφή"
+    },
+    {
+     "q": "Τι συμβουλεύουν οι διασώστες;",
+     "options": [
+      "Να μη διανυκτερεύει κανείς στα καταφύγια",
+      "Να ανεβαίνουν μόνο με οργανωμένες ομάδες",
+      "Ότι η τελευταία ανάβαση απαιτεί εμπειρία και εξοπλισμό",
+      "Να μην ανεβαίνει κανείς το καλοκαίρι"
+     ],
+     "answer": "Ότι η τελευταία ανάβαση απαιτεί εμπειρία και εξοπλισμό",
+     "why": "η τελευταία ανάβαση προς την κορυφή απαιτεί εμπειρία και κατάλληλο εξοπλισμό"
+    }
+   ],
+   "gloss": {
+    "πρόποδες": "πρόποδες — foot (of a mountain)",
+    "κορυφή": "κορυφή — peak, summit",
+    "σύννεφα": "σύννεφο — cloud",
+    "κατακτήθηκε": "κατακτιέμαι — to be conquered",
+    "κυνηγό": "κυνηγός — hunter",
+    "εθνικός δρυμός": "εθνικός δρυμός — national park",
+    "ορειβάτες": "ορειβάτης — mountaineer",
+    "διανυκτερεύοντας": "διανυκτερεύω — to stay overnight",
+    "καταφύγια": "καταφύγιο — (mountain) refuge",
+    "διασώστες": "διασώστης — rescuer",
+    "ανάβαση": "ανάβαση — climb, ascent",
+    "εξοπλισμό": "εξοπλισμός — equipment"
+   }
+  },
+  {
+   "id": "l25-int-diermineas",
+   "title": "Διερμηνέας στα δικαστήρια",
+   "title_en": "A court interpreter",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια διερμηνέα που εργάζεται στα δικαστήρια.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι ακριβώς κάνει ένας δικαστικός διερμηνέας;",
+     "en": "What exactly does a court interpreter do?"
+    },
+    {
+     "speaker": "Διερμηνέας",
+     "voice": "f",
+     "el": "Μεταφράζουμε προφορικά, την ώρα της δίκης, για κατηγορουμένους, μάρτυρες ή θύματα που δεν μιλούν ελληνικά. Εγώ δουλεύω με αραβικά και γαλλικά. Χωρίς διερμηνέα, ένας άνθρωπος μπορεί να καταδικαστεί χωρίς να καταλάβει καν τι του καταλογίζουν.",
+     "en": "We interpret orally, during the trial, for defendants, witnesses or victims who don't speak Greek. I work with Arabic and French. Without an interpreter, a person can be convicted without even understanding what they're accused of."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιο είναι το πιο δύσκολο κομμάτι;",
+     "en": "What's the hardest part?"
+    },
+    {
+     "speaker": "Διερμηνέας",
+     "voice": "f",
+     "el": "Η ουδετερότητα. Πρέπει να μεταφέρω κάθε λέξη με ακρίβεια, ακόμη κι αν κάποιος λέει κάτι που με θυμώνει ή με συγκινεί. Δεν επιτρέπεται να βελτιώσω τη διατύπωση ή να εξηγήσω. Και φυσικά, οι νομικοί όροι: μια λάθος λέξη μπορεί να αλλάξει την έκβαση μιας υπόθεσης. Γι' αυτό διαβάζω τον φάκελο πριν από κάθε δίκη και ετοιμάζω το δικό μου γλωσσάρι.",
+     "en": "Neutrality. I have to convey every word accurately, even if someone says something that makes me angry or moves me. I'm not allowed to improve the wording or explain. And of course, the legal terms: one wrong word can change the outcome of a case. That's why I read the file before every trial and prepare my own glossary."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί είναι απαραίτητος ο διερμηνέας στη δίκη;",
+     "options": [
+      "Για να καθυστερεί η διαδικασία",
+      "Για να καταλαβαίνει ο κατηγορούμενος τι του καταλογίζουν",
+      "Για να υπερασπίζεται τον κατηγορούμενο",
+      "Για να γράφει τα πρακτικά"
+     ],
+     "answer": "Για να καταλαβαίνει ο κατηγορούμενος τι του καταλογίζουν",
+     "why": "ένας άνθρωπος μπορεί να καταδικαστεί χωρίς να καταλάβει καν τι του καταλογίζουν"
+    },
+    {
+     "q": "Τι δεν επιτρέπεται να κάνει η διερμηνέας;",
+     "options": [
+      "Να βελτιώσει τη διατύπωση ή να εξηγήσει",
+      "Να διαβάσει τον φάκελο",
+      "Να δουλεύει με δύο γλώσσες",
+      "Να μεταφράζει προφορικά"
+     ],
+     "answer": "Να βελτιώσει τη διατύπωση ή να εξηγήσει",
+     "why": "Δεν επιτρέπεται να βελτιώσω τη διατύπωση ή να εξηγήσω"
+    },
+    {
+     "q": "Πώς προετοιμάζεται για κάθε δίκη;",
+     "options": [
+      "Διαβάζει τον φάκελο και ετοιμάζει γλωσσάρι",
+      "Συναντά τον κατηγορούμενο",
+      "Δεν προετοιμάζεται",
+      "Μιλά με τον δικαστή"
+     ],
+     "answer": "Διαβάζει τον φάκελο και ετοιμάζει γλωσσάρι",
+     "why": "διαβάζω τον φάκελο πριν από κάθε δίκη και ετοιμάζω το δικό μου γλωσσάρι"
+    }
+   ],
+   "gloss": {
+    "διερμηνέα": "διερμηνέας — interpreter",
+    "δικαστήρια": "δικαστήριο — court",
+    "δίκης": "δίκη — trial",
+    "κατηγορουμένους": "κατηγορούμενος — defendant",
+    "μάρτυρες": "μάρτυρας — witness",
+    "θύματα": "θύμα — victim",
+    "να καταδικαστεί": "καταδικάζομαι — to be convicted",
+    "καταλογίζουν": "καταλογίζω — to accuse of, attribute",
+    "ουδετερότητα": "ουδετερότητα — neutrality",
+    "διατύπωση": "διατύπωση — wording",
+    "νομικοί όροι": "νομικός όρος — legal term",
+    "έκβαση": "έκβαση — outcome",
+    "υπόθεσης": "υπόθεση — case",
+    "γλωσσάρι": "γλωσσάρι — glossary"
+   }
+  },
+  {
+   "id": "l25-mon-ostrakismos",
+   "title": "Ο οστρακισμός",
+   "title_en": "Ostracism",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από μια διάλεξη για τον θεσμό του οστρακισμού στην αρχαία Αθήνα.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Ο οστρακισμός ήταν ένας από τους πιο παράξενους θεσμούς της αθηναϊκής δημοκρατίας. Μία φορά τον χρόνο, η Εκκλησία του Δήμου αποφάσιζε αν θα γινόταν οστρακοφορία. Αν η απάντηση ήταν θετική, οι πολίτες χάραζαν σε ένα κομμάτι σπασμένου αγγείου, το όστρακο, το όνομα του πολιτικού που θεωρούσαν επικίνδυνο για την πόλη.",
+     "en": "Ostracism was one of the strangest institutions of Athenian democracy. Once a year, the Assembly decided whether an ostracism would take place. If the answer was yes, citizens scratched on a piece of broken pottery, the ostrakon, the name of the politician they considered dangerous for the city."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Αν συγκεντρώνονταν τουλάχιστον έξι χιλιάδες όστρακα, ο πολιτικός με τις περισσότερες ψήφους έπρεπε να εγκαταλείψει την Αθήνα για δέκα χρόνια. Δεν έχανε όμως ούτε την περιουσία του ούτε τα πολιτικά του δικαιώματα· όταν επέστρεφε, μπορούσε να ξαναμπεί στην πολιτική. Ήταν, με άλλα λόγια, ένα μέτρο πρόληψης και όχι τιμωρίας.",
+     "en": "If at least six thousand ostraka were collected, the politician with the most votes had to leave Athens for ten years. But he lost neither his property nor his political rights; when he returned, he could re-enter politics. It was, in other words, a preventive measure and not a punishment."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Ο θεσμός σκόπευε να προστατεύσει τη δημοκρατία από όσους αποκτούσαν υπερβολική δύναμη και θα μπορούσαν να γίνουν τύραννοι. Στην πράξη, όμως, χρησιμοποιήθηκε και ως όπλο στις πολιτικές αντιπαραθέσεις. Οι αρχαιολόγοι έχουν βρει ομάδες οστράκων με το όνομα του Θεμιστοκλή γραμμένο από λίγα μόνο χέρια, κάτι που υποδηλώνει ότι κάποιοι τα ετοίμαζαν από πριν για να τα μοιράσουν σε ψηφοφόρους.",
+     "en": "The institution was meant to protect democracy from those who acquired excessive power and could become tyrants. In practice, however, it was also used as a weapon in political conflicts. Archaeologists have found groups of ostraka with Themistocles' name written by only a few hands, which suggests that some people prepared them in advance to hand out to voters."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Ο οστρακισμός εγκαταλείφθηκε στα τέλη του πέμπτου αιώνα, όταν δύο αντίπαλοι πολιτικοί συνεννοήθηκαν και έστρεψαν τις ψήφους των οπαδών τους εναντίον ενός τρίτου, ασήμαντου σχετικά, πολιτικού. Ο θεσμός είχε χάσει το νόημά του. Το δίδαγμα παραμένει επίκαιρο: κάθε μηχανισμός προστασίας της δημοκρατίας μπορεί να στραφεί εναντίον της, αν πέσει σε λάθος χέρια.",
+     "en": "Ostracism was abandoned at the end of the fifth century, when two rival politicians came to an agreement and turned their supporters' votes against a third, relatively insignificant politician. The institution had lost its meaning. The lesson remains topical: any mechanism for protecting democracy can be turned against it if it falls into the wrong hands."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έγραφαν οι πολίτες στο όστρακο;",
+     "options": [
+      "Το όνομα του υποψήφιου άρχοντα",
+      "Το δικό τους όνομα",
+      "Τη γνώμη τους για έναν νόμο",
+      "Το όνομα του πολιτικού που θεωρούσαν επικίνδυνο"
+     ],
+     "answer": "Το όνομα του πολιτικού που θεωρούσαν επικίνδυνο",
+     "why": "το όνομα του πολιτικού που θεωρούσαν επικίνδυνο για την πόλη"
+    },
+    {
+     "q": "Γιατί ο ιστορικός χαρακτηρίζει τον οστρακισμό «μέτρο πρόληψης και όχι τιμωρίας»;",
+     "options": [
+      "Γιατί ο εξόριστος δεν έχανε την περιουσία ούτε τα πολιτικά του δικαιώματα",
+      "Γιατί αφορούσε μόνο ξένους",
+      "Γιατί κρατούσε μόνο έναν χρόνο",
+      "Γιατί δεν εφαρμόστηκε ποτέ"
+     ],
+     "answer": "Γιατί ο εξόριστος δεν έχανε την περιουσία ούτε τα πολιτικά του δικαιώματα",
+     "why": "Δεν έχανε όμως ούτε την περιουσία του ούτε τα πολιτικά του δικαιώματα"
+    },
+    {
+     "q": "Τι δείχνουν τα όστρακα με το όνομα του Θεμιστοκλή;",
+     "options": [
+      "Ότι ήταν πολύ αγαπητός",
+      "Ότι ήξερε να γράφει",
+      "Ότι κάποιοι τα ετοίμαζαν από πριν για να τα μοιράσουν",
+      "Ότι ψήφισε ο ίδιος"
+     ],
+     "answer": "Ότι κάποιοι τα ετοίμαζαν από πριν για να τα μοιράσουν",
+     "why": "κάποιοι τα ετοίμαζαν από πριν για να τα μοιράσουν σε ψηφοφόρους"
+    },
+    {
+     "q": "Ποιο δίδαγμα αντλεί ο ιστορικός;",
+     "options": [
+      "Ότι η δημοκρατία δεν χρειάζεται προστασία",
+      "Ότι οι πολιτικοί ήταν πάντα διεφθαρμένοι",
+      "Ότι κάθε μηχανισμός προστασίας της δημοκρατίας μπορεί να στραφεί εναντίον της",
+      "Ότι ο οστρακισμός πρέπει να επανέλθει"
+     ],
+     "answer": "Ότι κάθε μηχανισμός προστασίας της δημοκρατίας μπορεί να στραφεί εναντίον της",
+     "why": "κάθε μηχανισμός προστασίας της δημοκρατίας μπορεί να στραφεί εναντίον της"
+    }
+   ],
+   "gloss": {
+    "οστρακισμού": "οστρακισμός — ostracism",
+    "θεσμός": "θεσμός — institution",
+    "Εκκλησία του Δήμου": "Εκκλησία του Δήμου — the (Athenian) Assembly",
+    "οστρακοφορία": "οστρακοφορία — ostracism vote",
+    "χάραζαν": "χαράζω — to scratch, engrave",
+    "αγγείου": "αγγείο — pot, vessel",
+    "περιουσία": "περιουσία — property",
+    "πρόληψης": "πρόληψη — prevention",
+    "τιμωρίας": "τιμωρία — punishment",
+    "τύραννοι": "τύραννος — tyrant",
+    "υποδηλώνει": "υποδηλώνω — to suggest, imply",
+    "ψηφοφόρους": "ψηφοφόρος — voter",
+    "εγκαταλείφθηκε": "εγκαταλείπομαι — to be abandoned",
+    "συνεννοήθηκαν": "συνεννοούμαι — to come to an agreement",
+    "ασήμαντου": "ασήμαντος — insignificant",
+    "δίδαγμα": "δίδαγμα — lesson",
+    "επίκαιρο": "επίκαιρος — topical"
+   }
+  },
+  {
+   "id": "l25-int-mikroplastika",
+   "title": "Τα μικροπλαστικά",
+   "title_en": "Microplastics",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με μια ωκεανογράφο για τα μικροπλαστικά.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι ακριβώς είναι τα μικροπλαστικά;",
+     "en": "What exactly are microplastics?"
+    },
+    {
+     "speaker": "Ωκεανογράφος",
+     "voice": "f",
+     "el": "Είναι κομματάκια πλαστικού μικρότερα από πέντε χιλιοστά. Κάποια κατασκευάζονται εξαρχής τόσο μικρά, όπως οι μικροσφαίρες που υπήρχαν παλιότερα σε καλλυντικά. Τα περισσότερα, όμως, προέρχονται από τη διάσπαση μεγαλύτερων αντικειμένων: μιας σακούλας, ενός μπουκαλιού, ακόμη και των συνθετικών ρούχων μας, που απελευθερώνουν ίνες σε κάθε πλύση.",
+     "en": "They're pieces of plastic smaller than five millimetres. Some are made that small from the start, like the microbeads that used to be in cosmetics. Most, however, come from larger objects breaking down: a bag, a bottle, even our synthetic clothes, which release fibres with every wash."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και πόσο σοβαρό είναι το πρόβλημα στη Μεσόγειο;",
+     "en": "And how serious is the problem in the Mediterranean?"
+    },
+    {
+     "speaker": "Ωκεανογράφος",
+     "voice": "f",
+     "el": "Η Μεσόγειος είναι μια σχεδόν κλειστή θάλασσα, με πυκνοκατοικημένες ακτές και έντονη ναυσιπλοΐα, οπότε τα πλαστικά παραμένουν εδώ για πολύ καιρό. Οι μετρήσεις δείχνουν συγκεντρώσεις από τις υψηλότερες στον κόσμο. Τα μικροπλαστικά τα τρώνε τα ψάρια και τα μύδια, και έτσι μπαίνουν στην τροφική αλυσίδα. Για τις επιπτώσεις στην ανθρώπινη υγεία, πάντως, η έρευνα βρίσκεται ακόμη σε αρχικό στάδιο· δεν θέλω να τρομάξω κανέναν χωρίς στοιχεία.",
+     "en": "The Mediterranean is an almost enclosed sea, with densely populated coasts and heavy shipping, so plastics stay here for a long time. Measurements show concentrations among the highest in the world. Microplastics are eaten by fish and mussels, and so they enter the food chain. As for the effects on human health, however, research is still at an early stage; I don't want to frighten anyone without evidence."
+    },
+    {
+     "speaker": "Ωκεανογράφος",
+     "voice": "f",
+     "el": "Το σημαντικότερο είναι να σταματήσουμε το πρόβλημα στην πηγή του. Ο καθαρισμός της θάλασσας από κομμάτια που δεν φαίνονται καν είναι σχεδόν αδύνατος. Λιγότερα πλαστικά μιας χρήσης, καλύτερη διαχείριση των απορριμμάτων και φίλτρα στα πλυντήρια: αυτές είναι οι λύσεις που λειτουργούν.",
+     "en": "The most important thing is to stop the problem at its source. Cleaning the sea of pieces you can't even see is almost impossible. Fewer single-use plastics, better waste management and filters on washing machines: those are the solutions that work."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από πού προέρχονται τα περισσότερα μικροπλαστικά;",
+     "options": [
+      "Από καλλυντικά",
+      "Από τα ηφαίστεια",
+      "Από τη διάσπαση μεγαλύτερων αντικειμένων και τις ίνες των ρούχων",
+      "Από τα ψάρια"
+     ],
+     "answer": "Από τη διάσπαση μεγαλύτερων αντικειμένων και τις ίνες των ρούχων",
+     "why": "Τα περισσότερα, όμως, προέρχονται από τη διάσπαση μεγαλύτερων αντικειμένων"
+    },
+    {
+     "q": "Γιατί το πρόβλημα είναι σοβαρό στη Μεσόγειο;",
+     "options": [
+      "Γιατί είναι πολύ βαθιά",
+      "Γιατί δεν υπάρχουν ψάρια",
+      "Γιατί είναι σχεδόν κλειστή, με πυκνοκατοικημένες ακτές και έντονη ναυσιπλοΐα",
+      "Γιατί είναι πολύ ζεστή"
+     ],
+     "answer": "Γιατί είναι σχεδόν κλειστή, με πυκνοκατοικημένες ακτές και έντονη ναυσιπλοΐα",
+     "why": "Η Μεσόγειος είναι μια σχεδόν κλειστή θάλασσα, με πυκνοκατοικημένες ακτές και έντονη ναυσιπλοΐα"
+    },
+    {
+     "q": "Τι λέει για τις επιπτώσεις στην ανθρώπινη υγεία;",
+     "options": [
+      "Ότι αφορούν μόνο τα παιδιά",
+      "Ότι δεν υπάρχουν καθόλου",
+      "Ότι η έρευνα βρίσκεται ακόμη σε αρχικό στάδιο",
+      "Ότι είναι αποδεδειγμένα καταστροφικές"
+     ],
+     "answer": "Ότι η έρευνα βρίσκεται ακόμη σε αρχικό στάδιο",
+     "why": "η έρευνα βρίσκεται ακόμη σε αρχικό στάδιο"
+    },
+    {
+     "q": "Ποια λύση θεωρεί σημαντικότερη;",
+     "options": [
+      "Να σταματήσει το πρόβλημα στην πηγή του",
+      "Νέα σκάφη καθαρισμού",
+      "Τον καθαρισμό της θάλασσας",
+      "Την απαγόρευση της αλιείας"
+     ],
+     "answer": "Να σταματήσει το πρόβλημα στην πηγή του",
+     "why": "Το σημαντικότερο είναι να σταματήσουμε το πρόβλημα στην πηγή του"
+    }
+   ],
+   "gloss": {
+    "ωκεανογράφο": "ωκεανογράφος — oceanographer",
+    "μικροπλαστικά": "μικροπλαστικό — microplastic",
+    "χιλιοστά": "χιλιοστό — millimetre",
+    "εξαρχής": "εξαρχής — from the outset",
+    "μικροσφαίρες": "μικροσφαίρα — microbead",
+    "καλλυντικά": "καλλυντικό — cosmetic",
+    "διάσπαση": "διάσπαση — breakdown",
+    "ίνες": "ίνα — fibre",
+    "πυκνοκατοικημένες": "πυκνοκατοικημένος — densely populated",
+    "ναυσιπλοΐα": "ναυσιπλοΐα — shipping, navigation",
+    "συγκεντρώσεις": "συγκέντρωση — concentration",
+    "μύδια": "μύδι — mussel",
+    "τροφική αλυσίδα": "τροφική αλυσίδα — food chain",
+    "επιπτώσεις": "επίπτωση — effect, impact",
+    "στάδιο": "στάδιο — stage",
+    "πηγή": "πηγή — source",
+    "μιας χρήσης": "μιας χρήσης — single-use"
+   }
+  }
+ ]
+}
