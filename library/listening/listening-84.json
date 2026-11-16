@@ -1,0 +1,795 @@
+{
+ "items": [
+  {
+   "id": "l84-ann-pyrasfaleia",
+   "title": "Άσκηση πυρασφάλειας στο ξενοδοχείο",
+   "title_en": "Fire drill at the hotel",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Μένετε σε ένα ξενοδοχείο. Από τα μεγάφωνα του διαδρόμου ακούτε μια ανακοίνωση.",
+   "script": [
+    {
+     "speaker": "Υπεύθυνη",
+     "voice": "f",
+     "el": "Αγαπητοί επισκέπτες, καλημέρα σας. Σας ενημερώνουμε ότι σήμερα, στις έντεκα το πρωί, θα γίνει άσκηση πυρασφάλειας. Θα ακούσετε τον συναγερμό για περίπου δύο λεπτά. Δεν υπάρχει κανένας πραγματικός κίνδυνος.",
+     "en": "Dear guests, good morning. We inform you that today, at eleven in the morning, there will be a fire drill. You will hear the alarm for about two minutes. There is no real danger."
+    },
+    {
+     "speaker": "Υπεύθυνη",
+     "voice": "f",
+     "el": "Όταν ακούσετε τον συναγερμό, παρακαλούμε να αφήσετε τα πράγματά σας στο δωμάτιο και να βγείτε από το κτίριο από τις σκάλες κινδύνου, που σημειώνονται με πράσινα φωτεινά σήματα. Μη χρησιμοποιείτε τους ανελκυστήρες σε καμία περίπτωση.",
+     "en": "When you hear the alarm, please leave your belongings in your room and leave the building by the emergency stairs, which are marked with green illuminated signs. Do not use the lifts under any circumstances."
+    },
+    {
+     "speaker": "Υπεύθυνη",
+     "voice": "f",
+     "el": "Το σημείο συγκέντρωσης βρίσκεται στο πάρκινγκ, απέναντι από την κεντρική είσοδο. Εκεί το προσωπικό θα ελέγξει ότι όλοι οι επισκέπτες βγήκαν με ασφάλεια. Η άσκηση θα διαρκέσει περίπου είκοσι λεπτά, και στη συνέχεια το εστιατόριο θα σας προσφέρει δωρεάν καφέ. Ευχαριστούμε για τη συνεργασία.",
+     "en": "The assembly point is in the car park, opposite the main entrance. There the staff will check that all guests have left safely. The drill will last about twenty minutes, and afterwards the restaurant will offer you free coffee. Thank you for your cooperation."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πρέπει να κάνουν οι επισκέπτες όταν ακούσουν τον συναγερμό;",
+     "options": [
+      "Να κατέβουν με τον ανελκυστήρα",
+      "Να μείνουν στο δωμάτιο",
+      "Να πάρουν μαζί τις βαλίτσες τους",
+      "Να βγουν από τις σκάλες κινδύνου"
+     ],
+     "answer": "Να βγουν από τις σκάλες κινδύνου",
+     "why": "να βγείτε από το κτίριο από τις σκάλες κινδύνου"
+    },
+    {
+     "q": "Πού βρίσκεται το σημείο συγκέντρωσης;",
+     "options": [
+      "Στον κήπο πίσω από το ξενοδοχείο",
+      "Στο πάρκινγκ, απέναντι από την κεντρική είσοδο",
+      "Στην πισίνα",
+      "Στη ρεσεψιόν"
+     ],
+     "answer": "Στο πάρκινγκ, απέναντι από την κεντρική είσοδο",
+     "why": "Το σημείο συγκέντρωσης βρίσκεται στο πάρκινγκ, απέναντι από την κεντρική είσοδο"
+    },
+    {
+     "q": "Τι θα προσφέρει το εστιατόριο μετά την άσκηση;",
+     "options": [
+      "Δωρεάν πρωινό",
+      "Έκπτωση στο δείπνο",
+      "Ένα ποτό στο μπαρ",
+      "Δωρεάν καφέ"
+     ],
+     "answer": "Δωρεάν καφέ",
+     "why": "το εστιατόριο θα σας προσφέρει δωρεάν καφέ"
+    }
+   ],
+   "gloss": {
+    "άσκηση πυρασφάλειας": "άσκηση πυρασφάλειας — fire drill",
+    "συναγερμό": "συναγερμός — alarm",
+    "σκάλες κινδύνου": "σκάλα κινδύνου — emergency stairs",
+    "φωτεινά σήματα": "φωτεινό σήμα — illuminated sign",
+    "ανελκυστήρες": "ανελκυστήρας — lift",
+    "σημείο συγκέντρωσης": "σημείο συγκέντρωσης — assembly point",
+    "προσωπικό": "προσωπικό — staff"
+   }
+  },
+  {
+   "id": "l84-vm-kalorifer",
+   "title": "Μήνυμα από τον ιδιοκτήτη για το καλοριφέρ",
+   "title_en": "Voicemail from the landlord about the heating",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Νοικιάζετε ένα διαμέρισμα. Ακούτε ένα μήνυμα από τον ιδιοκτήτη στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Κύριος Παπαδάκης",
+     "voice": "m",
+     "el": "Καλησπέρα σας, ο Παπαδάκης είμαι, ο ιδιοκτήτης. Έλαβα το μήνυμά σας ότι το καλοριφέρ στο υπνοδωμάτιο δεν ζεσταίνεται. Μίλησα με τον υδραυλικό, και μου είπε ότι μάλλον έχει αέρα μέσα και χρειάζεται εξαέρωση. Είναι απλό, αλλά πρέπει να το κάνει τεχνικός.",
+     "en": "Good evening, it's Papadakis, the landlord. I got your message that the radiator in the bedroom isn't heating up. I spoke to the plumber, and he told me it probably has air in it and needs bleeding. It's simple, but a technician has to do it."
+    },
+    {
+     "speaker": "Κύριος Παπαδάκης",
+     "voice": "m",
+     "el": "Μπορεί να περάσει την Πέμπτη το πρωί, γύρω στις δέκα. Αν δεν είστε στο σπίτι, μπορείτε να αφήσετε το κλειδί στην κυρία Ελένη, στο ισόγειο· τη γνωρίζει. Θα του πάρει περίπου μισή ώρα.",
+     "en": "He can come on Thursday morning, around ten. If you're not at home, you can leave the key with Mrs Eleni on the ground floor; she knows him. It'll take him about half an hour."
+    },
+    {
+     "speaker": "Κύριος Παπαδάκης",
+     "voice": "m",
+     "el": "Μέχρι τότε, σας παρακαλώ, μην ανοίξετε μόνος σας τη βαλβίδα, γιατί τρέχουν νερά και μπορεί να λερωθεί το πάτωμα. Την επίσκεψη την πληρώνω εγώ, φυσικά. Πείτε μου αν σας βολεύει η Πέμπτη. Καλό βράδυ.",
+     "en": "Until then, please don't open the valve yourself, because water comes out and the floor may get dirty. I'll pay for the visit, of course. Let me know if Thursday suits you. Good night."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πιστεύει ο υδραυλικός ότι έχει το καλοριφέρ;",
+     "options": [
+      "Έχει αέρα μέσα",
+      "Είναι χαλασμένο και πρέπει να αλλάξει",
+      "Έχει διαρροή",
+      "Δεν έχει νερό"
+     ],
+     "answer": "Έχει αέρα μέσα",
+     "why": "μάλλον έχει αέρα μέσα"
+    },
+    {
+     "q": "Πού μπορεί ο ενοικιαστής να αφήσει το κλειδί;",
+     "options": [
+      "Στον θυρωρό",
+      "Κάτω από το χαλάκι",
+      "Στο γραφείο του ιδιοκτήτη",
+      "Στην κυρία Ελένη, στο ισόγειο"
+     ],
+     "answer": "Στην κυρία Ελένη, στο ισόγειο",
+     "why": "μπορείτε να αφήσετε το κλειδί στην κυρία Ελένη, στο ισόγειο"
+    },
+    {
+     "q": "Γιατί δεν πρέπει να ανοίξει ο ενοικιαστής τη βαλβίδα;",
+     "options": [
+      "Γιατί είναι επικίνδυνο",
+      "Γιατί τρέχουν νερά και μπορεί να λερωθεί το πάτωμα",
+      "Γιατί θα σπάσει",
+      "Γιατί θα πληρώσει πρόστιμο"
+     ],
+     "answer": "Γιατί τρέχουν νερά και μπορεί να λερωθεί το πάτωμα",
+     "why": "γιατί τρέχουν νερά και μπορεί να λερωθεί το πάτωμα"
+    }
+   ],
+   "gloss": {
+    "καλοριφέρ": "καλοριφέρ — radiator, central heating",
+    "ιδιοκτήτης": "ιδιοκτήτης — owner, landlord",
+    "υδραυλικό": "υδραυλικός — plumber",
+    "εξαέρωση": "εξαέρωση — bleeding (of a radiator)",
+    "ισόγειο": "ισόγειο — ground floor",
+    "βαλβίδα": "βαλβίδα — valve",
+    "λερωθεί": "λερώνομαι — to get dirty"
+   }
+  },
+  {
+   "id": "l84-dia-strifoma",
+   "title": "Στον ράφτη για ένα στρίφωμα",
+   "title_en": "At the tailor's for a hem",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Μια πελάτισσα πηγαίνει σε ένα ραφείο της γειτονιάς με ένα καινούργιο παντελόνι.",
+   "script": [
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Καλημέρα. Αγόρασα αυτό το παντελόνι για τον γάμο της αδερφής μου, αλλά μου είναι μακρύ. Μπορείτε να μου κάνετε στρίφωμα;",
+     "en": "Good morning. I bought these trousers for my sister's wedding, but they're too long for me. Can you take up the hem?"
+    },
+    {
+     "speaker": "Ράφτης",
+     "voice": "m",
+     "el": "Βεβαίως. Θα το φορέσετε με τακούνια ή με φλατ παπούτσια; Αυτό έχει μεγάλη σημασία για το μήκος. Αν τα έχετε μαζί σας, καλύτερα να τα φορέσετε τώρα, για να το μετρήσω σωστά.",
+     "en": "Of course. Will you wear them with heels or flat shoes? That matters a lot for the length. If you have them with you, it's best to put them on now, so I can measure properly."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Με τακούνια, και τα έφερα. Πόσο θα κοστίσει και πότε θα είναι έτοιμο; Ο γάμος είναι το Σάββατο.",
+     "en": "With heels, and I brought them. How much will it cost and when will it be ready? The wedding is on Saturday."
+    },
+    {
+     "speaker": "Ράφτης",
+     "voice": "m",
+     "el": "Δώδεκα ευρώ. Κανονικά χρειάζομαι μία εβδομάδα, γιατί έχω πολλή δουλειά, αλλά για γάμο θα το έχετε την Πέμπτη το απόγευμα. Βλέπω όμως ότι το ύφασμα είναι λεπτό. Θα σας πρότεινα να το ράψω στο χέρι, για να μη φαίνεται η ραφή απ’ έξω.",
+     "en": "Twelve euros. Normally I need a week, because I have a lot of work, but for a wedding you'll have it on Thursday afternoon. I can see, though, that the fabric is thin. I'd suggest sewing it by hand, so the stitching doesn't show on the outside."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Αυτό κοστίζει περισσότερο;",
+     "en": "Does that cost more?"
+    },
+    {
+     "speaker": "Ράφτης",
+     "voice": "m",
+     "el": "Πέντε ευρώ παραπάνω. Αλλά σε γάμο θα σας κοιτάνε όλοι, και δεν θέλουμε να φαίνεται η κλωστή στις φωτογραφίες.",
+     "en": "Five euros more. But at a wedding everyone will be looking at you, and we don't want the thread to show in the photos."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο ράφτης ρωτάει για τα παπούτσια;",
+     "options": [
+      "Γιατί θέλει να ταιριάζει το χρώμα",
+      "Γιατί θέλει να τα επισκευάσει",
+      "Γιατί πουλάει και παπούτσια",
+      "Γιατί έχουν σημασία για το μήκος"
+     ],
+     "answer": "Γιατί έχουν σημασία για το μήκος",
+     "why": "Αυτό έχει μεγάλη σημασία για το μήκος"
+    },
+    {
+     "q": "Πότε θα είναι έτοιμο το παντελόνι;",
+     "options": [
+      "Την Παρασκευή το πρωί",
+      "Το Σάββατο",
+      "Την Πέμπτη το απόγευμα",
+      "Σε μία εβδομάδα"
+     ],
+     "answer": "Την Πέμπτη το απόγευμα",
+     "why": "για γάμο θα το έχετε την Πέμπτη το απόγευμα"
+    },
+    {
+     "q": "Γιατί προτείνει να το ράψει στο χέρι;",
+     "options": [
+      "Γιατί είναι πιο γρήγορο",
+      "Γιατί είναι φθηνότερο",
+      "Γιατί η ραπτομηχανή του είναι χαλασμένη",
+      "Για να μη φαίνεται η ραφή απ’ έξω"
+     ],
+     "answer": "Για να μη φαίνεται η ραφή απ’ έξω",
+     "why": "για να μη φαίνεται η ραφή απ’ έξω"
+    }
+   ],
+   "gloss": {
+    "ραφείο": "ραφείο — tailor's shop",
+    "στρίφωμα": "στρίφωμα — hem",
+    "τακούνια": "τακούνι — heel",
+    "μήκος": "μήκος — length",
+    "ύφασμα": "ύφασμα — fabric",
+    "ράψω": "ράβω — to sew",
+    "ραφή": "ραφή — seam, stitching",
+    "κλωστή": "κλωστή — thread"
+   }
+  },
+  {
+   "id": "l84-int-fylakas-mouseiou",
+   "title": "Η φύλακας του μουσείου",
+   "title_en": "The museum guard",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Σε μια ραδιοφωνική εκπομπή, ένας δημοσιογράφος μιλά με μια φύλακα αρχαιοτήτων σε ένα μεγάλο μουσείο της Αθήνας.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Κυρία Μαυρίδου, πόσα χρόνια φυλάτε αρχαία;",
+     "en": "Ms Mavridou, how many years have you been guarding antiquities?"
+    },
+    {
+     "speaker": "Ελπίδα",
+     "voice": "f",
+     "el": "Δεκαοχτώ. Σπούδασα αρχαιολογία, αλλά δεν βρήκα δουλειά σε ανασκαφές, και έκανα αίτηση για φύλακας. Νόμιζα ότι θα ήταν προσωρινό. Τελικά ερωτεύτηκα τη δουλειά. Περνάω οχτώ ώρες τη μέρα με αγάλματα δυόμισι χιλιάδων χρόνων. Ποιος άλλος μπορεί να το πει αυτό;",
+     "en": "Eighteen. I studied archaeology, but I couldn't find work on excavations, so I applied to be a guard. I thought it would be temporary. In the end I fell in love with the job. I spend eight hours a day with statues two and a half thousand years old. Who else can say that?"
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιο είναι το πιο συνηθισμένο πρόβλημα με τους επισκέπτες;",
+     "en": "What's the most common problem with visitors?"
+    },
+    {
+     "speaker": "Ελπίδα",
+     "voice": "f",
+     "el": "Ότι θέλουν να αγγίξουν τα εκθέματα. Δεν το κάνουν από κακία· απλώς ένα μάρμαρο σε προσκαλεί να το χαϊδέψεις. Όμως το λίπος από τα χέρια μας αφήνει σημάδια, και με εκατομμύρια επισκέπτες η ζημιά θα ήταν τεράστια. Το δεύτερο πρόβλημα είναι οι σέλφι: οι άνθρωποι κάνουν βήματα προς τα πίσω χωρίς να κοιτάζουν.",
+     "en": "That they want to touch the exhibits. They don't do it out of malice; a marble simply invites you to stroke it. But the oil from our hands leaves marks, and with millions of visitors the damage would be enormous. The second problem is selfies: people step backwards without looking."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Έχετε αγαπημένο έκθεμα;",
+     "en": "Do you have a favourite exhibit?"
+    },
+    {
+     "speaker": "Ελπίδα",
+     "voice": "f",
+     "el": "Ένα μικρό επιτύμβιο ανάγλυφο, με ένα κορίτσι που κρατάει ένα περιστέρι. Δεν είναι από τα διάσημα, και οι περισσότεροι περνάνε από μπροστά του χωρίς να σταματήσουν. Εγώ το καλημερίζω κάθε πρωί. Μερικές φορές νομίζω ότι είμαι η μόνη που το βλέπει πραγματικά.",
+     "en": "A small funerary relief, with a girl holding a dove. It's not one of the famous ones, and most people walk past it without stopping. I say good morning to it every day. Sometimes I think I'm the only one who really sees it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς έγινε η Ελπίδα φύλακας;",
+     "options": [
+      "Δεν βρήκε δουλειά σε ανασκαφές και έκανε αίτηση",
+      "Ήταν το όνειρό της από παιδί",
+      "Δούλευε πριν στο πωλητήριο του μουσείου",
+      "Τη σύστησε ένας καθηγητής της"
+     ],
+     "answer": "Δεν βρήκε δουλειά σε ανασκαφές και έκανε αίτηση",
+     "why": "δεν βρήκα δουλειά σε ανασκαφές, και έκανα αίτηση για φύλακας"
+    },
+    {
+     "q": "Γιατί δεν πρέπει οι επισκέπτες να αγγίζουν τα εκθέματα;",
+     "options": [
+      "Γιατί το λίπος από τα χέρια αφήνει σημάδια",
+      "Γιατί έχουν σκόνη",
+      "Γιατί υπάρχει συναγερμός",
+      "Γιατί είναι εύθραυστα και σπάνε αμέσως"
+     ],
+     "answer": "Γιατί το λίπος από τα χέρια αφήνει σημάδια",
+     "why": "το λίπος από τα χέρια μας αφήνει σημάδια"
+    },
+    {
+     "q": "Ποιο είναι το αγαπημένο της έκθεμα;",
+     "options": [
+      "Ένα μικρό επιτύμβιο ανάγλυφο με ένα κορίτσι και ένα περιστέρι",
+      "Ένα χρυσό κόσμημα",
+      "Ένα διάσημο άγαλμα θεού",
+      "Ένα αγγείο με ζωγραφιές"
+     ],
+     "answer": "Ένα μικρό επιτύμβιο ανάγλυφο με ένα κορίτσι και ένα περιστέρι",
+     "why": "Ένα μικρό επιτύμβιο ανάγλυφο, με ένα κορίτσι που κρατάει ένα περιστέρι"
+    }
+   ],
+   "gloss": {
+    "φύλακα αρχαιοτήτων": "φύλακας αρχαιοτήτων — antiquities guard",
+    "ανασκαφές": "ανασκαφή — excavation",
+    "προσωρινό": "προσωρινός — temporary",
+    "εκθέματα": "έκθεμα — exhibit",
+    "κακία": "κακία — malice",
+    "χαϊδέψεις": "χαϊδεύω — to stroke",
+    "λίπος": "λίπος — oil, grease",
+    "επιτύμβιο ανάγλυφο": "επιτύμβιο ανάγλυφο — funerary relief",
+    "περιστέρι": "περιστέρι — dove, pigeon",
+    "καλημερίζω": "καλημερίζω — to say good morning to"
+   }
+  },
+  {
+   "id": "l84-rep-dadia",
+   "title": "Οι γύπες της Δαδιάς",
+   "title_en": "The vultures of Dadia",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Σε μια εκπομπή για τη φύση, ένας δημοσιογράφος μιλά από το δάσος της Δαδιάς, στον Έβρο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Βρισκόμαστε στο Εθνικό Πάρκο Δάσους Δαδιάς, στον νομό Έβρου, ένα από τα σημαντικότερα καταφύγια αρπακτικών πουλιών στην Ευρώπη. Εδώ έχουν καταγραφεί τριάντα έξι από τα τριάντα οχτώ είδη αρπακτικών που ζουν στην ήπειρό μας.",
+     "en": "We are in the Dadia Forest National Park, in the prefecture of Evros, one of the most important refuges for birds of prey in Europe. Thirty-six of the thirty-eight species of raptors that live on our continent have been recorded here."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Το μεγάλο αστέρι της περιοχής είναι ο μαύρος γύπας, ένα τεράστιο πουλί με άνοιγμα φτερών σχεδόν τρία μέτρα. Η Δαδιά φιλοξενεί τη μοναδική αποικία μαύρων γυπών σε όλα τα Βαλκάνια. Πριν από μερικές δεκαετίες είχαν απομείνει ελάχιστα ζευγάρια, όμως χάρη στην προστασία ο πληθυσμός τους αυξάνεται.",
+     "en": "The great star of the area is the black vulture, a huge bird with a wingspan of almost three metres. Dadia is home to the only colony of black vultures in the whole of the Balkans. A few decades ago only a handful of pairs were left, but thanks to protection their population is growing."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Οι γύπες τρέφονται με νεκρά ζώα, γι’ αυτό λειτουργεί εδώ ένας ειδικός χώρος τροφοδοσίας. Οι επισκέπτες μπορούν να τους παρατηρήσουν από ένα παρατηρητήριο, χωρίς να τους ενοχλούν. Ο μεγαλύτερος κίνδυνος για τα πουλιά σήμερα είναι τα δηλητηριασμένα δολώματα που αφήνουν κάποιοι για τους λύκους και τις αλεπούδες.",
+     "en": "Vultures feed on dead animals, so a special feeding site operates here. Visitors can watch them from an observation hide, without disturbing them. The greatest danger to the birds today is the poisoned baits that some people leave out for wolves and foxes."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσα είδη αρπακτικών έχουν καταγραφεί στη Δαδιά;",
+     "options": [
+      "Τριάντα οχτώ",
+      "Εκατό",
+      "Τριάντα έξι",
+      "Δεκαοχτώ"
+     ],
+     "answer": "Τριάντα έξι",
+     "why": "Εδώ έχουν καταγραφεί τριάντα έξι από τα τριάντα οχτώ είδη αρπακτικών"
+    },
+    {
+     "q": "Τι είναι μοναδικό στη Δαδιά;",
+     "options": [
+      "Το μεγαλύτερο δάσος της Ευρώπης",
+      "Το παλαιότερο παρατηρητήριο του κόσμου",
+      "Η μόνη λίμνη του Έβρου",
+      "Η μόνη αποικία μαύρων γυπών στα Βαλκάνια"
+     ],
+     "answer": "Η μόνη αποικία μαύρων γυπών στα Βαλκάνια",
+     "why": "Η Δαδιά φιλοξενεί τη μοναδική αποικία μαύρων γυπών σε όλα τα Βαλκάνια"
+    },
+    {
+     "q": "Ποιος είναι ο μεγαλύτερος κίνδυνος για τα πουλιά σήμερα;",
+     "options": [
+      "Οι πυρκαγιές",
+      "Οι επισκέπτες",
+      "Τα δηλητηριασμένα δολώματα",
+      "Το κυνήγι"
+     ],
+     "answer": "Τα δηλητηριασμένα δολώματα",
+     "why": "τα δηλητηριασμένα δολώματα"
+    }
+   ],
+   "gloss": {
+    "γύπες": "γύπας — vulture",
+    "αρπακτικών": "αρπακτικό — bird of prey",
+    "καταγραφεί": "καταγράφομαι — to be recorded",
+    "άνοιγμα φτερών": "άνοιγμα φτερών — wingspan",
+    "αποικία": "αποικία — colony",
+    "τρέφονται": "τρέφομαι — to feed on",
+    "τροφοδοσίας": "τροφοδοσία — feeding, supply",
+    "παρατηρητήριο": "παρατηρητήριο — observation hide",
+    "δηλητηριασμένα": "δηλητηριασμένος — poisoned",
+    "δολώματα": "δόλωμα — bait"
+   }
+  },
+  {
+   "id": "l84-rep-palamidi",
+   "title": "Το Παλαμήδι",
+   "title_en": "The Palamidi fortress",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Σε μια ταξιδιωτική εκπομπή, μια δημοσιογράφος παρουσιάζει το κάστρο του Παλαμηδίου, στο Ναύπλιο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πάνω από το Ναύπλιο, σε έναν βράχο ύψους διακοσίων περίπου μέτρων, υψώνεται το Παλαμήδι, ένα από τα πιο εντυπωσιακά κάστρα της Ελλάδας. Το έχτισαν οι Ενετοί στις αρχές του 18ου αιώνα, μέσα σε μόλις τρία χρόνια, για να προστατέψουν την πόλη από τους Οθωμανούς.",
+     "en": "Above Nafplio, on a rock about two hundred metres high, rises Palamidi, one of the most impressive castles in Greece. The Venetians built it at the beginning of the 18th century, in just three years, to protect the town from the Ottomans."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Για να ανέβει κανείς με τα πόδια, πρέπει να ανέβει μια ατελείωτη πέτρινη σκάλα. Οι ντόπιοι λένε ότι έχει εννιακόσια ενενήντα εννιά σκαλιά. Στην πραγματικότητα είναι λιγότερα, αλλά όποιος τα ανεβαίνει τον Αύγουστο μάλλον δεν θα συμφωνήσει.",
+     "en": "To go up on foot, you have to climb an endless stone staircase. The locals say it has nine hundred and ninety-nine steps. In reality there are fewer, but anyone who climbs them in August probably won't agree."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Το κάστρο έχει οχτώ προμαχώνες, που φέρουν ονόματα αρχαίων ηρώων και αγίων. Σε ένα από τα κελιά του φυλακίστηκε για ένα διάστημα ο Θεόδωρος Κολοκοτρώνης, μετά την Επανάσταση, όταν κατηγορήθηκε για συνωμοσία. Σήμερα οι επισκέπτες μπορούν να δουν το στενό κελί του και να απολαύσουν από τα τείχη μια μαγευτική θέα στον Αργολικό κόλπο.",
+     "en": "The castle has eight bastions, which bear the names of ancient heroes and saints. In one of its cells Theodoros Kolokotronis was imprisoned for a time, after the Revolution, when he was accused of conspiracy. Today visitors can see his narrow cell and enjoy an enchanting view of the Argolic Gulf from the walls."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιοι έχτισαν το Παλαμήδι;",
+     "options": [
+      "Οι Οθωμανοί",
+      "Οι Φράγκοι",
+      "Οι Βυζαντινοί",
+      "Οι Ενετοί"
+     ],
+     "answer": "Οι Ενετοί",
+     "why": "Το έχτισαν οι Ενετοί στις αρχές του 18ου αιώνα"
+    },
+    {
+     "q": "Τι λένε οι ντόπιοι για τη σκάλα;",
+     "options": [
+      "Ότι έχει εννιακόσια ενενήντα εννιά σκαλιά",
+      "Ότι είναι κλειστή τον Αύγουστο",
+      "Ότι χτίστηκε από τον Κολοκοτρώνη",
+      "Ότι είναι επικίνδυνη"
+     ],
+     "answer": "Ότι έχει εννιακόσια ενενήντα εννιά σκαλιά",
+     "why": "Οι ντόπιοι λένε ότι έχει εννιακόσια ενενήντα εννιά σκαλιά"
+    },
+    {
+     "q": "Γιατί φυλακίστηκε ο Κολοκοτρώνης στο Παλαμήδι;",
+     "options": [
+      "Γιατί δεν πλήρωσε φόρους",
+      "Γιατί έκλεψε από το κάστρο",
+      "Γιατί κατηγορήθηκε για συνωμοσία",
+      "Γιατί πιάστηκε από τους Οθωμανούς"
+     ],
+     "answer": "Γιατί κατηγορήθηκε για συνωμοσία",
+     "why": "όταν κατηγορήθηκε για συνωμοσία"
+    }
+   ],
+   "gloss": {
+    "υψώνεται": "υψώνομαι — to rise, tower",
+    "Ενετοί": "Ενετός — Venetian",
+    "Οθωμανούς": "Οθωμανός — Ottoman",
+    "ατελείωτη": "ατελείωτος — endless",
+    "σκαλιά": "σκαλί — step",
+    "προμαχώνες": "προμαχώνας — bastion",
+    "κελιά": "κελί — cell",
+    "φυλακίστηκε": "φυλακίζομαι — to be imprisoned",
+    "συνωμοσία": "συνωμοσία — conspiracy",
+    "μαγευτική": "μαγευτικός — enchanting"
+   }
+  },
+  {
+   "id": "l84-mono-choris-kinito",
+   "title": "Ένας μήνας χωρίς κινητό",
+   "title_en": "A month without a mobile phone",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Σε ένα podcast, ένας φοιτητής μιλά για ένα πείραμα που έκανε με τον εαυτό του.",
+   "script": [
+    {
+     "speaker": "Άγγελος",
+     "voice": "m",
+     "el": "Τον περασμένο Φεβρουάριο κλείδωσα το κινητό μου σε ένα συρτάρι για έναν ολόκληρο μήνα. Δεν το έκανα για κάποια πρόκληση στο ίντερνετ. Είχα προσέξει ότι το έπιανα πάνω από εκατό φορές τη μέρα και ότι δεν μπορούσα να διαβάσω ούτε δέκα σελίδες ενός βιβλίου χωρίς να το κοιτάξω.",
+     "en": "Last February I locked my mobile in a drawer for a whole month. I didn't do it for some internet challenge. I had noticed that I picked it up more than a hundred times a day and that I couldn't read even ten pages of a book without looking at it."
+    },
+    {
+     "speaker": "Άγγελος",
+     "voice": "m",
+     "el": "Αγόρασα ένα παλιό κινητό με κουμπιά, μόνο για τηλεφωνήματα, και ένα ξυπνητήρι. Οι πρώτες μέρες ήταν δύσκολες. Χανόμουν στην πόλη χωρίς χάρτη, και έπρεπε να ρωτάω τους περαστικούς για τον δρόμο. Οι φίλοι μου θύμωναν, γιατί δεν απαντούσα στα μηνύματα της ομάδας.",
+     "en": "I bought an old phone with buttons, just for calls, and an alarm clock. The first days were difficult. I got lost in the city without a map, and I had to ask passers-by for directions. My friends got annoyed because I didn't answer the group messages."
+    },
+    {
+     "speaker": "Άγγελος",
+     "voice": "m",
+     "el": "Μετά τη δεύτερη εβδομάδα, όμως, κάτι άλλαξε. Διάβασα τέσσερα βιβλία, κοιμόμουν καλύτερα και άρχισα να θυμάμαι τηλέφωνα απ’ έξω. Όταν τελείωσε ο μήνας, ξαναπήρα το κινητό μου, αλλά έσβησα τις περισσότερες εφαρμογές. Και το βράδυ το αφήνω πια στην κουζίνα.",
+     "en": "After the second week, though, something changed. I read four books, I slept better and I started remembering phone numbers by heart. When the month was over I took my phone back, but I deleted most of the apps. And at night I now leave it in the kitchen."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί αποφάσισε ο Άγγελος να κλειδώσει το κινητό του;",
+     "options": [
+      "Για μια πρόκληση στο ίντερνετ",
+      "Γιατί το έπιανε πάνω από εκατό φορές τη μέρα",
+      "Γιατί του το ζήτησαν οι γονείς του",
+      "Γιατί είχε χαλάσει"
+     ],
+     "answer": "Γιατί το έπιανε πάνω από εκατό φορές τη μέρα",
+     "why": "το έπιανα πάνω από εκατό φορές τη μέρα"
+    },
+    {
+     "q": "Τι πρόβλημα είχε τις πρώτες μέρες;",
+     "options": [
+      "Ξόδευε πολλά χρήματα",
+      "Χανόταν στην πόλη χωρίς χάρτη",
+      "Δεν μπορούσε να κοιμηθεί",
+      "Δεν ξυπνούσε για τα μαθήματα"
+     ],
+     "answer": "Χανόταν στην πόλη χωρίς χάρτη",
+     "why": "Χανόμουν στην πόλη χωρίς χάρτη"
+    },
+    {
+     "q": "Τι έκανε όταν τελείωσε ο μήνας;",
+     "options": [
+      "Κράτησε το παλιό κινητό με κουμπιά",
+      "Ξαναπήρε το κινητό του, αλλά έσβησε τις περισσότερες εφαρμογές",
+      "Αγόρασε καινούργιο κινητό",
+      "Συνέχισε για άλλον έναν μήνα"
+     ],
+     "answer": "Ξαναπήρε το κινητό του, αλλά έσβησε τις περισσότερες εφαρμογές",
+     "why": "ξαναπήρα το κινητό μου, αλλά έσβησα τις περισσότερες εφαρμογές"
+    }
+   ],
+   "gloss": {
+    "κλείδωσα": "κλειδώνω — to lock",
+    "συρτάρι": "συρτάρι — drawer",
+    "πρόκληση": "πρόκληση — challenge",
+    "κουμπιά": "κουμπί — button",
+    "περαστικούς": "περαστικός — passer-by",
+    "θύμωναν": "θυμώνω — to get angry",
+    "απ’ έξω": "απ’ έξω — by heart",
+    "εφαρμογές": "εφαρμογή — app"
+   }
+  },
+  {
+   "id": "l84-mono-panigyri",
+   "title": "Ο πρώτος μου χορός στο πανηγύρι",
+   "title_en": "My first dance at the village festival",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Σε μια ραδιοφωνική εκπομπή, μια ακροάτρια που μεγάλωσε στη Γερμανία θυμάται το πρώτο της πανηγύρι στην Ελλάδα.",
+   "script": [
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Μεγάλωσα στη Στουτγκάρδη, από γονείς Ηπειρώτες. Στα δεκαπέντε μου ήρθα για πρώτη φορά το καλοκαίρι στο χωριό του πατέρα μου, κοντά στα Γιάννενα, και έπεσα πάνω στο πανηγύρι του Δεκαπενταύγουστου. Ήμουν πεπεισμένη ότι θα βαριόμουν τρομερά.",
+     "en": "I grew up in Stuttgart, with parents from Epirus. At fifteen I came for the first time in summer to my father's village, near Ioannina, and I happened upon the festival of the fifteenth of August. I was convinced I'd be terribly bored."
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Η πλατεία ήταν γεμάτη τραπέζια, και κάτω από τον πλάτανο έπαιζε μια κομπανία με κλαρίνο, βιολί και λαούτο. Γύρω στα μεσάνυχτα άρχισε ένας αργός χορός, και μια ηλικιωμένη θεία με τράβηξε από το χέρι μέσα στον κύκλο. Δεν ήξερα τα βήματα και πατούσα όλους στα πόδια.",
+     "en": "The square was full of tables, and under the plane tree a band was playing clarinet, violin and lute. Around midnight a slow dance began, and an elderly aunt pulled me by the hand into the circle. I didn't know the steps and I trod on everyone's feet."
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Κανείς όμως δεν γέλασε. Η θεία μού ψιθύριζε τα βήματα στο αυτί: «δεξί, δεξί, πίσω». Χορέψαμε ως τις πέντε το πρωί. Εκείνο το βράδυ κατάλαβα ότι ο χορός εδώ δεν είναι επίδειξη, αλλά ένας τρόπος να ανήκεις κάπου. Από τότε δεν έχω χάσει ούτε ένα πανηγύρι.",
+     "en": "But nobody laughed. My aunt whispered the steps in my ear: 'right, right, back.' We danced until five in the morning. That night I understood that dancing here isn't a show, but a way of belonging somewhere. Since then I haven't missed a single festival."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι περίμενε η Κατερίνα από το πανηγύρι;",
+     "options": [
+      "Ότι θα γνώριζε νέους φίλους",
+      "Ότι θα βαριόταν τρομερά",
+      "Ότι θα χόρευε όλη τη νύχτα",
+      "Ότι θα διασκέδαζε πολύ"
+     ],
+     "answer": "Ότι θα βαριόταν τρομερά",
+     "why": "Ήμουν πεπεισμένη ότι θα βαριόμουν τρομερά"
+    },
+    {
+     "q": "Ποιος την έβαλε στον χορό;",
+     "options": [
+      "Ο πατέρας της",
+      "Ο κλαρινετίστας",
+      "Μια ηλικιωμένη θεία",
+      "Ένας νεαρός του χωριού"
+     ],
+     "answer": "Μια ηλικιωμένη θεία",
+     "why": "μια ηλικιωμένη θεία με τράβηξε από το χέρι μέσα στον κύκλο"
+    },
+    {
+     "q": "Τι κατάλαβε εκείνο το βράδυ;",
+     "options": [
+      "Ότι πρέπει να μάθει χορό σε σχολή",
+      "Ότι ο χορός είναι επίδειξη",
+      "Ότι προτιμά τη Γερμανία",
+      "Ότι ο χορός είναι ένας τρόπος να ανήκεις κάπου"
+     ],
+     "answer": "Ότι ο χορός είναι ένας τρόπος να ανήκεις κάπου",
+     "why": "ένας τρόπος να ανήκεις κάπου"
+    }
+   ],
+   "gloss": {
+    "πανηγύρι": "πανηγύρι — village festival (for a saint's day)",
+    "Ηπειρώτες": "Ηπειρώτης — person from Epirus",
+    "Δεκαπενταύγουστου": "Δεκαπενταύγουστος — the fifteenth of August (Dormition)",
+    "πεπεισμένη": "πεπεισμένος — convinced",
+    "κομπανία": "κομπανία — (folk) band",
+    "λαούτο": "λαούτο — lute",
+    "κύκλο": "κύκλος — circle",
+    "ψιθύριζε": "ψιθυρίζω — to whisper",
+    "επίδειξη": "επίδειξη — show, display"
+   }
+  },
+  {
+   "id": "l84-c1-spasmena-parathyra",
+   "title": "Η θεωρία των σπασμένων παραθύρων",
+   "title_en": "The broken windows theory",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Σε μια εκπομπή για την πόλη και την κοινωνία, μια δημοσιογράφος συζητά με έναν εγκληματολόγο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κύριε Ραφαηλίδη, τι υποστηρίζει η περίφημη «θεωρία των σπασμένων παραθύρων»;",
+     "en": "Mr Rafailidis, what does the famous 'broken windows theory' claim?"
+    },
+    {
+     "speaker": "Εγκληματολόγος",
+     "voice": "m",
+     "el": "Τη διατύπωσαν δύο αμερικανοί ερευνητές σε ένα άρθρο του 1982. Η βασική ιδέα είναι ότι τα μικρά σημάδια εγκατάλειψης, ένα σπασμένο τζάμι, γκράφιτι, σκουπίδια στον δρόμο, στέλνουν ένα μήνυμα: εδώ κανείς δεν ενδιαφέρεται. Και αυτό το μήνυμα, κατά τη θεωρία, ενθαρρύνει σταδιακά πιο σοβαρές παραβάσεις.",
+     "en": "Two American researchers formulated it in an article in 1982. The basic idea is that small signs of neglect, a broken pane, graffiti, rubbish in the street, send a message: nobody cares here. And this message, according to the theory, gradually encourages more serious offences."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Υπάρχουν πειραματικά δεδομένα που τη στηρίζουν;",
+     "en": "Is there experimental evidence to support it?"
+    },
+    {
+     "speaker": "Εγκληματολόγος",
+     "voice": "m",
+     "el": "Ορισμένα, ναι. Σε μια ολλανδική έρευνα, οι ερευνητές κρέμασαν διαφημιστικά φυλλάδια στα τιμόνια ποδηλάτων σε ένα πάρκινγκ. Όταν ο τοίχος δίπλα ήταν καθαρός, το ένα τρίτο περίπου των ποδηλατών πέταξε το φυλλάδιο κάτω. Όταν ο τοίχος ήταν γεμάτος γκράφιτι, το ποσοστό σχεδόν διπλασιάστηκε. Η αταξία, φαίνεται, είναι μεταδοτική.",
+     "en": "Some, yes. In a Dutch study, the researchers hung advertising flyers on the handlebars of bicycles in a car park. When the wall next to them was clean, about a third of the cyclists threw the flyer on the ground. When the wall was covered in graffiti, the rate almost doubled. Disorder, it seems, is contagious."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Η Νέα Υόρκη όμως δεν εφάρμοσε τη θεωρία τη δεκαετία του 1990, με μεγάλη επιτυχία;",
+     "en": "But didn't New York apply the theory in the 1990s, with great success?"
+    },
+    {
+     "speaker": "Εγκληματολόγος",
+     "voice": "m",
+     "el": "Εκεί αρχίζουν οι διαφωνίες. Η αστυνομία της πόλης κυνήγησε αυστηρά τις μικροπαραβάσεις, και η εγκληματικότητα μειώθηκε θεαματικά. Όμως μειώθηκε σχεδόν το ίδιο και σε πόλεις που δεν εφάρμοσαν τέτοιες πολιτικές. Επιπλέον, η αυστηρή αστυνόμευση έπληξε δυσανάλογα τις φτωχές γειτονιές. Το πιο χρήσιμο δίδαγμα, κατά τη γνώμη μου, δεν αφορά την αστυνομία, αλλά τους δήμους: ένα καθαρό, φροντισμένο πάρκο είναι ήδη μια μορφή πρόληψης.",
+     "en": "That's where the disagreements begin. The city police cracked down hard on minor offences, and crime fell spectacularly. But it fell almost as much in cities that did not apply such policies. Moreover, strict policing hit poor neighbourhoods disproportionately. The most useful lesson, in my view, is not about the police but about municipalities: a clean, well-kept park is already a form of prevention."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια είναι η βασική ιδέα της θεωρίας;",
+     "options": [
+      "Ότι οι φτωχές γειτονιές έχουν περισσότερη εγκληματικότητα",
+      "Ότι τα μικρά σημάδια εγκατάλειψης ενθαρρύνουν πιο σοβαρές παραβάσεις",
+      "Ότι τα γκράφιτι είναι τέχνη",
+      "Ότι η αστυνομία πρέπει να είναι αυστηρή με όλους"
+     ],
+     "answer": "Ότι τα μικρά σημάδια εγκατάλειψης ενθαρρύνουν πιο σοβαρές παραβάσεις",
+     "why": "τα μικρά σημάδια εγκατάλειψης"
+    },
+    {
+     "q": "Τι έδειξε η ολλανδική έρευνα;",
+     "options": [
+      "Ότι οι ποδηλάτες δεν πετούν ποτέ σκουπίδια",
+      "Ότι με γκράφιτι στον τοίχο σχεδόν διπλασιάστηκε το ποσοστό όσων πέταξαν το φυλλάδιο",
+      "Ότι τα φυλλάδια ενοχλούν τους ποδηλάτες",
+      "Ότι οι καθαροί τοίχοι προσελκύουν γκράφιτι"
+     ],
+     "answer": "Ότι με γκράφιτι στον τοίχο σχεδόν διπλασιάστηκε το ποσοστό όσων πέταξαν το φυλλάδιο",
+     "why": "το ποσοστό σχεδόν διπλασιάστηκε"
+    },
+    {
+     "q": "Γιατί αμφισβητείται η επιτυχία της Νέας Υόρκης;",
+     "options": [
+      "Γιατί η εγκληματικότητα αυξήθηκε",
+      "Γιατί μειώθηκε σχεδόν το ίδιο και σε πόλεις που δεν εφάρμοσαν τέτοιες πολιτικές",
+      "Γιατί τα στοιχεία χάθηκαν",
+      "Γιατί η αστυνομία δεν εφάρμοσε ποτέ τη θεωρία"
+     ],
+     "answer": "Γιατί μειώθηκε σχεδόν το ίδιο και σε πόλεις που δεν εφάρμοσαν τέτοιες πολιτικές",
+     "why": "μειώθηκε σχεδόν το ίδιο και σε πόλεις που δεν εφάρμοσαν τέτοιες πολιτικές"
+    }
+   ],
+   "gloss": {
+    "εγκληματολόγο": "εγκληματολόγος — criminologist",
+    "διατύπωσαν": "διατυπώνω — to formulate",
+    "εγκατάλειψης": "εγκατάλειψη — neglect, abandonment",
+    "τζάμι": "τζάμι — windowpane",
+    "παραβάσεις": "παράβαση — offence",
+    "φυλλάδια": "φυλλάδιο — flyer, leaflet",
+    "τιμόνια": "τιμόνι — handlebars",
+    "αταξία": "αταξία — disorder",
+    "μεταδοτική": "μεταδοτικός — contagious",
+    "δυσανάλογα": "δυσανάλογα — disproportionately",
+    "πρόληψης": "πρόληψη — prevention"
+   }
+  },
+  {
+   "id": "l84-c1-psychologia-doron",
+   "title": "Η ψυχολογία των δώρων",
+   "title_en": "The psychology of gifts",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Σε ένα podcast λίγο πριν από τις γιορτές, μια κοινωνική ψυχολόγος μιλά για το τι κάνει ένα δώρο πετυχημένο.",
+   "script": [
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Κάθε Δεκέμβριο ξοδεύουμε χρόνο, χρήματα και άγχος για να βρούμε το «τέλειο» δώρο. Κι όμως, οι έρευνες δείχνουν ότι αυτοί που κάνουν τα δώρα και αυτοί που τα δέχονται δεν σκέφτονται με τον ίδιο τρόπο. Ένας αμερικανός οικονομολόγος υπολόγισε κάποτε ότι οι παραλήπτες αποτιμούν τα δώρα τους έως και ένα τρίτο λιγότερο από όσο κόστισαν.",
+     "en": "Every December we spend time, money and stress trying to find the 'perfect' gift. And yet research shows that those who give gifts and those who receive them don't think in the same way. An American economist once calculated that recipients value their gifts up to a third less than they cost."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Αυτοί που κάνουν τα δώρα θέλουν συνήθως να εκπλήξουν. Αποφεύγουν ό,τι τους έχει ζητηθεί, γιατί τους φαίνεται ανέμπνευστο. Οι παραλήπτες, αντίθετα, εκτιμούν περισσότερο ακριβώς αυτό που ζήτησαν, γιατί δείχνει ότι κάποιος τους άκουσε. Επίσης, όσοι κάνουν δώρα υπερεκτιμούν τη σημασία της τιμής· για τον παραλήπτη, η τιμή μετράει πολύ λιγότερο απ’ ό,τι νομίζουμε.",
+     "en": "Givers usually want to surprise. They avoid what they've been asked for, because it seems uninspired to them. Recipients, on the other hand, appreciate most precisely what they asked for, because it shows that someone listened to them. Givers also overestimate the importance of price; for the recipient, price matters much less than we think."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Υπάρχει μία κατηγορία δώρων που φαίνεται να κερδίζει σχεδόν πάντα: οι εμπειρίες. Ένα εισιτήριο για μια συναυλία, ένα μάθημα μαγειρικής, μια εκδρομή, ιδίως όταν τα μοιραζόμαστε με τον παραλήπτη, φέρνουν τους ανθρώπους πιο κοντά απ’ ό,τι ένα αντικείμενο. Τα πράγματα παλιώνουν· οι αναμνήσεις, αντίθετα, συχνά γίνονται πιο γλυκές με τον χρόνο.",
+     "en": "There is one category of gift that seems to win almost every time: experiences. A ticket to a concert, a cookery class, an outing, especially when we share them with the recipient, bring people closer than an object does. Things get old; memories, by contrast, often grow sweeter with time."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι υπολόγισε ο αμερικανός οικονομολόγος;",
+     "options": [
+      "Ότι οι παραλήπτες αποτιμούν τα δώρα έως και ένα τρίτο λιγότερο από όσο κόστισαν",
+      "Ότι οι άνθρωποι προτιμούν χρήματα",
+      "Ότι ξοδεύουμε περισσότερα κάθε χρόνο",
+      "Ότι τα ακριβά δώρα είναι πιο πετυχημένα"
+     ],
+     "answer": "Ότι οι παραλήπτες αποτιμούν τα δώρα έως και ένα τρίτο λιγότερο από όσο κόστισαν",
+     "why": "οι παραλήπτες αποτιμούν τα δώρα τους έως και ένα τρίτο λιγότερο από όσο κόστισαν"
+    },
+    {
+     "q": "Τι εκτιμούν περισσότερο οι παραλήπτες;",
+     "options": [
+      "Τα ακριβά δώρα",
+      "Τις εκπλήξεις",
+      "Τα χειροποίητα δώρα",
+      "Αυτό που ζήτησαν"
+     ],
+     "answer": "Αυτό που ζήτησαν",
+     "why": "εκτιμούν περισσότερο ακριβώς αυτό που ζήτησαν"
+    },
+    {
+     "q": "Γιατί οι εμπειρίες είναι συχνά καλύτερα δώρα;",
+     "options": [
+      "Γιατί φέρνουν τους ανθρώπους πιο κοντά και οι αναμνήσεις γλυκαίνουν με τον χρόνο",
+      "Γιατί είναι φθηνότερες",
+      "Γιατί μπορούν να ανταλλαχθούν",
+      "Γιατί δεν χρειάζονται περιτύλιγμα"
+     ],
+     "answer": "Γιατί φέρνουν τους ανθρώπους πιο κοντά και οι αναμνήσεις γλυκαίνουν με τον χρόνο",
+     "why": "φέρνουν τους ανθρώπους πιο κοντά απ’ ό,τι ένα αντικείμενο"
+    }
+   ],
+   "gloss": {
+    "παραλήπτες": "παραλήπτης — recipient",
+    "αποτιμούν": "αποτιμώ — to value, appraise",
+    "εκπλήξουν": "εκπλήσσω — to surprise",
+    "ανέμπνευστο": "ανέμπνευστος — uninspired",
+    "υπερεκτιμούν": "υπερεκτιμώ — to overestimate",
+    "κατηγορία": "κατηγορία — category",
+    "παλιώνουν": "παλιώνω — to get old"
+   }
+  }
+ ]
+}
