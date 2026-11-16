@@ -1,0 +1,854 @@
+{
+ "items": [
+  {
+   "id": "l30-ann-leoforeia",
+   "title": "Λεωφορεία αντί για τρένα",
+   "title_en": "Buses instead of trains",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση σε έναν σιδηροδρομικό σταθμό.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ενημερώνουμε το επιβατικό κοινό ότι, λόγω εργασιών συντήρησης στη γραμμή, από τη Δευτέρα δεκαοκτώ έως την Παρασκευή είκοσι δύο του μήνα, τα δρομολόγια ανάμεσα στη Λάρισα και το Λιτόχωρο θα εκτελούνται με λεωφορεία.",
+     "en": "We inform passengers that, due to maintenance work on the line, from Monday the eighteenth to Friday the twenty-second of the month, services between Larissa and Litochoro will be operated by buses."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Οι επιβάτες θα κατεβαίνουν από το τρένο στη Λάρισα και θα επιβιβάζονται στα λεωφορεία που θα περιμένουν μπροστά από την κεντρική είσοδο του σταθμού. Η διαδρομή με το λεωφορείο θα διαρκεί περίπου σαράντα λεπτά περισσότερο, γι' αυτό σας συνιστούμε να υπολογίσετε επιπλέον χρόνο, ιδίως αν έχετε ανταπόκριση.",
+     "en": "Passengers will get off the train in Larissa and board the buses waiting in front of the station's main entrance. The bus journey will take about forty minutes longer, so we advise you to allow extra time, especially if you have a connection."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Τα εισιτήρια που έχουν ήδη εκδοθεί ισχύουν κανονικά και για τα λεωφορεία. Δυστυχώς, στα λεωφορεία δεν επιτρέπεται η μεταφορά ποδηλάτων. Για περισσότερες πληροφορίες, απευθυνθείτε στα εκδοτήρια.",
+     "en": "Tickets already issued are fully valid on the buses. Unfortunately, bicycles cannot be carried on the buses. For more information, please ask at the ticket offices."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί τα δρομολόγια θα γίνονται με λεωφορεία;",
+     "options": [
+      "Λόγω εργασιών συντήρησης στη γραμμή",
+      "Λόγω απεργίας",
+      "Λόγω έλλειψης προσωπικού",
+      "Λόγω κακοκαιρίας"
+     ],
+     "answer": "Λόγω εργασιών συντήρησης στη γραμμή",
+     "why": "λόγω εργασιών συντήρησης στη γραμμή"
+    },
+    {
+     "q": "Γιατί συνιστούν στους επιβάτες να υπολογίσουν επιπλέον χρόνο;",
+     "options": [
+      "Γιατί θα κλείσουν τα εκδοτήρια",
+      "Γιατί τα λεωφορεία είναι λίγα",
+      "Γιατί θα γίνεται έλεγχος εισιτηρίων",
+      "Γιατί η διαδρομή με το λεωφορείο θα διαρκεί περίπου σαράντα λεπτά περισσότερο"
+     ],
+     "answer": "Γιατί η διαδρομή με το λεωφορείο θα διαρκεί περίπου σαράντα λεπτά περισσότερο",
+     "why": "Η διαδρομή με το λεωφορείο θα διαρκεί περίπου σαράντα λεπτά περισσότερο"
+    },
+    {
+     "q": "Τι δεν επιτρέπεται στα λεωφορεία;",
+     "options": [
+      "Τα κατοικίδια",
+      "Οι μεγάλες βαλίτσες",
+      "Η μεταφορά ποδηλάτων",
+      "Τα παλιά εισιτήρια"
+     ],
+     "answer": "Η μεταφορά ποδηλάτων",
+     "why": "στα λεωφορεία δεν επιτρέπεται η μεταφορά ποδηλάτων"
+    }
+   ],
+   "gloss": {
+    "σιδηροδρομικό": "σιδηροδρομικός — railway (adj.)",
+    "επιβατικό κοινό": "επιβατικό κοινό — passengers (formal)",
+    "εργασιών συντήρησης": "εργασίες συντήρησης — maintenance work",
+    "δρομολόγια": "δρομολόγιο — service, route",
+    "θα εκτελούνται": "εκτελούμαι — to be operated, carried out",
+    "θα επιβιβάζονται": "επιβιβάζομαι — to board",
+    "ανταπόκριση": "ανταπόκριση — connection",
+    "έχουν ήδη εκδοθεί": "εκδίδομαι — to be issued",
+    "ισχύουν": "ισχύω — to be valid",
+    "εκδοτήρια": "εκδοτήριο — ticket office"
+   }
+  },
+  {
+   "id": "l30-vm-asfaleia",
+   "title": "Μήνυμα από την ασφαλιστική εταιρεία",
+   "title_en": "A message from the insurance company",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από την ασφαλιστική εταιρεία του αυτοκινήτου σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Καλημέρα σας, κύριε Δημητρίου, σας τηλεφωνούμε από την ασφαλιστική σας εταιρεία. Σας υπενθυμίζουμε ότι η ασφάλεια του αυτοκινήτου σας λήγει στις τριάντα του μήνα. Αν δεν ανανεωθεί έγκαιρα, δεν θα επιτρέπεται να κυκλοφορείτε με το όχημα, και σε περίπτωση ελέγχου υπάρχει πρόστιμο.",
+     "en": "Good morning, Mr Dimitriou, we're calling from your insurance company. We remind you that your car insurance expires on the thirtieth of the month. If it isn't renewed in time, you won't be allowed to drive the vehicle, and in case of a check there is a fine."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Επειδή τα τελευταία πέντε χρόνια δεν έχετε δηλώσει κανένα ατύχημα, δικαιούστε έκπτωση δέκα τοις εκατό στο ασφάλιστρο. Επιπλέον, φέτος μπορείτε να προσθέσετε στο συμβόλαιό σας οδική βοήθεια σε όλη την Ευρώπη με μόλις είκοσι ευρώ τον χρόνο.",
+     "en": "Because you haven't reported any accident in the last five years, you're entitled to a ten per cent discount on the premium. In addition, this year you can add Europe-wide roadside assistance to your policy for only twenty euros a year."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Μπορείτε να ανανεώσετε το συμβόλαιο ηλεκτρονικά, μέσα από την εφαρμογή μας, ή να μας καλέσετε για να σας στείλουμε τον κωδικό πληρωμής. Ευχαριστούμε που μας προτιμάτε.",
+     "en": "You can renew the policy online, through our app, or call us so that we can send you the payment code. Thank you for choosing us."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θα συμβεί αν η ασφάλεια δεν ανανεωθεί έγκαιρα;",
+     "options": [
+      "Θα χάσει το δίπλωμά του",
+      "Θα ανανεωθεί για δύο χρόνια",
+      "Δεν θα επιτρέπεται να κυκλοφορεί με το αυτοκίνητο",
+      "Θα αυξηθεί αυτόματα η τιμή"
+     ],
+     "answer": "Δεν θα επιτρέπεται να κυκλοφορεί με το αυτοκίνητο",
+     "why": "δεν θα επιτρέπεται να κυκλοφορείτε με το όχημα"
+    },
+    {
+     "q": "Γιατί ο κύριος Δημητρίου δικαιούται έκπτωση;",
+     "options": [
+      "Γιατί έχει δύο αυτοκίνητα",
+      "Γιατί πληρώνει ηλεκτρονικά",
+      "Γιατί είναι νέος πελάτης",
+      "Γιατί δεν έχει δηλώσει ατύχημα τα τελευταία πέντε χρόνια"
+     ],
+     "answer": "Γιατί δεν έχει δηλώσει ατύχημα τα τελευταία πέντε χρόνια",
+     "why": "τα τελευταία πέντε χρόνια δεν έχετε δηλώσει κανένα ατύχημα"
+    },
+    {
+     "q": "Τι μπορεί να προσθέσει φέτος στο συμβόλαιο;",
+     "options": [
+      "Ασφάλεια ζωής",
+      "Δεύτερο οδηγό δωρεάν",
+      "Ασφάλεια για το σπίτι",
+      "Οδική βοήθεια σε όλη την Ευρώπη"
+     ],
+     "answer": "Οδική βοήθεια σε όλη την Ευρώπη",
+     "why": "οδική βοήθεια σε όλη την Ευρώπη"
+    }
+   ],
+   "gloss": {
+    "ασφαλιστική": "ασφαλιστικός — insurance (adj.)",
+    "λήγει": "λήγω — to expire",
+    "ανανεωθεί": "ανανεώνομαι — to be renewed",
+    "όχημα": "όχημα — vehicle",
+    "πρόστιμο": "πρόστιμο — fine",
+    "δηλώσει": "δηλώνω — to report, declare",
+    "δικαιούστε": "δικαιούμαι — to be entitled",
+    "ασφάλιστρο": "ασφάλιστρο — insurance premium",
+    "συμβόλαιό": "συμβόλαιο — policy, contract",
+    "οδική βοήθεια": "οδική βοήθεια — roadside assistance"
+   }
+  },
+  {
+   "id": "l30-dia-enoikiasi",
+   "title": "Ενοικίαση αυτοκινήτου στην Κρήτη",
+   "title_en": "Renting a car in Crete",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα γραφείο ενοικίασης αυτοκινήτων στο αεροδρόμιο του Ηρακλείου.",
+   "script": [
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Καλησπέρα. Έχω κάνει κράτηση για ένα μικρό αυτοκίνητο για μία εβδομάδα, στο όνομα Κωνσταντίνου.",
+     "en": "Good evening. I've booked a small car for one week, in the name Konstantinou."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Μάλιστα, σας βρήκα. Θα χρειαστώ το δίπλωμα οδήγησης και μια πιστωτική κάρτα για την εγγύηση. Θα δεσμεύσουμε τριακόσια ευρώ, τα οποία αποδεσμεύονται όταν επιστρέψετε το αυτοκίνητο χωρίς ζημιές.",
+     "en": "Right, I've found you. I'll need your driving licence and a credit card for the deposit. We'll hold three hundred euros, which is released when you return the car undamaged."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Σκοπεύω να πάω και στις παραλίες του νότου, στη Λυβική θάλασσα. Υπάρχει πρόβλημα με τους χωματόδρομους;",
+     "en": "I'm planning to go to the beaches in the south too, on the Libyan Sea. Is there a problem with dirt roads?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Καλή ερώτηση. Η βασική ασφάλεια δεν καλύπτει ζημιές στο κάτω μέρος του αυτοκινήτου ή στα λάστιχα, που συμβαίνουν συχνά στους χωματόδρομους. Γι' αυτό σας προτείνω την πλήρη κάλυψη, με δώδεκα ευρώ την ημέρα· έτσι δεν θα χρειαστεί και εγγύηση. Και κάτι ακόμη: το αυτοκίνητο το παραλαμβάνετε με γεμάτο ρεζερβουάρ και πρέπει να το επιστρέψετε επίσης γεμάτο.",
+     "en": "Good question. The basic insurance doesn't cover damage to the underside of the car or the tyres, which often happens on dirt roads. That's why I suggest full cover, at twelve euros a day; that way you won't need a deposit either. And one more thing: you collect the car with a full tank and must return it full as well."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Τότε θα πάρω την πλήρη κάλυψη. Προτιμώ να πληρώσω λίγο παραπάνω και να είμαι ήσυχη.",
+     "en": "Then I'll take full cover. I'd rather pay a bit more and have peace of mind."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε αποδεσμεύονται τα τριακόσια ευρώ της εγγύησης;",
+     "options": [
+      "Όταν επιστραφεί το αυτοκίνητο χωρίς ζημιές",
+      "Μετά από ένα μήνα",
+      "Όταν πληρωθεί η βενζίνη",
+      "Την πρώτη μέρα της ενοικίασης"
+     ],
+     "answer": "Όταν επιστραφεί το αυτοκίνητο χωρίς ζημιές",
+     "why": "αποδεσμεύονται όταν επιστρέψετε το αυτοκίνητο χωρίς ζημιές"
+    },
+    {
+     "q": "Τι δεν καλύπτει η βασική ασφάλεια;",
+     "options": [
+      "Ζημιές στο κάτω μέρος του αυτοκινήτου ή στα λάστιχα",
+      "Τα τζάμια",
+      "Την κλοπή",
+      "Τους επιβάτες"
+     ],
+     "answer": "Ζημιές στο κάτω μέρος του αυτοκινήτου ή στα λάστιχα",
+     "why": "δεν καλύπτει ζημιές στο κάτω μέρος του αυτοκινήτου ή στα λάστιχα"
+    },
+    {
+     "q": "Πώς πρέπει να επιστραφεί το αυτοκίνητο;",
+     "options": [
+      "Πριν από τις δέκα το πρωί",
+      "Καθαρό εσωτερικά",
+      "Με γεμάτο ρεζερβουάρ",
+      "Στο λιμάνι"
+     ],
+     "answer": "Με γεμάτο ρεζερβουάρ",
+     "why": "πρέπει να το επιστρέψετε επίσης γεμάτο"
+    }
+   ],
+   "gloss": {
+    "ενοικίασης": "ενοικίαση — rental",
+    "κράτηση": "κράτηση — booking",
+    "εγγύηση": "εγγύηση — deposit, guarantee",
+    "Θα δεσμεύσουμε": "δεσμεύω — to hold, block (an amount)",
+    "αποδεσμεύονται": "αποδεσμεύομαι — to be released",
+    "ζημιές": "ζημιά — damage",
+    "χωματόδρομους": "χωματόδρομος — dirt road",
+    "λάστιχα": "λάστιχο — tyre",
+    "πλήρη κάλυψη": "πλήρης κάλυψη — full cover",
+    "παραλαμβάνετε": "παραλαμβάνω — to collect, receive",
+    "ρεζερβουάρ": "ρεζερβουάρ — fuel tank"
+   }
+  },
+  {
+   "id": "l30-dia-podilato",
+   "title": "Στο κατάστημα ποδηλάτων",
+   "title_en": "At the bike shop",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα κατάστημα που επισκευάζει ποδήλατα.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Γεια σας. Το ποδήλατό μου κάνει έναν περίεργο θόρυβο όταν αλλάζω ταχύτητες, και τα φρένα δεν πιάνουν καλά, ειδικά όταν βρέχει.",
+     "en": "Hello. My bike makes a strange noise when I change gear, and the brakes don't grip well, especially when it rains."
+    },
+    {
+     "speaker": "Τεχνίτρια",
+     "voice": "f",
+     "el": "Για να δούμε... Η αλυσίδα είναι πολύ φθαρμένη, και γι' αυτό πηδάει στα γρανάζια. Τα τακάκια των φρένων έχουν επίσης λιώσει. Πόσο συχνά το χρησιμοποιείτε;",
+     "en": "Let's see... The chain is very worn, and that's why it jumps on the gears. The brake pads are also worn down. How often do you use it?"
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Κάθε μέρα, για να πηγαίνω στη δουλειά. Περίπου δεκαπέντε χιλιόμετρα τη μέρα.",
+     "en": "Every day, to go to work. About fifteen kilometres a day."
+    },
+    {
+     "speaker": "Τεχνίτρια",
+     "voice": "f",
+     "el": "Τότε είναι λογικό. Με τόσα χιλιόμετρα, η αλυσίδα θέλει αλλαγή περίπου κάθε χρόνο, και πρέπει να καθαρίζεται και να λαδώνεται κάθε μήνα. Η αλλαγή αλυσίδας και τακακιών, μαζί με ένα γενικό σέρβις, κοστίζει εξήντα ευρώ. Θα είναι έτοιμο αύριο το απόγευμα.",
+     "en": "Then it makes sense. With so many kilometres, the chain needs changing about once a year, and it should be cleaned and oiled every month. Changing the chain and pads, together with a general service, costs sixty euros. It'll be ready tomorrow afternoon."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Αύριο; Και πώς θα πάω στη δουλειά;",
+     "en": "Tomorrow? And how will I get to work?"
+    },
+    {
+     "speaker": "Τεχνίτρια",
+     "voice": "f",
+     "el": "Μπορώ να σας δανείσω ένα από τα δικά μας ποδήλατα μέχρι αύριο, χωρίς χρέωση. Το κάνουμε για όλους τους σταθερούς πελάτες.",
+     "en": "I can lend you one of our own bikes until tomorrow, free of charge. We do that for all our regular customers."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί πηδάει η αλυσίδα στα γρανάζια;",
+     "options": [
+      "Γιατί είναι πολύ φθαρμένη",
+      "Γιατί είναι πολύ σφιχτή",
+      "Γιατί βράχηκε",
+      "Γιατί λείπει μια βίδα"
+     ],
+     "answer": "Γιατί είναι πολύ φθαρμένη",
+     "why": "Η αλυσίδα είναι πολύ φθαρμένη, και γι' αυτό πηδάει στα γρανάζια"
+    },
+    {
+     "q": "Κάθε πότε πρέπει να καθαρίζεται και να λαδώνεται η αλυσίδα;",
+     "options": [
+      "Κάθε χρόνο",
+      "Κάθε εβδομάδα",
+      "Κάθε μήνα",
+      "Μόνο όταν βρέχει"
+     ],
+     "answer": "Κάθε μήνα",
+     "why": "πρέπει να καθαρίζεται και να λαδώνεται κάθε μήνα"
+    },
+    {
+     "q": "Πώς λύνει η τεχνίτρια το πρόβλημα του πελάτη για τη μετακίνησή του;",
+     "options": [
+      "Του προτείνει να πάρει ταξί",
+      "Του δίνει έκπτωση",
+      "Του δανείζει δωρεάν ένα ποδήλατο μέχρι αύριο",
+      "Επισκευάζει το ποδήλατο αμέσως"
+     ],
+     "answer": "Του δανείζει δωρεάν ένα ποδήλατο μέχρι αύριο",
+     "why": "Μπορώ να σας δανείσω ένα από τα δικά μας ποδήλατα μέχρι αύριο, χωρίς χρέωση"
+    }
+   ],
+   "gloss": {
+    "ταχύτητες": "ταχύτητα — gear (on a bike or car)",
+    "φρένα": "φρένο — brake",
+    "δεν πιάνουν": "πιάνω — (of brakes) to grip",
+    "αλυσίδα": "αλυσίδα — chain",
+    "φθαρμένη": "φθαρμένος — worn",
+    "πηδάει": "πηδάω — to jump, skip",
+    "γρανάζια": "γρανάζι — gear wheel, cog",
+    "τακάκια": "τακάκι — brake pad",
+    "έχουν επίσης λιώσει": "λιώνω — to wear down, melt",
+    "να λαδώνεται": "λαδώνω — to oil",
+    "χρέωση": "χρέωση — charge"
+   }
+  },
+  {
+   "id": "l30-mon-douleia",
+   "title": "Η πρώτη μου δουλειά",
+   "title_en": "My first job",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν άντρα να θυμάται την πρώτη του δουλειά σε ένα podcast για την εργασία.",
+   "script": [
+    {
+     "speaker": "Παύλος",
+     "voice": "m",
+     "el": "Την πρώτη μου δουλειά την έπιασα στα δεκαέξι, ένα καλοκαίρι στη Χαλκιδική. Ήμουν βοηθός σερβιτόρου σε μια ταβέρνα δίπλα στη θάλασσα. Δούλευα δώδεκα ώρες τη μέρα, έξι μέρες την εβδομάδα, και στο τέλος της πρώτης μέρας δεν ένιωθα τα πόδια μου.",
+     "en": "I got my first job at sixteen, one summer in Halkidiki. I was a waiter's assistant in a taverna by the sea. I worked twelve hours a day, six days a week, and at the end of the first day I couldn't feel my legs."
+    },
+    {
+     "speaker": "Παύλος",
+     "voice": "m",
+     "el": "Το αφεντικό, ο κυρ-Στέλιος, ήταν αυστηρός αλλά δίκαιος. Τη δεύτερη εβδομάδα έσπασα μια ολόκληρη στοίβα με πιάτα μπροστά σε όλους τους πελάτες. Περίμενα ότι θα με απολύσει. Αντί γι' αυτό, μου έδωσε μια σκούπα και μου είπε: «Όποιος δεν σπάει πιάτα, δεν δουλεύει.»",
+     "en": "The boss, Mr Stelios, was strict but fair. In the second week I broke a whole stack of plates in front of all the customers. I expected him to fire me. Instead, he gave me a broom and said: 'Whoever doesn't break plates isn't working.'"
+    },
+    {
+     "speaker": "Παύλος",
+     "voice": "m",
+     "el": "Από εκείνο το καλοκαίρι έμαθα πράγματα που δεν διδάσκονται σε κανένα πανεπιστήμιο: να μιλάω με αγνώστους, να μένω ήρεμος όταν όλα πάνε στραβά, να σέβομαι κάθε δουλειά. Σήμερα έχω δική μου εταιρεία, και όταν ένας νέος υπάλληλος κάνει το πρώτο του λάθος, του λέω την ίδια φράση.",
+     "en": "From that summer I learned things that aren't taught at any university: how to talk to strangers, how to stay calm when everything goes wrong, how to respect every job. Today I have my own company, and when a new employee makes his first mistake, I tell him the same phrase."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι δουλειά έκανε ο Παύλος στα δεκαέξι;",
+     "options": [
+      "Βοηθός σερβιτόρου σε ταβέρνα",
+      "Ναυαγοσώστης",
+      "Πωλητής σε κατάστημα",
+      "Μάγειρας σε ξενοδοχείο"
+     ],
+     "answer": "Βοηθός σερβιτόρου σε ταβέρνα",
+     "why": "Ήμουν βοηθός σερβιτόρου σε μια ταβέρνα δίπλα στη θάλασσα"
+    },
+    {
+     "q": "Πώς αντέδρασε ο κυρ-Στέλιος όταν ο Παύλος έσπασε τα πιάτα;",
+     "options": [
+      "Του έδωσε μια σκούπα και του είπε μια ενθαρρυντική φράση",
+      "Του φώναξε μπροστά στους πελάτες",
+      "Τον απέλυσε",
+      "Του έκοψε τα πιάτα από τον μισθό"
+     ],
+     "answer": "Του έδωσε μια σκούπα και του είπε μια ενθαρρυντική φράση",
+     "why": "μου έδωσε μια σκούπα και μου είπε: «Όποιος δεν σπάει πιάτα, δεν δουλεύει.»"
+    },
+    {
+     "q": "Τι κάνει σήμερα ο Παύλος όταν ένας νέος υπάλληλος κάνει λάθος;",
+     "options": [
+      "Τον απολύει",
+      "Του λέει την ίδια φράση",
+      "Τον στέλνει σε σεμινάριο",
+      "Του κόβει τον μισθό"
+     ],
+     "answer": "Του λέει την ίδια φράση",
+     "why": "του λέω την ίδια φράση"
+    }
+   ],
+   "gloss": {
+    "την έπιασα": "πιάνω δουλειά — to start a job",
+    "βοηθός σερβιτόρου": "βοηθός σερβιτόρου — waiter's assistant",
+    "αφεντικό": "αφεντικό — boss",
+    "αυστηρός": "αυστηρός — strict",
+    "δίκαιος": "δίκαιος — fair",
+    "στοίβα": "στοίβα — stack",
+    "θα με απολύσει": "απολύω — to fire, dismiss",
+    "σκούπα": "σκούπα — broom",
+    "αγνώστους": "άγνωστος — stranger",
+    "πάνε στραβά": "πάω στραβά — to go wrong",
+    "να σέβομαι": "σέβομαι — to respect"
+   }
+  },
+  {
+   "id": "l30-rep-trenaki",
+   "title": "Το τρενάκι του Πηλίου",
+   "title_en": "The little train of Pelion",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για το ιστορικό τρενάκι του Πηλίου.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Σφυρίζει δυνατά και ξεκινά αργά από τον σταθμό των Άνω Λεχωνίων. Το τρενάκι του Πηλίου, ο «Μουτζούρης», όπως το λένε οι ντόπιοι λόγω του καπνού του, ταξιδεύει ανάμεσα σε ελαιώνες, καστανιές και πλατάνια, με θέα τον Παγασητικό κόλπο.",
+     "en": "It whistles loudly and slowly sets off from the station at Ano Lechonia. The little train of Pelion, the 'Moutzouris', as locals call it because of its smoke, travels among olive groves, chestnut trees and plane trees, with a view of the Pagasetic Gulf."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η γραμμή κατασκευάστηκε στα τέλη του δέκατου ένατου και στις αρχές του εικοστού αιώνα, για να συνδέσει τον Βόλο με τα χωριά του βουνού. Το πλάτος της είναι μόλις εξήντα εκατοστά, και ο μηχανικός που τη σχεδίασε ήταν ο Ιταλός Εβαρίστο ντε Κίρικο, πατέρας του διάσημου ζωγράφου Τζόρτζιο ντε Κίρικο, που γεννήθηκε στον Βόλο.",
+     "en": "The line was built in the late nineteenth and early twentieth centuries to link Volos with the mountain villages. Its gauge is just sixty centimetres, and the engineer who designed it was the Italian Evaristo de Chirico, father of the famous painter Giorgio de Chirico, who was born in Volos."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η διαδρομή μέχρι τις Μηλιές κρατά περίπου μιάμιση ώρα, και το πιο εντυπωσιακό σημείο είναι η σιδερένια γέφυρα στους Ταξιάρχες, που κρέμεται πάνω από μια χαράδρα. Στις Μηλιές το τρενάκι κάνει στάση μιάμισης ώρας, αρκετή για έναν καφέ στην πλατεία του χωριού. Τον χειμώνα, το τρενάκι λειτουργεί μόνο τα Σαββατοκύριακα και τις αργίες.",
+     "en": "The journey to Milies takes about an hour and a half, and the most impressive point is the iron bridge at Taxiarches, which hangs over a ravine. In Milies the train stops for an hour and a half, enough for a coffee in the village square. In winter, the little train runs only at weekends and on holidays."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί οι ντόπιοι λένε το τρενάκι «Μουτζούρη»;",
+     "options": [
+      "Γιατί είναι πολύ αργό",
+      "Λόγω του χρώματός του",
+      "Λόγω του ονόματος του μηχανικού",
+      "Λόγω του καπνού του"
+     ],
+     "answer": "Λόγω του καπνού του",
+     "why": "όπως το λένε οι ντόπιοι λόγω του καπνού του"
+    },
+    {
+     "q": "Ποιος σχεδίασε τη γραμμή;",
+     "options": [
+      "Ο ζωγράφος Τζόρτζιο ντε Κίρικο",
+      "Ο Ιταλός μηχανικός Εβαρίστο ντε Κίρικο",
+      "Ένας Γάλλος αρχιτέκτονας",
+      "Οι κάτοικοι των χωριών"
+     ],
+     "answer": "Ο Ιταλός μηχανικός Εβαρίστο ντε Κίρικο",
+     "why": "ο μηχανικός που τη σχεδίασε ήταν ο Ιταλός Εβαρίστο ντε Κίρικο"
+    },
+    {
+     "q": "Ποιο είναι το πιο εντυπωσιακό σημείο της διαδρομής;",
+     "options": [
+      "Ο σταθμός του Βόλου",
+      "Η σιδερένια γέφυρα στους Ταξιάρχες",
+      "Η πλατεία στις Μηλιές",
+      "Μια σήραγγα κάτω από το βουνό"
+     ],
+     "answer": "Η σιδερένια γέφυρα στους Ταξιάρχες",
+     "why": "το πιο εντυπωσιακό σημείο είναι η σιδερένια γέφυρα στους Ταξιάρχες"
+    }
+   ],
+   "gloss": {
+    "Σφυρίζει": "σφυρίζω — to whistle",
+    "ντόπιοι": "ντόπιος — local",
+    "καπνού": "καπνός — smoke",
+    "ελαιώνες": "ελαιώνας — olive grove",
+    "καστανιές": "καστανιά — chestnut tree",
+    "πλατάνια": "πλάτανος — plane tree",
+    "κόλπο": "κόλπος — gulf",
+    "πλάτος": "πλάτος — width, gauge",
+    "σιδερένια": "σιδερένιος — iron (adj.)",
+    "χαράδρα": "χαράδρα — ravine",
+    "αργίες": "αργία — public holiday"
+   }
+  },
+  {
+   "id": "l30-rep-pozar",
+   "title": "Τα Λουτρά Πόζαρ",
+   "title_en": "The Pozar thermal baths",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από τα Λουτρά Πόζαρ, στον νομό Πέλλας.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Έξω η θερμοκρασία είναι δύο βαθμοί, και οι πλαγιές του Καϊμακτσαλάν είναι σκεπασμένες με χιόνι. Κι όμως, δεκάδες άνθρωποι κολυμπούν χαμογελαστοί σε ένα ποτάμι από το οποίο βγαίνουν ατμοί. Βρισκόμαστε στα Λουτρά Πόζαρ, κοντά στην Αριδαία.",
+     "en": "Outside the temperature is two degrees, and the slopes of Kaimaktsalan are covered in snow. And yet dozens of people are swimming, smiling, in a river that is giving off steam. We are at the Pozar baths, near Aridaia."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Το νερό αναβλύζει από τα βάθη της γης με θερμοκρασία γύρω στους τριάντα επτά βαθμούς όλο τον χρόνο. Σχηματίζει μικρούς καταρράκτες και φυσικές λιμνούλες, όπου οι επισκέπτες κάθονται για ώρες. Οι κάτοικοι λένε ότι τα ιαματικά νερά βοηθούν σε προβλήματα των αρθρώσεων και του δέρματος, και η χρήση τους είναι γνωστή από την αρχαιότητα.",
+     "en": "The water gushes up from deep in the earth at around thirty-seven degrees all year round. It forms small waterfalls and natural pools, where visitors sit for hours. Locals say the healing waters help with joint and skin problems, and their use has been known since antiquity."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Τον χειμώνα πολλοί επισκέπτες συνδυάζουν το μπάνιο με σκι στο χιονοδρομικό κέντρο του βουνού, που απέχει λίγο πιο πάνω. Συμβουλή: φέρτε παντόφλες για τα βράχια και μην ξεχάσετε μια ζεστή πετσέτα, γιατί το πιο δύσκολο δεν είναι να μπείτε στο νερό, αλλά να βγείτε!",
+     "en": "In winter many visitors combine bathing with skiing at the mountain's ski centre, a little higher up. A tip: bring slippers for the rocks and don't forget a warm towel, because the hardest part isn't getting into the water, it's getting out!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θερμοκρασία έχει το νερό στα Λουτρά Πόζαρ;",
+     "options": [
+      "Γύρω στους τριάντα επτά βαθμούς",
+      "Αλλάζει ανάλογα με την εποχή",
+      "Δύο βαθμούς",
+      "Γύρω στους πενήντα βαθμούς"
+     ],
+     "answer": "Γύρω στους τριάντα επτά βαθμούς",
+     "why": "με θερμοκρασία γύρω στους τριάντα επτά βαθμούς όλο τον χρόνο"
+    },
+    {
+     "q": "Σε τι λένε οι κάτοικοι ότι βοηθούν τα ιαματικά νερά;",
+     "options": [
+      "Στην όραση",
+      "Στον ύπνο",
+      "Σε προβλήματα των αρθρώσεων και του δέρματος",
+      "Στην πέψη"
+     ],
+     "answer": "Σε προβλήματα των αρθρώσεων και του δέρματος",
+     "why": "βοηθούν σε προβλήματα των αρθρώσεων και του δέρματος"
+    },
+    {
+     "q": "Ποιο είναι, κατά τον ρεπόρτερ, το πιο δύσκολο;",
+     "options": [
+      "Να βρεις θέση",
+      "Να φτάσεις στο μέρος",
+      "Να βγεις από το νερό",
+      "Να μπεις στο νερό"
+     ],
+     "answer": "Να βγεις από το νερό",
+     "why": "το πιο δύσκολο δεν είναι να μπείτε στο νερό, αλλά να βγείτε"
+    }
+   ],
+   "gloss": {
+    "Λουτρά": "λουτρά — (thermal) baths",
+    "πλαγιές": "πλαγιά — slope",
+    "ατμοί": "ατμός — steam",
+    "αναβλύζει": "αναβλύζω — to gush up, spring",
+    "καταρράκτες": "καταρράκτης — waterfall",
+    "λιμνούλες": "λιμνούλα — pool, small lake",
+    "ιαματικά": "ιαματικός — healing, medicinal",
+    "αρθρώσεων": "άρθρωση — joint",
+    "χιονοδρομικό κέντρο": "χιονοδρομικό κέντρο — ski centre",
+    "παντόφλες": "παντόφλα — slipper",
+    "πετσέτα": "πετσέτα — towel"
+   }
+  },
+  {
+   "id": "l30-int-elegktis",
+   "title": "Ελεγκτής εναέριας κυκλοφορίας",
+   "title_en": "An air traffic controller",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια ελέγκτρια εναέριας κυκλοφορίας.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πολλοί λένε ότι η δουλειά σας είναι από τις πιο αγχωτικές στον κόσμο. Ισχύει;",
+     "en": "Many say your job is one of the most stressful in the world. Is that true?"
+    },
+    {
+     "speaker": "Ελέγκτρια",
+     "voice": "f",
+     "el": "Είναι απαιτητική, σίγουρα. Τις ώρες αιχμής το καλοκαίρι μπορεί να έχω στην οθόνη μου δεκαπέντε αεροπλάνα ταυτόχρονα, και πρέπει να ξέρω ανά πάσα στιγμή πού βρίσκεται το καθένα, σε ποιο ύψος και με ποια ταχύτητα. Ένα λάθος δεν συγχωρείται. Γι' αυτό δεν δουλεύουμε ποτέ περισσότερο από δύο ώρες χωρίς διάλειμμα.",
+     "en": "It's demanding, certainly. At peak hours in summer I can have fifteen planes on my screen at once, and I have to know at every moment where each one is, at what altitude and at what speed. A mistake isn't forgiven. That's why we never work more than two hours without a break."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Σε ποια γλώσσα μιλάτε με τους πιλότους;",
+     "en": "What language do you speak to the pilots in?"
+    },
+    {
+     "speaker": "Ελέγκτρια",
+     "voice": "f",
+     "el": "Στα αγγλικά, με μια πολύ συγκεκριμένη φρασεολογία. Κάθε εντολή επαναλαμβάνεται από τον πιλότο, για να είμαστε σίγουροι ότι δεν υπάρχει παρεξήγηση. Με τους Έλληνες πιλότους μπορούμε να μιλάμε και ελληνικά, αλλά συνήθως προτιμάμε τα αγγλικά, για να καταλαβαίνουν και οι άλλοι πιλότοι στη συχνότητα τι συμβαίνει.",
+     "en": "In English, with very specific phraseology. Every instruction is repeated back by the pilot, so we're sure there's no misunderstanding. With Greek pilots we can also speak Greek, but we usually prefer English, so that the other pilots on the frequency also understand what's happening."
+    },
+    {
+     "speaker": "Ελέγκτρια",
+     "voice": "f",
+     "el": "Το πιο όμορφο στη δουλειά μου; Όταν τελειώνει μια δύσκολη βάρδια και ξέρω ότι χιλιάδες άνθρωποι έφτασαν με ασφάλεια, χωρίς να μάθουν ποτέ ότι υπήρξα.",
+     "en": "The best thing about my job? When a difficult shift ends and I know that thousands of people arrived safely, without ever knowing I existed."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί οι ελεγκτές δεν δουλεύουν πάνω από δύο ώρες χωρίς διάλειμμα;",
+     "options": [
+      "Γιατί η δουλειά απαιτεί συνεχή προσοχή και ένα λάθος δεν συγχωρείται",
+      "Γιατί το ορίζει το συνδικάτο τους",
+      "Γιατί κουράζονται τα μάτια από την οθόνη",
+      "Γιατί οι πτήσεις σταματούν κάθε δύο ώρες"
+     ],
+     "answer": "Γιατί η δουλειά απαιτεί συνεχή προσοχή και ένα λάθος δεν συγχωρείται",
+     "why": "Ένα λάθος δεν συγχωρείται. Γι' αυτό δεν δουλεύουμε ποτέ περισσότερο από δύο ώρες χωρίς διάλειμμα"
+    },
+    {
+     "q": "Γιατί ο πιλότος επαναλαμβάνει κάθε εντολή;",
+     "options": [
+      "Γιατί η σύνδεση είναι κακή",
+      "Για να ηχογραφηθεί",
+      "Για να εξασκηθεί στα αγγλικά",
+      "Για να μην υπάρχει παρεξήγηση"
+     ],
+     "answer": "Για να μην υπάρχει παρεξήγηση",
+     "why": "για να είμαστε σίγουροι ότι δεν υπάρχει παρεξήγηση"
+    },
+    {
+     "q": "Γιατί προτιμούν τα αγγλικά και με τους Έλληνες πιλότους;",
+     "options": [
+      "Για να καταλαβαίνουν και οι άλλοι πιλότοι στη συχνότητα",
+      "Γιατί τα ελληνικά απαγορεύονται",
+      "Γιατί είναι πιο σύντομα",
+      "Γιατί το ζητούν οι επιβάτες"
+     ],
+     "answer": "Για να καταλαβαίνουν και οι άλλοι πιλότοι στη συχνότητα",
+     "why": "για να καταλαβαίνουν και οι άλλοι πιλότοι στη συχνότητα τι συμβαίνει"
+    }
+   ],
+   "gloss": {
+    "ελέγκτρια": "ελέγκτρια — (female) controller",
+    "εναέριας κυκλοφορίας": "εναέρια κυκλοφορία — air traffic",
+    "αγχωτικές": "αγχωτικός — stressful",
+    "απαιτητική": "απαιτητικός — demanding",
+    "ώρες αιχμής": "ώρες αιχμής — peak hours",
+    "ανά πάσα στιγμή": "ανά πάσα στιγμή — at every moment",
+    "ύψος": "ύψος — altitude, height",
+    "δεν συγχωρείται": "συγχωρούμαι — to be forgiven",
+    "φρασεολογία": "φρασεολογία — phraseology",
+    "εντολή": "εντολή — instruction, command",
+    "παρεξήγηση": "παρεξήγηση — misunderstanding",
+    "συχνότητα": "συχνότητα — frequency",
+    "βάρδια": "βάρδια — shift"
+   }
+  },
+  {
+   "id": "l30-mon-theodora",
+   "title": "Θεοδώρα, η αυτοκράτειρα",
+   "title_en": "Theodora, the empress",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από μια διάλεξη για την αυτοκράτειρα Θεοδώρα, σύζυγο του Ιουστινιανού.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Λίγες γυναίκες του Βυζαντίου έχουν προκαλέσει τόσο έντονες αντιδράσεις όσο η Θεοδώρα. Γεννήθηκε στις αρχές του έκτου αιώνα, κόρη ενός θηριοδαμαστή του Ιπποδρόμου, και στα νιάτα της εμφανιζόταν στη σκηνή ως ηθοποιός, ένα επάγγελμα που τότε θεωρούνταν ανάξιο. Για να την παντρευτεί ο Ιουστινιανός, χρειάστηκε να αλλάξει ο νόμος που απαγόρευε τον γάμο ανώτερων αξιωματούχων με ηθοποιούς.",
+     "en": "Few women of Byzantium have provoked such strong reactions as Theodora. She was born at the beginning of the sixth century, the daughter of an animal-keeper at the Hippodrome, and in her youth she appeared on stage as an actress, a profession then considered disreputable. For Justinian to marry her, the law forbidding high officials to marry actresses had to be changed."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Η πιο γνωστή στιγμή της είναι η Στάση του Νίκα, το 532. Η πόλη φλεγόταν, οι στασιαστές είχαν ανακηρύξει νέο αυτοκράτορα, και ο Ιουστινιανός σκεφτόταν να εγκαταλείψει την πρωτεύουσα. Σύμφωνα με τον ιστορικό Προκόπιο, η Θεοδώρα τότε μίλησε στο συμβούλιο και είπε ότι δεν θα έφευγε, γιατί «η βασιλεία είναι καλό σάβανο». Ο Ιουστινιανός έμεινε, και η στάση καταπνίγηκε με αιματηρό τρόπο.",
+     "en": "Her best-known moment is the Nika riot, in 532. The city was burning, the rioters had proclaimed a new emperor, and Justinian was thinking of abandoning the capital. According to the historian Procopius, Theodora then spoke to the council and said she would not leave, because 'royalty is a good burial shroud'. Justinian stayed, and the riot was crushed in a bloody way."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Πρέπει όμως να είμαστε προσεκτικοί με τις πηγές μας. Ο ίδιος Προκόπιος, που στα επίσημα έργα του την επαινεί, έγραψε και τα «Απόκρυφα», ένα κείμενο γεμάτο μίσος, όπου την παρουσιάζει ως διεφθαρμένη και σκληρή. Πολλά από όσα «ξέρουμε» για τη Θεοδώρα προέρχονται από αυτό το εμπαθές κείμενο.",
+     "en": "We must, however, be careful with our sources. The same Procopius who praises her in his official works also wrote the 'Secret History', a text full of hatred, in which he presents her as depraved and cruel. Much of what we 'know' about Theodora comes from this biased text."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Αυτό που μπορούμε να πούμε με κάποια βεβαιότητα είναι ότι άσκησε πραγματική πολιτική επιρροή και ότι συνδέθηκε με νόμους που βελτίωσαν τη θέση των γυναικών, για παράδειγμα στα κληρονομικά δικαιώματα και στην προστασία από την εκμετάλλευση. Για μια γυναίκα που ξεκίνησε από το περιθώριο, η διαδρομή της παραμένει εντυπωσιακή.",
+     "en": "What we can say with some certainty is that she exercised real political influence and that she was associated with laws that improved the position of women, for example in inheritance rights and protection from exploitation. For a woman who started out on the margins, her path remains remarkable."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί χρειάστηκε να αλλάξει ένας νόμος για τον γάμο της Θεοδώρας;",
+     "options": [
+      "Γιατί ήταν ξένη",
+      "Γιατί ήταν πολύ νέα",
+      "Γιατί ο Ιουστινιανός ήταν ήδη παντρεμένος",
+      "Γιατί ο νόμος απαγόρευε τον γάμο ανώτερων αξιωματούχων με ηθοποιούς"
+     ],
+     "answer": "Γιατί ο νόμος απαγόρευε τον γάμο ανώτερων αξιωματούχων με ηθοποιούς",
+     "why": "χρειάστηκε να αλλάξει ο νόμος που απαγόρευε τον γάμο ανώτερων αξιωματούχων με ηθοποιούς"
+    },
+    {
+     "q": "Τι έκανε η Θεοδώρα κατά τη Στάση του Νίκα, σύμφωνα με τον Προκόπιο;",
+     "options": [
+      "Έφυγε κρυφά από την πόλη",
+      "Αρνήθηκε να φύγει και έπεισε τον Ιουστινιανό να μείνει",
+      "Διαπραγματεύτηκε με τους στασιαστές",
+      "Ανακήρυξε τον εαυτό της αυτοκράτειρα"
+     ],
+     "answer": "Αρνήθηκε να φύγει και έπεισε τον Ιουστινιανό να μείνει",
+     "why": "είπε ότι δεν θα έφευγε, γιατί «η βασιλεία είναι καλό σάβανο». Ο Ιουστινιανός έμεινε"
+    },
+    {
+     "q": "Γιατί ο ομιλητής ζητά προσοχή με τις πηγές;",
+     "options": [
+      "Γιατί δεν σώζεται κανένα κείμενο της εποχής",
+      "Γιατί πολλά από όσα ξέρουμε προέρχονται από ένα εμπαθές κείμενο του Προκόπιου",
+      "Γιατί οι πηγές είναι γραμμένες στα λατινικά",
+      "Γιατί η Θεοδώρα κατέστρεψε τα αρχεία"
+     ],
+     "answer": "Γιατί πολλά από όσα ξέρουμε προέρχονται από ένα εμπαθές κείμενο του Προκόπιου",
+     "why": "Πολλά από όσα «ξέρουμε» για τη Θεοδώρα προέρχονται από αυτό το εμπαθές κείμενο"
+    },
+    {
+     "q": "Τι μπορούμε να πούμε με κάποια βεβαιότητα για τη Θεοδώρα;",
+     "options": [
+      "Ότι δεν είχε καμία πολιτική επιρροή",
+      "Ότι άσκησε πολιτική επιρροή και συνδέθηκε με νόμους υπέρ των γυναικών",
+      "Ότι έγραψε η ίδια τα «Απόκρυφα»",
+      "Ότι ήταν η πρώτη γυναίκα αυτοκράτωρ που κυβέρνησε μόνη"
+     ],
+     "answer": "Ότι άσκησε πολιτική επιρροή και συνδέθηκε με νόμους υπέρ των γυναικών",
+     "why": "άσκησε πραγματική πολιτική επιρροή και ότι συνδέθηκε με νόμους που βελτίωσαν τη θέση των γυναικών"
+    }
+   ],
+   "gloss": {
+    "αυτοκράτειρα": "αυτοκράτειρα — empress",
+    "θηριοδαμαστή": "θηριοδαμαστής — animal-keeper, tamer",
+    "ανάξιο": "ανάξιος — unworthy, disreputable",
+    "αξιωματούχων": "αξιωματούχος — official",
+    "Στάση": "στάση — riot, uprising",
+    "φλεγόταν": "φλέγομαι — to be ablaze",
+    "στασιαστές": "στασιαστής — rioter, rebel",
+    "είχαν ανακηρύξει": "ανακηρύσσω — to proclaim",
+    "σάβανο": "σάβανο — burial shroud",
+    "καταπνίγηκε": "καταπνίγομαι — to be crushed, suppressed",
+    "Απόκρυφα": "«Απόκρυφα» — Procopius's Secret History",
+    "διεφθαρμένη": "διεφθαρμένος — corrupt, depraved",
+    "εμπαθές": "εμπαθής — biased, spiteful",
+    "κληρονομικά": "κληρονομικός — hereditary, of inheritance",
+    "εκμετάλλευση": "εκμετάλλευση — exploitation",
+    "περιθώριο": "περιθώριο — margins (of society)"
+   }
+  },
+  {
+   "id": "l30-int-placebo",
+   "title": "Η δύναμη του εικονικού φαρμάκου",
+   "title_en": "The power of the placebo",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με μια ερευνήτρια για το φαινόμενο του εικονικού φαρμάκου.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι ακριβώς είναι το φαινόμενο του εικονικού φαρμάκου;",
+     "en": "What exactly is the placebo effect?"
+    },
+    {
+     "speaker": "Ερευνήτρια",
+     "voice": "f",
+     "el": "Είναι η βελτίωση που νιώθει ένας ασθενής όταν παίρνει μια θεραπεία χωρίς δραστική ουσία, για παράδειγμα ένα χάπι ζάχαρης, πιστεύοντας ότι είναι πραγματικό φάρμακο. Δεν πρόκειται για φαντασία: σε ορισμένες περιπτώσεις μπορούμε να μετρήσουμε αλλαγές στον εγκέφαλο, όπως την απελευθέρωση ουσιών που μειώνουν τον πόνο. Γι' αυτό κάθε νέο φάρμακο πρέπει να αποδείξει ότι είναι αποτελεσματικότερο από ένα εικονικό.",
+     "en": "It's the improvement a patient feels when taking a treatment with no active substance, for example a sugar pill, believing it to be a real medicine. It isn't imagination: in some cases we can measure changes in the brain, such as the release of substances that reduce pain. That's why every new drug has to prove it's more effective than a placebo."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Λειτουργεί για όλες τις παθήσεις;",
+     "en": "Does it work for all conditions?"
+    },
+    {
+     "speaker": "Ερευνήτρια",
+     "voice": "f",
+     "el": "Όχι. Δεν θεραπεύει λοιμώξεις ούτε μικραίνει όγκους. Είναι ισχυρότερο σε συμπτώματα που επηρεάζονται από τον εγκέφαλο, όπως ο πόνος, η ναυτία ή η κόπωση. Και ενδιαφέρον έχει ότι το τελετουργικό μετράει: οι ενέσεις λειτουργούν συχνά καλύτερα από τα χάπια, και τα ακριβά χάπια καλύτερα από τα φθηνά.",
+     "en": "No. It doesn't cure infections or shrink tumours. It's stronger for symptoms influenced by the brain, such as pain, nausea or fatigue. And, interestingly, the ritual matters: injections often work better than pills, and expensive pills better than cheap ones."
+    },
+    {
+     "speaker": "Ερευνήτρια",
+     "voice": "f",
+     "el": "Το πιο παράδοξο εύρημα των τελευταίων χρόνων είναι ότι το φαινόμενο εμφανίζεται, σε κάποιο βαθμό, ακόμη και όταν οι ασθενείς ξέρουν ότι παίρνουν εικονικό φάρμακο. Υπάρχει όμως και η σκοτεινή πλευρά, το λεγόμενο φαινόμενο nocebo: όταν περιμένουμε παρενέργειες, συχνά τις νιώθουμε, ακόμη κι αν το χάπι δεν περιέχει τίποτα.",
+     "en": "The most paradoxical finding of recent years is that the effect appears, to some extent, even when patients know they're taking a placebo. But there's also a dark side, the so-called nocebo effect: when we expect side effects, we often feel them, even if the pill contains nothing."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί, κατά την ερευνήτρια, το φαινόμενο δεν είναι απλή φαντασία;",
+     "options": [
+      "Γιατί εμφανίζεται μόνο σε παιδιά",
+      "Γιατί το πιστεύουν οι γιατροί",
+      "Γιατί μερικές φορές μετριούνται αλλαγές στον εγκέφαλο",
+      "Γιατί τα χάπια ζάχαρης έχουν θρεπτική αξία"
+     ],
+     "answer": "Γιατί μερικές φορές μετριούνται αλλαγές στον εγκέφαλο",
+     "why": "σε ορισμένες περιπτώσεις μπορούμε να μετρήσουμε αλλαγές στον εγκέφαλο"
+    },
+    {
+     "q": "Σε ποια συμπτώματα είναι ισχυρότερο το φαινόμενο;",
+     "options": [
+      "Στις λοιμώξεις",
+      "Στους όγκους",
+      "Στα κατάγματα",
+      "Στον πόνο, τη ναυτία και την κόπωση"
+     ],
+     "answer": "Στον πόνο, τη ναυτία και την κόπωση",
+     "why": "Είναι ισχυρότερο σε συμπτώματα που επηρεάζονται από τον εγκέφαλο, όπως ο πόνος, η ναυτία ή η κόπωση"
+    },
+    {
+     "q": "Τι δείχνει το παράδειγμα των ενέσεων και των ακριβών χαπιών;",
+     "options": [
+      "Ότι το τελετουργικό της θεραπείας επηρεάζει το αποτέλεσμα",
+      "Ότι τα φθηνά χάπια είναι επικίνδυνα",
+      "Ότι οι ασθενείς προτιμούν τις ενέσεις",
+      "Ότι τα ακριβά φάρμακα είναι πάντα καλύτερα"
+     ],
+     "answer": "Ότι το τελετουργικό της θεραπείας επηρεάζει το αποτέλεσμα",
+     "why": "το τελετουργικό μετράει"
+    },
+    {
+     "q": "Τι είναι το φαινόμενο nocebo;",
+     "options": [
+      "Όταν ένα φάρμακο δεν δουλεύει καθόλου",
+      "Όταν ο ασθενής ξέρει ότι παίρνει εικονικό φάρμακο",
+      "Όταν περιμένουμε παρενέργειες και τις νιώθουμε, ακόμη κι αν το χάπι δεν περιέχει τίποτα",
+      "Η θεραπεία χωρίς φάρμακα"
+     ],
+     "answer": "Όταν περιμένουμε παρενέργειες και τις νιώθουμε, ακόμη κι αν το χάπι δεν περιέχει τίποτα",
+     "why": "όταν περιμένουμε παρενέργειες, συχνά τις νιώθουμε, ακόμη κι αν το χάπι δεν περιέχει τίποτα"
+    }
+   ],
+   "gloss": {
+    "εικονικού φαρμάκου": "εικονικό φάρμακο — placebo",
+    "ερευνήτρια": "ερευνήτρια — (female) researcher",
+    "δραστική ουσία": "δραστική ουσία — active substance",
+    "χάπι": "χάπι — pill",
+    "απελευθέρωση": "απελευθέρωση — release",
+    "αποτελεσματικότερο": "αποτελεσματικός — effective",
+    "λοιμώξεις": "λοίμωξη — infection",
+    "όγκους": "όγκος — tumour",
+    "ναυτία": "ναυτία — nausea",
+    "κόπωση": "κόπωση — fatigue",
+    "τελετουργικό": "τελετουργικό — ritual",
+    "ενέσεις": "ένεση — injection",
+    "εύρημα": "εύρημα — finding",
+    "παρενέργειες": "παρενέργεια — side effect"
+   }
+  }
+ ]
+}
