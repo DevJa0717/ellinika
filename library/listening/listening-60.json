@@ -1,0 +1,858 @@
+{
+ "items": [
+  {
+   "id": "l60-ann-diodia",
+   "title": "Ηλεκτρονικά διόδια στον αυτοκινητόδρομο",
+   "title_en": "Electronic tolls on the motorway",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Οδηγείτε σε έναν αυτοκινητόδρομο και ακούτε τον ραδιοφωνικό σταθμό της εταιρείας που τον διαχειρίζεται.",
+   "script": [
+    {
+     "speaker": "Ανακοίνωση",
+     "voice": "m",
+     "el": "Αγαπητοί οδηγοί, σας ενημερώνουμε ότι από την πρώτη του επόμενου μήνα στους σταθμούς διοδίων της Ελευσίνας και της Κορίνθου θα λειτουργούν μόνο ηλεκτρονικές λωρίδες για τα αυτοκίνητα που διαθέτουν πομποδέκτη. Οι λωρίδες αυτές σημαίνονται με πράσινο χρώμα και το σύμβολο του πομποδέκτη.",
+     "en": "Dear drivers, we inform you that from the first of next month, at the Elefsina and Corinth toll stations, there will be electronic-only lanes for cars that have a transponder. These lanes are marked in green with the transponder symbol."
+    },
+    {
+     "speaker": "Ανακοίνωση",
+     "voice": "m",
+     "el": "Όσοι δεν έχουν πομποδέκτη θα συνεχίσουν να πληρώνουν με μετρητά ή με κάρτα στις υπόλοιπες λωρίδες. Παρακαλούμε να επιλέγετε έγκαιρα τη σωστή λωρίδα και να μην αλλάζετε απότομα πορεία λίγο πριν από τον σταθμό.",
+     "en": "Those without a transponder will continue to pay in cash or by card in the other lanes. Please choose the right lane in good time and do not change course abruptly just before the station."
+    },
+    {
+     "speaker": "Ανακοίνωση",
+     "voice": "m",
+     "el": "Για τον επόμενο μήνα, όσοι αποκτήσουν πομποδέκτη από τα σημεία εξυπηρέτησης της εταιρείας θα έχουν δέκα τοις εκατό έκπτωση σε όλες τις διελεύσεις. Καλό ταξίδι.",
+     "en": "For the next month, anyone who gets a transponder from the company's service points will have ten per cent off all passages. Have a good journey."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιοι μπορούν να χρησιμοποιούν τις πράσινες λωρίδες;",
+     "options": [
+      "Όσοι πληρώνουν με κάρτα",
+      "Όλα τα αυτοκίνητα",
+      "Μόνο τα αυτοκίνητα με πομποδέκτη",
+      "Μόνο τα φορτηγά"
+     ],
+     "answer": "Μόνο τα αυτοκίνητα με πομποδέκτη",
+     "why": "μόνο ηλεκτρονικές λωρίδες για τα αυτοκίνητα που διαθέτουν πομποδέκτη"
+    },
+    {
+     "q": "Τι ζητούν από τους οδηγούς;",
+     "options": [
+      "Να ανάβουν τα φώτα",
+      "Να επιλέγουν έγκαιρα τη σωστή λωρίδα",
+      "Να μειώσουν την ταχύτητα στο μισό",
+      "Να έχουν μαζί τους μετρητά"
+     ],
+     "answer": "Να επιλέγουν έγκαιρα τη σωστή λωρίδα",
+     "why": "να επιλέγετε έγκαιρα τη σωστή λωρίδα και να μην αλλάζετε απότομα πορεία"
+    },
+    {
+     "q": "Ποια προσφορά ανακοινώνεται;",
+     "options": [
+      "Δωρεάν πομποδέκτης",
+      "Δωρεάν διελεύσεις για έναν μήνα",
+      "Δέκα τοις εκατό έκπτωση για όσους αποκτήσουν πομποδέκτη",
+      "Έκπτωση για πληρωμές με μετρητά"
+     ],
+     "answer": "Δέκα τοις εκατό έκπτωση για όσους αποκτήσουν πομποδέκτη",
+     "why": "θα έχουν δέκα τοις εκατό έκπτωση σε όλες τις διελεύσεις"
+    }
+   ],
+   "gloss": {
+    "διοδίων": "διόδια — tolls",
+    "λωρίδες": "λωρίδα — lane",
+    "πομποδέκτη": "πομποδέκτης — transponder",
+    "σημαίνονται": "σημαίνομαι — to be marked",
+    "μετρητά": "μετρητά — cash",
+    "έγκαιρα": "έγκαιρα — in good time",
+    "πορεία": "πορεία — course, direction",
+    "διελεύσεις": "διέλευση — passage"
+   }
+  },
+  {
+   "id": "l60-vm-ktimatologio",
+   "title": "Μήνυμα από το Κτηματολόγιο",
+   "title_en": "A message from the Land Registry",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Έχετε δηλώσει ένα χωράφι που κληρονομήσατε στο Κτηματολόγιο. Θα ακούσετε ένα μήνυμα από μια υπάλληλο στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλησπέρα σας, κύριε Αργυρόπουλε, σας τηλεφωνώ από το γραφείο Κτηματολογίου της Τρίπολης, σχετικά με τη δήλωση που κάνατε για το χωράφι στη Βυτίνα. Ελέγξαμε τα έγγραφα και διαπιστώσαμε ότι λείπει το τοπογραφικό διάγραμμα, χωρίς το οποίο δεν μπορούμε να καταχωρίσουμε τα όρια του ακινήτου.",
+     "en": "Good afternoon, Mr Argyropoulos, I'm calling from the Land Registry office in Tripoli about the declaration you made for the field in Vytina. We checked the documents and found that the topographical plan is missing, without which we can't register the boundaries of the property."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Επίσης, στο συμβόλαιο αποδοχής κληρονομιάς η έκταση αναγράφεται τέσσερα στρέμματα, ενώ στους χάρτες μας εμφανίζεται κάτι λιγότερο από τρία. Θα χρειαστεί να το διευκρινίσουμε, ίσως με τη βοήθεια ενός μηχανικού.",
+     "en": "Also, in the deed of acceptance of inheritance the area is given as four stremmata, while on our maps it appears as a little under three. We'll need to clarify this, perhaps with the help of an engineer."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Μπορείτε να στείλετε το διάγραμμα ηλεκτρονικά, μέσα από την πλατφόρμα, μέχρι το τέλος του μήνα. Για ό,τι χρειαστείτε, είμαι στο γραφείο κάθε πρωί. Ευχαριστώ.",
+     "en": "You can send the plan electronically, through the platform, by the end of the month. For anything you need, I'm in the office every morning. Thank you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο έγγραφο λείπει;",
+     "options": [
+      "Το τοπογραφικό διάγραμμα",
+      "Η φορολογική δήλωση",
+      "Το συμβόλαιο",
+      "Η ταυτότητα"
+     ],
+     "answer": "Το τοπογραφικό διάγραμμα",
+     "why": "λείπει το τοπογραφικό διάγραμμα"
+    },
+    {
+     "q": "Ποιο πρόβλημα υπάρχει με την έκταση του χωραφιού;",
+     "options": [
+      "Δεν υπάρχει στους χάρτες",
+      "Ανήκει σε άλλον ιδιοκτήτη",
+      "Είναι δασική έκταση",
+      "Στο συμβόλαιο αναγράφεται μεγαλύτερη έκταση από ό,τι στους χάρτες"
+     ],
+     "answer": "Στο συμβόλαιο αναγράφεται μεγαλύτερη έκταση από ό,τι στους χάρτες",
+     "why": "στο συμβόλαιο ... η έκταση αναγράφεται τέσσερα στρέμματα, ενώ στους χάρτες μας εμφανίζεται κάτι λιγότερο από τρία"
+    },
+    {
+     "q": "Πώς μπορεί να στείλει το διάγραμμα;",
+     "options": [
+      "Πρέπει να το φέρει αυτοπροσώπως",
+      "Μόνο με το ταχυδρομείο",
+      "Με φαξ",
+      "Ηλεκτρονικά, μέσα από την πλατφόρμα"
+     ],
+     "answer": "Ηλεκτρονικά, μέσα από την πλατφόρμα",
+     "why": "Μπορείτε να στείλετε το διάγραμμα ηλεκτρονικά, μέσα από την πλατφόρμα"
+    }
+   ],
+   "gloss": {
+    "Κτηματολογίου": "Κτηματολόγιο — Land Registry",
+    "χωράφι": "χωράφι — field",
+    "τοπογραφικό διάγραμμα": "τοπογραφικό διάγραμμα — topographical plan",
+    "καταχωρίσουμε": "καταχωρίζω — to register, enter",
+    "όρια": "όριο — boundary",
+    "ακινήτου": "ακίνητο — property",
+    "αποδοχής κληρονομιάς": "αποδοχή κληρονομιάς — acceptance of an inheritance",
+    "στρέμματα": "στρέμμα — stremma (1,000 m²)",
+    "διευκρινίσουμε": "διευκρινίζω — to clarify"
+   }
+  },
+  {
+   "id": "l60-dia-ofthalmiatros",
+   "title": "Στον οφθαλμίατρο",
+   "title_en": "At the eye doctor's",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Μια γυναίκα επισκέπτεται έναν οφθαλμίατρο γιατί δεν βλέπει καλά. Θα ακούσετε τη συζήτησή τους.",
+   "script": [
+    {
+     "speaker": "Ασθενής",
+     "voice": "f",
+     "el": "Γιατρέ μου, τους τελευταίους μήνες δυσκολεύομαι να διαβάσω τα μικρά γράμματα, ιδίως το βράδυ. Κρατάω το κινητό όλο και πιο μακριά από τα μάτια μου.",
+     "en": "Doctor, in recent months I've had trouble reading small print, especially in the evening. I hold my phone further and further from my eyes."
+    },
+    {
+     "speaker": "Οφθαλμίατρος",
+     "voice": "m",
+     "el": "Πόσων χρονών είστε, αν επιτρέπεται; Σαράντα πέντε; Τότε είναι μάλλον πρεσβυωπία, κάτι απολύτως φυσιολογικό σε αυτή την ηλικία. Ο φακός του ματιού χάνει σιγά σιγά την ελαστικότητά του και δυσκολεύεται να εστιάσει από κοντά. Ας κάνουμε όμως πρώτα έναν πλήρη έλεγχο.",
+     "en": "How old are you, if I may ask? Forty-five? Then it's probably presbyopia, something completely normal at this age. The lens of the eye gradually loses its elasticity and finds it hard to focus close up. But let's first do a full check-up."
+    },
+    {
+     "speaker": "Ασθενής",
+     "voice": "f",
+     "el": "Δηλαδή θα χρειαστώ γυαλιά; Δεν έχω φορέσει ποτέ στη ζωή μου.",
+     "en": "So I'll need glasses? I've never worn any in my life."
+    },
+    {
+     "speaker": "Οφθαλμίατρος",
+     "voice": "m",
+     "el": "Πιθανότατα γυαλιά για κοντινή απόσταση, μόνο για το διάβασμα. Θα σας βάλω και σταγόνες για να διαστείλω την κόρη, ώστε να εξετάσω τον βυθό του ματιού. Για δυο τρεις ώρες θα βλέπετε θολά και θα σας ενοχλεί το φως, οπότε μην οδηγήσετε μετά.",
+     "en": "Most likely glasses for close range, just for reading. I'll also put in drops to dilate the pupil, so I can examine the back of the eye. For two or three hours you'll see blurred and light will bother you, so don't drive afterwards."
+    },
+    {
+     "speaker": "Ασθενής",
+     "voice": "f",
+     "el": "Ευτυχώς ήρθα με το μετρό. Και πρέπει να ξαναέρθω;",
+     "en": "Luckily I came by metro. And do I have to come back?"
+    },
+    {
+     "speaker": "Οφθαλμίατρος",
+     "voice": "m",
+     "el": "Από εδώ και πέρα, ένας έλεγχος τον χρόνο είναι αρκετός. Μετά τα σαράντα, καλό είναι να μετράμε και την πίεση του ματιού, για να προλάβουμε το γλαύκωμα.",
+     "en": "From now on, one check-up a year is enough. After forty, it's good to measure the eye pressure too, to catch glaucoma early."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πρόβλημα έχει η ασθενής;",
+     "options": [
+      "Δυσκολεύεται να διαβάσει τα μικρά γράμματα",
+      "Βλέπει θολά από μακριά",
+      "Την πονάνε τα μάτια",
+      "Βλέπει διπλά"
+     ],
+     "answer": "Δυσκολεύεται να διαβάσει τα μικρά γράμματα",
+     "why": "δυσκολεύομαι να διαβάσω τα μικρά γράμματα, ιδίως το βράδυ"
+    },
+    {
+     "q": "Γιατί δεν πρέπει να οδηγήσει μετά την εξέταση;",
+     "options": [
+      "Γιατί θα φοράει καινούργια γυαλιά",
+      "Γιατί θα κουραστεί",
+      "Γιατί θα πάρει φάρμακο",
+      "Γιατί οι σταγόνες θα την κάνουν να βλέπει θολά"
+     ],
+     "answer": "Γιατί οι σταγόνες θα την κάνουν να βλέπει θολά",
+     "why": "θα βλέπετε θολά και θα σας ενοχλεί το φως, οπότε μην οδηγήσετε μετά"
+    },
+    {
+     "q": "Γιατί είναι καλό να μετράει την πίεση του ματιού;",
+     "options": [
+      "Για να αλλάξει γυαλιά",
+      "Για να κοιμάται καλύτερα",
+      "Για να μη χρειαστεί επέμβαση",
+      "Για να προλάβει το γλαύκωμα"
+     ],
+     "answer": "Για να προλάβει το γλαύκωμα",
+     "why": "για να προλάβουμε το γλαύκωμα"
+    }
+   ],
+   "gloss": {
+    "οφθαλμίατρο": "οφθαλμίατρος — eye doctor",
+    "πρεσβυωπία": "πρεσβυωπία — presbyopia, long-sightedness with age",
+    "ελαστικότητά": "ελαστικότητα — elasticity",
+    "εστιάσει": "εστιάζω — to focus",
+    "σταγόνες": "σταγόνα — drop",
+    "διαστείλω": "διαστέλλω — to dilate",
+    "κόρη": "κόρη (του ματιού) — pupil",
+    "βυθό": "βυθός (του ματιού) — back of the eye",
+    "θολά": "θολά — blurred",
+    "γλαύκωμα": "γλαύκωμα — glaucoma"
+   }
+  },
+  {
+   "id": "l60-dia-forema",
+   "title": "Ένα φόρεμα για τον γάμο",
+   "title_en": "A dress for the wedding",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Μια νεαρή γυναίκα θέλει να νοικιάσει ένα φόρεμα για έναν γάμο. Θα ακούσετε τη συζήτησή της με την υπάλληλο ενός καταστήματος ενοικίασης ρούχων.",
+   "script": [
+    {
+     "speaker": "Ιφιγένεια",
+     "voice": "f",
+     "el": "Καλημέρα. Είμαι καλεσμένη σε έναν γάμο τον άλλο μήνα και δεν θέλω να αγοράσω ακριβό φόρεμα που θα φορέσω μία φορά. Μια φίλη μου είπε ότι εδώ νοικιάζετε.",
+     "en": "Good morning. I'm invited to a wedding next month and I don't want to buy an expensive dress I'll wear once. A friend told me you rent here."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Ακριβώς. Έχουμε φορέματα σχεδιαστών σε ένα μικρό κλάσμα της τιμής τους. Η ενοικίαση κρατάει τέσσερις μέρες και περιλαμβάνει το στεγνό καθάρισμα. Ο γάμος είναι πρωινός ή βραδινός;",
+     "en": "Exactly. We have designer dresses at a small fraction of their price. The rental lasts four days and includes dry cleaning. Is the wedding in the morning or the evening?"
+    },
+    {
+     "speaker": "Ιφιγένεια",
+     "voice": "f",
+     "el": "Βραδινός, σε ένα κτήμα έξω από τη Θεσσαλονίκη. Και η νύφη μάς παρακάλεσε να μη φορέσουμε λευκό ούτε μαύρο.",
+     "en": "Evening, at an estate outside Thessaloniki. And the bride asked us not to wear white or black."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Τότε σας προτείνω αυτό το σμαραγδί μακρύ, ή το μπορντό με την ανοιχτή πλάτη. Αν χρειαστεί μικρή μεταποίηση, π.χ. στο μήκος, την κάνουμε εμείς χωρίς επιβάρυνση.",
+     "en": "Then I'd suggest this long emerald one, or the burgundy with the open back. If a small alteration is needed, for example to the length, we do it ourselves at no extra charge."
+    },
+    {
+     "speaker": "Ιφιγένεια",
+     "voice": "f",
+     "el": "Το σμαραγδί μού αρέσει πολύ. Τι γίνεται αν πάθει κάποια ζημιά; Αν χυθεί κρασί, ας πούμε;",
+     "en": "I really like the emerald one. What happens if it gets damaged? If wine is spilled, say?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Οι μικροί λεκέδες καλύπτονται από την ασφάλεια που περιλαμβάνεται στην τιμή. Για σκισίματα ή μεγάλες ζημιές, κρατάμε μέρος της εγγύησης. Μπορείτε να το δοκιμάσετε τώρα και να το κλείσουμε για τις ημερομηνίες σας.",
+     "en": "Small stains are covered by the insurance included in the price. For tears or major damage, we keep part of the deposit. You can try it on now and we'll book it for your dates."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θέλει η Ιφιγένεια να νοικιάσει φόρεμα;",
+     "options": [
+      "Γιατί δεν θέλει να αγοράσει ακριβό φόρεμα για μία φορά",
+      "Γιατί είναι της μόδας",
+      "Γιατί δεν βρίσκει το νούμερό της",
+      "Γιατί της το ζήτησε η νύφη"
+     ],
+     "answer": "Γιατί δεν θέλει να αγοράσει ακριβό φόρεμα για μία φορά",
+     "why": "δεν θέλω να αγοράσω ακριβό φόρεμα που θα φορέσω μία φορά"
+    },
+    {
+     "q": "Τι ζήτησε η νύφη από τις καλεσμένες;",
+     "options": [
+      "Να φορέσουν πράσινο",
+      "Να φορέσουν μακριά φορέματα",
+      "Να έρθουν νωρίς",
+      "Να μη φορέσουν λευκό ούτε μαύρο"
+     ],
+     "answer": "Να μη φορέσουν λευκό ούτε μαύρο",
+     "why": "η νύφη μάς παρακάλεσε να μη φορέσουμε λευκό ούτε μαύρο"
+    },
+    {
+     "q": "Τι γίνεται αν το φόρεμα λερωθεί λίγο;",
+     "options": [
+      "Οι μικροί λεκέδες καλύπτονται από την ασφάλεια",
+      "Χάνει όλη την εγγύηση",
+      "Πληρώνει ολόκληρη την τιμή",
+      "Πρέπει να το καθαρίσει η ίδια"
+     ],
+     "answer": "Οι μικροί λεκέδες καλύπτονται από την ασφάλεια",
+     "why": "καλύπτονται από την ασφάλεια που περιλαμβάνεται στην τιμή"
+    }
+   ],
+   "gloss": {
+    "καλεσμένη": "καλεσμένος — invited, guest",
+    "σχεδιαστών": "σχεδιαστής — designer",
+    "κλάσμα": "κλάσμα — fraction",
+    "στεγνό καθάρισμα": "στεγνό καθάρισμα — dry cleaning",
+    "κτήμα": "κτήμα — estate",
+    "σμαραγδί": "σμαραγδί — emerald green",
+    "μπορντό": "μπορντό — burgundy",
+    "μεταποίηση": "μεταποίηση — alteration",
+    "επιβάρυνση": "επιβάρυνση — extra charge",
+    "σκισίματα": "σκίσιμο — tear"
+   }
+  },
+  {
+   "id": "l60-int-koudounas",
+   "title": "Ο τεχνίτης των κουδουνιών",
+   "title_en": "The bell maker",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Σε μια εκπομπή για τα παραδοσιακά επαγγέλματα, η δημοσιογράφος μιλά με έναν τεχνίτη που φτιάχνει κουδούνια για ζώα σε ένα χωριό της Ηπείρου.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κύριε Βαγγέλη, για ποιον φτιάχνετε σήμερα κουδούνια;",
+     "en": "Mr Vangelis, who do you make bells for today?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Κυρίως για κτηνοτρόφους, που τα κρεμάνε στα πρόβατα και στις κατσίκες. Ο βοσκός αναγνωρίζει από τον ήχο πού βρίσκεται το κοπάδι του, ακόμη κι όταν δεν το βλέπει μέσα στην ομίχλη. Κάθε κουδούνι έχει τη δική του φωνή, και ένα καλό κοπάδι ακούγεται σαν ορχήστρα.",
+     "en": "Mainly for herders, who hang them on sheep and goats. The shepherd recognises from the sound where his flock is, even when he can't see it in the fog. Every bell has its own voice, and a good flock sounds like an orchestra."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και πώς δίνετε σε κάθε κουδούνι τη φωνή του;",
+     "en": "And how do you give each bell its voice?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Με το σφυρί και με το αυτί. Κόβω τη λαμαρίνα, τη διπλώνω, και μετά τη χτυπάω ξανά και ξανά, ώσπου να βγάλει τον ήχο που θέλω. Στο τέλος τη βάφω με μπρούντζο και την ψήνω στο καμίνι. Αυτό το μυστικό μού το έμαθε ο πατέρας μου, κι εκείνος από τον δικό του.",
+     "en": "With the hammer and with the ear. I cut the sheet metal, fold it, and then strike it again and again until it gives the sound I want. At the end I coat it with brass and fire it in the kiln. My father taught me that secret, and he learned it from his."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Έχει μέλλον αυτή η τέχνη;",
+     "en": "Does this craft have a future?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Τα κοπάδια λιγοστεύουν, αλλά τώρα με βρίσκουν και άλλοι πελάτες: μουσικοί, που βάζουν τα κουδούνια στα έργα τους, και οι ομάδες που ντύνονται κουδουνάτοι στα καρναβάλια. Όσο υπάρχουν αυτοί, η φωνή του βουνού δεν θα σβήσει.",
+     "en": "Flocks are dwindling, but now other customers find me too: musicians, who put the bells in their works, and the groups who dress up as bell-wearers at carnivals. As long as they exist, the voice of the mountain won't die out."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί χρειάζονται τα κουδούνια οι βοσκοί;",
+     "options": [
+      "Για να διώχνουν τους λύκους",
+      "Για να ξυπνούν το πρωί",
+      "Για διακόσμηση",
+      "Για να αναγνωρίζουν από τον ήχο πού βρίσκεται το κοπάδι"
+     ],
+     "answer": "Για να αναγνωρίζουν από τον ήχο πού βρίσκεται το κοπάδι",
+     "why": "Ο βοσκός αναγνωρίζει από τον ήχο πού βρίσκεται το κοπάδι του"
+    },
+    {
+     "q": "Πώς δίνει ο τεχνίτης τον ήχο σε κάθε κουδούνι;",
+     "options": [
+      "Βάφοντάς το",
+      "Με ένα μηχάνημα",
+      "Αλλάζοντας το μέγεθός του",
+      "Χτυπώντας το με το σφυρί ώσπου να βγάλει τον ήχο που θέλει"
+     ],
+     "answer": "Χτυπώντας το με το σφυρί ώσπου να βγάλει τον ήχο που θέλει",
+     "why": "τη χτυπάω ξανά και ξανά, ώσπου να βγάλει τον ήχο που θέλω"
+    },
+    {
+     "q": "Ποιοι νέοι πελάτες τον βρίσκουν;",
+     "options": [
+      "Τουρίστες από το εξωτερικό",
+      "Μουσικοί και ομάδες κουδουνάτων στα καρναβάλια",
+      "Σχολεία",
+      "Ξενοδοχεία"
+     ],
+     "answer": "Μουσικοί και ομάδες κουδουνάτων στα καρναβάλια",
+     "why": "μουσικοί ... και οι ομάδες που ντύνονται κουδουνάτοι στα καρναβάλια"
+    }
+   ],
+   "gloss": {
+    "κουδούνια": "κουδούνι — bell",
+    "κτηνοτρόφους": "κτηνοτρόφος — livestock farmer, herder",
+    "κοπάδι": "κοπάδι — flock",
+    "ομίχλη": "ομίχλη — fog",
+    "σφυρί": "σφυρί — hammer",
+    "λαμαρίνα": "λαμαρίνα — sheet metal",
+    "καμίνι": "καμίνι — kiln, furnace",
+    "λιγοστεύουν": "λιγοστεύω — to dwindle",
+    "κουδουνάτοι": "κουδουνάτος — carnival bell-wearer"
+   }
+  },
+  {
+   "id": "l60-rep-tatoi",
+   "title": "Το κτήμα του Τατοΐου",
+   "title_en": "The Tatoi estate",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ραδιοφωνικό ρεπορτάζ από ένα ιστορικό κτήμα στις παρυφές της Αθήνας.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Βρισκόμαστε στο Τατόι, στους πρόποδες της Πάρνηθας, μόλις είκοσι πέντε χιλιόμετρα από το κέντρο της Αθήνας. Εδώ, για σχεδόν έναν αιώνα, βρισκόταν η θερινή κατοικία της βασιλικής οικογένειας. Το κτήμα, με τα δάση, τα ανάκτορα, τους στάβλους και το βασιλικό κοιμητήριο, περιήλθε οριστικά στο ελληνικό δημόσιο στις αρχές της δεκαετίας του 2000.",
+     "en": "We're at Tatoi, at the foot of Mount Parnitha, just twenty-five kilometres from the centre of Athens. Here, for almost a century, was the summer residence of the royal family. The estate, with its forests, palace, stables and royal cemetery, passed definitively to the Greek state in the early 2000s."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Για χρόνια το κτήμα έμεινε εγκαταλειμμένο. Τα κτίρια ερήμωσαν, και πολλά αντικείμενα κινδύνευαν από την υγρασία. Τα τελευταία χρόνια, όμως, ξεκίνησε ένα μεγάλο πρόγραμμα αποκατάστασης. Ορισμένα κτίρια έχουν ήδη αναπαλαιωθεί, και χιλιάδες αντικείμενα, από έπιπλα μέχρι άμαξες, καταγράφονται και συντηρούνται.",
+     "en": "For years the estate was left abandoned. The buildings fell into ruin and many objects were at risk from damp. In recent years, however, a large restoration programme has begun. Some buildings have already been restored, and thousands of objects, from furniture to carriages, are being catalogued and conserved."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Το πάρκο είναι ήδη ανοιχτό στο κοινό, και τα Σαββατοκύριακα γεμίζει οικογένειες που κάνουν περίπατο ή ποδήλατο ανάμεσα στα πεύκα. Ο στόχος είναι, όταν ολοκληρωθούν οι εργασίες, να λειτουργήσουν εδώ μουσεία και πολιτιστικοί χώροι, ώστε το Τατόι να γίνει ένας ζωντανός τόπος ιστορίας και πρασίνου.",
+     "en": "The park is already open to the public, and at weekends it fills with families walking or cycling among the pines. The aim is that, when the work is finished, museums and cultural spaces will operate here, so that Tatoi becomes a living place of history and greenery."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ήταν το Τατόι για σχεδόν έναν αιώνα;",
+     "options": [
+      "Στρατιωτική βάση",
+      "Ένα μοναστήρι",
+      "Η θερινή κατοικία της βασιλικής οικογένειας",
+      "Ένα αγρόκτημα του δήμου"
+     ],
+     "answer": "Η θερινή κατοικία της βασιλικής οικογένειας",
+     "why": "βρισκόταν η θερινή κατοικία της βασιλικής οικογένειας"
+    },
+    {
+     "q": "Τι γίνεται τα τελευταία χρόνια στο κτήμα;",
+     "options": [
+      "Ξεκίνησε ένα μεγάλο πρόγραμμα αποκατάστασης",
+      "Έκλεισε για το κοινό",
+      "Χτίστηκε ξενοδοχείο",
+      "Πουλήθηκε σε ιδιώτες"
+     ],
+     "answer": "Ξεκίνησε ένα μεγάλο πρόγραμμα αποκατάστασης",
+     "why": "ξεκίνησε ένα μεγάλο πρόγραμμα αποκατάστασης"
+    },
+    {
+     "q": "Ποιος είναι ο στόχος όταν ολοκληρωθούν οι εργασίες;",
+     "options": [
+      "Να λειτουργήσουν μουσεία και πολιτιστικοί χώροι",
+      "Να κοπούν τα πεύκα",
+      "Να γίνει γήπεδο γκολφ",
+      "Να γίνει κατοικία του προέδρου"
+     ],
+     "answer": "Να λειτουργήσουν μουσεία και πολιτιστικοί χώροι",
+     "why": "να λειτουργήσουν εδώ μουσεία και πολιτιστικοί χώροι"
+    }
+   ],
+   "gloss": {
+    "κτήμα": "κτήμα — estate",
+    "παρυφές": "παρυφές — outskirts",
+    "θερινή": "θερινός — summer",
+    "ανάκτορα": "ανάκτορο — palace",
+    "κοιμητήριο": "κοιμητήριο — cemetery",
+    "περιήλθε": "περιέρχομαι — to pass (to someone)",
+    "ερήμωσαν": "ερημώνω — to become deserted, fall into ruin",
+    "αναπαλαιωθεί": "αναπαλαιώνω — to restore (an old building)",
+    "άμαξες": "άμαξα — carriage"
+   }
+  },
+  {
+   "id": "l60-dia-katoikidio",
+   "title": "Ένας σκύλος στο διαμέρισμα",
+   "title_en": "A dog in the flat",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ένας νεαρός ενοικιαστής μιλά με τη διαχειρίστρια της πολυκατοικίας του, γιατί θέλει να υιοθετήσει έναν σκύλο. Θα ακούσετε τη συζήτησή τους.",
+   "script": [
+    {
+     "speaker": "Στέφανος",
+     "voice": "m",
+     "el": "Κυρία Λένα, καλημέρα. Θα ήθελα να σας ρωτήσω κάτι. Σκέφτομαι να υιοθετήσω ένα σκυλάκι από ένα φιλοζωικό σωματείο. Υπάρχει κάποιο πρόβλημα με τον κανονισμό της πολυκατοικίας;",
+     "en": "Mrs Lena, good morning. I'd like to ask you something. I'm thinking of adopting a little dog from an animal welfare society. Is there any problem with the building's rules?"
+    },
+    {
+     "speaker": "Διαχειρίστρια",
+     "voice": "f",
+     "el": "Καλημέρα, Στέφανε. Ο νόμος δεν επιτρέπει πια στον κανονισμό να απαγορεύει τα κατοικίδια στα διαμερίσματα, οπότε δεν μπορεί κανείς να σας εμποδίσει. Υπάρχουν όμως κάποιοι κανόνες καλής γειτονίας.",
+     "en": "Good morning, Stefanos. The law no longer allows building rules to ban pets in flats, so nobody can stop you. But there are some rules of good neighbourliness."
+    },
+    {
+     "speaker": "Στέφανος",
+     "voice": "m",
+     "el": "Φυσικά. Τι πρέπει να προσέξω;",
+     "en": "Of course. What should I be careful about?"
+    },
+    {
+     "speaker": "Διαχειρίστρια",
+     "voice": "f",
+     "el": "Πρώτον, στους κοινόχρηστους χώρους, στην είσοδο και στο ασανσέρ, ο σκύλος πρέπει να είναι πάντα με λουρί. Δεύτερον, το γάβγισμα. Ο κύριος Σπύρος στον δεύτερο δουλεύει νύχτα και κοιμάται τα πρωινά. Αν το σκυλάκι μένει μόνο του όλη μέρα και γαβγίζει, θα έχουμε παράπονα.",
+     "en": "First, in the common areas, the entrance and the lift, the dog must always be on a lead. Second, barking. Mr Spyros on the second floor works nights and sleeps in the mornings. If the dog stays alone all day and barks, we'll have complaints."
+    },
+    {
+     "speaker": "Στέφανος",
+     "voice": "m",
+     "el": "Δουλεύω από το σπίτι τις περισσότερες μέρες, οπότε δεν θα μένει πολύ μόνο του. Και θα το βγάζω βόλτα τρεις φορές τη μέρα.",
+     "en": "I work from home most days, so it won't be alone much. And I'll take it for a walk three times a day."
+    },
+    {
+     "speaker": "Διαχειρίστρια",
+     "voice": "f",
+     "el": "Τότε δεν βλέπω κανένα πρόβλημα. Α, και να μαζεύετε πάντα τις ακαθαρσίες στον δρόμο. Η κυρία Ρούλα στο ισόγειο έχει κάνει θέμα τα λουλούδια της!",
+     "en": "Then I don't see any problem. Oh, and always pick up the mess in the street. Mrs Roula on the ground floor has made an issue of her flowers!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Μπορεί ο κανονισμός της πολυκατοικίας να απαγορεύσει τον σκύλο;",
+     "options": [
+      "Ναι, μόνο για μεγάλους σκύλους",
+      "Όχι, ο νόμος δεν το επιτρέπει πια",
+      "Μόνο αν το ζητήσει η διαχειρίστρια",
+      "Ναι, αν το αποφασίσουν οι ένοικοι"
+     ],
+     "answer": "Όχι, ο νόμος δεν το επιτρέπει πια",
+     "why": "Ο νόμος δεν επιτρέπει πια στον κανονισμό να απαγορεύει τα κατοικίδια στα διαμερίσματα"
+    },
+    {
+     "q": "Γιατί ανησυχεί η διαχειρίστρια για το γάβγισμα;",
+     "options": [
+      "Γιατί υπάρχουν μωρά στην πολυκατοικία",
+      "Γιατί ο κύριος Σπύρος δουλεύει νύχτα και κοιμάται τα πρωινά",
+      "Γιατί οι τοίχοι είναι λεπτοί",
+      "Γιατί η κυρία Ρούλα φοβάται τα σκυλιά"
+     ],
+     "answer": "Γιατί ο κύριος Σπύρος δουλεύει νύχτα και κοιμάται τα πρωινά",
+     "why": "Ο κύριος Σπύρος στον δεύτερο δουλεύει νύχτα και κοιμάται τα πρωινά"
+    },
+    {
+     "q": "Γιατί ο Στέφανος πιστεύει ότι ο σκύλος δεν θα γαβγίζει πολύ;",
+     "options": [
+      "Γιατί δουλεύει από το σπίτι τις περισσότερες μέρες",
+      "Γιατί θα πάρει ήσυχη ράτσα",
+      "Γιατί θα τον εκπαιδεύσει",
+      "Γιατί θα μένει στο μπαλκόνι"
+     ],
+     "answer": "Γιατί δουλεύει από το σπίτι τις περισσότερες μέρες",
+     "why": "Δουλεύω από το σπίτι τις περισσότερες μέρες"
+    }
+   ],
+   "gloss": {
+    "υιοθετήσω": "υιοθετώ — to adopt",
+    "φιλοζωικό σωματείο": "φιλοζωικό σωματείο — animal welfare society",
+    "κανονισμό": "κανονισμός — rules, regulations",
+    "κατοικίδια": "κατοικίδιο — pet",
+    "κοινόχρηστους χώρους": "κοινόχρηστοι χώροι — common areas",
+    "λουρί": "λουρί — lead, leash",
+    "γάβγισμα": "γάβγισμα — barking",
+    "ακαθαρσίες": "ακαθαρσίες — mess, droppings"
+   }
+  },
+  {
+   "id": "l60-mono-rouxa",
+   "title": "Ένας χρόνος χωρίς καινούργια ρούχα",
+   "title_en": "A year without new clothes",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν άντρα να μιλά σε μια εκδήλωση για την κατανάλωση για ένα πείραμα που έκανε.",
+   "script": [
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Πριν από δύο χρόνια άνοιξα την ντουλάπα μου και μέτρησα τριάντα δύο μπλουζάκια. Τα μισά δεν τα είχα φορέσει ούτε μία φορά τον τελευταίο χρόνο. Τότε αποφάσισα να περάσω έναν ολόκληρο χρόνο χωρίς να αγοράσω κανένα καινούργιο ρούχο, εκτός από εσώρουχα και κάλτσες.",
+     "en": "Two years ago I opened my wardrobe and counted thirty-two T-shirts. Half of them I hadn't worn even once in the past year. Then I decided to spend a whole year without buying any new clothes, except underwear and socks."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Οι πρώτοι μήνες ήταν οι πιο δύσκολοι. Συνειδητοποίησα πόσο συχνά αγόραζα από βαρεμάρα ή για να φτιάξω τη διάθεσή μου. Όταν κάτι χαλούσε, έμαθα να το επιδιορθώνω: έραψα κουμπιά, μπάλωσα ένα τζιν, και πήγα για πρώτη φορά σε τσαγκάρη για να αλλάξω σόλες.",
+     "en": "The first months were the hardest. I realised how often I bought out of boredom or to cheer myself up. When something broke, I learned to repair it: I sewed buttons, patched a pair of jeans and went to a cobbler for the first time to have soles replaced."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Στο τέλος του χρόνου είχα εξοικονομήσει περίπου οχτακόσια ευρώ, αλλά το σημαντικότερο ήταν άλλο: σταμάτησα να ορίζω τον εαυτό μου από το τι φοράω. Κανείς, παρεμπιπτόντως, δεν πρόσεξε ότι φορούσα τα ίδια ρούχα. Οι άλλοι, τελικά, μας κοιτάζουν πολύ λιγότερο απ’ όσο νομίζουμε.",
+     "en": "At the end of the year I had saved about eight hundred euros, but the most important thing was something else: I stopped defining myself by what I wear. Nobody, incidentally, noticed that I wore the same clothes. Other people, in the end, look at us much less than we think."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι τον έκανε να ξεκινήσει το πείραμα;",
+     "options": [
+      "Μια συμβουλή φίλου",
+      "Ότι τα μισά μπλουζάκια του δεν τα είχε φορέσει τον τελευταίο χρόνο",
+      "Οικονομικά προβλήματα",
+      "Ένα ντοκιμαντέρ"
+     ],
+     "answer": "Ότι τα μισά μπλουζάκια του δεν τα είχε φορέσει τον τελευταίο χρόνο",
+     "why": "Τα μισά δεν τα είχα φορέσει ούτε μία φορά τον τελευταίο χρόνο"
+    },
+    {
+     "q": "Τι συνειδητοποίησε τους πρώτους μήνες;",
+     "options": [
+      "Ότι χρειαζόταν περισσότερα ρούχα",
+      "Ότι αγόραζε συχνά από βαρεμάρα ή για να φτιάξει τη διάθεσή του",
+      "Ότι δεν του άρεσαν τα ρούχα του",
+      "Ότι τα ρούχα του ήταν παλιά"
+     ],
+     "answer": "Ότι αγόραζε συχνά από βαρεμάρα ή για να φτιάξει τη διάθεσή του",
+     "why": "πόσο συχνά αγόραζα από βαρεμάρα ή για να φτιάξω τη διάθεσή μου"
+    },
+    {
+     "q": "Ποιο ήταν, κατά τον ομιλητή, το σημαντικότερο αποτέλεσμα;",
+     "options": [
+      "Ότι οι φίλοι του τον θαύμασαν",
+      "Ότι έμαθε να ράβει",
+      "Ότι σταμάτησε να ορίζει τον εαυτό του από τα ρούχα του",
+      "Τα χρήματα που εξοικονόμησε"
+     ],
+     "answer": "Ότι σταμάτησε να ορίζει τον εαυτό του από τα ρούχα του",
+     "why": "σταμάτησα να ορίζω τον εαυτό μου από το τι φοράω"
+    }
+   ],
+   "gloss": {
+    "ντουλάπα": "ντουλάπα — wardrobe",
+    "μπλουζάκια": "μπλουζάκι — T-shirt",
+    "βαρεμάρα": "βαρεμάρα — boredom",
+    "επιδιορθώνω": "επιδιορθώνω — to repair",
+    "μπάλωσα": "μπαλώνω — to patch",
+    "τσαγκάρη": "τσαγκάρης — cobbler",
+    "σόλες": "σόλα — sole",
+    "ορίζω": "ορίζω — to define",
+    "παρεμπιπτόντως": "παρεμπιπτόντως — incidentally"
+   }
+  },
+  {
+   "id": "l60-c1-kalodia",
+   "title": "Τα υποβρύχια καλώδια του διαδικτύου",
+   "title_en": "The internet's undersea cables",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Σε μια εκπομπή για την τεχνολογία, η δημοσιογράφος συζητά με έναν μηχανικό τηλεπικοινωνιών για την υποδομή του διαδικτύου.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κύριε Σαρρή, οι περισσότεροι φανταζόμαστε ότι το διαδίκτυο ταξιδεύει μέσω δορυφόρων. Ισχύει;",
+     "en": "Mr Sarris, most of us imagine that the internet travels via satellites. Is that true?"
+    },
+    {
+     "speaker": "Μηχανικός",
+     "voice": "m",
+     "el": "Είναι μια πολύ διαδεδομένη παρανόηση. Στην πραγματικότητα, πάνω από το ενενήντα πέντε τοις εκατό της διηπειρωτικής κίνησης δεδομένων περνά από καλώδια οπτικών ινών, απλωμένα στον βυθό των ωκεανών. Πρόκειται για καλώδια όχι πολύ χοντρότερα από έναν σωλήνα ποτίσματος, που όμως μεταφέρουν τεράστιο όγκο πληροφορίας με την ταχύτητα του φωτός. Οι δορυφόροι είναι χρήσιμοι για απομακρυσμένες περιοχές, αλλά δεν μπορούν να ανταγωνιστούν τη χωρητικότητα των καλωδίων.",
+     "en": "It's a very widespread misconception. In reality, over ninety-five per cent of intercontinental data traffic passes through fibre-optic cables laid on the ocean floor. They are cables not much thicker than a garden hose, which nevertheless carry a huge volume of information at the speed of light. Satellites are useful for remote areas, but they can't compete with the capacity of cables."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και η Ελλάδα; Τι ρόλο παίζει σε αυτό το δίκτυο;",
+     "en": "And Greece? What role does it play in this network?"
+    },
+    {
+     "speaker": "Μηχανικός",
+     "voice": "m",
+     "el": "Όλο και πιο σημαντικό. Η γεωγραφική της θέση, ανάμεσα στην Ευρώπη, την Ασία και την Αφρική, την καθιστά φυσικό κόμβο. Αρκετά νέα καλώδια που συνδέουν την Ευρώπη με τη Μέση Ανατολή και την Ινδία προσγειώνονται ή σχεδιάζεται να προσγειωθούν σε ελληνικές ακτές, κυρίως στην Κρήτη. Αυτό σημαίνει επενδύσεις σε κέντρα δεδομένων, αλλά και μια νέα γεωπολιτική βαρύτητα.",
+     "en": "Increasingly important. Its geographical position, between Europe, Asia and Africa, makes it a natural hub. Several new cables linking Europe with the Middle East and India land, or are planned to land, on Greek shores, mainly in Crete. That means investment in data centres, but also a new geopolitical weight."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Είναι ευάλωτα αυτά τα καλώδια;",
+     "en": "Are these cables vulnerable?"
+    },
+    {
+     "speaker": "Μηχανικός",
+     "voice": "m",
+     "el": "Περισσότερο απ’ όσο θα θέλαμε. Οι περισσότερες βλάβες οφείλονται σε άγκυρες πλοίων και σε αλιευτικά εργαλεία, όχι σε δολιοφθορές. Ωστόσο, τα τελευταία χρόνια έχουν καταγραφεί περιστατικά που προκαλούν ανησυχία, και γι’ αυτό η προστασία των καλωδίων έχει γίνει ζήτημα εθνικής ασφάλειας. Η επισκευή, πάντως, είναι εντυπωσιακή: ειδικά πλοία ανασύρουν το καλώδιο από βάθος χιλιάδων μέτρων, το επιδιορθώνουν στο κατάστρωμα και το ξαναβυθίζουν.",
+     "en": "More than we'd like. Most faults are caused by ships' anchors and fishing gear, not sabotage. However, in recent years there have been incidents that cause concern, which is why protecting cables has become a matter of national security. Repair, though, is impressive: special ships haul the cable up from a depth of thousands of metres, mend it on deck and sink it again."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια «παρανόηση» διορθώνει ο μηχανικός;",
+     "options": [
+      "Ότι οι δορυφόροι είναι άχρηστοι",
+      "Ότι τα καλώδια είναι πολύ χοντρά",
+      "Ότι το διαδίκτυο είναι δωρεάν",
+      "Ότι το διαδίκτυο ταξιδεύει κυρίως μέσω δορυφόρων"
+     ],
+     "answer": "Ότι το διαδίκτυο ταξιδεύει κυρίως μέσω δορυφόρων",
+     "why": "οι περισσότεροι φανταζόμαστε ότι το διαδίκτυο ταξιδεύει μέσω δορυφόρων ... Είναι μια πολύ διαδεδομένη παρανόηση"
+    },
+    {
+     "q": "Γιατί η Ελλάδα αποτελεί φυσικό κόμβο;",
+     "options": [
+      "Λόγω της γεωγραφικής της θέσης ανάμεσα σε τρεις ηπείρους",
+      "Λόγω του μεγάλου πληθυσμού της",
+      "Γιατί έχει πολλούς δορυφόρους",
+      "Γιατί κατασκευάζει καλώδια"
+     ],
+     "answer": "Λόγω της γεωγραφικής της θέσης ανάμεσα σε τρεις ηπείρους",
+     "why": "Η γεωγραφική της θέση, ανάμεσα στην Ευρώπη, την Ασία και την Αφρική, την καθιστά φυσικό κόμβο"
+    },
+    {
+     "q": "Πού οφείλονται οι περισσότερες βλάβες στα καλώδια;",
+     "options": [
+      "Σε σεισμούς",
+      "Σε άγκυρες πλοίων και αλιευτικά εργαλεία",
+      "Σε δολιοφθορές",
+      "Σε καρχαρίες"
+     ],
+     "answer": "Σε άγκυρες πλοίων και αλιευτικά εργαλεία",
+     "why": "Οι περισσότερες βλάβες οφείλονται σε άγκυρες πλοίων και σε αλιευτικά εργαλεία"
+    },
+    {
+     "q": "Πώς επισκευάζεται ένα υποβρύχιο καλώδιο;",
+     "options": [
+      "Αντικαθίσταται ολόκληρο",
+      "Με ρομπότ που μένουν μόνιμα στον βυθό",
+      "Το ανασύρουν ειδικά πλοία, το επιδιορθώνουν στο κατάστρωμα και το ξαναβυθίζουν",
+      "Με δύτες στον βυθό"
+     ],
+     "answer": "Το ανασύρουν ειδικά πλοία, το επιδιορθώνουν στο κατάστρωμα και το ξαναβυθίζουν",
+     "why": "ειδικά πλοία ανασύρουν το καλώδιο ... το επιδιορθώνουν στο κατάστρωμα και το ξαναβυθίζουν"
+    }
+   ],
+   "gloss": {
+    "παρανόηση": "παρανόηση — misconception",
+    "διηπειρωτικής": "διηπειρωτικός — intercontinental",
+    "οπτικών ινών": "οπτική ίνα — optical fibre",
+    "χωρητικότητα": "χωρητικότητα — capacity",
+    "κόμβο": "κόμβος — hub, node",
+    "κέντρα δεδομένων": "κέντρο δεδομένων — data centre",
+    "άγκυρες": "άγκυρα — anchor",
+    "δολιοφθορές": "δολιοφθορά — sabotage",
+    "ανασύρουν": "ανασύρω — to haul up",
+    "κατάστρωμα": "κατάστρωμα — deck"
+   }
+  },
+  {
+   "id": "l60-c1-lozani",
+   "title": "Η Συνθήκη της Λωζάνης",
+   "title_en": "The Treaty of Lausanne",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από διάλεξη ιστορικού για μια συνθήκη που διαμόρφωσε τα σύνορα της σύγχρονης Ελλάδας.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Μετά τη Μικρασιατική Καταστροφή του 1922, η Ελλάδα προσήλθε στις διαπραγματεύσεις της Λωζάνης ηττημένη και εξαντλημένη, με ένα κύμα προσφύγων να κατακλύζει τις πόλεις της. Επικεφαλής της ελληνικής αντιπροσωπείας ήταν ο Ελευθέριος Βενιζέλος, που, αν και εκτός κυβέρνησης, θεωρήθηκε ο μόνος ικανός να υπερασπιστεί τα ελληνικά συμφέροντα.",
+     "en": "After the Asia Minor Catastrophe of 1922, Greece came to the Lausanne negotiations defeated and exhausted, with a wave of refugees flooding its cities. The head of the Greek delegation was Eleftherios Venizelos, who, although out of government, was considered the only person able to defend Greek interests."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Η συνθήκη, που υπογράφηκε τον Ιούλιο του 1923, καθόρισε τα σύνορα ανάμεσα στην Ελλάδα και την Τουρκία, τα οποία, με εξαίρεση τα Δωδεκάνησα, ισχύουν μέχρι σήμερα. Η Ανατολική Θράκη, η Ίμβρος και η Τένεδος έμειναν στην Τουρκία. Ήδη από τον Ιανουάριο είχε υπογραφεί η σύμβαση για την υποχρεωτική ανταλλαγή των πληθυσμών, την πρώτη τέτοιας κλίμακας στη σύγχρονη ιστορία. Εξαιρέθηκαν οι Έλληνες της Κωνσταντινούπολης και οι μουσουλμάνοι της Δυτικής Θράκης.",
+     "en": "The treaty, signed in July 1923, fixed the borders between Greece and Turkey, which, with the exception of the Dodecanese, remain in force to this day. Eastern Thrace, Imbros and Tenedos remained with Turkey. Already in January the convention on the compulsory exchange of populations had been signed, the first of such a scale in modern history. The Greeks of Constantinople and the Muslims of Western Thrace were exempted."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Η αποτίμηση της Λωζάνης παραμένει αμφιλεγόμενη. Για πολλούς πρόσφυγες ήταν η οριστική απώλεια των πατρογονικών εστιών. Από την άλλη πλευρά, η συνθήκη έκλεισε έναν κύκλο δεκαετιών πολέμων και επέτρεψε στην Ελλάδα να αφιερωθεί στο τεράστιο έργο της αποκατάστασης των προσφύγων, που, παρά τις δυσκολίες, μεταμόρφωσε την οικονομία, την κοινωνία και τον πολιτισμό της χώρας.",
+     "en": "The assessment of Lausanne remains controversial. For many refugees it was the definitive loss of their ancestral homes. On the other hand, the treaty closed a cycle of decades of wars and allowed Greece to devote itself to the enormous task of resettling the refugees, which, despite the difficulties, transformed the country's economy, society and culture."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Σε τι κατάσταση βρισκόταν η Ελλάδα στις διαπραγματεύσεις;",
+     "options": [
+      "Ηττημένη και εξαντλημένη",
+      "Σε εμφύλιο πόλεμο",
+      "Ουδέτερη",
+      "Νικήτρια και ισχυρή"
+     ],
+     "answer": "Ηττημένη και εξαντλημένη",
+     "why": "η Ελλάδα προσήλθε στις διαπραγματεύσεις της Λωζάνης ηττημένη και εξαντλημένη"
+    },
+    {
+     "q": "Γιατί ο Βενιζέλος ηγήθηκε της αντιπροσωπείας, αν και ήταν εκτός κυβέρνησης;",
+     "options": [
+      "Γιατί το ζήτησαν οι Μεγάλες Δυνάμεις",
+      "Γιατί θεωρήθηκε ο μόνος ικανός να υπερασπιστεί τα ελληνικά συμφέροντα",
+      "Γιατί ήταν ο νέος βασιλιάς",
+      "Γιατί ζούσε στη Λωζάνη"
+     ],
+     "answer": "Γιατί θεωρήθηκε ο μόνος ικανός να υπερασπιστεί τα ελληνικά συμφέροντα",
+     "why": "θεωρήθηκε ο μόνος ικανός να υπερασπιστεί τα ελληνικά συμφέροντα"
+    },
+    {
+     "q": "Ποιοι εξαιρέθηκαν από την ανταλλαγή των πληθυσμών;",
+     "options": [
+      "Οι κάτοικοι των Δωδεκανήσων",
+      "Οι κάτοικοι της Κρήτης",
+      "Οι Έλληνες της Κωνσταντινούπολης και οι μουσουλμάνοι της Δυτικής Θράκης",
+      "Όλοι οι κάτοικοι της Θράκης"
+     ],
+     "answer": "Οι Έλληνες της Κωνσταντινούπολης και οι μουσουλμάνοι της Δυτικής Θράκης",
+     "why": "Εξαιρέθηκαν οι Έλληνες της Κωνσταντινούπολης και οι μουσουλμάνοι της Δυτικής Θράκης"
+    },
+    {
+     "q": "Ποια θετική συνέπεια της συνθήκης αναφέρει ο ομιλητής;",
+     "options": [
+      "Η Τουρκία πλήρωσε αποζημιώσεις",
+      "Η Ελλάδα κέρδισε τη Σμύρνη",
+      "Οι πρόσφυγες επέστρεψαν στα σπίτια τους",
+      "Έκλεισε έναν κύκλο πολέμων και η χώρα αφιερώθηκε στην αποκατάσταση των προσφύγων"
+     ],
+     "answer": "Έκλεισε έναν κύκλο πολέμων και η χώρα αφιερώθηκε στην αποκατάσταση των προσφύγων",
+     "why": "η συνθήκη έκλεισε έναν κύκλο δεκαετιών πολέμων και επέτρεψε στην Ελλάδα να αφιερωθεί στο τεράστιο έργο της αποκατάστασης των προσφύγων"
+    }
+   ],
+   "gloss": {
+    "προσήλθε": "προσέρχομαι — to come, attend",
+    "διαπραγματεύσεις": "διαπραγμάτευση — negotiation",
+    "κατακλύζει": "κατακλύζω — to flood",
+    "αντιπροσωπείας": "αντιπροσωπεία — delegation",
+    "σύμβαση": "σύμβαση — convention, agreement",
+    "ανταλλαγή των πληθυσμών": "ανταλλαγή πληθυσμών — population exchange",
+    "Εξαιρέθηκαν": "εξαιρούμαι — to be exempted",
+    "αποτίμηση": "αποτίμηση — assessment",
+    "αμφιλεγόμενη": "αμφιλεγόμενος — controversial",
+    "πατρογονικών εστιών": "πατρογονικές εστίες — ancestral homes"
+   }
+  }
+ ]
+}
