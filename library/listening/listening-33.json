@@ -1,0 +1,844 @@
+{
+ "items": [
+  {
+   "id": "l33-ann-psifoforia",
+   "title": "Οδηγίες για την ψηφοφορία",
+   "title_en": "Instructions for voting",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση στο ραδιόφωνο λίγες μέρες πριν από τις εκλογές.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Το Υπουργείο Εσωτερικών υπενθυμίζει ότι την ερχόμενη Κυριακή τα εκλογικά τμήματα θα λειτουργήσουν από τις επτά το πρωί έως τις επτά το απόγευμα. Οι ψηφοφόροι μπορούν να βρουν πού ψηφίζουν στην ειδική ιστοσελίδα του υπουργείου, πληκτρολογώντας τα στοιχεία τους.",
+     "en": "The Ministry of the Interior reminds you that next Sunday polling stations will be open from seven in the morning until seven in the evening. Voters can find out where they vote on the ministry's special website by typing in their details."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Για να ψηφίσετε, πρέπει να έχετε μαζί σας την αστυνομική σας ταυτότητα ή το διαβατήριό σας. Τα εκλογικά βιβλιάρια δεν χρειάζονται πια. Όσοι έχουν κινητικά προβλήματα μπορούν να ζητήσουν βοήθεια από την εφορευτική επιτροπή, ενώ πολλά τμήματα βρίσκονται σε ισόγεια με ράμπα.",
+     "en": "To vote, you must have your police ID card or passport with you. Electoral booklets are no longer needed. Those with mobility problems can ask the polling committee for help, while many stations are on ground floors with a ramp."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Θυμίζουμε ότι απαγορεύεται η χρήση κινητού τηλεφώνου μέσα στο παραβάν και η φωτογράφιση του ψηφοδελτίου. Η ψήφος είναι μυστική.",
+     "en": "We remind you that using a mobile phone inside the voting booth and photographing the ballot paper are forbidden. The vote is secret."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς μπορούν οι ψηφοφόροι να μάθουν πού ψηφίζουν;",
+     "options": [
+      "Ρωτώντας στο αστυνομικό τμήμα",
+      "Τηλεφωνώντας στον δήμο",
+      "Από ένα γράμμα που θα λάβουν",
+      "Από μια ειδική ιστοσελίδα του υπουργείου"
+     ],
+     "answer": "Από μια ειδική ιστοσελίδα του υπουργείου",
+     "why": "στην ειδική ιστοσελίδα του υπουργείου"
+    },
+    {
+     "q": "Τι χρειάζεται κανείς για να ψηφίσει;",
+     "options": [
+      "Μια βεβαίωση από τον δήμο",
+      "Το εκλογικό βιβλιάριο",
+      "Την ταυτότητα ή το διαβατήριο",
+      "Το δίπλωμα οδήγησης"
+     ],
+     "answer": "Την ταυτότητα ή το διαβατήριο",
+     "why": "την αστυνομική σας ταυτότητα ή το διαβατήριό σας"
+    },
+    {
+     "q": "Τι απαγορεύεται μέσα στο παραβάν;",
+     "options": [
+      "Να μιλάει κανείς",
+      "Η χρήση κινητού και η φωτογράφιση του ψηφοδελτίου",
+      "Να χρησιμοποιεί κανείς στυλό",
+      "Να μπαίνουν δύο άτομα"
+     ],
+     "answer": "Η χρήση κινητού και η φωτογράφιση του ψηφοδελτίου",
+     "why": "απαγορεύεται η χρήση κινητού τηλεφώνου μέσα στο παραβάν"
+    }
+   ],
+   "gloss": {
+    "εκλογές": "εκλογές — elections",
+    "εκλογικά τμήματα": "εκλογικό τμήμα — polling station",
+    "ψηφοφόροι": "ψηφοφόρος — voter",
+    "πληκτρολογώντας": "πληκτρολογώ — to type",
+    "εκλογικά βιβλιάρια": "εκλογικό βιβλιάριο — electoral booklet",
+    "εφορευτική επιτροπή": "εφορευτική επιτροπή — polling committee",
+    "ράμπα": "ράμπα — ramp",
+    "παραβάν": "παραβάν — voting booth, screen",
+    "ψηφοδελτίου": "ψηφοδέλτιο — ballot paper",
+    "μυστική": "μυστικός — secret"
+   }
+  },
+  {
+   "id": "l33-vm-thermosifonas",
+   "title": "Μήνυμα για τον ηλιακό θερμοσίφωνα",
+   "title_en": "A message about the solar water heater",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από έναν τεχνικό.",
+   "script": [
+    {
+     "speaker": "Τεχνικός",
+     "voice": "m",
+     "el": "Καλημέρα σας, ο Παύλος είμαι, ο τεχνικός που ήρθε την Τρίτη για τον ηλιακό σας θερμοσίφωνα. Βρήκα το πρόβλημα: το νερό δεν ζεσταίνεται γιατί έχει χαλάσει η ηλεκτρική αντίσταση, και επιπλέον υπάρχουν πολλά άλατα στο μπόιλερ, επειδή το νερό στην περιοχή σας είναι πολύ σκληρό.",
+     "en": "Good morning, it's Pavlos, the technician who came on Tuesday about your solar water heater. I've found the problem: the water isn't heating because the electric element has broken, and on top of that there's a lot of limescale in the boiler, because the water in your area is very hard."
+    },
+    {
+     "speaker": "Τεχνικός",
+     "voice": "m",
+     "el": "Η αντίσταση κοστίζει σαράντα ευρώ και ο καθαρισμός του μπόιλερ άλλα εξήντα, μαζί με την εργασία. Επειδή όμως ο θερμοσίφωνάς σας είναι δεκαοχτώ χρονών, σκεφτείτε μήπως αξίζει να τον αλλάξετε. Ένας καινούργιος κοστίζει γύρω στα οχτακόσια, αλλά υπάρχει επιδότηση από το πρόγραμμα του κράτους, που καλύπτει μέρος του κόστους.",
+     "en": "The element costs forty euros and cleaning the boiler another sixty, including labour. But since your water heater is eighteen years old, consider whether it's worth replacing. A new one costs around eight hundred, but there's a subsidy from the state programme, which covers part of the cost."
+    },
+    {
+     "speaker": "Τεχνικός",
+     "voice": "m",
+     "el": "Αν θέλετε να κάνουμε μόνο την επισκευή, μπορώ να έρθω την Πέμπτη το πρωί. Πείτε μου όμως μέχρι αύριο, για να παραγγείλω το ανταλλακτικό.",
+     "en": "If you want us to do just the repair, I can come on Thursday morning. But let me know by tomorrow, so I can order the spare part."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί υπάρχουν πολλά άλατα στο μπόιλερ;",
+     "options": [
+      "Γιατί έχει σπάσει ο σωλήνας",
+      "Γιατί δεν καθαρίστηκε ποτέ",
+      "Γιατί το νερό στην περιοχή είναι πολύ σκληρό",
+      "Γιατί δεν έχει ήλιο"
+     ],
+     "answer": "Γιατί το νερό στην περιοχή είναι πολύ σκληρό",
+     "why": "το νερό στην περιοχή σας είναι πολύ σκληρό"
+    },
+    {
+     "q": "Τι προτείνει ο τεχνικός να σκεφτεί ο πελάτης;",
+     "options": [
+      "Να βάλει κλιματιστικό",
+      "Να καθαρίζει μόνος του το μπόιλερ",
+      "Μήπως αξίζει να αλλάξει τον θερμοσίφωνα",
+      "Να μετακομίσει"
+     ],
+     "answer": "Μήπως αξίζει να αλλάξει τον θερμοσίφωνα",
+     "why": "σκεφτείτε μήπως αξίζει να τον αλλάξετε"
+    },
+    {
+     "q": "Γιατί θέλει απάντηση μέχρι αύριο;",
+     "options": [
+      "Για να κάνει αίτηση για την επιδότηση",
+      "Για να παραγγείλει το ανταλλακτικό",
+      "Για να κλείσει το ραντεβού με άλλον πελάτη",
+      "Γιατί φεύγει διακοπές"
+     ],
+     "answer": "Για να παραγγείλει το ανταλλακτικό",
+     "why": "για να παραγγείλω το ανταλλακτικό"
+    }
+   ],
+   "gloss": {
+    "ηλιακό": "ηλιακός — solar",
+    "θερμοσίφωνα": "θερμοσίφωνας — water heater",
+    "ζεσταίνεται": "ζεσταίνομαι — to heat up",
+    "αντίσταση": "αντίσταση — heating element",
+    "άλατα": "άλατα — limescale",
+    "μπόιλερ": "μπόιλερ — boiler, tank",
+    "σκληρό": "σκληρός (νερό) — hard (water)",
+    "εργασία": "εργασία — labour",
+    "επιδότηση": "επιδότηση — subsidy",
+    "επισκευή": "επισκευή — repair",
+    "ανταλλακτικό": "ανταλλακτικό — spare part"
+   }
+  },
+  {
+   "id": "l33-dia-afxisi",
+   "title": "Ζητώντας αύξηση",
+   "title_en": "Asking for a pay rise",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο ανάμεσα σε μια υπάλληλο και τον προϊστάμενό της.",
+   "script": [
+    {
+     "speaker": "Άννα",
+     "voice": "f",
+     "el": "Κύριε Δημητρίου, ευχαριστώ που βρήκατε χρόνο. Ήθελα να συζητήσουμε τον μισθό μου. Δουλεύω στην εταιρεία τρία χρόνια, και τον τελευταίο χρόνο έχω αναλάβει και την εξυπηρέτηση των πελατών του εξωτερικού, χωρίς καμία αλλαγή στις αποδοχές μου.",
+     "en": "Mr Dimitriou, thank you for finding the time. I wanted to discuss my salary. I've worked at the company for three years, and in the last year I've also taken on serving our foreign customers, without any change in my pay."
+    },
+    {
+     "speaker": "Προϊστάμενος",
+     "voice": "m",
+     "el": "Το ξέρω, Άννα, και είμαι πολύ ικανοποιημένος από τη δουλειά σου. Οι πωλήσεις στο εξωτερικό αυξήθηκαν σχεδόν είκοσι τοις εκατό. Ο προϋπολογισμός όμως για φέτος έχει ήδη κλείσει.",
+     "en": "I know, Anna, and I'm very satisfied with your work. Foreign sales rose almost twenty per cent. But this year's budget has already been closed."
+    },
+    {
+     "speaker": "Άννα",
+     "voice": "f",
+     "el": "Το καταλαβαίνω. Θα μπορούσαμε τότε να συμφωνήσουμε τώρα σε μια αύξηση από τον Ιανουάριο; Και στο μεταξύ, ίσως δύο μέρες τηλεργασίας την εβδομάδα, που για μένα θα σήμαινε πολύ λιγότερες ώρες στον δρόμο.",
+     "en": "I understand. Could we then agree now on a raise from January? And in the meantime, perhaps two days of remote work a week, which for me would mean far fewer hours on the road."
+    },
+    {
+     "speaker": "Προϊστάμενος",
+     "voice": "m",
+     "el": "Η τηλεργασία δεν είναι πρόβλημα, μπορούμε να την ξεκινήσουμε από τον επόμενο μήνα. Για την αύξηση, θα το θέσω στη διοίκηση με τη δική μου θετική εισήγηση. Ετοίμασέ μου ένα σύντομο σημείωμα με τα αποτελέσματά σου, για να το έχω μαζί μου στη συνάντηση.",
+     "en": "Remote work isn't a problem; we can start it next month. As for the raise, I'll put it to management with my own positive recommendation. Prepare me a short note with your results, so I have it with me at the meeting."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί πιστεύει η Άννα ότι αξίζει αύξηση;",
+     "options": [
+      "Γιατί μετακόμισε",
+      "Γιατί δουλεύει εκεί δέκα χρόνια",
+      "Γιατί έχει αναλάβει επιπλέον ευθύνες χωρίς αλλαγή μισθού",
+      "Γιατί της πρότειναν δουλειά αλλού"
+     ],
+     "answer": "Γιατί έχει αναλάβει επιπλέον ευθύνες χωρίς αλλαγή μισθού",
+     "why": "έχω αναλάβει και την εξυπηρέτηση των πελατών του εξωτερικού, χωρίς καμία αλλαγή στις αποδοχές μου"
+    },
+    {
+     "q": "Γιατί δεν μπορεί να δοθεί αύξηση αμέσως;",
+     "options": [
+      "Γιατί ο προϊστάμενος δεν είναι ικανοποιημένος",
+      "Γιατί ο προϋπολογισμός για φέτος έχει κλείσει",
+      "Γιατί μειώθηκαν οι πωλήσεις",
+      "Γιατί η εταιρεία έχει ζημιές"
+     ],
+     "answer": "Γιατί ο προϋπολογισμός για φέτος έχει κλείσει",
+     "why": "Ο προϋπολογισμός όμως για φέτος έχει ήδη κλείσει"
+    },
+    {
+     "q": "Τι ζητάει ο προϊστάμενος από την Άννα;",
+     "options": [
+      "Ένα σύντομο σημείωμα με τα αποτελέσματά της",
+      "Να περιμένει έναν χρόνο",
+      "Να δουλέψει περισσότερες ώρες",
+      "Να μιλήσει η ίδια στη διοίκηση"
+     ],
+     "answer": "Ένα σύντομο σημείωμα με τα αποτελέσματά της",
+     "why": "Ετοίμασέ μου ένα σύντομο σημείωμα με τα αποτελέσματά σου"
+    }
+   ],
+   "gloss": {
+    "προϊστάμενό": "προϊστάμενος — manager, boss",
+    "μισθό": "μισθός — salary",
+    "έχω αναλάβει": "αναλαμβάνω — to take on",
+    "αποδοχές": "αποδοχές — pay, earnings",
+    "πωλήσεις": "πωλήσεις — sales",
+    "προϋπολογισμός": "προϋπολογισμός — budget",
+    "αύξηση": "αύξηση — rise, raise",
+    "τηλεργασίας": "τηλεργασία — remote work",
+    "διοίκηση": "διοίκηση — management",
+    "εισήγηση": "εισήγηση — recommendation, proposal",
+    "σημείωμα": "σημείωμα — note, memo"
+   }
+  },
+  {
+   "id": "l33-dia-katadyseis",
+   "title": "Εγγραφή σε σχολή καταδύσεων",
+   "title_en": "Signing up at a diving school",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε μια σχολή καταδύσεων στη Χαλκιδική.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Γεια σας. Θα ήθελα να κάνω το βασικό σεμινάριο καταδύσεων. Δεν έχω βουτήξει ποτέ με φιάλη, αλλά κολυμπάω αρκετά καλά.",
+     "en": "Hello. I'd like to do the basic diving course. I've never dived with a tank, but I swim quite well."
+    },
+    {
+     "speaker": "Εκπαιδεύτρια",
+     "voice": "f",
+     "el": "Ωραία. Το σεμινάριο διαρκεί τέσσερις μέρες. Τις δύο πρώτες κάνουμε θεωρία και ασκήσεις σε ρηχά νερά, κοντά στην ακτή, και τις άλλες δύο τέσσερις καταδύσεις στη θάλασσα, μέχρι δώδεκα μέτρα βάθος. Στο τέλος παίρνετε δίπλωμα που ισχύει σε όλο τον κόσμο.",
+     "en": "Great. The course lasts four days. For the first two we do theory and exercises in shallow water, close to the shore, and for the other two four dives in the sea, down to twelve metres deep. At the end you get a certificate valid all over the world."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Χρειάζεται κάτι από μένα;",
+     "en": "Do you need anything from me?"
+    },
+    {
+     "speaker": "Εκπαιδεύτρια",
+     "voice": "f",
+     "el": "Θα συμπληρώσετε ένα ερωτηματολόγιο υγείας. Αν απαντήσετε «ναι» σε κάποια ερώτηση, για παράδειγμα για άσθμα ή προβλήματα στα αυτιά, θα χρειαστεί βεβαίωση από γιατρό πριν μπείτε στο νερό. Και κάτι σημαντικό: μετά την τελευταία κατάδυση πρέπει να περιμένετε τουλάχιστον μία μέρα πριν πετάξετε με αεροπλάνο.",
+     "en": "You'll fill in a health questionnaire. If you answer «yes» to any question, for example about asthma or ear problems, you'll need a certificate from a doctor before you go in the water. And something important: after the last dive you must wait at least one day before flying."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι κάνουν οι μαθητές τις δύο πρώτες μέρες;",
+     "options": [
+      "Κολύμπι στην πισίνα",
+      "Θεωρία και ασκήσεις σε ρηχά νερά",
+      "Καταδύσεις σε βαθιά νερά",
+      "Μόνο θεωρία στο γραφείο"
+     ],
+     "answer": "Θεωρία και ασκήσεις σε ρηχά νερά",
+     "why": "Τις δύο πρώτες κάνουμε θεωρία και ασκήσεις σε ρηχά νερά"
+    },
+    {
+     "q": "Πότε χρειάζεται βεβαίωση από γιατρό;",
+     "options": [
+      "Πάντα",
+      "Μόνο για καταδύσεις κάτω από δώδεκα μέτρα",
+      "Αν είναι πάνω από πενήντα χρονών",
+      "Αν απαντήσει «ναι» σε κάποια ερώτηση υγείας"
+     ],
+     "answer": "Αν απαντήσει «ναι» σε κάποια ερώτηση υγείας",
+     "why": "Αν απαντήσετε «ναι» σε κάποια ερώτηση"
+    },
+    {
+     "q": "Τι πρέπει να προσέξει μετά την τελευταία κατάδυση;",
+     "options": [
+      "Να επιστρέψει τη φιάλη την ίδια μέρα",
+      "Να περιμένει τουλάχιστον μία μέρα πριν πετάξει",
+      "Να μην κολυμπήσει",
+      "Να μην τρώει για δύο ώρες"
+     ],
+     "answer": "Να περιμένει τουλάχιστον μία μέρα πριν πετάξει",
+     "why": "πρέπει να περιμένετε τουλάχιστον μία μέρα πριν πετάξετε με αεροπλάνο"
+    }
+   ],
+   "gloss": {
+    "καταδύσεων": "κατάδυση — dive, diving",
+    "σεμινάριο": "σεμινάριο — course",
+    "βουτήξει": "βουτάω — to dive",
+    "φιάλη": "φιάλη — (air) tank",
+    "ρηχά": "ρηχός — shallow",
+    "ακτή": "ακτή — shore",
+    "βάθος": "βάθος — depth",
+    "ισχύει": "ισχύω — to be valid",
+    "ερωτηματολόγιο": "ερωτηματολόγιο — questionnaire",
+    "άσθμα": "άσθμα — asthma",
+    "πετάξετε": "πετάω — to fly"
+   }
+  },
+  {
+   "id": "l33-mono-xorodia",
+   "title": "Τραγουδώντας σε χορωδία",
+   "title_en": "Singing in a choir",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν άντρα να μιλάει για τη δημοτική χορωδία της πόλης του.",
+   "script": [
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Πριν από πέντε χρόνια, όταν πήρα σύνταξη, η κόρη μου με γράφτηκε σχεδόν με το ζόρι στη δημοτική χορωδία. Φοβόταν ότι θα καθόμουν όλη μέρα μπροστά στην τηλεόραση. Εγώ δεν είχα τραγουδήσει ποτέ, εκτός από το μπάνιο.",
+     "en": "Five years ago, when I retired, my daughter signed me up, almost by force, for the municipal choir. She was afraid I'd sit in front of the television all day. I'd never sung, except in the shower."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Στην πρώτη πρόβα ήθελα να ανοίξει η γη να με καταπιεί. Η μαέστρος, όμως, μια νεαρή μουσικός με απίστευτη υπομονή, μου εξήγησε ότι σε μια χορωδία κανείς δεν τραγουδάει μόνος: ακούς τους διπλανούς σου και προσαρμόζεσαι. Με έβαλε στους βαρύτονους, δίπλα σε έναν ηλικιωμένο ψάλτη, που με βοήθησε πολύ.",
+     "en": "At the first rehearsal I wanted the ground to open and swallow me. The conductor, though, a young musician with incredible patience, explained to me that in a choir no one sings alone: you listen to those next to you and adjust. She put me with the baritones, next to an elderly church cantor, who helped me a lot."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Σήμερα κάνουμε πρόβες δύο φορές την εβδομάδα και δίνουμε συναυλίες σε εκκλησίες, σε πλατείες, ακόμη και σε γηροκομεία. Έχω κάνει φίλους που δεν θα γνώριζα ποτέ, και ο γιατρός μου λέει ότι η αναπνοή μου βελτιώθηκε. Το πιο σπουδαίο όμως είναι η στιγμή που σαράντα φωνές γίνονται μία.",
+     "en": "Today we rehearse twice a week and give concerts in churches, in squares, even in care homes. I've made friends I'd never have met, and my doctor says my breathing has improved. But the greatest thing is the moment when forty voices become one."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί τον έγραψε η κόρη του στη χορωδία;",
+     "options": [
+      "Γιατί τραγουδούσε πολύ ωραία",
+      "Γιατί φοβόταν ότι θα καθόταν όλη μέρα μπροστά στην τηλεόραση",
+      "Γιατί το πρότεινε ο γιατρός",
+      "Γιατί ήθελε να έρθει κι εκείνη"
+     ],
+     "answer": "Γιατί φοβόταν ότι θα καθόταν όλη μέρα μπροστά στην τηλεόραση",
+     "why": "Φοβόταν ότι θα καθόμουν όλη μέρα μπροστά στην τηλεόραση"
+    },
+    {
+     "q": "Τι του εξήγησε η μαέστρος;",
+     "options": [
+      "Ότι σε μια χορωδία ακούς τους διπλανούς σου και προσαρμόζεσαι",
+      "Ότι θα τραγουδήσει σόλο",
+      "Ότι πρέπει να κάνει μαθήματα φωνητικής",
+      "Ότι πρέπει να μάθει νότες"
+     ],
+     "answer": "Ότι σε μια χορωδία ακούς τους διπλανούς σου και προσαρμόζεσαι",
+     "why": "ακούς τους διπλανούς σου και προσαρμόζεσαι"
+    },
+    {
+     "q": "Ποιο είναι για τον Θοδωρή το πιο σπουδαίο;",
+     "options": [
+      "Η βελτίωση της αναπνοής του",
+      "Τα ταξίδια της χορωδίας",
+      "Η στιγμή που σαράντα φωνές γίνονται μία",
+      "Οι συναυλίες στις πλατείες"
+     ],
+     "answer": "Η στιγμή που σαράντα φωνές γίνονται μία",
+     "why": "η στιγμή που σαράντα φωνές γίνονται μία"
+    }
+   ],
+   "gloss": {
+    "χορωδία": "χορωδία — choir",
+    "πήρα σύνταξη": "παίρνω σύνταξη — to retire",
+    "με το ζόρι": "με το ζόρι — by force, reluctantly",
+    "πρόβα": "πρόβα — rehearsal",
+    "να με καταπιεί": "καταπίνω — to swallow",
+    "μαέστρος": "μαέστρος — conductor",
+    "προσαρμόζεσαι": "προσαρμόζομαι — to adjust, adapt",
+    "βαρύτονους": "βαρύτονος — baritone",
+    "ψάλτη": "ψάλτης — church cantor",
+    "γηροκομεία": "γηροκομείο — care home",
+    "αναπνοή": "αναπνοή — breathing"
+   }
+  },
+  {
+   "id": "l33-rep-kalymnos",
+   "title": "Αναρρίχηση στην Κάλυμνο",
+   "title_en": "Climbing on Kalymnos",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ραδιοφωνικό ρεπορτάζ για την Κάλυμνο.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Για αιώνες η Κάλυμνος ήταν το νησί των σφουγγαράδων. Οι άντρες έφευγαν κάθε άνοιξη για μήνες, για να βουτήξουν στα βάθη της Μεσογείου, και πολλοί δεν γύριζαν ποτέ. Όταν η σφουγγαραλιεία παρήκμασε, το νησί άρχισε να χάνει τους νέους του.",
+     "en": "For centuries Kalymnos was the island of sponge divers. The men left every spring for months to dive in the depths of the Mediterranean, and many never returned. When sponge fishing declined, the island began to lose its young people."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Τη δεκαετία του '90 ένας Ιταλός ορειβάτης ανακάλυψε ότι οι ασβεστολιθικοί βράχοι του νησιού ήταν ιδανικοί για αναρρίχηση. Σήμερα υπάρχουν πάνω από τρεις χιλιάδες διαδρομές, και η Κάλυμνος θεωρείται ένας από τους καλύτερους προορισμούς αναρρίχησης στον κόσμο.",
+     "en": "In the 1990s an Italian climber discovered that the island's limestone cliffs were ideal for climbing. Today there are more than three thousand routes, and Kalymnos is considered one of the best climbing destinations in the world."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Το σημαντικότερο είναι ότι οι αναρριχητές έρχονται κυρίως την άνοιξη και το φθινόπωρο, όταν ο καύσωνας δεν επιτρέπει το σκαρφάλωμα σε άλλα μέρη. Έτσι, η τουριστική περίοδος έχει μεγαλώσει, και αρκετοί νέοι Καλύμνιοι έγιναν οι ίδιοι οδηγοί αναρρίχησης αντί να μεταναστεύσουν.",
+     "en": "Most importantly, climbers come mainly in spring and autumn, when heat doesn't prevent climbing elsewhere. So the tourist season has grown longer, and quite a few young Kalymnians have become climbing guides themselves instead of emigrating."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι συνέβη όταν παρήκμασε η σφουγγαραλιεία;",
+     "options": [
+      "Το νησί άρχισε να χάνει τους νέους του",
+      "Οι σφουγγαράδες έγιναν ψαράδες",
+      "Άνοιξε ένα μουσείο",
+      "Το νησί γέμισε τουρίστες"
+     ],
+     "answer": "Το νησί άρχισε να χάνει τους νέους του",
+     "why": "το νησί άρχισε να χάνει τους νέους του"
+    },
+    {
+     "q": "Τι ανακάλυψε ένας Ιταλός ορειβάτης;",
+     "options": [
+      "Μια σπηλιά με σφουγγάρια",
+      "Ένα νέο μονοπάτι",
+      "Ότι οι βράχοι ήταν ιδανικοί για αναρρίχηση",
+      "Ένα αρχαίο ναυάγιο"
+     ],
+     "answer": "Ότι οι βράχοι ήταν ιδανικοί για αναρρίχηση",
+     "why": "οι ασβεστολιθικοί βράχοι του νησιού ήταν ιδανικοί για αναρρίχηση"
+    },
+    {
+     "q": "Γιατί η αναρρίχηση βοήθησε την τοπική οικονομία;",
+     "options": [
+      "Γιατί το κράτος έδωσε επιδοτήσεις",
+      "Γιατί χτίστηκαν μεγάλα ξενοδοχεία",
+      "Γιατί οι αναρριχητές έρχονται την άνοιξη και το φθινόπωρο και μεγάλωσε η τουριστική περίοδος",
+      "Γιατί οι αναρριχητές ξοδεύουν πολλά"
+     ],
+     "answer": "Γιατί οι αναρριχητές έρχονται την άνοιξη και το φθινόπωρο και μεγάλωσε η τουριστική περίοδος",
+     "why": "η τουριστική περίοδος έχει μεγαλώσει"
+    }
+   ],
+   "gloss": {
+    "σφουγγαράδων": "σφουγγαράς — sponge diver",
+    "βάθη": "βάθος — depth",
+    "σφουγγαραλιεία": "σφουγγαραλιεία — sponge fishing",
+    "παρήκμασε": "παρακμάζω — to decline",
+    "ορειβάτης": "ορειβάτης — mountaineer, climber",
+    "ασβεστολιθικοί": "ασβεστολιθικός — limestone",
+    "βράχοι": "βράχος — rock, cliff",
+    "αναρρίχηση": "αναρρίχηση — (rock) climbing",
+    "διαδρομές": "διαδρομή — route",
+    "αναρριχητές": "αναρριχητής — climber",
+    "σκαρφάλωμα": "σκαρφάλωμα — climbing"
+   }
+  },
+  {
+   "id": "l33-rep-apografi",
+   "title": "Τι έδειξε η απογραφή",
+   "title_en": "What the census showed",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για τα αποτελέσματα της απογραφής του 2021.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Σύμφωνα με την απογραφή του 2021, ο πληθυσμός της Ελλάδας ήταν περίπου δέκα εκατομμύρια τετρακόσιες χιλιάδες, δηλαδή μειώθηκε κατά περίπου τρία τοις εκατό σε σχέση με το 2011. Οι ειδικοί αποδίδουν τη μείωση σε δύο κυρίως αιτίες: στη χαμηλή γεννητικότητα και στη μετανάστευση χιλιάδων νέων στα χρόνια της κρίσης.",
+     "en": "According to the 2021 census, Greece's population was about ten million four hundred thousand, that is, it fell by about three per cent compared with 2011. Experts attribute the decline mainly to two causes: the low birth rate and the emigration of thousands of young people during the crisis years."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η μείωση δεν είναι ίδια παντού. Ενώ η Αττική και ορισμένα νησιά διατήρησαν ή και αύξησαν τον πληθυσμό τους, πολλές ορεινές περιοχές χάνουν κατοίκους με ταχύ ρυθμό. Υπάρχουν χωριά όπου τον χειμώνα μένουν λιγότεροι από δέκα άνθρωποι, όλοι ηλικιωμένοι.",
+     "en": "The decline is not the same everywhere. While Attica and certain islands kept or even increased their population, many mountain areas are losing residents at a fast rate. There are villages where in winter fewer than ten people remain, all of them elderly."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Οι δημογράφοι προειδοποιούν ότι, χωρίς μέτρα για τη στήριξη των οικογενειών και την επιστροφή όσων έφυγαν, ο πληθυσμός θα συνεχίσει να μειώνεται και να γερνάει τις επόμενες δεκαετίες, με σοβαρές συνέπειες για τις συντάξεις και το σύστημα υγείας.",
+     "en": "Demographers warn that without measures to support families and bring back those who left, the population will keep shrinking and ageing in the coming decades, with serious consequences for pensions and the health system."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς άλλαξε ο πληθυσμός σε σχέση με το 2011;",
+     "options": [
+      "Μειώθηκε κατά περίπου τρία τοις εκατό",
+      "Μειώθηκε στο μισό",
+      "Αυξήθηκε κατά τρία τοις εκατό",
+      "Έμεινε ίδιος"
+     ],
+     "answer": "Μειώθηκε κατά περίπου τρία τοις εκατό",
+     "why": "μειώθηκε κατά περίπου τρία τοις εκατό σε σχέση με το 2011"
+    },
+    {
+     "q": "Ποιες περιοχές χάνουν κατοίκους με ταχύ ρυθμό;",
+     "options": [
+      "Η Αττική",
+      "Όλα τα νησιά",
+      "Πολλές ορεινές περιοχές",
+      "Οι μεγάλες πόλεις"
+     ],
+     "answer": "Πολλές ορεινές περιοχές",
+     "why": "πολλές ορεινές περιοχές χάνουν κατοίκους με ταχύ ρυθμό"
+    },
+    {
+     "q": "Για τι προειδοποιούν οι δημογράφοι;",
+     "options": [
+      "Για υπερπληθυσμό",
+      "Ότι ο πληθυσμός θα συνεχίσει να μειώνεται και να γερνάει",
+      "Ότι θα κλείσουν τα σχολεία των πόλεων",
+      "Ότι οι νέοι θα επιστρέψουν σύντομα"
+     ],
+     "answer": "Ότι ο πληθυσμός θα συνεχίσει να μειώνεται και να γερνάει",
+     "why": "ο πληθυσμός θα συνεχίσει να μειώνεται και να γερνάει"
+    }
+   ],
+   "gloss": {
+    "απογραφής": "απογραφή — census",
+    "πληθυσμός": "πληθυσμός — population",
+    "μείωση": "μείωση — decline, reduction",
+    "αποδίδουν": "αποδίδω — to attribute",
+    "γεννητικότητα": "γεννητικότητα — birth rate",
+    "μετανάστευση": "μετανάστευση — emigration",
+    "ορεινές": "ορεινός — mountainous",
+    "ρυθμό": "ρυθμός — rate, pace",
+    "δημογράφοι": "δημογράφος — demographer",
+    "στήριξη": "στήριξη — support",
+    "γερνάει": "γερνάω — to age, grow old",
+    "συντάξεις": "σύνταξη — pension"
+   }
+  },
+  {
+   "id": "l33-int-diaititria",
+   "title": "Μια γυναίκα διαιτητής",
+   "title_en": "A woman referee",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια διαιτητή ποδοσφαίρου.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πώς αποφασίσατε να γίνετε διαιτητής;",
+     "en": "How did you decide to become a referee?"
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Έπαιζα ποδόσφαιρο από μικρή, αλλά στα δεκαεννιά τραυματίστηκα στο γόνατο και δεν μπορούσα πια να παίζω σε υψηλό επίπεδο. Ένας προπονητής μού πρότεινε να δοκιμάσω τη διαιτησία, για να μείνω κοντά στο γήπεδο. Στην αρχή το είδα σαν παρηγοριά· σήμερα είναι το πάθος μου.",
+     "en": "I played football from a young age, but at nineteen I injured my knee and could no longer play at a high level. A coach suggested I try refereeing, to stay close to the pitch. At first I saw it as a consolation; today it's my passion."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Αντιμετωπίσατε δυσκολίες επειδή είστε γυναίκα;",
+     "en": "Did you face difficulties because you're a woman?"
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Φυσικά. Στους πρώτους αγώνες άκουγα από την κερκίδα σχόλια που δεν θα άκουγε ποτέ ένας άντρας συνάδελφος. Έμαθα όμως να μην τα παίρνω προσωπικά. Οι παίκτες, εξάλλου, με κρίνουν από τις αποφάσεις μου, όχι από το φύλο μου. Αν σφυρίξω σωστά, με σέβονται.",
+     "en": "Of course. In the first matches I heard comments from the stands that a male colleague would never hear. But I learned not to take them personally. The players, after all, judge me by my decisions, not my gender. If I whistle correctly, they respect me."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι συμβουλή θα δίνατε σε ένα κορίτσι που θέλει να ακολουθήσει τον δρόμο σας;",
+     "en": "What advice would you give a girl who wants to follow your path?"
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Να προπονείται σκληρά, γιατί ένας διαιτητής τρέχει πάνω από δέκα χιλιόμετρα σε κάθε αγώνα, και να μελετάει τους κανονισμούς σαν να δίνει εξετάσεις. Και να θυμάται ότι τα λάθη είναι μέρος της δουλειάς· το σημαντικό είναι να μαθαίνεις από αυτά.",
+     "en": "To train hard, because a referee runs more than ten kilometres in every match, and to study the rules as if sitting exams. And to remember that mistakes are part of the job; the important thing is to learn from them."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί η Κατερίνα σταμάτησε να παίζει σε υψηλό επίπεδο;",
+     "options": [
+      "Γιατί μετακόμισε",
+      "Γιατί προτίμησε τις σπουδές",
+      "Γιατί τραυματίστηκε στο γόνατο",
+      "Γιατί διαλύθηκε η ομάδα της"
+     ],
+     "answer": "Γιατί τραυματίστηκε στο γόνατο",
+     "why": "στα δεκαεννιά τραυματίστηκα στο γόνατο"
+    },
+    {
+     "q": "Πώς την κρίνουν οι παίκτες, σύμφωνα με την ίδια;",
+     "options": [
+      "Από την ομάδα όπου έπαιζε",
+      "Από την ηλικία της",
+      "Από τις αποφάσεις της",
+      "Από την εμφάνισή της"
+     ],
+     "answer": "Από τις αποφάσεις της",
+     "why": "με κρίνουν από τις αποφάσεις μου, όχι από το φύλο μου"
+    },
+    {
+     "q": "Τι λέει για τα λάθη;",
+     "options": [
+      "Ότι φταίνε οι παίκτες",
+      "Ότι δεν πρέπει να γίνονται ποτέ",
+      "Ότι είναι μέρος της δουλειάς και μαθαίνεις από αυτά",
+      "Ότι τα διορθώνει η τεχνολογία"
+     ],
+     "answer": "Ότι είναι μέρος της δουλειάς και μαθαίνεις από αυτά",
+     "why": "τα λάθη είναι μέρος της δουλειάς"
+    }
+   ],
+   "gloss": {
+    "διαιτητή": "διαιτητής — referee",
+    "τραυματίστηκα": "τραυματίζομαι — to be injured",
+    "γόνατο": "γόνατο — knee",
+    "διαιτησία": "διαιτησία — refereeing",
+    "γήπεδο": "γήπεδο — pitch, ground",
+    "παρηγοριά": "παρηγοριά — consolation",
+    "κερκίδα": "κερκίδα — stand(s)",
+    "συνάδελφος": "συνάδελφος — colleague",
+    "φύλο": "φύλο — gender, sex",
+    "σφυρίξω": "σφυρίζω — to whistle",
+    "κανονισμούς": "κανονισμός — rule, regulation"
+   }
+  },
+  {
+   "id": "l33-mono-erotokritos",
+   "title": "Ο Ερωτόκριτος",
+   "title_en": "The Erotokritos",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε έναν φιλόλογο να μιλάει σε μια διάλεξη για τον «Ερωτόκριτο».",
+   "script": [
+    {
+     "speaker": "Φιλόλογος",
+     "voice": "m",
+     "el": "Ο «Ερωτόκριτος» γράφτηκε στην Κρήτη γύρω στο 1600, όταν το νησί βρισκόταν ακόμη υπό βενετική κυριαρχία, από τον Βιτσέντζο Κορνάρο, για τον οποίο ελάχιστα γνωρίζουμε με βεβαιότητα. Πρόκειται για ένα έμμετρο μυθιστόρημα με περισσότερους από δέκα χιλιάδες ομοιοκατάληκτους δεκαπεντασύλλαβους, γραμμένους στην κρητική διάλεκτο.",
+     "en": "The «Erotokritos» was written in Crete around 1600, while the island was still under Venetian rule, by Vitsentzos Kornaros, about whom we know very little with certainty. It is a verse romance of more than ten thousand rhyming fifteen-syllable lines, written in the Cretan dialect."
+    },
+    {
+     "speaker": "Φιλόλογος",
+     "voice": "m",
+     "el": "Η υπόθεση, η αγάπη του Ερωτόκριτου για την Αρετούσα, την κόρη του βασιλιά της Αθήνας, δεν είναι πρωτότυπη: ο Κορνάρος βασίστηκε σε ένα γαλλικό ιπποτικό μυθιστόρημα, πιθανότατα μέσω μιας ιταλικής διασκευής. Η πρωτοτυπία του βρίσκεται αλλού: στη γλώσσα, που είναι ταυτόχρονα λαϊκή και εξαιρετικά καλλιεργημένη, και στην ψυχολογική βαθύτητα των χαρακτήρων.",
+     "en": "The plot, Erotokritos's love for Aretousa, daughter of the king of Athens, is not original: Kornaros drew on a French chivalric romance, most probably via an Italian adaptation. His originality lies elsewhere: in the language, which is at once popular and exceptionally refined, and in the psychological depth of the characters."
+    },
+    {
+     "speaker": "Φιλόλογος",
+     "voice": "m",
+     "el": "Το πιο συναρπαστικό, ωστόσο, είναι η ζωή του έργου μετά τον δημιουργό του. Μετά την πτώση του Χάνδακα, οι Κρητικοί πρόσφυγες το μετέφεραν στα Επτάνησα και στη Βενετία, όπου τυπώθηκε για πρώτη φορά το 1713. Για αιώνες, όμως, διαδόθηκε κυρίως προφορικά: αγράμματοι βοσκοί και αγρότες απήγγελλαν από μνήμης χιλιάδες στίχους στα γλέντια και στα νυχτέρια.",
+     "en": "Most fascinating, however, is the life of the work after its creator. After the fall of Candia, Cretan refugees carried it to the Ionian Islands and to Venice, where it was first printed in 1713. For centuries, though, it spread mainly orally: illiterate shepherds and farmers recited thousands of lines from memory at festivities and evening gatherings."
+    },
+    {
+     "speaker": "Φιλόλογος",
+     "voice": "m",
+     "el": "Έτσι, ένα έργο λόγιας προέλευσης έγινε κτήμα του λαού, και αργότερα πηγή έμπνευσης για ποιητές όπως ο Σολωμός και ο Σεφέρης, αλλά και για μουσικούς, όπως ο Νίκος Ξυλούρης, που το έκανε ξανά τραγούδι. Λίγα κείμενα της λογοτεχνίας μας γεφυρώνουν τόσο φυσικά το λόγιο με το λαϊκό.",
+     "en": "Thus a work of learned origin became the people's own, and later a source of inspiration for poets such as Solomos and Seferis, but also for musicians, such as Nikos Xylouris, who turned it into song again. Few texts in our literature bridge the learned and the popular so naturally."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι γνωρίζουμε για τον Βιτσέντζο Κορνάρο;",
+     "options": [
+      "Ότι ήταν βοσκός",
+      "Ότι έζησε στη Βενετία όλη του τη ζωή",
+      "Πολλά, χάρη στα γράμματά του",
+      "Ελάχιστα με βεβαιότητα"
+     ],
+     "answer": "Ελάχιστα με βεβαιότητα",
+     "why": "για τον οποίο ελάχιστα γνωρίζουμε με βεβαιότητα"
+    },
+    {
+     "q": "Πού βρίσκεται, κατά τον ομιλητή, η πρωτοτυπία του έργου;",
+     "options": [
+      "Στη γλώσσα και στην ψυχολογική βαθύτητα των χαρακτήρων",
+      "Στην υπόθεση",
+      "Στο ιστορικό του θέμα",
+      "Στο ότι γράφτηκε σε πεζό λόγο"
+     ],
+     "answer": "Στη γλώσσα και στην ψυχολογική βαθύτητα των χαρακτήρων",
+     "why": "Η πρωτοτυπία του βρίσκεται αλλού: στη γλώσσα"
+    },
+    {
+     "q": "Πώς διαδόθηκε κυρίως το έργο για αιώνες;",
+     "options": [
+      "Μέσα από τα σχολεία",
+      "Προφορικά, από βοσκούς και αγρότες που το απήγγελλαν από μνήμης",
+      "Μέσα από θεατρικές παραστάσεις",
+      "Μέσα από φθηνές εκδόσεις"
+     ],
+     "answer": "Προφορικά, από βοσκούς και αγρότες που το απήγγελλαν από μνήμης",
+     "why": "διαδόθηκε κυρίως προφορικά"
+    },
+    {
+     "q": "Ποιο είναι το συμπέρασμα του ομιλητή;",
+     "options": [
+      "Ότι λίγα κείμενα γεφυρώνουν τόσο φυσικά το λόγιο με το λαϊκό",
+      "Ότι ο Σεφέρης το μετέφρασε",
+      "Ότι το έργο ξεχάστηκε μετά το 1713",
+      "Ότι ο Ερωτόκριτος είναι έργο αποκλειστικά λαϊκό"
+     ],
+     "answer": "Ότι λίγα κείμενα γεφυρώνουν τόσο φυσικά το λόγιο με το λαϊκό",
+     "why": "Λίγα κείμενα της λογοτεχνίας μας γεφυρώνουν τόσο φυσικά το λόγιο με το λαϊκό"
+    }
+   ],
+   "gloss": {
+    "κυριαρχία": "κυριαρχία — rule, dominion",
+    "έμμετρο": "έμμετρος — in verse",
+    "ομοιοκατάληκτους": "ομοιοκατάληκτος — rhyming",
+    "δεκαπεντασύλλαβους": "δεκαπεντασύλλαβος — fifteen-syllable line",
+    "διάλεκτο": "διάλεκτος — dialect",
+    "ιπποτικό": "ιπποτικός — chivalric",
+    "διασκευής": "διασκευή — adaptation",
+    "βαθύτητα": "βαθύτητα — depth",
+    "πρόσφυγες": "πρόσφυγας — refugee",
+    "απήγγελλαν": "απαγγέλλω — to recite",
+    "νυχτέρια": "νυχτέρι — evening gathering (for work and talk)",
+    "λόγιας": "λόγιος — learned",
+    "κτήμα": "κτήμα — possession, property",
+    "γεφυρώνουν": "γεφυρώνω — to bridge"
+   }
+  },
+  {
+   "id": "l33-int-sfyria",
+   "title": "Η σφυριχτή γλώσσα της Αντιάς",
+   "title_en": "The whistled language of Antia",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια γλωσσολόγο για τη σφυριχτή γλώσσα ενός χωριού της Εύβοιας.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Στο χωριό Αντιά, στη νότια Εύβοια, υπάρχει μια γλώσσα που δεν μιλιέται αλλά σφυρίζεται. Τι ακριβώς είναι;",
+     "en": "In the village of Antia, in southern Euboea, there is a language that isn't spoken but whistled. What exactly is it?"
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "f",
+     "el": "Δεν είναι, αυστηρά, ξεχωριστή γλώσσα, αλλά ένας τρόπος να μεταφέρεις τα ελληνικά σε σφυρίγματα. Οι κάτοικοι τη λένε «σφυριά». Το ύψος και η διάρκεια του σφυρίγματος αναπαράγουν τη μελωδία και τον ρυθμό των λέξεων, έτσι ώστε ένας έμπειρος ακροατής να μπορεί να καταλάβει ολόκληρες προτάσεις.",
+     "en": "Strictly, it isn't a separate language, but a way of transferring Greek into whistles. The residents call it «sfyria». The pitch and length of the whistle reproduce the melody and rhythm of words, so that an experienced listener can understand whole sentences."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Γιατί αναπτύχθηκε εκεί;",
+     "en": "Why did it develop there?"
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "f",
+     "el": "Η περιοχή είναι απότομη, με βαθιές χαράδρες. Οι βοσκοί και οι αγρότες χρειάζονταν να επικοινωνούν από απόσταση, και ένα δυνατό σφύριγμα ακούγεται πολύ πιο μακριά από τη φωνή, ακόμη και σε δυνατό αέρα. Παρόμοια συστήματα υπάρχουν, άλλωστε, σε ορεινές περιοχές σε όλο τον κόσμο, όπως στα Κανάρια Νησιά ή στην Τουρκία.",
+     "en": "The area is steep, with deep ravines. Shepherds and farmers needed to communicate at a distance, and a loud whistle carries much further than the voice, even in a strong wind. Similar systems exist, after all, in mountain areas all over the world, such as the Canary Islands or Turkey."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Υπάρχει ακόμη κόσμος που τη γνωρίζει;",
+     "en": "Are there still people who know it?"
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "f",
+     "el": "Ελάχιστοι, και όλοι μεγάλης ηλικίας. Με τους δρόμους και τα κινητά τηλέφωνα, η ανάγκη που τη γέννησε εξαφανίστηκε. Τα τελευταία χρόνια γίνονται ηχογραφήσεις και προσπάθειες να διδαχτεί στα παιδιά του σχολείου. Δεν ξέρω αν θα σωθεί ως ζωντανό μέσο επικοινωνίας, αλλά τουλάχιστον δεν θα χαθεί χωρίς να έχει καταγραφεί.",
+     "en": "Very few, and all of them elderly. With roads and mobile phones, the need that gave birth to it disappeared. In recent years recordings have been made and efforts to teach it to schoolchildren. I don't know if it will be saved as a living means of communication, but at least it won't be lost without having been recorded."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς περιγράφει η γλωσσολόγος τη «σφυριά»;",
+     "options": [
+      "Ως εντελώς ξεχωριστή γλώσσα με δικό της λεξιλόγιο",
+      "Ως κώδικα των ψαράδων",
+      "Ως τρόπο να μεταφέρονται τα ελληνικά σε σφυρίγματα",
+      "Ως μουσικό είδος"
+     ],
+     "answer": "Ως τρόπο να μεταφέρονται τα ελληνικά σε σφυρίγματα",
+     "why": "ένας τρόπος να μεταφέρεις τα ελληνικά σε σφυρίγματα"
+    },
+    {
+     "q": "Τι αναπαράγει το σφύριγμα;",
+     "options": [
+      "Τα γράμματα της λέξης",
+      "Τη μελωδία και τον ρυθμό των λέξεων",
+      "Μόνο τα φωνήεντα",
+      "Τους ήχους των ζώων"
+     ],
+     "answer": "Τη μελωδία και τον ρυθμό των λέξεων",
+     "why": "αναπαράγουν τη μελωδία και τον ρυθμό των λέξεων"
+    },
+    {
+     "q": "Γιατί αναπτύχθηκε η σφυριχτή γλώσσα στην Αντιά;",
+     "options": [
+      "Για να μην καταλαβαίνουν οι ξένοι",
+      "Γιατί οι κάτοικοι δεν μιλούσαν ελληνικά",
+      "Γιατί η περιοχή είναι απότομη και χρειαζόταν επικοινωνία από απόσταση",
+      "Για θρησκευτικούς λόγους"
+     ],
+     "answer": "Γιατί η περιοχή είναι απότομη και χρειαζόταν επικοινωνία από απόσταση",
+     "why": "χρειάζονταν να επικοινωνούν από απόσταση"
+    },
+    {
+     "q": "Τι ελπίζει τουλάχιστον η γλωσσολόγος;",
+     "options": [
+      "Ότι θα αντικαταστήσει τα κινητά",
+      "Ότι δεν θα χαθεί χωρίς να έχει καταγραφεί",
+      "Ότι θα τη μάθουν όλοι οι Έλληνες",
+      "Ότι θα αναγνωριστεί ως επίσημη γλώσσα"
+     ],
+     "answer": "Ότι δεν θα χαθεί χωρίς να έχει καταγραφεί",
+     "why": "δεν θα χαθεί χωρίς να έχει καταγραφεί"
+    }
+   ],
+   "gloss": {
+    "σφυριχτή": "σφυριχτός — whistled",
+    "γλωσσολόγο": "γλωσσολόγος — linguist",
+    "σφυρίζεται": "σφυρίζομαι — to be whistled",
+    "σφυρίγματα": "σφύριγμα — whistle",
+    "ύψος": "ύψος — pitch; height",
+    "αναπαράγουν": "αναπαράγω — to reproduce",
+    "ακροατής": "ακροατής — listener",
+    "απότομη": "απότομος — steep",
+    "χαράδρες": "χαράδρα — ravine",
+    "ηχογραφήσεις": "ηχογράφηση — recording",
+    "να διδαχτεί": "διδάσκομαι — to be taught",
+    "να έχει καταγραφεί": "καταγράφομαι — to be recorded"
+   }
+  }
+ ]
+}
