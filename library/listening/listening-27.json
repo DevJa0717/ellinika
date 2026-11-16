@@ -1,0 +1,858 @@
+{
+ "items": [
+  {
+   "id": "l27-ann-apergia",
+   "title": "Απεργία στα μέσα μεταφοράς",
+   "title_en": "A public transport strike",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση στο ραδιόφωνο για μια απεργία στα μέσα μαζικής μεταφοράς.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Λόγω της εικοσιτετράωρης απεργίας που έχουν προκηρύξει τα σωματεία των εργαζομένων, την Πέμπτη δεν θα κυκλοφορήσουν τα λεωφορεία και τα τρόλεϊ. Το μετρό και ο ηλεκτρικός θα λειτουργήσουν με στάσεις εργασίας: δεν θα υπάρχουν δρομολόγια από τις δέκα το πρωί έως τις τέσσερις το απόγευμα.",
+     "en": "Because of the twenty-four-hour strike called by the workers' unions, on Thursday buses and trolleybuses will not run. The metro and the electric railway will operate with work stoppages: there will be no services from ten in the morning to four in the afternoon."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Το τραμ θα κινείται κανονικά, ενώ ο προαστιακός θα πραγματοποιήσει μειωμένο αριθμό δρομολογίων, κυρίως προς και από το αεροδρόμιο. Οι επιβάτες με προγραμματισμένες πτήσεις καλούνται να ξεκινήσουν νωρίτερα από το σπίτι τους.",
+     "en": "The tram will run normally, while the suburban railway will run a reduced number of services, mainly to and from the airport. Passengers with scheduled flights are asked to leave home earlier."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Η τροχαία αναμένει αυξημένη κίνηση στους κεντρικούς δρόμους και συστήνει στους οδηγούς να αποφύγουν το κέντρο τις πρωινές ώρες. Οι εργαζόμενοι ζητούν προσλήψεις προσωπικού και ανανέωση του στόλου των οχημάτων.",
+     "en": "The traffic police expect heavy traffic on the main roads and advise drivers to avoid the centre in the morning hours. The workers are asking for staff to be hired and the vehicle fleet to be renewed."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο μέσο θα κυκλοφορεί κανονικά την Πέμπτη;",
+     "options": [
+      "Τα λεωφορεία",
+      "Το τραμ",
+      "Το μετρό",
+      "Τα τρόλεϊ"
+     ],
+     "answer": "Το τραμ",
+     "why": "Το τραμ θα κινείται κανονικά"
+    },
+    {
+     "q": "Πότε δεν θα υπάρχουν δρομολόγια στο μετρό;",
+     "options": [
+      "Από τις δέκα το πρωί έως τις τέσσερις το απόγευμα",
+      "Μόνο το πρωί πριν τις δέκα",
+      "Όλη τη μέρα",
+      "Μόνο το βράδυ"
+     ],
+     "answer": "Από τις δέκα το πρωί έως τις τέσσερις το απόγευμα",
+     "why": "δεν θα υπάρχουν δρομολόγια από τις δέκα το πρωί έως τις τέσσερις το απόγευμα"
+    },
+    {
+     "q": "Τι ζητούν οι εργαζόμενοι;",
+     "options": [
+      "Περισσότερες άδειες",
+      "Φθηνότερα εισιτήρια",
+      "Προσλήψεις προσωπικού και νέα οχήματα",
+      "Μικρότερο ωράριο"
+     ],
+     "answer": "Προσλήψεις προσωπικού και νέα οχήματα",
+     "why": "Οι εργαζόμενοι ζητούν προσλήψεις προσωπικού και ανανέωση του στόλου των οχημάτων"
+    }
+   ],
+   "gloss": {
+    "απεργία": "απεργία — strike",
+    "έχουν προκηρύξει": "προκηρύσσω — to call, announce",
+    "σωματεία": "σωματείο — union, association",
+    "στάσεις εργασίας": "στάση εργασίας — work stoppage",
+    "προαστιακός": "προαστιακός — suburban railway",
+    "μειωμένο": "μειωμένος — reduced",
+    "τροχαία": "τροχαία — traffic police",
+    "συστήνει": "συστήνω — to advise, recommend",
+    "προσλήψεις": "πρόσληψη — hiring",
+    "στόλου": "στόλος — fleet"
+   }
+  },
+  {
+   "id": "l27-vm-kipouros",
+   "title": "Μήνυμα από τον κηπουρό",
+   "title_en": "A message from the gardener",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από τον κηπουρό που φροντίζει τον κήπο σας.",
+   "script": [
+    {
+     "speaker": "Κηπουρός",
+     "voice": "m",
+     "el": "Καλησπέρα, κυρία Αθανασίου, ο Γρηγόρης είμαι, ο κηπουρός. Πέρασα σήμερα από τον κήπο, όπως κανονίσαμε, και κούρεψα το γκαζόν. Πρόσεξα όμως ότι η λεμονιά δίπλα στην πόρτα έχει άρρωστα φύλλα, κίτρινα με μαύρες κουκκίδες.",
+     "en": "Good evening, Mrs Athanasiou, it's Grigoris, the gardener. I came by the garden today, as we arranged, and mowed the lawn. But I noticed that the lemon tree by the door has diseased leaves, yellow with black spots."
+    },
+    {
+     "speaker": "Κηπουρός",
+     "voice": "m",
+     "el": "Μάλλον είναι κάποιος μύκητας, από την πολλή υγρασία των τελευταίων εβδομάδων. Δεν είναι κάτι σοβαρό αν το πιάσουμε τώρα. Θα σας πρότεινα ένα βιολογικό σκεύασμα, χωρίς χημικά, αφού έχετε παιδιά και σκύλο που παίζουν στον κήπο.",
+     "en": "It's probably some kind of fungus, from all the humidity of the last few weeks. It isn't serious if we catch it now. I'd suggest an organic treatment, with no chemicals, since you have children and a dog playing in the garden."
+    },
+    {
+     "speaker": "Κηπουρός",
+     "voice": "m",
+     "el": "Αν συμφωνείτε, μπορώ να έρθω το Σάββατο το πρωί να ψεκάσω και να κλαδέψω τα ξερά κλαδιά. Θα σας κοστίσει γύρω στα σαράντα ευρώ μαζί με το υλικό. Πείτε μου μόνο αν θα είστε σπίτι ή αν θα μου αφήσετε το κλειδί της αυλόπορτας στη γειτόνισσα.",
+     "en": "If you agree, I can come on Saturday morning to spray and prune the dry branches. It'll cost you about forty euros including the material. Just let me know whether you'll be at home or whether you'll leave the key to the garden gate with your neighbour."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πρόβλημα έχει η λεμονιά;",
+     "options": [
+      "Δεν κάνει λεμόνια",
+      "Έχει μυρμήγκια",
+      "Έχει άρρωστα φύλλα, πιθανώς από μύκητα",
+      "Έσπασε ένα κλαδί της"
+     ],
+     "answer": "Έχει άρρωστα φύλλα, πιθανώς από μύκητα",
+     "why": "Μάλλον είναι κάποιος μύκητας"
+    },
+    {
+     "q": "Γιατί προτείνει σκεύασμα χωρίς χημικά;",
+     "options": [
+      "Γιατί το ζήτησε η γειτόνισσα",
+      "Γιατί τα χημικά απαγορεύονται",
+      "Γιατί είναι φθηνότερο",
+      "Γιατί στον κήπο παίζουν παιδιά και σκύλος"
+     ],
+     "answer": "Γιατί στον κήπο παίζουν παιδιά και σκύλος",
+     "why": "αφού έχετε παιδιά και σκύλο που παίζουν στον κήπο"
+    },
+    {
+     "q": "Τι ζητάει να του πει η κυρία Αθανασίου;",
+     "options": [
+      "Αν θα είναι σπίτι ή αν θα αφήσει το κλειδί στη γειτόνισσα",
+      "Ποιο σκεύασμα προτιμά",
+      "Πόσα χρήματα θα του δώσει",
+      "Αν θέλει να κόψει τη λεμονιά"
+     ],
+     "answer": "Αν θα είναι σπίτι ή αν θα αφήσει το κλειδί στη γειτόνισσα",
+     "why": "Πείτε μου μόνο αν θα είστε σπίτι ή αν θα μου αφήσετε το κλειδί"
+    }
+   ],
+   "gloss": {
+    "κηπουρό": "κηπουρός — gardener",
+    "κούρεψα": "κουρεύω — to mow, cut",
+    "γκαζόν": "γκαζόν — lawn",
+    "λεμονιά": "λεμονιά — lemon tree",
+    "κουκκίδες": "κουκκίδα — dot, spot",
+    "μύκητας": "μύκητας — fungus",
+    "υγρασία": "υγρασία — humidity",
+    "σκεύασμα": "σκεύασμα — preparation, product",
+    "να ψεκάσω": "ψεκάζω — to spray",
+    "να κλαδέψω": "κλαδεύω — to prune",
+    "αυλόπορτας": "αυλόπορτα — garden gate"
+   }
+  },
+  {
+   "id": "l27-dia-dema",
+   "title": "Ένα δέμα για την Αυστραλία",
+   "title_en": "A parcel for Australia",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα κατάστημα ταχυδρομείου.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Καλημέρα. Θέλω να στείλω αυτό το δέμα στη Μελβούρνη, στην αδελφή μου. Είναι γλυκά του κουταλιού, λάδι και μερικά βιβλία.",
+     "en": "Good morning. I want to send this parcel to Melbourne, to my sister. It's spoon sweets, oil and a few books."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Τα βιβλία δεν έχουν πρόβλημα. Για τα τρόφιμα όμως η Αυστραλία έχει πολύ αυστηρούς κανόνες. Το λάδι επιτρέπεται, αν είναι σε κλειστή, εργοστασιακή συσκευασία. Το σπιτικό γλυκό μάλλον θα το κατασχέσουν στο τελωνείο.",
+     "en": "The books are no problem. For food, though, Australia has very strict rules. Oil is allowed if it's in sealed, factory packaging. The homemade sweet will probably be confiscated at customs."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Κρίμα, το έφτιαξε η μητέρα μου. Λοιπόν, θα το βγάλω. Πόσο θα κοστίσει και πόσο θα κάνει να φτάσει;",
+     "en": "Pity, my mother made it. Well, I'll take it out. How much will it cost and how long will it take to arrive?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Το δέμα ζυγίζει τέσσερα κιλά. Με την οικονομική υπηρεσία κοστίζει πενήντα δύο ευρώ και φτάνει σε τρεις με πέντε εβδομάδες. Με την ταχεία, σε μία εβδομάδα, αλλά κοστίζει σχεδόν το διπλό. Και στις δύο περιπτώσεις πρέπει να συμπληρώσετε αυτό το έντυπο για το τελωνείο, με το περιεχόμενο και την αξία.",
+     "en": "The parcel weighs four kilos. With the economy service it costs fifty-two euros and arrives in three to five weeks. With express, in one week, but it costs almost double. In both cases you have to fill in this customs form, with the contents and the value."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Δεν βιάζομαι, τα Χριστούγεννα είναι μακριά. Θα πάρω την οικονομική.",
+     "en": "I'm not in a hurry, Christmas is a long way off. I'll take economy."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πιθανότατα δεν θα επιτραπεί να μπει στην Αυστραλία;",
+     "options": [
+      "Το λάδι σε εργοστασιακή συσκευασία",
+      "Τα βιβλία",
+      "Το σπιτικό γλυκό",
+      "Τίποτα από αυτά"
+     ],
+     "answer": "Το σπιτικό γλυκό",
+     "why": "Το σπιτικό γλυκό μάλλον θα το κατασχέσουν στο τελωνείο"
+    },
+    {
+     "q": "Πόσο κάνει να φτάσει το δέμα με την οικονομική υπηρεσία;",
+     "options": [
+      "Δύο μήνες",
+      "Μία εβδομάδα",
+      "Τρεις με πέντε εβδομάδες",
+      "Τρεις μέρες"
+     ],
+     "answer": "Τρεις με πέντε εβδομάδες",
+     "why": "φτάνει σε τρεις με πέντε εβδομάδες"
+    },
+    {
+     "q": "Γιατί διαλέγει ο πελάτης την οικονομική υπηρεσία;",
+     "options": [
+      "Γιατί το δέμα είναι βαρύ",
+      "Γιατί η ταχεία δεν πάει στην Αυστραλία",
+      "Γιατί δεν βιάζεται",
+      "Γιατί δεν θέλει να συμπληρώσει έντυπο"
+     ],
+     "answer": "Γιατί δεν βιάζεται",
+     "why": "Δεν βιάζομαι"
+    }
+   ],
+   "gloss": {
+    "δέμα": "δέμα — parcel",
+    "γλυκά του κουταλιού": "γλυκό του κουταλιού — spoon sweet (fruit preserve)",
+    "αυστηρούς": "αυστηρός — strict",
+    "εργοστασιακή": "εργοστασιακός — factory",
+    "συσκευασία": "συσκευασία — packaging",
+    "σπιτικό": "σπιτικός — homemade",
+    "θα το κατασχέσουν": "κατάσχω — to confiscate",
+    "τελωνείο": "τελωνείο — customs",
+    "ζυγίζει": "ζυγίζω — to weigh",
+    "ταχεία": "ταχεία (υπηρεσία) — express (service)",
+    "έντυπο": "έντυπο — form",
+    "περιεχόμενο": "περιεχόμενο — contents"
+   }
+  },
+  {
+   "id": "l27-dia-kamping",
+   "title": "Στο κατάστημα για κάμπινγκ",
+   "title_en": "At the camping shop",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα κατάστημα με είδη κάμπινγκ και ορειβασίας.",
+   "script": [
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Γεια σας. Θα πάμε με τον φίλο μου για τρεις μέρες στα Άγραφα, με σκηνή. Είναι η πρώτη μας φορά, και δεν έχουμε σχεδόν τίποτα.",
+     "en": "Hello. My boyfriend and I are going to the Agrafa mountains for three days, camping. It's our first time, and we have almost nothing."
+    },
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Ωραία επιλογή, αλλά ο Σεπτέμβρης στα βουνά μπορεί να είναι κρύος, ειδικά τη νύχτα. Το πιο σημαντικό είναι ο υπνόσακος: σας προτείνω έναν που αντέχει μέχρι τους μηδέν βαθμούς. Μη σας ξεγελάει η ζέστη της Αθήνας.",
+     "en": "Good choice, but September in the mountains can be cold, especially at night. The most important thing is the sleeping bag: I suggest one that's good down to zero degrees. Don't be fooled by the heat in Athens."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Και σκηνή; Υπάρχουν τόσα μοντέλα.",
+     "en": "And a tent? There are so many models."
+    },
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Για δύο άτομα, πάρτε μια ελαφριά σκηνή τριών εποχών. Αυτή εδώ ζυγίζει λιγότερο από δύο κιλά και στήνεται σε πέντε λεπτά. Αν δεν θέλετε να ξοδέψετε πολλά για μια πρώτη δοκιμή, μπορείτε και να νοικιάσετε εξοπλισμό από εμάς: σκηνή, υπνόσακους και γκαζάκι, γύρω στα τριάντα ευρώ για όλο το τριήμερο.",
+     "en": "For two people, take a lightweight three-season tent. This one here weighs less than two kilos and goes up in five minutes. If you don't want to spend a lot on a first try, you can also rent equipment from us: tent, sleeping bags and a small gas stove, around thirty euros for the whole three days."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Αυτό ακούγεται ιδανικό. Αν μας αρέσει, την επόμενη φορά θα αγοράσουμε δικά μας.",
+     "en": "That sounds ideal. If we like it, next time we'll buy our own."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο πωλητής δίνει τόση σημασία στον υπνόσακο;",
+     "options": [
+      "Γιατί τις νύχτες στο βουνό μπορεί να κάνει κρύο",
+      "Γιατί είναι το πιο φθηνό είδος",
+      "Γιατί η πελάτισσα έχει ήδη σκηνή",
+      "Γιατί η σκηνή δεν προστατεύει από τη βροχή"
+     ],
+     "answer": "Γιατί τις νύχτες στο βουνό μπορεί να κάνει κρύο",
+     "why": "ο Σεπτέμβρης στα βουνά μπορεί να είναι κρύος, ειδικά τη νύχτα"
+    },
+    {
+     "q": "Τι πλεονέκτημα έχει η σκηνή που προτείνει;",
+     "options": [
+      "Είναι για τον χειμώνα",
+      "Είναι η πιο φθηνή",
+      "Χωράει τέσσερα άτομα",
+      "Είναι ελαφριά και στήνεται γρήγορα"
+     ],
+     "answer": "Είναι ελαφριά και στήνεται γρήγορα",
+     "why": "ζυγίζει λιγότερο από δύο κιλά και στήνεται σε πέντε λεπτά"
+    },
+    {
+     "q": "Τι αποφασίζει τελικά η πελάτισσα;",
+     "options": [
+      "Να νοικιάσει εξοπλισμό για την πρώτη φορά",
+      "Να αγοράσει όλο τον εξοπλισμό",
+      "Να αναβάλει την εκδρομή",
+      "Να μείνει σε ξενοδοχείο"
+     ],
+     "answer": "Να νοικιάσει εξοπλισμό για την πρώτη φορά",
+     "why": "Αυτό ακούγεται ιδανικό"
+    }
+   ],
+   "gloss": {
+    "ορειβασίας": "ορειβασία — mountaineering",
+    "σκηνή": "σκηνή — tent",
+    "υπνόσακος": "υπνόσακος — sleeping bag",
+    "Μη σας ξεγελάει": "ξεγελάω — to fool, deceive",
+    "ελαφριά": "ελαφρύς — light",
+    "εποχών": "εποχή — season",
+    "στήνεται": "στήνομαι — to be set up, pitched",
+    "να ξοδέψετε": "ξοδεύω — to spend",
+    "εξοπλισμό": "εξοπλισμός — equipment",
+    "γκαζάκι": "γκαζάκι — small camping gas stove",
+    "τριήμερο": "τριήμερο — three days, long weekend"
+   }
+  },
+  {
+   "id": "l27-mon-anadoxi",
+   "title": "Ανάδοχη μητέρα",
+   "title_en": "A foster mother",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια γυναίκα να μιλά για την εμπειρία της ως ανάδοχη μητέρα.",
+   "script": [
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Όταν τα δικά μας παιδιά έφυγαν για σπουδές, το σπίτι άδειασε ξαφνικά. Ο άντρας μου κι εγώ νιώθαμε ότι είχαμε ακόμη πολλή αγάπη να δώσουμε. Έτσι κάναμε αίτηση να γίνουμε ανάδοχη οικογένεια.",
+     "en": "When our own children left for university, the house suddenly emptied. My husband and I felt we still had a lot of love to give. So we applied to become a foster family."
+    },
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Η διαδικασία κράτησε σχεδόν έναν χρόνο: συνεντεύξεις με κοινωνικούς λειτουργούς, σεμινάρια, επισκέψεις στο σπίτι. Στην αρχή με εκνεύριζε, αλλά τώρα καταλαβαίνω γιατί είναι τόσο αυστηρή. Αυτά τα παιδιά έχουν ήδη περάσει πολλά.",
+     "en": "The process took almost a year: interviews with social workers, seminars, home visits. At first it annoyed me, but now I understand why it's so strict. These children have already been through a lot."
+    },
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Ο Άγγελος ήρθε σε μας στα έξι του. Τους πρώτους μήνες δεν μιλούσε σχεδόν καθόλου και έκρυβε φαγητό κάτω από το κρεβάτι του, γιατί φοβόταν ότι αύριο δεν θα υπάρχει. Χρειάστηκε πολλή υπομονή για να καταλάβει ότι εδώ είναι ασφαλής.",
+     "en": "Angelos came to us at six. For the first months he hardly spoke at all and hid food under his bed, because he was afraid there wouldn't be any tomorrow. It took a lot of patience for him to understand that he's safe here."
+    },
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Το πιο δύσκολο είναι να ξέρεις ότι ίσως κάποια μέρα επιστρέψει στη βιολογική του οικογένεια. Οι φίλοι μου με ρωτούν πώς θα το αντέξω. Τους απαντώ ότι η αναδοχή δεν σημαίνει ότι κρατάς ένα παιδί· σημαίνει ότι του δίνεις ένα ασφαλές σπίτι όσο το χρειάζεται.",
+     "en": "The hardest thing is knowing that one day he may return to his biological family. My friends ask me how I'll bear it. I tell them that fostering doesn't mean keeping a child; it means giving them a safe home for as long as they need it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί αποφάσισαν να γίνουν ανάδοχη οικογένεια;",
+     "options": [
+      "Γιατί τους το ζήτησε μια κοινωνική λειτουργός",
+      "Γιατί, μετά την αναχώρηση των παιδιών τους, ένιωθαν ότι είχαν ακόμη αγάπη να δώσουν",
+      "Για οικονομικούς λόγους",
+      "Γιατί δεν μπορούσαν να κάνουν παιδιά"
+     ],
+     "answer": "Γιατί, μετά την αναχώρηση των παιδιών τους, ένιωθαν ότι είχαν ακόμη αγάπη να δώσουν",
+     "why": "νιώθαμε ότι είχαμε ακόμη πολλή αγάπη να δώσουμε"
+    },
+    {
+     "q": "Τι έκανε ο Άγγελος τους πρώτους μήνες;",
+     "options": [
+      "Δεν ήθελε να πάει σχολείο",
+      "Έκλαιγε κάθε βράδυ",
+      "Έφευγε από το σπίτι",
+      "Έκρυβε φαγητό κάτω από το κρεβάτι του"
+     ],
+     "answer": "Έκρυβε φαγητό κάτω από το κρεβάτι του",
+     "why": "έκρυβε φαγητό κάτω από το κρεβάτι του"
+    },
+    {
+     "q": "Πώς βλέπει η γυναίκα την αναδοχή;",
+     "options": [
+      "Ως υποχρέωση προς το κράτος",
+      "Ως πρώτο βήμα για υιοθεσία",
+      "Ως προσωρινή δουλειά",
+      "Ως ένα ασφαλές σπίτι για όσο το χρειάζεται το παιδί"
+     ],
+     "answer": "Ως ένα ασφαλές σπίτι για όσο το χρειάζεται το παιδί",
+     "why": "σημαίνει ότι του δίνεις ένα ασφαλές σπίτι όσο το χρειάζεται"
+    }
+   ],
+   "gloss": {
+    "ανάδοχη": "ανάδοχος — foster",
+    "άδειασε": "αδειάζω — to empty",
+    "κοινωνικούς λειτουργούς": "κοινωνικός λειτουργός — social worker",
+    "με εκνεύριζε": "εκνευρίζω — to annoy",
+    "έκρυβε": "κρύβω — to hide",
+    "υπομονή": "υπομονή — patience",
+    "ασφαλής": "ασφαλής — safe",
+    "βιολογική": "βιολογικός — biological",
+    "θα το αντέξω": "αντέχω — to bear, endure",
+    "αναδοχή": "αναδοχή — fostering"
+   }
+  },
+  {
+   "id": "l27-rep-nisyros",
+   "title": "Η Νίσυρος",
+   "title_en": "Nisyros",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ραδιοφωνικό ρεπορτάζ από τη Νίσυρο, στα Δωδεκάνησα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Στέκομαι στον πάτο του κρατήρα Στέφανος, στο κέντρο της Νισύρου, και κάτω από τα πόδια μου το έδαφος είναι ζεστό. Από μικρές τρύπες βγαίνουν ατμοί που μυρίζουν θειάφι, και ακούγεται ένας ήχος σαν να βράζει κάτι βαθιά μέσα στη γη.",
+     "en": "I'm standing on the floor of the Stefanos crater, in the centre of Nisyros, and under my feet the ground is warm. Steam that smells of sulphur comes out of small holes, and there's a sound as if something were boiling deep inside the earth."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Η Νίσυρος είναι ένα ηφαίστειο που αναδύθηκε από τη θάλασσα. Το ηφαίστειο θεωρείται ενεργό, αλλά οι τελευταίες εκρήξεις, τον δέκατο ένατο αιώνα, ήταν υδροθερμικές: ατμός και λάσπη, όχι λάβα. Οι επιστήμονες το παρακολουθούν συνεχώς με σεισμογράφους και αισθητήρες.",
+     "en": "Nisyros is a volcano that rose from the sea. The volcano is considered active, but the last eruptions, in the nineteenth century, were hydrothermal: steam and mud, not lava. Scientists monitor it continuously with seismographs and sensors."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Το ηφαίστειο έχει χαρίσει στο νησί εύφορο έδαφος και ιαματικές πηγές. Στο Μανδράκι, την πρωτεύουσα, τα σπίτια είναι χτισμένα κάτω από ένα κάστρο, ενώ τα χωριά στο χείλος της καλντέρας, όπως η Νικιά, προσφέρουν μια από τις πιο εντυπωσιακές θέες του Αιγαίου. Οι κάτοικοι, λίγο περισσότεροι από χίλιοι, λένε χαμογελώντας ότι ζουν «πάνω στο καπάκι μιας κατσαρόλας».",
+     "en": "The volcano has given the island fertile soil and healing springs. In Mandraki, the capital, the houses are built below a castle, while the villages on the rim of the caldera, like Nikia, offer one of the most impressive views in the Aegean. The inhabitants, a little over a thousand, say with a smile that they live «on the lid of a pot»."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι νιώθει η δημοσιογράφος στον κρατήρα;",
+     "options": [
+      "Βροχή",
+      "Ζεστό έδαφος και μυρωδιά θειαφιού",
+      "Κρύο αέρα",
+      "Σεισμική δόνηση"
+     ],
+     "answer": "Ζεστό έδαφος και μυρωδιά θειαφιού",
+     "why": "κάτω από τα πόδια μου το έδαφος είναι ζεστό"
+    },
+    {
+     "q": "Πώς ήταν οι τελευταίες εκρήξεις του ηφαιστείου;",
+     "options": [
+      "Δεν έχει γίνει ποτέ έκρηξη",
+      "Υδροθερμικές, με ατμό και λάσπη",
+      "Με πολλή λάβα",
+      "Έγιναν πέρσι"
+     ],
+     "answer": "Υδροθερμικές, με ατμό και λάσπη",
+     "why": "ήταν υδροθερμικές: ατμός και λάσπη, όχι λάβα"
+    },
+    {
+     "q": "Τι εννοούν οι κάτοικοι λέγοντας ότι ζουν «πάνω στο καπάκι μιας κατσαρόλας»;",
+     "options": [
+      "Ότι μαγειρεύουν πολύ",
+      "Ότι το νησί είναι μικρό",
+      "Ότι ζουν πάνω σε ένα ηφαίστειο",
+      "Ότι κάνει πολλή ζέστη το καλοκαίρι"
+     ],
+     "answer": "Ότι ζουν πάνω σε ένα ηφαίστειο",
+     "why": "ζουν «πάνω στο καπάκι μιας κατσαρόλας»"
+    }
+   ],
+   "gloss": {
+    "πάτο": "πάτος — bottom, floor",
+    "κρατήρα": "κρατήρας — crater",
+    "ατμοί": "ατμός — steam",
+    "θειάφι": "θειάφι — sulphur",
+    "αναδύθηκε": "αναδύομαι — to emerge, rise",
+    "ενεργό": "ενεργός — active",
+    "υδροθερμικές": "υδροθερμικός — hydrothermal",
+    "αισθητήρες": "αισθητήρας — sensor",
+    "εύφορο": "εύφορος — fertile",
+    "ιαματικές πηγές": "ιαματικές πηγές — healing (thermal) springs",
+    "χείλος": "χείλος — rim, edge",
+    "καλντέρας": "καλντέρα — caldera",
+    "καπάκι": "καπάκι — lid"
+   }
+  },
+  {
+   "id": "l27-rep-vergina",
+   "title": "Οι βασιλικοί τάφοι της Βεργίνας",
+   "title_en": "The royal tombs of Vergina",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από το μουσείο των βασιλικών τάφων στη Βεργίνα της Μακεδονίας.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Από έξω μοιάζει με έναν απλό λόφο σκεπασμένο με χορτάρι. Όταν όμως μπαίνεις μέσα, βρίσκεσαι σε έναν σκοτεινό, σιωπηλό χώρο, όπου λάμπουν χρυσά στεφάνια και πανοπλίες. Είναι το μουσείο των βασιλικών τάφων των Αιγών, της πρώτης πρωτεύουσας του αρχαίου μακεδονικού βασιλείου.",
+     "en": "From outside it looks like an ordinary hill covered in grass. But when you go inside, you find yourself in a dark, silent space where golden wreaths and suits of armour gleam. It is the museum of the royal tombs of Aigai, the first capital of the ancient Macedonian kingdom."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Το 1977 ο αρχαιολόγος Μανόλης Ανδρόνικος ανακάλυψε κάτω από τον μεγάλο τύμβο τάφους που δεν είχαν συληθεί. Σε έναν από αυτούς βρέθηκε μια χρυσή λάρνακα με τα οστά ενός άνδρα, που ο Ανδρόνικος απέδωσε στον Φίλιππο Β΄, τον πατέρα του Μεγάλου Αλεξάνδρου. Η ταύτιση συζητιέται ακόμη από τους ειδικούς, αλλά η σημασία του ευρήματος δεν αμφισβητείται.",
+     "en": "In 1977 the archaeologist Manolis Andronikos discovered beneath the great mound tombs that had not been looted. In one of them a gold larnax was found with the bones of a man, whom Andronikos attributed to Philip II, the father of Alexander the Great. The identification is still debated by specialists, but the importance of the find is not disputed."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Το μουσείο χτίστηκε μέσα στον ίδιο τον τύμβο, ώστε οι τάφοι να μείνουν στη θέση τους. Ο αρχαιολογικός χώρος έχει ανακηρυχθεί μνημείο παγκόσμιας κληρονομιάς από την UNESCO. «Εδώ δεν βλέπεις απλώς αντικείμενα», μου λέει μια φύλακας. «Νιώθεις ότι μπαίνεις σε έναν τάφο.»",
+     "en": "The museum was built inside the mound itself, so that the tombs could stay where they are. The archaeological site has been declared a World Heritage Site by UNESCO. «Here you don't just see objects», a guard tells me. «You feel that you're entering a tomb.»"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς μοιάζει το μουσείο από έξω;",
+     "options": [
+      "Με έναν αρχαίο ναό",
+      "Με ένα κάστρο",
+      "Με έναν λόφο σκεπασμένο με χορτάρι",
+      "Με ένα σύγχρονο κτίριο από γυαλί"
+     ],
+     "answer": "Με έναν λόφο σκεπασμένο με χορτάρι",
+     "why": "μοιάζει με έναν απλό λόφο σκεπασμένο με χορτάρι"
+    },
+    {
+     "q": "Τι ήταν ιδιαίτερο στους τάφους που βρήκε ο Ανδρόνικος;",
+     "options": [
+      "Βρίσκονταν κάτω από τη θάλασσα",
+      "Δεν είχαν συληθεί",
+      "Ήταν άδειοι",
+      "Ήταν ρωμαϊκοί"
+     ],
+     "answer": "Δεν είχαν συληθεί",
+     "why": "τάφους που δεν είχαν συληθεί"
+    },
+    {
+     "q": "Τι λέει το ρεπορτάζ για την ταύτιση του τάφου με τον Φίλιππο Β΄;",
+     "options": [
+      "Ότι συζητιέται ακόμη από τους ειδικούς",
+      "Ότι έχει αποδειχθεί οριστικά",
+      "Ότι έγινε το 2020",
+      "Ότι απορρίφθηκε"
+     ],
+     "answer": "Ότι συζητιέται ακόμη από τους ειδικούς",
+     "why": "Η ταύτιση συζητιέται ακόμη από τους ειδικούς"
+    }
+   ],
+   "gloss": {
+    "στεφάνια": "στεφάνι — wreath",
+    "πανοπλίες": "πανοπλία — suit of armour",
+    "τύμβο": "τύμβος — burial mound",
+    "δεν είχαν συληθεί": "συλώ — to loot, rob (a tomb)",
+    "λάρνακα": "λάρνακα — larnax, small coffin",
+    "οστά": "οστό — bone",
+    "απέδωσε": "αποδίδω — to attribute",
+    "ταύτιση": "ταύτιση — identification",
+    "ευρήματος": "εύρημα — find",
+    "έχει ανακηρυχθεί": "ανακηρύσσομαι — to be declared"
+   }
+  },
+  {
+   "id": "l27-int-maia",
+   "title": "Μια μαία",
+   "title_en": "A midwife",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια μαία που εργάζεται σε δημόσιο μαιευτήριο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πόσα μωρά έχετε βοηθήσει να έρθουν στον κόσμο;",
+     "en": "How many babies have you helped bring into the world?"
+    },
+    {
+     "speaker": "Μαία",
+     "voice": "f",
+     "el": "Κάπου τρεις χιλιάδες, σε είκοσι χρόνια. Κάθε φορά όμως είναι σαν την πρώτη. Ακόμη και σήμερα, όταν ακούω το πρώτο κλάμα ενός μωρού, ανατριχιάζω.",
+     "en": "About three thousand, in twenty years. But every time is like the first. Even today, when I hear a baby's first cry, I get goosebumps."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι κάνει μια μαία που δεν κάνει ο γιατρός;",
+     "en": "What does a midwife do that a doctor doesn't?"
+    },
+    {
+     "speaker": "Μαία",
+     "voice": "f",
+     "el": "Ο γιατρός επεμβαίνει όταν υπάρχει πρόβλημα. Εμείς είμαστε δίπλα στη γυναίκα σε όλη τη διάρκεια του τοκετού, που μπορεί να κρατήσει πολλές ώρες. Της εξηγούμε τι συμβαίνει, τη βοηθάμε να αναπνέει, να αλλάζει θέσεις, να μη φοβάται. Μετά τη γέννα, μαθαίνουμε στις μητέρες να θηλάζουν και να φροντίζουν το μωρό.",
+     "en": "The doctor intervenes when there's a problem. We are beside the woman throughout labour, which can last many hours. We explain what's happening, help her breathe, change position, not be afraid. After the birth, we teach mothers to breastfeed and look after the baby."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποια είναι η μεγαλύτερη δυσκολία του επαγγέλματος;",
+     "en": "What's the biggest difficulty in the profession?"
+    },
+    {
+     "speaker": "Μαία",
+     "voice": "f",
+     "el": "Οι βάρδιες και η έλλειψη προσωπικού. Υπάρχουν νύχτες που μία μαία έχει τρεις και τέσσερις γυναίκες ταυτόχρονα. Τότε δεν μπορείς να δώσεις σε καθεμιά τον χρόνο που της αξίζει, και αυτό είναι που με στενοχωρεί περισσότερο.",
+     "en": "The shifts and the shortage of staff. There are nights when one midwife has three or four women at the same time. Then you can't give each one the time she deserves, and that's what upsets me most."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς νιώθει ακόμη η μαία όταν ακούει το πρώτο κλάμα ενός μωρού;",
+     "options": [
+      "Ανήσυχη",
+      "Αδιάφορη",
+      "Κουρασμένη",
+      "Ανατριχιάζει από συγκίνηση"
+     ],
+     "answer": "Ανατριχιάζει από συγκίνηση",
+     "why": "όταν ακούω το πρώτο κλάμα ενός μωρού, ανατριχιάζω"
+    },
+    {
+     "q": "Ποιος είναι ο ρόλος της μαίας κατά τον τοκετό;",
+     "options": [
+      "Στέκεται δίπλα στη γυναίκα σε όλη τη διάρκεια και τη στηρίζει",
+      "Κάνει μόνο τις επεμβάσεις",
+      "Συμπληρώνει τα χαρτιά",
+      "Ειδοποιεί την οικογένεια"
+     ],
+     "answer": "Στέκεται δίπλα στη γυναίκα σε όλη τη διάρκεια και τη στηρίζει",
+     "why": "Εμείς είμαστε δίπλα στη γυναίκα σε όλη τη διάρκεια του τοκετού"
+    },
+    {
+     "q": "Τι τη στενοχωρεί περισσότερο;",
+     "options": [
+      "Η απόσταση από το σπίτι της",
+      "Ο χαμηλός μισθός",
+      "Ότι λόγω έλλειψης προσωπικού δεν μπορεί να δώσει αρκετό χρόνο σε κάθε γυναίκα",
+      "Οι δύσκολοι γιατροί"
+     ],
+     "answer": "Ότι λόγω έλλειψης προσωπικού δεν μπορεί να δώσει αρκετό χρόνο σε κάθε γυναίκα",
+     "why": "δεν μπορείς να δώσεις σε καθεμιά τον χρόνο που της αξίζει"
+    }
+   ],
+   "gloss": {
+    "μαία": "μαία — midwife",
+    "μαιευτήριο": "μαιευτήριο — maternity hospital",
+    "κλάμα": "κλάμα — crying, cry",
+    "ανατριχιάζω": "ανατριχιάζω — to shiver, get goosebumps",
+    "επεμβαίνει": "επεμβαίνω — to intervene",
+    "τοκετού": "τοκετός — labour, delivery",
+    "να αναπνέει": "αναπνέω — to breathe",
+    "γέννα": "γέννα — birth",
+    "να θηλάζουν": "θηλάζω — to breastfeed",
+    "βάρδιες": "βάρδια — shift",
+    "έλλειψη": "έλλειψη — shortage, lack"
+   }
+  },
+  {
+   "id": "l27-mon-ochi",
+   "title": "Το «Όχι» του 1940",
+   "title_en": "The «No» of 1940",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από μια διάλεξη για την 28η Οκτωβρίου 1940.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Τα ξημερώματα της 28ης Οκτωβρίου 1940, ο Ιταλός πρεσβευτής Εμανουέλε Γκράτσι επισκέφθηκε τον Ιωάννη Μεταξά στο σπίτι του, στην Κηφισιά, και του επέδωσε τελεσίγραφο: η Ελλάδα έπρεπε να επιτρέψει στα ιταλικά στρατεύματα να καταλάβουν στρατηγικά σημεία της χώρας. Ο Μεταξάς απέρριψε το αίτημα.",
+     "en": "In the early hours of 28 October 1940, the Italian ambassador Emanuele Grazzi visited Ioannis Metaxas at his home in Kifisia and handed him an ultimatum: Greece had to allow Italian troops to occupy strategic points in the country. Metaxas rejected the demand."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Αξίζει να σημειώσουμε ότι η περίφημη λέξη «Όχι» δεν ειπώθηκε, απ' ό,τι φαίνεται, αυτούσια. Σύμφωνα με τις μαρτυρίες, ο Μεταξάς απάντησε στα γαλλικά, «Alors, c'est la guerre», δηλαδή «Λοιπόν, έχουμε πόλεμο». Το «Όχι» είναι η συμπύκνωση που επέλεξε η συλλογική μνήμη· και, όπως συχνά συμβαίνει, το σύμβολο αποδείχθηκε ισχυρότερο από την ακριβή διατύπωση.",
+     "en": "It's worth noting that the famous word «No» was apparently not uttered as such. According to the testimonies, Metaxas replied in French, «Alors, c'est la guerre», that is, «Well, then it's war». «No» is the condensed version that collective memory chose; and, as often happens, the symbol proved stronger than the exact wording."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Αυτό που ακολούθησε ξάφνιασε την Ευρώπη. Ο ελληνικός στρατός όχι μόνο ανέκοψε την ιταλική επίθεση στα βουνά της Ηπείρου, αλλά απώθησε τους Ιταλούς βαθιά μέσα στην Αλβανία. Σε μια εποχή που ο Άξονας φαινόταν ανίκητος, ήταν μία από τις πρώτες νίκες των Συμμάχων στην ξηρά.",
+     "en": "What followed astonished Europe. The Greek army not only halted the Italian attack in the mountains of Epirus, but pushed the Italians back deep into Albania. At a time when the Axis seemed invincible, it was one of the first Allied victories on land."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Η νίκη, όμως, δεν άλλαξε την έκβαση. Τον Απρίλιο του 1941 η Γερμανία εισέβαλε στην Ελλάδα, και ακολούθησαν τρία χρόνια κατοχής. Γι' αυτό η 28η Οκτωβρίου δεν γιορτάζεται ως η μέρα μιας τελικής νίκης, αλλά ως η μέρα μιας επιλογής: της απόφασης να αντισταθείς, ακόμη κι όταν οι πιθανότητες είναι εναντίον σου.",
+     "en": "The victory, however, did not change the outcome. In April 1941 Germany invaded Greece, and three years of occupation followed. That is why 28 October is celebrated not as the day of a final victory, but as the day of a choice: the decision to resist, even when the odds are against you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ζητούσε το ιταλικό τελεσίγραφο;",
+     "options": [
+      "Να παραδοθεί ο ελληνικός στόλος",
+      "Να κηρύξει η Ελλάδα πόλεμο στη Βρετανία",
+      "Να επιτραπεί στα ιταλικά στρατεύματα να καταλάβουν στρατηγικά σημεία της χώρας",
+      "Να παραιτηθεί ο Μεταξάς"
+     ],
+     "answer": "Να επιτραπεί στα ιταλικά στρατεύματα να καταλάβουν στρατηγικά σημεία της χώρας",
+     "why": "η Ελλάδα έπρεπε να επιτρέψει στα ιταλικά στρατεύματα να καταλάβουν στρατηγικά σημεία της χώρας"
+    },
+    {
+     "q": "Τι λέει η ιστορικός για τη λέξη «Όχι»;",
+     "options": [
+      "Ότι επινοήθηκε μετά τον πόλεμο από τους Γερμανούς",
+      "Ότι ο Μεταξάς τη φώναξε στα ελληνικά",
+      "Ότι μάλλον δεν ειπώθηκε αυτούσια, αλλά έμεινε ως σύμβολο",
+      "Ότι την έγραψε ο Γκράτσι"
+     ],
+     "answer": "Ότι μάλλον δεν ειπώθηκε αυτούσια, αλλά έμεινε ως σύμβολο",
+     "why": "η περίφημη λέξη «Όχι» δεν ειπώθηκε, απ' ό,τι φαίνεται, αυτούσια"
+    },
+    {
+     "q": "Γιατί η νίκη του ελληνικού στρατού ξάφνιασε την Ευρώπη;",
+     "options": [
+      "Γιατί ο ελληνικός στρατός ήταν ο μεγαλύτερος της Ευρώπης",
+      "Γιατί ο πόλεμος κράτησε μόνο μία μέρα",
+      "Γιατί ήταν μία από τις πρώτες νίκες κατά του Άξονα σε μια εποχή που φαινόταν ανίκητος",
+      "Γιατί η Ιταλία δεν είχε στρατό"
+     ],
+     "answer": "Γιατί ήταν μία από τις πρώτες νίκες κατά του Άξονα σε μια εποχή που φαινόταν ανίκητος",
+     "why": "Σε μια εποχή που ο Άξονας φαινόταν ανίκητος, ήταν μία από τις πρώτες νίκες"
+    },
+    {
+     "q": "Ως τι γιορτάζεται, κατά την ιστορικό, η 28η Οκτωβρίου;",
+     "options": [
+      "Ως η μέρα μιας επιλογής αντίστασης",
+      "Ως η μέρα της τελικής νίκης",
+      "Ως η μέρα της ίδρυσης του κράτους",
+      "Ως η μέρα της απελευθέρωσης"
+     ],
+     "answer": "Ως η μέρα μιας επιλογής αντίστασης",
+     "why": "ως η μέρα μιας επιλογής: της απόφασης να αντισταθείς"
+    }
+   ],
+   "gloss": {
+    "ξημερώματα": "ξημερώματα — early hours, daybreak",
+    "πρεσβευτής": "πρεσβευτής — ambassador",
+    "επέδωσε": "επιδίδω — to hand over, serve",
+    "τελεσίγραφο": "τελεσίγραφο — ultimatum",
+    "απέρριψε": "απορρίπτω — to reject",
+    "αυτούσια": "αυτούσιος — verbatim, in its exact form",
+    "μαρτυρίες": "μαρτυρία — testimony",
+    "συμπύκνωση": "συμπύκνωση — condensation, summary",
+    "διατύπωση": "διατύπωση — wording",
+    "ανέκοψε": "ανακόπτω — to halt, check",
+    "απώθησε": "απωθώ — to push back, repel",
+    "ανίκητος": "ανίκητος — invincible",
+    "έκβαση": "έκβαση — outcome",
+    "εισέβαλε": "εισβάλλω — to invade"
+   }
+  },
+  {
+   "id": "l27-int-mikrovioma",
+   "title": "Το μικροβίωμα του εντέρου",
+   "title_en": "The gut microbiome",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με μια μικροβιολόγο για το μικροβίωμα του εντέρου.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ακούμε όλο και πιο συχνά τη λέξη «μικροβίωμα». Τι ακριβώς σημαίνει;",
+     "en": "We hear the word «microbiome» more and more often. What exactly does it mean?"
+    },
+    {
+     "speaker": "Μικροβιολόγος",
+     "voice": "f",
+     "el": "Είναι το σύνολο των μικροοργανισμών που ζουν μέσα και πάνω στο σώμα μας, κυρίως στο έντερο: τρισεκατομμύρια βακτήρια, αλλά και μύκητες και ιοί. Για δεκαετίες τα βλέπαμε κυρίως ως απειλή. Σήμερα ξέρουμε ότι τα περισσότερα όχι μόνο δεν μας βλάπτουν, αλλά μας είναι απαραίτητα: βοηθούν στην πέψη, παράγουν βιταμίνες και εκπαιδεύουν το ανοσοποιητικό μας σύστημα.",
+     "en": "It's all the microorganisms that live in and on our body, mainly in the gut: trillions of bacteria, but also fungi and viruses. For decades we saw them mainly as a threat. Today we know that most of them not only don't harm us, but are essential to us: they help digestion, produce vitamins and train our immune system."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Μπορούμε να επηρεάσουμε το μικροβίωμά μας;",
+     "en": "Can we influence our microbiome?"
+    },
+    {
+     "speaker": "Μικροβιολόγος",
+     "voice": "f",
+     "el": "Σε μεγάλο βαθμό, ναι, κυρίως μέσω της διατροφής. Η ποικιλία είναι το κλειδί: μια διατροφή πλούσια σε φυτικές ίνες, λαχανικά, όσπρια και ζυμωμένα τρόφιμα, όπως το γιαούρτι, φαίνεται να ευνοεί ένα πιο ποικίλο μικροβίωμα. Αντίθετα, η αλόγιστη χρήση αντιβιοτικών μπορεί να το διαταράξει για μεγάλο διάστημα.",
+     "en": "To a large extent, yes, mainly through diet. Variety is the key: a diet rich in fibre, vegetables, pulses and fermented foods, like yoghurt, seems to favour a more diverse microbiome. Conversely, the reckless use of antibiotics can disrupt it for a long time."
+    },
+    {
+     "speaker": "Μικροβιολόγος",
+     "voice": "f",
+     "el": "Θέλω όμως να είμαι προσεκτική. Υπάρχουν ενδιαφέρουσες ενδείξεις ότι το μικροβίωμα επικοινωνεί ακόμη και με τον εγκέφαλο και ίσως επηρεάζει τη διάθεσή μας. Η έρευνα αυτή, όμως, είναι ακόμη στα πρώτα της βήματα. Όταν βλέπετε συμπληρώματα που υπόσχονται να «θεραπεύσουν» το άγχος μέσω του εντέρου, να είστε δύσπιστοι: η επιστήμη δεν έχει φτάσει ακόμη εκεί.",
+     "en": "But I want to be careful. There are interesting indications that the microbiome communicates even with the brain and may affect our mood. This research, however, is still in its early stages. When you see supplements promising to «cure» anxiety through the gut, be sceptical: science isn't there yet."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς άλλαξε η αντίληψή μας για τα βακτήρια του εντέρου;",
+     "options": [
+      "Δεν άλλαξε καθόλου",
+      "Ανακαλύψαμε ότι δεν υπάρχουν",
+      "Παλιά τα βλέπαμε ως απειλή, σήμερα ξέρουμε ότι τα περισσότερα είναι απαραίτητα",
+      "Τα θεωρούμε πλέον πιο επικίνδυνα"
+     ],
+     "answer": "Παλιά τα βλέπαμε ως απειλή, σήμερα ξέρουμε ότι τα περισσότερα είναι απαραίτητα",
+     "why": "Για δεκαετίες τα βλέπαμε κυρίως ως απειλή"
+    },
+    {
+     "q": "Τι φαίνεται να ευνοεί ένα ποικίλο μικροβίωμα;",
+     "options": [
+      "Μια ποικίλη διατροφή πλούσια σε φυτικές ίνες και ζυμωμένα τρόφιμα",
+      "Τα αντιβιοτικά",
+      "Η νηστεία",
+      "Τα συμπληρώματα βιταμινών"
+     ],
+     "answer": "Μια ποικίλη διατροφή πλούσια σε φυτικές ίνες και ζυμωμένα τρόφιμα",
+     "why": "μια διατροφή πλούσια σε φυτικές ίνες, λαχανικά, όσπρια και ζυμωμένα τρόφιμα"
+    },
+    {
+     "q": "Τι λέει για τη σχέση μικροβιώματος και εγκεφάλου;",
+     "options": [
+      "Ότι υπάρχουν ενδείξεις, αλλά η έρευνα είναι στην αρχή",
+      "Ότι τα συμπληρώματα θεραπεύουν το άγχος",
+      "Ότι δεν υπάρχει καμία σχέση",
+      "Ότι έχει αποδειχθεί πλήρως"
+     ],
+     "answer": "Ότι υπάρχουν ενδείξεις, αλλά η έρευνα είναι στην αρχή",
+     "why": "Η έρευνα αυτή, όμως, είναι ακόμη στα πρώτα της βήματα"
+    },
+    {
+     "q": "Τι συμβουλεύει για τα συμπληρώματα που υπόσχονται θεραπεία του άγχους;",
+     "options": [
+      "Να τα δίνουμε στα παιδιά",
+      "Να είμαστε δύσπιστοι",
+      "Να τα δοκιμάσουμε",
+      "Να τα παίρνουμε με αντιβιοτικά"
+     ],
+     "answer": "Να είμαστε δύσπιστοι",
+     "why": "να είστε δύσπιστοι"
+    }
+   ],
+   "gloss": {
+    "μικροβίωμα": "μικροβίωμα — microbiome",
+    "εντέρου": "έντερο — gut, intestine",
+    "μικροοργανισμών": "μικροοργανισμός — microorganism",
+    "τρισεκατομμύρια": "τρισεκατομμύριο — trillion",
+    "ιοί": "ιός — virus",
+    "πέψη": "πέψη — digestion",
+    "ανοσοποιητικό": "ανοσοποιητικό (σύστημα) — immune system",
+    "φυτικές ίνες": "φυτικές ίνες — dietary fibre",
+    "ζυμωμένα": "ζυμωμένος — fermented",
+    "αλόγιστη": "αλόγιστος — reckless, thoughtless",
+    "να το διαταράξει": "διαταράσσω — to disrupt",
+    "ενδείξεις": "ένδειξη — indication",
+    "συμπληρώματα": "συμπλήρωμα — supplement",
+    "δύσπιστοι": "δύσπιστος — sceptical"
+   }
+  }
+ ]
+}
