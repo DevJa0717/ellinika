@@ -1,0 +1,785 @@
+{
+ "items": [
+  {
+   "id": "l78-ann-lixiarxeio",
+   "title": "Ανακοίνωση στο ληξιαρχείο",
+   "title_en": "Announcement at the registry office",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Περιμένετε στο ληξιαρχείο του δήμου σας για να πάρετε ένα πιστοποιητικό. Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Αγαπητοί δημότες, σας παρακαλούμε να πάρετε αριθμό προτεραιότητας από το μηχάνημα δίπλα στην είσοδο. Το γκισέ ένα εξυπηρετεί δηλώσεις γέννησης και θανάτου, το γκισέ δύο δηλώσεις γάμου και συμφώνου συμβίωσης, και το γκισέ τρία όλα τα υπόλοιπα.",
+     "en": "Dear residents, please take a queue number from the machine next to the entrance. Counter one handles birth and death registrations, counter two marriage and civil partnership registrations, and counter three everything else."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Σας υπενθυμίζουμε ότι τα πιστοποιητικά γέννησης και οικογενειακής κατάστασης εκδίδονται πλέον και ηλεκτρονικά, μέσα σε λίγα λεπτά, από την ψηφιακή πύλη του Δημοσίου. Αν χρειάζεστε μόνο ένα τέτοιο πιστοποιητικό, δεν είναι απαραίτητο να περιμένετε στην ουρά.",
+     "en": "We remind you that birth and family-status certificates are now also issued electronically, within a few minutes, through the government's digital portal. If you only need such a certificate, there's no need to wait in the queue."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Για τη δήλωση γέννησης, παρακαλούμε να έχετε μαζί σας τη βεβαίωση του μαιευτηρίου και τις ταυτότητες και των δύο γονέων. Η υπηρεσία κλείνει στις δύο και μισή, και αριθμοί δίνονται μέχρι τις δύο.",
+     "en": "For a birth registration, please bring the certificate from the maternity hospital and the identity cards of both parents. The office closes at half past two, and numbers are given out until two."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι εξυπηρετεί το γκισέ δύο;",
+     "options": [
+      "Όλα τα υπόλοιπα",
+      "Μόνο πιστοποιητικά",
+      "Δηλώσεις γέννησης και θανάτου",
+      "Δηλώσεις γάμου και συμφώνου συμβίωσης"
+     ],
+     "answer": "Δηλώσεις γάμου και συμφώνου συμβίωσης",
+     "why": "το γκισέ δύο δηλώσεις γάμου και συμφώνου συμβίωσης"
+    },
+    {
+     "q": "Ποιοι δεν χρειάζεται να περιμένουν στην ουρά;",
+     "options": [
+      "Οι ηλικιωμένοι",
+      "Όσοι χρειάζονται μόνο ένα πιστοποιητικό γέννησης ή οικογενειακής κατάστασης",
+      "Όσοι έχουν ραντεβού",
+      "Οι γονείς με μωρά"
+     ],
+     "answer": "Όσοι χρειάζονται μόνο ένα πιστοποιητικό γέννησης ή οικογενειακής κατάστασης",
+     "why": "Αν χρειάζεστε μόνο ένα τέτοιο πιστοποιητικό, δεν είναι απαραίτητο να περιμένετε στην ουρά"
+    },
+    {
+     "q": "Μέχρι πότε δίνονται αριθμοί;",
+     "options": [
+      "Μέχρι τις δύο",
+      "Όλη μέρα",
+      "Μέχρι τη μία",
+      "Μέχρι τις δύο και μισή"
+     ],
+     "answer": "Μέχρι τις δύο",
+     "why": "αριθμοί δίνονται μέχρι τις δύο"
+    }
+   ],
+   "gloss": {
+    "ληξιαρχείο": "ληξιαρχείο — registry office",
+    "πιστοποιητικό": "πιστοποιητικό — certificate",
+    "δημότες": "δημότης — resident (of a municipality)",
+    "αριθμό προτεραιότητας": "αριθμός προτεραιότητας — queue number",
+    "γκισέ": "γκισέ — counter",
+    "συμφώνου συμβίωσης": "σύμφωνο συμβίωσης — civil partnership",
+    "οικογενειακής κατάστασης": "οικογενειακή κατάσταση — family status",
+    "εκδίδονται": "εκδίδομαι — to be issued",
+    "πύλη": "πύλη — portal",
+    "μαιευτηρίου": "μαιευτήριο — maternity hospital"
+   }
+  },
+  {
+   "id": "l78-vm-kommotria",
+   "title": "Μήνυμα από την κομμώτρια",
+   "title_en": "Message from the hairdresser",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Έχετε κλείσει ραντεβού για βαφή μαλλιών σε ένα κομμωτήριο. Θα ακούσετε ένα μήνυμα από την κομμώτρια.",
+   "script": [
+    {
+     "speaker": "Κομμώτρια",
+     "voice": "f",
+     "el": "Γεια σου, Ελπίδα, η Ρούλα είμαι από το κομμωτήριο. Σε παίρνω για το ραντεβού του Σαββάτου. Αφού θα βάψεις πρώτη φορά με αυτή τη βαφή, πρέπει να κάνουμε πρώτα ένα τεστ αλλεργίας, τουλάχιστον σαράντα οκτώ ώρες πριν.",
+     "en": "Hi Elpida, it's Roula from the hair salon. I'm calling about Saturday's appointment. Since you'll be using this dye for the first time, we need to do an allergy test first, at least forty-eight hours before."
+    },
+    {
+     "speaker": "Κομμώτρια",
+     "voice": "f",
+     "el": "Είναι πολύ απλό: βάζουμε λίγη βαφή πίσω από το αυτί και, αν σε δύο μέρες δεν έχεις κοκκινίλα ή φαγούρα, προχωράμε κανονικά. Μπορείς να περάσεις την Πέμπτη, οποιαδήποτε ώρα, κρατάει πέντε λεπτά.",
+     "en": "It's very simple: we put a little dye behind your ear and, if in two days you have no redness or itching, we go ahead as normal. You can drop by on Thursday, any time, it takes five minutes."
+    },
+    {
+     "speaker": "Κομμώτρια",
+     "voice": "f",
+     "el": "Και κάτι ακόμα: μη λούσεις τα μαλλιά σου την ίδια μέρα της βαφής, γιατί το χρώμα πιάνει καλύτερα. Αν δεν μπορείς την Πέμπτη, πες μου να μεταθέσουμε το ραντεβού. Φιλιά!",
+     "en": "And one more thing: don't wash your hair on the day of the colouring, because the colour takes better. If you can't make Thursday, tell me and we'll move the appointment. Love!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί χρειάζεται τεστ αλλεργίας;",
+     "options": [
+      "Γιατί θα βάψει πρώτη φορά με αυτή τη βαφή",
+      "Γιατί η Ελπίδα έχει αλλεργίες",
+      "Γιατί το απαιτεί ο νόμος για όλους",
+      "Γιατί άλλαξε κομμωτήριο"
+     ],
+     "answer": "Γιατί θα βάψει πρώτη φορά με αυτή τη βαφή",
+     "why": "Αφού θα βάψεις πρώτη φορά με αυτή τη βαφή"
+    },
+    {
+     "q": "Πότε μπορεί να περάσει για το τεστ;",
+     "options": [
+      "Την Παρασκευή το απόγευμα",
+      "Το Σάββατο το πρωί",
+      "Την Πέμπτη, οποιαδήποτε ώρα",
+      "Μόνο με ραντεβού τη Δευτέρα"
+     ],
+     "answer": "Την Πέμπτη, οποιαδήποτε ώρα",
+     "why": "Μπορείς να περάσεις την Πέμπτη, οποιαδήποτε ώρα"
+    },
+    {
+     "q": "Τι δεν πρέπει να κάνει την ημέρα της βαφής;",
+     "options": [
+      "Να κολυμπήσει",
+      "Να φάει",
+      "Να βγει στον ήλιο",
+      "Να λούσει τα μαλλιά της"
+     ],
+     "answer": "Να λούσει τα μαλλιά της",
+     "why": "μη λούσεις τα μαλλιά σου την ίδια μέρα της βαφής"
+    }
+   ],
+   "gloss": {
+    "κομμώτρια": "κομμώτρια — hairdresser (woman)",
+    "βαφή": "βαφή — dye, colouring",
+    "κομμωτήριο": "κομμωτήριο — hair salon",
+    "αλλεργίας": "αλλεργία — allergy",
+    "κοκκινίλα": "κοκκινίλα — redness",
+    "φαγούρα": "φαγούρα — itching",
+    "λούσεις": "λούζω — to wash (hair)",
+    "πιάνει": "πιάνω — (of colour) to take",
+    "μεταθέσουμε": "μεταθέτω — to move, postpone"
+   }
+  },
+  {
+   "id": "l78-dia-agios-vasilis",
+   "title": "Θα πούμε την αλήθεια για τον Άγιο Βασίλη;",
+   "title_en": "Shall we tell the truth about Father Christmas?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Δύο γονείς συζητούν αν πρέπει να πουν στην οκτάχρονη κόρη τους την αλήθεια για τον Άγιο Βασίλη.",
+   "script": [
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Η Μυρτώ με ρώτησε σήμερα ευθέως αν ο Άγιος Βασίλης υπάρχει. Ένα παιδί στο σχολείο τής είπε ότι τα δώρα τα αγοράζουν οι γονείς. Δεν ήξερα τι να απαντήσω και άλλαξα θέμα.",
+     "en": "Myrto asked me straight out today whether Father Christmas exists. A child at school told her that the parents buy the presents. I didn't know what to answer and changed the subject."
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Είναι οχτώ χρονών, Θοδωρή. Αν ρωτάει τόσο ευθέως, μάλλον ήδη υποψιάζεται. Δεν θέλω να της πούμε ψέματα κατάμουτρα· θα νιώσει ότι την κοροϊδεύαμε.",
+     "en": "She's eight, Thodoris. If she's asking so directly, she probably already suspects. I don't want us to lie to her face; she'll feel we were making fun of her."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Ναι, αλλά έχει και έναν μικρό αδερφό. Αν το μάθει, θα το πει αμέσως στον Άρη, και αυτός είναι μόλις τεσσάρων.",
+     "en": "Yes, but she also has a little brother. If she finds out, she'll tell Aris straight away, and he's only four."
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Γι’ αυτό λέω να της το πούμε σαν μυστικό των μεγάλων. Ότι ο Άγιος Βασίλης είναι μια ιστορία που κρατάμε ζωντανή για να χαίρονται οι μικροί, και ότι από φέτος μπορεί να γίνει κι εκείνη βοηθός του. Να διαλέξει μαζί μας το δώρο του Άρη.",
+     "en": "That's why I say we tell her as a grown-ups' secret. That Father Christmas is a story we keep alive so the little ones can enjoy it, and that from this year she can become one of his helpers too. She can choose Aris's present with us."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Μου αρέσει. Έτσι δεν χάνει τη μαγεία, απλώς αλλάζει ρόλο.",
+     "en": "I like it. That way she doesn't lose the magic, she just changes role."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί η Μυρτώ ρώτησε για τον Άγιο Βασίλη;",
+     "options": [
+      "Το είδε σε μια ταινία",
+      "Ο αδερφός της τής το είπε",
+      "Ένα παιδί στο σχολείο τής είπε ότι τα δώρα τα αγοράζουν οι γονείς",
+      "Βρήκε τα δώρα κρυμμένα"
+     ],
+     "answer": "Ένα παιδί στο σχολείο τής είπε ότι τα δώρα τα αγοράζουν οι γονείς",
+     "why": "Ένα παιδί στο σχολείο τής είπε ότι τα δώρα τα αγοράζουν οι γονείς"
+    },
+    {
+     "q": "Τι ανησυχεί τον Θοδωρή;",
+     "options": [
+      "Ότι η Μυρτώ θα το πει στον μικρό της αδερφό",
+      "Ότι η Μυρτώ θα κλάψει",
+      "Ότι θα θυμώσει η γιαγιά",
+      "Ότι δεν θα θέλει πια δώρα"
+     ],
+     "answer": "Ότι η Μυρτώ θα το πει στον μικρό της αδερφό",
+     "why": "θα το πει αμέσως στον Άρη"
+    },
+    {
+     "q": "Τι προτείνει η Κατερίνα;",
+     "options": [
+      "Να συνεχίσουν να λένε ψέματα",
+      "Να μη γιορτάσουν φέτος τα Χριστούγεννα",
+      "Να ρωτήσουν τη δασκάλα",
+      "Να της το πουν σαν μυστικό των μεγάλων και να γίνει βοηθός"
+     ],
+     "answer": "Να της το πουν σαν μυστικό των μεγάλων και να γίνει βοηθός",
+     "why": "να της το πούμε σαν μυστικό των μεγάλων"
+    }
+   ],
+   "gloss": {
+    "Άγιο Βασίλη": "Άγιος Βασίλης — Saint Basil (the Greek Father Christmas, who comes on New Year's Day)",
+    "ευθέως": "ευθέως — directly, straight out",
+    "υποψιάζεται": "υποψιάζομαι — to suspect",
+    "κατάμουτρα": "κατάμουτρα — to someone's face",
+    "κοροϊδεύαμε": "κοροϊδεύω — to make fun of, deceive",
+    "μυστικό": "μυστικό — secret",
+    "βοηθός": "βοηθός — helper",
+    "μαγεία": "μαγεία — magic",
+    "ρόλο": "ρόλος — role"
+   }
+  },
+  {
+   "id": "l78-dia-agriochoiroi",
+   "title": "Αγριογούρουνα στον κήπο",
+   "title_en": "Wild boar in the garden",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Δύο γείτονες σε ένα προάστιο κοντά στο βουνό συζητούν για τα αγριογούρουνα που κατεβαίνουν τη νύχτα στους κήπους.",
+   "script": [
+    {
+     "speaker": "Στράτος",
+     "voice": "m",
+     "el": "Είδες τι έγινε απόψε; Μου όργωσαν ολόκληρο το γκαζόν και έφαγαν όλες τις πατάτες που είχα φυτέψει. Ήταν τουλάχιστον πέντε, μια μάνα με τα μικρά της.",
+     "en": "Did you see what happened last night? They dug up my whole lawn and ate all the potatoes I'd planted. There were at least five, a mother with her young."
+    },
+    {
+     "speaker": "Λίνα",
+     "voice": "f",
+     "el": "Κι εμένα μου αναποδογύρισαν τους κάδους. Από την πυρκαγιά και μετά κατεβαίνουν όλο και πιο συχνά· στο βουνό δεν έχουν πια αρκετή τροφή, και εδώ βρίσκουν σκουπίδια και ποτισμένους κήπους.",
+     "en": "They knocked over my bins too. Since the fire they've been coming down more and more often; on the mountain there isn't enough food any more, and here they find rubbish and watered gardens."
+    },
+    {
+     "speaker": "Στράτος",
+     "voice": "m",
+     "el": "Εγώ λέω να καλέσουμε τους κυνηγούς. Αν συνεχιστεί, κάποιος θα τραυματιστεί. Χθες το βράδυ ένα αυτοκίνητο παραλίγο να πέσει πάνω τους στη στροφή.",
+     "en": "I say we call the hunters. If this goes on, someone will get hurt. Last night a car nearly hit them on the bend."
+    },
+    {
+     "speaker": "Λίνα",
+     "voice": "f",
+     "el": "Μέσα στον οικισμό απαγορεύεται το κυνήγι, και δικαίως. Το δασαρχείο λέει ότι το πιο αποτελεσματικό είναι να κλείνουμε καλά τους κάδους και να μην αφήνουμε φαγητό για τις γάτες έξω τη νύχτα. Και να βάλουμε περίφραξη με ηλεκτρικό σύρμα χαμηλής τάσης, που δεν τα βλάπτει, απλώς τα διώχνει.",
+     "en": "Hunting is banned inside the settlement, and rightly so. The forestry office says the most effective thing is to close the bins properly and not leave food out for the cats at night. And to put up fencing with low-voltage electric wire, which doesn't harm them, it just drives them away."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έπαθε ο κήπος του Στράτου;",
+     "options": [
+      "Τα αγριογούρουνα όργωσαν το γκαζόν και έφαγαν τις πατάτες",
+      "Πλημμύρισε",
+      "Τον κατέστρεψαν οι γάτες",
+      "Κάηκε"
+     ],
+     "answer": "Τα αγριογούρουνα όργωσαν το γκαζόν και έφαγαν τις πατάτες",
+     "why": "Μου όργωσαν ολόκληρο το γκαζόν και έφαγαν όλες τις πατάτες"
+    },
+    {
+     "q": "Γιατί, κατά τη Λίνα, κατεβαίνουν πιο συχνά τα ζώα;",
+     "options": [
+      "Γιατί τα ταΐζουν οι κάτοικοι",
+      "Γιατί φοβούνται τους κυνηγούς",
+      "Γιατί είναι πάρα πολλά",
+      "Γιατί μετά την πυρκαγιά δεν έχουν αρκετή τροφή στο βουνό"
+     ],
+     "answer": "Γιατί μετά την πυρκαγιά δεν έχουν αρκετή τροφή στο βουνό",
+     "why": "στο βουνό δεν έχουν πια αρκετή τροφή"
+    },
+    {
+     "q": "Τι προτείνει το δασαρχείο;",
+     "options": [
+      "Να ταΐζουν τα ζώα στο βουνό",
+      "Να κλείνουν καλά τους κάδους και να βάλουν περίφραξη χαμηλής τάσης",
+      "Να έρθουν κυνηγοί",
+      "Να μετακομίσουν οι κάτοικοι"
+     ],
+     "answer": "Να κλείνουν καλά τους κάδους και να βάλουν περίφραξη χαμηλής τάσης",
+     "why": "να κλείνουμε καλά τους κάδους"
+    }
+   ],
+   "gloss": {
+    "αγριογούρουνα": "αγριογούρουνο — wild boar",
+    "προάστιο": "προάστιο — suburb",
+    "όργωσαν": "οργώνω — to plough, dig up",
+    "γκαζόν": "γκαζόν — lawn",
+    "αναποδογύρισαν": "αναποδογυρίζω — to knock over, overturn",
+    "πυρκαγιά": "πυρκαγιά — (wild)fire",
+    "τραυματιστεί": "τραυματίζομαι — to be injured",
+    "οικισμό": "οικισμός — settlement",
+    "δασαρχείο": "δασαρχείο — forestry office",
+    "περίφραξη": "περίφραξη — fencing",
+    "τάσης": "τάση — voltage"
+   }
+  },
+  {
+   "id": "l78-int-odontotechnitria",
+   "title": "Η οδοντοτεχνίτρια",
+   "title_en": "The dental technician",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Σε μια εκπομπή για τα λιγότερο γνωστά επαγγέλματα μιλά μια οδοντοτεχνίτρια.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Οι περισσότεροι δεν έχουμε ιδέα τι κάνει ένας οδοντοτεχνίτης. Μας εξηγείτε;",
+     "en": "Most of us have no idea what a dental technician does. Can you explain?"
+    },
+    {
+     "speaker": "Οδοντοτεχνίτρια",
+     "voice": "f",
+     "el": "Φτιάχνουμε όλα όσα μπαίνουν στο στόμα και δεν είναι φυσικά δόντια: στεφάνες, γέφυρες, οδοντοστοιχίες. Δεν βλέπουμε σχεδόν ποτέ τον ασθενή. Ο οδοντίατρος μάς στέλνει ένα αποτύπωμα ή, όλο και πιο συχνά, μια ψηφιακή σάρωση, και εμείς δουλεύουμε στο εργαστήριο.",
+     "en": "We make everything that goes in the mouth and isn't natural teeth: crowns, bridges, dentures. We almost never see the patient. The dentist sends us an impression or, more and more often, a digital scan, and we work in the laboratory."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Η τεχνολογία έχει αλλάξει πολύ τη δουλειά σας;",
+     "en": "Has technology changed your work a lot?"
+    },
+    {
+     "speaker": "Οδοντοτεχνίτρια",
+     "voice": "f",
+     "el": "Τεράστια. Πολλές στεφάνες σχεδιάζονται πια στον υπολογιστή και κόβονται από μηχανήματα. Αλλά το πιο δύσκολο κομμάτι παραμένει χειροποίητο: το χρώμα. Κανένα δόντι δεν είναι απλώς άσπρο. Έχει αποχρώσεις, διαφάνειες, μικρές ατέλειες. Αν ένα ψεύτικο δόντι είναι τέλειο, φαίνεται αμέσως ψεύτικο.",
+     "en": "Enormously. Many crowns are now designed on the computer and cut by machines. But the hardest part is still done by hand: the colour. No tooth is simply white. It has shades, translucencies, small imperfections. If a false tooth is perfect, it immediately looks false."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι φτιάχνει ένας οδοντοτεχνίτης;",
+     "options": [
+      "Οδοντόβουρτσες",
+      "Εργαλεία για οδοντιάτρους",
+      "Φάρμακα για τα δόντια",
+      "Στεφάνες, γέφυρες και οδοντοστοιχίες"
+     ],
+     "answer": "Στεφάνες, γέφυρες και οδοντοστοιχίες",
+     "why": "στεφάνες, γέφυρες, οδοντοστοιχίες"
+    },
+    {
+     "q": "Πώς δουλεύει με τον ασθενή;",
+     "options": [
+      "Σχεδόν ποτέ δεν τον βλέπει· δουλεύει με αποτύπωμα ή ψηφιακή σάρωση",
+      "Του τηλεφωνεί για οδηγίες",
+      "Τον εξετάζει μαζί με τον οδοντίατρο",
+      "Τον βλέπει κάθε εβδομάδα"
+     ],
+     "answer": "Σχεδόν ποτέ δεν τον βλέπει· δουλεύει με αποτύπωμα ή ψηφιακή σάρωση",
+     "why": "Δεν βλέπουμε σχεδόν ποτέ τον ασθενή"
+    },
+    {
+     "q": "Γιατί ένα «τέλειο» ψεύτικο δόντι δεν είναι καλό;",
+     "options": [
+      "Γιατί πονάει",
+      "Γιατί κοστίζει πολύ",
+      "Γιατί φαίνεται αμέσως ψεύτικο",
+      "Γιατί σπάει εύκολα"
+     ],
+     "answer": "Γιατί φαίνεται αμέσως ψεύτικο",
+     "why": "Αν ένα ψεύτικο δόντι είναι τέλειο, φαίνεται αμέσως ψεύτικο"
+    }
+   ],
+   "gloss": {
+    "οδοντοτεχνίτρια": "οδοντοτεχνίτρια — dental technician (woman)",
+    "στεφάνες": "στεφάνη — (dental) crown",
+    "γέφυρες": "γέφυρα — bridge",
+    "οδοντοστοιχίες": "οδοντοστοιχία — denture",
+    "αποτύπωμα": "αποτύπωμα — impression, mould",
+    "σάρωση": "σάρωση — scan",
+    "χειροποίητο": "χειροποίητος — handmade",
+    "αποχρώσεις": "απόχρωση — shade",
+    "διαφάνειες": "διαφάνεια — translucency",
+    "ατέλειες": "ατέλεια — imperfection"
+   }
+  },
+  {
+   "id": "l78-rep-tzitzikia",
+   "title": "Τα τζιτζίκια του καλοκαιριού",
+   "title_en": "The cicadas of summer",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από μια ραδιοφωνική εκπομπή για τη φύση.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Για τους περισσότερους Έλληνες, ο ήχος του καλοκαιριού είναι το τζιτζίκι. Λίγοι όμως ξέρουν ότι τραγουδούν μόνο τα αρσενικά. Ο ήχος δεν βγαίνει από το στόμα, αλλά από δύο μεμβράνες στην κοιλιά τους, που δονούνται εκατοντάδες φορές το δευτερόλεπτο. Σκοπός τους είναι να προσελκύσουν τα θηλυκά.",
+     "en": "For most Greeks, the sound of summer is the cicada. But few know that only the males sing. The sound doesn't come from the mouth, but from two membranes on their abdomen, which vibrate hundreds of times a second. Their aim is to attract the females."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Το πιο εντυπωσιακό, ωστόσο, είναι ο κύκλος ζωής τους. Το τζιτζίκι που ακούμε στο πεύκο έχει περάσει τα περισσότερα χρόνια της ζωής του κάτω από τη γη, ως νύμφη, πίνοντας τον χυμό από τις ρίζες των δέντρων. Βγαίνει στην επιφάνεια μόνο για λίγες εβδομάδες, για να ζευγαρώσει και να πεθάνει.",
+     "en": "The most impressive thing, however, is their life cycle. The cicada we hear in the pine tree has spent most of its life underground, as a nymph, drinking sap from the roots of trees. It comes up to the surface only for a few weeks, to mate and die."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Ο Αίσωπος, στον γνωστό μύθο, έκανε το τζιτζίκι σύμβολο της τεμπελιάς απέναντι στο εργατικό μυρμήγκι. Οι αρχαίοι Αθηναίοι, όμως, το αγαπούσαν· το θεωρούσαν σύμβολο της μουσικής, και κάποιοι φορούσαν χρυσά τζιτζίκια στα μαλλιά τους.",
+     "en": "Aesop, in the well-known fable, made the cicada a symbol of laziness compared to the hard-working ant. The ancient Athenians, however, loved it; they considered it a symbol of music, and some wore golden cicadas in their hair."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια τζιτζίκια τραγουδούν;",
+     "options": [
+      "Όλα",
+      "Μόνο τα θηλυκά",
+      "Μόνο τα νεαρά",
+      "Μόνο τα αρσενικά"
+     ],
+     "answer": "Μόνο τα αρσενικά",
+     "why": "τραγουδούν μόνο τα αρσενικά"
+    },
+    {
+     "q": "Πού περνά το τζιτζίκι τα περισσότερα χρόνια της ζωής του;",
+     "options": [
+      "Μέσα στο νερό",
+      "Στα κλαδιά των πεύκων",
+      "Κάτω από τη γη, ως νύμφη",
+      "Σε άλλες χώρες"
+     ],
+     "answer": "Κάτω από τη γη, ως νύμφη",
+     "why": "κάτω από τη γη, ως νύμφη"
+    },
+    {
+     "q": "Πώς έβλεπαν το τζιτζίκι οι αρχαίοι Αθηναίοι;",
+     "options": [
+      "Ως κακό οιωνό",
+      "Ως φαγητό",
+      "Ως σύμβολο της τεμπελιάς",
+      "Ως σύμβολο της μουσικής"
+     ],
+     "answer": "Ως σύμβολο της μουσικής",
+     "why": "το θεωρούσαν σύμβολο της μουσικής"
+    }
+   ],
+   "gloss": {
+    "τζιτζίκι": "τζιτζίκι — cicada",
+    "αρσενικά": "αρσενικός — male",
+    "μεμβράνες": "μεμβράνη — membrane",
+    "δονούνται": "δονούμαι — to vibrate",
+    "προσελκύσουν": "προσελκύω — to attract",
+    "νύμφη": "νύμφη — nymph (insect stage)",
+    "χυμό": "χυμός — sap, juice",
+    "ζευγαρώσει": "ζευγαρώνω — to mate",
+    "τεμπελιάς": "τεμπελιά — laziness",
+    "μυρμήγκι": "μυρμήγκι — ant"
+   }
+  },
+  {
+   "id": "l78-rep-alonia",
+   "title": "Τα αλώνια των Κυκλάδων",
+   "title_en": "The threshing floors of the Cyclades",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για τα παλιά αλώνια σε ένα νησί των Κυκλάδων.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Περπατώντας στα μονοπάτια της Σίφνου, ο επισκέπτης συναντά συχνά μεγάλους πέτρινους κύκλους, στρωμένους με πλάκες, πάνω σε λόφους ή στις άκρες των χωραφιών. Είναι τα αλώνια, όπου μέχρι τη δεκαετία του εξήντα οι αγρότες χώριζαν το σιτάρι από το άχυρο.",
+     "en": "Walking the paths of Sifnos, visitors often come across large stone circles, paved with slabs, on hills or at the edges of fields. These are the threshing floors, where until the sixties farmers separated the wheat from the straw."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Τον Ιούλιο άπλωναν τα στάχυα στο αλώνι, και ζώα, συνήθως άλογα ή γαϊδούρια, γύριζαν γύρω γύρω πάνω τους για ώρες. Μετά οι αγρότες περίμεναν τον αέρα: πετούσαν το μείγμα ψηλά με ξύλινα δικράνια, το ελαφρύ άχυρο το έπαιρνε ο αέρας και ο βαρύς καρπός έπεφτε κάτω. Γι’ αυτό τα αλώνια χτίζονταν σε ανεμοδαρμένα σημεία.",
+     "en": "In July they spread the ears of wheat on the threshing floor, and animals, usually horses or donkeys, walked round and round on them for hours. Then the farmers waited for the wind: they tossed the mixture high with wooden pitchforks, the light straw was carried off by the wind and the heavy grain fell down. That's why threshing floors were built in windswept spots."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Σήμερα τα περισσότερα είναι εγκαταλειμμένα, αλλά ένας τοπικός σύλλογος έχει αρχίσει να τα καθαρίζει και να τα σημαδεύει σε χάρτες πεζοπορίας. Κάθε καλοκαίρι, σε ένα από αυτά, οργανώνεται μια γιορτή όπου οι παλιότεροι δείχνουν στα παιδιά πώς γινόταν το αλώνισμα.",
+     "en": "Today most are abandoned, but a local association has begun clearing them and marking them on hiking maps. Every summer, on one of them, a festival is held where older people show the children how threshing was done."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Σε τι χρησίμευαν τα αλώνια;",
+     "options": [
+      "Για χορούς",
+      "Για να χωρίζουν το σιτάρι από το άχυρο",
+      "Για να βόσκουν τα ζώα",
+      "Για να μαζεύουν νερό"
+     ],
+     "answer": "Για να χωρίζουν το σιτάρι από το άχυρο",
+     "why": "οι αγρότες χώριζαν το σιτάρι από το άχυρο"
+    },
+    {
+     "q": "Γιατί τα αλώνια χτίζονταν σε ανεμοδαρμένα σημεία;",
+     "options": [
+      "Γιατί χρειαζόταν αέρας για να φύγει το ελαφρύ άχυρο",
+      "Γιατί εκεί υπήρχαν πέτρες",
+      "Για να είναι μακριά από τα σπίτια",
+      "Για να έχουν θέα"
+     ],
+     "answer": "Γιατί χρειαζόταν αέρας για να φύγει το ελαφρύ άχυρο",
+     "why": "το ελαφρύ άχυρο το έπαιρνε ο αέρας"
+    },
+    {
+     "q": "Τι κάνει σήμερα ένας τοπικός σύλλογος;",
+     "options": [
+      "Χτίζει καινούργια",
+      "Τα πουλάει σε ξένους",
+      "Καλλιεργεί σιτάρι σε όλα",
+      "Τα καθαρίζει και τα σημαδεύει σε χάρτες πεζοπορίας"
+     ],
+     "answer": "Τα καθαρίζει και τα σημαδεύει σε χάρτες πεζοπορίας",
+     "why": "έχει αρχίσει να τα καθαρίζει και να τα σημαδεύει σε χάρτες πεζοπορίας"
+    }
+   ],
+   "gloss": {
+    "αλώνια": "αλώνι — threshing floor",
+    "πλάκες": "πλάκα — (stone) slab",
+    "σιτάρι": "σιτάρι — wheat",
+    "άχυρο": "άχυρο — straw",
+    "στάχυα": "στάχυ — ear (of wheat)",
+    "δικράνια": "δικράνι — wooden (two-pronged) pitchfork",
+    "καρπός": "καρπός — grain",
+    "ανεμοδαρμένα": "ανεμοδαρμένος — windswept",
+    "πεζοπορίας": "πεζοπορία — hiking",
+    "αλώνισμα": "αλώνισμα — threshing"
+   }
+  },
+  {
+   "id": "l78-mono-paidikos-filos",
+   "title": "Ξαναβρήκα τον παιδικό μου φίλο",
+   "title_en": "I found my childhood friend again",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ένας άντρας διηγείται σε ένα podcast πώς ξαναβρήκε έναν φίλο από το δημοτικό.",
+   "script": [
+    {
+     "speaker": "Βαγγέλης",
+     "voice": "m",
+     "el": "Με τον Τάσο ήμασταν αχώριστοι από την πρώτη δημοτικού. Καθόμασταν στο ίδιο θρανίο, παίζαμε μπάλα στην ίδια αλάνα, και τα καλοκαίρια χανόμασταν μαζί στο ποτάμι. Στην πέμπτη τάξη ο πατέρας του πήρε μετάθεση στη Θράκη, και μια μέρα απλώς δεν ήρθε στο σχολείο.",
+     "en": "Tasos and I were inseparable from the first year of primary school. We sat at the same desk, played football on the same patch of waste ground, and in summer we disappeared together down by the river. In fifth grade his father was transferred to Thrace, and one day he simply didn't come to school."
+    },
+    {
+     "speaker": "Βαγγέλης",
+     "voice": "m",
+     "el": "Για χρόνια σκεφτόμουν να τον ψάξω, αλλά δεν θυμόμουν ούτε το επώνυμό του σωστά. Πέρσι η κόρη μου ανέβασε σε μια ομάδα του χωριού μια παλιά σχολική φωτογραφία. Μέσα σε δύο ώρες κάποιος έγραψε στα σχόλια: «Ο δεύτερος από αριστερά είναι ο θείος μου ο Τάσος!»",
+     "en": "For years I thought about looking for him, but I couldn't even remember his surname correctly. Last year my daughter posted an old school photo in a village group. Within two hours someone wrote in the comments: 'The second from the left is my uncle Tasos!'"
+    },
+    {
+     "speaker": "Βαγγέλης",
+     "voice": "m",
+     "el": "Συναντηθήκαμε σε ένα καφενείο στη Λάρισα, στη μέση της απόστασης. Φοβόμουν ότι δεν θα είχαμε τι να πούμε, μετά από σαράντα χρόνια. Καθίσαμε πέντε ώρες. Στο τέλος μού έδωσε ένα κουτάκι: μέσα ήταν μια γυάλινη μπίλια που του είχα χαρίσει το τελευταίο μας καλοκαίρι.",
+     "en": "We met in a café in Larissa, halfway between us. I was afraid we'd have nothing to say after forty years. We sat for five hours. At the end he gave me a little box: inside was a glass marble I'd given him our last summer."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί έφυγε ο Τάσος από το σχολείο;",
+     "options": [
+      "Ο πατέρας του πήρε μετάθεση στη Θράκη",
+      "Αρρώστησε",
+      "Μάλωσαν οι οικογένειες",
+      "Άλλαξε σχολείο για να παίζει μπάλα"
+     ],
+     "answer": "Ο πατέρας του πήρε μετάθεση στη Θράκη",
+     "why": "ο πατέρας του πήρε μετάθεση στη Θράκη"
+    },
+    {
+     "q": "Πώς τον ξαναβρήκε ο Βαγγέλης;",
+     "options": [
+      "Από τον τηλεφωνικό κατάλογο",
+      "Μέσα από μια παλιά σχολική φωτογραφία σε μια ομάδα του χωριού",
+      "Τον συνάντησε τυχαία",
+      "Μέσα από το σχολείο"
+     ],
+     "answer": "Μέσα από μια παλιά σχολική φωτογραφία σε μια ομάδα του χωριού",
+     "why": "η κόρη μου ανέβασε σε μια ομάδα του χωριού μια παλιά σχολική φωτογραφία"
+    },
+    {
+     "q": "Τι του έδωσε ο Τάσος στο τέλος της συνάντησης;",
+     "options": [
+      "Ένα γράμμα",
+      "Μια μπάλα",
+      "Μια φωτογραφία",
+      "Μια γυάλινη μπίλια που του είχε χαρίσει ο Βαγγέλης"
+     ],
+     "answer": "Μια γυάλινη μπίλια που του είχε χαρίσει ο Βαγγέλης",
+     "why": "μια γυάλινη μπίλια που του είχα χαρίσει το τελευταίο μας καλοκαίρι"
+    }
+   ],
+   "gloss": {
+    "αχώριστοι": "αχώριστος — inseparable",
+    "θρανίο": "θρανίο — school desk",
+    "αλάνα": "αλάνα — patch of waste ground (where children play)",
+    "μετάθεση": "μετάθεση — (job) transfer",
+    "επώνυμό": "επώνυμο — surname",
+    "ανέβασε": "ανεβάζω — to post, upload",
+    "σχόλια": "σχόλιο — comment",
+    "καφενείο": "καφενείο — (traditional) café",
+    "μπίλια": "μπίλια — marble (toy)",
+    "χαρίσει": "χαρίζω — to give (as a gift)"
+   }
+  },
+  {
+   "id": "l78-c1-gaidouria-santorinis",
+   "title": "Τα γαϊδουράκια της Σαντορίνης και η ηθική των ζώων εργασίας",
+   "title_en": "The donkeys of Santorini and the ethics of working animals",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε απόσπασμα από μια ομιλία μιας κτηνιάτρου σε ένα συνέδριο για την ευζωία των ζώων.",
+   "script": [
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Η εικόνα του γαϊδουριού που ανεβάζει τουρίστες από το παλιό λιμάνι στα Φηρά, περίπου εξακόσια σκαλοπάτια, έχει γίνει σχεδόν σύμβολο της Σαντορίνης. Τα τελευταία χρόνια, όμως, έχει γίνει και σύμβολο κάτι άλλου: της έντασης ανάμεσα στην παράδοση και την ευζωία των ζώων. Φωτογραφίες με εξαντλημένα ζώα και πληγές από τα σαμάρια έκαναν τον γύρο του κόσμου.",
+     "en": "The image of the donkey carrying tourists up from the old port to Fira, about six hundred steps, has become almost a symbol of Santorini. In recent years, though, it has also become a symbol of something else: the tension between tradition and animal welfare. Photos of exhausted animals with sores from their saddles went round the world."
+    },
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Η πολιτεία αντέδρασε με μια εγκύκλιο που απαγορεύει να μεταφέρουν άτομα πάνω από εκατό κιλά και ορίζει ώρες ξεκούρασης και σκιά. Είναι ένα βήμα. Δεν πιστεύω, ωστόσο, ότι η απλή απαγόρευση είναι πανάκεια. Για πολλές οικογένειες του νησιού, τα ζώα αυτά είναι κομμάτι μιας κληρονομιάς αιώνων, και η επιβίωσή τους εξαρτάται από το εισόδημα που φέρνουν.",
+     "en": "The state responded with a circular that bans them from carrying people over one hundred kilos and sets rest hours and shade. It is a step. I do not believe, however, that a simple ban is a panacea. For many families on the island, these animals are part of a centuries-old heritage, and their survival depends on the income they bring."
+    },
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Το ερώτημα, λοιπόν, δεν είναι αν τα ζώα πρέπει να δουλεύουν, αλλά υπό ποιους όρους. Ένα ζώο που τρέφεται σωστά, εξετάζεται τακτικά και δεν υπερφορτώνεται μπορεί να ζήσει μια αξιοπρεπή ζωή εργασίας. Και, παραδόξως, ο πιο αποτελεσματικός μοχλός πίεσης δεν είναι ο νόμος, αλλά ο ίδιος ο επισκέπτης: αν αρνηθεί να ανέβει σε ένα ζώο που φαίνεται ταλαιπωρημένο, ο ιδιοκτήτης θα καταλάβει γρήγορα το μήνυμα.",
+     "en": "The question, then, is not whether animals should work, but under what conditions. An animal that is properly fed, regularly examined and not overloaded can live a dignified working life. And, paradoxically, the most effective lever of pressure is not the law, but the visitor himself: if he refuses to get on an animal that looks ill-treated, the owner will quickly get the message."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε το θέμα γνωστό διεθνώς;",
+     "options": [
+      "Ένα ντοκιμαντέρ για το νησί",
+      "Μια απεργία των ιδιοκτητών",
+      "Ένας νέος νόμος της Ευρωπαϊκής Ένωσης",
+      "Φωτογραφίες με εξαντλημένα ζώα και πληγές από τα σαμάρια"
+     ],
+     "answer": "Φωτογραφίες με εξαντλημένα ζώα και πληγές από τα σαμάρια",
+     "why": "Φωτογραφίες με εξαντλημένα ζώα και πληγές από τα σαμάρια έκαναν τον γύρο του κόσμου"
+    },
+    {
+     "q": "Γιατί η κτηνίατρος δεν θεωρεί την απαγόρευση πανάκεια;",
+     "options": [
+      "Γιατί τα ζώα δεν κουράζονται",
+      "Γιατί δεν εφαρμόζεται ποτέ",
+      "Γιατί τα ζώα είναι κομμάτι μιας κληρονομιάς και πηγή εισοδήματος για πολλές οικογένειες",
+      "Γιατί οι τουρίστες δεν την ξέρουν"
+     ],
+     "answer": "Γιατί τα ζώα είναι κομμάτι μιας κληρονομιάς και πηγή εισοδήματος για πολλές οικογένειες",
+     "why": "η επιβίωσή τους εξαρτάται από το εισόδημα που φέρνουν"
+    },
+    {
+     "q": "Ποιος είναι, κατά την ομιλήτρια, ο πιο αποτελεσματικός μοχλός πίεσης;",
+     "options": [
+      "Ο ίδιος ο επισκέπτης",
+      "Οι κτηνίατροι",
+      "Ο δήμος",
+      "Ο νόμος"
+     ],
+     "answer": "Ο ίδιος ο επισκέπτης",
+     "why": "ο πιο αποτελεσματικός μοχλός πίεσης δεν είναι ο νόμος, αλλά ο ίδιος ο επισκέπτης"
+    }
+   ],
+   "gloss": {
+    "γαϊδουριού": "γαϊδούρι — donkey",
+    "ευζωία": "ευζωία — welfare, well-being",
+    "εξαντλημένα": "εξαντλημένος — exhausted",
+    "πληγές": "πληγή — sore, wound",
+    "σαμάρια": "σαμάρι — packsaddle",
+    "εγκύκλιο": "εγκύκλιος — (official) circular",
+    "πανάκεια": "πανάκεια — panacea",
+    "υπερφορτώνεται": "υπερφορτώνω — to overload",
+    "αξιοπρεπή": "αξιοπρεπής — dignified",
+    "μοχλός πίεσης": "μοχλός πίεσης — lever of pressure",
+    "ταλαιπωρημένο": "ταλαιπωρημένος — ill-treated, worn out"
+   }
+  },
+  {
+   "id": "l78-c1-psifiaki-klironomia",
+   "title": "Η ψηφιακή μας κληρονομιά",
+   "title_en": "Our digital inheritance",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Σε μια εκπομπή για το δίκαιο και την τεχνολογία, μια δικηγόρος μιλά για την ψηφιακή κληρονομιά: τι γίνεται με τους λογαριασμούς μας μετά τον θάνατο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Όταν πεθαίνει κάποιος, οι συγγενείς ξέρουν τι να κάνουν με το σπίτι ή τον τραπεζικό λογαριασμό. Τι γίνεται όμως με τις φωτογραφίες στο νέφος, το ηλεκτρονικό ταχυδρομείο, τα μέσα κοινωνικής δικτύωσης;",
+     "en": "When someone dies, relatives know what to do with the house or the bank account. But what happens with the photos in the cloud, the email, the social media?"
+    },
+    {
+     "speaker": "Δικηγόρος",
+     "voice": "f",
+     "el": "Εδώ βρισκόμαστε σε μια γκρίζα ζώνη. Το κληρονομικό δίκαιο γράφτηκε για πράγματα που μπορείς να αγγίξεις. Οι ψηφιακοί λογαριασμοί, αντίθετα, διέπονται συνήθως από τους όρους χρήσης της κάθε εταιρείας, τους οποίους κανείς μας δεν διαβάζει. Έτσι, ένας γονιός μπορεί να μην έχει πρόσβαση στις φωτογραφίες του παιδιού του, ακόμα κι αν είναι ο μοναδικός κληρονόμος.",
+     "en": "Here we are in a grey zone. Inheritance law was written for things you can touch. Digital accounts, by contrast, are usually governed by each company's terms of use, which none of us reads. So a parent may not have access to their child's photos, even if they are the sole heir."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και τι προτείνετε στους ακροατές μας;",
+     "en": "And what do you suggest to our listeners?"
+    },
+    {
+     "speaker": "Δικηγόρος",
+     "voice": "f",
+     "el": "Κάτι απλό, που όμως σχεδόν κανείς δεν κάνει: να συντάξουν μια ψηφιακή διαθήκη. Δεν χρειάζεται να είναι επίσημο έγγραφο· αρκεί ένας κατάλογος με τους λογαριασμούς και τι θέλουν να γίνει με τον καθένα: να διαγραφεί, να μετατραπεί σε λογαριασμό μνήμης, να παραδοθεί σε κάποιον. Πολλές πλατφόρμες, εξάλλου, επιτρέπουν ήδη να ορίσεις έναν «διάδοχο». Το κρίσιμο είναι να το σκεφτούμε όσο ζούμε, γιατί μετά οι αγαπημένοι μας θα βρεθούν αντιμέτωποι με έναν γραφειοκρατικό λαβύρινθο σε μια στιγμή πένθους.",
+     "en": "Something simple, which almost nobody does, though: draw up a digital will. It doesn't need to be an official document; a list of accounts and what they want to happen to each one is enough: to be deleted, turned into a memorial account, handed over to someone. Many platforms, moreover, already let you name a 'successor'. The crucial thing is to think about it while we're alive, because afterwards our loved ones will face a bureaucratic labyrinth at a moment of grief."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί η δικηγόρος μιλά για «γκρίζα ζώνη»;",
+     "options": [
+      "Γιατί οι εταιρείες κλείνουν συχνά",
+      "Γιατί οι λογαριασμοί είναι παράνομοι",
+      "Γιατί το κληρονομικό δίκαιο γράφτηκε για υλικά πράγματα και οι λογαριασμοί διέπονται από τους όρους των εταιρειών",
+      "Γιατί οι φωτογραφίες χάνονται"
+     ],
+     "answer": "Γιατί το κληρονομικό δίκαιο γράφτηκε για υλικά πράγματα και οι λογαριασμοί διέπονται από τους όρους των εταιρειών",
+     "why": "Το κληρονομικό δίκαιο γράφτηκε για πράγματα που μπορείς να αγγίξεις"
+    },
+    {
+     "q": "Τι μπορεί να συμβεί σε έναν γονιό, σύμφωνα με τη δικηγόρο;",
+     "options": [
+      "Να μην έχει πρόσβαση στις φωτογραφίες του παιδιού του, ακόμα κι αν είναι ο μοναδικός κληρονόμος",
+      "Να χάσει το σπίτι",
+      "Να χρεωθεί για τους λογαριασμούς",
+      "Να πρέπει να πληρώσει φόρο"
+     ],
+     "answer": "Να μην έχει πρόσβαση στις φωτογραφίες του παιδιού του, ακόμα κι αν είναι ο μοναδικός κληρονόμος",
+     "why": "ένας γονιός μπορεί να μην έχει πρόσβαση στις φωτογραφίες του παιδιού του"
+    },
+    {
+     "q": "Τι είναι, κατά τη δικηγόρο, μια «ψηφιακή διαθήκη»;",
+     "options": [
+      "Ένας κωδικός για την τράπεζα",
+      "Ένα επίσημο έγγραφο από συμβολαιογράφο",
+      "Μια εφαρμογή που διαγράφει τα πάντα",
+      "Ένας κατάλογος με τους λογαριασμούς και τι θέλουμε να γίνει με τον καθένα"
+     ],
+     "answer": "Ένας κατάλογος με τους λογαριασμούς και τι θέλουμε να γίνει με τον καθένα",
+     "why": "αρκεί ένας κατάλογος με τους λογαριασμούς και τι θέλουν να γίνει με τον καθένα"
+    }
+   ],
+   "gloss": {
+    "κληρονομιά": "κληρονομιά — inheritance, legacy",
+    "νέφος": "νέφος — cloud (computing)",
+    "γκρίζα ζώνη": "γκρίζα ζώνη — grey area",
+    "κληρονομικό δίκαιο": "κληρονομικό δίκαιο — inheritance law",
+    "διέπονται": "διέπομαι — to be governed (by rules)",
+    "όρους χρήσης": "όροι χρήσης — terms of use",
+    "κληρονόμος": "κληρονόμος — heir",
+    "διαθήκη": "διαθήκη — will",
+    "διάδοχο": "διάδοχος — successor",
+    "λαβύρινθο": "λαβύρινθος — labyrinth",
+    "πένθους": "πένθος — grief, mourning"
+   }
+  }
+ ]
+}
