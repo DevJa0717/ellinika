@@ -1,0 +1,849 @@
+{
+ "items": [
+  {
+   "id": "l21-ann-revma",
+   "title": "Προγραμματισμένη διακοπή ρεύματος",
+   "title_en": "A planned power cut",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση σε έναν τοπικό ραδιοφωνικό σταθμό.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ο διαχειριστής του δικτύου ηλεκτρικής ενέργειας ανακοινώνει ότι την Τετάρτη, από τις οχτώ το πρωί ως τις δύο το μεσημέρι, θα γίνει προγραμματισμένη διακοπή ρεύματος στις οδούς γύρω από την κεντρική πλατεία, λόγω εργασιών αναβάθμισης του δικτύου.",
+     "en": "The electricity network operator announces that on Wednesday, from eight in the morning until two in the afternoon, there will be a planned power cut in the streets around the central square, due to network upgrade works."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Οι κάτοικοι παρακαλούνται να αποσυνδέσουν τις ευαίσθητες ηλεκτρικές συσκευές, όπως υπολογιστές και τηλεοράσεις, για να μην καταστραφούν όταν επανέλθει η τάση. Οι ανελκυστήρες των πολυκατοικιών δεν θα λειτουργούν.",
+     "en": "Residents are asked to unplug sensitive electrical appliances, such as computers and televisions, so that they are not damaged when the power comes back. The lifts in apartment buildings will not work."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Όσοι χρησιμοποιούν ιατρικά μηχανήματα στο σπίτι, όπως συσκευές οξυγόνου, πρέπει να επικοινωνήσουν άμεσα με τον δήμο, ο οποίος θα διαθέσει γεννήτριες. Σε περίπτωση κακοκαιρίας, οι εργασίες θα μετατεθούν για την επόμενη εβδομάδα.",
+     "en": "Anyone who uses medical equipment at home, such as oxygen machines, should contact the council immediately, which will provide generators. In case of bad weather, the works will be postponed to the following week."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θα γίνει η διακοπή ρεύματος;",
+     "options": [
+      "Λόγω βλάβης",
+      "Λόγω καύσωνα",
+      "Λόγω απεργίας",
+      "Λόγω εργασιών αναβάθμισης του δικτύου"
+     ],
+     "answer": "Λόγω εργασιών αναβάθμισης του δικτύου",
+     "why": "λόγω εργασιών αναβάθμισης του δικτύου"
+    },
+    {
+     "q": "Τι ζητείται από τους κατοίκους;",
+     "options": [
+      "Να μη χρησιμοποιούν νερό",
+      "Να μείνουν στο σπίτι",
+      "Να αποσυνδέσουν τις ευαίσθητες συσκευές",
+      "Να αγοράσουν γεννήτριες"
+     ],
+     "answer": "Να αποσυνδέσουν τις ευαίσθητες συσκευές",
+     "why": "να αποσυνδέσουν τις ευαίσθητες ηλεκτρικές συσκευές"
+    },
+    {
+     "q": "Τι θα κάνει ο δήμος για όσους χρησιμοποιούν ιατρικά μηχανήματα;",
+     "options": [
+      "Θα διαθέσει γεννήτριες",
+      "Θα τους μεταφέρει στο νοσοκομείο",
+      "Θα τους δώσει αποζημίωση",
+      "Θα αναβάλει τις εργασίες"
+     ],
+     "answer": "Θα διαθέσει γεννήτριες",
+     "why": "ο οποίος θα διαθέσει γεννήτριες"
+    }
+   ],
+   "gloss": {
+    "διαχειριστής": "διαχειριστής — operator, manager",
+    "δικτύου": "δίκτυο — network, grid",
+    "διακοπή ρεύματος": "διακοπή ρεύματος — power cut",
+    "αναβάθμισης": "αναβάθμιση — upgrade",
+    "να αποσυνδέσουν": "αποσυνδέω — to disconnect, unplug",
+    "συσκευές": "συσκευή — appliance, device",
+    "επανέλθει": "επανέρχομαι — to return, come back",
+    "τάση": "τάση — voltage",
+    "γεννήτριες": "γεννήτρια — generator",
+    "κακοκαιρίας": "κακοκαιρία — bad weather",
+    "θα μετατεθούν": "μετατίθεμαι — to be postponed, moved"
+   }
+  },
+  {
+   "id": "l21-vm-odigisi",
+   "title": "Μήνυμα από τη σχολή οδηγών",
+   "title_en": "A message from the driving school",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από μια σχολή οδηγών.",
+   "script": [
+    {
+     "speaker": "Εκπαιδευτής",
+     "voice": "m",
+     "el": "Γεια σου, Χρυσάνθη, ο Παύλος είμαι από τη σχολή οδηγών. Σε παίρνω γιατί βγήκε η ημερομηνία της εξέτασης για το δίπλωμα: Πέμπτη δεκαεννιά του μήνα, στις εννιά το πρωί. Το θεωρητικό το έχεις ήδη περάσει, οπότε μένει μόνο η πρακτική.",
+     "en": "Hi Chrysanthi, it's Pavlos from the driving school. I'm calling because the date of your licence test has come out: Thursday the nineteenth, at nine in the morning. You've already passed the theory, so only the practical is left."
+    },
+    {
+     "speaker": "Εκπαιδευτής",
+     "voice": "m",
+     "el": "Νομίζω ότι θα ήταν καλό να κάνουμε δύο επιπλέον μαθήματα πριν από την εξέταση. Οδηγείς πολύ καλά, αλλά το παρκάρισμα ανάμεσα σε δύο αυτοκίνητα σε αγχώνει ακόμη, και ο εξεταστής σίγουρα θα σου το ζητήσει.",
+     "en": "I think it would be good to do two extra lessons before the test. You drive very well, but parallel parking between two cars still makes you nervous, and the examiner will definitely ask you to do it."
+    },
+    {
+     "speaker": "Εκπαιδευτής",
+     "voice": "m",
+     "el": "Μπορώ Δευτέρα και Τρίτη απόγευμα, μετά τις πέντε. Πες μου ποια ώρα σε βολεύει. Και μην ξεχάσεις να φέρεις την ταυτότητά σου την ημέρα της εξέτασης, αλλιώς δεν θα σε αφήσουν να δώσεις.",
+     "en": "I'm free Monday and Tuesday afternoon, after five. Tell me what time suits you. And don't forget to bring your ID on the day of the test, otherwise they won't let you take it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια εξέταση της μένει να δώσει;",
+     "options": [
+      "Η ιατρική",
+      "Και οι δύο",
+      "Η θεωρητική",
+      "Η πρακτική"
+     ],
+     "answer": "Η πρακτική",
+     "why": "οπότε μένει μόνο η πρακτική"
+    },
+    {
+     "q": "Γιατί προτείνει δύο επιπλέον μαθήματα;",
+     "options": [
+      "Γιατί δεν οδηγεί καλά",
+      "Γιατί το παρκάρισμα ανάμεσα σε δύο αυτοκίνητα την αγχώνει ακόμη",
+      "Γιατί η εξέταση είναι νυχτερινή",
+      "Γιατί άλλαξαν οι κανόνες"
+     ],
+     "answer": "Γιατί το παρκάρισμα ανάμεσα σε δύο αυτοκίνητα την αγχώνει ακόμη",
+     "why": "το παρκάρισμα ανάμεσα σε δύο αυτοκίνητα σε αγχώνει ακόμη"
+    },
+    {
+     "q": "Τι πρέπει να φέρει την ημέρα της εξέτασης;",
+     "options": [
+      "Την ταυτότητά της",
+      "Ένα πιστοποιητικό υγείας",
+      "Χρήματα για το παράβολο",
+      "Το βιβλίο του ΚΟΚ"
+     ],
+     "answer": "Την ταυτότητά της",
+     "why": "μην ξεχάσεις να φέρεις την ταυτότητά σου"
+    }
+   ],
+   "gloss": {
+    "σχολή οδηγών": "σχολή οδηγών — driving school",
+    "τηλεφωνητή": "τηλεφωνητής — answering machine",
+    "εξέτασης": "εξέταση — test, exam",
+    "δίπλωμα": "δίπλωμα (οδήγησης) — driving licence",
+    "θεωρητικό": "θεωρητικό — theory test",
+    "πρακτική": "πρακτική — practical (test)",
+    "παρκάρισμα": "παρκάρισμα — parking",
+    "αγχώνει": "αγχώνω — to make anxious",
+    "εξεταστής": "εξεταστής — examiner",
+    "βολεύει": "βολεύω — to suit"
+   }
+  },
+  {
+   "id": "l21-dia-kanapes",
+   "title": "Ένας καναπές για το σαλόνι",
+   "title_en": "A sofa for the living room",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συζήτηση σε ένα κατάστημα επίπλων.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Μας αρέσει πολύ αυτός ο γκρι καναπές, αλλά φοβάμαι ότι είναι λίγο μεγάλος για το σαλόνι μας. Έχουμε μετρήσει τον τοίχο: δύο μέτρα και είκοσι εκατοστά.",
+     "en": "We really like this grey sofa, but I'm afraid it's a bit big for our living room. We've measured the wall: two metres twenty centimetres."
+    },
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Αυτός είναι δύο μέτρα και σαράντα, οπότε δεν χωράει. Το ίδιο μοντέλο όμως υπάρχει και σε τριθέσια έκδοση, δύο μέτρα ακριβώς. Και το ύφασμα βγαίνει, πλένεται στο πλυντήριο· αν έχετε παιδιά ή κατοικίδια, είναι μεγάλο πλεονέκτημα.",
+     "en": "This one is two metres forty, so it won't fit. But the same model also comes as a three-seater, exactly two metres. And the fabric comes off and is machine-washable; if you have children or pets, that's a big advantage."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Έχουμε μια γάτα που τα ξεσκίζει όλα, οπότε αυτό μας ενδιαφέρει. Σε πόσο καιρό μπορεί να παραδοθεί; Και η μεταφορά χρεώνεται;",
+     "en": "We have a cat that shreds everything, so that interests us. How soon can it be delivered? And is delivery charged?"
+    },
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Το τριθέσιο σε αυτό το χρώμα δεν το έχουμε στην αποθήκη· παραγγέλνεται από το εργοστάσιο και φτάνει σε τέσσερις με πέντε εβδομάδες. Η μεταφορά και η ανάβαση στον όροφο είναι δωρεάν, αρκεί να υπάρχει ασανσέρ ή η σκάλα να είναι αρκετά φαρδιά.",
+     "en": "We don't have the three-seater in this colour in the warehouse; it's ordered from the factory and arrives in four to five weeks. Delivery and carrying it up to your floor are free, as long as there's a lift or the staircase is wide enough."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν μπορούν να πάρουν τον καναπέ που βλέπουν;",
+     "options": [
+      "Γιατί έχει πουληθεί",
+      "Γιατί είναι ακριβός",
+      "Γιατί δεν τους αρέσει το χρώμα",
+      "Γιατί είναι πολύ μεγάλος για τον τοίχο τους"
+     ],
+     "answer": "Γιατί είναι πολύ μεγάλος για τον τοίχο τους",
+     "why": "Αυτός είναι δύο μέτρα και σαράντα, οπότε δεν χωράει"
+    },
+    {
+     "q": "Γιατί τους ενδιαφέρει το ύφασμα που πλένεται;",
+     "options": [
+      "Γιατί έχουν μικρά παιδιά",
+      "Γιατί έχουν μια γάτα που τα ξεσκίζει όλα",
+      "Γιατί μένουν δίπλα στη θάλασσα",
+      "Γιατί καπνίζουν"
+     ],
+     "answer": "Γιατί έχουν μια γάτα που τα ξεσκίζει όλα",
+     "why": "Έχουμε μια γάτα που τα ξεσκίζει όλα"
+    },
+    {
+     "q": "Τι ισχύει για την παράδοση;",
+     "options": [
+      "Ο καναπές φτάνει σε τέσσερις με πέντε εβδομάδες και η μεταφορά είναι δωρεάν",
+      "Χρεώνεται ανάλογα με τον όροφο",
+      "Γίνεται αύριο",
+      "Πρέπει να τον πάρουν οι ίδιοι από την αποθήκη"
+     ],
+     "answer": "Ο καναπές φτάνει σε τέσσερις με πέντε εβδομάδες και η μεταφορά είναι δωρεάν",
+     "why": "φτάνει σε τέσσερις με πέντε εβδομάδες. Η μεταφορά και η ανάβαση στον όροφο είναι δωρεάν"
+    }
+   ],
+   "gloss": {
+    "επίπλων": "έπιπλο — piece of furniture",
+    "καναπές": "καναπές — sofa",
+    "σαλόνι": "σαλόνι — living room",
+    "εκατοστά": "εκατοστό — centimetre",
+    "χωράει": "χωράω — to fit",
+    "τριθέσια": "τριθέσιος — three-seater",
+    "κατοικίδια": "κατοικίδιο — pet",
+    "πλεονέκτημα": "πλεονέκτημα — advantage",
+    "ξεσκίζει": "ξεσκίζω — to shred, tear apart",
+    "να παραδοθεί": "παραδίδομαι — to be delivered",
+    "αποθήκη": "αποθήκη — warehouse",
+    "εργοστάσιο": "εργοστάσιο — factory",
+    "ανάβαση": "ανάβαση — carrying up, ascent"
+   }
+  },
+  {
+   "id": "l21-dia-ktiniatros",
+   "title": "Στον κτηνίατρο",
+   "title_en": "At the vet's",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συζήτηση σε ένα κτηνιατρείο.",
+   "script": [
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Λοιπόν, τι συμβαίνει με τον Φίλιππο;",
+     "en": "So, what's the matter with Filippos?"
+    },
+    {
+     "speaker": "Ιδιοκτήτρια",
+     "voice": "f",
+     "el": "Από χθες δεν τρώει σχεδόν τίποτα και κρύβεται κάτω από το κρεβάτι. Συνήθως είναι πολύ λαίμαργος, γι' αυτό ανησύχησα. Νομίζω ότι μπορεί να έφαγε κάποιο φυτό από το μπαλκόνι.",
+     "en": "Since yesterday he's hardly eaten anything and he's been hiding under the bed. He's usually very greedy, that's why I got worried. I think he may have eaten some plant from the balcony."
+    },
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Τι φυτά έχετε; Μερικά, όπως οι κρίνοι, είναι πολύ τοξικά για τις γάτες. Θα του κάνω μια εξέταση αίματος για να δούμε πώς λειτουργούν τα νεφρά του. Μέχρι να βγουν τα αποτελέσματα, θα του δώσουμε ορό για να μην αφυδατωθεί.",
+     "en": "What plants do you have? Some, like lilies, are very toxic for cats. I'll do a blood test to see how his kidneys are working. Until the results come out, we'll give him a drip so he doesn't get dehydrated."
+    },
+    {
+     "speaker": "Ιδιοκτήτρια",
+     "voice": "f",
+     "el": "Έχω βασιλικό, λεβάντα και... ναι, μια γλάστρα με κρίνους που μου έκαναν δώρο την περασμένη εβδομάδα.",
+     "en": "I have basil, lavender and... yes, a pot of lilies that someone gave me as a present last week."
+    },
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Τότε καλά κάνατε που ήρθατε αμέσως. Σε τέτοιες περιπτώσεις ο χρόνος μετράει πολύ. Θα τον κρατήσουμε εδώ απόψε, και τους κρίνους καλύτερα να τους χαρίσετε σε κάποιον που δεν έχει γάτα.",
+     "en": "Then you did well to come straight away. In cases like this time counts a lot. We'll keep him here tonight, and you'd better give the lilies to someone who doesn't have a cat."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ανησύχησε η ιδιοκτήτρια;",
+     "options": [
+      "Γιατί δεν τρώει σχεδόν τίποτα και κρύβεται",
+      "Γιατί ο γάτος έχει πυρετό",
+      "Γιατί χτύπησε στο πόδι",
+      "Γιατί έπεσε από το μπαλκόνι"
+     ],
+     "answer": "Γιατί δεν τρώει σχεδόν τίποτα και κρύβεται",
+     "why": "Από χθες δεν τρώει σχεδόν τίποτα και κρύβεται κάτω από το κρεβάτι"
+    },
+    {
+     "q": "Γιατί θα κάνει η κτηνίατρος εξέταση αίματος;",
+     "options": [
+      "Για να βρει την ηλικία του",
+      "Για να δει αν είναι αφυδατωμένος",
+      "Για να δει πώς λειτουργούν τα νεφρά του",
+      "Για να του κάνει εμβόλιο"
+     ],
+     "answer": "Για να δει πώς λειτουργούν τα νεφρά του",
+     "why": "για να δούμε πώς λειτουργούν τα νεφρά του"
+    },
+    {
+     "q": "Ποιο φυτό είναι πιθανότατα η αιτία;",
+     "options": [
+      "Η λεβάντα",
+      "Οι κρίνοι",
+      "Το γιασεμί",
+      "Ο βασιλικός"
+     ],
+     "answer": "Οι κρίνοι",
+     "why": "μια γλάστρα με κρίνους"
+    }
+   ],
+   "gloss": {
+    "κτηνιατρείο": "κτηνιατρείο — vet's surgery",
+    "λαίμαργος": "λαίμαργος — greedy (for food)",
+    "κρίνοι": "κρίνος — lily",
+    "τοξικά": "τοξικός — toxic",
+    "εξέταση αίματος": "εξέταση αίματος — blood test",
+    "νεφρά": "νεφρό — kidney",
+    "ορό": "ορός — drip, saline",
+    "αφυδατωθεί": "αφυδατώνομαι — to become dehydrated",
+    "βασιλικό": "βασιλικός — basil",
+    "λεβάντα": "λεβάντα — lavender",
+    "γλάστρα": "γλάστρα — flowerpot",
+    "να τους χαρίσετε": "χαρίζω — to give away"
+   }
+  },
+  {
+   "id": "l21-mon-nea-douleia",
+   "title": "Η πρώτη μέρα στη νέα δουλειά",
+   "title_en": "The first day at a new job",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν νέο άντρα να μιλά σε ένα podcast για την πρώτη του μέρα σε μια καινούργια δουλειά.",
+   "script": [
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Μετά από οκτώ μήνες ανεργίας και δεκάδες αιτήσεις, με πήραν επιτέλους σε μια εταιρεία λογισμικού στη Θεσσαλονίκη. Το προηγούμενο βράδυ δεν έκλεισα μάτι. Είχα σιδερώσει τρία πουκάμισα και δεν μπορούσα να αποφασίσω ποιο θα φορέσω.",
+     "en": "After eight months of unemployment and dozens of applications, I was finally hired by a software company in Thessaloniki. The night before, I didn't sleep a wink. I had ironed three shirts and couldn't decide which one to wear."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Όταν έφτασα, ανακάλυψα ότι όλοι φορούσαν τζιν και φούτερ. Η προϊσταμένη μου γέλασε και μου είπε ότι το μόνο ντύσιμο που απαγορεύεται εκεί είναι η γραβάτα. Μου έδωσαν έναν φορητό υπολογιστή, μου έδειξαν πού είναι η κουζίνα και μου σύστησαν έναν συνάδελφο, τον Άρη, που θα ήταν ο «μέντοράς» μου τους πρώτους μήνες.",
+     "en": "When I arrived, I discovered everyone was wearing jeans and hoodies. My manager laughed and told me the only clothing forbidden there is a tie. They gave me a laptop, showed me where the kitchen is and introduced me to a colleague, Aris, who would be my 'mentor' for the first few months."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Το πιο σημαντικό, όμως, έγινε το μεσημέρι. Ο Άρης μού είπε: «Εδώ κανείς δεν περιμένει να τα ξέρεις όλα. Περιμένουμε να ρωτάς.» Μου πήρε χρόνια να καταλάβω πόσο σοφή ήταν αυτή η φράση.",
+     "en": "The most important thing, though, happened at midday. Aris told me: 'Nobody here expects you to know everything. We expect you to ask.' It took me years to understand how wise that phrase was."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ένιωθε ο Θοδωρής το προηγούμενο βράδυ;",
+     "options": [
+      "Κουρασμένος από τη μετακόμιση",
+      "Τόσο αγχωμένος που δεν κοιμήθηκε",
+      "Ήρεμος",
+      "Απογοητευμένος"
+     ],
+     "answer": "Τόσο αγχωμένος που δεν κοιμήθηκε",
+     "why": "Το προηγούμενο βράδυ δεν έκλεισα μάτι"
+    },
+    {
+     "q": "Τι ανακάλυψε όταν έφτασε στη δουλειά;",
+     "options": [
+      "Ότι είχε αργήσει",
+      "Ότι όλοι φορούσαν κοστούμια",
+      "Ότι όλοι φορούσαν τζιν και φούτερ",
+      "Ότι δεν τον περίμεναν"
+     ],
+     "answer": "Ότι όλοι φορούσαν τζιν και φούτερ",
+     "why": "ανακάλυψα ότι όλοι φορούσαν τζιν και φούτερ"
+    },
+    {
+     "q": "Ποια συμβουλή του έδωσε ο Άρης;",
+     "options": [
+      "Να φοράει πάντα γραβάτα",
+      "Να δουλεύει μέχρι αργά",
+      "Να ρωτάει, γιατί κανείς δεν περιμένει να τα ξέρει όλα",
+      "Να μη μιλάει πολύ στις συσκέψεις"
+     ],
+     "answer": "Να ρωτάει, γιατί κανείς δεν περιμένει να τα ξέρει όλα",
+     "why": "Εδώ κανείς δεν περιμένει να τα ξέρεις όλα. Περιμένουμε να ρωτάς"
+    }
+   ],
+   "gloss": {
+    "ανεργίας": "ανεργία — unemployment",
+    "αιτήσεις": "αίτηση — application",
+    "λογισμικού": "λογισμικό — software",
+    "δεν έκλεισα μάτι": "δεν κλείνω μάτι — not to sleep a wink",
+    "σιδερώσει": "σιδερώνω — to iron",
+    "φούτερ": "φούτερ — sweatshirt, hoodie",
+    "προϊσταμένη": "προϊσταμένη — (female) manager",
+    "ντύσιμο": "ντύσιμο — way of dressing, clothes",
+    "γραβάτα": "γραβάτα — tie",
+    "φορητό υπολογιστή": "φορητός υπολογιστής — laptop",
+    "σύστησαν": "συστήνω — to introduce",
+    "σοφή": "σοφός — wise"
+   }
+  },
+  {
+   "id": "l21-rep-plastira",
+   "title": "Η λίμνη Πλαστήρα",
+   "title_en": "Lake Plastiras",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ραδιοφωνικό ρεπορτάζ από τη λίμνη Πλαστήρα, στον νομό Καρδίτσας.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Σε υψόμετρο περίπου οκτακοσίων μέτρων, ανάμεσα σε έλατα και καστανιές, απλώνεται μια λίμνη που μοιάζει να βγήκε από καρτ ποστάλ της Ελβετίας. Κι όμως, η λίμνη Πλαστήρα είναι τεχνητή: δημιουργήθηκε στα τέλη της δεκαετίας του 1950, όταν χτίστηκε ένα φράγμα στον ποταμό Ταυρωπό.",
+     "en": "At an altitude of about eight hundred metres, among firs and chestnut trees, lies a lake that looks as if it came off a Swiss postcard. And yet Lake Plastiras is artificial: it was created at the end of the 1950s, when a dam was built on the river Tavropos."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Πήρε το όνομά της από τον στρατηγό και πρωθυπουργό Νικόλαο Πλαστήρα, ο οποίος είχε οραματιστεί το έργο ήδη από τη δεκαετία του 1920, για να δοθεί νερό στον θεσσαλικό κάμπο και ηλεκτρικό ρεύμα στην περιοχή.",
+     "en": "It took its name from the general and prime minister Nikolaos Plastiras, who had envisioned the project as early as the 1920s, to provide water for the Thessalian plain and electricity for the area."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Σήμερα η λίμνη έχει γίνει δημοφιλής προορισμός όλο τον χρόνο. Τον χειμώνα οι επισκέπτες έρχονται για τα τζάκια και τα χιονισμένα τοπία, το καλοκαίρι για κανό, ιππασία και ποδήλατο. Οι κάτοικοι των γύρω χωριών, που κάποτε ζούσαν μόνο από την κτηνοτροφία, ανοίγουν ξενώνες και ταβέρνες. Ανησυχούν όμως για τις χρονιές λειψυδρίας, όταν η στάθμη του νερού πέφτει επικίνδυνα.",
+     "en": "Today the lake has become a popular destination all year round. In winter visitors come for the fireplaces and snowy landscapes, in summer for canoeing, horse riding and cycling. The residents of the surrounding villages, who once lived only from livestock farming, are opening guesthouses and tavernas. But they worry about years of drought, when the water level falls dangerously."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς δημιουργήθηκε η λίμνη;",
+     "options": [
+      "Με ένα φράγμα στον ποταμό Ταυρωπό",
+      "Από το λιώσιμο των χιονιών",
+      "Από έναν σεισμό",
+      "Από μια πηγή"
+     ],
+     "answer": "Με ένα φράγμα στον ποταμό Ταυρωπό",
+     "why": "όταν χτίστηκε ένα φράγμα στον ποταμό Ταυρωπό"
+    },
+    {
+     "q": "Για ποιους λόγους είχε οραματιστεί ο Πλαστήρας το έργο;",
+     "options": [
+      "Για την άμυνα της χώρας",
+      "Για την αλιεία",
+      "Για τον τουρισμό",
+      "Για νερό στον κάμπο και ηλεκτρικό ρεύμα"
+     ],
+     "answer": "Για νερό στον κάμπο και ηλεκτρικό ρεύμα",
+     "why": "για να δοθεί νερό στον θεσσαλικό κάμπο και ηλεκτρικό ρεύμα στην περιοχή"
+    },
+    {
+     "q": "Τι ανησυχεί τους κατοίκους;",
+     "options": [
+      "Η έλλειψη δρόμων",
+      "Η πτώση της στάθμης του νερού στις χρονιές λειψυδρίας",
+      "Οι πλημμύρες",
+      "Οι πολλοί τουρίστες"
+     ],
+     "answer": "Η πτώση της στάθμης του νερού στις χρονιές λειψυδρίας",
+     "why": "Ανησυχούν όμως για τις χρονιές λειψυδρίας"
+    }
+   ],
+   "gloss": {
+    "υψόμετρο": "υψόμετρο — altitude",
+    "έλατα": "έλατο — fir tree",
+    "καστανιές": "καστανιά — chestnut tree",
+    "τεχνητή": "τεχνητός — artificial",
+    "φράγμα": "φράγμα — dam",
+    "πρωθυπουργό": "πρωθυπουργός — prime minister",
+    "είχε οραματιστεί": "οραματίζομαι — to envision",
+    "κάμπο": "κάμπος — plain",
+    "τζάκια": "τζάκι — fireplace",
+    "ιππασία": "ιππασία — horse riding",
+    "κτηνοτροφία": "κτηνοτροφία — livestock farming",
+    "ξενώνες": "ξενώνας — guesthouse",
+    "λειψυδρίας": "λειψυδρία — water shortage, drought",
+    "στάθμη": "στάθμη — level"
+   }
+  },
+  {
+   "id": "l21-rep-olympos",
+   "title": "Όλυμπος Καρπάθου",
+   "title_en": "Olympos, Karpathos",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από την Όλυμπο, ένα ορεινό χωριό της Καρπάθου.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Το χωριό είναι χτισμένο στην κορυφή ενός βουνού, με τα χρωματιστά του σπίτια να κατεβαίνουν σαν σκαλοπάτια προς τη θάλασσα. Για αιώνες ήταν σχεδόν απομονωμένο, και ο δρόμος που το ενώνει με την υπόλοιπη Κάρπαθο είναι σχετικά πρόσφατος.",
+     "en": "The village is built on the top of a mountain, with its coloured houses going down like steps towards the sea. For centuries it was almost isolated, and the road that connects it to the rest of Karpathos is relatively recent."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Ίσως γι' αυτό η Όλυμπος έχει διατηρήσει έθιμα που αλλού έχουν χαθεί. Αρκετές ηλικιωμένες γυναίκες φορούν ακόμη καθημερινά την παραδοσιακή φορεσιά, με κεντημένα μαντίλια και δερμάτινες μπότες. Η τοπική διάλεκτος έχει λέξεις και προφορές που ενθουσιάζουν τους γλωσσολόγους.",
+     "en": "Perhaps that's why Olympos has kept customs that have been lost elsewhere. Several elderly women still wear the traditional costume every day, with embroidered headscarves and leather boots. The local dialect has words and pronunciations that delight linguists."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Στα πανηγύρια, οι άντρες τραγουδούν «μαντινάδες», στίχους που αυτοσχεδιάζουν επί τόπου, συνοδεία λύρας και τσαμπούνας. Ο τουρισμός έφερε χρήματα, αλλά και ένα δίλημμα: πώς θα μείνει ζωντανή η παράδοση χωρίς να μετατραπεί σε θέαμα για τους επισκέπτες;",
+     "en": "At festivals, the men sing 'mantinades', verses they improvise on the spot, accompanied by the lyra and the tsambouna. Tourism has brought money, but also a dilemma: how can the tradition stay alive without turning into a show for visitors?"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί, σύμφωνα με τη ρεπόρτερ, η Όλυμπος διατήρησε τα έθιμά της;",
+     "options": [
+      "Γιατί το απαγόρευσε ο δήμος",
+      "Γιατί για αιώνες ήταν σχεδόν απομονωμένη",
+      "Γιατί έχει πολλούς κατοίκους",
+      "Γιατί δεν έχει θάλασσα"
+     ],
+     "answer": "Γιατί για αιώνες ήταν σχεδόν απομονωμένη",
+     "why": "Για αιώνες ήταν σχεδόν απομονωμένο"
+    },
+    {
+     "q": "Τι φορούν ακόμη καθημερινά αρκετές ηλικιωμένες γυναίκες;",
+     "options": [
+      "Μαύρα ρούχα",
+      "Στολές χορού",
+      "Ρούχα από την Αθήνα",
+      "Την παραδοσιακή φορεσιά"
+     ],
+     "answer": "Την παραδοσιακή φορεσιά",
+     "why": "φορούν ακόμη καθημερινά την παραδοσιακή φορεσιά"
+    },
+    {
+     "q": "Ποιο δίλημμα έφερε ο τουρισμός;",
+     "options": [
+      "Πώς θα χτιστούν περισσότερα ξενοδοχεία",
+      "Αν πρέπει να διδάσκεται η διάλεκτος",
+      "Πώς θα μείνει ζωντανή η παράδοση χωρίς να γίνει θέαμα",
+      "Αν πρέπει να κλείσει ο δρόμος"
+     ],
+     "answer": "Πώς θα μείνει ζωντανή η παράδοση χωρίς να γίνει θέαμα",
+     "why": "πώς θα μείνει ζωντανή η παράδοση χωρίς να μετατραπεί σε θέαμα για τους επισκέπτες"
+    }
+   ],
+   "gloss": {
+    "χρωματιστά": "χρωματιστός — coloured",
+    "απομονωμένο": "απομονωμένος — isolated",
+    "έθιμα": "έθιμο — custom",
+    "φορεσιά": "φορεσιά — costume, dress",
+    "κεντημένα": "κεντημένος — embroidered",
+    "μαντίλια": "μαντίλι — headscarf",
+    "διάλεκτος": "διάλεκτος — dialect",
+    "γλωσσολόγους": "γλωσσολόγος — linguist",
+    "πανηγύρια": "πανηγύρι — village festival",
+    "αυτοσχεδιάζουν": "αυτοσχεδιάζω — to improvise",
+    "επί τόπου": "επί τόπου — on the spot",
+    "τσαμπούνας": "τσαμπούνα — tsambouna (island bagpipe)",
+    "δίλημμα": "δίλημμα — dilemma",
+    "θέαμα": "θέαμα — spectacle, show"
+   }
+  },
+  {
+   "id": "l21-int-ekav",
+   "title": "Οδηγός ασθενοφόρου",
+   "title_en": "An ambulance driver",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια διασώστρια που οδηγεί ασθενοφόρο σε μια μεγάλη πόλη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πόσα χρόνια κάνετε αυτή τη δουλειά;",
+     "en": "How many years have you been doing this job?"
+    },
+    {
+     "speaker": "Διασώστρια",
+     "voice": "f",
+     "el": "Δεκαπέντε. Ξεκίνησα στα είκοσι πέντε, και ακόμη θυμάμαι το πρώτο μου περιστατικό: ένας ηλικιωμένος με έμφραγμα σε έναν πέμπτο όροφο χωρίς ασανσέρ. Τον κατεβάσαμε με το φορείο από τις σκάλες. Επέζησε, και μας έστειλε ένα κουτί γλυκά στον σταθμό.",
+     "en": "Fifteen. I started at twenty-five, and I still remember my first call-out: an elderly man with a heart attack on a fifth floor without a lift. We carried him down the stairs on the stretcher. He survived, and sent us a box of sweets at the station."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιο είναι το μεγαλύτερο πρόβλημα στη δουλειά σας;",
+     "en": "What's the biggest problem in your job?"
+    },
+    {
+     "speaker": "Διασώστρια",
+     "voice": "f",
+     "el": "Η κίνηση και οι οδηγοί που δεν κάνουν χώρο. Πολλοί πανικοβάλλονται όταν ακούν τη σειρήνα και σταματούν στη μέση του δρόμου. Το σωστό είναι να πηγαίνετε δεξιά και να επιβραδύνετε. Κάθε λεπτό που χάνουμε μπορεί να κοστίσει μια ζωή.",
+     "en": "Traffic, and drivers who don't make room. Many panic when they hear the siren and stop in the middle of the road. The right thing is to move to the right and slow down. Every minute we lose can cost a life."
+    },
+    {
+     "speaker": "Διασώστρια",
+     "voice": "f",
+     "el": "Και κάτι ακόμα: δεν είμαστε ήρωες. Είμαστε άνθρωποι που κουράζονται και φοβούνται, αλλά κάνουν αυτό που πρέπει. Το χειρότερο δεν είναι οι νυχτερινές βάρδιες· είναι οι περιπτώσεις που, όσο κι αν προσπαθήσεις, φτάνεις αργά.",
+     "en": "And one more thing: we're not heroes. We're people who get tired and afraid but do what has to be done. The worst thing isn't the night shifts; it's the cases where, however hard you try, you arrive too late."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θυμάται από το πρώτο της περιστατικό;",
+     "options": [
+      "Ότι ο ασθενής δεν επέζησε",
+      "Ότι το ασθενοφόρο χάλασε",
+      "Ότι κατέβασαν τον ασθενή με το φορείο από τις σκάλες και εκείνος επέζησε",
+      "Ότι ήταν ένα τροχαίο"
+     ],
+     "answer": "Ότι κατέβασαν τον ασθενή με το φορείο από τις σκάλες και εκείνος επέζησε",
+     "why": "Τον κατεβάσαμε με το φορείο από τις σκάλες. Επέζησε"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν οι οδηγοί όταν ακούν τη σειρήνα;",
+     "options": [
+      "Να αυξάνουν ταχύτητα",
+      "Να σταματούν στη μέση του δρόμου",
+      "Να πηγαίνουν δεξιά και να επιβραδύνουν",
+      "Να ανάβουν τα φώτα"
+     ],
+     "answer": "Να πηγαίνουν δεξιά και να επιβραδύνουν",
+     "why": "Το σωστό είναι να πηγαίνετε δεξιά και να επιβραδύνετε"
+    },
+    {
+     "q": "Τι θεωρεί το χειρότερο στη δουλειά της;",
+     "options": [
+      "Τις περιπτώσεις που φτάνει αργά",
+      "Τον χαμηλό μισθό",
+      "Τους θυμωμένους συγγενείς",
+      "Τις νυχτερινές βάρδιες"
+     ],
+     "answer": "Τις περιπτώσεις που φτάνει αργά",
+     "why": "είναι οι περιπτώσεις που, όσο κι αν προσπαθήσεις, φτάνεις αργά"
+    }
+   ],
+   "gloss": {
+    "διασώστρια": "διασώστρια — (female) paramedic",
+    "ασθενοφόρο": "ασθενοφόρο — ambulance",
+    "περιστατικό": "περιστατικό — case, call-out",
+    "έμφραγμα": "έμφραγμα — heart attack",
+    "φορείο": "φορείο — stretcher",
+    "Επέζησε": "επιζώ — to survive",
+    "πανικοβάλλονται": "πανικοβάλλομαι — to panic",
+    "σειρήνα": "σειρήνα — siren",
+    "να επιβραδύνετε": "επιβραδύνω — to slow down",
+    "ήρωες": "ήρωας — hero",
+    "βάρδιες": "βάρδια — shift"
+   }
+  },
+  {
+   "id": "l21-mon-filiki",
+   "title": "Η Φιλική Εταιρεία",
+   "title_en": "The Filiki Etaireia (Society of Friends)",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε ένα απόσπασμα από μια διάλεξη ιστορίας για την προετοιμασία της Επανάστασης του 1821.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Το 1814, στην Οδησσό, τρεις άγνωστοι έμποροι, ο Νικόλαος Σκουφάς, ο Αθανάσιος Τσακάλωφ και ο Εμμανουήλ Ξάνθος, ίδρυσαν μια μυστική οργάνωση με στόχο την απελευθέρωση των Ελλήνων. Την ονόμασαν Φιλική Εταιρεία. Κανείς τους δεν ήταν πλούσιος ή διάσημος· αυτό ακριβώς τους επέτρεψε να δρουν χωρίς να προκαλούν υποψίες.",
+     "en": "In 1814, in Odessa, three unknown merchants, Nikolaos Skoufas, Athanasios Tsakalof and Emmanouil Xanthos, founded a secret organisation aimed at the liberation of the Greeks. They called it the Filiki Etaireia. None of them was rich or famous; precisely this allowed them to act without arousing suspicion."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Η οργάνωση είχε αυστηρή ιεραρχία και τελετουργίες μύησης, εμπνευσμένες εν μέρει από τους τεκτονικούς κύκλους της εποχής. Τα νέα μέλη ορκίζονταν μυστικότητα και συχνά δεν ήξεραν ποιος βρισκόταν στην κορυφή. Οι ιδρυτές καλλιέργησαν σκόπιμα τη φήμη ότι πίσω από την Εταιρεία βρισκόταν η Ρωσία, κάτι που έπειθε πολλούς διστακτικούς να προσχωρήσουν.",
+     "en": "The organisation had a strict hierarchy and initiation rituals, partly inspired by the Masonic circles of the time. New members swore secrecy and often didn't know who was at the top. The founders deliberately cultivated the rumour that Russia was behind the Society, which persuaded many hesitant people to join."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Μέσα σε λίγα χρόνια, η Εταιρεία απλώθηκε από τη Μολδοβλαχία ως την Πελοπόννησο και τα νησιά, και μύησε προκρίτους, κληρικούς, εμπόρους και οπλαρχηγούς. Το 1820 την ηγεσία ανέλαβε ο Αλέξανδρος Υψηλάντης, αξιωματικός του ρωσικού στρατού, και τον Φεβρουάριο του 1821 πέρασε τον Προύθο ποταμό, ξεκινώντας την Επανάσταση.",
+     "en": "Within a few years the Society spread from the Danubian Principalities to the Peloponnese and the islands, and initiated notables, clergy, merchants and armed chieftains. In 1820 the leadership was taken over by Alexandros Ypsilantis, an officer in the Russian army, and in February 1821 he crossed the river Prut, starting the Revolution."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Αυτό που μου φαίνεται αξιοσημείωτο είναι ότι μια επανάσταση που άλλαξε τον χάρτη της Ευρώπης ξεκίνησε όχι από στρατηγούς ή βασιλιάδες, αλλά από τρεις μικρέμπορους σε ένα λιμάνι της Μαύρης Θάλασσας.",
+     "en": "What strikes me as remarkable is that a revolution which changed the map of Europe was started not by generals or kings, but by three small traders in a Black Sea port."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί, κατά τον ιστορικό, βοήθησε το ότι οι ιδρυτές ήταν άγνωστοι;",
+     "options": [
+      "Γιατί δεν είχαν οικογένειες",
+      "Γιατί δεν πλήρωναν φόρους",
+      "Γιατί μπορούσαν να δρουν χωρίς να προκαλούν υποψίες",
+      "Γιατί είχαν περισσότερο χρόνο"
+     ],
+     "answer": "Γιατί μπορούσαν να δρουν χωρίς να προκαλούν υποψίες",
+     "why": "αυτό ακριβώς τους επέτρεψε να δρουν χωρίς να προκαλούν υποψίες"
+    },
+    {
+     "q": "Ποια φήμη καλλιέργησαν σκόπιμα οι ιδρυτές;",
+     "options": [
+      "Ότι η Εταιρεία είχε τεράστια περιουσία",
+      "Ότι η Αγγλία θα έστελνε στόλο",
+      "Ότι ο αρχηγός ήταν ο πατριάρχης",
+      "Ότι πίσω από την Εταιρεία βρισκόταν η Ρωσία"
+     ],
+     "answer": "Ότι πίσω από την Εταιρεία βρισκόταν η Ρωσία",
+     "why": "πίσω από την Εταιρεία βρισκόταν η Ρωσία"
+    },
+    {
+     "q": "Ποιοι μυήθηκαν στην Εταιρεία;",
+     "options": [
+      "Πρόκριτοι, κληρικοί, έμποροι και οπλαρχηγοί",
+      "Μόνο αξιωματικοί του ρωσικού στρατού",
+      "Μόνο φοιτητές",
+      "Μόνο έμποροι της Οδησσού"
+     ],
+     "answer": "Πρόκριτοι, κληρικοί, έμποροι και οπλαρχηγοί",
+     "why": "μύησε προκρίτους, κληρικούς, εμπόρους και οπλαρχηγούς"
+    },
+    {
+     "q": "Τι θεωρεί αξιοσημείωτο ο ιστορικός;",
+     "options": [
+      "Ότι η Επανάσταση ξεκίνησε στην Πελοπόννησο",
+      "Ότι η Εταιρεία διαλύθηκε γρήγορα",
+      "Ότι η Επανάσταση ξεκίνησε από τρεις μικρέμπορους",
+      "Ότι η Ρωσία βοήθησε την Επανάσταση"
+     ],
+     "answer": "Ότι η Επανάσταση ξεκίνησε από τρεις μικρέμπορους",
+     "why": "ξεκίνησε όχι από στρατηγούς ή βασιλιάδες, αλλά από τρεις μικρέμπορους"
+    }
+   ],
+   "gloss": {
+    "μυστική": "μυστικός — secret",
+    "απελευθέρωση": "απελευθέρωση — liberation",
+    "υποψίες": "υποψία — suspicion",
+    "ιεραρχία": "ιεραρχία — hierarchy",
+    "τελετουργίες μύησης": "τελετουργία μύησης — initiation ritual",
+    "τεκτονικούς": "τεκτονικός — Masonic",
+    "ορκίζονταν": "ορκίζομαι — to swear (an oath)",
+    "καλλιέργησαν": "καλλιεργώ — to cultivate, foster",
+    "διστακτικούς": "διστακτικός — hesitant",
+    "να προσχωρήσουν": "προσχωρώ — to join",
+    "προκρίτους": "πρόκριτος — local notable",
+    "κληρικούς": "κληρικός — cleric",
+    "οπλαρχηγούς": "οπλαρχηγός — armed chieftain",
+    "αξιοσημείωτο": "αξιοσημείωτος — remarkable",
+    "μικρέμπορους": "μικρέμπορος — small trader"
+   }
+  },
+  {
+   "id": "l21-int-poli15",
+   "title": "Η πόλη των δεκαπέντε λεπτών",
+   "title_en": "The fifteen-minute city",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με μια πολεοδόμο για την ιδέα της «πόλης των δεκαπέντε λεπτών».",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι ακριβώς σημαίνει «πόλη των δεκαπέντε λεπτών»;",
+     "en": "What exactly does 'fifteen-minute city' mean?"
+    },
+    {
+     "speaker": "Πολεοδόμος",
+     "voice": "f",
+     "el": "Είναι μια ιδέα σύμφωνα με την οποία κάθε κάτοικος πρέπει να μπορεί να φτάσει με τα πόδια ή με το ποδήλατο, μέσα σε ένα τέταρτο, σε ό,τι χρειάζεται καθημερινά: σχολείο, φαρμακείο, σούπερ μάρκετ, πάρκο, ίσως και τη δουλειά του. Δεν είναι κάτι εντελώς καινούργιο· έτσι λειτουργούσαν οι παραδοσιακές γειτονιές πριν το αυτοκίνητο κυριαρχήσει.",
+     "en": "It's an idea according to which every resident should be able to reach by foot or by bike, within a quarter of an hour, everything they need every day: school, pharmacy, supermarket, park, perhaps even their work. It's not something entirely new; that's how traditional neighbourhoods worked before the car took over."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Υπάρχουν όμως και αντιδράσεις. Κάποιοι τη βλέπουν ως περιορισμό της ελευθερίας τους.",
+     "en": "But there are also objections. Some see it as a restriction of their freedom."
+    },
+    {
+     "speaker": "Πολεοδόμος",
+     "voice": "f",
+     "el": "Κατανοώ την ανησυχία, αλλά πρόκειται για παρεξήγηση. Κανείς δεν απαγορεύει σε κανέναν να πάει όπου θέλει. Ο στόχος είναι να μη χρειάζεται να μπεις στο αυτοκίνητο για να αγοράσεις ψωμί. Το πραγματικό ζήτημα είναι άλλο: αν οι υπηρεσίες συγκεντρωθούν μόνο στις ευκατάστατες γειτονιές, η ιδέα μπορεί να βαθύνει τις ανισότητες αντί να τις μειώσει.",
+     "en": "I understand the concern, but it's a misunderstanding. Nobody forbids anyone to go wherever they want. The aim is that you shouldn't need to get into a car to buy bread. The real issue is a different one: if services are concentrated only in well-off neighbourhoods, the idea may deepen inequalities instead of reducing them."
+    },
+    {
+     "speaker": "Πολεοδόμος",
+     "voice": "f",
+     "el": "Για την Αθήνα, με τις πυκνές της γειτονιές και τα μικρά καταστήματα στο ισόγειο των πολυκατοικιών, έχουμε ήδη ένα μεγάλο πλεονέκτημα. Αυτό που λείπει είναι οι ασφαλείς διαδρομές για πεζούς και οι χώροι πρασίνου.",
+     "en": "For Athens, with its dense neighbourhoods and small shops on the ground floor of apartment buildings, we already have a big advantage. What's missing is safe routes for pedestrians and green spaces."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι σημαίνει, σύμφωνα με την πολεοδόμο, η «πόλη των δεκαπέντε λεπτών»;",
+     "options": [
+      "Ότι κάθε κάτοικος φτάνει με τα πόδια ή με ποδήλατο σε ό,τι χρειάζεται μέσα σε ένα τέταρτο",
+      "Ότι η διαδρομή για τη δουλειά πρέπει να είναι σύντομη",
+      "Ότι οι συγκοινωνίες περνούν κάθε δεκαπέντε λεπτά",
+      "Ότι απαγορεύεται το αυτοκίνητο"
+     ],
+     "answer": "Ότι κάθε κάτοικος φτάνει με τα πόδια ή με ποδήλατο σε ό,τι χρειάζεται μέσα σε ένα τέταρτο",
+     "why": "κάθε κάτοικος πρέπει να μπορεί να φτάσει με τα πόδια ή με το ποδήλατο, μέσα σε ένα τέταρτο"
+    },
+    {
+     "q": "Πώς απαντά στην κριτική ότι η ιδέα περιορίζει την ελευθερία;",
+     "options": [
+      "Δεν απαντά",
+      "Λέει ότι η ελευθερία δεν είναι σημαντική",
+      "Συμφωνεί με την κριτική",
+      "Λέει ότι είναι παρεξήγηση, γιατί κανείς δεν απαγορεύει τίποτα"
+     ],
+     "answer": "Λέει ότι είναι παρεξήγηση, γιατί κανείς δεν απαγορεύει τίποτα",
+     "why": "πρόκειται για παρεξήγηση. Κανείς δεν απαγορεύει σε κανέναν να πάει όπου θέλει"
+    },
+    {
+     "q": "Ποιο είναι, κατά τη γνώμη της, το πραγματικό ζήτημα;",
+     "options": [
+      "Η αντίδραση των οδηγών ταξί",
+      "Το κόστος των έργων",
+      "Ότι οι υπηρεσίες μπορεί να συγκεντρωθούν στις ευκατάστατες γειτονιές και να βαθύνουν τις ανισότητες",
+      "Η έλλειψη ποδηλάτων"
+     ],
+     "answer": "Ότι οι υπηρεσίες μπορεί να συγκεντρωθούν στις ευκατάστατες γειτονιές και να βαθύνουν τις ανισότητες",
+     "why": "η ιδέα μπορεί να βαθύνει τις ανισότητες αντί να τις μειώσει"
+    },
+    {
+     "q": "Τι λείπει από την Αθήνα;",
+     "options": [
+      "Οι πυκνές γειτονιές",
+      "Τα σχολεία",
+      "Οι ασφαλείς διαδρομές για πεζούς και οι χώροι πρασίνου",
+      "Τα μικρά καταστήματα"
+     ],
+     "answer": "Οι ασφαλείς διαδρομές για πεζούς και οι χώροι πρασίνου",
+     "why": "Αυτό που λείπει είναι οι ασφαλείς διαδρομές για πεζούς και οι χώροι πρασίνου"
+    }
+   ],
+   "gloss": {
+    "πολεοδόμο": "πολεοδόμος — urban planner",
+    "τέταρτο": "τέταρτο — quarter (of an hour)",
+    "κυριαρχήσει": "κυριαρχώ — to dominate",
+    "αντιδράσεις": "αντίδραση — reaction, objection",
+    "περιορισμό": "περιορισμός — restriction",
+    "παρεξήγηση": "παρεξήγηση — misunderstanding",
+    "συγκεντρωθούν": "συγκεντρώνομαι — to be concentrated",
+    "ευκατάστατες": "ευκατάστατος — well-off",
+    "να βαθύνει": "βαθαίνω — to deepen",
+    "ανισότητες": "ανισότητα — inequality",
+    "πυκνές": "πυκνός — dense",
+    "πεζούς": "πεζός — pedestrian",
+    "χώροι πρασίνου": "χώρος πρασίνου — green space"
+   }
+  }
+ ]
+}
