@@ -1,0 +1,832 @@
+{
+ "items": [
+  {
+   "id": "l38-ann-apergia",
+   "title": "Απεργία στα πλοία",
+   "title_en": "A ferry strike",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα του λιμανιού του Πειραιά.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Προσοχή, παρακαλώ. Λόγω της εικοσιτετράωρης απεργίας των ναυτεργατών, όλα τα πλοία θα παραμείνουν δεμένα στο λιμάνι από τα μεσάνυχτα της Τετάρτης μέχρι τα μεσάνυχτα της Πέμπτης. Τα δρομολόγια προς τις Κυκλάδες, τα Δωδεκάνησα και την Κρήτη δεν θα πραγματοποιηθούν.",
+     "en": "Attention, please. Because of the twenty-four-hour seafarers' strike, all ships will remain moored in the port from midnight on Wednesday until midnight on Thursday. Sailings to the Cyclades, the Dodecanese and Crete will not take place."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Τα εισιτήρια για την Πέμπτη ισχύουν χωρίς επιπλέον χρέωση για οποιοδήποτε δρομολόγιο της ίδιας εταιρείας μέσα στον επόμενο μήνα. Όσοι επιθυμούν επιστροφή χρημάτων μπορούν να απευθυνθούν στα πρακτορεία ή να υποβάλουν αίτηση στην ιστοσελίδα της εταιρείας τους.",
+     "en": "Tickets for Thursday are valid at no extra charge for any sailing of the same company within the next month. Those who wish to have their money refunded can go to the agencies or submit an application on their company's website."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Τα πλοία της γραμμής του Αργοσαρωνικού θα εκτελέσουν κανονικά τα τελευταία δρομολόγια της Τετάρτης, με αναχώρηση έως τις δέκα το βράδυ. Οι επιβάτες με αυτοκίνητα παρακαλούνται να μην έρχονται στο λιμάνι χωρίς επιβεβαίωση, για να αποφευχθεί η συμφόρηση. Ευχαριστούμε για την κατανόηση.",
+     "en": "The ships on the Saronic Gulf line will run Wednesday's last sailings as normal, with departures until ten in the evening. Passengers with cars are asked not to come to the port without confirmation, to avoid congestion. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν θα ταξιδέψουν τα πλοία την Πέμπτη;",
+     "options": [
+      "Λόγω βλάβης",
+      "Λόγω κακοκαιρίας",
+      "Λόγω απεργίας των ναυτεργατών",
+      "Λόγω αργίας"
+     ],
+     "answer": "Λόγω απεργίας των ναυτεργατών",
+     "why": "Λόγω της εικοσιτετράωρης απεργίας των ναυτεργατών"
+    },
+    {
+     "q": "Τι ισχύει για τα εισιτήρια της Πέμπτης;",
+     "options": [
+      "Μετατρέπονται σε εισιτήρια λεωφορείου",
+      "Ισχύουν μόνο για την Παρασκευή",
+      "Ισχύουν χωρίς χρέωση για άλλο δρομολόγιο μέσα σε έναν μήνα",
+      "Ακυρώνονται χωρίς επιστροφή"
+     ],
+     "answer": "Ισχύουν χωρίς χρέωση για άλλο δρομολόγιο μέσα σε έναν μήνα",
+     "why": "Τα εισιτήρια για την Πέμπτη ισχύουν χωρίς επιπλέον χρέωση"
+    },
+    {
+     "q": "Τι ζητείται από τους επιβάτες με αυτοκίνητα;",
+     "options": [
+      "Να μην έρχονται στο λιμάνι χωρίς επιβεβαίωση",
+      "Να πάρουν άλλο λιμάνι",
+      "Να έρθουν νωρίς την Πέμπτη",
+      "Να αφήσουν τα αυτοκίνητα στο πάρκινγκ"
+     ],
+     "answer": "Να μην έρχονται στο λιμάνι χωρίς επιβεβαίωση",
+     "why": "να μην έρχονται στο λιμάνι χωρίς επιβεβαίωση"
+    }
+   ],
+   "gloss": {
+    "απεργίας": "απεργία — strike",
+    "ναυτεργατών": "ναυτεργάτης — seafarer",
+    "δεμένα": "δεμένος — moored, tied",
+    "δρομολόγια": "δρομολόγιο — scheduled sailing",
+    "δεν θα πραγματοποιηθούν": "πραγματοποιούμαι — to take place",
+    "επιπλέον χρέωση": "επιπλέον χρέωση — extra charge",
+    "επιστροφή χρημάτων": "επιστροφή χρημάτων — refund",
+    "πρακτορεία": "πρακτορείο — (ticket) agency",
+    "επιβεβαίωση": "επιβεβαίωση — confirmation",
+    "συμφόρηση": "συμφόρηση — congestion"
+   }
+  },
+  {
+   "id": "l38-vm-metakomisi",
+   "title": "Μήνυμα από την εταιρεία μετακομίσεων",
+   "title_en": "A message from the removal company",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από μια εταιρεία μετακομίσεων.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Καλημέρα σας, από την εταιρεία μετακομίσεων «Ερμής» σας τηλεφωνώ, για τη μετακόμισή σας το Σάββατο. Ο συνεργάτης μας που ήρθε για την εκτίμηση είπε ότι το πιάνο δεν χωράει στη σκάλα της καινούργιας πολυκατοικίας, οπότε θα χρειαστεί ανυψωτικό από το μπαλκόνι.",
+     "en": "Good morning, I'm calling from the «Hermes» removal company about your move on Saturday. Our colleague who came to make the estimate said the piano won't fit up the stairs of the new building, so we'll need a lift through the balcony."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Αυτό σημαίνει ότι πρέπει να εκδοθεί άδεια από τον δήμο για να κλείσει μια λωρίδα του δρόμου για δύο ώρες. Μπορούμε να την αναλάβουμε εμείς, με μια επιπλέον χρέωση σαράντα ευρώ, ή να την κάνετε μόνος σας στο δημαρχείο. Η τελική τιμή, μαζί με το ανυψωτικό, ανεβαίνει στα εξακόσια είκοσι ευρώ.",
+     "en": "This means a permit must be issued by the municipality to close one lane of the road for two hours. We can take care of it, with an extra charge of forty euros, or you can do it yourself at the town hall. The final price, including the lift, goes up to six hundred and twenty euros."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Επίσης, θα σας φέρουμε τα χαρτόκουτα την Τετάρτη το απόγευμα. Σας παρακαλώ να γράψετε σε κάθε κούτα σε ποιο δωμάτιο πηγαίνει, και να βάλετε τα εύθραυστα χωριστά. Περιμένω να μου επιβεβαιώσετε για την άδεια μέχρι αύριο. Ευχαριστώ.",
+     "en": "Also, we'll bring you the cardboard boxes on Wednesday afternoon. Please write on each box which room it goes to, and put the fragile items separately. I'll wait for you to confirm about the permit by tomorrow. Thank you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί χρειάζεται ανυψωτικό;",
+     "options": [
+      "Γιατί η πολυκατοικία δεν έχει ασανσέρ",
+      "Γιατί ο δρόμος είναι στενός",
+      "Γιατί το πιάνο δεν χωράει στη σκάλα",
+      "Γιατί τα έπιπλα είναι πολλά"
+     ],
+     "answer": "Γιατί το πιάνο δεν χωράει στη σκάλα",
+     "why": "το πιάνο δεν χωράει στη σκάλα"
+    },
+    {
+     "q": "Γιατί χρειάζεται άδεια από τον δήμο;",
+     "options": [
+      "Για να παρκάρει το φορτηγό στο πεζοδρόμιο",
+      "Για να κλείσει μια λωρίδα του δρόμου για δύο ώρες",
+      "Για να δουλέψουν το Σάββατο",
+      "Για να μεταφερθεί το πιάνο"
+     ],
+     "answer": "Για να κλείσει μια λωρίδα του δρόμου για δύο ώρες",
+     "why": "για να κλείσει μια λωρίδα του δρόμου για δύο ώρες"
+    },
+    {
+     "q": "Τι πρέπει να γράψει ο πελάτης σε κάθε κούτα;",
+     "options": [
+      "Το όνομά του",
+      "Σε ποιο δωμάτιο πηγαίνει",
+      "Το βάρος της",
+      "Την τιμή των αντικειμένων"
+     ],
+     "answer": "Σε ποιο δωμάτιο πηγαίνει",
+     "why": "να γράψετε σε κάθε κούτα σε ποιο δωμάτιο πηγαίνει"
+    }
+   ],
+   "gloss": {
+    "μετακομίσεων": "μετακόμιση — move, removal",
+    "εκτίμηση": "εκτίμηση — estimate",
+    "δεν χωράει": "χωράω — to fit",
+    "ανυψωτικό": "ανυψωτικό — lift, hoist",
+    "να εκδοθεί": "εκδίδομαι — to be issued",
+    "λωρίδα": "λωρίδα — lane",
+    "δημαρχείο": "δημαρχείο — town hall",
+    "χαρτόκουτα": "χαρτόκουτο — cardboard box",
+    "εύθραυστα": "εύθραυστος — fragile"
+   }
+  },
+  {
+   "id": "l38-dia-yiothesia",
+   "title": "Υιοθεσία από το καταφύγιο ζώων",
+   "title_en": "Adopting from an animal shelter",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα καταφύγιο αδέσποτων ζώων.",
+   "script": [
+    {
+     "speaker": "Επισκέπτρια",
+     "voice": "f",
+     "el": "Καλημέρα. Θα θέλαμε να υιοθετήσουμε έναν σκύλο. Μένουμε σε διαμέρισμα, αλλά έχουμε μεγάλη βεράντα, και ο γιος μου είναι δέκα χρονών.",
+     "en": "Good morning. We'd like to adopt a dog. We live in a flat, but we have a big balcony, and my son is ten."
+    },
+    {
+     "speaker": "Εθελοντής",
+     "voice": "m",
+     "el": "Πολύ ωραία. Για διαμέρισμα σας προτείνω έναν σκύλο μεσαίου μεγέθους και όχι πολύ νεαρό. Τα κουτάβια είναι γλυκά, αλλά χρειάζονται πολύ χρόνο και εκπαίδευση. Έχουμε, για παράδειγμα, τη Μέλι, τριών χρονών, πολύ ήρεμη και αγαπάει τα παιδιά. Τη βρήκαμε δεμένη σε ένα χωράφι.",
+     "en": "Very good. For a flat I'd suggest a medium-sized dog, and not a very young one. Puppies are sweet, but they need a lot of time and training. We have, for example, Meli, three years old, very calm, and she loves children. We found her tied up in a field."
+    },
+    {
+     "speaker": "Επισκέπτρια",
+     "voice": "f",
+     "el": "Τι πρέπει να κάνουμε για να την πάρουμε;",
+     "en": "What do we have to do to take her?"
+    },
+    {
+     "speaker": "Εθελοντής",
+     "voice": "m",
+     "el": "Πρώτα θα συμπληρώσετε ένα ερωτηματολόγιο, και μετά ένας εθελοντής θα έρθει να δει το σπίτι σας. Η Μέλι είναι ήδη στειρωμένη, εμβολιασμένη και έχει τσιπ, που θα το περάσουμε στο όνομά σας. Δεν υπάρχει κόστος, αλλά ζητάμε μια μικρή δωρεά, αν μπορείτε. Και σας προτείνουμε να έρθετε δυο τρεις φορές να τη βγάλετε βόλτα πριν την πάρετε, για να σας γνωρίσει.",
+     "en": "First you'll fill in a questionnaire, and then a volunteer will come to see your home. Meli is already spayed, vaccinated and has a microchip, which we'll transfer to your name. There's no cost, but we ask for a small donation if you can. And we suggest you come two or three times to take her for a walk before you take her, so that she gets to know you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο εθελοντής δεν προτείνει κουτάβι;",
+     "options": [
+      "Γιατί δεν αγαπούν τα παιδιά",
+      "Γιατί δεν έχουν κουτάβια",
+      "Γιατί είναι ακριβά",
+      "Γιατί τα κουτάβια χρειάζονται πολύ χρόνο και εκπαίδευση"
+     ],
+     "answer": "Γιατί τα κουτάβια χρειάζονται πολύ χρόνο και εκπαίδευση",
+     "why": "χρειάζονται πολύ χρόνο και εκπαίδευση"
+    },
+    {
+     "q": "Τι θα γίνει μετά το ερωτηματολόγιο;",
+     "options": [
+      "Θα πάρουν αμέσως τη Μέλι",
+      "Ένας εθελοντής θα επισκεφθεί το σπίτι τους",
+      "Θα πληρώσουν ένα ποσό",
+      "Θα πάνε σε κτηνίατρο"
+     ],
+     "answer": "Ένας εθελοντής θα επισκεφθεί το σπίτι τους",
+     "why": "ένας εθελοντής θα έρθει να δει το σπίτι σας"
+    },
+    {
+     "q": "Τι προτείνει ο εθελοντής πριν από την υιοθεσία;",
+     "options": [
+      "Να κάνουν μαθήματα εκπαίδευσης",
+      "Να ρωτήσουν τους γείτονες",
+      "Να αγοράσουν κρεβάτι για τον σκύλο",
+      "Να έρθουν μερικές φορές να βγάλουν βόλτα τη Μέλι"
+     ],
+     "answer": "Να έρθουν μερικές φορές να βγάλουν βόλτα τη Μέλι",
+     "why": "να έρθετε δυο τρεις φορές να τη βγάλετε βόλτα"
+    }
+   ],
+   "gloss": {
+    "καταφύγιο": "καταφύγιο — shelter",
+    "αδέσποτων": "αδέσποτος — stray",
+    "να υιοθετήσουμε": "υιοθετώ — to adopt",
+    "μεσαίου μεγέθους": "μεσαίου μεγέθους — medium-sized",
+    "κουτάβια": "κουτάβι — puppy",
+    "εκπαίδευση": "εκπαίδευση — training",
+    "ερωτηματολόγιο": "ερωτηματολόγιο — questionnaire",
+    "στειρωμένη": "στειρωμένος — spayed, neutered",
+    "εμβολιασμένη": "εμβολιασμένος — vaccinated",
+    "τσιπ": "τσιπ — microchip",
+    "δωρεά": "δωρεά — donation"
+   }
+  },
+  {
+   "id": "l38-dia-taverna",
+   "title": "Σε μια ταβέρνα με μια χορτοφάγο φίλη",
+   "title_en": "At a taverna with a vegetarian friend",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε μια ταβέρνα ανάμεσα σε έναν σερβιτόρο και μια παρέα.",
+   "script": [
+    {
+     "speaker": "Σερβιτόρος",
+     "voice": "m",
+     "el": "Καλησπέρα σας! Τι θα πάρετε; Σήμερα έχουμε φρέσκο ψάρι, τσιπούρες και μπαρμπούνια, και από τα μαγειρευτά κοκκινιστό με χυλοπίτες.",
+     "en": "Good evening! What will you have? Today we have fresh fish, sea bream and red mullet, and from the cooked dishes beef in tomato sauce with pasta."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Η φίλη μου είναι χορτοφάγος, δεν τρώει ούτε κρέας ούτε ψάρι. Τι θα μπορούσατε να της προτείνετε;",
+     "en": "My friend is vegetarian; she doesn't eat meat or fish. What could you suggest for her?"
+    },
+    {
+     "speaker": "Σερβιτόρος",
+     "voice": "m",
+     "el": "Πολλά! Η ελληνική κουζίνα έχει άπειρα λαδερά. Σήμερα έχουμε φασολάκια, γεμιστά και μπριάμ. Από τα ορεκτικά, φάβα με κάπαρη, χόρτα βραστά και κολοκυθοκεφτέδες. Μόνο προσοχή: τα γεμιστά μας έχουν λίγο κιμά, και οι κολοκυθοκεφτέδες έχουν φέτα και αυγό, αν δεν τρώει ούτε αυτά.",
+     "en": "Lots! Greek cuisine has countless dishes cooked in olive oil. Today we have green beans, stuffed vegetables and briam. From the starters, fava with capers, boiled greens and courgette fritters. Just one warning: our stuffed vegetables have a little mince, and the courgette fritters have feta and egg, in case she doesn't eat those either."
+    },
+    {
+     "speaker": "Χορτοφάγος",
+     "voice": "f",
+     "el": "Τυρί και αυγά τρώω, ευτυχώς! Τότε θα πάρω τους κολοκυθοκεφτέδες, τη φάβα και το μπριάμ. Και για να μοιραστούμε, μια χωριάτικη χωρίς κρεμμύδι, αν γίνεται.",
+     "en": "Luckily I do eat cheese and eggs! Then I'll have the courgette fritters, the fava and the briam. And to share, a Greek salad without onion, if possible."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι δεν τρώει η φίλη του πελάτη;",
+     "options": [
+      "Κρέας και ψάρι",
+      "Λαχανικά",
+      "Ψωμί",
+      "Τυρί"
+     ],
+     "answer": "Κρέας και ψάρι",
+     "why": "δεν τρώει ούτε κρέας ούτε ψάρι"
+    },
+    {
+     "q": "Για ποιο φαγητό την προειδοποιεί ο σερβιτόρος;",
+     "options": [
+      "Για τα χόρτα, που είναι αλμυρά",
+      "Για τη φάβα, που έχει κάπαρη",
+      "Για το μπριάμ, που είναι καυτερό",
+      "Για τα γεμιστά, που έχουν λίγο κιμά"
+     ],
+     "answer": "Για τα γεμιστά, που έχουν λίγο κιμά",
+     "why": "τα γεμιστά μας έχουν λίγο κιμά"
+    },
+    {
+     "q": "Τι ζητάει η χορτοφάγος για τη σαλάτα;",
+     "options": [
+      "Να μην έχει κρεμμύδι",
+      "Να έρθει πρώτη",
+      "Επιπλέον φέτα",
+      "Να έχει λιγότερο λάδι"
+     ],
+     "answer": "Να μην έχει κρεμμύδι",
+     "why": "μια χωριάτικη χωρίς κρεμμύδι"
+    }
+   ],
+   "gloss": {
+    "ταβέρνα": "ταβέρνα — taverna",
+    "χορτοφάγο": "χορτοφάγος — vegetarian",
+    "τσιπούρες": "τσιπούρα — sea bream",
+    "μπαρμπούνια": "μπαρμπούνι — red mullet",
+    "μαγειρευτά": "μαγειρευτά — cooked dishes",
+    "κοκκινιστό": "κοκκινιστό — meat in tomato sauce",
+    "λαδερά": "λαδερά — dishes cooked in olive oil",
+    "γεμιστά": "γεμιστά — stuffed vegetables",
+    "κάπαρη": "κάπαρη — capers",
+    "κολοκυθοκεφτέδες": "κολοκυθοκεφτές — courgette fritter",
+    "κιμά": "κιμάς — mince",
+    "να μοιραστούμε": "μοιράζομαι — to share"
+   }
+  },
+  {
+   "id": "l38-mono-erhomos",
+   "title": "Ο δρόμος από την Αλβανία",
+   "title_en": "The road from Albania",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν άντρα να μιλάει για το πώς ήρθε στην Ελλάδα πριν από τριάντα χρόνια.",
+   "script": [
+    {
+     "speaker": "Αρμπέν",
+     "voice": "m",
+     "el": "Ήρθα στην Ελλάδα τον χειμώνα του 1991, δεκαεννιά χρονών, με τα πόδια. Περπατήσαμε τρεις μέρες στα βουνά με άλλους πέντε από το χωριό μου, με λίγο ψωμί και τυρί στις τσέπες. Δεν ήξερα ούτε μία λέξη ελληνικά, εκτός από το «ευχαριστώ».",
+     "en": "I came to Greece in the winter of 1991, nineteen years old, on foot. We walked for three days in the mountains with five others from my village, with a little bread and cheese in our pockets. I didn't know a single word of Greek, except 'thank you'."
+    },
+    {
+     "speaker": "Αρμπέν",
+     "voice": "m",
+     "el": "Τα πρώτα χρόνια δούλεψα σε χωράφια στη Θεσσαλία και μετά σε οικοδομές στην Αθήνα. Δεν ήταν εύκολα. Κάποιοι μας κοίταζαν με καχυποψία, και ήταν και αυτοί που δεν μας πλήρωναν. Αλλά βρήκα και ανθρώπους που με βοήθησαν πολύ. Ο πρώτος μου εργοδότης, ο κυρ Νίκος, μου έμαθε τη δουλειά του σοβατζή και με έβαλε να μένω στο σπίτι του τον πρώτο χειμώνα.",
+     "en": "The first years I worked in the fields in Thessaly and then on building sites in Athens. It wasn't easy. Some people looked at us with suspicion, and there were also those who didn't pay us. But I also found people who helped me a lot. My first employer, kyr Nikos, taught me the plasterer's trade and let me stay at his house the first winter."
+    },
+    {
+     "speaker": "Αρμπέν",
+     "voice": "m",
+     "el": "Σήμερα έχω δική μου εταιρεία ανακαινίσεων και δώδεκα υπαλλήλους, Έλληνες και Αλβανούς. Η κόρη μου σπουδάζει ιατρική στη Θεσσαλονίκη. Όταν με ρωτάνε από πού είμαι, δεν ξέρω πια τι να απαντήσω. Είμαι από εκεί που γεννήθηκα και από εδώ που έζησα. Και τα δύο είναι αλήθεια.",
+     "en": "Today I have my own renovation company and twelve employees, Greeks and Albanians. My daughter is studying medicine in Thessaloniki. When people ask me where I'm from, I no longer know what to answer. I'm from where I was born and from here where I've lived. Both are true."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ήρθε ο Αρμπέν στην Ελλάδα;",
+     "options": [
+      "Με τα πόδια από τα βουνά",
+      "Με πλοίο",
+      "Με λεωφορείο",
+      "Με αεροπλάνο"
+     ],
+     "answer": "Με τα πόδια από τα βουνά",
+     "why": "με τα πόδια. Περπατήσαμε τρεις μέρες στα βουνά"
+    },
+    {
+     "q": "Τι λέει για τον κυρ Νίκο;",
+     "options": [
+      "Ότι τον έστειλε πίσω",
+      "Ότι δεν τον πλήρωσε",
+      "Ότι του έμαθε τη δουλειά και τον φιλοξένησε",
+      "Ότι ήταν συγγενής του"
+     ],
+     "answer": "Ότι του έμαθε τη δουλειά και τον φιλοξένησε",
+     "why": "μου έμαθε τη δουλειά του σοβατζή και με έβαλε να μένω στο σπίτι του"
+    },
+    {
+     "q": "Τι απαντά σήμερα όταν τον ρωτούν από πού είναι;",
+     "options": [
+      "Ότι είναι μόνο Αλβανός",
+      "Ότι δεν τον ενδιαφέρει",
+      "Ότι είναι και από τις δύο χώρες",
+      "Ότι είναι μόνο Έλληνας"
+     ],
+     "answer": "Ότι είναι και από τις δύο χώρες",
+     "why": "Είμαι από εκεί που γεννήθηκα και από εδώ που έζησα"
+    }
+   ],
+   "gloss": {
+    "χωράφια": "χωράφι — field",
+    "οικοδομές": "οικοδομή — building site",
+    "καχυποψία": "καχυποψία — suspicion",
+    "εργοδότης": "εργοδότης — employer",
+    "σοβατζή": "σοβατζής — plasterer",
+    "ανακαινίσεων": "ανακαίνιση — renovation",
+    "υπαλλήλους": "υπάλληλος — employee",
+    "ιατρική": "ιατρική — medicine"
+   }
+  },
+  {
+   "id": "l38-rep-soufli",
+   "title": "Το μετάξι του Σουφλίου",
+   "title_en": "The silk of Soufli",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από το Σουφλί, μια μικρή πόλη του Έβρου.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Στα τέλη του 19ου και στις αρχές του 20ού αιώνα, το Σουφλί ήταν ένα από τα σημαντικότερα κέντρα παραγωγής μεταξιού στα Βαλκάνια. Σχεδόν κάθε οικογένεια έτρεφε μεταξοσκώληκες στο πάνω πάτωμα του σπιτιού της, και τα πλούσια αρχοντικά της πόλης χτίστηκαν με τα κέρδη από το μετάξι.",
+     "en": "In the late 19th and early 20th century, Soufli was one of the most important centres of silk production in the Balkans. Almost every family raised silkworms on the upper floor of its house, and the town's rich mansions were built with the profits from silk."
+    },
+    {
+     "speaker": "Μουσειολόγος",
+     "voice": "m",
+     "el": "Οι μεταξοσκώληκες τρέφονται μόνο με φύλλα μουριάς, γι' αυτό γύρω από την πόλη υπήρχαν χιλιάδες μουριές. Μέσα σε έναν περίπου μήνα, κάθε σκουλήκι τυλίγεται σε ένα κουκούλι από μια ενιαία κλωστή, μήκους πάνω από ένα χιλιόμετρο. Μετά τον πόλεμο, με την εμφάνιση των συνθετικών ινών, η παραγωγή παρήκμασε σχεδόν εντελώς.",
+     "en": "Silkworms feed only on mulberry leaves, which is why there were thousands of mulberry trees around the town. In about a month, each worm wraps itself in a cocoon made of a single thread more than a kilometre long. After the war, with the appearance of synthetic fibres, production declined almost completely."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Σήμερα το Μουσείο Μεταξιού, σε ένα αναπαλαιωμένο αρχοντικό, αφηγείται αυτή την ιστορία, ενώ λίγες επιχειρήσεις συνεχίζουν να υφαίνουν μεταξωτά μαντίλια και γραβάτες. Μερικοί νέοι παραγωγοί προσπαθούν μάλιστα να αναβιώσουν την καλλιέργεια, πιστεύοντας ότι το φυσικό, τοπικό μετάξι μπορεί να βρει ξανά τη θέση του στην αγορά.",
+     "en": "Today the Silk Museum, in a restored mansion, tells this story, while a few businesses continue to weave silk scarves and ties. Some young producers are even trying to revive sericulture, believing that natural, local silk can find its place in the market again."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού έτρεφαν οι οικογένειες τους μεταξοσκώληκες;",
+     "options": [
+      "Σε ειδικά εργοστάσια",
+      "Στα χωράφια",
+      "Στο πάνω πάτωμα των σπιτιών τους",
+      "Στις εκκλησίες"
+     ],
+     "answer": "Στο πάνω πάτωμα των σπιτιών τους",
+     "why": "έτρεφε μεταξοσκώληκες στο πάνω πάτωμα του σπιτιού της"
+    },
+    {
+     "q": "Γιατί υπήρχαν χιλιάδες μουριές γύρω από την πόλη;",
+     "options": [
+      "Για τα φρούτα τους",
+      "Για τη σκιά",
+      "Για το ξύλο τους",
+      "Γιατί οι μεταξοσκώληκες τρώνε μόνο φύλλα μουριάς"
+     ],
+     "answer": "Γιατί οι μεταξοσκώληκες τρώνε μόνο φύλλα μουριάς",
+     "why": "Οι μεταξοσκώληκες τρέφονται μόνο με φύλλα μουριάς"
+    },
+    {
+     "q": "Γιατί παρήκμασε η παραγωγή μεταξιού;",
+     "options": [
+      "Λόγω μιας αρρώστιας των δέντρων",
+      "Γιατί απαγορεύτηκε",
+      "Γιατί οι κάτοικοι μετανάστευσαν",
+      "Λόγω της εμφάνισης των συνθετικών ινών"
+     ],
+     "answer": "Λόγω της εμφάνισης των συνθετικών ινών",
+     "why": "με την εμφάνιση των συνθετικών ινών, η παραγωγή παρήκμασε"
+    }
+   ],
+   "gloss": {
+    "μεταξιού": "μετάξι — silk",
+    "Έβρου": "Έβρος — Evros (region, river)",
+    "έτρεφε": "τρέφω — to raise, feed",
+    "μεταξοσκώληκες": "μεταξοσκώληκας — silkworm",
+    "αρχοντικά": "αρχοντικό — mansion",
+    "μουριάς": "μουριά — mulberry tree",
+    "κουκούλι": "κουκούλι — cocoon",
+    "κλωστή": "κλωστή — thread",
+    "συνθετικών ινών": "συνθετική ίνα — synthetic fibre",
+    "παρήκμασε": "παρακμάζω — to decline",
+    "αναπαλαιωμένο": "αναπαλαιωμένος — restored",
+    "να υφαίνουν": "υφαίνω — to weave",
+    "να αναβιώσουν": "αναβιώνω — to revive"
+   }
+  },
+  {
+   "id": "l38-rep-tsai-vounou",
+   "title": "Το τσάι του βουνού",
+   "title_en": "Mountain tea",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από τον Ταΰγετο την εποχή της συλλογής του τσαγιού του βουνού.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Είναι αρχές Ιουλίου, και στις πλαγιές του Ταΰγετου, πάνω από τα χίλια μέτρα, μια ομάδα συλλεκτών κόβει με προσοχή τα ανθισμένα κλαδάκια του σιδερίτη, του φυτού που οι Έλληνες ονομάζουν «τσάι του βουνού». Ο αέρας μυρίζει ρίγανη και θυμάρι.",
+     "en": "It's early July, and on the slopes of Taygetos, above a thousand metres, a group of gatherers is carefully cutting the flowering sprigs of sideritis, the plant Greeks call 'mountain tea'. The air smells of oregano and thyme."
+    },
+    {
+     "speaker": "Συλλέκτρια",
+     "voice": "f",
+     "el": "Τα κόβουμε με ψαλίδι, ποτέ δεν τα ξεριζώνουμε, για να ξαναβγούν του χρόνου. Παλιά τα μαζεύαμε μόνο για το σπίτι· η γιαγιά μου το έδινε για κάθε κρύωμα και για τον πονόκοιλο. Τώρα πολλοί το καλλιεργούν σε χωράφια, γιατί η ζήτηση έχει μεγαλώσει, και η άγρια συλλογή απαγορεύεται σε πολλές περιοχές.",
+     "en": "We cut them with scissors, we never pull them up, so that they grow back next year. In the old days we gathered it only for the house; my grandmother gave it for every cold and for stomach ache. Now many people cultivate it in fields, because demand has grown, and wild gathering is banned in many areas."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Η επιστημονική έρευνα έχει δείξει ότι ο σιδερίτης περιέχει αντιοξειδωτικές ουσίες, και η ζήτηση από το εξωτερικό, ιδίως από τη Γερμανία, αυξάνεται συνεχώς. Οι παραγωγοί ελπίζουν ότι το ταπεινό αυτό βότανο θα δώσει μια νέα πνοή στα ορεινά χωριά, που έχουν ερημώσει τις τελευταίες δεκαετίες.",
+     "en": "Scientific research has shown that sideritis contains antioxidant substances, and demand from abroad, especially from Germany, is constantly increasing. Producers hope that this humble herb will breathe new life into the mountain villages, which have been deserted in recent decades."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί οι συλλέκτες κόβουν τα φυτά και δεν τα ξεριζώνουν;",
+     "options": [
+      "Για να ξαναβγούν του χρόνου",
+      "Γιατί είναι πιο γρήγορο",
+      "Γιατί το απαιτεί ο αγοραστής",
+      "Για να είναι πιο αρωματικά"
+     ],
+     "answer": "Για να ξαναβγούν του χρόνου",
+     "why": "ποτέ δεν τα ξεριζώνουμε, για να ξαναβγούν του χρόνου"
+    },
+    {
+     "q": "Γιατί πολλοί καλλιεργούν σήμερα τσάι του βουνού σε χωράφια;",
+     "options": [
+      "Γιατί η ζήτηση μεγάλωσε και η άγρια συλλογή απαγορεύεται σε πολλές περιοχές",
+      "Γιατί είναι πιο νόστιμο",
+      "Γιατί το επιδοτεί η ΕΕ",
+      "Γιατί τα βουνά κάηκαν"
+     ],
+     "answer": "Γιατί η ζήτηση μεγάλωσε και η άγρια συλλογή απαγορεύεται σε πολλές περιοχές",
+     "why": "η ζήτηση έχει μεγαλώσει, και η άγρια συλλογή απαγορεύεται σε πολλές περιοχές"
+    },
+    {
+     "q": "Τι ελπίζουν οι παραγωγοί;",
+     "options": [
+      "Να γίνει φάρμακο",
+      "Να το πουλήσουν στα σούπερ μάρκετ",
+      "Να ανοίξουν εργοστάσιο",
+      "Να δώσει νέα πνοή στα ορεινά χωριά"
+     ],
+     "answer": "Να δώσει νέα πνοή στα ορεινά χωριά",
+     "why": "θα δώσει μια νέα πνοή στα ορεινά χωριά"
+    }
+   ],
+   "gloss": {
+    "τσαγιού του βουνού": "τσάι του βουνού — mountain tea",
+    "Ταΰγετο": "Ταΰγετος — Taygetos (mountain)",
+    "συλλεκτών": "συλλέκτης — gatherer",
+    "ανθισμένα": "ανθισμένος — flowering",
+    "σιδερίτη": "σιδερίτης — sideritis (ironwort)",
+    "ρίγανη": "ρίγανη — oregano",
+    "θυμάρι": "θυμάρι — thyme",
+    "ξεριζώνουμε": "ξεριζώνω — to uproot",
+    "πονόκοιλο": "πονόκοιλος — stomach ache",
+    "αντιοξειδωτικές": "αντιοξειδωτικός — antioxidant",
+    "βότανο": "βότανο — herb",
+    "πνοή": "πνοή — breath",
+    "έχουν ερημώσει": "ερημώνω — to become deserted"
+   }
+  },
+  {
+   "id": "l38-int-oinochoos",
+   "title": "Μια οινοχόος",
+   "title_en": "A sommelier",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια οινοχόο που εργάζεται σε ένα εστιατόριο της Αθήνας.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πολλοί πιστεύουν ότι η δουλειά σας είναι απλώς να ανοίγετε μπουκάλια. Τι κάνει πραγματικά ένας οινοχόος;",
+     "en": "Many people think your job is simply opening bottles. What does a sommelier really do?"
+    },
+    {
+     "speaker": "Οινοχόος",
+     "voice": "f",
+     "el": "Το πιο σημαντικό είναι να ακούω. Ένας πελάτης σπάνια ξέρει να περιγράψει τι κρασί θέλει, αλλά αν τον ρωτήσεις τι του αρέσει να τρώει, αν προτιμά το γλυκό ή το ξινό, αν θέλει κάτι ελαφρύ για το καλοκαίρι, μπορείς να βρεις το κατάλληλο μπουκάλι. Δεν είναι θέμα τιμής. Συχνά ένα κρασί των δεκαπέντε ευρώ ταιριάζει καλύτερα με ένα πιάτο από ένα των εκατό.",
+     "en": "The most important thing is to listen. A customer rarely knows how to describe the wine they want, but if you ask them what they like to eat, whether they prefer sweet or sour, whether they want something light for summer, you can find the right bottle. It's not a question of price. Often a fifteen-euro wine goes better with a dish than a hundred-euro one."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Οι ελληνικές ποικιλίες έχουν γίνει γνωστές στο εξωτερικό;",
+     "en": "Have Greek grape varieties become known abroad?"
+    },
+    {
+     "speaker": "Οινοχόος",
+     "voice": "f",
+     "el": "Πολύ περισσότερο από πριν. Το Ασύρτικο της Σαντορίνης το βρίσκεις σήμερα σε εστιατόρια της Νέας Υόρκης και του Λονδίνου. Το μεγάλο μας πλεονέκτημα είναι ότι έχουμε πάνω από διακόσιες γηγενείς ποικιλίες, που δεν υπάρχουν πουθενά αλλού. Το μειονέκτημα είναι τα ονόματα: ο ξένος πελάτης δυσκολεύεται να προφέρει «Ξινόμαυρο» ή «Μαλαγουζιά». Γι' αυτό, πριν από τη γεύση, πουλάμε την ιστορία.",
+     "en": "Much more than before. You find Santorini's Assyrtiko today in restaurants in New York and London. Our great advantage is that we have more than two hundred native varieties that don't exist anywhere else. The disadvantage is the names: foreign customers struggle to pronounce 'Xinomavro' or 'Malagousia'. So, before the taste, we sell the story."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο είναι, κατά την οινοχόο, το πιο σημαντικό μέρος της δουλειάς της;",
+     "options": [
+      "Να ακούει τον πελάτη",
+      "Να ξέρει τις τιμές",
+      "Να ανοίγει τα μπουκάλια σωστά",
+      "Να προτείνει ακριβά κρασιά"
+     ],
+     "answer": "Να ακούει τον πελάτη",
+     "why": "Το πιο σημαντικό είναι να ακούω"
+    },
+    {
+     "q": "Τι λέει για την τιμή του κρασιού;",
+     "options": [
+      "Ένα φθηνότερο κρασί μπορεί να ταιριάζει καλύτερα με ένα πιάτο",
+      "Τα ακριβά κρασιά ταιριάζουν πάντα καλύτερα",
+      "Η τιμή δείχνει την ποιότητα",
+      "Οι πελάτες προτιμούν τα ακριβά"
+     ],
+     "answer": "Ένα φθηνότερο κρασί μπορεί να ταιριάζει καλύτερα με ένα πιάτο",
+     "why": "Συχνά ένα κρασί των δεκαπέντε ευρώ ταιριάζει καλύτερα"
+    },
+    {
+     "q": "Ποιο είναι το μειονέκτημα των ελληνικών ποικιλιών στο εξωτερικό;",
+     "options": [
+      "Η μικρή παραγωγή",
+      "Η υψηλή τιμή",
+      "Η κακή ποιότητα",
+      "Τα δύσκολα ονόματα"
+     ],
+     "answer": "Τα δύσκολα ονόματα",
+     "why": "Το μειονέκτημα είναι τα ονόματα"
+    }
+   ],
+   "gloss": {
+    "οινοχόο": "οινοχόος — sommelier",
+    "μπουκάλια": "μπουκάλι — bottle",
+    "ξινό": "ξινός — sour",
+    "ελαφρύ": "ελαφρύς — light",
+    "ποικιλίες": "ποικιλία — (grape) variety",
+    "πλεονέκτημα": "πλεονέκτημα — advantage",
+    "γηγενείς": "γηγενής — native, indigenous",
+    "μειονέκτημα": "μειονέκτημα — disadvantage",
+    "να προφέρει": "προφέρω — to pronounce",
+    "γεύση": "γεύση — taste"
+   }
+  },
+  {
+   "id": "l38-mono-antallagi",
+   "title": "Η ανταλλαγή των πληθυσμών",
+   "title_en": "The population exchange",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ιστορικό να μιλάει σε μια διάλεξη για την ανταλλαγή πληθυσμών ανάμεσα στην Ελλάδα και την Τουρκία.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Τον Σεπτέμβριο του 1922, με την κατάρρευση του μετώπου στη Μικρά Ασία και την καταστροφή της Σμύρνης, εκατοντάδες χιλιάδες Έλληνες ορθόδοξοι εγκατέλειψαν βιαστικά τις εστίες τους. Λίγους μήνες αργότερα, τον Ιανουάριο του 1923, η Ελλάδα και η Τουρκία υπέγραψαν στη Λωζάνη μια σύμβαση για την υποχρεωτική ανταλλαγή των πληθυσμών τους.",
+     "en": "In September 1922, with the collapse of the front in Asia Minor and the destruction of Smyrna, hundreds of thousands of Orthodox Greeks hastily abandoned their homes. A few months later, in January 1923, Greece and Turkey signed in Lausanne a convention for the compulsory exchange of their populations."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Το κριτήριο της ανταλλαγής δεν ήταν η γλώσσα ή η εθνική συνείδηση, αλλά η θρησκεία. Έτσι, τουρκόφωνοι ορθόδοξοι της Καππαδοκίας εστάλησαν στην Ελλάδα, ενώ ελληνόφωνοι μουσουλμάνοι της Κρήτης στην Τουρκία. Συνολικά, περίπου ένα εκατομμύριο διακόσιες χιλιάδες άνθρωποι ήρθαν στην Ελλάδα και περίπου τετρακόσιες χιλιάδες έφυγαν προς την αντίθετη κατεύθυνση. Οι μουσουλμάνοι της Δυτικής Θράκης και οι Έλληνες της Κωνσταντινούπολης εξαιρέθηκαν.",
+     "en": "The criterion for the exchange was not language or national consciousness, but religion. Thus Turkish-speaking Orthodox Christians of Cappadocia were sent to Greece, while Greek-speaking Muslims of Crete were sent to Turkey. In total, about one million two hundred thousand people came to Greece and about four hundred thousand left in the opposite direction. The Muslims of Western Thrace and the Greeks of Constantinople were exempted."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Για μια χώρα πέντε περίπου εκατομμυρίων, η άφιξη των προσφύγων ήταν τεράστιο σοκ. Πολλοί έζησαν για χρόνια σε παραπήγματα, αντιμετωπίστηκαν με καχυποψία και αποκαλούνταν υποτιμητικά «τουρκόσποροι». Ωστόσο, μακροπρόθεσμα, οι πρόσφυγες μεταμόρφωσαν την Ελλάδα: έδωσαν ώθηση στη γεωργία της Μακεδονίας, στη βιομηχανία, στη μουσική, με το ρεμπέτικο, και έφτιαξαν ολόκληρες συνοικίες, όπως η Νέα Σμύρνη και η Νέα Ιωνία.",
+     "en": "For a country of about five million, the arrival of the refugees was an enormous shock. Many lived for years in shacks, were treated with suspicion and were disparagingly called 'Turkish seed'. Yet in the long term the refugees transformed Greece: they gave a boost to Macedonian agriculture, to industry, to music with rebetiko, and they built whole districts, such as Nea Smyrni and Nea Ionia."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Η ανταλλαγή αποτέλεσε την πρώτη μαζική, διεθνώς νομιμοποιημένη μετακίνηση πληθυσμών του 20ού αιώνα, και χρησιμοποιήθηκε αργότερα ως πρότυπο σε άλλες περιοχές του κόσμου, με συχνά τραγικές συνέπειες. Αυτό μας υποχρεώνει να τη μελετάμε όχι μόνο ως εθνική ιστορία, αλλά και ως προειδοποίηση.",
+     "en": "The exchange was the first mass, internationally legitimised population transfer of the 20th century, and was later used as a model in other parts of the world, often with tragic consequences. This obliges us to study it not only as national history, but also as a warning."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο ήταν το κριτήριο της ανταλλαγής;",
+     "options": [
+      "Η θρησκεία",
+      "Η γλώσσα",
+      "Ο τόπος γέννησης",
+      "Η εθνική συνείδηση"
+     ],
+     "answer": "Η θρησκεία",
+     "why": "Το κριτήριο της ανταλλαγής δεν ήταν η γλώσσα ή η εθνική συνείδηση, αλλά η θρησκεία"
+    },
+    {
+     "q": "Ποιοι εξαιρέθηκαν από την ανταλλαγή;",
+     "options": [
+      "Όλοι οι ελληνόφωνοι",
+      "Οι ορθόδοξοι της Καππαδοκίας",
+      "Οι μουσουλμάνοι της Κρήτης",
+      "Οι μουσουλμάνοι της Δυτικής Θράκης και οι Έλληνες της Κωνσταντινούπολης"
+     ],
+     "answer": "Οι μουσουλμάνοι της Δυτικής Θράκης και οι Έλληνες της Κωνσταντινούπολης",
+     "why": "Οι μουσουλμάνοι της Δυτικής Θράκης και οι Έλληνες της Κωνσταντινούπολης εξαιρέθηκαν"
+    },
+    {
+     "q": "Πώς αντιμετωπίστηκαν αρχικά οι πρόσφυγες;",
+     "options": [
+      "Συχνά με καχυποψία, και ζούσαν σε παραπήγματα",
+      "Με μεγάλες κρατικές αποζημιώσεις",
+      "Με ενθουσιασμό",
+      "Τους δόθηκαν αμέσως σπίτια"
+     ],
+     "answer": "Συχνά με καχυποψία, και ζούσαν σε παραπήγματα",
+     "why": "Πολλοί έζησαν για χρόνια σε παραπήγματα, αντιμετωπίστηκαν με καχυποψία"
+    },
+    {
+     "q": "Γιατί, κατά την ομιλήτρια, πρέπει να μελετάμε την ανταλλαγή και «ως προειδοποίηση»;",
+     "options": [
+      "Γιατί οι πρόσφυγες δεν ενσωματώθηκαν ποτέ",
+      "Γιατί χρησιμοποιήθηκε ως πρότυπο αλλού, με τραγικές συνέπειες",
+      "Γιατί μπορεί να επαναληφθεί στην Ελλάδα",
+      "Γιατί η σύμβαση ήταν παράνομη"
+     ],
+     "answer": "Γιατί χρησιμοποιήθηκε ως πρότυπο αλλού, με τραγικές συνέπειες",
+     "why": "χρησιμοποιήθηκε αργότερα ως πρότυπο σε άλλες περιοχές του κόσμου, με συχνά τραγικές συνέπειες"
+    }
+   ],
+   "gloss": {
+    "ανταλλαγή": "ανταλλαγή — exchange",
+    "πληθυσμών": "πληθυσμός — population",
+    "κατάρρευση": "κατάρρευση — collapse",
+    "μετώπου": "μέτωπο — front",
+    "εστίες": "εστία — hearth, home",
+    "σύμβαση": "σύμβαση — convention, treaty",
+    "υποχρεωτική": "υποχρεωτικός — compulsory",
+    "κριτήριο": "κριτήριο — criterion",
+    "εθνική συνείδηση": "εθνική συνείδηση — national consciousness",
+    "εξαιρέθηκαν": "εξαιρούμαι — to be exempted",
+    "προσφύγων": "πρόσφυγας — refugee",
+    "παραπήγματα": "παράπηγμα — shack",
+    "υποτιμητικά": "υποτιμητικά — disparagingly",
+    "ώθηση": "ώθηση — boost",
+    "νομιμοποιημένη": "νομιμοποιημένος — legitimised"
+   }
+  },
+  {
+   "id": "l38-int-crispr",
+   "title": "Επεμβαίνοντας στα γονίδια",
+   "title_en": "Editing genes",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια μοριακή βιολόγο για τη γονιδιακή επεξεργασία και τα ηθικά της διλήμματα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Το 2020 το Βραβείο Νόμπελ Χημείας δόθηκε σε δύο ερευνήτριες για την τεχνική CRISPR. Τι ακριβώς κάνει αυτή η τεχνική;",
+     "en": "In 2020 the Nobel Prize in Chemistry was awarded to two researchers for the CRISPR technique. What exactly does this technique do?"
+    },
+    {
+     "speaker": "Βιολόγος",
+     "voice": "f",
+     "el": "Με απλά λόγια, είναι ένα μοριακό «ψαλίδι» που μπορεί να κόψει το DNA σε ένα πολύ συγκεκριμένο σημείο, ώστε να απενεργοποιήσουμε, να διορθώσουμε ή να αντικαταστήσουμε ένα γονίδιο. Η επεξεργασία γονιδίων δεν είναι καινούργια ιδέα, αλλά πριν από το CRISPR ήταν πολύ πιο δύσκολη, αργή και ακριβή. Τώρα μπορεί να γίνει σε σχεδόν οποιοδήποτε εργαστήριο.",
+     "en": "In simple terms, it's a molecular 'pair of scissors' that can cut DNA at a very specific point, so that we can deactivate, correct or replace a gene. Gene editing isn't a new idea, but before CRISPR it was much more difficult, slow and expensive. Now it can be done in almost any laboratory."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Υπάρχουν ήδη θεραπείες που τη χρησιμοποιούν;",
+     "en": "Are there already treatments that use it?"
+    },
+    {
+     "speaker": "Βιολόγος",
+     "voice": "f",
+     "el": "Ναι. Από το 2023 έχει εγκριθεί σε αρκετές χώρες η πρώτη θεραπεία για τη δρεπανοκυτταρική αναιμία και τη μεσογειακή αναιμία, που είναι, όπως ξέρετε, συχνή στην Ελλάδα. Λαμβάνονται κύτταρα από τον μυελό των οστών του ασθενούς, τροποποιούνται στο εργαστήριο και επιστρέφονται στον οργανισμό. Τα αποτελέσματα είναι εντυπωσιακά, αλλά το κόστος είναι προς το παρόν τεράστιο.",
+     "en": "Yes. Since 2023 the first treatment for sickle-cell anaemia and thalassaemia, which is, as you know, common in Greece, has been approved in several countries. Cells are taken from the patient's bone marrow, modified in the laboratory and returned to the body. The results are impressive, but the cost is enormous for now."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και τα ηθικά ζητήματα;",
+     "en": "And the ethical questions?"
+    },
+    {
+     "speaker": "Βιολόγος",
+     "voice": "f",
+     "el": "Εδώ πρέπει να κάνουμε μια κρίσιμη διάκριση. Άλλο είναι να τροποποιείς τα κύτταρα ενός ενήλικα ασθενούς, οπότε οι αλλαγές αφορούν μόνο εκείνον, και άλλο να επεμβαίνεις σε έμβρυα, οπότε οι αλλαγές περνούν στις επόμενες γενιές. Το 2018 ένας Κινέζος ερευνητής ανακοίνωσε τη γέννηση δύο παιδιών με τροποποιημένα γονίδια, και η επιστημονική κοινότητα αντέδρασε με οργή. Δεν είναι μόνο ότι δεν γνωρίζουμε τις μακροπρόθεσμες συνέπειες. Είναι και ο κίνδυνος να ανοίξει ο δρόμος για «παιδιά κατά παραγγελία», προνόμιο όσων μπορούν να πληρώσουν.",
+     "en": "Here we need to make a crucial distinction. It's one thing to modify the cells of an adult patient, so that the changes concern only them, and another to intervene in embryos, so that the changes pass on to the next generations. In 2018 a Chinese researcher announced the birth of two children with edited genes, and the scientific community reacted with outrage. It isn't only that we don't know the long-term consequences. There's also the risk of opening the way to 'designer babies', a privilege for those who can pay."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε το CRISPR διαφορετικό από τις προηγούμενες μεθόδους;",
+     "options": [
+      "Ότι δεν χρειάζεται εργαστήριο",
+      "Ότι δεν κόβει το DNA",
+      "Ότι είναι η πρώτη μέθοδος επεξεργασίας γονιδίων",
+      "Ότι είναι πολύ πιο εύκολο, γρήγορο και φθηνό"
+     ],
+     "answer": "Ότι είναι πολύ πιο εύκολο, γρήγορο και φθηνό",
+     "why": "πριν από το CRISPR ήταν πολύ πιο δύσκολη, αργή και ακριβή"
+    },
+    {
+     "q": "Πώς λειτουργεί η θεραπεία για τη μεσογειακή αναιμία;",
+     "options": [
+      "Τα κύτταρα του μυελού τροποποιούνται στο εργαστήριο και επιστρέφονται στον ασθενή",
+      "Με ένα χάπι",
+      "Με εμβόλιο",
+      "Με μετάγγιση αίματος από δότη"
+     ],
+     "answer": "Τα κύτταρα του μυελού τροποποιούνται στο εργαστήριο και επιστρέφονται στον ασθενή",
+     "why": "Λαμβάνονται κύτταρα από τον μυελό των οστών του ασθενούς, τροποποιούνται στο εργαστήριο"
+    },
+    {
+     "q": "Ποια διάκριση θεωρεί κρίσιμη η βιολόγος;",
+     "options": [
+      "Ανάμεσα σε φθηνές και ακριβές θεραπείες",
+      "Ανάμεσα σε Ευρώπη και Κίνα",
+      "Ανάμεσα σε αλλαγές σε ενήλικο ασθενή και σε έμβρυα",
+      "Ανάμεσα σε φυτά και ζώα"
+     ],
+     "answer": "Ανάμεσα σε αλλαγές σε ενήλικο ασθενή και σε έμβρυα",
+     "why": "Άλλο είναι να τροποποιείς τα κύτταρα ενός ενήλικα ασθενούς ... και άλλο να επεμβαίνεις σε έμβρυα"
+    },
+    {
+     "q": "Ποιον κίνδυνο αναφέρει εκτός από τις άγνωστες συνέπειες;",
+     "options": [
+      "Να αυξηθούν οι ασθένειες",
+      "Να κλείσουν τα εργαστήρια",
+      "Να γίνουν τα «παιδιά κατά παραγγελία» προνόμιο των πλουσίων",
+      "Να απαγορευτεί κάθε έρευνα"
+     ],
+     "answer": "Να γίνουν τα «παιδιά κατά παραγγελία» προνόμιο των πλουσίων",
+     "why": "ο κίνδυνος να ανοίξει ο δρόμος για «παιδιά κατά παραγγελία», προνόμιο όσων μπορούν να πληρώσουν"
+    }
+   ],
+   "gloss": {
+    "μοριακή": "μοριακός — molecular",
+    "γονιδιακή επεξεργασία": "γονιδιακή επεξεργασία — gene editing",
+    "διλήμματα": "δίλημμα — dilemma",
+    "να απενεργοποιήσουμε": "απενεργοποιώ — to deactivate",
+    "έχει εγκριθεί": "εγκρίνομαι — to be approved",
+    "δρεπανοκυτταρική αναιμία": "δρεπανοκυτταρική αναιμία — sickle-cell anaemia",
+    "μεσογειακή αναιμία": "μεσογειακή αναιμία — thalassaemia",
+    "μυελό των οστών": "μυελός των οστών — bone marrow",
+    "τροποποιούνται": "τροποποιούμαι — to be modified",
+    "διάκριση": "διάκριση — distinction",
+    "έμβρυα": "έμβρυο — embryo",
+    "οργή": "οργή — outrage, anger",
+    "κατά παραγγελία": "κατά παραγγελία — made to order"
+   }
+  }
+ ]
+}
