@@ -1,0 +1,855 @@
+{
+ "items": [
+  {
+   "id": "l47-ann-apergia-ploia",
+   "title": "Απεργία στα πλοία",
+   "title_en": "Ferry strike",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα του λιμανιού του Πειραιά.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Προσοχή, παρακαλώ. Ενημερώνουμε το επιβατικό κοινό ότι, λόγω της εικοσιτετράωρης απεργίας της Πανελλήνιας Ναυτικής Ομοσπονδίας, αύριο, Τετάρτη, τα πλοία θα παραμείνουν δεμένα σε όλα τα λιμάνια της χώρας, από τις έξι το πρωί της Τετάρτης έως τις έξι το πρωί της Πέμπτης.",
+     "en": "Attention, please. We inform passengers that, because of the twenty-four-hour strike by the Panhellenic Seamen's Federation, tomorrow, Wednesday, ships will stay tied up in all ports in the country, from six in the morning on Wednesday until six in the morning on Thursday."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Τα δρομολόγια της σημερινής βραδιάς θα εκτελεστούν κανονικά. Οι επιβάτες που έχουν εισιτήρια για αύριο μπορούν να τα αλλάξουν χωρίς χρέωση για οποιοδήποτε δρομολόγιο της ίδιας εταιρείας μέσα στον επόμενο μήνα, ή να ζητήσουν πλήρη επιστροφή των χρημάτων τους από το πρακτορείο όπου τα αγόρασαν.",
+     "en": "Tonight's sailings will run as normal. Passengers with tickets for tomorrow can change them free of charge for any sailing of the same company within the next month, or ask for a full refund from the agency where they bought them."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Για τις άγονες γραμμές, και για επείγουσες περιπτώσεις υγείας, θα εξυπηρετηθούν οι επιβάτες σύμφωνα με τις διατάξεις για το προσωπικό ασφαλείας. Για περισσότερες πληροφορίες, απευθυνθείτε στο Λιμεναρχείο ή στα γραφεία των εταιρειών. Ευχαριστούμε για την κατανόησή σας.",
+     "en": "For remote, subsidised routes and for medical emergencies, passengers will be served under the rules for skeleton staff. For more information, contact the Port Authority or the companies' offices. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο θα διαρκέσει η απεργία;",
+     "options": [
+      "Μία εβδομάδα",
+      "Είκοσι τέσσερις ώρες, από τις έξι το πρωί της Τετάρτης",
+      "Δύο μέρες",
+      "Μόνο το απόγευμα της Τετάρτης"
+     ],
+     "answer": "Είκοσι τέσσερις ώρες, από τις έξι το πρωί της Τετάρτης",
+     "why": "λόγω της εικοσιτετράωρης απεργίας ... από τις έξι το πρωί της Τετάρτης έως τις έξι το πρωί της Πέμπτης"
+    },
+    {
+     "q": "Τι μπορούν να κάνουν οι επιβάτες με εισιτήρια για αύριο;",
+     "options": [
+      "Να ταξιδέψουν απόψε με το ίδιο εισιτήριο",
+      "Να τα αλλάξουν χωρίς χρέωση ή να πάρουν πίσω τα χρήματά τους",
+      "Να ταξιδέψουν με αεροπλάνο χωρίς χρέωση",
+      "Τίποτα, τα εισιτήρια χάνονται"
+     ],
+     "answer": "Να τα αλλάξουν χωρίς χρέωση ή να πάρουν πίσω τα χρήματά τους",
+     "why": "μπορούν να τα αλλάξουν χωρίς χρέωση ... ή να ζητήσουν πλήρη επιστροφή των χρημάτων τους"
+    },
+    {
+     "q": "Τι θα γίνει με τα δρομολόγια της σημερινής βραδιάς;",
+     "options": [
+      "Θα ακυρωθούν",
+      "Θα εκτελεστούν κανονικά",
+      "Θα γίνουν μόνο για επείγουσες περιπτώσεις",
+      "Θα φύγουν νωρίτερα"
+     ],
+     "answer": "Θα εκτελεστούν κανονικά",
+     "why": "Τα δρομολόγια της σημερινής βραδιάς θα εκτελεστούν κανονικά"
+    }
+   ],
+   "gloss": {
+    "μεγάφωνα": "μεγάφωνο — loudspeaker",
+    "επιβατικό κοινό": "επιβατικό κοινό — passengers",
+    "απεργίας": "απεργία — strike",
+    "Ομοσπονδίας": "ομοσπονδία — federation",
+    "δεμένα": "δεμένος — tied up, moored",
+    "δρομολόγια": "δρομολόγιο — route, sailing",
+    "θα εκτελεστούν": "εκτελούμαι — to be carried out, to run",
+    "χρέωση": "χρέωση — charge",
+    "πρακτορείο": "πρακτορείο — (travel) agency",
+    "άγονες γραμμές": "άγονη γραμμή — remote subsidised route",
+    "επείγουσες": "επείγων — urgent",
+    "Λιμεναρχείο": "λιμεναρχείο — port authority"
+   }
+  },
+  {
+   "id": "l47-vm-mesitria",
+   "title": "Μήνυμα από τη μεσίτρια",
+   "title_en": "A message from the estate agent",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ψάχνετε διαμέρισμα για να νοικιάσετε. Θα ακούσετε ένα μήνυμα από μια μεσίτρια στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Μεσίτρια",
+     "voice": "f",
+     "el": "Καλημέρα, κύριε Σταθόπουλε, η Ρούλα Δημάκη είμαι από το μεσιτικό γραφείο. Μου είχατε πει ότι ψάχνετε δυάρι κοντά στο μετρό. Μόλις μπήκε στην αγορά ένα διαμέρισμα στον Άγιο Δημήτριο, πέντε λεπτά με τα πόδια από τον σταθμό. Είναι εξήντα πέντε τετραγωνικά, στον τρίτο όροφο, ανακαινισμένο πέρσι.",
+     "en": "Good morning, Mr Stathopoulos, it's Roula Dimaki from the estate agency. You'd told me you were looking for a one-bedroom flat near the metro. A flat has just come on the market in Agios Dimitrios, five minutes on foot from the station. It's sixty-five square metres, on the third floor, renovated last year."
+    },
+    {
+     "speaker": "Μεσίτρια",
+     "voice": "f",
+     "el": "Το ενοίκιο είναι πεντακόσια πενήντα ευρώ, χωρίς τα κοινόχρηστα, που είναι περίπου τριάντα ευρώ τον μήνα. Ο ιδιοκτήτης ζητάει δύο ενοίκια εγγύηση και προτιμά ενοικιαστή χωρίς κατοικίδια, αλλά για μια μικρή γάτα θα μπορούσαμε να το συζητήσουμε.",
+     "en": "The rent is five hundred and fifty euros, not including the building charges, which are about thirty euros a month. The owner is asking for two months' rent as a deposit and prefers a tenant without pets, but for a small cat we could discuss it."
+    },
+    {
+     "speaker": "Μεσίτρια",
+     "voice": "f",
+     "el": "Έχω ήδη άλλους δύο ενδιαφερόμενους, οπότε, αν θέλετε να το δείτε, σας προτείνω αύριο στις έξι το απόγευμα. Πάρτε με τηλέφωνο μέχρι το μεσημέρι να επιβεβαιώσουμε το ραντεβού. Ευχαριστώ!",
+     "en": "I already have two other interested people, so if you want to see it, I suggest tomorrow at six in the evening. Call me by midday to confirm the appointment. Thanks!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού βρίσκεται το διαμέρισμα;",
+     "options": [
+      "Πέντε λεπτά με τα πόδια από τον σταθμό του μετρό",
+      "Δίπλα στη θάλασσα",
+      "Στο κέντρο της Αθήνας, πάνω από ένα μαγαζί",
+      "Στον πρώτο όροφο μιας μονοκατοικίας"
+     ],
+     "answer": "Πέντε λεπτά με τα πόδια από τον σταθμό του μετρό",
+     "why": "πέντε λεπτά με τα πόδια από τον σταθμό"
+    },
+    {
+     "q": "Τι ζητάει ο ιδιοκτήτης;",
+     "options": [
+      "Δύο ενοίκια εγγύηση",
+      "Ένα ενοίκιο προκαταβολή",
+      "Συμβόλαιο για πέντε χρόνια",
+      "Ενοικιαστή με κατοικίδιο"
+     ],
+     "answer": "Δύο ενοίκια εγγύηση",
+     "why": "Ο ιδιοκτήτης ζητάει δύο ενοίκια εγγύηση"
+    },
+    {
+     "q": "Γιατί πρέπει ο κύριος Σταθόπουλος να τηλεφωνήσει γρήγορα;",
+     "options": [
+      "Επειδή το ενοίκιο θα ανέβει",
+      "Επειδή υπάρχουν ήδη άλλοι δύο ενδιαφερόμενοι",
+      "Επειδή ο ιδιοκτήτης θα το πουλήσει",
+      "Επειδή η μεσίτρια φεύγει διακοπές"
+     ],
+     "answer": "Επειδή υπάρχουν ήδη άλλοι δύο ενδιαφερόμενοι",
+     "why": "Έχω ήδη άλλους δύο ενδιαφερόμενους"
+    }
+   ],
+   "gloss": {
+    "μεσίτρια": "μεσίτρια — (female) estate agent",
+    "μεσιτικό γραφείο": "μεσιτικό γραφείο — estate agency",
+    "δυάρι": "δυάρι — one-bedroom flat (two rooms)",
+    "τετραγωνικά": "τετραγωνικά — square metres",
+    "ανακαινισμένο": "ανακαινισμένος — renovated",
+    "ενοίκιο": "ενοίκιο — rent",
+    "κοινόχρηστα": "κοινόχρηστα — building service charges",
+    "εγγύηση": "εγγύηση — deposit",
+    "ενοικιαστή": "ενοικιαστής — tenant",
+    "κατοικίδια": "κατοικίδιο — pet",
+    "ενδιαφερόμενους": "ενδιαφερόμενος — interested party",
+    "να επιβεβαιώσουμε": "επιβεβαιώνω — to confirm"
+   }
+  },
+  {
+   "id": "l47-dia-daneika",
+   "title": "Δανεικά σε φίλο",
+   "title_en": "Lending money to a friend",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε δύο φίλους να συζητούν αν πρέπει να δανείσει ο ένας χρήματα σε έναν κοινό τους φίλο.",
+   "script": [
+    {
+     "speaker": "Κώστας",
+     "voice": "m",
+     "el": "Λευτέρη, χθες με πήρε τηλέφωνο ο Φώτης. Μου ζήτησε να του δανείσω δύο χιλιάδες ευρώ. Λέει ότι του χάλασε το αυτοκίνητο και ότι χωρίς αυτό δεν μπορεί να πηγαίνει στη δουλειά. Δεν ξέρω τι να κάνω.",
+     "en": "Lefteris, Fotis called me yesterday. He asked me to lend him two thousand euros. He says his car broke down and that without it he can't get to work. I don't know what to do."
+    },
+    {
+     "speaker": "Λευτέρης",
+     "voice": "m",
+     "el": "Δύσκολο. Ο Φώτης είναι καλό παιδί, αλλά θυμάσαι πριν από τρία χρόνια; Είχε δανειστεί πεντακόσια ευρώ από τον Άρη και του τα έδωσε πίσω μετά από έναν χρόνο, και μόνο αφού ο Άρης του το θύμισε δέκα φορές.",
+     "en": "Tricky. Fotis is a good guy, but do you remember three years ago? He'd borrowed five hundred euros from Aris and gave it back after a year, and only after Aris had reminded him ten times."
+    },
+    {
+     "speaker": "Κώστας",
+     "voice": "m",
+     "el": "Το θυμάμαι. Αλλά τώρα η κατάσταση είναι διαφορετική, έχει σταθερή δουλειά. Και αν του πω όχι, φοβάμαι ότι θα χαλάσει η φιλία μας. Είμαστε φίλοι από το δημοτικό.",
+     "en": "I remember. But now the situation is different; he has a steady job. And if I say no, I'm afraid our friendship will be ruined. We've been friends since primary school."
+    },
+    {
+     "speaker": "Λευτέρης",
+     "voice": "m",
+     "el": "Τότε κάνε κάτι ενδιάμεσο. Δώσ' του τα λεφτά, αλλά συμφωνήστε από την αρχή πώς θα σου τα επιστρέφει, ας πούμε διακόσια τον μήνα. Και γράψτε το κάπου, έστω σε ένα μήνυμα. Ο παππούς μου έλεγε: «Λογαριασμός καθαρός, φιλία μακρά».",
+     "en": "Then do something in between. Give him the money, but agree from the start how he'll pay you back, say two hundred a month. And write it down somewhere, even in a message. My grandfather used to say: 'Clear accounts, long friendship.'"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί χρειάζεται ο Φώτης τα χρήματα;",
+     "options": [
+      "Επειδή του χάλασε το αυτοκίνητο και το χρειάζεται για τη δουλειά",
+      "Για να πάει διακοπές",
+      "Για να πληρώσει το ενοίκιο",
+      "Για να ανοίξει μια επιχείρηση"
+     ],
+     "answer": "Επειδή του χάλασε το αυτοκίνητο και το χρειάζεται για τη δουλειά",
+     "why": "του χάλασε το αυτοκίνητο και ... χωρίς αυτό δεν μπορεί να πηγαίνει στη δουλειά"
+    },
+    {
+     "q": "Τι θυμίζει ο Λευτέρης στον Κώστα;",
+     "options": [
+      "Ότι ο Φώτης δεν έχει δουλειά",
+      "Ότι ο Φώτης είχε αργήσει πολύ να επιστρέψει ένα δάνειο στον Άρη",
+      "Ότι ο Φώτης έχει πολλά αυτοκίνητα",
+      "Ότι ο Κώστας χρωστάει λεφτά στον Φώτη"
+     ],
+     "answer": "Ότι ο Φώτης είχε αργήσει πολύ να επιστρέψει ένα δάνειο στον Άρη",
+     "why": "του τα έδωσε πίσω μετά από έναν χρόνο, και μόνο αφού ο Άρης του το θύμισε δέκα φορές"
+    },
+    {
+     "q": "Τι συμβουλεύει τελικά ο Λευτέρης;",
+     "options": [
+      "Να δώσει μόνο τα μισά",
+      "Να ζητήσει τόκο",
+      "Να μη δώσει τίποτα",
+      "Να δώσει τα λεφτά, αλλά να συμφωνήσουν από την αρχή πώς θα επιστραφούν και να το γράψουν"
+     ],
+     "answer": "Να δώσει τα λεφτά, αλλά να συμφωνήσουν από την αρχή πώς θα επιστραφούν και να το γράψουν",
+     "why": "συμφωνήστε από την αρχή πώς θα σου τα επιστρέφει ... Και γράψτε το κάπου"
+    }
+   ],
+   "gloss": {
+    "να δανείσει": "δανείζω — to lend",
+    "Είχε δανειστεί": "δανείζομαι — to borrow",
+    "θύμισε": "θυμίζω — to remind",
+    "σταθερή": "σταθερός — steady, stable",
+    "θα χαλάσει": "χαλάω — to spoil, ruin",
+    "ενδιάμεσο": "ενδιάμεσος — in between, intermediate",
+    "θα σου τα επιστρέφει": "επιστρέφω — to give back",
+    "Λογαριασμός καθαρός, φιλία μακρά": "λογαριασμός καθαρός, φιλία μακρά — clear accounts make long friendships (proverb)",
+    "δημοτικό": "δημοτικό — primary school",
+    "έστω": "έστω — even if only"
+   }
+  },
+  {
+   "id": "l47-dia-spoudes-exoteriko",
+   "title": "Σπουδές στο εξωτερικό;",
+   "title_en": "Studying abroad?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια μητέρα και τον γιο της να συζητούν για τις σπουδές του μετά το λύκειο.",
+   "script": [
+    {
+     "speaker": "Νίκος",
+     "voice": "m",
+     "el": "Μαμά, θέλω να σου πω κάτι. Δεν θέλω να δώσω Πανελλήνιες. Βρήκα ένα πρόγραμμα ρομποτικής σε ένα πανεπιστήμιο στην Ολλανδία. Τα μαθήματα γίνονται στα αγγλικά και τα δίδακτρα για Ευρωπαίους είναι χαμηλά.",
+     "en": "Mum, I want to tell you something. I don't want to sit the national exams. I found a robotics programme at a university in the Netherlands. The classes are in English and the fees for Europeans are low."
+    },
+    {
+     "speaker": "Μητέρα",
+     "voice": "f",
+     "el": "Στην Ολλανδία; Νίκο, είσαι δεκαεπτά χρονών. Τα δίδακτρα μπορεί να είναι χαμηλά, αλλά τα ενοίκια εκεί είναι πανάκριβα. Ακούω ότι οι φοιτητές δεν βρίσκουν σπίτι και μένουν μήνες σε ξενοδοχεία.",
+     "en": "In the Netherlands? Nikos, you're seventeen. The fees may be low, but rents there are sky-high. I hear students can't find housing and stay in hotels for months."
+    },
+    {
+     "speaker": "Νίκος",
+     "voice": "m",
+     "el": "Το έψαξα. Το πανεπιστήμιο έχει εστίες για τους πρωτοετείς, αν κάνεις αίτηση νωρίς. Και μπορώ να δουλεύω μερικές ώρες την εβδομάδα. Εδώ, αν δεν περάσω στη σχολή που θέλω, θα χάσω έναν χρόνο. Εκεί η εισαγωγή γίνεται με τους βαθμούς του λυκείου και μια συνέντευξη.",
+     "en": "I looked into it. The university has halls for first-years if you apply early. And I can work a few hours a week. Here, if I don't get into the department I want, I'll lose a year. There, admission is based on school grades and an interview."
+    },
+    {
+     "speaker": "Μητέρα",
+     "voice": "f",
+     "el": "Βλέπω ότι το έχεις σκεφτεί σοβαρά. Ας κάνουμε το εξής: κάνε την αίτηση, αλλά συνέχισε και το φροντιστήριο μέχρι να μάθουμε την απάντηση. Και το Πάσχα πάμε μαζί να δούμε το πανεπιστήμιο και την πόλη. Αν σου αρέσει, θα σε στηρίξουμε.",
+     "en": "I can see you've thought about this seriously. Let's do this: send the application, but keep going to the cram school until we know the answer. And at Easter we'll go together to see the university and the city. If you like it, we'll support you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θέλει να σπουδάσει ο Νίκος;",
+     "options": [
+      "Ρομποτική σε πανεπιστήμιο της Ολλανδίας",
+      "Αγγλική φιλολογία",
+      "Ιατρική στη Γερμανία",
+      "Πληροφορική στην Αθήνα"
+     ],
+     "answer": "Ρομποτική σε πανεπιστήμιο της Ολλανδίας",
+     "why": "Βρήκα ένα πρόγραμμα ρομποτικής σε ένα πανεπιστήμιο στην Ολλανδία"
+    },
+    {
+     "q": "Ποια είναι η μεγαλύτερη ανησυχία της μητέρας;",
+     "options": [
+      "Τα δίδακτρα",
+      "Τα πανάκριβα ενοίκια και η δυσκολία να βρει σπίτι",
+      "Ο καιρός",
+      "Η γλώσσα"
+     ],
+     "answer": "Τα πανάκριβα ενοίκια και η δυσκολία να βρει σπίτι",
+     "why": "τα ενοίκια εκεί είναι πανάκριβα. Ακούω ότι οι φοιτητές δεν βρίσκουν σπίτι"
+    },
+    {
+     "q": "Ποια είναι η συμφωνία στο τέλος;",
+     "options": [
+      "Θα κάνει αίτηση, θα συνεχίσει το φροντιστήριο και το Πάσχα θα επισκεφτούν μαζί το πανεπιστήμιο",
+      "Ο Νίκος θα δώσει μόνο Πανελλήνιες",
+      "Θα περιμένει έναν χρόνο",
+      "Θα φύγει αμέσως για την Ολλανδία"
+     ],
+     "answer": "Θα κάνει αίτηση, θα συνεχίσει το φροντιστήριο και το Πάσχα θα επισκεφτούν μαζί το πανεπιστήμιο",
+     "why": "κάνε την αίτηση, αλλά συνέχισε και το φροντιστήριο ... Και το Πάσχα πάμε μαζί να δούμε το πανεπιστήμιο"
+    }
+   ],
+   "gloss": {
+    "λύκειο": "λύκειο — upper secondary school",
+    "Πανελλήνιες": "Πανελλήνιες — national university entrance exams",
+    "ρομποτικής": "ρομποτική — robotics",
+    "δίδακτρα": "δίδακτρα — tuition fees",
+    "πανάκριβα": "πανάκριβος — extremely expensive",
+    "εστίες": "εστία (φοιτητική) — student hall of residence",
+    "πρωτοετείς": "πρωτοετής — first-year student",
+    "αίτηση": "αίτηση — application",
+    "εισαγωγή": "εισαγωγή — admission",
+    "φροντιστήριο": "φροντιστήριο — cram school, tutoring centre",
+    "θα σε στηρίξουμε": "στηρίζω — to support"
+   }
+  },
+  {
+   "id": "l47-mono-nychterini-vardia",
+   "title": "Η πρώτη μου νυχτερινή βάρδια",
+   "title_en": "My first night shift",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια νοσηλεύτρια να θυμάται την πρώτη της νυχτερινή βάρδια σε ένα δημόσιο νοσοκομείο.",
+   "script": [
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Ήμουν είκοσι δύο χρονών και είχα πάρει το πτυχίο μου μόλις δύο μήνες πριν. Την πρώτη μου νυχτερινή βάρδια στην παθολογική κλινική είχαμε τριάντα ασθενείς και ήμασταν μόνο δύο νοσηλεύτριες. Η άλλη, η κυρία Μαίρη, δούλευε εκεί είκοσι πέντε χρόνια και ήξερε κάθε ασθενή με το όνομά του.",
+     "en": "I was twenty-two and had got my degree just two months earlier. On my first night shift in the internal medicine ward we had thirty patients and there were only two of us nurses. The other one, Mrs Mary, had worked there for twenty-five years and knew every patient by name."
+    },
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Γύρω στις τρεις τα ξημερώματα, ένας ηλικιωμένος κύριος άρχισε να δυσκολεύεται να αναπνεύσει. Πάγωσα. Όλα όσα είχα μάθει στη σχολή εξαφανίστηκαν από το μυαλό μου. Η κυρία Μαίρη ήρθε ήρεμα, μου έδωσε δύο σύντομες οδηγίες και κάλεσε τον εφημερεύοντα γιατρό. Σε δέκα λεπτά ο ασθενής ήταν καλύτερα.",
+     "en": "Around three in the morning, an elderly man started having trouble breathing. I froze. Everything I'd learned at college vanished from my mind. Mrs Mary came calmly, gave me two short instructions and called the doctor on duty. Within ten minutes the patient was better."
+    },
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Το πρωί, όταν τελείωσε η βάρδια, έκλαψα στο αυτοκίνητο. Η κυρία Μαίρη μού χτύπησε το τζάμι και μου έδωσε έναν καφέ. «Όλες παγώσαμε την πρώτη φορά», μου είπε. «Το σημαντικό είναι να μη ντρέπεσαι να φωνάξεις βοήθεια.» Δεκαπέντε χρόνια μετά, το λέω κι εγώ σε κάθε νέα συνάδελφο.",
+     "en": "In the morning, when the shift ended, I cried in the car. Mrs Mary knocked on the window and gave me a coffee. 'We all froze the first time,' she told me. 'What matters is not to be ashamed to call for help.' Fifteen years later, I say it too to every new colleague."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσες νοσηλεύτριες ήταν στη βάρδια;",
+     "options": [
+      "Πέντε",
+      "Μία",
+      "Τρεις",
+      "Δύο"
+     ],
+     "answer": "Δύο",
+     "why": "είχαμε τριάντα ασθενείς και ήμασταν μόνο δύο νοσηλεύτριες"
+    },
+    {
+     "q": "Τι έγινε όταν ο ηλικιωμένος ασθενής δυσκολεύτηκε να αναπνεύσει;",
+     "options": [
+      "Ο ασθενής μεταφέρθηκε σε άλλο νοσοκομείο",
+      "Η Δέσποινα τον βοήθησε μόνη της",
+      "Η Δέσποινα κάλεσε την οικογένειά του",
+      "Η Δέσποινα πάγωσε και η κυρία Μαίρη ανέλαβε ήρεμα"
+     ],
+     "answer": "Η Δέσποινα πάγωσε και η κυρία Μαίρη ανέλαβε ήρεμα",
+     "why": "Πάγωσα ... Η κυρία Μαίρη ήρθε ήρεμα, μου έδωσε δύο σύντομες οδηγίες"
+    },
+    {
+     "q": "Ποια συμβουλή τής έδωσε η κυρία Μαίρη;",
+     "options": [
+      "Να αλλάξει επάγγελμα",
+      "Να μη ντρέπεται να φωνάξει βοήθεια",
+      "Να διαβάσει ξανά τα βιβλία της σχολής",
+      "Να μη δουλεύει νυχτερινές βάρδιες"
+     ],
+     "answer": "Να μη ντρέπεται να φωνάξει βοήθεια",
+     "why": "Το σημαντικό είναι να μη ντρέπεσαι να φωνάξεις βοήθεια"
+    }
+   ],
+   "gloss": {
+    "νοσηλεύτρια": "νοσηλεύτρια — (female) nurse",
+    "νυχτερινή βάρδια": "νυχτερινή βάρδια — night shift",
+    "πτυχίο": "πτυχίο — degree",
+    "παθολογική κλινική": "παθολογική κλινική — internal medicine ward",
+    "ασθενείς": "ασθενής — patient",
+    "ξημερώματα": "ξημερώματα — small hours, dawn",
+    "να αναπνεύσει": "αναπνέω — to breathe",
+    "Πάγωσα": "παγώνω — to freeze",
+    "εφημερεύοντα": "εφημερεύων — on duty",
+    "τζάμι": "τζάμι — window pane",
+    "ντρέπεσαι": "ντρέπομαι — to be ashamed, embarrassed"
+   }
+  },
+  {
+   "id": "l47-rep-lykoi",
+   "title": "Λύκοι κοντά στην πόλη",
+   "title_en": "Wolves near the city",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ σε ειδησεογραφική εκπομπή για την εμφάνιση λύκων κοντά σε κατοικημένες περιοχές.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Τους τελευταίους μήνες, κάτοικοι περιοχών στους πρόποδες της Πάρνηθας έχουν καταγράψει με κάμερες και κινητά λύκους να κυκλοφορούν τη νύχτα κοντά σε σπίτια. Οι εικόνες κυκλοφόρησαν στα μέσα κοινωνικής δικτύωσης και προκάλεσαν ανησυχία, ιδίως σε γονείς και σε κτηνοτρόφους.",
+     "en": "In recent months, residents of areas at the foot of Mount Parnitha have recorded wolves on cameras and phones moving around near houses at night. The images spread on social media and caused concern, especially among parents and livestock farmers."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Σύμφωνα με τους επιστήμονες, ο λύκος, που είναι προστατευόμενο είδος, επιστρέφει σιγά σιγά σε περιοχές από τις οποίες είχε εξαφανιστεί για δεκαετίες. Οι επιθέσεις σε ανθρώπους είναι εξαιρετικά σπάνιες. Οι λύκοι συνήθως πλησιάζουν τους οικισμούς επειδή βρίσκουν εύκολη τροφή: σκουπίδια, φαγητό που αφήνουν οι κάτοικοι για τα αδέσποτα, ή ζώα χωρίς προστασία.",
+     "en": "According to scientists, the wolf, a protected species, is gradually returning to areas from which it had disappeared for decades. Attacks on people are extremely rare. Wolves usually come close to settlements because they find easy food: rubbish, food that residents leave for stray animals, or unprotected livestock."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι ειδικοί συστήνουν να κλείνουν καλά οι κάδοι, να μην αφήνεται φαγητό έξω τη νύχτα και οι κτηνοτρόφοι να χρησιμοποιούν ποιμενικούς σκύλους και ηλεκτρικούς φράχτες. Αν κάποιος συναντήσει λύκο, δεν πρέπει να τρέξει, αλλά να μείνει ήρεμος, να κάνει θόρυβο και να απομακρυνθεί αργά.",
+     "en": "Experts recommend closing bins properly, not leaving food out at night, and that farmers use shepherd dogs and electric fences. If someone meets a wolf, they should not run but stay calm, make noise and move away slowly."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς έγινε γνωστή η παρουσία των λύκων;",
+     "options": [
+      "Από εικόνες που κατέγραψαν κάτοικοι με κάμερες και κινητά",
+      "Από έναν κυνηγό",
+      "Από μια επίθεση σε άνθρωπο",
+      "Από ανακοίνωση του δήμου"
+     ],
+     "answer": "Από εικόνες που κατέγραψαν κάτοικοι με κάμερες και κινητά",
+     "why": "κάτοικοι ... έχουν καταγράψει με κάμερες και κινητά λύκους"
+    },
+    {
+     "q": "Γιατί, κατά τους επιστήμονες, οι λύκοι πλησιάζουν τους οικισμούς;",
+     "options": [
+      "Επειδή τους ενοχλούν οι κυνηγοί",
+      "Επειδή βρίσκουν εύκολη τροφή",
+      "Επειδή κυνηγούν ανθρώπους",
+      "Επειδή κάηκαν τα δάση"
+     ],
+     "answer": "Επειδή βρίσκουν εύκολη τροφή",
+     "why": "Οι λύκοι συνήθως πλησιάζουν τους οικισμούς επειδή βρίσκουν εύκολη τροφή"
+    },
+    {
+     "q": "Τι πρέπει να κάνει κάποιος αν συναντήσει λύκο;",
+     "options": [
+      "Να μείνει ακίνητος και σιωπηλός",
+      "Να του δώσει φαγητό",
+      "Να μείνει ήρεμος, να κάνει θόρυβο και να απομακρυνθεί αργά",
+      "Να τρέξει γρήγορα"
+     ],
+     "answer": "Να μείνει ήρεμος, να κάνει θόρυβο και να απομακρυνθεί αργά",
+     "why": "δεν πρέπει να τρέξει, αλλά να μείνει ήρεμος, να κάνει θόρυβο και να απομακρυνθεί αργά"
+    }
+   ],
+   "gloss": {
+    "κατοικημένες": "κατοικημένος — inhabited",
+    "πρόποδες": "πρόποδες — foot (of a mountain)",
+    "έχουν καταγράψει": "καταγράφω — to record",
+    "κτηνοτρόφους": "κτηνοτρόφος — livestock farmer",
+    "προστατευόμενο είδος": "προστατευόμενο είδος — protected species",
+    "επιθέσεις": "επίθεση — attack",
+    "οικισμούς": "οικισμός — settlement",
+    "αδέσποτα": "αδέσποτο — stray animal",
+    "κάδοι": "κάδος — (rubbish) bin",
+    "ποιμενικούς σκύλους": "ποιμενικός σκύλος — shepherd dog",
+    "φράχτες": "φράχτης — fence",
+    "να απομακρυνθεί": "απομακρύνομαι — to move away"
+   }
+  },
+  {
+   "id": "l47-rep-parka-tsepis",
+   "title": "Πάρκα τσέπης στη γειτονιά",
+   "title_en": "Pocket parks in the neighbourhood",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για τα μικρά πάρκα που δημιουργούνται σε άδεια οικόπεδα της Αθήνας.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Στην Αθήνα, μία από τις πόλεις με το λιγότερο πράσινο ανά κάτοικο στην Ευρώπη, ο δήμος μετατρέπει εγκαταλελειμμένα οικόπεδα σε «πάρκα τσέπης». Πρόκειται για μικρούς χώρους, συχνά όχι μεγαλύτερους από ένα διαμέρισμα, με δέντρα, φυτά, παγκάκια και μερικές φορές ένα μικρό παιχνίδι για παιδιά.",
+     "en": "In Athens, one of the cities with the least green space per resident in Europe, the municipality is turning abandoned plots into 'pocket parks'. These are small spaces, often no bigger than a flat, with trees, plants, benches and sometimes a small piece of play equipment for children."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η ιδέα είναι απλή: αντί για ένα μεγάλο πάρκο που απέχει χιλιόμετρα, κάθε γειτονιά να έχει ένα μικρό σημείο πρασίνου σε απόσταση λίγων λεπτών με τα πόδια. Πολλά από τα οικόπεδα ήταν για χρόνια γεμάτα σκουπίδια και ξερά χόρτα. Σε κάποια, οι ιδιοκτήτες τα παραχωρούν στον δήμο για μερικά χρόνια, με αντάλλαγμα τον καθαρισμό και τη φροντίδα τους.",
+     "en": "The idea is simple: instead of a big park kilometres away, every neighbourhood should have a small green spot a few minutes' walk away. Many of the plots were full of rubbish and dry weeds for years. In some cases, owners lend them to the municipality for a few years, in exchange for cleaning and maintenance."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Σημαντικός είναι και ο ρόλος των κατοίκων. Σε αρκετά πάρκα τσέπης, οι γείτονες έχουν αναλάβει το πότισμα και οργανώνουν μικρές εκδηλώσεις, από αφηγήσεις παραμυθιών μέχρι ανταλλαγές φυτών. «Πριν δεν ξέραμε ούτε το όνομα του διπλανού μας», λέει μια κάτοικος του Παγκρατίου. «Τώρα πίνουμε καφέ στο παγκάκι κάθε Κυριακή.»",
+     "en": "Residents also play an important role. In several pocket parks, neighbours have taken on the watering and organise small events, from storytelling to plant swaps. 'Before, we didn't even know our neighbour's name,' says a resident of Pangrati. 'Now we have coffee on the bench every Sunday.'"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είναι τα «πάρκα τσέπης»;",
+     "options": [
+      "Ταράτσες με φυτά",
+      "Μικροί χώροι πρασίνου σε άδεια οικόπεδα",
+      "Πάρκα για σκύλους",
+      "Μεγάλα πάρκα έξω από την πόλη"
+     ],
+     "answer": "Μικροί χώροι πρασίνου σε άδεια οικόπεδα",
+     "why": "ο δήμος μετατρέπει εγκαταλελειμμένα οικόπεδα σε «πάρκα τσέπης». Πρόκειται για μικρούς χώρους"
+    },
+    {
+     "q": "Τι παίρνουν οι ιδιοκτήτες που παραχωρούν τα οικόπεδά τους;",
+     "options": [
+      "Τον καθαρισμό και τη φροντίδα του οικοπέδου",
+      "Χρήματα από τον δήμο",
+      "Μείωση των φόρων τους για πάντα",
+      "Άδεια να χτίσουν μεγαλύτερο σπίτι"
+     ],
+     "answer": "Τον καθαρισμό και τη φροντίδα του οικοπέδου",
+     "why": "με αντάλλαγμα τον καθαρισμό και τη φροντίδα τους"
+    },
+    {
+     "q": "Τι άλλαξε, κατά την κάτοικο του Παγκρατίου;",
+     "options": [
+      "Η γειτονιά έγινε πιο ήσυχη",
+      "Οι τιμές των σπιτιών ανέβηκαν",
+      "Οι γείτονες γνωρίστηκαν και πίνουν καφέ μαζί",
+      "Έκλεισε ο δρόμος για τα αυτοκίνητα"
+     ],
+     "answer": "Οι γείτονες γνωρίστηκαν και πίνουν καφέ μαζί",
+     "why": "Τώρα πίνουμε καφέ στο παγκάκι κάθε Κυριακή"
+    }
+   ],
+   "gloss": {
+    "οικόπεδα": "οικόπεδο — building plot",
+    "πράσινο": "πράσινο — greenery, green space",
+    "εγκαταλελειμμένα": "εγκαταλελειμμένος — abandoned",
+    "παγκάκια": "παγκάκι — bench",
+    "απέχει": "απέχω — to be (a distance) away",
+    "ξερά χόρτα": "ξερά χόρτα — dry weeds",
+    "παραχωρούν": "παραχωρώ — to grant the use of, to cede",
+    "αντάλλαγμα": "αντάλλαγμα — something in exchange",
+    "πότισμα": "πότισμα — watering",
+    "αφηγήσεις": "αφήγηση — narration, storytelling",
+    "ανταλλαγές": "ανταλλαγή — swap, exchange"
+   }
+  },
+  {
+   "id": "l47-int-xenonas",
+   "title": "Ένας ξενώνας στο χωριό",
+   "title_en": "A guesthouse in the village",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με έναν νέο που άφησε την Αθήνα για να ανοίξει έναν ξενώνα στο χωριό του στα Τζουμέρκα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Λάμπρο, δούλευες σε μια εταιρεία πληροφορικής στην Αθήνα. Γιατί γύρισες στο χωριό;",
+     "en": "Lambros, you worked at an IT company in Athens. Why did you go back to the village?"
+    },
+    {
+     "speaker": "Λάμπρος",
+     "voice": "m",
+     "el": "Στην πανδημία δούλευα από το σπίτι, και πήγα για λίγες εβδομάδες στο πατρικό μου στα Τζουμέρκα. Οι εβδομάδες έγιναν μήνες. Συνειδητοποίησα ότι εκεί ανέπνεα καλύτερα, και ότι το χωριό, που κάποτε είχε τριακόσιους κατοίκους, είχε μείνει με τριάντα, όλους ηλικιωμένους.",
+     "en": "During the pandemic I worked from home, and I went for a few weeks to my family home in the Tzoumerka. The weeks became months. I realised I could breathe better there, and that the village, which once had three hundred inhabitants, was down to thirty, all elderly."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και πώς προέκυψε ο ξενώνας;",
+     "en": "And how did the guesthouse come about?"
+    },
+    {
+     "speaker": "Λάμπρος",
+     "voice": "m",
+     "el": "Το σπίτι του παππού μου, ένα πέτρινο διώροφο, ήταν ερείπιο. Πήρα ένα δάνειο και μια επιδότηση για νέους αγρότες και επιχειρηματίες, και το αναστηλώσαμε με ντόπιους μαστόρους, με πέτρα και ξύλο, όπως ήταν. Σήμερα έχει πέντε δωμάτια. Το πρωινό το φτιάχνει η μητέρα μου με προϊόντα από το χωριό: πίτες, τυρί, μέλι.",
+     "en": "My grandfather's house, a two-storey stone house, was a ruin. I took out a loan and a grant for young farmers and entrepreneurs, and we restored it with local craftsmen, in stone and wood, just as it was. Today it has five rooms. My mother makes the breakfast with produce from the village: pies, cheese, honey."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ποιοι είναι οι επισκέπτες σου;",
+     "en": "Who are your guests?"
+    },
+    {
+     "speaker": "Λάμπρος",
+     "voice": "m",
+     "el": "Πολλοί ξένοι, κυρίως πεζοπόροι και λάτρεις του ράφτινγκ στον Άραχθο, αλλά και Έλληνες οικογένειες. Το πιο ωραίο είναι ότι ο ξενώνας έδωσε δουλειά και σε άλλους: η κυρα-Λένη πουλάει τις πίτες της, ένας ξάδερφός μου άνοιξε καφενείο. Το χωριό ξαναζωντανεύει λίγο λίγο.",
+     "en": "Lots of foreigners, mainly hikers and rafting fans on the Arachthos, but also Greek families. The best thing is that the guesthouse has given work to others too: Mrs Leni sells her pies, a cousin of mine opened a café. The village is slowly coming back to life."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε τον Λάμπρο να μείνει στο χωριό;",
+     "options": [
+      "Ένιωσε ότι εκεί ανέπνεε καλύτερα και είδε ότι το χωριό είχε σχεδόν αδειάσει",
+      "Έχασε τη δουλειά του στην Αθήνα",
+      "Ο παππούς του αρρώστησε",
+      "Παντρεύτηκε μια κοπέλα από το χωριό"
+     ],
+     "answer": "Ένιωσε ότι εκεί ανέπνεε καλύτερα και είδε ότι το χωριό είχε σχεδόν αδειάσει",
+     "why": "Συνειδητοποίησα ότι εκεί ανέπνεα καλύτερα, και ότι το χωριό ... είχε μείνει με τριάντα"
+    },
+    {
+     "q": "Πώς ανακαινίστηκε το σπίτι του παππού;",
+     "options": [
+      "Με ντόπιους μαστόρους, με πέτρα και ξύλο, όπως ήταν",
+      "Το ανακαίνισε μόνος του",
+      "Το γκρέμισαν και έχτισαν καινούργιο",
+      "Με μοντέρνα υλικά από την Αθήνα"
+     ],
+     "answer": "Με ντόπιους μαστόρους, με πέτρα και ξύλο, όπως ήταν",
+     "why": "το αναστηλώσαμε με ντόπιους μαστόρους, με πέτρα και ξύλο, όπως ήταν"
+    },
+    {
+     "q": "Τι λέει ο Λάμπρος για το χωριό σήμερα;",
+     "options": [
+      "Ότι θα κλείσει τον ξενώνα",
+      "Ότι έρχονται πάρα πολλοί τουρίστες",
+      "Ότι ο ξενώνας έδωσε δουλειά και σε άλλους και το χωριό ξαναζωντανεύει",
+      "Ότι οι ηλικιωμένοι δεν θέλουν επισκέπτες"
+     ],
+     "answer": "Ότι ο ξενώνας έδωσε δουλειά και σε άλλους και το χωριό ξαναζωντανεύει",
+     "why": "ο ξενώνας έδωσε δουλειά και σε άλλους ... Το χωριό ξαναζωντανεύει λίγο λίγο"
+    }
+   ],
+   "gloss": {
+    "ξενώνα": "ξενώνας — guesthouse",
+    "πληροφορικής": "πληροφορική — IT, computing",
+    "πατρικό": "πατρικό — family home",
+    "Συνειδητοποίησα": "συνειδητοποιώ — to realise",
+    "προέκυψε": "προκύπτω — to come about",
+    "διώροφο": "διώροφος — two-storey",
+    "ερείπιο": "ερείπιο — ruin",
+    "επιδότηση": "επιδότηση — subsidy, grant",
+    "αναστηλώσαμε": "αναστηλώνω — to restore",
+    "μαστόρους": "μάστορας — craftsman, builder",
+    "πεζοπόροι": "πεζοπόρος — hiker",
+    "ξαναζωντανεύει": "ξαναζωντανεύω — to come back to life"
+   }
+  },
+  {
+   "id": "l47-c1-glossa-skepsi",
+   "title": "Η γλώσσα διαμορφώνει τη σκέψη;",
+   "title_en": "Does language shape thought?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε απόσπασμα από διάλεξη ενός γλωσσολόγου για τη σχέση γλώσσας και σκέψης.",
+   "script": [
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "m",
+     "el": "Η ιδέα ότι η γλώσσα που μιλάμε επηρεάζει τον τρόπο που σκεφτόμαστε συνδέεται συνήθως με τα ονόματα των Αμερικανών γλωσσολόγων Έντουαρντ Σαπίρ και Μπέντζαμιν Λι Γουόρφ. Στην πιο ακραία της μορφή, η λεγόμενη υπόθεση Σαπίρ-Γουόρφ υποστήριζε ότι η γλώσσα καθορίζει τη σκέψη: ότι δεν μπορούμε να σκεφτούμε κάτι για το οποίο η γλώσσα μας δεν έχει λέξη. Αυτή η ισχυρή εκδοχή έχει σήμερα σχεδόν εγκαταλειφθεί.",
+     "en": "The idea that the language we speak influences the way we think is usually associated with the names of the American linguists Edward Sapir and Benjamin Lee Whorf. In its most extreme form, the so-called Sapir-Whorf hypothesis claimed that language determines thought: that we cannot think of something for which our language has no word. This strong version has now been almost abandoned."
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "m",
+     "el": "Μια ηπιότερη εκδοχή, όμως, βρίσκει υποστήριξη σε πειραματικά δεδομένα. Ένα παράδειγμα που μας αφορά άμεσα είναι το χρώμα. Τα ελληνικά, σε αντίθεση με τα αγγλικά, διακρίνουν με δύο βασικές λέξεις το γαλάζιο από το μπλε. Σε μια γνωστή μελέτη, Έλληνες ομιλητές αντιλαμβάνονταν πιο γρήγορα τη διαφορά ανάμεσα σε ανοιχτές και σκούρες αποχρώσεις του μπλε απ' ό,τι οι αγγλόφωνοι, ενώ για αποχρώσεις του πράσινου δεν υπήρχε διαφορά.",
+     "en": "A milder version, however, finds support in experimental data. One example that concerns us directly is colour. Greek, unlike English, distinguishes light blue from dark blue with two basic words. In a well-known study, Greek speakers perceived the difference between light and dark shades of blue faster than English speakers, whereas for shades of green there was no difference."
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "m",
+     "el": "Παρόμοια ευρήματα υπάρχουν για τον χώρο. Σε ορισμένες γλώσσες της Αυστραλίας, οι ομιλητές δεν λένε «αριστερά» και «δεξιά», αλλά «βόρεια» ή «νότια», ακόμα και για αντικείμενα πάνω σε ένα τραπέζι. Οι ομιλητές αυτοί έχουν εντυπωσιακή αίσθηση προσανατολισμού, ακόμα και σε χώρους που δεν γνωρίζουν.",
+     "en": "There are similar findings for space. In some Australian languages, speakers don't say 'left' and 'right' but 'north' or 'south', even for objects on a table. These speakers have an impressive sense of orientation, even in places they don't know."
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "m",
+     "el": "Τι σημαίνουν όλα αυτά για όσους μαθαίνουν μια ξένη γλώσσα; Ότι μαθαίνοντας μια νέα γλώσσα δεν αποκτούμε απλώς νέες λέξεις για τα ίδια πράγματα. Μαθαίνουμε να προσέχουμε διακρίσεις που πριν περνούσαν απαρατήρητες. Δεν γινόμαστε άλλοι άνθρωποι, αλλά ο κόσμος μας γίνεται, κατά κάποιον τρόπο, πιο λεπτομερής.",
+     "en": "What does all this mean for people learning a foreign language? That by learning a new language we don't simply acquire new words for the same things. We learn to notice distinctions that used to go unnoticed. We don't become different people, but our world becomes, in a way, more detailed."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι υποστήριζε η ισχυρή εκδοχή της υπόθεσης Σαπίρ-Γουόρφ;",
+     "options": [
+      "Ότι η σκέψη δεν έχει σχέση με τη γλώσσα",
+      "Ότι όλες οι γλώσσες έχουν τις ίδιες λέξεις",
+      "Ότι τα παιδιά σκέφτονται χωρίς γλώσσα",
+      "Ότι η γλώσσα καθορίζει τη σκέψη"
+     ],
+     "answer": "Ότι η γλώσσα καθορίζει τη σκέψη",
+     "why": "η λεγόμενη υπόθεση Σαπίρ-Γουόρφ υποστήριζε ότι η γλώσσα καθορίζει τη σκέψη"
+    },
+    {
+     "q": "Τι έδειξε η μελέτη με τους Έλληνες ομιλητές;",
+     "options": [
+      "Ότι μπερδεύουν το γαλάζιο με το πράσινο",
+      "Ότι δεν ξεχωρίζουν το πράσινο από το μπλε",
+      "Ότι βλέπουν περισσότερα χρώματα από όλους",
+      "Ότι αντιλαμβάνονταν πιο γρήγορα τη διαφορά ανάμεσα σε ανοιχτές και σκούρες αποχρώσεις του μπλε"
+     ],
+     "answer": "Ότι αντιλαμβάνονταν πιο γρήγορα τη διαφορά ανάμεσα σε ανοιχτές και σκούρες αποχρώσεις του μπλε",
+     "why": "Έλληνες ομιλητές αντιλαμβάνονταν πιο γρήγορα τη διαφορά ανάμεσα σε ανοιχτές και σκούρες αποχρώσεις του μπλε"
+    },
+    {
+     "q": "Τι χαρακτηρίζει τους ομιλητές ορισμένων γλωσσών της Αυστραλίας;",
+     "options": [
+      "Μιλούν πολλές γλώσσες",
+      "Δεν χρησιμοποιούν αριθμούς",
+      "Έχουν εντυπωσιακή αίσθηση προσανατολισμού",
+      "Δεν έχουν λέξεις για τα χρώματα"
+     ],
+     "answer": "Έχουν εντυπωσιακή αίσθηση προσανατολισμού",
+     "why": "Οι ομιλητές αυτοί έχουν εντυπωσιακή αίσθηση προσανατολισμού"
+    },
+    {
+     "q": "Ποιο είναι το συμπέρασμα του ομιλητή για όσους μαθαίνουν ξένη γλώσσα;",
+     "options": [
+      "Ότι πρέπει να ξεχάσουν τη μητρική τους γλώσσα",
+      "Ότι γίνονται άλλοι άνθρωποι",
+      "Ότι μαθαίνουν να προσέχουν διακρίσεις που πριν περνούσαν απαρατήρητες",
+      "Ότι μαθαίνουν απλώς νέες λέξεις για τα ίδια πράγματα"
+     ],
+     "answer": "Ότι μαθαίνουν να προσέχουν διακρίσεις που πριν περνούσαν απαρατήρητες",
+     "why": "Μαθαίνουμε να προσέχουμε διακρίσεις που πριν περνούσαν απαρατήρητες"
+    }
+   ],
+   "gloss": {
+    "γλωσσολόγου": "γλωσσολόγος — linguist",
+    "ακραία": "ακραίος — extreme",
+    "υπόθεση": "υπόθεση — hypothesis",
+    "καθορίζει": "καθορίζω — to determine",
+    "εκδοχή": "εκδοχή — version",
+    "ηπιότερη": "ήπιος — mild",
+    "δεδομένα": "δεδομένα — data",
+    "διακρίνουν": "διακρίνω — to distinguish",
+    "αντιλαμβάνονταν": "αντιλαμβάνομαι — to perceive",
+    "αποχρώσεις": "απόχρωση — shade, hue",
+    "αγγλόφωνοι": "αγγλόφωνος — English-speaking",
+    "ευρήματα": "εύρημα — finding",
+    "προσανατολισμού": "προσανατολισμός — orientation",
+    "διακρίσεις": "διάκριση — distinction",
+    "απαρατήρητες": "απαρατήρητος — unnoticed",
+    "λεπτομερής": "λεπτομερής — detailed"
+   }
+  },
+  {
+   "id": "l47-c1-vyronas",
+   "title": "Ο Λόρδος Βύρων και η Ελλάδα",
+   "title_en": "Lord Byron and Greece",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια ιστορικό για τη σχέση του Λόρδου Βύρωνα με την Ελληνική Επανάσταση.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ο Βύρων είναι ίσως ο πιο διάσημος φιλέλληνας. Πότε ξεκινά η σχέση του με την Ελλάδα;",
+     "en": "Byron is perhaps the most famous philhellene. When does his relationship with Greece begin?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Πολύ πριν από την Επανάσταση. Το 1809, στα είκοσι ένα του, ταξίδεψε στην Ήπειρο, όπου γνώρισε τον Αλή Πασά, και πέρασε μήνες στην Αθήνα. Οι εμπειρίες αυτές τροφοδότησαν το ποίημα «Το προσκύνημα του Τσάιλντ Χάρολντ», που τον έκανε διάσημο σε όλη την Ευρώπη σχεδόν από τη μια μέρα στην άλλη. Μέσα από τους στίχους του, πολλοί Ευρωπαίοι αναγνώστες γνώρισαν για πρώτη φορά μια Ελλάδα σκλαβωμένη, αλλά ένδοξη στη μνήμη.",
+     "en": "Long before the Revolution. In 1809, at twenty-one, he travelled to Epirus, where he met Ali Pasha, and spent months in Athens. These experiences fed into the poem 'Childe Harold's Pilgrimage', which made him famous all over Europe almost overnight. Through his verses, many European readers encountered for the first time a Greece that was enslaved but glorious in memory."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και το 1823 αποφασίζει να έρθει να πολεμήσει.",
+     "en": "And in 1823 he decides to come and fight."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Ναι, αν και ο ρόλος του δεν ήταν τόσο στρατιωτικός όσο συχνά φανταζόμαστε. Έφτασε στην Κεφαλονιά ως εκπρόσωπος της Φιλελληνικής Επιτροπής του Λονδίνου και διέθεσε μεγάλο μέρος της προσωπικής του περιουσίας για τον αγώνα, χρηματοδοτώντας στόλο και στρατιώτες. Παράλληλα, προσπάθησε να συμφιλιώσει τις αντιμαχόμενες ελληνικές φατρίες, κάτι που τον απογοήτευσε βαθιά. Τον Ιανουάριο του 1824 εγκαταστάθηκε στο Μεσολόγγι, όπου όμως αρρώστησε και πέθανε τον Απρίλιο, σε ηλικία τριάντα έξι ετών, χωρίς να έχει πάρει μέρος σε καμία μάχη.",
+     "en": "Yes, although his role was not as military as we often imagine. He arrived in Kefalonia as a representative of the London Philhellenic Committee and devoted a large part of his personal fortune to the struggle, financing a fleet and soldiers. At the same time, he tried to reconcile the warring Greek factions, which deeply disappointed him. In January 1824 he settled in Mesolongi, where, however, he fell ill and died in April, aged thirty-six, without having taken part in any battle."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πώς εξηγείται τότε η τεράστια επίδρασή του;",
+     "en": "How, then, can his enormous influence be explained?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Ο θάνατός του ήταν, κατά κάποιον τρόπο, πιο αποτελεσματικός από οποιαδήποτε νίκη. Ένας από τους πιο διάσημους ποιητές της εποχής είχε πεθάνει για την ελευθερία της Ελλάδας, και η είδηση συγκλόνισε την ευρωπαϊκή κοινή γνώμη. Το φιλελληνικό κίνημα ενισχύθηκε θεαματικά, και αυτό άσκησε πίεση στις κυβερνήσεις, που λίγα χρόνια αργότερα παρενέβησαν στη ναυμαχία του Ναβαρίνου.",
+     "en": "His death was, in a way, more effective than any victory. One of the most famous poets of the age had died for the freedom of Greece, and the news shook European public opinion. The philhellenic movement was dramatically strengthened, and this put pressure on governments, which a few years later intervened at the naval battle of Navarino."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε τον Βύρωνα διάσημο σε όλη την Ευρώπη;",
+     "options": [
+      "Η συμμετοχή του σε μάχες",
+      "Το ποίημα «Το προσκύνημα του Τσάιλντ Χάρολντ»",
+      "Ο θάνατός του στο Μεσολόγγι",
+      "Η γνωριμία του με τον Αλή Πασά"
+     ],
+     "answer": "Το ποίημα «Το προσκύνημα του Τσάιλντ Χάρολντ»",
+     "why": "τροφοδότησαν το ποίημα «Το προσκύνημα του Τσάιλντ Χάρολντ», που τον έκανε διάσημο σε όλη την Ευρώπη"
+    },
+    {
+     "q": "Ποιος ήταν κυρίως ο ρόλος του στην Επανάσταση, σύμφωνα με την ιστορικό;",
+     "options": [
+      "Χρηματοδότησε τον αγώνα και προσπάθησε να συμφιλιώσει τις ελληνικές φατρίες",
+      "Ήταν πρεσβευτής της Αγγλίας",
+      "Διοικούσε στρατό στις μάχες",
+      "Έγραφε άρθρα σε ελληνικές εφημερίδες"
+     ],
+     "answer": "Χρηματοδότησε τον αγώνα και προσπάθησε να συμφιλιώσει τις ελληνικές φατρίες",
+     "why": "διέθεσε μεγάλο μέρος της προσωπικής του περιουσίας ... προσπάθησε να συμφιλιώσει τις αντιμαχόμενες ελληνικές φατρίες"
+    },
+    {
+     "q": "Πώς πέθανε ο Βύρων;",
+     "options": [
+      "Σε μάχη στο Μεσολόγγι",
+      "Σε ναυάγιο",
+      "Στο Λονδίνο, σε μεγάλη ηλικία",
+      "Αρρώστησε στο Μεσολόγγι, χωρίς να έχει πολεμήσει"
+     ],
+     "answer": "Αρρώστησε στο Μεσολόγγι, χωρίς να έχει πολεμήσει",
+     "why": "αρρώστησε και πέθανε τον Απρίλιο ... χωρίς να έχει πάρει μέρος σε καμία μάχη"
+    },
+    {
+     "q": "Γιατί, κατά την ιστορικό, ο θάνατός του ήταν «πιο αποτελεσματικός από οποιαδήποτε νίκη»;",
+     "options": [
+      "Επειδή άφησε όλη του την περιουσία στην Ελλάδα",
+      "Επειδή τον μιμήθηκαν πολλοί ποιητές",
+      "Επειδή οι Έλληνες κέρδισαν αμέσως τον πόλεμο",
+      "Επειδή συγκλόνισε την ευρωπαϊκή κοινή γνώμη και ενίσχυσε το φιλελληνικό κίνημα"
+     ],
+     "answer": "Επειδή συγκλόνισε την ευρωπαϊκή κοινή γνώμη και ενίσχυσε το φιλελληνικό κίνημα",
+     "why": "η είδηση συγκλόνισε την ευρωπαϊκή κοινή γνώμη. Το φιλελληνικό κίνημα ενισχύθηκε θεαματικά"
+    }
+   ],
+   "gloss": {
+    "ιστορικό": "ιστορικός — historian",
+    "φιλέλληνας": "φιλέλληνας — philhellene",
+    "τροφοδότησαν": "τροφοδοτώ — to feed, supply",
+    "προσκύνημα": "προσκύνημα — pilgrimage",
+    "σκλαβωμένη": "σκλαβωμένος — enslaved",
+    "ένδοξη": "ένδοξος — glorious",
+    "εκπρόσωπος": "εκπρόσωπος — representative",
+    "διέθεσε": "διαθέτω — to devote, make available",
+    "περιουσίας": "περιουσία — fortune, property",
+    "χρηματοδοτώντας": "χρηματοδοτώ — to finance",
+    "να συμφιλιώσει": "συμφιλιώνω — to reconcile",
+    "αντιμαχόμενες": "αντιμαχόμενος — warring",
+    "φατρίες": "φατρία — faction",
+    "συγκλόνισε": "συγκλονίζω — to shake, shock",
+    "κοινή γνώμη": "κοινή γνώμη — public opinion",
+    "θεαματικά": "θεαματικά — dramatically",
+    "παρενέβησαν": "παρεμβαίνω — to intervene",
+    "ναυμαχία": "ναυμαχία — naval battle"
+   }
+  }
+ ]
+}
