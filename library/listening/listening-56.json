@@ -1,0 +1,851 @@
+{
+ "items": [
+  {
+   "id": "l56-ann-teleferik",
+   "title": "Διακοπή λειτουργίας του τελεφερίκ",
+   "title_en": "The funicular is out of service",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Βρίσκεστε στον κάτω σταθμό του τελεφερίκ του Λυκαβηττού. Θα ακούσετε μια ανακοίνωση από τα μεγάφωνα.",
+   "script": [
+    {
+     "speaker": "Ανακοίνωση",
+     "voice": "f",
+     "el": "Αγαπητοί επισκέπτες, σας ενημερώνουμε ότι λόγω των ισχυρών ανέμων που πνέουν αυτή τη στιγμή στην περιοχή, η λειτουργία του τελεφερίκ διακόπτεται προσωρινά για λόγους ασφαλείας. Σύμφωνα με την πρόγνωση, οι άνεμοι αναμένεται να εξασθενήσουν μετά τις τέσσερις το απόγευμα.",
+     "en": "Dear visitors, we inform you that because of the strong winds currently blowing in the area, the funicular is temporarily suspended for safety reasons. According to the forecast, the winds are expected to weaken after four in the afternoon."
+    },
+    {
+     "speaker": "Ανακοίνωση",
+     "voice": "f",
+     "el": "Όσοι έχουν ήδη αγοράσει εισιτήριο μπορούν να το χρησιμοποιήσουν οποιαδήποτε άλλη μέρα μέσα στον επόμενο μήνα ή να ζητήσουν επιστροφή χρημάτων από το εκδοτήριο. Για όσους επιθυμούν να ανέβουν με τα πόδια, το μονοπάτι ξεκινά από την οδό Αριστίππου και η ανάβαση διαρκεί περίπου τριάντα λεπτά.",
+     "en": "Those who have already bought a ticket can use it on any other day within the next month or ask for a refund at the ticket office. For those who wish to walk up, the path starts from Aristippou Street and the climb takes about thirty minutes."
+    },
+    {
+     "speaker": "Ανακοίνωση",
+     "voice": "f",
+     "el": "Σας παρακαλούμε να μη χρησιμοποιήσετε το μονοπάτι αν έχετε μικρά παιδιά ή κινητικές δυσκολίες, γιατί σε ορισμένα σημεία είναι απότομο. Ευχαριστούμε για την κατανόηση.",
+     "en": "Please do not use the path if you have small children or reduced mobility, because in places it is steep. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί διακόπτεται η λειτουργία του τελεφερίκ;",
+     "options": [
+      "Λόγω εργασιών συντήρησης",
+      "Λόγω απεργίας",
+      "Λόγω ισχυρών ανέμων",
+      "Λόγω βλάβης"
+     ],
+     "answer": "Λόγω ισχυρών ανέμων",
+     "why": "λόγω των ισχυρών ανέμων … η λειτουργία του τελεφερίκ διακόπτεται προσωρινά"
+    },
+    {
+     "q": "Τι μπορούν να κάνουν όσοι έχουν ήδη εισιτήριο;",
+     "options": [
+      "Να το χρησιμοποιήσουν άλλη μέρα μέσα σε έναν μήνα ή να πάρουν πίσω τα χρήματα",
+      "Να ανέβουν με ταξί δωρεάν",
+      "Να περιμένουν μέχρι το βράδυ",
+      "Τίποτα, δεν επιστρέφονται χρήματα"
+     ],
+     "answer": "Να το χρησιμοποιήσουν άλλη μέρα μέσα σε έναν μήνα ή να πάρουν πίσω τα χρήματα",
+     "why": "μπορούν να το χρησιμοποιήσουν οποιαδήποτε άλλη μέρα μέσα στον επόμενο μήνα ή να ζητήσουν επιστροφή χρημάτων"
+    },
+    {
+     "q": "Ποιοι δεν πρέπει να ανέβουν από το μονοπάτι;",
+     "options": [
+      "Όσοι δεν έχουν εισιτήριο",
+      "Όσοι έχουν σκύλο",
+      "Όσοι έχουν μικρά παιδιά ή κινητικές δυσκολίες",
+      "Οι τουρίστες"
+     ],
+     "answer": "Όσοι έχουν μικρά παιδιά ή κινητικές δυσκολίες",
+     "why": "να μη χρησιμοποιήσετε το μονοπάτι αν έχετε μικρά παιδιά ή κινητικές δυσκολίες"
+    }
+   ],
+   "gloss": {
+    "τελεφερίκ": "τελεφερίκ — cable railway, funicular (colloquial)",
+    "πνέουν": "πνέω — to blow (of wind)",
+    "διακόπτεται": "διακόπτομαι — to be suspended, interrupted",
+    "εξασθενήσουν": "εξασθενώ — to weaken",
+    "επιστροφή χρημάτων": "επιστροφή χρημάτων — refund",
+    "ανάβαση": "ανάβαση — climb, ascent",
+    "απότομο": "απότομος — steep"
+   }
+  },
+  {
+   "id": "l56-vm-ekdotis",
+   "title": "Μήνυμα από τον εκδότη",
+   "title_en": "A message from the publisher",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Έχετε γράψει ένα βιβλίο με παιδικά παραμύθια. Θα ακούσετε ένα μήνυμα στον τηλεφωνητή σας από τον εκδότη σας.",
+   "script": [
+    {
+     "speaker": "Εκδότης",
+     "voice": "m",
+     "el": "Καλημέρα, Ρούλα, ο Τηλέμαχος από τις εκδόσεις «Πυξίδα». Έχω καλά νέα! Διαβάσαμε όλοι το χειρόγραφό σου και ενθουσιαστήκαμε. Θέλουμε να εκδώσουμε τα παραμύθια σου την άνοιξη, για την Έκθεση Βιβλίου.",
+     "en": "Good morning, Roula, it's Tilemachos from Pyxida publishers. I have good news! We have all read your manuscript and we loved it. We want to publish your fairy tales in the spring, for the Book Fair."
+    },
+    {
+     "speaker": "Εκδότης",
+     "voice": "m",
+     "el": "Έχουμε, βέβαια, και δύο-τρεις προτάσεις. Η επιμελήτριά μας πιστεύει ότι το τρίτο παραμύθι είναι λίγο μεγάλο για παιδιά πέντε χρονών και θα ήθελε να το συντομεύσεις. Επίσης, σκεφτόμαστε να αναθέσουμε την εικονογράφηση στη Νεφέλη Σταύρου, αν συμφωνείς. Θα σου στείλω με ηλεκτρονικό ταχυδρομείο μερικά σχέδιά της να τα δεις.",
+     "en": "We do, of course, have two or three suggestions. Our editor thinks the third tale is a bit long for five-year-olds and would like you to shorten it. Also, we're thinking of giving the illustrations to Nefeli Stavrou, if you agree. I'll email you some of her drawings to look at."
+    },
+    {
+     "speaker": "Εκδότης",
+     "voice": "m",
+     "el": "Θα ήθελα να συναντηθούμε την επόμενη εβδομάδα στα γραφεία μας για να υπογράψουμε το συμβόλαιο. Πες μου ποια μέρα σε βολεύει. Και συγχαρητήρια!",
+     "en": "I'd like us to meet next week at our offices to sign the contract. Tell me which day suits you. And congratulations!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε θέλει ο εκδότης να κυκλοφορήσει το βιβλίο;",
+     "options": [
+      "Τα Χριστούγεννα",
+      "Την άνοιξη, για την Έκθεση Βιβλίου",
+      "Τον επόμενο μήνα",
+      "Το καλοκαίρι"
+     ],
+     "answer": "Την άνοιξη, για την Έκθεση Βιβλίου",
+     "why": "Θέλουμε να εκδώσουμε τα παραμύθια σου την άνοιξη, για την Έκθεση Βιβλίου"
+    },
+    {
+     "q": "Τι ζητά η επιμελήτρια;",
+     "options": [
+      "Να γραφτεί ένας πρόλογος",
+      "Να αλλάξει ο τίτλος",
+      "Να προστεθεί ένα παραμύθι",
+      "Να συντομευτεί το τρίτο παραμύθι"
+     ],
+     "answer": "Να συντομευτεί το τρίτο παραμύθι",
+     "why": "το τρίτο παραμύθι είναι λίγο μεγάλο για παιδιά πέντε χρονών και θα ήθελε να το συντομεύσεις"
+    },
+    {
+     "q": "Γιατί θέλει να συναντηθούν την επόμενη εβδομάδα;",
+     "options": [
+      "Για να υπογράψουν το συμβόλαιο",
+      "Για να διορθώσουν το κείμενο",
+      "Για μια παρουσίαση του βιβλίου",
+      "Για να γνωρίσει την εικονογράφο"
+     ],
+     "answer": "Για να υπογράψουν το συμβόλαιο",
+     "why": "να συναντηθούμε την επόμενη εβδομάδα στα γραφεία μας για να υπογράψουμε το συμβόλαιο"
+    }
+   ],
+   "gloss": {
+    "χειρόγραφό": "χειρόγραφο — manuscript",
+    "ενθουσιαστήκαμε": "ενθουσιάζομαι — to be thrilled",
+    "εκδώσουμε": "εκδίδω — to publish",
+    "επιμελήτριά": "επιμελήτρια — (female) editor",
+    "συντομεύσεις": "συντομεύω — to shorten",
+    "αναθέσουμε": "αναθέτω — to assign, entrust",
+    "εικονογράφηση": "εικονογράφηση — illustration",
+    "συμβόλαιο": "συμβόλαιο — contract"
+   }
+  },
+  {
+   "id": "l56-dia-piata",
+   "title": "Ποιος θα πλύνει τα πιάτα;",
+   "title_en": "Who's going to do the dishes?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Δύο φοιτητές που μοιράζονται ένα διαμέρισμα συζητούν για τις δουλειές του σπιτιού. Θα ακούσετε τη συζήτησή τους.",
+   "script": [
+    {
+     "speaker": "Ζωή",
+     "voice": "f",
+     "el": "Αντώνη, πρέπει να μιλήσουμε. Ο νεροχύτης είναι πάλι γεμάτος πιάτα από χθες. Και δεν είναι δικά μου.",
+     "en": "Antonis, we need to talk. The sink is full of dishes again from yesterday. And they aren't mine."
+    },
+    {
+     "speaker": "Αντώνης",
+     "voice": "m",
+     "el": "Συγγνώμη, είχα εξεταστική όλη την εβδομάδα. Θα τα πλύνω απόψε, το υπόσχομαι.",
+     "en": "Sorry, I've had exams all week. I'll wash them tonight, I promise."
+    },
+    {
+     "speaker": "Ζωή",
+     "voice": "f",
+     "el": "Αυτό είπες και την προηγούμενη φορά. Δεν θέλω να μαλώνουμε κάθε τρεις και λίγο. Λέω να φτιάξουμε ένα πρόγραμμα: ποιος κάνει τι και ποια μέρα. Να το κολλήσουμε στο ψυγείο.",
+     "en": "That's what you said last time. I don't want us to argue every five minutes. I say we make a schedule: who does what and on which day. We can stick it on the fridge."
+    },
+    {
+     "speaker": "Αντώνης",
+     "voice": "m",
+     "el": "Εντάξει, καλή ιδέα. Εγώ προτιμώ να αναλάβω τα ψώνια και τα σκουπίδια, κι αν θέλεις, το μπάνιο κάθε Σάββατο. Τα πιάτα να τα πλένει όποιος μαγειρεύει;",
+     "en": "OK, good idea. I'd rather take on the shopping and the rubbish, and if you like, the bathroom every Saturday. Whoever cooks washes the dishes?"
+    },
+    {
+     "speaker": "Ζωή",
+     "voice": "f",
+     "el": "Όχι, ανάποδα: όποιος μαγειρεύει δεν πλένει. Αλλιώς δεν θα μαγειρεύει κανείς! Και να βάζουμε κι ένα πλυντήριο πιάτων κάθε βράδυ, να μη μαζεύονται.",
+     "en": "No, the other way round: whoever cooks doesn't wash up. Otherwise nobody will cook! And let's run the dishwasher every evening, so they don't pile up."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί είναι θυμωμένη η Ζωή;",
+     "options": [
+      "Γιατί ο νεροχύτης είναι πάλι γεμάτος πιάτα του Αντώνη",
+      "Γιατί ο Αντώνης έκανε θόρυβο",
+      "Γιατί χάλασε το πλυντήριο",
+      "Γιατί ο Αντώνης δεν πλήρωσε το νοίκι"
+     ],
+     "answer": "Γιατί ο νεροχύτης είναι πάλι γεμάτος πιάτα του Αντώνη",
+     "why": "Ο νεροχύτης είναι πάλι γεμάτος πιάτα από χθες. Και δεν είναι δικά μου"
+    },
+    {
+     "q": "Τι προτείνει η Ζωή;",
+     "options": [
+      "Να τρώνε έξω",
+      "Να πάρουν καθαρίστρια",
+      "Να αλλάξουν σπίτι",
+      "Να φτιάξουν ένα πρόγραμμα με τις δουλειές"
+     ],
+     "answer": "Να φτιάξουν ένα πρόγραμμα με τις δουλειές",
+     "why": "Λέω να φτιάξουμε ένα πρόγραμμα: ποιος κάνει τι και ποια μέρα"
+    },
+    {
+     "q": "Ποιος κανόνας ισχύει τελικά για τα πιάτα;",
+     "options": [
+      "Τα πλένουν μαζί κάθε βράδυ",
+      "Τα πλένει πάντα ο Αντώνης",
+      "Τα πλένει όποιος μαγειρεύει",
+      "Δεν τα πλένει όποιος μαγειρεύει"
+     ],
+     "answer": "Δεν τα πλένει όποιος μαγειρεύει",
+     "why": "όποιος μαγειρεύει δεν πλένει"
+    }
+   ],
+   "gloss": {
+    "νεροχύτης": "νεροχύτης — (kitchen) sink",
+    "εξεταστική": "εξεταστική — exam period",
+    "κάθε τρεις και λίγο": "κάθε τρεις και λίγο — every five minutes, constantly",
+    "αναλάβω": "αναλαμβάνω — to take on",
+    "ανάποδα": "ανάποδα — the other way round",
+    "πλυντήριο πιάτων": "πλυντήριο πιάτων — dishwasher"
+   }
+  },
+  {
+   "id": "l56-dia-papoutsia",
+   "title": "Επιστροφή παπουτσιών",
+   "title_en": "Returning shoes",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Μια πελάτισσα επιστρέφει σε ένα κατάστημα υποδημάτων. Θα ακούσετε τη συζήτησή της με τον υπάλληλο.",
+   "script": [
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Καλησπέρα. Αγόρασα αυτά τα παπούτσια πριν από δέκα μέρες, αλλά ήδη ξεκόλλησε η σόλα στο αριστερό. Τα φόρεσα μόνο τρεις φορές.",
+     "en": "Good afternoon. I bought these shoes ten days ago, but the sole on the left one has already come unstuck. I've only worn them three times."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Ας τα δω... Ναι, πράγματι, είναι κατασκευαστικό ελάττωμα. Έχετε την απόδειξη;",
+     "en": "Let me see... Yes, indeed, it's a manufacturing defect. Do you have the receipt?"
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Ορίστε. Θα ήθελα να μου επιστρέψετε τα χρήματα, γιατί δεν εμπιστεύομαι πια αυτό το μοντέλο.",
+     "en": "Here you are. I'd like you to give me my money back, because I don't trust this model any more."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Καταλαβαίνω. Η πολιτική του καταστήματος είναι να δίνουμε πιστωτικό σημείωμα, αλλά στην περίπτωση ελαττωματικού προϊόντος δικαιούστε επιστροφή χρημάτων. Θα σας τα επιστρέψω στην κάρτα με την οποία πληρώσατε.",
+     "en": "I understand. The shop's policy is to give a credit note, but in the case of a defective product you are entitled to a refund. I'll refund it to the card you paid with."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Τέλεια, ευχαριστώ. Και σε πόσες μέρες θα φανούν τα χρήματα στον λογαριασμό μου;",
+     "en": "Perfect, thank you. And in how many days will the money show up in my account?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Συνήθως σε τρεις με πέντε εργάσιμες. Αν δεν εμφανιστούν, πάρτε μας τηλέφωνο.",
+     "en": "Usually in three to five working days. If it doesn't appear, give us a call."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο είναι το πρόβλημα με τα παπούτσια;",
+     "options": [
+      "Δεν της αρέσει το χρώμα",
+      "Είναι μικρά",
+      "Της χτυπάνε",
+      "Ξεκόλλησε η σόλα στο αριστερό"
+     ],
+     "answer": "Ξεκόλλησε η σόλα στο αριστερό",
+     "why": "ήδη ξεκόλλησε η σόλα στο αριστερό"
+    },
+    {
+     "q": "Γιατί δικαιούται η πελάτισσα επιστροφή χρημάτων;",
+     "options": [
+      "Γιατί το προϊόν είναι ελαττωματικό",
+      "Γιατί είναι ακόμη εκπτώσεις",
+      "Γιατί έχει κάρτα πελάτη",
+      "Γιατί δεν τα φόρεσε ποτέ"
+     ],
+     "answer": "Γιατί το προϊόν είναι ελαττωματικό",
+     "why": "στην περίπτωση ελαττωματικού προϊόντος δικαιούστε επιστροφή χρημάτων"
+    },
+    {
+     "q": "Σε πόσο καιρό θα δει τα χρήματα στον λογαριασμό της;",
+     "options": [
+      "Την επόμενη εβδομάδα, μόνο αν τηλεφωνήσει",
+      "Αμέσως",
+      "Σε έναν μήνα",
+      "Σε τρεις με πέντε εργάσιμες"
+     ],
+     "answer": "Σε τρεις με πέντε εργάσιμες",
+     "why": "Συνήθως σε τρεις με πέντε εργάσιμες"
+    }
+   ],
+   "gloss": {
+    "υποδημάτων": "υπόδημα — shoe (formal)",
+    "ξεκόλλησε": "ξεκολλάω — to come unstuck",
+    "σόλα": "σόλα — sole",
+    "κατασκευαστικό ελάττωμα": "κατασκευαστικό ελάττωμα — manufacturing defect",
+    "απόδειξη": "απόδειξη — receipt",
+    "πιστωτικό σημείωμα": "πιστωτικό σημείωμα — credit note",
+    "δικαιούστε": "δικαιούμαι — to be entitled to",
+    "εργάσιμες": "εργάσιμη (μέρα) — working day"
+   }
+  },
+  {
+   "id": "l56-int-magos",
+   "title": "Ένας ταχυδακτυλουργός",
+   "title_en": "A magician",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με έναν ταχυδακτυλουργό.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κύριε Μαυρίδη, πώς γίνεται κανείς ταχυδακτυλουργός;",
+     "en": "Mr Mavridis, how does one become a magician?"
+    },
+    {
+     "speaker": "Ταχυδακτυλουργός",
+     "voice": "m",
+     "el": "Στην περίπτωσή μου, όλα ξεκίνησαν με ένα δώρο. Στα δέκα μου γενέθλια ο θείος μου μού χάρισε ένα κουτί με μαγικά κόλπα. Από τότε δεν σταμάτησα ποτέ να εξασκούμαι. Πήγαινα σε σεμινάρια, διάβαζα βιβλία, και φυσικά περνούσα ώρες μπροστά στον καθρέφτη.",
+     "en": "In my case, it all started with a present. On my tenth birthday my uncle gave me a box of magic tricks. Since then I've never stopped practising. I went to seminars, read books and of course spent hours in front of the mirror."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πόσο χρόνο χρειάζεται για να μάθει κανείς ένα καινούργιο κόλπο;",
+     "en": "How long does it take to learn a new trick?"
+    },
+    {
+     "speaker": "Ταχυδακτυλουργός",
+     "voice": "m",
+     "el": "Εξαρτάται. Ένα απλό κόλπο με τράπουλα μπορεί να το μάθεις σε μια εβδομάδα. Για να το κάνεις όμως τόσο φυσικά ώστε να μην το καταλάβει κανείς, χρειάζονται μήνες. Το μυστικό δεν είναι τα γρήγορα χέρια, όπως πιστεύουν οι περισσότεροι. Είναι η ψυχολογία: να ξέρεις πού κοιτάζει ο θεατής και να του αποσπάς την προσοχή.",
+     "en": "It depends. A simple card trick you might learn in a week. But to do it so naturally that nobody notices, you need months. The secret isn't quick hands, as most people think. It's psychology: knowing where the spectator is looking and distracting their attention."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ποιο είναι το αγαπημένο σας κοινό;",
+     "en": "What is your favourite audience?"
+    },
+    {
+     "speaker": "Ταχυδακτυλουργός",
+     "voice": "m",
+     "el": "Τα παιδιά, χωρίς αμφιβολία, αλλά είναι και το πιο δύσκολο. Οι μεγάλοι προσπαθούν να καταλάβουν το κόλπο· τα παιδιά απλώς σου λένε δυνατά «το έκρυψες στο μανίκι!» Δεν μπορείς να τα ξεγελάσεις εύκολα.",
+     "en": "Children, without a doubt, but they're also the hardest. Grown-ups try to work out the trick; children just tell you loudly \"you hid it up your sleeve!\" You can't fool them easily."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ξεκίνησε να ασχολείται με τα μαγικά;",
+     "options": [
+      "Πήγε σε μια σχολή στο εξωτερικό",
+      "Ο πατέρας του ήταν ταχυδακτυλουργός",
+      "Είδε μια παράσταση στην τηλεόραση",
+      "Ο θείος του τού χάρισε ένα κουτί με μαγικά κόλπα"
+     ],
+     "answer": "Ο θείος του τού χάρισε ένα κουτί με μαγικά κόλπα",
+     "why": "ο θείος μου μού χάρισε ένα κουτί με μαγικά κόλπα"
+    },
+    {
+     "q": "Ποιο είναι, κατά τον ίδιο, το μυστικό ενός καλού κόλπου;",
+     "options": [
+      "Τα γρήγορα χέρια",
+      "Η ψυχολογία και η απόσπαση της προσοχής",
+      "Τα ακριβά αντικείμενα",
+      "Η μουσική"
+     ],
+     "answer": "Η ψυχολογία και η απόσπαση της προσοχής",
+     "why": "Το μυστικό δεν είναι τα γρήγορα χέρια … Είναι η ψυχολογία"
+    },
+    {
+     "q": "Γιατί τα παιδιά είναι το πιο δύσκολο κοινό;",
+     "options": [
+      "Γιατί λένε δυνατά ό,τι υποψιάζονται και δεν ξεγελιούνται εύκολα",
+      "Γιατί δεν καταλαβαίνουν τα κόλπα",
+      "Γιατί φοβούνται",
+      "Γιατί βαριούνται γρήγορα"
+     ],
+     "answer": "Γιατί λένε δυνατά ό,τι υποψιάζονται και δεν ξεγελιούνται εύκολα",
+     "why": "τα παιδιά απλώς σου λένε δυνατά «το έκρυψες στο μανίκι!» Δεν μπορείς να τα ξεγελάσεις εύκολα"
+    }
+   ],
+   "gloss": {
+    "κόλπα": "κόλπο — trick",
+    "εξασκούμαι": "εξασκούμαι — to practise",
+    "τράπουλα": "τράπουλα — pack of cards",
+    "αποσπάς την προσοχή": "αποσπώ την προσοχή — to distract",
+    "μανίκι": "μανίκι — sleeve",
+    "ξεγελάσεις": "ξεγελάω — to fool, trick"
+   }
+  },
+  {
+   "id": "l56-rep-aidipsos",
+   "title": "Τα λουτρά της Αιδηψού",
+   "title_en": "The baths of Aidipsos",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ραδιοφωνικό ρεπορτάζ από τα Λουτρά Αιδηψού, στη βόρεια Εύβοια.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Είναι Νοέμβριος, και όμως, εδώ στην παραλία της Αιδηψού, αρκετοί άνθρωποι κολυμπούν στη θάλασσα. Το μυστικό; Ζεστό νερό που αναβλύζει από τη γη και χύνεται στη θάλασσα, δημιουργώντας φυσικές πισίνες με θερμοκρασία που ξεπερνά τους τριάντα πέντε βαθμούς.",
+     "en": "It's November, and yet here on the beach at Aidipsos quite a few people are swimming in the sea. The secret? Hot water that gushes up from the ground and pours into the sea, creating natural pools at temperatures above thirty-five degrees."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι ιαματικές πηγές της Αιδηψού είναι γνωστές από την αρχαιότητα· τις αναφέρει ήδη ο Αριστοτέλης. Το νερό τους είναι πλούσιο σε μεταλλικά στοιχεία και, σύμφωνα με τους ειδικούς, βοηθά σε παθήσεις των αρθρώσεων και του δέρματος. Στις αρχές του εικοστού αιώνα η πόλη έγινε ένα από τα πιο κοσμικά θέρετρα της χώρας.",
+     "en": "The healing springs of Aidipsos have been known since antiquity; Aristotle already mentions them. Their water is rich in minerals and, according to specialists, helps with joint and skin conditions. In the early twentieth century the town became one of the most fashionable resorts in the country."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Σήμερα, εκτός από τα πολυτελή ξενοδοχεία με ιδιωτικά λουτρά, υπάρχουν και δημόσιες εγκαταστάσεις με προσιτές τιμές. Οι περισσότεροι επισκέπτες είναι ηλικιωμένοι, αλλά τελευταία έρχονται όλο και περισσότεροι νέοι, ειδικά τα χειμωνιάτικα Σαββατοκύριακα. Ένας από αυτούς μου είπε γελώντας: «Πού αλλού μπορείς να κάνεις μπάνιο στη θάλασσα τον Δεκέμβριο;»",
+     "en": "Today, besides the luxury hotels with private baths, there are also public facilities at affordable prices. Most visitors are elderly, but lately more and more young people are coming, especially on winter weekends. One of them told me, laughing: \"Where else can you swim in the sea in December?\""
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί κολυμπούν άνθρωποι στη θάλασσα τον Νοέμβριο;",
+     "options": [
+      "Γιατί ζεστό νερό από τη γη χύνεται στη θάλασσα",
+      "Γιατί ο καιρός είναι πολύ ζεστός",
+      "Γιατί είναι χειμερινοί κολυμβητές",
+      "Γιατί υπάρχει θερμαινόμενη πισίνα στην παραλία"
+     ],
+     "answer": "Γιατί ζεστό νερό από τη γη χύνεται στη θάλασσα",
+     "why": "Ζεστό νερό που αναβλύζει από τη γη και χύνεται στη θάλασσα"
+    },
+    {
+     "q": "Σε τι βοηθά, κατά τους ειδικούς, το νερό των πηγών;",
+     "options": [
+      "Στην όραση",
+      "Σε παθήσεις των αρθρώσεων και του δέρματος",
+      "Στην πέψη",
+      "Στον ύπνο"
+     ],
+     "answer": "Σε παθήσεις των αρθρώσεων και του δέρματος",
+     "why": "βοηθά σε παθήσεις των αρθρώσεων και του δέρματος"
+    },
+    {
+     "q": "Τι έχει αλλάξει τελευταία στους επισκέπτες;",
+     "options": [
+      "Έρχονται μόνο το καλοκαίρι",
+      "Έρχονται όλο και περισσότεροι νέοι",
+      "Έρχονται λιγότεροι ξένοι",
+      "Έρχονται μόνο ηλικιωμένοι"
+     ],
+     "answer": "Έρχονται όλο και περισσότεροι νέοι",
+     "why": "τελευταία έρχονται όλο και περισσότεροι νέοι"
+    }
+   ],
+   "gloss": {
+    "αναβλύζει": "αναβλύζω — to gush up, well up",
+    "ιαματικές πηγές": "ιαματικές πηγές — healing (thermal) springs",
+    "μεταλλικά στοιχεία": "μεταλλικά στοιχεία — minerals",
+    "παθήσεις": "πάθηση — condition, ailment",
+    "αρθρώσεων": "άρθρωση — joint",
+    "κοσμικά": "κοσμικός — fashionable, society",
+    "θέρετρα": "θέρετρο — resort",
+    "προσιτές": "προσιτός — affordable"
+   }
+  },
+  {
+   "id": "l56-dia-ekloges",
+   "title": "Στο εκλογικό τμήμα",
+   "title_en": "At the polling station",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Μια νέα ψηφοφόρος πηγαίνει να ψηφίσει για πρώτη φορά. Θα ακούσετε τη συζήτησή της με τον δικαστικό αντιπρόσωπο.",
+   "script": [
+    {
+     "speaker": "Ψηφοφόρος",
+     "voice": "f",
+     "el": "Καλημέρα. Είναι η πρώτη φορά που ψηφίζω και δεν ξέρω ακριβώς τι πρέπει να κάνω. Είμαι στο σωστό εκλογικό τμήμα;",
+     "en": "Good morning. It's the first time I'm voting and I don't know exactly what I have to do. Am I at the right polling station?"
+    },
+    {
+     "speaker": "Αντιπρόσωπος",
+     "voice": "m",
+     "el": "Καλημέρα σας, και καλώς ήρθατε! Δώστε μου την ταυτότητά σας να σας βρω στον εκλογικό κατάλογο. Μάλιστα, είστε εδώ. Υπογράψτε, παρακαλώ, δίπλα στο όνομά σας.",
+     "en": "Good morning, and welcome! Give me your ID card so I can find you on the electoral roll. Yes, you're here. Please sign next to your name."
+    },
+    {
+     "speaker": "Ψηφοφόρος",
+     "voice": "f",
+     "el": "Και μετά;",
+     "en": "And then?"
+    },
+    {
+     "speaker": "Αντιπρόσωπος",
+     "voice": "m",
+     "el": "Θα σας δώσω έναν φάκελο και τα ψηφοδέλτια. Πηγαίνετε πίσω από το παραβάν, εκεί κανείς δεν σας βλέπει. Βάζετε στον φάκελο ένα μόνο ψηφοδέλτιο, κλείνετε τον φάκελο και τον ρίχνετε στην κάλπη. Τα υπόλοιπα ψηφοδέλτια τα πετάτε στο καλάθι που είναι μέσα, όχι έξω.",
+     "en": "I'll give you an envelope and the ballot papers. Go behind the screen; nobody can see you there. You put just one ballot paper in the envelope, seal the envelope and drop it into the ballot box. The other ballot papers you throw in the basket that's inside, not outside."
+    },
+    {
+     "speaker": "Ψηφοφόρος",
+     "voice": "f",
+     "el": "Κι αν θέλω να βάλω σταυρό προτίμησης;",
+     "en": "And if I want to mark a preference cross?"
+    },
+    {
+     "speaker": "Αντιπρόσωπος",
+     "voice": "m",
+     "el": "Τον βάζετε με στιλό δίπλα στο όνομα του υποψηφίου, πάνω στο ψηφοδέλτιο, πριν το βάλετε στον φάκελο. Αν βάλετε περισσότερους σταυρούς από όσους επιτρέπονται, το ψηφοδέλτιο είναι άκυρο, οπότε προσέξτε.",
+     "en": "You mark it with a pen next to the candidate's name, on the ballot paper, before you put it in the envelope. If you mark more crosses than are allowed, the ballot is invalid, so be careful."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ζητά πρώτα ο αντιπρόσωπος από την ψηφοφόρο;",
+     "options": [
+      "Το εκλογικό της βιβλιάριο",
+      "Το διαβατήριό της",
+      "Την ταυτότητά της",
+      "Τη διεύθυνσή της"
+     ],
+     "answer": "Την ταυτότητά της",
+     "why": "Δώστε μου την ταυτότητά σας να σας βρω στον εκλογικό κατάλογο"
+    },
+    {
+     "q": "Πού πρέπει να πετάξει τα ψηφοδέλτια που δεν χρησιμοποιεί;",
+     "options": [
+      "Στον κάδο έξω από το τμήμα",
+      "Στο καλάθι πίσω από το παραβάν",
+      "Να τα δώσει στον αντιπρόσωπο",
+      "Να τα πάρει μαζί της"
+     ],
+     "answer": "Στο καλάθι πίσω από το παραβάν",
+     "why": "Τα υπόλοιπα ψηφοδέλτια τα πετάτε στο καλάθι που είναι μέσα, όχι έξω"
+    },
+    {
+     "q": "Πότε το ψηφοδέλτιο είναι άκυρο;",
+     "options": [
+      "Όταν έχει περισσότερους σταυρούς από όσους επιτρέπονται",
+      "Όταν ο φάκελος δεν είναι κλειστός",
+      "Όταν ο σταυρός είναι με μολύβι",
+      "Όταν δεν έχει κανέναν σταυρό"
+     ],
+     "answer": "Όταν έχει περισσότερους σταυρούς από όσους επιτρέπονται",
+     "why": "Αν βάλετε περισσότερους σταυρούς από όσους επιτρέπονται, το ψηφοδέλτιο είναι άκυρο"
+    }
+   ],
+   "gloss": {
+    "εκλογικό τμήμα": "εκλογικό τμήμα — polling station",
+    "εκλογικό κατάλογο": "εκλογικός κατάλογος — electoral roll",
+    "ψηφοδέλτια": "ψηφοδέλτιο — ballot paper",
+    "παραβάν": "παραβάν — (voting) screen",
+    "κάλπη": "κάλπη — ballot box",
+    "σταυρό προτίμησης": "σταυρός προτίμησης — preference vote (cross)",
+    "υποψηφίου": "υποψήφιος — candidate",
+    "άκυρο": "άκυρος — invalid"
+   }
+  },
+  {
+   "id": "l56-mono-amth",
+   "title": "Ξενάγηση στο Αρχαιολογικό Μουσείο Θεσσαλονίκης",
+   "title_en": "A tour of the Archaeological Museum of Thessaloniki",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Επισκέπτεστε το Αρχαιολογικό Μουσείο Θεσσαλονίκης με μια ομάδα. Θα ακούσετε την ξεναγό στην αρχή της ξενάγησης.",
+   "script": [
+    {
+     "speaker": "Ξεναγός",
+     "voice": "f",
+     "el": "Καλώς ήρθατε στο Αρχαιολογικό Μουσείο Θεσσαλονίκης. Το κτίριο, ένα από τα πιο χαρακτηριστικά δείγματα μοντέρνας αρχιτεκτονικής στην Ελλάδα, σχεδιάστηκε από τον αρχιτέκτονα Πάτροκλο Καραντινό και εγκαινιάστηκε το 1962.",
+     "en": "Welcome to the Archaeological Museum of Thessaloniki. The building, one of the most characteristic examples of modern architecture in Greece, was designed by the architect Patroklos Karantinos and opened in 1962."
+    },
+    {
+     "speaker": "Ξεναγός",
+     "voice": "f",
+     "el": "Το μουσείο φιλοξενεί ευρήματα από όλη τη Μακεδονία, από την προϊστορία μέχρι τη ρωμαϊκή εποχή. Το πιο εντυπωσιακό, ίσως, είναι ο κρατήρας του Δερβενίου, ένα χάλκινο αγγείο του 4ου αιώνα π.Χ., διακοσμημένο με σκηνές από τη λατρεία του Διονύσου. Βρέθηκε σε έναν τάφο, γεμάτο με τα καμένα οστά του νεκρού.",
+     "en": "The museum houses finds from all over Macedonia, from prehistory to Roman times. The most impressive, perhaps, is the Derveni krater, a bronze vessel from the 4th century BC decorated with scenes from the cult of Dionysus. It was found in a tomb, filled with the burnt bones of the deceased."
+    },
+    {
+     "speaker": "Ξεναγός",
+     "voice": "f",
+     "el": "Στην ίδια περιοχή βρέθηκε και ο πάπυρος του Δερβενίου, που θεωρείται το αρχαιότερο σωζόμενο χειρόγραφο της Ευρώπης. Σώθηκε επειδή απανθρακώθηκε μερικώς σε μια νεκρική πυρά. Στο τέλος της ξενάγησης θα δούμε και την αίθουσα με τον χρυσό της Μακεδονίας: κοσμήματα και στεφάνια που θα σας κόψουν την ανάσα.",
+     "en": "In the same area the Derveni papyrus was found, which is considered the oldest surviving manuscript in Europe. It survived because it was partly carbonised on a funeral pyre. At the end of the tour we will also see the room with the gold of Macedonia: jewellery and wreaths that will take your breath away."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε εγκαινιάστηκε το κτίριο του μουσείου;",
+     "options": [
+      "Το 1912",
+      "Το 2004",
+      "Το 1980",
+      "Το 1962"
+     ],
+     "answer": "Το 1962",
+     "why": "σχεδιάστηκε από τον αρχιτέκτονα Πάτροκλο Καραντινό και εγκαινιάστηκε το 1962"
+    },
+    {
+     "q": "Τι ήταν μέσα στον κρατήρα του Δερβενίου όταν βρέθηκε;",
+     "options": [
+      "Κρασί",
+      "Ένας πάπυρος",
+      "Χρυσά νομίσματα",
+      "Τα καμένα οστά του νεκρού"
+     ],
+     "answer": "Τα καμένα οστά του νεκρού",
+     "why": "Βρέθηκε σε έναν τάφο, γεμάτο με τα καμένα οστά του νεκρού"
+    },
+    {
+     "q": "Γιατί σώθηκε ο πάπυρος του Δερβενίου;",
+     "options": [
+      "Γιατί τον αντέγραψαν οι μοναχοί",
+      "Γιατί απανθρακώθηκε μερικώς σε μια νεκρική πυρά",
+      "Γιατί ήταν θαμμένος σε άμμο",
+      "Γιατί ήταν μέσα σε ένα χάλκινο κουτί"
+     ],
+     "answer": "Γιατί απανθρακώθηκε μερικώς σε μια νεκρική πυρά",
+     "why": "Σώθηκε επειδή απανθρακώθηκε μερικώς σε μια νεκρική πυρά"
+    }
+   ],
+   "gloss": {
+    "κρατήρας": "κρατήρας — krater (mixing bowl)",
+    "αγγείο": "αγγείο — vessel, vase",
+    "λατρεία": "λατρεία — cult, worship",
+    "οστά": "οστά — bones",
+    "πάπυρος": "πάπυρος — papyrus",
+    "σωζόμενο": "σωζόμενος — surviving",
+    "απανθρακώθηκε": "απανθρακώνομαι — to be carbonised",
+    "πυρά": "πυρά — pyre",
+    "στεφάνια": "στεφάνι — wreath"
+   }
+  },
+  {
+   "id": "l56-c1-mousikotherapeia",
+   "title": "Η μουσικοθεραπεία",
+   "title_en": "Music therapy",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ραδιοφωνική συνέντευξη με μια μουσικοθεραπεύτρια.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Κυρία Αλεξίου, πολλοί πιστεύουν ότι μουσικοθεραπεία σημαίνει απλώς να ακούς χαλαρωτική μουσική. Ισχύει;",
+     "en": "Ms Alexiou, many people think that music therapy simply means listening to relaxing music. Is that true?"
+    },
+    {
+     "speaker": "Μουσικοθεραπεύτρια",
+     "voice": "f",
+     "el": "Είναι μια πολύ διαδεδομένη παρανόηση. Η μουσικοθεραπεία είναι μια κλινική παρέμβαση, που την ασκούν ειδικά εκπαιδευμένοι θεραπευτές. Το κεντρικό στοιχείο δεν είναι η μουσική καθαυτή, αλλά η θεραπευτική σχέση που χτίζεται μέσα από αυτήν. Συχνά οι θεραπευόμενοι δεν ακούν απλώς· αυτοσχεδιάζουν, παίζουν κρουστά, τραγουδούν, ακόμη κι αν δεν έχουν καμία μουσική γνώση.",
+     "en": "It's a very widespread misconception. Music therapy is a clinical intervention practised by specially trained therapists. The central element is not the music in itself, but the therapeutic relationship built through it. Often the clients don't just listen; they improvise, play percussion, sing, even if they have no musical knowledge at all."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Σε ποιες περιπτώσεις εφαρμόζεται;",
+     "en": "In which cases is it used?"
+    },
+    {
+     "speaker": "Μουσικοθεραπεύτρια",
+     "voice": "f",
+     "el": "Σε ένα ευρύ φάσμα. Σε παιδιά στο φάσμα του αυτισμού, για παράδειγμα, η μουσική μπορεί να γίνει ένας δίαυλος επικοινωνίας όταν ο λόγος δυσκολεύεται. Στην άνοια, είναι συγκινητικό να βλέπεις ανθρώπους που δεν αναγνωρίζουν πια τα παιδιά τους να θυμούνται ολόκληρους στίχους από τραγούδια της νιότης τους, γιατί η μουσική μνήμη φαίνεται να διατηρείται περισσότερο. Και στην αποκατάσταση μετά από εγκεφαλικό, ο ρυθμός βοηθά τους ασθενείς να ξαναβρούν τον βηματισμό τους.",
+     "en": "Across a wide range. In children on the autism spectrum, for example, music can become a channel of communication when speech is difficult. In dementia, it's moving to see people who no longer recognise their children remember entire verses of songs from their youth, because musical memory seems to be preserved longer. And in rehabilitation after a stroke, rhythm helps patients regain their gait."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Υπάρχουν όρια;",
+     "en": "Are there limits?"
+    },
+    {
+     "speaker": "Μουσικοθεραπεύτρια",
+     "voice": "f",
+     "el": "Βεβαίως. Η μουσικοθεραπεία δεν υποκαθιστά την ιατρική θεραπεία· τη συμπληρώνει. Και πρέπει να είμαστε προσεκτικοί με τις υπερβολές που κυκλοφορούν στο διαδίκτυο, όπως ότι ένα συγκεκριμένο κομμάτι «θεραπεύει» την κατάθλιψη. Τέτοιοι ισχυρισμοί βλάπτουν την αξιοπιστία ενός σοβαρού επαγγέλματος.",
+     "en": "Of course. Music therapy does not replace medical treatment; it complements it. And we must be careful with the exaggerations circulating on the internet, such as that a particular piece \"cures\" depression. Claims like that damage the credibility of a serious profession."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια παρανόηση διορθώνει η μουσικοθεραπεύτρια;",
+     "options": [
+      "Ότι μουσικοθεραπεία σημαίνει απλώς να ακούς χαλαρωτική μουσική",
+      "Ότι είναι μόνο για παιδιά",
+      "Ότι η μουσικοθεραπεία είναι ακριβή",
+      "Ότι χρειάζεται μουσικές γνώσεις"
+     ],
+     "answer": "Ότι μουσικοθεραπεία σημαίνει απλώς να ακούς χαλαρωτική μουσική",
+     "why": "πολλοί πιστεύουν ότι μουσικοθεραπεία σημαίνει απλώς να ακούς χαλαρωτική μουσική … Είναι μια πολύ διαδεδομένη παρανόηση"
+    },
+    {
+     "q": "Ποιο είναι, κατά την ίδια, το κεντρικό στοιχείο της μουσικοθεραπείας;",
+     "options": [
+      "Η διάρκεια των συνεδριών",
+      "Η θεραπευτική σχέση που χτίζεται μέσα από τη μουσική",
+      "Τα μουσικά όργανα",
+      "Η ποιότητα της μουσικής"
+     ],
+     "answer": "Η θεραπευτική σχέση που χτίζεται μέσα από τη μουσική",
+     "why": "Το κεντρικό στοιχείο δεν είναι η μουσική καθαυτή, αλλά η θεραπευτική σχέση"
+    },
+    {
+     "q": "Τι παρατηρείται σε ανθρώπους με άνοια;",
+     "options": [
+      "Μαθαίνουν εύκολα καινούργια τραγούδια",
+      "Ξεχνούν πρώτα τα τραγούδια",
+      "Δεν αντιδρούν καθόλου στη μουσική",
+      "Θυμούνται στίχους από τραγούδια της νιότης τους"
+     ],
+     "answer": "Θυμούνται στίχους από τραγούδια της νιότης τους",
+     "why": "θυμούνται ολόκληρους στίχους από τραγούδια της νιότης τους, γιατί η μουσική μνήμη φαίνεται να διατηρείται περισσότερο"
+    },
+    {
+     "q": "Γιατί είναι επικίνδυνοι οι ισχυρισμοί του διαδικτύου;",
+     "options": [
+      "Γιατί προτείνουν λάθος μουσική",
+      "Γιατί βλάπτουν την αξιοπιστία του επαγγέλματος",
+      "Γιατί απαγορεύονται από τον νόμο",
+      "Γιατί διαφημίζουν ακριβά προγράμματα"
+     ],
+     "answer": "Γιατί βλάπτουν την αξιοπιστία του επαγγέλματος",
+     "why": "Τέτοιοι ισχυρισμοί βλάπτουν την αξιοπιστία ενός σοβαρού επαγγέλματος"
+    }
+   ],
+   "gloss": {
+    "παρανόηση": "παρανόηση — misconception",
+    "κλινική παρέμβαση": "κλινική παρέμβαση — clinical intervention",
+    "καθαυτή": "καθαυτός — in itself",
+    "θεραπευόμενοι": "θεραπευόμενος — client, patient (in therapy)",
+    "αυτοσχεδιάζουν": "αυτοσχεδιάζω — to improvise",
+    "κρουστά": "κρουστά — percussion",
+    "δίαυλος": "δίαυλος — channel",
+    "άνοια": "άνοια — dementia",
+    "αποκατάσταση": "αποκατάσταση — rehabilitation",
+    "εγκεφαλικό": "εγκεφαλικό — stroke",
+    "βηματισμό": "βηματισμός — gait, step",
+    "υποκαθιστά": "υποκαθιστώ — to replace",
+    "ισχυρισμοί": "ισχυρισμός — claim"
+   }
+  },
+  {
+   "id": "l56-c1-enosi-kritis",
+   "title": "Η Ένωση της Κρήτης με την Ελλάδα",
+   "title_en": "The union of Crete with Greece",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια ομιλία ενός ιστορικού για τον μακρύ δρόμο της Κρήτης προς την ένωση με την Ελλάδα.",
+   "script": [
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Όταν ιδρύθηκε το ελληνικό κράτος, η Κρήτη, παρά τη συμμετοχή της στην Επανάσταση του 1821, έμεινε έξω από τα σύνορά του. Τις επόμενες δεκαετίες οι Κρητικοί εξεγέρθηκαν επανειλημμένα. Η πιο γνωστή εξέγερση, του 1866, έμεινε στην ιστορία για το ολοκαύτωμα της Μονής Αρκαδίου, όπου οι πολιορκημένοι προτίμησαν να ανατινάξουν την πυριτιδαποθήκη παρά να παραδοθούν.",
+     "en": "When the Greek state was founded, Crete, despite its participation in the Revolution of 1821, was left outside its borders. In the following decades the Cretans rose up repeatedly. The best-known revolt, of 1866, went down in history for the holocaust of the Arkadi Monastery, where the besieged chose to blow up the powder magazine rather than surrender."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Το 1898, μετά από νέες ταραχές και την παρέμβαση των Μεγάλων Δυνάμεων, δημιουργήθηκε η αυτόνομη Κρητική Πολιτεία, υπό την τυπική κυριαρχία του σουλτάνου, με ύπατο αρμοστή τον πρίγκιπα Γεώργιο της Ελλάδας. Η αυτονομία, ωστόσο, δεν ικανοποίησε όσους ήθελαν την ένωση.",
+     "en": "In 1898, after new unrest and the intervention of the Great Powers, the autonomous Cretan State was created, under the nominal sovereignty of the sultan, with Prince George of Greece as High Commissioner. Autonomy, however, did not satisfy those who wanted union."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Ανάμεσά τους ξεχώρισε ένας νέος δικηγόρος από τα Χανιά, ο Ελευθέριος Βενιζέλος, που το 1905 ηγήθηκε του κινήματος του Θερίσου εναντίον της πολιτικής του πρίγκιπα. Τρία χρόνια αργότερα η κρητική βουλή κήρυξε μονομερώς την ένωση, αλλά η Αθήνα, φοβούμενη διεθνείς επιπλοκές, δεν τόλμησε να την αποδεχτεί επίσημα.",
+     "en": "Among them stood out a young lawyer from Chania, Eleftherios Venizelos, who in 1905 led the Theriso movement against the prince's policy. Three years later the Cretan assembly unilaterally declared union, but Athens, fearing international complications, did not dare to accept it officially."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Η ένωση έγινε πραγματικότητα μόνο μετά τους Βαλκανικούς Πολέμους, όταν με τη Συνθήκη του Λονδίνου, το 1913, η Οθωμανική Αυτοκρατορία παραιτήθηκε από κάθε δικαίωμα στο νησί. Την 1η Δεκεμβρίου του 1913 υψώθηκε η ελληνική σημαία στο φρούριο Φιρκά των Χανίων, παρουσία του Βενιζέλου, πλέον πρωθυπουργού της Ελλάδας. Ήταν το τέλος ενός αγώνα σχεδόν έναν αιώνα.",
+     "en": "Union became a reality only after the Balkan Wars, when by the Treaty of London in 1913 the Ottoman Empire renounced all rights to the island. On 1 December 1913 the Greek flag was raised at the Firkas fortress in Chania, in the presence of Venizelos, by then prime minister of Greece. It was the end of a struggle of almost a century."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί έμεινε στην ιστορία η εξέγερση του 1866;",
+     "options": [
+      "Για το ολοκαύτωμα της Μονής Αρκαδίου",
+      "Για την ένωση με την Ελλάδα",
+      "Για τη νίκη των Κρητικών στα Χανιά",
+      "Για τη δολοφονία ενός πασά"
+     ],
+     "answer": "Για το ολοκαύτωμα της Μονής Αρκαδίου",
+     "why": "έμεινε στην ιστορία για το ολοκαύτωμα της Μονής Αρκαδίου"
+    },
+    {
+     "q": "Τι ήταν η Κρητική Πολιτεία;",
+     "options": [
+      "Ένα ανεξάρτητο κράτος χωρίς σχέση με τον σουλτάνο",
+      "Ένα αυτόνομο κράτος υπό την τυπική κυριαρχία του σουλτάνου",
+      "Μια ελληνική νομαρχία",
+      "Μια βρετανική αποικία"
+     ],
+     "answer": "Ένα αυτόνομο κράτος υπό την τυπική κυριαρχία του σουλτάνου",
+     "why": "δημιουργήθηκε η αυτόνομη Κρητική Πολιτεία, υπό την τυπική κυριαρχία του σουλτάνου"
+    },
+    {
+     "q": "Γιατί η Αθήνα δεν αποδέχτηκε την ένωση το 1908;",
+     "options": [
+      "Γιατί δεν είχε στρατό",
+      "Γιατί την απέρριψαν οι Κρητικοί",
+      "Γιατί δεν την ήθελε ο Βενιζέλος",
+      "Γιατί φοβόταν διεθνείς επιπλοκές"
+     ],
+     "answer": "Γιατί φοβόταν διεθνείς επιπλοκές",
+     "why": "η Αθήνα, φοβούμενη διεθνείς επιπλοκές, δεν τόλμησε να την αποδεχτεί επίσημα"
+    },
+    {
+     "q": "Τι συνέβη την 1η Δεκεμβρίου 1913;",
+     "options": [
+      "Ο Βενιζέλος έγινε πρωθυπουργός",
+      "Ξεκίνησαν οι Βαλκανικοί Πόλεμοι",
+      "Υπογράφηκε η Συνθήκη του Λονδίνου",
+      "Υψώθηκε η ελληνική σημαία στο φρούριο Φιρκά"
+     ],
+     "answer": "Υψώθηκε η ελληνική σημαία στο φρούριο Φιρκά",
+     "why": "Την 1η Δεκεμβρίου του 1913 υψώθηκε η ελληνική σημαία στο φρούριο Φιρκά των Χανίων"
+    }
+   ],
+   "gloss": {
+    "εξεγέρθηκαν": "εξεγείρομαι — to rise up, revolt",
+    "επανειλημμένα": "επανειλημμένα — repeatedly",
+    "ολοκαύτωμα": "ολοκαύτωμα — holocaust, self-sacrifice",
+    "πολιορκημένοι": "πολιορκημένος — besieged",
+    "ανατινάξουν": "ανατινάζω — to blow up",
+    "πυριτιδαποθήκη": "πυριτιδαποθήκη — powder magazine",
+    "κυριαρχία": "κυριαρχία — sovereignty",
+    "ύπατο αρμοστή": "ύπατος αρμοστής — High Commissioner",
+    "ηγήθηκε": "ηγούμαι — to lead",
+    "μονομερώς": "μονομερώς — unilaterally",
+    "επιπλοκές": "επιπλοκή — complication",
+    "παραιτήθηκε": "παραιτούμαι — to renounce, resign"
+   }
+  }
+ ]
+}
