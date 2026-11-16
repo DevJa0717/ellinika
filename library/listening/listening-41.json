@@ -1,0 +1,849 @@
+{
+ "items": [
+  {
+   "id": "l41-ann-kyvernitis",
+   "title": "Μήνυμα από τον κυβερνήτη",
+   "title_en": "A message from the captain",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια ανακοίνωση του κυβερνήτη κατά τη διάρκεια μιας πτήσης από την Αθήνα προς τη Ρόδο.",
+   "script": [
+    {
+     "speaker": "Κυβερνήτης",
+     "voice": "m",
+     "el": "Κυρίες και κύριοι, καλησπέρα σας από τον θάλαμο διακυβέρνησης. Πετάμε σε ύψος είκοσι επτά χιλιάδων ποδών και θα αρχίσουμε την κάθοδο σε περίπου δεκαπέντε λεπτά. Δυστυχώς, ο καιρός στη Ρόδο έχει χειροτερέψει: πνέουν ισχυροί πλάγιοι άνεμοι, που αυτή τη στιγμή ξεπερνούν τα επιτρεπόμενα όρια για προσγείωση.",
+     "en": "Ladies and gentlemen, good evening from the flight deck. We are flying at twenty-seven thousand feet and will begin our descent in about fifteen minutes. Unfortunately, the weather in Rhodes has worsened: strong crosswinds are blowing, which at the moment exceed the permitted limits for landing."
+    },
+    {
+     "speaker": "Κυβερνήτης",
+     "voice": "m",
+     "el": "Θα κάνουμε κύκλους πάνω από το νησί για περίπου είκοσι λεπτά, μήπως ο άνεμος εξασθενήσει. Αν αυτό δεν συμβεί, θα προσγειωθούμε στην Κω, όπου η εταιρεία θα έχει έτοιμα λεωφορεία για να σας μεταφέρει στο λιμάνι, και από εκεί με πλοίο στη Ρόδο. Έχουμε αρκετά καύσιμα και για τις δύο περιπτώσεις.",
+     "en": "We will circle over the island for about twenty minutes, in case the wind weakens. If that does not happen, we will land on Kos, where the company will have buses ready to take you to the port, and from there by ship to Rhodes. We have enough fuel for both cases."
+    },
+    {
+     "speaker": "Κυβερνήτης",
+     "voice": "m",
+     "el": "Κατά την κάθοδο ενδέχεται να συναντήσουμε αναταράξεις. Σας παρακαλούμε να επιστρέψετε στις θέσεις σας και να δέσετε τις ζώνες ασφαλείας. Η εξυπηρέτηση στην καμπίνα διακόπτεται από αυτή τη στιγμή. Ευχαριστούμε για την υπομονή σας.",
+     "en": "During the descent we may encounter turbulence. Please return to your seats and fasten your seat belts. Cabin service is suspended from now on. Thank you for your patience."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν μπορεί να προσγειωθεί αμέσως το αεροπλάνο;",
+     "options": [
+      "Λόγω απεργίας στο αεροδρόμιο",
+      "Λόγω βλάβης",
+      "Λόγω ισχυρών πλάγιων ανέμων πάνω από τα όρια",
+      "Επειδή ο διάδρομος είναι κλειστός για επισκευές"
+     ],
+     "answer": "Λόγω ισχυρών πλάγιων ανέμων πάνω από τα όρια",
+     "why": "πνέουν ισχυροί πλάγιοι άνεμοι, που αυτή τη στιγμή ξεπερνούν τα επιτρεπόμενα όρια για προσγείωση"
+    },
+    {
+     "q": "Τι θα γίνει αν ο άνεμος δεν εξασθενήσει;",
+     "options": [
+      "Το αεροπλάνο θα επιστρέψει στην Αθήνα",
+      "Θα περιμένουν στον αέρα μέχρι το πρωί",
+      "Θα προσγειωθούν στην Κρήτη",
+      "Θα προσγειωθούν στην Κω και θα συνεχίσουν με λεωφορείο και πλοίο"
+     ],
+     "answer": "Θα προσγειωθούν στην Κω και θα συνεχίσουν με λεωφορείο και πλοίο",
+     "why": "θα προσγειωθούμε στην Κω… και από εκεί με πλοίο στη Ρόδο"
+    },
+    {
+     "q": "Τι ζητάει ο κυβερνήτης από τους επιβάτες;",
+     "options": [
+      "Να παραγγείλουν φαγητό τώρα",
+      "Να ετοιμάσουν τα διαβατήριά τους",
+      "Να επιστρέψουν στις θέσεις τους και να δέσουν τις ζώνες",
+      "Να κλείσουν τα κινητά τους"
+     ],
+     "answer": "Να επιστρέψουν στις θέσεις τους και να δέσουν τις ζώνες",
+     "why": "Σας παρακαλούμε να επιστρέψετε στις θέσεις σας και να δέσετε τις ζώνες ασφαλείας"
+    }
+   ],
+   "gloss": {
+    "κυβερνήτη": "κυβερνήτης — captain (of an aircraft)",
+    "θάλαμο διακυβέρνησης": "θάλαμος διακυβέρνησης — flight deck, cockpit",
+    "κάθοδο": "κάθοδος — descent",
+    "πνέουν": "πνέω — to blow (of wind)",
+    "πλάγιοι": "πλάγιος — side, cross (wind)",
+    "επιτρεπόμενα": "επιτρεπόμενος — permitted",
+    "εξασθενήσει": "εξασθενώ — to weaken",
+    "καύσιμα": "καύσιμο — fuel",
+    "αναταράξεις": "αναταράξεις — turbulence",
+    "ζώνες ασφαλείας": "ζώνη ασφαλείας — seat belt"
+   }
+  },
+  {
+   "id": "l41-vm-kratisi",
+   "title": "Επιβεβαίωση κράτησης",
+   "title_en": "Booking confirmation",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα μήνυμα από ένα ξενοδοχείο στο Ναύπλιο στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Ρεσεψιόν",
+     "voice": "f",
+     "el": "Καλησπέρα, κυρία Κωνσταντίνου, από το ξενοδοχείο «Αρβανιτιά» στο Ναύπλιο. Σας τηλεφωνούμε για την κράτησή σας από την Παρασκευή είκοσι ένα έως την Κυριακή είκοσι τρία, για ένα δίκλινο με θέα στη θάλασσα. Η κράτηση είναι επιβεβαιωμένη, αλλά δεν έχουμε λάβει ακόμα την προκαταβολή.",
+     "en": "Good evening, Mrs Konstantinou, this is the \"Arvanitia\" hotel in Nafplio. We're calling about your booking from Friday the twenty-first to Sunday the twenty-third, for a double room with a sea view. The booking is confirmed, but we haven't yet received the deposit."
+    },
+    {
+     "speaker": "Ρεσεψιόν",
+     "voice": "f",
+     "el": "Για να κρατήσουμε το δωμάτιο, χρειαζόμαστε το τριάντα τοις εκατό του συνολικού ποσού μέχρι την Τετάρτη. Μπορείτε να το καταθέσετε στον τραπεζικό λογαριασμό που σας στείλαμε με email ή να μας δώσετε τα στοιχεία της κάρτας σας τηλεφωνικά. Δωρεάν ακύρωση μπορείτε να κάνετε έως και σαράντα οκτώ ώρες πριν από την άφιξη.",
+     "en": "To hold the room, we need thirty per cent of the total amount by Wednesday. You can pay it into the bank account we sent you by email or give us your card details by phone. You can cancel free of charge up to forty-eight hours before arrival."
+    },
+    {
+     "speaker": "Ρεσεψιόν",
+     "voice": "f",
+     "el": "Επίσης, μας είχατε ρωτήσει για στάθμευση. Στο ξενοδοχείο δεν υπάρχει πάρκινγκ, όμως υπάρχει δημοτικός χώρος στάθμευσης δίπλα στο λιμάνι, σε πέντε λεπτά με τα πόδια. Το πρωινό σερβίρεται από τις οχτώ έως τις έντεκα. Για οτιδήποτε άλλο, είμαστε στη διάθεσή σας. Καλό βράδυ.",
+     "en": "Also, you had asked us about parking. The hotel has no car park, but there is a municipal car park next to the harbour, five minutes on foot. Breakfast is served from eight to eleven. For anything else, we are at your disposal. Good evening."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λείπει για να ολοκληρωθεί η κράτηση;",
+     "options": [
+      "Ο αριθμός των ατόμων",
+      "Η ταυτότητα της πελάτισσας",
+      "Η ώρα άφιξης",
+      "Η προκαταβολή"
+     ],
+     "answer": "Η προκαταβολή",
+     "why": "δεν έχουμε λάβει ακόμα την προκαταβολή"
+    },
+    {
+     "q": "Μέχρι πότε μπορεί να ακυρώσει χωρίς χρέωση;",
+     "options": [
+      "Έως σαράντα οκτώ ώρες πριν από την άφιξη",
+      "Μέχρι την ημέρα της άφιξης",
+      "Μέχρι την Τετάρτη",
+      "Δεν μπορεί να ακυρώσει"
+     ],
+     "answer": "Έως σαράντα οκτώ ώρες πριν από την άφιξη",
+     "why": "Δωρεάν ακύρωση μπορείτε να κάνετε έως και σαράντα οκτώ ώρες πριν από την άφιξη"
+    },
+    {
+     "q": "Πού μπορεί να παρκάρει;",
+     "options": [
+      "Πουθενά, πρέπει να έρθει με λεωφορείο",
+      "Σε έναν δημοτικό χώρο στάθμευσης δίπλα στο λιμάνι",
+      "Στο πάρκινγκ του ξενοδοχείου",
+      "Μπροστά στην είσοδο"
+     ],
+     "answer": "Σε έναν δημοτικό χώρο στάθμευσης δίπλα στο λιμάνι",
+     "why": "υπάρχει δημοτικός χώρος στάθμευσης δίπλα στο λιμάνι"
+    }
+   ],
+   "gloss": {
+    "κράτησή": "κράτηση — booking, reservation",
+    "δίκλινο": "δίκλινο — double/twin room",
+    "επιβεβαιωμένη": "επιβεβαιωμένος — confirmed",
+    "προκαταβολή": "προκαταβολή — deposit, down payment",
+    "συνολικού": "συνολικός — total",
+    "να το καταθέσετε": "καταθέτω — to deposit, pay in",
+    "ακύρωση": "ακύρωση — cancellation",
+    "άφιξη": "άφιξη — arrival",
+    "στάθμευση": "στάθμευση — parking",
+    "στη διάθεσή σας": "στη διάθεσή σας — at your disposal"
+   }
+  },
+  {
+   "id": "l41-dia-synentefxi",
+   "title": "Συνέντευξη για δουλειά",
+   "title_en": "A job interview",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη για μια θέση σε ένα καφέ-βιβλιοπωλείο στη Θεσσαλονίκη.",
+   "script": [
+    {
+     "speaker": "Ιδιοκτήτρια",
+     "voice": "f",
+     "el": "Λοιπόν, Δημήτρη, είδα στο βιογραφικό σου ότι σπουδάζεις φιλολογία. Γιατί θέλεις να δουλέψεις εδώ;",
+     "en": "So, Dimitris, I saw on your CV that you study literature. Why do you want to work here?"
+    },
+    {
+     "speaker": "Υποψήφιος",
+     "voice": "m",
+     "el": "Χρειάζομαι μια δουλειά μερικής απασχόλησης για να καλύπτω τα έξοδά μου, αλλά δεν θέλω να δουλεύω οπουδήποτε. Μου αρέσουν τα βιβλία, και έχω δουλέψει δύο καλοκαίρια ως σερβιτόρος σε ένα ξενοδοχείο στη Χαλκιδική, οπότε ξέρω και από καφέ.",
+     "en": "I need a part-time job to cover my expenses, but I don't want to work just anywhere. I like books, and I've worked two summers as a waiter at a hotel in Halkidiki, so I know about coffee too."
+    },
+    {
+     "speaker": "Ιδιοκτήτρια",
+     "voice": "f",
+     "el": "Ωραία. Η θέση είναι για είκοσι ώρες την εβδομάδα, κυρίως απογεύματα και Σάββατα. Εκτός από το μπαρ, θα βοηθάς και στο βιβλιοπωλείο: θα τακτοποιείς τα ράφια και θα προτείνεις βιβλία στους πελάτες. Πώς είναι το πρόγραμμά σου στη σχολή;",
+     "en": "Good. The position is for twenty hours a week, mainly afternoons and Saturdays. Apart from the bar, you'll also help in the bookshop: you'll tidy the shelves and recommend books to customers. What is your timetable like at university?"
+    },
+    {
+     "speaker": "Υποψήφιος",
+     "voice": "m",
+     "el": "Τα μαθήματά μου είναι όλα πρωί, εκτός από ένα σεμινάριο την Πέμπτη το απόγευμα. Τον Ιούνιο και τον Σεπτέμβριο, στις εξεταστικές, θα χρειαζόμουν λίγη ευελιξία, αλλά μπορώ να το συζητήσουμε από πριν.",
+     "en": "My lectures are all in the morning, except for a seminar on Thursday afternoons. In June and September, during exams, I'd need a little flexibility, but we can discuss it in advance."
+    },
+    {
+     "speaker": "Ιδιοκτήτρια",
+     "voice": "f",
+     "el": "Αυτό δεν είναι πρόβλημα, έχουμε κι άλλους φοιτητές. Θα ξεκινήσεις με μια δοκιμαστική περίοδο δύο εβδομάδων, με ασφάλιση από την πρώτη μέρα. Αν σου κάνει, σε περιμένω τη Δευτέρα στις τέσσερις.",
+     "en": "That's not a problem, we have other students too. You'll start with a two-week trial period, with insurance from day one. If that suits you, I'll expect you on Monday at four."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι εμπειρία έχει ο Δημήτρης;",
+     "options": [
+      "Έχει δουλέψει δύο καλοκαίρια ως σερβιτόρος",
+      "Έχει δουλέψει σε εκδοτικό οίκο",
+      "Δεν έχει καμία εμπειρία",
+      "Έχει δουλέψει σε βιβλιοπωλείο"
+     ],
+     "answer": "Έχει δουλέψει δύο καλοκαίρια ως σερβιτόρος",
+     "why": "έχω δουλέψει δύο καλοκαίρια ως σερβιτόρος σε ένα ξενοδοχείο στη Χαλκιδική"
+    },
+    {
+     "q": "Τι θα κάνει εκτός από το μπαρ;",
+     "options": [
+      "Θα μαγειρεύει",
+      "Θα κάνει παραδόσεις",
+      "Θα βοηθάει στο βιβλιοπωλείο, με τα ράφια και τις προτάσεις βιβλίων",
+      "Θα κάνει το λογιστήριο"
+     ],
+     "answer": "Θα βοηθάει στο βιβλιοπωλείο, με τα ράφια και τις προτάσεις βιβλίων",
+     "why": "θα τακτοποιείς τα ράφια και θα προτείνεις βιβλία στους πελάτες"
+    },
+    {
+     "q": "Τι θα χρειαζόταν ο Δημήτρης στις εξεταστικές;",
+     "options": [
+      "Υψηλότερο μισθό",
+      "Λίγη ευελιξία στο πρόγραμμα",
+      "Άδεια έναν μήνα",
+      "Περισσότερες ώρες"
+     ],
+     "answer": "Λίγη ευελιξία στο πρόγραμμα",
+     "why": "θα χρειαζόμουν λίγη ευελιξία"
+    }
+   ],
+   "gloss": {
+    "βιογραφικό": "βιογραφικό — CV",
+    "μερικής απασχόλησης": "μερική απασχόληση — part-time work",
+    "έξοδά": "έξοδα — expenses",
+    "οπουδήποτε": "οπουδήποτε — anywhere",
+    "θα τακτοποιείς": "τακτοποιώ — to tidy, arrange",
+    "σχολή": "σχολή — (university) school, faculty",
+    "εξεταστικές": "εξεταστική — exam period",
+    "ευελιξία": "ευελιξία — flexibility",
+    "δοκιμαστική περίοδο": "δοκιμαστική περίοδος — trial period",
+    "ασφάλιση": "ασφάλιση — (social) insurance"
+   }
+  },
+  {
+   "id": "l41-dia-farmako",
+   "title": "Ένα φάρμακο που λείπει",
+   "title_en": "A medicine that is out of stock",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν διάλογο σε ένα φαρμακείο ανάμεσα σε έναν πελάτη και μια φαρμακοποιό.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Καλημέρα. Έχω αυτή τη συνταγή για τη μητέρα μου. Είναι το σιρόπι που παίρνει για την πίεση... συγγνώμη, για τον θυρεοειδή. Έχω πάει ήδη σε τρία φαρμακεία και δεν το βρίσκω πουθενά.",
+     "en": "Good morning. I have this prescription for my mother. It's the syrup she takes for blood pressure... sorry, for her thyroid. I've already been to three pharmacies and I can't find it anywhere."
+    },
+    {
+     "speaker": "Φαρμακοποιός",
+     "voice": "f",
+     "el": "Δυστυχώς, το συγκεκριμένο σκεύασμα έχει έλλειψη εδώ και δύο μήνες σε όλη τη χώρα. Η εταιρεία λέει ότι έχει πρόβλημα με την παραγωγή στο εργοστάσιο του εξωτερικού. Υπάρχει όμως ένα γενόσημο με την ίδια δραστική ουσία και την ίδια δοσολογία, σε χάπια αντί για σιρόπι.",
+     "en": "Unfortunately, this particular preparation has been out of stock for two months all over the country. The company says it has a problem with production at its factory abroad. There is, however, a generic with the same active ingredient and the same dosage, in tablets instead of syrup."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Η μητέρα μου δυσκολεύεται να καταπιεί χάπια. Μπορούμε να το αλλάξουμε χωρίς να ρωτήσουμε τον γιατρό;",
+     "en": "My mother has difficulty swallowing tablets. Can we switch without asking the doctor?"
+    },
+    {
+     "speaker": "Φαρμακοποιός",
+     "voice": "f",
+     "el": "Η ουσία είναι ακριβώς η ίδια, οπότε από τον νόμο μπορώ να σας το δώσω. Τα χάπια αυτά, πάντως, σπάνε εύκολα στη μέση και μπορεί να τα πάρει με λίγο γιαούρτι. Καλό θα ήταν να ενημερώσετε τον γιατρό της, και αν χρειαστεί, μπορώ να βάλω το όνομά σας σε λίστα, για να σας ειδοποιήσω μόλις έρθει το σιρόπι.",
+     "en": "The substance is exactly the same, so by law I can give it to you. These tablets, anyway, break easily in half and she can take them with a little yoghurt. It would be good to let her doctor know, and if necessary, I can put your name on a list to let you know as soon as the syrup arrives."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν βρίσκει ο πελάτης το φάρμακο;",
+     "options": [
+      "Επειδή υπάρχει έλλειψη σε όλη τη χώρα λόγω προβλήματος στην παραγωγή",
+      "Επειδή χρειάζεται νέα συνταγή",
+      "Επειδή έχει αποσυρθεί για πάντα",
+      "Επειδή τα φαρμακεία ήταν κλειστά"
+     ],
+     "answer": "Επειδή υπάρχει έλλειψη σε όλη τη χώρα λόγω προβλήματος στην παραγωγή",
+     "why": "το συγκεκριμένο σκεύασμα έχει έλλειψη εδώ και δύο μήνες σε όλη τη χώρα"
+    },
+    {
+     "q": "Τι προτείνει η φαρμακοποιός;",
+     "options": [
+      "Ένα γενόσημο με την ίδια ουσία σε χάπια",
+      "Ένα φυτικό σκεύασμα",
+      "Να πάει σε νοσοκομείο",
+      "Να περιμένει δύο μήνες"
+     ],
+     "answer": "Ένα γενόσημο με την ίδια ουσία σε χάπια",
+     "why": "Υπάρχει όμως ένα γενόσημο με την ίδια δραστική ουσία και την ίδια δοσολογία, σε χάπια"
+    },
+    {
+     "q": "Πώς μπορεί η μητέρα να πάρει τα χάπια πιο εύκολα;",
+     "options": [
+      "Με ένεση",
+      "Μόνο το βράδυ",
+      "Διαλυμένα σε νερό",
+      "Σπασμένα στη μέση, με λίγο γιαούρτι"
+     ],
+     "answer": "Σπασμένα στη μέση, με λίγο γιαούρτι",
+     "why": "σπάνε εύκολα στη μέση και μπορεί να τα πάρει με λίγο γιαούρτι"
+    }
+   ],
+   "gloss": {
+    "συνταγή": "συνταγή — prescription",
+    "θυρεοειδή": "θυρεοειδής — thyroid",
+    "σκεύασμα": "σκεύασμα — (pharmaceutical) preparation",
+    "έλλειψη": "έλλειψη — shortage",
+    "γενόσημο": "γενόσημο — generic (drug)",
+    "δραστική ουσία": "δραστική ουσία — active ingredient",
+    "δοσολογία": "δοσολογία — dosage",
+    "να καταπιεί": "καταπίνω — to swallow",
+    "να σας ειδοποιήσω": "ειδοποιώ — to notify"
+   }
+  },
+  {
+   "id": "l41-mono-mousikos-dromou",
+   "title": "Μουσικός του δρόμου",
+   "title_en": "A street musician",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Θα ακούσετε έναν νεαρό μουσικό που παίζει ακορντεόν στους δρόμους της Αθήνας να μιλάει για τη ζωή του.",
+   "script": [
+    {
+     "speaker": "Μουσικός",
+     "voice": "m",
+     "el": "Παίζω ακορντεόν στην Ερμού και στο Μοναστηράκι εδώ και έξι χρόνια. Σπούδασα στο ωδείο, ήθελα να γίνω μουσικός σε ορχήστρα, αλλά οι θέσεις είναι ελάχιστες. Μια μέρα, για πλάκα, βγήκα στον δρόμο με έναν φίλο κιθαρίστα, και στο τέλος της μέρας είχαμε μαζέψει περισσότερα απ' όσα θα έβγαζα σε μια βδομάδα ως δάσκαλος σε ωδείο.",
+     "en": "I've been playing the accordion on Ermou Street and in Monastiraki for six years. I studied at the conservatory, I wanted to become an orchestral musician, but positions are very few. One day, for fun, I went out on the street with a guitarist friend, and at the end of the day we'd collected more than I'd earn in a week as a conservatory teacher."
+    },
+    {
+     "speaker": "Μουσικός",
+     "voice": "m",
+     "el": "Δεν είναι πάντα ρομαντικό. Το καλοκαίρι η ζέστη είναι αφόρητη, τον χειμώνα παγώνουν τα δάχτυλα, και κάποιοι καταστηματάρχες μάς διώχνουν γιατί λένε ότι ενοχλούμε τους πελάτες τους. Χρειάζεται και άδεια από τον δήμο, και υπάρχουν κανόνες: όχι ενισχυτές, όχι στο ίδιο σημείο πάνω από δύο ώρες.",
+     "en": "It isn't always romantic. In summer the heat is unbearable, in winter your fingers freeze, and some shop owners chase us away because they say we bother their customers. You also need a permit from the municipality, and there are rules: no amplifiers, not in the same spot for more than two hours."
+    },
+    {
+     "speaker": "Μουσικός",
+     "voice": "m",
+     "el": "Αυτό που με κρατάει είναι οι άνθρωποι. Ηλικιωμένοι που σταματούν και τραγουδούν μαζί μου ένα παλιό βαλς, παιδιά που χορεύουν, τουρίστες που με ρωτούν τι είναι το τραγούδι που παίζω. Πέρσι μια κυρία με κάλεσε να παίξω στον γάμο της κόρης της. Ο δρόμος είναι η πιο ειλικρινής σκηνή: αν δεν σου αρέσει, ο κόσμος απλώς προσπερνάει.",
+     "en": "What keeps me going is the people. Elderly people who stop and sing an old waltz with me, children who dance, tourists who ask me what the song I'm playing is. Last year a lady invited me to play at her daughter's wedding. The street is the most honest stage: if people don't like you, they simply walk on by."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί άρχισε να παίζει στον δρόμο;",
+     "options": [
+      "Επειδή οι θέσεις σε ορχήστρες είναι ελάχιστες και τα έσοδα από τον δρόμο ήταν καλά",
+      "Επειδή ήθελε να γίνει διάσημος",
+      "Επειδή δεν είχε σπουδάσει μουσική",
+      "Επειδή τον έδιωξαν από το ωδείο"
+     ],
+     "answer": "Επειδή οι θέσεις σε ορχήστρες είναι ελάχιστες και τα έσοδα από τον δρόμο ήταν καλά",
+     "why": "οι θέσεις είναι ελάχιστες… είχαμε μαζέψει περισσότερα απ' όσα θα έβγαζα σε μια βδομάδα"
+    },
+    {
+     "q": "Ποιος κανόνας ισχύει για τους μουσικούς του δρόμου;",
+     "options": [
+      "Πρέπει να παίζουν μόνο ελληνική μουσική",
+      "Μπορούν να παίζουν μόνο τη νύχτα",
+      "Δεν χρειάζονται άδεια",
+      "Δεν επιτρέπονται ενισχυτές ούτε περισσότερες από δύο ώρες στο ίδιο σημείο"
+     ],
+     "answer": "Δεν επιτρέπονται ενισχυτές ούτε περισσότερες από δύο ώρες στο ίδιο σημείο",
+     "why": "όχι ενισχυτές, όχι στο ίδιο σημείο πάνω από δύο ώρες"
+    },
+    {
+     "q": "Γιατί λέει ότι ο δρόμος είναι η πιο ειλικρινής σκηνή;",
+     "options": [
+      "Γιατί όλοι χειροκροτούν",
+      "Γιατί πληρώνεται καλύτερα",
+      "Γιατί αν δεν αρέσεις, ο κόσμος απλώς προσπερνάει",
+      "Γιατί δεν υπάρχουν κριτικοί"
+     ],
+     "answer": "Γιατί αν δεν αρέσεις, ο κόσμος απλώς προσπερνάει",
+     "why": "αν δεν σου αρέσει, ο κόσμος απλώς προσπερνάει"
+    }
+   ],
+   "gloss": {
+    "ακορντεόν": "ακορντεόν — accordion",
+    "ωδείο": "ωδείο — conservatory, music school",
+    "για πλάκα": "για πλάκα — for fun",
+    "κιθαρίστα": "κιθαρίστας — guitarist",
+    "αφόρητη": "αφόρητος — unbearable",
+    "καταστηματάρχες": "καταστηματάρχης — shop owner",
+    "άδεια": "άδεια — permit",
+    "ενισχυτές": "ενισχυτής — amplifier",
+    "ειλικρινής": "ειλικρινής — honest, sincere",
+    "προσπερνάει": "προσπερνάω — to walk past"
+   }
+  },
+  {
+   "id": "l41-rep-sporoi",
+   "title": "Μια τράπεζα για σπόρους",
+   "title_en": "A seed bank",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ για μια ομάδα που διατηρεί παραδοσιακούς σπόρους.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Σε μια αποθήκη στο Κιλκίς, σε εκατοντάδες γυάλινα βάζα με ετικέτες, φυλάσσονται σπόροι από ντομάτες, φασόλια, κολοκύθια και σιτάρια που καλλιεργούνταν στα ελληνικά χωριά πριν από δεκαετίες. Πρόκειται για μια τράπεζα σπόρων που λειτουργεί μια ομάδα αγροτών και εθελοντών, με στόχο να σωθούν οι παραδοσιακές ποικιλίες.",
+     "en": "In a storeroom in Kilkis, in hundreds of labelled glass jars, seeds are kept from tomatoes, beans, courgettes and wheats that were grown in Greek villages decades ago. This is a seed bank run by a group of farmers and volunteers, with the aim of saving traditional varieties."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Τα τελευταία εξήντα χρόνια, οι περισσότεροι αγρότες στράφηκαν σε εμπορικές ποικιλίες, που δίνουν μεγαλύτερη παραγωγή αλλά πρέπει να αγοράζονται κάθε χρόνο. Οι παλιές ποικιλίες, προσαρμοσμένες επί αιώνες στο τοπικό κλίμα, άρχισαν να χάνονται. Συχνά οι σπόροι τους επιβίωσαν μόνο στον κήπο κάποιας γιαγιάς.",
+     "en": "Over the last sixty years, most farmers turned to commercial varieties, which give higher yields but must be bought every year. The old varieties, adapted over centuries to the local climate, began to disappear. Often their seeds survived only in some grandmother's garden."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η ομάδα δεν πουλάει τους σπόρους, αλλά τους ανταλλάσσει. Όποιος παίρνει ένα φακελάκι, δεσμεύεται να φέρει πίσω, στο τέλος της σεζόν, σπόρους από τη δική του σοδειά. Έτσι οι ποικιλίες μένουν ζωντανές στα χωράφια και όχι μόνο στα βάζα. Με την κλιματική αλλαγή, πολλοί αγρότες ενδιαφέρονται για ποικιλίες που αντέχουν στην ξηρασία χωρίς πολύ πότισμα.",
+     "en": "The group does not sell the seeds, but swaps them. Whoever takes a packet commits to bringing back, at the end of the season, seeds from their own harvest. That way the varieties stay alive in the fields and not only in the jars. With climate change, many farmers are interested in varieties that withstand drought without much watering."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι φυλάσσεται στην αποθήκη στο Κιλκίς;",
+     "options": [
+      "Σπόροι από παραδοσιακές ποικιλίες",
+      "Τρόφιμα για άπορους",
+      "Λιπάσματα",
+      "Εργαλεία αγροτών"
+     ],
+     "answer": "Σπόροι από παραδοσιακές ποικιλίες",
+     "why": "φυλάσσονται σπόροι από ντομάτες, φασόλια, κολοκύθια και σιτάρια"
+    },
+    {
+     "q": "Ποιο μειονέκτημα έχουν οι εμπορικές ποικιλίες;",
+     "options": [
+      "Δεν αντέχουν στο κρύο",
+      "Πρέπει να αγοράζονται κάθε χρόνο",
+      "Δίνουν μικρή παραγωγή",
+      "Είναι παράνομες"
+     ],
+     "answer": "Πρέπει να αγοράζονται κάθε χρόνο",
+     "why": "πρέπει να αγοράζονται κάθε χρόνο"
+    },
+    {
+     "q": "Πώς λειτουργεί η ανταλλαγή των σπόρων;",
+     "options": [
+      "Όποιος παίρνει σπόρους επιστρέφει σπόρους από τη σοδειά του",
+      "Οι σπόροι δίνονται μόνο σε μέλη",
+      "Οι σπόροι πουλιούνται σε χαμηλή τιμή",
+      "Οι αγρότες πληρώνουν συνδρομή"
+     ],
+     "answer": "Όποιος παίρνει σπόρους επιστρέφει σπόρους από τη σοδειά του",
+     "why": "δεσμεύεται να φέρει πίσω… σπόρους από τη δική του σοδειά"
+    }
+   ],
+   "gloss": {
+    "σπόρους": "σπόρος — seed",
+    "αποθήκη": "αποθήκη — storeroom",
+    "βάζα": "βάζο — jar",
+    "ετικέτες": "ετικέτα — label",
+    "ποικιλίες": "ποικιλία — variety",
+    "στράφηκαν": "στρέφομαι — to turn to",
+    "προσαρμοσμένες": "προσαρμοσμένος — adapted",
+    "επιβίωσαν": "επιβιώνω — to survive",
+    "δεσμεύεται": "δεσμεύομαι — to commit",
+    "σοδειά": "σοδειά — harvest",
+    "ξηρασία": "ξηρασία — drought"
+   }
+  },
+  {
+   "id": "l41-rep-akriveia",
+   "title": "Το καλάθι της νοικοκυράς",
+   "title_en": "The household shopping basket",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Θα ακούσετε ένα ρεπορτάζ από μια λαϊκή αγορά για την άνοδο των τιμών στο καλάθι της νοικοκυράς.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Παρασκευή πρωί στη λαϊκή της Καλλιθέας. Οι πάγκοι είναι γεμάτοι, αλλά οι αγοραστές κινούνται αργά, ρωτούν τιμές και συχνά προχωρούν χωρίς να αγοράσουν. Τα τελευταία χρόνια, οι τιμές σε βασικά τρόφιμα, όπως το ελαιόλαδο, το ψωμί και τα φρούτα, έχουν αυξηθεί πολύ περισσότερο από τους μισθούς.",
+     "en": "Friday morning at the Kallithea street market. The stalls are full, but shoppers move slowly, ask prices and often move on without buying. In recent years, prices of basic foods, such as olive oil, bread and fruit, have risen much more than wages."
+    },
+    {
+     "speaker": "Συνταξιούχος",
+     "voice": "f",
+     "el": "Παλιά με είκοσι ευρώ γέμιζα το καρότσι. Τώρα παίρνω μισό κιλό από το καθετί. Το ελαιόλαδο το αγοράζω πια από έναν ξάδερφο στο χωριό, γιατί στο σούπερ μάρκετ έφτασε σε τιμές που δεν τις είχα δει ποτέ.",
+     "en": "In the old days I'd fill the trolley with twenty euros. Now I take half a kilo of everything. I now buy olive oil from a cousin in the village, because in the supermarket it reached prices I'd never seen."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι παραγωγοί, από την πλευρά τους, λένε ότι και εκείνοι πιέζονται: το κόστος των λιπασμάτων, της ενέργειας και των μεταφορών έχει ανέβει, ενώ οι κακές σοδειές λόγω ξηρασίας μείωσαν την παραγωγή. Οι οικονομολόγοι επισημαίνουν ότι η ακρίβεια πλήττει περισσότερο τα φτωχότερα νοικοκυριά, που ξοδεύουν μεγαλύτερο μέρος του εισοδήματός τους σε τρόφιμα.",
+     "en": "Producers, for their part, say they are under pressure too: the cost of fertilisers, energy and transport has gone up, while poor harvests due to drought have reduced production. Economists point out that high prices hit the poorest households hardest, as they spend a larger part of their income on food."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς συμπεριφέρονται οι αγοραστές στη λαϊκή;",
+     "options": [
+      "Ρωτούν τιμές και συχνά δεν αγοράζουν",
+      "Δεν πηγαίνουν πια καθόλου",
+      "Παραπονιούνται στους πωλητές",
+      "Αγοράζουν περισσότερα από πριν"
+     ],
+     "answer": "Ρωτούν τιμές και συχνά δεν αγοράζουν",
+     "why": "ρωτούν τιμές και συχνά προχωρούν χωρίς να αγοράσουν"
+    },
+    {
+     "q": "Πού αγοράζει πια ελαιόλαδο η συνταξιούχος;",
+     "options": [
+      "Από τη λαϊκή",
+      "Από έναν ξάδερφο στο χωριό",
+      "Από το σούπερ μάρκετ",
+      "Δεν αγοράζει πια"
+     ],
+     "answer": "Από έναν ξάδερφο στο χωριό",
+     "why": "Το ελαιόλαδο το αγοράζω πια από έναν ξάδερφο στο χωριό"
+    },
+    {
+     "q": "Ποιους πλήττει περισσότερο η ακρίβεια, σύμφωνα με τους οικονομολόγους;",
+     "options": [
+      "Τους παραγωγούς",
+      "Τα φτωχότερα νοικοκυριά",
+      "Τους τουρίστες",
+      "Τα σούπερ μάρκετ"
+     ],
+     "answer": "Τα φτωχότερα νοικοκυριά",
+     "why": "η ακρίβεια πλήττει περισσότερο τα φτωχότερα νοικοκυριά"
+    }
+   ],
+   "gloss": {
+    "νοικοκυράς": "νοικοκυρά — housewife (καλάθι της νοικοκυράς = household basket)",
+    "λαϊκή": "λαϊκή (αγορά) — street market",
+    "πάγκοι": "πάγκος — stall",
+    "καρότσι": "καρότσι — (shopping) trolley",
+    "το καθετί": "το καθετί — everything, each item",
+    "παραγωγοί": "παραγωγός — producer",
+    "πιέζονται": "πιέζομαι — to be under pressure",
+    "λιπασμάτων": "λίπασμα — fertiliser",
+    "σοδειές": "σοδειά — harvest",
+    "ακρίβεια": "ακρίβεια — high prices, cost of living",
+    "νοικοκυριά": "νοικοκυριό — household"
+   }
+  },
+  {
+   "id": "l41-int-katafygio",
+   "title": "Ένα νοσοκομείο για άγρια ζώα",
+   "title_en": "A hospital for wild animals",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια κτηνίατρο που δουλεύει σε ένα κέντρο περίθαλψης άγριων ζώων.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι είδους ζώα φτάνουν στο κέντρο σας;",
+     "en": "What kind of animals arrive at your centre?"
+    },
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Κάθε χρόνο δεχόμαστε μερικές χιλιάδες: γεράκια, κουκουβάγιες, πελαργούς, χελώνες, σκαντζόχοιρους, ακόμα και αλεπούδες. Τα περισσότερα έχουν τραυματιστεί από ανθρώπινες δραστηριότητες: χτυπήθηκαν από αυτοκίνητα, έπεσαν σε καλώδια ρεύματος ή, δυστυχώς, πυροβολήθηκαν παράνομα.",
+     "en": "Every year we receive a few thousand: hawks, owls, storks, tortoises, hedgehogs, even foxes. Most have been injured by human activities: they were hit by cars, flew into power lines or, sadly, were shot illegally."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι πρέπει να κάνει κάποιος αν βρει ένα τραυματισμένο ζώο;",
+     "en": "What should someone do if they find an injured animal?"
+    },
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Πρώτα απ' όλα, να μην προσπαθήσει να το ταΐσει ή να του δώσει νερό με το ζόρι. Να το βάλει προσεκτικά σε ένα χαρτόκουτο με τρύπες, σε ήσυχο και σκοτεινό μέρος, και να μας τηλεφωνήσει. Και κάτι σημαντικό: τα μικρά πουλάκια που βρίσκουμε στο έδαφος την άνοιξη συνήθως δεν είναι εγκαταλελειμμένα. Οι γονείς τους είναι κοντά και τα ταΐζουν. Αν τα πάρουμε, τους κάνουμε κακό.",
+     "en": "First of all, they shouldn't try to feed it or force water on it. They should put it carefully in a cardboard box with holes, in a quiet, dark place, and phone us. And something important: the little birds we find on the ground in spring are usually not abandoned. Their parents are nearby and feed them. If we take them, we do them harm."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποια είναι η πιο χαρούμενη στιγμή της δουλειάς σας;",
+     "en": "What is the happiest moment of your work?"
+    },
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Η απελευθέρωση. Πέρσι αφήσαμε ελεύθερο έναν θαλασσαετό που είχε σπασμένη φτερούγα και τον φροντίζαμε έξι μήνες. Τον είδαμε να ανεβαίνει ψηλά πάνω από τη θάλασσα και να χάνεται. Όλη η ομάδα έκλαιγε. Γι' αυτές τις στιγμές αξίζει όλη η κούραση.",
+     "en": "The release. Last year we freed a white-tailed eagle that had a broken wing and that we'd looked after for six months. We watched it climb high over the sea and disappear. The whole team was crying. Those are the moments that make all the tiredness worth it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί τραυματίζονται τα περισσότερα ζώα;",
+     "options": [
+      "Από άλλα ζώα",
+      "Από ανθρώπινες δραστηριότητες",
+      "Από την κακοκαιρία",
+      "Από αρρώστιες"
+     ],
+     "answer": "Από ανθρώπινες δραστηριότητες",
+     "why": "Τα περισσότερα έχουν τραυματιστεί από ανθρώπινες δραστηριότητες"
+    },
+    {
+     "q": "Τι πρέπει να κάνει κάποιος που βρίσκει ένα τραυματισμένο ζώο;",
+     "options": [
+      "Να το βάλει σε χαρτόκουτο σε ήσυχο μέρος και να τηλεφωνήσει στο κέντρο",
+      "Να το αφήσει εκεί που το βρήκε",
+      "Να του δώσει αμέσως νερό και φαγητό",
+      "Να το πάει στο σπίτι του"
+     ],
+     "answer": "Να το βάλει σε χαρτόκουτο σε ήσυχο μέρος και να τηλεφωνήσει στο κέντρο",
+     "why": "Να το βάλει προσεκτικά σε ένα χαρτόκουτο με τρύπες… και να μας τηλεφωνήσει"
+    },
+    {
+     "q": "Τι ισχύει για τα μικρά πουλάκια στο έδαφος την άνοιξη;",
+     "options": [
+      "Συνήθως δεν είναι εγκαταλελειμμένα, οι γονείς τους είναι κοντά",
+      "Δεν μπορούν να επιβιώσουν",
+      "Πρέπει να μεταφερθούν αμέσως στο κέντρο",
+      "Είναι πάντα άρρωστα"
+     ],
+     "answer": "Συνήθως δεν είναι εγκαταλελειμμένα, οι γονείς τους είναι κοντά",
+     "why": "συνήθως δεν είναι εγκαταλελειμμένα. Οι γονείς τους είναι κοντά"
+    }
+   ],
+   "gloss": {
+    "περίθαλψης": "περίθαλψη — care, treatment",
+    "γεράκια": "γεράκι — hawk",
+    "κουκουβάγιες": "κουκουβάγια — owl",
+    "πελαργούς": "πελαργός — stork",
+    "σκαντζόχοιρους": "σκαντζόχοιρος — hedgehog",
+    "πυροβολήθηκαν": "πυροβολούμαι — to be shot",
+    "να το ταΐσει": "ταΐζω — to feed",
+    "με το ζόρι": "με το ζόρι — by force",
+    "εγκαταλελειμμένα": "εγκαταλελειμμένος — abandoned",
+    "απελευθέρωση": "απελευθέρωση — release",
+    "θαλασσαετό": "θαλασσαετός — white-tailed eagle",
+    "φτερούγα": "φτερούγα — wing"
+   }
+  },
+  {
+   "id": "l41-mono-aftonoma",
+   "title": "Ποιον θα σώσει το αυτόνομο αυτοκίνητο;",
+   "title_en": "Whom will the self-driving car save?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Θα ακούσετε απόσπασμα από μια διάλεξη για την ηθική των αυτόνομων οχημάτων.",
+   "script": [
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Φανταστείτε ένα αυτόνομο αυτοκίνητο που κινείται σε έναν στενό δρόμο. Ξαφνικά, πέντε πεζοί πέφτουν μπροστά του, και τα φρένα δεν αρκούν. Το όχημα μπορεί είτε να συνεχίσει ευθεία είτε να στρίψει απότομα, θέτοντας σε κίνδυνο τον μοναδικό επιβάτη του. Τι πρέπει να έχει προγραμματιστεί να κάνει;",
+     "en": "Imagine a self-driving car moving along a narrow street. Suddenly, five pedestrians step out in front of it, and the brakes are not enough. The vehicle can either carry on straight ahead or swerve sharply, endangering its only passenger. What should it have been programmed to do?"
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Το σενάριο θυμίζει το γνωστό «πρόβλημα του τρόλεϊ» της ηθικής φιλοσοφίας, με μια κρίσιμη διαφορά: εδώ η απόφαση δεν λαμβάνεται από έναν άνθρωπο σε κλάσματα του δευτερολέπτου, αλλά από μηχανικούς, μήνες ή χρόνια νωρίτερα, ψύχραιμα, σε ένα γραφείο. Αυτό που για τον οδηγό είναι αντανακλαστικό, για τον κατασκευαστή γίνεται ηθική επιλογή.",
+     "en": "The scenario recalls the well-known \"trolley problem\" of moral philosophy, with one crucial difference: here the decision is not taken by a human being in fractions of a second, but by engineers, months or years earlier, coolly, in an office. What for the driver is a reflex becomes, for the manufacturer, a moral choice."
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Μια μεγάλη διαδικτυακή έρευνα, με εκατομμύρια απαντήσεις από όλο τον κόσμο, έδειξε ότι οι περισσότεροι προτιμούν το όχημα να σώζει όσο το δυνατόν περισσότερες ζωές. Όταν όμως ρωτήθηκαν αν θα αγόραζαν οι ίδιοι ένα τέτοιο αυτοκίνητο, πολλοί απάντησαν ότι θα προτιμούσαν ένα που προστατεύει πρώτα τους επιβάτες του. Επιπλέον, οι απαντήσεις διέφεραν αισθητά από πολιτισμό σε πολιτισμό.",
+     "en": "A large online survey, with millions of responses from all over the world, showed that most people prefer the vehicle to save as many lives as possible. But when asked whether they themselves would buy such a car, many replied that they would prefer one that protects its passengers first. Moreover, the answers differed noticeably from culture to culture."
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Ορισμένοι ειδικοί θεωρούν ότι η συζήτηση αυτή είναι υπερβολική, αφού τέτοια διλήμματα θα είναι εξαιρετικά σπάνια· το πραγματικό ηθικό ζήτημα είναι ότι τα αυτόνομα οχήματα θα μπορούσαν να μειώσουν δραστικά τα ατυχήματα, τα περισσότερα από τα οποία οφείλονται σε ανθρώπινο λάθος. Ωστόσο, το δίλημμα έχει την αξία του: μας υποχρεώνει να διατυπώσουμε ρητά αξίες που μέχρι τώρα αφήναμε στο ένστικτο και στην τύχη.",
+     "en": "Some experts consider this debate exaggerated, since such dilemmas will be extremely rare; the real ethical issue is that self-driving vehicles could drastically reduce accidents, most of which are due to human error. Nevertheless, the dilemma has its value: it forces us to state explicitly values that until now we left to instinct and chance."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια είναι η κρίσιμη διαφορά από το κλασικό «πρόβλημα του τρόλεϊ»;",
+     "options": [
+      "Ότι η απόφαση λαμβάνεται εκ των προτέρων, ψύχραιμα, από μηχανικούς",
+      "Ότι η απόφαση λαμβάνεται από τον επιβάτη",
+      "Ότι το όχημα δεν έχει φρένα",
+      "Ότι στο αυτοκίνητο δεν υπάρχουν πεζοί"
+     ],
+     "answer": "Ότι η απόφαση λαμβάνεται εκ των προτέρων, ψύχραιμα, από μηχανικούς",
+     "why": "η απόφαση δεν λαμβάνεται από έναν άνθρωπο σε κλάσματα του δευτερολέπτου, αλλά από μηχανικούς, μήνες ή χρόνια νωρίτερα"
+    },
+    {
+     "q": "Ποια αντίφαση έδειξε η διαδικτυακή έρευνα;",
+     "options": [
+      "Ότι οι περισσότεροι θέλουν να σώζονται περισσότερες ζωές, αλλά θα αγόραζαν αυτοκίνητο που προστατεύει πρώτα τους επιβάτες",
+      "Ότι οι άνθρωποι δεν εμπιστεύονται την τεχνολογία",
+      "Ότι όλοι οι πολιτισμοί απάντησαν το ίδιο",
+      "Ότι κανείς δεν θα αγόραζε αυτόνομο αυτοκίνητο"
+     ],
+     "answer": "Ότι οι περισσότεροι θέλουν να σώζονται περισσότερες ζωές, αλλά θα αγόραζαν αυτοκίνητο που προστατεύει πρώτα τους επιβάτες",
+     "why": "πολλοί απάντησαν ότι θα προτιμούσαν ένα που προστατεύει πρώτα τους επιβάτες του"
+    },
+    {
+     "q": "Γιατί ορισμένοι ειδικοί θεωρούν τη συζήτηση υπερβολική;",
+     "options": [
+      "Επειδή τέτοια διλήμματα θα είναι εξαιρετικά σπάνια και το κύριο ζήτημα είναι η μείωση των ατυχημάτων",
+      "Επειδή τα αυτόνομα οχήματα δεν θα κυκλοφορήσουν ποτέ",
+      "Επειδή η φιλοσοφία δεν έχει σχέση με την τεχνολογία",
+      "Επειδή οι νόμοι έχουν ήδη λύσει το πρόβλημα"
+     ],
+     "answer": "Επειδή τέτοια διλήμματα θα είναι εξαιρετικά σπάνια και το κύριο ζήτημα είναι η μείωση των ατυχημάτων",
+     "why": "τέτοια διλήμματα θα είναι εξαιρετικά σπάνια· το πραγματικό ηθικό ζήτημα είναι ότι τα αυτόνομα οχήματα θα μπορούσαν να μειώσουν δραστικά τα ατυχήματα"
+    },
+    {
+     "q": "Ποια είναι η αξία του διλήμματος, κατά τον ομιλητή;",
+     "options": [
+      "Αποδεικνύει ότι οι μηχανές είναι ηθικότερες",
+      "Λύνει τα προβλήματα της κυκλοφορίας",
+      "Μας διασκεδάζει",
+      "Μας υποχρεώνει να διατυπώσουμε ρητά τις αξίες μας"
+     ],
+     "answer": "Μας υποχρεώνει να διατυπώσουμε ρητά τις αξίες μας",
+     "why": "μας υποχρεώνει να διατυπώσουμε ρητά αξίες που μέχρι τώρα αφήναμε στο ένστικτο και στην τύχη"
+    }
+   ],
+   "gloss": {
+    "αυτόνομο": "αυτόνομος — autonomous, self-driving",
+    "πεζοί": "πεζός — pedestrian",
+    "θέτοντας σε κίνδυνο": "θέτω σε κίνδυνο — to endanger",
+    "να έχει προγραμματιστεί": "προγραμματίζομαι — to be programmed",
+    "κλάσματα": "κλάσμα — fraction",
+    "ψύχραιμα": "ψύχραιμα — calmly, coolly",
+    "αντανακλαστικό": "αντανακλαστικό — reflex",
+    "κατασκευαστή": "κατασκευαστής — manufacturer",
+    "διαδικτυακή": "διαδικτυακός — online",
+    "διέφεραν": "διαφέρω — to differ",
+    "δραστικά": "δραστικά — drastically",
+    "οφείλονται": "οφείλομαι — to be due to",
+    "να διατυπώσουμε": "διατυπώνω — to formulate, state",
+    "ρητά": "ρητά — explicitly",
+    "ένστικτο": "ένστικτο — instinct"
+   }
+  },
+  {
+   "id": "l41-int-glossa-somatos",
+   "title": "Η γλώσσα του σώματος: μύθοι και αλήθειες",
+   "title_en": "Body language: myths and truths",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Θα ακούσετε μια συνέντευξη με μια ψυχολόγο που ερευνά τη μη λεκτική επικοινωνία.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Συχνά διαβάζουμε ότι το ενενήντα τρία τοις εκατό της επικοινωνίας είναι μη λεκτική. Ισχύει;",
+     "en": "We often read that ninety-three per cent of communication is non-verbal. Is that true?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Είναι ίσως η πιο διαδεδομένη παρανόηση στον χώρο μας. Το ποσοστό προέρχεται από πειράματα της δεκαετίας του 1960, στα οποία οι συμμετέχοντες άκουγαν μεμονωμένες λέξεις με συναισθηματική φόρτιση και έπρεπε να κρίνουν τη διάθεση του ομιλητή. Τα ευρήματα αφορούσαν μια πολύ ειδική περίπτωση, όταν δηλαδή τα λόγια και ο τόνος έρχονται σε αντίφαση. Ο ίδιος ο ερευνητής έχει επανειλημμένα διαμαρτυρηθεί για τη γενίκευση.",
+     "en": "It is perhaps the most widespread misconception in our field. The figure comes from experiments in the 1960s, in which participants heard single words with emotional charge and had to judge the speaker's mood. The findings concerned a very specific case, namely when the words and the tone contradict each other. The researcher himself has repeatedly protested against the generalisation."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και τα σταυρωμένα χέρια; Δεν δείχνουν ότι κάποιος είναι αμυντικός;",
+     "en": "And crossed arms? Don't they show that someone is defensive?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Μπορεί να το δείχνουν, μπορεί και όχι. Μπορεί απλώς να κρυώνει, να νιώθει άνετα έτσι ή να συγκεντρώνεται. Το πρόβλημα με τα δημοφιλή εγχειρίδια είναι ότι παρουσιάζουν τις κινήσεις σαν λεξικό, όπου κάθε χειρονομία έχει μία σημασία. Στην πραγματικότητα, η ερμηνεία εξαρτάται από το πλαίσιο, από τις συνήθειες του συγκεκριμένου ανθρώπου και από τον πολιτισμό του.",
+     "en": "They may show it, they may not. The person may simply be cold, feel comfortable that way or be concentrating. The problem with popular manuals is that they present movements like a dictionary, where each gesture has one meaning. In reality, the interpretation depends on the context, on the habits of the particular person and on their culture."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Μπορούμε τουλάχιστον να καταλάβουμε αν κάποιος λέει ψέματα;",
+     "en": "Can we at least tell whether someone is lying?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Εδώ τα δεδομένα είναι μάλλον απογοητευτικά. Σε μεγάλες ανασκοπήσεις μελετών, οι άνθρωποι εντοπίζουν το ψέμα σε ποσοστό ελάχιστα καλύτερο από την τύχη, και οι επαγγελματίες, όπως οι αστυνομικοί, δεν τα πάνε πολύ καλύτερα, παρότι είναι συνήθως πιο σίγουροι για τις κρίσεις τους. Το να αποφεύγει κάποιος το βλέμμα, για παράδειγμα, δεν είναι αξιόπιστη ένδειξη. Η μη λεκτική επικοινωνία είναι πολύτιμη, αλλά τη διαβάζουμε καλύτερα όταν γνωρίζουμε καλά τον άνθρωπο και όταν δεν βιαζόμαστε να βγάλουμε συμπεράσματα.",
+     "en": "Here the data are rather disappointing. In large reviews of studies, people detect lies at a rate barely better than chance, and professionals, such as police officers, don't do much better, although they are usually more confident in their judgements. Avoiding eye contact, for example, is not a reliable sign. Non-verbal communication is valuable, but we read it best when we know the person well and when we don't rush to conclusions."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από πού προέρχεται το ποσοστό του ενενήντα τρία τοις εκατό;",
+     "options": [
+      "Από μια μεγάλη έρευνα σε όλο τον κόσμο",
+      "Από πειράματα με μεμονωμένες λέξεις σε μια πολύ ειδική περίπτωση",
+      "Από μελέτες με παιδιά",
+      "Από ένα δημοφιλές βιβλίο αυτοβοήθειας"
+     ],
+     "answer": "Από πειράματα με μεμονωμένες λέξεις σε μια πολύ ειδική περίπτωση",
+     "why": "οι συμμετέχοντες άκουγαν μεμονωμένες λέξεις… Τα ευρήματα αφορούσαν μια πολύ ειδική περίπτωση"
+    },
+    {
+     "q": "Τι επικρίνει η ψυχολόγος στα δημοφιλή εγχειρίδια;",
+     "options": [
+      "Ότι αγνοούν τα σταυρωμένα χέρια",
+      "Ότι είναι πολύ ακριβά",
+      "Ότι παρουσιάζουν κάθε χειρονομία σαν να έχει μία μόνο σημασία",
+      "Ότι γράφονται από αστυνομικούς"
+     ],
+     "answer": "Ότι παρουσιάζουν κάθε χειρονομία σαν να έχει μία μόνο σημασία",
+     "why": "παρουσιάζουν τις κινήσεις σαν λεξικό, όπου κάθε χειρονομία έχει μία σημασία"
+    },
+    {
+     "q": "Πόσο καλά εντοπίζουν οι άνθρωποι το ψέμα;",
+     "options": [
+      "Ελάχιστα καλύτερα από την τύχη",
+      "Πολύ καλά, ειδικά οι αστυνομικοί",
+      "Καθόλου",
+      "Τέλεια, αν παρατηρούν το βλέμμα"
+     ],
+     "answer": "Ελάχιστα καλύτερα από την τύχη",
+     "why": "οι άνθρωποι εντοπίζουν το ψέμα σε ποσοστό ελάχιστα καλύτερο από την τύχη"
+    },
+    {
+     "q": "Πότε διαβάζουμε καλύτερα τη μη λεκτική επικοινωνία;",
+     "options": [
+      "Όταν έχουμε διαβάσει εγχειρίδια",
+      "Όταν ο άλλος σταυρώνει τα χέρια",
+      "Όταν μιλάμε στο τηλέφωνο",
+      "Όταν γνωρίζουμε καλά τον άνθρωπο και δεν βιαζόμαστε να βγάλουμε συμπεράσματα"
+     ],
+     "answer": "Όταν γνωρίζουμε καλά τον άνθρωπο και δεν βιαζόμαστε να βγάλουμε συμπεράσματα",
+     "why": "όταν γνωρίζουμε καλά τον άνθρωπο και όταν δεν βιαζόμαστε να βγάλουμε συμπεράσματα"
+    }
+   ],
+   "gloss": {
+    "μη λεκτική": "μη λεκτικός — non-verbal",
+    "διαδεδομένη": "διαδεδομένος — widespread",
+    "παρανόηση": "παρανόηση — misconception",
+    "μεμονωμένες": "μεμονωμένος — isolated, single",
+    "φόρτιση": "φόρτιση — charge (emotional)",
+    "επανειλημμένα": "επανειλημμένα — repeatedly",
+    "γενίκευση": "γενίκευση — generalisation",
+    "σταυρωμένα": "σταυρωμένος — crossed",
+    "αμυντικός": "αμυντικός — defensive",
+    "εγχειρίδια": "εγχειρίδιο — manual, handbook",
+    "χειρονομία": "χειρονομία — gesture",
+    "πλαίσιο": "πλαίσιο — context",
+    "απογοητευτικά": "απογοητευτικός — disappointing",
+    "αξιόπιστη": "αξιόπιστος — reliable",
+    "ένδειξη": "ένδειξη — sign, indication"
+   }
+  }
+ ]
+}
