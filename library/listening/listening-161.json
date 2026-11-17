@@ -1,0 +1,877 @@
+{
+ "items": [
+  {
+   "id": "l161-ann-agonas",
+   "title": "Ανακοίνωση πριν από τον αγώνα δρόμου",
+   "title_en": "An announcement before the road race",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση από τα μεγάφωνα στην αφετηρία ενός αγώνα δρόμου στην πόλη.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Καλημέρα σε όλους τους δρομείς! Η εκκίνηση του αγώνα των δέκα χιλιομέτρων θα δοθεί στις εννιά ακριβώς. Ο αγώνας των πέντε χιλιομέτρων και ο περίπατος για τις οικογένειες θα ξεκινήσουν μισή ώρα αργότερα.",
+     "en": "Good morning to all runners! The start of the ten-kilometre race will be given at nine o'clock sharp. The five-kilometre race and the family walk will start half an hour later."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Λόγω της ζέστης, έχουμε προσθέσει έναν ακόμη σταθμό με νερό, στο έβδομο χιλιόμετρο, δίπλα στο λιμάνι. Αν νιώσετε ζάλη ή αδιαθεσία, σταματήστε αμέσως και ζητήστε βοήθεια από τους εθελοντές με τα κίτρινα γιλέκα.",
+     "en": "Because of the heat, we have added one more water station, at the seventh kilometre, next to the harbour. If you feel dizzy or unwell, stop immediately and ask for help from the volunteers in yellow vests."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Θυμίζουμε ότι ο αριθμός σας πρέπει να είναι καρφιτσωμένος μπροστά, ώστε να φαίνεται στις κάμερες του τερματισμού. Τα μετάλλια και τα φρούτα θα μοιράζονται μετά τη γραμμή τερματισμού, και τα αποτελέσματα θα αναρτηθούν στην ιστοσελίδα μας μέχρι το μεσημέρι.",
+     "en": "We remind you that your number must be pinned on the front, so that it is visible to the finish-line cameras. Medals and fruit will be handed out after the finish line, and the results will be posted on our website by midday."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε θα ξεκινήσει ο αγώνας των πέντε χιλιομέτρων;",
+     "options": [
+      "Μία ώρα νωρίτερα",
+      "Στις εννιά ακριβώς",
+      "Το μεσημέρι",
+      "Μισή ώρα μετά τον αγώνα των δέκα χιλιομέτρων"
+     ],
+     "answer": "Μισή ώρα μετά τον αγώνα των δέκα χιλιομέτρων",
+     "why": "θα ξεκινήσουν μισή ώρα αργότερα"
+    },
+    {
+     "q": "Γιατί προστέθηκε ένας ακόμη σταθμός με νερό;",
+     "options": [
+      "Λόγω της ζέστης",
+      "Για τα παιδιά",
+      "Γιατί ήρθαν περισσότεροι δρομείς",
+      "Γιατί η διαδρομή άλλαξε"
+     ],
+     "answer": "Λόγω της ζέστης",
+     "why": "Λόγω της ζέστης"
+    },
+    {
+     "q": "Γιατί πρέπει ο αριθμός να είναι καρφιτσωμένος μπροστά;",
+     "options": [
+      "Για να πάρουν μετάλλιο",
+      "Για να μη χαθεί",
+      "Για να φαίνεται στις κάμερες του τερματισμού",
+      "Για να τον βλέπουν οι θεατές"
+     ],
+     "answer": "Για να φαίνεται στις κάμερες του τερματισμού",
+     "why": "ώστε να φαίνεται στις κάμερες του τερματισμού"
+    }
+   ],
+   "gloss": {
+    "αφετηρία": "αφετηρία — starting line",
+    "δρομείς": "δρομέας — runner",
+    "εκκίνηση": "εκκίνηση — start",
+    "περίπατος": "περίπατος — walk, stroll",
+    "ζάλη": "ζάλη — dizziness",
+    "αδιαθεσία": "αδιαθεσία — feeling unwell",
+    "γιλέκα": "γιλέκο — vest, waistcoat",
+    "καρφιτσωμένος": "καρφιτσωμένος — pinned",
+    "τερματισμού": "τερματισμός — finish (of a race)",
+    "αναρτηθούν": "αναρτώ — to post, to put up"
+   }
+  },
+  {
+   "id": "l161-int-skyloi",
+   "title": "Σκύλοι που βλέπουν για άλλους",
+   "title_en": "Dogs that see for others",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με μια γυναίκα που εκπαιδεύει σκύλους-οδηγούς για τυφλούς.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πόσος χρόνος χρειάζεται για να γίνει ένα κουτάβι σκύλος-οδηγός;",
+     "en": "How much time does it take for a puppy to become a guide dog?"
+    },
+    {
+     "speaker": "Εκπαιδεύτρια",
+     "voice": "f",
+     "el": "Περίπου δύο χρόνια. Τον πρώτο χρόνο το κουτάβι ζει με μια εθελοντική οικογένεια, για να συνηθίσει τους θορύβους της πόλης, τα λεωφορεία, τα καταστήματα. Μετά έρχεται σε εμάς για την κυρίως εκπαίδευση.",
+     "en": "About two years. In the first year the puppy lives with a volunteer family, to get used to the noises of the city, the buses, the shops. Then it comes to us for the main training."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι είναι το πιο δύσκολο να μάθει;",
+     "en": "What is the hardest thing for it to learn?"
+    },
+    {
+     "speaker": "Εκπαιδεύτρια",
+     "voice": "f",
+     "el": "Η λεγόμενη «έξυπνη ανυπακοή». Ο σκύλος πρέπει να υπακούει, αλλά να αρνείται μια εντολή όταν είναι επικίνδυνη. Αν ο άνθρωπος του πει «εμπρός» και έρχεται αυτοκίνητο, ο σκύλος δεν προχωράει. Αυτό δεν το μαθαίνουν όλα τα σκυλιά· περίπου τα μισά δεν περνούν τις τελικές εξετάσεις.",
+     "en": "So-called 'intelligent disobedience'. The dog has to obey, but refuse a command when it is dangerous. If its person says 'forward' and a car is coming, the dog doesn't move. Not all dogs learn this; about half don't pass the final tests."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι γίνεται με αυτά;",
+     "en": "What happens to them?"
+    },
+    {
+     "speaker": "Εκπαιδεύτρια",
+     "voice": "f",
+     "el": "Υιοθετούνται, συνήθως από τις οικογένειες που τα μεγάλωσαν. Και κάτι που θέλω να πω στους ακροατές: όταν βλέπετε έναν σκύλο-οδηγό με το λουρί του, μην τον χαϊδεύετε και μην του δίνετε φαγητό. Δουλεύει, και κάθε διάσπαση της προσοχής του μπορεί να είναι επικίνδυνη.",
+     "en": "They are adopted, usually by the families that raised them. And something I want to tell the listeners: when you see a guide dog in its harness, don't stroke it and don't give it food. It is working, and every distraction can be dangerous."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί το κουτάβι ζει τον πρώτο χρόνο με μια εθελοντική οικογένεια;",
+     "options": [
+      "Για να συνηθίσει τους θορύβους της πόλης",
+      "Για να μάθει να κολυμπάει",
+      "Για να μεγαλώσει με άλλα σκυλιά",
+      "Γιατί η σχολή δεν έχει χώρο"
+     ],
+     "answer": "Για να συνηθίσει τους θορύβους της πόλης",
+     "why": "για να συνηθίσει τους θορύβους της πόλης"
+    },
+    {
+     "q": "Τι είναι η «έξυπνη ανυπακοή»;",
+     "options": [
+      "Να αρνείται ο σκύλος μια εντολή όταν είναι επικίνδυνη",
+      "Να μην υπακούει ποτέ ο σκύλος",
+      "Να βρίσκει μόνος του τον δρόμο για το σπίτι",
+      "Να γαβγίζει όταν πλησιάζει ξένος"
+     ],
+     "answer": "Να αρνείται ο σκύλος μια εντολή όταν είναι επικίνδυνη",
+     "why": "να αρνείται μια εντολή όταν είναι επικίνδυνη"
+    },
+    {
+     "q": "Τι ζητά η εκπαιδεύτρια από τους ακροατές;",
+     "options": [
+      "Να υιοθετήσουν σκυλιά",
+      "Να γίνουν εθελοντές",
+      "Να μη χαϊδεύουν και να μην ταΐζουν έναν σκύλο-οδηγό που δουλεύει",
+      "Να κάνουν δωρεές"
+     ],
+     "answer": "Να μη χαϊδεύουν και να μην ταΐζουν έναν σκύλο-οδηγό που δουλεύει",
+     "why": "μην τον χαϊδεύετε και μην του δίνετε φαγητό"
+    }
+   ],
+   "gloss": {
+    "εκπαιδεύει": "εκπαιδεύω — to train",
+    "σκύλους-οδηγούς": "σκύλος-οδηγός — guide dog",
+    "τυφλούς": "τυφλός — blind",
+    "κουτάβι": "κουτάβι — puppy",
+    "εθελοντική": "εθελοντικός — volunteer (adj.)",
+    "ανυπακοή": "ανυπακοή — disobedience",
+    "υπακούει": "υπακούω — to obey",
+    "εντολή": "εντολή — command",
+    "Υιοθετούνται": "υιοθετούμαι — to be adopted",
+    "λουρί": "λουρί — harness, lead",
+    "χαϊδεύετε": "χαϊδεύω — to stroke, to pet",
+    "διάσπαση": "διάσπαση (της προσοχής) — distraction"
+   }
+  },
+  {
+   "id": "l161-int-fylakas",
+   "title": "Ο φύλακας του αρχαίου θεάτρου",
+   "title_en": "The guard of the ancient theatre",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με έναν αρχαιοφύλακα που δουλεύει σε ένα αρχαίο θέατρο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τι ακριβώς κάνει ένας αρχαιοφύλακας;",
+     "en": "What exactly does a guard of antiquities do?"
+    },
+    {
+     "speaker": "Αρχαιοφύλακας",
+     "voice": "m",
+     "el": "Ο κόσμος νομίζει ότι απλώς κόβουμε εισιτήρια. Στην πραγματικότητα, προστατεύουμε τον χώρο: προσέχουμε να μην ανεβαίνουν οι επισκέπτες σε σημεία που κινδυνεύουν, να μην παίρνουν πέτρες για ενθύμιο, να μη χαράζουν τα ονόματά τους στα μάρμαρα.",
+     "en": "People think we just sell tickets. In reality, we protect the site: we make sure visitors don't climb on parts that are at risk, don't take stones as souvenirs, don't carve their names into the marble."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Συμβαίνουν τέτοια πράγματα;",
+     "en": "Do such things happen?"
+    },
+    {
+     "speaker": "Αρχαιοφύλακας",
+     "voice": "m",
+     "el": "Δυστυχώς ναι. Πέρσι πιάσαμε έναν τουρίστα με ένα κομμάτι από αρχαίο κεραμίδι στην τσέπη. Δεν ήξερε ότι είναι αδίκημα. Τις περισσότερες φορές, όμως, οι άνθρωποι σέβονται τον χώρο, αρκεί να τους εξηγήσεις γιατί.",
+     "en": "Unfortunately, yes. Last year we caught a tourist with a piece of ancient roof tile in his pocket. He didn't know it was an offence. Most of the time, though, people respect the site, as long as you explain why."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ποια είναι η αγαπημένη σας ώρα;",
+     "en": "What is your favourite time?"
+    },
+    {
+     "speaker": "Αρχαιοφύλακας",
+     "voice": "m",
+     "el": "Το πρωί, πριν ανοίξουμε. Κάθομαι στην τελευταία σειρά και ακούω τα πουλιά. Η ακουστική είναι τόσο καλή που, αν ένας συνάδελφος ρίξει ένα νόμισμα στη σκηνή, το ακούω μέχρι επάνω.",
+     "en": "In the morning, before we open. I sit in the top row and listen to the birds. The acoustics are so good that if a colleague drops a coin on the stage, I hear it all the way up."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι νομίζει ο κόσμος ότι κάνουν οι αρχαιοφύλακες;",
+     "options": [
+      "Ότι απλώς κόβουν εισιτήρια",
+      "Ότι κάνουν ανασκαφές",
+      "Ότι ξεναγούν τους επισκέπτες",
+      "Ότι καθαρίζουν τα μάρμαρα"
+     ],
+     "answer": "Ότι απλώς κόβουν εισιτήρια",
+     "why": "απλώς κόβουμε εισιτήρια"
+    },
+    {
+     "q": "Τι βρήκαν πέρσι στην τσέπη ενός τουρίστα;",
+     "options": [
+      "Ένα κομμάτι μάρμαρο",
+      "Ένα μαχαίρι",
+      "Ένα κομμάτι από αρχαίο κεραμίδι",
+      "Ένα νόμισμα"
+     ],
+     "answer": "Ένα κομμάτι από αρχαίο κεραμίδι",
+     "why": "ένα κομμάτι από αρχαίο κεραμίδι"
+    },
+    {
+     "q": "Γιατί του αρέσει το πρωί πριν ανοίξουν;",
+     "options": [
+      "Γιατί κάθεται στην τελευταία σειρά και ακούει τα πουλιά",
+      "Γιατί κάνει δροσιά",
+      "Γιατί δεν έχει δουλειά",
+      "Γιατί βλέπει την ανατολή"
+     ],
+     "answer": "Γιατί κάθεται στην τελευταία σειρά και ακούει τα πουλιά",
+     "why": "Κάθομαι στην τελευταία σειρά και ακούω τα πουλιά"
+    }
+   ],
+   "gloss": {
+    "αρχαιοφύλακα": "αρχαιοφύλακας — guard of antiquities",
+    "ενθύμιο": "ενθύμιο — souvenir, keepsake",
+    "χαράζουν": "χαράζω — to carve, to engrave",
+    "μάρμαρα": "μάρμαρο — marble",
+    "κεραμίδι": "κεραμίδι — roof tile",
+    "αδίκημα": "αδίκημα — offence",
+    "σέβονται": "σέβομαι — to respect",
+    "ακουστική": "ακουστική — acoustics",
+    "νόμισμα": "νόμισμα — coin",
+    "σκηνή": "σκηνή — stage"
+   }
+  },
+  {
+   "id": "l161-dia-amaxi",
+   "title": "Ένα αυτοκίνητο για δύο οικογένειες",
+   "title_en": "One car for two families",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε δύο γείτονες να συζητούν αν θα μοιράζονται ένα αυτοκίνητο.",
+   "script": [
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Λοιπόν, το σκέφτηκες; Το δικό μας αυτοκίνητο μένει παρκαρισμένο έξι μέρες την εβδομάδα. Το δικό σας, απ' ό,τι βλέπω, το ίδιο.",
+     "en": "So, have you thought about it? Our car stays parked six days a week. Yours, from what I can see, the same."
+    },
+    {
+     "speaker": "Νεφέλη",
+     "voice": "f",
+     "el": "Η ιδέα μού αρέσει. Θα πουλήσουμε το δικό μας, που είναι παλιό, και θα μοιράζουμε στη μέση την ασφάλεια και το σέρβις του δικού σας. Με ανησυχεί μόνο τι θα γίνει τα Σαββατοκύριακα, που το χρειαζόμαστε όλοι.",
+     "en": "I like the idea. We'll sell ours, which is old, and we'll split the insurance and servicing of yours half and half. The only thing that worries me is what happens at weekends, when we all need it."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Γι' αυτό λέω να φτιάξουμε ένα κοινό ημερολόγιο στο κινητό. Όποιος το κλείσει πρώτος, το παίρνει. Και κάθε δεύτερο Σάββατο προτεραιότητα έχει η άλλη οικογένεια.",
+     "en": "That's why I suggest we set up a shared calendar on our phones. Whoever books it first gets it. And every other Saturday the other family has priority."
+    },
+    {
+     "speaker": "Νεφέλη",
+     "voice": "f",
+     "el": "Και η βενζίνη;",
+     "en": "And the petrol?"
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Ο καθένας γεμίζει το ρεζερβουάρ όσο το βρήκε. Απλός κανόνας, για να μη μετράμε χιλιόμετρα και να μη μαλώνουμε.",
+     "en": "Everyone fills the tank back to the level they found it. A simple rule, so we don't count kilometres and don't argue."
+    },
+    {
+     "speaker": "Νεφέλη",
+     "voice": "f",
+     "el": "Εντάξει. Ας το δοκιμάσουμε τρεις μήνες, και αν δεν πάει καλά, τουλάχιστον θα έχουμε μείνει φίλοι.",
+     "en": "OK. Let's try it for three months, and if it doesn't work, at least we'll still be friends."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θα κάνει η Νεφέλη με το δικό της αυτοκίνητο;",
+     "options": [
+      "Θα το χαρίσει",
+      "Θα το πουλήσει",
+      "Θα το νοικιάσει",
+      "Θα το κρατήσει για τα Σαββατοκύριακα"
+     ],
+     "answer": "Θα το πουλήσει",
+     "why": "Θα πουλήσουμε το δικό μας"
+    },
+    {
+     "q": "Πώς προτείνει ο Θοδωρής να οργανώνουν ποιος θα παίρνει το αυτοκίνητο;",
+     "options": [
+      "Θα αποφασίζουν κάθε βράδυ",
+      "Με κλήρωση",
+      "Με ένα κοινό ημερολόγιο στο κινητό",
+      "Θα το έχει ο καθένας μία εβδομάδα"
+     ],
+     "answer": "Με ένα κοινό ημερολόγιο στο κινητό",
+     "why": "να φτιάξουμε ένα κοινό ημερολόγιο στο κινητό"
+    },
+    {
+     "q": "Ποιος είναι ο κανόνας για τη βενζίνη;",
+     "options": [
+      "Ο καθένας γεμίζει το ρεζερβουάρ όσο το βρήκε",
+      "Θα μετρούν τα χιλιόμετρα",
+      "Θα μοιράζονται το κόστος στη μέση",
+      "Θα πληρώνει ο ιδιοκτήτης"
+     ],
+     "answer": "Ο καθένας γεμίζει το ρεζερβουάρ όσο το βρήκε",
+     "why": "Ο καθένας γεμίζει το ρεζερβουάρ όσο το βρήκε"
+    }
+   ],
+   "gloss": {
+    "μοιράζονται": "μοιράζομαι — to share",
+    "παρκαρισμένο": "παρκαρισμένος — parked",
+    "ασφάλεια": "ασφάλεια — insurance; safety",
+    "σέρβις": "σέρβις — (car) service",
+    "ημερολόγιο": "ημερολόγιο — calendar",
+    "κλείσει": "κλείνω — to book; to close",
+    "προτεραιότητα": "προτεραιότητα — priority",
+    "ρεζερβουάρ": "ρεζερβουάρ — (fuel) tank",
+    "μαλώνουμε": "μαλώνω — to argue, to quarrel"
+   }
+  },
+  {
+   "id": "l161-dia-xoros",
+   "title": "Μαθήματα χορού πριν από τον γάμο",
+   "title_en": "Dance lessons before the wedding",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ζευγάρι που παντρεύεται σε δύο μήνες να συζητάει για τον πρώτο χορό στο γλέντι.",
+   "script": [
+    {
+     "speaker": "Δανάη",
+     "voice": "f",
+     "el": "Η μητέρα μου ρωτάει τι θα χορέψουμε στην αρχή του γλεντιού. Λέει ότι όλοι θα μας κοιτάζουν.",
+     "en": "My mother is asking what we'll dance at the start of the reception. She says everyone will be watching us."
+    },
+    {
+     "speaker": "Κυριάκος",
+     "voice": "m",
+     "el": "Αυτό ακριβώς με τρομάζει. Εγώ χορεύω μόνο συρτό, και αυτό με το μαντήλι, πίσω από κάποιον που ξέρει.",
+     "en": "That's exactly what scares me. I only dance the syrtos, and even that holding a handkerchief, behind someone who knows how."
+    },
+    {
+     "speaker": "Δανάη",
+     "voice": "f",
+     "el": "Γι' αυτό βρήκα μια σχολή που κάνει μαθήματα για ζευγάρια πριν από τον γάμο. Οκτώ μαθήματα, μία φορά την εβδομάδα. Ο δάσκαλος φτιάχνει μια απλή χορογραφία πάνω στο τραγούδι που διαλέγεις.",
+     "en": "That's why I found a school that does lessons for couples before the wedding. Eight lessons, once a week. The teacher makes a simple choreography to the song you choose."
+    },
+    {
+     "speaker": "Κυριάκος",
+     "voice": "m",
+     "el": "Και ποιο τραγούδι θα διαλέξουμε; Εσύ θέλεις βαλς, εγώ θέλω ένα ζεϊμπέκικο.",
+     "en": "And which song will we choose? You want a waltz, I want a zeibekiko."
+    },
+    {
+     "speaker": "Δανάη",
+     "voice": "f",
+     "el": "Το ζεϊμπέκικο το χορεύει ένας, Κυριάκο, όχι ζευγάρι! Ας κάνουμε ένα αργό λαϊκό στην αρχή, και μετά, όταν ανοίξει η πίστα, χορεύεις όσα ζεϊμπέκικα θέλεις.",
+     "en": "The zeibekiko is danced by one person, Kyriakos, not a couple! Let's do a slow laiko song at the start, and then, when the dance floor opens, you can dance as many zeibekikos as you like."
+    },
+    {
+     "speaker": "Κυριάκος",
+     "voice": "m",
+     "el": "Συμφωνώ, αρκεί να μη μας τραβάει βίντεο ο θείος σου από την πρώτη πρόβα.",
+     "en": "Agreed, as long as your uncle doesn't film us from the first rehearsal."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ανησυχεί ο Κυριάκος;",
+     "options": [
+      "Γιατί δεν έχει χρόνο για μαθήματα",
+      "Γιατί τα μαθήματα είναι ακριβά",
+      "Γιατί δεν του αρέσει η μουσική",
+      "Γιατί χορεύει μόνο συρτό και φοβάται ότι όλοι θα τους κοιτάζουν"
+     ],
+     "answer": "Γιατί χορεύει μόνο συρτό και φοβάται ότι όλοι θα τους κοιτάζουν",
+     "why": "Αυτό ακριβώς με τρομάζει"
+    },
+    {
+     "q": "Τι κάνει ο δάσκαλος στη σχολή που βρήκε η Δανάη;",
+     "options": [
+      "Τους μαθαίνει όλους τους παραδοσιακούς χορούς",
+      "Φτιάχνει μια απλή χορογραφία πάνω στο τραγούδι που διαλέγει το ζευγάρι",
+      "Τους δίνει βίντεο για να μάθουν στο σπίτι",
+      "Χορεύει μαζί τους στον γάμο"
+     ],
+     "answer": "Φτιάχνει μια απλή χορογραφία πάνω στο τραγούδι που διαλέγει το ζευγάρι",
+     "why": "Ο δάσκαλος φτιάχνει μια απλή χορογραφία πάνω στο τραγούδι που διαλέγεις"
+    },
+    {
+     "q": "Γιατί η Δανάη δεν θέλει ζεϊμπέκικο για τον πρώτο χορό;",
+     "options": [
+      "Γιατί το χορεύει ένας και όχι ζευγάρι",
+      "Γιατί δεν το ξέρει",
+      "Γιατί δεν αρέσει στη μητέρα της",
+      "Γιατί είναι πολύ γρήγορο"
+     ],
+     "answer": "Γιατί το χορεύει ένας και όχι ζευγάρι",
+     "why": "Το ζεϊμπέκικο το χορεύει ένας, Κυριάκο, όχι ζευγάρι"
+    }
+   ],
+   "gloss": {
+    "γλέντι": "γλέντι — party, (wedding) reception",
+    "γλεντιού": "γλέντι — party, (wedding) reception",
+    "τρομάζει": "τρομάζω — to frighten; to be frightened",
+    "συρτό": "συρτός — syrtos (a circle dance)",
+    "μαντήλι": "μαντήλι — handkerchief",
+    "χορογραφία": "χορογραφία — choreography",
+    "βαλς": "βαλς — waltz",
+    "ζεϊμπέκικο": "ζεϊμπέκικο — zeibekiko (solo dance)",
+    "πίστα": "πίστα — dance floor",
+    "πρόβα": "πρόβα — rehearsal"
+   }
+  },
+  {
+   "id": "l161-mon-sxoliko",
+   "title": "Η οδηγός του σχολικού λεωφορείου",
+   "title_en": "The school bus driver",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε μια γυναίκα που οδηγεί σχολικό λεωφορείο σε ορεινή περιοχή να μιλάει για τη δουλειά της.",
+   "script": [
+    {
+     "speaker": "Οδηγός",
+     "voice": "f",
+     "el": "Ξεκινάω στις έξι και μισή, όταν έξω είναι ακόμη σκοτάδι. Μαζεύω είκοσι τρία παιδιά από εννιά χωριά, και η διαδρομή ως το σχολείο κρατάει σχεδόν μία ώρα, με στροφές και ανηφόρες.",
+     "en": "I start at half past six, when it's still dark outside. I pick up twenty-three children from nine villages, and the route to the school takes almost an hour, with bends and uphill stretches."
+    },
+    {
+     "speaker": "Οδηγός",
+     "voice": "f",
+     "el": "Τον χειμώνα το πιο δύσκολο είναι ο πάγος. Αν ο δρόμος δεν έχει καθαριστεί, ειδοποιώ τον διευθυντή και τους γονείς πριν από τις έξι, και το λεωφορείο δεν ξεκινά. Καλύτερα να χάσουν τα παιδιά μια μέρα μάθημα παρά να πάρουμε το παραμικρό ρίσκο.",
+     "en": "In winter the hardest thing is the ice. If the road hasn't been cleared, I notify the head teacher and the parents before six, and the bus doesn't leave. Better for the children to miss a day of lessons than for us to take the slightest risk."
+    },
+    {
+     "speaker": "Οδηγός",
+     "voice": "f",
+     "el": "Τα παιδιά τα ξέρω ένα ένα. Ξέρω ποιο ζαλίζεται και πρέπει να κάθεται μπροστά, ποιο ξεχνάει πάντα την τσάντα του. Οι μεγάλοι μού λένε τα μυστικά τους, γιατί δεν είμαι ούτε δασκάλα ούτε μάνα τους. Όταν τελειώνουν το δημοτικό, κλαίω πιο πολύ από τους γονείς.",
+     "en": "I know the children one by one. I know which one gets carsick and has to sit at the front, which one always forgets their bag. The older ones tell me their secrets, because I'm neither their teacher nor their mother. When they finish primary school, I cry more than their parents."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο κρατάει η διαδρομή ως το σχολείο;",
+     "options": [
+      "Σχεδόν μία ώρα",
+      "Δέκα λεπτά",
+      "Δύο ώρες",
+      "Μισή ώρα"
+     ],
+     "answer": "Σχεδόν μία ώρα",
+     "why": "η διαδρομή ως το σχολείο κρατάει σχεδόν μία ώρα"
+    },
+    {
+     "q": "Τι κάνει όταν ο δρόμος έχει πάγο και δεν έχει καθαριστεί;",
+     "options": [
+      "Ειδοποιεί τον διευθυντή και τους γονείς και το λεωφορείο δεν ξεκινά",
+      "Οδηγεί πολύ αργά",
+      "Ζητά από τους γονείς να φέρουν τα παιδιά",
+      "Περιμένει μέχρι το μεσημέρι"
+     ],
+     "answer": "Ειδοποιεί τον διευθυντή και τους γονείς και το λεωφορείο δεν ξεκινά",
+     "why": "ειδοποιώ τον διευθυντή και τους γονείς πριν από τις έξι, και το λεωφορείο δεν ξεκινά"
+    },
+    {
+     "q": "Γιατί οι μεγάλοι μαθητές τής λένε τα μυστικά τους;",
+     "options": [
+      "Γιατί τους δίνει γλυκά",
+      "Γιατί είναι συγγενής τους",
+      "Γιατί τους φοβάται",
+      "Γιατί δεν είναι ούτε δασκάλα ούτε μάνα τους"
+     ],
+     "answer": "Γιατί δεν είναι ούτε δασκάλα ούτε μάνα τους",
+     "why": "γιατί δεν είμαι ούτε δασκάλα ούτε μάνα τους"
+    }
+   ],
+   "gloss": {
+    "σχολικό λεωφορείο": "σχολικό λεωφορείο — school bus",
+    "ορεινή": "ορεινός — mountainous",
+    "στροφές": "στροφή — bend, turn",
+    "ανηφόρες": "ανηφόρα — uphill slope",
+    "πάγος": "πάγος — ice",
+    "καθαριστεί": "καθαρίζομαι — to be cleared, to be cleaned",
+    "παραμικρό": "παραμικρός — slightest",
+    "ρίσκο": "ρίσκο — risk",
+    "ζαλίζεται": "ζαλίζομαι — to get dizzy, to get carsick",
+    "δημοτικό": "δημοτικό — primary school"
+   }
+  },
+  {
+   "id": "l161-vm-optikes",
+   "title": "Μήνυμα για τη σύνδεση οπτικών ινών",
+   "title_en": "A message about the fibre-optic connection",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από έναν τεχνικό της εταιρείας τηλεπικοινωνιών.",
+   "script": [
+    {
+     "speaker": "Τεχνικός",
+     "voice": "m",
+     "el": "Καλημέρα σας, κύριε Αντωνίου, σας καλώ από την εταιρεία για την εγκατάσταση των οπτικών ινών στο διαμέρισμά σας. Το ραντεβού μας είναι αύριο, Πέμπτη, μεταξύ δέκα και δώδεκα.",
+     "en": "Good morning, Mr Antoniou, I'm calling from the company about installing the fibre optics in your flat. Our appointment is tomorrow, Thursday, between ten and twelve."
+    },
+    {
+     "speaker": "Τεχνικός",
+     "voice": "m",
+     "el": "Για να γίνει η σύνδεση, θα χρειαστεί να περάσω το καλώδιο από το υπόγειο της πολυκατοικίας. Παρακαλώ ενημερώστε τον διαχειριστή να μου ανοίξει, γιατί την προηγούμενη φορά βρήκαμε κλειστά και χάσαμε το ραντεβού.",
+     "en": "For the connection to be made, I'll need to run the cable through the building's basement. Please let the building manager know to open it for me, because last time we found it locked and missed the appointment."
+    },
+    {
+     "speaker": "Τεχνικός",
+     "voice": "m",
+     "el": "Η εγκατάσταση θα κρατήσει περίπου δύο ώρες και θα χρειαστεί να ανοίξω μια μικρή τρύπα στον τοίχο δίπλα στο παράθυρο. Αν προτιμάτε άλλο σημείο, σκεφτείτε το από πριν. Αν δεν σας βολεύει η ώρα, πάρτε στο κέντρο εξυπηρέτησης, όχι σε μένα, γιατί αυτοί κανονίζουν το πρόγραμμα.",
+     "en": "The installation will take about two hours, and I'll need to make a small hole in the wall next to the window. If you prefer another spot, think about it beforehand. If the time doesn't suit you, call the customer service centre, not me, because they arrange the schedule."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε είναι το ραντεβού;",
+     "options": [
+      "Την Πέμπτη το βράδυ",
+      "Αύριο, Πέμπτη, μεταξύ δέκα και δώδεκα",
+      "Σήμερα το απόγευμα",
+      "Τη Δευτέρα το πρωί"
+     ],
+     "answer": "Αύριο, Πέμπτη, μεταξύ δέκα και δώδεκα",
+     "why": "αύριο, Πέμπτη, μεταξύ δέκα και δώδεκα"
+    },
+    {
+     "q": "Γιατί χάθηκε το προηγούμενο ραντεβού;",
+     "options": [
+      "Γιατί ο κύριος Αντωνίου έλειπε",
+      "Γιατί δεν υπήρχε καλώδιο",
+      "Γιατί ο τεχνικός αρρώστησε",
+      "Γιατί βρήκαν κλειστό το υπόγειο"
+     ],
+     "answer": "Γιατί βρήκαν κλειστό το υπόγειο",
+     "why": "βρήκαμε κλειστά και χάσαμε το ραντεβού"
+    },
+    {
+     "q": "Ποιον πρέπει να πάρει ο κύριος Αντωνίου αν δεν τον βολεύει η ώρα;",
+     "options": [
+      "Το κέντρο εξυπηρέτησης",
+      "Τον ιδιοκτήτη",
+      "Τον τεχνικό",
+      "Τον διαχειριστή"
+     ],
+     "answer": "Το κέντρο εξυπηρέτησης",
+     "why": "πάρτε στο κέντρο εξυπηρέτησης, όχι σε μένα"
+    }
+   ],
+   "gloss": {
+    "οπτικών ινών": "οπτική ίνα — optical fibre",
+    "τηλεπικοινωνιών": "τηλεπικοινωνίες — telecommunications",
+    "εγκατάσταση": "εγκατάσταση — installation",
+    "καλώδιο": "καλώδιο — cable",
+    "υπόγειο": "υπόγειο — basement",
+    "διαχειριστή": "διαχειριστής — building manager",
+    "τρύπα": "τρύπα — hole",
+    "βολεύει": "βολεύει — it suits, it is convenient",
+    "εξυπηρέτησης": "εξυπηρέτηση (πελατών) — customer service"
+   }
+  },
+  {
+   "id": "l161-vm-symmathitria",
+   "title": "Μήνυμα από μια παλιά συμμαθήτρια",
+   "title_en": "A message from an old classmate",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από μια συμμαθήτρια του λυκείου που είχατε χρόνια να δείτε.",
+   "script": [
+    {
+     "speaker": "Συμμαθήτρια",
+     "voice": "f",
+     "el": "Γεια σου, Λευτέρη! Είμαι η Χαρά, η Χαρά Ζαφειρίου, καθόμουν πίσω σου στη δευτέρα λυκείου, θυμάσαι; Βρήκα το τηλέφωνό σου από την αδερφή σου.",
+     "en": "Hi, Lefteris! It's Chara, Chara Zafeiriou, I sat behind you in the second year of lyceum, remember? I got your number from your sister."
+    },
+    {
+     "speaker": "Συμμαθήτρια",
+     "voice": "f",
+     "el": "Φέτος κλείνουμε είκοσι πέντε χρόνια από την αποφοίτηση, και κάποιοι από την τάξη οργανώνουμε μια συνάντηση. Θα είναι το Σάββατο δεκαπέντε Ιουνίου, στην αυλή του παλιού μας σχολείου· ο διευθυντής μάς έδωσε άδεια. Μετά θα πάμε για φαγητό στην ταβέρνα δίπλα στο γήπεδο.",
+     "en": "This year it's twenty-five years since we graduated, and some of us from the class are organising a get-together. It'll be on Saturday the fifteenth of June, in the yard of our old school; the head teacher gave us permission. Afterwards we'll go for a meal at the taverna next to the sports ground."
+    },
+    {
+     "speaker": "Συμμαθήτρια",
+     "voice": "f",
+     "el": "Θέλουμε να φέρει ο καθένας μια φωτογραφία από εκείνα τα χρόνια, για να φτιάξουμε έναν πίνακα. Αν έχεις ακόμη την κιθάρα σου, φέρ' την· όλοι θυμούνται τις εκδρομές με τα τραγούδια σου. Πάρε με να μου πεις αν έρχεσαι, για να κλείσουμε τραπέζι.",
+     "en": "We'd like everyone to bring a photo from those years, so we can make a board. If you still have your guitar, bring it; everyone remembers the school trips with your songs. Call me to tell me if you're coming, so we can book a table."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από πού βρήκε η Χαρά το τηλέφωνο του Λευτέρη;",
+     "options": [
+      "Από την αδερφή του",
+      "Από έναν συμμαθητή",
+      "Από το διαδίκτυο",
+      "Από το σχολείο"
+     ],
+     "answer": "Από την αδερφή του",
+     "why": "Βρήκα το τηλέφωνό σου από την αδερφή σου"
+    },
+    {
+     "q": "Πού θα γίνει η συνάντηση;",
+     "options": [
+      "Σε ένα ξενοδοχείο",
+      "Στο σπίτι της Χαράς",
+      "Στο γήπεδο",
+      "Στην αυλή του παλιού σχολείου"
+     ],
+     "answer": "Στην αυλή του παλιού σχολείου",
+     "why": "στην αυλή του παλιού μας σχολείου"
+    },
+    {
+     "q": "Γιατί ζητά από τον Λευτέρη να φέρει την κιθάρα του;",
+     "options": [
+      "Γιατί η ταβέρνα δεν έχει μουσική",
+      "Γιατί θέλει να την αγοράσει",
+      "Γιατί όλοι θυμούνται τις εκδρομές με τα τραγούδια του",
+      "Γιατί θα υπάρχει διαγωνισμός"
+     ],
+     "answer": "Γιατί όλοι θυμούνται τις εκδρομές με τα τραγούδια του",
+     "why": "όλοι θυμούνται τις εκδρομές με τα τραγούδια σου"
+    }
+   ],
+   "gloss": {
+    "συμμαθήτρια": "συμμαθήτρια — (female) classmate",
+    "λυκείου": "λύκειο — upper secondary school",
+    "αποφοίτηση": "αποφοίτηση — graduation",
+    "οργανώνουμε": "οργανώνω — to organise",
+    "αυλή": "αυλή — yard, courtyard",
+    "άδεια": "άδεια — permission",
+    "γήπεδο": "γήπεδο — sports ground",
+    "πίνακα": "πίνακας — board; painting",
+    "εκδρομές": "εκδρομή — (school) trip, excursion"
+   }
+  },
+  {
+   "id": "l161-c1-doppler",
+   "title": "Γιατί αλλάζει η σειρήνα όταν περνά;",
+   "title_en": "Why does the siren change as it passes?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από ραδιοφωνική συνέντευξη με έναν φυσικό για το φαινόμενο Ντόπλερ.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Όλοι έχουμε ακούσει τη σειρήνα ενός ασθενοφόρου να ακούγεται πιο ψηλή όσο πλησιάζει και πιο χαμηλή μόλις μας προσπεράσει. Η σειρήνα όμως δεν αλλάζει. Τι αλλάζει;",
+     "en": "We've all heard an ambulance siren sound higher as it approaches and lower as soon as it has passed us. But the siren doesn't change. What changes?"
+    },
+    {
+     "speaker": "Φυσικός",
+     "voice": "m",
+     "el": "Αλλάζει η απόσταση ανάμεσα στα κύματα του ήχου που φτάνουν στο αυτί μας. Όταν η πηγή κινείται προς το μέρος μας, κάθε κύμα ξεκινά λίγο πιο κοντά από το προηγούμενο, οπότε τα κύματα «συμπιέζονται» και φτάνουν πιο πυκνά: ακούμε υψηλότερη συχνότητα. Όταν απομακρύνεται, συμβαίνει το αντίθετο. Την εξήγηση τη διατύπωσε ο Αυστριακός φυσικός Κρίστιαν Ντόπλερ το 1842, αρχικά για το φως των άστρων.",
+     "en": "The spacing between the sound waves reaching our ear changes. When the source moves towards us, each wave starts a little closer than the previous one, so the waves are 'compressed' and arrive more densely: we hear a higher frequency. When it moves away, the opposite happens. The explanation was formulated by the Austrian physicist Christian Doppler in 1842, originally for the light of stars."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πώς αποδείχτηκε;",
+     "en": "How was it proven?"
+    },
+    {
+     "speaker": "Φυσικός",
+     "voice": "m",
+     "el": "Με ένα πείραμα που έχει κάτι κωμικό. Το 1845 ο Ολλανδός επιστήμονας Μπάις Μπάλοτ έβαλε μουσικούς να παίζουν μια σταθερή νότα με την τρομπέτα πάνω σε ένα κινούμενο τρένο, ενώ άλλοι μουσικοί, με απόλυτη ακοή, στέκονταν δίπλα στις γραμμές και σημείωναν τι άκουγαν. Η νότα άλλαζε ακριβώς όπως είχε προβλέψει ο Ντόπλερ.",
+     "en": "With an experiment that has something comic about it. In 1845 the Dutch scientist Buys Ballot had musicians play a steady note on the trumpet on a moving train, while other musicians with perfect pitch stood beside the tracks and noted what they heard. The note changed exactly as Doppler had predicted."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και πού το χρησιμοποιούμε σήμερα;",
+     "en": "And where do we use it today?"
+    },
+    {
+     "speaker": "Φυσικός",
+     "voice": "m",
+     "el": "Παντού, χωρίς να το ξέρουμε. Τα ραντάρ της τροχαίας μετρούν την ταχύτητα των αυτοκινήτων από τη μεταβολή της συχνότητας. Οι γιατροί βλέπουν με τον υπέρηχο Ντόπλερ πόσο γρήγορα κυλάει το αίμα στις φλέβες. Και οι αστρονόμοι, παρατηρώντας ότι το φως των μακρινών γαλαξιών μετατοπίζεται προς το κόκκινο, συμπέραναν ότι απομακρύνονται από εμάς, δηλαδή ότι το σύμπαν διαστέλλεται.",
+     "en": "Everywhere, without our knowing it. Traffic police radar measures the speed of cars from the change in frequency. Doctors use Doppler ultrasound to see how fast blood flows in the veins. And astronomers, observing that the light from distant galaxies is shifted towards red, concluded that they are moving away from us, in other words that the universe is expanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ακούμε τη σειρήνα πιο ψηλή όσο πλησιάζει;",
+     "options": [
+      "Γιατί ο ήχος γίνεται πιο δυνατός",
+      "Γιατί τα κύματα του ήχου συμπιέζονται και φτάνουν πιο πυκνά",
+      "Γιατί ο οδηγός την αλλάζει",
+      "Γιατί ο αέρας ζεσταίνεται"
+     ],
+     "answer": "Γιατί τα κύματα του ήχου συμπιέζονται και φτάνουν πιο πυκνά",
+     "why": "τα κύματα «συμπιέζονται» και φτάνουν πιο πυκνά"
+    },
+    {
+     "q": "Για ποιο φαινόμενο διατύπωσε αρχικά ο Ντόπλερ την εξήγησή του;",
+     "options": [
+      "Για τον ήχο των τρένων",
+      "Για τη θάλασσα",
+      "Για το φως των άστρων",
+      "Για τη μουσική"
+     ],
+     "answer": "Για το φως των άστρων",
+     "why": "αρχικά για το φως των άστρων"
+    },
+    {
+     "q": "Πώς έγινε το πείραμα του Μπάις Μπάλοτ;",
+     "options": [
+      "Με μουσικούς που έπαιζαν τρομπέτα πάνω σε κινούμενο τρένο",
+      "Με ηχογραφήσεις στο εργαστήριο",
+      "Με τηλεσκόπια",
+      "Με σειρήνες ασθενοφόρων"
+     ],
+     "answer": "Με μουσικούς που έπαιζαν τρομπέτα πάνω σε κινούμενο τρένο",
+     "why": "έβαλε μουσικούς να παίζουν μια σταθερή νότα με την τρομπέτα πάνω σε ένα κινούμενο τρένο"
+    },
+    {
+     "q": "Τι συμπέραναν οι αστρονόμοι από τη μετατόπιση του φωτός προς το κόκκινο;",
+     "options": [
+      "Ότι τα άστρα σβήνουν",
+      "Ότι το σύμπαν διαστέλλεται",
+      "Ότι οι γαλαξίες πλησιάζουν",
+      "Ότι ο Ήλιος ψύχεται"
+     ],
+     "answer": "Ότι το σύμπαν διαστέλλεται",
+     "why": "το σύμπαν διαστέλλεται"
+    }
+   ],
+   "gloss": {
+    "σειρήνα": "σειρήνα — siren",
+    "ασθενοφόρου": "ασθενοφόρο — ambulance",
+    "προσπεράσει": "προσπερνώ — to pass, to overtake",
+    "κύματα": "κύμα — wave",
+    "πηγή": "πηγή — source",
+    "συμπιέζονται": "συμπιέζομαι — to be compressed",
+    "πυκνά": "πυκνά — densely",
+    "συχνότητα": "συχνότητα — frequency",
+    "απομακρύνεται": "απομακρύνομαι — to move away",
+    "απόλυτη ακοή": "απόλυτη ακοή — perfect pitch",
+    "ραντάρ": "ραντάρ — radar",
+    "υπέρηχο": "υπέρηχος — ultrasound",
+    "φλέβες": "φλέβα — vein",
+    "γαλαξιών": "γαλαξίας — galaxy",
+    "μετατοπίζεται": "μετατοπίζομαι — to shift",
+    "διαστέλλεται": "διαστέλλομαι — to expand"
+   }
+  },
+  {
+   "id": "l161-c1-giffen",
+   "title": "Όταν η τιμή ανεβαίνει και αγοράζουμε περισσότερο",
+   "title_en": "When the price goes up and we buy more",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από διάλεξη οικονομικών για τα λεγόμενα αγαθά Γκίφεν.",
+   "script": [
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Ο πρώτος νόμος που μαθαίνει κάθε φοιτητής οικονομικών είναι ο νόμος της ζήτησης: όταν η τιμή ενός προϊόντος ανεβαίνει, αγοράζουμε λιγότερο. Υπάρχει όμως μια θεωρητική εξαίρεση, που ο Άλφρεντ Μάρσαλ απέδωσε στα τέλη του δέκατου ένατου αιώνα στον Βρετανό οικονομολόγο Ρόμπερτ Γκίφεν, και γι' αυτό ονομάζεται «αγαθό Γκίφεν».",
+     "en": "The first law every economics student learns is the law of demand: when the price of a product rises, we buy less. There is, however, a theoretical exception, which Alfred Marshall attributed at the end of the nineteenth century to the British economist Robert Giffen, and that is why it is called a 'Giffen good'."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Φανταστείτε μια πολύ φτωχή οικογένεια που ζει κυρίως με ψωμί και τρώει λίγο κρέας όποτε μπορεί. Αν ανέβει η τιμή του ψωμιού, το εισόδημα που της μένει δεν φτάνει πια για το κρέας. Για να μην πεινάσει, κόβει εντελώς το κρέας και αγοράζει ακόμη περισσότερο ψωμί, το φθηνότερο αγαθό που της δίνει θερμίδες. Η ακρίβεια, λοιπόν, αυξάνει τη ζήτηση.",
+     "en": "Imagine a very poor family that lives mainly on bread and eats a little meat whenever it can. If the price of bread goes up, the income left over is no longer enough for meat. In order not to go hungry, it cuts out meat completely and buys even more bread, the cheapest good that gives it calories. Higher prices, then, increase demand."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Για δεκαετίες το παράδειγμα που έδιναν τα εγχειρίδια ήταν οι πατάτες στον μεγάλο λιμό της Ιρλανδίας, αλλά οι ιστορικοί δεν βρήκαν στοιχεία που να το στηρίζουν. Η πρώτη πειστική ένδειξη ήρθε μόλις το 2008: δύο οικονομολόγοι μελέτησαν φτωχά νοικοκυριά σε μια επαρχία της Κίνας και βρήκαν ότι, όταν το ρύζι γινόταν ακριβότερο, τα πιο φτωχά από αυτά αγόραζαν πράγματι περισσότερο. Το δίδαγμα είναι ότι οι νόμοι της οικονομίας περιγράφουν το συνηθισμένο, όχι το αναπόφευκτο· στα όρια της φτώχειας, η λογική των επιλογών μπορεί να αντιστραφεί.",
+     "en": "For decades the example given by textbooks was potatoes in the Great Famine in Ireland, but historians found no evidence to support it. The first convincing evidence came only in 2008: two economists studied poor households in a province of China and found that, when rice became more expensive, the poorest of them did indeed buy more. The lesson is that the laws of economics describe the usual, not the inevitable; at the edge of poverty, the logic of choices can be reversed."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λέει ο νόμος της ζήτησης;",
+     "options": [
+      "Ότι όταν η τιμή ανεβαίνει, αγοράζουμε περισσότερο",
+      "Ότι η ζήτηση δεν εξαρτάται από την τιμή",
+      "Ότι οι φτωχοί αγοράζουν πάντα τα φθηνότερα",
+      "Ότι όταν η τιμή ανεβαίνει, αγοράζουμε λιγότερο"
+     ],
+     "answer": "Ότι όταν η τιμή ανεβαίνει, αγοράζουμε λιγότερο",
+     "why": "όταν η τιμή ενός προϊόντος ανεβαίνει, αγοράζουμε λιγότερο"
+    },
+    {
+     "q": "Γιατί η φτωχή οικογένεια του παραδείγματος αγοράζει περισσότερο ψωμί όταν ακριβαίνει;",
+     "options": [
+      "Γιατί κόβει εντελώς το κρέας και χρειάζεται τις θερμίδες από το φθηνότερο αγαθό",
+      "Γιατί της αρέσει περισσότερο",
+      "Γιατί φοβάται ότι θα ακριβύνει κι άλλο",
+      "Γιατί παίρνει επίδομα"
+     ],
+     "answer": "Γιατί κόβει εντελώς το κρέας και χρειάζεται τις θερμίδες από το φθηνότερο αγαθό",
+     "why": "κόβει εντελώς το κρέας και αγοράζει ακόμη περισσότερο ψωμί"
+    },
+    {
+     "q": "Τι λέει η καθηγήτρια για το παράδειγμα με τις πατάτες στην Ιρλανδία;",
+     "options": [
+      "Ότι αφορούσε το ρύζι",
+      "Ότι είναι η καλύτερη απόδειξη",
+      "Ότι οι ιστορικοί δεν βρήκαν στοιχεία που να το στηρίζουν",
+      "Ότι το ανακάλυψε ο Γκίφεν"
+     ],
+     "answer": "Ότι οι ιστορικοί δεν βρήκαν στοιχεία που να το στηρίζουν",
+     "why": "οι ιστορικοί δεν βρήκαν στοιχεία που να το στηρίζουν"
+    },
+    {
+     "q": "Ποιο είναι το δίδαγμα, κατά την καθηγήτρια;",
+     "options": [
+      "Ότι ο νόμος της ζήτησης είναι λάθος",
+      "Ότι η Κίνα είναι εξαίρεση",
+      "Ότι οι νόμοι της οικονομίας περιγράφουν το συνηθισμένο, όχι το αναπόφευκτο",
+      "Ότι οι φτωχοί δεν κάνουν λογικές επιλογές"
+     ],
+     "answer": "Ότι οι νόμοι της οικονομίας περιγράφουν το συνηθισμένο, όχι το αναπόφευκτο",
+     "why": "οι νόμοι της οικονομίας περιγράφουν το συνηθισμένο, όχι το αναπόφευκτο"
+    }
+   ],
+   "gloss": {
+    "αγαθά": "αγαθό — good, commodity",
+    "ζήτησης": "ζήτηση — demand",
+    "εξαίρεση": "εξαίρεση — exception",
+    "απέδωσε": "αποδίδω — to attribute",
+    "αγαθό": "αγαθό — good, commodity",
+    "εισόδημα": "εισόδημα — income",
+    "πεινάσει": "πεινάω — to be hungry",
+    "θερμίδες": "θερμίδα — calorie",
+    "ακρίβεια": "ακρίβεια — high prices; precision",
+    "εγχειρίδια": "εγχειρίδιο — textbook",
+    "λιμό": "λιμός — famine",
+    "ένδειξη": "ένδειξη — evidence, indication",
+    "νοικοκυριά": "νοικοκυριό — household",
+    "επαρχία": "επαρχία — province",
+    "αναπόφευκτο": "αναπόφευκτος — inevitable",
+    "αντιστραφεί": "αντιστρέφομαι — to be reversed"
+   }
+  }
+ ]
+}
