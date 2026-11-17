@@ -1,0 +1,847 @@
+{
+ "items": [
+  {
+   "id": "l92-ann-leoforeia-anti-trena",
+   "title": "Λεωφορεία αντί για τρένα",
+   "title_en": "Buses instead of trains",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Περιμένετε στην αποβάθρα ενός σιδηροδρομικού σταθμού και ακούτε μια ανακοίνωση.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Κυρίες και κύριοι, σας ενημερώνουμε ότι, λόγω εργασιών συντήρησης στη γραμμή, από σήμερα και μέχρι την Κυριακή δεν θα πραγματοποιούνται δρομολόγια τρένων ανάμεσα στους σταθμούς Λιανοκλαδίου και Δομοκού.",
+     "en": "Ladies and gentlemen, please be informed that, because of maintenance work on the line, from today until Sunday there will be no train services between Lianokladi and Domokos stations."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Οι επιβάτες θα μεταφέρονται με λεωφορεία, τα οποία αναχωρούν από τον χώρο στάθμευσης μπροστά στον σταθμό, δεκαπέντε λεπτά μετά την άφιξη κάθε τρένου. Τα εισιτήρια που έχετε ήδη αγοράσει ισχύουν κανονικά και για τα λεωφορεία. Η διαδρομή θα διαρκεί περίπου σαράντα λεπτά περισσότερο από το συνηθισμένο.",
+     "en": "Passengers will be taken by bus; the buses leave from the car park in front of the station fifteen minutes after each train arrives. Tickets you have already bought are valid for the buses as normal. The journey will take about forty minutes longer than usual."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Επιβάτες με ποδήλατα ή ογκώδεις αποσκευές παρακαλούνται να απευθυνθούν στο εκδοτήριο, καθώς ο χώρος στα λεωφορεία είναι περιορισμένος. Ζητούμε συγγνώμη για την ταλαιπωρία.",
+     "en": "Passengers with bicycles or bulky luggage are asked to go to the ticket office, as space on the buses is limited. We apologise for the inconvenience."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν θα κινούνται τρένα ανάμεσα στους δύο σταθμούς;",
+     "options": [
+      "Λόγω απεργίας",
+      "Λόγω εργασιών συντήρησης στη γραμμή",
+      "Λόγω κακοκαιρίας",
+      "Λόγω ατυχήματος"
+     ],
+     "answer": "Λόγω εργασιών συντήρησης στη γραμμή",
+     "why": "λόγω εργασιών συντήρησης στη γραμμή"
+    },
+    {
+     "q": "Τι ισχύει για τα εισιτήρια;",
+     "options": [
+      "Ισχύουν μόνο μέχρι την Κυριακή",
+      "Επιστρέφονται τα χρήματα",
+      "Ισχύουν κανονικά και για τα λεωφορεία",
+      "Πρέπει να αγοράσουν καινούργια"
+     ],
+     "answer": "Ισχύουν κανονικά και για τα λεωφορεία",
+     "why": "Τα εισιτήρια που έχετε ήδη αγοράσει ισχύουν κανονικά και για τα λεωφορεία"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν όσοι έχουν ποδήλατο;",
+     "options": [
+      "Να πάρουν ταξί",
+      "Να περιμένουν το επόμενο τρένο",
+      "Να το αφήσουν στον σταθμό",
+      "Να απευθυνθούν στο εκδοτήριο"
+     ],
+     "answer": "Να απευθυνθούν στο εκδοτήριο",
+     "why": "παρακαλούνται να απευθυνθούν στο εκδοτήριο"
+    }
+   ],
+   "gloss": {
+    "αποβάθρα": "αποβάθρα — platform",
+    "σιδηροδρομικού": "σιδηροδρομικός — railway (adjective)",
+    "συντήρησης": "συντήρηση — maintenance",
+    "πραγματοποιούνται": "πραγματοποιούμαι — to take place, run",
+    "δρομολόγια": "δρομολόγιο — service, scheduled trip",
+    "χώρο στάθμευσης": "χώρος στάθμευσης — car park",
+    "άφιξη": "άφιξη — arrival",
+    "ισχύουν": "ισχύω — to be valid",
+    "ογκώδεις": "ογκώδης — bulky",
+    "αποσκευές": "αποσκευές — luggage",
+    "εκδοτήριο": "εκδοτήριο — ticket office",
+    "ταλαιπωρία": "ταλαιπωρία — inconvenience"
+   }
+  },
+  {
+   "id": "l92-vm-kourdistis",
+   "title": "Μήνυμα από τον κουρδιστή πιάνων",
+   "title_en": "A message from the piano tuner",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Είχατε κλείσει ραντεβού με έναν κουρδιστή για το παλιό πιάνο σας. Ακούτε ένα μήνυμα στο κινητό σας.",
+   "script": [
+    {
+     "speaker": "Κουρδιστής",
+     "voice": "m",
+     "el": "Καλημέρα σας, ο Σπύρος Ζαχαρίου είμαι, ο κουρδιστής. Είχαμε κανονίσει να έρθω την Τετάρτη για το πιάνο σας, αλλά δυστυχώς ένα παλιό πιάνο σε ένα σχολείο χρειάζεται επείγουσα επισκευή πριν από τη συναυλία τους, οπότε θα σας παρακαλέσω να το μεταθέσουμε για την επόμενη Δευτέρα, στις έντεκα, αν σας βολεύει.",
+     "en": "Good morning, this is Spyros Zachariou, the tuner. We had arranged for me to come on Wednesday for your piano, but unfortunately an old piano at a school needs an urgent repair before their concert, so I'd ask you to move it to next Monday at eleven, if that suits you."
+    },
+    {
+     "speaker": "Κουρδιστής",
+     "voice": "m",
+     "el": "Από όσα μου είπατε στο τηλέφωνο, ότι το πιάνο έχει να κουρδιστεί πάνω από δέκα χρόνια, μάλλον θα χρειαστούν δύο επισκέψεις: στην πρώτη θα το ανεβάσω σιγά σιγά στο σωστό τόνισμα, και μετά από έναν μήνα θα το ξανακουρδίσω, γιατί οι χορδές θα έχουν χαλαρώσει πάλι.",
+     "en": "From what you told me on the phone, that the piano hasn't been tuned for more than ten years, it will probably need two visits: on the first I'll bring it up slowly to the right pitch, and after a month I'll tune it again, because the strings will have slackened again."
+    },
+    {
+     "speaker": "Κουρδιστής",
+     "voice": "m",
+     "el": "Μια παράκληση: μην το έχετε κοντά στο καλοριφέρ ή σε παράθυρο με ήλιο, γιατί η ζέστη και η υγρασία το χαλάνε γρήγορα. Πάρτε με όποτε μπορείτε να μου πείτε για τη Δευτέρα. Ευχαριστώ!",
+     "en": "One request: don't keep it near the radiator or by a sunny window, because heat and humidity ruin it quickly. Call me whenever you can to tell me about Monday. Thank you!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο κουρδιστής θέλει να αλλάξει το ραντεβού;",
+     "options": [
+      "Γιατί ένα πιάνο σχολείου χρειάζεται επείγουσα επισκευή",
+      "Γιατί θα λείπει σε ταξίδι",
+      "Γιατί δεν έχει τα εργαλεία του",
+      "Γιατί είναι άρρωστος"
+     ],
+     "answer": "Γιατί ένα πιάνο σχολείου χρειάζεται επείγουσα επισκευή",
+     "why": "ένα παλιό πιάνο σε ένα σχολείο χρειάζεται επείγουσα επισκευή"
+    },
+    {
+     "q": "Γιατί θα χρειαστούν μάλλον δύο επισκέψεις;",
+     "options": [
+      "Γιατί πρέπει να το μεταφέρει",
+      "Γιατί το πιάνο έχει να κουρδιστεί πάνω από δέκα χρόνια",
+      "Γιατί το πιάνο είναι πολύ μεγάλο",
+      "Γιατί λείπουν χορδές"
+     ],
+     "answer": "Γιατί το πιάνο έχει να κουρδιστεί πάνω από δέκα χρόνια",
+     "why": "το πιάνο έχει να κουρδιστεί πάνω από δέκα χρόνια"
+    },
+    {
+     "q": "Τι συμβουλεύει για τη θέση του πιάνου;",
+     "options": [
+      "Να είναι κοντά σε παράθυρο",
+      "Να σκεπάζεται πάντα",
+      "Να είναι σε υπόγειο",
+      "Να μην είναι κοντά στο καλοριφέρ ή σε παράθυρο με ήλιο"
+     ],
+     "answer": "Να μην είναι κοντά στο καλοριφέρ ή σε παράθυρο με ήλιο",
+     "why": "μην το έχετε κοντά στο καλοριφέρ ή σε παράθυρο με ήλιο"
+    }
+   ],
+   "gloss": {
+    "κουρδιστή": "κουρδιστής — (piano) tuner",
+    "επείγουσα": "επείγων — urgent",
+    "μεταθέσουμε": "μεταθέτω — to postpone, move",
+    "βολεύει": "με βολεύει — it suits me",
+    "κουρδιστεί": "κουρδίζομαι — to be tuned",
+    "τόνισμα": "τόνισμα — pitch, tuning",
+    "ξανακουρδίσω": "ξανακουρδίζω — to retune",
+    "χορδές": "χορδή — string",
+    "χαλαρώσει": "χαλαρώνω — to slacken",
+    "καλοριφέρ": "καλοριφέρ — radiator",
+    "υγρασία": "υγρασία — humidity"
+   }
+  },
+  {
+   "id": "l92-dia-katharistirio-lekes",
+   "title": "Ένας λεκές που δεν έφυγε",
+   "title_en": "A stain that didn't come out",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Μια γυναίκα επιστρέφει στο καθαριστήριο για να παραλάβει ένα φόρεμα.",
+   "script": [
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Καλησπέρα. Ήρθα να πάρω το φόρεμα που σας έφερα την Παρασκευή. Ορίστε η απόδειξη.",
+     "en": "Good evening. I've come to collect the dress I brought you on Friday. Here's the receipt."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Καλησπέρα. Μισό λεπτό… Α, ναι, το μπλε μεταξωτό. Πρέπει να σας πω ότι ο λεκές του κρασιού δεν έφυγε εντελώς. Δοκιμάσαμε δύο φορές, αλλά το ύφασμα είναι πολύ λεπτό και δεν θέλαμε να το καταστρέψουμε.",
+     "en": "Good evening. Just a moment... Ah yes, the blue silk one. I have to tell you that the wine stain didn't come out completely. We tried twice, but the fabric is very delicate and we didn't want to ruin it."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Αχ, κρίμα. Το θέλω για έναν γάμο το Σάββατο. Φαίνεται πολύ;",
+     "en": "Oh, what a shame. I want it for a wedding on Saturday. Is it very noticeable?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Κοιτάξτε κι εσείς: έχει μείνει μια ελαφριά σκιά, στο κάτω μέρος της φούστας. Αν θέλετε, μπορούμε να το στείλουμε σε ένα εξειδικευμένο εργαστήριο που συνεργαζόμαστε, αλλά θα κάνει μία εβδομάδα και κοστίζει δεκαοχτώ ευρώ επιπλέον.",
+     "en": "Have a look yourself: a faint shadow has remained, at the bottom of the skirt. If you like, we can send it to a specialist workshop we work with, but it will take a week and costs eighteen euros extra."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Μία εβδομάδα δεν με βολεύει. Θα το πάρω έτσι, και ίσως το καλύψω με μια ζώνη ή ένα σάλι. Μου κάνετε όμως μια μικρή έκπτωση, αφού δεν καθάρισε τελείως;",
+     "en": "A week doesn't suit me. I'll take it as it is, and maybe cover it with a belt or a shawl. But will you give me a small discount, since it didn't come completely clean?"
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Δίκιο έχετε. Θα σας χρεώσω μόνο το σιδέρωμα. Και την επόμενη φορά, αν λερωθεί κάτι, φέρτε το όσο πιο γρήγορα γίνεται: ένας φρέσκος λεκές βγαίνει πολύ πιο εύκολα.",
+     "en": "You're right. I'll only charge you for the ironing. And next time, if something gets stained, bring it in as quickly as possible: a fresh stain comes out much more easily."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο λεκές δεν έφυγε εντελώς;",
+     "options": [
+      "Γιατί το ύφασμα είναι πολύ λεπτό",
+      "Γιατί ήταν πολύ παλιός",
+      "Γιατί χάλασε το μηχάνημα",
+      "Γιατί η πελάτισσα το έφερε αργά"
+     ],
+     "answer": "Γιατί το ύφασμα είναι πολύ λεπτό",
+     "why": "το ύφασμα είναι πολύ λεπτό"
+    },
+    {
+     "q": "Γιατί η πελάτισσα δεν στέλνει το φόρεμα στο εξειδικευμένο εργαστήριο;",
+     "options": [
+      "Γιατί δεν εμπιστεύεται το εργαστήριο",
+      "Γιατί ο λεκές δεν φαίνεται καθόλου",
+      "Γιατί θα κάνει μία εβδομάδα και το θέλει για το Σάββατο",
+      "Γιατί κοστίζει πολύ"
+     ],
+     "answer": "Γιατί θα κάνει μία εβδομάδα και το θέλει για το Σάββατο",
+     "why": "Μία εβδομάδα δεν με βολεύει"
+    },
+    {
+     "q": "Τι θα πληρώσει τελικά;",
+     "options": [
+      "Μόνο το σιδέρωμα",
+      "Τίποτα",
+      "Ολόκληρο το καθάρισμα",
+      "Δεκαοχτώ ευρώ"
+     ],
+     "answer": "Μόνο το σιδέρωμα",
+     "why": "Θα σας χρεώσω μόνο το σιδέρωμα"
+    }
+   ],
+   "gloss": {
+    "καθαριστήριο": "καθαριστήριο — dry cleaner's",
+    "απόδειξη": "απόδειξη — receipt",
+    "μεταξωτό": "μεταξωτός — silk",
+    "λεκές": "λεκές — stain",
+    "ύφασμα": "ύφασμα — fabric",
+    "σκιά": "σκιά — shadow, faint mark",
+    "φούστας": "φούστα — skirt",
+    "εξειδικευμένο": "εξειδικευμένος — specialised",
+    "σάλι": "σάλι — shawl",
+    "έκπτωση": "έκπτωση — discount",
+    "σιδέρωμα": "σιδέρωμα — ironing",
+    "λερωθεί": "λερώνομαι — to get dirty, stained"
+   }
+  },
+  {
+   "id": "l92-int-fylakas-archaiotiton",
+   "title": "Η φύλακας αρχαιοτήτων",
+   "title_en": "The antiquities guard",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Σε μια εκπομπή για επαγγέλματα, ένας δημοσιογράφος μιλά με μια φύλακα αρχαιοτήτων σε έναν μεγάλο αρχαιολογικό χώρο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πολλοί πιστεύουν ότι η δουλειά σας είναι να κάθεστε σε μια καρέκλα και να κόβετε εισιτήρια. Ισχύει;",
+     "en": "Many people think your job is to sit on a chair and tear tickets. Is that true?"
+    },
+    {
+     "speaker": "Φύλακας",
+     "voice": "f",
+     "el": "Καθόλου. Τα εισιτήρια τα κόβουν άλλοι συνάδελφοι. Εμείς κάνουμε περιπολίες σε όλο τον χώρο, προσέχουμε να μην ανεβαίνει κανείς στα μνημεία, να μην αγγίζει τα γλυπτά και να μην παίρνει πέτρες για ενθύμιο. Και κάθε καλοκαίρι βοηθάμε δεκάδες επισκέπτες που παθαίνουν θερμοπληξία.",
+     "en": "Not at all. Other colleagues tear the tickets. We patrol the whole site, we make sure no one climbs on the monuments, touches the sculptures or takes stones as a souvenir. And every summer we help dozens of visitors who get heatstroke."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Παίρνουν πράγματι πέτρες οι επισκέπτες;",
+     "en": "Do visitors really take stones?"
+    },
+    {
+     "speaker": "Φύλακας",
+     "voice": "f",
+     "el": "Δυστυχώς, ναι. Οι περισσότεροι δεν καταλαβαίνουν ότι ένα μικρό κομμάτι μάρμαρο είναι κι αυτό αρχαιότητα. Όταν τους το εξηγήσω, συνήθως ντρέπονται και το επιστρέφουν. Κάποιοι μάλιστα μας στέλνουν πέτρες με το ταχυδρομείο, χρόνια αργότερα, με ένα γράμμα που ζητούν συγγνώμη.",
+     "en": "Unfortunately, yes. Most don't realise that a small piece of marble is also an antiquity. When I explain it to them, they're usually embarrassed and give it back. Some even send us stones by post, years later, with a letter apologising."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποια είναι η αγαπημένη σας ώρα στον χώρο;",
+     "en": "What is your favourite time of day at the site?"
+    },
+    {
+     "speaker": "Φύλακας",
+     "voice": "f",
+     "el": "Το πρωί, πριν ανοίξουμε. Κάνω τον πρώτο γύρο μόνη μου, όταν ο ήλιος μόλις έχει βγει και τα μάρμαρα έχουν ένα ροζ χρώμα. Τότε νιώθω ότι φυλάω κάτι που δεν ανήκει μόνο σε εμάς, αλλά και σε όσους θα έρθουν μετά από εμάς.",
+     "en": "In the morning, before we open. I do the first round alone, when the sun has just come up and the marble has a pink colour. Then I feel that I'm guarding something that belongs not only to us but also to those who will come after us."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λέει η φύλακας για τα εισιτήρια;",
+     "options": [
+      "Ότι πωλούνται μόνο ηλεκτρονικά",
+      "Ότι τα κόβει η ίδια",
+      "Ότι τα κόβουν άλλοι συνάδελφοι",
+      "Ότι είναι πολύ ακριβά"
+     ],
+     "answer": "Ότι τα κόβουν άλλοι συνάδελφοι",
+     "why": "Τα εισιτήρια τα κόβουν άλλοι συνάδελφοι"
+    },
+    {
+     "q": "Πώς αντιδρούν συνήθως οι επισκέπτες όταν τους εξηγεί ότι η πέτρα είναι αρχαιότητα;",
+     "options": [
+      "Ντρέπονται και την επιστρέφουν",
+      "Ζητούν να την αγοράσουν",
+      "Θυμώνουν",
+      "Την κρύβουν"
+     ],
+     "answer": "Ντρέπονται και την επιστρέφουν",
+     "why": "συνήθως ντρέπονται και το επιστρέφουν"
+    },
+    {
+     "q": "Ποια είναι η αγαπημένη της ώρα;",
+     "options": [
+      "Το βράδυ, όταν φωτίζονται τα μνημεία",
+      "Το μεσημέρι",
+      "Το πρωί, πριν ανοίξει ο χώρος",
+      "Το απόγευμα, όταν φεύγουν οι επισκέπτες"
+     ],
+     "answer": "Το πρωί, πριν ανοίξει ο χώρος",
+     "why": "Το πρωί, πριν ανοίξουμε"
+    }
+   ],
+   "gloss": {
+    "φύλακα": "φύλακας — guard",
+    "αρχαιοτήτων": "αρχαιότητα — antiquity",
+    "περιπολίες": "περιπολία — patrol",
+    "μνημεία": "μνημείο — monument",
+    "γλυπτά": "γλυπτό — sculpture",
+    "ενθύμιο": "ενθύμιο — souvenir, keepsake",
+    "θερμοπληξία": "θερμοπληξία — heatstroke",
+    "μάρμαρο": "μάρμαρο — marble",
+    "ντρέπονται": "ντρέπομαι — to be embarrassed",
+    "φυλάω": "φυλάω — to guard"
+   }
+  },
+  {
+   "id": "l92-rep-lefkada",
+   "title": "Λευκάδα, το νησί που φτάνεις με το αυτοκίνητο",
+   "title_en": "Lefkada, the island you can drive to",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ταξιδιωτικό ρεπορτάζ στο ραδιόφωνο.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η Λευκάδα είναι ένα από τα λίγα ελληνικά νησιά όπου μπορείς να φτάσεις χωρίς πλοίο. Μια μικρή πλωτή γέφυρα τη συνδέει με την Αιτωλοακαρνανία, και κάθε ώρα ανοίγει για να περάσουν τα ιστιοφόρα, ενώ τα αυτοκίνητα περιμένουν υπομονετικά.",
+     "en": "Lefkada is one of the few Greek islands you can reach without a ferry. A small floating bridge links it to Aetolia-Acarnania, and every hour it opens to let the sailing boats through, while the cars wait patiently."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η δυτική ακτή είναι γνωστή για τις παραλίες της με τα άσπρα βράχια και τα τιρκουάζ νερά, όπως το Πόρτο Κατσίκι. Στο νότιο άκρο του νησιού, στο ακρωτήριο Λευκάτας, ένας φάρος στέκεται πάνω σε έναν γκρεμό εξήντα μέτρων. Σύμφωνα με την παράδοση, από εκεί έπεσε στη θάλασσα η ποιήτρια Σαπφώ, από έναν έρωτα χωρίς ανταπόκριση.",
+     "en": "The west coast is known for its beaches with white cliffs and turquoise water, such as Porto Katsiki. At the southern tip of the island, on Cape Lefkatas, a lighthouse stands on a sixty-metre cliff. According to tradition, it was from there that the poet Sappho threw herself into the sea, over an unrequited love."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Το νησί έχει και πλούσια πνευματική ζωή. Εδώ γεννήθηκαν οι ποιητές Αριστοτέλης Βαλαωρίτης και Άγγελος Σικελιανός, αλλά και ο συγγραφέας Λευκάδιος Χερν, που πήρε το όνομά του από το νησί. Κάθε Αύγουστο, εδώ και πάνω από εξήντα χρόνια, η πόλη φιλοξενεί ένα διεθνές φεστιβάλ φολκλόρ, με χορευτικά συγκροτήματα από όλο τον κόσμο.",
+     "en": "The island also has a rich intellectual life. The poets Aristotelis Valaoritis and Angelos Sikelianos were born here, as was the writer Lafcadio Hearn, who took his name from the island. Every August, for over sixty years now, the town has hosted an international folklore festival, with dance groups from all over the world."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είναι ξεχωριστό στη Λευκάδα;",
+     "options": [
+      "Έχει τρένο",
+      "Έχει αεροδρόμιο στο κέντρο της",
+      "Δεν επιτρέπονται αυτοκίνητα",
+      "Μπορείς να φτάσεις χωρίς πλοίο"
+     ],
+     "answer": "Μπορείς να φτάσεις χωρίς πλοίο",
+     "why": "μπορείς να φτάσεις χωρίς πλοίο"
+    },
+    {
+     "q": "Τι λέει η παράδοση για το ακρωτήριο Λευκάτας;",
+     "options": [
+      "Ότι από εκεί έπεσε στη θάλασσα η Σαπφώ",
+      "Ότι εκεί ναυάγησε ένα πλοίο",
+      "Ότι εκεί γεννήθηκε η Σαπφώ",
+      "Ότι εκεί έζησε ο Σικελιανός"
+     ],
+     "answer": "Ότι από εκεί έπεσε στη θάλασσα η Σαπφώ",
+     "why": "από εκεί έπεσε στη θάλασσα η ποιήτρια Σαπφώ"
+    },
+    {
+     "q": "Τι γίνεται κάθε Αύγουστο;",
+     "options": [
+      "Ένα φεστιβάλ κινηματογράφου",
+      "Ένα φεστιβάλ ποίησης",
+      "Ένα διεθνές φεστιβάλ φολκλόρ",
+      "Αγώνες ιστιοπλοΐας"
+     ],
+     "answer": "Ένα διεθνές φεστιβάλ φολκλόρ",
+     "why": "η πόλη φιλοξενεί ένα διεθνές φεστιβάλ φολκλόρ"
+    }
+   ],
+   "gloss": {
+    "πλωτή": "πλωτός — floating",
+    "γέφυρα": "γέφυρα — bridge",
+    "ιστιοφόρα": "ιστιοφόρο — sailing boat",
+    "υπομονετικά": "υπομονετικά — patiently",
+    "βράχια": "βράχος — rock, cliff",
+    "τιρκουάζ": "τιρκουάζ — turquoise",
+    "ακρωτήριο": "ακρωτήριο — cape",
+    "γκρεμό": "γκρεμός — cliff, precipice",
+    "ανταπόκριση": "ανταπόκριση — response (love returned)",
+    "πνευματική": "πνευματικός — intellectual",
+    "φολκλόρ": "φολκλόρ — folklore",
+    "συγκροτήματα": "συγκρότημα — group, ensemble"
+   }
+  },
+  {
+   "id": "l92-rep-kastoria",
+   "title": "Καστοριά, η πόλη της λίμνης",
+   "title_en": "Kastoria, the lake town",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ σε μια τηλεοπτική εκπομπή για ταξίδια στη βόρεια Ελλάδα.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η Καστοριά είναι χτισμένη σε μια χερσόνησο που μπαίνει βαθιά στη λίμνη Ορεστιάδα. Το πρωί, όταν η ομίχλη σηκώνεται πάνω από το νερό, οι πελεκάνοι και οι κύκνοι πλησιάζουν τόσο κοντά στην ακτή, που οι περαστικοί σταματούν για να τους φωτογραφίσουν.",
+     "en": "Kastoria is built on a peninsula that reaches deep into Lake Orestiada. In the morning, when the mist lifts over the water, the pelicans and swans come so close to the shore that passers-by stop to photograph them."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Για αιώνες, η πόλη ζούσε από τη γούνα. Οι γουναράδες της ταξίδευαν σε όλη την Ευρώπη, και με τα κέρδη τους έχτισαν τα επιβλητικά αρχοντικά που βλέπουμε σήμερα στις γειτονιές Ντολτσό και Απόζαρι. Η Καστοριά είναι επίσης γνωστή για τις δεκάδες βυζαντινές εκκλησίες της, μερικές πολύ μικρές, με τοιχογραφίες που χρονολογούνται από τον ενδέκατο αιώνα.",
+     "en": "For centuries, the town lived from fur. Its furriers travelled all over Europe, and with their profits they built the imposing mansions we see today in the Doltso and Apozari neighbourhoods. Kastoria is also known for its dozens of Byzantine churches, some very small, with wall paintings dating from the eleventh century."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Ο καλύτερος τρόπος για να γνωρίσει κανείς την πόλη είναι ο περίπατος γύρω από τη χερσόνησο, μια διαδρομή περίπου οχτώ χιλιομέτρων δίπλα στο νερό. Στη μέση της βρίσκεται το Σπήλαιο του Δράκου, με υπόγειες λίμνες. Και όποιος έρθει στις αρχές Ιανουαρίου, θα ζήσει τα Ραγκουτσάρια, ένα καρναβάλι τριών ημερών με μάσκες, μουσική και χορό στους δρόμους.",
+     "en": "The best way to get to know the town is the walk around the peninsula, a route of about eight kilometres beside the water. Halfway along is the Dragon's Cave, with underground lakes. And anyone who comes at the beginning of January will experience the Ragoutsaria, a three-day carnival with masks, music and dancing in the streets."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι βλέπουν οι περαστικοί το πρωί κοντά στην ακτή;",
+     "options": [
+      "Πελεκάνους και κύκνους",
+      "Κολυμβητές",
+      "Δελφίνια",
+      "Ψαράδες με βάρκες"
+     ],
+     "answer": "Πελεκάνους και κύκνους",
+     "why": "οι πελεκάνοι και οι κύκνοι πλησιάζουν τόσο κοντά στην ακτή"
+    },
+    {
+     "q": "Από πού προήλθε ο πλούτος για τα αρχοντικά;",
+     "options": [
+      "Από τον τουρισμό",
+      "Από το εμπόριο κρασιού",
+      "Από τη γούνα",
+      "Από το ψάρεμα"
+     ],
+     "answer": "Από τη γούνα",
+     "why": "Για αιώνες, η πόλη ζούσε από τη γούνα"
+    },
+    {
+     "q": "Τι είναι τα Ραγκουτσάρια;",
+     "options": [
+      "Ένα παραδοσιακό φαγητό",
+      "Ένα βυζαντινό μοναστήρι",
+      "Ένα σπήλαιο",
+      "Ένα καρναβάλι τριών ημερών"
+     ],
+     "answer": "Ένα καρναβάλι τριών ημερών",
+     "why": "ένα καρναβάλι τριών ημερών με μάσκες, μουσική και χορό στους δρόμους"
+    }
+   ],
+   "gloss": {
+    "χερσόνησο": "χερσόνησος — peninsula",
+    "ομίχλη": "ομίχλη — mist, fog",
+    "πελεκάνοι": "πελεκάνος — pelican",
+    "κύκνοι": "κύκνος — swan",
+    "γούνα": "γούνα — fur",
+    "γουναράδες": "γουναράς — furrier",
+    "επιβλητικά": "επιβλητικός — imposing",
+    "αρχοντικά": "αρχοντικό — mansion",
+    "χρονολογούνται": "χρονολογούμαι — to date (from)",
+    "περίπατος": "περίπατος — walk, stroll",
+    "Σπήλαιο": "σπήλαιο — cave",
+    "μάσκες": "μάσκα — mask"
+   }
+  },
+  {
+   "id": "l92-mono-choris-aftokinito",
+   "title": "Ζω χωρίς αυτοκίνητο",
+   "title_en": "I live without a car",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Σε ένα podcast για την καθημερινότητα στην πόλη, ένας ακροατής διηγείται μια απόφασή του.",
+   "script": [
+    {
+     "speaker": "Ακροατής",
+     "voice": "m",
+     "el": "Πριν από δύο χρόνια το αυτοκίνητό μου χάλασε για τρίτη φορά μέσα σε έναν χρόνο. Ο μηχανικός μού είπε ότι η επισκευή θα κόστιζε σχεδόν όσο αξίζει όλο το αυτοκίνητο. Τότε κάθισα και λογάριασα πόσα ξόδευα τον χρόνο: βενζίνη, ασφάλεια, τέλη κυκλοφορίας, σέρβις, πάρκινγκ. Το ποσό με τρόμαξε.",
+     "en": "Two years ago my car broke down for the third time in a year. The mechanic told me the repair would cost almost as much as the whole car is worth. So I sat down and worked out how much I was spending a year: petrol, insurance, road tax, servicing, parking. The amount frightened me."
+    },
+    {
+     "speaker": "Ακροατής",
+     "voice": "m",
+     "el": "Αποφάσισα να δοκιμάσω για έναν μήνα να ζήσω χωρίς αυτοκίνητο. Αγόρασα κάρτα για τα μέσα μεταφοράς και ένα μεταχειρισμένο ποδήλατο. Τις πρώτες εβδομάδες ήταν δύσκολο: έπρεπε να οργανώνω καλύτερα τα ψώνια μου, και μια φορά βράχηκα μέχρι το κόκαλο περιμένοντας ένα λεωφορείο που δεν ήρθε ποτέ.",
+     "en": "I decided to try living without a car for a month. I bought a public transport card and a second-hand bicycle. The first weeks were hard: I had to organise my shopping better, and once I got soaked to the skin waiting for a bus that never came."
+    },
+    {
+     "speaker": "Ακροατής",
+     "voice": "m",
+     "el": "Ο μήνας έγινε δύο χρόνια. Για τα μεγάλα ψώνια ή για ένα ταξίδι, νοικιάζω αυτοκίνητο για μία μέρα. Έχασα έξι κιλά χωρίς να πατήσω το πόδι μου σε γυμναστήριο, και διαβάζω ένα βιβλίο τον μήνα στο μετρό. Δεν λέω ότι είναι για όλους, ειδικά για όσους μένουν έξω από την πόλη. Για μένα, όμως, ήταν η καλύτερη απόφαση των τελευταίων χρόνων.",
+     "en": "The month became two years. For big shopping trips or a journey, I rent a car for a day. I've lost six kilos without setting foot in a gym, and I read a book a month on the metro. I'm not saying it's for everyone, especially for people who live outside the city. For me, though, it was the best decision of recent years."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο ακροατής σκέφτηκε να ζήσει χωρίς αυτοκίνητο;",
+     "options": [
+      "Γιατί του το πρότεινε ο γιατρός του",
+      "Γιατί η επισκευή θα κόστιζε σχεδόν όσο αξίζει το αυτοκίνητο",
+      "Γιατί μετακόμισε στο κέντρο",
+      "Γιατί έχασε το δίπλωμά του"
+     ],
+     "answer": "Γιατί η επισκευή θα κόστιζε σχεδόν όσο αξίζει το αυτοκίνητο",
+     "why": "η επισκευή θα κόστιζε σχεδόν όσο αξίζει όλο το αυτοκίνητο"
+    },
+    {
+     "q": "Τι ήταν δύσκολο τις πρώτες εβδομάδες;",
+     "options": [
+      "Να πηγαίνει στη δουλειά",
+      "Να οργανώνει καλύτερα τα ψώνια του",
+      "Να βρει ποδήλατο",
+      "Να πουλήσει το αυτοκίνητο"
+     ],
+     "answer": "Να οργανώνει καλύτερα τα ψώνια του",
+     "why": "έπρεπε να οργανώνω καλύτερα τα ψώνια μου"
+    },
+    {
+     "q": "Τι κάνει όταν χρειάζεται αυτοκίνητο για ένα ταξίδι;",
+     "options": [
+      "Δεν ταξιδεύει πια",
+      "Παίρνει ταξί",
+      "Δανείζεται από φίλους",
+      "Νοικιάζει αυτοκίνητο για μία μέρα"
+     ],
+     "answer": "Νοικιάζει αυτοκίνητο για μία μέρα",
+     "why": "νοικιάζω αυτοκίνητο για μία μέρα"
+    }
+   ],
+   "gloss": {
+    "μηχανικός": "μηχανικός — mechanic",
+    "λογάριασα": "λογαριάζω — to work out, calculate",
+    "ασφάλεια": "ασφάλεια — insurance",
+    "τέλη κυκλοφορίας": "τέλη κυκλοφορίας — road tax",
+    "σέρβις": "σέρβις — servicing",
+    "μέσα μεταφοράς": "μέσα μεταφοράς — public transport",
+    "μεταχειρισμένο": "μεταχειρισμένος — second-hand",
+    "βράχηκα": "βρέχομαι — to get wet",
+    "μέχρι το κόκαλο": "μέχρι το κόκαλο — to the bone (soaked through)",
+    "νοικιάζω": "νοικιάζω — to rent",
+    "πατήσω το πόδι μου": "δεν πατάω το πόδι μου — not to set foot",
+    "podcast": "podcast — podcast"
+   }
+  },
+  {
+   "id": "l92-mono-stoudio",
+   "title": "Από το μεγάλο σπίτι σε ένα στούντιο",
+   "title_en": "From a big house to a studio flat",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Σε μια ραδιοφωνική εκπομπή, μια συνταξιούχος δασκάλα μιλά για μια μεγάλη αλλαγή στη ζωή της.",
+   "script": [
+    {
+     "speaker": "Συνταξιούχος",
+     "voice": "f",
+     "el": "Σαράντα χρόνια ζούσαμε σε ένα διώροφο σπίτι με κήπο. Εκεί μεγάλωσαν τα παιδιά μας, εκεί κάναμε όλες τις γιορτές. Όταν έφυγαν τα παιδιά και πέθανε ο άντρας μου, βρέθηκα μόνη σε εκατόν ογδόντα τετραγωνικά. Καθάριζα δωμάτια που δεν έμπαινε κανείς και πλήρωνα θέρμανση για άδειους χώρους.",
+     "en": "For forty years we lived in a two-storey house with a garden. That's where our children grew up, where we held all our celebrations. When the children left and my husband died, I found myself alone in a hundred and eighty square metres. I was cleaning rooms nobody went into and paying heating for empty spaces."
+    },
+    {
+     "speaker": "Συνταξιούχος",
+     "voice": "f",
+     "el": "Η απόφαση να το πουλήσω μου πήρε δύο χρόνια. Το πιο δύσκολο δεν ήταν το σπίτι, αλλά τα πράγματα: έπιπλα, βιβλία, πιάτα για σαράντα άτομα, τα σχολικά τετράδια των παιδιών. Έκανα έναν κανόνα: κράτησα μόνο ό,τι χρησιμοποιούσα ή αγαπούσα πραγματικά. Τα υπόλοιπα τα μοίρασα στα παιδιά, σε φίλους και σε μια φιλανθρωπική οργάνωση.",
+     "en": "The decision to sell it took me two years. The hardest thing wasn't the house but the things: furniture, books, plates for forty people, the children's school exercise books. I made a rule: I kept only what I really used or loved. I gave the rest to the children, to friends and to a charity."
+    },
+    {
+     "speaker": "Συνταξιούχος",
+     "voice": "f",
+     "el": "Τώρα μένω σε ένα στούντιο σαράντα τετραγωνικών στο κέντρο, με ένα μπαλκόνι γεμάτο γλάστρες. Το καθαρίζω σε μισή ώρα, και με τα χρήματα που περίσσεψαν ταξιδεύω δύο φορές τον χρόνο. Μου λείπει ο κήπος, δεν το κρύβω. Αλλά έχω ανακαλύψει ότι οι αναμνήσεις δεν χρειάζονται τετραγωνικά· τις κουβαλάω μαζί μου όπου κι αν πάω.",
+     "en": "Now I live in a forty-square-metre studio in the centre, with a balcony full of pots. I clean it in half an hour, and with the money left over I travel twice a year. I miss the garden, I won't hide it. But I've discovered that memories don't need square metres; I carry them with me wherever I go."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί αποφάσισε να πουλήσει το σπίτι;",
+     "options": [
+      "Γιατί χρειαζόταν χρήματα για τα παιδιά",
+      "Γιατί ήθελε να μετακομίσει σε χωριό",
+      "Γιατί το σπίτι είχε ζημιές",
+      "Γιατί έμενε μόνη σε ένα πολύ μεγάλο σπίτι"
+     ],
+     "answer": "Γιατί έμενε μόνη σε ένα πολύ μεγάλο σπίτι",
+     "why": "βρέθηκα μόνη σε εκατόν ογδόντα τετραγωνικά"
+    },
+    {
+     "q": "Ποιο ήταν το πιο δύσκολο κομμάτι;",
+     "options": [
+      "Να βρει καινούργιο σπίτι",
+      "Να πείσει τα παιδιά της",
+      "Να βρει αγοραστή",
+      "Να αποφασίσει τι θα κάνει με τα πράγματα"
+     ],
+     "answer": "Να αποφασίσει τι θα κάνει με τα πράγματα",
+     "why": "Το πιο δύσκολο δεν ήταν το σπίτι, αλλά τα πράγματα"
+    },
+    {
+     "q": "Τι κάνει με τα χρήματα που περίσσεψαν;",
+     "options": [
+      "Αγόρασε αυτοκίνητο",
+      "Ταξιδεύει δύο φορές τον χρόνο",
+      "Τα έχει στην τράπεζα",
+      "Τα έδωσε στα παιδιά της"
+     ],
+     "answer": "Ταξιδεύει δύο φορές τον χρόνο",
+     "why": "με τα χρήματα που περίσσεψαν ταξιδεύω δύο φορές τον χρόνο"
+    }
+   ],
+   "gloss": {
+    "διώροφο": "διώροφος — two-storey",
+    "τετραγωνικά": "τετραγωνικά (μέτρα) — square metres",
+    "θέρμανση": "θέρμανση — heating",
+    "έπιπλα": "έπιπλο — piece of furniture",
+    "τετράδια": "τετράδιο — exercise book",
+    "φιλανθρωπική": "φιλανθρωπικός — charitable",
+    "οργάνωση": "οργάνωση — organisation",
+    "στούντιο": "στούντιο — studio flat",
+    "γλάστρες": "γλάστρα — flowerpot",
+    "περίσσεψαν": "περισσεύω — to be left over",
+    "αναμνήσεις": "ανάμνηση — memory",
+    "κουβαλάω": "κουβαλάω — to carry"
+   }
+  },
+  {
+   "id": "l92-c1-paradoxo-epilogis",
+   "title": "Το παράδοξο της επιλογής",
+   "title_en": "The paradox of choice",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Σε μια εκπομπή για την οικονομία και την ψυχολογία, η παρουσιάστρια μιλά με έναν ερευνητή της συμπεριφοράς των καταναλωτών.",
+   "script": [
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Θεωρούμε αυτονόητο ότι όσο περισσότερες επιλογές έχουμε, τόσο καλύτερα. Εσείς υποστηρίζετε το αντίθετο;",
+     "en": "We take it for granted that the more choices we have, the better. Are you arguing the opposite?"
+    },
+    {
+     "speaker": "Ερευνητής",
+     "voice": "m",
+     "el": "Όχι ακριβώς το αντίθετο. Η δυνατότητα επιλογής είναι πολύτιμη. Όμως, πέρα από ένα σημείο, οι πολλές επιλογές δεν μας ελευθερώνουν, αλλά μας παραλύουν. Αυτό ο ψυχολόγος Μπάρι Σβαρτς το ονόμασε «παράδοξο της επιλογής».",
+     "en": "Not exactly the opposite. Having a choice is valuable. But beyond a certain point, many choices don't free us; they paralyse us. The psychologist Barry Schwartz called this the 'paradox of choice'."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Υπάρχει κάποιο πείραμα που το δείχνει;",
+     "en": "Is there an experiment that shows it?"
+    },
+    {
+     "speaker": "Ερευνητής",
+     "voice": "m",
+     "el": "Το πιο γνωστό έγινε σε ένα σούπερ μάρκετ στην Καλιφόρνια. Σε έναν πάγκο γευσιγνωσίας, οι ερευνήτριες έβαζαν άλλοτε είκοσι τέσσερις γεύσεις μαρμελάδας και άλλοτε μόνο έξι. Ο μεγάλος πάγκος τραβούσε περισσότερο κόσμο, αλλά από όσους δοκίμαζαν στον μικρό, περίπου το ένα τρίτο αγόραζε μαρμελάδα, ενώ στον μεγάλο αγόραζαν μόλις τρεις στους εκατό.",
+     "en": "The best known took place in a supermarket in California. At a tasting stand, the researchers set out sometimes twenty-four flavours of jam and sometimes only six. The big stand attracted more people, but of those who tasted at the small one, about a third bought jam, while at the big one only three in a hundred bought."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Και όταν τελικά διαλέγουμε, είμαστε πιο ικανοποιημένοι;",
+     "en": "And when we finally choose, are we more satisfied?"
+    },
+    {
+     "speaker": "Ερευνητής",
+     "voice": "m",
+     "el": "Συχνά όχι. Όσο περισσότερες είναι οι εναλλακτικές, τόσο πιο εύκολα φανταζόμαστε ότι κάποια από αυτές που απορρίψαμε θα ήταν καλύτερη, και η χαρά μας μειώνεται. Ιδιαίτερα δυστυχισμένοι είναι οι λεγόμενοι «μεγιστοποιητές», όσοι θέλουν πάντα το απόλυτα καλύτερο. Αντίθετα, όσοι αρκούνται σε κάτι που είναι «αρκετά καλό» δηλώνουν, κατά κανόνα, πιο ευχαριστημένοι.",
+     "en": "Often not. The more alternatives there are, the more easily we imagine that one of those we rejected would have been better, and our pleasure diminishes. Particularly unhappy are the so-called 'maximisers', those who always want the absolute best. By contrast, those who settle for something 'good enough' say, as a rule, that they are more satisfied."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι υποστηρίζει ο ερευνητής για τις πολλές επιλογές;",
+     "options": [
+      "Ότι είναι πάντα επιζήμιες",
+      "Ότι δεν έχουν καμία επίδραση",
+      "Ότι μας κάνουν πάντα πιο ελεύθερους",
+      "Ότι πέρα από ένα σημείο μας παραλύουν"
+     ],
+     "answer": "Ότι πέρα από ένα σημείο μας παραλύουν",
+     "why": "πέρα από ένα σημείο, οι πολλές επιλογές δεν μας ελευθερώνουν, αλλά μας παραλύουν"
+    },
+    {
+     "q": "Τι έδειξε το πείραμα με τις μαρμελάδες;",
+     "options": [
+      "Ότι στον μικρό πάγκο αγόραζε περίπου το ένα τρίτο, ενώ στον μεγάλο τρεις στους εκατό",
+      "Ότι ο μεγάλος πάγκος πουλούσε περισσότερο",
+      "Ότι κανείς δεν αγόραζε μαρμελάδα",
+      "Ότι ο μικρός πάγκος τραβούσε περισσότερο κόσμο"
+     ],
+     "answer": "Ότι στον μικρό πάγκο αγόραζε περίπου το ένα τρίτο, ενώ στον μεγάλο τρεις στους εκατό",
+     "why": "περίπου το ένα τρίτο αγόραζε μαρμελάδα, ενώ στον μεγάλο αγόραζαν μόλις τρεις στους εκατό"
+    },
+    {
+     "q": "Γιατί, κατά τον ερευνητή, μειώνεται η ικανοποίηση όταν οι επιλογές είναι πολλές;",
+     "options": [
+      "Γιατί ξοδεύουμε περισσότερα χρήματα",
+      "Γιατί φανταζόμαστε ότι κάποια επιλογή που απορρίψαμε θα ήταν καλύτερη",
+      "Γιατί κουραζόμαστε σωματικά",
+      "Γιατί τα προϊόντα είναι χειρότερης ποιότητας"
+     ],
+     "answer": "Γιατί φανταζόμαστε ότι κάποια επιλογή που απορρίψαμε θα ήταν καλύτερη",
+     "why": "τόσο πιο εύκολα φανταζόμαστε ότι κάποια από αυτές που απορρίψαμε θα ήταν καλύτερη"
+    },
+    {
+     "q": "Ποιοι δηλώνουν, κατά κανόνα, πιο ευχαριστημένοι;",
+     "options": [
+      "Όσοι έχουν τις περισσότερες επιλογές",
+      "Όσοι αρκούνται σε κάτι αρκετά καλό",
+      "Όσοι ψωνίζουν σε μικρά καταστήματα",
+      "Οι μεγιστοποιητές"
+     ],
+     "answer": "Όσοι αρκούνται σε κάτι αρκετά καλό",
+     "why": "όσοι αρκούνται σε κάτι που είναι «αρκετά καλό» δηλώνουν, κατά κανόνα, πιο ευχαριστημένοι"
+    }
+   ],
+   "gloss": {
+    "καταναλωτών": "καταναλωτής — consumer",
+    "αυτονόητο": "αυτονόητος — self-evident",
+    "παραλύουν": "παραλύω — to paralyse",
+    "παράδοξο": "παράδοξο — paradox",
+    "πάγκο": "πάγκος — stand, counter",
+    "γευσιγνωσίας": "γευσιγνωσία — tasting",
+    "μαρμελάδας": "μαρμελάδα — jam",
+    "εναλλακτικές": "εναλλακτική — alternative",
+    "απορρίψαμε": "απορρίπτω — to reject",
+    "μεγιστοποιητές": "μεγιστοποιητής — maximiser",
+    "αρκούνται": "αρκούμαι σε — to settle for",
+    "κατά κανόνα": "κατά κανόνα — as a rule"
+   }
+  },
+  {
+   "id": "l92-c1-pseudeis-anamniseis",
+   "title": "Όταν η μνήμη μάς ξεγελά",
+   "title_en": "When memory deceives us",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε την αρχή μιας διάλεξης για τη γνωστική ψυχολογία σε ένα πανεπιστήμιο.",
+   "script": [
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Οι περισσότεροι φανταζόμαστε τη μνήμη σαν μια βιντεοκάμερα: καταγράφει ό,τι ζούμε, και όταν θυμόμαστε, απλώς ξαναπαίζουμε την ταινία. Δεκαετίες έρευνας δείχνουν ότι η εικόνα αυτή είναι λανθασμένη. Κάθε φορά που ανακαλούμε μια ανάμνηση, στην ουσία την ξαναχτίζουμε, και στη διαδικασία αυτή μπορούν να παρεισφρήσουν λάθη.",
+     "en": "Most of us imagine memory as a video camera: it records what we live through, and when we remember, we simply replay the film. Decades of research show that this picture is wrong. Every time we recall a memory, we are in essence rebuilding it, and errors can creep in during this process."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Η Αμερικανίδα ψυχολόγος Ελίζαμπεθ Λόφτους έδειξε στη δεκαετία του 1970 πόσο εύκολα επηρεάζεται η μνήμη από τη διατύπωση μιας ερώτησης. Έδειχνε σε ανθρώπους ένα βίντεο με τη σύγκρουση δύο αυτοκινήτων και ύστερα ρωτούσε με τι ταχύτητα κινούνταν όταν «χτύπησαν» ή όταν «συνετρίβησαν» το ένα πάνω στο άλλο. Όσοι άκουγαν το δεύτερο ρήμα υπολόγιζαν μεγαλύτερη ταχύτητα και, μια εβδομάδα αργότερα, πολλοί «θυμούνταν» σπασμένα τζάμια που δεν υπήρχαν στο βίντεο.",
+     "en": "In the 1970s the American psychologist Elizabeth Loftus showed how easily memory is influenced by the wording of a question. She showed people a video of two cars colliding and then asked how fast they were going when they 'hit' or 'smashed into' each other. Those who heard the second verb estimated a higher speed and, a week later, many 'remembered' broken glass that wasn't in the video."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Σε μεταγενέστερες μελέτες, η Λόφτους και οι συνεργάτες της κατάφεραν να εμφυτεύσουν σε ορισμένους συμμετέχοντες ολόκληρες ψευδείς αναμνήσεις, όπως ότι είχαν χαθεί σε ένα εμπορικό κέντρο ως παιδιά. Τα ευρήματα αυτά έχουν σοβαρές συνέπειες, ιδίως για τις μαρτυρίες στα δικαστήρια. Μια ανάμνηση μπορεί να είναι ζωντανή, λεπτομερής και απολύτως ειλικρινής, και παρ’ όλα αυτά να είναι λανθασμένη.",
+     "en": "In later studies, Loftus and her colleagues managed to implant whole false memories in some participants, such as that they had been lost in a shopping centre as children. These findings have serious consequences, especially for witness testimony in the courts. A memory can be vivid, detailed and entirely sincere, and nevertheless be wrong."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια εικόνα της μνήμης χαρακτηρίζει η καθηγήτρια λανθασμένη;",
+     "options": [
+      "Ότι η μνήμη επηρεάζεται από τα συναισθήματα",
+      "Ότι η μνήμη ξεχνά με τον χρόνο",
+      "Ότι η μνήμη λειτουργεί σαν βιντεοκάμερα",
+      "Ότι η μνήμη βελτιώνεται με την εξάσκηση"
+     ],
+     "answer": "Ότι η μνήμη λειτουργεί σαν βιντεοκάμερα",
+     "why": "φανταζόμαστε τη μνήμη σαν μια βιντεοκάμερα"
+    },
+    {
+     "q": "Τι συμβαίνει, κατά την καθηγήτρια, όταν ανακαλούμε μια ανάμνηση;",
+     "options": [
+      "Την ξαναχτίζουμε",
+      "Την αντιγράφουμε ακριβώς",
+      "Την ξεχνάμε πιο γρήγορα",
+      "Τη σβήνουμε"
+     ],
+     "answer": "Την ξαναχτίζουμε",
+     "why": "στην ουσία την ξαναχτίζουμε"
+    },
+    {
+     "q": "Τι έδειξε το πείραμα με τη σύγκρουση των αυτοκινήτων;",
+     "options": [
+      "Ότι οι άνθρωποι θυμούνται τα πάντα σωστά",
+      "Ότι η διατύπωση της ερώτησης επηρεάζει τη μνήμη",
+      "Ότι κανείς δεν πρόσεξε τη σύγκρουση",
+      "Ότι οι άνθρωποι υποτιμούν την ταχύτητα"
+     ],
+     "answer": "Ότι η διατύπωση της ερώτησης επηρεάζει τη μνήμη",
+     "why": "πόσο εύκολα επηρεάζεται η μνήμη από τη διατύπωση μιας ερώτησης"
+    },
+    {
+     "q": "Γιατί τα ευρήματα έχουν σοβαρές συνέπειες για τα δικαστήρια;",
+     "options": [
+      "Γιατί οι δικαστές δεν εμπιστεύονται τους ψυχολόγους",
+      "Γιατί οι μάρτυρες λένε συχνά ψέματα",
+      "Γιατί τα βίντεο δεν γίνονται δεκτά",
+      "Γιατί μια ειλικρινής και λεπτομερής ανάμνηση μπορεί να είναι λανθασμένη"
+     ],
+     "answer": "Γιατί μια ειλικρινής και λεπτομερής ανάμνηση μπορεί να είναι λανθασμένη",
+     "why": "Μια ανάμνηση μπορεί να είναι ζωντανή, λεπτομερής και απολύτως ειλικρινής, και παρ’ όλα αυτά να είναι λανθασμένη"
+    }
+   ],
+   "gloss": {
+    "γνωστική": "γνωστικός — cognitive",
+    "βιντεοκάμερα": "βιντεοκάμερα — video camera",
+    "λανθασμένη": "λανθασμένος — mistaken",
+    "ανακαλούμε": "ανακαλώ — to recall",
+    "παρεισφρήσουν": "παρεισφρέω — to creep in",
+    "διατύπωση": "διατύπωση — wording",
+    "συνετρίβησαν": "συντρίβομαι — to smash, crash",
+    "μεταγενέστερες": "μεταγενέστερος — later, subsequent",
+    "εμφυτεύσουν": "εμφυτεύω — to implant",
+    "ψευδείς": "ψευδής — false",
+    "μαρτυρίες": "μαρτυρία — testimony",
+    "ειλικρινής": "ειλικρινής — sincere"
+   }
+  }
+ ]
+}
