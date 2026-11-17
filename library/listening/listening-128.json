@@ -1,0 +1,858 @@
+{
+ "items": [
+  {
+   "id": "l128-ann-roloi-dimarxeiou",
+   "title": "Σιωπή στο ρολόι του δημαρχείου",
+   "title_en": "Silence from the town hall clock",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Μένετε στο κέντρο μιας επαρχιακής πόλης. Ακούτε μια ανακοίνωση του δήμου από το τοπικό ραδιόφωνο.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Ο Δήμος ενημερώνει τους κατοίκους ότι από τη Δευτέρα το ιστορικό ρολόι του δημαρχείου θα σταματήσει να λειτουργεί για περίπου έξι εβδομάδες. Ο μηχανισμός του, που κατασκευάστηκε στις αρχές του περασμένου αιώνα, θα αποσυναρμολογηθεί και θα μεταφερθεί σε ειδικό εργαστήριο για συντήρηση.",
+     "en": "The Municipality informs residents that from Monday the historic town hall clock will stop working for about six weeks. Its mechanism, built at the beginning of the last century, will be dismantled and taken to a specialist workshop for maintenance."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Κατά τη διάρκεια των εργασιών η καμπάνα δεν θα χτυπά τις ώρες. Επίσης, το πεζοδρόμιο μπροστά στην κεντρική είσοδο θα είναι κλειστό, και οι πολίτες που έχουν δουλειά στο δημαρχείο θα εξυπηρετούνται από την πλαϊνή είσοδο, στην οδό Ερμού.",
+     "en": "While the work is going on, the bell will not strike the hours. The pavement in front of the main entrance will also be closed, and citizens with business at the town hall will be served at the side entrance, on Ermou Street."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Όσοι έχουν παλιές φωτογραφίες του ρολογιού καλούνται να τις φέρουν στο γραφείο πολιτισμού. Θα χρησιμοποιηθούν σε μια μικρή έκθεση για την ιστορία του, που θα εγκαινιαστεί μαζί με την επαναλειτουργία του.",
+     "en": "Anyone who has old photographs of the clock is invited to bring them to the culture office. They will be used in a small exhibition about its history, which will open when the clock starts working again."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θα σταματήσει το ρολόι;",
+     "options": [
+      "Γιατί θα αντικατασταθεί με ψηφιακό",
+      "Γιατί ενοχλούσε τους κατοίκους",
+      "Γιατί θα βαφτεί το δημαρχείο",
+      "Γιατί ο μηχανισμός του θα συντηρηθεί σε ειδικό εργαστήριο"
+     ],
+     "answer": "Γιατί ο μηχανισμός του θα συντηρηθεί σε ειδικό εργαστήριο",
+     "why": "θα μεταφερθεί σε ειδικό εργαστήριο για συντήρηση"
+    },
+    {
+     "q": "Από πού θα εξυπηρετούνται οι πολίτες;",
+     "options": [
+      "Από την πλαϊνή είσοδο, στην οδό Ερμού",
+      "Από το γραφείο πολιτισμού",
+      "Μόνο ηλεκτρονικά",
+      "Από ένα κοντινό σχολείο"
+     ],
+     "answer": "Από την πλαϊνή είσοδο, στην οδό Ερμού",
+     "why": "θα εξυπηρετούνται από την πλαϊνή είσοδο, στην οδό Ερμού"
+    },
+    {
+     "q": "Τι ζητά ο δήμος από τους κατοίκους;",
+     "options": [
+      "Να φέρουν παλιές φωτογραφίες του ρολογιού",
+      "Να μην παρκάρουν στο κέντρο",
+      "Να ψηφίσουν για το χρώμα του ρολογιού",
+      "Να δώσουν χρήματα για την επισκευή"
+     ],
+     "answer": "Να φέρουν παλιές φωτογραφίες του ρολογιού",
+     "why": "Όσοι έχουν παλιές φωτογραφίες του ρολογιού καλούνται να τις φέρουν στο γραφείο πολιτισμού"
+    }
+   ],
+   "gloss": {
+    "μηχανισμός": "μηχανισμός — mechanism",
+    "αποσυναρμολογηθεί": "αποσυναρμολογώ — to dismantle",
+    "συντήρηση": "συντήρηση — maintenance",
+    "καμπάνα": "καμπάνα — bell",
+    "πεζοδρόμιο": "πεζοδρόμιο — pavement",
+    "εξυπηρετούνται": "εξυπηρετούμαι — to be served",
+    "πλαϊνή": "πλαϊνός — side (adj.)",
+    "έκθεση": "έκθεση — exhibition",
+    "εγκαινιαστεί": "εγκαινιάζω — to open, inaugurate",
+    "επαναλειτουργία": "επαναλειτουργία — reopening, resumed operation"
+   }
+  },
+  {
+   "id": "l128-vm-geoponos-lemonia",
+   "title": "Μήνυμα από τον γεωπόνο για τη λεμονιά",
+   "title_en": "A message from the agronomist about the lemon tree",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Η λεμονιά στην αυλή σας έχει πρόβλημα και ζητήσατε τη γνώμη ενός γεωπόνου. Ακούτε το μήνυμά του στον τηλεφωνητή.",
+   "script": [
+    {
+     "speaker": "Γεωπόνος",
+     "voice": "m",
+     "el": "Καλημέρα, ο Νίκος Βλάχος είμαι, ο γεωπόνος. Είδα τις φωτογραφίες που μου στείλατε. Τα κολλώδη φύλλα και η μαύρη σκόνη πάνω τους δείχνουν ότι η λεμονιά σας έχει κοκκοειδή, ένα μικρό έντομο που ρουφάει τους χυμούς του φυτού. Δεν είναι κάτι σοβαρό, αν το αντιμετωπίσουμε έγκαιρα.",
+     "en": "Good morning, it's Nikos Vlachos, the agronomist. I saw the photos you sent me. The sticky leaves and the black dust on them show that your lemon tree has scale insects, a small insect that sucks the plant's sap. It's nothing serious if we deal with it in time."
+    },
+    {
+     "speaker": "Γεωπόνος",
+     "voice": "m",
+     "el": "Δεν χρειάζονται ισχυρά φάρμακα. Ψεκάστε το δέντρο με θερινό λάδι, νωρίς το πρωί ή αργά το απόγευμα, ποτέ με δυνατό ήλιο, γιατί καίγονται τα φύλλα. Κόψτε επίσης τα κλαδιά που είναι πολύ πυκνά, για να αερίζεται το εσωτερικό του δέντρου.",
+     "en": "No strong chemicals are needed. Spray the tree with summer oil, early in the morning or late in the afternoon, never in strong sun, because the leaves get burnt. Also cut the branches that are too dense, so that the inside of the tree gets air."
+    },
+    {
+     "speaker": "Γεωπόνος",
+     "voice": "m",
+     "el": "Θα περάσω από εκεί την επόμενη Πέμπτη, γύρω στις δέκα, να δω πώς πάει. Αν δεν είστε σπίτι, αφήστε μου ανοιχτή την πόρτα της αυλής. Γεια σας.",
+     "en": "I'll drop by next Thursday, around ten, to see how it's going. If you're not at home, leave the yard door open for me. Goodbye."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πρόβλημα έχει η λεμονιά;",
+     "options": [
+      "Έχει κοκκοειδή, ένα έντομο που ρουφάει τους χυμούς της",
+      "Είναι πολύ γέρικη",
+      "Της λείπει νερό",
+      "Έχει πάθει ζημιά από τον παγετό"
+     ],
+     "answer": "Έχει κοκκοειδή, ένα έντομο που ρουφάει τους χυμούς της",
+     "why": "η λεμονιά σας έχει κοκκοειδή"
+    },
+    {
+     "q": "Πότε πρέπει να γίνει ο ψεκασμός;",
+     "options": [
+      "Τη νύχτα",
+      "Νωρίς το πρωί ή αργά το απόγευμα",
+      "Μόνο όταν βρέχει",
+      "Το μεσημέρι"
+     ],
+     "answer": "Νωρίς το πρωί ή αργά το απόγευμα",
+     "why": "νωρίς το πρωί ή αργά το απόγευμα"
+    },
+    {
+     "q": "Τι ζητά ο γεωπόνος, αν δεν είναι κανείς σπίτι;",
+     "options": [
+      "Να αλλάξουν τη μέρα",
+      "Να του τηλεφωνήσουν",
+      "Να αφήσουν το κλειδί στον γείτονα",
+      "Να του αφήσουν ανοιχτή την πόρτα της αυλής"
+     ],
+     "answer": "Να του αφήσουν ανοιχτή την πόρτα της αυλής",
+     "why": "αφήστε μου ανοιχτή την πόρτα της αυλής"
+    }
+   ],
+   "gloss": {
+    "λεμονιά": "λεμονιά — lemon tree",
+    "γεωπόνου": "γεωπόνος — agronomist",
+    "κολλώδη": "κολλώδης — sticky",
+    "κοκκοειδή": "κοκκοειδή — scale insects",
+    "ρουφάει": "ρουφάω — to suck",
+    "χυμούς": "χυμός — juice; (of plants) sap",
+    "έγκαιρα": "έγκαιρα — in time",
+    "Ψεκάστε": "ψεκάζω — to spray",
+    "θερινό λάδι": "θερινό λάδι — summer (horticultural) oil",
+    "κλαδιά": "κλαδί — branch",
+    "αερίζεται": "αερίζομαι — to get air, be ventilated"
+   }
+  },
+  {
+   "id": "l128-dial-party-trampolino",
+   "title": "Πάρτι στα τραμπολίνο ή στην αυλή;",
+   "title_en": "A party at the trampoline park or in the yard?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Η Ρένα και ο Θοδωρής οργανώνουν τα γενέθλια της κόρης τους, της Ιφιγένειας, που κλείνει τα οκτώ.",
+   "script": [
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Θοδωρή, πρέπει να αποφασίσουμε για το πάρτι της Ιφιγένειας. Εκείνη θέλει οπωσδήποτε να το κάνει στο καινούργιο πάρκο με τα τραμπολίνο, όπως έκαναν και δύο συμμαθητές της.",
+     "en": "Thodoris, we need to decide about Ifigeneia's party. She absolutely wants to have it at the new trampoline park, as two of her classmates did."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Το είδα στο διαδίκτυο. Είναι σχεδόν είκοσι ευρώ το παιδί, και θέλει να καλέσει όλη την τάξη, είκοσι τέσσερα παιδιά. Δεν είναι λίγα. Και φοβάμαι λίγο και για τραυματισμούς.",
+     "en": "I saw it online. It's almost twenty euros per child, and she wants to invite the whole class, twenty-four children. That's not cheap. And I'm a bit worried about injuries too."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Για την ασφάλεια ρώτησα: έχουν εκπαιδευμένους επόπτες και δεν αφήνουν πάνω από έξι παιδιά σε κάθε τραμπολίνο. Για το κόστος όμως έχεις δίκιο. Τι λες να το κάνουμε στο σπίτι, με παιχνίδια στην αυλή;",
+     "en": "I asked about safety: they have trained supervisors and don't allow more than six children on each trampoline. But you're right about the cost. What do you say we do it at home, with games in the yard?"
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Στην αυλή δεν χωράνε είκοσι τέσσερα παιδιά. Προτείνω κάτι ενδιάμεσο: το πάρκο, αλλά μόνο με τους πιο στενούς της φίλους, οκτώ παιδιά, και για την τάξη να στείλουμε μια τούρτα στο σχολείο.",
+     "en": "Twenty-four children won't fit in the yard. I suggest something in between: the park, but only with her closest friends, eight children, and for the class we send a cake to school."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θέλει η Ιφιγένεια το πάρκο με τα τραμπολίνο;",
+     "options": [
+      "Γιατί είναι κοντά στο σπίτι",
+      "Γιατί είναι δωρεάν",
+      "Γιατί το πρότεινε η δασκάλα",
+      "Γιατί έκαναν εκεί πάρτι και δύο συμμαθητές της"
+     ],
+     "answer": "Γιατί έκαναν εκεί πάρτι και δύο συμμαθητές της",
+     "why": "όπως έκαναν και δύο συμμαθητές της"
+    },
+    {
+     "q": "Τι ανησυχεί τον Θοδωρή;",
+     "options": [
+      "Ο καιρός",
+      "Το κόστος και οι τραυματισμοί",
+      "Η απόσταση",
+      "Ο θόρυβος"
+     ],
+     "answer": "Το κόστος και οι τραυματισμοί",
+     "why": "φοβάμαι λίγο και για τραυματισμούς"
+    },
+    {
+     "q": "Τι προτείνει τελικά ο Θοδωρής;",
+     "options": [
+      "Πάρκο με οκτώ στενούς φίλους και τούρτα για την τάξη στο σχολείο",
+      "Πάρτι στην αυλή για όλη την τάξη",
+      "Να πληρώσουν οι γονείς των φίλων",
+      "Να αναβληθεί το πάρτι"
+     ],
+     "answer": "Πάρκο με οκτώ στενούς φίλους και τούρτα για την τάξη στο σχολείο",
+     "why": "το πάρκο, αλλά μόνο με τους πιο στενούς της φίλους"
+    }
+   ],
+   "gloss": {
+    "τραμπολίνο": "τραμπολίνο — trampoline",
+    "συμμαθητές": "συμμαθητής — classmate",
+    "διαδίκτυο": "διαδίκτυο — internet",
+    "τραυματισμούς": "τραυματισμός — injury",
+    "εκπαιδευμένους": "εκπαιδευμένος — trained",
+    "επόπτες": "επόπτης — supervisor",
+    "κόστος": "κόστος — cost",
+    "ενδιάμεσο": "ενδιάμεσος — in between, intermediate",
+    "στενούς": "στενός φίλος — close friend",
+    "τούρτα": "τούρτα — (birthday) cake"
+   }
+  },
+  {
+   "id": "l128-int-archeio-dimou",
+   "title": "Η φύλακας της μνήμης της πόλης",
+   "title_en": "The keeper of the town's memory",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη στο τοπικό ραδιόφωνο με την υπεύθυνη του ιστορικού αρχείου του δήμου.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Κυρία Σαββίδου, τι ακριβώς φυλάσσεται σε ένα δημοτικό αρχείο;",
+     "en": "Ms Savvidou, what exactly is kept in a municipal archive?"
+    },
+    {
+     "speaker": "Αρχειονόμος",
+     "voice": "f",
+     "el": "Σχεδόν τα πάντα για την καθημερινή ζωή της πόλης εδώ και διακόσια χρόνια: πρακτικά του δημοτικού συμβουλίου, άδειες για καταστήματα, σχέδια κτιρίων, ακόμη και επιστολές πολιτών με παράπονα για τον φωτισμό των δρόμων. Για τους ιστορικούς είναι θησαυρός.",
+     "en": "Almost everything about the daily life of the town over the last two hundred years: minutes of the town council, licences for shops, building plans, even letters from citizens complaining about the street lighting. For historians it's a treasure."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιος έρχεται να τα συμβουλευτεί;",
+     "en": "Who comes to consult them?"
+    },
+    {
+     "speaker": "Αρχειονόμος",
+     "voice": "f",
+     "el": "Περισσότεροι απ' όσους φαντάζεστε, και όχι μόνο ερευνητές. Πολλοί έρχονται για να βρουν τις ρίζες της οικογένειάς τους ή επειδή χρειάζονται το παλιό σχέδιο του σπιτιού τους για μια πολεοδομική υπόθεση.",
+     "en": "More people than you'd imagine, and not only researchers. Many come to find their family roots, or because they need the old plan of their house for a planning case."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και ποια είναι η μεγαλύτερη πρόκληση;",
+     "en": "And what is the biggest challenge?"
+    },
+    {
+     "speaker": "Αρχειονόμος",
+     "voice": "f",
+     "el": "Η υγρασία, χωρίς αμφιβολία. Πολλά έγγραφα έμειναν για χρόνια σε υπόγεια. Τώρα τα ψηφιοποιούμε σιγά σιγά, ώστε το κοινό να μπορεί να τα βλέπει στην οθόνη χωρίς να πιάνει στα χέρια του τα πρωτότυπα.",
+     "en": "Damp, without a doubt. Many documents stayed in basements for years. Now we're digitising them little by little, so that the public can see them on screen without handling the originals."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είδους έγγραφα υπάρχουν στο αρχείο;",
+     "options": [
+      "Μόνο βιβλία λογοτεχνίας",
+      "Πρακτικά του δημοτικού συμβουλίου, άδειες, σχέδια κτιρίων και επιστολές πολιτών",
+      "Μόνο φωτογραφίες",
+      "Μόνο δικαστικές αποφάσεις"
+     ],
+     "answer": "Πρακτικά του δημοτικού συμβουλίου, άδειες, σχέδια κτιρίων και επιστολές πολιτών",
+     "why": "πρακτικά του δημοτικού συμβουλίου, άδειες για καταστήματα, σχέδια κτιρίων"
+    },
+    {
+     "q": "Γιατί έρχονται στο αρχείο πολλοί απλοί πολίτες;",
+     "options": [
+      "Για να δουλέψουν εθελοντικά",
+      "Για να πληρώσουν λογαριασμούς",
+      "Για να δανειστούν βιβλία",
+      "Για να βρουν τις ρίζες της οικογένειάς τους ή το σχέδιο του σπιτιού τους"
+     ],
+     "answer": "Για να βρουν τις ρίζες της οικογένειάς τους ή το σχέδιο του σπιτιού τους",
+     "why": "Πολλοί έρχονται για να βρουν τις ρίζες της οικογένειάς τους"
+    },
+    {
+     "q": "Γιατί ψηφιοποιούνται τα έγγραφα;",
+     "options": [
+      "Γιατί το κτίριο θα κλείσει",
+      "Για να βλέπει το κοινό τα έγγραφα στην οθόνη χωρίς να αγγίζει τα πρωτότυπα",
+      "Για να μη χρειάζεται πια αρχειονόμος",
+      "Για να πουληθούν τα πρωτότυπα"
+     ],
+     "answer": "Για να βλέπει το κοινό τα έγγραφα στην οθόνη χωρίς να αγγίζει τα πρωτότυπα",
+     "why": "ώστε το κοινό να μπορεί να τα βλέπει στην οθόνη"
+    }
+   ],
+   "gloss": {
+    "αρχείου": "αρχείο — archive",
+    "φυλάσσεται": "φυλάσσομαι — to be kept",
+    "πρακτικά": "πρακτικά — minutes (of a meeting)",
+    "δημοτικού συμβουλίου": "δημοτικό συμβούλιο — town council",
+    "άδειες": "άδεια — licence, permit",
+    "παράπονα": "παράπονο — complaint",
+    "φωτισμό": "φωτισμός — lighting",
+    "θησαυρός": "θησαυρός — treasure",
+    "συμβουλευτεί": "συμβουλεύομαι — to consult",
+    "ρίζες": "ρίζα — root",
+    "πολεοδομική": "πολεοδομικός — town-planning (adj.)",
+    "υγρασία": "υγρασία — damp, humidity",
+    "υπόγεια": "υπόγειο — basement",
+    "ψηφιοποιούμε": "ψηφιοποιώ — to digitise",
+    "πρωτότυπα": "πρωτότυπο — original"
+   }
+  },
+  {
+   "id": "l128-rep-gala-automato",
+   "title": "Φρέσκο γάλα από τον αυτόματο πωλητή",
+   "title_en": "Fresh milk from a vending machine",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ από μια περιφερειακή ειδησεογραφική εκπομπή.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Στην πλατεία ενός χωριού της Θεσσαλίας, δίπλα στο καφενείο, υπάρχει από την άνοιξη ένα ασυνήθιστο μηχάνημα: ένας αυτόματος πωλητής φρέσκου γάλακτος. Τον τοποθέτησαν δύο αδέλφια κτηνοτρόφοι, που έχουν μια μικρή φάρμα με σαράντα αγελάδες λίγα χιλιόμετρα έξω από το χωριό.",
+     "en": "In the square of a village in Thessaly, next to the café, there has been an unusual machine since the spring: a fresh-milk vending machine. It was put there by two brothers who are livestock farmers and have a small farm with forty cows a few kilometres outside the village."
+    },
+    {
+     "speaker": "Κτηνοτρόφος",
+     "voice": "m",
+     "el": "Οι γαλακτοβιομηχανίες μάς πλήρωναν πολύ χαμηλή τιμή, ενώ στο σούπερ μάρκετ το γάλα πουλιόταν ακριβά. Σκεφτήκαμε να το πουλάμε κατευθείαν στον κόσμο. Το γεμίζουμε κάθε πρωί, και ό,τι δεν πουληθεί μέσα σε είκοσι τέσσερις ώρες το αποσύρουμε.",
+     "en": "The dairy companies paid us a very low price, while in the supermarket milk was sold at a high price. We thought of selling it directly to people. We fill it every morning, and whatever isn't sold within twenty-four hours we take out."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Οι πελάτες φέρνουν το δικό τους γυάλινο μπουκάλι ή αγοράζουν ένα από το διπλανό μηχάνημα. Οι κτηνοτρόφοι τους συμβουλεύουν να βράζουν το γάλα πριν το πιουν, γιατί δεν είναι παστεριωμένο. Η επιτυχία ήταν τέτοια, ώστε σκέφτονται να βάλουν ακόμη έναν πωλητή στην κοντινή πόλη.",
+     "en": "Customers bring their own glass bottle or buy one from the machine next to it. The farmers advise them to boil the milk before drinking it, because it isn't pasteurised. The success has been such that they're thinking of putting another machine in the nearby town."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί αποφάσισαν τα αδέλφια να πουλάνε το γάλα απευθείας;",
+     "options": [
+      "Γιατί τους το ζήτησε ο δήμος",
+      "Γιατί οι γαλακτοβιομηχανίες πλήρωναν πολύ χαμηλή τιμή",
+      "Γιατί τους περίσσευε γάλα το καλοκαίρι",
+      "Γιατί έκλεισε το σούπερ μάρκετ"
+     ],
+     "answer": "Γιατί οι γαλακτοβιομηχανίες πλήρωναν πολύ χαμηλή τιμή",
+     "why": "Οι γαλακτοβιομηχανίες μάς πλήρωναν πολύ χαμηλή τιμή"
+    },
+    {
+     "q": "Τι γίνεται με το γάλα που δεν πουλιέται μέσα σε μία μέρα;",
+     "options": [
+      "Το δίνουν στο καφενείο",
+      "Πουλιέται σε χαμηλότερη τιμή",
+      "Γίνεται τυρί",
+      "Το αποσύρουν"
+     ],
+     "answer": "Το αποσύρουν",
+     "why": "ό,τι δεν πουληθεί μέσα σε είκοσι τέσσερις ώρες το αποσύρουμε"
+    },
+    {
+     "q": "Τι συμβουλεύουν οι κτηνοτρόφοι τους πελάτες;",
+     "options": [
+      "Να βράζουν το γάλα πριν το πιουν",
+      "Να το πίνουν αμέσως",
+      "Να το αραιώνουν με νερό",
+      "Να το βάζουν στην κατάψυξη"
+     ],
+     "answer": "Να βράζουν το γάλα πριν το πιουν",
+     "why": "να βράζουν το γάλα πριν το πιουν"
+    }
+   ],
+   "gloss": {
+    "ασυνήθιστο": "ασυνήθιστος — unusual",
+    "μηχάνημα": "μηχάνημα — machine",
+    "αυτόματος πωλητής": "αυτόματος πωλητής — vending machine",
+    "κτηνοτρόφοι": "κτηνοτρόφος — livestock farmer",
+    "φάρμα": "φάρμα — farm",
+    "αγελάδες": "αγελάδα — cow",
+    "γαλακτοβιομηχανίες": "γαλακτοβιομηχανία — dairy company",
+    "κατευθείαν": "κατευθείαν — directly",
+    "αποσύρουμε": "αποσύρω — to withdraw, take off sale",
+    "γυάλινο": "γυάλινος — glass (adj.)",
+    "βράζουν": "βράζω — to boil",
+    "παστεριωμένο": "παστεριωμένος — pasteurised"
+   }
+  },
+  {
+   "id": "l128-rep-scholeio-treis-mathites",
+   "title": "Ένα σχολείο με τρεις μαθητές",
+   "title_en": "A school with three pupils",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ για ένα μικρό σχολείο σε ορεινό χωριό της Ηπείρου.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Το δημοτικό σχολείο του χωριού έχει φέτος μόλις τρεις μαθητές: δύο αδέλφια, της πρώτης και της τέταρτης τάξης, και ένα κορίτσι της έκτης. Τους διδάσκει μία δασκάλα, που ταξιδεύει κάθε μέρα σαράντα λεπτά από την πόλη μέσα από στενούς ορεινούς δρόμους.",
+     "en": "This year the village primary school has only three pupils: two siblings, in the first and fourth year, and a girl in the sixth. They're taught by one teacher, who travels forty minutes every day from the town along narrow mountain roads."
+    },
+    {
+     "speaker": "Δασκάλα",
+     "voice": "f",
+     "el": "Στην αρχή αναρωτιόμουν πώς θα κάνω μάθημα σε τρεις διαφορετικές τάξεις ταυτόχρονα. Τελικά τα μεγαλύτερα παιδιά βοηθούν το μικρό, και αυτό τους κάνει καλό: μαθαίνουν να εξηγούν και να έχουν υπομονή. Κάθε Παρασκευή, επίσης, κάνουμε μάθημα μέσω βιντεοκλήσης με ένα σχολείο της Αθήνας.",
+     "en": "At first I wondered how I would teach three different years at the same time. In the end the older children help the little one, and that does them good: they learn to explain and to be patient. Also, every Friday we have a lesson by video call with a school in Athens."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Για τους κατοίκους το σχολείο είναι κάτι παραπάνω από ένα κτίριο. Όπως λένε, αν κλείσει, οι οικογένειες θα φύγουν και το χωριό θα αδειάσει. Γι' αυτό ο σύλλογος του χωριού προσφέρει δωρεάν σπίτι σε όποια νέα οικογένεια με παιδιά εγκατασταθεί εκεί.",
+     "en": "For the residents the school is more than a building. As they say, if it closes, families will leave and the village will empty. That's why the village association offers a free house to any new family with children that settles there."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ανησυχούσε τη δασκάλα στην αρχή;",
+     "options": [
+      "Οι γονείς των μαθητών",
+      "Το μάθημα σε τρεις διαφορετικές τάξεις ταυτόχρονα",
+      "Η έλλειψη βιβλίων",
+      "Το κρύο στο σχολείο"
+     ],
+     "answer": "Το μάθημα σε τρεις διαφορετικές τάξεις ταυτόχρονα",
+     "why": "πώς θα κάνω μάθημα σε τρεις διαφορετικές τάξεις ταυτόχρονα"
+    },
+    {
+     "q": "Τι κάνουν τα παιδιά κάθε Παρασκευή;",
+     "options": [
+      "Κάνουν μάθημα μέσω βιντεοκλήσης με ένα σχολείο της Αθήνας",
+      "Πάνε εκδρομή στην πόλη",
+      "Δεν έχουν σχολείο",
+      "Παίζουν θέατρο"
+     ],
+     "answer": "Κάνουν μάθημα μέσω βιντεοκλήσης με ένα σχολείο της Αθήνας",
+     "why": "κάνουμε μάθημα μέσω βιντεοκλήσης με ένα σχολείο της Αθήνας"
+    },
+    {
+     "q": "Τι προσφέρει ο σύλλογος του χωριού;",
+     "options": [
+      "Δωρεάν σπίτι σε νέες οικογένειες με παιδιά",
+      "Ένα σχολικό λεωφορείο",
+      "Υποτροφίες στους μαθητές",
+      "Δωρεάν γεύματα"
+     ],
+     "answer": "Δωρεάν σπίτι σε νέες οικογένειες με παιδιά",
+     "why": "προσφέρει δωρεάν σπίτι σε όποια νέα οικογένεια με παιδιά"
+    }
+   ],
+   "gloss": {
+    "ορεινό": "ορεινός — mountain (adj.)",
+    "δημοτικό σχολείο": "δημοτικό σχολείο — primary school",
+    "διδάσκει": "διδάσκω — to teach",
+    "αναρωτιόμουν": "αναρωτιέμαι — to wonder",
+    "ταυτόχρονα": "ταυτόχρονα — at the same time",
+    "υπομονή": "υπομονή — patience",
+    "βιντεοκλήσης": "βιντεοκλήση — video call",
+    "κατοίκους": "κάτοικος — resident",
+    "αδειάσει": "αδειάζω — to empty",
+    "σύλλογος": "σύλλογος — association, club",
+    "εγκατασταθεί": "εγκαθίσταμαι — to settle"
+   }
+  },
+  {
+   "id": "l128-mono-iaponika",
+   "title": "Ιαπωνικά στα σαράντα",
+   "title_en": "Japanese at forty",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε μια γυναίκα να μιλά σε ένα πόντκαστ για το πώς άρχισε να μαθαίνει ιαπωνικά.",
+   "script": [
+    {
+     "speaker": "Ευαγγελία",
+     "voice": "f",
+     "el": "Όταν έκλεισα τα σαράντα, αποφάσισα να κάνω κάτι εντελώς καινούργιο για μένα. Από παιδί αγαπούσα τα ιαπωνικά κινούμενα σχέδια, και έτσι γράφτηκα σε ένα τμήμα ιαπωνικών, δύο βράδια την εβδομάδα. Οι φίλοι μου γελούσαν: «Τι θα τα κάνεις;» μου έλεγαν.",
+     "en": "When I turned forty, I decided to do something completely new for me. I'd loved Japanese cartoons since I was a child, so I signed up for a Japanese class, two evenings a week. My friends laughed: 'What will you do with it?' they'd say."
+    },
+    {
+     "speaker": "Ευαγγελία",
+     "voice": "f",
+     "el": "Τον πρώτο χρόνο σκέφτηκα πολλές φορές να τα παρατήσω. Το πιο δύσκολο δεν ήταν η προφορά, που σε αρκετά σημεία θυμίζει τα ελληνικά, αλλά η γραφή: υπάρχουν τρία διαφορετικά συστήματα, και χιλιάδες ιδεογράμματα. Έγραφα καρτέλες και τις κολλούσα παντού, ακόμα και στον καθρέφτη του μπάνιου.",
+     "en": "In the first year I thought many times about giving up. The hardest thing wasn't the pronunciation, which in quite a few ways is like Greek, but the writing: there are three different systems, and thousands of characters. I wrote flashcards and stuck them everywhere, even on the bathroom mirror."
+    },
+    {
+     "speaker": "Ευαγγελία",
+     "voice": "f",
+     "el": "Πέρσι έκανα το πρώτο μου ταξίδι στην Ιαπωνία. Σε ένα μικρό εστιατόριο στο Κιότο παρήγγειλα στα ιαπωνικά, και ο ιδιοκτήτης μού χαμογέλασε και μου έφερε δωρεάν ένα γλυκό. Εκείνη τη στιγμή κατάλαβα ότι όλος ο κόπος άξιζε.",
+     "en": "Last year I made my first trip to Japan. In a small restaurant in Kyoto I ordered in Japanese, and the owner smiled at me and brought me a dessert for free. At that moment I knew all the effort had been worth it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί άρχισε να μαθαίνει ιαπωνικά;",
+     "options": [
+      "Για τη δουλειά της",
+      "Γιατί της το πρότειναν οι φίλοι της",
+      "Γιατί από παιδί αγαπούσε τα ιαπωνικά κινούμενα σχέδια",
+      "Γιατί παντρεύτηκε έναν Ιάπωνα"
+     ],
+     "answer": "Γιατί από παιδί αγαπούσε τα ιαπωνικά κινούμενα σχέδια",
+     "why": "Από παιδί αγαπούσα τα ιαπωνικά κινούμενα σχέδια"
+    },
+    {
+     "q": "Τι ήταν το πιο δύσκολο;",
+     "options": [
+      "Η γραμματική",
+      "Η γραφή, με τρία συστήματα και χιλιάδες ιδεογράμματα",
+      "Η προφορά",
+      "Η έλλειψη χρόνου"
+     ],
+     "answer": "Η γραφή, με τρία συστήματα και χιλιάδες ιδεογράμματα",
+     "why": "υπάρχουν τρία διαφορετικά συστήματα, και χιλιάδες ιδεογράμματα"
+    },
+    {
+     "q": "Τι έγινε στο εστιατόριο στο Κιότο;",
+     "options": [
+      "Δεν την κατάλαβαν",
+      "Πλήρωσε πολύ ακριβά",
+      "Ο ιδιοκτήτης τής χαμογέλασε και της έφερε δωρεάν ένα γλυκό",
+      "Γνώρισε μια Ελληνίδα"
+     ],
+     "answer": "Ο ιδιοκτήτης τής χαμογέλασε και της έφερε δωρεάν ένα γλυκό",
+     "why": "ο ιδιοκτήτης μού χαμογέλασε και μου έφερε δωρεάν ένα γλυκό"
+    }
+   ],
+   "gloss": {
+    "κινούμενα σχέδια": "κινούμενα σχέδια — cartoons, animation",
+    "τμήμα": "τμήμα — class (group of learners)",
+    "παρατήσω": "παρατάω — to give up",
+    "προφορά": "προφορά — pronunciation",
+    "γραφή": "γραφή — writing (system)",
+    "ιδεογράμματα": "ιδεόγραμμα — ideogram, character",
+    "καρτέλες": "καρτέλα — card, flashcard",
+    "καθρέφτη": "καθρέφτης — mirror",
+    "παρήγγειλα": "παραγγέλνω — to order",
+    "κόπος": "κόπος — effort, trouble",
+    "άξιζε": "αξίζει — it is worth it"
+   }
+  },
+  {
+   "id": "l128-mono-skylos-proi",
+   "title": "Ο σκύλος που με έκανε πρωινό τύπο",
+   "title_en": "The dog that made me a morning person",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε έναν άντρα να μιλά σε μια ραδιοφωνική εκπομπή για το πώς άλλαξε η καθημερινότητά του.",
+   "script": [
+    {
+     "speaker": "Μανώλης",
+     "voice": "m",
+     "el": "Για χρόνια ήμουν άνθρωπος της νύχτας. Δούλευα ως γραφίστας από το σπίτι, κοιμόμουν στις τρεις και ξυπνούσα στις έντεκα. Όλα άλλαξαν όταν υιοθέτησα τον Μπέμπη, ένα κουτάβι από ένα καταφύγιο.",
+     "en": "For years I was a night owl. I worked as a graphic designer from home, went to sleep at three and woke up at eleven. Everything changed when I adopted Bebis, a puppy from a shelter."
+    },
+    {
+     "speaker": "Μανώλης",
+     "voice": "m",
+     "el": "Ο Μπέμπης είχε το δικό του πρόγραμμα: στις επτά το πρωί καθόταν δίπλα στο κρεβάτι και γάβγιζε μέχρι να σηκωθώ. Τις πρώτες εβδομάδες ήμουν σαν ζόμπι. Σιγά σιγά όμως άρχισα να πέφτω για ύπνο νωρίτερα, γιατί απλώς δεν άντεχα.",
+     "en": "Bebis had his own schedule: at seven in the morning he'd sit next to the bed and bark until I got up. For the first few weeks I was like a zombie. But little by little I started going to bed earlier, simply because I couldn't keep going."
+    },
+    {
+     "speaker": "Μανώλης",
+     "voice": "m",
+     "el": "Σήμερα, δύο χρόνια μετά, ξυπνάω χωρίς ξυπνητήρι. Η πρωινή βόλτα στο πάρκο είναι η αγαπημένη μου ώρα: γνώρισα άλλους ιδιοκτήτες σκύλων και έχουμε κάνει παρέα. Και το πιο περίεργο: δουλεύω καλύτερα το πρωί από ό,τι δούλευα ποτέ τη νύχτα.",
+     "en": "Today, two years later, I wake up without an alarm clock. The morning walk in the park is my favourite time: I've met other dog owners and we've become friends. And the strangest thing: I work better in the morning than I ever did at night."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ζούσε ο Μανώλης πριν από τον σκύλο;",
+     "options": [
+      "Ξυπνούσε πολύ νωρίς",
+      "Κοιμόταν στις τρεις και ξυπνούσε στις έντεκα",
+      "Δούλευε σε γραφείο από τις εννιά",
+      "Ταξίδευε συνέχεια"
+     ],
+     "answer": "Κοιμόταν στις τρεις και ξυπνούσε στις έντεκα",
+     "why": "κοιμόμουν στις τρεις και ξυπνούσα στις έντεκα"
+    },
+    {
+     "q": "Τι έκανε ο Μπέμπης στις επτά το πρωί;",
+     "options": [
+      "Έβγαινε μόνος του στην αυλή",
+      "Έτρωγε",
+      "Καθόταν δίπλα στο κρεβάτι και γάβγιζε",
+      "Κοιμόταν"
+     ],
+     "answer": "Καθόταν δίπλα στο κρεβάτι και γάβγιζε",
+     "why": "καθόταν δίπλα στο κρεβάτι και γάβγιζε"
+    },
+    {
+     "q": "Τι λέει ο Μανώλης για τη δουλειά του σήμερα;",
+     "options": [
+      "Την άφησε",
+      "Δουλεύει πια σε γραφείο",
+      "Δουλεύει λιγότερες ώρες",
+      "Δουλεύει καλύτερα το πρωί απ' ό,τι δούλευε τη νύχτα"
+     ],
+     "answer": "Δουλεύει καλύτερα το πρωί απ' ό,τι δούλευε τη νύχτα",
+     "why": "δουλεύω καλύτερα το πρωί από ό,τι δούλευα ποτέ τη νύχτα"
+    }
+   ],
+   "gloss": {
+    "καθημερινότητά": "καθημερινότητα — daily life, routine",
+    "γραφίστας": "γραφίστας — graphic designer",
+    "υιοθέτησα": "υιοθετώ — to adopt",
+    "κουτάβι": "κουτάβι — puppy",
+    "καταφύγιο": "καταφύγιο — (animal) shelter",
+    "γάβγιζε": "γαβγίζω — to bark",
+    "ζόμπι": "ζόμπι — zombie",
+    "άντεχα": "αντέχω — to bear, keep going",
+    "ξυπνητήρι": "ξυπνητήρι — alarm clock",
+    "ιδιοκτήτες": "ιδιοκτήτης — owner",
+    "παρέα": "κάνω παρέα — to hang out, become friends"
+   }
+  },
+  {
+   "id": "l128-c1-peltzman",
+   "title": "Όταν η ασφάλεια μάς κάνει απρόσεκτους",
+   "title_en": "When safety makes us careless",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από μια διάλεξη για την ψυχολογία του κινδύνου.",
+   "script": [
+    {
+     "speaker": "Ομιλήτρια",
+     "voice": "f",
+     "el": "Το 1975 ο Αμερικανός οικονομολόγος Σαμ Πέλτσμαν δημοσίευσε μια μελέτη που προκάλεσε μεγάλη αντιπαράθεση. Εξέτασε τους νόμους που είχαν κάνει υποχρεωτικές τις ζώνες ασφαλείας και άλλα μέτρα στα αυτοκίνητα, και υποστήριξε ότι δεν είχαν μειώσει τόσο όσο αναμενόταν τους θανάτους στους δρόμους.",
+     "en": "In 1975 the American economist Sam Peltzman published a study that caused a great controversy. He examined the laws that had made seat belts and other measures in cars compulsory, and argued that they had not reduced road deaths as much as expected."
+    },
+    {
+     "speaker": "Ομιλήτρια",
+     "voice": "f",
+     "el": "Η εξήγησή του ήταν ότι οι οδηγοί, νιώθοντας πιο ασφαλείς, οδηγούσαν πιο επιθετικά, με αποτέλεσμα να κινδυνεύουν περισσότερο οι πεζοί και οι ποδηλάτες. Το φαινόμενο αυτό έγινε γνωστό ως «φαινόμενο Πέλτσμαν» ή, γενικότερα, ως αντιστάθμιση του κινδύνου: όταν κάτι μας προστατεύει, τείνουμε να παίρνουμε μεγαλύτερα ρίσκα.",
+     "en": "His explanation was that drivers, feeling safer, drove more aggressively, so that pedestrians and cyclists were put at greater risk. The phenomenon became known as the 'Peltzman effect' or, more generally, as risk compensation: when something protects us, we tend to take bigger risks."
+    },
+    {
+     "speaker": "Ομιλήτρια",
+     "voice": "f",
+     "el": "Θα ήταν όμως λάθος να συμπεράνουμε ότι οι ζώνες ασφαλείας είναι άχρηστες. Οι περισσότερες μεταγενέστερες έρευνες έδειξαν ότι η αντιστάθμιση υπάρχει, αλλά συνήθως είναι μικρή, και το συνολικό όφελος από τα μέτρα ασφαλείας παραμένει σαφές. Το ζήτημα δεν είναι αν θα τα εφαρμόσουμε, αλλά πώς.",
+     "en": "It would be wrong, however, to conclude that seat belts are useless. Most later research showed that compensation exists but is usually small, and the overall benefit of safety measures remains clear. The question is not whether to apply them, but how."
+    },
+    {
+     "speaker": "Ομιλήτρια",
+     "voice": "f",
+     "el": "Τι σημαίνει αυτό στην πράξη; Ότι η τεχνολογία δεν αρκεί. Ένα αυτοκίνητο με τα πιο σύγχρονα συστήματα υποβοήθησης δεν προστατεύει κανέναν, αν ο οδηγός τα αντιμετωπίζει ως άδεια για απροσεξία. Η ενημέρωση και η καλλιέργεια της υπευθυνότητας είναι εξίσου σημαντικές με τις μηχανές.",
+     "en": "What does this mean in practice? That technology is not enough. A car with the most modern driver-assistance systems protects no one if the driver treats them as a licence to be careless. Information and fostering a sense of responsibility are just as important as the machines."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι υποστήριξε ο Πέλτσμαν στη μελέτη του;",
+     "options": [
+      "Ότι οι πεζοί ήταν υπεύθυνοι για τα ατυχήματα",
+      "Ότι έπρεπε να απαγορευτούν τα γρήγορα αυτοκίνητα",
+      "Ότι οι ζώνες ασφαλείας ήταν επικίνδυνες",
+      "Ότι τα μέτρα ασφαλείας δεν είχαν μειώσει τους θανάτους τόσο όσο αναμενόταν"
+     ],
+     "answer": "Ότι τα μέτρα ασφαλείας δεν είχαν μειώσει τους θανάτους τόσο όσο αναμενόταν",
+     "why": "δεν είχαν μειώσει τόσο όσο αναμενόταν τους θανάτους στους δρόμους"
+    },
+    {
+     "q": "Πώς εξήγησε το φαινόμενο;",
+     "options": [
+      "Οι οδηγοί, νιώθοντας πιο ασφαλείς, οδηγούσαν πιο επιθετικά",
+      "Οι δρόμοι ήταν σε κακή κατάσταση",
+      "Οι νόμοι δεν εφαρμόζονταν",
+      "Τα αυτοκίνητα ήταν χαμηλής ποιότητας"
+     ],
+     "answer": "Οι οδηγοί, νιώθοντας πιο ασφαλείς, οδηγούσαν πιο επιθετικά",
+     "why": "οι οδηγοί, νιώθοντας πιο ασφαλείς, οδηγούσαν πιο επιθετικά"
+    },
+    {
+     "q": "Τι έδειξαν οι μεταγενέστερες έρευνες;",
+     "options": [
+      "Ότι το φαινόμενο δεν υπάρχει καθόλου",
+      "Ότι η αντιστάθμιση είναι συνήθως μικρή και το όφελος των μέτρων σαφές",
+      "Ότι ο Πέλτσμαν είχε απόλυτο δίκιο",
+      "Ότι οι ζώνες αυξάνουν τους θανάτους"
+     ],
+     "answer": "Ότι η αντιστάθμιση είναι συνήθως μικρή και το όφελος των μέτρων σαφές",
+     "why": "η αντιστάθμιση υπάρχει, αλλά συνήθως είναι μικρή"
+    },
+    {
+     "q": "Ποιο είναι το συμπέρασμα της ομιλήτριας;",
+     "options": [
+      "Η τεχνολογία δεν αρκεί· χρειάζονται επίσης ενημέρωση και υπευθυνότητα",
+      "Οι οδηγοί πρέπει να πληρώνουν μεγαλύτερα πρόστιμα",
+      "Τα αυτοκίνητα πρέπει να γίνουν πιο αργά",
+      "Να καταργηθούν τα συστήματα υποβοήθησης"
+     ],
+     "answer": "Η τεχνολογία δεν αρκεί· χρειάζονται επίσης ενημέρωση και υπευθυνότητα",
+     "why": "Η ενημέρωση και η καλλιέργεια της υπευθυνότητας είναι εξίσου σημαντικές"
+    }
+   ],
+   "gloss": {
+    "αντιπαράθεση": "αντιπαράθεση — controversy, dispute",
+    "υποχρεωτικές": "υποχρεωτικός — compulsory",
+    "ζώνες ασφαλείας": "ζώνη ασφαλείας — seat belt",
+    "επιθετικά": "επιθετικά — aggressively",
+    "αντιστάθμιση του κινδύνου": "αντιστάθμιση του κινδύνου — risk compensation",
+    "ρίσκα": "ρίσκο — risk",
+    "μεταγενέστερες": "μεταγενέστερος — later, subsequent",
+    "όφελος": "όφελος — benefit",
+    "συστήματα υποβοήθησης": "σύστημα υποβοήθησης — driver-assistance system",
+    "απροσεξία": "απροσεξία — carelessness",
+    "καλλιέργεια": "καλλιέργεια — cultivation, fostering",
+    "υπευθυνότητας": "υπευθυνότητα — sense of responsibility"
+   }
+  },
+  {
+   "id": "l128-c1-miaoulis",
+   "title": "Ο Μιαούλης και τα πυρπολικά της Ύδρας",
+   "title_en": "Miaoulis and the fireships of Hydra",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από ραδιοφωνική συνέντευξη με έναν ιστορικό για τον Ανδρέα Μιαούλη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κύριε Καλαμαράκη, ποιος ήταν ο Ανδρέας Μιαούλης πριν από την Επανάσταση;",
+     "en": "Mr Kalamarakis, who was Andreas Miaoulis before the Revolution?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Ήταν ένας από τους πλούσιους πλοιοκτήτες της Ύδρας. Γεννήθηκε γύρω στο 1769 και από νέος ταξίδευε στη Μεσόγειο, μεταφέροντας κυρίως σιτηρά. Στα χρόνια των ναπολεόντειων πολέμων πολλοί Υδραίοι καπεταναίοι πλούτισαν σπάζοντας τους αποκλεισμούς, και ο Μιαούλης ήταν ανάμεσά τους.",
+     "en": "He was one of the wealthy shipowners of Hydra. He was born around 1769 and from a young age sailed the Mediterranean, carrying mainly grain. During the Napoleonic Wars many Hydriot captains grew rich by running the blockades, and Miaoulis was among them."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και στη διάρκεια του Αγώνα;",
+     "en": "And during the War of Independence?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Έγινε ο αρχηγός του ελληνικού στόλου. Τα ελληνικά πλοία ήταν μικρότερα από τα οθωμανικά, γι' αυτό οι Έλληνες στηρίχτηκαν σε μεγάλο βαθμό στα πυρπολικά, παλιά καράβια γεμάτα εύφλεκτα υλικά, που τα οδηγούσαν πάνω στα εχθρικά πλοία. Το 1825, για παράδειγμα, μια επίθεση με πυρπολικά στο λιμάνι της Μεθώνης κατέστρεψε αρκετά αιγυπτιακά πλοία.",
+     "en": "He became the commander of the Greek fleet. The Greek ships were smaller than the Ottoman ones, so the Greeks relied heavily on fireships, old vessels full of flammable material, which they steered onto the enemy ships. In 1825, for example, a fireship attack in the harbour of Methoni destroyed several Egyptian ships."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ποια ήταν η πιο αμφιλεγόμενη στιγμή της ζωής του;",
+     "en": "What was the most controversial moment of his life?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Χωρίς αμφιβολία το 1831. Στη σύγκρουση ανάμεσα στον Καποδίστρια και στους Υδραίους, ο Μιαούλης κατέλαβε τον εθνικό στόλο στον Πόρο. Όταν κατέφθασαν ρωσικά πλοία που υποστήριζαν την κυβέρνηση, προτίμησε να ανατινάξει τη ναυαρχίδα «Ελλάς» και άλλα πλοία παρά να τα παραδώσει. Άλλοι το είδαν ως πράξη ανυπακοής, άλλοι ως συνέπεια ενός βαθύ εμφύλιου διχασμού.",
+     "en": "Without doubt 1831. In the conflict between Kapodistrias and the Hydriots, Miaoulis seized the national fleet at Poros. When Russian ships supporting the government arrived, he chose to blow up the flagship Hellas and other ships rather than hand them over. Some saw it as an act of insubordination, others as the result of a deep civil split."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πώς τον θυμούνται σήμερα στην Ύδρα;",
+     "en": "How is he remembered on Hydra today?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Κάθε χρόνο, στα τέλη Ιουνίου, γιορτάζονται τα «Μιαούλεια», με αναπαράσταση ναυμαχίας και πυρπόληση ενός ομοιώματος πλοίου στο λιμάνι. Είναι μια γιορτή που θυμίζει πόσο στενά συνδέθηκε το νησί με τη θάλασσα και με τον Αγώνα.",
+     "en": "Every year, at the end of June, the 'Miaoulia' are celebrated, with a re-enactment of a sea battle and the burning of a replica ship in the harbour. It's a festival that recalls how closely the island was bound up with the sea and with the struggle for independence."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς πλούτισαν πολλοί Υδραίοι καπεταναίοι πριν από την Επανάσταση;",
+     "options": [
+      "Σπάζοντας τους αποκλεισμούς στα χρόνια των ναπολεόντειων πολέμων",
+      "Από το εμπόριο κρασιού με την Ιταλία",
+      "Από το ψάρεμα",
+      "Από την πειρατεία στον Ατλαντικό"
+     ],
+     "answer": "Σπάζοντας τους αποκλεισμούς στα χρόνια των ναπολεόντειων πολέμων",
+     "why": "πολλοί Υδραίοι καπεταναίοι πλούτισαν σπάζοντας τους αποκλεισμούς"
+    },
+    {
+     "q": "Γιατί στηρίχτηκαν οι Έλληνες στα πυρπολικά;",
+     "options": [
+      "Γιατί ήταν φθηνά στην κατασκευή",
+      "Γιατί τα έστελνε η Ρωσία",
+      "Γιατί τα ελληνικά πλοία ήταν μικρότερα από τα οθωμανικά",
+      "Γιατί δεν είχαν κανόνια"
+     ],
+     "answer": "Γιατί τα ελληνικά πλοία ήταν μικρότερα από τα οθωμανικά",
+     "why": "Τα ελληνικά πλοία ήταν μικρότερα από τα οθωμανικά"
+    },
+    {
+     "q": "Τι έκανε ο Μιαούλης στον Πόρο το 1831;",
+     "options": [
+      "Παρέδωσε τον στόλο στους Ρώσους",
+      "Έφυγε για την Ιταλία",
+      "Ανατίναξε τη ναυαρχίδα «Ελλάς» και άλλα πλοία, για να μην τα παραδώσει",
+      "Συμφώνησε με τον Καποδίστρια"
+     ],
+     "answer": "Ανατίναξε τη ναυαρχίδα «Ελλάς» και άλλα πλοία, για να μην τα παραδώσει",
+     "why": "προτίμησε να ανατινάξει τη ναυαρχίδα «Ελλάς» και άλλα πλοία παρά να τα παραδώσει"
+    },
+    {
+     "q": "Τι περιλαμβάνουν τα «Μιαούλεια»;",
+     "options": [
+      "Αναπαράσταση ναυμαχίας και πυρπόληση ομοιώματος πλοίου",
+      "Έκθεση ζωγραφικής",
+      "Αγώνες κολύμβησης",
+      "Λιτανεία με εικόνες"
+     ],
+     "answer": "Αναπαράσταση ναυμαχίας και πυρπόληση ομοιώματος πλοίου",
+     "why": "αναπαράσταση ναυμαχίας και πυρπόληση ενός ομοιώματος πλοίου"
+    }
+   ],
+   "gloss": {
+    "πλοιοκτήτες": "πλοιοκτήτης — shipowner",
+    "σιτηρά": "σιτηρά — grain",
+    "ναπολεόντειων πολέμων": "ναπολεόντειοι πόλεμοι — Napoleonic Wars",
+    "πλούτισαν": "πλουτίζω — to grow rich",
+    "αποκλεισμούς": "αποκλεισμός — blockade",
+    "στόλου": "στόλος — fleet",
+    "πυρπολικά": "πυρπολικό — fireship",
+    "εύφλεκτα": "εύφλεκτος — flammable",
+    "αμφιλεγόμενη": "αμφιλεγόμενος — controversial",
+    "κατέλαβε": "καταλαμβάνω — to seize",
+    "ανατινάξει": "ανατινάζω — to blow up",
+    "ναυαρχίδα": "ναυαρχίδα — flagship",
+    "ανυπακοής": "ανυπακοή — insubordination",
+    "διχασμού": "διχασμός — split, schism",
+    "Μιαούλεια": "Μιαούλεια — festival in honour of Miaoulis on Hydra",
+    "αναπαράσταση": "αναπαράσταση — re-enactment",
+    "ναυμαχίας": "ναυμαχία — sea battle",
+    "πυρπόληση": "πυρπόληση — burning, setting on fire",
+    "ομοιώματος": "ομοίωμα — replica, model"
+   }
+  }
+ ]
+}
