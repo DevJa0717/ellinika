@@ -124,19 +124,19 @@ ITEMS.append({
 })
 
 ITEMS.append({
- "id": "l135-vm-modistra", "title": "Το κοστούμι του γάμου", "title_en": "The wedding suit", "type": "voicemail", "level": "B2",
- "context_el": "Έχετε δώσει ένα κοστούμι για μεταποίηση πριν από έναν γάμο. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+ "id": "l135-vm-exetaseis", "title": "Αλλαγή αίθουσας για την προφορική εξέταση", "title_en": "A room change for the speaking exam", "type": "voicemail", "level": "B2",
+ "context_el": "Έχετε δηλώσει συμμετοχή στις εξετάσεις πιστοποίησης ελληνομάθειας. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
  "script": [
-  L("Ράφτρα", "f", "Γεια σας, η Ευτυχία από το ραφείο. Το κοστούμι σας είναι σχεδόν έτοιμο. Κόντυνα τα μανίκια και τα μπατζάκια, όπως είπαμε, αλλά το σακάκι στη μέση θέλει λίγο ακόμα στένεμα, και δεν θέλω να το κάνω χωρίς να το δοκιμάσετε.", "Hello, it's Eftychia from the tailor's. Your suit is almost ready. I shortened the sleeves and the trouser legs, as we said, but the jacket needs a little more taking in at the waist, and I don't want to do it without you trying it on."),
-  L("Ράφτρα", "f", "Μπορείτε να περάσετε αύριο μετά τις πέντε; Αν όχι, το Σάββατο το πρωί είμαι εδώ ως τις δύο. Θα σας πάρει δέκα λεπτά η πρόβα, και το σακάκι θα είναι έτοιμο την ίδια μέρα, οπότε προλαβαίνουμε άνετα τον γάμο.", "Can you come by tomorrow after five? If not, on Saturday morning I'm here until two. The fitting will take ten minutes, and the jacket will be ready the same day, so we'll easily be in time for the wedding."),
-  L("Ράφτρα", "f", "Α, και φέρτε μαζί τα παπούτσια που θα φορέσετε, για να δούμε σωστά το μήκος του παντελονιού.", "Oh, and bring along the shoes you'll be wearing, so we can check the trouser length properly."),
+  L("Υπάλληλος", "f", "Καλημέρα σας, σας καλώ από το εξεταστικό κέντρο, σχετικά με την προφορική σας εξέταση το Σάββατο. Λόγω εργασιών στο κτίριο, η εξέταση δεν θα γίνει στην αίθουσα που αναφέρει η πρόσκλησή σας, αλλά στη βιβλιοθήκη, στον δεύτερο όροφο.", "Good morning, I'm calling from the exam centre about your speaking exam on Saturday. Because of works in the building, the exam won't take place in the room stated on your invitation, but in the library, on the second floor."),
+  L("Υπάλληλος", "f", "Η ώρα παραμένει η ίδια, όμως σας παρακαλούμε να είστε εκεί μισή ώρα νωρίτερα, γιατί ο έλεγχος των στοιχείων θα γίνεται στην είσοδο του κτιρίου. Μην ξεχάσετε το διαβατήριο ή την ταυτότητά σας· χωρίς αυτά δεν μπορείτε να εξεταστείτε.", "The time stays the same, but please be there half an hour earlier, because ID checks will take place at the building entrance. Don't forget your passport or identity card; without them you cannot sit the exam."),
+  L("Υπάλληλος", "f", "Στην αίθουσα αναμονής δεν επιτρέπονται τα κινητά, οπότε θα τα αφήσετε σε ένα ντουλάπι. Αν έχετε απορίες, καλέστε μας στο ίδιο νούμερο. Καλή επιτυχία!", "Mobile phones are not allowed in the waiting room, so you'll leave them in a locker. If you have any questions, call us on the same number. Good luck!"),
  ],
  "questions": [
-  Q("Τι χρειάζεται ακόμα το κοστούμι;", ["Να κοντύνουν τα μανίκια", "Να αλλάξουν τα κουμπιά", "Να στενέψει λίγο το σακάκι στη μέση", "Να καθαριστεί"], 2, "το σακάκι στη μέση θέλει λίγο ακόμα στένεμα"),
-  Q("Γιατί πρέπει να περάσετε από το ραφείο;", ["Για να πληρώσετε", "Για να δοκιμάσετε το σακάκι", "Για να διαλέξετε ύφασμα", "Για να πάρετε το κοστούμι έτοιμο"], 1, "δεν θέλω να το κάνω χωρίς να το δοκιμάσετε"),
-  Q("Τι σας ζητά να φέρετε;", ["Τα παπούτσια που θα φορέσετε", "Το πουκάμισο του γάμου", "Την απόδειξη", "Μια φωτογραφία του κοστουμιού"], 0, "φέρτε μαζί τα παπούτσια που θα φορέσετε"),
+  Q("Πού θα γίνει τελικά η εξέταση;", ["Στην αίθουσα της πρόσκλησης", "Στη βιβλιοθήκη, στον δεύτερο όροφο", "Σε άλλο κτίριο", "Στο ισόγειο"], 1, "αλλά στη βιβλιοθήκη, στον δεύτερο όροφο"),
+  Q("Γιατί πρέπει να είστε εκεί μισή ώρα νωρίτερα;", ["Γιατί άλλαξε η ώρα της εξέτασης", "Για να γράψετε ένα τεστ", "Γιατί ο έλεγχος των στοιχείων θα γίνεται στην είσοδο του κτιρίου", "Για να πληρώσετε τα εξέταστρα"], 2, "γιατί ο έλεγχος των στοιχείων θα γίνεται στην είσοδο του κτιρίου"),
+  Q("Τι θα κάνετε με το κινητό σας;", ["Θα το αφήσετε σε ένα ντουλάπι", "Θα το κλείσετε μέσα στην αίθουσα", "Θα το δώσετε στον εξεταστή", "Μπορείτε να το κρατήσετε"], 0, "θα τα αφήσετε σε ένα ντουλάπι"),
  ],
- "gloss": {"κοστούμι": "κοστούμι — suit", "μεταποίηση": "μεταποίηση — alteration", "ραφείο": "ραφείο — tailor's shop", "Κόντυνα": "κονταίνω — to shorten", "μανίκια": "μανίκι — sleeve", "μπατζάκια": "μπατζάκι — trouser leg", "σακάκι": "σακάκι — jacket", "στένεμα": "στένεμα — taking in, narrowing", "πρόβα": "πρόβα — fitting", "προλαβαίνουμε": "προλαβαίνω — to be in time", "μήκος": "μήκος — length"}
+ "gloss": {"πιστοποίησης ελληνομάθειας": "πιστοποίηση ελληνομάθειας — Greek language certification", "εξεταστικό κέντρο": "εξεταστικό κέντρο — exam centre", "προφορική": "προφορικός — oral, speaking", "εργασιών": "εργασία — work (construction)", "πρόσκλησή": "πρόσκληση — invitation, notice", "όροφο": "όροφος — floor", "στοιχείων": "στοιχεία — personal details, ID", "εξεταστείτε": "εξετάζομαι — to be examined, sit an exam", "αναμονής": "αναμονή — waiting", "ντουλάπι": "ντουλάπι — locker, cupboard"}
 })
 
 ITEMS.append({
