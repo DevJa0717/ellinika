@@ -1,0 +1,852 @@
+{
+ "items": [
+  {
+   "id": "l94-ann-omichli-aerodromio",
+   "title": "Ομίχλη στο αεροδρόμιο",
+   "title_en": "Fog at the airport",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Βρίσκεστε στην αίθουσα αναχωρήσεων του αεροδρομίου «Μακεδονία» της Θεσσαλονίκης νωρίς ένα πρωί του Δεκεμβρίου.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Παρακαλούνται οι επιβάτες να προσέξουν. Λόγω πυκνής ομίχλης, η ορατότητα στον διάδρομο προσγείωσης είναι αυτή τη στιγμή κάτω από διακόσια μέτρα. Γι’ αυτό, όλες οι αναχωρήσεις καθυστερούν τουλάχιστον μία ώρα.",
+     "en": "Passengers are requested to pay attention. Due to thick fog, visibility on the runway is currently below two hundred metres. For this reason, all departures are delayed by at least one hour."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Οι πτήσεις που επρόκειτο να προσγειωθούν εδώ έχουν εκτραπεί στα αεροδρόμια της Καβάλας και της Αθήνας. Όσοι περιμένουν φίλους ή συγγενείς από τις πρωινές πτήσεις, παρακαλούνται να ελέγχουν τους πίνακες ενημέρωσης ή την ιστοσελίδα της αεροπορικής τους εταιρείας.",
+     "en": "Flights that were due to land here have been diverted to the airports of Kavala and Athens. Those waiting for friends or relatives on the morning flights are asked to check the information boards or their airline's website."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Σύμφωνα με την πρόγνωση, η ομίχλη αναμένεται να διαλυθεί μέχρι τις έντεκα. Οι επιβάτες που χάνουν πτήση με ανταπόκριση πρέπει να απευθυνθούν στο γκισέ της εταιρείας τους. Στο ισόγειο λειτουργεί καφετέρια όπου όσοι έχουν κάρτα επιβίβασης δικαιούνται δωρεάν ρόφημα. Ευχαριστούμε για την υπομονή σας.",
+     "en": "According to the forecast, the fog is expected to clear by eleven. Passengers who miss a connecting flight must go to their airline's desk. On the ground floor there is a café where anyone with a boarding pass is entitled to a free drink. Thank you for your patience."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί καθυστερούν οι πτήσεις;",
+     "options": [
+      "Λόγω ισχυρών ανέμων",
+      "Λόγω χιονιού",
+      "Λόγω απεργίας",
+      "Λόγω πυκνής ομίχλης"
+     ],
+     "answer": "Λόγω πυκνής ομίχλης",
+     "why": "Λόγω πυκνής ομίχλης"
+    },
+    {
+     "q": "Πού πήγαν οι πτήσεις που θα προσγειώνονταν στη Θεσσαλονίκη;",
+     "options": [
+      "Επέστρεψαν στην αφετηρία τους",
+      "Στην Καβάλα και στην Αθήνα",
+      "Στη Λάρισα",
+      "Στη Σόφια"
+     ],
+     "answer": "Στην Καβάλα και στην Αθήνα",
+     "why": "έχουν εκτραπεί στα αεροδρόμια της Καβάλας και της Αθήνας"
+    },
+    {
+     "q": "Τι δικαιούνται όσοι έχουν κάρτα επιβίβασης;",
+     "options": [
+      "Δωρεάν γεύμα",
+      "Δωρεάν ταξί",
+      "Δωρεάν ρόφημα",
+      "Αποζημίωση"
+     ],
+     "answer": "Δωρεάν ρόφημα",
+     "why": "όσοι έχουν κάρτα επιβίβασης δικαιούνται δωρεάν ρόφημα"
+    }
+   ],
+   "gloss": {
+    "αίθουσα αναχωρήσεων": "αίθουσα αναχωρήσεων — departure lounge",
+    "ομίχλης": "ομίχλη — fog",
+    "ορατότητα": "ορατότητα — visibility",
+    "διάδρομο προσγείωσης": "διάδρομος προσγείωσης — runway",
+    "εκτραπεί": "εκτρέπομαι — to be diverted",
+    "πίνακες ενημέρωσης": "πίνακας ενημέρωσης — information board",
+    "διαλυθεί": "διαλύομαι — to clear, disperse",
+    "ανταπόκριση": "πτήση με ανταπόκριση — connecting flight",
+    "γκισέ": "γκισέ — desk, counter",
+    "κάρτα επιβίβασης": "κάρτα επιβίβασης — boarding pass",
+    "ρόφημα": "ρόφημα — drink"
+   }
+  },
+  {
+   "id": "l94-vm-exetaseis-aimatos",
+   "title": "Οι εξετάσεις σας είναι έτοιμες",
+   "title_en": "Your test results are ready",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Την περασμένη εβδομάδα κάνατε εξετάσεις αίματος σε ένα διαγνωστικό εργαστήριο. Ακούτε ένα μήνυμα στο κινητό σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλησπέρα σας, σας τηλεφωνώ από το διαγνωστικό εργαστήριο «Υγεία Συν», στην οδό Μητροπόλεως. Τα αποτελέσματα των εξετάσεων αίματος που κάνατε την Πέμπτη είναι έτοιμα, εκτός από τη βιταμίνη D, που θα βγει μεθαύριο.",
+     "en": "Good afternoon, I'm calling from the Ygeia Syn diagnostic laboratory on Mitropoleos Street. The results of the blood tests you had on Thursday are ready, except for vitamin D, which will come out the day after tomorrow."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Μπορείτε να τα δείτε ηλεκτρονικά, με τον κωδικό που υπάρχει στην απόδειξή σας, ή να περάσετε να τα παραλάβετε σε έντυπη μορφή, Δευτέρα με Παρασκευή, από τις επτά το πρωί ως τις τρεις το μεσημέρι.",
+     "en": "You can view them online with the code on your receipt, or drop by to collect them in printed form, Monday to Friday, from seven in the morning until three in the afternoon."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Η γιατρός του εργαστηρίου είδε ότι η χοληστερίνη σας είναι λίγο ψηλή και σας συνιστά να τα δείξετε στον γιατρό σας. Δεν είναι κάτι επείγον. Αν θέλετε, μπορούμε να τα στείλουμε απευθείας σε εκείνον με ηλεκτρονικό ταχυδρομείο· χρειαζόμαστε μόνο τη γραπτή σας συγκατάθεση. Καλή σας συνέχεια.",
+     "en": "The laboratory doctor saw that your cholesterol is a little high and advises you to show them to your doctor. It is nothing urgent. If you like, we can send them directly to him by email; we only need your written consent. Have a good afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο αποτέλεσμα δεν είναι ακόμη έτοιμο;",
+     "options": [
+      "Η χοληστερίνη",
+      "Ο σίδηρος",
+      "Η βιταμίνη D",
+      "Το σάκχαρο"
+     ],
+     "answer": "Η βιταμίνη D",
+     "why": "εκτός από τη βιταμίνη D, που θα βγει μεθαύριο"
+    },
+    {
+     "q": "Πώς μπορεί να δει τα αποτελέσματα ηλεκτρονικά;",
+     "options": [
+      "Με ένα μήνυμα στο κινητό",
+      "Δεν μπορεί",
+      "Με τον κωδικό που υπάρχει στην απόδειξη",
+      "Με τον αριθμό της ταυτότητας"
+     ],
+     "answer": "Με τον κωδικό που υπάρχει στην απόδειξη",
+     "why": "με τον κωδικό που υπάρχει στην απόδειξή σας"
+    },
+    {
+     "q": "Τι του συνιστά η γιατρός του εργαστηρίου;",
+     "options": [
+      "Να επαναλάβει αμέσως τις εξετάσεις",
+      "Να δείξει τα αποτελέσματα στον γιατρό του",
+      "Να πάει στο νοσοκομείο",
+      "Να ξεκινήσει δίαιτα"
+     ],
+     "answer": "Να δείξει τα αποτελέσματα στον γιατρό του",
+     "why": "σας συνιστά να τα δείξετε στον γιατρό σας"
+    }
+   ],
+   "gloss": {
+    "εξετάσεις αίματος": "εξετάσεις αίματος — blood tests",
+    "διαγνωστικό εργαστήριο": "διαγνωστικό εργαστήριο — diagnostic laboratory",
+    "μεθαύριο": "μεθαύριο — the day after tomorrow",
+    "ηλεκτρονικά": "ηλεκτρονικά — online, electronically",
+    "έντυπη": "έντυπος — printed",
+    "χοληστερίνη": "χοληστερίνη — cholesterol",
+    "συνιστά": "συνιστώ — to advise, recommend",
+    "επείγον": "επείγων — urgent",
+    "απευθείας": "απευθείας — directly",
+    "συγκατάθεση": "συγκατάθεση — consent"
+   }
+  },
+  {
+   "id": "l94-dia-spasmeni-othoni",
+   "title": "Μια σπασμένη οθόνη",
+   "title_en": "A cracked screen",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ένας νεαρός μπαίνει σε ένα μικρό κατάστημα επισκευής κινητών τηλεφώνων.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Καλημέρα. Μου έπεσε το κινητό στο πεζοδρόμιο και έσπασε η οθόνη. Δουλεύει, αλλά στη μια γωνία δεν πατιέται τίποτα.",
+     "en": "Good morning. I dropped my phone on the pavement and the screen cracked. It works, but nothing responds in one corner."
+    },
+    {
+     "speaker": "Τεχνικός",
+     "voice": "f",
+     "el": "Για να το δω. Ναι, έχει σπάσει και το γυαλί και η οθόνη από κάτω, γι’ αυτό δεν αντιδρά στο άγγιγμα. Πρέπει να αλλαχτεί ολόκληρη. Με αυθεντικό ανταλλακτικό κοστίζει εκατόν σαράντα ευρώ· υπάρχει και συμβατό, στα ογδόντα.",
+     "en": "Let me see. Yes, both the glass and the display underneath are broken, which is why it doesn't respond to touch. The whole thing has to be replaced. With an original part it costs a hundred and forty euros; there is also a compatible one, at eighty."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Ποια είναι η διαφορά;",
+     "en": "What's the difference?"
+    },
+    {
+     "speaker": "Τεχνικός",
+     "voice": "f",
+     "el": "Το συμβατό δουλεύει μια χαρά, αλλά τα χρώματα είναι λίγο πιο ξεθωριασμένα και καταναλώνει λίγο περισσότερη μπαταρία. Και στα δύο δίνουμε εγγύηση έξι μηνών. Αν σκοπεύετε να το κρατήσετε πολλά χρόνια, εγώ θα σας πρότεινα το αυθεντικό.",
+     "en": "The compatible one works fine, but the colours are a little more washed out and it uses a bit more battery. We give a six-month guarantee on both. If you plan to keep it for many years, I'd recommend the original."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Εντάξει, το αυθεντικό. Πόσο θα πάρει;",
+     "en": "OK, the original. How long will it take?"
+    },
+    {
+     "speaker": "Τεχνικός",
+     "voice": "f",
+     "el": "Το ανταλλακτικό το έχουμε, οπότε σε μία ώρα θα είναι έτοιμο. Πριν το αφήσετε, καλό είναι να πάρετε αντίγραφο ασφαλείας των φωτογραφιών σας· σπάνια χάνονται δεδομένα, αλλά καλύτερα να είμαστε σίγουροι. Και βάλτε μετά ένα προστατευτικό τζαμάκι· κοστίζει δέκα ευρώ και σώζει πολλές οθόνες.",
+     "en": "We have the part, so it'll be ready in an hour. Before you leave it, it's a good idea to back up your photos; data is rarely lost, but better to be sure. And put a screen protector on it afterwards; it costs ten euros and saves a lot of screens."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο κοστίζει η οθόνη με αυθεντικό ανταλλακτικό;",
+     "options": [
+      "Εκατό ευρώ",
+      "Δέκα ευρώ",
+      "Ογδόντα ευρώ",
+      "Εκατόν σαράντα ευρώ"
+     ],
+     "answer": "Εκατόν σαράντα ευρώ",
+     "why": "Με αυθεντικό ανταλλακτικό κοστίζει εκατόν σαράντα ευρώ"
+    },
+    {
+     "q": "Ποιο είναι το μειονέκτημα του συμβατού ανταλλακτικού;",
+     "options": [
+      "Αργεί να έρθει",
+      "Δεν έχει εγγύηση",
+      "Τα χρώματα είναι πιο ξεθωριασμένα και καταναλώνει περισσότερη μπαταρία",
+      "Σπάει πιο εύκολα"
+     ],
+     "answer": "Τα χρώματα είναι πιο ξεθωριασμένα και καταναλώνει περισσότερη μπαταρία",
+     "why": "τα χρώματα είναι λίγο πιο ξεθωριασμένα και καταναλώνει λίγο περισσότερη μπαταρία"
+    },
+    {
+     "q": "Τι τον συμβουλεύει να κάνει πριν αφήσει το κινητό;",
+     "options": [
+      "Να πάρει αντίγραφο ασφαλείας των φωτογραφιών του",
+      "Να πληρώσει προκαταβολή",
+      "Να το φορτίσει",
+      "Να αφαιρέσει την κάρτα SIM"
+     ],
+     "answer": "Να πάρει αντίγραφο ασφαλείας των φωτογραφιών του",
+     "why": "καλό είναι να πάρετε αντίγραφο ασφαλείας των φωτογραφιών σας"
+    }
+   ],
+   "gloss": {
+    "επισκευής": "επισκευή — repair",
+    "πατιέται": "πατιέται — it can be pressed, responds",
+    "αντιδρά": "αντιδρώ — to respond, react",
+    "άγγιγμα": "άγγιγμα — touch",
+    "αυθεντικό": "αυθεντικός — original, genuine",
+    "ανταλλακτικό": "ανταλλακτικό — spare part",
+    "συμβατό": "συμβατός — compatible",
+    "ξεθωριασμένα": "ξεθωριασμένος — faded, washed out",
+    "εγγύηση": "εγγύηση — guarantee",
+    "αντίγραφο ασφαλείας": "αντίγραφο ασφαλείας — backup",
+    "δεδομένα": "δεδομένα — data",
+    "προστατευτικό τζαμάκι": "προστατευτικό τζαμάκι — screen protector"
+   }
+  },
+  {
+   "id": "l94-int-icholiptis",
+   "title": "Ο ήχος των ταινιών",
+   "title_en": "The sound of films",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Σε μια εκπομπή για τα επαγγέλματα του κινηματογράφου, μια δημοσιογράφος μιλά με έναν ηχολήπτη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Όταν βλέπουμε μια ταινία, σπάνια σκεφτόμαστε τον ήχο. Τι ακριβώς κάνει ένας ηχολήπτης;",
+     "en": "When we watch a film, we rarely think about the sound. What exactly does a sound recordist do?"
+    },
+    {
+     "speaker": "Ηχολήπτης",
+     "voice": "m",
+     "el": "Στα γυρίσματα, η δουλειά μου είναι να ηχογραφώ καθαρά τους διαλόγους των ηθοποιών. Κρατάω ένα μακρύ κοντάρι με το μικρόφωνο, το λεγόμενο «μπουμ», ακριβώς πάνω από τα κεφάλια τους, αλλά έξω από το κάδρο. Αν φανεί έστω και για μια στιγμή στην κάμερα, το πλάνο πρέπει να γυριστεί από την αρχή.",
+     "en": "During filming, my job is to record the actors' dialogue cleanly. I hold a long pole with the microphone, the so-called 'boom', right above their heads but outside the frame. If it shows even for a moment on camera, the shot has to be filmed again from the start."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ποιος είναι ο μεγαλύτερος εχθρός σας;",
+     "en": "What is your greatest enemy?"
+    },
+    {
+     "speaker": "Ηχολήπτης",
+     "voice": "m",
+     "el": "Ο θόρυβος. Ένα αεροπλάνο, ένα μηχανάκι, ένα ψυγείο που βουίζει. Σε μια ταινία εποχής που γυρίζαμε σε ένα χωριό, ο μεγαλύτερος μπελάς ήταν τα τζιτζίκια! Κάθε φορά που σταματούσαν, φωνάζαμε «Πάμε!», και είχαμε περίπου ένα λεπτό μέχρι να ξαναρχίσουν.",
+     "en": "Noise. A plane, a motorbike, a humming fridge. In a period film we were shooting in a village, the biggest nuisance was the cicadas! Every time they stopped, we shouted 'Go!', and we had about a minute before they started again."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και οι ήχοι που ακούμε, όπως τα βήματα ή μια πόρτα που κλείνει; Είναι αληθινοί;",
+     "en": "And the sounds we hear, like footsteps or a door closing? Are they real?"
+    },
+    {
+     "speaker": "Ηχολήπτης",
+     "voice": "m",
+     "el": "Συχνά όχι. Πολλοί από αυτούς ξαναδημιουργούνται αργότερα στο στούντιο από ειδικούς που λέγονται «φόλεϊ». Περπατούν σε διαφορετικά δάπεδα, τρίβουν υφάσματα, σπάνε σέλινα για να ακουστεί ένα κόκαλο που σπάει. Ο καλός ήχος είναι αυτός που δεν τον προσέχεις· τον προσέχεις μόνο όταν λείπει.",
+     "en": "Often not. Many of them are recreated later in the studio by specialists called 'Foley artists'. They walk on different floors, rub fabrics, snap celery to make the sound of a breaking bone. Good sound is the kind you don't notice; you only notice it when it's missing."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι γίνεται αν φανεί το μικρόφωνο στην κάμερα;",
+     "options": [
+      "Το σβήνουν στο μοντάζ",
+      "Ο ηχολήπτης απολύεται",
+      "Το πλάνο γυρίζεται από την αρχή",
+      "Δεν πειράζει"
+     ],
+     "answer": "Το πλάνο γυρίζεται από την αρχή",
+     "why": "το πλάνο πρέπει να γυριστεί από την αρχή"
+    },
+    {
+     "q": "Ποιο ήταν το μεγαλύτερο πρόβλημα στα γυρίσματα στο χωριό;",
+     "options": [
+      "Οι περίεργοι κάτοικοι",
+      "Τα τζιτζίκια",
+      "Ο αέρας",
+      "Τα αεροπλάνα"
+     ],
+     "answer": "Τα τζιτζίκια",
+     "why": "ο μεγαλύτερος μπελάς ήταν τα τζιτζίκια"
+    },
+    {
+     "q": "Πώς δημιουργούν οι ειδικοί τον ήχο ενός κόκαλου που σπάει;",
+     "options": [
+      "Σπάνε ξύλα",
+      "Τρίβουν υφάσματα",
+      "Σπάνε σέλινα",
+      "Με υπολογιστή"
+     ],
+     "answer": "Σπάνε σέλινα",
+     "why": "σπάνε σέλινα για να ακουστεί ένα κόκαλο που σπάει"
+    }
+   ],
+   "gloss": {
+    "ηχολήπτη": "ηχολήπτης — sound recordist",
+    "γυρίσματα": "γύρισμα — filming, shoot",
+    "ηχογραφώ": "ηχογραφώ — to record (sound)",
+    "κοντάρι": "κοντάρι — pole",
+    "κάδρο": "κάδρο — frame",
+    "πλάνο": "πλάνο — shot",
+    "βουίζει": "βουίζω — to hum, buzz",
+    "ταινία εποχής": "ταινία εποχής — period film",
+    "μπελάς": "μπελάς — nuisance, trouble",
+    "τζιτζίκια": "τζιτζίκι — cicada",
+    "δάπεδα": "δάπεδο — floor",
+    "τρίβουν": "τρίβω — to rub",
+    "σέλινα": "σέλινο — celery",
+    "κόκαλο": "κόκαλο — bone"
+   }
+  },
+  {
+   "id": "l94-rep-kythira",
+   "title": "Κύθηρα, το νησί της Αφροδίτης",
+   "title_en": "Kythira, Aphrodite's island",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ταξιδιωτικό ρεπορτάζ σε μια ραδιοφωνική εκπομπή.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Ανάμεσα στην Πελοπόννησο και την Κρήτη, εκεί όπου συναντιούνται το Ιόνιο και το Αιγαίο, βρίσκονται τα Κύθηρα. Σύμφωνα με τον μύθο, εδώ βγήκε από τον αφρό της θάλασσας η θεά Αφροδίτη, πριν συνεχίσει το ταξίδι της για την Κύπρο. Στο νησί φτάνει κανείς με το πλοίο από τη Νεάπολη της Λακωνίας, σε λιγότερο από μία ώρα, ή με αεροπλάνο από την Αθήνα.",
+     "en": "Between the Peloponnese and Crete, where the Ionian meets the Aegean, lies Kythira. According to myth, it was here that the goddess Aphrodite rose from the sea foam, before continuing her journey to Cyprus. You reach the island by ferry from Neapoli in Laconia, in under an hour, or by plane from Athens."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η Χώρα, η πρωτεύουσα του νησιού, είναι χτισμένη κάτω από ένα ενετικό κάστρο, με θέα στον όρμο του Καψαλίου, μια από τις πιο γνωστές παραλίες. Στον Μυλοπόταμο, ένα καταπράσινο χωριό με νερόμυλους, το μονοπάτι κατεβαίνει σε έναν καταρράκτη, τη «Νεράιδα», που πέφτει σε μια μικρή λίμνη μέσα σε πλατάνια.",
+     "en": "Chora, the island's capital, is built below a Venetian castle, overlooking the bay of Kapsali, one of the best-known beaches. At Mylopotamos, a lush green village with watermills, the path goes down to a waterfall, the 'Neraida', which falls into a small pool among plane trees."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Τα Κύθηρα έχουν μια ιδιαίτερη σχέση με την Αυστραλία: χιλιάδες Κυθήριοι μετανάστευσαν εκεί τον εικοστό αιώνα, και οι απόγονοί τους επιστρέφουν κάθε καλοκαίρι. Γι’ αυτό, στα καφενεία του νησιού θα ακούσετε συχνά ελληνικά με αυστραλιανή προφορά. Μην φύγετε χωρίς να δοκιμάσετε το θυμαρίσιο μέλι, ίσως το πιο φημισμένο προϊόν του νησιού.",
+     "en": "Kythira has a special relationship with Australia: thousands of Kytherians emigrated there in the twentieth century, and their descendants return every summer. That is why in the island's cafés you will often hear Greek with an Australian accent. Don't leave without trying the thyme honey, perhaps the island's most famous product."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λέει ο μύθος για τα Κύθηρα;",
+     "options": [
+      "Ότι εκεί βγήκε από τη θάλασσα η Αφροδίτη",
+      "Ότι εκεί γεννήθηκε ο Δίας",
+      "Ότι εκεί ζούσαν γίγαντες",
+      "Ότι εκεί ναυάγησε ο Οδυσσέας"
+     ],
+     "answer": "Ότι εκεί βγήκε από τη θάλασσα η Αφροδίτη",
+     "why": "εδώ βγήκε από τον αφρό της θάλασσας η θεά Αφροδίτη"
+    },
+    {
+     "q": "Τι θα βρει ο επισκέπτης στον Μυλοπόταμο;",
+     "options": [
+      "Ένα αεροδρόμιο",
+      "Έναν καταρράκτη και νερόμυλους",
+      "Μια μεγάλη αμμουδιά",
+      "Ένα ενετικό κάστρο"
+     ],
+     "answer": "Έναν καταρράκτη και νερόμυλους",
+     "why": "ένα καταπράσινο χωριό με νερόμυλους, το μονοπάτι κατεβαίνει σε έναν καταρράκτη"
+    },
+    {
+     "q": "Γιατί ακούγονται ελληνικά με αυστραλιανή προφορά στο νησί;",
+     "options": [
+      "Γιατί υπάρχει αυστραλιανό σχολείο",
+      "Γιατί έρχονται πολλοί Αυστραλοί τουρίστες",
+      "Γιατί εκεί γυρίστηκε μια αυστραλιανή ταινία",
+      "Γιατί απόγονοι Κυθηρίων μεταναστών επιστρέφουν κάθε καλοκαίρι"
+     ],
+     "answer": "Γιατί απόγονοι Κυθηρίων μεταναστών επιστρέφουν κάθε καλοκαίρι",
+     "why": "χιλιάδες Κυθήριοι μετανάστευσαν εκεί τον εικοστό αιώνα, και οι απόγονοί τους επιστρέφουν κάθε καλοκαίρι"
+    }
+   ],
+   "gloss": {
+    "συναντιούνται": "συναντιέμαι — to meet",
+    "αφρό": "αφρός — foam",
+    "ενετικό": "ενετικός — Venetian",
+    "όρμο": "όρμος — bay, cove",
+    "καταπράσινο": "καταπράσινος — lush green",
+    "νερόμυλους": "νερόμυλος — watermill",
+    "καταρράκτη": "καταρράκτης — waterfall",
+    "πλατάνια": "πλατάνι — plane tree",
+    "μετανάστευσαν": "μεταναστεύω — to emigrate",
+    "απόγονοί": "απόγονος — descendant",
+    "προφορά": "προφορά — accent",
+    "θυμαρίσιο": "θυμαρίσιος — thyme (adj.)"
+   }
+  },
+  {
+   "id": "l94-rep-litochoro",
+   "title": "Λιτόχωρο, η πύλη του Ολύμπου",
+   "title_en": "Litochoro, gateway to Olympus",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ σε μια τηλεοπτική εκπομπή για τον ορεινό τουρισμό.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Στους πρόποδες του Ολύμπου, μόλις πέντε χιλιόμετρα από τη θάλασσα, βρίσκεται το Λιτόχωρο της Πιερίας. Από εδώ ξεκινούν οι περισσότεροι ορειβάτες που θέλουν να ανέβουν στον Μύτικα, την ψηλότερη κορυφή της Ελλάδας, στα δύο χιλιάδες εννιακόσια δεκαοχτώ μέτρα.",
+     "en": "At the foot of Olympus, just five kilometres from the sea, lies Litochoro in Pieria. From here most climbers set off who want to go up Mytikas, the highest peak in Greece, at two thousand nine hundred and eighteen metres."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η πιο συνηθισμένη διαδρομή ξεκινά από τα Πριόνια, όπου τελειώνει ο δρόμος, και ανεβαίνει μέσα από το δάσος ως το καταφύγιο «Σπήλιος Αγαπητός». Εκεί οι περισσότεροι διανυκτερεύουν, για να ξεκινήσουν το επόμενο πρωί πολύ νωρίς για την κορυφή. Όσοι προτιμούν κάτι πιο ήπιο μπορούν να περπατήσουν στο φαράγγι του Ενιπέα, που ξεκινά από το ίδιο το Λιτόχωρο.",
+     "en": "The most common route starts at Prionia, where the road ends, and climbs through the forest to the Spilios Agapitos refuge. There most people spend the night, setting off very early the next morning for the summit. Those who prefer something gentler can walk the Enipeas gorge, which starts from Litochoro itself."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η πρώτη καταγεγραμμένη ανάβαση στον Μύτικα έγινε το 1913, από δύο Ελβετούς και έναν κυνηγό από το Λιτόχωρο, τον Χρήστο Κάκκαλο, που τους οδήγησε ως την κορυφή. Οι κάτοικοι λένε ότι ο Όλυμπος δεν συγχωρεί την απερισκεψία: ο καιρός αλλάζει μέσα σε λίγα λεπτά, γι’ αυτό χρειάζονται καλά παπούτσια, αδιάβροχο και, πάνω απ’ όλα, ενημέρωση για την πρόγνωση.",
+     "en": "The first recorded ascent of Mytikas was made in 1913 by two Swiss men and a hunter from Litochoro, Christos Kakkalos, who guided them to the summit. Locals say Olympus does not forgive recklessness: the weather changes within minutes, so you need good boots, a waterproof and, above all, to check the forecast."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο απέχει το Λιτόχωρο από τη θάλασσα;",
+     "options": [
+      "Δεκαπέντε χιλιόμετρα",
+      "Πενήντα χιλιόμετρα",
+      "Είναι πάνω στη θάλασσα",
+      "Πέντε χιλιόμετρα"
+     ],
+     "answer": "Πέντε χιλιόμετρα",
+     "why": "μόλις πέντε χιλιόμετρα από τη θάλασσα"
+    },
+    {
+     "q": "Πού διανυκτερεύουν οι περισσότεροι ορειβάτες;",
+     "options": [
+      "Στο καταφύγιο «Σπήλιος Αγαπητός»",
+      "Στο Λιτόχωρο",
+      "Στην κορυφή",
+      "Στα Πριόνια"
+     ],
+     "answer": "Στο καταφύγιο «Σπήλιος Αγαπητός»",
+     "why": "ως το καταφύγιο «Σπήλιος Αγαπητός». Εκεί οι περισσότεροι διανυκτερεύουν"
+    },
+    {
+     "q": "Ποιος ήταν ο Χρήστος Κάκκαλος;",
+     "options": [
+      "Ένας μετεωρολόγος",
+      "Ένας Ελβετός ορειβάτης",
+      "Ο πρώτος φύλακας του καταφυγίου",
+      "Ένας κυνηγός από το Λιτόχωρο που οδήγησε τους πρώτους ορειβάτες στην κορυφή"
+     ],
+     "answer": "Ένας κυνηγός από το Λιτόχωρο που οδήγησε τους πρώτους ορειβάτες στην κορυφή",
+     "why": "έναν κυνηγό από το Λιτόχωρο, τον Χρήστο Κάκκαλο, που τους οδήγησε ως την κορυφή"
+    }
+   ],
+   "gloss": {
+    "ορεινό": "ορεινός — mountain (adj.)",
+    "πρόποδες": "πρόποδες — foothills, foot of a mountain",
+    "ορειβάτες": "ορειβάτης — climber",
+    "κορυφή": "κορυφή — peak, summit",
+    "καταφύγιο": "καταφύγιο — (mountain) refuge",
+    "διανυκτερεύουν": "διανυκτερεύω — to spend the night",
+    "ήπιο": "ήπιος — gentle, mild",
+    "φαράγγι": "φαράγγι — gorge",
+    "καταγεγραμμένη": "καταγεγραμμένος — recorded",
+    "ανάβαση": "ανάβαση — ascent",
+    "απερισκεψία": "απερισκεψία — recklessness",
+    "αδιάβροχο": "αδιάβροχο — waterproof (jacket)"
+   }
+  },
+  {
+   "id": "l94-mono-omadarchis",
+   "title": "Ένα καλοκαίρι ως ομαδάρχης",
+   "title_en": "A summer as a camp counsellor",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Μια φοιτήτρια μιλά σε ένα podcast για τη δουλειά της σε μια παιδική κατασκήνωση.",
+   "script": [
+    {
+     "speaker": "Φοιτήτρια",
+     "voice": "f",
+     "el": "Πέρσι το καλοκαίρι δούλεψα για πρώτη φορά ως ομαδάρχισσα σε μια κατασκήνωση στη Χαλκιδική. Είχα την ευθύνη για δώδεκα κορίτσια, από εννιά έως έντεκα χρονών, για τρεις εβδομάδες. Νόμιζα ότι θα ήταν σαν διακοπές με παιδιά. Έκανα λάθος.",
+     "en": "Last summer I worked for the first time as a counsellor at a camp in Halkidiki. I was responsible for twelve girls, aged nine to eleven, for three weeks. I thought it would be like a holiday with children. I was wrong."
+    },
+    {
+     "speaker": "Φοιτήτρια",
+     "voice": "f",
+     "el": "Η μέρα ξεκινούσε στις επτά με το εγερτήριο και τελείωνε μετά τις έντεκα, όταν επιτέλους κοιμόντουσαν όλες. Ενδιάμεσα υπήρχαν αγώνες, θάλασσα, χειροτεχνίες, πρόβες για τη γιορτή, και ατελείωτα μικρά δράματα: μια που είχε πονόλαιμο, μια που της έλειπε η μαμά της, δύο που είχαν τσακωθεί για ένα κρεβάτι δίπλα στο παράθυρο.",
+     "en": "The day began at seven with reveille and ended after eleven, when they were finally all asleep. In between there were games, the sea, crafts, rehearsals for the show, and endless little dramas: one with a sore throat, one missing her mum, two who had fallen out over a bed by the window."
+    },
+    {
+     "speaker": "Φοιτήτρια",
+     "voice": "f",
+     "el": "Τις πρώτες μέρες ήμουν εξαντλημένη και σκεφτόμουν να τα παρατήσω. Μετά, όμως, κάτι άλλαξε. Η πιο ντροπαλή της ομάδας, που την πρώτη μέρα δεν μιλούσε σε κανέναν, στη γιορτή του τέλους απήγγειλε ένα ποίημα μπροστά σε διακόσια άτομα. Όταν τελείωσε, έψαξε με το βλέμμα να με βρει. Εκείνη τη στιγμή κατάλαβα γιατί κάποιοι γυρίζουν κάθε καλοκαίρι. Φέτος θα πάω ξανά.",
+     "en": "The first days I was exhausted and thought about giving up. Then, though, something changed. The shyest girl in the group, who on the first day didn't speak to anyone, recited a poem at the end-of-camp show in front of two hundred people. When she finished, she searched for me with her eyes. At that moment I understood why some people come back every summer. This year I'm going again."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Για πόσα παιδιά είχε την ευθύνη;",
+     "options": [
+      "Για έντεκα",
+      "Για διακόσια",
+      "Για εννιά",
+      "Για δώδεκα"
+     ],
+     "answer": "Για δώδεκα",
+     "why": "Είχα την ευθύνη για δώδεκα κορίτσια"
+    },
+    {
+     "q": "Πώς ένιωθε τις πρώτες μέρες;",
+     "options": [
+      "Ήταν σαν διακοπές",
+      "Βαριόταν",
+      "Ενθουσιασμένη",
+      "Εξαντλημένη, σκεφτόταν να τα παρατήσει"
+     ],
+     "answer": "Εξαντλημένη, σκεφτόταν να τα παρατήσει",
+     "why": "Τις πρώτες μέρες ήμουν εξαντλημένη και σκεφτόμουν να τα παρατήσω"
+    },
+    {
+     "q": "Τι έκανε το πιο ντροπαλό κορίτσι στη γιορτή;",
+     "options": [
+      "Απήγγειλε ένα ποίημα",
+      "Έπαιξε θέατρο",
+      "Τραγούδησε",
+      "Χόρεψε"
+     ],
+     "answer": "Απήγγειλε ένα ποίημα",
+     "why": "στη γιορτή του τέλους απήγγειλε ένα ποίημα μπροστά σε διακόσια άτομα"
+    }
+   ],
+   "gloss": {
+    "κατασκήνωση": "κατασκήνωση — (summer) camp",
+    "ομαδάρχισσα": "ομαδάρχης / ομαδάρχισσα — camp counsellor, group leader",
+    "εγερτήριο": "εγερτήριο — reveille, wake-up call",
+    "χειροτεχνίες": "χειροτεχνία — craft(s)",
+    "πρόβες": "πρόβα — rehearsal",
+    "πονόλαιμο": "πονόλαιμος — sore throat",
+    "τσακωθεί": "τσακώνομαι — to quarrel, fall out",
+    "εξαντλημένη": "εξαντλημένος — exhausted",
+    "τα παρατήσω": "τα παρατάω — to give up",
+    "ντροπαλή": "ντροπαλός — shy",
+    "απήγγειλε": "απαγγέλλω — to recite",
+    "βλέμμα": "βλέμμα — gaze, look"
+   }
+  },
+  {
+   "id": "l94-mono-proti-psifos",
+   "title": "Ψήφισα για πρώτη φορά",
+   "title_en": "I voted for the first time",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ένας δεκαεφτάχρονος μαθητής μιλά σε μια εκπομπή νέων για την πρώτη του ψήφο.",
+   "script": [
+    {
+     "speaker": "Μαθητής",
+     "voice": "m",
+     "el": "Στην Ελλάδα μπορείς να ψηφίσεις από τη χρονιά που κλείνεις τα δεκαεπτά, οπότε στις τελευταίες εκλογές ψήφισα, ενώ ήμουν ακόμη στο λύκειο. Οι φίλοι μου στη Γερμανία, όπου ζούσαμε παλιά, δεν το πίστευαν.",
+     "en": "In Greece you can vote from the year you turn seventeen, so I voted in the last elections while I was still at school. My friends in Germany, where we used to live, couldn't believe it."
+    },
+    {
+     "speaker": "Μαθητής",
+     "voice": "m",
+     "el": "Ήθελα να μην ψηφίσω στα τυφλά. Διάβασα τα προγράμματα των κομμάτων για την παιδεία και το περιβάλλον, έκανα κάποια από τα τεστ που υπάρχουν στο διαδίκτυο, και συζήτησα πολύ με τον παππού μου, που διαφωνούμε σχεδόν σε όλα. Στο τέλος δεν άλλαξε κανείς γνώμη, αλλά καταλάβαμε καλύτερα ο ένας τον άλλον.",
+     "en": "I didn't want to vote blindly. I read the parties' programmes on education and the environment, did some of the online tests, and talked a lot with my grandfather, with whom I disagree on almost everything. In the end neither of us changed our minds, but we understood each other better."
+    },
+    {
+     "speaker": "Μαθητής",
+     "voice": "m",
+     "el": "Την Κυριακή των εκλογών πήγα στο εκλογικό τμήμα, που ήταν στο δημοτικό σχολείο μου. Ήταν περίεργο να μπαίνω στην ίδια αίθουσα όπου είχα μάθει να γράφω, και να βάζω το ψηφοδέλτιο στον φάκελο πίσω από το παραβάν. Όταν έριξα τον φάκελο στην κάλπη, ένιωσα ότι για πρώτη φορά η γνώμη μου μετρούσε όσο και του παππού μου.",
+     "en": "On election Sunday I went to the polling station, which was in my primary school. It was strange to walk into the same classroom where I had learnt to write, and to put the ballot paper in the envelope behind the screen. When I dropped the envelope in the ballot box, I felt that for the first time my opinion counted as much as my grandfather's."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από ποια ηλικία μπορεί να ψηφίσει κανείς στην Ελλάδα, σύμφωνα με τον μαθητή;",
+     "options": [
+      "Από τα είκοσι ένα",
+      "Από τα δεκαοχτώ",
+      "Από τη χρονιά που κλείνει τα δεκαέξι",
+      "Από τη χρονιά που κλείνει τα δεκαεπτά"
+     ],
+     "answer": "Από τη χρονιά που κλείνει τα δεκαεπτά",
+     "why": "μπορείς να ψηφίσεις από τη χρονιά που κλείνεις τα δεκαεπτά"
+    },
+    {
+     "q": "Τι έγινε μετά τις συζητήσεις με τον παππού του;",
+     "options": [
+      "Ο μαθητής άλλαξε γνώμη",
+      "Ο παππούς άλλαξε γνώμη",
+      "Δεν άλλαξε κανείς γνώμη, αλλά κατάλαβαν καλύτερα ο ένας τον άλλον",
+      "Τσακώθηκαν"
+     ],
+     "answer": "Δεν άλλαξε κανείς γνώμη, αλλά κατάλαβαν καλύτερα ο ένας τον άλλον",
+     "why": "Στο τέλος δεν άλλαξε κανείς γνώμη, αλλά καταλάβαμε καλύτερα ο ένας τον άλλον"
+    },
+    {
+     "q": "Πού ήταν το εκλογικό τμήμα;",
+     "options": [
+      "Στο δημοτικό σχολείο του",
+      "Στο δημαρχείο",
+      "Στο λύκειό του",
+      "Σε μια εκκλησία"
+     ],
+     "answer": "Στο δημοτικό σχολείο του",
+     "why": "πήγα στο εκλογικό τμήμα, που ήταν στο δημοτικό σχολείο μου"
+    }
+   ],
+   "gloss": {
+    "ψήφο": "ψήφος — vote",
+    "εκλογές": "εκλογές — elections",
+    "στα τυφλά": "στα τυφλά — blindly",
+    "κομμάτων": "κόμμα — (political) party",
+    "παιδεία": "παιδεία — education",
+    "εκλογικό τμήμα": "εκλογικό τμήμα — polling station",
+    "ψηφοδέλτιο": "ψηφοδέλτιο — ballot paper",
+    "φάκελο": "φάκελος — envelope",
+    "παραβάν": "παραβάν — (voting) screen",
+    "κάλπη": "κάλπη — ballot box"
+   }
+  },
+  {
+   "id": "l94-c1-ntomates",
+   "title": "Γιατί οι ντομάτες δεν έχουν πια γεύση",
+   "title_en": "Why tomatoes no longer taste of anything",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Σε μια εκπομπή για τη διατροφή, ο παρουσιαστής συζητά με μια γεωπόνο.",
+   "script": [
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Πολλοί ακροατές μάς γράφουν ότι οι ντομάτες του σούπερ μάρκετ, ιδίως τον χειμώνα, δεν θυμίζουν σε τίποτα τις ντομάτες του κήπου της γιαγιάς. Είναι νοσταλγία ή συμβαίνει πράγματι κάτι;",
+     "en": "Many listeners write to us that supermarket tomatoes, especially in winter, are nothing like the tomatoes from grandma's garden. Is it nostalgia or is something really going on?"
+    },
+    {
+     "speaker": "Γεωπόνος",
+     "voice": "f",
+     "el": "Συμβαίνει πράγματι, και οι λόγοι είναι τρεις. Ο πρώτος είναι η επιλογή των ποικιλιών. Για δεκαετίες οι παραγωγοί διάλεγαν ντομάτες με μεγάλη απόδοση, ομοιόμορφο σχήμα και σκληρή φλούδα, που αντέχουν στη μεταφορά και στο ράφι. Η γεύση απλώς δεν ήταν κριτήριο. Μια μελέτη του 2012 έδειξε μάλιστα ότι μια μετάλλαξη που επιλέχθηκε για να ωριμάζει ο καρπός ομοιόμορφα, χωρίς πράσινους «ώμους», μειώνει τα σάκχαρα και επομένως τη γεύση.",
+     "en": "It really is, and there are three reasons. The first is the choice of varieties. For decades growers chose tomatoes with high yields, uniform shape and tough skin that withstand transport and shelf life. Flavour simply wasn't a criterion. A 2012 study even showed that a mutation selected so that the fruit ripens evenly, without green 'shoulders', reduces the sugars and therefore the flavour."
+    },
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Και ο δεύτερος;",
+     "en": "And the second?"
+    },
+    {
+     "speaker": "Γεωπόνος",
+     "voice": "f",
+     "el": "Ο χρόνος συγκομιδής. Για να φτάσουν άθικτες σε μακρινές αγορές, οι ντομάτες συχνά κόβονται πράσινες και ωριμάζουν αργότερα, σε αποθήκες, με τη βοήθεια ενός φυσικού αερίου, του αιθυλενίου. Αποκτούν το κόκκινο χρώμα, όχι όμως και τα αρώματα που θα είχαν αν είχαν ωριμάσει πάνω στο φυτό.",
+     "en": "The time of harvest. To reach distant markets intact, tomatoes are often picked green and ripen later, in warehouses, with the help of a natural gas, ethylene. They acquire the red colour, but not the aromas they would have had if they had ripened on the plant."
+    },
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Και ο τρίτος, φαντάζομαι, είναι δική μας ευθύνη;",
+     "en": "And the third, I imagine, is our own fault?"
+    },
+    {
+     "speaker": "Γεωπόνος",
+     "voice": "f",
+     "el": "Ακριβώς: το ψυγείο. Έρευνες στο Πανεπιστήμιο της Φλόριντα έδειξαν ότι σε θερμοκρασίες κάτω από δώδεκα περίπου βαθμούς, η ντομάτα σταματά να παράγει πολλές από τις αρωματικές ουσίες της, και η ζημιά δεν αναστρέφεται εύκολα. Η συμβουλή μου, λοιπόν, είναι απλή: αγοράζετε ντομάτες της εποχής, από ντόπιους παραγωγούς, και τις κρατάτε στον πάγκο της κουζίνας, όχι στο ψυγείο.",
+     "en": "Exactly: the fridge. Research at the University of Florida showed that at temperatures below about twelve degrees, the tomato stops producing many of its aroma compounds, and the damage is not easily reversed. So my advice is simple: buy tomatoes in season, from local growers, and keep them on the kitchen counter, not in the fridge."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Με ποια κριτήρια διάλεγαν για δεκαετίες οι παραγωγοί τις ποικιλίες;",
+     "options": [
+      "Με κριτήριο τη γεύση",
+      "Με κριτήριο την απόδοση, το σχήμα και την αντοχή στη μεταφορά",
+      "Με κριτήριο τη διατροφική αξία",
+      "Με κριτήριο το άρωμα"
+     ],
+     "answer": "Με κριτήριο την απόδοση, το σχήμα και την αντοχή στη μεταφορά",
+     "why": "διάλεγαν ντομάτες με μεγάλη απόδοση, ομοιόμορφο σχήμα και σκληρή φλούδα, που αντέχουν στη μεταφορά"
+    },
+    {
+     "q": "Τι έδειξε η μελέτη του 2012;",
+     "options": [
+      "Ότι οι καταναλωτές προτιμούν τις σκληρές ντομάτες",
+      "Ότι οι παλιές ποικιλίες είναι λιγότερο υγιεινές",
+      "Ότι το αιθυλένιο είναι επικίνδυνο",
+      "Ότι μια μετάλλαξη για ομοιόμορφο ωρίμασμα μειώνει τα σάκχαρα και τη γεύση"
+     ],
+     "answer": "Ότι μια μετάλλαξη για ομοιόμορφο ωρίμασμα μειώνει τα σάκχαρα και τη γεύση",
+     "why": "μειώνει τα σάκχαρα και επομένως τη γεύση"
+    },
+    {
+     "q": "Τι δεν αποκτούν οι ντομάτες που ωριμάζουν σε αποθήκες;",
+     "options": [
+      "Το κόκκινο χρώμα",
+      "Το μέγεθός τους",
+      "Τη σκληρή φλούδα",
+      "Τα αρώματα που θα είχαν αν ωρίμαζαν πάνω στο φυτό"
+     ],
+     "answer": "Τα αρώματα που θα είχαν αν ωρίμαζαν πάνω στο φυτό",
+     "why": "όχι όμως και τα αρώματα που θα είχαν αν είχαν ωριμάσει πάνω στο φυτό"
+    },
+    {
+     "q": "Τι συμβουλεύει η γεωπόνος;",
+     "options": [
+      "Να καλλιεργούμε μόνοι μας ντομάτες",
+      "Να βάζουμε τις ντομάτες στο ψυγείο",
+      "Να τρώμε ντομάτες μόνο το καλοκαίρι",
+      "Να αγοράζουμε ντομάτες της εποχής και να τις κρατάμε στον πάγκο"
+     ],
+     "answer": "Να αγοράζουμε ντομάτες της εποχής και να τις κρατάμε στον πάγκο",
+     "why": "αγοράζετε ντομάτες της εποχής, από ντόπιους παραγωγούς, και τις κρατάτε στον πάγκο της κουζίνας"
+    }
+   ],
+   "gloss": {
+    "γεωπόνο": "γεωπόνος — agronomist",
+    "νοσταλγία": "νοσταλγία — nostalgia",
+    "ποικιλιών": "ποικιλία — variety",
+    "απόδοση": "απόδοση — yield",
+    "ομοιόμορφο": "ομοιόμορφος — uniform",
+    "φλούδα": "φλούδα — skin, peel",
+    "μετάλλαξη": "μετάλλαξη — mutation",
+    "καρπός": "καρπός — fruit",
+    "σάκχαρα": "σάκχαρα — sugars",
+    "συγκομιδής": "συγκομιδή — harvest",
+    "άθικτες": "άθικτος — intact",
+    "αιθυλενίου": "αιθυλένιο — ethylene",
+    "αναστρέφεται": "αναστρέφομαι — to be reversed",
+    "πάγκο": "πάγκος — (kitchen) counter"
+   }
+  },
+  {
+   "id": "l94-c1-eponyma",
+   "title": "Τι λένε τα επώνυμά μας",
+   "title_en": "What our surnames tell us",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε την αρχή μιας ομιλίας για την ιστορία των ελληνικών επωνύμων σε ένα λαογραφικό συνέδριο.",
+   "script": [
+    {
+     "speaker": "Ομιλήτρια",
+     "voice": "f",
+     "el": "Για αιώνες οι περισσότεροι Έλληνες δεν είχαν σταθερό επώνυμο. Αναφέρονταν με το βαφτιστικό τους και, για να ξεχωρίζουν, με το όνομα του πατέρα τους, το επάγγελμά τους, τον τόπο καταγωγής τους ή κάποιο παρατσούκλι. Τα επώνυμα σταθεροποιήθηκαν σε μεγάλο βαθμό τον δέκατο ένατο αιώνα, όταν το νέο ελληνικό κράτος άρχισε να καταγράφει συστηματικά τους πολίτες του.",
+     "en": "For centuries most Greeks did not have a fixed surname. They were referred to by their first name and, to tell them apart, by their father's name, their trade, their place of origin or some nickname. Surnames became largely fixed in the nineteenth century, when the new Greek state began systematically registering its citizens."
+    },
+    {
+     "speaker": "Ομιλήτρια",
+     "voice": "f",
+     "el": "Γι’ αυτό, πολλά επώνυμα κρύβουν μια μικρή ιστορία. Ο Ράπτης είχε κάποτε έναν πρόγονο ράφτη, ο Χαλκιάς έναν χαλκουργό, και ο Παπαδόπουλος, το πιο συνηθισμένο ελληνικό επώνυμο, ήταν αρχικά «ο γιος του παπά». Οι καταλήξεις, πάλι, φανερώνουν συχνά τη γεωγραφική προέλευση: το -πουλος, που σημαίνει «παιδί», είναι χαρακτηριστικό της Πελοποννήσου, το υποκοριστικό -άκης της Κρήτης, το -άτος των Επτανήσων, και το -ίδης, απόηχος της αρχαίας κατάληξης των πατρωνυμικών, απαντά συχνά σε οικογένειες από τον Πόντο και τη Μικρά Ασία.",
+     "en": "That is why many surnames hide a little story. Raptis once had an ancestor who was a tailor, Chalkias a coppersmith, and Papadopoulos, the most common Greek surname, was originally 'the son of the priest'. The endings, in turn, often reveal geographical origin: -poulos, which means 'child', is typical of the Peloponnese, the diminutive -akis of Crete, -atos of the Ionian Islands, and -idis, an echo of the ancient patronymic ending, is often found in families from Pontus and Asia Minor."
+    },
+    {
+     "speaker": "Ομιλήτρια",
+     "voice": "f",
+     "el": "Δύο επιφυλάξεις, ωστόσο. Πρώτον, οι πληθυσμοί μετακινήθηκαν πολύ, ιδίως τον εικοστό αιώνα, οπότε ένα επώνυμο σε -άκης δεν σημαίνει απαραίτητα ότι κάποιος είναι Κρητικός σήμερα. Δεύτερον, η ετυμολογία των επωνύμων είναι ένα πεδίο όπου οι εύκολες ερμηνείες συχνά αποδεικνύονται λανθασμένες. Πριν βγάλετε συμπεράσματα για το δικό σας, καλό είναι να ανατρέξετε στα ληξιαρχικά βιβλία και στους παλιούς εκλογικούς καταλόγους του τόπου σας.",
+     "en": "Two caveats, however. First, populations moved a great deal, especially in the twentieth century, so a surname in -akis does not necessarily mean someone is Cretan today. Second, the etymology of surnames is a field where easy interpretations often turn out to be wrong. Before drawing conclusions about your own, it is a good idea to consult the civil registers and the old electoral rolls of your home town."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε σταθεροποιήθηκαν σε μεγάλο βαθμό τα ελληνικά επώνυμα;",
+     "options": [
+      "Στην αρχαιότητα",
+      "Μετά τον Δεύτερο Παγκόσμιο Πόλεμο",
+      "Στο Βυζάντιο",
+      "Τον δέκατο ένατο αιώνα, με την καταγραφή των πολιτών από το κράτος"
+     ],
+     "answer": "Τον δέκατο ένατο αιώνα, με την καταγραφή των πολιτών από το κράτος",
+     "why": "Τα επώνυμα σταθεροποιήθηκαν σε μεγάλο βαθμό τον δέκατο ένατο αιώνα"
+    },
+    {
+     "q": "Τι σήμαινε αρχικά το επώνυμο Παπαδόπουλος;",
+     "options": [
+      "Ο γιος του ράφτη",
+      "Ο μικρός παπάς",
+      "Αυτός που πουλάει πάπιες",
+      "Ο γιος του παπά"
+     ],
+     "answer": "Ο γιος του παπά",
+     "why": "ήταν αρχικά «ο γιος του παπά»"
+    },
+    {
+     "q": "Ποια κατάληξη είναι χαρακτηριστική των Επτανήσων;",
+     "options": [
+      "-πουλος",
+      "-ίδης",
+      "-άκης",
+      "-άτος"
+     ],
+     "answer": "-άτος",
+     "why": "το -άτος των Επτανήσων"
+    },
+    {
+     "q": "Τι συμβουλεύει η ομιλήτρια όσους θέλουν να μάθουν την προέλευση του επωνύμου τους;",
+     "options": [
+      "Να κάνουν τεστ DNA",
+      "Να ρωτήσουν έναν γλωσσολόγο στο διαδίκτυο",
+      "Να εμπιστευτούν τις καταλήξεις",
+      "Να ανατρέξουν στα ληξιαρχικά βιβλία και στους παλιούς εκλογικούς καταλόγους"
+     ],
+     "answer": "Να ανατρέξουν στα ληξιαρχικά βιβλία και στους παλιούς εκλογικούς καταλόγους",
+     "why": "καλό είναι να ανατρέξετε στα ληξιαρχικά βιβλία και στους παλιούς εκλογικούς καταλόγους του τόπου σας"
+    }
+   ],
+   "gloss": {
+    "επωνύμων": "επώνυμο — surname",
+    "λαογραφικό": "λαογραφικός — folklore (adj.)",
+    "βαφτιστικό": "βαφτιστικό (όνομα) — first name, Christian name",
+    "παρατσούκλι": "παρατσούκλι — nickname",
+    "σταθεροποιήθηκαν": "σταθεροποιούμαι — to become fixed",
+    "πρόγονο": "πρόγονος — ancestor",
+    "χαλκουργό": "χαλκουργός — coppersmith",
+    "καταλήξεις": "κατάληξη — ending",
+    "υποκοριστικό": "υποκοριστικό — diminutive",
+    "απόηχος": "απόηχος — echo",
+    "πατρωνυμικών": "πατρωνυμικό — patronymic",
+    "επιφυλάξεις": "επιφύλαξη — reservation, caveat",
+    "ανατρέξετε": "ανατρέχω — to consult, refer back to",
+    "ληξιαρχικά": "ληξιαρχικός — civil-registry (adj.)",
+    "εκλογικούς καταλόγους": "εκλογικός κατάλογος — electoral roll"
+   }
+  }
+ ]
+}
