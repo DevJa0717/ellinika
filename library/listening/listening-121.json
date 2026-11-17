@@ -1,0 +1,830 @@
+{
+ "items": [
+  {
+   "id": "l121-ann-leoforeia-anti-trenou",
+   "title": "Λεωφορεία αντί για τρένα λόγω εργασιών",
+   "title_en": "Buses instead of trains because of engineering work",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Περιμένετε σε έναν σιδηροδρομικό σταθμό. Ακούτε μια ανακοίνωση από τα μεγάφωνα.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Αγαπητοί επιβάτες, λόγω εργασιών στη σιδηροδρομική γραμμή, από αύριο Σάββατο και για τρεις εβδομάδες, τα δρομολόγια ανάμεσα στον σταθμό μας και στην Κόρινθο θα εκτελούνται με λεωφορεία. Τα λεωφορεία θα αναχωρούν από τον χώρο στάθμευσης μπροστά από την κεντρική είσοδο.",
+     "en": "Dear passengers, because of work on the railway line, from tomorrow, Saturday, and for three weeks, services between our station and Corinth will be operated by buses. The buses will depart from the car park in front of the main entrance."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Παρακαλούμε να υπολογίσετε περίπου σαράντα λεπτά επιπλέον στη διάρκεια του ταξιδιού. Τα εισιτήρια που έχετε ήδη αγοράσει ισχύουν κανονικά και για τα λεωφορεία, χωρίς καμία επιβάρυνση.",
+     "en": "Please allow about forty minutes extra for the journey. Tickets you have already bought are valid on the buses as normal, at no extra charge."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Στα λεωφορεία δεν επιτρέπονται ποδήλατα, εκτός από τα πτυσσόμενα. Επιβάτες με αναπηρικό αμαξίδιο παρακαλούνται να ενημερώσουν το εκδοτήριο μία μέρα νωρίτερα, ώστε να εξασφαλιστεί κατάλληλο όχημα.",
+     "en": "Bicycles are not allowed on the buses, except folding ones. Passengers using a wheelchair are asked to inform the ticket office a day in advance, so that a suitable vehicle can be arranged."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από πού θα αναχωρούν τα λεωφορεία;",
+     "options": [
+      "Από την πλατεία της πόλης",
+      "Από τον χώρο στάθμευσης μπροστά από την κεντρική είσοδο",
+      "Από τον σταθμό των ΚΤΕΛ",
+      "Από την αποβάθρα 1"
+     ],
+     "answer": "Από τον χώρο στάθμευσης μπροστά από την κεντρική είσοδο",
+     "why": "Τα λεωφορεία θα αναχωρούν από τον χώρο στάθμευσης μπροστά από την κεντρική είσοδο"
+    },
+    {
+     "q": "Τι ισχύει για τα εισιτήρια που έχουν ήδη αγοραστεί;",
+     "options": [
+      "Ισχύουν με μια μικρή επιβάρυνση",
+      "Πρέπει να αλλαχτούν στο εκδοτήριο",
+      "Ισχύουν κανονικά και για τα λεωφορεία, χωρίς επιβάρυνση",
+      "Επιστρέφονται τα χρήματα"
+     ],
+     "answer": "Ισχύουν κανονικά και για τα λεωφορεία, χωρίς επιβάρυνση",
+     "why": "Τα εισιτήρια που έχετε ήδη αγοράσει ισχύουν κανονικά και για τα λεωφορεία"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν οι επιβάτες με αναπηρικό αμαξίδιο;",
+     "options": [
+      "Να έρθουν μία ώρα νωρίτερα στον σταθμό",
+      "Να ενημερώσουν το εκδοτήριο μία μέρα νωρίτερα",
+      "Να πάρουν ταξί με έξοδα του σιδηροδρόμου",
+      "Να ταξιδέψουν μετά από τρεις εβδομάδες"
+     ],
+     "answer": "Να ενημερώσουν το εκδοτήριο μία μέρα νωρίτερα",
+     "why": "παρακαλούνται να ενημερώσουν το εκδοτήριο μία μέρα νωρίτερα"
+    }
+   ],
+   "gloss": {
+    "σιδηροδρομικό": "σιδηροδρομικός — railway (adj.)",
+    "δρομολόγια": "δρομολόγιο — service, scheduled trip",
+    "εκτελούνται": "εκτελούμαι — to be operated, carried out",
+    "χώρο στάθμευσης": "χώρος στάθμευσης — car park",
+    "υπολογίσετε": "υπολογίζω — to allow for, calculate",
+    "επιβάρυνση": "επιβάρυνση — extra charge",
+    "πτυσσόμενα": "πτυσσόμενος — folding",
+    "αναπηρικό αμαξίδιο": "αναπηρικό αμαξίδιο — wheelchair",
+    "εκδοτήριο": "εκδοτήριο — ticket office",
+    "όχημα": "όχημα — vehicle"
+   }
+  },
+  {
+   "id": "l121-vm-theatriki-omada",
+   "title": "Μήνυμα από τη θεατρική ομάδα του δήμου",
+   "title_en": "A message from the municipal theatre group",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Είστε μέλος μιας ερασιτεχνικής θεατρικής ομάδας. Ακούτε ένα μήνυμα στον τηλεφωνητή σας από τη σκηνοθέτιδα.",
+   "script": [
+    {
+     "speaker": "Σκηνοθέτιδα",
+     "voice": "f",
+     "el": "Γεια σου, η Ρένα είμαι. Σε παίρνω για να σου πω ότι η πρόβα της Πέμπτης μεταφέρεται την Τετάρτη, στις επτά, γιατί την Πέμπτη η αίθουσα χρειάζεται για μια συναυλία. Θα δουλέψουμε κυρίως τη δεύτερη πράξη, που είναι ακόμα αδύναμη.",
+     "en": "Hi, it's Rena. I'm calling to tell you that Thursday's rehearsal is moving to Wednesday, at seven, because on Thursday the hall is needed for a concert. We'll mainly work on the second act, which is still weak."
+    },
+    {
+     "speaker": "Σκηνοθέτιδα",
+     "voice": "f",
+     "el": "Θα ήθελα να ξέρεις τον μονόλογό σου απέξω ως τότε, χωρίς το κείμενο στο χέρι. Αν δυσκολεύεσαι, ηχογράφησε τις ατάκες των άλλων στο κινητό σου και κάνε πρόβα μαζί τους. Εμένα με βοηθούσε πολύ αυτό.",
+     "en": "I'd like you to know your monologue by heart by then, without the script in your hand. If you're finding it hard, record the others' lines on your phone and rehearse with them. That helped me a lot."
+    },
+    {
+     "speaker": "Σκηνοθέτιδα",
+     "voice": "f",
+     "el": "Και κάτι ακόμα: η κυρία από το βεστιάριο θέλει να σου πάρει μέτρα για το κοστούμι. Φέρε μαζί σου τα μαύρα παπούτσια που μου είπες, για να δούμε αν ταιριάζουν. Τα λέμε την Τετάρτη!",
+     "en": "And one more thing: the lady from the wardrobe wants to take your measurements for the costume. Bring the black shoes you told me about, so we can see if they go with it. See you on Wednesday!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί μεταφέρεται η πρόβα;",
+     "options": [
+      "Γιατί λείπουν πολλοί ηθοποιοί",
+      "Γιατί την Πέμπτη η αίθουσα χρειάζεται για μια συναυλία",
+      "Γιατί η σκηνοθέτιδα είναι άρρωστη",
+      "Γιατί η παράσταση πήρε αναβολή"
+     ],
+     "answer": "Γιατί την Πέμπτη η αίθουσα χρειάζεται για μια συναυλία",
+     "why": "την Πέμπτη η αίθουσα χρειάζεται για μια συναυλία"
+    },
+    {
+     "q": "Τι συμβουλεύει η Ρένα για τον μονόλογο;",
+     "options": [
+      "Να ηχογραφήσει τις ατάκες των άλλων και να κάνει πρόβα μαζί τους",
+      "Να τον πει μπροστά στον καθρέφτη",
+      "Να τον διαβάζει πριν κοιμηθεί",
+      "Να τον γράψει πολλές φορές"
+     ],
+     "answer": "Να ηχογραφήσει τις ατάκες των άλλων και να κάνει πρόβα μαζί τους",
+     "why": "ηχογράφησε τις ατάκες των άλλων στο κινητό σου και κάνε πρόβα μαζί τους"
+    },
+    {
+     "q": "Τι πρέπει να φέρει ο ακροατής την Τετάρτη;",
+     "options": [
+      "Τα μαύρα παπούτσια",
+      "Το κείμενο του έργου",
+      "Το κοστούμι του",
+      "Ένα καπέλο"
+     ],
+     "answer": "Τα μαύρα παπούτσια",
+     "why": "Φέρε μαζί σου τα μαύρα παπούτσια"
+    }
+   ],
+   "gloss": {
+    "ερασιτεχνικής": "ερασιτεχνικός — amateur",
+    "σκηνοθέτιδα": "σκηνοθέτιδα — (female) director",
+    "πρόβα": "πρόβα — rehearsal",
+    "αίθουσα": "αίθουσα — hall",
+    "πράξη": "πράξη — act",
+    "μονόλογό": "μονόλογος — monologue",
+    "απέξω": "απέξω — by heart",
+    "ατάκες": "ατάκα — line (in a play)",
+    "βεστιάριο": "βεστιάριο — wardrobe (theatre)",
+    "μέτρα": "παίρνω μέτρα — to take measurements"
+   }
+  },
+  {
+   "id": "l121-dial-agora-i-enoikio",
+   "title": "Αγοράζουμε ή συνεχίζουμε να νοικιάζουμε;",
+   "title_en": "Buy or keep renting?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ο Κώστας και η Δέσποινα, ένα ζευγάρι τριάντα πέντε χρονών, συζητούν αν πρέπει να αγοράσουν δικό τους διαμέρισμα.",
+   "script": [
+    {
+     "speaker": "Κώστας",
+     "voice": "m",
+     "el": "Δέσποινα, ο ιδιοκτήτης μάς ανέβασε πάλι το ενοίκιο. Πληρώνουμε σχεδόν όσο θα πληρώναμε τη δόση ενός δανείου. Μήπως ήρθε η ώρα να αγοράσουμε κάτι δικό μας;",
+     "en": "Despina, the landlord has put the rent up again. We pay almost as much as we'd pay for a mortgage instalment. Maybe it's time to buy a place of our own?"
+    },
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Το έχω σκεφτεί κι εγώ. Αλλά ένα δάνειο είναι δέσμευση για είκοσι πέντε χρόνια. Κι αν χρειαστεί να αλλάξουμε πόλη για δουλειά; Με το ενοίκιο είμαστε πιο ελεύθεροι.",
+     "en": "I've thought about it too. But a loan is a commitment for twenty-five years. And what if we need to move city for work? With renting we're freer."
+    },
+    {
+     "speaker": "Κώστας",
+     "voice": "m",
+     "el": "Αν χρειαστεί να φύγουμε, μπορούμε να το νοικιάσουμε. Και κάποια στιγμή θα το έχουμε ξεπληρώσει, ενώ τα ενοίκια είναι χρήματα που δεν θα τα ξαναδούμε ποτέ.",
+     "en": "If we need to leave, we can rent it out. And at some point we'll have paid it off, whereas rent is money we'll never see again."
+    },
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Σωστό. Το πρόβλημα είναι η προκαταβολή. Τα χρήματα που έχουμε στην άκρη φτάνουν μόνο για το ένα πέμπτο της τιμής. Πριν αποφασίσουμε, ας μιλήσουμε με έναν σύμβουλο στην τράπεζα να δούμε τι δάνειο μπορούμε πραγματικά να αντέξουμε.",
+     "en": "True. The problem is the down payment. The money we have put aside is only enough for a fifth of the price. Before we decide, let's talk to an adviser at the bank to see what loan we can really afford."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο Κώστας σκέφτεται να αγοράσουν σπίτι;",
+     "options": [
+      "Γιατί θέλουν μεγαλύτερο σπίτι",
+      "Γιατί θα κάνουν παιδί",
+      "Γιατί κληρονόμησαν χρήματα",
+      "Γιατί ο ιδιοκτήτης ανέβασε πάλι το ενοίκιο"
+     ],
+     "answer": "Γιατί ο ιδιοκτήτης ανέβασε πάλι το ενοίκιο",
+     "why": "ο ιδιοκτήτης μάς ανέβασε πάλι το ενοίκιο"
+    },
+    {
+     "q": "Ποιο είναι το επιχείρημα της Δέσποινας υπέρ του ενοικίου;",
+     "options": [
+      "Ότι με το ενοίκιο είναι πιο ελεύθεροι αν χρειαστεί να αλλάξουν πόλη",
+      "Ότι είναι πιο φθηνό",
+      "Ότι τα σπίτια θα φθηνύνουν",
+      "Ότι ο ιδιοκτήτης κάνει τις επισκευές"
+     ],
+     "answer": "Ότι με το ενοίκιο είναι πιο ελεύθεροι αν χρειαστεί να αλλάξουν πόλη",
+     "why": "Με το ενοίκιο είμαστε πιο ελεύθεροι"
+    },
+    {
+     "q": "Τι προτείνει η Δέσποινα στο τέλος;",
+     "options": [
+      "Να ζητήσουν δανεικά από τους γονείς τους",
+      "Να ψάξουν φθηνότερο σπίτι για ενοίκιο",
+      "Να μιλήσουν με έναν σύμβουλο στην τράπεζα",
+      "Να περιμένουν δύο χρόνια"
+     ],
+     "answer": "Να μιλήσουν με έναν σύμβουλο στην τράπεζα",
+     "why": "ας μιλήσουμε με έναν σύμβουλο στην τράπεζα"
+    }
+   ],
+   "gloss": {
+    "διαμέρισμα": "διαμέρισμα — flat, apartment",
+    "ιδιοκτήτης": "ιδιοκτήτης — landlord, owner",
+    "ενοίκιο": "ενοίκιο — rent",
+    "δόση": "δόση — instalment",
+    "δανείου": "δάνειο — loan, mortgage",
+    "δέσμευση": "δέσμευση — commitment",
+    "ξεπληρώσει": "ξεπληρώνω — to pay off",
+    "προκαταβολή": "προκαταβολή — down payment, deposit",
+    "στην άκρη": "βάζω στην άκρη — to put aside (money)",
+    "αντέξουμε": "αντέχω — to afford, bear"
+   }
+  },
+  {
+   "id": "l121-int-xenagos-orycheiou",
+   "title": "Ξεναγός σε ένα παλιό ορυχείο",
+   "title_en": "A guide in an old mine",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με τον Αντώνη, ξεναγό σε ένα παλιό μεταλλείο που έγινε μουσείο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Αντώνη, το μεταλλείο έκλεισε πριν από πενήντα χρόνια. Τι βλέπει σήμερα ο επισκέπτης;",
+     "en": "Antonis, the mine closed fifty years ago. What does the visitor see today?"
+    },
+    {
+     "speaker": "Αντώνης",
+     "voice": "m",
+     "el": "Οι επισκέπτες φορούν κράνος και μπαίνουν σε μια στοά τριακοσίων μέτρων. Βλέπουν τις ράγες όπου κυλούσαν τα βαγονέτα, τα εργαλεία των μεταλλωρύχων και τα σημάδια από τις αξίνες στους τοίχους. Το πιο εντυπωσιακό, όμως, είναι η σιωπή και το σκοτάδι, όταν σβήνουμε για λίγα δευτερόλεπτα τα φώτα.",
+     "en": "Visitors wear a helmet and go into a gallery three hundred metres long. They see the rails where the mine carts rolled, the miners' tools and the marks of the picks on the walls. The most striking thing, though, is the silence and the darkness when we switch off the lights for a few seconds."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Έχετε προσωπική σχέση με το μεταλλείο;",
+     "en": "Do you have a personal connection with the mine?"
+    },
+    {
+     "speaker": "Αντώνης",
+     "voice": "m",
+     "el": "Ο παππούς μου δούλευε εδώ τριάντα χρόνια. Μου έλεγε ότι έβγαιναν από τη στοά μαύροι από τη σκόνη και ότι πολλοί συνάδελφοί του αρρώστησαν από τους πνεύμονες. Γι’ αυτό, στην ξενάγηση δεν μιλάω μόνο για τα ορυκτά, αλλά και για τους ανθρώπους.",
+     "en": "My grandfather worked here for thirty years. He told me that they came out of the gallery black with dust and that many of his colleagues got lung disease. That's why on the tour I don't just talk about the minerals, but also about the people."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ποιοι έρχονται περισσότερο;",
+     "en": "Who comes most?"
+    },
+    {
+     "speaker": "Αντώνης",
+     "voice": "m",
+     "el": "Πολλά σχολεία, και αυτό με χαροποιεί. Τα παιδιά συνήθως ρωτούν αν υπάρχουν ακόμα θησαυροί μέσα. Τους απαντώ ότι ο μεγαλύτερος θησαυρός είναι οι ιστορίες των ανθρώπων που δούλεψαν εδώ.",
+     "en": "Many schools, and that makes me glad. The children usually ask if there are still treasures inside. I answer that the greatest treasure is the stories of the people who worked here."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είναι, κατά τον Αντώνη, το πιο εντυπωσιακό στην ξενάγηση;",
+     "options": [
+      "Τα βαγονέτα",
+      "Η σιωπή και το σκοτάδι όταν σβήνουν τα φώτα",
+      "Τα ορυκτά στους τοίχους",
+      "Η θέα από την είσοδο"
+     ],
+     "answer": "Η σιωπή και το σκοτάδι όταν σβήνουν τα φώτα",
+     "why": "Το πιο εντυπωσιακό, όμως, είναι η σιωπή και το σκοτάδι"
+    },
+    {
+     "q": "Γιατί ο Αντώνης μιλάει στην ξενάγηση και για τους ανθρώπους;",
+     "options": [
+      "Γιατί ο παππούς του δούλευε εκεί και πολλοί συνάδελφοί του αρρώστησαν",
+      "Γιατί έχει σπουδάσει ιστορία",
+      "Γιατί τα ορυκτά δεν ενδιαφέρουν κανέναν",
+      "Γιατί του το ζήτησε ο δήμος"
+     ],
+     "answer": "Γιατί ο παππούς του δούλευε εκεί και πολλοί συνάδελφοί του αρρώστησαν",
+     "why": "Ο παππούς μου δούλευε εδώ τριάντα χρόνια"
+    },
+    {
+     "q": "Τι απαντά στα παιδιά που ρωτούν για θησαυρούς;",
+     "options": [
+      "Ότι ο μεγαλύτερος θησαυρός είναι οι ιστορίες των ανθρώπων",
+      "Ότι υπάρχει χρυσάφι βαθιά μέσα",
+      "Ότι οι θησαυροί είναι μύθος",
+      "Ότι οι θησαυροί είναι στο μουσείο της πόλης"
+     ],
+     "answer": "Ότι ο μεγαλύτερος θησαυρός είναι οι ιστορίες των ανθρώπων",
+     "why": "ο μεγαλύτερος θησαυρός είναι οι ιστορίες των ανθρώπων που δούλεψαν εδώ"
+    }
+   ],
+   "gloss": {
+    "μεταλλείο": "μεταλλείο — mine",
+    "κράνος": "κράνος — helmet",
+    "στοά": "στοά — gallery, tunnel",
+    "ράγες": "ράγα — rail",
+    "βαγονέτα": "βαγονέτο — mine cart",
+    "μεταλλωρύχων": "μεταλλωρύχος — miner",
+    "αξίνες": "αξίνα — pick(axe)",
+    "σκόνη": "σκόνη — dust",
+    "πνεύμονες": "πνεύμονας — lung",
+    "ορυκτά": "ορυκτό — mineral",
+    "χαροποιεί": "χαροποιώ — to make glad"
+   }
+  },
+  {
+   "id": "l121-rep-trapeza-trofimon",
+   "title": "Η τράπεζα τροφίμων της πόλης",
+   "title_en": "The city's food bank",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ σε τοπικό ραδιόφωνο για την τράπεζα τροφίμων μιας πόλης.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Σε μια αποθήκη στη βιομηχανική περιοχή, είκοσι εθελοντές ταξινομούν κιβώτια με μακαρόνια, όσπρια, γάλα και κονσέρβες. Είναι η τράπεζα τροφίμων της πόλης, που μαζεύει τρόφιμα από σούπερ μάρκετ, εταιρείες και ιδιώτες και τα μοιράζει σε οικογένειες που τα έχουν ανάγκη.",
+     "en": "In a warehouse in the industrial area, twenty volunteers are sorting boxes of pasta, pulses, milk and tins. This is the city's food bank, which collects food from supermarkets, companies and private individuals and distributes it to families in need."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Πολλά από τα προϊόντα είναι απολύτως κατάλληλα, αλλά πλησιάζουν την ημερομηνία λήξης ή έχουν μια μικρή ζημιά στη συσκευασία, και τα καταστήματα δεν μπορούν πια να τα πουλήσουν. Έτσι, η τράπεζα τροφίμων μειώνει και τη σπατάλη: αντί να πεταχτούν, τα τρόφιμα φτάνουν σε ένα τραπέζι.",
+     "en": "Many of the products are perfectly fine but are close to their best-before date or have slight damage to the packaging, and the shops can no longer sell them. So the food bank also reduces waste: instead of being thrown away, the food reaches a table."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι οικογένειες που βοηθιούνται είναι πάνω από τετρακόσιες, και ο αριθμός αυξάνεται. Οι υπεύθυνοι λένε ότι χρειάζονται κυρίως εθελοντές με δίπλωμα οδήγησης για τις παραλαβές και ένα δεύτερο ψυγείο για τα φρέσκα προϊόντα.",
+     "en": "The families being helped number over four hundred, and the number is growing. Those in charge say they mainly need volunteers with a driving licence for the collections and a second fridge for fresh products."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από πού μαζεύει τρόφιμα η τράπεζα τροφίμων;",
+     "options": [
+      "Από αγρότες της περιοχής",
+      "Μόνο από τον δήμο",
+      "Από σούπερ μάρκετ, εταιρείες και ιδιώτες",
+      "Από τα σχολεία"
+     ],
+     "answer": "Από σούπερ μάρκετ, εταιρείες και ιδιώτες",
+     "why": "μαζεύει τρόφιμα από σούπερ μάρκετ, εταιρείες και ιδιώτες"
+    },
+    {
+     "q": "Γιατί τα καταστήματα δεν μπορούν να πουλήσουν πολλά από αυτά τα προϊόντα;",
+     "options": [
+      "Γιατί πλησιάζουν την ημερομηνία λήξης ή έχουν μικρή ζημιά στη συσκευασία",
+      "Γιατί δεν τα ζητάει κανείς",
+      "Γιατί είναι χαλασμένα",
+      "Γιατί είναι πολύ ακριβά"
+     ],
+     "answer": "Γιατί πλησιάζουν την ημερομηνία λήξης ή έχουν μικρή ζημιά στη συσκευασία",
+     "why": "πλησιάζουν την ημερομηνία λήξης ή έχουν μια μικρή ζημιά στη συσκευασία"
+    },
+    {
+     "q": "Τι χρειάζεται κυρίως η τράπεζα τροφίμων;",
+     "options": [
+      "Χρήματα για ενοίκιο",
+      "Εθελοντές με δίπλωμα οδήγησης και ένα δεύτερο ψυγείο",
+      "Μεγαλύτερη αποθήκη",
+      "Περισσότερα όσπρια"
+     ],
+     "answer": "Εθελοντές με δίπλωμα οδήγησης και ένα δεύτερο ψυγείο",
+     "why": "εθελοντές με δίπλωμα οδήγησης για τις παραλαβές και ένα δεύτερο ψυγείο"
+    }
+   ],
+   "gloss": {
+    "τράπεζα τροφίμων": "τράπεζα τροφίμων — food bank",
+    "αποθήκη": "αποθήκη — warehouse",
+    "ταξινομούν": "ταξινομώ — to sort",
+    "κιβώτια": "κιβώτιο — box, crate",
+    "όσπρια": "όσπρια — pulses",
+    "κονσέρβες": "κονσέρβα — tin, can",
+    "ιδιώτες": "ιδιώτης — private individual",
+    "ημερομηνία λήξης": "ημερομηνία λήξης — expiry / best-before date",
+    "συσκευασία": "συσκευασία — packaging",
+    "σπατάλη": "σπατάλη — waste",
+    "παραλαβές": "παραλαβή — collection, pick-up"
+   }
+  },
+  {
+   "id": "l121-rep-kolymbi-paidia-prosfygon",
+   "title": "Μαθήματα κολύμβησης για παιδιά προσφύγων",
+   "title_en": "Swimming lessons for refugee children",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ για ένα πρόγραμμα κολύμβησης για παιδιά προσφύγων σε ένα νησί του Αιγαίου.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Για πολλά από τα παιδιά που ζουν στη δομή φιλοξενίας του νησιού, η θάλασσα δεν ήταν ποτέ τόπος παιχνιδιού. Κάποια τη διέσχισαν με βάρκες, μέσα στη νύχτα, και τη φοβούνται ακόμα. Ένας τοπικός ναυτικός όμιλος αποφάσισε να τα βοηθήσει να τη δουν με άλλα μάτια.",
+     "en": "For many of the children living in the island's reception centre, the sea was never a place to play. Some crossed it in boats, at night, and are still afraid of it. A local sailing club decided to help them see it differently."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Δύο φορές την εβδομάδα, προπονητές του ομίλου δίνουν δωρεάν μαθήματα κολύμβησης σε τριάντα παιδιά, από έξι έως δεκατεσσάρων χρονών. Τα πρώτα μαθήματα γίνονται στα ρηχά, χωρίς βιασύνη. «Κάποια παιδιά χρειάστηκαν τρεις εβδομάδες μόνο για να βάλουν το πρόσωπο στο νερό», λέει μια προπονήτρια.",
+     "en": "Twice a week, the club's coaches give free swimming lessons to thirty children, from six to fourteen years old. The first lessons take place in the shallows, without hurrying. \"Some children needed three weeks just to put their face in the water\", says one coach."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Στα μαθήματα συμμετέχουν και παιδιά του νησιού, και πολλές φιλίες έχουν γεννηθεί στο νερό. Στο τέλος του καλοκαιριού, τα παιδιά πήραν μέρος σε έναν μικρό αγώνα κολύμβησης, και οι γονείς τους τα χειροκροτούσαν από την ακτή.",
+     "en": "Children from the island also take part in the lessons, and many friendships have been born in the water. At the end of the summer, the children took part in a small swimming race, and their parents applauded them from the shore."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί πολλά παιδιά φοβούνται τη θάλασσα;",
+     "options": [
+      "Γιατί η θάλασσα του νησιού είναι επικίνδυνη",
+      "Γιατί είχαν πνιγεί φίλοι τους στην πισίνα",
+      "Γιατί δεν έχουν δει ποτέ θάλασσα",
+      "Γιατί κάποια τη διέσχισαν με βάρκες μέσα στη νύχτα"
+     ],
+     "answer": "Γιατί κάποια τη διέσχισαν με βάρκες μέσα στη νύχτα",
+     "why": "Κάποια τη διέσχισαν με βάρκες, μέσα στη νύχτα, και τη φοβούνται ακόμα"
+    },
+    {
+     "q": "Πώς γίνονται τα πρώτα μαθήματα;",
+     "options": [
+      "Στα ρηχά, χωρίς βιασύνη",
+      "Από βάρκα, στα βαθιά",
+      "Μόνο στη στεριά, με ασκήσεις",
+      "Σε κλειστή πισίνα"
+     ],
+     "answer": "Στα ρηχά, χωρίς βιασύνη",
+     "why": "Τα πρώτα μαθήματα γίνονται στα ρηχά, χωρίς βιασύνη"
+    },
+    {
+     "q": "Τι έγινε στο τέλος του καλοκαιριού;",
+     "options": [
+      "Τα παιδιά πήγαν εκδρομή με ιστιοφόρο",
+      "Τα παιδιά πήραν μέρος σε έναν μικρό αγώνα κολύμβησης",
+      "Ο όμιλος πήρε ένα βραβείο",
+      "Το πρόγραμμα σταμάτησε"
+     ],
+     "answer": "Τα παιδιά πήραν μέρος σε έναν μικρό αγώνα κολύμβησης",
+     "why": "τα παιδιά πήραν μέρος σε έναν μικρό αγώνα κολύμβησης"
+    }
+   ],
+   "gloss": {
+    "προσφύγων": "πρόσφυγας — refugee",
+    "δομή φιλοξενίας": "δομή φιλοξενίας — reception centre",
+    "διέσχισαν": "διασχίζω — to cross",
+    "ναυτικός όμιλος": "ναυτικός όμιλος — sailing club",
+    "προπονητές": "προπονητής — coach",
+    "ρηχά": "τα ρηχά — the shallows",
+    "βιασύνη": "βιασύνη — hurry, haste",
+    "φιλίες": "φιλία — friendship",
+    "χειροκροτούσαν": "χειροκροτώ — to applaud",
+    "ακτή": "ακτή — shore"
+   }
+  },
+  {
+   "id": "l121-mon-cheimonas-schoinousa",
+   "title": "Ένας χειμώνας στη Σχοινούσα",
+   "title_en": "A winter on Schinoussa",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Η Αλεξάνδρα, γραφίστρια από την Αθήνα, διηγείται πώς πέρασε έναν ολόκληρο χειμώνα σε ένα μικρό νησί των Κυκλάδων.",
+   "script": [
+    {
+     "speaker": "Αλεξάνδρα",
+     "voice": "f",
+     "el": "Δουλεύω από το σπίτι, οπότε πέρσι αποφάσισα να δοκιμάσω κάτι τρελό: να περάσω τον χειμώνα στη Σχοινούσα, ένα νησάκι με λίγες εκατοντάδες κατοίκους. Τον Αύγουστο ήταν γεμάτο τουρίστες. Τον Νοέμβριο είχαμε μείνει μόνο οι ντόπιοι κι εγώ.",
+     "en": "I work from home, so last year I decided to try something crazy: to spend the winter on Schinoussa, a little island with a few hundred inhabitants. In August it was full of tourists. By November only the locals and I were left."
+    },
+    {
+     "speaker": "Αλεξάνδρα",
+     "voice": "f",
+     "el": "Τις πρώτες εβδομάδες ένιωθα πολύ μόνη. Τα μαγαζιά είχαν κλείσει, το πλοίο ερχόταν λίγες φορές την εβδομάδα και, όταν φυσούσε, καθόλου. Μια φορά μείναμε πέντε μέρες χωρίς φρέσκα λαχανικά. Έμαθα να ψωνίζω για δέκα μέρες και να μην πετάω τίποτα.",
+     "en": "In the first weeks I felt very lonely. The shops had closed, the boat came a few times a week and, when it was windy, not at all. Once we went five days without fresh vegetables. I learned to shop for ten days at a time and not to throw anything away."
+    },
+    {
+     "speaker": "Αλεξάνδρα",
+     "voice": "f",
+     "el": "Σιγά σιγά όμως με δέχτηκαν. Η κυρία Ουρανία μού έμαθε να φτιάχνω τυρί, και τα βράδια μαζευόμασταν στο μοναδικό καφενείο που έμενε ανοιχτό. Τον Μάρτιο, όταν γύρισα στην Αθήνα, ένιωθα σαν να άφηνα το σπίτι μου. Φέτος θα ξαναπάω.",
+     "en": "But little by little they accepted me. Mrs Ourania taught me to make cheese, and in the evenings we gathered at the only café that stayed open. In March, when I went back to Athens, I felt as if I were leaving my home. This year I'm going again."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί μπόρεσε η Αλεξάνδρα να περάσει τον χειμώνα στο νησί;",
+     "options": [
+      "Γιατί δουλεύει από το σπίτι",
+      "Γιατί είναι συνταξιούχος",
+      "Γιατί βρήκε δουλειά στο νησί",
+      "Γιατί πήρε άδεια από τη δουλειά"
+     ],
+     "answer": "Γιατί δουλεύει από το σπίτι",
+     "why": "Δουλεύω από το σπίτι"
+    },
+    {
+     "q": "Τι έμαθε να κάνει εξαιτίας του πλοίου;",
+     "options": [
+      "Να καλλιεργεί λαχανικά",
+      "Να μαγειρεύει ψάρια",
+      "Να ψωνίζει για δέκα μέρες και να μην πετάει τίποτα",
+      "Να ψαρεύει"
+     ],
+     "answer": "Να ψωνίζει για δέκα μέρες και να μην πετάει τίποτα",
+     "why": "Έμαθα να ψωνίζω για δέκα μέρες και να μην πετάω τίποτα"
+    },
+    {
+     "q": "Πώς ένιωσε όταν γύρισε στην Αθήνα;",
+     "options": [
+      "Κουρασμένη",
+      "Αδιάφορη",
+      "Σαν να άφηνε το σπίτι της",
+      "Ανακουφισμένη"
+     ],
+     "answer": "Σαν να άφηνε το σπίτι της",
+     "why": "ένιωθα σαν να άφηνα το σπίτι μου"
+    }
+   ],
+   "gloss": {
+    "γραφίστρια": "γραφίστρια — (female) graphic designer",
+    "νησάκι": "νησάκι — little island",
+    "ντόπιοι": "ντόπιος — local",
+    "φυσούσε": "φυσάει — it is windy",
+    "ψωνίζω": "ψωνίζω — to shop",
+    "δέχτηκαν": "δέχομαι — to accept",
+    "μαζευόμασταν": "μαζεύομαι — to gather",
+    "μοναδικό": "μοναδικός — only, single"
+   }
+  },
+  {
+   "id": "l121-mon-anoigo-fyllo",
+   "title": "Έμαθα να ανοίγω φύλλο για πίτα",
+   "title_en": "I learned to roll out filo for pies",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ο Στέφανος, μηχανικός σαράντα χρονών, μιλάει σε μια εκπομπή μαγειρικής για ένα παλιό οικογενειακό μυστικό.",
+   "script": [
+    {
+     "speaker": "Στέφανος",
+     "voice": "m",
+     "el": "Η γιαγιά μου από τα Γιάννενα άνοιγε φύλλο με τον πλάστη πάνω σε ένα μεγάλο στρογγυλό τραπέζι. Το έκανε τόσο λεπτό, που μπορούσες να διαβάσεις εφημερίδα από κάτω. Όταν πέθανε, κατάλαβα ότι κανείς στην οικογένεια δεν είχε μάθει να το κάνει.",
+     "en": "My grandmother from Ioannina used to roll out filo with a rolling pin on a big round table. She made it so thin that you could read a newspaper through it. When she died, I realised that nobody in the family had learned to do it."
+    },
+    {
+     "speaker": "Στέφανος",
+     "voice": "m",
+     "el": "Έτσι, στα τριάντα οκτώ μου, γράφτηκα σε ένα εργαστήρι με μια κυρία που ήξερε την τέχνη. Τα πρώτα φύλλα μου σκίζονταν συνέχεια ή έβγαιναν χοντρά σαν χαρτόνι. Το μυστικό, μου είπε, είναι το ζύμωμα και η υπομονή: η ζύμη πρέπει να ξεκουραστεί πριν την ανοίξεις.",
+     "en": "So, at thirty-eight, I signed up for a workshop with a lady who knew the craft. My first sheets kept tearing or came out as thick as cardboard. The secret, she told me, is the kneading and patience: the dough must rest before you roll it out."
+    },
+    {
+     "speaker": "Στέφανος",
+     "voice": "m",
+     "el": "Χρειάστηκα σχεδόν έναν χρόνο για να φτιάξω μια πίτα που να μοιάζει με της γιαγιάς. Δεν είναι ακόμα τέλεια, αλλά όταν την έφερα στο τραπέζι την Πρωτοχρονιά, η μητέρα μου δάκρυσε. Τώρα μαθαίνω την τέχνη στον γιο μου, για να μη χαθεί ξανά.",
+     "en": "It took me almost a year to make a pie that resembled my grandmother's. It's not perfect yet, but when I brought it to the table on New Year's Day, my mother had tears in her eyes. Now I'm teaching the craft to my son, so that it won't be lost again."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι κατάλαβε ο Στέφανος όταν πέθανε η γιαγιά του;",
+     "options": [
+      "Ότι είχε χαθεί η συνταγή της",
+      "Ότι κανείς στην οικογένεια δεν είχε μάθει να ανοίγει φύλλο",
+      "Ότι ο πλάστης της είχε χαθεί",
+      "Ότι δεν του άρεσε η πίτα"
+     ],
+     "answer": "Ότι κανείς στην οικογένεια δεν είχε μάθει να ανοίγει φύλλο",
+     "why": "κανείς στην οικογένεια δεν είχε μάθει να το κάνει"
+    },
+    {
+     "q": "Ποιο είναι το μυστικό, σύμφωνα με τη δασκάλα του;",
+     "options": [
+      "Ένας ειδικός πλάστης",
+      "Το ζύμωμα και η υπομονή",
+      "Ο ζεστός φούρνος",
+      "Το καλό αλεύρι"
+     ],
+     "answer": "Το ζύμωμα και η υπομονή",
+     "why": "Το μυστικό, μου είπε, είναι το ζύμωμα και η υπομονή"
+    },
+    {
+     "q": "Γιατί μαθαίνει τώρα την τέχνη στον γιο του;",
+     "options": [
+      "Για να μη χαθεί ξανά",
+      "Γιατί του το ζήτησε η μητέρα του",
+      "Για να ανοίξει μαγαζί",
+      "Για να λάβει μέρος σε διαγωνισμό"
+     ],
+     "answer": "Για να μη χαθεί ξανά",
+     "why": "για να μη χαθεί ξανά"
+    }
+   ],
+   "gloss": {
+    "άνοιγε φύλλο": "ανοίγω φύλλο — to roll out filo pastry",
+    "πλάστη": "πλάστης — rolling pin",
+    "στρογγυλό": "στρογγυλός — round",
+    "εργαστήρι": "εργαστήρι — workshop",
+    "σκίζονταν": "σκίζομαι — to tear",
+    "χαρτόνι": "χαρτόνι — cardboard",
+    "ζύμωμα": "ζύμωμα — kneading",
+    "ζύμη": "ζύμη — dough",
+    "ξεκουραστεί": "ξεκουράζομαι — to rest",
+    "δάκρυσε": "δακρύζω — to have tears in one's eyes"
+   }
+  },
+  {
+   "id": "l121-c1-giati-paizoun-ta-zoa",
+   "title": "Γιατί παίζουν τα ζώα;",
+   "title_en": "Why do animals play?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε μια ηθολόγο σε μια εκπομπή επιστήμης για τη συμπεριφορά των ζώων.",
+   "script": [
+    {
+     "speaker": "Ηθολόγος",
+     "voice": "f",
+     "el": "Τα σκυλάκια κυνηγιούνται και δαγκώνονται χωρίς να πονούν, τα γατάκια επιτίθενται σε ένα κουβάρι, τα δελφίνια φτιάχνουν δαχτυλίδια από φυσαλίδες και τα κοράκια, σύμφωνα με αρκετές παρατηρήσεις, γλιστρούν σε χιονισμένες στέγες. Το παιχνίδι είναι διαδεδομένο στα θηλαστικά και σε ορισμένα πουλιά. Το ερώτημα είναι γιατί.",
+     "en": "Puppies chase and bite each other without hurting, kittens attack a ball of wool, dolphins make rings of bubbles and ravens, according to several observations, slide down snowy roofs. Play is widespread in mammals and in some birds. The question is why."
+    },
+    {
+     "speaker": "Ηθολόγος",
+     "voice": "f",
+     "el": "Το παιχνίδι έχει κόστος. Καταναλώνει ενέργεια, και ένα νεαρό ζώο που παίζει είναι λιγότερο προσεκτικό απέναντι στους θηρευτές. Αν η εξέλιξη το διατήρησε, πρέπει να έχει σημαντικά οφέλη. Η παλαιότερη εξήγηση είναι ότι το παιχνίδι είναι εξάσκηση: το λιοντάρι που παίζει «κυνηγητό» μαθαίνει να κυνηγά.",
+     "en": "Play has a cost. It uses energy, and a young animal that plays is less careful about predators. If evolution has kept it, it must have significant benefits. The oldest explanation is that play is practice: the lion cub that plays \"chase\" is learning to hunt."
+    },
+    {
+     "speaker": "Ηθολόγος",
+     "voice": "f",
+     "el": "Πιο πρόσφατα, ερευνητές πρότειναν ότι το παιχνίδι μάς προετοιμάζει για το απρόβλεπτο. Στο παιχνίδι τα ζώα βάζουν συνεχώς τον εαυτό τους σε παράξενες θέσεις, χάνουν την ισορροπία τους και την ξαναβρίσκουν. Έτσι, όταν βρεθούν σε μια πραγματική απειλή, αντιδρούν πιο ευέλικτα. Το παιχνίδι έχει επίσης κοινωνικό ρόλο: τα ζώα μαθαίνουν τα όρια, πόσο δυνατά μπορούν να δαγκώσουν, πότε να υποχωρήσουν.",
+     "en": "More recently, researchers have suggested that play prepares us for the unexpected. In play, animals constantly put themselves in strange positions, lose their balance and regain it. So when they find themselves facing a real threat, they react more flexibly. Play also has a social role: animals learn limits, how hard they can bite, when to back down."
+    },
+    {
+     "speaker": "Ηθολόγος",
+     "voice": "f",
+     "el": "Για να μην παρεξηγηθεί το παιχνίδι, πολλά ζώα χρησιμοποιούν ειδικά σήματα. Ο σκύλος, για παράδειγμα, χαμηλώνει τα μπροστινά του πόδια και σηκώνει τα πίσω, σαν να υποκλίνεται, λέγοντας ουσιαστικά «ό,τι ακολουθεί είναι για πλάκα». Ίσως τελικά να μην είναι τυχαίο ότι τα πιο έξυπνα είδη είναι και τα πιο παιχνιδιάρικα.",
+     "en": "So that play is not misunderstood, many animals use special signals. The dog, for example, lowers its front legs and raises its back end, as if bowing, essentially saying \"what follows is just for fun\". Perhaps, in the end, it's no coincidence that the most intelligent species are also the most playful."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί, κατά την ηθολόγο, το παιχνίδι πρέπει να έχει σημαντικά οφέλη;",
+     "options": [
+      "Γιατί είναι ευχάριστο",
+      "Γιατί έχει κόστος, κι όμως η εξέλιξη το διατήρησε",
+      "Γιατί οι γονείς το ενθαρρύνουν",
+      "Γιατί το κάνουν μόνο τα έξυπνα ζώα"
+     ],
+     "answer": "Γιατί έχει κόστος, κι όμως η εξέλιξη το διατήρησε",
+     "why": "Αν η εξέλιξη το διατήρησε, πρέπει να έχει σημαντικά οφέλη"
+    },
+    {
+     "q": "Τι υποστηρίζει η πιο πρόσφατη εξήγηση;",
+     "options": [
+      "Ότι το παιχνίδι βοηθά στη χώνεψη",
+      "Ότι το παιχνίδι προετοιμάζει τα ζώα για το απρόβλεπτο",
+      "Ότι το παιχνίδι είναι μόνο εξάσκηση στο κυνήγι",
+      "Ότι το παιχνίδι μειώνει την ενέργεια των νεαρών ζώων"
+     ],
+     "answer": "Ότι το παιχνίδι προετοιμάζει τα ζώα για το απρόβλεπτο",
+     "why": "το παιχνίδι μάς προετοιμάζει για το απρόβλεπτο"
+    },
+    {
+     "q": "Τι σημαίνει η «υπόκλιση» του σκύλου;",
+     "options": [
+      "Ότι αναγνωρίζει τον αρχηγό",
+      "Ότι θέλει φαγητό",
+      "Ότι είναι κουρασμένος",
+      "Ότι ό,τι ακολουθεί είναι για πλάκα"
+     ],
+     "answer": "Ότι ό,τι ακολουθεί είναι για πλάκα",
+     "why": "ό,τι ακολουθεί είναι για πλάκα"
+    },
+    {
+     "q": "Ποιο κοινωνικό όφελος του παιχνιδιού αναφέρεται;",
+     "options": [
+      "Τα ζώα μοιράζονται την τροφή",
+      "Τα ζώα βρίσκουν σύντροφο",
+      "Τα ζώα αποκτούν δικό τους έδαφος",
+      "Τα ζώα μαθαίνουν τα όρια, πόσο δυνατά μπορούν να δαγκώσουν και πότε να υποχωρήσουν"
+     ],
+     "answer": "Τα ζώα μαθαίνουν τα όρια, πόσο δυνατά μπορούν να δαγκώσουν και πότε να υποχωρήσουν",
+     "why": "τα ζώα μαθαίνουν τα όρια, πόσο δυνατά μπορούν να δαγκώσουν, πότε να υποχωρήσουν"
+    }
+   ],
+   "gloss": {
+    "ηθολόγο": "ηθολόγος — ethologist (animal behaviour scientist)",
+    "συμπεριφορά": "συμπεριφορά — behaviour",
+    "κουβάρι": "κουβάρι — ball of wool",
+    "φυσαλίδες": "φυσαλίδα — bubble",
+    "κοράκια": "κοράκι — raven, crow",
+    "θηλαστικά": "θηλαστικό — mammal",
+    "θηρευτές": "θηρευτής — predator",
+    "εξέλιξη": "εξέλιξη — evolution",
+    "απρόβλεπτο": "απρόβλεπτος — unexpected",
+    "ευέλικτα": "ευέλικτα — flexibly",
+    "υποχωρήσουν": "υποχωρώ — to back down",
+    "υποκλίνεται": "υποκλίνομαι — to bow",
+    "παιχνιδιάρικα": "παιχνιδιάρικος — playful"
+   }
+  },
+  {
+   "id": "l121-c1-evraioi-thessalonikis",
+   "title": "Η εβραϊκή Θεσσαλονίκη",
+   "title_en": "Jewish Thessaloniki",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε μια συνέντευξη με έναν ιστορικό σε εκπομπή για την ιστορία της Θεσσαλονίκης.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Λέγεται συχνά ότι για αιώνες η Θεσσαλονίκη ήταν μια πόλη με εβραϊκή πλειονότητα. Πώς έφτασαν εκεί οι Εβραίοι;",
+     "en": "It is often said that for centuries Thessaloniki was a city with a Jewish majority. How did the Jews get there?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Υπήρχε μια μικρή εβραϊκή κοινότητα ήδη από την αρχαιότητα. Η μεγάλη αλλαγή όμως ήρθε μετά το 1492, όταν οι Εβραίοι εκδιώχθηκαν από την Ισπανία. Χιλιάδες από αυτούς, οι λεγόμενοι Σεφαραδίτες, βρήκαν καταφύγιο στην Οθωμανική Αυτοκρατορία, και πολλοί εγκαταστάθηκαν στη Θεσσαλονίκη. Έφεραν μαζί τους τη γλώσσα τους, τα λαδίνο, μια μορφή παλιών ισπανικών, που μιλιόταν στην πόλη ως τον 20ό αιώνα.",
+     "en": "There was a small Jewish community already in antiquity. But the big change came after 1492, when the Jews were expelled from Spain. Thousands of them, the so-called Sephardim, found refuge in the Ottoman Empire, and many settled in Thessaloniki. They brought with them their language, Ladino, a form of old Spanish, which was spoken in the city until the 20th century."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τι ρόλο έπαιξαν στη ζωή της πόλης;",
+     "en": "What role did they play in the life of the city?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Καθοριστικό. Ήταν έμποροι, τεχνίτες, λιμενεργάτες, τυπογράφοι. Το λιμάνι σταματούσε να δουλεύει το Σάββατο, γιατί πολλοί από τους εργάτες του ήταν Εβραίοι. Η πόλη έγινε γνωστή ως «Ιερουσαλήμ των Βαλκανίων». Η μεγάλη πυρκαγιά του 1917 κατέστρεψε όμως ένα μεγάλο μέρος των εβραϊκών συνοικιών, και πολλές οικογένειες μετανάστευσαν.",
+     "en": "Decisive. They were merchants, craftsmen, dockworkers, printers. The port stopped working on Saturdays, because many of its workers were Jewish. The city became known as the \"Jerusalem of the Balkans\". The great fire of 1917, however, destroyed a large part of the Jewish quarters, and many families emigrated."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και ο Δεύτερος Παγκόσμιος Πόλεμος;",
+     "en": "And the Second World War?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "m",
+     "el": "Ήταν το τραγικό τέλος. Το 1943, οι Γερμανοί κατακτητές εκτόπισαν δεκάδες χιλιάδες Εβραίους της πόλης στα στρατόπεδα εξόντωσης, κυρίως στο Άουσβιτς. Η συντριπτική πλειονότητα δεν επέστρεψε ποτέ. Ήδη από το 1942 είχε καταστραφεί και το αρχαίο εβραϊκό νεκροταφείο, πάνω σε μέρος του οποίου χτίστηκε αργότερα το Αριστοτέλειο Πανεπιστήμιο. Σήμερα, το Εβραϊκό Μουσείο και τα μνημεία της πόλης κρατούν ζωντανή αυτή τη μνήμη. Γιατί μια πόλη δεν είναι μόνο τα κτίριά της, αλλά και όσοι έλειψαν από αυτήν.",
+     "en": "It was the tragic end. In 1943, the German occupiers deported tens of thousands of the city's Jews to extermination camps, mainly Auschwitz. The overwhelming majority never returned. Already in 1942 the ancient Jewish cemetery had also been destroyed, and on part of it the Aristotle University was later built. Today the Jewish Museum and the city's memorials keep this memory alive. Because a city is not only its buildings, but also those who are missing from it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε ήρθε η μεγάλη αλλαγή στην εβραϊκή κοινότητα της πόλης;",
+     "options": [
+      "Μετά την πυρκαγιά του 1917",
+      "Μετά το 1492, όταν οι Εβραίοι εκδιώχθηκαν από την Ισπανία",
+      "Στην αρχαιότητα",
+      "Μετά την απελευθέρωση του 1912"
+     ],
+     "answer": "Μετά το 1492, όταν οι Εβραίοι εκδιώχθηκαν από την Ισπανία",
+     "why": "Η μεγάλη αλλαγή όμως ήρθε μετά το 1492"
+    },
+    {
+     "q": "Γιατί το λιμάνι σταματούσε να δουλεύει το Σάββατο;",
+     "options": [
+      "Γιατί έρχονταν λιγότερα πλοία",
+      "Γιατί πολλοί από τους εργάτες του ήταν Εβραίοι",
+      "Γιατί ήταν αργία για όλη την πόλη",
+      "Γιατί το απαγόρευαν οι Οθωμανοί"
+     ],
+     "answer": "Γιατί πολλοί από τους εργάτες του ήταν Εβραίοι",
+     "why": "πολλοί από τους εργάτες του ήταν Εβραίοι"
+    },
+    {
+     "q": "Τι συνέπειες είχε η πυρκαγιά του 1917;",
+     "options": [
+      "Έκαψε το εβραϊκό νεκροταφείο",
+      "Κατέστρεψε το λιμάνι",
+      "Οδήγησε στην ίδρυση του Πανεπιστημίου",
+      "Κατέστρεψε μεγάλο μέρος των εβραϊκών συνοικιών και πολλές οικογένειες μετανάστευσαν"
+     ],
+     "answer": "Κατέστρεψε μεγάλο μέρος των εβραϊκών συνοικιών και πολλές οικογένειες μετανάστευσαν",
+     "why": "κατέστρεψε όμως ένα μεγάλο μέρος των εβραϊκών συνοικιών"
+    },
+    {
+     "q": "Ποια σκέψη κλείνει τη συνέντευξη;",
+     "options": [
+      "Ότι η πόλη πρέπει να ξαναχτιστεί",
+      "Ότι μια πόλη είναι και όσοι έλειψαν από αυτήν",
+      "Ότι η ιστορία δεν πρέπει να συζητιέται",
+      "Ότι το μουσείο χρειάζεται χρήματα"
+     ],
+     "answer": "Ότι μια πόλη είναι και όσοι έλειψαν από αυτήν",
+     "why": "μια πόλη δεν είναι μόνο τα κτίριά της, αλλά και όσοι έλειψαν από αυτήν"
+    }
+   ],
+   "gloss": {
+    "πλειονότητα": "πλειονότητα — majority",
+    "εκδιώχθηκαν": "εκδιώκομαι — to be expelled",
+    "Σεφαραδίτες": "Σεφαραδίτης — Sephardic Jew",
+    "καταφύγιο": "καταφύγιο — refuge",
+    "λαδίνο": "λαδίνο — Ladino (Judeo-Spanish)",
+    "Καθοριστικό": "καθοριστικός — decisive",
+    "λιμενεργάτες": "λιμενεργάτης — dockworker",
+    "τυπογράφοι": "τυπογράφος — printer",
+    "κατακτητές": "κατακτητής — occupier, conqueror",
+    "εκτόπισαν": "εκτοπίζω — to deport",
+    "στρατόπεδα εξόντωσης": "στρατόπεδο εξόντωσης — extermination camp",
+    "συντριπτική": "συντριπτικός — overwhelming",
+    "νεκροταφείο": "νεκροταφείο — cemetery"
+   }
+  }
+ ]
+}
