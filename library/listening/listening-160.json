@@ -1,0 +1,878 @@
+{
+ "items": [
+  {
+   "id": "l160-ann-agora",
+   "title": "Ανακοίνωση στη δημοτική αγορά",
+   "title_en": "An announcement at the municipal market",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση από τα μεγάφωνα μιας σκεπαστής δημοτικής αγοράς.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Αγαπητοί πελάτες, καλημέρα σας. Σας ενημερώνουμε ότι από την ερχόμενη Δευτέρα η αγορά θα λειτουργεί και τα απογεύματα, από τις πέντε ως τις εννιά, εκτός από την Τετάρτη και το Σάββατο.",
+     "en": "Dear customers, good morning. Please note that from next Monday the market will also be open in the afternoons, from five to nine, except on Wednesday and Saturday."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Λόγω των εργασιών στη στέγη, η πτέρυγα με τα ψάρια μεταφέρεται προσωρινά στον εσωτερικό χώρο δίπλα στην είσοδο της οδού Ερμού. Οι πάγκοι με τα φρούτα και τα λαχανικά παραμένουν στη θέση τους.",
+     "en": "Because of the work on the roof, the fish section is temporarily moving to the indoor area next to the entrance on Ermou Street. The fruit and vegetable stalls stay where they are."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Υπενθυμίζουμε ότι η αγορά δεν δίνει πλέον πλαστικές σακούλες. Υφασμάτινες τσάντες μπορείτε να αγοράσετε στο γραφείο πληροφοριών με ένα ευρώ, και για κάθε αγορά πάνω από είκοσι ευρώ η τσάντα δίνεται δωρεάν.",
+     "en": "We remind you that the market no longer gives out plastic bags. You can buy cloth bags at the information desk for one euro, and for every purchase over twenty euros the bag is given free."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιες μέρες ΔΕΝ θα λειτουργεί η αγορά το απόγευμα;",
+     "options": [
+      "Μόνο την Κυριακή",
+      "Τετάρτη και Σάββατο",
+      "Τρίτη και Πέμπτη",
+      "Δευτέρα και Παρασκευή"
+     ],
+     "answer": "Τετάρτη και Σάββατο",
+     "why": "εκτός από την Τετάρτη και το Σάββατο"
+    },
+    {
+     "q": "Γιατί μεταφέρεται η πτέρυγα με τα ψάρια;",
+     "options": [
+      "Γιατί θα έρθουν νέοι πάγκοι",
+      "Γιατί χάλασαν τα ψυγεία",
+      "Λόγω των εργασιών στη στέγη",
+      "Για λόγους υγιεινής"
+     ],
+     "answer": "Λόγω των εργασιών στη στέγη",
+     "why": "Λόγω των εργασιών στη στέγη"
+    },
+    {
+     "q": "Πότε δίνεται δωρεάν η υφασμάτινη τσάντα;",
+     "options": [
+      "Τις Δευτέρες",
+      "Σε όλους τους πελάτες",
+      "Για κάθε αγορά πάνω από είκοσι ευρώ",
+      "Σε όσους φέρνουν πλαστική σακούλα"
+     ],
+     "answer": "Για κάθε αγορά πάνω από είκοσι ευρώ",
+     "why": "για κάθε αγορά πάνω από είκοσι ευρώ η τσάντα δίνεται δωρεάν"
+    }
+   ],
+   "gloss": {
+    "σκεπαστής": "σκεπαστός — covered, roofed",
+    "δημοτικής αγοράς": "δημοτική αγορά — municipal market",
+    "στέγη": "στέγη — roof",
+    "πτέρυγα": "πτέρυγα — wing, section",
+    "προσωρινά": "προσωρινά — temporarily",
+    "πάγκοι": "πάγκος — stall, counter",
+    "σακούλες": "σακούλα — bag",
+    "Υφασμάτινες": "υφασμάτινος — (made of) cloth"
+   }
+  },
+  {
+   "id": "l160-int-meteorites",
+   "title": "Ο κυνηγός μετεωριτών",
+   "title_en": "The meteorite hunter",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με έναν ερασιτέχνη που ψάχνει μετεωρίτες στον ελεύθερο χρόνο του.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πώς ξεκινήσατε να ψάχνετε πέτρες από το διάστημα;",
+     "en": "How did you start looking for stones from space?"
+    },
+    {
+     "speaker": "Ερασιτέχνης",
+     "voice": "m",
+     "el": "Από περιέργεια. Είδα κάποτε σε ένα μουσείο έναν μετεωρίτη που μπορούσες να τον αγγίξεις και σκέφτηκα ότι κρατούσα στο χέρι κάτι πιο παλιό από τη Γη. Οι περισσότεροι μετεωρίτες είναι κομμάτια από αστεροειδείς, ηλικίας περίπου τεσσεράμισι δισεκατομμυρίων χρόνων.",
+     "en": "Out of curiosity. I once saw a meteorite in a museum that you could touch, and I thought I was holding something older than the Earth. Most meteorites are pieces of asteroids, about four and a half billion years old."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πού τους βρίσκει κανείς;",
+     "en": "Where does one find them?"
+    },
+    {
+     "speaker": "Ερασιτέχνης",
+     "voice": "m",
+     "el": "Πέφτουν παντού, αλλά βρίσκονται πιο εύκολα σε ερήμους και στους πάγους της Ανταρκτικής, όπου μια σκούρα πέτρα ξεχωρίζει αμέσως. Εδώ, σε ένα χωράφι, είναι σχεδόν αδύνατο να τους ξεχωρίσεις από τις κοινές πέτρες.",
+     "en": "They fall everywhere, but they're found more easily in deserts and on the ice of Antarctica, where a dark stone stands out immediately. Here, in a field, it's almost impossible to tell them apart from ordinary stones."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πώς καταλαβαίνετε ότι μια πέτρα είναι μετεωρίτης;",
+     "en": "How can you tell that a stone is a meteorite?"
+    },
+    {
+     "speaker": "Ερασιτέχνης",
+     "voice": "m",
+     "el": "Οι περισσότεροι περιέχουν σίδηρο, οπότε ένας μαγνήτης κολλάει πάνω τους, και είναι βαρύτεροι απ' όσο περιμένεις για το μέγεθός τους. Έχουν συχνά και μια λεπτή μαύρη κρούστα, από το κάψιμο στην ατμόσφαιρα. Πάντως, εννιά στις δέκα πέτρες που μου φέρνουν οι γείτονες είναι απλώς σκουριές από παλιά σίδερα.",
+     "en": "Most contain iron, so a magnet sticks to them, and they are heavier than you would expect for their size. They often also have a thin black crust, from burning in the atmosphere. Still, nine out of ten stones the neighbours bring me are just slag from old iron."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είναι οι περισσότεροι μετεωρίτες, σύμφωνα με τον ερασιτέχνη;",
+     "options": [
+      "Λάβα από ηφαίστεια",
+      "Κομμάτια από τη Σελήνη",
+      "Κομμάτια από αστεροειδείς",
+      "Κομμάτια από δορυφόρους"
+     ],
+     "answer": "Κομμάτια από αστεροειδείς",
+     "why": "Οι περισσότεροι μετεωρίτες είναι κομμάτια από αστεροειδείς"
+    },
+    {
+     "q": "Γιατί βρίσκονται πιο εύκολα σε ερήμους και στην Ανταρκτική;",
+     "options": [
+      "Γιατί εκεί δεν λιώνουν",
+      "Γιατί εκεί μια σκούρα πέτρα ξεχωρίζει αμέσως",
+      "Γιατί πέφτουν μόνο εκεί",
+      "Γιατί εκεί υπάρχουν πολλοί ερευνητές"
+     ],
+     "answer": "Γιατί εκεί μια σκούρα πέτρα ξεχωρίζει αμέσως",
+     "why": "όπου μια σκούρα πέτρα ξεχωρίζει αμέσως"
+    },
+    {
+     "q": "Τι είναι συνήθως οι πέτρες που του φέρνουν οι γείτονες;",
+     "options": [
+      "Αρχαία εργαλεία",
+      "Σκουριές από παλιά σίδερα",
+      "Κομμάτια από τούβλα",
+      "Πραγματικοί μετεωρίτες"
+     ],
+     "answer": "Σκουριές από παλιά σίδερα",
+     "why": "είναι απλώς σκουριές από παλιά σίδερα"
+    }
+   ],
+   "gloss": {
+    "ερασιτέχνη": "ερασιτέχνης — amateur",
+    "μετεωρίτες": "μετεωρίτης — meteorite",
+    "διάστημα": "διάστημα — (outer) space",
+    "περιέργεια": "περιέργεια — curiosity",
+    "αστεροειδείς": "αστεροειδής — asteroid",
+    "ερήμους": "έρημος — desert",
+    "πάγους": "πάγος — ice",
+    "ξεχωρίζει": "ξεχωρίζω — to stand out; to tell apart",
+    "μαγνήτης": "μαγνήτης — magnet",
+    "κρούστα": "κρούστα — crust",
+    "σκουριές": "σκουριά — slag; rust"
+   }
+  },
+  {
+   "id": "l160-int-kaskanter",
+   "title": "Μια κασκαντέρ στον κινηματογράφο",
+   "title_en": "A stuntwoman in the cinema",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με μια γυναίκα που δουλεύει ως κασκαντέρ σε ταινίες και σειρές.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πώς γίνεται κανείς κασκαντέρ;",
+     "en": "How does one become a stunt performer?"
+    },
+    {
+     "speaker": "Κασκαντέρ",
+     "voice": "f",
+     "el": "Οι περισσότεροι από εμάς ερχόμαστε από τον αθλητισμό. Εγώ έκανα ενόργανη γυμναστική δώδεκα χρόνια. Μετά έμαθα να πέφτω από σκάλες, να οδηγώ μηχανή και να παίζω σκηνές πάλης χωρίς να χτυπάω κανέναν.",
+     "en": "Most of us come from sport. I did artistic gymnastics for twelve years. Then I learned to fall down stairs, ride a motorbike and act fight scenes without hitting anyone."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Δεν φοβάστε;",
+     "en": "Aren't you afraid?"
+    },
+    {
+     "speaker": "Κασκαντέρ",
+     "voice": "f",
+     "el": "Ο φόβος είναι χρήσιμος· σε κάνει προσεκτικό. Κάθε σκηνή την προβάρουμε ξανά και ξανά, πρώτα αργά, με στρώματα και σχοινιά. Αυτό που ο θεατής βλέπει να διαρκεί τρία δευτερόλεπτα έχει πίσω του μέρες προετοιμασίας.",
+     "en": "Fear is useful; it makes you careful. We rehearse every scene again and again, slowly at first, with mats and ropes. What the viewer sees lasting three seconds has days of preparation behind it."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Σας αναγνωρίζει ποτέ ο κόσμος;",
+     "en": "Do people ever recognise you?"
+    },
+    {
+     "speaker": "Κασκαντέρ",
+     "voice": "f",
+     "el": "Σχεδόν ποτέ, και αυτό είναι το νόημα: αν ο θεατής καταλάβει ότι δεν είναι η πρωταγωνίστρια, έχω κάνει κακή δουλειά. Φοράω την ίδια περούκα και τα ίδια ρούχα, και η κάμερα με τραβάει από πίσω ή από μακριά.",
+     "en": "Almost never, and that's the point: if the viewer realises it isn't the leading actress, I've done a bad job. I wear the same wig and the same clothes, and the camera films me from behind or from far away."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από πού έρχονται οι περισσότεροι κασκαντέρ, σύμφωνα με τη συνομιλήτρια;",
+     "options": [
+      "Από το θέατρο",
+      "Από τον στρατό",
+      "Από τον αθλητισμό",
+      "Από το τσίρκο"
+     ],
+     "answer": "Από τον αθλητισμό",
+     "why": "Οι περισσότεροι από εμάς ερχόμαστε από τον αθλητισμό"
+    },
+    {
+     "q": "Γιατί θεωρεί τον φόβο χρήσιμο;",
+     "options": [
+      "Γιατί κάνει τις σκηνές πιο αληθινές",
+      "Γιατί βοηθάει να τρέχεις γρήγορα",
+      "Γιατί σε κάνει προσεκτικό",
+      "Γιατί αρέσει στους σκηνοθέτες"
+     ],
+     "answer": "Γιατί σε κάνει προσεκτικό",
+     "why": "σε κάνει προσεκτικό"
+    },
+    {
+     "q": "Πότε θεωρεί ότι έχει κάνει κακή δουλειά;",
+     "options": [
+      "Όταν η σκηνή κρατήσει πολύ",
+      "Όταν χτυπήσει",
+      "Όταν χρειαστεί δεύτερη λήψη",
+      "Όταν ο θεατής καταλάβει ότι δεν είναι η πρωταγωνίστρια"
+     ],
+     "answer": "Όταν ο θεατής καταλάβει ότι δεν είναι η πρωταγωνίστρια",
+     "why": "αν ο θεατής καταλάβει ότι δεν είναι η πρωταγωνίστρια, έχω κάνει κακή δουλειά"
+    }
+   ],
+   "gloss": {
+    "κασκαντέρ": "κασκαντέρ — stunt performer",
+    "ενόργανη γυμναστική": "ενόργανη γυμναστική — artistic gymnastics",
+    "πάλης": "πάλη — fight, wrestling",
+    "προβάρουμε": "προβάρω — to rehearse",
+    "στρώματα": "στρώμα — mat, mattress",
+    "σχοινιά": "σχοινί — rope",
+    "προετοιμασίας": "προετοιμασία — preparation",
+    "πρωταγωνίστρια": "πρωταγωνίστρια — leading actress",
+    "περούκα": "περούκα — wig",
+    "τραβάει": "τραβάω — to film; to pull"
+   }
+  },
+  {
+   "id": "l160-dia-toursi",
+   "title": "Τουρσί από τον κήπο",
+   "title_en": "Pickles from the garden",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε δύο αδέρφια να συζητούν τι θα κάνουν με τα πολλά λαχανικά του κήπου τους.",
+   "script": [
+    {
+     "speaker": "Αλέκα",
+     "voice": "f",
+     "el": "Ο κήπος φέτος μας τρέλανε. Έχουμε τόσες πιπεριές και τόσα αγγούρια που δεν θα τα φάμε ποτέ.",
+     "en": "The garden has gone mad this year. We have so many peppers and cucumbers that we'll never eat them all."
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Να τα κάνουμε τουρσί, όπως η μάνα μας. Θυμάσαι τα βάζα στο κελάρι;",
+     "en": "Let's pickle them, like our mother did. Remember the jars in the cellar?"
+    },
+    {
+     "speaker": "Αλέκα",
+     "voice": "f",
+     "el": "Θυμάμαι, αλλά δεν θυμάμαι τις αναλογίες. Πόσο ξίδι και πόσο αλάτι;",
+     "en": "I remember, but I don't remember the proportions. How much vinegar and how much salt?"
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Τη ρώτησα χθες στο τηλέφωνο. Ένα ποτήρι ξίδι για κάθε δύο ποτήρια νερό, και μια κουταλιά αλάτι χοντρό. Λίγο σκόρδο, λίγο σέλινο, και τα βάζα πρέπει πρώτα να τα βράσουμε, για να μη μουχλιάσουν.",
+     "en": "I asked her yesterday on the phone. One glass of vinegar for every two glasses of water, and a spoonful of coarse salt. A little garlic, a little celery, and we have to boil the jars first so they don't go mouldy."
+    },
+    {
+     "speaker": "Αλέκα",
+     "voice": "f",
+     "el": "Και πότε τρώγονται;",
+     "en": "And when can you eat them?"
+    },
+    {
+     "speaker": "Στέλιος",
+     "voice": "m",
+     "el": "Θέλουν τουλάχιστον τρεις εβδομάδες σε δροσερό και σκοτεινό μέρος. Αν τα ανοίξουμε νωρίτερα, θα είναι ακόμη άνοστα. Τα Χριστούγεννα θα είναι τέλεια, με τα φασόλια.",
+     "en": "They need at least three weeks in a cool, dark place. If we open them earlier, they'll still be tasteless. At Christmas they'll be perfect, with the beans."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πρότεινε ο Στέλιος να κάνουν με τα λαχανικά;",
+     "options": [
+      "Να τα καταψύξουν",
+      "Να τα κάνουν τουρσί",
+      "Να τα μοιράσουν στους γείτονες",
+      "Να τα πουλήσουν"
+     ],
+     "answer": "Να τα κάνουν τουρσί",
+     "why": "Να τα κάνουμε τουρσί"
+    },
+    {
+     "q": "Γιατί πρέπει να βράσουν πρώτα τα βάζα;",
+     "options": [
+      "Για να κλείνουν καλά",
+      "Για να μη σπάσουν",
+      "Για να μείνει το χρώμα",
+      "Για να μη μουχλιάσουν"
+     ],
+     "answer": "Για να μη μουχλιάσουν",
+     "why": "για να μη μουχλιάσουν"
+    },
+    {
+     "q": "Πόσο καιρό χρειάζεται το τουρσί πριν φαγωθεί;",
+     "options": [
+      "Έξι μήνες",
+      "Τουλάχιστον τρεις εβδομάδες",
+      "Μία μέρα",
+      "Μία εβδομάδα"
+     ],
+     "answer": "Τουλάχιστον τρεις εβδομάδες",
+     "why": "Θέλουν τουλάχιστον τρεις εβδομάδες σε δροσερό και σκοτεινό μέρος"
+    }
+   ],
+   "gloss": {
+    "τουρσί": "τουρσί — pickle(s)",
+    "αγγούρια": "αγγούρι — cucumber",
+    "βάζα": "βάζο — jar",
+    "κελάρι": "κελάρι — cellar, larder",
+    "αναλογίες": "αναλογία — proportion",
+    "ξίδι": "ξίδι — vinegar",
+    "χοντρό": "χοντρός — coarse; thick",
+    "σέλινο": "σέλινο — celery",
+    "μουχλιάσουν": "μουχλιάζω — to go mouldy",
+    "δροσερό": "δροσερός — cool",
+    "άνοστα": "άνοστος — tasteless"
+   }
+  },
+  {
+   "id": "l160-dia-didymides",
+   "title": "Πάμε να δούμε τις Διδυμίδες;",
+   "title_en": "Shall we go and see the Geminids?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε δύο φίλους να κανονίζουν μια βραδιά παρατήρησης των διαττόντων αστέρων τον Δεκέμβριο.",
+   "script": [
+    {
+     "speaker": "Πέτρος",
+     "voice": "m",
+     "el": "Διάβασα ότι στα μέσα Δεκεμβρίου έχουμε τις Διδυμίδες, μια από τις πιο πλούσιες βροχές διαττόντων της χρονιάς. Λέω να ανέβουμε στο βουνό.",
+     "en": "I read that in mid-December we have the Geminids, one of the richest meteor showers of the year. I'm thinking we go up the mountain."
+    },
+    {
+     "speaker": "Ιωάννα",
+     "voice": "f",
+     "el": "Τον Δεκέμβριο; Θα ξεπαγιάσουμε! Γιατί δεν πάμε τον Αύγουστο, που είναι ζέστη;",
+     "en": "In December? We'll freeze! Why don't we go in August, when it's warm?"
+    },
+    {
+     "speaker": "Πέτρος",
+     "voice": "m",
+     "el": "Τον Αύγουστο είναι άλλη βροχή. Αυτή γίνεται μόνο τώρα. Και το καλό είναι ότι φέτος η Σελήνη δεν θα είναι γεμάτη, οπότε ο ουρανός θα είναι σκοτεινός.",
+     "en": "In August it's a different shower. This one only happens now. And the good thing is that this year the Moon won't be full, so the sky will be dark."
+    },
+    {
+     "speaker": "Ιωάννα",
+     "voice": "f",
+     "el": "Και πρέπει να έχουμε τηλεσκόπιο;",
+     "en": "And do we need a telescope?"
+    },
+    {
+     "speaker": "Πέτρος",
+     "voice": "m",
+     "el": "Καθόλου. Τα μάτια σου είναι το καλύτερο όργανο, γιατί βλέπεις όλο τον ουρανό μαζί. Το μόνο που θέλει είναι να μην κοιτάς το κινητό, ώστε να συνηθίσουν τα μάτια στο σκοτάδι.",
+     "en": "Not at all. Your eyes are the best instrument, because you see the whole sky at once. All it takes is not looking at your phone, so that your eyes get used to the dark."
+    },
+    {
+     "speaker": "Ιωάννα",
+     "voice": "f",
+     "el": "Καλά, έρχομαι. Αλλά φέρνω δύο κουβέρτες κι ένα θερμός με τσάι.",
+     "en": "Fine, I'm coming. But I'm bringing two blankets and a thermos of tea."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί διστάζει αρχικά η Ιωάννα;",
+     "options": [
+      "Γιατί δεν της αρέσει το βουνό",
+      "Γιατί δουλεύει το βράδυ",
+      "Γιατί φοβάται ότι θα κάνει πολύ κρύο",
+      "Γιατί δεν έχει αυτοκίνητο"
+     ],
+     "answer": "Γιατί φοβάται ότι θα κάνει πολύ κρύο",
+     "why": "Θα ξεπαγιάσουμε"
+    },
+    {
+     "q": "Γιατί, κατά τον Πέτρο, θα είναι καλή η φετινή παρατήρηση;",
+     "options": [
+      "Γιατί δεν θα έχει σύννεφα όλο τον μήνα",
+      "Γιατί θα έχουν τηλεσκόπιο",
+      "Γιατί η Σελήνη δεν θα είναι γεμάτη και ο ουρανός θα είναι σκοτεινός",
+      "Γιατί θα έχει πανσέληνο"
+     ],
+     "answer": "Γιατί η Σελήνη δεν θα είναι γεμάτη και ο ουρανός θα είναι σκοτεινός",
+     "why": "η Σελήνη δεν θα είναι γεμάτη, οπότε ο ουρανός θα είναι σκοτεινός"
+    },
+    {
+     "q": "Γιατί δεν πρέπει να κοιτάζουν το κινητό;",
+     "options": [
+      "Για να μην ενοχλούν τους άλλους",
+      "Γιατί δεν έχει σήμα στο βουνό",
+      "Για να μην τελειώσει η μπαταρία",
+      "Για να συνηθίσουν τα μάτια στο σκοτάδι"
+     ],
+     "answer": "Για να συνηθίσουν τα μάτια στο σκοτάδι",
+     "why": "ώστε να συνηθίσουν τα μάτια στο σκοτάδι"
+    }
+   ],
+   "gloss": {
+    "διαττόντων αστέρων": "διάττων αστέρας — shooting star, meteor",
+    "Διδυμίδες": "Διδυμίδες — the Geminids (meteor shower)",
+    "βροχές διαττόντων": "βροχή διαττόντων — meteor shower",
+    "ξεπαγιάσουμε": "ξεπαγιάζω — to freeze (with cold)",
+    "Σελήνη": "Σελήνη — the Moon",
+    "τηλεσκόπιο": "τηλεσκόπιο — telescope",
+    "όργανο": "όργανο — instrument",
+    "συνηθίσουν": "συνηθίζω — to get used to",
+    "κουβέρτες": "κουβέρτα — blanket",
+    "θερμός": "θερμός — thermos (flask)"
+   }
+  },
+  {
+   "id": "l160-mon-perouka",
+   "title": "Ο περουκιέρης του θεάτρου",
+   "title_en": "The theatre wigmaker",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε έναν άντρα που φτιάχνει περούκες για το θέατρο να μιλάει για τη δουλειά του σε μια εκπομπή.",
+   "script": [
+    {
+     "speaker": "Περουκιέρης",
+     "voice": "m",
+     "el": "Μια καλή περούκα θέλει από σαράντα ως ογδόντα ώρες δουλειάς. Τις τρίχες τις περνάω μία προς μία, ή ανά δύο, σε ένα λεπτό δίχτυ που έχει πάρει το σχήμα του κεφαλιού του ηθοποιού. Γι' αυτό πρώτα παίρνω μέτρα, όπως ο ράφτης.",
+     "en": "A good wig takes from forty to eighty hours of work. I thread the hairs one at a time, or in pairs, into a fine net that has taken the shape of the actor's head. That's why I first take measurements, like a tailor."
+    },
+    {
+     "speaker": "Περουκιέρης",
+     "voice": "m",
+     "el": "Για τις παραστάσεις προτιμώ αληθινά μαλλιά. Οι συνθετικές περούκες γυαλίζουν κάτω από τους προβολείς και λιώνουν αν πλησιάσεις ζεστό σίδερο. Τα αληθινά μαλλιά τα χτενίζεις, τα βάφεις, τα κατσαρώνεις, και κρατάνε χρόνια.",
+     "en": "For performances I prefer real hair. Synthetic wigs shine under the spotlights and melt if you bring a hot iron near them. Real hair you can comb, dye and curl, and it lasts for years."
+    },
+    {
+     "speaker": "Περουκιέρης",
+     "voice": "m",
+     "el": "Το πιο δύσκολο είναι να μη φαίνεται η άκρη στο μέτωπο. Εκεί το δίχτυ είναι σχεδόν διάφανο, και πριν από κάθε παράσταση το κολλάω με ειδική κόλλα για το δέρμα. Όταν από την πρώτη σειρά κανείς δεν καταλαβαίνει ότι ο βασιλιάς φοράει περούκα, τότε είμαι ευχαριστημένος.",
+     "en": "The hardest thing is to keep the edge on the forehead from showing. There the net is almost transparent, and before every performance I glue it with special skin glue. When nobody in the front row realises that the king is wearing a wig, then I'm satisfied."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσες ώρες δουλειάς θέλει μια καλή περούκα;",
+     "options": [
+      "Μία μέρα",
+      "Από τέσσερις ως οκτώ",
+      "Περίπου διακόσιες",
+      "Από σαράντα ως ογδόντα"
+     ],
+     "answer": "Από σαράντα ως ογδόντα",
+     "why": "Μια καλή περούκα θέλει από σαράντα ως ογδόντα ώρες δουλειάς"
+    },
+    {
+     "q": "Γιατί προτιμά αληθινά μαλλιά για τις παραστάσεις;",
+     "options": [
+      "Γιατί είναι φθηνότερα",
+      "Γιατί οι συνθετικές περούκες γυαλίζουν κάτω από τους προβολείς και λιώνουν με τη ζέστη",
+      "Γιατί είναι πιο ελαφριά",
+      "Γιατί τα ζητούν οι σκηνοθέτες"
+     ],
+     "answer": "Γιατί οι συνθετικές περούκες γυαλίζουν κάτω από τους προβολείς και λιώνουν με τη ζέστη",
+     "why": "Οι συνθετικές περούκες γυαλίζουν κάτω από τους προβολείς"
+    },
+    {
+     "q": "Ποιο είναι το πιο δύσκολο μέρος της δουλειάς του;",
+     "options": [
+      "Να βρει αληθινά μαλλιά",
+      "Να πάρει μέτρα",
+      "Να μη φαίνεται η άκρη στο μέτωπο",
+      "Να βάψει τα μαλλιά"
+     ],
+     "answer": "Να μη φαίνεται η άκρη στο μέτωπο",
+     "why": "Το πιο δύσκολο είναι να μη φαίνεται η άκρη στο μέτωπο"
+    }
+   ],
+   "gloss": {
+    "περούκες": "περούκα — wig",
+    "τρίχες": "τρίχα — (a single) hair",
+    "δίχτυ": "δίχτυ — net",
+    "ράφτης": "ράφτης — tailor",
+    "συνθετικές": "συνθετικός — synthetic",
+    "γυαλίζουν": "γυαλίζω — to shine",
+    "προβολείς": "προβολέας — spotlight",
+    "κατσαρώνεις": "κατσαρώνω — to curl",
+    "μέτωπο": "μέτωπο — forehead",
+    "διάφανο": "διάφανος — transparent",
+    "κόλλα": "κόλλα — glue"
+   }
+  },
+  {
+   "id": "l160-vm-kiniti",
+   "title": "Μήνυμα από την κινητή βιβλιοθήκη",
+   "title_en": "A message from the mobile library",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από τη βιβλιοθηκονόμο της κινητής βιβλιοθήκης του δήμου.",
+   "script": [
+    {
+     "speaker": "Βιβλιοθηκονόμος",
+     "voice": "f",
+     "el": "Καλησπέρα σας, κυρία Ραφαηλίδου, σας τηλεφωνώ από την κινητή βιβλιοθήκη του δήμου. Το βιβλίο που είχατε ζητήσει, το μυθιστόρημα με τις μεγάλες γραμματοσειρές, έφτασε επιτέλους από την κεντρική βιβλιοθήκη.",
+     "en": "Good afternoon, Mrs Rafailidou, I'm calling from the municipal mobile library. The book you had asked for, the large-print novel, has finally arrived from the central library."
+    },
+    {
+     "speaker": "Βιβλιοθηκονόμος",
+     "voice": "f",
+     "el": "Το λεωφορείο μας δεν θα περάσει από το χωριό σας την Πέμπτη, όπως συνήθως, γιατί έχουμε βλάβη στη μηχανή. Θα έρθουμε το Σάββατο το πρωί, από τις δέκα ως τις δώδεκα, στην πλατεία δίπλα στο καφενείο.",
+     "en": "Our bus won't come through your village on Thursday as usual, because we have an engine fault. We'll come on Saturday morning, from ten to twelve, to the square next to the café."
+    },
+    {
+     "speaker": "Βιβλιοθηκονόμος",
+     "voice": "f",
+     "el": "Αν δεν μπορείτε να έρθετε, πείτε μου και θα σας το αφήσει ο εγγονός σας στο σπίτι, αφού μου είπατε ότι κι εκείνος είναι μέλος. Θυμίζω επίσης ότι έχετε ακόμη δύο βιβλία από τον προηγούμενο μήνα· δεν υπάρχει πρόστιμο, αλλά τα περιμένει άλλος αναγνώστης.",
+     "en": "If you can't come, let me know and your grandson can drop it off at your house, since you told me he is a member too. I also remind you that you still have two books from last month; there's no fine, but another reader is waiting for them."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν θα έρθει το λεωφορείο την Πέμπτη;",
+     "options": [
+      "Γιατί έχει βλάβη στη μηχανή",
+      "Λόγω κακοκαιρίας",
+      "Γιατί είναι αργία",
+      "Λόγω απεργίας"
+     ],
+     "answer": "Γιατί έχει βλάβη στη μηχανή",
+     "why": "γιατί έχουμε βλάβη στη μηχανή"
+    },
+    {
+     "q": "Πού θα σταματήσει το λεωφορείο το Σάββατο;",
+     "options": [
+      "Στο σπίτι της κυρίας Ραφαηλίδου",
+      "Στην πλατεία δίπλα στο καφενείο",
+      "Μπροστά στο σχολείο",
+      "Στην κεντρική βιβλιοθήκη"
+     ],
+     "answer": "Στην πλατεία δίπλα στο καφενείο",
+     "why": "στην πλατεία δίπλα στο καφενείο"
+    },
+    {
+     "q": "Τι λέει η βιβλιοθηκονόμος για τα δύο βιβλία του προηγούμενου μήνα;",
+     "options": [
+      "Ότι μπορεί να τα κρατήσει όσο θέλει",
+      "Ότι χάθηκαν",
+      "Ότι υπάρχει πρόστιμο",
+      "Ότι δεν υπάρχει πρόστιμο, αλλά τα περιμένει άλλος αναγνώστης"
+     ],
+     "answer": "Ότι δεν υπάρχει πρόστιμο, αλλά τα περιμένει άλλος αναγνώστης",
+     "why": "δεν υπάρχει πρόστιμο, αλλά τα περιμένει άλλος αναγνώστης"
+    }
+   ],
+   "gloss": {
+    "κινητή βιβλιοθήκη": "κινητή βιβλιοθήκη — mobile library",
+    "βιβλιοθηκονόμο": "βιβλιοθηκονόμος — librarian",
+    "μυθιστόρημα": "μυθιστόρημα — novel",
+    "γραμματοσειρές": "γραμματοσειρά — font, typeface",
+    "βλάβη": "βλάβη — fault, breakdown",
+    "εγγονός": "εγγονός — grandson",
+    "πρόστιμο": "πρόστιμο — fine",
+    "αναγνώστης": "αναγνώστης — reader"
+   }
+  },
+  {
+   "id": "l160-vm-pasteli",
+   "title": "Μήνυμα για μια παραγγελία παστελιού",
+   "title_en": "A message about a pasteli order",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από έναν μικρό παραγωγό παστελιού.",
+   "script": [
+    {
+     "speaker": "Παραγωγός",
+     "voice": "m",
+     "el": "Γεια σας, κύριε Μαυρίδη, ο Γιάννης είμαι, από το εργαστήριο με το παστέλι. Πήρα την παραγγελία σας για τα εκατό παστέλια για τον γάμο, και σας ευχαριστώ πολύ.",
+     "en": "Hello, Mr Mavridis, it's Giannis, from the pasteli workshop. I got your order for the hundred pasteli bars for the wedding, and thank you very much."
+    },
+    {
+     "speaker": "Παραγωγός",
+     "voice": "m",
+     "el": "Ένα πρόβλημα μόνο: το μέλι θυμαριού φέτος ήταν λίγο, λόγω της ξηρασίας, και δεν μου φτάνει για όλη την ποσότητα. Μπορώ να φτιάξω τα μισά με μέλι θυμαριού και τα άλλα μισά με μέλι από πεύκο, που είναι λίγο πιο σκούρο και λιγότερο γλυκό.",
+     "en": "Just one problem: thyme honey was scarce this year because of the drought, and I don't have enough for the whole quantity. I can make half with thyme honey and the other half with pine honey, which is a little darker and less sweet."
+    },
+    {
+     "speaker": "Παραγωγός",
+     "voice": "m",
+     "el": "Αν θέλετε, μπορώ να βάλω και αμύγδαλο στο πεύκινο, για να έχουν οι καλεσμένοι δύο γεύσεις. Τα στέλνω με κούριερ την Πέμπτη, για να είναι φρέσκα. Πάρτε με όταν μπορέσετε να μου πείτε τι αποφασίσατε.",
+     "en": "If you like, I can also put almonds in the pine-honey ones, so the guests have two flavours. I'm sending them by courier on Thursday, so they're fresh. Call me when you can to tell me what you've decided."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Για ποια περίσταση είναι τα παστέλια;",
+     "options": [
+      "Για γάμο",
+      "Για γενέθλια",
+      "Για γιορτή σχολείου",
+      "Για βάφτιση"
+     ],
+     "answer": "Για γάμο",
+     "why": "για τον γάμο"
+    },
+    {
+     "q": "Γιατί δεν φτάνει το μέλι θυμαριού;",
+     "options": [
+      "Γιατί άρρωστησαν οι μέλισσες",
+      "Γιατί άργησε ο προμηθευτής",
+      "Γιατί πουλήθηκε όλο",
+      "Λόγω της ξηρασίας"
+     ],
+     "answer": "Λόγω της ξηρασίας",
+     "why": "λόγω της ξηρασίας"
+    },
+    {
+     "q": "Τι προτείνει να προσθέσει στα παστέλια με πεύκινο μέλι;",
+     "options": [
+      "Πορτοκάλι",
+      "Κανέλα",
+      "Αμύγδαλο",
+      "Σοκολάτα"
+     ],
+     "answer": "Αμύγδαλο",
+     "why": "μπορώ να βάλω και αμύγδαλο στο πεύκινο"
+    }
+   ],
+   "gloss": {
+    "παστελιού": "παστέλι — sesame-and-honey bar",
+    "παραγωγό": "παραγωγός — producer",
+    "εργαστήριο": "εργαστήριο — workshop",
+    "θυμαριού": "θυμάρι — thyme",
+    "ξηρασίας": "ξηρασία — drought",
+    "ποσότητα": "ποσότητα — quantity",
+    "σκούρο": "σκούρος — dark",
+    "αμύγδαλο": "αμύγδαλο — almond",
+    "πεύκινο": "πεύκινος — pine (adj.)",
+    "καλεσμένοι": "καλεσμένος — guest",
+    "κούριερ": "κούριερ — courier"
+   }
+  },
+  {
+   "id": "l160-c1-leidenfrost",
+   "title": "Σταγόνες που χορεύουν στο τηγάνι",
+   "title_en": "Drops that dance in the frying pan",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από ραδιοφωνική συνέντευξη με μια φυσικό για το λεγόμενο φαινόμενο Λάιντενφροστ.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Όλοι έχουμε δει σταγόνες νερού να τρέχουν πάνω σε ένα πολύ ζεστό τηγάνι. Τι ακριβώς συμβαίνει;",
+     "en": "We've all seen water drops racing across a very hot frying pan. What exactly is happening?"
+    },
+    {
+     "speaker": "Φυσικός",
+     "voice": "f",
+     "el": "Θα περίμενε κανείς ότι όσο πιο ζεστό είναι το μέταλλο, τόσο πιο γρήγορα θα εξατμιστεί η σταγόνα. Μέχρι ένα σημείο ισχύει. Πάνω όμως από μια κρίσιμη θερμοκρασία, που για το νερό είναι γύρω στους διακόσιους βαθμούς, η κάτω επιφάνεια της σταγόνας εξατμίζεται τόσο ακαριαία, ώστε σχηματίζεται ένα λεπτό στρώμα ατμού. Η σταγόνα αιωρείται πάνω του, σαν σε μαξιλάρι, και γλιστράει σχεδόν χωρίς τριβή.",
+     "en": "One would expect that the hotter the metal, the faster the drop will evaporate. Up to a point that holds. But above a critical temperature, which for water is around two hundred degrees, the underside of the drop evaporates so instantly that a thin layer of vapour forms. The drop floats on it, as if on a cushion, and slides almost without friction."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και γι' αυτό κρατάει περισσότερο;",
+     "en": "And that's why it lasts longer?"
+    },
+    {
+     "speaker": "Φυσικός",
+     "voice": "f",
+     "el": "Ακριβώς. Ο ατμός είναι κακός αγωγός της θερμότητας, οπότε μονώνει τη σταγόνα από το καυτό μέταλλο. Έτσι, παράδοξα, μια σταγόνα σε τηγάνι στους τριακόσιους βαθμούς μπορεί να επιζήσει πολύ περισσότερο απ' ό,τι σε τηγάνι στους εκατόν πενήντα. Το φαινόμενο το περιέγραψε ο Γερμανός γιατρός Γιόχαν Γκότλομπ Λάιντενφροστ το 1756, αν και το είχαν παρατηρήσει και άλλοι πριν από αυτόν.",
+     "en": "Exactly. Vapour is a poor conductor of heat, so it insulates the drop from the scorching metal. So, paradoxically, a drop in a pan at three hundred degrees can survive much longer than in a pan at one hundred and fifty. The phenomenon was described by the German doctor Johann Gottlob Leidenfrost in 1756, although others had observed it before him."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Έχει και πρακτική σημασία;",
+     "en": "Does it have practical importance too?"
+    },
+    {
+     "speaker": "Φυσικός",
+     "voice": "f",
+     "el": "Μεγάλη, και όχι πάντα ευχάριστη. Όταν ψύχεις ένα καυτό κομμάτι μετάλλου βυθίζοντάς το σε νερό, το στρώμα ατμού καθυστερεί την ψύξη, και οι μηχανικοί πρέπει να το λάβουν υπόψη. Το ίδιο ισχύει στους πυρηνικούς αντιδραστήρες. Από την άλλη, πολλοί μάγειρες το χρησιμοποιούν χωρίς να ξέρουν το όνομά του: ρίχνουν λίγες σταγόνες νερό στο τηγάνι, και αν χορεύουν αντί να τσιτσιρίζουν, ξέρουν ότι είναι έτοιμο.",
+     "en": "Great importance, and not always pleasant. When you cool a red-hot piece of metal by plunging it into water, the vapour layer delays the cooling, and engineers have to take it into account. The same applies in nuclear reactors. On the other hand, many cooks use it without knowing its name: they sprinkle a few drops of water into the pan, and if they dance instead of sizzling, they know it is ready."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι συμβαίνει πάνω από την κρίσιμη θερμοκρασία;",
+     "options": [
+      "Το μέταλλο αλλάζει χρώμα",
+      "Σχηματίζεται ένα λεπτό στρώμα ατμού πάνω στο οποίο αιωρείται η σταγόνα",
+      "Η σταγόνα παγώνει",
+      "Η σταγόνα εξατμίζεται αμέσως"
+     ],
+     "answer": "Σχηματίζεται ένα λεπτό στρώμα ατμού πάνω στο οποίο αιωρείται η σταγόνα",
+     "why": "σχηματίζεται ένα λεπτό στρώμα ατμού"
+    },
+    {
+     "q": "Γιατί η σταγόνα κρατάει περισσότερο σε πολύ ζεστό τηγάνι;",
+     "options": [
+      "Γιατί το νερό βράζει σε υψηλότερη θερμοκρασία",
+      "Γιατί το τηγάνι κρυώνει",
+      "Γιατί η σταγόνα γίνεται μεγαλύτερη",
+      "Γιατί ο ατμός είναι κακός αγωγός της θερμότητας και τη μονώνει"
+     ],
+     "answer": "Γιατί ο ατμός είναι κακός αγωγός της θερμότητας και τη μονώνει",
+     "why": "Ο ατμός είναι κακός αγωγός της θερμότητας, οπότε μονώνει τη σταγόνα από το καυτό μέταλλο"
+    },
+    {
+     "q": "Ποιο πρόβλημα δημιουργεί το φαινόμενο στους μηχανικούς;",
+     "options": [
+      "Καθυστερεί την ψύξη όταν βυθίζουν καυτό μέταλλο σε νερό",
+      "Προκαλεί εκρήξεις",
+      "Αυξάνει την κατανάλωση νερού",
+      "Σκουριάζει τα μέταλλα"
+     ],
+     "answer": "Καθυστερεί την ψύξη όταν βυθίζουν καυτό μέταλλο σε νερό",
+     "why": "το στρώμα ατμού καθυστερεί την ψύξη"
+    },
+    {
+     "q": "Πώς χρησιμοποιούν οι μάγειρες το φαινόμενο;",
+     "options": [
+      "Για να καθαρίσουν το τηγάνι",
+      "Για να καταλάβουν αν το τηγάνι είναι έτοιμο",
+      "Για να βράσουν πιο γρήγορα το νερό",
+      "Για να μην κολλάει το φαγητό"
+     ],
+     "answer": "Για να καταλάβουν αν το τηγάνι είναι έτοιμο",
+     "why": "αν χορεύουν αντί να τσιτσιρίζουν, ξέρουν ότι είναι έτοιμο"
+    }
+   ],
+   "gloss": {
+    "φυσικό": "φυσικός — physicist",
+    "σταγόνες": "σταγόνα — drop",
+    "τηγάνι": "τηγάνι — frying pan",
+    "εξατμιστεί": "εξατμίζομαι — to evaporate",
+    "κρίσιμη": "κρίσιμος — critical",
+    "ακαριαία": "ακαριαία — instantly",
+    "ατμού": "ατμός — vapour, steam",
+    "αιωρείται": "αιωρούμαι — to float, to hover",
+    "τριβή": "τριβή — friction",
+    "αγωγός": "αγωγός — conductor",
+    "μονώνει": "μονώνω — to insulate",
+    "παράδοξα": "παράδοξα — paradoxically",
+    "ψύχεις": "ψύχω — to cool",
+    "βυθίζοντάς": "βυθίζω — to plunge, to immerse",
+    "αντιδραστήρες": "αντιδραστήρας — reactor",
+    "τσιτσιρίζουν": "τσιτσιρίζω — to sizzle"
+   }
+  },
+  {
+   "id": "l160-c1-coriolis",
+   "title": "Προς τα πού στροβιλίζεται το νερό του νιπτήρα;",
+   "title_en": "Which way does the water in the sink swirl?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από μια εκλαϊκευτική διάλεξη για τη δύναμη Κοριόλις και έναν διαδεδομένο μύθο.",
+   "script": [
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Ίσως σας έχουν πει ότι στο βόρειο ημισφαίριο το νερό του νιπτήρα αδειάζει πάντα στρίβοντας αριστερόστροφα και στο νότιο δεξιόστροφα. Σε ορισμένες χώρες του ισημερινού, μάλιστα, ξεναγοί δείχνουν στους τουρίστες μια λεκάνη που αλλάζει φορά μόλις τη μετακινήσουν λίγα μέτρα βόρεια ή νότια της γραμμής. Είναι ένα ωραίο θέαμα, αλλά πρόκειται για τέχνασμα.",
+     "en": "You may have been told that in the northern hemisphere the water in the sink always drains turning anticlockwise, and in the southern hemisphere clockwise. In some equatorial countries, in fact, guides show tourists a basin that changes direction as soon as they move it a few metres north or south of the line. It's a nice spectacle, but it's a trick."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Η δύναμη που επικαλείται ο μύθος υπάρχει. Την περιέγραψε μαθηματικά ο Γάλλος μηχανικός Γκασπάρ-Γκυστάβ Κοριόλις το 1835, και οφείλεται στην περιστροφή της Γης: σε ό,τι κινείται στο βόρειο ημισφαίριο, φαίνεται να το εκτρέπει προς τα δεξιά. Σε κλίμακα χιλιάδων χιλιομέτρων είναι καθοριστική· γι' αυτό οι τυφώνες στο βόρειο ημισφαίριο περιστρέφονται αριστερόστροφα.",
+     "en": "The force the myth invokes does exist. The French engineer Gaspard-Gustave Coriolis described it mathematically in 1835, and it is due to the Earth's rotation: anything moving in the northern hemisphere appears to be deflected to the right. On a scale of thousands of kilometres it is decisive; that's why hurricanes in the northern hemisphere rotate anticlockwise."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Σε έναν νιπτήρα, όμως, η επίδρασή της είναι εκατομμύρια φορές ασθενέστερη από τις μικρές κινήσεις που έχει ήδη το νερό, από το σχήμα της λεκάνης ή από τον τρόπο που τη γεμίσαμε. Για να φανεί, χρειάζονται ακραίες συνθήκες. Το 1962, ο Άσερ Σαπίρο στο ΜΙΤ γέμισε μια μεγάλη στρογγυλή δεξαμενή, την άφησε να ηρεμήσει ένα ολόκληρο εικοσιτετράωρο και μετά άνοιξε προσεκτικά την τάπα. Μόνο τότε το νερό έφευγε σταθερά αριστερόστροφα. Το δίδαγμα είναι γενικότερο: ένας πραγματικός νόμος της φύσης δεν σημαίνει ότι εξηγεί κάθε φαινόμενο που του φορτώνουμε.",
+     "en": "In a sink, however, its effect is millions of times weaker than the small movements the water already has, from the shape of the basin or from the way we filled it. For it to show, extreme conditions are needed. In 1962, Ascher Shapiro at MIT filled a large round tank, left it to settle for a whole twenty-four hours, and then carefully opened the plug. Only then did the water drain consistently anticlockwise. The lesson is more general: a real law of nature does not mean that it explains every phenomenon we load onto it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λέει ο ομιλητής για τη λεκάνη που δείχνουν οι ξεναγοί στον ισημερινό;",
+     "options": [
+      "Ότι αποδεικνύει τη δύναμη Κοριόλις",
+      "Ότι λειτουργεί μόνο το καλοκαίρι",
+      "Ότι χρησιμοποιείται σε επιστημονικά πειράματα",
+      "Ότι πρόκειται για τέχνασμα"
+     ],
+     "answer": "Ότι πρόκειται για τέχνασμα",
+     "why": "πρόκειται για τέχνασμα"
+    },
+    {
+     "q": "Σε ποια κλίμακα είναι καθοριστική η δύναμη Κοριόλις;",
+     "options": [
+      "Σε κλίμακα χιλιάδων χιλιομέτρων",
+      "Σε έναν νιπτήρα",
+      "Σε μια μπανιέρα",
+      "Σε κάθε κίνηση νερού"
+     ],
+     "answer": "Σε κλίμακα χιλιάδων χιλιομέτρων",
+     "why": "Σε κλίμακα χιλιάδων χιλιομέτρων είναι καθοριστική"
+    },
+    {
+     "q": "Γιατί δεν καθορίζει η δύναμη Κοριόλις τη φορά του νερού σε έναν νιπτήρα;",
+     "options": [
+      "Γιατί ισχύει μόνο στον ισημερινό",
+      "Γιατί δεν υπάρχει στην πραγματικότητα",
+      "Γιατί είναι εκατομμύρια φορές ασθενέστερη από τις μικρές κινήσεις που έχει ήδη το νερό",
+      "Γιατί οι νιπτήρες είναι μεταλλικοί"
+     ],
+     "answer": "Γιατί είναι εκατομμύρια φορές ασθενέστερη από τις μικρές κινήσεις που έχει ήδη το νερό",
+     "why": "η επίδρασή της είναι εκατομμύρια φορές ασθενέστερη"
+    },
+    {
+     "q": "Τι έκανε ο Σαπίρο για να φανεί το φαινόμενο;",
+     "options": [
+      "Χρησιμοποίησε έναν πολύ μικρό νιπτήρα",
+      "Ταξίδεψε στον ισημερινό",
+      "Ανακάτεψε το νερό προς τα αριστερά",
+      "Άφησε μια μεγάλη στρογγυλή δεξαμενή να ηρεμήσει ένα εικοσιτετράωρο πριν ανοίξει την τάπα"
+     ],
+     "answer": "Άφησε μια μεγάλη στρογγυλή δεξαμενή να ηρεμήσει ένα εικοσιτετράωρο πριν ανοίξει την τάπα",
+     "why": "την άφησε να ηρεμήσει ένα ολόκληρο εικοσιτετράωρο"
+    }
+   ],
+   "gloss": {
+    "νιπτήρα": "νιπτήρας — washbasin, sink",
+    "εκλαϊκευτική": "εκλαϊκευτικός — popular-science",
+    "ημισφαίριο": "ημισφαίριο — hemisphere",
+    "αριστερόστροφα": "αριστερόστροφα — anticlockwise",
+    "δεξιόστροφα": "δεξιόστροφα — clockwise",
+    "ισημερινού": "ισημερινός — equator",
+    "λεκάνη": "λεκάνη — basin",
+    "φορά": "φορά — direction (of rotation)",
+    "τέχνασμα": "τέχνασμα — trick",
+    "επικαλείται": "επικαλούμαι — to invoke",
+    "εκτρέπει": "εκτρέπω — to deflect",
+    "κλίμακα": "κλίμακα — scale",
+    "τυφώνες": "τυφώνας — hurricane",
+    "δεξαμενή": "δεξαμενή — tank",
+    "τάπα": "τάπα — plug, stopper",
+    "δίδαγμα": "δίδαγμα — lesson"
+   }
+  }
+ ]
+}
