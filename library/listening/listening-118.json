@@ -1,0 +1,833 @@
+{
+ "items": [
+  {
+   "id": "l118-ann-parousiasi-vivliou",
+   "title": "Παρουσίαση βιβλίου στο βιβλιοπωλείο",
+   "title_en": "A book launch at the bookshop",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Βρίσκεστε σε ένα βιβλιοπωλείο για την παρουσίαση ενός νέου μυθιστορήματος. Ακούτε μια ανακοίνωση.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλησπέρα σας και ευχαριστούμε που ήρθατε τόσοι πολλοί. Η συγγραφέας μάς ενημέρωσε ότι έχει κολλήσει στην κίνηση και θα φτάσει με περίπου είκοσι λεπτά καθυστέρηση. Ζητούμε συγγνώμη για την αναμονή.",
+     "en": "Good evening and thank you for coming in such numbers. The author has let us know that she is stuck in traffic and will arrive about twenty minutes late. We apologise for the wait."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Στο μεταξύ, σας προσφέρουμε ένα ποτήρι κρασί στον πρώτο όροφο. Η παρουσίαση θα διαρκέσει περίπου μία ώρα και στο τέλος θα υπάρχει χρόνος για ερωτήσεις από το κοινό.",
+     "en": "In the meantime, we offer you a glass of wine on the first floor. The presentation will last about an hour and at the end there will be time for questions from the audience."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Η συγγραφέας θα υπογράφει αντίτυπα μόνο του καινούργιου της βιβλίου, όχι των παλαιότερων, γιατί δεν θα υπάρχει αρκετός χρόνος. Όσοι αγοράσουν το βιβλίο απόψε έχουν έκπτωση δεκαπέντε τοις εκατό.",
+     "en": "The author will sign copies of her new book only, not of her older ones, because there won't be enough time. Those who buy the book tonight get a fifteen per cent discount."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θα αργήσει η συγγραφέας;",
+     "options": [
+      "Γιατί άλλαξε η ώρα της εκδήλωσης",
+      "Γιατί είναι άρρωστη",
+      "Γιατί έχασε το τρένο",
+      "Γιατί έχει κολλήσει στην κίνηση"
+     ],
+     "answer": "Γιατί έχει κολλήσει στην κίνηση",
+     "why": "έχει κολλήσει στην κίνηση"
+    },
+    {
+     "q": "Τι προσφέρει το βιβλιοπωλείο στο μεταξύ;",
+     "options": [
+      "Μια ξενάγηση στο βιβλιοπωλείο",
+      "Ένα ποτήρι κρασί στον πρώτο όροφο",
+      "Δωρεάν βιβλία",
+      "Καφέ και γλυκά"
+     ],
+     "answer": "Ένα ποτήρι κρασί στον πρώτο όροφο",
+     "why": "σας προσφέρουμε ένα ποτήρι κρασί στον πρώτο όροφο"
+    },
+    {
+     "q": "Ποια βιβλία θα υπογράφει η συγγραφέας;",
+     "options": [
+      "Μόνο το καινούργιο της βιβλίο",
+      "Όλα τα βιβλία της",
+      "Μόνο τα παλαιότερα",
+      "Όσα φέρει το κοινό από το σπίτι"
+     ],
+     "answer": "Μόνο το καινούργιο της βιβλίο",
+     "why": "θα υπογράφει αντίτυπα μόνο του καινούργιου της βιβλίου"
+    }
+   ],
+   "gloss": {
+    "παρουσίαση": "παρουσίαση — (book) launch, presentation",
+    "μυθιστορήματος": "μυθιστόρημα — novel",
+    "συγγραφέας": "συγγραφέας — author",
+    "κολλήσει": "κολλάω στην κίνηση — to get stuck in traffic",
+    "αναμονή": "αναμονή — wait",
+    "Στο μεταξύ": "στο μεταξύ — in the meantime",
+    "διαρκέσει": "διαρκώ — to last",
+    "υπογράφει": "υπογράφω — to sign",
+    "αντίτυπα": "αντίτυπο — copy (of a book)",
+    "έκπτωση": "έκπτωση — discount"
+   }
+  },
+  {
+   "id": "l118-vm-oreivatikos-syllogos",
+   "title": "Μήνυμα από τον ορειβατικό σύλλογο",
+   "title_en": "A message from the mountaineering club",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Έχετε δηλώσει συμμετοχή σε μια ορειβατική εξόρμηση. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Αρχηγός",
+     "voice": "m",
+     "el": "Γεια σας, ο Νίκος είμαι από τον ορειβατικό σύλλογο, ο αρχηγός της κυριακάτικης εξόρμησης. Σας ενημερώνω ότι αλλάζουμε διαδρομή. Η πρόγνωση δείχνει δυνατούς ανέμους στην κορυφή, οπότε δεν θα ανέβουμε ως εκεί. Θα κάνουμε μια χαμηλότερη διαδρομή μέσα στο φαράγγι.",
+     "en": "Hello, this is Nikos from the mountaineering club, the leader of Sunday's outing. I'm letting you know that we're changing route. The forecast shows strong winds on the summit, so we won't go up that far. We'll do a lower route through the gorge."
+    },
+    {
+     "speaker": "Αρχηγός",
+     "voice": "m",
+     "el": "Επειδή η νέα διαδρομή είναι μεγαλύτερη, το λεωφορείο θα φύγει μισή ώρα νωρίτερα, στις έξι και μισή, από το ίδιο σημείο. Μην ξεχάσετε φακό κεφαλής, γιατί ίσως επιστρέψουμε όταν θα έχει σκοτεινιάσει.",
+     "en": "Because the new route is longer, the coach will leave half an hour earlier, at half past six, from the same place. Don't forget a head torch, because we may return after it has got dark."
+    },
+    {
+     "speaker": "Αρχηγός",
+     "voice": "m",
+     "el": "Στο φαράγγι θα διασχίσουμε δύο φορές το ρέμα, οπότε καλό είναι να έχετε μαζί ένα δεύτερο ζευγάρι κάλτσες. Αν δεν σας βολεύει η αλλαγή, πείτε μου ως την Παρασκευή για να σας επιστρέψουμε τα χρήματα.",
+     "en": "In the gorge we'll cross the stream twice, so it's a good idea to bring a second pair of socks. If the change doesn't suit you, tell me by Friday so that we can refund your money."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί αλλάζει η διαδρομή;",
+     "options": [
+      "Γιατί έκλεισε το μονοπάτι",
+      "Γιατί η πρόγνωση δείχνει δυνατούς ανέμους στην κορυφή",
+      "Γιατί δήλωσαν λίγοι συμμετοχή",
+      "Γιατί χάλασε το λεωφορείο"
+     ],
+     "answer": "Γιατί η πρόγνωση δείχνει δυνατούς ανέμους στην κορυφή",
+     "why": "Η πρόγνωση δείχνει δυνατούς ανέμους στην κορυφή"
+    },
+    {
+     "q": "Γιατί πρέπει να έχουν μαζί φακό κεφαλής;",
+     "options": [
+      "Γιατί το ζητά ο κανονισμός του συλλόγου",
+      "Γιατί θα περάσουν από σπηλιά",
+      "Γιατί ίσως επιστρέψουν όταν θα έχει σκοτεινιάσει",
+      "Γιατί θα ξεκινήσουν πριν ξημερώσει"
+     ],
+     "answer": "Γιατί ίσως επιστρέψουν όταν θα έχει σκοτεινιάσει",
+     "why": "ίσως επιστρέψουμε όταν θα έχει σκοτεινιάσει"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν όσοι δεν θέλουν τη νέα διαδρομή;",
+     "options": [
+      "Να στείλουν ένα μήνυμα την Κυριακή",
+      "Να το πουν ως την Παρασκευή για να πάρουν πίσω τα χρήματα",
+      "Να πάνε μόνοι τους στην κορυφή",
+      "Να έρθουν στο γραφείο του συλλόγου"
+     ],
+     "answer": "Να το πουν ως την Παρασκευή για να πάρουν πίσω τα χρήματα",
+     "why": "πείτε μου ως την Παρασκευή για να σας επιστρέψουμε τα χρήματα"
+    }
+   ],
+   "gloss": {
+    "ορειβατικό": "ορειβατικός — mountaineering (adj.)",
+    "εξόρμηση": "εξόρμηση — outing, excursion",
+    "αρχηγός": "αρχηγός — leader",
+    "κορυφή": "κορυφή — summit, peak",
+    "φαράγγι": "φαράγγι — gorge",
+    "φακό κεφαλής": "φακός κεφαλής — head torch",
+    "σκοτεινιάσει": "σκοτεινιάζει — it gets dark",
+    "διασχίσουμε": "διασχίζω — to cross",
+    "ρέμα": "ρέμα — stream",
+    "βολεύει": "με βολεύει — it suits me"
+   }
+  },
+  {
+   "id": "l118-dial-protos-choros",
+   "title": "Ο πρώτος χορός στον γάμο μας",
+   "title_en": "The first dance at our wedding",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ένα ζευγάρι που θα παντρευτεί σε δύο μήνες, ο Άρης και η Φωτεινή, συζητά για τον πρώτο χορό στον γάμο.",
+   "script": [
+    {
+     "speaker": "Φωτεινή",
+     "voice": "f",
+     "el": "Άρη, η αδερφή μου λέει ότι πρέπει να κάνουμε μαθήματα χορού για τον γάμο. Στον δικό της γάμο έκαναν ταγκό και όλοι ακόμα το θυμούνται.",
+     "en": "Aris, my sister says we should take dance lessons for the wedding. At her wedding they did a tango and everyone still remembers it."
+    },
+    {
+     "speaker": "Άρης",
+     "voice": "m",
+     "el": "Ακριβώς γι’ αυτό δεν θέλω. Δεν θέλω να μας συγκρίνουν. Και ξέρεις ότι εγώ χορεύω σαν ντουλάπα. Γιατί να μη χορέψουμε απλώς ένα βαλς, κάτι απλό;",
+     "en": "That's exactly why I don't want to. I don't want them to compare us. And you know I dance like a wardrobe. Why don't we just dance a waltz, something simple?"
+    },
+    {
+     "speaker": "Φωτεινή",
+     "voice": "f",
+     "el": "Ακόμα και για το βαλς χρειαζόμαστε λίγη εξάσκηση. Δεν λέω να γίνουμε επαγγελματίες. Πέντε μαθήματα, όσο για να μην πατάς τα πόδια μου μπροστά σε διακόσιους καλεσμένους.",
+     "en": "Even for the waltz we need a bit of practice. I'm not saying we should become professionals. Five lessons, just enough so you don't step on my feet in front of two hundred guests."
+    },
+    {
+     "speaker": "Άρης",
+     "voice": "m",
+     "el": "Εντάξει, αυτό είναι λογικό. Αλλά να ξέρεις, μετά το βαλς θέλω να ακολουθήσει αμέσως ένα συρτό, να σηκωθεί όλος ο κόσμος και να σταματήσουν να κοιτάνε εμάς.",
+     "en": "OK, that's reasonable. But you should know, after the waltz I want a syrtos to follow straight away, so that everyone gets up and stops looking at us."
+    },
+    {
+     "speaker": "Φωτεινή",
+     "voice": "f",
+     "el": "Συμφωνώ. Θα πω στην ορχήστρα να είναι έτοιμη. Και θα βρω μια σχολή κοντά στη δουλειά σου, για να μην έχεις δικαιολογίες.",
+     "en": "Agreed. I'll tell the band to be ready. And I'll find a school near your work, so you have no excuses."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο Άρης δεν θέλει να χορέψουν ταγκό;",
+     "options": [
+      "Γιατί είναι πολύ ακριβά τα μαθήματα",
+      "Γιατί δεν του αρέσει η μουσική",
+      "Γιατί δεν θέλει να τους συγκρίνουν με την αδερφή της Φωτεινής",
+      "Γιατί έχει πρόβλημα στο πόδι"
+     ],
+     "answer": "Γιατί δεν θέλει να τους συγκρίνουν με την αδερφή της Φωτεινής",
+     "why": "Δεν θέλω να μας συγκρίνουν"
+    },
+    {
+     "q": "Πόσα μαθήματα προτείνει η Φωτεινή;",
+     "options": [
+      "Είκοσι",
+      "Δέκα",
+      "Ένα",
+      "Πέντε"
+     ],
+     "answer": "Πέντε",
+     "why": "Πέντε μαθήματα"
+    },
+    {
+     "q": "Τι θέλει ο Άρης να γίνει αμέσως μετά το βαλς;",
+     "options": [
+      "Να κόψουν την τούρτα",
+      "Να βγάλουν φωτογραφίες",
+      "Να κάνουν μια ομιλία",
+      "Να ακολουθήσει ένα συρτό για να σηκωθεί όλος ο κόσμος"
+     ],
+     "answer": "Να ακολουθήσει ένα συρτό για να σηκωθεί όλος ο κόσμος",
+     "why": "μετά το βαλς θέλω να ακολουθήσει αμέσως ένα συρτό"
+    }
+   ],
+   "gloss": {
+    "παντρευτεί": "παντρεύομαι — to get married",
+    "ταγκό": "ταγκό — tango",
+    "συγκρίνουν": "συγκρίνω — to compare",
+    "βαλς": "βαλς — waltz",
+    "εξάσκηση": "εξάσκηση — practice",
+    "επαγγελματίες": "επαγγελματίας — professional",
+    "καλεσμένους": "καλεσμένος — guest",
+    "συρτό": "συρτός — syrtos (Greek circle dance)",
+    "ορχήστρα": "ορχήστρα — band, orchestra",
+    "δικαιολογίες": "δικαιολογία — excuse"
+   }
+  },
+  {
+   "id": "l118-int-ypotitlistria",
+   "title": "Μια μεταφράστρια υποτίτλων",
+   "title_en": "A subtitle translator",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με μια μεταφράστρια υποτίτλων σε ραδιοφωνική εκπομπή για τα επαγγέλματα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Όλοι διαβάζουμε υπότιτλους, αλλά λίγοι σκεφτόμαστε ποιος τους γράφει. Πόσο δύσκολο είναι;",
+     "en": "We all read subtitles, but few of us think about who writes them. How difficult is it?"
+    },
+    {
+     "speaker": "Μεταφράστρια",
+     "voice": "f",
+     "el": "Πιο δύσκολο απ’ ό,τι φαίνεται. Δεν μεταφράζω απλώς τον διάλογο. Έχω περιορισμένο χώρο, συνήθως δύο γραμμές, και λίγα δευτερόλεπτα, γιατί ο θεατής πρέπει να προλάβει να διαβάσει και να δει την εικόνα. Έτσι, πολλές φορές πρέπει να συντομεύσω μια φράση χωρίς να χαθεί το νόημα.",
+     "en": "Harder than it looks. I don't simply translate the dialogue. I have limited space, usually two lines, and a few seconds, because the viewer has to manage to read and watch the picture. So I often have to shorten a sentence without losing the meaning."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι σας δυσκολεύει περισσότερο;",
+     "en": "What do you find hardest?"
+    },
+    {
+     "speaker": "Μεταφράστρια",
+     "voice": "f",
+     "el": "Τα αστεία και τα λογοπαίγνια. Ένα αστείο που βασίζεται σε μια λέξη της αγγλικής συχνά δεν λειτουργεί καθόλου στα ελληνικά. Τότε πρέπει να εφεύρω ένα καινούργιο αστείο, που να ταιριάζει με την εικόνα. Αν ο ηθοποιός δείχνει ένα μήλο, δεν μπορώ να κάνω αστείο με πορτοκάλια.",
+     "en": "Jokes and puns. A joke that's based on an English word often doesn't work at all in Greek. Then I have to invent a new joke that fits the picture. If the actor is pointing at an apple, I can't make a joke about oranges."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και η πίεση του χρόνου;",
+     "en": "And time pressure?"
+    },
+    {
+     "speaker": "Μεταφράστρια",
+     "voice": "f",
+     "el": "Είναι μεγάλη. Για μια σειρά που βγαίνει ταυτόχρονα σε όλο τον κόσμο, μπορεί να έχω μόνο λίγες μέρες για μια ολόκληρη σεζόν. Η καλύτερη αναγνώριση, πάντως, είναι όταν κανείς δεν προσέχει τους υπότιτλους. Σημαίνει ότι έκανα καλά τη δουλειά μου.",
+     "en": "It's huge. For a series that comes out at the same time all over the world, I may have only a few days for a whole season. The best recognition, though, is when nobody notices the subtitles. It means I did my job well."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί πρέπει συχνά να συντομεύει τις φράσεις;",
+     "options": [
+      "Γιατί τα ελληνικά είναι πιο σύντομα",
+      "Γιατί έχει περιορισμένο χώρο και λίγα δευτερόλεπτα",
+      "Γιατί το ζητούν οι ηθοποιοί",
+      "Γιατί πληρώνεται ανά λέξη"
+     ],
+     "answer": "Γιατί έχει περιορισμένο χώρο και λίγα δευτερόλεπτα",
+     "why": "Έχω περιορισμένο χώρο, συνήθως δύο γραμμές, και λίγα δευτερόλεπτα"
+    },
+    {
+     "q": "Τι κάνει όταν ένα αστείο δεν λειτουργεί στα ελληνικά;",
+     "options": [
+      "Εφευρίσκει ένα καινούργιο αστείο που να ταιριάζει με την εικόνα",
+      "Το αφήνει στα αγγλικά",
+      "Βάζει μια σημείωση στο κάτω μέρος της οθόνης",
+      "Το παραλείπει"
+     ],
+     "answer": "Εφευρίσκει ένα καινούργιο αστείο που να ταιριάζει με την εικόνα",
+     "why": "πρέπει να εφεύρω ένα καινούργιο αστείο, που να ταιριάζει με την εικόνα"
+    },
+    {
+     "q": "Ποια θεωρεί την καλύτερη αναγνώριση της δουλειάς της;",
+     "options": [
+      "Όταν οι θεατές τη συγχαίρουν",
+      "Όταν παίρνει βραβείο",
+      "Όταν κανείς δεν προσέχει τους υπότιτλους",
+      "Όταν τελειώνει γρήγορα"
+     ],
+     "answer": "Όταν κανείς δεν προσέχει τους υπότιτλους",
+     "why": "όταν κανείς δεν προσέχει τους υπότιτλους"
+    }
+   ],
+   "gloss": {
+    "υπότιτλους": "υπότιτλος — subtitle",
+    "μεταφράστρια": "μεταφράστρια — translator (female)",
+    "περιορισμένο": "περιορισμένος — limited",
+    "προλάβει": "προλαβαίνω — to manage (in time)",
+    "συντομεύσω": "συντομεύω — to shorten",
+    "λογοπαίγνια": "λογοπαίγνιο — pun, wordplay",
+    "εφεύρω": "εφευρίσκω — to invent",
+    "ταυτόχρονα": "ταυτόχρονα — at the same time",
+    "σεζόν": "σεζόν — season (of a series)",
+    "αναγνώριση": "αναγνώριση — recognition"
+   }
+  },
+  {
+   "id": "l118-rep-scholeio-choris-tsantes",
+   "title": "Ένα σχολείο χωρίς βαριές τσάντες",
+   "title_en": "A school without heavy schoolbags",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ στις τοπικές ειδήσεις.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Στο δημοτικό σχολείο της γειτονιάς μας, οι μαθητές δεν κουβαλούν πια κάθε μέρα όλα τους τα βιβλία. Με χρήματα που μάζεψε ο σύλλογος γονέων από ένα χριστουγεννιάτικο παζάρι, τοποθετήθηκαν σε κάθε τάξη μικρά ντουλαπάκια με κλειδαριά.",
+     "en": "At our neighbourhood primary school, the pupils no longer carry all their books every day. With money the parents' association raised at a Christmas bazaar, small lockable cupboards have been installed in every classroom."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η ιδέα ξεκίνησε όταν μια μητέρα, φυσικοθεραπεύτρια στο επάγγελμα, ζύγισε τις τσάντες των παιδιών μιας τάξης. Κάποιες ζύγιζαν πάνω από επτά κιλά. Οι γιατροί συχνά συστήνουν η τσάντα να μην ξεπερνά περίπου το δέκα τοις εκατό του βάρους του παιδιού.",
+     "en": "The idea started when a mother, a physiotherapist by profession, weighed the bags of the children in one class. Some weighed over seven kilos. Doctors often recommend that a schoolbag shouldn't exceed about ten per cent of the child's weight."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Τώρα τα παιδιά παίρνουν στο σπίτι μόνο τα βιβλία που χρειάζονται για τα μαθήματα της επόμενης μέρας. Οι δάσκαλοι λένε ότι στην αρχή κάποιοι μαθητές ξεχνούσαν τα βιβλία τους, αλλά μέσα σε έναν μήνα όλοι συνήθισαν το νέο σύστημα.",
+     "en": "Now the children take home only the books they need for the next day's lessons. The teachers say that at first some pupils forgot their books, but within a month everyone got used to the new system."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς βρέθηκαν τα χρήματα για τα ντουλαπάκια;",
+     "options": [
+      "Από ένα χριστουγεννιάτικο παζάρι του συλλόγου γονέων",
+      "Από μια εταιρεία",
+      "Από το υπουργείο",
+      "Από τον δήμο"
+     ],
+     "answer": "Από ένα χριστουγεννιάτικο παζάρι του συλλόγου γονέων",
+     "why": "Με χρήματα που μάζεψε ο σύλλογος γονέων από ένα χριστουγεννιάτικο παζάρι"
+    },
+    {
+     "q": "Τι έκανε η μητέρα που ξεκίνησε την ιδέα;",
+     "options": [
+      "Ζύγισε τις τσάντες των παιδιών μιας τάξης",
+      "Έφτιαξε τα ντουλαπάκια",
+      "Έκανε μια ομιλία στο σχολείο",
+      "Έγραψε στον δήμαρχο"
+     ],
+     "answer": "Ζύγισε τις τσάντες των παιδιών μιας τάξης",
+     "why": "ζύγισε τις τσάντες των παιδιών μιας τάξης"
+    },
+    {
+     "q": "Τι συνέβη στην αρχή, σύμφωνα με τους δασκάλους;",
+     "options": [
+      "Κάποιοι μαθητές ξεχνούσαν τα βιβλία τους",
+      "Κάποια ντουλαπάκια χάλασαν",
+      "Χάθηκαν κάποια κλειδιά",
+      "Οι γονείς διαμαρτυρήθηκαν"
+     ],
+     "answer": "Κάποιοι μαθητές ξεχνούσαν τα βιβλία τους",
+     "why": "στην αρχή κάποιοι μαθητές ξεχνούσαν τα βιβλία τους"
+    }
+   ],
+   "gloss": {
+    "κουβαλούν": "κουβαλάω — to carry",
+    "σύλλογος γονέων": "σύλλογος γονέων — parents' association",
+    "παζάρι": "παζάρι — bazaar, fair",
+    "τοποθετήθηκαν": "τοποθετούμαι — to be installed, placed",
+    "ντουλαπάκια": "ντουλαπάκι — small cupboard, locker",
+    "κλειδαριά": "κλειδαριά — lock",
+    "φυσικοθεραπεύτρια": "φυσικοθεραπεύτρια — physiotherapist (female)",
+    "ζύγισε": "ζυγίζω — to weigh",
+    "συστήνουν": "συστήνω — to recommend",
+    "συνήθισαν": "συνηθίζω — to get used to"
+   }
+  },
+  {
+   "id": "l118-rep-plateia-geitonias",
+   "title": "Μια γειτονιά ξαναφτιάχνει την πλατεία της",
+   "title_en": "A neighbourhood remakes its square",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ σε ραδιοφωνική εκπομπή για την πόλη.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Για χρόνια, η μικρή πλατεία στο τέλος της οδού Φιλελλήνων ήταν ένας χώρος στάθμευσης χωρίς άδεια, με σπασμένα παγκάκια και ούτε ένα δέντρο. Πέρσι, μια ομάδα κατοίκων αποφάσισε ότι αυτό πρέπει να αλλάξει.",
+     "en": "For years, the little square at the end of Filellinon Street was an unauthorised car park, with broken benches and not a single tree. Last year, a group of residents decided this had to change."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Αντί να περιμένουν τον δήμο, οργάνωσαν μια ψηφοφορία στη γειτονιά για το τι θα ήθελαν να γίνει. Οι περισσότεροι ψήφισαν για σκιά, μια βρύση και μια μικρή παιδική χαρά. Ο δήμος δέχτηκε να πληρώσει τα υλικά, αν οι κάτοικοι έκαναν μόνοι τους τη δουλειά.",
+     "en": "Instead of waiting for the council, they organised a vote in the neighbourhood on what they would like to see. Most voted for shade, a drinking fountain and a small playground. The council agreed to pay for the materials, if the residents did the work themselves."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Επί τρία Σαββατοκύριακα, γείτονες κάθε ηλικίας φύτεψαν δέντρα, έβαψαν παγκάκια και έστρωσαν βότσαλα. Σήμερα η πλατεία γεμίζει τα απογεύματα. Το πιο σημαντικό, λέει μια κάτοικος, δεν είναι η πλατεία, αλλά ότι μάθαμε επιτέλους τα ονόματα των γειτόνων μας.",
+     "en": "For three weekends, neighbours of all ages planted trees, painted benches and laid pebbles. Today the square fills up in the afternoons. The most important thing, says one resident, isn't the square, but that we finally learned our neighbours' names."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ήταν παλιά η πλατεία;",
+     "options": [
+      "Ένα οικόπεδο προς πώληση",
+      "Μια λαϊκή αγορά",
+      "Ένας χώρος στάθμευσης χωρίς άδεια",
+      "Ένα γήπεδο"
+     ],
+     "answer": "Ένας χώρος στάθμευσης χωρίς άδεια",
+     "why": "ήταν ένας χώρος στάθμευσης χωρίς άδεια"
+    },
+    {
+     "q": "Με ποια προϋπόθεση δέχτηκε ο δήμος να πληρώσει τα υλικά;",
+     "options": [
+      "Αν οι κάτοικοι έκαναν μόνοι τους τη δουλειά",
+      "Αν τελείωνε μέσα σε έναν μήνα",
+      "Αν η πλατεία πάρει το όνομα του δημάρχου",
+      "Αν οι κάτοικοι πλήρωναν τα μισά"
+     ],
+     "answer": "Αν οι κάτοικοι έκαναν μόνοι τους τη δουλειά",
+     "why": "αν οι κάτοικοι έκαναν μόνοι τους τη δουλειά"
+    },
+    {
+     "q": "Ποιο είναι, κατά μια κάτοικο, το πιο σημαντικό αποτέλεσμα;",
+     "options": [
+      "Ότι έχει πια σκιά",
+      "Ότι οι γείτονες έμαθαν επιτέλους ο ένας το όνομα του άλλου",
+      "Ότι η πλατεία είναι πιο όμορφη",
+      "Ότι ανέβηκαν οι τιμές των σπιτιών"
+     ],
+     "answer": "Ότι οι γείτονες έμαθαν επιτέλους ο ένας το όνομα του άλλου",
+     "why": "μάθαμε επιτέλους τα ονόματα των γειτόνων μας"
+    }
+   ],
+   "gloss": {
+    "στάθμευσης": "στάθμευση — parking",
+    "παγκάκια": "παγκάκι — bench",
+    "ψηφοφορία": "ψηφοφορία — vote",
+    "βρύση": "βρύση — (drinking) fountain, tap",
+    "παιδική χαρά": "παιδική χαρά — playground",
+    "υλικά": "υλικό — material",
+    "φύτεψαν": "φυτεύω — to plant",
+    "έβαψαν": "βάφω — to paint",
+    "έστρωσαν": "στρώνω — to lay (a surface)",
+    "βότσαλα": "βότσαλο — pebble"
+   }
+  },
+  {
+   "id": "l118-mon-iaponia-choris-glossa",
+   "title": "Ένας μήνας στην Ιαπωνία χωρίς να ξέρω τη γλώσσα",
+   "title_en": "A month in Japan without knowing the language",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε έναν νεαρό να διηγείται ένα ταξίδι του σε ένα ταξιδιωτικό podcast.",
+   "script": [
+    {
+     "speaker": "Ταξιδιώτης",
+     "voice": "m",
+     "el": "Πριν φύγω για την Ιαπωνία, είχα μάθει μόνο τρεις λέξεις: καλημέρα, ευχαριστώ και συγγνώμη. Αποδείχτηκε ότι η τρίτη ήταν η πιο χρήσιμη. Τις πρώτες μέρες χανόμουν συνέχεια στους σταθμούς του μετρό, που ήταν τεράστιοι σαν πόλεις.",
+     "en": "Before I left for Japan, I had learned only three words: good morning, thank you and sorry. The third turned out to be the most useful. In the first days I kept getting lost in the metro stations, which were as huge as cities."
+    },
+    {
+     "speaker": "Ταξιδιώτης",
+     "voice": "m",
+     "el": "Αυτό που με εντυπωσίασε περισσότερο ήταν η ησυχία. Στα τρένα κανείς δεν μιλούσε στο κινητό, και όταν εγώ γέλασα δυνατά με κάτι, ένιωσα δέκα βλέμματα πάνω μου. Από τότε μάθαινα παρατηρώντας τι έκαναν οι άλλοι.",
+     "en": "What impressed me most was the quiet. On the trains nobody spoke on their phone, and when I laughed loudly at something, I felt ten pairs of eyes on me. From then on I learned by watching what the others did."
+    },
+    {
+     "speaker": "Ταξιδιώτης",
+     "voice": "m",
+     "el": "Μια μέρα ξέχασα την ομπρέλα μου σε ένα καφέ. Γύρισα δύο ώρες αργότερα, χωρίς πολλές ελπίδες, και η σερβιτόρα μού την έδωσε τυλιγμένη σε σακούλα, με ένα χαμόγελο. Εκεί κατάλαβα ότι μπορείς να συνεννοηθείς με τους ανθρώπους και χωρίς κοινή γλώσσα.",
+     "en": "One day I left my umbrella in a café. I went back two hours later, without much hope, and the waitress handed it to me wrapped in a bag, with a smile. That's when I realised you can communicate with people even without a common language."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια λέξη αποδείχτηκε η πιο χρήσιμη;",
+     "options": [
+      "Το «αντίο»",
+      "Το «καλημέρα»",
+      "Το «ευχαριστώ»",
+      "Το «συγγνώμη»"
+     ],
+     "answer": "Το «συγγνώμη»",
+     "why": "Αποδείχτηκε ότι η τρίτη ήταν η πιο χρήσιμη"
+    },
+    {
+     "q": "Τι τον εντυπωσίασε περισσότερο;",
+     "options": [
+      "Το φαγητό",
+      "Τα ψηλά κτίρια",
+      "Οι τιμές",
+      "Η ησυχία"
+     ],
+     "answer": "Η ησυχία",
+     "why": "Αυτό που με εντυπωσίασε περισσότερο ήταν η ησυχία"
+    },
+    {
+     "q": "Τι έγινε με την ομπρέλα του;",
+     "options": [
+      "Αγόρασε καινούργια",
+      "Η σερβιτόρα τού την έδωσε τυλιγμένη σε σακούλα",
+      "Την έκλεψαν",
+      "Τη βρήκε στο μετρό"
+     ],
+     "answer": "Η σερβιτόρα τού την έδωσε τυλιγμένη σε σακούλα",
+     "why": "η σερβιτόρα μού την έδωσε τυλιγμένη σε σακούλα"
+    }
+   ],
+   "gloss": {
+    "Αποδείχτηκε": "αποδεικνύομαι — to turn out, prove to be",
+    "χρήσιμη": "χρήσιμος — useful",
+    "χανόμουν": "χάνομαι — to get lost",
+    "τεράστιοι": "τεράστιος — huge",
+    "εντυπωσίασε": "εντυπωσιάζω — to impress",
+    "ησυχία": "ησυχία — quiet, peace",
+    "βλέμματα": "βλέμμα — look, gaze",
+    "παρατηρώντας": "παρατηρώ — to observe, watch",
+    "τυλιγμένη": "τυλιγμένος — wrapped",
+    "συνεννοηθείς": "συνεννοούμαι — to communicate, make oneself understood"
+   }
+  },
+  {
+   "id": "l118-mon-chelonaki",
+   "title": "Η νύχτα που ένα χελωνάκι βρήκε τη θάλασσα",
+   "title_en": "The night a baby turtle found the sea",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε μια φοιτήτρια να μιλά για την εμπειρία της ως εθελόντρια σε ένα πρόγραμμα προστασίας της θαλάσσιας χελώνας.",
+   "script": [
+    {
+     "speaker": "Φοιτήτρια",
+     "voice": "f",
+     "el": "Το περασμένο καλοκαίρι πέρασα έναν μήνα ως εθελόντρια σε μια παραλία όπου γεννάει η θαλάσσια χελώνα καρέτα. Κάθε πρωί περπατούσαμε την ακτή πριν ξημερώσει, για να βρούμε τα ίχνη που αφήνουν οι χελώνες στην άμμο όταν βγαίνουν να γεννήσουν.",
+     "en": "Last summer I spent a month as a volunteer on a beach where the loggerhead sea turtle lays its eggs. Every morning we walked the shore before dawn, to find the tracks the turtles leave in the sand when they come out to lay."
+    },
+    {
+     "speaker": "Φοιτήτρια",
+     "voice": "f",
+     "el": "Όταν βρίσκαμε μια φωλιά, τη σημαδεύαμε και βάζαμε από πάνω ένα προστατευτικό πλέγμα. Ο μεγαλύτερος κίνδυνος για τα χελωνάκια είναι τα φώτα: όταν βγαίνουν από το αυγό, κινούνται προς το πιο φωτεινό σημείο, που κανονικά είναι η θάλασσα. Αν όμως υπάρχει ένα φωτισμένο μπαρ, πηγαίνουν προς τα εκεί.",
+     "en": "When we found a nest, we marked it and put a protective grid over it. The biggest danger for the hatchlings is lights: when they come out of the egg, they move towards the brightest point, which is normally the sea. But if there's a lit-up bar, they head that way."
+    },
+    {
+     "speaker": "Φοιτήτρια",
+     "voice": "f",
+     "el": "Μια νύχτα είδα ένα χελωνάκι που είχε πάρει λάθος δρόμο. Δεν επιτρέπεται να τα σηκώνουμε με τα χέρια, οπότε στάθηκα ανάμεσα σε αυτό και στα φώτα, για να του κρύψω τη λάμψη. Όταν επιτέλους το είδα να το παίρνει το πρώτο κύμα, έκλαψα σαν μικρό παιδί.",
+     "en": "One night I saw a hatchling that had taken the wrong way. We're not allowed to pick them up by hand, so I stood between it and the lights, to hide the glare from it. When I finally saw the first wave take it, I cried like a little child."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί περπατούσαν την ακτή κάθε πρωί πριν ξημερώσει;",
+     "options": [
+      "Για να βρουν τα ίχνη των χελωνών στην άμμο",
+      "Για να μαζέψουν σκουπίδια",
+      "Για να μετρήσουν τους λουόμενους",
+      "Για να ταΐσουν τις χελώνες"
+     ],
+     "answer": "Για να βρουν τα ίχνη των χελωνών στην άμμο",
+     "why": "για να βρούμε τα ίχνη που αφήνουν οι χελώνες στην άμμο"
+    },
+    {
+     "q": "Ποιος είναι ο μεγαλύτερος κίνδυνος για τα χελωνάκια, σύμφωνα με τη φοιτήτρια;",
+     "options": [
+      "Οι ομπρέλες της παραλίας",
+      "Τα φώτα",
+      "Οι γλάροι",
+      "Τα κύματα"
+     ],
+     "answer": "Τα φώτα",
+     "why": "Ο μεγαλύτερος κίνδυνος για τα χελωνάκια είναι τα φώτα"
+    },
+    {
+     "q": "Τι έκανε όταν είδε ένα χελωνάκι να παίρνει λάθος δρόμο;",
+     "options": [
+      "Έσβησε τα φώτα του μπαρ",
+      "Φώναξε τον υπεύθυνο",
+      "Στάθηκε ανάμεσα σε αυτό και στα φώτα",
+      "Το σήκωσε και το πήγε στη θάλασσα"
+     ],
+     "answer": "Στάθηκε ανάμεσα σε αυτό και στα φώτα",
+     "why": "στάθηκα ανάμεσα σε αυτό και στα φώτα"
+    }
+   ],
+   "gloss": {
+    "εθελόντρια": "εθελόντρια — volunteer (female)",
+    "γεννάει": "γεννάω — to lay (eggs); to give birth",
+    "καρέτα": "καρέτα — loggerhead turtle",
+    "ξημερώσει": "ξημερώνει — dawn breaks",
+    "ίχνη": "ίχνος — track, trace",
+    "φωλιά": "φωλιά — nest",
+    "πλέγμα": "πλέγμα — grid, mesh",
+    "χελωνάκια": "χελωνάκι — baby turtle, hatchling",
+    "λάμψη": "λάμψη — glare, glow",
+    "κύμα": "κύμα — wave"
+   }
+  },
+  {
+   "id": "l118-c1-cheironomies",
+   "title": "Γιατί χειρονομούμε όταν μιλάμε;",
+   "title_en": "Why do we gesture when we speak?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε μια γλωσσολόγο σε μια διάλεξη για την επικοινωνία.",
+   "script": [
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "f",
+     "el": "Παρατηρήστε κάποιον που μιλά στο τηλέφωνο: κουνά τα χέρια του, παρόλο που ο συνομιλητής του δεν μπορεί να τον δει. Αν οι χειρονομίες υπήρχαν μόνο για τους άλλους, αυτό δεν θα είχε κανένα νόημα. Το γεγονός ότι το κάνουμε ούτως ή άλλως δείχνει ότι χειρονομούμε, σε μεγάλο βαθμό, και για τον εαυτό μας.",
+     "en": "Watch someone talking on the phone: they move their hands, even though the person they're talking to can't see them. If gestures existed only for others, that would make no sense. The fact that we do it anyway shows that we gesture, to a large extent, for ourselves too."
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "f",
+     "el": "Ακόμη πιο εντυπωσιακό είναι ότι άνθρωποι τυφλοί από τη γέννησή τους χειρονομούν όταν μιλούν, ακόμη και σε άλλους τυφλούς. Δεν έχουν δει ποτέ κανέναν να χειρονομεί. Αυτό υποδηλώνει ότι η κίνηση των χεριών είναι στενά δεμένη με την ίδια τη σκέψη και την ομιλία.",
+     "en": "Even more striking is that people blind from birth gesture when they speak, even to other blind people. They have never seen anyone gesture. This suggests that hand movement is closely tied to thought and speech themselves."
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "f",
+     "el": "Σε ορισμένα πειράματα, όταν οι συμμετέχοντες δεν μπορούσαν να κουνήσουν τα χέρια τους, φάνηκε να δυσκολεύονται περισσότερο να βρουν τις λέξεις, κυρίως όταν περιέγραφαν χώρους και κινήσεις. Τα αποτελέσματα δεν είναι πάντα ομόφωνα, αλλά η τάση είναι σαφής.",
+     "en": "In some experiments, when participants couldn't move their hands, they seemed to have more trouble finding words, especially when describing spaces and movements. The results are not always unanimous, but the trend is clear."
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "f",
+     "el": "Βέβαια, οι χειρονομίες έχουν και πολιτισμικές διαστάσεις. Η ίδια κίνηση μπορεί να είναι αθώα σε μια χώρα και βαριά προσβολή σε μια άλλη. Γι’ αυτό, όταν μαθαίνουμε μια ξένη γλώσσα, αξίζει να μαθαίνουμε και τα χέρια της.",
+     "en": "Of course, gestures also have cultural dimensions. The same movement can be innocent in one country and a grave insult in another. That's why, when we learn a foreign language, it's worth learning its hands too."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι δείχνει, κατά την ομιλήτρια, το ότι χειρονομούμε στο τηλέφωνο;",
+     "options": [
+      "Ότι θέλουμε να μας δουν",
+      "Ότι μιλάμε πιο δυνατά",
+      "Ότι είμαστε αγχωμένοι",
+      "Ότι χειρονομούμε σε μεγάλο βαθμό και για τον εαυτό μας"
+     ],
+     "answer": "Ότι χειρονομούμε σε μεγάλο βαθμό και για τον εαυτό μας",
+     "why": "χειρονομούμε, σε μεγάλο βαθμό, και για τον εαυτό μας"
+    },
+    {
+     "q": "Τι υποδηλώνει το παράδειγμα των ανθρώπων που είναι τυφλοί από τη γέννησή τους;",
+     "options": [
+      "Ότι οι χειρονομίες μαθαίνονται μόνο με την παρατήρηση",
+      "Ότι οι χειρονομίες είναι ίδιες σε όλο τον κόσμο",
+      "Ότι η κίνηση των χεριών είναι στενά δεμένη με τη σκέψη και την ομιλία",
+      "Ότι οι τυφλοί χειρονομούν λιγότερο"
+     ],
+     "answer": "Ότι η κίνηση των χεριών είναι στενά δεμένη με τη σκέψη και την ομιλία",
+     "why": "η κίνηση των χεριών είναι στενά δεμένη με την ίδια τη σκέψη και την ομιλία"
+    },
+    {
+     "q": "Τι συνέβαινε σε ορισμένα πειράματα όταν οι συμμετέχοντες δεν μπορούσαν να κουνήσουν τα χέρια τους;",
+     "options": [
+      "Μιλούσαν πιο γρήγορα",
+      "Δεν άλλαζε τίποτα",
+      "Φαίνονταν να δυσκολεύονται περισσότερο να βρουν τις λέξεις",
+      "Ξεχνούσαν την ερώτηση"
+     ],
+     "answer": "Φαίνονταν να δυσκολεύονται περισσότερο να βρουν τις λέξεις",
+     "why": "φάνηκε να δυσκολεύονται περισσότερο να βρουν τις λέξεις"
+    },
+    {
+     "q": "Τι συμβουλεύει η ομιλήτρια όσους μαθαίνουν μια ξένη γλώσσα;",
+     "options": [
+      "Να αποφεύγουν τις χώρες με διαφορετικές χειρονομίες",
+      "Να μαθαίνουν και τις χειρονομίες της",
+      "Να μη χειρονομούν καθόλου",
+      "Να μιλούν μόνο στο τηλέφωνο"
+     ],
+     "answer": "Να μαθαίνουν και τις χειρονομίες της",
+     "why": "αξίζει να μαθαίνουμε και τα χέρια της"
+    }
+   ],
+   "gloss": {
+    "χειρονομούμε": "χειρονομώ — to gesture",
+    "συνομιλητής": "συνομιλητής — interlocutor, the person one is talking to",
+    "χειρονομίες": "χειρονομία — gesture",
+    "ούτως ή άλλως": "ούτως ή άλλως — anyway, in any case",
+    "εντυπωσιακό": "εντυπωσιακός — striking, impressive",
+    "τυφλοί": "τυφλός — blind",
+    "υποδηλώνει": "υποδηλώνω — to suggest, indicate",
+    "ομόφωνα": "ομόφωνος — unanimous",
+    "τάση": "τάση — trend, tendency",
+    "πολιτισμικές": "πολιτισμικός — cultural",
+    "προσβολή": "προσβολή — insult"
+   }
+  },
+  {
+   "id": "l118-c1-trapezounta",
+   "title": "Η αυτοκρατορία της Τραπεζούντας",
+   "title_en": "The Empire of Trebizond",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε μια συνέντευξη με μια βυζαντινολόγο σε εκπομπή για τον μεσαιωνικό ελληνισμό.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Όταν λέμε «τέλος του Βυζαντίου», σκεφτόμαστε το 1453. Εσείς όμως υποστηρίζετε ότι η ιστορία δεν τελειώνει εκεί.",
+     "en": "When we say \"the end of Byzantium\", we think of 1453. But you argue that the story doesn't end there."
+    },
+    {
+     "speaker": "Βυζαντινολόγος",
+     "voice": "f",
+     "el": "Πράγματι. Το 1204, όταν οι σταυροφόροι κατέλαβαν την Κωνσταντινούπολη, η αυτοκρατορία διασπάστηκε σε μικρότερα κράτη. Ένα από αυτά ιδρύθηκε στην Τραπεζούντα, στις νότιες ακτές του Εύξεινου Πόντου, από δύο εγγονούς του αυτοκράτορα Ανδρόνικου Α΄ Κομνηνού, τον Αλέξιο και τον Δαβίδ. Τους βοήθησε η βασίλισσα Θάμαρ της Γεωργίας, με την οποία είχαν συγγένεια.",
+     "en": "Indeed. In 1204, when the Crusaders captured Constantinople, the empire broke up into smaller states. One of them was founded at Trebizond, on the southern shores of the Black Sea, by two grandsons of the emperor Andronikos I Komnenos, Alexios and David. They were helped by Queen Tamar of Georgia, to whom they were related."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και πώς κατάφερε να επιβιώσει τόσο καιρό ένα τόσο μικρό κράτος;",
+     "en": "And how did such a small state manage to survive for so long?"
+    },
+    {
+     "speaker": "Βυζαντινολόγος",
+     "voice": "f",
+     "el": "Κυρίως με την οικονομία και τη διπλωματία. Η Τραπεζούντα βρισκόταν στο τέρμα εμπορικών δρόμων από την Περσία και την Κεντρική Ασία, και οι Γενουάτες και οι Βενετοί είχαν εκεί εμπορικούς σταθμούς. Οι αυτοκράτορές της, εξάλλου, πάντρευαν τις κόρες τους, που ήταν φημισμένες για την ομορφιά τους, με γειτονικούς ηγεμόνες, εξασφαλίζοντας έτσι συμμαχίες.",
+     "en": "Mainly through trade and diplomacy. Trebizond lay at the end of trade routes from Persia and Central Asia, and the Genoese and the Venetians had trading posts there. Its emperors, moreover, married their daughters, who were famed for their beauty, to neighbouring rulers, thus securing alliances."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πότε έπεσε τελικά;",
+     "en": "When did it finally fall?"
+    },
+    {
+     "speaker": "Βυζαντινολόγος",
+     "voice": "f",
+     "el": "Το 1461, οκτώ χρόνια μετά την Κωνσταντινούπολη, όταν ο Μωάμεθ ο Πορθητής την κατέλαβε χωρίς μάχη. Ο ελληνισμός του Πόντου όμως επέζησε για αιώνες. Χαρακτηριστικό είναι το μοναστήρι της Παναγίας Σουμελά, κοντά στην Τραπεζούντα. Μετά την ανταλλαγή των πληθυσμών του 1923, οι πρόσφυγες ίδρυσαν μια νέα Παναγία Σουμελά στο Βέρμιο, στη Μακεδονία, όπου φυλάσσεται σήμερα η εικόνα της. Η μνήμη, όπως βλέπετε, μπορεί να ταξιδέψει μαζί με τους ανθρώπους.",
+     "en": "In 1461, eight years after Constantinople, when Mehmed the Conqueror took it without a battle. But the Hellenism of Pontus survived for centuries. A telling example is the monastery of Panagia Soumela, near Trebizond. After the population exchange of 1923, the refugees founded a new Panagia Soumela on Mount Vermio, in Macedonia, where its icon is kept today. Memory, as you see, can travel with people."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιοι ίδρυσαν το κράτος της Τραπεζούντας;",
+     "options": [
+      "Δύο εγγονοί του αυτοκράτορα Ανδρόνικου Α΄ Κομνηνού",
+      "Η βασίλισσα Θάμαρ",
+      "Οι σταυροφόροι",
+      "Έμποροι από τη Γένουα"
+     ],
+     "answer": "Δύο εγγονοί του αυτοκράτορα Ανδρόνικου Α΄ Κομνηνού",
+     "why": "από δύο εγγονούς του αυτοκράτορα Ανδρόνικου Α΄ Κομνηνού"
+    },
+    {
+     "q": "Πώς επιβίωσε τόσο καιρό, σύμφωνα με τη βυζαντινολόγο;",
+     "options": [
+      "Κυρίως με την οικονομία και τη διπλωματία",
+      "Χάρη στη βοήθεια του Πάπα",
+      "Χάρη στον ισχυρό στρατό του",
+      "Χάρη στα ψηλά τείχη"
+     ],
+     "answer": "Κυρίως με την οικονομία και τη διπλωματία",
+     "why": "Κυρίως με την οικονομία και τη διπλωματία"
+    },
+    {
+     "q": "Πώς έπεσε η Τραπεζούντα το 1461;",
+     "options": [
+      "Μετά από πολιορκία δέκα χρόνων",
+      "Από σεισμό",
+      "Ο Μωάμεθ ο Πορθητής την κατέλαβε χωρίς μάχη",
+      "Την πούλησαν στους Βενετούς"
+     ],
+     "answer": "Ο Μωάμεθ ο Πορθητής την κατέλαβε χωρίς μάχη",
+     "why": "ο Μωάμεθ ο Πορθητής την κατέλαβε χωρίς μάχη"
+    },
+    {
+     "q": "Τι δείχνει, κατά την ομιλήτρια, η ιστορία της Παναγίας Σουμελά;",
+     "options": [
+      "Ότι το μοναστήρι χτίστηκε πρώτα στη Μακεδονία",
+      "Ότι η εικόνα χάθηκε το 1923",
+      "Ότι τα μοναστήρια είναι πάντα πλούσια",
+      "Ότι η μνήμη μπορεί να ταξιδέψει μαζί με τους ανθρώπους"
+     ],
+     "answer": "Ότι η μνήμη μπορεί να ταξιδέψει μαζί με τους ανθρώπους",
+     "why": "Η μνήμη, όπως βλέπετε, μπορεί να ταξιδέψει μαζί με τους ανθρώπους"
+    }
+   ],
+   "gloss": {
+    "σταυροφόροι": "σταυροφόρος — crusader",
+    "κατέλαβαν": "καταλαμβάνω — to capture, seize",
+    "διασπάστηκε": "διασπώμαι — to break up, split",
+    "Εύξεινου Πόντου": "Εύξεινος Πόντος — the Black Sea",
+    "εγγονούς": "εγγονός — grandson",
+    "συγγένεια": "συγγένεια — kinship",
+    "επιβιώσει": "επιβιώνω — to survive",
+    "τέρμα": "τέρμα — end, terminus",
+    "Γενουάτες": "Γενουάτης — Genoese",
+    "ηγεμόνες": "ηγεμόνας — ruler",
+    "Πορθητής": "πορθητής — conqueror",
+    "ανταλλαγή των πληθυσμών": "ανταλλαγή των πληθυσμών — the population exchange (1923)"
+   }
+  }
+ ]
+}
