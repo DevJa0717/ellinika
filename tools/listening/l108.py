@@ -1,0 +1,192 @@
+# Source for library/listening/listening-108.json: ten more B2–C1 listening items (script + questions + gloss).
+# Build: python3 tools/listening/l108.py
+import json, os, random
+
+def L(sp, v, el, en): return {"speaker": sp, "voice": v, "el": el, "en": en}
+def Q(q, opts, ans, why): return {"q": q, "options": opts, "answer": opts[ans], "why": why}
+
+ITEMS = []
+
+ITEMS.append({
+ "id": "l108-ann-ergasies-gefyra", "title": "Εργασίες στη γέφυρα του ποταμού", "title_en": "Works on the river bridge", "type": "announcement", "level": "B2",
+ "context_el": "Ακούτε μια ανακοίνωση της περιφέρειας στο τοπικό ραδιόφωνο.",
+ "script": [
+  L("Εκφωνήτρια", "f", "Η περιφέρεια ενημερώνει τους οδηγούς ότι από την ερχόμενη Δευτέρα ξεκινούν εργασίες συντήρησης στη γέφυρα του ποταμού, στην είσοδο της πόλης. Οι εργασίες θα διαρκέσουν περίπου έξι εβδομάδες.", "The regional authority informs drivers that from next Monday maintenance works begin on the river bridge at the entrance to the town. The works will last about six weeks."),
+  L("Εκφωνήτρια", "f", "Σε όλη τη διάρκεια των εργασιών θα είναι ανοιχτή μόνο μία λωρίδα, και η κυκλοφορία θα ρυθμίζεται με φανάρια, εναλλάξ για κάθε κατεύθυνση. Τα φορτηγά άνω των δώδεκα τόνων δεν θα μπορούν να περάσουν και θα ακολουθούν την παράκαμψη μέσω της παλιάς εθνικής οδού.", "Throughout the works only one lane will be open, and traffic will be controlled by traffic lights, alternately for each direction. Lorries over twelve tonnes will not be able to cross and will follow the diversion via the old national road."),
+  L("Εκφωνήτρια", "f", "Οι πεζοί και οι ποδηλάτες θα μπορούν να χρησιμοποιούν κανονικά το πεζοδρόμιο της γέφυρας. Επειδή αναμένονται καθυστερήσεις, ιδίως τις πρωινές ώρες από τις επτά ως τις εννιά, οι οδηγοί καλούνται να ξεκινούν νωρίτερα ή να προτιμούν τη δυτική είσοδο της πόλης.", "Pedestrians and cyclists will be able to use the bridge pavement as normal. Because delays are expected, especially in the morning hours from seven to nine, drivers are asked to set off earlier or to prefer the western entrance to the town."),
+ ],
+ "questions": [
+  Q("Πώς θα ρυθμίζεται η κυκλοφορία;", ["Με τροχονόμους", "Με φανάρια, εναλλάξ για κάθε κατεύθυνση", "Μόνο τις νυχτερινές ώρες", "Με εισιτήριο"], 1, "η κυκλοφορία θα ρυθμίζεται με φανάρια, εναλλάξ για κάθε κατεύθυνση"),
+  Q("Τι θα κάνουν τα φορτηγά άνω των δώδεκα τόνων;", ["Θα περνούν μόνο τη νύχτα", "Θα πληρώνουν διόδια", "Θα ακολουθούν την παράκαμψη μέσω της παλιάς εθνικής οδού", "Θα περιμένουν στην είσοδο της πόλης"], 2, "θα ακολουθούν την παράκαμψη μέσω της παλιάς εθνικής οδού"),
+  Q("Τι συνιστάται στους οδηγούς;", ["Να ξεκινούν νωρίτερα ή να προτιμούν τη δυτική είσοδο της πόλης", "Να αφήνουν το αυτοκίνητο και να περπατούν", "Να μην κυκλοφορούν καθόλου το πρωί", "Να χρησιμοποιούν το πεζοδρόμιο"], 0, "να ξεκινούν νωρίτερα ή να προτιμούν τη δυτική είσοδο της πόλης"),
+ ],
+ "gloss": {"συντήρησης": "συντήρηση — maintenance", "λωρίδα": "λωρίδα — lane", "εναλλάξ": "εναλλάξ — alternately", "κατεύθυνση": "κατεύθυνση — direction", "παράκαμψη": "παράκαμψη — diversion, detour", "αναμένονται": "αναμένομαι — to be expected"}
+})
+
+ITEMS.append({
+ "id": "l108-vm-lachanokipos", "title": "Μήνυμα για το κομμάτι σας στον λαχανόκηπο", "title_en": "A message about your plot in the vegetable garden", "type": "voicemail", "level": "B2",
+ "context_el": "Έχετε ένα κομμάτι γης στον δημοτικό λαχανόκηπο. Ακούτε ένα μήνυμα από τον υπεύθυνο στον τηλεφωνητή.",
+ "script": [
+  L("Υπεύθυνος", "m", "Καλημέρα, κυρία Ξανθοπούλου, ο Σπύρος είμαι, από τον δημοτικό λαχανόκηπο. Σας παίρνω γιατί το κομμάτι σας, το νούμερο δεκαεπτά, δεν έχει ποτιστεί εδώ και καμιά δεκαριά μέρες και οι ντομάτες έχουν αρχίσει να ξεραίνονται.", "Good morning, Mrs Xanthopoulou, it's Spyros from the municipal vegetable garden. I'm calling because your plot, number seventeen, hasn't been watered for about ten days and the tomatoes have started to dry out."),
+  L("Υπεύθυνος", "m", "Καταλαβαίνω ότι μπορεί να λείπετε σε διακοπές. Αν θέλετε, ο κύριος Μανώλης, που έχει το διπλανό κομμάτι, προσφέρθηκε να τις ποτίζει μέχρι να γυρίσετε. Χρειάζεται μόνο να μου πείτε ότι συμφωνείτε.", "I understand you may be away on holiday. If you like, Mr Manolis, who has the plot next to yours, has offered to water them until you're back. I just need you to tell me that you agree."),
+  L("Υπεύθυνος", "m", "Να σας θυμίσω επίσης ότι σύμφωνα με τον κανονισμό, αν ένα κομμάτι μείνει αφρόντιστο για έναν ολόκληρο μήνα, δίνεται στον επόμενο της λίστας αναμονής. Δεν θέλουμε να φτάσουμε εκεί, γιατί ο κήπος σας ήταν από τους ωραιότερους. Στείλτε μου ένα μήνυμα όποτε μπορείτε.", "I should also remind you that, according to the rules, if a plot is left untended for a whole month, it goes to the next person on the waiting list. We don't want it to come to that, because your garden was one of the nicest. Send me a message whenever you can."),
+ ],
+ "questions": [
+  Q("Ποιο είναι το πρόβλημα;", ["Κάποιος έκλεψε τις ντομάτες", "Το κομμάτι δεν έχει ποτιστεί εδώ και καμιά δεκαριά μέρες", "Χάλασε το σύστημα ποτίσματος", "Ο κήπος θα κλείσει"], 1, "δεν έχει ποτιστεί εδώ και καμιά δεκαριά μέρες"),
+  Q("Τι προσφέρθηκε να κάνει ο κύριος Μανώλης;", ["Να αγοράσει το κομμάτι", "Να φυτέψει καινούργιες ντομάτες", "Να ποτίζει τις ντομάτες μέχρι να γυρίσει", "Να μαζέψει τις ντομάτες για τον εαυτό του"], 2, "προσφέρθηκε να τις ποτίζει μέχρι να γυρίσετε"),
+  Q("Τι λέει ο κανονισμός;", ["Ένα κομμάτι αφρόντιστο για έναν μήνα δίνεται στον επόμενο της λίστας αναμονής", "Κάθε κομμάτι πρέπει να ποτίζεται καθημερινά", "Απαγορεύεται να βοηθούν οι γείτονες", "Οι κάτοχοι πληρώνουν πρόστιμο"], 0, "αν ένα κομμάτι μείνει αφρόντιστο για έναν ολόκληρο μήνα, δίνεται στον επόμενο της λίστας αναμονής"),
+ ],
+ "gloss": {"λαχανόκηπο": "λαχανόκηπος — vegetable garden", "ποτιστεί": "ποτίζω — to water", "ξεραίνονται": "ξεραίνομαι — to dry out, wither", "προσφέρθηκε": "προσφέρομαι — to offer (to do something)", "κανονισμό": "κανονισμός — rules, regulations", "αφρόντιστο": "αφρόντιστος — untended, neglected"}
+})
+
+ITEMS.append({
+ "id": "l108-dia-koutavi", "title": "Θα πάρουμε κουτάβι;", "title_en": "Shall we get a puppy?", "type": "dialogue", "level": "B2",
+ "context_el": "Ένα ζευγάρι συζητά αν θα πάρει σκύλο.",
+ "script": [
+  L("Χαρά", "f", "Τα παιδιά δεν μιλάνε για τίποτε άλλο. Η γειτόνισσα δίνει τα κουτάβια της σκυλίτσας της και μας κρατάει ένα, αν το θέλουμε.", "The kids talk about nothing else. The neighbour is giving away her dog's puppies and is keeping one for us, if we want it."),
+  L("Μιχάλης", "m", "Το ξέρω, αλλά ποιος θα το βγάζει βόλτα; Τα παιδιά θα ενθουσιαστούν για δύο εβδομάδες και μετά θα το βγάζουμε εμείς, πρωί και βράδυ, με βροχή και κρύο.", "I know, but who's going to walk it? The kids will be thrilled for two weeks and then it'll be us taking it out, morning and evening, in rain and cold."),
+  L("Χαρά", "f", "Μπορούμε να κάνουμε πρόγραμμα. Η Ελένη είναι δώδεκα, μπορεί να το βγάζει το απόγευμα μετά το σχολείο. Το πρωί το βγάζω εγώ, πριν από τη δουλειά.", "We can make a schedule. Eleni is twelve, she can walk it in the afternoon after school. In the morning I'll take it out, before work."),
+  L("Μιχάλης", "m", "Και το καλοκαίρι; Κάθε Αύγουστο πάμε στο νησί με το πλοίο. Και το διαμέρισμα είναι μικρό, δεν έχουμε ούτε αυλή.", "And the summer? Every August we go to the island by boat. And the flat is small, we don't even have a yard."),
+  L("Χαρά", "f", "Τα κουτάβια αυτά δεν θα γίνουν μεγάλα, η μητέρα τους είναι μικρόσωμη. Και στο πλοίο υπάρχουν καμπίνες για κατοικίδια. Το έψαξα.", "These puppies won't get big, their mother is small. And on the boat there are cabins for pets. I looked it up."),
+  L("Μιχάλης", "m", "Βλέπω ότι τα έχεις σκεφτεί όλα. Εντάξει, αλλά με έναν όρο: πρώτα θα πάμε όλοι μαζί να το γνωρίσουμε, και θα αποφασίσουμε εκεί.", "I see you've thought of everything. OK, but on one condition: first we'll all go together to meet it, and we'll decide there."),
+ ],
+ "questions": [
+  Q("Τι ανησυχεί τον Μιχάλη στην αρχή;", ["Το κόστος του κτηνιάτρου", "Ότι στο τέλος θα βγάζουν εκείνοι τον σκύλο βόλτα", "Ότι η Ελένη φοβάται τους σκύλους", "Ότι οι γείτονες θα παραπονεθούν"], 1, "μετά θα το βγάζουμε εμείς, πρωί και βράδυ, με βροχή και κρύο"),
+  Q("Γιατί, σύμφωνα με τη Χαρά, το μικρό διαμέρισμα δεν είναι πρόβλημα;", ["Γιατί θα μετακομίσουν", "Γιατί ο σκύλος θα μένει στο μπαλκόνι", "Γιατί τα κουτάβια δεν θα γίνουν μεγάλα", "Γιατί θα το προσέχει η γειτόνισσα"], 2, "Τα κουτάβια αυτά δεν θα γίνουν μεγάλα"),
+  Q("Ποιον όρο βάζει τελικά ο Μιχάλης;", ["Να πάνε πρώτα όλοι μαζί να γνωρίσουν το κουτάβι", "Να το βγάζουν μόνο τα παιδιά", "Να μην έρθει στο νησί", "Να περιμένουν μέχρι το καλοκαίρι"], 0, "πρώτα θα πάμε όλοι μαζί να το γνωρίσουμε"),
+ ],
+ "gloss": {"κουτάβια": "κουτάβι — puppy", "ενθουσιαστούν": "ενθουσιάζομαι — to get excited, be thrilled", "μικρόσωμη": "μικρόσωμος — small (in body size)", "καμπίνες": "καμπίνα — cabin", "κατοικίδια": "κατοικίδιο — pet", "όρο": "όρος — condition, term"}
+})
+
+ITEMS.append({
+ "id": "l108-int-farofylakas", "title": "Ένας φαροφύλακας", "title_en": "A lighthouse keeper", "type": "interview", "level": "B2",
+ "context_el": "Ακούτε μια συνέντευξη με έναν φαροφύλακα σε μια εκπομπή για ασυνήθιστα επαγγέλματα.",
+ "script": [
+  L("Δημοσιογράφος", "f", "Κύριε Λιβανέ, οι περισσότεροι φάροι σήμερα λειτουργούν αυτόματα. Τι κάνει λοιπόν ένας φαροφύλακας;", "Mr Livanos, most lighthouses today work automatically. So what does a lighthouse keeper do?"),
+  L("Φαροφύλακας", "m", "Πολλοί το ρωτούν. Ο φάρος ανάβει μόνος του, αλλά κάποιος πρέπει να τον συντηρεί. Καθαρίζω τα τζάμια από το αλάτι, ελέγχω τις μπαταρίες και τα ηλιακά πάνελ, και αν κάτι χαλάσει, πρέπει να το φτιάξω αμέσως, γιατί τα πλοία βασίζονται στο φως του.", "Many people ask that. The lighthouse switches on by itself, but someone has to maintain it. I clean the salt off the glass, check the batteries and the solar panels, and if something breaks I have to fix it immediately, because ships rely on its light."),
+  L("Δημοσιογράφος", "f", "Πώς είναι η ζωή σε ένα ακρωτήρι μακριά από όλους;", "What is life like on a cape far from everyone?"),
+  L("Φαροφύλακας", "m", "Ήσυχη, αλλά όχι βαρετή. Το χωριό απέχει δώδεκα χιλιόμετρα χωματόδρομο, οπότε κατεβαίνω μία φορά την εβδομάδα για ψώνια. Διαβάζω πολύ και έχω μάθει να αναγνωρίζω τα πουλιά που περνούν την άνοιξη.", "Quiet, but not boring. The village is twelve kilometres of dirt road away, so I go down once a week for shopping. I read a lot and I've learned to recognise the birds that pass through in spring."),
+  L("Δημοσιογράφος", "f", "Ποια ήταν η πιο δύσκολη στιγμή σας;", "What was your hardest moment?"),
+  L("Φαροφύλακας", "m", "Μια χειμωνιάτικη νύχτα, με μποφόρ εννιά, χάλασε η γεννήτρια. Ανέβηκα τη σκάλα με έναν φακό και δούλευα δύο ώρες μέσα στον αέρα. Όταν ο φάρος άναψε ξανά, είδα στο βάθος τα φώτα ενός φορτηγού πλοίου. Τότε κατάλαβα γιατί κάνω αυτή τη δουλειά.", "One winter night, in a force nine wind, the generator broke down. I climbed the stairs with a torch and worked for two hours in the wind. When the lighthouse came back on, I saw in the distance the lights of a cargo ship. That's when I understood why I do this job."),
+ ],
+ "questions": [
+  Q("Ποια είναι η δουλειά του σήμερα;", ["Να ανάβει τον φάρο κάθε βράδυ", "Να συντηρεί τον φάρο και να τον επισκευάζει αμέσως αν κάτι χαλάσει", "Να ξεναγεί τους τουρίστες", "Να καταγράφει τον καιρό"], 1, "κάποιος πρέπει να τον συντηρεί"),
+  Q("Πόσο συχνά κατεβαίνει στο χωριό;", ["Κάθε μέρα", "Μία φορά τον μήνα", "Μόνο το καλοκαίρι", "Μία φορά την εβδομάδα"], 3, "κατεβαίνω μία φορά την εβδομάδα για ψώνια"),
+  Q("Τι έγινε τη νύχτα με τα μποφόρ εννιά;", ["Χάλασε η γεννήτρια και τη διόρθωσε μέσα στον αέρα", "Ένα πλοίο βούλιαξε κοντά στον φάρο", "Έσπασαν τα τζάμια του φάρου", "Χάθηκε στον χωματόδρομο"], 0, "χάλασε η γεννήτρια"),
+ ],
+ "gloss": {"φαροφύλακας": "φαροφύλακας — lighthouse keeper", "συντηρεί": "συντηρώ — to maintain", "βασίζονται": "βασίζομαι — to rely on", "ακρωτήρι": "ακρωτήρι — cape, headland", "χωματόδρομο": "χωματόδρομος — dirt road", "μποφόρ": "μποφόρ — Beaufort (wind force)", "γεννήτρια": "γεννήτρια — generator"}
+})
+
+ITEMS.append({
+ "id": "l108-rep-energeiaki-koinotita", "title": "Μια ενεργειακή κοινότητα στο χωριό", "title_en": "An energy community in the village", "type": "report", "level": "B2",
+ "context_el": "Ακούτε ένα ρεπορτάζ σε μια εκπομπή για το περιβάλλον.",
+ "script": [
+  L("Ρεπόρτερ", "m", "Στις στέγες του σχολείου, του κοινοτικού γραφείου και της αποθήκης του συνεταιρισμού ενός χωριού της Θεσσαλίας, γυαλίζουν εκατοντάδες ηλιακά πάνελ. Ανήκουν σε μια ενεργειακή κοινότητα, που ίδρυσαν πριν από τρία χρόνια ογδόντα κάτοικοι.", "On the roofs of the school, the community office and the cooperative's warehouse in a village in Thessaly, hundreds of solar panels gleam. They belong to an energy community founded three years ago by eighty residents."),
+  L("Πρόεδρος", "f", "Ο καθένας έβαλε ένα ποσό ανάλογα με τις δυνατότητές του, και πήραμε κι ένα μικρό δάνειο. Το ρεύμα που παράγουμε συμψηφίζεται με την κατανάλωση των μελών. Οι λογαριασμοί μας έχουν μειωθεί κατά μέσο όρο περίπου στο μισό.", "Each person put in an amount according to their means, and we also took out a small loan. The electricity we produce is offset against the members' consumption. Our bills have dropped on average to about half."),
+  L("Ρεπόρτερ", "m", "Η κοινότητα αποφάσισε επίσης να καλύπτει δωρεάν το ρεύμα πέντε οικογενειών με χαμηλά εισοδήματα. Το επόμενο σχέδιο είναι ένα ηλεκτρικό μικρό λεωφορείο, που θα μεταφέρει τους ηλικιωμένους στο κέντρο υγείας της γειτονικής κωμόπολης.", "The community also decided to cover the electricity of five low-income families free of charge. The next plan is a small electric bus that will take older people to the health centre in the neighbouring town."),
+ ],
+ "questions": [
+  Q("Πού έχουν τοποθετηθεί τα πάνελ;", ["Σε ένα χωράφι έξω από το χωριό", "Στις στέγες του σχολείου, του κοινοτικού γραφείου και της αποθήκης του συνεταιρισμού", "Στα σπίτια όλων των κατοίκων", "Στο βουνό πάνω από το χωριό"], 1, "Στις στέγες του σχολείου, του κοινοτικού γραφείου και της αποθήκης του συνεταιρισμού"),
+  Q("Τι έχει γίνει με τους λογαριασμούς των μελών;", ["Έχουν μειωθεί κατά μέσο όρο περίπου στο μισό", "Έχουν καταργηθεί εντελώς", "Έχουν αυξηθεί λόγω του δανείου", "Δεν έχουν αλλάξει ακόμα"], 0, "Οι λογαριασμοί μας έχουν μειωθεί κατά μέσο όρο περίπου στο μισό"),
+  Q("Ποιο είναι το επόμενο σχέδιο;", ["Ένα δεύτερο σχολείο", "Μια ανεμογεννήτρια", "Ένα ηλεκτρικό μικρό λεωφορείο για τους ηλικιωμένους", "Ένα κατάστημα του συνεταιρισμού"], 2, "ένα ηλεκτρικό μικρό λεωφορείο"),
+ ],
+ "gloss": {"συνεταιρισμού": "συνεταιρισμός — cooperative", "ενεργειακή": "ενεργειακός — energy (adj.)", "δυνατότητές": "δυνατότητες — means, capabilities", "συμψηφίζεται": "συμψηφίζομαι — to be offset", "κατανάλωση": "κατανάλωση — consumption", "εισοδήματα": "εισόδημα — income", "κωμόπολης": "κωμόπολη — small town"}
+})
+
+ITEMS.append({
+ "id": "l108-rep-theatro-fylakes", "title": "Θεατρικό εργαστήρι στις φυλακές", "title_en": "A theatre workshop in prison", "type": "report", "level": "B2",
+ "context_el": "Ακούτε ένα ρεπορτάζ σε μια πολιτιστική εκπομπή.",
+ "script": [
+  L("Ρεπόρτερ", "f", "Κάθε Τρίτη και Πέμπτη, δεκαπέντε κρατούμενοι μιας φυλακής της Βόρειας Ελλάδας συναντιούνται σε μια αίθουσα που άλλοτε ήταν αποθήκη. Εκεί, με τη βοήθεια μιας σκηνοθέτιδας και δύο ηθοποιών, προβάρουν ένα έργο που έγραψαν οι ίδιοι.", "Every Tuesday and Thursday, fifteen inmates of a prison in northern Greece meet in a room that was once a storeroom. There, with the help of a director and two actors, they rehearse a play they wrote themselves."),
+  L("Σκηνοθέτιδα", "f", "Στην αρχή ήταν πολύ καχύποπτοι. Κανείς δεν ήθελε να ανέβει στη σκηνή. Σιγά σιγά, όμως, άρχισαν να ανοίγονται. Το θέατρο τους μαθαίνει να ακούν τον άλλον και να δουλεύουν σε ομάδα, κάτι που δεν είχαν συνηθίσει.", "At first they were very suspicious. No one wanted to go on stage. Gradually, though, they began to open up. Theatre teaches them to listen to the other person and to work in a team, something they weren't used to."),
+  L("Ρεπόρτερ", "f", "Η παράσταση θα δοθεί τον Μάιο μπροστά στις οικογένειες των κρατουμένων. Για πολλά παιδιά θα είναι η πρώτη φορά που θα δουν τον πατέρα τους να χειροκροτείται. Το πρόγραμμα χρηματοδοτείται από ένα ίδρυμα και, αν πετύχει, θα επεκταθεί και σε άλλες φυλακές.", "The performance will be given in May in front of the inmates' families. For many children it will be the first time they see their father applauded. The programme is funded by a foundation and, if it succeeds, it will be extended to other prisons."),
+ ],
+ "questions": [
+  Q("Τι έργο προβάρουν οι κρατούμενοι;", ["Μια αρχαία τραγωδία", "Ένα έργο που έγραψαν οι ίδιοι", "Μια κωμωδία του Αριστοφάνη", "Ένα μιούζικαλ"], 1, "προβάρουν ένα έργο που έγραψαν οι ίδιοι"),
+  Q("Τι τους μαθαίνει, σύμφωνα με τη σκηνοθέτιδα, το θέατρο;", ["Να απαγγέλλουν ποιήματα", "Να γράφουν σενάρια για την τηλεόραση", "Να ακούν τον άλλον και να δουλεύουν σε ομάδα", "Να μιλούν ξένες γλώσσες"], 2, "Το θέατρο τους μαθαίνει να ακούν τον άλλον και να δουλεύουν σε ομάδα"),
+  Q("Τι θα γίνει αν το πρόγραμμα πετύχει;", ["Θα επεκταθεί και σε άλλες φυλακές", "Οι κρατούμενοι θα αποφυλακιστούν νωρίτερα", "Η παράσταση θα παιχτεί στην Αθήνα", "Θα γυριστεί ταινία"], 0, "θα επεκταθεί και σε άλλες φυλακές"),
+ ],
+ "gloss": {"κρατούμενοι": "κρατούμενος — inmate, prisoner", "σκηνοθέτιδας": "σκηνοθέτιδα — director (f.)", "προβάρουν": "προβάρω — to rehearse", "καχύποπτοι": "καχύποπτος — suspicious, distrustful", "ανοίγονται": "ανοίγομαι — to open up", "χρηματοδοτείται": "χρηματοδοτούμαι — to be funded", "επεκταθεί": "επεκτείνομαι — to be extended"}
+})
+
+ITEMS.append({
+ "id": "l108-mono-tavli-egonos", "title": "Έμαθα τάβλι από τον εγγονό μου", "title_en": "My grandson taught me backgammon", "type": "monologue", "level": "B2",
+ "context_el": "Ακούτε μια ηλικιωμένη κυρία να μιλά σε μια ραδιοφωνική εκπομπή για τις σχέσεις των γενεών.",
+ "script": [
+  L("Ευανθία", "f", "Σε όλη μου τη ζωή έβλεπα τους άντρες στο καφενείο να παίζουν τάβλι και να φωνάζουν, αλλά ποτέ δεν μου πέρασε από το μυαλό να μάθω. Στο χωριό μου, τότε, το τάβλι ήταν «ανδρική υπόθεση».", "All my life I watched the men in the café playing backgammon and shouting, but it never crossed my mind to learn. In my village back then, backgammon was 'a man's business'."),
+  L("Ευανθία", "f", "Πέρσι ο εγγονός μου, ο Στέφανος, που είναι δεκατεσσάρων, ήρθε να μείνει μαζί μου για το καλοκαίρι. Βαριόταν χωρίς το ίντερνετ, και ένα απόγευμα βρήκε το παλιό τάβλι του παππού του στο ντουλάπι. «Γιαγιά, θα σου μάθω», μου είπε. Γέλασα, αλλά κάθισα.", "Last year my grandson Stefanos, who is fourteen, came to stay with me for the summer. He was bored without the internet, and one afternoon he found his grandfather's old backgammon board in the cupboard. 'Grandma, I'll teach you,' he said. I laughed, but I sat down."),
+  L("Ευανθία", "f", "Τις πρώτες μέρες έχανα συνέχεια και ο Στέφανος δεν με λυπόταν καθόλου. Μετά από έναν μήνα, όμως, άρχισα να κερδίζω. Τώρα παίζουμε από βιντεοκλήση, με ένα τάβλι ο καθένας, και του λέω τις ζαριές μου. Ο γιατρός μου λέει ότι κάνει καλό στη μνήμη· εγώ ξέρω ότι κάνει καλό στην καρδιά.", "The first days I kept losing and Stefanos didn't take pity on me at all. After a month, though, I started winning. Now we play over video call, each with a board, and I tell him my dice rolls. My doctor says it's good for the memory; I know it's good for the heart."),
+ ],
+ "questions": [
+  Q("Γιατί η Ευανθία δεν είχε μάθει ποτέ τάβλι;", ["Γιατί δεν της άρεσαν τα παιχνίδια", "Γιατί στο χωριό της ήταν «ανδρική υπόθεση»", "Γιατί δεν είχαν τάβλι στο σπίτι", "Γιατί δεν είχε χρόνο"], 1, "το τάβλι ήταν «ανδρική υπόθεση»"),
+  Q("Πώς ξεκίνησαν τα μαθήματα;", ["Ο Στέφανος βαριόταν και βρήκε το παλιό τάβλι του παππού του", "Η γιαγιά ζήτησε από τον εγγονό να της μάθει", "Ο γιατρός της το συνέστησε", "Μια φίλη της την έφερε στο καφενείο"], 0, "βρήκε το παλιό τάβλι του παππού του στο ντουλάπι"),
+  Q("Πώς παίζουν τώρα;", ["Στο καφενείο του χωριού", "Μόνο τα καλοκαίρια", "Από βιντεοκλήση, με ένα τάβλι ο καθένας", "Σε μια εφαρμογή στο κινητό"], 2, "Τώρα παίζουμε από βιντεοκλήση, με ένα τάβλι ο καθένας"),
+ ],
+ "gloss": {"τάβλι": "τάβλι — backgammon", "υπόθεση": "υπόθεση — affair, business", "Βαριόταν": "βαριέμαι — to be bored", "λυπόταν": "λυπάμαι — to feel sorry for, take pity on", "βιντεοκλήση": "βιντεοκλήση — video call", "ζαριές": "ζαριά — dice roll"}
+})
+
+ITEMS.append({
+ "id": "l108-mono-scholiki-nosileftria", "title": "Η πρώτη μου χρονιά ως σχολική νοσηλεύτρια", "title_en": "My first year as a school nurse", "type": "monologue", "level": "B2",
+ "context_el": "Ακούτε μια νοσηλεύτρια να μιλά σε μια εκδήλωση για την υγεία στο σχολείο.",
+ "script": [
+  L("Σοφία", "f", "Πριν από έναν χρόνο άφησα την εντατική ενός μεγάλου νοσοκομείου και έγινα νοσηλεύτρια σε ένα δημοτικό σχολείο με τρία παιδιά με διαβήτη και ένα με σοβαρή αλλεργία. Οι συνάδελφοί μου στο νοσοκομείο νόμιζαν ότι θα βαρεθώ.", "A year ago I left the intensive care unit of a big hospital and became a nurse at a primary school with three children with diabetes and one with a severe allergy. My colleagues at the hospital thought I'd get bored."),
+  L("Σοφία", "f", "Κάθε άλλο. Το πρωί ελέγχω το σάκχαρο των παιδιών με διαβήτη και κανονίζω μαζί τους τι θα φάνε στο διάλειμμα. Έχω εκπαιδεύσει όλους τους δασκάλους να χρησιμοποιούν τη σύριγγα αδρεναλίνης, για την περίπτωση που το παιδί με την αλλεργία πάθει κρίση όταν δεν είμαι εκεί.", "Far from it. In the morning I check the blood sugar of the children with diabetes and plan with them what they'll eat at break. I've trained all the teachers to use the adrenaline pen, in case the child with the allergy has an attack when I'm not there."),
+  L("Σοφία", "f", "Το πιο ωραίο, όμως, είναι τα μαθήματα υγείας. Μιλάμε για το πλύσιμο των χεριών, για τον ύπνο, για το πρωινό. Ένα αγοράκι της δευτέρας τάξης έπεισε τον πατέρα του να κόψει το τσιγάρο, γιατί του εξήγησε τι είχε μάθει για τους πνεύμονες. Αυτό δεν θα το άλλαζα με τίποτα.", "The best thing, though, is the health lessons. We talk about handwashing, sleep, breakfast. A little boy in the second year persuaded his father to quit smoking, because he explained what he'd learned about the lungs. I wouldn't trade that for anything."),
+ ],
+ "questions": [
+  Q("Τι πίστευαν οι συνάδελφοί της στο νοσοκομείο;", ["Ότι θα βαρεθεί", "Ότι θα ξαναγυρίσει σύντομα", "Ότι θα πληρώνεται λιγότερο", "Ότι δεν θα τα καταφέρει με τα παιδιά"], 0, "Οι συνάδελφοί μου στο νοσοκομείο νόμιζαν ότι θα βαρεθώ"),
+  Q("Σε τι έχει εκπαιδεύσει τους δασκάλους;", ["Στη μέτρηση του σακχάρου", "Στη χρήση της σύριγγας αδρεναλίνης", "Στις πρώτες βοήθειες για κατάγματα", "Στη σωστή διατροφή"], 1, "Έχω εκπαιδεύσει όλους τους δασκάλους να χρησιμοποιούν τη σύριγγα αδρεναλίνης"),
+  Q("Τι κατάφερε ένας μαθητής της δευτέρας τάξης;", ["Να μην ξαναχάσει μάθημα", "Να γίνει βοηθός της νοσηλεύτριας", "Να πείσει τον πατέρα του να κόψει το τσιγάρο", "Να τρώει πρωινό κάθε μέρα"], 2, "έπεισε τον πατέρα του να κόψει το τσιγάρο"),
+ ],
+ "gloss": {"εντατική": "εντατική — intensive care unit", "σάκχαρο": "σάκχαρο — blood sugar", "σύριγγα": "σύριγγα — syringe, (adrenaline) pen", "αδρεναλίνης": "αδρεναλίνη — adrenaline", "κρίση": "κρίση — attack, episode", "πνεύμονες": "πνεύμονας — lung"}
+})
+
+ITEMS.append({
+ "id": "l108-c1-chronos-pio-grigora", "title": "Γιατί ο χρόνος μοιάζει να περνά πιο γρήγορα όσο μεγαλώνουμε;", "title_en": "Why does time seem to pass faster as we get older?", "type": "monologue", "level": "C1",
+ "context_el": "Ακούτε ένα απόσπασμα από μια ραδιοφωνική εκπομπή εκλαϊκευμένης επιστήμης.",
+ "script": [
+  L("Παρουσιαστής", "m", "Όταν ήμασταν παιδιά, το καλοκαίρι έμοιαζε ατελείωτο. Σήμερα, κοιτάμε το ημερολόγιο και απορούμε πώς πέρασε ήδη ο Νοέμβριος. Δεν υπάρχει μία απάντηση για αυτή την αίσθηση, αλλά οι ερευνητές έχουν προτείνει μερικές ενδιαφέρουσες εξηγήσεις.", "When we were children, summer seemed endless. Today we look at the calendar and wonder how November has already gone by. There is no single answer to this feeling, but researchers have proposed some interesting explanations."),
+  L("Παρουσιαστής", "m", "Η πρώτη είναι σχεδόν αριθμητική. Για ένα πεντάχρονο παιδί, ένας χρόνος είναι το ένα πέμπτο της ζωής του· για έναν πενηντάρη, μόλις το ένα πεντηκοστό. Σύμφωνα με αυτή την άποψη, κρίνουμε κάθε διάστημα σε σχέση με όσα έχουμε ήδη ζήσει, και έτσι κάθε χρόνος φαίνεται όλο και πιο σύντομος.", "The first is almost arithmetical. For a five-year-old, one year is a fifth of their life; for a fifty-year-old, just a fiftieth. According to this view, we judge each period in relation to what we have already lived, and so each year seems shorter and shorter."),
+  L("Παρουσιαστής", "m", "Μια δεύτερη εξήγηση έχει να κάνει με τη μνήμη. Τα παιδιά ζουν συνεχώς καινούργιες εμπειρίες, και κάθε καινούργια εμπειρία αφήνει πίσω της πολλές αναμνήσεις. Οι ενήλικες, αντίθετα, ζουν συχνά μέσα στη ρουτίνα: η μία εβδομάδα μοιάζει με την άλλη, και όταν κοιτάμε πίσω, ο χρόνος φαίνεται «συμπιεσμένος», γιατί έχουμε λίγες ξεχωριστές αναμνήσεις να τον γεμίσουν.", "A second explanation has to do with memory. Children constantly have new experiences, and each new experience leaves behind many memories. Adults, by contrast, often live within routine: one week looks like the next, and when we look back, time seems 'compressed', because we have few distinct memories to fill it."),
+  L("Παρουσιαστής", "m", "Αν η δεύτερη εξήγηση ισχύει, τότε υπάρχει και ένα αντίδοτο: η καινοτομία. Ένα ταξίδι σε άγνωστο τόπο, μια καινούργια δεξιότητα, ακόμη και μια διαφορετική διαδρομή για τη δουλειά μπορούν, όπως φαίνεται, να «απλώσουν» τον χρόνο στη μνήμη μας. Ίσως λοιπόν η συμβουλή δεν είναι να κάνουμε περισσότερα, αλλά να κάνουμε κάτι διαφορετικό.", "If the second explanation holds, then there is an antidote: novelty. A trip to an unknown place, a new skill, even a different route to work can, it seems, 'stretch' time in our memory. So perhaps the advice is not to do more, but to do something different."),
+ ],
+ "questions": [
+  Q("Τι λέει ο παρουσιαστής για τις εξηγήσεις του φαινομένου;", ["Ότι η επιστήμη έχει δώσει μία οριστική απάντηση", "Ότι δεν υπάρχει μία απάντηση, αλλά έχουν προταθεί μερικές εξηγήσεις", "Ότι το φαινόμενο αφορά μόνο τους ηλικιωμένους", "Ότι πρόκειται για μύθο"], 1, "Δεν υπάρχει μία απάντηση για αυτή την αίσθηση"),
+  Q("Ποια είναι η «αριθμητική» εξήγηση;", ["Κρίνουμε κάθε διάστημα σε σχέση με όσα έχουμε ήδη ζήσει", "Οι ενήλικες μετρούν τον χρόνο με το ρολόι", "Τα παιδιά δεν ξέρουν να μετρούν", "Ο χρόνος πράγματι επιταχύνεται"], 0, "κρίνουμε κάθε διάστημα σε σχέση με όσα έχουμε ήδη ζήσει"),
+  Q("Γιατί, σύμφωνα με τη δεύτερη εξήγηση, ο χρόνος φαίνεται «συμπιεσμένος» στους ενήλικες;", ["Γιατί κοιμούνται λιγότερο", "Γιατί δουλεύουν πολλές ώρες", "Γιατί η μνήμη τους χειροτερεύει", "Γιατί έχουν λίγες ξεχωριστές αναμνήσεις λόγω της ρουτίνας"], 3, "έχουμε λίγες ξεχωριστές αναμνήσεις να τον γεμίσουν"),
+  Q("Ποια συμβουλή δίνεται στο τέλος;", ["Να κάνουμε περισσότερα πράγματα κάθε μέρα", "Να κρατάμε ημερολόγιο", "Να κάνουμε κάτι διαφορετικό", "Να ξεκουραζόμαστε περισσότερο"], 2, "να κάνουμε κάτι διαφορετικό"),
+ ],
+ "gloss": {"ατελείωτο": "ατελείωτος — endless", "πεντηκοστό": "πεντηκοστό — a fiftieth", "ρουτίνα": "ρουτίνα — routine", "συμπιεσμένος": "συμπιεσμένος — compressed", "αντίδοτο": "αντίδοτο — antidote", "καινοτομία": "καινοτομία — novelty, innovation", "δεξιότητα": "δεξιότητα — skill"}
+})
+
+ITEMS.append({
+ "id": "l108-c1-to-katofli", "title": "Γιατί ξεχνάμε τι θέλαμε μόλις μπούμε σε ένα δωμάτιο;", "title_en": "Why do we forget what we wanted as soon as we enter a room?", "type": "interview", "level": "C1",
+ "context_el": "Ακούτε μια συνέντευξη με έναν γνωστικό ψυχολόγο σε μια εκπομπή για τον εγκέφαλο.",
+ "script": [
+  L("Δημοσιογράφος", "f", "Σηκώνομαι από τον καναπέ για να φέρω κάτι από την κουζίνα, μπαίνω και... δεν θυμάμαι τι. Είναι σημάδι ότι γερνάω;", "I get up from the sofa to fetch something from the kitchen, I go in and... I can't remember what. Is it a sign that I'm getting old?"),
+  L("Ψυχολόγος", "m", "Καθόλου, συμβαίνει σε όλους, σε κάθε ηλικία. Μια σειρά πειραμάτων σε ένα αμερικανικό πανεπιστήμιο έδειξε ότι οι άνθρωποι ξεχνούν πιο εύκολα αυτό που σκόπευαν να κάνουν όταν περνούν από μια πόρτα, σε σύγκριση με όταν διανύουν την ίδια απόσταση μέσα στο ίδιο δωμάτιο. Το φαινόμενο έχει ονομαστεί «φαινόμενο της πόρτας».", "Not at all, it happens to everyone, at every age. A series of experiments at an American university showed that people forget more easily what they intended to do when they walk through a doorway, compared with covering the same distance within the same room. The phenomenon has been called the 'doorway effect'."),
+  L("Δημοσιογράφος", "f", "Και γιατί να παίζει ρόλο μια πόρτα;", "And why should a door make a difference?"),
+  L("Ψυχολόγος", "m", "Μία ερμηνεία είναι ότι ο εγκέφαλος οργανώνει την εμπειρία μας σε «επεισόδια», κάπως σαν σκηνές μιας ταινίας. Η πόρτα λειτουργεί σαν όριο: ο εγκέφαλος «κλείνει» το προηγούμενο επεισόδιο και ανοίγει καινούργιο. Η πρόθεση που σχηματίσαμε στο σαλόνι μένει, ας πούμε, αρχειοθετημένη στο σαλόνι. Γι' αυτό συχνά τη θυμόμαστε μόλις γυρίσουμε εκεί.", "One interpretation is that the brain organises our experience into 'episodes', somewhat like scenes in a film. The doorway acts as a boundary: the brain 'closes' the previous episode and opens a new one. The intention we formed in the living room stays, so to speak, filed away in the living room. That's why we often remember it as soon as we go back there."),
+  L("Δημοσιογράφος", "f", "Μπορούμε να κάνουμε κάτι;", "Can we do anything about it?"),
+  L("Ψυχολόγος", "m", "Το πιο απλό είναι να λέμε την πρόθεσή μας φωναχτά ή να την επαναλαμβάνουμε από μέσα μας μέχρι να φτάσουμε. Πρέπει, πάντως, να πω ότι δεν επιβεβαιώνουν όλες οι μελέτες το φαινόμενο με την ίδια ένταση· φαίνεται να είναι πιο έντονο όταν το μυαλό μας είναι απασχολημένο και με άλλα πράγματα.", "The simplest thing is to say our intention out loud or to repeat it to ourselves until we get there. I must say, though, that not all studies confirm the effect with the same strength; it seems to be stronger when our mind is also busy with other things."),
+ ],
+ "questions": [
+  Q("Τι έδειξαν τα πειράματα;", ["Ότι μόνο οι ηλικιωμένοι ξεχνούν", "Ότι ξεχνάμε πιο εύκολα όταν περνάμε από μια πόρτα παρά όταν μένουμε στο ίδιο δωμάτιο", "Ότι οι μεγάλες αποστάσεις μάς κάνουν να ξεχνάμε", "Ότι η κουζίνα επηρεάζει τη μνήμη"], 1, "οι άνθρωποι ξεχνούν πιο εύκολα αυτό που σκόπευαν να κάνουν όταν περνούν από μια πόρτα"),
+  Q("Πώς ερμηνεύει ο ψυχολόγος τον ρόλο της πόρτας;", ["Λειτουργεί σαν όριο ανάμεσα σε δύο «επεισόδια» της εμπειρίας", "Μας αποσπά με τον θόρυβό της", "Αλλάζει τη θερμοκρασία και μας κουράζει", "Μας θυμίζει άλλες υποχρεώσεις"], 0, "Η πόρτα λειτουργεί σαν όριο"),
+  Q("Γιατί συχνά θυμόμαστε την πρόθεσή μας όταν γυρίσουμε στο πρώτο δωμάτιο;", ["Γιατί ηρεμούμε", "Γιατί βλέπουμε το αντικείμενο που θέλαμε", "Γιατί η πρόθεση μένει «αρχειοθετημένη» στο δωμάτιο όπου τη σχηματίσαμε", "Γιατί περνά αρκετός χρόνος"], 2, "Η πρόθεση που σχηματίσαμε στο σαλόνι μένει, ας πούμε, αρχειοθετημένη στο σαλόνι"),
+  Q("Τι επιφύλαξη εκφράζει ο ψυχολόγος στο τέλος;", ["Ότι τα πειράματα έγιναν μόνο σε παιδιά", "Ότι το φαινόμενο δεν υπάρχει", "Ότι η συμβουλή του δεν λειτουργεί", "Ότι δεν το επιβεβαιώνουν όλες οι μελέτες με την ίδια ένταση"], 3, "δεν επιβεβαιώνουν όλες οι μελέτες το φαινόμενο με την ίδια ένταση"),
+ ],
+ "gloss": {"γερνάω": "γερνάω — to grow old", "σκόπευαν": "σκοπεύω — to intend", "διανύουν": "διανύω — to cover (a distance)", "όριο": "όριο — boundary, limit", "πρόθεση": "πρόθεση — intention", "αρχειοθετημένη": "αρχειοθετημένος — filed away, archived", "φωναχτά": "φωναχτά — out loud"}
+})
+
+rnd = random.Random(108)  # spread the right answers over the four positions (the page shows options in file order)
+for it in ITEMS:
+    for q in it["questions"]: rnd.shuffle(q["options"])
+for it in ITEMS:
+    for q in it["questions"]: assert q["answer"] in q["options"], (it["id"], q["q"])
+    for k in it["gloss"]:
+        if not (any(k in s["el"] for s in it["script"]) or k in it["context_el"]): raise SystemExit(f"gloss key not in text: {it['id']} {k}")
+root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+with open(os.path.join(root, "library", "listening", "listening-108.json"), "w", encoding="utf-8") as fh:
+    json.dump({"items": ITEMS}, fh, ensure_ascii=False, indent=1); fh.write("\n")
+print(len(ITEMS), "items,", sum(len(i["questions"]) for i in ITEMS), "questions")
