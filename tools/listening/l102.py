@@ -1,0 +1,193 @@
+# Source for library/listening/listening-102.json: ten more B2–C1 listening items (script + questions + gloss).
+# Build: python3 tools/listening/l102.py
+import json, os, random
+
+def L(sp, v, el, en): return {"speaker": sp, "voice": v, "el": el, "en": en}
+def Q(q, opts, ans, why): return {"q": q, "options": opts, "answer": opts[ans], "why": why}
+
+ITEMS = []
+
+ITEMS.append({
+ "id": "l102-ann-asfaltostrosi", "title": "Ασφαλτόστρωση στην οδό Κολοκοτρώνη", "title_en": "Road resurfacing on Kolokotroni Street", "type": "announcement", "level": "B2",
+ "context_el": "Ακούτε μια ανακοίνωση του δήμου στο τοπικό ραδιόφωνο.",
+ "script": [
+  L("Εκφωνήτρια", "f", "Ο δήμος ενημερώνει τους κατοίκους ότι από την Τρίτη το πρωί ξεκινούν εργασίες ασφαλτόστρωσης στην οδό Κολοκοτρώνη, στο τμήμα ανάμεσα στην πλατεία Αγοράς και τον σιδηροδρομικό σταθμό. Οι εργασίες θα διαρκέσουν τέσσερις μέρες, αν το επιτρέψει ο καιρός.", "The municipality informs residents that from Tuesday morning resurfacing works begin on Kolokotroni Street, on the section between Market Square and the railway station. The works will last four days, weather permitting."),
+  L("Εκφωνήτρια", "f", "Κατά τη διάρκεια των εργασιών απαγορεύεται η στάθμευση και στις δύο πλευρές του δρόμου. Τα αυτοκίνητα που θα βρίσκονται σταθμευμένα εκεί από τις επτά το πρωί της Τρίτης θα απομακρυνθούν με γερανό. Οι κάτοικοι μπορούν να σταθμεύουν δωρεάν στον δημοτικό χώρο στάθμευσης πίσω από το γυμναστήριο.", "During the works parking is prohibited on both sides of the street. Cars parked there from seven on Tuesday morning will be removed by tow truck. Residents can park free of charge in the municipal car park behind the gym."),
+  L("Εκφωνήτρια", "f", "Τα λεωφορεία των γραμμών δύο και επτά θα κάνουν παράκαμψη μέσω της οδού Ερμού, και η στάση «Αγορά» θα μεταφερθεί προσωρινά μπροστά στο ταχυδρομείο. Ο δήμος ζητά την κατανόηση των κατοίκων για την ταλαιπωρία.", "Buses on lines two and seven will take a detour via Ermou Street, and the 'Market' stop will be moved temporarily to the front of the post office. The municipality asks for residents' understanding for the inconvenience."),
+ ],
+ "questions": [
+  Q("Πόσο θα διαρκέσουν οι εργασίες;", ["Μία εβδομάδα", "Τέσσερις μέρες, αν το επιτρέψει ο καιρός", "Δύο μέρες", "Έναν μήνα"], 1, "Οι εργασίες θα διαρκέσουν τέσσερις μέρες"),
+  Q("Πού μπορούν να σταθμεύουν δωρεάν οι κάτοικοι;", ["Μπροστά στο ταχυδρομείο", "Στην πλατεία Αγοράς", "Στον δημοτικό χώρο στάθμευσης πίσω από το γυμναστήριο", "Στον σιδηροδρομικό σταθμό"], 2, "στον δημοτικό χώρο στάθμευσης πίσω από το γυμναστήριο"),
+  Q("Τι θα γίνει με τη στάση «Αγορά»;", ["Θα καταργηθεί", "Θα εξυπηρετείται μόνο από τη γραμμή επτά", "Θα λειτουργεί κανονικά", "Θα μεταφερθεί προσωρινά μπροστά στο ταχυδρομείο"], 3, "η στάση «Αγορά» θα μεταφερθεί προσωρινά μπροστά στο ταχυδρομείο"),
+ ],
+ "gloss": {"ασφαλτόστρωσης": "ασφαλτόστρωση — resurfacing (with asphalt)", "στάθμευση": "στάθμευση — parking", "σταθμευμένα": "σταθμευμένος — parked", "απομακρυνθούν": "απομακρύνομαι — to be removed", "γερανό": "γερανός — tow truck", "παράκαμψη": "παράκαμψη — detour", "προσωρινά": "προσωρινά — temporarily", "ταλαιπωρία": "ταλαιπωρία — inconvenience"}
+})
+
+ITEMS.append({
+ "id": "l102-vm-raftis-kostoumi", "title": "Μήνυμα από τον ράφτη για το κοστούμι του γάμου", "title_en": "A message from the tailor about the wedding suit", "type": "voicemail", "level": "B2",
+ "context_el": "Έχετε δώσει το κοστούμι σας για διορθώσεις. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+ "script": [
+  L("Ράφτης", "m", "Καλησπέρα, κύριε Αντωνίου, ο Μιχάλης είμαι, από το ραφείο. Σας παίρνω για το κοστούμι του γάμου. Το σακάκι είναι έτοιμο, το στένεψα στη μέση όπως είπαμε, και νομίζω ότι θα σας κάθεται πολύ ωραία.", "Good evening, Mr Antoniou, it's Michalis from the tailor's. I'm calling about the wedding suit. The jacket is ready, I took it in at the waist as we agreed, and I think it will fit you very nicely."),
+  L("Ράφτης", "m", "Με το παντελόνι, όμως, έχουμε ένα θεματάκι. Όταν το κόντυνα, είδα ότι το ύφασμα στο ένα μπατζάκι είχε ένα μικρό ελάττωμα, ένα σημάδι που δεν φαινόταν πριν. Μπορώ να το κρύψω αν το κοντύνω λίγο ακόμα, μισό εκατοστό, αλλά θέλω πρώτα να το δοκιμάσετε.", "With the trousers, though, we have a small issue. When I shortened them, I saw that the fabric on one leg had a small flaw, a mark that wasn't visible before. I can hide it if I shorten them a little more, half a centimetre, but I want you to try them on first."),
+  L("Ράφτης", "m", "Ο γάμος είναι το Σάββατο, σωστά; Θα ήταν καλό να περάσετε το αργότερο την Πέμπτη, για να προλάβω να κάνω τις τελευταίες διορθώσεις. Είμαι στο μαγαζί κάθε μέρα από τις εννιά ως τις δύο, και την Τετάρτη και την Πέμπτη και το απόγευμα. Γεια σας!", "The wedding is on Saturday, right? It would be good if you came by on Thursday at the latest, so that I have time to make the final alterations. I'm in the shop every day from nine to two, and on Wednesday and Thursday in the afternoon as well. Goodbye!"),
+ ],
+ "questions": [
+  Q("Τι έκανε ο ράφτης στο σακάκι;", ["Το στένεψε στη μέση", "Το μάκρυνε", "Άλλαξε τα κουμπιά", "Το φάρδυνε στους ώμους"], 0, "το στένεψα στη μέση"),
+  Q("Τι πρόβλημα βρήκε στο παντελόνι;", ["Ήταν πολύ φαρδύ", "Το ύφασμα στο ένα μπατζάκι είχε ένα μικρό ελάττωμα", "Είχε σκιστεί η τσέπη", "Το χρώμα δεν ταίριαζε με το σακάκι"], 1, "το ύφασμα στο ένα μπατζάκι είχε ένα μικρό ελάττωμα"),
+  Q("Πότε, το αργότερο, πρέπει να περάσει ο πελάτης;", ["Την Τετάρτη", "Την Παρασκευή", "Την Πέμπτη", "Το Σάββατο το πρωί"], 2, "το αργότερο την Πέμπτη"),
+ ],
+ "gloss": {"ραφείο": "ραφείο — tailor's shop", "σακάκι": "σακάκι — jacket", "στένεψα": "στενεύω — to take in", "κάθεται": "κάθομαι (για ρούχο) — to fit", "κόντυνα": "κονταίνω — to shorten", "ύφασμα": "ύφασμα — fabric", "μπατζάκι": "μπατζάκι — trouser leg", "ελάττωμα": "ελάττωμα — flaw", "διορθώσεις": "διόρθωση — alteration"}
+})
+
+ITEMS.append({
+ "id": "l102-dia-sale-sto-vouno", "title": "Ένα σαλέ στο βουνό για τα Χριστούγεννα", "title_en": "A mountain chalet for Christmas", "type": "dialogue", "level": "B2",
+ "context_el": "Δύο φίλοι οργανώνουν τις χριστουγεννιάτικες διακοπές της παρέας τους.",
+ "script": [
+  L("Ελένη", "f", "Τάσο, βρήκα ένα σαλέ στα Καλάβρυτα για τα Χριστούγεννα! Έχει τρία υπνοδωμάτια, τζάκι και θέα στο βουνό. Χωράει άνετα οκτώ άτομα.", "Tasos, I found a chalet in Kalavryta for Christmas! It has three bedrooms, a fireplace and a view of the mountain. It sleeps eight people comfortably."),
+  L("Τάσος", "m", "Ωραίο ακούγεται. Πόσο κοστίζει;", "Sounds nice. How much does it cost?"),
+  L("Ελένη", "f", "Τριακόσια πενήντα ευρώ τη βραδιά για όλο το σαλέ. Αν πάμε τρεις βραδιές και είμαστε οκτώ, βγαίνει περίπου εκατόν τριάντα ευρώ ο καθένας.", "Three hundred and fifty euros a night for the whole chalet. If we go for three nights and there are eight of us, it comes to about a hundred and thirty euros each."),
+  L("Τάσος", "m", "Δεν είναι άσχημα. Πόσο απέχει από το χιονοδρομικό; Ο Νίκος και η Μαρία θέλουν οπωσδήποτε να κάνουν σκι.", "That's not bad. How far is it from the ski resort? Nikos and Maria definitely want to ski."),
+  L("Ελένη", "f", "Γύρω στα είκοσι πέντε λεπτά με το αυτοκίνητο. Το θέμα είναι ότι ο ιδιοκτήτης ζητά προκαταβολή το μισό ποσό μέχρι την Παρασκευή, αλλιώς το δίνει σε άλλους. Και δεν επιστρέφει την προκαταβολή αν ακυρώσουμε.", "About twenty-five minutes by car. The thing is, the owner wants half the amount as a deposit by Friday, otherwise he'll give it to someone else. And he doesn't return the deposit if we cancel."),
+  L("Τάσος", "m", "Χμ, αυτό με ανησυχεί λίγο. Αν ο Γιώργος δεν πάρει άδεια από τη δουλειά, θα είμαστε επτά, και θα πληρώνουμε περισσότερα. Ας ρωτήσουμε πρώτα όλους σήμερα το βράδυ, και αύριο το πρωί κλείνουμε.", "Hmm, that worries me a bit. If Giorgos doesn't get leave from work, there will be seven of us, and we'll pay more. Let's ask everyone first tonight, and tomorrow morning we'll book."),
+  L("Ελένη", "f", "Εντάξει. Θα φτιάξω μια ομάδα στο κινητό και θα τους στείλω τις φωτογραφίες.", "OK. I'll make a group on the phone and send them the photos."),
+ ],
+ "questions": [
+  Q("Πόσο θα πληρώσει περίπου ο καθένας, αν πάνε οκτώ άτομα για τρεις βραδιές;", ["Περίπου εκατόν τριάντα ευρώ", "Τριακόσια πενήντα ευρώ", "Περίπου πενήντα ευρώ", "Διακόσια ευρώ"], 0, "βγαίνει περίπου εκατόν τριάντα ευρώ ο καθένας"),
+  Q("Τι ζητά ο ιδιοκτήτης μέχρι την Παρασκευή;", ["Όλο το ποσό", "Ένα αντίγραφο της ταυτότητας", "Το μισό ποσό ως προκαταβολή", "Τον αριθμό των αυτοκινήτων"], 2, "ο ιδιοκτήτης ζητά προκαταβολή το μισό ποσό μέχρι την Παρασκευή"),
+  Q("Γιατί ανησυχεί ο Τάσος;", ["Γιατί το σαλέ είναι μακριά από το χιονοδρομικό", "Γιατί, αν δεν έρθει ο Γιώργος, θα πληρώνουν περισσότερα", "Γιατί δεν του αρέσει το σκι", "Γιατί το σαλέ δεν έχει τζάκι"], 1, "Αν ο Γιώργος δεν πάρει άδεια από τη δουλειά, θα είμαστε επτά, και θα πληρώνουμε περισσότερα"),
+ ],
+ "gloss": {"σαλέ": "σαλέ — chalet", "τζάκι": "τζάκι — fireplace", "χιονοδρομικό": "χιονοδρομικό (κέντρο) — ski resort", "προκαταβολή": "προκαταβολή — deposit", "ακυρώσουμε": "ακυρώνω — to cancel", "άδεια": "άδεια — leave (from work)", "ποσό": "ποσό — amount"}
+})
+
+ITEMS.append({
+ "id": "l102-int-organopoios-mpouzoukion", "title": "Ο οργανοποιός των μπουζουκιών", "title_en": "The bouzouki maker", "type": "interview", "level": "B2",
+ "context_el": "Ακούτε μια συνέντευξη με έναν οργανοποιό που φτιάχνει μπουζούκια.",
+ "script": [
+  L("Δημοσιογράφος", "f", "Πόσο καιρό χρειάζεστε για να φτιάξετε ένα μπουζούκι;", "How long do you need to make a bouzouki?"),
+  L("Οργανοποιός", "m", "Εξαρτάται από το όργανο, αλλά συνήθως γύρω στους δύο μήνες. Το πιο χρονοβόρο είναι το σκάφος, το στρογγυλό πίσω μέρος. Το φτιάχνω από λεπτές λωρίδες ξύλου, τις λεγόμενες ντούγιες, που τις λυγίζω με ζέστη και τις κολλάω τη μία δίπλα στην άλλη.", "It depends on the instrument, but usually around two months. The most time-consuming part is the bowl, the round back. I make it from thin strips of wood, the so-called ribs, which I bend with heat and glue one next to the other."),
+  L("Δημοσιογράφος", "f", "Τι ξύλο χρησιμοποιείτε;", "What wood do you use?"),
+  L("Οργανοποιός", "m", "Για το σκάφος συνήθως καρυδιά ή σφένδαμο. Για το καπάκι, την πάνω επιφάνεια, προτιμώ έλατο, γιατί είναι ελαφρύ και δίνει καθαρό ήχο. Το ξύλο πρέπει να έχει ξεραθεί σωστά, για πολλά χρόνια, αλλιώς το όργανο θα στραβώσει.", "For the bowl usually walnut or maple. For the top, the upper surface, I prefer spruce, because it is light and gives a clear sound. The wood must have dried properly, for many years, otherwise the instrument will warp."),
+  L("Δημοσιογράφος", "f", "Ποιοι είναι οι πελάτες σας;", "Who are your customers?"),
+  L("Οργανοποιός", "m", "Πολλοί επαγγελματίες μουσικοί, αλλά τελευταία έρχονται και πολλοί νέοι που μόλις ξεκινούν. Κάποιοι μου φέρνουν και μπουζούκια των παππούδων τους για επισκευή. Αυτή είναι ίσως η δουλειά που αγαπώ περισσότερο: να ξαναζωντανεύω ένα όργανο που έμεινε σιωπηλό για χρόνια.", "Many professional musicians, but lately many young people who are just starting come too. Some also bring me their grandfathers' bouzoukis for repair. That is perhaps the work I love most: bringing back to life an instrument that stayed silent for years."),
+ ],
+ "questions": [
+  Q("Ποιο είναι το πιο χρονοβόρο μέρος της κατασκευής;", ["Το καπάκι", "Το σκάφος, το στρογγυλό πίσω μέρος", "Οι χορδές", "Το βερνίκι"], 1, "Το πιο χρονοβόρο είναι το σκάφος"),
+  Q("Γιατί προτιμά έλατο για το καπάκι;", ["Γιατί είναι φτηνό", "Γιατί λυγίζει εύκολα", "Γιατί δεν χρειάζεται να ξεραθεί", "Γιατί είναι ελαφρύ και δίνει καθαρό ήχο"], 3, "είναι ελαφρύ και δίνει καθαρό ήχο"),
+  Q("Ποια δουλειά αγαπά περισσότερο;", ["Να διδάσκει νέους μουσικούς", "Να παίζει σε συναυλίες", "Να ξαναζωντανεύει παλιά μπουζούκια που έμειναν σιωπηλά για χρόνια", "Να πουλά όργανα στο εξωτερικό"], 2, "να ξαναζωντανεύω ένα όργανο που έμεινε σιωπηλό για χρόνια"),
+ ],
+ "gloss": {"οργανοποιό": "οργανοποιός — instrument maker", "χρονοβόρο": "χρονοβόρος — time-consuming", "σκάφος": "σκάφος (μπουζουκιού) — bowl", "λωρίδες": "λωρίδα — strip", "λυγίζω": "λυγίζω — to bend", "καρυδιά": "καρυδιά — walnut", "σφένδαμο": "σφένδαμος — maple", "έλατο": "έλατο — fir, spruce", "στραβώσει": "στραβώνω — to warp", "επισκευή": "επισκευή — repair"}
+})
+
+ITEMS.append({
+ "id": "l102-rep-scholeio-rompotikis", "title": "Ένα θερινό σχολείο ρομποτικής", "title_en": "A summer school in robotics", "type": "report", "level": "B2",
+ "context_el": "Ακούτε ένα ρεπορτάζ σε μια εκπομπή για την εκπαίδευση.",
+ "script": [
+  L("Ρεπόρτερ", "f", "Σε μια αίθουσα του Πανεπιστημίου Πατρών, είκοσι παιδιά από δέκα ως δεκατεσσάρων χρονών σκύβουν πάνω σε μικρά ρομπότ με ρόδες. Βρίσκονται στη δεύτερη εβδομάδα ενός θερινού σχολείου ρομποτικής, που οργανώνουν φοιτητές του τμήματος ηλεκτρολόγων μηχανικών εθελοντικά.", "In a room at the University of Patras, twenty children aged from ten to fourteen are bent over small robots on wheels. They are in the second week of a summer school in robotics, which students of the electrical engineering department organise as volunteers."),
+  L("Ρεπόρτερ", "f", "Τα παιδιά δουλεύουν σε ομάδες των τεσσάρων. Κάθε ομάδα πρέπει να προγραμματίσει το ρομπότ της ώστε να βγαίνει μόνο του από έναν λαβύρινθο. «Το πιο σημαντικό δεν είναι να πετύχεις με την πρώτη», λέει ο Στέφανος, ένας από τους φοιτητές. «Είναι να καταλάβεις γιατί απέτυχες και να δοκιμάσεις ξανά.»", "The children work in groups of four. Each group has to program its robot so that it finds its own way out of a maze. 'The most important thing isn't to succeed at the first try,' says Stefanos, one of the students. 'It's to understand why you failed and try again.'"),
+  L("Ρεπόρτερ", "f", "Η συμμετοχή είναι δωρεάν, και οι θέσεις δίνονται με κλήρωση, γιατί οι αιτήσεις ήταν τριπλάσιες από τις θέσεις. Στο τέλος του προγράμματος οι ομάδες θα παρουσιάσουν τα ρομπότ τους στους γονείς, σε έναν μικρό αγώνα.", "Participation is free, and places are given by lottery, because there were three times as many applications as places. At the end of the programme the groups will present their robots to the parents in a small competition."),
+ ],
+ "questions": [
+  Q("Ποιοι οργανώνουν το θερινό σχολείο;", ["Μια ιδιωτική εταιρεία", "Φοιτητές του τμήματος ηλεκτρολόγων μηχανικών, εθελοντικά", "Οι γονείς των παιδιών", "Το υπουργείο Παιδείας"], 1, "οργανώνουν φοιτητές του τμήματος ηλεκτρολόγων μηχανικών εθελοντικά"),
+  Q("Τι πρέπει να κάνει κάθε ομάδα;", ["Να προγραμματίσει το ρομπότ της να βγαίνει μόνο του από έναν λαβύρινθο", "Να φτιάξει ένα ρομπότ από την αρχή", "Να γράψει μια εργασία", "Να ζωγραφίσει το ρομπότ της"], 0, "να προγραμματίσει το ρομπότ της ώστε να βγαίνει μόνο του από έναν λαβύρινθο"),
+  Q("Γιατί οι θέσεις δίνονται με κλήρωση;", ["Γιατί έτσι το ζήτησαν οι γονείς", "Γιατί το πρόγραμμα είναι ακριβό", "Γιατί δεν υπάρχουν αρκετά ρομπότ", "Γιατί οι αιτήσεις ήταν τριπλάσιες από τις θέσεις"], 3, "οι αιτήσεις ήταν τριπλάσιες από τις θέσεις"),
+ ],
+ "gloss": {"ρομποτικής": "ρομποτική — robotics", "σκύβουν": "σκύβω — to bend over", "ρόδες": "ρόδα — wheel", "προγραμματίσει": "προγραμματίζω — to program", "λαβύρινθο": "λαβύρινθος — maze", "απέτυχες": "αποτυγχάνω — to fail", "κλήρωση": "κλήρωση — draw, lottery", "τριπλάσιες": "τριπλάσιος — three times as many"}
+})
+
+ITEMS.append({
+ "id": "l102-rep-vivlia-stis-staseis", "title": "Βιβλία στις στάσεις του λεωφορείου", "title_en": "Books at the bus stops", "type": "report", "level": "B2",
+ "context_el": "Ακούτε ένα ρεπορτάζ σε μια πολιτιστική εκπομπή.",
+ "script": [
+  L("Ρεπόρτερ", "m", "Στις στάσεις του λεωφορείου μιας μικρής πόλης της Κρήτης έχουν εμφανιστεί εδώ και λίγους μήνες μικρά ξύλινα ντουλάπια γεμάτα βιβλία. Η ιδέα είναι απλή: όποιος περιμένει το λεωφορείο μπορεί να πάρει ένα βιβλίο, να το διαβάσει στη διαδρομή και να το αφήσει σε οποιαδήποτε άλλη στάση.", "At the bus stops of a small town in Crete, small wooden cupboards full of books have appeared over the last few months. The idea is simple: anyone waiting for the bus can take a book, read it on the journey and leave it at any other stop."),
+  L("Ρεπόρτερ", "m", "Τα ντουλάπια τα έφτιαξαν μαθητές ενός επαγγελματικού λυκείου από ξύλο παλιών παλετών. Τα βιβλία προέρχονται από δωρεές κατοίκων, αλλά και από τη δημοτική βιβλιοθήκη, που έδωσε τα διπλά αντίτυπα της συλλογής της.", "The cupboards were made by pupils of a vocational high school from the wood of old pallets. The books come from residents' donations, but also from the municipal library, which gave the duplicate copies in its collection."),
+  L("Ρεπόρτερ", "m", "Στην αρχή πολλοί φοβούνταν ότι τα βιβλία θα χάνονταν ή θα καταστρέφονταν. «Χάνονται κάποια, δεν λέω», παραδέχεται ένας από τους οδηγούς. «Αλλά έρχονται περισσότερα από όσα φεύγουν. Και βλέπω ανθρώπους που πριν κοιτούσαν μόνο το κινητό να διαβάζουν.»", "At first many feared that the books would be lost or damaged. 'Some get lost, I won't deny it,' admits one of the drivers. 'But more come in than go out. And I see people who used to look only at their phone reading.'"),
+ ],
+ "questions": [
+  Q("Τι μπορεί να κάνει όποιος περιμένει το λεωφορείο;", ["Να αγοράσει ένα βιβλίο", "Να δανειστεί ένα βιβλίο για έναν μήνα", "Να πάρει ένα βιβλίο και να το αφήσει σε οποιαδήποτε άλλη στάση", "Να ακούσει ένα ηχητικό βιβλίο"], 2, "να το αφήσει σε οποιαδήποτε άλλη στάση"),
+  Q("Από τι έφτιαξαν τα ντουλάπια οι μαθητές;", ["Από παλιές πόρτες", "Από ξύλο παλιών παλετών", "Από μέταλλο", "Από πλαστικά μπουκάλια"], 1, "από ξύλο παλιών παλετών"),
+  Q("Τι λέει ο οδηγός για τα βιβλία;", ["Ότι έρχονται περισσότερα από όσα φεύγουν", "Ότι χάνονται τα περισσότερα", "Ότι κανείς δεν τα διαβάζει", "Ότι πρέπει να μπουν και μέσα στα λεωφορεία"], 0, "έρχονται περισσότερα από όσα φεύγουν"),
+ ],
+ "gloss": {"ντουλάπια": "ντουλάπι — cupboard", "διαδρομή": "διαδρομή — journey, route", "οποιαδήποτε": "οποιοσδήποτε — any", "επαγγελματικού": "επαγγελματικός (λύκειο) — vocational", "παλετών": "παλέτα — pallet", "δωρεές": "δωρεά — donation", "αντίτυπα": "αντίτυπο — copy", "παραδέχεται": "παραδέχομαι — to admit"}
+})
+
+ITEMS.append({
+ "id": "l102-mono-me-to-podilato", "title": "Γιατί άφησα το αυτοκίνητο για το ποδήλατο", "title_en": "Why I swapped the car for a bike", "type": "monologue", "level": "B2",
+ "context_el": "Ακούτε έναν ακροατή να μιλά σε μια ραδιοφωνική εκπομπή για την καθημερινή του μετακίνηση.",
+ "script": [
+  L("Ακροατής", "m", "Για δεκαπέντε χρόνια πήγαινα στη δουλειά με το αυτοκίνητο. Η απόσταση είναι μόλις έξι χιλιόμετρα, αλλά με την κίνηση έκανα συχνά πάνω από μισή ώρα, και μετά έψαχνα άλλα δέκα λεπτά για να παρκάρω. Έφτανα στο γραφείο ήδη εκνευρισμένος.", "For fifteen years I went to work by car. The distance is only six kilometres, but with the traffic it often took me over half an hour, and then I spent another ten minutes looking for a parking space. I arrived at the office already irritated."),
+  L("Ακροατής", "m", "Πριν από δύο χρόνια ο δήμος έφτιαξε έναν ποδηλατόδρομο που περνά ακριβώς δίπλα από το σπίτι μου. Αποφάσισα να δοκιμάσω για μία εβδομάδα. Τις πρώτες μέρες κουραζόμουν στην ανηφόρα πριν από το γραφείο και έφτανα ιδρωμένος, οπότε άρχισα να έχω ένα καθαρό πουκάμισο στο συρτάρι μου.", "Two years ago the municipality built a cycle lane that runs right past my house. I decided to try it for a week. In the first days I got tired on the uphill stretch before the office and arrived sweaty, so I started keeping a clean shirt in my drawer."),
+  L("Ακροατής", "m", "Σήμερα κάνω τη διαδρομή σε είκοσι λεπτά, σχεδόν κάθε μέρα, εκτός αν βρέχει πολύ. Έχασα έξι κιλά χωρίς δίαιτα, και ξοδεύω πολύ λιγότερα για βενζίνη. Το πιο σημαντικό, όμως, είναι ότι φτάνω στη δουλειά με καθαρό μυαλό. Το αυτοκίνητο το χρησιμοποιώ πια μόνο τα Σαββατοκύριακα.", "Today I do the trip in twenty minutes, almost every day, unless it rains heavily. I lost six kilos without dieting, and I spend much less on petrol. The most important thing, though, is that I arrive at work with a clear head. I now use the car only at weekends."),
+ ],
+ "questions": [
+  Q("Γιατί έφτανε εκνευρισμένος στο γραφείο;", ["Γιατί η απόσταση ήταν μεγάλη", "Γιατί δούλευε πολλές ώρες", "Λόγω της κίνησης και του ψαξίματος για πάρκινγκ", "Γιατί είχε προβλήματα με τον προϊστάμενό του"], 2, "με την κίνηση έκανα συχνά πάνω από μισή ώρα, και μετά έψαχνα άλλα δέκα λεπτά για να παρκάρω"),
+  Q("Τι άρχισε να κάνει επειδή έφτανε ιδρωμένος;", ["Να κάνει ντους στο γυμναστήριο", "Να έχει ένα καθαρό πουκάμισο στο συρτάρι του", "Να πηγαίνει πιο αργά", "Να παίρνει το λεωφορείο στην ανηφόρα"], 1, "άρχισα να έχω ένα καθαρό πουκάμισο στο συρτάρι μου"),
+  Q("Ποιο θεωρεί το πιο σημαντικό όφελος;", ["Ότι έχασε έξι κιλά", "Ότι ξοδεύει λιγότερα για βενζίνη", "Ότι γνώρισε νέους φίλους", "Ότι φτάνει στη δουλειά με καθαρό μυαλό"], 3, "φτάνω στη δουλειά με καθαρό μυαλό"),
+ ],
+ "gloss": {"εκνευρισμένος": "εκνευρισμένος — irritated", "ποδηλατόδρομο": "ποδηλατόδρομος — cycle lane", "ανηφόρα": "ανηφόρα — uphill slope", "ιδρωμένος": "ιδρωμένος — sweaty", "δίαιτα": "δίαιτα — diet", "ξοδεύω": "ξοδεύω — to spend", "βενζίνη": "βενζίνη — petrol"}
+})
+
+ITEMS.append({
+ "id": "l102-mono-mageirevontas-gia-eikosi", "title": "Η πρώτη φορά που μαγείρεψα για είκοσι άτομα", "title_en": "The first time I cooked for twenty people", "type": "monologue", "level": "B2",
+ "context_el": "Ακούτε μια γυναίκα να διηγείται μια οικογενειακή γιορτή σε ένα podcast για τη μαγειρική.",
+ "script": [
+  L("Ομιλήτρια", "f", "Πέρσι, για τα εβδομήντα χρόνια του πατέρα μου, αποφάσισα να μαγειρέψω μόνη μου για όλη την οικογένεια. Ήμασταν είκοσι άτομα, και μέχρι τότε δεν είχα μαγειρέψει ποτέ για περισσότερους από έξι.", "Last year, for my father's seventieth birthday, I decided to cook for the whole family by myself. There were twenty of us, and until then I had never cooked for more than six."),
+  L("Ομιλήτρια", "f", "Η μητέρα μου προσφέρθηκε να βοηθήσει, αλλά εγώ επέμενα να τα κάνω όλα μόνη μου. Έφτιαξα παστίτσιο σε δύο μεγάλα ταψιά, μια χωριάτικη σαλάτα και τυρόπιτα. Το πρόβλημα ήταν ότι ο φούρνος μου χωρούσε μόνο ένα ταψί τη φορά, και είχα υπολογίσει λάθος τον χρόνο.", "My mother offered to help, but I insisted on doing everything myself. I made pastitsio in two big baking trays, a Greek salad and a cheese pie. The problem was that my oven held only one tray at a time, and I had miscalculated the time."),
+  L("Ομιλήτρια", "f", "Όταν έφτασαν οι καλεσμένοι, το δεύτερο παστίτσιο ήταν ακόμα ωμό. Στο τέλος, η γειτόνισσα το έψησε στον δικό της φούρνο, και φάγαμε με μία ώρα καθυστέρηση. Κανείς δεν παραπονέθηκε, και ο πατέρας μου είπε ότι ήταν το καλύτερο παστίτσιο της ζωής του. Από τότε, πάντως, δέχομαι πάντα βοήθεια.", "When the guests arrived, the second pastitsio was still raw. In the end, the neighbour baked it in her own oven, and we ate an hour late. Nobody complained, and my father said it was the best pastitsio of his life. Since then, though, I always accept help."),
+ ],
+ "questions": [
+  Q("Για πόσα άτομα είχε μαγειρέψει το πολύ μέχρι τότε;", ["Για δέκα", "Για έξι", "Για είκοσι", "Για δύο"], 1, "δεν είχα μαγειρέψει ποτέ για περισσότερους από έξι"),
+  Q("Ποιο ήταν το πρόβλημα με τον φούρνο;", ["Χάλασε την ώρα του μαγειρέματος", "Δεν ζεσταινόταν αρκετά", "Ήταν πολύ μικρός για την τυρόπιτα", "Χωρούσε μόνο ένα ταψί τη φορά"], 3, "ο φούρνος μου χωρούσε μόνο ένα ταψί τη φορά"),
+  Q("Πώς λύθηκε το πρόβλημα με το δεύτερο παστίτσιο;", ["Το έψησε η γειτόνισσα στον δικό της φούρνο", "Το έφαγαν την επόμενη μέρα", "Παρήγγειλαν φαγητό", "Το έψησε η μητέρα της"], 0, "η γειτόνισσα το έψησε στον δικό της φούρνο"),
+ ],
+ "gloss": {"προσφέρθηκε": "προσφέρομαι — to offer", "επέμενα": "επιμένω — to insist", "παστίτσιο": "παστίτσιο — pastitsio (baked pasta)", "ταψιά": "ταψί — baking tray", "υπολογίσει": "υπολογίζω — to calculate", "καλεσμένοι": "καλεσμένος — guest", "ωμό": "ωμός — raw", "παραπονέθηκε": "παραπονιέμαι — to complain"}
+})
+
+ITEMS.append({
+ "id": "l102-c1-galazio-kai-mple", "title": "Γαλάζιο και μπλε: επηρεάζει η γλώσσα πώς βλέπουμε;", "title_en": "Light blue and blue: does language affect how we see?", "type": "monologue", "level": "C1",
+ "context_el": "Ακούτε απόσπασμα από μια ραδιοφωνική εκπομπή για τη γλώσσα.",
+ "script": [
+  L("Ομιλητής", "m", "Στα αγγλικά, το ανοιχτό και το σκούρο μπλε είναι αποχρώσεις του ίδιου χρώματος. Στα ελληνικά, αντίθετα, το γαλάζιο και το μπλε λειτουργούν ως δύο ξεχωριστά βασικά χρώματα, όπως το πράσινο και το κίτρινο. Οι περισσότεροι Έλληνες, μάλιστα, θα έλεγαν ότι ο καθαρός ουρανός είναι γαλάζιος, όχι μπλε.", "In English, light and dark blue are shades of the same colour. In Greek, by contrast, galazio and ble function as two separate basic colours, like green and yellow. Most Greeks, in fact, would say that a clear sky is galazios, not ble."),
+  L("Ομιλητής", "m", "Το 2009 μια ομάδα ερευνητών, με επικεφαλής τον ψυχογλωσσολόγο Γκιγιόμ Τιερί, μελέτησε αυτή τη διαφορά. Οι συμμετέχοντες, Έλληνες και Αγγλόφωνοι, έβλεπαν σε μια οθόνη σχήματα σε διάφορες αποχρώσεις, ενώ οι ερευνητές κατέγραφαν την ηλεκτρική δραστηριότητα του εγκεφάλου τους. Ο εγκέφαλος των Ελλήνων αντιδρούσε πιο έντονα στη διαφορά ανάμεσα στο γαλάζιο και το μπλε, ενώ στις αποχρώσεις του πράσινου οι δύο ομάδες δεν διέφεραν.", "In 2009 a team of researchers led by the psycholinguist Guillaume Thierry studied this difference. The participants, Greek and English speakers, looked at shapes in various shades on a screen while the researchers recorded the electrical activity of their brains. The Greeks' brains reacted more strongly to the difference between light and dark blue, while for shades of green the two groups did not differ."),
+  L("Ομιλητής", "m", "Αυτό δεν σημαίνει ότι οι Αγγλόφωνοι δεν μπορούν να ξεχωρίσουν τις δύο αποχρώσεις· φυσικά και μπορούν. Σημαίνει όμως ότι οι λέξεις που έχουμε φαίνεται να επηρεάζουν, σε ένα ασυνείδητο και πολύ πρώιμο στάδιο, το πόσο εύκολα παρατηρούμε μια διαφορά.", "This does not mean that English speakers cannot tell the two shades apart; of course they can. It does mean, though, that the words we have seem to influence, at an unconscious and very early stage, how easily we notice a difference."),
+  L("Ομιλητής", "m", "Η ιδέα ότι η γλώσσα διαμορφώνει τη σκέψη έχει μακρά και αμφιλεγόμενη ιστορία. Οι ακραίες εκδοχές της, ότι δηλαδή δεν μπορούμε να σκεφτούμε κάτι για το οποίο δεν έχουμε λέξη, έχουν σε μεγάλο βαθμό εγκαταλειφθεί. Μελέτες όπως αυτή, ωστόσο, δείχνουν ότι μια πιο μετριοπαθής εκδοχή αξίζει να εξεταστεί σοβαρά.", "The idea that language shapes thought has a long and controversial history. Its extreme versions, namely that we cannot think of something for which we have no word, have largely been abandoned. Studies like this one, however, show that a more moderate version deserves to be taken seriously."),
+ ],
+ "questions": [
+  Q("Σε τι διαφέρουν τα ελληνικά από τα αγγλικά ως προς το μπλε;", ["Τα ελληνικά δεν έχουν λέξη για το σκούρο μπλε", "Στα ελληνικά το γαλάζιο και το μπλε λειτουργούν ως δύο ξεχωριστά βασικά χρώματα", "Τα αγγλικά έχουν περισσότερες λέξεις για το μπλε", "Δεν υπάρχει καμία διαφορά"], 1, "το γαλάζιο και το μπλε λειτουργούν ως δύο ξεχωριστά βασικά χρώματα"),
+  Q("Τι κατέγραφαν οι ερευνητές;", ["Τις απαντήσεις των συμμετεχόντων σε ερωτηματολόγιο", "Τον χρόνο που χρειάζονταν για να ονομάσουν τα χρώματα", "Την ηλεκτρική δραστηριότητα του εγκεφάλου τους", "Τις κινήσεις των ματιών τους"], 2, "κατέγραφαν την ηλεκτρική δραστηριότητα του εγκεφάλου τους"),
+  Q("Τι συνέβη με τις αποχρώσεις του πράσινου;", ["Οι Έλληνες αντιδρούσαν πιο έντονα", "Οι Αγγλόφωνοι αντιδρούσαν πιο έντονα", "Δεν εξετάστηκαν", "Οι δύο ομάδες δεν διέφεραν"], 3, "στις αποχρώσεις του πράσινου οι δύο ομάδες δεν διέφεραν"),
+  Q("Ποια είναι η στάση του ομιλητή για την ιδέα ότι η γλώσσα διαμορφώνει τη σκέψη;", ["Πιστεύει ότι μια πιο μετριοπαθής εκδοχή της αξίζει να εξεταστεί σοβαρά", "Την απορρίπτει εντελώς", "Δέχεται την ακραία εκδοχή της", "Θεωρεί ότι έχει αποδειχθεί οριστικά"], 0, "μια πιο μετριοπαθής εκδοχή αξίζει να εξεταστεί σοβαρά"),
+ ],
+ "gloss": {"αποχρώσεις": "απόχρωση — shade", "ξεχωριστά": "ξεχωριστός — separate", "επικεφαλής": "επικεφαλής — head, leader", "ψυχογλωσσολόγο": "ψυχογλωσσολόγος — psycholinguist", "δραστηριότητα": "δραστηριότητα — activity", "ξεχωρίσουν": "ξεχωρίζω — to tell apart", "ασυνείδητο": "ασυνείδητος — unconscious", "πρώιμο": "πρώιμος — early", "αμφιλεγόμενη": "αμφιλεγόμενος — controversial", "εγκαταλειφθεί": "εγκαταλείπω — to abandon", "μετριοπαθής": "μετριοπαθής — moderate"}
+})
+
+ITEMS.append({
+ "id": "l102-c1-kritikes-sto-diadiktyo", "title": "Μπορούμε να εμπιστευόμαστε τις κριτικές στο διαδίκτυο;", "title_en": "Can we trust online reviews?", "type": "interview", "level": "C1",
+ "context_el": "Σε μια εκπομπή για τους καταναλωτές, ένας δημοσιογράφος συζητά με μια ερευνήτρια της καταναλωτικής συμπεριφοράς.",
+ "script": [
+  L("Δημοσιογράφος", "m", "Πριν κλείσουμε ένα ξενοδοχείο ή ένα τραπέζι σε εστιατόριο, οι περισσότεροι κοιτάμε τις κριτικές. Πόσο αξιόπιστες είναι;", "Before booking a hotel or a table at a restaurant, most of us look at the reviews. How reliable are they?"),
+  L("Ερευνήτρια", "f", "Λιγότερο απ' όσο νομίζουμε, για δύο λόγους. Ο πρώτος είναι οι ψεύτικες κριτικές, που γράφονται είτε από τις ίδιες τις επιχειρήσεις είτε από εταιρείες που πληρώνονται γι' αυτό. Οι πλατφόρμες αφαιρούν κάθε χρόνο μεγάλο αριθμό τέτοιων κριτικών, αλλά κανείς δεν ξέρει πόσες ξεφεύγουν.", "Less than we think, for two reasons. The first is fake reviews, which are written either by the businesses themselves or by companies that are paid to do it. The platforms remove a large number of such reviews every year, but nobody knows how many slip through."),
+  L("Δημοσιογράφος", "m", "Και ο δεύτερος;", "And the second?"),
+  L("Ερευνήτρια", "f", "Ο δεύτερος είναι πιο ύπουλος, γιατί αφορά τις γνήσιες κριτικές. Γράφουν κυρίως όσοι έμειναν είτε ενθουσιασμένοι είτε πολύ απογοητευμένοι. Όσοι πέρασαν απλώς καλά σπάνια μπαίνουν στον κόπο. Έτσι, η εικόνα που σχηματίζουμε είναι παραμορφωμένη: βλέπουμε πολλά άστρα και μερικές καταστροφές, αλλά λίγα από τα ενδιάμεσα.", "The second is more insidious, because it concerns genuine reviews. It is mainly people who were either delighted or very disappointed who write. Those who simply had a good time rarely bother. So the picture we form is distorted: we see lots of stars and a few disasters, but little of what lies in between."),
+  L("Δημοσιογράφος", "m", "Τι συμβουλεύετε, λοιπόν;", "What do you advise, then?"),
+  L("Ερευνήτρια", "f", "Να διαβάζουμε το περιεχόμενο και όχι μόνο τον μέσο όρο. Μια κριτική που περιγράφει συγκεκριμένα πράγματα, όπως ότι το δωμάτιο έβλεπε σε εργοτάξιο, είναι πιο χρήσιμη από δέκα που λένε απλώς «τέλεια». Και να προσέχουμε τις ημερομηνίες: μια ξαφνική βροχή θετικών κριτικών μέσα σε λίγες μέρες είναι συνήθως ύποπτη.", "To read the content and not just the average. A review that describes specific things, such as the room looking out onto a building site, is more useful than ten that just say 'perfect'. And to watch the dates: a sudden shower of positive reviews within a few days is usually suspicious."),
+ ],
+ "questions": [
+  Q("Ποιοι γράφουν, σύμφωνα με την ερευνήτρια, τις ψεύτικες κριτικές;", ["Μόνο οι ανταγωνιστές", "Οι πλατφόρμες", "Οι ίδιες οι επιχειρήσεις ή εταιρείες που πληρώνονται γι' αυτό", "Δυσαρεστημένοι πελάτες"], 2, "γράφονται είτε από τις ίδιες τις επιχειρήσεις είτε από εταιρείες που πληρώνονται γι' αυτό"),
+  Q("Γιατί είναι παραμορφωμένη η εικόνα που δίνουν και οι γνήσιες κριτικές;", ["Γιατί γράφουν κυρίως όσοι έμειναν ενθουσιασμένοι ή πολύ απογοητευμένοι", "Γιατί είναι πολύ σύντομες", "Γιατί είναι παλιές", "Γιατί γράφονται σε πολλές γλώσσες"], 0, "Γράφουν κυρίως όσοι έμειναν είτε ενθουσιασμένοι είτε πολύ απογοητευμένοι"),
+  Q("Ποια κριτική θεωρεί πιο χρήσιμη;", ["Αυτή με τα περισσότερα άστρα", "Μια κριτική που περιγράφει συγκεκριμένα πράγματα", "Την πιο πρόσφατη", "Αυτή που γράφει ένας επαγγελματίας κριτικός"], 1, "Μια κριτική που περιγράφει συγκεκριμένα πράγματα"),
+  Q("Τι είναι συνήθως ύποπτο;", ["Μια αρνητική κριτική", "Ένας χαμηλός μέσος όρος", "Κριτικές χωρίς φωτογραφίες", "Μια ξαφνική βροχή θετικών κριτικών μέσα σε λίγες μέρες"], 3, "μια ξαφνική βροχή θετικών κριτικών μέσα σε λίγες μέρες είναι συνήθως ύποπτη"),
+ ],
+ "gloss": {"αξιόπιστες": "αξιόπιστος — reliable", "ψεύτικες": "ψεύτικος — fake", "αφαιρούν": "αφαιρώ — to remove", "ξεφεύγουν": "ξεφεύγω — to slip through", "ύπουλος": "ύπουλος — insidious", "γνήσιες": "γνήσιος — genuine", "απογοητευμένοι": "απογοητευμένος — disappointed", "παραμορφωμένη": "παραμορφωμένος — distorted", "εργοτάξιο": "εργοτάξιο — building site", "ύποπτη": "ύποπτος — suspicious"}
+})
+
+rnd = random.Random(102)  # spread the right answers over the four positions (the page shows options in file order)
+for it in ITEMS:
+    for q in it["questions"]: rnd.shuffle(q["options"])
+for it in ITEMS:
+    for q in it["questions"]: assert q["answer"] in q["options"], (it["id"], q["q"])
+    for k in it["gloss"]:
+        if not (any(k in s["el"] for s in it["script"]) or k in it["context_el"]): raise SystemExit(f"gloss key not in text: {it['id']} {k}")
+root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+with open(os.path.join(root, "library", "listening", "listening-102.json"), "w", encoding="utf-8") as fh:
+    json.dump({"items": ITEMS}, fh, ensure_ascii=False, indent=1); fh.write("\n")
+print(len(ITEMS), "items,", sum(len(i["questions"]) for i in ITEMS), "questions")
