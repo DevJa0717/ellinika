@@ -1,0 +1,834 @@
+{
+ "items": [
+  {
+   "id": "l120-ann-kolymvitirio-syntirisi",
+   "title": "Κλειστό το δημοτικό κολυμβητήριο για συντήρηση",
+   "title_en": "The municipal pool closes for maintenance",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Βρίσκεστε στο δημοτικό κολυμβητήριο, όπου κολυμπάτε τακτικά. Ακούτε μια ανακοίνωση από τα μεγάφωνα.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Αγαπητοί κολυμβητές, σας ενημερώνουμε ότι από την ερχόμενη Δευτέρα το κολυμβητήριο θα παραμείνει κλειστό για δύο εβδομάδες, λόγω εργασιών συντήρησης. Θα αλλάξουν τα φίλτρα του νερού και θα επισκευαστούν τα πλακάκια στον πάτο της μεγάλης πισίνας.",
+     "en": "Dear swimmers, we would like to inform you that from next Monday the pool will remain closed for two weeks for maintenance work. The water filters will be replaced and the tiles at the bottom of the large pool will be repaired."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Κατά τη διάρκεια των εργασιών, οι κάτοχοι μηνιαίας κάρτας μπορούν να κολυμπούν δωρεάν στο κολυμβητήριο του γειτονικού δήμου, δείχνοντας την κάρτα τους στην είσοδο. Οι μέρες που θα χάσετε θα προστεθούν αυτόματα στη συνδρομή σας.",
+     "en": "During the work, holders of a monthly card can swim free of charge at the pool of the neighbouring municipality by showing their card at the entrance. The days you miss will be added automatically to your membership."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Τα μαθήματα κολύμβησης για παιδιά δεν θα ακυρωθούν. Θα γίνονται στη μικρή πισίνα, που δεν επηρεάζεται από τις εργασίες, τις ίδιες μέρες και ώρες. Ευχαριστούμε για την κατανόηση.",
+     "en": "Children's swimming lessons will not be cancelled. They will take place in the small pool, which is not affected by the work, on the same days and at the same times. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θα κλείσει το κολυμβητήριο;",
+     "options": [
+      "Λόγω έλλειψης προσωπικού",
+      "Λόγω αγώνων κολύμβησης",
+      "Λόγω απεργίας",
+      "Λόγω εργασιών συντήρησης"
+     ],
+     "answer": "Λόγω εργασιών συντήρησης",
+     "why": "λόγω εργασιών συντήρησης"
+    },
+    {
+     "q": "Τι μπορούν να κάνουν οι κάτοχοι μηνιαίας κάρτας στο διάστημα αυτό;",
+     "options": [
+      "Να κολυμπούν δωρεάν στο κολυμβητήριο του γειτονικού δήμου",
+      "Να γυμνάζονται στο γυμναστήριο του κολυμβητηρίου",
+      "Να κολυμπήσουν στη θάλασσα με τον σύλλογο",
+      "Να πάρουν πίσω τα χρήματά τους"
+     ],
+     "answer": "Να κολυμπούν δωρεάν στο κολυμβητήριο του γειτονικού δήμου",
+     "why": "μπορούν να κολυμπούν δωρεάν στο κολυμβητήριο του γειτονικού δήμου"
+    },
+    {
+     "q": "Τι θα γίνει με τα μαθήματα για παιδιά;",
+     "options": [
+      "Θα γίνονται στη μικρή πισίνα τις ίδιες μέρες και ώρες",
+      "Θα γίνονται στο γειτονικό κολυμβητήριο",
+      "Θα μετακινηθούν στο Σαββατοκύριακο",
+      "Θα ακυρωθούν για δύο εβδομάδες"
+     ],
+     "answer": "Θα γίνονται στη μικρή πισίνα τις ίδιες μέρες και ώρες",
+     "why": "Θα γίνονται στη μικρή πισίνα"
+    }
+   ],
+   "gloss": {
+    "κολυμβητήριο": "κολυμβητήριο — swimming pool (complex)",
+    "μεγάφωνα": "μεγάφωνο — loudspeaker",
+    "συντήρησης": "συντήρηση — maintenance",
+    "φίλτρα": "φίλτρο — filter",
+    "πλακάκια": "πλακάκι — tile",
+    "κάτοχοι": "κάτοχος — holder",
+    "γειτονικού": "γειτονικός — neighbouring",
+    "συνδρομή": "συνδρομή — membership, subscription",
+    "επηρεάζεται": "επηρεάζομαι — to be affected",
+    "κατανόηση": "κατανόηση — understanding"
+   }
+  },
+  {
+   "id": "l120-vm-foititiki-estia",
+   "title": "Μήνυμα από τη φοιτητική εστία",
+   "title_en": "A message from the student residence",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Έχετε κάνει αίτηση για ένα δωμάτιο σε φοιτητική εστία. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλησπέρα σας, από τη γραμματεία της φοιτητικής εστίας σας καλώ. Με χαρά σας ενημερώνω ότι η αίτησή σας εγκρίθηκε και σας έχει δοθεί ένα μονόκλινο δωμάτιο στο κτίριο Β, στον τρίτο όροφο.",
+     "en": "Good evening, I'm calling from the office of the student residence. I'm pleased to inform you that your application has been approved and you have been given a single room in building B, on the third floor."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Για να κρατήσετε τη θέση σας, πρέπει να έρθετε μέχρι την Πέμπτη με την αστυνομική σας ταυτότητα, μια φωτογραφία και μια βεβαίωση εγγραφής από τη σχολή σας. Αν δεν έρθετε ως τότε, το δωμάτιο θα δοθεί στον επόμενο στη λίστα.",
+     "en": "To keep your place, you must come by Thursday with your identity card, a photograph and a certificate of enrolment from your school. If you don't come by then, the room will be given to the next person on the list."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Να ξέρετε ότι στα δωμάτια δεν επιτρέπονται ηλεκτρικές εστίες μαγειρέματος, για λόγους ασφαλείας. Σε κάθε όροφο όμως υπάρχει κοινή κουζίνα, και το εστιατόριο της εστίας προσφέρει δωρεάν σίτιση στους δικαιούχους.",
+     "en": "Please note that electric hotplates are not allowed in the rooms for safety reasons. On each floor, however, there is a shared kitchen, and the residence restaurant offers free meals to those who are eligible."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι δωμάτιο πήρε ο ακροατής;",
+     "options": [
+      "Ένα μονόκλινο δωμάτιο στο κτίριο Β, στον τρίτο όροφο",
+      "Ένα δίκλινο στο ισόγειο",
+      "Ένα δωμάτιο σε άλλη εστία",
+      "Ένα στούντιο με κουζίνα"
+     ],
+     "answer": "Ένα μονόκλινο δωμάτιο στο κτίριο Β, στον τρίτο όροφο",
+     "why": "ένα μονόκλινο δωμάτιο στο κτίριο Β, στον τρίτο όροφο"
+    },
+    {
+     "q": "Τι θα γίνει αν δεν πάει ως την Πέμπτη;",
+     "options": [
+      "Θα του δώσουν δωμάτιο σε άλλο κτίριο",
+      "Θα πρέπει να κάνει νέα αίτηση την άλλη χρονιά",
+      "Το δωμάτιο θα δοθεί στον επόμενο στη λίστα",
+      "Θα πληρώσει πρόστιμο"
+     ],
+     "answer": "Το δωμάτιο θα δοθεί στον επόμενο στη λίστα",
+     "why": "το δωμάτιο θα δοθεί στον επόμενο στη λίστα"
+    },
+    {
+     "q": "Τι δεν επιτρέπεται στα δωμάτια;",
+     "options": [
+      "Μουσική μετά τα μεσάνυχτα",
+      "Επισκέπτες μετά τις δέκα",
+      "Ηλεκτρικές εστίες μαγειρέματος",
+      "Κατοικίδια ζώα"
+     ],
+     "answer": "Ηλεκτρικές εστίες μαγειρέματος",
+     "why": "στα δωμάτια δεν επιτρέπονται ηλεκτρικές εστίες μαγειρέματος"
+    }
+   ],
+   "gloss": {
+    "φοιτητική": "φοιτητικός — student (adj.)",
+    "εστία": "εστία — (student) residence; also hotplate",
+    "γραμματεία": "γραμματεία — office, secretariat",
+    "εγκρίθηκε": "εγκρίνομαι — to be approved",
+    "μονόκλινο": "μονόκλινο — single room",
+    "αστυνομική σας ταυτότητα": "αστυνομική ταυτότητα — identity card",
+    "βεβαίωση εγγραφής": "βεβαίωση εγγραφής — certificate of enrolment",
+    "επιτρέπονται": "επιτρέπομαι — to be allowed",
+    "σίτιση": "σίτιση — meals, board",
+    "δικαιούχους": "δικαιούχος — eligible person, beneficiary"
+   }
+  },
+  {
+   "id": "l120-dial-defteri-xeni-glossa",
+   "title": "Ποια δεύτερη ξένη γλώσσα για την κόρη μας;",
+   "title_en": "Which second foreign language for our daughter?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ο Μιχάλης και η Ζωή συζητούν ποια δεύτερη ξένη γλώσσα θα μάθει η δεκάχρονη κόρη τους, η Ηλέκτρα, που ήδη μαθαίνει αγγλικά.",
+   "script": [
+    {
+     "speaker": "Ζωή",
+     "voice": "f",
+     "el": "Μιχάλη, πρέπει να αποφασίσουμε μέχρι την Παρασκευή για τη δεύτερη ξένη γλώσσα της Ηλέκτρας. Το φροντιστήριο προσφέρει γαλλικά, γερμανικά, ισπανικά και, από φέτος, κινέζικα.",
+     "en": "Michalis, we have to decide by Friday about Electra's second foreign language. The language school offers French, German, Spanish and, from this year, Chinese."
+    },
+    {
+     "speaker": "Μιχάλης",
+     "voice": "m",
+     "el": "Εγώ λέω γερμανικά. Είναι χρήσιμα για σπουδές και για δουλειά, και ο ξάδερφός της μένει στο Μόναχο. Θα έχει και με ποιον να τα μιλάει.",
+     "en": "I say German. It's useful for studies and for work, and her cousin lives in Munich. She'll also have someone to speak it with."
+    },
+    {
+     "speaker": "Ζωή",
+     "voice": "f",
+     "el": "Ναι, αλλά εκείνη ζητάει ισπανικά, επειδή βλέπει μια ισπανική σειρά με υπότιτλους και της αρέσουν τα τραγούδια. Σε αυτή την ηλικία, αν δεν της αρέσει κάτι, θα το παρατήσει σε έναν χρόνο.",
+     "en": "Yes, but she's asking for Spanish, because she watches a Spanish series with subtitles and she likes the songs. At this age, if she doesn't like something, she'll give it up within a year."
+    },
+    {
+     "speaker": "Μιχάλης",
+     "voice": "m",
+     "el": "Έχεις δίκιο ότι το κίνητρο μετράει πολύ. Και τα κινέζικα; Δεν θα ήταν ένα μεγάλο προσόν στο μέλλον;",
+     "en": "You're right that motivation counts for a lot. And Chinese? Wouldn't it be a big advantage in the future?"
+    },
+    {
+     "speaker": "Ζωή",
+     "voice": "f",
+     "el": "Ίσως, αλλά τα μαθήματα είναι μόνο μία φορά την εβδομάδα και ο δάσκαλος έρχεται από άλλη πόλη. Ας ξεκινήσει ισπανικά, που τα θέλει η ίδια, και αν αργότερα της αρέσουν οι γλώσσες, μπορεί να προσθέσει και τρίτη.",
+     "en": "Maybe, but the lessons are only once a week and the teacher comes from another town. Let her start Spanish, which she wants herself, and if later on she likes languages, she can add a third."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο Μιχάλης προτιμά τα γερμανικά;",
+     "options": [
+      "Γιατί το πρότεινε η δασκάλα",
+      "Γιατί τα έμαθε κι ο ίδιος",
+      "Γιατί είναι χρήσιμα για σπουδές και δουλειά και ο ξάδερφός της μένει στο Μόναχο",
+      "Γιατί είναι πιο φθηνά τα μαθήματα"
+     ],
+     "answer": "Γιατί είναι χρήσιμα για σπουδές και δουλειά και ο ξάδερφός της μένει στο Μόναχο",
+     "why": "Είναι χρήσιμα για σπουδές και για δουλειά, και ο ξάδερφός της μένει στο Μόναχο"
+    },
+    {
+     "q": "Γιατί η Ηλέκτρα θέλει ισπανικά;",
+     "options": [
+      "Γιατί είναι εύκολη γλώσσα",
+      "Γιατί θα πάει διακοπές στην Ισπανία",
+      "Γιατί βλέπει μια ισπανική σειρά και της αρέσουν τα τραγούδια",
+      "Γιατί οι φίλες της μαθαίνουν ισπανικά"
+     ],
+     "answer": "Γιατί βλέπει μια ισπανική σειρά και της αρέσουν τα τραγούδια",
+     "why": "βλέπει μια ισπανική σειρά με υπότιτλους και της αρέσουν τα τραγούδια"
+    },
+    {
+     "q": "Ποια λύση προτείνει τελικά η Ζωή;",
+     "options": [
+      "Να μάθει δύο γλώσσες μαζί",
+      "Να ξεκινήσει κινέζικα",
+      "Να ξεκινήσει ισπανικά και αργότερα, αν θέλει, να προσθέσει τρίτη γλώσσα",
+      "Να περιμένουν έναν χρόνο"
+     ],
+     "answer": "Να ξεκινήσει ισπανικά και αργότερα, αν θέλει, να προσθέσει τρίτη γλώσσα",
+     "why": "Ας ξεκινήσει ισπανικά, που τα θέλει η ίδια"
+    }
+   ],
+   "gloss": {
+    "φροντιστήριο": "φροντιστήριο — (private) language school",
+    "κινέζικα": "κινέζικα — Chinese (language)",
+    "ξάδερφός": "ξάδερφος — cousin",
+    "υπότιτλους": "υπότιτλος — subtitle",
+    "παρατήσει": "παρατάω — to give up, quit",
+    "κίνητρο": "κίνητρο — motivation",
+    "μετράει": "μετράω — to count, matter",
+    "προσόν": "προσόν — asset, qualification",
+    "προσθέσει": "προσθέτω — to add"
+   }
+  },
+  {
+   "id": "l120-int-nomismatologos",
+   "title": "Μια νομισματολόγος",
+   "title_en": "A numismatist",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με τη Δανάη, νομισματολόγο σε ένα μουσείο, που μελετά αρχαία νομίσματα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Δανάη, τι μπορεί να μας πει ένα νόμισμα που ένα βιβλίο δεν μπορεί;",
+     "en": "Danae, what can a coin tell us that a book can't?"
+    },
+    {
+     "speaker": "Δανάη",
+     "voice": "f",
+     "el": "Πολλά. Τα νομίσματα είναι μικρά ντοκουμέντα της εποχής τους. Μας λένε ποιος κυβερνούσε, ποιους θεούς λάτρευαν, ακόμα και με ποιες πόλεις εμπορεύονταν οι άνθρωποι. Όταν βρίσκουμε αθηναϊκά νομίσματα με την κουκουβάγια σε μακρινές περιοχές, καταλαβαίνουμε πόσο μακριά έφταναν οι εμπορικοί δρόμοι.",
+     "en": "A lot. Coins are small documents of their time. They tell us who ruled, which gods people worshipped, even which cities they traded with. When we find Athenian coins with the owl in distant regions, we understand how far the trade routes reached."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πώς είναι μια μέρα στη δουλειά σας;",
+     "en": "What is a day at your work like?"
+    },
+    {
+     "speaker": "Δανάη",
+     "voice": "f",
+     "el": "Λιγότερο ρομαντική από όσο νομίζετε. Ζυγίζω, μετράω, φωτογραφίζω και καταγράφω κάθε νόμισμα σε μια βάση δεδομένων. Συχνά χρειάζομαι μεγεθυντικό φακό για να διαβάσω επιγραφές που έχουν σχεδόν σβηστεί.",
+     "en": "Less romantic than you think. I weigh, measure, photograph and record each coin in a database. I often need a magnifying glass to read inscriptions that have almost been worn away."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Υπάρχουν πλαστά αρχαία νομίσματα;",
+     "en": "Are there fake ancient coins?"
+    },
+    {
+     "speaker": "Δανάη",
+     "voice": "f",
+     "el": "Δυστυχώς, πάρα πολλά, και μερικά είναι εξαιρετικά καλές απομιμήσεις. Γι’ αυτό λέω πάντα στους συλλέκτες να μην αγοράζουν νομίσματα από το διαδίκτυο χωρίς πιστοποιητικό. Και να θυμούνται ότι η αγορά αρχαίων χωρίς άδεια είναι παράνομη.",
+     "en": "Unfortunately, very many, and some are extremely good imitations. That's why I always tell collectors not to buy coins online without a certificate. And to remember that buying antiquities without a licence is illegal."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι δείχνουν τα αθηναϊκά νομίσματα που βρίσκονται σε μακρινές περιοχές;",
+     "options": [
+      "Πόσο μακριά έφταναν οι εμπορικοί δρόμοι",
+      "Ότι τα νομίσματα ήταν πολύ φθηνά",
+      "Ότι οι κουκουβάγιες ζούσαν παντού",
+      "Ότι οι Αθηναίοι είχαν αποικίες παντού"
+     ],
+     "answer": "Πόσο μακριά έφταναν οι εμπορικοί δρόμοι",
+     "why": "καταλαβαίνουμε πόσο μακριά έφταναν οι εμπορικοί δρόμοι"
+    },
+    {
+     "q": "Πώς περιγράφει η Δανάη την καθημερινή της δουλειά;",
+     "options": [
+      "Γεμάτη περιπέτειες και ταξίδια",
+      "Λιγότερο ρομαντική από όσο νομίζουμε",
+      "Κυρίως ανασκαφές στο ύπαιθρο",
+      "Πολύ βαρετή"
+     ],
+     "answer": "Λιγότερο ρομαντική από όσο νομίζουμε",
+     "why": "Λιγότερο ρομαντική από όσο νομίζετε"
+    },
+    {
+     "q": "Τι συμβουλεύει τους συλλέκτες;",
+     "options": [
+      "Να μην αγοράζουν νομίσματα από το διαδίκτυο χωρίς πιστοποιητικό",
+      "Να δωρίζουν τα νομίσματα σε μουσεία",
+      "Να αγοράζουν μόνο χρυσά νομίσματα",
+      "Να καθαρίζουν τα νομίσματα με νερό"
+     ],
+     "answer": "Να μην αγοράζουν νομίσματα από το διαδίκτυο χωρίς πιστοποιητικό",
+     "why": "να μην αγοράζουν νομίσματα από το διαδίκτυο χωρίς πιστοποιητικό"
+    }
+   ],
+   "gloss": {
+    "νομισματολόγο": "νομισματολόγος — numismatist",
+    "νομίσματα": "νόμισμα — coin",
+    "ντοκουμέντα": "ντοκουμέντο — document, evidence",
+    "λάτρευαν": "λατρεύω — to worship",
+    "εμπορεύονταν": "εμπορεύομαι — to trade",
+    "κουκουβάγια": "κουκουβάγια — owl",
+    "Ζυγίζω": "ζυγίζω — to weigh",
+    "βάση δεδομένων": "βάση δεδομένων — database",
+    "μεγεθυντικό φακό": "μεγεθυντικός φακός — magnifying glass",
+    "επιγραφές": "επιγραφή — inscription",
+    "πλαστά": "πλαστός — fake, forged",
+    "απομιμήσεις": "απομίμηση — imitation",
+    "συλλέκτες": "συλλέκτης — collector"
+   }
+  },
+  {
+   "id": "l120-rep-noimatiki-sto-scholeio",
+   "title": "Μια τάξη μαθαίνει νοηματική γλώσσα",
+   "title_en": "A class learns sign language",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ για ένα δημοτικό σχολείο όπου τα παιδιά μιας τάξης μαθαίνουν την Ελληνική Νοηματική Γλώσσα.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Όταν ο Άγγελος, ένα κωφό αγόρι εννέα χρονών, ήρθε στο σχολείο τον Σεπτέμβριο, οι συμμαθητές του δεν ήξεραν πώς να του μιλήσουν. Η δασκάλα τους πρότεινε κάτι απλό: να μάθουν όλοι μαζί τη γλώσσα του.",
+     "en": "When Angelos, a nine-year-old deaf boy, came to the school in September, his classmates didn't know how to talk to him. Their teacher suggested something simple: that they all learn his language together."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Δύο φορές την εβδομάδα, μια δασκάλα νοηματικής, που είναι κι εκείνη κωφή, διδάσκει στην τάξη. Τα παιδιά έμαθαν πρώτα να λένε τα ονόματά τους με τα δάχτυλα και ύστερα λέξεις για το σχολείο, το φαγητό και το παιχνίδι. Σήμερα, στο διάλειμμα, πολλά από αυτά συνομιλούν με τον Άγγελο χωρίς βοήθεια.",
+     "en": "Twice a week, a sign language teacher, who is also deaf, teaches the class. The children first learned to spell their names with their fingers and then words for school, food and play. Today, at break time, many of them chat with Angelos without help."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Οι γονείς λένε ότι τα παιδιά έγιναν πιο προσεκτικά στο πώς επικοινωνούν: κοιτάζουν τον άλλον στα μάτια και περιμένουν τη σειρά τους. Το σχολείο σκοπεύει από του χρόνου να προσφέρει μαθήματα νοηματικής και στους γονείς, που το ζήτησαν οι ίδιοι.",
+     "en": "Parents say the children have become more attentive in how they communicate: they look the other person in the eye and wait their turn. From next year the school plans to offer sign language lessons to parents too, who asked for it themselves."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πρότεινε η δασκάλα όταν ήρθε ο Άγγελος;",
+     "options": [
+      "Να μάθουν όλοι μαζί τη γλώσσα του",
+      "Να έχει έναν βοηθό σε όλα τα μαθήματα",
+      "Να γράφουν σημειώματα",
+      "Να μεταφερθεί σε ειδικό σχολείο"
+     ],
+     "answer": "Να μάθουν όλοι μαζί τη γλώσσα του",
+     "why": "να μάθουν όλοι μαζί τη γλώσσα του"
+    },
+    {
+     "q": "Τι έμαθαν πρώτα τα παιδιά;",
+     "options": [
+      "Τραγούδια στη νοηματική",
+      "Να λένε τα ονόματά τους με τα δάχτυλα",
+      "Τα χρώματα και τους αριθμούς",
+      "Να διαβάζουν τα χείλη"
+     ],
+     "answer": "Να λένε τα ονόματά τους με τα δάχτυλα",
+     "why": "να λένε τα ονόματά τους με τα δάχτυλα"
+    },
+    {
+     "q": "Τι σκοπεύει να κάνει το σχολείο από του χρόνου;",
+     "options": [
+      "Να διδάσκει νοηματική σε όλες τις τάξεις",
+      "Να οργανώσει ένα θεατρικό στη νοηματική",
+      "Να προσφέρει μαθήματα νοηματικής και στους γονείς",
+      "Να προσλάβει κι άλλους κωφούς δασκάλους"
+     ],
+     "answer": "Να προσφέρει μαθήματα νοηματικής και στους γονείς",
+     "why": "να προσφέρει μαθήματα νοηματικής και στους γονείς"
+    }
+   ],
+   "gloss": {
+    "Νοηματική Γλώσσα": "νοηματική γλώσσα — sign language",
+    "κωφό": "κωφός — deaf",
+    "συμμαθητές": "συμμαθητής — classmate",
+    "διάλειμμα": "διάλειμμα — break (at school)",
+    "συνομιλούν": "συνομιλώ — to converse, chat",
+    "προσεκτικά": "προσεκτικός — attentive, careful",
+    "επικοινωνούν": "επικοινωνώ — to communicate",
+    "σκοπεύει": "σκοπεύω — to intend, plan"
+   }
+  },
+  {
+   "id": "l120-rep-scholeio-xananoigei",
+   "title": "Το σχολείο ενός χωριού ξανανοίγει",
+   "title_en": "A village school reopens",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ για ένα ορεινό χωριό της Αρκαδίας, όπου το δημοτικό σχολείο ξανανοίγει μετά από δώδεκα χρόνια.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Το κουδούνι του δημοτικού σχολείου είχε να χτυπήσει δώδεκα χρόνια. Φέτος τον Σεπτέμβριο ακούστηκε ξανά, γιατί στο χωριό εγκαταστάθηκαν τέσσερις οικογένειες από την Αθήνα και την Πάτρα, με εννέα παιδιά συνολικά.",
+     "en": "The bell of the primary school hadn't rung for twelve years. This September it was heard again, because four families from Athens and Patras settled in the village, with nine children altogether."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι περισσότεροι γονείς εργάζονται από απόσταση, μέσω διαδικτύου. Η κοινότητα τους βοήθησε να βρουν σπίτια με χαμηλό ενοίκιο, και ο δήμος επισκεύασε τη σκεπή του σχολείου και έφερε καινούργιους υπολογιστές.",
+     "en": "Most of the parents work remotely, online. The community helped them find houses with low rent, and the municipality repaired the school roof and brought new computers."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι ηλικιωμένοι του χωριού είναι οι πιο ενθουσιασμένοι. Κάποιοι έρχονται στο σχολείο και διηγούνται στα παιδιά ιστορίες από τα παλιά, ενώ ένας συνταξιούχος γεωπόνος φύτεψε μαζί τους έναν λαχανόκηπο στην αυλή. «Χωριό χωρίς παιδιά είναι χωριό χωρίς μέλλον», λέει ο πρόεδρος της κοινότητας.",
+     "en": "The elderly villagers are the most enthusiastic. Some come to the school and tell the children stories from the old days, while a retired agronomist planted a vegetable garden with them in the yard. \"A village without children is a village without a future\", says the community president."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ξανάνοιξε το σχολείο;",
+     "options": [
+      "Γιατί το αποφάσισε το υπουργείο",
+      "Γιατί στο χωριό εγκαταστάθηκαν τέσσερις οικογένειες με εννέα παιδιά",
+      "Γιατί χτίστηκε καινούργιο κτίριο",
+      "Γιατί έκλεισε το σχολείο της γειτονικής πόλης"
+     ],
+     "answer": "Γιατί στο χωριό εγκαταστάθηκαν τέσσερις οικογένειες με εννέα παιδιά",
+     "why": "στο χωριό εγκαταστάθηκαν τέσσερις οικογένειες από την Αθήνα και την Πάτρα"
+    },
+    {
+     "q": "Τι έκανε ο δήμος;",
+     "options": [
+      "Πλήρωσε τα ενοίκια των οικογενειών",
+      "Επισκεύασε τη σκεπή και έφερε καινούργιους υπολογιστές",
+      "Έφερε λεωφορείο για τα παιδιά",
+      "Προσέλαβε τρεις δασκάλους"
+     ],
+     "answer": "Επισκεύασε τη σκεπή και έφερε καινούργιους υπολογιστές",
+     "why": "ο δήμος επισκεύασε τη σκεπή του σχολείου και έφερε καινούργιους υπολογιστές"
+    },
+    {
+     "q": "Πώς συμμετέχουν οι ηλικιωμένοι του χωριού;",
+     "options": [
+      "Διηγούνται ιστορίες στα παιδιά και ένας φύτεψε μαζί τους λαχανόκηπο",
+      "Δίνουν χρήματα στο σχολείο",
+      "Μαγειρεύουν για τα παιδιά",
+      "Δεν συμμετέχουν καθόλου"
+     ],
+     "answer": "Διηγούνται ιστορίες στα παιδιά και ένας φύτεψε μαζί τους λαχανόκηπο",
+     "why": "Κάποιοι έρχονται στο σχολείο και διηγούνται στα παιδιά ιστορίες από τα παλιά"
+    }
+   ],
+   "gloss": {
+    "ξανανοίγει": "ξανανοίγω — to reopen",
+    "κουδούνι": "κουδούνι — bell",
+    "εγκαταστάθηκαν": "εγκαθίσταμαι — to settle",
+    "συνολικά": "συνολικά — in total",
+    "από απόσταση": "από απόσταση — remotely",
+    "ενοίκιο": "ενοίκιο — rent",
+    "σκεπή": "σκεπή — roof",
+    "ενθουσιασμένοι": "ενθουσιασμένος — enthusiastic",
+    "γεωπόνος": "γεωπόνος — agronomist",
+    "λαχανόκηπο": "λαχανόκηπος — vegetable garden"
+   }
+  },
+  {
+   "id": "l120-mon-ksechasa-tin-kori-mou",
+   "title": "Η μέρα που ξέχασα την κόρη μου στο πάρκο",
+   "title_en": "The day I forgot my daughter at the park",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ο Παναγιώτης, πατέρας δύο παιδιών, διηγείται σε μια εκπομπή για γονείς μια μέρα που δεν θα ξεχάσει ποτέ.",
+   "script": [
+    {
+     "speaker": "Παναγιώτης",
+     "voice": "m",
+     "el": "Ήταν ένα Σάββατο απόγευμα. Είχα πάει στο πάρκο με τα δύο παιδιά, τον εξάχρονο Νικόλα και την τετράχρονη Μυρτώ. Ο Νικόλας χτύπησε το γόνατό του, άρχισε να κλαίει, και εγώ τον σήκωσα αγκαλιά και έτρεξα στο αυτοκίνητο για να του βάλω ένα τσιρότο.",
+     "en": "It was a Saturday afternoon. I'd gone to the park with the two children, six-year-old Nikolas and four-year-old Myrto. Nikolas banged his knee and started crying, and I picked him up and ran to the car to put a plaster on it."
+    },
+    {
+     "speaker": "Παναγιώτης",
+     "voice": "m",
+     "el": "Τον έβαλα στο κάθισμα, του έδωσα ένα μπισκότο και ξεκίνησα για το σπίτι. Είχα κάνει περίπου δύο χιλιόμετρα, όταν ο Νικόλας με ρώτησε: «Μπαμπά, η Μυρτώ πού είναι;» Ένιωσα το αίμα μου να παγώνει.",
+     "en": "I put him in his seat, gave him a biscuit and set off for home. I'd gone about two kilometres when Nikolas asked me: \"Dad, where's Myrto?\" I felt my blood run cold."
+    },
+    {
+     "speaker": "Παναγιώτης",
+     "voice": "m",
+     "el": "Γύρισα πίσω πιο γρήγορα από ποτέ. Η Μυρτώ καθόταν ήσυχη στην κούνια, μαζί με μια κυρία που την είχε δει μόνη και περίμενε μαζί της. Ούτε που είχε καταλάβει ότι έλειπα. Από εκείνη τη μέρα, πριν βάλω μπρος το αυτοκίνητο, μετράω πάντα φωναχτά: ένα, δύο.",
+     "en": "I went back faster than ever. Myrto was sitting quietly on the swing, together with a lady who had seen her alone and was waiting with her. She hadn't even noticed I was gone. Since that day, before I start the car, I always count out loud: one, two."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί έτρεξε ο Παναγιώτης στο αυτοκίνητο;",
+     "options": [
+      "Γιατί άρχισε να βρέχει",
+      "Γιατί είχε ξεχάσει τα κλειδιά",
+      "Για να βάλει τσιρότο στο γόνατο του Νικόλα",
+      "Γιατί είχε αργήσει για το σπίτι"
+     ],
+     "answer": "Για να βάλει τσιρότο στο γόνατο του Νικόλα",
+     "why": "έτρεξα στο αυτοκίνητο για να του βάλω ένα τσιρότο"
+    },
+    {
+     "q": "Πώς κατάλαβε ότι η Μυρτώ έλειπε;",
+     "options": [
+      "Τον ρώτησε ο Νικόλας πού είναι",
+      "Του το είπε ένας γείτονας",
+      "Την είδε στον καθρέφτη",
+      "Του τηλεφώνησε η γυναίκα του"
+     ],
+     "answer": "Τον ρώτησε ο Νικόλας πού είναι",
+     "why": "ο Νικόλας με ρώτησε: «Μπαμπά, η Μυρτώ πού είναι;»"
+    },
+    {
+     "q": "Τι κάνει από τότε ο Παναγιώτης;",
+     "options": [
+      "Μετράει φωναχτά τα παιδιά πριν βάλει μπρος το αυτοκίνητο",
+      "Πηγαίνει μόνο με ένα παιδί κάθε φορά",
+      "Ζητάει πάντα από τη γυναίκα του να έρχεται μαζί",
+      "Δεν πηγαίνει πια στο πάρκο"
+     ],
+     "answer": "Μετράει φωναχτά τα παιδιά πριν βάλει μπρος το αυτοκίνητο",
+     "why": "πριν βάλω μπρος το αυτοκίνητο, μετράω πάντα φωναχτά"
+    }
+   ],
+   "gloss": {
+    "γόνατό": "γόνατο — knee",
+    "αγκαλιά": "αγκαλιά — in one's arms",
+    "τσιρότο": "τσιρότο — plaster, band-aid",
+    "κάθισμα": "κάθισμα — (car) seat",
+    "παγώνει": "παγώνω — to freeze, run cold",
+    "κούνια": "κούνια — swing",
+    "βάλω μπρος": "βάζω μπρος — to start (an engine)",
+    "φωναχτά": "φωναχτά — out loud"
+   }
+  },
+  {
+   "id": "l120-mon-kamino",
+   "title": "Περπάτησα το Καμίνο του Σαντιάγο",
+   "title_en": "I walked the Camino de Santiago",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Η Ειρήνη, μια φαρμακοποιός πενήντα δύο χρονών, μιλάει για το προσκύνημα που έκανε με τα πόδια στη βόρεια Ισπανία.",
+   "script": [
+    {
+     "speaker": "Ειρήνη",
+     "voice": "f",
+     "el": "Μετά από ένα δύσκολο διαζύγιο, ένιωθα ότι χρειαζόμουν χρόνο μόνη μου. Μια φίλη μού μίλησε για το Καμίνο του Σαντιάγο, ένα πανάρχαιο προσκύνημα που καταλήγει στον καθεδρικό ναό του Σαντιάγο ντε Κομποστέλα. Αποφάσισα να περπατήσω τα τελευταία τριακόσια χιλιόμετρα.",
+     "en": "After a difficult divorce, I felt I needed time on my own. A friend told me about the Camino de Santiago, an age-old pilgrimage that ends at the cathedral of Santiago de Compostela. I decided to walk the last three hundred kilometres."
+    },
+    {
+     "speaker": "Ειρήνη",
+     "voice": "f",
+     "el": "Περπατούσα περίπου είκοσι πέντε χιλιόμετρα τη μέρα και κοιμόμουν σε ξενώνες για προσκυνητές, σε μεγάλα δωμάτια με κουκέτες. Κάθε βράδυ έπαιρνα μια σφραγίδα σε ένα μικρό βιβλιαράκι, το «διαβατήριο του προσκυνητή». Τις πρώτες μέρες οι φουσκάλες στα πόδια μου ήταν τόσες, που σκέφτηκα να τα παρατήσω.",
+     "en": "I walked about twenty-five kilometres a day and slept in hostels for pilgrims, in large rooms with bunk beds. Every evening I got a stamp in a small booklet, the \"pilgrim's passport\". In the first days I had so many blisters on my feet that I thought of giving up."
+    },
+    {
+     "speaker": "Ειρήνη",
+     "voice": "f",
+     "el": "Αυτό που με κράτησε ήταν οι άνθρωποι. Περπάτησα με μια Κορεάτισσα δασκάλα, με έναν Ιταλό συνταξιούχο, με δύο Γερμανούς φοιτητές. Μιλούσαμε για όλα, ή δεν μιλούσαμε καθόλου. Όταν έφτασα στον καθεδρικό, έκλαψα. Όχι από κούραση, αλλά γιατί κατάλαβα ότι μπορώ να συνεχίσω μόνη μου.",
+     "en": "What kept me going was the people. I walked with a Korean teacher, with an Italian pensioner, with two German students. We talked about everything, or we didn't talk at all. When I reached the cathedral, I cried. Not from tiredness, but because I realised I could go on on my own."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί αποφάσισε η Ειρήνη να κάνει το Καμίνο;",
+     "options": [
+      "Γιατί ένιωθε ότι χρειαζόταν χρόνο μόνη της μετά από ένα δύσκολο διαζύγιο",
+      "Για να χάσει βάρος",
+      "Για να γράψει ένα βιβλίο",
+      "Γιατί της το πρότεινε ο γιατρός"
+     ],
+     "answer": "Γιατί ένιωθε ότι χρειαζόταν χρόνο μόνη της μετά από ένα δύσκολο διαζύγιο",
+     "why": "ένιωθα ότι χρειαζόμουν χρόνο μόνη μου"
+    },
+    {
+     "q": "Τι ήταν το «διαβατήριο του προσκυνητή»;",
+     "options": [
+      "Ένα εισιτήριο για τους ξενώνες",
+      "Ένας χάρτης της διαδρομής",
+      "Ένα βιβλιαράκι όπου έπαιρνε σφραγίδα κάθε βράδυ",
+      "Μια ειδική βίζα"
+     ],
+     "answer": "Ένα βιβλιαράκι όπου έπαιρνε σφραγίδα κάθε βράδυ",
+     "why": "Κάθε βράδυ έπαιρνα μια σφραγίδα σε ένα μικρό βιβλιαράκι"
+    },
+    {
+     "q": "Γιατί έκλαψε όταν έφτασε στον καθεδρικό;",
+     "options": [
+      "Γιατί ο ναός ήταν κλειστός",
+      "Γιατί κατάλαβε ότι μπορεί να συνεχίσει μόνη της",
+      "Γιατί έπρεπε να αποχαιρετήσει τους φίλους της",
+      "Από την κούραση"
+     ],
+     "answer": "Γιατί κατάλαβε ότι μπορεί να συνεχίσει μόνη της",
+     "why": "γιατί κατάλαβα ότι μπορώ να συνεχίσω μόνη μου"
+    }
+   ],
+   "gloss": {
+    "φαρμακοποιός": "φαρμακοποιός — pharmacist",
+    "προσκύνημα": "προσκύνημα — pilgrimage",
+    "διαζύγιο": "διαζύγιο — divorce",
+    "πανάρχαιο": "πανάρχαιος — age-old, ancient",
+    "καθεδρικό ναό": "καθεδρικός ναός — cathedral",
+    "ξενώνες": "ξενώνας — hostel, guesthouse",
+    "προσκυνητές": "προσκυνητής — pilgrim",
+    "κουκέτες": "κουκέτα — bunk bed",
+    "σφραγίδα": "σφραγίδα — stamp",
+    "φουσκάλες": "φουσκάλα — blister"
+   }
+  },
+  {
+   "id": "l120-c1-glossa-kai-skepsi",
+   "title": "Μας διαμορφώνει η γλώσσα που μιλάμε;",
+   "title_en": "Does the language we speak shape us?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε έναν ψυχογλωσσολόγο σε μια διάλεξη για τη σχέση γλώσσας και σκέψης.",
+   "script": [
+    {
+     "speaker": "Ψυχογλωσσολόγος",
+     "voice": "m",
+     "el": "Επηρεάζει η γλώσσα που μιλάμε τον τρόπο που σκεφτόμαστε; Η ιδέα συνδέεται με τους Αμερικανούς γλωσσολόγους Έντουαρντ Σάπιρ και Μπέντζαμιν Γουόρφ και είναι γνωστή ως «γλωσσική σχετικότητα». Στην ακραία της μορφή, υποστηρίζει ότι η γλώσσα καθορίζει τη σκέψη, ότι δηλαδή δεν μπορούμε να σκεφτούμε κάτι για το οποίο δεν έχουμε λέξη. Η μορφή αυτή έχει σήμερα εγκαταλειφθεί από τους περισσότερους ερευνητές.",
+     "en": "Does the language we speak influence the way we think? The idea is linked to the American linguists Edward Sapir and Benjamin Whorf and is known as \"linguistic relativity\". In its extreme form, it argues that language determines thought, that is, that we can't think of something for which we have no word. This form has now been abandoned by most researchers."
+    },
+    {
+     "speaker": "Ψυχογλωσσολόγος",
+     "voice": "m",
+     "el": "Μια ηπιότερη εκδοχή, ότι η γλώσσα επηρεάζει ορισμένες πτυχές της αντίληψης, βρίσκει όμως στήριξη σε πειράματα. Ένα παράδειγμα αφορά εμάς άμεσα. Τα ελληνικά, όπως και τα ρωσικά, έχουν δύο βασικές λέξεις για το μπλε: το «γαλάζιο» και το «μπλε». Σε μια μελέτη του 2009, ερευνητές κατέγραψαν την εγκεφαλική δραστηριότητα Ελλήνων και Άγγλων και διαπίστωσαν ότι οι Έλληνες αντιδρούσαν πιο έντονα στη διαφορά ανάμεσα στο ανοιχτό και στο σκούρο μπλε.",
+     "en": "A milder version, that language influences certain aspects of perception, does however find support in experiments. One example concerns us directly. Greek, like Russian, has two basic words for blue: \"galazio\" and \"ble\". In a 2009 study, researchers recorded the brain activity of Greek and English speakers and found that the Greeks reacted more strongly to the difference between light and dark blue."
+    },
+    {
+     "speaker": "Ψυχογλωσσολόγος",
+     "voice": "m",
+     "el": "Ένα ακόμη πιο εντυπωσιακό παράδειγμα έρχεται από ορισμένες γλώσσες της Αυστραλίας, που δεν χρησιμοποιούν λέξεις όπως «δεξιά» και «αριστερά», αλλά μόνο τα σημεία του ορίζοντα. Οι ομιλητές τους λένε, για παράδειγμα, «έχεις ένα μυρμήγκι στο νότιο πόδι σου». Σύμφωνα με τους ερευνητές, οι άνθρωποι αυτοί έχουν έναν εντυπωσιακό προσανατολισμό: ξέρουν πού είναι ο βορράς ακόμη και μέσα σε ένα άγνωστο κτίριο.",
+     "en": "An even more striking example comes from certain languages of Australia, which don't use words like \"right\" and \"left\", but only the points of the compass. Their speakers say, for example, \"there's an ant on your southern leg\". According to the researchers, these people have an impressive sense of direction: they know where north is even inside an unfamiliar building."
+    },
+    {
+     "speaker": "Ψυχογλωσσολόγος",
+     "voice": "m",
+     "el": "Τι σημαίνουν όλα αυτά; Όχι ότι είμαστε φυλακισμένοι στη γλώσσα μας. Μπορούμε να μάθουμε νέες λέξεις και νέους τρόπους να βλέπουμε τον κόσμο. Ίσως μάλιστα αυτό να είναι το μεγαλύτερο δώρο της εκμάθησης μιας ξένης γλώσσας: δεν μαθαίνουμε μόνο νέες λέξεις, αλλά και μια νέα ματιά.",
+     "en": "What does all this mean? Not that we are prisoners of our language. We can learn new words and new ways of seeing the world. Perhaps that is in fact the greatest gift of learning a foreign language: we don't just learn new words, but also a new way of looking."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ισχύει για την ακραία μορφή της γλωσσικής σχετικότητας;",
+     "options": [
+      "Τη διατύπωσαν πρόσφατα Έλληνες ερευνητές",
+      "Αφορά μόνο τα χρώματα",
+      "Επιβεβαιώθηκε από πολλά πειράματα",
+      "Έχει σήμερα εγκαταλειφθεί από τους περισσότερους ερευνητές"
+     ],
+     "answer": "Έχει σήμερα εγκαταλειφθεί από τους περισσότερους ερευνητές",
+     "why": "Η μορφή αυτή έχει σήμερα εγκαταλειφθεί από τους περισσότερους ερευνητές"
+    },
+    {
+     "q": "Τι έδειξε η μελέτη του 2009;",
+     "options": [
+      "Ότι το μπλε είναι το αγαπημένο χρώμα των Ελλήνων",
+      "Ότι οι Ρώσοι και οι Έλληνες έχουν τις ίδιες λέξεις για τα χρώματα",
+      "Ότι οι Έλληνες αντιδρούσαν πιο έντονα στη διαφορά ανάμεσα στο ανοιχτό και στο σκούρο μπλε",
+      "Ότι οι Άγγλοι βλέπουν περισσότερα χρώματα"
+     ],
+     "answer": "Ότι οι Έλληνες αντιδρούσαν πιο έντονα στη διαφορά ανάμεσα στο ανοιχτό και στο σκούρο μπλε",
+     "why": "οι Έλληνες αντιδρούσαν πιο έντονα στη διαφορά ανάμεσα στο ανοιχτό και στο σκούρο μπλε"
+    },
+    {
+     "q": "Τι χαρακτηρίζει τους ομιλητές ορισμένων γλωσσών της Αυστραλίας;",
+     "options": [
+      "Μιλούν πολύ αργά",
+      "Δεν έχουν λέξεις για τα χρώματα",
+      "Έχουν εντυπωσιακό προσανατολισμό",
+      "Χρησιμοποιούν μόνο χειρονομίες"
+     ],
+     "answer": "Έχουν εντυπωσιακό προσανατολισμό",
+     "why": "οι άνθρωποι αυτοί έχουν έναν εντυπωσιακό προσανατολισμό"
+    },
+    {
+     "q": "Ποιο είναι, κατά τον ομιλητή, ίσως το μεγαλύτερο δώρο της εκμάθησης μιας ξένης γλώσσας;",
+     "options": [
+      "Τα ταξίδια",
+      "Η καλύτερη μνήμη",
+      "Μια νέα ματιά στον κόσμο",
+      "Οι καλύτερες επαγγελματικές ευκαιρίες"
+     ],
+     "answer": "Μια νέα ματιά στον κόσμο",
+     "why": "δεν μαθαίνουμε μόνο νέες λέξεις, αλλά και μια νέα ματιά"
+    }
+   ],
+   "gloss": {
+    "ψυχογλωσσολόγο": "ψυχογλωσσολόγος — psycholinguist",
+    "διάλεξη": "διάλεξη — lecture",
+    "σχετικότητα": "σχετικότητα — relativity",
+    "ακραία": "ακραίος — extreme",
+    "καθορίζει": "καθορίζω — to determine",
+    "εγκαταλειφθεί": "εγκαταλείπομαι — to be abandoned",
+    "ηπιότερη": "ήπιος — mild; ηπιότερος milder",
+    "πτυχές": "πτυχή — aspect",
+    "αντίληψης": "αντίληψη — perception",
+    "εγκεφαλική": "εγκεφαλικός — brain (adj.)",
+    "σημεία του ορίζοντα": "σημεία του ορίζοντα — points of the compass",
+    "μυρμήγκι": "μυρμήγκι — ant",
+    "προσανατολισμό": "προσανατολισμός — sense of direction",
+    "φυλακισμένοι": "φυλακισμένος — imprisoned"
+   }
+  },
+  {
+   "id": "l120-c1-naumachia-nafpaktou",
+   "title": "Η ναυμαχία της Ναυπάκτου (1571)",
+   "title_en": "The Battle of Lepanto (1571)",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε μια συνέντευξη με μια ιστορικό σε εκπομπή για τη Μεσόγειο στα χρόνια της Βενετοκρατίας και της Τουρκοκρατίας.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Στην Ευρώπη τη λένε «μάχη του Λεπάντο». Εμείς τη λέμε «ναυμαχία της Ναυπάκτου». Έγινε όμως πράγματι στη Ναύπακτο;",
+     "en": "In Europe they call it the \"Battle of Lepanto\". We call it the \"naval battle of Nafpaktos\". But did it really take place at Nafpaktos?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Όχι ακριβώς. Ο οθωμανικός στόλος είχε τη βάση του στη Ναύπακτο, που οι Ιταλοί ονόμαζαν Λεπάντο, αλλά η σύγκρουση έγινε δυτικότερα, στην είσοδο του Πατραϊκού κόλπου, κοντά στις Εχινάδες νήσους. Ήταν 7 Οκτωβρίου 1571. Απέναντι στους Οθωμανούς βρισκόταν ο στόλος της Ιερής Συμμαχίας, ένας συνασπισμός με επικεφαλής την Ισπανία, τη Βενετία και τον Πάπα, υπό τη διοίκηση του νεαρού Δον Χουάν της Αυστρίας.",
+     "en": "Not exactly. The Ottoman fleet had its base at Nafpaktos, which the Italians called Lepanto, but the clash took place further west, at the entrance to the Gulf of Patras, near the Echinades islands. It was 7 October 1571. Facing the Ottomans was the fleet of the Holy League, a coalition led by Spain, Venice and the Pope, under the command of the young Don John of Austria."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποια ήταν η σημασία της;",
+     "en": "What was its significance?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Ήταν η πρώτη μεγάλη ήττα του οθωμανικού στόλου και είχε τεράστιο ψυχολογικό αντίκτυπο στην Ευρώπη, που πίστευε ως τότε ότι οι Οθωμανοί ήταν ανίκητοι στη θάλασσα. Ήταν επίσης η τελευταία μεγάλη ναυμαχία με κωπήλατα πλοία, τις γαλέρες. Στρατηγικά, ωστόσο, τα αποτελέσματα ήταν περιορισμένα: μέσα σε έναν χρόνο ο σουλτάνος είχε ξαναχτίσει τον στόλο του, και η Κύπρος, που είχε μόλις κατακτηθεί, παρέμεινε οθωμανική.",
+     "en": "It was the first major defeat of the Ottoman fleet and had an enormous psychological impact on Europe, which until then believed the Ottomans were invincible at sea. It was also the last great naval battle fought with oared ships, the galleys. Strategically, however, the results were limited: within a year the sultan had rebuilt his fleet, and Cyprus, which had just been conquered, remained Ottoman."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποια ήταν η θέση των Ελλήνων;",
+     "en": "What was the position of the Greeks?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Ιδιαίτερα τραγική. Χιλιάδες Έλληνες κωπηλάτες και ναύτες υπηρετούσαν και στους δύο στόλους, άλλοι ως υπήκοοι της Βενετίας, άλλοι ως υπήκοοι του σουλτάνου, συχνά με τη βία. Έτσι, στην ίδια ναυμαχία, Έλληνες βρέθηκαν να πολεμούν απέναντι σε Έλληνες. Ας θυμηθούμε, τέλος, ότι στη μάχη τραυματίστηκε ένας νεαρός Ισπανός στρατιώτης, που έχασε τη χρήση του αριστερού του χεριού: ο Μιγκέλ ντε Θερβάντες, ο μετέπειτα συγγραφέας του «Δον Κιχώτη».",
+     "en": "Particularly tragic. Thousands of Greek oarsmen and sailors served in both fleets, some as subjects of Venice, others as subjects of the sultan, often by force. So in the same battle, Greeks found themselves fighting against Greeks. Let's remember, finally, that a young Spanish soldier was wounded in the battle and lost the use of his left hand: Miguel de Cervantes, the future author of Don Quixote."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού έγινε πραγματικά η ναυμαχία;",
+     "options": [
+      "Μέσα στο λιμάνι της Ναυπάκτου",
+      "Στο Ιόνιο, κοντά στην Κέρκυρα",
+      "Έξω από την Κύπρο",
+      "Στην είσοδο του Πατραϊκού κόλπου, κοντά στις Εχινάδες"
+     ],
+     "answer": "Στην είσοδο του Πατραϊκού κόλπου, κοντά στις Εχινάδες",
+     "why": "στην είσοδο του Πατραϊκού κόλπου, κοντά στις Εχινάδες νήσους"
+    },
+    {
+     "q": "Γιατί, κατά την ιστορικό, τα στρατηγικά αποτελέσματα ήταν περιορισμένα;",
+     "options": [
+      "Γιατί ο Δον Χουάν σκοτώθηκε",
+      "Γιατί η Βενετία έχασε τα πλοία της",
+      "Γιατί η Ιερή Συμμαχία διαλύθηκε αμέσως",
+      "Γιατί μέσα σε έναν χρόνο ο σουλτάνος ξανάχτισε τον στόλο του και η Κύπρος παρέμεινε οθωμανική"
+     ],
+     "answer": "Γιατί μέσα σε έναν χρόνο ο σουλτάνος ξανάχτισε τον στόλο του και η Κύπρος παρέμεινε οθωμανική",
+     "why": "μέσα σε έναν χρόνο ο σουλτάνος είχε ξαναχτίσει τον στόλο του"
+    },
+    {
+     "q": "Γιατί ήταν τραγική η θέση των Ελλήνων;",
+     "options": [
+      "Γιατί έχασαν τα νησιά τους",
+      "Γιατί υπηρετούσαν και στους δύο στόλους και πολέμησαν μεταξύ τους",
+      "Γιατί η Ναύπακτος καταστράφηκε",
+      "Γιατί δεν τους επέτρεψαν να πολεμήσουν"
+     ],
+     "answer": "Γιατί υπηρετούσαν και στους δύο στόλους και πολέμησαν μεταξύ τους",
+     "why": "στην ίδια ναυμαχία, Έλληνες βρέθηκαν να πολεμούν απέναντι σε Έλληνες"
+    },
+    {
+     "q": "Ποιος τραυματίστηκε στη ναυμαχία, σύμφωνα με την ιστορικό;",
+     "options": [
+      "Ο Μιγκέλ ντε Θερβάντες",
+      "Ο Πάπας",
+      "Ο Δον Χουάν της Αυστρίας",
+      "Ο σουλτάνος"
+     ],
+     "answer": "Ο Μιγκέλ ντε Θερβάντες",
+     "why": "ο Μιγκέλ ντε Θερβάντες, ο μετέπειτα συγγραφέας του «Δον Κιχώτη»"
+    }
+   ],
+   "gloss": {
+    "ναυμαχία": "ναυμαχία — naval battle",
+    "Βενετοκρατίας": "Βενετοκρατία — Venetian rule",
+    "σύγκρουση": "σύγκρουση — clash",
+    "Ιερής Συμμαχίας": "Ιερή Συμμαχία — the Holy League",
+    "συνασπισμός": "συνασπισμός — coalition",
+    "επικεφαλής": "επικεφαλής — at the head of, leader",
+    "αντίκτυπο": "αντίκτυπος — impact",
+    "ανίκητοι": "ανίκητος — invincible",
+    "κωπήλατα": "κωπήλατος — oared",
+    "γαλέρες": "γαλέρα — galley",
+    "υπήκοοι": "υπήκοος — subject (of a state)",
+    "μετέπειτα": "μετέπειτα — later, future"
+   }
+  }
+ ]
+}
