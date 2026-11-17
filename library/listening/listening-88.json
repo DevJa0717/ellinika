@@ -1,0 +1,838 @@
+{
+ "items": [
+  {
+   "id": "l88-ann-seirines",
+   "title": "Δοκιμή σειρήνων στην πόλη",
+   "title_en": "A siren test in the city",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε στο τοπικό ραδιόφωνο μια ανακοίνωση του δήμου.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ο Δήμος ενημερώνει τους πολίτες ότι την Πέμπτη, στις δώδεκα το μεσημέρι ακριβώς, θα γίνει δοκιμή του νέου συστήματος σειρήνων προειδοποίησης. Θα ακουστούν σε όλη την πόλη, για περίπου ενενήντα δευτερόλεπτα. Πρόκειται μόνο για δοκιμή: δεν υπάρχει κανένας κίνδυνος.",
+     "en": "The Municipality informs citizens that on Thursday, at exactly twelve noon, the new warning-siren system will be tested. The sirens will be heard across the whole city for about ninety seconds. This is only a test: there is no danger whatsoever."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Κατά τη διάρκεια της δοκιμής δεν χρειάζεται να κάνετε τίποτα. Μην καλείτε το 112 και την αστυνομία για να ρωτήσετε τι συμβαίνει, ώστε οι γραμμές να μείνουν ελεύθερες για πραγματικά επείγοντα περιστατικά. Παρακαλούμε ενημερώστε τους ηλικιωμένους γείτονες και όσους δεν μιλούν καλά ελληνικά, για να μην ανησυχήσουν.",
+     "en": "During the test you don't need to do anything. Please don't call 112 or the police to ask what is happening, so that the lines stay free for real emergencies. Please let elderly neighbours and anyone who doesn't speak Greek well know, so they won't worry."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Σε περίπτωση πραγματικού κινδύνου, οι σειρήνες θα ακούγονται με διακοπές, και ταυτόχρονα θα σταλεί μήνυμα στα κινητά τηλέφωνα. Τότε θα πρέπει να ακολουθήσετε τις οδηγίες του μηνύματος. Περισσότερες πληροφορίες θα βρείτε στην ιστοσελίδα του δήμου.",
+     "en": "In case of real danger, the sirens will sound intermittently, and at the same time a message will be sent to mobile phones. Then you should follow the instructions in the message. You'll find more information on the municipality's website."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο θα διαρκέσει η δοκιμή;",
+     "options": [
+      "Μία ώρα",
+      "Περίπου ενενήντα δευτερόλεπτα",
+      "Περίπου δέκα λεπτά",
+      "Όλη τη μέρα"
+     ],
+     "answer": "Περίπου ενενήντα δευτερόλεπτα",
+     "why": "για περίπου ενενήντα δευτερόλεπτα"
+    },
+    {
+     "q": "Γιατί ζητείται να μην τηλεφωνούν οι πολίτες στο 112;",
+     "options": [
+      "Γιατί η αστυνομία δεν ξέρει τίποτα",
+      "Γιατί το 112 δεν λειτουργεί την Πέμπτη",
+      "Γιατί η κλήση κοστίζει ακριβά",
+      "Για να μείνουν οι γραμμές ελεύθερες για πραγματικά επείγοντα"
+     ],
+     "answer": "Για να μείνουν οι γραμμές ελεύθερες για πραγματικά επείγοντα",
+     "why": "ώστε οι γραμμές να μείνουν ελεύθερες για πραγματικά επείγοντα περιστατικά"
+    },
+    {
+     "q": "Πώς θα καταλάβει κανείς ότι ο κίνδυνος είναι πραγματικός;",
+     "options": [
+      "Οι σειρήνες θα ακούγονται χωρίς σταματημό",
+      "Θα ανακοινωθεί μόνο στο ραδιόφωνο",
+      "Θα χτυπήσουν οι καμπάνες",
+      "Οι σειρήνες θα ακούγονται με διακοπές και θα έρθει μήνυμα στο κινητό"
+     ],
+     "answer": "Οι σειρήνες θα ακούγονται με διακοπές και θα έρθει μήνυμα στο κινητό",
+     "why": "οι σειρήνες θα ακούγονται με διακοπές, και ταυτόχρονα θα σταλεί μήνυμα στα κινητά τηλέφωνα"
+    }
+   ],
+   "gloss": {
+    "δήμου": "δήμος — municipality",
+    "δοκιμή": "δοκιμή — test",
+    "σειρήνων": "σειρήνα — siren",
+    "προειδοποίησης": "προειδοποίηση — warning",
+    "κίνδυνος": "κίνδυνος — danger",
+    "επείγοντα περιστατικά": "επείγον περιστατικό — emergency",
+    "ηλικιωμένους": "ηλικιωμένος — elderly",
+    "ανησυχήσουν": "ανησυχώ — to worry",
+    "με διακοπές": "με διακοπές — intermittently",
+    "ταυτόχρονα": "ταυτόχρονα — at the same time"
+   }
+  },
+  {
+   "id": "l88-vm-aerodromio",
+   "title": "Πάρε με από το αεροδρόμιο!",
+   "title_en": "Pick me up from the airport!",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στο κινητό σας από μια φίλη που επιστρέφει από ταξίδι.",
+   "script": [
+    {
+     "speaker": "Φίλη",
+     "voice": "f",
+     "el": "Γεια σου, η Κατερίνα είμαι. Έχω ένα μικρό πρόβλημα και, αν μπορείς, θέλω τη βοήθειά σου. Το αεροπλάνο μας δεν μπόρεσε να προσγειωθεί στη Θεσσαλονίκη λόγω της πυκνής ομίχλης, και μας έστειλαν στην Καβάλα. Μόλις βγήκαμε από το αεροπλάνο.",
+     "en": "Hi, it's Katerina. I've got a small problem and, if you can, I'd like your help. Our plane couldn't land in Thessaloniki because of the thick fog, and they sent us to Kavala. We've just got off the plane."
+    },
+    {
+     "speaker": "Φίλη",
+     "voice": "f",
+     "el": "Η εταιρεία λέει ότι θα μας πάει με λεωφορείο στη Θεσσαλονίκη, αλλά δεν ξέρουν ακόμη πότε, ίσως σε δύο ή τρεις ώρες. Υπολογίζω να φτάσουμε στο αεροδρόμιο της Θεσσαλονίκης γύρω στις δύο τα ξημερώματα. Τέτοια ώρα δεν υπάρχει λεωφορείο για την πόλη, και το ταξί κοστίζει μια περιουσία.",
+     "en": "The airline says they'll take us to Thessaloniki by coach, but they don't know when yet, maybe in two or three hours. I reckon we'll get to Thessaloniki airport around two in the morning. At that hour there's no bus into town, and a taxi costs a fortune."
+    },
+    {
+     "speaker": "Φίλη",
+     "voice": "f",
+     "el": "Θα μπορούσες να έρθεις να με πάρεις; Ξέρω ότι είναι αργά και ότι αύριο δουλεύεις, οπότε, αν δεν μπορείς, μην ανησυχείς καθόλου, θα βρω μια λύση. Θα σου στείλω γραπτό μήνυμα μόλις μάθω την ακριβή ώρα. Σ' ευχαριστώ πολύ!",
+     "en": "Could you come and pick me up? I know it's late and that you're working tomorrow, so if you can't, don't worry at all, I'll find a solution. I'll text you as soon as I know the exact time. Thanks so much!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί το αεροπλάνο πήγε στην Καβάλα;",
+     "options": [
+      "Λόγω δυνατού ανέμου",
+      "Λόγω πυκνής ομίχλης στη Θεσσαλονίκη",
+      "Λόγω απεργίας",
+      "Λόγω τεχνικού προβλήματος"
+     ],
+     "answer": "Λόγω πυκνής ομίχλης στη Θεσσαλονίκη",
+     "why": "δεν μπόρεσε να προσγειωθεί στη Θεσσαλονίκη λόγω της πυκνής ομίχλης"
+    },
+    {
+     "q": "Πώς θα πάνε οι επιβάτες στη Θεσσαλονίκη;",
+     "options": [
+      "Με ταξί",
+      "Με τρένο",
+      "Με άλλο αεροπλάνο",
+      "Με λεωφορείο της εταιρείας"
+     ],
+     "answer": "Με λεωφορείο της εταιρείας",
+     "why": "θα μας πάει με λεωφορείο στη Θεσσαλονίκη"
+    },
+    {
+     "q": "Τι θα κάνει η Κατερίνα όταν μάθει την ακριβή ώρα;",
+     "options": [
+      "Θα πάρει ταξί",
+      "Θα κλείσει δωμάτιο σε ξενοδοχείο",
+      "Θα στείλει γραπτό μήνυμα",
+      "Θα τηλεφωνήσει στους γονείς της"
+     ],
+     "answer": "Θα στείλει γραπτό μήνυμα",
+     "why": "Θα σου στείλω γραπτό μήνυμα μόλις μάθω την ακριβή ώρα"
+    }
+   ],
+   "gloss": {
+    "προσγειωθεί": "προσγειώνομαι — to land",
+    "πυκνής": "πυκνός — thick, dense",
+    "ομίχλης": "ομίχλη — fog",
+    "Υπολογίζω": "υπολογίζω — to reckon, estimate",
+    "ξημερώματα": "τα ξημερώματα — the small hours",
+    "περιουσία": "περιουσία — fortune, property",
+    "να με πάρεις": "παίρνω κάποιον — to pick someone up",
+    "λύση": "λύση — solution",
+    "γραπτό μήνυμα": "γραπτό μήνυμα — text message",
+    "ακριβή": "ακριβής — exact"
+   }
+  },
+  {
+   "id": "l88-dia-psygeio",
+   "title": "Ένα μεταχειρισμένο ψυγείο",
+   "title_en": "A second-hand fridge",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ένας νεαρός πηγαίνει να δει ένα μεταχειρισμένο ψυγείο που πουλάει μια κυρία μέσω μιας αγγελίας στο διαδίκτυο.",
+   "script": [
+    {
+     "speaker": "Αγοραστής",
+     "voice": "m",
+     "el": "Καλησπέρα, εγώ σας πήρα τηλέφωνο για το ψυγείο της αγγελίας.",
+     "en": "Good evening, I'm the one who called you about the fridge in the ad."
+    },
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Α, καλώς ήρθατε. Ορίστε, είναι αυτό εδώ. Είναι τεσσάρων χρόνων και λειτουργεί άψογα. Το πουλάμε μόνο επειδή αλλάξαμε κουζίνα και δεν χωράει στη νέα θέση.",
+     "en": "Ah, welcome. Here it is, this one. It's four years old and works perfectly. We're only selling it because we redid the kitchen and it doesn't fit in the new space."
+    },
+    {
+     "speaker": "Αγοραστής",
+     "voice": "m",
+     "el": "Φαίνεται σε πολύ καλή κατάσταση. Ενεργειακή κλάση ποια είναι; Θέλω κάτι που να μην καίει πολύ ρεύμα.",
+     "en": "It looks in very good condition. What's its energy class? I want something that doesn't use much electricity."
+    },
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Είναι Α, το γράφει και το αυτοκόλλητο εδώ στο πλάι. Έχω ακόμη και το βιβλιαράκι οδηγιών. Η μόνη ατέλεια είναι μια μικρή γρατζουνιά στην πόρτα, εδώ κάτω, βλέπετε;",
+     "en": "It's A; the sticker here on the side says so too. I've even still got the instruction booklet. The only flaw is a small scratch on the door, down here, see?"
+    },
+    {
+     "speaker": "Αγοραστής",
+     "voice": "m",
+     "el": "Ναι, δεν με πειράζει. Στην αγγελία γράφατε διακόσια ευρώ. Θα το δίνατε στα εκατόν εβδομήντα; Θα πρέπει να πληρώσω και κάποιον να το μεταφέρει, γιατί μένω στον τέταρτο χωρίς ασανσέρ.",
+     "en": "Yes, I don't mind. In the ad you said two hundred euros. Would you let it go for a hundred and seventy? I'll also have to pay someone to move it, because I live on the fourth floor with no lift."
+    },
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Ας πούμε εκατόν ογδόντα, και σας δίνω δώρο και τα ράφια του καταψύκτη που είχα αγοράσει επιπλέον. Α, και μια συμβουλή: όταν το βάλετε στη θέση του, περιμένετε τρεις με τέσσερις ώρες πριν το ανάψετε.",
+     "en": "Let's say a hundred and eighty, and I'll throw in the extra freezer shelves I'd bought. Oh, and a tip: once you've put it in place, wait three to four hours before you switch it on."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί πουλάει η κυρία το ψυγείο;",
+     "options": [
+      "Γιατί μετακομίζει στο εξωτερικό",
+      "Γιατί δεν χωράει στη νέα κουζίνα",
+      "Γιατί χάλασε",
+      "Γιατί καίει πολύ ρεύμα"
+     ],
+     "answer": "Γιατί δεν χωράει στη νέα κουζίνα",
+     "why": "αλλάξαμε κουζίνα και δεν χωράει στη νέα θέση"
+    },
+    {
+     "q": "Ποια ατέλεια έχει το ψυγείο;",
+     "options": [
+      "Μια μικρή γρατζουνιά στην πόρτα",
+      "Λείπει ένα ράφι",
+      "Δεν κλείνει καλά η πόρτα",
+      "Κάνει θόρυβο"
+     ],
+     "answer": "Μια μικρή γρατζουνιά στην πόρτα",
+     "why": "μια μικρή γρατζουνιά στην πόρτα"
+    },
+    {
+     "q": "Σε ποια τιμή καταλήγει η πωλήτρια;",
+     "options": [
+      "Εκατόν εβδομήντα ευρώ",
+      "Εκατόν πενήντα ευρώ",
+      "Διακόσια ευρώ",
+      "Εκατόν ογδόντα ευρώ"
+     ],
+     "answer": "Εκατόν ογδόντα ευρώ",
+     "why": "Ας πούμε εκατόν ογδόντα"
+    }
+   ],
+   "gloss": {
+    "μεταχειρισμένο": "μεταχειρισμένος — second-hand",
+    "αγγελίας": "αγγελία — ad, classified",
+    "άψογα": "άψογα — perfectly, flawlessly",
+    "κατάσταση": "κατάσταση — condition",
+    "Ενεργειακή κλάση": "ενεργειακή κλάση — energy class",
+    "αυτοκόλλητο": "αυτοκόλλητο — sticker",
+    "ατέλεια": "ατέλεια — flaw",
+    "γρατζουνιά": "γρατζουνιά — scratch",
+    "μεταφέρει": "μεταφέρω — to move, transport",
+    "καταψύκτη": "καταψύκτης — freezer"
+   }
+  },
+  {
+   "id": "l88-int-oreivatissa",
+   "title": "Η ορειβάτισσα",
+   "title_en": "The mountaineer",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Σε μια ραδιοφωνική εκπομπή, μια δημοσιογράφος μιλά με μια ορειβάτισσα που μόλις επέστρεψε από τα Ιμαλάια.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πώς ξεκίνησαν όλα; Δεν μεγαλώσατε, νομίζω, κοντά στα βουνά.",
+     "en": "How did it all start? I don't think you grew up near the mountains."
+    },
+    {
+     "speaker": "Ορειβάτισσα",
+     "voice": "f",
+     "el": "Όχι, είμαι από τον Πειραιά, παιδί της θάλασσας. Στα είκοσι, μια φίλη με έπεισε να ανέβουμε στον Όλυμπο. Θυμάμαι ότι στο καταφύγιο ήμουν εξαντλημένη, αλλά όταν είδα την ανατολή από την κορυφή, ήξερα ότι θα ξαναγύριζα. Από τότε περνάω σχεδόν κάθε Σαββατοκύριακο στα βουνά.",
+     "en": "No, I'm from Piraeus, a child of the sea. At twenty, a friend persuaded me to climb Olympus. I remember being exhausted at the refuge, but when I saw the sunrise from the summit, I knew I'd go back. Since then I've spent almost every weekend in the mountains."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και τώρα επιστρέψατε από μια κορυφή πάνω από οκτώ χιλιάδες μέτρα. Ποιο ήταν το πιο δύσκολο;",
+     "en": "And now you're back from a peak over eight thousand metres. What was the hardest part?"
+    },
+    {
+     "speaker": "Ορειβάτισσα",
+     "voice": "f",
+     "el": "Όχι η κούραση, όπως νομίζουν πολλοί, αλλά το υψόμετρο. Εκεί πάνω ο αέρας έχει πολύ λιγότερο οξυγόνο. Πονάει το κεφάλι, δεν έχεις όρεξη, δεν κοιμάσαι. Γι' αυτό ανεβαίνεις σιγά σιγά: ανεβαίνεις σε ένα στρατόπεδο, κατεβαίνεις πάλι, και ξανά, ώσπου το σώμα να συνηθίσει. Αυτό κράτησε σχεδόν έξι εβδομάδες.",
+     "en": "Not the fatigue, as many people think, but the altitude. Up there the air has much less oxygen. Your head aches, you've no appetite, you don't sleep. That's why you go up slowly: you climb to a camp, come back down, and again, until your body gets used to it. That took almost six weeks."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Φτάσατε τελικά στην κορυφή;",
+     "en": "Did you reach the summit in the end?"
+    },
+    {
+     "speaker": "Ορειβάτισσα",
+     "voice": "f",
+     "el": "Όχι. Διακόσια μέτρα πριν από την κορυφή, ο καιρός χάλασε και ο Νεπαλέζος οδηγός μας είπε να γυρίσουμε. Ήταν η σωστή απόφαση. Στο βουνό η κορυφή είναι προαιρετική· η επιστροφή είναι υποχρεωτική.",
+     "en": "No. Two hundred metres before the summit, the weather turned and our Nepali guide told us to turn back. It was the right decision. On the mountain the summit is optional; the return is compulsory."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ξεκίνησε η ορειβάτισσα να ανεβαίνει σε βουνά;",
+     "options": [
+      "Το έκανε ο πατέρας της",
+      "Μεγάλωσε σε ένα ορεινό χωριό",
+      "Γράφτηκε σε σύλλογο στο σχολείο",
+      "Μια φίλη την έπεισε να ανέβουν στον Όλυμπο"
+     ],
+     "answer": "Μια φίλη την έπεισε να ανέβουν στον Όλυμπο",
+     "why": "μια φίλη με έπεισε να ανέβουμε στον Όλυμπο"
+    },
+    {
+     "q": "Τι ήταν, κατά τη γνώμη της, το πιο δύσκολο;",
+     "options": [
+      "Η μοναξιά",
+      "Το υψόμετρο και η έλλειψη οξυγόνου",
+      "Η κούραση",
+      "Το κρύο"
+     ],
+     "answer": "Το υψόμετρο και η έλλειψη οξυγόνου",
+     "why": "Όχι η κούραση, όπως νομίζουν πολλοί, αλλά το υψόμετρο"
+    },
+    {
+     "q": "Γιατί δεν έφτασε στην κορυφή;",
+     "options": [
+      "Τραυματίστηκε",
+      "Έχασε τον δρόμο",
+      "Της τελείωσε το οξυγόνο",
+      "Ο καιρός χάλασε και ο οδηγός είπε να γυρίσουν"
+     ],
+     "answer": "Ο καιρός χάλασε και ο οδηγός είπε να γυρίσουν",
+     "why": "ο καιρός χάλασε και ο Νεπαλέζος οδηγός μας είπε να γυρίσουμε"
+    }
+   ],
+   "gloss": {
+    "ορειβάτισσα": "ορειβάτισσα — (female) mountaineer",
+    "με έπεισε": "πείθω — to persuade",
+    "καταφύγιο": "καταφύγιο — (mountain) refuge",
+    "εξαντλημένη": "εξαντλημένος — exhausted",
+    "ανατολή": "ανατολή — sunrise",
+    "κορυφή": "κορυφή — summit, peak",
+    "υψόμετρο": "υψόμετρο — altitude",
+    "οξυγόνο": "οξυγόνο — oxygen",
+    "στρατόπεδο": "στρατόπεδο — camp",
+    "προαιρετική": "προαιρετικός — optional",
+    "υποχρεωτική": "υποχρεωτικός — compulsory"
+   }
+  },
+  {
+   "id": "l88-rep-florina",
+   "title": "Η Φλώρινα",
+   "title_en": "Florina",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ταξιδιωτικό ρεπορτάζ στο ραδιόφωνο.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Βρισκόμαστε στη Φλώρινα, στη βορειοδυτική Μακεδονία, λίγα χιλιόμετρα από τα σύνορα με τη Βόρεια Μακεδονία. Μέσα από την πόλη κυλάει το ποτάμι Σακουλέβας, και στις όχθες του στέκονται παλιά νεοκλασικά σπίτια, πολλά από αυτά ανακαινισμένα. Τον χειμώνα, με την ομίχλη πάνω στο νερό, η πόλη έχει κάτι από σκηνικό ταινίας.",
+     "en": "We're in Florina, in north-western Macedonia, a few kilometres from the border with North Macedonia. The Sakoulevas river runs through the town, and along its banks stand old neoclassical houses, many of them restored. In winter, with the fog over the water, the town has something of a film set about it."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Και δεν είναι τυχαίο: εδώ γύρισε ο Θόδωρος Αγγελόπουλος μέρος της ταινίας «Το μετέωρο βήμα του πελαργού». Η Φλώρινα έχει επίσης ζωντανή καλλιτεχνική ζωή· η πόλη έχει Μουσείο Σύγχρονης Τέχνης, και στη Σχολή Καλών Τεχνών της σπουδάζουν φοιτητές από όλη την Ελλάδα.",
+     "en": "And it's no accident: this is where Theo Angelopoulos shot part of the film 'The Suspended Step of the Stork'. Florina also has a lively art scene; the town has a Museum of Contemporary Art, and students from all over Greece study at its School of Fine Arts."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Πριν φύγετε, μην παραλείψετε να δοκιμάσετε τις περίφημες κόκκινες πιπεριές Φλωρίνης, ψητές με λίγο λάδι και σκόρδο. Και αν έχετε μια μέρα παραπάνω, οι λίμνες των Πρεσπών, με τους πελεκάνους και τα βυζαντινά ερημητήρια, απέχουν λιγότερο από μία ώρα με το αυτοκίνητο.",
+     "en": "Before you leave, don't miss the famous red Florina peppers, roasted with a little oil and garlic. And if you've got an extra day, the Prespa lakes, with their pelicans and Byzantine hermitages, are less than an hour away by car."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι βρίσκεται στις όχθες του ποταμού Σακουλέβα;",
+     "options": [
+      "Ξενοδοχεία",
+      "Ένα μεγάλο πάρκο",
+      "Παλιά νεοκλασικά σπίτια",
+      "Εργοστάσια"
+     ],
+     "answer": "Παλιά νεοκλασικά σπίτια",
+     "why": "στις όχθες του στέκονται παλιά νεοκλασικά σπίτια"
+    },
+    {
+     "q": "Ποιος γύρισε ταινία στη Φλώρινα;",
+     "options": [
+      "Ο Νίκος Κούνδουρος",
+      "Ο Μιχάλης Κακογιάννης",
+      "Ο Θόδωρος Αγγελόπουλος",
+      "Ο Γιώργος Λάνθιμος"
+     ],
+     "answer": "Ο Θόδωρος Αγγελόπουλος",
+     "why": "εδώ γύρισε ο Θόδωρος Αγγελόπουλος μέρος της ταινίας"
+    },
+    {
+     "q": "Ποιο τοπικό προϊόν προτείνει ο ρεπόρτερ;",
+     "options": [
+      "Το κρασί",
+      "Τις κόκκινες πιπεριές",
+      "Το τυρί φέτα",
+      "Τα κάστανα"
+     ],
+     "answer": "Τις κόκκινες πιπεριές",
+     "why": "τις περίφημες κόκκινες πιπεριές Φλωρίνης"
+    }
+   ],
+   "gloss": {
+    "σύνορα": "σύνορα — border",
+    "κυλάει": "κυλάω — to flow, roll",
+    "όχθες": "όχθη — (river) bank",
+    "νεοκλασικά": "νεοκλασικός — neoclassical",
+    "ανακαινισμένα": "ανακαινισμένος — renovated, restored",
+    "σκηνικό": "σκηνικό — set, scenery",
+    "μετέωρο": "μετέωρος — suspended, in mid-air",
+    "πελαργού": "πελαργός — stork",
+    "μην παραλείψετε": "παραλείπω — to leave out, miss",
+    "πελεκάνους": "πελεκάνος — pelican",
+    "ερημητήρια": "ερημητήριο — hermitage"
+   }
+  },
+  {
+   "id": "l88-rep-folegandros",
+   "title": "Η Φολέγανδρος",
+   "title_en": "Folegandros",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ για ένα μικρό νησί των Κυκλάδων.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η Φολέγανδρος είναι ένα μικρό, βραχώδες νησί των Κυκλάδων, ανάμεσα στη Μήλο και τη Σίκινο. Το πιο εντυπωσιακό της σημείο είναι η Χώρα, χτισμένη στην άκρη ενός γκρεμού, περίπου διακόσια μέτρα πάνω από τη θάλασσα. Τα σοκάκια της είναι τόσο στενά, που τα αυτοκίνητα δεν μπαίνουν καθόλου.",
+     "en": "Folegandros is a small, rocky island in the Cyclades, between Milos and Sikinos. Its most striking spot is the Chora, built on the edge of a cliff about two hundred metres above the sea. Its alleys are so narrow that cars can't get in at all."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η απομόνωση του νησιού έχει και σκοτεινή πλευρά. Τον εικοστό αιώνα, η Φολέγανδρος ήταν τόπος εξορίας: εδώ έστελναν πολιτικούς κρατούμενους, που ζούσαν μαζί με τους ντόπιους, συχνά σε μεγάλη φτώχεια. Οι παλαιότεροι κάτοικοι θυμούνται ακόμη ονόματα και ιστορίες.",
+     "en": "The island's isolation also has a dark side. In the twentieth century, Folegandros was a place of exile: political prisoners were sent here, living alongside the locals, often in great poverty. Older residents still remember names and stories."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Σήμερα το νησί προσελκύει όσους αναζητούν ησυχία και περπάτημα. Ένα παλιό μονοπάτι ανεβαίνει από τη Χώρα στην εκκλησία της Παναγίας, απ' όπου η θέα στο ηλιοβασίλεμα κόβει την ανάσα. Και στις ταβέρνες, ζητήστε τα «μάτσατα», χειροποίητα ζυμαρικά που σερβίρονται συνήθως με κόκορα ή κουνέλι.",
+     "en": "Today the island attracts people looking for peace and walking. An old path climbs from the Chora to the church of the Virgin, from where the view at sunset takes your breath away. And in the tavernas, ask for 'matsata', hand-made pasta usually served with rooster or rabbit."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού είναι χτισμένη η Χώρα της Φολεγάνδρου;",
+     "options": [
+      "Στην άκρη ενός γκρεμού",
+      "Σε μια κοιλάδα",
+      "Σε ένα νησάκι απέναντι",
+      "Δίπλα στο λιμάνι"
+     ],
+     "answer": "Στην άκρη ενός γκρεμού",
+     "why": "χτισμένη στην άκρη ενός γκρεμού"
+    },
+    {
+     "q": "Τι ήταν η Φολέγανδρος τον εικοστό αιώνα;",
+     "options": [
+      "Κέντρο εμπορίου",
+      "Βάση του ναυτικού",
+      "Τόπος εξορίας",
+      "Τόπος διακοπών βασιλιάδων"
+     ],
+     "answer": "Τόπος εξορίας",
+     "why": "η Φολέγανδρος ήταν τόπος εξορίας"
+    },
+    {
+     "q": "Τι είναι τα «μάτσατα»;",
+     "options": [
+      "Ένας παραδοσιακός χορός",
+      "Ένα είδος τυριού",
+      "Ένα τοπικό γλυκό",
+      "Χειροποίητα ζυμαρικά"
+     ],
+     "answer": "Χειροποίητα ζυμαρικά",
+     "why": "χειροποίητα ζυμαρικά που σερβίρονται συνήθως με κόκορα ή κουνέλι"
+    }
+   ],
+   "gloss": {
+    "βραχώδες": "βραχώδης — rocky",
+    "εντυπωσιακό": "εντυπωσιακός — impressive, striking",
+    "γκρεμού": "γκρεμός — cliff",
+    "σοκάκια": "σοκάκι — alley, lane",
+    "απομόνωση": "απομόνωση — isolation",
+    "εξορίας": "εξορία — exile",
+    "κρατούμενους": "κρατούμενος — prisoner, detainee",
+    "ντόπιους": "ντόπιος — local",
+    "μονοπάτι": "μονοπάτι — path",
+    "κόβει την ανάσα": "κόβει την ανάσα — takes your breath away",
+    "ζυμαρικά": "ζυμαρικά — pasta"
+   }
+  },
+  {
+   "id": "l88-mono-choris-diktya",
+   "title": "Τρεις μήνες χωρίς κοινωνικά δίκτυα",
+   "title_en": "Three months without social media",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ένας φοιτητής μιλά σε ένα podcast για ένα πείραμα που έκανε με τον εαυτό του.",
+   "script": [
+    {
+     "speaker": "Φοιτητής",
+     "voice": "m",
+     "el": "Πέρσι τον Ιανουάριο κοίταξα τα στατιστικά του κινητού μου και πάγωσα: πέντε ώρες τη μέρα, κυρίως σε κοινωνικά δίκτυα. Πέντε ώρες! Αποφάσισα να σβήσω όλες τις εφαρμογές για τρεις μήνες. Κράτησα μόνο τα μηνύματα και τις κλήσεις.",
+     "en": "Last January I looked at my phone's statistics and froze: five hours a day, mostly on social media. Five hours! I decided to delete all the apps for three months. I kept only messages and calls."
+    },
+    {
+     "speaker": "Φοιτητής",
+     "voice": "m",
+     "el": "Οι πρώτες δέκα μέρες ήταν πραγματικά δύσκολες. Έπιανα το κινητό χωρίς να το καταλαβαίνω, άνοιγα την οθόνη και δεν είχα τι να κάνω. Ένιωθα ότι έχανα όλα όσα συνέβαιναν. Κάποιοι φίλοι μάλιστα παρεξηγήθηκαν, γιατί δεν έβλεπα τις αναρτήσεις τους και δεν τις σχολίαζα.",
+     "en": "The first ten days were really hard. I'd pick up my phone without realising, unlock the screen and have nothing to do. I felt I was missing everything that was going on. Some friends even took offence, because I wasn't seeing their posts or commenting on them."
+    },
+    {
+     "speaker": "Φοιτητής",
+     "voice": "m",
+     "el": "Μετά όμως κάτι άλλαξε. Διάβασα έξι βιβλία, κοιμόμουν καλύτερα και άρχισα να τηλεφωνώ στους φίλους μου αντί να τους στέλνω καρδούλες. Όταν τελείωσαν οι τρεις μήνες, ξανάβαλα μόνο μία εφαρμογή, και μόνο στον υπολογιστή. Δεν λέω ότι τα κοινωνικά δίκτυα είναι κακά. Απλώς τώρα αποφασίζω εγώ πότε θα τα χρησιμοποιήσω.",
+     "en": "But then something changed. I read six books, I slept better and I started phoning my friends instead of sending them little hearts. When the three months were up, I reinstalled just one app, and only on the computer. I'm not saying social media is bad. It's just that now I decide when I'll use it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι τον έκανε να αποφασίσει το πείραμα;",
+     "options": [
+      "Μια συμβουλή του γιατρού του",
+      "Ένα άρθρο σε εφημερίδα",
+      "Τα στατιστικά του κινητού του",
+      "Ένα στοίχημα με φίλους"
+     ],
+     "answer": "Τα στατιστικά του κινητού του",
+     "why": "κοίταξα τα στατιστικά του κινητού μου και πάγωσα"
+    },
+    {
+     "q": "Γιατί παρεξηγήθηκαν κάποιοι φίλοι του;",
+     "options": [
+      "Γιατί δεν απαντούσε στο τηλέφωνο",
+      "Γιατί δεν πήγε στα γενέθλιά τους",
+      "Γιατί τους κατηγόρησε",
+      "Γιατί δεν έβλεπε ούτε σχολίαζε τις αναρτήσεις τους"
+     ],
+     "answer": "Γιατί δεν έβλεπε ούτε σχολίαζε τις αναρτήσεις τους",
+     "why": "δεν έβλεπα τις αναρτήσεις τους και δεν τις σχολίαζα"
+    },
+    {
+     "q": "Τι έκανε όταν τελείωσαν οι τρεις μήνες;",
+     "options": [
+      "Πούλησε το κινητό του",
+      "Ξανάβαλε μία εφαρμογή, μόνο στον υπολογιστή",
+      "Δεν ξανάβαλε καμία εφαρμογή",
+      "Ξανάβαλε όλες τις εφαρμογές"
+     ],
+     "answer": "Ξανάβαλε μία εφαρμογή, μόνο στον υπολογιστή",
+     "why": "ξανάβαλα μόνο μία εφαρμογή, και μόνο στον υπολογιστή"
+    }
+   ],
+   "gloss": {
+    "πείραμα": "πείραμα — experiment",
+    "στατιστικά": "στατιστικά — statistics",
+    "πάγωσα": "παγώνω — to freeze",
+    "σβήσω": "σβήνω — to delete",
+    "εφαρμογές": "εφαρμογή — app",
+    "παρεξηγήθηκαν": "παρεξηγούμαι — to take offence",
+    "αναρτήσεις": "ανάρτηση — post",
+    "σχολίαζα": "σχολιάζω — to comment on",
+    "καρδούλες": "καρδούλα — little heart (emoji)",
+    "ξανάβαλα": "ξαναβάζω — to put back, reinstall"
+   }
+  },
+  {
+   "id": "l88-mono-michanaki",
+   "title": "Μηχανάκι στα πενήντα",
+   "title_en": "A motorbike at fifty",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Μια γυναίκα διηγείται σε μια παρέα πώς έμαθε να οδηγεί μηχανάκι.",
+   "script": [
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Όλη μου τη ζωή φοβόμουν τα μηχανάκια. Ο πατέρας μου είχε πάθει ένα σοβαρό ατύχημα όταν ήμουν μικρή, και στο σπίτι μας η λέξη «μηχανή» ήταν σχεδόν απαγορευμένη. Όταν όμως η κόρη μου έφυγε για σπουδές και μετακόμισα σε ένα προάστιο χωρίς καλή συγκοινωνία, κατάλαβα ότι χρειαζόμουν μια λύση.",
+     "en": "All my life I was afraid of motorbikes. My father had had a serious accident when I was little, and in our house the word 'motorbike' was almost forbidden. But when my daughter went off to university and I moved to a suburb with poor public transport, I realised I needed a solution."
+    },
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Στη σχολή οδηγών ήμουν η μεγαλύτερη μαθήτρια, με διαφορά τριάντα χρόνων από τους υπόλοιπους. Την πρώτη μέρα έπεσα στο προαύλιο, πριν καν βάλω δεύτερη ταχύτητα. Ο εκπαιδευτής, ένας υπομονετικός κύριος, με βοήθησε να σηκωθώ και μου είπε: «Όλοι πέφτουν μία φορά. Το θέμα είναι να ξανανέβεις αμέσως».",
+     "en": "At the driving school I was the oldest student, thirty years older than the rest. On the first day I fell over in the yard, before I'd even put it in second gear. The instructor, a patient man, helped me up and said: 'Everyone falls once. The point is to get back on straight away.'"
+    },
+    {
+     "speaker": "Γυναίκα",
+     "voice": "f",
+     "el": "Πήρα το δίπλωμα με την πρώτη. Τώρα πηγαίνω κάθε μέρα στη δουλειά σε είκοσι λεπτά αντί για μία ώρα, πάντα με κράνος και προσεκτικά. Και ξέρετε ποιο είναι το καλύτερο; Ο πατέρας μου, στα ογδόντα του, μου ζήτησε την περασμένη Κυριακή να τον πάω βόλτα μέχρι τη θάλασσα.",
+     "en": "I passed my test first time. Now I get to work every day in twenty minutes instead of an hour, always with a helmet and carefully. And do you know the best part? Last Sunday my father, at eighty, asked me to take him for a ride down to the sea."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί φοβόταν τα μηχανάκια;",
+     "options": [
+      "Είχε πέσει η ίδια από μηχανή",
+      "Ο πατέρας της είχε πάθει σοβαρό ατύχημα",
+      "Της το είχε απαγορεύσει ο άντρας της",
+      "Η κόρη της είχε τραυματιστεί"
+     ],
+     "answer": "Ο πατέρας της είχε πάθει σοβαρό ατύχημα",
+     "why": "Ο πατέρας μου είχε πάθει ένα σοβαρό ατύχημα όταν ήμουν μικρή"
+    },
+    {
+     "q": "Τι της είπε ο εκπαιδευτής όταν έπεσε;",
+     "options": [
+      "Ότι ίσως δεν είναι για εκείνη",
+      "Να σταματήσει για εκείνη τη μέρα",
+      "Να αγοράσει πιο μικρό μηχανάκι",
+      "Ότι όλοι πέφτουν μία φορά και πρέπει να ξανανέβει αμέσως"
+     ],
+     "answer": "Ότι όλοι πέφτουν μία φορά και πρέπει να ξανανέβει αμέσως",
+     "why": "Όλοι πέφτουν μία φορά. Το θέμα είναι να ξανανέβεις αμέσως"
+    },
+    {
+     "q": "Τι της ζήτησε ο πατέρας της την περασμένη Κυριακή;",
+     "options": [
+      "Να πουλήσει το μηχανάκι",
+      "Να τον πάει βόλτα μέχρι τη θάλασσα",
+      "Να του μάθει να οδηγεί",
+      "Να φοράει πάντα κράνος"
+     ],
+     "answer": "Να τον πάει βόλτα μέχρι τη θάλασσα",
+     "why": "μου ζήτησε την περασμένη Κυριακή να τον πάω βόλτα μέχρι τη θάλασσα"
+    }
+   ],
+   "gloss": {
+    "μηχανάκι": "μηχανάκι — motorbike, scooter",
+    "ατύχημα": "ατύχημα — accident",
+    "απαγορευμένη": "απαγορευμένος — forbidden",
+    "προάστιο": "προάστιο — suburb",
+    "συγκοινωνία": "συγκοινωνία — public transport",
+    "προαύλιο": "προαύλιο — yard",
+    "ταχύτητα": "ταχύτητα — gear; speed",
+    "εκπαιδευτής": "εκπαιδευτής — instructor",
+    "υπομονετικός": "υπομονετικός — patient",
+    "δίπλωμα": "δίπλωμα — (driving) licence",
+    "με την πρώτη": "με την πρώτη — at the first attempt",
+    "κράνος": "κράνος — helmet"
+   }
+  },
+  {
+   "id": "l88-c1-chameno-kostos",
+   "title": "Γιατί δεν αφήνουμε ένα κακό βιβλίο;",
+   "title_en": "Why don't we put down a bad book?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Σε μια εκπομπή για την οικονομία της καθημερινής ζωής, ο παρουσιαστής συζητά με μια οικονομολόγο που μελετά τις αποφάσεις των ανθρώπων.",
+   "script": [
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Όλοι το έχουμε κάνει: πληρώσαμε ένα ακριβό εισιτήριο, η παράσταση είναι απαίσια, κι όμως μένουμε ως το τέλος. Γιατί;",
+     "en": "We've all done it: we paid for an expensive ticket, the show is awful, and yet we stay to the end. Why?"
+    },
+    {
+     "speaker": "Οικονομολόγος",
+     "voice": "f",
+     "el": "Οι οικονομολόγοι το ονομάζουν «πλάνη του χαμένου κόστους». Τα χρήματα του εισιτηρίου έχουν ήδη ξοδευτεί· δεν θα τα πάρετε πίσω ό,τι κι αν κάνετε. Λογικά, λοιπόν, η μόνη ερώτηση που έχει σημασία είναι: «Από εδώ και πέρα, τι θα μου προσφέρει περισσότερα, να μείνω ή να φύγω;». Εμείς όμως νιώθουμε ότι, αν φύγουμε, θα έχουμε «πετάξει» τα λεφτά μας, και έτσι προσθέτουμε στη χαμένη επένδυση και χαμένο χρόνο.",
+     "en": "Economists call it the 'sunk cost fallacy'. The ticket money has already been spent; you won't get it back whatever you do. Logically, then, the only question that matters is: 'From here on, what will give me more, staying or leaving?' But we feel that if we leave, we'll have 'thrown away' our money, and so we add lost time to the lost investment."
+    },
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Υπάρχουν πειράματα που το δείχνουν;",
+     "en": "Are there experiments that show this?"
+    },
+    {
+     "speaker": "Οικονομολόγος",
+     "voice": "f",
+     "el": "Ένα κλασικό, από τη δεκαετία του ογδόντα: οι ερευνητές ζήτησαν από φοιτητές να φανταστούν ότι έχουν κλείσει δύο εκδρομές για σκι το ίδιο Σαββατοκύριακο, μια ακριβή και μια φθηνότερη, που όμως τους αρέσει περισσότερο. Δεν μπορούν να ακυρώσουν καμία. Περίπου οι μισοί διάλεξαν την ακριβή, δηλαδή αυτή που θα απολάμβαναν λιγότερο, μόνο και μόνο επειδή είχαν πληρώσει περισσότερα.",
+     "en": "A classic one, from the eighties: researchers asked students to imagine they'd booked two ski trips for the same weekend, an expensive one and a cheaper one that they like more. They can't cancel either. About half chose the expensive one, that is, the one they'd enjoy less, purely because they'd paid more for it."
+    },
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Και πέρα από τα εισιτήρια;",
+     "en": "And beyond tickets?"
+    },
+    {
+     "speaker": "Οικονομολόγος",
+     "voice": "f",
+     "el": "Το ίδιο φαινόμενο εμφανίζεται σε πολύ μεγαλύτερη κλίμακα: κυβερνήσεις που συνεχίζουν έργα τα οποία προφανώς δεν θα αποδώσουν, «γιατί έχουμε ήδη ξοδέψει τόσα», ή άνθρωποι που μένουν χρόνια σε μια σχέση ή μια δουλειά που τους κάνει δυστυχισμένους. Το αντίδοτο είναι απλό στη θεωρία, δύσκολο στην πράξη: να κοιτάμε μπροστά, όχι πίσω. Και να θυμόμαστε ότι το να αφήσεις ένα κακό βιβλίο στη μέση δεν είναι αποτυχία· είναι η πρώτη καλή απόφαση.",
+     "en": "The same phenomenon appears on a much larger scale: governments that carry on with projects which plainly won't pay off, 'because we've already spent so much', or people who stay for years in a relationship or a job that makes them unhappy. The antidote is simple in theory, hard in practice: look forward, not back. And remember that putting a bad book down halfway isn't a failure; it's the first good decision."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια είναι, κατά την οικονομολόγο, η μόνη λογική ερώτηση μετά από μια δαπάνη που δεν επιστρέφεται;",
+     "options": [
+      "Ποιος φταίει για την κακή επιλογή;",
+      "Πόσα πλήρωσα;",
+      "Από εδώ και πέρα, τι θα μου προσφέρει περισσότερα;",
+      "Πώς θα πάρω πίσω τα χρήματά μου;"
+     ],
+     "answer": "Από εδώ και πέρα, τι θα μου προσφέρει περισσότερα;",
+     "why": "«Από εδώ και πέρα, τι θα μου προσφέρει περισσότερα, να μείνω ή να φύγω;»"
+    },
+    {
+     "q": "Τι έδειξε το πείραμα με τις εκδρομές για σκι;",
+     "options": [
+      "Κανείς δεν μπορούσε να αποφασίσει",
+      "Οι φοιτητές ακύρωσαν και τις δύο εκδρομές",
+      "Οι περισσότεροι διάλεξαν τη φθηνότερη",
+      "Περίπου οι μισοί διάλεξαν την ακριβή, που θα απολάμβαναν λιγότερο"
+     ],
+     "answer": "Περίπου οι μισοί διάλεξαν την ακριβή, που θα απολάμβαναν λιγότερο",
+     "why": "Περίπου οι μισοί διάλεξαν την ακριβή, δηλαδή αυτή που θα απολάμβαναν λιγότερο"
+    },
+    {
+     "q": "Ποιο είναι το αντίδοτο που προτείνει;",
+     "options": [
+      "Να ζητάμε πάντα τη γνώμη των άλλων",
+      "Να μην αγοράζουμε ποτέ ακριβά εισιτήρια",
+      "Να κοιτάμε μπροστά, όχι πίσω",
+      "Να ολοκληρώνουμε πάντα ό,τι ξεκινάμε"
+     ],
+     "answer": "Να κοιτάμε μπροστά, όχι πίσω",
+     "why": "να κοιτάμε μπροστά, όχι πίσω"
+    },
+    {
+     "q": "Πώς βλέπει η οικονομολόγος το να αφήσει κανείς ένα κακό βιβλίο στη μέση;",
+     "options": [
+      "Ως την πρώτη καλή απόφαση",
+      "Ως σπατάλη χρημάτων",
+      "Ως έλλειψη υπομονής",
+      "Ως αποτυχία"
+     ],
+     "answer": "Ως την πρώτη καλή απόφαση",
+     "why": "δεν είναι αποτυχία· είναι η πρώτη καλή απόφαση"
+    }
+   ],
+   "gloss": {
+    "οικονομολόγο": "οικονομολόγος — economist",
+    "απαίσια": "απαίσιος — awful",
+    "πλάνη": "πλάνη — fallacy, delusion",
+    "χαμένου κόστους": "χαμένο κόστος — sunk cost",
+    "επένδυση": "επένδυση — investment",
+    "ακυρώσουν": "ακυρώνω — to cancel",
+    "απολάμβαναν": "απολαμβάνω — to enjoy",
+    "κλίμακα": "κλίμακα — scale",
+    "αποδώσουν": "αποδίδω — to pay off, yield",
+    "αντίδοτο": "αντίδοτο — antidote",
+    "αποτυχία": "αποτυχία — failure"
+   }
+  },
+  {
+   "id": "l88-c1-anoloklirwto",
+   "title": "Η δύναμη του ανολοκλήρωτου",
+   "title_en": "The power of the unfinished",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε μια ομιλία μιας ψυχολόγου σε μια εκδήλωση για τη μνήμη και την παραγωγικότητα.",
+   "script": [
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Τη δεκαετία του 1920, στο Βερολίνο, μια νεαρή φοιτήτρια ψυχολογίας, η Μπλούμα Ζεϊγκάρνικ, καθόταν σε ένα καφενείο με τον καθηγητή της, τον Κουρτ Λέβιν. Παρατήρησαν κάτι παράξενο: ο σερβιτόρος θυμόταν με ακρίβεια όλες τις παραγγελίες που δεν είχαν ακόμη πληρωθεί, αλλά, μόλις ένας πελάτης πλήρωνε, η παραγγελία του φαινόταν να σβήνεται από τη μνήμη του.",
+     "en": "In the 1920s, in Berlin, a young psychology student, Bluma Zeigarnik, was sitting in a café with her professor, Kurt Lewin. They noticed something strange: the waiter remembered precisely all the orders that hadn't yet been paid, but as soon as a customer paid, their order seemed to be wiped from his memory."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Η Ζεϊγκάρνικ μετέφερε την παρατήρηση στο εργαστήριο. Έδινε στους συμμετέχοντες απλές εργασίες, όπως παζλ ή αριθμητικά προβλήματα, και διέκοπτε μερικές από αυτές πριν ολοκληρωθούν. Αργότερα, οι συμμετέχοντες θυμούνταν τις διακομμένες εργασίες πολύ καλύτερα από εκείνες που είχαν τελειώσει. Το φαινόμενο πήρε το όνομά της. Οφείλω πάντως να πω ότι οι μεταγενέστερες επαναλήψεις των πειραμάτων έδωσαν ανάμεικτα αποτελέσματα· το φαινόμενο υπάρχει, αλλά δεν είναι τόσο ισχυρό ή τόσο καθολικό όσο πιστευόταν.",
+     "en": "Zeigarnik took the observation into the laboratory. She gave participants simple tasks, such as puzzles or arithmetic problems, and interrupted some of them before they were finished. Later, the participants remembered the interrupted tasks much better than the ones they had completed. The effect was named after her. I should say, though, that later replications of the experiments gave mixed results; the effect exists, but it isn't as strong or as universal as was believed."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Γιατί μας ενδιαφέρει σήμερα; Πρώτον, γιατί εξηγεί κάτι γνώριμο: τις ανολοκλήρωτες υποχρεώσεις που μας τριβελίζουν το μυαλό τη νύχτα. Δεύτερον, γιατί μια νεότερη έρευνα έδειξε ότι αρκεί κάτι πολύ απλό για να ησυχάσει αυτή η ενόχληση: να γράψουμε ένα συγκεκριμένο σχέδιο για το πότε και πώς θα ολοκληρώσουμε την εργασία. Δεν χρειάζεται να την τελειώσουμε· αρκεί να ξέρει το μυαλό ότι έχει φροντιστεί. Και τρίτον, γιατί το φαινόμενο μπορεί να γίνει σύμμαχος: αν αναβάλλετε συνεχώς κάτι, ξεκινήστε το έστω και για πέντε λεπτά. Το ανολοκλήρωτο θα σας τραβήξει πίσω.",
+     "en": "Why does it interest us today? First, because it explains something familiar: the unfinished obligations that nag at our minds at night. Second, because more recent research showed that something very simple is enough to quiet this nagging: writing down a specific plan for when and how we'll complete the task. We don't need to finish it; it's enough for the mind to know it's been taken care of. And third, because the effect can become an ally: if you keep putting something off, start it, even for five minutes. The unfinished will pull you back."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι παρατήρησαν η Ζεϊγκάρνικ και ο Λέβιν στο καφενείο;",
+     "options": [
+      "Ότι ο σερβιτόρος ξεχνούσε όλες τις παραγγελίες",
+      "Ότι ο σερβιτόρος θυμόταν τις απλήρωτες παραγγελίες αλλά ξεχνούσε όσες είχαν πληρωθεί",
+      "Ότι οι πελάτες θυμούνταν τι είχαν παραγγείλει",
+      "Ότι ο σερβιτόρος έγραφε τα πάντα σε χαρτί"
+     ],
+     "answer": "Ότι ο σερβιτόρος θυμόταν τις απλήρωτες παραγγελίες αλλά ξεχνούσε όσες είχαν πληρωθεί",
+     "why": "ο σερβιτόρος θυμόταν με ακρίβεια όλες τις παραγγελίες που δεν είχαν ακόμη πληρωθεί"
+    },
+    {
+     "q": "Τι λέει η ψυχολόγος για τις μεταγενέστερες επαναλήψεις των πειραμάτων;",
+     "options": [
+      "Ότι απέδειξαν πως το φαινόμενο δεν υπάρχει",
+      "Ότι δεν έγιναν ποτέ",
+      "Ότι έδωσαν ανάμεικτα αποτελέσματα",
+      "Ότι επιβεβαίωσαν πλήρως τα αρχικά ευρήματα"
+     ],
+     "answer": "Ότι έδωσαν ανάμεικτα αποτελέσματα",
+     "why": "οι μεταγενέστερες επαναλήψεις των πειραμάτων έδωσαν ανάμεικτα αποτελέσματα"
+    },
+    {
+     "q": "Τι αρκεί, σύμφωνα με τη νεότερη έρευνα, για να ησυχάσει το μυαλό;",
+     "options": [
+      "Να γράψουμε ένα συγκεκριμένο σχέδιο για το πότε και πώς θα την ολοκληρώσουμε",
+      "Να την ξεχάσουμε εντελώς",
+      "Να ολοκληρώσουμε αμέσως την εργασία",
+      "Να την αναθέσουμε σε άλλον"
+     ],
+     "answer": "Να γράψουμε ένα συγκεκριμένο σχέδιο για το πότε και πώς θα την ολοκληρώσουμε",
+     "why": "να γράψουμε ένα συγκεκριμένο σχέδιο για το πότε και πώς θα ολοκληρώσουμε την εργασία"
+    },
+    {
+     "q": "Τι συμβουλεύει όσους αναβάλλουν συνεχώς κάτι;",
+     "options": [
+      "Να το ξεκινήσουν έστω και για πέντε λεπτά",
+      "Να περιμένουν την κατάλληλη στιγμή",
+      "Να ζητήσουν βοήθεια",
+      "Να το χωρίσουν σε δέκα μέρη"
+     ],
+     "answer": "Να το ξεκινήσουν έστω και για πέντε λεπτά",
+     "why": "ξεκινήστε το έστω και για πέντε λεπτά"
+    }
+   ],
+   "gloss": {
+    "παραγωγικότητα": "παραγωγικότητα — productivity",
+    "παραγγελίες": "παραγγελία — order",
+    "εργαστήριο": "εργαστήριο — laboratory",
+    "συμμετέχοντες": "συμμετέχων — participant",
+    "διέκοπτε": "διακόπτω — to interrupt",
+    "διακομμένες": "διακομμένος — interrupted",
+    "μεταγενέστερες": "μεταγενέστερος — later, subsequent",
+    "ανάμεικτα": "ανάμεικτος — mixed",
+    "καθολικό": "καθολικός — universal",
+    "τριβελίζουν": "τριβελίζω — to nag at, gnaw at",
+    "σύμμαχος": "σύμμαχος — ally",
+    "αναβάλλετε": "αναβάλλω — to put off, postpone"
+   }
+  }
+ ]
+}
