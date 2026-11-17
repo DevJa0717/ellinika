@@ -1,0 +1,837 @@
+{
+ "items": [
+  {
+   "id": "l125-ann-asteroskopeio",
+   "title": "Ανοιχτή βραδιά στο αστεροσκοπείο",
+   "title_en": "An open night at the observatory",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση στον τοπικό ραδιοφωνικό σταθμό.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ο δήμος σας προσκαλεί την Παρασκευή το βράδυ σε μια ανοιχτή βραδιά στο αστεροσκοπείο του λόφου. Από τις οκτώ ως τα μεσάνυχτα, οι επισκέπτες θα μπορούν να παρατηρήσουν τη Σελήνη και τον Κρόνο με το μεγάλο τηλεσκόπιο, με τη βοήθεια μελών του τοπικού συλλόγου ερασιτεχνών αστρονόμων.",
+     "en": "The municipality invites you on Friday evening to an open night at the hilltop observatory. From eight until midnight, visitors will be able to observe the Moon and Saturn through the large telescope, with the help of members of the local amateur astronomers' club."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Η είσοδος είναι ελεύθερη, αλλά λόγω του περιορισμένου χώρου απαιτείται κράτηση θέσης στην ιστοσελίδα του δήμου. Οι επισκέπτες θα χωρίζονται σε ομάδες των δεκαπέντε ατόμων, και κάθε ομάδα θα μένει στον θόλο περίπου μισή ώρα.",
+     "en": "Admission is free, but because of the limited space a booking is required on the municipality's website. Visitors will be divided into groups of fifteen, and each group will stay in the dome for about half an hour."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Σε περίπτωση συννεφιάς, η παρατήρηση θα αντικατασταθεί από μια ομιλία για τους πλανήτες του ηλιακού μας συστήματος. Επειδή το πάρκινγκ στον λόφο είναι μικρό, συνιστάται η χρήση του δωρεάν λεωφορείου που θα ξεκινά κάθε μισή ώρα από την κεντρική πλατεία.",
+     "en": "If it is cloudy, the observation will be replaced by a talk on the planets of our solar system. Because the car park on the hill is small, people are advised to use the free bus that will leave every half hour from the central square."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι χρειάζεται για να πάει κανείς στη βραδιά;",
+     "options": [
+      "Να είναι μέλος του συλλόγου",
+      "Δικό του τηλεσκόπιο",
+      "Εισιτήριο από το ταμείο",
+      "Κράτηση θέσης στην ιστοσελίδα του δήμου"
+     ],
+     "answer": "Κράτηση θέσης στην ιστοσελίδα του δήμου",
+     "why": "απαιτείται κράτηση θέσης στην ιστοσελίδα του δήμου"
+    },
+    {
+     "q": "Τι θα γίνει αν έχει συννεφιά;",
+     "options": [
+      "Θα γίνει ομιλία για τους πλανήτες",
+      "Η βραδιά θα αναβληθεί",
+      "Θα επιστραφούν τα χρήματα",
+      "Θα προβληθεί ταινία"
+     ],
+     "answer": "Θα γίνει ομιλία για τους πλανήτες",
+     "why": "η παρατήρηση θα αντικατασταθεί από μια ομιλία για τους πλανήτες του ηλιακού μας συστήματος"
+    },
+    {
+     "q": "Γιατί συνιστάται το δωρεάν λεωφορείο;",
+     "options": [
+      "Γιατί ο δρόμος είναι επικίνδυνος",
+      "Γιατί το πάρκινγκ στον λόφο είναι μικρό",
+      "Γιατί το φως των αυτοκινήτων ενοχλεί την παρατήρηση",
+      "Γιατί απαγορεύονται τα αυτοκίνητα το βράδυ"
+     ],
+     "answer": "Γιατί το πάρκινγκ στον λόφο είναι μικρό",
+     "why": "το πάρκινγκ στον λόφο είναι μικρό"
+    }
+   ],
+   "gloss": {
+    "αστεροσκοπείο": "αστεροσκοπείο — observatory",
+    "παρατηρήσουν": "παρατηρώ — to observe",
+    "Σελήνη": "Σελήνη — the Moon",
+    "Κρόνο": "Κρόνος — Saturn",
+    "τηλεσκόπιο": "τηλεσκόπιο — telescope",
+    "ερασιτεχνών": "ερασιτέχνης — amateur",
+    "περιορισμένου": "περιορισμένος — limited",
+    "απαιτείται": "απαιτούμαι — to be required",
+    "θόλο": "θόλος — dome",
+    "συννεφιάς": "συννεφιά — cloudy weather",
+    "αντικατασταθεί": "αντικαθίσταμαι — to be replaced",
+    "συνιστάται": "συνιστάται — it is recommended"
+   }
+  },
+  {
+   "id": "l125-vm-toxovolia",
+   "title": "Μήνυμα από τον σύλλογο τοξοβολίας",
+   "title_en": "A message from the archery club",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Γραφτήκατε πρόσφατα σε έναν σύλλογο τοξοβολίας. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Γραμματέας",
+     "voice": "f",
+     "el": "Γεια σας, η Μαρίνα είμαι από τον σύλλογο τοξοβολίας. Σας πήρα για το μάθημα γνωριμίας του Σαββάτου. Λόγω των έργων στο γήπεδο, το μάθημα δεν θα γίνει στο ανοιχτό πεδίο αλλά στο κλειστό γυμναστήριο του σχολείου, απέναντι από τον σύλλογο. Η ώρα μένει η ίδια, στις δέκα.",
+     "en": "Hello, it's Marina from the archery club. I'm calling about Saturday's introductory lesson. Because of the works at the ground, the lesson won't take place on the open range but in the school's indoor gym, opposite the club. The time stays the same, at ten."
+    },
+    {
+     "speaker": "Γραμματέας",
+     "voice": "f",
+     "el": "Δεν χρειάζεται να φέρετε δικό σας εξοπλισμό· τόξα, βέλη και προστατευτικά θα σας δώσει ο σύλλογος. Φορέστε μόνο άνετα ρούχα, χωρίς φαρδιά μανίκια, γιατί μπορεί να πιαστούν στη χορδή. Επίσης, μην ξεχάσετε να φέρετε την ιατρική βεβαίωση· χωρίς αυτήν δεν μπορούμε να σας ασφαλίσουμε.",
+     "en": "You don't need to bring your own equipment; the club will give you bows, arrows and guards. Just wear comfortable clothes, without wide sleeves, because they can catch on the string. Also, don't forget to bring the medical certificate; without it we can't insure you."
+    },
+    {
+     "speaker": "Γραμματέας",
+     "voice": "f",
+     "el": "Αν θέλετε να συνεχίσετε μετά το πρώτο μάθημα, η συνδρομή είναι τριάντα ευρώ τον μήνα. Για οποιαδήποτε ερώτηση, πάρτε με σε αυτό το νούμερο. Καλή σας μέρα!",
+     "en": "If you'd like to continue after the first lesson, the membership fee is thirty euros a month. For any question, call me on this number. Have a good day!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι αλλάζει στο μάθημα του Σαββάτου;",
+     "options": [
+      "Ο χώρος: θα γίνει στο κλειστό γυμναστήριο του σχολείου",
+      "Η τιμή",
+      "Ο προπονητής",
+      "Η ώρα"
+     ],
+     "answer": "Ο χώρος: θα γίνει στο κλειστό γυμναστήριο του σχολείου",
+     "why": "στο κλειστό γυμναστήριο του σχολείου"
+    },
+    {
+     "q": "Γιατί δεν πρέπει να φορέσει κανείς φαρδιά μανίκια;",
+     "options": [
+      "Γιατί κάνει ζέστη στο γυμναστήριο",
+      "Γιατί απαγορεύεται από τον κανονισμό",
+      "Γιατί μπορεί να πιαστούν στη χορδή",
+      "Γιατί λερώνονται εύκολα"
+     ],
+     "answer": "Γιατί μπορεί να πιαστούν στη χορδή",
+     "why": "μπορεί να πιαστούν στη χορδή"
+    },
+    {
+     "q": "Γιατί είναι απαραίτητη η ιατρική βεβαίωση;",
+     "options": [
+      "Γιατί το ζητά το σχολείο",
+      "Για να συμμετάσχει σε αγώνες",
+      "Για να πάρει έκπτωση στη συνδρομή",
+      "Χωρίς αυτήν ο σύλλογος δεν μπορεί να τον ασφαλίσει"
+     ],
+     "answer": "Χωρίς αυτήν ο σύλλογος δεν μπορεί να τον ασφαλίσει",
+     "why": "χωρίς αυτήν δεν μπορούμε να σας ασφαλίσουμε"
+    }
+   ],
+   "gloss": {
+    "τοξοβολίας": "τοξοβολία — archery",
+    "μάθημα γνωριμίας": "μάθημα γνωριμίας — introductory lesson",
+    "πεδίο": "πεδίο — range, field",
+    "γυμναστήριο": "γυμναστήριο — gym",
+    "εξοπλισμό": "εξοπλισμός — equipment",
+    "τόξα": "τόξο — bow",
+    "βέλη": "βέλος — arrow",
+    "προστατευτικά": "προστατευτικό — guard, protective gear",
+    "φαρδιά": "φαρδύς — wide, loose",
+    "χορδή": "χορδή — string",
+    "ιατρική βεβαίωση": "ιατρική βεβαίωση — medical certificate",
+    "ασφαλίσουμε": "ασφαλίζω — to insure",
+    "συνδρομή": "συνδρομή — membership fee"
+   }
+  },
+  {
+   "id": "l125-dial-agonas-dromou",
+   "title": "Δέκα χιλιόμετρα με την εταιρεία;",
+   "title_en": "Ten kilometres with the company?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Η Στέλλα προσπαθεί να πείσει τον συνάδελφό της, τον Άρη, να τρέξει μαζί με την ομάδα της εταιρείας σε έναν αγώνα δρόμου.",
+   "script": [
+    {
+     "speaker": "Στέλλα",
+     "voice": "f",
+     "el": "Άρη, η εταιρεία δηλώνει ομάδα στον αγώνα δρόμου της πόλης, τον Απρίλιο. Υπάρχει διαδρομή των πέντε και των δέκα χιλιομέτρων, και για κάθε συμμετοχή η εταιρεία δίνει είκοσι ευρώ σε ένα παιδικό νοσοκομείο. Γράψου κι εσύ!",
+     "en": "Aris, the company is entering a team in the city's road race in April. There's a five- and a ten-kilometre route, and for every entry the company gives twenty euros to a children's hospital. Sign up too!"
+    },
+    {
+     "speaker": "Άρης",
+     "voice": "m",
+     "el": "Στέλλα, εγώ τελευταία φορά έτρεξα για να προλάβω το λεωφορείο, και λαχάνιασα στα πενήντα μέτρα. Δέκα χιλιόμετρα; Θα με μαζεύουν με φορείο.",
+     "en": "Stella, the last time I ran was to catch the bus, and I was out of breath after fifty metres. Ten kilometres? They'll be carrying me off on a stretcher."
+    },
+    {
+     "speaker": "Στέλλα",
+     "voice": "f",
+     "el": "Ποιος είπε δέκα; Ξεκίνα με τα πέντε. Έχουμε τέσσερις μήνες, και μια συνάδελφος που τρέχει μαραθώνιους θα κάνει προπονήσεις για αρχάριους δύο φορές την εβδομάδα, μετά τη δουλειά, στο πάρκο. Ακόμα και περπάτημα να κάνεις στην αρχή, μετράει.",
+     "en": "Who said ten? Start with the five. We have four months, and a colleague who runs marathons will do training sessions for beginners twice a week, after work, in the park. Even if you just walk at the start, it counts."
+    },
+    {
+     "speaker": "Άρης",
+     "voice": "m",
+     "el": "Εντάξει, θα έρθω στην πρώτη προπόνηση. Αν αντέξω, γράφομαι για τα πέντε. Αλλά αν τερματίσω τελευταίος, θα κερνάς εσύ καφέ για έναν μήνα.",
+     "en": "OK, I'll come to the first training session. If I survive, I'll sign up for the five. But if I finish last, you're buying the coffee for a month."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι κάνει η εταιρεία για κάθε συμμετοχή;",
+     "options": [
+      "Πληρώνει τα αθλητικά παπούτσια",
+      "Δίνει μια μέρα άδεια",
+      "Δίνει μπόνους στον μισθό",
+      "Δίνει είκοσι ευρώ σε ένα παιδικό νοσοκομείο"
+     ],
+     "answer": "Δίνει είκοσι ευρώ σε ένα παιδικό νοσοκομείο",
+     "why": "για κάθε συμμετοχή η εταιρεία δίνει είκοσι ευρώ σε ένα παιδικό νοσοκομείο"
+    },
+    {
+     "q": "Τι προτείνει η Στέλλα στον Άρη;",
+     "options": [
+      "Να γραφτεί σε γυμναστήριο",
+      "Να ξεκινήσει με τα πέντε και να πάει στις προπονήσεις για αρχάριους",
+      "Να τρέξει αμέσως τα δέκα χιλιόμετρα",
+      "Να βοηθήσει στην οργάνωση αντί να τρέξει"
+     ],
+     "answer": "Να ξεκινήσει με τα πέντε και να πάει στις προπονήσεις για αρχάριους",
+     "why": "Ξεκίνα με τα πέντε"
+    },
+    {
+     "q": "Τι θα γίνει αν ο Άρης τερματίσει τελευταίος;",
+     "options": [
+      "Η Στέλλα θα κερνάει καφέ για έναν μήνα",
+      "Ο Άρης θα πληρώσει δωρεά",
+      "Θα τρέξει ξανά του χρόνου",
+      "Θα σταματήσει τις προπονήσεις"
+     ],
+     "answer": "Η Στέλλα θα κερνάει καφέ για έναν μήνα",
+     "why": "αν τερματίσω τελευταίος, θα κερνάς εσύ καφέ για έναν μήνα"
+    }
+   ],
+   "gloss": {
+    "συνάδελφό": "συνάδελφος — colleague",
+    "αγώνα δρόμου": "αγώνας δρόμου — road race",
+    "διαδρομή": "διαδρομή — route, course",
+    "συμμετοχή": "συμμετοχή — entry, participation",
+    "προλάβω": "προλαβαίνω — to catch (in time)",
+    "λαχάνιασα": "λαχανιάζω — to get out of breath",
+    "φορείο": "φορείο — stretcher",
+    "μαραθώνιους": "μαραθώνιος — marathon",
+    "αρχάριους": "αρχάριος — beginner",
+    "αντέξω": "αντέχω — to last, to cope",
+    "τερματίσω": "τερματίζω — to finish (a race)",
+    "κερνάς": "κερνάω — to treat, buy (a drink) for"
+   }
+  },
+  {
+   "id": "l125-int-keria",
+   "title": "Κεριά από κερί μέλισσας",
+   "title_en": "Candles from beeswax",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη σε μια εκπομπή για τις παραδοσιακές τέχνες. Καλεσμένος είναι ο κυρ Παντελής, που φτιάχνει κεριά.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Κυρ Παντελή, πόσα χρόνια φτιάχνετε κεριά;",
+     "en": "Mr Pantelis, how many years have you been making candles?"
+    },
+    {
+     "speaker": "Παντελής",
+     "voice": "m",
+     "el": "Από δεκαπέντε χρονών, στο εργαστήριο του πατέρα μου. Τότε τα περισσότερα κεριά πήγαιναν στις εκκλησίες. Η δουλειά ήταν όλη στο χέρι: λιώναμε το κερί σε ένα μεγάλο καζάνι και βουτούσαμε το φιτίλι ξανά και ξανά, ώσπου το κερί να πάρει το σωστό πάχος.",
+     "en": "Since I was fifteen, in my father's workshop. Back then most candles went to the churches. The work was all by hand: we melted the wax in a big cauldron and dipped the wick again and again, until the candle reached the right thickness."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Γιατί επιμένετε στο κερί μέλισσας; Η παραφίνη δεν είναι πιο φθηνή;",
+     "en": "Why do you insist on beeswax? Isn't paraffin cheaper?"
+    },
+    {
+     "speaker": "Παντελής",
+     "voice": "m",
+     "el": "Είναι, πολύ πιο φθηνή. Όμως το κερί μέλισσας καίγεται πιο αργά, βγάζει λιγότερο καπνό και έχει αυτή τη γλυκιά μυρωδιά του μελιού. Το αγοράζω από μελισσοκόμους της περιοχής, κι έτσι στηρίζουμε ο ένας τον άλλον.",
+     "en": "It is, much cheaper. But beeswax burns more slowly, gives off less smoke and has that sweet smell of honey. I buy it from beekeepers in the area, and so we support each other."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και ποιος αγοράζει σήμερα τα κεριά σας;",
+     "en": "And who buys your candles today?"
+    },
+    {
+     "speaker": "Παντελής",
+     "voice": "m",
+     "el": "Οι εκκλησίες ακόμα, αλλά όλο και περισσότεροι νέοι, που θέλουν κάτι φυσικό για το σπίτι τους. Η εγγονή μου άνοιξε ένα ηλεκτρονικό κατάστημα, και τώρα στέλνουμε κεριά μέχρι τη Σουηδία.",
+     "en": "The churches still, but more and more young people, who want something natural for their home. My granddaughter opened an online shop, and now we send candles as far as Sweden."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς φτιάχνονταν τα κεριά στο εργαστήριο του πατέρα του;",
+     "options": [
+      "Βουτούσαν το φιτίλι ξανά και ξανά στο λιωμένο κερί",
+      "Τα αγόραζαν έτοιμα και τα στόλιζαν",
+      "Με καλούπια από πηλό",
+      "Με μηχανήματα από το εξωτερικό"
+     ],
+     "answer": "Βουτούσαν το φιτίλι ξανά και ξανά στο λιωμένο κερί",
+     "why": "βουτούσαμε το φιτίλι ξανά και ξανά"
+    },
+    {
+     "q": "Ποιο πλεονέκτημα του κεριού μέλισσας ΔΕΝ αναφέρει;",
+     "options": [
+      "Έχει τη μυρωδιά του μελιού",
+      "Είναι πιο φθηνό",
+      "Καίγεται πιο αργά",
+      "Βγάζει λιγότερο καπνό"
+     ],
+     "answer": "Είναι πιο φθηνό",
+     "why": "Είναι, πολύ πιο φθηνή"
+    },
+    {
+     "q": "Πώς φτάνουν σήμερα τα κεριά του μέχρι τη Σουηδία;",
+     "options": [
+      "Μέσα από τις εκκλησίες",
+      "Μέσα από το ηλεκτρονικό κατάστημα της εγγονής του",
+      "Μέσα από μια έκθεση στο εξωτερικό",
+      "Μέσα από έναν χονδρέμπορο"
+     ],
+     "answer": "Μέσα από το ηλεκτρονικό κατάστημα της εγγονής του",
+     "why": "Η εγγονή μου άνοιξε ένα ηλεκτρονικό κατάστημα"
+    }
+   ],
+   "gloss": {
+    "κεριά": "κερί — candle",
+    "εργαστήριο": "εργαστήριο — workshop",
+    "λιώναμε": "λιώνω — to melt",
+    "καζάνι": "καζάνι — cauldron",
+    "βουτούσαμε": "βουτάω — to dip",
+    "φιτίλι": "φιτίλι — wick",
+    "πάχος": "πάχος — thickness",
+    "επιμένετε": "επιμένω — to insist",
+    "παραφίνη": "παραφίνη — paraffin",
+    "καπνό": "καπνός — smoke",
+    "μελισσοκόμους": "μελισσοκόμος — beekeeper",
+    "στηρίζουμε": "στηρίζω — to support",
+    "ηλεκτρονικό κατάστημα": "ηλεκτρονικό κατάστημα — online shop"
+   }
+  },
+  {
+   "id": "l125-rep-kiniti-vivliothiki",
+   "title": "Η βιβλιοθήκη που έρχεται με φορτηγάκι",
+   "title_en": "The library that comes by van",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ στις τοπικές ειδήσεις για μια κινητή βιβλιοθήκη σε ορεινά χωριά.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Κάθε δεύτερη Τετάρτη, ένα μικρό φορτηγάκι γεμάτο βιβλία ανεβαίνει τους στενούς δρόμους προς τα ορεινά χωριά του νομού. Είναι η κινητή βιβλιοθήκη της δημοτικής βιβλιοθήκης, που επισκέπτεται δώδεκα χωριά όπου δεν υπάρχει ούτε βιβλιοπωλείο ούτε σχολείο.",
+     "en": "Every other Wednesday, a small van full of books climbs the narrow roads to the mountain villages of the prefecture. It's the mobile library of the municipal library, which visits twelve villages where there is neither a bookshop nor a school."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η βιβλιοθηκονόμος, η κυρία Ελπίδα, ξέρει τους αναγνώστες της με το όνομα. Οι περισσότεροι είναι ηλικιωμένοι, που προτιμούν βιβλία με μεγάλα γράμματα και ιστορικά μυθιστορήματα. Το καλοκαίρι, όταν έρχονται τα εγγόνια, ζητούνται και πολλά παιδικά βιβλία.",
+     "en": "The librarian, Mrs Elpida, knows her readers by name. Most of them are elderly people, who prefer large-print books and historical novels. In summer, when the grandchildren come, a lot of children's books are requested too."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η κινητή βιβλιοθήκη όμως δεν δανείζει μόνο βιβλία. Η κυρία Ελπίδα βοηθά τους κατοίκους να κλείσουν ραντεβού με γιατρό μέσω διαδικτύου ή να συμπληρώσουν αιτήσεις, κι έτσι το φορτηγάκι έχει γίνει, όπως λένε, το πιο πολυσύχναστο σημείο του χωριού για μία ώρα.",
+     "en": "But the mobile library doesn't only lend books. Mrs Elpida helps residents book doctor's appointments online or fill in applications, and so the van has become, as they say, the busiest spot in the village for an hour."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι κοινό έχουν τα χωριά που επισκέπτεται η κινητή βιβλιοθήκη;",
+     "options": [
+      "Δεν έχουν δρόμο",
+      "Είναι όλα κοντά στη θάλασσα",
+      "Δεν υπάρχει ούτε βιβλιοπωλείο ούτε σχολείο",
+      "Έχουν μόνο παιδιά"
+     ],
+     "answer": "Δεν υπάρχει ούτε βιβλιοπωλείο ούτε σχολείο",
+     "why": "δεν υπάρχει ούτε βιβλιοπωλείο ούτε σχολείο"
+    },
+    {
+     "q": "Τι βιβλία ζητούνται περισσότερο το καλοκαίρι;",
+     "options": [
+      "Βιβλία με μεγάλα γράμματα",
+      "Παιδικά βιβλία",
+      "Οδηγοί μαγειρικής",
+      "Τουριστικοί οδηγοί"
+     ],
+     "answer": "Παιδικά βιβλία",
+     "why": "ζητούνται και πολλά παιδικά βιβλία"
+    },
+    {
+     "q": "Με τι άλλο βοηθά η βιβλιοθηκονόμος τους κατοίκους;",
+     "options": [
+      "Να κλείσουν ραντεβού με γιατρό μέσω διαδικτύου ή να συμπληρώσουν αιτήσεις",
+      "Να ψωνίσουν τρόφιμα",
+      "Να μάθουν ξένες γλώσσες",
+      "Να πάρουν τα φάρμακά τους"
+     ],
+     "answer": "Να κλείσουν ραντεβού με γιατρό μέσω διαδικτύου ή να συμπληρώσουν αιτήσεις",
+     "why": "βοηθά τους κατοίκους να κλείσουν ραντεβού με γιατρό μέσω διαδικτύου ή να συμπληρώσουν αιτήσεις"
+    }
+   ],
+   "gloss": {
+    "κινητή βιβλιοθήκη": "κινητή βιβλιοθήκη — mobile library",
+    "ορεινά": "ορεινός — mountain (adj.)",
+    "φορτηγάκι": "φορτηγάκι — small van, small truck",
+    "νομού": "νομός — prefecture",
+    "βιβλιοπωλείο": "βιβλιοπωλείο — bookshop",
+    "βιβλιοθηκονόμος": "βιβλιοθηκονόμος — librarian",
+    "ηλικιωμένοι": "ηλικιωμένος — elderly person",
+    "μυθιστορήματα": "μυθιστόρημα — novel",
+    "δανείζει": "δανείζω — to lend",
+    "αιτήσεις": "αίτηση — application",
+    "πολυσύχναστο": "πολυσύχναστος — busy, much-frequented"
+   }
+  },
+  {
+   "id": "l125-rep-sapouni",
+   "title": "Το σαπούνι της γιαγιάς γίνεται επιχείρηση",
+   "title_en": "Grandma's soap becomes a business",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ σε μια εκπομπή για τη νέα επιχειρηματικότητα στην ύπαιθρο.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η Κατερίνα σπούδασε χημεία και δούλευε σε ένα εργαστήριο στην Αθήνα. Όταν έχασε τη δουλειά της, γύρισε στο χωριό της και θυμήθηκε τη γιαγιά της, που έφτιαχνε κάθε φθινόπωρο πράσινο σαπούνι από το λάδι της χρονιάς.",
+     "en": "Katerina studied chemistry and worked in a laboratory in Athens. When she lost her job, she returned to her village and remembered her grandmother, who made green soap every autumn from that year's olive oil."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Ξεκίνησε στην κουζίνα της, με τη συνταγή της γιαγιάς και τις γνώσεις της από το πανεπιστήμιο. Σήμερα έχει ένα μικρό εργαστήριο, δύο υπαλλήλους και παράγει σαπούνια με ελαιόλαδο, μέλι και βότανα από τα γύρω βουνά. Το λάδι το αγοράζει από τους ελαιοπαραγωγούς του χωριού.",
+     "en": "She started in her kitchen, with her grandmother's recipe and her knowledge from university. Today she has a small workshop, two employees and produces soaps with olive oil, honey and herbs from the surrounding mountains. She buys the oil from the village's olive growers."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η Κατερίνα λέει ότι το πιο δύσκολο δεν ήταν η παραγωγή αλλά η γραφειοκρατία: χρειάστηκε σχεδόν έναν χρόνο για να πάρει όλες τις άδειες. Τώρα σκέφτεται να οργανώνει εργαστήρια για επισκέπτες, ώστε να μαθαίνουν κι εκείνοι πώς γίνεται το σαπούνι.",
+     "en": "Katerina says the hardest thing wasn't production but the bureaucracy: it took almost a year to get all the permits. Now she's thinking of organising workshops for visitors, so that they too can learn how soap is made."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί γύρισε η Κατερίνα στο χωριό;",
+     "options": [
+      "Για να τελειώσει τις σπουδές της",
+      "Για να παντρευτεί",
+      "Γιατί αρρώστησε η γιαγιά της",
+      "Γιατί έχασε τη δουλειά της"
+     ],
+     "answer": "Γιατί έχασε τη δουλειά της",
+     "why": "Όταν έχασε τη δουλειά της, γύρισε στο χωριό της"
+    },
+    {
+     "q": "Από πού αγοράζει το λάδι;",
+     "options": [
+      "Από ένα σούπερ μάρκετ",
+      "Το εισάγει από την Ισπανία",
+      "Από τους ελαιοπαραγωγούς του χωριού",
+      "Από την Κρήτη"
+     ],
+     "answer": "Από τους ελαιοπαραγωγούς του χωριού",
+     "why": "Το λάδι το αγοράζει από τους ελαιοπαραγωγούς του χωριού"
+    },
+    {
+     "q": "Ποιο ήταν, σύμφωνα με την Κατερίνα, το πιο δύσκολο;",
+     "options": [
+      "Η εύρεση πελατών",
+      "Η γραφειοκρατία και οι άδειες",
+      "Η συνταγή",
+      "Η εύρεση υπαλλήλων"
+     ],
+     "answer": "Η γραφειοκρατία και οι άδειες",
+     "why": "το πιο δύσκολο δεν ήταν η παραγωγή αλλά η γραφειοκρατία"
+    }
+   ],
+   "gloss": {
+    "επιχειρηματικότητα": "επιχειρηματικότητα — entrepreneurship",
+    "ύπαιθρο": "ύπαιθρος — countryside",
+    "χημεία": "χημεία — chemistry",
+    "εργαστήριο": "εργαστήριο — laboratory; workshop",
+    "συνταγή": "συνταγή — recipe",
+    "υπαλλήλους": "υπάλληλος — employee",
+    "παράγει": "παράγω — to produce",
+    "βότανα": "βότανο — herb",
+    "ελαιοπαραγωγούς": "ελαιοπαραγωγός — olive grower",
+    "γραφειοκρατία": "γραφειοκρατία — bureaucracy",
+    "άδειες": "άδεια — permit, licence"
+   }
+  },
+  {
+   "id": "l125-mono-kalligrafia",
+   "title": "Πώς με ηρέμησε η καλλιγραφία",
+   "title_en": "How calligraphy calmed me down",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε τον Σπύρο, λογιστή, να μιλάει σε ένα podcast για ένα χόμπι που ανακάλυψε.",
+   "script": [
+    {
+     "speaker": "Σπύρος",
+     "voice": "m",
+     "el": "Πριν από δύο χρόνια ήμουν εξαντλημένος. Η δουλειά μου είναι όλη αριθμοί και προθεσμίες, και το βράδυ δεν μπορούσα να κοιμηθώ. Μια φίλη μού χάρισε ένα σετ με πένες και μελάνια και μου είπε: «Δοκίμασε να γράφεις αργά».",
+     "en": "Two years ago I was exhausted. My job is all numbers and deadlines, and at night I couldn't sleep. A friend gave me a set of nibs and inks and told me: 'Try writing slowly.'"
+    },
+    {
+     "speaker": "Σπύρος",
+     "voice": "m",
+     "el": "Στην αρχή τα γράμματά μου ήταν στραβά και το μελάνι λέρωνε τα πάντα. Γράφτηκα σε ένα εργαστήριο καλλιγραφίας, όπου μάθαμε πρώτα να κρατάμε σωστά την πένα και να κάνουμε απλές γραμμές, σελίδες ολόκληρες, πριν φτάσουμε στα γράμματα.",
+     "en": "At first my letters were crooked and the ink got everywhere. I signed up for a calligraphy workshop, where we first learned to hold the pen correctly and to make simple lines, whole pages of them, before we got to the letters."
+    },
+    {
+     "speaker": "Σπύρος",
+     "voice": "m",
+     "el": "Αυτό που μου άρεσε είναι ότι δεν μπορείς να βιαστείς. Αν σκέφτεσαι τη δουλειά, το χέρι τρέμει και η γραμμή χαλάει. Έτσι, για μία ώρα κάθε βράδυ, το μυαλό μου αδειάζει. Δεν θα γίνω ποτέ καλλιτέχνης, αλλά κοιμάμαι πολύ καλύτερα.",
+     "en": "What I liked is that you can't rush. If you're thinking about work, your hand trembles and the line is spoiled. So, for one hour every evening, my mind empties. I'll never be an artist, but I sleep much better."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο ήταν το πρόβλημα του Σπύρου πριν από δύο χρόνια;",
+     "options": [
+      "Είχε χάσει τη δουλειά του",
+      "Ήταν εξαντλημένος και δεν μπορούσε να κοιμηθεί",
+      "Είχε πόνους στο χέρι",
+      "Βαριόταν στο σπίτι"
+     ],
+     "answer": "Ήταν εξαντλημένος και δεν μπορούσε να κοιμηθεί",
+     "why": "το βράδυ δεν μπορούσα να κοιμηθώ"
+    },
+    {
+     "q": "Τι έμαθαν πρώτα στο εργαστήριο;",
+     "options": [
+      "Να γράφουν το όνομά τους",
+      "Να φτιάχνουν δικά τους μελάνια",
+      "Να κρατάνε σωστά την πένα και να κάνουν απλές γραμμές",
+      "Να αντιγράφουν παλιά χειρόγραφα"
+     ],
+     "answer": "Να κρατάνε σωστά την πένα και να κάνουν απλές γραμμές",
+     "why": "μάθαμε πρώτα να κρατάμε σωστά την πένα και να κάνουμε απλές γραμμές"
+    },
+    {
+     "q": "Γιατί τον βοηθά η καλλιγραφία;",
+     "options": [
+      "Γιατί κερδίζει χρήματα",
+      "Γιατί τη χρησιμοποιεί στη δουλειά του",
+      "Γιατί δεν μπορείς να βιαστείς και το μυαλό αδειάζει",
+      "Γιατί γνώρισε νέους φίλους"
+     ],
+     "answer": "Γιατί δεν μπορείς να βιαστείς και το μυαλό αδειάζει",
+     "why": "δεν μπορείς να βιαστείς"
+    }
+   ],
+   "gloss": {
+    "λογιστή": "λογιστής — accountant",
+    "χόμπι": "χόμπι — hobby",
+    "εξαντλημένος": "εξαντλημένος — exhausted",
+    "προθεσμίες": "προθεσμία — deadline",
+    "πένες": "πένα — nib, pen",
+    "μελάνια": "μελάνι — ink",
+    "στραβά": "στραβός — crooked",
+    "λέρωνε": "λερώνω — to stain, make dirty",
+    "καλλιγραφίας": "καλλιγραφία — calligraphy",
+    "βιαστείς": "βιάζομαι — to hurry",
+    "τρέμει": "τρέμω — to tremble",
+    "αδειάζει": "αδειάζω — to empty"
+   }
+  },
+  {
+   "id": "l125-mono-ydroponia",
+   "title": "Ντομάτες χωρίς χώμα",
+   "title_en": "Tomatoes without soil",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε τη Βασιλική, γεωπόνο, να μιλάει σε μαθητές για τη δουλειά της σε ένα υδροπονικό θερμοκήπιο.",
+   "script": [
+    {
+     "speaker": "Βασιλική",
+     "voice": "f",
+     "el": "Παιδιά, στο θερμοκήπιο όπου δουλεύω, οι ντομάτες δεν φυτρώνουν στο χώμα. Οι ρίζες τους βρίσκονται σε ένα υλικό σαν σφουγγάρι, και ένα σύστημα από σωλήνες τους δίνει νερό με όλα τα θρεπτικά συστατικά που χρειάζονται. Αυτό λέγεται υδροπονία.",
+     "en": "Children, in the greenhouse where I work, the tomatoes don't grow in soil. Their roots are in a material like a sponge, and a system of pipes gives them water with all the nutrients they need. This is called hydroponics."
+    },
+    {
+     "speaker": "Βασιλική",
+     "voice": "f",
+     "el": "Το μεγάλο πλεονέκτημα είναι το νερό. Επειδή το νερό που περισσεύει μαζεύεται και ξαναχρησιμοποιείται, ξοδεύουμε πολύ λιγότερο από ό,τι σε ένα χωράφι. Σε μια χώρα με ξηρά καλοκαίρια, όπως η δική μας, αυτό έχει μεγάλη σημασία.",
+     "en": "The big advantage is water. Because the water left over is collected and reused, we use much less than in a field. In a country with dry summers, like ours, that matters a great deal."
+    },
+    {
+     "speaker": "Βασιλική",
+     "voice": "f",
+     "el": "Βέβαια, υπάρχουν και μειονεκτήματα. Το θερμοκήπιο χρειάζεται ρεύμα για τις αντλίες και τον έλεγχο της θερμοκρασίας, και αν χαλάσει κάτι, τα φυτά μπορεί να πάθουν ζημιά μέσα σε λίγες ώρες. Γι' αυτό έχω πάντα το κινητό μου ανοιχτό, ακόμα και την Κυριακή.",
+     "en": "Of course, there are disadvantages too. The greenhouse needs electricity for the pumps and the temperature control, and if something breaks down, the plants can be damaged within a few hours. That's why I always keep my phone on, even on Sundays."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού βρίσκονται οι ρίζες των φυτών στην υδροπονία;",
+     "options": [
+      "Σε άμμο",
+      "Μέσα σε θαλασσινό νερό",
+      "Σε ένα υλικό σαν σφουγγάρι",
+      "Σε χώμα από το βουνό"
+     ],
+     "answer": "Σε ένα υλικό σαν σφουγγάρι",
+     "why": "Οι ρίζες τους βρίσκονται σε ένα υλικό σαν σφουγγάρι"
+    },
+    {
+     "q": "Γιατί ξοδεύουν λιγότερο νερό;",
+     "options": [
+      "Γιατί το νερό που περισσεύει μαζεύεται και ξαναχρησιμοποιείται",
+      "Γιατί ποτίζουν μόνο τη νύχτα",
+      "Γιατί χρησιμοποιούν βρόχινο νερό",
+      "Γιατί τα φυτά είναι μικρότερα"
+     ],
+     "answer": "Γιατί το νερό που περισσεύει μαζεύεται και ξαναχρησιμοποιείται",
+     "why": "το νερό που περισσεύει μαζεύεται και ξαναχρησιμοποιείται"
+    },
+    {
+     "q": "Γιατί έχει πάντα το κινητό της ανοιχτό;",
+     "options": [
+      "Γιατί αν χαλάσει κάτι, τα φυτά μπορεί να πάθουν ζημιά μέσα σε λίγες ώρες",
+      "Γιατί είναι υπεύθυνη για τους μαθητές",
+      "Γιατί περιμένει παραγγελίες",
+      "Γιατί συνεργάζεται με πανεπιστήμιο"
+     ],
+     "answer": "Γιατί αν χαλάσει κάτι, τα φυτά μπορεί να πάθουν ζημιά μέσα σε λίγες ώρες",
+     "why": "αν χαλάσει κάτι, τα φυτά μπορεί να πάθουν ζημιά μέσα σε λίγες ώρες"
+    }
+   ],
+   "gloss": {
+    "γεωπόνο": "γεωπόνος — agronomist",
+    "υδροπονικό": "υδροπονικός — hydroponic",
+    "θερμοκήπιο": "θερμοκήπιο — greenhouse",
+    "φυτρώνουν": "φυτρώνω — to grow, sprout",
+    "ρίζες": "ρίζα — root",
+    "σφουγγάρι": "σφουγγάρι — sponge",
+    "σωλήνες": "σωλήνας — pipe",
+    "θρεπτικά συστατικά": "θρεπτικά συστατικά — nutrients",
+    "περισσεύει": "περισσεύω — to be left over",
+    "ξηρά": "ξηρός — dry",
+    "μειονεκτήματα": "μειονέκτημα — disadvantage",
+    "αντλίες": "αντλία — pump"
+   }
+  },
+  {
+   "id": "l125-c1-ringelmann",
+   "title": "Όταν η ομάδα τραβάει λιγότερο",
+   "title_en": "When the team pulls less",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από διάλεξη κοινωνικής ψυχολογίας για το φαινόμενο της κοινωνικής οκνηρίας.",
+   "script": [
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Στα τέλη του 19ου αιώνα, ένας Γάλλος γεωπόνος μηχανικός, ο Μαξιμιλιέν Ρινγκελμάν, ζήτησε από ανθρώπους να τραβήξουν ένα σχοινί, άλλοτε μόνοι τους και άλλοτε σε ομάδες. Θα περίμενε κανείς ότι οκτώ άτομα θα τραβούσαν με οκταπλάσια δύναμη. Δεν συνέβη αυτό: όσο μεγάλωνε η ομάδα, τόσο μικρότερη ήταν η προσπάθεια που κατέβαλλε ο καθένας. Στις ομάδες των οκτώ, η συνολική δύναμη έφτανε, σύμφωνα με τους υπολογισμούς του, περίπου το μισό από το άθροισμα των ατομικών επιδόσεων.",
+     "en": "At the end of the 19th century, a French agricultural engineer, Maximilien Ringelmann, asked people to pull a rope, sometimes alone and sometimes in groups. One would expect eight people to pull with eight times the force. That is not what happened: the bigger the group grew, the less effort each person made. In groups of eight, the total force reached, by his calculations, about half the sum of the individual performances."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Ο ίδιος ο Ρινγκελμάν απέδωσε το φαινόμενο εν μέρει στον κακό συντονισμό: οι άνθρωποι δεν τραβούν όλοι την ίδια στιγμή. Μεταγενέστερα πειράματα όμως έδειξαν ότι αυτό δεν αρκεί. Όταν οι συμμετέχοντες πίστευαν ότι τραβούν μαζί με άλλους, ενώ στην πραγματικότητα τραβούσαν μόνοι, και πάλι κατέβαλλαν λιγότερη προσπάθεια. Το πρόβλημα, επομένως, δεν ήταν μόνο τεχνικό αλλά και ψυχολογικό. Το 1979, ο Μπιμπ Λατανέ και οι συνεργάτες του ονόμασαν το φαινόμενο «κοινωνική οκνηρία».",
+     "en": "Ringelmann himself attributed the phenomenon partly to poor coordination: people don't all pull at the same moment. Later experiments, however, showed that this is not enough. When participants believed they were pulling together with others, while in reality they were pulling alone, they still made less effort. The problem, therefore, was not only technical but also psychological. In 1979, Bibb Latané and his colleagues named the phenomenon 'social loafing'."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Γιατί συμβαίνει; Όταν η συνεισφορά του καθενός χάνεται μέσα στο σύνολο, ο καθένας νιώθει ότι η δική του προσπάθεια δεν μετράει, ούτε θα αξιολογηθεί. Η έρευνα δείχνει ότι η οκνηρία μειώνεται όταν η ατομική συμβολή είναι ορατή, όταν οι ομάδες είναι μικρές και όταν τα μέλη θεωρούν το έργο σημαντικό. Με άλλα λόγια, δεν φταίει η τεμπελιά των ανθρώπων, αλλά ο τρόπος που οργανώνουμε τη συνεργασία.",
+     "en": "Why does it happen? When each person's contribution is lost in the whole, each person feels that their own effort doesn't count, nor will it be assessed. Research shows that loafing decreases when individual contribution is visible, when groups are small and when members consider the task important. In other words, it is not people's laziness that is to blame, but the way we organise cooperation."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι διαπίστωσε ο Ρινγκελμάν στα πειράματά του;",
+     "options": [
+      "Ότι οι ομάδες τραβούσαν με περισσότερη δύναμη από το άθροισμα των ατόμων",
+      "Ότι η δύναμη δεν άλλαζε με το μέγεθος της ομάδας",
+      "Ότι οι γυναίκες τραβούσαν πιο δυνατά από τους άνδρες",
+      "Ότι όσο μεγάλωνε η ομάδα, τόσο λιγότερη προσπάθεια κατέβαλλε ο καθένας"
+     ],
+     "answer": "Ότι όσο μεγάλωνε η ομάδα, τόσο λιγότερη προσπάθεια κατέβαλλε ο καθένας",
+     "why": "όσο μεγάλωνε η ομάδα, τόσο μικρότερη ήταν η προσπάθεια που κατέβαλλε ο καθένας"
+    },
+    {
+     "q": "Τι έδειξαν τα μεταγενέστερα πειράματα;",
+     "options": [
+      "Ότι το φαινόμενο εμφανίζεται μόνο σε σωματική εργασία",
+      "Ότι ο κακός συντονισμός εξηγεί πλήρως το φαινόμενο",
+      "Ότι οι άνθρωποι κατέβαλλαν λιγότερη προσπάθεια ακόμη κι όταν απλώς πίστευαν ότι τραβούν με άλλους",
+      "Ότι ο Ρινγκελμάν είχε κάνει λάθος στους υπολογισμούς"
+     ],
+     "answer": "Ότι οι άνθρωποι κατέβαλλαν λιγότερη προσπάθεια ακόμη κι όταν απλώς πίστευαν ότι τραβούν με άλλους",
+     "why": "Όταν οι συμμετέχοντες πίστευαν ότι τραβούν μαζί με άλλους, ενώ στην πραγματικότητα τραβούσαν μόνοι, και πάλι κατέβαλλαν λιγότερη προσπάθεια"
+    },
+    {
+     "q": "Ποιος έδωσε στο φαινόμενο το όνομα «κοινωνική οκνηρία»;",
+     "options": [
+      "Ο Μπιμπ Λατανέ και οι συνεργάτες του",
+      "Ο ίδιος ο Ρινγκελμάν",
+      "Μια ομάδα Γάλλων γεωπόνων",
+      "Η καθηγήτρια της διάλεξης"
+     ],
+     "answer": "Ο Μπιμπ Λατανέ και οι συνεργάτες του",
+     "why": "ο Μπιμπ Λατανέ και οι συνεργάτες του ονόμασαν το φαινόμενο «κοινωνική οκνηρία»"
+    },
+    {
+     "q": "Ποιο είναι το συμπέρασμα της ομιλήτριας;",
+     "options": [
+      "Η ομαδική εργασία πρέπει να αποφεύγεται",
+      "Οι μεγάλες ομάδες είναι πάντα πιο αποδοτικές",
+      "Οι άνθρωποι είναι από τη φύση τους τεμπέληδες",
+      "Το πρόβλημα βρίσκεται στον τρόπο που οργανώνεται η συνεργασία"
+     ],
+     "answer": "Το πρόβλημα βρίσκεται στον τρόπο που οργανώνεται η συνεργασία",
+     "why": "δεν φταίει η τεμπελιά των ανθρώπων, αλλά ο τρόπος που οργανώνουμε τη συνεργασία"
+    }
+   ],
+   "gloss": {
+    "κοινωνικής οκνηρίας": "κοινωνική οκνηρία — social loafing",
+    "γεωπόνος": "γεωπόνος — agronomist, agricultural engineer",
+    "σχοινί": "σχοινί — rope",
+    "οκταπλάσια": "οκταπλάσιος — eightfold",
+    "κατέβαλλε": "καταβάλλω (προσπάθεια) — to make (an effort)",
+    "άθροισμα": "άθροισμα — sum",
+    "επιδόσεων": "επίδοση — performance",
+    "απέδωσε": "αποδίδω — to attribute",
+    "συντονισμό": "συντονισμός — coordination",
+    "Μεταγενέστερα": "μεταγενέστερος — later, subsequent",
+    "συνεισφορά": "συνεισφορά — contribution",
+    "αξιολογηθεί": "αξιολογούμαι — to be assessed",
+    "συμβολή": "συμβολή — contribution",
+    "τεμπελιά": "τεμπελιά — laziness"
+   }
+  },
+  {
+   "id": "l125-c1-karaiskakis",
+   "title": "Ο γιος της καλογριάς",
+   "title_en": "The nun's son",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από ραδιοφωνική συνέντευξη με μια ιστορικό για τον οπλαρχηγό του 1821 Γεώργιο Καραϊσκάκη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ο Καραϊσκάκης είναι από τις πιο αγαπητές μορφές της Επανάστασης. Από πού πηγάζει αυτή η αγάπη;",
+     "en": "Karaiskakis is one of the best-loved figures of the Revolution. Where does this affection come from?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Εν μέρει από τη ζωή του, που μοιάζει με μυθιστόρημα. Γεννήθηκε γύρω στο 1780 στην περιοχή των Αγράφων· η μητέρα του ήταν καλογριά, γι' αυτό τον αποκαλούσαν «γιο της καλογριάς». Μεγάλωσε φτωχός, έγινε κλέφτης και αρματολός, και για ένα διάστημα βρέθηκε στην αυλή του Αλή Πασά. Ήταν οξύθυμος, αθυρόστομος, και τον ταλαιπωρούσε σχεδόν σε όλη του τη ζωή η φυματίωση. Κι όμως, οι στρατιώτες τον λάτρευαν, γιατί μοιραζόταν μαζί τους τις κακουχίες.",
+     "en": "Partly from his life, which reads like a novel. He was born around 1780 in the Agrafa region; his mother was a nun, which is why they called him 'the nun's son'. He grew up poor, became a klepht and an armatolos, and for a time found himself at the court of Ali Pasha. He was hot-tempered, foul-mouthed, and tuberculosis plagued him for almost all his life. And yet the soldiers adored him, because he shared their hardships."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποια ήταν η σημαντικότερη συμβολή του στον αγώνα;",
+     "en": "What was his most important contribution to the struggle?"
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Το 1826, όταν η Ακρόπολη πολιορκούνταν από τον Κιουταχή, η κυβέρνηση τον διόρισε αρχιστράτηγο της Ρούμελης. Αντί να επιτεθεί κατευθείαν στην Αθήνα, εκστράτευσε στη Στερεά για να αποκόψει τις γραμμές ανεφοδιασμού του εχθρού. Η νίκη του στην Αράχωβα, τον Νοέμβριο του 1826, αναπτέρωσε το ηθικό των Ελλήνων σε μια περίοδο που η Επανάσταση έμοιαζε να σβήνει.",
+     "en": "In 1826, when the Acropolis was under siege by Kütahi, the government appointed him commander-in-chief of Roumeli. Instead of attacking Athens directly, he campaigned in Central Greece to cut the enemy's supply lines. His victory at Arachova, in November 1826, revived the morale of the Greeks at a time when the Revolution seemed to be dying out."
+    },
+    {
+     "speaker": "Ιστορικός",
+     "voice": "f",
+     "el": "Τον Απρίλιο του 1827, κοντά στο Φάληρο, τραυματίστηκε θανάσιμα σε μια αψιμαχία και πέθανε την επόμενη μέρα. Λίγες μέρες αργότερα οι Έλληνες ηττήθηκαν βαριά στον Ανάλατο, και λίγες εβδομάδες αργότερα η Ακρόπολη παραδόθηκε. Πολλοί ιστορικοί πιστεύουν ότι ο θάνατός του στέρησε από την επιχείρηση τον μόνο άνθρωπο που μπορούσε να κρατήσει ενωμένους τους οπλαρχηγούς. Δεν είναι τυχαίο ότι το γήπεδο στο Φάληρο φέρει σήμερα το όνομά του.",
+     "en": "In April 1827, near Phaleron, he was mortally wounded in a skirmish and died the next day. A few days later the Greeks were heavily defeated at Analatos, and a few weeks later the Acropolis surrendered. Many historians believe that his death deprived the operation of the only man who could keep the chieftains united. It is no coincidence that the stadium at Phaleron bears his name today."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί τον αποκαλούσαν «γιο της καλογριάς»;",
+     "options": [
+      "Γιατί τον βάφτισε μια καλογριά",
+      "Γιατί μεγάλωσε σε μοναστήρι",
+      "Γιατί ήθελε να γίνει μοναχός",
+      "Γιατί η μητέρα του ήταν καλογριά"
+     ],
+     "answer": "Γιατί η μητέρα του ήταν καλογριά",
+     "why": "η μητέρα του ήταν καλογριά"
+    },
+    {
+     "q": "Γιατί, σύμφωνα με την ιστορικό, τον λάτρευαν οι στρατιώτες;",
+     "options": [
+      "Γιατί δεν έχασε ποτέ μάχη",
+      "Γιατί τους πλήρωνε καλά",
+      "Γιατί μοιραζόταν μαζί τους τις κακουχίες",
+      "Γιατί ήταν ήπιος και ευγενικός"
+     ],
+     "answer": "Γιατί μοιραζόταν μαζί τους τις κακουχίες",
+     "why": "μοιραζόταν μαζί τους τις κακουχίες"
+    },
+    {
+     "q": "Ποια ήταν η στρατηγική του το 1826;",
+     "options": [
+      "Να επιτεθεί αμέσως στην Ακρόπολη",
+      "Να αποκόψει τις γραμμές ανεφοδιασμού του εχθρού στη Στερεά",
+      "Να διαπραγματευτεί με τον Κιουταχή",
+      "Να ζητήσει βοήθεια από τις Μεγάλες Δυνάμεις"
+     ],
+     "answer": "Να αποκόψει τις γραμμές ανεφοδιασμού του εχθρού στη Στερεά",
+     "why": "εκστράτευσε στη Στερεά για να αποκόψει τις γραμμές ανεφοδιασμού του εχθρού"
+    },
+    {
+     "q": "Τι πιστεύουν πολλοί ιστορικοί για τον θάνατό του;",
+     "options": [
+      "Ότι ήταν αποτέλεσμα προδοσίας",
+      "Ότι στέρησε από την επιχείρηση τον μόνο που μπορούσε να κρατήσει ενωμένους τους οπλαρχηγούς",
+      "Ότι δεν επηρέασε την έκβαση των επιχειρήσεων",
+      "Ότι οφειλόταν στη φυματίωση"
+     ],
+     "answer": "Ότι στέρησε από την επιχείρηση τον μόνο που μπορούσε να κρατήσει ενωμένους τους οπλαρχηγούς",
+     "why": "ο θάνατός του στέρησε από την επιχείρηση τον μόνο άνθρωπο που μπορούσε να κρατήσει ενωμένους τους οπλαρχηγούς"
+    }
+   ],
+   "gloss": {
+    "οπλαρχηγό": "οπλαρχηγός — (armed) chieftain",
+    "πηγάζει": "πηγάζω — to stem, spring from",
+    "καλογριά": "καλογριά — nun",
+    "αρματολός": "αρματολός — armatolos (Christian militia captain)",
+    "αυλή": "αυλή — court",
+    "οξύθυμος": "οξύθυμος — hot-tempered",
+    "αθυρόστομος": "αθυρόστομος — foul-mouthed",
+    "φυματίωση": "φυματίωση — tuberculosis",
+    "κακουχίες": "κακουχίες — hardships",
+    "πολιορκούνταν": "πολιορκούμαι — to be besieged",
+    "αρχιστράτηγο": "αρχιστράτηγος — commander-in-chief",
+    "ανεφοδιασμού": "ανεφοδιασμός — supply",
+    "αναπτέρωσε": "αναπτερώνω — to revive, boost",
+    "αψιμαχία": "αψιμαχία — skirmish",
+    "θανάσιμα": "θανάσιμα — mortally"
+   }
+  }
+ ]
+}
