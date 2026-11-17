@@ -1,0 +1,862 @@
+{
+ "items": [
+  {
+   "id": "l170-ann-tachyploo",
+   "title": "Ανακοίνωση στο ταχύπλοο",
+   "title_en": "An announcement on the fast ferry",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση από τον καπετάνιο ενός ταχύπλοου λίγο μετά την αναχώρηση.",
+   "script": [
+    {
+     "speaker": "Καπετάνιος",
+     "voice": "m",
+     "el": "Κυρίες και κύριοι, καλησπέρα σας. Σας μιλάει ο καπετάνιος. Μόλις βγήκαμε από το λιμάνι και σας ενημερώνουμε ότι στο ανοιχτό πέλαγος πνέουν άνεμοι έξι μποφόρ. Θα υπάρξει έντονος κυματισμός για περίπου μία ώρα, μέχρι να μπούμε στο στενό ανάμεσα στα δύο νησιά.",
+     "en": "Ladies and gentlemen, good evening. This is the captain speaking. We have just left the harbour and we inform you that in the open sea winds of force six are blowing. There will be heavy swell for about an hour, until we enter the strait between the two islands."
+    },
+    {
+     "speaker": "Καπετάνιος",
+     "voice": "m",
+     "el": "Για την ασφάλειά σας, παρακαλούμε να παραμείνετε στις θέσεις σας και να μην κυκλοφορείτε στους διαδρόμους. Η καφετέρια θα μείνει κλειστή μέχρι να ηρεμήσει η θάλασσα. Όσοι ζαλίζονται εύκολα, καλό είναι να κοιτάζουν μακριά, προς τον ορίζοντα, και όχι το κινητό τους.",
+     "en": "For your safety, please remain in your seats and do not walk about in the aisles. The café will stay closed until the sea calms down. Those who get seasick easily would do well to look into the distance, towards the horizon, and not at their phones."
+    },
+    {
+     "speaker": "Καπετάνιος",
+     "voice": "m",
+     "el": "Σακούλες υπάρχουν στην τσέπη του μπροστινού καθίσματος, και το πλήρωμα είναι στη διάθεσή σας για οτιδήποτε χρειαστείτε. Λόγω του καιρού, η άφιξή μας θα καθυστερήσει περίπου είκοσι λεπτά. Σας ευχαριστούμε για την κατανόηση.",
+     "en": "Bags are in the pocket of the seat in front of you, and the crew are at your disposal for anything you need. Because of the weather, our arrival will be delayed by about twenty minutes. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Για πόση ώρα περίπου θα κρατήσει ο έντονος κυματισμός;",
+     "options": [
+      "Για δέκα λεπτά",
+      "Για περίπου μία ώρα",
+      "Για τρεις ώρες",
+      "Σε όλο το ταξίδι"
+     ],
+     "answer": "Για περίπου μία ώρα",
+     "why": "Θα υπάρξει έντονος κυματισμός για περίπου μία ώρα"
+    },
+    {
+     "q": "Τι συμβουλεύει ο καπετάνιος όσους ζαλίζονται εύκολα;",
+     "options": [
+      "Να βγουν στο κατάστρωμα",
+      "Να ξαπλώσουν στους διαδρόμους",
+      "Να πάνε στην καφετέρια",
+      "Να κοιτάζουν μακριά, προς τον ορίζοντα"
+     ],
+     "answer": "Να κοιτάζουν μακριά, προς τον ορίζοντα",
+     "why": "καλό είναι να κοιτάζουν μακριά, προς τον ορίζοντα"
+    },
+    {
+     "q": "Τι θα γίνει με την άφιξη;",
+     "options": [
+      "Θα ακυρωθεί",
+      "Θα καθυστερήσει περίπου είκοσι λεπτά",
+      "Θα γίνει σε άλλο λιμάνι",
+      "Θα γίνει νωρίτερα"
+     ],
+     "answer": "Θα καθυστερήσει περίπου είκοσι λεπτά",
+     "why": "η άφιξή μας θα καθυστερήσει περίπου είκοσι λεπτά"
+    }
+   ],
+   "gloss": {
+    "ταχύπλοου": "ταχύπλοο — fast ferry",
+    "πέλαγος": "πέλαγος — open sea",
+    "πνέουν": "πνέω — to blow",
+    "μποφόρ": "μποφόρ — Beaufort (wind force)",
+    "κυματισμός": "κυματισμός — swell, waves",
+    "στενό": "στενό — strait",
+    "διαδρόμους": "διάδρομος — aisle",
+    "ζαλίζονται": "ζαλίζομαι — to feel dizzy, seasick",
+    "ορίζοντα": "ορίζοντας — horizon",
+    "πλήρωμα": "πλήρωμα — crew",
+    "στη διάθεσή σας": "στη διάθεσή σας — at your disposal",
+    "κατανόηση": "κατανόηση — understanding"
+   }
+  },
+  {
+   "id": "l170-int-miniatoures",
+   "title": "Η κατασκευάστρια μινιατούρων",
+   "title_en": "The miniature maker",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με μια γυναίκα που φτιάχνει μινιατούρες από παλιά μαγαζιά και σπίτια.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι ακριβώς φτιάχνετε;",
+     "en": "What exactly do you make?"
+    },
+    {
+     "speaker": "Κατασκευάστρια",
+     "voice": "f",
+     "el": "Μικρά αντίγραφα από παλιά μαγαζιά της Αθήνας, σε κλίμακα ένα προς δώδεκα. Ένα παντοπωλείο της δεκαετίας του '60, ένα κουρείο, ένα καφενείο με τα τραπεζάκια του. Μέσα βάζω τα πάντα: ζυγαριές, βάζα με καραμέλες, εφημερίδες με πραγματικούς τίτλους της εποχής. Μια εφημερίδα είναι μικρότερη από ένα γραμματόσημο.",
+     "en": "Small replicas of old Athenian shops, at a scale of one to twelve. A 1960s grocery, a barber's, a coffee house with its little tables. Inside I put everything: scales, jars of sweets, newspapers with real headlines from the period. A newspaper is smaller than a postage stamp."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πόσο χρόνο σας παίρνει ένα μαγαζί;",
+     "en": "How long does one shop take you?"
+    },
+    {
+     "speaker": "Κατασκευάστρια",
+     "voice": "f",
+     "el": "Από τρεις έως έξι μήνες. Το πιο χρονοβόρο δεν είναι η κατασκευή, αλλά η έρευνα. Ψάχνω φωτογραφίες, μιλάω με ηλικιωμένους που θυμούνται τα μαγαζιά. Μια κυρία μού περιέγραψε το χρώμα από τα πλακάκια του φούρνου της γειτονιάς της με τέτοια ακρίβεια, που όταν της έδειξα τη μινιατούρα έβαλε τα κλάματα.",
+     "en": "From three to six months. The most time-consuming part isn't the building but the research. I look for photographs, I talk to elderly people who remember the shops. One lady described to me the colour of the tiles of her neighbourhood bakery so precisely that when I showed her the miniature she burst into tears."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τις πουλάτε;",
+     "en": "Do you sell them?"
+    },
+    {
+     "speaker": "Κατασκευάστρια",
+     "voice": "f",
+     "el": "Σπάνια. Τις περισσότερες τις δανείζω σε εκθέσεις και σε σχολεία. Τα παιδιά σκύβουν πάνω από τις βιτρίνες και ρωτάνε τι είναι το ένα και τι το άλλο. Έτσι οι παππούδες τους βρίσκουν ευκαιρία να τους διηγηθούν ιστορίες.",
+     "en": "Rarely. I lend most of them to exhibitions and schools. Children bend over the display cases and ask what this and that is. That way their grandparents get a chance to tell them stories."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι βάζει μέσα στις μινιατούρες της;",
+     "options": [
+      "Μικρές φωτογραφίες της οικογένειάς της",
+      "Ηλεκτρικά φωτάκια",
+      "Μόνο έπιπλα",
+      "Τα πάντα, ακόμη και εφημερίδες με πραγματικούς τίτλους της εποχής"
+     ],
+     "answer": "Τα πάντα, ακόμη και εφημερίδες με πραγματικούς τίτλους της εποχής",
+     "why": "εφημερίδες με πραγματικούς τίτλους της εποχής"
+    },
+    {
+     "q": "Ποιο είναι, κατά την ίδια, το πιο χρονοβόρο μέρος της δουλειάς;",
+     "options": [
+      "Η βαφή",
+      "Η κατασκευή των επίπλων",
+      "Η αγορά των υλικών",
+      "Η έρευνα"
+     ],
+     "answer": "Η έρευνα",
+     "why": "Το πιο χρονοβόρο δεν είναι η κατασκευή, αλλά η έρευνα"
+    },
+    {
+     "q": "Τι κάνει συνήθως με τις μινιατούρες της;",
+     "options": [
+      "Τις χαρίζει στους ηλικιωμένους",
+      "Τις πουλάει σε συλλέκτες",
+      "Τις κρατάει στο σπίτι της",
+      "Τις δανείζει σε εκθέσεις και σε σχολεία"
+     ],
+     "answer": "Τις δανείζει σε εκθέσεις και σε σχολεία",
+     "why": "Τις περισσότερες τις δανείζω σε εκθέσεις και σε σχολεία"
+    }
+   ],
+   "gloss": {
+    "μινιατούρες": "μινιατούρα — miniature",
+    "αντίγραφα": "αντίγραφο — replica, copy",
+    "κλίμακα": "κλίμακα — scale",
+    "παντοπωλείο": "παντοπωλείο — grocery",
+    "ζυγαριές": "ζυγαριά — scales",
+    "γραμματόσημο": "γραμματόσημο — postage stamp",
+    "χρονοβόρο": "χρονοβόρος — time-consuming",
+    "πλακάκια": "πλακάκι — tile",
+    "ακρίβεια": "ακρίβεια — precision",
+    "βιτρίνες": "βιτρίνα — display case",
+    "διηγηθούν": "διηγούμαι — to narrate, tell"
+   }
+  },
+  {
+   "id": "l170-int-taxidiotikoi-odigoi",
+   "title": "Ο συγγραφέας ταξιδιωτικών οδηγών",
+   "title_en": "The travel guidebook writer",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με έναν άντρα που γράφει ταξιδιωτικούς οδηγούς για τα ελληνικά νησιά.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πολλοί θα ζήλευαν τη δουλειά σας. Είναι τόσο ωραία όσο ακούγεται;",
+     "en": "Many people would envy your job. Is it as nice as it sounds?"
+    },
+    {
+     "speaker": "Συγγραφέας",
+     "voice": "m",
+     "el": "Ακούγεται σαν διακοπές, αλλά δεν είναι. Σε ένα νησί μένω συνήθως τέσσερις μέρες και πρέπει να δω τα πάντα: δεκαπέντε παραλίες, είκοσι ταβέρνες, όλα τα ξενοδοχεία, τα δρομολόγια των λεωφορείων. Κολυμπάω σπάνια. Και τρώω τρεις φορές το μεσημέρι, σε τρεις διαφορετικές ταβέρνες, τρώγοντας λίγες μπουκιές σε καθεμία.",
+     "en": "It sounds like a holiday, but it isn't. On an island I usually stay four days and have to see everything: fifteen beaches, twenty tavernas, all the hotels, the bus timetables. I rarely swim. And I have lunch three times, in three different tavernas, eating a few bites in each."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Οι ιδιοκτήτες ξέρουν ποιος είστε;",
+     "en": "Do the owners know who you are?"
+    },
+    {
+     "speaker": "Συγγραφέας",
+     "voice": "m",
+     "el": "Ποτέ. Πληρώνω πάντα κανονικά και δεν δέχομαι δώρα. Αν μάθουν ποιος είμαι, θα μου φερθούν διαφορετικά και η κριτική μου δεν θα είναι αξιόπιστη. Μια φορά ένας ταβερνιάρης με αναγνώρισε από μια φωτογραφία και μου έφερε δωρεάν γλυκό. Το έφαγα, το πλήρωσα και δεν έγραψα τίποτα γι' αυτό.",
+     "en": "Never. I always pay normally and I don't accept gifts. If they find out who I am, they'll treat me differently and my review won't be reliable. Once a taverna owner recognised me from a photo and brought me a free dessert. I ate it, paid for it and wrote nothing about it."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Έχει νόημα ένας τυπωμένος οδηγός σήμερα, με το διαδίκτυο;",
+     "en": "Does a printed guide make sense today, with the internet?"
+    },
+    {
+     "speaker": "Συγγραφέας",
+     "voice": "m",
+     "el": "Στο διαδίκτυο βρίσκεις χίλιες γνώμες. Ο οδηγός σού δίνει μία, αλλά από κάποιον που τα είδε όλα και μπορεί να συγκρίνει. Και, να είμαστε ειλικρινείς, σε ένα χωριό χωρίς σήμα το βιβλίο δεν ξεμένει ποτέ από μπαταρία.",
+     "en": "On the internet you find a thousand opinions. The guide gives you one, but from someone who has seen everything and can compare. And, let's be honest, in a village without signal the book never runs out of battery."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί λέει ότι η δουλειά του δεν είναι διακοπές;",
+     "options": [
+      "Γιατί πληρώνεται πολύ λίγο",
+      "Γιατί δεν του αρέσουν τα νησιά",
+      "Γιατί ταξιδεύει μόνο τον χειμώνα",
+      "Γιατί σε λίγες μέρες πρέπει να δει τα πάντα σε ένα νησί"
+     ],
+     "answer": "Γιατί σε λίγες μέρες πρέπει να δει τα πάντα σε ένα νησί",
+     "why": "Σε ένα νησί μένω συνήθως τέσσερις μέρες και πρέπει να δω τα πάντα"
+    },
+    {
+     "q": "Γιατί δεν θέλει να ξέρουν οι ιδιοκτήτες ποιος είναι;",
+     "options": [
+      "Για να μείνει αξιόπιστη η κριτική του",
+      "Γιατί είναι ντροπαλός",
+      "Για να μην πληρώνει",
+      "Γιατί δεν του αρέσουν οι φωτογραφίες"
+     ],
+     "answer": "Για να μείνει αξιόπιστη η κριτική του",
+     "why": "η κριτική μου δεν θα είναι αξιόπιστη"
+    },
+    {
+     "q": "Ποιο πλεονέκτημα του βιβλίου αναφέρει στο τέλος;",
+     "options": [
+      "Ότι είναι φθηνότερο",
+      "Ότι δεν χρειάζεται μπαταρία σε ένα χωριό χωρίς σήμα",
+      "Ότι έχει περισσότερες φωτογραφίες",
+      "Ότι είναι πιο ελαφρύ"
+     ],
+     "answer": "Ότι δεν χρειάζεται μπαταρία σε ένα χωριό χωρίς σήμα",
+     "why": "σε ένα χωριό χωρίς σήμα το βιβλίο δεν ξεμένει ποτέ από μπαταρία"
+    }
+   ],
+   "gloss": {
+    "ταξιδιωτικούς οδηγούς": "ταξιδιωτικός οδηγός — travel guidebook",
+    "ζήλευαν": "ζηλεύω — to envy",
+    "δρομολόγια": "δρομολόγιο — timetable, route",
+    "μπουκιές": "μπουκιά — mouthful, bite",
+    "φερθούν": "φέρομαι — to behave, treat",
+    "αξιόπιστη": "αξιόπιστος — reliable",
+    "ταβερνιάρης": "ταβερνιάρης — taverna owner",
+    "τυπωμένος": "τυπωμένος — printed",
+    "συγκρίνει": "συγκρίνω — to compare",
+    "ειλικρινείς": "ειλικρινής — honest",
+    "σήμα": "σήμα — (phone) signal",
+    "ξεμένει": "ξεμένω — to run out"
+   }
+  },
+  {
+   "id": "l170-dia-kouketa-i-kathisma",
+   "title": "Κουκέτα ή κάθισμα;",
+   "title_en": "Cabin or seat?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ζευγάρι να συζητά τι εισιτήρια θα κλείσει για ένα νυχτερινό πλοίο προς την Κρήτη.",
+   "script": [
+    {
+     "speaker": "Νίκος",
+     "voice": "m",
+     "el": "Λοιπόν, για το πλοίο της Παρασκευής: παίρνουμε απλά καθίσματα ή καμπίνα;",
+     "en": "So, for Friday's ship: do we get plain seats or a cabin?"
+    },
+    {
+     "speaker": "Ελένη",
+     "voice": "f",
+     "el": "Το πλοίο φεύγει στις εννιά το βράδυ και φτάνει στις έξι το πρωί. Αν κάτσουμε σε πολυθρόνες, θα φτάσουμε σαν ζόμπι και θα χάσουμε όλη την πρώτη μέρα.",
+     "en": "The ship leaves at nine in the evening and arrives at six in the morning. If we sit in armchairs, we'll arrive like zombies and lose the whole first day."
+    },
+    {
+     "speaker": "Νίκος",
+     "voice": "m",
+     "el": "Η δίκλινη καμπίνα όμως κοστίζει σχεδόν όσο ένα δωμάτιο ξενοδοχείου. Υπάρχει και η τετράκλινη με κουκέτες, που τη μοιράζεσαι με αγνώστους. Βγαίνει πολύ φθηνότερα.",
+     "en": "But the two-berth cabin costs almost as much as a hotel room. There's also the four-berth with bunks, which you share with strangers. It works out much cheaper."
+    },
+    {
+     "speaker": "Ελένη",
+     "voice": "f",
+     "el": "Με αγνώστους; Κι αν ροχαλίζει κάποιος; Τότε καλύτερα πολυθρόνα.",
+     "en": "With strangers? And what if someone snores? Then I'd rather have an armchair."
+    },
+    {
+     "speaker": "Νίκος",
+     "voice": "m",
+     "el": "Για στάσου. Βλέπω εδώ ότι αν κλείσουμε και τις δύο διαδρομές, πήγαινε και έλα, έχουμε έκπτωση είκοσι τοις εκατό. Με την έκπτωση, η δίκλινη κοστίζει όσο η τετράκλινη χωρίς έκπτωση.",
+     "en": "Hang on. I see here that if we book both legs, there and back, we get a twenty per cent discount. With the discount, the two-berth costs as much as the four-berth without it."
+    },
+    {
+     "speaker": "Ελένη",
+     "voice": "f",
+     "el": "Τέλεια, τότε δίκλινη με επιστροφή. Και κλείσ' την τώρα, πριν μας την πάρει κάποιος άλλος.",
+     "en": "Perfect, then a two-berth with return. And book it now, before someone else takes it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί η Ελένη δεν θέλει απλά καθίσματα;",
+     "options": [
+      "Γιατί δεν υπάρχουν ελεύθερα",
+      "Γιατί είναι ακριβά",
+      "Γιατί ζαλίζεται στο πλοίο",
+      "Γιατί θα φτάσουν κουρασμένοι και θα χάσουν την πρώτη μέρα"
+     ],
+     "answer": "Γιατί θα φτάσουν κουρασμένοι και θα χάσουν την πρώτη μέρα",
+     "why": "θα φτάσουμε σαν ζόμπι και θα χάσουμε όλη την πρώτη μέρα"
+    },
+    {
+     "q": "Γιατί δεν θέλει την τετράκλινη καμπίνα;",
+     "options": [
+      "Γιατί δεν έχει παράθυρο",
+      "Γιατί είναι πολύ μικρή",
+      "Γιατί θα τη μοιράζονται με αγνώστους που μπορεί να ροχαλίζουν",
+      "Γιατί είναι στο κάτω κατάστρωμα"
+     ],
+     "answer": "Γιατί θα τη μοιράζονται με αγνώστους που μπορεί να ροχαλίζουν",
+     "why": "Κι αν ροχαλίζει κάποιος;"
+    },
+    {
+     "q": "Τι κάνει τελικά τη δίκλινη καμπίνα συμφέρουσα;",
+     "options": [
+      "Μια προσφορά για φοιτητές",
+      "Η έκπτωση αν κλείσουν και την επιστροφή",
+      "Ότι ταξιδεύουν Παρασκευή",
+      "Ότι έχουν κάρτα μέλους"
+     ],
+     "answer": "Η έκπτωση αν κλείσουν και την επιστροφή",
+     "why": "αν κλείσουμε και τις δύο διαδρομές, πήγαινε και έλα, έχουμε έκπτωση"
+    }
+   ],
+   "gloss": {
+    "κουκέτες": "κουκέτα — bunk, berth",
+    "καμπίνα": "καμπίνα — cabin",
+    "πολυθρόνες": "πολυθρόνα — armchair (seat on a ship)",
+    "δίκλινη": "δίκλινος — two-berth",
+    "τετράκλινη": "τετράκλινος — four-berth",
+    "αγνώστους": "άγνωστος — stranger",
+    "ροχαλίζει": "ροχαλίζω — to snore",
+    "πήγαινε και έλα": "πήγαινε και έλα — there and back, return",
+    "έκπτωση": "έκπτωση — discount"
+   }
+  },
+  {
+   "id": "l170-dia-pisteveis-sta-zodia",
+   "title": "Πιστεύεις στα ζώδια;",
+   "title_en": "Do you believe in horoscopes?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε δύο συναδέλφους να συζητούν για τα ζώδια στο διάλειμμα του καφέ.",
+   "script": [
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Άκου τι λέει το ζώδιό σου σήμερα: «Μια απρόσμενη συνάντηση θα αλλάξει τα σχέδιά σας.»",
+     "en": "Listen to what your horoscope says today: 'An unexpected meeting will change your plans.'"
+    },
+    {
+     "speaker": "Τάσος",
+     "voice": "m",
+     "el": "Ρένα, το ίδιο λέει σε όλους, κάθε μέρα. Κάποιον θα συναντήσεις, κάποιο σχέδιο θα αλλάξει. Αυτό ισχύει για οποιονδήποτε.",
+     "en": "Rena, it says the same thing to everyone, every day. You'll meet someone, some plan will change. That applies to anyone."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Κι όμως, εγώ είμαι τυπικός Ταύρος: πεισματάρα, μου αρέσει το καλό φαγητό και δεν αλλάζω εύκολα γνώμη.",
+     "en": "And yet I'm a typical Taurus: stubborn, I like good food and I don't change my mind easily."
+    },
+    {
+     "speaker": "Τάσος",
+     "voice": "m",
+     "el": "Σε ποιον δεν αρέσει το καλό φαγητό; Έχω διαβάσει ότι σε πειράματα έδωσαν σε ανθρώπους την ίδια περιγραφή χαρακτήρα και σχεδόν όλοι είπαν ότι τους ταιριάζει απόλυτα. Βλέπουμε αυτό που θέλουμε να δούμε.",
+     "en": "Who doesn't like good food? I've read that in experiments they gave people the same character description and almost everyone said it fitted them perfectly. We see what we want to see."
+    },
+    {
+     "speaker": "Ρένα",
+     "voice": "f",
+     "el": "Εντάξει, ίσως δεν είναι επιστήμη. Αλλά μου αρέσει να τα διαβάζω το πρωί, σαν παιχνίδι. Δεν αποφασίζω τίποτα με βάση τα ζώδια.",
+     "en": "OK, maybe it isn't science. But I like reading them in the morning, as a game. I don't decide anything based on horoscopes."
+    },
+    {
+     "speaker": "Τάσος",
+     "voice": "m",
+     "el": "Ε, σαν παιχνίδι το δέχομαι. Τι λέει, λοιπόν, για τον Λέοντα; Μήπως έρχεται καμιά αύξηση;",
+     "en": "Well, as a game I'll accept it. So what does it say for Leo? Is a pay rise coming, perhaps?"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο είναι το επιχείρημα του Τάσου για τις προβλέψεις;",
+     "options": [
+      "Ότι λένε πράγματα που ισχύουν για οποιονδήποτε",
+      "Ότι είναι πάντα λάθος",
+      "Ότι αλλάζουν κάθε ώρα",
+      "Ότι τις γράφουν υπολογιστές"
+     ],
+     "answer": "Ότι λένε πράγματα που ισχύουν για οποιονδήποτε",
+     "why": "Αυτό ισχύει για οποιονδήποτε"
+    },
+    {
+     "q": "Τι έδειξαν, σύμφωνα με τον Τάσο, τα πειράματα;",
+     "options": [
+      "Ότι οι γυναίκες πιστεύουν περισσότερο στα ζώδια",
+      "Ότι οι Ταύροι είναι πεισματάρηδες",
+      "Ότι σχεδόν όλοι βρίσκουν ότι η ίδια περιγραφή χαρακτήρα τούς ταιριάζει",
+      "Ότι τα ζώδια επηρεάζουν τη διάθεση"
+     ],
+     "answer": "Ότι σχεδόν όλοι βρίσκουν ότι η ίδια περιγραφή χαρακτήρα τούς ταιριάζει",
+     "why": "σχεδόν όλοι είπαν ότι τους ταιριάζει απόλυτα"
+    },
+    {
+     "q": "Πώς βλέπει τελικά η Ρένα τα ζώδια;",
+     "options": [
+      "Σαν ένα παιχνίδι για το πρωί",
+      "Σαν χάσιμο χρόνου",
+      "Σαν επιστήμη",
+      "Σαν οδηγό για τις αποφάσεις της"
+     ],
+     "answer": "Σαν ένα παιχνίδι για το πρωί",
+     "why": "μου αρέσει να τα διαβάζω το πρωί, σαν παιχνίδι"
+    }
+   ],
+   "gloss": {
+    "ζώδια": "ζώδιο — star sign; horoscope",
+    "απρόσμενη": "απρόσμενος — unexpected",
+    "οποιονδήποτε": "οποιοσδήποτε — anyone",
+    "Ταύρος": "Ταύρος — Taurus",
+    "πεισματάρα": "πεισματάρης — stubborn",
+    "πειράματα": "πείραμα — experiment",
+    "περιγραφή": "περιγραφή — description",
+    "Λέοντα": "Λέων — Leo",
+    "αύξηση": "αύξηση — pay rise"
+   }
+  },
+  {
+   "id": "l170-mon-bonsai-tou-patera",
+   "title": "Το μπονσάι του πατέρα μου",
+   "title_en": "My father's bonsai",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε έναν άντρα να μιλάει σε ένα ραδιοφωνικό πρόγραμμα για ένα μπονσάι που του άφησε ο πατέρας του.",
+   "script": [
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Ο πατέρας μου ήταν ναυτικός. Από ένα ταξίδι στην Ιαπωνία έφερε ένα μικρό πεύκο σε μια ρηχή γλάστρα. Όλοι γελούσαν: ένα δέντρο που χωράει στο τραπέζι της κουζίνας! Εκείνος όμως το φρόντιζε κάθε μέρα, το κλάδευε με ένα ψαλίδι σαν του νυχιού και μιλούσε μαζί του.",
+     "en": "My father was a sailor. From a trip to Japan he brought back a small pine in a shallow pot. Everyone laughed: a tree that fits on the kitchen table! But he looked after it every day, pruned it with scissors like nail scissors and talked to it."
+    },
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Όταν πέθανε, το μπονσάι ήρθε σε μένα. Τον πρώτο χρόνο κόντεψα να το σκοτώσω. Το πότιζα πάρα πολύ, νομίζοντας ότι το περιποιούμαι. Ένας φίλος μου εξήγησε ότι το μπονσάι δεν είναι φυτό εσωτερικού χώρου, όπως πιστεύουν πολλοί· τα περισσότερα θέλουν ήλιο, αέρα και τον χειμώνα το κρύο τους. Το έβγαλα στο μπαλκόνι και άρχισε να πετάει καινούργιες βελόνες.",
+     "en": "When he died, the bonsai came to me. The first year I nearly killed it. I watered it far too much, thinking I was taking care of it. A friend explained that a bonsai is not an indoor plant, as many believe; most need sun, air and, in winter, their share of cold. I put it out on the balcony and it started putting out new needles."
+    },
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Έχουν περάσει δεκαπέντε χρόνια. Το δέντρο είναι πια πάνω από πενήντα χρονών και έχει σχεδόν το ίδιο ύψος με τότε. Κάθε πρωί πίνω τον καφέ μου δίπλα του. Δεν του μιλάω, όπως ο πατέρας μου. Αλλά καμιά φορά πιάνω τον εαυτό μου να του λέει «καλημέρα».",
+     "en": "Fifteen years have passed. The tree is now more than fifty years old and is almost the same height as back then. Every morning I drink my coffee next to it. I don't talk to it, like my father did. But sometimes I catch myself saying 'good morning' to it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από πού είχε φέρει ο πατέρας του το μπονσάι;",
+     "options": [
+      "Από έναν φίλο του",
+      "Από ένα ταξίδι στην Ιαπωνία",
+      "Από ένα φυτώριο της Αθήνας",
+      "Από την Κίνα"
+     ],
+     "answer": "Από ένα ταξίδι στην Ιαπωνία",
+     "why": "Από ένα ταξίδι στην Ιαπωνία έφερε ένα μικρό πεύκο"
+    },
+    {
+     "q": "Ποιο λάθος έκανε τον πρώτο χρόνο;",
+     "options": [
+      "Το πότιζε πάρα πολύ",
+      "Το έκοψε πολύ",
+      "Το άλλαξε γλάστρα",
+      "Το ξέχασε στον ήλιο"
+     ],
+     "answer": "Το πότιζε πάρα πολύ",
+     "why": "Το πότιζα πάρα πολύ"
+    },
+    {
+     "q": "Τι του εξήγησε ο φίλος του;",
+     "options": [
+      "Ότι έπρεπε να του μιλάει",
+      "Ότι το δέντρο ήταν άρρωστο",
+      "Ότι έπρεπε να το βάλει σε μεγαλύτερη γλάστρα",
+      "Ότι τα περισσότερα μπονσάι θέλουν ήλιο, αέρα και κρύο τον χειμώνα"
+     ],
+     "answer": "Ότι τα περισσότερα μπονσάι θέλουν ήλιο, αέρα και κρύο τον χειμώνα",
+     "why": "τα περισσότερα θέλουν ήλιο, αέρα και τον χειμώνα το κρύο τους"
+    }
+   ],
+   "gloss": {
+    "μπονσάι": "μπονσάι — bonsai",
+    "ναυτικός": "ναυτικός — sailor",
+    "πεύκο": "πεύκο — pine",
+    "ρηχή": "ρηχός — shallow",
+    "γλάστρα": "γλάστρα — flowerpot",
+    "κλάδευε": "κλαδεύω — to prune",
+    "ψαλίδι": "ψαλίδι — scissors",
+    "κόντεψα": "κοντεύω — to nearly (do sth)",
+    "πότιζα": "ποτίζω — to water",
+    "εσωτερικού χώρου": "εσωτερικού χώρου — indoor",
+    "βελόνες": "βελόνα — (pine) needle"
+   }
+  },
+  {
+   "id": "l170-vm-to-spiti-tis-theias",
+   "title": "Μήνυμα από τον δικηγόρο για το σπίτι της θείας",
+   "title_en": "A message from the lawyer about the aunt's house",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από έναν δικηγόρο σχετικά με τη διαθήκη μιας θείας σας.",
+   "script": [
+    {
+     "speaker": "Δικηγόρος",
+     "voice": "m",
+     "el": "Καλημέρα σας, ονομάζομαι Παπαγεωργίου και είμαι δικηγόρος στην Τρίπολη. Σας τηλεφωνώ σχετικά με τη διαθήκη της θείας σας, της κυρίας Αγγελικής, που απεβίωσε τον περασμένο μήνα. Πρώτα απ' όλα, τα θερμά μου συλλυπητήρια.",
+     "en": "Good morning, my name is Papageorgiou and I'm a lawyer in Tripoli. I'm calling about the will of your aunt, Mrs Angeliki, who passed away last month. First of all, my sincere condolences."
+    },
+    {
+     "speaker": "Δικηγόρος",
+     "voice": "m",
+     "el": "Σύμφωνα με τη διαθήκη, σας αφήνει το πατρικό της σπίτι στο χωριό, μαζί με τον κήπο. Υπάρχει μόνο ένας όρος: η θεία σας ζητά να μην πουληθεί το σπίτι για τουλάχιστον πέντε χρόνια.",
+     "en": "According to the will, she leaves you her family home in the village, together with the garden. There is only one condition: your aunt asks that the house not be sold for at least five years."
+    },
+    {
+     "speaker": "Δικηγόρος",
+     "voice": "m",
+     "el": "Για να προχωρήσουμε, θα πρέπει να περάσετε από το γραφείο μου να υπογράψετε την αποδοχή της κληρονομιάς. Έχετε προθεσμία τέσσερις μήνες. Αν δεν μπορείτε να έρθετε στην Τρίπολη, μπορείτε να δώσετε πληρεξούσιο σε κάποιον που εμπιστεύεστε. Θα σας στείλω τα στοιχεία μου με μήνυμα.",
+     "en": "To proceed, you will need to come by my office to sign the acceptance of the inheritance. You have a deadline of four months. If you can't come to Tripoli, you can give power of attorney to someone you trust. I'll send you my details by message."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι αφήνει η θεία στον ακροατή;",
+     "options": [
+      "Ένα χρηματικό ποσό",
+      "Ένα χωράφι με ελιές",
+      "Ένα διαμέρισμα στην Τρίπολη",
+      "Το πατρικό της σπίτι στο χωριό, μαζί με τον κήπο"
+     ],
+     "answer": "Το πατρικό της σπίτι στο χωριό, μαζί με τον κήπο",
+     "why": "σας αφήνει το πατρικό της σπίτι στο χωριό, μαζί με τον κήπο"
+    },
+    {
+     "q": "Ποιος είναι ο όρος της διαθήκης;",
+     "options": [
+      "Να φροντίζει τη γάτα της",
+      "Να μην πουληθεί το σπίτι για τουλάχιστον πέντε χρόνια",
+      "Να μείνει μόνιμα στο χωριό",
+      "Να το ανακαινίσει μέσα σε έναν χρόνο"
+     ],
+     "answer": "Να μην πουληθεί το σπίτι για τουλάχιστον πέντε χρόνια",
+     "why": "να μην πουληθεί το σπίτι για τουλάχιστον πέντε χρόνια"
+    },
+    {
+     "q": "Τι μπορεί να κάνει αν δεν μπορεί να πάει στην Τρίπολη;",
+     "options": [
+      "Να στείλει ένα γράμμα",
+      "Να ζητήσει παράταση",
+      "Να δώσει πληρεξούσιο σε κάποιον που εμπιστεύεται",
+      "Να υπογράψει ηλεκτρονικά"
+     ],
+     "answer": "Να δώσει πληρεξούσιο σε κάποιον που εμπιστεύεται",
+     "why": "μπορείτε να δώσετε πληρεξούσιο σε κάποιον που εμπιστεύεστε"
+    }
+   ],
+   "gloss": {
+    "διαθήκη": "διαθήκη — will",
+    "απεβίωσε": "αποβιώνω — to pass away",
+    "συλλυπητήρια": "συλλυπητήρια — condolences",
+    "πατρικό": "πατρικό (σπίτι) — family home",
+    "όρος": "όρος — condition",
+    "πουληθεί": "πουλιέμαι — to be sold",
+    "αποδοχή": "αποδοχή — acceptance",
+    "κληρονομιάς": "κληρονομιά — inheritance",
+    "προθεσμία": "προθεσμία — deadline",
+    "πληρεξούσιο": "πληρεξούσιο — power of attorney",
+    "εμπιστεύεστε": "εμπιστεύομαι — to trust"
+   }
+  },
+  {
+   "id": "l170-vm-metafora-pianou",
+   "title": "Μήνυμα για τη μεταφορά του πιάνου",
+   "title_en": "A message about moving the piano",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από μια εταιρεία που μεταφέρει πιάνα.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλησπέρα σας, από την εταιρεία μεταφορών σας παίρνουμε, για το πιάνο που θέλετε να μεταφέρουμε το Σάββατο. Είδαμε τις φωτογραφίες που μας στείλατε. Επειδή το καινούργιο σας σπίτι είναι στον τέταρτο όροφο χωρίς ασανσέρ, το πιάνο δεν θα ανέβει από τη σκάλα.",
+     "en": "Good evening, we're calling from the removal company about the piano you want us to move on Saturday. We've seen the photos you sent us. Because your new home is on the fourth floor without a lift, the piano won't go up the stairs."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Θα χρειαστεί ανυψωτικό μηχάνημα, που θα το ανεβάσει από το μπαλκόνι. Αυτό σημαίνει επιπλέον χρέωση εκατόν πενήντα ευρώ. Χρειάζεται επίσης άδεια από τον δήμο για να σταθμεύσει το φορτηγό στο πεζοδρόμιο. Αυτήν την αναλαμβάνουμε εμείς.",
+     "en": "We'll need a lifting machine to raise it through the balcony. That means an extra charge of one hundred and fifty euros. A permit from the municipality is also needed for the lorry to park on the pavement. We'll take care of that."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Σας παρακαλώ να μετρήσετε το άνοιγμα της μπαλκονόπορτας και να μας στείλετε τις διαστάσεις μέχρι αύριο το μεσημέρι. Αν είναι μικρότερο από ενενήντα εκατοστά, θα χρειαστεί να βγάλουμε την πόρτα. Και μην ξεχάσετε να κλείσετε ραντεβού με τον κουρδιστή μία εβδομάδα μετά τη μεταφορά, όχι νωρίτερα.",
+     "en": "Please measure the opening of the balcony door and send us the dimensions by tomorrow at noon. If it's less than ninety centimetres, we'll need to take the door off. And don't forget to book the tuner for a week after the move, not earlier."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς θα ανέβει το πιάνο στο καινούργιο σπίτι;",
+     "options": [
+      "Με ένα ανυψωτικό μηχάνημα από το μπαλκόνι",
+      "Από το παράθυρο της κουζίνας με σκοινιά",
+      "Με το ασανσέρ",
+      "Από τη σκάλα"
+     ],
+     "answer": "Με ένα ανυψωτικό μηχάνημα από το μπαλκόνι",
+     "why": "Θα χρειαστεί ανυψωτικό μηχάνημα, που θα το ανεβάσει από το μπαλκόνι"
+    },
+    {
+     "q": "Τι πρέπει να κάνει ο ακροατής μέχρι αύριο το μεσημέρι;",
+     "options": [
+      "Να μετρήσει το άνοιγμα της μπαλκονόπορτας και να στείλει τις διαστάσεις",
+      "Να βγάλει άδεια από τον δήμο",
+      "Να βγάλει την πόρτα",
+      "Να πληρώσει προκαταβολή"
+     ],
+     "answer": "Να μετρήσει το άνοιγμα της μπαλκονόπορτας και να στείλει τις διαστάσεις",
+     "why": "να μετρήσετε το άνοιγμα της μπαλκονόπορτας"
+    },
+    {
+     "q": "Πότε πρέπει να έρθει ο κουρδιστής;",
+     "options": [
+      "Την ίδια μέρα",
+      "Μία εβδομάδα μετά τη μεταφορά",
+      "Πριν από τη μεταφορά",
+      "Έναν μήνα μετά"
+     ],
+     "answer": "Μία εβδομάδα μετά τη μεταφορά",
+     "why": "μία εβδομάδα μετά τη μεταφορά, όχι νωρίτερα"
+    }
+   ],
+   "gloss": {
+    "μεταφέρει": "μεταφέρω — to move, transport",
+    "πιάνα": "πιάνο — piano",
+    "εταιρεία μεταφορών": "εταιρεία μεταφορών — removal company",
+    "όροφο": "όροφος — floor",
+    "ασανσέρ": "ασανσέρ — lift",
+    "ανυψωτικό μηχάνημα": "ανυψωτικό μηχάνημα — lifting machine",
+    "χρέωση": "χρέωση — charge",
+    "σταθμεύσει": "σταθμεύω — to park",
+    "άνοιγμα": "άνοιγμα — opening",
+    "μπαλκονόπορτας": "μπαλκονόπορτα — balcony door",
+    "διαστάσεις": "διάσταση — dimension",
+    "κουρδιστή": "κουρδιστής — (piano) tuner"
+   }
+  },
+  {
+   "id": "l170-c1-gkrizes-tryches",
+   "title": "Γιατί γκριζάρουν τα μαλλιά",
+   "title_en": "Why hair turns grey",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε μια συνέντευξη με μια δερματολόγο σε μια εκπομπή για την υγεία.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Από πού παίρνουν τα μαλλιά το χρώμα τους;",
+     "en": "Where does hair get its colour from?"
+    },
+    {
+     "speaker": "Δερματολόγος",
+     "voice": "f",
+     "el": "Από μια χρωστική, τη μελανίνη, που την παράγουν ειδικά κύτταρα στη ρίζα της τρίχας, τα μελανοκύτταρα. Τα κύτταρα αυτά ανανεώνονται από ένα απόθεμα βλαστοκυττάρων. Με τα χρόνια, το απόθεμα εξαντλείται ή, σύμφωνα με νεότερες έρευνες, τα βλαστοκύτταρα «κολλάνε» και δεν ωριμάζουν όπως πριν. Η τρίχα που φυτρώνει τότε είναι χωρίς χρωστική, δηλαδή λευκή. Στην πραγματικότητα, γκρίζες τρίχες δεν υπάρχουν: το γκρίζο είναι η εντύπωση που δίνει η ανάμειξη λευκών και χρωματισμένων τριχών.",
+     "en": "From a pigment, melanin, produced by special cells at the root of the hair, the melanocytes. These cells are renewed from a reserve of stem cells. Over the years the reserve runs out or, according to more recent research, the stem cells get 'stuck' and don't mature as before. The hair that then grows has no pigment, that is, it's white. In fact, grey hairs don't exist: grey is the impression given by a mixture of white and coloured hairs."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και το άγχος; Λένε ότι κάποιος άσπρισε σε μια νύχτα.",
+     "en": "And stress? They say someone went white overnight."
+    },
+    {
+     "speaker": "Δερματολόγος",
+     "voice": "f",
+     "el": "Η τρίχα που έχει ήδη φυτρώσει είναι νεκρός ιστός· δεν μπορεί να αλλάξει χρώμα από τη μια μέρα στην άλλη. Αυτές οι ιστορίες είναι μάλλον υπερβολές, ή εξηγούνται από μια πάθηση που ρίχνει απότομα τις χρωματισμένες τρίχες και αφήνει τις λευκές. Πειράματα σε ποντίκια όμως έδειξαν ότι το έντονο στρες μπορεί πράγματι να καταστρέψει τα βλαστοκύτταρα του χρώματος. Πόσο ισχύει αυτό στους ανθρώπους, ερευνάται ακόμη.",
+     "en": "Hair that has already grown is dead tissue; it can't change colour from one day to the next. These stories are probably exaggerations, or are explained by a condition that suddenly sheds the coloured hairs and leaves the white ones. Experiments on mice, however, showed that intense stress can indeed destroy the colour stem cells. How far this holds in humans is still being researched."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι καθορίζει πότε θα γκριζάρουμε;",
+     "en": "What determines when we'll go grey?"
+    },
+    {
+     "speaker": "Δερματολόγος",
+     "voice": "f",
+     "el": "Κυρίως τα γονίδια. Αν οι γονείς σας γκρίζαραν νωρίς, είναι πιθανό να συμβεί και σε εσάς. Το κάπνισμα και ορισμένες ελλείψεις βιταμινών φαίνεται να το επιταχύνουν, αλλά η κληρονομικότητα παραμένει ο σημαντικότερος παράγοντας.",
+     "en": "Mainly genes. If your parents went grey early, it's likely to happen to you too. Smoking and certain vitamin deficiencies seem to speed it up, but heredity remains the most important factor."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λέει η δερματολόγος για τις «γκρίζες» τρίχες;",
+     "options": [
+      "Ότι στην πραγματικότητα το γκρίζο είναι ανάμειξη λευκών και χρωματισμένων τριχών",
+      "Ότι γίνονται λευκές μετά από χρόνια",
+      "Ότι οφείλονται στον ήλιο",
+      "Ότι έχουν λιγότερη μελανίνη από τις άλλες"
+     ],
+     "answer": "Ότι στην πραγματικότητα το γκρίζο είναι ανάμειξη λευκών και χρωματισμένων τριχών",
+     "why": "το γκρίζο είναι η εντύπωση που δίνει η ανάμειξη λευκών και χρωματισμένων τριχών"
+    },
+    {
+     "q": "Γιατί είναι μάλλον υπερβολή ότι κάποιος άσπρισε σε μια νύχτα;",
+     "options": [
+      "Γιατί οι τρίχες μεγαλώνουν πολύ αργά",
+      "Γιατί το άγχος δεν επηρεάζει τα μαλλιά",
+      "Γιατί η μελανίνη καταστρέφεται μόνο από τον ήλιο",
+      "Γιατί η τρίχα που έχει ήδη φυτρώσει είναι νεκρός ιστός και δεν αλλάζει χρώμα"
+     ],
+     "answer": "Γιατί η τρίχα που έχει ήδη φυτρώσει είναι νεκρός ιστός και δεν αλλάζει χρώμα",
+     "why": "Η τρίχα που έχει ήδη φυτρώσει είναι νεκρός ιστός"
+    },
+    {
+     "q": "Ποιος είναι, κατά τη δερματολόγο, ο σημαντικότερος παράγοντας;",
+     "options": [
+      "Οι ελλείψεις βιταμινών",
+      "Το στρες",
+      "Η κληρονομικότητα",
+      "Το κάπνισμα"
+     ],
+     "answer": "Η κληρονομικότητα",
+     "why": "η κληρονομικότητα παραμένει ο σημαντικότερος παράγοντας"
+    }
+   ],
+   "gloss": {
+    "δερματολόγο": "δερματολόγος — dermatologist",
+    "χρωστική": "χρωστική — pigment",
+    "μελανίνη": "μελανίνη — melanin",
+    "τρίχας": "τρίχα — (a single) hair",
+    "μελανοκύτταρα": "μελανοκύτταρο — melanocyte",
+    "απόθεμα": "απόθεμα — reserve, stock",
+    "βλαστοκυττάρων": "βλαστοκύτταρο — stem cell",
+    "εξαντλείται": "εξαντλούμαι — to be exhausted, run out",
+    "ωριμάζουν": "ωριμάζω — to mature",
+    "ανάμειξη": "ανάμειξη — mixture",
+    "άσπρισε": "ασπρίζω — to go white",
+    "ιστός": "ιστός — tissue",
+    "πάθηση": "πάθηση — condition, disorder",
+    "γονίδια": "γονίδιο — gene",
+    "ελλείψεις": "έλλειψη — deficiency",
+    "επιταχύνουν": "επιταχύνω — to speed up",
+    "κληρονομικότητα": "κληρονομικότητα — heredity"
+   }
+  },
+  {
+   "id": "l170-c1-ichos-ti-nychta",
+   "title": "Γιατί ο ήχος ακούγεται πιο μακριά τη νύχτα",
+   "title_en": "Why sound carries further at night",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε έναν φυσικό της ατμόσφαιρας να εξηγεί σε ένα ψηφιακό ραδιοφωνικό πρόγραμμα γιατί τη νύχτα ακούμε ήχους από πολύ μακριά.",
+   "script": [
+    {
+     "speaker": "Φυσικός",
+     "voice": "m",
+     "el": "Πολλοί έχετε παρατηρήσει ότι τη νύχτα ακούτε το τρένο ή τις καμπάνες ενός χωριού που τη μέρα δεν φτάνουν ως εσάς. Ένα μέρος της εξήγησης είναι προφανές: τη νύχτα υπάρχει λιγότερος θόρυβος γύρω μας. Αλλά αυτό δεν είναι όλο. Το σημαντικότερο το κάνει η θερμοκρασία του αέρα.",
+     "en": "Many of you have noticed that at night you hear the train or a village's church bells which during the day don't reach you. Part of the explanation is obvious: at night there is less noise around us. But that's not all. The most important part is played by the temperature of the air."
+    },
+    {
+     "speaker": "Φυσικός",
+     "voice": "m",
+     "el": "Ο ήχος ταξιδεύει πιο γρήγορα στον ζεστό αέρα παρά στον κρύο. Τη μέρα το έδαφος ζεσταίνει τον αέρα από κάτω, οπότε κοντά στη γη ο αέρας είναι πιο ζεστός και ψηλότερα πιο κρύος. Τα ηχητικά κύματα λυγίζουν προς τον πιο κρύο αέρα, δηλαδή προς τα πάνω, και χάνονται στον ουρανό. Τη νύχτα, ιδίως όταν είναι αίθριος ο καιρός, το έδαφος ψύχεται γρήγορα και δημιουργείται το αντίθετο: ένα στρώμα κρύου αέρα κάτω από ένα στρώμα θερμότερου. Αυτό το φαινόμενο λέγεται θερμοκρασιακή αναστροφή.",
+     "en": "Sound travels faster in warm air than in cold. During the day the ground warms the air from below, so near the earth the air is warmer and higher up colder. The sound waves bend towards the colder air, that is, upwards, and are lost in the sky. At night, especially when the weather is clear, the ground cools quickly and the opposite forms: a layer of cold air beneath a layer of warmer air. This phenomenon is called temperature inversion."
+    },
+    {
+     "speaker": "Φυσικός",
+     "voice": "m",
+     "el": "Σε αυτή την περίπτωση τα κύματα που ξεκινούν προς τα πάνω λυγίζουν και γυρίζουν πίσω προς το έδαφος, σαν να τα αντανακλά ένα αόρατο ταβάνι. Έτσι ο ήχος «πατάει» πάνω στη γη και φτάνει πολύ πιο μακριά. Ρόλο παίζει και ο άνεμος: όταν φυσάει από την πηγή του ήχου προς εσάς, ο ήχος έρχεται πιο καθαρός, ενώ αντίθετα μπορεί να μην τον ακούσετε καθόλου.",
+     "en": "In this case the waves that set off upwards bend and turn back towards the ground, as if reflected by an invisible ceiling. So the sound 'keeps to' the earth and travels much further. The wind also plays a role: when it blows from the source of the sound towards you, the sound comes more clearly, whereas against it you may not hear it at all."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού ταξιδεύει πιο γρήγορα ο ήχος;",
+     "options": [
+      "Το ίδιο παντού",
+      "Στον υγρό αέρα",
+      "Στον ζεστό αέρα",
+      "Στον κρύο αέρα"
+     ],
+     "answer": "Στον ζεστό αέρα",
+     "why": "Ο ήχος ταξιδεύει πιο γρήγορα στον ζεστό αέρα παρά στον κρύο"
+    },
+    {
+     "q": "Τι συμβαίνει με τον ήχο τη μέρα;",
+     "options": [
+      "Ταξιδεύει πιο μακριά",
+      "Απορροφάται από το έδαφος",
+      "Λυγίζει προς τα πάνω και χάνεται στον ουρανό",
+      "Ανακλάται από τα σύννεφα"
+     ],
+     "answer": "Λυγίζει προς τα πάνω και χάνεται στον ουρανό",
+     "why": "Τα ηχητικά κύματα λυγίζουν προς τον πιο κρύο αέρα, δηλαδή προς τα πάνω"
+    },
+    {
+     "q": "Τι είναι η θερμοκρασιακή αναστροφή;",
+     "options": [
+      "Ένα στρώμα κρύου αέρα κάτω από ένα στρώμα θερμότερου",
+      "Η απότομη άνοδος της θερμοκρασίας το πρωί",
+      "Η ομίχλη πάνω από τα ποτάμια",
+      "Ένας δυνατός άνεμος τη νύχτα"
+     ],
+     "answer": "Ένα στρώμα κρύου αέρα κάτω από ένα στρώμα θερμότερου",
+     "why": "ένα στρώμα κρύου αέρα κάτω από ένα στρώμα θερμότερου"
+    }
+   ],
+   "gloss": {
+    "φυσικό": "φυσικός — physicist",
+    "ατμόσφαιρας": "ατμόσφαιρα — atmosphere",
+    "καμπάνες": "καμπάνα — church bell",
+    "προφανές": "προφανής — obvious",
+    "θερμοκρασία": "θερμοκρασία — temperature",
+    "έδαφος": "έδαφος — ground",
+    "λυγίζουν": "λυγίζω — to bend",
+    "αίθριος": "αίθριος — clear, fair",
+    "ψύχεται": "ψύχομαι — to cool",
+    "στρώμα": "στρώμα — layer",
+    "θερμοκρασιακή αναστροφή": "θερμοκρασιακή αναστροφή — temperature inversion",
+    "αντανακλά": "αντανακλώ — to reflect",
+    "αόρατο": "αόρατος — invisible",
+    "πηγή": "πηγή — source"
+   }
+  }
+ ]
+}
