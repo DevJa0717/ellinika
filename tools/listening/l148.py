@@ -24,19 +24,19 @@ ITEMS.append({
 })
 
 ITEMS.append({
- "id": "l148-ann-nychta-mouseion", "title": "Η Νύχτα των Μουσείων", "title_en": "Museum Night", "type": "announcement", "level": "B2",
+ "id": "l148-ann-anoichtoi-kipoi", "title": "Η Μέρα των Ανοιχτών Κήπων", "title_en": "Open Gardens Day", "type": "announcement", "level": "B2",
  "context_el": "Ακούτε μια ανακοίνωση στο ραδιόφωνο για μια πολιτιστική εκδήλωση στην πόλη σας.",
  "script": [
-  L("Εκφωνήτρια", "f", "Το Σάββατο η πόλη συμμετέχει στην Ευρωπαϊκή Νύχτα των Μουσείων. Δεκαπέντε μουσεία και αρχαιολογικοί χώροι θα μείνουν ανοιχτοί μέχρι τα μεσάνυχτα, με ελεύθερη είσοδο από τις επτά το απόγευμα.", "On Saturday the city takes part in the European Night of Museums. Fifteen museums and archaeological sites will stay open until midnight, with free entry from seven in the evening."),
-  L("Εκφωνήτρια", "f", "Σε πολλά μουσεία θα γίνουν ξεναγήσεις, μικρές συναυλίες και εργαστήρια για παιδιά. Για τις ξεναγήσεις χρειάζεται κράτηση θέσης στην ιστοσελίδα του δήμου, γιατί ο αριθμός των συμμετεχόντων είναι περιορισμένος.", "In many museums there will be guided tours, small concerts and workshops for children. For the guided tours you need to book a place on the municipality's website, because the number of participants is limited."),
-  L("Εκφωνήτρια", "f", "Ένα δωρεάν λεωφορείο θα συνδέει τα μουσεία ανά είκοσι λεπτά, με αφετηρία την κεντρική πλατεία. Λόγω του μεγάλου αριθμού επισκεπτών, συνιστάται να αποφύγετε τη χρήση αυτοκινήτου.", "A free bus will link the museums every twenty minutes, starting from the central square. Because of the large number of visitors, you are advised to avoid using your car."),
+  L("Εκφωνήτρια", "f", "Την Κυριακή η πόλη γιορτάζει τη Μέρα των Ανοιχτών Κήπων. Δεκαπέντε ιδιωτικοί κήποι και αυλές θα μείνουν ανοιχτοί για το κοινό από τις δέκα το πρωί μέχρι τη δύση του ηλίου, με ελεύθερη είσοδο.", "On Sunday the city celebrates Open Gardens Day. Fifteen private gardens and courtyards will be open to the public from ten in the morning until sunset, with free entry."),
+  L("Εκφωνήτρια", "f", "Σε πολλούς κήπους οι ιδιοκτήτες θα κάνουν ξεναγήσεις, ενώ θα υπάρχουν και εργαστήρια κηπουρικής για παιδιά. Για τις ξεναγήσεις χρειάζεται κράτηση θέσης στην ιστοσελίδα του δήμου, γιατί ο αριθμός των συμμετεχόντων είναι περιορισμένος.", "In many gardens the owners will give guided tours, and there will also be gardening workshops for children. For the guided tours you need to book a place on the municipality's website, because the number of participants is limited."),
+  L("Εκφωνήτρια", "f", "Ένα δωρεάν λεωφορείο θα συνδέει τους κήπους ανά είκοσι λεπτά, με αφετηρία την κεντρική πλατεία. Παρακαλούνται οι επισκέπτες να μην κόβουν λουλούδια και να μη φέρνουν κατοικίδια.", "A free bus will link the gardens every twenty minutes, starting from the central square. Visitors are asked not to pick flowers and not to bring pets."),
  ],
  "questions": [
-  Q("Πότε είναι ελεύθερη η είσοδος;", ["Όλη τη μέρα", "Από τις επτά το απόγευμα", "Μόνο το πρωί", "Μετά τα μεσάνυχτα"], 1, "με ελεύθερη είσοδο από τις επτά το απόγευμα"),
+  Q("Πότε θα είναι ανοιχτοί οι κήποι;", ["Μόνο το απόγευμα", "Από τις δέκα το πρωί μέχρι τη δύση του ηλίου", "Όλη τη νύχτα", "Μόνο με κράτηση"], 1, "από τις δέκα το πρωί μέχρι τη δύση του ηλίου"),
   Q("Γιατί χρειάζεται κράτηση για τις ξεναγήσεις;", ["Γιατί κοστίζουν", "Γιατί γίνονται μόνο στα αγγλικά", "Γιατί ο αριθμός των συμμετεχόντων είναι περιορισμένος", "Γιατί είναι μόνο για παιδιά"], 2, "ο αριθμός των συμμετεχόντων είναι περιορισμένος"),
-  Q("Τι συνιστάται στους επισκέπτες;", ["Να αποφύγουν τη χρήση αυτοκινήτου", "Να έρθουν νωρίς το πρωί", "Να φέρουν φαγητό", "Να αγοράσουν εισιτήριο από πριν"], 0, "συνιστάται να αποφύγετε τη χρήση αυτοκινήτου"),
+  Q("Τι παρακαλούνται να μην κάνουν οι επισκέπτες;", ["Να μην κόβουν λουλούδια", "Να μην έρχονται με λεωφορείο", "Να μη φωτογραφίζουν", "Να μη μιλούν στους ιδιοκτήτες"], 0, "να μην κόβουν λουλούδια"),
  ],
- "gloss": {"πολιτιστική": "πολιτιστικός — cultural", "συμμετέχει": "συμμετέχω — to take part", "αρχαιολογικοί χώροι": "αρχαιολογικός χώρος — archaeological site", "ξεναγήσεις": "ξενάγηση — guided tour", "εργαστήρια": "εργαστήριο — workshop", "κράτηση": "κράτηση — booking", "περιορισμένος": "περιορισμένος — limited", "αφετηρία": "αφετηρία — starting point", "συνιστάται": "συνιστάται — it is advised"}
+ "gloss": {"πολιτιστική": "πολιτιστικός — cultural", "ιδιωτικοί": "ιδιωτικός — private", "αυλές": "αυλή — courtyard", "δύση": "δύση — setting (of the sun)", "ξεναγήσεις": "ξενάγηση — guided tour", "κηπουρικής": "κηπουρική — gardening", "κράτηση": "κράτηση — booking", "περιορισμένος": "περιορισμένος — limited", "αφετηρία": "αφετηρία — starting point", "κατοικίδια": "κατοικίδιο — pet"}
 })
 
 ITEMS.append({
