@@ -1,0 +1,195 @@
+# Source for library/listening/listening-151.json: ten more B2–C1 listening items (script + questions + gloss).
+# Build: python3 tools/listening/l151.py
+import json, os, random
+
+def L(sp, v, el, en): return {"speaker": sp, "voice": v, "el": el, "en": en}
+def Q(q, opts, ans, why): return {"q": q, "options": opts, "answer": opts[ans], "why": why}
+
+ITEMS = []
+
+ITEMS.append({
+ "id": "l151-vm-synergeio", "title": "Το συνεργείο βρήκε κι άλλη βλάβη", "title_en": "The garage found another fault", "type": "voicemail", "level": "B2",
+ "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από το συνεργείο όπου αφήσατε το αυτοκίνητό σας για σέρβις.",
+ "script": [
+  L("Μηχανικός", "m", "Καλημέρα σας, από το συνεργείο του Παπαδόπουλου. Κάναμε το σέρβις που ζητήσατε, αλλά βρήκαμε ότι τα τακάκια των φρένων μπροστά είναι σχεδόν τελειωμένα. Για λόγους ασφαλείας σας συνιστώ να τα αλλάξουμε τώρα.", "Good morning, it's Papadopoulos's garage. We did the service you asked for, but we found that the front brake pads are almost worn out. For safety reasons I recommend we change them now."),
+  L("Μηχανικός", "m", "Το κόστος, μαζί με την εργασία, είναι γύρω στα ενενήντα ευρώ. Τα ανταλλακτικά τα έχουμε στην αποθήκη, οπότε αν μου πείτε το ναι μέχρι το μεσημέρι, το αυτοκίνητο θα είναι έτοιμο σήμερα στις έξι.", "The cost, including labour, is around ninety euros. We have the parts in stock, so if you say yes by noon, the car will be ready today at six."),
+  L("Μηχανικός", "m", "Αν προτιμάτε να το σκεφτείτε, μπορείτε να πάρετε το αυτοκίνητο όπως είναι, αλλά μην κάνετε μεγάλα ταξίδια μέχρι να αλλάξετε τα τακάκια. Πάρτε με στο κινητό, γιατί το σταθερό του συνεργείου χάλασε.", "If you'd rather think about it, you can take the car as it is, but don't make long trips until you change the pads. Call me on my mobile, because the garage landline is broken."),
+ ],
+ "questions": [
+  Q("Τι πρόβλημα βρήκε ο μηχανικός;", ["Τα λάστιχα είναι φθαρμένα", "Τα μπροστινά τακάκια των φρένων είναι σχεδόν τελειωμένα", "Η μπαταρία είναι άδεια", "Το λάδι έχει διαρροή"], 1, "τα τακάκια των φρένων μπροστά είναι σχεδόν τελειωμένα"),
+  Q("Πότε θα είναι έτοιμο το αυτοκίνητο, αν απαντήσετε μέχρι το μεσημέρι;", ["Αύριο το πρωί", "Σε μία εβδομάδα", "Σήμερα στις έξι", "Σε δύο ώρες"], 2, "το αυτοκίνητο θα είναι έτοιμο σήμερα στις έξι"),
+  Q("Πού πρέπει να τηλεφωνήσετε;", ["Στο κινητό του μηχανικού", "Στο σταθερό του συνεργείου", "Στην ασφαλιστική εταιρεία", "Στην αντιπροσωπεία"], 0, "Πάρτε με στο κινητό, γιατί το σταθερό του συνεργείου χάλασε"),
+ ],
+ "gloss": {"συνεργείο": "συνεργείο — car repair garage", "σέρβις": "σέρβις — service", "τακάκια": "τακάκι — brake pad", "φρένων": "φρένο — brake", "εργασία": "εργασία — labour", "ανταλλακτικά": "ανταλλακτικό — spare part", "αποθήκη": "αποθήκη — stockroom", "σταθερό": "σταθερό — landline"}
+})
+
+ITEMS.append({
+ "id": "l151-ann-mouseio-kleinei", "title": "Το μουσείο κλείνει σε λίγο", "title_en": "The museum is closing soon", "type": "announcement", "level": "B2",
+ "context_el": "Ακούτε μια ανακοίνωση από τα μεγάφωνα ενός μουσείου.",
+ "script": [
+  L("Εκφωνήτρια", "f", "Αγαπητοί επισκέπτες, σας ενημερώνουμε ότι το μουσείο θα κλείσει σε δεκαπέντε λεπτά. Οι αίθουσες του δεύτερου ορόφου κλείνουν ήδη, γι' αυτό σας παρακαλούμε να κατευθυνθείτε προς το ισόγειο.", "Dear visitors, we inform you that the museum will close in fifteen minutes. The galleries on the second floor are already closing, so please make your way to the ground floor."),
+  L("Εκφωνήτρια", "f", "Το πωλητήριο του μουσείου θα παραμείνει ανοιχτό για δέκα λεπτά μετά το κλείσιμο των αιθουσών. Όσοι έχετε αφήσει τσάντες ή ομπρέλες στην γκαρνταρόμπα, μην ξεχάσετε να τις παραλάβετε.", "The museum shop will stay open for ten minutes after the galleries close. Those of you who have left bags or umbrellas in the cloakroom, don't forget to collect them."),
+  L("Εκφωνήτρια", "f", "Υπενθυμίζουμε ότι αύριο, Δευτέρα, το μουσείο θα είναι κλειστό. Από την Τρίτη, η νέα περιοδική έκθεση για την αρχαία ιατρική θα είναι ανοιχτή καθημερινά μέχρι τις οχτώ το βράδυ. Σας ευχαριστούμε για την επίσκεψή σας.", "We remind you that tomorrow, Monday, the museum will be closed. From Tuesday, the new temporary exhibition on ancient medicine will be open daily until eight in the evening. Thank you for your visit."),
+ ],
+ "questions": [
+  Q("Τι ζητείται από τους επισκέπτες;", ["Να κατευθυνθούν προς το ισόγειο", "Να ανέβουν στον δεύτερο όροφο", "Να περιμένουν στην είσοδο", "Να κλείσουν τα κινητά τους"], 0, "σας παρακαλούμε να κατευθυνθείτε προς το ισόγειο"),
+  Q("Μέχρι πότε θα είναι ανοιχτό το πωλητήριο;", ["Μέχρι τις οχτώ", "Δέκα λεπτά μετά το κλείσιμο των αιθουσών", "Όλη τη νύχτα", "Θα κλείσει αμέσως"], 1, "θα παραμείνει ανοιχτό για δέκα λεπτά μετά το κλείσιμο των αιθουσών"),
+  Q("Τι ισχύει για αύριο;", ["Η είσοδος θα είναι δωρεάν", "Θα ανοίξει η νέα έκθεση", "Το μουσείο θα είναι κλειστό", "Το μουσείο θα ανοίξει νωρίτερα"], 2, "αύριο, Δευτέρα, το μουσείο θα είναι κλειστό"),
+ ],
+ "gloss": {"μεγάφωνα": "μεγάφωνο — loudspeaker", "αίθουσες": "αίθουσα — gallery, hall", "κατευθυνθείτε": "κατευθύνομαι — to head for", "ισόγειο": "ισόγειο — ground floor", "πωλητήριο": "πωλητήριο — museum shop", "γκαρνταρόμπα": "γκαρνταρόμπα — cloakroom", "παραλάβετε": "παραλαμβάνω — to collect", "περιοδική": "περιοδική έκθεση — temporary exhibition"}
+})
+
+ITEMS.append({
+ "id": "l151-dia-parti-ekplixi", "title": "Αποχαιρετισμός για τη Σοφία", "title_en": "A farewell for Sofia", "type": "dialogue", "level": "B2",
+ "context_el": "Ακούτε δύο συναδέλφους να συζητούν στο γραφείο.",
+ "script": [
+  L("Κώστας", "m", "Έμαθες ότι η Σοφία φεύγει για τη Βιέννη τον άλλο μήνα; Λέω να της κάνουμε ένα μικρό αποχαιρετιστήριο πάρτι, χωρίς να το ξέρει.", "Did you hear that Sofia is leaving for Vienna next month? I'm thinking we should throw her a little farewell party, without her knowing."),
+  L("Αλίκη", "f", "Ωραία ιδέα! Πού όμως; Στο γραφείο δεν χωράμε όλοι.", "Great idea! But where? We don't all fit in the office."),
+  L("Κώστας", "m", "Σκέφτηκα την ταράτσα του κτιρίου. Ρώτησα τον διαχειριστή και μας δίνει άδεια, αρκεί να τελειώσουμε μέχρι τις δέκα και να μαζέψουμε μετά.", "I thought of the building's roof terrace. I asked the caretaker and he's given us permission, as long as we finish by ten and tidy up afterwards."),
+  L("Αλίκη", "f", "Τέλεια. Εγώ αναλαμβάνω το δώρο. Τι λες για έναν οδηγό της Βιέννης και ένα άλμπουμ με φωτογραφίες από τη δουλειά;", "Perfect. I'll take care of the present. What do you think of a guidebook to Vienna and an album with photos from work?"),
+  L("Κώστας", "m", "Πολύ ωραίο. Για το φαγητό θα παραγγείλουμε από την πιτσαρία απέναντι, και ο καθένας θα φέρει από ένα γλυκό. Το δύσκολο είναι να την κρατήσουμε μακριά ως τις επτά.", "Very nice. For food we'll order from the pizzeria opposite, and everyone will bring a dessert. The hard part is keeping her away until seven."),
+  L("Αλίκη", "f", "Άφησέ το σε μένα. Θα της ζητήσω να με βοηθήσει με μια αναφορά της τελευταίας στιγμής!", "Leave it to me. I'll ask her to help me with a last-minute report!"),
+ ],
+ "questions": [
+  Q("Με ποιον όρο δίνει ο διαχειριστής την άδεια;", ["Να μην ακούγεται μουσική", "Να τελειώσουν μέχρι τις δέκα και να μαζέψουν", "Να πληρώσουν ενοίκιο", "Να είναι λιγότεροι από είκοσι"], 1, "αρκεί να τελειώσουμε μέχρι τις δέκα και να μαζέψουμε μετά"),
+  Q("Τι θα είναι το δώρο;", ["Ένα εισιτήριο για τη Βιέννη", "Ένα ρολόι", "Ένας οδηγός της Βιέννης και ένα άλμπουμ με φωτογραφίες", "Ένα γλυκό"], 2, "έναν οδηγό της Βιέννης και ένα άλμπουμ με φωτογραφίες"),
+  Q("Πώς θα κρατήσει η Αλίκη τη Σοφία μακριά;", ["Θα της ζητήσει βοήθεια με μια αναφορά", "Θα τη βγάλει για ψώνια", "Θα της πει ψέματα για μια συνάντηση", "Θα την πάει στο γιατρό"], 0, "Θα της ζητήσω να με βοηθήσει με μια αναφορά της τελευταίας στιγμής"),
+ ],
+ "gloss": {"συναδέλφους": "συνάδελφος — colleague", "αποχαιρετιστήριο": "αποχαιρετιστήριος — farewell", "χωράμε": "χωράω — to fit", "ταράτσα": "ταράτσα — roof terrace", "διαχειριστή": "διαχειριστής — building manager", "άδεια": "άδεια — permission", "αναλαμβάνω": "αναλαμβάνω — to take on", "αναφορά": "αναφορά — report"}
+})
+
+ITEMS.append({
+ "id": "l151-int-mousikos-dromou", "title": "Ο μουσικός του δρόμου", "title_en": "The street musician", "type": "interview", "level": "B2",
+ "context_el": "Ακούτε μια συνέντευξη με έναν νεαρό που παίζει βιολί στους δρόμους της Θεσσαλονίκης.",
+ "script": [
+  L("Δημοσιογράφος", "f", "Πώς αποφασίσατε να παίζετε στον δρόμο;", "How did you decide to play in the street?"),
+  L("Μουσικός", "m", "Τελείωσα το ωδείο, αλλά δεν έβρισκα δουλειά σε ορχήστρα. Μια μέρα πήρα το βιολί και κάθισα στην Αριστοτέλους. Σε δύο ώρες είχα μαζέψει περισσότερα απ' όσα έβγαζα σε μια βδομάδα με ιδιαίτερα μαθήματα.", "I finished the conservatory, but I couldn't find a job in an orchestra. One day I took my violin and sat down in Aristotelous Square. In two hours I'd collected more than I made in a week of private lessons."),
+  L("Δημοσιογράφος", "f", "Χρειάζεται άδεια;", "Do you need a permit?"),
+  L("Μουσικός", "m", "Ναι, από τον δήμο. Ισχύει για τρεις μήνες και ορίζει πού και πότε μπορώ να παίζω. Δεν επιτρέπεται ενισχυτής μετά τις εννιά το βράδυ, για να μην ενοχλούνται οι κάτοικοι.", "Yes, from the municipality. It's valid for three months and sets where and when I can play. An amplifier isn't allowed after nine in the evening, so the residents aren't disturbed."),
+  L("Δημοσιογράφος", "f", "Ποια είναι η πιο όμορφη στιγμή που έχετε ζήσει;", "What's the most beautiful moment you've experienced?"),
+  L("Μουσικός", "m", "Ένας ηλικιωμένος κύριος σταμάτησε και άκουσε ένα ολόκληρο κομμάτι με κλειστά μάτια. Μετά μου είπε ότι το έπαιζε η γυναίκα του, που είχε πεθάνει πριν από έναν χρόνο. Δεν άφησε χρήματα, αλλά ήταν η καλύτερη αμοιβή που έχω πάρει.", "An elderly gentleman stopped and listened to a whole piece with his eyes closed. Afterwards he told me his wife used to play it; she had died a year earlier. He didn't leave any money, but it was the best payment I've ever had."),
+ ],
+ "questions": [
+  Q("Γιατί άρχισε να παίζει στον δρόμο;", ["Γιατί δεν έβρισκε δουλειά σε ορχήστρα", "Γιατί του το πρότεινε ένας φίλος", "Γιατί βαριόταν τα μαθήματα", "Γιατί ήθελε να γίνει διάσημος"], 0, "δεν έβρισκα δουλειά σε ορχήστρα"),
+  Q("Τι δεν επιτρέπεται μετά τις εννιά το βράδυ;", ["Να παίζει στην πλατεία", "Ο ενισχυτής", "Να μαζεύει χρήματα", "Να παίζει με άλλους μουσικούς"], 1, "Δεν επιτρέπεται ενισχυτής μετά τις εννιά το βράδυ"),
+  Q("Γιατί ήταν ξεχωριστή η στιγμή με τον ηλικιωμένο κύριο;", ["Γιατί του έδωσε πολλά χρήματα", "Γιατί του πρότεινε δουλειά", "Γιατί το κομμάτι το έπαιζε η γυναίκα του που είχε πεθάνει", "Γιατί ήταν παλιός του δάσκαλος"], 2, "μου είπε ότι το έπαιζε η γυναίκα του, που είχε πεθάνει πριν από έναν χρόνο"),
+ ],
+ "gloss": {"βιολί": "βιολί — violin", "ωδείο": "ωδείο — conservatory", "ορχήστρα": "ορχήστρα — orchestra", "ιδιαίτερα μαθήματα": "ιδιαίτερα μαθήματα — private lessons", "Ισχύει": "ισχύω — to be valid", "ορίζει": "ορίζω — to set, specify", "ενισχυτής": "ενισχυτής — amplifier", "κομμάτι": "κομμάτι — piece (of music)", "αμοιβή": "αμοιβή — payment, reward"}
+})
+
+ITEMS.append({
+ "id": "l151-news-kafsonas", "title": "Κλιματιζόμενες αίθουσες για τον καύσωνα", "title_en": "Air-conditioned halls for the heatwave", "type": "news", "level": "B2",
+ "context_el": "Ακούτε μια είδηση από το μεσημεριανό δελτίο ειδήσεων.",
+ "script": [
+  L("Παρουσιάστρια", "f", "Λόγω του καύσωνα που θα κορυφωθεί την Πέμπτη, με θερμοκρασίες που μπορεί να φτάσουν τους σαράντα τρεις βαθμούς, ο δήμος ανοίγει από αύριο έξι κλιματιζόμενες αίθουσες για το κοινό. Θα λειτουργούν από τις δέκα το πρωί μέχρι τις οχτώ το βράδυ.", "Because of the heatwave, which will peak on Thursday with temperatures that may reach forty-three degrees, the municipality is opening six air-conditioned halls to the public from tomorrow. They will operate from ten in the morning until eight in the evening."),
+  L("Παρουσιάστρια", "f", "Οι αίθουσες απευθύνονται κυρίως σε ηλικιωμένους, σε ανθρώπους με χρόνια προβλήματα υγείας και σε όσους δεν έχουν κλιματιστικό στο σπίτι. Θα υπάρχει νερό, και ένας νοσηλευτής θα είναι παρών σε κάθε αίθουσα.", "The halls are mainly aimed at elderly people, people with chronic health problems and those who don't have air conditioning at home. There will be water, and a nurse will be present in each hall."),
+  L("Παρουσιάστρια", "f", "Οι γιατροί συνιστούν να αποφεύγετε τις μετακινήσεις τις ώρες της μεγάλης ζέστης, να πίνετε πολύ νερό ακόμα κι αν δεν διψάτε, και να ρωτάτε τακτικά για ηλικιωμένους γείτονες που ζουν μόνοι.", "Doctors advise you to avoid travelling during the hottest hours, to drink plenty of water even if you're not thirsty, and to check regularly on elderly neighbours who live alone."),
+ ],
+ "questions": [
+  Q("Πότε θα κορυφωθεί ο καύσωνας;", ["Αύριο", "Την Πέμπτη", "Το σαββατοκύριακο", "Σήμερα"], 1, "Λόγω του καύσωνα που θα κορυφωθεί την Πέμπτη"),
+  Q("Σε ποιους απευθύνονται κυρίως οι αίθουσες;", ["Σε τουρίστες", "Σε μαθητές", "Σε ηλικιωμένους και σε όσους δεν έχουν κλιματιστικό", "Σε εργαζόμενους του δήμου"], 2, "απευθύνονται κυρίως σε ηλικιωμένους"),
+  Q("Τι συνιστούν οι γιατροί;", ["Να πίνετε πολύ νερό ακόμα κι αν δεν διψάτε", "Να κάνετε γυμναστική το μεσημέρι", "Να μένετε στις αίθουσες όλη τη νύχτα", "Να παίρνετε φάρμακα"], 0, "να πίνετε πολύ νερό ακόμα κι αν δεν διψάτε"),
+ ],
+ "gloss": {"καύσωνα": "καύσωνας — heatwave", "κορυφωθεί": "κορυφώνομαι — to peak", "κλιματιζόμενες": "κλιματιζόμενος — air-conditioned", "απευθύνονται": "απευθύνομαι — to be aimed at", "χρόνια": "χρόνιος — chronic", "κλιματιστικό": "κλιματιστικό — air conditioner", "παρών": "παρών — present", "μετακινήσεις": "μετακίνηση — travel, trip", "διψάτε": "διψάω — to be thirsty"}
+})
+
+ITEMS.append({
+ "id": "l151-mon-protos-marathonios", "title": "Ο πρώτος μου αυθεντικός μαραθώνιος", "title_en": "My first Authentic Marathon", "type": "monologue", "level": "B2",
+ "context_el": "Ακούτε μια γυναίκα να μιλάει σε ένα ραδιοφωνικό αφιέρωμα για τον Αυθεντικό Μαραθώνιο της Αθήνας.",
+ "script": [
+  L("Ματίνα", "f", "Πριν από τρία χρόνια δεν μπορούσα να τρέξω ούτε μέχρι τη στάση του λεωφορείου. Ξεκίνησα με ένα πρόγραμμα για αρχάριους: ένα λεπτό τρέξιμο, δύο λεπτά περπάτημα. Σιγά σιγά τα λεπτά έγιναν χιλιόμετρα.", "Three years ago I couldn't even run to the bus stop. I started with a beginners' programme: one minute running, two minutes walking. Little by little the minutes became kilometres."),
+  L("Ματίνα", "f", "Τον περασμένο Νοέμβριο έτρεξα για πρώτη φορά τη διαδρομή από τον Μαραθώνα μέχρι το Καλλιμάρμαρο. Το πιο δύσκολο κομμάτι ήταν η μεγάλη ανηφόρα στη μέση της διαδρομής, που φαινόταν ατελείωτη.", "Last November I ran the route from Marathon to the Panathenaic Stadium for the first time. The hardest part was the long uphill stretch in the middle of the route, which seemed endless."),
+  L("Ματίνα", "f", "Αυτό που δεν θα ξεχάσω ποτέ είναι ο κόσμος στους δρόμους. Μια γιαγιά μού έδωσε ένα κλαδί ελιάς, και ένα παιδάκι μού φώναξε το όνομά μου, που ήταν γραμμένο στον αριθμό μου. Τερμάτισα σε πέντε ώρες και κάτι, και έκλαιγα σαν μωρό.", "What I'll never forget is the people in the streets. A grandmother gave me an olive branch, and a little child shouted my name, which was written on my number. I finished in five hours and a bit, and I was crying like a baby."),
+ ],
+ "questions": [
+  Q("Πώς ξεκίνησε η Ματίνα το τρέξιμο;", ["Με ένα πρόγραμμα για αρχάριους", "Με έναν προπονητή", "Τρέχοντας δέκα χιλιόμετρα", "Σε έναν σύλλογο"], 0, "Ξεκίνησα με ένα πρόγραμμα για αρχάριους"),
+  Q("Ποιο ήταν το πιο δύσκολο κομμάτι της διαδρομής;", ["Η αρχή", "Η μεγάλη ανηφόρα στη μέση της διαδρομής", "Ο τερματισμός", "Η ζέστη"], 1, "Το πιο δύσκολο κομμάτι ήταν η μεγάλη ανηφόρα στη μέση της διαδρομής"),
+  Q("Τι της έδωσε μια γιαγιά;", ["Νερό", "Ένα λουλούδι", "Ένα κλαδί ελιάς", "Μια σοκολάτα"], 2, "Μια γιαγιά μού έδωσε ένα κλαδί ελιάς"),
+ ],
+ "gloss": {"Αυθεντικό Μαραθώνιο": "Αυθεντικός Μαραθώνιος — the Athens Authentic Marathon", "αρχάριους": "αρχάριος — beginner", "τρέξιμο": "τρέξιμο — running", "Καλλιμάρμαρο": "Καλλιμάρμαρο — the Panathenaic Stadium", "ανηφόρα": "ανηφόρα — uphill stretch", "ατελείωτη": "ατελείωτος — endless", "κλαδί ελιάς": "κλαδί ελιάς — olive branch", "Τερμάτισα": "τερματίζω — to finish (a race)"}
+})
+
+ITEMS.append({
+ "id": "l151-rep-scholika-geumata", "title": "Ζεστό φαγητό στα σχολεία", "title_en": "Hot meals in schools", "type": "report", "level": "B2",
+ "context_el": "Ακούτε ένα ρεπορτάζ για ένα πρόγραμμα σχολικών γευμάτων.",
+ "script": [
+  L("Ρεπόρτερ", "m", "Είναι μεσημέρι σε ένα δημοτικό σχολείο της Λάρισας, και οι μαθητές μπαίνουν στην τραπεζαρία. Σήμερα το μενού έχει φασολάκια λαδερά, ψωμί ολικής άλεσης, φέτα και ένα πορτοκάλι. Το γεύμα είναι δωρεάν για όλους.", "It's midday at a primary school in Larissa, and the pupils are going into the dining room. Today's menu has green beans in olive oil, wholemeal bread, feta and an orange. The meal is free for everyone."),
+  L("Ρεπόρτερ", "m", "Το φαγητό ετοιμάζεται κάθε πρωί σε μια κεντρική κουζίνα και φτάνει στα σχολεία σε ειδικά θερμομονωτικά δοχεία. Το μενού το έχει σχεδιάσει διατροφολόγος, και αλλάζει κάθε εβδομάδα, με όσπρια, λαχανικά, ψάρι και λίγο κρέας.", "The food is prepared every morning in a central kitchen and reaches the schools in special insulated containers. The menu has been designed by a nutritionist, and changes every week, with pulses, vegetables, fish and a little meat."),
+  L("Ρεπόρτερ", "m", "Η διευθύντρια λέει ότι στην αρχή πολλά παιδιά άφηναν τα λαχανικά στο πιάτο. «Τώρα τα τρώνε, γιατί τα τρώνε και οι φίλοι τους», εξηγεί. Οι δάσκαλοι παρατηρούν επίσης ότι τα παιδιά συγκεντρώνονται καλύτερα στα απογευματινά μαθήματα.", "The head teacher says that at first many children left the vegetables on the plate. 'Now they eat them, because their friends eat them too,' she explains. Teachers also notice that the children concentrate better in the afternoon lessons."),
+ ],
+ "questions": [
+  Q("Πού ετοιμάζεται το φαγητό;", ["Στην κουζίνα του σχολείου", "Σε μια κεντρική κουζίνα", "Στα σπίτια των γονιών", "Σε ένα εστιατόριο"], 1, "Το φαγητό ετοιμάζεται κάθε πρωί σε μια κεντρική κουζίνα"),
+  Q("Ποιος έχει σχεδιάσει το μενού;", ["Οι μαθητές", "Η διευθύντρια", "Ένας διατροφολόγος", "Οι μάγειρες"], 2, "Το μενού το έχει σχεδιάσει διατροφολόγος"),
+  Q("Γιατί, κατά τη διευθύντρια, τα παιδιά τρώνε τώρα τα λαχανικά;", ["Γιατί τα τρώνε και οι φίλοι τους", "Γιατί τους το λένε οι δάσκαλοι", "Γιατί δεν υπάρχει άλλο φαγητό", "Γιατί τα μαγειρεύουν διαφορετικά"], 0, "Τώρα τα τρώνε, γιατί τα τρώνε και οι φίλοι τους"),
+ ],
+ "gloss": {"τραπεζαρία": "τραπεζαρία — dining room", "φασολάκια": "φασολάκια — green beans", "λαδερά": "λαδερός — cooked in olive oil", "ολικής άλεσης": "ολικής άλεσης — wholemeal", "θερμομονωτικά": "θερμομονωτικός — insulated", "δοχεία": "δοχείο — container", "διατροφολόγος": "διατροφολόγος — nutritionist", "όσπρια": "όσπρια — pulses", "συγκεντρώνονται": "συγκεντρώνομαι — to concentrate"}
+})
+
+ITEMS.append({
+ "id": "l151-dia-enoikiasi-podilatou", "title": "Ποδήλατο για μια μέρα", "title_en": "A bike for a day", "type": "dialogue", "level": "B2",
+ "context_el": "Ακούτε μια συζήτηση σε ένα κατάστημα ενοικίασης ποδηλάτων σε ένα νησί.",
+ "script": [
+  L("Πελάτης", "m", "Καλημέρα. Θα θέλαμε δύο ποδήλατα για όλη τη μέρα. Σκεφτόμαστε να πάμε μέχρι τον φάρο στο νότιο άκρο του νησιού.", "Good morning. We'd like two bikes for the whole day. We're thinking of going as far as the lighthouse at the southern tip of the island."),
+  L("Υπάλληλος", "f", "Ο δρόμος για τον φάρο έχει πολλές ανηφόρες. Σας προτείνω ηλεκτρικά ποδήλατα. Κοστίζουν είκοσι πέντε ευρώ τη μέρα, ενώ τα απλά δεκαπέντε.", "The road to the lighthouse has lots of climbs. I suggest electric bikes. They cost twenty-five euros a day, while the ordinary ones are fifteen."),
+  L("Πελάτης", "m", "Και η μπαταρία φτάνει για όλη τη διαδρομή;", "And is the battery enough for the whole route?"),
+  L("Υπάλληλος", "f", "Για πήγαινε-έλα, ναι, με άνεση. Αν όμως αποφασίσετε να πάτε και στις παραλίες της ανατολικής ακτής, μπορείτε να τη φορτίσετε στην ταβέρνα δίπλα στον φάρο. Ο ιδιοκτήτης είναι ξάδερφός μου!", "For there and back, yes, comfortably. But if you decide to go to the beaches on the east coast too, you can charge it at the taverna next to the lighthouse. The owner is my cousin!"),
+  L("Πελάτης", "m", "Θα χρειαστούμε κράνη;", "Will we need helmets?"),
+  L("Υπάλληλος", "f", "Τα κράνη και η κλειδαριά περιλαμβάνονται στην τιμή. Θα σας ζητήσω μόνο την ταυτότητά σας, και θα σας την επιστρέψω όταν φέρετε πίσω τα ποδήλατα, μέχρι τις οχτώ.", "Helmets and the lock are included in the price. I'll just ask for your ID card, and I'll give it back when you bring the bikes back, by eight."),
+ ],
+ "questions": [
+  Q("Γιατί η υπάλληλος προτείνει ηλεκτρικά ποδήλατα;", ["Γιατί είναι φθηνότερα", "Γιατί ο δρόμος για τον φάρο έχει πολλές ανηφόρες", "Γιατί τα απλά είναι χαλασμένα", "Γιατί είναι πιο ασφαλή"], 1, "Ο δρόμος για τον φάρο έχει πολλές ανηφόρες"),
+  Q("Πού μπορούν να φορτίσουν την μπαταρία;", ["Στο λιμάνι", "Στο ξενοδοχείο τους", "Στην ταβέρνα δίπλα στον φάρο", "Πουθενά"], 2, "μπορείτε να τη φορτίσετε στην ταβέρνα δίπλα στον φάρο"),
+  Q("Τι θα κρατήσει η υπάλληλος μέχρι να επιστρέψουν τα ποδήλατα;", ["Την ταυτότητα του πελάτη", "Μια προκαταβολή", "Το διαβατήριο", "Την πιστωτική κάρτα"], 0, "Θα σας ζητήσω μόνο την ταυτότητά σας"),
+ ],
+ "gloss": {"ενοικίασης": "ενοικίαση — hire, rental", "φάρο": "φάρος — lighthouse", "άκρο": "άκρο — tip, end", "ανηφόρες": "ανηφόρα — climb, uphill", "πήγαινε-έλα": "πήγαινε-έλα — there and back", "φορτίσετε": "φορτίζω — to charge", "κράνη": "κράνος — helmet", "κλειδαριά": "κλειδαριά — lock", "περιλαμβάνονται": "περιλαμβάνομαι — to be included"}
+})
+
+ITEMS.append({
+ "id": "l151-c1-adyname-desmoi", "title": "Η δύναμη των χαλαρών δεσμών", "title_en": "The strength of weak ties", "type": "interview", "level": "C1",
+ "context_el": "Ακούτε απόσπασμα από μια εκπομπή για την κοινωνιολογία, με καλεσμένη μια ερευνήτρια.",
+ "script": [
+  L("Δημοσιογράφος", "m", "Όταν ψάχνουμε δουλειά, ποιος μας βοηθά περισσότερο: οι στενοί μας φίλοι ή οι απλοί γνωστοί;", "When we're looking for a job, who helps us most: our close friends or mere acquaintances?"),
+  L("Ερευνήτρια", "f", "Οι περισσότεροι θα έλεγαν οι φίλοι. Ο Αμερικανός κοινωνιολόγος Μαρκ Γκρανοβέτερ όμως, σε ένα πολύ γνωστό άρθρο του 1973, έδειξε ότι πολλοί από όσους είχε ερωτήσει είχαν βρει τη δουλειά τους μέσω ανθρώπων που έβλεπαν σπάνια: παλιών συμφοιτητών, πρώην συναδέλφων, γνωστούς φίλων.", "Most people would say friends. But the American sociologist Mark Granovetter, in a very well-known 1973 article, showed that many of the people he had asked had found their job through people they rarely saw: old fellow students, former colleagues, acquaintances of friends."),
+  L("Δημοσιογράφος", "m", "Γιατί συμβαίνει αυτό;", "Why does that happen?"),
+  L("Ερευνήτρια", "f", "Γιατί οι στενοί μας φίλοι κινούνται συνήθως στους ίδιους κύκλους με εμάς. Ξέρουν περίπου ό,τι ξέρουμε κι εμείς. Οι χαλαροί δεσμοί, αντίθετα, λειτουργούν σαν γέφυρες προς άλλους κόσμους, και φέρνουν πληροφορίες που αλλιώς δεν θα φτάνανε ποτέ σε εμάς.", "Because our close friends usually move in the same circles as we do. They know roughly what we know. Weak ties, by contrast, act as bridges to other worlds, and bring information that otherwise would never reach us."),
+  L("Δημοσιογράφος", "m", "Ισχύει ακόμα, στην εποχή των κοινωνικών δικτύων;", "Does it still hold, in the age of social networks?"),
+  L("Ερευνήτρια", "f", "Μια μεγάλη μελέτη που δημοσιεύτηκε πριν από λίγα χρόνια, με δεδομένα από εκατομμύρια χρήστες μιας επαγγελματικής πλατφόρμας, βρήκε κάτι πιο λεπτό: τη μεγαλύτερη βοήθεια δεν την έδιναν οι πολύ χαλαροί δεσμοί, αλλά οι μέτριοι, άνθρωποι που γνωρίζουμε λίγο, αλλά όχι εντελώς επιφανειακά. Η βασική ιδέα πάντως επιβεβαιώθηκε.", "A large study published a few years ago, with data from millions of users of a professional platform, found something subtler: the greatest help came not from the very weak ties, but from moderate ones, people we know a little, but not entirely superficially. The basic idea, however, was confirmed."),
+ ],
+ "questions": [
+  Q("Τι έδειξε το άρθρο του Γκρανοβέτερ;", ["Ότι οι στενοί φίλοι βοηθούν περισσότερο", "Ότι πολλοί βρήκαν δουλειά μέσω ανθρώπων που έβλεπαν σπάνια", "Ότι οι αγγελίες είναι ο καλύτερος τρόπος", "Ότι η οικογένεια βοηθά περισσότερο"], 1, "είχαν βρει τη δουλειά τους μέσω ανθρώπων που έβλεπαν σπάνια"),
+  Q("Γιατί οι στενοί φίλοι βοηθούν λιγότερο σε αυτό;", ["Γιατί δεν θέλουν να βοηθήσουν", "Γιατί είναι πολύ απασχολημένοι", "Γιατί κινούνται στους ίδιους κύκλους και ξέρουν περίπου ό,τι ξέρουμε", "Γιατί ζηλεύουν"], 2, "κινούνται συνήθως στους ίδιους κύκλους με εμάς"),
+  Q("Με τι συγκρίνει η ερευνήτρια τους χαλαρούς δεσμούς;", ["Με γέφυρες προς άλλους κόσμους", "Με δρόμους χωρίς έξοδο", "Με δίχτυα", "Με τοίχους"], 0, "λειτουργούν σαν γέφυρες προς άλλους κόσμους"),
+  Q("Τι βρήκε η πρόσφατη μεγάλη μελέτη;", ["Ότι η θεωρία είναι λανθασμένη", "Ότι οι πολύ χαλαροί δεσμοί βοηθούν περισσότερο", "Ότι τα κοινωνικά δίκτυα δεν βοηθούν καθόλου", "Ότι περισσότερο βοηθούσαν οι μέτριοι δεσμοί"], 3, "τη μεγαλύτερη βοήθεια δεν την έδιναν οι πολύ χαλαροί δεσμοί, αλλά οι μέτριοι"),
+ ],
+ "gloss": {"δεσμοί": "δεσμός — tie, bond", "γνωστοί": "γνωστός — acquaintance", "κοινωνιολόγος": "κοινωνιολόγος — sociologist", "συμφοιτητών": "συμφοιτητής — fellow student", "κύκλους": "κύκλος — circle", "χαλαροί": "χαλαρός — loose, weak", "πλατφόρμας": "πλατφόρμα — platform", "λεπτό": "λεπτός — subtle", "επιφανειακά": "επιφανειακά — superficially", "επιβεβαιώθηκε": "επιβεβαιώνομαι — to be confirmed"}
+})
+
+ITEMS.append({
+ "id": "l151-c1-restorff", "title": "Το φαινόμενο της απομόνωσης", "title_en": "The isolation effect", "type": "monologue", "level": "C1",
+ "context_el": "Ακούτε απόσπασμα από ένα σεμινάριο για τεχνικές μελέτης.",
+ "script": [
+  L("Ομιλητής", "m", "Αν σας δώσω μια λίστα με δέκα λέξεις, εννιά γραμμένες με μαύρα γράμματα και μία με κόκκινα, ποια θα θυμάστε αύριο; Σχεδόν σίγουρα την κόκκινη. Το φαινόμενο περιγράφηκε συστηματικά το 1933 από τη Γερμανίδα ψυχολόγο Χέντβιγκ φον Ρέστορφ, και γι' αυτό φέρει το όνομά της.", "If I give you a list of ten words, nine written in black letters and one in red, which will you remember tomorrow? Almost certainly the red one. The phenomenon was described systematically in 1933 by the German psychologist Hedwig von Restorff, and that's why it bears her name."),
+  L("Ομιλητής", "m", "Η εξήγηση είναι ότι ο εγκέφαλος δίνει προτεραιότητα σε ό,τι ξεχωρίζει από το περιβάλλον του. Ό,τι είναι διαφορετικό τραβάει την προσοχή, και ό,τι τραβάει την προσοχή καταγράφεται πιο βαθιά στη μνήμη.", "The explanation is that the brain gives priority to whatever stands out from its surroundings. Whatever is different catches our attention, and whatever catches our attention is recorded more deeply in memory."),
+  L("Ομιλητής", "m", "Για όσους μαθαίνουν μια ξένη γλώσσα, αυτό έχει πρακτική αξία. Μια λέξη που τη συνδέετε με μια αστεία εικόνα, ένα παράξενο παράδειγμα ή ένα έντονο χρώμα θα τη θυμάστε ευκολότερα.", "For those learning a foreign language, this has practical value. A word that you link with a funny image, a strange example or a bright colour you'll remember more easily."),
+  L("Ομιλητής", "m", "Υπάρχει όμως μια παγίδα. Αν υπογραμμίσετε με μαρκαδόρο ολόκληρη τη σελίδα, τίποτα δεν ξεχωρίζει πια. Η διαφορά λειτουργεί μόνο όταν είναι εξαίρεση. Υπογραμμίστε λίγα, και διαλέξτε τα με προσοχή.", "But there's a trap. If you highlight the whole page with a marker, nothing stands out any more. Difference only works when it's the exception. Highlight little, and choose it carefully."),
+ ],
+ "questions": [
+  Q("Ποια λέξη θα θυμάστε πιθανότατα από τη λίστα;", ["Την πρώτη", "Την τελευταία", "Την κόκκινη", "Τη μεγαλύτερη"], 2, "Σχεδόν σίγουρα την κόκκινη"),
+  Q("Πώς εξηγείται το φαινόμενο;", ["Ο εγκέφαλος δίνει προτεραιότητα σε ό,τι ξεχωρίζει", "Το κόκκινο χρώμα κουράζει τα μάτια", "Θυμόμαστε καλύτερα τις μικρές λέξεις", "Η μνήμη λειτουργεί καλύτερα το πρωί"], 0, "ο εγκέφαλος δίνει προτεραιότητα σε ό,τι ξεχωρίζει από το περιβάλλον του"),
+  Q("Πώς μπορεί να βοηθήσει το φαινόμενο όσους μαθαίνουν γλώσσα;", ["Διαβάζοντας μεγαλόφωνα", "Συνδέοντας μια λέξη με μια αστεία εικόνα ή ένα παράξενο παράδειγμα", "Γράφοντας τις λέξεις πολλές φορές", "Μαθαίνοντας λίστες με τη σειρά"], 1, "Μια λέξη που τη συνδέετε με μια αστεία εικόνα, ένα παράξενο παράδειγμα"),
+  Q("Ποια είναι η παγίδα που αναφέρει ο ομιλητής;", ["Τα χρώματα μπερδεύουν", "Οι μαρκαδόροι στεγνώνουν", "Οι αστείες εικόνες αποσπούν την προσοχή", "Αν υπογραμμίσετε τα πάντα, τίποτα δεν ξεχωρίζει"], 3, "Αν υπογραμμίσετε με μαρκαδόρο ολόκληρη τη σελίδα, τίποτα δεν ξεχωρίζει πια"),
+ ],
+ "gloss": {"τεχνικές": "τεχνική — technique", "συστηματικά": "συστηματικά — systematically", "φέρει": "φέρω — to bear", "προτεραιότητα": "προτεραιότητα — priority", "ξεχωρίζει": "ξεχωρίζω — to stand out", "καταγράφεται": "καταγράφομαι — to be recorded", "παγίδα": "παγίδα — trap", "υπογραμμίσετε": "υπογραμμίζω — to underline, highlight", "μαρκαδόρο": "μαρκαδόρος — marker pen", "εξαίρεση": "εξαίρεση — exception"}
+})
+
+rnd = random.Random(151)  # spread the right answers over the four positions (the page shows options in file order)
+for it in ITEMS:
+    for q in it["questions"]: rnd.shuffle(q["options"])
+for it in ITEMS:
+    for q in it["questions"]: assert q["answer"] in q["options"], (it["id"], q["q"])
+    for k in it["gloss"]:
+        if not (any(k in s["el"] for s in it["script"]) or k in it["context_el"]): raise SystemExit(f"gloss key not in text: {it['id']} {k}")
+root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+with open(os.path.join(root, "library", "listening", "listening-151.json"), "w", encoding="utf-8") as fh:
+    json.dump({"items": ITEMS}, fh, ensure_ascii=False, indent=1); fh.write("\n")
+print(len(ITEMS), "items,", sum(len(i["questions"]) for i in ITEMS), "questions")
