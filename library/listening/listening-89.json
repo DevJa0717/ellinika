@@ -1,0 +1,848 @@
+{
+ "items": [
+  {
+   "id": "l89-ann-tsanta",
+   "title": "Ασυνόδευτη τσάντα στον σταθμό",
+   "title_en": "An unattended bag at the station",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Περιμένετε το μετρό σε έναν κεντρικό σταθμό και ακούτε μια ανακοίνωση από τα μεγάφωνα.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Προσοχή, παρακαλώ. Λόγω μιας ασυνόδευτης αποσκευής στην αποβάθρα προς Πειραιά, η αποβάθρα αυτή εκκενώνεται προληπτικά. Παρακαλούμε τους επιβάτες να απομακρυνθούν με ηρεμία προς τις εξόδους, ακολουθώντας τις οδηγίες του προσωπικού.",
+     "en": "Attention, please. Because of an unattended item of luggage on the platform towards Piraeus, that platform is being evacuated as a precaution. Passengers are asked to move calmly towards the exits, following the staff's instructions."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Μέχρι νεωτέρας, οι συρμοί προς Πειραιά θα διέρχονται από τον σταθμό χωρίς στάση. Οι συρμοί προς την αντίθετη κατεύθυνση κινούνται κανονικά. Όσοι ταξιδεύετε προς Πειραιά, μπορείτε να χρησιμοποιήσετε τα λεωφορεία της γραμμής 040 από τη στάση έξω από την κεντρική είσοδο.",
+     "en": "Until further notice, trains towards Piraeus will pass through the station without stopping. Trains in the opposite direction are running normally. Those of you travelling towards Piraeus can use the buses on route 040 from the stop outside the main entrance."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Υπενθυμίζουμε σε όλους να μην αφήνουν ποτέ τις αποσκευές τους χωρίς επίβλεψη, και να ενημερώνουν αμέσως το προσωπικό αν δουν κάποιο αντικείμενο που μοιάζει εγκαταλελειμμένο. Μην το αγγίζετε. Ευχαριστούμε για τη συνεργασία σας.",
+     "en": "We remind everyone never to leave their luggage unattended, and to tell staff immediately if they see any object that looks abandoned. Don't touch it. Thank you for your cooperation."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί εκκενώνεται η αποβάθρα;",
+     "options": [
+      "Λόγω απεργίας",
+      "Λόγω μιας ασυνόδευτης αποσκευής",
+      "Λόγω βλάβης ενός συρμού",
+      "Λόγω πυρκαγιάς"
+     ],
+     "answer": "Λόγω μιας ασυνόδευτης αποσκευής",
+     "why": "Λόγω μιας ασυνόδευτης αποσκευής στην αποβάθρα προς Πειραιά"
+    },
+    {
+     "q": "Τι θα κάνουν οι συρμοί προς Πειραιά;",
+     "options": [
+      "Θα αλλάξουν αποβάθρα",
+      "Θα σταματήσουν να κινούνται",
+      "Θα έχουν καθυστέρηση μίας ώρας",
+      "Θα περνούν από τον σταθμό χωρίς στάση"
+     ],
+     "answer": "Θα περνούν από τον σταθμό χωρίς στάση",
+     "why": "θα διέρχονται από τον σταθμό χωρίς στάση"
+    },
+    {
+     "q": "Τι πρέπει να κάνει κανείς αν δει εγκαταλελειμμένο αντικείμενο;",
+     "options": [
+      "Να το πάει στο γραφείο απολεσθέντων",
+      "Να ενημερώσει το προσωπικό χωρίς να το αγγίξει",
+      "Να τηλεφωνήσει στην αστυνομία από το κινητό του",
+      "Να ψάξει τον ιδιοκτήτη"
+     ],
+     "answer": "Να ενημερώσει το προσωπικό χωρίς να το αγγίξει",
+     "why": "να ενημερώνουν αμέσως το προσωπικό αν δουν κάποιο αντικείμενο που μοιάζει εγκαταλελειμμένο. Μην το αγγίζετε"
+    }
+   ],
+   "gloss": {
+    "μεγάφωνα": "μεγάφωνο — loudspeaker",
+    "ασυνόδευτης": "ασυνόδευτος — unattended, unaccompanied",
+    "αποσκευής": "αποσκευή — (item of) luggage",
+    "αποβάθρα": "αποβάθρα — platform",
+    "εκκενώνεται": "εκκενώνομαι — to be evacuated",
+    "προληπτικά": "προληπτικά — as a precaution",
+    "Μέχρι νεωτέρας": "μέχρι νεωτέρας — until further notice",
+    "συρμοί": "συρμός — train (set)",
+    "διέρχονται": "διέρχομαι — to pass through",
+    "επίβλεψη": "επίβλεψη — supervision",
+    "εγκαταλελειμμένο": "εγκαταλελειμμένος — abandoned"
+   }
+  },
+  {
+   "id": "l89-vm-gata",
+   "title": "Βρήκαμε τη γάτα σας!",
+   "title_en": "We've found your cat!",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Η γάτα σας χάθηκε πριν από τρεις μέρες και κολλήσατε αφίσες στη γειτονιά. Ακούτε ένα μήνυμα στο κινητό σας.",
+   "script": [
+    {
+     "speaker": "Κυρία",
+     "voice": "f",
+     "el": "Καλησπέρα σας. Πήρα τον αριθμό σας από την αφίσα για τη γάτα, αυτήν με τη λευκή κηλίδα στη μύτη. Νομίζω ότι τη βρήκα! Από χθες το βράδυ νιαουρίζει μια γάτα στο υπόγειο της πολυκατοικίας μου, στην οδό Ηπείρου δεκαοχτώ, δύο τετράγωνα από το σπίτι σας.",
+     "en": "Good evening. I got your number from the poster about the cat, the one with the white patch on its nose. I think I've found her! Since last night a cat has been meowing in the basement of my block of flats, at 18 Ipirou Street, two blocks from your house."
+    },
+    {
+     "speaker": "Κυρία",
+     "voice": "f",
+     "el": "Φαίνεται ότι μπήκε από ένα ανοιχτό παράθυρο και δεν μπορεί να βγει. Προσπάθησα να την πλησιάσω, αλλά είναι πολύ φοβισμένη και κρύβεται πίσω από τα ντουλάπια με τα εργαλεία. Της άφησα λίγο νερό και λίγο τυρί, γιατί δεν είχα κάτι άλλο.",
+     "en": "It seems she got in through an open window and can't get out. I tried to approach her, but she's very frightened and is hiding behind the tool cupboards. I left her a little water and some cheese, because I didn't have anything else."
+    },
+    {
+     "speaker": "Κυρία",
+     "voice": "f",
+     "el": "Νομίζω ότι θα έρθει πιο εύκολα σε εσάς, αν ακούσει τη φωνή σας. Φέρτε και το κλουβί μεταφοράς της. Εγώ είμαι στο σπίτι όλο το απόγευμα· χτυπήστε το κουδούνι στο όνομα Ρήγα, στον πρώτο όροφο, και θα σας ανοίξω το υπόγειο.",
+     "en": "I think she'll come to you more easily if she hears your voice. Bring her carrier too. I'm at home all afternoon; ring the bell marked Riga, on the first floor, and I'll open the basement for you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ξέρει η κυρία τον αριθμό τηλεφώνου;",
+     "options": [
+      "Από έναν γείτονα",
+      "Από τον κτηνίατρο",
+      "Από το κολάρο της γάτας",
+      "Από την αφίσα για τη γάτα"
+     ],
+     "answer": "Από την αφίσα για τη γάτα",
+     "why": "Πήρα τον αριθμό σας από την αφίσα για τη γάτα"
+    },
+    {
+     "q": "Πού βρίσκεται η γάτα;",
+     "options": [
+      "Σε ένα δέντρο",
+      "Σε ένα παρκαρισμένο αυτοκίνητο",
+      "Στο υπόγειο της πολυκατοικίας της κυρίας",
+      "Στην ταράτσα"
+     ],
+     "answer": "Στο υπόγειο της πολυκατοικίας της κυρίας",
+     "why": "νιαουρίζει μια γάτα στο υπόγειο της πολυκατοικίας μου"
+    },
+    {
+     "q": "Τι ζητά η κυρία να φέρει ο ιδιοκτήτης;",
+     "options": [
+      "Το κλουβί μεταφοράς",
+      "Τροφή για γάτες",
+      "Μια κουβέρτα",
+      "Ένα παιχνίδι της γάτας"
+     ],
+     "answer": "Το κλουβί μεταφοράς",
+     "why": "Φέρτε και το κλουβί μεταφοράς της"
+    }
+   ],
+   "gloss": {
+    "αφίσες": "αφίσα — poster",
+    "κηλίδα": "κηλίδα — patch, spot",
+    "νιαουρίζει": "νιαουρίζω — to meow",
+    "υπόγειο": "υπόγειο — basement",
+    "τετράγωνα": "τετράγωνο — (city) block",
+    "πλησιάσω": "πλησιάζω — to approach",
+    "φοβισμένη": "φοβισμένος — frightened",
+    "εργαλεία": "εργαλείο — tool",
+    "κλουβί μεταφοράς": "κλουβί μεταφοράς — pet carrier",
+    "κουδούνι": "κουδούνι — doorbell"
+   }
+  },
+  {
+   "id": "l89-dia-dooro-anipsiou",
+   "title": "Δώρο για τον ανιψιό",
+   "title_en": "A present for my nephew",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Μια γυναίκα μπαίνει σε ένα κατάστημα παιχνιδιών για να αγοράσει δώρο γενεθλίων.",
+   "script": [
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Καλημέρα σας. Ψάχνετε κάτι συγκεκριμένο;",
+     "en": "Good morning. Are you looking for something in particular?"
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Καλημέρα. Ο ανιψιός μου κλείνει τα οχτώ την Κυριακή και, για να είμαι ειλικρινής, δεν έχω ιδέα τι αρέσει στα παιδιά αυτής της ηλικίας. Ξέρω μόνο ότι περνάει πολλές ώρες στο τάμπλετ, και η αδερφή μου θα ήθελε κάτι που να τον τραβήξει μακριά από την οθόνη.",
+     "en": "Good morning. My nephew turns eight on Sunday and, to be honest, I have no idea what children that age like. All I know is that he spends hours on his tablet, and my sister would like something to draw him away from the screen."
+    },
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Τον καταλαβαίνω τον μικρό, και την αδερφή σας επίσης. Του αρέσει να φτιάχνει πράγματα; Έχουμε αυτό το σετ κατασκευών: φτιάχνει ένα μικρό ρομπότ με μοτέρ, που κινείται πραγματικά. Δεν χρειάζεται εφαρμογή, μόνο μπαταρίες.",
+     "en": "I understand the little one, and your sister too. Does he like building things? We have this construction kit: he builds a little robot with a motor that really moves. It doesn't need an app, just batteries."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Ωραίο φαίνεται, αλλά λέει «από δέκα ετών». Δεν θα είναι πολύ δύσκολο για εκείνον;",
+     "en": "It looks nice, but it says 'ten and up'. Won't it be too difficult for him?"
+    },
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Μπορεί, αν το κάνει μόνος του. Αν όμως κάποιος μεγάλος κάτσει μαζί του, είναι ιδανικό. Αλλιώς, για την ηλικία του, προτείνω αυτό το επιτραπέζιο: είναι ένα παιχνίδι με γρίφους, που παίζεται με όλη την οικογένεια σε μισή ώρα. Είναι από τα πιο δημοφιλή μας.",
+     "en": "Maybe, if he does it on his own. But if an adult sits with him, it's ideal. Otherwise, for his age, I'd suggest this board game: it's a puzzle game that the whole family can play in half an hour. It's one of our most popular."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Ξέρετε κάτι; Θα πάρω το ρομπότ και θα το φτιάξουμε μαζί. Έτσι θα του χαρίσω και λίγο από τον χρόνο μου. Μπορείτε να μου το τυλίξετε; Και αν δεν του αρέσει, μπορώ να το αλλάξω;",
+     "en": "You know what? I'll take the robot and we'll build it together. That way I'll give him a bit of my time too. Could you wrap it for me? And if he doesn't like it, can I exchange it?"
+    },
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Βεβαίως, μέσα σε δεκαπέντε μέρες, με την απόδειξη και χωρίς να έχει ανοιχτεί η συσκευασία.",
+     "en": "Of course, within fifteen days, with the receipt and as long as the packaging hasn't been opened."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θα ήθελε η αδερφή της πελάτισσας;",
+     "options": [
+      "Ένα βιβλίο",
+      "Ρούχα",
+      "Ένα καινούργιο τάμπλετ",
+      "Κάτι που θα τραβήξει το παιδί μακριά από την οθόνη"
+     ],
+     "answer": "Κάτι που θα τραβήξει το παιδί μακριά από την οθόνη",
+     "why": "η αδερφή μου θα ήθελε κάτι που να τον τραβήξει μακριά από την οθόνη"
+    },
+    {
+     "q": "Γιατί διστάζει αρχικά η πελάτισσα για το ρομπότ;",
+     "options": [
+      "Γιατί είναι πολύ μεγάλο",
+      "Γιατί χρειάζεται εφαρμογή",
+      "Γιατί είναι για παιδιά από δέκα ετών",
+      "Γιατί είναι ακριβό"
+     ],
+     "answer": "Γιατί είναι για παιδιά από δέκα ετών",
+     "why": "λέει «από δέκα ετών»"
+    },
+    {
+     "q": "Με ποια προϋπόθεση μπορεί να αλλάξει το δώρο;",
+     "options": [
+      "Μόνο την ίδια εβδομάδα",
+      "Μέσα σε δεκαπέντε μέρες, με την απόδειξη και κλειστή συσκευασία",
+      "Δεν μπορεί να το αλλάξει",
+      "Οποτεδήποτε, χωρίς απόδειξη"
+     ],
+     "answer": "Μέσα σε δεκαπέντε μέρες, με την απόδειξη και κλειστή συσκευασία",
+     "why": "μέσα σε δεκαπέντε μέρες, με την απόδειξη και χωρίς να έχει ανοιχτεί η συσκευασία"
+    }
+   ],
+   "gloss": {
+    "ανιψιός": "ανιψιός — nephew",
+    "κλείνει τα οχτώ": "κλείνω τα οχτώ — to turn eight",
+    "ειλικρινής": "ειλικρινής — honest",
+    "τραβήξει": "τραβάω — to pull, draw",
+    "σετ κατασκευών": "σετ κατασκευών — construction kit",
+    "μοτέρ": "μοτέρ — motor",
+    "επιτραπέζιο": "επιτραπέζιο (παιχνίδι) — board game",
+    "γρίφους": "γρίφος — puzzle, riddle",
+    "χαρίσω": "χαρίζω — to give (as a gift)",
+    "τυλίξετε": "τυλίγω — to wrap",
+    "συσκευασία": "συσκευασία — packaging"
+   }
+  },
+  {
+   "id": "l89-int-ippotherapeia",
+   "title": "Θεραπεία με άλογα",
+   "title_en": "Therapy with horses",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Σε μια ραδιοφωνική εκπομπή για την υγεία, ένας δημοσιογράφος μιλά με μια φυσικοθεραπεύτρια που κάνει ιπποθεραπεία.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι ακριβώς είναι η ιπποθεραπεία;",
+     "en": "What exactly is hippotherapy?"
+    },
+    {
+     "speaker": "Φυσικοθεραπεύτρια",
+     "voice": "f",
+     "el": "Είναι μια μορφή φυσικοθεραπείας όπου το άλογο είναι, ας πούμε, το εργαλείο μας. Όταν το άλογο περπατά, η λεκάνη του αναβάτη κινείται με τρόπο πολύ παρόμοιο με το ανθρώπινο βάδισμα. Έτσι, ένα παιδί που δεν μπορεί να περπατήσει, για παράδειγμα λόγω εγκεφαλικής παράλυσης, νιώθει στο σώμα του την κίνηση του περπατήματος.",
+     "en": "It's a form of physiotherapy in which the horse is, let's say, our tool. When the horse walks, the rider's pelvis moves in a way very similar to human walking. So a child who can't walk, for example because of cerebral palsy, feels the movement of walking in their body."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και τι κερδίζει ένα τέτοιο παιδί;",
+     "en": "And what does such a child gain?"
+    },
+    {
+     "speaker": "Φυσικοθεραπεύτρια",
+     "voice": "f",
+     "el": "Κυρίως ισορροπία και καλύτερη στάση του σώματος. Οι μύες του κορμού δουλεύουν συνεχώς για να μείνει το παιδί όρθιο πάνω στη σέλα. Υπάρχει όμως και κάτι που δεν μετριέται εύκολα: η αυτοπεποίθηση. Ένα παιδί που περνά τη μέρα του σε αναπηρικό αμαξίδιο, ξαφνικά κοιτάζει τους μεγάλους από ψηλά. Βλέπω πρόσωπα να αλλάζουν.",
+     "en": "Mainly balance and better posture. The trunk muscles work constantly to keep the child upright in the saddle. But there's also something that isn't easily measured: self-confidence. A child who spends the day in a wheelchair suddenly looks down at the grown-ups. I see faces change."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Μπορεί οποιοδήποτε άλογο να κάνει αυτή τη δουλειά;",
+     "en": "Can any horse do this job?"
+    },
+    {
+     "speaker": "Φυσικοθεραπεύτρια",
+     "voice": "f",
+     "el": "Όχι, καθόλου. Χρειάζεται άλογο πολύ ήρεμο, με σταθερό και ρυθμικό βήμα, που δεν τρομάζει από φωνές ή απότομες κινήσεις. Η εκπαίδευσή του διαρκεί μήνες. Και σε κάθε συνεδρία είμαστε τρεις: εγώ, κάποιος που οδηγεί το άλογο και κάποιος που περπατά δίπλα στο παιδί για ασφάλεια.",
+     "en": "No, not at all. You need a very calm horse, with a steady, rhythmic stride, that isn't startled by shouting or sudden movements. Its training takes months. And at every session there are three of us: me, someone leading the horse and someone walking beside the child for safety."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί βοηθά το περπάτημα του αλόγου;",
+     "options": [
+      "Γιατί το παιδί μαθαίνει να ιππεύει",
+      "Γιατί η λεκάνη του αναβάτη κινείται σαν στο ανθρώπινο βάδισμα",
+      "Γιατί χαλαρώνει το παιδί",
+      "Γιατί είναι γρήγορο"
+     ],
+     "answer": "Γιατί η λεκάνη του αναβάτη κινείται σαν στο ανθρώπινο βάδισμα",
+     "why": "η λεκάνη του αναβάτη κινείται με τρόπο πολύ παρόμοιο με το ανθρώπινο βάδισμα"
+    },
+    {
+     "q": "Ποιο όφελος, κατά τη θεραπεύτρια, δεν μετριέται εύκολα;",
+     "options": [
+      "Η ισορροπία",
+      "Η δύναμη των ποδιών",
+      "Η στάση του σώματος",
+      "Η αυτοπεποίθηση"
+     ],
+     "answer": "Η αυτοπεποίθηση",
+     "why": "Υπάρχει όμως και κάτι που δεν μετριέται εύκολα: η αυτοπεποίθηση"
+    },
+    {
+     "q": "Πόσοι άνθρωποι συμμετέχουν σε κάθε συνεδρία, εκτός από το παιδί;",
+     "options": [
+      "Τέσσερις",
+      "Τρεις",
+      "Ένας",
+      "Δύο"
+     ],
+     "answer": "Τρεις",
+     "why": "σε κάθε συνεδρία είμαστε τρεις"
+    }
+   ],
+   "gloss": {
+    "ιπποθεραπεία": "ιπποθεραπεία — hippotherapy, therapy with horses",
+    "φυσικοθεραπεύτρια": "φυσικοθεραπεύτρια — physiotherapist",
+    "λεκάνη": "λεκάνη — pelvis",
+    "αναβάτη": "αναβάτης — rider",
+    "βάδισμα": "βάδισμα — walking, gait",
+    "εγκεφαλικής παράλυσης": "εγκεφαλική παράλυση — cerebral palsy",
+    "ισορροπία": "ισορροπία — balance",
+    "κορμού": "κορμός — trunk, torso",
+    "αυτοπεποίθηση": "αυτοπεποίθηση — self-confidence",
+    "αναπηρικό αμαξίδιο": "αναπηρικό αμαξίδιο — wheelchair",
+    "τρομάζει": "τρομάζω — to be startled, frightened",
+    "συνεδρία": "συνεδρία — session"
+   }
+  },
+  {
+   "id": "l89-rep-karditsa",
+   "title": "Η Καρδίτσα, η πόλη των ποδηλάτων",
+   "title_en": "Karditsa, the city of bicycles",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ στο ραδιόφωνο για μια πόλη της Θεσσαλίας.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Στην Καρδίτσα, στην καρδιά του θεσσαλικού κάμπου, το πρωί δεν σε ξυπνούν μόνο τα αυτοκίνητα αλλά και τα κουδουνάκια των ποδηλάτων. Η πόλη είναι εντελώς επίπεδη, και εδώ και δεκαετίες το ποδήλατο είναι για τους κατοίκους κάτι αυτονόητο: το χρησιμοποιούν μαθητές, συνταξιούχοι, υπάλληλοι με κουστούμι, ακόμα και ο παπάς της γειτονιάς.",
+     "en": "In Karditsa, in the heart of the Thessalian plain, in the morning you're woken not only by cars but also by bicycle bells. The town is completely flat, and for decades the bicycle has been something natural for its residents: it's used by schoolchildren, pensioners, office workers in suits, even the neighbourhood priest."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η πόλη έχει ποδηλατόδρομους και, στις αυλές των σχολείων, μεγάλες σειρές από ποδήλατα δεμένα το ένα δίπλα στο άλλο. Όπως μας είπε ένας ηλικιωμένος κάτοικος, «εδώ κανείς δεν σε κοιτάζει παράξενα αν πας στη δουλειά με το ποδήλατο· παράξενα θα σε κοιτάξουν αν πάρεις το αυτοκίνητο για πεντακόσια μέτρα».",
+     "en": "The town has cycle lanes and, in the school yards, long rows of bikes locked next to each other. As an elderly resident told us, 'here nobody looks at you strangely if you go to work by bike; they'll look at you strangely if you take the car for five hundred metres.'"
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Για βόλτα, οι κάτοικοι προτιμούν το Παυσίλυπο, ένα μεγάλο πάρκο με πεύκα πάνω σε έναν λόφο στην άκρη της πόλης. Και όσοι θέλουν να ξεφύγουν, μπορούν σε λιγότερο από μία ώρα να βρεθούν στη λίμνη Πλαστήρα, στα βουνά των Αγράφων. Όσο για τη διατροφή, ζητήστε στα τσιπουράδικα μεζέδες της περιοχής: η Καρδίτσα είναι κατεξοχήν αγροτική πόλη.",
+     "en": "For a stroll, residents prefer Pafsilypo, a large park with pine trees on a hill at the edge of town. And those who want to get away can be at Lake Plastiras, in the Agrafa mountains, in less than an hour. As for food, ask for the local mezedes in the tsipouro bars: Karditsa is a farming town above all."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί είναι εύκολο να κυκλοφορεί κανείς με ποδήλατο στην Καρδίτσα;",
+     "options": [
+      "Γιατί απαγορεύονται τα αυτοκίνητα",
+      "Γιατί έχει λίγα αυτοκίνητα",
+      "Γιατί τα ποδήλατα είναι δωρεάν",
+      "Γιατί η πόλη είναι εντελώς επίπεδη"
+     ],
+     "answer": "Γιατί η πόλη είναι εντελώς επίπεδη",
+     "why": "Η πόλη είναι εντελώς επίπεδη"
+    },
+    {
+     "q": "Τι είπε ο ηλικιωμένος κάτοικος;",
+     "options": [
+      "Ότι οι νέοι δεν κάνουν πια ποδήλατο",
+      "Ότι θα σε κοιτάξουν παράξενα αν πάρεις το αυτοκίνητο για πεντακόσια μέτρα",
+      "Ότι η πόλη χρειάζεται περισσότερους ποδηλατόδρομους",
+      "Ότι τα ποδήλατα είναι επικίνδυνα"
+     ],
+     "answer": "Ότι θα σε κοιτάξουν παράξενα αν πάρεις το αυτοκίνητο για πεντακόσια μέτρα",
+     "why": "παράξενα θα σε κοιτάξουν αν πάρεις το αυτοκίνητο για πεντακόσια μέτρα"
+    },
+    {
+     "q": "Τι είναι το Παυσίλυπο;",
+     "options": [
+      "Ένα χωριό των Αγράφων",
+      "Ένα τσιπουράδικο",
+      "Ένα πάρκο με πεύκα πάνω σε λόφο",
+      "Μια λίμνη"
+     ],
+     "answer": "Ένα πάρκο με πεύκα πάνω σε λόφο",
+     "why": "ένα μεγάλο πάρκο με πεύκα πάνω σε έναν λόφο"
+    }
+   ],
+   "gloss": {
+    "κάμπου": "κάμπος — plain",
+    "κουδουνάκια": "κουδουνάκι — little bell",
+    "επίπεδη": "επίπεδος — flat",
+    "αυτονόητο": "αυτονόητος — self-evident, natural",
+    "κουστούμι": "κουστούμι — suit",
+    "ποδηλατόδρομους": "ποδηλατόδρομος — cycle lane",
+    "δεμένα": "δεμένος — tied, locked",
+    "παράξενα": "παράξενα — strangely",
+    "ξεφύγουν": "ξεφεύγω — to get away",
+    "τσιπουράδικα": "τσιπουράδικο — tsipouro bar",
+    "κατεξοχήν": "κατεξοχήν — above all, par excellence"
+   }
+  },
+  {
+   "id": "l89-rep-methoni",
+   "title": "Η Μεθώνη και το κάστρο της",
+   "title_en": "Methoni and its castle",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ταξιδιωτικό ρεπορτάζ για τη νοτιοδυτική Πελοπόννησο.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Στη νοτιοδυτική άκρη της Πελοποννήσου, η Μεθώνη είναι ένα ήσυχο παραθαλάσσιο χωριό με ένα από τα πιο εντυπωσιακά κάστρα της Ελλάδας. Το κάστρο, χτισμένο πάνω σε μια χερσόνησο, περιβάλλεται σχεδόν παντού από θάλασσα. Τη μορφή που βλέπουμε σήμερα την οφείλει κυρίως στους Βενετούς.",
+     "en": "At the south-western tip of the Peloponnese, Methoni is a quiet seaside village with one of the most impressive castles in Greece. The castle, built on a peninsula, is surrounded by sea almost everywhere. It owes the form we see today mainly to the Venetians."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Για αιώνες, η Μεθώνη και η γειτονική Κορώνη ονομάζονταν «τα μάτια της Βενετίας», γιατί από εδώ οι Βενετοί έλεγχαν τα πλοία που ταξίδευαν προς την Ανατολή. Ήταν επίσης σταθμός για τους προσκυνητές που πήγαιναν στους Αγίους Τόπους.",
+     "en": "For centuries, Methoni and neighbouring Koroni were called 'the eyes of Venice', because from here the Venetians kept watch on the ships sailing to the East. It was also a stop for pilgrims on their way to the Holy Land."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Το πιο φωτογραφημένο σημείο είναι το Μπούρτζι, ένας οκταγωνικός πύργος πάνω σε ένα βραχάκι, στην άκρη του κάστρου, που συνδέεται με αυτό με μια πέτρινη γέφυρα. Μετά την επίσκεψη, η αμμουδιά ακριβώς κάτω από τα τείχη είναι ιδανική για ένα μπάνιο, με θέα το νησάκι Σαπιέντζα απέναντι.",
+     "en": "The most photographed spot is the Bourtzi, an octagonal tower on a little rock at the tip of the castle, linked to it by a stone bridge. After the visit, the sandy beach right below the walls is ideal for a swim, with a view of the islet of Sapientza opposite."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού είναι χτισμένο το κάστρο της Μεθώνης;",
+     "options": [
+      "Στην κορυφή ενός βουνού",
+      "Μέσα στο χωριό",
+      "Σε ένα νησάκι απέναντι",
+      "Πάνω σε μια χερσόνησο"
+     ],
+     "answer": "Πάνω σε μια χερσόνησο",
+     "why": "Το κάστρο, χτισμένο πάνω σε μια χερσόνησο"
+    },
+    {
+     "q": "Γιατί η Μεθώνη και η Κορώνη ονομάζονταν «τα μάτια της Βενετίας»;",
+     "options": [
+      "Γιατί είχαν φάρους",
+      "Γιατί είχαν πολλά παράθυρα",
+      "Γιατί εκεί γεννήθηκαν σημαντικοί Βενετοί",
+      "Γιατί από εκεί οι Βενετοί έλεγχαν τα πλοία προς την Ανατολή"
+     ],
+     "answer": "Γιατί από εκεί οι Βενετοί έλεγχαν τα πλοία προς την Ανατολή",
+     "why": "από εδώ οι Βενετοί έλεγχαν τα πλοία που ταξίδευαν προς την Ανατολή"
+    },
+    {
+     "q": "Τι είναι το Μπούρτζι;",
+     "options": [
+      "Μια εκκλησία",
+      "Μια παραλία",
+      "Ένας οκταγωνικός πύργος πάνω σε ένα βραχάκι",
+      "Ένα νησάκι"
+     ],
+     "answer": "Ένας οκταγωνικός πύργος πάνω σε ένα βραχάκι",
+     "why": "ένας οκταγωνικός πύργος πάνω σε ένα βραχάκι"
+    }
+   ],
+   "gloss": {
+    "παραθαλάσσιο": "παραθαλάσσιος — seaside",
+    "χερσόνησο": "χερσόνησος — peninsula",
+    "περιβάλλεται": "περιβάλλομαι — to be surrounded",
+    "οφείλει": "οφείλω — to owe",
+    "Βενετούς": "Βενετός — Venetian",
+    "προσκυνητές": "προσκυνητής — pilgrim",
+    "Αγίους Τόπους": "Άγιοι Τόποι — the Holy Land",
+    "οκταγωνικός": "οκταγωνικός — octagonal",
+    "βραχάκι": "βραχάκι — little rock",
+    "αμμουδιά": "αμμουδιά — sandy beach",
+    "τείχη": "τείχος — (city) wall"
+   }
+  },
+  {
+   "id": "l89-mono-nonos",
+   "title": "Έγινα νονός",
+   "title_en": "I became a godfather",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ένας άντρας τριάντα πέντε χρόνων μιλά σε φίλους για μια καινούργια ευθύνη.",
+   "script": [
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Όταν ο καλύτερός μου φίλος, ο Μάνος, μου ζήτησε να βαφτίσω τον γιο του, ένιωσα τιμή αλλά και λίγο πανικό. Δεν είμαι ιδιαίτερα θρησκευόμενος, και δεν ήξερα ούτε τι κάνει ο νονός στη βάφτιση. Η γιαγιά μου, όταν το έμαθε, μου είπε: «Ο νονός είναι δεύτερος πατέρας. Μην το πάρεις αψήφιστα».",
+     "en": "When my best friend, Manos, asked me to be godfather to his son, I felt honoured but also a bit panicked. I'm not particularly religious, and I didn't even know what the godfather does at the christening. When my grandmother found out, she said: 'The godfather is a second father. Don't take it lightly.'"
+    },
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Στη βάφτιση κράτησα το μωρό στην αγκαλιά μου, είπα το Σύμβολο της Πίστεως, που το είχα μάθει απ' έξω την προηγούμενη εβδομάδα, και διάλεξα μαζί με τους γονείς το όνομα: Αλέξανδρος, σαν τον παππού του. Μετά, σύμφωνα με το έθιμο, αγόρασα τα ρούχα του μωρού, τη λαμπάδα και τις μπομπονιέρες για τους καλεσμένους.",
+     "en": "At the christening I held the baby in my arms, said the Creed, which I'd learned by heart the week before, and chose the name with the parents: Alexandros, after his grandfather. Afterwards, according to custom, I bought the baby's clothes, the candle and the favours for the guests."
+    },
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Αυτό ήταν πριν από τρία χρόνια. Τώρα ο Αλέξανδρος με φωνάζει «νονό» με όλη του τη φωνή, και κάθε Πάσχα του πάω τη λαμπάδα του. Τελικά κατάλαβα τι εννοούσε η γιαγιά μου: δεν πρόκειται για μια τελετή, αλλά για μια σχέση που μόλις αρχίζει.",
+     "en": "That was three years ago. Now Alexandros shouts 'nono!' at the top of his voice, and every Easter I bring him his candle. In the end I understood what my grandmother meant: it isn't about a ceremony, but about a relationship that is only just beginning."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ένιωσε όταν ο φίλος του τού ζήτησε να βαφτίσει τον γιο του;",
+     "options": [
+      "Μόνο χαρά",
+      "Τιμή αλλά και λίγο πανικό",
+      "Θυμό",
+      "Αδιαφορία"
+     ],
+     "answer": "Τιμή αλλά και λίγο πανικό",
+     "why": "ένιωσα τιμή αλλά και λίγο πανικό"
+    },
+    {
+     "q": "Τι αγόρασε ο νονός σύμφωνα με το έθιμο;",
+     "options": [
+      "Μόνο έναν χρυσό σταυρό",
+      "Ένα ποδήλατο",
+      "Το φαγητό για τη γιορτή",
+      "Τα ρούχα του μωρού, τη λαμπάδα και τις μπομπονιέρες"
+     ],
+     "answer": "Τα ρούχα του μωρού, τη λαμπάδα και τις μπομπονιέρες",
+     "why": "αγόρασα τα ρούχα του μωρού, τη λαμπάδα και τις μπομπονιέρες"
+    },
+    {
+     "q": "Τι κατάλαβε τελικά;",
+     "options": [
+      "Ότι η βάφτιση είναι μόνο μια τελετή",
+      "Ότι η γιαγιά του είχε άδικο",
+      "Ότι δεν έπρεπε να δεχτεί",
+      "Ότι είναι μια σχέση που μόλις αρχίζει"
+     ],
+     "answer": "Ότι είναι μια σχέση που μόλις αρχίζει",
+     "why": "δεν πρόκειται για μια τελετή, αλλά για μια σχέση που μόλις αρχίζει"
+    }
+   ],
+   "gloss": {
+    "ευθύνη": "ευθύνη — responsibility",
+    "βαφτίσω": "βαφτίζω — to christen; to be godparent to",
+    "τιμή": "τιμή — honour",
+    "θρησκευόμενος": "θρησκευόμενος — religious",
+    "νονός": "νονός — godfather",
+    "αψήφιστα": "αψήφιστα — lightly, carelessly",
+    "Σύμβολο της Πίστεως": "Σύμβολο της Πίστεως — the (Nicene) Creed",
+    "απ' έξω": "απ' έξω — by heart",
+    "έθιμο": "έθιμο — custom",
+    "λαμπάδα": "λαμπάδα — (large) candle",
+    "μπομπονιέρες": "μπομπονιέρα — wedding/christening favour"
+   }
+  },
+  {
+   "id": "l89-mono-aftoamyna",
+   "title": "Μαθήματα αυτοάμυνας",
+   "title_en": "Self-defence classes",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Μια φοιτήτρια μιλά σε ένα podcast για μια εμπειρία που την άλλαξε.",
+   "script": [
+    {
+     "speaker": "Φοιτήτρια",
+     "voice": "f",
+     "el": "Πέρσι τον χειμώνα, ένα βράδυ που γύριζα από τη βιβλιοθήκη, ένας άντρας με ακολούθησε για αρκετά τετράγωνα. Τελικά δεν έγινε τίποτα· μπήκα σε ένα περίπτερο και περίμενα να φύγει. Αλλά για εβδομάδες μετά φοβόμουν να βγω μόνη μου το βράδυ.",
+     "en": "Last winter, one evening when I was coming back from the library, a man followed me for several blocks. In the end nothing happened; I went into a kiosk and waited for him to leave. But for weeks afterwards I was afraid to go out alone at night."
+    },
+    {
+     "speaker": "Φοιτήτρια",
+     "voice": "f",
+     "el": "Μια φίλη μού πρότεινε να γραφτώ μαζί της σε μαθήματα αυτοάμυνας στον δήμο. Περίμενα να μάθω κόλπα από ταινίες, κλοτσιές και λαβές. Η εκπαιδεύτρια, όμως, την πρώτη μέρα μάς είπε κάτι που με εξέπληξε: «Η καλύτερη άμυνα είναι να μη χρειαστεί ποτέ να παλέψεις». Μάθαμε πρώτα να προσέχουμε τι γίνεται γύρω μας, να εμπιστευόμαστε το ένστικτό μας και να φωνάζουμε δυνατά.",
+     "en": "A friend suggested I sign up with her for self-defence classes run by the municipality. I expected to learn tricks from films, kicks and holds. But on the first day the instructor told us something that surprised me: 'The best defence is never needing to fight.' First we learned to notice what's going on around us, to trust our instinct and to shout loudly."
+    },
+    {
+     "speaker": "Φοιτήτρια",
+     "voice": "f",
+     "el": "Βέβαια, μάθαμε και μερικές απλές κινήσεις, για να ελευθερωθούμε αν κάποιος μας πιάσει από το χέρι. Όμως το πιο σημαντικό που κέρδισα δεν είναι η τεχνική· είναι ότι περπατάω ξανά με το κεφάλι ψηλά. Και τώρα πηγαίνω με τη φίλη μου κάθε Τετάρτη, όχι από φόβο, αλλά επειδή μας αρέσει.",
+     "en": "Of course, we also learned a few simple moves, to free ourselves if someone grabs us by the arm. But the most important thing I gained isn't technique; it's that I walk with my head held high again. And now I go with my friend every Wednesday, not out of fear, but because we enjoy it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε όταν την ακολούθησε ο άντρας;",
+     "options": [
+      "Έτρεξε στο σπίτι της",
+      "Φώναξε την αστυνομία",
+      "Μπήκε σε ένα περίπτερο και περίμενε να φύγει",
+      "Τον αντιμετώπισε"
+     ],
+     "answer": "Μπήκε σε ένα περίπτερο και περίμενε να φύγει",
+     "why": "μπήκα σε ένα περίπτερο και περίμενα να φύγει"
+    },
+    {
+     "q": "Τι την εξέπληξε την πρώτη μέρα;",
+     "options": [
+      "Ότι η εκπαιδεύτρια είπε πως η καλύτερη άμυνα είναι να μη χρειαστεί να παλέψεις",
+      "Ότι τα μαθήματα ήταν πολύ ακριβά",
+      "Ότι ήταν η μόνη γυναίκα",
+      "Ότι μάθαιναν κόλπα από ταινίες"
+     ],
+     "answer": "Ότι η εκπαιδεύτρια είπε πως η καλύτερη άμυνα είναι να μη χρειαστεί να παλέψεις",
+     "why": "«Η καλύτερη άμυνα είναι να μη χρειαστεί ποτέ να παλέψεις»"
+    },
+    {
+     "q": "Ποιο είναι, κατά τη γνώμη της, το πιο σημαντικό που κέρδισε;",
+     "options": [
+      "Μια καινούργια φίλη",
+      "Η τεχνική",
+      "Η φυσική κατάσταση",
+      "Ότι περπατάει ξανά με το κεφάλι ψηλά"
+     ],
+     "answer": "Ότι περπατάει ξανά με το κεφάλι ψηλά",
+     "why": "είναι ότι περπατάω ξανά με το κεφάλι ψηλά"
+    }
+   ],
+   "gloss": {
+    "αυτοάμυνας": "αυτοάμυνα — self-defence",
+    "με ακολούθησε": "ακολουθώ — to follow",
+    "περίπτερο": "περίπτερο — kiosk",
+    "κόλπα": "κόλπο — trick",
+    "κλοτσιές": "κλοτσιά — kick",
+    "λαβές": "λαβή — hold, grip",
+    "εξέπληξε": "εκπλήσσω — to surprise",
+    "άμυνα": "άμυνα — defence",
+    "παλέψεις": "παλεύω — to fight, struggle",
+    "ένστικτό": "ένστικτο — instinct",
+    "ελευθερωθούμε": "ελευθερώνομαι — to free oneself"
+   }
+  },
+  {
+   "id": "l89-c1-dunning-kruger",
+   "title": "Γιατί όσοι ξέρουν λιγότερα είναι πιο σίγουροι;",
+   "title_en": "Why are those who know less more confident?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Σε μια εκπομπή για την ψυχολογία, η παρουσιάστρια συζητά με έναν καθηγητή γνωστικής ψυχολογίας.",
+   "script": [
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Όλοι γνωρίζουμε κάποιον που μιλά με απόλυτη βεβαιότητα για θέματα που ελάχιστα καταλαβαίνει. Υπάρχει επιστημονική εξήγηση;",
+     "en": "We all know someone who talks with total certainty about subjects they barely understand. Is there a scientific explanation?"
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Υπάρχει μια διάσημη μελέτη, του 1999, από δύο ψυχολόγους του Πανεπιστημίου Κορνέλ, τον Ντέιβιντ Ντάνινγκ και τον Τζάστιν Κρούγκερ. Έδωσαν σε φοιτητές τεστ γραμματικής, λογικής, ακόμα και χιούμορ, και μετά τους ζήτησαν να εκτιμήσουν πόσο καλά τα είχαν πάει σε σύγκριση με τους συμφοιτητές τους. Όσοι είχαν τις χειρότερες επιδόσεις, περίπου στο κατώτερο ένα τέταρτο, πίστευαν ότι βρίσκονταν πάνω από τον μέσο όρο.",
+     "en": "There's a famous study from 1999 by two psychologists at Cornell University, David Dunning and Justin Kruger. They gave students tests in grammar, logic, even humour, and then asked them to estimate how well they had done compared to their fellow students. Those with the worst scores, roughly in the bottom quarter, believed they were above average."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Και πώς το εξήγησαν;",
+     "en": "And how did they explain it?"
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Με αυτό που θα λέγαμε «διπλό βάρος»: οι δεξιότητες που χρειάζεσαι για να κάνεις κάτι καλά είναι συχνά οι ίδιες που χρειάζεσαι για να καταλάβεις ότι το κάνεις άσχημα. Αν δεν ξέρεις τους κανόνες της γραμματικής, δεν μπορείς ούτε να δεις τα λάθη σου. Αντίθετα, οι πολύ ικανοί είχαν την τάση να υποτιμούν ελαφρώς τη θέση τους, γιατί υπέθεταν ότι ό,τι ήταν εύκολο γι' αυτούς ήταν εύκολο και για τους άλλους.",
+     "en": "With what we might call a 'double burden': the skills you need to do something well are often the same ones you need to realise you're doing it badly. If you don't know the rules of grammar, you can't see your own mistakes either. By contrast, the very competent tended to slightly underestimate their position, because they assumed that what was easy for them was easy for others too."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Το φαινόμενο έχει γίνει πολύ δημοφιλές στο διαδίκτυο.",
+     "en": "The effect has become very popular online."
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Ίσως υπερβολικά δημοφιλές. Χρησιμοποιείται συχνά για να χλευάσουμε τους άλλους, ενώ το δίδαγμα αφορά όλους μας: σε κάποιον τομέα, ο καθένας μας είναι αρχάριος. Επιπλέον, κάποιοι ερευνητές υποστηρίζουν ότι ένα μέρος του αποτελέσματος οφείλεται σε στατιστικούς λόγους, και ότι το φαινόμενο είναι μικρότερο απ' όσο νομίζουμε. Το πρακτικό συμπέρασμα, πάντως, μένει: όταν νιώθουμε απόλυτα σίγουροι για κάτι καινούργιο, ίσως είναι η κατάλληλη στιγμή να ζητήσουμε τη γνώμη κάποιου που ξέρει περισσότερα.",
+     "en": "Perhaps too popular. It's often used to mock other people, whereas the lesson concerns all of us: in some field, each of us is a beginner. Moreover, some researchers argue that part of the result is due to statistical reasons, and that the effect is smaller than we think. The practical conclusion still stands, though: when we feel completely sure about something new, it may be just the right moment to ask the opinion of someone who knows more."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι πίστευαν οι φοιτητές με τις χειρότερες επιδόσεις;",
+     "options": [
+      "Ότι τα τεστ ήταν άδικα",
+      "Ότι βρίσκονταν πάνω από τον μέσο όρο",
+      "Ότι είχαν αποτύχει",
+      "Ότι ήταν οι καλύτεροι όλων"
+     ],
+     "answer": "Ότι βρίσκονταν πάνω από τον μέσο όρο",
+     "why": "πίστευαν ότι βρίσκονταν πάνω από τον μέσο όρο"
+    },
+    {
+     "q": "Τι είναι το «διπλό βάρος»;",
+     "options": [
+      "Ότι οι αδύναμοι φοιτητές κουράζονται διπλάσια",
+      "Ότι οι ίδιες δεξιότητες χρειάζονται για να κάνεις κάτι καλά και για να καταλάβεις ότι το κάνεις άσχημα",
+      "Ότι οι ικανοί υπερεκτιμούν και οι ανίκανοι υποτιμούν",
+      "Ότι τα τεστ είχαν δύο μέρη"
+     ],
+     "answer": "Ότι οι ίδιες δεξιότητες χρειάζονται για να κάνεις κάτι καλά και για να καταλάβεις ότι το κάνεις άσχημα",
+     "why": "οι δεξιότητες που χρειάζεσαι για να κάνεις κάτι καλά είναι συχνά οι ίδιες που χρειάζεσαι για να καταλάβεις ότι το κάνεις άσχημα"
+    },
+    {
+     "q": "Γιατί οι πολύ ικανοί υποτιμούσαν ελαφρώς τη θέση τους;",
+     "options": [
+      "Γιατί δεν είχαν διαβάσει",
+      "Γιατί φοβούνταν την κριτική",
+      "Γιατί υπέθεταν ότι ό,τι ήταν εύκολο γι' αυτούς ήταν εύκολο και για τους άλλους",
+      "Από μετριοφροσύνη"
+     ],
+     "answer": "Γιατί υπέθεταν ότι ό,τι ήταν εύκολο γι' αυτούς ήταν εύκολο και για τους άλλους",
+     "why": "υπέθεταν ότι ό,τι ήταν εύκολο γι' αυτούς ήταν εύκολο και για τους άλλους"
+    },
+    {
+     "q": "Ποια επιφύλαξη εκφράζει ο καθηγητής για το φαινόμενο;",
+     "options": [
+      "Ότι δεν έχει μελετηθεί ποτέ",
+      "Ότι ένα μέρος του ίσως οφείλεται σε στατιστικούς λόγους και είναι μικρότερο απ' όσο νομίζουμε",
+      "Ότι αφορά μόνο το χιούμορ",
+      "Ότι ισχύει μόνο για φοιτητές"
+     ],
+     "answer": "Ότι ένα μέρος του ίσως οφείλεται σε στατιστικούς λόγους και είναι μικρότερο απ' όσο νομίζουμε",
+     "why": "κάποιοι ερευνητές υποστηρίζουν ότι ένα μέρος του αποτελέσματος οφείλεται σε στατιστικούς λόγους"
+    }
+   ],
+   "gloss": {
+    "γνωστικής": "γνωστικός — cognitive",
+    "βεβαιότητα": "βεβαιότητα — certainty",
+    "εκτιμήσουν": "εκτιμώ — to estimate",
+    "επιδόσεις": "επίδοση — performance, score",
+    "μέσο όρο": "μέσος όρος — average",
+    "δεξιότητες": "δεξιότητα — skill",
+    "υποτιμούν": "υποτιμώ — to underestimate",
+    "χλευάσουμε": "χλευάζω — to mock",
+    "δίδαγμα": "δίδαγμα — lesson, moral",
+    "τομέα": "τομέας — field, area",
+    "αρχάριος": "αρχάριος — beginner",
+    "στατιστικούς": "στατιστικός — statistical"
+   }
+  },
+  {
+   "id": "l89-c1-agkyrosi",
+   "title": "Η πρώτη τιμή που ακούμε",
+   "title_en": "The first price we hear",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε μια ομιλία ενός οικονομολόγου σε ένα σεμινάριο για τις διαπραγματεύσεις.",
+   "script": [
+    {
+     "speaker": "Οικονομολόγος",
+     "voice": "m",
+     "el": "Θα ξεκινήσω με ένα πείραμα που έγινε τη δεκαετία του 1970 από τον Άμος Τβέρσκι και τον Ντάνιελ Κάνεμαν. Οι συμμετέχοντες έβλεπαν πρώτα να γυρίζει ένας τροχός, σαν της ρουλέτας, που όμως ήταν πειραγμένος ώστε να σταματά είτε στο δέκα είτε στο εξήντα πέντε. Μετά τους ρωτούσαν: τι ποσοστό των αφρικανικών χωρών είναι μέλη του ΟΗΕ;",
+     "en": "I'll begin with an experiment carried out in the 1970s by Amos Tversky and Daniel Kahneman. Participants first watched a wheel spin, like a roulette wheel, but it was rigged to stop either at ten or at sixty-five. Then they were asked: what percentage of African countries are members of the UN?"
+    },
+    {
+     "speaker": "Οικονομολόγος",
+     "voice": "m",
+     "el": "Ο αριθμός του τροχού ήταν προφανώς άσχετος με την ερώτηση. Κι όμως, όσοι είχαν δει το δέκα έδιναν κατά μέσο όρο εκτίμηση γύρω στο είκοσι πέντε τοις εκατό, ενώ όσοι είχαν δει το εξήντα πέντε απαντούσαν περίπου σαράντα πέντε. Ο πρώτος αριθμός που άκουσαν λειτούργησε σαν άγκυρα: η σκέψη τους ξεκινούσε από εκεί και απομακρυνόταν, αλλά όχι αρκετά. Το φαινόμενο ονομάζεται «αγκύρωση».",
+     "en": "The number on the wheel was obviously irrelevant to the question. And yet those who had seen ten gave, on average, an estimate of around twenty-five per cent, while those who had seen sixty-five answered about forty-five. The first number they heard worked like an anchor: their thinking started from there and moved away, but not far enough. The effect is called 'anchoring'."
+    },
+    {
+     "speaker": "Οικονομολόγος",
+     "voice": "m",
+     "el": "Και δεν επηρεάζει μόνο φοιτητές σε εργαστήρια. Σε μια έρευνα με έμπειρους μεσίτες, η τιμή που ανέγραφε η αγγελία ενός σπιτιού επηρέαζε σημαντικά την εκτίμησή τους για την αξία του, παρόλο που οι ίδιοι δήλωναν ότι δεν την είχαν λάβει υπόψη. Τι σημαίνει αυτό για εσάς; Πρώτον, σε μια διαπραγμάτευση, όποιος κάνει την πρώτη πρόταση συχνά ορίζει το πεδίο της συζήτησης. Δεύτερον, όταν σας δίνουν έναν αριθμό, ρωτήστε τον εαυτό σας: «Αν δεν τον είχα ακούσει, από πού θα ξεκινούσα;». Η άγκυρα δεν φεύγει εύκολα, αλλά μπορούμε τουλάχιστον να ξέρουμε ότι υπάρχει.",
+     "en": "And it doesn't only affect students in laboratories. In a study with experienced estate agents, the price listed in a house's ad significantly influenced their estimate of its value, even though they themselves said they hadn't taken it into account. What does this mean for you? First, in a negotiation, whoever makes the first offer often sets the range of the discussion. Second, when you're given a number, ask yourself: 'If I hadn't heard it, where would I start from?' The anchor doesn't go away easily, but at least we can know it's there."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ήταν ιδιαίτερο στον τροχό του πειράματος;",
+     "options": [
+      "Ήταν πειραγμένος ώστε να σταματά στο δέκα ή στο εξήντα πέντε",
+      "Έδειχνε μόνο χώρες της Αφρικής",
+      "Τον γύριζαν οι ίδιοι οι συμμετέχοντες πολλές φορές",
+      "Ήταν πολύ μεγάλος"
+     ],
+     "answer": "Ήταν πειραγμένος ώστε να σταματά στο δέκα ή στο εξήντα πέντε",
+     "why": "ήταν πειραγμένος ώστε να σταματά είτε στο δέκα είτε στο εξήντα πέντε"
+    },
+    {
+     "q": "Τι απαντούσαν κατά μέσο όρο όσοι είχαν δει το εξήντα πέντε;",
+     "options": [
+      "Περίπου δέκα τοις εκατό",
+      "Περίπου σαράντα πέντε τοις εκατό",
+      "Περίπου εξήντα πέντε τοις εκατό",
+      "Περίπου είκοσι πέντε τοις εκατό"
+     ],
+     "answer": "Περίπου σαράντα πέντε τοις εκατό",
+     "why": "όσοι είχαν δει το εξήντα πέντε απαντούσαν περίπου σαράντα πέντε"
+    },
+    {
+     "q": "Τι έδειξε η έρευνα με τους μεσίτες;",
+     "options": [
+      "Ότι η τιμή της αγγελίας επηρέαζε την εκτίμησή τους, χωρίς να το παραδέχονται",
+      "Ότι οι αγγελίες είναι συνήθως ψεύτικες",
+      "Ότι οι μεσίτες πάντα ανεβάζουν τις τιμές",
+      "Ότι οι μεσίτες δεν επηρεάζονται από τίποτα"
+     ],
+     "answer": "Ότι η τιμή της αγγελίας επηρέαζε την εκτίμησή τους, χωρίς να το παραδέχονται",
+     "why": "η τιμή που ανέγραφε η αγγελία ενός σπιτιού επηρέαζε σημαντικά την εκτίμησή τους για την αξία του, παρόλο που οι ίδιοι δήλωναν ότι δεν την είχαν λάβει υπόψη"
+    },
+    {
+     "q": "Ποια ερώτηση προτείνει να κάνουμε στον εαυτό μας;",
+     "options": [
+      "«Πόσα χρήματα έχω;»",
+      "«Αν δεν τον είχα ακούσει, από πού θα ξεκινούσα;»",
+      "«Ποιος έχει δίκιο;»",
+      "«Τι θα έκανε ένας ειδικός;»"
+     ],
+     "answer": "«Αν δεν τον είχα ακούσει, από πού θα ξεκινούσα;»",
+     "why": "«Αν δεν τον είχα ακούσει, από πού θα ξεκινούσα;»"
+    }
+   ],
+   "gloss": {
+    "διαπραγματεύσεις": "διαπραγμάτευση — negotiation",
+    "τροχός": "τροχός — wheel",
+    "ρουλέτας": "ρουλέτα — roulette",
+    "πειραγμένος": "πειραγμένος — rigged, tampered with",
+    "ποσοστό": "ποσοστό — percentage",
+    "άσχετος": "άσχετος — irrelevant, unrelated",
+    "εκτίμηση": "εκτίμηση — estimate",
+    "άγκυρα": "άγκυρα — anchor",
+    "αγκύρωση": "αγκύρωση — anchoring",
+    "μεσίτες": "μεσίτης — estate agent",
+    "ανέγραφε": "αναγράφω — to state, list (in writing)",
+    "λάβει υπόψη": "λαμβάνω υπόψη — to take into account"
+   }
+  }
+ ]
+}
