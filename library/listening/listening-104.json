@@ -1,0 +1,803 @@
+{
+ "items": [
+  {
+   "id": "l104-ann-tiganelaio",
+   "title": "Συλλογή χρησιμοποιημένου λαδιού",
+   "title_en": "Collecting used cooking oil",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση του δήμου στο τοπικό ραδιόφωνο.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ο δήμος ενημερώνει τους κατοίκους ότι από την πρώτη Δεκεμβρίου ξεκινά πρόγραμμα συλλογής χρησιμοποιημένου λαδιού τηγανίσματος. Σε όλα τα σχολεία και σε δώδεκα σούπερ μάρκετ της πόλης θα τοποθετηθούν ειδικοί πορτοκαλί κάδοι.",
+     "en": "The municipality informs residents that from the first of December a programme for collecting used frying oil is starting. Special orange bins will be placed at all schools and at twelve supermarkets in the town."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Οι κάτοικοι παρακαλούνται να αφήνουν το λάδι να κρυώσει, να το βάζουν σε πλαστικά μπουκάλια με καπάκι και να τα ρίχνουν κλειστά στους κάδους. Το λάδι δεν πρέπει να χύνεται στον νεροχύτη, γιατί φράζει τις αποχετεύσεις και ρυπαίνει τη θάλασσα.",
+     "en": "Residents are asked to let the oil cool, put it in plastic bottles with a cap and drop them, closed, into the bins. Oil must not be poured down the sink, because it blocks the drains and pollutes the sea."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Το λάδι που θα συγκεντρωθεί θα μετατραπεί σε βιοντίζελ. Τα σχολεία που θα μαζέψουν τη μεγαλύτερη ποσότητα ως το τέλος της σχολικής χρονιάς θα κερδίσουν εκπαιδευτικό υλικό. Ο κατάλογος με τα σημεία συλλογής υπάρχει στην ιστοσελίδα του δήμου.",
+     "en": "The oil collected will be turned into biodiesel. The schools that collect the largest amount by the end of the school year will win educational materials. The list of collection points is on the municipality's website."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού θα τοποθετηθούν οι κάδοι;",
+     "options": [
+      "Μόνο στο δημαρχείο",
+      "Σε όλα τα σχολεία και σε δώδεκα σούπερ μάρκετ",
+      "Στα λιμάνια της πόλης",
+      "Σε κάθε πολυκατοικία"
+     ],
+     "answer": "Σε όλα τα σχολεία και σε δώδεκα σούπερ μάρκετ",
+     "why": "Σε όλα τα σχολεία και σε δώδεκα σούπερ μάρκετ της πόλης"
+    },
+    {
+     "q": "Γιατί δεν πρέπει να χύνεται το λάδι στον νεροχύτη;",
+     "options": [
+      "Γιατί χαλάει τις βρύσες",
+      "Γιατί φράζει τις αποχετεύσεις και ρυπαίνει τη θάλασσα",
+      "Γιατί είναι εύφλεκτο",
+      "Γιατί μυρίζει άσχημα"
+     ],
+     "answer": "Γιατί φράζει τις αποχετεύσεις και ρυπαίνει τη θάλασσα",
+     "why": "φράζει τις αποχετεύσεις και ρυπαίνει τη θάλασσα"
+    },
+    {
+     "q": "Τι θα κερδίσουν τα σχολεία που θα μαζέψουν τη μεγαλύτερη ποσότητα;",
+     "options": [
+      "Εκπαιδευτικό υλικό",
+      "Χρήματα για τη θέρμανση",
+      "Μια εκδρομή",
+      "Υπολογιστές"
+     ],
+     "answer": "Εκπαιδευτικό υλικό",
+     "why": "θα κερδίσουν εκπαιδευτικό υλικό"
+    }
+   ],
+   "gloss": {
+    "τηγανίσματος": "τηγάνισμα — frying",
+    "κάδοι": "κάδος — bin",
+    "νεροχύτη": "νεροχύτης — sink",
+    "φράζει": "φράζω — to block",
+    "αποχετεύσεις": "αποχέτευση — drain, sewer",
+    "ρυπαίνει": "ρυπαίνω — to pollute",
+    "βιοντίζελ": "βιοντίζελ — biodiesel"
+   }
+  },
+  {
+   "id": "l104-vm-logistria",
+   "title": "Μήνυμα από τη λογίστρια για τη φορολογική δήλωση",
+   "title_en": "A message from the accountant about the tax return",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα από τη λογίστριά σας στον τηλεφωνητή.",
+   "script": [
+    {
+     "speaker": "Λογίστρια",
+     "voice": "f",
+     "el": "Καλημέρα, κύριε Σταθόπουλε, η Ρένα Μαυρίδη είμαι, από το λογιστικό γραφείο. Ετοιμάζω τη φορολογική σας δήλωση και μου λείπουν ακόμα δύο πράγματα.",
+     "en": "Good morning, Mr Stathopoulos, it's Rena Mavridi, from the accounting office. I'm preparing your tax return and I'm still missing two things."
+    },
+    {
+     "speaker": "Λογίστρια",
+     "voice": "f",
+     "el": "Πρώτον, τη βεβαίωση από την τράπεζα για τους τόκους του στεγαστικού δανείου. Τη βρίσκετε στο e-banking, στην ενότητα «Βεβαιώσεις». Δεύτερον, τις αποδείξεις από τον φυσικοθεραπευτή, γιατί οι ιατρικές δαπάνες μειώνουν τον φόρο. Αν έχετε πληρώσει με κάρτα, δεν χρειάζονται χαρτιά· μου αρκεί να μου πείτε το ποσό.",
+     "en": "First, the certificate from the bank for the interest on your mortgage. You'll find it in e-banking, under 'Certificates'. Second, the receipts from the physiotherapist, because medical expenses reduce the tax. If you paid by card, no papers are needed; it's enough to tell me the amount."
+    },
+    {
+     "speaker": "Λογίστρια",
+     "voice": "f",
+     "el": "Η προθεσμία λήγει σε δέκα μέρες, αλλά αν υποβάλουμε τη δήλωση μέσα στην εβδομάδα, έχετε έκπτωση τέσσερα τοις εκατό, αν πληρώσετε τον φόρο εφάπαξ. Στείλτε μου τα, σας παρακαλώ, με email ως την Πέμπτη.",
+     "en": "The deadline expires in ten days, but if we submit the return this week, you get a four per cent discount if you pay the tax in a lump sum. Please send them to me by email by Thursday."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού μπορεί να βρει ο κύριος Σταθόπουλος τη βεβαίωση για τους τόκους;",
+     "options": [
+      "Στο e-banking, στην ενότητα «Βεβαιώσεις»",
+      "Στο λογιστικό γραφείο",
+      "Στην εφορία",
+      "Στο ταχυδρομείο"
+     ],
+     "answer": "Στο e-banking, στην ενότητα «Βεβαιώσεις»",
+     "why": "Τη βρίσκετε στο e-banking, στην ενότητα «Βεβαιώσεις»"
+    },
+    {
+     "q": "Τι ισχύει αν πλήρωσε τον φυσικοθεραπευτή με κάρτα;",
+     "options": [
+      "Αρκεί να πει το ποσό στη λογίστρια",
+      "Δεν μπορεί να μειώσει τον φόρο",
+      "Πρέπει να πάει ο ίδιος στην τράπεζα",
+      "Πρέπει να ζητήσει νέες αποδείξεις"
+     ],
+     "answer": "Αρκεί να πει το ποσό στη λογίστρια",
+     "why": "μου αρκεί να μου πείτε το ποσό"
+    },
+    {
+     "q": "Πότε έχει έκπτωση τέσσερα τοις εκατό;",
+     "options": [
+      "Αν πληρώσει σε δόσεις",
+      "Αν η δήλωση υποβληθεί μέσα στην εβδομάδα και πληρώσει τον φόρο εφάπαξ",
+      "Σε κάθε περίπτωση",
+      "Αν στείλει τα χαρτιά ταχυδρομικώς"
+     ],
+     "answer": "Αν η δήλωση υποβληθεί μέσα στην εβδομάδα και πληρώσει τον φόρο εφάπαξ",
+     "why": "αν υποβάλουμε τη δήλωση μέσα στην εβδομάδα, έχετε έκπτωση τέσσερα τοις εκατό, αν πληρώσετε τον φόρο εφάπαξ"
+    }
+   ],
+   "gloss": {
+    "φορολογική": "φορολογική δήλωση — tax return",
+    "τόκους": "τόκος — interest",
+    "στεγαστικού": "στεγαστικό δάνειο — mortgage",
+    "αποδείξεις": "απόδειξη — receipt",
+    "δαπάνες": "δαπάνη — expense",
+    "προθεσμία": "προθεσμία — deadline",
+    "υποβάλουμε": "υποβάλλω — to submit",
+    "εφάπαξ": "εφάπαξ — in a lump sum"
+   }
+  },
+  {
+   "id": "l104-dia-protochronia",
+   "title": "Πού θα κάνουμε Πρωτοχρονιά;",
+   "title_en": "Where shall we spend New Year's Day?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ένα ζευγάρι συζητά πού θα περάσει την Πρωτοχρονιά.",
+   "script": [
+    {
+     "speaker": "Νίκος",
+     "voice": "m",
+     "el": "Η μητέρα μου ρώτησε πάλι αν θα πάμε για Πρωτοχρονιά στη Λάρισα. Τι να της πω;",
+     "en": "My mother asked again whether we'll go to Larissa for New Year's Day. What shall I tell her?"
+    },
+    {
+     "speaker": "Έλενα",
+     "voice": "f",
+     "el": "Πέρσι πήγαμε στους δικούς σου, Νίκο. Οι γονείς μου μάς περιμένουν φέτος. Ο πατέρας μου έχει ήδη παραγγείλει γουρουνόπουλο.",
+     "en": "Last year we went to your parents, Nikos. My parents are expecting us this year. My father has already ordered a suckling pig."
+    },
+    {
+     "speaker": "Νίκος",
+     "voice": "m",
+     "el": "Το ξέρω, έχεις δίκιο. Μόνο που η γιαγιά μου είναι ενενήντα δύο και δεν ξέρω πόσες Πρωτοχρονιές ακόμα θα κόψουμε μαζί τη βασιλόπιτα.",
+     "en": "I know, you're right. It's just that my grandmother is ninety-two and I don't know how many more New Year's Days we'll cut the vasilopita together."
+    },
+    {
+     "speaker": "Έλενα",
+     "voice": "f",
+     "el": "Τότε γιατί δεν τους καλούμε όλους εδώ; Το σαλόνι μας χωράει δώδεκα άτομα αν βάλουμε και το πτυσσόμενο τραπέζι.",
+     "en": "Then why don't we invite them all here? Our living room fits twelve people if we add the folding table."
+    },
+    {
+     "speaker": "Νίκος",
+     "voice": "m",
+     "el": "Όλους; Και τους δικούς σου και τους δικούς μου; Η γιαγιά δεν ταξιδεύει πια με το λεωφορείο.",
+     "en": "All of them? Both your family and mine? Grandma doesn't travel by coach any more."
+    },
+    {
+     "speaker": "Έλενα",
+     "voice": "f",
+     "el": "Θα τη φέρει ο ξάδερφός σου με το αυτοκίνητο, αφού έρχεται κι αυτός στην Αθήνα τα Χριστούγεννα. Κι εγώ θα φτιάξω τη βασιλόπιτα με τη συνταγή της, αν μου τη δώσει.",
+     "en": "Your cousin will bring her by car, since he's coming to Athens for Christmas too. And I'll make the vasilopita with her recipe, if she gives it to me."
+    },
+    {
+     "speaker": "Νίκος",
+     "voice": "m",
+     "el": "Αυτό θα της αρέσει πολύ. Πάρε τη μαμά σου να της το πεις, κι εγώ θα μιλήσω με τη δική μου απόψε.",
+     "en": "She'll love that. Call your mum and tell her, and I'll talk to mine tonight."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού πέρασαν την περσινή Πρωτοχρονιά;",
+     "options": [
+      "Στο σπίτι τους",
+      "Σε ξενοδοχείο",
+      "Στους γονείς της Έλενας",
+      "Στους γονείς του Νίκου"
+     ],
+     "answer": "Στους γονείς του Νίκου",
+     "why": "Πέρσι πήγαμε στους δικούς σου"
+    },
+    {
+     "q": "Τι προτείνει η Έλενα;",
+     "options": [
+      "Να καλέσουν όλους στο σπίτι τους",
+      "Να πάνε φέτος στη Λάρισα",
+      "Να μείνουν μόνοι τους",
+      "Να πάνε σε εστιατόριο"
+     ],
+     "answer": "Να καλέσουν όλους στο σπίτι τους",
+     "why": "γιατί δεν τους καλούμε όλους εδώ;"
+    },
+    {
+     "q": "Πώς θα έρθει η γιαγιά στην Αθήνα;",
+     "options": [
+      "Θα τη φέρει ο ξάδερφος του Νίκου με το αυτοκίνητο",
+      "Με το λεωφορείο",
+      "Με το τρένο",
+      "Θα την πάρει ο Νίκος"
+     ],
+     "answer": "Θα τη φέρει ο ξάδερφος του Νίκου με το αυτοκίνητο",
+     "why": "Θα τη φέρει ο ξάδερφός σου με το αυτοκίνητο"
+    }
+   ],
+   "gloss": {
+    "γουρουνόπουλο": "γουρουνόπουλο — suckling pig",
+    "βασιλόπιτα": "βασιλόπιτα — New Year's cake",
+    "πτυσσόμενο": "πτυσσόμενος — folding",
+    "χωράει": "χωράω — to fit, hold"
+   }
+  },
+  {
+   "id": "l104-int-metaglottisi",
+   "title": "Μια ηθοποιός της μεταγλώττισης",
+   "title_en": "A dubbing actress",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη σε μια ραδιοφωνική εκπομπή για τα επαγγέλματα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Η καλεσμένη μας σήμερα δεν την έχετε δει ποτέ, αλλά σίγουρα την έχετε ακούσει. Πόσους χαρακτήρες έχετε μεταγλωττίσει;",
+     "en": "You have never seen our guest today, but you have certainly heard her. How many characters have you dubbed?"
+    },
+    {
+     "speaker": "Ηθοποιός",
+     "voice": "f",
+     "el": "Έχω χάσει το μέτρημα. Πάνω από διακόσιους, νομίζω: πριγκίπισσες, μάγισσες, ένα σκαντζόχοιρο, μια φορά κι ένα ψυγείο που μιλούσε. Στην Ελλάδα μεταγλωττίζονται κυρίως ταινίες κινουμένων σχεδίων και παιδικές σειρές· οι ταινίες για ενήλικες συνήθως προβάλλονται με υπότιτλους.",
+     "en": "I've lost count. More than two hundred, I think: princesses, witches, a hedgehog, and once a talking fridge. In Greece it is mainly animated films and children's series that are dubbed; films for adults are usually shown with subtitles."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πώς δουλεύετε στο στούντιο;",
+     "en": "How do you work in the studio?"
+    },
+    {
+     "speaker": "Ηθοποιός",
+     "voice": "f",
+     "el": "Βλέπουμε τη σκηνή στην οθόνη και ακούμε το πρωτότυπο στα ακουστικά. Ο μεγαλύτερος κόπος είναι ο συγχρονισμός: τα λόγια πρέπει να ταιριάζουν με το στόμα του χαρακτήρα. Γι' αυτό ο μεταφραστής συχνά αλλάζει τις φράσεις ώστε να έχουν το ίδιο μήκος. Συνήθως ηχογραφούμε μόνοι μας, όχι όλοι μαζί, οπότε συχνά απαντώ σε έναν συνάδελφο που δεν έχω γνωρίσει ποτέ.",
+     "en": "We watch the scene on the screen and listen to the original in the headphones. The hardest part is synchronisation: the words have to match the character's mouth. That's why the translator often changes the phrases so that they have the same length. We usually record on our own, not all together, so I often answer a colleague I have never met."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι είναι το πιο ωραίο στη δουλειά σας;",
+     "en": "What's the best thing about your job?"
+    },
+    {
+     "speaker": "Ηθοποιός",
+     "voice": "f",
+     "el": "Όταν ένα παιδί στο σούπερ μάρκετ γυρίζει απότομα, επειδή αναγνώρισε τη φωνή μου, και δεν καταλαβαίνει γιατί η μαμά του μιλάει με μια άγνωστη κυρία.",
+     "en": "When a child in the supermarket turns round suddenly, because they recognised my voice, and can't understand why their mum is talking to a strange lady."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι μεταγλωττίζεται κυρίως στην Ελλάδα, σύμφωνα με την ηθοποιό;",
+     "options": [
+      "Μόνο τα ντοκιμαντέρ",
+      "Ταινίες κινουμένων σχεδίων και παιδικές σειρές",
+      "Όλες οι ξένες ταινίες",
+      "Οι ειδήσεις"
+     ],
+     "answer": "Ταινίες κινουμένων σχεδίων και παιδικές σειρές",
+     "why": "μεταγλωττίζονται κυρίως ταινίες κινουμένων σχεδίων και παιδικές σειρές"
+    },
+    {
+     "q": "Ποιος είναι ο μεγαλύτερος κόπος στη δουλειά της;",
+     "options": [
+      "Οι πολλές ώρες στο στούντιο",
+      "Η μετάφραση",
+      "Η απομνημόνευση του κειμένου",
+      "Ο συγχρονισμός των λόγων με το στόμα του χαρακτήρα"
+     ],
+     "answer": "Ο συγχρονισμός των λόγων με το στόμα του χαρακτήρα",
+     "why": "Ο μεγαλύτερος κόπος είναι ο συγχρονισμός"
+    },
+    {
+     "q": "Πώς ηχογραφούν συνήθως οι ηθοποιοί;",
+     "options": [
+      "Μόνοι τους",
+      "Από το σπίτι τους",
+      "Μπροστά σε κοινό",
+      "Όλοι μαζί στην ίδια αίθουσα"
+     ],
+     "answer": "Μόνοι τους",
+     "why": "Συνήθως ηχογραφούμε μόνοι μας"
+    }
+   ],
+   "gloss": {
+    "μεταγλωττίσει": "μεταγλωττίζω — to dub",
+    "κινουμένων": "κινούμενα σχέδια — cartoons, animation",
+    "υπότιτλους": "υπότιτλος — subtitle",
+    "ακουστικά": "ακουστικά — headphones",
+    "συγχρονισμός": "συγχρονισμός — synchronisation",
+    "ηχογραφούμε": "ηχογραφώ — to record"
+   }
+  },
+  {
+   "id": "l104-rep-energeiaki-koinotita",
+   "title": "Ένα χωριό που παράγει το δικό του ρεύμα",
+   "title_en": "A village that produces its own electricity",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ σε μια περιφερειακή εκπομπή.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Στις στέγες του χωριού, ανάμεσα στα κεραμίδια και στις καμινάδες, γυαλίζουν φωτοβολταϊκά πάνελ. Πριν από τρία χρόνια, εξήντα οικογένειες και ο τοπικός σύλλογος ίδρυσαν μια ενεργειακή κοινότητα: έναν συνεταιρισμό που εγκατέστησε ένα μικρό φωτοβολταϊκό πάρκο σε ένα χωράφι έξω από το χωριό.",
+     "en": "On the roofs of the village, among the tiles and the chimneys, photovoltaic panels shine. Three years ago, sixty families and the local association founded an energy community: a cooperative that installed a small solar park in a field outside the village."
+    },
+    {
+     "speaker": "Πρόεδρος",
+     "voice": "m",
+     "el": "Ο καθένας έβαλε όσα μπορούσε, από διακόσια μέχρι δύο χιλιάδες ευρώ, και πήραμε κι ένα μικρό δάνειο. Η ενέργεια που παράγουμε συμψηφίζεται με την κατανάλωση των μελών, έτσι οι λογαριασμοί του ρεύματος έχουν πέσει αισθητά.",
+     "en": "Everyone put in what they could, from two hundred to two thousand euros, and we also took out a small loan. The energy we produce is offset against the members' consumption, so the electricity bills have fallen noticeably."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η κοινότητα δεν σκέφτεται μόνο τα μέλη της. Ένα μέρος της ενέργειας καλύπτει δωρεάν τις ανάγκες του σχολείου και του αγροτικού ιατρείου, ενώ δύο ηλικιωμένες χήρες που ζουν με μικρή σύνταξη δεν πληρώνουν συνδρομή. Το επόμενο σχέδιο είναι ένας φορτιστής για ηλεκτρικά αυτοκίνητα στην πλατεία.",
+     "en": "The community doesn't think only of its members. Part of the energy covers the needs of the school and the rural clinic free of charge, while two elderly widows who live on a small pension pay no subscription. The next plan is a charger for electric cars in the square."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ίδρυσαν οι κάτοικοι πριν από τρία χρόνια;",
+     "options": [
+      "Ένα αιολικό πάρκο",
+      "Μια εταιρεία πετρελαίου",
+      "Ένα σχολείο",
+      "Μια ενεργειακή κοινότητα"
+     ],
+     "answer": "Μια ενεργειακή κοινότητα",
+     "why": "ίδρυσαν μια ενεργειακή κοινότητα"
+    },
+    {
+     "q": "Τι έγινε με τους λογαριασμούς του ρεύματος;",
+     "options": [
+      "Καταργήθηκαν",
+      "Έχουν διπλασιαστεί",
+      "Έχουν πέσει αισθητά",
+      "Έμειναν ίδιοι"
+     ],
+     "answer": "Έχουν πέσει αισθητά",
+     "why": "οι λογαριασμοί του ρεύματος έχουν πέσει αισθητά"
+    },
+    {
+     "q": "Ποιο είναι το επόμενο σχέδιο της κοινότητας;",
+     "options": [
+      "Ένας φορτιστής για ηλεκτρικά αυτοκίνητα στην πλατεία",
+      "Ανακαίνιση της πλατείας",
+      "Ένα δεύτερο φωτοβολταϊκό πάρκο",
+      "Ένα νέο ιατρείο"
+     ],
+     "answer": "Ένας φορτιστής για ηλεκτρικά αυτοκίνητα στην πλατεία",
+     "why": "Το επόμενο σχέδιο είναι ένας φορτιστής για ηλεκτρικά αυτοκίνητα στην πλατεία"
+    }
+   ],
+   "gloss": {
+    "φωτοβολταϊκά": "φωτοβολταϊκός — photovoltaic, solar",
+    "ενεργειακή": "ενεργειακή κοινότητα — energy community",
+    "συνεταιρισμό": "συνεταιρισμός — cooperative",
+    "συμψηφίζεται": "συμψηφίζω — to offset",
+    "αισθητά": "αισθητά — noticeably",
+    "σύνταξη": "σύνταξη — pension",
+    "φορτιστής": "φορτιστής — charger"
+   }
+  },
+  {
+   "id": "l104-rep-mpotsia",
+   "title": "Μπότσια: ένα άθλημα για όλους",
+   "title_en": "Boccia: a sport for everyone",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ σε μια αθλητική εκπομπή.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Στο κλειστό γυμναστήριο της γειτονιάς επικρατεί απόλυτη ησυχία. Μια αθλήτρια σε αναπηρικό αμαξίδιο σκύβει, στοχεύει και ρίχνει μια κόκκινη δερμάτινη μπάλα, που σταματά λίγα εκατοστά από τη μικρή άσπρη. Το άθλημα λέγεται μπότσια και είναι παραολυμπιακό.",
+     "en": "In the neighbourhood's indoor gym there is total silence. An athlete in a wheelchair leans forward, aims and throws a red leather ball, which stops a few centimetres from the small white one. The sport is called boccia and it is Paralympic."
+    },
+    {
+     "speaker": "Προπονήτρια",
+     "voice": "f",
+     "el": "Ο στόχος είναι να φέρεις τις μπάλες σου όσο πιο κοντά γίνεται στη λευκή, τον «στόχο». Το παίζουν κυρίως άνθρωποι με σοβαρές κινητικές αναπηρίες. Όσοι δεν μπορούν να ρίξουν με το χέρι χρησιμοποιούν μια ράμπα, και ένας βοηθός τη στρέφει όπως του λέει ο αθλητής, χωρίς να κοιτάζει το γήπεδο.",
+     "en": "The aim is to bring your balls as close as possible to the white one, the 'jack'. It's played mainly by people with severe physical disabilities. Those who can't throw by hand use a ramp, and an assistant turns it as the athlete tells them, without looking at the court."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Ο σύλλογος ξεκίνησε με τρία μέλη και σήμερα έχει δεκαοχτώ. Τις Κυριακές οι αθλητές παίζουν και με φίλους και συγγενείς χωρίς αναπηρία, που συνήθως χάνουν. Η προπονήτρια ζητά από τον δήμο ένα μικρό λεωφορείο με ράμπα, γιατί η μετακίνηση προς το γυμναστήριο είναι για πολλούς το πιο δύσκολο κομμάτι της προπόνησης.",
+     "en": "The club started with three members and today it has eighteen. On Sundays the athletes also play with friends and relatives without disabilities, who usually lose. The coach is asking the municipality for a small bus with a ramp, because getting to the gym is, for many, the hardest part of training."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιος είναι ο στόχος στο μπότσια;",
+     "options": [
+      "Να ρίξεις την μπάλα όσο πιο μακριά γίνεται",
+      "Να φέρεις τις μπάλες σου όσο πιο κοντά γίνεται στη λευκή",
+      "Να χτυπήσεις τις μπάλες του αντιπάλου έξω από το γήπεδο",
+      "Να βάλεις την μπάλα σε μια τρύπα"
+     ],
+     "answer": "Να φέρεις τις μπάλες σου όσο πιο κοντά γίνεται στη λευκή",
+     "why": "να φέρεις τις μπάλες σου όσο πιο κοντά γίνεται στη λευκή"
+    },
+    {
+     "q": "Τι κάνει ο βοηθός όταν ο αθλητής χρησιμοποιεί ράμπα;",
+     "options": [
+      "Στρέφει τη ράμπα όπως του λέει ο αθλητής, χωρίς να κοιτάζει το γήπεδο",
+      "Δείχνει στον αθλητή πού να στοχεύσει",
+      "Ρίχνει ο ίδιος την μπάλα",
+      "Μετράει τους πόντους"
+     ],
+     "answer": "Στρέφει τη ράμπα όπως του λέει ο αθλητής, χωρίς να κοιτάζει το γήπεδο",
+     "why": "ένας βοηθός τη στρέφει όπως του λέει ο αθλητής, χωρίς να κοιτάζει το γήπεδο"
+    },
+    {
+     "q": "Τι ζητά η προπονήτρια από τον δήμο;",
+     "options": [
+      "Περισσότερους προπονητές",
+      "Ένα μικρό λεωφορείο με ράμπα",
+      "Χρήματα για μπάλες",
+      "Ένα καινούργιο γυμναστήριο"
+     ],
+     "answer": "Ένα μικρό λεωφορείο με ράμπα",
+     "why": "Η προπονήτρια ζητά από τον δήμο ένα μικρό λεωφορείο με ράμπα"
+    }
+   ],
+   "gloss": {
+    "αμαξίδιο": "αναπηρικό αμαξίδιο — wheelchair",
+    "στοχεύει": "στοχεύω — to aim",
+    "παραολυμπιακό": "παραολυμπιακός — Paralympic",
+    "κινητικές": "κινητική αναπηρία — physical disability",
+    "ράμπα": "ράμπα — ramp",
+    "στρέφει": "στρέφω — to turn",
+    "μετακίνηση": "μετακίνηση — getting around, travel"
+   }
+  },
+  {
+   "id": "l104-mono-zacharoplasteio",
+   "title": "Η πρώτη μου δουλειά σε ένα ζαχαροπλαστείο",
+   "title_en": "My first job in a patisserie",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Μια νέα γυναίκα μιλά σε ένα podcast για την πρώτη της δουλειά.",
+   "script": [
+    {
+     "speaker": "Δανάη",
+     "voice": "f",
+     "el": "Ήμουν δεκαεπτά όταν έπιασα δουλειά για το καλοκαίρι σε ένα ζαχαροπλαστείο της γειτονιάς. Φανταζόμουν ότι θα έφτιαχνα τούρτες. Την πρώτη εβδομάδα, όμως, το μόνο που έκανα ήταν να πλένω ταψιά και να διπλώνω κουτιά.",
+     "en": "I was seventeen when I got a summer job at a patisserie in the neighbourhood. I imagined I'd be making cakes. The first week, though, all I did was wash baking trays and fold boxes."
+    },
+    {
+     "speaker": "Δανάη",
+     "voice": "f",
+     "el": "Ο κύριος Στέλιος, ο ιδιοκτήτης, μιλούσε ελάχιστα. Τη δεύτερη εβδομάδα με έβαλε στο ταμείο. Εκεί έμαθα το πιο σημαντικό μάθημα: ότι οι άνθρωποι δεν αγοράζουν γλυκά, αγοράζουν γιορτές. Ο κύριος που έπαιρνε κάθε Κυριακή έξι κορμούς σοκολάτας για τα εγγόνια του, η κοπέλα που ήθελε μια τούρτα με τη φράση «Συγγνώμη»…",
+     "en": "Mr Stelios, the owner, spoke very little. In the second week he put me on the till. There I learnt the most important lesson: people don't buy sweets, they buy celebrations. The gentleman who bought six chocolate logs every Sunday for his grandchildren, the girl who wanted a cake with the word 'Sorry'…"
+    },
+    {
+     "speaker": "Δανάη",
+     "voice": "f",
+     "el": "Τον Αύγουστο, την τελευταία μου μέρα, ο κύριος Στέλιος με φώναξε στο εργαστήριο και μου έδειξε πώς φτιάχνει τη σαντιγί του. «Μην το πεις σε κανέναν», μου είπε. Δεν έγινα ζαχαροπλάστρια, σπουδάζω νοσηλευτική, αλλά τη συνταγή την κρατάω ακόμα σε ένα χαρτάκι στο πορτοφόλι μου.",
+     "en": "In August, on my last day, Mr Stelios called me into the workshop and showed me how he makes his whipped cream. 'Don't tell anyone,' he said. I didn't become a pastry chef, I'm studying nursing, but I still keep the recipe on a scrap of paper in my wallet."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε η Δανάη την πρώτη εβδομάδα;",
+     "options": [
+      "Μοίραζε γλυκά στα σπίτια",
+      "Έπλενε ταψιά και δίπλωνε κουτιά",
+      "Δούλευε στο ταμείο",
+      "Έφτιαχνε τούρτες"
+     ],
+     "answer": "Έπλενε ταψιά και δίπλωνε κουτιά",
+     "why": "το μόνο που έκανα ήταν να πλένω ταψιά και να διπλώνω κουτιά"
+    },
+    {
+     "q": "Ποιο ήταν το πιο σημαντικό μάθημα που έμαθε στο ταμείο;",
+     "options": [
+      "Ότι οι πελάτες είναι πάντα βιαστικοί",
+      "Ότι πρέπει να μετράς σωστά τα ρέστα",
+      "Ότι η σοκολάτα πουλάει περισσότερο",
+      "Ότι οι άνθρωποι αγοράζουν γιορτές, όχι γλυκά"
+     ],
+     "answer": "Ότι οι άνθρωποι αγοράζουν γιορτές, όχι γλυκά",
+     "why": "οι άνθρωποι δεν αγοράζουν γλυκά, αγοράζουν γιορτές"
+    },
+    {
+     "q": "Τι κάνει σήμερα η Δανάη;",
+     "options": [
+      "Σπουδάζει νοσηλευτική",
+      "Έχει δικό της μαγαζί",
+      "Είναι ζαχαροπλάστρια",
+      "Δουλεύει ακόμα στο ζαχαροπλαστείο"
+     ],
+     "answer": "Σπουδάζει νοσηλευτική",
+     "why": "σπουδάζω νοσηλευτική"
+    }
+   ],
+   "gloss": {
+    "ζαχαροπλαστείο": "ζαχαροπλαστείο — patisserie",
+    "ταψιά": "ταψί — baking tray",
+    "ταμείο": "ταμείο — till, cash desk",
+    "κορμούς": "κορμός σοκολάτας — chocolate log",
+    "σαντιγί": "σαντιγί — whipped cream",
+    "νοσηλευτική": "νοσηλευτική — nursing"
+   }
+  },
+  {
+   "id": "l104-mono-monopati-kritis",
+   "title": "Επτά μέρες με τα πόδια στα βουνά της Κρήτης",
+   "title_en": "Seven days on foot in the mountains of Crete",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ένας άντρας μιλά σε μια εκπομπή για ταξίδια.",
+   "script": [
+    {
+     "speaker": "Μάρκος",
+     "voice": "m",
+     "el": "Πέρσι τον Μάιο περπάτησα επτά μέρες σε ένα κομμάτι του ευρωπαϊκού μονοπατιού Ε4 στην Κρήτη, από χωριό σε χωριό, με ένα σακίδιο οχτώ κιλών. Δεν ήμουν ποτέ αθλητικός τύπος· ήθελα απλώς να δω αν μπορώ.",
+     "en": "Last May I walked for seven days on a section of the European E4 path in Crete, from village to village, with an eight-kilo rucksack. I was never the sporty type; I just wanted to see if I could."
+    },
+    {
+     "speaker": "Μάρκος",
+     "voice": "m",
+     "el": "Η τρίτη μέρα ήταν η χειρότερη. Είχα φουσκάλες και στα δύο πόδια, έβρεχε, και χάθηκα για δύο ώρες επειδή δεν πρόσεξα ένα σημάδι στον βράχο. Όταν έφτασα επιτέλους στο χωριό, μια γυναίκα που με είδε μούσκεμα με έβαλε στο σπίτι της, μου έδωσε στεγνές κάλτσες και δεν με άφησε να φύγω πριν φάω.",
+     "en": "The third day was the worst. I had blisters on both feet, it was raining, and I got lost for two hours because I didn't notice a mark on the rock. When I finally reached the village, a woman who saw me soaking wet took me into her house, gave me dry socks and wouldn't let me leave before I'd eaten."
+    },
+    {
+     "speaker": "Μάρκος",
+     "voice": "m",
+     "el": "Από εκεί και πέρα κάτι άλλαξε. Δεν μετρούσα πια τα χιλιόμετρα· κοίταζα τα αγριολούλουδα και μιλούσα με τους βοσκούς. Αν με ρωτήσετε τι έμαθα, θα σας πω ότι χρειάζομαι πολύ λιγότερα πράγματα απ' όσα νόμιζα. Και ότι πρέπει πάντα να έχεις ένα ζευγάρι στεγνές κάλτσες.",
+     "en": "From then on something changed. I no longer counted the kilometres; I looked at the wild flowers and talked to the shepherds. If you ask me what I learnt, I'll tell you that I need far fewer things than I thought. And that you should always have a pair of dry socks."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί έκανε ο Μάρκος αυτή την πεζοπορία;",
+     "options": [
+      "Γιατί του το πρότεινε ένας φίλος",
+      "Γιατί ήθελε να δει αν μπορεί",
+      "Γιατί έγραφε έναν οδηγό",
+      "Γιατί ήταν έμπειρος ορειβάτης"
+     ],
+     "answer": "Γιατί ήθελε να δει αν μπορεί",
+     "why": "ήθελα απλώς να δω αν μπορώ"
+    },
+    {
+     "q": "Γιατί χάθηκε την τρίτη μέρα;",
+     "options": [
+      "Γιατί έπεσε ομίχλη",
+      "Γιατί χάλασε το κινητό του",
+      "Γιατί ακολούθησε έναν βοσκό",
+      "Γιατί δεν πρόσεξε ένα σημάδι στον βράχο"
+     ],
+     "answer": "Γιατί δεν πρόσεξε ένα σημάδι στον βράχο",
+     "why": "δεν πρόσεξα ένα σημάδι στον βράχο"
+    },
+    {
+     "q": "Τι έμαθε, σύμφωνα με τον ίδιο;",
+     "options": [
+      "Ότι χρειάζεται πολύ λιγότερα πράγματα απ' όσα νόμιζε",
+      "Ότι πρέπει να προπονηθεί περισσότερο",
+      "Ότι πρέπει να ταξιδεύει πάντα με παρέα",
+      "Ότι η Κρήτη είναι πολύ ακριβή"
+     ],
+     "answer": "Ότι χρειάζεται πολύ λιγότερα πράγματα απ' όσα νόμιζε",
+     "why": "χρειάζομαι πολύ λιγότερα πράγματα απ' όσα νόμιζα"
+    }
+   ],
+   "gloss": {
+    "μονοπατιού": "μονοπάτι — path, trail",
+    "σακίδιο": "σακίδιο — rucksack",
+    "φουσκάλες": "φουσκάλα — blister",
+    "μούσκεμα": "μούσκεμα — soaking wet",
+    "αγριολούλουδα": "αγριολούλουδο — wild flower",
+    "βοσκούς": "βοσκός — shepherd"
+   }
+  },
+  {
+   "id": "l104-c1-zeigarnik",
+   "title": "Γιατί δεν ξεχνάμε όσα αφήσαμε στη μέση;",
+   "title_en": "Why don't we forget what we left half-done?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε μια ψυχολόγο σε μια εκπομπή εκλαΐκευσης της επιστήμης.",
+   "script": [
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Σύμφωνα με μια ιστορία που επαναλαμβάνεται συχνά, όλα ξεκίνησαν σε ένα καφέ του Βερολίνου τη δεκαετία του 1920. Μια νεαρή ψυχολόγος, η Μπλούμα Ζεϊγκάρνικ, παρατήρησε ότι ο σερβιτόρος θυμόταν με ακρίβεια τις παραγγελίες που δεν είχαν ακόμα πληρωθεί, αλλά τις ξεχνούσε σχεδόν αμέσως μόλις ο λογαριασμός εξοφλούνταν. Είτε η ιστορία είναι ακριβής είτε όχι, η Ζεϊγκάρνικ αποφάσισε να ελέγξει την παρατήρηση στο εργαστήριο.",
+     "en": "According to a story that is often repeated, it all began in a Berlin café in the 1920s. A young psychologist, Bluma Zeigarnik, noticed that the waiter remembered precisely the orders that had not yet been paid, but forgot them almost immediately once the bill was settled. Whether or not the story is accurate, Zeigarnik decided to test the observation in the laboratory."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Έδωσε στους συμμετέχοντες απλές εργασίες, όπως παζλ και αριθμητικές ασκήσεις, και διέκοπτε ορισμένες πριν ολοκληρωθούν. Αργότερα, όταν τους ζητούσε να θυμηθούν τις εργασίες, εκείνες που είχαν διακοπεί ανακαλούνταν συχνότερα από όσες είχαν τελειώσει. Η εξήγηση που προτάθηκε ήταν ότι ένας ανολοκλήρωτος στόχος διατηρεί μια εσωτερική ένταση, η οποία κρατά την πληροφορία ενεργή, ώσπου ο στόχος να ικανοποιηθεί.",
+     "en": "She gave participants simple tasks, such as puzzles and arithmetic exercises, and interrupted some of them before they were completed. Later, when she asked them to recall the tasks, the interrupted ones were remembered more often than those that had been finished. The explanation proposed was that an unfinished goal maintains an inner tension, which keeps the information active until the goal is satisfied."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Οφείλω να πω ότι οι μεταγενέστερες προσπάθειες επανάληψης του πειράματος έδωσαν ανάμεικτα αποτελέσματα. Η ιδέα, πάντως, έχει γίνει ιδιαίτερα δημοφιλής: οι σεναριογράφοι τελειώνουν τα επεισόδια με μια ανοιχτή απορία, ακριβώς για να μην μπορούμε να σταματήσουμε. Υπάρχει και μια πιο πρακτική εφαρμογή. Όταν κάποιος δεν μπορεί να κοιμηθεί επειδή σκέφτεται εκκρεμότητες, μερικές έρευνες δείχνουν ότι βοηθά να γράψει ένα συγκεκριμένο σχέδιο για το πότε θα τις τακτοποιήσει. Είναι σαν να λέμε στον εγκέφαλο: «Το έχω σημειώσει, μπορείς να ησυχάσεις».",
+     "en": "I must say that later attempts to replicate the experiment gave mixed results. The idea, in any case, has become very popular: screenwriters end episodes with an open question precisely so that we can't stop. There is also a more practical application. When someone can't sleep because they are thinking about unfinished business, some studies show that it helps to write down a specific plan for when they will deal with it. It is as if we were telling the brain: 'I've noted it down, you can rest.'"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι παρατήρησε, σύμφωνα με την ιστορία, η Ζεϊγκάρνικ στο καφέ;",
+     "options": [
+      "Ότι ο σερβιτόρος θυμόταν τις απλήρωτες παραγγελίες και ξεχνούσε τις πληρωμένες",
+      "Ότι οι πελάτες ξεχνούσαν να πληρώσουν",
+      "Ότι ο σερβιτόρος σημείωνε όλες τις παραγγελίες",
+      "Ότι οι πελάτες θυμούνταν τι είχαν παραγγείλει"
+     ],
+     "answer": "Ότι ο σερβιτόρος θυμόταν τις απλήρωτες παραγγελίες και ξεχνούσε τις πληρωμένες",
+     "why": "θυμόταν με ακρίβεια τις παραγγελίες που δεν είχαν ακόμα πληρωθεί, αλλά τις ξεχνούσε σχεδόν αμέσως μόλις ο λογαριασμός εξοφλούνταν"
+    },
+    {
+     "q": "Ποιες εργασίες θυμούνταν συχνότερα οι συμμετέχοντες;",
+     "options": [
+      "Εκείνες που είχαν διακοπεί",
+      "Τις πιο δύσκολες",
+      "Εκείνες που είχαν τελειώσει",
+      "Τις πρώτες που έκαναν"
+     ],
+     "answer": "Εκείνες που είχαν διακοπεί",
+     "why": "εκείνες που είχαν διακοπεί ανακαλούνταν συχνότερα από όσες είχαν τελειώσει"
+    },
+    {
+     "q": "Τι λέει η ψυχολόγος για τις μεταγενέστερες επαναλήψεις του πειράματος;",
+     "options": [
+      "Ότι έδωσαν ανάμεικτα αποτελέσματα",
+      "Ότι επιβεβαίωσαν πλήρως το αποτέλεσμα",
+      "Ότι δεν έγιναν ποτέ",
+      "Ότι απέδειξαν ότι η ιστορία ήταν ψέμα"
+     ],
+     "answer": "Ότι έδωσαν ανάμεικτα αποτελέσματα",
+     "why": "έδωσαν ανάμεικτα αποτελέσματα"
+    },
+    {
+     "q": "Τι μπορεί να βοηθήσει κάποιον που δεν κοιμάται εξαιτίας των εκκρεμοτήτων, σύμφωνα με μερικές έρευνες;",
+     "options": [
+      "Να γράψει ένα συγκεκριμένο σχέδιο για το πότε θα τις τακτοποιήσει",
+      "Να σηκωθεί και να τις τελειώσει αμέσως",
+      "Να προσπαθήσει να μην τις σκέφτεται",
+      "Να βλέπει ένα επεισόδιο σειράς"
+     ],
+     "answer": "Να γράψει ένα συγκεκριμένο σχέδιο για το πότε θα τις τακτοποιήσει",
+     "why": "βοηθά να γράψει ένα συγκεκριμένο σχέδιο για το πότε θα τις τακτοποιήσει"
+    }
+   ],
+   "gloss": {
+    "εξοφλούνταν": "εξοφλώ — to settle, pay off",
+    "διέκοπτε": "διακόπτω — to interrupt",
+    "ανακαλούνταν": "ανακαλώ — to recall",
+    "ανολοκλήρωτος": "ανολοκλήρωτος — unfinished",
+    "μεταγενέστερες": "μεταγενέστερος — later, subsequent",
+    "ανάμεικτα": "ανάμεικτος — mixed",
+    "εκκρεμότητες": "εκκρεμότητα — pending matter",
+    "σεναριογράφοι": "σεναριογράφος — screenwriter"
+   }
+  },
+  {
+   "id": "l104-c1-esoteriki-foni",
+   "title": "Ακούμε όλοι μια φωνή μέσα μας;",
+   "title_en": "Do we all hear a voice inside us?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε μια συνέντευξη με έναν γνωστικό επιστήμονα σε μια ραδιοφωνική εκπομπή.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πολλοί από εμάς σκεφτόμαστε με λέξεις, σαν να μιλάμε σιωπηλά στον εαυτό μας. Ισχύει αυτό για όλους;",
+     "en": "Many of us think in words, as if we were speaking silently to ourselves. Is that true for everyone?"
+    },
+    {
+     "speaker": "Επιστήμονας",
+     "voice": "m",
+     "el": "Όχι, και αυτό είναι ίσως το πιο απρόσμενο εύρημα των τελευταίων χρόνων. Όταν οι ερευνητές ζητούν από ανθρώπους να καταγράφουν τι περνάει από το μυαλό τους σε τυχαίες στιγμές της ημέρας, διαπιστώνουν τεράστιες διαφορές. Κάποιοι αναφέρουν έναν σχεδόν αδιάκοπο εσωτερικό μονόλογο, ενώ άλλοι λένε ότι σπάνια ή και ποτέ δεν «ακούνε» λέξεις στο κεφάλι τους· σκέφτονται με εικόνες, με αισθήσεις ή με κάτι που δυσκολεύονται να περιγράψουν.",
+     "en": "No, and that is perhaps the most unexpected finding of recent years. When researchers ask people to record what is going through their minds at random moments of the day, they find huge differences. Some report an almost constant inner monologue, while others say they rarely or never 'hear' words in their heads; they think in images, in sensations or in something they find hard to describe."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και αυτό επηρεάζει την καθημερινότητά τους;",
+     "en": "And does that affect their daily lives?"
+    },
+    {
+     "speaker": "Επιστήμονας",
+     "voice": "m",
+     "el": "Λιγότερο απ' όσο θα περίμενε κανείς. Οι άνθρωποι με ελάχιστο εσωτερικό λόγο ζουν, δουλεύουν και συζητούν κανονικά. Σε ορισμένες πρόσφατες μελέτες τα πήγαν κάπως χειρότερα σε δοκιμασίες όπου έπρεπε να συγκρατήσουν μια σειρά λέξεων ή να κρίνουν αν δύο λέξεις ομοιοκαταληκτούν, πιθανώς επειδή δεν «επαναλάμβαναν» τις λέξεις μέσα τους. Όμως πρόκειται για μικρά δείγματα και τα συμπεράσματα είναι προσωρινά.",
+     "en": "Less than one would expect. People with very little inner speech live, work and converse normally. In some recent studies they did somewhat worse on tests where they had to hold a series of words in memory or judge whether two words rhyme, probably because they weren't 'repeating' the words to themselves. But these are small samples and the conclusions are provisional."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Γιατί αργήσαμε τόσο να το ανακαλύψουμε;",
+     "en": "Why did it take us so long to discover this?"
+    },
+    {
+     "speaker": "Επιστήμονας",
+     "voice": "m",
+     "el": "Επειδή ο καθένας θεωρεί αυτονόητο ότι οι άλλοι σκέφτονται όπως εκείνος. Δεν έχουμε πρόσβαση στο μυαλό του διπλανού μας, και σπάνια ρωτάμε. Πολλοί συμμετέχοντες μάς λένε ότι έμειναν άφωνοι όταν συνειδητοποίησαν ότι η δική τους εμπειρία δεν είναι η μόνη.",
+     "en": "Because everyone takes it for granted that others think as they do. We don't have access to the mind of the person next to us, and we rarely ask. Many participants tell us they were speechless when they realised that their own experience is not the only one."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι διαπιστώνουν οι ερευνητές όταν οι άνθρωποι καταγράφουν τις σκέψεις τους;",
+     "options": [
+      "Ότι υπάρχουν τεράστιες διαφορές από άνθρωπο σε άνθρωπο",
+      "Ότι οι σκέψεις είναι ίδιες το πρωί και το βράδυ",
+      "Ότι κανείς δεν σκέφτεται με εικόνες",
+      "Ότι όλοι σκέφτονται με λέξεις"
+     ],
+     "answer": "Ότι υπάρχουν τεράστιες διαφορές από άνθρωπο σε άνθρωπο",
+     "why": "διαπιστώνουν τεράστιες διαφορές"
+    },
+    {
+     "q": "Πώς επηρεάζει την καθημερινότητα ο ελάχιστος εσωτερικός λόγος;",
+     "options": [
+      "Τους εμποδίζει να συζητούν",
+      "Τους δυσκολεύει να βρουν δουλειά",
+      "Λιγότερο απ' όσο θα περίμενε κανείς",
+      "Τους κάνει πιο δημιουργικούς"
+     ],
+     "answer": "Λιγότερο απ' όσο θα περίμενε κανείς",
+     "why": "Λιγότερο απ' όσο θα περίμενε κανείς"
+    },
+    {
+     "q": "Σε τι τα πήγαν κάπως χειρότερα σε ορισμένες μελέτες;",
+     "options": [
+      "Στη συγκράτηση μιας σειράς λέξεων και στην κρίση της ομοιοκαταληξίας",
+      "Στην ανάγνωση",
+      "Στα μαθηματικά",
+      "Στην αναγνώριση προσώπων"
+     ],
+     "answer": "Στη συγκράτηση μιας σειράς λέξεων και στην κρίση της ομοιοκαταληξίας",
+     "why": "έπρεπε να συγκρατήσουν μια σειρά λέξεων ή να κρίνουν αν δύο λέξεις ομοιοκαταληκτούν"
+    },
+    {
+     "q": "Γιατί αργήσαμε να το ανακαλύψουμε, σύμφωνα με τον επιστήμονα;",
+     "options": [
+      "Γιατί οι άνθρωποι ντρέπονταν να μιλήσουν",
+      "Γιατί οι ψυχολόγοι δεν ενδιαφέρονταν",
+      "Γιατί ο καθένας θεωρεί αυτονόητο ότι οι άλλοι σκέφτονται όπως εκείνος",
+      "Γιατί δεν υπήρχαν οι κατάλληλες μηχανές"
+     ],
+     "answer": "Γιατί ο καθένας θεωρεί αυτονόητο ότι οι άλλοι σκέφτονται όπως εκείνος",
+     "why": "ο καθένας θεωρεί αυτονόητο ότι οι άλλοι σκέφτονται όπως εκείνος"
+    }
+   ],
+   "gloss": {
+    "απρόσμενο": "απρόσμενος — unexpected",
+    "εύρημα": "εύρημα — finding",
+    "αδιάκοπο": "αδιάκοπος — constant, incessant",
+    "συγκρατήσουν": "συγκρατώ — to retain, hold",
+    "ομοιοκαταληκτούν": "ομοιοκαταληκτώ — to rhyme",
+    "δείγματα": "δείγμα — sample",
+    "αυτονόητο": "αυτονόητος — self-evident",
+    "άφωνοι": "άφωνος — speechless"
+   }
+  }
+ ]
+}
