@@ -1,0 +1,834 @@
+{
+ "items": [
+  {
+   "id": "l96-ann-chameno-paidi",
+   "title": "Ένα παιδί ψάχνει τη μητέρα του",
+   "title_en": "A child looking for his mother",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Κάνετε ψώνια σε ένα μεγάλο εμπορικό κέντρο το Σάββατο το μεσημέρι. Ακούτε μια ανακοίνωση από τα μεγάφωνα.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Αγαπητοί επισκέπτες, παρακαλούμε για λίγη προσοχή. Στο γραφείο εξυπηρέτησης πελατών, στο ισόγειο, δίπλα στην κεντρική είσοδο, βρίσκεται ένα αγοράκι περίπου πέντε ετών, που λέγεται Νικόλας και ψάχνει τη μητέρα του.",
+     "en": "Dear visitors, your attention please. At the customer service desk, on the ground floor, next to the main entrance, there is a little boy of about five, called Nikolas, who is looking for his mother."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ο Νικόλας φοράει κόκκινο μπουφάν και μπλε τζιν και κρατάει ένα πράσινο μπαλόνι. Μας είπε ότι ήταν με τη μαμά του σε ένα κατάστημα με παιχνίδια στον πρώτο όροφο. Παρακαλείται η μητέρα του να περάσει από το γραφείο εξυπηρέτησης με την ταυτότητά της.",
+     "en": "Nikolas is wearing a red jacket and blue jeans and is holding a green balloon. He told us he was with his mum in a toy shop on the first floor. His mother is asked to come to the customer service desk with her identity card."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ο μικρός είναι καλά και τον προσέχει μια υπάλληλός μας. Αν κάποιος επισκέπτης δει μια κυρία που φαίνεται να ψάχνει ένα παιδί, ας ενημερώσει τον πλησιέστερο φύλακα ασφαλείας. Ευχαριστούμε πολύ.",
+     "en": "The little one is fine and one of our employees is looking after him. If any visitor sees a woman who seems to be looking for a child, please tell the nearest security guard. Thank you very much."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού βρίσκεται τώρα ο Νικόλας;",
+     "options": [
+      "Στο κατάστημα με τα παιχνίδια",
+      "Στο πάρκινγκ",
+      "Στο γραφείο εξυπηρέτησης πελατών στο ισόγειο",
+      "Στον πρώτο όροφο"
+     ],
+     "answer": "Στο γραφείο εξυπηρέτησης πελατών στο ισόγειο",
+     "why": "Στο γραφείο εξυπηρέτησης πελατών, στο ισόγειο"
+    },
+    {
+     "q": "Τι πρέπει να φέρει η μητέρα;",
+     "options": [
+      "Την ταυτότητά της",
+      "Το πράσινο μπαλόνι",
+      "Την απόδειξη αγοράς",
+      "Μια φωτογραφία του παιδιού"
+     ],
+     "answer": "Την ταυτότητά της",
+     "why": "με την ταυτότητά της"
+    },
+    {
+     "q": "Τι ζητούν από τους άλλους επισκέπτες;",
+     "options": [
+      "Να μείνουν στις θέσεις τους",
+      "Να τηλεφωνήσουν στην αστυνομία",
+      "Να βγουν από την κεντρική είσοδο",
+      "Να ενημερώσουν έναν φύλακα αν δουν μια κυρία που ψάχνει παιδί"
+     ],
+     "answer": "Να ενημερώσουν έναν φύλακα αν δουν μια κυρία που ψάχνει παιδί",
+     "why": "ας ενημερώσει τον πλησιέστερο φύλακα ασφαλείας"
+    }
+   ],
+   "gloss": {
+    "εμπορικό κέντρο": "εμπορικό κέντρο — shopping centre, mall",
+    "μεγάφωνα": "μεγάφωνο — loudspeaker",
+    "εξυπηρέτησης πελατών": "εξυπηρέτηση πελατών — customer service",
+    "ισόγειο": "ισόγειο — ground floor",
+    "αγοράκι": "αγοράκι — little boy",
+    "μπουφάν": "μπουφάν — jacket",
+    "μπαλόνι": "μπαλόνι — balloon",
+    "ταυτότητά": "ταυτότητα — identity card",
+    "προσέχει": "προσέχω — to look after",
+    "πλησιέστερο": "πλησιέστερος — nearest",
+    "φύλακα ασφαλείας": "φύλακας ασφαλείας — security guard"
+   }
+  },
+  {
+   "id": "l96-vm-vivliodetis",
+   "title": "Το παλιό βιβλίο είναι έτοιμο",
+   "title_en": "The old book is ready",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Πριν από λίγες εβδομάδες δώσατε σε ένα βιβλιοδετείο ένα παλιό οικογενειακό βιβλίο για επιδιόρθωση. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Βιβλιοδέτης",
+     "voice": "m",
+     "el": "Καλημέρα σας, από το βιβλιοδετείο Σταυρίδη σας παίρνω, για το Ευαγγέλιο της γιαγιάς σας. Σας έχω καλά νέα: η επιδιόρθωση τελείωσε, και νομίζω ότι θα μείνετε ευχαριστημένη. Ράψαμε ξανά όλα τα τετράδια και κολλήσαμε τις σελίδες που είχαν σκιστεί με ειδικό ιαπωνικό χαρτί.",
+     "en": "Good morning, I'm calling from the Stavridis bindery about your grandmother's Gospel book. I have good news: the repair is finished, and I think you'll be pleased. We re-sewed all the gatherings and mended the torn pages with special Japanese paper."
+    },
+    {
+     "speaker": "Βιβλιοδέτης",
+     "voice": "m",
+     "el": "Το εξώφυλλο, όπως είχαμε πει, το κρατήσαμε το παλιό, το δερμάτινο, γιατί ήταν σε αρκετά καλή κατάσταση. Μόνο η ράχη ήταν κατεστραμμένη, κι εκεί βάλαμε καινούργιο δέρμα, στο ίδιο περίπου χρώμα. Μια διαφορά φαίνεται, αν κοιτάξετε προσεκτικά, αλλά είναι πολύ διακριτική.",
+     "en": "The cover, as we'd agreed, we kept the old leather one, because it was in fairly good condition. Only the spine was ruined, and there we put new leather, in roughly the same colour. You can see a difference if you look closely, but it is very discreet."
+    },
+    {
+     "speaker": "Βιβλιοδέτης",
+     "voice": "m",
+     "el": "Το κόστος βγήκε λίγο μικρότερο από ό,τι σας είχα πει, εκατόν είκοσι ευρώ αντί για εκατόν πενήντα. Μπορείτε να περάσετε από Δευτέρα μέχρι Παρασκευή, εννιά με τρεις. Μην το βάλετε σε μέρος με υγρασία, και θα σας εξηγήσω κι άλλα όταν έρθετε. Καλή σας μέρα.",
+     "en": "The cost came to a little less than I'd told you, a hundred and twenty euros instead of a hundred and fifty. You can come by Monday to Friday, nine to three. Don't keep it somewhere damp, and I'll explain more when you come. Have a good day."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έγινε με το εξώφυλλο;",
+     "options": [
+      "Αντικαταστάθηκε ολόκληρο",
+      "Βάφτηκε σε άλλο χρώμα",
+      "Δεν το άγγιξαν καθόλου",
+      "Κρατήθηκε το παλιό, και μόνο η ράχη πήρε καινούργιο δέρμα"
+     ],
+     "answer": "Κρατήθηκε το παλιό, και μόνο η ράχη πήρε καινούργιο δέρμα",
+     "why": "Μόνο η ράχη ήταν κατεστραμμένη, κι εκεί βάλαμε καινούργιο δέρμα"
+    },
+    {
+     "q": "Πόσο θα πληρώσει η πελάτισσα;",
+     "options": [
+      "Τίποτα ακόμα",
+      "Εκατόν είκοσι ευρώ",
+      "Εκατό ευρώ",
+      "Εκατόν πενήντα ευρώ"
+     ],
+     "answer": "Εκατόν είκοσι ευρώ",
+     "why": "εκατόν είκοσι ευρώ αντί για εκατόν πενήντα"
+    },
+    {
+     "q": "Τι συμβουλεύει ο βιβλιοδέτης;",
+     "options": [
+      "Να μην το ανοίγει συχνά",
+      "Να μην κρατά το βιβλίο σε μέρος με υγρασία",
+      "Να το διαβάζει με γάντια",
+      "Να το βάλει σε βιτρίνα"
+     ],
+     "answer": "Να μην κρατά το βιβλίο σε μέρος με υγρασία",
+     "why": "Μην το βάλετε σε μέρος με υγρασία"
+    }
+   ],
+   "gloss": {
+    "βιβλιοδετείο": "βιβλιοδετείο — bookbindery",
+    "επιδιόρθωση": "επιδιόρθωση — repair",
+    "τετράδια": "τετράδιο — (here) gathering, section of a book",
+    "σκιστεί": "σκίζομαι — to be torn",
+    "εξώφυλλο": "εξώφυλλο — cover",
+    "δερμάτινο": "δερμάτινος — leather (adj.)",
+    "ράχη": "ράχη — spine (of a book)",
+    "κατεστραμμένη": "κατεστραμμένος — ruined, damaged",
+    "διακριτική": "διακριτικός — discreet",
+    "υγρασία": "υγρασία — damp, humidity"
+   }
+  },
+  {
+   "id": "l96-dia-modistra",
+   "title": "Στη μοδίστρα",
+   "title_en": "At the dressmaker's",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ένας νεαρός άντρας πηγαίνει σε μια μοδίστρα της γειτονιάς με ένα κοστούμι που θέλει να φορέσει σε έναν γάμο.",
+   "script": [
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Καλησπέρα. Σε δέκα μέρες είμαι κουμπάρος σε έναν γάμο, και το κοστούμι μου, από τότε που το αγόρασα, έχω χάσει κάπου οχτώ κιλά, και τώρα μου κρέμεται παντού.",
+     "en": "Good evening. In ten days I'm best man at a wedding, and since I bought my suit I've lost about eight kilos. It hangs everywhere."
+    },
+    {
+     "speaker": "Μοδίστρα",
+     "voice": "f",
+     "el": "Μπράβο σας για τα κιλά! Για να δούμε. Φορέστε το σακάκι, παρακαλώ. Ναι, στους ώμους είναι εντάξει, αυτό είναι το σημαντικό, γιατί οι ώμοι δύσκολα φτιάχνονται. Θα το στενέψω στη μέση και στην πλάτη.",
+     "en": "Well done on the kilos! Let's see. Put on the jacket, please. Yes, it's fine on the shoulders, which is what matters, because shoulders are hard to alter. I'll take it in at the waist and the back."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Και το παντελόνι; Μου πέφτει, πρέπει να φοράω ζώνη για να το κρατάω.",
+     "en": "And the trousers? They fall down; I have to wear a belt to keep them up."
+    },
+    {
+     "speaker": "Μοδίστρα",
+     "voice": "f",
+     "el": "Το παντελόνι θα το στενέψω στη μέση και θα το κοντύνω λίγο, γιατί τώρα πατάτε τα μπατζάκια. Θα βάλω καρφίτσες, για να δούμε το σωστό μήκος. Τα παπούτσια του γάμου τα έχετε μαζί σας; Το μήκος το μετράμε πάντα με τα παπούτσια που θα φορέσετε.",
+     "en": "I'll take in the trousers at the waist and shorten them a little, because right now you're treading on the hems. I'll put in pins so we can see the right length. Do you have the shoes for the wedding with you? We always measure the length with the shoes you'll be wearing."
+    },
+    {
+     "speaker": "Πελάτης",
+     "voice": "m",
+     "el": "Όχι, δεν τα έφερα. Μπορώ να ξανάρθω αύριο. Πόσο θα κοστίσει και πότε θα είναι έτοιμο;",
+     "en": "No, I didn't bring them. I can come back tomorrow. How much will it cost and when will it be ready?"
+    },
+    {
+     "speaker": "Μοδίστρα",
+     "voice": "f",
+     "el": "Όλα μαζί σαράντα πέντε ευρώ. Ελάτε αύριο με τα παπούτσια για τις καρφίτσες, και το Σάββατο θα το έχετε. Έτσι θα μείνει και χρόνος για μια τελευταία πρόβα, αν χρειαστεί.",
+     "en": "Forty-five euros altogether. Come tomorrow with the shoes for the pins, and you'll have it on Saturday. That way there'll be time for a final fitting, if needed."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί η μοδίστρα χαίρεται που το σακάκι κάθεται καλά στους ώμους;",
+     "options": [
+      "Γιατί δεν έχει χρόνο",
+      "Γιατί θα κοστίσει λιγότερο",
+      "Γιατί το ύφασμα είναι λεπτό",
+      "Γιατί οι ώμοι δύσκολα φτιάχνονται"
+     ],
+     "answer": "Γιατί οι ώμοι δύσκολα φτιάχνονται",
+     "why": "οι ώμοι δύσκολα φτιάχνονται"
+    },
+    {
+     "q": "Γιατί ο πελάτης πρέπει να ξανάρθει αύριο;",
+     "options": [
+      "Για να πληρώσει",
+      "Για να διαλέξει ύφασμα",
+      "Για να φέρει τα παπούτσια του γάμου",
+      "Για να φέρει τη ζώνη του"
+     ],
+     "answer": "Για να φέρει τα παπούτσια του γάμου",
+     "why": "Το μήκος το μετράμε πάντα με τα παπούτσια που θα φορέσετε"
+    },
+    {
+     "q": "Πότε θα είναι έτοιμο το κοστούμι;",
+     "options": [
+      "Αύριο",
+      "Την παραμονή του γάμου",
+      "Το Σάββατο",
+      "Σε δέκα μέρες"
+     ],
+     "answer": "Το Σάββατο",
+     "why": "το Σάββατο θα το έχετε"
+    }
+   ],
+   "gloss": {
+    "μοδίστρα": "μοδίστρα — dressmaker, seamstress",
+    "κοστούμι": "κοστούμι — suit",
+    "κουμπάρος": "κουμπάρος — best man, wedding sponsor",
+    "κρέμεται": "κρέμομαι — to hang",
+    "σακάκι": "σακάκι — jacket",
+    "στενέψω": "στενεύω — to take in, make narrower",
+    "ζώνη": "ζώνη — belt",
+    "κοντύνω": "κονταίνω — to shorten",
+    "μπατζάκια": "μπατζάκι — trouser leg, hem",
+    "καρφίτσες": "καρφίτσα — pin",
+    "πρόβα": "πρόβα — fitting"
+   }
+  },
+  {
+   "id": "l96-int-kompoloi",
+   "title": "Ο τεχνίτης των κομπολογιών",
+   "title_en": "The komboloi maker",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Σε μια ραδιοφωνική εκπομπή για τις παραδοσιακές τέχνες, μια δημοσιογράφος μιλά με έναν άντρα που φτιάχνει κομπολόγια στο Ναύπλιο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πώς ξεκινήσατε να φτιάχνετε κομπολόγια;",
+     "en": "How did you start making komboloi?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Από τον παππού μου. Είχε πάντα ένα κομπολόι στο χέρι, και όταν ήμουν παιδί μού έδινε χάντρες να τις περνάω σε κλωστή. Αργότερα δούλεψα χρόνια σε τράπεζα, αλλά όταν βγήκα στη σύνταξη, ξαναγύρισα σε αυτό που αγαπούσα. Εδώ στο Ναύπλιο υπάρχει μάλιστα και μουσείο κομπολογιού, οπότε βρήκα και παρέα.",
+     "en": "From my grandfather. He always had a komboloi in his hand, and when I was a child he gave me beads to thread on a string. Later I worked for years in a bank, but when I retired I went back to what I loved. Here in Nafplio there's even a komboloi museum, so I found company too."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Από τι υλικά φτιάχνονται;",
+     "en": "What materials are they made from?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Από πολλά: κεχριμπάρι, κοράλλι, ξύλο, κόκαλο, ακόμα και πέτρες. Το κεχριμπάρι είναι το πιο ακριβό και το πιο περιζήτητο, γιατί είναι ζεστό στην αφή και κάνει ωραίο ήχο. Δυστυχώς κυκλοφορούν και πολλές απομιμήσεις από πλαστικό, που ο αγοραστής δεν τις ξεχωρίζει εύκολα.",
+     "en": "From many: amber, coral, wood, bone, even stones. Amber is the most expensive and the most sought-after, because it's warm to the touch and makes a nice sound. Unfortunately, there are also many plastic imitations around, which buyers don't easily tell apart."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ισχύει ότι οι χάντρες πρέπει να είναι μονός αριθμός;",
+     "en": "Is it true that the beads have to be an odd number?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Συνήθως ναι, αν και δεν είναι νόμος. Υπάρχει και η μεγαλύτερη χάντρα, που τη λέμε «παπά», και από κάτω η φούντα. Πολλοί πιστεύουν ότι το κομπολόι βγαίνει από το κομποσκοίνι των μοναχών, αλλά σήμερα δεν έχει καμία θρησκευτική σημασία. Είναι ένα παιχνίδι για τα χέρια και, θα έλεγα, ένα φάρμακο για το άγχος.",
+     "en": "Usually yes, though it isn't a rule. There's also the larger bead, which we call the 'priest', and the tassel below it. Many believe the komboloi comes from the monks' prayer rope, but today it has no religious meaning. It's a toy for the hands and, I'd say, a medicine for stress."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε ο τεχνίτης πριν αρχίσει να φτιάχνει κομπολόγια;",
+     "options": [
+      "Δούλευε σε τράπεζα",
+      "Ήταν κοσμηματοπώλης",
+      "Ήταν ψαράς",
+      "Δούλευε σε μουσείο"
+     ],
+     "answer": "Δούλευε σε τράπεζα",
+     "why": "δούλεψα χρόνια σε τράπεζα"
+    },
+    {
+     "q": "Γιατί είναι περιζήτητο το κεχριμπάρι;",
+     "options": [
+      "Γιατί βρίσκεται εύκολα",
+      "Γιατί είναι ζεστό στην αφή και κάνει ωραίο ήχο",
+      "Γιατί δεν σπάει",
+      "Γιατί είναι ελαφρύ"
+     ],
+     "answer": "Γιατί είναι ζεστό στην αφή και κάνει ωραίο ήχο",
+     "why": "είναι ζεστό στην αφή και κάνει ωραίο ήχο"
+    },
+    {
+     "q": "Τι λέει για τη θρησκευτική σημασία του κομπολογιού σήμερα;",
+     "options": [
+      "Ότι το χρησιμοποιούν μόνο οι μοναχοί",
+      "Ότι δεν έχει καμία",
+      "Ότι δεν τη γνωρίζει",
+      "Ότι είναι μεγάλη"
+     ],
+     "answer": "Ότι δεν έχει καμία",
+     "why": "σήμερα δεν έχει καμία θρησκευτική σημασία"
+    }
+   ],
+   "gloss": {
+    "κομπολόγια": "κομπολόι — komboloi, worry beads",
+    "χάντρες": "χάντρα — bead",
+    "κλωστή": "κλωστή — thread, string",
+    "σύνταξη": "βγαίνω στη σύνταξη — to retire",
+    "κεχριμπάρι": "κεχριμπάρι — amber",
+    "κοράλλι": "κοράλλι — coral",
+    "κόκαλο": "κόκαλο — bone",
+    "περιζήτητο": "περιζήτητος — sought-after",
+    "αφή": "αφή — touch",
+    "απομιμήσεις": "απομίμηση — imitation",
+    "μονός": "μονός — odd (number)",
+    "φούντα": "φούντα — tassel",
+    "κομποσκοίνι": "κομποσκοίνι — prayer rope"
+   }
+  },
+  {
+   "id": "l96-rep-sapouni",
+   "title": "Σαπούνι από λάδι, όπως παλιά",
+   "title_en": "Olive-oil soap, the old way",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ σε μια εκπομπή για την ύπαιθρο.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Σε ένα χωριό έξω από τα Χανιά, η κυρία Αργυρώ φτιάχνει σαπούνι όπως το έφτιαχνε η μητέρα της: με ελαιόλαδο, νερό και καυστική σόδα. Παλιότερα, λέει, κάθε σπίτι στην Κρήτη έφτιαχνε το δικό του σαπούνι, συνήθως από λάδι που είχε παλιώσει και δεν τρωγόταν πια, για να μην πάει τίποτα χαμένο.",
+     "en": "In a village outside Chania, Mrs Argyro makes soap the way her mother made it: with olive oil, water and caustic soda. In the old days, she says, every house in Crete made its own soap, usually from oil that had gone old and was no longer eaten, so that nothing went to waste."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η διαδικασία θέλει προσοχή. Η καυστική σόδα καίει, γι' αυτό η κυρία Αργυρώ φοράει γάντια και γυαλιά και δουλεύει πάντα στην αυλή, ποτέ μέσα στο σπίτι. Έπειτα ανακατεύει το μείγμα με μια ξύλινη κουτάλα για αρκετή ώρα, μέχρι να πήξει σαν κρέμα, και μετά το ρίχνει σε ξύλινα καλούπια.",
+     "en": "The process needs care. Caustic soda burns, which is why Mrs Argyro wears gloves and goggles and always works in the yard, never indoors. She stirs the mixture with a wooden spoon for quite a while, until it thickens like cream, and then pours it into wooden moulds."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Το πιο δύσκολο, όμως, είναι η υπομονή. Τα κομμάτια πρέπει να στεγνώσουν σε σκιερό μέρος για έναν με δύο μήνες πριν χρησιμοποιηθούν. Τα τελευταία χρόνια, η εγγονή της πουλάει τα σαπούνια μέσω διαδικτύου, και οι παραγγελίες έρχονται ακόμα και από το εξωτερικό.",
+     "en": "The hardest thing, though, is patience. The bars must dry in a shady place for one to two months before they're used. In recent years, her granddaughter has been selling the soaps online, and orders come even from abroad."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λάδι χρησιμοποιούσαν παλιότερα για το σαπούνι;",
+     "options": [
+      "Αγορασμένο λάδι",
+      "Το καλύτερο λάδι της χρονιάς",
+      "Λάδι από άλλους σπόρους",
+      "Λάδι που είχε παλιώσει και δεν τρωγόταν"
+     ],
+     "answer": "Λάδι που είχε παλιώσει και δεν τρωγόταν",
+     "why": "από λάδι που είχε παλιώσει και δεν τρωγόταν πια"
+    },
+    {
+     "q": "Γιατί δουλεύει πάντα στην αυλή;",
+     "options": [
+      "Γιατί η καυστική σόδα καίει",
+      "Γιατί χρειάζεται ήλιο",
+      "Για να τη βλέπουν οι γείτονες",
+      "Γιατί η κουζίνα είναι μικρή"
+     ],
+     "answer": "Γιατί η καυστική σόδα καίει",
+     "why": "Η καυστική σόδα καίει"
+    },
+    {
+     "q": "Πόσο πρέπει να στεγνώσουν τα κομμάτια;",
+     "options": [
+      "Έναν με δύο μήνες",
+      "Μία εβδομάδα",
+      "Μία νύχτα",
+      "Έναν χρόνο"
+     ],
+     "answer": "Έναν με δύο μήνες",
+     "why": "για έναν με δύο μήνες"
+    }
+   ],
+   "gloss": {
+    "ύπαιθρο": "ύπαιθρος — countryside",
+    "σαπούνι": "σαπούνι — soap",
+    "καυστική σόδα": "καυστική σόδα — caustic soda",
+    "παλιώσει": "παλιώνω — to get old",
+    "χαμένο": "πάω χαμένος — to go to waste",
+    "αυλή": "αυλή — yard",
+    "ανακατεύει": "ανακατεύω — to stir, mix",
+    "μείγμα": "μείγμα — mixture",
+    "κουτάλα": "κουτάλα — ladle, large spoon",
+    "πήξει": "πήζω — to thicken, set",
+    "καλούπια": "καλούπι — mould",
+    "σκιερό": "σκιερός — shady",
+    "παραγγελίες": "παραγγελία — order"
+   }
+  },
+  {
+   "id": "l96-rep-psygeio-geitonias",
+   "title": "Ένα ψυγείο για όλη τη γειτονιά",
+   "title_en": "A fridge for the whole neighbourhood",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ σε ένα τοπικό ραδιόφωνο της Θεσσαλονίκης.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Στην είσοδο ενός πολιτιστικού συλλόγου στην Άνω Πόλη, ένα παλιό ψυγείο, βαμμένο με χρωματιστά λουλούδια, έχει γίνει σημείο συνάντησης. Είναι ένα κοινοτικό ψυγείο: όποιος έχει φαγητό που περισσεύει μπορεί να το αφήσει, και όποιος το χρειάζεται μπορεί να το πάρει, χωρίς να ρωτήσει κανέναν και χωρίς να δώσει εξηγήσεις.",
+     "en": "At the entrance of a cultural association in the Upper Town, an old fridge, painted with colourful flowers, has become a meeting point. It is a community fridge: anyone with leftover food can leave it, and anyone who needs it can take it, without asking anyone and without giving explanations."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Υπάρχουν, βέβαια, κάποιοι κανόνες, γραμμένοι σε ένα χαρτί πάνω στην πόρτα. Δεν επιτρέπονται ωμό κρέας, ψάρι και αλκοόλ. Το μαγειρεμένο φαγητό πρέπει να είναι σε κλειστό δοχείο, με ετικέτα που να γράφει τι περιέχει και πότε μαγειρεύτηκε. Κάθε βράδυ ένας εθελοντής ελέγχει το ψυγείο και πετάει ό,τι έχει μείνει πάνω από δύο μέρες.",
+     "en": "There are, of course, some rules, written on a sheet of paper on the door. Raw meat, fish and alcohol are not allowed. Cooked food must be in a closed container, with a label saying what it contains and when it was cooked. Every evening a volunteer checks the fridge and throws away anything that has been there more than two days."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι εμπνευστές της ιδέας λένε ότι στην αρχή φοβούνταν πως το ψυγείο θα έμενε άδειο. Συνέβη το αντίθετο. Ένας φούρνος της γειτονιάς αφήνει κάθε απόγευμα το ψωμί που δεν πούλησε, και ένα μανάβικο τα φρούτα που δεν είναι πια για βιτρίνα αλλά τρώγονται μια χαρά.",
+     "en": "The people behind the idea say that at first they were afraid the fridge would stay empty. The opposite happened. A local bakery leaves the bread it didn't sell every afternoon, and a greengrocer the fruit that is no longer fit for the window but is perfectly edible."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιος μπορεί να πάρει φαγητό από το ψυγείο;",
+     "options": [
+      "Όσοι έχουν κάρτα από τον δήμο",
+      "Μόνο τα μέλη του συλλόγου",
+      "Όποιος το χρειάζεται, χωρίς εξηγήσεις",
+      "Μόνο όσοι αφήνουν κι εκείνοι φαγητό"
+     ],
+     "answer": "Όποιος το χρειάζεται, χωρίς εξηγήσεις",
+     "why": "όποιος το χρειάζεται μπορεί να το πάρει, χωρίς να ρωτήσει κανέναν"
+    },
+    {
+     "q": "Τι πρέπει να γράφει η ετικέτα στο μαγειρεμένο φαγητό;",
+     "options": [
+      "Το όνομα του μάγειρα",
+      "Τι περιέχει και πότε μαγειρεύτηκε",
+      "Για πόσα άτομα είναι",
+      "Την τιμή του"
+     ],
+     "answer": "Τι περιέχει και πότε μαγειρεύτηκε",
+     "why": "με ετικέτα που να γράφει τι περιέχει και πότε μαγειρεύτηκε"
+    },
+    {
+     "q": "Τι φοβούνταν στην αρχή οι εμπνευστές της ιδέας;",
+     "options": [
+      "Ότι θα έμενε άδειο",
+      "Ότι θα το έκλεινε ο δήμος",
+      "Ότι θα το έπαιρναν μόνο λίγοι",
+      "Ότι θα χαλούσε"
+     ],
+     "answer": "Ότι θα έμενε άδειο",
+     "why": "φοβούνταν πως το ψυγείο θα έμενε άδειο"
+    }
+   ],
+   "gloss": {
+    "συλλόγου": "σύλλογος — association, club",
+    "βαμμένο": "βαμμένος — painted",
+    "κοινοτικό": "κοινοτικός — community (adj.)",
+    "περισσεύει": "περισσεύω — to be left over",
+    "ωμό": "ωμός — raw",
+    "δοχείο": "δοχείο — container",
+    "ετικέτα": "ετικέτα — label",
+    "εθελοντής": "εθελοντής — volunteer",
+    "εμπνευστές": "εμπνευστής — originator, person behind an idea",
+    "μανάβικο": "μανάβικο — greengrocer's",
+    "βιτρίνα": "βιτρίνα — shop window"
+   }
+  },
+  {
+   "id": "l96-mono-eidopoiiseis",
+   "title": "Έκλεισα τις ειδοποιήσεις",
+   "title_en": "I switched off my notifications",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Σε ένα podcast για την καθημερινότητα, μια ακροάτρια περιγράφει μια μικρή αλλαγή που έκανε.",
+   "script": [
+    {
+     "speaker": "Ακροάτρια",
+     "voice": "f",
+     "el": "Πριν από έξι μήνες μέτρησα πόσες φορές την ημέρα κοίταζα το κινητό μου. Το ίδιο το κινητό μού το έδειξε: πάνω από εκατό. Και τις περισσότερες φορές δεν το έπιανα επειδή ήθελα κάτι, αλλά επειδή χτυπούσε ή άναβε για κάποια ειδοποίηση, μια προσφορά, ένα «like», ένα μήνυμα σε μια ομάδα που δεν με αφορούσε.",
+     "en": "Six months ago I counted how many times a day I looked at my phone. The phone itself showed me: more than a hundred. And most of the time I didn't pick it up because I wanted something, but because it rang or lit up for some notification, an offer, a 'like', a message in a group that had nothing to do with me."
+    },
+    {
+     "speaker": "Ακροάτρια",
+     "voice": "f",
+     "el": "Έτσι, ένα βράδυ, έκλεισα όλες τις ειδοποιήσεις, εκτός από τις κλήσεις και τα μηνύματα από τέσσερις ανθρώπους: τον άντρα μου, τη μητέρα μου, το σχολείο του γιου μου και τη συνάδελφό μου. Τις πρώτες μέρες ένιωθα άγχος, σαν να μου ξέφευγε κάτι σημαντικό. Κοίταζα το κινητό μόνο και μόνο για να βεβαιωθώ ότι δεν είχε γίνει τίποτα.",
+     "en": "So one evening I switched off all notifications, except for calls and messages from four people: my husband, my mother, my son's school and my colleague. For the first few days I felt anxious, as though I was missing something important. I'd check the phone just to make sure nothing had happened."
+    },
+    {
+     "speaker": "Ακροάτρια",
+     "voice": "f",
+     "el": "Μετά από δύο εβδομάδες, όμως, κάτι άλλαξε. Διαβάζω πάλι βιβλία, κάτι που είχα να κάνω χρόνια, και στη δουλειά τελειώνω τα πράγματα πιο γρήγορα. Δεν έγινα ερημίτισσα: απλώς τώρα αποφασίζω εγώ πότε θα κοιτάξω το κινητό, κι όχι το κινητό πότε θα κοιτάξω εγώ.",
+     "en": "After two weeks, though, something changed. I read books again, something I hadn't done for years, and at work I get things done faster. I haven't become a hermit: it's just that now I decide when I look at the phone, not the phone when I look at it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί έπιανε τις περισσότερες φορές το κινητό;",
+     "options": [
+      "Επειδή χτυπούσε ή άναβε για κάποια ειδοποίηση",
+      "Επειδή δούλευε από το σπίτι",
+      "Επειδή βαριόταν",
+      "Επειδή περίμενε σημαντικά τηλεφωνήματα"
+     ],
+     "answer": "Επειδή χτυπούσε ή άναβε για κάποια ειδοποίηση",
+     "why": "επειδή χτυπούσε ή άναβε για κάποια ειδοποίηση"
+    },
+    {
+     "q": "Πώς ένιωθε τις πρώτες μέρες;",
+     "options": [
+      "Αγχωμένη, σαν να της ξέφευγε κάτι σημαντικό",
+      "Αδιάφορη",
+      "Ανακουφισμένη",
+      "Θυμωμένη με την οικογένειά της"
+     ],
+     "answer": "Αγχωμένη, σαν να της ξέφευγε κάτι σημαντικό",
+     "why": "ένιωθα άγχος, σαν να μου ξέφευγε κάτι σημαντικό"
+    },
+    {
+     "q": "Ποια είναι η μεγαλύτερη αλλαγή σύμφωνα με την ίδια;",
+     "options": [
+      "Βρήκε καινούργια δουλειά",
+      "Μιλά πιο συχνά με τη μητέρα της",
+      "Σταμάτησε να χρησιμοποιεί κινητό",
+      "Αποφασίζει η ίδια πότε θα κοιτάξει το κινητό"
+     ],
+     "answer": "Αποφασίζει η ίδια πότε θα κοιτάξει το κινητό",
+     "why": "τώρα αποφασίζω εγώ πότε θα κοιτάξω το κινητό"
+    }
+   ],
+   "gloss": {
+    "ακροάτρια": "ακροάτρια — listener (f.)",
+    "ειδοποίηση": "ειδοποίηση — notification",
+    "αφορούσε": "με αφορά — it concerns me",
+    "συνάδελφό": "συνάδελφος — colleague",
+    "ξέφευγε": "μου ξεφεύγει — I miss, it escapes me",
+    "βεβαιωθώ": "βεβαιώνομαι — to make sure",
+    "ερημίτισσα": "ερημίτισσα — hermit (f.)"
+   }
+  },
+  {
+   "id": "l96-mono-leo-ochi",
+   "title": "Έμαθα να λέω «όχι»",
+   "title_en": "I learned to say 'no'",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Σε μια εκπομπή για την ψυχολογία της καθημερινότητας, ένας ακροατής μιλά για τον εαυτό του.",
+   "script": [
+    {
+     "speaker": "Ακροατής",
+     "voice": "m",
+     "el": "Για χρόνια ήμουν αυτός που δεν έλεγε ποτέ όχι. Αν ένας συνάδελφος ήθελε να του καλύψω μια βάρδια, δεχόμουν. Αν ένας φίλος μετακόμιζε, ήμουν εκεί από τις επτά το πρωί. Όλοι με θεωρούσαν πολύ καλό παιδί, αλλά εγώ ήμουν διαρκώς κουρασμένος και, κατά βάθος, θυμωμένος.",
+     "en": "For years I was the one who never said no. If a colleague wanted me to cover a shift for him, I agreed. If a friend was moving house, I was there from seven in the morning. Everyone thought I was a really nice guy, but I was constantly tired and, deep down, angry."
+    },
+    {
+     "speaker": "Ακροατής",
+     "voice": "m",
+     "el": "Η αλλαγή ήρθε όταν μια ψυχολόγος μού έκανε μια απλή ερώτηση: «Όταν λέτε ναι σε κάποιον, σε τι λέτε όχι;» Και κατάλαβα ότι έλεγα όχι στον ύπνο μου, στη γυναίκα μου, στη μουσική που κάποτε έπαιζα. Μου πρότεινε να μην απαντάω ποτέ αμέσως, αλλά να λέω «άσε με να το σκεφτώ και θα σου πω».",
+     "en": "The change came when a psychologist asked me a simple question: 'When you say yes to someone, what are you saying no to?' And I realised I was saying no to my sleep, to my wife, to the music I used to play. She suggested I never answer straight away, but say 'let me think about it and I'll tell you'."
+    },
+    {
+     "speaker": "Ακροατής",
+     "voice": "m",
+     "el": "Το πρώτο «όχι» ήταν σε έναν φίλο που ήθελε δανεικά για τρίτη φορά. Νόμιζα ότι θα χαλάσει η φιλία μας. Δεν χάλασε. Έμαθα ότι οι περισσότεροι άνθρωποι δέχονται ένα ευγενικό όχι πολύ πιο εύκολα από ό,τι φανταζόμαστε. Και όσοι δεν το δέχονται, ίσως δεν ήταν και τόσο φίλοι.",
+     "en": "The first 'no' was to a friend who wanted a loan for the third time. I thought our friendship would be ruined. It wasn't. I learned that most people accept a polite no much more easily than we imagine. And those who don't accept it perhaps weren't such good friends after all."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ένιωθε ο ακροατής όταν έλεγε σε όλους ναι;",
+     "options": [
+      "Ευτυχισμένος και χρήσιμος",
+      "Περήφανος",
+      "Μοναχικός",
+      "Διαρκώς κουρασμένος και κατά βάθος θυμωμένος"
+     ],
+     "answer": "Διαρκώς κουρασμένος και κατά βάθος θυμωμένος",
+     "why": "ήμουν διαρκώς κουρασμένος και, κατά βάθος, θυμωμένος"
+    },
+    {
+     "q": "Τι του πρότεινε η ψυχολόγος;",
+     "options": [
+      "Να αλλάξει φίλους",
+      "Να ξαναρχίσει τη μουσική",
+      "Να λέει πάντα όχι",
+      "Να μην απαντά ποτέ αμέσως"
+     ],
+     "answer": "Να μην απαντά ποτέ αμέσως",
+     "why": "να μην απαντάω ποτέ αμέσως"
+    },
+    {
+     "q": "Τι έγινε όταν είπε όχι στον φίλο του;",
+     "options": [
+      "Του δάνεισε τελικά τα χρήματα",
+      "Η φιλία τους δεν χάλασε",
+      "Η φιλία τους τελείωσε",
+      "Ο φίλος θύμωσε για μήνες"
+     ],
+     "answer": "Η φιλία τους δεν χάλασε",
+     "why": "Δεν χάλασε."
+    }
+   ],
+   "gloss": {
+    "βάρδια": "βάρδια — shift",
+    "μετακόμιζε": "μετακομίζω — to move house",
+    "διαρκώς": "διαρκώς — constantly",
+    "κατά βάθος": "κατά βάθος — deep down",
+    "δανεικά": "δανεικά — a loan, borrowed money",
+    "χαλάσει": "χαλάω — to spoil, ruin",
+    "ευγενικό": "ευγενικός — polite"
+   }
+  },
+  {
+   "id": "l96-c1-oikonomia-prosochis",
+   "title": "Η οικονομία της προσοχής",
+   "title_en": "The attention economy",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από μια διάλεξη για την τεχνολογία και την κοινωνία σε ένα πανεπιστημιακό αμφιθέατρο.",
+   "script": [
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Ήδη το 1971, πολύ πριν από το διαδίκτυο, ο οικονομολόγος Χέρμπερτ Σάιμον διατύπωσε μια σκέψη που σήμερα μοιάζει προφητική: ο πλούτος της πληροφορίας δημιουργεί φτώχεια της προσοχής. Όταν η πληροφορία γίνεται άφθονη, το σπάνιο αγαθό, αυτό που αποκτά αξία, είναι ο χρόνος και η προσοχή εκείνων που καλούνται να την καταναλώσουν.",
+     "en": "As early as 1971, long before the internet, the economist Herbert Simon put forward an idea that seems prophetic today: a wealth of information creates a poverty of attention. When information becomes abundant, the scarce good, the thing that acquires value, is the time and attention of those who are called upon to consume it."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Αυτή ακριβώς είναι η λογική πίσω από πολλές «δωρεάν» εφαρμογές. Δεν πληρώνουμε με χρήματα, αλλά με τον χρόνο μας, τον οποίο οι πλατφόρμες μεταπωλούν στους διαφημιστές. Άρα, το κίνητρο μιας τέτοιας εταιρείας δεν είναι να μας εξυπηρετήσει όσο το δυνατόν γρηγορότερα, αλλά να μας κρατήσει όσο το δυνατόν περισσότερο.",
+     "en": "This is precisely the logic behind many 'free' apps. We don't pay with money but with our time, which the platforms resell to advertisers. So the incentive of such a company is not to serve us as quickly as possible but to keep us as long as possible."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Για τον σκοπό αυτό αξιοποιούνται μηχανισμοί γνωστοί από την ψυχολογία. Η αβέβαιη ανταμοιβή, για παράδειγμα: δεν ξέρουμε αν η επόμενη ανανέωση της σελίδας θα φέρει κάτι ενδιαφέρον, και ακριβώς αυτή η αβεβαιότητα μάς κάνει να συνεχίζουμε, όπως συμβαίνει με τους κουλοχέρηδες. Ή η ατέρμονη κύλιση, που καταργεί το φυσικό σημείο στο οποίο θα σταματούσαμε, το τέλος της σελίδας. Χαρακτηριστικά, ο σχεδιαστής στον οποίο αποδίδεται η ατέρμονη κύλιση έχει δηλώσει αργότερα ότι μετανιώνει για τις συνέπειές της.",
+     "en": "To this end, mechanisms familiar from psychology are exploited. Uncertain reward, for example: we don't know whether the next refresh of the page will bring something interesting, and precisely this uncertainty makes us carry on, as happens with slot machines. Or infinite scroll, which abolishes the natural point at which we would stop, the end of the page. Tellingly, the designer to whom infinite scroll is attributed has later said that he regrets its consequences."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Δεν θέλω να καταλήξω σε μια τεχνοφοβική κινδυνολογία. Οι ίδιες τεχνολογίες μάς επιτρέπουν να μαθαίνουμε, να συνεργαζόμαστε, να διατηρούμε σχέσεις από απόσταση. Το ερώτημα δεν είναι αν θα τις χρησιμοποιούμε, αλλά ποιος ορίζει τους όρους: εμείς ή ένα επιχειρηματικό μοντέλο που κερδίζει από την απόσπασή μας. Και εδώ, πέρα από την ατομική αυτοπειθαρχία, ανοίγει και ένα ζήτημα ρύθμισης.",
+     "en": "I don't want to end up in technophobic scaremongering. The same technologies allow us to learn, to collaborate, to maintain relationships at a distance. The question is not whether we'll use them but who sets the terms: us, or a business model that profits from our distraction. And here, beyond individual self-discipline, a question of regulation also opens up."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια ιδέα αποδίδει η ομιλήτρια στον Χέρμπερτ Σάιμον;",
+     "options": [
+      "Ότι το διαδίκτυο θα καταργήσει τη διαφήμιση",
+      "Ότι η πληροφορία θα γίνει σπάνια",
+      "Ότι ο πλούτος της πληροφορίας δημιουργεί φτώχεια της προσοχής",
+      "Ότι η προσοχή δεν έχει οικονομική αξία"
+     ],
+     "answer": "Ότι ο πλούτος της πληροφορίας δημιουργεί φτώχεια της προσοχής",
+     "why": "ο πλούτος της πληροφορίας δημιουργεί φτώχεια της προσοχής"
+    },
+    {
+     "q": "Ποιο είναι, κατά την ομιλήτρια, το κίνητρο μιας «δωρεάν» πλατφόρμας;",
+     "options": [
+      "Να προστατεύσει τα δεδομένα μας",
+      "Να μας εξυπηρετήσει όσο το δυνατόν γρηγορότερα",
+      "Να μας κρατήσει όσο το δυνατόν περισσότερο",
+      "Να μας πουλήσει συνδρομή"
+     ],
+     "answer": "Να μας κρατήσει όσο το δυνατόν περισσότερο",
+     "why": "να μας κρατήσει όσο το δυνατόν περισσότερο"
+    },
+    {
+     "q": "Γιατί αναφέρει τους κουλοχέρηδες;",
+     "options": [
+      "Για να μιλήσει για τον εθισμό στον τζόγο",
+      "Για να συγκρίνει τα έσοδα των εταιρειών",
+      "Για να δείξει ότι η αβέβαιη ανταμοιβή μάς κάνει να συνεχίζουμε",
+      "Γιατί οι πλατφόρμες έχουν διαφημίσεις καζίνο"
+     ],
+     "answer": "Για να δείξει ότι η αβέβαιη ανταμοιβή μάς κάνει να συνεχίζουμε",
+     "why": "ακριβώς αυτή η αβεβαιότητα μάς κάνει να συνεχίζουμε, όπως συμβαίνει με τους κουλοχέρηδες"
+    },
+    {
+     "q": "Ποια είναι η τελική θέση της ομιλήτριας;",
+     "options": [
+      "Ότι το πρόβλημα λύνεται μόνο με αυτοπειθαρχία",
+      "Ότι πρέπει να εγκαταλείψουμε τις νέες τεχνολογίες",
+      "Ότι οι ανησυχίες είναι υπερβολικές",
+      "Ότι το ζήτημα είναι ποιος ορίζει τους όρους χρήσης, και ότι τίθεται και θέμα ρύθμισης"
+     ],
+     "answer": "Ότι το ζήτημα είναι ποιος ορίζει τους όρους χρήσης, και ότι τίθεται και θέμα ρύθμισης",
+     "why": "ποιος ορίζει τους όρους"
+    }
+   ],
+   "gloss": {
+    "διατύπωσε": "διατυπώνω — to formulate, put forward",
+    "προφητική": "προφητικός — prophetic",
+    "άφθονη": "άφθονος — abundant",
+    "αγαθό": "αγαθό — good, commodity",
+    "μεταπωλούν": "μεταπωλώ — to resell",
+    "διαφημιστές": "διαφημιστής — advertiser",
+    "κίνητρο": "κίνητρο — incentive",
+    "ανταμοιβή": "ανταμοιβή — reward",
+    "κουλοχέρηδες": "κουλοχέρης — slot machine",
+    "ατέρμονη κύλιση": "ατέρμονη κύλιση — infinite scroll",
+    "αποδίδεται": "αποδίδεται σε — is attributed to",
+    "κινδυνολογία": "κινδυνολογία — scaremongering",
+    "απόσπασή": "απόσπαση (της προσοχής) — distraction",
+    "αυτοπειθαρχία": "αυτοπειθαρχία — self-discipline",
+    "ρύθμισης": "ρύθμιση — regulation"
+   }
+  },
+  {
+   "id": "l96-c1-synggnomi",
+   "title": "Η τέχνη της συγγνώμης",
+   "title_en": "The art of apologising",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε μια ομιλία σε έναν κύκλο ομιλιών για την επικοινωνία, που οργανώνει μια δημοτική βιβλιοθήκη.",
+   "script": [
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Όλοι έχουμε ακούσει, και ίσως έχουμε πει, τη φράση «λυπάμαι αν σε πρόσβαλα». Γραμματικά είναι συγγνώμη· στην ουσία είναι το αντίθετο. Το «αν» μεταθέτει το πρόβλημα στην ευαισθησία του άλλου: δεν έκανα εγώ κάτι λάθος, εσύ ήσουν αυτός που προσβλήθηκε. Δεν είναι τυχαίο ότι στα αγγλικά έχει επικρατήσει γι' αυτό ο όρος «μη-συγγνώμη».",
+     "en": "We've all heard, and perhaps said, the phrase 'I'm sorry if I offended you'. Grammatically it's an apology; in substance it's the opposite. The 'if' shifts the problem onto the other person's sensitivity: I didn't do anything wrong, you were the one who took offence. It's no accident that in English the term 'non-apology' has caught on for this."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Τι κάνει, λοιπόν, μια συγγνώμη πειστική; Σε μια γνωστή αμερικανική έρευνα του 2016, οι συμμετέχοντες αξιολόγησαν συγγνώμες που περιείχαν διαφορετικά στοιχεία: έκφραση λύπης, εξήγηση, ανάληψη ευθύνης, δήλωση μεταμέλειας, προσφορά επανόρθωσης και αίτημα συγχώρεσης. Τα δύο στοιχεία που μετρούσαν περισσότερο ήταν η ανάληψη ευθύνης και, αμέσως μετά, η προσφορά επανόρθωσης. Το αίτημα συγχώρεσης, αντίθετα, ήταν το λιγότερο σημαντικό.",
+     "en": "So what makes an apology convincing? In a well-known American study from 2016, participants rated apologies containing different elements: an expression of regret, an explanation, acknowledgement of responsibility, a declaration of repentance, an offer of repair and a request for forgiveness. The two elements that counted most were acknowledgement of responsibility and, right after it, the offer of repair. The request for forgiveness, by contrast, was the least important."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Αυτό έχει μια λογική. Όταν ζητάω συγγνώμη και αμέσως απαιτώ να με συγχωρέσεις, μεταφέρω πάλι το βάρος σε σένα. Επιπλέον, η εξήγηση είναι δίκοπο μαχαίρι: χρήσιμη, όταν ρίχνει φως στο τι συνέβη, επικίνδυνη, όταν γλιστρά σε δικαιολογία. Το «άργησα, γιατί είχε κίνηση» ακούγεται πολύ διαφορετικά από το «άργησα· έπρεπε να είχα φύγει νωρίτερα».",
+     "en": "This makes sense. When I apologise and immediately demand that you forgive me, I shift the burden onto you again. Moreover, the explanation is a double-edged sword: useful when it sheds light on what happened, dangerous when it slides into an excuse. 'I was late because there was traffic' sounds very different from 'I was late; I should have left earlier'."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Θα τολμούσα να πω ότι η καλή συγγνώμη είναι λιγότερο θέμα λέξεων και περισσότερο θέμα κόστους. Πείθει, γιατί κοστίζει κάτι σε αυτόν που τη ζητά: λίγη από την εικόνα του, λίγη από την άνεσή του, μερικές φορές και κάτι υλικό. Μια συγγνώμη που δεν κοστίζει τίποτα σπάνια αλλάζει κάτι.",
+     "en": "I'd venture to say that a good apology is less a matter of words and more a matter of cost. It convinces because it costs the person who makes it something: a little of their image, a little of their comfort, sometimes something material too. An apology that costs nothing rarely changes anything."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο ομιλητής θεωρεί ότι η φράση «λυπάμαι αν σε πρόσβαλα» δεν είναι πραγματική συγγνώμη;",
+     "options": [
+      "Γιατί δεν περιέχει εξήγηση",
+      "Γιατί είναι μετάφραση από τα αγγλικά",
+      "Γιατί είναι αγενής",
+      "Γιατί μεταθέτει το πρόβλημα στην ευαισθησία του άλλου"
+     ],
+     "answer": "Γιατί μεταθέτει το πρόβλημα στην ευαισθησία του άλλου",
+     "why": "Το «αν» μεταθέτει το πρόβλημα στην ευαισθησία του άλλου"
+    },
+    {
+     "q": "Ποιο στοιχείο μετρούσε περισσότερο στην έρευνα του 2016;",
+     "options": [
+      "Το αίτημα συγχώρεσης",
+      "Η εξήγηση",
+      "Η έκφραση λύπης",
+      "Η ανάληψη ευθύνης"
+     ],
+     "answer": "Η ανάληψη ευθύνης",
+     "why": "Τα δύο στοιχεία που μετρούσαν περισσότερο ήταν η ανάληψη ευθύνης"
+    },
+    {
+     "q": "Γιατί η εξήγηση χαρακτηρίζεται «δίκοπο μαχαίρι»;",
+     "options": [
+      "Γιατί μπορεί να βοηθήσει, αλλά και να γλιστρήσει σε δικαιολογία",
+      "Γιατί πάντα θυμώνει τον άλλο",
+      "Γιατί είναι πολύ μεγάλη",
+      "Γιατί κανείς δεν την ακούει"
+     ],
+     "answer": "Γιατί μπορεί να βοηθήσει, αλλά και να γλιστρήσει σε δικαιολογία",
+     "why": "χρήσιμη, όταν ρίχνει φως στο τι συνέβη, επικίνδυνη, όταν γλιστρά σε δικαιολογία"
+    },
+    {
+     "q": "Ποιο είναι το τελικό συμπέρασμα του ομιλητή;",
+     "options": [
+      "Ότι η συγγνώμη πρέπει να συνοδεύεται από δώρο",
+      "Ότι η καλή συγγνώμη είναι θέμα σωστών λέξεων",
+      "Ότι πρέπει να αποφεύγουμε τις συγγνώμες",
+      "Ότι μια συγγνώμη πείθει όταν κοστίζει κάτι σε αυτόν που τη ζητά"
+     ],
+     "answer": "Ότι μια συγγνώμη πείθει όταν κοστίζει κάτι σε αυτόν που τη ζητά",
+     "why": "Πείθει, γιατί κοστίζει κάτι σε αυτόν που τη ζητά"
+    }
+   ],
+   "gloss": {
+    "πρόσβαλα": "προσβάλλω — to offend",
+    "μεταθέτει": "μεταθέτω — to shift, transfer",
+    "ευαισθησία": "ευαισθησία — sensitivity",
+    "επικρατήσει": "επικρατώ — to prevail, catch on",
+    "πειστική": "πειστικός — convincing",
+    "ανάληψη ευθύνης": "ανάληψη ευθύνης — acknowledgement of responsibility",
+    "μεταμέλειας": "μεταμέλεια — repentance, remorse",
+    "επανόρθωσης": "επανόρθωση — redress, repair",
+    "συγχώρεσης": "συγχώρεση — forgiveness",
+    "δίκοπο μαχαίρι": "δίκοπο μαχαίρι — double-edged sword",
+    "δικαιολογία": "δικαιολογία — excuse",
+    "τολμούσα": "τολμώ — to dare, venture"
+   }
+  }
+ ]
+}
