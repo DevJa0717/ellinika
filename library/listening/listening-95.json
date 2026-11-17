@@ -1,0 +1,825 @@
+{
+ "items": [
+  {
+   "id": "l95-ann-paros",
+   "title": "Φτάνουμε στην Πάρο",
+   "title_en": "Arriving in Paros",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ταξιδεύετε με πλοίο από τον Πειραιά προς τις Κυκλάδες. Ακούτε μια ανακοίνωση από τα μεγάφωνα.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Κυρίες και κύριοι, σε δεκαπέντε λεπτά περίπου θα φτάσουμε στο λιμάνι της Παροικιάς, στην Πάρο. Παρακαλούνται οι επιβάτες που αποβιβάζονται στην Πάρο να ετοιμάσουν τις αποσκευές τους και να μην αφήσουν τίποτα στα καθίσματα.",
+     "en": "Ladies and gentlemen, in about fifteen minutes we will arrive at the port of Paroikia on Paros. Passengers disembarking at Paros are asked to get their luggage ready and not to leave anything on the seats."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Οι οδηγοί οχημάτων παρακαλούνται να κατέβουν στο γκαράζ μόνο όταν ακούσουν τη σχετική ανακοίνωση, και όχι νωρίτερα, για λόγους ασφαλείας. Οι πεζοί επιβάτες θα αποβιβαστούν από την πλαϊνή έξοδο του τρίτου καταστρώματος, και όχι από τον καταπέλτη.",
+     "en": "Vehicle drivers are asked to go down to the car deck only when they hear the relevant announcement, and not earlier, for safety reasons. Foot passengers will disembark through the side exit on the third deck, not via the ramp."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Οι επιβάτες που συνεχίζουν για Νάξο και Αμοργό παρακαλούνται να παραμείνουν στις θέσεις τους. Το πλοίο θα παραμείνει στο λιμάνι για είκοσι λεπτά. Υπενθυμίζουμε ότι το εστιατόριο θα κλείσει κατά τη διάρκεια της παραμονής μας στην Πάρο. Ευχαριστούμε που ταξιδέψατε μαζί μας.",
+     "en": "Passengers continuing to Naxos and Amorgos are asked to remain in their seats. The ship will stay in port for twenty minutes. We remind you that the restaurant will close during our stay in Paros. Thank you for travelling with us."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε πρέπει να κατέβουν οι οδηγοί στο γκαράζ;",
+     "options": [
+      "Μετά τους πεζούς",
+      "Αμέσως",
+      "Όταν δέσει το πλοίο",
+      "Όταν ακούσουν τη σχετική ανακοίνωση"
+     ],
+     "answer": "Όταν ακούσουν τη σχετική ανακοίνωση",
+     "why": "να κατέβουν στο γκαράζ μόνο όταν ακούσουν τη σχετική ανακοίνωση"
+    },
+    {
+     "q": "Από πού θα αποβιβαστούν οι πεζοί επιβάτες;",
+     "options": [
+      "Από την πλώρη",
+      "Από την πλαϊνή έξοδο του τρίτου καταστρώματος",
+      "Από τον καταπέλτη",
+      "Από το γκαράζ"
+     ],
+     "answer": "Από την πλαϊνή έξοδο του τρίτου καταστρώματος",
+     "why": "θα αποβιβαστούν από την πλαϊνή έξοδο του τρίτου καταστρώματος"
+    },
+    {
+     "q": "Τι θα γίνει όσο το πλοίο μένει στην Πάρο;",
+     "options": [
+      "Θα γίνει έλεγχος εισιτηρίων",
+      "Θα αλλάξει το πλήρωμα",
+      "Θα κλείσει το εστιατόριο",
+      "Θα ανοίξει το κατάστημα"
+     ],
+     "answer": "Θα κλείσει το εστιατόριο",
+     "why": "το εστιατόριο θα κλείσει κατά τη διάρκεια της παραμονής μας στην Πάρο"
+    }
+   ],
+   "gloss": {
+    "μεγάφωνα": "μεγάφωνο — loudspeaker",
+    "αποβιβάζονται": "αποβιβάζομαι — to disembark",
+    "αποσκευές": "αποσκευές — luggage",
+    "οχημάτων": "όχημα — vehicle",
+    "γκαράζ": "γκαράζ — garage, car deck",
+    "πεζοί": "πεζός — on foot, pedestrian",
+    "καταστρώματος": "κατάστρωμα — deck",
+    "καταπέλτη": "καταπέλτης — (ship's) ramp",
+    "παραμείνουν": "παραμένω — to remain",
+    "παραμονής": "παραμονή — stay"
+   }
+  },
+  {
+   "id": "l95-vm-trakarisma",
+   "title": "Ένα σημείωμα στο παρμπρίζ",
+   "title_en": "A note on the windscreen",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Βρήκατε ένα σημείωμα με ένα τηλέφωνο στο παρμπρίζ του αυτοκινήτου σας και τηλεφωνήσατε. Κανείς δεν απάντησε. Λίγο αργότερα ακούτε αυτό το μήνυμα.",
+   "script": [
+    {
+     "speaker": "Οδηγός",
+     "voice": "m",
+     "el": "Καλησπέρα, Αντώνης Δημάκης εδώ, είδα ότι με πήρατε. Εγώ σας άφησα το σημείωμα. Σήμερα το πρωί, στο πάρκινγκ του σούπερ μάρκετ, έκανα όπισθεν και ακούμπησα τον μπροστινό σας προφυλακτήρα. Ζητώ συγγνώμη, ήταν εντελώς δικό μου λάθος.",
+     "en": "Good afternoon, Antonis Dimakis here, I saw you called me. I'm the one who left you the note. This morning, in the supermarket car park, I was reversing and touched your front bumper. I apologise; it was entirely my fault."
+    },
+    {
+     "speaker": "Οδηγός",
+     "voice": "m",
+     "el": "Η ζημιά δεν είναι μεγάλη, μια γρατζουνιά και ένα μικρό βαθούλωμα, αλλά φυσικά θέλω να την πληρώσω. Έχουμε δύο λύσεις: ή να συμπληρώσουμε μαζί το δελτίο φιλικού διακανονισμού, για να πληρώσει η ασφαλιστική μου, ή, αν προτιμάτε, να το πάτε σε ένα συνεργείο της επιλογής σας και να σας δώσω τα χρήματα απευθείας.",
+     "en": "The damage isn't big, a scratch and a small dent, but of course I want to pay for it. There are two options: either we fill in the accident report form together so that my insurer pays, or, if you prefer, you take it to a garage of your choice and I give you the money directly."
+    },
+    {
+     "speaker": "Οδηγός",
+     "voice": "m",
+     "el": "Εγώ θα πρότεινα το δεύτερο, γιατί είναι πιο γρήγορο και δεν θα χάσω την έκπτωση που έχω στην ασφάλεια. Πάρτε με όποτε μπορείτε, εκτός από τις δύο με τέσσερις, που είμαι σε μάθημα. Και πάλι συγγνώμη για την ταλαιπωρία.",
+     "en": "I'd suggest the second, because it's quicker and I won't lose the discount I have on my insurance. Call me whenever you can, except between two and four, when I'm in a lesson. Sorry again for the trouble."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έπαθε το αυτοκίνητο;",
+     "options": [
+      "Έσκασε ένα λάστιχο",
+      "Έσπασε ο καθρέφτης",
+      "Έσπασε το παρμπρίζ",
+      "Γρατζουνίστηκε και βαθούλωσε λίγο ο μπροστινός προφυλακτήρας"
+     ],
+     "answer": "Γρατζουνίστηκε και βαθούλωσε λίγο ο μπροστινός προφυλακτήρας",
+     "why": "μια γρατζουνιά και ένα μικρό βαθούλωμα"
+    },
+    {
+     "q": "Ποια λύση προτιμά ο οδηγός;",
+     "options": [
+      "Να πληρώσει η ασφαλιστική του",
+      "Να το επισκευάσει ο ίδιος",
+      "Να πάνε στην αστυνομία",
+      "Να πληρώσει ο ίδιος απευθείας το συνεργείο"
+     ],
+     "answer": "Να πληρώσει ο ίδιος απευθείας το συνεργείο",
+     "why": "Εγώ θα πρότεινα το δεύτερο"
+    },
+    {
+     "q": "Πότε δεν μπορεί να του τηλεφωνήσει;",
+     "options": [
+      "Από τις δύο ως τις τέσσερις",
+      "Το Σαββατοκύριακο",
+      "Το πρωί",
+      "Μετά τις οχτώ"
+     ],
+     "answer": "Από τις δύο ως τις τέσσερις",
+     "why": "εκτός από τις δύο με τέσσερις, που είμαι σε μάθημα"
+    }
+   ],
+   "gloss": {
+    "σημείωμα": "σημείωμα — note",
+    "παρμπρίζ": "παρμπρίζ — windscreen",
+    "όπισθεν": "κάνω όπισθεν — to reverse",
+    "ακούμπησα": "ακουμπάω — to touch, brush against",
+    "προφυλακτήρα": "προφυλακτήρας — bumper",
+    "γρατζουνιά": "γρατζουνιά — scratch",
+    "βαθούλωμα": "βαθούλωμα — dent",
+    "φιλικού διακανονισμού": "δελτίο φιλικού διακανονισμού — accident report form (for an amicable settlement)",
+    "ασφαλιστική": "ασφαλιστική (εταιρεία) — insurance company",
+    "συνεργείο": "συνεργείο — (car) repair shop",
+    "ταλαιπωρία": "ταλαιπωρία — inconvenience, trouble"
+   }
+  },
+  {
+   "id": "l95-dia-epistrofi-poulover",
+   "title": "Επιστροφή ενός πουλόβερ",
+   "title_en": "Returning a jumper",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Μια γυναίκα θέλει να επιστρέψει ένα πουλόβερ σε ένα κατάστημα ρούχων.",
+   "script": [
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Καλημέρα. Θα ήθελα να επιστρέψω αυτό το πουλόβερ. Το πήρα δώρο στον άντρα μου, αλλά του είναι στενό στους ώμους.",
+     "en": "Good morning. I'd like to return this jumper. I bought it as a present for my husband, but it's tight on the shoulders."
+    },
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Βεβαίως. Έχετε την απόδειξη; Και έχει περάσει λιγότερο από ένας μήνας από την αγορά;",
+     "en": "Of course. Do you have the receipt? And has it been less than a month since you bought it?"
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Ναι, να η απόδειξη, το πήρα πριν από δύο εβδομάδες. Τα καρτελάκια είναι ακόμα πάνω. Μπορώ να πάρω πίσω τα χρήματά μου;",
+     "en": "Yes, here's the receipt; I bought it two weeks ago. The tags are still on. Can I get my money back?"
+    },
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Δυστυχώς, επειδή ήταν σε προσφορά, δεν μπορούμε να επιστρέψουμε χρήματα. Μπορείτε, όμως, να το αλλάξετε με ένα άλλο νούμερο ή να πάρετε ένα πιστωτικό σημείωμα, που ισχύει για έξι μήνες σε όλα τα καταστήματά μας.",
+     "en": "Unfortunately, because it was on offer, we can't refund the money. You can, however, exchange it for another size or take a credit note, which is valid for six months in all our shops."
+    },
+    {
+     "speaker": "Πελάτισσα",
+     "voice": "f",
+     "el": "Τότε ας το αλλάξω. Έχετε το ίδιο σε λάρτζ;",
+     "en": "Then I'll exchange it. Do you have the same in large?"
+    },
+    {
+     "speaker": "Πωλήτρια",
+     "voice": "f",
+     "el": "Στο γκρι δεν μας έχει μείνει, μόνο στο μπλε σκούρο. Αν θέλετε το γκρι, μπορώ να το παραγγείλω από άλλο κατάστημα και θα έρθει σε τρεις με τέσσερις μέρες. Θα σας στείλουμε μήνυμα μόλις φτάσει.",
+     "en": "We don't have any left in grey, only in navy. If you want the grey, I can order it from another shop and it'll arrive in three to four days. We'll send you a message as soon as it arrives."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θέλει να επιστρέψει το πουλόβερ;",
+     "options": [
+      "Δεν του αρέσει το χρώμα",
+      "Είναι ελαττωματικό",
+      "Είναι πολύ ακριβό",
+      "Είναι στενό στους ώμους"
+     ],
+     "answer": "Είναι στενό στους ώμους",
+     "why": "του είναι στενό στους ώμους"
+    },
+    {
+     "q": "Γιατί δεν μπορεί να πάρει πίσω τα χρήματά της;",
+     "options": [
+      "Γιατί έχασε την απόδειξη",
+      "Γιατί έβγαλε τα καρτελάκια",
+      "Γιατί το πουλόβερ ήταν σε προσφορά",
+      "Γιατί πέρασε ο μήνας"
+     ],
+     "answer": "Γιατί το πουλόβερ ήταν σε προσφορά",
+     "why": "επειδή ήταν σε προσφορά, δεν μπορούμε να επιστρέψουμε χρήματα"
+    },
+    {
+     "q": "Τι θα γίνει αν θέλει το γκρι πουλόβερ;",
+     "options": [
+      "Θα πρέπει να γυρίσει του χρόνου",
+      "Θα το παραγγείλουν από άλλο κατάστημα",
+      "Θα πάρει έκπτωση",
+      "Θα της δώσουν το μπλε σκούρο"
+     ],
+     "answer": "Θα το παραγγείλουν από άλλο κατάστημα",
+     "why": "μπορώ να το παραγγείλω από άλλο κατάστημα"
+    }
+   ],
+   "gloss": {
+    "επιστρέψω": "επιστρέφω — to return",
+    "πουλόβερ": "πουλόβερ — jumper, sweater",
+    "ώμους": "ώμος — shoulder",
+    "απόδειξη": "απόδειξη — receipt",
+    "καρτελάκια": "καρτελάκι — (price) tag",
+    "προσφορά": "σε προσφορά — on offer",
+    "νούμερο": "νούμερο — size",
+    "πιστωτικό σημείωμα": "πιστωτικό σημείωμα — credit note",
+    "ισχύει": "ισχύω — to be valid",
+    "παραγγείλω": "παραγγέλνω — to order"
+   }
+  },
+  {
+   "id": "l95-int-mastoras-petras",
+   "title": "Ένας μάστορας της πέτρας",
+   "title_en": "A master stonemason",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Σε μια εκπομπή για την παραδοσιακή αρχιτεκτονική, ένας δημοσιογράφος μιλά με έναν πετρά από τα Ζαγοροχώρια.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τα χωριά του Ζαγορίου είναι γνωστά για τα πέτρινα σπίτια και τα γεφύρια τους. Εσείς συνεχίζετε αυτή την παράδοση. Πώς ξεκινήσατε;",
+     "en": "The villages of Zagori are known for their stone houses and bridges. You carry on this tradition. How did you start?"
+    },
+    {
+     "speaker": "Πετράς",
+     "voice": "m",
+     "el": "Στα δεκαέξι μου άρχισα να δουλεύω βοηθός σε έναν παλιό μάστορα από το χωριό μου. Τα πρώτα δύο χρόνια δεν με άφηνε να αγγίξω το σφυρί· κουβαλούσα πέτρες και κοίταζα. Έλεγε ότι πρώτα μαθαίνεις με τα μάτια και μετά με τα χέρια.",
+     "en": "At sixteen I started working as an assistant to an old master from my village. For the first two years he didn't let me touch the hammer; I carried stones and watched. He said you learn first with your eyes and then with your hands."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι κάνετε σήμερα, κυρίως;",
+     "en": "What do you mainly do today?"
+    },
+    {
+     "speaker": "Πετράς",
+     "voice": "m",
+     "el": "Κυρίως αναπαλαιώσεις. Πολλά παλιά σπίτια έχουν αγοραστεί από ανθρώπους της πόλης που θέλουν να τα κάνουν ξενώνες ή εξοχικά. Υπάρχουν αυστηροί κανόνες, γιατί τα χωριά είναι διατηρητέα: η πέτρα πρέπει να είναι ντόπια και οι στέγες να σκεπάζονται με πλάκες από σχιστόλιθο, όχι με κεραμίδια.",
+     "en": "Mainly restorations. Many old houses have been bought by city people who want to turn them into guesthouses or holiday homes. There are strict rules, because the villages are listed: the stone must be local and the roofs must be covered with slate slabs, not tiles."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ακούσαμε ότι οι παλιοί μαστόροι είχαν και δική τους γλώσσα.",
+     "en": "We heard that the old master builders even had their own language."
+    },
+    {
+     "speaker": "Πετράς",
+     "voice": "m",
+     "el": "Ναι, τα λεγόμενα «κουδαρίτικα». Ήταν μια κρυφή γλώσσα, για να μιλούν μεταξύ τους χωρίς να τους καταλαβαίνει ο νοικοκύρης, για παράδειγμα όταν συζητούσαν την πληρωμή. Ο δάσκαλός μου ήξερε αρκετές λέξεις. Εγώ θυμάμαι μόνο λίγες, και φοβάμαι ότι σε λίγα χρόνια δεν θα τις θυμάται κανείς.",
+     "en": "Yes, the so-called 'koudaritika'. It was a secret language, so that they could talk among themselves without the house owner understanding them, for example when they were discussing payment. My teacher knew quite a few words. I remember only a few, and I'm afraid that in a few years no one will remember them."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε ο πετράς τα πρώτα δύο χρόνια;",
+     "options": [
+      "Κουβαλούσε πέτρες και κοίταζε",
+      "Πήγαινε σε σχολή",
+      "Σχεδίαζε σπίτια",
+      "Δούλευε με το σφυρί"
+     ],
+     "answer": "Κουβαλούσε πέτρες και κοίταζε",
+     "why": "κουβαλούσα πέτρες και κοίταζα"
+    },
+    {
+     "q": "Με τι πρέπει να σκεπάζονται οι στέγες στα χωριά;",
+     "options": [
+      "Με κεραμίδια",
+      "Με ξύλο",
+      "Με τσίγκο",
+      "Με πλάκες από σχιστόλιθο"
+     ],
+     "answer": "Με πλάκες από σχιστόλιθο",
+     "why": "οι στέγες να σκεπάζονται με πλάκες από σχιστόλιθο"
+    },
+    {
+     "q": "Γιατί είχαν οι παλιοί μαστόροι μια κρυφή γλώσσα;",
+     "options": [
+      "Για να μιλούν μεταξύ τους χωρίς να τους καταλαβαίνει ο νοικοκύρης",
+      "Για να τραγουδούν στη δουλειά",
+      "Για να μη χάνουν την παράδοση",
+      "Γιατί ήταν ξένοι"
+     ],
+     "answer": "Για να μιλούν μεταξύ τους χωρίς να τους καταλαβαίνει ο νοικοκύρης",
+     "why": "για να μιλούν μεταξύ τους χωρίς να τους καταλαβαίνει ο νοικοκύρης"
+    }
+   ],
+   "gloss": {
+    "μάστορα": "μάστορας — master craftsman, builder",
+    "πετρά": "πετράς — stonemason",
+    "γεφύρια": "γεφύρι — (stone) bridge",
+    "σφυρί": "σφυρί — hammer",
+    "κουβαλούσα": "κουβαλάω — to carry",
+    "αναπαλαιώσεις": "αναπαλαίωση — restoration",
+    "ξενώνες": "ξενώνας — guesthouse",
+    "εξοχικά": "εξοχικό — holiday home",
+    "διατηρητέα": "διατηρητέος — listed, protected",
+    "σχιστόλιθο": "σχιστόλιθος — slate",
+    "κεραμίδια": "κεραμίδι — roof tile",
+    "νοικοκύρης": "νοικοκύρης — householder, owner"
+   }
+  },
+  {
+   "id": "l95-rep-sifnos",
+   "title": "Σίφνος, το νησί των αγγειοπλαστών",
+   "title_en": "Sifnos, the island of potters",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ σε μια ραδιοφωνική εκπομπή για τα νησιά.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η Σίφνος, στις δυτικές Κυκλάδες, ήταν στην αρχαιότητα από τα πλουσιότερα νησιά του Αιγαίου, χάρη στα ορυχεία χρυσού και ασημιού της. Οι Σίφνιοι έχτισαν μάλιστα στους Δελφούς έναν από τους πιο εντυπωσιακούς θησαυρούς του ιερού, για να φυλάνε εκεί τις προσφορές τους προς τον Απόλλωνα.",
+     "en": "Sifnos, in the western Cyclades, was in antiquity one of the richest islands in the Aegean, thanks to its gold and silver mines. The Sifnians even built at Delphi one of the most impressive treasuries in the sanctuary, to keep their offerings to Apollo there."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Σήμερα το νησί είναι γνωστό για άλλα πράγματα: για την αγγειοπλαστική του, που συνεχίζεται σε εργαστήρια στις Καμάρες και στον Πλατύ Γιαλό, και για τη μαγειρική του. Από τη Σίφνο καταγόταν ο Νικόλαος Τσελεμεντές, του οποίου το βιβλίο μαγειρικής έγινε τόσο δημοφιλές, ώστε το όνομά του κατέληξε να σημαίνει «βιβλίο συνταγών».",
+     "en": "Today the island is known for other things: for its pottery, which continues in workshops at Kamares and Platys Gialos, and for its cooking. Nikolaos Tselementes came from Sifnos; his cookbook became so popular that his name ended up meaning 'recipe book'."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Το πιο χαρακτηριστικό φαγητό του νησιού είναι η ρεβιθάδα. Τα ρεβίθια μπαίνουν το Σάββατο το βράδυ σε ένα πήλινο σκεπαστό σκεύος, το σκεπαστάρι, και ψήνονται όλη τη νύχτα στον ξυλόφουρνο, για να φαγωθούν την Κυριακή μετά την εκκλησία. Μην παραλείψετε να επισκεφθείτε το Κάστρο, ένα μεσαιωνικό χωριό πάνω σε βράχο, και τη Χρυσοπηγή, ένα μοναστήρι χτισμένο σε μια βραχονησίδα που ενώνεται με την ακτή με μια μικρή γέφυρα.",
+     "en": "The island's most characteristic dish is revithada. The chickpeas go into a covered clay pot, the skepastari, on Saturday evening and bake all night in the wood oven, to be eaten on Sunday after church. Don't miss Kastro, a medieval village on a rock, and Chrysopigi, a monastery built on a rocky islet joined to the shore by a small bridge."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ήταν πλούσια η Σίφνος στην αρχαιότητα;",
+     "options": [
+      "Χάρη στο εμπόριο κρασιού",
+      "Χάρη στα ορυχεία χρυσού και ασημιού",
+      "Χάρη στην αγγειοπλαστική",
+      "Χάρη στον στόλο της"
+     ],
+     "answer": "Χάρη στα ορυχεία χρυσού και ασημιού",
+     "why": "χάρη στα ορυχεία χρυσού και ασημιού της"
+    },
+    {
+     "q": "Τι σημαίνει σήμερα το όνομα «Τσελεμεντές»;",
+     "options": [
+      "Μάγειρας",
+      "Ένα είδος γλυκού",
+      "Βιβλίο συνταγών",
+      "Ένα πήλινο σκεύος"
+     ],
+     "answer": "Βιβλίο συνταγών",
+     "why": "το όνομά του κατέληξε να σημαίνει «βιβλίο συνταγών»"
+    },
+    {
+     "q": "Πώς μαγειρεύεται η ρεβιθάδα;",
+     "options": [
+      "Τηγανίζεται την Κυριακή το πρωί",
+      "Βράζει σε κατσαρόλα για μία ώρα",
+      "Ψήνεται όλη τη νύχτα στον ξυλόφουρνο μέσα σε πήλινο σκεύος",
+      "Ψήνεται στα κάρβουνα"
+     ],
+     "answer": "Ψήνεται όλη τη νύχτα στον ξυλόφουρνο μέσα σε πήλινο σκεύος",
+     "why": "ψήνονται όλη τη νύχτα στον ξυλόφουρνο"
+    }
+   ],
+   "gloss": {
+    "ορυχεία": "ορυχείο — mine",
+    "θησαυρούς": "θησαυρός — treasury (at a sanctuary)",
+    "προσφορές": "προσφορά — offering",
+    "αγγειοπλαστική": "αγγειοπλαστική — pottery",
+    "ρεβιθάδα": "ρεβιθάδα — baked chickpea stew",
+    "ρεβίθια": "ρεβίθι — chickpea",
+    "πήλινο": "πήλινος — clay (adj.)",
+    "σκεύος": "σκεύος — pot, vessel",
+    "ξυλόφουρνο": "ξυλόφουρνος — wood-fired oven",
+    "βραχονησίδα": "βραχονησίδα — rocky islet"
+   }
+  },
+  {
+   "id": "l95-rep-naxos",
+   "title": "Νάξος, το μεγαλύτερο νησί των Κυκλάδων",
+   "title_en": "Naxos, the largest of the Cyclades",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ταξιδιωτικό ρεπορτάζ σε μια τηλεοπτική εκπομπή.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Μόλις το πλοίο μπαίνει στο λιμάνι της Νάξου, το πρώτο που βλέπει κανείς είναι η Πορτάρα, μια τεράστια μαρμάρινη πύλη πάνω σε ένα νησάκι. Είναι ό,τι έχει απομείνει από έναν ναό του Απόλλωνα που άρχισε να χτίζεται τον έκτο αιώνα π.Χ. και δεν τελείωσε ποτέ. Το ηλιοβασίλεμα εκεί είναι από τα πιο φημισμένα του Αιγαίου.",
+     "en": "As soon as the ship enters the harbour of Naxos, the first thing you see is the Portara, a huge marble gateway on an islet. It is all that remains of a temple of Apollo that began to be built in the sixth century BC and was never finished. The sunset there is one of the most famous in the Aegean."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η Νάξος είναι το μεγαλύτερο νησί των Κυκλάδων και, σε αντίθεση με πολλά γειτονικά της, είναι πράσινη και εύφορη. Στο κέντρο της υψώνεται ο Ζας, το ψηλότερο βουνό των Κυκλάδων, λίγο πάνω από τα χίλια μέτρα. Στα ορεινά χωριά, όπως η Χαλκί και η Απείρανθος, θα δοκιμάσετε τη γραβιέρα του νησιού, τις περίφημες ναξιώτικες πατάτες και το λικέρ κίτρο.",
+     "en": "Naxos is the largest island in the Cyclades and, unlike many of its neighbours, it is green and fertile. In its centre rises Zas, the highest mountain in the Cyclades, just over a thousand metres. In the mountain villages, such as Chalki and Apeiranthos, you can try the island's graviera cheese, the famous Naxos potatoes and kitron liqueur."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η Νάξος ήταν στην αρχαιότητα κέντρο της γλυπτικής, χάρη στο μάρμαρό της. Στις Μέλανες και στον Απόλλωνα σώζονται ακόμα, ξαπλωμένοι στο έδαφος, τεράστιοι ημιτελείς κούροι, που δεν έφυγαν ποτέ από τα αρχαία λατομεία. Σύμφωνα με τον μύθο, εδώ ο Θησέας εγκατέλειψε την Αριάδνη, μετά τη νίκη του επί του Μινώταυρου.",
+     "en": "In antiquity Naxos was a centre of sculpture, thanks to its marble. At Melanes and Apollonas huge unfinished kouroi still lie on the ground; they never left the ancient quarries. According to myth, it was here that Theseus abandoned Ariadne after his victory over the Minotaur."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είναι η Πορτάρα;",
+     "options": [
+      "Η μαρμάρινη πύλη ενός ημιτελούς ναού του Απόλλωνα",
+      "Ένας φάρος",
+      "Ένα μουσείο",
+      "Ένα κάστρο"
+     ],
+     "answer": "Η μαρμάρινη πύλη ενός ημιτελούς ναού του Απόλλωνα",
+     "why": "μια τεράστια μαρμάρινη πύλη πάνω σε ένα νησάκι. Είναι ό,τι έχει απομείνει από έναν ναό του Απόλλωνα"
+    },
+    {
+     "q": "Σε τι διαφέρει η Νάξος από πολλά γειτονικά νησιά;",
+     "options": [
+      "Είναι πράσινη και εύφορη",
+      "Δεν έχει βουνά",
+      "Δεν έχει λιμάνι",
+      "Δεν έχει παραλίες"
+     ],
+     "answer": "Είναι πράσινη και εύφορη",
+     "why": "είναι πράσινη και εύφορη"
+    },
+    {
+     "q": "Τι σώζεται στις Μέλανες και στον Απόλλωνα;",
+     "options": [
+      "Βυζαντινές εκκλησίες",
+      "Ένα αρχαίο θέατρο",
+      "Ημιτελείς κούροι ξαπλωμένοι στο έδαφος",
+      "Ενετικοί πύργοι"
+     ],
+     "answer": "Ημιτελείς κούροι ξαπλωμένοι στο έδαφος",
+     "why": "σώζονται ακόμα, ξαπλωμένοι στο έδαφος, τεράστιοι ημιτελείς κούροι"
+    }
+   ],
+   "gloss": {
+    "Πορτάρα": "Πορτάρα — the Portara (marble gateway on Naxos)",
+    "πύλη": "πύλη — gateway",
+    "ηλιοβασίλεμα": "ηλιοβασίλεμα — sunset",
+    "εύφορη": "εύφορος — fertile",
+    "υψώνεται": "υψώνομαι — to rise",
+    "γραβιέρα": "γραβιέρα — graviera (hard cheese)",
+    "γλυπτικής": "γλυπτική — sculpture",
+    "ημιτελείς": "ημιτελής — unfinished",
+    "κούροι": "κούρος — kouros (archaic statue of a young man)",
+    "λατομεία": "λατομείο — quarry",
+    "εγκατέλειψε": "εγκαταλείπω — to abandon"
+   }
+  },
+  {
+   "id": "l95-mono-adeia-folia",
+   "title": "Η άδεια φωλιά",
+   "title_en": "The empty nest",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Μια μητέρα μιλά σε μια ραδιοφωνική εκπομπή για το πώς ένιωσε όταν η κόρη της έφυγε για σπουδές.",
+   "script": [
+    {
+     "speaker": "Μητέρα",
+     "voice": "f",
+     "el": "Τον Σεπτέμβριο η κόρη μου πέρασε στο πανεπιστήμιο, στη Θεσσαλονίκη. Ήμασταν όλοι πολύ χαρούμενοι. Τη βοηθήσαμε να βρει σπίτι, ψωνίσαμε κουρτίνες και κατσαρόλες, και την τελευταία μέρα γυρίσαμε με τον άντρα μου στην Πάτρα με ένα άδειο αυτοκίνητο.",
+     "en": "In September my daughter got into university in Thessaloniki. We were all very happy. We helped her find a flat, bought curtains and saucepans, and on the last day my husband and I drove back to Patras with an empty car."
+    },
+    {
+     "speaker": "Μητέρα",
+     "voice": "f",
+     "el": "Δεν περίμενα ότι θα ήταν τόσο δύσκολο. Το σπίτι ξαφνικά μου φαινόταν τεράστιο και ήσυχο. Το πρώτο βράδυ μαγείρεψα για τρεις, από συνήθεια. Περνούσα έξω από το δωμάτιό της και έκλεινα την πόρτα, για να μη βλέπω το άδειο κρεβάτι. Της τηλεφωνούσα κάθε μέρα, ώσπου μου είπε, πολύ ευγενικά, ότι μπορούμε να μιλάμε και κάθε δεύτερη μέρα.",
+     "en": "I didn't expect it to be so hard. The house suddenly seemed huge and quiet to me. The first evening I cooked for three, out of habit. I would walk past her room and close the door so as not to see the empty bed. I phoned her every day, until she told me, very politely, that we could also talk every other day."
+    },
+    {
+     "speaker": "Μητέρα",
+     "voice": "f",
+     "el": "Μια φίλη μου, που το είχε περάσει, μου είπε: «Μην προσπαθείς να γεμίσεις το κενό με εκείνη· γέμισέ το με σένα». Έτσι, γράφτηκα σε ένα μάθημα κεραμικής, που το ήθελα χρόνια, και με τον άντρα μου ξαναρχίσαμε τις βόλτες μας στο κάστρο. Ακόμα μου λείπει, φυσικά. Αλλά όταν γυρίζει για τις γιορτές, έχουμε κι οι δύο πολλά να πούμε.",
+     "en": "A friend of mine who had been through it said to me: 'Don't try to fill the gap with her; fill it with yourself.' So I signed up for a pottery class I'd wanted for years, and my husband and I started our walks up to the castle again. I still miss her, of course. But when she comes home for the holidays, we both have a lot to tell each other."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε η μητέρα το πρώτο βράδυ;",
+     "options": [
+      "Έκλαψε όλη τη νύχτα",
+      "Τηλεφώνησε στη φίλη της",
+      "Πήγε στο δωμάτιο της κόρης της",
+      "Μαγείρεψε για τρεις από συνήθεια"
+     ],
+     "answer": "Μαγείρεψε για τρεις από συνήθεια",
+     "why": "Το πρώτο βράδυ μαγείρεψα για τρεις, από συνήθεια"
+    },
+    {
+     "q": "Τι της είπε η κόρη της για τα τηλεφωνήματα;",
+     "options": [
+      "Ότι μπορούν να μιλάνε κάθε δεύτερη μέρα",
+      "Ότι θα της τηλεφωνεί εκείνη",
+      "Ότι δεν θέλει να της τηλεφωνεί",
+      "Ότι προτιμά τα μηνύματα"
+     ],
+     "answer": "Ότι μπορούν να μιλάνε κάθε δεύτερη μέρα",
+     "why": "μπορούμε να μιλάμε και κάθε δεύτερη μέρα"
+    },
+    {
+     "q": "Τι έκανε η μητέρα μετά τη συμβουλή της φίλης της;",
+     "options": [
+      "Γράφτηκε σε μάθημα κεραμικής",
+      "Πήρε ένα σκύλο",
+      "Μετακόμισε στη Θεσσαλονίκη",
+      "Βρήκε δουλειά"
+     ],
+     "answer": "Γράφτηκε σε μάθημα κεραμικής",
+     "why": "γράφτηκα σε ένα μάθημα κεραμικής"
+    }
+   ],
+   "gloss": {
+    "πέρασε": "περνάω (στο πανεπιστήμιο) — to get into (university)",
+    "κουρτίνες": "κουρτίνα — curtain",
+    "κατσαρόλες": "κατσαρόλα — saucepan",
+    "από συνήθεια": "από συνήθεια — out of habit",
+    "κενό": "κενό — gap, void",
+    "γράφτηκα": "γράφομαι — to enrol, sign up",
+    "κεραμικής": "κεραμική — ceramics, pottery",
+    "λείπει": "μου λείπει — I miss (him/her/it)"
+   }
+  },
+  {
+   "id": "l95-mono-psychotherapeia",
+   "title": "Πήγα σε ψυχοθεραπεύτρια",
+   "title_en": "I went to a therapist",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ένας άντρας τριάντα πέντε χρόνων μιλά σε ένα podcast για την εμπειρία του από την ψυχοθεραπεία.",
+   "script": [
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Για χρόνια πίστευα ότι η ψυχοθεραπεία είναι για ανθρώπους με «σοβαρά» προβλήματα. Εγώ είχα μια καλή δουλειά, φίλους, οικογένεια. Ωστόσο, ξυπνούσα κάθε πρωί με ένα σφίξιμο στο στήθος, θύμωνα με το παραμικρό και δεν κοιμόμουν καλά.",
+     "en": "For years I believed therapy was for people with 'serious' problems. I had a good job, friends, family. Yet I woke every morning with a tightness in my chest, got angry at the slightest thing and didn't sleep well."
+    },
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Η αδερφή μου ήταν αυτή που με έπεισε να κλείσω ένα ραντεβού. Την πρώτη φορά ήμουν πολύ αμήχανος· δεν ήξερα τι να πω, και φοβόμουν ότι η ψυχοθεραπεύτρια θα με κρίνει. Εκείνη, όμως, κυρίως άκουγε, και έκανε ερωτήσεις που δεν είχα κάνει ποτέ στον εαυτό μου.",
+     "en": "My sister was the one who persuaded me to book an appointment. The first time I was very awkward; I didn't know what to say and I was afraid the therapist would judge me. She, however, mostly listened, and asked questions I had never asked myself."
+    },
+    {
+     "speaker": "Άντρας",
+     "voice": "m",
+     "el": "Πηγαίνω πια έναν χρόνο, μία φορά την εβδομάδα. Δεν άλλαξαν όλα από τη μια μέρα στην άλλη· είναι μια αργή δουλειά. Έμαθα, όμως, να καταλαβαίνω τι με αγχώνει και να το λέω, αντί να το καταπίνω. Το λέω ανοιχτά, γιατί ακόμα πολλοί άντρες ντρέπονται να ζητήσουν βοήθεια. Δεν είναι αδυναμία· είναι σαν να πηγαίνεις στον γιατρό όταν πονάει το πόδι σου.",
+     "en": "I've been going for a year now, once a week. Not everything changed overnight; it's slow work. But I learned to understand what stresses me and to say it, instead of swallowing it. I say this openly because many men are still ashamed to ask for help. It isn't weakness; it's like going to the doctor when your leg hurts."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια συμπτώματα είχε ο άντρας;",
+     "options": [
+      "Πονοκεφάλους και πυρετό",
+      "Δεν είχε κανένα σύμπτωμα",
+      "Σφίξιμο στο στήθος, θυμό και αϋπνίες",
+      "Πόνο στο πόδι"
+     ],
+     "answer": "Σφίξιμο στο στήθος, θυμό και αϋπνίες",
+     "why": "ξυπνούσα κάθε πρωί με ένα σφίξιμο στο στήθος, θύμωνα με το παραμικρό και δεν κοιμόμουν καλά"
+    },
+    {
+     "q": "Ποιος τον έπεισε να κλείσει ραντεβού;",
+     "options": [
+      "Ένας φίλος",
+      "Ο γιατρός του",
+      "Η γυναίκα του",
+      "Η αδερφή του"
+     ],
+     "answer": "Η αδερφή του",
+     "why": "Η αδερφή μου ήταν αυτή που με έπεισε"
+    },
+    {
+     "q": "Γιατί μιλάει ανοιχτά για την εμπειρία του;",
+     "options": [
+      "Γιατί θέλει να γράψει βιβλίο",
+      "Γιατί του το ζήτησε η θεραπεύτρια",
+      "Γιατί πολλοί άντρες ντρέπονται να ζητήσουν βοήθεια",
+      "Γιατί είναι ψυχολόγος"
+     ],
+     "answer": "Γιατί πολλοί άντρες ντρέπονται να ζητήσουν βοήθεια",
+     "why": "γιατί ακόμα πολλοί άντρες ντρέπονται να ζητήσουν βοήθεια"
+    }
+   ],
+   "gloss": {
+    "ψυχοθεραπεύτρια": "ψυχοθεραπεύτρια — (female) therapist",
+    "ψυχοθεραπεία": "ψυχοθεραπεία — psychotherapy",
+    "σφίξιμο": "σφίξιμο — tightness",
+    "με το παραμικρό": "με το παραμικρό — at the slightest thing",
+    "έπεισε": "πείθω — to persuade",
+    "αμήχανος": "αμήχανος — awkward, embarrassed",
+    "κρίνει": "κρίνω — to judge",
+    "αγχώνει": "αγχώνω — to stress, make anxious",
+    "καταπίνω": "καταπίνω — to swallow",
+    "ντρέπονται": "ντρέπομαι — to be ashamed",
+    "αδυναμία": "αδυναμία — weakness"
+   }
+  },
+  {
+   "id": "l95-c1-times-9-99",
+   "title": "Γιατί όλα κοστίζουν 9,99",
+   "title_en": "Why everything costs 9.99",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Σε μια εκπομπή για την οικονομία της καθημερινότητας, η παρουσιάστρια συζητά με έναν καθηγητή μάρκετινγκ.",
+   "script": [
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Γιατί τόσα προϊόντα κοστίζουν 9,99 και όχι 10 ευρώ; Ένα λεπτό διαφορά δεν μπορεί να έχει σημασία.",
+     "en": "Why do so many products cost 9.99 and not 10 euros? A one-cent difference can't matter."
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Κι όμως, έχει. Διαβάζουμε τους αριθμούς από τα αριστερά προς τα δεξιά, και το πρώτο ψηφίο επηρεάζει δυσανάλογα την εκτίμησή μας. Το 9,99 το κατατάσσουμε ασυναίσθητα στα «εννιά κάτι», όχι στα δέκα. Οι ερευνητές το ονομάζουν «φαινόμενο του αριστερού ψηφίου». Επιπλέον, οι τιμές που λήγουν σε 9 έχουν συνδεθεί στο μυαλό μας με τις εκπτώσεις και τις ευκαιρίες.",
+     "en": "And yet it does. We read numbers from left to right, and the first digit has a disproportionate influence on our estimate. We unconsciously file 9.99 under 'nine-something', not ten. Researchers call it the 'left-digit effect'. In addition, prices ending in 9 have become linked in our minds with sales and bargains."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Γι’ αυτό, φαντάζομαι, τα ακριβά εστιατόρια γράφουν «25» και όχι «24,99».",
+     "en": "That's why, I imagine, expensive restaurants write '25' and not '24.99'."
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Ακριβώς. Μια στρογγυλή τιμή εκπέμπει ποιότητα και σιγουριά, όχι ευκαιρία. Υπάρχει και ένα πιο ύπουλο τέχνασμα, το λεγόμενο «φαινόμενο του δολώματος». Ο οικονομολόγος Νταν Αριέλι περιγράφει μια συνδρομή σε περιοδικό: μόνο ηλεκτρονική έκδοση στα 59 δολάρια, μόνο έντυπη στα 125, και έντυπη μαζί με ηλεκτρονική επίσης στα 125. Κανείς σχεδόν δεν διάλεγε τη σκέτη έντυπη, αλλά η παρουσία της έκανε το πακέτο να μοιάζει ασυναγώνιστο, και οι περισσότεροι το προτιμούσαν. Όταν η επιλογή-δόλωμα αφαιρέθηκε, οι περισσότεροι διάλεξαν τη φθηνότερη ηλεκτρονική έκδοση.",
+     "en": "Exactly. A round price conveys quality and confidence, not a bargain. There is also a more insidious trick, the so-called 'decoy effect'. The economist Dan Ariely describes a magazine subscription: online only at 59 dollars, print only at 125, and print plus online also at 125. Almost no one chose print alone, but its presence made the bundle look unbeatable, and most people preferred it. When the decoy option was removed, most chose the cheaper online edition."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είναι το «φαινόμενο του αριστερού ψηφίου»;",
+     "options": [
+      "Η δυσκολία να θυμόμαστε τιμές",
+      "Η προτίμηση για ζυγούς αριθμούς",
+      "Η τάση να στρογγυλεύουμε τις τιμές προς τα πάνω",
+      "Η τάση να επηρεάζεται δυσανάλογα η εκτίμησή μας από το πρώτο ψηφίο"
+     ],
+     "answer": "Η τάση να επηρεάζεται δυσανάλογα η εκτίμησή μας από το πρώτο ψηφίο",
+     "why": "το πρώτο ψηφίο επηρεάζει δυσανάλογα την εκτίμησή μας"
+    },
+    {
+     "q": "Γιατί τα ακριβά εστιατόρια χρησιμοποιούν στρογγυλές τιμές;",
+     "options": [
+      "Γιατί το απαιτεί ο νόμος",
+      "Για να υπολογίζεται εύκολα ο λογαριασμός",
+      "Για να μοιάζουν φθηνότερα",
+      "Γιατί εκπέμπουν ποιότητα και σιγουριά"
+     ],
+     "answer": "Γιατί εκπέμπουν ποιότητα και σιγουριά",
+     "why": "Μια στρογγυλή τιμή εκπέμπει ποιότητα και σιγουριά"
+    },
+    {
+     "q": "Ποιος ήταν ο ρόλος της σκέτης έντυπης συνδρομής στο παράδειγμα του Αριέλι;",
+     "options": [
+      "Απευθυνόταν στους ηλικιωμένους",
+      "Ήταν η πιο δημοφιλής επιλογή",
+      "Έκανε το πακέτο έντυπης και ηλεκτρονικής να μοιάζει ασυναγώνιστο",
+      "Ήταν η φθηνότερη επιλογή"
+     ],
+     "answer": "Έκανε το πακέτο έντυπης και ηλεκτρονικής να μοιάζει ασυναγώνιστο",
+     "why": "η παρουσία της έκανε το πακέτο να μοιάζει ασυναγώνιστο"
+    },
+    {
+     "q": "Τι συνέβη όταν αφαιρέθηκε η επιλογή-δόλωμα;",
+     "options": [
+      "Οι περισσότεροι διάλεξαν το πακέτο",
+      "Κανείς δεν αγόρασε συνδρομή",
+      "Οι περισσότεροι διάλεξαν την ηλεκτρονική έκδοση",
+      "Αυξήθηκαν οι τιμές"
+     ],
+     "answer": "Οι περισσότεροι διάλεξαν την ηλεκτρονική έκδοση",
+     "why": "οι περισσότεροι διάλεξαν τη φθηνότερη ηλεκτρονική έκδοση"
+    }
+   ],
+   "gloss": {
+    "ψηφίο": "ψηφίο — digit",
+    "δυσανάλογα": "δυσανάλογα — disproportionately",
+    "ασυναίσθητα": "ασυναίσθητα — unconsciously",
+    "λήγουν": "λήγω — to end (in)",
+    "στρογγυλή": "στρογγυλός — round",
+    "εκπέμπει": "εκπέμπω — to emit, convey",
+    "ύπουλο": "ύπουλος — insidious, sneaky",
+    "τέχνασμα": "τέχνασμα — trick",
+    "δολώματος": "δόλωμα — decoy, bait",
+    "συνδρομή": "συνδρομή — subscription",
+    "έντυπη": "έντυπος — printed",
+    "ασυναγώνιστο": "ασυναγώνιστος — unbeatable"
+   }
+  },
+  {
+   "id": "l95-c1-gyros",
+   "title": "Η ιστορία του γύρου",
+   "title_en": "The story of the gyros",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε ένα απόσπασμα από μια διάλεξη για την ιστορία της ελληνικής κουζίνας σε ένα φεστιβάλ γαστρονομίας.",
+   "script": [
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Για πολλούς ξένους, ο γύρος είναι το κατεξοχήν ελληνικό φαγητό. Κι όμως, η ιστορία του στην Ελλάδα είναι σχετικά πρόσφατη. Η τεχνική του κρέατος που ψήνεται σε κάθετη σούβλα, που γυρίζει αργά μπροστά στη φωτιά, αναπτύχθηκε στην Οθωμανική Αυτοκρατορία τον δέκατο ένατο αιώνα· στα τουρκικά λέγεται «ντονέρ», δηλαδή «αυτό που γυρίζει».",
+     "en": "For many foreigners, gyros is the Greek dish par excellence. And yet its history in Greece is relatively recent. The technique of meat roasted on a vertical spit that turns slowly in front of the fire developed in the Ottoman Empire in the nineteenth century; in Turkish it is called 'döner', meaning 'that which turns'."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Στην Ελλάδα το έφεραν, σύμφωνα με τις περισσότερες μαρτυρίες, πρόσφυγες από τη Μικρά Ασία και την Κωνσταντινούπολη, και διαδόθηκε κυρίως μετά τον Δεύτερο Παγκόσμιο Πόλεμο, στις δεκαετίες του πενήντα και του εξήντα. Στην αρχή ονομαζόταν κι εδώ «ντονέρ»· σταδιακά επικράτησε η ελληνική απόδοση της λέξης, ο «γύρος».",
+     "en": "According to most accounts, it was brought to Greece by refugees from Asia Minor and Constantinople, and it spread mainly after the Second World War, in the fifties and sixties. At first it was called 'döner' here too; gradually the Greek rendering of the word, 'gyros', prevailed."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Οι Έλληνες, πάντως, τον προσάρμοσαν στα δικά τους γούστα. Ενώ στην Τουρκία φτιάχνεται παραδοσιακά από αρνί ή μοσχάρι, στην Ελλάδα επικράτησε το χοιρινό και αργότερα το κοτόπουλο. Και, κυρίως, ο ελληνικός γύρος τυλίγεται σε πίτα με τζατζίκι, ντομάτα, κρεμμύδι και, όσο κι αν ξενίζει τους ξένους, πατάτες τηγανητές μέσα. Είναι ένα καλό παράδειγμα του πώς η κουζίνα κάθε λαού δεν είναι κάτι σταθερό, αλλά μια συνεχής συνομιλία με τους γείτονές του.",
+     "en": "Greeks, however, adapted it to their own tastes. While in Turkey it is traditionally made from lamb or beef, in Greece pork prevailed, and later chicken. And above all, Greek gyros is wrapped in a pitta with tzatziki, tomato, onion and, however much it surprises foreigners, chips inside. It is a good example of how every people's cuisine is not something fixed, but a continuous conversation with its neighbours."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού αναπτύχθηκε η τεχνική της κάθετης σούβλας;",
+     "options": [
+      "Στο Βυζάντιο",
+      "Στην Οθωμανική Αυτοκρατορία τον δέκατο ένατο αιώνα",
+      "Στη Γερμανία",
+      "Στην αρχαία Ελλάδα"
+     ],
+     "answer": "Στην Οθωμανική Αυτοκρατορία τον δέκατο ένατο αιώνα",
+     "why": "αναπτύχθηκε στην Οθωμανική Αυτοκρατορία τον δέκατο ένατο αιώνα"
+    },
+    {
+     "q": "Ποιοι έφεραν τον γύρο στην Ελλάδα, σύμφωνα με τις περισσότερες μαρτυρίες;",
+     "options": [
+      "Πρόσφυγες από τη Μικρά Ασία και την Κωνσταντινούπολη",
+      "Γερμανοί μετανάστες",
+      "Τουρίστες",
+      "Έλληνες ναυτικοί"
+     ],
+     "answer": "Πρόσφυγες από τη Μικρά Ασία και την Κωνσταντινούπολη",
+     "why": "πρόσφυγες από τη Μικρά Ασία και την Κωνσταντινούπολη"
+    },
+    {
+     "q": "Ποιο κρέας επικράτησε στον ελληνικό γύρο;",
+     "options": [
+      "Το αρνί",
+      "Το χοιρινό",
+      "Το μοσχάρι",
+      "Το ψάρι"
+     ],
+     "answer": "Το χοιρινό",
+     "why": "στην Ελλάδα επικράτησε το χοιρινό"
+    },
+    {
+     "q": "Τι θέλει να δείξει ο ομιλητής με το παράδειγμα του γύρου;",
+     "options": [
+      "Ότι ο γύρος δεν είναι υγιεινός",
+      "Ότι η κουζίνα κάθε λαού είναι μια συνεχής συνομιλία με τους γείτονές του",
+      "Ότι η ελληνική κουζίνα είναι η παλαιότερη",
+      "Ότι οι ξένοι δεν καταλαβαίνουν την ελληνική κουζίνα"
+     ],
+     "answer": "Ότι η κουζίνα κάθε λαού είναι μια συνεχής συνομιλία με τους γείτονές του",
+     "why": "η κουζίνα κάθε λαού δεν είναι κάτι σταθερό, αλλά μια συνεχής συνομιλία με τους γείτονές του"
+    }
+   ],
+   "gloss": {
+    "γαστρονομίας": "γαστρονομία — gastronomy",
+    "κατεξοχήν": "κατεξοχήν — par excellence",
+    "κάθετη": "κάθετος — vertical",
+    "σούβλα": "σούβλα — spit",
+    "μαρτυρίες": "μαρτυρία — account, testimony",
+    "διαδόθηκε": "διαδίδομαι — to spread",
+    "απόδοση": "απόδοση — rendering, translation",
+    "επικράτησε": "επικρατώ — to prevail",
+    "προσάρμοσαν": "προσαρμόζω — to adapt",
+    "τυλίγεται": "τυλίγομαι — to be wrapped",
+    "ξενίζει": "ξενίζω — to surprise, seem strange",
+    "συνομιλία": "συνομιλία — conversation"
+   }
+  }
+ ]
+}
