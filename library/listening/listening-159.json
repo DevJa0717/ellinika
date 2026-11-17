@@ -1,0 +1,874 @@
+{
+ "items": [
+  {
+   "id": "l159-ann-votanikos",
+   "title": "Ανακοίνωση στον βοτανικό κήπο",
+   "title_en": "An announcement at the botanical garden",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση από τα μεγάφωνα ενός βοτανικού κήπου.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Αγαπητοί επισκέπτες, σας ενημερώνουμε ότι το θερμοκήπιο με τους κάκτους και τα παχύφυτα παραμένει κλειστό για εργασίες ανακαίνισης. Θα ξανανοίξει την άνοιξη, με νέο σύστημα θέρμανσης και περισσότερα είδη.",
+     "en": "Dear visitors, please note that the greenhouse with the cacti and succulents remains closed for renovation work. It will reopen in spring, with a new heating system and more species."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Στις δώδεκα ξεκινά δωρεάν ξενάγηση στον κήπο με τα αρωματικά φυτά της ελληνικής φύσης, όπως το θυμάρι, η ρίγανη και το φασκόμηλο. Σημείο συνάντησης είναι η μεγάλη πλάτανος δίπλα στη λιμνούλα.",
+     "en": "At twelve a free guided tour begins of the garden of aromatic plants of Greek nature, such as thyme, oregano and sage. The meeting point is the big plane tree next to the pond."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Υπενθυμίζουμε ότι απαγορεύεται να κόβετε φύλλα ή λουλούδια, ακόμη και για να τα μυρίσετε. Όσοι θέλετε σπόρους ή μικρά φυτά, θα τα βρείτε στο πωλητήριο δίπλα στην έξοδο, και τα έσοδα πηγαίνουν στη συντήρηση του κήπου.",
+     "en": "We remind you that it is forbidden to pick leaves or flowers, even to smell them. Those of you who would like seeds or small plants will find them at the shop next to the exit, and the proceeds go to the upkeep of the garden."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί είναι κλειστό το θερμοκήπιο με τους κάκτους;",
+     "options": [
+      "Γιατί μεταφέρονται τα φυτά",
+      "Για εργασίες ανακαίνισης",
+      "Λόγω κρύου",
+      "Λόγω έλλειψης προσωπικού"
+     ],
+     "answer": "Για εργασίες ανακαίνισης",
+     "why": "παραμένει κλειστό για εργασίες ανακαίνισης"
+    },
+    {
+     "q": "Πού είναι το σημείο συνάντησης για την ξενάγηση;",
+     "options": [
+      "Στο θερμοκήπιο",
+      "Στην είσοδο",
+      "Στη μεγάλη πλάτανο δίπλα στη λιμνούλα",
+      "Στο πωλητήριο"
+     ],
+     "answer": "Στη μεγάλη πλάτανο δίπλα στη λιμνούλα",
+     "why": "η μεγάλη πλάτανος δίπλα στη λιμνούλα"
+    },
+    {
+     "q": "Πού πηγαίνουν τα έσοδα από το πωλητήριο;",
+     "options": [
+      "Σε νέα θερμοκήπια",
+      "Στον δήμο",
+      "Σε ένα σχολείο",
+      "Στη συντήρηση του κήπου"
+     ],
+     "answer": "Στη συντήρηση του κήπου",
+     "why": "τα έσοδα πηγαίνουν στη συντήρηση του κήπου"
+    }
+   ],
+   "gloss": {
+    "βοτανικού κήπου": "βοτανικός κήπος — botanical garden",
+    "κάκτους": "κάκτος — cactus",
+    "παχύφυτα": "παχύφυτο — succulent",
+    "ανακαίνισης": "ανακαίνιση — renovation",
+    "θέρμανσης": "θέρμανση — heating",
+    "αρωματικά": "αρωματικός — aromatic",
+    "θυμάρι": "θυμάρι — thyme",
+    "φασκόμηλο": "φασκόμηλο — sage",
+    "λιμνούλα": "λιμνούλα — pond",
+    "πωλητήριο": "πωλητήριο — (museum/garden) shop",
+    "έσοδα": "έσοδα — proceeds, revenue"
+   }
+  },
+  {
+   "id": "l159-int-bonsai",
+   "title": "Ένα δέντρο σε μια γλάστρα",
+   "title_en": "A tree in a pot",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με έναν συνταξιούχο που καλλιεργεί δέντρα μπονσάι.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τι ακριβώς είναι ένα μπονσάι;",
+     "en": "What exactly is a bonsai?"
+    },
+    {
+     "speaker": "Καλλιεργητής",
+     "voice": "m",
+     "el": "Πολλοί νομίζουν ότι είναι ειδικό είδος φυτού. Δεν είναι. Είναι ένα κανονικό δέντρο, μια ελιά, ένα πεύκο, μια φτελιά, που το κρατάμε μικρό σε μια ρηχή γλάστρα, κόβοντας με προσοχή τα κλαδιά και τις ρίζες του.",
+     "en": "Many people think it's a special kind of plant. It isn't. It's an ordinary tree, an olive, a pine, an elm, that we keep small in a shallow pot by carefully cutting its branches and roots."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πόσο χρόνο θέλει;",
+     "en": "How much time does it take?"
+    },
+    {
+     "speaker": "Καλλιεργητής",
+     "voice": "m",
+     "el": "Χρόνια. Η ελιά που βλέπετε εδώ τη βρήκα πριν από είκοσι χρόνια σε ένα χωράφι που θα το έκαναν οικόπεδο. Ήταν ξεραμένη από τη μία πλευρά. Χρειάστηκαν πέντε χρόνια μόνο για να ξαναβγάλει δυνατά κλαδιά.",
+     "en": "Years. The olive tree you see here I found twenty years ago in a field that was going to become a building plot. It was dried up on one side. It took five years just for it to put out strong branches again."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ποιο είναι το μεγαλύτερο λάθος των αρχαρίων;",
+     "en": "What's the biggest mistake beginners make?"
+    },
+    {
+     "speaker": "Καλλιεργητής",
+     "voice": "m",
+     "el": "Τα βάζουν μέσα στο σπίτι, σαν διακοσμητικά. Τα περισσότερα μπονσάι είναι δέντρα του έξω κόσμου· χρειάζονται ήλιο, αέρα και το κρύο του χειμώνα. Μέσα στο σαλόνι μαραίνονται σε λίγους μήνες.",
+     "en": "They put them inside the house, as decorations. Most bonsai are outdoor trees; they need sun, air and the cold of winter. In the living room they wither within a few months."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είναι, σύμφωνα με τον καλλιεργητή, ένα μπονσάι;",
+     "options": [
+      "Ένα τεχνητό φυτό",
+      "Ένα κανονικό δέντρο που το κρατάμε μικρό σε ρηχή γλάστρα",
+      "Ένα ειδικό είδος φυτού από την Ιαπωνία",
+      "Ένα δέντρο που δεν μεγαλώνει ποτέ"
+     ],
+     "answer": "Ένα κανονικό δέντρο που το κρατάμε μικρό σε ρηχή γλάστρα",
+     "why": "Είναι ένα κανονικό δέντρο"
+    },
+    {
+     "q": "Πού βρήκε την ελιά του;",
+     "options": [
+      "Στον κήπο του πατέρα του",
+      "Σε ένα χωράφι που θα το έκαναν οικόπεδο",
+      "Σε ένα φυτώριο",
+      "Σε μια έκθεση"
+     ],
+     "answer": "Σε ένα χωράφι που θα το έκαναν οικόπεδο",
+     "why": "σε ένα χωράφι που θα το έκαναν οικόπεδο"
+    },
+    {
+     "q": "Ποιο είναι το μεγαλύτερο λάθος των αρχαρίων;",
+     "options": [
+      "Ότι τα ποτίζουν λίγο",
+      "Ότι τα κλαδεύουν πολύ",
+      "Ότι τα βάζουν μέσα στο σπίτι, σαν διακοσμητικά",
+      "Ότι αγοράζουν ακριβά δέντρα"
+     ],
+     "answer": "Ότι τα βάζουν μέσα στο σπίτι, σαν διακοσμητικά",
+     "why": "Τα βάζουν μέσα στο σπίτι, σαν διακοσμητικά"
+    }
+   ],
+   "gloss": {
+    "καλλιεργεί": "καλλιεργώ — to grow, to cultivate",
+    "μπονσάι": "μπονσάι — bonsai",
+    "φτελιά": "φτελιά — elm",
+    "ρηχή": "ρηχός — shallow",
+    "γλάστρα": "γλάστρα — (flower) pot",
+    "κλαδιά": "κλαδί — branch",
+    "ρίζες": "ρίζα — root",
+    "οικόπεδο": "οικόπεδο — building plot",
+    "ξεραμένη": "ξεραμένος — dried up",
+    "αρχαρίων": "αρχάριος — beginner",
+    "μαραίνονται": "μαραίνομαι — to wither"
+   }
+  },
+  {
+   "id": "l159-dia-pitsa",
+   "title": "Πίτσα στο σπίτι;",
+   "title_en": "Pizza at home?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ζευγάρι να συζητάει αν θα φτιάξει πίτσα στο σπίτι για τους φίλους του.",
+   "script": [
+    {
+     "speaker": "Φαίη",
+     "voice": "f",
+     "el": "Το Σάββατο που έρχονται τα παιδιά, λέω να φτιάξουμε πίτσα μόνοι μας αντί να παραγγείλουμε.",
+     "en": "On Saturday, when our friends come, I'm thinking we make pizza ourselves instead of ordering."
+    },
+    {
+     "speaker": "Μάρκος",
+     "voice": "m",
+     "el": "Το έχουμε ξαναπροσπαθήσει, θυμάσαι; Η ζύμη βγήκε σαν παξιμάδι.",
+     "en": "We've tried it before, remember? The dough came out like a rusk."
+    },
+    {
+     "speaker": "Φαίη",
+     "voice": "f",
+     "el": "Γιατί τη ζυμώσαμε το ίδιο απόγευμα. Διάβασα ότι η καλή ζύμη θέλει πολύ λίγη μαγιά και να μείνει στο ψυγείο τουλάχιστον μια μέρα. Έτσι γίνεται αφράτη και πιο εύπεπτη.",
+     "en": "Because we kneaded it the same afternoon. I read that good dough needs very little yeast and has to stay in the fridge for at least a day. That way it becomes fluffy and easier to digest."
+    },
+    {
+     "speaker": "Μάρκος",
+     "voice": "m",
+     "el": "Και ο φούρνος μας δεν ζεσταίνεται αρκετά. Οι πιτσαρίες ψήνουν στους τετρακόσιους βαθμούς.",
+     "en": "And our oven doesn't get hot enough. Pizzerias bake at four hundred degrees."
+    },
+    {
+     "speaker": "Φαίη",
+     "voice": "f",
+     "el": "Θα βάλουμε τον φούρνο στο τέρμα για μισή ώρα πριν, με το ταψί μέσα. Και θα κάνουμε έναν πάγκο με υλικά, να διαλέξει ο καθένας τα δικά του.",
+     "en": "We'll put the oven on full for half an hour beforehand, with the tray inside. And we'll set up a counter with toppings, so everyone can choose their own."
+    },
+    {
+     "speaker": "Μάρκος",
+     "voice": "m",
+     "el": "Εντάξει, αλλά αν βγει πάλι παξιμάδι, παραγγέλνουμε και δεν το συζητάμε!",
+     "en": "OK, but if it comes out like a rusk again, we're ordering, no discussion!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί, κατά τη Φαίη, απέτυχε η ζύμη την προηγούμενη φορά;",
+     "options": [
+      "Γιατί έβαλαν πολύ αλεύρι",
+      "Γιατί τη ζύμωσαν το ίδιο απόγευμα",
+      "Γιατί ξέχασαν τη μαγιά",
+      "Γιατί ο φούρνος χάλασε"
+     ],
+     "answer": "Γιατί τη ζύμωσαν το ίδιο απόγευμα",
+     "why": "Γιατί τη ζυμώσαμε το ίδιο απόγευμα"
+    },
+    {
+     "q": "Τι θέλει η καλή ζύμη, σύμφωνα με όσα διάβασε η Φαίη;",
+     "options": [
+      "Πολύ λίγη μαγιά και μία τουλάχιστον μέρα στο ψυγείο",
+      "Αλεύρι από την Ιταλία",
+      "Πολλή μαγιά και ζεστό νερό",
+      "Να ψηθεί αμέσως"
+     ],
+     "answer": "Πολύ λίγη μαγιά και μία τουλάχιστον μέρα στο ψυγείο",
+     "why": "θέλει πολύ λίγη μαγιά και να μείνει στο ψυγείο τουλάχιστον μια μέρα"
+    },
+    {
+     "q": "Πώς σκοπεύει η Φαίη να λύσει το πρόβλημα του φούρνου;",
+     "options": [
+      "Θα αγοράσουν καινούργιο φούρνο",
+      "Θα βάλουν τον φούρνο στο τέρμα για μισή ώρα πριν, με το ταψί μέσα",
+      "Θα ψήσουν στα κάρβουνα",
+      "Θα ψήσουν στην πιτσαρία"
+     ],
+     "answer": "Θα βάλουν τον φούρνο στο τέρμα για μισή ώρα πριν, με το ταψί μέσα",
+     "why": "Θα βάλουμε τον φούρνο στο τέρμα για μισή ώρα πριν, με το ταψί μέσα"
+    }
+   ],
+   "gloss": {
+    "παραγγείλουμε": "παραγγέλνω — to order",
+    "ζύμη": "ζύμη — dough",
+    "παξιμάδι": "παξιμάδι — rusk",
+    "ζυμώσαμε": "ζυμώνω — to knead",
+    "μαγιά": "μαγιά — yeast",
+    "αφράτη": "αφράτος — fluffy",
+    "εύπεπτη": "εύπεπτος — easy to digest",
+    "πιτσαρίες": "πιτσαρία — pizzeria",
+    "στο τέρμα": "στο τέρμα — (turned up) to the maximum",
+    "ταψί": "ταψί — baking tray",
+    "υλικά": "υλικό — ingredient, topping"
+   }
+  },
+  {
+   "id": "l159-mon-tyropites",
+   "title": "Τυρόπιτες από τις πέντε το πρωί",
+   "title_en": "Cheese pies from five in the morning",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε μια γυναίκα που έχει ένα μικρό πιτάδικο να μιλάει σε μια εκπομπή για τη δουλειά της.",
+   "script": [
+    {
+     "speaker": "Πιτοποιός",
+     "voice": "f",
+     "el": "Το ξυπνητήρι μου χτυπάει στις τέσσερις. Στις πέντε ανοίγω το πιτάδικο, γιατί οι πρώτοι πελάτες είναι οι οδηγοί των λεωφορείων και οι εργάτες που πάνε για δουλειά. Ως τις οκτώ έχω πουλήσει τις μισές πίτες της μέρας.",
+     "en": "My alarm goes off at four. At five I open the pie shop, because the first customers are the bus drivers and the workers going to work. By eight I've sold half the day's pies."
+    },
+    {
+     "speaker": "Πιτοποιός",
+     "voice": "f",
+     "el": "Το φύλλο το ανοίγω μόνη μου, με τον πλάστη, όπως μου έμαθε η πεθερά μου. Είναι πιο κουραστικό από το έτοιμο φύλλο, αλλά οι πελάτες καταλαβαίνουν αμέσως τη διαφορά: είναι πιο τραγανό και δεν μουσκεύει από το βούτυρο.",
+     "en": "I roll out the pastry myself, with the rolling pin, as my mother-in-law taught me. It's more tiring than ready-made pastry, but customers immediately notice the difference: it's crisper and doesn't get soggy from the butter."
+    },
+    {
+     "speaker": "Πιτοποιός",
+     "voice": "f",
+     "el": "Το δύσκολο είναι ότι δεν έχω κοινωνική ζωή· στις εννιά το βράδυ κοιμάμαι. Όμως δεν θα το άλλαζα. Ξέρω τους μισούς ανθρώπους της γειτονιάς με το όνομά τους, και ξέρω τι πίτα θα πάρει ο καθένας πριν μου το πει.",
+     "en": "The hard thing is that I have no social life; at nine in the evening I'm asleep. But I wouldn't change it. I know half the people in the neighbourhood by name, and I know which pie each one will have before they tell me."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιοι είναι οι πρώτοι πελάτες της;",
+     "options": [
+      "Οδηγοί λεωφορείων και εργάτες",
+      "Μαθητές",
+      "Τουρίστες",
+      "Συνταξιούχοι"
+     ],
+     "answer": "Οδηγοί λεωφορείων και εργάτες",
+     "why": "οι οδηγοί των λεωφορείων και οι εργάτες"
+    },
+    {
+     "q": "Γιατί ανοίγει μόνη της το φύλλο;",
+     "options": [
+      "Γιατί το έτοιμο φύλλο δεν βρίσκεται",
+      "Γιατί είναι πιο γρήγορο",
+      "Γιατί βγαίνει πιο τραγανό και δεν μουσκεύει",
+      "Γιατί είναι φθηνότερο"
+     ],
+     "answer": "Γιατί βγαίνει πιο τραγανό και δεν μουσκεύει",
+     "why": "είναι πιο τραγανό και δεν μουσκεύει από το βούτυρο"
+    },
+    {
+     "q": "Ποιο είναι το δύσκολο της δουλειάς της;",
+     "options": [
+      "Η ζέστη του φούρνου",
+      "Τα χαμηλά κέρδη",
+      "Ότι δεν έχει κοινωνική ζωή",
+      "Οι δύσκολοι πελάτες"
+     ],
+     "answer": "Ότι δεν έχει κοινωνική ζωή",
+     "why": "δεν έχω κοινωνική ζωή"
+    }
+   ],
+   "gloss": {
+    "πιτάδικο": "πιτάδικο — pie shop",
+    "ξυπνητήρι": "ξυπνητήρι — alarm clock",
+    "φύλλο": "φύλλο — (filo) pastry sheet",
+    "πλάστη": "πλάστης — rolling pin",
+    "πεθερά": "πεθερά — mother-in-law",
+    "τραγανό": "τραγανός — crisp, crunchy",
+    "μουσκεύει": "μουσκεύω — to get soggy",
+    "βούτυρο": "βούτυρο — butter"
+   }
+  },
+  {
+   "id": "l159-int-drone",
+   "title": "Ο χειριστής του μη επανδρωμένου",
+   "title_en": "The drone operator",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με έναν εθελοντή που χειρίζεται μη επανδρωμένα αεροσκάφη σε ομάδα έρευνας και διάσωσης.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πώς βοηθάει ένα μη επανδρωμένο αεροσκάφος σε μια διάσωση;",
+     "en": "How does a drone help in a rescue?"
+    },
+    {
+     "speaker": "Εθελοντής",
+     "voice": "m",
+     "el": "Όταν χάνεται κάποιος στο βουνό, οι ομάδες στο έδαφος μπορεί να χρειαστούν ώρες για να ψάξουν μια χαράδρα. Εμείς σηκώνουμε το αεροσκάφος και σε δέκα λεπτά έχουμε δει όλη την περιοχή από ψηλά.",
+     "en": "When someone gets lost on the mountain, ground teams may need hours to search a ravine. We put the drone up and in ten minutes we've seen the whole area from above."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και τη νύχτα;",
+     "en": "And at night?"
+    },
+    {
+     "speaker": "Εθελοντής",
+     "voice": "m",
+     "el": "Τη νύχτα είναι ακόμα πιο χρήσιμο, γιατί έχει θερμική κάμερα. Το ανθρώπινο σώμα είναι πιο ζεστό από το περιβάλλον, οπότε φαίνεται σαν μια φωτεινή κηλίδα. Πέρσι έτσι βρήκαμε έναν ηλικιωμένο που είχε χαθεί σε έναν ελαιώνα.",
+     "en": "At night it's even more useful, because it has a thermal camera. The human body is warmer than its surroundings, so it shows up as a bright spot. Last year that's how we found an elderly man who had got lost in an olive grove."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Υπάρχουν περιορισμοί;",
+     "en": "Are there limitations?"
+    },
+    {
+     "speaker": "Εθελοντής",
+     "voice": "m",
+     "el": "Πολλοί. Με δυνατό αέρα ή βροχή δεν πετάμε. Η μπαταρία κρατάει περίπου μισή ώρα, γι' αυτό κουβαλάμε πάντα πολλές. Και φυσικά χρειάζεται άδεια και εκπαίδευση· δεν είναι παιχνίδι.",
+     "en": "Many. In strong wind or rain we don't fly. The battery lasts about half an hour, which is why we always carry several. And of course you need a licence and training; it's not a toy."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο χρόνο χρειάζεται το αεροσκάφος για να δει όλη την περιοχή;",
+     "options": [
+      "Δύο λεπτά",
+      "Μία ώρα",
+      "Μισή μέρα",
+      "Περίπου δέκα λεπτά"
+     ],
+     "answer": "Περίπου δέκα λεπτά",
+     "why": "σε δέκα λεπτά έχουμε δει όλη την περιοχή από ψηλά"
+    },
+    {
+     "q": "Γιατί είναι χρήσιμο τη νύχτα;",
+     "options": [
+      "Γιατί έχει δυνατούς προβολείς",
+      "Γιατί δεν φυσάει αέρας",
+      "Γιατί πετάει πιο ψηλά",
+      "Γιατί έχει θερμική κάμερα"
+     ],
+     "answer": "Γιατί έχει θερμική κάμερα",
+     "why": "γιατί έχει θερμική κάμερα"
+    },
+    {
+     "q": "Γιατί κουβαλάνε πολλές μπαταρίες;",
+     "options": [
+      "Γιατί η μπαταρία κρατάει περίπου μισή ώρα",
+      "Γιατί χαλάνε συχνά",
+      "Γιατί το απαιτεί ο νόμος",
+      "Γιατί είναι φθηνές"
+     ],
+     "answer": "Γιατί η μπαταρία κρατάει περίπου μισή ώρα",
+     "why": "Η μπαταρία κρατάει περίπου μισή ώρα"
+    }
+   ],
+   "gloss": {
+    "μη επανδρωμένα αεροσκάφη": "μη επανδρωμένο αεροσκάφος — drone, unmanned aircraft",
+    "έρευνας και διάσωσης": "έρευνα και διάσωση — search and rescue",
+    "χαράδρα": "χαράδρα — ravine, gorge",
+    "θερμική": "θερμικός — thermal",
+    "κηλίδα": "κηλίδα — spot",
+    "ελαιώνα": "ελαιώνας — olive grove",
+    "περιορισμοί": "περιορισμός — limitation",
+    "μπαταρία": "μπαταρία — battery",
+    "άδεια": "άδεια — licence, permit"
+   }
+  },
+  {
+   "id": "l159-vm-fytorio",
+   "title": "Μήνυμα από το φυτώριο",
+   "title_en": "A message from the plant nursery",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από ένα φυτώριο, όπου παραγγείλατε δέντρα για τον κήπο σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Καλημέρα σας, από το φυτώριο σας παίρνω, για την παραγγελία σας. Οι τρεις λεμονιές και η ροδιά είναι έτοιμες. Η συκιά που ζητήσατε, όμως, δεν έχει έρθει ακόμα από τον παραγωγό· περιμένουμε να έρθει στα μέσα του μήνα.",
+     "en": "Good morning, I'm calling from the nursery about your order. The three lemon trees and the pomegranate are ready. The fig tree you asked for, however, hasn't arrived from the grower yet; we expect it in the middle of the month."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Σας προτείνω να φυτέψετε τώρα τις λεμονιές, πριν πιάσουν οι παγωνιές. Αν θέλετε, ο συνεργάτης μας μπορεί να έρθει να τις φυτέψει ο ίδιος· η υπηρεσία κοστίζει είκοσι ευρώ για κάθε δέντρο και περιλαμβάνει και το λίπασμα.",
+     "en": "I suggest you plant the lemon trees now, before the frosts set in. If you like, our colleague can come and plant them himself; the service costs twenty euros per tree and includes the fertiliser."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Τη μεταφορά την κάνουμε δωρεάν για παραγγελίες πάνω από εκατό ευρώ, οπότε η δική σας μπαίνει σε αυτή την κατηγορία. Πείτε μου μόνο ποια μέρα σας βολεύει.",
+     "en": "We deliver free of charge for orders over a hundred euros, so yours falls into that category. Just tell me which day suits you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο δέντρο δεν έχει έρθει ακόμα;",
+     "options": [
+      "Η ροδιά",
+      "Η συκιά",
+      "Η ελιά",
+      "Οι λεμονιές"
+     ],
+     "answer": "Η συκιά",
+     "why": "Η συκιά που ζητήσατε, όμως, δεν έχει έρθει ακόμα"
+    },
+    {
+     "q": "Γιατί προτείνει να φυτέψετε τώρα τις λεμονιές;",
+     "options": [
+      "Γιατί αλλιώς θα ξεραθούν στις γλάστρες",
+      "Πριν πιάσουν οι παγωνιές",
+      "Γιατί μετά θα ακριβύνει η υπηρεσία",
+      "Γιατί έρχονται βροχές"
+     ],
+     "answer": "Πριν πιάσουν οι παγωνιές",
+     "why": "πριν πιάσουν οι παγωνιές"
+    },
+    {
+     "q": "Τι ισχύει για τη μεταφορά των δέντρων σας;",
+     "options": [
+      "Γίνεται μόνο τα Σάββατα",
+      "Είναι δωρεάν",
+      "Πρέπει να τα πάρετε μόνοι σας",
+      "Κοστίζει είκοσι ευρώ"
+     ],
+     "answer": "Είναι δωρεάν",
+     "why": "Τη μεταφορά την κάνουμε δωρεάν για παραγγελίες πάνω από εκατό ευρώ"
+    }
+   ],
+   "gloss": {
+    "φυτώριο": "φυτώριο — (plant) nursery",
+    "λεμονιές": "λεμονιά — lemon tree",
+    "ροδιά": "ροδιά — pomegranate tree",
+    "συκιά": "συκιά — fig tree",
+    "παραγωγό": "παραγωγός — grower, producer",
+    "φυτέψετε": "φυτεύω — to plant",
+    "παγωνιές": "παγωνιά — frost",
+    "λίπασμα": "λίπασμα — fertiliser",
+    "μεταφορά": "μεταφορά — delivery, transport",
+    "κατηγορία": "κατηγορία — category"
+   }
+  },
+  {
+   "id": "l159-vm-sokolata",
+   "title": "Εργαστήρι σοκολάτας για τα γενέθλια",
+   "title_en": "A chocolate workshop for the birthday",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από ένα εργαστήρι σοκολάτας, όπου κλείσατε ένα παιδικό πάρτι.",
+   "script": [
+    {
+     "speaker": "Υπεύθυνη",
+     "voice": "f",
+     "el": "Γεια σας, η Ιωάννα από το εργαστήρι σοκολάτας. Σας επιβεβαιώνω το πάρτι για τα γενέθλια της κόρης σας την Κυριακή, στις έντεκα το πρωί. Το εργαστήρι διαρκεί μιάμιση ώρα και τα παιδιά θα φτιάξουν σοκολατένια γλειφιτζούρια και τρουφάκια.",
+     "en": "Hello, it's Ioanna from the chocolate workshop. I'm confirming the party for your daughter's birthday on Sunday at eleven in the morning. The workshop lasts an hour and a half and the children will make chocolate lollipops and truffles."
+    },
+    {
+     "speaker": "Υπεύθυνη",
+     "voice": "f",
+     "el": "Μου είπατε ότι ένα από τα παιδιά έχει αλλεργία στους ξηρούς καρπούς. Για να είμαστε σίγουροι, εκείνη τη μέρα δεν θα χρησιμοποιήσουμε καθόλου φουντούκια ή αμύγδαλα, ούτε για διακόσμηση.",
+     "en": "You told me that one of the children has a nut allergy. To be safe, on that day we won't use any hazelnuts or almonds at all, not even for decoration."
+    },
+    {
+     "speaker": "Υπεύθυνη",
+     "voice": "f",
+     "el": "Τα παιδιά καλό είναι να φορούν ρούχα που δεν πειράζει να λερωθούν· ποδιές δίνουμε εμείς. Στο τέλος κάθε παιδί παίρνει σπίτι ένα κουτάκι με ό,τι έφτιαξε. Την πληρωμή την κάνετε την ίδια μέρα.",
+     "en": "It's a good idea for the children to wear clothes that can get dirty; we provide aprons. At the end each child takes home a little box with what they made. You pay on the day."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θα φτιάξουν τα παιδιά;",
+     "options": [
+      "Μπισκότα",
+      "Ζεστή σοκολάτα",
+      "Σοκολατένια γλειφιτζούρια και τρουφάκια",
+      "Τούρτα γενεθλίων"
+     ],
+     "answer": "Σοκολατένια γλειφιτζούρια και τρουφάκια",
+     "why": "σοκολατένια γλειφιτζούρια και τρουφάκια"
+    },
+    {
+     "q": "Γιατί δεν θα χρησιμοποιήσουν φουντούκια ή αμύγδαλα;",
+     "options": [
+      "Γιατί ακρίβυναν",
+      "Γιατί δεν αρέσουν στα παιδιά",
+      "Γιατί ένα παιδί έχει αλλεργία στους ξηρούς καρπούς",
+      "Γιατί λερώνουν"
+     ],
+     "answer": "Γιατί ένα παιδί έχει αλλεργία στους ξηρούς καρπούς",
+     "why": "ένα από τα παιδιά έχει αλλεργία στους ξηρούς καρπούς"
+    },
+    {
+     "q": "Τι πρέπει να φορούν τα παιδιά;",
+     "options": [
+      "Γιορτινά ρούχα",
+      "Γάντια",
+      "Ρούχα που δεν πειράζει να λερωθούν",
+      "Ποδιές από το σπίτι"
+     ],
+     "answer": "Ρούχα που δεν πειράζει να λερωθούν",
+     "why": "ρούχα που δεν πειράζει να λερωθούν"
+    }
+   ],
+   "gloss": {
+    "εργαστήρι": "εργαστήρι — workshop",
+    "επιβεβαιώνω": "επιβεβαιώνω — to confirm",
+    "γλειφιτζούρια": "γλειφιτζούρι — lollipop",
+    "τρουφάκια": "τρουφάκι — (chocolate) truffle",
+    "αλλεργία": "αλλεργία — allergy",
+    "ξηρούς καρπούς": "ξηροί καρποί — nuts",
+    "φουντούκια": "φουντούκι — hazelnut",
+    "αμύγδαλα": "αμύγδαλο — almond",
+    "λερωθούν": "λερώνομαι — to get dirty",
+    "ποδιές": "ποδιά — apron"
+   }
+  },
+  {
+   "id": "l159-dia-kryfos-ai-vasilis",
+   "title": "Κρυφός Άγιος Βασίλης στο γραφείο",
+   "title_en": "Secret Santa at the office",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε δύο συναδέλφους να οργανώνουν την ανταλλαγή δώρων των Χριστουγέννων στο γραφείο τους.",
+   "script": [
+    {
+     "speaker": "Ρούλα",
+     "voice": "f",
+     "el": "Φέτος λέω να κάνουμε κρυφό Άγιο Βασίλη. Ο καθένας τραβάει ένα όνομα και κάνει δώρο μόνο σε αυτόν τον συνάδελφο, χωρίς να ξέρει ο άλλος από ποιον είναι.",
+     "en": "This year I'm thinking we do Secret Santa. Everyone draws a name and gives a present only to that colleague, without the other knowing who it's from."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Καλή ιδέα, αλλά πρέπει να βάλουμε όριο στην τιμή. Πέρσι κάποιοι πήραν ακριβά δώρα και άλλοι ένα φλιτζάνι, και ένιωσαν άσχημα.",
+     "en": "Good idea, but we need to set a price limit. Last year some people bought expensive presents and others a mug, and they felt bad."
+    },
+    {
+     "speaker": "Ρούλα",
+     "voice": "f",
+     "el": "Λέω δεκαπέντε ευρώ το πολύ. Και για όσους δεν ξέρουν τι να πάρουν, ο καθένας γράφει σε ένα χαρτάκι τρία πράγματα που του αρέσουν.",
+     "en": "I say fifteen euros at most. And for those who don't know what to buy, everyone writes on a slip of paper three things they like."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Τα ονόματα πώς θα τα τραβήξουμε; Ο μισός όροφος δουλεύει από το σπίτι τις Παρασκευές.",
+     "en": "How will we draw the names? Half the floor works from home on Fridays."
+    },
+    {
+     "speaker": "Ρούλα",
+     "voice": "f",
+     "el": "Υπάρχουν εφαρμογές που το κάνουν μόνες τους και στέλνουν στον καθένα ένα μήνυμα με το όνομα. Και ανοίγουμε τα δώρα όλοι μαζί στο γιορτινό τραπέζι, στις είκοσι Δεκεμβρίου.",
+     "en": "There are apps that do it automatically and send each person a message with the name. And we open the presents all together at the festive meal on the twentieth of December."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θέλει ο Θοδωρής όριο στην τιμή;",
+     "options": [
+      "Γιατί το ζήτησε ο διευθυντής",
+      "Γιατί δεν έχει χρήματα",
+      "Γιατί τα δώρα είναι περιττά",
+      "Γιατί πέρσι κάποιοι πήραν ακριβά δώρα και άλλοι φτηνά και ένιωσαν άσχημα"
+     ],
+     "answer": "Γιατί πέρσι κάποιοι πήραν ακριβά δώρα και άλλοι φτηνά και ένιωσαν άσχημα",
+     "why": "Πέρσι κάποιοι πήραν ακριβά δώρα και άλλοι ένα φλιτζάνι"
+    },
+    {
+     "q": "Τι θα γράψει ο καθένας στο χαρτάκι;",
+     "options": [
+      "Μια ευχή",
+      "Το μέγεθος των ρούχων του",
+      "Τρία πράγματα που του αρέσουν",
+      "Το όνομά του"
+     ],
+     "answer": "Τρία πράγματα που του αρέσουν",
+     "why": "τρία πράγματα που του αρέσουν"
+    },
+    {
+     "q": "Πώς θα τραβήξουν τα ονόματα;",
+     "options": [
+      "Στο γιορτινό τραπέζι",
+      "Θα τα διαλέξει η Ρούλα",
+      "Από ένα καπέλο την Παρασκευή",
+      "Με μια εφαρμογή που στέλνει μήνυμα στον καθένα"
+     ],
+     "answer": "Με μια εφαρμογή που στέλνει μήνυμα στον καθένα",
+     "why": "Υπάρχουν εφαρμογές που το κάνουν μόνες τους"
+    }
+   ],
+   "gloss": {
+    "ανταλλαγή": "ανταλλαγή — exchange",
+    "κρυφό Άγιο Βασίλη": "κρυφός Άγιος Βασίλης — Secret Santa",
+    "τραβάει": "τραβάω — to draw (a name)",
+    "όριο": "όριο — limit",
+    "φλιτζάνι": "φλιτζάνι — cup, mug",
+    "χαρτάκι": "χαρτάκι — slip of paper",
+    "όροφος": "όροφος — floor, storey",
+    "εφαρμογές": "εφαρμογή — app",
+    "γιορτινό": "γιορτινός — festive"
+   }
+  },
+  {
+   "id": "l159-c1-milgram",
+   "title": "Μέχρι πού φτάνει η υπακοή;",
+   "title_en": "How far does obedience go?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από διάλεξη κοινωνικής ψυχολογίας για ένα από τα πιο γνωστά και αμφιλεγόμενα πειράματα του εικοστού αιώνα.",
+   "script": [
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Το 1961, την ίδια χρονιά που δικαζόταν στην Ιερουσαλήμ ο ναζί αξιωματούχος Άντολφ Άιχμαν, ο νεαρός ψυχολόγος Στάνλεϊ Μίλγκραμ ξεκίνησε στο Πανεπιστήμιο Γέιλ μια σειρά πειραμάτων. Ήθελε να μάθει πόσο μακριά θα πήγαιναν απλοί άνθρωποι, αν τους το ζητούσε μια αρχή που θεωρούσαν νόμιμη.",
+     "en": "In 1961, the same year that the Nazi official Adolf Eichmann was being tried in Jerusalem, the young psychologist Stanley Milgram began a series of experiments at Yale University. He wanted to find out how far ordinary people would go if asked to by an authority they regarded as legitimate."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Οι συμμετέχοντες πίστευαν ότι λαμβάνουν μέρος σε έρευνα για τη μάθηση. Στον ρόλο του «δασκάλου», έπρεπε να δίνουν ηλεκτροσόκ σε έναν «μαθητή» κάθε φορά που έκανε λάθος, αυξάνοντας την ένταση ως τα τετρακόσια πενήντα βολτ. Στην πραγματικότητα ο μαθητής ήταν ηθοποιός και δεν δεχόταν κανένα σοκ, αλλά φώναζε και παρακαλούσε να σταματήσουν.",
+     "en": "The participants believed they were taking part in research on learning. In the role of 'teacher', they had to give electric shocks to a 'learner' every time he made a mistake, increasing the intensity up to four hundred and fifty volts. In reality the learner was an actor and received no shocks at all, but he shouted and begged them to stop."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Στη βασική εκδοχή του πειράματος, περίπου τα δύο τρίτα των συμμετεχόντων έφτασαν ως το τέλος, συχνά ιδρώνοντας και διαμαρτυρόμενοι, αλλά υπακούοντας στον ερευνητή με τη λευκή ποδιά. Σε άλλες εκδοχές, όμως, η υπακοή μειωνόταν αισθητά: όταν ο ερευνητής έδινε τις εντολές από το τηλέφωνο ή όταν ο δάσκαλος έπρεπε να αγγίξει ο ίδιος τον μαθητή.",
+     "en": "In the basic version of the experiment, about two thirds of the participants went all the way to the end, often sweating and protesting, but obeying the researcher in the white coat. In other versions, however, obedience dropped noticeably: when the researcher gave orders over the phone, or when the teacher had to touch the learner himself."
+    },
+    {
+     "speaker": "Καθηγήτρια",
+     "voice": "f",
+     "el": "Σήμερα ένα τέτοιο πείραμα δεν θα εγκρινόταν ποτέ, λόγω της ψυχικής πίεσης που προκάλεσε. Επιπλέον, νεότερες έρευνες στο αρχείο του Μίλγκραμ έδειξαν ότι αρκετοί συμμετέχοντες υποψιάζονταν ότι τα σοκ δεν ήταν αληθινά. Το βασικό του δίδαγμα, πάντως, ότι η κατάσταση μπορεί να μετρήσει περισσότερο από τον χαρακτήρα, εξακολουθεί να μας προβληματίζει.",
+     "en": "Today such an experiment would never be approved, because of the psychological strain it caused. Moreover, more recent research in Milgram's archive showed that quite a few participants suspected that the shocks were not real. Its basic lesson, however, that the situation can count for more than character, continues to trouble us."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ήθελε να μάθει ο Μίλγκραμ;",
+     "options": [
+      "Πώς μαθαίνουν οι άνθρωποι από τα λάθη τους",
+      "Πόσο μακριά θα πήγαιναν απλοί άνθρωποι, αν τους το ζητούσε μια αρχή που θεωρούσαν νόμιμη",
+      "Πώς λειτουργούν τα δικαστήρια",
+      "Αν ο πόνος βοηθάει τη μνήμη"
+     ],
+     "answer": "Πόσο μακριά θα πήγαιναν απλοί άνθρωποι, αν τους το ζητούσε μια αρχή που θεωρούσαν νόμιμη",
+     "why": "πόσο μακριά θα πήγαιναν απλοί άνθρωποι"
+    },
+    {
+     "q": "Τι ίσχυε στην πραγματικότητα για τον «μαθητή»;",
+     "options": [
+      "Ήταν ο ίδιος ο Μίλγκραμ",
+      "Ήταν εθελοντής φοιτητής",
+      "Ήταν ηθοποιός και δεν δεχόταν κανένα σοκ",
+      "Δεχόταν ελαφριά σοκ"
+     ],
+     "answer": "Ήταν ηθοποιός και δεν δεχόταν κανένα σοκ",
+     "why": "ο μαθητής ήταν ηθοποιός και δεν δεχόταν κανένα σοκ"
+    },
+    {
+     "q": "Πότε μειωνόταν αισθητά η υπακοή;",
+     "options": [
+      "Όταν οι συμμετέχοντες πληρώνονταν περισσότερο",
+      "Όταν ο ερευνητής έδινε τις εντολές από το τηλέφωνο",
+      "Όταν ο μαθητής δεν φώναζε",
+      "Όταν ο ερευνητής φορούσε λευκή ποδιά"
+     ],
+     "answer": "Όταν ο ερευνητής έδινε τις εντολές από το τηλέφωνο",
+     "why": "όταν ο ερευνητής έδινε τις εντολές από το τηλέφωνο"
+    },
+    {
+     "q": "Τι έδειξαν οι νεότερες έρευνες στο αρχείο του Μίλγκραμ;",
+     "options": [
+      "Ότι αρκετοί συμμετέχοντες υποψιάζονταν ότι τα σοκ δεν ήταν αληθινά",
+      "Ότι κανείς δεν είχε φτάσει ως το τέλος",
+      "Ότι τα αποτελέσματα είχαν παραποιηθεί πλήρως",
+      "Ότι το πείραμα είχε γίνει με παιδιά"
+     ],
+     "answer": "Ότι αρκετοί συμμετέχοντες υποψιάζονταν ότι τα σοκ δεν ήταν αληθινά",
+     "why": "αρκετοί συμμετέχοντες υποψιάζονταν ότι τα σοκ δεν ήταν αληθινά"
+    }
+   ],
+   "gloss": {
+    "αμφιλεγόμενα": "αμφιλεγόμενος — controversial",
+    "δικαζόταν": "δικάζομαι — to be tried (in court)",
+    "αξιωματούχος": "αξιωματούχος — official",
+    "αρχή": "αρχή — authority",
+    "νόμιμη": "νόμιμος — legitimate, lawful",
+    "ηλεκτροσόκ": "ηλεκτροσόκ — electric shock",
+    "ένταση": "ένταση — intensity",
+    "βολτ": "βολτ — volt",
+    "ιδρώνοντας": "ιδρώνω — to sweat",
+    "διαμαρτυρόμενοι": "διαμαρτύρομαι — to protest",
+    "υπακοή": "υπακοή — obedience",
+    "αισθητά": "αισθητά — noticeably",
+    "εγκρινόταν": "εγκρίνομαι — to be approved",
+    "δίδαγμα": "δίδαγμα — lesson, moral",
+    "προβληματίζει": "προβληματίζω — to trouble, to make (someone) think"
+   }
+  },
+  {
+   "id": "l159-c1-marshmallow",
+   "title": "Ένα ζαχαρωτό τώρα ή δύο αργότερα;",
+   "title_en": "One marshmallow now or two later?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε απόσπασμα από ραδιοφωνική συνέντευξη με μια αναπτυξιακή ψυχολόγο για το λεγόμενο «τεστ του ζαχαρωτού».",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι ακριβώς ήταν το τεστ του ζαχαρωτού;",
+     "en": "What exactly was the marshmallow test?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Στα τέλη της δεκαετίας του 1960, ο ψυχολόγος Γουόλτερ Μίσελ έφερνε παιδιά προσχολικής ηλικίας σε ένα δωμάτιο στο Στάνφορντ και τους πρότεινε μια συμφωνία: μπορούσαν να φάνε ένα γλυκό αμέσως, ή να περιμένουν μόνα τους μέχρι να γυρίσει ο ερευνητής και να πάρουν δύο. Η αναμονή μπορούσε να κρατήσει ως και είκοσι λεπτά.",
+     "en": "In the late 1960s, the psychologist Walter Mischel brought preschool children into a room at Stanford and offered them a deal: they could eat one sweet immediately, or wait alone until the researcher came back and get two. The wait could last up to twenty minutes."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και τι έκαναν τα παιδιά;",
+     "en": "And what did the children do?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Άλλα το έτρωγαν μόλις έκλεινε η πόρτα. Άλλα έκλειναν τα μάτια, τραγουδούσαν ή γύριζαν την πλάτη στο γλυκό. Αυτές οι στρατηγικές ήταν που ενδιέφεραν πρώτα τον Μίσελ: όχι η θέληση, αλλά το πώς αποσπάμε την προσοχή μας από τον πειρασμό. Χρόνια αργότερα, οι ερευνητές βρήκαν ότι όσα παιδιά είχαν περιμένει περισσότερο είχαν κατά μέσο όρο καλύτερες σχολικές επιδόσεις, και από τότε το τεστ έγινε διάσημο ως πρόβλεψη της επιτυχίας στη ζωή.",
+     "en": "Some ate it as soon as the door closed. Others closed their eyes, sang, or turned their backs on the sweet. These strategies were what first interested Mischel: not willpower, but how we distract our attention from temptation. Years later, the researchers found that the children who had waited longer had, on average, better school results, and from then on the test became famous as a predictor of success in life."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ισχύει αυτό;",
+     "en": "Is that true?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Πολύ λιγότερο απ' όσο νομίζαμε. Μια μεγαλύτερη μελέτη του 2018, με πιο ποικίλο δείγμα, βρήκε ότι η σχέση ήταν πολύ ασθενέστερη και εξηγούνταν σε μεγάλο βαθμό από το οικογενειακό και οικονομικό περιβάλλον των παιδιών. Και μια άλλη μελέτη έδειξε ότι τα παιδιά περίμεναν λιγότερο όταν ο ερευνητής είχε αθετήσει νωρίτερα μια υπόσχεσή του. Δηλαδή, το να μην περιμένεις δεν είναι πάντα έλλειψη αυτοελέγχου· μπορεί να είναι λογική αντίδραση σε έναν κόσμο που δεν σου δίνει λόγους να εμπιστεύεσαι.",
+     "en": "Much less than we thought. A larger study in 2018, with a more varied sample, found that the link was much weaker and was largely explained by the children's family and economic background. And another study showed that children waited less when the researcher had earlier broken a promise. In other words, not waiting is not always a lack of self-control; it can be a rational response to a world that gives you no reason to trust."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια συμφωνία πρότεινε ο Μίσελ στα παιδιά;",
+     "options": [
+      "Να φάνε ένα γλυκό αμέσως ή να περιμένουν και να πάρουν δύο",
+      "Να μοιραστούν το γλυκό με ένα άλλο παιδί",
+      "Να διαλέξουν ανάμεσα σε γλυκό και παιχνίδι",
+      "Να λύσουν έναν γρίφο για να πάρουν γλυκό"
+     ],
+     "answer": "Να φάνε ένα γλυκό αμέσως ή να περιμένουν και να πάρουν δύο",
+     "why": "μπορούσαν να φάνε ένα γλυκό αμέσως, ή να περιμένουν μόνα τους μέχρι να γυρίσει ο ερευνητής και να πάρουν δύο"
+    },
+    {
+     "q": "Τι ενδιέφερε πρώτα τον Μίσελ;",
+     "options": [
+      "Η θέληση των παιδιών",
+      "Οι στρατηγικές με τις οποίες αποσπάμε την προσοχή μας από τον πειρασμό",
+      "Η σχέση των παιδιών με τους γονείς",
+      "Οι σχολικοί βαθμοί"
+     ],
+     "answer": "Οι στρατηγικές με τις οποίες αποσπάμε την προσοχή μας από τον πειρασμό",
+     "why": "το πώς αποσπάμε την προσοχή μας από τον πειρασμό"
+    },
+    {
+     "q": "Τι βρήκε η μελέτη του 2018;",
+     "options": [
+      "Ότι η σχέση ήταν πολύ ασθενέστερη και εξηγούνταν σε μεγάλο βαθμό από το οικογενειακό και οικονομικό περιβάλλον",
+      "Ότι τα κορίτσια περίμεναν περισσότερο",
+      "Ότι η σχέση με την επιτυχία ήταν ακόμη ισχυρότερη",
+      "Ότι το τεστ δεν μπορεί να επαναληφθεί"
+     ],
+     "answer": "Ότι η σχέση ήταν πολύ ασθενέστερη και εξηγούνταν σε μεγάλο βαθμό από το οικογενειακό και οικονομικό περιβάλλον",
+     "why": "η σχέση ήταν πολύ ασθενέστερη"
+    },
+    {
+     "q": "Πώς ερμηνεύει η ψυχολόγος το ότι κάποια παιδιά δεν περιμένουν;",
+     "options": [
+      "Ως πιθανή λογική αντίδραση σε έναν κόσμο που δεν τους δίνει λόγους να εμπιστεύονται",
+      "Ως αποτέλεσμα κακής διατροφής",
+      "Ως σημάδι τεμπελιάς",
+      "Ως έλλειψη ευφυΐας"
+     ],
+     "answer": "Ως πιθανή λογική αντίδραση σε έναν κόσμο που δεν τους δίνει λόγους να εμπιστεύονται",
+     "why": "μπορεί να είναι λογική αντίδραση σε έναν κόσμο που δεν σου δίνει λόγους να εμπιστεύεσαι"
+    }
+   ],
+   "gloss": {
+    "αναπτυξιακή": "αναπτυξιακός — developmental",
+    "ζαχαρωτού": "ζαχαρωτό — marshmallow, sweet",
+    "προσχολικής ηλικίας": "προσχολική ηλικία — preschool age",
+    "αναμονή": "αναμονή — wait",
+    "στρατηγικές": "στρατηγική — strategy",
+    "θέληση": "θέληση — willpower",
+    "αποσπάμε": "αποσπώ (την προσοχή) — to distract",
+    "πειρασμό": "πειρασμός — temptation",
+    "επιδόσεις": "επίδοση — performance, results",
+    "ποικίλο": "ποικίλος — varied",
+    "δείγμα": "δείγμα — sample",
+    "ασθενέστερη": "ασθενής — weak; ασθενέστερος = weaker",
+    "αθετήσει": "αθετώ (μια υπόσχεση) — to break (a promise)",
+    "αυτοελέγχου": "αυτοέλεγχος — self-control"
+   }
+  }
+ ]
+}
