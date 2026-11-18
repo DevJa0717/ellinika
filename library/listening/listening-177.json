@@ -1,0 +1,844 @@
+{
+ "items": [
+  {
+   "id": "l177-ann-ydatino-parko",
+   "title": "Ανακοίνωση σε ένα υδάτινο πάρκο",
+   "title_en": "An announcement at a water park",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση από τα μεγάφωνα ενός υδάτινου πάρκου, ένα ζεστό απόγευμα του Ιουλίου.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Αγαπητοί επισκέπτες, σας ενημερώνουμε ότι η μεγάλη νεροτσουλήθρα «Κύκλωπας» θα μείνει κλειστή για μισή ώρα λόγω τεχνικού ελέγχου. Στο μεταξύ, μπορείτε να χρησιμοποιήσετε την πισίνα με τα κύματα, που λειτουργεί κανονικά.",
+     "en": "Dear visitors, please note that the big water slide 'Cyclops' will remain closed for half an hour for a technical check. In the meantime, you can use the wave pool, which is operating normally."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Υπενθυμίζουμε ότι στις μεγάλες νεροτσουλήθρες επιτρέπεται η είσοδος μόνο σε παιδιά με ύψος πάνω από ένα μέτρο και είκοσι. Για τους μικρότερους υπάρχει η παιδική πισίνα, δίπλα στο κυλικείο, όπου επιβλέπουν συνεχώς δύο ναυαγοσώστες.",
+     "en": "We remind you that on the big water slides entry is allowed only for children taller than one metre twenty. For the little ones there is the children's pool, next to the snack bar, where two lifeguards are on watch at all times."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ο ήλιος σήμερα είναι πολύ δυνατός. Βάζετε αντηλιακό κάθε δύο ώρες και πίνετε άφθονο νερό· στις βρύσες δίπλα στις τουαλέτες το νερό είναι πόσιμο και δωρεάν. Σας ευχόμαστε καλή διασκέδαση!",
+     "en": "The sun is very strong today. Put on sunscreen every two hours and drink plenty of water; at the taps next to the toilets the water is drinkable and free. We wish you a good time!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί είναι κλειστή η νεροτσουλήθρα «Κύκλωπας»;",
+     "options": [
+      "Γιατί έχει πολύ κόσμο",
+      "Γιατί χάλασε οριστικά",
+      "Λόγω του αέρα",
+      "Λόγω τεχνικού ελέγχου"
+     ],
+     "answer": "Λόγω τεχνικού ελέγχου",
+     "why": "θα μείνει κλειστή για μισή ώρα λόγω τεχνικού ελέγχου"
+    },
+    {
+     "q": "Ποιοι μπορούν να μπουν στις μεγάλες νεροτσουλήθρες;",
+     "options": [
+      "Όλοι οι επισκέπτες",
+      "Παιδιά κάτω των δώδεκα",
+      "Παιδιά με ύψος πάνω από ένα μέτρο και είκοσι",
+      "Μόνο οι ενήλικες"
+     ],
+     "answer": "Παιδιά με ύψος πάνω από ένα μέτρο και είκοσι",
+     "why": "μόνο σε παιδιά με ύψος πάνω από ένα μέτρο και είκοσι"
+    },
+    {
+     "q": "Πού μπορούν οι επισκέπτες να βρουν δωρεάν πόσιμο νερό;",
+     "options": [
+      "Στην παιδική πισίνα",
+      "Στην είσοδο του πάρκου",
+      "Στο κυλικείο",
+      "Στις βρύσες δίπλα στις τουαλέτες"
+     ],
+     "answer": "Στις βρύσες δίπλα στις τουαλέτες",
+     "why": "στις βρύσες δίπλα στις τουαλέτες το νερό είναι πόσιμο και δωρεάν"
+    }
+   ],
+   "gloss": {
+    "μεγάφωνα": "μεγάφωνο — loudspeaker",
+    "υδάτινου πάρκου": "υδάτινο πάρκο — water park",
+    "νεροτσουλήθρα": "νεροτσουλήθρα — water slide",
+    "τεχνικού ελέγχου": "τεχνικός έλεγχος — technical check",
+    "πισίνα με τα κύματα": "πισίνα με κύματα — wave pool",
+    "κυλικείο": "κυλικείο — snack bar",
+    "επιβλέπουν": "επιβλέπω — to supervise",
+    "ναυαγοσώστες": "ναυαγοσώστης — lifeguard",
+    "αντηλιακό": "αντηλιακό — sunscreen",
+    "πόσιμο": "πόσιμος — drinkable"
+   }
+  },
+  {
+   "id": "l177-int-xylina-paichnidia",
+   "title": "Ο κατασκευαστής ξύλινων παιχνιδιών",
+   "title_en": "The wooden toy maker",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με έναν άντρα που φτιάχνει ξύλινα παιχνίδια σε ένα εργαστήριο στα Τρίκαλα.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Σε μια εποχή με τάμπλετ και βιντεοπαιχνίδια, ποιος αγοράζει ξύλινα παιχνίδια;",
+     "en": "In an age of tablets and video games, who buys wooden toys?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Περισσότεροι απ' όσους φαντάζεστε. Συνήθως γονείς που θέλουν τα παιδιά τους να παίζουν με κάτι που δεν έχει οθόνη ούτε μπαταρίες. Και παππούδες, που θυμούνται τα δικά τους παιχνίδια. Το πιο δημοφιλές μου είναι ένα τρενάκι με βαγόνια που ενώνονται με μαγνήτες.",
+     "en": "More than you'd imagine. Usually parents who want their children to play with something that has no screen or batteries. And grandparents, who remember their own toys. My most popular one is a little train with carriages that join together with magnets."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τι ξύλο χρησιμοποιείτε;",
+     "en": "What wood do you use?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Κυρίως οξιά από τα δάση της Πίνδου, γιατί είναι σκληρή και δεν βγάζει σκλήθρες. Δεν βάφω ποτέ με χρώματα που περιέχουν τοξικές ουσίες, γιατί ξέρω ότι κάθε παιχνίδι κάποια στιγμή θα μπει σε ένα στόμα. Τα περισσότερα τα αφήνω στο φυσικό τους χρώμα, απλώς με λίγο λάδι.",
+     "en": "Mainly beech from the forests of the Pindus, because it's hard and doesn't splinter. I never paint with colours that contain toxic substances, because I know every toy will at some point end up in a mouth. Most of them I leave in their natural colour, just with a little oil."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ποιο παιχνίδι σάς έχει μείνει αξέχαστο;",
+     "en": "Which toy has stayed with you unforgettably?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Ένας κύριος μού έφερε ένα σπασμένο ξύλινο άλογο που του είχε φτιάξει ο πατέρας του το 1960. Ήθελε να το χαρίσει στον εγγονό του. Το επισκεύασα χωρίς να αλλάξω τίποτα από το παλιό, ούτε καν τα σημάδια από τα δόντια του.",
+     "en": "A gentleman brought me a broken wooden horse that his father had made for him in 1960. He wanted to give it to his grandson. I repaired it without changing anything of the old one, not even the tooth marks."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο είναι το πιο δημοφιλές του παιχνίδι;",
+     "options": [
+      "Ένα τρενάκι με βαγόνια που ενώνονται με μαγνήτες",
+      "Ένα κουκλόσπιτο",
+      "Ένα ξύλινο άλογο",
+      "Ένα παζλ"
+     ],
+     "answer": "Ένα τρενάκι με βαγόνια που ενώνονται με μαγνήτες",
+     "why": "ένα τρενάκι με βαγόνια που ενώνονται με μαγνήτες"
+    },
+    {
+     "q": "Γιατί δεν βάφει με τοξικά χρώματα;",
+     "options": [
+      "Γιατί το απαγορεύει ο νόμος",
+      "Γιατί δεν αρέσουν στους πελάτες",
+      "Γιατί κάθε παιχνίδι κάποια στιγμή θα μπει σε ένα στόμα",
+      "Γιατί είναι ακριβά"
+     ],
+     "answer": "Γιατί κάθε παιχνίδι κάποια στιγμή θα μπει σε ένα στόμα",
+     "why": "κάθε παιχνίδι κάποια στιγμή θα μπει σε ένα στόμα"
+    },
+    {
+     "q": "Τι έκανε με το παλιό ξύλινο άλογο;",
+     "options": [
+      "Το επισκεύασε χωρίς να αλλάξει τίποτα από το παλιό",
+      "Έφτιαξε ένα καινούργιο ίδιο",
+      "Το έβαψε από την αρχή",
+      "Το κράτησε για τη συλλογή του"
+     ],
+     "answer": "Το επισκεύασε χωρίς να αλλάξει τίποτα από το παλιό",
+     "why": "Το επισκεύασα χωρίς να αλλάξω τίποτα από το παλιό"
+    }
+   ],
+   "gloss": {
+    "εργαστήριο": "εργαστήριο — workshop",
+    "βιντεοπαιχνίδια": "βιντεοπαιχνίδι — video game",
+    "δημοφιλές": "δημοφιλής — popular",
+    "βαγόνια": "βαγόνι — carriage, wagon",
+    "μαγνήτες": "μαγνήτης — magnet",
+    "οξιά": "οξιά — beech",
+    "σκλήθρες": "σκλήθρα — splinter",
+    "τοξικές ουσίες": "τοξική ουσία — toxic substance",
+    "αξέχαστο": "αξέχαστος — unforgettable",
+    "επισκεύασα": "επισκευάζω — to repair"
+   }
+  },
+  {
+   "id": "l177-int-glossologos-arvanitika",
+   "title": "Η γλωσσολόγος που ηχογραφεί τα αρβανίτικα",
+   "title_en": "The linguist recording Arvanitika",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με μια γλωσσολόγο που ηχογραφεί ηλικιωμένους ομιλητές των αρβανίτικων στην Αττική και στη Βοιωτία.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι ακριβώς είναι τα αρβανίτικα;",
+     "en": "What exactly is Arvanitika?"
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "f",
+     "el": "Είναι μια γλώσσα συγγενική με τα αλβανικά, που την έφεραν πληθυσμοί οι οποίοι εγκαταστάθηκαν στη νότια Ελλάδα κυρίως από τον δέκατο τέταρτο αιώνα και μετά. Για αιώνες μιλιόταν σε εκατοντάδες χωριά της Αττικής, της Βοιωτίας και της Πελοποννήσου, αλλά σχεδόν ποτέ δεν γράφτηκε. Ζούσε μόνο στο στόμα των ανθρώπων.",
+     "en": "It's a language related to Albanian, brought by populations who settled in southern Greece mainly from the fourteenth century onwards. For centuries it was spoken in hundreds of villages in Attica, Boeotia and the Peloponnese, but it was almost never written down. It lived only in people's mouths."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πόσοι τη μιλούν σήμερα;",
+     "en": "How many speak it today?"
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "f",
+     "el": "Δεν υπάρχουν ακριβείς αριθμοί. Αυτό που ξέρουμε είναι ότι οι περισσότεροι ομιλητές είναι πάνω από εβδομήντα. Πολλοί γονείς τη δεκαετία του πενήντα και του εξήντα σταμάτησαν να τη μιλούν στα παιδιά τους, γιατί πίστευαν ότι θα τα εμπόδιζε στο σχολείο. Έτσι, οι εγγονοί καταλαβαίνουν λίγες λέξεις, αλλά δεν μπορούν να κάνουν μια συζήτηση.",
+     "en": "There are no exact numbers. What we know is that most speakers are over seventy. Many parents in the fifties and sixties stopped speaking it to their children, because they believed it would hold them back at school. So the grandchildren understand a few words, but can't hold a conversation."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πώς γίνονται οι ηχογραφήσεις;",
+     "en": "How are the recordings made?"
+    },
+    {
+     "speaker": "Γλωσσολόγος",
+     "voice": "f",
+     "el": "Δεν ζητάω ποτέ από κάποιον να μου «μιλήσει αρβανίτικα». Του ζητάω να μου πει πώς έφτιαχναν το ψωμί ή πώς γινόταν ένας γάμος. Όταν θυμάται, η γλώσσα έρχεται μόνη της. Μια γιαγιά στη Βοιωτία μου τραγούδησε ένα νανούρισμα που δεν είχε πει εδώ και εξήντα χρόνια· στο τέλος έκλαιγε κι εκείνη κι εγώ.",
+     "en": "I never ask someone to 'speak Arvanitika to me'. I ask them to tell me how they used to make bread or how a wedding took place. When they remember, the language comes by itself. A grandmother in Boeotia sang me a lullaby she hadn't sung for sixty years; at the end both she and I were crying."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί τα αρβανίτικα δεν άφησαν σχεδόν καθόλου γραπτά κείμενα;",
+     "options": [
+      "Γιατί σχεδόν ποτέ δεν γράφτηκαν· ζούσαν μόνο στον προφορικό λόγο",
+      "Γιατί απαγορεύονταν",
+      "Γιατί χάθηκαν σε μια φωτιά",
+      "Γιατί τα έγραφαν σε ξύλο"
+     ],
+     "answer": "Γιατί σχεδόν ποτέ δεν γράφτηκαν· ζούσαν μόνο στον προφορικό λόγο",
+     "why": "σχεδόν ποτέ δεν γράφτηκε"
+    },
+    {
+     "q": "Γιατί πολλοί γονείς σταμάτησαν να τα μιλούν στα παιδιά τους;",
+     "options": [
+      "Γιατί μετακόμισαν στο εξωτερικό",
+      "Γιατί τα παιδιά δεν ήθελαν",
+      "Γιατί πίστευαν ότι θα τα εμπόδιζαν στο σχολείο",
+      "Γιατί τα είχαν ξεχάσει"
+     ],
+     "answer": "Γιατί πίστευαν ότι θα τα εμπόδιζαν στο σχολείο",
+     "why": "πίστευαν ότι θα τα εμπόδιζε στο σχολείο"
+    },
+    {
+     "q": "Πώς πετυχαίνει η γλωσσολόγος να μιλήσουν οι ηλικιωμένοι;",
+     "options": [
+      "Τους ζητάει να μεταφράσουν λέξεις",
+      "Τους πληρώνει",
+      "Τους ζητάει να διηγηθούν πώς γίνονταν τα πράγματα παλιά",
+      "Τους δίνει να διαβάσουν ένα κείμενο"
+     ],
+     "answer": "Τους ζητάει να διηγηθούν πώς γίνονταν τα πράγματα παλιά",
+     "why": "Του ζητάω να μου πει πώς έφτιαχναν το ψωμί ή πώς γινόταν ένας γάμος"
+    }
+   ],
+   "gloss": {
+    "γλωσσολόγο": "γλωσσολόγος — linguist",
+    "ηχογραφεί": "ηχογραφώ — to record (sound)",
+    "αρβανίτικων": "αρβανίτικα — Arvanitika",
+    "συγγενική": "συγγενικός — related",
+    "εγκαταστάθηκαν": "εγκαθίσταμαι — to settle",
+    "ακριβείς": "ακριβής — exact",
+    "εμπόδιζε": "εμποδίζω — to hinder, hold back",
+    "ηχογραφήσεις": "ηχογράφηση — recording",
+    "νανούρισμα": "νανούρισμα — lullaby"
+   }
+  },
+  {
+   "id": "l177-dia-pame-sto-irodeio",
+   "title": "Πάμε στο Ηρώδειο;",
+   "title_en": "Shall we go to the Odeon of Herodes Atticus?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε δύο φίλες να συζητούν αν θα αγοράσουν εισιτήρια για μια παράσταση στο Ηρώδειο.",
+   "script": [
+    {
+     "speaker": "Αλίκη",
+     "voice": "f",
+     "el": "Βγήκαν τα εισιτήρια για την «Ιφιγένεια» στο Ηρώδειο, τον Ιούλιο. Λέω να πάρουμε δύο, πριν εξαντληθούν.",
+     "en": "Tickets are out for 'Iphigenia' at the Odeon of Herodes Atticus, in July. I'm thinking we should get two, before they sell out."
+    },
+    {
+     "speaker": "Νεφέλη",
+     "voice": "f",
+     "el": "Τα είδα. Οι καλές θέσεις είναι εβδομήντα ευρώ! Τόσα λεφτά για να κάθομαι τρεις ώρες σε μάρμαρο;",
+     "en": "I saw them. The good seats are seventy euros! That much money to sit for three hours on marble?"
+    },
+    {
+     "speaker": "Αλίκη",
+     "voice": "f",
+     "el": "Υπάρχουν και φθηνότερες, στα πάνω διαζώματα, γύρω στα είκοσι. Από εκεί δεν βλέπεις τόσο καλά τα πρόσωπα, αλλά βλέπεις όλη την Ακρόπολη φωτισμένη από πάνω σου. Για μένα, αυτό είναι η μισή παράσταση.",
+     "en": "There are cheaper ones too, in the upper tiers, around twenty. From there you can't see the faces so well, but you can see the whole Acropolis lit up above you. For me, that's half the performance."
+    },
+    {
+     "speaker": "Νεφέλη",
+     "voice": "f",
+     "el": "Καλά, αλλά τι γίνεται με το μάρμαρο; Την τελευταία φορά πόνεσε η πλάτη μου για δύο μέρες.",
+     "en": "Fine, but what about the marble? Last time my back hurt for two days."
+    },
+    {
+     "speaker": "Αλίκη",
+     "voice": "f",
+     "el": "Θα πάρουμε μαξιλαράκια από το σπίτι. Και ζακέτα, γιατί αργά το βράδυ φυσάει, ακόμα και τον Ιούλιο.",
+     "en": "We'll take little cushions from home. And a cardigan, because late at night it gets windy, even in July."
+    },
+    {
+     "speaker": "Νεφέλη",
+     "voice": "f",
+     "el": "Εντάξει, με έπεισες. Πάρε δύο στα πάνω διαζώματα, και το φαγητό μετά το κερνάω εγώ.",
+     "en": "OK, you've convinced me. Get two in the upper tiers, and dinner afterwards is on me."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί διστάζει στην αρχή η Νεφέλη;",
+     "options": [
+      "Γιατί οι καλές θέσεις είναι ακριβές",
+      "Γιατί δουλεύει τον Ιούλιο",
+      "Γιατί έχει δει ήδη την παράσταση",
+      "Γιατί δεν της αρέσει το έργο"
+     ],
+     "answer": "Γιατί οι καλές θέσεις είναι ακριβές",
+     "why": "Οι καλές θέσεις είναι εβδομήντα ευρώ!"
+    },
+    {
+     "q": "Ποιο είναι, κατά την Αλίκη, το πλεονέκτημα των πάνω διαζωμάτων;",
+     "options": [
+      "Είναι πιο κοντά στην έξοδο",
+      "Έχουν μαξιλάρια",
+      "Ακούς καλύτερα",
+      "Βλέπεις όλη την Ακρόπολη φωτισμένη"
+     ],
+     "answer": "Βλέπεις όλη την Ακρόπολη φωτισμένη",
+     "why": "βλέπεις όλη την Ακρόπολη φωτισμένη από πάνω σου"
+    },
+    {
+     "q": "Τι θα πάρουν μαζί τους;",
+     "options": [
+      "Μαξιλαράκια και ζακέτα",
+      "Φαγητό και νερό",
+      "Ομπρέλα",
+      "Κιάλια"
+     ],
+     "answer": "Μαξιλαράκια και ζακέτα",
+     "why": "Θα πάρουμε μαξιλαράκια από το σπίτι. Και ζακέτα"
+    }
+   ],
+   "gloss": {
+    "Ηρώδειο": "Ηρώδειο — the Odeon of Herodes Atticus (ancient theatre in Athens)",
+    "εξαντληθούν": "εξαντλούμαι — to sell out, run out",
+    "μάρμαρο": "μάρμαρο — marble",
+    "διαζώματα": "διάζωμα — tier (of an ancient theatre)",
+    "φωτισμένη": "φωτισμένος — lit up",
+    "μαξιλαράκια": "μαξιλαράκι — small cushion",
+    "ζακέτα": "ζακέτα — cardigan",
+    "με έπεισες": "πείθω — to convince",
+    "κερνάω": "κερνάω — to treat (someone)"
+   }
+  },
+  {
+   "id": "l177-dia-katering-i-mageirevoume",
+   "title": "Κέτερινγκ ή μαγειρεύουμε μόνοι μας;",
+   "title_en": "Catering or do we cook ourselves?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε δύο αδέλφια να οργανώνουν το γλέντι για τα ογδοηκοστά γενέθλια του πατέρα τους.",
+   "script": [
+    {
+     "speaker": "Πέτρος",
+     "voice": "m",
+     "el": "Θα είμαστε σαράντα άτομα. Βρήκα μια εταιρεία κέτερινγκ που φέρνει τα πάντα: φαγητό, πιάτα, ποτήρια, και δύο σερβιτόρους. Δεκαπέντε ευρώ το άτομο.",
+     "en": "There'll be forty of us. I've found a catering company that brings everything: food, plates, glasses and two waiters. Fifteen euros a head."
+    },
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Εξακόσια ευρώ για φαγητό που ο μπαμπάς δεν θα το φάει. Ξέρεις ότι τρώει μόνο το παστίτσιο της θείας Ρένας.",
+     "en": "Six hundred euros for food that Dad won't eat. You know he only eats Aunt Rena's pastitsio."
+    },
+    {
+     "speaker": "Πέτρος",
+     "voice": "m",
+     "el": "Δεν μπορούμε να ζητήσουμε από τη θεία Ρένα να μαγειρέψει για σαράντα άτομα. Είναι ογδόντα πέντε χρονών!",
+     "en": "We can't ask Aunt Rena to cook for forty people. She's eighty-five!"
+    },
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Όχι για σαράντα. Σκέψου το αλλιώς: το κέτερινγκ φέρνει τα ορεκτικά και τα ποτά, και η θεία φτιάχνει ένα ταψί παστίτσιο, με τη βοήθειά μου. Θα της αρέσει να νιώθει χρήσιμη.",
+     "en": "Not for forty. Think of it differently: the caterer brings the starters and the drinks, and our aunt makes one tray of pastitsio, with my help. She'll like feeling useful."
+    },
+    {
+     "speaker": "Πέτρος",
+     "voice": "m",
+     "el": "Και το γλυκό; Η εταιρεία έχει και τούρτες.",
+     "en": "And dessert? The company has cakes too."
+    },
+    {
+     "speaker": "Δέσποινα",
+     "voice": "f",
+     "el": "Τούρτα θα φέρει ο ζαχαροπλάστης της γειτονιάς, που τον ξέρει ο μπαμπάς πενήντα χρόνια. Ρώτα το κέτερινγκ πόσο κοστίζουν μόνο τα ορεκτικά και τα ποτά.",
+     "en": "The neighbourhood pastry cook will bring the cake; Dad has known him for fifty years. Ask the caterer how much just the starters and drinks cost."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι προσφέρει η εταιρεία κέτερινγκ που βρήκε ο Πέτρος;",
+     "options": [
+      "Μουσική και φαγητό",
+      "Μόνο τα ποτά",
+      "Φαγητό, πιάτα, ποτήρια και δύο σερβιτόρους",
+      "Μόνο την τούρτα"
+     ],
+     "answer": "Φαγητό, πιάτα, ποτήρια και δύο σερβιτόρους",
+     "why": "φαγητό, πιάτα, ποτήρια, και δύο σερβιτόρους"
+    },
+    {
+     "q": "Τι προτείνει η Δέσποινα για το παστίτσιο;",
+     "options": [
+      "Να φτιάξει η θεία Ρένα ένα ταψί, με τη βοήθειά της",
+      "Να μην υπάρχει παστίτσιο",
+      "Να το φτιάξει ο Πέτρος",
+      "Να το παραγγείλουν από την εταιρεία"
+     ],
+     "answer": "Να φτιάξει η θεία Ρένα ένα ταψί, με τη βοήθειά της",
+     "why": "η θεία φτιάχνει ένα ταψί παστίτσιο, με τη βοήθειά μου"
+    },
+    {
+     "q": "Ποιος θα φέρει την τούρτα;",
+     "options": [
+      "Ο ζαχαροπλάστης της γειτονιάς",
+      "Η Δέσποινα",
+      "Η θεία Ρένα",
+      "Η εταιρεία κέτερινγκ"
+     ],
+     "answer": "Ο ζαχαροπλάστης της γειτονιάς",
+     "why": "Τούρτα θα φέρει ο ζαχαροπλάστης της γειτονιάς"
+    }
+   ],
+   "gloss": {
+    "γλέντι": "γλέντι — party, celebration",
+    "ογδοηκοστά": "ογδοηκοστός — eightieth",
+    "κέτερινγκ": "κέτερινγκ — catering",
+    "παστίτσιο": "παστίτσιο — pastitsio (baked pasta with mince and béchamel)",
+    "ορεκτικά": "ορεκτικό — starter",
+    "ταψί": "ταψί — baking tray",
+    "χρήσιμη": "χρήσιμος — useful",
+    "τούρτες": "τούρτα — cake, gateau",
+    "ζαχαροπλάστης": "ζαχαροπλάστης — pastry cook"
+   }
+  },
+  {
+   "id": "l177-mon-deka-chronia-sto-tokio",
+   "title": "Δέκα χρόνια στο Τόκιο",
+   "title_en": "Ten years in Tokyo",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε έναν άντρα που γύρισε στην Αθήνα μετά από δέκα χρόνια δουλειάς στο Τόκιο.",
+   "script": [
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Πήγα στο Τόκιο για δύο χρόνια, με μια θέση σε ένα πανεπιστήμιο, και έμεινα δέκα. Τους πρώτους μήνες ένιωθα σαν να είχα προσγειωθεί σε άλλον πλανήτη. Δεν καταλάβαινα ούτε τις ταμπέλες ούτε τις σιωπές των ανθρώπων.",
+     "en": "I went to Tokyo for two years, with a post at a university, and stayed ten. In the first months I felt as if I had landed on another planet. I understood neither the signs nor people's silences."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Με τον καιρό έμαθα να εκτιμώ πράγματα που στην αρχή μου φαίνονταν υπερβολικά. Στα τρένα δεν μιλάει κανείς στο τηλέφωνο. Αν το τρένο αργήσει ένα λεπτό, ο οδηγός ζητάει συγγνώμη από τα μεγάφωνα. Αν ξεχάσεις το πορτοφόλι σου σε ένα καφέ, το βρίσκεις την επόμενη μέρα στο ίδιο τραπέζι.",
+     "en": "Over time I learned to appreciate things that at first seemed excessive to me. On the trains nobody talks on the phone. If the train is a minute late, the driver apologises over the loudspeakers. If you forget your wallet in a café, you find it the next day on the same table."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Το δύσκολο ήταν η επιστροφή. Τις πρώτες εβδομάδες στην Αθήνα όλα μου φαίνονταν θορυβώδη: οι κόρνες, οι φωνές στα καφενεία, οι γείτονες που συζητούν από μπαλκόνι σε μπαλκόνι. Έπιανα τον εαυτό μου να βγάζει τα παπούτσια στην πόρτα των φίλων μου και να υποκλίνεται στον περιπτερά.",
+     "en": "The hard part was coming back. In the first weeks in Athens everything seemed noisy to me: the horns, the voices in the cafés, the neighbours chatting from balcony to balcony. I caught myself taking off my shoes at my friends' doors and bowing to the kiosk owner."
+    },
+    {
+     "speaker": "Φίλιππος",
+     "voice": "m",
+     "el": "Τώρα έχω βρει μια ισορροπία. Κρατάω από την Ιαπωνία την ησυχία του πρωινού και τη συνέπεια στα ραντεβού. Και από την Ελλάδα, την αγκαλιά που σου δίνει ένας άγνωστος όταν μαθαίνει ότι γύρισες σπίτι.",
+     "en": "Now I've found a balance. From Japan I keep the quiet of the morning and punctuality at appointments. And from Greece, the hug a stranger gives you when they learn you've come home."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Για πόσο καιρό είχε σκοπό αρχικά να μείνει στο Τόκιο;",
+     "options": [
+      "Για έξι μήνες",
+      "Για πάντα",
+      "Για δέκα χρόνια",
+      "Για δύο χρόνια"
+     ],
+     "answer": "Για δύο χρόνια",
+     "why": "Πήγα στο Τόκιο για δύο χρόνια"
+    },
+    {
+     "q": "Τι συμβαίνει, σύμφωνα με τον Φίλιππο, αν το τρένο αργήσει ένα λεπτό;",
+     "options": [
+      "Οι επιβάτες διαμαρτύρονται",
+      "Ο οδηγός ζητάει συγγνώμη από τα μεγάφωνα",
+      "Κανείς δεν το προσέχει",
+      "Το εισιτήριο επιστρέφεται"
+     ],
+     "answer": "Ο οδηγός ζητάει συγγνώμη από τα μεγάφωνα",
+     "why": "ο οδηγός ζητάει συγγνώμη από τα μεγάφωνα"
+    },
+    {
+     "q": "Τι κρατάει από την Ιαπωνία;",
+     "options": [
+      "Την ιαπωνική κουζίνα",
+      "Τη συνήθεια να δουλεύει πολλές ώρες",
+      "Την ησυχία του πρωινού και τη συνέπεια στα ραντεβού",
+      "Τα ιαπωνικά βιβλία του"
+     ],
+     "answer": "Την ησυχία του πρωινού και τη συνέπεια στα ραντεβού",
+     "why": "Κρατάω από την Ιαπωνία την ησυχία του πρωινού και τη συνέπεια στα ραντεβού"
+    }
+   ],
+   "gloss": {
+    "προσγειωθεί": "προσγειώνομαι — to land",
+    "ταμπέλες": "ταμπέλα — sign",
+    "σιωπές": "σιωπή — silence",
+    "εκτιμώ": "εκτιμώ — to appreciate",
+    "υπερβολικά": "υπερβολικός — excessive",
+    "θορυβώδη": "θορυβώδης — noisy",
+    "κόρνες": "κόρνα — (car) horn",
+    "υποκλίνεται": "υποκλίνομαι — to bow",
+    "περιπτερά": "περιπτεράς — kiosk owner",
+    "συνέπεια": "συνέπεια — punctuality, consistency"
+   }
+  },
+  {
+   "id": "l177-vm-aftokinoumeno",
+   "title": "Μήνυμα από τον πωλητή ενός αυτοκινούμενου",
+   "title_en": "A message from the seller of a camper van",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από τον ιδιοκτήτη ενός μεταχειρισμένου αυτοκινούμενου, για το οποίο ενδιαφερθήκατε μέσω μιας αγγελίας.",
+   "script": [
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Καλησπέρα, κυρία Μαυρίδου, ο Διονύσης είμαι, για το αυτοκινούμενο της αγγελίας. Σας ευχαριστώ για το ενδιαφέρον. Ναι, είναι ακόμα διαθέσιμο. Είναι του 2012, έχει διακόσιες χιλιάδες χιλιόμετρα και κοιμίζει τέσσερα άτομα.",
+     "en": "Good evening, Mrs Mavridou, it's Dionysis, about the camper van in the ad. Thank you for your interest. Yes, it is still available. It's a 2012 model, has two hundred thousand kilometres and sleeps four people."
+    },
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Να σας πω από τώρα τι θέλει: το ψυγείο δουλεύει μόνο με ρεύμα, όχι με γκάζι, και η τέντα έχει ένα μικρό σκίσιμο. Κατά τα άλλα, η μηχανή είναι σε άριστη κατάσταση, με όλα τα σέρβις στην αντιπροσωπεία· έχω όλα τα χαρτιά.",
+     "en": "Let me tell you right away what it needs: the fridge only works on mains power, not on gas, and the awning has a small tear. Otherwise, the engine is in excellent condition, with all services at the dealership; I have all the paperwork."
+    },
+    {
+     "speaker": "Πωλητής",
+     "voice": "m",
+     "el": "Μπορείτε να έρθετε να το δείτε το Σάββατο το πρωί στο Μαρκόπουλο. Αν θέλετε, φέρτε και έναν μηχανικό της εμπιστοσύνης σας. Για την τιμή, συζητάμε, αλλά όχι στο τηλέφωνο. Το κινητό μου είναι 6944 318 207.",
+     "en": "You can come and see it on Saturday morning in Markopoulo. If you want, bring a mechanic you trust as well. As for the price, we can discuss it, but not on the phone. My mobile is 6944 318 207."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσα άτομα κοιμίζει το αυτοκινούμενο;",
+     "options": [
+      "Δύο",
+      "Έξι",
+      "Τέσσερα",
+      "Οκτώ"
+     ],
+     "answer": "Τέσσερα",
+     "why": "κοιμίζει τέσσερα άτομα"
+    },
+    {
+     "q": "Ποιο πρόβλημα αναφέρει ο πωλητής;",
+     "options": [
+      "Η μηχανή χρειάζεται επισκευή",
+      "Τα λάστιχα είναι φθαρμένα",
+      "Δεν έχει χαρτιά",
+      "Το ψυγείο δουλεύει μόνο με ρεύμα και η τέντα έχει ένα μικρό σκίσιμο"
+     ],
+     "answer": "Το ψυγείο δουλεύει μόνο με ρεύμα και η τέντα έχει ένα μικρό σκίσιμο",
+     "why": "το ψυγείο δουλεύει μόνο με ρεύμα, όχι με γκάζι, και η τέντα έχει ένα μικρό σκίσιμο"
+    },
+    {
+     "q": "Τι προτείνει για την τιμή;",
+     "options": [
+      "Να την ορίσει ο μηχανικός",
+      "Είναι σταθερή και δεν αλλάζει",
+      "Να τη συζητήσουν από κοντά, όχι στο τηλέφωνο",
+      "Να του στείλει προσφορά με email"
+     ],
+     "answer": "Να τη συζητήσουν από κοντά, όχι στο τηλέφωνο",
+     "why": "Για την τιμή, συζητάμε, αλλά όχι στο τηλέφωνο"
+    }
+   ],
+   "gloss": {
+    "αυτοκινούμενου": "αυτοκινούμενο — camper van, motorhome",
+    "αγγελίας": "αγγελία — advert, listing",
+    "διαθέσιμο": "διαθέσιμος — available",
+    "κοιμίζει": "κοιμίζω — to sleep (people), to put to sleep",
+    "γκάζι": "γκάζι — gas (bottled)",
+    "τέντα": "τέντα — awning",
+    "σκίσιμο": "σκίσιμο — tear, rip",
+    "αντιπροσωπεία": "αντιπροσωπεία — dealership",
+    "της εμπιστοσύνης σας": "της εμπιστοσύνης μου — whom I trust"
+   }
+  },
+  {
+   "id": "l177-vm-odigos-kanyon",
+   "title": "Μήνυμα από τον οδηγό για την κατάβαση στο φαράγγι",
+   "title_en": "A message from the guide about the canyoning trip",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από τον οδηγό μιας ομάδας στην οποία κλείσατε θέσεις για μια κατάβαση φαραγγιού, με σκοινιά και κολύμπι, στην Ήπειρο.",
+   "script": [
+    {
+     "speaker": "Οδηγός",
+     "voice": "m",
+     "el": "Γεια σας, ο Λευτέρης από την ομάδα καταβάσεων. Λάβαμε την κράτησή σας για τρία άτομα για τις δεκαπέντε του μήνα, ευχαριστούμε! Πριν σας στείλω την επιβεβαίωση, χρειάζομαι μερικές πληροφορίες, γιατί είναι θέμα ασφάλειας.",
+     "en": "Hi, it's Lefteris from the canyoning group. We've received your booking for three people for the fifteenth of the month, thank you! Before I send you the confirmation, I need some information, because it's a safety matter."
+    },
+    {
+     "speaker": "Οδηγός",
+     "voice": "m",
+     "el": "Πρώτον, όλοι οι συμμετέχοντες πρέπει να ξέρουν να κολυμπούν, τουλάχιστον πενήντα μέτρα χωρίς στάση, γιατί σε δύο σημεία το νερό είναι βαθύ και δεν πατάς. Δεύτερον, γράψατε ότι ο γιος σας είναι δεκατεσσάρων χρονών. Για ανήλικους χρειαζόμαστε υπογεγραμμένη άδεια από έναν γονιό, και πρέπει να έρθει μαζί του ένας ενήλικας της οικογένειας.",
+     "en": "First, all participants must know how to swim, at least fifty metres without stopping, because in two places the water is deep and you can't touch the bottom. Second, you wrote that your son is fourteen. For minors we need signed permission from a parent, and an adult from the family must come with him."
+    },
+    {
+     "speaker": "Οδηγός",
+     "voice": "m",
+     "el": "Τέλος, στείλτε μου με μήνυμα το ύψος και το βάρος του καθενός, για να σας ετοιμάσουμε στολές στο σωστό μέγεθος. Κράνος και σκοινιά τα δίνουμε εμείς· εσείς φέρτε μόνο παπούτσια που μπορούν να βραχούν, όχι σαγιονάρες. Ευχαριστώ!",
+     "en": "Finally, send me by text each person's height and weight, so that we can get wetsuits ready for you in the right size. We provide helmets and ropes; you only bring shoes that can get wet, not flip-flops. Thank you!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί πρέπει όλοι να ξέρουν κολύμπι;",
+     "options": [
+      "Γιατί η διαδρομή τελειώνει στη θάλασσα",
+      "Γιατί σε δύο σημεία το νερό είναι βαθύ και δεν πατάς",
+      "Γιατί θα κάνουν αγώνα κολύμβησης",
+      "Γιατί το ζητάει η ασφαλιστική"
+     ],
+     "answer": "Γιατί σε δύο σημεία το νερό είναι βαθύ και δεν πατάς",
+     "why": "σε δύο σημεία το νερό είναι βαθύ και δεν πατάς"
+    },
+    {
+     "q": "Τι χρειάζεται για τον γιο, επειδή είναι ανήλικος;",
+     "options": [
+      "Ειδικό εισιτήριο",
+      "Τίποτα ιδιαίτερο",
+      "Υπογεγραμμένη άδεια από γονιό και συνοδεία ενήλικα της οικογένειας",
+      "Πιστοποιητικό υγείας"
+     ],
+     "answer": "Υπογεγραμμένη άδεια από γονιό και συνοδεία ενήλικα της οικογένειας",
+     "why": "χρειαζόμαστε υπογεγραμμένη άδεια από έναν γονιό"
+    },
+    {
+     "q": "Γιατί ζητάει το ύψος και το βάρος των συμμετεχόντων;",
+     "options": [
+      "Για να διαλέξει τη διαδρομή",
+      "Για την ασφάλιση",
+      "Για να υπολογίσει την τιμή",
+      "Για να ετοιμάσει στολές στο σωστό μέγεθος"
+     ],
+     "answer": "Για να ετοιμάσει στολές στο σωστό μέγεθος",
+     "why": "για να σας ετοιμάσουμε στολές στο σωστό μέγεθος"
+    }
+   ],
+   "gloss": {
+    "κατάβαση φαραγγιού": "κατάβαση φαραγγιού — canyoning",
+    "κράτησή": "κράτηση — booking",
+    "επιβεβαίωση": "επιβεβαίωση — confirmation",
+    "συμμετέχοντες": "συμμετέχων — participant",
+    "δεν πατάς": "δεν πατάω — I can't touch the bottom",
+    "ανήλικους": "ανήλικος — minor",
+    "υπογεγραμμένη": "υπογεγραμμένος — signed",
+    "ενήλικας": "ενήλικας — adult",
+    "στολές": "στολή — wetsuit; uniform",
+    "Κράνος": "κράνος — helmet",
+    "σαγιονάρες": "σαγιονάρα — flip-flop"
+   }
+  },
+  {
+   "id": "l177-c1-pos-vlepoun-oi-melisses",
+   "title": "Πώς βλέπουν και πώς «μιλούν» οι μέλισσες",
+   "title_en": "How bees see and how they 'talk'",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε μια συνέντευξη με μια εντομολόγο για την όραση και την επικοινωνία των μελισσών.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Βλέπουν οι μέλισσες τα λουλούδια όπως εμείς;",
+     "en": "Do bees see flowers the way we do?"
+    },
+    {
+     "speaker": "Εντομολόγος",
+     "voice": "f",
+     "el": "Όχι ακριβώς. Οι μέλισσες δεν διακρίνουν το κόκκινο, βλέπουν όμως το υπεριώδες φως, που για εμάς είναι αόρατο. Πολλά λουλούδια που στα μάτια μας φαίνονται μονόχρωμα έχουν στα πέταλά τους υπεριώδη σχέδια, κάτι σαν διαδρόμους προσγείωσης, που οδηγούν το έντομο κατευθείαν στο νέκταρ. Το λουλούδι και η μέλισσα, με άλλα λόγια, έχουν εξελιχθεί μαζί, σαν δύο συνομιλητές που έμαθαν την ίδια γλώσσα.",
+     "en": "Not exactly. Bees can't distinguish red, but they can see ultraviolet light, which is invisible to us. Many flowers that look single-coloured to our eyes have ultraviolet patterns on their petals, something like landing strips, that guide the insect straight to the nectar. The flower and the bee, in other words, have evolved together, like two interlocutors who learned the same language."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και μεταξύ τους πώς επικοινωνούν;",
+     "en": "And how do they communicate among themselves?"
+    },
+    {
+     "speaker": "Εντομολόγος",
+     "voice": "f",
+     "el": "Με έναν χορό. Όταν μια εργάτρια βρει πλούσια πηγή τροφής, γυρίζει στην κυψέλη και κάνει πάνω στις κερήθρες έναν χορό σε σχήμα οκτώ, κουνώντας την κοιλιά της στο ευθύ τμήμα. Η γωνία αυτού του τμήματος σε σχέση με την κατακόρυφο δείχνει την κατεύθυνση της τροφής σε σχέση με τον ήλιο, και η διάρκεια του κουνήματος δείχνει την απόσταση. Τον κώδικα αυτόν τον αποκρυπτογράφησε ο Αυστριακός Καρλ φον Φρις, που τιμήθηκε γι' αυτό με το Νόμπελ το 1973.",
+     "en": "With a dance. When a worker finds a rich food source, she returns to the hive and performs on the combs a dance in the shape of a figure eight, waggling her abdomen on the straight section. The angle of that section relative to the vertical shows the direction of the food relative to the sun, and the duration of the waggling shows the distance. This code was deciphered by the Austrian Karl von Frisch, who was awarded the Nobel Prize for it in 1973."
+    },
+    {
+     "speaker": "Εντομολόγος",
+     "voice": "f",
+     "el": "Το πιο εντυπωσιακό είναι ότι ο ήλιος μετακινείται όσο περνά η μέρα, και οι μέλισσες το λαμβάνουν υπόψη: διορθώνουν τη γωνία του χορού τους ανάλογα με την ώρα. Πρόκειται για έναν συμβολικό κώδικα, σε έναν εγκέφαλο μικρότερο από ένα κεφάλι καρφίτσας.",
+     "en": "The most impressive thing is that the sun moves as the day goes on, and the bees take it into account: they correct the angle of their dance according to the time. It is a symbolic code, in a brain smaller than a pinhead."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι βλέπουν οι μέλισσες που εμείς δεν βλέπουμε;",
+     "options": [
+      "Τα χρώματα τη νύχτα",
+      "Το κόκκινο χρώμα",
+      "Το υπεριώδες φως",
+      "Το υπέρυθρο φως"
+     ],
+     "answer": "Το υπεριώδες φως",
+     "why": "βλέπουν όμως το υπεριώδες φως, που για εμάς είναι αόρατο"
+    },
+    {
+     "q": "Τι δείχνει η γωνία του ευθύ τμήματος του χορού;",
+     "options": [
+      "Την απόσταση της τροφής",
+      "Την ποσότητα της τροφής",
+      "Την κατεύθυνση της τροφής σε σχέση με τον ήλιο",
+      "Το είδος του λουλουδιού"
+     ],
+     "answer": "Την κατεύθυνση της τροφής σε σχέση με τον ήλιο",
+     "why": "δείχνει την κατεύθυνση της τροφής σε σχέση με τον ήλιο"
+    },
+    {
+     "q": "Πώς λαμβάνουν υπόψη οι μέλισσες την κίνηση του ήλιου;",
+     "options": [
+      "Χορεύουν μόνο το μεσημέρι",
+      "Δεν τη λαμβάνουν υπόψη",
+      "Διορθώνουν τη γωνία του χορού ανάλογα με την ώρα",
+      "Σταματούν να χορεύουν το απόγευμα"
+     ],
+     "answer": "Διορθώνουν τη γωνία του χορού ανάλογα με την ώρα",
+     "why": "διορθώνουν τη γωνία του χορού τους ανάλογα με την ώρα"
+    }
+   ],
+   "gloss": {
+    "εντομολόγο": "εντομολόγος — entomologist",
+    "όραση": "όραση — vision, eyesight",
+    "διακρίνουν": "διακρίνω — to distinguish",
+    "υπεριώδες": "υπεριώδης — ultraviolet",
+    "αόρατο": "αόρατος — invisible",
+    "πέταλά": "πέταλο — petal",
+    "εξελιχθεί": "εξελίσσομαι — to evolve",
+    "κερήθρες": "κερήθρα — honeycomb",
+    "κατακόρυφο": "κατακόρυφος — vertical",
+    "αποκρυπτογράφησε": "αποκρυπτογραφώ — to decipher",
+    "λαμβάνουν υπόψη": "λαμβάνω υπόψη — to take into account",
+    "καρφίτσας": "καρφίτσα — pin"
+   }
+  },
+  {
+   "id": "l177-c1-giati-kokkinizoume",
+   "title": "Γιατί κοκκινίζουμε όταν ντρεπόμαστε",
+   "title_en": "Why we blush when we're embarrassed",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε μια ψυχολόγο να εξηγεί σε μια ραδιοφωνική εκπομπή γιατί κοκκινίζουμε.",
+   "script": [
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Ο Δαρβίνος έγραψε ότι το κοκκίνισμα είναι η πιο παράξενη και η πιο ανθρώπινη από όλες τις εκφράσεις. Κανένα άλλο ζώο, απ' όσο ξέρουμε, δεν κοκκινίζει από ντροπή. Και, σε αντίθεση με το χαμόγελο, δεν μπορούμε ούτε να το προκαλέσουμε με τη θέλησή μας ούτε να το σταματήσουμε.",
+     "en": "Darwin wrote that blushing is the most peculiar and the most human of all expressions. No other animal, as far as we know, blushes from embarrassment. And, unlike a smile, we can neither cause it at will nor stop it."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Ο μηχανισμός είναι απλός: όταν νιώθουμε ότι τα βλέμματα των άλλων πέφτουν πάνω μας, το νευρικό σύστημα διαστέλλει τα μικρά αιμοφόρα αγγεία του προσώπου, του λαιμού και των αυτιών, και το δέρμα κοκκινίζει. Το ενδιαφέρον είναι το «γιατί». Το να δείχνεις στους άλλους ότι ντρέπεσαι μοιάζει, με την πρώτη ματιά, μειονέκτημα.",
+     "en": "The mechanism is simple: when we feel that other people's eyes are on us, the nervous system dilates the small blood vessels of the face, neck and ears, and the skin goes red. The interesting part is the 'why'. Showing others that you're embarrassed seems, at first sight, a disadvantage."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Μια ερμηνεία είναι ότι το κοκκίνισμα λειτουργεί σαν μια ειλικρινής συγγνώμη χωρίς λόγια. Λέει: «Ξέρω ότι έκανα λάθος και με νοιάζει τι σκέφτεστε». Ακριβώς επειδή δεν μπορούμε να το προσποιηθούμε, οι άλλοι το εμπιστεύονται. Έρευνες έχουν δείξει ότι όταν κάποιος κοκκινίζει μετά από ένα λάθος, οι γύρω του τον κρίνουν πιο επιεικώς και τον θεωρούν πιο αξιόπιστο. Αυτό που μας φαίνεται αδυναμία είναι ίσως ένας από τους πιο έξυπνους τρόπους που βρήκε η φύση για να μας κρατά ενωμένους.",
+     "en": "One interpretation is that blushing works like a sincere apology without words. It says: 'I know I made a mistake and I care what you think.' Precisely because we can't fake it, others trust it. Studies have shown that when someone blushes after a mistake, the people around them judge them more leniently and consider them more trustworthy. What seems to us a weakness is perhaps one of the cleverest ways nature has found to keep us together."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Σε τι διαφέρει το κοκκίνισμα από το χαμόγελο;",
+     "options": [
+      "Είναι πιο σύντομο",
+      "Δεν μπορούμε ούτε να το προκαλέσουμε ούτε να το σταματήσουμε με τη θέλησή μας",
+      "Εμφανίζεται μόνο στα παιδιά",
+      "Το έχουν και τα ζώα"
+     ],
+     "answer": "Δεν μπορούμε ούτε να το προκαλέσουμε ούτε να το σταματήσουμε με τη θέλησή μας",
+     "why": "δεν μπορούμε ούτε να το προκαλέσουμε με τη θέλησή μας ούτε να το σταματήσουμε"
+    },
+    {
+     "q": "Τι συμβαίνει στο σώμα όταν κοκκινίζουμε;",
+     "options": [
+      "Η καρδιά σταματά για λίγο",
+      "Σφίγγονται οι μύες του προσώπου",
+      "Ανεβαίνει η θερμοκρασία όλου του σώματος",
+      "Διαστέλλονται τα μικρά αιμοφόρα αγγεία του προσώπου"
+     ],
+     "answer": "Διαστέλλονται τα μικρά αιμοφόρα αγγεία του προσώπου",
+     "why": "το νευρικό σύστημα διαστέλλει τα μικρά αιμοφόρα αγγεία του προσώπου"
+    },
+    {
+     "q": "Ποια ερμηνεία δίνει η ψυχολόγος για το κοκκίνισμα;",
+     "options": [
+      "Δείχνει θυμό",
+      "Είναι ένα κατάλοιπο χωρίς χρησιμότητα",
+      "Μας προστατεύει από το κρύο",
+      "Λειτουργεί σαν ειλικρινής συγγνώμη χωρίς λόγια"
+     ],
+     "answer": "Λειτουργεί σαν ειλικρινής συγγνώμη χωρίς λόγια",
+     "why": "το κοκκίνισμα λειτουργεί σαν μια ειλικρινής συγγνώμη χωρίς λόγια"
+    }
+   ],
+   "gloss": {
+    "κοκκίνισμα": "κοκκίνισμα — blushing",
+    "Δαρβίνος": "Δαρβίνος — Darwin",
+    "παράξενη": "παράξενος — peculiar, strange",
+    "με τη θέλησή μας": "με τη θέλησή μου — at will",
+    "βλέμματα": "βλέμμα — gaze, look",
+    "διαστέλλει": "διαστέλλω — to dilate",
+    "αιμοφόρα αγγεία": "αιμοφόρο αγγείο — blood vessel",
+    "μειονέκτημα": "μειονέκτημα — disadvantage",
+    "προσποιηθούμε": "προσποιούμαι — to fake, pretend",
+    "επιεικώς": "επιεικώς — leniently",
+    "αξιόπιστο": "αξιόπιστος — trustworthy"
+   }
+  }
+ ]
+}
