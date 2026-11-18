@@ -1,0 +1,390 @@
+{
+ "items": [
+  {
+   "id": "l237-news-kynigi-pezoporoi",
+   "title": "Άνοιξε το κυνήγι: συστάσεις για πεζοπόρους και μανιταροσυλλέκτες",
+   "title_en": "Hunting season opens: advice for hikers and mushroom pickers",
+   "type": "news",
+   "level": "B2",
+   "context_el": "Ακούτε μια είδηση στο δελτίο ειδήσεων ενός περιφερειακού ραδιοφωνικού σταθμού.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Με την έναρξη της κυνηγετικής περιόδου, η δασική υπηρεσία της περιοχής απευθύνει συστάσεις σε όσους περπατούν στα βουνά και στα δάση, κυρίως τα Σαββατοκύριακα, όταν κυκλοφορούν οι περισσότεροι κυνηγοί.",
+     "en": "With the start of the hunting season, the region's forestry service is issuing advice to people who walk in the mountains and forests, especially at weekends, when most hunters are out."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Η πρώτη και πιο σημαντική είναι να φορούν ρούχα σε έντονα χρώματα, όπως πορτοκαλί ή κίτρινο, ώστε να φαίνονται από μακριά. Το ίδιο ισχύει και για τους σκύλους που συνοδεύουν τους πεζοπόρους, για τους οποίους προτείνεται ένα φωσφοριζέ γιλέκο ή κολάρο.",
+     "en": "The first and most important is to wear brightly coloured clothes, such as orange or yellow, so that they can be seen from far away. The same goes for dogs accompanying hikers, for whom a fluorescent vest or collar is recommended."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Η υπηρεσία θυμίζει ότι το κυνήγι απαγορεύεται κοντά σε κατοικημένες περιοχές και ότι υπάρχουν ζώνες όπου δεν επιτρέπεται καθόλου, όπως το καταφύγιο άγριας ζωής γύρω από τη λίμνη. Οι χάρτες με αυτές τις ζώνες είναι αναρτημένοι στην ιστοσελίδα της περιφέρειας.",
+     "en": "The service reminds people that hunting is forbidden near inhabited areas and that there are zones where it isn't allowed at all, such as the wildlife refuge around the lake. Maps of these zones are posted on the region's website."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Τέλος, όσοι μαζεύουν μανιτάρια, που αυτή την εποχή είναι πολλοί, καλούνται να μιλούν ή να κάνουν θόρυβο όταν κινούνται μέσα σε πυκνή βλάστηση, και να μην απομακρύνονται από τα σημαδεμένα μονοπάτια. Όποιος δει κυνηγούς σε απαγορευμένη ζώνη μπορεί να ενημερώσει το δασαρχείο.",
+     "en": "Finally, mushroom pickers, of whom there are many at this time of year, are asked to talk or make noise when moving through dense vegetation, and not to stray from the marked paths. Anyone who sees hunters in a forbidden zone can inform the forestry office."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε κυκλοφορούν οι περισσότεροι κυνηγοί;",
+     "options": [
+      "Τα Σαββατοκύριακα",
+      "Τις καθημερινές το πρωί",
+      "Τις νύχτες",
+      "Μόνο τον Δεκέμβριο"
+     ],
+     "answer": "Τα Σαββατοκύριακα",
+     "why": "κυρίως τα Σαββατοκύριακα, όταν κυκλοφορούν οι περισσότεροι κυνηγοί"
+    },
+    {
+     "q": "Ποια είναι η πιο σημαντική σύσταση;",
+     "options": [
+      "Να φορούν ρούχα σε έντονα χρώματα",
+      "Να έχουν μαζί τους σφυρίχτρα",
+      "Να μην πηγαίνουν στο δάσος",
+      "Να περπατούν μόνο σε ομάδες"
+     ],
+     "answer": "Να φορούν ρούχα σε έντονα χρώματα",
+     "why": "να φορούν ρούχα σε έντονα χρώματα, όπως πορτοκαλί ή κίτρινο"
+    },
+    {
+     "q": "Πού μπορεί κανείς να δει τις ζώνες όπου απαγορεύεται το κυνήγι;",
+     "options": [
+      "Σε πινακίδες στα χωριά",
+      "Στο δημαρχείο",
+      "Στην ιστοσελίδα της περιφέρειας",
+      "Σε μια εφαρμογή για κινητά"
+     ],
+     "answer": "Στην ιστοσελίδα της περιφέρειας",
+     "why": "Οι χάρτες με αυτές τις ζώνες είναι αναρτημένοι στην ιστοσελίδα της περιφέρειας"
+    },
+    {
+     "q": "Τι πρέπει να κάνουν όσοι μαζεύουν μανιτάρια;",
+     "options": [
+      "Να μιλούν ή να κάνουν θόρυβο μέσα σε πυκνή βλάστηση",
+      "Να μαζεύουν μόνο το πρωί",
+      "Να ζητούν άδεια από τους κυνηγούς",
+      "Να μην παίρνουν μαζί τους σκύλους"
+     ],
+     "answer": "Να μιλούν ή να κάνουν θόρυβο μέσα σε πυκνή βλάστηση",
+     "why": "καλούνται να μιλούν ή να κάνουν θόρυβο όταν κινούνται μέσα σε πυκνή βλάστηση"
+    }
+   ],
+   "gloss": {
+    "κυνηγετικής": "κυνηγετικός — hunting (adj.)",
+    "δασική υπηρεσία": "δασική υπηρεσία — forestry service",
+    "απευθύνει": "απευθύνω — to address, direct",
+    "συστάσεις": "σύσταση — recommendation, advice",
+    "έντονα": "έντονος — bright, intense",
+    "φωσφοριζέ": "φωσφοριζέ — fluorescent",
+    "κολάρο": "κολάρο — collar",
+    "κατοικημένες": "κατοικημένος — inhabited",
+    "καταφύγιο άγριας ζωής": "καταφύγιο άγριας ζωής — wildlife refuge",
+    "αναρτημένοι": "αναρτημένος — posted, published",
+    "βλάστηση": "βλάστηση — vegetation",
+    "δασαρχείο": "δασαρχείο — forestry office"
+   }
+  },
+  {
+   "id": "l237-vm-tameio-theatrou",
+   "title": "Μήνυμα από το ταμείο του θεάτρου για μια αλλαγή στην παράσταση",
+   "title_en": "A message from the theatre box office about a change to the performance",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Έχετε κλείσει εισιτήρια για μια θεατρική παράσταση. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Καλησπέρα σας, σας τηλεφωνώ από το ταμείο του Θεάτρου Άλφα, για τα δύο εισιτήρια που κλείσατε για την παράσταση του Σαββάτου στις εννιά. Δυστυχώς ο πρωταγωνιστής τραυματίστηκε στο πόδι κατά τη διάρκεια μιας πρόβας και δεν θα μπορέσει να παίξει για δύο εβδομάδες.",
+     "en": "Good evening, I'm calling from the box office of the Alfa Theatre, about the two tickets you booked for Saturday's nine o'clock performance. Unfortunately the leading actor injured his leg during a rehearsal and won't be able to perform for two weeks."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Η παράσταση θα γίνει κανονικά, με τον αντικαταστάτη του, που έχει παίξει τον ίδιο ρόλο στην περιοδεία του περασμένου καλοκαιριού. Όμως ξέρουμε ότι πολλοί θεατές είχαν αγοράσει εισιτήριο ειδικά για τον συγκεκριμένο ηθοποιό, γι' αυτό σας δίνουμε τρεις επιλογές.",
+     "en": "The performance will go ahead as normal, with his understudy, who played the same role on last summer's tour. But we know that many spectators had bought a ticket specifically for this actor, so we're giving you three options."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Μπορείτε να κρατήσετε τα εισιτήρια για το Σάββατο. Μπορείτε να τα αλλάξετε χωρίς χρέωση για μια παράσταση μετά τις είκοσι του μήνα, όταν θα έχει επιστρέψει ο πρωταγωνιστής. Ή μπορείτε να πάρετε πίσω ολόκληρο το ποσό.",
+     "en": "You can keep the tickets for Saturday. You can exchange them free of charge for a performance after the twentieth of the month, when the leading actor will be back. Or you can get the full amount back."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "f",
+     "el": "Αν δεν μας απαντήσετε ως την Παρασκευή το μεσημέρι, θα θεωρήσουμε ότι κρατάτε τα εισιτήριά σας για το Σάββατο. Για αλλαγή ή επιστροφή χρημάτων, καλέστε μας ή απαντήστε στο ηλεκτρονικό μήνυμα που σας στείλαμε. Ευχαριστούμε για την κατανόηση.",
+     "en": "If you don't answer us by Friday noon, we'll assume you're keeping your tickets for Saturday. For an exchange or a refund, call us or reply to the email we sent you. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι συνέβη στον πρωταγωνιστή;",
+     "options": [
+      "Αρρώστησε",
+      "Παραιτήθηκε",
+      "Τραυματίστηκε στο πόδι σε μια πρόβα",
+      "Έφυγε για περιοδεία"
+     ],
+     "answer": "Τραυματίστηκε στο πόδι σε μια πρόβα",
+     "why": "ο πρωταγωνιστής τραυματίστηκε στο πόδι κατά τη διάρκεια μιας πρόβας"
+    },
+    {
+     "q": "Ποιος θα παίξει τον ρόλο;",
+     "options": [
+      "Κανείς, η παράσταση ακυρώνεται",
+      "Ένας αντικαταστάτης που έχει παίξει τον ρόλο στην περιοδεία",
+      "Ο σκηνοθέτης",
+      "Μια ηθοποιός"
+     ],
+     "answer": "Ένας αντικαταστάτης που έχει παίξει τον ρόλο στην περιοδεία",
+     "why": "με τον αντικαταστάτη του, που έχει παίξει τον ίδιο ρόλο στην περιοδεία"
+    },
+    {
+     "q": "Ποια από τις παρακάτω δεν είναι μία από τις τρεις επιλογές;",
+     "options": [
+      "Να πάρουν πίσω τα χρήματα",
+      "Να κρατήσουν τα εισιτήρια για το Σάββατο",
+      "Να τα αλλάξουν για παράσταση μετά τις είκοσι του μήνα",
+      "Να πάρουν δωρεάν εισιτήρια για άλλη παράσταση"
+     ],
+     "answer": "Να πάρουν δωρεάν εισιτήρια για άλλη παράσταση",
+     "why": "Μπορείτε να κρατήσετε … να τα αλλάξετε … ή … να πάρετε πίσω ολόκληρο το ποσό"
+    },
+    {
+     "q": "Τι θα γίνει αν δεν απαντήσουν ως την Παρασκευή;",
+     "options": [
+      "Θα τους κλειστούν θέσεις για άλλη μέρα",
+      "Θα πάρουν πίσω τα χρήματα",
+      "Θα θεωρηθεί ότι κρατούν τα εισιτήρια για το Σάββατο",
+      "Θα χάσουν τα εισιτήρια"
+     ],
+     "answer": "Θα θεωρηθεί ότι κρατούν τα εισιτήρια για το Σάββατο",
+     "why": "θα θεωρήσουμε ότι κρατάτε τα εισιτήριά σας για το Σάββατο"
+    }
+   ],
+   "gloss": {
+    "ταμείο": "ταμείο — box office",
+    "πρωταγωνιστής": "πρωταγωνιστής — leading actor",
+    "τραυματίστηκε": "τραυματίζομαι — to be injured",
+    "πρόβας": "πρόβα — rehearsal",
+    "αντικαταστάτη": "αντικαταστάτης — understudy, replacement",
+    "περιοδεία": "περιοδεία — tour",
+    "θεατές": "θεατής — spectator",
+    "χρέωση": "χρέωση — charge",
+    "ποσό": "ποσό — amount",
+    "κατανόηση": "κατανόηση — understanding"
+   }
+  },
+  {
+   "id": "l237-c1-mono-exinta-lepta",
+   "title": "Γιατί η ώρα έχει εξήντα λεπτά; Μια κληρονομιά από τη Μεσοποταμία",
+   "title_en": "Why does an hour have sixty minutes? A legacy from Mesopotamia",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε ένα απόσπασμα από μια εκπομπή για την ιστορία των αριθμών.",
+   "script": [
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Μετράμε με το δεκαδικό σύστημα, πιθανότατα επειδή έχουμε δέκα δάχτυλα. Κι όμως, όταν κοιτάμε το ρολόι, ξαφνικά μετράμε με εξηντάδες: εξήντα δευτερόλεπτα, εξήντα λεπτά. Το ίδιο κάνουμε και με τις μοίρες του κύκλου. Από πού προέρχεται αυτή η παραξενιά;",
+     "en": "We count in the decimal system, probably because we have ten fingers. And yet when we look at the clock, we suddenly count in sixties: sixty seconds, sixty minutes. We do the same with the degrees of a circle. Where does this oddity come from?"
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Η απάντηση βρίσκεται στην αρχαία Μεσοποταμία. Οι Σουμέριοι και αργότερα οι Βαβυλώνιοι χρησιμοποιούσαν ένα σύστημα με βάση το εξήντα. Γιατί το εξήντα; Μια πιθανή εξήγηση είναι ότι διαιρείται με πάρα πολλούς αριθμούς: με το δύο, το τρία, το τέσσερα, το πέντε, το έξι, το δέκα, το δώδεκα. Για εμπόρους που μοίραζαν σιτάρι ή γη, αυτό ήταν τεράστιο πλεονέκτημα.",
+     "en": "The answer lies in ancient Mesopotamia. The Sumerians and later the Babylonians used a system based on sixty. Why sixty? One possible explanation is that it divides by a great many numbers: by two, three, four, five, six, ten, twelve. For merchants dividing up grain or land, that was a huge advantage."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Οι Βαβυλώνιοι ήταν επίσης εξαιρετικοί αστρονόμοι, και οι πίνακές τους με τις θέσεις των άστρων γράφονταν με αυτό το σύστημα. Όταν οι Έλληνες αστρονόμοι, όπως ο Ίππαρχος και αργότερα ο Πτολεμαίος, παρέλαβαν αυτή τη γνώση, κράτησαν τις εξηντάδες για τις γωνίες και τους υπολογισμούς τους, παρόλο που για όλα τα άλλα χρησιμοποιούσαν δεκαδικούς αριθμούς.",
+     "en": "The Babylonians were also excellent astronomers, and their tables of star positions were written in this system. When Greek astronomers such as Hipparchus and later Ptolemy took over this knowledge, they kept the sixties for their angles and calculations, even though for everything else they used decimal numbers."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Από την αστρονομία, οι εξηντάδες πέρασαν στη μέτρηση του χρόνου. Η Γαλλική Επανάσταση προσπάθησε να καθιερώσει δεκαδική ώρα, με δέκα ώρες την ημέρα και εκατό λεπτά την ώρα. Το πείραμα εγκαταλείφθηκε μέσα σε λίγα χρόνια. Οι συνήθειες, όπως φαίνεται, είναι πιο ανθεκτικές από τις επαναστάσεις, και έτσι κάθε φορά που κοιτάμε το ρολόι μας, κάνουμε, χωρίς να το ξέρουμε, μαθηματικά της Βαβυλώνας.",
+     "en": "From astronomy, the sixties passed into the measurement of time. The French Revolution tried to introduce decimal time, with ten hours a day and a hundred minutes an hour. The experiment was abandoned within a few years. Habits, it seems, are tougher than revolutions, and so every time we look at our watch we are, without knowing it, doing Babylonian mathematics."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια πιθανή εξήγηση δίνεται για την επιλογή του εξήντα;",
+     "options": [
+      "Ότι αντιστοιχούσε στις μέρες του μήνα",
+      "Ότι διαιρείται με πάρα πολλούς αριθμούς",
+      "Ότι ήταν ο αριθμός των θεών",
+      "Ότι ήταν εύκολο να γραφτεί"
+     ],
+     "answer": "Ότι διαιρείται με πάρα πολλούς αριθμούς",
+     "why": "διαιρείται με πάρα πολλούς αριθμούς"
+    },
+    {
+     "q": "Γιατί ήταν το σύστημα αυτό πλεονέκτημα για τους εμπόρους;",
+     "options": [
+      "Γιατί έκανε πιο εύκολο το μοίρασμα σιταριού ή γης",
+      "Γιατί ήταν μυστικό",
+      "Γιατί το χρησιμοποιούσαν όλοι οι λαοί",
+      "Γιατί μείωνε τους φόρους"
+     ],
+     "answer": "Γιατί έκανε πιο εύκολο το μοίρασμα σιταριού ή γης",
+     "why": "Για εμπόρους που μοίραζαν σιτάρι ή γη, αυτό ήταν τεράστιο πλεονέκτημα"
+    },
+    {
+     "q": "Τι έκαναν οι Έλληνες αστρονόμοι με τις εξηντάδες;",
+     "options": [
+      "Τις κράτησαν για τις γωνίες και τους υπολογισμούς τους",
+      "Τις αντικατέστησαν με δωδεκάδες",
+      "Τις απέρριψαν",
+      "Τις χρησιμοποίησαν για όλα"
+     ],
+     "answer": "Τις κράτησαν για τις γωνίες και τους υπολογισμούς τους",
+     "why": "κράτησαν τις εξηντάδες για τις γωνίες και τους υπολογισμούς τους"
+    },
+    {
+     "q": "Τι έγινε με τη δεκαδική ώρα της Γαλλικής Επανάστασης;",
+     "options": [
+      "Ισχύει ακόμη στη Γαλλία",
+      "Υιοθετήθηκε από τους αστρονόμους",
+      "Εγκαταλείφθηκε μέσα σε λίγα χρόνια",
+      "Δεν εφαρμόστηκε ποτέ"
+     ],
+     "answer": "Εγκαταλείφθηκε μέσα σε λίγα χρόνια",
+     "why": "Το πείραμα εγκαταλείφθηκε μέσα σε λίγα χρόνια"
+    }
+   ],
+   "gloss": {
+    "δεκαδικό": "δεκαδικός — decimal",
+    "εξηντάδες": "εξηντάδα — group of sixty",
+    "μοίρες": "μοίρα — degree",
+    "παραξενιά": "παραξενιά — oddity, quirk",
+    "Σουμέριοι": "Σουμέριος — Sumerian",
+    "Βαβυλώνιοι": "Βαβυλώνιος — Babylonian",
+    "διαιρείται": "διαιρούμαι — to be divisible",
+    "πλεονέκτημα": "πλεονέκτημα — advantage",
+    "παρέλαβαν": "παραλαμβάνω — to take over, receive",
+    "γωνίες": "γωνία — angle",
+    "καθιερώσει": "καθιερώνω — to establish",
+    "ανθεκτικές": "ανθεκτικός — durable, resilient"
+   }
+  },
+  {
+   "id": "l237-c1-int-kril",
+   "title": "Μια θαλάσσια βιολόγος για το κριλ της Ανταρκτικής",
+   "title_en": "A marine biologist on Antarctic krill",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Μια Ελληνίδα θαλάσσια βιολόγος, που έχει πάρει μέρος σε ερευνητικές αποστολές στην Ανταρκτική, μιλά σε μια ραδιοφωνική εκπομπή επιστήμης.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Μελετάτε ένα ζώο που οι περισσότεροι ακροατές μας δεν έχουν ακούσει ποτέ: το κριλ. Τι είναι;",
+     "en": "You study an animal that most of our listeners have never heard of: krill. What is it?"
+    },
+    {
+     "speaker": "Βιολόγος",
+     "voice": "f",
+     "el": "Είναι ένα μικρό καρκινοειδές, που μοιάζει με γαριδάκι και έχει μήκος περίπου πέντε εκατοστά. Μόνο του δεν είναι εντυπωσιακό. Όμως ζει σε τεράστια σμήνη, που μερικές φορές βάφουν τη θάλασσα κόκκινη. Υπολογίζεται ότι το συνολικό βάρος του κριλ της Ανταρκτικής είναι από τα μεγαλύτερα που έχει οποιοδήποτε ζωικό είδος στον πλανήτη.",
+     "en": "It's a small crustacean that looks like a tiny shrimp and is about five centimetres long. On its own it isn't impressive. But it lives in huge swarms that sometimes turn the sea red. The total weight of Antarctic krill is estimated to be among the largest of any animal species on the planet."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Γιατί είναι τόσο σημαντικό;",
+     "en": "Why is it so important?"
+    },
+    {
+     "speaker": "Βιολόγος",
+     "voice": "f",
+     "el": "Γιατί από αυτό εξαρτώνται σχεδόν όλα τα μεγάλα ζώα της περιοχής: οι φάλαινες, οι φώκιες, οι πιγκουίνοι, πολλά ψάρια και πουλιά. Αν αφαιρέσετε το κριλ, η τροφική αλυσίδα της Ανταρκτικής καταρρέει. Και το κριλ, με τη σειρά του, τρέφεται με μικροσκοπικά φύκια που αναπτύσσονται κάτω από τον πάγο της θάλασσας, ειδικά τον χειμώνα.",
+     "en": "Because almost all the large animals of the region depend on it: whales, seals, penguins, many fish and birds. Take away the krill, and the Antarctic food chain collapses. And krill, in turn, feeds on microscopic algae that grow under the sea ice, especially in winter."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Άρα η κλιματική αλλαγή το απειλεί;",
+     "en": "So climate change threatens it?"
+    },
+    {
+     "speaker": "Βιολόγος",
+     "voice": "f",
+     "el": "Είναι ένας από τους κινδύνους που μελετάμε. Σε ορισμένες περιοχές ο θαλάσσιος πάγος λιγοστεύει, και μαζί του η τροφή των νεαρών κριλ. Υπάρχει και η αλιεία: το κριλ ψαρεύεται για να γίνει τροφή στις ιχθυοκαλλιέργειες ή συμπληρώματα διατροφής. Οι ποσότητες ελέγχονται από μια διεθνή επιτροπή, αλλά πολλοί επιστήμονες ζητούν πιο αυστηρά όρια. Αυτό που προσπαθώ να εξηγώ είναι ότι, για να προστατέψεις τη φάλαινα, πρέπει πρώτα να προστατέψεις αυτό το μικρό γαριδάκι.",
+     "en": "It's one of the risks we study. In some areas the sea ice is shrinking, and with it the food of young krill. There's also fishing: krill is caught to become feed for fish farms or food supplements. The quantities are controlled by an international commission, but many scientists are calling for stricter limits. What I try to explain is that to protect the whale, you first have to protect this little shrimp."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι λέει η βιολόγος για το συνολικό βάρος του κριλ;",
+     "options": [
+      "Ότι είναι από τα μεγαλύτερα κάθε ζωικού είδους στον πλανήτη",
+      "Ότι είναι πολύ μικρό",
+      "Ότι κανείς δεν μπορεί να το υπολογίσει",
+      "Ότι μειώθηκε στο μισό"
+     ],
+     "answer": "Ότι είναι από τα μεγαλύτερα κάθε ζωικού είδους στον πλανήτη",
+     "why": "το συνολικό βάρος του κριλ της Ανταρκτικής είναι από τα μεγαλύτερα"
+    },
+    {
+     "q": "Γιατί είναι τόσο σημαντικό το κριλ;",
+     "options": [
+      "Γιατί λιώνει τον πάγο",
+      "Γιατί καθαρίζει το νερό",
+      "Γιατί από αυτό εξαρτώνται σχεδόν όλα τα μεγάλα ζώα της περιοχής",
+      "Γιατί είναι νόστιμο"
+     ],
+     "answer": "Γιατί από αυτό εξαρτώνται σχεδόν όλα τα μεγάλα ζώα της περιοχής",
+     "why": "από αυτό εξαρτώνται σχεδόν όλα τα μεγάλα ζώα της περιοχής"
+    },
+    {
+     "q": "Πώς επηρεάζει η μείωση του πάγου το κριλ;",
+     "options": [
+      "Το κάνει πιο εύκολο θήραμα για τις φάλαινες",
+      "Του αφήνει περισσότερο χώρο",
+      "Δεν το επηρεάζει",
+      "Μειώνει την τροφή των νεαρών κριλ"
+     ],
+     "answer": "Μειώνει την τροφή των νεαρών κριλ",
+     "why": "ο θαλάσσιος πάγος λιγοστεύει, και μαζί του η τροφή των νεαρών κριλ"
+    },
+    {
+     "q": "Τι ζητούν πολλοί επιστήμονες;",
+     "options": [
+      "Να μεταφερθούν φάλαινες σε άλλες θάλασσες",
+      "Να εκτρέφεται κριλ σε φάρμες",
+      "Να απαγορευτεί κάθε έρευνα",
+      "Πιο αυστηρά όρια στην αλιεία του κριλ"
+     ],
+     "answer": "Πιο αυστηρά όρια στην αλιεία του κριλ",
+     "why": "πολλοί επιστήμονες ζητούν πιο αυστηρά όρια"
+    }
+   ],
+   "gloss": {
+    "αποστολές": "αποστολή — expedition, mission",
+    "καρκινοειδές": "καρκινοειδές — crustacean",
+    "γαριδάκι": "γαριδάκι — tiny shrimp",
+    "σμήνη": "σμήνος — swarm",
+    "εξαρτώνται": "εξαρτώμαι — to depend",
+    "τροφική αλυσίδα": "τροφική αλυσίδα — food chain",
+    "καταρρέει": "καταρρέω — to collapse",
+    "φύκια": "φύκι — alga, seaweed",
+    "λιγοστεύει": "λιγοστεύω — to diminish, shrink",
+    "αλιεία": "αλιεία — fishing, fishery",
+    "ιχθυοκαλλιέργειες": "ιχθυοκαλλιέργεια — fish farm",
+    "συμπληρώματα διατροφής": "συμπλήρωμα διατροφής — food supplement"
+   }
+  }
+ ]
+}
