@@ -1,0 +1,800 @@
+{
+ "items": [
+  {
+   "id": "l202-ann-thyrides-dematon",
+   "title": "Οι αυτόματες θυρίδες δεμάτων μετακομίζουν",
+   "title_en": "The parcel lockers are moving",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση από τα μεγάφωνα ενός εμπορικού κέντρου.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Αγαπητοί επισκέπτες, σας ενημερώνουμε ότι από τη Δευτέρα οι αυτόματες θυρίδες παραλαβής δεμάτων μεταφέρονται από την είσοδο του ισογείου στο πρώτο υπόγειο, δίπλα στο πάρκινγκ. Η μεταφορά θα γίνει το Σαββατοκύριακο, οπότε το Σάββατο και την Κυριακή οι θυρίδες δεν θα λειτουργούν.",
+     "en": "Dear visitors, we inform you that from Monday the automatic parcel lockers are moving from the ground-floor entrance to the first basement level, next to the car park. The move will take place at the weekend, so on Saturday and Sunday the lockers will not be working."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Όσοι περιμένετε δέμα αυτές τις μέρες, μην ανησυχείτε: τα δέματα που δεν θα παραληφθούν θα φυλάσσονται με ασφάλεια και θα σας περιμένουν στη νέα θέση. Ο κωδικός παραλαβής που λάβατε με μήνυμα στο κινητό σας παραμένει ο ίδιος, και η προθεσμία παραλαβής παρατείνεται κατά δύο ημέρες.",
+     "en": "Those of you expecting a parcel in these days, don't worry: parcels that aren't collected will be kept safely and will be waiting for you in the new location. The collection code you received by text message stays the same, and the collection deadline is extended by two days."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Για άτομα με κινητικές δυσκολίες, το προσωπικό του γραφείου πληροφοριών μπορεί να σας φέρει το δέμα σας στο ισόγειο. Ευχαριστούμε για την κατανόηση.",
+     "en": "For people with mobility difficulties, the information desk staff can bring your parcel to you on the ground floor. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού θα βρίσκονται οι θυρίδες από τη Δευτέρα;",
+     "options": [
+      "Στην είσοδο του ισογείου",
+      "Στο πρώτο υπόγειο, δίπλα στο πάρκινγκ",
+      "Στον δεύτερο όροφο",
+      "Στο γραφείο πληροφοριών"
+     ],
+     "answer": "Στο πρώτο υπόγειο, δίπλα στο πάρκινγκ",
+     "why": "στο πρώτο υπόγειο, δίπλα στο πάρκινγκ"
+    },
+    {
+     "q": "Τι ισχύει για τον κωδικό παραλαβής;",
+     "options": [
+      "Παραμένει ο ίδιος",
+      "Ισχύει μόνο το Σάββατο",
+      "Θα σταλεί νέος",
+      "Πρέπει να ζητηθεί στο γραφείο"
+     ],
+     "answer": "Παραμένει ο ίδιος",
+     "why": "παραμένει ο ίδιος"
+    },
+    {
+     "q": "Τι μπορεί να κάνει το προσωπικό για άτομα με κινητικές δυσκολίες;",
+     "options": [
+      "Να επιστρέψει τα χρήματα",
+      "Να φέρει το δέμα στο ισόγειο",
+      "Να στείλει το δέμα στο σπίτι",
+      "Να κρατήσει θέση στο πάρκινγκ"
+     ],
+     "answer": "Να φέρει το δέμα στο ισόγειο",
+     "why": "μπορεί να σας φέρει το δέμα σας στο ισόγειο"
+    }
+   ],
+   "gloss": {
+    "θυρίδες": "θυρίδα — locker, compartment",
+    "δεμάτων": "δέμα — parcel",
+    "υπόγειο": "υπόγειο — basement",
+    "προθεσμία": "προθεσμία — deadline",
+    "παρατείνεται": "παρατείνομαι — to be extended",
+    "κινητικές": "κινητικός — mobility (adj.), motor"
+   }
+  },
+  {
+   "id": "l202-rep-rhtinosyllektes",
+   "title": "Οι τελευταίοι ρητινοσυλλέκτες",
+   "title_en": "The last resin tappers in the pine forest",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ραδιοφωνικό ρεπορτάζ από ένα πευκοδάσος.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Είναι επτά το πρωί και ο κύριος Στέλιος περπατάει ανάμεσα στα πεύκα με ένα μικρό κοφτερό εργαλείο στο χέρι. Σε κάθε δέντρο ανανεώνει μια επιμήκη τομή στον κορμό, και από κάτω κρέμεται ένα μικρό δοχείο, όπου στάζει αργά το ρετσίνι. Η δουλειά του λέγεται ρητινοσυλλογή, και είναι μια από τις παλιότερες ασχολίες της ελληνικής υπαίθρου.",
+     "en": "It is seven in the morning and Mr Stelios is walking among the pines with a small sharp tool in his hand. On each tree he renews an elongated cut in the trunk, and below it hangs a small container into which the resin slowly drips. His work is called resin tapping, and it is one of the oldest occupations of the Greek countryside."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Το ρετσίνι χρησιμοποιείται στη ρετσίνα, αλλά και για την παραγωγή νέφτι, βερνικιών και άλλων προϊόντων. Πριν από μερικές δεκαετίες η Ελλάδα ήταν από τους σημαντικούς παραγωγούς στην Ευρώπη, όμως σήμερα οι ρητινοσυλλέκτες είναι λίγοι. Η δουλειά είναι κουραστική, πληρώνεται με το κιλό, και η τιμή επηρεάζεται από το φτηνότερο ρετσίνι που εισάγεται από άλλες χώρες.",
+     "en": "Resin is used in retsina, but also to produce turpentine, varnishes and other products. A few decades ago Greece was among the significant producers in Europe, but today resin tappers are few. The work is tiring, it is paid by the kilo, and the price is affected by cheaper resin imported from other countries."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Ο κύριος Στέλιος λέει ότι οι ρητινοσυλλέκτες είναι και φύλακες του δάσους: περνούν κάθε μέρα από τα ίδια μονοπάτια, καθαρίζουν τα ξερά κλαδιά και είναι συχνά οι πρώτοι που θα δουν καπνό. «Όταν φύγουμε εμείς», μου λέει, «το δάσος θα μείνει πιο μόνο του.»",
+     "en": "Mr Stelios says that resin tappers are also guardians of the forest: they walk the same paths every day, clear away dry branches and are often the first to see smoke. 'When we're gone,' he tells me, 'the forest will be more alone.'"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι κάνει ο κύριος Στέλιος σε κάθε δέντρο;",
+     "options": [
+      "Το ποτίζει",
+      "Το κλαδεύει",
+      "Ανανεώνει μια τομή στον κορμό",
+      "Το μετράει"
+     ],
+     "answer": "Ανανεώνει μια τομή στον κορμό",
+     "why": "ανανεώνει μια επιμήκη τομή στον κορμό"
+    },
+    {
+     "q": "Γιατί είναι χαμηλή η τιμή του ρετσινιού;",
+     "options": [
+      "Λόγω του φτηνότερου ρετσινιού που εισάγεται",
+      "Γιατί το κράτος ορίζει την τιμή",
+      "Γιατί δεν το χρειάζεται κανείς",
+      "Γιατί είναι κακής ποιότητας"
+     ],
+     "answer": "Λόγω του φτηνότερου ρετσινιού που εισάγεται",
+     "why": "η τιμή επηρεάζεται από το φτηνότερο ρετσίνι που εισάγεται από άλλες χώρες"
+    },
+    {
+     "q": "Γιατί οι ρητινοσυλλέκτες λέγονται «φύλακες του δάσους»;",
+     "options": [
+      "Γιατί περνούν κάθε μέρα και συχνά βλέπουν πρώτοι καπνό",
+      "Γιατί είναι δασοφύλακες",
+      "Γιατί φυτεύουν δέντρα",
+      "Γιατί κυνηγούν λαθροκυνηγούς"
+     ],
+     "answer": "Γιατί περνούν κάθε μέρα και συχνά βλέπουν πρώτοι καπνό",
+     "why": "είναι συχνά οι πρώτοι που θα δουν καπνό"
+    }
+   ],
+   "gloss": {
+    "πευκοδάσος": "πευκοδάσος — pine forest",
+    "επιμήκη": "επιμήκης — elongated",
+    "τομή": "τομή — cut, incision",
+    "κορμό": "κορμός — trunk",
+    "στάζει": "στάζω — to drip",
+    "ρετσίνι": "ρετσίνι — resin",
+    "νέφτι": "νέφτι — turpentine",
+    "βερνικιών": "βερνίκι — varnish",
+    "φύλακες": "φύλακας — guardian, keeper"
+   }
+  },
+  {
+   "id": "l202-dia-menou-qr",
+   "title": "Ο κατάλογος με τον κωδικό QR",
+   "title_en": "The menu that is only a QR code",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ένας πατέρας και η κόρη του κάθονται σε ένα καινούργιο εστιατόριο.",
+   "script": [
+    {
+     "speaker": "Πατέρας",
+     "voice": "m",
+     "el": "Πού είναι ο κατάλογος; Ο σερβιτόρος μάς έφερε μόνο νερό κι αυτό το χαρτάκι με το τετράγωνο σχέδιο.",
+     "en": "Where's the menu? The waiter brought us only water and this little card with the square pattern."
+    },
+    {
+     "speaker": "Κόρη",
+     "voice": "f",
+     "el": "Αυτός είναι ο κατάλογος, μπαμπά. Είναι κωδικός QR. Τον σκανάρεις με την κάμερα του κινητού και ανοίγει σε μια σελίδα με όλα τα πιάτα.",
+     "en": "That is the menu, Dad. It's a QR code. You scan it with your phone camera and it opens a page with all the dishes."
+    },
+    {
+     "speaker": "Πατέρας",
+     "voice": "m",
+     "el": "Δοκίμασα, αλλά τα γράμματα είναι μικροσκοπικά και τα γυαλιά μου τα άφησα στο αυτοκίνητο. Και η μπαταρία μου είναι στο οκτώ τοις εκατό. Δεν θέλω να διαβάζω το φαγητό μου σε μια οθόνη.",
+     "en": "I tried, but the letters are tiny and I left my glasses in the car. And my battery is at eight per cent. I don't want to read my food off a screen."
+    },
+    {
+     "speaker": "Κόρη",
+     "voice": "f",
+     "el": "Έχεις δίκιο, δεν είναι βολικό για όλους. Ας ρωτήσουμε αν έχουν και έντυπο. Πολλά μαγαζιά κρατάνε μερικούς καταλόγους σε χαρτί ακριβώς γι' αυτόν τον λόγο.",
+     "en": "You're right, it isn't convenient for everyone. Let's ask if they have a printed one too. Many places keep a few paper menus for exactly that reason."
+    },
+    {
+     "speaker": "Πατέρας",
+     "voice": "m",
+     "el": "Κι αν δεν έχουν, θα μου τα διαβάσεις εσύ, όπως σου διάβαζα εγώ παραμύθια όταν ήσουν μικρή.",
+     "en": "And if they don't, you'll read them out to me, the way I used to read you fairy tales when you were little."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δυσκολεύεται ο πατέρας να διαβάσει τον κατάλογο;",
+     "options": [
+      "Γιατί είναι σε ξένη γλώσσα",
+      "Γιατί το εστιατόριο είναι σκοτεινό",
+      "Γιατί τα γράμματα είναι μικροσκοπικά και δεν έχει τα γυαλιά του",
+      "Γιατί δεν ξέρει να διαβάζει"
+     ],
+     "answer": "Γιατί τα γράμματα είναι μικροσκοπικά και δεν έχει τα γυαλιά του",
+     "why": "τα γράμματα είναι μικροσκοπικά και τα γυαλιά μου τα άφησα στο αυτοκίνητο"
+    },
+    {
+     "q": "Τι προτείνει η κόρη;",
+     "options": [
+      "Να φύγουν",
+      "Να φορτίσουν το κινητό",
+      "Να παραγγείλουν ό,τι και οι διπλανοί",
+      "Να ρωτήσουν αν υπάρχει έντυπος κατάλογος"
+     ],
+     "answer": "Να ρωτήσουν αν υπάρχει έντυπος κατάλογος",
+     "why": "Ας ρωτήσουμε αν έχουν και έντυπο"
+    },
+    {
+     "q": "Τι θα κάνει η κόρη αν δεν υπάρχει χάρτινος κατάλογος;",
+     "options": [
+      "Θα του διαβάσει τα πιάτα",
+      "Θα παραπονεθεί",
+      "Θα φέρει τα γυαλιά του",
+      "Θα παραγγείλει για εκείνον"
+     ],
+     "answer": "Θα του διαβάσει τα πιάτα",
+     "why": "θα μου τα διαβάσεις εσύ"
+    }
+   ],
+   "gloss": {
+    "κατάλογος": "κατάλογος — menu",
+    "σκανάρεις": "σκανάρω — to scan",
+    "μικροσκοπικά": "μικροσκοπικός — tiny",
+    "βολικό": "βολικός — convenient",
+    "έντυπο": "έντυπος — printed",
+    "παραμύθια": "παραμύθι — fairy tale"
+   }
+  },
+  {
+   "id": "l202-vm-pagetos-lemonies",
+   "title": "Μήνυμα για τον παγετό απόψε",
+   "title_en": "A neighbour's warning about frost tonight",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από τον γείτονά σας στο χωριό.",
+   "script": [
+    {
+     "speaker": "Γείτονας",
+     "voice": "m",
+     "el": "Γεια σου, Μαρίνα, ο Θανάσης είμαι, από το διπλανό κτήμα. Άκουσα στο δελτίο ότι απόψε η θερμοκρασία θα πέσει κάτω από το μηδέν, και ξέρω ότι φύτεψες φέτος τις καινούργιες λεμονιές. Οι νεαρές λεμονιές δεν αντέχουν καθόλου τον παγετό, μπορεί να καούν τα φύλλα τους μέσα σε μία νύχτα.",
+     "en": "Hi, Marina, it's Thanasis, from the next-door field. I heard on the forecast that tonight the temperature will drop below zero, and I know you planted the new lemon trees this year. Young lemon trees can't stand frost at all; their leaves can get burnt in a single night."
+    },
+    {
+     "speaker": "Γείτονας",
+     "voice": "m",
+     "el": "Αν δεν προλαβαίνεις να έρθεις, μπορώ να τις σκεπάσω εγώ με το ειδικό ύφασμα που έχω στην αποθήκη. Μη χρησιμοποιήσεις νάιλον, γιατί ακουμπάει στα φύλλα και κάνει περισσότερο κακό. Και πότισέ τες λίγο το απόγευμα, γιατί το υγρό χώμα κρατάει καλύτερα τη ζέστη από το ξερό.",
+     "en": "If you can't make it here in time, I can cover them myself with the special fabric I have in the shed. Don't use plastic sheeting, because it touches the leaves and does more harm. And water them a little in the afternoon, because moist soil holds heat better than dry soil."
+    },
+    {
+     "speaker": "Γείτονας",
+     "voice": "m",
+     "el": "Πάρε με μέχρι τις έξι να μου πεις τι θέλεις να κάνω. Γεια.",
+     "en": "Call me by six to tell me what you'd like me to do. Bye."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί τηλεφωνεί ο Θανάσης;",
+     "options": [
+      "Για να ζητήσει λεμόνια",
+      "Για να πουλήσει το κτήμα",
+      "Γιατί απόψε θα έχει παγετό και κινδυνεύουν οι λεμονιές",
+      "Γιατί χάλασε η αποθήκη"
+     ],
+     "answer": "Γιατί απόψε θα έχει παγετό και κινδυνεύουν οι λεμονιές",
+     "why": "απόψε η θερμοκρασία θα πέσει κάτω από το μηδέν"
+    },
+    {
+     "q": "Γιατί δεν πρέπει να χρησιμοποιήσει νάιλον;",
+     "options": [
+      "Γιατί το παίρνει ο αέρας",
+      "Γιατί είναι ακριβό",
+      "Γιατί ακουμπάει στα φύλλα και κάνει περισσότερο κακό",
+      "Γιατί απαγορεύεται"
+     ],
+     "answer": "Γιατί ακουμπάει στα φύλλα και κάνει περισσότερο κακό",
+     "why": "ακουμπάει στα φύλλα και κάνει περισσότερο κακό"
+    },
+    {
+     "q": "Γιατί προτείνει πότισμα το απόγευμα;",
+     "options": [
+      "Για να μη μπουν έντομα",
+      "Γιατί δεν έβρεξε",
+      "Για να μεγαλώσουν τα λεμόνια",
+      "Γιατί το υγρό χώμα κρατάει καλύτερα τη ζέστη"
+     ],
+     "answer": "Γιατί το υγρό χώμα κρατάει καλύτερα τη ζέστη",
+     "why": "το υγρό χώμα κρατάει καλύτερα τη ζέστη από το ξερό"
+    }
+   ],
+   "gloss": {
+    "κτήμα": "κτήμα — field, estate",
+    "λεμονιές": "λεμονιά — lemon tree",
+    "παγετό": "παγετός — frost",
+    "σκεπάσω": "σκεπάζω — to cover",
+    "ύφασμα": "ύφασμα — fabric",
+    "νάιλον": "νάιλον — plastic sheeting, nylon",
+    "χώμα": "χώμα — soil"
+   }
+  },
+  {
+   "id": "l202-news-katavothra",
+   "title": "Καταβόθρα άνοιξε σε κεντρικό δρόμο",
+   "title_en": "A sinkhole opens in a main street",
+   "type": "news",
+   "level": "B2",
+   "context_el": "Ακούτε μια είδηση από τοπικό ραδιοφωνικό σταθμό.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Μια καταβόθρα διαμέτρου περίπου τριών μέτρων άνοιξε τα ξημερώματα σε κεντρικό δρόμο της πόλης, μετά τις έντονες βροχοπτώσεις των τελευταίων ημερών. Ένα σταθμευμένο αυτοκίνητο έγειρε, καθώς ο μπροστινός του τροχός βούλιαξε στο άνοιγμα. Ευτυχώς δεν υπήρξαν τραυματισμοί, αφού εκείνη την ώρα ο δρόμος ήταν σχεδόν άδειος.",
+     "en": "A sinkhole about three metres in diameter opened in the early hours in a main street of the town, after the heavy rainfall of the last few days. A parked car tilted as its front wheel sank into the opening. Fortunately there were no injuries, since the street was almost empty at that hour."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Σύμφωνα με τους πρώτους ελέγχους των τεχνικών υπηρεσιών του δήμου, η αιτία φαίνεται να είναι ένας παλιός αγωγός ομβρίων που έσπασε και παρέσυρε σιγά σιγά το χώμα κάτω από την άσφαλτο. Ο δρόμος παραμένει κλειστός και η κυκλοφορία έχει εκτραπεί σε παράλληλες οδούς.",
+     "en": "According to the first checks by the municipality's technical services, the cause appears to be an old storm-water pipe that broke and gradually washed away the soil beneath the asphalt. The street remains closed and traffic has been diverted to parallel roads."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ο δήμος ανακοίνωσε ότι θα ελέγξει με κάμερα όλο το δίκτυο της περιοχής, για να διαπιστωθεί αν υπάρχουν κι άλλα σημεία με παρόμοιο πρόβλημα.",
+     "en": "The municipality announced that it will inspect the whole network in the area with a camera, to establish whether there are other spots with a similar problem."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έπαθε το σταθμευμένο αυτοκίνητο;",
+     "options": [
+      "Τίποτα",
+      "Παρασύρθηκε από το νερό",
+      "Έγειρε, γιατί ο τροχός του βούλιαξε",
+      "Κάηκε"
+     ],
+     "answer": "Έγειρε, γιατί ο τροχός του βούλιαξε",
+     "why": "ο μπροστινός του τροχός βούλιαξε στο άνοιγμα"
+    },
+    {
+     "q": "Ποια φαίνεται να είναι η αιτία;",
+     "options": [
+      "Ένας παλιός αγωγός ομβρίων που έσπασε",
+      "Έργα του μετρό",
+      "Ένα βαρύ φορτηγό",
+      "Ένας σεισμός"
+     ],
+     "answer": "Ένας παλιός αγωγός ομβρίων που έσπασε",
+     "why": "ένας παλιός αγωγός ομβρίων που έσπασε"
+    },
+    {
+     "q": "Τι θα κάνει ο δήμος;",
+     "options": [
+      "Θα αποζημιώσει τους οδηγούς",
+      "Θα φυτέψει δέντρα",
+      "Θα κλείσει τον δρόμο για έναν χρόνο",
+      "Θα ελέγξει με κάμερα όλο το δίκτυο της περιοχής"
+     ],
+     "answer": "Θα ελέγξει με κάμερα όλο το δίκτυο της περιοχής",
+     "why": "θα ελέγξει με κάμερα όλο το δίκτυο της περιοχής"
+    }
+   ],
+   "gloss": {
+    "καταβόθρα": "καταβόθρα — sinkhole",
+    "διαμέτρου": "διάμετρος — diameter",
+    "έγειρε": "γέρνω — to tilt, lean",
+    "βούλιαξε": "βουλιάζω — to sink",
+    "αγωγός": "αγωγός — pipe, conduit",
+    "ομβρίων": "όμβρια — rainwater, storm water",
+    "εκτραπεί": "εκτρέπω — to divert"
+   }
+  },
+  {
+   "id": "l202-int-fysito-gyali",
+   "title": "Η τεχνίτρια του φυσητού γυαλιού",
+   "title_en": "A glassblower at her furnace",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Συνέντευξη με μια τεχνίτρια που φτιάχνει αντικείμενα από φυσητό γυαλί στο εργαστήριό της.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Εδώ μέσα κάνει πολλή ζέστη. Πόσο ζεστός είναι ο φούρνος σας;",
+     "en": "It's very hot in here. How hot is your furnace?"
+    },
+    {
+     "speaker": "Τεχνίτρια",
+     "voice": "f",
+     "el": "Πάνω από χίλιους βαθμούς. Το γυαλί εκεί μέσα γίνεται σαν παχύ μέλι. Με ένα μακρύ μεταλλικό σωλήνα παίρνω μια μπάλα λιωμένο γυαλί, φυσάω από την άλλη άκρη και σχηματίζεται μια φούσκα. Μετά τη γυρίζω συνεχώς και τη διαμορφώνω με ξύλινα εργαλεία και βρεγμένες εφημερίδες.",
+     "en": "Over a thousand degrees. The glass in there becomes like thick honey. With a long metal pipe I gather a ball of molten glass, blow from the other end and a bubble forms. Then I keep turning it and shape it with wooden tools and wet newspapers."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Εφημερίδες; Δεν καίγονται;",
+     "en": "Newspapers? Don't they burn?"
+    },
+    {
+     "speaker": "Τεχνίτρια",
+     "voice": "f",
+     "el": "Αν είναι καλά βρεγμένες, όχι αμέσως. Δημιουργούν ένα στρώμα ατμού ανάμεσα στο χέρι μου και στο γυαλί. Το πιο δύσκολο όμως δεν είναι το φύσημα, είναι η υπομονή. Όταν τελειώσει ένα κομμάτι, το βάζω σε έναν δεύτερο φούρνο, όπου κρυώνει πολύ αργά, μέσα σε μια ολόκληρη νύχτα. Αν κρυώσει απότομα, ραγίζει, ακόμα και μέρες αργότερα.",
+     "en": "If they're well soaked, not straight away. They create a layer of steam between my hand and the glass. The hardest part, though, isn't the blowing, it's the patience. When a piece is finished, I put it in a second oven, where it cools very slowly, over a whole night. If it cools suddenly, it cracks, even days later."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Σας έχει τύχει να σπάσει κάτι που αγαπούσατε;",
+     "en": "Has something you loved ever broken on you?"
+    },
+    {
+     "speaker": "Τεχνίτρια",
+     "voice": "f",
+     "el": "Πολλές φορές. Στην αρχή έκλαιγα. Τώρα κρατάω τα κομμάτια και τα ξαναλιώνω. Το γυαλί σού δίνει πάντα δεύτερη ευκαιρία.",
+     "en": "Many times. At first I used to cry. Now I keep the pieces and melt them down again. Glass always gives you a second chance."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Σε τι μοιάζει το γυαλί μέσα στον φούρνο;",
+     "options": [
+      "Σε πηλό",
+      "Σε άμμο",
+      "Σε νερό",
+      "Σε παχύ μέλι"
+     ],
+     "answer": "Σε παχύ μέλι",
+     "why": "Το γυαλί εκεί μέσα γίνεται σαν παχύ μέλι"
+    },
+    {
+     "q": "Γιατί χρησιμοποιεί βρεγμένες εφημερίδες;",
+     "options": [
+      "Για να τυλίξει τα κομμάτια",
+      "Γιατί δημιουργούν στρώμα ατμού ανάμεσα στο χέρι και στο γυαλί",
+      "Για να καθαρίσει το γυαλί",
+      "Για να ανάψει τον φούρνο"
+     ],
+     "answer": "Γιατί δημιουργούν στρώμα ατμού ανάμεσα στο χέρι και στο γυαλί",
+     "why": "Δημιουργούν ένα στρώμα ατμού ανάμεσα στο χέρι μου και στο γυαλί"
+    },
+    {
+     "q": "Τι γίνεται αν ένα κομμάτι κρυώσει απότομα;",
+     "options": [
+      "Τίποτα",
+      "Αλλάζει χρώμα",
+      "Γίνεται πιο ανθεκτικό",
+      "Ραγίζει, ακόμα και μέρες αργότερα"
+     ],
+     "answer": "Ραγίζει, ακόμα και μέρες αργότερα",
+     "why": "Αν κρυώσει απότομα, ραγίζει, ακόμα και μέρες αργότερα"
+    }
+   ],
+   "gloss": {
+    "φυσητό": "φυσητός — blown (glass)",
+    "λιωμένο": "λιωμένος — molten, melted",
+    "φούσκα": "φούσκα — bubble",
+    "διαμορφώνω": "διαμορφώνω — to shape",
+    "ατμού": "ατμός — steam",
+    "ραγίζει": "ραγίζω — to crack",
+    "ξαναλιώνω": "ξαναλιώνω — to melt down again"
+   }
+  },
+  {
+   "id": "l202-mono-donti-sti-stegi",
+   "title": "Το δόντι στα κεραμίδια",
+   "title_en": "Throwing the baby tooth onto the roof",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Μια μητέρα μιλάει σε ένα podcast για γονείς.",
+   "script": [
+    {
+     "speaker": "Μητέρα",
+     "voice": "f",
+     "el": "Χθες βράδυ ο γιος μου έχασε το πρώτο του δόντι. Είχε ακούσει από ένα αμερικανικό κινούμενο σχέδιο για τη νεράιδα των δοντιών, που παίρνει το δόντι κάτω από το μαξιλάρι και αφήνει ένα κέρμα. Ήθελε οπωσδήποτε να το βάλει κάτω από το μαξιλάρι του.",
+     "en": "Last night my son lost his first tooth. He had heard from an American cartoon about the tooth fairy, who takes the tooth from under the pillow and leaves a coin. He absolutely wanted to put it under his pillow."
+    },
+    {
+     "speaker": "Μητέρα",
+     "voice": "f",
+     "el": "Εγώ όμως μεγάλωσα αλλιώς. Η γιαγιά μου μάς έβαζε να πετάμε το δόντι πάνω στα κεραμίδια και να λέμε κάτι σαν «Κοράκι, κοράκι, πάρε το δόντι μου και δώσ' μου ένα σιδερένιο». Σε κάθε περιοχή η φράση αλλάζει λίγο, αλλά η ιδέα είναι η ίδια: δίνεις το παλιό δόντι σε ένα πουλί για να σου φέρει ένα γερό.",
+     "en": "But I grew up differently. My grandmother used to have us throw the tooth onto the roof tiles and say something like 'Crow, crow, take my tooth and give me an iron one'. The phrase varies a little from region to region, but the idea is the same: you give the old tooth to a bird so it will bring you a strong one."
+    },
+    {
+     "speaker": "Μητέρα",
+     "voice": "f",
+     "el": "Τελικά κάναμε και τα δύο. Πετάξαμε το δόντι στη σκεπή της αποθήκης, είπαμε το ποιηματάκι, και το πρωί βρήκε ένα κέρμα κάτω από το μαξιλάρι. Μου είπε ότι το κοράκι μάλλον το έφερε. Ίσως έτσι γεννιούνται οι νέες παραδόσεις.",
+     "en": "In the end we did both. We threw the tooth onto the roof of the shed, said the little rhyme, and in the morning he found a coin under his pillow. He told me the crow had probably brought it. Perhaps that's how new traditions are born."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού ήθελε ο γιος να βάλει το δόντι του;",
+     "options": [
+      "Σε ένα κουτί",
+      "Στον κήπο",
+      "Κάτω από το μαξιλάρι του",
+      "Στα κεραμίδια"
+     ],
+     "answer": "Κάτω από το μαξιλάρι του",
+     "why": "Ήθελε οπωσδήποτε να το βάλει κάτω από το μαξιλάρι του"
+    },
+    {
+     "q": "Ποια είναι η ιδέα του εθίμου της γιαγιάς;",
+     "options": [
+      "Να κρατάς το δόντι για τύχη",
+      "Να θάβεις το δόντι",
+      "Να το δίνεις στον οδοντίατρο",
+      "Να δίνεις το παλιό δόντι σε ένα πουλί για να σου φέρει ένα γερό"
+     ],
+     "answer": "Να δίνεις το παλιό δόντι σε ένα πουλί για να σου φέρει ένα γερό",
+     "why": "δίνεις το παλιό δόντι σε ένα πουλί για να σου φέρει ένα γερό"
+    },
+    {
+     "q": "Τι έκαναν τελικά;",
+     "options": [
+      "Μόνο το αμερικανικό έθιμο",
+      "Και τα δύο",
+      "Τίποτα από τα δύο",
+      "Μόνο το έθιμο της γιαγιάς"
+     ],
+     "answer": "Και τα δύο",
+     "why": "Τελικά κάναμε και τα δύο"
+    }
+   ],
+   "gloss": {
+    "νεράιδα": "νεράιδα — fairy",
+    "μαξιλάρι": "μαξιλάρι — pillow",
+    "κέρμα": "κέρμα — coin",
+    "κεραμίδια": "κεραμίδι — roof tile",
+    "κοράκι": "κοράκι — crow",
+    "σιδερένιο": "σιδερένιος — iron (adj.)",
+    "σκεπή": "σκεπή — roof"
+   }
+  },
+  {
+   "id": "l202-rep-meteorologika-mpalonia",
+   "title": "Τα μπαλόνια των μετεωρολόγων",
+   "title_en": "Weather balloons launched twice a day",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ρεπορτάζ από έναν μετεωρολογικό σταθμό.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Λίγο πριν από τις δύο το μεσημέρι, ώρα Ελλάδας, ένας μετεωρολόγος βγαίνει στην αυλή του σταθμού κρατώντας ένα μεγάλο λευκό μπαλόνι γεμάτο αέριο. Από κάτω κρέμεται ένα μικρό κουτί, όχι μεγαλύτερο από ένα πακέτο γάλα. Είναι μια ραδιοβολίδα, ένα όργανο που μετράει τη θερμοκρασία, την υγρασία και την πίεση καθώς ανεβαίνει.",
+     "en": "Shortly before two in the afternoon, Greek time, a meteorologist steps out into the station's yard holding a large white balloon filled with gas. Below it hangs a small box, no bigger than a carton of milk. It is a radiosonde, an instrument that measures temperature, humidity and pressure as it rises."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Τέτοιες εκτοξεύσεις γίνονται σε εκατοντάδες σταθμούς σε όλο τον κόσμο, συνήθως δύο φορές την ημέρα και στις ίδιες ώρες παντού, ώστε τα δεδομένα να μπορούν να συγκριθούν. Το όργανο στέλνει τις μετρήσεις του με ραδιοκύματα, και από τη θέση του, που παρακολουθείται με GPS, υπολογίζεται και η ταχύτητα του ανέμου σε κάθε ύψος.",
+     "en": "Such launches take place at hundreds of stations around the world, usually twice a day and at the same times everywhere, so that the data can be compared. The instrument sends its measurements by radio waves, and from its position, tracked by GPS, the wind speed at each altitude is also calculated."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Όσο ανεβαίνει, η πίεση γύρω του πέφτει και το μπαλόνι φουσκώνει, ώσπου, συχνά πάνω από τα είκοσι χιλιόμετρα, σκάει. Το κουτί πέφτει με ένα μικρό αλεξίπτωτο και σπάνια βρίσκεται. Οι μετρήσεις του όμως έχουν ήδη μπει στα μοντέλα που προβλέπουν τον καιρό της επόμενης εβδομάδας.",
+     "en": "As it rises, the pressure around it falls and the balloon expands, until, often above twenty kilometres, it bursts. The box falls with a small parachute and is rarely found. But its measurements have already gone into the models that forecast the coming week's weather."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι μετράει η ραδιοβολίδα;",
+     "options": [
+      "Μόνο τη βροχή",
+      "Τους σεισμούς",
+      "Θερμοκρασία, υγρασία και πίεση",
+      "Τη ρύπανση"
+     ],
+     "answer": "Θερμοκρασία, υγρασία και πίεση",
+     "why": "μετράει τη θερμοκρασία, την υγρασία και την πίεση"
+    },
+    {
+     "q": "Γιατί οι εκτοξεύσεις γίνονται στις ίδιες ώρες παντού;",
+     "options": [
+      "Γιατί τότε φυσάει λιγότερο",
+      "Για να τις βλέπει το κοινό",
+      "Για λόγους ασφάλειας",
+      "Για να μπορούν να συγκριθούν τα δεδομένα"
+     ],
+     "answer": "Για να μπορούν να συγκριθούν τα δεδομένα",
+     "why": "ώστε τα δεδομένα να μπορούν να συγκριθούν"
+    },
+    {
+     "q": "Γιατί σκάει τελικά το μπαλόνι;",
+     "options": [
+      "Γιατί η πίεση πέφτει και φουσκώνει υπερβολικά",
+      "Γιατί το σκάνε επίτηδες",
+      "Γιατί το χτυπάει κεραυνός",
+      "Γιατί το τρυπούν πουλιά"
+     ],
+     "answer": "Γιατί η πίεση πέφτει και φουσκώνει υπερβολικά",
+     "why": "η πίεση γύρω του πέφτει και το μπαλόνι φουσκώνει"
+    }
+   ],
+   "gloss": {
+    "ραδιοβολίδα": "ραδιοβολίδα — radiosonde",
+    "υγρασία": "υγρασία — humidity",
+    "εκτοξεύσεις": "εκτόξευση — launch",
+    "ραδιοκύματα": "ραδιοκύμα — radio wave",
+    "φουσκώνει": "φουσκώνω — to inflate, expand",
+    "αλεξίπτωτο": "αλεξίπτωτο — parachute"
+   }
+  },
+  {
+   "id": "l202-c1-mono-katara-tis-gnosis",
+   "title": "Η κατάρα της γνώσης",
+   "title_en": "The curse of knowledge",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Μια ψυχολόγος μιλάει σε ένα σεμινάριο για καθηγητές και εκπαιδευτές.",
+   "script": [
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Στα τέλη της δεκαετίας του ογδόντα, μια φοιτήτρια ψυχολογίας στο Στάνφορντ, η Ελίζαμπεθ Νιούτον, έκανε ένα απλό πείραμα. Χώρισε τους συμμετέχοντες σε «χτυπητές» και «ακροατές». Οι χτυπητές διάλεγαν ένα πολύ γνωστό τραγούδι, όπως το «Χρόνια πολλά», και χτυπούσαν τον ρυθμό του πάνω στο τραπέζι. Οι ακροατές έπρεπε να μαντέψουν ποιο ήταν.",
+     "en": "In the late eighties, a psychology student at Stanford, Elizabeth Newton, carried out a simple experiment. She divided the participants into 'tappers' and 'listeners'. The tappers chose a very well-known song, such as 'Happy Birthday', and tapped out its rhythm on the table. The listeners had to guess which it was."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Πριν ξεκινήσουν, οι χτυπητές εκτίμησαν ότι οι ακροατές θα βρίσκουν περίπου το μισό των τραγουδιών. Στην πραγματικότητα, όπως συνήθως αναφέρεται, βρήκαν σωστά μόνο τρία στα εκατόν είκοσι. Η εξήγηση είναι απλή και αμείλικτη: ο χτυπητής ακούει τη μελωδία μέσα στο κεφάλι του και δεν μπορεί να φανταστεί πώς ακούγεται το ίδιο τραγούδι χωρίς αυτήν, ως μια σειρά από ξερά χτυπήματα.",
+     "en": "Before they started, the tappers estimated that the listeners would identify about half of the songs. In reality, as it is usually reported, they correctly identified only three out of a hundred and twenty. The explanation is simple and merciless: the tapper hears the melody in his head and cannot imagine what the same song sounds like without it, as a series of dry knocks."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Αυτό το φαινόμενο ονομάζεται «κατάρα της γνώσης»: μόλις μάθουμε κάτι, μας είναι σχεδόν αδύνατο να θυμηθούμε πώς ήταν να μην το ξέρουμε. Γι' αυτό οι ειδικοί συχνά είναι κακοί δάσκαλοι αρχαρίων. Παραλείπουν βήματα που τους φαίνονται αυτονόητα και χρησιμοποιούν όρους που για τους ίδιους έχουν πάψει να είναι όροι.",
+     "en": "This phenomenon is called the 'curse of knowledge': once we learn something, it is almost impossible for us to remember what it was like not to know it. That is why experts are often poor teachers of beginners. They skip steps that seem self-evident to them and use terms that, for them, have stopped being terms."
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Η καλή είδηση είναι ότι η κατάρα αυτή αντιμετωπίζεται, όχι με περισσότερη γνώση αλλά με περισσότερη επαφή με τον αρχάριο: δοκιμάστε την εξήγησή σας σε κάποιον που δεν ξέρει τίποτα και παρατηρήστε σε ποιο σημείο χάνεται. Εκεί βρίσκεται το βήμα που εσείς έχετε ξεχάσει ότι υπάρχει.",
+     "en": "The good news is that this curse can be countered, not with more knowledge but with more contact with the beginner: try your explanation on someone who knows nothing and watch where they get lost. That is where the step lies that you have forgotten exists."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκαναν οι «χτυπητές» στο πείραμα;",
+     "options": [
+      "Χτυπούσαν τον ρυθμό ενός γνωστού τραγουδιού στο τραπέζι",
+      "Μάντευαν τραγούδια",
+      "Τραγουδούσαν δυνατά",
+      "Έπαιζαν πιάνο"
+     ],
+     "answer": "Χτυπούσαν τον ρυθμό ενός γνωστού τραγουδιού στο τραπέζι",
+     "why": "χτυπούσαν τον ρυθμό του πάνω στο τραπέζι"
+    },
+    {
+     "q": "Πόσο απείχε η εκτίμηση των χτυπητών από το αποτέλεσμα;",
+     "options": [
+      "Ήταν σχεδόν ακριβής",
+      "Περίμεναν περίπου το μισό, ενώ βρέθηκαν μόνο τρία στα εκατόν είκοσι",
+      "Υποτίμησαν τους ακροατές",
+      "Δεν έκαναν καμία εκτίμηση"
+     ],
+     "answer": "Περίμεναν περίπου το μισό, ενώ βρέθηκαν μόνο τρία στα εκατόν είκοσι",
+     "why": "βρήκαν σωστά μόνο τρία στα εκατόν είκοσι"
+    },
+    {
+     "q": "Γιατί, σύμφωνα με την ομιλήτρια, οι ειδικοί είναι συχνά κακοί δάσκαλοι αρχαρίων;",
+     "options": [
+      "Γιατί δεν ξέρουν αρκετά",
+      "Γιατί μιλούν πολύ αργά",
+      "Γιατί παραλείπουν βήματα που τους φαίνονται αυτονόητα",
+      "Γιατί βαριούνται"
+     ],
+     "answer": "Γιατί παραλείπουν βήματα που τους φαίνονται αυτονόητα",
+     "why": "Παραλείπουν βήματα που τους φαίνονται αυτονόητα"
+    },
+    {
+     "q": "Πώς αντιμετωπίζεται η «κατάρα της γνώσης»;",
+     "options": [
+      "Με περισσότερο διάβασμα",
+      "Δοκιμάζοντας την εξήγηση σε έναν αρχάριο και βλέποντας πού χάνεται",
+      "Αποφεύγοντας τους όρους εντελώς",
+      "Με απλούστερα βιβλία"
+     ],
+     "answer": "Δοκιμάζοντας την εξήγηση σε έναν αρχάριο και βλέποντας πού χάνεται",
+     "why": "δοκιμάστε την εξήγησή σας σε κάποιον που δεν ξέρει τίποτα"
+    }
+   ],
+   "gloss": {
+    "κατάρα": "κατάρα — curse",
+    "συμμετέχοντες": "συμμετέχων — participant",
+    "μαντέψουν": "μαντεύω — to guess",
+    "εκτίμησαν": "εκτιμώ — to estimate",
+    "αμείλικτη": "αμείλικτος — merciless, relentless",
+    "αρχαρίων": "αρχάριος — beginner",
+    "αυτονόητα": "αυτονόητος — self-evident"
+   }
+  },
+  {
+   "id": "l202-c1-int-soroban",
+   "title": "Αριθμητική με τον άβακα στο μυαλό",
+   "title_en": "Mental arithmetic with an imaginary abacus",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Συνέντευξη με μια εκπαιδευτικό που διδάσκει νοερή αριθμητική με τον ιαπωνικό άβακα σοροβάν.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Είδα ένα παιδί δέκα χρονών να προσθέτει δεκαπέντε τριψήφιους αριθμούς σε λίγα δευτερόλεπτα, κουνώντας τα δάχτυλά του στον αέρα. Τι ακριβώς έκανε;",
+     "en": "I saw a ten-year-old add fifteen three-digit numbers in a few seconds, moving his fingers in the air. What exactly was he doing?"
+    },
+    {
+     "speaker": "Εκπαιδευτικός",
+     "voice": "f",
+     "el": "Χειριζόταν έναν άβακα που υπάρχει μόνο στο μυαλό του. Τα παιδιά μαθαίνουν πρώτα στο σοροβάν, τον ιαπωνικό άβακα, που έχει σε κάθε στύλο μία χάντρα πάνω, που αξίζει πέντε, και τέσσερις κάτω, που αξίζουν από μία. Μετά από μήνες εξάσκησης, αρκετά από αυτά αρχίζουν να «βλέπουν» τον άβακα με κλειστά μάτια και να μετακινούν νοερά τις χάντρες. Τα δάχτυλα που κουνιούνται είναι το κατάλοιπο της αληθινής κίνησης.",
+     "en": "He was operating an abacus that exists only in his mind. The children first learn on the soroban, the Japanese abacus, which has on each rod one bead above, worth five, and four below, worth one each. After months of practice, quite a few of them begin to 'see' the abacus with their eyes closed and to move the beads mentally. The moving fingers are what remains of the real movement."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Δηλαδή δεν υπολογίζουν όπως εμείς, με αριθμούς και κρατούμενα;",
+     "en": "So they don't calculate like we do, with numbers and carrying?"
+    },
+    {
+     "speaker": "Εκπαιδευτικός",
+     "voice": "f",
+     "el": "Όχι ακριβώς. Είναι μια οπτική και κινητική διαδικασία περισσότερο παρά γλωσσική. Γι' αυτό, παραδόξως, μερικά παιδιά μπορούν να υπολογίζουν και να μιλάνε ταυτόχρονα. Οφείλω όμως να είμαι ειλικρινής: το αν αυτή η δεξιότητα βελτιώνει γενικότερα τα μαθηματικά ή τη συγκέντρωση είναι κάτι που η έρευνα δεν έχει αποδείξει πειστικά. Υπάρχουν ενθαρρυντικές μελέτες, αλλά και πολλές υπερβολές στη διαφήμιση.",
+     "en": "Not exactly. It's a visual and motor process more than a linguistic one. That's why, paradoxically, some children can calculate and talk at the same time. But I must be honest: whether this skill improves mathematics or concentration more generally is something research hasn't convincingly proven. There are encouraging studies, but also a lot of exaggeration in the advertising."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τότε γιατί αξίζει;",
+     "en": "Then why is it worth it?"
+    },
+    {
+     "speaker": "Εκπαιδευτικός",
+     "voice": "f",
+     "el": "Γιατί τα παιδιά νιώθουν ότι οι αριθμοί γίνονται κάτι απτό, σχεδόν παιχνίδι. Ένα παιδί που φοβόταν τα μαθηματικά και ξαφνικά τα απολαμβάνει έχει κερδίσει κάτι που δεν μετριέται εύκολα σε τεστ.",
+     "en": "Because the children feel that numbers become something tangible, almost a game. A child who was afraid of mathematics and suddenly enjoys it has gained something that isn't easily measured in tests."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε το παιδί με τα δάχτυλα στον αέρα;",
+     "options": [
+      "Χειριζόταν έναν άβακα που υπάρχει μόνο στο μυαλό του",
+      "Μετρούσε με τα δάχτυλα",
+      "Χαιρετούσε",
+      "Έγραφε τους αριθμούς"
+     ],
+     "answer": "Χειριζόταν έναν άβακα που υπάρχει μόνο στο μυαλό του",
+     "why": "Χειριζόταν έναν άβακα που υπάρχει μόνο στο μυαλό του"
+    },
+    {
+     "q": "Πόσο αξίζει η πάνω χάντρα σε κάθε στύλο του σοροβάν;",
+     "options": [
+      "Ένα",
+      "Τέσσερα",
+      "Πέντε",
+      "Δέκα"
+     ],
+     "answer": "Πέντε",
+     "why": "μία χάντρα πάνω, που αξίζει πέντε"
+    },
+    {
+     "q": "Γιατί μερικά παιδιά μπορούν να υπολογίζουν και να μιλάνε ταυτόχρονα;",
+     "options": [
+      "Γιατί μαθαίνουν απέξω τα αποτελέσματα",
+      "Γιατί είναι ιδιοφυΐες",
+      "Γιατί χρησιμοποιούν αριθμομηχανή",
+      "Γιατί η διαδικασία είναι κυρίως οπτική και κινητική, όχι γλωσσική"
+     ],
+     "answer": "Γιατί η διαδικασία είναι κυρίως οπτική και κινητική, όχι γλωσσική",
+     "why": "Είναι μια οπτική και κινητική διαδικασία περισσότερο παρά γλωσσική"
+    },
+    {
+     "q": "Τι λέει η εκπαιδευτικός για την έρευνα;",
+     "options": [
+      "Ότι δείχνει βλάβες",
+      "Ότι δεν έχει αποδείξει πειστικά γενικότερα οφέλη",
+      "Ότι δεν υπάρχει καμία μελέτη",
+      "Ότι αποδεικνύει μεγάλα οφέλη"
+     ],
+     "answer": "Ότι δεν έχει αποδείξει πειστικά γενικότερα οφέλη",
+     "why": "η έρευνα δεν έχει αποδείξει πειστικά"
+    }
+   ],
+   "gloss": {
+    "νοερή": "νοερός — mental",
+    "άβακα": "άβακας — abacus",
+    "τριψήφιους": "τριψήφιος — three-digit",
+    "χάντρα": "χάντρα — bead",
+    "στύλο": "στύλος — rod, pillar",
+    "κατάλοιπο": "κατάλοιπο — remnant, residue",
+    "κρατούμενα": "κρατούμενο — carried digit",
+    "απτό": "απτός — tangible"
+   }
+  }
+ ]
+}
