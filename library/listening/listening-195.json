@@ -1,0 +1,779 @@
+{
+ "items": [
+  {
+   "id": "l195-ann-efimerevonta-farmakeia",
+   "title": "Εφημερεύοντα φαρμακεία το Σαββατοκύριακο",
+   "title_en": "Pharmacies on duty this weekend",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Τηλεφωνείτε στη γραμμή του φαρμακευτικού συλλόγου της πόλης σας και ακούτε ένα ηχογραφημένο μήνυμα.",
+   "script": [
+    {
+     "speaker": "Ηχογραφημένη φωνή",
+     "voice": "f",
+     "el": "Καλωσορίσατε στην ενημερωτική γραμμή του Φαρμακευτικού Συλλόγου. Το Σάββατο, από τις οχτώ το πρωί έως τις δύο το μεσημέρι, είναι ανοιχτά όλα τα φαρμακεία της πόλης. Από τις δύο και μετά, εφημερεύουν τα φαρμακεία της οδού Κολοκοτρώνη 12 και της πλατείας Ελευθερίας 3.",
+     "en": "Welcome to the Pharmaceutical Association's information line. On Saturday, from eight in the morning until two in the afternoon, all the city's pharmacies are open. From two onwards, the pharmacies at 12 Kolokotroni Street and 3 Eleftherias Square are on duty."
+    },
+    {
+     "speaker": "Ηχογραφημένη φωνή",
+     "voice": "f",
+     "el": "Την Κυριακή εφημερεύει όλο το εικοσιτετράωρο το φαρμακείο της λεωφόρου Δημοκρατίας 45, απέναντι από το νοσοκομείο. Σας υπενθυμίζουμε ότι μετά τις έντεκα το βράδυ το φαρμακείο εξυπηρετεί μόνο από το παραθυράκι και μόνο για συνταγές και επείγοντα περιστατικά.",
+     "en": "On Sunday the pharmacy at 45 Dimokratias Avenue, opposite the hospital, is on duty around the clock. We remind you that after eleven at night the pharmacy serves only through the small window and only for prescriptions and emergencies."
+    },
+    {
+     "speaker": "Ηχογραφημένη φωνή",
+     "voice": "f",
+     "el": "Για ηλεκτρονικές συνταγές, έχετε μαζί σας τον ΑΜΚΑ σας ή το κινητό στο οποίο λάβατε τον κωδικό. Για να ακούσετε ξανά το μήνυμα, πατήστε το ένα. Για τα εφημερεύοντα φαρμακεία των γύρω χωριών, πατήστε το δύο.",
+     "en": "For electronic prescriptions, have your social security number with you or the mobile on which you received the code. To hear the message again, press one. For the pharmacies on duty in the surrounding villages, press two."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε είναι ανοιχτά όλα τα φαρμακεία το Σάββατο;",
+     "options": [
+      "Από τις οχτώ ως τις δύο",
+      "Μόνο το απόγευμα",
+      "Όλη μέρα",
+      "Καθόλου"
+     ],
+     "answer": "Από τις οχτώ ως τις δύο",
+     "why": "από τις οχτώ το πρωί έως τις δύο το μεσημέρι, είναι ανοιχτά όλα τα φαρμακεία"
+    },
+    {
+     "q": "Πού βρίσκεται το φαρμακείο που εφημερεύει την Κυριακή;",
+     "options": [
+      "Στην οδό Κολοκοτρώνη",
+      "Στην πλατεία Ελευθερίας",
+      "Σε ένα γύρω χωριό",
+      "Απέναντι από το νοσοκομείο"
+     ],
+     "answer": "Απέναντι από το νοσοκομείο",
+     "why": "απέναντι από το νοσοκομείο"
+    },
+    {
+     "q": "Τι ισχύει μετά τις έντεκα το βράδυ;",
+     "options": [
+      "Εξυπηρετεί μόνο από το παραθυράκι για συνταγές και επείγοντα",
+      "Το φαρμακείο κλείνει",
+      "Πουλάει μόνο καλλυντικά",
+      "Χρειάζεται ραντεβού"
+     ],
+     "answer": "Εξυπηρετεί μόνο από το παραθυράκι για συνταγές και επείγοντα",
+     "why": "μετά τις έντεκα το βράδυ το φαρμακείο εξυπηρετεί μόνο από το παραθυράκι"
+    }
+   ],
+   "gloss": {
+    "εφημερεύουν": "εφημερεύω — to be on duty (pharmacy, hospital)",
+    "εικοσιτετράωρο": "εικοσιτετράωρο — twenty-four hours, around the clock",
+    "συνταγές": "συνταγή — prescription",
+    "επείγοντα": "επείγων — urgent; επείγοντα περιστατικά = emergencies",
+    "ΑΜΚΑ": "ΑΜΚΑ — social security number"
+   }
+  },
+  {
+   "id": "l195-int-episkevastis-akordeon",
+   "title": "Ο άνθρωπος που επισκευάζει ακορντεόν",
+   "title_en": "The accordion repairer",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ραδιοφωνική συνέντευξη με έναν τεχνίτη που επισκευάζει ακορντεόν σε ένα μικρό εργαστήριο στη Θεσσαλονίκη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πόσο δύσκολο όργανο είναι το ακορντεόν για έναν επισκευαστή;",
+     "en": "How difficult an instrument is the accordion for a repairer?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Πολύ. Ένα ακορντεόν έχει μέσα του χιλιάδες κομμάτια: γλωττίδες, βαλβίδες, ελατήρια, δέρματα. Αν χαλάσει έστω και ένα, το όργανο ξεκουρδίζεται ή χάνει αέρα. Μερικές φορές για να βρω ένα πρόβλημα χρειάζομαι μια ολόκληρη μέρα, και για να το διορθώσω δέκα λεπτά.",
+     "en": "Very. An accordion has thousands of parts inside: reeds, valves, springs, leathers. If even one breaks, the instrument goes out of tune or loses air. Sometimes I need a whole day to find a problem, and ten minutes to fix it."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ποιοι σας φέρνουν τα όργανά τους;",
+     "en": "Who brings you their instruments?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Κάθε λογής άνθρωποι. Μουσικοί από πανηγύρια, φοιτητές του ωδείου, αλλά και πολλοί που βρήκαν ένα παλιό ακορντεόν στη σοφίτα του παππού. Αυτοί είναι οι πιο συγκινητικοί πελάτες. Δεν τους ενδιαφέρει τόσο αν θα παίζει τέλεια· θέλουν να ξανακούσουν τον ήχο που θυμούνται από παιδιά.",
+     "en": "All sorts of people. Musicians from village festivals, conservatory students, but also many who found an old accordion in their grandfather's attic. Those are the most moving customers. They don't care so much whether it will play perfectly; they want to hear again the sound they remember from childhood."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Υπάρχουν νέοι που θέλουν να μάθουν την τέχνη σας;",
+     "en": "Are there young people who want to learn your craft?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Λίγοι. Η δουλειά θέλει υπομονή και καλό αυτί, και δεν βγάζεις πολλά χρήματα. Πέρσι όμως ήρθε ένα κορίτσι από τη Δράμα, που σπουδάζει μουσική, και μου ζήτησε να μάθει. Έρχεται κάθε Σάββατο. Σε δύο χρόνια ελπίζω να μπορεί να δουλεύει μόνη της.",
+     "en": "Few. The work needs patience and a good ear, and you don't earn much money. But last year a girl from Drama, who studies music, came and asked me to learn. She comes every Saturday. In two years I hope she'll be able to work on her own."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί είναι δύσκολη η επισκευή του ακορντεόν;",
+     "options": [
+      "Γιατί είναι πολύ ακριβό",
+      "Γιατί είναι πολύ βαρύ",
+      "Γιατί έχει χιλιάδες κομμάτια, και αν χαλάσει ένα, επηρεάζεται όλο το όργανο",
+      "Γιατί δεν υπάρχουν ανταλλακτικά"
+     ],
+     "answer": "Γιατί έχει χιλιάδες κομμάτια, και αν χαλάσει ένα, επηρεάζεται όλο το όργανο",
+     "why": "Ένα ακορντεόν έχει μέσα του χιλιάδες κομμάτια"
+    },
+    {
+     "q": "Τι θέλουν κυρίως όσοι φέρνουν το ακορντεόν του παππού τους;",
+     "options": [
+      "Να το βάψουν",
+      "Να παίζει τέλεια",
+      "Να ξανακούσουν τον ήχο που θυμούνται",
+      "Να το πουλήσουν"
+     ],
+     "answer": "Να ξανακούσουν τον ήχο που θυμούνται",
+     "why": "θέλουν να ξανακούσουν τον ήχο που θυμούνται από παιδιά"
+    },
+    {
+     "q": "Ποια είναι η νέα του μαθήτρια;",
+     "options": [
+      "Μια πελάτισσα",
+      "Η κόρη του",
+      "Μια μουσικός από πανηγύρια",
+      "Μια φοιτήτρια μουσικής από τη Δράμα"
+     ],
+     "answer": "Μια φοιτήτρια μουσικής από τη Δράμα",
+     "why": "ήρθε ένα κορίτσι από τη Δράμα, που σπουδάζει μουσική"
+    }
+   ],
+   "gloss": {
+    "γλωττίδες": "γλωττίδα — reed (of an instrument)",
+    "βαλβίδες": "βαλβίδα — valve",
+    "ελατήρια": "ελατήριο — spring",
+    "ξεκουρδίζεται": "ξεκουρδίζομαι — to go out of tune",
+    "σοφίτα": "σοφίτα — attic",
+    "ωδείου": "ωδείο — music school, conservatory"
+   }
+  },
+  {
+   "id": "l195-vm-plyntirio",
+   "title": "Μήνυμα από το πλυντήριο αυτοκινήτων",
+   "title_en": "A message from the car wash",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Αφήσατε το αυτοκίνητό σας για εσωτερικό και εξωτερικό καθαρισμό. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Καλημέρα σας, από το πλυντήριο της οδού Τσιμισκή σας παίρνω, για το γκρι αυτοκίνητο που μας αφήσατε το πρωί. Καθαρίζοντας το εσωτερικό, βρήκαμε κάτω από το κάθισμα του οδηγού ένα χρυσό σκουλαρίκι. Το έχουμε βάλει σε ένα φακελάκι στο ταμείο, για να μη χαθεί.",
+     "en": "Good morning, I'm calling from the car wash on Tsimiski Street, about the grey car you left with us this morning. While cleaning the interior, we found a gold earring under the driver's seat. We've put it in a little envelope at the till, so it doesn't get lost."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Επίσης, όταν το πλύναμε, είδαμε ότι στο παρμπρίζ, κάτω δεξιά, υπάρχει μια μικρή ρωγμή, σαν από πετραδάκι. Δεν την κάναμε εμείς, ήταν ήδη εκεί, αλλά σας το λέμε γιατί με το κρύο τέτοιες ρωγμές συχνά μεγαλώνουν. Ένα συνεργείο μπορεί να τη γεμίσει με ειδική ρητίνη, χωρίς να αλλάξετε όλο το τζάμι.",
+     "en": "Also, when we washed it, we saw that on the windscreen, at the bottom right, there's a small crack, as if from a little stone. We didn't do it, it was already there, but we're telling you because in the cold such cracks often grow. A garage can fill it with special resin, without you having to change the whole glass."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Το αυτοκίνητο θα είναι έτοιμο στις δώδεκα, όχι στις έντεκα όπως σας είχαμε πει, γιατί καθυστέρησε ο καθαρισμός των καθισμάτων. Κλείνουμε στις οχτώ. Ευχαριστούμε.",
+     "en": "The car will be ready at twelve, not at eleven as we told you, because cleaning the seats took longer. We close at eight. Thank you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι βρήκαν στο αυτοκίνητο;",
+     "options": [
+      "Ένα κινητό",
+      "Ένα πορτοφόλι",
+      "Ένα κλειδί",
+      "Ένα χρυσό σκουλαρίκι"
+     ],
+     "answer": "Ένα χρυσό σκουλαρίκι",
+     "why": "βρήκαμε κάτω από το κάθισμα του οδηγού ένα χρυσό σκουλαρίκι"
+    },
+    {
+     "q": "Τι λέει ο υπάλληλος για τη ρωγμή στο παρμπρίζ;",
+     "options": [
+      "Ότι ήταν ήδη εκεί και μπορεί να μεγαλώσει με το κρύο",
+      "Ότι δεν είναι τίποτα σοβαρό",
+      "Ότι πρέπει να αλλάξει όλο το τζάμι",
+      "Ότι την έκαναν κατά λάθος"
+     ],
+     "answer": "Ότι ήταν ήδη εκεί και μπορεί να μεγαλώσει με το κρύο",
+     "why": "με το κρύο τέτοιες ρωγμές συχνά μεγαλώνουν"
+    },
+    {
+     "q": "Γιατί καθυστερεί το αυτοκίνητο;",
+     "options": [
+      "Γιατί καθυστέρησε ο καθαρισμός των καθισμάτων",
+      "Γιατί χάλασε το μηχάνημα",
+      "Γιατί έψαχναν τον ιδιοκτήτη του σκουλαρικιού",
+      "Γιατί δεν υπάρχει προσωπικό"
+     ],
+     "answer": "Γιατί καθυστέρησε ο καθαρισμός των καθισμάτων",
+     "why": "γιατί καθυστέρησε ο καθαρισμός των καθισμάτων"
+    }
+   ],
+   "gloss": {
+    "σκουλαρίκι": "σκουλαρίκι — earring",
+    "παρμπρίζ": "παρμπρίζ — windscreen",
+    "ρωγμή": "ρωγμή — crack",
+    "ρητίνη": "ρητίνη — resin",
+    "ταμείο": "ταμείο — till, cash desk"
+   }
+  },
+  {
+   "id": "l195-mono-jet-lag",
+   "title": "Πώς νίκησα το τζετ λαγκ",
+   "title_en": "How I beat jet lag",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Μια νοσηλεύτρια μιλά σε ένα ταξιδιωτικό podcast για το ταξίδι της στον Καναδά.",
+   "script": [
+    {
+     "speaker": "Ζωή",
+     "voice": "f",
+     "el": "Πέρσι τα Χριστούγεννα πήγα να δω την αδελφή μου στο Βανκούβερ. Δέκα ώρες διαφορά. Την πρώτη εβδομάδα ξυπνούσα στις τρεις τα ξημερώματα, πεινασμένη και ολόξυπνη, και στις έξι το απόγευμα κοιμόμουν πάνω στο πιάτο μου. Η αδελφή μου γελούσε, εγώ καθόλου.",
+     "en": "Last Christmas I went to see my sister in Vancouver. Ten hours' difference. The first week I would wake up at three in the morning, hungry and wide awake, and at six in the evening I'd fall asleep over my plate. My sister laughed; I didn't at all."
+    },
+    {
+     "speaker": "Ζωή",
+     "voice": "f",
+     "el": "Στην επιστροφή αποφάσισα να το πάρω πιο σοβαρά. Δουλεύω σε βάρδιες, οπότε ξέρω κάτι για τον ύπνο. Τρεις μέρες πριν φύγω, άρχισα να πηγαίνω για ύπνο λίγο νωρίτερα κάθε βράδυ. Στο αεροπλάνο έβαλα το ρολόι μου αμέσως στην ώρα της Ελλάδας και έφαγα και κοιμήθηκα σύμφωνα με αυτήν.",
+     "en": "On the way back I decided to take it more seriously. I work shifts, so I know something about sleep. Three days before leaving, I started going to bed a little earlier every evening. On the plane I set my watch straight away to Greek time and ate and slept according to it."
+    },
+    {
+     "speaker": "Ζωή",
+     "voice": "f",
+     "el": "Το πιο σημαντικό όμως ήταν το φως. Την πρώτη μέρα στην Αθήνα, όσο κι αν νύσταζα, βγήκα για περπάτημα στον ήλιο το πρωί και δεν κοιμήθηκα το μεσημέρι. Και τον καφέ τον σταμάτησα μετά τις δύο. Μέσα σε τρεις μέρες ήμουν εντάξει. Δεν λέω ότι είναι μαγική συνταγή, αλλά σε μένα δούλεψε.",
+     "en": "But the most important thing was light. On the first day in Athens, however sleepy I was, I went out for a walk in the sun in the morning and didn't sleep at midday. And I stopped coffee after two. Within three days I was fine. I'm not saying it's a magic recipe, but it worked for me."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι της συνέβαινε την πρώτη εβδομάδα στο Βανκούβερ;",
+     "options": [
+      "Αρρώστησε",
+      "Δεν μπορούσε να φάει",
+      "Δεν κοιμόταν καθόλου",
+      "Ξυπνούσε τα ξημερώματα και νύσταζε νωρίς το απόγευμα"
+     ],
+     "answer": "Ξυπνούσε τα ξημερώματα και νύσταζε νωρίς το απόγευμα",
+     "why": "ξυπνούσα στις τρεις τα ξημερώματα, πεινασμένη και ολόξυπνη, και στις έξι το απόγευμα κοιμόμουν"
+    },
+    {
+     "q": "Τι έκανε στο αεροπλάνο της επιστροφής;",
+     "options": [
+      "Κοιμήθηκε όλη την ώρα",
+      "Έβαλε το ρολόι της στην ώρα της Ελλάδας",
+      "Ήπιε πολλούς καφέδες",
+      "Δεν έφαγε τίποτα"
+     ],
+     "answer": "Έβαλε το ρολόι της στην ώρα της Ελλάδας",
+     "why": "Στο αεροπλάνο έβαλα το ρολόι μου αμέσως στην ώρα της Ελλάδας"
+    },
+    {
+     "q": "Τι θεωρεί πιο σημαντικό;",
+     "options": [
+      "Το φαγητό",
+      "Τον μεσημεριανό ύπνο",
+      "Τα χάπια",
+      "Το φως"
+     ],
+     "answer": "Το φως",
+     "why": "Το πιο σημαντικό όμως ήταν το φως"
+    }
+   ],
+   "gloss": {
+    "ξημερώματα": "ξημερώματα — early morning hours",
+    "ολόξυπνη": "ολόξυπνος — wide awake",
+    "βάρδιες": "βάρδια — shift",
+    "νύσταζα": "νυστάζω — to be sleepy",
+    "συνταγή": "συνταγή — recipe"
+   }
+  },
+  {
+   "id": "l195-dia-chronos-diakopis",
+   "title": "Ένας χρόνος διάλειμμα πριν από το πανεπιστήμιο;",
+   "title_en": "A gap year before university?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Δύο γονείς συζητούν την ιδέα του γιου τους να κάνει ένα χρόνο διάλειμμα πριν αρχίσει τις σπουδές του.",
+   "script": [
+    {
+     "speaker": "Αργύρης",
+     "voice": "m",
+     "el": "Ο Στέλιος μού είπε χθες ότι θέλει να αναβάλει την εγγραφή του στο πανεπιστήμιο για έναν χρόνο. Λέει ότι θέλει να δουλέψει σε μια φάρμα στη Νέα Ζηλανδία. Νομίζω ότι θα χάσει τον ρυθμό του και δεν θα ξαναγυρίσει στο διάβασμα.",
+     "en": "Stelios told me yesterday that he wants to postpone his enrolment at university for a year. He says he wants to work on a farm in New Zealand. I think he'll lose his rhythm and won't go back to studying."
+    },
+    {
+     "speaker": "Μαρίνα",
+     "voice": "f",
+     "el": "Κι εγώ ανησύχησα στην αρχή. Αλλά σκέψου πώς πέρασε τους τελευταίους δύο χρόνους: φροντιστήριο ως τις δέκα το βράδυ, Σαββατοκύριακα με βιβλία. Είναι εξαντλημένος. Και δεν είναι καν σίγουρος ότι του αρέσει η σχολή που πέρασε.",
+     "en": "I was worried too at first. But think how he spent the last two years: cram school until ten at night, weekends with books. He's exhausted. And he isn't even sure he likes the department he got into."
+    },
+    {
+     "speaker": "Αργύρης",
+     "voice": "m",
+     "el": "Κι αν δεν του αρέσει, τι θα κάνει; Θα ξαναδώσει εξετάσεις;",
+     "en": "And if he doesn't like it, what will he do? Sit the exams again?"
+    },
+    {
+     "speaker": "Μαρίνα",
+     "voice": "f",
+     "el": "Ίσως. Αλλά καλύτερα να το καταλάβει τώρα παρά στο τρίτο έτος. Ρώτησα στη γραμματεία της σχολής: μπορεί να ζητήσει αναστολή φοίτησης, και η θέση του κρατιέται. Και τα έξοδα του ταξιδιού θα τα βγάλει μόνος του, από τη δουλειά στη φάρμα.",
+     "en": "Maybe. But better he realises it now than in the third year. I asked at the department office: he can request a suspension of studies, and his place is kept. And he'll cover the travel costs himself, from the farm job."
+    },
+    {
+     "speaker": "Αργύρης",
+     "voice": "m",
+     "el": "Καλά. Αλλά με έναν όρο: να μας στέλνει νέα κάθε εβδομάδα, και τον Σεπτέμβριο του χρόνου να είναι στο αμφιθέατρο.",
+     "en": "All right. But on one condition: he sends us news every week, and next September he's in the lecture hall."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι φοβάται ο Αργύρης;",
+     "options": [
+      "Ότι το ταξίδι θα είναι πολύ ακριβό",
+      "Ότι θα χάσει τον ρυθμό του και δεν θα ξαναγυρίσει στο διάβασμα",
+      "Ότι ο γιος του θα μείνει για πάντα στη Νέα Ζηλανδία",
+      "Ότι θα χάσει τη θέση του"
+     ],
+     "answer": "Ότι θα χάσει τον ρυθμό του και δεν θα ξαναγυρίσει στο διάβασμα",
+     "why": "θα χάσει τον ρυθμό του και δεν θα ξαναγυρίσει στο διάβασμα"
+    },
+    {
+     "q": "Τι έμαθε η Μαρίνα από τη γραμματεία;",
+     "options": [
+      "Ότι δεν επιτρέπεται διάλειμμα",
+      "Ότι πρέπει να πληρώσει δίδακτρα",
+      "Ότι πρέπει να ξαναδώσει εξετάσεις",
+      "Ότι μπορεί να ζητήσει αναστολή φοίτησης και η θέση του κρατιέται"
+     ],
+     "answer": "Ότι μπορεί να ζητήσει αναστολή φοίτησης και η θέση του κρατιέται",
+     "why": "μπορεί να ζητήσει αναστολή φοίτησης, και η θέση του κρατιέται"
+    },
+    {
+     "q": "Ποιον όρο βάζει ο Αργύρης;",
+     "options": [
+      "Να του στέλνει χρήματα",
+      "Να στέλνει νέα κάθε εβδομάδα και να γυρίσει για τις σπουδές τον Σεπτέμβριο",
+      "Να μείνει μόνο έξι μήνες",
+      "Να μην ταξιδέψει μόνος"
+     ],
+     "answer": "Να στέλνει νέα κάθε εβδομάδα και να γυρίσει για τις σπουδές τον Σεπτέμβριο",
+     "why": "να μας στέλνει νέα κάθε εβδομάδα"
+    }
+   ],
+   "gloss": {
+    "αναβάλει": "αναβάλλω — to postpone",
+    "εγγραφή": "εγγραφή — enrolment, registration",
+    "εξαντλημένος": "εξαντλημένος — exhausted",
+    "αναστολή": "αναστολή φοίτησης — suspension of studies",
+    "αμφιθέατρο": "αμφιθέατρο — lecture hall"
+   }
+  },
+  {
+   "id": "l195-rep-scholeio-choris-ergasies",
+   "title": "Ένα σχολείο χωρίς εργασίες για το σπίτι",
+   "title_en": "A school without homework",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ρεπορτάζ για ένα δημοτικό σχολείο που δοκιμάζει να μη δίνει εργασίες για το σπίτι.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Στο δημοτικό σχολείο μιας μικρής πόλης της Αχαΐας, οι μαθητές φεύγουν το μεσημέρι με ελαφριές τσάντες. Από τον Σεπτέμβριο, ο σύλλογος διδασκόντων αποφάσισε, σε συνεννόηση με τους γονείς, να καταργήσει δοκιμαστικά τις γραπτές εργασίες για το σπίτι.",
+     "en": "At the primary school of a small town in Achaea, the pupils leave at midday with light bags. Since September, the teachers' council has decided, in agreement with the parents, to abolish written homework on a trial basis."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Αυτό δεν σημαίνει ότι τα παιδιά δεν κάνουν τίποτα στο σπίτι. Η διευθύντρια εξηγεί ότι τους ζητούν να διαβάζουν είκοσι λεπτά την ημέρα ένα βιβλίο της επιλογής τους, και να βοηθούν σε μια δουλειά του σπιτιού. Τις ασκήσεις τις κάνουν στην τάξη, όπου ο δάσκαλος μπορεί να δει αμέσως πού δυσκολεύεται ο καθένας.",
+     "en": "That doesn't mean the children do nothing at home. The head teacher explains that they ask them to read a book of their choice for twenty minutes a day, and to help with a household chore. They do the exercises in class, where the teacher can see straight away where each one is struggling."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι γονείς είναι μοιρασμένοι. Μια μητέρα λέει ότι τα απογεύματα στο σπίτι της έγιναν επιτέλους ήρεμα, χωρίς καβγάδες πάνω από τα τετράδια. Ένας πατέρας όμως ανησυχεί ότι η κόρη του δεν θα είναι έτοιμη για το γυμνάσιο, όπου οι εργασίες είναι πολλές.",
+     "en": "The parents are divided. A mother says afternoons at her home have finally become calm, without arguments over exercise books. A father, though, worries that his daughter won't be ready for secondary school, where there's a lot of homework."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Οι έρευνες για το θέμα δεν δίνουν ξεκάθαρη απάντηση, και γι' αυτό το σχολείο θα αξιολογήσει την προσπάθεια στο τέλος της χρονιάς, με τεστ και ερωτηματολόγια για μαθητές και γονείς.",
+     "en": "Research on the subject doesn't give a clear answer, which is why the school will evaluate the effort at the end of the year, with tests and questionnaires for pupils and parents."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ζητούν από τους μαθητές να κάνουν στο σπίτι;",
+     "options": [
+      "Να λύνουν ασκήσεις μαθηματικών",
+      "Να διαβάζουν είκοσι λεπτά και να βοηθούν σε μια δουλειά του σπιτιού",
+      "Τίποτα απολύτως",
+      "Να γράφουν έκθεση κάθε μέρα"
+     ],
+     "answer": "Να διαβάζουν είκοσι λεπτά και να βοηθούν σε μια δουλειά του σπιτιού",
+     "why": "τους ζητούν να διαβάζουν είκοσι λεπτά την ημέρα"
+    },
+    {
+     "q": "Γιατί κάνουν τις ασκήσεις στην τάξη;",
+     "options": [
+      "Γιατί δεν έχουν βιβλία στο σπίτι",
+      "Γιατί το ζήτησε το υπουργείο",
+      "Για να βλέπει ο δάσκαλος αμέσως πού δυσκολεύεται ο καθένας",
+      "Για να τελειώνουν πιο γρήγορα"
+     ],
+     "answer": "Για να βλέπει ο δάσκαλος αμέσως πού δυσκολεύεται ο καθένας",
+     "why": "ο δάσκαλος μπορεί να δει αμέσως πού δυσκολεύεται ο καθένας"
+    },
+    {
+     "q": "Τι ανησυχεί έναν πατέρα;",
+     "options": [
+      "Ότι η κόρη του δεν θα είναι έτοιμη για το γυμνάσιο",
+      "Ότι δεν βλέπει τα τετράδια",
+      "Ότι το σχολείο θα κλείσει",
+      "Ότι η κόρη του βαριέται"
+     ],
+     "answer": "Ότι η κόρη του δεν θα είναι έτοιμη για το γυμνάσιο",
+     "why": "η κόρη του δεν θα είναι έτοιμη για το γυμνάσιο"
+    }
+   ],
+   "gloss": {
+    "διδασκόντων": "σύλλογος διδασκόντων — teachers' council",
+    "καταργήσει": "καταργώ — to abolish",
+    "δοκιμαστικά": "δοκιμαστικά — on a trial basis",
+    "μοιρασμένοι": "μοιρασμένος — divided",
+    "αξιολογήσει": "αξιολογώ — to evaluate",
+    "ερωτηματολόγια": "ερωτηματολόγιο — questionnaire"
+   }
+  },
+  {
+   "id": "l195-rep-skeitparko-efivon",
+   "title": "Το σκέιτπαρκ που έφτιαξαν οι έφηβοι",
+   "title_en": "The skatepark the teenagers built",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ρεπορτάζ για ένα σκέιτπαρκ που σχεδίασαν και έφτιαξαν οι ίδιοι οι νέοι μιας γειτονιάς.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Για χρόνια, τα παιδιά με τα σκέιτμπορντ έκαναν τα κόλπα τους στα σκαλιά του δημαρχείου, και οι υπάλληλοι τα έδιωχναν σχεδόν κάθε απόγευμα. Πριν από δύο χρόνια, μια παρέα δεκαπεντάχρονων πήγε στο δημοτικό συμβούλιο με ένα σχέδιο ζωγραφισμένο σε χαρτόνι.",
+     "en": "For years, the kids with skateboards did their tricks on the town hall steps, and the staff chased them away almost every afternoon. Two years ago, a group of fifteen-year-olds went to the town council with a plan drawn on cardboard."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Ο δήμος τούς παραχώρησε ένα εγκαταλελειμμένο γήπεδο μπάσκετ και πλήρωσε το τσιμέντο. Τα υπόλοιπα τα έκαναν οι ίδιοι, με τη βοήθεια ενός πολιτικού μηχανικού, πατέρα ενός από τα παιδιά. Δούλευαν τα Σαββατοκύριακα για έναν ολόκληρο χειμώνα.",
+     "en": "The municipality gave them an abandoned basketball court and paid for the cement. They did the rest themselves, with the help of a civil engineer, the father of one of the kids. They worked at weekends for a whole winter."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Σήμερα το σκέιτπαρκ είναι γεμάτο από το μεσημέρι ως το βράδυ, και όχι μόνο με αγόρια. Οι ίδιοι οι νέοι έχουν γράψει τους κανόνες: κράνος για τους κάτω των δώδεκα, κανένα σκουπίδι στο έδαφος, και οι μεγαλύτεροι μαθαίνουν τους μικρότερους.",
+     "en": "Today the skatepark is full from midday until the evening, and not only with boys. The young people themselves have written the rules: helmets for under-twelves, no rubbish on the ground, and the older ones teach the younger ones."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η μόνη που λείπει είναι η ησυχία στο δημαρχείο, λέει χαμογελώντας ένας υπάλληλος. Ο δήμαρχος σκέφτεται τώρα να ρωτήσει τους εφήβους και για τη νέα παιδική χαρά.",
+     "en": "The only thing missing is the noise at the town hall, says one of the staff with a smile. The mayor is now thinking of asking the teenagers about the new playground too."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού έκαναν παλιά τα κόλπα τους τα παιδιά;",
+     "options": [
+      "Στο γήπεδο του σχολείου",
+      "Στα σκαλιά του δημαρχείου",
+      "Στην παραλία",
+      "Στην παιδική χαρά"
+     ],
+     "answer": "Στα σκαλιά του δημαρχείου",
+     "why": "έκαναν τα κόλπα τους στα σκαλιά του δημαρχείου"
+    },
+    {
+     "q": "Τι έδωσε ο δήμος;",
+     "options": [
+      "Ένα εγκαταλελειμμένο γήπεδο και το τσιμέντο",
+      "Τίποτα",
+      "Χρήματα για σκέιτμπορντ",
+      "Έναν προπονητή"
+     ],
+     "answer": "Ένα εγκαταλελειμμένο γήπεδο και το τσιμέντο",
+     "why": "Ο δήμος τούς παραχώρησε ένα εγκαταλελειμμένο γήπεδο μπάσκετ και πλήρωσε το τσιμέντο"
+    },
+    {
+     "q": "Ποιος από τους κανόνες αναφέρεται;",
+     "options": [
+      "Το πάρκο κλείνει στις έξι",
+      "Κανείς κάτω των δώδεκα δεν μπαίνει",
+      "Οι μεγαλύτεροι μαθαίνουν τους μικρότερους",
+      "Απαγορεύεται η μουσική"
+     ],
+     "answer": "Οι μεγαλύτεροι μαθαίνουν τους μικρότερους",
+     "why": "οι μεγαλύτεροι μαθαίνουν τους μικρότερους"
+    }
+   ],
+   "gloss": {
+    "κόλπα": "κόλπο — trick",
+    "παραχώρησε": "παραχωρώ — to grant, hand over",
+    "εγκαταλελειμμένο": "εγκαταλελειμμένος — abandoned",
+    "τσιμέντο": "τσιμέντο — cement",
+    "κράνος": "κράνος — helmet"
+   }
+  },
+  {
+   "id": "l195-news-chalazi-stin-poli",
+   "title": "Χαλάζι στην πόλη: ζημιές σε εκατοντάδες αυτοκίνητα",
+   "title_en": "Hail in the city: hundreds of cars damaged",
+   "type": "news",
+   "level": "B2",
+   "context_el": "Είδηση από τοπικό δελτίο ειδήσεων μετά από μια σύντομη αλλά έντονη χαλαζόπτωση.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Σύντομη αλλά πολύ έντονη χαλαζόπτωση έπληξε χθες το απόγευμα το κέντρο της Λάρισας. Για περίπου δέκα λεπτά έπεφταν κόκκοι χαλαζιού σε μέγεθος καρυδιού, που προκάλεσαν ζημιές σε εκατοντάδες σταθμευμένα αυτοκίνητα και έσπασαν τζάμια σε καταστήματα.",
+     "en": "A short but very intense hailstorm hit the centre of Larissa yesterday afternoon. For about ten minutes hailstones the size of walnuts fell, causing damage to hundreds of parked cars and breaking shop windows."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Η πυροσβεστική δέχτηκε πάνω από ογδόντα κλήσεις, κυρίως για πλημμυρισμένα υπόγεια και φρεάτια που βούλωσαν από τα φύλλα και τον πάγο. Δεν αναφέρθηκαν τραυματισμοί.",
+     "en": "The fire service received more than eighty calls, mainly for flooded basements and drains blocked by leaves and ice. No injuries were reported."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Η Ένωση Ασφαλιστικών Εταιρειών υπενθυμίζει ότι οι ζημιές από χαλάζι καλύπτονται μόνο αν το συμβόλαιο περιλαμβάνει την κάλυψη για φυσικά φαινόμενα. Οι ιδιοκτήτες συνιστάται να φωτογραφίσουν τις ζημιές πριν από οποιαδήποτε επισκευή και να τις δηλώσουν μέσα σε λίγες ημέρες.",
+     "en": "The Association of Insurance Companies reminds that hail damage is covered only if the policy includes cover for natural phenomena. Owners are advised to photograph the damage before any repair and to report it within a few days."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Σύμφωνα με τους μετεωρολόγους, ο καιρός θα παραμείνει άστατος και αύριο, με πιθανότητα για καταιγίδες κυρίως τις απογευματινές ώρες.",
+     "en": "According to meteorologists, the weather will remain unsettled tomorrow too, with a chance of storms, mainly in the afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο κράτησε η χαλαζόπτωση;",
+     "options": [
+      "Μία ώρα",
+      "Όλη τη νύχτα",
+      "Όλο το απόγευμα",
+      "Περίπου δέκα λεπτά"
+     ],
+     "answer": "Περίπου δέκα λεπτά",
+     "why": "Για περίπου δέκα λεπτά έπεφταν κόκκοι χαλαζιού"
+    },
+    {
+     "q": "Για ποιο λόγο κλήθηκε κυρίως η πυροσβεστική;",
+     "options": [
+      "Για πλημμυρισμένα υπόγεια και βουλωμένα φρεάτια",
+      "Για φωτιές",
+      "Για τραυματίες",
+      "Για πεσμένα δέντρα"
+     ],
+     "answer": "Για πλημμυρισμένα υπόγεια και βουλωμένα φρεάτια",
+     "why": "κυρίως για πλημμυρισμένα υπόγεια και φρεάτια"
+    },
+    {
+     "q": "Πότε καλύπτονται οι ζημιές από χαλάζι;",
+     "options": [
+      "Μόνο αν το συμβόλαιο περιλαμβάνει κάλυψη για φυσικά φαινόμενα",
+      "Μόνο για καινούργια αυτοκίνητα",
+      "Ποτέ",
+      "Πάντα"
+     ],
+     "answer": "Μόνο αν το συμβόλαιο περιλαμβάνει κάλυψη για φυσικά φαινόμενα",
+     "why": "καλύπτονται μόνο αν το συμβόλαιο περιλαμβάνει την κάλυψη για φυσικά φαινόμενα"
+    }
+   ],
+   "gloss": {
+    "χαλαζόπτωση": "χαλαζόπτωση — hailstorm",
+    "χαλαζιού": "χαλάζι — hail",
+    "φρεάτια": "φρεάτιο — drain, manhole",
+    "συμβόλαιο": "συμβόλαιο — (insurance) policy, contract",
+    "άστατος": "άστατος — unsettled, changeable"
+   }
+  },
+  {
+   "id": "l195-c1-int-giati-gourgourizei-to-stomachi",
+   "title": "Γιατί γουργουρίζει το στομάχι;",
+   "title_en": "Why does the stomach rumble?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Συνέντευξη με γαστρεντερολόγο σε ραδιοφωνική εκπομπή για την υγεία.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Γιατρέ, όλοι έχουμε βρεθεί σε μια σιωπηλή αίθουσα συσκέψεων όταν το στομάχι μας αποφασίζει να μιλήσει. Τι ακριβώς συμβαίνει;",
+     "en": "Doctor, we've all found ourselves in a silent meeting room when our stomach decides to speak. What exactly is happening?"
+    },
+    {
+     "speaker": "Γαστρεντερολόγος",
+     "voice": "m",
+     "el": "Το γουργουρητό είναι απλώς ο ήχος από τη μετακίνηση αερίων και υγρών μέσα στο έντερο και στο στομάχι. Τα τοιχώματά τους συσπώνται ρυθμικά, για να προωθούν την τροφή, και όπου υπάρχει αέρας μαζί με υγρό, η κίνηση αυτή ακούγεται. Δεν είναι, λοιπόν, ένδειξη ότι κάτι πάει στραβά.",
+     "en": "The rumbling is simply the sound of gas and fluids moving inside the intestine and the stomach. Their walls contract rhythmically to push food along, and wherever there's air together with fluid, that movement is audible. So it's not a sign that something is wrong."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Τότε γιατί το συνδέουμε με την πείνα;",
+     "en": "Then why do we associate it with hunger?"
+    },
+    {
+     "speaker": "Γαστρεντερολόγος",
+     "voice": "m",
+     "el": "Γιατί όταν το στομάχι είναι άδειο για αρκετές ώρες, ενεργοποιείται ένα κύμα συσπάσεων που λειτουργεί σαν σκούπα: καθαρίζει ό,τι υπολείμματα έχουν μείνει. Επειδή δεν υπάρχει τροφή να «απορροφήσει» τον ήχο, το γουργουρητό είναι πιο δυνατό. Ταυτόχρονα, ορμόνες που σχετίζονται με την πείνα φαίνεται ότι ενισχύουν αυτές τις κινήσεις. Θα έλεγα όμως ότι η σχέση πείνας και ήχου δεν είναι τόσο απλή όσο νομίζουμε: το στομάχι γουργουρίζει και μετά το φαγητό, απλώς τότε δεν το ακούμε τόσο καθαρά.",
+     "en": "Because when the stomach has been empty for several hours, a wave of contractions is triggered that works like a vacuum cleaner: it clears out whatever remnants are left. Since there's no food to 'absorb' the sound, the rumbling is louder. At the same time, hormones linked to hunger seem to strengthen these movements. I would say, though, that the relationship between hunger and sound isn't as simple as we think: the stomach rumbles after eating too, we just don't hear it as clearly then."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Και πότε πρέπει να ανησυχήσουμε;",
+     "en": "And when should we worry?"
+    },
+    {
+     "speaker": "Γαστρεντερολόγος",
+     "voice": "m",
+     "el": "Το γουργουρητό από μόνο του σχεδόν ποτέ δεν είναι πρόβλημα. Αν όμως συνοδεύεται από πόνο, φούσκωμα που δεν περνά, διάρροια ή απώλεια βάρους, τότε αξίζει να το δει ένας γιατρός. Και για τη σύσκεψη, η καλύτερη συμβουλή είναι η πιο απλή: ένα μικρό σνακ μία ώρα πριν.",
+     "en": "Rumbling on its own is almost never a problem. But if it comes with pain, bloating that doesn't go away, diarrhoea or weight loss, then it's worth having a doctor look at it. And for the meeting, the best advice is the simplest: a small snack an hour before."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι είναι, σύμφωνα με τον γιατρό, το γουργουρητό;",
+     "options": [
+      "Ο ήχος της πέψης των λιπαρών",
+      "Ένδειξη ασθένειας",
+      "Ο ήχος από τη μετακίνηση αερίων και υγρών στο έντερο και στο στομάχι",
+      "Μια αντίδραση στο άγχος"
+     ],
+     "answer": "Ο ήχος από τη μετακίνηση αερίων και υγρών στο έντερο και στο στομάχι",
+     "why": "είναι απλώς ο ήχος από τη μετακίνηση αερίων και υγρών"
+    },
+    {
+     "q": "Γιατί το γουργουρητό είναι πιο δυνατό όταν το στομάχι είναι άδειο;",
+     "options": [
+      "Γιατί το στομάχι μικραίνει",
+      "Γιατί σταματούν οι συσπάσεις",
+      "Γιατί δεν υπάρχει τροφή να απορροφήσει τον ήχο",
+      "Γιατί πίνουμε περισσότερο νερό"
+     ],
+     "answer": "Γιατί δεν υπάρχει τροφή να απορροφήσει τον ήχο",
+     "why": "Επειδή δεν υπάρχει τροφή να «απορροφήσει» τον ήχο"
+    },
+    {
+     "q": "Πώς παρουσιάζει ο γιατρός τη σχέση πείνας και γουργουρητού;",
+     "options": [
+      "Ως πιο περίπλοκη απ' ό,τι νομίζουμε",
+      "Ως άγνωστη στην επιστήμη",
+      "Ως απόλυτα απλή",
+      "Ως ανύπαρκτη"
+     ],
+     "answer": "Ως πιο περίπλοκη απ' ό,τι νομίζουμε",
+     "why": "η σχέση πείνας και ήχου δεν είναι τόσο απλή όσο νομίζουμε"
+    }
+   ],
+   "gloss": {
+    "γουργουρητό": "γουργουρητό — rumbling",
+    "συσπώνται": "συσπώμαι — to contract",
+    "προωθούν": "προωθώ — to push forward, propel",
+    "υπολείμματα": "υπόλειμμα — remnant, residue",
+    "φούσκωμα": "φούσκωμα — bloating"
+   }
+  },
+  {
+   "id": "l195-c1-mono-anatrichila",
+   "title": "Ανατριχίλα: μια κληρονομιά από τους προγόνους μας",
+   "title_en": "Goosebumps: a legacy from our ancestors",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Απόσπασμα από εκπομπή εκλαΐκευσης της επιστήμης για την ανατριχίλα.",
+   "script": [
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Βγαίνουμε από τη θάλασσα και φυσάει, ή ακούμε ένα τραγούδι που μας συγκινεί, και ξαφνικά το δέρμα μας γεμίζει μικρά εξογκώματα και οι τρίχες σηκώνονται. Τα ελληνικά έχουν για αυτό μια ωραία έκφραση: «μου σηκώθηκε η τρίχα».",
+     "en": "We come out of the sea and the wind is blowing, or we hear a song that moves us, and suddenly our skin is covered in little bumps and the hairs stand up. Greek has a nice expression for this: 'my hair stood up'."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Ο μηχανισμός είναι απλός. Στη βάση κάθε τρίχας υπάρχει ένας μικροσκοπικός μυς. Όταν το νευρικό σύστημα δώσει το σήμα, αυτός ο μυς συσπάται, η τρίχα ορθώνεται και το δέρμα γύρω της φουσκώνει λίγο. Το σήμα δεν το ελέγχουμε εμείς· είναι μέρος του λεγόμενου αυτόνομου νευρικού συστήματος, του ίδιου που επιταχύνει την καρδιά όταν τρομάζουμε.",
+     "en": "The mechanism is simple. At the base of each hair there's a tiny muscle. When the nervous system gives the signal, this muscle contracts, the hair stands up and the skin around it swells a little. We don't control the signal; it's part of the so-called autonomic nervous system, the same one that speeds up the heart when we're frightened."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Σε ζώα με πυκνό τρίχωμα, η αντίδραση αυτή έχει νόημα: οι τρίχες που σηκώνονται παγιδεύουν ένα στρώμα αέρα και κρατούν τη ζέστη, ή κάνουν το ζώο να φαίνεται μεγαλύτερο μπροστά σε έναν εχθρό. Σε εμάς, που έχουμε χάσει το μεγαλύτερο μέρος του τριχώματος, πιθανότατα πρόκειται για ένα κατάλοιπο χωρίς ιδιαίτερη χρησιμότητα.",
+     "en": "In animals with thick fur, this reaction makes sense: the raised hairs trap a layer of air and keep in the warmth, or make the animal look bigger in front of an enemy. In us, who have lost most of our body hair, it's probably a leftover without any particular use."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Πιο αινιγματική είναι η ανατριχίλα από τη μουσική. Γιατί μια μελωδία να ενεργοποιεί έναν μηχανισμό που φτιάχτηκε για το κρύο και τον φόβο; Υπάρχουν διάφορες υποθέσεις, για παράδειγμα ότι συνδέεται με το σύστημα ανταμοιβής του εγκεφάλου, αλλά καμία δεν έχει ακόμα επιβεβαιωθεί οριστικά. Ίσως αυτό να είναι και το πιο ωραίο: ότι ένα κομμάτι της συγκίνησης μένει μυστήριο.",
+     "en": "More puzzling are the chills from music. Why should a melody trigger a mechanism made for cold and fear? There are various hypotheses, for example that it's linked to the brain's reward system, but none has yet been definitively confirmed. Perhaps that's the nicest thing: that a part of emotion remains a mystery."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι προκαλεί τη σήκωση της τρίχας;",
+     "options": [
+      "Η αλλαγή της θερμοκρασίας του αίματος",
+      "Η εφίδρωση",
+      "Η σύσπαση ενός μικροσκοπικού μυός στη βάση της τρίχας",
+      "Η ξηρότητα του δέρματος"
+     ],
+     "answer": "Η σύσπαση ενός μικροσκοπικού μυός στη βάση της τρίχας",
+     "why": "αυτός ο μυς συσπάται, η τρίχα ορθώνεται"
+    },
+    {
+     "q": "Ποια χρησιμότητα έχει η αντίδραση στα ζώα με πυκνό τρίχωμα;",
+     "options": [
+      "Κρατά τη ζέστη ή τα κάνει να φαίνονται μεγαλύτερα",
+      "Δεν έχει καμία χρησιμότητα",
+      "Τα βοηθά να βλέπουν καλύτερα",
+      "Τα βοηθά να τρέχουν πιο γρήγορα"
+     ],
+     "answer": "Κρατά τη ζέστη ή τα κάνει να φαίνονται μεγαλύτερα",
+     "why": "παγιδεύουν ένα στρώμα αέρα και κρατούν τη ζέστη, ή κάνουν το ζώο να φαίνεται μεγαλύτερο"
+    },
+    {
+     "q": "Τι λέει για την ανατριχίλα από τη μουσική;",
+     "options": [
+      "Ότι υπάρχουν υποθέσεις, αλλά καμία δεν έχει επιβεβαιωθεί οριστικά",
+      "Ότι είναι επικίνδυνη",
+      "Ότι έχει εξηγηθεί πλήρως",
+      "Ότι συμβαίνει μόνο σε μουσικούς"
+     ],
+     "answer": "Ότι υπάρχουν υποθέσεις, αλλά καμία δεν έχει επιβεβαιωθεί οριστικά",
+     "why": "καμία δεν έχει ακόμα επιβεβαιωθεί οριστικά"
+    }
+   ],
+   "gloss": {
+    "ανατριχίλα": "ανατριχίλα — goosebumps, shiver",
+    "εξογκώματα": "εξόγκωμα — bump, swelling",
+    "ορθώνεται": "ορθώνομαι — to stand upright",
+    "τρίχωμα": "τρίχωμα — fur, body hair",
+    "κατάλοιπο": "κατάλοιπο — remnant, leftover",
+    "αινιγματική": "αινιγματικός — puzzling, enigmatic"
+   }
+  }
+ ]
+}
