@@ -11,34 +11,34 @@ def gaps(prefix, n0, n1, opts, ans, notes):
     return [dict({"prompt": f"Κενό [{i}]", "options": opts, "answer": ans[i]}, **({"answer_note": notes[i]} if i in notes else {})) for i in range(n0, n1 + 1)]
 
 # ---------- Reading 1 ----------
-r1_text = """Ο Ερατοσθένης γεννήθηκε το 276 π.Χ. στην Κυρήνη, [0] βρίσκεται στη σημερινή Λιβύη.
-Σπούδασε για περίπου είκοσι χρόνια στην Αθήνα, [1] τον κάλεσε ο Πτολεμαίος Γ΄ στην Αλεξάνδρεια.
-Εκεί έγινε επικεφαλής της περίφημης Βιβλιοθήκης, [2] φήμη είχε φτάσει σε όλο τον ελληνικό κόσμο.
-Ασχολήθηκε με τόσο πολλές επιστήμες, [3] οι θαυμαστές του τον ονόμαζαν «Πένταθλο».
-Οι επικριτές του, [4], τον αποκαλούσαν «Βήτα», γιατί θεωρούσαν ότι δεν ήταν πρώτος σε κανέναν τομέα.
-Έμεινε στην ιστορία κυρίως [5] υπολόγισε την περίμετρο της Γης.
-Είχε μάθει ότι στη Συήνη, τη σημερινή Ασουάν, ένα κατακόρυφο ραβδί δεν έριχνε σκιά το μεσημέρι του θερινού ηλιοστασίου, [6] στην Αλεξάνδρεια έριχνε.
-Μετρώντας τη γωνία της σκιάς στην Αλεξάνδρεια, βρήκε ότι ήταν περίπου το ένα πεντηκοστό του κύκλου, [7] πολλαπλασίασε την απόσταση των δύο πόλεων επί πενήντα.
-Το αποτέλεσμα, [8] μετατροπή σε σημερινές μονάδες εξαρτάται από το μήκος του σταδίου που χρησιμοποίησε, ήταν εντυπωσιακά κοντά στην πραγματικότητα.
-Του οφείλουμε επίσης τον όρο «γεωγραφία», [9] έναν απλό τρόπο για να βρίσκουμε τους πρώτους αριθμούς, το γνωστό «κόσκινο του Ερατοσθένη».
-Πέθανε στην Αλεξάνδρεια σε ηλικία περίπου ογδόντα χρόνων, μακριά από την πατρίδα του, [10] θυμίζει και ένα επίγραμμα που γράφτηκε για τον τάφο του."""
-r1_ans = ["η οποία", "ώσπου", "της οποίας η", "ώστε", "αντίθετα", "επειδή", "ενώ", "οπότε", "του οποίου η", "καθώς και", "όπως"]
-r1_dis = ["οι οποίοι", "μήπως", "αντί για", "ούτε", "τα οποία"]
-r1_notes = {1: "Time limit: he studied in Athens until Ptolemy III invited him to Alexandria.",
-            2: "Possessive, feminine owner «της ... Βιβλιοθήκης», with feminine «η φήμη»: της οποίας η.",
-            3: "Result after «τόσο»: τόσο πολλές επιστήμες, ώστε...",
-            4: "Contrast with his admirers: his critics, on the other hand, called him «Βήτα».",
-            5: "Cause: he is remembered because he calculated the Earth's circumference.",
-            6: "Contrast: no shadow in Syene, while in Alexandria there was one.",
-            7: "Consequence: the angle was 1/50 of a circle, so he multiplied the distance by fifty.",
-            8: "Possessive, neuter owner «Το αποτέλεσμα», with feminine «η μετατροπή»: του οποίου η.",
-            9: "Addition: the term «geography», as well as the sieve for prime numbers.",
-            10: "Comparison/reference: as an epigram for his tomb also recalls."}
+r1_text = """Για τη ζωή του Κλαύδιου Πτολεμαίου ξέρουμε ελάχιστα, [0] έζησε στην Αλεξάνδρεια τον 2ο αιώνα μ.Χ.
+Το όνομά του δείχνει ότι ήταν Έλληνας της Αιγύπτου [1] είχε ρωμαϊκή υπηκοότητα.
+Το σημαντικότερο έργο του, η «Μαθηματική Σύνταξη», έγινε γνωστό με τον αραβικό τίτλο «Αλμαγέστη», [2] προέρχεται από την ελληνική λέξη «μεγίστη».
+Σε αυτό περιγράφει ένα σύμπαν με τη Γη ακίνητη στο κέντρο, [3] ο Ήλιος, η Σελήνη και οι πλανήτες κινούνται συνδυάζοντας μεγάλους και μικρούς κύκλους, τους επικύκλους.
+Το μοντέλο του έδινε τόσο καλές προβλέψεις, [4] κυριάρχησε στην αστρονομία για περίπου δεκατέσσερις αιώνες.
+Αμφισβητήθηκε σοβαρά μόνο τον 16ο αιώνα, [5] ο Κοπέρνικος έβαλε τον Ήλιο στο κέντρο.
+Η «Αλμαγέστη» περιέχει επίσης έναν κατάλογο με πάνω από χίλια αστέρια, [6] βασίζεται εν μέρει στις παρατηρήσεις του Ίππαρχου.
+Στη «Γεωγραφία» του έδωσε γεωγραφικό μήκος και πλάτος για χιλιάδες τόπους, [7] οι αποστάσεις προς την ανατολή ήταν συχνά υπερβολικές.
+Οι χάρτες που σχεδιάστηκαν με βάση τα στοιχεία του έδειχναν την Ασία μεγαλύτερη απ' ό,τι είναι, [8], κατά μια διαδεδομένη άποψη, ενθάρρυνε αργότερα τον Κολόμβο να πλεύσει προς τα δυτικά.
+Έγραψε ακόμη για την οπτική, τη μουσική και την αστρολογία, [9] τότε δεν ξεχώριζε καθαρά από την αστρονομία.
+Ένας κρατήρας της Σελήνης και ένας του Άρη φέρουν σήμερα το όνομά του, [10] και ένας αστεροειδής."""
+r1_ans = ["εκτός από το ότι", "και ότι", "που", "γύρω από την οποία", "ώστε", "όταν", "ο οποίος", "αν και", "γεγονός που", "η οποία", "όπως"]
+r1_dis = ["της οποίας η", "οι οποίοι", "μήπως", "αντί για", "ούτε"]
+r1_notes = {1: "Second object clause after «δείχνει»: that he was a Greek of Egypt and that he had Roman citizenship.",
+            2: "Relative clause referring to the title «Αλμαγέστη»: που προέρχεται...",
+            3: "Feminine singular «τη Γη», after a preposition: γύρω από την οποία.",
+            4: "Result after «τόσο»: τόσο καλές προβλέψεις, ώστε...",
+            5: "Time: it was seriously questioned only when Copernicus put the Sun at the centre.",
+            6: "Masculine singular «έναν κατάλογο», subject of «βασίζεται»: ο οποίος.",
+            7: "Concession: he gave coordinates for thousands of places, although the eastward distances were often exaggerated.",
+            8: "Referring back to the whole previous clause: γεγονός που...",
+            9: "Feminine singular «την αστρολογία», subject of «ξεχώριζε»: η οποία.",
+            10: "Addition/comparison: craters bear his name, as does an asteroid (4001 Ptolemaeus)."}
 opts = sorted(set(r1_ans + r1_dis)); rnd.shuffle(opts)
 T.append({"id": "c1-p172-reading-1", "paper": P + "Κατανόηση γραπτού λόγου, Ερώτημα 1 (5 μονάδες; 10 κενά × 0,5)",
  "task_type": "gap-fill with phrases (10 gaps, 5 distractors) — tests connectors/syntax; distractors test agreement and case",
- "instructions_el": "Ένας φίλος σας γράφει ένα άρθρο για τον Ερατοσθένη τον Κυρηναίο. Στο κείμενο που σας έστειλε λείπουν ορισμένες φράσεις. Διαβάζετε προσεκτικά το κείμενο και συμπληρώνετε στον πίνακα, δίπλα σε κάθε φράση, τον αριθμό του κενού στο οποίο αυτή ταιριάζει. Στον πίνακα υπάρχουν πέντε φράσεις που δεν ταιριάζουν σε κανένα κενό.",
- "title": "Ο Ερατοσθένης, ο άνθρωπος που μέτρησε τη Γη", "text_el": r1_text, "text_source": SRC, "example": {"gap": 0, "answer": r1_ans[0]},
+ "instructions_el": "Ένας φίλος σας γράφει ένα άρθρο για τον Κλαύδιο Πτολεμαίο. Στο κείμενο που σας έστειλε λείπουν ορισμένες φράσεις. Διαβάζετε προσεκτικά το κείμενο και συμπληρώνετε στον πίνακα, δίπλα σε κάθε φράση, τον αριθμό του κενού στο οποίο αυτή ταιριάζει. Στον πίνακα υπάρχουν πέντε φράσεις που δεν ταιριάζουν σε κανένα κενό.",
+ "title": "Ο Πτολεμαίος και το σύμπαν με κέντρο τη Γη", "text_el": r1_text, "text_source": SRC, "example": {"gap": 0, "answer": r1_ans[0]},
  "questions": gaps("", 1, 10, opts, r1_ans, r1_notes), "source_url": ""})
 
 # ---------- Reading 2 ----------
@@ -194,7 +194,7 @@ for t in T:
     if t["id"].endswith("use-4"):
         for w in [ex["answer"]] + [q["answer"] for q in t["questions"]]:
             assert w in t["text_el"], w
-out = {"description": "Γ1 exam practice, set 172 (Πιστοποίηση Ελληνομάθειας Γ1, ΚΕΓ format), same schema as the c1-p3-* tasks in c1-tasks.json: an article on Eratosthenes of Cyrene, a literary extract about a father who drove a taxi, an article on the antlion with a summary, Miltos Sachtouris (error spotting and gap-fill), ancient Thorikos in Attica (word formation and definitions).",
+out = {"description": "Γ1 exam practice, set 172 (Πιστοποίηση Ελληνομάθειας Γ1, ΚΕΓ format), same schema as the c1-p3-* tasks in c1-tasks.json: an article on Claudius Ptolemy, a literary extract about a father who drove a taxi, an article on the antlion with a summary, Miltos Sachtouris (error spotting and gap-fill), ancient Thorikos in Attica (word formation and definitions).",
        "rights": "Tasks c1-p172-*: original texts and items written for this learner (personal study use).", "tasks": T}
 p = os.path.join(os.path.dirname(__file__), "..", "..", "library", "exam", "c1-tasks-170.json")
 with open(p, "w", encoding="utf-8") as fh:
