@@ -1,0 +1,389 @@
+{
+ "items": [
+  {
+   "id": "l233-news-leoforeio-choris-odigo",
+   "title": "Ένα λεωφορείο χωρίς οδηγό στην παραλιακή",
+   "title_en": "A driverless bus on the seafront",
+   "type": "news",
+   "level": "B2",
+   "context_el": "Ακούτε μια είδηση στο δελτίο ειδήσεων ενός τοπικού ραδιοφωνικού σταθμού.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Από τη Δευτέρα, ένα μικρό ηλεκτρικό λεωφορείο χωρίς οδηγό θα κάνει δοκιμαστικά δρομολόγια στην παραλιακή λεωφόρο της πόλης μας. Το λεωφορείο θα κινείται σε μια διαδρομή δύο χιλιομέτρων, από το λιμάνι ως το δημοτικό κολυμβητήριο.",
+     "en": "From Monday, a small driverless electric bus will run trial services on our city's seafront avenue. The bus will travel a two-kilometre route, from the harbour to the municipal swimming pool."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Χωράει δώδεκα επιβάτες και δεν θα ξεπερνά τα είκοσι χιλιόμετρα την ώρα. Με αισθητήρες και κάμερες «βλέπει» τους πεζούς, τα ποδήλατα και τα αυτοκίνητα γύρω του και σταματά μόνο του, αν κάτι βρεθεί μπροστά του.",
+     "en": "It holds twelve passengers and won't go faster than twenty kilometres an hour. With sensors and cameras it 'sees' the pedestrians, bicycles and cars around it and stops by itself if something gets in front of it."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Για λόγους ασφαλείας, τους πρώτους τρεις μήνες θα υπάρχει πάντα μέσα ένας υπάλληλος του δήμου, που θα μπορεί να το σταματήσει με ένα κουμπί. Η διαδρομή θα είναι δωρεάν, και οι επιβάτες θα καλούνται να συμπληρώνουν ένα σύντομο ερωτηματολόγιο για την εμπειρία τους.",
+     "en": "For safety reasons, for the first three months there will always be a municipal employee on board who can stop it with a button. The ride will be free, and passengers will be asked to fill in a short questionnaire about their experience."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Οι επαγγελματίες ταξί της πόλης εξέφρασαν ανησυχίες για το μέλλον της δουλειάς τους. Ο δήμαρχος απάντησε ότι πρόκειται για ένα πείραμα και ότι κάθε απόφαση θα παρθεί μετά τη δοκιμαστική περίοδο, λαμβάνοντας υπόψη τη γνώμη των κατοίκων.",
+     "en": "The city's taxi drivers expressed concerns about the future of their work. The mayor replied that it is an experiment and that any decision will be taken after the trial period, taking residents' views into account."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού θα κινείται το λεωφορείο;",
+     "options": [
+      "Σε όλες τις γειτονιές",
+      "Στο κέντρο της πόλης",
+      "Από το αεροδρόμιο ως το λιμάνι",
+      "Από το λιμάνι ως το δημοτικό κολυμβητήριο"
+     ],
+     "answer": "Από το λιμάνι ως το δημοτικό κολυμβητήριο",
+     "why": "σε μια διαδρομή δύο χιλιομέτρων, από το λιμάνι ως το δημοτικό κολυμβητήριο"
+    },
+    {
+     "q": "Τι κάνει το λεωφορείο αν κάτι βρεθεί μπροστά του;",
+     "options": [
+      "Αλλάζει διαδρομή",
+      "Κορνάρει",
+      "Σταματά μόνο του",
+      "Καλεί τον οδηγό"
+     ],
+     "answer": "Σταματά μόνο του",
+     "why": "σταματά μόνο του, αν κάτι βρεθεί μπροστά του"
+    },
+    {
+     "q": "Ποιος θα βρίσκεται μέσα τους πρώτους τρεις μήνες;",
+     "options": [
+      "Ένας μηχανικός της εταιρείας",
+      "Ένας υπάλληλος του δήμου",
+      "Κανείς",
+      "Ένας αστυνομικός"
+     ],
+     "answer": "Ένας υπάλληλος του δήμου",
+     "why": "θα υπάρχει πάντα μέσα ένας υπάλληλος του δήμου"
+    },
+    {
+     "q": "Τι απάντησε ο δήμαρχος στους οδηγούς ταξί;",
+     "options": [
+      "Ότι το λεωφορείο θα σταματήσει αμέσως",
+      "Ότι τα ταξί θα καταργηθούν",
+      "Ότι θα τους δώσει αποζημίωση",
+      "Ότι πρόκειται για πείραμα και η απόφαση θα παρθεί αργότερα"
+     ],
+     "answer": "Ότι πρόκειται για πείραμα και η απόφαση θα παρθεί αργότερα",
+     "why": "πρόκειται για ένα πείραμα και ότι κάθε απόφαση θα παρθεί μετά τη δοκιμαστική περίοδο"
+    }
+   ],
+   "gloss": {
+    "δοκιμαστικά": "δοκιμαστικός — trial, test",
+    "δρομολόγια": "δρομολόγιο — (scheduled) service, route",
+    "παραλιακή": "παραλιακός — seafront",
+    "αισθητήρες": "αισθητήρας — sensor",
+    "πεζούς": "πεζός — pedestrian",
+    "ερωτηματολόγιο": "ερωτηματολόγιο — questionnaire",
+    "εξέφρασαν": "εκφράζω — to express",
+    "ανησυχίες": "ανησυχία — concern",
+    "λαμβάνοντας υπόψη": "λαμβάνω υπόψη — to take into account"
+   }
+  },
+  {
+   "id": "l233-vm-vintekasetes",
+   "title": "Μήνυμα για τις παλιές βιντεοκασέτες",
+   "title_en": "A message about the old videotapes",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Έχετε δώσει σε ένα κατάστημα τις παλιές οικογενειακές βιντεοκασέτες σας για να τις μεταφέρουν σε ψηφιακή μορφή. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Τεχνικός",
+     "voice": "m",
+     "el": "Γεια σας, είμαι ο Άρης από το φωτογραφείο στην Αγίου Νικολάου, για τις δεκατέσσερις βιντεοκασέτες που μας φέρατε την περασμένη εβδομάδα. Τις έχω ελέγξει όλες και θέλω να σας πω πώς πάμε.",
+     "en": "Hello, it's Aris from the photo shop on Agiou Nikolaou Street, about the fourteen videotapes you brought us last week. I've checked them all and I want to tell you how things stand."
+    },
+    {
+     "speaker": "Τεχνικός",
+     "voice": "m",
+     "el": "Οι δώδεκα είναι σε καλή κατάσταση και έχουν ήδη περαστεί. Δύο όμως έχουν πρόβλημα. Η μία, αυτή που γράφει «Βάφτιση 1994», έχει μούχλα στην ταινία, γιατί μάλλον φυλαγόταν σε υγρό μέρος. Μπορώ να την καθαρίσω, αλλά υπάρχει ένας μικρός κίνδυνος να χαθούν μερικά λεπτά από την αρχή.",
+     "en": "Twelve are in good condition and have already been transferred. Two, however, have a problem. One, the one that says 'Christening 1994', has mould on the tape, probably because it was kept somewhere damp. I can clean it, but there's a small risk that a few minutes at the start will be lost."
+    },
+    {
+     "speaker": "Τεχνικός",
+     "voice": "m",
+     "el": "Η άλλη έχει κοπεί στη μέση. Αυτή μπορώ να την κολλήσω χωρίς να χαθεί σχεδόν τίποτα. Το καθάρισμα και η επισκευή κοστίζουν δέκα ευρώ η καθεμία, εκτός από την τιμή που συμφωνήσαμε.",
+     "en": "The other has snapped in the middle. That one I can splice without losing almost anything. The cleaning and the repair cost ten euros each, on top of the price we agreed."
+    },
+    {
+     "speaker": "Τεχνικός",
+     "voice": "m",
+     "el": "Πείτε μου αν θέλετε να προχωρήσω. Τα αρχεία θα σας τα δώσω σε ένα στικάκι, αλλά αν θέλετε, μπορώ να τα ανεβάσω και σε έναν σύνδεσμο για να τα στείλετε στους συγγενείς σας. Τα λέμε!",
+     "en": "Let me know if you want me to go ahead. I'll give you the files on a USB stick, but if you like, I can also upload them to a link so you can send them to your relatives. Speak soon!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσες κασέτες έχουν ήδη μεταφερθεί;",
+     "options": [
+      "Δώδεκα",
+      "Καμία",
+      "Δύο",
+      "Δεκατέσσερις"
+     ],
+     "answer": "Δώδεκα",
+     "why": "Οι δώδεκα είναι σε καλή κατάσταση και έχουν ήδη περαστεί"
+    },
+    {
+     "q": "Ποιο είναι το πρόβλημα της κασέτας «Βάφτιση 1994»;",
+     "options": [
+      "Έχει κοπεί στη μέση",
+      "Είναι άδεια",
+      "Λείπει η ετικέτα",
+      "Έχει μούχλα στην ταινία"
+     ],
+     "answer": "Έχει μούχλα στην ταινία",
+     "why": "έχει μούχλα στην ταινία"
+    },
+    {
+     "q": "Τι κίνδυνος υπάρχει αν την καθαρίσει;",
+     "options": [
+      "Να χαθεί ο ήχος",
+      "Να χαθεί όλη η κασέτα",
+      "Να χαθούν μερικά λεπτά από την αρχή",
+      "Να χαλάσει το μηχάνημα"
+     ],
+     "answer": "Να χαθούν μερικά λεπτά από την αρχή",
+     "why": "υπάρχει ένας μικρός κίνδυνος να χαθούν μερικά λεπτά από την αρχή"
+    },
+    {
+     "q": "Τι προτείνει για τα αρχεία, εκτός από το στικάκι;",
+     "options": [
+      "Να τα τυπώσει",
+      "Να τα στείλει με το ταχυδρομείο",
+      "Να τα γράψει σε DVD",
+      "Να τα ανεβάσει σε έναν σύνδεσμο"
+     ],
+     "answer": "Να τα ανεβάσει σε έναν σύνδεσμο",
+     "why": "μπορώ να τα ανεβάσω και σε έναν σύνδεσμο"
+    }
+   ],
+   "gloss": {
+    "βιντεοκασέτες": "βιντεοκασέτα — videotape",
+    "ψηφιακή μορφή": "ψηφιακή μορφή — digital format",
+    "περαστεί": "περνιέμαι — to be transferred (colloquial)",
+    "Βάφτιση": "βάφτιση — christening",
+    "μούχλα": "μούχλα — mould",
+    "υγρό": "υγρός — damp",
+    "κοπεί": "κόβομαι — to be cut, snap",
+    "κολλήσω": "κολλάω — to stick, splice",
+    "στικάκι": "στικάκι — USB stick",
+    "σύνδεσμο": "σύνδεσμος — link",
+    "συγγενείς": "συγγενής — relative"
+   }
+  },
+  {
+   "id": "l233-c1-mono-fermouar",
+   "title": "Η μακριά ιστορία του φερμουάρ",
+   "title_en": "The long history of the zip",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε ένα απόσπασμα από μια εκπομπή για την ιστορία των καθημερινών αντικειμένων.",
+   "script": [
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Το ανοίγουμε και το κλείνουμε δεκάδες φορές την ημέρα, χωρίς να το σκεφτόμαστε. Κι όμως, το φερμουάρ χρειάστηκε σχεδόν τριάντα χρόνια για να γίνει αξιόπιστο, και άλλα τόσα για να το εμπιστευτούν οι ράφτες.",
+     "en": "We open and close it dozens of times a day without thinking about it. And yet the zip needed almost thirty years to become reliable, and as many again for tailors to trust it."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Η πρώτη εκδοχή που είχε κάποια εμπορική τύχη παρουσιάστηκε στις Ηνωμένες Πολιτείες στις αρχές της δεκαετίας του 1890, από έναν εφευρέτη που ήθελε να γλιτώσει τον κόσμο από τα ατελείωτα κορδόνια των μποτών. Ο μηχανισμός του όμως άνοιγε μόνος του την πιο ακατάλληλη στιγμή, και οι πελάτες δεν πείστηκαν.",
+     "en": "The first version that had some commercial success was presented in the United States in the early 1890s, by an inventor who wanted to spare people the endless laces of boots. His mechanism, however, came open by itself at the worst possible moment, and customers weren't convinced."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Τη λύση έδωσε το 1913 ένας Σουηδός μηχανικός που ζούσε στην Αμερική. Αντί για γάντζους, χρησιμοποίησε μικρά δοντάκια που κουμπώνουν το ένα μέσα στο άλλο, σχεδόν όπως τα σημερινά. Το όνομα «zipper» ήρθε λίγο αργότερα από μια εταιρεία που το έβαλε σε λαστιχένιες μπότες, μιμούμενη τον ήχο που κάνει όταν κλείνει. Στα ελληνικά, αντίθετα, κρατήσαμε τη γαλλική λέξη.",
+     "en": "The solution came in 1913 from a Swedish engineer living in America. Instead of hooks, he used small teeth that lock into one another, almost like today's. The name 'zipper' came a little later from a company that put it on rubber boots, imitating the sound it makes when it closes. In Greek, by contrast, we kept the French word."
+    },
+    {
+     "speaker": "Ομιλητής",
+     "voice": "m",
+     "el": "Για χρόνια οι σοβαροί ράφτες το θεωρούσαν φθηνό τέχνασμα, κατάλληλο για τσάντες και μπότες αλλά όχι για ένα καλό παντελόνι. Χρειάστηκε η μόδα του μεσοπολέμου για να αλλάξει η εικόνα του. Η ιστορία του φερμουάρ θυμίζει ότι μια εφεύρεση δεν αρκεί να λειτουργεί· πρέπει και να γίνει αποδεκτή.",
+     "en": "For years serious tailors considered it a cheap gimmick, suitable for bags and boots but not for a good pair of trousers. It took interwar fashion to change its image. The history of the zip is a reminder that it's not enough for an invention to work; it also has to be accepted."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ήθελε να πετύχει ο πρώτος εφευρέτης;",
+     "options": [
+      "Να γλιτώσει τον κόσμο από τα κορδόνια των μποτών",
+      "Να κάνει πιο φθηνά τα ρούχα",
+      "Να κλείνουν καλύτερα οι τσάντες",
+      "Να αντικαταστήσει τα κουμπιά στα πουκάμισα"
+     ],
+     "answer": "Να γλιτώσει τον κόσμο από τα κορδόνια των μποτών",
+     "why": "ήθελε να γλιτώσει τον κόσμο από τα ατελείωτα κορδόνια των μποτών"
+    },
+    {
+     "q": "Ποιο ήταν το πρόβλημα της πρώτης εκδοχής;",
+     "options": [
+      "Σκούριαζε γρήγορα",
+      "Ήταν πολύ ακριβή",
+      "Άνοιγε μόνη της την πιο ακατάλληλη στιγμή",
+      "Ήταν πολύ βαριά"
+     ],
+     "answer": "Άνοιγε μόνη της την πιο ακατάλληλη στιγμή",
+     "why": "άνοιγε μόνος του την πιο ακατάλληλη στιγμή"
+    },
+    {
+     "q": "Από πού προέρχεται το αγγλικό όνομα «zipper»;",
+     "options": [
+      "Από το όνομα του εφευρέτη",
+      "Από μια γαλλική λέξη",
+      "Από τον ήχο που κάνει όταν κλείνει",
+      "Από μια πόλη της Σουηδίας"
+     ],
+     "answer": "Από τον ήχο που κάνει όταν κλείνει",
+     "why": "μιμούμενη τον ήχο που κάνει όταν κλείνει"
+    },
+    {
+     "q": "Ποιο συμπέρασμα βγάζει ο ομιλητής;",
+     "options": [
+      "Ότι οι Σουηδοί είναι οι καλύτεροι μηχανικοί",
+      "Ότι μια εφεύρεση πρέπει όχι μόνο να λειτουργεί αλλά και να γίνει αποδεκτή",
+      "Ότι οι ράφτες είχαν δίκιο",
+      "Ότι το φερμουάρ θα αντικατασταθεί σύντομα"
+     ],
+     "answer": "Ότι μια εφεύρεση πρέπει όχι μόνο να λειτουργεί αλλά και να γίνει αποδεκτή",
+     "why": "μια εφεύρεση δεν αρκεί να λειτουργεί· πρέπει και να γίνει αποδεκτή"
+    }
+   ],
+   "gloss": {
+    "φερμουάρ": "φερμουάρ — zip, zipper",
+    "αξιόπιστο": "αξιόπιστος — reliable",
+    "εκδοχή": "εκδοχή — version",
+    "εφευρέτη": "εφευρέτης — inventor",
+    "γλιτώσει": "γλιτώνω — to spare, save",
+    "ακατάλληλη": "ακατάλληλος — unsuitable",
+    "γάντζους": "γάντζος — hook",
+    "κουμπώνουν": "κουμπώνω — to fasten, lock together",
+    "μιμούμενη": "μιμούμενος — imitating",
+    "τέχνασμα": "τέχνασμα — gimmick, trick",
+    "μεσοπολέμου": "μεσοπόλεμος — the interwar period",
+    "αποδεκτή": "αποδεκτός — accepted"
+   }
+  },
+  {
+   "id": "l233-c1-int-thorybos-thalassa",
+   "title": "Μια βιολόγος για τον θόρυβο κάτω από τη θάλασσα",
+   "title_en": "A biologist on noise under the sea",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Μια βιολόγος που μελετά τα κητώδη μιλά σε μια ραδιοφωνική εκπομπή για την ηχορρύπανση στις ελληνικές θάλασσες.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Όταν ακούμε για ρύπανση της θάλασσας, σκεφτόμαστε πλαστικά και πετρέλαιο. Εσείς μιλάτε για θόρυβο. Τι εννοείτε;",
+     "en": "When we hear about sea pollution, we think of plastics and oil. You talk about noise. What do you mean?"
+    },
+    {
+     "speaker": "Βιολόγος",
+     "voice": "f",
+     "el": "Ο ήχος ταξιδεύει στο νερό πολύ πιο γρήγορα και πολύ πιο μακριά από ό,τι στον αέρα. Για τις φάλαινες και τα δελφίνια, η ακοή είναι ό,τι είναι για εμάς η όραση: μ' αυτήν βρίσκουν τροφή, προσανατολίζονται και επικοινωνούν. Οι έλικες των πλοίων, οι σεισμικές έρευνες για υδρογονάνθρακες και τα στρατιωτικά σόναρ γεμίζουν αυτόν τον κόσμο με ένα συνεχές βουητό.",
+     "en": "Sound travels much faster and much further in water than in air. For whales and dolphins, hearing is what sight is for us: with it they find food, find their way and communicate. Ships' propellers, seismic surveys for hydrocarbons and military sonar fill that world with a constant hum."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Υπάρχουν αποδείξεις ότι αυτό τους κάνει κακό;",
+     "en": "Is there evidence that this harms them?"
+    },
+    {
+     "speaker": "Βιολόγος",
+     "voice": "f",
+     "el": "Η πιο γνωστή περίπτωση έγινε στον Κυπαρισσιακό κόλπο το 1996, όταν δώδεκα ζιφιοί, ένα είδος φάλαινας που καταδύεται πολύ βαθιά, βγήκαν νεκροί ή ετοιμοθάνατοι στις ακτές. Η χρονική σύμπτωση με μια άσκηση στρατιωτικού σόναρ στην περιοχή καταγράφηκε σε επιστημονική δημοσίευση, και από τότε παρόμοια περιστατικά έχουν συνδεθεί με σόναρ σε διάφορα μέρη του κόσμου. Ο συνεχής θόρυβος της ναυσιπλοΐας είναι λιγότερο θεαματικός, αλλά μπορεί να αναγκάζει τα ζώα να εγκαταλείπουν περιοχές όπου τρέφονται.",
+     "en": "The best-known case happened in the Gulf of Kyparissia in 1996, when twelve Cuvier's beaked whales, a species of whale that dives very deep, came ashore dead or dying. The coincidence in time with a military sonar exercise in the area was recorded in a scientific publication, and since then similar incidents have been linked to sonar in various parts of the world. The constant noise of shipping is less spectacular, but it can force animals to abandon areas where they feed."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Μπορούμε να κάνουμε κάτι;",
+     "en": "Can we do anything?"
+    },
+    {
+     "speaker": "Βιολόγος",
+     "voice": "f",
+     "el": "Ευτυχώς, ο θόρυβος έχει ένα πλεονέκτημα σε σχέση με άλλους ρύπους: μόλις σταματήσει η πηγή, εξαφανίζεται. Όταν τα πλοία μειώνουν λίγο την ταχύτητά τους, ο θόρυβος μειώνεται αισθητά, και καταναλώνουν και λιγότερα καύσιμα. Αν προσθέσουμε και μικρές αλλαγές στις θαλάσσιες διαδρομές, μακριά από τις περιοχές όπου ζουν οι φυσητήρες, θα έχουμε κάνει ήδη πολλά με μικρό κόστος.",
+     "en": "Fortunately, noise has an advantage over other pollutants: as soon as the source stops, it disappears. When ships reduce their speed a little, the noise drops noticeably, and they also use less fuel. If we add small changes to shipping routes, away from the areas where sperm whales live, we'll already have done a lot at little cost."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί ο θόρυβος είναι τόσο σημαντικός για τα κητώδη;",
+     "options": [
+      "Γιατί ζουν μόνο κοντά στις ακτές",
+      "Γιατί δεν βλέπουν καθόλου",
+      "Γιατί τα τρομάζει μόνο τη νύχτα",
+      "Γιατί η ακοή είναι γι' αυτά ό,τι η όραση για εμάς"
+     ],
+     "answer": "Γιατί η ακοή είναι γι' αυτά ό,τι η όραση για εμάς",
+     "why": "η ακοή είναι ό,τι είναι για εμάς η όραση"
+    },
+    {
+     "q": "Τι συνέβη στον Κυπαρισσιακό κόλπο το 1996;",
+     "options": [
+      "Δώδεκα ζιφιοί βγήκαν νεκροί ή ετοιμοθάνατοι στις ακτές",
+      "Έγινε ένας μεγάλος σεισμός",
+      "Ανακαλύφθηκε ένα νέο είδος δελφινιού",
+      "Βυθίστηκε ένα πλοίο"
+     ],
+     "answer": "Δώδεκα ζιφιοί βγήκαν νεκροί ή ετοιμοθάνατοι στις ακτές",
+     "why": "δώδεκα ζιφιοί … βγήκαν νεκροί ή ετοιμοθάνατοι στις ακτές"
+    },
+    {
+     "q": "Τι λέει η βιολόγος για τον θόρυβο της ναυσιπλοΐας;",
+     "options": [
+      "Ότι δεν επηρεάζει τα ζώα",
+      "Ότι ακούγεται μόνο κοντά στα λιμάνια",
+      "Ότι μπορεί να αναγκάζει τα ζώα να εγκαταλείπουν περιοχές όπου τρέφονται",
+      "Ότι είναι πιο επικίνδυνος από το σόναρ"
+     ],
+     "answer": "Ότι μπορεί να αναγκάζει τα ζώα να εγκαταλείπουν περιοχές όπου τρέφονται",
+     "why": "μπορεί να αναγκάζει τα ζώα να εγκαταλείπουν περιοχές όπου τρέφονται"
+    },
+    {
+     "q": "Ποιο πλεονέκτημα έχει ο θόρυβος σε σχέση με άλλους ρύπους;",
+     "options": [
+      "Δεν φτάνει σε μεγάλο βάθος",
+      "Το νερό τον απορροφά αμέσως",
+      "Είναι φθηνότερο να μετρηθεί",
+      "Εξαφανίζεται μόλις σταματήσει η πηγή"
+     ],
+     "answer": "Εξαφανίζεται μόλις σταματήσει η πηγή",
+     "why": "μόλις σταματήσει η πηγή, εξαφανίζεται"
+    }
+   ],
+   "gloss": {
+    "κητώδη": "κητώδη — cetaceans",
+    "ηχορρύπανση": "ηχορρύπανση — noise pollution",
+    "προσανατολίζονται": "προσανατολίζομαι — to find one's way, orient oneself",
+    "έλικες": "έλικας — propeller",
+    "υδρογονάνθρακες": "υδρογονάνθρακας — hydrocarbon",
+    "σόναρ": "σόναρ — sonar",
+    "βουητό": "βουητό — hum, drone",
+    "ζιφιοί": "ζιφιός — Cuvier's beaked whale",
+    "ετοιμοθάνατοι": "ετοιμοθάνατος — dying",
+    "σύμπτωση": "σύμπτωση — coincidence",
+    "ναυσιπλοΐας": "ναυσιπλοΐα — shipping, navigation",
+    "ρύπους": "ρύπος — pollutant",
+    "φυσητήρες": "φυσητήρας — sperm whale"
+   }
+  }
+ ]
+}
