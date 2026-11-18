@@ -1,0 +1,776 @@
+{
+ "items": [
+  {
+   "id": "l199-ann-faros-anoiktos",
+   "title": "Ο φάρος ανοίγει για το κοινό",
+   "title_en": "The lighthouse opens to the public",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση στο λιμάνι ενός νησιού.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ανακοίνωση του Λιμεναρχείου. Το Σάββατο και την Κυριακή ο φάρος στο ακρωτήρι θα είναι ανοιχτός για το κοινό, από τις δέκα το πρωί ως τη δύση του ηλίου. Είναι η μόνη φορά μέσα στη χρονιά που οι επισκέπτες μπορούν να ανέβουν στον πύργο και να δουν από κοντά τον μηχανισμό του φακού.",
+     "en": "An announcement from the Port Authority. On Saturday and Sunday the lighthouse on the cape will be open to the public, from ten in the morning until sunset. It is the only time in the year when visitors can climb the tower and see the lens mechanism up close."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Η είσοδος είναι δωρεάν, αλλά στον πύργο μπορούν να βρίσκονται ταυτόχρονα μόνο δέκα άτομα. Γι' αυτό οι επισκέπτες θα μπαίνουν σε ομάδες, κάθε είκοσι λεπτά. Η σκάλα είναι στενή και απότομη, και δεν συνιστάται σε άτομα με προβλήματα καρδιάς ή σε παιδιά κάτω των οχτώ ετών.",
+     "en": "Entry is free, but only ten people can be in the tower at the same time. For that reason visitors will go in in groups, every twenty minutes. The staircase is narrow and steep, and is not recommended for people with heart problems or for children under eight."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Δεν υπάρχει χώρος στάθμευσης κοντά στον φάρο. Συνιστούμε να έρθετε με το δημοτικό λεωφορείο, που θα κάνει έκτακτα δρομολόγια από την πλατεία κάθε μισή ώρα.",
+     "en": "There is no parking near the lighthouse. We recommend coming by the municipal bus, which will run extra services from the square every half hour."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο συχνά ανοίγει ο φάρος για το κοινό;",
+     "options": [
+      "Κάθε Σαββατοκύριακο",
+      "Μία φορά τον χρόνο",
+      "Μόνο για σχολεία",
+      "Κάθε καλοκαίρι"
+     ],
+     "answer": "Μία φορά τον χρόνο",
+     "why": "Είναι η μόνη φορά μέσα στη χρονιά"
+    },
+    {
+     "q": "Γιατί οι επισκέπτες θα μπαίνουν σε ομάδες;",
+     "options": [
+      "Για να έχουν ξεναγό",
+      "Γιατί στον πύργο χωρούν ταυτόχρονα μόνο δέκα άτομα",
+      "Γιατί κλείνει νωρίς",
+      "Γιατί πληρώνουν εισιτήριο"
+     ],
+     "answer": "Γιατί στον πύργο χωρούν ταυτόχρονα μόνο δέκα άτομα",
+     "why": "στον πύργο μπορούν να βρίσκονται ταυτόχρονα μόνο δέκα άτομα"
+    },
+    {
+     "q": "Πώς συνιστάται να έρθουν οι επισκέπτες;",
+     "options": [
+      "Με ταξί",
+      "Με το δημοτικό λεωφορείο",
+      "Με τα πόδια από το λιμάνι",
+      "Με το αυτοκίνητο"
+     ],
+     "answer": "Με το δημοτικό λεωφορείο",
+     "why": "να έρθετε με το δημοτικό λεωφορείο"
+    }
+   ],
+   "gloss": {
+    "Λιμεναρχείου": "λιμεναρχείο — port authority",
+    "ακρωτήρι": "ακρωτήρι — cape",
+    "φακού": "φακός — lens",
+    "απότομη": "απότομος — steep",
+    "έκτακτα": "έκτακτος — extra, special"
+   }
+  },
+  {
+   "id": "l199-int-ekpaideftria-odigon",
+   "title": "Η εκπαιδεύτρια οδηγών",
+   "title_en": "The driving instructor",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Συνέντευξη με μια εκπαιδεύτρια οδηγών που δουλεύει σε μια σχολή οδηγών στον Βόλο.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιοι μαθητές είναι οι πιο δύσκολοι;",
+     "en": "Which learners are the most difficult?"
+    },
+    {
+     "speaker": "Εκπαιδεύτρια",
+     "voice": "f",
+     "el": "Όχι αυτοί που φαντάζεστε. Οι δεκαοχτάχρονοι μαθαίνουν γρήγορα, γιατί δεν φοβούνται. Οι πιο δύσκολοι είναι όσοι έχουν οδηγήσει «λίγο» με τον πατέρα τους σε κάποιο χωράφι. Έρχονται με κακές συνήθειες και είναι σίγουροι ότι τα ξέρουν όλα. Πρώτα πρέπει να ξεμάθουν και μετά να μάθουν.",
+     "en": "Not the ones you'd imagine. Eighteen-year-olds learn quickly, because they aren't afraid. The most difficult are those who've driven 'a bit' with their father in some field. They come with bad habits and are sure they know it all. First they have to unlearn and then learn."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Έχετε μαθητές μεγαλύτερης ηλικίας;",
+     "en": "Do you have older learners?"
+    },
+    {
+     "speaker": "Εκπαιδεύτρια",
+     "voice": "f",
+     "el": "Αρκετούς, και τους αγαπώ ιδιαίτερα. Πέρσι είχα μια κυρία εβδομήντα ενός χρονών που έμεινε χήρα και δεν ήθελε να εξαρτάται από τα παιδιά της για να πάει στο χωριό. Χρειάστηκε σαράντα μαθήματα αντί για είκοσι, αλλά πέρασε με την πρώτη. Την ημέρα της εξέτασης έφερε γλυκό του κουταλιού για όλη τη σχολή.",
+     "en": "Quite a few, and I'm especially fond of them. Last year I had a lady of seventy-one who had been widowed and didn't want to depend on her children to go to her village. She needed forty lessons instead of twenty, but she passed first time. On the day of the test she brought spoon sweets for the whole school."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι είναι το πιο σημαντικό που προσπαθείτε να τους μάθετε;",
+     "en": "What's the most important thing you try to teach them?"
+    },
+    {
+     "speaker": "Εκπαιδεύτρια",
+     "voice": "f",
+     "el": "Να κοιτάζουν μακριά. Οι αρχάριοι κοιτάζουν το καπό του αυτοκινήτου. Όταν μάθεις να βλέπεις τι γίνεται εκατό μέτρα μπροστά σου, προλαβαίνεις σχεδόν τα πάντα.",
+     "en": "To look far ahead. Beginners look at the bonnet of the car. When you learn to see what's happening a hundred metres ahead of you, you can react in time to almost everything."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιοι μαθητές είναι οι πιο δύσκολοι, σύμφωνα με την εκπαιδεύτρια;",
+     "options": [
+      "Όσοι φοβούνται πολύ",
+      "Όσοι έχουν οδηγήσει λίγο με τον πατέρα τους και έχουν κακές συνήθειες",
+      "Οι δεκαοχτάχρονοι",
+      "Οι ηλικιωμένοι"
+     ],
+     "answer": "Όσοι έχουν οδηγήσει λίγο με τον πατέρα τους και έχουν κακές συνήθειες",
+     "why": "Έρχονται με κακές συνήθειες"
+    },
+    {
+     "q": "Γιατί η κυρία των εβδομήντα ενός ήθελε να μάθει να οδηγεί;",
+     "options": [
+      "Για να ταξιδέψει στο εξωτερικό",
+      "Για να μην εξαρτάται από τα παιδιά της",
+      "Για να βρει δουλειά",
+      "Γιατί της το ζήτησε ο γιατρός"
+     ],
+     "answer": "Για να μην εξαρτάται από τα παιδιά της",
+     "why": "δεν ήθελε να εξαρτάται από τα παιδιά της"
+    },
+    {
+     "q": "Τι προσπαθεί κυρίως να μάθει στους μαθητές της;",
+     "options": [
+      "Να κοιτάζουν μακριά μπροστά τους",
+      "Να παρκάρουν γρήγορα",
+      "Να οδηγούν αργά",
+      "Να μη μιλούν στο κινητό"
+     ],
+     "answer": "Να κοιτάζουν μακριά μπροστά τους",
+     "why": "Να κοιτάζουν μακριά"
+    }
+   ],
+   "gloss": {
+    "ξεμάθουν": "ξεμαθαίνω — to unlearn",
+    "χήρα": "χήρα — widow",
+    "εξαρτάται": "εξαρτώμαι — to depend",
+    "καπό": "καπό — bonnet, hood (of a car)",
+    "προλαβαίνεις": "προλαβαίνω — to be in time (to react)"
+   }
+  },
+  {
+   "id": "l199-vm-apothikeftikos-choros",
+   "title": "Μήνυμα από την εταιρεία αποθηκευτικών χώρων",
+   "title_en": "A message from the self-storage company",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Νοικιάζετε έναν αποθηκευτικό χώρο για τα έπιπλά σας όσο ανακαινίζεται το σπίτι σας. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Καλησπέρα σας, από την εταιρεία αποθηκευτικών χώρων «Κλειδί» σας καλώ, για την αποθήκη 214. Η σύμβασή σας λήγει στο τέλος του μήνα. Αν θέλετε να την ανανεώσετε, μπορείτε να το κάνετε ηλεκτρονικά, και αν την ανανεώσετε για έξι μήνες, έχετε έκπτωση δεκαπέντε τοις εκατό.",
+     "en": "Good evening, I'm calling from the 'Kleidi' self-storage company, about unit 214. Your contract expires at the end of the month. If you'd like to renew it, you can do so online, and if you renew for six months, you get a fifteen per cent discount."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Επίσης, σας ενημερώνω ότι από τη Δευτέρα αλλάζει το σύστημα εισόδου. Δεν θα χρειάζεστε πια την κάρτα, αλλά έναν προσωπικό κωδικό, που θα σας σταλεί με μήνυμα. Τις πρώτες μέρες θα υπάρχει υπάλληλος στην είσοδο για να βοηθάει.",
+     "en": "Also, I'd like to let you know that from Monday the entry system is changing. You won't need the card any more, but a personal code, which will be sent to you by text. For the first few days there'll be a member of staff at the entrance to help."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Και κάτι τελευταίο: όταν ήρθατε την προηγούμενη φορά, αφήσατε ένα φωτιστικό στον διάδρομο, έξω από την αποθήκη σας. Το έχουμε κρατήσει στη ρεσεψιόν. Περάστε να το πάρετε όποτε σας βολεύει.",
+     "en": "And one last thing: when you came last time, you left a lamp in the corridor, outside your unit. We've kept it at reception. Drop by and pick it up whenever it suits you."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκπτωση παίρνει ο πελάτης αν ανανεώσει για έξι μήνες;",
+     "options": [
+      "Δεκαπέντε τοις εκατό",
+      "Δέκα τοις εκατό",
+      "Πέντε τοις εκατό",
+      "Έναν μήνα δωρεάν"
+     ],
+     "answer": "Δεκαπέντε τοις εκατό",
+     "why": "έχετε έκπτωση δεκαπέντε τοις εκατό"
+    },
+    {
+     "q": "Τι αλλάζει από τη Δευτέρα;",
+     "options": [
+      "Το ωράριο",
+      "Το σύστημα εισόδου",
+      "Η τιμή",
+      "Ο αριθμός της αποθήκης"
+     ],
+     "answer": "Το σύστημα εισόδου",
+     "why": "από τη Δευτέρα αλλάζει το σύστημα εισόδου"
+    },
+    {
+     "q": "Τι ξέχασε ο πελάτης την προηγούμενη φορά;",
+     "options": [
+      "Τα κλειδιά του",
+      "Την κάρτα του",
+      "Ένα φωτιστικό στον διάδρομο",
+      "Ένα κουτί με βιβλία"
+     ],
+     "answer": "Ένα φωτιστικό στον διάδρομο",
+     "why": "αφήσατε ένα φωτιστικό στον διάδρομο"
+    }
+   ],
+   "gloss": {
+    "αποθηκευτικό": "αποθηκευτικός χώρος — storage unit",
+    "ανακαινίζεται": "ανακαινίζομαι — to be renovated",
+    "σύμβασή": "σύμβαση — contract",
+    "ανανεώσετε": "ανανεώνω — to renew",
+    "φωτιστικό": "φωτιστικό — lamp, light fitting"
+   }
+  },
+  {
+   "id": "l199-mono-otoaspides",
+   "title": "Κοιμάμαι με ωτοασπίδες",
+   "title_en": "I sleep with earplugs",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ένας ακροατής μιλάει σε μια ραδιοφωνική εκπομπή για τον ύπνο του.",
+   "script": [
+    {
+     "speaker": "Ηλίας",
+     "voice": "m",
+     "el": "Μένω σε έναν κεντρικό δρόμο της Θεσσαλονίκης, στον δεύτερο όροφο. Τα πρώτα χρόνια ξυπνούσα με κάθε μηχανάκι, με κάθε απορριμματοφόρο, με κάθε παρέα που γύριζε από το μπαρ στις τρεις τα ξημερώματα. Το πρωί πήγαινα στη δουλειά σαν να μην είχα κοιμηθεί καθόλου.",
+     "en": "I live on a main road in Thessaloniki, on the second floor. The first few years I woke up with every motorbike, every rubbish truck, every group coming back from the bar at three in the morning. In the morning I went to work as if I hadn't slept at all."
+    },
+    {
+     "speaker": "Ηλίας",
+     "voice": "m",
+     "el": "Δοκίμασα τα πάντα: διπλά τζάμια, βαριές κουρτίνες, ακόμα και μια εφαρμογή με ήχους βροχής. Στο τέλος ένας φίλος μού έδωσε ένα ζευγάρι ωτοασπίδες από σιλικόνη. Την πρώτη νύχτα ένιωθα σαν να είχα το κεφάλι μέσα σε ένα ενυδρείο. Άκουγα την καρδιά μου και την αναπνοή μου, και αυτό με ενοχλούσε περισσότερο από τον δρόμο.",
+     "en": "I tried everything: double glazing, heavy curtains, even an app with rain sounds. In the end a friend gave me a pair of silicone earplugs. The first night I felt as if my head was inside an aquarium. I could hear my heart and my breathing, and that bothered me more than the road."
+    },
+    {
+     "speaker": "Ηλίας",
+     "voice": "m",
+     "el": "Μετά από μία εβδομάδα όμως συνήθισα. Τώρα δεν μπορώ να κοιμηθώ χωρίς αυτές, ούτε καν στο χωριό, όπου ο μόνος θόρυβος είναι ο κόκορας. Το μόνο πρόβλημα είναι το ξυπνητήρι. Έχω βάλει το κινητό να δονείται κάτω από το μαξιλάρι.",
+     "en": "But after a week I got used to it. Now I can't sleep without them, not even in the village, where the only noise is the rooster. The only problem is the alarm clock. I've set the phone to vibrate under the pillow."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι τον ξυπνούσε τα πρώτα χρόνια;",
+     "options": [
+      "Οι γείτονες του επάνω ορόφου",
+      "Ο θόρυβος του δρόμου",
+      "Ο κόκορας",
+      "Το ξυπνητήρι"
+     ],
+     "answer": "Ο θόρυβος του δρόμου",
+     "why": "ξυπνούσα με κάθε μηχανάκι, με κάθε απορριμματοφόρο"
+    },
+    {
+     "q": "Τι τον ενοχλούσε την πρώτη νύχτα με τις ωτοασπίδες;",
+     "options": [
+      "Ότι άκουγε ακόμα τον δρόμο",
+      "Ότι πονούσαν τα αυτιά του",
+      "Ότι άκουγε την καρδιά και την αναπνοή του",
+      "Ότι έπεφταν"
+     ],
+     "answer": "Ότι άκουγε την καρδιά και την αναπνοή του",
+     "why": "Άκουγα την καρδιά μου και την αναπνοή μου"
+    },
+    {
+     "q": "Πώς λύνει το πρόβλημα με το ξυπνητήρι;",
+     "options": [
+      "Βάζει το κινητό να δονείται κάτω από το μαξιλάρι",
+      "Βγάζει τις ωτοασπίδες νωρίς το πρωί",
+      "Δεν βάζει ξυπνητήρι",
+      "Ζητάει από κάποιον να τον ξυπνάει"
+     ],
+     "answer": "Βάζει το κινητό να δονείται κάτω από το μαξιλάρι",
+     "why": "Έχω βάλει το κινητό να δονείται κάτω από το μαξιλάρι"
+    }
+   ],
+   "gloss": {
+    "ωτοασπίδες": "ωτοασπίδα — earplug",
+    "απορριμματοφόρο": "απορριμματοφόρο — rubbish truck",
+    "ενυδρείο": "ενυδρείο — aquarium",
+    "κόκορας": "κόκορας — rooster",
+    "δονείται": "δονούμαι — to vibrate"
+   }
+  },
+  {
+   "id": "l199-dia-thesi-sto-parathyro",
+   "title": "Ποιος θα κάτσει στο παράθυρο;",
+   "title_en": "Who gets the window seat?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Δύο αδέλφια ετοιμάζονται για ένα ταξίδι με λεωφορείο από την Αθήνα στα Γιάννενα.",
+   "script": [
+    {
+     "speaker": "Νεφέλη",
+     "voice": "f",
+     "el": "Λοιπόν, πριν μπούμε, να το ξεκαθαρίσουμε: εγώ κάθομαι στο παράθυρο. Την προηγούμενη φορά κάθισες εσύ όλο το ταξίδι.",
+     "en": "Right, before we get on, let's get this straight: I'm sitting by the window. Last time you sat there the whole journey."
+    },
+    {
+     "speaker": "Οδυσσέας",
+     "voice": "m",
+     "el": "Ναι, αλλά την προηγούμενη φορά ήταν νύχτα και δεν έβλεπες τίποτα. Σήμερα θα περάσουμε από τη γέφυρα Ρίου-Αντιρρίου με φως. Θέλω να τη φωτογραφίσω.",
+     "en": "Yes, but last time it was night and you couldn't see anything. Today we'll cross the Rio–Antirrio bridge in daylight. I want to photograph it."
+    },
+    {
+     "speaker": "Νεφέλη",
+     "voice": "f",
+     "el": "Κι εγώ θέλω να τη δω. Και ξέρεις ότι ζαλίζομαι αν δεν κοιτάζω έξω. Θες να περάσω τέσσερις ώρες με μια σακούλα στο χέρι;",
+     "en": "I want to see it too. And you know I get travel-sick if I don't look out. Do you want me to spend four hours with a bag in my hand?"
+    },
+    {
+     "speaker": "Οδυσσέας",
+     "voice": "m",
+     "el": "Καλά, καλά. Πρόταση: εσύ κάθεσαι στο παράθυρο ως τη στάση στην Αμφιλοχία, και μετά αλλάζουμε. Όταν περνάμε τη γέφυρα, μου δίνεις το κινητό σου να φωτογραφίσω από τη μεριά σου.",
+     "en": "All right, all right. Proposal: you sit by the window as far as the stop at Amfilochia, and then we swap. When we cross the bridge, you give me your phone so I can take a photo from your side."
+    },
+    {
+     "speaker": "Νεφέλη",
+     "voice": "f",
+     "el": "Σύμφωνοι. Αλλά αν κοιμηθείς μετά την Αμφιλοχία, το παράθυρο ξαναγίνεται δικό μου.",
+     "en": "Deal. But if you fall asleep after Amfilochia, the window becomes mine again."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί θέλει ο Οδυσσέας να καθίσει στο παράθυρο;",
+     "options": [
+      "Γιατί θέλει να κοιμηθεί",
+      "Γιατί ζαλίζεται",
+      "Γιατί έχει περισσότερο χώρο",
+      "Για να φωτογραφίσει τη γέφυρα Ρίου-Αντιρρίου"
+     ],
+     "answer": "Για να φωτογραφίσει τη γέφυρα Ρίου-Αντιρρίου",
+     "why": "Θέλω να τη φωτογραφίσω"
+    },
+    {
+     "q": "Γιατί η Νεφέλη χρειάζεται να κοιτάζει έξω;",
+     "options": [
+      "Γιατί θέλει να δει το χωριό τους",
+      "Γιατί ζαλίζεται αν δεν κοιτάζει έξω",
+      "Γιατί δεν έχει βιβλίο",
+      "Γιατί βαριέται"
+     ],
+     "answer": "Γιατί ζαλίζεται αν δεν κοιτάζει έξω",
+     "why": "ζαλίζομαι αν δεν κοιτάζω έξω"
+    },
+    {
+     "q": "Τι συμφωνούν τελικά;",
+     "options": [
+      "Να αλλάξουν θέσεις στη στάση στην Αμφιλοχία",
+      "Να κάθονται στο παράθυρο εναλλάξ κάθε ώρα",
+      "Να πάρουν άλλο λεωφορείο",
+      "Να κάθεται ο Οδυσσέας στο παράθυρο όλο το ταξίδι"
+     ],
+     "answer": "Να αλλάξουν θέσεις στη στάση στην Αμφιλοχία",
+     "why": "εσύ κάθεσαι στο παράθυρο ως τη στάση στην Αμφιλοχία, και μετά αλλάζουμε"
+    }
+   ],
+   "gloss": {
+    "ξεκαθαρίσουμε": "ξεκαθαρίζω — to clear up, settle",
+    "ζαλίζομαι": "ζαλίζομαι — to feel dizzy, travel-sick",
+    "μεριά": "μεριά — side",
+    "Σύμφωνοι": "σύμφωνος — agreed"
+   }
+  },
+  {
+   "id": "l199-rep-psarades-plastika",
+   "title": "Ψαράδες που ψαρεύουν πλαστικά",
+   "title_en": "Fishermen who fish for plastic",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ρεπορτάζ από μια ραδιοφωνική εκπομπή για το περιβάλλον.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Κάθε φορά που ανεβάζουν τα δίχτυα, οι ψαράδες του μικρού λιμανιού βρίσκουν ανάμεσα στα ψάρια και κάτι άλλο: μπουκάλια, σακούλες, κομμάτια από παλιά δίχτυα. Μέχρι πριν από λίγα χρόνια τα πετούσαν πάλι στη θάλασσα. Σήμερα τα μαζεύουν σε μεγάλους σάκους.",
+     "en": "Every time they haul up their nets, the fishermen of the small harbour find something else among the fish: bottles, bags, pieces of old nets. Until a few years ago they threw them back into the sea. Today they collect them in big sacks."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Το πρόγραμμα ξεκίνησε μια περιβαλλοντική οργάνωση, σε συνεργασία με τον δήμο. Στο λιμάνι υπάρχει ένας ειδικός κάδος, και κάθε μήνα τα πλαστικά ζυγίζονται. Οι ψαράδες δεν πληρώνονται για αυτή τη δουλειά, αλλά η οργάνωση τούς δίνει καινούργια εργαλεία και τους βοηθάει να επισκευάζουν τα δίχτυα τους.",
+     "en": "The programme was started by an environmental organisation, in cooperation with the municipality. In the harbour there is a special bin, and every month the plastic is weighed. The fishermen aren't paid for this work, but the organisation gives them new gear and helps them repair their nets."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Μέσα σε έναν χρόνο μαζεύτηκαν πάνω από τρεις τόνοι πλαστικά. Ένα μέρος από τα παλιά δίχτυα γίνεται νήμα για ρούχα και τσάντες. Ο γηραιότερος ψαράς του λιμανιού λέει ότι στα νιάτα του έβγαζε περισσότερα ψάρια και λιγότερα σκουπίδια. «Τώρα», λέει, «τουλάχιστον καθαρίζουμε λίγο το σπίτι μας».",
+     "en": "Within a year more than three tonnes of plastic were collected. Part of the old nets becomes yarn for clothes and bags. The oldest fisherman in the harbour says that in his youth he brought up more fish and less rubbish. 'Now,' he says, 'at least we're cleaning our house a little.'"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκαναν παλιά οι ψαράδες με τα πλαστικά που έβρισκαν;",
+     "options": [
+      "Τα πετούσαν πάλι στη θάλασσα",
+      "Τα έκαιγαν",
+      "Τα πουλούσαν",
+      "Τα έδιναν στον δήμο"
+     ],
+     "answer": "Τα πετούσαν πάλι στη θάλασσα",
+     "why": "τα πετούσαν πάλι στη θάλασσα"
+    },
+    {
+     "q": "Τι παίρνουν οι ψαράδες για αυτή τη δουλειά;",
+     "options": [
+      "Δωρεάν καύσιμα",
+      "Τίποτα απολύτως",
+      "Καινούργια εργαλεία και βοήθεια στην επισκευή των διχτυών",
+      "Μισθό"
+     ],
+     "answer": "Καινούργια εργαλεία και βοήθεια στην επισκευή των διχτυών",
+     "why": "η οργάνωση τούς δίνει καινούργια εργαλεία"
+    },
+    {
+     "q": "Τι γίνεται με ένα μέρος από τα παλιά δίχτυα;",
+     "options": [
+      "Χρησιμοποιείται ξανά για ψάρεμα",
+      "Καίγεται",
+      "Γίνεται νήμα για ρούχα και τσάντες",
+      "Πηγαίνει σε μουσείο"
+     ],
+     "answer": "Γίνεται νήμα για ρούχα και τσάντες",
+     "why": "Ένα μέρος από τα παλιά δίχτυα γίνεται νήμα για ρούχα και τσάντες"
+    }
+   ],
+   "gloss": {
+    "δίχτυα": "δίχτυ — fishing net",
+    "σάκους": "σάκος — sack",
+    "ζυγίζονται": "ζυγίζομαι — to be weighed",
+    "νήμα": "νήμα — yarn, thread",
+    "γηραιότερος": "γηραιότερος — oldest, eldest"
+   }
+  },
+  {
+   "id": "l199-rep-mathites-girokomeio",
+   "title": "Μαθητές διαβάζουν σε ηλικιωμένους",
+   "title_en": "Pupils read to elderly people",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ρεπορτάζ από την εκπομπή ενός τοπικού ραδιοφωνικού σταθμού.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Κάθε Τετάρτη μεσημέρι, μια ομάδα μαθητών του γυμνασίου περπατά δύο τετράγωνα ως το γηροκομείο της γειτονιάς. Στην αίθουσα τους περιμένουν περίπου δεκαπέντε ηλικιωμένοι, πολλοί από τους οποίους δεν βλέπουν πια καλά για να διαβάσουν μόνοι τους.",
+     "en": "Every Wednesday at midday, a group of secondary-school pupils walks two blocks to the neighbourhood care home. In the hall about fifteen elderly people are waiting for them, many of whom can no longer see well enough to read on their own."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Τα παιδιά διαβάζουν δυνατά εφημερίδες, διηγήματα και μερικές φορές ποιήματα που διαλέγουν οι ίδιοι οι ακροατές τους. Μετά ακολουθεί συζήτηση. Μια κυρία ενενήντα χρονών διορθώνει συχνά την προφορά τους· ήταν δασκάλα για σαράντα χρόνια.",
+     "en": "The children read aloud newspapers, short stories and sometimes poems chosen by their listeners themselves. Then comes a discussion. A ninety-year-old lady often corrects their pronunciation; she was a teacher for forty years."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η φιλόλογος που οργάνωσε το πρόγραμμα λέει ότι οι μαθητές έγιναν πιο σίγουροι όταν μιλούν μπροστά σε κόσμο. Οι ηλικιωμένοι, από την άλλη, περιμένουν την Τετάρτη όλη την εβδομάδα. Και κάτι που δεν είχε προβλέψει κανείς: πολλοί μαθητές συνεχίζουν να επισκέπτονται τους «ακροατές» τους και στις διακοπές.",
+     "en": "The Greek teacher who organised the programme says the pupils have become more confident speaking in front of people. The elderly, on the other hand, wait all week for Wednesday. And something nobody had predicted: many pupils keep visiting their 'listeners' during the holidays too."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί πολλοί ηλικιωμένοι δεν διαβάζουν μόνοι τους;",
+     "options": [
+      "Γιατί βαριούνται",
+      "Γιατί δεν βλέπουν πια καλά",
+      "Γιατί δεν ξέρουν γράμματα",
+      "Γιατί δεν έχουν βιβλία"
+     ],
+     "answer": "Γιατί δεν βλέπουν πια καλά",
+     "why": "δεν βλέπουν πια καλά για να διαβάσουν μόνοι τους"
+    },
+    {
+     "q": "Τι κάνει η κυρία των ενενήντα χρονών;",
+     "options": [
+      "Διαβάζει ποιήματα",
+      "Φέρνει γλυκά",
+      "Διορθώνει την προφορά των μαθητών",
+      "Γράφει διηγήματα"
+     ],
+     "answer": "Διορθώνει την προφορά των μαθητών",
+     "why": "διορθώνει συχνά την προφορά τους"
+    },
+    {
+     "q": "Τι δεν είχε προβλέψει κανείς;",
+     "options": [
+      "Ότι οι ηλικιωμένοι θα ήθελαν ποιήματα",
+      "Ότι το πρόγραμμα θα έκλεινε",
+      "Ότι πολλοί μαθητές θα συνέχιζαν τις επισκέψεις και στις διακοπές",
+      "Ότι θα έρχονταν τόσοι μαθητές"
+     ],
+     "answer": "Ότι πολλοί μαθητές θα συνέχιζαν τις επισκέψεις και στις διακοπές",
+     "why": "πολλοί μαθητές συνεχίζουν να επισκέπτονται τους «ακροατές» τους και στις διακοπές"
+    }
+   ],
+   "gloss": {
+    "γηροκομείο": "γηροκομείο — care home, old people's home",
+    "τετράγωνα": "τετράγωνο — (city) block",
+    "διηγήματα": "διήγημα — short story",
+    "προφορά": "προφορά — pronunciation",
+    "προβλέψει": "προβλέπω — to foresee, predict"
+   }
+  },
+  {
+   "id": "l199-news-spanio-psari",
+   "title": "Σπάνιο ψάρι των βαθέων υδάτων στα δίχτυα ψαράδων",
+   "title_en": "A rare deep-sea fish in fishermen's nets",
+   "type": "news",
+   "level": "B2",
+   "context_el": "Ακούτε μια είδηση στο δελτίο ειδήσεων του ραδιοφώνου.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Ένα σπάνιο ψάρι των βαθέων υδάτων, με μακρύ ασημένιο σώμα και κόκκινο λοφίο, πιάστηκε χθες στα δίχτυα ψαράδων ανοιχτά της νότιας Κρήτης. Το ψάρι είχε μήκος σχεδόν τρία μέτρα και, σύμφωνα με τους ψαράδες, ήταν ήδη νεκρό όταν το ανέβασαν στο σκάφος.",
+     "en": "A rare deep-sea fish, with a long silver body and a red crest, was caught yesterday in fishermen's nets off southern Crete. The fish was almost three metres long and, according to the fishermen, was already dead when they brought it aboard."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Τα ψάρια αυτού του είδους ζουν συνήθως σε βάθος εκατοντάδων μέτρων και σπάνια εμφανίζονται κοντά στην επιφάνεια. Γι' αυτό γύρω τους έχουν δημιουργηθεί πολλοί θρύλοι, ενώ κάποιοι ναυτικοί τα θεωρούσαν παλιότερα σημάδι κακοκαιρίας.",
+     "en": "Fish of this species usually live at depths of hundreds of metres and rarely appear near the surface. That's why many legends have grown up around them, and some sailors used to consider them a sign of bad weather."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Οι ψαράδες ειδοποίησαν αμέσως ένα ερευνητικό ινστιτούτο, και το ψάρι μεταφέρθηκε σε εργαστήριο για μελέτη. Οι επιστήμονες ζητούν από όποιον εντοπίσει παρόμοιο ψάρι να το φωτογραφίσει και να ενημερώσει τις αρχές.",
+     "en": "The fishermen immediately notified a research institute, and the fish was taken to a laboratory for study. The scientists ask anyone who spots a similar fish to photograph it and inform the authorities."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πόσο μήκος είχε το ψάρι;",
+     "options": [
+      "Μισό μέτρο",
+      "Πέντε μέτρα",
+      "Σχεδόν τρία μέτρα",
+      "Ένα μέτρο"
+     ],
+     "answer": "Σχεδόν τρία μέτρα",
+     "why": "Το ψάρι είχε μήκος σχεδόν τρία μέτρα"
+    },
+    {
+     "q": "Γιατί έχουν δημιουργηθεί θρύλοι γύρω από αυτά τα ψάρια;",
+     "options": [
+      "Γιατί είναι πολύ μικρά",
+      "Γιατί είναι επικίνδυνα",
+      "Γιατί σπάνια εμφανίζονται κοντά στην επιφάνεια",
+      "Γιατί είναι νόστιμα"
+     ],
+     "answer": "Γιατί σπάνια εμφανίζονται κοντά στην επιφάνεια",
+     "why": "σπάνια εμφανίζονται κοντά στην επιφάνεια"
+    },
+    {
+     "q": "Τι ζητούν οι επιστήμονες;",
+     "options": [
+      "Να τα φέρνουν στο εργαστήριο",
+      "Να φωτογραφίζουν τα παρόμοια ψάρια και να ενημερώνουν τις αρχές",
+      "Να μην ψαρεύει κανείς στην περιοχή",
+      "Να τα ξαναρίχνουν στη θάλασσα"
+     ],
+     "answer": "Να φωτογραφίζουν τα παρόμοια ψάρια και να ενημερώνουν τις αρχές",
+     "why": "να το φωτογραφίσει και να ενημερώσει τις αρχές"
+    }
+   ],
+   "gloss": {
+    "βαθέων": "βαθέων υδάτων — deep-sea",
+    "λοφίο": "λοφίο — crest",
+    "θρύλοι": "θρύλος — legend",
+    "κακοκαιρίας": "κακοκαιρία — bad weather",
+    "ινστιτούτο": "ινστιτούτο — institute"
+   }
+  },
+  {
+   "id": "l199-c1-mono-strogyloi-arithmoi",
+   "title": "Γιατί οι στρογγυλοί αριθμοί μάς επηρεάζουν;",
+   "title_en": "Why do round numbers affect us?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Απόσπασμα από podcast για την ψυχολογία της καθημερινής ζωής.",
+   "script": [
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Τα τριάντα, τα σαράντα, τα πενήντα: τα γενέθλια με το μηδέν στο τέλος μοιάζουν να έχουν ένα βάρος που δεν έχουν τα τριάντα τρία ή τα σαράντα επτά. Λογικά δεν υπάρχει καμία διαφορά· είναι απλώς μια μέρα μετά την προηγούμενη. Κι όμως, οι στρογγυλοί αριθμοί λειτουργούν σαν ορόσημα, σαν μικρές γραμμές τερματισμού μέσα στη ζωή μας.",
+     "en": "Thirty, forty, fifty: birthdays with a zero at the end seem to carry a weight that thirty-three or forty-seven don't. Logically there's no difference; it's just one day after the previous one. And yet round numbers work like milestones, like little finishing lines within our lives."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Μια γνωστή μελέτη πρότεινε μάλιστα ότι οι άνθρωποι αλλάζουν συμπεριφορά λίγο πριν από ένα τέτοιο ορόσημο, όταν η ηλικία τους τελειώνει σε εννιά. Οι ερευνητές βρήκαν, για παράδειγμα, ότι ανάμεσα σε όσους έτρεχαν τον πρώτο τους μαραθώνιο, οι εικοσιεννιάχρονοι, οι τριανταεννιάχρονοι και οι σαρανταεννιάχρονοι ήταν περισσότεροι απ' ό,τι θα περίμενε κανείς. Η ερμηνεία τους ήταν ότι η επερχόμενη αλλαγή δεκαετίας μάς κάνει να αναρωτιόμαστε αν η ζωή μας έχει νόημα.",
+     "en": "One well-known study even suggested that people change their behaviour just before such a milestone, when their age ends in nine. The researchers found, for example, that among people running their first marathon, twenty-nine-, thirty-nine- and forty-nine-year-olds were more numerous than one would expect. Their interpretation was that the coming change of decade makes us wonder whether our life has meaning."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Η ίδια αδυναμία μας για τα στρογγυλά νούμερα εξηγεί γιατί οι τιμές στα μαγαζιά τελειώνουν σε ενενήντα εννιά λεπτά: το πρώτο ψηφίο μετράει δυσανάλογα, και τα εννιά ευρώ και ενενήντα εννιά μας φαίνονται πιο κοντά στα εννιά παρά στα δέκα. Αξίζει λοιπόν, την επόμενη φορά που θα πλησιάζουμε ένα «μεγάλο» νούμερο, να θυμηθούμε ότι το μηδέν δεν το έβαλε η φύση· το βάλαμε εμείς.",
+     "en": "The same weakness of ours for round numbers explains why shop prices end in ninety-nine cents: the first digit counts disproportionately, and nine euros ninety-nine seems closer to nine than to ten. So it's worth remembering, the next time we approach a 'big' number, that the zero wasn't put there by nature; we put it there."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς λειτουργούν οι στρογγυλοί αριθμοί, κατά την παρουσιάστρια;",
+     "options": [
+      "Σαν ορόσημα, μικρές γραμμές τερματισμού",
+      "Σαν τυχεροί αριθμοί",
+      "Δεν έχουν καμία επίδραση",
+      "Σαν προειδοποιήσεις"
+     ],
+     "answer": "Σαν ορόσημα, μικρές γραμμές τερματισμού",
+     "why": "οι στρογγυλοί αριθμοί λειτουργούν σαν ορόσημα"
+    },
+    {
+     "q": "Τι βρήκε η μελέτη για τους μαραθωνοδρόμους;",
+     "options": [
+      "Ότι λίγοι τρέχουν μετά τα πενήντα",
+      "Ότι όσοι η ηλικία τους τελείωνε σε εννιά ήταν περισσότεροι απ' ό,τι αναμενόταν",
+      "Ότι οι νέοι τρέχουν πιο γρήγορα",
+      "Ότι οι γυναίκες τρέχουν περισσότερο"
+     ],
+     "answer": "Ότι όσοι η ηλικία τους τελείωνε σε εννιά ήταν περισσότεροι απ' ό,τι αναμενόταν",
+     "why": "οι εικοσιεννιάχρονοι, οι τριανταεννιάχρονοι και οι σαρανταεννιάχρονοι ήταν περισσότεροι απ' ό,τι θα περίμενε κανείς"
+    },
+    {
+     "q": "Πώς ερμήνευσαν οι ερευνητές το αποτέλεσμα;",
+     "options": [
+      "Οι γιατροί το συστήνουν",
+      "Η αλλαγή δεκαετίας μάς κάνει να αναρωτιόμαστε για το νόημα της ζωής μας",
+      "Οι άνθρωποι έχουν περισσότερο ελεύθερο χρόνο",
+      "Οι μαραθώνιοι γίνονται πιο εύκολοι"
+     ],
+     "answer": "Η αλλαγή δεκαετίας μάς κάνει να αναρωτιόμαστε για το νόημα της ζωής μας",
+     "why": "η επερχόμενη αλλαγή δεκαετίας μάς κάνει να αναρωτιόμαστε αν η ζωή μας έχει νόημα"
+    },
+    {
+     "q": "Γιατί οι τιμές τελειώνουν σε ενενήντα εννιά λεπτά;",
+     "options": [
+      "Από παλιά συνήθεια χωρίς λόγο",
+      "Γιατί το πρώτο ψηφίο μετράει δυσανάλογα",
+      "Λόγω φόρων",
+      "Για να υπάρχουν ρέστα"
+     ],
+     "answer": "Γιατί το πρώτο ψηφίο μετράει δυσανάλογα",
+     "why": "το πρώτο ψηφίο μετράει δυσανάλογα"
+    }
+   ],
+   "gloss": {
+    "ορόσημα": "ορόσημο — milestone",
+    "τερματισμού": "τερματισμός — finish (of a race)",
+    "επερχόμενη": "επερχόμενος — forthcoming, coming",
+    "ψηφίο": "ψηφίο — digit",
+    "δυσανάλογα": "δυσανάλογα — disproportionately",
+    "αδυναμία": "αδυναμία — weakness, soft spot"
+   }
+  },
+  {
+   "id": "l199-c1-int-chronos-se-kindyno",
+   "title": "Γιατί ο χρόνος μοιάζει να επιβραδύνεται όταν κινδυνεύουμε;",
+   "title_en": "Why does time seem to slow down when we're in danger?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Συνέντευξη με μια νευροεπιστήμονα σε μια εκπομπή για την επιστήμη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πολλοί που έχουν ζήσει ένα τροχαίο ή μια πτώση λένε ότι όλα έγιναν «σε αργή κίνηση». Βλέπουμε πράγματι τον κόσμο πιο αργά σε τέτοιες στιγμές;",
+     "en": "Many people who've been through a car accident or a fall say everything happened 'in slow motion'. Do we really see the world more slowly at such moments?"
+    },
+    {
+     "speaker": "Νευροεπιστήμονας",
+     "voice": "f",
+     "el": "Αυτό ακριβώς θέλησαν να ελέγξουν κάποιοι ερευνητές με ένα αρκετά τολμηρό πείραμα. Εθελοντές έπεφταν ελεύθερα από ένα ψηλό ικρίωμα σε ένα δίχτυ ασφαλείας, φορώντας στον καρπό μια μικρή οθόνη που έδειχνε αριθμούς να αναβοσβήνουν τόσο γρήγορα που, σε κανονικές συνθήκες, δεν μπορούσε κανείς να τους διαβάσει. Αν ο χρόνος πραγματικά «επιβραδυνόταν» για τον εγκέφαλο, θα έπρεπε να τους διαβάζουν κατά τη διάρκεια της πτώσης.",
+     "en": "That's exactly what some researchers wanted to test with a fairly daring experiment. Volunteers fell freely from a tall scaffold into a safety net, wearing on their wrist a small display that showed numbers flashing so fast that, under normal conditions, no one could read them. If time really 'slowed down' for the brain, they should have been able to read them during the fall."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και τους διάβαζαν;",
+     "en": "And could they read them?"
+    },
+    {
+     "speaker": "Νευροεπιστήμονας",
+     "voice": "f",
+     "el": "Όχι. Η αντίληψή τους δεν είχε γίνει ταχύτερη. Όταν όμως τους ζήτησαν να εκτιμήσουν πόσο κράτησε η πτώση τους, την υπολόγισαν σημαντικά μεγαλύτερη απ' ό,τι υπολόγιζαν την πτώση των άλλων. Η εξήγηση που προτάθηκε είναι ότι η επιβράδυνση δεν συμβαίνει τη στιγμή του κινδύνου αλλά στη μνήμη. Σε μια τρομακτική κατάσταση, ο εγκέφαλος καταγράφει πολύ περισσότερες λεπτομέρειες, και όταν ανατρέχουμε σε αυτή την πυκνή ανάμνηση, μας φαίνεται ότι κράτησε περισσότερο.",
+     "en": "No. Their perception hadn't become faster. But when they were asked to estimate how long their fall lasted, they judged it considerably longer than they judged other people's falls. The explanation proposed is that the slowing down doesn't happen at the moment of danger but in memory. In a frightening situation, the brain records many more details, and when we go back to that dense memory, it seems to us that it lasted longer."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Δηλαδή η «αργή κίνηση» είναι μια ψευδαίσθηση;",
+     "en": "So 'slow motion' is an illusion?"
+    },
+    {
+     "speaker": "Νευροεπιστήμονας",
+     "voice": "f",
+     "el": "Είναι μια ανακατασκευή. Δεν ζήσαμε τη στιγμή πιο αργά· τη θυμόμαστε πιο πλούσια. Το ίδιο εξηγεί εν μέρει γιατί οι πρώτες μέρες σε ένα καινούργιο μέρος, γεμάτες νέες εντυπώσεις, μοιάζουν στο τέλος των διακοπών πολύ μεγαλύτερες από τις τελευταίες.",
+     "en": "It's a reconstruction. We didn't live the moment more slowly; we remember it more richly. The same partly explains why the first days in a new place, full of new impressions, seem much longer at the end of the holiday than the last ones."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι φορούσαν οι εθελοντές στον καρπό;",
+     "options": [
+      "Έναν μετρητή καρδιακών παλμών",
+      "Μια μικρή οθόνη με αριθμούς που αναβόσβηναν πολύ γρήγορα",
+      "Μια κάμερα",
+      "Ένα ρολόι χειρός"
+     ],
+     "answer": "Μια μικρή οθόνη με αριθμούς που αναβόσβηναν πολύ γρήγορα",
+     "why": "μια μικρή οθόνη που έδειχνε αριθμούς να αναβοσβήνουν"
+    },
+    {
+     "q": "Τι έδειξε το πείραμα για την αντίληψη;",
+     "options": [
+      "Ότι γίνεται πιο αργή",
+      "Ότι γίνεται ταχύτερη σε κίνδυνο",
+      "Ότι δεν είχε γίνει ταχύτερη",
+      "Ότι σταματά εντελώς"
+     ],
+     "answer": "Ότι δεν είχε γίνει ταχύτερη",
+     "why": "Η αντίληψή τους δεν είχε γίνει ταχύτερη"
+    },
+    {
+     "q": "Πού συμβαίνει, σύμφωνα με την εξήγηση, η «επιβράδυνση»;",
+     "options": [
+      "Στα μάτια",
+      "Στη μνήμη",
+      "Στην καρδιά",
+      "Στους μύες"
+     ],
+     "answer": "Στη μνήμη",
+     "why": "η επιβράδυνση δεν συμβαίνει τη στιγμή του κινδύνου αλλά στη μνήμη"
+    },
+    {
+     "q": "Ποιο καθημερινό παράδειγμα δίνει στο τέλος;",
+     "options": [
+      "Τα ταξίδια με αεροπλάνο",
+      "Την αναμονή στο γιατρό",
+      "Τις εξετάσεις στο σχολείο",
+      "Τις πρώτες μέρες των διακοπών που μοιάζουν μεγαλύτερες"
+     ],
+     "answer": "Τις πρώτες μέρες των διακοπών που μοιάζουν μεγαλύτερες",
+     "why": "οι πρώτες μέρες σε ένα καινούργιο μέρος, γεμάτες νέες εντυπώσεις, μοιάζουν στο τέλος των διακοπών πολύ μεγαλύτερες"
+    }
+   ],
+   "gloss": {
+    "επιβράδυνση": "επιβράδυνση — slowing down",
+    "νευροεπιστήμονα": "νευροεπιστήμονας — neuroscientist",
+    "τολμηρό": "τολμηρός — daring",
+    "ικρίωμα": "ικρίωμα — scaffold",
+    "αναβοσβήνουν": "αναβοσβήνω — to flash, blink",
+    "ανατρέχουμε": "ανατρέχω — to go back to, refer back",
+    "ανακατασκευή": "ανακατασκευή — reconstruction"
+   }
+  }
+ ]
+}
