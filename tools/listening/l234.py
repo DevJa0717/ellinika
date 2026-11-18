@@ -1,0 +1,89 @@
+# Source for library/listening/listening-234.json: four more B2–C1 listening items (script + questions + gloss).
+# Build: python3 tools/listening/l234.py
+import json, os, random
+
+def L(sp, v, el, en): return {"speaker": sp, "voice": v, "el": el, "en": en}
+def Q(q, opts, ans, why): return {"q": q, "options": opts, "answer": opts[ans], "why": why}
+
+ITEMS = []
+ITEMS.append({
+ "id": "l234-news-parking-podilaton", "title": "Ένα φυλασσόμενο πάρκινγκ ποδηλάτων στον σταθμό", "title_en": "A guarded bicycle park at the station", "type": "news", "level": "B2",
+ "context_el": "Ακούτε μια είδηση στο δελτίο ειδήσεων ενός τοπικού ραδιοφωνικού σταθμού.",
+ "script": [
+  L("Εκφωνήτρια", "f", "Ένα κλειστό και φυλασσόμενο πάρκινγκ για διακόσια ποδήλατα άνοιξε χθες δίπλα στον σιδηροδρομικό σταθμό της πόλης μας. Ο χώρος βρίσκεται σε μια παλιά αποθήκη του σταθμού, που ανακαινίστηκε με χρήματα από ένα ευρωπαϊκό πρόγραμμα.", "A closed, guarded car park for two hundred bicycles opened yesterday next to our city's railway station. The space is in an old station warehouse that was renovated with money from a European programme."),
+  L("Εκφωνήτρια", "f", "Το πάρκινγκ θα είναι ανοιχτό από τις πέντε και μισή το πρωί, πριν από το πρώτο τρένο, ως τα μεσάνυχτα. Υπάρχουν κάμερες και ένας φύλακας σε κάθε βάρδια, ενώ οι χρήστες μπαίνουν με μια κάρτα, την ίδια που χρησιμοποιούν για το λεωφορείο.", "The car park will be open from half past five in the morning, before the first train, until midnight. There are cameras and a guard on every shift, while users get in with a card, the same one they use for the bus."),
+  L("Εκφωνήτρια", "f", "Η χρήση είναι δωρεάν για όσους έχουν μηνιαία κάρτα απεριορίστων διαδρομών. Οι υπόλοιποι πληρώνουν πενήντα λεπτά την ημέρα. Στον χώρο λειτουργεί επίσης ένα μικρό συνεργείο, όπου μπορεί κανείς να φουσκώσει τα λάστιχα ή να κάνει μια γρήγορη επισκευή.", "Use is free for those with a monthly unlimited-travel card. Everyone else pays fifty cents a day. There is also a small repair workshop on site, where people can pump up their tyres or do a quick repair."),
+  L("Εκφωνήτρια", "f", "Σύμφωνα με τον δήμο, πολλοί κάτοικοι των γύρω χωριών δεν έπαιρναν το τρένο, γιατί φοβούνταν ότι θα τους κλέψουν το ποδήλατο. Αν το πάρκινγκ γεμίσει μέσα στους πρώτους μήνες, θα ανοίξει και δεύτερος χώρος στον σταθμό των υπεραστικών λεωφορείων.", "According to the municipality, many residents of the surrounding villages didn't take the train because they were afraid their bike would be stolen. If the car park fills up within the first few months, a second space will open at the intercity bus station."),
+ ],
+ "questions": [
+  Q("Πού βρίσκεται το νέο πάρκινγκ ποδηλάτων;", ["Κάτω από την πλατεία", "Σε μια παλιά αποθήκη του σταθμού", "Στην αυλή ενός σχολείου", "Δίπλα στο δημαρχείο"], 1, "Ο χώρος βρίσκεται σε μια παλιά αποθήκη του σταθμού"),
+  Q("Πώς μπαίνουν οι χρήστες;", ["Με κλειδί", "Με έναν κωδικό στο κινητό", "Με την ίδια κάρτα που χρησιμοποιούν για το λεωφορείο", "Δίνοντας την ταυτότητά τους στον φύλακα"], 2, "οι χρήστες μπαίνουν με μια κάρτα, την ίδια που χρησιμοποιούν για το λεωφορείο"),
+  Q("Ποιοι δεν πληρώνουν;", ["Οι μαθητές", "Όσοι έχουν μηνιαία κάρτα απεριορίστων διαδρομών", "Οι ηλικιωμένοι", "Όλοι τον πρώτο μήνα"], 1, "Η χρήση είναι δωρεάν για όσους έχουν μηνιαία κάρτα απεριορίστων διαδρομών"),
+  Q("Γιατί πολλοί κάτοικοι των χωριών δεν έπαιρναν το τρένο;", ["Γιατί ήταν ακριβό", "Γιατί φοβούνταν ότι θα τους κλέψουν το ποδήλατο", "Γιατί δεν υπήρχαν δρομολόγια", "Γιατί ο σταθμός ήταν κλειστός"], 1, "φοβούνταν ότι θα τους κλέψουν το ποδήλατο"),
+ ],
+ "gloss": {"φυλασσόμενο": "φυλασσόμενος — guarded", "αποθήκη": "αποθήκη — warehouse, storeroom", "ανακαινίστηκε": "ανακαινίζομαι — to be renovated", "φύλακας": "φύλακας — guard", "βάρδια": "βάρδια — shift", "απεριορίστων διαδρομών": "απεριόριστες διαδρομές — unlimited travel", "συνεργείο": "συνεργείο — repair workshop", "φουσκώσει": "φουσκώνω — to pump up, inflate", "λάστιχα": "λάστιχο — tyre", "υπεραστικών": "υπεραστικός — intercity"},
+})
+ITEMS.append({
+ "id": "l234-vm-apothiki-epiplon", "title": "Μήνυμα από την αποθήκη με τα έπιπλά σας", "title_en": "A message from the storage unit with your furniture", "type": "voicemail", "level": "B2",
+ "context_el": "Έχετε νοικιάσει έναν χώρο σε μια εταιρεία αποθήκευσης, όπου φυλάτε τα έπιπλά σας. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+ "script": [
+  L("Υπάλληλος", "m", "Καλησπέρα σας, σας καλώ από την εταιρεία αποθήκευσης στη Μεταμόρφωση, για τον χώρο είκοσι τρία που έχετε νοικιάσει από τον Μάρτιο. Θέλω να σας ενημερώσω για δύο πράγματα.", "Good evening, I'm calling from the storage company in Metamorfosi, about unit twenty-three that you've been renting since March. I want to let you know about two things."),
+  L("Υπάλληλος", "m", "Το πρώτο είναι ότι από τον Ιανουάριο το μηνιαίο ενοίκιο ανεβαίνει από σαράντα πέντε σε πενήντα ευρώ. Αν όμως πληρώσετε έξι μήνες μαζί, κρατάτε την παλιά τιμή ως τον Ιούνιο.", "The first is that from January the monthly rent goes up from forty-five to fifty euros. But if you pay six months together, you keep the old price until June."),
+  L("Υπάλληλος", "m", "Το δεύτερο είναι πιο σημαντικό. Μετά τις δυνατές βροχές της περασμένης εβδομάδας, μπήκε λίγο νερό σε μερικούς χώρους του ισογείου, ανάμεσά τους και στον δικό σας. Δεν φαίνεται να υπάρχει ζημιά, γιατί τα πράγματά σας είναι πάνω σε παλέτες, αλλά θα σας πρότεινα να έρθετε να ρίξετε μια ματιά, κυρίως στα χαρτόκουτα που ακουμπούν στον τοίχο.", "The second is more important. After the heavy rain last week, a little water got into some of the ground-floor units, including yours. There doesn't seem to be any damage, because your things are on pallets, but I'd suggest you come and take a look, especially at the cardboard boxes leaning against the wall."),
+  L("Υπάλληλος", "m", "Αν θέλετε, μπορούμε να σας μεταφέρουμε δωρεάν σε έναν χώρο ίδιου μεγέθους στον πρώτο όροφο, όπου δεν υπάρχει κανένας κίνδυνος. Χρειάζεται μόνο να μας πείτε μια μέρα που μπορείτε να είστε εδώ. Είμαστε ανοιχτά καθημερινά ως τις οχτώ. Ευχαριστώ.", "If you wish, we can move you free of charge to a unit of the same size on the first floor, where there's no risk at all. You just need to tell us a day you can be here. We're open daily until eight. Thank you."),
+ ],
+ "questions": [
+  Q("Τι αλλάζει από τον Ιανουάριο;", ["Το ωράριο της αποθήκης", "Το μηνιαίο ενοίκιο ανεβαίνει", "Ο αριθμός του χώρου", "Η διεύθυνση της εταιρείας"], 1, "από τον Ιανουάριο το μηνιαίο ενοίκιο ανεβαίνει από σαράντα πέντε σε πενήντα ευρώ"),
+  Q("Πώς μπορεί κανείς να κρατήσει την παλιά τιμή;", ["Πληρώνοντας έξι μήνες μαζί", "Νοικιάζοντας δεύτερο χώρο", "Πληρώνοντας με μετρητά", "Φέρνοντας έναν φίλο"], 0, "Αν όμως πληρώσετε έξι μήνες μαζί, κρατάτε την παλιά τιμή"),
+  Q("Γιατί δεν φαίνεται να υπάρχει ζημιά;", ["Γιατί το νερό ήταν πολύ λίγο", "Γιατί τα πράγματα είναι πάνω σε παλέτες", "Γιατί ο χώρος είναι στον πρώτο όροφο", "Γιατί τα έπιπλα είναι πλαστικά"], 1, "γιατί τα πράγματά σας είναι πάνω σε παλέτες"),
+  Q("Τι προτείνει ο υπάλληλος;", ["Να πάρει τα πράγματα στο σπίτι", "Να μεταφερθούν δωρεάν σε έναν χώρο στον πρώτο όροφο", "Να κάνει ασφάλεια", "Να αλλάξει εταιρεία"], 1, "μπορούμε να σας μεταφέρουμε δωρεάν σε έναν χώρο ίδιου μεγέθους στον πρώτο όροφο"),
+ ],
+ "gloss": {"αποθήκευσης": "αποθήκευση — storage", "νοικιάσει": "νοικιάζω — to rent", "ενοίκιο": "ενοίκιο — rent", "ισογείου": "ισόγειο — ground floor", "ζημιά": "ζημιά — damage", "παλέτες": "παλέτα — pallet", "ρίξετε μια ματιά": "ρίχνω μια ματιά — to take a look", "χαρτόκουτα": "χαρτόκουτο — cardboard box", "ακουμπούν": "ακουμπώ — to lean against, touch"},
+})
+ITEMS.append({
+ "id": "l234-c1-mono-ok", "title": "Πώς δύο γράμματα έγιναν η πιο διεθνής λέξη του κόσμου", "title_en": "How two letters became the world's most international word", "type": "monologue", "level": "C1",
+ "context_el": "Ακούτε ένα απόσπασμα από μια εκπομπή για την ιστορία των λέξεων.",
+ "script": [
+  L("Ομιλήτρια", "f", "Τη λέμε όλοι, σε σχεδόν κάθε γλώσσα, συχνά χωρίς να το καταλαβαίνουμε: «οκέι». Κι όμως, για πολλές δεκαετίες κανείς δεν ήξερε από πού προήλθε. Οι υποθέσεις ήταν άπειρες: από τη γλώσσα των αυτοχθόνων της Αμερικής μέχρι τα γαλλικά και τα ελληνικά, με το περίφημο «όλα καλά».", "We all say it, in almost every language, often without realising: 'okay'. And yet for many decades nobody knew where it came from. The theories were endless: from the language of Native Americans to French and Greek, with the famous 'όλα καλά'."),
+  L("Ομιλήτρια", "f", "Τη λύση έδωσε ένας Αμερικανός γλωσσολόγος στη δεκαετία του '60, ψάχνοντας με υπομονή σε παλιές εφημερίδες. Βρήκε ότι το 1839 μια εφημερίδα της Βοστόνης έγραψε «O.K.» ως σύντμηση του «oll korrect», δηλαδή ενός σκόπιμα λάθος γραμμένου «all correct», «όλα σωστά».", "The solution came from an American linguist in the sixties, searching patiently through old newspapers. He found that in 1839 a Boston newspaper wrote 'O.K.' as an abbreviation of 'oll korrect', that is, a deliberately misspelled 'all correct'."),
+  L("Ομιλήτρια", "f", "Ήταν μια μόδα της εποχής: οι δημοσιογράφοι διασκέδαζαν γράφοντας αρχικά από αστείες ανορθογραφίες. Οι περισσότερες ξεχάστηκαν μέσα σε λίγα χρόνια. Το «O.K.» επέζησε χάρη σε μια σύμπτωση: στις προεδρικές εκλογές του 1840, οι οπαδοί του Μάρτιν βαν Μπιούρεν, που είχε το παρατσούκλι «Old Kinderhook» από το χωριό όπου γεννήθηκε, ίδρυσαν «Λέσχες O.K.», και τα δύο γράμματα έγιναν σύνθημα.", "It was a fashion of the time: journalists amused themselves by writing initials of funny misspellings. Most were forgotten within a few years. 'O.K.' survived thanks to a coincidence: in the 1840 presidential election, the supporters of Martin Van Buren, who had the nickname 'Old Kinderhook' from the village where he was born, founded 'O.K. Clubs', and the two letters became a slogan."),
+  L("Ομιλήτρια", "f", "Αργότερα, ο τηλέγραφος, που ευνοούσε τα σύντομα μηνύματα, και αργότερα ο κινηματογράφος, την έκαναν παγκόσμια. Το εντυπωσιακό είναι ότι μια λέξη που γεννήθηκε ως αστείο κατέληξε να σημαίνει κάτι τόσο σοβαρό όσο η συμφωνία. Και ότι η ελληνική εξήγηση, όσο κι αν μας κολακεύει, δεν στηρίζεται σε κανένα στοιχείο.", "Later the telegraph, which favoured short messages, and later still the cinema made it global. The striking thing is that a word born as a joke ended up meaning something as serious as agreement. And that the Greek explanation, however much it flatters us, isn't supported by any evidence."),
+ ],
+ "questions": [
+  Q("Πώς βρέθηκε η προέλευση της λέξης;", ["Από ένα λεξικό του 18ου αιώνα", "Από έναν γλωσσολόγο που έψαξε σε παλιές εφημερίδες", "Από ένα γράμμα του Βαν Μπιούρεν", "Από τα αρχεία του τηλέγραφου"], 1, "ένας Αμερικανός γλωσσολόγος … ψάχνοντας με υπομονή σε παλιές εφημερίδες"),
+  Q("Τι σήμαινε αρχικά το «O.K.»;", ["«όλα καλά» στα ελληνικά", "Ένα λάθος γραμμένο «all correct»", "Το όνομα μιας πόλης", "Ένα σήμα του στρατού"], 1, "σύντμηση του «oll korrect», δηλαδή ενός σκόπιμα λάθος γραμμένου «all correct»"),
+  Q("Γιατί επέζησε το «O.K.», ενώ άλλες συντμήσεις ξεχάστηκαν;", ["Γιατί ήταν πιο εύκολο να γραφτεί", "Γιατί το χρησιμοποίησαν οι οπαδοί ενός υποψηφίου στις εκλογές του 1840", "Γιατί μπήκε σε ένα τραγούδι", "Γιατί το υιοθέτησε ο στρατός"], 1, "στις προεδρικές εκλογές του 1840, οι οπαδοί του Μάρτιν βαν Μπιούρεν … ίδρυσαν «Λέσχες O.K.»"),
+  Q("Τι λέει η ομιλήτρια για την ελληνική εξήγηση;", ["Ότι είναι η πιο πιθανή", "Ότι δεν στηρίζεται σε κανένα στοιχείο", "Ότι την πρότεινε ο ίδιος γλωσσολόγος", "Ότι ισχύει μόνο στην Ευρώπη"], 1, "η ελληνική εξήγηση, όσο κι αν μας κολακεύει, δεν στηρίζεται σε κανένα στοιχείο"),
+ ],
+ "gloss": {"υποθέσεις": "υπόθεση — hypothesis, theory", "αυτοχθόνων": "αυτόχθων — native, indigenous", "σύντμηση": "σύντμηση — abbreviation", "σκόπιμα": "σκόπιμα — deliberately", "ανορθογραφίες": "ανορθογραφία — misspelling", "επέζησε": "επιζώ — to survive", "σύμπτωση": "σύμπτωση — coincidence", "παρατσούκλι": "παρατσούκλι — nickname", "Λέσχες": "λέσχη — club", "σύνθημα": "σύνθημα — slogan", "ευνοούσε": "ευνοώ — to favour", "κολακεύει": "κολακεύω — to flatter"},
+})
+ITEMS.append({
+ "id": "l234-c1-int-nayagia-fournon", "title": "Μια ενάλια αρχαιολόγος για τα ναυάγια των Φούρνων", "title_en": "An underwater archaeologist on the shipwrecks of Fournoi", "type": "interview", "level": "C1",
+ "context_el": "Μια ενάλια αρχαιολόγος μιλά σε μια ραδιοφωνική εκπομπή για τις υποβρύχιες έρευνες στο μικρό σύμπλεγμα των Φούρνων, ανάμεσα στην Ικαρία και τη Σάμο.",
+ "script": [
+  L("Δημοσιογράφος", "m", "Οι Φούρνοι είναι ένα νησάκι με λίγες εκατοντάδες κατοίκους. Πώς έγινε γνωστό σε όλο τον κόσμο ως «πρωτεύουσα των ναυαγίων»;", "Fournoi is a little island with a few hundred inhabitants. How did it become known around the world as the 'shipwreck capital'?"),
+  L("Αρχαιολόγος", "f", "Σε λίγα καλοκαίρια έρευνας, από το 2015 και μετά, καταγράψαμε γύρω στα εξήντα ναυάγια σε μια πολύ μικρή περιοχή. Τα παλαιότερα χρονολογούνται στην αρχαϊκή εποχή και τα νεότερα στα νεότερα χρόνια. Είναι από τις μεγαλύτερες συγκεντρώσεις αρχαίων ναυαγίων που έχουν βρεθεί σε ελληνικές θάλασσες.", "In a few summers of research, from 2015 onwards, we recorded around sixty shipwrecks in a very small area. The oldest date to the Archaic period and the most recent to modern times. It's one of the largest concentrations of ancient shipwrecks found in Greek waters."),
+  L("Δημοσιογράφος", "m", "Γιατί βούλιαξαν τόσα πλοία εκεί;", "Why did so many ships sink there?"),
+  L("Αρχαιολόγος", "f", "Οι Φούρνοι βρίσκονταν πάνω σε έναν πολυσύχναστο θαλάσσιο δρόμο ανάμεσα στο Αιγαίο και τις ακτές της Μικράς Ασίας. Οι όρμοι τους πρόσφεραν καταφύγιο από τους δυνατούς βοριάδες, αλλά οι ακτές είναι γεμάτες απότομα βράχια. Ένα πλοίο που προσπαθούσε να μπει στο λιμάνι με κακοκαιρία μπορούσε εύκολα να συντριβεί. Το καταφύγιο, δηλαδή, ήταν συχνά και η παγίδα.", "Fournoi lay on a busy sea route between the Aegean and the coasts of Asia Minor. Its bays offered shelter from the strong north winds, but the shores are full of sheer rocks. A ship trying to get into harbour in bad weather could easily be wrecked. The shelter, in other words, was often also the trap."),
+  L("Δημοσιογράφος", "m", "Τι βρίσκετε στον βυθό; Χρυσάφι;", "What do you find on the seabed? Gold?"),
+  L("Αρχαιολόγος", "f", "Σχεδόν ποτέ. Βρίσκουμε κυρίως αμφορείς, τα μεγάλα πήλινα δοχεία όπου μετέφεραν κρασί, λάδι ή παστά ψάρια. Από το σχήμα τους καταλαβαίνουμε από πού ξεκίνησε το πλοίο και πότε. Για εμάς, ένας σωρός από σπασμένους αμφορείς είναι πιο πολύτιμος από ένα κόσμημα, γιατί μας λέει ποιος εμπορευόταν με ποιον. Και να πω κάτι ακόμα: πολλά ναυάγια τα βρήκαμε χάρη στους ντόπιους ψαράδες και σφουγγαράδες, που ήξεραν πού «πιάνονται» τα δίχτυα τους.", "Almost never. We mainly find amphorae, the large clay vessels in which they carried wine, oil or salted fish. From their shape we can tell where the ship set out from and when. For us, a heap of broken amphorae is more valuable than a piece of jewellery, because it tells us who traded with whom. And let me add something: we found many of the wrecks thanks to the local fishermen and sponge divers, who knew where their nets 'snag'."),
+ ],
+ "questions": [
+  Q("Τι λέει η αρχαιολόγος για τον αριθμό των ναυαγίων;", ["Βρέθηκε μόνο ένα, αλλά πολύ σημαντικό", "Καταγράφηκαν γύρω στα εξήντα σε μια πολύ μικρή περιοχή", "Βρέθηκαν εκατοντάδες σε όλο το Αιγαίο", "Κανένα δεν έχει χρονολογηθεί ακόμη"], 1, "καταγράψαμε γύρω στα εξήντα ναυάγια σε μια πολύ μικρή περιοχή"),
+  Q("Γιατί βούλιαξαν τόσα πλοία στους Φούρνους;", ["Γιατί εκεί γίνονταν ναυμαχίες", "Γιατί τα πλοία έψαχναν καταφύγιο αλλά οι ακτές είχαν απότομα βράχια", "Γιατί υπήρχαν πολλοί πειρατές", "Γιατί τα πλοία ήταν υπερφορτωμένα"], 1, "Οι όρμοι τους πρόσφεραν καταφύγιο … αλλά οι ακτές είναι γεμάτες απότομα βράχια"),
+  Q("Γιατί είναι πολύτιμοι για τους αρχαιολόγους οι αμφορείς;", ["Γιατί έχουν μέσα χρυσάφι", "Γιατί δείχνουν από πού ξεκίνησε το πλοίο, πότε και ποιος εμπορευόταν με ποιον", "Γιατί πουλιούνται ακριβά", "Γιατί είναι πάντα ακέραιοι"], 1, "Από το σχήμα τους καταλαβαίνουμε από πού ξεκίνησε το πλοίο και πότε … μας λέει ποιος εμπορευόταν με ποιον"),
+  Q("Ποιοι βοήθησαν να βρεθούν πολλά ναυάγια;", ["Οι τουρίστες", "Οι ντόπιοι ψαράδες και σφουγγαράδες", "Το πολεμικό ναυτικό", "Οι μαθητές του νησιού"], 1, "χάρη στους ντόπιους ψαράδες και σφουγγαράδες"),
+ ],
+ "gloss": {"ενάλια": "ενάλιος — underwater, marine (archaeology)", "ναυάγια": "ναυάγιο — shipwreck", "σύμπλεγμα": "σύμπλεγμα — cluster, group (of islands)", "χρονολογούνται": "χρονολογούμαι — to be dated", "αρχαϊκή": "αρχαϊκός — Archaic", "συγκεντρώσεις": "συγκέντρωση — concentration", "βούλιαξαν": "βουλιάζω — to sink", "πολυσύχναστο": "πολυσύχναστος — busy, much-frequented", "όρμοι": "όρμος — bay, cove", "βοριάδες": "βοριάς — north wind", "συντριβεί": "συντρίβομαι — to be wrecked, smashed", "παγίδα": "παγίδα — trap", "αμφορείς": "αμφορέας — amphora", "πήλινα": "πήλινος — clay, earthenware", "παστά": "παστός — salted", "σφουγγαράδες": "σφουγγαράς — sponge diver"},
+})
+rnd = random.Random(234)  # spread the right answers over the four positions (the page shows options in file order)
+for it in ITEMS:
+    for q in it["questions"]: rnd.shuffle(q["options"])
+for it in ITEMS:
+    for q in it["questions"]: assert q["answer"] in q["options"], (it["id"], q["q"])
+    for k in it["gloss"]:
+        if not (any(k in s["el"] for s in it["script"]) or k in it["context_el"]): raise SystemExit(f"gloss key not in text: {it['id']} {k}")
+root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+with open(os.path.join(root, "library", "listening", "listening-234.json"), "w", encoding="utf-8") as fh:
+    json.dump({"items": ITEMS}, fh, ensure_ascii=False, indent=1); fh.write("\n")
+print(len(ITEMS), "items,", sum(len(i["questions"]) for i in ITEMS), "questions")
