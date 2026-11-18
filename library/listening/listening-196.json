@@ -1,0 +1,780 @@
+{
+ "items": [
+  {
+   "id": "l196-ann-koini-metakinisi",
+   "title": "Κοινή μετακίνηση για τους φοιτητές",
+   "title_en": "Car-sharing for students",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση στον ραδιοφωνικό σταθμό του πανεπιστημίου.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Ανακοίνωση από το Γραφείο Φοιτητικής Μέριμνας. Από τη Δευτέρα λειτουργεί η νέα πλατφόρμα κοινής μετακίνησης του πανεπιστημίου. Φοιτητές και εργαζόμενοι που έρχονται στην πανεπιστημιούπολη με αυτοκίνητο μπορούν να δηλώνουν τις διαδρομές τους και τις ελεύθερες θέσεις, και όσοι δεν έχουν αυτοκίνητο να κλείνουν θέση.",
+     "en": "An announcement from the Student Welfare Office. From Monday the university's new car-sharing platform is running. Students and staff who come to the campus by car can register their routes and free seats, and those without a car can book a seat."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Οι επιβάτες δεν πληρώνουν τον οδηγό απευθείας. Συμμετέχουν στα έξοδα με ένα ποσό που υπολογίζει η πλατφόρμα ανάλογα με την απόσταση, και που δεν μπορεί να ξεπερνά τα δύο ευρώ για μια διαδρομή μέσα στην πόλη. Για να εγγραφείτε, χρειάζεστε τον ιδρυματικό σας λογαριασμό.",
+     "en": "Passengers don't pay the driver directly. They contribute to costs with an amount the platform calculates according to distance, which cannot exceed two euros for a trip within the city. To register, you need your institutional account."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Όσοι οδηγοί κάνουν τουλάχιστον δέκα κοινές διαδρομές τον μήνα θα έχουν δωρεάν θέση στο νέο πάρκινγκ πίσω από τη βιβλιοθήκη. Η πρώτη ενημερωτική συνάντηση θα γίνει την Τετάρτη στις δώδεκα, στο αμφιθέατρο της Φιλοσοφικής.",
+     "en": "Drivers who make at least ten shared trips a month will get a free space in the new car park behind the library. The first information meeting will take place on Wednesday at twelve, in the Philosophy School lecture hall."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι μπορούν να κάνουν όσοι δεν έχουν αυτοκίνητο;",
+     "options": [
+      "Να παίρνουν δωρεάν λεωφορείο",
+      "Να κλείνουν θέση σε μια διαδρομή",
+      "Να παρκάρουν δωρεάν",
+      "Να νοικιάσουν αυτοκίνητο"
+     ],
+     "answer": "Να κλείνουν θέση σε μια διαδρομή",
+     "why": "όσοι δεν έχουν αυτοκίνητο να κλείνουν θέση"
+    },
+    {
+     "q": "Πόσο πληρώνουν οι επιβάτες για μια διαδρομή μέσα στην πόλη;",
+     "options": [
+      "Πέντε ευρώ",
+      "Όσο θέλουν",
+      "Τίποτα",
+      "Το πολύ δύο ευρώ"
+     ],
+     "answer": "Το πολύ δύο ευρώ",
+     "why": "δεν μπορεί να ξεπερνά τα δύο ευρώ"
+    },
+    {
+     "q": "Τι κερδίζουν οι οδηγοί που κάνουν δέκα κοινές διαδρομές τον μήνα;",
+     "options": [
+      "Δωρεάν βενζίνη",
+      "Μια βεβαίωση",
+      "Ένα δώρο από τη βιβλιοθήκη",
+      "Δωρεάν θέση στο νέο πάρκινγκ"
+     ],
+     "answer": "Δωρεάν θέση στο νέο πάρκινγκ",
+     "why": "θα έχουν δωρεάν θέση στο νέο πάρκινγκ"
+    }
+   ],
+   "gloss": {
+    "Μέριμνας": "Φοιτητική Μέριμνα — student welfare (office)",
+    "πανεπιστημιούπολη": "πανεπιστημιούπολη — university campus",
+    "ξεπερνά": "ξεπερνώ — to exceed",
+    "ιδρυματικό": "ιδρυματικός λογαριασμός — institutional (university) account",
+    "αμφιθέατρο": "αμφιθέατρο — lecture hall"
+   }
+  },
+  {
+   "id": "l196-int-nyfika",
+   "title": "Η μοδίστρα των νυφικών",
+   "title_en": "The wedding-dress maker",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Συνέντευξη με μια μοδίστρα που ράβει νυφικά σε ένα ατελιέ στον Πειραιά.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πόσος καιρός χρειάζεται για να ραφτεί ένα νυφικό;",
+     "en": "How long does it take to make a wedding dress?"
+    },
+    {
+     "speaker": "Μοδίστρα",
+     "voice": "f",
+     "el": "Από την πρώτη συνάντηση ως την τελευταία πρόβα περνούν συνήθως έξι μήνες. Η ραφή αυτή καθαυτή είναι γύρω στις ογδόντα ώρες, αλλά ο περισσότερος χρόνος πάει στις πρόβες. Μια νύφη μπορεί να αλλάξει πολύ μέσα σε λίγους μήνες, από το άγχος ή από τη γυμναστική.",
+     "en": "From the first meeting to the last fitting, six months usually pass. The sewing itself is around eighty hours, but most of the time goes on fittings. A bride can change a lot in a few months, from stress or from exercise."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Έχετε δει πολλές νύφες να αλλάζουν γνώμη;",
+     "en": "Have you seen many brides change their minds?"
+    },
+    {
+     "speaker": "Μοδίστρα",
+     "voice": "f",
+     "el": "Πάρα πολλές. Μια κοπέλα ήρθε με φωτογραφίες από ένα φόρεμα με τεράστια φούστα και, στην τρίτη πρόβα, μου είπε ότι νιώθει σαν τούρτα. Ξεκινήσαμε από την αρχή, με κάτι απλό και ίσιο. Ήταν η πιο ευτυχισμένη νύφη της χρονιάς. Γι' αυτό πάντα λέω: φέρτε μου φωτογραφίες, αλλά να είστε έτοιμες να τις ξεχάσετε.",
+     "en": "Very many. One young woman came with photos of a dress with a huge skirt and, at the third fitting, told me she felt like a cake. We started from scratch, with something simple and straight. She was the happiest bride of the year. That's why I always say: bring me photos, but be ready to forget them."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Τι γίνεται με τα νυφικά μετά τον γάμο;",
+     "en": "What happens to the dresses after the wedding?"
+    },
+    {
+     "speaker": "Μοδίστρα",
+     "voice": "f",
+     "el": "Όλο και περισσότερες γυναίκες μού τα φέρνουν πίσω για να τα μετατρέψω: σε βραδινό φόρεμα, σε φόρεμα βάπτισης για το παιδί τους, μια φορά και σε κουρτίνες. Μου αρέσει αυτό. Ένα ύφασμα που κουβαλά τόσες αναμνήσεις δεν πρέπει να μένει σε ένα κουτί.",
+     "en": "More and more women bring them back to me to transform them: into an evening dress, a christening gown for their child, once even into curtains. I like that. A fabric that carries so many memories shouldn't stay in a box."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού πηγαίνει ο περισσότερος χρόνος;",
+     "options": [
+      "Στην αγορά υφάσματος",
+      "Στις πρόβες",
+      "Στο κέντημα",
+      "Στη ραφή"
+     ],
+     "answer": "Στις πρόβες",
+     "why": "ο περισσότερος χρόνος πάει στις πρόβες"
+    },
+    {
+     "q": "Τι έγινε με τη νύφη που ένιωθε «σαν τούρτα»;",
+     "options": [
+      "Αγόρασε έτοιμο φόρεμα",
+      "Ξεκίνησαν από την αρχή με ένα απλό φόρεμα",
+      "Κράτησε το ίδιο φόρεμα",
+      "Ακύρωσε τον γάμο"
+     ],
+     "answer": "Ξεκίνησαν από την αρχή με ένα απλό φόρεμα",
+     "why": "Ξεκινήσαμε από την αρχή, με κάτι απλό και ίσιο"
+    },
+    {
+     "q": "Τι κάνουν όλο και περισσότερες γυναίκες μετά τον γάμο;",
+     "options": [
+      "Το φέρνουν πίσω για να μετατραπεί σε κάτι άλλο",
+      "Το δανείζουν σε φίλες",
+      "Πουλάνε το νυφικό",
+      "Το δωρίζουν σε μουσείο"
+     ],
+     "answer": "Το φέρνουν πίσω για να μετατραπεί σε κάτι άλλο",
+     "why": "μού τα φέρνουν πίσω για να τα μετατρέψω"
+    }
+   ],
+   "gloss": {
+    "νυφικό": "νυφικό — wedding dress",
+    "πρόβα": "πρόβα — fitting",
+    "ραφή": "ραφή — sewing",
+    "μετατρέψω": "μετατρέπω — to convert, transform",
+    "βάπτισης": "βάπτιση — christening"
+   }
+  },
+  {
+   "id": "l196-vm-tatouaz",
+   "title": "Μήνυμα από το στούντιο τατουάζ",
+   "title_en": "A message from the tattoo studio",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Έχετε κλείσει ραντεβού για το πρώτο σας τατουάζ. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Γεια σας, ο Μάριος είμαι από το στούντιο, για το ραντεβού σας την Πέμπτη στις πέντε. Η Δάφνη, που θα σας έκανε το τατουάζ, είχε ένα μικρό ατύχημα με το ποδήλατο και έχει το δεξί χέρι δεμένο, οπότε δεν μπορεί να δουλέψει αυτή την εβδομάδα. Μην ανησυχείτε, είναι καλά.",
+     "en": "Hi, it's Marios from the studio, about your appointment on Thursday at five. Dafni, who was going to do your tattoo, had a small bicycle accident and has her right hand bandaged, so she can't work this week. Don't worry, she's fine."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Έχετε δύο επιλογές. Μπορούμε να μεταφέρουμε το ραντεβού για την επόμενη Πέμπτη, την ίδια ώρα, με τη Δάφνη, που έχει ήδη το σχέδιό σας. Ή μπορεί να το κάνει ο Στράτος αυτή την Πέμπτη, αλλά θα χρειαστεί να ξαναδεί μαζί σας το σχέδιο, γιατί δουλεύει με λίγο διαφορετικό στυλ.",
+     "en": "You have two options. We can move the appointment to next Thursday, same time, with Dafni, who already has your design. Or Stratos can do it this Thursday, but he'll need to go over the design with you again, because he works in a slightly different style."
+    },
+    {
+     "speaker": "Υπάλληλος",
+     "voice": "m",
+     "el": "Και κάτι που ξεχάσαμε να σας πούμε: αν σκοπεύετε να πάτε διακοπές, υπολογίστε ότι για δύο εβδομάδες μετά το τατουάζ δεν πρέπει να μπείτε στη θάλασσα ούτε να το εκθέσετε στον ήλιο. Η προκαταβολή σας ισχύει όποια λύση κι αν διαλέξετε. Στείλτε μας ένα μήνυμα.",
+     "en": "And something we forgot to tell you: if you're planning to go on holiday, bear in mind that for two weeks after the tattoo you shouldn't go in the sea or expose it to the sun. Your deposit stands whichever option you choose. Send us a message."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί δεν μπορεί να δουλέψει η Δάφνη;",
+     "options": [
+      "Έχει το χέρι της δεμένο μετά από ατύχημα με το ποδήλατο",
+      "Άλλαξε δουλειά",
+      "Είναι σε διακοπές",
+      "Είναι άρρωστη"
+     ],
+     "answer": "Έχει το χέρι της δεμένο μετά από ατύχημα με το ποδήλατο",
+     "why": "είχε ένα μικρό ατύχημα με το ποδήλατο και έχει το δεξί χέρι δεμένο"
+    },
+    {
+     "q": "Τι πρέπει να γίνει αν διαλέξετε τον Στράτο;",
+     "options": [
+      "Να έρθετε πιο νωρίς",
+      "Να πληρώσετε ξανά προκαταβολή",
+      "Να ξαναδείτε μαζί του το σχέδιο",
+      "Να φέρετε φωτογραφία"
+     ],
+     "answer": "Να ξαναδείτε μαζί του το σχέδιο",
+     "why": "θα χρειαστεί να ξαναδεί μαζί σας το σχέδιο"
+    },
+    {
+     "q": "Τι πρέπει να αποφύγετε για δύο εβδομάδες μετά το τατουάζ;",
+     "options": [
+      "Το ποδήλατο",
+      "Τη θάλασσα και τον ήλιο",
+      "Τη γυμναστική",
+      "Το ντους"
+     ],
+     "answer": "Τη θάλασσα και τον ήλιο",
+     "why": "δεν πρέπει να μπείτε στη θάλασσα ούτε να το εκθέσετε στον ήλιο"
+    }
+   ],
+   "gloss": {
+    "τατουάζ": "τατουάζ — tattoo",
+    "δεμένο": "δεμένος — bandaged, tied",
+    "μεταφέρουμε": "μεταφέρω — to move, transfer",
+    "εκθέσετε": "εκθέτω — to expose",
+    "προκαταβολή": "προκαταβολή — deposit"
+   }
+  },
+  {
+   "id": "l196-mono-ilektrostatiko",
+   "title": "Γιατί με «χτυπάει» η πόρτα του αυτοκινήτου;",
+   "title_en": "Why does the car door give me a shock?",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ένας καθηγητής Φυσικής απαντά σε ερώτηση ακροατή σε μια ραδιοφωνική εκπομπή.",
+   "script": [
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Ένας ακροατής μας ρωτάει γιατί, κάθε φορά που βγαίνει από το αυτοκίνητο τον χειμώνα, νιώθει ένα μικρό τσίμπημα όταν ακουμπά την πόρτα. Δεν είναι βλάβη του αυτοκινήτου, μην ανησυχείτε. Είναι στατικός ηλεκτρισμός, το ίδιο φαινόμενο που κάνει τα μαλλιά να σηκώνονται όταν βγάζουμε ένα μάλλινο πουλόβερ.",
+     "en": "A listener asks us why, every time he gets out of the car in winter, he feels a little sting when he touches the door. It isn't a fault in the car, don't worry. It's static electricity, the same phenomenon that makes your hair stand up when you take off a woollen jumper."
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Όταν οδηγούμε, το ρούχο μας τρίβεται συνεχώς στο κάθισμα. Με την τριβή, φορτία περνούν από το ένα υλικό στο άλλο, και το σώμα μας φορτίζεται. Όσο καθόμαστε, δεν συμβαίνει τίποτα. Όταν όμως σηκωθούμε και ακουμπήσουμε το μέταλλο της πόρτας, το φορτίο εκφορτίζεται απότομα, και αυτό είναι το τσίμπημα.",
+     "en": "When we drive, our clothes rub constantly against the seat. Through friction, charges pass from one material to the other, and our body becomes charged. While we're sitting, nothing happens. But when we stand up and touch the metal of the door, the charge discharges abruptly, and that's the sting."
+    },
+    {
+     "speaker": "Καθηγητής",
+     "voice": "m",
+     "el": "Γιατί τον χειμώνα; Γιατί ο αέρας είναι πιο ξηρός, και η υγρασία, που κανονικά βοηθά τα φορτία να διαφεύγουν σιγά σιγά, λείπει. Η λύση είναι απλή: πριν σηκωθείτε από το κάθισμα, πιάστε με το χέρι ένα μεταλλικό σημείο της πόρτας και κρατήστε το καθώς βγαίνετε. Έτσι το φορτίο φεύγει σταδιακά, χωρίς να το νιώσετε.",
+     "en": "Why in winter? Because the air is drier, and the moisture, which normally helps charges escape little by little, is missing. The solution is simple: before you get up from the seat, hold a metal part of the door with your hand and keep holding it as you get out. That way the charge leaves gradually, without you feeling it."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς φορτίζεται το σώμα μας στο αυτοκίνητο;",
+     "options": [
+      "Από την τριβή του ρούχου με το κάθισμα",
+      "Από τη μπαταρία",
+      "Από τον κλιματισμό",
+      "Από το ραδιόφωνο"
+     ],
+     "answer": "Από την τριβή του ρούχου με το κάθισμα",
+     "why": "Με την τριβή, φορτία περνούν από το ένα υλικό στο άλλο"
+    },
+    {
+     "q": "Γιατί το φαινόμενο είναι πιο συχνό τον χειμώνα;",
+     "options": [
+      "Γιατί φοράμε γάντια",
+      "Γιατί το μέταλλο είναι πιο κρύο",
+      "Γιατί οδηγούμε περισσότερο",
+      "Γιατί ο αέρας είναι πιο ξηρός"
+     ],
+     "answer": "Γιατί ο αέρας είναι πιο ξηρός",
+     "why": "ο αέρας είναι πιο ξηρός"
+    },
+    {
+     "q": "Τι συμβουλεύει ο καθηγητής;",
+     "options": [
+      "Να φοράμε μάλλινα ρούχα",
+      "Να πάμε το αυτοκίνητο σε συνεργείο",
+      "Να βγαίνουμε πολύ γρήγορα",
+      "Να πιάνουμε ένα μεταλλικό σημείο πριν σηκωθούμε και να το κρατάμε καθώς βγαίνουμε"
+     ],
+     "answer": "Να πιάνουμε ένα μεταλλικό σημείο πριν σηκωθούμε και να το κρατάμε καθώς βγαίνουμε",
+     "why": "πιάστε με το χέρι ένα μεταλλικό σημείο της πόρτας"
+    }
+   ],
+   "gloss": {
+    "τσίμπημα": "τσίμπημα — sting, pinch",
+    "στατικός": "στατικός ηλεκτρισμός — static electricity",
+    "τριβή": "τριβή — friction",
+    "φορτίο": "φορτίο — (electric) charge",
+    "εκφορτίζεται": "εκφορτίζομαι — to discharge",
+    "σταδιακά": "σταδιακά — gradually"
+   }
+  },
+  {
+   "id": "l196-dia-giagia-diakopes",
+   "title": "Να πάρουμε τη γιαγιά μαζί στις διακοπές;",
+   "title_en": "Shall we take Grandma on holiday with us?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ένα ζευγάρι συζητά αν θα πάρει μαζί τη μητέρα της γυναίκας στις καλοκαιρινές διακοπές.",
+   "script": [
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Η μαμά μου είναι μόνη της από τότε που πέθανε ο μπαμπάς, και φέτος δεν έχει πού να πάει τον Αύγουστο. Σκέφτηκα να την πάρουμε μαζί μας στη Σκόπελο.",
+     "en": "My mum has been alone since Dad died, and this year she has nowhere to go in August. I thought we could take her with us to Skopelos."
+    },
+    {
+     "speaker": "Θάνος",
+     "voice": "m",
+     "el": "Τη μαμά σου την αγαπώ, το ξέρεις. Αλλά το σπιτάκι που κλείσαμε έχει δύο δωμάτια, και τα παιδιά δεν θα χωράνε. Και η μαμά σου δεν περπατάει εύκολα· το σπίτι είναι πάνω στον λόφο, με σκαλιά παντού.",
+     "en": "I love your mum, you know that. But the little house we booked has two rooms, and the kids won't fit. And your mum doesn't walk easily; the house is up on the hill, with steps everywhere."
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Το σκέφτηκα. Η ιδιοκτήτρια έχει κι ένα στούντιο στο ισόγειο, δίπλα στο λιμάνι, χωρίς σκαλιά. Είναι δέκα λεπτά με τα πόδια από εμάς. Θα έχει τη δική της ησυχία, κι εμείς τη δική μας.",
+     "en": "I've thought about it. The owner also has a studio on the ground floor, next to the harbour, with no steps. It's ten minutes on foot from us. She'll have her own peace and quiet, and we'll have ours."
+    },
+    {
+     "speaker": "Θάνος",
+     "voice": "m",
+     "el": "Και τα έξοδα; Ένα δεύτερο κατάλυμα τον Αύγουστο δεν είναι φτηνό.",
+     "en": "And the costs? A second place to stay in August isn't cheap."
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Η μαμά επιμένει να πληρώσει μόνη της το στούντιο. Και σκέψου: τα πρωινά θα κρατάει τα παιδιά, κι εμείς θα μπορούμε να πάμε επιτέλους εκείνη τη βόλτα με το καΐκι που λέμε τρία χρόνια.",
+     "en": "Mum insists on paying for the studio herself. And think about it: in the mornings she'll look after the kids, and we'll finally be able to go on that boat trip we've been talking about for three years."
+    },
+    {
+     "speaker": "Θάνος",
+     "voice": "m",
+     "el": "Εντάξει, με έπεισες. Αλλά τα βράδια, ψαροταβέρνα όλοι μαζί, και κερνάω εγώ.",
+     "en": "All right, you've convinced me. But in the evenings, fish taverna all together, and it's on me."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιο πρόβλημα βλέπει αρχικά ο Θάνος;",
+     "options": [
+      "Η πεθερά του δεν του αρέσει",
+      "Τα παιδιά δεν θέλουν",
+      "Το σπίτι είναι μικρό και έχει πολλά σκαλιά",
+      "Η Σκόπελος είναι μακριά"
+     ],
+     "answer": "Το σπίτι είναι μικρό και έχει πολλά σκαλιά",
+     "why": "το σπιτάκι που κλείσαμε έχει δύο δωμάτια"
+    },
+    {
+     "q": "Ποια λύση έχει βρει η Κατερίνα;",
+     "options": [
+      "Να πάει η μητέρα της με μια φίλη",
+      "Να πάνε σε ξενοδοχείο",
+      "Να κλείσουν μεγαλύτερο σπίτι",
+      "Να μείνει η μητέρα της σε ένα στούντιο στο ισόγειο, κοντά στο λιμάνι"
+     ],
+     "answer": "Να μείνει η μητέρα της σε ένα στούντιο στο ισόγειο, κοντά στο λιμάνι",
+     "why": "έχει κι ένα στούντιο στο ισόγειο, δίπλα στο λιμάνι"
+    },
+    {
+     "q": "Ποιος θα πληρώσει το στούντιο;",
+     "options": [
+      "Ο Θάνος",
+      "Η Κατερίνα",
+      "Η μητέρα της Κατερίνας",
+      "Η ιδιοκτήτρια"
+     ],
+     "answer": "Η μητέρα της Κατερίνας",
+     "why": "Η μαμά επιμένει να πληρώσει μόνη της το στούντιο"
+    }
+   ],
+   "gloss": {
+    "σπιτάκι": "σπιτάκι — little house",
+    "κατάλυμα": "κατάλυμα — accommodation",
+    "επιμένει": "επιμένω — to insist",
+    "καΐκι": "καΐκι — caique, fishing boat",
+    "κερνάω": "κερνάω — to treat, pay for others"
+   }
+  },
+  {
+   "id": "l196-rep-silent-disco",
+   "title": "Ένα σιωπηλό πάρτι στην πλατεία",
+   "title_en": "A silent disco in the square",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ρεπορτάζ από ένα πάρτι όπου όλοι χορεύουν με ακουστικά.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Είναι έντεκα το βράδυ και στην πλατεία χορεύουν πάνω από διακόσιοι άνθρωποι. Κι όμως, το μόνο που ακούγεται είναι γέλια και τα βήματα στις πλάκες. Όλοι φορούν ασύρματα ακουστικά που ανάβουν σε τρία χρώματα: μπλε, πράσινο ή κόκκινο.",
+     "en": "It's eleven at night and more than two hundred people are dancing in the square. And yet, the only thing you can hear is laughter and footsteps on the paving. Everyone is wearing wireless headphones that light up in three colours: blue, green or red."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Κάθε χρώμα αντιστοιχεί σε έναν διαφορετικό DJ. Στο μπλε κανάλι παίζει ροκ, στο πράσινο ελληνικά της δεκαετίας του ογδόντα, στο κόκκινο ηλεκτρονική μουσική. Ο καθένας αλλάζει κανάλι όποτε θέλει, κι έτσι δύο άνθρωποι που χορεύουν ο ένας δίπλα στον άλλον μπορεί να ακούνε εντελώς διαφορετικά τραγούδια.",
+     "en": "Each colour corresponds to a different DJ. On the blue channel there's rock, on the green Greek songs from the eighties, on the red electronic music. Everyone changes channel whenever they like, and so two people dancing side by side may be hearing completely different songs."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η ιδέα ήταν του δήμου, μετά από χρόνια παραπόνων για τον θόρυβο από τα καλοκαιρινά πάρτι. Οι κάτοικοι της πλατείας δέχτηκαν με ενθουσιασμό. Μια ηλικιωμένη κυρία, που παρακολουθεί από το μπαλκόνι της, λέει ότι είναι το πρώτο καλοκαίρι εδώ και χρόνια που κοιμάται με ανοιχτά παράθυρα.",
+     "en": "The idea was the municipality's, after years of complaints about the noise from summer parties. The residents of the square welcomed it enthusiastically. An elderly lady, watching from her balcony, says it's the first summer in years that she sleeps with the windows open."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Το πιο αστείο, λένε οι διοργανωτές, είναι όταν κάποιος βγάζει τα ακουστικά για λίγα δευτερόλεπτα και βλέπει ξαφνικά διακόσια άτομα να χορεύουν και να τραγουδούν δυνατά... χωρίς μουσική.",
+     "en": "The funniest thing, say the organisers, is when someone takes off their headphones for a few seconds and suddenly sees two hundred people dancing and singing loudly... without music."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι δείχνει το χρώμα των ακουστικών;",
+     "options": [
+      "Πόσο δυνατά ακούει",
+      "Ποιον DJ ακούει ο καθένας",
+      "Αν έχει πληρώσει εισιτήριο",
+      "Την ηλικία του χορευτή"
+     ],
+     "answer": "Ποιον DJ ακούει ο καθένας",
+     "why": "Κάθε χρώμα αντιστοιχεί σε έναν διαφορετικό DJ"
+    },
+    {
+     "q": "Γιατί οργάνωσε ο δήμος αυτό το πάρτι;",
+     "options": [
+      "Μετά από χρόνια παραπόνων για τον θόρυβο",
+      "Για να προσελκύσει τουρίστες",
+      "Για να βγάλει χρήματα",
+      "Γιατί το ζήτησαν οι DJ"
+     ],
+     "answer": "Μετά από χρόνια παραπόνων για τον θόρυβο",
+     "why": "μετά από χρόνια παραπόνων για τον θόρυβο"
+    },
+    {
+     "q": "Τι λέει η ηλικιωμένη κυρία;",
+     "options": [
+      "Ότι θέλει να χορέψει κι εκείνη",
+      "Ότι δεν της αρέσουν τα πάρτι",
+      "Ότι η μουσική είναι πολύ δυνατή",
+      "Ότι φέτος κοιμάται με ανοιχτά παράθυρα"
+     ],
+     "answer": "Ότι φέτος κοιμάται με ανοιχτά παράθυρα",
+     "why": "κοιμάται με ανοιχτά παράθυρα"
+    }
+   ],
+   "gloss": {
+    "ασύρματα": "ασύρματος — wireless",
+    "ακουστικά": "ακουστικά — headphones",
+    "αντιστοιχεί": "αντιστοιχώ — to correspond",
+    "διοργανωτές": "διοργανωτής — organiser",
+    "ενθουσιασμό": "ενθουσιασμός — enthusiasm"
+   }
+  },
+  {
+   "id": "l196-rep-daneistiki-organon",
+   "title": "Μια δανειστική βιβλιοθήκη μουσικών οργάνων",
+   "title_en": "A library that lends musical instruments",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ρεπορτάζ για μια δημοτική βιβλιοθήκη που δανείζει μουσικά όργανα.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Στο υπόγειο της δημοτικής βιβλιοθήκης, ανάμεσα στα ράφια με τα παλιά περιοδικά, κρέμονται κιθάρες, βιολιά, ένα τσέλο, δύο μπουζούκια και ένα ακορντεόν. Δεν είναι έκθεση: όλα αυτά δανείζονται, όπως τα βιβλία, για τρεις εβδομάδες.",
+     "en": "In the basement of the municipal library, among the shelves of old magazines, hang guitars, violins, a cello, two bouzoukis and an accordion. It isn't an exhibition: all of these are lent out, like books, for three weeks."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Τα περισσότερα όργανα τα δώρισαν κάτοικοι της πόλης, που τα είχαν ξεχάσει σε ντουλάπες και πατάρια. Ένας μουσικός του τοπικού ωδείου τα επισκευάζει εθελοντικά και τα ελέγχει κάθε φορά που επιστρέφουν.",
+     "en": "Most of the instruments were donated by residents of the town, who had forgotten them in wardrobes and lofts. A musician from the local music school repairs them voluntarily and checks them every time they come back."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Η ιδέα είναι απλή: πολλά παιδιά θέλουν να δοκιμάσουν ένα όργανο, αλλά οι γονείς διστάζουν να αγοράσουν ένα βιολί τριακοσίων ευρώ που μπορεί να μείνει στη γωνία μετά από δύο μήνες. Με τον δανεισμό, το παιδί δοκιμάζει χωρίς κόστος. Αν του αρέσει, συνεχίζει· αν όχι, το όργανο πάει σε κάποιον άλλο.",
+     "en": "The idea is simple: many children want to try an instrument, but parents hesitate to buy a three-hundred-euro violin that might stay in the corner after two months. With lending, the child tries without cost. If they like it, they continue; if not, the instrument goes to someone else."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Δεν δανείζονται μόνο παιδιά. Η πιο πιστή «αναγνώστρια» είναι μια συνταξιούχος, που δανείζεται το ίδιο ακορντεόν για πέμπτη φορά. Η βιβλιοθήκη σκέφτεται να της το χαρίσει.",
+     "en": "It isn't only children who borrow. The most loyal 'reader' is a pensioner who is borrowing the same accordion for the fifth time. The library is thinking of giving it to her."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Για πόσο καιρό δανείζονται τα όργανα;",
+     "options": [
+      "Για τρεις εβδομάδες",
+      "Για ένα καλοκαίρι",
+      "Για έναν μήνα",
+      "Για μία εβδομάδα"
+     ],
+     "answer": "Για τρεις εβδομάδες",
+     "why": "δανείζονται, όπως τα βιβλία, για τρεις εβδομάδες"
+    },
+    {
+     "q": "Από πού προέρχονται τα περισσότερα όργανα;",
+     "options": [
+      "Τα έδωσε το ωδείο",
+      "Τα έφτιαξε ένας μουσικός",
+      "Τα αγόρασε ο δήμος",
+      "Τα δώρισαν κάτοικοι της πόλης"
+     ],
+     "answer": "Τα δώρισαν κάτοικοι της πόλης",
+     "why": "Τα περισσότερα όργανα τα δώρισαν κάτοικοι της πόλης"
+    },
+    {
+     "q": "Ποιο πρόβλημα λύνει ο δανεισμός;",
+     "options": [
+      "Οι γονείς διστάζουν να αγοράσουν ακριβό όργανο που μπορεί να μη χρησιμοποιηθεί",
+      "Το ωδείο είναι μακριά",
+      "Τα όργανα πιάνουν χώρο στο σπίτι",
+      "Δεν υπάρχουν δάσκαλοι μουσικής"
+     ],
+     "answer": "Οι γονείς διστάζουν να αγοράσουν ακριβό όργανο που μπορεί να μη χρησιμοποιηθεί",
+     "why": "οι γονείς διστάζουν να αγοράσουν ένα βιολί τριακοσίων ευρώ"
+    }
+   ],
+   "gloss": {
+    "υπόγειο": "υπόγειο — basement",
+    "τσέλο": "τσέλο — cello",
+    "πατάρια": "πατάρι — loft, storage space above",
+    "εθελοντικά": "εθελοντικά — voluntarily",
+    "διστάζουν": "διστάζω — to hesitate",
+    "πιστή": "πιστός — loyal, faithful"
+   }
+  },
+  {
+   "id": "l196-news-teleftaia-trapeza",
+   "title": "Κλείνει το τελευταίο υποκατάστημα τράπεζας του νησιού",
+   "title_en": "The island's last bank branch is closing",
+   "type": "news",
+   "level": "B2",
+   "context_el": "Είδηση από περιφερειακό ραδιοφωνικό σταθμό.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Μεγάλη αναστάτωση επικρατεί σε μικρό νησί των Κυκλάδων, μετά την ανακοίνωση ότι το μοναδικό υποκατάστημα τράπεζας θα κλείσει στο τέλος του μήνα. Η τράπεζα αναφέρει ότι οι περισσότερες συναλλαγές γίνονται πλέον ηλεκτρονικά και ότι το κόστος λειτουργίας είναι πολύ υψηλό για τον μικρό αριθμό πελατών.",
+     "en": "There is turmoil on a small island in the Cyclades, after the announcement that the only bank branch will close at the end of the month. The bank states that most transactions are now done electronically and that the operating cost is too high for the small number of customers."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Οι κάτοικοι, πολλοί από τους οποίους είναι ηλικιωμένοι, λένε ότι δεν χρησιμοποιούν εφαρμογές στο κινητό και ότι θα αναγκάζονται να ταξιδεύουν με το πλοίο ως τη Νάξο για μια απλή ανάληψη. Ο πρόεδρος της κοινότητας έστειλε επιστολή στην τράπεζα και ζητά να παραμείνει τουλάχιστον το ΑΤΜ.",
+     "en": "The residents, many of whom are elderly, say they don't use mobile apps and that they will be forced to travel by ferry to Naxos for a simple withdrawal. The community president has sent a letter to the bank and is asking for at least the ATM to remain."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Σύμφωνα με πληροφορίες, η τράπεζα εξετάζει να στέλνει ένα κινητό υποκατάστημα, ένα ειδικά διαμορφωμένο φορτηγάκι, μία φορά την εβδομάδα. Παράλληλα, ο δήμος οργανώνει δωρεάν μαθήματα ηλεκτρονικής τραπεζικής για όσους ενδιαφέρονται, στο κοινοτικό γραφείο.",
+     "en": "According to reports, the bank is considering sending a mobile branch, a specially fitted van, once a week. At the same time, the municipality is organising free online banking lessons for anyone interested, at the community office."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί κλείνει το υποκατάστημα σύμφωνα με την τράπεζα;",
+     "options": [
+      "Γιατί το κτίριο είναι παλιό",
+      "Γιατί οι συναλλαγές γίνονται πια ηλεκτρονικά και το κόστος είναι υψηλό",
+      "Λόγω ληστείας",
+      "Γιατί δεν βρίσκουν υπαλλήλους"
+     ],
+     "answer": "Γιατί οι συναλλαγές γίνονται πια ηλεκτρονικά και το κόστος είναι υψηλό",
+     "why": "οι περισσότερες συναλλαγές γίνονται πλέον ηλεκτρονικά"
+    },
+    {
+     "q": "Τι ζητά ο πρόεδρος της κοινότητας;",
+     "options": [
+      "Να μείνει τουλάχιστον το ΑΤΜ",
+      "Να ανοίξει νέο υποκατάστημα",
+      "Δωρεάν εισιτήρια για τη Νάξο",
+      "Χρήματα για τον δήμο"
+     ],
+     "answer": "Να μείνει τουλάχιστον το ΑΤΜ",
+     "why": "ζητά να παραμείνει τουλάχιστον το ΑΤΜ"
+    },
+    {
+     "q": "Τι οργανώνει ο δήμος;",
+     "options": [
+      "Δωρεάν μαθήματα ηλεκτρονικής τραπεζικής",
+      "Μια διαμαρτυρία",
+      "Δρομολόγια για τη Νάξο",
+      "Ένα δεύτερο ΑΤΜ"
+     ],
+     "answer": "Δωρεάν μαθήματα ηλεκτρονικής τραπεζικής",
+     "why": "ο δήμος οργανώνει δωρεάν μαθήματα ηλεκτρονικής τραπεζικής"
+    }
+   ],
+   "gloss": {
+    "υποκατάστημα": "υποκατάστημα — branch",
+    "αναστάτωση": "αναστάτωση — turmoil, upset",
+    "συναλλαγές": "συναλλαγή — transaction",
+    "ανάληψη": "ανάληψη — withdrawal",
+    "διαμορφωμένο": "διαμορφωμένος — fitted out, adapted"
+   }
+  },
+  {
+   "id": "l196-c1-int-mesimerianos-ypnos",
+   "title": "Η επιστήμη του μεσημεριανού ύπνου",
+   "title_en": "The science of the afternoon nap",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Συνέντευξη με μια ερευνήτρια του ύπνου σε εκπομπή για την υγεία.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ο μεσημεριανός ύπνος ήταν κάποτε θεσμός στην Ελλάδα. Σήμερα πολλοί τον θεωρούν πολυτέλεια ή και τεμπελιά. Τι λέει η επιστήμη;",
+     "en": "The afternoon nap was once an institution in Greece. Today many consider it a luxury or even laziness. What does science say?"
+    },
+    {
+     "speaker": "Ερευνήτρια",
+     "voice": "f",
+     "el": "Λέει ότι η τάση να νυστάζουμε νωρίς το απόγευμα δεν οφείλεται μόνο στο φαγητό, όπως συχνά νομίζουμε. Ο βιολογικός μας ρυθμός φαίνεται να έχει μια μικρή «βύθιση» της εγρήγορσης εκείνες τις ώρες, ακόμα κι αν δεν έχουμε φάει. Ο μεσημεριανός ύπνος, με άλλα λόγια, δεν είναι πολιτισμική ιδιοτροπία· ανταποκρίνεται σε κάτι που συμβαίνει στο σώμα.",
+     "en": "It says that the tendency to feel sleepy early in the afternoon isn't due only to food, as we often think. Our biological rhythm seems to have a small 'dip' in alertness at those hours, even if we haven't eaten. The afternoon nap, in other words, isn't a cultural quirk; it responds to something happening in the body."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πόσο πρέπει να κρατά;",
+     "en": "How long should it last?"
+    },
+    {
+     "speaker": "Ερευνήτρια",
+     "voice": "f",
+     "el": "Εδώ είναι το κρίσιμο σημείο. Ένας σύντομος ύπνος, είκοσι περίπου λεπτών, φαίνεται να βελτιώνει την προσοχή και τη διάθεση χωρίς παρενέργειες. Αν όμως κοιμηθούμε μιάμιση ώρα, είναι πιθανό να ξυπνήσουμε μέσα από βαθύ ύπνο, βαριοί και μπερδεμένοι, και να δυσκολευτούμε να κοιμηθούμε το βράδυ. Γι' αυτό πολλοί που λένε «ο μεσημεριανός ύπνος δεν μου κάνει» απλώς κοιμούνται πολύ.",
+     "en": "This is the crucial point. A short sleep, about twenty minutes, seems to improve attention and mood without side effects. But if we sleep for an hour and a half, we're likely to wake up out of deep sleep, heavy and confused, and to have trouble falling asleep at night. That's why many who say 'naps don't agree with me' are simply sleeping too long."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Υπάρχουν μελέτες που τον συνδέουν με την υγεία της καρδιάς. Ισχύει;",
+     "en": "There are studies that link it to heart health. Is that true?"
+    },
+    {
+     "speaker": "Ερευνήτρια",
+     "voice": "f",
+     "el": "Υπάρχουν, και μάλιστα μία γνωστή μελέτη έγινε σε Έλληνες. Πρέπει όμως να είμαστε προσεκτικοί: τέτοιες μελέτες δείχνουν συσχέτιση, όχι απαραίτητα αιτία. Άλλες έρευνες έχουν βρει ότι ο συχνός και μακρύς μεσημεριανός ύπνος σε ηλικιωμένους μπορεί να είναι σημάδι ότι ο νυχτερινός τους ύπνος δεν είναι καλός. Η εικόνα, λοιπόν, δεν είναι ακόμα ξεκάθαρη. Αυτό που μπορώ να πω με βεβαιότητα είναι ότι ένας σύντομος υπνάκος δεν βλάπτει κανέναν.",
+     "en": "There are, and in fact one well-known study was done on Greeks. But we must be careful: such studies show correlation, not necessarily cause. Other research has found that frequent, long naps in older people may be a sign that their night-time sleep isn't good. So the picture isn't clear yet. What I can say with certainty is that a short nap doesn't harm anyone."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Σε τι οφείλεται, σύμφωνα με την ερευνήτρια, η νύστα του απογεύματος;",
+     "options": [
+      "Στην τεμπελιά",
+      "Στη ζέστη",
+      "Και σε μια φυσική πτώση της εγρήγορσης στον βιολογικό μας ρυθμό",
+      "Μόνο στο φαγητό"
+     ],
+     "answer": "Και σε μια φυσική πτώση της εγρήγορσης στον βιολογικό μας ρυθμό",
+     "why": "Ο βιολογικός μας ρυθμός φαίνεται να έχει μια μικρή «βύθιση» της εγρήγορσης"
+    },
+    {
+     "q": "Γιατί πολλοί νιώθουν άσχημα μετά τον μεσημεριανό ύπνο;",
+     "options": [
+      "Γιατί τρώνε πριν κοιμηθούν",
+      "Γιατί κοιμούνται σε καναπέ",
+      "Γιατί κοιμούνται πολύ και ξυπνούν μέσα από βαθύ ύπνο",
+      "Γιατί κοιμούνται πολύ λίγο"
+     ],
+     "answer": "Γιατί κοιμούνται πολύ και ξυπνούν μέσα από βαθύ ύπνο",
+     "why": "απλώς κοιμούνται πολύ"
+    },
+    {
+     "q": "Πώς αντιμετωπίζει τις μελέτες για την καρδιά;",
+     "options": [
+      "Με προσοχή, γιατί δείχνουν συσχέτιση και όχι απαραίτητα αιτία",
+      "Ως απόδειξη ότι ο μεσημεριανός ύπνος προστατεύει την καρδιά",
+      "Ως λανθασμένες",
+      "Ως άσχετες με τους Έλληνες"
+     ],
+     "answer": "Με προσοχή, γιατί δείχνουν συσχέτιση και όχι απαραίτητα αιτία",
+     "why": "τέτοιες μελέτες δείχνουν συσχέτιση, όχι απαραίτητα αιτία"
+    }
+   ],
+   "gloss": {
+    "θεσμός": "θεσμός — institution",
+    "εγρήγορσης": "εγρήγορση — alertness",
+    "ιδιοτροπία": "ιδιοτροπία — quirk, whim",
+    "παρενέργειες": "παρενέργεια — side effect",
+    "συσχέτιση": "συσχέτιση — correlation",
+    "υπνάκος": "υπνάκος — nap, short sleep"
+   }
+  },
+  {
+   "id": "l196-c1-mono-i-foni-mas",
+   "title": "Γιατί η φωνή μας ακούγεται παράξενη στις ηχογραφήσεις;",
+   "title_en": "Why does our voice sound strange on recordings?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Απόσπασμα από podcast εκλαΐκευσης της επιστήμης.",
+   "script": [
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Είναι μια από τις πιο κοινές μικρές ταπεινώσεις της σύγχρονης ζωής: ακούμε ένα φωνητικό μήνυμα που στείλαμε και αναρωτιόμαστε ποιος είναι αυτός ο άνθρωπος με τη λεπτή, σχεδόν ξένη φωνή. Κι όμως, αυτή είναι η φωνή που ακούνε όλοι οι άλλοι κάθε μέρα.",
+     "en": "It's one of the most common small humiliations of modern life: we listen to a voice message we sent and wonder who this person with the thin, almost foreign voice is. And yet that's the voice everyone else hears every day."
+    },
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Η εξήγηση βρίσκεται στον δρόμο που ακολουθεί ο ήχος. Όταν μιλάμε, ακούμε τη φωνή μας με δύο τρόπους ταυτόχρονα: μέσα από τον αέρα, όπως όλοι, αλλά και μέσα από τα οστά του κρανίου, που μεταφέρουν τις δονήσεις κατευθείαν στο εσωτερικό αυτί. Τα οστά ευνοούν τις χαμηλές συχνότητες, κι έτσι η φωνή που ακούμε μέσα μας είναι πιο βαθιά και πιο γεμάτη από την πραγματική.",
+     "en": "The explanation lies in the path the sound takes. When we speak, we hear our voice in two ways at once: through the air, like everyone else, but also through the bones of the skull, which carry the vibrations straight to the inner ear. Bones favour low frequencies, and so the voice we hear inside is deeper and fuller than the real one."
+    },
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Η ηχογράφηση μάς στερεί αυτό το μπάσο συμπλήρωμα και μας φέρνει αντιμέτωπους με τη φωνή όπως τη μεταφέρει μόνο ο αέρας. Υπάρχει όμως και ένας ψυχολογικός παράγοντας: κάποιοι ερευνητές υποστηρίζουν ότι μας ενοχλεί η απόσταση ανάμεσα στην εικόνα που έχουμε για τον εαυτό μας και σε αυτό που ακούμε. Ενδιαφέρον είναι ότι, σε ορισμένα πειράματα, όταν οι συμμετέχοντες άκουγαν τη φωνή τους χωρίς να την αναγνωρίζουν, τη βαθμολογούσαν πιο θετικά απ' ό,τι όταν ήξεραν ότι ήταν δική τους.",
+     "en": "The recording deprives us of that bass supplement and confronts us with the voice as air alone carries it. But there's also a psychological factor: some researchers argue that what bothers us is the gap between the image we have of ourselves and what we hear. Interestingly, in some experiments, when participants heard their voice without recognising it, they rated it more positively than when they knew it was theirs."
+    },
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Η καλή είδηση είναι ότι η δυσφορία μειώνεται με τη συνήθεια. Οι εκφωνητές, οι ηθοποιοί και όσοι κάνουν podcast, όπως εγώ, κάποια στιγμή σταματούν να τρομάζουν. Ή, τουλάχιστον, το κρύβουν καλύτερα.",
+     "en": "The good news is that the discomfort decreases with habit. Announcers, actors and those who do podcasts, like me, at some point stop being startled. Or at least they hide it better."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί η φωνή που ακούμε μέσα μας είναι πιο βαθιά;",
+     "options": [
+      "Γιατί ο αέρας απορροφά τις χαμηλές συχνότητες",
+      "Γιατί μιλάμε πιο δυνατά απ' ό,τι νομίζουμε",
+      "Γιατί τα μικρόφωνα παραμορφώνουν τον ήχο",
+      "Γιατί τα οστά του κρανίου ευνοούν τις χαμηλές συχνότητες"
+     ],
+     "answer": "Γιατί τα οστά του κρανίου ευνοούν τις χαμηλές συχνότητες",
+     "why": "Τα οστά ευνοούν τις χαμηλές συχνότητες"
+    },
+    {
+     "q": "Ποιον ψυχολογικό παράγοντα αναφέρει;",
+     "options": [
+      "Τον φόβο της κριτικής",
+      "Την κούραση",
+      "Την απόσταση ανάμεσα στην εικόνα που έχουμε για τον εαυτό μας και σε αυτό που ακούμε",
+      "Την έλλειψη συνήθειας με την τεχνολογία"
+     ],
+     "answer": "Την απόσταση ανάμεσα στην εικόνα που έχουμε για τον εαυτό μας και σε αυτό που ακούμε",
+     "why": "μας ενοχλεί η απόσταση ανάμεσα στην εικόνα που έχουμε για τον εαυτό μας"
+    },
+    {
+     "q": "Τι έδειξαν ορισμένα πειράματα;",
+     "options": [
+      "Ότι η ενόχληση δεν μειώνεται ποτέ",
+      "Ότι όταν οι συμμετέχοντες δεν αναγνώριζαν τη φωνή τους, τη βαθμολογούσαν πιο θετικά",
+      "Ότι κανείς δεν αναγνωρίζει τη φωνή του",
+      "Ότι οι γυναίκες ενοχλούνται περισσότερο"
+     ],
+     "answer": "Ότι όταν οι συμμετέχοντες δεν αναγνώριζαν τη φωνή τους, τη βαθμολογούσαν πιο θετικά",
+     "why": "τη βαθμολογούσαν πιο θετικά απ' ό,τι όταν ήξεραν ότι ήταν δική τους"
+    }
+   ],
+   "gloss": {
+    "ταπεινώσεις": "ταπείνωση — humiliation",
+    "κρανίου": "κρανίο — skull",
+    "δονήσεις": "δόνηση — vibration",
+    "συχνότητες": "συχνότητα — frequency",
+    "στερεί": "στερώ — to deprive",
+    "δυσφορία": "δυσφορία — discomfort, unease"
+   }
+  }
+ ]
+}
