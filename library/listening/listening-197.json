@@ -1,0 +1,784 @@
+{
+ "items": [
+  {
+   "id": "l197-ann-apografi-vivliothikis",
+   "title": "Η δημοτική βιβλιοθήκη κλείνει για απογραφή",
+   "title_en": "The municipal library closes for stocktaking",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση από τα μεγάφωνα της δημοτικής βιβλιοθήκης.",
+   "script": [
+    {
+     "speaker": "Βιβλιοθηκονόμος",
+     "voice": "f",
+     "el": "Αγαπητοί αναγνώστες, σας ενημερώνουμε ότι η βιβλιοθήκη θα παραμείνει κλειστή από τη Δευτέρα 24 έως και την Παρασκευή 28 Νοεμβρίου λόγω της ετήσιας απογραφής. Εκείνη την εβδομάδα το προσωπικό θα ελέγξει όλα τα ράφια και θα καταγράψει ποια βιβλία λείπουν ή χρειάζονται επιδιόρθωση.",
+     "en": "Dear readers, we inform you that the library will remain closed from Monday the 24th to Friday the 28th of November inclusive for the annual stocktaking. That week the staff will check all the shelves and record which books are missing or need repair."
+    },
+    {
+     "speaker": "Βιβλιοθηκονόμος",
+     "voice": "f",
+     "el": "Όσα βιβλία λήγουν μέσα σε αυτές τις μέρες παίρνουν αυτόματα παράταση μέχρι τις 5 Δεκεμβρίου, χωρίς πρόστιμο. Αν θέλετε να επιστρέψετε κάποιο βιβλίο, μπορείτε να το αφήσετε στο κουτί επιστροφών δίπλα στην κεντρική είσοδο, που θα λειτουργεί κανονικά.",
+     "en": "Books that are due during these days automatically get an extension until 5 December, with no fine. If you want to return a book, you can leave it in the returns box next to the main entrance, which will work as normal."
+    },
+    {
+     "speaker": "Βιβλιοθηκονόμος",
+     "voice": "f",
+     "el": "Η αναγνωστική αίθουσα του πρώτου ορόφου θα ανοίξει ξανά μία μέρα αργότερα, το Σάββατο, επειδή θα βαφτεί. Σας ευχαριστούμε για την κατανόηση.",
+     "en": "The first-floor reading room will reopen one day later, on Saturday, because it will be painted. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί κλείνει η βιβλιοθήκη;",
+     "options": [
+      "Για την ετήσια απογραφή",
+      "Λόγω απεργίας",
+      "Λόγω διακοπών",
+      "Για ανακαίνιση"
+     ],
+     "answer": "Για την ετήσια απογραφή",
+     "why": "λόγω της ετήσιας απογραφής"
+    },
+    {
+     "q": "Τι γίνεται με τα βιβλία που λήγουν εκείνη την εβδομάδα;",
+     "options": [
+      "Πληρώνουν πρόστιμο",
+      "Ανανεώνονται μόνο ηλεκτρονικά",
+      "Παίρνουν αυτόματα παράταση",
+      "Πρέπει να επιστραφούν την Παρασκευή"
+     ],
+     "answer": "Παίρνουν αυτόματα παράταση",
+     "why": "παίρνουν αυτόματα παράταση"
+    },
+    {
+     "q": "Γιατί η αναγνωστική αίθουσα θα ανοίξει αργότερα;",
+     "options": [
+      "Γιατί θα γίνει μια εκδήλωση",
+      "Γιατί θα αλλάξουν τα ράφια",
+      "Γιατί λείπει προσωπικό",
+      "Γιατί θα βαφτεί"
+     ],
+     "answer": "Γιατί θα βαφτεί",
+     "why": "επειδή θα βαφτεί"
+    }
+   ],
+   "gloss": {
+    "απογραφής": "απογραφή — stocktaking, inventory",
+    "επιδιόρθωση": "επιδιόρθωση — repair",
+    "παράταση": "παράταση — extension",
+    "πρόστιμο": "πρόστιμο — fine",
+    "αναγνωστική": "αναγνωστική αίθουσα — reading room"
+   }
+  },
+  {
+   "id": "l197-int-iliaka-rologia",
+   "title": "Ο κατασκευαστής ηλιακών ρολογιών",
+   "title_en": "The sundial maker",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Συνέντευξη με έναν μαρμαρά από την Τήνο που φτιάχνει ηλιακά ρολόγια.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Ποιος παραγγέλνει σήμερα ένα ηλιακό ρολόι;",
+     "en": "Who orders a sundial today?"
+    },
+    {
+     "speaker": "Μαρμαράς",
+     "voice": "m",
+     "el": "Περισσότεροι απ' όσους φαντάζεστε. Κυρίως άνθρωποι που φτιάχνουν ένα σπίτι στο νησί και θέλουν κάτι στον τοίχο της αυλής που να μη χρειάζεται μπαταρία. Έχω φτιάξει και για σχολεία, γιατί είναι ένας πολύ καλός τρόπος να μάθουν τα παιδιά πώς κινείται η Γη.",
+     "en": "More people than you'd imagine. Mainly people building a house on the island who want something on the courtyard wall that doesn't need a battery. I've also made them for schools, because it's a very good way for children to learn how the Earth moves."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Είναι δύσκολο να υπολογίσετε σωστά τις γραμμές;",
+     "en": "Is it difficult to calculate the lines correctly?"
+    },
+    {
+     "speaker": "Μαρμαράς",
+     "voice": "m",
+     "el": "Αυτό είναι το πιο δύσκολο κομμάτι. Κάθε ρολόι είναι μοναδικό, γιατί εξαρτάται από το γεωγραφικό πλάτος του τόπου και από το πού ακριβώς κοιτάζει ο τοίχος. Παλιά έκανα τους υπολογισμούς με χαρτί και μολύβι και μου έπαιρναν μια εβδομάδα. Τώρα χρησιμοποιώ ένα πρόγραμμα στον υπολογιστή, αλλά πάντα πηγαίνω στο σπίτι να δω τον τοίχο με τα μάτια μου.",
+     "en": "That's the hardest part. Every sundial is unique, because it depends on the latitude of the place and on exactly which way the wall faces. I used to do the calculations with paper and pencil and they took me a week. Now I use a computer program, but I always go to the house to see the wall with my own eyes."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Δείχνει πάντα τη σωστή ώρα;",
+     "en": "Does it always show the right time?"
+    },
+    {
+     "speaker": "Μαρμαράς",
+     "voice": "m",
+     "el": "Δείχνει την ηλιακή ώρα, όχι την ώρα του κινητού σας. Το καλοκαίρι, με τη θερινή ώρα, η διαφορά είναι πάνω από μία ώρα. Οι πελάτες στην αρχή παραπονιούνται. Μετά τους αρέσει που έχουν στον τοίχο τους μια ώρα που δεν βιάζεται.",
+     "en": "It shows solar time, not the time on your phone. In summer, with daylight saving time, the difference is over an hour. Customers complain at first. Then they like having on their wall a time that isn't in a hurry."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί φτιάχνει ηλιακά ρολόγια και για σχολεία;",
+     "options": [
+      "Γιατί βοηθούν τα παιδιά να μάθουν πώς κινείται η Γη",
+      "Γιατί του το ζήτησε το υπουργείο",
+      "Γιατί είναι φθηνά",
+      "Γιατί τα σχολεία δεν έχουν ρολόγια"
+     ],
+     "answer": "Γιατί βοηθούν τα παιδιά να μάθουν πώς κινείται η Γη",
+     "why": "να μάθουν τα παιδιά πώς κινείται η Γη"
+    },
+    {
+     "q": "Από τι εξαρτάται κάθε ρολόι;",
+     "options": [
+      "Από το γεωγραφικό πλάτος και από το πού κοιτάζει ο τοίχος",
+      "Από την εποχή του χρόνου",
+      "Από το μέγεθος του μαρμάρου",
+      "Από το χρώμα του τοίχου"
+     ],
+     "answer": "Από το γεωγραφικό πλάτος και από το πού κοιτάζει ο τοίχος",
+     "why": "εξαρτάται από το γεωγραφικό πλάτος του τόπου"
+    },
+    {
+     "q": "Γιατί παραπονιούνται στην αρχή οι πελάτες;",
+     "options": [
+      "Γιατί το ρολόι χαλάει",
+      "Γιατί κοστίζει ακριβά",
+      "Γιατί η κατασκευή αργεί",
+      "Γιατί η ηλιακή ώρα διαφέρει από την ώρα του κινητού"
+     ],
+     "answer": "Γιατί η ηλιακή ώρα διαφέρει από την ώρα του κινητού",
+     "why": "Δείχνει την ηλιακή ώρα, όχι την ώρα του κινητού σας"
+    }
+   ],
+   "gloss": {
+    "μαρμαρά": "μαρμαράς — marble carver",
+    "πλάτος": "γεωγραφικό πλάτος — latitude",
+    "υπολογισμούς": "υπολογισμός — calculation",
+    "θερινή": "θερινή ώρα — daylight saving time",
+    "παραπονιούνται": "παραπονιέμαι — to complain"
+   }
+  },
+  {
+   "id": "l197-vm-syntagi",
+   "title": "Μήνυμα από το ιατρείο για τη συνταγή",
+   "title_en": "A message from the doctor's surgery about a prescription",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Είχατε ζητήσει από τον γιατρό σας να σας γράψει ξανά ένα φάρμακο. Ακούτε ένα μήνυμα στον τηλεφωνητή σας.",
+   "script": [
+    {
+     "speaker": "Γραμματέας",
+     "voice": "f",
+     "el": "Καλημέρα σας, από το ιατρείο του κυρίου Ζαφειρίου σας παίρνω, η Βούλα. Η ηλεκτρονική συνταγή για την πίεση είναι έτοιμη. Θα σας έρθει μήνυμα στο κινητό με τον κωδικό, και με αυτόν μπορείτε να πάρετε τα φάρμακα από οποιοδήποτε φαρμακείο.",
+     "en": "Good morning, I'm calling from Mr Zafeiriou's surgery, it's Voula. The electronic prescription for your blood pressure is ready. You'll get a text on your mobile with the code, and with it you can collect the medicine from any pharmacy."
+    },
+    {
+     "speaker": "Γραμματέας",
+     "voice": "f",
+     "el": "Ο γιατρός σάς έγραψε για τρεις μήνες αυτή τη φορά, οπότε δεν χρειάζεται να μας πάρετε τον άλλο μήνα. Θέλει όμως να σας δει πριν τελειώσουν, για να κάνετε και τις εξετάσεις αίματος που είχατε αφήσει.",
+     "en": "The doctor has prescribed for three months this time, so you don't need to call us next month. But he wants to see you before they run out, so you can also do the blood tests you had put off."
+    },
+    {
+     "speaker": "Γραμματέας",
+     "voice": "f",
+     "el": "Αν δεν σας έρθει το μήνυμα μέσα στη μέρα, μάλλον έχουμε παλιό αριθμό. Πάρτε μας τότε να τον διορθώσουμε. Είμαστε εδώ ως τις δύο. Γεια σας.",
+     "en": "If you don't get the message within the day, we probably have an old number. Call us then so we can correct it. We're here until two. Goodbye."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς θα πάρει ο ακροατής τον κωδικό της συνταγής;",
+     "options": [
+      "Θα τον πάρει από το ιατρείο",
+      "Με email",
+      "Με μήνυμα στο κινητό",
+      "Από το φαρμακείο"
+     ],
+     "answer": "Με μήνυμα στο κινητό",
+     "why": "Θα σας έρθει μήνυμα στο κινητό με τον κωδικό"
+    },
+    {
+     "q": "Για πόσο καιρό είναι η συνταγή;",
+     "options": [
+      "Για τρεις μήνες",
+      "Για έναν μήνα",
+      "Για δύο μήνες",
+      "Για έναν χρόνο"
+     ],
+     "answer": "Για τρεις μήνες",
+     "why": "σάς έγραψε για τρεις μήνες"
+    },
+    {
+     "q": "Τι πρέπει να κάνει αν δεν πάρει μήνυμα μέσα στη μέρα;",
+     "options": [
+      "Να περιμένει μέχρι αύριο",
+      "Να πάει σε άλλο φαρμακείο",
+      "Να ξαναστείλει email",
+      "Να τηλεφωνήσει στο ιατρείο"
+     ],
+     "answer": "Να τηλεφωνήσει στο ιατρείο",
+     "why": "Πάρτε μας τότε να τον διορθώσουμε"
+    }
+   ],
+   "gloss": {
+    "ιατρείο": "ιατρείο — doctor's surgery",
+    "συνταγή": "συνταγή — prescription",
+    "πίεση": "πίεση — blood pressure",
+    "εξετάσεις": "εξετάσεις αίματος — blood tests",
+    "κωδικό": "κωδικός — code"
+   }
+  },
+  {
+   "id": "l197-mono-milao-monos-mou",
+   "title": "Μιλάω φωναχτά με τον εαυτό μου",
+   "title_en": "I talk to myself out loud",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ένας ακροατής μιλάει σε μια ραδιοφωνική εκπομπή για μια συνήθειά του.",
+   "script": [
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Από παιδί μιλάω μόνος μου. Όχι συνέχεια, αλλά όταν μαγειρεύω, όταν ψάχνω τα κλειδιά μου ή όταν προσπαθώ να λύσω ένα πρόβλημα στη δουλειά. Λέω πράγματα όπως «Λοιπόν, Θοδωρή, πρώτα το κρεμμύδι» ή «Πού τα άφησες πάλι;».",
+     "en": "I've talked to myself since I was a child. Not all the time, but when I'm cooking, when I'm looking for my keys or when I'm trying to solve a problem at work. I say things like 'Right, Thodoris, the onion first' or 'Where did you leave them this time?'"
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Για χρόνια ντρεπόμουν. Μια φορά, στο σούπερ μάρκετ, μια κυρία με ρώτησε αν είμαι καλά, γιατί έλεγα δυνατά τη λίστα με τα ψώνια. Από τότε φορούσα ακουστικά, για να νομίζουν οι άλλοι ότι μιλάω στο τηλέφωνο.",
+     "en": "For years I was embarrassed. Once, at the supermarket, a lady asked me if I was all right, because I was saying my shopping list out loud. After that I wore earphones, so others would think I was on the phone."
+    },
+    {
+     "speaker": "Θοδωρής",
+     "voice": "m",
+     "el": "Πριν από λίγο καιρό διάβασα ότι πολλοί άνθρωποι το κάνουν και ότι μπορεί να βοηθάει τη συγκέντρωση, ειδικά όταν μιλάμε στον εαυτό μας σε δεύτερο πρόσωπο, σαν να είμαστε προπονητές. Δεν ξέρω αν ισχύει για όλους. Για μένα, πάντως, ισχύει. Έβγαλα τα ακουστικά.",
+     "en": "A little while ago I read that many people do it and that it may help concentration, especially when we talk to ourselves in the second person, as if we were coaches. I don't know if it's true for everyone. For me, anyway, it is. I took the earphones off."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πότε μιλάει συνήθως μόνος του ο Θοδωρής;",
+     "options": [
+      "Μόνο όταν είναι στενοχωρημένος",
+      "Μόνο στο αυτοκίνητο",
+      "Όταν μαγειρεύει, ψάχνει κάτι ή λύνει ένα πρόβλημα",
+      "Όταν δεν μπορεί να κοιμηθεί"
+     ],
+     "answer": "Όταν μαγειρεύει, ψάχνει κάτι ή λύνει ένα πρόβλημα",
+     "why": "όταν μαγειρεύω, όταν ψάχνω τα κλειδιά μου"
+    },
+    {
+     "q": "Γιατί φορούσε ακουστικά;",
+     "options": [
+      "Για να ακούει μουσική",
+      "Για να μην ακούει τον θόρυβο",
+      "Γιατί του το πρότεινε ένας γιατρός",
+      "Για να νομίζουν οι άλλοι ότι μιλάει στο τηλέφωνο"
+     ],
+     "answer": "Για να νομίζουν οι άλλοι ότι μιλάει στο τηλέφωνο",
+     "why": "για να νομίζουν οι άλλοι ότι μιλάω στο τηλέφωνο"
+    },
+    {
+     "q": "Τι διάβασε πριν από λίγο καιρό;",
+     "options": [
+      "Ότι είναι σημάδι άγχους",
+      "Ότι το κάνουν μόνο τα παιδιά",
+      "Ότι πρέπει να το σταματήσει",
+      "Ότι μπορεί να βοηθάει τη συγκέντρωση"
+     ],
+     "answer": "Ότι μπορεί να βοηθάει τη συγκέντρωση",
+     "why": "μπορεί να βοηθάει τη συγκέντρωση"
+    }
+   ],
+   "gloss": {
+    "ντρεπόμουν": "ντρέπομαι — to be embarrassed, ashamed",
+    "ακουστικά": "ακουστικά — earphones",
+    "συγκέντρωση": "συγκέντρωση — concentration",
+    "προπονητές": "προπονητής — coach"
+   }
+  },
+  {
+   "id": "l197-dia-synantisi-apofoiton",
+   "title": "Θα πάμε στη συνάντηση των αποφοίτων;",
+   "title_en": "Shall we go to the school reunion?",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Δύο παλιοί συμμαθητές μιλούν στο τηλέφωνο για μια πρόσκληση.",
+   "script": [
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Είδες την πρόσκληση; Κλείνουμε είκοσι χρόνια από την αποφοίτηση και κάνουν συνάντηση στην ταβέρνα του Λευτέρη, στις 13 Δεκεμβρίου.",
+     "en": "Did you see the invitation? It's twenty years since we graduated and they're holding a reunion at Lefteris's taverna on 13 December."
+    },
+    {
+     "speaker": "Άρης",
+     "voice": "m",
+     "el": "Την είδα. Δεν ξέρω αν θέλω να πάω. Οι μισοί θα μιλάνε για τις δουλειές τους και για τα παιδιά τους, κι εγώ θα πω ότι ακόμα δεν έχω αποφασίσει τι θέλω να γίνω όταν μεγαλώσω.",
+     "en": "I saw it. I don't know if I want to go. Half of them will talk about their jobs and their kids, and I'll say I still haven't decided what I want to be when I grow up."
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Έλα τώρα. Κανείς δεν θα σε ρωτήσει για βιογραφικό. Θα έρθει και ο κύριος Σταθόπουλος, ο φιλόλογος. Θυμάσαι που σε έβαλε να διαβάσεις το ποίημά σου στη γιορτή της 25ης Μαρτίου;",
+     "en": "Come on. Nobody's going to ask you for a CV. Mr Stathopoulos, the Greek teacher, is coming too. Remember when he made you read your poem at the 25th of March celebration?"
+    },
+    {
+     "speaker": "Άρης",
+     "voice": "m",
+     "el": "Πώς να μην το θυμάμαι; Έτρεμαν τα γόνατά μου. Εντάξει, αν έρχεται εκείνος, θα έρθω. Αλλά με ένα όρο: να φύγουμε μαζί αν αρχίσουν να δείχνουν φωτογραφίες από τις διακοπές τους.",
+     "en": "How could I forget? My knees were shaking. OK, if he's coming, I'll come. But on one condition: we leave together if they start showing photos from their holidays."
+    },
+    {
+     "speaker": "Κατερίνα",
+     "voice": "f",
+     "el": "Σύμφωνοι. Θα σε περάσω να σε πάρω στις οχτώ.",
+     "en": "Deal. I'll come and pick you up at eight."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί διστάζει ο Άρης να πάει;",
+     "options": [
+      "Γιατί είναι θυμωμένος με την Κατερίνα",
+      "Γιατί θα λείπει ταξίδι",
+      "Γιατί φοβάται ότι όλοι θα μιλάνε για δουλειές και παιδιά",
+      "Γιατί δεν του αρέσει η ταβέρνα"
+     ],
+     "answer": "Γιατί φοβάται ότι όλοι θα μιλάνε για δουλειές και παιδιά",
+     "why": "Οι μισοί θα μιλάνε για τις δουλειές τους και για τα παιδιά τους"
+    },
+    {
+     "q": "Τι πείθει τελικά τον Άρη να πάει;",
+     "options": [
+      "Ότι θα είναι δωρεάν",
+      "Ότι θα έρθει ο παλιός του φιλόλογος",
+      "Ότι θα παίξει μουσική",
+      "Ότι θα γίνει σε άλλη πόλη"
+     ],
+     "answer": "Ότι θα έρθει ο παλιός του φιλόλογος",
+     "why": "αν έρχεται εκείνος, θα έρθω"
+    },
+    {
+     "q": "Ποιον όρο βάζει ο Άρης;",
+     "options": [
+      "Να μη μείνουν πολύ αργά",
+      "Να οδηγήσει εκείνος",
+      "Να φύγουν μαζί αν αρχίσουν να δείχνουν φωτογραφίες από διακοπές",
+      "Να μην πει κανείς για τη δουλειά του"
+     ],
+     "answer": "Να φύγουν μαζί αν αρχίσουν να δείχνουν φωτογραφίες από διακοπές",
+     "why": "να φύγουμε μαζί αν αρχίσουν να δείχνουν φωτογραφίες"
+    }
+   ],
+   "gloss": {
+    "αποφοίτηση": "αποφοίτηση — graduation (from school)",
+    "βιογραφικό": "βιογραφικό — CV, résumé",
+    "φιλόλογος": "φιλόλογος — teacher of Greek language and literature",
+    "γόνατά": "γόνατο — knee",
+    "όρο": "όρος — condition, term"
+   }
+  },
+  {
+   "id": "l197-rep-lemonada",
+   "title": "Παιδιά πουλάνε λεμονάδα για τη σχολική βιβλιοθήκη",
+   "title_en": "Children sell lemonade for the school library",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ρεπορτάζ από μια τοπική ραδιοφωνική εκπομπή.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Κάθε Σάββατο πρωί, έξω από τη λαϊκή αγορά της γειτονιάς, ένα τραπεζάκι με μια χειρόγραφη πινακίδα τραβάει την προσοχή: «Λεμονάδα για βιβλία». Πίσω του στέκονται μαθητές της πέμπτης τάξης του δημοτικού σχολείου που βρίσκεται στην απέναντι γωνία.",
+     "en": "Every Saturday morning, outside the neighbourhood street market, a small table with a handwritten sign catches the eye: 'Lemonade for books'. Behind it stand fifth-year pupils from the primary school on the opposite corner."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Η ιδέα ήταν της δασκάλας τους. Η σχολική βιβλιοθήκη είχε μόνο λίγα παλιά βιβλία, και τα παιδιά αποφάσισαν να μαζέψουν χρήματα μόνα τους. Τα λεμόνια τα δίνει ένας παραγωγός της λαϊκής και τη ζάχαρη ένα μπακάλικο. Τα παιδιά κάνουν όλα τα υπόλοιπα: στύβουν, μετράνε τα ρέστα και κρατούν ένα τετράδιο με τα έσοδα.",
+     "en": "The idea was their teacher's. The school library had only a few old books, and the children decided to raise money themselves. The lemons are donated by a stallholder at the market and the sugar by a grocer's. The children do everything else: they squeeze, count the change and keep a notebook of the takings."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "f",
+     "el": "Μέσα σε τρεις μήνες μάζεψαν πάνω από οχτακόσια ευρώ και αγόρασαν εκατόν είκοσι βιβλία, που τα διάλεξαν τα ίδια, με ψηφοφορία. Η δασκάλα λέει ότι έμαθαν περισσότερα μαθηματικά πίσω από το τραπεζάκι παρά στην τάξη. Οι μαθητές πάντως έχουν ήδη νέο στόχο: τον χειμώνα, ζεστή σοκολάτα.",
+     "en": "Within three months they raised over eight hundred euros and bought a hundred and twenty books, which they chose themselves, by vote. The teacher says they learned more maths behind the little table than in the classroom. The pupils, anyway, already have a new goal: in winter, hot chocolate."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποιος δίνει τα λεμόνια;",
+     "options": [
+      "Οι γονείς",
+      "Ένας παραγωγός της λαϊκής",
+      "Ένα μπακάλικο",
+      "Ο δήμος"
+     ],
+     "answer": "Ένας παραγωγός της λαϊκής",
+     "why": "Τα λεμόνια τα δίνει ένας παραγωγός της λαϊκής"
+    },
+    {
+     "q": "Πώς διάλεξαν τα βιβλία;",
+     "options": [
+      "Τα πρότεινε ο βιβλιοπώλης",
+      "Με ψηφοφορία των παιδιών",
+      "Από έναν κατάλογο του υπουργείου",
+      "Τα διάλεξε η δασκάλα"
+     ],
+     "answer": "Με ψηφοφορία των παιδιών",
+     "why": "που τα διάλεξαν τα ίδια, με ψηφοφορία"
+    },
+    {
+     "q": "Ποιος είναι ο νέος στόχος των μαθητών;",
+     "options": [
+      "Να πάνε εκδρομή",
+      "Να πουλήσουν ζεστή σοκολάτα τον χειμώνα",
+      "Να πουλήσουν βιβλία",
+      "Να ανοίξουν καφετέρια"
+     ],
+     "answer": "Να πουλήσουν ζεστή σοκολάτα τον χειμώνα",
+     "why": "τον χειμώνα, ζεστή σοκολάτα"
+    }
+   ],
+   "gloss": {
+    "λαϊκή": "λαϊκή (αγορά) — street market",
+    "χειρόγραφη": "χειρόγραφος — handwritten",
+    "μπακάλικο": "μπακάλικο — grocer's shop",
+    "στύβουν": "στύβω — to squeeze",
+    "ρέστα": "ρέστα — change (money)",
+    "έσοδα": "έσοδα — takings, income"
+   }
+  },
+  {
+   "id": "l197-int-kafe-syndromo-down",
+   "title": "Ένα καφέ με σερβιτόρους με σύνδρομο Down",
+   "title_en": "A café whose waiters have Down syndrome",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Συνέντευξη με την υπεύθυνη ενός καφέ όπου εργάζονται νέοι με σύνδρομο Down.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πώς ξεκίνησε το καφέ;",
+     "en": "How did the café start?"
+    },
+    {
+     "speaker": "Υπεύθυνη",
+     "voice": "f",
+     "el": "Ξεκίνησε από μια ομάδα γονέων. Τα παιδιά μας τελείωναν το σχολείο και δεν υπήρχε τίποτα για αυτά μετά. Θέλαμε μια πραγματική δουλειά, με μισθό και ασφάλιση, όχι ένα εργαστήρι όπου απλώς περνούν την ώρα τους.",
+     "en": "It started with a group of parents. Our children were finishing school and there was nothing for them afterwards. We wanted a real job, with a salary and insurance, not a workshop where they just pass the time."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Πώς αντιδρούν οι πελάτες;",
+     "en": "How do customers react?"
+    },
+    {
+     "speaker": "Υπεύθυνη",
+     "voice": "f",
+     "el": "Οι περισσότεροι έρχονται μία φορά από περιέργεια και μετά γίνονται θαμώνες. Ο Νίκος, ο πιο παλιός μας σερβιτόρος, θυμάται τι πίνει ο καθένας. Μπαίνεις και σου λέει «Φρέντο χωρίς ζάχαρη, σωστά;» πριν προλάβεις να καθίσεις. Βέβαια, μερικές φορές οι παραγγελίες αργούν λίγο. Στον τοίχο έχουμε γράψει: «Εδώ ο καφές δεν βιάζεται».",
+     "en": "Most come once out of curiosity and then become regulars. Nikos, our longest-serving waiter, remembers what everyone drinks. You walk in and he says 'Freddo without sugar, right?' before you've had time to sit down. Of course, sometimes orders take a little longer. On the wall we've written: 'Here coffee isn't in a hurry'."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιο είναι το επόμενο βήμα;",
+     "en": "What's the next step?"
+    },
+    {
+     "speaker": "Υπεύθυνη",
+     "voice": "f",
+     "el": "Να μη χρειάζονται πια καφέ σαν το δικό μας. Θα ήθελα τα παιδιά μας να δουλεύουν σε οποιοδήποτε μαγαζί της γειτονιάς, και να μην το βρίσκει κανείς παράξενο.",
+     "en": "That cafés like ours are no longer needed. I'd like our children to work in any shop in the neighbourhood, and for nobody to find it strange."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι ήθελαν οι γονείς για τα παιδιά τους;",
+     "options": [
+      "Ένα σχολείο για ενήλικες",
+      "Μια πραγματική δουλειά με μισθό και ασφάλιση",
+      "Ένα εργαστήρι για να περνούν την ώρα τους",
+      "Μια κατασκήνωση"
+     ],
+     "answer": "Μια πραγματική δουλειά με μισθό και ασφάλιση",
+     "why": "Θέλαμε μια πραγματική δουλειά, με μισθό και ασφάλιση"
+    },
+    {
+     "q": "Τι κάνει ο Νίκος;",
+     "options": [
+      "Κρατάει το ταμείο",
+      "Θυμάται τι πίνει ο κάθε πελάτης",
+      "Φτιάχνει τα γλυκά",
+      "Γράφει στον τοίχο"
+     ],
+     "answer": "Θυμάται τι πίνει ο κάθε πελάτης",
+     "why": "θυμάται τι πίνει ο καθένας"
+    },
+    {
+     "q": "Ποιο είναι το επόμενο βήμα για την υπεύθυνη;",
+     "options": [
+      "Να ανοίξουν δεύτερο καφέ",
+      "Να μη χρειάζονται πια τέτοια καφέ",
+      "Να μεγαλώσει το μαγαζί",
+      "Να βγουν στην τηλεόραση"
+     ],
+     "answer": "Να μη χρειάζονται πια τέτοια καφέ",
+     "why": "Να μη χρειάζονται πια καφέ σαν το δικό μας"
+    }
+   ],
+   "gloss": {
+    "σύνδρομο": "σύνδρομο Down — Down syndrome",
+    "ασφάλιση": "ασφάλιση — (social) insurance",
+    "περιέργεια": "περιέργεια — curiosity",
+    "θαμώνες": "θαμώνας — regular customer",
+    "παράξενο": "παράξενος — strange"
+   }
+  },
+  {
+   "id": "l197-news-romaiko-navagio",
+   "title": "Υποβρύχια έρευνα εντόπισε ρωμαϊκό ναυάγιο",
+   "title_en": "Underwater survey locates a Roman shipwreck",
+   "type": "news",
+   "level": "B2",
+   "context_el": "Ακούτε μια είδηση στο δελτίο ειδήσεων του ραδιοφώνου.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Ένα ναυάγιο της ρωμαϊκής εποχής εντόπισαν δύτες της Εφορείας Εναλίων Αρχαιοτήτων σε βάθος περίπου σαράντα μέτρων, ανοιχτά ενός μικρού νησιού των Δωδεκανήσων. Το πλοίο μετέφερε αμφορείς, πιθανότατα με κρασί ή λάδι, και πολλοί από αυτούς σώζονται ακόμα στη θέση τους.",
+     "en": "A shipwreck from the Roman era was located by divers of the Ephorate of Underwater Antiquities at a depth of about forty metres, off a small island in the Dodecanese. The ship was carrying amphorae, most likely with wine or oil, and many of them are still preserved in place."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Το ναυάγιο το είχε δει πρώτος πέρσι ένας ψαράς της περιοχής, όταν τα δίχτυα του πιάστηκαν σε κάτι σκληρό στον βυθό. Οι αρχαιολόγοι λένε ότι το εύρημα θα βοηθήσει να καταλάβουμε καλύτερα τους εμπορικούς δρόμους του Αιγαίου εκείνης της εποχής.",
+     "en": "The wreck was first seen last year by a local fisherman, when his nets got caught on something hard on the seabed. The archaeologists say the find will help us better understand the trade routes of the Aegean at that time."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Η ακριβής θέση δεν ανακοινώθηκε, για να προστατευτεί το ναυάγιο από αρχαιοκάπηλους. Η έρευνα θα συνεχιστεί την άνοιξη.",
+     "en": "The exact location was not announced, to protect the wreck from looters. The survey will continue in the spring."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι μετέφερε το πλοίο;",
+     "options": [
+      "Νομίσματα",
+      "Όπλα",
+      "Αμφορείς, πιθανότατα με κρασί ή λάδι",
+      "Μάρμαρα"
+     ],
+     "answer": "Αμφορείς, πιθανότατα με κρασί ή λάδι",
+     "why": "Το πλοίο μετέφερε αμφορείς"
+    },
+    {
+     "q": "Ποιος είδε πρώτος το ναυάγιο;",
+     "options": [
+      "Ένας ψαράς της περιοχής",
+      "Ένα υποβρύχιο ρομπότ",
+      "Ένας τουρίστας",
+      "Ένας φοιτητής αρχαιολογίας"
+     ],
+     "answer": "Ένας ψαράς της περιοχής",
+     "why": "Το ναυάγιο το είχε δει πρώτος πέρσι ένας ψαράς της περιοχής"
+    },
+    {
+     "q": "Γιατί δεν ανακοινώθηκε η ακριβής θέση;",
+     "options": [
+      "Γιατί δεν είναι ακόμα γνωστή",
+      "Για να προστατευτεί από αρχαιοκάπηλους",
+      "Γιατί υπάρχει κίνδυνος για τους δύτες",
+      "Γιατί το ζήτησε ο ψαράς"
+     ],
+     "answer": "Για να προστατευτεί από αρχαιοκάπηλους",
+     "why": "για να προστατευτεί το ναυάγιο από αρχαιοκάπηλους"
+    }
+   ],
+   "gloss": {
+    "ναυάγιο": "ναυάγιο — shipwreck",
+    "Εναλίων": "ενάλιος — underwater, marine",
+    "αμφορείς": "αμφορέας — amphora",
+    "εύρημα": "εύρημα — find",
+    "αρχαιοκάπηλους": "αρχαιοκάπηλος — looter of antiquities"
+   }
+  },
+  {
+   "id": "l197-c1-mono-moudiasma",
+   "title": "Γιατί μουδιάζει το πόδι μας;",
+   "title_en": "Why does our leg go numb?",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Απόσπασμα από podcast εκλαΐκευσης της επιστήμης.",
+   "script": [
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Καθόμαστε σταυροπόδι σε μια συναυλία ή στο γραφείο, και όταν σηκωνόμαστε, το πόδι μας δεν μας ακούει. Στην αρχή δεν νιώθουμε σχεδόν τίποτα και μετά έρχεται εκείνο το ενοχλητικό τσίμπημα, σαν να περπατούν χιλιάδες μυρμήγκια κάτω από το δέρμα. Οι γιατροί το λένε παραισθησία· εμείς λέμε απλώς ότι «μούδιασε το πόδι μας».",
+     "en": "We sit cross-legged at a concert or at the office, and when we stand up, our leg won't obey us. At first we feel almost nothing and then comes that annoying prickling, as if thousands of ants were walking under the skin. Doctors call it paraesthesia; we simply say our leg has gone numb."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Παρά την κοινή πεποίθηση, η αιτία δεν είναι κυρίως ότι «κόπηκε η κυκλοφορία». Το βασικό είναι η πίεση που ασκείται σε ένα νεύρο. Όταν ένα νεύρο πιέζεται για αρκετή ώρα, και τα αιμοφόρα αγγεία γύρω του δεν το τροφοδοτούν όπως πρέπει, παύει προσωρινά να μεταφέρει κανονικά τα μηνύματα προς τον εγκέφαλο. Γι' αυτό, για λίγο, το άκρο μοιάζει ξένο.",
+     "en": "Contrary to popular belief, the cause isn't mainly that 'the circulation was cut off'. The key factor is the pressure on a nerve. When a nerve is compressed for long enough, and the blood vessels around it don't supply it properly, it temporarily stops carrying messages to the brain normally. That's why, for a while, the limb feels foreign."
+    },
+    {
+     "speaker": "Παρουσιάστρια",
+     "voice": "f",
+     "el": "Το τσίμπημα έρχεται όταν η πίεση φεύγει: το νεύρο ξαναρχίζει να λειτουργεί, αλλά για λίγα λεπτά στέλνει σήματα ακανόνιστα, και ο εγκέφαλος τα ερμηνεύει ως μυρμήγκιασμα. Η καλύτερη λύση είναι η πιο απλή: αλλάζουμε στάση και κινούμε απαλά το πόδι. Αν όμως το μούδιασμα εμφανίζεται συχνά χωρίς προφανή λόγο ή δεν περνάει, αξίζει να το συζητήσουμε με έναν γιατρό, γιατί μπορεί να σχετίζεται με άλλα προβλήματα υγείας.",
+     "en": "The prickling comes when the pressure goes away: the nerve starts working again, but for a few minutes it sends signals irregularly, and the brain interprets them as tingling. The best solution is the simplest one: we change position and gently move the leg. But if the numbness appears often for no obvious reason or doesn't go away, it's worth discussing with a doctor, because it may be related to other health problems."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ποια είναι, σύμφωνα με την παρουσιάστρια, η βασική αιτία του μουδιάσματος;",
+     "options": [
+      "Το κρύο",
+      "Η πίεση που ασκείται σε ένα νεύρο",
+      "Η έλλειψη νερού",
+      "Η κούραση των μυών"
+     ],
+     "answer": "Η πίεση που ασκείται σε ένα νεύρο",
+     "why": "Το βασικό είναι η πίεση που ασκείται σε ένα νεύρο"
+    },
+    {
+     "q": "Γιατί νιώθουμε τσίμπημα όταν φεύγει η πίεση;",
+     "options": [
+      "Γιατί το νεύρο στέλνει για λίγο σήματα ακανόνιστα",
+      "Γιατί οι μύες σφίγγονται",
+      "Γιατί το αίμα κρυώνει",
+      "Γιατί το δέρμα ερεθίζεται"
+     ],
+     "answer": "Γιατί το νεύρο στέλνει για λίγο σήματα ακανόνιστα",
+     "why": "στέλνει σήματα ακανόνιστα"
+    },
+    {
+     "q": "Πότε αξίζει να μιλήσουμε σε γιατρό;",
+     "options": [
+      "Μόνο αν πονάει",
+      "Κάθε φορά που μουδιάζει το πόδι",
+      "Ποτέ, είναι αθώο",
+      "Όταν το μούδιασμα εμφανίζεται συχνά χωρίς προφανή λόγο ή δεν περνάει"
+     ],
+     "answer": "Όταν το μούδιασμα εμφανίζεται συχνά χωρίς προφανή λόγο ή δεν περνάει",
+     "why": "Αν όμως το μούδιασμα εμφανίζεται συχνά χωρίς προφανή λόγο ή δεν περνάει"
+    }
+   ],
+   "gloss": {
+    "σταυροπόδι": "σταυροπόδι — cross-legged",
+    "παραισθησία": "παραισθησία — paraesthesia, pins and needles",
+    "πεποίθηση": "πεποίθηση — belief",
+    "αιμοφόρα": "αιμοφόρα αγγεία — blood vessels",
+    "ακανόνιστα": "ακανόνιστος — irregular",
+    "μυρμήγκιασμα": "μυρμήγκιασμα — tingling"
+   }
+  },
+  {
+   "id": "l197-c1-int-korifi-anamniseon",
+   "title": "Γιατί θυμόμαστε περισσότερο τα νιάτα μας;",
+   "title_en": "Why do we remember our youth best?",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Συνέντευξη με μια γνωστική ψυχολόγο σε μια εκπομπή για την επιστήμη.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Αν ζητήσουμε από έναν εξηντάρη να μας πει τις πιο ζωντανές του αναμνήσεις, από ποια περίοδο θα είναι οι περισσότερες;",
+     "en": "If we ask a sixty-year-old to tell us their most vivid memories, which period will most of them come from?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Με μεγάλη πιθανότητα από την εφηβεία και τα πρώτα χρόνια της ενήλικης ζωής, περίπου από τα δέκα ως τα τριάντα. Το φαινόμενο είναι τόσο σταθερό που έχει και όνομα: στη βιβλιογραφία το λέμε «εξόγκωμα αναπόλησης». Οι αναμνήσεις δεν κατανέμονται ομοιόμορφα στη διάρκεια της ζωής· σε εκείνη τη δεκαετία ή δύο, η καμπύλη ανεβαίνει απότομα.",
+     "en": "Very probably from adolescence and the first years of adult life, roughly from ten to thirty. The phenomenon is so consistent that it has a name: in the literature we call it the 'reminiscence bump'. Memories aren't distributed evenly across a lifetime; in that decade or two, the curve rises sharply."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Και γιατί συμβαίνει αυτό;",
+     "en": "And why does that happen?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Υπάρχουν διάφορες εξηγήσεις, που μάλλον συνυπάρχουν. Η πρώτη είναι η καινοτομία: τότε ζούμε τις περισσότερες «πρώτες φορές», το πρώτο ταξίδι μόνοι, την πρώτη δουλειά, τον πρώτο έρωτα, και ό,τι είναι καινούργιο καταγράφεται πιο έντονα. Η δεύτερη αφορά την ταυτότητα: σε αυτή την ηλικία διαμορφώνουμε το ποιοι είμαστε, και οι αναμνήσεις εκείνων των χρόνων γίνονται τα θεμέλια της ιστορίας που λέμε για τον εαυτό μας. Υπάρχει και μια τρίτη, πολιτισμική: κάθε κοινωνία έχει ένα άγραφο σενάριο για το πότε «πρέπει» να συμβαίνουν τα σημαντικά γεγονότα, και αυτό το σενάριο κατευθύνει και τη μνήμη μας.",
+     "en": "There are several explanations, which probably coexist. The first is novelty: that's when we live most of our 'first times', the first trip alone, the first job, first love, and whatever is new is recorded more intensely. The second concerns identity: at that age we shape who we are, and the memories of those years become the foundations of the story we tell about ourselves. There's also a third, cultural one: every society has an unwritten script for when important events 'should' happen, and that script also steers our memory."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Εξηγεί αυτό και γιατί η μουσική της εφηβείας μας συγκινεί τόσο;",
+     "en": "Does this also explain why the music of our teenage years moves us so much?"
+    },
+    {
+     "speaker": "Ψυχολόγος",
+     "voice": "f",
+     "el": "Σε μεγάλο βαθμό, ναι. Τα τραγούδια εκείνων των χρόνων είναι δεμένα με τις πρώτες φορές και με την ταυτότητά μας. Γι' αυτό ένα τραγούδι στο ραδιόφωνο μπορεί να μας ταξιδέψει σαράντα χρόνια πίσω μέσα σε τρία δευτερόλεπτα.",
+     "en": "To a large extent, yes. The songs of those years are tied to the first times and to our identity. That's why a song on the radio can take us forty years back in three seconds."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Από ποια περίοδο προέρχονται οι περισσότερες ζωντανές αναμνήσεις ενός εξηντάρη;",
+     "options": [
+      "Ομοιόμορφα από όλη τη ζωή",
+      "Από την πρώιμη παιδική ηλικία",
+      "Από τα τελευταία δέκα χρόνια",
+      "Περίπου από τα δέκα ως τα τριάντα"
+     ],
+     "answer": "Περίπου από τα δέκα ως τα τριάντα",
+     "why": "περίπου από τα δέκα ως τα τριάντα"
+    },
+    {
+     "q": "Τι σημαίνει η εξήγηση της «καινοτομίας»;",
+     "options": [
+      "Ότι θυμόμαστε μόνο τα ευχάριστα",
+      "Ότι οι νέοι έχουν καλύτερη μνήμη",
+      "Ότι ό,τι ζούμε για πρώτη φορά καταγράφεται πιο έντονα",
+      "Ότι η τεχνολογία βοηθά τη μνήμη"
+     ],
+     "answer": "Ότι ό,τι ζούμε για πρώτη φορά καταγράφεται πιο έντονα",
+     "why": "ό,τι είναι καινούργιο καταγράφεται πιο έντονα"
+    },
+    {
+     "q": "Τι είναι το «άγραφο σενάριο» που αναφέρει;",
+     "options": [
+      "Ένα ημερολόγιο της εφηβείας",
+      "Μια θεραπεία για τη μνήμη",
+      "Ένα βιβλίο ψυχολογίας",
+      "Η αντίληψη μιας κοινωνίας για το πότε πρέπει να συμβαίνουν τα σημαντικά γεγονότα"
+     ],
+     "answer": "Η αντίληψη μιας κοινωνίας για το πότε πρέπει να συμβαίνουν τα σημαντικά γεγονότα",
+     "why": "κάθε κοινωνία έχει ένα άγραφο σενάριο για το πότε «πρέπει» να συμβαίνουν τα σημαντικά γεγονότα"
+    },
+    {
+     "q": "Γιατί η μουσική της εφηβείας μάς συγκινεί τόσο;",
+     "options": [
+      "Γιατί την ακούμε συχνά στο ραδιόφωνο",
+      "Γιατί τότε ακούγαμε πιο δυνατά",
+      "Γιατί είναι δεμένη με τις πρώτες φορές και με την ταυτότητά μας",
+      "Γιατί ήταν καλύτερη από τη σημερινή"
+     ],
+     "answer": "Γιατί είναι δεμένη με τις πρώτες φορές και με την ταυτότητά μας",
+     "why": "Τα τραγούδια εκείνων των χρόνων είναι δεμένα με τις πρώτες φορές και με την ταυτότητά μας"
+    }
+   ],
+   "gloss": {
+    "εξηντάρη": "εξηντάρης — sixty-year-old",
+    "εφηβεία": "εφηβεία — adolescence",
+    "εξόγκωμα": "εξόγκωμα — bump, swelling",
+    "αναπόλησης": "αναπόληση — reminiscence",
+    "κατανέμονται": "κατανέμομαι — to be distributed",
+    "θεμέλια": "θεμέλιο — foundation",
+    "άγραφο": "άγραφος — unwritten"
+   }
+  }
+ ]
+}
