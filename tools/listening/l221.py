@@ -1,0 +1,91 @@
+# Source for library/listening/listening-221.json: four more B2–C1 listening items (script + questions + gloss).
+# Build: python3 tools/listening/l221.py
+import json, os, random
+
+def L(sp, v, el, en): return {"speaker": sp, "voice": v, "el": el, "en": en}
+def Q(q, opts, ans, why): return {"q": q, "options": opts, "answer": opts[ans], "why": why}
+
+ITEMS = []
+ITEMS.append({
+ "id": "l221-news-steira-kounoupia", "title": "Στείρα αρσενικά κουνούπια εναντίον του κουνουπιού τίγρης", "title_en": "Sterile male mosquitoes against the tiger mosquito", "type": "news", "level": "B2",
+ "context_el": "Ακούτε μια είδηση στο ραδιόφωνο για έναν νέο τρόπο αντιμετώπισης των κουνουπιών.",
+ "script": [
+  L("Εκφωνητής", "m", "Ένας παραθαλάσσιος δήμος ξεκινά από τον Μάιο ένα πιλοτικό πρόγραμμα κατά του κουνουπιού τίγρης, που τα τελευταία χρόνια έχει απλωθεί σε πολλές ελληνικές πόλεις. Αντί για ψεκασμούς, οι επιστήμονες θα απελευθερώνουν κάθε εβδομάδα χιλιάδες στείρα αρσενικά κουνούπια.", "A seaside municipality is starting a pilot programme in May against the tiger mosquito, which has spread to many Greek towns in recent years. Instead of spraying, scientists will release thousands of sterile male mosquitoes every week."),
+  L("Εκφωνητής", "m", "Τα αρσενικά εκτρέφονται σε εργαστήριο και γίνονται στείρα με μια μικρή δόση ακτινοβολίας. Οι ερευνητές εξηγούν ότι τα αρσενικά κουνούπια δεν τσιμπούν· μόνο τα θηλυκά χρειάζονται αίμα για να γεννήσουν αυγά. Όταν ένα θηλυκό ζευγαρώσει με ένα στείρο αρσενικό, τα αυγά του δεν εκκολάπτονται. Και επειδή τα θηλυκά συνήθως ζευγαρώνουν μόνο μία φορά, ο πληθυσμός μειώνεται από γενιά σε γενιά.", "The males are reared in a laboratory and made sterile with a small dose of radiation. The researchers explain that male mosquitoes do not bite; only females need blood in order to lay eggs. When a female mates with a sterile male, her eggs do not hatch. And because females usually mate only once, the population decreases from generation to generation."),
+  L("Εκφωνητής", "m", "Οι υπεύθυνοι προειδοποιούν ότι τα αποτελέσματα δεν θα φανούν αμέσως, αλλά μετά από αρκετούς μήνες. Ζητούν επίσης από τους κατοίκους να συνεχίσουν να αδειάζουν τα πιατάκια των γλαστρών και κάθε δοχείο με στάσιμο νερό, γιατί εκεί γεννούν τα θηλυκά τα αυγά τους.", "Those in charge warn that the results will not be seen immediately but after several months. They also ask residents to keep emptying plant-pot saucers and any container with standing water, because that is where females lay their eggs."),
+ ],
+ "questions": [
+  Q("Τι θα κάνουν οι επιστήμονες αντί για ψεκασμούς;", ["Θα βάλουν παγίδες στα σπίτια", "Θα απελευθερώνουν κάθε εβδομάδα στείρα αρσενικά κουνούπια", "Θα μοιράζουν δωρεάν σίτες", "Θα αποξηράνουν τους βάλτους"], 1, "οι επιστήμονες θα απελευθερώνουν κάθε εβδομάδα χιλιάδες στείρα αρσενικά κουνούπια"),
+  Q("Γιατί τα αρσενικά κουνούπια δεν είναι ενοχλητικά για τους κατοίκους;", ["Γιατί πεθαίνουν σε λίγες ώρες", "Γιατί δεν τσιμπούν· αίμα χρειάζονται μόνο τα θηλυκά", "Γιατί πετούν μόνο τη μέρα", "Γιατί είναι πολύ μικρά"], 1, "τα αρσενικά κουνούπια δεν τσιμπούν· μόνο τα θηλυκά χρειάζονται αίμα"),
+  Q("Γιατί μειώνεται ο πληθυσμός από γενιά σε γενιά;", ["Γιατί τα θηλυκά συνήθως ζευγαρώνουν μία φορά και τα αυγά από στείρο αρσενικό δεν εκκολάπτονται", "Γιατί η ακτινοβολία σκοτώνει και τα θηλυκά", "Γιατί τα στείρα αρσενικά τρώνε τα αυγά", "Γιατί τα κουνούπια φεύγουν σε άλλους δήμους"], 0, "Όταν ένα θηλυκό ζευγαρώσει με ένα στείρο αρσενικό, τα αυγά του δεν εκκολάπτονται ... συνήθως ζευγαρώνουν μόνο μία φορά"),
+  Q("Τι ζητούν οι υπεύθυνοι από τους κατοίκους;", ["Να μην ανοίγουν τα παράθυρα", "Να αδειάζουν τα δοχεία με στάσιμο νερό", "Να σκοτώνουν όσα κουνούπια βλέπουν", "Να αγοράσουν εντομοαπωθητικά"], 1, "να συνεχίσουν να αδειάζουν τα πιατάκια των γλαστρών και κάθε δοχείο με στάσιμο νερό"),
+ ],
+ "gloss": {"πιλοτικό": "πιλοτικός — pilot (trial)", "ψεκασμούς": "ψεκασμός — spraying", "απελευθερώνουν": "απελευθερώνω — to release", "στείρα": "στείρος — sterile", "ακτινοβολίας": "ακτινοβολία — radiation", "τσιμπούν": "τσιμπάω — to bite, sting (of insects)", "ζευγαρώσει": "ζευγαρώνω — to mate", "εκκολάπτονται": "εκκολάπτομαι — to hatch", "στάσιμο": "στάσιμος — standing, stagnant"},
+})
+ITEMS.append({
+ "id": "l221-dia-proagogi", "title": "Να δεχτώ την προαγωγή;", "title_en": "Should I accept the promotion?", "type": "dialogue", "level": "B2",
+ "context_el": "Δύο φίλοι συζητούν για μια προαγωγή που προσφέρθηκε στον έναν από αυτούς.",
+ "script": [
+  L("Στέλιος", "m", "Δάφνη, μου πρότειναν να γίνω προϊστάμενος του τμήματος. Θα έπρεπε να χαίρομαι, αλλά από χθες δεν έχω κλείσει μάτι.", "Dafni, they've offered to make me head of the department. I should be happy, but I haven't slept a wink since yesterday."),
+  L("Δάφνη", "f", "Γιατί; Δεν είναι αυτό που ήθελες; Περισσότερα χρήματα, περισσότερη ευθύνη…", "Why? Isn't it what you wanted? More money, more responsibility…"),
+  L("Στέλιος", "m", "Τα χρήματα δεν είναι πολλά περισσότερα. Το πρόβλημα είναι ότι θα γίνω ο διευθυντής των φίλων μου. Με τον Μάνο και την Ευτυχία τρώμε μαζί κάθε μεσημέρι εδώ και επτά χρόνια. Πώς θα τους πω ότι μια δουλειά τους δεν είναι καλή;", "The money isn't much more. The problem is that I'll become my friends' boss. Manos, Eftychia and I have had lunch together every day for seven years. How will I tell them that a piece of their work isn't good?"),
+  L("Δάφνη", "f", "Ακριβώς επειδή σε ξέρουν, θα το δεχτούν πιο εύκολα από σένα παρά από κάποιον ξένο. Φαντάσου να έρθει κάποιος απ’ έξω που δεν ξέρει τίποτα για το τμήμα σας.", "Precisely because they know you, they'll accept it more easily from you than from a stranger. Imagine someone coming from outside who knows nothing about your department."),
+  L("Στέλιος", "m", "Αυτό το σκέφτηκα. Αλλά θα έχω και περισσότερες συσκέψεις και λιγότερη πραγματική δουλειά. Μου αρέσει να σχεδιάζω, όχι να γεμίζω πίνακες με προϋπολογισμούς.", "I thought about that. But I'll also have more meetings and less real work. I like designing, not filling tables with budgets."),
+  L("Δάφνη", "f", "Τότε ζήτα να κρατήσεις ένα έργο δικό σου. Και πριν απαντήσεις, μίλα με τον Μάνο και την Ευτυχία. Μπορεί να σε εκπλήξουν.", "Then ask to keep a project of your own. And before you answer, talk to Manos and Eftychia. They may surprise you."),
+ ],
+ "questions": [
+  Q("Τι του πρότειναν στη δουλειά;", ["Να μετακομίσει σε άλλη πόλη", "Να γίνει προϊστάμενος του τμήματος", "Να δουλεύει από το σπίτι", "Να πάρει άδεια άνευ αποδοχών"], 1, "μου πρότειναν να γίνω προϊστάμενος του τμήματος"),
+  Q("Ποιο είναι το κύριο πρόβλημα για τον Στέλιο;", ["Ότι τα χρήματα είναι λίγα", "Ότι θα γίνει διευθυντής των φίλων του", "Ότι δεν έχει εμπειρία", "Ότι η εταιρεία κλείνει"], 1, "το πρόβλημα είναι ότι θα γίνω ο διευθυντής των φίλων μου"),
+  Q("Ποιο επιχείρημα χρησιμοποιεί η Δάφνη;", ["Ότι οι φίλοι του θα δεχτούν την κριτική πιο εύκολα από εκείνον παρά από έναν ξένο", "Ότι η φιλία δεν έχει θέση στη δουλειά", "Ότι πρέπει να αλλάξει εταιρεία", "Ότι οι φίλοι του θα παραιτηθούν"], 0, "θα το δεχτούν πιο εύκολα από σένα παρά από κάποιον ξένο"),
+  Q("Τι προτείνει τελικά η Δάφνη;", ["Να αρνηθεί αμέσως", "Να ζητήσει περισσότερα χρήματα", "Να ζητήσει να κρατήσει ένα δικό του έργο και να μιλήσει πρώτα με τους φίλους του", "Να ρωτήσει τη γυναίκα του"], 2, "ζήτα να κρατήσεις ένα έργο δικό σου ... μίλα με τον Μάνο και την Ευτυχία"),
+ ],
+ "gloss": {"προϊστάμενος": "προϊστάμενος — head (of a department), supervisor", "δεν έχω κλείσει μάτι": "δεν κλείνω μάτι — not to sleep a wink", "ευθύνη": "ευθύνη — responsibility", "συσκέψεις": "σύσκεψη — meeting", "προϋπολογισμούς": "προϋπολογισμός — budget", "εκπλήξουν": "εκπλήσσω — to surprise"},
+})
+ITEMS.append({
+ "id": "l221-c1-mono-ellinikoi-arithmoi", "title": "Α΄, Β΄, ΣΤ΄: τα γράμματα που μετράνε", "title_en": "Α΄, Β΄, ΣΤ΄: the letters that count", "type": "monologue", "level": "C1",
+ "context_el": "Ακούτε ένα απόσπασμα από μια ραδιοφωνική εκπομπή για τη γλώσσα και τη γραφή.",
+ "script": [
+  L("Ομιλητής", "m", "Ένας ξένος που ζει στην Ελλάδα θα παρατηρήσει γρήγορα ένα παράξενο φαινόμενο: τα παιδιά πηγαίνουν στην «Α΄ Γυμνασίου», οι βασιλιάδες λέγονται «Παύλος Α΄», και τα κεφάλαια των βιβλίων αριθμούνται συχνά με γράμματα. Πρόκειται για το αρχαίο ελληνικό σύστημα αρίθμησης, που δεν έπαψε ποτέ εντελώς να χρησιμοποιείται.", "A foreigner living in Greece will soon notice a strange phenomenon: children attend 'Α΄ Gymnasiou', kings are called 'Pavlos Α΄', and the chapters of books are often numbered with letters. This is the ancient Greek numbering system, which has never entirely gone out of use."),
+  L("Ομιλητής", "m", "Η λογική του είναι απλή. Τα πρώτα εννέα γράμματα δηλώνουν τις μονάδες, από το ένα ως το εννέα, τα επόμενα εννέα τις δεκάδες και τα τελευταία εννέα τις εκατοντάδες. Αν μετρήσετε, όμως, θα δείτε ότι το αλφάβητό μας έχει μόνο είκοσι τέσσερα γράμματα. Τα τρία που λείπουν είναι παλιά γράμματα, που είχαν χαθεί από τη γραφή αλλά επέζησαν ως αριθμοί: το στίγμα για το έξι, το κόππα για το ενενήντα και το σαμπί για το εννιακόσια. Το μικρό σημάδι πάνω δεξιά, η κεραία, δείχνει ότι το γράμμα διαβάζεται ως αριθμός.", "Its logic is simple. The first nine letters indicate the units, from one to nine, the next nine the tens and the last nine the hundreds. If you count, however, you'll see that our alphabet has only twenty-four letters. The three missing are old letters that had disappeared from writing but survived as numerals: stigma for six, koppa for ninety and sampi for nine hundred. The small mark at the top right, the keraia, shows that the letter is read as a number."),
+  L("Ομιλητής", "m", "Επειδή το στίγμα έμοιαζε με τον συνδυασμό σίγμα και ταυ, σήμερα συνήθως γράφουμε το έξι ως «ΣΤ΄». Γι’ αυτό ένα παιδί που πηγαίνει στην έκτη τάξη λέει ότι είναι στη «ΣΤ΄ Δημοτικού», και ο δέκατος έκτος αιώνας μπορεί να γραφτεί «ΙΣΤ΄». Για τις χιλιάδες, η κεραία μπαίνει κάτω αριστερά.", "Because stigma looked like the combination of sigma and tau, today we usually write six as 'ΣΤ΄'. That is why a child in the sixth grade says they are in 'ΣΤ΄ Dimotikou', and the sixteenth century may be written 'ΙΣΤ΄'. For thousands, the keraia goes at the bottom left."),
+  L("Ομιλητής", "m", "Για καθημερινούς λογαριασμούς, φυσικά, κανείς δεν χρησιμοποιεί πια αυτό το σύστημα· οι αραβικοί αριθμοί είναι πολύ πιο πρακτικοί. Όμως τα γράμματα-αριθμοί επιβιώνουν εκεί όπου μετράει η σειρά και η παράδοση: στις τάξεις, στους τόμους, στα άρθρα των νόμων. Είναι μια μικρή υπενθύμιση ότι κάποτε η ίδια σειρά συμβόλων χρησίμευε και για να γράφουμε και για να μετράμε.", "For everyday calculations, of course, no one uses this system any more; Arabic numerals are far more practical. But letter-numerals survive where order and tradition matter: in school years, in volumes, in the articles of laws. It is a small reminder that once the same series of symbols served both for writing and for counting."),
+ ],
+ "questions": [
+  Q("Πώς είναι οργανωμένο το αρχαίο ελληνικό σύστημα αρίθμησης;", ["Κάθε γράμμα δηλώνει μια λέξη", "Εννέα γράμματα για τις μονάδες, εννέα για τις δεκάδες και εννέα για τις εκατοντάδες", "Χρησιμοποιεί μόνο φωνήεντα", "Βασίζεται στον αριθμό δώδεκα"], 1, "Τα πρώτα εννέα γράμματα δηλώνουν τις μονάδες ... τα επόμενα εννέα τις δεκάδες και τα τελευταία εννέα τις εκατοντάδες"),
+  Q("Από πού προέρχονται τα τρία γράμματα που λείπουν από το σημερινό αλφάβητο;", ["Από το λατινικό αλφάβητο", "Είναι παλιά γράμματα που χάθηκαν από τη γραφή αλλά επέζησαν ως αριθμοί", "Τα επινόησαν οι Βυζαντινοί μαθηματικοί", "Είναι αραβικά σύμβολα"], 1, "Τα τρία που λείπουν είναι παλιά γράμματα, που είχαν χαθεί από τη γραφή αλλά επέζησαν ως αριθμοί"),
+  Q("Γιατί σήμερα το έξι γράφεται συνήθως «ΣΤ΄»;", ["Γιατί το στίγμα έμοιαζε με τον συνδυασμό σίγμα και ταυ", "Γιατί είναι συντομογραφία της λέξης «έξι»", "Γιατί το αποφάσισε μια μεταρρύθμιση το 1982", "Γιατί το «Ϛ» δεν υπάρχει στα πληκτρολόγια"], 0, "Επειδή το στίγμα έμοιαζε με τον συνδυασμό σίγμα και ταυ"),
+  Q("Πού επιβιώνουν σήμερα τα γράμματα-αριθμοί;", ["Στους λογαριασμούς των καταστημάτων", "Στις τάξεις, στους τόμους και στα άρθρα των νόμων", "Στα τηλέφωνα", "Μόνο στα μουσεία"], 1, "επιβιώνουν εκεί όπου μετράει η σειρά και η παράδοση: στις τάξεις, στους τόμους, στα άρθρα των νόμων"),
+ ],
+ "gloss": {"αρίθμησης": "αρίθμηση — numbering", "έπαψε": "παύω — to stop, cease", "μονάδες": "μονάδα — unit", "δεκάδες": "δεκάδα — ten", "εκατοντάδες": "εκατοντάδα — hundred", "επέζησαν": "επιζώ — to survive", "κεραία": "κεραία — keraia (numeral sign); antenna", "επιβιώνουν": "επιβιώνω — to survive", "υπενθύμιση": "υπενθύμιση — reminder"},
+})
+ITEMS.append({
+ "id": "l221-c1-int-mykitologos", "title": "Ένας μυκητολόγος για τα δηλητηριώδη μανιτάρια", "title_en": "A mycologist on poisonous mushrooms", "type": "interview", "level": "C1",
+ "context_el": "Ένας μυκητολόγος μιλά σε μια ραδιοφωνική εκπομπή στην αρχή της φθινοπωρινής περιόδου των μανιταριών.",
+ "script": [
+  L("Δημοσιογράφος", "f", "Κύριε Νικολαΐδη, κάθε φθινόπωρο ακούμε για δηλητηριάσεις από μανιτάρια. Ποιο είναι το πιο επικίνδυνο;", "Mr Nikolaidis, every autumn we hear about mushroom poisonings. Which is the most dangerous?"),
+  L("Νικολαΐδης", "m", "Χωρίς αμφιβολία ο αμανίτης ο φαλλοειδής. Ευθύνεται για τη μεγάλη πλειονότητα των θανατηφόρων δηλητηριάσεων στην Ευρώπη. Το ύπουλο είναι ότι τα συμπτώματα δεν εμφανίζονται αμέσως, αλλά συχνά έξι ή και δώδεκα ώρες μετά το φαγητό. Ως τότε, οι τοξίνες έχουν ήδη αρχίσει να καταστρέφουν το συκώτι. Και, επιπλέον, το μανιτάρι αυτό έχει, απ’ ό,τι λένε όσοι επέζησαν, ευχάριστη γεύση.", "Without doubt the death cap. It is responsible for the great majority of fatal poisonings in Europe. The insidious thing is that the symptoms don't appear immediately but often six or even twelve hours after the meal. By then, the toxins have already begun to destroy the liver. And, moreover, this mushroom reportedly has a pleasant taste, according to those who survived."),
+  L("Δημοσιογράφος", "f", "Πολλοί όμως εμπιστεύονται κάποια παλιά «τεστ», όπως το ασημένιο κουτάλι που μαυρίζει.", "Many people, though, trust some old 'tests', like the silver spoon that turns black."),
+  L("Νικολαΐδης", "m", "Αυτοί οι μύθοι σκοτώνουν κάθε χρόνο. Ούτε το ασημένιο κουτάλι, ούτε το σκόρδο, ούτε το ότι ένα μανιτάρι το έχουν φάει σαλιγκάρια αποδεικνύουν τίποτα. Ούτε το μαγείρεμα βοηθά: οι τοξίνες του φαλλοειδή δεν καταστρέφονται με τη θερμότητα. Ο μόνος ασφαλής κανόνας είναι να τρώτε μόνο είδη που έχει αναγνωρίσει με βεβαιότητα κάποιος έμπειρος.", "These myths kill every year. Neither the silver spoon, nor garlic, nor the fact that snails have eaten a mushroom proves anything. Nor does cooking help: the death cap's toxins are not destroyed by heat. The only safe rule is to eat only species that an experienced person has identified with certainty."),
+  L("Δημοσιογράφος", "f", "Δηλαδή να μη μαζεύουμε καθόλου μανιτάρια;", "So we shouldn't pick mushrooms at all?"),
+  L("Νικολαΐδης", "m", "Όχι, το αντίθετο. Η συλλογή μανιταριών είναι υπέροχη ασχολία και μας μαθαίνει να κοιτάζουμε το δάσος με προσοχή. Προτείνω στους αρχάριους να βγαίνουν με κάποιον σύλλογο, να ξεκινούν με δύο ή τρία είδη που δεν μοιάζουν με κανένα δηλητηριώδες, και να μη βασίζονται σε φωτογραφίες από το κινητό. Και αν, μετά από ένα γεύμα με μανιτάρια, νιώσετε άσχημα, πηγαίνετε αμέσως στο νοσοκομείο και πάρτε μαζί σας ό,τι περίσσεψε.", "No, the opposite. Mushroom picking is a wonderful pastime and teaches us to look at the forest carefully. I suggest beginners go out with a club, start with two or three species that don't resemble any poisonous one, and not rely on photos from their phone. And if, after a meal with mushrooms, you feel unwell, go to the hospital immediately and take whatever was left over with you."),
+ ],
+ "questions": [
+  Q("Γιατί είναι τόσο ύπουλος ο αμανίτης ο φαλλοειδής;", ["Γιατί έχει πολύ πικρή γεύση", "Γιατί τα συμπτώματα εμφανίζονται ώρες αργότερα, όταν οι τοξίνες έχουν ήδη αρχίσει να βλάπτουν το συκώτι", "Γιατί φυτρώνει μόνο τον χειμώνα", "Γιατί μοιάζει με λουλούδι"], 1, "τα συμπτώματα δεν εμφανίζονται αμέσως ... Ως τότε, οι τοξίνες έχουν ήδη αρχίσει να καταστρέφουν το συκώτι"),
+  Q("Τι λέει για τα παλιά «τεστ», όπως το ασημένιο κουτάλι;", ["Ότι είναι αξιόπιστα αν γίνουν σωστά", "Ότι είναι μύθοι που δεν αποδεικνύουν τίποτα", "Ότι λειτουργούν μόνο με το σκόρδο", "Ότι τα χρησιμοποιούν οι επιστήμονες"], 1, "Αυτοί οι μύθοι σκοτώνουν κάθε χρόνο ... δεν αποδεικνύουν τίποτα"),
+  Q("Βοηθά το μαγείρεμα;", ["Ναι, αν τα μανιτάρια βράσουν πολλή ώρα", "Όχι, οι τοξίνες δεν καταστρέφονται με τη θερμότητα", "Ναι, αν προστεθεί ξίδι", "Μόνο στα μικρά μανιτάρια"], 1, "οι τοξίνες του φαλλοειδή δεν καταστρέφονται με τη θερμότητα"),
+  Q("Τι συμβουλεύει τους αρχάριους;", ["Να αναγνωρίζουν τα είδη με φωτογραφίες από το κινητό", "Να βγαίνουν με έναν σύλλογο και να ξεκινούν με λίγα είδη που δεν μοιάζουν με δηλητηριώδη", "Να μαζεύουν μόνο μεγάλα μανιτάρια", "Να μη μαζεύουν ποτέ μανιτάρια"], 1, "να βγαίνουν με κάποιον σύλλογο, να ξεκινούν με δύο ή τρία είδη που δεν μοιάζουν με κανένα δηλητηριώδες"),
+ ],
+ "gloss": {"δηλητηριάσεις": "δηλητηρίαση — poisoning", "αμανίτης ο φαλλοειδής": "αμανίτης ο φαλλοειδής — death cap (Amanita phalloides)", "πλειονότητα": "πλειονότητα — majority", "θανατηφόρων": "θανατηφόρος — fatal", "ύπουλο": "ύπουλος — insidious, treacherous", "τοξίνες": "τοξίνη — toxin", "συκώτι": "συκώτι — liver", "ασχολία": "ασχολία — pastime, occupation", "περίσσεψε": "περισσεύω — to be left over"},
+})
+
+rnd = random.Random(221)  # spread the right answers over the four positions (the page shows options in file order)
+for it in ITEMS:
+    for q in it["questions"]: rnd.shuffle(q["options"])
+for it in ITEMS:
+    for q in it["questions"]: assert q["answer"] in q["options"], (it["id"], q["q"])
+    for k in it["gloss"]:
+        if not (any(k in s["el"] for s in it["script"]) or k in it["context_el"]): raise SystemExit(f"gloss key not in text: {it['id']} {k}")
+root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+with open(os.path.join(root, "library", "listening", "listening-221.json"), "w", encoding="utf-8") as fh:
+    json.dump({"items": ITEMS}, fh, ensure_ascii=False, indent=1); fh.write("\n")
+print(len(ITEMS), "items,", sum(len(i["questions"]) for i in ITEMS), "questions")
