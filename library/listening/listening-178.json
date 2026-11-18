@@ -1,0 +1,839 @@
+{
+ "items": [
+  {
+   "id": "l178-ann-imantas-aposkevon",
+   "title": "Ανακοίνωση στην αίθουσα παραλαβής αποσκευών",
+   "title_en": "An announcement in the baggage reclaim hall",
+   "type": "announcement",
+   "level": "B2",
+   "context_el": "Ακούτε μια ανακοίνωση στην αίθουσα παραλαβής αποσκευών ενός αεροδρομίου, αργά το βράδυ.",
+   "script": [
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Κυρίες και κύριοι, οι επιβάτες της πτήσης από τη Φρανκφούρτη παρακαλούνται να κατευθυνθούν στον ιμάντα αριθμός πέντε και όχι στον τρία, όπως αναγραφόταν αρχικά στις οθόνες. Λόγω βλάβης σε ένα όχημα μεταφοράς, οι αποσκευές θα αρχίσουν να έρχονται με καθυστέρηση περίπου είκοσι λεπτών.",
+     "en": "Ladies and gentlemen, passengers of the flight from Frankfurt are requested to go to belt number five and not number three, as originally shown on the screens. Because of a fault in a transport vehicle, the baggage will start arriving with a delay of about twenty minutes."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Τα ογκώδη αντικείμενα, όπως καρότσια μωρών, ποδήλατα και εξοπλισμός σκι, δεν θα έρθουν στον ιμάντα. Θα τα παραλάβετε από το ειδικό γκισέ, στο τέλος της αίθουσας, δίπλα στο τελωνείο.",
+     "en": "Bulky items, such as prams, bicycles and ski equipment, will not come on the belt. You will collect them from the special counter, at the end of the hall, next to customs."
+    },
+    {
+     "speaker": "Εκφωνητής",
+     "voice": "m",
+     "el": "Αν η αποσκευή σας δεν έχει φτάσει, μην βγείτε από την αίθουσα. Απευθυνθείτε στο γραφείο απολεσθέντων αποσκευών, κρατώντας την κάρτα επιβίβασης και το αυτοκόλλητο της βαλίτσας σας. Μόλις βγείτε από τις συρόμενες πόρτες, δεν θα μπορείτε να ξαναμπείτε. Σας ευχαριστούμε για την κατανόηση.",
+     "en": "If your baggage has not arrived, do not leave the hall. Go to the lost baggage office, keeping your boarding pass and your suitcase's tag. Once you go out through the sliding doors, you won't be able to come back in. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πού πρέπει να πάνε οι επιβάτες της πτήσης από τη Φρανκφούρτη;",
+     "options": [
+      "Στην έξοδο",
+      "Στον ιμάντα πέντε",
+      "Στο τελωνείο",
+      "Στον ιμάντα τρία"
+     ],
+     "answer": "Στον ιμάντα πέντε",
+     "why": "να κατευθυνθούν στον ιμάντα αριθμός πέντε"
+    },
+    {
+     "q": "Πού θα παραλάβουν οι επιβάτες ένα ποδήλατο;",
+     "options": [
+      "Στον ιμάντα πέντε",
+      "Στο ειδικό γκισέ στο τέλος της αίθουσας",
+      "Έξω από τις συρόμενες πόρτες",
+      "Στο γραφείο απολεσθέντων"
+     ],
+     "answer": "Στο ειδικό γκισέ στο τέλος της αίθουσας",
+     "why": "Θα τα παραλάβετε από το ειδικό γκισέ, στο τέλος της αίθουσας"
+    },
+    {
+     "q": "Γιατί δεν πρέπει να βγουν από την αίθουσα όσοι δεν βρήκαν τη βαλίτσα τους;",
+     "options": [
+      "Γιατί θα χάσουν την πτήση τους",
+      "Γιατί θα πληρώσουν πρόστιμο",
+      "Γιατί δεν θα μπορούν να ξαναμπούν",
+      "Γιατί έξω δεν υπάρχει γραφείο πληροφοριών"
+     ],
+     "answer": "Γιατί δεν θα μπορούν να ξαναμπούν",
+     "why": "δεν θα μπορείτε να ξαναμπείτε"
+    }
+   ],
+   "gloss": {
+    "αίθουσα παραλαβής αποσκευών": "αίθουσα παραλαβής αποσκευών — baggage reclaim hall",
+    "ιμάντα": "ιμάντας — (conveyor) belt",
+    "αναγραφόταν": "αναγράφομαι — to be shown, be written",
+    "βλάβης": "βλάβη — fault, breakdown",
+    "ογκώδη": "ογκώδης — bulky",
+    "καρότσια μωρών": "καρότσι μωρού — pram",
+    "γκισέ": "γκισέ — counter, window",
+    "τελωνείο": "τελωνείο — customs",
+    "απολεσθέντων αποσκευών": "απολεσθείσες αποσκευές — lost baggage (formal)",
+    "κάρτα επιβίβασης": "κάρτα επιβίβασης — boarding pass",
+    "συρόμενες πόρτες": "συρόμενη πόρτα — sliding door"
+   }
+  },
+  {
+   "id": "l178-int-dendrochirourgos",
+   "title": "Η δενδροχειρουργός της πόλης",
+   "title_en": "The city's tree surgeon",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με μια δενδροχειρουργό που φροντίζει τα γέρικα δέντρα στα πάρκα και στους δρόμους μιας μεγάλης πόλης.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Οι περισσότεροι δεν έχουν ακούσει ποτέ τη λέξη «δενδροχειρουργός». Τι κάνετε ακριβώς;",
+     "en": "Most people have never heard the word 'tree surgeon'. What exactly do you do?"
+    },
+    {
+     "speaker": "Δενδροχειρουργός",
+     "voice": "f",
+     "el": "Εξετάζω τα δέντρα σαν ασθενείς. Ανεβαίνω με σχοινιά και ζώνη ασφαλείας στα κλαδιά, ελέγχω αν υπάρχουν σαπίσματα, κουφάλες ή μύκητες, και αποφασίζω αν ένα δέντρο χρειάζεται κλάδεμα, στήριξη με ειδικά συρματόσχοινα ή, στη χειρότερη περίπτωση, κοπή. Χρησιμοποιώ και ένα όργανο που στέλνει ηχητικά κύματα μέσα στον κορμό, για να δω αν είναι κούφιος χωρίς να τον τρυπήσω.",
+     "en": "I examine trees like patients. I climb into the branches with ropes and a safety harness, check whether there is rot, hollows or fungi, and decide whether a tree needs pruning, support with special steel cables or, in the worst case, felling. I also use an instrument that sends sound waves into the trunk, to see whether it's hollow without drilling into it."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Οι πολίτες συχνά διαμαρτύρονται όταν βλέπουν δέντρα να κόβονται.",
+     "en": "Citizens often protest when they see trees being cut down."
+    },
+    {
+     "speaker": "Δενδροχειρουργός",
+     "voice": "f",
+     "el": "Και καλά κάνουν να ρωτούν. Όμως το μεγαλύτερο πρόβλημα δεν είναι οι κοπές, είναι το κακό κλάδεμα. Όταν κόβεις ένα πλατάνι «κούτσουρο», όπως λέμε, αφήνοντας μόνο τον κορμό και τα χοντρά κλαδιά, οι πληγές είναι τόσο μεγάλες που το δέντρο δεν μπορεί να τις κλείσει. Μπαίνει νερό, σαπίζει από μέσα, και δέκα χρόνια αργότερα γίνεται επικίνδυνο. Τότε πια πρέπει να κοπεί, και όλοι λένε ότι φταίει ο δήμος που το έκοψε.",
+     "en": "And they're right to ask. But the biggest problem isn't the felling, it's bad pruning. When you cut a plane tree back to a 'stump', as we say, leaving only the trunk and the thick branches, the wounds are so big that the tree can't close them. Water gets in, it rots from the inside, and ten years later it becomes dangerous. By then it has to be cut down, and everyone says it's the council's fault for cutting it."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "m",
+     "el": "Ποιο δέντρο σας έχει συγκινήσει περισσότερο;",
+     "en": "Which tree has moved you most?"
+    },
+    {
+     "speaker": "Δενδροχειρουργός",
+     "voice": "f",
+     "el": "Μια γέρικη μουριά σε μια αυλή σχολείου. Είχε ανοίξει στα δύο μετά από μια καταιγίδα και όλοι έλεγαν να την κόψουμε. Τη δέσαμε με συρματόσχοινα και τη στηρίξαμε. Πέρσι τα παιδιά μού έστειλαν μια ζωγραφιά: η μουριά γεμάτη φύλλα, κι από κάτω γραμμένο «Ευχαριστούμε που δεν την κόψατε».",
+     "en": "An old mulberry tree in a school yard. It had split in two after a storm and everyone said to cut it down. We tied it with steel cables and propped it up. Last year the children sent me a drawing: the mulberry full of leaves, and underneath written 'Thank you for not cutting it down'."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Πώς ελέγχει αν ένας κορμός είναι κούφιος;",
+     "options": [
+      "Με ένα όργανο που στέλνει ηχητικά κύματα μέσα στον κορμό",
+      "Τον χτυπάει με ένα σφυρί",
+      "Τον τρυπάει με τρυπάνι",
+      "Κοιτάζει τα φύλλα"
+     ],
+     "answer": "Με ένα όργανο που στέλνει ηχητικά κύματα μέσα στον κορμό",
+     "why": "ένα όργανο που στέλνει ηχητικά κύματα μέσα στον κορμό"
+    },
+    {
+     "q": "Ποιο είναι κατά τη δενδροχειρουργό το μεγαλύτερο πρόβλημα;",
+     "options": [
+      "Τα αυτοκίνητα που παρκάρουν κάτω από τα δέντρα",
+      "Οι συχνές κοπές",
+      "Η έλλειψη νερού",
+      "Το κακό κλάδεμα"
+     ],
+     "answer": "Το κακό κλάδεμα",
+     "why": "το μεγαλύτερο πρόβλημα δεν είναι οι κοπές, είναι το κακό κλάδεμα"
+    },
+    {
+     "q": "Τι έγινε με τη μουριά στην αυλή του σχολείου;",
+     "options": [
+      "Τη στήριξαν με συρματόσχοινα και σώθηκε",
+      "Φύτεψαν μια καινούργια στη θέση της",
+      "Τη μετέφεραν σε ένα πάρκο",
+      "Την έκοψαν μετά την καταιγίδα"
+     ],
+     "answer": "Τη στήριξαν με συρματόσχοινα και σώθηκε",
+     "why": "Τη δέσαμε με συρματόσχοινα και τη στηρίξαμε"
+    }
+   ],
+   "gloss": {
+    "δενδροχειρουργό": "δενδροχειρουργός — tree surgeon",
+    "γέρικα": "γέρικος — old (of trees, animals)",
+    "ζώνη ασφαλείας": "ζώνη ασφαλείας — safety harness (here)",
+    "σαπίσματα": "σάπισμα — rot",
+    "κουφάλες": "κουφάλα — hollow (in a tree)",
+    "μύκητες": "μύκητας — fungus",
+    "κλάδεμα": "κλάδεμα — pruning",
+    "συρματόσχοινα": "συρματόσχοινο — steel cable",
+    "κορμό": "κορμός — trunk",
+    "κούφιος": "κούφιος — hollow",
+    "διαμαρτύρονται": "διαμαρτύρομαι — to protest",
+    "κούτσουρο": "κούτσουρο — stump, log",
+    "μουριά": "μουριά — mulberry tree"
+   }
+  },
+  {
+   "id": "l178-vm-kommotirio-skylon",
+   "title": "Μήνυμα από το κομμωτήριο σκύλων",
+   "title_en": "A message from the dog grooming salon",
+   "type": "voicemail",
+   "level": "B2",
+   "context_el": "Ακούτε ένα μήνυμα στον τηλεφωνητή σας από το κομμωτήριο όπου έχετε κλείσει ραντεβού για τον σκύλο σας.",
+   "script": [
+    {
+     "speaker": "Κομμώτρια",
+     "voice": "f",
+     "el": "Καλησπέρα, η Σοφία είμαι, από το κομμωτήριο σκύλων «Χνούδι». Σας παίρνω για το ραντεβού του Μπρούνο την Πέμπτη στις έντεκα. Δυστυχώς, η συνάδελφός μου που κάνει τα μεγαλόσωμα σκυλιά θα λείπει εκείνη τη μέρα, οπότε σας προτείνω να το μεταφέρουμε για το Σάββατο στις δέκα, αν σας βολεύει.",
+     "en": "Good evening, it's Sofia, from the dog grooming salon 'Fluff'. I'm calling about Bruno's appointment on Thursday at eleven. Unfortunately, my colleague who does the large dogs will be away that day, so I suggest we move it to Saturday at ten, if that suits you."
+    },
+    {
+     "speaker": "Κομμώτρια",
+     "voice": "f",
+     "el": "Θέλω να σας ρωτήσω και κάτι ακόμα. Την προηγούμενη φορά πρόσεξα ότι ο Μπρούνο ξυνόταν πολύ πίσω από τα αυτιά και είχε λίγο κοκκινίλα. Αν τον έχει δει ο κτηνίατρος και σας έδωσε κάποιο ειδικό σαμπουάν, φέρτε το μαζί σας, για να μη χρησιμοποιήσουμε το δικό μας και τον ερεθίσουμε.",
+     "en": "I also want to ask you something else. Last time I noticed that Bruno was scratching a lot behind his ears and had some redness. If the vet has seen him and gave you a special shampoo, bring it with you, so we don't use ours and irritate him."
+    },
+    {
+     "speaker": "Κομμώτρια",
+     "voice": "f",
+     "el": "Και μην τον ταΐσετε πολύ το πρωί του ραντεβού· με το πιστολάκι και το μπάνιο κάποια σκυλιά αγχώνονται και ανακατεύεται το στομάχι τους. Στείλτε μου ένα μήνυμα για το Σάββατο. Ευχαριστώ!",
+     "en": "And don't feed him a lot on the morning of the appointment; with the hairdryer and the bath some dogs get anxious and their stomach gets upset. Send me a message about Saturday. Thanks!"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Γιατί προτείνει η Σοφία να αλλάξει το ραντεβού;",
+     "options": [
+      "Γιατί η συνάδελφος που κάνει τα μεγάλα σκυλιά θα λείπει",
+      "Γιατί είναι άρρωστη η ίδια",
+      "Γιατί το κομμωτήριο θα είναι κλειστό για ανακαίνιση",
+      "Γιατί έχει πολλά ραντεβού την Πέμπτη"
+     ],
+     "answer": "Γιατί η συνάδελφος που κάνει τα μεγάλα σκυλιά θα λείπει",
+     "why": "η συνάδελφός μου που κάνει τα μεγαλόσωμα σκυλιά θα λείπει"
+    },
+    {
+     "q": "Τι ζητάει να φέρει ο ιδιοκτήτης;",
+     "options": [
+      "Το λουρί και το φίμωτρο",
+      "Το βιβλιάριο υγείας του σκύλου",
+      "Το ειδικό σαμπουάν από τον κτηνίατρο, αν υπάρχει",
+      "Μια πετσέτα"
+     ],
+     "answer": "Το ειδικό σαμπουάν από τον κτηνίατρο, αν υπάρχει",
+     "why": "Αν τον έχει δει ο κτηνίατρος και σας έδωσε κάποιο ειδικό σαμπουάν, φέρτε το μαζί σας"
+    },
+    {
+     "q": "Γιατί δεν πρέπει να ταΐσει πολύ τον σκύλο το πρωί;",
+     "options": [
+      "Γιατί με το άγχος ανακατεύεται το στομάχι κάποιων σκύλων",
+      "Γιατί το ζήτησε ο κτηνίατρος",
+      "Γιατί θα του δώσουν λιχουδιές στο κομμωτήριο",
+      "Γιατί θα κάνει δίαιτα"
+     ],
+     "answer": "Γιατί με το άγχος ανακατεύεται το στομάχι κάποιων σκύλων",
+     "why": "κάποια σκυλιά αγχώνονται και ανακατεύεται το στομάχι τους"
+    }
+   ],
+   "gloss": {
+    "κομμωτήριο": "κομμωτήριο — hair salon (here: grooming salon)",
+    "τηλεφωνητή": "τηλεφωνητής — answering machine",
+    "Χνούδι": "χνούδι — fluff, fuzz",
+    "μεγαλόσωμα": "μεγαλόσωμος — large-bodied",
+    "σας βολεύει": "με βολεύει — it suits me",
+    "ξυνόταν": "ξύνομαι — to scratch oneself",
+    "κοκκινίλα": "κοκκινίλα — redness",
+    "ερεθίσουμε": "ερεθίζω — to irritate",
+    "ταΐσετε": "ταΐζω — to feed",
+    "πιστολάκι": "πιστολάκι — hairdryer",
+    "ανακατεύεται το στομάχι": "ανακατεύεται το στομάχι μου — my stomach gets upset"
+   }
+  },
+  {
+   "id": "l178-rep-alieftikos-tourismos",
+   "title": "Μια μέρα στο καΐκι με τον ψαρά",
+   "title_en": "A day on the boat with the fisherman",
+   "type": "report",
+   "level": "B2",
+   "context_el": "Ακούτε ένα ραδιοφωνικό ρεπορτάζ για τον αλιευτικό τουρισμό σε ένα νησί των Δωδεκανήσων.",
+   "script": [
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Είναι πέντε το πρωί και στο λιμάνι ακόμα δεν έχει φέξει. Ο καπετάν Μιχάλης ετοιμάζει τα δίχτυα του, ενώ τέσσερις τουρίστες από τη Γαλλία φορούν σωσίβια και κοιτάζουν με περιέργεια. Σήμερα δεν θα κάνουν απλώς μια βόλτα με βάρκα· θα δουλέψουν δίπλα του, όπως ένας πραγματικός ναύτης.",
+     "en": "It's five in the morning and in the harbour it hasn't got light yet. Captain Michalis is preparing his nets, while four tourists from France put on life jackets and look on with curiosity. Today they won't just take a boat ride; they'll work alongside him, like a real deckhand."
+    },
+    {
+     "speaker": "Ψαράς",
+     "voice": "m",
+     "el": "Τα τελευταία χρόνια το ψάρι λιγοστεύει και τα έξοδα ανεβαίνουν. Με τον αλιευτικό τουρισμό βγάζω ένα συμπλήρωμα και ψαρεύω λιγότερο. Αλλά το σημαντικότερο είναι άλλο: οι επισκέπτες καταλαβαίνουν πόσος κόπος κρύβεται πίσω από ένα πιάτο μαρίδα. Κάποιοι, όταν γυρίζουν στο σπίτι τους, μου γράφουν ότι δεν ξαναγοράζουν ψάρι χωρίς να ρωτήσουν από πού είναι.",
+     "en": "In recent years the fish have been getting scarcer and expenses are rising. With fishing tourism I earn some extra and fish less. But the most important thing is something else: the visitors understand how much effort lies behind a plate of whitebait. Some, when they get back home, write to tell me they never buy fish again without asking where it's from."
+    },
+    {
+     "speaker": "Ρεπόρτερ",
+     "voice": "m",
+     "el": "Το καΐκι μπορεί να πάρει μέχρι έξι επιβάτες και πρέπει να έχει ειδική άδεια και ασφάλιση. Γύρω στις δέκα, μετά το μάζεμα των διχτυών, ο καπετάνιος ψήνει μερικά από τα ψάρια πάνω στη βάρκα, σε μια κρυφή παραλία. Για πολλούς επισκέπτες, αυτή η στιγμή είναι η πιο αξέχαστη των διακοπών τους.",
+     "en": "The boat can take up to six passengers and must have a special licence and insurance. Around ten, after hauling in the nets, the captain grills some of the fish on board, at a hidden beach. For many visitors, this moment is the most unforgettable of their holiday."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι θα κάνουν οι τουρίστες στο καΐκι;",
+     "options": [
+      "Θα κάνουν καταδύσεις",
+      "Θα δουλέψουν δίπλα στον ψαρά σαν ναύτες",
+      "Θα παρακολουθήσουν δελφίνια",
+      "Μια απλή βόλτα με βάρκα"
+     ],
+     "answer": "Θα δουλέψουν δίπλα στον ψαρά σαν ναύτες",
+     "why": "θα δουλέψουν δίπλα του, όπως ένας πραγματικός ναύτης"
+    },
+    {
+     "q": "Τι θεωρεί ο ψαράς το σημαντικότερο;",
+     "options": [
+      "Τα χρήματα που κερδίζει",
+      "Ότι μαθαίνει γαλλικά",
+      "Ότι ψαρεύει περισσότερο",
+      "Ότι οι επισκέπτες καταλαβαίνουν πόσος κόπος κρύβεται πίσω από ένα πιάτο ψάρι"
+     ],
+     "answer": "Ότι οι επισκέπτες καταλαβαίνουν πόσος κόπος κρύβεται πίσω από ένα πιάτο ψάρι",
+     "why": "οι επισκέπτες καταλαβαίνουν πόσος κόπος κρύβεται πίσω από ένα πιάτο μαρίδα"
+    },
+    {
+     "q": "Πόσους επιβάτες μπορεί να πάρει το καΐκι;",
+     "options": [
+      "Μέχρι τέσσερις",
+      "Μέχρι δέκα",
+      "Όσους χωράει",
+      "Μέχρι έξι"
+     ],
+     "answer": "Μέχρι έξι",
+     "why": "Το καΐκι μπορεί να πάρει μέχρι έξι επιβάτες"
+    }
+   ],
+   "gloss": {
+    "αλιευτικό τουρισμό": "αλιευτικός τουρισμός — fishing tourism",
+    "καΐκι": "καΐκι — caique, fishing boat",
+    "έχει φέξει": "φέγγει — it gets light",
+    "δίχτυα": "δίχτυ — (fishing) net",
+    "σωσίβια": "σωσίβιο — life jacket",
+    "ναύτης": "ναύτης — sailor, deckhand",
+    "λιγοστεύει": "λιγοστεύω — to become scarce",
+    "συμπλήρωμα": "συμπλήρωμα — supplement, extra income",
+    "κόπος": "κόπος — effort, toil",
+    "μαρίδα": "μαρίδα — whitebait (picarel)",
+    "ασφάλιση": "ασφάλιση — insurance",
+    "μάζεμα": "μάζεμα — gathering, hauling in"
+   }
+  },
+  {
+   "id": "l178-mon-akoustiko-varikoias",
+   "title": "Το πρώτο μου ακουστικό βαρηκοΐας",
+   "title_en": "My first hearing aid",
+   "type": "monologue",
+   "level": "B2",
+   "context_el": "Ακούτε έναν συνταξιούχο δάσκαλο να μιλάει για την εμπειρία του όταν άρχισε να φοράει ακουστικό βαρηκοΐας.",
+   "script": [
+    {
+     "speaker": "Συνταξιούχος",
+     "voice": "m",
+     "el": "Για χρόνια έλεγα ότι οι άλλοι μουρμουρίζουν. Η γυναίκα μου με παρακαλούσε να χαμηλώσω την τηλεόραση, και τα εγγόνια μου γελούσαν όταν απαντούσα σε ερωτήσεις που δεν μου είχαν κάνει. Στα τραπέζια με πολύ κόσμο απλώς χαμογελούσα και κουνούσα το κεφάλι. Δεν ήθελα να παραδεχτώ ότι δεν άκουγα.",
+     "en": "For years I said other people mumbled. My wife told me to turn the TV down, and my grandchildren laughed when I answered questions they hadn't asked me. At crowded tables I just smiled and nodded. I didn't want to admit I couldn't hear."
+    },
+    {
+     "speaker": "Συνταξιούχος",
+     "voice": "m",
+     "el": "Όταν τελικά πήγα στον ωτορινολαρυγγολόγο, το ακουόγραμμα έδειξε ότι είχα χάσει μεγάλο μέρος της ακοής στις υψηλές συχνότητες. Μου είπε κάτι που με ξάφνιασε: ότι όσο περισσότερο καθυστερεί κανείς, τόσο πιο δύσκολα συνηθίζει ο εγκέφαλος ξανά τους ήχους.",
+     "en": "When I finally went to the ear, nose and throat specialist, the audiogram showed I had lost a large part of my hearing in the high frequencies. He told me something that surprised me: that the longer you put it off, the harder it is for the brain to get used to sounds again."
+    },
+    {
+     "speaker": "Συνταξιούχος",
+     "voice": "m",
+     "el": "Τις πρώτες μέρες όλα μου φαίνονταν εκκωφαντικά: το ψυγείο, τα βήματά μου, το χαρτί που τσαλάκωνα. Μετά από δύο εβδομάδες ο εγκέφαλος έμαθε να τα αγνοεί. Και ένα πρωί, στο μπαλκόνι, άκουσα ξανά τα σπουργίτια. Δεν είχα καταλάβει καν ότι τα είχα χάσει. Αν έχετε κάποιον που λέει ότι όλοι μουρμουρίζουν, στείλτε τον να εξεταστεί.",
+     "en": "In the first days everything seemed deafening: the fridge, my footsteps, the paper I crumpled. After two weeks my brain learned to ignore them. And one morning, on the balcony, I heard the sparrows again. I hadn't even realised I'd lost them. If you have someone who says everyone mumbles, send them to get tested."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έκανε ο ομιλητής στα τραπέζια με πολύ κόσμο;",
+     "options": [
+      "Καθόταν δίπλα στη γυναίκα του",
+      "Έφευγε νωρίς",
+      "Ζητούσε από όλους να μιλούν πιο δυνατά",
+      "Χαμογελούσε και κουνούσε το κεφάλι"
+     ],
+     "answer": "Χαμογελούσε και κουνούσε το κεφάλι",
+     "why": "απλώς χαμογελούσα και κουνούσα το κεφάλι"
+    },
+    {
+     "q": "Τι τον ξάφνιασε από όσα του είπε ο γιατρός;",
+     "options": [
+      "Ότι η βαρηκοΐα του ήταν κληρονομική",
+      "Ότι θα χρειαζόταν χειρουργείο",
+      "Ότι όσο καθυστερεί κανείς, τόσο πιο δύσκολα συνηθίζει ο εγκέφαλος τους ήχους",
+      "Ότι το ακουστικό θα το φορούσε μόνο το βράδυ"
+     ],
+     "answer": "Ότι όσο καθυστερεί κανείς, τόσο πιο δύσκολα συνηθίζει ο εγκέφαλος τους ήχους",
+     "why": "όσο περισσότερο καθυστερεί κανείς, τόσο πιο δύσκολα συνηθίζει ο εγκέφαλος ξανά τους ήχους"
+    },
+    {
+     "q": "Τι του συνέβη ένα πρωί στο μπαλκόνι;",
+     "options": [
+      "Τον ενόχλησε ο θόρυβος του δρόμου",
+      "Μίλησε με έναν γείτονα",
+      "Άκουσε ξανά τα σπουργίτια",
+      "Έχασε το ακουστικό του"
+     ],
+     "answer": "Άκουσε ξανά τα σπουργίτια",
+     "why": "άκουσα ξανά τα σπουργίτια"
+    }
+   ],
+   "gloss": {
+    "ακουστικό βαρηκοΐας": "ακουστικό βαρηκοΐας — hearing aid",
+    "μουρμουρίζουν": "μουρμουρίζω — to mumble",
+    "παραδεχτώ": "παραδέχομαι — to admit",
+    "ωτορινολαρυγγολόγο": "ωτορινολαρυγγολόγος — ear, nose and throat specialist",
+    "ακουόγραμμα": "ακουόγραμμα — audiogram",
+    "ακοής": "ακοή — hearing",
+    "συχνότητες": "συχνότητα — frequency",
+    "ξάφνιασε": "ξαφνιάζω — to surprise",
+    "εκκωφαντικά": "εκκωφαντικός — deafening",
+    "τσαλάκωνα": "τσαλακώνω — to crumple",
+    "σπουργίτια": "σπουργίτι — sparrow"
+   }
+  },
+  {
+   "id": "l178-dia-pyranichneftis",
+   "title": "Ο πυρανιχνευτής που σφυρίζει τη νύχτα",
+   "title_en": "The smoke alarm that beeps at night",
+   "type": "dialogue",
+   "level": "B2",
+   "context_el": "Ακούτε δύο συγκάτοικους να συζητούν στην κουζίνα, νωρίς το πρωί, μετά από μια νύχτα χωρίς ύπνο.",
+   "script": [
+    {
+     "speaker": "Σταύρος",
+     "voice": "m",
+     "el": "Το άκουσες κι εσύ; Κάθε ένα λεπτό, ένα «μπιπ». Από τις τρεις τα ξημερώματα. Νόμιζα ότι θα τρελαθώ.",
+     "en": "Did you hear it too? Every minute, a 'beep'. Since three in the morning. I thought I'd go mad."
+    },
+    {
+     "speaker": "Ιωάννα",
+     "voice": "f",
+     "el": "Πώς να μην το ακούσω; Είναι ο πυρανιχνευτής στον διάδρομο. Όταν σφυρίζει έτσι, ένα σύντομο «μπιπ» κάθε λίγο, σημαίνει ότι η μπαταρία του τελειώνει. Δεν υπάρχει φωτιά.",
+     "en": "How could I not hear it? It's the smoke alarm in the hallway. When it beeps like that, one at a time, it means its battery is running out. There's no fire."
+    },
+    {
+     "speaker": "Σταύρος",
+     "voice": "m",
+     "el": "Και γιατί αποφάσισε να μας το πει στις τρεις τα ξημερώματα; Πάντως εγώ τον βγάζω από το ταβάνι και τελείωσε. Ποτέ δεν μαγειρεύουμε κάτι επικίνδυνο.",
+     "en": "And why did it decide to tell us at three in the morning? Anyway, I'm taking it off the ceiling and that's that. We never cook anything dangerous."
+    },
+    {
+     "speaker": "Ιωάννα",
+     "voice": "f",
+     "el": "Ούτε να το σκέφτεσαι. Θυμάσαι τον Ιανουάριο, που ξέχασες το μπρίκι στο μάτι και έλιωσε η λαβή; Αυτό το πράγμα σφύριξε πριν μυρίσουμε τίποτα. Αλλάζουμε την μπαταρία, δεν τον βγάζουμε.",
+     "en": "Don't even think about it. Remember in January, when you forgot the coffee pot on the hob and the handle melted? That thing went off before we smelled anything. We change the battery, we don't take it off."
+    },
+    {
+     "speaker": "Σταύρος",
+     "voice": "m",
+     "el": "Καλά, καλά. Τι μπαταρία θέλει;",
+     "en": "OK, OK. What battery does it need?"
+    },
+    {
+     "speaker": "Ιωάννα",
+     "voice": "f",
+     "el": "Μια τετράγωνη, εννιά βολτ. Θα πάρω από το περίπτερο το μεσημέρι. Και επειδή απ' ό,τι φαίνεται στο κουτί είναι πάνω από δέκα χρονών, θα στείλω και μήνυμα στον ιδιοκτήτη. Μετά από δέκα χρόνια οι αισθητήρες χάνουν την ευαισθησία τους και πρέπει να αλλάζει ολόκληρος.",
+     "en": "A square one, nine volts. I'll get one from the kiosk at midday. And since, from what it says on the box, it's over ten years old, I'll also send a message to the landlord. After ten years the sensors lose their sensitivity and the whole thing needs replacing."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι σημαίνει το σφύριγμα κάθε ένα λεπτό;",
+     "options": [
+      "Ότι ο πυρανιχνευτής έπαθε βλάβη",
+      "Ότι κάποιος άνοιξε την πόρτα",
+      "Ότι τελειώνει η μπαταρία",
+      "Ότι υπάρχει καπνός"
+     ],
+     "answer": "Ότι τελειώνει η μπαταρία",
+     "why": "σημαίνει ότι η μπαταρία του τελειώνει"
+    },
+    {
+     "q": "Γιατί η Ιωάννα δεν θέλει να βγάλουν τον πυρανιχνευτή;",
+     "options": [
+      "Γιατί τον Ιανουάριο σφύριξε πριν μυρίσουν τίποτα",
+      "Γιατί είναι καινούργιος",
+      "Γιατί το απαγορεύει ο ιδιοκτήτης",
+      "Γιατί είναι δύσκολο να τον ξεβιδώσουν"
+     ],
+     "answer": "Γιατί τον Ιανουάριο σφύριξε πριν μυρίσουν τίποτα",
+     "why": "Αυτό το πράγμα σφύριξε πριν μυρίσουμε τίποτα"
+    },
+    {
+     "q": "Γιατί θα στείλει μήνυμα στον ιδιοκτήτη;",
+     "options": [
+      "Για να της επιστρέψει τα χρήματα της μπαταρίας",
+      "Γιατί ο πυρανιχνευτής είναι πάνω από δέκα χρονών και πρέπει να αλλάξει",
+      "Για να του ζητήσει άδεια να τον βγάλουν",
+      "Για να παραπονεθεί για τον θόρυβο"
+     ],
+     "answer": "Γιατί ο πυρανιχνευτής είναι πάνω από δέκα χρονών και πρέπει να αλλάξει",
+     "why": "είναι πάνω από δέκα χρονών"
+    }
+   ],
+   "gloss": {
+    "συγκάτοικους": "συγκάτοικος — flatmate",
+    "ξημερώματα": "ξημερώματα — small hours",
+    "τρελαθώ": "τρελαίνομαι — to go mad",
+    "πυρανιχνευτής": "πυρανιχνευτής — smoke alarm",
+    "σφυρίζει": "σφυρίζω — to whistle, beep",
+    "ταβάνι": "ταβάνι — ceiling",
+    "μπρίκι": "μπρίκι — small pot for Greek coffee",
+    "μάτι": "μάτι (κουζίνας) — hob, burner",
+    "λαβή": "λαβή — handle",
+    "περίπτερο": "περίπτερο — kiosk",
+    "αισθητήρες": "αισθητήρας — sensor",
+    "ευαισθησία": "ευαισθησία — sensitivity"
+   }
+  },
+  {
+   "id": "l178-news-kiniti-odontiatriki-monada",
+   "title": "Κινητή οδοντιατρική μονάδα στα ορεινά χωριά",
+   "title_en": "A mobile dental unit in the mountain villages",
+   "type": "news",
+   "level": "B2",
+   "context_el": "Ακούτε μια είδηση σε έναν περιφερειακό ραδιοφωνικό σταθμό.",
+   "script": [
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Από την ερχόμενη εβδομάδα, μια κινητή οδοντιατρική μονάδα θα επισκέπτεται τα ορεινά χωριά του νομού, όπου δεν υπάρχει κανένας οδοντίατρος. Πρόκειται για ένα ειδικά διαμορφωμένο φορτηγάκι, με οδοντιατρική πολυθρόνα, μηχάνημα ακτινογραφιών και αποστειρωτή.",
+     "en": "From next week, a mobile dental unit will visit the mountain villages of the prefecture, where there is no dentist at all. It is a specially fitted van, with a dental chair, an X-ray machine and a steriliser."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Η μονάδα θα μένει δύο μέρες σε κάθε χωριό και θα επιστρέφει κάθε τρεις μήνες. Οι εξετάσεις και οι καθαρισμοί θα είναι δωρεάν για παιδιά και για κατοίκους άνω των εξήντα πέντε. Για πιο σύνθετες θεραπείες, όπως εμφυτεύματα ή γέφυρες, οι ασθενείς θα παραπέμπονται στο κέντρο υγείας της πόλης.",
+     "en": "The unit will stay two days in each village and will return every three months. Check-ups and cleanings will be free for children and for residents over sixty-five. For more complex treatments, such as implants or bridges, patients will be referred to the town's health centre."
+    },
+    {
+     "speaker": "Εκφωνήτρια",
+     "voice": "f",
+     "el": "Τα ραντεβού κλείνονται μέσω των κοινοτικών γραφείων. Σύμφωνα με τον υπεύθυνο του προγράμματος, πολλοί ηλικιωμένοι κάτοικοι έχουν να δουν οδοντίατρο πάνω από δέκα χρόνια, επειδή η διαδρομή ως την πόλη και πίσω τούς παίρνει όλη τη μέρα.",
+     "en": "Appointments are booked through the community offices. According to the head of the programme, many elderly residents haven't seen a dentist for over ten years, because the journey to town and back takes them the whole day."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Κάθε πότε θα επιστρέφει η μονάδα σε κάθε χωριό;",
+     "options": [
+      "Κάθε εβδομάδα",
+      "Κάθε χρόνο",
+      "Κάθε τρεις μήνες",
+      "Μόνο το καλοκαίρι"
+     ],
+     "answer": "Κάθε τρεις μήνες",
+     "why": "θα επιστρέφει κάθε τρεις μήνες"
+    },
+    {
+     "q": "Τι θα γίνεται με ένα εμφύτευμα;",
+     "options": [
+      "Δεν θα καλύπτεται καθόλου",
+      "Ο ασθενής θα παραπέμπεται στο κέντρο υγείας της πόλης",
+      "Θα γίνεται μόνο σε παιδιά",
+      "Θα γίνεται δωρεάν στο φορτηγάκι"
+     ],
+     "answer": "Ο ασθενής θα παραπέμπεται στο κέντρο υγείας της πόλης",
+     "why": "οι ασθενείς θα παραπέμπονται στο κέντρο υγείας της πόλης"
+    },
+    {
+     "q": "Γιατί πολλοί ηλικιωμένοι δεν έχουν δει οδοντίατρο για χρόνια;",
+     "options": [
+      "Γιατί η διαδρομή ως την πόλη και πίσω τούς παίρνει όλη τη μέρα",
+      "Γιατί δεν έχουν ασφάλεια",
+      "Γιατί φοβούνται τον οδοντίατρο",
+      "Γιατί ο οδοντίατρος της πόλης έκλεισε"
+     ],
+     "answer": "Γιατί η διαδρομή ως την πόλη και πίσω τούς παίρνει όλη τη μέρα",
+     "why": "η διαδρομή ως την πόλη και πίσω τούς παίρνει όλη τη μέρα"
+    }
+   ],
+   "gloss": {
+    "κινητή οδοντιατρική μονάδα": "κινητή μονάδα — mobile unit",
+    "περιφερειακό": "περιφερειακός — regional",
+    "ειδικά διαμορφωμένο": "ειδικά διαμορφωμένος — specially fitted",
+    "φορτηγάκι": "φορτηγάκι — van, small truck",
+    "πολυθρόνα": "πολυθρόνα — armchair (here: dental chair)",
+    "ακτινογραφιών": "ακτινογραφία — X-ray",
+    "αποστειρωτή": "αποστειρωτής — steriliser",
+    "εμφυτεύματα": "εμφύτευμα — implant",
+    "παραπέμπονται": "παραπέμπω — to refer",
+    "κοινοτικών γραφείων": "κοινοτικό γραφείο — community office"
+   }
+  },
+  {
+   "id": "l178-int-zografos-tampelon",
+   "title": "Ο ζωγράφος των ταμπελών",
+   "title_en": "The sign painter",
+   "type": "interview",
+   "level": "B2",
+   "context_el": "Ακούτε μια συνέντευξη με έναν από τους τελευταίους τεχνίτες στην Αθήνα που ζωγραφίζουν με το χέρι ταμπέλες για μαγαζιά.",
+   "script": [
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Σήμερα μια ταμπέλα τυπώνεται σε μια ώρα. Γιατί να ζωγραφίσει κανείς μία με το χέρι;",
+     "en": "Today a sign gets printed in an hour. Why would anyone paint one by hand?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Γιατί η τυπωμένη είναι ίδια με χιλιάδες άλλες. Τα γράμματα με το πινέλο έχουν μια μικρή ανωμαλία, μια ζωντάνια, που το μάτι την καταλαβαίνει ακόμα κι αν δεν ξέρει να την εξηγήσει. Πελάτες μου είναι συνήθως παλιά καφενεία, κουρεία και ζαχαροπλαστεία που θέλουν να κρατήσουν τον χαρακτήρα τους, αλλά και νέα μαγαζιά που θέλουν να δείχνουν παλιά.",
+     "en": "Because a printed one is the same as thousands of others. Letters done with a brush have a slight irregularity, a liveliness, that the eye notices even if it can't explain it. My customers are usually old cafés, barber shops and patisseries that want to keep their character, but also new shops that want to look old."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Πώς μάθατε την τέχνη;",
+     "en": "How did you learn the craft?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Από έναν ηλικιωμένο μάστορα στο Μεταξουργείο, στα τέλη της δεκαετίας του ογδόντα. Τον πρώτο χρόνο δεν με άφηνε να ακουμπήσω ταμπέλα. Γέμιζα σελίδες ολόκληρες με το ίδιο γράμμα, το άλφα, ξανά και ξανά, ώσπου να βγαίνει ίσιο χωρίς χάρακα. Τα ελληνικά κεφαλαία είναι δύσκολα· το σίγμα και το ωμέγα θέλουν μεγάλη ισορροπία.",
+     "en": "From an elderly master in Metaxourgeio, at the end of the eighties. The first year he wouldn't let me touch a sign. I filled whole pages with the same letter, alpha, again and again, until it came out straight without a ruler. Greek capitals are hard; sigma and omega need great balance."
+    },
+    {
+     "speaker": "Δημοσιογράφος",
+     "voice": "f",
+     "el": "Βλέπετε μέλλον στη δουλειά σας;",
+     "en": "Do you see a future in your work?"
+    },
+    {
+     "speaker": "Τεχνίτης",
+     "voice": "m",
+     "el": "Περισσότερο απ' ό,τι πριν από δέκα χρόνια. Τώρα έρχονται νέοι γραφίστες και μου ζητούν να τους μάθω. Μεγάλωσαν μπροστά σε μια οθόνη και θέλουν να νιώσουν το πινέλο στο χέρι τους.",
+     "en": "More than ten years ago. Now young graphic designers come and ask me to teach them. They grew up in front of a screen and want to feel the brush in their hand."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι έχουν κατά τον τεχνίτη τα γράμματα με το πινέλο;",
+     "options": [
+      "Μια μικρή ανωμαλία, μια ζωντάνια",
+      "Πιο έντονα χρώματα",
+      "Μεγαλύτερη αντοχή στη βροχή",
+      "Χαμηλότερο κόστος"
+     ],
+     "answer": "Μια μικρή ανωμαλία, μια ζωντάνια",
+     "why": "Τα γράμματα με το πινέλο έχουν μια μικρή ανωμαλία, μια ζωντάνια"
+    },
+    {
+     "q": "Τι έκανε τον πρώτο χρόνο της μαθητείας του;",
+     "options": [
+      "Ζωγράφιζε μικρές ταμπέλες",
+      "Γέμιζε σελίδες με το ίδιο γράμμα, ξανά και ξανά",
+      "Καθάριζε τα πινέλα",
+      "Έβαφε τοίχους"
+     ],
+     "answer": "Γέμιζε σελίδες με το ίδιο γράμμα, ξανά και ξανά",
+     "why": "Γέμιζα σελίδες ολόκληρες με το ίδιο γράμμα, το άλφα, ξανά και ξανά"
+    },
+    {
+     "q": "Ποιοι του ζητούν σήμερα να τους μάθει την τέχνη;",
+     "options": [
+      "Νέοι γραφίστες που μεγάλωσαν μπροστά σε μια οθόνη",
+      "Συνταξιούχοι",
+      "Φοιτητές αρχιτεκτονικής",
+      "Ιδιοκτήτες καφενείων"
+     ],
+     "answer": "Νέοι γραφίστες που μεγάλωσαν μπροστά σε μια οθόνη",
+     "why": "έρχονται νέοι γραφίστες και μου ζητούν να τους μάθω"
+    }
+   ],
+   "gloss": {
+    "ταμπέλες": "ταμπέλα — sign",
+    "πινέλο": "πινέλο — (paint)brush",
+    "ανωμαλία": "ανωμαλία — irregularity",
+    "ζωντάνια": "ζωντάνια — liveliness",
+    "κουρεία": "κουρείο — barber shop",
+    "ζαχαροπλαστεία": "ζαχαροπλαστείο — patisserie",
+    "μάστορα": "μάστορας — master craftsman",
+    "ακουμπήσω": "ακουμπάω — to touch",
+    "χάρακα": "χάρακας — ruler",
+    "κεφαλαία": "κεφαλαίο (γράμμα) — capital letter",
+    "γραφίστες": "γραφίστας — graphic designer"
+   }
+  },
+  {
+   "id": "l178-c1-giati-gourgourizoun-oi-gates",
+   "title": "Γιατί γουργουρίζουν οι γάτες",
+   "title_en": "Why cats purr",
+   "type": "interview",
+   "level": "C1",
+   "context_el": "Ακούτε μια κτηνίατρο να απαντά σε ερωτήσεις ακροατών σε μια ραδιοφωνική εκπομπή για το γουργούρισμα των γατών.",
+   "script": [
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Μια ακροάτρια ρωτάει: όταν η γάτα της γουργουρίζει, σημαίνει πάντα ότι είναι ευχαριστημένη;",
+     "en": "A listener asks: when her cat purrs, does it always mean it's content?"
+    },
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Όχι πάντα, και αυτό εκπλήσσει πολλούς. Οι γάτες γουργουρίζουν όταν τις χαϊδεύουμε, αλλά και όταν είναι πονεμένες, αγχωμένες ή ακόμα και λίγο πριν πεθάνουν. Η μητέρα γουργουρίζει όταν γεννάει, και τα γατάκια, που γεννιούνται τυφλά και κουφά, νιώθουν τη δόνηση και βρίσκουν έτσι τον δρόμο προς το στήθος της. Γι' αυτό πολλοί ερευνητές πιστεύουν ότι το γουργούρισμα δεν εκφράζει τόσο ευχαρίστηση όσο ένα αίτημα: «μείνε κοντά μου» ή «φρόντισέ με».",
+     "en": "Not always, and that surprises many people. Cats purr when we stroke them, but also when they're in pain, stressed or even shortly before they die. The mother purrs when giving birth, and the kittens, which are born blind and deaf, feel the vibration and so find their way to her belly. That's why many researchers believe purring expresses not so much pleasure as a request: 'stay close to me' or 'look after me'."
+    },
+    {
+     "speaker": "Παρουσιαστής",
+     "voice": "m",
+     "el": "Και πώς παράγεται αυτός ο ήχος;",
+     "en": "And how is that sound produced?"
+    },
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Για δεκαετίες η επικρατέστερη εξήγηση ήταν ότι οι μύες του λάρυγγα συσπώνται ρυθμικά και κάνουν τις φωνητικές χορδές να πάλλονται, τόσο στην εισπνοή όσο και στην εκπνοή. Πιο πρόσφατες μελέτες όμως έδειξαν ότι οι φωνητικές χορδές της γάτας έχουν ένα μικρό στρώμα ιστού που τους επιτρέπει να δονούνται σε πολύ χαμηλές συχνότητες, ακόμα και χωρίς συνεχή εντολή από τον εγκέφαλο. Το ζήτημα, με άλλα λόγια, δεν έχει κλείσει.",
+     "en": "For decades the prevailing explanation was that the muscles of the larynx contract rhythmically and make the vocal folds vibrate, both on breathing in and breathing out. More recent studies, however, have shown that a cat's vocal folds have a small layer of tissue that lets them vibrate at very low frequencies, even without continuous commands from the brain. The question, in other words, isn't closed."
+    },
+    {
+     "speaker": "Κτηνίατρος",
+     "voice": "f",
+     "el": "Θα ακούσετε επίσης ότι η συχνότητα του γουργουρίσματος βοηθά να γιατρεύονται τα κόκαλα. Είναι μια γοητευτική υπόθεση, αλλά προς το παρόν δεν υπάρχουν αρκετά στοιχεία που να την αποδεικνύουν. Καλό είναι να την ακούμε με επιφύλαξη.",
+     "en": "You'll also hear that the frequency of purring helps bones heal. It's a fascinating hypothesis, but for now there isn't enough evidence to prove it. It's best to treat it with caution."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Σε ποια περίπτωση ΔΕΝ αναφέρει η κτηνίατρος ότι γουργουρίζουν οι γάτες;",
+     "options": [
+      "Όταν τις χαϊδεύουμε",
+      "Όταν η μητέρα γεννάει",
+      "Όταν είναι πονεμένες",
+      "Όταν κυνηγούν"
+     ],
+     "answer": "Όταν κυνηγούν",
+     "why": "Οι γάτες γουργουρίζουν όταν τις χαϊδεύουμε, αλλά και όταν είναι πονεμένες"
+    },
+    {
+     "q": "Τι έδειξαν οι πιο πρόσφατες μελέτες;",
+     "options": [
+      "Ότι μόνο οι θηλυκές γάτες γουργουρίζουν",
+      "Ότι το γουργούρισμα γίνεται μόνο στην εκπνοή",
+      "Ότι οι φωνητικές χορδές μπορούν να δονούνται χαμηλά ακόμα και χωρίς συνεχή εντολή από τον εγκέφαλο",
+      "Ότι ο ήχος βγαίνει από τη μύτη"
+     ],
+     "answer": "Ότι οι φωνητικές χορδές μπορούν να δονούνται χαμηλά ακόμα και χωρίς συνεχή εντολή από τον εγκέφαλο",
+     "why": "να δονούνται σε πολύ χαμηλές συχνότητες, ακόμα και χωρίς συνεχή εντολή από τον εγκέφαλο"
+    },
+    {
+     "q": "Πώς κρίνει η κτηνίατρος την ιδέα ότι το γουργούρισμα γιατρεύει τα κόκαλα;",
+     "options": [
+      "Δεν την αναφέρει",
+      "Ως αποδεδειγμένο γεγονός",
+      "Ως γοητευτική υπόθεση χωρίς αρκετά στοιχεία ακόμα",
+      "Ως εντελώς λανθασμένη"
+     ],
+     "answer": "Ως γοητευτική υπόθεση χωρίς αρκετά στοιχεία ακόμα",
+     "why": "Είναι μια γοητευτική υπόθεση, αλλά προς το παρόν δεν υπάρχουν αρκετά στοιχεία"
+    }
+   ],
+   "gloss": {
+    "γουργούρισμα": "γουργούρισμα — purring",
+    "γουργουρίζει": "γουργουρίζω — to purr",
+    "εκπλήσσει": "εκπλήσσω — to surprise",
+    "πονεμένες": "πονεμένος — in pain",
+    "δόνηση": "δόνηση — vibration",
+    "επικρατέστερη": "επικρατέστερος — prevailing",
+    "λάρυγγα": "λάρυγγας — larynx",
+    "συσπώνται": "συσπώμαι — to contract",
+    "φωνητικές χορδές": "φωνητική χορδή — vocal fold, vocal cord",
+    "πάλλονται": "πάλλομαι — to vibrate",
+    "ιστού": "ιστός — tissue",
+    "με επιφύλαξη": "με επιφύλαξη — with reservation, cautiously"
+   }
+  },
+  {
+   "id": "l178-c1-giati-kanoun-krak-ta-daktyla",
+   "title": "Γιατί «κάνουν κρακ» τα δάχτυλα",
+   "title_en": "Why knuckles crack",
+   "type": "monologue",
+   "level": "C1",
+   "context_el": "Ακούτε έναν ρευματολόγο να εξηγεί σε ένα επιστημονικό ραδιόφωνο τι συμβαίνει όταν «σπάμε» τα δάχτυλά μας.",
+   "script": [
+    {
+     "speaker": "Ρευματολόγος",
+     "voice": "m",
+     "el": "Οι αρθρώσεις των δαχτύλων περιβάλλονται από μια κάψα γεμάτη με ένα παχύρρευστο υγρό, το αρθρικό υγρό, που λειτουργεί σαν λιπαντικό. Όταν τραβάμε ή λυγίζουμε απότομα ένα δάχτυλο, οι επιφάνειες της άρθρωσης απομακρύνονται, η πίεση μέσα στην κάψα πέφτει και τα αέρια που είναι διαλυμένα στο υγρό σχηματίζουν μια φυσαλίδα. Αυτό το φαινόμενο λέγεται σπηλαίωση.",
+     "en": "The finger joints are surrounded by a capsule filled with a thick fluid, synovial fluid, which acts as a lubricant. When we pull or sharply bend a finger, the surfaces of the joint move apart, the pressure inside the capsule drops, and the gases dissolved in the fluid form a bubble. This phenomenon is called cavitation."
+    },
+    {
+     "speaker": "Ρευματολόγος",
+     "voice": "m",
+     "el": "Για χρόνια οι επιστήμονες διαφωνούσαν αν ο ήχος προέρχεται από τη στιγμή που σχηματίζεται η φυσαλίδα ή από τη στιγμή που σκάει. Μια μελέτη του 2015, που κατέγραψε την άρθρωση με μαγνητική τομογραφία σε πραγματικό χρόνο, έδειξε ότι ο ήχος συμπίπτει με τον σχηματισμό της κοιλότητας. Γι' αυτό, παρεμπιπτόντως, δεν μπορείτε να ξανακάνετε κρακ το ίδιο δάχτυλο αμέσως: χρειάζονται περίπου είκοσι λεπτά μέχρι να διαλυθούν ξανά τα αέρια.",
+     "en": "For years scientists disagreed about whether the sound comes from the moment the bubble forms or from the moment it bursts. A 2015 study, which filmed the joint with real-time magnetic resonance imaging, showed that the sound coincides with the formation of the cavity. That's why, incidentally, you can't crack the same finger again right away: it takes about twenty minutes for the gases to dissolve again."
+    },
+    {
+     "speaker": "Ρευματολόγος",
+     "voice": "m",
+     "el": "Και η μεγάλη ερώτηση: προκαλεί αρθρίτιδα; Όλα τα στοιχεία που έχουμε λένε όχι. Ένας Αμερικανός γιατρός έσπαγε επί εξήντα χρόνια τα δάχτυλα μόνο του ενός χεριού, για να το ελέγξει ο ίδιος, και στο τέλος δεν βρήκε καμία διαφορά ανάμεσα στα δύο. Ένα πείραμα με έναν μόνο συμμετέχοντα δεν αποδεικνύει βέβαια τίποτα, όμως και οι μεγαλύτερες μελέτες καταλήγουν στο ίδιο. Αν πάντως υπάρχει πόνος ή πρήξιμο, αυτό είναι άλλη ιστορία και χρειάζεται εξέταση.",
+     "en": "And the big question: does it cause arthritis? All the evidence we have says no. An American doctor cracked the knuckles of only one hand for sixty years, to test it himself, and in the end found no difference between the two. An experiment with a single participant proves nothing, of course, but larger studies come to the same conclusion. If there is pain or swelling, though, that's another story and needs to be examined."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Τι προκαλεί τον σχηματισμό της φυσαλίδας;",
+     "options": [
+      "Η πτώση της πίεσης μέσα στην κάψα της άρθρωσης",
+      "Ένα σπάσιμο του χόνδρου",
+      "Ο αέρας που μπαίνει από το δέρμα",
+      "Η τριβή των οστών"
+     ],
+     "answer": "Η πτώση της πίεσης μέσα στην κάψα της άρθρωσης",
+     "why": "η πίεση μέσα στην κάψα πέφτει και τα αέρια που είναι διαλυμένα στο υγρό σχηματίζουν μια φυσαλίδα"
+    },
+    {
+     "q": "Γιατί δεν μπορούμε να ξανακάνουμε κρακ το ίδιο δάχτυλο αμέσως;",
+     "options": [
+      "Γιατί το υγρό έχει χυθεί",
+      "Γιατί η άρθρωση πονάει",
+      "Γιατί οι μύες κουράζονται",
+      "Γιατί χρειάζονται περίπου είκοσι λεπτά μέχρι να διαλυθούν ξανά τα αέρια"
+     ],
+     "answer": "Γιατί χρειάζονται περίπου είκοσι λεπτά μέχρι να διαλυθούν ξανά τα αέρια",
+     "why": "χρειάζονται περίπου είκοσι λεπτά μέχρι να διαλυθούν ξανά τα αέρια"
+    },
+    {
+     "q": "Πώς σχολιάζει ο ρευματολόγος το πείραμα του Αμερικανού γιατρού;",
+     "options": [
+      "Το θεωρεί την απόλυτη απόδειξη",
+      "Λέει ότι τα αποτελέσματά του ήταν λανθασμένα",
+      "Λέει ότι έδειξε αρθρίτιδα στο ένα χέρι",
+      "Μόνο του δεν αποδεικνύει τίποτα, αλλά οι μεγαλύτερες μελέτες καταλήγουν στο ίδιο"
+     ],
+     "answer": "Μόνο του δεν αποδεικνύει τίποτα, αλλά οι μεγαλύτερες μελέτες καταλήγουν στο ίδιο",
+     "why": "Ένα πείραμα με έναν μόνο συμμετέχοντα δεν αποδεικνύει βέβαια τίποτα, όμως και οι μεγαλύτερες μελέτες καταλήγουν στο ίδιο"
+    }
+   ],
+   "gloss": {
+    "ρευματολόγο": "ρευματολόγος — rheumatologist",
+    "αρθρώσεις": "άρθρωση — joint",
+    "κάψα": "κάψα — capsule",
+    "παχύρρευστο": "παχύρρευστος — thick, viscous",
+    "αρθρικό υγρό": "αρθρικό υγρό — synovial fluid",
+    "λιπαντικό": "λιπαντικό — lubricant",
+    "λυγίζουμε": "λυγίζω — to bend",
+    "διαλυμένα": "διαλυμένος — dissolved",
+    "φυσαλίδα": "φυσαλίδα — bubble",
+    "σπηλαίωση": "σπηλαίωση — cavitation",
+    "μαγνητική τομογραφία": "μαγνητική τομογραφία — MRI",
+    "συμπίπτει": "συμπίπτω — to coincide",
+    "κοιλότητας": "κοιλότητα — cavity",
+    "παρεμπιπτόντως": "παρεμπιπτόντως — incidentally",
+    "αρθρίτιδα": "αρθρίτιδα — arthritis",
+    "πρήξιμο": "πρήξιμο — swelling"
+   }
+  }
+ ]
+}
