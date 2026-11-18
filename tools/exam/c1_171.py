@@ -11,34 +11,34 @@ def gaps(prefix, n0, n1, opts, ans, notes):
     return [dict({"prompt": f"Κενό [{i}]", "options": opts, "answer": ans[i]}, **({"answer_note": notes[i]} if i in notes else {})) for i in range(n0, n1 + 1)]
 
 # ---------- Reading 1 ----------
-r1_text = """Ο Αρίσταρχος γεννήθηκε στη Σάμο [0] του τέταρτου αιώνα π.Χ. και έμεινε στην ιστορία ως ένας από τους τολμηρότερους αστρονόμους της αρχαιότητας.
-Πιθανότατα έζησε στην Αλεξάνδρεια, [1] μαθήτευσε κοντά στον φιλόσοφο Στράτωνα τον Λαμψακηνό.
-Είναι γνωστός κυρίως για την ιδέα ότι η Γη κινείται γύρω από τον Ήλιο, [2] οι περισσότεροι τοποθετούσαν τη Γη ακίνητη στο κέντρο του κόσμου.
-Το βιβλίο όπου διατύπωνε αυτή την ιδέα χάθηκε· [3], τη γνωρίζουμε χάρη σε μια αναφορά ενός μεγάλου συγχρόνου του.
-Πρόκειται για τον Αρχιμήδη, [4] την περιγράφει στο έργο του «Ψαμμίτης».
-Από τα δικά του έργα σώθηκε μόνο ένα, [5] τίτλος είναι «Περί μεγεθών και αποστημάτων Ηλίου και Σελήνης».
-Με γεωμετρικούς συλλογισμούς υπολόγισε ότι ο Ήλιος απέχει από τη Γη δεκαοχτώ με είκοσι φορές περισσότερο από τη Σελήνη· [6] η πραγματική αναλογία είναι σχεδόν τετρακόσια προς ένα, η μέθοδός του ήταν σωστή.
-Συμπέρανε επίσης ότι ο Ήλιος είναι πολύ μεγαλύτερος από τη Γη, [7] θεώρησε λογικότερο να κινείται η μικρή Γη γύρω από τον μεγάλο Ήλιο.
-Υποστήριξε ακόμη ότι τα αστέρια είναι μακρινοί ήλιοι, τόσο μακρινοί [8] οι θέσεις τους να μη φαίνονται να αλλάζουν καθώς κινείται η Γη.
-Οι ιδέες του δεν επικράτησαν, [9] οι περισσότεροι φιλόσοφοι δεν μπορούσαν να δεχτούν ότι η Γη κινείται χωρίς να το νιώθουμε.
-Σήμερα ένας κρατήρας της Σελήνης φέρει το όνομά του, [10] ένας αστεροειδής."""
-r1_ans = ["στα τέλη", "όπου", "σε μια εποχή που", "παρ' όλα αυτά", "ο οποίος", "του οποίου ο", "αν και", "γι' αυτό και", "ώστε", "επειδή", "όπως και"]
+r1_text = """Ο Θεόφραστος, [0] πραγματικό όνομα ήταν Τύρταμος, γεννήθηκε γύρω στο 371 π.Χ. στην Ερεσό της Λέσβου.
+Το όνομα με το οποίο έμεινε στην ιστορία του το έδωσε, κατά την παράδοση, ο Αριστοτέλης, [1] θαύμαζε τη χάρη του λόγου του.
+Η λέξη σημαίνει περίπου «αυτός που μιλά θεϊκά», [2] ταίριαζε σε έναν άνθρωπο φημισμένο για την ευγλωττία του.
+Γνώρισε τον Αριστοτέλη πιθανότατα στην Άσσο ή στη Λέσβο, [3] έμεινε κοντά του ως τον θάνατο του δασκάλου του.
+Όταν ο Αριστοτέλης έφυγε από την Αθήνα, το 322 π.Χ., ο Θεόφραστος ανέλαβε τη διεύθυνση του Λυκείου, [4] διηύθυνε για τριάντα έξι χρόνια.
+Ο Διογένης Λαέρτιος γράφει ότι τα μαθήματά του τα παρακολουθούσαν ως και δύο χιλιάδες μαθητές, [5] ο αριθμός αυτός μπορεί να είναι υπερβολικός.
+Έγραψε για τόσο πολλά θέματα, [6] ο κατάλογος των έργων του πιάνει ολόκληρες σελίδες στον Διογένη.
+Στα δύο μεγάλα βοτανικά του έργα περιγράφει εκατοντάδες φυτά, [7] χωρίζει ανάλογα με τη μορφή τους σε δέντρα, θάμνους, θαμνίσκους και πόες.
+Γι' αυτό τον αποκαλούν συχνά «πατέρα της βοτανικής»· το ευρύ κοινό, [8], τον γνωρίζει κυρίως από ένα μικρό βιβλίο.
+Πρόκειται για τους «Χαρακτήρες», τριάντα σύντομα πορτρέτα ανθρώπινων τύπων, [9] ο κόλακας, ο φλύαρος και ο τσιγκούνης.
+Πέθανε σε ηλικία ογδόντα πέντε χρόνων, [10] αναφέρει ο Διογένης, και άφησε τον κήπο της σχολής στους μαθητές του."""
+r1_ans = ["του οποίου το", "ο οποίος", "κάτι που", "και από τότε", "το οποίο", "αν και", "ώστε", "τα οποία", "αντίθετα", "όπως", "σύμφωνα με όσα"]
 r1_dis = ["της οποίας η", "οι οποίοι", "μήπως", "αντί για", "μόλις"]
-r1_notes = {1: "Place: he lived in Alexandria, where he studied under Strato.",
-            2: "Time frame and contrast: at a time when most people placed the Earth at the centre.",
-            3: "Contrast with the previous clause: the book was lost; nevertheless we know the idea.",
-            4: "Masculine singular «τον Αρχιμήδη», subject of «την περιγράφει»: ο οποίος.",
-            5: "Possessive, neuter owner «ένα (έργο)», with masculine «ο τίτλος»: του οποίου ο.",
-            6: "Concession: although the real ratio is about 400 to 1, the method was correct.",
-            7: "Result: the Sun is much larger, and for that reason he found it more logical for the Earth to move.",
-            8: "Result after «τόσο»: τόσο μακρινοί ώστε...",
-            9: "Cause: his ideas did not prevail because most philosophers could not accept a moving Earth.",
-            10: "Addition: a lunar crater bears his name, as does an asteroid (3999 Aristarchus)."}
+r1_notes = {1: "Masculine singular «ο Αριστοτέλης», subject of «θαύμαζε»: ο οποίος.",
+            2: "Referring back to the whole previous clause: κάτι που ταίριαζε...",
+            3: "Sequence: he met Aristotle and from then on stayed close to him.",
+            4: "Neuter singular «του Λυκείου», object of «διηύθυνε»: το οποίο.",
+            5: "Concession: up to two thousand students are reported, although the number may be exaggerated.",
+            6: "Result after «τόσο»: τόσο πολλά θέματα, ώστε...",
+            7: "Neuter plural «φυτά», object of «χωρίζει»: τα οποία.",
+            8: "Contrast with the specialists: the general public, on the other hand, knows him from a small book.",
+            9: "Introducing examples: όπως ο κόλακας...",
+            10: "Source of the information: according to what Diogenes reports."}
 opts = sorted(set(r1_ans + r1_dis)); rnd.shuffle(opts)
 T.append({"id": "c1-p171-reading-1", "paper": P + "Κατανόηση γραπτού λόγου, Ερώτημα 1 (5 μονάδες; 10 κενά × 0,5)",
  "task_type": "gap-fill with phrases (10 gaps, 5 distractors) — tests connectors/syntax; distractors test agreement and case",
- "instructions_el": "Ένας φίλος σας γράφει ένα άρθρο για τον Αρίσταρχο τον Σάμιο. Στο κείμενο που σας έστειλε λείπουν ορισμένες φράσεις. Διαβάζετε προσεκτικά το κείμενο και συμπληρώνετε στον πίνακα, δίπλα σε κάθε φράση, τον αριθμό του κενού στο οποίο αυτή ταιριάζει. Στον πίνακα υπάρχουν πέντε φράσεις που δεν ταιριάζουν σε κανένα κενό.",
- "title": "Ο Αρίσταρχος, ο αστρονόμος που έβαλε τον Ήλιο στο κέντρο", "text_el": r1_text, "text_source": SRC, "example": {"gap": 0, "answer": r1_ans[0]},
+ "instructions_el": "Ένας φίλος σας γράφει ένα άρθρο για τον Θεόφραστο. Στο κείμενο που σας έστειλε λείπουν ορισμένες φράσεις. Διαβάζετε προσεκτικά το κείμενο και συμπληρώνετε στον πίνακα, δίπλα σε κάθε φράση, τον αριθμό του κενού στο οποίο αυτή ταιριάζει. Στον πίνακα υπάρχουν πέντε φράσεις που δεν ταιριάζουν σε κανένα κενό.",
+ "title": "Ο Θεόφραστος, ο πατέρας της βοτανικής", "text_el": r1_text, "text_source": SRC, "example": {"gap": 0, "answer": r1_ans[0]},
  "questions": gaps("", 1, 10, opts, r1_ans, r1_notes), "source_url": ""})
 
 # ---------- Reading 2 ----------
@@ -194,7 +194,7 @@ for t in T:
     if t["id"].endswith("use-4"):
         for w in [ex["answer"]] + [q["answer"] for q in t["questions"]]:
             assert w in t["text_el"], w
-out = {"description": "Γ1 exam practice, set 171 (Πιστοποίηση Ελληνομάθειας Γ1, ΚΕΓ format), same schema as the c1-p3-* tasks in c1-tasks.json: an article on Aristarchus of Samos, a literary extract about a rag-and-bone man and a brass bed knob, an article on the black-winged stilt with a summary, Menis Koumandareas (error spotting and gap-fill), prehistoric Poliochni on Lemnos (word formation and definitions).",
+out = {"description": "Γ1 exam practice, set 171 (Πιστοποίηση Ελληνομάθειας Γ1, ΚΕΓ format), same schema as the c1-p3-* tasks in c1-tasks.json: an article on Theophrastus of Eresos, a literary extract about a rag-and-bone man and a brass bed knob, an article on the black-winged stilt with a summary, Menis Koumandareas (error spotting and gap-fill), prehistoric Poliochni on Lemnos (word formation and definitions).",
        "rights": "Tasks c1-p171-*: original texts and items written for this learner (personal study use).", "tasks": T}
 p = os.path.join(os.path.dirname(__file__), "..", "..", "library", "exam", "c1-tasks-169.json")
 with open(p, "w", encoding="utf-8") as fh:
