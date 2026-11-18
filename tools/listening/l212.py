@@ -1,0 +1,90 @@
+# Source for library/listening/listening-212.json: four more B2–C1 listening items (script + questions + gloss).
+# Build: python3 tools/listening/l212.py
+import json, os, random
+
+def L(sp, v, el, en): return {"speaker": sp, "voice": v, "el": el, "en": en}
+def Q(q, opts, ans, why): return {"q": q, "options": opts, "answer": opts[ans], "why": why}
+
+ITEMS = []
+ITEMS.append({
+ "id": "l212-news-monopatia-simansi", "title": "Νέα σήμανση στα μονοπάτια του Ταΰγετου", "title_en": "New waymarking on the Taygetus trails", "type": "news", "level": "B2",
+ "context_el": "Ακούτε μια τοπική είδηση στο ραδιόφωνο της Καλαμάτας για τα ορεινά μονοπάτια της περιοχής.",
+ "script": [
+  L("Εκφωνητής", "m", "Ολοκληρώθηκε η νέα σήμανση σε εκατόν είκοσι χιλιόμετρα μονοπατιών στον Ταΰγετο. Εθελοντές από τρεις ορειβατικούς συλλόγους δούλεψαν όλο το καλοκαίρι για να καθαρίσουν τα μονοπάτια από τα βάτα και να τοποθετήσουν νέες πινακίδες και σημάδια στους βράχους.", "The new waymarking of one hundred and twenty kilometres of trails on Taygetus has been completed. Volunteers from three mountaineering clubs worked all summer to clear the paths of brambles and to put up new signs and marks on the rocks."),
+  L("Εκφωνητής", "m", "Κάθε πινακίδα δείχνει την απόσταση και τον εκτιμώμενο χρόνο πεζοπορίας μέχρι το επόμενο χωριό ή καταφύγιο. Επιπλέον, οι διαδρομές έχουν ψηφιοποιηθεί και είναι διαθέσιμες δωρεάν σε έναν διαδικτυακό χάρτη, που λειτουργεί και χωρίς σήμα κινητού.", "Each sign shows the distance and the estimated walking time to the next village or refuge. In addition, the routes have been digitised and are available free on an online map, which also works without a mobile signal."),
+  L("Εκφωνητής", "m", "Οι σύλλογοι υπενθυμίζουν ότι, παρά τη νέα σήμανση, κανείς δεν πρέπει να ανεβαίνει στο βουνό χωρίς νερό, κατάλληλα παπούτσια και ενημέρωση για τον καιρό. Ζητούν επίσης από τους πεζοπόρους να μην αφήνουν σκουπίδια και να μην ακολουθούν συντομεύσεις, γιατί προκαλούν διάβρωση του εδάφους.", "The clubs remind people that, despite the new waymarking, no one should go up the mountain without water, suitable shoes and a weather check. They also ask hikers not to leave rubbish and not to take shortcuts, because they cause soil erosion."),
+ ],
+ "questions": [
+  Q("Ποιος έκανε τη νέα σήμανση;", ["Μια ιδιωτική εταιρεία", "Εθελοντές από ορειβατικούς συλλόγους", "Ο στρατός", "Μαθητές της Καλαμάτας"], 1, "Εθελοντές από τρεις ορειβατικούς συλλόγους δούλεψαν όλο το καλοκαίρι"),
+  Q("Τι δείχνει κάθε πινακίδα;", ["Το ύψος του βουνού", "Την απόσταση και τον εκτιμώμενο χρόνο μέχρι τον επόμενο προορισμό", "Τα ονόματα των εθελοντών", "Τον καιρό της ημέρας"], 1, "Κάθε πινακίδα δείχνει την απόσταση και τον εκτιμώμενο χρόνο πεζοπορίας"),
+  Q("Τι ιδιαίτερο έχει ο διαδικτυακός χάρτης;", ["Κοστίζει λίγα ευρώ", "Λειτουργεί και χωρίς σήμα κινητού", "Δείχνει μόνο τα καταφύγια", "Είναι μόνο στα αγγλικά"], 1, "λειτουργεί και χωρίς σήμα κινητού"),
+  Q("Γιατί οι σύλλογοι ζητούν να μην ακολουθούν οι πεζοπόροι συντομεύσεις;", ["Γιατί είναι πιο μακριές", "Γιατί προκαλούν διάβρωση του εδάφους", "Γιατί περνούν από ιδιωτικά κτήματα", "Γιατί δεν έχουν σήμα"], 1, "γιατί προκαλούν διάβρωση του εδάφους"),
+ ],
+ "gloss": {"σήμανση": "σήμανση — waymarking, signage", "ορειβατικούς": "ορειβατικός — mountaineering (adj.)", "βάτα": "βάτος — bramble", "εκτιμώμενο": "εκτιμώμενος — estimated", "ψηφιοποιηθεί": "ψηφιοποιούμαι — to be digitised", "συντομεύσεις": "συντόμευση — shortcut", "διάβρωση": "διάβρωση — erosion"},
+})
+ITEMS.append({
+ "id": "l212-dia-vardia-paramoni", "title": "Ποιος θα δουλέψει την Παραμονή;", "title_en": "Who will work on Christmas Eve?", "type": "dialogue", "level": "B2",
+ "context_el": "Δύο υπάλληλοι της ρεσεψιόν ενός ξενοδοχείου στη Θεσσαλονίκη συζητούν για το πρόγραμμα των γιορτών.",
+ "script": [
+  L("Ηλέκτρα", "f", "Θοδωρή, βγήκε το πρόγραμμα του Δεκεμβρίου. Και οι δύο έχουμε βάρδια την Παραμονή των Χριστουγέννων το βράδυ, αλλά ο διευθυντής θέλει μόνο έναν. Πρέπει να συμφωνήσουμε μεταξύ μας.", "Thodoris, the December rota is out. We both have the evening shift on Christmas Eve, but the manager only wants one person. We have to agree between ourselves."),
+  L("Θοδωρής", "m", "Πέρσι τη δούλεψα εγώ, θυμάσαι; Οι γονείς μου έρχονται φέτος από τη Δράμα και θα ήθελα πολύ να είμαι σπίτι.", "I worked it last year, remember? My parents are coming from Drama this year and I'd really like to be at home."),
+  L("Ηλέκτρα", "f", "Το θυμάμαι, και έχεις δίκιο. Το πρόβλημα είναι ότι εγώ έχω ήδη κλείσει εισιτήρια για την Κρήτη στις είκοσι έξι. Αν δουλέψω την Παραμονή, θα βγω από τη βάρδια στις έντεκα το βράδυ και το αεροπλάνο φεύγει στις επτά το πρωί.", "I remember, and you're right. The problem is I've already booked tickets to Crete on the twenty-sixth. If I work on Christmas Eve, I'll come off shift at eleven at night and the plane leaves at seven in the morning."),
+  L("Θοδωρής", "m", "Αυτό δεν είναι πρόβλημα. Τα Χριστούγεννα και την επόμενη μέρα είσαι ελεύθερη. Πάντως, να σου πω, τι λες να τη μοιραστούμε; Εγώ από τις τρεις ως τις επτά και εσύ από τις επτά ως τις έντεκα.", "That's not a problem. You're free on Christmas Day and the day after. But, I'll tell you what, how about we split it? Me from three to seven and you from seven to eleven."),
+  L("Ηλέκτρα", "f", "Χμ, έτσι εσύ προλαβαίνεις το τραπέζι με τους γονείς σου κι εγώ δεν χάνω τίποτα σπουδαίο, γιατί οι δικοί μου θα είναι ήδη στην Κρήτη. Μου ακούγεται δίκαιο.", "Hmm, that way you make it to dinner with your parents and I don't miss anything important, because my family will already be in Crete. Sounds fair to me."),
+  L("Θοδωρής", "m", "Τέλεια. Το λέμε μαζί στον διευθυντή το πρωί, για να μη νομίσει ότι κάποιος από τους δύο αναγκάστηκε. Και την Πρωτοχρονιά τη δουλεύω εγώ ολόκληρη.", "Perfect. Let's tell the manager together in the morning, so he doesn't think one of us was forced into it. And I'll work the whole of New Year's Eve."),
+ ],
+ "questions": [
+  Q("Ποιο είναι το πρόβλημα με το πρόγραμμα;", ["Δεν έχουν καθόλου ρεπό", "Ο διευθυντής θέλει μόνο έναν από τους δύο την Παραμονή", "Το ξενοδοχείο κλείνει τα Χριστούγεννα", "Ο Θοδωρής είναι άρρωστος"], 1, "ο διευθυντής θέλει μόνο έναν"),
+  Q("Γιατί θέλει ο Θοδωρής να είναι σπίτι;", ["Έχει γενέθλια", "Έρχονται οι γονείς του από τη Δράμα", "Φεύγει για την Κρήτη", "Θα μετακομίσει"], 1, "Οι γονείς μου έρχονται φέτος από τη Δράμα"),
+  Q("Τι προτείνει τελικά ο Θοδωρής;", ["Να δουλέψει μόνο η Ηλέκτρα", "Να ζητήσουν άλλον υπάλληλο", "Να μοιραστούν τη βάρδια", "Να αλλάξει η Ηλέκτρα το εισιτήριο"], 2, "τι λες να τη μοιραστούμε;"),
+  Q("Γιατί θέλει ο Θοδωρής να μιλήσουν μαζί στον διευθυντή;", ["Για να μη νομίσει ότι κάποιος αναγκάστηκε", "Για να ζητήσουν αύξηση", "Γιατί ο διευθυντής είναι αυστηρός", "Για να πάρουν ρεπό την Πρωτοχρονιά"], 0, "για να μη νομίσει ότι κάποιος από τους δύο αναγκάστηκε"),
+ ],
+ "gloss": {"βάρδια": "βάρδια — shift", "Παραμονή": "Παραμονή (των Χριστουγέννων) — Christmas Eve", "μοιραστούμε": "μοιράζομαι — to share, split", "προλαβαίνεις": "προλαβαίνω — to make it in time", "δίκαιο": "δίκαιος — fair", "αναγκάστηκε": "αναγκάζομαι — to be forced", "Πρωτοχρονιά": "Πρωτοχρονιά — New Year's Day / New Year"},
+})
+ITEMS.append({
+ "id": "l212-c1-mono-paradoxo-fermi", "title": "«Πού είναι όλοι;» Το παράδοξο του Φέρμι", "title_en": "'Where is everybody?' The Fermi paradox", "type": "monologue", "level": "C1",
+ "context_el": "Ακούτε μια ομιλία σε έναν κύκλο διαλέξεων για την αστρονομία, που απευθύνεται στο ευρύ κοινό.",
+ "script": [
+  L("Ομιλήτρια", "f", "Το 1950, σε ένα μεσημεριανό γεύμα με συναδέλφους, ο φυσικός Ενρίκο Φέρμι φέρεται να έκανε μια φαινομενικά αφελή ερώτηση: «Πού είναι όλοι;». Αν ο γαλαξίας μας έχει εκατοντάδες δισεκατομμύρια άστρα, και πολλά από αυτά πλανήτες, και αν η ζωή δεν είναι κάτι εξαιρετικά σπάνιο, τότε κάποιος πολιτισμός θα έπρεπε να έχει ήδη απλωθεί στον γαλαξία. Κι όμως, δεν βλέπουμε κανένα ίχνος του.", "In 1950, at a lunch with colleagues, the physicist Enrico Fermi is said to have asked a seemingly naive question: 'Where is everybody?' If our galaxy has hundreds of billions of stars, many of them with planets, and if life is not something extremely rare, then some civilisation should already have spread across the galaxy. And yet we see no trace of one."),
+  L("Ομιλήτρια", "f", "Λίγα χρόνια αργότερα, ο αστρονόμος Φρανκ Ντρέικ διατύπωσε μια εξίσωση που πολλαπλασιάζει όλους τους παράγοντες: πόσα άστρα σχηματίζονται, πόσα έχουν πλανήτες σε κατοικήσιμη απόσταση, σε πόσους εμφανίζεται ζωή, σε πόσους ευφυής ζωή, και πόσο διαρκεί ένας τεχνολογικός πολιτισμός. Το πρόβλημα είναι ότι για τους περισσότερους παράγοντες δεν έχουμε ιδέα, οπότε το αποτέλεσμα μπορεί να κυμαίνεται από ένα μέχρι εκατομμύρια.", "A few years later, the astronomer Frank Drake formulated an equation that multiplies all the factors: how many stars form, how many have planets at a habitable distance, on how many life appears, on how many intelligent life, and how long a technological civilisation lasts. The problem is that for most factors we have no idea, so the result can range from one to millions."),
+  L("Ομιλήτρια", "f", "Οι απαντήσεις που έχουν προταθεί χωρίζονται χονδρικά σε τρεις κατηγορίες. Η πρώτη λέει ότι είμαστε πράγματι μόνοι ή σχεδόν μόνοι, επειδή κάποιο βήμα, ίσως η ίδια η εμφάνιση της ζωής, είναι απίστευτα δύσκολο· αυτό το βήμα ονομάζεται «Μεγάλο Φίλτρο». Η δεύτερη λέει ότι υπάρχουν, αλλά οι αποστάσεις είναι τεράστιες και τα σήματά τους δεν μας έχουν φτάσει ή δεν ξέρουμε να τα αναγνωρίσουμε.", "The answers proposed fall roughly into three categories. The first says that we really are alone or almost alone, because some step, perhaps the appearance of life itself, is incredibly difficult; that step is called the 'Great Filter'. The second says that they exist, but the distances are enormous and their signals haven't reached us or we don't know how to recognise them."),
+  L("Ομιλήτρια", "f", "Η τρίτη είναι η πιο ανησυχητική: ότι οι τεχνολογικοί πολιτισμοί δεν διαρκούν πολύ, επειδή καταστρέφουν τον εαυτό τους. Αν ισχύει αυτό, το Μεγάλο Φίλτρο δεν βρίσκεται πίσω μας αλλά μπροστά μας. Γι' αυτό, παραδόξως, κάποιοι επιστήμονες λένε ότι θα ήταν κακά νέα αν βρίσκαμε απλή ζωή στον Άρη: θα σήμαινε ότι η εμφάνιση της ζωής είναι εύκολη, και ότι το δύσκολο βήμα μάς περιμένει ακόμη.", "The third is the most disturbing: that technological civilisations don't last long, because they destroy themselves. If that holds, the Great Filter is not behind us but ahead of us. That is why, paradoxically, some scientists say it would be bad news if we found simple life on Mars: it would mean that the appearance of life is easy, and that the difficult step still awaits us."),
+ ],
+ "questions": [
+  Q("Τι εκφράζει η ερώτηση του Φέρμι;", ["Την απορία γιατί δεν βλέπουμε ίχνη άλλων πολιτισμών", "Την αμφιβολία του για την ύπαρξη άλλων πλανητών", "Την πεποίθησή του ότι η ζωή είναι πολύ σπάνια", "Μια κριτική για τους συναδέλφους του"], 0, "κάποιος πολιτισμός θα έπρεπε να έχει ήδη απλωθεί στον γαλαξία. Κι όμως, δεν βλέπουμε κανένα ίχνος του"),
+  Q("Ποιο είναι το πρόβλημα της εξίσωσης του Ντρέικ;", ["Είναι πολύ απλή", "Για τους περισσότερους παράγοντες δεν έχουμε ιδέα", "Δεν περιλαμβάνει τα άστρα", "Αποδείχθηκε λανθασμένη"], 1, "για τους περισσότερους παράγοντες δεν έχουμε ιδέα"),
+  Q("Τι είναι το «Μεγάλο Φίλτρο»;", ["Ένα τηλεσκόπιο", "Ένα βήμα που είναι απίστευτα δύσκολο να ξεπεραστεί", "Ένα σήμα από το διάστημα", "Μια μέθοδος για να βρίσκουμε πλανήτες"], 1, "κάποιο βήμα ... είναι απίστευτα δύσκολο· αυτό το βήμα ονομάζεται «Μεγάλο Φίλτρο»"),
+  Q("Γιατί θα ήταν «κακά νέα» να βρούμε απλή ζωή στον Άρη;", ["Γιατί θα ήταν επικίνδυνη για τους ανθρώπους", "Γιατί θα σήμαινε ότι το δύσκολο βήμα βρίσκεται μπροστά μας", "Γιατί θα σταματούσαν οι αποστολές", "Γιατί θα κόστιζε πολύ η μελέτη της"], 1, "θα σήμαινε ότι η εμφάνιση της ζωής είναι εύκολη, και ότι το δύσκολο βήμα μάς περιμένει ακόμη"),
+ ],
+ "gloss": {"παραδόξως": "παραδόξως — paradoxically", "φέρεται": "φέρεται να — is said to, reportedly", "αφελή": "αφελής — naive", "κατοικήσιμη": "κατοικήσιμος — habitable", "ευφυής": "ευφυής — intelligent", "κυμαίνεται": "κυμαίνομαι — to range, fluctuate", "χονδρικά": "χονδρικά — roughly", "ανησυχητική": "ανησυχητικός — worrying, disturbing"},
+})
+ITEMS.append({
+ "id": "l212-c1-int-exypna-korakia", "title": "Πόσο έξυπνα είναι τα κοράκια;", "title_en": "How clever are crows? A researcher on corvid intelligence", "type": "interview", "level": "C1",
+ "context_el": "Ακούτε μια συνέντευξη σε επιστημονική εκπομπή με μια ερευνήτρια που μελετά τη νοημοσύνη των κορακοειδών.",
+ "script": [
+  L("Δημοσιογράφος", "m", "Τα κοράκια δεν έχουν και την καλύτερη φήμη. Εσείς όμως λέτε ότι είναι από τα πιο έξυπνα ζώα. Πόσο έξυπνα;", "Crows don't have the best reputation. But you say they're among the cleverest animals. How clever?"),
+  L("Ερευνήτρια", "f", "Σε ορισμένες δοκιμασίες τα πάνε τόσο καλά όσο οι μεγάλοι πίθηκοι. Τα κοράκια της Νέας Καληδονίας, για παράδειγμα, κατασκευάζουν εργαλεία: λυγίζουν κλαδάκια σε σχήμα γάντζου για να βγάλουν έντομα από τις κουφάλες των δέντρων. Και κάτι ακόμα πιο εντυπωσιακό: σε πειράματα, κοράκια έριχναν πετραδάκια σε έναν σωλήνα με νερό, ώστε να ανέβει η στάθμη και να φτάσουν ένα κομμάτι φαγητό που επέπλεε.", "In some tests they do as well as the great apes. New Caledonian crows, for example, make tools: they bend twigs into hooks to pull insects out of tree hollows. And something even more impressive: in experiments, crows dropped pebbles into a tube of water so that the level would rise and they could reach a piece of floating food."),
+  L("Δημοσιογράφος", "m", "Σαν τον μύθο του Αισώπου με το διψασμένο κοράκι.", "Like Aesop's fable of the thirsty crow."),
+  L("Ερευνήτρια", "f", "Ακριβώς, γι' αυτό οι ερευνητές ονόμασαν έτσι το πείραμα. Ενδιαφέρουσα είναι και η μνήμη τους για πρόσωπα. Σε μια γνωστή μελέτη στις Ηνωμένες Πολιτείες, ερευνητές που φορούσαν μια συγκεκριμένη μάσκα έπιαναν κοράκια για να τα δακτυλιώσουν. Χρόνια αργότερα, τα κοράκια φώναζαν απειλητικά σε όποιον φορούσε την ίδια μάσκα, ακόμα και πουλιά που δεν είχαν πιαστεί ποτέ. Φαίνεται δηλαδή ότι η «κακή φήμη» ενός ανθρώπου μεταδίδεται.", "Exactly, that's why the researchers named the experiment after it. Their memory for faces is also interesting. In a well-known study in the United States, researchers wearing a particular mask caught crows to ring them. Years later, the crows called out threateningly at anyone wearing the same mask, even birds that had never been caught. So it seems a person's 'bad reputation' gets passed on."),
+  L("Δημοσιογράφος", "m", "Πώς εξηγείται αυτή η νοημοσύνη με έναν τόσο μικρό εγκέφαλο;", "How can such intelligence be explained with such a small brain?"),
+  L("Ερευνήτρια", "f", "Ο εγκέφαλος των πουλιών είναι μικρός, αλλά οι νευρώνες του είναι πολύ πυκνά συσκευασμένοι, οπότε σε σχέση με το μέγεθός του έχει εντυπωσιακά πολλούς. Επιπλέον, τα κορακοειδή ζουν σε πολύπλοκες κοινωνικές ομάδες και τρέφονται με πολύ ποικίλη τροφή, δύο συνθήκες που ευνοούν την ευελιξία. Αυτό που με διδάσκει η δουλειά μου είναι ότι η νοημοσύνη εξελίχθηκε περισσότερες από μία φορές, με διαφορετικούς δρόμους. Και να σας πω την αλήθεια, δεν περνάω ποτέ δίπλα από ένα κοράκι χωρίς να το χαιρετήσω.", "Birds' brains are small, but their neurons are very densely packed, so relative to its size it has impressively many. In addition, corvids live in complex social groups and eat a very varied diet, two conditions that favour flexibility. What my work teaches me is that intelligence evolved more than once, by different routes. And to tell you the truth, I never walk past a crow without greeting it."),
+ ],
+ "questions": [
+  Q("Τι κάνουν τα κοράκια της Νέας Καληδονίας;", ["Μιμούνται την ανθρώπινη φωνή", "Κατασκευάζουν εργαλεία από κλαδάκια", "Χτίζουν φωλιές στο έδαφος", "Κλέβουν τροφή από πιθήκους"], 1, "λυγίζουν κλαδάκια σε σχήμα γάντζου για να βγάλουν έντομα"),
+  Q("Γιατί τα κοράκια έριχναν πετραδάκια στον σωλήνα;", ["Για να παίξουν", "Για να ανέβει η στάθμη του νερού και να φτάσουν το φαγητό", "Για να σπάσουν τον σωλήνα", "Για να καθαρίσουν το νερό"], 1, "ώστε να ανέβει η στάθμη και να φτάσουν ένα κομμάτι φαγητό"),
+  Q("Τι έδειξε η μελέτη με τη μάσκα;", ["Ότι τα κοράκια φοβούνται όλους τους ανθρώπους", "Ότι τα κοράκια θυμούνται πρόσωπα και μεταδίδουν την «κακή φήμη»", "Ότι τα κοράκια δεν βλέπουν καλά", "Ότι οι μάσκες προστατεύουν τους ερευνητές"], 1, "τα κοράκια φώναζαν απειλητικά σε όποιον φορούσε την ίδια μάσκα, ακόμα και πουλιά που δεν είχαν πιαστεί ποτέ"),
+  Q("Πώς εξηγεί η ερευνήτρια τη νοημοσύνη των κορακοειδών, παρά τον μικρό εγκέφαλο;", ["Ο εγκέφαλός τους είναι στην πραγματικότητα μεγάλος", "Οι νευρώνες τους είναι πολύ πυκνά συσκευασμένοι", "Μαθαίνουν από τους ανθρώπους", "Κοιμούνται περισσότερο από άλλα πουλιά"], 1, "οι νευρώνες του είναι πολύ πυκνά συσκευασμένοι"),
+ ],
+ "gloss": {"κορακοειδών": "κορακοειδή — corvids (crows, ravens, jays)", "δοκιμασίες": "δοκιμασία — test, trial", "γάντζου": "γάντζος — hook", "κουφάλες": "κουφάλα — hollow (in a tree)", "στάθμη": "στάθμη — level", "επέπλεε": "επιπλέω — to float", "δακτυλιώσουν": "δακτυλιώνω — to ring (a bird)", "απειλητικά": "απειλητικά — threateningly", "συσκευασμένοι": "συσκευασμένος — packed", "ευελιξία": "ευελιξία — flexibility"},
+})
+rnd = random.Random(212)  # spread the right answers over the four positions (the page shows options in file order)
+for it in ITEMS:
+    for q in it["questions"]: rnd.shuffle(q["options"])
+for it in ITEMS:
+    for q in it["questions"]: assert q["answer"] in q["options"], (it["id"], q["q"])
+    for k in it["gloss"]:
+        if not (any(k in s["el"] for s in it["script"]) or k in it["context_el"]): raise SystemExit(f"gloss key not in text: {it['id']} {k}")
+root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+with open(os.path.join(root, "library", "listening", "listening-212.json"), "w", encoding="utf-8") as fh:
+    json.dump({"items": ITEMS}, fh, ensure_ascii=False, indent=1); fh.write("\n")
+print(len(ITEMS), "items,", sum(len(i["questions"]) for i in ITEMS), "questions")
