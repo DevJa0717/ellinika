@@ -1,0 +1,91 @@
+# Source for library/listening/listening-222.json: four more B2–C1 listening items (script + questions + gloss).
+# Build: python3 tools/listening/l222.py
+import json, os, random
+
+def L(sp, v, el, en): return {"speaker": sp, "voice": v, "el": el, "en": en}
+def Q(q, opts, ans, why): return {"q": q, "options": opts, "answer": opts[ans], "why": why}
+
+ITEMS = []
+ITEMS.append({
+ "id": "l222-news-katsikes-pyroprostasia", "title": "Κατσίκες στην πρώτη γραμμή της πυροπροστασίας", "title_en": "Goats on the front line of fire prevention", "type": "news", "level": "B2",
+ "context_el": "Ακούτε μια είδηση στο ραδιόφωνο για έναν ασυνήθιστο τρόπο πρόληψης των πυρκαγιών.",
+ "script": [
+  L("Εκφωνήτρια", "f", "Ένας δήμος της Αττικής δοκιμάζει φέτος έναν φθηνό και φυσικό τρόπο πρόληψης των πυρκαγιών: τις κατσίκες. Από τον Μάρτιο, τρία κοπάδια βόσκουν σε οικόπεδα και πλαγιές στα όρια του δάσους, εκεί όπου τα ξερά χόρτα και οι θάμνοι γίνονται κάθε καλοκαίρι εύκολη τροφή για τη φωτιά.", "A municipality in Attica is testing a cheap and natural way of preventing wildfires this year: goats. Since March, three herds have been grazing on plots and slopes at the edge of the forest, where dry grass and shrubs become easy fuel for fire every summer."),
+  L("Εκφωνήτρια", "f", "Ο δήμος πληρώνει τους κτηνοτρόφους για κάθε στρέμμα που καθαρίζουν τα ζώα τους. Σύμφωνα με τους υπεύθυνους, οι κατσίκες φτάνουν σε απότομα σημεία όπου τα μηχανήματα δεν μπορούν να μπουν, και τρώνε ακόμα και αγκαθωτούς θάμνους. Επιπλέον, το κόστος είναι μικρότερο από τον καθαρισμό με συνεργεία.", "The municipality pays the herders for every stremma their animals clear. According to those in charge, the goats reach steep spots where machines cannot go, and they eat even thorny shrubs. Moreover, the cost is lower than clearing with work crews."),
+  L("Εκφωνήτρια", "f", "Οι περιβαλλοντικές οργανώσεις χαιρετίζουν την πρωτοβουλία, αλλά προειδοποιούν ότι τα κοπάδια πρέπει να μετακινούνται συχνά, γιατί αλλιώς τρώνε και τα νεαρά δέντρα. Οι βοσκοί, από την πλευρά τους, λένε ότι για πρώτη φορά εδώ και χρόνια νιώθουν ότι η δουλειά τους εκτιμάται.", "Environmental organisations welcome the initiative but warn that the herds must be moved often, because otherwise they also eat the young trees. The shepherds, for their part, say that for the first time in years they feel their work is valued."),
+ ],
+ "questions": [
+  Q("Πού βόσκουν τα κοπάδια;", ["Στις παραλίες", "Σε οικόπεδα και πλαγιές στα όρια του δάσους", "Στα πάρκα της πόλης", "Στις αυλές των σχολείων"], 1, "βόσκουν σε οικόπεδα και πλαγιές στα όρια του δάσους"),
+  Q("Πώς πληρώνονται οι κτηνοτρόφοι;", ["Με έναν σταθερό μισθό", "Για κάθε στρέμμα που καθαρίζουν τα ζώα τους", "Με δωρεάν ζωοτροφές", "Δεν πληρώνονται"], 1, "Ο δήμος πληρώνει τους κτηνοτρόφους για κάθε στρέμμα που καθαρίζουν τα ζώα τους"),
+  Q("Ποιο πλεονέκτημα έχουν οι κατσίκες σε σχέση με τα μηχανήματα;", ["Δουλεύουν και τη νύχτα", "Φτάνουν σε απότομα σημεία όπου τα μηχανήματα δεν μπαίνουν", "Δεν χρειάζονται νερό", "Κόβουν και τα μεγάλα δέντρα"], 1, "οι κατσίκες φτάνουν σε απότομα σημεία όπου τα μηχανήματα δεν μπορούν να μπουν"),
+  Q("Τι προειδοποιούν οι περιβαλλοντικές οργανώσεις;", ["Ότι οι κατσίκες είναι επικίνδυνες για τους περιπατητές", "Ότι τα κοπάδια πρέπει να μετακινούνται συχνά, για να μην τρώνε τα νεαρά δέντρα", "Ότι το πρόγραμμα κοστίζει πολύ", "Ότι οι κατσίκες προκαλούν φωτιές"], 1, "τα κοπάδια πρέπει να μετακινούνται συχνά, γιατί αλλιώς τρώνε και τα νεαρά δέντρα"),
+ ],
+ "gloss": {"πρόληψης": "πρόληψη — prevention", "κοπάδια": "κοπάδι — herd, flock", "βόσκουν": "βόσκω — to graze", "θάμνοι": "θάμνος — shrub, bush", "κτηνοτρόφους": "κτηνοτρόφος — livestock farmer, herder", "στρέμμα": "στρέμμα — stremma (1,000 m²)", "αγκαθωτούς": "αγκαθωτός — thorny", "συνεργεία": "συνεργείο — work crew; garage", "χαιρετίζουν": "χαιρετίζω — to welcome, hail", "εκτιμάται": "εκτιμώ — to value, appreciate"},
+})
+ITEMS.append({
+ "id": "l222-dia-ios-me-tis-files", "title": "Θα την αφήσουμε να πάει στο νησί με τις φίλες της;", "title_en": "Shall we let her go to the island with her friends?", "type": "dialogue", "level": "B2",
+ "context_el": "Δύο γονείς συζητούν αν θα αφήσουν την κόρη τους να πάει διακοπές με τις φίλες της μετά τις Πανελλήνιες.",
+ "script": [
+  L("Μαρία", "f", "Η Ιωάννα με ρώτησε ξανά για το νησί. Θέλει να πάει μια εβδομάδα με τρεις φίλες της, μόλις τελειώσουν οι Πανελλήνιες. Της είπα ότι θα το συζητήσουμε απόψε.", "Ioanna asked me about the island again. She wants to go for a week with three friends as soon as the Panhellenic exams finish. I told her we'd discuss it tonight."),
+  L("Κώστας", "m", "Δεκαεπτά χρονών, Μαρία. Εγώ στα δεκαεπτά δεν πήγαινα ούτε στο διπλανό χωριό χωρίς τον πατέρα μου.", "She's seventeen, Maria. At seventeen I didn't even go to the next village without my father."),
+  L("Μαρία", "f", "Ναι, και στα δεκαοκτώ έφυγες για φοιτητής στην Ξάνθη και δεν ήξερες ούτε να βράσεις ένα αυγό. Καλύτερα να μάθει τώρα, που μπορούμε ακόμα να τη βοηθήσουμε από μακριά.", "Yes, and at eighteen you left to study in Xanthi and couldn't even boil an egg. Better she learns now, while we can still help her from a distance."),
+  L("Κώστας", "m", "Δεν φοβάμαι τόσο την Ιωάννα, όσο τα μαγαζιά και τα μηχανάκια. Πέρσι διάβασα για παιδιά που νοίκιασαν γουρούνες χωρίς δίπλωμα.", "I'm not so much afraid of Ioanna as of the bars and the scooters. Last year I read about kids who rented quad bikes without a licence."),
+  L("Μαρία", "f", "Τότε ας βάλουμε κανόνες. Θα μένουν σε ενοικιαζόμενα δωμάτια που ξέρουμε, όχι σε κάμπινγκ, θα μας παίρνει τηλέφωνο κάθε βράδυ, και μηχανάκι ή γουρούνα απαγορεύονται. Αν δεν τηρήσει τους κανόνες, γυρίζει με το πρώτο πλοίο.", "Then let's set rules. They'll stay in rooms we know, not at a campsite, she'll call us every evening, and scooters or quad bikes are forbidden. If she doesn't keep the rules, she comes back on the first boat."),
+  L("Κώστας", "m", "Και να μιλήσω πρώτα με τους γονείς των άλλων κοριτσιών. Αν συμφωνήσουν όλοι στους ίδιους κανόνες, εντάξει. Αλλά το λέω από τώρα: δεν θα κοιμηθώ καλά ούτε ένα βράδυ.", "And I'll talk to the other girls' parents first. If everyone agrees to the same rules, all right. But I'm saying it now: I won't sleep well a single night."),
+ ],
+ "questions": [
+  Q("Τι θέλει να κάνει η Ιωάννα;", ["Να δουλέψει σε ένα νησί το καλοκαίρι", "Να πάει μια εβδομάδα σε ένα νησί με τρεις φίλες της", "Να σπουδάσει στην Ξάνθη", "Να πάρει δίπλωμα για μηχανάκι"], 1, "Θέλει να πάει μια εβδομάδα με τρεις φίλες της"),
+  Q("Ποιο επιχείρημα χρησιμοποιεί η Μαρία για τον Κώστα;", ["Ότι κι εκείνος πήγαινε διακοπές μόνος του στα δεκαεπτά", "Ότι όταν έφυγε για σπουδές δεν ήξερε να φροντίζει τον εαυτό του", "Ότι όλες οι φίλες της Ιωάννας πηγαίνουν", "Ότι το νησί είναι κοντά"], 1, "στα δεκαοκτώ έφυγες για φοιτητής στην Ξάνθη και δεν ήξερες ούτε να βράσεις ένα αυγό"),
+  Q("Τι φοβάται κυρίως ο Κώστας;", ["Ότι η Ιωάννα δεν θα διαβάσει", "Τα μαγαζιά και τα μηχανάκια", "Τη θάλασσα", "Το κόστος του ταξιδιού"], 1, "Δεν φοβάμαι τόσο την Ιωάννα, όσο τα μαγαζιά και τα μηχανάκια"),
+  Q("Τι θα κάνει ο Κώστας πριν συμφωνήσει;", ["Θα πάει μαζί τους στο νησί", "Θα μιλήσει με τους γονείς των άλλων κοριτσιών", "Θα κλείσει ο ίδιος κάμπινγκ", "Θα ρωτήσει τον πατέρα του"], 1, "να μιλήσω πρώτα με τους γονείς των άλλων κοριτσιών"),
+ ],
+ "gloss": {"Πανελλήνιες": "Πανελλήνιες (εξετάσεις) — national university entrance exams", "γουρούνες": "γουρούνα — quad bike (colloquial; also 'sow')", "δίπλωμα": "δίπλωμα — (driving) licence; diploma", "ενοικιαζόμενα δωμάτια": "ενοικιαζόμενα δωμάτια — rooms to let", "τηρήσει": "τηρώ — to keep, observe (rules)", "απαγορεύονται": "απαγορεύομαι — to be forbidden"},
+})
+ITEMS.append({
+ "id": "l222-c1-mono-to-mati", "title": "«Φτου φτου»: το μάτι και το ξεμάτιασμα", "title_en": "'Ftou ftou': the evil eye and how it is lifted", "type": "monologue", "level": "C1",
+ "context_el": "Ακούτε ένα απόσπασμα από μια ραδιοφωνική εκπομπή για τις λαϊκές δοξασίες.",
+ "script": [
+  L("Ομιλητής", "m", "Αν παινέψετε ένα μωρό σε ένα ελληνικό σπίτι, μην εκπλαγείτε αν η γιαγιά κάνει «φτου, φτου» προς το μέρος του. Δεν πρόκειται για αγένεια, αλλά για προστασία από το «μάτι», τη δοξασία ότι ένα βλέμμα γεμάτο θαυμασμό ή φθόνο μπορεί να βλάψει, ακόμα και χωρίς να το θέλει αυτός που κοιτάζει.", "If you praise a baby in a Greek home, don't be surprised if grandmother goes 'ftou ftou' in its direction. It isn't rudeness but protection against 'the eye', the belief that a look full of admiration or envy can cause harm, even without the onlooker meaning it."),
+  L("Ομιλητής", "m", "Η πίστη αυτή είναι πανάρχαια. Οι αρχαίοι Έλληνες τη λέγανε «βασκανία», και ο Πλούταρχος αφιέρωσε ολόκληρη συζήτηση στο ερώτημα αν μπορεί πράγματι ένα βλέμμα να προκαλέσει κακό. Παρόμοιες δοξασίες υπάρχουν σε όλη τη Μεσόγειο και τη Μέση Ανατολή, και από εκεί προέρχεται το γνωστό γαλάζιο ματάκι, που κρεμιέται στα μωρά, στα αυτοκίνητα και στις πόρτες των μαγαζιών.", "This belief is ancient. The ancient Greeks called it 'vaskania', and Plutarch devoted a whole discussion to the question of whether a look can really cause harm. Similar beliefs exist throughout the Mediterranean and the Middle East, and that is where the well-known little blue eye comes from, hung on babies, in cars and on shop doors."),
+  L("Ομιλητής", "m", "Όσοι πιστεύουν ότι «ματιάστηκαν» περιγράφουν πονοκέφαλο, βάρος και συνεχή χασμουρητά. Για το ξεμάτιασμα, κάποιος που ξέρει τα σωστά λόγια ρίχνει σταγόνες λάδι σε ένα ποτήρι νερό και λέει χαμηλόφωνα μια ευχή. Αν το λάδι απλώσει, λένε, το μάτι ήταν ισχυρό. Κατά την παράδοση, τα λόγια περνούν μόνο από άντρα σε γυναίκα ή από γυναίκα σε άντρα, αλλιώς χάνουν τη δύναμή τους.", "Those who believe they have been 'given the eye' describe a headache, heaviness and constant yawning. To lift the eye, someone who knows the right words drops oil into a glass of water and quietly says a prayer. If the oil spreads, they say, the eye was strong. According to tradition, the words pass only from man to woman or from woman to man, otherwise they lose their power."),
+  L("Ομιλητής", "m", "Είναι όλα αυτά απλή δεισιδαιμονία; Ίσως. Κάτω όμως από τη δοξασία κρύβεται μια παλιά κοινωνική σοφία: ότι ο φθόνος υπάρχει, ότι η επίδειξη της ευτυχίας μπορεί να πληγώσει τους άλλους, και ότι καλό είναι να μιλάμε για τα αγαθά μας με κάποια μετριοφροσύνη.", "Is all this mere superstition? Perhaps. But beneath the belief lies an old social wisdom: that envy exists, that flaunting one's happiness can hurt others, and that it is wise to speak of our blessings with some modesty."),
+ ],
+ "questions": [
+  Q("Γιατί η γιαγιά κάνει «φτου, φτου» όταν κάποιος παινεύει ένα μωρό;", ["Από αγένεια", "Για να το προστατέψει από το «μάτι»", "Για να το κάνει να γελάσει", "Γιατί δεν της αρέσουν οι επισκέπτες"], 1, "Δεν πρόκειται για αγένεια, αλλά για προστασία από το «μάτι»"),
+  Q("Τι λέει ο ομιλητής για την ιστορία της δοξασίας;", ["Ότι εμφανίστηκε τον 19ο αιώνα", "Ότι είναι πανάρχαια· οι αρχαίοι Έλληνες τη λέγανε «βασκανία»", "Ότι υπάρχει μόνο στην Ελλάδα", "Ότι την έφεραν οι τουρίστες"], 1, "Η πίστη αυτή είναι πανάρχαια. Οι αρχαίοι Έλληνες τη λέγανε «βασκανία»"),
+  Q("Τι δείχνει, σύμφωνα με τη δοξασία, το λάδι που απλώνει στο νερό;", ["Ότι το μάτι ήταν ισχυρό", "Ότι ο άρρωστος έγινε καλά", "Ότι το νερό δεν ήταν καθαρό", "Ότι η ευχή ειπώθηκε λάθος"], 0, "Αν το λάδι απλώσει, λένε, το μάτι ήταν ισχυρό"),
+  Q("Ποια «κοινωνική σοφία» βλέπει ο ομιλητής πίσω από τη δοξασία;", ["Ότι πρέπει να αποφεύγουμε τους ξένους", "Ότι ο φθόνος υπάρχει και καλό είναι να μιλάμε για τα αγαθά μας με μετριοφροσύνη", "Ότι οι γιαγιάδες έχουν πάντα δίκιο", "Ότι τα μωρά χρειάζονται ησυχία"], 1, "ο φθόνος υπάρχει ... και ότι καλό είναι να μιλάμε για τα αγαθά μας με κάποια μετριοφροσύνη"),
+ ],
+ "gloss": {"παινέψετε": "παινεύω — to praise", "δοξασία": "δοξασία — (popular) belief", "φθόνο": "φθόνος — envy", "πανάρχαια": "πανάρχαιος — ancient, age-old", "βασκανία": "βασκανία — the evil eye (formal/ancient term)", "ματιάστηκαν": "ματιάζω — to cast the evil eye on", "ξεμάτιασμα": "ξεμάτιασμα — lifting the evil eye", "χαμηλόφωνα": "χαμηλόφωνα — in a low voice", "δεισιδαιμονία": "δεισιδαιμονία — superstition", "μετριοφροσύνη": "μετριοφροσύνη — modesty"},
+})
+ITEMS.append({
+ "id": "l222-c1-int-michanikos-siraggon", "title": "Μια μηχανικός που ανοίγει σήραγγες στα βουνά", "title_en": "An engineer who builds tunnels through mountains", "type": "interview", "level": "C1",
+ "context_el": "Μια πολιτική μηχανικός που εργάζεται στην κατασκευή οδικών σηράγγων μιλά σε μια ραδιοφωνική εκπομπή.",
+ "script": [
+  L("Δημοσιογράφος", "m", "Κυρία Ζαφειρίου, οι περισσότεροι από εμάς περνάμε μια σήραγγα σε ένα λεπτό και δεν σκεφτόμαστε τίποτα. Πώς ανοίγεται στην πραγματικότητα ένα βουνό;", "Ms Zafeiriou, most of us drive through a tunnel in a minute and don't think about anything. How is a mountain actually opened up?"),
+  L("Ζαφειρίου", "f", "Στα ελληνικά βουνά, τα πετρώματα αλλάζουν πολύ συχνά, γι’ αυτό συνήθως προχωράμε με διάτρηση και ανατινάξεις, λίγα μέτρα τη φορά. Ανοίγουμε τρύπες στο μέτωπο, τις γεμίζουμε με εκρηκτικά, ανατινάζουμε, απομακρύνουμε τα μπάζα και αμέσως στηρίζουμε το τοίχωμα με εκτοξευόμενο σκυρόδεμα και αγκύρια. Ύστερα ξανά από την αρχή. Σε καλό πέτρωμα μπορεί να προχωρήσουμε αρκετά μέτρα τη μέρα· σε κακό, κάποιες μέρες σχεδόν καθόλου.", "In Greek mountains the rock types change very often, so we usually advance by drilling and blasting, a few metres at a time. We drill holes in the face, fill them with explosives, blast, remove the rubble and immediately support the wall with sprayed concrete and rock bolts. Then we start again. In good rock we may advance several metres a day; in bad rock, on some days hardly at all."),
+  L("Δημοσιογράφος", "m", "Ποιο είναι το μεγαλύτερο απρόοπτο;", "What's the biggest surprise?"),
+  L("Ζαφειρίου", "f", "Το νερό. Οι γεωλογικές έρευνες σού δίνουν μια εικόνα, αλλά το βουνό πάντα κρατά κάποια μυστικά. Μια φορά συναντήσαμε μια ζώνη από σαθρό πέτρωμα γεμάτο νερό, και για εβδομάδες προχωρούσαμε με το ένα χέρι στο πόδι του σταθμού μέτρησης. Τέτοιες στιγμές μαθαίνεις να σέβεσαι τη φύση: δεν τη νικάς, συνεννοείσαι μαζί της.", "Water. Geological surveys give you a picture, but the mountain always keeps some secrets. Once we met a zone of crumbly rock full of water, and for weeks we advanced with one hand on the monitoring instruments. At such moments you learn to respect nature: you don't defeat it, you come to terms with it."),
+  L("Δημοσιογράφος", "m", "Είναι αλήθεια ότι στην είσοδο κάθε σήραγγας υπάρχει μια εικόνα της Αγίας Βαρβάρας;", "Is it true that at the entrance of every tunnel there is an icon of Saint Barbara?"),
+  L("Ζαφειρίου", "f", "Σε πολλά εργοτάξια, ναι. Η Αγία Βαρβάρα θεωρείται προστάτιδα όσων δουλεύουν με εκρηκτικά και κάτω από τη γη, και αυτή η παράδοση υπάρχει σε πολλές χώρες, όχι μόνο στην Ελλάδα. Δεν είναι θέμα δεισιδαιμονίας· είναι ένας τρόπος να θυμόμαστε ότι η δουλειά μας έχει κινδύνους και ότι όλοι πρέπει να γυρίσουν σπίτι τους το βράδυ. Και η πιο ωραία στιγμή στην καριέρα μου είναι πάντα η ίδια: όταν τα δύο συνεργεία, που σκάβουν από τις δύο πλευρές, συναντιούνται στη μέση και βλέπεις το φως από την άλλη μεριά.", "On many sites, yes. Saint Barbara is regarded as the protector of those who work with explosives and underground, and this tradition exists in many countries, not only in Greece. It's not a matter of superstition; it's a way of remembering that our work has risks and that everyone must get home in the evening. And the finest moment in my career is always the same: when the two crews, digging from the two sides, meet in the middle and you see the light from the other side."),
+ ],
+ "questions": [
+  Q("Γιατί στα ελληνικά βουνά χρησιμοποιούνται συνήθως διάτρηση και ανατινάξεις;", ["Γιατί είναι ο πιο γρήγορος τρόπος παντού", "Γιατί τα πετρώματα αλλάζουν πολύ συχνά", "Γιατί απαγορεύονται τα μεγάλα μηχανήματα", "Γιατί κοστίζουν λιγότερο από όλους τους άλλους τρόπους"], 1, "τα πετρώματα αλλάζουν πολύ συχνά, γι’ αυτό συνήθως προχωράμε με διάτρηση και ανατινάξεις"),
+  Q("Τι γίνεται αμέσως μετά την απομάκρυνση των μπάζων;", ["Στρώνεται άσφαλτος", "Το τοίχωμα στηρίζεται με εκτοξευόμενο σκυρόδεμα και αγκύρια", "Τοποθετούνται φώτα", "Γίνεται γεωλογική έρευνα"], 1, "αμέσως στηρίζουμε το τοίχωμα με εκτοξευόμενο σκυρόδεμα και αγκύρια"),
+  Q("Ποιο είναι, κατά την κ. Ζαφειρίου, το μεγαλύτερο απρόοπτο;", ["Οι σεισμοί", "Το νερό", "Οι απεργίες", "Τα αρχαία ευρήματα"], 1, "Το νερό"),
+  Q("Πώς εξηγεί την εικόνα της Αγίας Βαρβάρας στα εργοτάξια;", ["Ως υποχρέωση από τον νόμο", "Ως δεισιδαιμονία που δεν έχει νόημα", "Ως τρόπο να θυμούνται τους κινδύνους και ότι όλοι πρέπει να γυρίσουν σπίτι", "Ως διακόσμηση για τους επισκέπτες"], 2, "είναι ένας τρόπος να θυμόμαστε ότι η δουλειά μας έχει κινδύνους και ότι όλοι πρέπει να γυρίσουν σπίτι τους"),
+ ],
+ "gloss": {"πετρώματα": "πέτρωμα — rock (type)", "διάτρηση": "διάτρηση — drilling", "ανατινάξεις": "ανατίναξη — blasting", "μέτωπο": "μέτωπο — (tunnel) face; forehead; front", "μπάζα": "μπάζα — rubble, debris", "εκτοξευόμενο σκυρόδεμα": "εκτοξευόμενο σκυρόδεμα — sprayed concrete, shotcrete", "αγκύρια": "αγκύριο — rock bolt, anchor", "απρόοπτο": "απρόοπτο — unforeseen event", "σαθρό": "σαθρός — crumbly, unsound", "προστάτιδα": "προστάτιδα — patron saint, protector (f.)", "δεισιδαιμονίας": "δεισιδαιμονία — superstition"},
+})
+
+rnd = random.Random(222)  # spread the right answers over the four positions (the page shows options in file order)
+for it in ITEMS:
+    for q in it["questions"]: rnd.shuffle(q["options"])
+for it in ITEMS:
+    for q in it["questions"]: assert q["answer"] in q["options"], (it["id"], q["q"])
+    for k in it["gloss"]:
+        if not (any(k in s["el"] for s in it["script"]) or k in it["context_el"]): raise SystemExit(f"gloss key not in text: {it['id']} {k}")
+root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+with open(os.path.join(root, "library", "listening", "listening-222.json"), "w", encoding="utf-8") as fh:
+    json.dump({"items": ITEMS}, fh, ensure_ascii=False, indent=1); fh.write("\n")
+print(len(ITEMS), "items,", sum(len(i["questions"]) for i in ITEMS), "questions")
