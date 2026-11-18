@@ -7,35 +7,35 @@ SRC = "Πρωτότυπο κείμενο για μαθητές"
 T = []
 
 # ---------- Reading 1: gap-fill with phrases ----------
-r1_text = """Στα Τρίκαλα, οι μαθητές ενός γυμνασίου [0] αγαπούν τη βιολογία έφτιαξαν σαράντα ξύλινα σπιτάκια για νυχτερίδες.
-Η ιδέα ήταν μιας καθηγήτριας, [1] διδακτορική διατριβή αφορούσε τις νυχτερίδες της Θεσσαλίας.
-Στο πρόγραμμα συμμετείχαν [2] εξήντα παιδιά, [3] χωρίστηκαν σε ομάδες.
-Τα σπιτάκια [4] σε δέντρα και τοίχους κοντά στον ποταμό Ληθαίο. Κάθε ομάδα [5] τρία σπιτάκια, [6] καταγράφει ποια χρησιμοποιούνται.
-Τα αποτελέσματα δεν ήταν αμέσως ενθαρρυντικά· [7], κανένα σπιτάκι δεν είχε ένοικο για δύο μήνες. Η μεγαλύτερη έκπληξη ήταν ένα σπιτάκι, [8] βρέθηκαν πάνω από τριάντα νυχτερίδες.
-Η καθηγήτρια θέλει [9] αλλάξουν οι μαθητές γνώμη για τα ζώα αυτά, που συχνά τα φοβόμαστε άδικα. Ένας μαθητής λέει ότι οι νυχτερίδες είναι περισσότερο χρήσιμες [10] επικίνδυνες, αφού τρώνε πολλά κουνούπια.
-Το πρόγραμμα θα συνεχιστεί και του χρόνου, [11] βρεθεί χρηματοδότηση. Οι μαθητές ετοιμάζουν ήδη έναν οδηγό για άλλα σχολεία, [12] θα εξηγούν πώς φτιάχνεται ένα σπιτάκι."""
+r1_text = """Στο Ναύπλιο, οι μαθητές ενός λυκείου [0] ζουν στην παλιά πόλη αποφάσισαν να καθαρίσουν τους τοίχους της από τα συνθήματα.
+Η ιδέα ήταν μιας καθηγήτριας, [1] οικογένεια έχει ένα παλιό αρχοντικό στο κέντρο.
+Στη δράση συμμετείχαν [2] εξήντα παιδιά, [3] χωρίστηκαν σε ομάδες.
+Πρώτα [4] ταμπέλες σε κάθε δρόμο, για να ενημερωθούν οι κάτοικοι. Κάθε ομάδα [5] έναν δρόμο, [6] καθαρίζει αμέσως κάθε καινούργιο σύνθημα.
+Τα αποτελέσματα δεν ήταν αμέσως ενθαρρυντικά· [7], μέσα σε μία εβδομάδα οι μισοί τοίχοι είχαν ξαναγεμίσει. Η μεγαλύτερη έκπληξη ήταν ένα εγκαταλελειμμένο σπίτι, [8] βρέθηκαν παλιές εφημερίδες του 1930.
+Η καθηγήτρια θέλει [9] καταλάβουν οι μαθητές ότι η πόλη ανήκει σε όλους. Ένας μαθητής λέει ότι ο καθαρισμός ήταν περισσότερο διασκεδαστικός [10] κουραστικός.
+Η δράση θα συνεχιστεί και του χρόνου, [11] βρεθούν χρήματα για τα υλικά. Οι μαθητές ετοιμάζουν ήδη έναν οδηγό για άλλα σχολεία, [12] θα εξηγούν πώς καθαρίζεται σωστά ένας παλιός πέτρινος τοίχος."""
 r1_ans = ["που", "της οποίας η", "περισσότερα από", "τα οποία", "τοποθετήθηκαν", "παρακολουθεί",
           "ώστε να", "για την ακρίβεια", "μέσα στο οποίο", "να", "παρά", "αρκεί να", "στον οποίο"]
 r1_dis = ["του οποίου η", "περισσότεροι από", "οι οποίοι", "τοποθετήθηκε", "παρακολουθούν", "επομένως"]
-r1_notes = {1: "Possessive, feminine owner «μιας καθηγήτριας», with feminine «διατριβή»: της οποίας η.",
+r1_notes = {1: "Possessive, feminine owner «μιας καθηγήτριας», with feminine «οικογένεια»: της οποίας η.",
             2: "Neuter plural, agreeing with «παιδιά»: περισσότερα από εξήντα.",
             3: "Neuter plural «παιδιά», subject of «χωρίστηκαν»: τα οποία.",
-            4: "Plural passive, the subject is «Τα σπιτάκια»: τοποθετήθηκαν (were placed).",
+            4: "Plural passive, the subject is «ταμπέλες»: τοποθετήθηκαν (were put up).",
             5: "Singular, the subject is «Κάθε ομάδα»: παρακολουθεί.",
             6: "Purpose + subjunctive «καταγράφει»: ώστε να.",
             7: "Makes the previous statement more precise: για την ακρίβεια (not «επομένως», which states a result).",
-            8: "Neuter singular «ένα σπιτάκι», with «μέσα σε» (inside which): μέσα στο οποίο.",
+            8: "Neuter singular «ένα εγκαταλελειμμένο σπίτι», with «μέσα σε» (inside which): μέσα στο οποίο.",
             9: "After «θέλει» + subjunctive «αλλάξουν»: να.",
-            10: "Comparison between two adjectives («χρήσιμες … επικίνδυνες»): παρά.",
+            10: "Comparison between two adjectives («διασκεδαστικός … κουραστικός»): παρά.",
             11: "Condition + subjunctive «βρεθεί»: as long as: αρκεί να.",
             12: "Masculine singular «έναν οδηγό», with «σε» (in which): στον οποίο."}
 opts = sorted(set(r1_ans + r1_dis))
 T.append({"id": "b2-p206-reading-1", "paper": P + "Κατανόηση γραπτού λόγου, Ερώτημα 1 (6 μονάδες; 12 κενά × 0,5)",
  "task_type": "gap-fill with phrases (12 gaps + example, 6 distractors) — distractors test ο οποίος, voice and number",
- "instructions_el": "Ένας φίλος σας γράφει ένα άρθρο για μαθητές που έφτιαξαν σπιτάκια για νυχτερίδες, αλλά δεν είναι σίγουρος για κάποιες φράσεις. Διαλέξτε τη λέξη/φράση που ταιριάζει σε κάθε κενό, όπως στο παράδειγμα. Οι λέξεις/φράσεις που θα επιλέξετε είναι ΔΩΔΕΚΑ (12) χωρίς το παράδειγμα. Υπάρχουν έξι λέξεις/φράσεις που δεν ταιριάζουν σε κανένα κενό.",
- "title": "Σπιτάκια για νυχτερίδες", "text_el": r1_text, "text_source": SRC, "example": {"gap": 0, "answer": r1_ans[0]},
+ "instructions_el": "Ένας φίλος σας γράφει ένα άρθρο για μαθητές που καθαρίζουν τους τοίχους της πόλης τους, αλλά δεν είναι σίγουρος για κάποιες φράσεις. Διαλέξτε τη λέξη/φράση που ταιριάζει σε κάθε κενό, όπως στο παράδειγμα. Οι λέξεις/φράσεις που θα επιλέξετε είναι ΔΩΔΕΚΑ (12) χωρίς το παράδειγμα. Υπάρχουν έξι λέξεις/φράσεις που δεν ταιριάζουν σε κανένα κενό.",
+ "title": "Μαθητές καθαρίζουν τους τοίχους της παλιάς πόλης", "text_el": r1_text, "text_source": SRC, "example": {"gap": 0, "answer": r1_ans[0]},
  "questions": [dict({"prompt": f"Κενό [{i}]", "options": opts, "answer": r1_ans[i]}, **({"answer_note": r1_notes[i]} if i in r1_notes else {})) for i in range(1, 13)],
- "answer_note": "Example: που (pupils who love biology). Traps: [1] της οποίας η; [3] neuter τα οποία; [8] μέσα στο οποίο; [2] neuter περισσότερα από; [4] plural τοποθετήθηκαν; [5] singular παρακολουθεί.",
+ "answer_note": "Example: που (pupils who live in the old town). Traps: [1] της οποίας η; [3] neuter τα οποία; [8] μέσα στο οποίο; [2] neuter περισσότερα από; [4] plural τοποθετήθηκαν; [5] singular παρακολουθεί.",
  "source_url": ""})
 
 # ---------- Reading 2: multiple choice ----------
@@ -185,7 +185,7 @@ for t in T:
         for q in t["questions"]:
             assert any(re.search(r"(^|\s)" + q["answer"] + r"(\s|$)", l) for l in t["text_el"].split("\n")), q["answer"]
 root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-out = {"description": "Β2 exam practice, set 206 (Πιστοποίηση Ελληνομάθειας Β2, ΚΕΓ format), same schema as b2-tasks-4.json: Β2 practice set 206: pupils in Trikala building bat boxes, a young shepherdess in the Agrafa mountains, a first choir rehearsal, the Euripus strait, a letter to a hotel about a broken air conditioner, and an extra drill on the verb ακούω.",
+out = {"description": "Β2 exam practice, set 206 (Πιστοποίηση Ελληνομάθειας Β2, ΚΕΓ format), same schema as b2-tasks-4.json: Β2 practice set 206: pupils in Nafplio cleaning slogans off the old town walls, a young shepherdess in the Agrafa mountains, a first choir rehearsal, the Euripus strait, a letter to a hotel about a broken air conditioner, and an extra drill on the verb ακούω.",
        "rights": "Tasks b2-p206-*: original texts and items written for this learner (personal study use).", "tasks": T}
 with open(os.path.join(root, "library", "exam", "b2-tasks-198.json"), "w", encoding="utf-8") as fh:
     json.dump(out, fh, ensure_ascii=False, indent=1); fh.write("\n")
