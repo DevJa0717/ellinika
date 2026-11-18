@@ -42,25 +42,25 @@ T.append({"id": "c1-p192-reading-1", "paper": P + "Κατανόηση γραπτ
  "questions": gaps("", 1, 10, opts, r1_ans, r1_notes), "source_url": ""})
 
 # ---------- Reading 2 ----------
-r2_text = """[0] Ο κυρ-Μιχάλης ανέβαινε κάθε βράδυ στο μικρό δωμάτιο πάνω από την τελευταία σειρά καθισμάτων, μια ώρα πριν πέσει ο ήλιος. Εκεί τον περίμεναν δύο μηχανές προβολής, μεγάλες σαν ατμομηχανές, που τις γυάλιζε σαν να ήταν δικές του.
-[1] Ήξερε κάθε ταινία απέξω. Από τη μικρή θυρίδα όμως δεν κοίταζε ποτέ την οθόνη· κοίταζε τα πρόσωπα των θεατών, και από τα γέλια ή τη σιωπή τους καταλάβαινε αν η μπομπίνα είχε μπει σωστά.
-[2] Μια νύχτα του Αυγούστου η ταινία κόπηκε στη μέση ενός φιλιού. Ο κόσμος σφύριζε και χτυπούσε τα πόδια. Ο κυρ-Μιχάλης κόλλησε το φιλμ με χέρια που έτρεμαν, και όταν το φιλί ξαναφάνηκε, το σινεμά χειροκρότησε σαν να είχε γυρίσει ο ίδιος την ταινία.
-[3] Τα παιδιά της γειτονιάς σκαρφάλωναν στον τοίχο της διπλανής αυλής για να βλέπουν τζάμπα. Ο ιδιοκτήτης ήθελε να τα διώξει, αλλά ο κυρ-Μιχάλης έστρεφε λίγο τη μηχανή, ώστε η οθόνη να φαίνεται καλύτερα από τον τοίχο.
-[4] Όταν ήρθαν οι ψηφιακοί προβολείς, οι παλιές μηχανές κατέβηκαν στην αποθήκη. Ο καινούργιος προβολέας δουλεύει μόνος του· ο κυρ-Μιχάλης πατάει ένα κουμπί και μετά κάθεται στην τελευταία σειρά, σαν απλός θεατής.
-[5] Το τελευταίο βράδυ της σεζόν ζήτησε να προβάλει μια παλιά ταινία με τη δική του μηχανή. Οι θεατές ήταν λίγοι, αλλά όταν άναψαν τα φώτα, βρήκαν όλοι στη θέση τους ένα κομματάκι φιλμ, σαν εισιτήριο για μια ταινία που δεν θα ξαναπαιχτεί."""
-r2_heads = ["Ένα δωμάτιο πάνω από τα καθίσματα", "Τα πρόσωπα αντί για την οθόνη", "Το φιλί που κόπηκε",
-            "Θεατές πάνω στον τοίχο", "Ένα κουμπί για όλα", "Ένα κομμάτι φιλμ για ενθύμιο"]
-r2_dis = ["Η πρεμιέρα στην πρωτεύουσα", "Μια βροχερή βραδιά", "Ο ιδιοκτήτης πουλάει το σινεμά"]
-r2_notes = {1: "He never watches the screen, only the audience's faces, to tell if the reel is right.",
-            2: "The film breaks mid-kiss; he splices it with trembling hands and the audience applauds.",
-            3: "Children watch free from a wall; he angles the projector so they can see better.",
-            4: "The digital projector needs only a button; he sits in the back row like any viewer.",
-            5: "On the last night everyone finds a piece of film on their seat, like a ticket."}
+r2_text = """[0] Το περίπτερο της κυρα-Ρήνης ήταν στη γωνία της πλατείας από τότε που θυμόμουν τον εαυτό μου. Ήταν τόσο γεμάτο εφημερίδες, τσιγάρα και καραμέλες, που εκείνη φαινόταν μόνο από τους ώμους και πάνω, σαν να ήταν κι αυτή εμπόρευμα.
+[1] Ήξερε τι διάβαζε όλη η γειτονιά. Στον συνταξιούχο του τρίτου ορόφου κρατούσε κάθε πρωί την ίδια εφημερίδα, και στη φοιτήτρια της απέναντι πολυκατοικίας ένα περιοδικό για το σινεμά, πριν καν εκείνη της το ζητήσει.
+[2] Τα παιδιά πήγαιναν για τσίχλες με αυτοκόλλητα. Η κυρα-Ρήνη τους έδινε πάντα ένα παραπάνω, «για τον αδελφό σου», ακόμα κι όταν ήξερε πολύ καλά ότι δεν είχαν αδελφό.
+[3] Το τηλέφωνο του περιπτέρου ήταν για χρόνια το μόνο της γειτονιάς. Όταν κάποιος τηλεφωνούσε από τη Γερμανία, η κυρα-Ρήνη έστελνε ένα παιδί να φωνάξει τη μάνα του, και ο ξενιτεμένος περίμενε στη γραμμή, πληρώνοντας ακριβά κάθε λεπτό σιωπής.
+[4] Όταν ήρθαν τα κινητά και τα σούπερ μάρκετ, το περίπτερο άδειασε σιγά σιγά. Η κυρα-Ρήνη άρχισε να πουλάει κάρτες για το κινητό και μπαταρίες, αλλά οι πελάτες δεν κοντοστέκονταν πια να πουν δυο κουβέντες.
+[5] Τη μέρα που έκλεισε, κόλλησε στο τζάμι ένα χαρτί: «Ευχαριστώ για σαράντα χρόνια. Τα ρέστα σας τα χρωστάω». Κανείς δεν κατάλαβε τι εννοούσε, ώσπου ο συνταξιούχος του τρίτου είπε ότι μάλλον μιλούσε για τις κουβέντες."""
+r2_heads = ["Μια γυναίκα ανάμεσα στα εμπορεύματα", "Ήξερε τι θα ζητήσεις", "Ένα αυτοκόλλητο για τον αδελφό",
+            "Ένα τηλεφώνημα από τα ξένα", "Πελάτες χωρίς κουβέντα", "Ένα χαρτί στο τζάμι"]
+r2_dis = ["Η κλοπή του περιπτέρου", "Ένα ταξίδι στη Γερμανία", "Η νέα άδεια του δήμου"]
+r2_notes = {1: "She keeps each neighbour's paper or magazine ready before they ask.",
+            2: "She gives children an extra sticker gum 'for your brother', even when they have none.",
+            3: "The kiosk phone was the only one; emigrants in Germany waited on the line while a child fetched their mother.",
+            4: "Mobiles and supermarkets empty the kiosk; customers no longer stop to chat.",
+            5: "On closing day she sticks a note on the glass: she 'owes them their change'."}
 h = r2_heads + r2_dis; rnd.shuffle(h)
 T.append({"id": "c1-p192-reading-2", "paper": P + "Κατανόηση γραπτού λόγου, Ερώτημα 2 (5 μονάδες)",
  "task_type": "match headings to paragraphs of a literary extract (5 + example, 3 distractors)",
  "instructions_el": "Έχετε βρει ένα λογοτεχνικό απόσπασμα σε μια συλλογή διηγημάτων και θέλετε να δώσετε έναν τίτλο σε κάθε μία από τις παραγράφους του κειμένου. Υπάρχουν ΤΡΕΙΣ (3) τίτλοι που δεν ταιριάζουν σε καμία παράγραφο.",
- "title": "Ο μηχανικός προβολής του θερινού σινεμά (λογοτεχνικό απόσπασμα)", "text_el": r2_text, "text_source": "Πρωτότυπο λογοτεχνικό κείμενο για μαθητές (πρακτική Γ1)",
+ "title": "Το περίπτερο της κυρα-Ρήνης (λογοτεχνικό απόσπασμα)", "text_el": r2_text, "text_source": "Πρωτότυπο λογοτεχνικό κείμενο για μαθητές (πρακτική Γ1)",
  "example": {"paragraph": 0, "answer": r2_heads[0]},
  "questions": [{"prompt": f"Παράγραφος {i}", "options": h, "answer": r2_heads[i], "answer_note": r2_notes[i]} for i in range(1, 6)], "source_url": ""})
 
@@ -192,7 +192,7 @@ for t in T:
     if t["id"].endswith("use-4"):
         for w in [ex["answer"]] + [q["answer"] for q in t["questions"]]:
             assert w in t["text_el"], w
-out = {"description": "Γ1 exam practice, set 192 (Πιστοποίηση Ελληνομάθειας Γ1, ΚΕΓ format), same schema as the c1-p3-* tasks in c1-tasks.json: an article on the Byzantine historian Anna Komnene, a literary extract about a summer-cinema projectionist, an article on tree rings with a summary gap-fill, two texts on the writer Dimitris Chatzis (error spotting and phrase gaps) and two on Methoni (word formation and definitions).",
+out = {"description": "Γ1 exam practice, set 192 (Πιστοποίηση Ελληνομάθειας Γ1, ΚΕΓ format), same schema as the c1-p3-* tasks in c1-tasks.json: an article on the Byzantine historian Anna Komnene, a literary extract about a neighbourhood kiosk, an article on tree rings with a summary gap-fill, two texts on the writer Dimitris Chatzis (error spotting and phrase gaps) and two on Methoni (word formation and definitions).",
        "rights": "Tasks c1-p192-*: original texts and items written for this learner (personal study use).", "tasks": T}
 p = os.path.join(os.path.dirname(__file__), "..", "..", "library", "exam", "c1-tasks-190.json")
 with open(p, "w", encoding="utf-8") as fh:
