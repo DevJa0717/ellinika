@@ -1,0 +1,237 @@
+# In-app extras for Σιγανή φωτιά: an English rendering of every paragraph (hidden until tapped)
+# and three comprehension questions per story. Keys: "lead", "s01".."s17", "part2".
+# Questions: (question, [options], answer, why)
+
+EN = {
+"lead": [
+ "Marco is forty-one and works as an architect in Bologna. He is big and sturdily built, with a thick beard and an easy smile. He loves cooking, laughs often and loudly, and can never sit still. His friends describe him as a bear: big, hairy and affectionate. After a long relationship that ended badly, he stopped looking for love, convinced by now that it would never come again.",
+ "Davide is fifty-three and lives in the countryside, in Tuscany, where he makes wine. He has a silver beard, wears glasses and has that calm of someone who has learned to wait. He speaks softly, chooses his words, observes. He has been a widower for a few years, and since then he has withdrawn a little into himself, among his vines and his books.",
+ "The two meet by chance one Saturday in September, at a tasting in Davide’s cellar. Neither of them is looking for anything. And yet, as happens in the loveliest stories, we find exactly when we are not looking.",
+],
+"s01": [
+ "The cellar was cool and smelled of wood and must. Marco wandered among the barrels with his glass in his hand, absent-minded, until he raised his eyes and met Davide’s.",
+ "It was a moment, but it was enough. Davide was looking at him with a calm that was not shyness but attention: as if he were reading, line by line, something written on his face. Marco felt the heat rise to his cheeks and pretended to concentrate on the wine.",
+ "“Swirl it,” said Davide, coming closer. “Like this. Feel how it changes.” He took his hand for a moment, only to guide the movement of the glass, and that touch, light as a feather, set Marco’s skin on fire.",
+ "They talked for a long time, while the other guests left one after another. They talked about wine, about loneliness, about the city and the countryside. Davide’s voice was low and warm, and Marco found he was hanging on his every word without even having realised it.",
+ "When the cellar emptied, a different silence fell, dense. Davide filled the two glasses again, slowly, without taking his eyes off him.",
+ "“It’s getting late,” murmured Marco, without moving. “I know,” replied Davide. “Stay a little longer.”",
+ "And Marco stayed.",
+],
+"s02": [
+ "As soon as the last guest had gone, only silence and the sweet smell of must were left in the cellar. Davide set the bottle down on the counter, slowly, and for a moment neither of them knew what to say.",
+ "It was Marco who made the first move, he who for years had not made any. He came closer with the glass still in his hand, his heart pounding up into his throat, and stopped a breath away from the other man’s face.",
+ "“May I?” he asked quietly. Davide did not answer in words. He raised his hand, gently stroked his beard with his fingers and gave the slightest nod.",
+ "The kiss was slow, careful, like everything Davide did. It tasted of wine and earth, of a patience years long. Marco closed his eyes and felt the cool shadow of the cellar close around them like a seal.",
+ "When they drew apart, they stayed forehead to forehead, breathing the same breath. “I wasn’t looking for anything,” murmured Marco. “I know,” said Davide. “Neither was I. That’s why it’s all right like this.”",
+],
+"s03": [
+ "It was the first time Davide had come up to Bologna. Marco was waiting for him at the station, hands in his pockets, nervous as a teenager on his first date, and when he saw him arrive he burst into one of those far-too-loud laughs that came out of him when he was happy.",
+ "He took him under the porticoes, those kilometres of red arches that shelter the city from sun and rain. They walked slowly, with nowhere to go, while Marco pointed out the buildings and told their stories, and Davide listened with that half-smile of someone who looks more at the person talking than at what he is being shown.",
+ "At some point their hands brushed, by chance, then again, no longer by chance. Marco hesitated for a moment: among the crowd, in broad daylight, he felt he was still a boy who doesn’t know whether he’s allowed. Then he felt Davide’s fingers intertwine with his, firm and calm, and his embarrassment melted into a smile.",
+ "“You have a beautiful city,” said Davide. “Now,” replied Marco, “it seems more beautiful to me too.”",
+ "They walked like that until evening, hand in hand, amid the laughter and the hubbub of the crowd: two big men, no longer young, learning, however late, something simple, how to stand beside someone without being afraid any more.",
+],
+"s04": [
+ "The storm came suddenly, the way they come in summer, while they had gone up to a terrace on the top floor to gaze at the rooftops. Within a few minutes the sky darkened and the rain began to fall thick on the red tiles.",
+ "Marco opened the only umbrella he had, far too small for two men of their size, and laughing they squeezed in underneath, shoulder to shoulder, their feet already soaked. In the distance, beyond the shining roofs, the city’s two towers could be seen, crooked and faithful for a thousand years.",
+ "And it was there, under that ridiculous shelter, with the water drumming around them, that Davide kissed him. He said nothing; he took him by the nape of the neck and kissed him, and Marco let himself go, eyes closed, while the rain kept pouring down.",
+ "It was a stolen kiss, the kind you don’t plan, brief and sudden like the storm. When it ended, they stood looking at each other, wet and happy, and neither of them thought any more about taking shelter.",
+],
+"s05": [
+ "Davide hardly ever left his vines, let alone without warning. So that afternoon, when he knocked at the office door, Marco looked up from his drawing board sure it was a client.",
+ "But it was him, standing on the threshold, with a basket full of country treats in his hand and the slightly sheepish look of someone who has just done something crazy. “I was passing by,” he said, although Tuscany was two hours away and nobody passes by there by chance.",
+ "Marco said nothing. He stood up, crossed the room and hugged him tight, his face pressed to his shoulder, while outside the window the city’s towers stood out against the late-afternoon sun. He felt his heart beating uncontrollably and, for once, he was not ashamed of it.",
+ "Davide was not a man of grand speeches. He spoke little, chose his words, let his gestures do the talking. And that journey, made only to see him, in the middle of the week, for no real reason, was the greatest declaration of love he had ever made him.",
+],
+"s06": [
+ "Marco cooked the way he loved: loudly, with his whole body, messing up half the kitchen and laughing at his own disasters. That evening he was rolling out pasta, and for the first time Davide was beside him, sleeves rolled up, his hands white with flour.",
+ "They worked close together, first in silence and then chatting, while on the stove a pot of sauce simmered. They drank Davide’s wine and little by little, as happens when hands are busy and eyes can rest, the old stories began to come out.",
+ "Marco talked about the relationship that had ended badly, about how he had stopped believing in love. Davide talked about his wife, about the years of mourning, about the long silence he had shut himself away in. These were things each of them had kept to himself for a long time, and which now, between the flour and the wine, seemed lighter to say.",
+ "“I thought some stories you don’t tell anyone any more,” said Marco. Davide wiped a smudge of flour from his cheek with his thumb. “And yet,” he replied, “you do. You just have to find the right person in the kitchen.”",
+ "They ate late that evening, and neither of them minded.",
+],
+"s07": [
+ "It was one of those summer nights when the air never cools down completely. They had eaten on the beach, alone, and now the sea was calling them, black and glittering under the moon.",
+ "Davide was the first to undress, with the ease of a man who no longer has anything to hide. Marco followed him, a little clumsily, laughing to cover his embarrassment, and together they ran into the lukewarm water.",
+ "They swam, splashed each other, laughed like children. Then, little by little, the laughter faded. They found themselves close, the water up to their chests, their bodies a few centimetres from each other. Marco could count the drops sliding down Davide’s silver beard.",
+ "Neither of them was speaking. Davide raised his hand and brushed his cheek, then the nape of his neck. Marco closed his eyes. When their mouths met it was slow, very slow: a kiss made of salt, of warmth and of all the time they had lost before they met.",
+ "Marco’s arms wrapped around the other man’s broad shoulders; he felt Davide’s warm chest against his own, his heartbeat quickening. The sea rocked them gently, indifferent and complicit.",
+ "“It’s been a long time since I felt like this,” whispered Marco against his lips. “Then we have no more time to waste,” replied Davide.",
+ "And under the moon the water went on holding them, while the night, discreet, kept the rest to itself.",
+],
+"s08": [
+ "Marco hurt his back unloading the crates of grapes, with his usual drive of a man who wants to do everything at once and on his own. He held back and did not complain, but Davide noticed, the way he always noticed everything.",
+ "He had him lie down on the bed, tenderly lifted his T-shirt and placed an ice pack on the spot that hurt. He knelt beside him, his hands big and calm, and began to press gently, here and there, looking for the spot.",
+ "Marco, who was used to managing on his own, tensed up at first. He did not know how to let himself be cared for; he had never learned. But under those patient fingers, little by little, something in him surrendered. He closed his eyes and let go, and it was like setting down a weight he had carried for years.",
+ "There was nothing fiery in those gestures, and yet he had rarely felt so close to another man. He understood, in that moment, that mutual care could be more intimate than burning desire: less spectacular, but much harder to allow.",
+ "“Are you feeling better?” asked Davide. “I’m fine,” replied Marco. And for once it was true in every sense.",
+],
+"s09": [
+ "In Florence it was raining softly, a fine rain that caresses more than it wets. They had eaten late and now they were walking along the Arno, under the same umbrella, in no hurry to go back.",
+ "The lights of the Ponte Vecchio trembled on the dark water, yellow and warm, and the few passers-by hurried off, sheltering as best they could. Marco and Davide, by contrast, stopped right in the middle of the riverbank, as if for them the rain were a reason to stay rather than to leave.",
+ "Davide straightened the collar of his coat with an absent-minded gesture, the kind you make only for someone you have known forever. “When I was young,” he said, “I would have been in a hurry. To arrive, to decide, to be somewhere else already.” “And now?” asked Marco. Davide smiled. “Now I’m in no hurry at all. And I regret nothing.”",
+ "They stayed a little longer looking at the river, holding each other tight, while the old city shone in the rain. They had lost many years, it’s true. But precisely because of that they knew how to recognise, when it came along, a moment that should not go to waste.",
+],
+"s10": [
+ "It was a quiet afternoon, the kind that is in no hurry to end. They were sitting in the shade of the vines, in Davide’s vineyard, with an open book on their knees and two glasses of wine beside them.",
+ "They had set up a little game: in turn they would read a word and try to say another that resembled it, until the language became a field to wander through with no aim. Marco, who always rushed with words, was learning from Davide to weigh them, to let them rest before he spoke them.",
+ "But the vocabulary they were building that afternoon was not in any dictionary. It was their own: the names they had invented for little things, the phrases that meant something only between the two of them, the way “are you tired?” could mean “stay”. It was the vocabulary of tenderness, and that you learn only with time.",
+ "“I’m sorry I met you so late,” Marco said at one point. Davide closed the book, unhurried. “Don’t be sorry,” he replied. “The time we lacked before is exactly what teaches us not to waste the time we have now.”",
+ "The sun was slowly sinking over the rows of vines. There was nothing to do, nothing to reach. For the first time in years, Marco did not feel the need to rush anywhere.",
+],
+"s11": [
+ "Marco woke as the morning light was already coming through the shutters, painting golden stripes on the sheet. For a moment he did not move: he only wanted to listen to the slow, steady breathing of the man sleeping beside him.",
+ "Davide was sleeping face down, one arm flung across Marco’s chest and his beard pressed against his shoulder. Marco watched the other man’s chest rise and fall, the eyelashes trembling faintly in his sleep, and felt something warm and calm spread inside him.",
+ "It was no longer the burning desire of the first nights; or rather, it was not only that. It was something deeper: the certainty, simple and immense, that he was exactly where he was meant to be.",
+ "He brushed Davide’s forehead with his lips; Davide stirred, mumbled something unintelligible and, without opening his eyes, held him tighter. “It’s early,” he murmured in the husky voice of waking. “Stay here.”",
+ "Marco smiled. How many times, alone, had he imagined a morning like this, without believing it would ever happen to him? He curled up against that warm, sturdy body, closed his eyes and let sleep take him again.",
+ "Outside, the bells of a Tuscan village began to ring. Inside, two men no longer young, and for that very reason happy, went on sleeping in each other’s arms, while the light climbed slowly over their intertwined bodies.",
+],
+"s12": [
+ "They got up early, before the sun was even fully up, and went out into the vineyard while the air was still cool and the grass wet with dew. At the far end of the rows the sky was slowly brightening, from grey to pink, and a distant rainbow hung over the hills.",
+ "Davide stretched out his arm and pointed to the spot where the vineyard ended and the woods began. “There,” he said, “one day I’d like to plant some more. It will take me years to see the first wine.” He did not say it sadly but as a plan: he spoke of years as of something he now took for granted.",
+ "Marco understood that inside that “it will take me years” another conversation was hidden. Davide was not a man who shouts promises to the sky. He said “I’ll plant” and meant “I’ll stay”. He said “we’ll see the wine” and meant “we’ll see it together”.",
+ "He leaned on his shoulder, watching the rows of vines fade into the light. They did not need big words about the future. They would make it the way good wine is made: without haste, with care, on a low flame.",
+ "The sun rose fully, and the vineyard in front of them lit up all gold.",
+],
+"part2": [
+ "This volume was meant to end like this, with two men and a rainbow. But true stories, like vines, never grow entirely straight.",
+ "When Marco began designing the restoration of Davide’s old farmhouse, a third man came to put the beams and barrels back in shape: Stefano, carpenter and cooper, who had come up from the South for a few months’ work. He had a dark beard, broad hands and the habit of singing while he worked. He stayed for the job; then he stayed for them.",
+ "There are three of them now: Marco from Emilia, the man of words; Davide from Tuscany, the man of silences; Stefano from the South, the man of hands. In the stories that follow, love does not split into two smaller halves: it simply finds more room. These are stories of three men learning, together, a new geometry: where to stand, how to make room, when to keep quiet and when to speak.",
+ "The tone stays the same as before, sensual and tender, never vulgar. Only the number changes.",
+],
+"s13": [
+ "Stefano had gone back to the village for the night, and for the first time in weeks the house was once again theirs alone. Marco and Davide went down to the river that ran along the edge of the estate, where the water stayed cold even in summer.",
+ "Marco went in first, an old rainbow flag still thrown over his shoulders like a cloak, and shivered, laughing. Davide followed more slowly, a towel in his hand, ready as always to cover him as soon as he came out.",
+ "For a while they said nothing. Then Marco, looking at the water and not at the other man, said what had been weighing on his chest for days. “When Stefano sings in the evenings, something happens to me. And I’m afraid.”",
+ "Davide was not flustered. “What are you afraid of?” “Of wanting too much. Of taking something away from you, if I want him too.” He had been left once, and since then he had reckoned love as something that runs out if you share it.",
+ "Davide put the towel over his wet shoulders and held him there, close to him. “I don’t feel you smaller since he came,” he said. “I feel you wider. Maybe the heart isn’t a bottle that empties. Maybe it’s more like a vineyard: the more shoots it has, the more grapes it gives.”",
+ "Marco looked at him, and in that look he understood that they were not asking anyone’s permission, and that neither of them wanted to pretend any more. The water flowed away, cold and indifferent, carrying something old along with it.",
+ "“Then you tell him,” murmured Marco. “No,” replied Davide, with that half-smile of his. “We’ll tell him together.”",
+],
+"s14": [
+ "The evening they became three was not decided in words. It simply came, the way real things come, amid the lime and the smell of new wood, in the studio that was still half-finished.",
+ "They had eaten late, all three of them, and Stefano had sung an old song from his part of the country, the kind that speaks of the sea and of being far from home. When he stopped, a different silence remained, dense, that nobody wanted to break.",
+ "It was Stefano who opened his arms, simply, the way you open them to someone you have always loved. Marco leaned into him, and Davide behind him, and for a moment they did not know how to arrange themselves: three bodies do not fit together the way two do.",
+ "Then their arms found their places, one on a shoulder, one around a waist, one on the other’s chest, and that new geometry, awkward and tender, stopped being a problem to solve. Marco’s forehead against Davide’s; Stefano’s dark beard pressed to the nape of both their necks.",
+ "Nobody said “I love you”, because it would have been too little, or too half. They simply held one another, while from the wall the flag, hung on the bare plaster, watched them like a small window of colour.",
+ "Marco, who had always been afraid of being left, realised that there, held tight between two men, there was no room for that fear. They were three. And for that very reason, strangely, he felt safer than ever.",
+],
+"s15": [
+ "Marco woke as the light came in at a slant through the farmhouse window, and for a moment he could not tell which of the two breaths beside him belonged to whom.",
+ "Davide was sleeping in the middle, on his back, serene as always; Stefano had laid an arm across him, dark against the pale skin, and his broad hand rested open on Marco’s chest, as if he wanted to keep all three of them still inside the same dream.",
+ "Three breaths, ever so slightly out of step, filled the room: one slow and deep, one shorter, one that every so often stopped and started again. Marco listened to them for a long time, and it seemed to him the simplest and fullest music he had ever heard.",
+ "He thought of how afraid he had been, at the river, of having to divide something. And yet that morning nobody was missing anything. On the contrary: there was one more breath, one more hand, one more warmth.",
+ "Stefano stirred without waking, mumbled something in his southern dialect and held both of them a little tighter. Davide opened just one eye, smiled at Marco over the other man’s shoulder, and went back to sleep.",
+ "Outside, on the newly restored estate, a day of grape harvest was beginning. Inside, three men no longer young, and for that very reason happy, allowed themselves a few more minutes before the light called all three of them to work.",
+],
+"s16": [
+ "There was one thing people always asked first when they found out about the three of them: what about jealousy? Stefano had wondered too, at the start, until one September afternoon he got the answer among the vines.",
+ "Davide and Marco were standing beside a basket brimming with black grapes. Davide had taken Marco’s face in his hands, stained with must, and was kissing him, slowly, with that familiar calm of his, without noticing anything else.",
+ "Stefano, a few steps away, stopped to watch them. He waited inside himself for the pang he thought he would feel, the jealous knot in his stomach. It did not come.",
+ "What came instead, unexpectedly, was a broad tenderness, almost moved: the beauty of two men who had loved each other since before him, and who went on loving each other beside him, without taking anything away from him. Seeing Davide happy in Marco’s arms did not make him feel left out. It made him feel at home.",
+ "He understood then something simple, which sounds like little when you say it and is immense when you live it: love that you watch is not love lost. There was enough for Davide and Marco, there was some for him too, and it was enough for everyone, like good wine that, the more you pour, the more it seems to multiply in the glasses.",
+ "When they noticed him, they did not pull apart in embarrassment. Marco held out his hand, drew him into the embrace, and the kiss, from a thing of two, became a thing of three.",
+],
+"s17": [
+ "The harvest found them ready. For weeks they had worked side by side: Marco redoing the walls and the plans of the farmhouse, Stefano putting the beams back up and building new barrels, and Davide watching his vines the way you watch a child about to leave home.",
+ "That morning all three went down into the vineyard, each with his basket, and began cutting the bunches under a freshly washed sky. Marco laughed too loudly, as always; Stefano sang; Davide, in the middle, kept quiet and smiled, which was his own way of singing.",
+ "They filled basket after basket, hands sticky and purple and backs stiff, and they had never felt so good. There was a simplicity in that work done by three that was worth more than a thousand conversations about love.",
+ "In the evening they carried the grapes to the restored cellar, where Stefano’s new barrels were waiting, fragrant with fresh wood. On the last one, the biggest, Stefano had burned three letters with a hot iron, side by side: M, D, S.",
+ "Davide ran a finger over the initials, slowly, as if to make sure they were real. “Well, it’s official,” said Marco. Stefano laughed: “Where I come from, in the South, when you write something on wood, it never comes off.”",
+ "They toasted with last year’s wine, the three of them, while the first must began its long, patient work. The future, the way they liked it, would come on a low flame.",
+],
+}
+
+Q = {
+"lead": [
+ ("Γιατί είχε σταματήσει ο Μάρκο να ψάχνει τον έρωτα;", ["Επειδή δούλευε πολύ", "Ύστερα από μια σχέση που τελείωσε άσχημα", "Επειδή ζούσε στην εξοχή"], "Ύστερα από μια σχέση που τελείωσε άσχημα", "«Ύστερα από μια μακρά σχέση που τελείωσε άσχημα, σταμάτησε να ψάχνει τον έρωτα.»"),
+ ("Τι δουλειά κάνει ο Νταβίντε;", ["Είναι αρχιτέκτονας", "Φτιάχνει κρασί", "Είναι μάγειρας"], "Φτιάχνει κρασί", "Ζει στην Τοσκάνη, «όπου φτιάχνει κρασί»."),
+ ("Πού γνωρίζονται;", ["Σε μια γευσιγνωσία στο κελάρι του Νταβίντε", "Στον σταθμό της Μπολόνιας", "Σε μια παραλία"], "Σε μια γευσιγνωσία στο κελάρι του Νταβίντε", "«…σε μια γευσιγνωσία στο κελάρι του Νταβίντε.»"),
+],
+"s01": [
+ ("Πώς κοίταζε ο Νταβίντε τον Μάρκο;", ["Με συστολή", "Με ηρεμία και προσοχή", "Με θυμό"], "Με ηρεμία και προσοχή", "«…μια ηρεμία που δεν ήταν συστολή αλλά προσοχή.»"),
+ ("Γιατί έπιασε ο Νταβίντε το χέρι του Μάρκο;", ["Για να του πάρει το ποτήρι", "Για να καθοδηγήσει την κίνηση του ποτηριού", "Για να τον χαιρετήσει"], "Για να καθοδηγήσει την κίνηση του ποτηριού", "«…μόνο για να καθοδηγήσει την κίνηση του ποτηριού.»"),
+ ("Τι κάνει ο Μάρκο στο τέλος;", ["Φεύγει βιαστικά", "Μένει", "Αγοράζει κρασί"], "Μένει", "«Κι ο Μάρκο έμεινε.»"),
+],
+"s02": [
+ ("Ποιος έκανε το πρώτο βήμα;", ["Ο Νταβίντε", "Ο Μάρκο", "Ένας καλεσμένος"], "Ο Μάρκο", "«Ο Μάρκο ήταν αυτός που έκανε το πρώτο βήμα.»"),
+ ("Πώς απάντησε ο Νταβίντε στο «Μπορώ;»;", ["Με λόγια", "Με ένα ελάχιστο νεύμα", "Δεν απάντησε καθόλου"], "Με ένα ελάχιστο νεύμα", "«Ο Νταβίντε δεν απάντησε με λόγια… κι έγνεψε ελάχιστα.»"),
+ ("Τι γεύση είχε το φιλί;", ["Κρασιού και χώματος", "Αλατιού", "Καφέ"], "Κρασιού και χώματος", "«Είχε γεύση κρασιού και χώματος.»"),
+],
+"s03": [
+ ("Πώς ένιωθε ο Μάρκο στον σταθμό;", ["Βαριεστημένος", "Νευρικός σαν έφηβος", "Θυμωμένος"], "Νευρικός σαν έφηβος", "«…νευρικός σαν έφηβος στο πρώτο του ραντεβού.»"),
+ ("Τι κάνουν οι στοές της Μπολόνιας;", ["Προστατεύουν από τον ήλιο και τη βροχή", "Οδηγούν στον σταθμό", "Είναι κλειστές για τον κόσμο"], "Προστατεύουν από τον ήλιο και τη βροχή", "«…κόκκινες καμάρες που προστατεύουν την πόλη από τον ήλιο και τη βροχή.»"),
+ ("Γιατί δίστασε ο Μάρκο;", ["Επειδή ήταν μέσα στον κόσμο, στο φως της μέρας", "Επειδή έβρεχε", "Επειδή είχε αργήσει"], "Επειδή ήταν μέσα στον κόσμο, στο φως της μέρας", "«…μέσα στον κόσμο, στο φως της μέρας, του φαινόταν πως ήταν ακόμα ένα αγόρι…»"),
+],
+"s04": [
+ ("Γιατί ήταν «γελοίο» το καταφύγιό τους;", ["Η ομπρέλα ήταν πολύ μικρή για δύο μεγαλόσωμους άντρες", "Η ταράτσα δεν είχε στέγη", "Η ομπρέλα ήταν σπασμένη"], "Η ομπρέλα ήταν πολύ μικρή για δύο μεγαλόσωμους άντρες", "«…πολύ μικρή για δύο άντρες του δικού τους μεγέθους.»"),
+ ("Τι φαινόταν στο βάθος;", ["Η θάλασσα", "Οι δύο πύργοι της πόλης", "Τα αμπέλια"], "Οι δύο πύργοι της πόλης", "«…φαίνονταν οι δύο πύργοι της πόλης, στραβοί και πιστοί…»"),
+ ("Τι είδους φιλί ήταν;", ["Προγραμματισμένο", "Κλεμμένο, σύντομο και ξαφνικό", "Μακρύ και σιωπηλό"], "Κλεμμένο, σύντομο και ξαφνικό", "«Ήταν ένα κλεμμένο φιλί… σύντομο και ξαφνικό σαν την καταιγίδα.»"),
+],
+"s05": [
+ ("Ποιον περίμενε να δει ο Μάρκο στην πόρτα;", ["Τον Νταβίντε", "Κάποιον πελάτη", "Τον ταχυδρόμο"], "Κάποιον πελάτη", "«…σίγουρος ότι ήταν κάποιος πελάτης.»"),
+ ("Γιατί το «Περνούσα από δω» δεν ήταν αλήθεια;", ["Η Τοσκάνη ήταν δύο ώρες δρόμος", "Ο Νταβίντε δεν ήξερε τον δρόμο", "Το γραφείο ήταν κλειστό"], "Η Τοσκάνη ήταν δύο ώρες δρόμος", "«…η Τοσκάνη ήταν δύο ώρες δρόμος και κανείς δεν περνάει από κει τυχαία.»"),
+ ("Τι σήμαινε για τον Μάρκο αυτό το ταξίδι;", ["Μια επαγγελματική επίσκεψη", "Τη μεγαλύτερη ερωτική εξομολόγηση του Νταβίντε", "Ένα αστείο"], "Τη μεγαλύτερη ερωτική εξομολόγηση του Νταβίντε", "«…ήταν η μεγαλύτερη ερωτική εξομολόγηση που του είχε κάνει ποτέ.»"),
+],
+"s06": [
+ ("Πώς μαγείρευε ο Μάρκο;", ["Ήσυχα και τακτικά", "Δυνατά, με όλο του το σώμα", "Μόνο με συνταγές"], "Δυνατά, με όλο του το σώμα", "«Ο Μάρκο μαγείρευε όπως αγαπούσε: δυνατά, με όλο του το σώμα.»"),
+ ("Για τι μίλησε ο Νταβίντε;", ["Για τη γυναίκα του και το πένθος", "Για την καριέρα του", "Για ένα ταξίδι"], "Για τη γυναίκα του και το πένθος", "«Ο Νταβίντε μίλησε για τη γυναίκα του, για τα χρόνια του πένθους…»"),
+ ("Τι χρειάζεται, κατά τον Νταβίντε, για να πεις τις παλιές ιστορίες;", ["Πολύ κρασί", "Τον σωστό άνθρωπο μέσα στην κουζίνα", "Πολύ χρόνο"], "Τον σωστό άνθρωπο μέσα στην κουζίνα", "«Αρκεί να βρεις τον σωστό άνθρωπο μέσα στην κουζίνα.»"),
+],
+"s07": [
+ ("Ποιος γδύθηκε πρώτος;", ["Ο Μάρκο", "Ο Νταβίντε", "Μπήκαν και οι δύο ντυμένοι"], "Ο Νταβίντε", "«Πρώτος γδύθηκε ο Νταβίντε.»"),
+ ("Πώς ήταν το νερό;", ["Παγωμένο", "Χλιαρό", "Ταραγμένο"], "Χλιαρό", "«…μαζί έτρεξαν στο χλιαρό νερό.»"),
+ ("Τι απάντησε ο Νταβίντε στο «Είχα καιρό να νιώσω έτσι»;", ["«Κι εγώ το ίδιο»", "«Τότε δεν έχουμε άλλο χρόνο για χάσιμο»", "«Ας γυρίσουμε»"], "«Τότε δεν έχουμε άλλο χρόνο για χάσιμο»", "Ο Νταβίντε απαντά ότι δεν έχουν άλλο χρόνο για χάσιμο."),
+],
+"s08": [
+ ("Πώς χτύπησε ο Μάρκο;", ["Πέφτοντας στη θάλασσα", "Ξεφορτώνοντας τα τελάρα με τα σταφύλια", "Τρέχοντας"], "Ξεφορτώνοντας τα τελάρα με τα σταφύλια", "«Ο Μάρκο χτύπησε τη μέση του ξεφορτώνοντας τα τελάρα…»"),
+ ("Τι δεν ήξερε να κάνει ο Μάρκο;", ["Να μαγειρεύει", "Να αφήνεται στη φροντίδα κάποιου", "Να κολυμπά"], "Να αφήνεται στη φροντίδα κάποιου", "«Δεν ήξερε να αφήνεται στη φροντίδα κάποιου.»"),
+ ("Τι κατάλαβε ο Μάρκο για την αμοιβαία φροντίδα;", ["Ότι είναι πιο εύκολη από τον πόθο", "Ότι μπορεί να είναι πιο ενδόμυχη από τον πόθο", "Ότι δεν έχει σημασία"], "Ότι μπορεί να είναι πιο ενδόμυχη από τον πόθο", "«…μπορούσε να είναι πιο ενδόμυχη από τον φλογερό πόθο.»"),
+],
+"s09": [
+ ("Τι βροχή έπεφτε στη Φλωρεντία;", ["Δυνατή καταιγίδα", "Ψιλή βροχή", "Χαλάζι"], "Ψιλή βροχή", "«…μια ψιλή βροχή που περισσότερο χαϊδεύει παρά βρέχει.»"),
+ ("Τι έκαναν οι περαστικοί;", ["Σταματούσαν να κοιτάξουν το ποτάμι", "Έτρεχαν να φύγουν", "Χόρευαν"], "Έτρεχαν να φύγουν", "«…οι λιγοστοί περαστικοί έτρεχαν να φύγουν…»"),
+ ("Τι έχει αλλάξει στον Νταβίντε από τότε που ήταν νέος;", ["Δεν βιάζεται πια", "Βιάζεται περισσότερο", "Δεν του αρέσει η βροχή"], "Δεν βιάζεται πια", "«Τώρα δεν βιάζομαι πια καθόλου.»"),
+],
+"s10": [
+ ("Ποιο ήταν το παιχνίδι τους;", ["Να μεταφράζουν λέξεις", "Να λένε μια λέξη που μοιάζει με αυτή που διάβασαν", "Να γράφουν ποιήματα"], "Να λένε μια λέξη που μοιάζει με αυτή που διάβασαν", "«…προσπαθούσαν να πουν μια άλλη που να της μοιάζει.»"),
+ ("Τι μπορούσε να σημαίνει το «κουράστηκες;»;", ["«Πήγαινε για ύπνο»", "«Μείνε»", "«Φύγε»"], "«Μείνε»", "«…ο τρόπος που το «κουράστηκες;» μπορούσε να σημαίνει «μείνε».»"),
+ ("Τι μας μαθαίνει ο χρόνος που έλειψε, κατά τον Νταβίντε;", ["Να μη σπαταλάμε τον τωρινό", "Να βιαζόμαστε", "Να ξεχνάμε"], "Να μη σπαταλάμε τον τωρινό", "«…μας μαθαίνει να μη σπαταλάμε τον τωρινό.»"),
+],
+"s11": [
+ ("Τι ήθελε να κάνει ο Μάρκο όταν ξύπνησε;", ["Να σηκωθεί αμέσως", "Να ακούει την ανάσα του Νταβίντε", "Να φτιάξει καφέ"], "Να ακούει την ανάσα του Νταβίντε", "«…ήθελε μόνο να ακούει την αργή, κανονική ανάσα…»"),
+ ("Τι είπε ο Νταβίντε μισοκοιμισμένος;", ["«Είναι αργά»", "«Είναι νωρίς. Μείνε εδώ.»", "«Σήκω»"], "«Είναι νωρίς. Μείνε εδώ.»", "«Είναι νωρίς… Μείνε εδώ.»"),
+ ("Τι ακούστηκε έξω;", ["Οι καμπάνες ενός χωριού", "Η βροχή", "Ένα αυτοκίνητο"], "Οι καμπάνες ενός χωριού", "«…οι καμπάνες ενός χωριού της Τοσκάνης άρχισαν να χτυπούν.»"),
+],
+"s12": [
+ ("Τι θέλει να κάνει μια μέρα ο Νταβίντε;", ["Να πουλήσει το αμπέλι", "Να φυτέψει κι άλλο στην άκρη του δάσους", "Να μετακομίσει"], "Να φυτέψει κι άλλο στην άκρη του δάσους", "«Εκεί… μια μέρα θα ήθελα να φυτέψω κι άλλο.»"),
+ ("Τι εννοούσε ο Νταβίντε λέγοντας «θα φυτέψω»;", ["«Θα φύγω»", "«Θα μείνω»", "«Θα πουλήσω»"], "«Θα μείνω»", "«Έλεγε «θα φυτέψω» κι εννοούσε «θα μείνω».»"),
+ ("Πώς θα έφτιαχναν το μέλλον;", ["Βιαστικά", "Σε σιγανή φωτιά, όπως το καλό κρασί", "Με μεγάλα σχέδια"], "Σε σιγανή φωτιά, όπως το καλό κρασί", "«Θα το έφτιαχναν όπως φτιάχνεται το καλό κρασί… σε σιγανή φωτιά.»"),
+],
+"s13": [
+ ("Πού ήταν ο Στέφανο εκείνη τη νύχτα;", ["Στο ποτάμι", "Στο χωριό", "Στη Μπολόνια"], "Στο χωριό", "«Ο Στέφανο είχε γυρίσει στο χωριό για τη νύχτα.»"),
+ ("Τι φοβόταν ο Μάρκο;", ["Το κρύο νερό", "Μήπως στερήσει κάτι από τον Νταβίντε αν θέλει κι εκείνον", "Μήπως φύγει ο Στέφανο"], "Μήπως στερήσει κάτι από τον Νταβίντε αν θέλει κι εκείνον", "«Μήπως σου στερήσω κάτι, αν θέλω κι εκείνον.»"),
+ ("Με τι μοιάζει η καρδιά, κατά τον Νταβίντε;", ["Με μπουκάλι που αδειάζει", "Με αμπέλι", "Με ποτάμι"], "Με αμπέλι", "«Ίσως μοιάζει περισσότερο με αμπέλι.»"),
+],
+"s14": [
+ ("Πώς αποφασίστηκε ότι θα γίνουν τρεις;", ["Με μια μεγάλη συζήτηση", "Δεν αποφασίστηκε με λόγια, ήρθε απλώς", "Με ένα γράμμα"], "Δεν αποφασίστηκε με λόγια, ήρθε απλώς", "«Το βράδυ που έγιναν τρεις δεν αποφασίστηκε με λόγια.»"),
+ ("Ποιος άνοιξε πρώτος την αγκαλιά του;", ["Ο Στέφανο", "Ο Μάρκο", "Ο Νταβίντε"], "Ο Στέφανο", "«Ο Στέφανο ήταν εκείνος που άνοιξε την αγκαλιά του.»"),
+ ("Γιατί κανείς δεν είπε «σ’ αγαπώ»;", ["Επειδή ντρέπονταν", "Επειδή θα ήταν πολύ λίγο, ή πολύ μισό", "Επειδή κοιμούνταν"], "Επειδή θα ήταν πολύ λίγο, ή πολύ μισό", "«…γιατί θα ήταν πολύ λίγο, ή πολύ μισό.»"),
+],
+"s15": [
+ ("Ποιος κοιμόταν στη μέση;", ["Ο Μάρκο", "Ο Νταβίντε", "Ο Στέφανο"], "Ο Νταβίντε", "«Ο Νταβίντε κοιμόταν στη μέση, ανάσκελα.»"),
+ ("Τι σκέφτηκε ο Μάρκο για τον φόβο του στο ποτάμι;", ["Ότι τελικά δεν έλειπε τίποτα από κανέναν", "Ότι είχε δίκιο", "Ότι πρέπει να φύγει"], "Ότι τελικά δεν έλειπε τίποτα από κανέναν", "«Κι όμως, εκείνο το πρωί δεν έλειπε τίποτα από κανέναν.»"),
+ ("Τι μέρα άρχιζε έξω;", ["Μια μέρα τρύγου", "Μια βροχερή μέρα", "Μια γιορτή"], "Μια μέρα τρύγου", "«…άρχιζε μια μέρα τρύγου.»"),
+],
+"s16": [
+ ("Τι ρωτούσε πάντα πρώτο ο κόσμος;", ["Πού μένουν", "Και η ζήλια;", "Πόσα χρόνια είναι μαζί"], "Και η ζήλια;", "«…ρωτούσε πάντα πρώτο: και η ζήλια;»"),
+ ("Τι ένιωσε ο Στέφανο βλέποντάς τους να φιλιούνται;", ["Ζήλια", "Μια πλατιά τρυφερότητα", "Θυμό"], "Μια πλατιά τρυφερότητα", "«Ήρθε αντί γι’ αυτό, απρόσμενα, μια πλατιά τρυφερότητα.»"),
+ ("Τι έκανε ο Μάρκο όταν πρόσεξε τον Στέφανο;", ["Απομακρύνθηκε αμήχανα", "Του άπλωσε το χέρι και τον τράβηξε στην αγκαλιά", "Έφυγε"], "Του άπλωσε το χέρι και τον τράβηξε στην αγκαλιά", "«Ο Μάρκο του άπλωσε το χέρι, τον τράβηξε μέσα στην αγκαλιά.»"),
+],
+"s17": [
+ ("Τι έφτιαχνε ο Στέφανο τις βδομάδες πριν από τον τρύγο;", ["Σχέδια για το σπίτι", "Δοκάρια και καινούργια βαρέλια", "Κρασί"], "Δοκάρια και καινούργια βαρέλια", "«…ο Στέφανο ξαναέστηνε τα δοκάρια κι έφτιαχνε καινούργια βαρέλια.»"),
+ ("Ποιος ήταν ο «τρόπος να τραγουδά» του Νταβίντε;", ["Να σωπαίνει και να χαμογελά", "Να σφυρίζει", "Να γελά δυνατά"], "Να σωπαίνει και να χαμογελά", "«…ο Νταβίντε… σώπαινε και χαμογελούσε, κι αυτός ήταν ο δικός του τρόπος να τραγουδά.»"),
+ ("Τι χάραξε ο Στέφανο στο μεγαλύτερο βαρέλι;", ["Τη χρονιά", "Τρία γράμματα: Μ, Δ, Σ", "Το όνομα του κρασιού"], "Τρία γράμματα: Μ, Δ, Σ", "«…τρία γράμματα, το ένα δίπλα στο άλλο: Μ, Δ, Σ.»"),
+],
+}
