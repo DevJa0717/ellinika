@@ -82,13 +82,19 @@ def page(embed, local_fonts):
     f, alt, cap = C.CLOSING
     o.append(f'<figure class="closing"><img src="{img(f, embed)}" alt="{esc(alt)}"><figcaption>{cap}</figcaption></figure>')
     o.append('<hr class="ember">')
-    o.append(f'<section class="riflettere"><h2>{up("Για σκέψη")}</h2><p>{C.REFLECT}</p></section>')
+    o.append(f'<section class="front part2"><h2>{up(C.PART2_LABEL)}</h2><h3 class="part-title">{C.PART2_TITLE}</h3>'
+             + ''.join(f'<p>{p}</p>' for p in C.PART2) + '</section>')
+    o += [story(s, embed) for s in C.STORIES2]
+    f, alt, cap = C.CLOSING2
+    o.append(f'<figure class="closing"><img src="{img(f, embed)}" alt="{esc(alt)}"><figcaption>{cap}</figcaption></figure>')
+    o.append('<hr class="ember">')
+    o.append(f'<section class="riflettere"><h2>{up("Για σκέψη")}</h2><p>{C.REFLECT}</p><p class="second">{C.REFLECT2}</p></section>')
     o.append(f'<section class="appendix"><h2>{C.APPENDIX_TITLE}</h2><p class="sub">{C.APPENDIX_SUB}</p><div class="lex-grid">')
     for h, rows in C.APPENDIX:
         trs = ''.join(f'<tr><td class="gr">{esc(g)}</td><td class="en" lang="en">{esc(e)}</td></tr>' for g, e in rows)
         o.append(f'<div class="lex-block"><h3>{up(h)}</h3><table class="lex"><thead><tr><th>Ελληνικά</th><th>English</th></tr></thead><tbody>{trs}</tbody></table></div>')
     o.append('</div></section>')
-    o.append('<div class="colophon"><div class="md-mark">Μ × Δ</div><div class="pride-rule"></div>'
+    o.append(f'<div class="colophon"><div class="md-mark">{C.COLOPHON_MARK}</div><div class="pride-rule"></div>'
              + ''.join(f'<p>{p}</p>' for p in C.COLOPHON) + '</div>')
     o += ['</div>', '</body>', '</html>']
     return '\n'.join(o)

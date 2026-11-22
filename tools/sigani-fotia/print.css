@@ -88,3 +88,11 @@
   .cover { max-width:112mm; margin-top:7mm; }
   .level { white-space:nowrap; }
 }
+@media print {
+  .part2 { break-before:page; }
+  .part2 .part-title { color:#241712; font-size:40pt; }
+}
+@media print {
+  .closing { break-inside:avoid; }
+  .closing img { max-height:185mm; width:auto; max-width:150mm; }
+}
