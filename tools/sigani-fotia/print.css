@@ -1,0 +1,90 @@
+@media print {
+  @page {
+    size: letter;
+    margin: 17mm 16mm 16mm;
+    @bottom-left  { content:"Σιγανή φωτιά"; font-family:"Commissioner",sans-serif; font-size:8pt; color:#a3906f; letter-spacing:.04em; }
+    @bottom-right { content: counter(page); font-family:"Commissioner",sans-serif; font-size:8pt; color:#a3906f; }
+  }
+  @page:first { margin-top:24mm; @bottom-left{content:"";} @bottom-right{content:"";} }
+
+  html, body { background:#faf6ec !important; color:#2b2018; font-size:11.5pt; }
+  .wrap { max-width:none; padding:0; }
+  hr.ember { display:none; }
+
+  /* masthead -> readable on light */
+  .masthead { padding:4mm 0 0; break-after:page; text-align:center; }
+  .collana  { color:#9a6b1e; }
+  .masthead h1 { color:#241712; }
+  .tagline  { color:#5b4636; }
+  .meta-row { color:#7a6450; }
+  .cover    { max-width:128mm; }
+  .cover img{ box-shadow:none; border:1px solid #c9b48f; }
+
+  /* front matter */
+  .front    { max-width:none; break-before:page; }
+  .front h2 { color:#9a6b1e; }
+  .front p  { color:#2b2018; }
+  .front p b{ color:#241712; }
+  .legend   { color:#6c5746; }
+
+  /* story cards -> flow and pack; panels + apparatus never split */
+  .scheda {
+    break-before:auto;
+    break-inside:auto;
+    background:#f6edda !important;
+    box-shadow:none !important;
+    border:1px solid #d8c6a3;
+    border-radius:5px;
+    padding:7mm 9mm;
+    margin:0 0 6mm;
+  }
+  .scheda-head { break-after:avoid; }
+  .scheda h2   { break-after:avoid; margin:.2em 0 .4em; font-size:20pt; line-height:1.05; }
+  .pre         { break-inside:avoid; break-after:avoid; margin-bottom:4mm; }
+  .pre p       { font-size:10pt; line-height:1.4; }
+  .panel       { break-inside:avoid; break-after:avoid; margin:2mm 0 4mm; }
+  .panel img   { box-shadow:none; max-width:110mm; max-height:74mm; width:auto; height:auto; }
+  .panel + .panel { margin-top:3mm; }
+  .prose p     { font-size:10.5pt; line-height:1.45; margin-bottom:2.5mm; orphans:2; widows:2; }
+  .prose p:first-of-type::first-letter { float:none; font-size:1em; color:inherit; padding:0; font-family:inherit; }
+  .apparatus   { display:block; break-inside:avoid; margin-top:5mm; padding-top:4mm; }
+  .app-col     { margin-top:3.5mm; }
+  .app-col:first-child { margin-top:0; }
+  .app-col p   { font-size:9.5pt; line-height:1.4; }
+  figure       { break-inside:avoid; }
+
+  /* closing plate */
+  .closing { break-before:page; padding-top:6mm; }
+  .closing img { box-shadow:none; border:1px solid #c9b48f; max-width:150mm; }
+  .closing figcaption { color:#5b4636; }
+
+  /* reflect -> light card */
+  .riflettere { break-before:page; background:#f6edda !important; border:1px solid #d8c6a3; }
+  .riflettere h2 { color:#9a6b1e; }
+  .riflettere p  { color:#33271c; }
+
+  /* appendix -> light */
+  .appendix { break-before:page; }
+  .appendix > h2  { color:#241712; }
+  .appendix > .sub{ color:#6c5746; }
+  .lex-grid { background:#f6edda !important; box-shadow:none; border:1px solid #d8c6a3; columns:2; }
+  .lex-block{ break-inside:avoid; }
+  table.lex td.gr { color:#2b2018; }
+  table.lex td.en { color:#7a6450; }
+
+  /* colophon */
+  .colophon { break-before:avoid; margin-top:10mm; }
+  .md-mark  { color:#9a6b1e; }
+  .colophon p { color:#6c5746; }
+}
+@media print {
+  .edition { color:#7a6450; margin-top:8mm; }
+  .app-col ul { font-size:9.5pt; line-height:1.4; }
+  .app-col p.lexl { font-size:9.5pt; }
+}
+@media print {
+  .masthead h1 { font-size:58pt; margin:.12em 0 .1em; }
+  .tagline { font-size:13pt; max-width:34ch; }
+  .cover { max-width:112mm; margin-top:7mm; }
+  .level { white-space:nowrap; }
+}
