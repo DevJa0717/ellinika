@@ -1,0 +1,113 @@
+PART = dict(id="eidiseis", el="Στα πρωτοσέλιδα", en="In the headlines", dates="2021–2024",
+            intro_el="Ειδήσεις για ΛΟΑΤΚΙ+ θέματα, γραμμένες στο ύφος του ελληνικού Τύπου, με σημειώσεις για τη γλώσσα των εφημερίδων: τίτλοι, παθητική φωνή, «δήλωσε», «σύμφωνα με».",
+            intro_en="LGBTQ+ news stories written in the style of the Greek press, with notes on newspaper language: headlines, the passive, “stated”, “according to”. The articles are written for this book from the cited reports; they are not reproductions of real articles.")
+
+CHAPTERS = [
+dict(
+ id="eidiseis_nomoi", el="Ειδήσεις 2021–2022: στρατηγική, απαγορεύσεις, πρώτοι", title="News 2021–2022: a strategy, two bans and some firsts", level="B2",
+ summary_en="Four short news stories in press style. January 2021: Nicholas Yatromanolakis becomes the first openly gay person with ministerial rank (Deputy Minister of Culture and Sports). 17 March 2021: Prime Minister Kyriakos Mitsotakis sets up a committee, chaired by former ECHR president Linos-Alexandre Sicilianos, to draft a National Strategy for LGBTQI+ equality. May 2022: Greece bans conversion therapy on minors (Law 4931/2022), but only for paid health professionals, which Orlando LGBT+ and OLKE criticise. July 2022: “sex normalisation” surgery on intersex children under 15 is banned unless a court authorises it.",
+ sections=[
+  dict(id="ypourgos", el="«Πρώτος ανοιχτά γκέι υφυπουργός»", en="“First openly gay deputy minister”", paras=[
+   ("ΑΘΗΝΑ, Ιανουάριος 2021. Ο Νικόλας Γιατρομανωλάκης ανέλαβε υφυπουργός Πολιτισμού και Αθλητισμού στον ανασχηματισμό της κυβέρνησης. Είναι ο πρώτος ανοιχτά γκέι πολιτικός που αποκτά υπουργικό αξίωμα στην Ελλάδα. Λίγο νωρίτερα, ο επικεφαλής οικονομικός σύμβουλος του πρωθυπουργού, Αλέξης Πατέλης, είχε μιλήσει δημόσια σε συνέντευξή του: «Ο πρωθυπουργός έχει γνωρίσει τον σύζυγό μου, εγώ έχω γνωρίσει τη σύζυγό του». Ήταν η πρώτη φορά που ένας υψηλόβαθμος αξιωματούχος έκανε δημόσια coming out.",
+    "ATHENS, January 2021. Nicholas Yatromanolakis took office as Deputy Minister of Culture and Sports in the government reshuffle. He is the first openly gay politician to hold ministerial rank in Greece. A little earlier, the Prime Minister's chief economic adviser, Alexis Patelis, had spoken publicly in an interview: “The Prime Minister has met my husband, I have met his wife.” It was the first time a high-ranking official had come out publicly.", ["w_rights"]),
+  ]),
+  dict(id="stratigiki", el="«Επιτροπή για Εθνική Στρατηγική ισότητας ΛΟΑΤΚΙ+»", en="“Committee for a National LGBTQI+ Equality Strategy”", paras=[
+   ("ΑΘΗΝΑ, 17 Μαρτίου 2021. Με απόφαση του πρωθυπουργού Κυριάκου Μητσοτάκη συστάθηκε επιτροπή που θα συντάξει Εθνική Στρατηγική για την Ισότητα των ΛΟΑΤΚΙ+ ατόμων. Πρόεδρος ορίστηκε ο Λίνος-Αλέξανδρος Σισιλιάνος, πρώην πρόεδρος του Ευρωπαϊκού Δικαστηρίου Δικαιωμάτων του Ανθρώπου. Στην επιτροπή συμμετέχουν πανεπιστημιακοί, εκπρόσωποι της κοινωνίας των πολιτών και της κυβέρνησης. Η κίνηση έρχεται ως απάντηση στην πρώτη στρατηγική της Ευρωπαϊκής Επιτροπής για τα δικαιώματα ΛΟΑΤΚΙ+ στην ΕΕ.",
+    "ATHENS, 17 March 2021. By decision of Prime Minister Kyriakos Mitsotakis, a committee was set up to draft a National Strategy for the Equality of LGBTQI+ people. Linos-Alexandre Sicilianos, former President of the European Court of Human Rights, was appointed chair. The committee includes academics, representatives of civil society and of the government. The move comes in response to the European Commission's first strategy on LGBTIQ rights in the EU.", ["w_rights"]),
+  ]),
+  dict(id="metastrofi", el="«Τέλος στις “θεραπείες” μεταστροφής για ανηλίκους»", en="“End to conversion ‘therapies’ for minors”", paras=[
+   ("ΑΘΗΝΑ, Μάιος 2022. Η Βουλή ψήφισε την απαγόρευση των λεγόμενων «θεραπειών μεταστροφής» σε ανηλίκους (ν. 4931/2022). Πρόκειται για πρακτικές που υποτίθεται ότι «αλλάζουν» τον σεξουαλικό προσανατολισμό ή την ταυτότητα φύλου ενός ανθρώπου. Η απαγόρευση όμως αφορά μόνο αμειβόμενους επαγγελματίες υγείας. Οργανώσεις όπως η Orlando LGBT+ και η Ομοφυλοφιλική Λεσβιακή Κοινότητα Ελλάδας (ΟΛΚΕ) επέκριναν τον νόμο, επειδή αφήνει έξω θρησκευτικούς και άλλους «συμβούλους».",
+    "ATHENS, May 2022. Parliament passed a ban on so-called “conversion therapies” for minors (Law 4931/2022). These are practices that supposedly “change” a person's sexual orientation or gender identity. The ban, however, covers only paid health professionals. Organisations such as Orlando LGBT+ and the Gay and Lesbian Community of Greece (OLKE) criticised the law because it leaves out religious and other “counsellors”.", ["w_rights"]),
+   ("ΑΘΗΝΑ, Ιούλιος 2022. Νέα διάταξη απαγορεύει τις επεμβάσεις «κανονικοποίησης φύλου» σε ίντερσεξ παιδιά κάτω των 15 ετών, εκτός αν τις εγκρίνει δικαστήριο. Ίντερσεξ λέγονται οι άνθρωποι που γεννιούνται με σωματικά χαρακτηριστικά φύλου που δεν ταιριάζουν στις συνηθισμένες κατηγορίες «άντρας» ή «γυναίκα». Η Ελλάδα έγινε έτσι μία από τις λίγες χώρες με τέτοια προστασία.",
+    "ATHENS, July 2022. A new provision bans “sex normalisation” surgery on intersex children under the age of 15, unless a court approves it. Intersex people are those born with physical sex characteristics that do not fit the usual categories “male” or “female”. Greece thus became one of the few countries with such protection.", ["w_rights"]),
+  ]),
+ ],
+ grammar=[
+  dict(level="B2", title="Συστάθηκε επιτροπή, ορίστηκε πρόεδρος: the passive in news reports", el="Η παθητική φωνή στις ειδήσεις.",
+       en="News Greek loves the **passive aorist** with the subject after the verb: ***Συστάθηκε** επιτροπή* (a committee was set up), ***Ορίστηκε** πρόεδρος ο…* (… was appointed chair), ***Ψηφίστηκε** ο νόμος*. Word order verb-first puts the event first, like a headline.",
+       examples=[("Ψηφίστηκε χθες το νομοσχέδιο.", "The bill was passed yesterday."),
+                 ("Ανακοινώθηκαν τα αποτελέσματα.", "The results were announced.")]),
+  dict(level="B2", title="Πρόκειται για: “it is about / this concerns”", el="«Πρόκειται για» + αιτιατική = είναι, αφορά.",
+       en="**Πρόκειται για** + accusative is a fixed impersonal phrase for explaining what something is: ***Πρόκειται για** πρακτικές που…* (These are practices that…). Also **πρόκειται να** + verb = be going to: *Πρόκειται να ψηφιστεί αύριο.*",
+       examples=[("Πρόκειται για μια ιστορική απόφαση.", "This is a historic decision."),
+                 ("Ο νόμος πρόκειται να ισχύσει από τον Ιούλιο.", "The law is going to apply from July.")]),
+ ],
+ terms=[
+  ("ο υφυπουργός", "deputy minister", "Μέλος της κυβέρνησης κάτω από τον υπουργό.", "A government member ranking below the minister."),
+  ("ο ανασχηματισμός", "reshuffle", "Αλλαγή προσώπων στην κυβέρνηση.", "A change of people in the government."),
+  ("το αξίωμα", "office, post", "Επίσημη θέση με εξουσία.", "An official position with authority."),
+  ("υψηλόβαθμος", "high-ranking", "Που έχει ψηλή θέση.", "Having a high position."),
+  ("συστήνω (επιτροπή)", "set up (a committee)", "Δημιουργώ επίσημα μια ομάδα.", "To create a group officially."),
+  ("συντάσσω", "draft, compose", "Γράφω ένα επίσημο κείμενο.", "To write an official text."),
+  ("η κοινωνία των πολιτών", "civil society", "Οργανώσεις και σωματεία έξω από το κράτος.", "Organisations and associations outside the state."),
+  ("η θεραπεία μεταστροφής", "conversion therapy", "Πρακτική που προσπαθεί να «αλλάξει» τον προσανατολισμό ή την ταυτότητα φύλου.", "A practice that tries to “change” orientation or gender identity."),
+  ("ο ανήλικος", "minor", "Άνθρωπος κάτω από 18 χρονών.", "A person under 18."),
+  ("επικρίνω", "criticise", "Λέω τι είναι λάθος σε κάτι.", "To say what is wrong with something."),
+  ("η διάταξη", "provision (of a law)", "Ένα κομμάτι νόμου.", "A part of a law."),
+  ("ίντερσεξ", "intersex", "Άνθρωπος με σωματικά χαρακτηριστικά φύλου έξω από τις συνηθισμένες κατηγορίες.", "A person whose sex characteristics fall outside the usual categories."),
+ ],
+ questions=[
+  ("Ποιος ήταν ο πρώτος ανοιχτά γκέι πολιτικός με υπουργικό αξίωμα;", ["Ο Νικόλας Γιατρομανωλάκης", "Ο Αλέξης Πατέλης", "Ο Λίνος-Αλέξανδρος Σισιλιάνος", "Ο Στέφανος Κασσελάκης"], "Ο Νικόλας Γιατρομανωλάκης", "Υφυπουργός Πολιτισμού από τον Ιανουάριο του 2021."),
+  ("Ποιος ήταν πρόεδρος της επιτροπής για την Εθνική Στρατηγική;", ["Ο Λίνος-Αλέξανδρος Σισιλιάνος", "Ο Κυριάκος Μητσοτάκης", "Η Κατερίνα Σακελλαροπούλου", "Ο Αλέξης Πατέλης"], "Ο Λίνος-Αλέξανδρος Σισιλιάνος", "Πρώην πρόεδρος του ΕΔΔΑ."),
+  ("Ποιους αφορά η απαγόρευση των θεραπειών μεταστροφής του 2022;", ["Μόνο αμειβόμενους επαγγελματίες υγείας", "Όλους, και τους ιερείς", "Μόνο τους γονείς", "Μόνο τα σχολεία"], "Μόνο αμειβόμενους επαγγελματίες υγείας", "Γι' αυτό τον επέκριναν οι οργανώσεις."),
+  ("Τι απαγόρευσε η διάταξη του Ιουλίου 2022;", ["Επεμβάσεις «κανονικοποίησης φύλου» σε ίντερσεξ παιδιά κάτω των 15", "Το Pride", "Τις αιμοδοσίες", "Τα γκέι μπαρ"], "Επεμβάσεις «κανονικοποίησης φύλου» σε ίντερσεξ παιδιά κάτω των 15", "Εκτός αν τις εγκρίνει δικαστήριο."),
+  ("Τι σημαίνει «Πρόκειται για πρακτικές που…»;", ["Αυτές είναι πρακτικές που…", "Θα γίνουν πρακτικές που…", "Δεν υπάρχουν πρακτικές που…", "Ρωτάμε για πρακτικές που…"], "Αυτές είναι πρακτικές που…", "«Πρόκειται για» εξηγεί τι είναι κάτι."),
+ ],
+ vocab=["αναλαμβάνω", "η κυβέρνηση", "ο σύμβουλος", "η συνέντευξη", "ο σύζυγος", "η απόφαση", "ο πρωθυπουργός", "ορίζω", "ο εκπρόσωπος", "η απαγόρευση", "υποτίθεται", "ο προσανατολισμός", "αμειβόμενος", "η επέμβαση", "εγκρίνω"],
+),
+
+dict(
+ id="eidiseis_kasselakis", el="Ειδήσεις 2023–2024: ένας γκέι αρχηγός κόμματος", title="News 2023–2024: a gay party leader", level="B2",
+ summary_en="A press-style account of Stefanos Kasselakis, a Greek-American former Goldman Sachs trader who, on 24 September 2023, unexpectedly won the leadership of SYRIZA, then the main opposition party, with 56% against Effie Achtsioglou's 44%, becoming the first openly LGBT leader of Greece's main opposition party. He is married to the American nurse Tyler McBeth. On 8 September 2024 the party's Political Secretariat declared him removed after a no-confidence motion by 87 Central Committee members; on 8 November 2024 he left to found his own party. The chapter practises neutral political reporting.",
+ sections=[
+  dict(id="ekloges", el="«Έκπληξη στις εσωκομματικές εκλογές»", en="“Surprise in the party leadership election”", paras=[
+   ("ΑΘΗΝΑ, 24 Σεπτεμβρίου 2023. Ο Στέφανος Κασσελάκης εξελέγη νέος πρόεδρος του ΣΥΡΙΖΑ, του τότε κόμματος της αξιωματικής αντιπολίτευσης. Στον δεύτερο γύρο των εσωκομματικών εκλογών πήρε 56%, έναντι 44% της Έφης Αχτσιόγλου. Στον πρώτο γύρο, στις 17 Σεπτεμβρίου, είχε έρθει πρώτος ανάμεσα σε πέντε υποψηφίους με 45%. Το αποτέλεσμα θεωρήθηκε μεγάλη έκπληξη, αφού ο Κασσελάκης ήταν σχεδόν άγνωστος λίγες εβδομάδες νωρίτερα.",
+    "ATHENS, 24 September 2023. Stefanos Kasselakis was elected new leader of SYRIZA, then the main opposition party. In the second round of the party election he won 56%, against 44% for Effie Achtsioglou. In the first round, on 17 September, he had come first among five candidates with 45%. The result was seen as a big surprise, since Kasselakis had been almost unknown a few weeks earlier.", ["w_kasselakis"]),
+   ("Ο Κασσελάκης είναι Ελληνοαμερικανός και πρώην στέλεχος της Goldman Sachs. Έζησε στο Μαϊάμι μέχρι τις αρχές του 2023. Είναι ανοιχτά γκέι και παντρεμένος με τον Αμερικανό νοσηλευτή Tyler McBeth. Είναι το πρώτο μέλος της ΛΟΑΤΚΙ+ κοινότητας που έγινε αρχηγός του μεγαλύτερου κόμματος της αντιπολίτευσης στην Ελλάδα.",
+    "Kasselakis is Greek-American and a former Goldman Sachs trader. He lived in Miami until early 2023. He is openly gay and married to the American nurse Tyler McBeth. He is the first member of the LGBTQ+ community to become leader of the largest opposition party in Greece.", ["w_kasselakis", "w_rights"]),
+  ]),
+  dict(id="apomakrynsi", el="«Πρόταση μομφής και νέο κόμμα»", en="“No-confidence motion and a new party”", paras=[
+   ("ΑΘΗΝΑ, Σεπτέμβριος 2024. Μετά από μήνες εσωτερικής δυσαρέσκειας, 87 μέλη της Κεντρικής Επιτροπής του ΣΥΡΙΖΑ κατέθεσαν πρόταση μομφής εναντίον του προέδρου. Στις 8 Σεπτεμβρίου 2024 η Πολιτική Γραμματεία του κόμματος ανακοίνωσε ότι ο Κασσελάκης απομακρύνεται από τη θέση του.",
+    "ATHENS, September 2024. After months of internal discontent, 87 members of SYRIZA's Central Committee filed a motion of no confidence against the leader. On 8 September 2024 the party's Political Secretariat announced that Kasselakis was being removed from his post.", ["w_kasselakis"]),
+   ("ΑΘΗΝΑ, 8 Νοεμβρίου 2024. Ο Στέφανος Κασσελάκης ανακοίνωσε ότι αποχωρεί από τον ΣΥΡΙΖΑ, αφού το συνέδριο του κόμματος απέρριψε την υποψηφιότητά του για την ηγεσία. Δήλωσε ότι θα ιδρύσει δικό του κόμμα, το οποίο αργότερα πήρε το όνομα «Δημοκράτες – Προοδευτικό Κέντρο».",
+    "ATHENS, 8 November 2024. Stefanos Kasselakis announced that he was leaving SYRIZA, after the party congress rejected his candidacy for the leadership. He stated that he would found his own party, which was later named Democrats – Progressive Centre.", ["w_kasselakis"]),
+  ]),
+  dict(id="glossa_typou", el="Η γλώσσα του πολιτικού ρεπορτάζ", en="The language of political reporting", paras=[
+   ("Προσέξτε πώς γράφει ένα ουδέτερο πολιτικό ρεπορτάζ. Τα ρήματα είναι συχνά επίσημα: «εξελέγη» (αντί για «εκλέχτηκε»), «κατέθεσαν», «ανακοίνωσε», «δήλωσε», «αποχωρεί». Ο δημοσιογράφος δεν λέει τη δική του γνώμη. Γράφει «το αποτέλεσμα θεωρήθηκε έκπληξη», όχι «ήταν απίστευτο». Και η σεξουαλικότητα ενός πολιτικού αναφέρεται ως γεγονός, όχι ως σχόλιο.",
+    "Notice how a neutral political report is written. The verbs are often formal: εξελέγη (“was elected”, instead of εκλέχτηκε), κατέθεσαν (“filed”), ανακοίνωσε (“announced”), δήλωσε (“stated”), αποχωρεί (“is leaving”). The journalist does not give his own opinion. He writes “the result was seen as a surprise”, not “it was unbelievable”. And a politician's sexuality is mentioned as a fact, not as a comment.", ["w_kasselakis"]),
+  ]),
+ ],
+ grammar=[
+  dict(level="B2", title="Εξελέγη, συνελήφθη: learned passive aorists", el="Λόγιοι τύποι αορίστου με εσωτερική αύξηση.",
+       en="Some verbs of learned origin keep an **internal augment** in the aorist, especially in news: **εκλέγω → εξελέγη** (was elected), **συλλαμβάνω → συνελήφθη** (was arrested), **εκδίδω → εξεδόθη** (was issued), **καταδικάζω → καταδικάστηκε** (regular). Spoken Greek often prefers *εκλέχτηκε*.",
+       examples=[("Ο δήμαρχος εξελέγη με 60%.", "The mayor was elected with 60%."),
+                 ("Ο ύποπτος συνελήφθη χθες.", "The suspect was arrested yesterday.")]),
+  dict(level="B2", title="Έναντι, αφού, ενώ: connectors of comparison and cause", el="Σύνδεσμοι σύγκρισης και αιτίας.",
+       en="**έναντι** + genitive/accusative = against, compared with (*56% έναντι 44%*); **αφού** = since/because (*αφού ήταν άγνωστος*) or after (*αφού τελείωσε*); **ενώ** = while/whereas (*ενώ η αντίπαλός του πήρε 44%*).",
+       examples=[("Κέρδισε με 56% έναντι 44%.", "He won with 56% against 44%."),
+                 ("Αποχώρησε, αφού απορρίφθηκε η υποψηφιότητά του.", "He left, since his candidacy was rejected.")]),
+ ],
+ terms=[
+  ("η αξιωματική αντιπολίτευση", "main opposition", "Το μεγαλύτερο κόμμα που δεν είναι στην κυβέρνηση.", "The largest party not in government."),
+  ("εσωκομματικός", "intra-party", "Που γίνεται μέσα σε ένα κόμμα.", "Happening inside a party."),
+  ("ο γύρος (εκλογών)", "round (of voting)", "Μία από τις φάσεις μιας ψηφοφορίας.", "One of the stages of a vote."),
+  ("ο υποψήφιος", "candidate", "Αυτός που ζητάει να εκλεγεί.", "Someone who asks to be elected."),
+  ("το στέλεχος", "executive; party official", "Άνθρωπος με θέση ευθύνης σε εταιρεία ή κόμμα.", "A person in a position of responsibility in a company or party."),
+  ("ο νοσηλευτής", "nurse (m.)", "Αυτός που φροντίζει αρρώστους στο νοσοκομείο.", "Someone who cares for patients in hospital."),
+  ("η δυσαρέσκεια", "discontent", "Όταν οι άνθρωποι δεν είναι ικανοποιημένοι.", "When people are not satisfied."),
+  ("η πρόταση μομφής", "motion of no confidence", "Επίσημο αίτημα να φύγει κάποιος από τη θέση του.", "A formal request for someone to leave their post."),
+  ("απομακρύνω", "remove", "Βγάζω κάποιον από μια θέση.", "To take someone out of a position."),
+  ("το συνέδριο", "congress, conference", "Μεγάλη επίσημη συνάντηση μελών.", "A large formal meeting of members."),
+  ("ιδρύω", "found", "Δημιουργώ κάτι καινούριο, π.χ. κόμμα.", "To create something new, e.g. a party."),
+  ("ουδέτερος", "neutral", "Που δεν παίρνει θέση υπέρ ή κατά.", "Not taking sides."),
+ ],
+ questions=[
+  ("Με τι ποσοστό κέρδισε ο Κασσελάκης στον δεύτερο γύρο;", ["56%", "45%", "44%", "87%"], "56%", "Έναντι 44% της Αχτσιόγλου."),
+  ("Γιατί το αποτέλεσμα θεωρήθηκε έκπληξη;", ["Ο Κασσελάκης ήταν σχεδόν άγνωστος λίγες εβδομάδες πριν", "Ήταν ο μόνος υποψήφιος", "Δεν ψήφισε κανείς", "Ήταν πρώην πρωθυπουργός"], "Ο Κασσελάκης ήταν σχεδόν άγνωστος λίγες εβδομάδες πριν", "Είχε ζήσει στο Μαϊάμι."),
+  ("Ποιος είναι ο σύζυγος του Κασσελάκη;", ["Ο Tyler McBeth, Αμερικανός νοσηλευτής", "Ένας Έλληνας βουλευτής", "Ένας τραπεζίτης", "Δεν είναι παντρεμένος"], "Ο Tyler McBeth, Αμερικανός νοσηλευτής", "Είναι ανοιχτά γκέι."),
+  ("Τι έγινε στις 8 Νοεμβρίου 2024;", ["Ο Κασσελάκης αποχώρησε από τον ΣΥΡΙΖΑ", "Εξελέγη πρωθυπουργός", "Παντρεύτηκε", "Έγιναν εθνικές εκλογές"], "Ο Κασσελάκης αποχώρησε από τον ΣΥΡΙΖΑ", "Για να ιδρύσει δικό του κόμμα."),
+  ("Ποιο ρήμα είναι λόγιος τύπος του «εκλέχτηκε»;", ["εξελέγη", "εκλέγει", "εκλογή", "εκλεγμένος"], "εξελέγη", "Με εσωτερική αύξηση."),
+ ],
+ vocab=["εκλέγομαι", "ο πρόεδρος", "το κόμμα", "το αποτέλεσμα", "η έκπληξη", "άγνωστος", "η εβδομάδα", "παντρεμένος", "το μέλος", "καταθέτω", "ανακοινώνω", "αποχωρώ", "απορρίπτω", "η ηγεσία", "δηλώνω"],
+),
+]
